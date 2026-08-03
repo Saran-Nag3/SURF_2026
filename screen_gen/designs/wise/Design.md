@@ -1,0 +1,2018 @@
+---
+name: wise-app-design-community
+source_file: Wise App Design (Community)
+source_page: All pages (6): Cover, 📖 About, 📱 Design, 📺 Screens, ❖ Components, 🎨 Style & Assets
+generated_at: 2026-07-02T20:50:07.698941+00:00
+---
+
+# Wise App Design (Community) Design Guidelines
+
+## Source
+- Figma file: Wise App Design (Community)
+- Figma page: All pages (6): Cover, 📖 About, 📱 Design, 📺 Screens, ❖ Components, 🎨 Style & Assets
+- Extracted at: 2026-07-02T20:50:07.698941+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- M3/white: [#FFFFFF]
+- M3/ref/neutral/neutral10: [#1D1B20]
+- M3/sys/light/on-surface: [#1D1B20]
+- M3/sys/light/surface: [#FEF7FF]
+- M3/sys/light/outline-variant: [#FEF7FF]
+- flag/yellow: [#FFD400]
+- flag/red: [#F0263C]
+- flag/grey: none
+- flag/white: [#FFFFFF]
+- flag/dark blue: [#231D9A]
+- flag/green: [#005B13]
+- flag/amber: [#CC9500]
+- flag/light blue: [#78C9FF]
+- flag/orange: [#FF7700]
+- flag/black: [#000000]
+- flag/maroon: [#960A3C]
+- flag/dark green: [#163300]
+- background/elevated: [#FFFFFF]
+- Sentiment Colors/Sentiment Negative: [#A8200D]
+- Sentiment Colors/Sentiment Positive: [#2F5711]
+- Sentiment Colors/Sentiment Warning: [#EDC843]
+- Secondary Colors/Dark Maroon: [#320707]
+- Secondary Colors/Dark Charcoal: [#21231D]
+- Secondary Colors/Dark Gold: [#3A341C]
+- Secondary Colors/Dark Purple: [#260A2F]
+- Secondary Colors/Bright Pink: [#FFD7EF]
+- Secondary Colors/Bright Blue: [#A0E1E1]
+- Secondary Colors/Bright Yellow: [#FFEB69]
+- Secondary Colors/Bright Orange: [#FFC091]
+- Border Colors/Border Overlay: [#0E0F0C1F]
+- Border Colors/Border Neutral: [#0E0F0C1F]
+- Content Colors/Content Link: [#163300]
+- Content Colors/Content Tertiary: [#6A6C6A]
+- Content Colors/Content Secondary: [#454745]
+- Content Colors/Content Primary: [#0E0F0C]
+- Background Colors/Background Overlay: [#16330024]
+- Background Colors/Background Neutral: [#16330024]
+- Background Colors/Background Elevated: [#FFFFFF]
+- Background Colors/Background Screen: [#FFFFFF]
+- Interactive Colors/Interactive Control: [#163300]
+- Interactive Colors/Interactive Secondary: [#868685]
+- Interactive Colors/Interactive Accent: [#9FE870]
+- Interactive Colors/Interactive Primary: [#163300]
+- Base Colors/Base Dark: [#121511]
+- Base Colors/Base Light: [#FFFFFF]
+- Base Colors/Base Contrast: [#FFFFFF]
+- Core Colors/Forest Green: [#163300]
+- Core Colors/Bright Green: [#9FE870]
+- Border Colours/Border Neutral: none
+- Background Colours/Background Screen: [#FFFFFF]
+- Interactive Colours/Interactive Primary: [#163300]
+- Interactive Colours/Interactive Accent: [#9FE870]
+- Interactive Colours/Interactive Secondary: [#868685]
+- Sentiment Colours/Sentiment Negative: [#A8200D]
+- Content Colours/Content Primary: [#0E0F0C]
+- Background Colours/Background Neutral: [#16330024]
+- Base Colours/Base Contrast: none
+- Primary/White/300: [#8C8E8F]
+- background/neutral/hover: [#16330021]
+- interactive/negative/default: [#E74848]
+- content/primary: [#0E0F0C]
+- Content Colours/Content Secondary: [#454745]
+- interactive/accent/default: [#9FE870]
+- interactive/control/default: [#163300]
+- content/secondary: [#454745]
+- background/neutral/default: [#16330014]
+- primary/forest green: [#163300]
+- base/contrast: [#FFFFFF]
+- sentiment/negative/default: [#A8200D]
+- sentiment/positive: [#2F5711]
+- border/neutral: [#FFFFFF]
+- interactive/secondary/default: [#868685]
+- interactive/primary/default: [#163300]
+- content/tertiary: [#6A6C6A]
+- content/link/default: [#163300]
+- background/neutral/active: [#1633002E]
+- categories/trips: [#C8AD98]
+- categories/transport: [#FFAA99]
+- categories/shopping: [#7B8ABE]
+- categories/savings: [#C293C9]
+- categories/salary: [#79A6FC]
+- categories/personal care: [#8DA1C7]
+- categories/investments: [#F2C374]
+- categories/housing: [#F09EBC]
+- categories/groceries: [#FC8D94]
+- categories/general: [#CDD0CD]
+- categories/family: [#F2A9CE]
+- categories/expenses: [#9ACED9]
+- categories/entertainment: [#9DDDD5]
+- categories/eating out: [#92B0EA]
+- categories/cash: [#AFCCA1]
+- categories/bills: [#EDB37E]
+- background/screen/default: [#FFFFFF]
+- background/dimmer: [#FFFFFFB2]
+- interactive/secondary/hover: [#6C6C6B]
+- background/overlay: [#16330014]
+- interactive/control/active: [#0E0F0C]
+- interactive/secondary/active: [#FFFFFF]
+- interactive/control/hover: [#0D1F00]
+- nudge/background color: [#16330014]
+- interactive/accent/hover: [#80E142]
+- sentiment/negative/active: [#FFFFFF]
+- sentiment/negative/hover: [#FFFFFF]
+- secondary/bright yellow: [#FFEB69]
+- background/screen/active: [#16330021]
+- background/screen/hover: [#16330014]
+- sentiment/warning: [#EDC843]
+- interactive/primary/active: [#0E0F0C]
+- interactive/accent/active: [#65CF21]
+- interactive/primary/hover: [#0D1F00]
+- content/link/hover: [#0D1F00]
+- content/link/active: [#0E0F0C]
+- Neutral Dark: [#2D2D2D]
+- Stroke: none
+- Neutral medium: [#D8D8D8]
+- Text/tripit_white: [#FFFFFF]
+- Text/main_black: [#000000]
+- Text Body: [#5C5C5C]
+
+## Raw Colors (unstyled)
+- #000000: 692 uses
+- #FFD400: 120 uses
+- #FFFFFF: 120 uses
+- #E8178A: 84 uses
+- #9747FF: 54 uses
+- #D9D9D9: 43 uses
+- #00000026: 38 uses
+- #FFFFFF08: 38 uses
+- #1E1E1F: 30 uses
+- #231D9A: 22 uses
+- #0000001A: 16 uses
+- #A3A19C: 12 uses
+- #0E0F0C: 9 uses
+- #74777580: 9 uses
+- #C4C4C4: 9 uses
+- #868685: 8 uses
+- #163300: 7 uses
+- #2F5711: 7 uses
+
+## Typography Tokens
+- Body large: Inter Regular (400), 16px / 24px, tracking -0.08px
+- Link default: Inter SemiBold (600), 14px / 22px, tracking 0.18px
+- Body large bold: Inter SemiBold (600), 16px / 24px, tracking 0.08px
+- Link large: Inter SemiBold (600), 16px / 24px, tracking 0.16px
+- Body default bold: Inter SemiBold (600), 14px / 22px, tracking 0.18px
+- Body default: Inter Regular (400), 14px / 22px, tracking 0.14px
+- Title group: Inter Medium (500), 14px / 20px, tracking 0.21px
+- Title body: Inter SemiBold (600), 18px / 24px, tracking -0.18px
+- Title subsection: Inter SemiBold (600), 22px / 28px, tracking -0.33px
+- Title section: Inter SemiBold (600), 26px / 32px, tracking -0.39px
+- Title screen: Inter SemiBold (600), 30px / 34px, tracking -0.75px
+- Body/Default Bold: Inter SemiBold (600), 14px / 22px, tracking 0.18px
+- Body/Default: Inter Regular (400), 14px / 22px, tracking 0.14px
+- Body/Large: Inter Regular (400), 16px / 24px, tracking -0.08px
+- Title Section: Inter SemiBold (600), 26px / 32px, tracking -0.39px
+- Body/Large Bold: Inter SemiBold (600), 16px / 24px, tracking 0.08px
+- Axis Label: Inter Regular (400), 12px / auto, tracking 0px
+- Title Body: Inter SemiBold (600), 18px / 24px, tracking -0.18px
+- Title Group: Inter Medium (500), 14px / 20px, tracking 0.21px
+- Title Subsection: Inter SemiBold (600), 22px / 28px, tracking -0.33px
+- Body Default Small: Inter Regular (400), 14px / 20px, tracking 0.21px
+
+## Raw Typography (unstyled)
+- Inter Regular, 12px: 258 uses
+- Inter Bold, 12px: 30 uses
+- Inter SemiBold, 12px: 30 uses
+- Roboto Mono Medium, 16px: 14 uses
+- Roboto Medium, 14px: 10 uses
+- Inter Regular, 22px: 7 uses
+- Roboto Mono Medium, 24px: 5 uses
+- Inter SemiBold, 14px: 4 uses
+- Inter Regular, 10.45px: 3 uses
+- Inter Regular, 12.2px: 3 uses
+
+## Typography Hierarchy
+- 30px - Title screen (Inter SemiBold)
+- 26px - Title Section (Inter SemiBold)
+- 26px - Title section (Inter SemiBold)
+- 24px - Roboto Mono Medium, 24px (raw)
+- 22px - Inter Regular, 22px (raw)
+- 22px - Title Subsection (Inter SemiBold)
+- 22px - Title subsection (Inter SemiBold)
+- 18px - Title Body (Inter SemiBold)
+- 18px - Title body (Inter SemiBold)
+- 16px - Body large (Inter Regular)
+- 16px - Body large bold (Inter SemiBold)
+- 16px - Body/Large (Inter Regular)
+- 16px - Body/Large Bold (Inter SemiBold)
+- 16px - Link large (Inter SemiBold)
+- 16px - Roboto Mono Medium, 16px (raw)
+- 14px - Body Default Small (Inter Regular)
+- 14px - Body default (Inter Regular)
+- 14px - Body default bold (Inter SemiBold)
+- 14px - Body/Default (Inter Regular)
+- 14px - Body/Default Bold (Inter SemiBold)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - Link default (Inter SemiBold)
+- 14px - Roboto Medium, 14px (raw)
+- 14px - Title Group (Inter Medium)
+- 14px - Title group (Inter Medium)
+- 12.2px - Inter Regular, 12.2px (raw)
+- 12px - Axis Label (Inter Regular)
+- 12px - Inter Bold, 12px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Inter SemiBold, 12px (raw)
+- 10.45px - Inter Regular, 10.45px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- box-shadow/large: [drop_shadow 66px offset 0 20 #22304933]
+- box-shadow/small: [drop_shadow 40px offset 0 0 #45474533]
+- Shadow: [drop_shadow 4px offset 0 2 #86868540]
+
+## Grid Styles
+- M3/extra small/Extra Small (0-599dp) layout regions off: columns count 4, section 83px, gutter 16px, align stretch
+
+## Component Families
+- Navbar
+- Bottom Nav Icons
+- Status
+- Stepper
+- _Stepper
+- _Stepper Buttons
+- Circle Sign
+- _Bullet Point
+- Avatar
+- Toggle
+- Exchange Graphs
+- Graph
+- _Bullet Pointer
+- _Supporting Text Options
+- _Fee Options
+- _Country Options
+- _Category Options
+- _Categories
+- _Simple Options
+- _Country Code Dropdowns
+- _Search Input Field
+- _Country Code Options
+- Checkboxes
+- Checkbox Button
+- Tooltip
+- Calendar Dropdown
+- _Calendar Month
+- _Calendar Day
+- _Calendar Week Day
+- _Calendar Chevrons
+- _Calendar Header
+- Currency Input Field
+- Dropdown Support Text Input Field
+- Dropdown Input Field
+- Text Input Field
+- Password Input Field
+- Transaction Buttons
+- Card Buttons
+- Illustration Card Buttons
+- Chip Button
+- Icon Button
+- Destructive Button
+- Toggle Button
+- Category Button
+- _Circle Buttons
+- Action Button
+- Account Button
+- Menu Buttons
+- Option Button
+- Link Button
+- Sign In Buttons
+- google
+- apple
+- facebook
+- Primary Button
+- Component 2
+- Europe (EU)
+- Password
+- Upload
+- Receive
+- Pending
+- Success
+- Card
+- Warning
+- Tick
+- Close
+- Add-Interactive
+- Add-Informational
+- Business account
+- Personal account
+- Scheduled transfers
+- Direct debits
+- Spend
+- Send
+- Convert
+- Keep
+- Invest
+- Notification
+- Lock
+- Global
+- Neutral 2
+- Neutral 1
+- Warning 3
+- Warning 2
+- Warning 1
+- Negative 3
+- Negative 2
+- Negative 1
+- Positive 2
+- Positive 1
+- Upload Input
+- _Step Tooltip
+- _Progress Step
+- _Progress Bar
+- Section Card
+- _Dashed Line
+- _Countries Dropdown
+- _Categories Dropdown
+- _Simple Dropdown
+- Account Dropdown
+- Device
+- 3D Avatars
+- identity
+- chevron-right
+- chevron-left
+- chevron-down
+- chevron-up
+- open-envelope
+- heart
+- trips
+- transport
+- shopping
+- savings
+- personal-care
+- investments
+- housing
+- grocery
+- entertainment
+- pie-chart
+- eating
+- bills
+- upload
+- bank-note-arrow
+- documents
+- direct-debits
+- auto-conversions
+- lightning
+- stocks
+- interest
+- convert
+- bank-note
+- three-dots
+- calendar
+- bank
+- briefcase
+- key
+- close-circle
+- receipt
+- phone-email
+- phone
+- lock
+- link
+- notification
+- message
+- email
+- logout
+- settings
+- search
+- two-arrows
+- plus
+- clock
+- user
+- menu
+- gift
+- layout
+- users
+- card
+- home
+- arrow-left
+- arrow-right
+- arrow-down
+- arrow-up
+- close
+- SMS
+- WhatsApp
+- call
+- Vatican City
+- Spain
+- Slovenia
+- Slovakia
+- San Marino
+- Portugal
+- Netherlands
+- Ireland
+- Monaco
+- Malta
+- Luxembourg
+- Lithuania
+- Liechtenstein
+- Latvia
+- Italy
+- Greece
+- Germany
+- France
+- Finland
+- Estonia
+- Croatia
+- Belgium
+- Austria
+- Andorra
+- Cyprus flag
+- Zambia
+- South Africa
+- Vietnam
+- Uruguay
+- Uganda
+- Ukraine
+- Tanzania
+- Taiwan
+- Turkey
+- Turkmenistan
+- Thailand
+- Singapore
+- Sweden
+- Saudi Arabia
+- Russia
+- Romania
+- Qatar
+- Indonesia
+- Poland
+- Pakistan
+- Philippines
+- Peru
+- Panama
+- Oman
+- New Zealand
+- Nepal
+- Norway
+- Nigeria
+- Namibia
+- Mozambique
+- Malaysia
+- Mexico
+- Mauritius
+- Morocco
+- Lesotho
+- Sri Lanka
+- Laos
+- Kuwait
+- South Korea
+- Kenya
+- Japan
+- Jamaica
+- Iceland
+- Isle of Man
+- Israel
+- Hungary
+- Hong Kong
+- Ghana
+- Georgia
+- svgexport-41
+- Egypt
+- Denmark
+- Czechia
+- No Flag
+- Costa Rica
+- Colombia
+- China
+- Chile
+- Switzerland
+- Canada
+- Botswana
+- Brazil
+- Brunei
+- Bahrain
+- Bulgaria
+- Bangladesh
+- Australia
+- Argentina
+- United Arab Emirates
+- India
+- Europe
+- United States
+- United Kingdom
+- web
+- check
+- shield
+- filters
+- lock-open
+- download
+- open-tab
+- eye
+- warning
+- help
+- eye-off
+- cookie
+- globe
+- graph
+- jars
+- megaphone
+- receive
+- multi-currency
+- plane
+- wise-card
+- Word mark
+- Fast Flag
+
+## Component Specs
+- Navbar: size 407x71px, horizontal layout, padding 8 0 8 0px, gap 0px, sizing W:fixed H:fixed, stroke Border Colors/Border Overlay 1px, text [Inter SemiBold, 12px] | variants: Type: Default/Variant2
+- Bottom Nav Icons: size 46x50px, vertical layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Inter Regular, 12px] | variants: Type: Card/Home/Manage/Recipients/Send; State: off/on
+- Status: size 413x82px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Body default, Body large] | variants: Property 1: Failed/Uploaded/Uploading
+- Stepper: size 554x36px, text [Body/Default, Body/Default Bold] | variants: Step: 1/2/3/4
+- _Stepper: size 514x2px, radius 100px, fill background/neutral/default | variants: Step: 1/2/3/4
+- _Stepper Buttons: size 55x24px, horizontal layout, padding 1 0 1 0px, gap 4px, align center/center, sizing W:fixed H:fixed, text [Body/Default Bold] | variants: State: Current/Next/Previous
+- Circle Sign: size 16x16px, radius 100px, vertical layout, padding 0 0 0 0px, gap 4px, align center/center, sizing W:fixed H:fixed, fill background/neutral/default | variants: Sign: Equals/Minus/Multiply/None/Plus
+- _Bullet Point: size 374x64px, horizontal layout, padding 8 0 8 0px, gap 8px, sizing W:fixed H:fixed, text [Body/Large] | variants: Type: Negative/Positive
+- Avatar: size 48x48px, radius 100px, horizontal layout, padding 4 4 4 4px, gap 4px, align center/center, sizing W:fixed H:fixed, fill background/neutral/default, text [Body/Large Bold] | variants: Flag: False/True
+- Toggle: size 50x28px, radius 100px, horizontal layout, padding 4 4 4 4px, gap 4px, align max/center, sizing W:fixed H:fixed, fill interactive/primary/default | variants: On: False/True
+- Exchange Graphs: size 436x351px, radius 16px, vertical layout, padding 16 0 16 0px, gap 48px, align min/center, sizing W:fixed H:fixed, fill background/neutral/default, text [Body/Default, Axis Label, Inter Regular, 12px, Body/Default Bold, Title Body] | variants: State: Default/Hover
+- Graph: size 436x155px, fill #FFFFFF, text [Axis Label, Inter Regular, 12px] | variants: State: Default/Hover
+- _Bullet Pointer: size 8x8px | variants: State: Default/Hover
+- _Supporting Text Options: size 143x74px, radius 10px, vertical layout, padding 12 16 12 16px, gap 4px, sizing W:fixed H:fixed, text [Body/Default, Body/Large] | variants: State: Active/Default/Hover
+- _Fee Options: size 280x74px, radius 10px, vertical layout, padding 12 16 12 16px, gap 4px, sizing W:fixed H:fixed, text [Body/Default, Body/Large] | variants: State: Active/Default/Hover
+- _Country Options: size 148x48px, radius 10px, horizontal layout, padding 12 16 12 16px, gap 8px, align min/center, sizing W:fixed H:fixed, fill background/elevated, text [Body/Default, Body/Large] | variants: State: Active/Default/Hover
+- _Category Options: size 121x52px, radius 10px, horizontal layout, padding 10 16 10 16px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Body/Default] | variants: State: Active/Default/Hover
+- _Categories: size 32x32px, radius 100px, horizontal layout, padding 6 6 6 6px, gap 4px, sizing W:fixed H:fixed, fill categories/trips | variants: Category: Bills/Cash/Eating Out/Entertainment/Expenses/Family/General/Groceries/Housing/Investments/Personal Care/Salary/Savings/Shopping/Transport/Trips; Size: 24px/32px
+- _Simple Options: size 110x46px, radius 10px, horizontal layout, padding 12 16 12 16px, gap 4px, sizing W:fixed H:fixed, text [Body/Default] | variants: State: Active/Default/Hover; Icon: False/True
+- _Country Code Dropdowns: size 217x352px, radius 10px, vertical layout, padding 8 8 8 8px, gap 0px, sizing W:fixed H:fixed, fill background/screen/default, effect box-shadow/small, text [Body/Default, Body/Large] | variants: State: Default/Search Active/Searched Active/Searched Default/Selected
+- _Search Input Field: size 201x48px, radius 10px, horizontal layout, padding 12 16 12 16px, gap 8px, sizing W:fixed H:fixed, fill base/contrast, stroke interactive/secondary/default 1px, text [Body/Large] | variants: State: Active/Hover/Searched Active/Searched Default
+- _Country Code Options: size 112x48px, radius 10px, horizontal layout, padding 12 16 12 16px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Body/Default, Body/Large] | variants: State: Active/Default/Hover; Searched: False/True
+- Checkboxes: size 22x22px, radius 3px, fill base/contrast, stroke interactive/secondary/default 1px | variants: Checked: False/True; State: Active/Default/Hover
+- Checkbox Button: size 203x48px, radius 10px, horizontal layout, padding 12 16 12 16px, gap 16px, sizing W:fixed H:fixed, text [Body/Large] | variants: Checked: False/True; State: Default/Hover
+- Tooltip: size 283x177px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, effect box-shadow/small, text [Body/Default, Title Body] | variants: Arrow: Arrow5/Arrow6/Arrow7/Arrow8/Bottom/Left/Right/Top; Button: False/True
+- Calendar Dropdown: size 400x306px, radius 16px, vertical layout, padding 8 8 8 8px, gap 0px, align min/center, sizing W:fixed H:fixed, fill base/contrast, effect box-shadow/small, text [Body/Default Bold, Body/Default, Body/Large Bold] | variants: Type: Decades/Month/Year
+- _Calendar Month: size 40x40px, horizontal layout, padding 4 4 4 4px, gap 4px, align center/center, sizing W:fixed H:fixed, text [Body/Default Bold] | variants: Type: Work Week Day; State: Default/Hover/Not Available/Selected
+- _Calendar Day: size 40x40px, horizontal layout, padding 4 4 4 4px, gap 4px, align center/center, sizing W:fixed H:fixed, text [Body/Default Bold] | variants: Type: Weekend/Work Week Day; State: Default/Empty/Hover/Past/Selected
+- _Calendar Week Day: size 47x38px, horizontal layout, padding 8 8 8 8px, gap 4px, sizing W:fixed H:fixed, text [Body/Default Bold] | variants: Type: Weekend/Work Week Day
+- _Calendar Chevrons: size 28x28px, radius 2px, horizontal layout, padding 2 2 2 2px, gap 4px, sizing W:fixed H:fixed | variants: State: Active/Default/Hover; Direction: Left/Right
+- _Calendar Header: size 99x28px, radius 2px, horizontal layout, padding 2 2 2 2px, gap 4px, align center/center, sizing W:fixed H:fixed, text [Body/Large Bold] | variants: State: Active/Default/Hover
+- Currency Input Field: size 534x132px, vertical layout, padding 0 0 0 0px, gap 13px, sizing W:fixed H:fixed, text [Body/Default, Title Subsection, Inter Regular, 22px] | variants: State: Active/Default/Hover; Destructive: False/True
+- Dropdown Support Text Input Field: size 200x130px, vertical layout, padding 0 0 0 0px, gap 13px, sizing W:fixed H:fixed, text [Body/Default, Body/Large] | variants: State: Default/State2/State3
+- Dropdown Input Field: size 120x108px, vertical layout, padding 0 0 0 0px, gap 13px, sizing W:fixed H:fixed, text [Body/Default, Body/Large] | variants: State: Active/Default/Hover
+- Text Input Field: size 320x108px, vertical layout, padding 0 0 0 0px, gap 13px, sizing W:fixed H:fixed, text [Body/Default, Body/Large] | variants: Type: Password; Error: False/True; State: Active/Default/Filled Shown/Hover
+- Password Input Field: size 320x108px, vertical layout, padding 0 0 0 0px, gap 13px, sizing W:fixed H:fixed, text [Body/Default, Body/Large] | variants: Type: Password; Error: False/True; State: Active/Default/Filled Hidden/Filled Shown/Hover
+- Transaction Buttons: size 913x82px, radius 10px, vertical layout, padding 16 12 16 12px, gap 4px, sizing W:fixed H:fixed, text [Body/Default, Body/Large Bold] | variants: Type: Receiving/Sending; State: Active/Default/Hover
+- Card Buttons: size 208x208px, radius 16px, horizontal layout, padding 16 16 16 16px, gap 4px, sizing W:fixed H:fixed, fill background/neutral/default, text [Body/Default, Title Subsection] | variants: Type: Flag/Icon; State: Default/Hover
+- Illustration Card Buttons: size 208x232px, text [Title Body] | variants: State: Default/Hover
+- Chip Button: size 50x32px, radius 100px, horizontal layout, padding 5 16 5 16px, gap 4px, sizing W:fixed H:fixed, fill base/contrast, stroke border/neutral 1px, text [Body/Default Bold] | variants: Selected: False/True; State: Active/Default/Hover
+- Icon Button: size 48x48px, radius 100px, horizontal layout, padding 12 12 12 12px, gap 4px, sizing W:fixed H:fixed, fill background/neutral/default | variants: State: Active/Default/Hover; Alert: False/True; Warning: False/True
+- Destructive Button: size 111x48px, radius 100px, horizontal layout, padding 12 24 12 24px, gap 4px, align center/center, sizing W:fixed H:fixed, fill sentiment/negative/default, text [Body/Large Bold] | variants: State: Active/Default/Hover; Hierarchy: Primary/Secondary
+- Toggle Button: size 326x82px, radius 10px, horizontal layout, padding 16 16 16 16px, gap 16px, align min/center, sizing W:fixed H:fixed, text [Body/Default, Body/Large Bold] | variants: On: False/True; State: Default/Hover
+- Category Button: size 127x32px, radius 100px, horizontal layout, padding 4 8 4 4px, gap 8px, align min/center, sizing W:fixed H:fixed, fill base/contrast, stroke interactive/secondary/default 1px, text [Body/Large] | variants: State: Active/Default/Hover
+- _Circle Buttons: size 56x84px, vertical layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Title Group] | variants: State: Default/Disabled/Hover/Pressed
+- Action Button: size 231x72px, radius 10px, horizontal layout, padding 12 12 12 12px, gap 16px, align min/center, sizing W:fixed H:fixed, text [Title Group] | variants: State: Default/Hover
+- Account Button: size 88x64px, radius 10px, horizontal layout, padding 8 8 8 8px, gap 8px, align min/center, sizing W:fixed H:fixed | variants: Open: False/True; State: Default/Hover
+- Menu Buttons: size 112x48px, horizontal layout, padding 12 16 12 16px, gap 16px, align min/center, sizing W:fixed H:fixed, text [Body/Default] | variants: State: Default/Hover
+- Option Button: size 292x80px, radius 10px, horizontal layout, padding 16 16 16 16px, gap 16px, align min/center, sizing W:fixed H:fixed, text [Body/Large Bold] | variants: Type: False/Icon/True; State: Default/Hover/Option Flag Button; Supporting Text: False/Flag/True
+- Link Button: size 219x50px, radius 100px, vertical layout, padding 12 24 12 24px, gap 0px, sizing W:fixed H:fixed, text [Body/Large Bold] | variants: State: Active/Default/Hover; Size: Large/Small; Icon: False/Trailing
+- Sign In Buttons: size 72x48px, radius 100px, horizontal layout, padding 12 24 12 24px, gap 4px, align center/center, sizing W:fixed H:fixed, fill base/contrast, stroke border/neutral 1px | variants: Property 1: Frame 7/Frame 8/Frame 9; State: Default/Hover
+- google: size 24x24px, fill #FFFFFF | variants: State: Default/Hover
+- apple: size 24x24px, fill #FFFFFF | variants: State: Default/Hover
+- facebook: size 24x24px, fill #FFFFFF | variants: State: Default/Hover
+- Primary Button: size 85x48px, radius 100px, horizontal layout, padding 12 24 12 24px, gap 4px, sizing W:fixed H:fixed, fill interactive/accent/default, text [Body/Large Bold] | variants: Hierarchy: Primary; State: Active/Default/Hover; Size: Large/Small; Icon: False/Leading
+- Component 2/Loader: size 24x24px, fill #FFFFFF
+- Component 2/Error: size 16x16px
+- Component 2/Search: size 24x24px
+- Component 2/Add: size 32x32px, fill #FFFFFF
+- Component 2/Cancel Small: size 16x16px, fill #FFFFFF
+- Component 2/Cancel dark: size 16x16px
+- Component 2/Chevron down: size 16x16px, fill #FFFFFF
+- Component 2/Chevron right: size 24x24px
+- Component 2/Cancel Large: size 24x24px, fill #FFFFFF
+- Europe (EU): size 24x24px, radius 50px, fill #FFFFFF
+- Password: size 24x24px
+- Upload (❖ Components): size 24x24px
+- Receive : size 32x32px, fill #FFFFFF
+- Pending: size 24x24px
+- Success: size 24x24px
+- Card (❖ Components): size 24x24px
+- Warning: size 48x48px, fill #FFFFFF
+- Tick: size 48x48px, fill #FFFFFF
+- Close: size 48x48px, fill #FFFFFF
+- Upload (❖ Components): size 48x48px
+- Add-Interactive: size 56x56px
+- Add-Informational: size 56x56px
+- Business account: size 56x56px, radius 50px, fill Background Colours/Background Neutral
+- Personal account: size 56x56px, radius 50px, fill Background Colours/Background Neutral
+- Scheduled transfers: size 56x56px, radius 50px, fill Background Colours/Background Neutral
+- Direct debits: size 56x56px, radius 50px, fill Background Colours/Background Neutral
+- Spend: size 56x56px, radius 50px, fill Interactive Colours/Interactive Primary
+- Receive: size 56x56px, radius 50px, fill Interactive Colours/Interactive Primary
+- Send: size 56x56px, radius 50px, fill Interactive Colours/Interactive Primary
+- Convert: size 56x56px, radius 50px, fill Interactive Colours/Interactive Primary
+- Keep: size 56x56px, radius 50px, fill Interactive Colours/Interactive Primary
+- Invest: size 56x56px, radius 50px, fill Interactive Colours/Interactive Primary
+- Notification: size 318x114px, radius 16px, vertical layout, padding 16 16 16 16px, gap 16px, align min/max, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Link default, Body default]
+- Card (❖ Components): size 318x114px, radius 16px, vertical layout, padding 16 16 16 16px, gap 16px, align min/max, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Link default, Body default]
+- Lock: size 318x114px, radius 16px, vertical layout, padding 16 16 16 16px, gap 16px, align min/max, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Link default, Body default]
+- Global: size 318x114px, radius 16px, vertical layout, padding 16 16 16 16px, gap 16px, align min/max, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Link default, Body default]
+- Neutral 2: size 332x134px, radius 16px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Body default]
+- Neutral 1: size 330x156px, radius 16px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Body default]
+- Warning 3: size 332x134px, radius 16px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Body default]
+- Warning 2: size 332x192px, radius 16px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Body default]
+- Warning 1: size 332x246px, radius 16px, vertical layout, padding 24 24 24 24px, gap 18px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Body default]
+- Negative 3: size 332x134px, radius 16px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Body default]
+- Negative 2: size 332x194px, radius 16px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Link default, Body default]
+- Negative 1: size 332x194px, radius 16px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Link default, Body default]
+- Positive 2: size 332x134px, radius 16px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Body default]
+- Positive 1: size 332x156px, radius 16px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Gilroy-Medium Medium, 12px, Body default]
+- Upload Input: size 413x164px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Body large, Gilroy-Medium Medium, 12px, Link default, Body default bold]
+- Upload (❖ Components): size 413x114px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Body large, Gilroy-Medium Medium, 12px, Link default]
+- Upload (❖ Components): size 364x208px, radius 24px, vertical layout, padding 16 16 16 16px, gap 0px, align min/center, sizing W:fixed H:fixed, fill Background Colours/Background Neutral, text [Body/Default Bold, Body large, Title body]
+- _Step Tooltip: size 200x85px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, effect box-shadow/small, text [Body/Default]
+- _Progress Step: size 8x8px, fill #FFFFFF
+- _Progress Bar: size 257x2px, horizontal layout, padding 0 0 0 0px, gap -4px, align center/center, sizing W:fixed H:fixed
+- Section Card: size 422x200px, radius 24px, vertical layout, padding 24 24 24 24px, gap 4px, sizing W:fixed H:fixed, fill base/contrast, stroke border/neutral 1px, text [Body/Large, Title Section]
+- _Dashed Line: size 2x108px
+- _Countries Dropdown: size 314x1436px, radius 10px, vertical layout, padding 8 8 8 8px, gap 0px, sizing W:fixed H:fixed, fill base/contrast, effect box-shadow/large, text [Body/Default, Body/Large]
+- _Categories Dropdown: size 336x904px, radius 10px, vertical layout, padding 8 8 8 8px, gap 0px, sizing W:fixed H:fixed, fill background/elevated, effect box-shadow/small, text [Body/Default, Body/Large Bold]
+- _Simple Dropdown: size 299x200px, radius 16px, vertical layout, padding 8 8 8 8px, gap 0px, sizing W:fixed H:fixed, fill background/elevated, effect box-shadow/small, text [Body/Default]
+- Account Dropdown: size 88x64px, text [Title Group, Body/Default]
+- Device/Device frame: size 412x892px, radius 18px, fill M3/ref/neutral/neutral10, stroke #8E918F80 8px, text [Roboto Medium, 14px] | variants: theme: dark/light
+- 3D Avatars / 30: size 120x120px, fill #FFFFFF
+- 3D Avatars / 29: size 120x120px, fill #FFFFFF
+- 3D Avatars / 28: size 120x120px, fill #FFFFFF
+- 3D Avatars / 27: size 120x120px, fill #FFFFFF
+- 3D Avatars / 26: size 120x120px, fill #FFFFFF
+- 3D Avatars / 25: size 120x120px, fill #FFFFFF
+- 3D Avatars / 24: size 120x120px, fill #FFFFFF
+- 3D Avatars / 23: size 120x120px, fill #FFFFFF
+- 3D Avatars / 22: size 120x120px, fill #FFFFFF
+- 3D Avatars / 21: size 120x120px, fill #FFFFFF
+- 3D Avatars / 20: size 120x120px, fill #FFFFFF
+- 3D Avatars / 19: size 120x120px, fill #FFFFFF
+- 3D Avatars / 18: size 120x120px, fill #FFFFFF
+- 3D Avatars / 17: size 120x120px, fill #FFFFFF
+- 3D Avatars / 16: size 120x120px, fill #FFFFFF
+- 3D Avatars / 15: size 120x120px, fill #FFFFFF
+- 3D Avatars / 14: size 120x120px, fill #FFFFFF
+- 3D Avatars / 13: size 120x120px, fill #FFFFFF
+- 3D Avatars / 12: size 120x120px, fill #FFFFFF
+- 3D Avatars / 11: size 120x120px, fill #FFFFFF
+- 3D Avatars / 10: size 120x120px, fill #FFFFFF
+- 3D Avatars / 9: size 120x120px, fill #FFFFFF
+- 3D Avatars / 8: size 120x120px, fill #FFFFFF
+- 3D Avatars / 7: size 120x120px, fill #FFFFFF
+- 3D Avatars / 6: size 120x120px, fill #FFFFFF
+- 3D Avatars / 5: size 120x120px, fill #FFFFFF
+- 3D Avatars / 4: size 120x120px, fill #FFFFFF
+- 3D Avatars / 3: size 120x120px, fill #FFFFFF
+- 3D Avatars / 2: size 120x120px, fill #FFFFFF
+- 3D Avatars / 1: size 120x120px, fill #FFFFFF
+- identity: size 24x24px, fill #FFFFFF
+- chevron-right (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- chevron-left (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- chevron-down (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- chevron-up (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- open-envelope: size 24x24px, fill #FFFFFF
+- heart (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- trips: size 24x24px, fill #FFFFFF
+- transport: size 24x24px, fill #FFFFFF
+- shopping: size 24x24px, fill #FFFFFF
+- savings: size 24x24px, fill #FFFFFF
+- personal-care: size 24x24px, fill #FFFFFF
+- investments: size 24x24px, fill #FFFFFF
+- housing: size 24x24px, fill #FFFFFF
+- grocery: size 24x24px, fill #FFFFFF
+- entertainment: size 24x24px, fill #FFFFFF
+- pie-chart: size 24x24px, fill #FFFFFF
+- eating: size 24x24px, fill #FFFFFF
+- bills: size 24x24px, fill #FFFFFF
+- upload: size 24x24px, fill #FFFFFF
+- bank-note-arrow: size 24x24px, fill #FFFFFF
+- documents: size 24x24px, fill #FFFFFF
+- direct-debits: size 24x24px, fill #FFFFFF
+- auto-conversions: size 24x24px, fill #FFFFFF
+- lightning: size 24x24px, fill #FFFFFF
+- stocks: size 24x24px, fill #FFFFFF
+- interest: size 24x24px, fill #FFFFFF
+- convert (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- bank-note: size 24x24px, fill #FFFFFF
+- three-dots: size 24x24px, fill #FFFFFF
+- calendar (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- bank: size 24x24px, fill #FFFFFF
+- briefcase: size 24x24px, fill #FFFFFF
+- key: size 24x24px, fill #FFFFFF
+- close-circle: size 24x24px, fill #FFFFFF
+- receipt: size 24x24px, fill #FFFFFF
+- phone-email: size 24x24px, fill #FFFFFF
+- phone: size 24x24px, fill #FFFFFF
+- lock (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- link: size 24x24px, fill #FFFFFF
+- notification: size 24x24px, fill #FFFFFF
+- message: size 24x24px, fill #FFFFFF
+- email: size 24x24px, fill #FFFFFF
+- logout: size 24x24px, fill #FFFFFF
+- settings: size 24x24px, fill #FFFFFF
+- search (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- two-arrows: size 24x24px, fill #FFFFFF
+- plus: size 24x24px, fill #FFFFFF
+- clock: size 24x24px, fill #FFFFFF
+- user: size 24x24px, fill #FFFFFF
+- menu: size 24x24px, fill #FFFFFF
+- gift: size 24x24px, fill #FFFFFF
+- layout: size 24x24px, fill #FFFFFF
+- users: size 24x24px, fill #FFFFFF
+- card: size 24x24px, fill #FFFFFF
+- home: size 24x24px, fill #FFFFFF
+- arrow-left: size 24x24px, fill #FFFFFF
+- arrow-right: size 24x24px, fill #FFFFFF
+- arrow-down: size 24x24px, fill #FFFFFF
+- arrow-up: size 24x24px, fill #FFFFFF
+- close (🎨 Style & Assets): size 24x24px, fill #FFFFFF
+- SMS: size 24x24px, fill #FFFFFF
+- WhatsApp: size 24x24px, fill #FFFFFF
+- call: size 24x24px, fill #FFFFFF
+- Vatican City: size 64x64px, fill #FFFFFF
+- Spain: size 64x64px, fill #FFFFFF
+- Slovenia: size 64x64px, fill #FFFFFF
+- Slovakia: size 64x64px, fill #FFFFFF
+- San Marino: size 64x64px, fill #FFFFFF
+- Portugal: size 64x64px, fill #FFFFFF
+- Netherlands: size 64x64px, fill #FFFFFF
+- Ireland: size 64x64px, fill #FFFFFF
+- Monaco: size 64x64px, fill #FFFFFF
+- Malta: size 64x64px, fill #FFFFFF
+- Luxembourg: size 64x64px, fill #FFFFFF
+- Lithuania: size 64x64px, fill #FFFFFF
+- Liechtenstein: size 64x64px, fill #FFFFFF
+- Latvia: size 64x64px, fill #FFFFFF
+- Italy: size 64x64px, fill #FFFFFF
+- Greece: size 64x64px, fill #FFFFFF
+- Germany: size 64x64px, fill #FFFFFF
+- France: size 64x64px, fill #FFFFFF
+- Finland: size 64x64px, fill #FFFFFF
+- Estonia: size 64x64px, fill #FFFFFF
+- Croatia: size 64x64px, fill #FFFFFF
+- Belgium: size 64x64px, fill #FFFFFF
+- Austria: size 64x64px, fill #FFFFFF
+- Andorra: size 64x64px, fill #FFFFFF
+- Cyprus flag: size 64x64px, fill #FFFFFF
+- Zambia: size 64x64px, radius 1000px, fill #FFFFFF
+- South Africa: size 64x64px, radius 1000px, fill #FFFFFF
+- Vietnam: size 64x64px, radius 1000px, fill #FFFFFF
+- Uruguay: size 64x64px, radius 1000px, fill #FFFFFF
+- Uganda: size 64x64px, radius 1000px, fill #FFFFFF
+- Ukraine: size 64x64px, radius 1000px, fill #FFFFFF
+- Tanzania: size 64x64px, radius 1000px, fill #FFFFFF
+- Taiwan: size 64x64px, radius 1000px, fill #FFFFFF
+- Turkey: size 64x64px, radius 1000px, fill #FFFFFF
+- Turkmenistan: size 64x64px, radius 1000px, fill #FFFFFF
+- Thailand: size 64x64px, radius 1000px, fill #FFFFFF
+- Singapore: size 64x64px, radius 1000px, fill #FFFFFF
+- Sweden: size 64x64px, radius 1000px, fill #FFFFFF
+- Saudi Arabia: size 64x64px, radius 1000px, fill #FFFFFF
+- Russia: size 64x64px, radius 1000px, fill #FFFFFF
+- Romania: size 64x64px, radius 1000px, fill #FFFFFF
+- Qatar: size 64x64px, radius 1000px, fill #FFFFFF
+- Indonesia: size 64x64px, radius 1000px, fill #FFFFFF
+- Poland: size 64x64px, radius 1000px, fill #FFFFFF
+- Pakistan: size 64x64px, radius 1000px, fill #FFFFFF
+- Philippines: size 64x64px, radius 1000px, fill #FFFFFF
+- Peru: size 64x64px, radius 1000px, fill #FFFFFF
+- Panama: size 64x64px, radius 1000px, fill #FFFFFF
+- Oman: size 64x64px, radius 1000px, fill #FFFFFF
+- New Zealand: size 64x64px, radius 1000px, fill #FFFFFF
+- Nepal: size 64x64px, radius 1000px, fill #FFFFFF
+- Norway: size 64x64px, radius 1000px, fill #FFFFFF
+- Nigeria: size 64x64px, radius 1000px, fill #FFFFFF
+- Namibia: size 64x64px, radius 1000px, fill #FFFFFF
+- Mozambique: size 64x64px, radius 1000px, fill #FFFFFF
+- Malaysia: size 64x64px, radius 1000px, fill #FFFFFF
+- Mexico: size 64x64px, radius 1000px, fill #FFFFFF
+- Mauritius: size 64x64px, radius 1000px, fill #FFFFFF
+- Morocco: size 64x64px, radius 1000px, fill #FFFFFF
+- Lesotho: size 64x64px, radius 1000px, fill #FFFFFF
+- Sri Lanka: size 64x64px, radius 1000px, fill #FFFFFF
+- Laos: size 64x64px, radius 1000px, fill #FFFFFF
+- Kuwait: size 64x64px, radius 1000px, fill #FFFFFF
+- South Korea: size 64x64px, radius 1000px, fill #FFFFFF
+- Kenya: size 64x64px, radius 1000px, fill #FFFFFF
+- Japan: size 64x64px, radius 1000px, fill #FFFFFF
+- Jamaica: size 64x64px, radius 1000px, fill #FFFFFF
+- Iceland: size 64x64px, radius 1000px, fill #FFFFFF
+- Isle of Man: size 64x64px, radius 1000px, fill #FFFFFF
+- Israel: size 64x64px, radius 1000px, fill #FFFFFF
+- Hungary: size 64x64px, radius 1000px, fill #FFFFFF
+- Hong Kong: size 64x64px, radius 1000px, fill #FFFFFF
+- Ghana: size 64x64px, radius 1000px, fill #FFFFFF
+- Georgia: size 64x64px, radius 1000px, fill #FFFFFF
+- svgexport-41: size 64x64px, radius 1000px, fill #FFFFFF
+- Egypt: size 64x64px, radius 1000px, fill #FFFFFF
+- Denmark: size 64x64px, radius 1000px, fill #FFFFFF
+- Czechia: size 64x64px, radius 1000px, fill #FFFFFF
+- No Flag: size 64x64px, radius 1000px, fill #FFFFFF
+- Costa Rica: size 64x64px, radius 1000px, fill #FFFFFF
+- Colombia: size 64x64px, radius 1000px, fill #FFFFFF
+- China: size 64x64px, radius 1000px, fill #FFFFFF
+- Chile: size 64x64px, radius 1000px, fill #FFFFFF
+- Switzerland: size 64x64px, radius 1000px, fill #FFFFFF
+- Canada: size 64x64px, radius 1000px, fill #FFFFFF
+- Botswana: size 64x64px, radius 1000px, fill #FFFFFF
+- Brazil: size 64x64px, radius 1000px, fill #FFFFFF
+- Brunei: size 64x64px, radius 1000px, fill #FFFFFF
+- Bahrain: size 64x64px, radius 1000px, fill #FFFFFF
+- Bulgaria: size 64x64px, radius 1000px, fill #FFFFFF
+- Bangladesh: size 64x64px, radius 1000px, fill #FFFFFF
+- Australia: size 64x64px, radius 1000px, fill #FFFFFF
+- Argentina: size 64x64px, radius 1000px, fill #FFFFFF
+- United Arab Emirates: size 64x64px, radius 1000px, fill #FFFFFF
+- India: size 64x64px, radius 1000px, fill #FFFFFF
+- Europe: size 64x64px, radius 1000px, fill #FFFFFF
+- United States: size 64x64px, radius 1000px, fill #FFFFFF
+- United Kingdom: size 64x64px, radius 1000px, fill #FFFFFF
+- web: size 16x16px, fill #FFFFFF
+- check: size 16x16px, fill #FFFFFF
+- search (🎨 Style & Assets): size 16x16px, fill #FFFFFF
+- shield: size 16x16px, fill #FFFFFF
+- filters: size 16x16px, fill #FFFFFF
+- lock (🎨 Style & Assets): size 16x16px, fill #FFFFFF
+- lock-open: size 16x16px, fill #FFFFFF
+- download: size 16x16px, fill #FFFFFF
+- chevron-down (🎨 Style & Assets): size 16x16px, fill #FFFFFF
+- chevron-left (🎨 Style & Assets): size 16x16px, fill #FFFFFF
+- chevron-right (🎨 Style & Assets): size 16x16px, fill #FFFFFF
+- chevron-up (🎨 Style & Assets): size 16x16px, fill #FFFFFF
+- open-tab: size 16x16px, fill #FFFFFF
+- close (🎨 Style & Assets): size 16x16px, fill #FFFFFF
+- eye: size 16x16px, fill #FFFFFF
+- warning: size 16x16px, fill #FFFFFF
+- help: size 16x16px, fill #FFFFFF
+- eye-off: size 16x16px, fill #FFFFFF
+- cookie: size 400x400px, fill #FFFFFF
+- globe: size 400x400px, fill #FFFFFF
+- graph: size 400x400px, fill #FFFFFF
+- jars: size 400x400px, fill #FFFFFF
+- megaphone: size 600x600px, fill #FFFFFF
+- receive: size 400x400px, fill #FFFFFF
+- multi-currency: size 600x600px, fill #FFFFFF
+- convert (🎨 Style & Assets): size 400x400px, fill #FFFFFF
+- plane: size 400x400px, fill #FFFFFF
+- heart (🎨 Style & Assets): size 400x400px, fill #FFFFFF
+- calendar (🎨 Style & Assets): size 400x400px, fill #FFFFFF
+- wise-card: size 1170x780px, fill #FFFFFF
+- Word mark: size 192.74x44px, fill #FFFFFF
+- Fast Flag: size 85.5x84px, fill #FFFFFF
+
+## Most-Used Styles
+- content/primary: 472 uses
+- flag/white: 417 uses
+- flag/red: 321 uses
+- Body/Default: 300 uses
+- content/secondary: 216 uses
+- Interactive Colours/Interactive Primary: 142 uses
+- flag/yellow: 138 uses
+- Body/Large: 115 uses
+- Body/Default Bold: 111 uses
+- base/contrast: 111 uses
+- flag/dark blue: 101 uses
+- background/neutral/default: 97 uses
+- Body/Large Bold: 83 uses
+- content/link/default: 82 uses
+- background/elevated: 69 uses
+- interactive/control/default: 67 uses
+- flag/black: 62 uses
+- flag/green: 61 uses
+- M3/ref/neutral/neutral10: 55 uses
+- Content Colors/Content Tertiary: 53 uses
+- Body large: 52 uses
+- content/tertiary: 51 uses
+- border/neutral: 46 uses
+- box-shadow/small: 40 uses
+- interactive/primary/default: 35 uses
+- Content Colours/Content Primary: 32 uses
+- interactive/secondary/default: 30 uses
+- Background Colours/Background Neutral: 29 uses
+- sentiment/negative/default: 29 uses
+- flag/light blue: 28 uses
+- Interactive Colours/Interactive Accent: 25 uses
+- Body default: 23 uses
+- Body large bold: 23 uses
+- Interactive Colours/Interactive Secondary: 23 uses
+- interactive/control/active: 22 uses
+- Content Colours/Content Secondary: 19 uses
+- Title Subsection: 17 uses
+- M3/white: 15 uses
+- Title Body: 14 uses
+- background/neutral/active: 14 uses
+- background/neutral/hover: 13 uses
+- Border Colours/Border Neutral: 12 uses
+- interactive/accent/default: 12 uses
+- primary/forest green: 11 uses
+- M3/sys/light/on-surface: 10 uses
+- interactive/accent/hover: 10 uses
+- interactive/secondary/hover: 10 uses
+- Border Colors/Border Overlay: 9 uses
+- Link default: 9 uses
+- categories/general: 9 uses
+- categories/bills: 8 uses
+- flag/amber: 8 uses
+- flag/grey: 8 uses
+- Title Group: 7 uses
+- interactive/control/hover: 7 uses
+- Interactive Colors/Interactive Accent: 6 uses
+- Neutral Dark: 6 uses
+- background/screen/default: 6 uses
+- flag/maroon: 6 uses
+- Base Colours/Base Contrast: 5 uses
+- Interactive Colors/Interactive Primary: 5 uses
+- Title body: 5 uses
+- Title screen: 5 uses
+- background/overlay: 5 uses
+- categories/cash: 5 uses
+- categories/eating out: 5 uses
+- categories/entertainment: 5 uses
+- categories/expenses: 5 uses
+- categories/family: 5 uses
+- categories/groceries: 5 uses
+- categories/housing: 5 uses
+- categories/investments: 5 uses
+- categories/personal care: 5 uses
+- categories/salary: 5 uses
+- categories/savings: 5 uses
+- categories/shopping: 5 uses
+- categories/transport: 5 uses
+- categories/trips: 5 uses
+- Axis Label: 4 uses
+- Content Colors/Content Secondary: 4 uses
+- Title section: 4 uses
+- flag/orange: 4 uses
+- interactive/accent/active: 4 uses
+- secondary/bright yellow: 4 uses
+- Background Colors/Background Neutral: 3 uses
+- Sentiment Colours/Sentiment Negative: 3 uses
+- box-shadow/large: 3 uses
+- interactive/negative/default: 3 uses
+- interactive/primary/active: 3 uses
+- sentiment/negative/active: 3 uses
+- sentiment/negative/hover: 3 uses
+- Background Colours/Background Screen: 2 uses
+- Body default bold: 2 uses
+- Border Colors/Border Neutral: 2 uses
+- Shadow: 2 uses
+- Stroke: 2 uses
+- Title group: 2 uses
+- Title subsection: 2 uses
+- background/screen/active: 2 uses
+- background/screen/hover: 2 uses
+- content/link/active: 2 uses
+- content/link/hover: 2 uses
+- nudge/background color: 2 uses
+- sentiment/positive: 2 uses
+- Background Colors/Background Elevated: 1 use
+- Background Colors/Background Overlay: 1 use
+- Background Colors/Background Screen: 1 use
+- Base Colors/Base Contrast: 1 use
+- Base Colors/Base Dark: 1 use
+- Base Colors/Base Light: 1 use
+- Body Default Small: 1 use
+- Content Colors/Content Link: 1 use
+- Content Colors/Content Primary: 1 use
+- Core Colors/Bright Green: 1 use
+- Core Colors/Forest Green: 1 use
+- Interactive Colors/Interactive Control: 1 use
+- Interactive Colors/Interactive Secondary: 1 use
+- Link large: 1 use
+- M3/sys/light/outline-variant: 1 use
+- M3/sys/light/surface: 1 use
+- Secondary Colors/Bright Blue: 1 use
+- Secondary Colors/Bright Orange: 1 use
+- Secondary Colors/Bright Pink: 1 use
+- Secondary Colors/Bright Yellow: 1 use
+- Secondary Colors/Dark Charcoal: 1 use
+- Secondary Colors/Dark Gold: 1 use
+- Secondary Colors/Dark Maroon: 1 use
+- Secondary Colors/Dark Purple: 1 use
+- Sentiment Colors/Sentiment Negative: 1 use
+- Sentiment Colors/Sentiment Positive: 1 use
+- Sentiment Colors/Sentiment Warning: 1 use
+- Text Body: 1 use
+- Text/main_black: 1 use
+- Text/tripit_white: 1 use
+- Title Section: 1 use
+- background/dimmer: 1 use
+- flag/dark green: 1 use
+- interactive/primary/hover: 1 use
+- interactive/secondary/active: 1 use
+- sentiment/warning: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover img
+- FRAME "Cover img", 1920x960px, constraints left/top
+  - RECTANGLE "Cover 1", 1920x960px, constraints left/top, fill image(hash: a57424c698925ef6aa1af8e9c29805a280a34235)
+
+Screen: 📖 About / About me
+- FRAME "About me", 1200x1895px, constraints left/top, fill #FFFFFF
+  - FRAME "Project Title", 810x253px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "About me", 810x48px, constraints left/top, fill Text Body, text [Inter Light, 48px], [heading]
+    - TEXT "Tarakant Seth", 810x157px, constraints left/top, fill Neutral Dark, text [Inter SemiBold, 120px], [heading]
+  - FRAME "Project Summarry Section", 960x964px, horizontal pad 0 0 0 0px gap 64px align min/center sizing W:fixed H:fixed, constraints center/top
+    - FRAME "Project Summary Text", 960x964px, vertical pad 0 0 0 0px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top
+      - TEXT "I am a computer science graduate with a passion for UI/UX de", 960x964px, constraints left/top, fill Text/main_black, text [Inter Light, 36px], [heading]
+  - FRAME "Social", 240x140px, horizontal pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 1", 96x140px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "tab btn", 96x96px, horizontal pad 24 24 24 24px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, stroke Stroke 2px
+        - INSTANCE "carbon:logo-twitter", 48x48px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 36x29.25px, constraints scale/scale, fill Neutral Dark
+      - TEXT "twitter", 76x36px, constraints left/top, fill Neutral Dark, text [Inter Medium, 24px], [heading]
+    - FRAME "Frame 2", 96x140px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "tab btn", 96x96px, horizontal pad 24 24 24 24px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, stroke Stroke 2px
+        - FRAME "bxl:linkedin", 48x48px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 8.75x8.75px, constraints scale/scale, fill Neutral Dark
+          - VECTOR "Vector", 35.81x24.88px, constraints scale/scale, fill Neutral Dark
+      - TEXT "linkedin", 89x36px, constraints left/top, fill Neutral Dark, text [Inter Medium, 24px], [heading]
+
+Screen: 📱 Design / Splash screeen
+- FRAME "Splash screeen", 412x892px, constraints left/top, radius 18px, fill M3/white, stroke #74777580 8px
+  - INSTANCE "Device/Device frame components/status bar", 412x52px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left_right/top, fill #9FE870
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/ref/neutral/neutral10, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+    - VECTOR "Camera Cutout", 24x24px, constraints center/top, fill M3/sys/light/on-surface
+  - INSTANCE "Device/Device frame components/navigation", 412x28px, constraints left_right/bottom, fill #9FE870
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/ref/neutral/neutral10
+  - FRAME "Wise Logo Screen", 412x812px, constraints left/top, fill Interactive Colors/Interactive Accent
+    - INSTANCE "Fast Flag", 85.5x84px, constraints center/center, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 85.12x81.4px, constraints scale/scale, fill Interactive Colors/Interactive Primary
+
+Screen: 📱 Design / Home
+- FRAME "Home", 412x892px, constraints left/top, radius 18px, fill M3/white, stroke #74777580 8px
+  - INSTANCE "Device/Device frame components/status bar", 412x52px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left_right/top
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/ref/neutral/neutral10, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+    - VECTOR "Camera Cutout", 24x24px, constraints center/top, fill M3/sys/light/on-surface
+  - INSTANCE "Device/Device frame components/navigation", 412x28px, constraints left_right/bottom
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/ref/neutral/neutral10
+  - FRAME "Home", 412x812px, constraints center/top, fill #FFFFFF
+    - FRAME "Frame 78", 412x80px, horizontal pad 16 16 16 16px gap 78px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "3D Avatars / 8", 48x48px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Avatars / 3d_avatar_8", 48x48px, constraints scale/scale, fill image(hash: 5f8ea6b9caf08d167684ed154ad8a85f97b6913b)
+      - FRAME "Frame 79", 171x48px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Chip Button", 99x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill Interactive Colors/Interactive Accent
+          - TEXT "All", 67x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+          - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "notification", 24x24px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Navbar", 412x71px, horizontal pad 8 0 8 0px gap 0px sizing W:fixed H:fixed, constraints center/bottom, stroke Border Colors/Border Overlay 1px
+      - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "home", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 22.11x18.86px, constraints scale/scale, fill #000000
+        - TEXT "Home", 35x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+      - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Card", 24x24px, constraints left/top
+          - BOOLEAN_OPERATION "Union", 20.5x15px, constraints left/top, fill Interactive Colours/Interactive Primary
+        - TEXT "Card", 29x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+      - INSTANCE "Bottom Nav Icons", 82.4x55px, vertical pad 0 0 0 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 41", 40x40px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+        - TEXT "Send", 31x15px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+      - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 42", 24x24px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "users", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18x18px, constraints scale/scale, fill #000000
+        - TEXT "Recipients", 63x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+      - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "layout", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.14x17.14px, constraints scale/scale, fill #000000
+        - TEXT "Manage", 48x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+    - FRAME "Frame 98", 440x326px, vertical pad 0 0 0 0px gap 26px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Account", 118x34px, constraints left/top, fill #000000, text [Title screen], [heading]
+      - FRAME "Frame 96", 152x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Chip Button", 50x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke interactive/primary/default 1px
+          - TEXT "All", 18x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+        - INSTANCE "Chip Button", 86x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke border/neutral 1px
+          - TEXT "All", 54x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+      - FRAME "Frame 97", 440x208px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Card Buttons", 208x208px, horizontal pad 16 16 16 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill background/neutral/default
+          - FRAME "Frame 51", 176x176px, vertical pad 0 0 0 0px gap 42px align space_between/min sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Singapore", 48x48px, constraints left/top, radius 1000px, fill #FFFFFF, stroke border/neutral 1.33px
+            - FRAME "Frame 50", 176x50px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Card Buttons", 208x208px, horizontal pad 16 16 16 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill background/neutral/default
+          - FRAME "Frame 51", 176x176px, vertical pad 0 0 0 0px gap 42px align space_between/min sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Australia", 48x48px, constraints left/top, radius 1000px, fill #FFFFFF, stroke border/neutral 1.33px
+            - FRAME "Frame 50", 176x50px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 100", 380x228px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 99", 382x32px, horizontal pad 0 0 0 0px gap 124px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Transactions", 160x32px, constraints left/top, fill #000000, text [Title section], [heading]
+        - INSTANCE "Link Button", 68x32px, horizontal pad 4 8 4 8px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px
+          - FRAME "Frame 71", 52x24px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Guaranteed rate (2h)", 52x24px, constraints left/top, fill content/link/default, text [Body/Large Bold]
+            - RECTANGLE "Rectangle 1", 52x1px, constraints left/top, fill content/link/default
+      - INSTANCE "Transaction Buttons", 382x82px, vertical pad 16 12 16 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 62", 358x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - FRAME "Frame 60", 102x50px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50.00 PLN", 82x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+      - INSTANCE "Transaction Buttons", 382x82px, vertical pad 16 12 16 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 62", 358x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - FRAME "Frame 60", 102x50px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50.00 PLN", 82x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+
+Screen: 📱 Design / Transactions
+- FRAME "Transactions", 412x892px, constraints left/top, radius 18px, fill M3/white, stroke #74777580 8px
+  - INSTANCE "Device/Device frame components/status bar", 412x52px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left_right/top
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/ref/neutral/neutral10, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+    - VECTOR "Camera Cutout", 24x24px, constraints center/top, fill M3/sys/light/on-surface
+  - INSTANCE "Device/Device frame components/navigation", 412x28px, constraints left_right/bottom
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/ref/neutral/neutral10
+  - FRAME "Transactions", 412x812px, constraints center/top, fill #FFFFFF
+    - FRAME "Frame 103", 412x144px, vertical pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 102", 380x80px, horizontal pad 16 0 16 0px gap 263px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+          - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "arrow-left", 24x24px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px
+          - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "investments", 24x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_Search Input Field", 380x48px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 24px, fill Border Colors/Border Overlay
+        - INSTANCE "search", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.79x17.79px, constraints scale/scale, fill Content Colors/Content Secondary
+        - FRAME "Frame 32", 137x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Search by country", 137x24px, constraints left/top, fill Content Colors/Content Secondary, text [Body/Large]
+    - FRAME "Frame 105", 380x588px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 104", 380x48px, horizontal pad 12 8 12 8px gap 8px sizing W:fill H:fixed, constraints left/top, stroke Border Colors/Border Overlay 1px
+        - TEXT "Today", 46x24px, constraints left/top, fill Content Colors/Content Tertiary, text [Body/Large]
+      - INSTANCE "Transaction Buttons", 380x82px, vertical pad 16 12 16 12px gap 4px sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 62", 356x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - FRAME "Frame 60", 102x50px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50.00 PLN", 82x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+      - INSTANCE "Transaction Buttons", 380x82px, vertical pad 16 12 16 12px gap 4px sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 62", 356x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - FRAME "Frame 60", 102x50px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50.00 PLN", 82x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+      - INSTANCE "Transaction Buttons", 380x82px, vertical pad 16 12 16 12px gap 4px sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 62", 356x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - FRAME "Frame 60", 102x50px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50.00 PLN", 82x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+      - INSTANCE "Transaction Buttons", 380x82px, vertical pad 16 12 16 12px gap 4px sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 62", 356x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - FRAME "Frame 60", 102x50px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50.00 PLN", 82x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+      - INSTANCE "Transaction Buttons", 380x82px, vertical pad 16 12 16 12px gap 4px sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 62", 356x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - FRAME "Frame 60", 102x50px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50.00 PLN", 82x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+      - INSTANCE "Transaction Buttons", 380x82px, vertical pad 16 12 16 12px gap 4px sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 62", 356x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - FRAME "Frame 60", 102x50px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50.00 PLN", 82x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+    - FRAME "Frame 101", 412x76px, horizontal pad 28 16 16 16px gap 16px align min/max sizing W:fixed H:fixed, constraints center/top, stroke Border Colors/Border Neutral 1px
+      - INSTANCE "Chip Button", 143x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke interactive/primary/default 1px
+        - TEXT "All", 111x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+      - INSTANCE "Chip Button", 67x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke interactive/primary/default 1px
+        - TEXT "All", 35x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+      - INSTANCE "Chip Button", 87x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke interactive/primary/default 1px
+        - TEXT "All", 55x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+      - INSTANCE "Chip Button", 74x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke interactive/primary/default 1px
+        - TEXT "All", 42x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+
+Screen: 📱 Design / Pay
+- FRAME "Pay", 412x892px, constraints left/top, radius 18px, fill M3/white, stroke #74777580 8px
+  - INSTANCE "Device/Device frame components/status bar", 412x52px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left_right/top
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/ref/neutral/neutral10, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+    - VECTOR "Camera Cutout", 24x24px, constraints center/top, fill M3/sys/light/on-surface
+  - INSTANCE "Device/Device frame components/navigation", 412x28px, constraints left_right/bottom
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/ref/neutral/neutral10
+  - FRAME "Pay", 412x812px, constraints center/top, fill #FFFFFF
+    - FRAME "Frame 93", 412x80px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect Shadow
+      - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+        - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "close", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 14.91x14.91px, constraints scale/scale, fill content/primary
+      - TEXT "How do you want to pay?", 260x28px, constraints left/top, fill #000000, text [Title subsection], [heading]
+    - FRAME "Frame 94", 412x272px, vertical pad 0 16 0 16px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "_Fee Options", 380x48px, vertical pad 12 0 12 0px gap 4px sizing W:fill H:fixed, constraints left/top, stroke Background Colors/Background Neutral 1px
+        - FRAME "Frame 77", 196x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Low cost transfer", 143x24px, constraints left/top, fill content/primary, text [Body/Large]
+          - TEXT "- 0.31 GBP fee", 45x22px, constraints left/top, fill content/secondary, text [Inter Regular, 14px]
+      - INSTANCE "Option Button", 380x104px, horizontal pad 16 0 16 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 24", 348x72px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 23", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - INSTANCE "bank", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 41", 284x72px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Resend code by SMS", 284x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+            - TEXT "Supporting text", 284x44px, constraints left/top, fill content/secondary, text [Body/Default]
+        - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6.69x12.23px, constraints scale/scale, fill interactive/control/default
+      - INSTANCE "Option Button", 380x104px, horizontal pad 16 0 16 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 24", 348x72px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 23", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - INSTANCE "bank", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 41", 284x72px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Resend code by SMS", 284x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+            - TEXT "Supporting text", 284x44px, constraints left/top, fill content/secondary, text [Body/Default]
+        - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6.69x12.23px, constraints scale/scale, fill interactive/control/default
+    - FRAME "Frame 95", 412x272px, vertical pad 0 16 0 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, opacity 50%
+      - INSTANCE "_Fee Options", 380x48px, vertical pad 12 0 12 0px gap 4px sizing W:fill H:fixed, constraints left/top, stroke Background Colors/Background Neutral 1px
+        - FRAME "Frame 77", 227x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Low cost transfer", 227x24px, constraints left/top, fill content/primary, text [Body/Large]
+      - INSTANCE "Option Button", 380x104px, horizontal pad 16 0 16 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 24", 348x72px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 23", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - INSTANCE "card", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 41", 284x72px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Resend code by SMS", 284x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+            - TEXT "Supporting text", 284x44px, constraints left/top, fill content/secondary, text [Body/Default]
+        - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6.69x12.23px, constraints scale/scale, fill interactive/control/default
+      - INSTANCE "Option Button", 380x104px, horizontal pad 16 0 16 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+        - FRAME "Frame 24", 348x72px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 23", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - INSTANCE "card", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 41", 284x72px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Resend code by SMS", 284x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+            - TEXT "Supporting text", 284x44px, constraints left/top, fill content/secondary, text [Body/Default]
+        - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6.69x12.23px, constraints scale/scale, fill interactive/control/default
+    - INSTANCE "Link Button", 202x50px, vertical pad 12 24 12 24px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - TEXT "I didn’t receive a code", 154x24px, constraints left/top, fill content/link/default, text [Body/Large Bold]
+      - RECTANGLE "Rectangle 1", 154x2px, constraints left/top, fill content/link/default
+
+Screen: 📱 Design / Convert
+- FRAME "Convert", 412x892px, constraints left/top, radius 18px, fill M3/white, stroke #74777580 8px
+  - INSTANCE "Device/Device frame components/status bar", 412x52px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left_right/top
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/ref/neutral/neutral10, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+    - VECTOR "Camera Cutout", 24x24px, constraints center/top, fill M3/sys/light/on-surface
+  - INSTANCE "Device/Device frame components/navigation", 412x28px, constraints left_right/bottom
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/ref/neutral/neutral10
+  - FRAME "Convert", 412x812px, constraints center/top, fill #FFFFFF
+    - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+      - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "arrow-left", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20.57x18.34px, constraints scale/scale, fill content/primary
+    - TEXT "How much do you want to convert?", 380x72px, constraints left/top, fill #000000, text [Title screen], [heading]
+    - FRAME "Frame 92", 380x463px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Currency Input Field", 380x132px, vertical pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Input with Label", 534x97px, vertical pad 0 0 0 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Recipient gets exactly", 380x22px, constraints left/top, fill content/secondary, text [Body/Default]
+          - FRAME "Frame 69", 534x72px, horizontal pad 10 0 10 0px gap 224px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill background/elevated, stroke interactive/secondary/default 1px
+            - FRAME "Frame 70", 43x52px, horizontal pad 12 16 12 16px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 68", 152x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Hint Text", 534x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Hint Message", 380x22px, constraints left/top, fill content/tertiary, text [Body default]
+      - FRAME "Frame 89", 294x80px, vertical pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 88", 293x22px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Circle Sign", 16x16px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - VECTOR "–", 7x1.48px, constraints left/top, fill content/primary
+          - TEXT "Hint Message", 268x22px, constraints left/top, fill content/tertiary, text [Body default]
+        - FRAME "Frame 87", 294x22px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Circle Sign", 16x16px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - VECTOR "=", 6.62x4.72px, constraints left/top, fill #000000
+          - TEXT "Hint Message", 268x22px, constraints left/top, fill content/tertiary, text [Body default]
+        - FRAME "Frame 86", 293x22px, horizontal pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Circle Sign", 16x16px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - VECTOR "×", 6.95x6.95px, constraints left/top, fill #000000
+          - TEXT "Hint Message", 268x22px, constraints left/top, fill content/tertiary, text [Body default]
+      - INSTANCE "Currency Input Field", 380x132px, vertical pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Input with Label", 534x97px, vertical pad 0 0 0 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Recipient gets exactly", 380x22px, constraints left/top, fill content/secondary, text [Body/Default]
+          - FRAME "Frame 69", 534x72px, horizontal pad 10 0 10 0px gap 224px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill background/elevated, stroke interactive/secondary/default 1px
+            - FRAME "Frame 70", 43x52px, horizontal pad 12 16 12 16px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 68", 152x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 91", 375x82px, horizontal pad 0 0 0 0px gap 33px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 90", 292x82px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Auto convert", 90x20px, constraints left/top, fill #000000, text [Title group], [heading]
+          - TEXT "Set up an automatic conversion based on your desired rate", 292x53px, constraints left/top, fill Content Colors/Content Secondary, text [Body Default Small]
+        - INSTANCE "Toggle", 50x28px, horizontal pad 4 4 4 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/secondary/default
+          - ELLIPSE "Button", 20x20px, constraints left/top, fill background/elevated
+    - INSTANCE "Primary Button", 380x48px, horizontal pad 12 24 12 24px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/default
+      - TEXT "Next", 72x24px, constraints left/top, fill interactive/control/default, text [Body/Large Bold]
+
+Screen: 📱 Design / Category
+- FRAME "Category", 412x892px, constraints left/top, radius 18px, fill M3/white, stroke #74777580 8px
+  - INSTANCE "Device/Device frame components/status bar", 412x52px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left_right/top
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/ref/neutral/neutral10, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+    - VECTOR "Camera Cutout", 24x24px, constraints center/top, fill M3/sys/light/on-surface
+  - INSTANCE "Device/Device frame components/navigation", 412x28px, constraints left_right/bottom
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/ref/neutral/neutral10
+  - FRAME "Categories", 412x812px, constraints center/top, fill #FFFFFF
+    - FRAME "Frame 83", 412x1242px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 82", 412x80px, horizontal pad 16 16 16 16px gap 269px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+          - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "close", 24x24px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px
+          - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "search", 24x24px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 84", 412x1146px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 85", 301x34px, horizontal pad 0 16 0 16px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Choose a category", 269x34px, constraints left/top, fill #000000, text [Title screen], [heading]
+        - INSTANCE "_Categories Dropdown", 412x1088px, vertical pad 8 8 8 8px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill background/elevated
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/bills
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/cash
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/eating out
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/entertainment
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/expenses
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/family
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/general
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/groceries
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/housing
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/investments
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/personal care
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/salary
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/savings
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/shopping
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/transport
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+          - INSTANCE "_Category Options", 396x52px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px
+            - INSTANCE "_Categories", 32x32px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill categories/trips
+            - TEXT "Bills", 302x22px, constraints left/top, fill content/primary, text [Body/Default]
+            - ELLIPSE "Ellipse 3", 14x14px, constraints left/top, stroke Content Colors/Content Tertiary 1.5px
+
+Screen: 📱 Design / Home with graph
+- FRAME "Home with graph", 412x892px, constraints left/top, radius 18px, fill M3/white, stroke #74777580 8px
+  - INSTANCE "Device/Device frame components/status bar", 412x52px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left_right/top
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/ref/neutral/neutral10, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+    - VECTOR "Camera Cutout", 24x24px, constraints center/top, fill M3/sys/light/on-surface
+  - INSTANCE "Device/Device frame components/navigation", 412x28px, constraints left_right/bottom
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/ref/neutral/neutral10
+  - FRAME "Home with graph", 412x812px, constraints center/top, fill #FFFFFF
+    - FRAME "Frame 78", 412x64px, horizontal pad 8 16 8 16px gap 78px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect Shadow
+      - INSTANCE "3D Avatars / 8", 48x48px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Avatars / 3d_avatar_8", 48x48px, constraints scale/scale, fill image(hash: 5f8ea6b9caf08d167684ed154ad8a85f97b6913b)
+      - FRAME "Frame 79", 171x48px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Chip Button", 99x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill Interactive Colors/Interactive Accent
+          - TEXT "All", 67x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+          - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "notification", 24x24px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Navbar", 412x71px, horizontal pad 8 0 8 0px gap 0px sizing W:fixed H:fixed, constraints center/top, stroke Border Colors/Border Overlay 1px
+      - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "home", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 22.11x18.86px, constraints scale/scale, fill #000000
+        - TEXT "Home", 35x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+      - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Card", 24x24px, constraints left/top
+          - BOOLEAN_OPERATION "Union", 20.5x15px, constraints left/top, fill Interactive Colours/Interactive Primary
+        - TEXT "Card", 29x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+      - INSTANCE "Bottom Nav Icons", 82.4x55px, vertical pad 0 0 0 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 41", 40x40px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+        - TEXT "Send", 31x15px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+      - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 42", 24x24px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "users", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18x18px, constraints scale/scale, fill #000000
+        - TEXT "Recipients", 63x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+      - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "layout", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.14x17.14px, constraints scale/scale, fill #000000
+        - TEXT "Manage", 48x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+    - INSTANCE "Exchange Graphs", 380x305.28px, vertical pad 12.81 0 12.81 0px gap 42.7px align min/center sizing W:fixed H:fixed, constraints left/top, radius 14.94px, fill background/neutral/default
+      - FRAME "Frame 36", 380x41px, horizontal pad 0 13.94 0 13.94px gap 159.41px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39", 352.13x41px, horizontal pad 0 0 0 0px gap 159.41px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 34", 146x41px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "1 GBP = 5.3130 PLN", 146x21px, constraints left/top, fill content/primary, text [Inter SemiBold, 15.68px]
+            - TEXT "Today", 36x20px, constraints left/top, fill content/secondary, text [Inter Regular, 12.2px]
+          - INSTANCE "Primary Button", 44.91x28.71px, horizontal pad 4.36 10.45 4.36 10.45px gap 3.48px sizing W:fixed H:fixed, constraints left/top, radius 87.11px, fill interactive/accent/default
+            - TEXT "Next", 24x20px, constraints left/top, fill interactive/control/default, text [Inter SemiBold, 12.2px]
+      - FRAME "Frame 38", 379.79x196.83px, vertical pad 0 0 0 0px gap 27.87px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Graph", 379.79x135.02px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 29.1x106.21px, constraints scale/scale, radius 0/0/0/0px
+            - GROUP "Group", 29.1x106.21px, constraints scale/scale, radius 0/0/0/0px
+          - GROUP "Group", 282.23x96.81px, constraints scale/scale
+            - VECTOR "Vector", 278.75x96.81px, constraints scale/scale, stroke gradient_linear(#163300 0% | #163300 50% | #163300 100%) 3.48px
+            - GROUP "Group", 6.97x6.97px, constraints scale/scale
+        - FRAME "Frame 35", 366.23x33.94px, horizontal pad 13.94 13.94 0 13.94px gap 227.35px sizing W:fixed H:fixed, constraints left/top, stroke #768E9C80 0.87px
+          - TEXT "A month ago", 75x20px, constraints left/top, fill content/secondary, text [Inter Regular, 12.2px]
+          - TEXT "Today", 36x20px, constraints left/top, fill content/secondary, text [Inter Regular, 12.2px]
+    - FRAME "Frame 81", 439x276px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Do more with wise", 225x32px, constraints left/top, fill #000000, text [Title section], [heading]
+      - FRAME "Frame 80", 439x232px, horizontal pad 0 0 0 0px gap 23px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Illustration Card Buttons", 208x232px, constraints left/top
+          - FRAME "Frame 4", 208x232px, constraints left/top, radius 16px, fill #163300, opacity 10%
+          - FRAME "Frame 1", 208x232px, horizontal pad 16 16 16 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill secondary/bright yellow
+            - FRAME "Frame 6", 176x200px, constraints left/top
+        - INSTANCE "Illustration Card Buttons", 208x232px, constraints left/top
+          - FRAME "Frame 4", 208x232px, constraints left/top, radius 16px, fill #163300, opacity 10%
+          - FRAME "Frame 1", 208x232px, horizontal pad 16 16 16 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill secondary/bright yellow
+            - FRAME "Frame 6", 176x200px, constraints left/top
+
+Screen: 📱 Design / Measurement
+- FRAME "Measurement", 2098x1224px, constraints left/top, radius 16px, fill #FFFFFF
+  - FRAME "Home", 412x892px, constraints center/center, radius 18px, fill M3/white, stroke #74777580 8px
+    - INSTANCE "Device/Device frame components/status bar", 412x52px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left_right/top
+      - TEXT "Time", 29x20px, constraints scale/scale, fill M3/ref/neutral/neutral10, text [Roboto Medium, 14px]
+      - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+      - VECTOR "Camera Cutout", 24x24px, constraints center/top, fill M3/sys/light/on-surface
+    - INSTANCE "Device/Device frame components/navigation", 412x28px, constraints left_right/bottom
+      - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/ref/neutral/neutral10
+    - FRAME "Home", 412x812px, constraints center/top, fill #FFFFFF
+      - FRAME "Frame 78", 412x80px, horizontal pad 16 16 16 16px gap 78px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "3D Avatars / 8", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Avatars / 3d_avatar_8", 48x48px, constraints scale/scale, fill image(hash: 5f8ea6b9caf08d167684ed154ad8a85f97b6913b)
+        - FRAME "Frame 79", 171x48px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Chip Button", 99x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill Interactive Colors/Interactive Accent
+            - TEXT "All", 67x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+          - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+            - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Navbar", 412x71px, horizontal pad 8 0 8 0px gap 0px sizing W:fixed H:fixed, constraints center/bottom, stroke Border Colors/Border Overlay 1px
+        - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "home", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 22.11x18.86px, constraints scale/scale, fill #000000
+          - TEXT "Home", 35x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+        - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Card", 24x24px, constraints left/top
+            - BOOLEAN_OPERATION "Union", 20.5x15px, constraints left/top, fill Interactive Colours/Interactive Primary
+          - TEXT "Card", 29x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+        - INSTANCE "Bottom Nav Icons", 82.4x55px, vertical pad 0 0 0 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 41", 40x40px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+          - TEXT "Send", 31x15px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+        - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 42", 24x24px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "users", 24x24px, constraints left/top, fill #FFFFFF
+          - TEXT "Recipients", 63x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+        - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "layout", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 17.14x17.14px, constraints scale/scale, fill #000000
+          - TEXT "Manage", 48x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+      - FRAME "Frame 98", 440x326px, vertical pad 0 0 0 0px gap 26px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Account", 118x34px, constraints left/top, fill #000000, text [Title screen], [heading]
+        - FRAME "Frame 96", 152x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Chip Button", 50x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke interactive/primary/default 1px
+            - TEXT "All", 18x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+          - INSTANCE "Chip Button", 86x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke border/neutral 1px
+            - TEXT "All", 54x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+        - FRAME "Frame 97", 440x208px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Card Buttons", 208x208px, horizontal pad 16 16 16 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill background/neutral/default
+            - FRAME "Frame 51", 176x176px, vertical pad 0 0 0 0px gap 42px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Card Buttons", 208x208px, horizontal pad 16 16 16 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill background/neutral/default
+            - FRAME "Frame 51", 176x176px, vertical pad 0 0 0 0px gap 42px align space_between/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 100", 380x228px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 99", 382x32px, horizontal pad 0 0 0 0px gap 124px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Transactions", 160x32px, constraints left/top, fill #000000, text [Title section], [heading]
+          - INSTANCE "Link Button", 68x32px, horizontal pad 4 8 4 8px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px
+            - FRAME "Frame 71", 52x24px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Transaction Buttons", 382x82px, vertical pad 16 12 16 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 10px
+          - FRAME "Frame 62", 358x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Transaction Buttons", 382x82px, vertical pad 16 12 16 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 10px
+          - FRAME "Frame 62", 358x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Redlines ::  Redlines ::  Frame 78", 40x32px, constraints left/top
+        - FRAME "Measuring Line B ::  right", 40x32px, constraints left/top
+          - FRAME "Lines", 15x32px, constraints left/scale
+            - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+            - LINE "LineB", 0x32px, constraints center/scale, stroke #E8178A 1px
+            - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+          - TEXT "Dimension Value", 29x27px, constraints left/center, fill #E8178A, text [Roboto Mono Medium, 24px], [heading]
+  - INSTANCE "Navbar", 412x71px, horizontal pad 8 0 8 0px gap 0px sizing W:fixed H:fixed, constraints center/bottom, stroke Border Colors/Border Overlay 1px
+    - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "home", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 22.11x18.86px, constraints scale/scale, fill #000000
+      - TEXT "Home", 35x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+    - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Card", 24x24px, constraints left/top
+        - BOOLEAN_OPERATION "Union", 20.5x15px, constraints left/top, fill Interactive Colours/Interactive Primary
+      - TEXT "Card", 29x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+    - INSTANCE "Bottom Nav Icons", 82.4x55px, vertical pad 0 0 0 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 41", 40x40px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Send", 31x15px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+    - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 42", 24x24px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "users", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, fill #000000
+      - TEXT "Recipients", 63x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+    - INSTANCE "Bottom Nav Icons", 82.4x50px, vertical pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "layout", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 17.14x17.14px, constraints scale/scale, fill #000000
+      - TEXT "Manage", 48x22px, constraints left/top, fill Interactive Colours/Interactive Primary, text [Inter SemiBold, 12px]
+  - INSTANCE "Transaction Buttons", 382x82px, vertical pad 16 12 16 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #F8F8F8
+    - FRAME "Frame 62", 358x50px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Recipient", 166x50px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+          - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "arrow-up", 24x24px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 60", 102x50px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Sarah Davies", 102x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+          - TEXT "Sent · 2nd Sept 2022", 83x22px, constraints left/top, fill content/secondary, text [Body/Default]
+      - FRAME "Money Sent", 82x24px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "50.00 PLN", 82x24px, constraints left/top, fill content/primary, text [Body/Large Bold]
+  - INSTANCE "Card Buttons", 208x208px, horizontal pad 16 16 16 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill background/neutral/default
+    - FRAME "Frame 51", 176x176px, vertical pad 0 0 0 0px gap 42px align space_between/min sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Singapore", 48x48px, constraints left/top, radius 1000px, fill #FFFFFF, stroke border/neutral 1.33px
+        - GROUP "Clip path group", 48x48px, constraints scale/scale [decorative, ~9 shapes]
+      - FRAME "Frame 50", 176x50px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "0.00", 176x28px, constraints left/top, fill content/primary, text [Title Subsection], [heading]
+        - TEXT "British Pound", 176x22px, constraints left/top, fill content/secondary, text [Body/Default]
+  - INSTANCE "Chip Button", 99x32px, horizontal pad 5 16 5 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill Interactive Colors/Interactive Accent
+    - TEXT "All", 67x22px, constraints left/top, fill content/link/default, text [Body/Default Bold]
+  - INSTANCE "Icon Button", 48x48px, horizontal pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/default
+    - FRAME "Icon and Alert", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "notification", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18.86x19.71px, constraints scale/scale, fill content/primary
+  - INSTANCE "3D Avatars / 8", 48x48px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Avatars / 3d_avatar_8", 48x48px, constraints scale/scale, fill image(hash: 5f8ea6b9caf08d167684ed154ad8a85f97b6913b)
+  - RECTANGLE "image 25", 240x267px, constraints left/top, fill image(hash: 02136c9355dd9297f0ad8eaaa3962964a0df8f07)
+  - TEXT "Grid Style", 93x11px, constraints left/top, fill #000000, text [Inter Medium, 20px]
+
+Screen: 📱 Design / Redlines ::  Home
+- GROUP "Redlines ::  Home", 40x892px, constraints left/top
+  - FRAME "Measuring Line D ::  left", 40x892px, constraints left/top
+    - FRAME "Lines", 15x892px, constraints right/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x892px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 43x27px, constraints right/center, fill #E8178A, text [Roboto Mono Medium, 24px], [heading]
+
+Screen: 📱 Design / Redlines ::  Home
+- GROUP "Redlines ::  Home", 412x40px, constraints left/top
+  - FRAME "Measuring Line C ::  bottom", 412x40px, constraints left/top
+    - FRAME "Lines", 412x15px, constraints scale/top
+      - LINE "LineA", 0x15px, constraints left/scale, stroke #E8178A 1px
+      - LINE "LineB", 412x0px, constraints scale/center, stroke #E8178A 1px
+      - LINE "LineC", 0x15px, constraints right/scale, stroke #E8178A 1px
+    - TEXT "Dimension Value", 43x27px, constraints scale/top, fill #E8178A, text [Roboto Mono Medium, 24px], [heading]
+
+Screen: 📱 Design / Redlines ::  Frame 78
+- GROUP "Redlines ::  Frame 78", 40x80px, constraints left/top
+  - FRAME "Measuring Line B ::  right", 40x80px, constraints left/top
+    - FRAME "Lines", 15x80px, constraints left/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x80px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 29x27px, constraints left/center, fill #E8178A, text [Roboto Mono Medium, 24px], [heading]
+
+Screen: 📱 Design / Redlines ::  Rectangle 2
+- GROUP "Redlines ::  Rectangle 2", 24x40px, constraints left/top
+  - FRAME "Measuring Line A ::  top", 24x40px, constraints left/top
+    - FRAME "Lines", 24x15px, constraints scale/bottom
+      - LINE "LineA", 0x15px, constraints left/scale, stroke #E8178A 1px
+      - LINE "LineB", 24x0px, constraints scale/center, stroke #E8178A 1px
+      - LINE "LineC", 0x15px, constraints right/scale, stroke #E8178A 1px
+    - TEXT "Dimension Value", 34x27px, constraints scale/bottom, fill #E8178A, text [Roboto Mono Medium, 24px], [heading]
+
+Screen: 📱 Design / Redlines ::  3D Avatars / 8
+- GROUP "Redlines ::  3D Avatars / 8", 40x48px, constraints left/top
+  - FRAME "Measuring Line D ::  left", 40x48px, constraints left/top
+    - FRAME "Lines", 15x48px, constraints right/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x48px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints right/center, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  3D Avatars / 8
+- GROUP "Redlines ::  3D Avatars / 8", 48x40px, constraints left/top
+  - FRAME "Measuring Line A ::  top", 48x40px, constraints left/top
+    - FRAME "Lines", 48x15px, constraints scale/bottom
+      - LINE "LineA", 0x15px, constraints left/scale, stroke #E8178A 1px
+      - LINE "LineB", 48x0px, constraints scale/center, stroke #E8178A 1px
+      - LINE "LineC", 0x15px, constraints right/scale, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints scale/bottom, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Chip Button
+- GROUP "Redlines ::  Chip Button", 40x32px, constraints left/top
+  - FRAME "Measuring Line D ::  left", 40x32px, constraints left/top
+    - FRAME "Lines", 15x32px, constraints right/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x32px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints right/center, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Icon Button
+- GROUP "Redlines ::  Icon Button", 40x48px, constraints left/top
+  - FRAME "Measuring Line D ::  left", 40x48px, constraints left/top
+    - FRAME "Lines", 15x48px, constraints right/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x48px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints right/center, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Icon Button
+- GROUP "Redlines ::  Icon Button", 48x40px, constraints left/top
+  - FRAME "Measuring Line A ::  top", 48x40px, constraints left/top
+    - FRAME "Lines", 48x15px, constraints scale/bottom
+      - LINE "LineA", 0x15px, constraints left/scale, stroke #E8178A 1px
+      - LINE "LineB", 48x0px, constraints scale/center, stroke #E8178A 1px
+      - LINE "LineC", 0x15px, constraints right/scale, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints scale/bottom, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Card Buttons
+- GROUP "Redlines ::  Card Buttons", 40x208px, constraints left/top
+  - FRAME "Measuring Line D ::  left", 40x208px, constraints left/top
+    - FRAME "Lines", 15x208px, constraints right/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x208px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 29x18px, constraints right/center, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Card Buttons
+- GROUP "Redlines ::  Card Buttons", 208x40px, constraints left/top
+  - FRAME "Measuring Line A ::  top", 208x40px, constraints left/top
+    - FRAME "Lines", 208x15px, constraints scale/bottom
+      - LINE "LineA", 0x15px, constraints left/scale, stroke #E8178A 1px
+      - LINE "LineB", 208x0px, constraints scale/center, stroke #E8178A 1px
+      - LINE "LineC", 0x15px, constraints right/scale, stroke #E8178A 1px
+    - TEXT "Dimension Value", 29x18px, constraints scale/bottom, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Group
+- GROUP "Redlines ::  Group", 40x48px, constraints left/top
+  - FRAME "Measuring Line B ::  right", 40x48px, constraints left/top
+    - FRAME "Lines", 15x48px, constraints left/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x48px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints left/center, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Transaction Buttons
+- GROUP "Redlines ::  Transaction Buttons", 40x82px, constraints left/top
+  - FRAME "Measuring Line D ::  left", 40x82px, constraints left/top
+    - FRAME "Lines", 15x82px, constraints right/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x82px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints right/center, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Transaction Buttons
+- GROUP "Redlines ::  Transaction Buttons", 382x40px, constraints left/top
+  - FRAME "Measuring Line A ::  top", 382x40px, constraints left/top
+    - FRAME "Lines", 382x15px, constraints scale/bottom
+      - LINE "LineA", 0x15px, constraints left/scale, stroke #E8178A 1px
+      - LINE "LineB", 382x0px, constraints scale/center, stroke #E8178A 1px
+      - LINE "LineC", 0x15px, constraints right/scale, stroke #E8178A 1px
+    - TEXT "Dimension Value", 29x18px, constraints scale/bottom, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Icon Button
+- GROUP "Redlines ::  Icon Button", 48x40px, constraints left/top
+  - FRAME "Measuring Line C ::  bottom", 48x40px, constraints left/top
+    - FRAME "Lines", 48x15px, constraints scale/top
+      - LINE "LineA", 0x15px, constraints left/scale, stroke #E8178A 1px
+      - LINE "LineB", 48x0px, constraints scale/center, stroke #E8178A 1px
+      - LINE "LineC", 0x15px, constraints right/scale, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints scale/top, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Frame 62
+- GROUP "Redlines ::  Frame 62", 40x50px, constraints left/top
+  - FRAME "Measuring Line B ::  right", 40x50px, constraints left/top
+    - FRAME "Lines", 15x50px, constraints left/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x50px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints left/center, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Navbar
+- GROUP "Redlines ::  Navbar", 40x71px, constraints left/top
+  - FRAME "Measuring Line D ::  left", 40x71px, constraints left/top
+    - FRAME "Lines", 15x71px, constraints right/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x71px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints right/center, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Bottom Nav Icons
+- GROUP "Redlines ::  Bottom Nav Icons", 40x50px, constraints left/top
+  - FRAME "Measuring Line B ::  right", 40x50px, constraints left/top
+    - FRAME "Lines", 15x50px, constraints left/scale
+      - LINE "LineA", 15x0px, constraints scale/top, stroke #E8178A 1px
+      - LINE "LineB", 0x50px, constraints center/scale, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints scale/bottom, stroke #E8178A 1px
+    - TEXT "Dimension Value", 20x18px, constraints left/center, fill #E8178A, text [Roboto Mono Medium, 16px]
+
+Screen: 📱 Design / Redlines ::  Bottom Nav Icons
+- GROUP "Redlines ::  Bottom Nav Icons", 41x40px, constraints left/top
+  - FRAME "Measuring Line A ::  top", 41x40px, constraints left/top
+    - FRAME "Lines", 41x15px, constraints scale/bottom
+      - LINE "LineA", 0x15px, constraints left/scale, stroke #E8178A 1px
+      - LINE "LineB", 41x0px, constraints scale/center, stroke #E8178A 1px
+      - LINE "LineC", 0x15px, constraints right/scale, stroke #E8178A 1px
+    - TEXT "Dimension Value", 37x18px, constraints scale/bottom, fill #E8178A, text [Roboto Mono Medium, 14px]
+
+Screen: 📱 Design / Redlines ::  Bottom Nav Icons
+- GROUP "Redlines ::  Bottom Nav Icons", 24x24px, constraints left/top
+  - FRAME "Measuring Line A ::  top", 24x24px, constraints left/top
+    - FRAME "Lines", 15x15.61px, constraints scale/bottom
+      - LINE "LineA", 15x0px, constraints left/scale, stroke #E8178A 1px
+      - LINE "LineB", 0x15.61px, constraints scale/center, stroke #E8178A 1px
+      - LINE "LineC", 15x0px, constraints right/scale, stroke #E8178A 1px
+    - TEXT "Dimension Value", 11x21.66px, constraints scale/bottom, fill #E8178A, text [Roboto Mono Medium, 8.4px]
+
+Screen: 📺 Screens / 0
+- RECTANGLE "0", 1125x2436px, constraints left/top, fill image(hash: 9990dd6ea81a90501b576e8076f34dfb428a9014)
+
+Screen: 📺 Screens / 1
+- RECTANGLE "1", 1125x2436px, constraints left/top, fill image(hash: e8910325379e4547e6e221954aae4f048448e092)
+
+Screen: 📺 Screens / 2
+- RECTANGLE "2", 1125x2436px, constraints left/top, fill image(hash: f435f27520e1921d6fb9d176a17e38c22934dc7d)
+
+Screen: 📺 Screens / 0
+- RECTANGLE "0", 1125x2436px, constraints left/top, fill image(hash: ef65a9bb60196bb938e38bc8a71d47392e94aee3)
+
+Screen: 📺 Screens / 1
+- RECTANGLE "1", 1125x2436px, constraints left/top, fill image(hash: 6eb58f9f24d4e229c0e6c609a6005213f0eada8a)
+
+Screen: 📺 Screens / 2
+- RECTANGLE "2", 1125x2436px, constraints left/top, fill image(hash: 6a3280a01d90990fdab0f5b325bb589fa7858f48)
+
+Screen: 📺 Screens / 3
+- RECTANGLE "3", 1125x2436px, constraints left/top, fill image(hash: 741d237dc7d92af5ccbc8735599c3203bdbafa21)
+
+Screen: 📺 Screens / 4
+- RECTANGLE "4", 1125x2436px, constraints left/top, fill image(hash: 0d62ce1afe5d876c001dfdcf8a8f44f247112bc8)
+
+Screen: 📺 Screens / 5
+- RECTANGLE "5", 1125x2436px, constraints left/top, fill image(hash: db188acbb2aaeaade31d9aba46c0f6b722a76e0d)
+
+Screen: 📺 Screens / 6
+- RECTANGLE "6", 1125x2436px, constraints left/top, fill image(hash: f00ef65bb60712b78b4683dfb0b0bfcbf181cea6)
+
+Screen: 📺 Screens / 7
+- RECTANGLE "7", 1125x2436px, constraints left/top, fill image(hash: cc37b80077831f0efcb07aad98577798218ba39b)
+
+Screen: 📺 Screens / 8
+- RECTANGLE "8", 1125x2436px, constraints left/top, fill image(hash: c8a8f2827e9a955803770f4d9b979f456129d0fb)
+
+Screen: 📺 Screens / 9
+- RECTANGLE "9", 1125x2436px, constraints left/top, fill image(hash: 07cfc56c8ceebac5277bdc2f27e92e91f98a0ab9)
+
+Screen: 📺 Screens / 0
+- RECTANGLE "0", 1125x2436px, constraints left/top, fill image(hash: 5e50c54285bde5b7edf6f60e0202034605173cd0)
+
+Screen: 📺 Screens / 1
+- RECTANGLE "1", 1125x2436px, constraints left/top, fill image(hash: f5b5e179e22260fe4cefdfebcc68e8d64d2ffdf1)
+
+Screen: 📺 Screens / 2
+- RECTANGLE "2", 1125x2436px, constraints left/top, fill image(hash: 1d3125eb7abb40d5de1d585d069dd1e274951dca)
+
+Screen: 📺 Screens / 3
+- RECTANGLE "3", 1125x2436px, constraints left/top, fill image(hash: aed1c44f1eb76aa345d8e427f4c45852050d0ade)
+
+Screen: 📺 Screens / 4
+- RECTANGLE "4", 1125x2436px, constraints left/top, fill image(hash: f901957e914ef384e5f029758f6d00013d0a3038)
+
+Screen: 📺 Screens / 5
+- RECTANGLE "5", 1125x2436px, constraints left/top, fill image(hash: dd4a3d74f7bae593659d55fa604fc5b44e9fa252)
+
+Screen: 📺 Screens / 6
+- RECTANGLE "6", 1125x2436px, constraints left/top, fill image(hash: 287186832c82d08e48092a9ba1218b238534eea1)
+
+Screen: 📺 Screens / 7
+- RECTANGLE "7", 1125x2436px, constraints left/top, fill image(hash: ecebd0e4ce60b94a8cec479cc33d59726d294011)
+
+Screen: 📺 Screens / 8
+- RECTANGLE "8", 1125x2436px, constraints left/top, fill image(hash: 78a4d362ea4d888c8e117a7ca3715593e36f8903)
+
+Screen: 📺 Screens / 9
+- RECTANGLE "9", 1125x2436px, constraints left/top, fill image(hash: a8b55fa9515aab65f6b8b6d84617b4738630b3a9)
+
+Screen: 📺 Screens / 10
+- RECTANGLE "10", 1125x2436px, constraints left/top, fill image(hash: bfc9d7f08f517ee1d6f6d4c8dba76d4db6d7d452)
+
+Screen: 📺 Screens / 11
+- RECTANGLE "11", 1125x2436px, constraints left/top, fill image(hash: 1a7fb13d9bf3c49505ffe2b6ddc36354a97d0e4e)
+
+Screen: 📺 Screens / 12
+- RECTANGLE "12", 1125x2436px, constraints left/top, fill image(hash: ba06c62b518f22d18bf3add4a2ad1279e61015c6)
+
+Screen: 📺 Screens / 13
+- RECTANGLE "13", 1125x2436px, constraints left/top, fill image(hash: 09d3d19d82c30e3e32d54f9715befad3464167e3)
+
+Screen: 📺 Screens / 14
+- RECTANGLE "14", 1125x2436px, constraints left/top, fill image(hash: 15d6a3af8ad9ea6ecdffded044fb130d9a475557)
+
+Screen: 📺 Screens / 15
+- RECTANGLE "15", 1125x2436px, constraints left/top, fill image(hash: e3e11023f30e4fa5deda3c2d7600d23511f70b08)
+
+Screen: 📺 Screens / 16
+- RECTANGLE "16", 1125x2436px, constraints left/top, fill image(hash: d2cda09523b41f5ac49cf84f0cfe655e5438ba8e)
+
+Screen: 📺 Screens / 17
+- RECTANGLE "17", 1125x2436px, constraints left/top, fill image(hash: de2d15c284ee64ca6c5232c09c6bd454b0d159ae)
+
+Screen: 📺 Screens / 18
+- RECTANGLE "18", 1125x2436px, constraints left/top, fill image(hash: 938cd3ca97e7b5c59801111b646382097d4e342c)
+
+Screen: 📺 Screens / 19
+- RECTANGLE "19", 1125x2436px, constraints left/top, fill image(hash: 27c35664e7e690599746c85b537e37aa2f1262a7)
+
+Screen: 📺 Screens / 20
+- RECTANGLE "20", 1125x2436px, constraints left/top, fill image(hash: 9bb1af7354264eb0ae4255dd4dd53c64ce0ea55a)
+
+Screen: 📺 Screens / 21
+- RECTANGLE "21", 1125x2436px, constraints left/top, fill image(hash: 39c0b3e7d0c2b970ff45fcbe0823d595407ab269)
+
+Screen: 📺 Screens / 22
+- RECTANGLE "22", 1125x2436px, constraints left/top, fill image(hash: 641fb8c58d13d1f6ac8a98a047dbd8e547c7243e)
+
+Screen: 📺 Screens / 23
+- RECTANGLE "23", 1125x2436px, constraints left/top, fill image(hash: 27cb2c04456906c81e8b7ecbbb5fc59983f8fe5a)
+
+Screen: 📺 Screens / 24
+- RECTANGLE "24", 1125x2436px, constraints left/top, fill image(hash: 84758fca5cd74cfd9bfa30a0b862f7903e8a879e)
+
+Screen: 📺 Screens / 25
+- RECTANGLE "25", 1125x2436px, constraints left/top, fill image(hash: 17ca518d2c3dffaee850f20ab8a7498c27ef0111)
+
+Screen: 📺 Screens / 26
+- RECTANGLE "26", 1125x2436px, constraints left/top, fill image(hash: 44ce704f7b6f5b9b70fb1e4dd72d188dbf251b94)
+
+Screen: 📺 Screens / 0
+- RECTANGLE "0", 1125x2436px, constraints left/top, fill image(hash: ef65a9bb60196bb938e38bc8a71d47392e94aee3)
+
+Screen: 📺 Screens / 28
+- RECTANGLE "28", 1125x2436px, constraints left/top, fill image(hash: 08e197678e06c6640fac69f062b0b136e6fcd5c4)
+
+Screen: ❖ Components / Buttons
+- SECTION "Buttons", 2050x5077px, fill #FFFFFF, stroke #0000001A 1px
+  - COMPONENT_SET "Primary Button", 300x224px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Hierarchy=Primary, State=Default, Size=Large, Icon=False", 85x48px, horizontal pad 12 24 12 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/default
+      - TEXT "Next", 37x24px, constraints left/top, fill interactive/control/default, text [Body/Large Bold]
+    - COMPONENT "Hierarchy=Primary, State=Default, Size=Small, Icon=False", 57x32px, horizontal pad 5 12 5 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/default
+      - TEXT "Next", 33x22px, constraints left/top, fill interactive/control/default, text [Body/Default Bold]
+    - COMPONENT "Hierarchy=Primary, State=Default, Size=Small, Icon=Leading", 81x32px, horizontal pad 5 12 5 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/default
+      - INSTANCE "filters", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill interactive/control/default
+      - TEXT "Next", 33x22px, constraints left/top, fill interactive/control/default, text [Body/Default Bold]
+    - COMPONENT "Hierarchy=Primary, State=Hover, Size=Large, Icon=False", 85x48px, horizontal pad 12 24 12 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/hover
+      - TEXT "Next", 37x24px, constraints left/top, fill interactive/control/hover, text [Body/Large Bold]
+    - COMPONENT "Hierarchy=Primary, State=Hover, Size=Small, Icon=False", 57x32px, horizontal pad 5 12 5 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/hover
+      - TEXT "Next", 33x22px, constraints left/top, fill interactive/control/hover, text [Body/Default Bold]
+    - COMPONENT "Hierarchy=Primary, State=Hover, Size=Small, Icon=Leading", 81x32px, horizontal pad 5 12 5 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/hover
+      - INSTANCE "filters", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill interactive/control/hover
+      - TEXT "Next", 33x22px, constraints left/top, fill interactive/control/hover, text [Body/Default Bold]
+    - COMPONENT "Hierarchy=Primary, State=Active, Size=Large, Icon=False", 85x48px, horizontal pad 12 24 12 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/active
+      - TEXT "Next", 37x24px, constraints left/top, fill interactive/control/active, text [Body/Large Bold]
+    - COMPONENT "Hierarchy=Primary, State=Active, Size=Small, Icon=False", 57x32px, horizontal pad 5 12 5 12px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/active
+      - TEXT "Next", 33x22px, constraints left/top, fill interactive/control/active, text [Body/Default Bold]
+    - COMPONENT "Hierarchy=Primary, State=Active, Size=Small, Icon=Leading", 81x32px, horizontal pad 5 12 5 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill interactive/accent/active
+      - INSTANCE "filters", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill interactive/control/active
+      - TEXT "Next", 33x22px, constraints left/top, fill interactive/control/active, text [Body/Default Bold]
+  - COMPONENT_SET "facebook", 40x72px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 23.9x23.9px, constraints scale/scale, fill #3B5998
+    - COMPONENT "State=Hover", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 23.9x23.9px, constraints scale/scale, fill base/contrast
+  - COMPONENT_SET "apple", 40x72px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Group 1", 17.91x22px, constraints left/top
+        - VECTOR "Vector", 17.91x16.7px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 4.46x5.08px, constraints scale/scale, fill #000000
+    - COMPONENT "State=Hover", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Group 1", 17.91x22px, constraints left/top
+        - VECTOR "Vector", 17.91x16.7px, constraints scale/scale, fill base/contrast
+        - VECTOR "Vector", 4.46x5.08px, constraints scale/scale, fill base/contrast
+  - COMPONENT_SET "google", 40x72px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10.56x10.34px, constraints scale/scale, fill #4285F4
+      - VECTOR "Vector", 17.1x8.9px, constraints scale/scale, fill #34A853
+      - VECTOR "Vector", 4.84x9.86px, constraints scale/scale, fill #FBBC05
+      - VECTOR "Vector", 17.18x8.91px, constraints scale/scale, fill #EA4335
+      - VECTOR "Vector", 22x22px, constraints scale/scale
+    - COMPONENT "State=Hover", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10.56x10.34px, constraints scale/scale, fill base/contrast
+      - VECTOR "Vector", 17.1x8.9px, constraints scale/scale, fill base/contrast
+      - VECTOR "Vector", 4.84x9.86px, constraints scale/scale, fill base/contrast
+      - VECTOR "Vector", 17.18x8.91px, constraints scale/scale, fill base/contrast
+      - VECTOR "Vector", 22x22px, constraints scale/scale
+  - COMPONENT_SET "Sign In Buttons", 296x125px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Frame 7, State=Default", 72x48px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke border/neutral 1px
+      - INSTANCE "facebook", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 23.9x23.9px, constraints scale/scale, fill #3B5998
+    - COMPONENT "Property 1=Frame 7, State=Hover", 72x48px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #3B5998
+      - INSTANCE "facebook", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 23.9x23.9px, constraints scale/scale, fill base/contrast
+    - COMPONENT "Property 1=Frame 8, State=Default", 72x48px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke border/neutral 1px
+      - INSTANCE "google", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 10.56x10.34px, constraints scale/scale, fill #4285F4
+        - VECTOR "Vector", 17.1x8.9px, constraints scale/scale, fill #34A853
+        - VECTOR "Vector", 4.84x9.86px, constraints scale/scale, fill #FBBC05
+        - VECTOR "Vector", 17.18x8.91px, constraints scale/scale, fill #EA4335
+        - VECTOR "Vector", 22x22px, constraints scale/scale
+    - COMPONENT "Property 1=Frame 8, State=Hover", 72x48px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #5383EC
+      - INSTANCE "google", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 10.56x10.34px, constraints scale/scale, fill base/contrast
+        - VECTOR "Vector", 17.1x8.9px, constraints scale/scale, fill base/contrast
+        - VECTOR "Vector", 4.84x9.86px, constraints scale/scale, fill base/contrast
+        - VECTOR "Vector", 17.18x8.91px, constraints scale/scale, fill base/contrast
+        - VECTOR "Vector", 22x22px, constraints scale/scale
+    - COMPONENT "Property 1=Frame 9, State=Default", 72x48px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill base/contrast, stroke border/neutral 1px
+      - INSTANCE "apple", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 17.91x22px, constraints left/top
+          - VECTOR "Vector", 17.91x16.7px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 4.46x5.08px, constraints scale/scale, fill #000000
+    - COMPONENT "Property 1=Frame 9, State=Hover", 72x48px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #000000
+      - INSTANCE "apple", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 17.91x22px, constraints left/top
+          - VECTOR "Vector", 17.91x16.7px, constraints scale/scale, fill base/contrast
+          - VECTOR "Vector", 4.46x5.08px, constraints scale/scale, fill base/contrast
+  - COMPONENT_SET "Link Button", 809x224px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Active, Size=Large, Icon=False", 219x50px, vertical pad 12 24 12 24px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill background/neutral/hover
+      - TEXT "I didn’t receive a code", 171x24px, constraints left/top, fill content/link/active, text [Body/Large Bold]
+      - RECTANGLE "Rectangle 1", 171x2px, constraints left/top, fill content/link/active
+    - COMPONENT "State=Hover, Size=Large, Icon=False", 219x50px, vertical pad 12 24 12 24px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - TEXT "I didn’t receive a code", 171x24px, constraints left/top, fill content/link/hover, text [Body/Large Bold]
+      - RECTANGLE "Rectangle 1", 171x2px, constraints left/top, fill content/link/hover
+    - COMPONENT "State=Default, Size=Large, Icon=False", 219x50px, vertical pad 12 24 12 24px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - TEXT "I didn’t receive a code", 171x24px, constraints left/top, fill content/link/default, text [Body/Large Bold]
+      - RECTANGLE "Rectangle 1", 171x2px, constraints left/top, fill content/link/default
+    - COMPONENT "State=Default, Size=Small, Icon=Trailing", 210x32px, horizontal pad 4 8 4 16px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Frame 71", 166x24px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Low cost transfer fee", 166x24px, constraints left/top, fill content/link/default, text [Body/Large Bold]
+        - RECTANGLE "Rectangle 1", 166x1px, constraints left/top, fill content/link/default
+      - INSTANCE "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12.23x6.69px, constraints scale/scale, fill interactive/control/default
+    - COMPONENT "State=Default, Size=Small, Icon=False", 180x32px, horizontal pad 4 8 4 8px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Frame 71", 164x24px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Guaranteed rate (2h)", 164x24px, constraints left/top, fill content/link/default, text [Body/Large Bold]
+        - RECTANGLE "Rectangle 1", 164x1px, constraints left/top, fill content/link/default
+    - COMPONENT "State=Hover, Size=Small, Icon=Trailing", 210x32px, horizontal pad 4 8 4 16px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Frame 71", 166x24px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Low cost transfer fee", 166x24px, constraints left/top, fill content/link/default, text [Body/Large Bold]
+        - RECTANGLE "Rectangle 1", 166x1px, constraints left/top, fill content/link/default
+      - INSTANCE "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12.23x6.69px, constraints scale/scale, fill interactive/control/default
+    - COMPONENT "State=Hover, Size=Small, Icon=False", 180x32px, horizontal pad 4 8 4 8px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Frame 71", 164x24px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

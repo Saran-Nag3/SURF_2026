@@ -1,0 +1,1642 @@
+---
+name: compass-design-system-community
+source_file: Compass Design System (Community)
+source_page: All pages (43): 📢 Disclaimer, Cover, ---, FOUNDATIONS, -> 🎈 Design system overview, -> 🫶🏻 Design values, -> 🔥 Branding, -> ✨ Logo usage, --------, STYLES, -> 🎨 Colors, -> 🔠 Typography, -> 📏 Shaping and sizing, -> 🪄 Visual effects, ---, COMPONENTS, -> ✈️ Banners, -> ✈️ Buttons, -> ✈️ Button groups, -> ✈️ Calendar, -> ✈️ Cards, -> ✈️ Dropdowns, -> ✈️ Icons & illustrations, -> ✈️ Inputs, -> ✈️ Headers, -> ✈️ Loading, -> ✈️ Links, -> ✈️ Nav Bar, -> ✈️ Points & miles, -> ✈️ Progress Bar, -> ✈️ Selector, -> ✈️ Seat selection, -> ✈️ Tags, -> ✈️ Toasts, -> ✈️ Texts, -> ✈️ Trays, ---, DESIGN TOKENS, ->🧩 Tokens, ---, FLOWS, -> 📱Design flows, ------
+generated_at: 2026-07-25T09:24:41.161866+00:00
+---
+
+# Compass Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Compass Design System (Community)
+- Figma page: All pages (43): 📢 Disclaimer, Cover, ---, FOUNDATIONS, -> 🎈 Design system overview, -> 🫶🏻 Design values, -> 🔥 Branding, -> ✨ Logo usage, --------, STYLES, -> 🎨 Colors, -> 🔠 Typography, -> 📏 Shaping and sizing, -> 🪄 Visual effects, ---, COMPONENTS, -> ✈️ Banners, -> ✈️ Buttons, -> ✈️ Button groups, -> ✈️ Calendar, -> ✈️ Cards, -> ✈️ Dropdowns, -> ✈️ Icons & illustrations, -> ✈️ Inputs, -> ✈️ Headers, -> ✈️ Loading, -> ✈️ Links, -> ✈️ Nav Bar, -> ✈️ Points & miles, -> ✈️ Progress Bar, -> ✈️ Selector, -> ✈️ Seat selection, -> ✈️ Tags, -> ✈️ Toasts, -> ✈️ Texts, -> ✈️ Trays, ---, DESIGN TOKENS, ->🧩 Tokens, ---, FLOWS, -> 📱Design flows, ------
+- Extracted at: 2026-07-25T09:24:41.161866+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- NavyGardient: [gradient_linear(#11005300 0% | #110053D9 91% | #0F0142E5 100%)]
+- PremiumGradient: [#110053, gradient_radial(#EA104C 0% | #EA104C05 100%)]
+- DestinationCard|Gradient: [gradient_linear(#00000000 0% | #0F0F0FE5 84%)]
+- DestinationCard|Gradient2: [gradient_linear(#FFFFFF00 0% | #FFFFFF 84%)]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 666 uses
+- #D9D9D9: 590 uses
+- #9747FF: 82 uses
+- #000000: 33 uses
+- #4658E0: 12 uses
+- #1C1B1F: 10 uses
+- #5C5C5C: 8 uses
+
+## Typography Tokens
+- Bold/2: Nunito Sans Bold (700), 21px / auto, tracking 0px
+- Regular/4: Nunito Sans Regular (400), 19px / auto, tracking 0.19px
+- Regular/6: Nunito Sans Regular (400), 16px / auto, tracking -0.32px
+- Regular/8: Nunito Sans Regular (400), 14px / auto, tracking -0.42px
+- Regular/5: Nunito Sans Regular (400), 18px / auto, tracking -0.54px
+- Regular/7: Nunito Sans Regular (400), 15px / auto, tracking 0px
+- Bold/8: Nunito Sans Bold (700), 12px / auto, tracking -0.12px
+- Bold/6: Nunito Sans Bold (700), 14px / auto, tracking -0.56px
+- Regular/9: Nunito Sans Regular (400), 12px / auto, tracking -0.12px
+- Bold/5: Nunito Sans Bold (700), 15px / auto, tracking -0.3px
+- Bold/4: Nunito Sans Bold (700), 17px / auto, tracking -0.51px
+- Bold/6.1: Nunito Sans Bold (700), 14px / auto, tracking 0px
+- Bold/9: Nunito Sans Bold (700), 11px / auto, tracking 0px
+- Regular/10: Nunito Sans Regular (400), 11px / auto, tracking -0.33px
+- Bold/3: Nunito Sans Bold (700), 19px / auto, tracking 0px
+- Regular/2: Nunito Sans Regular (400), 22px / auto, tracking -0.44px
+- Bold/7: Nunito Sans Bold (700), 13px / auto, tracking -0.26px
+- Regular/11: Nunito Sans Regular (400), 10px / auto, tracking 0.1px
+- Light/3: Nunito Sans Light (300), 14px / auto, tracking -0.42px
+- Light/4: Nunito Sans Light (300), 12px / auto, tracking -0.36px
+- Light/2: Nunito Sans Light (300), 22px / auto, tracking -0.66px
+- Bold/5.1: Nunito Sans Bold (700), 15px / auto, tracking 0.15px
+- Bold/1: Nunito Sans Bold (700), 45px / auto, tracking -1.8px
+- Semibold/3: Nunito Sans SemiBold (600), 13px / auto, tracking -0.65px
+- Regular/1: Nunito Sans Regular (400), 25px / auto, tracking -0.5px
+- Inter/1-Regular: Inter Regular (400), 13px / auto, tracking -0.39px
+- Regular/3: Nunito Sans Regular (400), 20px / auto, tracking -0.8px
+- Light/2-Italic: Nunito Sans LightItalic (300), 14px / auto, tracking -0.42px
+- Light/1: Nunito Sans Light (300), 25px / auto, tracking -0.75px
+- Inter/2-Regular: Inter Regular (400), 10px / auto, tracking -0.7px
+- Semibold/2: Nunito Sans SemiBold (600), 14px / auto, tracking -0.28px
+- Semibold/4: Nunito Sans SemiBold (600), 10px / auto, tracking -0.5px
+- Regular/12: Nunito Sans Regular (400), 7px / auto, tracking -0.42px
+- Regular/1-Italic: Nunito Sans Italic (400), 20px / auto, tracking -0.4px
+- Light/1-Italic: Nunito Sans LightItalic (300), 20px / auto, tracking -0.4px
+- Semibold/1: Nunito Sans SemiBold (600), 17px / auto, tracking -0.34px
+
+## Raw Typography (unstyled)
+- Nunito Bold, 16px: 264 uses
+- Nunito Sans Bold, 28px: 223 uses
+- Nunito Regular, 16px: 218 uses
+- Inter Regular, 30px: 108 uses
+- Nunito Sans Bold, 36px: 86 uses
+- Nunito Sans Black, 85px: 54 uses
+- Nunito Sans Regular, 32.57px: 44 uses
+- Nunito Sans Bold, 52.12px: 43 uses
+- Nunito Sans Bold, 16px: 30 uses
+- Nunito Sans Regular, 50px: 21 uses
+- Nunito Sans ExtraBold, 100px: 15 uses
+- Nunito Sans Regular, 30px: 15 uses
+- Nunito Sans Bold, 30px: 8 uses
+- Inter Light, 35px: 6 uses
+
+## Typography Hierarchy
+- 100px - Nunito Sans ExtraBold, 100px (raw)
+- 85px - Nunito Sans Black, 85px (raw)
+- 52.12px - Nunito Sans Bold, 52.12px (raw)
+- 50px - Nunito Sans Regular, 50px (raw)
+- 45px - Bold/1 (Nunito Sans Bold)
+- 36px - Nunito Sans Bold, 36px (raw)
+- 35px - Inter Light, 35px (raw)
+- 32.57px - Nunito Sans Regular, 32.57px (raw)
+- 30px - Inter Regular, 30px (raw)
+- 30px - Nunito Sans Bold, 30px (raw)
+- 30px - Nunito Sans Regular, 30px (raw)
+- 28px - Nunito Sans Bold, 28px (raw)
+- 25px - Light/1 (Nunito Sans Light)
+- 25px - Regular/1 (Nunito Sans Regular)
+- 22px - Light/2 (Nunito Sans Light)
+- 22px - Regular/2 (Nunito Sans Regular)
+- 21px - Bold/2 (Nunito Sans Bold)
+- 20px - Light/1-Italic (Nunito Sans LightItalic)
+- 20px - Regular/1-Italic (Nunito Sans Italic)
+- 20px - Regular/3 (Nunito Sans Regular)
+- 19px - Bold/3 (Nunito Sans Bold)
+- 19px - Regular/4 (Nunito Sans Regular)
+- 18px - Regular/5 (Nunito Sans Regular)
+- 17px - Bold/4 (Nunito Sans Bold)
+- 17px - Semibold/1 (Nunito Sans SemiBold)
+- 16px - Nunito Bold, 16px (raw)
+- 16px - Nunito Regular, 16px (raw)
+- 16px - Nunito Sans Bold, 16px (raw)
+- 16px - Regular/6 (Nunito Sans Regular)
+- 15px - Bold/5 (Nunito Sans Bold)
+- 15px - Bold/5.1 (Nunito Sans Bold)
+- 15px - Regular/7 (Nunito Sans Regular)
+- 14px - Bold/6 (Nunito Sans Bold)
+- 14px - Bold/6.1 (Nunito Sans Bold)
+- 14px - Light/2-Italic (Nunito Sans LightItalic)
+- 14px - Light/3 (Nunito Sans Light)
+- 14px - Regular/8 (Nunito Sans Regular)
+- 14px - Semibold/2 (Nunito Sans SemiBold)
+- 13px - Bold/7 (Nunito Sans Bold)
+- 13px - Inter/1-Regular (Inter Regular)
+- 13px - Semibold/3 (Nunito Sans SemiBold)
+- 12px - Bold/8 (Nunito Sans Bold)
+- 12px - Light/4 (Nunito Sans Light)
+- 12px - Regular/9 (Nunito Sans Regular)
+- 11px - Bold/9 (Nunito Sans Bold)
+- 11px - Regular/10 (Nunito Sans Regular)
+- 10px - Inter/2-Regular (Inter Regular)
+- 10px - Regular/11 (Nunito Sans Regular)
+- 10px - Semibold/4 (Nunito Sans SemiBold)
+- 7px - Regular/12 (Nunito Sans Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Drop-shadow/Card: [drop_shadow 15px offset 0 0 #DCDCDC]
+- Drop-shadow/Down: [drop_shadow 4px offset 0 2 #E0E0E2]
+- Drop-shadow/Up: [drop_shadow 10px offset 0 -3 #E7E7E7]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Informative-Banner
+- Alert-Banner
+- Copy-number-button
+- Date-selection-button
+- Segmented-button
+- Exit-button
+- Trip-type-button
+- Big-button
+- Normal-tab-button
+- Carousell-arrow-button
+- Seat-selection-button
+- Image-tab-button
+- Menu-option-button
+- Category-option-button
+- Back-button
+- Miles-button
+- LATAM-pass-button
+- Card+image-button
+- Menu-button
+- Invert-button
+- Action-card-button
+- Arrow-button
+- Buy-bar
+- Flight-type
+- Calendar-row
+- Calendar-grid
+- Week-day-calendar
+- Calendar-month
+- Plan-card
+- Frequent-companion-card
+- Seats-assigned-card
+- Flight-search-card
+- AddFlight-card
+- Seat-assignation-card
+- Flight-card
+- Luggage-card
+- Miles-card
+- Trip-admin-card
+- Flight-details-card
+- Past-flight-card
+- Assist-card
+- PlanOffer-card
+- Benefits-card
+- Next-flight-card
+- ReservationFlight-card
+- LATAM-pass-card
+- Passenger-selection-card
+- Miles-points-card
+- Boarding-pass-item-card
+- Flight-selection-card
+- ReservationCode-card
+- Destination-card
+- Flight-info-card
+- Points-card
+- Buy-flight-card
+- Dropdown-sortedBy
+- Selector-dropdown
+- Dropdown-code
+- Tray-dropdown
+- Pop-up-dropdown
+- LATAM-pass-icon
+- Trips-icon
+- Buy-icon
+- Home-icon
+- Down-arrow
+- Info-state-icon
+- Carousell
+- State-dot
+- Banner-icon
+- Progress-boarding-pass
+- Seats-icon-circle
+- Economy-icon
+- Baby-icon
+- Flight-icon
+- Kid-icon
+- Assist-icon
+- Copy-icon
+- Adult-icon
+- Car-icon
+- Arrow-icon
+- Business-icon
+- Reservation-icon
+- External-link-icon
+- Premium-icon
+- Beach-chair-icon
+- Map-icon
+- Card-illustration
+- Calendar-icon
+- Normal-seats-icon
+- Dotted-line
+- Luggage-icon
+- Info-cloud-icon
+- Minus
+- Seat-number
+- Seat-icon
+- Plus-icon
+- Status-tags
+- Pig-icon
+- Plane-icon
+- Takeoff&landing-icon
+- LATAM-logo
+- Pin-icon
+- Flight-line
+- Colombia
+- Diagonal-arrow
+- Tray-slider-icon
+- Return-icon
+- Discount-icon
+- Pager
+- Boarding-pass-illustration
+- Seat+window-illustration
+- Vignette
+- Lighthouse-illustration
+- Assist-card-illustration
+- Cactus-illustration
+- Seat-illustration
+- Connection
+- People-illustration
+- Plane-image
+- Loading-illustration
+- LATAM-icon-single
+- Question-icon
+- Tickets-illustration
+- Beach-image
+- Flight-state-icon
+- Flight-dates-icon
+- Ticket-icon
+- Settings-icon
+- Boarding-pass
+- Doc-icon
+- Card-icon
+- Question-cloud-icon
+- Requirements-icon
+- Clock-icon
+- Opinion-icon
+- Card-doc-icon
+- Manage-trips-icon
+- Phone-icon
+- Upgrade-icon
+- Account-icon
+- User-icon
+- Flight-admin-icon
+- LATAM-big-logo
+- Input
+- Blink
+- Active-origin-destination-input
+- Date-input
+- Origin-destination-formInput
+- Input add
+- Input-name and last name
+- Passengers-input
+- Home-header
+- Main-header
+- Image-header
+- Boarding-header
+- Buy-header
+- Loading
+- Link
+- Page-link
+- External-link
+- Definitive-black-link
+- Nav-bar-single-button
+- Nav-bar
+- Points
+- Points&miles-number
+- Flight-date&name
+- Bar-section
+- Boarding-pass-progress
+- Progress-bar
+- Bar
+- Checkbox
+- Radio-button
+- Plane-grid
+- Seat-letters
+- Price
+- Emergency-exit
+- Seat-info
+- Seats-section
+- Plane-single-grid
+- Plane-row
+- Flight-state-tag
+- Upgrade-tag
+- Normal-tag
+- Destination-tag
+- Person-number-tag
+- Boarding-pass-update-tag
+- Flight-tag
+- Copy-verification-toast
+- Info-update-toast
+- Label
+- Title-back
+- Flight-count-text
+- Flight-text
+- Hour+city-text
+- Flight-course-text
+- Description-text-bold+regular
+- Calendar-description-text
+- Title
+- Details-text
+- Italic-title
+- Landing-info-text
+- Loading-screen-text
+- Flight-date-calendar-text
+- Flight-price-text
+- Duration-text
+- Flight+account-type-text
+- Details-section
+- Title-bold+regular
+- Date-text
+- Price-details-text
+- Seat-type-tray
+- Loading-tray
+- Seats-tray
+- Active-input-tray
+- Menu-tray
+
+## Component Specs
+- Informative-Banner: size 364x184px, radius 7px, horizontal layout, padding 23 14 23 14px, gap 10px, sizing W:fixed H:fixed, fill #EFEDFA, text [Bold/6, Regular/7, Bold/4] | variants: Stroke: Dash/None
+- Alert-Banner: size 364x67px, radius 7px, horizontal layout, padding 10 14 10 14px, gap 10px, sizing W:fixed H:fixed, fill #FFF9E6, stroke #1B0188 1px, text [Bold/9, Bold/8, Bold/6]
+- Copy-number-button: size 121.6x51px, radius 7px, horizontal layout, padding 16 18 16 18px, gap 12px, align min/center, sizing W:fixed H:fixed, fill #EFEDFA, text [Bold/6.1] | variants: Background: Blue/Grey/Light blue
+- Date-selection-button: size 44x44px, radius 7px, vertical layout, padding 23 2 2 33px, gap 0px, align max/max, sizing W:fixed H:fixed, fill #FFFFFF, stroke #D1D1D2 1px, text [Bold/6.1] | variants: Type: Default/Disabled/Middle/Selected
+- Segmented-button: size 101x36px, radius 100px, horizontal layout, padding 8 10 8 10px, gap 6px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #D1D1D2 1px, text [Light/3] | variants: State: Default/Selected
+- Exit-button: size 23x23px, radius 100px, horizontal layout, padding 10 10 10 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #858585 | variants: Type: Big/Filled/Medium/Small
+- Trip-type-button: size 181x31px, radius 7/0/0/7px, horizontal layout, padding 7 0 8 0px, gap 0px, align center/center, sizing W:fixed H:fixed, stroke #B6B6B6 1px, text [Bold/8] | variants: Type: Default/Selected; Trip: One way/Round
+- Big-button: size 362x51px, radius 7px, horizontal layout, padding 16 0 16 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #EA104C 1px, text [Bold/6.1] | variants: Type: Primary/Secondary/Tertiary; Style: Filled/Outlined
+- Normal-tab-button: size 197x55px, horizontal layout, padding 18 0 18 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #D1D1D2 1px, text [Regular/8] | variants: Type: Primary/Secondary; Style: Default/Selected
+- Carousell-arrow-button: size 35.33x35.33px, radius 100px, horizontal layout, padding 8 8 8 8px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #EA104C 1px | variants: Type: Back/Forward
+- Seat-selection-button: size 32x32px, fill #FFFFFF | variants: Type: Blue/Green/Grey/Pink/Purple; Style: Filled/Outlined
+- Image-tab-button: size 197x44px, horizontal layout, padding 18 0 18 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Regular/9] | variants: State: Default/Selected
+- Menu-option-button: size 364x36px, horizontal layout, padding 7 0 7 0px, gap 130px, align space_between/center, sizing W:fixed H:fixed, text [Regular/7] | variants: Style: Default/Underlined; Type: Big/Small
+- Category-option-button: size 354x56px, radius 7px, horizontal layout, padding 18 14 18 14px, gap 23px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #B6B6B6 1px, text [Bold/5] | variants: State: Default/Selected
+- Back-button: size 9x14px, horizontal layout, padding 2 2 2 2px, gap 0px, align min/center, sizing W:fixed H:fixed | variants: Type: Blue/Filled/White
+- Miles-button: size 160x80px, radius 7px, horizontal layout, padding 16 33 16 16px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E0E0E2 1px, text [Regular/9]
+- LATAM-pass-button: size 178x41px, radius 7px, horizontal layout, padding 8 33 8 10px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Bold/7]
+- Card+image-button: size 89x86px, radius 14px, vertical layout, padding 5 8 5 8px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Drop-shadow/Card, text [Regular/11]
+- Menu-button: size 24x20px, fill #FFFFFF
+- Invert-button: size 41x41px, radius 100px, horizontal layout, padding 10 10 10 10px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #B6B6B6 1px
+- Action-card-button: size 94x94px, radius 7px, vertical layout, padding 16 14 16 14px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, effect Drop-shadow/Card, text [Regular/9]
+- Arrow-button: size 28x27px, radius 100px, vertical layout, padding 8 8 8 8px, gap 0px, sizing W:fixed H:fixed, fill #EA104C
+- Buy-bar: size 557x36px, horizontal layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Light/3]
+- Flight-type: size 362x31px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Bold/8]
+- Calendar-row: size 356x44px, horizontal layout, padding 0 0 0 0px, gap 8px, align max/center, sizing W:fixed H:fixed, text [Bold/6.1] | variants: Type: Middle/Star & End
+- Calendar-grid: size 356x321px, vertical layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed, text [Bold/6.1, Bold/9]
+- Week-day-calendar: size 321x15px, horizontal layout, padding 0 0 0 0px, gap 44px, align min/center, sizing W:fixed H:fixed, text [Bold/9]
+- Calendar-month (-> ✈️ Calendar): size 374x363px, vertical layout, padding 0 7 0 7px, gap 12px, align center/center, sizing W:fixed H:fixed, text [Bold/6.1, Bold/9, Bold/3, Light/2]
+- Calendar-month (-> ✈️ Calendar): size 366x30px, horizontal layout, padding 0 0 0 0px, gap 263px, align space_between/max, sizing W:fixed H:fixed, text [Bold/3, Light/2]
+- Plan-card: size 337x572px, radius 7px, fill #FFFFFF, text [Bold/3, Regular/10, Bold/4, Regular/11, Bold/6.1] | variants: Type: Premium/Standard
+- Frequent-companion-card: size 363x132px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Bold/8, Regular/9, Regular/8]
+- Seats-assigned-card: size 360x234px, radius 7px, vertical layout, padding 14 14 28 8px, gap 32px, sizing W:fixed H:fixed, fill #FFFFFF, text [Regular/9, Bold/6, Bold/5, Bold/7, Bold/4]
+- Flight-search-card: size 363x51px, radius 5px, horizontal layout, padding 7 18 7 18px, gap 80px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Regular/3, Light/2-Italic, Bold/8]
+- AddFlight-card: size 365x127px, radius 7px, vertical layout, padding 10 18 10 18px, gap 16px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, text [Bold/6.1, Light/4, Bold/6]
+- Seat-assignation-card: size 254x182.08px, radius 7px, vertical layout, padding 14 14 14 14px, gap 16px, align max/max, sizing W:fixed H:fixed, fill #FFFFFF, effect Drop-shadow/Card, text [Bold/6, Regular/9, Bold/5, Regular/8, Bold/4]
+- Flight-card: size 360x90px, radius 14px, horizontal layout, padding 0 10 0 10px, gap 80px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Drop-shadow/Down, text [Bold/7, Regular/9]
+- Luggage-card: size 362x140px, radius 7px, vertical layout, padding 5 0 18 7px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [Regular/10, Regular/9, Bold/6, Bold/5.1]
+- Miles-card: size 360x227px, radius 7px, vertical layout, padding 0 0 16 0px, gap 16px, align center/max, sizing W:fixed H:fixed, fill #FFFFFF, text [Bold/8, Regular/9, Regular/8, Bold/6.1]
+- Trip-admin-card: size 363x66px, radius 14px, horizontal layout, padding 14 80 14 12px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #F3F2F7, text [Regular/8, Bold/6.1]
+- Flight-details-card: size 361x327px, radius 11px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E0E0E2 1px, text [Bold/6.1, Regular/9, Regular/10, Regular/11, Bold/6, Light/3, Bold/2, Light/4, Bold/8]
+- Past-flight-card: size 362x130px, fill #FFFFFF, effect Drop-shadow/Card, text [Bold/7, Bold/5.1]
+- Assist-card: size 359x121px, radius 14px, horizontal layout, padding 10 33 28 4px, gap 8px, align min/max, sizing W:fixed H:fixed, fill #FFFFFF, text [Bold/4, Regular/4]
+- PlanOffer-card: size 365x303px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Bold/3, Regular/8, Regular/6, Bold/6.1]
+- Benefits-card: size 365x135px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, effect Drop-shadow/Card, text [Regular/12, Regular/9, Bold/6.1]
+- Next-flight-card: size 362x433px, radius 14px, vertical layout, padding 0 0 7 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Regular/8, Regular/6, Regular/3, Regular/9, Bold/3, Bold/9]
+- ReservationFlight-card: size 393x224px, vertical layout, padding 16 10 16 10px, gap 18px, align min/center, sizing W:fixed H:fixed, text [Regular/9, Regular/7, Bold/1, Semibold/3, Light/3]
+- LATAM-pass-card: size 363x85px, radius 5px, horizontal layout, padding 14 23 14 23px, gap 58px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Regular/8]
+- Passenger-selection-card: size 393x215px, vertical layout, padding 7 0 7 0px, gap 4px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E0E0E2 1px, text [Bold/6, Regular/7, Bold/4, Regular/9]
+- Miles-points-card: size 355x111px, radius 5px, horizontal layout, padding 23 20 23 20px, gap 16px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #D1D1D2 1px, text [Light/3, Bold/6]
+- Boarding-pass-item-card: size 306x191px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Bold/5.1, Light/3, Bold/4]
+- Flight-selection-card: size 395x156px, vertical layout, padding 14 16 28 16px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, effect Drop-shadow/Up, text [Bold/6.1, Regular/5, Bold/7]
+- ReservationCode-card: size 353.6x67px, radius 7px, horizontal layout, padding 8 10 8 10px, gap 87px, align center/center, sizing W:fixed H:fixed, stroke #E0E0E2 1px, text [Bold/6.1, Regular/7]
+- Destination-card: size 365x214px, radius 14px, vertical layout, padding 14 0 14 0px, gap 131px, align space_between/max, sizing W:fixed H:fixed, fill image(hash: ac1d0baced170d0d7a729e2de7681aca7f918cd6), text [Bold/4, Regular/9]
+- Flight-info-card: size 378x326px, radius 14px, vertical layout, padding 8 10 8 10px, gap 12px, align center/center, sizing W:fixed H:fixed, fill #F3F2F7, text [Bold/6.1, Regular/8, Bold/7, Regular/9]
+- Points-card: size 364x204px, radius 7px, vertical layout, padding 0 0 14 0px, gap 12px, align center/max, sizing W:fixed H:fixed, fill #FFFFFF, text [Bold/8, Bold/9, Regular/10, Regular/9, Bold/6.1]
+- Buy-flight-card: size 363x192px, radius 7px, fill #FFFFFF, effect Drop-shadow/Down, text [Regular/11, Bold/4, Regular/8, Bold/8, Light/2, Light/3]
+- Dropdown-sortedBy: size 209x22px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Regular/6] | variants: State: Closed/Open
+- Selector-dropdown: size 145x48px, radius 7px, horizontal layout, padding 14 10 14 14px, gap 62px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E0E0E2 1px, text [Bold/6, Regular/8] | variants: State: Closed/Open
+- Dropdown-code: size 121x51px, radius 5px, horizontal layout, padding 14 18 14 18px, gap 16px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #B6B6B6 1px, text [Regular/6] | variants: State: Default/Filled/Open
+- Tray-dropdown: size 394x234px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Regular/4, Regular/6, Regular/8, Regular/5]
+- Pop-up-dropdown: size 300x354px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect Drop-shadow/Card, text [Regular/7]
+- LATAM-pass-icon: size 21x19px | variants: State: Default/Selected
+- Trips-icon: size 21x19px | variants: State: Default/Selected
+- Buy-icon: size 21x19px, fill #FFFFFF | variants: State: Default/Selected
+- Home-icon: size 21x19px, fill #FFFFFF | variants: State: Default/Selected
+- Down-arrow: size 20x20px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF | variants: Type: Primary/Secondary/Third; State: Closed/Open
+- Info-state-icon: size 14x14px, radius 100px, vertical layout, padding 3 3 3 3px, gap 10px, align space_between/center, sizing W:fixed H:fixed, fill #0BAEAF | variants: State: Alert/Check; Size: Big/Small
+- Carousell: size 11x11px, fill #FFFFFF | variants: State: Active/Resting
+- State-dot: size 12x12px, fill #FFFFFF | variants: State: Canceled/Delayed/On time
+- Banner-icon: size 17x17px, radius 30px, vertical layout, padding 10 10 10 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #4658E0, text [Bold/6] | variants: Type: Alert/Info
+- Progress-boarding-pass: size 38x39px, radius 100px, vertical layout, padding 8 10 8 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #0BAEAF | variants: Type: Done/Pending
+- Seats-icon-circle: size 32.08x32.08px, radius 100px, horizontal layout, padding 7 7 7 7px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #1B0188 | variants: Style: Blue/Green/Pink/Purple
+- Economy-icon: size 20x20px | variants: State: Default/Selected
+- Baby-icon: size 20x20px | variants: State: Default/Selected
+- Flight-icon: size 20x20px | variants: Type: Primary/Secondary/Selected
+- Kid-icon: size 20x20px | variants: State: Default/Selected
+- Assist-icon: size 20x20px | variants: Type: Primary/Secondary/Selected
+- Copy-icon: size 13.6x16.1px, fill #FFFFFF | variants: Type: Primary/Secondary/Tertiary
+- Adult-icon: size 20x20px | variants: State: Default/Selected
+- Car-icon: size 20x20px | variants: Type: Primary/Secondary/Selected
+- Arrow-icon: size 20x20px, fill #FFFFFF | variants: Type: Primary/Secondary; State: Activated/Resting/Select
+- Business-icon: size 20x20px | variants: State: Default/Secondary
+- Reservation-icon: size 20x20px | variants: Type: Primary/Secondary/Selected
+- External-link-icon: size 14x14px, fill #FFFFFF | variants: Type: Fifth/Fourth/Primary/Secondary/Third
+- Premium-icon: size 20x20px | variants: State: Default/Secondary
+- Beach-chair-icon: size 20x20px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Type: Primary/Secondary/Selected
+- Map-icon: size 23x22px | variants: Type: Primary/Secondary
+- Card-illustration: size 69x70.5px | variants: Size: Big/Small
+- Calendar-icon: size 15.5x19.5px | variants: Size: Big/Medium/Small; Type: Primary/Secondary
+- Normal-seats-icon: size 23x22px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: Type: Icon/Illustration
+- Dotted-line: size 40x0px, fill #FFFFFF | variants: Type: Primary/Secondary
+- Luggage-icon: size 20x20px | variants: Type: Big/Medium/Small; Color: Primary/Secondary
+- Info-cloud-icon: size 22x23px | variants: Type: Icon/Illustration
+- Minus: size 26x26px, fill #FFFFFF | variants: Type: Default/Disabled
+- Seat-number (-> ✈️ Icons & illustrations): size 39x36px, radius 7px, horizontal layout, padding 8 5 8 5px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #B6B6B6, text [Bold/5] | variants: Type: Default/Selected
+- Seat-icon: size 20x20px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: Type: Icon/Illustration
+- Plus-icon: size 20x20px, fill #FFFFFF | variants: Type: Primary/Secondary
+- Status-tags: size 10x22px, fill #FFFFFF | variants: Type: Basic/Full/Light/Premium; Style: Big/Small
+- Pig-icon: size 20x20px | variants: Type: Icon/Illustration
+- Plane-icon: size 20x20px, fill #FFFFFF | variants: Type: Primary/Secondary/Tertiary
+- Takeoff&landing-icon: size 23x17px, vertical layout, padding 0 0 0 0px, gap 5px, align center/min, sizing W:fixed H:fixed | variants: State: Landing/Take off; Size: Big/Small
+- LATAM-logo: size 13x20px, radius 100px, vertical layout, padding 2 2 2 2px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: Type: Primary/Secondary; Size: Big/Small; Category: Black/Default/Gold/Gold Plus/LATAM
+- Pin-icon: size 20x20px
+- Flight-line: size 22x90px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- Colombia: size 18x18px, fill #FFFFFF
+- Diagonal-arrow: size 20x20px
+- Tray-slider-icon: size 46x0px, fill #FFFFFF
+- Return-icon: size 22x23px, fill #FFFFFF
+- Discount-icon: size 20x20px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- Pager: size 25x8px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed
+- Boarding-pass-illustration: size 85x85px, fill #FFFFFF
+- Seat+window-illustration: size 58x58px, fill #FFFFFF
+- Vignette: size 4x4px, fill #FFFFFF
+- Lighthouse-illustration: size 148x222px, fill #FFFFFF
+- Assist-card-illustration: size 84x84px, fill #FFFFFF
+- Cactus-illustration: size 109x116px, fill #FFFFFF
+- Seat-illustration: size 85x85px, fill #FFFFFF
+- Connection: size 20x20px, fill #FFFFFF
+- People-illustration: size 66.37x63.5px
+- Plane-image: size 39x26px, fill #FFFFFF
+- Loading-illustration: size 179x179px, radius 100px, vertical layout, padding 33 33 33 33px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- LATAM-icon-single: size 20x20px
+- Question-icon: size 17x17.5px, radius 100px, vertical layout, padding 4 5 4 5px, gap 1px, align center/center, sizing W:fixed H:fixed, fill #4658E0
+- Tickets-illustration: size 85x85px, fill #FFFFFF
+- Beach-image: size 36x36px, fill #FFFFFF
+- Flight-state-icon: size 23x22px
+- Flight-dates-icon: size 22x23px
+- Ticket-icon: size 20x20px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- Settings-icon: size 23x22px
+- Boarding-pass: size 23x22px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- Doc-icon: size 22x23px
+- Card-icon: size 20x20px
+- Question-cloud-icon: size 23x22px
+- Requirements-icon: size 23x22px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- Clock-icon: size 23x22px, fill #FFFFFF
+- Opinion-icon: size 23x22px
+- Card-doc-icon: size 22x23px
+- Manage-trips-icon: size 23x22px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- Phone-icon: size 23x22px
+- Upgrade-icon: size 22x23px
+- Account-icon: size 23x22px
+- User-icon: size 16x16px, fill #FFFFFF
+- Flight-admin-icon: size 34x38px, radius 7px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, stroke #6717A0 1px
+- LATAM-big-logo: size 77x23px, fill #FFFFFF
+- Input: size 364x51px, radius 5px, horizontal layout, padding 10 16 10 16px, gap 0px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #B6B6B6 1px, text [Regular/6] | variants: State: Default/Filled/Selected
+- Blink: size 0x24px, fill #FFFFFF | variants: Visible: false/true
+- Active-origin-destination-input: size 363x63px, fill #FFFFFF, text [Regular/11] | variants: State: Filled/Selected
+- Date-input: size 182x46px, radius 7/0/0/7px, horizontal layout, padding 0 20 0 20px, gap 10px, align min/center, sizing W:fixed H:fixed, stroke #B6B6B6 1px, text [Regular/7] | variants: Type: Departure/Return; State: Default/Filled
+- Origin-destination-formInput: size 363x46px, fill #FFFFFF, text [Regular/7] | variants: State: Default/Filled; Type: Destination/Origin
+- Input add: size 98x32px, radius 7px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, stroke #858585 1px, text [Regular/7]
+- Input-name and last name/Input/Email-number: size 364x52px, radius 7px, horizontal layout, padding 16 14 16 14px, gap 152px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #858585 1px, text [Regular/7]
+- Passengers-input: size 363x52px, radius 7px, horizontal layout, padding 16 20 16 20px, gap 74px, align space_between/center, sizing W:fixed H:fixed, stroke #B6B6B6 1px, text [Regular/7]
+- Home-header: size 393x111px, horizontal layout, padding 33 18 10 18px, gap 162px, align space_between/max, sizing W:fixed H:fixed, fill #4658E0, text [Regular/8, Light/2-Italic] | variants: Category: Black/Gold/Gold Plus/LATAM
+- Main-header: size 393x222px, radius 0/0/14/14px, vertical layout, padding 69 16 33 16px, gap 32px, align min/center, sizing W:fixed H:fixed, fill #4658E0, text [Semibold/4, Regular/11, Regular/2, Regular/4] | variants: Type: Back/Description/Title/User; Category: Black/Gold/Gold Plus/LATAM
+- Image-header: size 393x132px, text [Regular/1]
+- Boarding-header: size 393x133px, vertical layout, padding 69 23 18 23px, gap 4px, align center/min, sizing W:fixed H:fixed, fill #110053, text [Regular/9, Bold/9, Regular/6]
+- Buy-header: size 393x178px, vertical layout, padding 69 14 14 14px, gap 18px, align center/min, sizing W:fixed H:fixed, fill #110053, text [Regular/3, Light/2-Italic, Bold/8, Regular/6]
+- Loading: size 32x32px | variants: Progress: 1/2/3/4
+- Link: size 91x20px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [Bold/5.1] | variants: Size: Big/Small
+- Page-link: size 119x20px, horizontal layout, padding 0 0 0 0px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Bold/8] | variants: Size: Big/Small
+- External-link: size 90x19px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Bold/6] | variants: Size: Default/Small
+- Definitive-black-link: size 86x19px, fill #FFFFFF, text [Bold/6.1]
+- Nav-bar-single-button: size 23x33px, vertical layout, padding 0 0 0 0px, gap 2px, align center/center, sizing W:fixed H:fixed, text [Inter/2-Regular]
+- Nav-bar: size 393x85px, horizontal layout, padding 8 33 33 33px, gap 69px, align space_between/min, sizing W:fixed H:fixed, fill #FFFFFF, effect Drop-shadow/Up, text [Inter/2-Regular]
+- Points: size 391x135px, horizontal layout, padding 20 14 16 14px, gap 96px, align space_between/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke #D1D1D2 1px, text [Bold/4, Regular/9, Regular/8]
+- Points&miles-number: size 101x45px, vertical layout, padding 0 0 0 0px, gap 6px, align min/max, sizing W:fixed H:fixed, text [Bold/4, Regular/9]
+- Flight-date&name: size 166x62px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Regular/8, Regular/9]
+- Bar-section: size 48x9px, fill #FFFFFF | variants: Type: Default/Progress; Place: End/Middle/Start
+- Boarding-pass-progress: size 38x467px, fill #FFFFFF
+- Progress-bar: size 335x31px, vertical layout, padding 0 0 0 0px, gap 6px, sizing W:fixed H:fixed, text [Regular/9, Bold/8]
+- Bar: size 336x9px, radius 100px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- Checkbox: size 22x22px, fill #FFFFFF | variants: State: Checked/Default
+- Radio-button: size 23x23px, fill #FFFFFF | variants: State: Default/Selected
+- Plane-grid: size 312x1089px, vertical layout, padding 0 0 0 0px, gap 23px, align min/center, sizing W:fixed H:fixed, text [Bold/9, Regular/9, Regular/10]
+- Seat-number (-> ✈️ Seat selection): size 15x340px, vertical layout, padding 8 0 8 0px, gap 28px, align space_between/center, sizing W:fixed H:fixed, text [Regular/9]
+- Seat-letters: size 97x15px, horizontal layout, padding 0 0 0 0px, gap 36px, align min/center, sizing W:fixed H:fixed, text [Regular/10]
+- Price: size 309x21px, horizontal layout, padding 0 0 0 0px, gap 18px, align min/max, sizing W:fixed H:fixed, text [Bold/9]
+- Emergency-exit: size 312x79.5px, horizontal layout, padding 0 0 0 0px, gap 28px, align min/center, sizing W:fixed H:fixed, text [Bold/9]
+- Seat-info: size 137x39px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Regular/9, Bold/6, Bold/5]
+- Seats-section: size 312x475.5px, vertical layout, padding 0 0 0 0px, gap 23px, align min/center, sizing W:fixed H:fixed, text [Bold/9, Regular/9]
+- Plane-single-grid: size 120x340px, vertical layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed
+- Plane-row: size 120x32px, horizontal layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed
+- Flight-state-tag: size 172x30px, radius 100px, horizontal layout, padding 5 2 5 7px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #E8F4F4, text [Bold/9] | variants: Type: Primary/Secondary; State: Canceled/Delayed/On time
+- Upgrade-tag: size 136x22px, radius 100px, horizontal layout, padding 2 7 2 7px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #110053, text [Bold/6.1]
+- Normal-tag: size 74x23px, radius 14px, horizontal layout, padding 2 10 2 10px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #EFEDFA, text [Regular/8]
+- Destination-tag: size 43x26px, radius 11/0/0/11px, horizontal layout, padding 4 8 4 8px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #11005380, text [Regular/9]
+- Person-number-tag: size 59x22px, fill #FFFFFF, text [Bold/5]
+- Boarding-pass-update-tag: size 392x40px, horizontal layout, padding 10 0 14 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #E8F4F4, text [Regular/9]
+- Flight-tag: size 248x24px, text [Light/3]
+- Copy-verification-toast: size 360x44px, radius 100px, horizontal layout, padding 14 0 14 18px, gap 22px, align min/center, sizing W:fixed H:fixed, fill #E8F4F4, text [Bold/8]
+- Info-update-toast: size 345x24px, radius 100px, horizontal layout, padding 4 18 4 18px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #E8F4F4, text [Regular/9]
+- Label: size 140x22px, vertical layout, padding 0 14 0 14px, gap 0px, sizing W:fixed H:fixed, text [Regular/11] | variants: Type: Primary/Secondary
+- Title-back: size 137x22px, horizontal layout, padding 0 0 0 0px, gap 11px, align min/center, sizing W:fixed H:fixed, text [Regular/6] | variants: Type: Blue/White
+- Flight-count-text: size 157x26px, horizontal layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Regular/9, Bold/7] | variants: Type: Primary/Secondary
+- Flight-text: size 74x74px, vertical layout, padding 0 0 0 0px, gap -7px, sizing W:fixed H:fixed, text [Regular/7, Bold/1] | variants: Type: Destination/Origin
+- Hour+city-text: size 90x49px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Regular/8, Light/2] | variants: Type: Destination/Origin
+- Flight-course-text: size 81x20px, horizontal layout, padding 0 0 0 0px, gap 4px, align center/min, sizing W:fixed H:fixed, text [Bold/6.1] | variants: Type: Big/Small
+- Description-text-bold+regular: size 306x26px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Regular/5, Bold/3] | variants: Type: Big/Small
+- Calendar-description-text: size 89x25px, fill #FFFFFF, text [Regular/5] | variants: Information: Date/None
+- Title: size 359x34px, horizontal layout, padding 0 0 0 0px, gap 127px, align space_between/center, sizing W:fixed H:fixed, text [Light/1] | variants: Size: Large/Medium/Small
+- Details-text: size 142x15px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/max, sizing W:fixed H:fixed, text [Regular/10]
+- Italic-title: size 82x27px, horizontal layout, padding 0 0 0 0px, gap 2px, align min/center, sizing W:fixed H:fixed, text [Regular/1-Italic, Light/1-Italic]
+- Landing-info-text: size 191x38px, horizontal layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed, text [Regular/8, Bold/6.1]
+- Loading-screen-text: size 353x53px, vertical layout, padding 0 0 0 0px, gap 1px, align min/center, sizing W:fixed H:fixed, text [Regular/6, Regular/2]
+- Flight-date-calendar-text: size 89x63px, vertical layout, padding 0 0 18 0px, gap 2px, sizing W:fixed H:fixed, text [Regular/5, Bold/7]
+- Flight-price-text: size 90x32px, vertical layout, padding 0 0 0 0px, gap 0px, align center/max, sizing W:fixed H:fixed, text [Bold/7, Regular/11]
+- Duration-text: size 45x28px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [Regular/11]
+- Flight+account-type-text: size 162x22px, horizontal layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Bold/6.1, Regular/9]
+- Details-section: size 235x231px, vertical layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, text [Regular/10, Bold/9]
+- Title-bold+regular: size 106x19px, horizontal layout, padding 0 0 0 0px, gap 2px, align min/center, sizing W:fixed H:fixed, text [Regular/8, Bold/6.1]
+- Date-text: size 120.5x19.5px, horizontal layout, padding 0 0 0 0px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Regular/8]
+- Price-details-text: size 125x52px, fill #FFFFFF, text [Bold/4, Regular/11]
+- Seat-type-tray: size 393x305px, radius 14/14/0/0px, vertical layout, padding 18 18 33 18px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [Bold/5, Regular/4] | variants: Type: Business/Default/Economy/Premium Economy
+- Loading-tray: size 393x155px, radius 7/7/0/0px, vertical layout, padding 28 33 33 33px, gap 16px, align max/center, sizing W:fixed H:fixed, fill #1B0188, text [Regular/7, Bold/3]
+- Seats-tray: size 393x252px, radius 14/14/0/0px, vertical layout, padding 16 16 33 16px, gap 32px, sizing W:fixed H:fixed, fill #FFFFFF, text [Bold/6.1, Regular/6, Regular/8, Bold/5, Bold/4]
+- Active-input-tray: size 392x597px, radius 14/14/0/0px, vertical layout, padding 14 14 69 14px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [Regular/11, Regular/4]
+- Menu-tray: size 393x594px, radius 14/14/0/0px, vertical layout, padding 8 16 69 16px, gap 44px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Bold/6.1, Regular/7]
+
+## Most-Used Styles
+- Regular/6: 572 uses
+- Bold/6.1: 383 uses
+- Regular/9: 309 uses
+- Regular/10: 233 uses
+- Regular/8: 161 uses
+- Bold/9: 138 uses
+- Regular/7: 122 uses
+- Semibold/1: 121 uses
+- Regular/5: 100 uses
+- Bold/6: 92 uses
+- Regular/11: 88 uses
+- Bold/7: 83 uses
+- Bold/5: 75 uses
+- Light/3: 72 uses
+- Bold/4: 71 uses
+- Inter/2-Regular: 58 uses
+- Bold/3: 56 uses
+- Bold/8: 54 uses
+- Drop-shadow/Card: 35 uses
+- Regular/4: 29 uses
+- Bold/5.1: 28 uses
+- Drop-shadow/Up: 20 uses
+- Light/2: 20 uses
+- Bold/2: 19 uses
+- Light/2-Italic: 17 uses
+- Regular/3: 13 uses
+- Regular/2: 12 uses
+- DestinationCard|Gradient: 11 uses
+- Drop-shadow/Down: 11 uses
+- Semibold/4: 11 uses
+- Light/4: 10 uses
+- Regular/1: 10 uses
+- Semibold/2: 10 uses
+- Bold/1: 9 uses
+- Light/1-Italic: 5 uses
+- PremiumGradient: 5 uses
+- Regular/1-Italic: 5 uses
+- Semibold/3: 5 uses
+- Inter/1-Regular: 4 uses
+- Light/1: 4 uses
+- NavyGardient: 3 uses
+- Regular/12: 3 uses
+- DestinationCard|Gradient2: 2 uses
+
+## Layout & Structure
+Screen: 📢 Disclaimer / Disclaimer
+- FRAME "Disclaimer", 1920x1080px, constraints left/top, fill #FFFFFF
+  - TEXT "This design system is created solely for academic purposes, ", 1714x165px, constraints center/center, fill #000000, text [Nunito Sans Regular, 40px], [heading]
+
+Screen: Cover / Cover
+- FRAME "Cover", 1920x1080px, constraints left/top, fill #110053
+  - FRAME "grip", 2015x823px, vertical pad 0 0 0 0px gap 47px align max/center sizing W:fixed H:fixed, constraints center/top, opacity 2% [decorative, ~196 shapes]
+  - RECTANGLE "image 2", 267x95px, constraints left/top, fill image(hash: f99d5400f58e7d240ab254d7e0f62ef31cd1a635)
+  - FRAME "Contributors", 1920x137px, vertical pad 46 154 46 154px gap 10px align center/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "contributors", 936x45px, horizontal pad 0 0 0 0px gap 25px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Contributors:", 147x33px, constraints left/top, fill #000000, text [Nunito Sans Bold, 24px], [heading]
+      - FRAME "designer", 239x69px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "profile3 1", 69x69px, constraints left/top, fill image(hash: 46d3fbabcfd9200a7874d317091bf8fdf4ebd61f)
+        - TEXT "Isabella Palma", 158x33px, constraints left/top, fill #000000, text [Nunito Sans Regular, 24px], [heading]
+      - FRAME "designer", 237x63px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "image 3", 63x63px, constraints left/top, fill image(hash: 9894e598e60a57be89a6acd1ab9ce8ed152e3eb6)
+        - TEXT "Andrea Oviedo", 162x33px, constraints left/top, fill #000000, text [Nunito Sans Regular, 24px], [heading]
+      - FRAME "designer", 238x59px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "image 4", 59x59px, constraints left/top, radius 100px, fill image(hash: 444b4fed7dcf90a2e31e5ede8961de526e36d7d8)
+        - TEXT "Laura Mendieta", 167x33px, constraints left/top, fill #000000, text [Nunito Sans Regular, 24px], [heading]
+  - GROUP "Group 3", 1950.5x931.5px, constraints left/top, opacity 50% [decorative, ~4 shapes]
+  - GROUP "Group 4", 1577x644.06px, constraints left/top, opacity 10% [decorative, ~6 shapes]
+  - GROUP "Group 2", 1240x409px, constraints center/center
+    - GROUP "Group 1", 1240x409px, constraints center/top, radius 0/0/0/0px
+      - TEXT "C mpass", 1240x409px, constraints center/center, fill #FFFFFF, text [Nunito Sans Black, 300px], [heading]
+    - TEXT "Design system by LATAM airlines", 539x82px, constraints left/top, fill #FFFFFF, text [Nunito Sans Bold, 30px], [heading]
+    - GROUP "compass", 199x199px, constraints left/top
+      - RECTANGLE "Bounding box", 199x199px, constraints left/top, fill #D9D9D9
+      - VECTOR "explore", 165.83x165.83px, constraints scale/scale, fill #EA104C
+
+Screen: -> 🎈 Design system overview / Group 5
+- GROUP "Group 5", 4698x3317px, constraints left/top, radius 0/0/0/0px
+  - FRAME "Cover", 1611x1058px, constraints left/top, radius 50px, fill #110053
+    - FRAME "grip", 2015x997px, vertical pad 0 0 0 0px gap 47px align max/center sizing W:fixed H:fixed, constraints center/top, opacity 2% [decorative, ~196 shapes]
+    - GROUP "Group 3", 1896.75x1086.6px, constraints left/top, opacity 50% [decorative, ~4 shapes]
+    - GROUP "Group 4", 1577x644.06px, constraints left/top, opacity 10% [decorative, ~6 shapes]
+    - GROUP "Group 2", 1240x409px, constraints center/center
+      - GROUP "Group 1", 1240x409px, constraints center/top, radius 0/0/0/0px
+        - TEXT "C mpass", 1240x409px, constraints center/center, fill #FFFFFF, text [Nunito Sans Black, 300px], [heading]
+      - TEXT "Design system by LATAM airlines", 539x82px, constraints left/top, fill #FFFFFF, text [Nunito Sans Bold, 30px], [heading]
+      - GROUP "explore", 199x199px, constraints left/top
+        - RECTANGLE "Bounding box", 199x199px, constraints left/top, fill #D9D9D9
+        - VECTOR "explore", 165.83x165.83px, constraints scale/scale, fill #EA104C
+  - FRAME "overview", 1873x759px, constraints left/top, radius 50px, fill #EA104C
+    - TEXT "Purpose", 390x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "Compass is a mobile-focused design system for LATAM Airlines", 1148x408px, constraints left/top, fill #FFFFFF, text [Nunito Sans Bold, 50px], [heading]
+    - FRAME "mingcute:compass-3-fill", 602.43x602.43px, constraints left/center, fill #FFFFFF
+      - GROUP "Group", 465.06x465.06px, constraints scale/scale
+        - VECTOR "Vector", 18.9x18.9px, constraints scale/scale
+        - VECTOR "Vector", 422.38x422.38px, constraints scale/scale, fill #FFFFFF
+  - FRAME "overview", 1873x760px, constraints left/top, radius 50px, fill #4658E0
+    - TEXT "Compass promise", 836x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "Compass promises to deliver a seamless and accessible mobile", 1148x408px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+    - GROUP "explore", 421x421px, constraints left/center
+      - RECTANGLE "Bounding box", 421x421px, constraints left/top, fill #D9D9D9
+      - VECTOR "explore", 350.83x350.83px, constraints scale/center, fill #FFFFFF
+  - FRAME "overview", 1115x759px, constraints left/top, radius 50px, fill #1B0188
+    - RECTANGLE "image 71", 860x645px, constraints center/center, fill image(hash: de551293a4e5dbc428911e0d8f10e132bffdff46)
+  - FRAME "overview", 585x554px, constraints left/top, radius 50px, fill #1B0188
+    - TEXT "Tokens", 552x84px, constraints left/top, fill #FFFFFF, text [Nunito Sans Medium, 70px], [heading]
+    - TEXT "10", 240x240px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 200px], [heading]
+    - FRAME "tokens", 110.31x234px, vertical pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "name", 110.31x68px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 1", 23x22px, constraints left/top, fill #DBD9E5, stroke #DBD9E5 1px
+        - TEXT "#FFFFFF", 189x68px, constraints left/top, fill #DBD9E5, text [Nunito Sans Regular, 50px], [heading]
+      - FRAME "name", 110.31x68px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "mdi:text", 34x34px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 25.5x17px, constraints scale/scale, fill #DBD9E5
+        - TEXT "Nunito Sans", 263x68px, constraints left/top, fill #DBD9E5, text [Nunito Sans Regular, 50px], [heading]
+      - FRAME "name", 246x68px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Photography / focus", 34x34px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 28.33x28.33px, constraints scale/scale, fill #DBD9E5
+        - TEXT "Semibold", 206x68px, constraints left/top, fill #DBD9E5, text [Nunito Sans Regular, 50px], [heading]
+  - FRAME "overview", 1579x759px, constraints left/top, radius 50px, fill #EA104C
+    - TEXT "Components", 573x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans Medium, 100px], [heading]
+    - TEXT "217", 396x264px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 220px], [heading]
+    - RECTANGLE "Flight-details 1", 870x788px, constraints left/top, fill image(hash: 5e228b8fd021caa049cc19ccb3483b79169ce3f2)
+    - RECTANGLE "Seats-tray 1", 837x537px, constraints left/top, fill image(hash: edb42df193f2210cfc72b2ec26019aa4631c8219), effect Drop-shadow/Card
+  - FRAME "overview", 1611x760px, constraints left/top, radius 50px, fill #FFFFFF
+    - FRAME "LATAM-big-logo", 1157.89x354px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "image 27", 1157.89x354px, constraints scale/scale, fill image(hash: 99ac24d55ba37fbf4789115fa3c4b27dfdf765a8)
+  - FRAME "overview", 807x902px, constraints left/top, radius 50px, fill #FFFFFF
+    - RECTANGLE "unsplash:TVllFyGaLEA", 928x1200px, constraints left/top, fill image(hash: e8bc6f419c78d18447d27d1c61541316e1c5733b)
+  - FRAME "overview", 431x554px, constraints left/top, radius 50px, fill #FFFFFF
+    - RECTANGLE "unsplash:oj0zeY2Ltk4", 1016x677px, constraints left/top, fill image(hash: 6f7eddb926ba93f980fff29e5084a1974405bc81)
+  - FRAME "overview", 494x542px, constraints left/top, radius 50px, fill #FFFFFF
+    - RECTANGLE "unsplash:ELf8M_YWRTY", 932x624px, constraints left/top, fill image(hash: 328d8fbed10852fc4a4d73cb8b095753ab9dbfa5)
+  - FRAME "overview", 1077x1005px, constraints left/top, radius 50px, fill #EA104C
+  - FRAME "overview", 1082x801px, constraints left/top, radius 50px, fill #110053
+    - TEXT "Core values", 552x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "Compass is guided by four core values: clarity, empathy, tru", 886x340px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+  - FRAME "overview", 1051x542px, constraints left/top, radius 50px, fill #1B0188
+    - TEXT "Colors", 290x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans Medium, 100px], [heading]
+    - TEXT "55", 264x264px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 220px], [heading]
+    - VECTOR "Vector", 547.62x535.62px, constraints center/center, fill #FFFFFF
+  - FRAME "overview", 1000x902px, constraints left/top, radius 50px, fill #4658E0
+    - TEXT "Aa", 881x840px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraLight, 700px], [heading], opacity 30%
+    - TEXT "Font styles", 496x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans Medium, 100px], [heading]
+    - TEXT "36", 264x264px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 220px], [heading]
+  - FRAME "overview", 1873x698px, constraints left/top, radius 50px, fill #1B0188
+    - RECTANGLE "unsplash:rf6ywHVkrlY", 1873x1244px, constraints left/top, fill image(hash: 87f78233787c349f2691e7154f0a0225ca3fbcf2)
+  - GROUP "Black", 1023.63x1181.1px, constraints scale/scale [decorative, ~8 shapes]
+
+Screen: -> 🫶🏻 Design values / Title
+- INSTANCE "Title", 4848x340px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+  - RECTANGLE "compass 1", 673x339px, constraints left/top, radius 14px, fill image(hash: 56c538651c9f3e239880a02f757c7f8731f1b6be)
+  - FRAME "Page title", 4145x340px, horizontal pad 10 75 10 75px gap 51px align min/center sizing W:fill H:fixed, constraints left/top, radius 11px, fill #EA104C
+    - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+    - TEXT "Banners", 1176x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 85px], [heading]
+
+Screen: -> 🫶🏻 Design values / Design Principles
+- GROUP "Design Principles", 4842x2464px, constraints left/top, radius 50px
+  - FRAME "principles", 1912x965px, constraints left/top, radius 50px, fill #4658E0
+    - VECTOR "Vector 1", 1487x548px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1558.17x791.19px, constraints left/top, stroke #FFFFFF 1px
+    - TEXT "Design Principles", 1481x216px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 180px], [heading]
+    - TEXT "They are fundamental guides that reflect the values of the d", 1582x340px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+  - FRAME "principles", 1263x646px, constraints left/top, radius 50px, fill #FFFFFF
+    - RECTANGLE "image 68", 748.77x229px, constraints center/center, fill image(hash: 5a4cd4369c323fe7b1d0cd9441aecbfbaef8502a)
+  - FRAME "principles", 759x759px, constraints left/top, radius 50px, fill #FFFFFF
+    - GROUP "explore", 463x463px, constraints center/center
+      - RECTANGLE "Bounding box", 463x463px, constraints left/top, fill #D9D9D9
+      - VECTOR "explore", 385.83x385.83px, constraints scale/scale, fill #4658E0
+  - FRAME "principles", 1150x965px, constraints left/top, radius 50px, fill #4658E0
+    - RECTANGLE "image 69", 1624.5x1083px, constraints center/bottom, fill image(hash: 6e9113623b1ba67cb87e7823d9ad251659a71ba1)
+  - FRAME "principles", 759x510px, constraints left/top, radius 50px, fill #110053
+    - VECTOR "Vector", 427x417.64px, constraints center/center, fill #FFFFFF
+    - VECTOR "Vector 1", 1097x404px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1009.29x1103.59px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "principles", 835x510px, constraints left/top, radius 50px, fill #110053
+    - RECTANGLE "image 72", 1024x530px, constraints center/center, fill image(hash: c0ab59647fd8e8ba0879433c4625f9f927a55791)
+  - FRAME "principles", 708x617px, constraints left/top, radius 50px, fill #1B0188
+    - RECTANGLE "image 71", 860x645px, constraints center/center, fill image(hash: de551293a4e5dbc428911e0d8f10e132bffdff46)
+    - VECTOR "Vector 1", 1054.5x1068.03px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 492.78x1126.49px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "principles", 886x617px, constraints left/top, radius 50px, fill #110053
+    - RECTANGLE "image 70", 1440x900px, constraints center/top, fill image(hash: 7bb3ad3759c8a1b4332c9eb57015a8fd764ca952)
+  - FRAME "principles", 921x759px, constraints left/top, radius 50px, fill #EA104C
+    - VECTOR "Vector 2", 1156.58x620.63px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 3", 1156.58x620.63px, constraints left/top, stroke #FFFFFF 1px
+    - INSTANCE "iPhone 12 Pro", 696x1440px, constraints center/top, fill #FFFFFF
+      - RECTANGLE "iPhone 12 Pro Clay", 689x1396px, constraints scale/scale, fill image(hash: 031989d12792a037d4a21b392377d718668730f3)
+      - VECTOR "Clay Border", 664x1380px, constraints scale/scale, fill #0D0D0D
+      - INSTANCE "Screen iPhone 12 Pro", 620x1338px, constraints scale/scale
+        - VECTOR "Mask", 620x1338px, constraints scale/scale, fill #C4C4C4
+        - VECTOR "Change This", 620x1338px, constraints scale/scale, fill image(hash: 26ef76c3cec805defdb5e3d22b03256553866a27)
+  - FRAME "principles", 1656x550px, constraints left/top, radius 50px, fill #FFFFFF
+    - TEXT "Consistency", 565x120px, constraints left/top, fill #110053, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "We design consistent experiences to build trust and recognit", 1377x204px, constraints left/top, fill #110053, text [Nunito Sans Regular, 50px], [heading]
+  - FRAME "principles", 1650x646px, constraints left/top, radius 50px, fill #1B0188
+    - TEXT "Simplicity", 470x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "We eliminate the unnecessary to highlight the important. We ", 1386x204px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+    - VECTOR "Vector 1", 1147.4x914.54px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1138.73x939.82px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "principles", 1799x646px, constraints left/top, radius 50px, fill #EA104C
+    - TEXT "Modularity", 519x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "Our components are designed to integrate, adapt and grow. A ", 1467x136px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+    - VECTOR "Vector 1", 1147.4x914.54px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1065.57x1057.09px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "principles", 1320x759px, constraints left/top, radius 50px, fill #1B0188
+    - VECTOR "Vector 1", 1097x404px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1156.58x620.63px, constraints left/top, stroke #FFFFFF 1px
+    - TEXT "Performance", 606x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "We optimize every detail so that people find what they are l", 999x272px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+
+Screen: -> 🫶🏻 Design values / Design Values
+- GROUP "Design Values", 4842x2322px, constraints left/top, radius 50px
+  - FRAME "values", 1912x965px, constraints left/top, radius 50px, fill #4658E0
+    - VECTOR "Vector 1", 1487x548px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1558.17x791.19px, constraints left/top, stroke #FFFFFF 1px
+    - TEXT "Design Values", 1217x216px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 180px], [heading]
+    - TEXT "They are the fundamental beliefs that guide our design decis", 1582x272px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+  - FRAME "values", 1258x823px, constraints left/top, radius 50px, fill #FFFFFF
+    - RECTANGLE "image 68", 748.77x229px, constraints center/center, fill image(hash: 5a4cd4369c323fe7b1d0cd9441aecbfbaef8502a)
+  - FRAME "values", 886x965px, constraints left/top, radius 50px, fill #EA104C [decorative, ~4 shapes]
+  - FRAME "values", 1008x617px, constraints left/top, radius 50px, fill #110053
+    - RECTANGLE "image 73", 1341x892px, constraints center/top, fill image(hash: 7c775897e88807c7936a7b1eeeafa9b2663ff620)
+  - FRAME "values", 600x961px, constraints left/top, radius 50px, fill #1B0188
+    - RECTANGLE "image 71", 860x645px, constraints center/center, fill image(hash: de551293a4e5dbc428911e0d8f10e132bffdff46)
+    - VECTOR "Vector 1", 1054.5x1068.03px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 885.66x1155.21px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "values", 886x617px, constraints left/top, radius 50px, fill #110053
+    - RECTANGLE "image 74", 1068x623px, constraints left/center, fill image(hash: 98bc04e5cadbdb47f469a2711797a941c6ee054f)
+  - FRAME "values", 1263x646px, constraints left/top, radius 50px, fill #EA104C
+    - VECTOR "Vector 2", 1156.58x620.63px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 3", 1156.58x620.63px, constraints left/top, stroke #FFFFFF 1px
+    - INSTANCE "iPhone 12 Pro", 696x1440px, constraints center/top, fill #FFFFFF
+      - RECTANGLE "iPhone 12 Pro Clay", 689x1396px, constraints scale/scale, fill image(hash: 031989d12792a037d4a21b392377d718668730f3)
+      - VECTOR "Clay Border", 664x1380px, constraints scale/scale, fill #0D0D0D
+      - INSTANCE "Screen iPhone 12 Pro", 620x1338px, constraints scale/scale
+        - VECTOR "Mask", 620x1338px, constraints scale/scale, fill #C4C4C4
+        - VECTOR "Change This", 620x1338px, constraints scale/scale, fill image(hash: 12755b7e7068c9c98b2f0ad2257db5816fc5d879)
+  - FRAME "values", 1505x617px, constraints left/top, radius 50px, fill #FFFFFF
+    - TEXT "Trust", 245x120px, constraints left/top, fill #110053, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "Every interaction must convey stability, transparency and co", 1241x204px, constraints left/top, fill #110053, text [Nunito Sans Regular, 50px], [heading]
+  - FRAME "values", 1656x646px, constraints left/top, radius 50px, fill #1B0188
+    - TEXT "Adaptability", 591x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "Our products must scale and evolve. We create flexible compo", 1386x204px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+    - VECTOR "Vector 1", 1164.97x829.64px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1158.02x629.27px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "values", 1799x646px, constraints left/top, radius 50px, fill #1B0188
+    - TEXT "Empathy", 419x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "We put people at the center. Each interaction is designed co", 1467x204px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+    - VECTOR "Vector 1", 1147.4x914.54px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1065.57x1057.09px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "values", 1258x759px, constraints left/top, radius 50px, fill #EA104C
+    - VECTOR "Vector 1", 1097x404px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1156.58x620.63px, constraints left/top, stroke #FFFFFF 1px
+    - TEXT "Clarity", 320x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "Components must communicate directly and unambiguously. We d", 999x272px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+
+Screen: -> 🔥 Branding / Title
+- INSTANCE "Title", 4842x340px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+  - RECTANGLE "compass 1", 673x339px, constraints left/top, radius 14px, fill image(hash: 56c538651c9f3e239880a02f757c7f8731f1b6be)
+  - FRAME "Page title", 4139x340px, horizontal pad 10 75 10 75px gap 51px align min/center sizing W:fill H:fixed, constraints left/top, radius 11px, fill #EA104C
+    - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+    - TEXT "Banners", 378x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 85px], [heading]
+
+Screen: -> 🔥 Branding / Design Values
+- GROUP "Design Values", 4842x2322px, constraints left/top, radius 50px
+  - FRAME "values", 1912x965px, constraints left/top, radius 50px, fill #4658E0
+    - VECTOR "Vector 2", 1510.28x614.73px, constraints left/top, stroke #FFFFFF 1px
+    - TEXT "Branding", 782x216px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 180px], [heading]
+    - TEXT "Offers a comprehensive guide to the visual and verbal identi", 1582x340px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+  - FRAME "values", 1258x823px, constraints left/top, radius 50px, fill #FFFFFF
+    - RECTANGLE "image 68", 748.77x229px, constraints center/center, fill image(hash: 5a4cd4369c323fe7b1d0cd9441aecbfbaef8502a)
+  - FRAME "values", 886x965px, constraints left/top, radius 50px, fill #EA104C [decorative, ~4 shapes]
+  - FRAME "values", 1008x617px, constraints left/top, radius 50px, fill #110053
+    - RECTANGLE "image 73", 1341x892px, constraints center/top, fill image(hash: 7c775897e88807c7936a7b1eeeafa9b2663ff620)
+  - FRAME "values", 600x444px, constraints left/top, radius 50px, fill #1B0188
+    - RECTANGLE "image 71", 620x465px, constraints center/center, fill image(hash: de551293a4e5dbc428911e0d8f10e132bffdff46)
+    - VECTOR "Vector 2", 885.66x1155.21px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 1", 1054.5x1068.03px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "values", 600x474px, constraints left/top, radius 50px, fill #FFFFFF
+    - VECTOR "Vector", 427x417.64px, constraints center/center, fill #110053
+  - FRAME "values", 886x617px, constraints left/top, radius 50px, fill #110053
+    - RECTANGLE "image 74", 1068x623px, constraints left/center, fill image(hash: 98bc04e5cadbdb47f469a2711797a941c6ee054f)
+  - FRAME "values", 1263x646px, constraints left/top, radius 50px, fill #EA104C
+    - VECTOR "Vector 2", 1156.58x620.63px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 3", 1156.58x620.63px, constraints left/top, stroke #FFFFFF 1px
+    - INSTANCE "iPhone 12 Pro", 696x1440px, constraints center/top, fill #FFFFFF
+      - RECTANGLE "iPhone 12 Pro Clay", 689x1396px, constraints scale/scale, fill image(hash: 031989d12792a037d4a21b392377d718668730f3)
+      - VECTOR "Clay Border", 664x1380px, constraints scale/scale, fill #0D0D0D
+      - INSTANCE "Screen iPhone 12 Pro", 620x1338px, constraints scale/scale
+        - VECTOR "Mask", 620x1338px, constraints scale/scale, fill #C4C4C4
+        - VECTOR "Change This", 620x1338px, constraints scale/scale, fill image(hash: c2a94aa380a80a34a4d98fb7fdf556ea7e1b78f6)
+  - FRAME "values", 1505x617px, constraints left/top, radius 50px, fill #FFFFFF
+    - TEXT "Reliability", 482x120px, constraints left/top, fill #110053, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "We demonstrate experience through the quality and consistenc", 1241x204px, constraints left/top, fill #110053, text [Nunito Sans Regular, 50px], [heading]
+  - FRAME "values", 1656x646px, constraints left/top, radius 50px, fill #1B0188
+    - TEXT "Closeness", 477x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "We use clear language and accessible visuals so that everyon", 1386x136px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+    - VECTOR "Vector 1", 1164.97x829.64px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1158.02x629.27px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "values", 1799x646px, constraints left/top, radius 50px, fill #1B0188
+    - TEXT "Support", 389x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "We support and empower those who interact with us. We provid", 1467x136px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+    - VECTOR "Vector 1", 1147.4x914.54px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1065.57x1057.09px, constraints left/top, stroke #FFFFFF 1px
+  - FRAME "values", 1258x759px, constraints left/top, radius 50px, fill #EA104C
+    - VECTOR "Vector 1", 1097x404px, constraints left/top, stroke #FFFFFF 1px
+    - VECTOR "Vector 2", 1156.58x620.63px, constraints left/top, stroke #FFFFFF 1px
+    - TEXT "Personalization", 732x120px, constraints left/top, fill #FFFFFF, text [Nunito Sans ExtraBold, 100px], [heading]
+    - TEXT "We adapt our communication and design to people's needs. Eve", 999x204px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 50px], [heading]
+
+Screen: -> ✨ Logo usage / Title
+- INSTANCE "Title", 2566x340px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+  - RECTANGLE "compass 1", 673x339px, constraints left/top, radius 14px, fill image(hash: 56c538651c9f3e239880a02f757c7f8731f1b6be)
+  - FRAME "Page title", 1863x340px, horizontal pad 10 75 10 75px gap 51px align min/center sizing W:fill H:fixed, constraints left/top, radius 11px, fill #EA104C
+    - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+    - TEXT "Banners", 471x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 85px], [heading]
+
+Screen: -> ✨ Logo usage / logo
+- FRAME "logo", 1258x567px, constraints left/top, radius 50px, fill #FFFFFF
+  - FRAME "LATAM-big-logo", 590x180px, constraints center/center, fill #FFFFFF
+    - RECTANGLE "image 27", 590x180px, constraints scale/scale, fill image(hash: 99ac24d55ba37fbf4789115fa3c4b27dfdf765a8)
+  - TEXT "Is exclusively used in the hamburger menu of the application", 812x108px, constraints center/center, fill #303032, text [Nunito Sans Regular, 30px], [heading]
+
+Screen: -> ✨ Logo usage / logo
+- FRAME "logo", 1258x567px, constraints left/top, radius 50px, fill #FFFFFF
+  - RECTANGLE "image 2", 135.79x232px, constraints center/center, fill image(hash: d1d5737d43b21ce47f44bfb3db9c6dc1a0bb84de)
+  - TEXT "Used on pages where the airline responsible for the flight i", 697x180px, constraints center/center, fill #303032, text [Nunito Sans Regular, 30px], [heading]
+
+Screen: -> ✨ Logo usage / logo
+- FRAME "logo", 1258x567px, constraints left/top, radius 50px, fill #4658E0
+  - TEXT "Primary", 301x96px, constraints center/center, fill #FFFFFF, text [Nunito Sans ExtraBold, 80px], [heading]
+
+Screen: -> ✨ Logo usage / logo
+- FRAME "logo", 1258x567px, constraints left/top, radius 50px, fill #110053
+  - TEXT "Secondary", 399x96px, constraints center/center, fill #FFFFFF, text [Nunito Sans ExtraBold, 80px], [heading]
+
+Screen: -> ✨ Logo usage / logo
+- FRAME "logo", 1258x1643px, constraints left/top, radius 50px, fill #EA104C
+  - TEXT "Tertiary", 300x96px, constraints center/center, fill #FFFFFF, text [Nunito Sans ExtraBold, 80px], [heading]
+
+Screen: -> ✨ Logo usage / logo
+- FRAME "logo", 1258x389px, constraints left/top, radius 50px, fill #FFFFFF
+  - FRAME "LATAM-logo", 225x225px, vertical pad 10 10 10 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/center, radius 150px, fill #110053
+    - FRAME "inner", 205x205px, horizontal pad 5 10 5 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #110053, stroke #EA104C 8px
+      - RECTANGLE "image 1", 81x131px, constraints left/top, fill image(hash: 662ab4eb715c93665de55a959366697b3a01c31c)
+  - TEXT "Used in the home header of the app for users with a standard", 730x180px, constraints center/center, fill #303032, text [Nunito Sans Regular, 30px], [heading]
+
+Screen: -> ✨ Logo usage / logo
+- FRAME "logo", 1258x389px, constraints left/top, radius 50px, fill #E79500
+  - FRAME "LATAM-logo", 225x225px, vertical pad 10 10 10 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/center, radius 150px, fill #F2C556
+    - FRAME "inner", 205x205px, horizontal pad 5 10 5 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #F2C556, stroke #E79500 8px
+      - RECTANGLE "image 1", 81x131px, constraints left/top, fill image(hash: 662ab4eb715c93665de55a959366697b3a01c31c)
+  - TEXT "Is displayed in the home header of the application for users", 730x108px, constraints center/center, fill #303032, text [Nunito Sans Regular, 30px], [heading]
+
+Screen: -> ✨ Logo usage / logo
+- FRAME "logo", 1258x389px, constraints left/top, radius 50px, fill #161616
+  - FRAME "LATAM-logo", 225x225px, vertical pad 10 10 10 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/center, radius 150px, fill #161616
+    - FRAME "inner", 205x205px, horizontal pad 5 10 5 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #161616, stroke #FFFFFF 8px
+      - RECTANGLE "image 1", 81x131px, constraints left/top, fill image(hash: 662ab4eb715c93665de55a959366697b3a01c31c)
+  - TEXT "Is displayed in the home header of the application for users", 730x108px, constraints center/center, fill #FFFFFF, text [Nunito Sans Regular, 30px], [heading]
+
+Screen: -> ✨ Logo usage / logo
+- FRAME "logo", 1258x389px, constraints left/top, radius 50px, fill #BDAF80
+  - FRAME "LATAM-logo", 225x225px, vertical pad 10 10 10 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/center, radius 150px, fill #BDAF80
+    - FRAME "inner", 205x205px, horizontal pad 5 10 5 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #BDAF80, stroke #5C5C5C 8px
+      - RECTANGLE "image 1", 81x131px, constraints left/top, fill image(hash: 662ab4eb715c93665de55a959366697b3a01c31c)
+  - TEXT "Is displayed in the home header of the application for users", 730x108px, constraints center/center, fill #303032, text [Nunito Sans Regular, 30px], [heading]
+
+Screen: -> 🎨 Colors / Title
+- INSTANCE "Title", 2659x340px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+  - RECTANGLE "compass 1", 673x339px, constraints left/top, radius 14px, fill image(hash: 56c538651c9f3e239880a02f757c7f8731f1b6be)
+  - FRAME "Page title", 1956x340px, horizontal pad 10 75 10 75px gap 51px align min/center sizing W:fill H:fixed, constraints left/top, radius 11px, fill #EA104C
+    - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+    - TEXT "Banners", 554x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 85px], [heading]
+
+Screen: -> 🎨 Colors / OB
+- FRAME "OB", 873x472px, vertical pad 65 83 65 83px gap 31px sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #FFFFFF
+  - FRAME "color-name", 707x61px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Ocean Blue (OB)", 218x34px, constraints left/top, fill #161616, text [Nunito Sans Bold, 28px], [heading]
+    - TEXT "Primary", 707x22px, constraints left/top, fill #B6B6B6, text [Regular/6]
+  - FRAME "Frame 1", 707x107.47px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+    - GROUP "Group 1", 699.53x87.47px, constraints left/top
+      - FRAME "OB-300", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 86", 87.22x87.22px, constraints left/top, fill #E3E6FA
+      - FRAME "OB-200", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 87", 87.22x87.22px, constraints left/top, fill #EDEEFC
+      - FRAME "OB-600", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 88", 87.22x87.22px, constraints left/top, fill #3F4FCA
+      - FRAME "OB-400", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 89", 87.22x87.22px, constraints left/top, fill #C6CBF5
+      - FRAME "OB-700", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 90", 87.22x87.22px, constraints left/top, fill #3846B3
+      - FRAME "OB-800", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 91", 87.22x87.22px, constraints left/top, fill #3542A8
+      - FRAME "OB-900", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 92", 87.22x87.22px, constraints left/top, fill #2A3586
+      - FRAME "OB-500", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 85", 87.22x87.22px, constraints left/top, fill #4658E0
+      - TEXT "500", 39.84x17.32px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "600", 38.11x19.92px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "700", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "200", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - TEXT "800", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "300", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - TEXT "900", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "400", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+    - FRAME "Frame 2", 700x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "#EDEEFC", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#E3E6FA", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#C6CBF5", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#4658E0", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#3F4FCA", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#3846B3", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#3542A8", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#2A3586", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+  - TEXT "Ocean Blue serves as the primary color of the interface, est", 707x110px, constraints left/top, fill #161616, text [Regular/6]
+
+Screen: -> 🎨 Colors / MD
+- FRAME "MD", 1131x426.47px, vertical pad 65 83 65 83px gap 31px sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #FFFFFF
+  - FRAME "color-name", 965x61px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Midnight Darkness (MD)", 318x34px, constraints left/top, fill #161616, text [Nunito Sans Bold, 28px], [heading]
+    - TEXT "Neutral", 965x22px, constraints left/top, fill #B6B6B6, text [Regular/6]
+  - FRAME "Frame 4", 965x107.47px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+    - GROUP "Group 1", 965x87.47px, constraints left/top
+      - GROUP "Group 5", 80.09x87.22px, constraints left/top
+        - FRAME "MD-500", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 85", 80.09x87.22px, constraints left/top, fill #B6B6B6
+        - TEXT "500", 36.58x17.32px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 6", 80.09x87.22px, constraints left/top
+        - FRAME "MD-600", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 88", 80.09x87.22px, constraints left/top, fill #858585
+        - TEXT "600", 34.99x19.92px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 7", 80.09x87.22px, constraints left/top
+        - FRAME "MD-700", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 90", 80.09x87.22px, constraints left/top, fill #5C5C5C
+        - TEXT "700", 39.19x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 2", 80.09x87.22px, constraints left/top
+        - FRAME "MD-200", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 87", 80.09x87.22px, constraints left/top, fill #ECECEE
+        - TEXT "200", 39.19x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - GROUP "Group 11", 80.09x87.22px, constraints left/top
+        - FRAME "MD-100", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 87", 80.09x87.22px, constraints left/top, fill #F5F5F5
+        - TEXT "100", 39.19x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - GROUP "Group 12", 80.09x87.22px, constraints left/top
+        - FRAME "MD-50", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 87", 80.09x87.22px, constraints left/top, fill #F3F2F7
+        - TEXT "50", 39.19x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - GROUP "Group 13", 80.09x87.22px, constraints left/top
+        - FRAME "MD-10", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 87", 80.09x87.22px, constraints left/top, fill #FFFFFF
+        - TEXT "10", 39.19x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - GROUP "Group 8", 80.09x87.22px, constraints left/top
+        - FRAME "MD-800", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 91", 80.09x87.22px, constraints left/top, fill #414143
+        - TEXT "800", 39.19x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 3", 80.09x87.22px, constraints left/top
+        - FRAME "MD-300", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 86", 80.09x87.22px, constraints left/top, fill #E0E0E2
+        - TEXT "300", 39.19x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - GROUP "Group 9", 80.09x87.22px, constraints left/top
+        - FRAME "MD-900", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 92", 80.09x87.22px, constraints left/top, fill #303032
+        - TEXT "900", 39.19x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 10", 80.09x87.22px, constraints left/top
+        - FRAME "MD-950", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 92", 80.09x87.22px, constraints left/top, fill #161616
+        - TEXT "950", 39.19x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 4", 80.09x87.22px, constraints left/top
+        - FRAME "MD-400", 80.09x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 89", 80.09x87.22px, constraints left/top, fill #D1D1D2
+        - TEXT "400", 39.19x29.69px, constraints left/top, fill #161616, text [Regular/8]
+    - FRAME "Frame 2", 964x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "#FFFFFF", 81x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#F3F2F7", 80x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#F5F5F5", 81x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#ECECEE", 80x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#E0E0E2", 81x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#D1D1D2", 81x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#B6B6B6", 80x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#858585", 80x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#5C5C5C", 80x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#414143", 80x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#303032", 80x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#161616", 80x16px, constraints left/top, fill #858585, text [Regular/9]
+  - TEXT "Midnight Darkness provides a versatile foundation that suppo", 965x66px, constraints left/top, fill #000000, text [Regular/6]
+
+Screen: -> 🎨 Colors / NB
+- FRAME "NB", 873x492.47px, vertical pad 65 83 65 83px gap 31px sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #FFFFFF
+  - FRAME "color-name", 707x61px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Night Blue (NB)", 208x34px, constraints left/top, fill #161616, text [Nunito Sans Bold, 28px], [heading]
+    - TEXT "Secondary", 707x22px, constraints left/top, fill #B6B6B6, text [Regular/6]
+  - FRAME "Frame 3", 700x107.47px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 2", 699.53x87.47px, constraints left/top
+      - FRAME "NB-300", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 86", 87.22x87.22px, constraints left/top, fill #DBD9E5
+      - FRAME "NB-200", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 87", 87.22x87.22px, constraints left/top, fill #E7E6EE
+      - FRAME "NB-600", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 88", 87.22x87.22px, constraints left/top, fill #0F004B
+      - FRAME "NB-400", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 89", 87.22x87.22px, constraints left/top, fill #B5B0CA
+      - FRAME "NB-700", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 90", 87.22x87.22px, constraints left/top, fill #0E0042
+      - FRAME "NB-800", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 91", 87.22x87.22px, constraints left/top, fill #0D003E
+      - FRAME "NB-900", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 92", 87.22x87.22px, constraints left/top, fill #0A0032
+      - FRAME "NB-500", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 85", 87.22x87.22px, constraints left/top, fill #110053
+      - TEXT "500", 39.84x17.32px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "600", 38.11x19.92px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "700", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "200", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - TEXT "800", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "300", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - TEXT "900", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "400", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+    - FRAME "Frame 2", 700x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "#E7E6EE", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#DBD9E5", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#B5B0CA", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#110053", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#0F004B", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#0E0042", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#0D003E", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#0A0032", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+  - TEXT "Night Blue serves as the secondary color of the interface, c", 707x132px, constraints left/top, fill #161616, text [Regular/6]
+
+Screen: -> 🎨 Colors / EM
+- FRAME "EM", 948x560.7px, vertical pad 65 83 65 83px gap 31px sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #FFFFFF
+  - FRAME "color-name", 782x34px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Extended and Miscellaneous Colors (EM)", 531x34px, constraints left/top, fill #161616, text [Nunito Sans Bold, 28px], [heading]
+  - FRAME "colors", 788x224.7px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 1", 787.06x87.47px, constraints left/top
+      - FRAME "PR", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 86", 87.22x87.22px, constraints left/top, fill #6717A0
+      - FRAME "IP", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 87", 87.22x87.22px, constraints left/top, fill #DE60B5
+      - FRAME "GP", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 88", 87.22x87.22px, constraints left/top, fill #E79500
+      - FRAME "VO", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 89", 87.22x87.22px, constraints left/top, fill #FB3706
+      - FRAME "IY", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 90", 87.22x87.22px, constraints left/top, fill #FFE190
+      - FRAME "YS", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 91", 87.22x87.22px, constraints left/top, fill #F2C556
+      - FRAME "G", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 91", 87.22x87.22px, constraints left/top, fill #BDAF80
+      - FRAME "TB", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 91", 87.22x87.22px, constraints left/top, fill #0BAEAF
+      - FRAME "OS", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 85", 87.22x87.22px, constraints left/top, fill #D17A09
+      - GROUP "Group 26", 742.92x29.69px, constraints left/top, radius 0/0/0/0px
+        - TEXT "OS", 39.84x17.32px, constraints left/top, fill #FFFFFF, text [Regular/8]
+        - TEXT "GP", 38.11x19.92px, constraints left/top, fill #FFFFFF, text [Regular/8]
+        - TEXT "IY", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+        - TEXT "IP", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+        - TEXT "YS", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+        - TEXT "G", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+        - TEXT "TB", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+        - TEXT "PR", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+        - TEXT "VO", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+    - FRAME "Frame 2", 788x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "#DE60B5", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#6717A0", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#FB3706", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#D17A09", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#E79500", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#FFE190", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#F2C556", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#BDAF80", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#0BAEAF", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+    - GROUP "Group 2", 787.22x87.22px, constraints left/top
+      - GROUP "Group 21", 87.22x87.22px, constraints left/top
+        - FRAME "LB", 87.22x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 85", 87.22x87.22px, constraints left/top, fill #EFEDFA
+        - TEXT "LB", 39.84x17.32px, constraints left/top, fill #161616, text [Regular/8]
+      - GROUP "Group 20", 87.22x87.22px, constraints left/top
+        - FRAME "VDB", 87.22x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 88", 87.22x87.22px, constraints left/top, fill #1B0188
+        - TEXT "VDB", 38.11x19.92px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 19", 87.22x87.22px, constraints left/top
+        - FRAME "BE", 87.22x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 90", 87.22x87.22px, constraints left/top, fill #038BFB
+        - TEXT "BE", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 24", 87.22x87.22px, constraints left/top
+        - FRAME "LY", 87.22x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 87", 87.22x87.22px, constraints left/top, fill #FFF9E6
+        - TEXT "LY", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - GROUP "Group 18", 87.22x87.22px, constraints left/top
+        - FRAME "IG", 87.22x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 91", 87.22x87.22px, constraints left/top, fill #4D8F86
+        - TEXT "IG", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 23", 87.22x87.22px, constraints left/top
+        - FRAME "LP", 87.22x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 86", 87.22x87.22px, constraints left/top, fill #FFE0EA
+        - TEXT "LP", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - GROUP "Group 16", 87.22x87.22px, constraints left/top
+        - FRAME "DG", 87.22x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 92", 87.22x87.22px, constraints left/top, fill #148D86
+        - TEXT "DG", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - GROUP "Group 17", 87.22x87.22px, constraints left/top
+        - FRAME "VL", 87.22x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 92", 87.22x87.22px, constraints left/top, fill #9ACA33
+        - TEXT "VL", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - GROUP "Group 22", 87.22x87.22px, constraints left/top
+        - FRAME "LG", 87.22x87.22px, constraints left/top
+          - RECTANGLE "Rectangle 89", 87.22x87.22px, constraints left/top, fill #E8F4F4
+        - TEXT "LG", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+    - FRAME "Frame 3", 788x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "#FFF9E6", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#FFE0EA", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#E8F4F4", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#EFEDFA", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#1B0188", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#038BFB", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#4D8F86", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#148D86", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#9ACA33", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+  - TEXT "Extended and Miscellaneous colors serve as supporting shades", 782x110px, constraints left/top, fill #161616, text [Regular/6]
+
+Screen: -> 🎨 Colors / PF
+- FRAME "PF", 873x492.47px, vertical pad 65 83 65 83px gap 31px sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #FFFFFF
+  - FRAME "color-name", 707x61px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Pinky Fly (PF)", 180x34px, constraints left/top, fill #161616, text [Nunito Sans Bold, 28px], [heading]
+    - TEXT "Tertiary", 707x22px, constraints left/top, fill #B6B6B6, text [Regular/6]
+  - FRAME "Frame 5", 700x107.47px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 2", 699.53x87.47px, constraints left/top
+      - FRAME "PF-300", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 86", 87.22x87.22px, constraints left/top, fill #FCDBE4
+      - FRAME "PF-200", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 87", 87.22x87.22px, constraints left/top, fill #FDE7ED
+      - FRAME "PF-600", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 88", 87.22x87.22px, constraints left/top, fill #D30E44
+      - FRAME "PF-400", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 89", 87.22x87.22px, constraints left/top, fill #F8B5C8
+      - FRAME "PF-700", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 90", 87.22x87.22px, constraints left/top, fill #BB0D3D
+      - FRAME "PF-800", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 91", 87.22x87.22px, constraints left/top, fill #B00C39
+      - FRAME "PF-900", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 92", 87.22x87.22px, constraints left/top, fill #8C0A2E
+      - FRAME "PF-500", 87.22x87.22px, constraints left/top
+        - RECTANGLE "Rectangle 85", 87.22x87.22px, constraints left/top, fill #EA104C
+      - TEXT "500", 39.84x17.32px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "600", 38.11x19.92px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "700", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "200", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - TEXT "800", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "300", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+      - TEXT "900", 42.68x29.69px, constraints left/top, fill #FFFFFF, text [Regular/8]
+      - TEXT "400", 42.68x29.69px, constraints left/top, fill #161616, text [Regular/8]
+    - FRAME "Frame 2", 700x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "#FDE7ED", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#FCDBE4", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#F8B5C8", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#EA104C", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#D30E44", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#BB0D3D", 86x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#B00C39", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+      - TEXT "#8C0A2E", 88x16px, constraints left/top, fill #858585, text [Regular/9]
+  - TEXT "Pinky Fly remains an essential part of the brand identity, t", 707x132px, constraints left/top, fill #161616, text [Regular/6]
+
+Screen: -> 🎨 Colors / usage proportion
+- FRAME "usage proportion", 1131x922px, vertical pad 0 0 0 0px gap 63px sizing W:fixed H:fixed, constraints left/top
+  - FRAME "color-card", 1131x922px, vertical pad 44 32 44 32px gap 43px sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF
+    - TEXT "Usage Proportion", 230x34px, constraints left/top, fill #161616, text [Nunito Sans Bold, 28px], [heading]
+    - FRAME "usage", 1067x757px, constraints left/top
+      - GROUP "Group 25", 1067x757px, constraints left/top
+        - FRAME "PF", 533.5x251px, horizontal pad 28 36 28 36px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top, fill #EA104C
+          - TEXT "15%", 76x42px, constraints left/top, fill #FFFFFF, text [Nunito Sans Bold, 35px], [heading]
+        - FRAME "MD", 533.5x288px, vertical pad 28 36 28 36px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, fill #B6B6B6
+          - TEXT "20%", 76x42px, constraints left/top, fill #FFFFFF, text [Nunito Sans Bold, 35px], [heading]
+        - FRAME "EM", 533.5x218px, horizontal pad 28 36 28 36px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top, fill #E79500
+          - TEXT "10%", 76x42px, constraints left/top, fill #FFFFFF, text [Nunito Sans Bold, 35px], [heading]
+        - FRAME "NB", 533.5x291px, vertical pad 28 36 28 36px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, fill #110053
+          - TEXT "25%", 76x42px, constraints left/top, fill #FFFFFF, text [Nunito Sans Bold, 35px], [heading]
+        - FRAME "OB", 533.5x465px, vertical pad 28 36 28 36px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, fill #4658E0
+          - TEXT "30%", 76x42px, constraints left/top, fill #FFFFFF, text [Nunito Sans Bold, 35px], [heading]
+
+Screen: -> 🔠 Typography / Title
+- INSTANCE "Title", 2347x340px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+  - RECTANGLE "compass 1", 673x339px, constraints left/top, radius 14px, fill image(hash: 56c538651c9f3e239880a02f757c7f8731f1b6be)
+  - FRAME "Page title", 1644x340px, horizontal pad 10 75 10 75px gap 51px align min/center sizing W:fill H:fixed, constraints left/top, radius 11px, fill #EA104C
+    - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+    - TEXT "Banners", 487x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 85px], [heading]
+
+Screen: -> 🔠 Typography / typography
+- FRAME "typography", 2347x670px, constraints left/top, radius 50px, fill #FFFFFF
+  - TEXT "Nunito Sans", 452x96px, constraints left/top, fill #000000, text [Nunito Sans Bold, 80px], [heading]
+  - TEXT "Inter", 161x84px, constraints left/top, fill #000000, text [Inter Bold, 70px], [heading]
+  - TEXT "Our design system primarily utilizes Nunito Sans for body co", 2030x168px, constraints left/top, fill #000000, text [Inter Light, 35px], [heading]
+
+Screen: -> 🔠 Typography / typography
+- FRAME "typography", 2347x2083px, constraints left/top, radius 50px, fill #FFFFFF
+  - TEXT "Establishes a clear typographic hierarchy, ensuring visibili", 2030x126px, constraints left/top, fill #000000, text [Inter Light, 35px], [heading]
+  - GROUP "Group 16", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Bold 1", 133x40px, constraints left/top, fill #161616, text [Bold/1], [heading]
+    - TEXT "Is used to highlight visually prominent elements in the inte", 1347x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Font size: 45px Letter spacing: -4%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 17", 2102x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Ideal for subtitles or supporting titles on cards and inform", 1347x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Bold 2", 65x29px, constraints left/top, fill #161616, text [Bold/2]
+    - TEXT "Font size: 21px Letter spacing: 0%", 264x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 18", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Bold 3", 58x26px, constraints left/top, fill #161616, text [Bold/3]
+    - TEXT "Subtitles, secondary headings or important labels on cards", 1347x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Font size: 19px Letter spacing: 0%", 264x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 19", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Is used to highlight key information related to fares or cos", 1347x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Bold 4", 50x23px, constraints left/top, fill #161616, text [Bold/4]
+    - TEXT "Font size: 17px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 20", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Designed for subtitles or contextual labels that support pri", 1347x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Bold 5", 45x20px, constraints left/top, fill #161616, text [Bold/5]
+    - TEXT "Font size: 15px Letter spacing: -2%", 276x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 21", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Best for dense interfaces where space is limited but emphasi", 1347x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Bold 5.1", 60x20px, constraints left/top, fill #161616, text [Bold/5.1]
+    - TEXT "Font size: 15px Letter spacing: 1%", 259x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 22", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Used for inline headings or short emphasis texts inside comp", 1347x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Bold 6", 40x19px, constraints left/top, fill #161616, text [Bold/6]
+    - TEXT "Font size: 14px Letter spacing: -4%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 23", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Suited for brief contextual tags or metadata, like statuses ", 1347x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Bold 6.1", 55x19px, constraints left/top, fill #161616, text [Bold/6.1]
+    - TEXT "Font size: 14px Letter spacing: 0%", 264x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 24", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Is used in secondary buttons within the LATAM Pass ecosystem", 1347x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Bold 7", 39x18px, constraints left/top, fill #161616, text [Bold/7]
+    - TEXT "Font size: 13px Letter spacing: -2%", 276x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 25", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Used in interactive buttons, such as trip type selection (e.", 1347x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Bold 8", 36x16px, constraints left/top, fill #161616, text [Bold/8]
+    - TEXT "Font size: 12px Letter spacing: -1%", 273x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - GROUP "Group 26", 2098x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Small labels and secondary UI elements such as dates, button", 1347x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Bold 9", 35x15px, constraints left/top, fill #161616, text [Bold/9]
+    - TEXT "Font size: 11px Letter spacing: 0%", 264x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+
+Screen: -> 🔠 Typography / typography
+- FRAME "typography", 2347x2083px, constraints left/top, radius 50px, fill #FFFFFF
+  - TEXT "Defines text styles that create a balanced emphasis, ensurin", 2030x126px, constraints left/top, fill #000000, text [Inter Light, 35px], [heading]
+  - GROUP "Group 15", 1966x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 17px Letter spacing: -2%", 276x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Used for high-visibility labels in primary components such a", 1297x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Semibold 1", 85x23px, constraints left/top, fill #161616, text [Semibold/1]
+  - GROUP "Group 14", 1966x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 14px Letter spacing: -2%", 276x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Best suited for category tags or tabs, helping users differe", 1297x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Semibold 2", 70x19px, constraints left/top, fill #161616, text [Semibold/2]
+  - GROUP "Group 13", 1966x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 13px Letter spacing: -5%", 277x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Applied in compact UI elements like filter pills or dropdown", 1297x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Semibold 3", 62x18px, constraints left/top, fill #161616, text [Semibold/3]
+  - GROUP "Group 12", 1966x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 10px Letter spacing: -5%", 277x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Used for micro-labels or supplemental indicators, such as ba", 1297x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Semibold 4", 50x14px, constraints left/top, fill #161616, text [Semibold/4]
+
+Screen: -> 🔠 Typography / typography
+- FRAME "typography", 2347x2083px, constraints left/top, radius 50px, fill #FFFFFF
+  - TEXT "Defines text styles that prioritize readability and clarity ", 2030x168px, constraints left/top, fill #000000, text [Inter Light, 35px], [heading]
+  - GROUP "Group 27", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 20px Letter spacing: -2%", 276x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Used for contextual or secondary emphasis in headings or tit", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Italic", 41x27px, constraints left/top, fill #161616, text [Regular/1-Italic]
+  - GROUP "Group 28", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 25px Letter spacing: -2%", 276x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Ideal for primary body content in large sections like travel", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 1", 106x34px, constraints left/top, fill #161616, text [Regular/1], [heading]
+  - GROUP "Group 29", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 22px Letter spacing: -2%", 276x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Used for supportive headings or intro paragraphs, offering a", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 2", 93x30px, constraints left/top, fill #161616, text [Regular/2]
+  - GROUP "Group 30", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 20px Letter spacing: -4%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Main text or headings softer than bold headings", 1336x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 3", 82x27px, constraints left/top, fill #161616, text [Regular/3]
+  - GROUP "Group 31", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 19px Letter spacing: 1%", 259x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "General descriptions, such as “Including fees and taxes” or ", 1336x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 4", 85x26px, constraints left/top, fill #161616, text [Regular/4]
+  - GROUP "Group 32", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 18px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Commonly applied to brief content footers or supporting text", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 5", 75x25px, constraints left/top, fill #161616, text [Regular/5]
+  - GROUP "Group 33", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 16px Letter spacing: -2%", 276x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Appropriate for repeated explanatory text, like policy notes", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 6", 68x22px, constraints left/top, fill #161616, text [Regular/6]
+  - GROUP "Group 34", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 15px Letter spacing: 0%", 264x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Secondary information, disclaimers, small details or tooltip", 1336x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 7", 66x20px, constraints left/top, fill #161616, text [Regular/7]
+  - GROUP "Group 35", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 14px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Supports dense UI layouts with concise descriptions or label", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 8", 58x19px, constraints left/top, fill #161616, text [Regular/8]
+  - GROUP "Group 36", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 12px Letter spacing: -1%", 273x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Good for inline labels or input descriptions, typically seen", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 9", 52x16px, constraints left/top, fill #161616, text [Regular/9]
+  - GROUP "Group 37", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 11px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Applied to tertiary information, such as footnotes, hover te", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 10", 53x15px, constraints left/top, fill #161616, text [Regular/10]
+  - GROUP "Group 38", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 10px Letter spacing: 1%", 259x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Used in tooltips or helper messages, where small font size m", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 11", 53x14px, constraints left/top, fill #161616, text [Regular/11]
+  - GROUP "Group 39", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 7px Letter spacing: -6%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Smallest readable text, used in minimal UI zones such as the", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Regular 12", 35x10px, constraints left/top, fill #161616, text [Regular/12]
+
+Screen: -> 🔠 Typography / typography
+- FRAME "typography", 2347x2083px, constraints left/top, radius 50px, fill #FFFFFF
+  - TEXT "Defines text styles that deliver a softer emphasis while ens", 2030x168px, constraints left/top, fill #000000, text [Inter Light, 35px], [heading]
+  - GROUP "Group 40", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 20px Letter spacing: -2%", 276x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Used in “Mis viajes” title, soft font style for specific tit", 1336x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Italic 1", 73x24px, constraints left/top, fill #161616, text [Light/1-Italic]
+  - GROUP "Group 41", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 14px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Friendly style for messages such as “Remember that...” or so", 1336x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Italic 2", 73x24px, constraints left/top, fill #161616, text [Light/2-Italic]
+  - GROUP "Group 42", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 25px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Main text or headings softer than bold headings", 1336x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Light 1", 73x30px, constraints left/top, fill #161616, text [Light/1], [heading]
+  - GROUP "Group 43", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 22px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Main text or headings softer than bold headings, used in sec", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Light 2", 73x40px, constraints left/top, fill #161616, text [Light/2]
+  - GROUP "Group 44", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 14px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Secondary information, footnote or explanatory text", 1336x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Light 3", 73x24px, constraints left/top, fill #161616, text [Light/3]
+  - GROUP "Group 45", 2005x72px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Font size: 12px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+    - TEXT "Ideal for low-emphasis metadata, such as additional notes, s", 1336x72px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+    - TEXT "Light 4", 73x24px, constraints left/top, fill #161616, text [Light/4]
+
+Screen: -> 🔠 Typography / typography
+- FRAME "typography", 2347x2083px, constraints left/top, radius 50px, fill #FFFFFF
+  - TEXT "Defines text styles optimized for functional and technical c", 2030x126px, constraints left/top, fill #000000, text [Inter Light, 35px], [heading]
+  - TEXT "Font size: 13px Letter spacing: -3%", 278x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - TEXT "Functional texts, field descriptions, placeholders or techni", 1336x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+  - TEXT "Font size: 10px Letter spacing: -7%", 275x72px, constraints left/top, fill #858585, text [Inter Regular, 30px], [heading]
+  - TEXT "Used in the navigation bar", 1336x36px, constraints left/top, fill #161616, text [Inter Regular, 30px], [heading]
+  - TEXT "Inter 1-Regular", 85x24px, constraints left/top, fill #161616, text [Inter/1-Regular]
+  - TEXT "Inter 2-Regular", 85x24px, constraints left/top, fill #161616, text [Inter/2-Regular]
+
+Screen: -> 🔠 Typography / Page title
+- FRAME "Page title", 2347x340px, horizontal pad 0 75 10 75px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #4658E0
+  - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+  - TEXT "Bold", 186x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Bold, 85px], [heading]
+
+Screen: -> 🔠 Typography / Page title
+- FRAME "Page title", 2347x340px, horizontal pad 0 75 10 75px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #4658E0
+  - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+  - TEXT "Semibold", 367x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans SemiBold, 85px], [heading]
+
+Screen: -> 🔠 Typography / Page title
+- FRAME "Page title", 2347x340px, horizontal pad 0 75 10 75px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #4658E0
+  - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+  - TEXT "Regular", 300x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Regular, 85px], [heading]
+
+Screen: -> 🔠 Typography / Page title
+- FRAME "Page title", 2347x340px, horizontal pad 0 75 10 75px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #4658E0
+  - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+  - TEXT "Light", 190x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Light, 85px], [heading]
+
+Screen: -> 🔠 Typography / Page title
+- FRAME "Page title", 2347x340px, horizontal pad 0 75 10 75px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #4658E0
+  - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+  - TEXT "Inter", 195x103px, constraints left/top, fill #FFFFFF, text [Inter Bold, 85px], [heading]
+
+Screen: -> 📏 Shaping and sizing / Title
+- INSTANCE "Title", 2659x340px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+  - RECTANGLE "compass 1", 673x339px, constraints left/top, radius 14px, fill image(hash: 56c538651c9f3e239880a02f757c7f8731f1b6be)
+  - FRAME "Page title", 1956x340px, horizontal pad 10 75 10 75px gap 51px align min/center sizing W:fill H:fixed, constraints left/top, radius 11px, fill #EA104C
+    - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+    - TEXT "Banners", 774x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 85px], [heading]
+
+Screen: -> 📏 Shaping and sizing / Page title
+- FRAME "Page title", 2016x340px, horizontal pad 10 75 10 75px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #4658E0
+  - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+  - TEXT "Spacing scale", 559x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 85px], [heading]
+
+Screen: -> 📏 Shaping and sizing / Page title
+- FRAME "Page title", 2014x340px, horizontal pad 10 75 10 75px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #4658E0
+  - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+  - TEXT "Border radius", 563x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 85px], [heading]
+
+Screen: -> 📏 Shaping and sizing / Page title
+- FRAME "Page title", 2016x340px, horizontal pad 10 75 10 75px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #4658E0
+  - LINE "Line 1", 0x188px, constraints left/top, stroke #FFFFFF 3px
+  - TEXT "Padding", 339x116px, constraints left/top, fill #FFFFFF, text [Nunito Sans Black, 85px], [heading]
+
+Screen: -> 📏 Shaping and sizing / padding
+- FRAME "padding", 650x616px, vertical pad 70 40 70 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 29.32px, fill #FFFFFF
+  - FRAME "padding", 21x21px, vertical pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1px, stroke #161616 2px
+    - RECTANGLE "Rectangle 9", 17x17px, constraints left/top, fill #EA104C
+  - TEXT "1", 570x71px, constraints left/top, fill #303032, text [Nunito Sans Bold, 52.12px], [heading]
+  - TEXT "2 px", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - TEXT "Provides minimal spacing for compact elements, ensuring a ti", 570x88px, constraints left/top, fill #303032, text [Nunito Sans Regular, 32.57px], [heading]
+  - TEXT "Example:", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - INSTANCE "Upgrade-tag", 136x22px, horizontal pad 2 7 2 7px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #110053
+    - TEXT "Upgrade de cabina", 122x19px, constraints left/top, fill #FFFFFF, text [Bold/6.1]
+
+Screen: -> 📏 Shaping and sizing / gap
+- FRAME "gap", 650x530px, vertical pad 70 40 70 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 29.32px, fill #FFFFFF
+  - FRAME "Frame 15", 26.02x31.74px, horizontal pad 0 0 0 0px gap 1px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector 1", 0x31.74px, constraints left/top, stroke #161616 2.34px
+    - RECTANGLE "Rectangle 7", 24.02x24.02px, constraints left/top, stroke #161616 2.34px
+    - VECTOR "Vector 2", 0x31.74px, constraints left/top, stroke #161616 2.34px
+  - TEXT "1", 570x71px, constraints left/top, fill #303032, text [Nunito Sans Bold, 52.12px], [heading]
+  - TEXT "1 px", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - TEXT "Minimal separation for tightly packed elements, ensuring com", 570x88px, constraints left/top, fill #303032, text [Nunito Sans Regular, 32.57px], [heading]
+  - TEXT "Example:", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - INSTANCE "Loading-screen-text", 353x53px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Recuerda que:", 353x30px, constraints left/top, fill #1B0188, text [Regular/2]
+    - TEXT "Todas nuestras tarifas incluyen diferentes atributos.", 353x22px, constraints left/top, fill #858585, text [Regular/6]
+
+Screen: -> 📏 Shaping and sizing / padding
+- FRAME "padding", 650x621px, vertical pad 70 40 70 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 29.32px, fill #FFFFFF
+  - FRAME "padding", 31x31px, vertical pad 7 7 7 7px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1px, stroke #161616 2px
+    - RECTANGLE "Rectangle 9", 17x17px, constraints left/top, fill #EA104C
+  - TEXT "4", 32x71px, constraints left/top, fill #303032, text [Nunito Sans Bold, 52.12px], [heading]
+  - TEXT "7 px", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - TEXT "A balanced choice for general spacing, ensuring clarity and ", 570x88px, constraints left/top, fill #303032, text [Nunito Sans Regular, 32.57px], [heading]
+  - TEXT "Example:", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - INSTANCE "Menu-option-button", 364x36px, horizontal pad 7 0 7 0px gap 130px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "menu-left", 214x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Map-icon", 23x22px, constraints left/top
+        - FRAME "map", 23x22px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center [decorative, ~8 shapes]
+      - TEXT "Hoteles, carros y paquetes", 179x20px, constraints left/top, fill #303032, text [Regular/7]
+    - INSTANCE "Arrow-icon", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "arrow", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - VECTOR "Vector", 8x14px, constraints left/top, fill #5C5C5C
+
+Screen: -> 📏 Shaping and sizing / gap
+- FRAME "gap", 650x583px, vertical pad 70 40 70 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 29.32px, fill #FFFFFF
+  - FRAME "Frame 15", 36.02x31.74px, horizontal pad 0 0 0 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector 1", 0x31.74px, constraints left/top, stroke #161616 2.34px
+    - RECTANGLE "Rectangle 7", 24.02x24.02px, constraints left/top, stroke #161616 2.34px
+    - VECTOR "Vector 2", 0x31.74px, constraints left/top, stroke #161616 2.34px
+  - TEXT "4", 32x71px, constraints left/top, fill #303032, text [Nunito Sans Bold, 52.12px], [heading]
+  - TEXT "6 px", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - TEXT "Well-balanced separation that enhances clarity without disru", 570x132px, constraints left/top, fill #303032, text [Nunito Sans Regular, 32.57px], [heading]
+  - TEXT "Example:", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - INSTANCE "Page-link", 119x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Detalle de millas", 93x16px, constraints left/top, fill #4658E0, text [Bold/8]
+    - INSTANCE "Arrow-icon", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "arrow", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - VECTOR "Vector", 6x10px, constraints left/top, fill #4658E0
+
+Screen: -> 📏 Shaping and sizing / padding
+- FRAME "padding", 650x732px, vertical pad 70 40 70 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 29.32px, fill #FFFFFF
+  - FRAME "padding", 57x57px, vertical pad 20 20 20 20px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1px, stroke #161616 2px
+    - RECTANGLE "Rectangle 9", 17x17px, constraints left/top, fill #EA104C
+  - TEXT "10", 61x71px, constraints left/top, fill #303032, text [Nunito Sans Bold, 52.12px], [heading]
+  - TEXT "20 px", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - TEXT "Used for dense UI elements where space efficiency is key.", 570x88px, constraints left/top, fill #303032, text [Nunito Sans Regular, 32.57px], [heading]
+  - TEXT "Example:", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - INSTANCE "Date-input", 182x46px, horizontal pad 0 20 0 20px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 7/0/0/7px, stroke #B6B6B6 1px
+    - INSTANCE "Calendar-icon", 15.5x19.5px, constraints left/top
+      - VECTOR "Vector 1", 0x4.5px, constraints scale/scale, stroke #6717A0 1px
+      - VECTOR "Vector 2", 0x4.5px, constraints scale/scale, stroke #6717A0 1px
+      - VECTOR "Vector 3", 2.5x0px, constraints scale/scale, stroke #6717A0 1px
+      - VECTOR "Vector 4", 15.5x17px, constraints scale/scale, radius 0/0/0/0px, stroke #6717A0 1px
+      - VECTOR "Vector 5", 15.5x0px, constraints scale/scale, stroke #6717A0 1px
+    - TEXT "Ida", 21x20px, constraints left/top, fill #303032, text [Regular/7]
+
+Screen: -> 📏 Shaping and sizing / gap
+- FRAME "gap", 650x705px, vertical pad 70 40 70 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 29.32px, fill #FFFFFF
+  - FRAME "Frame 15", 70.02x31.74px, horizontal pad 0 0 0 0px gap 23px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector 1", 0x31.74px, constraints left/top, stroke #161616 2.34px
+    - RECTANGLE "Rectangle 7", 24.02x24.02px, constraints left/top, stroke #161616 2.34px
+    - VECTOR "Vector 2", 0x31.74px, constraints left/top, stroke #161616 2.34px
+  - TEXT "10", 61x71px, constraints left/top, fill #303032, text [Nunito Sans Bold, 52.12px], [heading]
+  - TEXT "23 px", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - TEXT "Optimized for dense UI elements, preserving efficiency.", 570x88px, constraints left/top, fill #303032, text [Nunito Sans Regular, 32.57px], [heading]
+  - TEXT "Example:", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - INSTANCE "Category-option-button", 354x56px, horizontal pad 18 14 18 14px gap 23px align min/center sizing W:fixed H:fixed, constraints left/top, radius 7px, fill #FFFFFF, stroke #B6B6B6 1px
+    - INSTANCE "Economy-icon", 20x20px, constraints left/top
+      - FRAME "economy", 20x20px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints center/center [decorative, ~5 shapes]
+    - TEXT "Economy", 62x20px, constraints left/top, fill #303032, text [Bold/5]
+
+Screen: -> 📏 Shaping and sizing / padding
+- FRAME "padding", 650x685px, vertical pad 70 40 70 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 29.32px, fill #FFFFFF
+  - FRAME "padding", 45x45px, vertical pad 14 14 14 14px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1px, stroke #161616 2px
+    - RECTANGLE "Rectangle 9", 17x17px, constraints left/top, fill #EA104C
+  - TEXT "7", 32x71px, constraints left/top, fill #303032, text [Nunito Sans Bold, 52.12px], [heading]
+  - TEXT "14 px", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - TEXT "Expands spacing for enhanced readability and structured layo", 570x88px, constraints left/top, fill #303032, text [Nunito Sans Regular, 32.57px], [heading]
+  - TEXT "Example:", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - INSTANCE "Seat-assignation-card", 210x182.08px, vertical pad 14 14 14 14px gap 16px align max/max sizing W:fixed H:fixed, constraints left/top, radius 7px, fill #FFFFFF, effect Drop-shadow/Card
+    - FRAME "seat-info", 182x119.08px, vertical pad 0 0 0 0px gap 18px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Top-row", 182x45px, horizontal pad 0 0 0 0px gap 133px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Seat+price", 82x45px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Seat", 82x23px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "11D", 33x23px, constraints left/top, fill #110053, text [Bold/4]
+            - TEXT "Pasillo", 40x19px, constraints left/top, fill #414143, text [Regular/8]
+          - TEXT "COP 27.225", 82x20px, constraints left/top, fill #110053, text [Bold/5]
+        - INSTANCE "Exit-button", 9x9px, constraints left/top
+          - VECTOR "Vector", 9x9px, constraints scale/scale, fill #414143
+      - FRAME "seat-type", 182x56.08px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Seat-type", 94.08x32.08px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Seats-icon-circle", 32.08x32.08px, horizontal pad 7 7 7 7px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #1B0188
+            - BOOLEAN_OPERATION "Union", 18.08x18.08px, constraints left/top, fill #FFFFFF
+          - TEXT "Estándar", 54x19px, constraints left/top, fill #303032, text [Bold/6]
+        - FRAME "seat-preference", 182x16px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Vignette", 4x4px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 1", 4x4px, constraints scale/scale, fill #110053
+          - TEXT "Elige el asiento de tu preferencia", 172x16px, constraints left/top, fill #414143, text [Regular/9]
+    - INSTANCE "Link", 112x19px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Crear cuenta", 112x19px, constraints left/top, fill #4658E0, text [Bold/6]
+
+Screen: -> 📏 Shaping and sizing / gap
+- FRAME "gap", 650x624px, vertical pad 70 40 70 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 29.32px, fill #FFFFFF
+  - FRAME "Frame 15", 48.02x31.74px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector 1", 0x31.74px, constraints left/top, stroke #161616 2.34px
+    - RECTANGLE "Rectangle 7", 24.02x24.02px, constraints left/top, stroke #161616 2.34px
+    - VECTOR "Vector 2", 0x31.74px, constraints left/top, stroke #161616 2.34px
+  - TEXT "7", 32x71px, constraints left/top, fill #303032, text [Nunito Sans Bold, 52.12px], [heading]
+  - TEXT "12 px", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - TEXT "Expanded separation for better differentiation between secti", 570x88px, constraints left/top, fill #303032, text [Nunito Sans Regular, 32.57px], [heading]
+  - TEXT "Example:", 570x49px, constraints left/top, fill #303032, text [Nunito Sans Bold, 36px], [heading]
+  - INSTANCE "Plane-row", 120x32px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Seat-selection-button", 32x32px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 4", 32x32px, constraints scale/scale, radius 7px, stroke #1B0188 1px
+    - INSTANCE "Seat-selection-button", 32x32px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 6", 32x32px, constraints scale/scale, radius 7px, fill #6717A0, stroke #6717A0 1px
+    - INSTANCE "Seat-selection-button", 32x32px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 2", 32x32px, constraints scale/scale, radius 7px, stroke #EA104C 1px
+
+Screen: -> 📏 Shaping and sizing / padding
+- FRAME "padding", 989x744px, vertical pad 70 40 70 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 29.32px, fill #FFFFFF
+  - FRAME "padding", 83x83px, vertical pad 33 33 33 33px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1px, stroke #161616 2px
+    - RECTANGLE "Rectangle 9", 17x17px, constraints left/top, fill #EA104C
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

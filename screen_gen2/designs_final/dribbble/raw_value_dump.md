@@ -1,0 +1,1108 @@
+---
+name: cinema-app-dribbble-shot-community
+source_file: Cinema App - Dribbble Shot 🏀 (Community)
+source_page: All pages (2): Cover, Screens
+generated_at: 2026-07-25T09:33:33.901307+00:00
+---
+
+# Cinema App - Dribbble Shot 🏀 (Community) Design Guidelines
+
+## Source
+- Figma file: Cinema App - Dribbble Shot 🏀 (Community)
+- Figma page: All pages (2): Cover, Screens
+- Extracted at: 2026-07-25T09:33:33.901307+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White: [#FFFFFF]
+- Balck: [#000000]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 508 uses
+- #F79E44: 376 uses
+- #ECBBDA: 117 uses
+- #36274B: 95 uses
+- #00000080: 50 uses
+- #210F37: 45 uses
+- #200F37: 34 uses
+- #444F61: 32 uses
+- #FFFFFF2B: 29 uses
+- #6644B8: 24 uses
+- #815325: 22 uses
+- #E15062: 22 uses
+- #BCB7C3: 21 uses
+- #17082A: 13 uses
+- #FF8FC6: 10 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- SF Pro Display Semibold, 15px: 88 uses
+- SF Pro Display Regular, 20px: 82 uses
+- SF Pro Display Semibold, 14px: 68 uses
+- SF Pro Display Semibold, 23px: 67 uses
+- SF Pro Display Semibold, 21px: 51 uses
+- SF Pro Display Medium, 20px: 41 uses
+- SF Pro Text Bold, 17px: 33 uses
+- SF Pro Display Semibold, 20px: 26 uses
+- SF Pro Display Semibold, 26px: 19 uses
+- SF Pro Display Bold, 32px: 8 uses
+- SF Pro Display Regular, 23px: 6 uses
+- SF Pro Text Semibold, 15px: 6 uses
+- SF Pro Display Semibold, 27px: 5 uses
+- SF Pro Display Bold, 18px: 3 uses
+- SF Pro Display Bold, 38px: 3 uses
+- SF Pro Text Bold, 18px: 3 uses
+
+## Typography Hierarchy
+- 38px - SF Pro Display Bold, 38px (raw)
+- 32px - SF Pro Display Bold, 32px (raw)
+- 27px - SF Pro Display Semibold, 27px (raw)
+- 26px - SF Pro Display Semibold, 26px (raw)
+- 23px - SF Pro Display Regular, 23px (raw)
+- 23px - SF Pro Display Semibold, 23px (raw)
+- 21px - SF Pro Display Semibold, 21px (raw)
+- 20px - SF Pro Display Medium, 20px (raw)
+- 20px - SF Pro Display Regular, 20px (raw)
+- 20px - SF Pro Display Semibold, 20px (raw)
+- 18px - SF Pro Display Bold, 18px (raw)
+- 18px - SF Pro Text Bold, 18px (raw)
+- 17px - SF Pro Text Bold, 17px (raw)
+- 15px - SF Pro Display Semibold, 15px (raw)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 14px - SF Pro Display Semibold, 14px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- White: 11 uses
+- Balck: 1 use
+
+## Layout & Structure
+Screen: Cover / Frame 1
+- FRAME "Frame 1", 1920x960px, constraints left/top, fill #F2EEFF
+  - GROUP "Group 51", 2172.06x2290.39px, constraints left/top, radius 0/0/0/0px [decorative, ~10 shapes]
+  - GROUP "Group 52", 781x177px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 50", 781x177px, constraints left/top, radius 178.24px, fill #E84C88, effect [drop_shadow 74px offset 0 34 #00000040]
+    - RECTANGLE "image 1", 94x96px, constraints left/top, fill image(hash: d7fc131d2f96bde4b65c9e601f8ae64f3dab588d)
+    - TEXT "Dribbble Shot", 576x89px, constraints left/top, fill #FFFFFF, text [SF Pro Display Semibold, 74.27px], [heading]
+
+Screen: Screens / 40
+- FRAME "40", 375x812px, constraints left/top, fill #17082A
+  - RECTANGLE "Rectangle 23", 345x1243px, constraints left/top, radius 25px, fill #210F37
+  - FRAME "Frame 264", 98x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "новинка", 72x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 265", 115x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 262", 115x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 260", 98x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "новинка", 72x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 261", 115x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 258", 115x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 256", 98x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "новинка", 72x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - RECTANGLE "image 12", 375x563px, constraints left/top, fill image(hash: 5c16402b8537501888be65d48b06c01c118ec3d6)
+  - RECTANGLE "Rectangle 7", 375x390px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A 100%)
+  - RECTANGLE "Rectangle 9", 375x251px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A00 100%)
+  - TEXT "Bohemian Rhapsody", 295x90px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 38px], [heading]
+  - TEXT "Drama, Music", 295x22px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 50%
+  - GROUP "Group 219", 37x37px, constraints left/top, radius 0/0/0/0px, opacity 0%
+    - GROUP "Group 221", 37x37px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 13", 37x37px, constraints left/top, radius 12px, fill #FFFFFF2B, effect [background_blur 4px]
+      - GROUP "Group 220", 21.21x21.21px, constraints left/top, radius 9.8px, opacity 50%
+        - GROUP "Group 218", 21.21x21.21px, constraints left/top, radius 9.8px
+          - RECTANGLE "Rectangle 18", 12.73x12.73px, constraints left/top, radius 9.8px, fill #FFFFFF
+          - RECTANGLE "Rectangle 19", 12.73x12.73px, constraints left/top, radius 9.8px, fill #FFFFFF
+  - GROUP "Group 234", 345x189px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 225", 345x189px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 21", 345x189px, constraints left/top, radius 25px, fill #210F37
+      - GROUP "Group 223", 295x25px, constraints left/top, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 224", 132x24px, constraints left/top, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Group 232", 295x98px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 233", 295x98px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 236", 55x20px, constraints left/top, radius 0/0/0/0px
+          - TEXT "8.4", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 235", 55x20px, constraints left/top, radius 0/0/0/0px
+          - TEXT "8.8", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 237", 295x98px, constraints left/top, radius 0/0/0/0px
+          - TEXT "8.7", 53x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+          - TEXT "Poster", 146x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 55x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 158x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+  - GROUP "Group 241", 357x334px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x334px, constraints left/top, radius 25px, fill #210F37
+    - VECTOR "Vector", 72x18px, constraints scale/scale, fill #BCB7C3
+    - VECTOR "Vector", 98x18px, constraints scale/scale, fill #BCB7C3
+    - TEXT "Драма | Музыкальное кино | Биография", 295x56px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - TEXT "📆 🇺🇸 ⏰ 🔉", 29x155px, constraints scale/scale, fill #8F879B, text [SF Pro Display Regular, 23px]
+    - TEXT "2018 США 125 Мин Rus | En", 295x152px, constraints scale/scale, fill #BCB7C3, text [SF Pro Display Regular, 20px]
+  - GROUP "Group 239", 58x58px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 58x58px, constraints left/top, radius 17px, fill #FFFFFF2B, effect [background_blur 4px]
+    - REGULAR_POLYGON "Polygon 1", 28.41x28.41px, constraints scale/scale, radius 3px, fill #FFFFFF
+  - GROUP "Group 263", 345x729px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x729px, constraints left/top, radius 25px, fill #210F37
+    - VECTOR "Vector 1", 295x0px, constraints left/top, stroke #FFFFFF 1px, opacity 0%
+    - TEXT "Читать все", 103x28px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Medium, 20px]
+    - TEXT "Описание", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - TEXT "Биографический фильм о Фредди Меркьюри и группе Queen от реж", 295x112px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - GROUP "Group 258", 295x190px, constraints left/top, radius 11px
+      - TEXT "В ролях", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+      - FRAME "Frame 250", 146x42px, horizontal pad 12 22 12 22px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Рами Малек", 102x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 252", 173x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Люси Бойнтон", 129x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 253", 209x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Джозеф Маццелло", 165x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 251", 136x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Гвилим Ли", 92x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+    - VECTOR "Vector 1", 295x0px, constraints left/top, stroke #FFFFFF 1px, opacity 0%
+    - GROUP "Group 259", 295x135px, constraints left/top, radius 11px
+      - FRAME "Frame 254", 102x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Драмы", 58x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 255", 141x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Биографии", 97x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 256", 213x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Музыкальное кино", 169x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Жанр", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - GROUP "Group 257", 295x82px, constraints left/top, radius 11px
+      - GROUP "Group 256", 175x41px, constraints left/top, radius 11px
+        - RECTANGLE "Rectangle 25", 175x41px, constraints scale/scale, radius 11px, fill #FFFFFF, opacity 10%
+        - TEXT "Брайан Сингер", 175x15px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Режисер", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 288", 345x151px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x151px, constraints left/top, radius 25px, fill #210F37
+    - GROUP "Group 287", 266.18x43.64px, constraints left/top, radius 0/0/0/0px [decorative, ~7 shapes]
+    - TEXT "Оставьте оценку", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - TEXT "Похожие фильмы", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 261", 295x58px, constraints left/top, radius 19px
+    - RECTANGLE "Rectangle 25", 295x58px, constraints scale/scale, radius 19px, fill #6644B8
+    - TEXT "Watch movie", 295x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 178", 125.68x828.5px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Rectangle 29", 125.68x828.5px, constraints left/top, radius 17px, fill #FFFFFF2B, effect [background_blur 4px]
+    - VECTOR "Vector 26", 4.24x9.89px, constraints left/top, stroke #C4A5C6 2px
+  - GROUP "Group 266", 345x396px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x396px, constraints left/top, radius 25px, fill #6644B8
+    - RECTANGLE "Rectangle 23", 345x437px, constraints left/top, radius 25px, fill #321758
+    - GROUP "Group 286", 850.37x808.64px, constraints left/top, radius 0/0/0/0px [decorative, ~28 shapes]
+    - GROUP "Group 264", 295x58px, constraints left/top, radius 17px
+      - RECTANGLE "Rectangle 25", 295x58px, constraints scale/scale, radius 17px, fill #FF8FC6
+      - TEXT "Подробнее", 295x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+    - RECTANGLE "Rectangle 7", 375x405px, constraints scale/scale, fill gradient_linear(#32175800 0% | #321758 100%)
+    - TEXT "25 000 фильмов и сериалов бесплатно", 345x62px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 26px], [heading]
+  - GROUP "Group 296", 295x201.11px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Аватар", 156x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px]
+    - GROUP "Group 300", 124x201.11px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "image 13", 124x201.11px, constraints scale/scale, radius 15.63px, fill image(hash: a32418dac768528cff8cd36496d9be47d0eee9bd)
+      - RECTANGLE "image 24", 142x202px, constraints left/top, fill image(hash: f90cfb36f70fe13cd8f49aff4ef21ac320f03afc)
+    - GROUP "Group 299", 58x25px, constraints left/top, radius 0.87px
+      - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+      - GROUP "Group 223", 20.91x20.91px, constraints left/top, radius 0.87px
+        - GROUP "Group 224", 20.91x20.91px, constraints left/top, radius 0.87px
+          - STAR "Star 1", 20.91x20.91px, constraints left/top, radius 0.87px, fill #F79E44
+  - GROUP "Group 297", 295x201.11px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Зеленая книга", 156x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px]
+    - GROUP "Group 298", 124x201.11px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "image 13", 124x201.11px, constraints scale/scale, radius 15.63px, fill image(hash: a32418dac768528cff8cd36496d9be47d0eee9bd)
+      - RECTANGLE "image 10", 155x201px, constraints left/top, fill image(hash: 527cdf1541dd90a704d1896bae492a425900c25c)
+      - RECTANGLE "image 3", 137x201px, constraints scale/scale, fill image(hash: 642884a40f30cb2d89785d31321836580766d013)
+    - GROUP "Group 301", 58x25px, constraints left/top, radius 0.87px
+      - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+      - GROUP "Group 223", 20.91x20.91px, constraints left/top, radius 0.87px
+        - GROUP "Group 224", 20.91x20.91px, constraints left/top, radius 0.87px
+          - STAR "Star 1", 20.91x20.91px, constraints left/top, radius 0.87px, fill #F79E44
+  - ... +6 more children
+
+Screen: Screens / 41
+- FRAME "41", 375x812px, constraints left/top, fill #17082A
+  - RECTANGLE "Rectangle 23", 345x1243px, constraints left/top, radius 25px, fill #210F37
+  - FRAME "Frame 264", 98x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "новинка", 72x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 265", 115x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 262", 115x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 260", 98x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "новинка", 72x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 261", 115x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 258", 115x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - FRAME "Frame 256", 98x31px, horizontal pad 7 13 7 13px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+    - TEXT "новинка", 72x17px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 14px]
+  - RECTANGLE "image 12", 375x563px, constraints left/top, fill image(hash: 5c16402b8537501888be65d48b06c01c118ec3d6)
+  - RECTANGLE "Rectangle 42", 375x262px, constraints left/top, fill #17082A, opacity 32%
+  - RECTANGLE "Rectangle 7", 375x390px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A 100%)
+  - RECTANGLE "Rectangle 9", 375x251px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A00 100%)
+  - TEXT "Bohemian Rhapsody", 295x90px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 38px], [heading]
+  - TEXT "Drama, Music", 295x22px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 50%
+  - GROUP "Group 219", 37x37px, constraints left/top, radius 0/0/0/0px, opacity 0%
+    - GROUP "Group 221", 37x37px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 13", 37x37px, constraints left/top, radius 12px, fill #FFFFFF2B, effect [background_blur 4px]
+      - GROUP "Group 220", 21.21x21.21px, constraints left/top, radius 9.8px, opacity 50%
+        - GROUP "Group 218", 21.21x21.21px, constraints left/top, radius 9.8px
+          - RECTANGLE "Rectangle 18", 12.73x12.73px, constraints left/top, radius 9.8px, fill #FFFFFF
+          - RECTANGLE "Rectangle 19", 12.73x12.73px, constraints left/top, radius 9.8px, fill #FFFFFF
+  - GROUP "Group 234", 345x189px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 225", 345x189px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 21", 345x189px, constraints left/top, radius 25px, fill #210F37
+      - GROUP "Group 223", 295x25px, constraints left/top, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 224", 132x24px, constraints left/top, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Group 232", 295x98px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 233", 295x98px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 236", 55x20px, constraints left/top, radius 0/0/0/0px
+          - TEXT "8.4", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 235", 55x20px, constraints left/top, radius 0/0/0/0px
+          - TEXT "8.8", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 237", 295x98px, constraints left/top, radius 0/0/0/0px
+          - TEXT "8.7", 53x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+          - TEXT "КиноПоиск", 146x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 55x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 158x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+  - GROUP "Group 241", 357x334px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x334px, constraints left/top, radius 25px, fill #210F37
+    - VECTOR "Vector", 72x18px, constraints scale/scale, fill #BCB7C3
+    - VECTOR "Vector", 98x18px, constraints scale/scale, fill #BCB7C3
+    - TEXT "Драма | Музыкальное кино | Биография", 295x56px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - TEXT "📆 🇺🇸 ⏰ 🔉", 29x155px, constraints scale/scale, fill #8F879B, text [SF Pro Display Regular, 23px]
+    - TEXT "2018 США 125 Мин Rus | En", 295x152px, constraints scale/scale, fill #BCB7C3, text [SF Pro Display Regular, 20px]
+  - GROUP "Group 239", 58x58px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 58x58px, constraints left/top, radius 17px, fill #FFFFFF2B, effect [background_blur 4px]
+    - REGULAR_POLYGON "Polygon 1", 28.41x28.41px, constraints scale/scale, radius 3px, fill #FFFFFF
+  - GROUP "Group 263", 345x729px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x729px, constraints left/top, radius 25px, fill #210F37
+    - VECTOR "Vector 1", 295x0px, constraints left/top, stroke #FFFFFF 1px, opacity 0%
+    - TEXT "Читать все", 103x28px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Medium, 20px]
+    - TEXT "Описание", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - TEXT "Биографический фильм о Фредди Меркьюри и группе Queen от реж", 295x112px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - GROUP "Group 258", 295x190px, constraints left/top, radius 11px
+      - TEXT "В ролях", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+      - FRAME "Frame 250", 146x42px, horizontal pad 12 22 12 22px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Рами Малек", 102x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 252", 173x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Люси Бойнтон", 129x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 253", 209x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Джозеф Маццелло", 165x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 251", 136x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Гвилим Ли", 92x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+    - VECTOR "Vector 1", 295x0px, constraints left/top, stroke #FFFFFF 1px, opacity 0%
+    - GROUP "Group 259", 295x135px, constraints left/top, radius 11px
+      - FRAME "Frame 254", 102x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Драмы", 58x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 255", 141x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Биографии", 97x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 256", 213x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill #36274B
+        - TEXT "Музыкальное кино", 169x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Жанр", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - GROUP "Group 257", 295x82px, constraints left/top, radius 11px
+      - GROUP "Group 256", 175x41px, constraints left/top, radius 11px
+        - RECTANGLE "Rectangle 25", 175x41px, constraints scale/scale, radius 11px, fill #FFFFFF, opacity 10%
+        - TEXT "Брайан Сингер", 175x15px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Режисер", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 288", 345x151px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x151px, constraints left/top, radius 25px, fill #210F37
+    - GROUP "Group 287", 266.18x43.64px, constraints left/top, radius 0/0/0/0px [decorative, ~7 shapes]
+    - TEXT "Оставьте оценку", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - TEXT "Похожие фильмы", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 261", 295x58px, constraints left/top, radius 19px
+    - RECTANGLE "Rectangle 25", 295x58px, constraints scale/scale, radius 19px, fill #6644B8
+    - TEXT "Смотреть фильм", 295x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 178", 125.68x828.5px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Rectangle 29", 125.68x828.5px, constraints left/top, radius 17px, fill #FFFFFF2B, effect [background_blur 4px]
+    - VECTOR "Vector 26", 4.24x9.89px, constraints left/top, stroke #C4A5C6 2px
+  - GROUP "Group 266", 345x396px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x396px, constraints left/top, radius 25px, fill #6644B8
+    - RECTANGLE "Rectangle 23", 345x437px, constraints left/top, radius 25px, fill #321758
+    - GROUP "Group 286", 850.37x808.64px, constraints left/top, radius 0/0/0/0px [decorative, ~28 shapes]
+    - GROUP "Group 264", 295x58px, constraints left/top, radius 17px
+      - RECTANGLE "Rectangle 25", 295x58px, constraints scale/scale, radius 17px, fill #FF8FC6
+      - TEXT "Подробнее", 295x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+    - RECTANGLE "Rectangle 7", 375x405px, constraints scale/scale, fill gradient_linear(#32175800 0% | #321758 100%)
+    - TEXT "25 000 фильмов и сериалов бесплатно", 345x62px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 26px], [heading]
+  - GROUP "Group 296", 295x201.11px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Аватар", 156x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px]
+    - GROUP "Group 300", 124x201.11px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "image 13", 124x201.11px, constraints scale/scale, radius 15.63px, fill image(hash: a32418dac768528cff8cd36496d9be47d0eee9bd)
+      - RECTANGLE "image 24", 142x202px, constraints left/top, fill image(hash: f90cfb36f70fe13cd8f49aff4ef21ac320f03afc)
+    - GROUP "Group 299", 58x25px, constraints left/top, radius 0.87px
+      - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+      - GROUP "Group 223", 20.91x20.91px, constraints left/top, radius 0.87px
+        - GROUP "Group 224", 20.91x20.91px, constraints left/top, radius 0.87px
+          - STAR "Star 1", 20.91x20.91px, constraints left/top, radius 0.87px, fill #F79E44
+  - ... +8 more children
+
+Screen: Screens / 42
+- FRAME "42", 375x812px, constraints left/top, fill #17082A
+  - RECTANGLE "Rectangle 9", 375x251px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A00 100%)
+  - TEXT "Похожие фильмы", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 261", 295x66px, constraints scale/scale, radius 25px
+    - RECTANGLE "Rectangle 25", 295x66px, constraints scale/scale, radius 25px, fill #6644B8
+    - TEXT "Смотреть фильм", 163x24px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 295", 296x66px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 234", 345x189px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 225", 345x189px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 21", 345x189px, constraints scale/scale, radius 25px, fill #210F37
+      - GROUP "Group 223", 295x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 224", 132x24px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Group 232", 295x98px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 233", 295x98px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Group 236", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.4", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 235", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.8", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 237", 295x98px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.7", 53x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+          - TEXT "Афиша", 146x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 55x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "КиноПоиск", 158x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+  - GROUP "Group 241", 345x334px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x334px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector", 72x18px, constraints scale/scale, fill #BCB7C3
+    - VECTOR "Vector", 98x18px, constraints scale/scale, fill #BCB7C3
+    - TEXT "Драма | Музыкальное кино | Биография", 295x56px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - TEXT "📆 🇺🇸 ⏰ 🔉", 29x155px, constraints scale/scale, fill #8F879B, text [SF Pro Display Regular, 23px]
+    - TEXT "2018 США 125 Мин Rus | En", 283x152px, constraints scale/scale, fill #BCB7C3, text [SF Pro Display Regular, 20px]
+  - GROUP "Group 263", 345x729px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x729px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - TEXT "Читать все", 103x28px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Medium, 20px]
+    - TEXT "Описание", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - TEXT "Биографический фильм о Фредди Меркьюри и группе Queen от реж", 295x112px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - GROUP "Group 258", 295x190px, constraints scale/scale, radius 11px
+      - TEXT "В ролях", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+      - FRAME "Frame 250", 146x42px, horizontal pad 12 22 12 22px gap 10px align min/max sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Рами Малек", 102x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 252", 173x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Люси Бойнтон", 129x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 253", 209x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Джозеф Маццелло", 165x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 251", 136x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Гвилим Ли", 92x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - GROUP "Group 259", 295x135px, constraints scale/scale, radius 11px
+      - FRAME "Frame 254", 102x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Драмы", 58x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 255", 141x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Биографии", 97x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 256", 213x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Музыкальное кино", 169x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Жанр", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - GROUP "Group 257", 295x82px, constraints scale/scale, radius 11px
+      - GROUP "Group 256", 175x41px, constraints scale/scale, radius 11px
+        - RECTANGLE "Rectangle 25", 175x41px, constraints scale/scale, radius 11px, fill #FFFFFF, opacity 10%
+        - TEXT "Брайан Сингер", 175x15px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Режисер", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 288", 345x151px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x151px, constraints scale/scale, radius 25px, fill #210F37
+    - GROUP "Group 287", 266.18x43.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - TEXT "Оставьте оценку", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 266", 345x396px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x396px, constraints scale/scale, radius 25px, fill #6644B8
+    - RECTANGLE "Rectangle 23", 345x437px, constraints scale/scale, radius 25px, fill #321758
+    - GROUP "Group 286", 850.37x808.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~28 shapes]
+    - GROUP "Group 264", 295x58px, constraints scale/scale, radius 17px
+      - RECTANGLE "Rectangle 25", 295x58px, constraints scale/scale, radius 17px, fill #FF8FC6
+      - TEXT "Подробнее", 295x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+    - RECTANGLE "Rectangle 7", 375x405px, constraints scale/scale, fill gradient_linear(#32175800 0% | #321758 100%)
+    - TEXT "25 000 фильмов и сериалов бесплатно", 345x62px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 26px], [heading]
+  - GROUP "Group 321", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - FRAME "Frame 321", 117x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Аватар", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 322", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - RECTANGLE "image 35", 345x190.6px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Богемская рапсодия", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "7.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 323", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 428d89f01e47ec7d45f6d8a8d4718871ffe2ab21)
+        - FRAME "Frame 321", 117x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Вверх", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 324", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - RECTANGLE "image 35", 355x197px, constraints scale/scale, fill image(hash: b1548ded5b270abcd7b7bc96a2a1998899cf0ec2)
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Семь пар нечистых", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "7.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 330", 700x190.6px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 329", 700x190.6px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+    - TEXT "Аватар", 295x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 32px], [heading]
+    - TEXT "Avatar", 295x22px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 50%
+    - GROUP "Group 239", 57x57px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 22", 57x57px, constraints scale/scale, radius 16.71px, fill #FFFFFF2B, effect [background_blur 3.93px]
+      - REGULAR_POLYGON "Polygon 1", 27.92x27.92px, constraints scale/scale, radius 2.95px, fill #FFFFFF
+  - GROUP "Group 219", 37x37px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 221", 37x37px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 13", 37x37px, constraints scale/scale, radius 12px, fill #FFFFFF2B, effect [background_blur 4px], opacity 0%
+      - GROUP "Group 220", 21.21x21.21px, constraints scale/scale, radius 9.8px, opacity 50%
+        - GROUP "Group 218", 21.21x21.21px, constraints scale/scale, radius 9.8px
+          - RECTANGLE "Rectangle 18", 12.73x12.73px, constraints scale/scale, radius 9.8px, fill #FFFFFF
+          - RECTANGLE "Rectangle 19", 12.73x12.73px, constraints scale/scale, radius 9.8px, fill #FFFFFF
+  - RECTANGLE "Rectangle 10", 375x251px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A00 100%)
+  - TEXT "Похожие фильмы", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 331", 295x66px, constraints scale/scale, radius 25px
+    - RECTANGLE "Rectangle 25", 295x66px, constraints scale/scale, radius 25px, fill #6644B8
+    - TEXT "Смотреть фильм", 163x24px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 332", 296x66px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 333", 345x189px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 225", 345x189px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 21", 345x189px, constraints scale/scale, radius 25px, fill #210F37
+      - GROUP "Group 223", 295x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 224", 132x24px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Group 232", 295x98px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 233", 295x98px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Group 236", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.4", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 235", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.8", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 237", 295x98px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.7", 53x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+          - TEXT "Афиша", 146x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 55x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "КиноПоиск", 158x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+  - GROUP "Group 334", 345x334px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x334px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector", 72x18px, constraints scale/scale, fill #BCB7C3
+    - VECTOR "Vector", 98x18px, constraints scale/scale, fill #BCB7C3
+    - TEXT "Драма | Музыкальное кино | Биография", 295x56px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - TEXT "📆 🇺🇸 ⏰ 🔉", 29x155px, constraints scale/scale, fill #8F879B, text [SF Pro Display Regular, 23px]
+    - TEXT "2018 США 125 Мин Rus | En", 283x152px, constraints scale/scale, fill #BCB7C3, text [SF Pro Display Regular, 20px]
+  - GROUP "Group 335", 345x729px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x729px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - TEXT "More", 46x28px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Medium, 20px]
+    - TEXT "Description", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - TEXT "Honoring Queen, their music and their outstanding vocalist F", 295x108px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - GROUP "Group 258", 295x190px, constraints scale/scale, radius 11px
+      - TEXT "В ролях", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+      - FRAME "Frame 250", 146x42px, horizontal pad 12 22 12 22px gap 10px align min/max sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Рами Малек", 102x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 252", 173x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Люси Бойнтон", 129x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 253", 209x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Джозеф Маццелло", 165x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 251", 136x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Гвилим Ли", 92x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - GROUP "Group 259", 295x135px, constraints scale/scale, radius 11px
+      - FRAME "Frame 254", 102x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Драмы", 58x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 255", 141x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Биографии", 97x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 256", 213x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Музыкальное кино", 169x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Жанр", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - GROUP "Group 257", 295x82px, constraints scale/scale, radius 11px
+      - GROUP "Group 256", 175x41px, constraints scale/scale, radius 11px
+        - RECTANGLE "Rectangle 25", 175x41px, constraints scale/scale, radius 11px, fill #FFFFFF, opacity 10%
+        - TEXT "Брайан Сингер", 175x15px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Режисер", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 336", 345x151px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x151px, constraints scale/scale, radius 25px, fill #210F37
+    - GROUP "Group 287", 266.18x43.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - TEXT "Оставьте оценку", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 337", 345x396px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x396px, constraints scale/scale, radius 25px, fill #6644B8
+    - RECTANGLE "Rectangle 23", 345x437px, constraints scale/scale, radius 25px, fill #321758
+    - GROUP "Group 286", 850.37x808.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~28 shapes]
+    - GROUP "Group 264", 295x58px, constraints scale/scale, radius 17px
+      - RECTANGLE "Rectangle 25", 295x58px, constraints scale/scale, radius 17px, fill #FF8FC6
+      - TEXT "More details", 295x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+    - RECTANGLE "Rectangle 7", 375x405px, constraints scale/scale, fill gradient_linear(#32175800 0% | #321758 100%)
+    - TEXT "25 000 movies and TV shows for free", 345x62px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 26px], [heading]
+  - GROUP "Group 338", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - FRAME "Frame 321", 117x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Аватар", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - ... +7 more children
+
+Screen: Screens / 43
+- FRAME "43", 375x812px, constraints left/top, fill #17082A
+  - RECTANGLE "Rectangle 9", 375x251px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A00 100%)
+  - TEXT "Похожие фильмы", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 261", 295x66px, constraints scale/scale, radius 25px
+    - RECTANGLE "Rectangle 25", 295x66px, constraints scale/scale, radius 25px, fill #6644B8
+    - TEXT "Смотреть фильм", 163x24px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 295", 296x66px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 234", 345x189px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 225", 345x189px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 21", 345x189px, constraints scale/scale, radius 25px, fill #210F37
+      - GROUP "Group 223", 295x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 224", 132x24px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Group 232", 295x98px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 233", 295x98px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Group 236", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.4", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 235", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.8", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 237", 295x98px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.7", 53x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+          - TEXT "Афиша", 146x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 55x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "КиноПоиск", 158x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+  - GROUP "Group 241", 345x334px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x334px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector", 72x18px, constraints scale/scale, fill #BCB7C3
+    - VECTOR "Vector", 98x18px, constraints scale/scale, fill #BCB7C3
+    - TEXT "Драма | Музыкальное кино | Биография", 295x56px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - TEXT "📆 🇺🇸 ⏰ 🔉", 29x155px, constraints scale/scale, fill #8F879B, text [SF Pro Display Regular, 23px]
+    - TEXT "2018 США 125 Мин Rus | En", 283x152px, constraints scale/scale, fill #BCB7C3, text [SF Pro Display Regular, 20px]
+  - GROUP "Group 263", 345x729px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x729px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - TEXT "Читать все", 103x28px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Medium, 20px]
+    - TEXT "Описание", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - TEXT "Биографический фильм о Фредди Меркьюри и группе Queen от реж", 295x112px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - GROUP "Group 258", 295x190px, constraints scale/scale, radius 11px
+      - TEXT "В ролях", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+      - FRAME "Frame 250", 146x42px, horizontal pad 12 22 12 22px gap 10px align min/max sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Рами Малек", 102x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 252", 173x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Люси Бойнтон", 129x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 253", 209x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Джозеф Маццелло", 165x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 251", 136x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Гвилим Ли", 92x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - GROUP "Group 259", 295x135px, constraints scale/scale, radius 11px
+      - FRAME "Frame 254", 102x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Драмы", 58x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 255", 141x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Биографии", 97x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 256", 213x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Музыкальное кино", 169x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Жанр", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - GROUP "Group 257", 295x82px, constraints scale/scale, radius 11px
+      - GROUP "Group 256", 175x41px, constraints scale/scale, radius 11px
+        - RECTANGLE "Rectangle 25", 175x41px, constraints scale/scale, radius 11px, fill #FFFFFF, opacity 10%
+        - TEXT "Брайан Сингер", 175x15px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Режисер", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 288", 345x151px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x151px, constraints scale/scale, radius 25px, fill #210F37
+    - GROUP "Group 287", 266.18x43.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - TEXT "Оставьте оценку", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 266", 345x396px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x396px, constraints scale/scale, radius 25px, fill #6644B8
+    - RECTANGLE "Rectangle 23", 345x437px, constraints scale/scale, radius 25px, fill #321758
+    - GROUP "Group 286", 850.38x808.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~28 shapes]
+    - GROUP "Group 264", 295x58px, constraints scale/scale, radius 17px
+      - RECTANGLE "Rectangle 25", 295x58px, constraints scale/scale, radius 17px, fill #FF8FC6
+      - TEXT "Подробнее", 295x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+    - RECTANGLE "Rectangle 7", 375x405px, constraints scale/scale, fill gradient_linear(#32175800 0% | #321758 100%)
+    - TEXT "25 000 фильмов и сериалов бесплатно", 345x62px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 26px], [heading]
+  - GROUP "Group 321", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - FRAME "Frame 321", 117x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Аватар", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 322", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - RECTANGLE "image 35", 345x190.6px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Богемская рапсодия", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "7.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 323", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 428d89f01e47ec7d45f6d8a8d4718871ffe2ab21)
+        - FRAME "Frame 321", 117x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Вверх", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 324", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - RECTANGLE "image 35", 355x197px, constraints scale/scale, fill image(hash: b1548ded5b270abcd7b7bc96a2a1998899cf0ec2)
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Семь пар нечистых", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "7.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 330", 700x190.6px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 329", 700x190.6px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+    - TEXT "Аватар", 295x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 32px], [heading]
+    - TEXT "Avatar", 295x22px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 50%
+    - GROUP "Group 239", 57x57px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 22", 57x57px, constraints scale/scale, radius 16.71px, fill #FFFFFF2B, effect [background_blur 3.93px]
+      - REGULAR_POLYGON "Polygon 1", 27.92x27.92px, constraints scale/scale, radius 2.95px, fill #FFFFFF
+  - GROUP "Group 219", 37x37px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 221", 37x37px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 13", 37x37px, constraints scale/scale, radius 12px, fill #FFFFFF2B, effect [background_blur 4px], opacity 0%
+      - GROUP "Group 220", 21.21x21.21px, constraints scale/scale, radius 9.8px, opacity 50%
+        - GROUP "Group 218", 21.21x21.21px, constraints scale/scale, radius 9.8px
+          - RECTANGLE "Rectangle 18", 12.73x12.73px, constraints scale/scale, radius 9.8px, fill #FFFFFF
+          - RECTANGLE "Rectangle 19", 12.73x12.73px, constraints scale/scale, radius 9.8px, fill #FFFFFF
+  - RECTANGLE "Rectangle 10", 375x251px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A00 100%)
+  - TEXT "Похожие фильмы", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 331", 295x66px, constraints scale/scale, radius 25px
+    - RECTANGLE "Rectangle 25", 295x66px, constraints scale/scale, radius 25px, fill #6644B8
+    - TEXT "Смотреть фильм", 163x24px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 332", 296x66px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 333", 345x189px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 225", 345x189px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 21", 345x189px, constraints scale/scale, radius 25px, fill #210F37
+      - GROUP "Group 223", 295x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 224", 132x24px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Group 232", 295x98px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 233", 295x98px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Group 236", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.4", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 235", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.8", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 237", 295x98px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.7", 53x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+          - TEXT "Афиша", 146x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 55x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "КиноПоиск", 158x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+  - GROUP "Group 334", 345x334px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x334px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector", 72x18px, constraints scale/scale, fill #BCB7C3
+    - VECTOR "Vector", 98x18px, constraints scale/scale, fill #BCB7C3
+    - TEXT "Драма | Музыкальное кино | Биография", 295x56px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - TEXT "📆 🇺🇸 ⏰ 🔉", 29x155px, constraints scale/scale, fill #8F879B, text [SF Pro Display Regular, 23px]
+    - TEXT "2018 США 125 Мин Rus | En", 283x152px, constraints scale/scale, fill #BCB7C3, text [SF Pro Display Regular, 20px]
+  - GROUP "Group 335", 345x729px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x729px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - TEXT "More", 46x28px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Medium, 20px]
+    - TEXT "Description", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - TEXT "Honoring Queen, their music and their outstanding vocalist F", 295x108px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - GROUP "Group 258", 295x190px, constraints scale/scale, radius 11px
+      - TEXT "Cast", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+      - FRAME "Frame 250", 137x42px, horizontal pad 12 22 12 22px gap 10px align min/max sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Rami Malek", 93x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 252", 161x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Lucy Boynton", 117x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 253", 188x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Joseph Mazzello", 144x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 251", 135x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Gwilym Lee", 91x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - GROUP "Group 259", 295x135px, constraints scale/scale, radius 11px
+      - FRAME "Frame 254", 102x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Драмы", 58x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 255", 141x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Биографии", 97x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 256", 213x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Музыкальное кино", 169x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Genre", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - GROUP "Group 257", 295x82px, constraints scale/scale, radius 11px
+      - GROUP "Group 256", 175x41px, constraints scale/scale, radius 11px
+        - RECTANGLE "Rectangle 25", 175x41px, constraints scale/scale, radius 11px, fill #FFFFFF, opacity 10%
+        - TEXT "Brian Singer", 175x15px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Director", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 336", 345x151px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x151px, constraints scale/scale, radius 25px, fill #210F37
+    - GROUP "Group 287", 266.18x43.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - TEXT "Оставьте оценку", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 337", 345x396px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x396px, constraints scale/scale, radius 25px, fill #6644B8
+    - RECTANGLE "Rectangle 23", 345x437px, constraints scale/scale, radius 25px, fill #321758
+    - GROUP "Group 286", 850.38x808.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~28 shapes]
+    - GROUP "Group 264", 295x58px, constraints scale/scale, radius 17px
+      - RECTANGLE "Rectangle 25", 295x58px, constraints scale/scale, radius 17px, fill #FF8FC6
+      - TEXT "Подробнее", 295x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+    - RECTANGLE "Rectangle 7", 375x405px, constraints scale/scale, fill gradient_linear(#32175800 0% | #321758 100%)
+    - TEXT "25 000 фильмов и сериалов бесплатно", 345x62px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 26px], [heading]
+  - GROUP "Group 338", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - FRAME "Frame 321", 117x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Аватар", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - ... +7 more children
+
+Screen: Screens / 44
+- FRAME "44", 375x812px, constraints left/top, fill #17082A
+  - RECTANGLE "Rectangle 9", 375x251px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A00 100%)
+  - TEXT "Похожие фильмы", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 261", 295x66px, constraints scale/scale, radius 25px
+    - RECTANGLE "Rectangle 25", 295x66px, constraints scale/scale, radius 25px, fill #6644B8
+    - TEXT "Смотреть фильм", 163x24px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 295", 296x66px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 234", 345x189px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 225", 345x189px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 21", 345x189px, constraints scale/scale, radius 25px, fill #210F37
+      - GROUP "Group 223", 295x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 224", 132x24px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Group 232", 295x98px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 233", 295x98px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Group 236", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.4", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 235", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.8", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 237", 295x98px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.7", 53x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+          - TEXT "Афиша", 146x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 55x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "КиноПоиск", 158x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+  - GROUP "Group 263", 345x729px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x729px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - TEXT "Читать все", 103x28px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Medium, 20px]
+    - TEXT "Описание", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - TEXT "Биографический фильм о Фредди Меркьюри и группе Queen от реж", 295x112px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - GROUP "Group 258", 295x190px, constraints scale/scale, radius 11px
+      - TEXT "В ролях", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+      - FRAME "Frame 250", 146x42px, horizontal pad 12 22 12 22px gap 10px align min/max sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Рами Малек", 102x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 252", 173x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Люси Бойнтон", 129x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 253", 209x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Джозеф Маццелло", 165x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 251", 136x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Гвилим Ли", 92x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - GROUP "Group 259", 295x135px, constraints scale/scale, radius 11px
+      - FRAME "Frame 254", 102x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Драмы", 58x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 255", 141x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Биографии", 97x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 256", 213x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Музыкальное кино", 169x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Жанр", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - GROUP "Group 257", 295x82px, constraints scale/scale, radius 11px
+      - GROUP "Group 256", 175x41px, constraints scale/scale, radius 11px
+        - RECTANGLE "Rectangle 25", 175x41px, constraints scale/scale, radius 11px, fill #FFFFFF, opacity 10%
+        - TEXT "Брайан Сингер", 175x15px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Режисер", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 288", 345x151px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x151px, constraints scale/scale, radius 25px, fill #210F37
+    - GROUP "Group 287", 266.18x43.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - TEXT "Оставьте оценку", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 321", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - FRAME "Frame 321", 117x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Аватар", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 322", 345x233px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x233px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - RECTANGLE "image 35", 345x190.6px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Богемская рапсодия", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+  - GROUP "Group 323", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 428d89f01e47ec7d45f6d8a8d4718871ffe2ab21)
+        - FRAME "Frame 321", 117x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Spies in Disguise", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "7.1", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 324", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - RECTANGLE "image 35", 355x197px, constraints scale/scale, fill image(hash: b1548ded5b270abcd7b7bc96a2a1998899cf0ec2)
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Frozen II", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "7.2", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 330", 700x190.6px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 329", 700x190.6px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+    - TEXT "Аватар", 295x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 32px], [heading]
+    - TEXT "Avatar", 295x22px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 50%
+    - GROUP "Group 239", 57x57px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 22", 57x57px, constraints scale/scale, radius 16.71px, fill #FFFFFF2B, effect [background_blur 3.93px]
+      - REGULAR_POLYGON "Polygon 1", 27.92x27.92px, constraints scale/scale, radius 2.95px, fill #FFFFFF
+  - GROUP "Group 219", 37x37px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 221", 37x37px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 13", 37x37px, constraints scale/scale, radius 12px, fill #FFFFFF2B, effect [background_blur 4px], opacity 0%
+      - GROUP "Group 220", 21.21x21.21px, constraints scale/scale, radius 9.8px, opacity 50%
+        - GROUP "Group 218", 21.21x21.21px, constraints scale/scale, radius 9.8px
+          - RECTANGLE "Rectangle 18", 12.73x12.73px, constraints scale/scale, radius 9.8px, fill #FFFFFF
+          - RECTANGLE "Rectangle 19", 12.73x12.73px, constraints scale/scale, radius 9.8px, fill #FFFFFF
+  - RECTANGLE "Rectangle 10", 375x251px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A00 100%)
+  - TEXT "Похожие фильмы", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 331", 295x66px, constraints scale/scale, radius 25px
+    - RECTANGLE "Rectangle 25", 295x66px, constraints scale/scale, radius 25px, fill #6644B8
+    - TEXT "Смотреть фильм", 163x24px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 332", 296x66px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 333", 345x189px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 225", 345x189px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 21", 345x189px, constraints scale/scale, radius 25px, fill #210F37
+      - GROUP "Group 223", 295x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 224", 132x24px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Group 232", 295x98px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 233", 295x98px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Group 236", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.4", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 235", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.8", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 237", 295x98px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.7", 53x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+          - TEXT "Афиша", 146x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 55x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "КиноПоиск", 158x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+  - GROUP "Group 335", 345x729px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x729px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - TEXT "Читать все", 103x28px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Medium, 20px]
+    - TEXT "Описание", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - TEXT "Биографический фильм о Фредди Меркьюри и группе Queen от реж", 295x112px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - GROUP "Group 258", 295x190px, constraints scale/scale, radius 11px
+      - TEXT "В ролях", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+      - FRAME "Frame 250", 146x42px, horizontal pad 12 22 12 22px gap 10px align min/max sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Рами Малек", 102x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 252", 173x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Люси Бойнтон", 129x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 253", 209x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Джозеф Маццелло", 165x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 251", 136x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Гвилим Ли", 92x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - GROUP "Group 259", 295x135px, constraints scale/scale, radius 11px
+      - FRAME "Frame 254", 102x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Драмы", 58x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 255", 141x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Биографии", 97x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 256", 213x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Музыкальное кино", 169x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Жанр", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - GROUP "Group 257", 295x82px, constraints scale/scale, radius 11px
+      - GROUP "Group 256", 175x41px, constraints scale/scale, radius 11px
+        - RECTANGLE "Rectangle 25", 175x41px, constraints scale/scale, radius 11px, fill #FFFFFF, opacity 10%
+        - TEXT "Брайан Сингер", 175x15px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Режисер", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 336", 345x151px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x151px, constraints scale/scale, radius 25px, fill #210F37
+    - GROUP "Group 287", 266.18x43.64px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - TEXT "Оставьте оценку", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 338", 345x268px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x268px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - FRAME "Frame 321", 117x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "Бесплатно", 89x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+        - FRAME "Frame 322", 82x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "новый", 54x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - TEXT "Аватар", 295x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+      - GROUP "Group 301", 158x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 223", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 340", 345x265.91px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x265.91px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 7597e437853ffd1a8affb5fedb2e4f77708761f5)
+        - FRAME "Frame 322", 61x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "new", 33x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - GROUP "Group 301", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 341", 345x265.91px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 320", 345x265.91px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 317", 345x191px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 39", 345x191px, constraints scale/scale, radius 30px, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 33", 345x191px, constraints scale/scale, fill image(hash: 2301bbdb439382f9f368a2e0905209225ad519fe)
+        - RECTANGLE "image 34", 348x196.41px, constraints scale/scale, fill image(hash: 628a4bbe79192da240b786f2d284257b5913c79e)
+        - RECTANGLE "image 35", 355x197px, constraints scale/scale, fill image(hash: b3e347baea2b97d48da7677102508bb65b40144e)
+        - FRAME "Frame 322", 61x33px, horizontal pad 8 14 8 14px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #00000080
+          - TEXT "New", 33x17px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 14px]
+      - GROUP "Group 301", 112.91x20.91px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Group 342", 700x190.6px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 329", 700x190.6px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+    - TEXT "Аватар", 295x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 32px], [heading]
+    - TEXT "Avatar", 295x22px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 50%
+    - GROUP "Group 239", 57x57px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 22", 57x57px, constraints scale/scale, radius 16.71px, fill #FFFFFF2B, effect [background_blur 3.93px]
+      - REGULAR_POLYGON "Polygon 1", 27.92x27.92px, constraints scale/scale, radius 2.95px, fill #FFFFFF
+  - GROUP "Group 343", 37x37px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 221", 37x37px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 13", 37x37px, constraints scale/scale, radius 12px, fill #FFFFFF2B, effect [background_blur 4px], opacity 0%
+      - GROUP "Group 220", 21.21x21.21px, constraints scale/scale, radius 9.8px, opacity 50%
+        - GROUP "Group 218", 21.21x21.21px, constraints scale/scale, radius 9.8px
+          - RECTANGLE "Rectangle 18", 12.73x12.73px, constraints scale/scale, radius 9.8px, fill #FFFFFF
+          - RECTANGLE "Rectangle 19", 12.73x12.73px, constraints scale/scale, radius 9.8px, fill #FFFFFF
+  - ... +2 more children
+
+Screen: Screens / 45
+- FRAME "45", 375x812px, constraints left/top, fill #17082A
+  - RECTANGLE "Rectangle 9", 375x251px, constraints scale/scale, fill gradient_linear(#17082A00 0% | #17082A00 100%)
+  - TEXT "Похожие фильмы", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+  - GROUP "Group 261", 295x66px, constraints scale/scale, radius 25px
+    - RECTANGLE "Rectangle 25", 295x66px, constraints scale/scale, radius 25px, fill #6644B8
+    - TEXT "Смотреть фильм", 163x24px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 295", 296x66px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 234", 345x189px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 225", 345x189px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 21", 345x189px, constraints scale/scale, radius 25px, fill #210F37
+      - GROUP "Group 223", 295x25px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "8.6", 55x25px, constraints scale/scale, fill #F79E44, text [SF Pro Display Semibold, 21px]
+        - GROUP "Group 224", 132x24px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Group 232", 295x98px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 233", 295x98px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Group 236", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.4", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 235", 55x20px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.8", 55x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+        - GROUP "Group 237", 295x98px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "8.7", 53x20px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Bold, 17px]
+          - TEXT "Афиша", 146x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "IMDb", 55x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+          - TEXT "КиноПоиск", 158x28px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+  - GROUP "Group 263", 345x729px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 345x729px, constraints scale/scale, radius 25px, fill #210F37
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - TEXT "Читать все", 103x28px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Medium, 20px]
+    - TEXT "Описание", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+    - TEXT "Биографический фильм о Фредди Меркьюри и группе Queen от реж", 295x112px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 20px], opacity 70%
+    - GROUP "Group 258", 295x190px, constraints scale/scale, radius 11px
+      - TEXT "В ролях", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+      - FRAME "Frame 250", 146x42px, horizontal pad 12 22 12 22px gap 10px align min/max sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Рами Малек", 102x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 252", 173x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Люси Бойнтон", 129x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 253", 209x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Джозеф Маццелло", 165x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 251", 136x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Гвилим Ли", 92x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+    - VECTOR "Vector 1", 295x0px, constraints scale/scale, stroke #FFFFFF 1px, opacity 0%
+    - GROUP "Group 259", 295x135px, constraints scale/scale, radius 11px
+      - FRAME "Frame 254", 102x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Драмы", 58x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 255", 141x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Биографии", 97x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - FRAME "Frame 256", 213x42px, horizontal pad 12 22 12 22px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 11px, fill #36274B
+        - TEXT "Музыкальное кино", 169x18px, constraints scale/scale, fill #ECBBDA, text [SF Pro Display Semibold, 15px]
+      - TEXT "Жанр", 295x27px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Semibold, 23px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

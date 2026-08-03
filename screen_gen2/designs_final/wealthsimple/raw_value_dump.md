@@ -1,0 +1,1223 @@
+---
+name: wealthsimple-design-system-2025-ui-kit-community
+source_file: Wealthsimple Design System 2025 | UI Kit (Community)
+source_page: All pages (39): Thumbnail, Read me 🥸, LIGHT + DARK MODE! 🌗, Foundations,     ↪️  Colours,     ↪️  Typography,     ↪️  Icons,     ↪️  Illustrations,     ↪️  Radius, Components,     ↪️  Avatar,     ↪️  Accordions,     ↪️  Badge,     ↪️  Buttons,     ↪️  Bottom navigation,     ↪️  Bottom sheet,     ↪️  Card,     ↪️  Carousel,     ↪️  Checkbox,     ↪️  Credit card,     ↪️  Divider,     ↪️  Graphs,     ↪️  Hide money,     ↪️  Input fields,     ↪️  List item,     ↪️  Modal,     ↪️  Notifications,     ↪️  Pill,     ↪️  Progress bar,     ↪️  Radio,     ↪️  Search,     ↪️  Section header,     ↪️  Segmented control,     ↪️  Skeleton,     ↪️  Slider,     ↪️  Switch,     ↪️  Toast,     ↪️  Tab,     ↪️  Text area
+generated_at: 2026-07-25T09:41:55.062020+00:00
+---
+
+# Wealthsimple Design System 2025 | UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Wealthsimple Design System 2025 | UI Kit (Community)
+- Figma page: All pages (39): Thumbnail, Read me 🥸, LIGHT + DARK MODE! 🌗, Foundations,     ↪️  Colours,     ↪️  Typography,     ↪️  Icons,     ↪️  Illustrations,     ↪️  Radius, Components,     ↪️  Avatar,     ↪️  Accordions,     ↪️  Badge,     ↪️  Buttons,     ↪️  Bottom navigation,     ↪️  Bottom sheet,     ↪️  Card,     ↪️  Carousel,     ↪️  Checkbox,     ↪️  Credit card,     ↪️  Divider,     ↪️  Graphs,     ↪️  Hide money,     ↪️  Input fields,     ↪️  List item,     ↪️  Modal,     ↪️  Notifications,     ↪️  Pill,     ↪️  Progress bar,     ↪️  Radio,     ↪️  Search,     ↪️  Section header,     ↪️  Segmented control,     ↪️  Skeleton,     ↪️  Slider,     ↪️  Switch,     ↪️  Toast,     ↪️  Tab,     ↪️  Text area
+- Extracted at: 2026-07-25T09:41:55.062020+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 249 uses
+- #FFFFFF: 153 uses
+- #6F8197: 123 uses
+- #252A31: 35 uses
+- #D9D9D9: 32 uses
+- #AE8948: 8 uses
+- #EBEBEB: 5 uses
+
+## Typography Tokens
+- body/med: Futura Book (400), 14px / 20px, tracking 0px
+- H3: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 16px / 21px, tracking 0.5px
+- H5: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 12px / 16px, tracking 0.5px
+- H4: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 14px / 19px, tracking 0.5px
+- body/small: Futura Book (400), 12px / 20px, tracking 0px
+- $/small: Futura Heavy (900), 14px / 18px, tracking 0.5px
+- H6: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 11px / 15px, tracking 1.5px
+- button/med: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 16px / 21px, tracking 0px
+- button/large: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 18px / auto, tracking 0px
+- $/med: Futura Heavy (900), 16px / 20px, tracking 0.5px
+- body/x-small: Futura Book (400), 10px / 16px, tracking 0.5px
+- $/x-small: Futura Heavy (900), 10px / 10px, tracking 0.5px
+- $/large: Futura Heavy (900), 20px / 25px, tracking 1px
+- $/x-large: Futura Heavy (900), 36px / 46px, tracking 1px
+- body/large: Futura Book (400), 16px / 26px, tracking -0.25px
+- H1: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 22px / 29px, tracking 1px
+- button/small: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 16px / 20px, tracking 0px
+- H7: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 10px / 13px, tracking 0.5px
+- link: Futura Book (400), 12px / 16px, tracking 0.25px
+- H2: OPTIFuturaDemiBold OPTIFuturaDemiBold (700), 20px / 27px, tracking 0.25px
+
+## Raw Typography (unstyled)
+- Circular Std Bold, 14px: 160 uses
+- Circular Std Medium, 10px: 79 uses
+- Circular Std Medium, 12px: 79 uses
+- Circular Std Bold, 40px: 36 uses
+- SF Pro Text Bold, 17px: 10 uses
+- Circular Std Bold, 28px: 7 uses
+- OPTIFuturaDemiBold OPTIFuturaDemiBold, 12px: 7 uses
+- Circular Std Book, 16px: 6 uses
+- OPTIFuturaDemiBold OPTIFuturaDemiBold, 16px: 6 uses
+- Open Sans SemiBold, 16px: 6 uses
+- OPTIFuturaDemiBold OPTIFuturaDemiBold, 14px: 4 uses
+- OPTIFuturaDemiBold OPTIFuturaDemiBold, 20px: 4 uses
+- Circular Std Bold, 16px: 3 uses
+- Futura Book, 14px: 3 uses
+- Futura Heavy, 48px: 3 uses
+
+## Typography Hierarchy
+- 48px - Futura Heavy, 48px (raw)
+- 40px - Circular Std Bold, 40px (raw)
+- 36px - $/x-large (Futura Heavy)
+- 28px - Circular Std Bold, 28px (raw)
+- 22px - H1 (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 20px - $/large (Futura Heavy)
+- 20px - H2 (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 20px - OPTIFuturaDemiBold OPTIFuturaDemiBold, 20px (raw)
+- 18px - button/large (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 17px - SF Pro Text Bold, 17px (raw)
+- 16px - $/med (Futura Heavy)
+- 16px - Circular Std Bold, 16px (raw)
+- 16px - Circular Std Book, 16px (raw)
+- 16px - H3 (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 16px - OPTIFuturaDemiBold OPTIFuturaDemiBold, 16px (raw)
+- 16px - Open Sans SemiBold, 16px (raw)
+- 16px - body/large (Futura Book)
+- 16px - button/med (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 16px - button/small (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 14px - $/small (Futura Heavy)
+- 14px - Circular Std Bold, 14px (raw)
+- 14px - Futura Book, 14px (raw)
+- 14px - H4 (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 14px - OPTIFuturaDemiBold OPTIFuturaDemiBold, 14px (raw)
+- 14px - body/med (Futura Book)
+- 12px - Circular Std Medium, 12px (raw)
+- 12px - H5 (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 12px - OPTIFuturaDemiBold OPTIFuturaDemiBold, 12px (raw)
+- 12px - body/small (Futura Book)
+- 12px - link (Futura Book)
+- 11px - H6 (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 10px - $/x-small (Futura Heavy)
+- 10px - Circular Std Medium, 10px (raw)
+- 10px - H7 (OPTIFuturaDemiBold OPTIFuturaDemiBold)
+- 10px - body/x-small (Futura Book)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- item-shadow-light: [drop_shadow 6px offset 0 2 #00000033, drop_shadow 4px offset 0 1 #0000001F]
+- card-shadow: [drop_shadow 16px offset 0 0 #0000000D, drop_shadow 7px offset 0 1 #0000000D]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- icons
+- icon in square
+- icon in circle
+- icon with notification
+- accordion
+- badge
+- button
+- link
+- bottom nav
+- bottom sheet footer
+- bottom sheet header
+- carousel dot
+- checkbox
+- wealthsimple app card
+- virtual card
+- divider
+- horizontal bar
+- legend dot
+- hide $
+- field
+- modal footer
+- modal header
+- status dot
+- notification container
+- notification header
+- pill
+- radio
+- search
+- section header
+- segment control
+- switch
+- toast
+- tab
+- text box
+
+## Component Specs
+- icons: size 20x20px | variants: icon: after hours/arrow down/arrow left/arrow right/arrow up/automated/bank draft/bell off/bell on/building/calendar 1/calendar 2/calendar 3/calendar 4/camera/cancel/card/chat/checkmark/checkmark filled/cheque/chevron down/chevron left/chevron right/chevron up/clock/close/copy/crypto/deposit/diamond/document/dollar sign/double user/edit/envelope/eye closed/eye open/face id/file/filter/flag/gift/home/icon69/import/increase/info/invest/lock/minus/money/move/new tab/night/piggy bank/plus/plus circle/premarket/profile/recurring/schedule/search/send/settings/share/sign doc/split/thumbs down/thumbs up/transfer/trash/wallet/warning/wire/withdraw/world
+- icon in square: size 32x32px, radius 8px, horizontal layout, padding 2 2 2 2px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #32302F0D
+- icon in circle: size 42x42px, radius 24px, horizontal layout, padding 8 8 8 8px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #D5E1EA
+- icon with notification: size 20x20px
+- accordion: size 358x56px, radius 16px, horizontal layout, padding 16 20 16 20px, gap 143px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [H3] | variants: size: large/small; open: false/true
+- badge: size 78x28px, radius 16px, horizontal layout, padding 6 12 6 12px, gap 4px, align min/center, sizing W:fixed H:fixed, fill #32302F14, text [H5] | variants: size: large/small; type: info/negative/neutral/positive
+- button: size 358x60px, radius 32px, horizontal layout, padding 12 24 12 24px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #32302F, text [button/large] | variants: button: primary/secondary/teritary/warning; size: icon large/icon small/large/medium/small; state: active/disabled
+- link/active: size 94x19px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [H4]
+- bottom nav: size 390x86px, horizontal layout, padding 16 64 44 64px, gap 58px, align space_between/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke #32302F14 1px | variants: tab: activity/home/move/search
+- bottom sheet footer: size 390x108px, vertical layout, padding 16 16 32 16px, gap 8px, sizing W:fixed H:fixed, fill #FCFCFC, stroke #E4E2E1 1px, text [button/large] | variants: buttons: 1/1 + link/2
+- bottom sheet header: size 390x56px, radius 16/16/0/0px, horizontal layout, padding 18 16 18 16px, gap 101px, align space_between/center, sizing W:fixed H:fixed, fill #FCFCFC, stroke #E4E2E1 1px, text [H4] | variants: size: large/small
+- carousel dot: size 6x6px, fill #FFFFFF | variants: Property 1: Ellipse 2/Ellipse 5
+- checkbox: size 20x20px | variants: checked: false/true
+- wealthsimple app card: size 354x175px, radius 16px, vertical layout, padding 16 16 16 16px, gap 12px, align space_between/max, sizing W:fixed H:fixed, fill gradient_linear(#E9E3DE 0% | #F7F6F2 100%), stroke #E4E2E1 1px, effect card-shadow, text [$/med, H3, OPTIFuturaDemiBold OPTIFuturaDemiBold, 12px]
+- virtual card: size 352x217px, radius 12px, vertical layout, padding 16 16 16 16px, gap 91px, sizing W:fixed H:fixed, fill #000000, stroke #E4E2E1 1px, text [Open Sans SemiBold, 16px, Open Sans SemiBold, 10px]
+- divider: size 880x0px, fill #FFFFFF
+- horizontal bar: size 131x32px, fill #FFFFFF | variants: position: left/middle/right
+- legend dot: size 12x12px, fill #FFFFFF
+- hide $: size 164x46px, fill #FFFFFF, text [$/x-large] | variants: size: large/med/small/x-large/x-small; hide: false/true
+- field: size 357x60px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [body/med, H3, H5] | variants: state: active/default/disabled/empty/error
+- modal footer: size 358x92px, radius 0/0/32/32px, vertical layout, padding 16 16 16 16px, gap 8px, sizing W:fixed H:fixed, fill #FCFCFC, text [button/large] | variants: buttons: 1/1 + link/2
+- modal header: size 358x58px, radius 32/32/0/0px, horizontal layout, padding 18 16 8 16px, gap 16px, sizing W:fixed H:fixed, fill #FCFCFC, text [OPTIFuturaDemiBold OPTIFuturaDemiBold, 20px]
+- status dot: size 8x8px, fill #FFFFFF | variants: colour: black/blue/green/red
+- notification container: size 390x88px, horizontal layout, padding 12 24 12 16px, gap 12px, sizing W:fill H:fixed, text [body/med]
+- notification header: size 160x15px, horizontal layout, padding 0 16 0 16px, gap 8px, align center/center, sizing W:fill H:fixed, text [H6]
+- pill: size 87x31px, radius 16px, horizontal layout, padding 6 16 6 16px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #32302F, text [OPTIFuturaDemiBold OPTIFuturaDemiBold, 14px] | variants: selected: false/true
+- radio: size 22x22px, fill #FFFFFF | variants: radio: false/true
+- search: size 358x60px, radius 16px, horizontal layout, padding 20 14 20 18px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E4E2E1 1px, text [OPTIFuturaDemiBold OPTIFuturaDemiBold, 16px] | variants: state: default/empty/focus
+- section header: size 390x102px, horizontal layout, padding 62 18 16 18px, gap 111px, align space_between/center, sizing W:fixed H:fixed, text [H3]
+- segment control: size 169x41px, radius 24px, horizontal layout, padding 10 8 10 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [OPTIFuturaDemiBold OPTIFuturaDemiBold, 16px] | variants: selected: false/true; size: large/small
+- switch: size 56x30px, radius 16px, horizontal layout, padding 4 4 4 4px, gap 8px, align max/center, sizing W:fill H:fixed, fill #62A215 | variants: switch: false/true
+- toast: size 80x44px, radius 16px, horizontal layout, padding 12 16 12 16px, gap 9px, align min/center, sizing W:fixed H:fixed, fill #DDE9F1, text [Futura Book, 14px]
+- tab: size 27x35px, vertical layout, padding 0 0 0 0px, gap 11px, sizing W:fixed H:fixed, text [H3] | variants: selected: false/true
+- text box: size 357x145px, vertical layout, padding 0 0 0 0px, gap 6px, sizing W:fixed H:fixed, text [body/med, H3, H5] | variants: state: default/empty/focus
+
+## Most-Used Styles
+- H3: 52 uses
+- body/med: 49 uses
+- H4: 29 uses
+- card-shadow: 22 uses
+- H5: 18 uses
+- button/med: 18 uses
+- $/small: 15 uses
+- button/large: 13 uses
+- H6: 12 uses
+- $/med: 11 uses
+- $/large: 10 uses
+- body/small: 9 uses
+- body/x-small: 8 uses
+- H7: 7 uses
+- button/small: 7 uses
+- $/x-large: 4 uses
+- item-shadow-light: 4 uses
+- $/x-small: 3 uses
+- body/large: 3 uses
+- H1: 2 uses
+- H2: 1 use
+- link: 1 use
+
+## Layout & Structure
+Screen: Thumbnail / thumbnail
+- FRAME "thumbnail", 1920x1080px, constraints left/top, fill gradient_linear(#E9E3DE 0% | #F7F6F2 100%)
+  - RECTANGLE "Rectangle 1", 1920x1080px, constraints left/top, fill gradient_linear(#463B33 0% | #32302F 100%)
+  - GROUP "light", 1727x1081px, constraints left/top
+    - VECTOR "Vector 2", 1727x1081px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Rectangle 1", 1920x1080px, constraints left/top, fill gradient_linear(#E9E3DE 0% | #F7F6F2 100%)
+    - VECTOR "Union", 1561.24x237.16px, constraints center/top, fill #32302F
+  - RECTANGLE "light mockup", 542x712px, constraints left/top, radius 24px, fill image(hash: 462e7118802c59a520afbf4e885afdaab6227c26)
+  - BOOLEAN_OPERATION "dark mockup", 731.07x713.86px, constraints left/top, fill image(hash: 21e5b13397a6f45fba551ed880a118d2dc5ce2b2)
+  - VECTOR "dark logo", 339.74x236.12px, constraints left/top, fill #FCFCFC
+  - TEXT "2025", 114x61px, constraints left/top, fill #32302F, text [Futura Heavy, 48px], [heading]
+  - TEXT "Design system / UI kit", 477x61px, constraints left/top, fill #32302F, text [Futura Heavy, 48px], [heading]
+  - TEXT "with light + dark mode!", 513x61px, constraints left/top, fill #32302F, text [Futura Heavy, 48px], [heading]
+  - RECTANGLE "img 04", 484x484px, constraints left/top, fill image(hash: b1bb6f696b557c256839a9acfc8b0cd94eb6655c)
+  - RECTANGLE "img 16", 732x801px, constraints left/top, fill image(hash: 9255d54733c11f28851f3eab8e9a092c189ddac9)
+
+Screen: Read me 🥸 / hello hi ❤️
+- FRAME "hello hi ❤️", 720x420px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - FRAME "about", 720x420px, vertical pad 24 24 24 24px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill gradient_linear(#32302F 0% | #32302F00 100%)
+    - FRAME "container", 672x372px, vertical pad 24 24 24 24px gap 40px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF40, stroke gradient_linear(#FFFFFF 0% | #FFFFFF00 100%) 2px
+      - FRAME "another container", 624x262px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - FRAME "portrait", 64x64px, constraints left/top, radius 48px, stroke #FFFFFF80 7px
+          - RECTANGLE "rounded avatar 1", 80x80px, constraints left/top, fill image(hash: 656174b2036e854013e2855aaa0a92f5a585f4e8)
+        - FRAME "hello!", 536x262px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Hello! I’m Christina :) I'm a product designer based on Toro", 536x176px, constraints left/top, fill #232020, text [Inter Regular, 16px]
+          - TEXT "Feel free to share this with your community / friends / slac", 536x38px, constraints left/top, fill #232020, text [Gabarito Regular, 16px]
+      - FRAME "fint print", 592x22px, horizontal pad 0 0 0 0px gap 60px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Last updated on Sept 2025", 142x22px, constraints left/top, fill #232020, text [Gabarito Regular, 12px]
+        - TEXT "This is for educational purposes only", 195x22px, constraints left/top, fill #23202080, text [Gabarito Regular, 12px]
+
+Screen: LIGHT + DARK MODE! 🌗 / dark mode
+- FRAME "dark mode", 1280x2973px, vertical pad 0 200 200 200px gap 70px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 880x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "How to toggle between light + dark mode", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - TEXT "Description", 880x88px, constraints left/top, fill #000000, text [Circular Std Bold, 16px]
+  - FRAME "step", 880x239px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Description", 880x44px, constraints left/top, fill #000000, text [Circular Std Book, 16px]
+    - FRAME "img", 287x171px, constraints left/top, radius 24px
+      - RECTANGLE "img", 287x171px, constraints left/top, fill image(hash: 5f251d5ded9c34040dc00e247a0674fdeca2a1d4)
+  - FRAME "step", 880x236px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Description", 880x22px, constraints left/top, fill #000000, text [Circular Std Book, 16px]
+    - FRAME "img", 438x190px, constraints left/top, radius 24px
+      - RECTANGLE "img", 438x190px, constraints left/top, fill image(hash: 4e17f8d13c2818f37cda3f2bf55d12922efc87ae)
+  - FRAME "step", 880x999px, vertical pad 32 32 32 32px gap 40px align min/center sizing W:fill H:fixed, constraints left/top, radius 32px, fill #D7E4D6
+    - TEXT "Description", 816x51px, constraints left/top, fill #000000, text [Circular Std Bold, 40px], [heading]
+    - FRAME "mobile notifications", 390x844px, constraints left/top, fill gradient_linear(#E4E2E1 0% | #FCFCFC 20%)
+      - FRAME "section header", 390x106px, horizontal pad 62 18 16 18px gap 111px align space_between/center sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "icons", 24x24px, constraints left/top
+          - VECTOR "Vector", 17.28x19.2px, constraints center/scale, fill #32302F
+        - FRAME "Frame 90", 64x24px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "icons", 24x24px, constraints left/top
+            - VECTOR "Vector", 16.8x18.54px, constraints scale/center, fill #32302F
+          - INSTANCE "icons", 24x24px, constraints left/top
+            - VECTOR "Vector", 15.36x19.2px, constraints center/scale, fill #32302F
+        - FRAME "Frame 5", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/top
+          - ELLIPSE "Ellipse 8", 10x10px, constraints left/top, fill #32302F0D
+          - INSTANCE "badge", 78x28px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #32302F0D
+            - TEXT "text", 34x16px, constraints left/top, fill #32302F, text [H5], [heading]
+          - ELLIPSE "Ellipse 7", 10x10px, constraints left/top, fill #32302F0D
+      - FRAME "container", 390x737px, vertical pad 40 16 16 16px gap 36px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 91", 182x46px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$50,000", 142x46px, constraints left/top, fill #32302F, text [$/x-large], [heading]
+          - INSTANCE "button", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+            - INSTANCE "icons", 16x16px, constraints left/top
+        - FRAME "Frame 101", 358x377px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 95", 358x115px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 93", 175x115px, vertical pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 16px, fill #FFFFFF, effect card-shadow
+            - FRAME "Frame 94", 175x115px, vertical pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 16px, fill #FFFFFF, effect card-shadow
+          - FRAME "Container", 358x156px, vertical pad 20 20 20 20px gap 16px sizing W:fill H:fixed, constraints left/top, radius 16px, fill #A4D9E1
+            - FRAME "Content", 318x69px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "button", 75x30px, horizontal pad 5 18 5 18px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F
+            - RECTANGLE "img", 128x75px, constraints left/bottom, fill image(hash: d06a851e99c280062b0bf1b5988898fce7dc86ae)
+          - FRAME "card", 355x74px, horizontal pad 12 16 12 16px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #32302F0D
+            - FRAME "stock stack", 72x32px, horizontal pad 0 0 0 0px gap -12px sizing W:fixed H:fixed, constraints left/top [decorative, ~9 shapes]
+            - TEXT "title", 227x19px, constraints left/top, fill #32302F, text [H4], [heading]
+            - INSTANCE "icons", 16x16px, constraints left/top
+        - FRAME "Frame 102", 358x186px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 103", 358x32px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "accounts", 67x15px, constraints left/top, fill #615E5C, text [H6], [heading]
+            - INSTANCE "button", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+          - FRAME "card", 358x69px, horizontal pad 12 16 12 16px gap 4px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FFFFFF, effect card-shadow
+            - FRAME "Account Info", 61x45px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Balance Info", 108x43px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "card", 358x69px, horizontal pad 12 16 12 16px gap 4px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FFFFFF, effect card-shadow
+            - FRAME "Account Info", 61x45px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Balance Info", 108x43px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Home bar/Pro", 393x34px, constraints scale/bottom, fill #FFFFFF
+        - INSTANCE "bottom nav", 390x86px, horizontal pad 16 64 44 64px gap 58px align space_between/min sizing W:fixed H:fixed, constraints left/bottom, fill #FFFFFF, stroke #32302F14 1px
+          - INSTANCE "icons", 26x26px, constraints left/top
+            - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #32302F
+          - INSTANCE "icons", 26x26px, constraints left/top
+            - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+          - INSTANCE "icons", 26x26px, constraints left/top
+            - VECTOR "Union", 19.1x20.8px, constraints center/scale, fill #A9A6A4
+          - INSTANCE "icons", 26x26px, constraints left/top
+            - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+        - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill #000000
+      - FRAME "Status Bar/Pro", 390x59px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Status/Pro", 78.33x13.67px, horizontal pad 0 0 0 0px gap 7.33px align min/center sizing W:fixed H:fixed, constraints right/center
+          - VECTOR "Cellular", 19.33x12.33px, constraints scale/scale, fill #000000
+          - VECTOR "Wifi", 17x12.33px, constraints scale/scale, fill #000000
+          - INSTANCE "Battery/Percentage", 27.33x13.67px, constraints left/top
+            - RECTANGLE "percent", 10.33x9px, constraints left/center, radius 2.67px, fill #000000
+            - VECTOR "battery", 27.33x13px, constraints left/center, fill #000000
+        - TEXT "Time", 54x20px, constraints left/center, fill #000000, text [SF Pro Text Bold, 17px]
+  - FRAME "step", 880x753px, vertical pad 23 32 23 32px gap 24px sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke #D1D1D1 1px
+    - TEXT "Description", 816x40px, constraints left/top, fill #000000, text [Circular Std Book, 32px], [heading]
+    - TEXT "Description", 816x66px, constraints left/top, fill #000000, text [Circular Std Book, 16px]
+    - FRAME "Frame 106", 480x463px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 104", 228x463px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Description", 228x25px, constraints left/top, fill #000000, text [Circular Std Medium, 20px]
+        - RECTANGLE "img", 228x422px, constraints left/top, fill image(hash: db96eb1051c617d473d612dfeffbc75f1edabb68)
+      - FRAME "Frame 105", 228x459px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Description", 228x25px, constraints left/top, fill #000000, text [Circular Std Medium, 20px]
+        - RECTANGLE "img", 223x418px, constraints left/top, fill image(hash: 86cc36241fb38b0477037bdaed2ccb701a29b428)
+    - TEXT "Description", 816x66px, constraints left/top, fill #000000, text [Circular Std Book, 16px]
+
+Screen:     ↪️  Colours / colours
+- FRAME "colours", 1280x4614px, vertical pad 0 200 200 200px gap 70px align min/max sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 880x204px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Colours", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+    - TEXT "Description", 770x88px, constraints left/top, fill #F5F7F9, text [Circular Std Book, 16px]
+  - FRAME "container", 880x4140px, vertical pad 0 0 0 0px gap 100px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #181716
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "Black", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #32302F
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "dune", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #615E5C
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "Dark grey", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #94908D
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "grey", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #A9A6A4
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "dark silver", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #BFBEBE
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "silver", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #E4E2E1
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "platinum", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FCFCFC, stroke #EBEBEB 1px
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "white smoke", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #EBEBEB 1px
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "white", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #411E1A
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "800", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #60241C
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "700", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #8F2E1F
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "600", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #BF3722
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "500", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F76B5A
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "400", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F89789
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "300", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F9B4A9
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "200", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FBE4DE
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "100", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #463B33
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "800", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #763D16
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "700", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #BB6E3D
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "600", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #E29C57
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "500", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F9A471
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "400", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FCEEE5
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "300", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #E9E3DE
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "200", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F7F6F2
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "100", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #243519
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "800", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #364D27
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "700", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #486635
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "600", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #5C8145
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "500", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #7B9B54
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "400", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #99B56E
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "300", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #B3D088
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "200", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #D5EAB8
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "100", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #39492C
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "800", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #426120
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "700", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #4C7A15
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "600", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #62A215
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "500", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #97C75C
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "400", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #ACD37D
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "300", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #CCE5AD
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "200", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #EBF8DE
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "100", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #24333D
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "800", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #104B71
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "700", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #196EA4
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "600", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #1E94DC
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "500", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #4BA9E3
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "400", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #78BFEA
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "300", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #A5D4F1
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "200", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #DDE9F1
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "100", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #3C2A3F
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "800", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #573E5B
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "700", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #735378
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "600", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #916A96
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "500", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #AC82B2
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "400", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #C0A1C5
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "300", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #D0B9D3
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "200", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #DCCADE
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "100", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #51606C
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "800", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #677987
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "700", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #7D94A4
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "600", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #95AFC2
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "500", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #A5BDCE
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "400", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #B4CADA
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "300", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #C7D7E3
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "200", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #D5E1EA
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "100", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #3B232E
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "800", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #522D41
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "700", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #730046
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "600", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #965876
+          - TEXT "hex", 136x13px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 10px]
+          - TEXT "500", 136x16px, constraints left/top, fill #FFFFFF, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #B27291
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "400", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #E495CB
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "300", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #ECB7DC
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "200", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F4D9ED
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "100", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+    - FRAME "palette", 880x324px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 580x32px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - FRAME "colours", 880x276px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #32302F14
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "Dune 8%", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #32302F0D
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "Dune 5%", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #32302F08
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "Dune 3%", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FCFCFC1F, stroke #EBEBEB 1px
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "White smoke 12%", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FCFCFC0D, stroke #EBEBEB 1px
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "White smoke 5%", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+        - FRAME "colour", 160x128px, vertical pad 12 12 12 12px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FCFCFC08, stroke #EBEBEB 1px
+          - TEXT "hex", 136x13px, constraints left/top, fill #000000, text [Circular Std Medium, 10px]
+          - TEXT "White smoke 3%", 136x16px, constraints left/top, fill #000000, text [Circular Std Medium, 12px]
+
+Screen:     ↪️  Typography / typography
+- FRAME "typography", 1280x2612px, vertical pad 0 200 200 200px gap 70px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 880x226px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Typography", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+    - TEXT "Description", 770x110px, constraints left/top, fill #F5F7F9, text [Circular Std Book, 16px]
+  - FRAME "container", 880x2116px, vertical pad 0 0 0 0px gap 72px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 468x29px, constraints left/top, fill #000000, text [H1], [heading]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 398x27px, constraints left/top, fill #000000, text [H2], [heading]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 331x21px, constraints left/top, fill #000000, text [H3], [heading]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 292x19px, constraints left/top, fill #000000, text [H4], [heading]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 254x16px, constraints left/top, fill #000000, text [H5], [heading]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 326x15px, constraints left/top, fill #000000, text [H6], [heading]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 215x13px, constraints left/top, fill #000000, text [H7]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 349x24px, constraints left/top, fill #000000, text [button/large]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 310x21px, constraints left/top, fill #000000, text [button/med]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 310x20px, constraints left/top, fill #000000, text [button/small]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 303x26px, constraints left/top, fill #000000, text [body/large]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 275x20px, constraints left/top, fill #000000, text [body/med]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 236x20px, constraints left/top, fill #000000, text [body/small]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 217x16px, constraints left/top, fill #000000, text [body/x-small]
+    - FRAME "container", 880x54px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x54px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 246x16px, constraints left/top, fill #000000, text [link]
+    - FRAME "container", 880x46px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 164x46px, constraints left/top, fill #000000, text [$/x-large], [heading]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 94x25px, constraints left/top, fill #000000, text [$/large]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 73x20px, constraints left/top, fill #000000, text [$/med]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 65x18px, constraints left/top, fill #000000, text [$/small]
+    - FRAME "container", 880x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 120x36px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 47x10px, constraints left/top, fill #000000, text [$/x-small]
+
+Screen:     ↪️  Icons / icons
+- FRAME "icons", 1280x2144px, vertical pad 0 200 200 200px gap 70px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 880x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Icons", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - COMPONENT_SET "icons", 880x228px, horizontal pad 16 16 16 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, radius 5px
+    - COMPONENT "icon=plus", 20x20px, constraints left/top
+      - VECTOR "Vector", 12x12px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=minus", 20x20px, constraints left/top
+      - VECTOR "Vector", 12x1.5px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=arrow left", 20x20px, constraints left/top
+      - VECTOR "icon", 16x16px, constraints center/center, fill #000000
+    - COMPONENT "icon=arrow right", 20x20px, constraints left/top
+      - VECTOR "icon", 16x16px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=arrow up", 20x20px, constraints left/top
+      - VECTOR "icon", 16x16px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=arrow down", 20x20px, constraints left/top
+      - VECTOR "icon", 16x16px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=close", 20x20px, constraints left/top
+      - VECTOR "icon", 14x14px, constraints center/scale, fill #000000
+    - COMPONENT "icon=chevron up", 20x20px, constraints left/top
+      - VECTOR "Vector", 15.85x8.86px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=chevron down", 20x20px, constraints left/top
+      - VECTOR "Vector", 15.85x8.86px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=chevron right", 20x20px, constraints left/top
+      - VECTOR "Vector", 8.86x15.85px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=chevron left", 20x20px, constraints left/top
+      - VECTOR "Vector", 8.86x15.85px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=eye open", 20x20px, constraints left/top
+      - VECTOR "Vector", 20x13.75px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=eye closed", 20x20px, constraints left/top
+      - VECTOR "Vector", 19.98x18.34px, constraints scale/scale, fill #000000
+    - COMPONENT "icon=home", 20x20px, constraints left/top
+      - VECTOR "Union", 16x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=search", 20x20px, constraints left/top
+      - VECTOR "Union", 16x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=move", 20x20px, constraints left/top
+      - VECTOR "Union", 14.69x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=clock", 20x20px, constraints left/top
+      - VECTOR "Union", 16x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=thumbs up", 20x20px, constraints left/top
+      - VECTOR "Vector", 15.9x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=thumbs down", 20x20px, constraints left/top
+      - VECTOR "Vector", 15.9x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=checkmark filled", 20x20px, constraints left/top
+      - VECTOR "Vector", 16x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=dollar sign", 20x20px, constraints left/top
+      - VECTOR "Union", 16x16px, constraints scale/center, fill #000000
+      - VECTOR "Union", 16x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=file", 20x20px, constraints left/top
+      - VECTOR "Vector", 14x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=edit", 20x20px, constraints left/top
+      - VECTOR "Vector", 16x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=bell off", 20x20px, constraints left/top
+      - VECTOR "Vector", 14x16px, constraints center/scale, fill #000000
+    - COMPONENT "icon=bell on", 20x20px, constraints left/top
+      - VECTOR "Vector", 14x16px, constraints center/scale, fill #000000
+    - ... +52 more children
+  - FRAME "Frame 89", 142x62px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 142x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+    - COMPONENT "icon with notification", 20x20px, constraints left/top
+      - INSTANCE "icons", 20x20px, constraints left/top
+        - VECTOR "Vector", 14x16px, constraints scale/center, fill #32302F
+      - INSTANCE "status dot", 8x8px, constraints right/top, fill #FFFFFF
+        - ELLIPSE "notification", 8x8px, constraints scale/scale, fill #BF3722, stroke #FCFCFC 2px
+  - FRAME "Frame 90", 69x84px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 69x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+    - COMPONENT "icon in circle", 42x42px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #D5E1EA
+      - INSTANCE "icons", 26x26px, constraints left/top
+        - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #51606C
+  - FRAME "Frame 93", 292x82px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 85x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+    - FRAME "Frame 110", 292x40px, horizontal pad 0 0 0 0px gap 23px align max/min sizing W:fixed H:fixed, constraints left/top [decorative, ~10 shapes]
+  - FRAME "Frame 92", 75x74px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 75x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+    - COMPONENT "icon in square", 32x32px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #32302F0D
+      - INSTANCE "icons", 18x18px, constraints left/top
+        - VECTOR "icon", 14.4x14.4px, constraints scale/scale, fill #32302F
+  - FRAME "Frame 91", 589x886px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 65x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+    - FRAME "Frame 108", 589x844px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "example", 390x844px, constraints left/top, fill #FCFCFC
+        - INSTANCE "section header", 390x102px, horizontal pad 62 18 16 18px gap 111px align space_between/center sizing W:fixed H:fixed, constraints center/top
+          - INSTANCE "icons", 20x20px, constraints left/top
+            - VECTOR "icon", 16x16px, constraints center/center, fill #32302F
+          - TEXT "middle top header", 334x21px, constraints left/top, fill #32302F, text [H3], [heading]
+        - FRAME "container", 390x597px, vertical pad 0 16 0 16px gap 16px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Frame 97", 358x421px, vertical pad 26 24 26 24px gap 22px sizing W:fill H:fixed, constraints left/top, radius 16px, fill #FFFFFF, stroke #32302F 1px, effect card-shadow
+            - FRAME "Frame 96", 293x49px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 91", 202x42px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 92", 149x42px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 93", 244x42px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 94", 197x42px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 95", 219x42px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 98", 358x72px, horizontal pad 26 24 26 24px gap 24px align space_between/min sizing W:fill H:fixed, constraints left/top, radius 16px, fill #FFFFFF, stroke #E4E2E1 1px, effect card-shadow
+            - TEXT "Timeline", 54x19px, constraints left/top, fill #32302F, text [H4], [heading]
+            - TEXT "Choose timeline", 97x20px, constraints left/top, fill #615E5C, text [body/med]
+          - FRAME "Frame 99", 358x72px, horizontal pad 26 24 26 24px gap 24px align space_between/min sizing W:fill H:fixed, constraints left/top, radius 16px, fill #FFFFFF, stroke #E4E2E1 1px, effect card-shadow
+            - TEXT "Risk", 26x19px, constraints left/top, fill #32302F, text [H4], [heading]
+            - TEXT "Choose risk", 71x20px, constraints left/top, fill #615E5C, text [body/med]
+        - INSTANCE "bottom sheet footer", 390x386px, vertical pad 16 16 32 16px gap 8px sizing W:fixed H:fixed, constraints left/bottom, fill #FCFCFC, stroke #E4E2E1 1px
+          - INSTANCE "button", 358x60px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F
+            - TEXT "Large", 141x24px, constraints left/top, fill #FCFCFC, text [button/large]
+        - FRAME "Home bar/Pro", 393x34px, constraints scale/bottom, fill #FFFFFF
+          - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill #000000
+        - FRAME "Status Bar/Pro", 390x59px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Status/Pro", 78.33x13.67px, horizontal pad 0 0 0 0px gap 7.33px align min/center sizing W:fixed H:fixed, constraints right/center
+            - VECTOR "Cellular", 19.33x12.33px, constraints scale/scale, fill #000000
+            - VECTOR "Wifi", 17x12.33px, constraints scale/scale, fill #000000
+            - INSTANCE "Battery/Percentage", 27.33x13.67px, constraints left/top
+          - TEXT "Time", 54x20px, constraints left/center, fill #000000, text [SF Pro Text Bold, 17px]
+      - FRAME "Frame 107", 175x96px, vertical pad 16 16 16 16px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect card-shadow
+        - INSTANCE "icon in square", 32x32px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #E3ECF8
+          - INSTANCE "icons", 18x18px, constraints left/top
+            - VECTOR "Vector", 10.8x10.8px, constraints scale/scale, fill #1C56B0
+        - TEXT "Add money", 143x19px, constraints left/top, fill #32302F, text [H4], [heading]
+
+Screen:     ↪️  Illustrations / illustrations
+- FRAME "illustrations", 1276x2071.53px, vertical pad 0 200 200 200px gap 70px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 876x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fill H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Illustrations", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - FRAME "container", 876x1693.53px, horizontal pad 0 0 0 0px gap 72px align min/center sizing W:fill H:fixed, constraints left/top [decorative, ~32 shapes]
+
+Screen:     ↪️  Radius / radius
+- FRAME "radius", 1280x798px, vertical pad 0 200 200 200px gap 70px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 880x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Radius", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - FRAME "container", 880x420px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 200x200px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "2px", 47x32px, constraints left/top, fill #000000, text [Circular Std Bold, 28px], [heading]
+    - FRAME "container", 200x200px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "4px", 49x32px, constraints left/top, fill #000000, text [Circular Std Bold, 28px], [heading]
+    - FRAME "container", 200x200px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "8px", 48x32px, constraints left/top, fill #000000, text [Circular Std Bold, 28px], [heading]
+    - FRAME "container", 200x200px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "12px", 59x32px, constraints left/top, fill #000000, text [Circular Std Bold, 28px], [heading]
+    - FRAME "container", 200x200px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "16px", 60x32px, constraints left/top, fill #000000, text [Circular Std Bold, 28px], [heading]
+    - FRAME "container", 200x200px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "24px", 64x32px, constraints left/top, fill #000000, text [Circular Std Bold, 28px], [heading]
+    - FRAME "container", 200x200px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "32px", 63x32px, constraints left/top, fill #000000, text [Circular Std Bold, 28px], [heading]
+
+Screen:     ↪️  Avatar / avatar
+- FRAME "avatar", 1276x453px, vertical pad 0 200 200 200px gap 53px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F4F4F4, effect [drop_shadow 40px offset 0 4 #0000000A]
+  - FRAME "header", 876x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fill H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Avatar", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - FRAME "Frame 1", 876x92px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - FRAME "type", 80x92px, vertical pad 8 0 8 0px gap 40px align center/min sizing W:fixed H:fixed, constraints left/top
+      - TEXT "title", 80x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 80x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+    - FRAME "Frame 2", 72x88px, vertical pad 0 0 0 0px gap 24px align center/min sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+
+Screen:     ↪️  Accordions / accordion
+- FRAME "accordion", 1328x1083px, vertical pad 0 200 200 200px gap 53px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F4F4F4, effect [drop_shadow 40px offset 0 4 #0000000A]
+  - FRAME "header", 928x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fill H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Accordion", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - FRAME "container", 928x722px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "type", 701x18px, horizontal pad 0 101 0 101px gap 333px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "title", 83x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 83x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+    - FRAME "Frame 1", 928x378px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "type", 80x292px, vertical pad 22 0 22 0px gap 212px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "title", 80x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+        - TEXT "title", 80x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - COMPONENT_SET "accordion", 824x378px, constraints left/top, radius 5px
+        - COMPONENT "size=large, open=false", 358x56px, horizontal pad 16 20 16 20px gap 143px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FFFFFF
+          - TEXT "title", 294x21px, constraints left/top, fill #32302F, text [H3], [heading]
+          - INSTANCE "button", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+            - INSTANCE "icons", 12x12px, constraints left/top
+        - COMPONENT "size=large, open=true", 358x164px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "header", 358x56px, horizontal pad 16 20 16 20px gap 143px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 16/16/0/0px, fill #FFFFFF, stroke #E4E2E1 1px
+            - TEXT "title", 294x21px, constraints left/top, fill #32302F, text [H3], [heading]
+            - INSTANCE "button", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+          - FRAME "body", 358x108px, horizontal pad 16 20 32 20px gap 143px align space_between/min sizing W:fill H:fixed, constraints left/top, radius 0/0/16/16px, fill #FFFFFF
+            - TEXT "paragraph small", 318x60px, constraints left/top, fill #615E5C, text [body/med]
+        - COMPONENT "size=small, open=false", 390x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "title", 326x19px, constraints left/top, fill #32302F, text [H4], [heading]
+          - INSTANCE "button", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+            - INSTANCE "icons", 12x12px, constraints left/top
+        - COMPONENT "size=small, open=true", 390x132px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "header", 390x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "title", 326x19px, constraints left/top, fill #32302F, text [H4], [heading]
+            - INSTANCE "button", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+          - FRAME "body", 390x76px, horizontal pad 0 16 16 16px gap 143px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "paragraph small", 358x60px, constraints left/top, fill #32302F, text [body/med]
+    - FRAME "example", 928x278px, constraints left/top
+      - TEXT "title", 74x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+      - FRAME "Frame 10", 358x236px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "accordion", 358x56px, horizontal pad 16 20 16 20px gap 143px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FFFFFF
+          - TEXT "title", 294x21px, constraints left/top, fill #32302F, text [H3], [heading]
+          - INSTANCE "button", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+            - INSTANCE "icons", 12x12px, constraints left/top
+        - INSTANCE "accordion", 358x164px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "header", 358x56px, horizontal pad 16 20 16 20px gap 143px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 16/16/0/0px, fill #FFFFFF, stroke #E4E2E1 1px
+            - TEXT "title", 294x21px, constraints left/top, fill #32302F, text [H3], [heading]
+            - INSTANCE "button", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+          - FRAME "body", 358x108px, horizontal pad 16 20 32 20px gap 143px align space_between/min sizing W:fill H:fixed, constraints left/top, radius 0/0/16/16px, fill #FFFFFF
+            - TEXT "paragraph small", 318x60px, constraints left/top, fill #615E5C, text [body/med]
+      - FRAME "Frame 11", 390x244px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "accordion", 390x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "title", 326x19px, constraints left/top, fill #32302F, text [H4], [heading]
+          - INSTANCE "button", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+            - INSTANCE "icons", 12x12px, constraints left/top
+        - INSTANCE "divider", 390x0px, constraints left/top, fill #FFFFFF
+          - VECTOR "divider", 390x0px, constraints scale/scale, stroke #E4E2E1 1px
+        - INSTANCE "accordion", 390x132px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "header", 390x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "title", 326x19px, constraints left/top, fill #32302F, text [H4], [heading]
+            - INSTANCE "button", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+          - FRAME "body", 390x76px, horizontal pad 0 16 16 16px gap 143px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "paragraph small", 358x60px, constraints left/top, fill #32302F, text [body/med]
+        - INSTANCE "divider", 390x0px, constraints left/top, fill #FFFFFF
+          - VECTOR "divider", 390x0px, constraints scale/scale, stroke #E4E2E1 1px
+        - INSTANCE "accordion", 390x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "title", 326x19px, constraints left/top, fill #32302F, text [H4], [heading]
+          - INSTANCE "button", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+            - INSTANCE "icons", 12x12px, constraints left/top
+
+Screen:     ↪️  Badge / badges
+- FRAME "badges", 1280x720px, vertical pad 0 200 200 200px gap 53px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000A]
+  - FRAME "header", 880x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Badges", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - FRAME "container", 880x116px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - FRAME "type", 606x18px, horizontal pad 0 101 0 101px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "title", 83x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 83x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 83x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 83x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+    - FRAME "Frame 1", 880x74px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "type", 80x60px, vertical pad 0 0 0 0px gap 24px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "title", 80x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+        - TEXT "title", 80x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - COMPONENT_SET "badge", 400x74px, constraints left/top, radius 5px
+        - COMPONENT "size=large, type=neutral", 78x28px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #32302F14
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "Vector", 13.15x7.2px, constraints center/scale, fill #32302F
+          - TEXT "text", 34x16px, constraints left/top, fill #32302F, text [H5], [heading]
+        - COMPONENT "size=large, type=info", 82x28px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #DDE9F1
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "Vector", 13.15x7.2px, constraints center/scale, fill #196EA4
+          - TEXT "text", 38x16px, constraints left/top, fill #196EA4, text [H5], [heading]
+        - COMPONENT "size=large, type=positive", 82x28px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #EBF8DE
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "Vector", 13.15x7.2px, constraints center/scale, fill #4C7A15
+          - TEXT "text", 38x16px, constraints left/top, fill #4C7A15, text [H5], [heading]
+        - COMPONENT "size=large, type=negative", 82x28px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FBE4DE
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "Vector", 13.15x7.2px, constraints center/scale, fill #BF3722
+          - TEXT "text", 38x16px, constraints left/top, fill #BF3722, text [H5], [heading]
+        - COMPONENT "size=small, type=neutral", 66x22px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #32302F14
+          - INSTANCE "icons", 14x14px, constraints left/top
+            - VECTOR "Vector", 11.5x6.3px, constraints center/scale, fill #32302F
+          - FRAME "text", 32x13px, horizontal pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 32x13px, constraints left/top, fill #32302F, text [H7]
+        - COMPONENT "size=small, type=info", 66x22px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #DDE9F1
+          - INSTANCE "icons", 14x14px, constraints left/top
+            - VECTOR "Vector", 11.5x6.3px, constraints center/scale, fill #196EA4
+          - FRAME "text", 32x13px, horizontal pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 32x13px, constraints left/top, fill #196EA4, text [H7]
+        - COMPONENT "size=small, type=positive", 66x22px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #EBF8DE
+          - INSTANCE "icons", 14x14px, constraints left/top
+            - VECTOR "Vector", 11.5x6.3px, constraints center/scale, fill #4C7A15
+          - FRAME "text", 32x13px, horizontal pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 32x13px, constraints left/top, fill #4C7A15, text [H7]
+        - COMPONENT "size=small, type=negative", 66x22px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FBE4DE
+          - INSTANCE "icons", 14x14px, constraints left/top
+            - VECTOR "Vector", 11.5x6.3px, constraints center/scale, fill #BF3722
+          - FRAME "text", 32x13px, horizontal pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 32x13px, constraints left/top, fill #BF3722, text [H7]
+  - FRAME "Frame 5", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - ELLIPSE "Ellipse 8", 10x10px, constraints left/top, fill #32302F14
+    - INSTANCE "badge", 78x28px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #32302F14
+      - TEXT "text", 34x16px, constraints left/top, fill #32302F, text [H5], [heading]
+    - ELLIPSE "Ellipse 7", 10x10px, constraints left/top, fill #32302F14
+  - FRAME "Frame 33", 96x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "badge", 78x28px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #32302F14
+      - TEXT "text", 36x16px, constraints left/top, fill #32302F, text [H5], [heading]
+    - ELLIPSE "Ellipse 8", 10x10px, constraints left/top, fill #32302F14
+    - ELLIPSE "Ellipse 7", 10x10px, constraints left/top, fill #32302F14
+  - FRAME "Frame 34", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - ELLIPSE "Ellipse 8", 10x10px, constraints left/top, fill #32302F14
+    - ELLIPSE "Ellipse 7", 10x10px, constraints left/top, fill #32302F14
+    - INSTANCE "badge", 78x28px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #32302F14
+      - TEXT "text", 34x16px, constraints left/top, fill #32302F, text [H5], [heading]
+
+Screen:     ↪️  Buttons / buttons
+- FRAME "buttons", 1287x1579px, vertical pad 0 200 200 200px gap 70px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 887x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fill H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Buttons", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - FRAME "container", 887x1070px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "type", 724x18px, horizontal pad 0 121 0 121px gap 316px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "title", 83x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 83x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+    - FRAME "Frame 1", 887x1028px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "type", 87x1012px, vertical pad 35 0 35 0px gap 224px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "title", 87x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+        - TEXT "title", 87x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+        - TEXT "title", 87x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+        - TEXT "title", 87x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - COMPONENT_SET "button", 776x1028px, constraints left/top, radius 5px
+        - COMPONENT "button=primary, size=large, state=active", 358x60px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F
+          - TEXT "Large", 47x24px, constraints left/top, fill #FCFCFC, text [button/large]
+        - COMPONENT "button=secondary, size=large, state=active", 358x60px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #E4E2E1 2px
+          - TEXT "Large", 47x24px, constraints left/top, fill #32302F, text [button/large]
+        - COMPONENT "button=teritary, size=large, state=active", 358x60px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F14
+          - TEXT "Large", 47x24px, constraints left/top, fill #615E5C, text [button/large]
+        - COMPONENT "button=teritary, size=large, state=disabled", 358x60px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F08
+          - TEXT "Large", 47x24px, constraints left/top, fill #BFBEBE, text [button/large]
+        - COMPONENT "button=primary, size=medium, state=active", 358x48px, horizontal pad 14 24 14 24px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F
+          - TEXT "Medium", 59x21px, constraints left/top, fill #FCFCFC, text [button/med]
+        - COMPONENT "button=secondary, size=medium, state=active", 358x48px, horizontal pad 14 24 14 24px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #E4E2E1 2px
+          - TEXT "Medium", 59x21px, constraints left/top, fill #32302F, text [button/med]
+        - COMPONENT "button=teritary, size=medium, state=active", 358x48px, horizontal pad 14 24 14 24px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F14
+          - TEXT "Medium", 59x21px, constraints left/top, fill #615E5C, text [button/med]
+        - COMPONENT "button=teritary, size=medium, state=disabled", 358x48px, horizontal pad 14 24 14 24px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F08
+          - TEXT "Medium", 59x21px, constraints left/top, fill #BFBEBE, text [button/med]
+        - COMPONENT "button=primary, size=medium, state=disabled", 358x48px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F08
+          - TEXT "Button", 47x21px, constraints left/top, fill #94908D, text [button/med]
+        - COMPONENT "button=secondary, size=medium, state=disabled", 358x48px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #32302F08 2px
+          - TEXT "Button", 47x21px, constraints left/top, fill #94908D, text [button/med]
+        - COMPONENT "button=primary, size=large, state=disabled", 358x60px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F08
+          - TEXT "Large", 47x24px, constraints left/top, fill #94908D, text [button/large]
+        - COMPONENT "button=secondary, size=large, state=disabled", 358x60px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #32302F08 2px
+          - TEXT "Large", 47x24px, constraints left/top, fill #94908D, text [button/large]
+        - COMPONENT "button=primary, size=icon large, state=active", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "icon", 11.2x11.2px, constraints center/scale, fill #FCFCFC
+        - COMPONENT "button=secondary, size=icon large, state=active", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke #E4E2E1 1px
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "icon", 11.2x11.2px, constraints center/scale, fill #32302F
+        - COMPONENT "button=teritary, size=icon large, state=active", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "icon", 11.2x11.2px, constraints center/scale, fill #615E5C
+        - COMPONENT "button=teritary, size=icon large, state=disabled", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F08
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "icon", 11.2x11.2px, constraints center/scale, fill #BFBEBE
+        - COMPONENT "button=primary, size=icon large, state=disabled", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F08
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "icon", 11.2x11.2px, constraints center/scale, fill #94908D
+        - COMPONENT "button=secondary, size=icon large, state=disabled", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke #32302F08 1px
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "icon", 11.2x11.2px, constraints center/scale, fill #94908D
+        - COMPONENT "button=primary, size=small, state=active", 75x30px, horizontal pad 5 18 5 18px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F
+          - TEXT "Small", 39x20px, constraints left/top, fill #FCFCFC, text [button/small]
+        - COMPONENT "button=secondary, size=small, state=active", 75x30px, horizontal pad 5 18 5 18px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #E4E2E1 2px
+          - TEXT "Small", 39x20px, constraints left/top, fill #32302F, text [button/small]
+        - COMPONENT "button=teritary, size=small, state=active", 75x30px, horizontal pad 5 18 5 18px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F14
+          - TEXT "Small", 39x20px, constraints left/top, fill #615E5C, text [button/small]
+        - COMPONENT "button=teritary, size=small, state=disabled", 75x30px, horizontal pad 5 18 5 18px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F08
+          - TEXT "Small", 39x20px, constraints left/top, fill #BFBEBE, text [button/small]
+        - COMPONENT "button=primary, size=small, state=disabled", 75x30px, horizontal pad 5 18 5 18px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F08
+          - TEXT "Small", 39x20px, constraints left/top, fill #94908D, text [button/small]
+        - COMPONENT "button=secondary, size=small, state=disabled", 75x30px, horizontal pad 5 18 5 18px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #32302F08 2px
+          - TEXT "Small", 39x20px, constraints left/top, fill #94908D, text [button/small]
+        - COMPONENT "button=primary, size=icon small, state=active", 24x24px, horizontal pad 6 6 6 6px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F
+          - INSTANCE "icons", 12x12px, constraints left/top
+            - VECTOR "Vector", 9.51x5.31px, constraints scale/scale, fill #FCFCFC
+        - ... +6 more children
+  - FRAME "Frame 27", 94x61px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 83x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+    - COMPONENT "link/active", 94x19px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "link", 76x19px, constraints left/top, fill #32302F, text [H4], [heading]
+      - INSTANCE "icons", 14x14px, constraints left/top
+        - VECTOR "icon", 11.2x11.2px, constraints scale/scale, fill #32302F
+
+Screen:     ↪️  Buttons / Ellipse 1
+- ELLIPSE "Ellipse 1", 43x43px, constraints left/top, fill #FCFCFC1F
+
+Screen:     ↪️  Bottom navigation / bottom nav
+- FRAME "bottom nav", 1280x850px, vertical pad 0 200 200 200px gap 70px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 880x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Bottom navigation", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - FRAME "container", 880x472px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "type", 65x411px, vertical pad 36 0 0 0px gap 101px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "title", 44x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 57x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 42x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+      - TEXT "title", 65x18px, constraints left/top, fill #6F8197, text [Circular Std Bold, 14px]
+    - COMPONENT_SET "bottom nav", 422x472px, vertical pad 16 16 16 16px gap 32px align center/min sizing W:fixed H:fixed, constraints left/top, radius 5px
+      - COMPONENT "tab=home", 390x86px, horizontal pad 16 64 44 64px gap 58px align space_between/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #32302F14 1px
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #32302F
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 19.1x20.8px, constraints center/scale, fill #A9A6A4
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+      - COMPONENT "tab=search", 390x86px, horizontal pad 16 64 44 64px gap 58px align space_between/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #32302F14 1px
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #32302F
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 19.1x20.8px, constraints center/scale, fill #A9A6A4
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+      - COMPONENT "tab=move", 390x86px, horizontal pad 16 64 44 64px gap 58px align space_between/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #32302F14 1px
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 19.1x20.8px, constraints center/scale, fill #32302F
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+      - COMPONENT "tab=activity", 390x86px, horizontal pad 16 64 44 64px gap 58px align space_between/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #32302F14 1px
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #A9A6A4
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 19.1x20.8px, constraints center/scale, fill #A9A6A4
+        - INSTANCE "icons", 26x26px, constraints left/top
+          - VECTOR "Union", 20.8x20.8px, constraints center/scale, fill #32302F
+
+Screen:     ↪️  Bottom sheet / bottom sheet
+- FRAME "bottom sheet", 1280x2259px, vertical pad 0 200 200 200px gap 48px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 880x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Bottom sheet", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - FRAME "container", 422x257px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 56x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+    - COMPONENT_SET "bottom sheet header", 422x215px, constraints left/top, radius 5px
+      - COMPONENT "size=small", 390x56px, horizontal pad 18 16 18 16px gap 101px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 16/16/0/0px, fill #FCFCFC, stroke #E4E2E1 1px
+        - INSTANCE "icons", 20x20px, constraints left/top
+          - VECTOR "icon", 16x16px, constraints center/center, fill #32302F
+        - TEXT "middle top header", 318x19px, constraints left/top, fill #32302F, text [H4], [heading]
+        - INSTANCE "icons", 20x20px, constraints left/top
+          - VECTOR "icon", 14x14px, constraints center/scale, fill #32302F
+      - COMPONENT "size=large", 390x68px, horizontal pad 18 16 18 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16/16/0/0px, fill #FCFCFC, stroke #E4E2E1 1px
+        - TEXT "modal header", 310x27px, constraints left/top, fill #32302F, text [OPTIFuturaDemiBold OPTIFuturaDemiBold, 20px]
+        - INSTANCE "button", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #32302F14
+          - INSTANCE "icons", 16x16px, constraints left/top
+            - VECTOR "icon", 11.2x11.2px, constraints center/scale, fill #32302F
+  - FRAME "container", 422x640px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 56x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+    - COMPONENT_SET "bottom sheet footer", 422x598px, constraints left/top, radius 5px
+      - COMPONENT "buttons = 1", 390x108px, vertical pad 16 16 32 16px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FCFCFC, stroke #E4E2E1 1px
+        - INSTANCE "button", 358x60px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F
+          - TEXT "Large", 47x24px, constraints left/top, fill #FCFCFC, text [button/large]
+      - COMPONENT "buttons = 2", 390x152px, vertical pad 16 16 32 16px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FCFCFC, stroke #E4E2E1 1px
+        - INSTANCE "button", 358x48px, horizontal pad 14 24 14 24px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F
+          - TEXT "Medium", 59x21px, constraints left/top, fill #FCFCFC, text [button/med]
+        - INSTANCE "button", 358x48px, horizontal pad 14 24 14 24px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #E4E2E1 2px
+          - TEXT "Medium", 59x21px, constraints left/top, fill #32302F, text [button/med]
+      - COMPONENT "buttons=1 + link", 390x139px, vertical pad 16 16 32 16px gap 24px sizing W:fixed H:fixed, constraints left/top, fill #FCFCFC, stroke #E4E2E1 1px
+        - INSTANCE "button", 358x48px, horizontal pad 14 24 14 24px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F
+          - TEXT "Medium", 59x21px, constraints left/top, fill #FCFCFC, text [button/med]
+        - INSTANCE "link/active", 358x19px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 76x19px, constraints left/top, fill #32302F, text [H4], [heading]
+          - INSTANCE "icons", 14x14px, constraints left/top
+            - VECTOR "icon", 11.2x11.2px, constraints scale/scale, fill #32302F
+  - FRAME "container", 65x18px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 65x18px, constraints left/top, fill #000000, text [Circular Std Bold, 14px]
+  - FRAME "mobile modal", 390x844px, constraints left/top, fill #00000040
+    - RECTANGLE "Rectangle 1", 390x844px, constraints left/top, fill #FFFFFF, opacity 50%
+    - FRAME "example", 390x468px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+      - INSTANCE "bottom sheet header", 390x56px, horizontal pad 18 16 18 16px gap 101px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 16/16/0/0px, fill #FCFCFC, stroke #E4E2E1 1px
+        - INSTANCE "icons", 20x20px, constraints left/top
+          - VECTOR "icon", 16x16px, constraints center/center, fill #32302F
+        - TEXT "middle top header", 318x19px, constraints left/top, fill #32302F, text [H4], [heading]
+        - INSTANCE "icons", 20x20px, constraints left/top
+          - VECTOR "icon", 14x14px, constraints center/scale, fill #32302F
+      - FRAME "Frame 1", 390x304px, vertical pad 16 16 16 16px gap 24px sizing W:fill H:fixed, constraints left/top, fill #FCFCFC, stroke #E4E2E1 1px
+        - FRAME "Frame 3", 358x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "avatar", 32x32px, constraints left/top
+            - ELLIPSE "Ellipse 18", 32x32px, constraints left/top, fill #D9D9D9, stroke #E4E2E1 1px
+            - GROUP "logo", 30x30px, constraints center/center
+          - TEXT "FIG", 274x21px, constraints left/top, fill #32302F, text [H3], [heading]
+          - INSTANCE "checkbox", 20x20px, constraints left/top
+            - VECTOR "Subtract", 20x20px, constraints left/top, fill #32302F
+        - INSTANCE "divider", 358x0px, constraints left/top, fill #FFFFFF
+          - VECTOR "divider", 358x0px, constraints scale/scale, stroke #E4E2E1 1px
+        - FRAME "Frame 4", 358x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "avatar", 32x32px, constraints left/top
+            - ELLIPSE "Ellipse 18", 32x32px, constraints left/top, fill #D9D9D9, stroke #E4E2E1 1px
+            - GROUP "logo", 30x30px, constraints center/center
+          - TEXT "FIG", 274x21px, constraints left/top, fill #32302F, text [H3], [heading]
+          - INSTANCE "checkbox", 20x20px, constraints left/top
+            - VECTOR "Subtract", 20x20px, constraints left/top, fill #32302F
+        - INSTANCE "divider", 358x0px, constraints left/top, fill #FFFFFF
+          - VECTOR "divider", 358x0px, constraints scale/scale, stroke #E4E2E1 1px
+        - FRAME "Frame 5", 358x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "avatar", 32x32px, constraints left/top
+            - ELLIPSE "Ellipse 18", 32x32px, constraints left/top, fill #D9D9D9, stroke #E4E2E1 1px
+            - GROUP "logo", 30x30px, constraints center/center
+          - TEXT "FIG", 274x21px, constraints left/top, fill #32302F, text [H3], [heading]
+          - INSTANCE "checkbox", 20x20px, constraints left/top
+            - VECTOR "Subtract", 20x20px, constraints left/top, fill #32302F
+        - INSTANCE "divider", 358x0px, constraints left/top, fill #FFFFFF
+          - VECTOR "divider", 358x0px, constraints scale/scale, stroke #E4E2E1 1px
+        - FRAME "Frame 6", 358x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "avatar", 32x32px, constraints left/top
+            - ELLIPSE "Ellipse 18", 32x32px, constraints left/top, fill #D9D9D9, stroke #E4E2E1 1px
+            - GROUP "logo", 30x30px, constraints center/center
+          - TEXT "FIG", 274x21px, constraints left/top, fill #32302F, text [H3], [heading]
+          - INSTANCE "checkbox", 20x20px, constraints left/top
+            - VECTOR "Subtract", 20x20px, constraints left/top, fill #32302F
+      - INSTANCE "bottom sheet footer", 390x386px, vertical pad 16 16 32 16px gap 8px sizing W:fill H:fixed, constraints left/top, fill #FCFCFC, stroke #E4E2E1 1px
+        - INSTANCE "button", 358x60px, horizontal pad 12 24 12 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #32302F
+          - TEXT "Large", 43x24px, constraints left/top, fill #FCFCFC, text [button/large]
+    - INSTANCE "Home bar/Pro", 393x34px, constraints scale/bottom, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill #000000
+    - INSTANCE "Status Bar/Pro", 390x59px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Status/Pro", 78.33x13.67px, horizontal pad 0 0 0 0px gap 7.33px align min/center sizing W:fixed H:fixed, constraints right/center
+        - VECTOR "Cellular", 19.33x12.33px, constraints scale/scale, fill #000000
+        - VECTOR "Wifi", 17x12.33px, constraints scale/scale, fill #000000
+        - INSTANCE "Battery/Percentage", 27.33x13.67px, constraints left/top
+          - RECTANGLE "percent", 10.33x9px, constraints left/center, radius 2.67px, fill #000000
+          - VECTOR "battery", 27.33x13px, constraints left/center, fill #000000
+      - TEXT "Time", 54x20px, constraints left/center, fill #000000, text [SF Pro Text Bold, 17px]
+
+Screen:     ↪️  Card / card
+- FRAME "card", 1280x2197px, vertical pad 0 200 200 200px gap 70px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, effect [drop_shadow 40px offset 0 4 #0000000D]
+  - FRAME "header", 880x108px, vertical pad 32 32 32 32px gap 8px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #252A31
+    - TEXT "Card", 812x44px, constraints left_right/top, fill #FFFFFF, text [Circular Std Bold, 40px], [heading]
+  - FRAME "card", 358x69px, horizontal pad 12 16 12 16px gap 4px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FFFFFF, effect card-shadow
+    - FRAME "Account Info", 61x45px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+      - TEXT "title", 61x21px, constraints left/top, fill #32302F, text [H3], [heading]
+      - TEXT "title", 60x20px, constraints left/top, fill #615E5C, text [body/med]
+    - FRAME "Balance Info", 108x43px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fixed, constraints left/top
+      - TEXT "$", 88x20px, constraints left/top, fill #32302F, text [$/med]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

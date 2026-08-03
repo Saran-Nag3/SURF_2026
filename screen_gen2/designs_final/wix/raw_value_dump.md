@@ -1,0 +1,1218 @@
+---
+name: web-design-wix-studio-project-community
+source_file: Web Design - Wix Studio Project (Community)
+source_page: All pages (4): Cover, Design, Asset, Typography
+generated_at: 2026-07-25T09:53:18.443803+00:00
+---
+
+# Web Design - Wix Studio Project (Community) Design Guidelines
+
+## Source
+- Figma file: Web Design - Wix Studio Project (Community)
+- Figma page: All pages (4): Cover, Design, Asset, Typography
+- Extracted at: 2026-07-25T09:53:18.443803+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Absolute/White: [#FFFFFF]
+- Stroke: [#00000099]
+- Label/Dark/Secondary: [#FFFFFF99]
+- Grey/15: [#262626]
+- Grey/20: [#262626]
+- Gradients/Light blue: [gradient_linear(#2FB8FF 0% | #9EECD9 100%)]
+- yellow: [#F2C94C]
+- orange: [#F2994A]
+- Dark Mode/Container Background: [#00000080]
+- Dark Mode/Container Border: [#00000080]
+- Grey/90: [#E6E6E6]
+- Grey/60: [#98989A]
+- Label Color/Dark/Tertiary: [#EBEBF54D]
+- Label/Dark/Secondary: [#EBEBF599]
+- Light Mode/Container Border: none
+
+## Raw Colors (unstyled)
+- #FFFFFF: 1285 uses
+- #3C98CC: 426 uses
+- #A8FFFF: 142 uses
+- #C4C4C4: 142 uses
+- #C6E3FF: 142 uses
+- #FFFFFF1F: 142 uses
+- #8EDCFC: 104 uses
+- #5DCCFC: 86 uses
+- #37C9E9: 81 uses
+- #3CE5FC: 80 uses
+- #1986CC: 71 uses
+- #C4F3FD: 54 uses
+- #FFFFFF4D: 53 uses
+- #FFFFFF80: 48 uses
+- #3CE5FC4D: 40 uses
+- #FFFFFF1A: 34 uses
+- #55C2FF4D: 32 uses
+- #0070AF: 30 uses
+- #00000087: 27 uses
+- #C8F5FF: 26 uses
+- #FFFFFF05: 20 uses
+- #01A1DE: 19 uses
+- #35B6FE1A: 19 uses
+- #FFFFFF33: 18 uses
+
+## Typography Tokens
+- Body/Regular: Inter Regular (400), 16px / 24px, tracking 0px
+- Body/Medium: Inter Medium (500), 16px / 24px, tracking 0px
+- Headings/Heading 2: Inter SemiBold (600), 50px / auto, tracking -2px
+- Headings/Heading 1: Inter SemiBold (600), 60px / auto, tracking -3px
+- Body/Body 2: Inter Regular (400), 15px / 23px, tracking 0px
+- Headings/Heading 4: Inter SemiBold (600), 30px / auto, tracking -1.2px
+- Body Large/Medium: Inter Medium (500), 18px / 27px, tracking 0px
+- Footnote/Medium: Inter Medium (500), 14px / 20px, tracking 0px
+- Footnote/Regular: Inter Regular (400), 14px / 20px, tracking 0px
+- Mobile Headings/Mobile Heading 4: Inter SemiBold (600), 24px / auto, tracking -0.96px
+- Default / Regular / Body: SF Pro Text Regular (400), 17px / 22px, tracking -0.41px
+- Default / Regular / Title3: SF Pro Display Regular (400), 20px / 24px, tracking 0.38px
+- Default / Regular / LargeTitle: SF Pro Display Regular (400), 34px / 41px, tracking 0.37px
+- Default / Bold / Title1: SF Pro Display Bold (700), 28px / auto, tracking 0.36px
+
+## Raw Typography (unstyled)
+- Inter Medium, 16px: 17 uses
+- SF Pro Bold, 15px: 12 uses
+- SF Pro Semibold, 13px: 11 uses
+- Inter Regular, 13px: 9 uses
+- Inter Medium, 5.29px: 8 uses
+- Inter Medium, 8.4px: 8 uses
+- Barlow Medium, 16px: 7 uses
+- Inter Bold, 18px: 7 uses
+- Inter Medium, 12px: 7 uses
+- Inter Medium, 24px: 6 uses
+- Inter Regular, 16px: 5 uses
+- SF Pro CompressedRegular, 22px: 5 uses
+- SF Pro Display Medium, 20px: 5 uses
+- Inter Medium, 14px: 4 uses
+- Inter Regular, 4.3px: 4 uses
+- Inter Regular, 6.82px: 4 uses
+- SF Pro Display Bold, 13.65px: 4 uses
+- Inter Regular, 12px: 3 uses
+- Inter SemiBold, 24px: 3 uses
+- Poppins Medium, 14px: 3 uses
+- Poppins Medium, 25px: 3 uses
+
+## Typography Hierarchy
+- 60px - Headings/Heading 1 (Inter SemiBold)
+- 50px - Headings/Heading 2 (Inter SemiBold)
+- 34px - Default / Regular / LargeTitle (SF Pro Display Regular)
+- 30px - Headings/Heading 4 (Inter SemiBold)
+- 28px - Default / Bold / Title1 (SF Pro Display Bold)
+- 25px - Poppins Medium, 25px (raw)
+- 24px - Inter Medium, 24px (raw)
+- 24px - Inter SemiBold, 24px (raw)
+- 24px - Mobile Headings/Mobile Heading 4 (Inter SemiBold)
+- 22px - SF Pro CompressedRegular, 22px (raw)
+- 20px - Default / Regular / Title3 (SF Pro Display Regular)
+- 20px - SF Pro Display Medium, 20px (raw)
+- 18px - Body Large/Medium (Inter Medium)
+- 18px - Inter Bold, 18px (raw)
+- 17px - Default / Regular / Body (SF Pro Text Regular)
+- 16px - Barlow Medium, 16px (raw)
+- 16px - Body/Medium (Inter Medium)
+- 16px - Body/Regular (Inter Regular)
+- 16px - Inter Medium, 16px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 15px - Body/Body 2 (Inter Regular)
+- 15px - SF Pro Bold, 15px (raw)
+- 14px - Footnote/Medium (Inter Medium)
+- 14px - Footnote/Regular (Inter Regular)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Poppins Medium, 14px (raw)
+- 13.65px - SF Pro Display Bold, 13.65px (raw)
+- 13px - Inter Regular, 13px (raw)
+- 13px - SF Pro Semibold, 13px (raw)
+- 12px - Inter Medium, 12px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 8.4px - Inter Medium, 8.4px (raw)
+- 6.82px - Inter Regular, 6.82px (raw)
+- 5.29px - Inter Medium, 5.29px (raw)
+- 4.3px - Inter Regular, 4.3px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow-Blur/sm: [background_blur 20px, drop_shadow 10px offset 0 10 #0000001A, drop_shadow 4px offset 0 4 #0000000D, drop_shadow 0px offset 0 1 #0000000D]
+- Shadow-Blur/lg: [background_blur 20px, drop_shadow 30px offset 0 15 #00000026, drop_shadow 20px offset 0 10 #0000001A, drop_shadow 6px offset 0 3 #0000001A]
+- Shadow-Blur/md: [background_blur 20px, drop_shadow 30px offset 0 15 #00000026, drop_shadow 10px offset 0 5 #0000001A, drop_shadow 4px offset 0 2 #0000001A]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Chevron Buttons
+- Card Slide Animation
+- Nav Bar
+- Water Analysis
+- Cards Hover
+- Bubbles2
+- Bubbles1
+- Illustration
+- Icons
+- Button
+- SliderContent
+
+## Component Specs
+- Chevron Buttons: size 68x68px | variants: State: Default/Hover
+- Card Slide Animation: size 977x444px, text [Body/Body 2, SF Pro Regular, 17px, Body/Regular, Headings/Heading 4, Poppins Medium, 14px, Body Large/Medium] | variants: Property 1: Default/Variant2/Variant3
+- Nav Bar: size 1440x72.94px, text [Footnote/Medium, Inter Bold, 18px] | variants: Property 1: Default/Variant2/Variant3/Variant4
+- Water Analysis: size 400x292px, text [Poppins Medium, 14px, Body Large/Medium] | variants: Property 1: Default/Variant2
+- Cards Hover (Asset): size 322x444px, text [Footnote/Regular, Headings/Heading 4] | variants: Property 1: Default/Variant2
+- Cards Hover (Asset): size 1142x436px, text [Footnote/Regular, SF Pro Regular, 17px, Headings/Heading 4, Body/Body 2] | variants: Hover: Collect/Data/Default/Reuse/Treatment
+- Bubbles2: size 1104x991px, fill #000000 | variants: Property 1: Default/Variant2
+- Bubbles1: size 1104x991px, fill #000000 | variants: Property 1: Default/Variant2
+- Illustration: size 400x292px, text [Poppins Medium, 14px, Body Large/Medium] | variants: Property 1: Ready to use/Set Up Project/Variant4
+- Icons: size 86x86px, radius 46px, horizontal layout, padding 8 8 8 8px, gap 10.73px, align min/center, sizing W:fixed H:fixed, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px | variants: Icon Type: Alert/Collect/Management/Reuse/Treatment
+- Button: size 128x40px, radius 22px, vertical layout, padding 4 20 4 20px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF66, stroke #1986CC 1px, text [Footnote/Regular, SF Pro Regular, 17px] | variants: State: Default/Hover
+- SliderContent: size 1047x427px, fill #FFFFFF, text [Body/Body 2, SF Pro Regular, 17px, Body/Regular, Headings/Heading 4, Poppins Medium, 14px, Body Large/Medium] | variants: Property 1: Default/Variant2/Variant3
+
+## Most-Used Styles
+- Footnote/Regular: 106 uses
+- Gradients/Light blue: 90 uses
+- Headings/Heading 4: 80 uses
+- Grey/90: 49 uses
+- Body/Body 2: 42 uses
+- Footnote/Medium: 42 uses
+- Shadow-Blur/sm: 36 uses
+- Body/Regular: 33 uses
+- orange: 18 uses
+- yellow: 18 uses
+- Dark Mode/Container Border: 11 uses
+- Stroke: 11 uses
+- Default / Regular / Body: 8 uses
+- Label/Dark/Secondary: 8 uses
+- Headings/Heading 2: 6 uses
+- Absolute/White: 5 uses
+- Body Large/Medium: 5 uses
+- Dark Mode/Container Background: 5 uses
+- Mobile Headings/Mobile Heading 4: 4 uses
+- Default / Regular / Title3: 3 uses
+- Grey/60: 3 uses
+- Grey/15: 2 uses
+- Grey/20: 2 uses
+- Headings/Heading 1: 2 uses
+- Body/Medium: 1 use
+- Default / Bold / Title1: 1 use
+- Default / Regular / LargeTitle: 1 use
+- Label Color/Dark/Tertiary: 1 use
+- Light Mode/Container Border: 1 use
+- Shadow-Blur/md: 1 use
+
+## Layout & Structure
+Screen: Cover / Presentation
+- FRAME "Presentation", 3223x1331.94px, horizontal pad 100 100 100 100px gap 50px align center/min sizing W:fixed H:fixed, constraints left/top, radius 10px, fill gradient_radial(#3A215A 0% | #051527 100%)
+  - FRAME "Profile Card", 542x1131.94px, vertical pad 20 20 20 20px gap 30px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill gradient_linear(#2E335A 0% | #1C1B3333 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF4D 100%) 1px, effect [background_blur 30px]
+    - FRAME "Host", 502x63px, vertical pad 0 0 10 80px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Host", 88x112px, constraints left/top
+        - FRAME "Avatar", 88x88px, constraints left/top, radius 44px, stroke Light Mode/Container Border 2px, effect Shadow-Blur/md
+          - ELLIPSE "Avatar", 88x88px, constraints scale/scale, fill image(hash: 86e1515bdec41b76d88809806be200f583554a24)
+      - TEXT "Sourany", 422x33px, constraints left/top, fill #FFFFFF, text [Default / Bold / Title1], [heading]
+      - TEXT "Designer at DesignCode", 422x20px, constraints left/top, fill #FFFFFFB2, text [Footnote/Medium]
+    - FRAME "Content", 502x88px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top, radius 0/0/40/40px
+      - TEXT "Greetings, I'm Sourany, a designer at DesignCode. I apprecia", 502x88px, constraints left/top, fill #FFFFFF99, text [Default / Regular / Body]
+    - FRAME "License", 487x880.94px, vertical pad 20 20 20 20px gap 30px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill gradient_linear(#2E335A 0% | #1C1B3333 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF4D 100%) 1px, effect [background_blur 30px]
+      - FRAME "Frame 14199", 447x41px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - GROUP "Group 32979", 311x41px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Personal Use License", 311x41px, constraints left/top, fill #FFFFFF, text [Default / Regular / LargeTitle], [heading]
+      - FRAME "Frame 14212", 447x156px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - TEXT "This asset is for personal use only (Non-Commercial)", 447x48px, constraints left/top, fill #FFFFFF, text [Default / Regular / Title3], [heading]
+        - TEXT "Personal Use refers to any usage that does not satisfy the c", 447x88px, constraints left/top, fill #FFFFFFE5, text [Default / Regular / Body]
+      - RECTANGLE "Separator", 447x2px, constraints left/top, fill gradient_linear(#FFFFFF00 0% | #FFFFFF 10% | #FFFFFF 89% | #FFFFFF00 100%)
+      - FRAME "Frame 32984", 447x551.94px, vertical pad 0 0 0 0px gap 50px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 14210", 447x230.49px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Allowed:", 447x24px, constraints left/top, fill #FFFFFF, text [Default / Regular / Title3], [heading]
+          - FRAME "Frame 14203", 447x182.49px, vertical pad 0 0 0 0px gap 38.41px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 60", 447x182.49px, vertical pad 0 0 0 0px gap 20.49px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 14211", 447x271.46px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Not Allowed:", 447x24px, constraints left/top, fill #FFFFFF, text [Default / Regular / Title3], [heading]
+          - FRAME "Frame 14203", 447x223.46px, vertical pad 0 0 0 0px gap 38.41px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 60", 447x223.46px, vertical pad 0 0 0 0px gap 20.49px sizing W:fill H:fixed, constraints left/top
+  - FRAME "Thumbnail", 1920x1022px, constraints left/top, fill gradient_linear(#252558 0% | #020104 21% | #030205 64% | #040014 100%)
+    - FRAME "BackgroundWeb3", 2340x1920px, constraints left/top, fill #060715, opacity 80%
+      - GROUP "Image", 1866.67x1333.33px, constraints scale/scale
+        - RECTANGLE "Image_2", 1866.67x1333.33px, constraints center/top, fill gradient_radial(#D9D9D9 0% | #D9D9D900 100%)
+        - RECTANGLE "Image_3", 1866.67x1333.33px, constraints center/top, fill image(hash: e029083c77b16b2e5af59b913bfab16a67ac05db), effect [layer_blur 133.33px]
+    - RECTANGLE "LeftBlur", 1049.36x1522.37px, constraints left/top, fill gradient_linear(#000000 0% | #00000000 100%), effect [background_blur 140.92px, layer_blur 352.3px]
+    - GROUP "WixStudio", 946.53x848.12px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+    - VECTOR "Shadow_2", 868.25x640.73px, constraints left/top, radius 10px, fill #0806164F, effect [layer_blur 8.33px]
+    - GROUP "FigmaTool", 911.03x1453.09px, constraints left/top
+      - GROUP "FigmaBody_2", 909.81x808.17px, constraints left/top
+        - VECTOR "Subtract_3", 909.81x808.17px, constraints left/top, fill gradient_linear(#1E1E1E 0% | #252525 2% | #262626 56% | #262626 81% | #222121 100%)
+        - VECTOR "Subtract_4", 909.81x808.17px, constraints left/top, fill gradient_linear(#1E1E1E 0% | #252525 2% | #262626 56% | #292929 77% | #292929 100%)
+        - VECTOR "Vector4044_2", 33.95x23.12px, constraints left/top, fill #FFFFFF0F, effect [layer_blur 8.3px]
+      - GROUP "FigmaTool_2", 896.93x1453.09px, constraints left/top
+        - RECTANGLE "Rectangle3054", 629.63x672.63px, constraints left/top, fill #2C2C2CB2, effect [background_blur 70px]
+        - VECTOR "Subtract_5", 896.93x800.18px, constraints left/top, fill image(hash: e3cc1e204ea6ecb5b983516de79ba5d3717c2c8b)
+        - FRAME "ExpertiseSection", 447.52x465.83px, constraints left/top, fill #10102B, effect [drop_shadow 35.75px offset 0 25.8 #00000040]
+          - ELLIPSE "BackBlur", 279.7x356.93px, constraints center/top, fill gradient_radial(#2C94B3 0% | #2C94B300 81%)
+          - VECTOR "Rectangle3055", 254.26x361.51px, constraints center/center, fill image(hash: fa6f2b5d250193860d3219bfa9ead8c0048e7b50)
+          - GROUP "Subtitle_2", 410.54x206.31px, constraints center/top
+            - ELLIPSE "Circle_4", 281.26x111.96px, constraints center/top, fill gradient_angular(#2B6ED1 16% | #062550 69% | #88A3C7 100%), effect [layer_blur 38.47px]
+            - FRAME "Frame3726_2", 410.54x195.06px, constraints center/top, fill gradient_radial(#2C4A9933 0% | #4C5F9000 100%), stroke gradient_radial(#1967FF66 0% | #FFFFFF00 100%) 0.33px
+          - GROUP "Group70", 158.34x84.09px, constraints left/top, radius 0/0/0/0px
+            - GROUP "ReuseLineConnection", 35.19x26.7px, constraints left/top [decorative, ~6 shapes]
+            - FRAME "TreatmentContainer", 124.31x71.7px, horizontal pad 0 1.32 0 1.32px gap 6.61px align min/center sizing W:fixed H:fixed, constraints left/top, radius 13.23px, fill #FFFFFF0A, stroke #55C2FF33 0.33px, effect [drop_shadow 29.37px offset 0 7.28 #00000030]
+          - GROUP "Group67", 157.57x83.81px, constraints left/top, radius 0/0/0/0px
+            - GROUP "TreatmentLineConnection", 34.81x26.56px, constraints left/top [decorative, ~6 shapes]
+            - FRAME "TreatmentContainer_2", 124.31x71.7px, horizontal pad 0 1.32 0 1.32px gap 6.61px align min/center sizing W:fixed H:fixed, constraints center/top, radius 13.23px, fill #FFFFFF0A, stroke #55C2FF33 0.33px, effect [drop_shadow 29.37px offset 0 7.28 #00000030]
+          - GROUP "Group69", 129.94x102.34px, constraints left/top, radius 0/0/0/0px
+            - GROUP "CollectLineConnection", 36.67x43.11px, constraints left/top [decorative, ~6 shapes]
+            - FRAME "TreatmentContainer_3", 124.31x71.7px, horizontal pad 0 1.32 0 1.32px gap 6.61px align min/center sizing W:fixed H:fixed, constraints center/top, radius 13.23px, fill #FFFFFF0A, stroke #55C2FF33 0.33px, effect [drop_shadow 29.37px offset 0 7.28 #00000030]
+          - GROUP "Group68", 156.94x109.71px, constraints left/top, radius 0/0/0/0px
+            - FRAME "AlertContainer", 124.31x71.7px, horizontal pad 0 1.32 0 1.32px gap 6.61px align min/center sizing W:fixed H:fixed, constraints center/top, radius 13.23px, fill #FFFFFF0A, stroke #55C2FF33 0.33px, effect [background_blur 13.23px, drop_shadow 29.37px offset 0 7.28 #00000030]
+            - GROUP "AlertLineConnection", 61.53x49.85px, constraints left/top [decorative, ~6 shapes]
+        - VECTOR "Ellipse1582_2", 36.25x39.5px, constraints left/top, fill #2C2C2C
+    - GROUP "TopCard", 230.42x366.08px, constraints left/top, radius 0/0/0/0px
+      - GROUP "HoverCard_2", 230.42x366.08px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Shadow", 201.94x339.9px, constraints left/top, radius 0/0/0/0px, fill #0806164F, effect [layer_blur 8.33px]
+        - VECTOR "Subtract_6", 203.77x359.84px, constraints left/top, fill gradient_linear(#423974 0% | #575086 100%), effect [background_blur 19.48px]
+        - FRAME "HoverCard_3", 193x361px, constraints center/center, radius 13.34px, fill #FFFFFF1A, stroke gradient_linear(#FFFFFF80 0% | #FFFFFF 100%) 0.67px, effect [background_blur 66.69px]
+          - FRAME "CollectCard", 167.94x282.52px, vertical pad 0 0 0 0px gap 20.01px align min/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+            - INSTANCE "Icons", 53.89x76.96px, horizontal pad 5.33 5.33 5.33 5.33px gap 7.16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 30.68px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.5px
+            - FRAME "Text_2", 152.27x152.78px, vertical pad 0 0 0 0px gap 20.01px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Button", 80.21x55.87px, horizontal pad 9.34 17.34 9.34 17.34px gap 6.67px align min/center sizing W:fixed H:fixed, constraints left/top, radius 14.67px, fill gradient_radial(#2E6CA6 0% | #77C5D6 100%), stroke gradient_linear(#00000080 0% | #FFFFFF80 100%) 0.67px, effect [drop_shadow 20.01px offset 0 20.01 #00000066, inner_shadow 3.33px offset 0 0 #ACE1FF, inner_shadow 5.33px offset 0 -0.67 #75A2B6]
+          - FRAME "TreatmentCard", 167.94x282.52px, vertical pad 0 0 0 0px gap 20.01px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "ReuseCard", 167.94x282.52px, vertical pad 0 0 0 0px gap 20.01px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "DataManagementCard", 167.94x282.52px, vertical pad 0 0 0 0px gap 20.01px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "WaterUI", 269.47x333.19px, constraints left/top
+      - VECTOR "Shadow_3", 75.88x225.52px, constraints scale/scale, radius 0/0/0/0px, fill #0806164F, effect [layer_blur 8.33px]
+      - GROUP "WaterCard", 241.52x275.12px, constraints scale/scale
+        - BOOLEAN_OPERATION "Subtract_7", 120.15x227.75px, constraints scale/scale, fill gradient_linear(#615993 0% | #575086 100%), effect [background_blur 12.83px]
+        - GROUP "WaterCard_2", 241.52x275.12px, constraints scale/scale
+          - FRAME "Frame48095732", 114.8x228.99px, vertical pad 0 0 0 0px gap 19.04px align center/center sizing W:fixed H:fixed, constraints scale/scale
+            - GROUP "Water", 114.8x228.99px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Connectline_6", 104.36x86.82px, constraints scale/scale [decorative, ~7 shapes]
+          - GROUP "Connectline_7", 104.36x86.82px, constraints scale/scale [decorative, ~7 shapes]
+      - GROUP "AlertLineConnection_2", 146.85x119.29px, constraints scale/scale [decorative, ~6 shapes]
+    - INSTANCE "Title", 779.07x242px, constraints left/top
+      - FRAME "Title_2", 779.07x242px, vertical pad 17 0 17 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Title_2_2", 779.07x208px, constraints left/top, fill #FFFFFF, text [Inter Bold, 86px], [heading]
+    - FRAME "FigmaLogo", 266.48x266.48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 155.32px, fill #6D41CE4D, stroke gradient_linear(#FFFFFF 0% | #FFFFFF00 100%) 0.76px, effect [background_blur 7.61px] [decorative, ~5 shapes]
+    - RECTANGLE "WixStudioLogo", 593.02x222.61px, constraints left/top, fill image(hash: 9b0ce5806b3216ca69e1ad54f3d019795688135d)
+  - FRAME "Frame 48095734", 461x1040px, vertical pad 0 0 0 0px gap 50px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 48095733", 438x949px, vertical pad 0 0 0 0px gap 97px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Contact", 438x237px, vertical pad 0 0 0 0px gap 34px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Profil", 438x237px, vertical pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+          - TEXT "Contact", 72x41px, constraints left/top, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+          - FRAME "Instagram Account", 398x68px, horizontal pad 10 10 10 10px gap 20px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Instagram Logo", 48x48px, constraints left/top, radius 70.5px, fill #000000, effect [drop_shadow 20px offset 0 10 #0000001A]
+            - TEXT "@sou.design", 152x29px, constraints left/top, fill #FFFFFF99, text [Inter Medium, 24px], [heading]
+          - FRAME "Twitter Account", 398x68px, horizontal pad 10 10 10 10px gap 20px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "__Assets / Twitter / Avator", 48x48px, constraints left/top, radius 72px, fill #FFFFFF, effect [drop_shadow 20px offset 0 10 #0000001A]
+            - TEXT "@SouranyPhomhome", 251x29px, constraints left/top, fill #FFFFFF99, text [Inter Medium, 24px], [heading]
+      - FRAME "Wix Studio", 438x237px, vertical pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+        - TEXT "Wix Studio Project", 165x41px, constraints left/top, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+        - FRAME "Instagram Account", 398x73.19px, horizontal pad 10 10 10 10px gap 20px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "WixStudioLogo", 52.47x53.19px, constraints left/top, fill image(hash: 9b0ce5806b3216ca69e1ad54f3d019795688135d)
+          - TEXT "Wix Studio Site Demo", 252x29px, constraints left/top, fill #FFFFFF99, text [Inter Medium, 24px], [heading]
+        - FRAME "Twitter Account", 398x73.19px, horizontal pad 10 10 10 10px gap 20px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "WixStudioLogo", 52.47x53.19px, constraints left/top, fill image(hash: 9b0ce5806b3216ca69e1ad54f3d019795688135d)
+          - TEXT "Wix Studio Platform", 231x29px, constraints left/top, fill #FFFFFF99, text [Inter Medium, 24px], [heading]
+      - FRAME "DesignCode", 438x281px, vertical pad 28 20 28 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+        - TEXT "To learn more about design tips, follow us on:", 398x41px, constraints left/top, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+        - FRAME "Instagram Account", 398x82px, horizontal pad 10 10 10 10px gap 20px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3736", 62x62px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 836", 62x62px, constraints left/top, fill gradient_radial(#5D6167 0% | #13151A 100%), effect [layer_blur 20px, drop_shadow 20px offset 10 10 #00000040]
+            - ELLIPSE "Ellipse 837", 50x50px, constraints left/top, fill gradient_radial(#545659 0% | #232629 100%), stroke gradient_linear(#00000073 0% | #FFFFFF 100%) 1.5px
+            - INSTANCE "__Assets / Youtube / Images / Avator", 50x50px, constraints left/top, radius 72px, fill #FFFFFF, effect [drop_shadow 48px offset 0 14 #0000009C]
+            - ELLIPSE "Ellipse 838", 50x50px, constraints left/top, stroke gradient_linear(#00000073 0% | #FFFFFF 99%) 1.5px
+            - TEXT "􀉪", 26x29px, constraints left/top, fill Label Color/Dark/Tertiary, text [SF Pro Display Bold, 24px], [heading]
+          - TEXT "Youtube", 97x29px, constraints left/top, fill #FFFFFF99, text [Inter Medium, 24px], [heading]
+        - FRAME "Twitter Account", 398x82px, horizontal pad 10 10 10 10px gap 20px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3737", 62x62px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - TEXT "DesignCode Platform", 249x29px, constraints left/top, fill #FFFFFF99, text [Inter Medium, 24px], [heading]
+    - TEXT "Full course: Build an Interactive Site with Wix Studio", 461x41px, constraints left/top, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+
+Screen: Design / Home Page - Tablet
+- FRAME "Home Page - Tablet", 768x4004px, constraints left/top, fill #10102B
+  - FRAME "Footer Section", 768x1024px, constraints left_right/bottom
+    - ELLIPSE "Ellipse 1576", 944.49x458.87px, constraints center/top, fill gradient_radial(#2299AE 0% | #11546E8C 57% | #072C4900 100%), effect [layer_blur 151.44px]
+    - GROUP "Geant Bubble", 63.66x63.66px, constraints center/top [decorative, ~11 shapes]
+    - GROUP "Bubbles", 62x190px, constraints center/top [decorative, ~209 shapes]
+    - FRAME "Footer Section", 775x254px, vertical pad 40 60 40 60px gap 40px sizing W:fixed H:fixed, constraints left/bottom, fill gradient_linear(#03030300 0% | #030303 100%), stroke gradient_linear(#FFFFFF00 0% | #47E5FA 50% | #00000000 100%) 1px, effect [background_blur 40px]
+      - FRAME "Container", 655x62px, horizontal pad 0 0 0 0px gap 261px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Logo", 77x38px, horizontal pad 4 4 4 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button Logo", 30x30px, constraints left/top
+            - REGULAR_POLYGON "Polygon", 29.79x29.79px, constraints left_right/top_bottom, radius 8.36px, fill #00000099, stroke Stroke 0.84px, effect [background_blur 16.72px, drop_shadow 8.36px offset 0 8.36 #0000001A, drop_shadow 3.34px offset 0 3.34 #0000000D, drop_shadow 0px offset 0 0.84 #0000000D]
+            - BOOLEAN_OPERATION "Subtract", 11.26x16.73px, constraints center/center, fill gradient_radial(#96DFFF 0% | #006D9D 100%), stroke #000000 1.25px
+          - TEXT "Aqua", 35x27px, constraints left/top, fill #FFFFFF, text [Inter Medium, 14px]
+        - FRAME "Buttons Container", 335x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text Button", 34x18px, constraints left/top, fill Grey/90, text [Inter Medium, 12px]
+          - TEXT "Text Button", 50x18px, constraints left/top, fill Grey/90, text [Inter Medium, 12px]
+          - TEXT "Text Button", 30x18px, constraints left/top, fill Grey/90, text [Inter Medium, 12px]
+          - TEXT "Text Button", 46x18px, constraints left/top, fill Grey/90, text [Inter Medium, 12px]
+          - TEXT "Text Button", 35x18px, constraints left/top, fill Grey/90, text [Inter Medium, 12px]
+          - TEXT "Text Button", 46x18px, constraints left/top, fill Grey/90, text [Inter Medium, 12px]
+          - TEXT "Text Button", 46x18px, constraints left/top, fill Grey/90, text [Inter Medium, 12px]
+        - FRAME "Sub Container", 166x62px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #FFFFFF1A 1px
+          - FRAME "Buttons Container", 146x42px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button", 42x42px, vertical pad 16 16 16 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill gradient_linear(#242424 0% | #24242400 100%), stroke gradient_linear(#2E2E2E 0% | #2E2E2E00 100%) 1px
+            - FRAME "Button", 42x42px, vertical pad 16 16 16 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill gradient_linear(#242424 0% | #24242400 100%), stroke gradient_linear(#2E2E2E 0% | #2E2E2E00 100%) 1px
+            - FRAME "Button", 42x42px, vertical pad 16 16 16 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill gradient_linear(#242424 0% | #24242400 100%), stroke gradient_linear(#2E2E2E 0% | #2E2E2E00 100%) 1px
+      - LINE "Line", 655x0px, constraints left/top, stroke #FFFFFF1A 1px
+      - FRAME "Container", 655x32px, horizontal pad 0 0 0 0px gap 655px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Sub Container", 457x32px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 136x32px, horizontal pad 0 0 12 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "Icon", 20x20px, constraints left/top
+            - TEXT "Text Button", 110x18px, constraints left/top, fill Grey/90, text [Inter Regular, 12px]
+          - FRAME "Button", 136x32px, horizontal pad 0 0 12 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "Icon", 20x20px, constraints left/top
+            - TEXT "Text Button", 110x18px, constraints left/top, fill Grey/90, text [Inter Regular, 12px]
+          - FRAME "Button", 165x32px, horizontal pad 0 0 12 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "Icon", 20x20px, constraints left/top
+            - TEXT "Text Button", 139x18px, constraints left/top, fill Grey/90, text [Inter Regular, 12px]
+        - TEXT "Text", 158x15px, constraints left/top, fill Grey/60, text [Inter Regular, 10px]
+    - FRAME "Bottom Content", 957x163px, vertical pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF1C, effect [background_blur 30px]
+      - FRAME "Text Update Title", 917x54px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Your operation stands out as distinct.", 298x22px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 18px]
+        - TEXT "Reach out to converse with a member of our team.", 404x22px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 18px]
+      - INSTANCE "Button", 157x39px, horizontal pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF33, stroke #1986CC 1px, effect [background_blur 20px, drop_shadow 15px offset 0 10 #0000001A]
+        - TEXT "Contact us", 78x11px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 10 #00000040], text [Body/Body 2]
+  - FRAME "Support Section", 768x1024px, constraints left_right/top
+    - FRAME "Slider Content", 759.39x309.7px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 48095736", 756.86x68px, horizontal pad 0 0 0 0px gap 620.86px align center/center sizing W:fixed H:fixed, constraints center/center
+        - INSTANCE "Chevron Buttons", 68x68px, constraints left/top
+          - FRAME "Icon", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+            - INSTANCE "Chevron Left", 24x24px, constraints left/top
+        - INSTANCE "Chevron Buttons", 68x68px, constraints left/top
+          - FRAME "Icon", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+            - INSTANCE "Chevron Right", 24x24px, constraints left/top
+      - FRAME "Content", 602x236.45px, vertical pad 0 0 0 0px gap 13.06px align min/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Frame Mask", 602x236.45px, constraints left/top, fill #FFFFFF
+          - FRAME "Cards", 1897.39x214.69px, horizontal pad 0 0 0 0px gap 78.33px align center/center sizing W:fixed H:fixed, constraints left/center
+            - INSTANCE "Cards", 580.24x214.69px, horizontal pad 21.76 21.76 21.76 21.76px gap 29.01px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14.51px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 0.73px, effect [background_blur 21.76px]
+            - INSTANCE "Cards", 580.24x214.69px, horizontal pad 21.76 21.76 21.76 21.76px gap 29.01px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14.51px, fill gradient_radial(#0075FF36 0% | #91C1FB00 63%), stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 0.73px, effect [background_blur 21.76px]
+            - INSTANCE "Cards", 580.24x214.69px, horizontal pad 21.76 21.76 21.76 21.76px gap 29.01px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14.51px, fill gradient_radial(#0075FF36 0% | #91C1FB00 63%), stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 0.73px, effect [background_blur 21.76px]
+    - GROUP "Subtitle", 1321x172px, constraints center/top
+      - ELLIPSE "Circle", 905x29px, constraints center/top, fill gradient_angular(#2B6ED1 16% | #062550 69% | #88A3C7 100%), effect [layer_blur 116.32px]
+      - FRAME "Frame 3726", 1321x138px, constraints center/top, fill gradient_radial(#2C4A9933 0% | #4C5F9000 100%), stroke gradient_radial(#1967FF66 0% | #FFFFFF00 100%) 1px
+        - FRAME "Top Container", 413.66x189px, vertical pad 30 30 30 30px gap 20px align center/center sizing W:fixed H:fixed, constraints center/top, fill gradient_radial(#2EA7FF 0% | #1C1B3333 78%), stroke gradient_angular(#17B9FF00 14% | #17B9FF 32% | #17B9FF0D 50% | #17B9FF00 61% | #17B9FF00 99%) 1px
+          - TEXT "Heading", 339x61px, constraints left/top, fill #FFFFFF, text [Headings/Heading 2], [heading]
+          - TEXT "Paragraph", 353.66x48px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+  - FRAME "Expertise Section", 708.46x522.66px, constraints left/top
+    - ELLIPSE "Back Blur", 326.23x183.2px, constraints left/top, fill gradient_radial(#2C94B3 0% | #2C94B300 100%), effect [layer_blur 209.89px]
+    - GROUP "Dropper", 529.41x526.26px, constraints center/top
+      - GROUP "Water Logo", 529.41x526.26px, constraints left/top
+        - FRAME "Text", 68x192.1px, vertical pad 0 0 0 0px gap 46.7px align min/center sizing W:fixed H:fixed, constraints center/top
+          - TEXT "Prevent", 31x13px, constraints left/top, fill #FFFFFF, text [Inter Medium, 8.4px]
+          - TEXT "Awareness", 44x13px, constraints left/top, fill #FFFFFF, text [Inter Medium, 8.4px]
+          - TEXT "Reduce pollution", 68x13px, constraints left/top, fill #FFFFFF, text [Inter Medium, 8.4px]
+          - TEXT "Save Water", 46x13px, constraints left/top, fill #FFFFFF, text [Inter Medium, 8.4px]
+        - RECTANGLE "Rectangle3055", 529.41x526.26px, constraints left/top, fill image(hash: f7b07d483c6c6cd11cab5a7e67b561c68dcc3013)
+        - VECTOR "Vector 4023", 215.25x0px, constraints center/top, stroke gradient_linear(#FFFFFF00 0% | #FFFFFF83 54% | #FFFFFF00 100%) 0.44px
+        - VECTOR "Vector 4024", 215.25x0px, constraints center/top, stroke gradient_linear(#FFFFFF00 0% | #FFFFFF83 54% | #FFFFFF00 100%) 0.44px
+        - VECTOR "Vector 4025", 215.25x0px, constraints center/top, stroke gradient_linear(#FFFFFF00 21% | #FFFFFF83 54% | #FFFFFF00 85%) 0.44px
+    - GROUP "Subtitle", 474.88x150.98px, constraints center/top
+      - ELLIPSE "Circle", 474.88x15.22px, constraints center/top, fill gradient_angular(#2B6ED1 16% | #062550 69% | #88A3C7 100%), effect [layer_blur 61.04px]
+      - FRAME "Top Container", 409.94x150.98px, vertical pad 15.74 15.74 15.74 15.74px gap 10.49px align center/center sizing W:fixed H:fixed, constraints center/top, fill gradient_radial(#2EA7FF 0% | #1C1B3333 78%), stroke gradient_angular(#17B9FF00 14% | #17B9FF 32% | #17B9FF0D 50% | #17B9FF00 61% | #17B9FF00 99%) 0.52px
+        - TEXT "Heading", 366x61px, constraints left/top, fill #FFFFFF, text [Headings/Heading 2], [heading]
+        - TEXT "Paragraph", 378.46x48px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+    - GROUP "Reuse", 307.83x61.1px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Reuse Line Connection", 59.42x22.04px, constraints left/top [decorative, ~6 shapes]
+      - GROUP "Reuse Content", 247.58x61.1px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Reuse", 247.58x61.1px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 760", 247.58x61.1px, constraints center/center, radius 10.49px, fill gradient_radial(#2E335A 0% | #1C1B3300 100%), stroke gradient_angular(#FFFFFF00 10% | #FFFFFF00 40% | #FFFFFF 50% | #FFFFFF00 57% | #FFFFFF00 88% | #FFFFFFC0 100%) 0.52px, effect [background_blur 15.74px]
+          - BOOLEAN_OPERATION "Union", 223.93x53.94px, constraints left/top, fill gradient_linear(#0075FF14 0% | #91C1FB00 100%), stroke gradient_angular(#FFFFFF1A 36% | #17B9FF 45% | #FFFFFF00 68%) 0.52px
+          - FRAME "Left", 94.98x34px, horizontal pad 0 0 0 0px gap 5.25px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Frame 28", 94.98x34px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - GROUP "AI", 43.53x43.53px, constraints left/center, radius 0/0/0/0px [decorative, ~6 shapes]
+    - GROUP "Collect", 209.77x110.04px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Collect Line Connection", 61.92x47.23px, constraints left/top [decorative, ~6 shapes]
+      - GROUP "Collect Content", 190.29x74.51px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Collect", 190.29x74.51px, constraints left/top, radius 0/0/0/0px
+          - FRAME "Frame 3694", 176.31x74.51px, constraints center/top
+            - RECTANGLE "Rectangle 760", 247.58x54.92px, constraints center/center, radius 10.49px, fill gradient_radial(#2E335A 0% | #1C1B3300 100%), stroke gradient_angular(#FFFFFF00 10% | #FFFFFF00 40% | #FFFFFF 50% | #FFFFFF00 57% | #FFFFFF00 88% | #FFFFFFC0 100%) 0.52px, effect [background_blur 15.74px]
+            - BOOLEAN_OPERATION "Union", 223.93x53.94px, constraints left/top, fill gradient_linear(#0075FF14 0% | #91C1FB00 100%), stroke gradient_angular(#FFFFFF1A 36% | #17B9FF 45% | #FFFFFF00 68%) 0.52px
+            - FRAME "Left", 94.98x34px, horizontal pad 0 0 0 0px gap 5.25px align min/center sizing W:fixed H:fixed, constraints center/center
+          - GROUP "AI", 43.53x43.53px, constraints left/center, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Alert", 255.41x106.99px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Alert Line Connection", 103.37x43.55px, constraints left/top [decorative, ~6 shapes]
+      - GROUP "Alert Content", 190.29x74.51px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Frame 3694", 176.31x74.51px, constraints center/top
+          - RECTANGLE "Rectangle 760", 247.58x51.72px, constraints center/center, radius 10.49px, fill gradient_radial(#2E335A 0% | #1C1B3300 100%), stroke gradient_angular(#FFFFFF00 10% | #FFFFFF00 40% | #FFFFFF 50% | #FFFFFF00 57% | #FFFFFF00 88% | #FFFFFFC0 100%) 0.52px, effect [background_blur 15.74px]
+          - BOOLEAN_OPERATION "Union", 223.93x53.94px, constraints left/top, fill gradient_linear(#0075FF14 0% | #91C1FB00 100%), stroke gradient_angular(#FFFFFF1A 36% | #17B9FF 45% | #FFFFFF00 68%) 0.52px
+          - FRAME "Left", 94.98x24px, horizontal pad 0 0 0 0px gap 5.25px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Frame 28", 94.98x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - GROUP "AI", 43.53x43.53px, constraints left/center, radius 0/0/0/0px [decorative, ~7 shapes]
+    - GROUP "Treatment", 266.43x74.51px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Treatment Line Connection", 58.77x22.04px, constraints left/top [decorative, ~6 shapes]
+      - GROUP "Treatment Content", 190.29x74.51px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Frame 3694", 176.31x74.51px, constraints center/top
+          - RECTANGLE "Rectangle 760", 211.52x51.72px, constraints center/center, radius 10.49px, fill gradient_radial(#2E335A 0% | #1C1B3300 100%), stroke gradient_angular(#FFFFFF00 10% | #FFFFFF00 40% | #FFFFFF 50% | #FFFFFF00 57% | #FFFFFF00 88% | #FFFFFFC0 100%) 0.52px, effect [background_blur 15.74px]
+          - BOOLEAN_OPERATION "Union", 223.93x53.94px, constraints left/top, fill gradient_linear(#0075FF14 0% | #91C1FB00 100%), stroke gradient_angular(#FFFFFF1A 36% | #17B9FF 45% | #FFFFFF00 68%) 0.52px
+          - FRAME "Left", 94.98x24px, horizontal pad 0 0 0 0px gap 5.25px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Frame 28", 94.98x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - GROUP "AI", 43.53x43.53px, constraints left/center, radius 0/0/0/0px [decorative, ~7 shapes]
+  - FRAME "Nav Bar", 770x73px, constraints center/top
+    - FRAME "Navigation", 770x67.05px, constraints scale/scale
+      - BOOLEAN_OPERATION "Subtract", 1440x67px, constraints left/top, fill #FFFFFF03, stroke gradient_linear(#FFFFFF00 38% | #4DB4EE 42% | #FFFFFF00 46%) 1px, effect [background_blur 40px]
+      - FRAME "Navigation Menu Full", 770x67px, horizontal pad 12 73 12 73px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0000001A, stroke gradient_linear(#FFFFFF00 5% | #4DB4EE 49% | #FFFFFF00 93%) 1px
+        - FRAME "Logo", 100x52px, horizontal pad 4 4 4 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button Logo", 44x44px, constraints left/top
+            - REGULAR_POLYGON "Polygon", 44x44px, constraints left_right/top_bottom, radius 10px, fill #00000099, stroke Stroke 1px, effect Shadow-Blur/sm
+            - BOOLEAN_OPERATION "Subtract", 24x24px, constraints center/center, fill gradient_radial(#96DFFF 0% | #006D9D 100%), stroke #000000 1.5px
+          - TEXT "Aqua", 44x22px, constraints left/top, fill #FFFFFF, text [Inter Bold, 18px]
+        - FRAME "Buttons", 46x46px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Hamburger Menu", 46x46px, horizontal pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+            - FRAME "Icon", 34x34px, constraints left/top
+  - FRAME "Solution Cards", 767x1236px, constraints left/top
+    - GROUP "Solution Cards", 1300x696.3px, constraints left/top
+      - FRAME "Cards", 1300x491px, constraints center/top
+        - FRAME "Cards Hover", 1142x436px, constraints center/center
+          - FRAME "Frame 48095738", 556x788px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Collect Card", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF1A
+            - FRAME "Treatment Card", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF1A
+            - FRAME "Reuse Card", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF1A
+            - FRAME "Data Card", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF1A
+        - VECTOR "Vector 4031", 0x376.34px, constraints left/top, stroke #9CE1FF 2px
+        - VECTOR "Vector 4032", 0x376.34px, constraints left/top, stroke #9CE1FF 2px
+      - FRAME "Title", 544.5x174px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top
+        - TEXT "Title", 398x58px, constraints left/top, fill Absolute/White, text [Inter ExtraBold, 48px], [heading]
+        - TEXT "H3", 544.5x96px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+  - FRAME "Hero", 767x634px, constraints left/top
+    - RECTANGLE "Planet", 464.84x524.69px, constraints center/top, fill image(hash: 2f9fe45168bc95d645f2db4280d64e6a661f8f7c), effect [drop_shadow 79.33px offset -18.36 11.55 #051E43CC]
+    - FRAME "Slide with round shape", 546x436px, constraints left/top
+      - GROUP "Group 48095393", 577.52x343px, constraints left/top
+        - FRAME "Original", 577.52x343px, vertical pad 24 24 24 24px gap 14px align center/min sizing W:fixed H:fixed, constraints left/center
+          - FRAME "Title", 529.52x242px, vertical pad 17 0 17 0px gap 20px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 529.52x116px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 48px], [heading]
+            - TEXT "H3", 451.45x72px, constraints left/top, fill #FFFFFFB2, text [Inter Regular, 16px]
+          - FRAME "Frame 48095724", 316x39px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button", 133x39px, horizontal pad 14 26 14 26px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 22px, fill #152A51
+            - FRAME "Button", 157x39px, horizontal pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+
+Screen: Design / Home Page - Mobile
+- FRAME "Home Page - Mobile", 393x4955px, constraints left/top, fill #10102B
+  - FRAME "Footer", 896.25x824.82px, constraints left_right/bottom
+    - ELLIPSE "Ellipse 1576", 896.25x275.82px, constraints center/bottom, fill gradient_radial(#2299AE 0% | #11546E8C 57% | #072C4900 100%), effect [layer_blur 91.03px]
+    - INSTANCE "Button", 157x39px, horizontal pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints center/bottom, radius 22px, fill #FFFFFF33, stroke #1986CC 1px, effect [background_blur 20px, drop_shadow 15px offset 0 10 #0000001A]
+      - TEXT "Contact us", 78x11px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 10 #00000040], text [Body/Body 2]
+    - RECTANGLE "Dark Background", 662.92x579px, constraints left/bottom, radius 16.44px, fill gradient_linear(#11101800 0% | #111018CC 15% | #111018 48%), effect [layer_blur 109.63px]
+    - FRAME "Footer Section", 390x658px, vertical pad 30 16 30 16px gap 30px sizing W:fixed H:fixed, constraints left_right/bottom, fill gradient_linear(#03030300 0% | #030303 100%), stroke gradient_linear(#FFFFFF00 0% | #47E5FA 48% | #FFFFFF00 100%) 1px, effect [background_blur 40px]
+      - FRAME "Container", 358x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Logo", 101x52px, horizontal pad 4 4 4 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button Logo", 44x44px, constraints left/top
+            - REGULAR_POLYGON "Polygon", 44x44px, constraints left_right/top_bottom, radius 10px, fill #00000099, stroke Stroke 1px, effect Shadow-Blur/sm
+            - BOOLEAN_OPERATION "Subtract", 24x24px, constraints center/center, fill gradient_radial(#96DFFF 0% | #006D9D 100%), stroke #000000 1.5px
+          - TEXT "Aqua", 45x27px, constraints left/top, fill #FFFFFF, text [Body Large/Medium]
+        - LINE "Line", 358x0px, constraints left/top, stroke #FFFFFF1A 1px
+        - FRAME "Buttons Container", 358x68px, horizontal pad 0 0 0 0px gap 20px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text Button", 41x24px, constraints left/top, fill Grey/90, text [Barlow Medium, 16px]
+          - TEXT "Text Button", 61x24px, constraints left/top, fill Grey/90, text [Barlow Medium, 16px]
+          - TEXT "Text Button", 37x24px, constraints left/top, fill Grey/90, text [Barlow Medium, 16px]
+          - TEXT "Text Button", 57x24px, constraints left/top, fill Grey/90, text [Barlow Medium, 16px]
+          - TEXT "Text Button", 43x24px, constraints left/top, fill Grey/90, text [Barlow Medium, 16px]
+          - TEXT "Text Button", 55x24px, constraints left/top, fill Grey/90, text [Barlow Medium, 16px]
+          - TEXT "Text Button", 56x24px, constraints left/top, fill Grey/90, text [Barlow Medium, 16px]
+        - FRAME "Sub Container", 358x122px, vertical pad 16 10 16 20px gap 14px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #FFFFFF1A 1px
+          - TEXT "Heading", 123x24px, constraints left/top, fill Grey/90, text [Inter Medium, 16px]
+          - FRAME "Buttons Container", 176x52px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button", 52x52px, vertical pad 16 16 16 16px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill gradient_linear(#242424 0% | #24242400 100%), stroke gradient_linear(#2E2E2E 0% | #2E2E2E00 100%) 1px
+            - FRAME "Button", 52x52px, vertical pad 16 16 16 16px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill gradient_linear(#242424 0% | #24242400 100%), stroke gradient_linear(#2E2E2E 0% | #2E2E2E00 100%) 1px
+            - FRAME "Button", 52x52px, vertical pad 16 16 16 16px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill gradient_linear(#242424 0% | #24242400 100%), stroke gradient_linear(#2E2E2E 0% | #2E2E2E00 100%) 1px
+      - FRAME "Container", 358x236px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Sub Container", 358x195px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Button", 358x64px, horizontal pad 20 0 20 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "Icon", 24x24px, constraints left/top
+            - TEXT "Text Button", 136x24px, constraints left/top, fill Grey/90, text [Barlow Regular, 16px]
+          - FRAME "Button", 358x64px, horizontal pad 20 0 20 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "Icon", 24x24px, constraints left/top
+            - TEXT "Text Button", 119x24px, constraints left/top, fill Grey/90, text [Barlow Regular, 16px]
+          - FRAME "Button", 358x67px, horizontal pad 20 0 20 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "Icon", 24x24px, constraints left/top
+            - TEXT "Text Button", 189x27px, constraints left/top, fill Grey/90, text [Barlow Regular, 18px]
+        - TEXT "Text", 358x21px, constraints left/top, fill Grey/60, text [Barlow Regular, 14px]
+    - GROUP "Bubbles", 63.66x225.16px, constraints center/top [decorative, ~220 shapes]
+    - TEXT "Your operation stands out as distinct. Reach out to converse", 291.8x40px, constraints center/top, fill #FFFFFF, text [Footnote/Regular]
+  - GROUP "Support Content", 353x604.19px, constraints center/top, radius 0/0/0/0px
+    - FRAME "Analysis Content", 293x449.46px, horizontal pad 30 30 30 30px gap 24px align center/min sizing W:fixed H:fixed, constraints center/center, radius 20px, fill #FFFFFF0D, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px, effect [background_blur 30px]
+      - GROUP "Water Card", 223.04x161.96px, constraints left/top
+        - FRAME "Frame 48095732", 105.69x161.96px, vertical pad 0 0 0 0px gap 16.47px align center/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Water", 105.69x161.96px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Mask group", 105.69x161.96px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+            - TEXT "Water", 45.98x10.29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 12.35px]
+            - RECTANGLE "Rectangle 144", 3.43x54.9px, constraints left/top, radius 5.49/5.49/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 145", 4.12x54.9px, constraints left/top, radius 5.49/5.49/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 146", 4.12x54.9px, constraints left/top, radius 5.49/5.49/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 147", 4.12x54.9px, constraints left/top, radius 5.49/5.49/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 148", 4.12x54.9px, constraints left/top, radius 5.49/5.49/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 154", 4.12x53.53px, constraints left/top, radius 5.49/5.49/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 155", 4.12x40.49px, constraints left/top, radius 5.49/5.49/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 156", 4.12x26.76px, constraints left/top, radius 5.49/5.49/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 157", 4.12x35px, constraints left/top, radius 5.49/5.49/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 158", 4.12x24.71px, constraints left/top, radius 5.49/5.49/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 149", 4.12x54.9px, constraints left/top, radius 5.49/5.49/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 150", 4.12x54.9px, constraints left/top, radius 5.49/5.49/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 151", 4.12x54.9px, constraints left/top, radius 5.49/5.49/0/0px, fill #8EDCFC, opacity 30%
+            - TEXT "2.1 liters", 65.2x19.22px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 9.61px]
+            - VECTOR "Vector 5", 85.1x0px, constraints left/top, stroke #3089DB54 0.69px
+        - GROUP "Connect line", 96.08x38.77px, constraints left/top [decorative, ~7 shapes]
+        - GROUP "Connect line", 96.08x38.77px, constraints left/top [decorative, ~7 shapes]
+      - FRAME "Text Block Update", 186.93x203.5px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Requirement Analysis", 186.93x58px, constraints left/top, fill #FFFFFF, effect [drop_shadow 60px offset 0 30 #00000080], text [Mobile Headings/Mobile Heading 4], [heading]
+        - TEXT "Before installing our solutions, we carry out a comprehensiv", 186.93x65.5px, constraints left/top, fill #FFFFFFB2, text [Inter Regular, 13px]
+        - FRAME "Button", 121x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+          - TEXT "Learn More", 81x11px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 10 #00000040], text [Body/Body 2]
+    - FRAME "Chevron Buttons", 353x68px, horizontal pad 0 0 0 0px gap 217px sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "Chevron Buttons", 68x68px, constraints left/top
+        - FRAME "Icon", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+          - INSTANCE "Chevron Left", 24x24px, constraints left/top
+            - VECTOR "Vector", 8x16px, constraints scale/scale, stroke #FFFFFF 1.5px
+      - INSTANCE "Chevron Buttons", 68x68px, constraints left/top
+        - FRAME "Icon", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_linear(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+          - INSTANCE "Chevron Right", 24x24px, constraints left/top
+            - VECTOR "Vector", 8x16px, constraints scale/scale, stroke #FFFFFF 1.5px
+    - FRAME "Top Container", 217.57x122.82px, vertical pad 8.18 8.18 8.18 8.18px gap 5.46px align center/center sizing W:fixed H:fixed, constraints center/center, fill gradient_radial(#2EA7FF 0% | #1C1B3333 78%), stroke gradient_angular(#17B9FF00 14% | #17B9FF 32% | #17B9FF0D 50% | #17B9FF00 61% | #17B9FF00 99%) 0.27px
+      - TEXT "Heading", 163x29px, constraints left/top, fill #FFFFFF, text [Mobile Headings/Mobile Heading 4], [heading]
+      - TEXT "Paragraph", 201.2x72px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+  - GROUP "Expertise Section", 398.36x588.86px, constraints left/top
+    - ELLIPSE "Back Blur", 391.55x219.88px, constraints center/center, fill gradient_radial(#2C94B3 0% | #2C94B300 100%), effect [layer_blur 251.92px]
+    - GROUP "Water Dropper", 335.76x200.78px, constraints center/center
+      - GROUP "Dropper", 335.76x200.78px, constraints center/top
+        - GROUP "Water Logo", 335.76x200.78px, constraints left/top
+          - VECTOR "Vector 4023", 335.76x0px, constraints center/center, stroke gradient_linear(#FFFFFF00 0% | #FFFFFF83 54% | #FFFFFF00 100%) 0.68px
+          - VECTOR "Vector 4024", 335.76x0px, constraints center/center, stroke gradient_linear(#FFFFFF00 0% | #FFFFFF83 54% | #FFFFFF00 100%) 0.68px
+          - VECTOR "Vector 4025", 335.76x0px, constraints center/center, stroke gradient_linear(#FFFFFF00 21% | #FFFFFF83 54% | #FFFFFF00 85%) 0.68px
+    - GROUP "Subtitle", 360.35x46.92px, constraints center/top
+      - ELLIPSE "Circle", 246.87x7.91px, constraints center/center, fill gradient_angular(#2B6ED1 16% | #062550 69% | #88A3C7 100%), effect [layer_blur 31.73px]
+      - FRAME "Frame 3726", 360.35x37.64px, constraints center/center, fill gradient_radial(#2C4A9933 0% | #4C5F9000 100%), stroke gradient_radial(#1967FF66 0% | #FFFFFF00 100%) 0.27px
+        - FRAME "Top Container", 217.57x122.82px, vertical pad 8.18 8.18 8.18 8.18px gap 5.46px align center/center sizing W:fixed H:fixed, constraints center/top, fill gradient_radial(#2EA7FF 0% | #1C1B3333 78%), stroke gradient_angular(#17B9FF00 14% | #17B9FF 32% | #17B9FF0D 50% | #17B9FF00 61% | #17B9FF00 99%) 0.27px
+          - TEXT "Heading", 176x29px, constraints left/top, fill #FFFFFF, text [Mobile Headings/Mobile Heading 4], [heading]
+          - TEXT "Paragraph", 201.2x72px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+  - RECTANGLE "Rectangle3055", 529.41x526.26px, constraints left/top, fill image(hash: f7b07d483c6c6cd11cab5a7e67b561c68dcc3013)
+  - FRAME "Frame 48095737", 273x1596px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints center/center
+    - FRAME "Collect Card", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF1A
+      - FRAME "Icon Container", 88x88px, constraints left/top, radius 46px
+        - ELLIPSE "Ellipse", 88x88px, constraints center/center, fill #35B6FE1A, stroke #55C2FF4D 1px
+        - FRAME "✨ hand holding water", 52x52px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 43x42px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Text", 243x126px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Start creating your", 96x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+        - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+      - FRAME "Button", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+        - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+    - FRAME "Treatment Card", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF1A
+      - FRAME "Icon Container", 88x88px, constraints left/top, radius 46px
+        - ELLIPSE "Ellipse", 88x88px, constraints center/center, fill #35B6FE1A, stroke #55C2FF4D 1px
+        - FRAME "✨ water treatment", 52x52px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 43x43.25px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Text", 243x126px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Start creating your", 141x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+        - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+      - FRAME "Button", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+        - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+    - FRAME "Reuse Card", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF1A
+      - FRAME "Icon Container", 88x88px, constraints left/top, radius 46px
+        - ELLIPSE "Ellipse", 88x88px, constraints center/center, fill #35B6FE1A, stroke #55C2FF4D 1px
+        - FRAME "✨ water reuse", 52x52px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 40x41px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Text", 243x126px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Start creating your", 85x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+        - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+      - FRAME "Button", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+        - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+    - FRAME "Data Card", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF1A
+      - FRAME "Icon Container", 88x88px, constraints left/top, radius 46px [decorative, ~8 shapes]
+      - FRAME "Text", 243x126px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Start creating your", 64x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+        - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+      - FRAME "Button", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+        - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+  - FRAME "Title", 305.98x217px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints center/center
+    - TEXT "Title", 186x29px, constraints left/top, fill #FFFFFF, text [Mobile Headings/Mobile Heading 4], [heading]
+    - TEXT "H3", 305.98x168px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+  - FRAME "Hero Section", 395x567px, constraints left/top
+    - GROUP "Hero Section", 504.8x383.96px, constraints left/top
+      - RECTANGLE "Planet", 305.6x344.96px, constraints center/scale, fill image(hash: 2f9fe45168bc95d645f2db4280d64e6a661f8f7c), effect [drop_shadow 52.15px offset -12.07 7.6 #051E43CC]
+      - FRAME "Content", 352x316px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Title", 330.82x188px, vertical pad 0 0 0 0px gap 20px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 279.45x72px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 30px], [heading]
+          - TEXT "H3", 330.82x96px, constraints left/top, fill #FFFFFFB2, text [Inter Regular, 16px]
+        - FRAME "Frame 48095724", 148x98px, vertical pad 0 0 0 0px gap 20px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 133x39px, horizontal pad 14 26 14 26px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #152A51
+            - TEXT "Learn More", 81x11px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 10 #00000040], text [Body/Body 2]
+          - FRAME "Button", 148x39px, horizontal pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+            - TEXT "View Solutions", 105x11px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 10 #00000040], text [Body/Body 2]
+  - FRAME "Solution Cards", 393x2062px, constraints left/top
+  - GROUP "Card", 348x378.85px, constraints center/top, radius 40px
+    - FRAME "Treatment Container", 348x80px, horizontal pad 0 4 0 4px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top, radius 40px, fill #FFFFFF0A, stroke #55C2FF33 1px, effect [background_blur 40px]
+      - FRAME "Icon Container", 72x72px, constraints left/top, radius 37.64px
+        - ELLIPSE "Ellipse", 64x64px, constraints center/center, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF4D 1px
+        - FRAME "✨ hand holding water", 44x44px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 35x34px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Left", 248x44px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 28", 248x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Alert", 248x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+          - TEXT "Prevent leaks and malfunctions.", 212.88x20px, constraints left/top, fill Grey/90, text [Inter Regular, 13px]
+    - FRAME "Treatment Container", 348x80px, horizontal pad 0 4 0 4px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top, radius 40px, fill #FFFFFF0A, stroke #55C2FF33 1px, effect [background_blur 40px]
+      - FRAME "Icon Container", 72x72px, constraints left/top, radius 37.64px
+        - ELLIPSE "Ellipse", 64x64px, constraints center/center, fill #35B6FE1A, stroke #55C2FF4D 1px
+        - FRAME "✨ hand holding water", 44x44px, constraints center/center, fill #FFFFFF
+        - FRAME "✨ water alert", 44x44px, constraints center/center, fill #FFFFFF
+          - VECTOR "Union", 27x32px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Left", 248x64px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 28", 248x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Collect", 248x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+          - TEXT "Collect and dispose of wastewater in its designated location", 212.88x40px, constraints left/top, fill Grey/90, text [Inter Regular, 13px]
+    - FRAME "Treatment Container", 348x80px, horizontal pad 0 4 0 4px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top, radius 40px, fill #FFFFFF0A, stroke #55C2FF33 1px, effect [background_blur 40px]
+      - FRAME "Icon Container", 72x72px, constraints left/top, radius 37.64px
+        - ELLIPSE "Ellipse", 64x64px, constraints center/center, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF4D 1px
+        - FRAME "✨ water treatment", 44x44px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 36x36px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Left", 248x44px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 28", 248x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Treatment", 248x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+          - TEXT "Water purification in any context.", 212.88x20px, constraints left/top, fill Grey/90, text [Inter Regular, 13px]
+    - FRAME "Treatment Container", 348x80px, horizontal pad 0 4 0 4px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top, radius 40px, fill #FFFFFF0A, stroke #55C2FF33 1px, effect [background_blur 40px]
+      - FRAME "Icon Container", 72x72px, constraints left/top, radius 37.64px
+        - ELLIPSE "Ellipse", 64x64px, constraints center/center, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF4D 1px
+        - FRAME "✨ water reuse", 44x44px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 34x36px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Left", 248x64px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 28", 248x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Reuse", 248x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+          - TEXT "Revitalizing water by treating it before restoring it to its", 236.9x40px, constraints left/top, fill Grey/90, text [Inter Regular, 13px]
+  - FRAME "Sticky Top Menu", 393x81px, constraints left/top, fill #FFFFFF03, stroke gradient_linear(#FFFFFF00 38% | #4DB4EE 42% | #FFFFFF00 46%) 1px, effect [background_blur 40px]
+    - FRAME "Top Menu / Mobile", 353x52px, constraints left_right/top
+      - FRAME "Logo", 100x52px, horizontal pad 4 4 4 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button Logo", 44x44px, constraints left/top
+          - REGULAR_POLYGON "Polygon", 44x44px, constraints left_right/top_bottom, radius 10px, fill #00000099, stroke Stroke 1px, effect Shadow-Blur/sm
+          - BOOLEAN_OPERATION "Subtract", 24x24px, constraints center/center, fill gradient_radial(#96DFFF 0% | #006D9D 100%), stroke #000000 1.5px
+        - TEXT "Aqua", 44x22px, constraints left/top, fill #FFFFFF, text [Inter Bold, 18px]
+      - FRAME "Hamburger Menu", 46x46px, horizontal pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+        - FRAME "Icon", 34x34px, constraints left/top
+          - VECTOR "Vector (Stroke)", 24.7x17px, constraints scale/scale, fill #FFFFFF
+
+Screen: Design / HomePage-Desktop
+- FRAME "HomePage-Desktop", 1440x4004px, constraints left/top, fill #10102B
+  - INSTANCE "Bubbles2", 1104x991px, constraints left/top, fill #000000
+    - GROUP "Group 48095395", 549.34x384.53px, constraints center/top [decorative, ~24 shapes]
+  - FRAME "Footer", 1440x627px, constraints left/top, fill #10102B
+    - ELLIPSE "Ellipse1576", 944.49x458.87px, constraints center/top, fill gradient_radial(#2299AE 0% | #11546E8C 57% | #072C4900 100%), effect [layer_blur 151.44px]
+    - FRAME "FooterSection", 1440x268px, vertical pad 40 80 40 80px gap 40px sizing W:fixed H:fixed, constraints left/bottom, fill gradient_linear(#03030300 0% | #030303 100%), stroke #FFFFFF1A 1px, effect [background_blur 40px]
+      - FRAME "Container", 1280x72px, horizontal pad 0 0 0 0px gap 261px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Logo", 101x52px, horizontal pad 4 4 4 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "ButtonLogo", 44x44px, constraints left/top
+            - REGULAR_POLYGON "Polygon", 44x44px, constraints left_right/top_bottom, radius 10px, fill #00000099, stroke Stroke 1px, effect Shadow-Blur/sm
+            - BOOLEAN_OPERATION "Subtract", 13.47x20.01px, constraints center/center, fill gradient_radial(#96DFFF 0% | #006D9D 100%), stroke #000000 1.5px
+          - TEXT "Aqua", 45x27px, constraints left/top, fill #FFFFFF, text [Body Large/Medium]
+        - FRAME "SubContainer", 300x72px, horizontal pad 10 10 10 20px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #FFFFFF1A 1px
+          - TEXT "Heading", 74x24px, constraints left/top, fill Grey/90, text [Inter Medium, 16px]
+          - FRAME "ButtonsContainer", 176x52px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button", 52x52px, vertical pad 16 16 16 16px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF1A 1px
+            - FRAME "Button_2", 52x52px, vertical pad 16 16 16 16px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF1A 1px
+            - FRAME "Button_3", 52x52px, vertical pad 16 16 16 16px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF1A 1px
+        - FRAME "ButtonsContainer_2", 505x24px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "TextButton", 46x24px, constraints left/top, fill Grey/90, text [Inter Medium, 16px]
+          - TEXT "TextButton_2", 67x24px, constraints left/top, fill Grey/90, text [Inter Medium, 16px]
+          - TEXT "TextButton_3", 40x24px, constraints left/top, fill Grey/90, text [Inter Medium, 16px]
+          - TEXT "TextButton_4", 62x24px, constraints left/top, fill Grey/90, text [Inter Medium, 16px]
+          - TEXT "TextButton_5", 47x24px, constraints left/top, fill Grey/90, text [Inter Medium, 16px]
+          - TEXT "TextButton_6", 61x24px, constraints left/top, fill Grey/90, text [Inter Medium, 16px]
+          - TEXT "TextButton_7", 62x24px, constraints left/top, fill Grey/90, text [Inter Medium, 16px]
+      - LINE "Line", 1280x0px, constraints left/top, stroke #FFFFFF1A 1px
+      - FRAME "Container_2", 1280x36px, horizontal pad 0 0 0 0px gap 655px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "SubContainer_2", 601x36px, horizontal pad 0 0 0 0px gap 22px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button_4", 173x36px, horizontal pad 0 0 12 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "Icon_4", 20x20px, constraints left/top
+            - TEXT "TextButton_8", 147x24px, constraints left/top, fill Grey/90, text [Inter Regular, 16px]
+          - FRAME "Button_5", 173x36px, horizontal pad 0 0 12 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "Icon_5", 20x20px, constraints left/top
+            - TEXT "TextButton_9", 147x24px, constraints left/top, fill Grey/90, text [Inter Regular, 16px]
+          - FRAME "Button_6", 211x36px, horizontal pad 0 0 12 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "Icon_6", 20x20px, constraints left/top
+            - TEXT "TextButton_10", 185x24px, constraints left/top, fill Grey/90, text [Inter Regular, 16px]
+        - TEXT "Text", 221x21px, constraints left/top, fill Grey/60, text [Inter Regular, 14px]
+    - FRAME "BottomContent", 957x191px, vertical pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF1C, effect [background_blur 30px]
+      - FRAME "TextUpdateTitle", 917x82px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Changelog", 917x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+        - TEXT "Reachouttoconversewithamemberofourteam.", 917x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+      - INSTANCE "Button_7", 157x39px, horizontal pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF33, stroke #1986CC 1px
+        - TEXT "Contactus", 78x11px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 10 #00000040], text [Body/Body 2]
+  - FRAME "SupportSection", 1440x818px, constraints left/top, fill #10102B
+    - FRAME "SliderContent", 1047x427px, constraints center/top, fill #FFFFFF
+      - FRAME "ChevronButtons", 992x68px, horizontal pad 0 0 0 0px gap 856px align center/center sizing W:fixed H:fixed, constraints center/center
+        - INSTANCE "HoverButton", 68x68px, constraints left/top
+          - FRAME "Icon_7", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+            - INSTANCE "ChevronLeft", 24x24px, constraints left/top
+        - INSTANCE "HoverButton_2", 68x68px, constraints left/top
+          - FRAME "Icon_8", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+            - INSTANCE "ChevronRight", 24x24px, constraints left/top
+      - FRAME "Cards", 2759.97x352px, horizontal pad 0 0 0 0px gap 140px align center/center sizing W:fixed H:fixed, constraints left/center
+        - INSTANCE "CardsSlider", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+          - INSTANCE "Water Analysis", 400x292px, constraints left/top
+            - GROUP "Water Card", 324x236px, constraints center/center
+          - FRAME "TextBlockUpdate", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "RequirementAnalysis", 326.66x36px, constraints left/top, fill #FFFFFF, effect [drop_shadow 60px offset 0 30 #00000080], text [Headings/Heading 4], [heading]
+            - TEXT "Beforeinstallingoursolutions,wecarryoutacomprehensiveassessm", 301.93x94.62px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+            - FRAME "Button_8", 121x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+        - INSTANCE "CardsSlider_2", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+          - INSTANCE "Illustration_2", 400x292px, constraints left/top
+            - FRAME "Illustration_3", 205.59x236px, constraints center/center [decorative, ~20 shapes]
+          - FRAME "TextBlockUpdate_2", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Settingupyourproject", 326.66x36px, constraints left/top, fill #FFFFFF, effect [drop_shadow 60px offset 0 30 #00000080], text [Headings/Heading 4], [heading]
+            - TEXT "Wecanhelpyoufindfundingandprepareyouradministrativefiles.Our", 301.93x94.62px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+            - FRAME "Button_9", 121x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+        - INSTANCE "CardsSlider_3", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+          - INSTANCE "Illustration_4", 400x292px, constraints left/top
+            - GROUP "Group48095394", 244.01x236.06px, constraints center/center [decorative, ~122 shapes]
+          - FRAME "TextBlockUpdate_3", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Ready-to-usedelivery", 326.66x36px, constraints left/top, fill #FFFFFF, effect [drop_shadow 60px offset 0 30 #00000080], text [Headings/Heading 4], [heading]
+            - TEXT "Oursystemsaredeliveredreadytouse.Theycanbeinstalledquicklyan", 301.93x94.62px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+            - FRAME "Button_10", 121x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+    - GROUP "Subtitle", 1321x172px, constraints center/top
+      - ELLIPSE "Circle_3", 905x29px, constraints center/top, fill gradient_angular(#2B6ED1 16% | #062550 69% | #88A3C7 100%), effect [layer_blur 116.32px]
+      - FRAME "Frame3726", 1321x138px, constraints center/top, fill gradient_radial(#2C4A9933 0% | #4C5F9000 100%), stroke gradient_radial(#1967FF66 0% | #FFFFFF00 100%) 1px
+        - FRAME "TopContainer", 413.66x189px, vertical pad 30 30 30 30px gap 20px align center/center sizing W:fixed H:fixed, constraints center/top, fill gradient_radial(#2EA7FF 0% | #1C1B3333 78%), stroke gradient_angular(#17B9FF00 14% | #17B9FF 32% | #17B9FF0D 50% | #17B9FF00 61% | #17B9FF00 99%) 1px
+          - TEXT "Heading_2", 339x61px, constraints left/top, fill #FFFFFF, text [Headings/Heading 2], [heading]
+          - TEXT "Paragraph", 353.66x48px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+  - FRAME "ExpertiseSection", 1440x916px, constraints left/top, fill #10102B
+    - ELLIPSE "BackBlur", 900x771.43px, constraints center/top, fill gradient_radial(#2C94B3 0% | #2C94B300 81%)
+    - RECTANGLE "Rectangle3055", 685.26x681.18px, constraints left/top, fill image(hash: f7b07d483c6c6cd11cab5a7e67b561c68dcc3013)
+    - GROUP "Subtitle_2", 1321x172px, constraints center/top
+      - ELLIPSE "Circle_4", 905x29px, constraints center/top, fill gradient_angular(#2B6ED1 16% | #062550 69% | #88A3C7 100%), effect [layer_blur 116.32px]
+      - FRAME "Frame3726_2", 1321x138px, constraints center/top, fill gradient_radial(#2C4A9933 0% | #4C5F9000 100%), stroke gradient_radial(#1967FF66 0% | #FFFFFF00 100%) 1px
+        - FRAME "TopContainer_2", 426x189px, vertical pad 30 30 30 30px gap 20px align center/center sizing W:fixed H:fixed, constraints center/top, fill gradient_radial(#2EA7FF 0% | #1C1B3333 78%), stroke gradient_angular(#17B9FF00 14% | #17B9FF 32% | #17B9FF0D 50% | #17B9FF00 61% | #17B9FF00 99%) 1px
+          - TEXT "Heading_3", 366x61px, constraints left/top, fill #FFFFFF, text [Headings/Heading 2], [heading]
+          - TEXT "Paragraph_2", 353.66x48px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+    - GROUP "ReuseLineConnection", 113.24x42px, constraints left/top [decorative, ~6 shapes]
+    - FRAME "TreatmentContainer", 400x80px, horizontal pad 0 4 0 4px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #FFFFFF0A, stroke #55C2FF33 1px, effect [drop_shadow 88.8px offset 0 22 #00000030]
+      - FRAME "IconContainer", 72x72px, constraints left/top, radius 37.64px
+        - ELLIPSE "Ellipse", 64x64px, constraints center/center, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF4D 1px
+        - FRAME "✨waterreuse", 44x44px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector_3_2", 34x36px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Left", 300x64px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame28", 300x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Reuse_2", 300x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+          - TEXT "Revitalizingwaterbytreatingitbeforerestoringittoitsnaturalen", 251.53x40px, constraints left/top, fill Grey/90, text [Inter Regular, 13px]
+    - GROUP "TreatmentLineConnection", 112x42px, constraints left/top [decorative, ~6 shapes]
+    - FRAME "TreatmentContainer_2", 400x80px, horizontal pad 0 4 0 4px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top, radius 40px, fill #FFFFFF0A, stroke #55C2FF33 1px, effect [drop_shadow 88.8px offset 0 22 #00000030]
+      - FRAME "IconContainer_2", 72x72px, constraints left/top, radius 37.64px
+        - ELLIPSE "Ellipse_2", 64x64px, constraints center/center, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF4D 1px
+        - FRAME "✨watertreatment", 44x44px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector_4_2", 36x36px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Left_2", 300x44px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame28_2", 300x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Treatment_2", 300x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+          - TEXT "Waterpurificationinanycontext.", 255.06x20px, constraints left/top, fill Grey/90, text [Inter Regular, 13px]
+    - GROUP "CollectLineConnection", 118x90px, constraints left/top [decorative, ~6 shapes]
+    - FRAME "TreatmentContainer_3", 400x80px, horizontal pad 0 4 0 4px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top, radius 40px, fill #FFFFFF0A, stroke #55C2FF33 1px, effect [drop_shadow 88.8px offset 0 22 #00000030]
+      - FRAME "IconContainer_3", 72x72px, constraints left/top, radius 37.64px
+        - ELLIPSE "Ellipse_3", 64x64px, constraints center/center, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF4D 1px
+        - FRAME "✨handholdingwater", 44x44px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector_5_2", 35x34px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Left_3", 300x64px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame28_3", 300x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Collect_2", 300x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+          - TEXT "Collectanddisposeofwastewaterinitsdesignatedlocation.", 246.5x40px, constraints left/top, fill Grey/90, text [Inter Regular, 13px]
+    - GROUP "AlertLineConnection", 198x83px, constraints left/top [decorative, ~6 shapes]
+    - FRAME "AlertContainer", 400x80px, horizontal pad 0 4 0 4px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top, radius 40px, fill #FFFFFF0A, stroke #55C2FF33 1px, effect [background_blur 40px, drop_shadow 88.8px offset 0 22 #00000030]
+      - FRAME "IconContainer_4", 72x72px, constraints left/top, radius 37.64px
+        - ELLIPSE "Ellipse_4", 64x64px, constraints center/center, fill #35B6FE1A, stroke #55C2FF4D 1px
+        - FRAME "✨handholdingwater_2", 44x44px, constraints center/center, fill #FFFFFF
+        - FRAME "✨wateralert", 44x44px, constraints center/center, fill #FFFFFF
+          - VECTOR "Union", 27x32px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+      - FRAME "Left_4", 181x44px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame28_4", 181x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Alert_2", 181x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+          - TEXT "Preventleaksandmalfunctions.", 255.06x20px, constraints left/top, fill Grey/90, text [Inter Regular, 13px]
+  - FRAME "Hero", 1440x816px, constraints left_right/top, fill gradient_radial(#50A8DFB8 0% | #08081D00 63%)
+    - RECTANGLE "Planet", 710.68x802.19px, constraints right/top, fill image(hash: 2f9fe45168bc95d645f2db4280d64e6a661f8f7c), effect [drop_shadow 121.28px offset -28.07 17.66 #051E43CC]
+    - FRAME "Slidewithroundshape", 546x436px, constraints left/top
+      - GROUP "Group48095393", 546x389px, constraints left/top
+        - FRAME "Original", 546x389px, vertical pad 24 24 24 24px gap 14px align center/min sizing W:fixed H:fixed, constraints left/center
+          - FRAME "Title", 498x288px, vertical pad 17 0 17 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Title_2", 442x172px, constraints left/top
+            - FRAME "SubtitleMask", 498x72px, constraints left/top
+          - FRAME "Frame48095724", 315x39px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button_11", 133x39px, horizontal pad 14 26 14 26px gap 10px align center/center sizing W:fixed H:fixed, constraints center/scale, radius 22px, fill #152A51
+            - FRAME "Button_12", 156x39px, horizontal pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+  - FRAME "SolutionCards", 1440x772px, constraints left/top, fill #10102B
+    - FRAME "Cards_2", 1300x490.78px, constraints center/top
+      - FRAME "CardsHover", 1142x436px, constraints center/center
+        - FRAME "Frame48095737", 1132x384px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "CollectCard", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #282840
+            - FRAME "IconContainer_5", 88x88px, constraints left/top, radius 46px
+            - FRAME "Text_3", 242x126px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button_13", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+          - FRAME "TreatmentCard", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #282840
+            - FRAME "IconContainer_6", 88x88px, constraints left/top, radius 46px
+            - FRAME "Text_4", 243x126px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button_14", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+          - FRAME "ReuseCard", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #282840
+            - FRAME "IconContainer_7", 88x88px, constraints left/top, radius 46px
+            - FRAME "Text_5", 243x126px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button_15", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+          - FRAME "DataCard", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #282840
+            - FRAME "IconContainer_8", 88x88px, constraints left/top, radius 46px [decorative, ~8 shapes]
+            - FRAME "Text_6", 243x126px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button_16", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+    - FRAME "Title_4", 691x149.93px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "Title_5", 388x61px, constraints left/top, fill Absolute/White, text [Headings/Heading 2], [heading]
+      - TEXT "H3_2", 691x72px, constraints left/top, fill #FFFFFFB2, text [Body/Regular]
+  - FRAME "Navigation", 1440x67px, constraints scale/scale, fill #FFFFFF08, effect [background_blur 40px]
+    - FRAME "NavigationMenuFull", 1440x67px, horizontal pad 12 73 12 73px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Logo_2", 100x52px, horizontal pad 4 4 4 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "ButtonLogo_2", 44x44px, constraints left/top
+          - REGULAR_POLYGON "Polygon_2", 44x44px, constraints left_right/top_bottom, radius 10px, fill #00000099, stroke Stroke 1px
+          - BOOLEAN_OPERATION "Subtract_6", 13.47x20.01px, constraints center/center, fill gradient_radial(#96DFFF 0% | #006D9D 100%), stroke #000000 1.5px
+        - TEXT "Aqua_2", 44x22px, constraints left/top, fill #FFFFFF, text [Inter Bold, 18px]
+      - FRAME "Left_5", 378x53px, horizontal pad 6 6 6 6px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #00000033, stroke #FFFFFF1A 1px
+        - FRAME "Menu", 360x32px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "ButtonToggle", 72x32px, horizontal pad 6 16 6 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, effect Shadow-Blur/sm
+            - TEXT "Menu_2", 40x20px, constraints left/top, fill #FFFFFF, text [Footnote/Medium]
+          - INSTANCE "ButtonToggle_2", 95x32px, horizontal pad 6 16 6 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, effect Shadow-Blur/sm
+            - TEXT "Menu_3", 63x20px, constraints left/top, fill #FFFFFFB2, text [Footnote/Medium]
+          - INSTANCE "ButtonToggle_3", 93x32px, horizontal pad 6 16 6 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, effect Shadow-Blur/sm
+            - TEXT "Menu_4", 61x20px, constraints left/top, fill #FFFFFFB2, text [Footnote/Medium]
+          - INSTANCE "ButtonToggle_4", 70x32px, horizontal pad 6 16 6 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, effect Shadow-Blur/sm
+            - TEXT "Menu_5", 38x20px, constraints left/top, fill #FFFFFFB2, text [Footnote/Medium]
+      - FRAME "Buttons", 86x32px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "ButtonToggle_5", 86x32px, horizontal pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+          - TEXT "Menu_6", 54x20px, constraints left/top, fill #FFFFFF, text [Footnote/Medium]
+
+Screen: Asset / Components
+- FRAME "Components", 10458x242px, horizontal pad 70 70 70 70px gap 24.86px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 29.84px, fill Grey/15, stroke Grey/20 5px
+  - TEXT "Components", 12334x102px, constraints left/top, fill Absolute/White, text [Inter Medium, 84px], [heading]
+
+Screen: Asset / Single Components
+- FRAME "Single Components", 3555x1565px, vertical pad 100 100 100 100px gap 100px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #040308
+  - COMPONENT_SET "SliderContent", 3355x467px, horizontal pad 20 20 20 20px gap 87px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 1047x427px, constraints left/top, fill #FFFFFF
+      - INSTANCE "HoverButton", 68x68px, constraints left/top
+        - FRAME "Icon_7", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+          - INSTANCE "ChevronLeft", 24x24px, constraints left/top
+            - VECTOR "Vector_5", 8x16px, constraints scale/scale, stroke #FFFFFF 1.5px
+      - INSTANCE "HoverButton_2", 68x68px, constraints left/top
+        - FRAME "Icon_8", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+          - INSTANCE "ChevronRight", 24x24px, constraints left/top
+            - VECTOR "Vector_6", 8x16px, constraints scale/scale, stroke #FFFFFF 1.5px
+      - FRAME "Mask", 862x396px, constraints left/top
+        - FRAME "Cards", 2759.97x352px, horizontal pad 0 0 0 0px gap 140px align center/center sizing W:fixed H:fixed, constraints left/center
+          - FRAME "CardsSlider", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+            - INSTANCE "Water Analysis", 400x292px, constraints left/top
+            - FRAME "TextBlockUpdate", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CardsSlider_2", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+            - INSTANCE "Illustration_2", 400x292px, constraints left/top
+            - FRAME "TextBlockUpdate_2", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CardsSlider_3", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+            - INSTANCE "Illustration_4", 400x292px, constraints left/top
+            - FRAME "TextBlockUpdate_3", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Property 1=Variant2", 1047x427px, constraints left/top, fill #FFFFFF
+      - INSTANCE "HoverButton", 68x68px, constraints left/top
+        - FRAME "Icon_7", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+          - INSTANCE "ChevronLeft", 24x24px, constraints left/top
+            - VECTOR "Vector_5", 8x16px, constraints scale/scale, stroke #FFFFFF 1.5px
+      - INSTANCE "HoverButton_2", 68x68px, constraints left/top
+        - FRAME "Icon_8", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+          - INSTANCE "ChevronRight", 24x24px, constraints left/top
+            - VECTOR "Vector_6", 8x16px, constraints scale/scale, stroke #FFFFFF 1.5px
+      - FRAME "Mask", 862x396px, constraints left/top
+        - FRAME "Cards", 2759.97x352px, horizontal pad 0 0 0 0px gap 140px align center/center sizing W:fixed H:fixed, constraints left/center
+          - FRAME "CardsSlider", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+            - INSTANCE "Illustration", 400x292px, constraints left/top
+            - FRAME "TextBlockUpdate", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CardsSlider_2", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+            - INSTANCE "Illustration_2", 400x292px, constraints left/top
+            - FRAME "TextBlockUpdate_2", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CardsSlider_3", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+            - INSTANCE "Illustration_4", 400x292px, constraints left/top
+            - FRAME "TextBlockUpdate_3", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Property 1=Variant3", 1047x427px, constraints left/top, fill #FFFFFF
+      - INSTANCE "HoverButton", 68x68px, constraints left/top
+        - FRAME "Icon_7", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+          - INSTANCE "ChevronLeft", 24x24px, constraints left/top
+            - VECTOR "Vector_5", 8x16px, constraints scale/scale, stroke #FFFFFF 1.5px
+      - INSTANCE "HoverButton_2", 68x68px, constraints left/top
+        - FRAME "Icon_8", 44x44px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 59px, fill gradient_radial(#FFFFFFCC 0% | #FFFFFF00 100%), stroke gradient_linear(#FFFFFF 0% | #FFFFFF33 100%) 1px, effect [background_blur 30px]
+          - INSTANCE "ChevronRight", 24x24px, constraints left/top
+            - VECTOR "Vector_6", 8x16px, constraints scale/scale, stroke #FFFFFF 1.5px
+      - FRAME "Mask", 862x396px, constraints left/top
+        - FRAME "Cards", 2759.97x352px, horizontal pad 0 0 0 0px gap 140px align center/center sizing W:fixed H:fixed, constraints left/center
+          - FRAME "CardsSlider", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+            - INSTANCE "Illustration", 400x292px, constraints left/top
+            - FRAME "TextBlockUpdate", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CardsSlider_2", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+            - INSTANCE "Illustration_2", 400x292px, constraints left/top
+            - FRAME "TextBlockUpdate_2", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CardsSlider_3", 826.66x352px, horizontal pad 30 30 30 30px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF1A, stroke gradient_angular(#70C5EA00 17% | #FFFFFF1A 25% | #17B9FF 59% | #FFFFFF00 81%) 1px
+            - INSTANCE "Illustration_4", 400x292px, constraints left/top
+            - FRAME "TextBlockUpdate_3", 326.66x210.62px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+  - COMPONENT_SET "Button", 168x140px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints center/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+      - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+    - COMPONENT "State=Hover", 128x40px, horizontal pad 14 26 14 26px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill gradient_radial(#2E6CA6 0% | #77C5D6 100%), stroke gradient_linear(#00000080 0% | #FFFFFF80 100%) 1px, effect [drop_shadow 30px offset 0 30 #00000066, inner_shadow 5px offset 0 0 #ACE1FF, inner_shadow 8px offset 0 -1 #75A2B6]
+      - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+  - COMPONENT_SET "Icons", 618x126px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Icon Type=Collect", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+      - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill #35B6FE1A, stroke #55C2FF4D 1px
+        - FRAME "✨ hand holding water", 52.13x52.13px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 42.71x41.83px, constraints scale/scale, fill gradient_linear(#01B8F2 0% | #03B3DA00 100%), stroke #C4F3FD 0.97px, effect [background_blur 29.1px, inner_shadow 31.04px offset -25.22 43.65 #FFFFFF40, inner_shadow 33.37px offset -9.7 -25.22 #FFFFFF40]
+    - COMPONENT "Icon Type=Treatment", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+      - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #00000087, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+        - FRAME "✨ water treatment", 43.39x43.39px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 35.87x36.09px, constraints scale/scale, fill gradient_linear(#01B8F2 0% | #03B3DA00 100%), stroke #C4F3FD 0.78px, effect [background_blur 23.31px, inner_shadow 24.86px offset -20.2 34.96 #FFFFFF40]
+    - COMPONENT "Icon Type=Reuse", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+      - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #00000087, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+        - FRAME "✨ water reuse", 45.13x45.13px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 29.26x29.85px, constraints center/center, fill gradient_radial(#01B8F2 0% | #03B3DA00 100%), stroke #C4F3FD 0.5px, effect [background_blur 23.31px, inner_shadow 24.86px offset -20.2 34.96 #FFFFFF40]
+    - COMPONENT "Icon Type=Alert", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+      - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #00000087, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+        - FRAME "✨ water alert", 51.26x51.26px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 31.4x38.09px, constraints scale/scale, fill gradient_linear(#01B8F2 27% | #03B3DA00 100%), stroke #C4F3FD 0.5px, effect [background_blur 10px, inner_shadow 24.33px offset -19.77 34.22 #FFFFFF40]
+    - COMPONENT "Icon Type=Management", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+      - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #00000087, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+        - FRAME "Glass-Xd", 60.31x53.32px, constraints left/top
+          - GROUP "Group 48095392", 49.71x43.93px, constraints center/center
+            - GROUP "Boule", 43.68x43.68px, constraints center/center [decorative, ~6 shapes]
+            - INSTANCE "Water Drop", 33.63x33.63px, constraints scale/scale
+  - COMPONENT_SET "Illustration", 1432x332px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Variant4", 400x292px, constraints left/top
+      - GROUP "Water Card", 324x236px, constraints center/center
+        - FRAME "Frame 48095732", 154x236px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Water", 154x236px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Mask group", 154x236px, constraints left/top, radius 0/0/0/0px [decorative, ~7 shapes]
+            - RECTANGLE "Rectangle 144", 5x80px, constraints left/top, radius 8/8/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 145", 6x80px, constraints left/top, radius 8/8/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 146", 6x80px, constraints left/top, radius 8/8/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 147", 6x80px, constraints left/top, radius 8/8/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 148", 6x80px, constraints left/top, radius 8/8/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 154", 6x34.38px, constraints left/top, radius 8/8/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 155", 6x9.61px, constraints left/top, radius 8/8/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 156", 6x24.23px, constraints left/top, radius 8/8/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 157", 6x14.87px, constraints left/top, radius 8/8/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 158", 6x5.63px, constraints left/top, radius 8/8/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 149", 6x80px, constraints left/top, radius 8/8/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 165", 6x27.75px, constraints left/top, radius 8/8/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 166", 6x36px, constraints left/top, radius 8/8/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 167", 6x18.93px, constraints left/top, radius 8/8/0/0px, fill #5DCCFC
+            - RECTANGLE "Rectangle 150", 6x80px, constraints left/top, radius 8/8/0/0px, fill #8EDCFC, opacity 30%
+            - RECTANGLE "Rectangle 151", 6x80px, constraints left/top, radius 8/8/0/0px, fill #8EDCFC, opacity 30%
+            - VECTOR "Vector 5", 124x0px, constraints left/top, stroke #3089DB54 1px
+        - GROUP "Connect line", 140x61px, constraints left/top [decorative, ~7 shapes]
+        - GROUP "Connect line", 149x61px, constraints left/top [decorative, ~7 shapes]
+    - COMPONENT "Property 1=Set Up Project", 400x292px, constraints left/top
+      - FRAME "Illustration", 205.59x236px, constraints center/center [decorative, ~20 shapes]
+    - COMPONENT "Property 1=Ready to use", 400x292px, constraints left/top
+      - GROUP "Group 48095394", 244.01x236.06px, constraints center/center [decorative, ~122 shapes]
+
+Screen: Asset / Interactive Components
+- FRAME "Interactive Components", 6452.24x3198px, horizontal pad 100 100 100 100px gap 100px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #040308
+  - COMPONENT_SET "Bubbles1", 1144x2998px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 1104x991px, constraints left/top, fill #000000
+      - GROUP "Group 48095395", 295.41x290.87px, constraints center/top [decorative, ~24 shapes]
+    - COMPONENT "Property 1=Variant2", 1104x991px, constraints left/top, fill #000000
+      - GROUP "Group 48095395", 549.34x384.53px, constraints center/top [decorative, ~24 shapes]
+  - COMPONENT_SET "Bubbles2", 1144x2998px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 1104x991px, constraints left/top, fill #000000
+      - GROUP "Group 48095395", 301.52x291.26px, constraints center/top [decorative, ~24 shapes]
+    - COMPONENT "Property 1=Variant2", 1104x991px, constraints left/top, fill #000000
+      - GROUP "Group 48095395", 549.34x384.53px, constraints center/top [decorative, ~24 shapes]
+  - COMPONENT_SET "Cards Hover", 1182x2748px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Hover=Default", 1142x436px, constraints left/top
+      - FRAME "Card", 1142x392px, horizontal pad 30 20 30 20px gap 10px align center/center sizing W:fixed H:fixed, constraints center/center, radius 20px, fill gradient_radial(#0075FF36 0% | #91C1FB00 63%), stroke gradient_angular(#FFFFFF1A 25% | #17B9FF 55% | #FFFFFF00 77% | #70C5EA38 97%) 1px, effect [background_blur 30px]
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill #FFFFFF05, stroke #55C2FF4D 1px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 96x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x40px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Treatment Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 141x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x80px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Reuse Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 85x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Data Management Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 250x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 250x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+      - FRAME "Hover Card", 308x436px, constraints center/center, radius 20px, fill gradient_linear(#1C1B3333 0% | #2E335A 100%), stroke gradient_linear(#FFFFFF80 0% | #FFFFFF 100%) 1px, effect [background_blur 37.3px], opacity 0%
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #00000087, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 141x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x80px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+          - INSTANCE "Button", 128x40px, horizontal pad 14 26 14 26px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill gradient_radial(#2E6CA6 0% | #77C5D6 100%), stroke gradient_linear(#00000080 0% | #FFFFFF80 100%) 1px, effect [drop_shadow 30px offset 0 30 #00000066, inner_shadow 5px offset 0 0 #ACE1FF, inner_shadow 8px offset 0 -1 #75A2B6]
+            - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+    - COMPONENT "Hover=Treatment", 1142x436px, constraints left/top
+      - FRAME "Card", 1142x392px, horizontal pad 30 20 30 20px gap 10px align center/center sizing W:fixed H:fixed, constraints center/center, radius 20px, fill gradient_radial(#0075FF36 0% | #91C1FB00 63%), stroke gradient_angular(#FFFFFF1A 25% | #17B9FF 55% | #FFFFFF00 77% | #70C5EA38 97%) 1px, effect [background_blur 30px]
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill #FFFFFF05, stroke #55C2FF4D 1px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 96x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x40px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Treatment Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 141x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x80px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Reuse Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 85x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Data Management Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 250x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 250x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+      - FRAME "Hover Card", 308x436px, constraints center/center, radius 20px, fill gradient_linear(#1C1B3333 0% | #2E335A 100%), stroke gradient_linear(#FFFFFF80 0% | #FFFFFF 100%) 1px, effect [background_blur 100px]
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #00000087, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 141x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x80px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+          - INSTANCE "Button", 128x40px, horizontal pad 14 26 14 26px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill gradient_radial(#2E6CA6 0% | #77C5D6 100%), stroke gradient_linear(#00000080 0% | #FFFFFF80 100%) 1px, effect [drop_shadow 30px offset 0 30 #00000066, inner_shadow 5px offset 0 0 #ACE1FF, inner_shadow 8px offset 0 -1 #75A2B6]
+            - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+    - COMPONENT "Hover=Reuse", 1142x436px, constraints left/top
+      - FRAME "Card", 1142x392px, horizontal pad 30 20 30 20px gap 10px align center/center sizing W:fixed H:fixed, constraints center/center, radius 20px, fill gradient_radial(#0075FF36 0% | #91C1FB00 63%), stroke gradient_angular(#FFFFFF1A 25% | #17B9FF 55% | #FFFFFF00 77% | #70C5EA38 97%) 1px, effect [background_blur 30px]
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill #FFFFFF05, stroke #55C2FF4D 1px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 96x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x40px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Treatment Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 141x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x80px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Reuse Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 85x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Data Management Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 250x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 250x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+      - FRAME "Hover Card", 308x436px, constraints center/center, radius 20px, fill gradient_linear(#1C1B3333 0% | #2E335A 100%), stroke gradient_linear(#FFFFFF80 0% | #FFFFFF 100%) 1px, effect [background_blur 100px]
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #00000087, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 85x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+          - INSTANCE "Button", 128x40px, horizontal pad 14 26 14 26px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill gradient_radial(#2E6CA6 0% | #77C5D6 100%), stroke gradient_linear(#00000080 0% | #FFFFFF80 100%) 1px, effect [drop_shadow 30px offset 0 30 #00000066, inner_shadow 5px offset 0 0 #ACE1FF, inner_shadow 8px offset 0 -1 #75A2B6]
+            - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+    - COMPONENT "Hover=Data", 1142x436px, constraints left/top
+      - FRAME "Card", 1142x392px, horizontal pad 30 20 30 20px gap 10px align center/center sizing W:fixed H:fixed, constraints center/center, radius 20px, fill gradient_radial(#0075FF36 0% | #91C1FB00 63%), stroke gradient_angular(#FFFFFF1A 25% | #17B9FF 55% | #FFFFFF00 77% | #70C5EA38 97%) 1px, effect [background_blur 30px]
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill #FFFFFF05, stroke #55C2FF4D 1px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 96x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x40px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Treatment Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 141x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x80px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Reuse Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 85x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Data Management Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 250x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 250x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+      - FRAME "Hover Card", 308x436px, constraints center/center, radius 20px, fill gradient_linear(#1C1B3333 0% | #2E335A 100%), stroke gradient_linear(#FFFFFF80 0% | #FFFFFF 100%) 1px, effect [background_blur 100px]
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #00000087, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 250x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 250x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+          - INSTANCE "Button", 128x40px, horizontal pad 14 26 14 26px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill gradient_radial(#2E6CA6 0% | #77C5D6 100%), stroke gradient_linear(#00000080 0% | #FFFFFF80 100%) 1px, effect [drop_shadow 30px offset 0 30 #00000066, inner_shadow 5px offset 0 0 #ACE1FF, inner_shadow 8px offset 0 -1 #75A2B6]
+            - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+    - COMPONENT "Hover=Collect", 1142x436px, constraints left/top
+      - FRAME "Card", 1142x392px, horizontal pad 30 20 30 20px gap 10px align center/center sizing W:fixed H:fixed, constraints center/center, radius 20px, fill gradient_radial(#0075FF36 0% | #91C1FB00 63%), stroke gradient_angular(#FFFFFF1A 25% | #17B9FF 55% | #FFFFFF00 77% | #70C5EA38 97%) 1px, effect [background_blur 30px]
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill #FFFFFF05, stroke #55C2FF4D 1px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 96x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x40px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Treatment Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 141x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x80px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Reuse Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 85x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Data Management Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px, effect [drop_shadow 29px offset -3 17 #00000080, drop_shadow 8.4px offset 3 -5 #FFFFFF21]
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 115.23px, fill #FFFFFF05, stroke gradient_linear(#56C1FD 0% | #85E5FA00 32%) 1.15px
+          - FRAME "Text", 250x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 250x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+      - FRAME "Hover Card", 308x436px, constraints center/center, radius 20px, fill gradient_linear(#1C1B3333 0% | #2E335A 100%), stroke gradient_linear(#FFFFFF80 0% | #FFFFFF 100%) 1px, effect [background_blur 100px]
+        - FRAME "Collect Card", 268x332px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icons", 86x86px, horizontal pad 8 8 8 8px gap 10.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill gradient_linear(#35B6FE 0% | #6A33DF00 63%), stroke gradient_linear(#55C2FF 0% | #C8EBFF00 24%) 0.75px
+            - FRAME "Container", 70x70px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 46px, fill #35B6FE1A, stroke #55C2FF4D 1px
+          - FRAME "Text", 243x146px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start creating your", 96x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+            - TEXT "Want the latest devi", 243x40px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+          - INSTANCE "Button", 128x40px, horizontal pad 14 26 14 26px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill gradient_radial(#2E6CA6 0% | #77C5D6 100%), stroke gradient_linear(#00000080 0% | #FFFFFF80 100%) 1px, effect [drop_shadow 30px offset 0 30 #00000066, inner_shadow 5px offset 0 0 #ACE1FF, inner_shadow 8px offset 0 -1 #75A2B6]
+            - TEXT "Our Products", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+  - COMPONENT_SET "Cards Hover", 362x948px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 322x444px, constraints left/top
+      - FRAME "CollectCard", 268x384px, vertical pad 44 24 44 24px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #2828408F, stroke gradient_linear(#FFFFFF 0% | #FFFFFF66 100%) 1px, effect [background_blur 52.7px]
+        - INSTANCE "Icon Container", 88x88px, constraints left/top, radius 46px
+          - ELLIPSE "Ellipse", 88x88px, constraints center/center, fill gradient_linear(#35B6FE 0% | #6A33DF00 100%), stroke #55C2FF1A 1px
+          - FRAME "✨ hand holding water", 52x52px, constraints center/center, fill #FFFFFF
+            - VECTOR "Vector", 43x42px, constraints center/center, fill gradient_linear(#68CCFF 0% | #6970A7 100%)
+        - FRAME "Text_3", 242x126px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Startcreatingyour", 96x36px, constraints left/top, fill #FFFFFF, text [Headings/Heading 4], [heading]
+          - TEXT "Wantthelatestdevi", 242x60px, constraints left/top, fill #FFFFFFB2, text [Footnote/Regular]
+        - FRAME "Button_13", 128x40px, vertical pad 4 20 4 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #FFFFFF66, stroke #1986CC 1px
+          - TEXT "OurProducts", 88x20px, constraints left/top, fill #FFFFFF, text [Footnote/Regular]
+    - COMPONENT "Property 1=Variant2", 322x444px, constraints left/top
+      - FRAME "CollectCard", 294.5x421.97px, vertical pad 52.09 28.41 52.09 28.41px gap 35.51px align space_between/center sizing W:fixed H:fixed, constraints center/center, radius 28.41px, fill #3C3C5B8F, stroke gradient_linear(#FFFFFF 0% | #FFFFFF66 100%) 1.18px, effect [background_blur 62.39px]
+        - INSTANCE "Icon Container", 96x96px, constraints left/top, radius 46px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

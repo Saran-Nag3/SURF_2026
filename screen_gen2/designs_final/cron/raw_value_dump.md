@@ -1,0 +1,783 @@
+---
+name: calendar-app-cron-community
+source_file: Calendar App - Cron (Community)
+source_page: All pages (3): Cover, Main/Prototype, Components
+generated_at: 2026-07-25T09:38:28.911431+00:00
+---
+
+# Calendar App - Cron (Community) Design Guidelines
+
+## Source
+- Figma file: Calendar App - Cron (Community)
+- Figma page: All pages (3): Cover, Main/Prototype, Components
+- Extracted at: 2026-07-25T09:38:28.911431+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 363 uses
+- #FF4700: 108 uses
+- #808080: 101 uses
+- #666666: 54 uses
+- #5D5D5D: 30 uses
+- #303030: 28 uses
+- #D9D9D9: 18 uses
+- #69AADE: 15 uses
+- #606060: 12 uses
+- #404040: 11 uses
+- #EC6330: 11 uses
+- #000000: 10 uses
+- #2D2D2D: 8 uses
+- #333333: 8 uses
+- #3B3B3B: 8 uses
+- #9747FF: 8 uses
+- #1A1A1A: 7 uses
+- #1E1E1E: 7 uses
+- #4D4D4D: 7 uses
+- #565656: 7 uses
+- #A1A3F8: 7 uses
+- #252525: 6 uses
+- #CD4821: 6 uses
+- #3E3F59: 5 uses
+- #4C4D6F: 5 uses
+- #838394: 5 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- SF Pro Regular, 14px: 84 uses
+- SF Pro Regular, 11.83px: 56 uses
+- SF Pro Medium, 11px: 23 uses
+- SF Pro Medium, 14px: 18 uses
+- SF Pro Medium, 12px: 10 uses
+- SF Pro Regular, 10px: 9 uses
+- SF Pro Regular, 12px: 8 uses
+- SF Pro Semibold, 14px: 8 uses
+- SF Pro Medium, 20px: 4 uses
+- Helvetica Neue Bold, 26px: 3 uses
+
+## Typography Hierarchy
+- 26px - Helvetica Neue Bold, 26px (raw)
+- 20px - SF Pro Medium, 20px (raw)
+- 14px - SF Pro Medium, 14px (raw)
+- 14px - SF Pro Regular, 14px (raw)
+- 14px - SF Pro Semibold, 14px (raw)
+- 12px - SF Pro Medium, 12px (raw)
+- 12px - SF Pro Regular, 12px (raw)
+- 11.83px - SF Pro Regular, 11.83px (raw)
+- 11px - SF Pro Medium, 11px (raw)
+- 10px - SF Pro Regular, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Event Click Interaction
+- Toggle Interaction
+- Date highlight
+- States for Today date
+- Next meeting bottomsheet
+- Month Collapse
+- Event
+- Date
+
+## Component Specs
+- Event Click Interaction: size 390x793px, text [SF Pro Regular, 14px, SF Pro Medium, 14px, SF Pro Medium, 20px] | variants: Property 1: Event Click Design -1/Event Click Design -2
+- Toggle Interaction: size 51x31px, radius 15.5px, horizontal layout, padding 2 2 2 2px, gap 10px, sizing W:fixed H:fixed, fill #3B3A3F | variants: Property 1: Frame 106/Frame 107
+- Date highlight: size 42x42px, radius 6.33px, horizontal layout, padding 6 6 6 6px, gap 10px, sizing W:fixed H:fixed, fill #333333, text [SF Pro Regular, 11.83px] | variants: View: 1 Day/2 Day/3 Days
+- States for Today date: size 36x32px, horizontal layout, padding 0 0 0 0px, gap -27px, align min/center, sizing W:fixed H:fixed, text [SF Pro Semibold, 14px] | variants: State: Many_left/Many_right/One_left/One_right/Today
+- Next meeting bottomsheet: size 390x241px, text [SF Pro Medium, 12px, SF Pro Regular, 14px, SF Pro Medium, 14px] | variants: Property 1: Frame 82/Frame 83
+- Month Collapse/Expand View: size 390x64px, horizontal layout, padding 12 24 12 24px, gap 120px, align space_between/center, sizing W:fixed H:fixed, fill #1A1A1A, text [SF Pro Semibold, 14px, Helvetica Neue Bold, 26px] | variants: State: Collapsed/Expanded
+- Event/Session design: size 110x58px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [SF Pro Medium, 11px] | variants: Status: Past/Upcoming; Duration: 1 hr/15 mins/30 mins; Accepted: No/Yes
+- Date: size 42x42px, radius 6.33px, horizontal layout, padding 6 6 6 6px, gap 10px, sizing W:fixed H:fixed, text [SF Pro Regular, 11.83px]
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Cover / Plugin / file cover - 1
+- FRAME "Plugin / file cover - 1", 1920x960px, constraints left/top, fill #252525
+  - RECTANGLE "Rectangle 28", 1667x410px, constraints left/top, radius 205px, fill #323232, effect [drop_shadow 40px offset 0 4 #00000047]
+  - GROUP "Mask group", 1667x410px, constraints left/top, radius 0/0/0/0px [decorative, ~115 shapes]
+  - RECTANGLE "Rectangle 30", 477x406px, constraints left/top, fill gradient_linear(#323232 0% | #32323200 100%)
+  - FRAME "Frame 8", 1745.05x1221.82px, vertical pad 0 0 0 0px gap -85.43px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~102 shapes]
+  - FRAME "Frame 15", 1745.05x1221.82px, vertical pad 0 0 0 0px gap -85.43px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~102 shapes]
+  - GROUP "Group 2", 717x1075.9px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 40px offset 0 4 #00000073] [decorative, ~14 shapes]
+  - FRAME "Frame 14", 741.38x156.48px, horizontal pad 0 0 0 0px gap 30.69px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Icon_general", 129.79x129.79px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 13", 129.79x129.79px, constraints left/top, radius 21.09px, fill gradient_linear(#E95728 0% | #EC7236 100%)
+      - RECTANGLE "Rectangle 14", 19.87x43.4px, constraints left/top, radius 32.45/0/0/32.45px, fill #CD4821
+      - RECTANGLE "Rectangle 15", 19.87x43.4px, constraints left/top, radius 32.45/0/0/0px, fill #CD4821
+      - RECTANGLE "Rectangle 16", 19.87x43.4px, constraints left/top, radius 32.45/0/0/32.45px, fill #CD4821
+      - RECTANGLE "Rectangle 17", 19.87x43.4px, constraints left/top, radius 0/32.45/32.45/0px, fill #CD4821
+      - RECTANGLE "Rectangle 18", 19.87x43.4px, constraints left/top, fill #CD4821
+      - RECTANGLE "Rectangle 19", 19.87x43.4px, constraints left/top, radius 0/32.45/0/0px, fill #CD4821
+      - TEXT "31", 49x58px, constraints left/top, fill #FFFFFF, text [Helvetica Neue HelveticaNeue, 48.39px], [heading]
+    - FRAME "Frame 13", 580.89x156.48px, vertical pad 0 0 0 0px gap -10.52px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "CRON", 118x53px, constraints left/top, fill #EA5F2D, text [Gilroy Black, 42.09px], [heading]
+      - GROUP "Heading", 580.89x114.01px, constraints left/top
+        - FRAME "Frame 4", 580.89x114.01px, horizontal pad 0 0 0 0px gap 12.67px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Calendar App", 561x114px, constraints left/top, fill #FFFFFF, text [Gilroy Bold, 92.01px], [heading]
+
+Screen: Main/Prototype / Main Screen
+- FRAME "Main Screen", 390x844px, constraints left/top, fill #1A1A1A
+  - FRAME "Main Frame", 390x844px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Time and Battery", 390x47px, constraints left/top, fill image(hash: 0e73af3aab96b8a872cb6a2784c1fae8a5a0b06d)
+    - FRAME "Month and Hamburger", 390x797px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Month Collapse/Expand View", 390x64px, horizontal pad 12 24 12 24px gap 120px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #1A1A1A
+        - FRAME "Left Options", 198x40px, horizontal pad 0 0 0 0px gap 18px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Hamburger", 22x12px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector 6", 22x0px, constraints left/top, stroke #808080 1.3px
+            - VECTOR "Vector 7", 22x0px, constraints left/top, stroke #808080 1.3px
+            - VECTOR "Vector 8", 22x0px, constraints left/top, stroke #808080 1.3px
+          - FRAME "Month Dropdown", 158x40px, vertical pad 4 8 4 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Frame 5", 142x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "States for Today date", 40x32px, horizontal pad 0 0 0 0px gap -23px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 2", 32x32px, vertical pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #EC6330
+            - TEXT "20", 18x17px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 14px]
+          - RECTANGLE "Rectangle 27", 27x27px, constraints left/top, radius 7px, fill #404040
+          - RECTANGLE "Rectangle 26", 27x23px, constraints left/top, radius 6px, fill #2D2D2D
+      - FRAME "Calendar Grid", 390x732px, constraints left/top, fill #242424
+        - FRAME "Days Bar", 390x30px, vertical pad 4 32 4 32px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #1A1A1A
+          - FRAME "Frame 13", 333x22px, horizontal pad 0 0 0 0px gap 45px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "IST", 16x12px, constraints left/top, fill #808080, text [SF Pro Regular, 10px]
+            - FRAME "Days", 272x22px, horizontal pad 0 0 0 0px gap 78px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Vertical Grid Lines", 337x480px, vertical pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector 10", 337x0px, constraints left/top, stroke #3B3B3B 1px
+          - VECTOR "Vector 16", 337x0px, constraints left/top, stroke #3B3B3B 1px
+          - VECTOR "Vector 11", 337x0px, constraints left/top, stroke #3B3B3B 1px
+          - VECTOR "Vector 12", 337x0px, constraints left/top, stroke #3B3B3B 1px
+          - VECTOR "Vector 13", 337x0px, constraints left/top, stroke #3B3B3B 1px
+          - VECTOR "Vector 14", 337x0px, constraints left/top, stroke #3B3B3B 1px
+          - VECTOR "Vector 15", 337x0px, constraints left/top, stroke #3B3B3B 1px
+          - INSTANCE "Event/Session design", 110x14.5px, horizontal pad 2.5 8 2.5 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #69AADE 1px, opacity 50%
+            - FRAME "Frame 32", 94x10px, constraints left/top
+          - INSTANCE "Event/Session design", 110x29px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 16", 4x29px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #4C4D6F
+            - FRAME "Frame 15", 106x29px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #3E3F59
+          - INSTANCE "Event/Session design", 110x58px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 16", 4x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #A1A3F8
+            - FRAME "Frame 15", 106x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #45465E
+          - INSTANCE "Event/Session design", 110x58px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 16", 4x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #A1A3F8
+            - FRAME "Frame 15", 106x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #4C4021
+          - INSTANCE "Event/Session design", 110x58px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 16", 4x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #A1A3F8
+            - FRAME "Frame 15", 106x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #4C4021
+          - INSTANCE "Event/Session design", 110x220px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 16", 4x220px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #A1A3F8
+            - FRAME "Frame 15", 106x220px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #593727
+          - INSTANCE "Event/Session design", 110x14.5px, horizontal pad 2.5 8 2.5 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #69AADE 1px
+            - FRAME "Frame 34", 90x10px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Event/Session design", 110x29px, horizontal pad 2.5 8 2.5 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #69AADE 1px
+            - FRAME "Frame 34", 90x24px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Horizontal grid Lines", 336x700px, horizontal pad 0 0 0 0px gap 112px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+        - GROUP "All-day Event", 390x21px, constraints left/top
+          - VECTOR "Vector 8", 390x0px, constraints left/top, stroke #303030 1px
+          - FRAME "All-day Event", 325x19px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 16", 4x19px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4/0/0/4px, fill #4C4D6F
+            - FRAME "Frame 15", 321x19px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 0/4/4/0px, fill #3E3F59
+          - VECTOR "Vector 9", 390x0px, constraints left/top, stroke #303030 1px
+        - TEXT "All-day", 34x12px, constraints left/top, fill #808080, text [SF Pro Regular, 10px]
+        - TEXT "3 AM", 23x12px, constraints left/top, fill #808080, text [SF Pro Regular, 10px]
+        - TEXT "4 AM", 23x12px, constraints left/top, fill #808080, text [SF Pro Regular, 10px]
+        - TEXT "5 AM", 22x12px, constraints left/top, fill #808080, text [SF Pro Regular, 10px]
+        - TEXT "6 AM", 23x12px, constraints left/top, fill #808080, text [SF Pro Regular, 10px]
+        - TEXT "7 AM", 22x12px, constraints left/top, fill #808080, text [SF Pro Regular, 10px]
+        - TEXT "8 AM", 23x12px, constraints left/top, fill #808080, text [SF Pro Regular, 10px]
+        - TEXT "9 AM", 23x12px, constraints left/top, fill #808080, text [SF Pro Regular, 10px]
+        - GROUP "Current time indicator", 337x14.5px, constraints left/top
+          - VECTOR "Vector 26", 337x0px, constraints left/top, stroke #808080 1px
+          - VECTOR "Vector 27", 111x0px, constraints left/top, stroke #FFFFFF 2px
+          - VECTOR "Vector 25", 0x14.5px, constraints left/top, stroke #FFFFFF 2px
+  - INSTANCE "Next meeting bottomsheet", 390x241px, constraints left/bottom
+    - GROUP "Group 2", 390x241px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 28", 390x241px, constraints left/top, radius 16/16/0/0px, fill #1E1E1E
+      - FRAME "Frame 30", 340x212px, vertical pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 31", 340x4px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 32", 40x4px, constraints left/top, radius 14px, fill #565656
+        - FRAME "Frame 29", 325x60px, horizontal pad 12 0 12 0px gap 106px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Upcoming in 29 mins", 139x17px, constraints left/top, fill #808080, text [SF Pro Medium, 14px]
+          - FRAME "Frame 22", 80x36px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+        - FRAME "Frame 28", 340x132px, vertical pad 15 14 15 14px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #262626
+          - FRAME "Frame 27", 310x95px, vertical pad 0 0 0 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 25", 182x44px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 26", 310x40px, horizontal pad 10 26 10 26px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill gradient_linear(#ED7035 0% | #EB5629 100%)
+
+Screen: Main/Prototype / New Event
+- FRAME "New Event", 390x781px, constraints left/top
+  - RECTANGLE "Rectangle 28", 390x781px, constraints left/top, radius 16/16/0/0px, fill #1E1E1E
+  - FRAME "Main Frame", 374x755.95px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Drag Indicator", 374x4px, vertical pad 0 17 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 32", 40x4px, constraints left/top, radius 14px, fill #565656
+    - FRAME "Event Indicator", 374x28px, horizontal pad 0 16 0 0px gap 106px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Event", 38x17px, constraints left/top, fill #808080, text [SF Pro Medium, 14px]
+      - FRAME "Frame 22", 28x28px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Add Button", 28x28px, horizontal pad 7 7.78 7 7.78px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14.78px, fill #4D4D4D
+          - GROUP "Plus", 17.6x17.6px, constraints left/top
+            - VECTOR "Vector 16", 8.8x8.8px, constraints left/top, stroke #FFFFFF 1.56px
+            - VECTOR "Vector 17", 8.8x8.8px, constraints left/top, stroke #FFFFFF 1.56px
+    - FRAME "Title", 374x40px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Title", 39x24px, constraints left/top, fill #808080, text [SF Pro Medium, 20px]
+      - VECTOR "Vector 18", 374x0px, constraints left/top, stroke #303030 1px
+    - FRAME "Time With padding", 292x38px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Time", 282x18px, horizontal pad 0 0 0 0px gap 80px align min/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "From", 62x18px, horizontal pad 0 0 0 0px gap 14px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "clock", 18x18px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #666666 1.5px
+            - VECTOR "Vector", 3x6px, constraints scale/scale, stroke #666666 1.5px
+          - TEXT "3PM", 30x17px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 14px]
+        - FRAME "Till", 140x17px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 57", 85x17px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "arrow-right", 19x15px, constraints left/top, fill #FFFFFF
+            - TEXT "3:30PM", 52x17px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 14px]
+          - TEXT "30mins", 49x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+    - FRAME "Date", 116x37px, horizontal pad 10 10 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Tue Dec 20", 74x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+    - FRAME "Event Type", 233x37px, vertical pad 10 10 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 62", 191x17px, horizontal pad 0 0 0 0px gap 17px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "All-day", 46x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+        - TEXT "Time zone", 66x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+        - TEXT "Repeat", 45x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+    - VECTOR "Divider", 374x0px, constraints left/top, stroke #303030 1px
+    - FRAME "Participants with padding", 197x50px, vertical pad 16 0 16 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Participants", 197x18px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "user", 18x18px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x4.5px, constraints scale/scale, stroke #666666 1.5px
+          - VECTOR "Vector", 6x6px, constraints scale/scale, stroke #666666 1.5px
+        - TEXT "Add participants or rooms", 165x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+    - VECTOR "Divider", 374x0px, constraints left/top, stroke #303030 1px
+    - FRAME "Conference and Location", 118x76px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Conference with padding", 118x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Conference", 118x18px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "video", 18x18px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5.25x7.5px, constraints scale/scale, stroke #666666 1.5px
+            - VECTOR "Vector", 11.25x10.5px, constraints scale/scale, stroke #666666 1.5px
+          - TEXT "Conferencing", 86x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+      - FRAME "Location with padding", 87x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Location", 87x18px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "map-pin", 18x18px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.5x16.5px, constraints scale/scale, stroke #666666 1.5px
+            - VECTOR "Vector", 4.5x4.5px, constraints scale/scale, stroke #666666 1.5px
+          - TEXT "Location", 55x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+    - VECTOR "Divider", 374x0px, constraints left/top, stroke #303030 1px
+    - FRAME "Description", 73x37px, horizontal pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Description", 73x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+    - VECTOR "Divider", 374x0px, constraints left/top, stroke #303030 1px
+    - FRAME "Email", 223x37px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 72", 223x17px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 35", 16x16px, constraints left/top, radius 5px, fill #69AADE
+        - TEXT "yash.vardhan@herovired.com", 191x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+    - FRAME "Options", 298x37px, vertical pad 10 0 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 74", 266x17px, horizontal pad 0 0 0 0px gap 131px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Busy", 32x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+        - TEXT "Default visibility", 103x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+    - FRAME "Reminder", 101x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Reminder", 101x18px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "bell", 18x18px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.5x11.25px, constraints scale/scale, stroke #666666 1.5px
+          - VECTOR "Vector", 2.59x0.75px, constraints scale/scale, stroke #666666 1.5px
+        - TEXT "Reminders", 69x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+    - FRAME "Notify option", 126x37px, vertical pad 10 0 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 79", 94x17px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "10mins", 46x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+        - TEXT "before", 43x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+
+Screen: Main/Prototype / Prototype Nudge
+- FRAME "Prototype Nudge", 167x49px, horizontal pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #9747FF
+  - TEXT "Prototype This", 147x29px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 24px], [heading]
+
+Screen: Main/Prototype / arrow-right
+- FRAME "arrow-right", 15x17px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 8.75x0px, constraints scale/scale, stroke #000000 2px
+  - VECTOR "Vector", 4.38x9.92px, constraints scale/scale, stroke #000000 2px
+
+Screen: Main/Prototype / Side Nav/Hamburger
+- FRAME "Side Nav/Hamburger", 317x844px, constraints left/top
+  - RECTANGLE "Background", 317x844px, constraints left/top, fill #1A1A1A
+  - FRAME "Main Frame", 318x654.2px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Name and Setting", 317x32px, horizontal pad 0 16 0 16px gap 61px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "name and Avatar", 158x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Avatar", 32x32px, constraints left/top, radius 16px, fill image(hash: e87b8dffe89700d2a29bed7562c56b6dd1ca3c5f)
+        - FRAME "Name and Email", 118x28px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "_johndoe_", 61x14px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 12px]
+          - TEXT "john.doe@gmail.com", 118x14px, constraints left/top, fill #808080, text [SF Pro Regular, 12px]
+      - FRAME "settings", 18x18px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 4.5x4.5px, constraints scale/scale, stroke #808080 1.5px
+        - VECTOR "Vector", 16.5x16.5px, constraints scale/scale, stroke #808080 1.5px
+    - VECTOR "Divider", 316x0px, constraints left/top, stroke #303030 1px
+    - FRAME "Layout filter", 318x147px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "With Padding", 318x49px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "1 Day", 302x49px, horizontal pad 16 12 16 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 38", 18x13px, constraints left/top, radius 1px, stroke #666666 1px
+          - TEXT "1 day", 33x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+      - FRAME "With Padding", 318x49px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "2 Days", 302x49px, horizontal pad 16 12 16 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon", 18x13px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 39", 18x13px, constraints left/top, radius 1px, stroke #666666 1px
+            - VECTOR "Vector 23", 0x13px, constraints left/top, stroke #666666 1px
+          - TEXT "2 days", 42x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+      - FRAME "With Padding", 318x49px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "3 Days", 302x49px, horizontal pad 16 12 16 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #262626
+          - GROUP "Icon", 18x13px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 39", 18x13px, constraints left/top, radius 1px, stroke #666666 1px
+            - VECTOR "Vector 23", 0x13px, constraints left/top, stroke #666666 1px
+            - VECTOR "Vector 24", 0x13px, constraints left/top, stroke #666666 1px
+          - TEXT "3 days", 43x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+    - VECTOR "Divider", 316x0px, constraints left/top, stroke #303030 1px
+    - FRAME "Email 1 Settings", 318x171.8px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 97", 152x13px, horizontal pad 0 20 0 20px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "john.doe@work.com", 112x13px, constraints left/top, fill #808080, text [SF Pro Medium, 11px]
+      - FRAME "Frame 96", 318x150.8px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 90", 318x46px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 87", 302x46px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Frame 93", 282x22px, horizontal pad 0 0 0 0px gap 65px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 94", 318x41.6px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 87", 302x41.6px, horizontal pad 12 13 12 13px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Frame 93", 282x17.6px, horizontal pad 0 0 0 0px gap 65px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 95", 318x41.6px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 87", 302x41.6px, horizontal pad 12 13 12 13px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, opacity 40%
+            - FRAME "Frame 93", 282x17.6px, horizontal pad 0 0 0 0px gap 65px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 96", 318x21.6px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 87", 302x21.6px, horizontal pad 12 13 12 13px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, opacity 40%
+    - FRAME "Email 2 Settings", 318x167.4px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 97", 155x13px, horizontal pad 0 20 0 20px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "john.doe@gmail.com", 115x13px, constraints left/top, fill #808080, text [SF Pro Medium, 11px]
+      - FRAME "Frame 96", 318x146.4px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 90", 318x41.6px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 87", 302x41.6px, horizontal pad 12 13 12 13px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Frame 93", 282x17.6px, horizontal pad 0 0 0 0px gap 65px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 94", 318x41.6px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 87", 302x41.6px, horizontal pad 12 13 12 13px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Frame 93", 282x17.6px, horizontal pad 0 0 0 0px gap 65px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 95", 318x41.6px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 87", 302x41.6px, horizontal pad 12 13 12 13px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, opacity 40%
+            - FRAME "Frame 93", 282x17.6px, horizontal pad 0 0 0 0px gap 65px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 96", 318x21.6px, vertical pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 87", 302x21.6px, horizontal pad 12 13 12 13px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, opacity 40%
+    - FRAME "Add Calendar Account", 191x16px, horizontal pad 0 20 0 20px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "plus", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 0x9.33px, constraints scale/scale, stroke #808080 1.33px
+        - VECTOR "Vector", 9.33x0px, constraints scale/scale, stroke #808080 1.33px
+      - TEXT "Add calendar account", 127x14px, constraints left/top, fill #808080, text [SF Pro Medium, 12px]
+
+Screen: Main/Prototype / Component 2
+- INSTANCE "Component 2", 390x794px, constraints left/top
+  - GROUP "Group 2", 390x793px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 28", 390x793px, constraints left/top, radius 16/16/0/0px, fill #1E1E1E
+    - FRAME "Frame 30", 374x767px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 31", 374x4px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 32", 40x4px, constraints left/top, radius 14px, fill #565656
+      - FRAME "Frame 32", 374x36px, horizontal pad 0 16 0 0px gap 106px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Event", 38x17px, constraints left/top, fill #808080, text [SF Pro Medium, 14px]
+        - FRAME "Frame 104", 72x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+      - FRAME "Frame 55", 374x40px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Stackholder Discussion", 205x24px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 20px]
+        - VECTOR "Vector 18", 374x0px, constraints left/top, stroke #303030 1px
+      - FRAME "Frame 60", 292x38px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 59", 282x18px, horizontal pad 0 0 0 0px gap 80px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 56", 62x18px, horizontal pad 0 0 0 0px gap 14px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "clock", 18x18px, constraints left/top, fill #FFFFFF
+            - TEXT "3PM", 30x17px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 14px]
+          - FRAME "Frame 58", 140x17px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 57", 85x17px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "30mins", 49x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+      - FRAME "Frame 61", 116x37px, horizontal pad 10 10 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tue Dec 20", 74x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+      - FRAME "Frame 106", 374x37px, horizontal pad 0 16 0 0px gap 63px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 64", 89x37px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 59", 79x17px, horizontal pad 0 0 0 0px gap 19px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 105", 14x14px, horizontal pad 1 1 1 1px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 26px, stroke #5D5D5D 1px
+            - TEXT "All-day", 46x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+        - INSTANCE "Toggle Interaction", 51x31px, horizontal pad 2 2 2 2px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 15.5px, fill #3B3A3F
+          - RECTANGLE "Rectangle 41", 27x27px, constraints left/top, radius 15.5px, fill #FFFFFF
+      - FRAME "Frame 107", 374x37px, horizontal pad 0 16 0 0px gap 63px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 64", 179x37px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 59", 169x17px, horizontal pad 0 0 0 0px gap 19px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 6", 14x16px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+            - TEXT "GMT+5:30", 69x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+            - TEXT "Kolkata", 48x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+      - FRAME "Frame 108", 374x37px, horizontal pad 0 16 0 0px gap 63px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 64", 217x37px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 59", 207x17px, horizontal pad 0 0 0 0px gap 19px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 108", 14x14px, constraints left/top [decorative, ~4 shapes]
+            - TEXT "Every weekday", 96x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+            - TEXT "Mon - Fri", 59x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+      - FRAME "Frame 63", 233x37px, vertical pad 10 10 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 62", 191x17px, horizontal pad 0 0 0 0px gap 17px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "All-day", 46x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+          - TEXT "Time zone", 66x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+          - TEXT "Repeat", 45x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+      - VECTOR "Vector 20", 374x0px, constraints left/top, stroke #303030 1px
+      - FRAME "Frame 65", 197x50px, vertical pad 16 0 16 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 64", 197x18px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "user", 18x18px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x4.5px, constraints scale/scale, stroke #666666 1.5px
+            - VECTOR "Vector", 6x6px, constraints scale/scale, stroke #666666 1.5px
+          - TEXT "Add participants or rooms", 165x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+      - VECTOR "Vector 23", 374x0px, constraints left/top, stroke #303030 1px
+      - FRAME "Frame 70", 118x76px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 68", 118x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 66", 118x18px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "video", 18x18px, constraints left/top, fill #FFFFFF
+            - TEXT "Conferencing", 86x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+        - FRAME "Frame 69", 87x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 67", 87x18px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "map-pin", 18x18px, constraints left/top, fill #FFFFFF
+            - TEXT "Location", 55x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+      - VECTOR "Vector 21", 374x0px, constraints left/top, stroke #303030 1px
+      - FRAME "Frame 71", 73x37px, horizontal pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Description", 73x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+      - VECTOR "Vector 22", 374x0px, constraints left/top, stroke #303030 1px
+      - FRAME "Frame 73", 223x37px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 72", 223x17px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 35", 16x16px, constraints left/top, radius 5px, fill #69AADE
+          - TEXT "yash.vardhan@herovired.com", 191x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+      - FRAME "Frame 76", 298x37px, vertical pad 10 0 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 74", 266x17px, horizontal pad 0 0 0 0px gap 131px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Busy", 32x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+          - TEXT "Default visibility", 103x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+      - FRAME "Frame 77", 101x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 75", 101x18px, horizontal pad 0 0 0 0px gap 14px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "bell", 18x18px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.5x11.25px, constraints scale/scale, stroke #666666 1.5px
+            - VECTOR "Vector", 2.59x0.75px, constraints scale/scale, stroke #666666 1.5px
+          - TEXT "Reminders", 69x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+      - FRAME "Frame 80", 126x37px, vertical pad 10 0 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 79", 94x17px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "10mins", 46x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+          - TEXT "before", 43x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+
+Screen: Main/Prototype / arrow-right
+- FRAME "arrow-right", 15x15px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 8.75x0px, constraints scale/scale, stroke #000000 2px
+  - VECTOR "Vector", 4.38x8.75px, constraints scale/scale, stroke #000000 2px
+
+Screen: Components / Components
+- SECTION "Components", 1385x2994px, fill #E5E5E5, stroke #0000001A 1px
+  - COMPONENT_SET "Event/Session design", 539x170px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Status=Past, Duration=1 hr, Accepted=Yes", 110x58px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 16", 4x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #4C4D6F
+      - FRAME "Frame 15", 106x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #3E3F59
+        - TEXT "Hero Vired homepage bugs discussion", 98x39px, constraints left/top, fill #838394, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Past, Duration=15 mins, Accepted=Yes", 110x14.5px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 16", 4x14.5px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #4C4D6F
+      - FRAME "Frame 15", 106x14.5px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #3E3F59
+        - FRAME "Frame 33", 98x10px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Hero Vired homepage bugs discussionDen", 98x39px, constraints left/top, fill #838394, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Past, Duration=30 mins, Accepted=Yes", 110x29px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 16", 4x29px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #4C4D6F
+      - FRAME "Frame 15", 106x29px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #3E3F59
+        - FRAME "Frame 33", 98x23px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Hero Vired homepage bugs discussion", 98x39px, constraints left/top, fill #838394, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Upcoming, Duration=1 hr, Accepted=Yes", 110x58px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 16", 4x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #A1A3F8
+      - FRAME "Frame 15", 106x58px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #45465E
+        - TEXT "Hero Vired homepage bugs discussion", 98x39px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Upcoming, Duration=15 mins, Accepted=Yes", 110x14.5px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 16", 4x14.5px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #A1A3F8
+      - FRAME "Frame 15", 106x14.5px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #45465E
+        - FRAME "Frame 35", 98x10px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Hero Vired homepage bugs discussion", 98x39px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Upcoming, Duration=30 mins, Accepted=Yes", 110x29px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 16", 4x29px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 4/0/0/4px, fill #A1A3F8
+      - FRAME "Frame 15", 106x29px, horizontal pad 2.5 4 2.5 4px gap 10px sizing W:fixed H:fill, constraints left/top, radius 0/4/4/0px, fill #45465E
+        - FRAME "Frame 35", 98x24px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Hero Vired homepage bugs discussion", 98x39px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Upcoming, Duration=15 mins, Accepted=No", 110x14.5px, horizontal pad 2.5 8 2.5 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #69AADE 1px
+      - FRAME "Frame 34", 90x10px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Hero Vired homepage bugs discussion", 90x39px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Upcoming, Duration=30 mins, Accepted=No", 110x29px, horizontal pad 2.5 8 2.5 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #69AADE 1px
+      - FRAME "Frame 34", 90x24px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Hero Vired homepage bugs discussion", 90x39px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Upcoming, Duration=1 hr, Accepted=No", 110x58px, horizontal pad 2.5 8 2.5 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #69AADE 1px
+      - FRAME "Frame 34", 90x39px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Hero Vired homepage bugs discussion", 90x39px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Past, Duration=1 hr, Accepted=No", 110x58px, horizontal pad 2.5 8 2.5 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #69AADE 1px, opacity 50%
+      - TEXT "Hero Vired homepage bugs discussion", 94x39px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Past, Duration=15 mins, Accepted=No", 110x14.5px, horizontal pad 2.5 8 2.5 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #69AADE 1px, opacity 50%
+      - FRAME "Frame 32", 94x10px, constraints left/top
+        - TEXT "Hero Vired homepage bugs discussion", 94x8px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 11px]
+    - COMPONENT "Status=Past, Duration=30 mins, Accepted=No", 110x29px, horizontal pad 2.5 8 2.5 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #69AADE 1px, opacity 50%
+      - FRAME "Frame 32", 94x24px, constraints left/top
+        - TEXT "Hero Vired homepage bugs discussion", 94x8px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 11px]
+  - COMPONENT_SET "Month Collapse/Expand View", 860x388px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Collapsed", 390x64px, horizontal pad 12 24 12 24px gap 120px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #1A1A1A
+      - FRAME "Frame 7", 198x40px, horizontal pad 0 0 0 0px gap 18px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 6", 22x12px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector 6", 22x0px, constraints left/top, stroke #808080 1.3px
+          - VECTOR "Vector 7", 22x0px, constraints left/top, stroke #808080 1.3px
+          - VECTOR "Vector 8", 22x0px, constraints left/top, stroke #808080 1.3px
+        - FRAME "Frame 54", 158x40px, vertical pad 4 8 4 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Frame 5", 142x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "December", 120x32px, constraints left/top, fill #FFFFFF, text [Helvetica Neue Bold, 26px], [heading]
+            - FRAME "Frame 4", 22x17px, vertical pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "States for Today date", 32x32px, horizontal pad 0 0 0 0px gap -27px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 26", 27x23px, constraints left/top, radius 6px, fill #2D2D2D
+        - RECTANGLE "Rectangle 27", 27x27px, constraints left/top, radius 7px, fill #404040
+        - FRAME "Frame 2", 32x32px, vertical pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #404040
+          - TEXT "20", 18x17px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 14px]
+    - COMPONENT "State=Expanded", 390x348px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke #3B3B3B 1px
+      - FRAME "Month Collapse/Expand View", 390x64px, horizontal pad 12 24 12 24px gap 120px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #1A1A1A
+        - FRAME "Frame 7", 198x40px, horizontal pad 0 0 0 0px gap 18px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 6", 22x12px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector 6", 22x0px, constraints left/top, stroke #808080 1.3px
+            - VECTOR "Vector 7", 22x0px, constraints left/top, stroke #808080 1.3px
+            - VECTOR "Vector 8", 22x0px, constraints left/top, stroke #808080 1.3px
+          - FRAME "Frame 54", 158x40px, vertical pad 4 8 4 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #333333
+            - FRAME "Frame 5", 142x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "States for Today date", 32x32px, horizontal pad 0 0 0 0px gap -27px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 26", 27x23px, constraints left/top, radius 6px, fill #2D2D2D
+          - RECTANGLE "Rectangle 27", 27x27px, constraints left/top, radius 7px, fill #404040
+          - FRAME "Frame 2", 32x32px, vertical pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #404040
+            - TEXT "20", 18x17px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 14px]
+      - FRAME "Frame 52", 390x284px, vertical pad 0 9 0 9px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #1A1A1A
+        - FRAME "Frame 47", 372x284px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 48", 372x32px, horizontal pad 0 0 0 0px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 39", 42x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 40", 42x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 41", 42x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 42", 42x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 43", 42x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 44", 42x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 45", 42x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+          - FRAME "Frame 49", 372x42px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 39", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 40", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 41", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 42", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 43", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 44", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 45", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+          - FRAME "Frame 43", 372x42px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 39", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 40", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 41", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 42", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 43", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 44", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 45", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+          - FRAME "Frame 44", 372x42px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 39", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 40", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 41", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 42", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 43", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 44", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 45", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+          - FRAME "Frame 45", 372x42px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 39", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 40", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 50", 152x42px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #333333
+            - FRAME "Frame 44", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 45", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+          - FRAME "Frame 46", 372x42px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 39", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 40", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 41", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 42", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 43", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 44", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 45", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+          - FRAME "Frame 47", 372x42px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 39", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 40", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 41", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 42", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 43", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 44", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+            - FRAME "Frame 45", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+  - COMPONENT_SET "Next meeting bottomsheet", 882x281px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Frame 82", 390x241px, constraints left/top
+      - GROUP "Group 2", 390x241px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 28", 390x241px, constraints left/top, radius 16/16/0/0px, fill #1E1E1E
+        - FRAME "Frame 30", 340x212px, vertical pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31", 340x4px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 32", 40x4px, constraints left/top, radius 14px, fill #565656
+          - FRAME "Frame 29", 325x60px, horizontal pad 12 0 12 0px gap 106px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Upcoming in 29 mins", 139x17px, constraints left/top, fill #808080, text [SF Pro Medium, 14px]
+            - FRAME "Frame 22", 80x36px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+          - FRAME "Frame 28", 340x132px, vertical pad 15 14 15 14px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #262626
+            - FRAME "Frame 27", 310x95px, vertical pad 0 0 0 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Property 1=Frame 83", 390x241px, constraints left/top
+      - GROUP "Group 2", 390x241px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 28", 390x241px, constraints left/top, radius 16/16/0/0px, fill #1E1E1E
+        - FRAME "Frame 30", 340x212px, vertical pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31", 340x4px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 32", 40x4px, constraints left/top, radius 14px, fill #565656
+          - FRAME "Frame 29", 325x60px, horizontal pad 12 0 12 0px gap 106px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Upcoming in 29 mins", 139x17px, constraints left/top, fill #808080, text [SF Pro Medium, 14px]
+            - FRAME "Frame 22", 80x36px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+          - FRAME "Frame 28", 340x132px, vertical pad 15 14 15 14px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #262626
+            - FRAME "Frame 27", 310x95px, vertical pad 0 0 0 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+  - COMPONENT_SET "States for Today date", 256x72px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=One_left", 36x32px, horizontal pad 0 0 0 0px gap -27px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 26", 27x23px, constraints left/top, radius 6px, fill #2D2D2D
+      - FRAME "Frame 19", 36x32px, horizontal pad 0 0 0 0px gap -23px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 27", 27x27px, constraints left/top, radius 7px, fill #404040
+        - FRAME "Frame 2", 32x32px, vertical pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #EC6330
+          - TEXT "20", 18x17px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 14px]
+    - COMPONENT "State=Many_left", 40x32px, horizontal pad 0 0 0 0px gap -23px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 26", 27x23px, constraints left/top, radius 6px, fill #2D2D2D
+      - RECTANGLE "Rectangle 27", 27x27px, constraints left/top, radius 7px, fill #404040
+      - FRAME "Frame 2", 32x32px, vertical pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #EC6330
+        - TEXT "20", 18x17px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 14px]
+    - COMPONENT "State=Many_right", 40x32px, horizontal pad 0 0 0 0px gap -23px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 2", 32x32px, vertical pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #EC6330
+        - TEXT "20", 18x17px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 14px]
+      - RECTANGLE "Rectangle 27", 27x27px, constraints left/top, radius 7px, fill #404040
+      - RECTANGLE "Rectangle 26", 27x23px, constraints left/top, radius 6px, fill #2D2D2D
+    - COMPONENT "State=One_right", 36x32px, horizontal pad 0 0 0 0px gap -27px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 19", 36x32px, horizontal pad 0 0 0 0px gap -23px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 32x32px, vertical pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #EC6330
+          - TEXT "20", 18x17px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 14px]
+        - RECTANGLE "Rectangle 27", 27x27px, constraints left/top, radius 7px, fill #404040
+      - RECTANGLE "Rectangle 26", 27x23px, constraints left/top, radius 6px, fill #2D2D2D
+    - COMPONENT "State=Today", 32x32px, horizontal pad 0 0 0 0px gap -27px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 26", 27x23px, constraints left/top, radius 6px, fill #2D2D2D
+      - RECTANGLE "Rectangle 27", 27x27px, constraints left/top, radius 7px, fill #404040
+      - FRAME "Frame 2", 32x32px, vertical pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #404040
+        - TEXT "20", 18x17px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 14px]
+  - COMPONENT_SET "Date highlight", 192x208px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "View=1 Day", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px, fill #333333
+      - FRAME "Frame 37", 30x30px, vertical pad 8 7 8 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #EC6330
+        - TEXT "20", 15x14px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 11.83px]
+    - COMPONENT "View=3 Days", 152x42px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #333333
+      - FRAME "Frame 48", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px, fill #333333
+        - FRAME "Frame 37", 30x30px, vertical pad 8 7 8 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #EC6330
+          - TEXT "20", 15x14px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 11.83px]
+      - FRAME "Frame 49", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+        - FRAME "Frame 37", 30x30px, vertical pad 8 7 8 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - TEXT "21", 13x14px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 11.83px]
+      - FRAME "Frame 43", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+        - FRAME "Frame 37", 30x30px, vertical pad 8 7 8 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - TEXT "22", 14x14px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 11.83px]
+    - COMPONENT "View=2 Day", 97x42px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #333333
+      - FRAME "Frame 41", 42x42px, horizontal pad 6 61 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px, fill #333333
+        - FRAME "Frame 37", 30x30px, vertical pad 8 7 8 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #EC6330
+          - TEXT "20", 15x14px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 11.83px]
+      - FRAME "Frame 42", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+        - FRAME "Frame 37", 30x30px, vertical pad 8 7 8 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - TEXT "21", 13x14px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 11.83px]
+  - COMPONENT_SET "Toggle Interaction", 182x71px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Frame 106", 51x31px, horizontal pad 2 2 2 2px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 15.5px, fill #3B3A3F
+      - RECTANGLE "Rectangle 41", 27x27px, constraints left/top, radius 15.5px, fill #FFFFFF
+    - COMPONENT "Property 1=Frame 107", 51x31px, horizontal pad 2 2 2 2px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, radius 15.5px, fill #EC6330
+      - RECTANGLE "Rectangle 41", 27x27px, constraints left/top, radius 15.5px, fill #FFFFFF
+  - COMPONENT_SET "Event Click Interaction", 873x884px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Event Click Design -2", 390x793px, constraints left/top
+      - GROUP "Group 2", 390x793px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 28", 390x793px, constraints left/top, radius 16/16/0/0px, fill #1E1E1E
+        - FRAME "Frame 30", 374x767px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31", 374x4px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 32", 40x4px, constraints left/top, radius 14px, fill #565656
+          - FRAME "Frame 32", 374x36px, horizontal pad 0 16 0 0px gap 106px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Event", 38x17px, constraints left/top, fill #808080, text [SF Pro Medium, 14px]
+            - FRAME "Frame 104", 72x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+          - FRAME "Frame 55", 374x40px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Stackholder Discussion", 205x24px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 20px]
+            - VECTOR "Vector 18", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 60", 292x38px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 59", 282x18px, horizontal pad 0 0 0 0px gap 80px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 61", 116x37px, horizontal pad 10 10 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Tue Dec 20", 74x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+          - FRAME "Frame 106", 374x37px, horizontal pad 0 16 0 0px gap 63px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 64", 89x37px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Toggle Interaction", 51x31px, horizontal pad 2 2 2 2px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 15.5px, fill #3B3A3F
+          - FRAME "Frame 107", 374x37px, horizontal pad 0 16 0 0px gap 63px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 64", 179x37px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 108", 374x37px, horizontal pad 0 16 0 0px gap 63px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 64", 217x37px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 63", 233x37px, vertical pad 10 10 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 62", 191x17px, horizontal pad 0 0 0 0px gap 17px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector 20", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 65", 197x50px, vertical pad 16 0 16 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 64", 197x18px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector 23", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 70", 118x76px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 68", 118x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 69", 87x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector 21", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 71", 73x37px, horizontal pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Description", 73x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+          - VECTOR "Vector 22", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 73", 223x37px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 72", 223x17px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 76", 298x37px, vertical pad 10 0 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 74", 266x17px, horizontal pad 0 0 0 0px gap 131px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 77", 101x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 75", 101x18px, horizontal pad 0 0 0 0px gap 14px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 80", 126x37px, vertical pad 10 0 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 79", 94x17px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Property 1=Event Click Design -1", 390x794px, constraints left/top
+      - GROUP "Group 2", 390x793px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 28", 390x793px, constraints left/top, radius 16/16/0/0px, fill #1E1E1E
+        - FRAME "Frame 30", 374x767px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31", 374x4px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 32", 40x4px, constraints left/top, radius 14px, fill #565656
+          - FRAME "Frame 32", 374x36px, horizontal pad 0 16 0 0px gap 106px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Event", 38x17px, constraints left/top, fill #808080, text [SF Pro Medium, 14px]
+            - FRAME "Frame 104", 72x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+          - FRAME "Frame 55", 374x40px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Stackholder Discussion", 205x24px, constraints left/top, fill #FFFFFF, text [SF Pro Medium, 20px]
+            - VECTOR "Vector 18", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 60", 292x38px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 59", 282x18px, horizontal pad 0 0 0 0px gap 80px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 61", 116x37px, horizontal pad 10 10 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Tue Dec 20", 74x17px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 14px]
+          - FRAME "Frame 106", 374x37px, horizontal pad 0 16 0 0px gap 63px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 64", 89x37px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Toggle Interaction", 51x31px, horizontal pad 2 2 2 2px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 15.5px, fill #3B3A3F
+          - FRAME "Frame 107", 374x37px, horizontal pad 0 16 0 0px gap 63px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 64", 179x37px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 108", 374x37px, horizontal pad 0 16 0 0px gap 63px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 64", 217x37px, vertical pad 10 10 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 63", 233x37px, vertical pad 10 10 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 62", 191x17px, horizontal pad 0 0 0 0px gap 17px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector 20", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 65", 197x50px, vertical pad 16 0 16 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 64", 197x18px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector 23", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 70", 118x76px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 68", 118x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 69", 87x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector 21", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 71", 73x37px, horizontal pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Description", 73x17px, constraints left/top, fill #808080, text [SF Pro Regular, 14px]
+          - VECTOR "Vector 22", 374x0px, constraints left/top, stroke #303030 1px
+          - FRAME "Frame 73", 223x37px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 72", 223x17px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 76", 298x37px, vertical pad 10 0 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 74", 266x17px, horizontal pad 0 0 0 0px gap 131px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 77", 101x38px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 75", 101x18px, horizontal pad 0 0 0 0px gap 14px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 80", 126x37px, vertical pad 10 0 10 32px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 79", 94x17px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+
+Screen: Components / Date
+- COMPONENT "Date", 42x42px, horizontal pad 6 6 6 6px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6.33px
+  - FRAME "Frame 37", 30x30px, vertical pad 8 7 8 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+    - TEXT "27", 14x14px, constraints left/top, fill #606060, text [SF Pro Regular, 11.83px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,34 @@
+<div class="app">
+  <style>
+    .app{font-family:system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",sans-serif;color:#222;background:#fff;min-height:100vh;padding:0 16px 20px}
+    .hero{margin-top:8px;border-radius:24px;overflow:hidden;background:radial-gradient(circle at 20% 20%,#D23760 0,#C72D65 48%,#D23755 100%);height:430px;position:relative;color:#fff;padding:20px}
+    .hero h1{font-size:40px;font-weight:500;line-height:1.05;margin:0;max-width:280px}
+    .hero p{font-size:18px;line-height:1.35;margin:14px 0 0;max-width:290px;color:rgba(255,255,255,.92)}
+    .floating{position:absolute;right:16px;bottom:16px;width:128px;height:128px;border-radius:28px;background:rgba(255,255,255,.16);backdrop-filter:none;border:1px solid rgba(255,255,255,.18);display:grid;place-items:center}
+    .mini{width:88px;height:88px;border-radius:22px;background:#fff;display:grid;place-items:center}
+    .mini svg{width:42px;height:42px;stroke:#FF385C;stroke-width:2}
+    .steps{display:flex;gap:8px;margin:14px 0}
+    .dot{width:8px;height:8px;border-radius:999px;background:#DDDDDD}.dot.sel{background:#FF385C}
+    .section{margin-top:18px}
+    .benefit{display:flex;gap:12px;padding:14px 0;border-bottom:1px solid #EBEBEB}
+    .benefit:last-child{border-bottom:0}
+    .ico{width:32px;height:32px;border-radius:50%;background:#F7F7F7;display:grid;place-items:center;flex:0 0 auto}
+    .btitle{font-size:16px;font-weight:600;margin:0 0 3px}
+    .btext{font-size:14px;color:#717171;line-height:1.35;margin:0}
+    .btn{margin-top:18px;height:47px;border-radius:8px;background:linear-gradient(135deg,#D33753,#D13660,#C72D65);color:#fff;display:grid;place-items:center;font-size:16px;font-weight:600}
+    .link{text-align:center;margin-top:12px;font-size:14px;color:#004CC4;text-decoration:underline}
+  </style>
+  <div class="hero">
+    <h1>Find a place that fits your trip</h1>
+    <p>Browse homes, cabins, and city stays with simple filters, reviews, and clear prices.</p>
+    <div class="floating"><div class="mini"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.5-7-11a7 7 0 0 1 14 0c0 6.5-7 11-7 11z"/><path d="M9 11.5 11.2 14l4-5"/></svg></div></div>
+  </div>
+  <div class="steps"><div class="dot sel"></div><div class="dot"></div><div class="dot"></div></div>
+  <div class="section">
+    <div class="benefit"><div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="1.8"><path d="M12 8v5l3 2"/><circle cx="12" cy="12" r="9"/></svg></div><div><div class="btitle">Flexible check-in and check-out</div><p class="btext">Pick dates that work, then narrow results with easy chips and tabs.</p></div></div>
+    <div class="benefit"><div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="1.8"><path d="M4 7h16M6 7v12h12V7"/><path d="M9 7v-2h6v2"/></svg></div><div><div class="btitle">Simple room details</div><p class="btext">See sleep setup, ratings, and nightly price before you tap through.</p></div></div>
+    <div class="benefit"><div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="1.8"><path d="M12 3v18M3 12h18"/></svg></div><div><div class="btitle">Favorites and alerts</div><p class="btext">Save places and get notified when something changes on a reservation.</p></div></div>
+  </div>
+  <div class="btn">Get started</div>
+  <div class="link">I already have an account</div>
+</div>

@@ -1,0 +1,1560 @@
+---
+name: clockify-add-ons-ui-kit-community
+source_file: Clockify Add-ons UI Kit (Community)
+source_page: All pages (8): Cover, -----, Introduction, Colors, Typography, Icons, UI Elements - Light mode, UI Elements - Dark mode
+generated_at: 2026-07-25T09:23:30.897866+00:00
+---
+
+# Clockify Add-ons UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Clockify Add-ons UI Kit (Community)
+- Figma page: All pages (8): Cover, -----, Introduction, Colors, Typography, Icons, UI Elements - Light mode, UI Elements - Dark mode
+- Extracted at: 2026-07-25T09:23:30.897866+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Blue-gray color palette/BG 10: [#263238]
+- Blue Gray/BG 10: [#263238]
+- Primary color palette/Primary: [#03A9F4]
+- Blue Gray/BG 11: [#1D272C]
+- Primary/Marketplace primary: [#0A9AFF]
+- Blue-gray color palette/BG 12: [#12191D]
+- Blue Gray/BG 12: [#12191D]
+- Gray/Medium Emphasis - 666: [#0000008A]
+- Primary color palette/Primary hover: [#0288D1]
+- Primary/Surface: [#FFFFFF]
+- Gray/Placeholder Text - CCC: [#00000033]
+- Alert color palette | dark mode/Info alert bg: [#01354D]
+- Alert color palette | dark mode/Info alert text: [#CDEEFD]
+- Alert color palette | dark mode/Error alert bg: [#551713]
+- Alert color palette | dark mode/Error alert bg: [#FCCAC7]
+- Blue-gray color palette/BG 04: [#90A4AE]
+- Blue-gray color palette/BG 08: [#455A64]
+- Alert color palette | dark mode/Success alert bg: [#18381A]
+- Alert color palette | dark mode/Success alert text: [#CDE9CE]
+- Alert color palette | dark mode/Warning alert bg: [#523100]
+- Alert color palette | dark mode/Warning alert text: [#FFE2B8]
+- Basic color palette/Red: [#F44336]
+- White text: [#FFFFFF]
+- Basic color palette/Orange: [#FF9800]
+- Surface: [#FFFFFF]
+- Basic color palette/Light green: [#8BC34A]
+- Primary/Marketplace hover: [#0288D1]
+- Blue Gray/BG 01 - Background: [#F2F6F8]
+- Gray/High Emphasis - 333: [#000000DE]
+- Blue-gray color palette/BG 02: [#E4EAEE]
+- Blue Gray/BG 03 - Strokes: [#FFFFFF]
+- Gray/Low Emphasis - 999: [#00000052]
+- Blue-gray color palette/BG 01: [#F2F6F8]
+- Basic color palette/Light blue: [#03A9F4]
+- Text color palette/Low Emhasis: [#00000052]
+- Clockify/Light/clockify-primary-light: [#03A9F4]
+- Basic/Red - Error: [#0000008A]
+- Alert color palette | light mode/Info alert bg: [#E1F5FE]
+- Alert color palette | light mode/Info alert text: [#0277BD]
+- Alert color palette | light mode/Error alert bg: [#FDD9D7]
+- Alert color palette | light mode/Error alert text: [#7F231C]
+- Text color palette/Medium Emphasis: [#0000008A]
+- Text color palette/High Emphasis: [#000000DE]
+- Alert color palette | light mode/Success alert bg: [#DBEFDC]
+- Alert color palette | light mode/Success alert text: [#285B2A]
+- Alert color palette | light mode/Warning alert bg: [#FFEACC]
+- Alert color palette | light mode/Warning alert text: [#854F00]
+- Basic/Orange - Warning: [#FF9800]
+- Basic/Light Green - Success: [#FFFFFF]
+- Blue Gray/BG04: [#FFFFFF]
+- Primary/Coing: [#0A9AFF]
+- Primary/Coing hover: [#FFFFFF]
+- Blue-gray color palette/BG 07: [#546E7A]
+- Icons: [#90A4AE]
+- Blue Gray/BG 03 - Strokes: none
+- Basic color palette/Brown: [#795548]
+- Basic color palette/Cyan: [#00BCD4]
+- Basic color palette/Deep orange: [#FF5722]
+- Basic color palette/Indigo: [#3F51B5]
+- Basic color palette/Amber: [#FFC107]
+- Basic color palette/Deep purple: [#673AB7]
+- Basic color palette/Purple: [#9C27B0]
+- Basic color palette/Green: [#4CAF50]
+- Basic color palette/Pink: [#E91E63]
+- Basic color palette/Teal: [#009688]
+- Blue-gray color palette/BG 06: [#607D8B]
+- Blue-gray color palette/BG 11: [#1D272C]
+- Blue-gray color palette/BG 05: [#78909C]
+- Blue-gray color palette/BG 09: [#37474F]
+- Blue-gray color palette/BG 03: [#C6D2D9]
+- Text color palette/Placeholder Text: [#00000033]
+- Background/Container: [#F6F8FA]
+- Blue Gray/BG 06: [#607D8B]
+- Blue Gray/BG 02 - Highlight: [#E4EAEE]
+- Background/Surface: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #FFFFFFDE: 230 uses
+- #D9D9D9: 66 uses
+- #C4C4C4: 64 uses
+- #FFFFFF8A: 18 uses
+- #0000008A: 17 uses
+- #37474F: 17 uses
+- #375162: 10 uses
+- #03A9F4: 9 uses
+- #FFFFFF: 9 uses
+- #B6CAD8: 6 uses
+- #DDDDDD: 6 uses
+- #FFFFFF52: 5 uses
+- #E4EAEE: 3 uses
+
+## Typography Tokens
+- Body 1 - 400, 14: Roboto Regular (400), 14px / 21px, tracking 0px
+- H2 - 500, 18: Roboto Medium (500), 18px / 27px, tracking 0px
+- Caption 01 - 400, 12: Roboto Regular (400), 12px / 128%, tracking 0px
+- Label - lower line height: Roboto Regular (400), 14px / 16px, tracking 0px
+- Body 2 - 500, 14: Roboto Medium (500), 14px / 21px, tracking 0px
+- Label - lower line height: Inter Regular (400), 14px / 16px, tracking 0px
+- Body text 1: Roboto Regular (400), 14px / 21px, tracking 0px
+- Button - 400, Uppercase 14: Roboto Regular (400), 14px / auto, tracking 0px
+- H1 - 400, 24: Roboto Regular (400), 24px / 34px, tracking 0px
+- Caption text: Roboto Regular (400), 12px / 128%, tracking 0px
+- Label text 2: Roboto Bold (700), 14px / 14px, tracking 0px
+- Label text 1: Roboto Regular (400), 14px / 16px, tracking 0px
+- Button text: Roboto Regular (400), 14px / auto, tracking 0px
+- Body text 3: Roboto Bold (700), 14px / 21px, tracking 0px
+- Body text 2: Roboto Medium (500), 14px / 21px, tracking 0px
+- Heading 2: Roboto Medium (500), 18px / 27px, tracking 0px
+- Hero title: Roboto Regular (400), 24px / 34px, tracking 0px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 10px: 60 uses
+- Roboto Regular, 14px: 9 uses
+- Roboto Regular, 12px: 6 uses
+- Roboto Regular, 20px: 6 uses
+- Roboto Regular, 20.59px: 5 uses
+
+## Typography Hierarchy
+- 24px - H1 - 400, 24 (Roboto Regular)
+- 24px - Hero title (Roboto Regular)
+- 20.59px - Roboto Regular, 20.59px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 18px - H2 - 500, 18 (Roboto Medium)
+- 18px - Heading 2 (Roboto Medium)
+- 14px - Body 1 - 400, 14 (Roboto Regular)
+- 14px - Body 2 - 500, 14 (Roboto Medium)
+- 14px - Body text 1 (Roboto Regular)
+- 14px - Body text 2 (Roboto Medium)
+- 14px - Body text 3 (Roboto Bold)
+- 14px - Button - 400, Uppercase 14 (Roboto Regular)
+- 14px - Button text (Roboto Regular)
+- 14px - Label - lower line height (Inter Regular)
+- 14px - Label - lower line height (Roboto Regular)
+- 14px - Label text 1 (Roboto Regular)
+- 14px - Label text 2 (Roboto Bold)
+- 14px - Roboto Regular, 14px (raw)
+- 12px - Caption 01 - 400, 12 (Roboto Regular)
+- 12px - Caption text (Roboto Regular)
+- 12px - Roboto Regular, 12px (raw)
+- 10px - Roboto Regular, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow: none
+- Item hover: [drop_shadow 10px offset 0 0 #0000001A]
+- 01: [drop_shadow 4px offset 0 0 #00000040]
+- Shadow/Large: [drop_shadow 15px offset 0 5 #0000001F, drop_shadow 35px offset 0 15 #3C425714]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Badge
+- Wallet
+- Loop smaller
+- Loop
+- Refresh
+- Tag-required
+- Sort none
+- Sort down
+- Sort up
+- Add-ons
+- Stop
+- Drag item
+- Cup strikethrough
+- Cup
+- Backspace
+- Clockout
+- Kiosk
+- Checkmark Green
+- Pending
+- Live track
+- Visible
+- Checked
+- Shared
+- PTO - Time off
+- chat 11
+- Emoji
+- More smaller
+- Search smaller
+- Minimize
+- Launch
+- Estimate
+- Zoom out
+- Zoom in
+- Scheduling
+- Info_big
+- Error
+- Language
+- translate
+- Check_mark
+- Attachment
+- Flag
+- Drag resize
+- Resize
+- Notes
+- Select arrow
+- Hamburger
+- Plugin
+- Manual Mode
+- Automatic Mode
+- Arrow Right
+- Arrow Left
+- Arrow Up
+- Arrow Down
+- Info
+- Print
+- Settings
+- Globe
+- Approvals
+- Add Required
+- Help
+- Edit
+- Delete
+- Maximise
+- Bulk Edit
+- More
+- Share
+- Duplicate
+- Activities
+- Invoices
+- Remove
+- Add
+- Download
+- Compact
+- Comfortable
+- Notifications
+- Exit
+- Star Outline
+- Close
+- Play
+- Locked
+- Search
+- Billable
+- Save
+- Pin
+- Calendar
+- Subscription
+- Upgrade
+- Support
+- Tags
+- Clients
+- Team
+- Projects
+- Reports
+- Dashboard
+- Tracker
+- Timesheet
+- Workspaces
+- Select - v1
+- Loader
+- Tag
+- Status
+- Toast mesages
+- Alerts
+- Check box
+- Radio buttons
+- Switch
+- Input
+- Secondary outline hover
+- Secondary outline normal
+- Secondary disabled
+- Secondary hover
+- Secondary normal
+- Primary outline disabled
+- Primary outline hover
+- Primary outline normal
+- Primary Disabled
+- Primary hover
+- Primary normal
+- Dropdown menu
+
+## Component Specs
+- Badge: size 107x54px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Roboto Regular, 35px]
+- Wallet: size 20x19px, fill #FFFFFF
+- Loop smaller: size 20x20px, fill #FFFFFF
+- Loop: size 20x20px, fill #FFFFFF
+- Refresh: size 20x20px, fill #FFFFFF
+- Tag-required: size 20x22px, fill #FFFFFF
+- Sort none: size 20x20px, fill #FFFFFF
+- Sort down: size 20x20px, fill #FFFFFF
+- Sort up: size 20x20px, fill #FFFFFF
+- Add-ons: size 20x20px, fill #FFFFFF
+- Stop: size 20x20px, fill #FFFFFF
+- Drag item: size 20x20px, fill #FFFFFF
+- Cup strikethrough: size 20x20px, fill #FFFFFF
+- Cup: size 20x20px, fill #FFFFFF
+- Backspace: size 20x20px, fill #FFFFFF
+- Clockout: size 20.01x20px, fill #FFFFFF
+- Kiosk: size 20x20px, fill #FFFFFF
+- Checkmark Green: size 20x20px, fill #FFFFFF
+- Pending: size 20x20px, fill #FFFFFF
+- Live track: size 20x20px, fill #FFFFFF
+- Visible: size 20.01x20px, fill #FFFFFF
+- Checked: size 20x20px, fill #FFFFFF
+- Shared: size 20x20px, fill #FFFFFF
+- PTO - Time off: size 20x20px, fill #FFFFFF
+- chat 11: size 20x20px, fill #FFFFFF
+- Emoji: size 20x20px, fill #FFFFFF
+- More smaller: size 20x20px, fill #FFFFFF
+- Search smaller: size 20x20px, fill #FFFFFF
+- Minimize: size 20x20px, fill #FFFFFF
+- Launch: size 20x20px, fill #FFFFFF
+- Estimate: size 20x20px, fill #FFFFFF
+- Zoom out: size 20x20px, fill #FFFFFF
+- Zoom in: size 20x20px, fill #FFFFFF
+- Scheduling: size 20x20px, fill #FFFFFF
+- Info_big: size 20x20px, fill #FFFFFF
+- Error: size 20x20px, fill #FFFFFF
+- Language: size 20x20px, fill #FFFFFF
+- translate: size 20x20px, fill #FFFFFF
+- Check_mark: size 20x20px, fill #FFFFFF
+- Attachment: size 20x20px, fill #FFFFFF
+- Flag: size 20x20px, fill #FFFFFF
+- Drag resize: size 20x20px, fill #FFFFFF
+- Resize: size 20x20px, fill #FFFFFF
+- Notes: size 20x20px, fill #FFFFFF
+- Select arrow: size 20x20px, fill #FFFFFF
+- Hamburger: size 20x20px, fill #FFFFFF
+- Plugin: size 20x20px, fill #FFFFFF
+- Manual Mode: size 20x20px, fill #FFFFFF
+- Automatic Mode: size 20x20px, fill #FFFFFF
+- Arrow Right: size 20x20px, fill #FFFFFF
+- Arrow Left: size 20x20px, fill #FFFFFF
+- Arrow Up: size 20x20px, fill #FFFFFF
+- Arrow Down: size 20x20px, fill #FFFFFF
+- Info: size 20x20px, fill #FFFFFF
+- Print: size 20x20px, fill #FFFFFF
+- Settings: size 20x20px, fill #FFFFFF
+- Globe: size 20x20px, fill #FFFFFF
+- Approvals: size 20x20px, fill #FFFFFF
+- Add Required: size 20x20px, fill #FFFFFF
+- Help: size 20x20px, fill #FFFFFF
+- Edit: size 20x20px, fill #FFFFFF
+- Delete: size 20x20px, fill #FFFFFF
+- Maximise: size 20x20px, fill #FFFFFF
+- Bulk Edit: size 20x20px, fill #FFFFFF
+- More: size 20x20px, fill #FFFFFF
+- Share: size 20x20px, fill #FFFFFF
+- Duplicate: size 20x20px, fill #FFFFFF
+- Activities: size 20x20px, fill #FFFFFF
+- Invoices: size 20x20px, fill #FFFFFF
+- Remove: size 20x20px, fill #FFFFFF
+- Add: size 20x20px, fill #FFFFFF
+- Download: size 20x20px, fill #FFFFFF
+- Compact: size 20x20px, fill #FFFFFF
+- Comfortable: size 20x20px, fill #FFFFFF
+- Notifications: size 20x20px, fill #FFFFFF
+- Exit: size 20x20px, fill #FFFFFF
+- Star Outline: size 20x20px, fill #FFFFFF
+- Close: size 20x20px, fill #FFFFFF
+- Play: size 20x20px, fill #FFFFFF
+- Locked: size 20x20px, fill #FFFFFF
+- Search: size 20x20px, fill #FFFFFF
+- Billable: size 20x20px, fill #FFFFFF
+- Save: size 20x20px, fill #FFFFFF
+- Pin: size 20x20px, fill #FFFFFF
+- Calendar: size 20x20px, fill #FFFFFF
+- Subscription: size 20x20px, fill #FFFFFF
+- Upgrade: size 20x20px, fill #FFFFFF
+- Support: size 20x20px, fill #FFFFFF
+- Tags: size 20x20px, fill #FFFFFF
+- Clients: size 20x20px, fill #FFFFFF
+- Team: size 20x20px, fill #FFFFFF
+- Projects: size 20x20px, fill #FFFFFF
+- Reports: size 20x20px, fill #FFFFFF
+- Dashboard: size 20x20px, fill #FFFFFF
+- Tracker: size 20x20px, fill #FFFFFF
+- Timesheet: size 20x20px, fill #FFFFFF
+- Workspaces: size 20x20px, fill #FFFFFF
+- Select - v1/With left icon: size 250x40px, fill #FFFFFF, text [Body 1 - 400, 14]
+- Loader/Tree rows: size 260x100px, fill #FFFFFF, text [Roboto Regular, 18px, Body 1 - 400, 14, H2 - 500, 18]
+- Loader/Two rows (UI Elements - Light mode): size 260x100px, fill #FFFFFF, text [H2 - 500, 18, Body 1 - 400, 14, Roboto Regular, 18px]
+- Tag/Dropdown (UI Elements - Light mode): size 74x24px, radius 2px, horizontal layout, padding 0 10 0 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Alert color palette | light mode/Info alert bg, text [Label - lower line height]
+- Tag/With close (UI Elements - Light mode): size 70x24px, radius 2px, horizontal layout, padding 0 10 0 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Alert color palette | light mode/Info alert bg, text [Label - lower line height]
+- Tag/Default (UI Elements - Light mode): size 44x24px, radius 2px, horizontal layout, padding 0 10 0 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Alert color palette | light mode/Info alert bg, text [Label - lower line height]
+- Status/Rejected: size 61x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Status/Ghost (UI Elements - Light mode): size 61x24px, radius 2px, horizontal layout, padding 4 10 4 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Blue-gray color palette/BG 02, text [Label - lower line height]
+- Status/Withdrawn (UI Elements - Light mode): size 61x24px, radius 2px, horizontal layout, padding 4 10 4 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Blue-gray color palette/BG 04, text [Label - lower line height]
+- Status/Approved (UI Elements - Light mode): size 61x24px, radius 2px, horizontal layout, padding 4 10 4 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Alert color palette | light mode/Success alert bg, text [Label - lower line height]
+- Status/Pending: size 61x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Toast mesages: size 262.5x51px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Body 1 - 400, 14]
+- Alerts/Danger (UI Elements - Light mode): size 262.5x50px, radius 2px, horizontal layout, padding 16 20 16 20px, gap 10px, align min/center, sizing W:fill H:fixed, fill Alert color palette | light mode/Error alert bg, text [Label - lower line height]
+- Alerts/Warning (UI Elements - Light mode): size 262.5x50px, radius 2px, horizontal layout, padding 16 20 16 20px, gap 10px, align min/center, sizing W:fill H:fixed, fill Alert color palette | light mode/Warning alert bg, text [Label - lower line height]
+- Alerts/Success (UI Elements - Light mode): size 262.5x50px, radius 2px, horizontal layout, padding 16 20 16 20px, gap 10px, align min/center, sizing W:fill H:fixed, fill Alert color palette | light mode/Success alert bg, text [Label - lower line height]
+- Alerts/Info (UI Elements - Light mode): size 262.5x50px, radius 2px, horizontal layout, padding 16 20 16 20px, gap 10px, align min/center, sizing W:fill H:fixed, fill Alert color palette | light mode/Info alert bg, text [Label - lower line height]
+- Check box/Mix: size 48x16px, horizontal layout, padding 0 0 0 0px, gap 9px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Check box/Hover (UI Elements - Light mode): size 62x16px, horizontal layout, padding 0 0 0 0px, gap 9px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Check box/Checked: size 79x16px, horizontal layout, padding 0 0 0 0px, gap 9px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Check box/Unchecked: size 94x16px, horizontal layout, padding 0 0 0 0px, gap 9px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Radio buttons/Hover: size 62x16px, horizontal layout, padding 0 0 0 0px, gap 9px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Radio buttons/Checked: size 79x16px, horizontal layout, padding 0 0 0 0px, gap 9px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Radio buttons/Unchecked: size 94x16px, horizontal layout, padding 0 0 0 0px, gap 9px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Switch (UI Elements - Light mode): size 82x16px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Input/Warning (UI Elements - Light mode): size 250x40px, fill #FFFFFF, text [Body 1 - 400, 14]
+- Input/Success (UI Elements - Light mode): size 250x40px, fill #FFFFFF, text [Body 1 - 400, 14]
+- Input/Error (UI Elements - Light mode): size 250x40px, fill #FFFFFF, text [Body 1 - 400, 14]
+- Input/Text field (UI Elements - Light mode): size 250x40px, fill #FFFFFF, text [Body 1 - 400, 14]
+- Input/Selected (UI Elements - Light mode): size 250x40px, fill #FFFFFF, text [Body 1 - 400, 14]
+- Input/Normal (UI Elements - Light mode): size 250x40px, fill #FFFFFF, text [Body 1 - 400, 14]
+- Secondary outline hover: size 73x30px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Secondary outline normal: size 73x30px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Secondary disabled: size 73x30px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Secondary hover: size 73x30px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Secondary normal: size 73x30px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Primary outline disabled: size 95x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Primary outline hover: size 95x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Primary outline normal: size 95x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Primary Disabled: size 95x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Primary hover: size 95x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Primary normal: size 95x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Button - 400, Uppercase 14]
+- Loader/Two rows (UI Elements - Dark mode): size 260x100px, fill #FFFFFF, text [H2 - 500, 18, Body 1 - 400, 14]
+- Dropdown menu (UI Elements - Dark mode): size 250x232px, vertical layout, padding 0 0 0 0px, gap -10px, align max/max, sizing W:fixed H:fixed, fill Blue Gray/BG 12, effect Item hover, text [Label - lower line height, Body 1 - 400, 14]
+- Dropdown menu (UI Elements - Dark mode): size 250x220px, vertical layout, padding 10 0 10 0px, gap 0px, sizing W:fixed H:fixed, fill Blue Gray/BG 12, effect Item hover, text [Label - lower line height]
+- Tag/Dropdown (UI Elements - Dark mode): size 74x24px, radius 2px, horizontal layout, padding 0 10 0 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Alert color palette | dark mode/Info alert bg, text [Label - lower line height]
+- Tag/With close (UI Elements - Dark mode): size 70x24px, radius 2px, horizontal layout, padding 0 10 0 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Alert color palette | dark mode/Info alert bg, text [Label - lower line height]
+- Tag/Default (UI Elements - Dark mode): size 44x24px, radius 2px, horizontal layout, padding 0 10 0 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Alert color palette | dark mode/Info alert bg, text [Label - lower line height]
+- Status/Ghost (UI Elements - Dark mode): size 61x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Status/Withdrawn (UI Elements - Dark mode): size 61x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Status/Approved (UI Elements - Dark mode): size 61x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Alerts/Danger (UI Elements - Dark mode): size 262.5x50px, radius 2px, horizontal layout, padding 16 20 16 20px, gap 10px, align min/center, sizing W:fill H:fixed, fill Alert color palette | dark mode/Error alert bg, text [Label - lower line height]
+- Alerts/Warning (UI Elements - Dark mode): size 262.5x50px, radius 2px, horizontal layout, padding 16 20 16 20px, gap 10px, align min/center, sizing W:fill H:fixed, fill Alert color palette | dark mode/Warning alert bg, text [Label - lower line height]
+- Alerts/Success (UI Elements - Dark mode): size 262.5x50px, radius 2px, horizontal layout, padding 16 20 16 20px, gap 10px, align min/center, sizing W:fill H:fixed, fill Alert color palette | dark mode/Success alert bg, text [Label - lower line height]
+- Alerts/Info (UI Elements - Dark mode): size 262.5x50px, radius 2px, horizontal layout, padding 16 20 16 20px, gap 10px, align min/center, sizing W:fill H:fixed, fill Alert color palette | dark mode/Info alert bg, text [Label - lower line height]
+- Check box/Hover (UI Elements - Dark mode): size 79x16px, horizontal layout, padding 0 0 0 0px, gap 9px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Switch (UI Elements - Dark mode): size 82x16px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label - lower line height]
+- Switch (UI Elements - Dark mode): size 82x16px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Label - lower line height]
+- Input/Warning (UI Elements - Dark mode): size 250x40px, text [Body text 1]
+- Input/Success (UI Elements - Dark mode): size 250x40px, text [Body text 1]
+- Input/Error (UI Elements - Dark mode): size 250x40px, text [Body text 1]
+- Input/Text field (UI Elements - Dark mode): size 250x40px, text [Body text 1]
+- Input/Selected (UI Elements - Dark mode): size 250x40px, text [Body text 1]
+- Input/Normal (UI Elements - Dark mode): size 250x40px, text [Body text 1]
+
+## Most-Used Styles
+- Gray/High Emphasis - 333: 331 uses
+- Caption 01 - 400, 12: 181 uses
+- Blue-gray color palette/BG 04: 153 uses
+- Blue-gray color palette/BG 07: 153 uses
+- Primary/Surface: 109 uses
+- Body 2 - 500, 14: 88 uses
+- Label - lower line height: 66 uses
+- Gray/Medium Emphasis - 666: 59 uses
+- H2 - 500, 18: 52 uses
+- Primary color palette/Primary: 39 uses
+- Body 1 - 400, 14: 29 uses
+- Button - 400, Uppercase 14: 28 uses
+- Blue Gray/BG 03 - Strokes: 22 uses
+- Blue-gray color palette/BG 12: 19 uses
+- Primary color palette/Primary hover: 16 uses
+- Basic/Red - Error: 15 uses
+- Blue Gray/BG 10: 15 uses
+- Basic color palette/Red: 13 uses
+- Blue-gray color palette/BG 10: 13 uses
+- Basic color palette/Light blue: 12 uses
+- Blue-gray color palette/BG 01: 10 uses
+- Gray/Placeholder Text - CCC: 10 uses
+- Blue Gray/BG 12: 9 uses
+- Body text 1: 9 uses
+- White text: 8 uses
+- Alert color palette | dark mode/Info alert text: 7 uses
+- Alert color palette | light mode/Info alert text: 7 uses
+- Text color palette/Low Emhasis: 7 uses
+- Basic color palette/Light green: 6 uses
+- Blue Gray/BG 01 - Background: 6 uses
+- Surface: 6 uses
+- Alert color palette | dark mode/Info alert bg: 5 uses
+- Alert color palette | light mode/Info alert bg: 5 uses
+- Alert color palette | dark mode/Error alert bg: 4 uses
+- Blue Gray/BG 06: 4 uses
+- Blue-gray color palette/BG 02: 4 uses
+- Item hover: 4 uses
+- Primary/Coing hover: 4 uses
+- Shadow: 4 uses
+- Text color palette/High Emphasis: 4 uses
+- 01: 3 uses
+- Basic color palette/Orange: 3 uses
+- Caption text: 3 uses
+- Primary/Coing: 3 uses
+- Primary/Marketplace primary: 3 uses
+- Alert color palette | dark mode/Success alert bg: 2 uses
+- Alert color palette | dark mode/Success alert text: 2 uses
+- Alert color palette | dark mode/Warning alert bg: 2 uses
+- Alert color palette | dark mode/Warning alert text: 2 uses
+- Alert color palette | light mode/Error alert bg: 2 uses
+- Alert color palette | light mode/Error alert text: 2 uses
+- Alert color palette | light mode/Success alert bg: 2 uses
+- Alert color palette | light mode/Success alert text: 2 uses
+- Alert color palette | light mode/Warning alert bg: 2 uses
+- Alert color palette | light mode/Warning alert text: 2 uses
+- Basic/Orange - Warning: 2 uses
+- Blue Gray/BG 02 - Highlight: 2 uses
+- Blue Gray/BG 11: 2 uses
+- Blue-gray color palette/BG 08: 2 uses
+- Gray/Low Emphasis - 999: 2 uses
+- Icons: 2 uses
+- Text color palette/Medium Emphasis: 2 uses
+- Background/Container: 1 use
+- Background/Surface: 1 use
+- Basic color palette/Amber: 1 use
+- Basic color palette/Brown: 1 use
+- Basic color palette/Cyan: 1 use
+- Basic color palette/Deep orange: 1 use
+- Basic color palette/Deep purple: 1 use
+- Basic color palette/Green: 1 use
+- Basic color palette/Indigo: 1 use
+- Basic color palette/Pink: 1 use
+- Basic color palette/Purple: 1 use
+- Basic color palette/Teal: 1 use
+- Basic/Light Green - Success: 1 use
+- Blue Gray/BG04: 1 use
+- Blue-gray color palette/BG 03: 1 use
+- Blue-gray color palette/BG 05: 1 use
+- Blue-gray color palette/BG 06: 1 use
+- Blue-gray color palette/BG 09: 1 use
+- Blue-gray color palette/BG 11: 1 use
+- Body text 2: 1 use
+- Body text 3: 1 use
+- Button text: 1 use
+- H1 - 400, 24: 1 use
+- Heading 2: 1 use
+- Hero title: 1 use
+- Label text 1: 1 use
+- Label text 2: 1 use
+- Primary/Marketplace hover: 1 use
+- Shadow/Large: 1 use
+- Text color palette/Placeholder Text: 1 use
+
+## Layout & Structure
+Screen: Cover / Clockify Adds On UI Kit
+- FRAME "Clockify Adds On UI Kit", 1600x900px, constraints left/top, fill Background/Container
+  - FRAME "preview", 1440x760px, constraints left/top, fill #FFFFFF
+    - VECTOR "Rectangle 1", 1195x661px, constraints left/top, radius 0/0/0/0px, fill Background/Surface, effect Shadow/Large
+    - GROUP "Items", 532x563px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Item 7", 532x563px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 3px offset 0 0 #E4EAEE]
+        - FRAME "Addon card", 532x563px, constraints scale/scale
+          - RECTANGLE "Rectangle 553", 532x575px, constraints scale/scale, radius 17.16px, fill Surface
+          - RECTANGLE "Rectangle 573", 532x68.65px, constraints scale/top, radius 0/0/17.16/17.16px, fill Blue Gray/BG 02 - Highlight
+          - TEXT "10k+ installs", 117x31px, constraints left/top, fill Blue Gray/BG 06, text [Roboto Regular, 20.59px]
+          - RECTANGLE "Rectangle 574", 360x33px, constraints left/top, fill #B6CAD8
+          - RECTANGLE "Rectangle 575", 138x24px, constraints left/top, fill #B6CAD8
+          - RECTANGLE "Rectangle 578", 140x24px, constraints left/top, fill #B6CAD8
+          - RECTANGLE "Rectangle 576", 325x24px, constraints left/top, fill #B6CAD8
+          - RECTANGLE "Rectangle 577", 257x24px, constraints left/top, fill #B6CAD8
+        - RECTANGLE "BlueCatReports_logomark_blue", 109.9x109.83px, constraints left/top, fill image(hash: 9367154bea7e25638843e6b9fade30354a964ef6)
+        - RECTANGLE "9 1", 111x111px, constraints left/top, radius 100px, fill image(hash: 555b387109aa364382e8e221e3da74d7b0255401)
+    - GROUP "Items", 532x574px, constraints left/top
+      - GROUP "Item 7", 532x574px, constraints left/top
+        - FRAME "Addon card", 532x574px, constraints scale/scale, effect [drop_shadow 30px offset 0 0 #1389FF1A]
+          - RECTANGLE "Rectangle 553", 532x574px, constraints scale/scale, radius 17.16px, fill Surface
+          - RECTANGLE "Rectangle 573", 532x68.65px, constraints scale/top, radius 0/0/17.16/17.16px, fill Blue Gray/BG 02 - Highlight
+          - TEXT "10k+ installs", 117x31px, constraints left/top, fill Blue Gray/BG 06, text [Roboto Regular, 20.59px]
+        - TEXT "My Add-on", 449x61px, constraints left/top, fill Blue Gray/BG 10, text [Roboto Regular, 41.19px], [heading]
+        - TEXT "Create add-ons that are consistent with Clockify’s branding ", 419x105px, constraints left/top, fill Blue Gray/BG 06, text [Roboto Regular, 22px]
+        - TEXT "By CAKE.com", 238.54x32.5px, constraints left/top, fill Blue Gray/BG 06, text [Roboto Regular, 20.59px]
+        - RECTANGLE "BlueCatReports_logomark_blue", 109.9x109.83px, constraints left/top, fill image(hash: 9367154bea7e25638843e6b9fade30354a964ef6)
+        - RECTANGLE "10 1", 111x111px, constraints left/top, fill image(hash: 03bd40d34718a82f47da6acb47dba4420e6a0a5f)
+    - VECTOR "Vector 1", 1266.5x0px, constraints left/top, stroke #03A9F4 1px
+    - VECTOR "Vector 2", 1266.5x0px, constraints left/top, stroke #03A9F4 1px
+    - VECTOR "Vector 3", 1266.5x0px, constraints left/top, stroke #03A9F4 1px
+    - VECTOR "Vector 5", 0x739px, constraints left/top, stroke #03A9F4 2px
+    - VECTOR "Vector 6", 0x739px, constraints left/top, stroke #03A9F4 1px
+  - FRAME "header", 1440x74px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "title", 829.5x74px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 2811", 682.5x74px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Logo", 300.5x74px, constraints left/top
+          - INSTANCE "Primary Logo Variations", 299.99x74px, constraints scale/scale, fill #FFFFFF
+            - INSTANCE "Primary Logo", 299.99x74px, constraints scale/scale
+        - TEXT "Add-ons UI Kit", 334x34px, constraints left/top, fill #000000, text [Roboto Regular, 50px], [heading]
+      - COMPONENT "Badge", 107x54px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Badge", 107x54px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #FFFFFF
+          - FRAME "badgeBase", 107x54px, horizontal pad 3 18 3 18px gap 12px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 50px, fill Basic color palette/Light blue
+            - TEXT "Badge label", 71x34px, constraints left/top, fill Blue-gray color palette/BG 01, text [Roboto Regular, 35px], [heading]
+  - RECTANGLE "gradient", 1600x137px, constraints left_right/top, fill gradient_linear(#F6F8FA00 0% | #F6F8FA 100%)
+
+Screen: Introduction / Intro
+- FRAME "Intro", 595x905.52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Primary/Surface, effect [drop_shadow 20px offset 0 0 #3C42571A]
+  - FRAME "Header", 595x63px, horizontal pad 20 20 18 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Blue Gray/BG 01 - Background
+    - GROUP "Group 1", 315.22x25px, constraints left/top
+      - INSTANCE "Logo", 81.22x20px, constraints left/top
+        - INSTANCE "Primary Logo Variations", 81.08x20px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Primary Logo", 81.08x20px, constraints scale/scale
+            - INSTANCE "Icon", 20.65x20px, constraints scale/scale
+            - INSTANCE "Primary Logo Text", 56.64x14.07px, constraints scale/scale
+      - TEXT "Paragraph 3", 224x25px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 14px]
+  - FRAME "Cover", 595x277.52px, vertical pad 20 30 20 30px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, radius 5/5/0/0px
+    - RECTANGLE "Work-life-balance-No-Bg 1", 217x141.52px, constraints left/top, fill image(hash: c790bca22484bd66a6fa81e54ac4f510ef2a9d6a)
+    - TEXT "Paragraph 3", 535x34px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 24px], [heading]
+    - TEXT "Paragraph 5", 417x42px, constraints left/top, fill Gray/Medium Emphasis - 666, text [Body 1 - 400, 14]
+  - FRAME "Primary color palette", 595x565px, vertical pad 20 30 20 30px gap 10px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Frame 1261159341", 516x151px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Paragraph 6", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+      - TEXT "Paragraph 5", 516x90px, constraints left/top, fill Gray/Medium Emphasis - 666, text [Caption 01 - 400, 12]
+    - FRAME "Frame 1261159341", 516x106px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Paragraph 7", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+      - TEXT "Paragraph 8", 512x54px, constraints left/top, fill Gray/Medium Emphasis - 666, text [Caption 01 - 400, 12]
+    - FRAME "Frame 1261159341", 516x248px, vertical pad 10 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Paragraph 9", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+      - TEXT "Paragraph 10", 485x90px, constraints left/top, fill Gray/Medium Emphasis - 666, text [Caption 01 - 400, 12]
+      - TEXT "Paragraph 11", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+      - TEXT "Paragraph 12", 504x54px, constraints left/top, fill Gray/Medium Emphasis - 666, text [Caption 01 - 400, 12]
+
+Screen: Colors / Colors
+- FRAME "Colors", 595x1339px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Primary/Surface, effect [drop_shadow 20px offset 0 0 #3C42571A]
+  - FRAME "Header", 595x63px, horizontal pad 20 20 18 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Blue Gray/BG 01 - Background
+    - GROUP "Group 1", 315.22x25px, constraints left/top
+      - INSTANCE "Logo", 81.22x20px, constraints left/top
+        - INSTANCE "Primary Logo Variations", 81.08x20px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Primary Logo", 81.08x20px, constraints scale/scale
+            - INSTANCE "Icon", 20.65x20px, constraints scale/scale
+            - INSTANCE "Primary Logo Text", 56.64x14.07px, constraints scale/scale
+      - TEXT "Paragraph 3", 224x25px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 14px]
+  - FRAME "Primary color palette", 595x199px, vertical pad 20 30 20 30px gap 10px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Paragraph 6", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+    - TEXT "Paragraph 5", 526x72px, constraints left/top, fill #0000008A, text [Roboto Regular, 12px]
+    - FRAME "PRIMARY", 555x40px, horizontal pad 0 35 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1593", 240x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Primary color palette/Primary
+        - TEXT "Paragraph 3", 100x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - TEXT "Paragraph 4", 100x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1594", 240x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Primary color palette/Primary hover
+        - TEXT "Paragraph 3", 100x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - TEXT "Paragraph 4", 100x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+  - FRAME "Text color palette", 556x239px, vertical pad 20 30 20 30px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Paragraph 7", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+    - TEXT "Paragraph 8", 526x72px, constraints left/top, fill #0000008A, text [Roboto Regular, 12px]
+    - FRAME "GRAY", 526x80px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1261159337", 526x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1599", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Text color palette/Placeholder Text
+          - TEXT "Paragraph 3", 89x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 114x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1601", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Text color palette/Medium Emphasis
+          - TEXT "Paragraph 3", 100x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 103x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159336", 526x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1600", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Text color palette/Low Emhasis
+          - TEXT "Paragraph 3", 78x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 125x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1602", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Text color palette/High Emphasis
+          - TEXT "Paragraph 3", 81x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 122x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+  - FRAME "Background color palette", 556x417px, vertical pad 20 30 20 30px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Paragraph 9", 526x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+    - TEXT "Paragraph 10", 525x90px, constraints left/top, fill #0000008A, text [Roboto Regular, 12px]
+    - FRAME "BLUE GRAY", 525x240px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1261159337", 525x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1596", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 01
+          - TEXT "Paragraph 3", 118x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 84.5x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1598", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 07
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 5", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159336", 525x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1597", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 02
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1595", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 08
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159340", 525x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1598", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 03
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 5", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1596", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 09
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159338", 525x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1595", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 04
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1597", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 10
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159339", 525x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1597", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 05
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1595", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 11
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159341", 525x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1597", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 06
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1595", 242.5x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Blue-gray color palette/BG 12
+          - TEXT "Paragraph 3", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 101.25x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+  - FRAME "Basic color palette", 556x421px, vertical pad 20 30 20 30px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Paragraph 9", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+    - TEXT "Paragraph 10", 526x54px, constraints left/top, fill #0000008A, text [Roboto Regular, 12px]
+    - FRAME "Frame 1261159336", 526x280px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1261159336", 526x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1603", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Red
+          - TEXT "Paragraph 3", 21x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 182x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1610", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Teal
+          - TEXT "Paragraph 3", 23x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 180x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159336", 526x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1604", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Pink
+          - TEXT "Paragraph 3", 24x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 179x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1611", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Green
+          - TEXT "Paragraph 3", 32x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 171x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159336", 526x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1605", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Purple
+          - TEXT "Paragraph 3", 35x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 168x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1612", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Light green
+          - TEXT "Paragraph 3", 60x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 143x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159336", 526x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1606", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Deep purple
+          - TEXT "Paragraph 3", 64x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 139x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1613", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Amber
+          - TEXT "Paragraph 3", 36x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 167x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159336", 526x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1607", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Indigo
+          - TEXT "Paragraph 3", 34x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 169x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1614", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Orange
+          - TEXT "Paragraph 3", 39x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 164x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159336", 526x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1608", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Light blue
+          - TEXT "Paragraph 3", 53x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 150x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1615", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Deep orange
+          - TEXT "Paragraph 3", 68x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 135x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+      - FRAME "Frame 1261159336", 526x40px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1609", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Cyan
+          - TEXT "Paragraph 3", 27x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 176x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1616", 243x40px, horizontal pad 10 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 733", 20x20px, constraints left/top, radius 2px, fill Basic color palette/Brown
+          - TEXT "Paragraph 3", 34x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+          - TEXT "Paragraph 4", 169x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+
+Screen: Typography / Typography
+- FRAME "Typography", 595x1354px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Primary/Surface, effect [drop_shadow 20px offset 0 0 #3C42571A]
+  - FRAME "Header", 595x63px, horizontal pad 20 20 18 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Blue Gray/BG 01 - Background
+    - GROUP "Group 1", 315.22x25px, constraints left/top
+      - INSTANCE "Logo", 81.22x20px, constraints left/top
+        - INSTANCE "Primary Logo Variations", 81.08x20px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Primary Logo", 81.08x20px, constraints scale/scale
+            - INSTANCE "Icon", 20.65x20px, constraints scale/scale
+            - INSTANCE "Primary Logo Text", 56.64x14.07px, constraints scale/scale
+      - TEXT "Paragraph 3", 224x25px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 14px]
+  - FRAME "Fonts", 595x1291px, vertical pad 10 20 10 20px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Paragraph 9", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+    - TEXT "Paragraph 10", 555x108px, constraints left/top, fill #0000008A, text [Roboto Regular, 12px]
+    - FRAME "Frame 1261159336", 555x1116px, vertical pad 10 0 10 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1261159336", 555x104px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 150x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 150x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+          - TEXT "Paragraph 4", 150x72px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1261159336", 385x104px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fill, constraints left/top, radius 2px, stroke Blue Gray/BG 03 - Strokes 1px
+          - TEXT "Hero Title", 104x34px, constraints left/top, fill Gray/High Emphasis - 333, text [Hero title], [heading]
+      - FRAME "Frame 1261159337", 555x104px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 150x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 150x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+          - TEXT "Paragraph 4", 150x72px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1261159336", 385x104px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fill, constraints left/top, radius 2px, stroke Blue Gray/BG 03 - Strokes 1px
+          - TEXT "Heading 2", 82x27px, constraints left/top, fill Gray/High Emphasis - 333, text [Heading 2], [heading]
+      - FRAME "Frame 1261159338", 555x104px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 150x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 150x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+          - TEXT "Paragraph 4", 150x72px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1261159336", 385x104px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fill, constraints left/top, radius 2px, stroke Blue Gray/BG 03 - Strokes 1px
+          - TEXT "Body 1", 43x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 1 - 400, 14]
+      - FRAME "Frame 1261159339", 555x104px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 150x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 150x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+          - TEXT "Paragraph 4", 150x72px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1261159336", 385x104px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fill, constraints left/top, radius 2px, stroke Blue Gray/BG 03 - Strokes 1px
+          - TEXT "Body 2", 43x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body text 2]
+      - FRAME "Frame 1261159340", 555x104px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 150x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 150x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+          - TEXT "Paragraph 4", 150x72px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1261159336", 385x104px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fill, constraints left/top, radius 2px, stroke Blue Gray/BG 03 - Strokes 1px
+          - TEXT "Body 3", 44x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body text 3]
+      - FRAME "Frame 1261159341", 555x104px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 150x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 150x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+          - TEXT "Paragraph 4", 150x72px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1261159336", 385x104px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fill, constraints left/top, radius 2px, stroke Blue Gray/BG 03 - Strokes 1px
+          - TEXT "button", 55x16px, constraints left/top, fill Gray/High Emphasis - 333, text [Button text]
+      - FRAME "Frame 1261159342", 555x104px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 150x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 150x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+          - TEXT "Paragraph 4", 150x72px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1261159336", 385x104px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fill, constraints left/top, radius 2px, stroke Blue Gray/BG 03 - Strokes 1px
+          - TEXT "Caption", 42x18px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption text]
+      - FRAME "Frame 1261159343", 555x104px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 150x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 150x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+          - TEXT "Paragraph 4", 150x72px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1261159336", 385x104px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fill, constraints left/top, radius 2px, stroke Blue Gray/BG 03 - Strokes 1px
+          - TEXT "Label", 34x16px, constraints left/top, fill Gray/High Emphasis - 333, text [Label text 1]
+      - FRAME "Frame 1261159344", 555x104px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 150x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 150x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+          - TEXT "Paragraph 4", 150x72px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - FRAME "Frame 1261159336", 385x104px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fill, constraints left/top, radius 2px, stroke Blue Gray/BG 03 - Strokes 1px
+          - TEXT "Label", 35x14px, constraints left/top, fill Gray/High Emphasis - 333, text [Label text 2]
+
+Screen: Icons / Icons | Light mode
+- FRAME "Icons | Light mode", 595x485px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Primary/Surface, effect [drop_shadow 20px offset 0 0 #3C42571A]
+  - FRAME "Header", 595x63px, horizontal pad 20 20 18 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Blue Gray/BG 01 - Background
+    - GROUP "Group 1", 315.22x25px, constraints left/top
+      - INSTANCE "Logo", 81.22x20px, constraints left/top
+        - INSTANCE "Primary Logo Variations", 81.08x20px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Primary Logo", 81.08x20px, constraints scale/scale
+            - INSTANCE "Icon", 20.65x20px, constraints scale/scale
+            - INSTANCE "Primary Logo Text", 56.64x14.07px, constraints scale/scale
+      - TEXT "Paragraph 3", 224x25px, constraints left/top, fill Gray/High Emphasis - 333, text [Body text 1]
+  - FRAME "Icons", 595x422px, vertical pad 20 30 20 30px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+    - FRAME "Frame 1261159338", 548x90px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Paragraph 5", 548x90px, constraints left/top, fill #0000008A, text [Caption text]
+    - FRAME "Frame 1261159339", 600.02x282px, vertical pad 10 30 10 30px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Workspaces", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19x20px, constraints left/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Timesheet", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Tracker", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19x19px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Dashboard", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Reports", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Projects", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Team", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Clients", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Tags", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "XMLID 43", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Support", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20.01x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Upgrade", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19x19px, constraints left/top, fill Blue-gray color palette/BG 07
+        - COMPONENT "Subscription", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 775", 20x20px, constraints left/top
+            - VECTOR "XMLID 36", 5.1x12px, constraints scale/scale, fill Blue-gray color palette/BG 07
+            - VECTOR "Union", 20x20px, constraints left/top, fill Blue-gray color palette/BG 07
+        - COMPONENT "Calendar", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "XMLID 241", 19x19px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Pin", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Save", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Billable", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 9.2x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Search", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "XMLID 30", 19.98x19.98px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Locked", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Play", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Close", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "XMLID 17", 12x12px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Star Outline", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Exit", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "XMLID 4", 20x19px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Notifications", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Comfortable", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Compact", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Download", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20.01px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Add", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Remove", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Invoices", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Activities", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Duplicate", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Share", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "More", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x19px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Bulk Edit", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x18px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Maximise", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Delete", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x14px, constraints left/top, fill Blue-gray color palette/BG 07
+        - COMPONENT "Edit", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.2x13.2px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Help", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19x19px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Add Required", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 776", 19x19px, constraints left/top [decorative, ~8 shapes]
+        - COMPONENT "Approvals", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 34", 20x20px, constraints scale/scale [decorative, ~7 shapes]
+        - COMPONENT "Globe", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Settings", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "XMLID 55", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Print", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Info", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13x13px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Arrow Down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x5.68px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Arrow Up", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x5.68px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Arrow Left", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5.68x10px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Arrow Right", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5.68x10px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Automatic Mode", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13x13px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Manual Mode", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "XMLID 73.4", 13x10px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Plugin", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.97x16.97px, constraints left/top, fill Blue-gray color palette/BG 07
+        - COMPONENT "Hamburger", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 68", 20x16px, constraints scale/scale [decorative, ~4 shapes]
+        - COMPONENT "Select arrow", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 2.1", 8x4px, constraints left/top, fill Blue-gray color palette/BG 07
+        - COMPONENT "Notes", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Resize", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 777", 15.93x15.94px, constraints left/top
+            - VECTOR "Vector", 6.93x6.94px, constraints scale/scale, fill Blue-gray color palette/BG 07
+            - VECTOR "Vector", 6.93x6.94px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Drag resize", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13x13px, constraints left/top, fill Blue-gray color palette/BG 07
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Flag", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Attachment", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 8", 10x19px, constraints scale/scale, radius 0/0/0/0px, stroke Blue-gray color palette/BG 07 1px
+        - COMPONENT "Check_mark", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Union", 10.4x7.4px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "translate", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 784", 17x15px, constraints left/top [decorative, ~4 shapes]
+        - COMPONENT "Language", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Error", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 783", 20x18px, constraints left/top [decorative, ~5 shapes]
+        - COMPONENT "Info_big", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 782", 20x20px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+            - VECTOR "Rectangle 115", 1x8px, constraints scale/scale, radius 10px, fill Blue-gray color palette/BG 07
+            - VECTOR "Ellipse 16", 1x1px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Scheduling", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 781", 20x17px, constraints left/top
+            - VECTOR "Subtract", 14x5px, constraints left/top, fill Blue-gray color palette/BG 07
+            - VECTOR "Subtract", 14x5px, constraints left/top, fill Blue-gray color palette/BG 07
+            - VECTOR "Subtract", 14x5px, constraints left/top, fill Blue-gray color palette/BG 07
+        - COMPONENT "Zoom in", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 780", 19.98x19.98px, constraints left/top
+            - VECTOR "XMLID 30", 19.98x19.98px, constraints scale/scale, fill Blue-gray color palette/BG 07
+            - VECTOR "Vector", 9.98x9.98px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Zoom out", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 779", 19.98x19.98px, constraints left/top
+            - VECTOR "XMLID 30", 19.98x19.98px, constraints scale/scale, fill Blue-gray color palette/BG 07
+            - VECTOR "Vector", 9.98x0.99px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Estimate", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 778", 20.03x20px, constraints left/top [decorative, ~9 shapes]
+        - COMPONENT "Launch", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14x14px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Minimize", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 9.98x0.99px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Search smaller", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.54x13.54px, constraints scale/scale, fill Blue-gray color palette/BG 07
+      - FRAME "Frame 1261159340", 540.02x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "More smaller", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 773", 2x12px, constraints scale/scale
+            - ELLIPSE "Ellipse 17", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 07
+            - ELLIPSE "Ellipse 18", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 07
+            - ELLIPSE "Ellipse 19", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Emoji", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 790", 16x16px, constraints left/top [decorative, ~10 shapes]
+        - COMPONENT "chat 11", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 789", 16.59x16px, constraints left/top [decorative, ~4 shapes]
+        - COMPONENT "PTO - Time off", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 788", 19x19px, constraints left/top, radius 0/0/0/0px [decorative, ~18 shapes]
+        - COMPONENT "Stop", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Rectangle 276 (Stroke)", 14x14px, constraints left/top, fill Blue-gray color palette/BG 07
+        - COMPONENT "Shared", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 787", 16.57x16.56px, constraints left/top
+            - VECTOR "Vector", 9.95x10.78px, constraints scale/scale, stroke Blue-gray color palette/BG 07 1px
+            - VECTOR "Vector", 9.95x10.78px, constraints scale/scale, stroke Blue-gray color palette/BG 07 1px
+        - COMPONENT "Shared", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.6x17px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Checked", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Union", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Visible", 20.01x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 18.02x12px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Live track", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 786", 14x14px, constraints left/top
+            - ELLIPSE "Ellipse 20", 8x8px, constraints center/center, fill Basic color palette/Red
+            - ELLIPSE "Ellipse 21", 14x14px, constraints center/center, stroke Blue-gray color palette/BG 07 1px
+        - COMPONENT "Pending", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Checkmark Green", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11x8px, constraints scale/scale, stroke Basic color palette/Light green 3px
+        - COMPONENT "Kiosk", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 785", 20x20px, constraints left/top, radius 1px [decorative, ~7 shapes]
+        - COMPONENT "Clockout", 20.01x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20.01x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+      - FRAME "Frame 1261159340", 540x22px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Backspace", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x12px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Cup", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x14.22px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Cup strikethrough", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Subtract", 16x15.95px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Drag item", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 796", 6x12px, constraints left/top [decorative, ~6 shapes]
+        - COMPONENT "Stop", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Rectangle 276 (Stroke)", 14x14px, constraints left/top, fill Basic color palette/Red
+        - COMPONENT "Add-ons", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 795", 17x17px, constraints left/top [decorative, ~23 shapes]
+        - COMPONENT "Sort up", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 794", 8x9.99px, constraints left/top
+            - VECTOR "Vector", 8x4px, constraints left/top, fill Text color palette/Low Emhasis
+            - VECTOR "Vector", 8x4px, constraints left/top, fill Text color palette/High Emphasis
+        - COMPONENT "Sort down", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 793", 8x9.99px, constraints left/top
+            - VECTOR "Vector", 8x4px, constraints left/top, fill Text color palette/Low Emhasis
+            - VECTOR "Vector", 8x4px, constraints left/top, fill Text color palette/High Emphasis
+        - COMPONENT "Sort none", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 792", 8x9.99px, constraints left/top
+            - VECTOR "Vector", 8x4px, constraints left/top, fill Text color palette/Low Emhasis
+            - VECTOR "Vector", 8x4px, constraints left/top, fill Text color palette/Low Emhasis
+        - COMPONENT "Tag-required", 20x22px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 791", 20x22px, constraints left/top [decorative, ~4 shapes]
+        - COMPONENT "Refresh", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 20x20px, constraints left/top, fill Blue-gray color palette/BG 07
+        - COMPONENT "Loop", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Union", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 07
+        - COMPONENT "Loop smaller", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 14x14px, constraints left/top, fill Blue-gray color palette/BG 07
+        - COMPONENT "Wallet", 20x19px, constraints left/top, fill #FFFFFF
+          - VECTOR "Union", 20x19px, constraints scale/scale, fill Blue-gray color palette/BG 07
+
+Screen: Icons / Icons | Dark mode
+- FRAME "Icons | Dark mode", 595x475px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Blue Gray/BG 10
+  - INSTANCE "header", 595x63px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Header", 595x63px, horizontal pad 20 20 18 20px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Blue Gray/BG 12
+      - INSTANCE "Logo", 81.22x20px, constraints left/top
+        - INSTANCE "Primary Logo Variations", 81.08x20px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Primary Logo", 81.08x20px, constraints scale/scale
+            - INSTANCE "Icon", 20.65x20px, constraints scale/scale
+            - INSTANCE "Primary Logo Text", 56.64x14.07px, constraints scale/scale
+      - TEXT "Paragraph 3", 224x25px, constraints left/top, fill #FFFFFFDE, text [Body text 1]
+  - FRAME "Icons", 595x412px, vertical pad 10 20 20 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+    - FRAME "Frame 1261159338", 555x90px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Paragraph 5", 555x90px, constraints left/top, fill #FFFFFF8A, text [Caption text]
+    - FRAME "Frame 1261159339", 540.02x282px, vertical pad 10 0 10 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Workspaces", 20x20px, constraints left/top
+          - VECTOR "Vector", 19x20px, constraints left/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Timesheet", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Tracker", 20x20px, constraints left/top
+          - VECTOR "Vector", 19x19px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Dashboard", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Reports", 20x20px, constraints left/top
+          - VECTOR "Vector", 19x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Projects", 20x20px, constraints left/top
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Team", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Clients", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Tags", 20x20px, constraints left/top
+          - VECTOR "XMLID 43", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Support", 20x20px, constraints left/top
+          - VECTOR "Vector", 20.01x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Upgrade", 20x20px, constraints left/top
+          - VECTOR "Vector", 19x19px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Subscription", 20x20px, constraints left/top
+          - VECTOR "XMLID 36", 5.1x12px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - VECTOR "Union", 20x20px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Calendar", 20x20px, constraints left/top
+          - VECTOR "XMLID 241", 19x19px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Pin", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Save", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Billable", 20x20px, constraints left/top
+          - VECTOR "Vector", 9.2x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Search", 20x20px, constraints left/top
+          - VECTOR "XMLID 30", 19.98x19.98px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Locked", 20x20px, constraints left/top
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Play", 20x20px, constraints left/top
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Close", 20x20px, constraints left/top
+          - GROUP "Group", 12x12px, constraints scale/scale
+            - GROUP "XMLID 16", 12x12px, constraints scale/scale
+        - INSTANCE "Star Outline", 20x20px, constraints left/top
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Exit", 20x20px, constraints left/top
+          - VECTOR "XMLID 4", 20x19px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Notifications", 20x20px, constraints left/top
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Comfortable", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Compact", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Download", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20.01px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Add", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Remove", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Invoices", 20x20px, constraints left/top
+          - BOOLEAN_OPERATION "Union", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Activities", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Duplicate", 20x20px, constraints left/top
+          - VECTOR "Vector", 17x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Share", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "More", 20x20px, constraints left/top
+          - VECTOR "Vector", 5x19px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Bulk Edit", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x18px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Maximise", 20x20px, constraints left/top
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Delete", 20x20px, constraints left/top
+          - VECTOR "Vector", 12x14px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Edit", 20x20px, constraints left/top
+          - VECTOR "Vector", 13.2x13.2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Help", 20x20px, constraints left/top
+          - VECTOR "Vector", 19x19px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Add Required", 20x20px, constraints left/top
+          - GROUP "Group 25", 19x19px, constraints left/top [decorative, ~8 shapes]
+        - INSTANCE "Approvals", 20x20px, constraints left/top
+          - GROUP "Group 34", 20x20px, constraints scale/scale [decorative, ~7 shapes]
+        - INSTANCE "Globe", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Settings", 20x20px, constraints left/top
+          - VECTOR "XMLID 55", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Print", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Info", 20x20px, constraints left/top
+          - VECTOR "Vector", 13x13px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Arrow Down", 20x20px, constraints left/top
+          - VECTOR "Vector", 10x5.68px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Arrow Up", 20x20px, constraints left/top
+          - VECTOR "Vector", 10x5.68px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Arrow Left", 20x20px, constraints left/top
+          - VECTOR "Vector", 5.68x10px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Arrow Right", 20x20px, constraints left/top
+          - VECTOR "Vector", 5.68x10px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Automatic Mode", 20x20px, constraints left/top
+          - VECTOR "Vector", 13x13px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Manual Mode", 20x20px, constraints left/top
+          - VECTOR "XMLID 73.4", 13x10px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Plugin", 20x20px, constraints left/top
+          - VECTOR "Vector", 16.97x16.97px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Hamburger", 20x20px, constraints left/top
+          - GROUP "Group 68", 20x16px, constraints scale/scale [decorative, ~4 shapes]
+        - INSTANCE "Select arrow", 20x20px, constraints left/top
+          - VECTOR "Vector 2.1", 8x4px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Notes", 20x20px, constraints left/top
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Resize", 20x20px, constraints left/top
+          - VECTOR "Vector", 6.93x6.94px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - VECTOR "Vector", 6.93x6.94px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Drag resize", 20x20px, constraints left/top
+          - VECTOR "Vector", 13x13px, constraints left/top, fill Blue-gray color palette/BG 04
+      - FRAME "Frame 1261159340", 540x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Flag", 20x20px, constraints left/top
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Attachment", 20x20px, constraints left/top
+          - FRAME "attach", 20x20px, constraints left/top
+            - VECTOR "Vector 8", 10x19px, constraints scale/scale, radius 0/0/0/0px, stroke Blue-gray color palette/BG 04 1px
+        - INSTANCE "Check_mark", 20x20px, constraints left/top
+          - VECTOR "Union", 10.4x7.4px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "translate", 20x20px, constraints left/top
+          - GROUP "Group 769", 11x13.5px, constraints left/top
+            - VECTOR "Vector 3", 11x13.5px, constraints left/top, stroke Blue-gray color palette/BG 04 1px
+            - VECTOR "Vector 4", 7x6.5px, constraints left/top, stroke Blue-gray color palette/BG 04 1px
+          - GROUP "Group 770", 7.5x9.5px, constraints left/top
+            - VECTOR "Vector 5", 7.5x9.5px, constraints left/top, stroke Blue-gray color palette/BG 04 1px
+            - VECTOR "Vector 6", 5.5x0px, constraints left/top, stroke Blue-gray color palette/BG 04 1px
+        - INSTANCE "Language", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Error", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", constraints left/top, fill Blue-gray color palette/BG 04
+          - BOOLEAN_OPERATION "Union", 20x18px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Info_big", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - VECTOR "Rectangle 115", 1x8px, constraints scale/scale, radius 10px, fill Blue-gray color palette/BG 04
+          - VECTOR "Ellipse 16", 1x1px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Scheduling", 20x20px, constraints left/top
+          - VECTOR "Subtract", 14x5px, constraints left/top, fill Blue-gray color palette/BG 04
+          - VECTOR "Subtract", 14x5px, constraints left/top, fill Blue-gray color palette/BG 04
+          - VECTOR "Subtract", 14x5px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Zoom in", 20x20px, constraints left/top
+          - VECTOR "XMLID 30", 19.98x19.98px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - VECTOR "Vector", 9.98x9.98px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Zoom out", 20x20px, constraints left/top
+          - VECTOR "XMLID 30", 19.98x19.98px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - VECTOR "Vector", 9.98x0.99px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Estimate", 20x20px, constraints left/top
+          - BOOLEAN_OPERATION "Subtract", 15x18px, constraints left/top, fill Blue-gray color palette/BG 04
+          - BOOLEAN_OPERATION "Subtract", 11x11px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - VECTOR "Vector", 2.66x5.76px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Launch", 20x20px, constraints left/top
+          - VECTOR "Vector", 14x14px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Minimize", 20x20px, constraints left/top
+          - VECTOR "Vector", 9.98x0.99px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Search smaller", 20x20px, constraints left/top
+          - VECTOR "Vector", 13.54x13.54px, constraints scale/scale, fill Blue-gray color palette/BG 04
+      - FRAME "Frame 1261159340", 540.02x20px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "More smaller", 20x20px, constraints left/top
+          - GROUP "Group 773", 2x12px, constraints scale/scale
+            - ELLIPSE "Ellipse 17", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+            - ELLIPSE "Ellipse 18", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+            - ELLIPSE "Ellipse 19", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Emoji", 20x20px, constraints left/top
+          - BOOLEAN_OPERATION "Subtract", 10x5px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 17", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 18", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - BOOLEAN_OPERATION "Subtract", 16x16px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "chat 11", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Subtract", 16.59x16px, constraints left/top, fill Blue-gray color palette/BG 04
+          - VECTOR "XMLID 73.4", 9x5px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "PTO - Time off", 20x20px, constraints left/top
+          - RECTANGLE "Rectangle 12", 1x8px, constraints left/top, radius 5px, fill Blue-gray color palette/BG 04
+          - RECTANGLE "Rectangle 12.1", 6x1px, constraints left/top, radius 5px, fill Blue-gray color palette/BG 04
+          - BOOLEAN_OPERATION "Subtract", 8x18.76px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 3", 1x1px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 4", 1x1px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 3", 1.22x1.22px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 5", 1.22x1.22px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 3", 1.37x1.37px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 6", 1.37x1.37px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 3", 1.41x1.41px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 7", 1.41x1.41px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 3", 1.37x1.37px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 8", 1.37x1.37px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 3", 1.22x1.22px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 9", 1.22x1.22px, constraints left/top, fill Blue-gray color palette/BG 04
+          - ELLIPSE "Ellipse 10", 1x1px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Stop", 20x20px, constraints left/top
+          - VECTOR "Rectangle 276 (Stroke)", 14x14px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Shared", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 9.95x10.78px, constraints scale/scale, stroke Blue-gray color palette/BG 04 1px
+          - VECTOR "Vector", 9.95x10.78px, constraints scale/scale, stroke Blue-gray color palette/BG 04 1px
+        - INSTANCE "Shared", 20x20px, constraints left/top
+          - VECTOR "Vector", 16.6x17px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Checked", 20x20px, constraints left/top
+          - VECTOR "Union", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Visible", 20.01x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 18.02x12px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Live track", 20x20px, constraints left/top
+          - ELLIPSE "Ellipse 20", 8x8px, constraints center/center, fill Basic color palette/Red
+          - ELLIPSE "Ellipse 21", 14x14px, constraints center/center, stroke Blue-gray color palette/BG 04 1px
+        - INSTANCE "Pending", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Checkmark Green", 20x20px, constraints left/top
+          - FRAME "checkmark-green 1", 15x13px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 11x8px, constraints scale/scale, stroke Basic color palette/Light green 3px
+        - INSTANCE "Kiosk", 20x20px, constraints left/top
+          - RECTANGLE "Rectangle 278", 6x6px, constraints scale/scale, radius 1px, stroke Blue-gray color palette/BG 04 1px
+          - RECTANGLE "Rectangle 281", 6x6px, constraints scale/scale, radius 1px, stroke Blue-gray color palette/BG 04 1px
+          - RECTANGLE "Rectangle 279", 6x6px, constraints scale/scale, radius 1px, stroke Blue-gray color palette/BG 04 1px
+          - RECTANGLE "Rectangle 282", 6x6px, constraints scale/scale, radius 1px, stroke Blue-gray color palette/BG 04 1px
+          - RECTANGLE "Rectangle 280", 6x6px, constraints scale/scale, radius 1px, stroke Blue-gray color palette/BG 04 1px
+          - RECTANGLE "Rectangle 283", 6x6px, constraints scale/scale, radius 1px, stroke Blue-gray color palette/BG 04 1px
+          - RECTANGLE "Rectangle 286", 20x6px, constraints scale/scale, radius 1px, stroke Blue-gray color palette/BG 04 1px
+        - INSTANCE "Clockout", 20.01x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20.01x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+      - FRAME "Frame 1261159340", 540x22px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Backspace", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x12px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Cup", 20x20px, constraints left/top
+          - VECTOR "Vector", 16x14.22px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Cup strikethrough", 20x20px, constraints left/top
+          - VECTOR "Subtract", 16x15.95px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Drag item", 20x20px, constraints left/top
+          - GROUP "Group 773", 2x12px, constraints scale/scale
+            - ELLIPSE "Ellipse 17", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+            - ELLIPSE "Ellipse 18", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+            - ELLIPSE "Ellipse 19", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+          - GROUP "Group 774", 2x12px, constraints scale/scale
+            - ELLIPSE "Ellipse 17", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+            - ELLIPSE "Ellipse 18", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+            - ELLIPSE "Ellipse 19", 2x2px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Stop", 20x20px, constraints left/top
+          - VECTOR "Rectangle 276 (Stroke)", 14x14px, constraints left/top, fill Basic color palette/Red
+        - INSTANCE "Add-ons", 20x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Subtract", 14x14px, constraints left/top, fill Blue-gray color palette/BG 04
+          - BOOLEAN_OPERATION "Subtract", 6x4px, constraints left/top, fill Blue-gray color palette/BG 04
+          - BOOLEAN_OPERATION "Subtract", 6x4px, constraints left/top, fill Blue-gray color palette/BG 04
+          - BOOLEAN_OPERATION "Subtract", 4x6px, constraints left/top, fill Blue-gray color palette/BG 04
+          - BOOLEAN_OPERATION "Subtract", 4x6px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Sort up", 20x20px, constraints left/top
+          - VECTOR "Vector", 8x4px, constraints left/top, fill Blue-gray color palette/BG 07
+          - VECTOR "Vector", 8x4px, constraints left/top, fill Blue-gray color palette/BG 01
+        - INSTANCE "Sort down", 20x20px, constraints left/top
+          - VECTOR "Vector", 8x4px, constraints left/top, fill Blue-gray color palette/BG 07
+          - VECTOR "Vector", 8x4px, constraints left/top, fill Blue-gray color palette/BG 01
+        - INSTANCE "Sort none", 20x20px, constraints left/top
+          - VECTOR "Vector", 8x4px, constraints left/top, fill Blue-gray color palette/BG 07
+          - VECTOR "Vector", 8x4px, constraints left/top, fill Blue-gray color palette/BG 07
+        - INSTANCE "Tag-required", 20x22px, constraints left/top
+          - FRAME "Tags", 20x20px, constraints scale/scale
+            - BOOLEAN_OPERATION "Subtract", 20x20px, constraints left/top, fill Blue-gray color palette/BG 04
+          - VECTOR "*", 5.64x5.79px, constraints scale/scale, fill Basic color palette/Red
+        - INSTANCE "Refresh", 20x20px, constraints left/top
+          - BOOLEAN_OPERATION "Union", 20x20px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Loop", 20x20px, constraints left/top
+          - VECTOR "Union", 20x20px, constraints scale/scale, fill Blue-gray color palette/BG 04
+        - INSTANCE "Loop smaller", 20x20px, constraints left/top
+          - BOOLEAN_OPERATION "Union", 14x14px, constraints left/top, fill Blue-gray color palette/BG 04
+        - INSTANCE "Wallet", 20x19px, constraints left/top, fill #FFFFFF
+          - VECTOR "Union", 20x19px, constraints scale/scale, fill Blue-gray color palette/BG 04
+
+Screen: UI Elements - Light mode / Buttons
+- FRAME "Buttons", 595x1375px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Primary/Surface, effect [drop_shadow 20px offset 0 0 #3C42571A]
+  - FRAME "Header", 595x63px, horizontal pad 20 20 18 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Blue-gray color palette/BG 01
+    - GROUP "Group 1", 315.22x25px, constraints left/top
+      - INSTANCE "Logo", 81.22x20px, constraints left/top
+        - INSTANCE "Primary Logo Variations", 81.08x20px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Primary Logo", 81.08x20px, constraints scale/scale
+            - INSTANCE "Icon", 20.65x20px, constraints scale/scale
+            - INSTANCE "Primary Logo Text", 56.64x14.07px, constraints scale/scale
+      - TEXT "Paragraph 3", 224x25px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 14px]
+  - FRAME "Primary buttons", 595x675px, vertical pad 10 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Paragraph 6", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+    - FRAME "Frame 1261159338", 555x80px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Paragraph 5", 350x80px, constraints left/top, fill #0000008A, text [Roboto Regular, 12px]
+      - GROUP "Group 1261159337", 135x80px, constraints left/top, radius 0/0/0/0px
+        - INSTANCE "Button", 95x40px, horizontal pad 12 20 12 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary color palette/Primary
+          - TEXT "Button", 55x16px, constraints left/top, fill Primary/Surface, text [Button - 400, Uppercase 14]
+        - TEXT "Paragraph 3", 12x15px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 10px]
+        - TEXT "Paragraph 4", 12x15px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 10px]
+        - TEXT "Paragraph 5", 12x15px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 10px]
+        - TEXT "Paragraph 6", 12x15px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 10px]
+        - VECTOR "Vector 1059", 0x80px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1061", 0x80px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1060", 0x80px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1062", 0x80px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1063", 135x0px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1064", 135x0px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1065", 135x0px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1066", 135x0px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+    - FRAME "PRIMARY", 555x245px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1593", 165x245px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x170px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1261159338", 165x21px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 5", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x144px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Primary normal", 95x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Button", 95x40px, horizontal pad 12 20 12 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Basic color palette/Light blue
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary/Surface, text [Button - 400, Uppercase 14]
+      - FRAME "Frame 1594", 165x245px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x170px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x144px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Primary hover", 95x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Button", 95x40px, horizontal pad 12 20 12 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary color palette/Primary hover
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary/Surface, text [Button - 400, Uppercase 14]
+      - FRAME "Frame 1595", 165x245px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x170px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1261159338", 165x21px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 3", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x144px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Primary Disabled", 95x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Button", 95x40px, horizontal pad 12 20 12 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Basic color palette/Light blue, opacity 50%
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary/Surface, text [Button - 400, Uppercase 14]
+    - FRAME "PRIMARY", 555x263px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1593", 165x263px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x188px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1261159338", 165x21px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 5", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x162px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Primary outline normal", 95x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Primary outline", 95x40px, horizontal pad 12 20 12 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary/Surface, stroke Primary/Coing 1px
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary/Coing, text [Button - 400, Uppercase 14]
+      - FRAME "Frame 1594", 165x263px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x188px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x162px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Primary outline hover", 95x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Primary outline hover", 95x40px, horizontal pad 12 20 12 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary/Surface, stroke Primary/Coing hover 1px
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary/Coing hover, text [Button - 400, Uppercase 14]
+      - FRAME "Frame 1595", 165x263px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x188px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1261159338", 165x21px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 3", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x162px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Primary outline disabled", 95x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Primary outline disabled", 95x40px, horizontal pad 12 20 12 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary/Surface, stroke Primary/Coing hover 1px, opacity 50%
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary/Coing hover, text [Button - 400, Uppercase 14]
+  - FRAME "Secondary buttons", 595x637px, vertical pad 10 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Paragraph 6", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+    - FRAME "Frame 1261159338", 555x62px, horizontal pad 0 40 0 0px gap 40px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Paragraph 5", 350x36px, constraints left/top, fill #0000008A, text [Roboto Regular, 12px]
+      - GROUP "Group 1261159337", 105x62px, constraints left/top, radius 0/0/0/0px
+        - INSTANCE "Button smaller", 73x30px, horizontal pad 7 9 7 9px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary color palette/Primary
+          - TEXT "Button", 55x16px, constraints left/top, fill Primary/Surface, text [Button - 400, Uppercase 14]
+        - TEXT "Paragraph 3", 6x15px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 10px]
+        - TEXT "Paragraph 4", 6x15px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 10px]
+        - TEXT "Paragraph 5", 6x15px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 10px]
+        - TEXT "Paragraph 6", 6x15px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 10px]
+        - VECTOR "Vector 1059", 0x62px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1061", 0x62px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1060", 0x62px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1062", 0x62px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1063", 105x0px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1064", 105x0px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1065", 105x0px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+        - VECTOR "Vector 1066", 105x0px, constraints left/top, stroke Gray/High Emphasis - 333 0.3px
+    - FRAME "PRIMARY", 555x235px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1593", 165x235px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x170px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1261159338", 165x21px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 5", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x144px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Secondary normal", 73x30px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Secondary button smaller", 73x30px, horizontal pad 7 9 7 9px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary color palette/Primary
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary/Surface, text [Button - 400, Uppercase 14]
+      - FRAME "Frame 1594", 165x235px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x170px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x144px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Secondary hover", 73x30px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Secondary button smaller", 73x30px, horizontal pad 7 9 7 9px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary color palette/Primary hover
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary/Surface, text [Button - 400, Uppercase 14]
+      - FRAME "Frame 1595", 165x235px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x170px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1261159338", 165x21px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 3", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x144px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Secondary disabled", 73x30px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Secondary button smaller", 73x30px, horizontal pad 7 9 7 9px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary color palette/Primary, opacity 50%
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary/Surface, text [Button - 400, Uppercase 14]
+    - FRAME "PRIMARY", 555x253px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1593", 165x253px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x188px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1261159338", 165x21px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 5", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x162px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Secondary outline normal", 73x30px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Secondary utton smaller", 73x30px, horizontal pad 7 9 7 9px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary/Surface, stroke Primary color palette/Primary 1px
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary color palette/Primary, text [Button - 400, Uppercase 14]
+      - FRAME "Frame 1594", 165x253px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x188px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Paragraph 3", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x162px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - COMPONENT "Secondary outline hover", 73x30px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Secondary button smaller", 73x30px, horizontal pad 7 9 7 9px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary/Surface, stroke Primary color palette/Primary hover 1px
+            - TEXT "Button", 55x16px, constraints left/top, fill Primary color palette/Primary hover, text [Button - 400, Uppercase 14]
+      - FRAME "Frame 1595", 165x253px, vertical pad 10 0 10 0px gap 15px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1261159336", 165x188px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1261159338", 165x21px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 3", 165x21px, constraints left/top, fill Gray/High Emphasis - 333, text [Body 2 - 500, 14]
+          - TEXT "Paragraph 4", 165x162px, constraints left/top, fill Gray/High Emphasis - 333, text [Caption 01 - 400, 12]
+        - INSTANCE "Secondary outline disabled", 73x30px, horizontal pad 7 9 7 9px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Primary/Surface, stroke Primary color palette/Primary 1px, opacity 50%
+          - TEXT "Button", 55x16px, constraints left/top, fill Primary/Coing, text [Button - 400, Uppercase 14]
+
+Screen: UI Elements - Light mode / Input fields
+- FRAME "Input fields", 595x1164px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Primary/Surface, effect [drop_shadow 20px offset 0 0 #3C42571A]
+  - FRAME "Header", 595x63px, horizontal pad 20 20 18 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Blue-gray color palette/BG 01
+    - GROUP "Group 1", 315.22x25px, constraints left/top
+      - INSTANCE "Logo", 81.22x20px, constraints left/top
+        - INSTANCE "Primary Logo Variations", 81.08x20px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Primary Logo", 81.08x20px, constraints scale/scale
+            - INSTANCE "Icon", 20.65x20px, constraints scale/scale
+            - INSTANCE "Primary Logo Text", 56.64x14.07px, constraints scale/scale
+      - TEXT "Paragraph 3", 224x25px, constraints left/top, fill Gray/High Emphasis - 333, text [Roboto Regular, 14px]
+  - FRAME "Frame 282", 595x64px, vertical pad 20 20 10 20px gap 10px sizing W:fill H:fixed, constraints left/top, radius 5/5/0/0px
+    - TEXT "Paragraph 3", 555x34px, constraints left/top, fill Gray/High Emphasis - 333, text [H1 - 400, 24], [heading]
+  - FRAME "Input fields", 595x1037px, vertical pad 10 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Paragraph 6", 555x27px, constraints left/top, fill Gray/High Emphasis - 333, text [H2 - 500, 18], [heading]
+    - FRAME "Frame 1261159338", 555x74px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Paragraph 5", 253x54px, constraints left/top, fill #0000008A, text [Roboto Regular, 12px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

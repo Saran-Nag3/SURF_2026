@@ -1,0 +1,428 @@
+---
+name: headspace-ios-screens-community
+source_file: Headspace iOS Screens (Community)
+source_page: All pages (21): Thumbnail, ---, All screens, ---, Onboarding, Subscribing, Today, Get started with Headspace, First exercise, Ebb relfection, Meditation exercise, Sleep exercise, Move exercise, Music exercise, Guided program, Search, Stress reflection, Profile, Favorites & recents, Account settings, Cancel subscription
+generated_at: 2026-07-25T09:21:40.955284+00:00
+---
+
+# Headspace iOS Screens (Community) Design Guidelines
+
+## Source
+- Figma file: Headspace iOS Screens (Community)
+- Figma page: All pages (21): Thumbnail, ---, All screens, ---, Onboarding, Subscribing, Today, Get started with Headspace, First exercise, Ebb relfection, Meditation exercise, Sleep exercise, Move exercise, Music exercise, Guided program, Search, Stress reflection, Profile, Favorites & recents, Account settings, Cancel subscription
+- Extracted at: 2026-07-25T09:21:40.955284+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #0000001A: 34 uses
+- #F7F4F0: 34 uses
+- #757575: 12 uses
+- #181D27: 5 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- No significant unstyled fonts found (or all text is already captured as styles).
+
+## Typography Hierarchy
+- No text styles or fonts found to rank.
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- hi: [drop_shadow 43.46px offset 0 4.35 #C0C0C040]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- hi: 2 uses
+
+## Layout & Structure
+Screen: Thumbnail / Thumbnail
+- FRAME "Thumbnail", 1920x1080px, constraints left/top, fill #FAFAFA
+  - FRAME "Content", 698x410px, vertical pad 0 0 0 0px gap 60px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 1430106851", 698x266px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Heading", 698x150px, constraints left/top, fill #181D27, text [Inter SemiBold, 120px], [heading]
+      - TEXT "Heading", 698x108px, constraints left/top, fill #464D5B, text [Inter Regular, 96px], [heading]
+    - FRAME "Frame 1430106330", 602x84px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "chip", 349x84px, horizontal pad 18 32 18 32px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FFFFFF80, stroke #F5F5F5 1px, effect hi
+        - VECTOR "Vector", 33x33px, constraints left/top, fill #181D27
+        - TEXT "Screenshots", 240x48px, constraints left/top, fill #181D27, text [Inter Medium, 40px], [heading]
+      - FRAME "chip", 221x84px, horizontal pad 18 32 18 32px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FFFFFF80, stroke #F5F5F5 1px, effect hi
+        - VECTOR "Vector", 33x33px, constraints left/top, fill #181D27
+        - TEXT "Flows", 112x48px, constraints left/top, fill #181D27, text [Inter Medium, 40px], [heading]
+  - FRAME "Frame 1430106852", 120x120px, constraints left/top, radius 32.88px, fill #FFFFFF, stroke #EFE9E9 0.82px, effect [drop_shadow 16.44px offset 0 8.22 #E0E0E01A]
+    - RECTANGLE "headsapce 1", 97.5x97.5px, constraints left/top, fill image(hash: 76d726e77cf734b0759cbf82ffb633d49bfd2100)
+  - FRAME "Frame 1430106855", 497x68px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Mem logo", 68x68px, constraints left/top, fill image(hash: f4c387c11a75140c0771821615d46824813b153a)
+    - TEXT "Curated by Memorisely", 405x44px, constraints left/top, fill #353A44, text [Inter SemiBold, 36px], [heading]
+  - GROUP "Group 7", 1498.17x2044.13px, constraints left/top, radius 25.77px, effect [drop_shadow 77.31px offset 0 41.23 #E9E1E1] [decorative, ~9 shapes]
+  - FRAME "Frame 1430106856", 1144x514px, constraints left/top, fill gradient_linear(#FFFFFF00 0% | #FAFAFA 100%), effect [layer_blur 10px]
+
+Screen: All screens / Onboarding Flow
+- SECTION "Onboarding Flow", 6469x3116px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 6a7ca7920300a00a2a9c6693fbf3f196f84603a3)
+  - RECTANGLE "Headspace curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 73017862ce0045869f560ad63362d34e66785096)
+  - RECTANGLE "Headspace curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 7c9a1829c6e5892a8e120a934a5e89b6657eb887)
+  - RECTANGLE "Headspace curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: 07f67d8a161eebe72523c0cd476223a3b16cf60f)
+  - RECTANGLE "Headspace curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 034c7e57fa30d80d087c360e9d0dacc8680214da)
+  - RECTANGLE "Headspace curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: d98f39d45658a2d4a270309850f47c48fc7fdff4)
+  - RECTANGLE "Headspace curated by Memorisely 07", 393x852px, constraints left/top, radius 32px, fill image(hash: fecd1de0463369daccbc10654fc9805c4ccda73c)
+  - RECTANGLE "Headspace curated by Memorisely 08", 393x852px, constraints left/top, radius 32px, fill image(hash: 95b268c0b61e6efcb2e194dbf03c2d716377cd3c)
+  - RECTANGLE "Headspace curated by Memorisely 09", 393x852px, constraints left/top, radius 32px, fill image(hash: da07887779b39fb411e69ad6caf53e106957cf53)
+  - RECTANGLE "Headspace curated by Memorisely 10", 393x852px, constraints left/top, radius 32px, fill image(hash: c255129bb6e0264c83393cb0fbb5fcd73244e81c)
+  - RECTANGLE "Headspace curated by Memorisely 11", 393x852px, constraints left/top, radius 32px, fill image(hash: d501bb223cf7ccb1281c38e2ba97707f53fccfa8)
+  - RECTANGLE "Headspace curated by Memorisely 12", 393x852px, constraints left/top, radius 32px, fill image(hash: 8cdfb81fdbd3d47485b07601a57b1059b4a32aee)
+  - RECTANGLE "Headspace curated by Memorisely 13", 393x852px, constraints left/top, radius 32px, fill image(hash: 493c467d81e146c644a6160d33138fb8952c676a)
+  - RECTANGLE "Headspace curated by Memorisely 14", 393x852px, constraints left/top, radius 32px, fill image(hash: 35341ea1c6f731820626efec3381aae0679e73c6)
+  - RECTANGLE "Headspace curated by Memorisely 15", 393x852px, constraints left/top, radius 32px, fill image(hash: b3a42117e7bbb39de96bca702db89e8dc1b3af08)
+  - RECTANGLE "Headspace curated by Memorisely 16", 393x852px, constraints left/top, radius 32px, fill image(hash: 8aa431a9c8acaf379ad65486e79af618238e9d4f)
+  - RECTANGLE "Headspace curated by Memorisely 17", 393x852px, constraints left/top, radius 32px, fill image(hash: 449e7bbc9a3101a6ab0cd607e635f05bef52672e)
+  - RECTANGLE "Headspace curated by Memorisely 18", 393x852px, constraints left/top, radius 32px, fill image(hash: f0d020ea282abe8219c1203e87d9c2fd02de4d6a)
+  - RECTANGLE "Headspace curated by Memorisely 19", 393x852px, constraints left/top, radius 32px, fill image(hash: e89b240f0065b4754935ede3cdb7ce116ca1f4da)
+  - RECTANGLE "Headspace curated by Memorisely 20", 393x852px, constraints left/top, radius 32px, fill image(hash: da273095762ce0408d61dd9da0a5c671404991d0)
+  - RECTANGLE "Headspace curated by Memorisely 21", 393x852px, constraints left/top, radius 32px, fill image(hash: e44ff4bb0bdadadcffab2a92c61f795ef3e9d2c0)
+  - RECTANGLE "Headspace curated by Memorisely 22", 393x852px, constraints left/top, radius 32px, fill image(hash: edf867323a6a60c8c6ef56547ada1002b4f48ae2)
+  - RECTANGLE "Headspace curated by Memorisely 23", 393x852px, constraints left/top, radius 32px, fill image(hash: cd4ec457b9ed0479c02c21604366b5a820dcf9e7)
+  - RECTANGLE "Headspace curated by Memorisely 24", 393x852px, constraints left/top, radius 32px, fill image(hash: 34ca4485fe647d9e28691fccdeb252e915c94100)
+  - RECTANGLE "Headspace curated by Memorisely 25", 393x852px, constraints left/top, radius 32px, fill image(hash: 75b9a20f7bf85462cc61d31bafed54bbcbad015c)
+  - ... +6 more children
+
+Screen: All screens / Subscribing Flow
+- SECTION "Subscribing Flow", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 123", 393x852px, constraints left/top, radius 32px, fill image(hash: 35341ea1c6f731820626efec3381aae0679e73c6)
+  - RECTANGLE "Headspace Memorisely 122", 393x852px, constraints left/top, radius 32px, fill image(hash: b3a42117e7bbb39de96bca702db89e8dc1b3af08)
+  - RECTANGLE "Group 1 1", 393x852px, constraints left/top, fill image(hash: 973d5b8274fe724d6df4ab899a87d3341d522427)
+  - RECTANGLE "Headspace Memorisely 104", 393x852px, constraints left/top, radius 32px, fill image(hash: b6e16223270e5c7f9c51f4a3d0e651f8c9c4c723)
+  - RECTANGLE "Headspace Memorisely 103", 393x852px, constraints left/top, radius 32px, fill image(hash: 40b089b1a0dbcf46ef641791b07ddcbaada0066b)
+  - RECTANGLE "Headspace Memorisely 102", 393x852px, constraints left/top, radius 32px, fill image(hash: 6d7e8a1ec2c0da18c0ae65c68760f7b230aaf5c3)
+
+Screen: All screens / Get started with Headspace
+- SECTION "Get started with Headspace", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 101", 393x852px, constraints left/top, radius 32px, fill image(hash: a3fd20285d0ec046514766f2fe7461e3a1cd093d)
+  - RECTANGLE "Headspace Memorisely 100", 393x852px, constraints left/top, radius 32px, fill image(hash: 5295504401c2691ccbc48ee52dac70e0ba5dba01)
+  - RECTANGLE "Headspace Memorisely 99", 393x852px, constraints left/top, radius 32px, fill image(hash: c3a837e4d0a8c526e80755cb7461451e7e5fc04c)
+  - RECTANGLE "Headspace Memorisely 98", 393x852px, constraints left/top, radius 32px, fill image(hash: a05cc8903b73c569203d267e66b31c4aab3434aa)
+  - RECTANGLE "Headspace Memorisely 97", 393x852px, constraints left/top, radius 32px, fill image(hash: 2f2f33b3c5ff6e8f5fa2db432854b5367588041d)
+  - RECTANGLE "Headspace Memorisely 96", 393x852px, constraints left/top, radius 32px, fill image(hash: cd750fcf4e9b3ac3dbd7db4d1a3ebb2c979223d4)
+
+Screen: All screens / First exercise
+- SECTION "First exercise", 2685x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 95", 393x852px, constraints left/top, radius 32px, fill image(hash: 915e58916fae2efbd9424b5c764e97f889d5d79e)
+  - RECTANGLE "Headspace Memorisely 93", 393x852px, constraints left/top, radius 32px, fill image(hash: 67aeed097d917633729dc3c994441e11181d420e)
+  - RECTANGLE "Headspace Memorisely 92", 393x852px, constraints left/top, radius 32px, fill image(hash: 34998c9e78d54006028a784ca7301b133348eb5b)
+  - RECTANGLE "Headspace Memorisely 91", 393x852px, constraints left/top, radius 32px, fill image(hash: 4b3d277c0015e20c4fc9deb3779bfabfef48385a)
+  - RECTANGLE "Headspace Memorisely 90", 393x852px, constraints left/top, radius 32px, fill image(hash: c986a9d0f76829db141a38dc3e18ac5c061f4996)
+
+Screen: All screens / Ebb reflection
+- SECTION "Ebb reflection", 5050x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 89", 393x852px, constraints left/top, radius 32px, fill image(hash: b428a64501cd808618404439468ae7dd4ad15c04)
+  - RECTANGLE "Headspace Memorisely 88", 393x852px, constraints left/top, radius 32px, fill image(hash: 5f6a296dc18b3aa739a8577fd60b4eef39302a22)
+  - RECTANGLE "Headspace Memorisely 87", 393x852px, constraints left/top, radius 32px, fill image(hash: 3dc1e3bd4d9be84b1eb60fe6e4a09e122a11d7de)
+  - RECTANGLE "Headspace Memorisely 86", 393x852px, constraints left/top, radius 32px, fill image(hash: e4bd2b5101d3491dcd7b6acbe2719dca60bae43d)
+  - RECTANGLE "Headspace Memorisely 85", 393x852px, constraints left/top, radius 32px, fill image(hash: 62e549a1238d8fbed9d1296bb0b3c979d835d7ba)
+  - RECTANGLE "Headspace Memorisely 84", 393x852px, constraints left/top, radius 32px, fill image(hash: 94cf8ed1418cedcef9eb0473758e2034f2410c2d)
+  - RECTANGLE "Headspace Memorisely 83", 393x852px, constraints left/top, radius 32px, fill image(hash: cf3fadaeee7505e80ec9b10f4296c1e90aa3d94c)
+  - RECTANGLE "Headspace Memorisely 82", 393x852px, constraints left/top, radius 32px, fill image(hash: e72ab2f0651c07f320943ef397f30283f4bb56f3)
+  - RECTANGLE "Headspace Memorisely 81", 393x852px, constraints left/top, radius 32px, fill image(hash: fc5e31742ff31cec444366be9188f957529f48f3)
+  - RECTANGLE "Headspace Memorisely 80", 393x852px, constraints left/top, radius 32px, fill image(hash: 67d05ade90f34838ed1942f0bd09168f55a3964e)
+
+Screen: All screens / Meditation exercise
+- SECTION "Meditation exercise", 5050x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 78", 393x852px, constraints left/top, radius 32px, fill image(hash: f6e7afdd34476bc119f7a2396784b2760d99f690)
+  - RECTANGLE "Headspace Memorisely 77", 393x852px, constraints left/top, radius 32px, fill image(hash: 60c0fd1c66f39e94e43333811ded3178574d514f)
+  - RECTANGLE "Headspace Memorisely 143", 393x852px, constraints left/top, radius 32px, fill image(hash: 86e04076b03bdb41b339c16267b0011e0f7f8a78)
+  - RECTANGLE "Headspace Memorisely 142", 393x852px, constraints left/top, radius 32px, fill image(hash: fec56243557d79cf7dc54968cfd6f940e7d87581)
+  - RECTANGLE "Headspace Memorisely 141", 393x852px, constraints left/top, radius 32px, fill image(hash: b7e4552fdbe9db4e61a68fd22610fe4a0736342a)
+  - RECTANGLE "Headspace Memorisely 139", 393x852px, constraints left/top, radius 32px, fill image(hash: 2c2b456fe55d015357dc8504b85e87f77f80317f)
+  - RECTANGLE "Headspace Memorisely 76", 393x852px, constraints left/top, radius 32px, fill image(hash: d460da6255ae5b49ef25840661cdcde1defc38a8)
+  - RECTANGLE "Headspace Memorisely 69", 393x852px, constraints left/top, radius 32px, fill image(hash: c5eddfa3d23c14716edd1050d8928cc6e5950bac)
+  - RECTANGLE "Headspace Memorisely 68", 393x852px, constraints left/top, radius 32px, fill image(hash: 12b5e312ffc68698a6043100228ae0352e7d7974)
+  - RECTANGLE "Headspace Memorisely 66", 393x852px, constraints left/top, radius 32px, fill image(hash: 4e0ad54e0eb767248c7ab77db1dc9bce395076ba)
+
+Screen: All screens / Music exercise
+- SECTION "Music exercise", 3631x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 44", 393x852px, constraints left/top, radius 32px, fill image(hash: 71859e3673e006aa2181b76927d16d9fdb1c1db8)
+  - RECTANGLE "Headspace Memorisely 43", 393x852px, constraints left/top, radius 32px, fill image(hash: 797ebc5470a49d4b037729a0727cee2ca5230a83)
+  - RECTANGLE "Headspace Memorisely 42", 393x852px, constraints left/top, radius 32px, fill image(hash: 0374fae2c986d05805300c44dc2617bf201c696d)
+  - RECTANGLE "Headspace Memorisely 49", 393x852px, constraints left/top, radius 32px, fill image(hash: c8ddd639680fc43e0fbd4d4e55a861b9c495b144)
+  - RECTANGLE "Headspace Memorisely 40", 393x852px, constraints left/top, radius 32px, fill image(hash: 34ed474236ab824941b2024dc5ab7492551096d5)
+  - RECTANGLE "Headspace Memorisely 60", 393x852px, constraints left/top, radius 32px, fill image(hash: e08eb1d9bc429ab7ebee9b5aa3b21c155de53c5e)
+  - RECTANGLE "Headspace Memorisely 64", 393x852px, constraints left/top, radius 32px, fill image(hash: a0deca69d73c68eb20f4f62a3cbf4f57138e6b9e)
+
+Screen: All screens / Guided progam
+- SECTION "Guided progam", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 39", 393x852px, constraints left/top, radius 32px, fill image(hash: 262a7799bad3d441034bf59827d10ae48ddde32b)
+  - RECTANGLE "Headspace Memorisely 38", 393x852px, constraints left/top, radius 32px, fill image(hash: 996991d61f3451c7da72d1eff6e1372405713484)
+  - RECTANGLE "Headspace Memorisely 35", 393x852px, constraints left/top, radius 32px, fill image(hash: b22910a72ec388bdd23633a2a2dfd6735aaa7b9e)
+  - RECTANGLE "Headspace Memorisely 34", 393x852px, constraints left/top, radius 32px, fill image(hash: 8be33d6c2d668c8c9ddd4a7f4c11dd5471fd38fc)
+  - RECTANGLE "Headspace Memorisely 33", 393x852px, constraints left/top, radius 32px, fill image(hash: 2c16d55a5e84f73cc1480abb47a1c0fd4c88029c)
+  - RECTANGLE "Headspace Memorisely 32", 393x852px, constraints left/top, radius 32px, fill image(hash: 4c1f413a60cda1941d16896d4062c94ba58c6840)
+
+Screen: All screens / Search
+- SECTION "Search", 1266x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 31", 393x852px, constraints left/top, radius 32px, fill image(hash: 48070a5dd60e4f3a9f5f13899650baca7f80ed51)
+  - RECTANGLE "Headspace Memorisely 30", 393x852px, constraints left/top, radius 32px, fill image(hash: 697d7fe5f50863964d7ade69194436ce403365cf)
+
+Screen: All screens / Stress reflecion
+- SECTION "Stress reflecion", 5050x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 29", 393x852px, constraints left/top, radius 32px, fill image(hash: 8d56ad212e90b35790ed546979dda29f1fe35cec)
+  - RECTANGLE "Headspace Memorisely 28", 393x852px, constraints left/top, radius 32px, fill image(hash: 45bd731d4f9e5f8d7fb1541b696e75fd755acc13)
+  - RECTANGLE "Headspace Memorisely 27", 393x852px, constraints left/top, radius 32px, fill image(hash: 41d6f5ed42f3b060191562076fd4a22b5986016e)
+  - RECTANGLE "Headspace Memorisely 26", 393x852px, constraints left/top, radius 32px, fill image(hash: d3a0bea635626c7e16fa824a264db2afddbe3109)
+  - RECTANGLE "Headspace Memorisely 25", 393x852px, constraints left/top, radius 32px, fill image(hash: a292e67fc0d82864304e76cac21a63ca9183a9f3)
+  - RECTANGLE "Headspace Memorisely 24", 393x852px, constraints left/top, radius 32px, fill image(hash: 476717d5a0932df520f41f0d6decc9f665a3ee2e)
+  - RECTANGLE "Headspace Memorisely 23", 393x852px, constraints left/top, radius 32px, fill image(hash: 4408b9f28e5002caf559f1a889e6ef1cccfc6be4)
+  - RECTANGLE "Headspace Memorisely 37", 393x852px, constraints left/top, radius 32px, fill image(hash: 4aa1614df2b459887676e705a1bbf0f5a4b97249)
+  - RECTANGLE "Headspace Memorisely 21", 393x852px, constraints left/top, radius 32px, fill image(hash: af499208f30cff69420e200ee409c94a3b89644f)
+  - RECTANGLE "Headspace Memorisely 20", 393x852px, constraints left/top, radius 32px, fill image(hash: 126ee443f99dd7b7f2aab3220d597fca7c906ddf)
+
+Screen: All screens / Today
+- SECTION "Today", 1266x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 102", 393x852px, constraints left/top, radius 32px, fill image(hash: 6d7e8a1ec2c0da18c0ae65c68760f7b230aaf5c3)
+  - RECTANGLE "Headspace Memorisely 101", 393x852px, constraints left/top, radius 32px, fill image(hash: a3fd20285d0ec046514766f2fe7461e3a1cd093d)
+
+Screen: All screens / Sleep exercise
+- SECTION "Sleep exercise", 5523x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 64", 393x852px, constraints left/top, radius 32px, fill image(hash: a0deca69d73c68eb20f4f62a3cbf4f57138e6b9e)
+  - RECTANGLE "Headspace Memorisely 63", 393x852px, constraints left/top, radius 32px, fill image(hash: ce37c0e2236fc468d57039be0e15509b2c5d8ac0)
+  - RECTANGLE "Headspace Memorisely 72", 393x852px, constraints left/top, radius 32px, fill image(hash: 25349622d12ef3d2808e4c6371d47782892e4f23)
+  - RECTANGLE "Headspace Memorisely 61", 393x852px, constraints left/top, radius 32px, fill image(hash: 4753bbd35fddef11f0566a3c55185aebe95d970e)
+  - RECTANGLE "Headspace Memorisely 73", 393x852px, constraints left/top, radius 32px, fill image(hash: e63f984c1e1086e44905cc72b6a851ba5f728931)
+  - RECTANGLE "Headspace Memorisely 59", 393x852px, constraints left/top, radius 32px, fill image(hash: d1f73a138b467f5406cee499243da410f917d555)
+  - RECTANGLE "Headspace Memorisely 58", 393x852px, constraints left/top, radius 32px, fill image(hash: 6e9ef45542112ee0d4dad20bfb429cee0f1fbd48)
+  - RECTANGLE "Headspace Memorisely 56", 393x852px, constraints left/top, radius 32px, fill image(hash: eb8072c21113db85a1d03aa59ba2c309fc30adb1)
+  - RECTANGLE "Headspace Memorisely 55", 393x852px, constraints left/top, radius 32px, fill image(hash: 67b7589c8bc051ef4038225a82b069c886643370)
+  - RECTANGLE "Headspace Memorisely 54", 393x852px, constraints left/top, radius 32px, fill image(hash: 610370e365acf3e0c2b315211db0d250b4ace2a7)
+  - RECTANGLE "Headspace Memorisely 53", 393x852px, constraints left/top, radius 32px, fill image(hash: 593200b10ef4b4d2112c8be23414018d869a0b1f)
+  - SECTION "Move exercise", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px [decorative, ~6 shapes]
+
+Screen: All screens / Search
+- SECTION "Search", 2212x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 18", 393x852px, constraints left/top, radius 32px, fill image(hash: 7c316a862299381f5dd8edad30fca1b7d2e67aaa)
+  - RECTANGLE "Headspace Memorisely 16", 393x852px, constraints left/top, radius 32px, fill image(hash: 2fb8182cebe0f410699a3f5cbb7c8326a60f7da7)
+  - RECTANGLE "Headspace Memorisely 19", 393x852px, constraints left/top, radius 32px, fill image(hash: 5998e20c32d963348a8a37b09ebd911b1db9a0c0)
+  - RECTANGLE "Headspace Memorisely 36", 393x852px, constraints left/top, radius 32px, fill image(hash: f4aa54fa49f03bd8a091248ff9a561a1acaf3f39)
+
+Screen: All screens / Favorites & Recents
+- SECTION "Favorites & Recents", 1739x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: 6c1e6bd7817a35bb6da9ad62e94251ae87616768)
+  - RECTANGLE "Headspace Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 204c8d0260831b472e3079dcc11b8d8058f1bf86)
+  - RECTANGLE "Headspace Memorisely 102", 393x852px, constraints left/top, radius 32px, fill image(hash: 6d7e8a1ec2c0da18c0ae65c68760f7b230aaf5c3)
+
+Screen: All screens / Account settings
+- SECTION "Account settings", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 62", 393x852px, constraints left/top, radius 32px, fill image(hash: 0b217b1b56b3b5303e228e5f63cd806cbc581695)
+  - RECTANGLE "Headspace Memorisely 41", 393x852px, constraints left/top, radius 32px, fill image(hash: 7e5e50b556cb267fddab5b33e33a31ba36226a98)
+  - RECTANGLE "Headspace Memorisely 11", 393x852px, constraints left/top, radius 32px, fill image(hash: 114bedad9587781fa5c227d1bc2ac7713271d20b)
+  - RECTANGLE "Headspace Memorisely 07", 393x852px, constraints left/top, radius 32px, fill image(hash: 8491a0d14bd3c64a9f53c9060d6397da270f5679)
+  - RECTANGLE "Headspace Memorisely 10", 393x852px, constraints left/top, radius 32px, fill image(hash: 94292c883688495b6ab24794a6558a49e192398b)
+  - RECTANGLE "Headspace Memorisely 08", 393x852px, constraints left/top, radius 32px, fill image(hash: e7fb29f757fedecf984db802b2d90e263c93eb9e)
+
+Screen: All screens / Cancel subscription
+- SECTION "Cancel subscription", 2212x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Memorisely 13", 393x852px, constraints left/top, radius 32px, fill image(hash: 8cd51d6871770c1ef484931cb7ec1095b19034ea)
+  - RECTANGLE "Headspace Memorisely 15", 393x852px, constraints left/top, radius 32px, fill image(hash: 377da7dc1a10e434670493e5e67c88afd5d73296)
+  - RECTANGLE "Headspace Memorisely 12", 393x852px, constraints left/top, radius 32px, fill image(hash: c3cc683162b7cb268c8e5159d52c315d9802ce4f)
+  - RECTANGLE "Headspace Memorisely 62", 393x852px, constraints left/top, radius 32px, fill image(hash: 0b217b1b56b3b5303e228e5f63cd806cbc581695)
+
+Screen: Onboarding / Onboarding Flow
+- SECTION "Onboarding Flow", 6469x3116px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 6a7ca7920300a00a2a9c6693fbf3f196f84603a3)
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 73017862ce0045869f560ad63362d34e66785096)
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 7c9a1829c6e5892a8e120a934a5e89b6657eb887)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: 07f67d8a161eebe72523c0cd476223a3b16cf60f)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 034c7e57fa30d80d087c360e9d0dacc8680214da)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: d98f39d45658a2d4a270309850f47c48fc7fdff4)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 07", 393x852px, constraints left/top, radius 32px, fill image(hash: fecd1de0463369daccbc10654fc9805c4ccda73c)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 08", 393x852px, constraints left/top, radius 32px, fill image(hash: 95b268c0b61e6efcb2e194dbf03c2d716377cd3c)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 09", 393x852px, constraints left/top, radius 32px, fill image(hash: da07887779b39fb411e69ad6caf53e106957cf53)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 10", 393x852px, constraints left/top, radius 32px, fill image(hash: c255129bb6e0264c83393cb0fbb5fcd73244e81c)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 11", 393x852px, constraints left/top, radius 32px, fill image(hash: d501bb223cf7ccb1281c38e2ba97707f53fccfa8)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 12", 393x852px, constraints left/top, radius 32px, fill image(hash: 8cdfb81fdbd3d47485b07601a57b1059b4a32aee)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - RECTANGLE "Headspace Onboarding curated by Memorisely 13", 393x852px, constraints left/top, radius 32px, fill image(hash: 493c467d81e146c644a6160d33138fb8952c676a)
+  - CONNECTOR "Connector line", 67.5x0px, constraints left/top, stroke #757575 4px
+  - ... +18 more children
+
+Screen: Subscribing / Subscribing flow
+- SECTION "Subscribing flow", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace subscribing flow curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 35341ea1c6f731820626efec3381aae0679e73c6)
+  - RECTANGLE "Headspace subscribing flow curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: b3a42117e7bbb39de96bca702db89e8dc1b3af08)
+  - RECTANGLE "Headspace subscribing flow curated by Memorisely 03", 393x852px, constraints left/top, fill image(hash: 973d5b8274fe724d6df4ab899a87d3341d522427)
+  - RECTANGLE "Headspace subscribing flow curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: b6e16223270e5c7f9c51f4a3d0e651f8c9c4c723)
+  - RECTANGLE "Headspace subscribing flow curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 40b089b1a0dbcf46ef641791b07ddcbaada0066b)
+  - RECTANGLE "Headspace subscribing flow curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: 6d7e8a1ec2c0da18c0ae65c68760f7b230aaf5c3)
+
+Screen: Today / Today
+- SECTION "Today", 1266x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Today curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 6d7e8a1ec2c0da18c0ae65c68760f7b230aaf5c3)
+  - RECTANGLE "Headspace Today curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: a3fd20285d0ec046514766f2fe7461e3a1cd093d)
+
+Screen: Get started with Headspace / Get started with Headspace
+- SECTION "Get started with Headspace", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Get started curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: a3fd20285d0ec046514766f2fe7461e3a1cd093d)
+  - RECTANGLE "Headspace Get started curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 5295504401c2691ccbc48ee52dac70e0ba5dba01)
+  - RECTANGLE "Headspace Get started curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: c3a837e4d0a8c526e80755cb7461451e7e5fc04c)
+  - RECTANGLE "Headspace Get started curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: a05cc8903b73c569203d267e66b31c4aab3434aa)
+  - RECTANGLE "Headspace Get started curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 2f2f33b3c5ff6e8f5fa2db432854b5367588041d)
+  - RECTANGLE "Headspace Get started curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: cd750fcf4e9b3ac3dbd7db4d1a3ebb2c979223d4)
+
+Screen: First exercise / First exercise
+- SECTION "First exercise", 2685x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace First exercise curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 915e58916fae2efbd9424b5c764e97f889d5d79e)
+  - RECTANGLE "Headspace First exercise curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 67aeed097d917633729dc3c994441e11181d420e)
+  - RECTANGLE "Headspace First exercise curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 34998c9e78d54006028a784ca7301b133348eb5b)
+  - RECTANGLE "Headspace First exercise curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: 4b3d277c0015e20c4fc9deb3779bfabfef48385a)
+  - RECTANGLE "Headspace First exercise curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: c986a9d0f76829db141a38dc3e18ac5c061f4996)
+
+Screen: Ebb relfection / Ebb reflection
+- SECTION "Ebb reflection", 5050x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Reflection curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: b428a64501cd808618404439468ae7dd4ad15c04)
+  - RECTANGLE "Headspace Reflection curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 5f6a296dc18b3aa739a8577fd60b4eef39302a22)
+  - RECTANGLE "Headspace Reflection curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 3dc1e3bd4d9be84b1eb60fe6e4a09e122a11d7de)
+  - RECTANGLE "Headspace Reflection curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: e4bd2b5101d3491dcd7b6acbe2719dca60bae43d)
+  - RECTANGLE "Headspace Reflection curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 62e549a1238d8fbed9d1296bb0b3c979d835d7ba)
+  - RECTANGLE "Headspace Reflection curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: 94cf8ed1418cedcef9eb0473758e2034f2410c2d)
+  - RECTANGLE "Headspace Reflection curated by Memorisely 07", 393x852px, constraints left/top, radius 32px, fill image(hash: cf3fadaeee7505e80ec9b10f4296c1e90aa3d94c)
+  - RECTANGLE "Headspace Reflection curated by Memorisely 08", 393x852px, constraints left/top, radius 32px, fill image(hash: e72ab2f0651c07f320943ef397f30283f4bb56f3)
+  - RECTANGLE "Headspace Reflection curated by Memorisely 09", 393x852px, constraints left/top, radius 32px, fill image(hash: fc5e31742ff31cec444366be9188f957529f48f3)
+  - RECTANGLE "Headspace Reflection curated by Memorisely 10", 393x852px, constraints left/top, radius 32px, fill image(hash: 67d05ade90f34838ed1942f0bd09168f55a3964e)
+
+Screen: Meditation exercise / meditation exercise
+- SECTION "meditation exercise", 5050x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Meditation curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: f6e7afdd34476bc119f7a2396784b2760d99f690)
+  - RECTANGLE "Headspace Meditation curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 60c0fd1c66f39e94e43333811ded3178574d514f)
+  - RECTANGLE "Headspace Meditation curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 86e04076b03bdb41b339c16267b0011e0f7f8a78)
+  - RECTANGLE "Headspace Meditation curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: fec56243557d79cf7dc54968cfd6f940e7d87581)
+  - RECTANGLE "Headspace Meditation curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: b7e4552fdbe9db4e61a68fd22610fe4a0736342a)
+  - RECTANGLE "Headspace Meditation curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: 2c2b456fe55d015357dc8504b85e87f77f80317f)
+  - RECTANGLE "Headspace Meditation curated by Memorisely 07", 393x852px, constraints left/top, radius 32px, fill image(hash: d460da6255ae5b49ef25840661cdcde1defc38a8)
+  - RECTANGLE "Headspace Meditation curated by Memorisely 08", 393x852px, constraints left/top, radius 32px, fill image(hash: c5eddfa3d23c14716edd1050d8928cc6e5950bac)
+  - RECTANGLE "Headspace Meditation curated by Memorisely 09", 393x852px, constraints left/top, radius 32px, fill image(hash: 12b5e312ffc68698a6043100228ae0352e7d7974)
+  - RECTANGLE "Headspace Meditation curated by Memorisely 10", 393x852px, constraints left/top, radius 32px, fill image(hash: 4e0ad54e0eb767248c7ab77db1dc9bce395076ba)
+
+Screen: Sleep exercise / Sleep exercise
+- SECTION "Sleep exercise", 5523x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Sleep curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: a0deca69d73c68eb20f4f62a3cbf4f57138e6b9e)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: ce37c0e2236fc468d57039be0e15509b2c5d8ac0)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 25349622d12ef3d2808e4c6371d47782892e4f23)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: 4753bbd35fddef11f0566a3c55185aebe95d970e)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: e63f984c1e1086e44905cc72b6a851ba5f728931)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: d1f73a138b467f5406cee499243da410f917d555)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 07", 393x852px, constraints left/top, radius 32px, fill image(hash: 6e9ef45542112ee0d4dad20bfb429cee0f1fbd48)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 08", 393x852px, constraints left/top, radius 32px, fill image(hash: eb8072c21113db85a1d03aa59ba2c309fc30adb1)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 09", 393x852px, constraints left/top, radius 32px, fill image(hash: 67b7589c8bc051ef4038225a82b069c886643370)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 10", 393x852px, constraints left/top, radius 32px, fill image(hash: 610370e365acf3e0c2b315211db0d250b4ace2a7)
+  - RECTANGLE "Headspace Sleep curated by Memorisely 11", 393x852px, constraints left/top, radius 32px, fill image(hash: 593200b10ef4b4d2112c8be23414018d869a0b1f)
+
+Screen: Move exercise / Move exercise
+- SECTION "Move exercise", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Move curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: a0deca69d73c68eb20f4f62a3cbf4f57138e6b9e)
+  - RECTANGLE "Headspace Move curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 0c832058b381dc3f8bc711a44722c7686ffe6b35)
+  - RECTANGLE "Headspace Move curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 428ec081771e49031c1aa578c530392c66bdf690)
+  - RECTANGLE "Headspace Move curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: 5041080dbd3673ae22cff8a61f8babd4645f5e1f)
+  - RECTANGLE "Headspace Move curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 28db66a29871836fbecd3ce011768160c1840b18)
+  - RECTANGLE "Headspace Move curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: 95e21f535faea9725b70e045ede2a2b2da246403)
+
+Screen: Music exercise / Music exercise
+- SECTION "Music exercise", 3631x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Music curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 71859e3673e006aa2181b76927d16d9fdb1c1db8)
+  - RECTANGLE "Headspace Music curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 797ebc5470a49d4b037729a0727cee2ca5230a83)
+  - RECTANGLE "Headspace Music curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 0374fae2c986d05805300c44dc2617bf201c696d)
+  - RECTANGLE "Headspace Music curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: c8ddd639680fc43e0fbd4d4e55a861b9c495b144)
+  - RECTANGLE "Headspace Music curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 34ed474236ab824941b2024dc5ab7492551096d5)
+  - RECTANGLE "Headspace Music curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: e08eb1d9bc429ab7ebee9b5aa3b21c155de53c5e)
+  - RECTANGLE "Headspace Music curated by Memorisely 07", 393x852px, constraints left/top, radius 32px, fill image(hash: a0deca69d73c68eb20f4f62a3cbf4f57138e6b9e)
+
+Screen: Guided program / Guided progam
+- SECTION "Guided progam", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace Guided program curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 262a7799bad3d441034bf59827d10ae48ddde32b)
+  - RECTANGLE "Headspace Guided program curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 996991d61f3451c7da72d1eff6e1372405713484)
+  - RECTANGLE "Headspace Guided program curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: b22910a72ec388bdd23633a2a2dfd6735aaa7b9e)
+  - RECTANGLE "Headspace Guided program curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: 8be33d6c2d668c8c9ddd4a7f4c11dd5471fd38fc)
+  - RECTANGLE "Headspace Guided program curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 2c16d55a5e84f73cc1480abb47a1c0fd4c88029c)
+  - RECTANGLE "Headspace Guided program curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: 4c1f413a60cda1941d16896d4062c94ba58c6840)
+
+Screen: Search / Search
+- SECTION "Search", 1266x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace search curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 48070a5dd60e4f3a9f5f13899650baca7f80ed51)
+  - RECTANGLE "Headspace search curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 697d7fe5f50863964d7ade69194436ce403365cf)
+
+Screen: Stress reflection / Search
+- SECTION "Search", 5050x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 8d56ad212e90b35790ed546979dda29f1fe35cec)
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 45bd731d4f9e5f8d7fb1541b696e75fd755acc13)
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 41d6f5ed42f3b060191562076fd4a22b5986016e)
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: d3a0bea635626c7e16fa824a264db2afddbe3109)
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: a292e67fc0d82864304e76cac21a63ca9183a9f3)
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: 476717d5a0932df520f41f0d6decc9f665a3ee2e)
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 07", 393x852px, constraints left/top, radius 32px, fill image(hash: 4408b9f28e5002caf559f1a889e6ef1cccfc6be4)
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 08", 393x852px, constraints left/top, radius 32px, fill image(hash: 4aa1614df2b459887676e705a1bbf0f5a4b97249)
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 09", 393x852px, constraints left/top, radius 32px, fill image(hash: af499208f30cff69420e200ee409c94a3b89644f)
+  - RECTANGLE "Headspace stress reflection curated by Memorisely 10", 393x852px, constraints left/top, radius 32px, fill image(hash: 126ee443f99dd7b7f2aab3220d597fca7c906ddf)
+
+Screen: Profile / Search
+- SECTION "Search", 2212x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace profile curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 7c316a862299381f5dd8edad30fca1b7d2e67aaa)
+  - RECTANGLE "Headspace profile curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 2fb8182cebe0f410699a3f5cbb7c8326a60f7da7)
+  - RECTANGLE "Headspace profile curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 5998e20c32d963348a8a37b09ebd911b1db9a0c0)
+  - RECTANGLE "Headspace profile curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: f4aa54fa49f03bd8a091248ff9a561a1acaf3f39)
+
+Screen: Favorites & recents / Favorites & Recents
+- SECTION "Favorites & Recents", 1739x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace favorites curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 6c1e6bd7817a35bb6da9ad62e94251ae87616768)
+  - RECTANGLE "Headspace favorites curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 204c8d0260831b472e3079dcc11b8d8058f1bf86)
+  - RECTANGLE "Headspace favorites curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 6d7e8a1ec2c0da18c0ae65c68760f7b230aaf5c3)
+
+Screen: Account settings / Account settings
+- SECTION "Account settings", 3158x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace account settings curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 0b217b1b56b3b5303e228e5f63cd806cbc581695)
+  - RECTANGLE "Headspace account settings curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 7e5e50b556cb267fddab5b33e33a31ba36226a98)
+  - RECTANGLE "Headspace account settings curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: 114bedad9587781fa5c227d1bc2ac7713271d20b)
+  - RECTANGLE "Headspace account settings curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: 8491a0d14bd3c64a9f53c9060d6397da270f5679)
+  - RECTANGLE "Headspace account settings curated by Memorisely 05", 393x852px, constraints left/top, radius 32px, fill image(hash: 94292c883688495b6ab24794a6558a49e192398b)
+  - RECTANGLE "Headspace account settings curated by Memorisely 06", 393x852px, constraints left/top, radius 32px, fill image(hash: e7fb29f757fedecf984db802b2d90e263c93eb9e)
+
+Screen: Cancel subscription / Cancel subscription
+- SECTION "Cancel subscription", 2212x1252px, fill #F7F4F0, stroke #0000001A 1px
+  - RECTANGLE "Headspace cancel subscription curated by Memorisely 01", 393x852px, constraints left/top, radius 32px, fill image(hash: 8cd51d6871770c1ef484931cb7ec1095b19034ea)
+  - RECTANGLE "Headspace cancel subscription curated by Memorisely 02", 393x852px, constraints left/top, radius 32px, fill image(hash: 377da7dc1a10e434670493e5e67c88afd5d73296)
+  - RECTANGLE "Headspace cancel subscription curated by Memorisely 03", 393x852px, constraints left/top, radius 32px, fill image(hash: c3cc683162b7cb268c8e5159d52c315d9802ce4f)
+  - RECTANGLE "Headspace cancel subscription curated by Memorisely 04", 393x852px, constraints left/top, radius 32px, fill image(hash: 0b217b1b56b3b5303e228e5f63cd806cbc581695)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

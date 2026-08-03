@@ -1,0 +1,944 @@
+---
+name: seatgeek-ui-kit-community
+source_file: Seatgeek UI Kit (Community)
+source_page: All pages (4): Thumbnail, seat Geek, Typography, Miscellaneous
+generated_at: 2026-07-25T09:25:54.224773+00:00
+---
+
+# Seatgeek UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Seatgeek UI Kit (Community)
+- Figma page: All pages (4): Thumbnail, seat Geek, Typography, Miscellaneous
+- Extracted at: 2026-07-25T09:25:54.224773+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Text/Primary: [#181818]
+- Surface/Primary: [#FFFFFF]
+- Text/Tertiary: [#757575]
+- Icon/Red: [#FE5B48]
+- Text/Inverted: [#FFFFFF]
+- Divider/Secondary: none
+- Text/Secondary: [#525252]
+- Surface/Icon Container Fill: [#F5F5F3]
+- Icon/Purple: [#9837FF]
+- Icon/PurpleBG: [#F9F1FE]
+- Icon/RedBG: [#FFF0ED]
+- Icon/Blue: [#2F7CEE]
+- Icon/BlueBG: [#ECF5FE]
+- Surface/Secondary: [#F2F2F2]
+- Surface/Inverted: [#181818]
+- Divider/Primary: [#FFFFFF]
+- Icon/Green: none
+- Text/Green: [#116B45]
+
+## Raw Colors (unstyled)
+- #FFBDB5: 464 uses
+- #FFFFFF: 24 uses
+- #000000: 23 uses
+- #4C4C4C: 18 uses
+- #A4A4A4: 12 uses
+- #181818: 11 uses
+- #181818BF: 9 uses
+- #9747FF: 6 uses
+- #D9D9D9: 6 uses
+- #FFFFFF1A: 6 uses
+- #9837FF: 4 uses
+- #FE5B48: 4 uses
+
+## Typography Tokens
+- Body 2: Roobert Regular (400), 14px / 113.84%, tracking 0.42px
+- Callout Strong: Roobert Bold (700), 16px / auto, tracking 0.32px
+- Headline strong: Roobert Bold (700), 18px / auto, tracking 0.54px
+- Callout: Roobert Regular (400), 16px / 113.84%, tracking 0px
+- Title3: Roobert Bold (700), 20px / auto, tracking 0.3px
+- Headline: Roobert Medium (500), 18px / auto, tracking 0px
+- Body 2 Strong: Roobert Bold (700), 14px / 104.17%, tracking 0.42px
+
+## Raw Typography (unstyled)
+- Roobert Medium, 20px: 12 uses
+- Roobert Bold, 24px: 11 uses
+- Roobert Bold, 14px: 9 uses
+- Roobert Bold, 26px: 8 uses
+- Inter Regular, 900px: 6 uses
+- Roobert Bold, 16px: 3 uses
+
+## Typography Hierarchy
+- 900px - Inter Regular, 900px (raw)
+- 26px - Roobert Bold, 26px (raw)
+- 24px - Roobert Bold, 24px (raw)
+- 20px - Roobert Medium, 20px (raw)
+- 20px - Title3 (Roobert Bold)
+- 18px - Headline (Roobert Medium)
+- 18px - Headline strong (Roobert Bold)
+- 16px - Callout (Roobert Regular)
+- 16px - Callout Strong (Roobert Bold)
+- 16px - Roobert Bold, 16px (raw)
+- 14px - Body 2 (Roobert Regular)
+- 14px - Body 2 Strong (Roobert Bold)
+- 14px - Roobert Bold, 14px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Button
+- Leading Element
+- Event Status
+- Favourite
+- Style Icons
+- Icon
+- Event card medium
+- Artist Card
+- Alert
+- Trending event list item
+- Subheading
+- Event Card Large
+- Event Card Small
+- Event Card Extra Large
+- Suggestion Chip
+- List Item
+- Suggestion List Item
+- Search
+- Top app bar
+- Ranking Icon Illustration
+- Color Style Swatch
+
+## Component Specs
+- Button: size 150x39px, radius 8px, horizontal layout, padding 8 16 12 16px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Surface/Primary, stroke Divider/Secondary 1px, text [Callout Strong] | variants: Size: Large/Regular; Nature: Primary/Secondary
+- Leading Element: size 50x50px, fill #FFFFFF | variants: Leading Element: Icon Container/Image circle/Image circular square/Image square
+- Event Status: size 22x18px, text [Body 2] | variants: Event Status: NEW/Negative/Positive/Same
+- Favourite: size 16x13.16px, fill #FFFFFF | variants: Favourite: off/on
+- Style Icons: size 36x36px | variants: Style Icon: Heart Icon/Speaker Icon/Star Icon
+- Icon: size 24x24px | variants: Icon: Chevron/Cross/Filter Icon/Heart Icon/Microphone/Navigation/Placeholder/Profile/Search/Share/Stadium Icon/Ticket
+-  Event card medium: size 360x110px, horizontal layout, padding 8 16 8 16px, gap 16px, sizing W:fixed H:fixed, fill Surface/Primary, text [Body 2, Callout Strong]
+- Artist Card: size 168x188px, radius 6px, fill #574545, text [Body 2, Roobert Bold, 16px]
+- Alert: size 325x388px, radius 12px, vertical layout, padding 32 30 32 30px, gap 32px, align min/center, sizing W:fixed H:fixed, fill Surface/Primary, text [Callout Strong, Roobert Regular, 18px, Title3]
+- Trending event list item: size 299x81px, horizontal layout, padding 18 8 0 0px, gap 18px, sizing W:fixed H:fixed, fill Surface/Primary, text [Body 2, Callout, Callout Strong, Roobert Bold, 26px]
+- Subheading: size 360x22px, horizontal layout, padding 0 16 0 16px, gap 173px, align space_between/max, sizing W:fixed H:fixed, fill Surface/Primary, text [Callout, Headline strong]
+- Event Card Large: size 328x206px, radius 8px, fill image(hash: c4d9c712e70df5cea5c938742e78d7eb3ed0a0c8), text [Callout Strong, Body 2, Roobert Bold, 14px]
+- Event Card Small: size 158x159px, vertical layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, fill Surface/Primary, text [Body 2, Callout Strong, Roobert Bold, 14px]
+- Event Card Extra Large: size 347x316px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect [drop_shadow 11.9px offset 0 2 #00000040, drop_shadow 4px offset 0 2 #00000008], text [Callout, Headline strong, Roobert Bold, 14px]
+- Suggestion Chip: size 75x34px, radius 8px, horizontal layout, padding 8 16 8 16px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Text/Inverted, stroke Divider/Secondary 1.25px, text [Body 2]
+- List Item: size 328x61px, horizontal layout, padding 6 0 6 0px, gap 16px, align min/center, sizing W:fixed H:fixed, fill Surface/Primary, text [Body 2, Callout Strong]
+- Suggestion List Item: size 153x56px, horizontal layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, fill Surface/Primary, text [Callout Strong]
+- Search: size 329x48px, radius 6px, horizontal layout, padding 12 16 12 16px, gap 30px, align space_between/center, sizing W:fixed H:fixed, fill Surface/Secondary, text [Callout]
+- Top app bar: size 360x80px, horizontal layout, padding 0 16 0 16px, gap 121px, align space_between/center, sizing W:fixed H:fixed, fill Surface/Primary, stroke Divider/Primary 1px, text [Callout, Title3]
+- Ranking Icon Illustration: size 51x48px, text [Roobert Bold, 26px]
+- Color Style Swatch: size 320x280px, radius 17px, fill #FFFFFF, text [Roobert Medium, 20px, Roobert Medium, 24px]
+
+## Most-Used Styles
+- Text/Primary: 112 uses
+- Surface/Primary: 54 uses
+- Body 2: 38 uses
+- Callout Strong: 37 uses
+- Callout: 33 uses
+- Text/Inverted: 32 uses
+- Divider/Secondary: 27 uses
+- Text/Secondary: 26 uses
+- Icon/Red: 20 uses
+- Icon/Green: 15 uses
+- Headline strong: 13 uses
+- Icon/RedBG: 10 uses
+- Text/Tertiary: 8 uses
+- Title3: 7 uses
+- Divider/Primary: 5 uses
+- Surface/Inverted: 5 uses
+- Surface/Icon Container Fill: 4 uses
+- Surface/Secondary: 4 uses
+- Icon/Blue: 3 uses
+- Icon/BlueBG: 3 uses
+- Headline: 2 uses
+- Icon/Purple: 2 uses
+- Icon/PurpleBG: 2 uses
+- Body 2 Strong: 1 use
+- Text/Green: 1 use
+
+## Layout & Structure
+Screen: seat Geek / Original SS
+- FRAME "Original SS", 31900x17226px, horizontal pad 1171 1171 1171 1171px gap 1093px sizing W:fixed H:fixed, constraints left/top, fill #505050
+  - RECTANGLE "Screenshot_2024-01-11-18-49-25-78_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 1b23b9d243e6401e5e4f956a42c3f22a10e02c72)
+  - RECTANGLE "Screenshot_2024-01-11-18-49-50-26_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 9be933f401e91529355a926e960cc5bf18559fdd)
+  - RECTANGLE "Screenshot_2024-01-14-18-39-42-69_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: fe79738581bc1997170691263bdcac1a2a95ad41)
+  - RECTANGLE "Screenshot_2024-01-11-18-49-50-26_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 9be933f401e91529355a926e960cc5bf18559fdd)
+  - RECTANGLE "Screenshot_2024-01-11-18-42-23-55_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: bc9b628be627db558d79bbb9990b0853f367ef07)
+  - RECTANGLE "Screenshot_2024-01-11-18-49-25-78_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 1b23b9d243e6401e5e4f956a42c3f22a10e02c72)
+  - RECTANGLE "Screenshot_2024-01-11-18-49-07-21_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: c22dfe690b6505b9a2fe0b004e9d4b4bb3208b09)
+  - RECTANGLE "Screenshot_2024-01-11-18-48-45-90_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 96b5b029bc44f47d86b8796d91512a65ea363071)
+  - RECTANGLE "Screenshot_2024-01-11-18-48-01-09_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 93a1743031768c8fc5a0ce878997106c53ec72ab)
+  - RECTANGLE "Screenshot_2024-01-11-18-47-31-56_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 2e124f636ada939d8977fc1f19087097c655387f)
+  - RECTANGLE "Screenshot_2024-01-11-18-47-13-54_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: f067cfd0dd8df2887acebb57c6fc50ae5b8ff2d7)
+  - RECTANGLE "Screenshot_2024-01-11-18-46-54-17_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: d08947e0d39b596a5f0641d568e1e5fe8f4c0a0c)
+  - RECTANGLE "Screenshot_2024-01-11-18-46-36-72_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 1acae95ed11184ef31a6867381dd9e4db0395b20)
+  - RECTANGLE "Screenshot_2024-01-11-18-46-14-18_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 2fffe631c48de37002fd8e7c052fa15262d93768)
+  - RECTANGLE "Screenshot_2024-01-11-18-45-27-25_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 043fcfb26199d87aafddc7e464192d342270b66c)
+  - RECTANGLE "Screenshot_2024-01-11-18-45-12-52_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 415bd09aca58f1d9afa0ab879ec1e2e262a0e2e7)
+  - RECTANGLE "Screenshot_2024-01-11-18-44-49-14_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: c6c6c573b9b2f13d17975379acaf7bb7a5dbd7bb)
+  - RECTANGLE "Screenshot_2024-01-11-18-44-10-59_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 33ab79843f318629f3e882b8ff2341f7375f9490)
+  - RECTANGLE "Screenshot_2024-01-11-18-43-56-49_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 2ed3dbce3db4875eb1f3f4e37877afdc56f2aaa0)
+  - RECTANGLE "Screenshot_2024-01-11-18-43-32-17_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 2e8db057ce937a80aaee25c15fd9a6499e823758)
+  - RECTANGLE "Screenshot_2024-01-11-18-43-07-62_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 4b24937b7b0248ac34af63380a1463dfe6b4a90b)
+  - RECTANGLE "Screenshot_2024-01-11-18-43-03-03_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 4f621aae99262769919a35e3031f96f7bc056d16)
+  - RECTANGLE "Screenshot_2024-01-11-18-42-55-31_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 4f34a61ff1cf698e519d4e1a25b27225fa42fc8c)
+  - RECTANGLE "Screenshot_2024-01-11-18-42-47-30_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: c794dcb506b69ff0e7a64c305d2aa0368667d17c)
+  - RECTANGLE "Screenshot_2024-01-11-18-42-37-57_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 3a702670058d2b7bd46e817f1b13214ce23350ca)
+  - ... +38 more children
+
+Screen: seat Geek / Screenshot_2024-01-11-18-41-26-41_835373df017a2ac54f93b8cb81b482c2
+- RECTANGLE "Screenshot_2024-01-11-18-41-26-41_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 1097eea94680bac69cd31513ddc817ac0c8af9ee)
+
+Screen: seat Geek / Sorted according to the flows
+- FRAME "Sorted according to the flows", 25514x18067px, horizontal pad 1171 1171 1171 1171px gap 834px align min/center sizing W:fixed H:fixed, constraints left/top, fill #505050
+  - FRAME "Search", 13080x4151px, vertical pad 0 0 0 0px gap 290px sizing W:fixed H:fixed, constraints left/top, fill #4C4C4C
+    - TEXT "Search", 2960x1089px, constraints left/top, fill #FFFFFF, text [Inter Regular, 900px], [heading]
+    - GROUP "Group 2", 13080x2772px, constraints left/top [decorative, ~9 shapes]
+  - FRAME "Onboarding", 8640x4151px, vertical pad 0 0 0 0px gap 290px sizing W:fixed H:fixed, constraints left/top, fill #4C4C4C
+    - TEXT "Onboarding", 4983x1089px, constraints left/top, fill #FFFFFF, text [Inter Regular, 900px], [heading]
+    - FRAME "Frame 1", 8640x2772px, horizontal pad 0 0 0 0px gap 240px sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+  - FRAME "Add Tickets", 7160x4150px, constraints left/top, fill #4C4C4C
+    - FRAME "Frame 3", 5680x4151px, vertical pad 0 0 0 0px gap 290px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Add Tickets", 5055x1089px, constraints left/top, fill #FFFFFF, text [Inter Regular, 900px], [heading]
+      - FRAME "Frame 2", 5680x2772px, horizontal pad 0 0 0 0px gap 240px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+  - FRAME "Tracking", 11600x4151px, vertical pad 0 0 0 0px gap 290px sizing W:fixed H:fixed, constraints left/top, fill #4C4C4C
+    - TEXT "Tracking", 3650x1089px, constraints left/top, fill #FFFFFF, text [Inter Regular, 900px], [heading]
+    - FRAME "Frame 4", 11600x2772px, horizontal pad 0 0 0 0px gap 240px sizing W:fixed H:fixed, constraints left/top [decorative, ~8 shapes]
+  - FRAME "Explore", 13080x4877px, constraints left/top, fill #4C4C4C
+    - FRAME "Frame 1", 11600x2772px, horizontal pad 0 0 0 0px gap 240px sizing W:fixed H:fixed, constraints left/top [decorative, ~8 shapes]
+    - TEXT "Explore", 3167x1089px, constraints left/top, fill #FFFFFF, text [Inter Regular, 900px], [heading]
+  - FRAME "Profile", 7160x4669px, constraints left/top, fill #4C4C4C
+    - RECTANGLE "Screenshot_2024-01-11-18-41-58-67_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 52db59fcc5d7bd33ea5f21f19beba924efd2a352)
+    - RECTANGLE "Screenshot_2024-01-11-18-42-13-58_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 2efb8e8d8c6c9ff2789b4113a515ba7435d63a67)
+    - RECTANGLE "Screenshot_2024-01-11-18-42-13-58_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 2efb8e8d8c6c9ff2789b4113a515ba7435d63a67)
+    - RECTANGLE "Screenshot_2024-01-11-18-41-58-67_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: 52db59fcc5d7bd33ea5f21f19beba924efd2a352)
+    - RECTANGLE "Screenshot_2024-01-11-18-41-46-32_835373df017a2ac54f93b8cb81", 1240x2772px, constraints left/top, fill image(hash: d49cc34c894e82068b1b4a55a6ba5f1d8cc4b25b)
+    - TEXT "Profile", 2704x1089px, constraints left/top, fill #FFFFFF, text [Inter Regular, 900px], [heading]
+
+Screen: seat Geek / Frame 6
+- FRAME "Frame 6", 12690x18179px, vertical pad 750 750 750 750px gap 378px sizing W:fixed H:fixed, constraints left/top, fill #0E0E0E
+  - FRAME "Frame 5", 11190x15091px, horizontal pad 0 0 0 0px gap 750px sizing W:fixed H:fixed, constraints left/top [decorative, ~35 shapes]
+  - TEXT "Master slides", 6292x1210px, constraints left/top, fill #FFFFFF, text [Inter Regular, 1000px], [heading]
+
+Screen: seat Geek / Text Colors
+- SECTION "Text Colors", 1878x503px, fill #3E3E3E, stroke #FFFFFF1A 1px
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Text/Primary
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 147x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 73x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Text/Secondary
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 180x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 85x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Text/Inverted
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 151x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 84x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Text/Tertiary
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 153x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 83x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Text/Green
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 128x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 81x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+
+Screen: seat Geek / Divider
+- SECTION "Divider", 845x503px, fill #3E3E3E, stroke #FFFFFF1A 1px
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Divider/Primary
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 178x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 82x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Divider/Secondary
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 211x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 95x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+
+Screen: seat Geek / Surface
+- SECTION "Surface", 1607x503px, fill #3E3E3E, stroke #FFFFFF1A 1px
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Surface/Primary
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 184x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 84x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Surface/Inverted
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 188x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 73x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Surface/Secondary
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 217x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 84x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+  - INSTANCE "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill Surface/Icon Container Fill
+    - FRAME "Frame 8", 320x89px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+      - TEXT "Name", 265x29px, constraints left/top, fill #181818, text [Roobert Bold, 24px], [heading]
+      - TEXT "#000000", 86x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+
+Screen: seat Geek / Icons and illustrations
+- SECTION "Icons and illustrations", 592x222px, fill #D9D9D9, stroke #FFFFFF1A 1px
+  - COMPONENT_SET "Icon", 588x56px, horizontal pad 15 20 15 20px gap 23px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Icon=Profile", 24x24px, constraints left/top
+      - VECTOR "Shape", 20x18.5px, constraints scale/scale, fill #000000
+    - COMPONENT "Icon=Ticket", 24x24px, constraints left/top
+      - VECTOR "Shape", 13.57x19.3px, constraints scale/scale, stroke Text/Primary 2px
+    - COMPONENT "Icon=Chevron", 24x24px, constraints left/top
+      - VECTOR "Shape", 20.4x19.8px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Icon=Filter Icon", 24x24px, constraints left/top
+      - VECTOR "Shape", 18.46x18.46px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Icon=Search", 24x24px, constraints left/top
+      - VECTOR "Shape", 20.73x20.73px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Icon=Cross", 24x24px, constraints left/top
+      - VECTOR "Shape", 18.67x18.67px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Icon=Microphone", 24x24px, constraints left/top
+      - VECTOR "Shape", 14.73x20.73px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Icon=Stadium Icon", 24x24px, constraints left/top
+      - VECTOR "Shape", 20x15.25px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Icon=Placeholder", 26x26px, constraints left/top
+      - VECTOR "Shape", 22x22px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Icon=Heart Icon", 24x24px, constraints left/top
+      - VECTOR "Shape", 19.64x16.93px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Icon=Share", 24x24px, constraints left/top
+      - VECTOR "Shape", 15.44x19px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Icon=Navigation", 24x24px, constraints left/top
+      - VECTOR "Shape", 22x22px, constraints scale/scale, fill Text/Primary
+  - COMPONENT_SET "Style Icons", 166x76px, horizontal pad 20 20 20 20px gap 11px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #9747FF 1px
+    - COMPONENT "Style Icon=Star Icon", 36x36px, constraints left/top
+      - ELLIPSE "Ellipse 2", 36x36px, constraints scale/scale, fill Icon/BlueBG
+      - STAR "Star 1", 22x22px, constraints scale/scale, radius 0.5px, fill Icon/Blue
+    - COMPONENT "Style Icon=Heart Icon", 36x36px, constraints left/top
+      - ELLIPSE "Ellipse 2", 36x36px, constraints scale/scale, fill Icon/RedBG
+      - BOOLEAN_OPERATION "Union", 18x16.13px, constraints scale/scale, fill Icon/Red
+    - COMPONENT "Style Icon=Speaker Icon", 36x36px, constraints left/top
+      - ELLIPSE "Ellipse 3", 36x36px, constraints scale/scale, fill Icon/PurpleBG
+      - BOOLEAN_OPERATION "Union", 19x17.26px, constraints scale/scale, fill Icon/Purple
+  - COMPONENT_SET "Favourite", 89x53.16px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Favourite=on", 16x13.16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Union", 16x13.16px, constraints scale/scale, fill Icon/Red, stroke Text/Inverted 2px
+    - COMPONENT "Favourite=off", 16x13.16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Union", 16x13.16px, constraints scale/scale, stroke Text/Inverted 2px
+  - COMPONENT_SET "Event Status", 170x58px, constraints left/top, radius 5px, fill Surface/Primary, stroke #9747FF 1px
+    - COMPONENT "Event Status=Negative", 22x18px, constraints left/top
+      - TEXT "2", 8x18px, constraints left/top, fill Icon/Red, text [Body 2]
+      - VECTOR "Vector 13", 8x8.5px, constraints left/top, stroke Icon/Red 2.5px
+    - COMPONENT "Event Status=Positive", 22x18px, constraints left/top
+      - TEXT "2", 8x18px, constraints left/top, fill Icon/Green, text [Body 2]
+      - VECTOR "Vector 12", 8x8.5px, constraints left/top, stroke Icon/Green 2.5px
+    - COMPONENT "Event Status=Same", 14x18px, constraints left/top, fill #FFFFFF
+      - TEXT "--", 14x18px, constraints scale/scale, fill Text/Secondary, text [Body 2]
+    - COMPONENT "Event Status=NEW", 28x15px, constraints left/top, fill #FFFFFF
+      - TEXT "NEW", 28x15px, constraints scale/scale, fill Icon/Green, text [Roobert Regular, 12px]
+  - COMPONENT "Ranking Icon Illustration", 51x48px, constraints left/top
+    - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill Icon/RedBG
+    - GROUP "Group 11", 38.9x38px, constraints left/top [decorative, ~60 shapes]
+    - TEXT "1", 11x31px, constraints left/top, fill Icon/Red, text [Roobert Bold, 26px], [heading]
+
+Screen: seat Geek / Components
+- SECTION "Components", 1728x1941px, fill #404040, stroke #FFFFFF1A 1px
+  - COMPONENT "Top app bar", 360x80px, horizontal pad 0 16 0 16px gap 121px align space_between/center sizing W:fixed H:fixed, constraints left_right/top, fill Surface/Primary, stroke Divider/Primary 1px
+    - FRAME "Frame 10", 302x82px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Icon", 18x18px, constraints left/top
+        - VECTOR "Shape", 15.3x14.85px, constraints scale/scale, fill Text/Primary
+      - FRAME "Frame 9", 124x82px, vertical pad 18 0 16 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Memphis, TN", 124x24px, constraints left/top, fill Text/Primary, text [Title3], [heading]
+        - TEXT "Any date", 64x20px, constraints left/top, fill Text/Secondary, text [Callout]
+    - INSTANCE "Icon", 26x26px, constraints left/top
+      - VECTOR "Shape", 20x20px, constraints scale/scale, fill Text/Primary
+  - COMPONENT "Search", 329x48px, horizontal pad 12 16 12 16px gap 30px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Surface/Secondary
+    - FRAME "Frame 11", 197x24px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icon", 24x24px, constraints left/top
+        - VECTOR "Shape", 20.73x20.73px, constraints scale/scale, fill Text/Primary
+      - TEXT "Performer, event, or", 141x20px, constraints left/top, fill Text/Secondary, text [Callout]
+    - FRAME "Frame 12", 70x22px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icon", 18x18px, constraints left/top
+        - VECTOR "Shape", 14x14px, constraints scale/scale, fill Text/Primary
+      - INSTANCE "Icon", 22x22px, constraints left/top
+        - VECTOR "Shape", 13.5x19px, constraints scale/scale, fill Text/Primary
+  - COMPONENT "Suggestion List Item", 153x56px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - FRAME "Frame 13", 117x56px, horizontal pad 10 0 10 0px gap 22px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Style Icons", 36x36px, constraints left/top
+        - ELLIPSE "Ellipse 2", 36x36px, constraints scale/scale, fill Icon/BlueBG
+        - STAR "Star 1", 22x22px, constraints scale/scale, radius 0.5px, fill Icon/Blue
+      - TEXT "Popular", 59x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+    - INSTANCE "Icon", 26x26px, constraints left/top, opacity 0%
+      - VECTOR "Shape", 22x22px, constraints scale/scale, fill Text/Primary
+  - COMPONENT "List Item", 328x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Leading Element", 49x49px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 4", 49x49px, constraints scale/scale, radius 8px, fill image(hash: 26adf3a8eabc60f44ea3d75088f5150d57501130)
+      - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+        - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+    - INSTANCE "Icon", 24x24px, constraints left/top
+      - VECTOR "Shape", 19.64x16.93px, constraints scale/scale, fill Text/Primary
+  - COMPONENT "Suggestion Chip", 75x34px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Text/Inverted, stroke Divider/Secondary 1.25px
+    - TEXT "Sports", 43x18px, constraints left/top, fill Text/Primary, text [Body 2]
+  - COMPONENT "Event Card Extra Large", 347x316px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, effect [drop_shadow 11.9px offset 0 2 #00000040, drop_shadow 4px offset 0 2 #00000008]
+    - FRAME "Frame 35", 347x316px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 27", 347x174px, constraints left/top, fill image(hash: 74b0d63c86790ad617952c6a8b209fc0d6375f92)
+        - FRAME "Frame 26", 75x22px, horizontal pad 6 8 6 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 8px, fill #181818BF
+          - TEXT "US$217+", 59x10px, constraints left/top, fill Text/Inverted, text [Roobert Bold, 14px]
+      - FRAME "Frame 28", 347x78px, vertical pad 14 16 14 16px gap 4px sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - TEXT "Morgan Wallen with Bailey", 230x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+        - TEXT "Sat, 20 Apr, 7 pm . Oxford, MS . Vaught Hem", 315x20px, constraints left/top, fill Text/Secondary, text [Callout]
+      - FRAME "Frame 33", 347x64px, horizontal pad 22 16 22 16px gap 20px sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Frame 30", 64x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 18x18px, constraints left/top
+            - VECTOR "Shape", 14.73x12.7px, constraints scale/scale, fill Text/Primary
+          - TEXT "Track", 40x20px, constraints left/top, fill Text/Primary, text [Callout]
+        - FRAME "Frame 32", 66x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 18x18px, constraints left/top
+            - VECTOR "Shape", 11.58x14.25px, constraints scale/scale, fill Text/Primary
+          - TEXT "Share", 42x20px, constraints left/top, fill Text/Primary, text [Callout]
+      - FRAME "Frame 34", 347x0px, vertical pad 0 16 0 16px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 5", 315x0px, constraints left/top, stroke Divider/Secondary 0.75px
+  - COMPONENT "Event Card Small", 158x159px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - FRAME "Image", 158x106px, constraints left/top, radius 8px, fill image(hash: c8cec92d543bcb861d51347f7de186537f8a3e65)
+      - FRAME "Price", 71x20px, horizontal pad 5 6 5 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 8px, fill #181818BF
+        - TEXT "US$217+", 59x10px, constraints left/top, fill Text/Inverted, text [Roobert Bold, 14px]
+      - INSTANCE "Favourite", 16x13.16px, constraints right/top, fill #FFFFFF
+        - VECTOR "Union", 16x13.16px, constraints scale/scale, stroke Text/Inverted 2px
+    - FRAME "Event details", 158x41px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Colter wall (16+)", 158x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+      - TEXT "Tonight . 8 pm", 158x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+  - COMPONENT "Event Card Large", 328x206px, constraints left/top, radius 8px, fill image(hash: c4d9c712e70df5cea5c938742e78d7eb3ed0a0c8)
+    - FRAME "Frame 26", 65x18px, horizontal pad 4 6 4 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 8px, fill #181818BF
+      - TEXT "US$27+", 53x10px, constraints left/top, fill Text/Inverted, text [Roobert Bold, 14px]
+    - TEXT "Mon, 15 Jan, 5 pm . Memphis, TN . FedExF...", 282x18px, constraints left/bottom, fill Text/Inverted, text [Body 2]
+    - TEXT "Warriors at Grizzlies", 153x19px, constraints left/bottom, fill Text/Inverted, text [Callout Strong]
+  - COMPONENT "Subheading", 360x22px, horizontal pad 0 16 0 16px gap 173px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - TEXT "Just for you", 101x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+    - FRAME "Frame 44", 54x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "View all", 54x20px, constraints left/top, fill Text/Tertiary, text [Callout]
+  - COMPONENT "Trending event list item", 299x81px, horizontal pad 18 8 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - INSTANCE "Ranking Icon Illustration", 51x48px, constraints left/top
+      - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill Icon/RedBG
+      - GROUP "Group 11", 38.9x38px, constraints left/top [decorative, ~60 shapes]
+      - TEXT "1", 11x31px, constraints left/top, fill Icon/Red, text [Roobert Bold, 26px], [heading]
+    - FRAME "Frame 50", 222x63px, vertical pad 0 0 0 0px gap 18px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Name and Status", 222x45px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Name and details", 153x45px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Warriors at Grizzlies", 153x19px, constraints left/top, fill #000000, text [Callout Strong]
+          - TEXT "Jan 15 . FedExForum", 153x20px, constraints left/top, fill #000000, text [Callout]
+        - INSTANCE "Event Status", 22x18px, constraints left/top
+          - TEXT "2", 8x18px, constraints left/top, fill Icon/Green, text [Body 2]
+          - VECTOR "Vector 12", 8x8.5px, constraints left/top, stroke Icon/Green 2.5px
+      - LINE "Line 7", 222x0px, constraints left/top, stroke Divider/Secondary 0.5px
+  - COMPONENT_SET "Leading Element", 312x90px, horizontal pad 20 20 20 20px gap 25px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Surface/Primary, stroke #9747FF 1px
+    - COMPONENT "Leading Element=Image circle", 50x50px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 4", 50x50px, constraints scale/scale, fill image(hash: 974d9069a1832072915dac21f33184ea8b47cc4f)
+    - COMPONENT "Leading Element=Icon Container", 49x49px, constraints left/top
+      - ELLIPSE "Ellipse 5", 49x49px, constraints left/top, fill #F5F5F3, stroke Divider/Secondary 1px
+      - INSTANCE "Icon", 24x24px, constraints left/top
+        - VECTOR "Shape", 20x15.25px, constraints scale/scale, fill Text/Primary
+    - COMPONENT "Leading Element=Image square", 49x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 4", 49x49px, constraints scale/scale, radius 8px, fill image(hash: 26adf3a8eabc60f44ea3d75088f5150d57501130)
+    - COMPONENT "Leading Element=Image circular square", 49x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 5", 49x49px, constraints scale/scale, radius 16px, fill image(hash: 26adf3a8eabc60f44ea3d75088f5150d57501130)
+  - COMPONENT_SET "Button", 732x86px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Size=Regular, Nature=Secondary", 150x39px, horizontal pad 8 16 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Surface/Primary, stroke Divider/Secondary 1px
+      - TEXT "Add performers", 118x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+    - COMPONENT "Size=Regular, Nature=Primary", 150x39px, horizontal pad 8 16 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Surface/Inverted
+      - TEXT "Add performers", 118x19px, constraints left/top, fill Text/Inverted, text [Callout Strong]
+    - COMPONENT "Size=Large, Nature=Secondary", 150x43px, horizontal pad 10 16 14 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Surface/Primary, stroke Divider/Secondary 1px
+      - TEXT "Add performers", 118x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+    - COMPONENT "Size=Large, Nature=Primary", 150x43px, horizontal pad 10 16 14 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Surface/Inverted
+      - TEXT "Add performers", 118x19px, constraints left/top, fill Text/Inverted, text [Callout Strong]
+  - COMPONENT "Alert", 325x388px, vertical pad 32 30 32 30px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Surface/Primary
+    - FRAME "Frame 51", 265x186px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Location permissions", 265x24px, constraints left/top, fill #000000, text [Title3], [heading]
+      - TEXT "We use your location to recommend nearby events and may use ", 265x150px, constraints left/top, fill Text/Primary, text [Roobert Regular, 18px]
+    - FRAME "Frame 52", 265x106px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Button", 265x43px, horizontal pad 10 16 14 16px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Surface/Inverted
+        - TEXT "Add performers", 174x19px, constraints left/top, fill Text/Inverted, text [Callout Strong]
+      - INSTANCE "Button", 265x43px, horizontal pad 10 16 14 16px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Surface/Primary, stroke Divider/Secondary 1px
+        - TEXT "Add performers", 85x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+  - COMPONENT "Artist Card", 168x188px, constraints left/top, radius 6px, fill #574545
+    - TEXT "Blippi Live (not feat. Stevin John)", 131x52px, constraints left/bottom, fill #FFFFFF, text [Roobert Bold, 16px]
+    - TEXT "67 events", 134x18px, constraints left/bottom, fill #FFFFFF, text [Body 2]
+    - INSTANCE "Favourite", 16x13.16px, constraints right/top, fill #FFFFFF
+      - VECTOR "Union", 16x13.16px, constraints scale/scale, fill Icon/Red, stroke Text/Inverted 2px
+  - COMPONENT "Event card medium", 360x110px, horizontal pad 8 16 8 16px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - FRAME "Frame 53", 74x94px, constraints left/top, radius 8px, fill image(hash: 2fea70f14ceb13a235fcabaff228d295bb1af957)
+    - FRAME "Frame 55", 238x94px, vertical pad 8 0 16 0px gap 10px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Name and time", 238x41px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 57", 238x41px, horizontal pad 0 8 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 56", 128x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Colter Wall (16+)", 128x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+            - TEXT "Tonight . 8 pm", 128x18px, constraints left/top, fill Text/Tertiary, text [Body 2]
+          - FRAME "Frame 58", 19.72x16.96px, vertical pad 0 0 0 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector 19", 19.72x16.96px, constraints left/top, fill Icon/Red
+      - TEXT "US$91+. Mission Ballroom - Denver", 238x18px, constraints left/top, fill Text/Tertiary, text [Body 2]
+
+Screen: seat Geek / Typography
+- SECTION "Typography", 437x451px, fill #444444, stroke #FFFFFF1A 1px
+  - TEXT "Body 2", 46x18px, constraints left/top, fill #FFFFFF, text [Body 2]
+  - TEXT "Body 2 Strong", 96x18px, constraints left/top, fill #FFFFFF, text [Body 2 Strong]
+  - TEXT "Callout Strong", 112x19px, constraints left/top, fill #FFFFFF, text [Callout Strong]
+  - TEXT "Headline", 71x20px, constraints left/top, fill #FFFFFF, text [Headline], [heading]
+  - TEXT "Headline Strong", 141x22px, constraints left/top, fill #FFFFFF, text [Headline strong], [heading]
+  - TEXT "Title 3", 61x24px, constraints left/top, fill #FFFFFF, text [Title3], [heading]
+  - TEXT "Callout", 52x20px, constraints left/top, fill #FFFFFF, text [Callout]
+
+Screen: Miscellaneous / Frame 36
+- FRAME "Frame 36", 360x3718.74px, constraints left/top
+  - RECTANGLE "Screenshot_2024-01-11-18-49-07-21_835373df017a2ac54f93b8cb81", 360x607.94px, constraints left/top, fill image(hash: c22dfe690b6505b9a2fe0b004e9d4b4bb3208b09)
+  - RECTANGLE "Screenshot_2024-01-11-18-40-03-41_835373df017a2ac54f93b8cb81", 360x433.45px, constraints left/top, fill image(hash: 1a30eb12a56f1edf043e2f94c4b963b8cdf8ee69)
+  - RECTANGLE "Screenshot_2024-01-11-18-40-28-34_835373df017a2ac54f93b8cb81", 360x771.97px, constraints left/top, fill image(hash: 8866162fca047f5fce51e9e11c113c44ed4b6a45)
+  - RECTANGLE "Screenshot_2024-01-11-18-40-43-85_835373df017a2ac54f93b8cb81", 360x398.03px, constraints left/top, fill image(hash: 30437d22c30719ec90e716c5aeeb4805ad349073)
+  - RECTANGLE "Screenshot_2024-01-11-18-49-25-78_835373df017a2ac54f93b8cb81", 360x543.48px, constraints left/top, fill image(hash: 1b23b9d243e6401e5e4f956a42c3f22a10e02c72)
+  - RECTANGLE "Screenshot_2024-01-14-18-39-42-69_835373df017a2ac54f93b8cb81", 360x362.61px, constraints left/top, fill image(hash: fe79738581bc1997170691263bdcac1a2a95ad41)
+  - RECTANGLE "Screenshot_2024-01-11-18-43-03-03_835373df017a2ac54f93b8cb81", 360x771.97px, constraints left/top, fill image(hash: 4f621aae99262769919a35e3031f96f7bc056d16)
+  - RECTANGLE "Rectangle 8", 32x24px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 9", 12x18px, constraints left/top, fill #D9D9D9
+
+Screen: Miscellaneous / Frame 38
+- FRAME "Frame 38", 360x2286px, constraints left/top, fill Surface/Primary
+  - INSTANCE "Top app bar", 360x80px, horizontal pad 0 16 0 16px gap 121px align space_between/center sizing W:fixed H:fixed, constraints left_right/top, fill Surface/Primary, stroke Divider/Primary 1px
+    - FRAME "Frame 10", 302x82px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Icon", 18x18px, constraints left/top
+        - VECTOR "Shape", 15.3x14.85px, constraints scale/scale, fill Text/Primary
+      - FRAME "Frame 9", 124x82px, vertical pad 18 0 16 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Memphis, TN", 124x24px, constraints left/top, fill Text/Primary, text [Title3], [heading]
+        - TEXT "Any date", 64x20px, constraints left/top, fill Text/Secondary, text [Callout]
+    - INSTANCE "Icon", 26x26px, constraints left/top
+      - VECTOR "Shape", 20x20px, constraints scale/scale, fill Text/Primary
+  - INSTANCE "Top app bar", 360x80px, horizontal pad 0 16 0 16px gap 121px align space_between/center sizing W:fixed H:fixed, constraints left_right/top, fill Surface/Primary, stroke Divider/Primary 1px
+    - FRAME "Frame 10", 302x82px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Icon", 18x18px, constraints left/top
+        - VECTOR "Shape", 15.3x14.85px, constraints scale/scale, fill Text/Primary
+      - FRAME "Frame 9", 124x82px, vertical pad 18 0 16 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Memphis, TN", 124x24px, constraints left/top, fill Text/Primary, text [Title3], [heading]
+        - TEXT "Any date", 64x20px, constraints left/top, fill Text/Secondary, text [Callout]
+    - INSTANCE "Icon", 26x26px, constraints left/top
+      - VECTOR "Shape", 20.22x20.22px, constraints scale/scale, fill Text/Primary
+  - INSTANCE "Event Card Large", 328x206px, constraints left_right/top, radius 8px, fill image(hash: f850ae8f60471cf63c7db4755b739ace00719c37)
+    - FRAME "Frame 26", 65x18px, horizontal pad 4 6 4 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 8px, fill #181818BF
+      - TEXT "US$27+", 53x10px, constraints left/top, fill Text/Inverted, text [Roobert Bold, 14px]
+    - TEXT "Mon, 15 Jan, 5 pm . Memphis, TN . FedExF...", 282x18px, constraints left/bottom, fill Text/Inverted, text [Body 2]
+    - TEXT "Warriors at Grizzlies", 153x19px, constraints left/bottom, fill Text/Inverted, text [Callout Strong]
+  - FRAME "Frame 41", 360x159px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left_right/top
+    - FRAME "Frame 40", 360x159px, horizontal pad 0 16 0 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Event Card Small", 158x159px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Image", 158x106px, constraints left/top, radius 8px, fill image(hash: c8cec92d543bcb861d51347f7de186537f8a3e65)
+          - FRAME "Price", 71x20px, horizontal pad 5 6 5 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 8px, fill #181818BF
+            - TEXT "US$217+", 59x10px, constraints left/top, fill Text/Inverted, text [Roobert Bold, 14px]
+          - INSTANCE "Favourite", 16x13.16px, constraints right/top, fill #FFFFFF
+            - VECTOR "Union", 16x13.16px, constraints scale/scale, stroke Text/Inverted 2px
+        - FRAME "Event details", 158x41px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "Colter wall (16+)", 158x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "Tonight . 8 pm", 158x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+      - INSTANCE "Event Card Small", 158x159px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Image", 158x106px, constraints left/top, radius 8px, fill image(hash: c8cec92d543bcb861d51347f7de186537f8a3e65)
+          - FRAME "Price", 71x20px, horizontal pad 5 6 5 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 8px, fill #181818BF
+            - TEXT "US$217+", 59x10px, constraints left/top, fill Text/Inverted, text [Roobert Bold, 14px]
+          - INSTANCE "Favourite", 16x13.16px, constraints right/top, fill #FFFFFF
+            - VECTOR "Union", 16x13.16px, constraints scale/scale, stroke Text/Inverted 2px
+        - FRAME "Event details", 158x41px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "Colter wall (16+)", 158x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "Tonight . 8 pm", 158x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+      - INSTANCE "Event Card Small", 158x159px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Image", 158x106px, constraints left/top, radius 8px, fill image(hash: c8cec92d543bcb861d51347f7de186537f8a3e65)
+          - FRAME "Price", 71x20px, horizontal pad 5 6 5 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 8px, fill #181818BF
+            - TEXT "US$217+", 59x10px, constraints left/top, fill Text/Inverted, text [Roobert Bold, 14px]
+          - INSTANCE "Favourite", 16x13.16px, constraints right/top, fill #FFFFFF
+            - VECTOR "Union", 16x13.16px, constraints scale/scale, stroke Text/Inverted 2px
+        - FRAME "Event details", 158x41px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "Colter wall (16+)", 158x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "Tonight . 8 pm", 158x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+  - FRAME "Frame 43", 360x98px, vertical pad 0 16 0 16px gap 24px sizing W:fixed H:fixed, constraints left_right/top
+    - INSTANCE "Subheading", 328x22px, horizontal pad 0 0 0 0px gap 173px align space_between/max sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+      - TEXT "Just for you", 101x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+      - FRAME "Frame 44", 54x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 42", 328x52px, horizontal pad 16 18 16 18px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Surface/Primary, stroke Divider/Secondary 0.5px
+      - TEXT "Set location", 86x20px, constraints left/top, fill #000000, text [Callout]
+  - FRAME "Frame 44", 360x154px, vertical pad 0 16 0 16px gap 24px sizing W:fixed H:fixed, constraints left_right/top, fill Surface/Primary
+    - INSTANCE "Subheading", 328x22px, horizontal pad 0 0 0 0px gap 173px align space_between/max sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+      - TEXT "Just for you", 41x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+      - FRAME "Frame 44", 54x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "View all", 54x20px, constraints left/top, fill Text/Tertiary, text [Callout]
+    - FRAME "Date filter", 328x108px, vertical pad 4 16 4 16px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Surface/Primary, stroke Divider/Secondary 0.5px
+      - FRAME "Frame 46", 296x48px, horizontal pad 0 4 0 4px gap 20px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 48", 75x20px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Today", 43x20px, constraints left/top, fill #000000, text [Callout]
+        - FRAME "Frame 45", 105x48px, horizontal pad 14 16 14 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Surface/Secondary
+          - TEXT "Tomorrow", 73x20px, constraints left/top, fill #000000, text [Callout]
+        - FRAME "Frame 49", 101x20px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Weekend", 69x20px, constraints left/top, fill #000000, text [Callout]
+      - LINE "Line 6", 296x0px, constraints left/top, stroke Divider/Secondary 0.5px
+      - FRAME "Frame 47", 296x44px, horizontal pad 12 0 12 0px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "12 Jan", 41x20px, constraints left/top, fill Text/Primary, text [Callout]
+  - INSTANCE "Subheading", 360x22px, horizontal pad 0 16 0 16px gap 173px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - TEXT "Just for you", 139x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+    - FRAME "Frame 44", 54x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "View all", 54x20px, constraints left/top, fill Text/Tertiary, text [Callout]
+  - INSTANCE "Trending event list item", 299x81px, horizontal pad 18 8 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - INSTANCE "Ranking Icon Illustration", 51x48px, constraints left/top
+      - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill Icon/RedBG
+      - GROUP "Group 11", 38.9x38px, constraints left/top [decorative, ~60 shapes]
+      - TEXT "1", 11x31px, constraints left/top, fill Icon/Red, text [Roobert Bold, 26px], [heading]
+    - FRAME "Frame 50", 222x63px, vertical pad 0 0 0 0px gap 18px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Name and Status", 222x45px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Name and details", 153x45px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Warriors at Grizzlies", 153x19px, constraints left/top, fill #000000, text [Callout Strong]
+          - TEXT "Jan 15 . FedExForum", 153x20px, constraints left/top, fill #000000, text [Callout]
+        - INSTANCE "Event Status", 22x18px, constraints left/top
+          - TEXT "2", 8x18px, constraints left/top, fill Icon/Green, text [Body 2]
+          - VECTOR "Vector 12", 8x8.5px, constraints left/top, stroke Icon/Green 2.5px
+      - LINE "Line 7", 222x0px, constraints left/top, stroke Divider/Secondary 0.5px
+  - INSTANCE "Trending event list item", 299x81px, horizontal pad 18 8 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - INSTANCE "Ranking Icon Illustration", 51x48px, constraints left/top
+      - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill Icon/RedBG
+      - GROUP "Group 11", 38.9x38px, constraints left/top [decorative, ~60 shapes]
+      - TEXT "1", 11x31px, constraints left/top, fill Icon/Red, text [Roobert Bold, 26px], [heading]
+    - FRAME "Frame 50", 222x63px, vertical pad 0 0 0 0px gap 18px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Name and Status", 222x45px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Name and details", 153x45px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Warriors at Grizzlies", 153x19px, constraints left/top, fill #000000, text [Callout Strong]
+          - TEXT "Jan 15 . FedExForum", 153x20px, constraints left/top, fill #000000, text [Callout]
+        - INSTANCE "Event Status", 22x18px, constraints left/top
+          - TEXT "2", 8x18px, constraints left/top, fill Icon/Green, text [Body 2]
+          - VECTOR "Vector 12", 8x8.5px, constraints left/top, stroke Icon/Green 2.5px
+      - LINE "Line 7", 222x0px, constraints left/top, stroke Divider/Secondary 0.5px
+  - INSTANCE "Trending event list item", 299x81px, horizontal pad 18 8 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - INSTANCE "Ranking Icon Illustration", 51x48px, constraints left/top
+      - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill Icon/RedBG
+      - GROUP "Group 11", 38.9x38px, constraints left/top [decorative, ~60 shapes]
+      - TEXT "1", 11x31px, constraints left/top, fill Icon/Red, text [Roobert Bold, 26px], [heading]
+    - FRAME "Frame 50", 222x63px, vertical pad 0 0 0 0px gap 18px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Name and Status", 222x45px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Name and details", 153x45px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Warriors at Grizzlies", 153x19px, constraints left/top, fill #000000, text [Callout Strong]
+          - TEXT "Jan 15 . FedExForum", 153x20px, constraints left/top, fill #000000, text [Callout]
+        - INSTANCE "Event Status", 22x18px, constraints left/top
+          - TEXT "2", 8x18px, constraints left/top, fill Icon/Green, text [Body 2]
+          - VECTOR "Vector 12", 8x8.5px, constraints left/top, stroke Icon/Green 2.5px
+      - LINE "Line 7", 222x0px, constraints left/top, stroke Divider/Secondary 0.5px
+  - INSTANCE "Trending event list item", 299x81px, horizontal pad 18 8 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - INSTANCE "Ranking Icon Illustration", 51x48px, constraints left/top
+      - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill Icon/RedBG
+      - GROUP "Group 11", 38.9x38px, constraints left/top [decorative, ~60 shapes]
+      - TEXT "1", 11x31px, constraints left/top, fill Icon/Red, text [Roobert Bold, 26px], [heading]
+    - FRAME "Frame 50", 222x63px, vertical pad 0 0 0 0px gap 18px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Name and Status", 222x45px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Name and details", 153x45px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Warriors at Grizzlies", 153x19px, constraints left/top, fill #000000, text [Callout Strong]
+          - TEXT "Jan 15 . FedExForum", 153x20px, constraints left/top, fill #000000, text [Callout]
+        - INSTANCE "Event Status", 22x18px, constraints left/top
+          - TEXT "2", 8x18px, constraints left/top, fill Icon/Green, text [Body 2]
+          - VECTOR "Vector 12", 8x8.5px, constraints left/top, stroke Icon/Green 2.5px
+      - LINE "Line 7", 222x0px, constraints left/top, stroke Divider/Secondary 0.5px
+  - INSTANCE "Trending event list item", 299x81px, horizontal pad 18 8 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - INSTANCE "Ranking Icon Illustration", 51x48px, constraints left/top
+      - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill Icon/RedBG
+      - GROUP "Group 11", 38.9x38px, constraints left/top [decorative, ~60 shapes]
+      - TEXT "1", 11x31px, constraints left/top, fill Icon/Red, text [Roobert Bold, 26px], [heading]
+    - FRAME "Frame 50", 222x63px, vertical pad 0 0 0 0px gap 18px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Name and Status", 222x45px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Name and details", 153x45px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Warriors at Grizzlies", 153x19px, constraints left/top, fill #000000, text [Callout Strong]
+          - TEXT "Jan 15 . FedExForum", 153x20px, constraints left/top, fill #000000, text [Callout]
+        - INSTANCE "Event Status", 22x18px, constraints left/top
+          - TEXT "2", 8x18px, constraints left/top, fill Icon/Red, text [Body 2]
+          - VECTOR "Vector 13", 8x8.5px, constraints left/top, stroke Icon/Red 2.5px
+      - LINE "Line 7", 222x0px, constraints left/top, stroke Divider/Secondary 0.5px
+  - INSTANCE "Trending event list item", 299x81px, horizontal pad 18 8 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+    - INSTANCE "Ranking Icon Illustration", 51x48px, constraints left/top
+      - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill Icon/RedBG
+      - GROUP "Group 11", 38.9x38px, constraints left/top [decorative, ~60 shapes]
+      - TEXT "1", 11x31px, constraints left/top, fill Icon/Red, text [Roobert Bold, 26px], [heading]
+    - FRAME "Frame 50", 222x63px, vertical pad 0 0 0 0px gap 18px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Name and Status", 222x45px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Name and details", 153x45px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Warriors at Grizzlies", 153x19px, constraints left/top, fill #000000, text [Callout Strong]
+          - TEXT "Jan 15 . FedExForum", 153x20px, constraints left/top, fill #000000, text [Callout]
+        - INSTANCE "Event Status", 22x18px, constraints left/top
+          - TEXT "2", 8x18px, constraints left/top, fill Icon/Green, text [Body 2]
+          - VECTOR "Vector 12", 8x8.5px, constraints left/top, stroke Icon/Green 2.5px
+      - LINE "Line 7", 222x0px, constraints left/top, stroke Divider/Secondary 0.5px
+
+Screen: Miscellaneous / Search tab master Slide
+- GROUP "Search tab master Slide", 360x3250.16px, constraints left/top
+  - RECTANGLE "Screenshot_2024-01-11-18-43-32-17_835373df017a2ac54f93b8cb81", 360x772.26px, constraints left/top, fill image(hash: 2e8db057ce937a80aaee25c15fd9a6499e823758)
+  - RECTANGLE "Screenshot_2024-01-11-18-41-26-41_835373df017a2ac54f93b8cb81", 360x452.61px, constraints left/top, fill image(hash: 1097eea94680bac69cd31513ddc817ac0c8af9ee)
+  - RECTANGLE "Screenshot_2024-01-11-18-41-26-41_835373df017a2ac54f93b8cb81", 360x59.23px, constraints left/top, fill image(hash: 1097eea94680bac69cd31513ddc817ac0c8af9ee)
+  - RECTANGLE "Screenshot_2024-01-11-18-41-20-54_835373df017a2ac54f93b8cb81", 360x545.52px, constraints left/top, fill image(hash: ccfc381da95c530f844b1d82efe4d90092f1c510)
+  - RECTANGLE "Screenshot_2024-01-11-18-45-12-52_835373df017a2ac54f93b8cb81", 360x513.29px, constraints left/top, fill image(hash: 415bd09aca58f1d9afa0ab879ec1e2e262a0e2e7)
+  - RECTANGLE "Screenshot_2024-01-11-18-43-07-62_835373df017a2ac54f93b8cb81", 360x303.1px, constraints left/top, fill image(hash: 4b24937b7b0248ac34af63380a1463dfe6b4a90b)
+  - RECTANGLE "Screenshot_2024-01-11-18-44-10-59_835373df017a2ac54f93b8cb81", 360x804.77px, constraints left/top, fill image(hash: 33ab79843f318629f3e882b8ff2341f7375f9490)
+
+Screen: Miscellaneous / Android Small - 1
+- FRAME "Android Small - 1", 360x2691px, constraints left/top, fill Surface/Primary
+  - INSTANCE "Top app bar", 360x80px, horizontal pad 0 16 0 16px gap 121px align space_between/center sizing W:fixed H:fixed, constraints left_right/top, fill Surface/Primary, stroke Divider/Primary 1px
+    - FRAME "Frame 10", 302x82px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Icon", 18x18px, constraints left/top
+        - VECTOR "Shape", 15.3x14.85px, constraints scale/scale, fill Text/Primary
+      - FRAME "Frame 9", 124x82px, vertical pad 18 0 16 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Memphis, TN", 124x24px, constraints left/top, fill Text/Primary, text [Title3], [heading]
+        - TEXT "Any date", 64x20px, constraints left/top, fill Text/Secondary, text [Callout]
+    - INSTANCE "Icon", 26x26px, constraints left/top
+      - VECTOR "Shape", 20x20px, constraints scale/scale, fill Text/Primary
+  - GROUP "Group 3", 160x160px, constraints center/top [decorative, ~4 shapes]
+  - TEXT "No upcoming events", 168x20px, constraints center/top, fill Text/Primary, text [Headline], [heading]
+  - TEXT "We can’t find any events from your tracked performers. Broad", 324x60px, constraints center/top, fill Text/Primary, text [Callout]
+  - INSTANCE "Button", 150x39px, horizontal pad 8 16 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints center/top, radius 8px, fill Surface/Inverted
+    - TEXT "Add performers", 118x19px, constraints left/top, fill Text/Inverted, text [Callout Strong]
+  - FRAME "Search", 360x286px, vertical pad 0 16 0 16px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - FRAME "Search Section", 328x286px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Search Bar", 328x48px, horizontal pad 12 16 12 16px gap 30px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Surface/Secondary
+        - FRAME "Frame 11", 197x24px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 24x24px, constraints left/top
+            - VECTOR "Shape", 20.73x20.73px, constraints scale/scale, fill Text/Primary
+          - TEXT "Performer, event, or", 141x20px, constraints left/top, fill Text/Secondary, text [Callout]
+        - FRAME "Frame 12", 70x22px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 18x18px, constraints left/top
+            - VECTOR "Shape", 14x14px, constraints scale/scale, fill Text/Primary
+          - INSTANCE "Icon", 22x22px, constraints left/top
+            - VECTOR "Shape", 13.5x19px, constraints scale/scale, fill Text/Primary
+      - FRAME "Divider Line", 360x36px, horizontal pad 14 16 22 16px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 1", 360x0px, constraints left/top, stroke Divider/Secondary 0.75px
+      - FRAME "Suggestions", 328x34px, horizontal pad 0 22 12 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Suggestions", 108x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+      - FRAME "Suggestion List Items", 328x168px, vertical pad 0 6 0 6px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Suggestion List Item", 316x56px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+          - FRAME "Frame 13", 117x56px, horizontal pad 10 0 10 0px gap 22px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Style Icons", 36x36px, constraints left/top
+            - TEXT "Popular", 59x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - INSTANCE "Icon", 26x26px, constraints left/top, opacity 0%
+            - VECTOR "Shape", 22x22px, constraints scale/scale, fill Text/Primary
+        - INSTANCE "Suggestion List Item", 316x56px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+          - FRAME "Frame 13", 245x56px, horizontal pad 10 0 10 0px gap 22px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Style Icons", 36x36px, constraints left/top
+            - TEXT "Popular", 187x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - INSTANCE "Icon", 26x26px, constraints left/top, opacity 0%
+            - VECTOR "Shape", 22x22px, constraints scale/scale, fill Text/Primary
+        - INSTANCE "Suggestion List Item", 316x56px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+          - FRAME "Frame 13", 315x56px, horizontal pad 10 0 10 0px gap 22px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Style Icons", 36x36px, constraints left/top
+            - TEXT "Popular", 257x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - INSTANCE "Icon", 26x26px, constraints left/top, opacity 0%
+            - VECTOR "Shape", 22x22px, constraints scale/scale, fill Text/Primary
+  - FRAME "Frame 17", 360x235px, vertical pad 0 16 0 16px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - FRAME "Frame 16", 328x52px, horizontal pad 20 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Top results", 96x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+    - INSTANCE "List Item", 328x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+      - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Leading Element", 49x49px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 4", 49x49px, constraints scale/scale, fill image(hash: 974d9069a1832072915dac21f33184ea8b47cc4f)
+        - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+    - INSTANCE "List Item", 328x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+      - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Leading Element", 49x49px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 4", 49x49px, constraints scale/scale, fill image(hash: 974d9069a1832072915dac21f33184ea8b47cc4f)
+        - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+    - INSTANCE "List Item", 328x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+      - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Leading Element", 49x49px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 4", 49x49px, constraints scale/scale, fill image(hash: 974d9069a1832072915dac21f33184ea8b47cc4f)
+        - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+  - FRAME "Frame 23", 360x235px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left_right/top
+    - FRAME "Venue section", 360x235px, vertical pad 0 16 0 16px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 19", 328x52px, horizontal pad 20 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Venue", 54x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+      - INSTANCE "List Item", 328x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Leading Element", 49x49px, constraints left/top
+            - ELLIPSE "Ellipse 5", 49x49px, constraints left/top, fill Surface/Icon Container Fill, stroke Divider/Secondary 1px
+            - INSTANCE "Icon", 24x24px, constraints left/top
+          - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+            - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+        - INSTANCE "Icon", 24x24px, constraints left/top
+          - VECTOR "Shape", 19.64x16.93px, constraints scale/scale, fill Text/Primary
+      - INSTANCE "List Item", 328x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Leading Element", 49x49px, constraints left/top
+            - ELLIPSE "Ellipse 5", 49x49px, constraints left/top, fill Surface/Icon Container Fill, stroke Divider/Secondary 1px
+            - INSTANCE "Icon", 24x24px, constraints left/top
+          - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+            - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+        - INSTANCE "Icon", 24x24px, constraints left/top
+          - VECTOR "Shape", 19.64x16.93px, constraints scale/scale, fill Text/Primary
+      - INSTANCE "List Item", 328x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Leading Element", 49x49px, constraints left/top
+            - ELLIPSE "Ellipse 5", 49x49px, constraints left/top, fill Surface/Icon Container Fill, stroke Divider/Secondary 1px
+            - INSTANCE "Icon", 24x24px, constraints left/top
+          - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+            - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+        - INSTANCE "Icon", 24x24px, constraints left/top
+          - VECTOR "Shape", 19.64x16.93px, constraints scale/scale, fill Text/Primary
+  - FRAME "Frame 21", 360x235px, vertical pad 0 16 0 16px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - FRAME "Frame 19", 328x52px, horizontal pad 20 0 10 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Venue", 54x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+    - INSTANCE "List Item", 360x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+      - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Leading Element", 49x49px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 4", 49x49px, constraints scale/scale, radius 8px, fill image(hash: 26adf3a8eabc60f44ea3d75088f5150d57501130)
+        - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+    - INSTANCE "List Item", 360x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+      - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Leading Element", 49x49px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 4", 49x49px, constraints scale/scale, radius 8px, fill image(hash: 26adf3a8eabc60f44ea3d75088f5150d57501130)
+        - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+    - INSTANCE "List Item", 360x61px, horizontal pad 6 0 6 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+      - FRAME "Frame 18", 288x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Leading Element", 49x49px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 5", 49x49px, constraints scale/scale, radius 16px, fill image(hash: 26adf3a8eabc60f44ea3d75088f5150d57501130)
+        - FRAME "Frame 15", 92x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Noah Kahan", 92x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "49 events", 66x18px, constraints left/top, fill Text/Secondary, text [Body 2]
+  - FRAME "Frame 25", 360x130px, vertical pad 0 0 8 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - FRAME "Frame 24", 360x122px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, fill Text/Inverted
+      - INSTANCE "Top app bar", 360x80px, horizontal pad 0 16 0 16px gap 121px align space_between/center sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Frame 10", 302x82px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Icon", 18x18px, constraints left/top
+            - VECTOR "Shape", 15.3x14.85px, constraints scale/scale, fill Text/Primary
+          - FRAME "Frame 9", 124x82px, vertical pad 18 0 16 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Memphis, TN", 124x24px, constraints left/top, fill Text/Primary, text [Title3], [heading]
+            - TEXT "Any date", 64x20px, constraints left/top, fill Text/Secondary, text [Callout]
+        - INSTANCE "Icon", 26x26px, constraints left/top
+          - VECTOR "Shape", 20x20px, constraints scale/scale, fill Text/Primary
+      - FRAME "Frame 22", 360x34px, horizontal pad 0 8 0 8px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Suggestion Chip", 75x34px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Text/Inverted, stroke Divider/Secondary 1.25px
+          - TEXT "Sports", 43x18px, constraints left/top, fill Text/Primary, text [Body 2]
+        - INSTANCE "Suggestion Chip", 92x34px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Text/Inverted, stroke Divider/Secondary 1.25px
+          - TEXT "Sports", 60x18px, constraints left/top, fill Text/Primary, text [Body 2]
+        - INSTANCE "Suggestion Chip", 97x34px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Text/Inverted, stroke Divider/Secondary 1.25px
+          - TEXT "Sports", 65x18px, constraints left/top, fill Text/Primary, text [Body 2]
+        - INSTANCE "Suggestion Chip", 88x34px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Text/Inverted, stroke Divider/Secondary 1.25px
+          - TEXT "Sports", 56x18px, constraints left/top, fill Text/Primary, text [Body 2]
+  - INSTANCE "Event Card Extra Large", 360x316px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [drop_shadow 11.9px offset 0 2 #00000040, drop_shadow 4px offset 0 2 #00000008]
+    - FRAME "Frame 35", 360x316px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 27", 360x174px, constraints left/top, fill image(hash: a4caf845e2fa38a5ceb9cc0629b2c4ca3a7252c9)
+        - FRAME "Frame 26", 75x22px, horizontal pad 6 8 6 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 8px, fill #181818BF
+          - TEXT "US$217+", 59x10px, constraints left/top, fill Text/Inverted, text [Roobert Bold, 14px]
+      - FRAME "Frame 28", 360x78px, vertical pad 14 16 14 16px gap 4px sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - TEXT "Morgan Wallen with Bailey", 230x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+        - TEXT "Sat, 20 Apr, 7 pm . Oxford, MS . Vaught Hem", 315x20px, constraints left/top, fill Text/Secondary, text [Callout]
+      - FRAME "Frame 33", 360x64px, horizontal pad 22 16 22 16px gap 20px sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Frame 30", 64x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 18x18px, constraints left/top
+            - VECTOR "Shape", 14.73x12.7px, constraints scale/scale, fill Text/Primary
+          - TEXT "Track", 40x20px, constraints left/top, fill Text/Primary, text [Callout]
+        - FRAME "Frame 32", 66x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 18x18px, constraints left/top
+            - VECTOR "Shape", 11.58x14.25px, constraints scale/scale, fill Text/Primary
+          - TEXT "Share", 42x20px, constraints left/top, fill Text/Primary, text [Callout]
+      - FRAME "Frame 34", 347x0px, vertical pad 0 16 0 16px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 5", 315x0px, constraints left/top, stroke Divider/Secondary 0.75px
+  - INSTANCE "Event Card Extra Large", 360x316px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [drop_shadow 11.9px offset 0 2 #00000040, drop_shadow 4px offset 0 2 #00000008]
+    - FRAME "Frame 35", 360x316px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 27", 360x174px, constraints left/top, fill image(hash: cf6ecfbe3a979f3594bb9189e05e2def4c717fa9)
+        - FRAME "Frame 26", 75x22px, horizontal pad 6 8 6 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 8px, fill #181818BF
+          - TEXT "US$217+", 59x10px, constraints left/top, fill Text/Inverted, text [Roobert Bold, 14px]
+      - FRAME "Frame 28", 360x78px, vertical pad 14 16 14 16px gap 4px sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - TEXT "Morgan Wallen with Bailey", 230x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+        - TEXT "Sat, 20 Apr, 7 pm . Oxford, MS . Vaught Hem", 315x20px, constraints left/top, fill Text/Secondary, text [Callout]
+      - FRAME "Frame 33", 360x64px, horizontal pad 22 16 22 16px gap 20px sizing W:fill H:fixed, constraints left/top, fill Surface/Primary
+        - FRAME "Frame 30", 64x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 18x18px, constraints left/top
+            - VECTOR "Shape", 14.73x12.7px, constraints scale/scale, fill Text/Primary
+          - TEXT "Track", 40x20px, constraints left/top, fill Text/Primary, text [Callout]
+        - FRAME "Frame 32", 66x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 18x18px, constraints left/top
+            - VECTOR "Shape", 11.58x14.25px, constraints scale/scale, fill Text/Primary
+          - TEXT "Share", 42x20px, constraints left/top, fill Text/Primary, text [Callout]
+      - FRAME "Frame 34", 347x0px, vertical pad 0 16 0 16px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 5", 315x0px, constraints left/top, stroke Divider/Secondary 0.75px
+  - FRAME "Tab bars", 360x60px, horizontal pad 18 24 18 24px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left_right/bottom, fill Text/Inverted
+    - INSTANCE "Icon", 24x24px, constraints left/top
+      - VECTOR "Shape", 22x22px, constraints scale/scale, fill Text/Primary
+    - INSTANCE "Icon", 24x24px, constraints left/top
+      - VECTOR "Shape", 20.73x20.73px, constraints scale/scale, fill Icon/Red
+    - INSTANCE "Icon", 24x24px, constraints left/top
+      - VECTOR "Shape", 13.57x19.3px, constraints scale/scale, stroke Text/Primary 2px
+    - INSTANCE "Icon", 24x24px, constraints left/top
+      - VECTOR "Shape", 19.64x16.93px, constraints scale/scale, fill Text/Primary
+    - INSTANCE "Icon", 24x24px, constraints left/top
+      - VECTOR "Shape", 20x18.5px, constraints scale/scale, fill Text/Primary
+
+Screen: Miscellaneous / image 1
+- RECTANGLE "image 1", 293.45x293.45px, constraints left/top, fill image(hash: e5c1695c169e42d8204dfa4e16911e5a648e0a2f)
+
+Screen: Miscellaneous / Rectangle 2
+- RECTANGLE "Rectangle 2", 11x12px, constraints left/top, fill #D9D9D9
+
+Screen: Miscellaneous / Color Style Swatch
+- COMPONENT "Color Style Swatch", 320x280px, constraints left/top, radius 17px, fill #FFFFFF
+  - FRAME "Frame 8", 320x86px, vertical pad 14 0 16 32px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #A4A4A4
+    - TEXT "Name", 65x26px, constraints left/top, fill #000000, text [Roobert Medium, 24px], [heading]
+    - TEXT "#000000", 91x22px, constraints left/top, fill #4C4C4C, text [Roobert Medium, 20px]
+
+Screen: Miscellaneous / Events
+- TEXT "Events", 58x22px, constraints left/top, fill Text/Primary, text [Headline strong], [heading]
+
+Screen: Miscellaneous / Rectangle 7
+- RECTANGLE "Rectangle 7", 24x18px, constraints left/top, fill #D9D9D9
+
+Screen: Miscellaneous / Tracking tab master slide
+- GROUP "Tracking tab master slide", 360x2204.13px, constraints left/top
+  - RECTANGLE "Screenshot_2024-01-11-18-46-54-17_835373df017a2ac54f93b8cb81", 360x664.26px, constraints left/top, fill image(hash: d08947e0d39b596a5f0641d568e1e5fe8f4c0a0c)
+  - RECTANGLE "Screenshot_2024-01-11-18-46-14-18_835373df017a2ac54f93b8cb81", 360x733.65px, constraints left/top, fill image(hash: 2fffe631c48de37002fd8e7c052fa15262d93768)
+  - RECTANGLE "Screenshot_2024-01-11-18-47-31-56_835373df017a2ac54f93b8cb81", 360x415.16px, constraints left/top, fill image(hash: 2e124f636ada939d8977fc1f19087097c655387f)
+  - RECTANGLE "Screenshot_2024-01-11-18-47-31-56_835373df017a2ac54f93b8cb81", 360x59.23px, constraints left/top, fill image(hash: 2e124f636ada939d8977fc1f19087097c655387f)
+  - RECTANGLE "Screenshot_2024-01-11-18-47-13-54_835373df017a2ac54f93b8cb81", 360x115.84px, constraints left/top, fill image(hash: f067cfd0dd8df2887acebb57c6fc50ae5b8ff2d7)
+  - VECTOR "Vector 16", 6.78x16px, constraints left/top, stroke #000000 1px
+  - RECTANGLE "Screenshot_2024-01-11-18-48-01-09_835373df017a2ac54f93b8cb81", 360x223.55px, constraints left/top, fill image(hash: 93a1743031768c8fc5a0ce878997106c53ec72ab)
+  - RECTANGLE "Screenshot_2024-01-11-18-46-14-18_835373df017a2ac54f93b8cb81", 360x108.29px, constraints left/top, fill image(hash: 2fffe631c48de37002fd8e7c052fa15262d93768)
+  - TEXT "Blippi Live (not feat. Stevin John)", 113.37x78px, constraints left/top, fill #FFFFFF, text [Roobert Bold, 16px]
+  - TEXT "67 events", 115.96x18px, constraints left/top, fill #FFFFFF, text [Body 2]
+  - TEXT "67 events", 115.96x26px, constraints left/top, fill #FFFFFF, text [Roobert Bold, 16px]
+  - VECTOR "Union", 17.78x18.06px, constraints left/top, fill #663434, stroke #000000 1px
+  - VECTOR "Vector 17", 19.04x3.83px, constraints left/top, stroke #FFFFFF 1px
+  - TEXT "L", 3.46x7px, constraints left/top, fill #FFFFFF, text [Inter Regular, 6px]
+  - TEXT "R", 3.46x7px, constraints left/top, fill #FFFFFF, text [Inter Regular, 6px]
+
+Screen: Miscellaneous / Event card medium
+- INSTANCE "Event card medium", 360x110px, horizontal pad 8 16 8 16px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Surface/Primary
+  - FRAME "Frame 53", 74x94px, constraints left/top, radius 8px, fill image(hash: 2fea70f14ceb13a235fcabaff228d295bb1af957)
+  - FRAME "Frame 55", 238x94px, vertical pad 8 0 16 0px gap 10px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Name and time", 238x41px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 57", 238x41px, horizontal pad 0 8 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 56", 128x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Colter Wall (16+)", 128x19px, constraints left/top, fill Text/Primary, text [Callout Strong]
+          - TEXT "Tonight . 8 pm", 128x18px, constraints left/top, fill Text/Tertiary, text [Body 2]
+        - FRAME "Frame 58", 19.72x16.96px, vertical pad 0 0 0 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector 19", 19.72x16.96px, constraints left/top, fill Icon/Red
+    - TEXT "US$91+. Mission Ballroom - Denver", 238x18px, constraints left/top, fill Text/Tertiary, text [Body 2]
+
+Screen: Miscellaneous / Icon
+- INSTANCE "Icon", 24x24px, constraints left/top
+  - VECTOR "Shape", 19.64x16.93px, constraints scale/scale, fill Text/Primary
+
+Screen: Miscellaneous / Rectangle 10
+- RECTANGLE "Rectangle 10", 7x16px, constraints left/top, fill #D9D9D9
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,606 @@
+---
+name: universal-design-system-community
+source_file: UNIVERSAL DESIGN SYSTEM (Community)
+source_page: All pages (5): 🎁Hero, 🧱components, 💥buttons, 🧨Style guide, ⚙️IOS system
+generated_at: 2026-07-25T09:21:17.129913+00:00
+---
+
+# UNIVERSAL DESIGN SYSTEM (Community) Design Guidelines
+
+## Source
+- Figma file: UNIVERSAL DESIGN SYSTEM (Community)
+- Figma page: All pages (5): 🎁Hero, 🧱components, 💥buttons, 🧨Style guide, ⚙️IOS system
+- Extracted at: 2026-07-25T09:21:17.129913+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Basic / Light - #FFFFFF: [#FFFFFF]
+- Backgrounds / Keyboards Gray: [#D2D5DBF0]
+- Backgrounds / Keyboards Light Gray: [#EFEFF4F0]
+- Accent / Blue - 007AFF: [#007AFF]
+- Backgrounds / Bars - Light Gray: [#F8F8F8EB]
+- Basic / Adding - #4CD964: [#4CD964]
+- lightblue: [#CFD9FF]
+- blackfill: [#0D0C0C]
+- white: [#FFFFFF]
+- blue: [#3E66FB]
+- Gray 4: none
+- greyfill: [#838383]
+- Gray 5: none
+- Gray 1: none
+- Green 1: [#219653]
+- Red: [#EB5757]
+- grey outline: [#FFFFFF]
+- greayfill: [#D4D4D4]
+- greendot: [#4FBD28]
+- Gray 2: [#4F4F4F]
+- Gray 3: [#828282]
+
+## Raw Colors (unstyled)
+- #DADADA: 789 uses
+- #000000: 517 uses
+- #50555C: 476 uses
+- #B0B4BA: 244 uses
+- #FFFFFF: 112 uses
+- #191919: 91 uses
+- #C6CCD2: 53 uses
+- #4F555D: 22 uses
+- #0000005C: 16 uses
+- #CFD9FF: 13 uses
+
+## Typography Tokens
+- Body – 17pt / Regular: SF Pro Text Regular (400), 17px / 22px, tracking -0.41px
+- Large Title – 34pt: SF Pro Display Bold (700), 34px / 41px, tracking 0.41px
+- Body – 17pt / Semibold: SF Pro Text Semibold (600), 17px / 22px, tracking -0.41px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 32px: 185 uses
+- Inter Medium, 17.64px: 90 uses
+- SF Pro Display Regular, 21px: 52 uses
+- SF Pro Display Regular, 23px: 52 uses
+- SF Pro Text Regular, 16px: 51 uses
+- Inter SemiBold, 69.28px: 43 uses
+- Inter SemiBold, 41.46px: 32 uses
+- SF Pro Display Regular, 25px: 22 uses
+- Inter Regular, 51.3px: 18 uses
+- SF Pro Display Bold, 10px: 18 uses
+- SF Pro Text Semibold, 15px: 17 uses
+- Inter Regular, 20.48px: 11 uses
+- Inter Regular, 27.3px: 11 uses
+- Inter Bold, 27.3px: 10 uses
+- Inter SemiBold, 35.89px: 10 uses
+- Inter Medium, 27.3px: 9 uses
+- Inter SemiBold, 46.04px: 8 uses
+- SF Pro Display Semibold, 12px: 8 uses
+- SF Pro Text Regular, 12px: 8 uses
+- Inter SemiBold, 36.27px: 7 uses
+- SF Pro Text Semibold, 12px: 7 uses
+- Inter SemiBold, 41.02px: 6 uses
+- Inter SemiBold, 65.43px: 6 uses
+- SF Pro Text Bold, 10px: 6 uses
+- Inter Regular, 30.77px: 5 uses
+- SF Pro Display Bold, 20px: 5 uses
+- SF Pro Text Regular, 13px: 5 uses
+- Inter Medium, 13.65px: 4 uses
+- Inter Medium, 40.95px: 4 uses
+- Inter Regular, 35.89px: 4 uses
+- Inter Regular, 41.02px: 4 uses
+- Inter SemiBold, 27.3px: 4 uses
+- Inter SemiBold, 81.9px: 4 uses
+- Roboto Regular, 9.5px: 4 uses
+- SF Pro Text Regular, 15px: 4 uses
+
+## Typography Hierarchy
+- 81.9px - Inter SemiBold, 81.9px (raw)
+- 69.28px - Inter SemiBold, 69.28px (raw)
+- 65.43px - Inter SemiBold, 65.43px (raw)
+- 51.3px - Inter Regular, 51.3px (raw)
+- 46.04px - Inter SemiBold, 46.04px (raw)
+- 41.46px - Inter SemiBold, 41.46px (raw)
+- 41.02px - Inter Regular, 41.02px (raw)
+- 41.02px - Inter SemiBold, 41.02px (raw)
+- 40.95px - Inter Medium, 40.95px (raw)
+- 36.27px - Inter SemiBold, 36.27px (raw)
+- 35.89px - Inter Regular, 35.89px (raw)
+- 35.89px - Inter SemiBold, 35.89px (raw)
+- 34px - Large Title – 34pt (SF Pro Display Bold)
+- 32px - Roboto Regular, 32px (raw)
+- 30.77px - Inter Regular, 30.77px (raw)
+- 27.3px - Inter Bold, 27.3px (raw)
+- 27.3px - Inter Medium, 27.3px (raw)
+- 27.3px - Inter Regular, 27.3px (raw)
+- 27.3px - Inter SemiBold, 27.3px (raw)
+- 25px - SF Pro Display Regular, 25px (raw)
+- 23px - SF Pro Display Regular, 23px (raw)
+- 21px - SF Pro Display Regular, 21px (raw)
+- 20.48px - Inter Regular, 20.48px (raw)
+- 20px - SF Pro Display Bold, 20px (raw)
+- 17.64px - Inter Medium, 17.64px (raw)
+- 17px - Body – 17pt / Regular (SF Pro Text Regular)
+- 17px - Body – 17pt / Semibold (SF Pro Text Semibold)
+- 16px - SF Pro Text Regular, 16px (raw)
+- 15px - SF Pro Text Regular, 15px (raw)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 13.65px - Inter Medium, 13.65px (raw)
+- 13px - SF Pro Text Regular, 13px (raw)
+- 12px - SF Pro Display Semibold, 12px (raw)
+- 12px - SF Pro Text Regular, 12px (raw)
+- 12px - SF Pro Text Semibold, 12px (raw)
+- 10px - SF Pro Display Bold, 10px (raw)
+- 10px - SF Pro Text Bold, 10px (raw)
+- 9.5px - Roboto Regular, 9.5px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Background Blur 15px: [background_blur 15px]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- IconButton
+- Checkbox
+- RadioButton
+- Dropdown
+- TextField
+- Tabs
+- Button + icon
+- Button
+- Range slider
+- Keyboards
+- • iPhone Xs
+- Divider
+- • iPhone XS
+- Bars
+
+## Component Specs
+- IconButton: size 329.14x329.14px | variants: Property 1: 24/32/48
+- Checkbox: size 127.5x127.5px | variants: Property 1: deselected/selected; Property 2: blue/dual/grey
+- RadioButton: size 127.5x127.5px | variants: Property 1: deselected/selected; Property 2: blue/dual/gray
+- Dropdown: size 831.69x181.37px, text [Inter SemiBold, 36.27px, Inter SemiBold, 41.46px] | variants: Property 1: close/open; Property 2: flags/icons/multiselect/multiselect2/native/simple
+- TextField: size 820.44x179.47px, text [Inter SemiBold, 35.89px, Inter Regular, 41.02px] | variants: Property 1: emply/filled/password/password check/text area; Property 2: optional; Property 3: Autofill/active/error/thickborder
+- Tabs: size 1026.06x153.91px, text [Inter Regular, 51.3px] | variants: Property 1: pill/square; Property 2: left/middle/right
+- Button + icon: size 158.74x52.91px, horizontal layout, padding 0 35.28 0 35.28px, gap 4.41px, align center/center, sizing W:fixed H:fixed, fill blue, text [Inter Medium, 17.64px] | variants: Property 1: center; Property 2: black/blue/disabled/lightblue/white/whiteshadow; Property 3: 16/4/8/pill/sharp
+- Button (🎁Hero): size 145.19x52.91px, horizontal layout, padding 8.82 35.28 8.82 35.28px, gap 8.82px, align center/center, sizing W:fixed H:fixed, fill blue, text [Inter Medium, 17.64px] | variants: Property 1: black/blue/disabled/lightblue/white/whiteshadow; Property 2: dot; Property 3: 16/4/8/pill/sharp
+- Button (🎁Hero): size 127.55x52.91px, horizontal layout, padding 8.82 35.28 8.82 35.28px, gap 8.82px, align center/center, sizing W:fixed H:fixed, fill blue, text [Inter Medium, 17.64px] | variants: Property 1: black/blue/disabled/lightblue/white/whiteshadow; Property 2: 16/4/8/pill/sharp
+- Range slider: size 1269.88x260.88px, text [Inter SemiBold, 46.04px, Inter SemiBold, 53.71px] | variants: Property 1: v1/v2
+- Keyboards /_/ Brush: size 40x32px, fill #FFFFFF
+- Keyboards /_/ Mic: size 38x32px, fill #FFFFFF
+- Keyboards /_/ Smile: size 62x32px, fill #FFFFFF
+- Keyboards /_/ Delete: size 42x42px, fill #FFFFFF
+- Keyboards /_/ Shift: size 41x42px, fill #FFFFFF
+- Keyboards / Default: size 375x216px, fill #FFFFFF, text [SF Pro Display Regular, 23px, SF Pro Text Regular, 16px]
+- Keyboards / Numpad: size 375x216px, fill #FFFFFF, text [SF Pro Display Regular, 25px, SF Pro Display Bold, 10px, SF Pro Text Bold, 10px]
+- Keyboards / Emoji: size 375x258px, fill #FFFFFF, text [SF Pro Display Semibold, 12px, Roboto Regular, 32px, Roboto Regular, 9.5px, SF Pro Text Regular, 15px]
+- Keyboards / Default Landscape: size 667x162px, fill #FFFFFF, text [SF Pro Display Regular, 21px, SF Pro Text Regular, 13px, SF Pro Text Regular, 16px]
+- • iPhone Xs / Keyboards / Default: size 375x291px, fill #FFFFFF, text [SF Pro Display Regular, 23px, SF Pro Text Regular, 16px]
+- • iPhone Xs / Keyboards / Numpad: size 375x291px, fill #FFFFFF, text [SF Pro Display Bold, 10px, SF Pro Display Regular, 25px, SF Pro Text Bold, 10px]
+- • iPhone Xs / Keyboards / Emoji: size 375x333px, fill #FFFFFF, text [Roboto Regular, 9.5px, SF Pro Display Semibold, 12px, Roboto Regular, 32px, SF Pro Text Regular, 15px]
+- • iPhone Xs / Keyboards / Default Landscape: size 812x172px, fill #FFFFFF, text [SF Pro Display Regular, 21px, SF Pro Text Regular, 16px]
+- Keyboards /_/ Simple + Button Default: size 374x52px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- Keyboards /_/ Simple + Button Active: size 374x52px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- Keyboards /_/ Complex + Button Default: size 374x52px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- Keyboards /_/ Complex + Button Active: size 374x52px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- Keyboards /_/ Number Pad Keys: size 375x52px, fill #D2D5DB, text [SF Pro Display Regular, 25px]
+- Keyboards /_/ Simple + Button Default Landscape: size 667x40px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- Keyboards /_/ Simple + Button Active Landscape: size 667x40px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- Keyboards /_/ Complex + Button Default Landscape: size 667x40px, fill #D2D5DB, text [SF Pro Text Regular, 13px, SF Pro Text Regular, 16px]
+- Keyboards /_/ Complex + Button Active Landscape: size 667x40px, fill #D2D5DB, text [SF Pro Text Regular, 13px, SF Pro Text Regular, 16px]
+- • iPhone Xs / Keyboards /_/ Button Default Landscape: size 812x40px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- • iPhone Xs / Keyboards /_/ Simple + Button Active Landscape X: size 812x40px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- • iPhone Xs / Keyboards /_/ Complex + Button Default Landscape X: size 812x40px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- • iPhone Xs / Keyboards /_/ Complex + Button Active Landscape X: size 812x40px, fill #D2D5DB, text [SF Pro Text Regular, 16px]
+- • iPhone Xs / Keyboards / / Voice: size 375x291px, fill #FFFFFF
+- • iPhone Xs / Keyboards / / Voice Landscape: size 812x172px, fill #FFFFFF
+- • iPhone Xs / Keyboards / / Emoji Landscape: size 812x213px, fill #FFFFFF, text [SF Pro Display Semibold, 12px, Roboto Regular, 32px, SF Pro Text Regular, 15px, SF Pro Text Regular, 13px]
+- • iPhone Xs / Home Indicator: size 375x34px, fill #FFFFFF
+- • iPhone Xs / Home Indicator • White: size 375x34px, fill #8F8E94
+-  Divider / 0pt 0pt: size 375x1px, fill #FFFFFF
+-  Divider / 16pt 0pt: size 375x1px, fill #FFFFFF
+-  Divider / 48pt 0pt: size 375x1px, fill #FFFFFF
+-  Divider / 60pt 0pt: size 375x1px, fill #FFFFFF
+-  Divider / 68pt 0pt: size 375x1px, fill #FFFFFF
+-  Divider / 88pt 0pt: size 375x1px, fill #FFFFFF
+-  Divider / _118pt 0pt: size 375x1px, fill #FFFFFF
+-  Divider / 16pt 16pt: size 375x1px, fill #FFFFFF
+-  Divider / 48pt 16pt: size 375x1px, fill #FFFFFF
+-  Divider / 60pt 16pt: size 375x1px, fill #FFFFFF
+-  Divider / 68pt 16pt: size 375x1px, fill #FFFFFF
+-  Divider / 88pt 16pt: size 375x1px, fill #FFFFFF
+-  Divider / _118pt 16pt: size 375x1px, fill #FFFFFF
+- • iPhone XS /_/ Screen Shape: size 375x812px, fill #FFFFFF
+- • iPhone XS / Bars / Status / Default: size 375x44px, fill #FFFFFF, text [SF Pro Text Semibold, 15px]
+- • iPhone XS / Bars / Status / Default • White: size 375x44px, fill #8F8E94, text [SF Pro Text Semibold, 15px]
+- • iPhone XS / Bars / Status / With Action: size 375x44px, fill #FFFFFF, text [SF Pro Text Semibold, 15px]
+- • iPhone XS / Bars / Status / With Action • White: size 375x44px, fill #8F8E94, text [SF Pro Text Semibold, 15px]
+- Bars / Status / Default: size 375x20px, fill #FFFFFF, text [SF Pro Text Regular, 12px, SF Pro Text Semibold, 12px]
+- Bars / Status / Back to App: size 375x20px, fill #FFFFFF, text [SF Pro Text Regular, 12px, SF Pro Text Semibold, 12px]
+- Bars / Status / Default • White: size 375x20px, fill #8F8E94, text [SF Pro Text Regular, 12px, SF Pro Text Semibold, 12px]
+- Bars / Status / Back to App • White: size 375x20px, fill #8F8E94, text [SF Pro Text Regular, 12px, SF Pro Text Semibold, 12px]
+- Bars / Status / Action: size 375x40px, fill #FFFFFF, text [SF Pro Text Regular, 12px, SF Pro Text Semibold, 12px]
+- • iPhone XS /_/ Status Bar | Time: size 180x22px, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+- • iPhone XS /_/ Status Bar | Time • White: size 180x22px, fill #8F8E94, text [SF Pro Text Semibold, 14px]
+- • iPhone XS /_/ Status Bar | Action Green: size 180x22px, fill #FFFFFF, text [SF Pro Text Semibold, 15px]
+- Bars / Navigation / Large: size 375x116px, fill #FFFFFF, text [SF Pro Text Regular, 12px, SF Pro Text Semibold, 12px, Body – 17pt / Regular, Large Title – 34pt]
+- Bars / Navigation / Default: size 375x64px, fill #FFFFFF, text [SF Pro Text Regular, 12px, SF Pro Text Semibold, 12px, Body – 17pt / Semibold]
+- • iPhone XS / Bars / Navigation Default: size 375x88px, fill #FFFFFF, text [SF Pro Text Semibold, 15px, Body – 17pt / Semibold]
+- • iPhone XS / Bars / Navigation Large: size 375x140px, fill #FFFFFF, text [SF Pro Text Semibold, 15px, Body – 17pt / Regular, Large Title – 34pt]
+-  Divider / _Empty: size 375x1px, fill #FFFFFF
+- Keyboards / Suggestions Bar 2: size 375x50px, fill #04040F, text [SF Pro Text Regular, 16px]
+- Keyboards / Suggestions Bar 1: size 375x50px, fill #04040F, text [SF Pro Text Regular, 16px]
+- Keyboards / Voice: size 375x216px, fill #FFFFFF
+- Keyboards / Voice Landscape: size 667x162px, fill #FFFFFF
+- Keyboards / Emoji Landscape: size 667x194px, fill #FFFFFF, text [SF Pro Text Regular, 13px, SF Pro Text Regular, 15px, SF Pro Display Semibold, 12px, Roboto Regular, 32px]
+
+## Most-Used Styles
+- Basic / Light - #FFFFFF: 191 uses
+- greyfill: 168 uses
+- blue: 152 uses
+- white: 97 uses
+- lightblue: 61 uses
+- blackfill: 50 uses
+- Gray 4: 48 uses
+- grey outline: 41 uses
+- greendot: 25 uses
+- Background Blur 15px: 20 uses
+- greayfill: 16 uses
+- Backgrounds / Keyboards Gray: 12 uses
+- Accent / Blue - 007AFF: 11 uses
+- Gray 1: 10 uses
+- Gray 3: 7 uses
+- Gray 5: 7 uses
+- Backgrounds / Bars - Light Gray: 6 uses
+- Basic / Adding - #4CD964: 6 uses
+- Red: 5 uses
+- Backgrounds / Keyboards Light Gray: 2 uses
+- Body – 17pt / Regular: 2 uses
+- Body – 17pt / Semibold: 2 uses
+- Gray 2: 2 uses
+- Large Title – 34pt: 2 uses
+- Green 1: 1 use
+
+## Layout & Structure
+Screen: 🎁Hero / Thumbnail
+- FRAME "Thumbnail", 11597x7323px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 18", 443.63x464.1px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 443.63x464.1px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - RECTANGLE "Rectangle 14", 443.63x370.26px, constraints left/top, radius 27.3/27.3/0/0px, fill #3E66FB
+    - TEXT "Main Blue", 131x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "#3E66FB", 119x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+  - GROUP "Group 19", 443.63x464.1px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 443.63x464.1px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - RECTANGLE "Rectangle 14", 443.63x370.26px, constraints left/top, radius 27.3/27.3/0/0px, fill #CFD9FF
+    - TEXT "Light Blue", 133x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "#CFD9FF", 122x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+  - GROUP "Group 20", 443.63x464.1px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 443.63x464.1px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - RECTANGLE "Rectangle 14", 443.63x370.26px, constraints left/top, radius 27.3/27.3/0/0px, fill #838383
+    - TEXT "Greay Fill", 124x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "#838383", 120x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+  - GROUP "Group 21", 443.63x464.1px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 443.63x464.1px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - RECTANGLE "Rectangle 14", 443.63x370.26px, constraints left/top, radius 27.3/27.3/0/0px, fill #BDBDBD
+    - TEXT "Gray", 63x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "#BDBDBD", 130x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+  - GROUP "Group 23", 443.63x464.1px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 443.63x464.1px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - RECTANGLE "Rectangle 14", 443.63x370.26px, constraints left/top, radius 27.3/27.3/0/0px, fill #0D0C0C
+    - TEXT "Black", 74x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "#0D0C0C", 128x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+  - GROUP "Group 22", 443.63x464.1px, constraints left/top, radius 27.3px
+    - RECTANGLE "Rectangle 13", 443.63x464.1px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - TEXT "White", 80x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "#ffffff", 77x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+  - GROUP "Group 24", 443.63x510.17px, constraints left/top, radius 27.3px
+    - RECTANGLE "Rectangle 13", 443.63x510.17px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - TEXT "Primary Font", 171x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "Inter", 59x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+    - TEXT "Aa", 271x159px, constraints left/top, fill #000000, text [Inter Regular, 218.4px], [heading]
+  - GROUP "Group 25", 443.63x510.17px, constraints left/top, radius 27.3px
+    - RECTANGLE "Rectangle 13", 443.63x510.17px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - TEXT "Secondary Font", 211x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "Inter", 59x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+    - TEXT "Aa", 284x159px, constraints left/top, fill #000000, text [Inter SemiBold, 218.4px], [heading]
+  - GROUP "Group 26", 443.63x510.17px, constraints left/top, radius 27.3px
+    - RECTANGLE "Rectangle 13", 443.63x510.17px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - TEXT "Bold", 60x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "Inter", 59x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+    - TEXT "Aa", 291x159px, constraints left/top, fill #000000, text [Inter Bold, 218.4px], [heading]
+  - GROUP "Group 27", 443.63x510.17px, constraints left/top, radius 27.3px
+    - RECTANGLE "Rectangle 13", 443.63x510.17px, constraints left/top, radius 27.3px, fill #FFFFFF, stroke grey outline 1.71px
+    - TEXT "Regular", 103x20px, constraints left/top, fill #000000, text [Inter Bold, 27.3px], [heading]
+    - TEXT "Inter", 59x20px, constraints left/top, fill greyfill, text [Inter Regular, 27.3px], [heading]
+    - TEXT "Aa", 271x159px, constraints left/top, fill #000000, text [Inter Regular, 218.4px], [heading]
+  - FRAME "Button", 214.2x68.25px, horizontal pad 13.65 54.6 13.65 54.6px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 13.65px, fill lightblue
+    - TEXT "Medium", 105x20px, constraints left/top, fill blue, text [Inter Medium, 27.3px], [heading]
+  - FRAME "Button", 233.2x68.25px, horizontal pad 13.65 54.6 13.65 54.6px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 13.65px, fill lightblue
+    - TEXT "Semibold", 124x20px, constraints left/top, fill blue, text [Inter SemiBold, 27.3px], [heading]
+  - FRAME "Button", 168.2x68.25px, horizontal pad 13.65 54.6 13.65 54.6px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 13.65px, fill lightblue
+    - TEXT "Bold", 59x20px, constraints left/top, fill blue, text [Inter SemiBold, 27.3px], [heading]
+  - FRAME "Button", 211.2x68.25px, horizontal pad 13.65 54.6 13.65 54.6px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 13.65px, fill lightblue
+    - TEXT "Regular", 102x20px, constraints left/top, fill blue, text [Inter SemiBold, 27.3px], [heading]
+  - FRAME "Button", 153.56x40.95px, horizontal pad 13.65 27.3 13.65 27.3px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.83px, fill lightblue
+    - TEXT "24,Bold", 74x15px, constraints left/top, fill blue, text [Inter Regular, 20.48px]
+  - FRAME "Button", 153.56x40.95px, horizontal pad 13.65 27.3 13.65 27.3px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.83px, fill lightblue
+    - TEXT "16,Bold", 71x15px, constraints left/top, fill blue, text [Inter Regular, 20.48px]
+  - FRAME "Button", 153.56x40.95px, horizontal pad 13.65 27.3 13.65 27.3px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.83px, fill lightblue
+    - TEXT "16,Semibold", 118x15px, constraints left/top, fill blue, text [Inter Regular, 20.48px]
+  - FRAME "Button", 153.56x40.95px, horizontal pad 13.65 27.3 13.65 27.3px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.83px, fill lightblue
+    - TEXT "16,Medium", 105x15px, constraints left/top, fill blue, text [Inter Regular, 20.48px]
+  - FRAME "Button", 153.56x40.95px, horizontal pad 13.65 27.3 13.65 27.3px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.83px, fill lightblue
+    - TEXT "16,Regular", 101x15px, constraints left/top, fill blue, text [Inter Regular, 20.48px]
+  - FRAME "Button", 153.56x40.95px, horizontal pad 13.65 27.3 13.65 27.3px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.83px, fill lightblue
+    - TEXT "14,Semibold", 118x15px, constraints left/top, fill blue, text [Inter Regular, 20.48px]
+  - FRAME "Button", 153.56x40.95px, horizontal pad 13.65 27.3 13.65 27.3px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.83px, fill lightblue
+    - TEXT "14,Medium", 106x15px, constraints left/top, fill blue, text [Inter Regular, 20.48px]
+  - FRAME "Button", 153.56x40.95px, horizontal pad 13.65 27.3 13.65 27.3px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.83px, fill lightblue
+    - TEXT "14,Regular", 101x15px, constraints left/top, fill blue, text [Inter Regular, 20.48px]
+  - FRAME "Button", 153.56x40.95px, horizontal pad 13.65 27.3 13.65 27.3px gap 13.65px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.83px, fill lightblue
+    - TEXT "12,Medium", 105.79x15px, constraints left/top, fill blue, text [Inter Regular, 20.48px]
+  - TEXT "Colours", 310x60px, constraints left/top, fill #000000, text [Inter SemiBold, 81.9px], [heading]
+  - TEXT "Buttons", 311x60px, constraints left/top, fill #000000, text [Inter SemiBold, 81.9px], [heading]
+  - ... +50 more children
+
+Screen: 🧱components / components
+- RECTANGLE "components", 3477x2637px, constraints left/top, fill image(hash: 4578136746d11baf7e59697e723c5d81371fc2dc)
+
+Screen: 💥buttons / buttons
+- RECTANGLE "buttons", 2597x2637px, constraints left/top, fill image(hash: 5de7ddb386454fed64cbcb2279c8e82baad33be7)
+
+Screen: 🧨Style guide / Colours and Typography
+- RECTANGLE "Colours and Typography", 3177x2139px, constraints left/top, fill image(hash: 55f04fd5b4cb51d5cd7fd9f8184218983918470e)
+
+Screen: ⚙️IOS system / Frame 1
+- FRAME "Frame 1", 3878x3972px, constraints left/top, fill #FFFFFF
+  - TEXT "↳ Headline", 149x36px, constraints left_right/top, fill #000000, text [SF Pro Display Bold, 30px], [heading]
+  - TEXT "↳ Headline", 63x36px, constraints left_right/top, fill #000000, text [SF Pro Display Bold, 30px], [heading]
+  - TEXT "↳ Headline", 161x30px, constraints left_right/top, fill #000000, text [SF Pro Display Bold, 20px]
+  - TEXT "↳ Headline", 239x30px, constraints left_right/top, fill #000000, text [SF Pro Display Bold, 20px]
+  - TEXT "↳ Headline", 121x30px, constraints left_right/top, fill #000000, text [SF Pro Display Bold, 20px]
+  - TEXT "↳ Headline", 104x30px, constraints left_right/top, fill #000000, text [SF Pro Display Bold, 20px]
+  - TEXT "↳ Headline", 160x30px, constraints left_right/top, fill #000000, text [SF Pro Display Bold, 20px]
+  - COMPONENT "Keyboards / Emoji Landscape", 667x194px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Backgrounds / Bars – Light Gray", 667x194px, constraints left_right/top_bottom, fill #FFFFFF
+      - VECTOR "Background", 667x194px, constraints scale/scale, fill Backgrounds / Bars - Light Gray, effect Background Blur 15px
+      - INSTANCE "↓ Divider", 667x1px, constraints left_right/bottom, fill #FFFFFF
+      - INSTANCE "↑ Divider", 667x1px, constraints left_right/top, fill #FFFFFF
+    - VECTOR "Mask", 667x194px, constraints left_right/top_bottom, fill #000000
+    - GROUP "Container", 677x144px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - GROUP "People", 242x141px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "😀", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😅", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😁", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😆", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😂", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😇", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😃", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "☺️", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🙃", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😉", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😌", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🙃", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😉", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😌", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🙂", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🤣", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😄", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😊", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "PEOPLE", 47x15px, constraints scale/center, fill #A5A6A9, text [SF Pro Display Semibold, 12px]
+      - GROUP "Frequently Used", 410x144px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "😂", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🍕", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🚀", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "👍", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🙄", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "👻", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "❤️", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🙈", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🦁", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "✌️", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😎", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😄", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "⛏", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😍", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🐵", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😏", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🍰", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😉", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🎶", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😜", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🤓", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "🙉", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😁", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "😌", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - TEXT "👀", 32x42px, constraints scale/center, fill #000000, text [Roboto Regular, 32px], [heading]
+        - ... +6 more children
+    - TEXT "ABC", 30x18px, constraints center/bottom, fill #4F555D, text [SF Pro Text Regular, 15px]
+    - TEXT "Space", 36x16px, constraints center/bottom, fill #4F555D, text [SF Pro Text Regular, 13px]
+    - GROUP "Index Picker", 306.5x32px, constraints scale/bottom, radius 0/0/0/0px, fill #FFFFFF [decorative, ~87 shapes]
+    - GROUP "Backspace", 23x17px, constraints center/bottom, fill #FFFFFF [decorative, ~6 shapes]
+  - COMPONENT "Keyboards / Voice Landscape", 667x162px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Voice", 667x162px, constraints scale/center, fill #FFFFFF
+      - INSTANCE "Backgrounds / Keyboards – Gray", 667x162px, constraints left_right/top_bottom, fill #FFFFFF
+        - VECTOR "Background", 667x162px, constraints scale/scale, fill Backgrounds / Keyboards Gray, effect Background Blur 15px
+        - INSTANCE "↓ Divider", 667x1px, constraints left_right/bottom, fill #FFFFFF
+        - INSTANCE "↑ Divider", 667x1px, constraints left_right/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Lang Glyph", 20x20px, constraints left/bottom, fill #50555C
+      - BOOLEAN_OPERATION "Keyboard Glyph", 29x16px, constraints right/bottom, fill #50555C
+      - BOOLEAN_OPERATION "Waves", 656x47px, constraints center/top, fill #50555C, stroke #979797 0px
+  - COMPONENT "Keyboards / Voice", 375x216px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Voice", 375x216px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Backgrounds / Keyboards – Gray", 375x216px, constraints left_right/top_bottom, fill #FFFFFF
+        - VECTOR "Background", 375x216px, constraints scale/scale, fill Backgrounds / Keyboards Gray, effect Background Blur 15px
+        - INSTANCE "↓ Divider", 375x1px, constraints left_right/bottom, fill #FFFFFF
+        - INSTANCE "↑ Divider", 375x1px, constraints left_right/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Waves", 362x47.22px, constraints center/top, fill #50555C, stroke #979797 0px
+  - COMPONENT "Keyboards / Suggestions Bar 1", 375x50px, constraints scale/scale, fill #04040F
+    - GROUP "Container", 375x51px, constraints scale/center, radius 0/0/0/0px, fill #FFFFFF
+      - INSTANCE "Backgrounds / Keyboards – Gray", 375x51px, constraints left/top, fill #FFFFFF
+        - VECTOR "Background", 375x51px, constraints scale/scale, fill Backgrounds / Keyboards Gray, effect Background Blur 15px
+        - INSTANCE "↓ Divider", 375x1px, constraints left_right/bottom, fill #FFFFFF
+        - INSTANCE "↑ Divider", 375x1px, constraints left_right/top, fill #FFFFFF
+      - INSTANCE "Divider", 375x50px, constraints left_right/top_bottom, fill #FFFFFF, effect [background_blur 27.18px]
+      - TEXT "↳ Text 3", 124.22x20px, constraints right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - GROUP "Center", 124.22x35px, constraints left/top, radius 6px
+        - RECTANGLE "Background", 124.22x35px, constraints center/center, radius 6px, fill #FFFFFFCC, stroke #979797 0px
+        - TEXT "↳ Text 2", 124.22x20px, constraints center/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "↳ Text 1", 124.22x20px, constraints left/scale, fill #000000, text [SF Pro Text Regular, 16px]
+  - COMPONENT "Keyboards / Suggestions Bar 2", 375x50px, constraints scale/scale, fill #04040F
+    - GROUP "Container", 375x51px, constraints scale/center, fill #FFFFFF
+      - INSTANCE "Backgrounds / Keyboards – Gray", 375x51px, constraints left/top, fill #FFFFFF
+        - VECTOR "Background", 375x51px, constraints scale/scale, fill Backgrounds / Keyboards Gray, effect Background Blur 15px
+        - INSTANCE "↓ Divider", 375x1px, constraints left_right/bottom, fill #FFFFFF
+        - INSTANCE "↑ Divider", 375x1px, constraints left_right/top, fill #FFFFFF
+      - TEXT "↳ C", 124.22x20px, constraints scale/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "↳ B", 124.22x20px, constraints scale/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - RECTANGLE "Line", 1x24px, constraints center/center, fill #000000, stroke #979797 0px, opacity 15%
+      - TEXT "↳ A", 124.22x20px, constraints scale/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - RECTANGLE "Line", 1x24px, constraints center/center, fill #000000, stroke #979797 0px, opacity 15%
+  - COMPONENT "Divider / _Empty", 375x1px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "• iPhone XS / Bars / Navigation Large", 375x140px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Backgrounds / Bars – Light Gray", 375x140px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Background", 375x140px, constraints scale/scale, fill Backgrounds / Bars - Light Gray, effect Background Blur 15px
+      - INSTANCE "Divider / _Empty", 375x1px, constraints left_right/bottom, fill #FFFFFF
+      - INSTANCE "↑ Divider", 375x1px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Right", 187x44px, constraints left_right/bottom, fill #FFFFFF
+    - TEXT "↳ Title", 70x41px, constraints left/bottom, fill #000000, text [Large Title – 34pt], [heading]
+    - INSTANCE "Top Right", 187x44px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Top Left", 188x44px, constraints left_right/top, fill #FFFFFF
+      - GROUP "Button", 55.5x22px, constraints scale/center, fill #FFFFFF
+        - VECTOR "Arrow", 12x20.5px, constraints left/center, fill Accent / Blue - 007AFF
+        - TEXT "↳ Label", 38x22px, constraints left/center, fill Accent / Blue - 007AFF, text [Body – 17pt / Regular]
+    - INSTANCE "Status Bar", 375x44px, constraints left_right/top, fill #FFFFFF
+      - FRAME "Frame", 68x14px, constraints right/center, fill #FFFFFF [decorative, ~15 shapes]
+      - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 54x18px, constraints left/center, fill #000000, text [SF Pro Text Semibold, 15px]
+  - COMPONENT "• iPhone XS / Bars / Navigation Default", 375x88px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Backgrounds / Bars – Light Gray", 375x88px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Background", 375x88px, constraints scale/scale, fill Backgrounds / Bars - Light Gray, effect Background Blur 15px
+      - INSTANCE "Divider / _Empty", 375x1px, constraints left_right/bottom, fill #FFFFFF
+      - INSTANCE "↑ Divider", 375x1px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Right", 188x44px, constraints left_right/bottom, fill #FFFFFF
+    - INSTANCE "Left", 188x44px, constraints left_right/bottom, fill #FFFFFF
+    - INSTANCE "Center", 188x44px, constraints left_right/bottom, fill #FFFFFF
+      - TEXT "↳ Title", 156x22px, constraints left_right/center, fill #000000, text [Body – 17pt / Semibold]
+    - INSTANCE "Status Bar", 375x44px, constraints left_right/top, fill #FFFFFF
+      - FRAME "Frame", 68x14px, constraints right/center, fill #FFFFFF [decorative, ~15 shapes]
+      - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 54x18px, constraints left/center, fill #000000, text [SF Pro Text Semibold, 15px]
+  - COMPONENT "Bars / Navigation / Default", 375x64px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Backgrounds / Bars – Light Gray", 375x64px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Background", 375x64px, constraints scale/scale, fill Backgrounds / Bars - Light Gray, effect Background Blur 15px
+      - INSTANCE "Divider / _Empty", 375x1px, constraints left_right/bottom, fill #FFFFFF
+      - INSTANCE "↑ Divider", 375x1px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Right", 188x44px, constraints left_right/bottom, fill #FFFFFF
+    - INSTANCE "Center", 188x44px, constraints left_right/bottom, fill #FFFFFF
+      - TEXT "↳ Title", 156x22px, constraints left_right/center, fill #000000, text [Body – 17pt / Semibold]
+    - INSTANCE "Left", 188x44px, constraints left_right/bottom, fill #FFFFFF
+    - INSTANCE "Status Bar", 375x20px, constraints left_right/top, fill #FFFFFF
+      - FRAME "Battery", 27x12px, constraints right/center, fill #FFFFFF [decorative, ~6 shapes]
+      - GROUP "Center", 49x15px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 49x15px, constraints center/center, fill #000000, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame", 82.27x15px, constraints left/center, fill #FFFFFF
+        - GROUP "Container", 82.27x15px, constraints left/center, fill #FFFFFF
+          - BOOLEAN_OPERATION "Signal", 17x10px, constraints scale/scale, fill #000000
+          - BOOLEAN_OPERATION "Wi-Fi", 15.27x10.97px, constraints scale/scale, fill #000000
+          - TEXT "Carrier", 39x15px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 12px]
+  - COMPONENT "Bars / Navigation / Large", 375x116px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Backgrounds / Bars – Light Gray", 375x116px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Background", 375x116px, constraints scale/scale, fill Backgrounds / Bars - Light Gray, effect Background Blur 15px
+      - INSTANCE "Divider / _Empty", 375x1px, constraints left_right/bottom, fill #FFFFFF
+      - INSTANCE "↑ Divider", 375x1px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Right", 187x44px, constraints left_right/bottom, fill #FFFFFF
+    - TEXT "↳ Title", 70x41px, constraints left/bottom, fill #000000, text [Large Title – 34pt], [heading]
+    - INSTANCE "Top Right", 187x44px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Top Center", 188x44px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Top Left", 188x44px, constraints left_right/top, fill #FFFFFF
+      - GROUP "Button", 55.5x22px, constraints scale/center, fill #FFFFFF
+        - VECTOR "Arrow", 12x20.5px, constraints left/center, fill Accent / Blue - 007AFF
+        - TEXT "↳ Label", 38x22px, constraints left/center, fill Accent / Blue - 007AFF, text [Body – 17pt / Regular]
+    - INSTANCE "Status Bar", 375x20px, constraints left_right/top, fill #FFFFFF
+      - FRAME "Battery", 27x12px, constraints right/center, fill #FFFFFF [decorative, ~6 shapes]
+      - GROUP "Center", 49x15px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 49x15px, constraints center/center, fill #000000, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame", 82.27x15px, constraints left/center, fill #FFFFFF
+        - GROUP "Container", 82.27x15px, constraints left/center, fill #FFFFFF
+          - BOOLEAN_OPERATION "Signal", 17x10px, constraints scale/scale, fill #000000
+          - BOOLEAN_OPERATION "Wi-Fi", 15.27x10.97px, constraints scale/scale, fill #000000
+          - TEXT "Carrier", 39x15px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 12px]
+  - COMPONENT "• iPhone XS /_/ Status Bar | Action Green", 180x22px, constraints scale/scale, fill #FFFFFF
+    - RECTANGLE "Action Color", 54x21px, constraints center/center, radius 32px, fill Basic / Adding - #4CD964
+    - RECTANGLE "Action Color", 54x21px, constraints center/center, radius 32px, fill Basic / Adding - #4CD964
+    - TEXT "↳ Time", 54x18px, constraints left/center, fill Basic / Light - #FFFFFF, text [SF Pro Text Semibold, 15px]
+  - COMPONENT "• iPhone XS /_/ Status Bar | Time • White", 180x22px, constraints scale/scale, fill #8F8E94
+    - TEXT "↳ Time", 54x17px, constraints left/center, fill Basic / Light - #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - COMPONENT "• iPhone XS /_/ Status Bar | Time", 180x22px, constraints scale/scale, fill #FFFFFF
+    - TEXT "↳ Time", 54x17px, constraints left/center, fill #000000, text [SF Pro Text Semibold, 14px]
+  - COMPONENT "Bars / Status / Action", 375x40px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Background", 375x40px, constraints scale/scale, fill #FFFFFF
+      - GROUP "• Fill", 375x40px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 375x40px, constraints left_right/top_bottom, fill Accent / Blue - 007AFF
+    - TEXT "↳ Notification", 66.35x15px, constraints center/bottom, fill Basic / Light - #FFFFFF, text [SF Pro Text Regular, 12px]
+    - GROUP "Battery", 27x12px, constraints right/center, fill #FFFFFF [decorative, ~6 shapes]
+    - GROUP "Center", 49x15px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 49x15px, constraints center/top, fill Basic / Light - #FFFFFF, text [SF Pro Text Semibold, 12px]
+    - FRAME "Frame", 82.27x15px, constraints left/top, fill #FFFFFF
+      - GROUP "Container", 82.27x15px, constraints left/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Signal", 17x10px, constraints scale/scale, fill Basic / Light - #FFFFFF
+        - BOOLEAN_OPERATION "Wi-Fi", 15.27x10.97px, constraints scale/scale, fill Basic / Light - #FFFFFF
+        - TEXT "Carrier", 39x15px, constraints scale/center, fill Basic / Light - #FFFFFF, text [SF Pro Text Regular, 12px]
+  - COMPONENT "Bars / Status / Back to App • White", 375x20px, constraints scale/scale, fill #8F8E94
+    - FRAME "Battery", 27x12px, constraints right/center, fill #FFFFFF [decorative, ~6 shapes]
+    - GROUP "Center", 49x15px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 49x15px, constraints center/center, fill Basic / Light - #FFFFFF, text [SF Pro Text Semibold, 12px]
+    - FRAME "Frame", 119.27x15px, constraints left/top, fill #FFFFFF
+      - GROUP "Container", 119.27x15px, constraints left/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Back", 12x12px, constraints left/top, fill Basic / Light - #FFFFFF
+        - TEXT "App Name", 59x15px, constraints scale/center, fill Basic / Light - #FFFFFF, text [SF Pro Text Regular, 12px]
+        - BOOLEAN_OPERATION "Signal", 17x10px, constraints scale/scale, fill Basic / Light - #FFFFFF
+        - BOOLEAN_OPERATION "Wi-Fi", 15.27x10.97px, constraints scale/scale, fill Basic / Light - #FFFFFF
+        - BOOLEAN_OPERATION "Wi-Fi", 15.27x10.97px, constraints scale/scale, fill Basic / Light - #FFFFFF
+  - COMPONENT "Bars / Status / Default • White", 375x20px, constraints scale/scale, fill #8F8E94
+    - FRAME "Battery", 27x12px, constraints right/center, fill #FFFFFF [decorative, ~6 shapes]
+    - GROUP "Center", 49x15px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 49x15px, constraints center/center, fill Basic / Light - #FFFFFF, text [SF Pro Text Semibold, 12px]
+    - FRAME "Frame", 82.27x15px, constraints left/center, fill #FFFFFF
+      - GROUP "Container", 82.27x15px, constraints left/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Signal", 17x10px, constraints scale/scale, fill Basic / Light - #FFFFFF
+        - BOOLEAN_OPERATION "Wi-Fi", 15.27x10.97px, constraints scale/scale, fill Basic / Light - #FFFFFF
+        - TEXT "Carrier", 39x15px, constraints scale/center, fill Basic / Light - #FFFFFF, text [SF Pro Text Regular, 12px]
+  - COMPONENT "Bars / Status / Back to App", 375x20px, constraints scale/scale, fill #FFFFFF
+    - FRAME "Battery", 27x12px, constraints right/center, fill #FFFFFF [decorative, ~6 shapes]
+    - GROUP "Center", 49x15px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 49x15px, constraints center/center, fill #000000, text [SF Pro Text Semibold, 12px]
+    - FRAME "Frame", 119.27x15px, constraints left/center, fill #FFFFFF
+      - GROUP "Container", 119.27x15px, constraints left/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Back", 12x12px, constraints left/top, fill #000000
+        - TEXT "App Name", 59x15px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 12px]
+        - BOOLEAN_OPERATION "Signal", 17x10px, constraints scale/scale, fill #000000
+        - BOOLEAN_OPERATION "Wi-Fi", 15.27x10.97px, constraints scale/scale, fill #000000
+        - BOOLEAN_OPERATION "Wi-Fi", 15.27x10.97px, constraints scale/scale, fill #000000
+  - COMPONENT "Bars / Status / Default", 375x20px, constraints scale/scale, fill #FFFFFF
+    - FRAME "Battery", 27x12px, constraints right/center, fill #FFFFFF [decorative, ~6 shapes]
+    - GROUP "Center", 49x15px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 49x15px, constraints center/center, fill #000000, text [SF Pro Text Semibold, 12px]
+    - FRAME "Frame", 82.27x15px, constraints left/center, fill #FFFFFF
+      - GROUP "Container", 82.27x15px, constraints left/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Signal", 17x10px, constraints scale/scale, fill #000000
+        - BOOLEAN_OPERATION "Wi-Fi", 15.27x10.97px, constraints scale/scale, fill #000000
+        - TEXT "Carrier", 39x15px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 12px]
+  - ... +47 more children
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

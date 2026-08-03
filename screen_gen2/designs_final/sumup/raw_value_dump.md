@@ -1,0 +1,1292 @@
+---
+name: pix-sumup-projeto-do-curso-de-ui-design-ebac-community
+source_file: PIX + SUMUP - Projeto do curso de UI Design EBAC (Community)
+source_page: All pages (12): Thumbnail, References, Moodboard, Styles, Components / Wireframe, Components / Main, Style Guide, Wireframes, Key Visuals, Refinment, Responsive Design, Prototype
+generated_at: 2026-07-25T09:55:23.400920+00:00
+---
+
+# PIX + SUMUP - Projeto do curso de UI Design EBAC (Community) Design Guidelines
+
+## Source
+- Figma file: PIX + SUMUP - Projeto do curso de UI Design EBAC (Community)
+- Figma page: All pages (12): Thumbnail, References, Moodboard, Styles, Components / Wireframe, Components / Main, Style Guide, Wireframes, Key Visuals, Refinment, Responsive Design, Prototype
+- Extracted at: 2026-07-25T09:55:23.400920+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Primary/White: [#FFFFFF]
+- SumUp/Modern Ink: none
+- SumUp/Royal Blue: [#2E62E9]
+- SumUp/Space Gray: [#FFFFFF]
+- Text/PriDefault: [#2A2E3B]
+- Secondary/Darker Blue: [#10399E]
+- Secondary/Dark Blue: [#1C51D3]
+- Primary/Black: [#000000]
+- 03. On Primary / High Emphasis: [#FFFFFF]
+- Secondary/LightGray 2: none
+- Secondary/LightGray: [#F5F5F5]
+- Secondary/Orange: [#F7941C]
+- Secondary/Sand: [#F7F0E8]
+- Secondary/Taxi Yellow: [#F5CC1C]
+- SumUp/Sky Blue: [#3388FF]
+- Text/SecDefault: [#8F8F8F]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 1080 uses
+- #D9D9D900: 505 uses
+- #000000: 346 uses
+- #2A2E3B: 240 uses
+- #5C656F: 194 uses
+- #D9D9D9: 185 uses
+- #FDD216: 118 uses
+- #F5F5F5: 52 uses
+- #F0F0F3: 39 uses
+
+## Typography Tokens
+- Text/Roboto: Roboto Regular (400), 16px / 114.51%, tracking 0px
+- Text 2/Roboto: Roboto Regular (400), 14px / 114.51%, tracking 0px
+- Header/H2: Roboto Bold (700), 32px / auto, tracking 0px
+- Text 2/Roboto hyperlink: Roboto Regular (400), 14px / 114.51%, tracking 0px
+- Text 3/Roboto: Roboto Regular (400), 12px / 114.51%, tracking 0px
+- Header/H4: Roboto Regular (400), 24px / 114.51%, tracking 0px
+- H1: Roboto Bold (700), 48px / auto, tracking 0px
+- Text/Roboto SemiBold: Roboto SemiBold (600), 16px / 114.51%, tracking 0px
+- Header/H5: Roboto Bold (700), 20px / 114.51%, tracking 0px
+- Text 2/Roboto SemiBold: Roboto SemiBold (600), 14px / 114.51%, tracking 0px
+- Text/Roboto hyperlink: Roboto Regular (400), 16px / 114.51%, tracking 0px
+- Header/H3: Roboto Bold (700), 24px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 24px: 112 uses
+- Roboto Regular, 16px: 56 uses
+- Roboto Bold, 40px: 43 uses
+- Roboto Bold, 48px: 42 uses
+- Roboto ExtraBold, 16px: 39 uses
+- Montserrat Regular, 32px: 24 uses
+- Roboto Bold, 24px: 24 uses
+- Roboto ExtraBold, 64px: 24 uses
+- Montserrat Black, 40px: 22 uses
+- Roboto Bold, 18px: 18 uses
+- Roboto Regular, 12px: 12 uses
+- Roboto SemiBold, 14px: 10 uses
+- Roboto Medium, 20px: 8 uses
+- Poppins Bold, 40px: 5 uses
+- Poppins Bold, 64px: 3 uses
+- Roboto Regular, 14px: 3 uses
+
+## Typography Hierarchy
+- 64px - Poppins Bold, 64px (raw)
+- 64px - Roboto ExtraBold, 64px (raw)
+- 48px - H1 (Roboto Bold)
+- 48px - Roboto Bold, 48px (raw)
+- 40px - Montserrat Black, 40px (raw)
+- 40px - Poppins Bold, 40px (raw)
+- 40px - Roboto Bold, 40px (raw)
+- 32px - Header/H2 (Roboto Bold)
+- 32px - Montserrat Regular, 32px (raw)
+- 24px - Header/H3 (Roboto Bold)
+- 24px - Header/H4 (Roboto Regular)
+- 24px - Roboto Bold, 24px (raw)
+- 24px - Roboto Regular, 24px (raw)
+- 20px - Header/H5 (Roboto Bold)
+- 20px - Roboto Medium, 20px (raw)
+- 18px - Roboto Bold, 18px (raw)
+- 16px - Roboto ExtraBold, 16px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 16px - Text/Roboto (Roboto Regular)
+- 16px - Text/Roboto SemiBold (Roboto SemiBold)
+- 16px - Text/Roboto hyperlink (Roboto Regular)
+- 14px - Roboto Regular, 14px (raw)
+- 14px - Roboto SemiBold, 14px (raw)
+- 14px - Text 2/Roboto (Roboto Regular)
+- 14px - Text 2/Roboto SemiBold (Roboto SemiBold)
+- 14px - Text 2/Roboto hyperlink (Roboto Regular)
+- 12px - Roboto Regular, 12px (raw)
+- 12px - Text 3/Roboto (Roboto Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Neumorphism/pressed/blue: [inner_shadow 6px offset 1 1 #112558, inner_shadow 4px offset -1 -1 #FFFFFF66]
+- Neumorphism/default: [drop_shadow 6px offset 1.5 1.5 #AEAEC099, drop_shadow 5px offset -1 -1 #FFFFFF]
+- Forms/Selected: [drop_shadow 3px offset 0 0 #2E62E9]
+- Neumorphism/pressed/default: [inner_shadow 6px offset 1 1 #AEAEC099, inner_shadow 4px offset -1 -1 #FFFFFF]
+- Neumorphism/pressed/active: [drop_shadow 6px offset 1.5 1.5 #AEAEC099, drop_shadow 5px offset -1 -1 #FFFFFF, inner_shadow 6px offset 1 1 #AEAEC099, inner_shadow 4px offset -1 -1 #FFFFFF]
+
+## Grid Styles
+- 2 columns (login): columns count 2, section 148px, gutter 12px, align center + columns count 2, section 130px, gutter 12px, align stretch
+- 6 columns (center): columns count 6, section 103px, gutter 26px, align center
+- 2 columns (center): columns count 2, section 148px, gutter 12px, align center
+- 12 Collumns: columns count 12, section 126.17px, gutter 26px, align stretch
+- 8 columns (center): columns count 8, section 152px, gutter 26px, align center
+
+## Component Families
+- Selection Controls
+- Icon
+- Hiperlink
+- Input
+- Active
+- PassedBy
+- Default
+- Scroll Bar
+- Forms
+- Menu
+- Group
+- Phone
+- Mobile
+- Tablet
+
+## Component Specs
+- Selection Controls / Check box / Selected / Enabled: size 24x24px
+- Selection Controls / Check box / Selected / Disabled: size 24x24px
+- Selection Controls / Check box / Deselected / Enabled: size 24x24px
+- Selection Controls / Check box / Deselected / Disabled: size 24x24px
+- Icon / Search: size 24x24px, fill #FFFFFF
+- Icon / Eye: size 24x24px, fill #FFFFFF
+- Icon / User: size 24x25px, fill #FFFFFF
+- Hiperlink / Default / Hover: size 107x21px, fill #FFFFFF, text [Text/Roboto hyperlink]
+- Hiperlink / Default / Default: size 117x21px, fill #FFFFFF, text [Text/Roboto hyperlink]
+- Hiperlink / Footer / Hover: size 107x21px, fill #FFFFFF, text [Text/Roboto hyperlink]
+- Hiperlink / Footer / Default: size 117x21px, fill #FFFFFF, text [Text/Roboto]
+- Input / Text /  Label /  Default (Components / Wireframe): size 367.07x50px, radius 15px, horizontal layout, padding 12 12 12 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Primary/White, stroke SumUp/Space Gray 1px, text [Text/Roboto]
+- Input / Text /  Label /  Icon Right (Components / Wireframe): size 367.07x50px, radius 15px, horizontal layout, padding 12 12 12 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Primary/White, stroke SumUp/Space Gray 1px, text [Text/Roboto]
+- Input / Text / NoLabel / Icon Left: size 367.07x50px, radius 15px, horizontal layout, padding 12 12 12 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Primary/White, stroke SumUp/Space Gray 1px, text [Text/Roboto]
+- Input / Text /  Label /  Default (Components / Wireframe): size 367.07x75.69px, text [Text/Roboto, Text 2/Roboto]
+- Input / Text /  Label /  Icon Right (Components / Wireframe): size 367.07x75.69px, text [Text/Roboto, Text 2/Roboto]
+- Input / Text / Label / Icon Left: size 367.07x75.69px, text [Text/Roboto, Text 2/Roboto]
+- Active / NoText: size 20x40px
+- Active / Text: size 111x42px, text [Text/Roboto SemiBold]
+- PassedBy / NoText: size 20x40px
+- Default / NoText (Components / Wireframe): size 20x40px
+- PassedBy / Text: size 111x42px, text [Text/Roboto SemiBold]
+- Default / Text: size 111x42px, text [Text/Roboto SemiBold]
+- Default (Components / Wireframe): size 1920x494px, text [Text/Roboto]
+- Default (Components / Wireframe): size 1509x47px, text [Text/Roboto]
+- Default (Components / Wireframe): size 1192x64px, horizontal layout, padding 16 16 16 32px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #D9D9D9, text [Header/H4]
+- Scroll Bar: size 21x311px
+- Forms / Select / Label / Icon: size 249x74px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Label / Default: size 249x74px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Icon: size 249x45px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Forms / Select / Default: size 249x45px, radius 15px, horizontal layout, padding 12 12 12 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke SumUp/Space Gray 1px, text [Text/Roboto]
+- Menu / Dropdown (Components / Wireframe): size 139.67x35px, horizontal layout, padding 7 5 7 5px, gap 5px, align min/center, sizing W:fixed H:fixed, fill #D9D9D900, text [Text/Roboto]
+- Group (Components / Wireframe): size 556x173px, text [Roboto Regular, 24px]
+- Menu / Icon (Components / Wireframe): size 151x35px, horizontal layout, padding 7 5 7 5px, gap 5px, align min/center, sizing W:fixed H:fixed, fill #D9D9D900, text [Text/Roboto]
+- Default / Outline: size 168x45px, radius 30px, horizontal layout, padding 12 34 12 32px, gap 28px, align center/center, sizing W:fixed H:fixed, stroke #000000 1px, text [Text/Roboto]
+- Default / Solid: size 151x45px, radius 30px, horizontal layout, padding 12 32 12 32px, gap 28px, align center/center, sizing W:fixed H:fixed, fill SumUp/Space Gray, text [Text/Roboto]
+- Default / Selected: size 1192x182px, text [Header/H4, Text/Roboto]
+- Default (Components / Main): size 1192x64px, text [Header/H4]
+- Input / Text / Default / NoLabel / Selected: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Default / NoLabel / Disabled: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Default / NoLabel /Witten: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Default / NoLabel / Default: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Icon Right / NoLabel / Selected: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Icon Right / NoLabel / Disabled: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Icon Right / NoLabel / Written: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Icon Right / NoLabel / Default: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Icon Left / NoLabel / Disabled: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Icon Left / NoLabel / Selected: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Icon Left / NoLabel / Written: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text / Icon Left / NoLabel / Default: size 367.07x50px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Input / Text /  Default / Label / Selected: size 367.07x75.69px, fill #FFFFFF, text [Text/Roboto, Text 2/Roboto]
+- Input / Text /  Default / Label / Disabled: size 367.07x75.69px, fill #FFFFFF, text [Text/Roboto, Text 2/Roboto]
+- Input / Text /  Default / Label / Written: size 367.07x75.69px, fill #FFFFFF, text [Text/Roboto, Text 2/Roboto]
+- Input / Text /  Default / Label / Default: size 367.07x75.69px, fill #FFFFFF, text [Text/Roboto, Text 2/Roboto]
+- Input / Text /  Icon Right / Label / Disabled: size 367.07x75.69px, text [Text/Roboto, Text 2/Roboto]
+- Input / Text /  Icon Right / Label / Written: size 367.07x75.69px, text [Text/Roboto, Text 2/Roboto]
+- Input / Text /  Icon Right / Label / Default: size 367.07x75.69px, text [Text/Roboto, Text 2/Roboto]
+- Input / Text / Icon Left / Label / Written: size 367.07x75.69px, fill #FFFFFF, text [Text/Roboto, Text 2/Roboto]
+- Input / Text / Icon Left / Label / Disabled: size 367.07x75.69px, fill #FFFFFF, text [Text/Roboto, Text 2/Roboto]
+- Input / Text / Icon Left / Label / Selected: size 367.07x75.69px, fill #FFFFFF, text [Text/Roboto, Text 2/Roboto]
+- Input / Text / Icon Left / Label / Default: size 367.07x75.69px, fill #FFFFFF, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Default / Label / Disabled: size 249x69px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Icon / Label / Selecting: size 249x218px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Default / Label / Selecting: size 249x218px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Default / Label / Selected: size 249x69px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Icon / Label / Selected: size 249x69px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Default / Label / Default: size 249x69px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Icon / Label / Default: size 245x69px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Icon / Label / Disabled: size 249x69px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [Text/Roboto, Text 2/Roboto]
+- Forms / Select / Default / NoLabel / Disabled: size 249x45px, radius 15px, horizontal layout, padding 12 12 12 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Secondary/LightGray 2, stroke Text/SecDefault 1px, text [Text/Roboto]
+- Forms / Select / Icon / NoLabel / Disabled: size 249x45px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Forms / Select / Icon / NoLabel / Selecting: size 249x194px, text [Text/Roboto]
+- Forms / Select / Default / NoLabel / Selecting: size 249x194px, text [Text/Roboto]
+- Forms / Select / Default / NoLabel / Selected: size 249x45px, radius 15px, horizontal layout, padding 12 12 12 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke SumUp/Royal Blue 1px, effect Forms/Selected, text [Text/Roboto]
+- Forms / Select / Icon / NoLabel / Selected: size 249x45px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, effect Forms/Selected, text [Text/Roboto]
+- Forms / Select / Default / NoLabel / Default: size 249x45px, radius 15px, horizontal layout, padding 12 12 12 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke SumUp/Space Gray 1px, text [Text/Roboto]
+- Forms / Select / Icon / NoLabel / Default: size 245x45px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Menu / Dropdown / Hover: size 140.67x35px, horizontal layout, padding 7 5 7 5px, gap 5px, align min/center, sizing W:fixed H:fixed, fill #D9D9D900, text [Text/Roboto SemiBold]
+- Menu / Dropdown (Components / Main): size 139.67x35px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Icon: size 100x100px, effect Neumorphism/default
+- Group / Hover: size 503x45px, text [Text/Roboto]
+- Group (Components / Main): size 503x45px, text [Text/Roboto]
+- Menu / Icon / Hover: size 153x35px, horizontal layout, padding 7 5 7 5px, gap 5px, align min/center, sizing W:fixed H:fixed, fill #D9D9D900, text [Text/Roboto SemiBold]
+- Menu / Icon (Components / Main): size 151x35px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+- Default / Outline / Pressed: size 179x45px, text [Text/Roboto]
+- Default / Solid / Pressed (Components / Main): size 162x45px, radius 30px, horizontal layout, padding 12 32 12 32px, gap 28px, align center/center, sizing W:fixed H:fixed, fill Secondary/Darker Blue, effect Neumorphism/pressed/blue, text [Text/Roboto]
+- Default / Outline / Hover: size 163x45px, radius 30px, horizontal layout, padding 12 34 12 32px, gap 28px, align center/center, sizing W:fixed H:fixed, stroke Secondary/Dark Blue 1px, text [Text/Roboto]
+- Default / Solid / Hover: size 146x45px, radius 30px, horizontal layout, padding 12 32 12 32px, gap 28px, align center/center, sizing W:fixed H:fixed, fill Secondary/Dark Blue, text [Text/Roboto]
+- Default / Outline / Default: size 168x45px, radius 30px, horizontal layout, padding 12 34 12 32px, gap 28px, align center/center, sizing W:fixed H:fixed, stroke SumUp/Royal Blue 1px, text [Text/Roboto]
+- Default / Solid / Default: size 151x45px, radius 30px, horizontal layout, padding 12 32 12 32px, gap 28px, align center/center, sizing W:fixed H:fixed, fill SumUp/Royal Blue, text [Text/Roboto]
+- Default / NoText (Components / Main): size 20x40px, vertical layout, padding 0 0 0 0px, gap 5px, align min/center, sizing W:fixed H:fixed
+- Phone: size 307x32.5px, horizontal layout, padding 0 0 0 0px, gap 253px, align space_between/center, sizing W:fixed H:fixed, text [Text 2/Roboto]
+- Mobile (Components / Main): size 562x48px, horizontal layout, padding 0 0 0 0px, gap 253px, align space_between/center, sizing W:fixed H:fixed, text [Text/Roboto]
+- Default (Components / Main): size 1546.84x47px, horizontal layout, padding 0 0 0 0px, gap 253px, align space_between/center, sizing W:fixed H:fixed, text [Text/Roboto]
+- Tablet: size 768x575px, text [Text/Roboto]
+- Mobile (Components / Main): size 567x430px, text [Text/Roboto]
+- Scroll Bar / Mobile / Pressed: size 8x311px, fill #FFFFFF
+- Scroll Bar / Mobile / Default: size 8x311px, fill #FFFFFF
+- Scroll Bar / Default / Pressed: size 21x311px, fill #FFFFFF
+- Scroll Bar / Default / Default: size 21x311px, fill #FFFFFF
+- Default (Components / Main): size 1056x460px, text [Text/Roboto, Roboto Regular, 24px]
+- Default / Solid / Pressed (Prototype): size 150x45px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Roboto]
+
+## Most-Used Styles
+- Text/Roboto: 2831 uses
+- SumUp/Space Gray: 2231 uses
+- SumUp/Modern Ink: 1259 uses
+- Primary/White: 1020 uses
+- Text/PriDefault: 957 uses
+- SumUp/Royal Blue: 779 uses
+- Primary/Black: 705 uses
+- Header/H2: 181 uses
+- Text 2/Roboto: 162 uses
+- Header/H4: 150 uses
+- Neumorphism/default: 121 uses
+- Header/H5: 112 uses
+- Text/Roboto SemiBold: 110 uses
+- Secondary/LightGray 2: 71 uses
+- Text/SecDefault: 65 uses
+- Forms/Selected: 40 uses
+- Secondary/Dark Blue: 37 uses
+- Secondary/LightGray: 33 uses
+- Secondary/Darker Blue: 29 uses
+- SumUp/Sky Blue: 26 uses
+- 03. On Primary / High Emphasis: 20 uses
+- Neumorphism/pressed/blue: 13 uses
+- H1: 12 uses
+- Secondary/Sand: 12 uses
+- Text/Roboto hyperlink: 12 uses
+- Neumorphism/pressed/default: 8 uses
+- Text 2/Roboto hyperlink: 7 uses
+- Secondary/Orange: 6 uses
+- Secondary/Taxi Yellow: 3 uses
+- Text 3/Roboto: 3 uses
+- Header/H3: 2 uses
+- Neumorphism/pressed/active: 2 uses
+- Text 2/Roboto SemiBold: 1 use
+
+## Layout & Structure
+Screen: Thumbnail / Thumbnail
+- FRAME "Thumbnail", 1440x870px, constraints left/top, fill SumUp/Sky Blue
+  - TEXT "Pix + SumUp", 367x75px, constraints left/top, fill Primary/White, text [Roboto Bold, 64px], [heading]
+  - TEXT "Documentação", 289x145px, constraints left/top, fill Primary/White, text [Roboto Regular, 40px], [heading]
+  - VECTOR "Vector 1", 1219x0px, constraints left/top, fill Primary/White, stroke Primary/White 3px
+  - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 275x85px, constraints left/top, fill image(hash: 278b1b3765e51ee12e9b774ca8d7a633ed078b38)
+
+Screen: References / Refrerências
+- FRAME "Refrerências", 2754x1851px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 8", 1128x628px, constraints left/top, fill image(hash: 773f60fe8388463796cfd89574e0696e55f552d9)
+  - RECTANGLE "image 9", 1134x625px, constraints left/top, fill image(hash: 66ed79c78b2ad9e7ff8af83fcc015d524f1ab792)
+  - RECTANGLE "image 10", 840x628px, constraints left/top, fill image(hash: 6e86d3dfa954b4c4602248a7d26ee22342615261)
+  - RECTANGLE "image 11", 837x628px, constraints left/top, fill image(hash: 4b22cc7861e83439b2af61fb7fb04856a2d82b25)
+  - RECTANGLE "image 13", 1054x449.99px, constraints left/top, fill image(hash: 23b7c452fb292756547c4ba3354ac8b606b23e89)
+  - RECTANGLE "image 14", 1054x172.1px, constraints left/top, fill image(hash: 89cebc775ebf087470d646c45b713079bbb3e02c)
+  - RECTANGLE "image 15", 1134x680.62px, constraints left/top, fill image(hash: 5f2232329c80f299be6d6a4dde2ed91f9e5146d6)
+  - RECTANGLE "image 16", 564x894px, constraints left/top, fill image(hash: a9db281a968e04e2c44253acd8f48799ddc9c7be)
+  - RECTANGLE "image 12", 1054x534px, constraints left/top, fill image(hash: b9c2a3a95531b692ced8722d10d4506f675b919a)
+
+Screen: References / Refrerências - Landing Pages
+- FRAME "Refrerências - Landing Pages", 5384x9980px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "www.leadpages 1", 896x4847px, constraints left/top, fill image(hash: 144e99307957ee8830bde56f915fcaba275f0a18)
+  - RECTANGLE "www.cielo.com 1", 896x3675.1px, constraints left/top, fill image(hash: 1db53ba027b2d9e656cb55b60b3bf8cc9fa55089)
+  - RECTANGLE "miro 1", 896x3341.73px, constraints left/top, fill image(hash: cfd7ab612d1d52de0da1e73cea472f1f9afba8a2)
+  - RECTANGLE "mailchimp.com_pt-br_guesswork__gclid=Cj0KCQiAgOefBhDgARIsAMh", 896x6434.18px, constraints left/top, fill image(hash: dcec52360eecdf3ed676ea3ab034b664d7d6811a)
+  - GROUP "Group 2", 896x7749.38px, constraints left/top [decorative, ~20 shapes]
+  - RECTANGLE "www.samsung 1", 896x7872px, constraints left/top, fill image(hash: e179ce87cd86cc5c4071c466f4ecff3abaff3a1c)
+  - RECTANGLE "www.apple 1", 896x6540px, constraints left/top, fill image(hash: 02dd36289618098e75f94b10645091a1e1564cc1)
+  - GROUP "Group 3", 896x6450.19px, constraints left/top
+    - RECTANGLE "www.huion.com_pt_pen_display_KamvasPro_kamvas-pro-24-4k 1", 896x6006.91px, constraints left/top, fill image(hash: 54b7096cb00c1c07691c269292beb70e03be8ba3)
+    - RECTANGLE "www.huion.com_pt_pen_display_KamvasPro_kamvas-pro-24-4k 2", 896x443.29px, constraints left/top, fill image(hash: e2efd4b7f25a615da8fee442dce422b5bd00911b)
+
+Screen: References / Refrerências - E-mails
+- FRAME "Refrerências - E-mails", 5384x9980px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "screenshot-mail.google", 1073x9980px, constraints left/top, fill image(hash: aa6cac2bf94afeac3278a8834eefc31635babb94)
+  - RECTANGLE "screenshot-mail.google", 1073x2306px, constraints left/top, fill image(hash: 604cf2b38df723c0c002525eb66554cdfabb448d)
+  - RECTANGLE "screenshot-mail.google", 1073x5025px, constraints left/top, fill image(hash: 15dc72b9d229027da9c897ba837c74914427dcab)
+  - RECTANGLE "screenshot-mail.google", 1073x2993.91px, constraints left/top, fill image(hash: 5b2ebc88fa74254c4ec47e0cbec142bfb2b56260)
+  - RECTANGLE "screenshot-mail.google", 1073x4782.66px, constraints left/top, fill image(hash: 6c75b91dbeff4edf75011a72c22abe5656de1360)
+  - RECTANGLE "screenshot-mail.google", 1073x2829.44px, constraints left/top, fill image(hash: 4a487da109a052ee0053cd31b3c059b3f773da3a)
+  - RECTANGLE "screenshot-mail.google", 1073x2752.18px, constraints left/top, fill image(hash: e5062f937d7079e48a99e1016da21988df511655)
+  - RECTANGLE "screenshot-mail.google", 1073x1808.77px, constraints left/top, fill image(hash: ddaf154d56421ffab9db4217621e041864d5fe6f)
+  - RECTANGLE "screenshot-mail.google", 1073x4167.65px, constraints left/top, fill image(hash: bcd371132acc60f7435b0047f2ab8abaf9d2a37a)
+  - RECTANGLE "screenshot-mail.google", 1073x5934.07px, constraints left/top, fill image(hash: 88a16f73b81126c79b98de34f6ef0269bf71aa06)
+  - RECTANGLE "screenshot-mail.google 1", 1073x5610.35px, constraints left/top, fill image(hash: 17414605fb8c15869fd8121b37cd61b046f50120)
+
+Screen: Moodboard / Moodboard - Público Alvo
+- FRAME "Moodboard - Público Alvo", 2590x1851px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 1", 919x517px, constraints left/top, fill image(hash: aaf9b39ec66ad5321e69c7108cb62a535abaaba6)
+  - RECTANGLE "image 2", 1005x517px, constraints left/top, fill image(hash: b942911af0ba240f9cd77068f9ce76cf5c3d0b25)
+  - RECTANGLE "image 3", 690x460px, constraints left/top, fill image(hash: 69876c2d9581b24180ce5baaba4a5220be4106d2)
+  - RECTANGLE "image 4", 619x371px, constraints left/top, fill image(hash: ce6d78046ffdcc9daaf94dca25ffa43fac861cb4)
+  - RECTANGLE "image 5", 786x523px, constraints left/top, fill image(hash: 27580a0f383851380cfc41753ae480e602883571)
+  - RECTANGLE "image 6", 690x434px, constraints left/top, fill image(hash: 96680f1704208fe0460d29fe2191c21ea2e158cd)
+  - RECTANGLE "image 7", 619x443px, constraints left/top, fill image(hash: 7cbc5f013305ecf8cf8ba0967b30e9ae73435e66)
+  - RECTANGLE "image 18", 495x742px, constraints left/top, fill image(hash: c5d23dad8ad5a4a6860f4033879e97ef7332f308)
+  - RECTANGLE "image 19", 524x520px, constraints left/top, fill image(hash: a467786e4848121ca176d8a2615d4cd4ade6f65f)
+  - RECTANGLE "image 20", 698x440px, constraints left/top, fill image(hash: 9832fa6a47d14eccb48a91c836533bed578826c3)
+  - RECTANGLE "image 21", 694x463px, constraints left/top, fill image(hash: 19926d63d68afea7c91719aa775b084e46a01102)
+  - RECTANGLE "image 25", 694x463px, constraints left/top, fill image(hash: 19926d63d68afea7c91719aa775b084e46a01102)
+  - RECTANGLE "image 22", 576x384px, constraints left/top, fill image(hash: 75ba7c0cd3c41552a3df97adf0fdd1c1569888bd)
+  - RECTANGLE "image 23", 682x592px, constraints left/top, fill image(hash: f1db692d96fdff7e4484f8aab2d9a9f3eebf753a)
+  - RECTANGLE "image 24", 358x348px, constraints left/top, fill image(hash: 867c92f3e17c08b3ad242e2e420698c5621f6bfb)
+  - RECTANGLE "image 17", 821x547px, constraints left/top, fill image(hash: acc92151e7350ef21da74b886ba36763bf94232b)
+
+Screen: Moodboard / Moodboard 1 - Aesthetic
+- FRAME "Moodboard 1 - Aesthetic", 2590x1851px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 25", 521x635px, constraints left/top, fill image(hash: fdd81a6e5eb7aa97101d8c364a4c050c91d9bea9)
+  - RECTANGLE "image 26", 518x701px, constraints left/top, fill image(hash: 17bdd6c265218002133b936a5bbb43b2250481aa)
+  - RECTANGLE "image 27", 1036x579px, constraints left/top, fill image(hash: 721138debbbb3724802ada04868ab3199965bc40)
+  - RECTANGLE "image 28", 518x718px, constraints left/top, fill image(hash: 435624ef00bec2d823b89e3442d510c6d225f273)
+  - RECTANGLE "image 32", 515x607px, constraints left/top, fill image(hash: c73081ed1ee3ff88b1899e26fa7e058bc0004189)
+  - RECTANGLE "image 34", 520x504px, constraints left/top, fill image(hash: 8657430209e5ea70e58c3fe92f280c04e1f305a6)
+  - RECTANGLE "image 35", 521x718px, constraints left/top, fill image(hash: 607e81111a50b2d38f782993825de36b139171fd)
+  - RECTANGLE "image 17", 1033x590px, constraints left/top, fill image(hash: acc92151e7350ef21da74b886ba36763bf94232b)
+  - RECTANGLE "image 36", 518x718px, constraints left/top, fill image(hash: e1460f0faefcad444624f5fa018b2d680520c8cd)
+  - RECTANGLE "image 37", 518x543px, constraints left/top, fill image(hash: 441526be33cd6a33a6943e48a9b49497b469348f)
+  - RECTANGLE "image 40", 518x682px, constraints left/top, fill image(hash: c18e0ff854a0b941984e1cea14884f44292308f8)
+  - RECTANGLE "image 41", 512x554px, constraints left/top, fill image(hash: 98878d7de8a5e04e816238188dfa35b52ec0b1cb)
+  - RECTANGLE "image 42", 518x609px, constraints left/top, fill image(hash: 1473e89c6c112a33995e0fce30d7bc0c8795c506)
+
+Screen: Moodboard / Moodboard 2 - Aesthetic
+- FRAME "Moodboard 2 - Aesthetic", 2590x1851px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 29", 1059x685px, constraints left/top, fill image(hash: 510d02d4bd1c66e5425f7c86546a4ed5585d026d)
+  - RECTANGLE "image 30", 518x792px, constraints left/top, fill image(hash: c34d547acd2cdd74650cd85a7f3bccf6f1770461)
+  - RECTANGLE "image 31", 518x717px, constraints left/top, fill image(hash: cf3911de6eeaef668bc3a24728dadfecf5a96dee)
+  - RECTANGLE "image 33", 518x377px, constraints left/top, fill image(hash: 7471cc16f1d7f5a01e424cc142ca9878f6e2facd)
+  - RECTANGLE "image 38", 518x585px, constraints left/top, fill image(hash: 21a9c3d9efacb1bd373567a225acf9dadbe81c5a)
+  - RECTANGLE "image 39", 518x564px, constraints left/top, fill image(hash: a6858389f6346a6fb6e04338cfea7babd5ffeae8)
+  - RECTANGLE "image 43", 518x765px, constraints left/top, fill image(hash: b59633461a3379fa582864c4e1a216f6a38791c1)
+  - RECTANGLE "image 45", 518x637px, constraints left/top, fill image(hash: 3a2c8438339815dbd6e9f0e3c3ad61034c81d9df)
+  - RECTANGLE "image 46", 518x581px, constraints left/top, fill image(hash: c866792c237c62e4d69c02419e43209daa86019b)
+  - RECTANGLE "image 48", 520x565px, constraints left/top, fill image(hash: a6ec001b979406831d1d0fc8af00238471a7cbea)
+  - RECTANGLE "image 49", 518x583px, constraints left/top, fill image(hash: 42faed696d592d039d8203d309f281328cca7f40)
+  - RECTANGLE "image 50", 518x649px, constraints left/top, fill image(hash: 2871533888cdfcdb1589095f0301a3a371ef9e4f)
+  - RECTANGLE "image 51", 516x522px, constraints left/top, fill image(hash: a09515c85fd102a4515f68d466ca8182e5cefb19)
+  - RECTANGLE "image 52", 518x553px, constraints left/top, fill image(hash: 13bcd80b628d57a2c52239880f865c47ea8cac70)
+
+Screen: Styles / Logos
+- FRAME "Logos", 514x467px, constraints left/top, fill #EBEBEB
+  - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 437x174px, constraints left/top, fill image(hash: 146402966a83354c066d1c7164241dd7aaac8de2)
+  - RECTANGLE "image 1", 363x129px, constraints left/top, fill image(hash: cf485be50e388c54cd4c26752f1ab73a6d415d1b)
+
+Screen: Styles / Escala de cores primárias
+- FRAME "Escala de cores primárias", 568x274px, constraints left/top, fill #EBEBEB
+  - RECTANGLE "Rectangle 4", 81x137px, constraints left/top, fill #003C8B
+  - RECTANGLE "Rectangle 6", 81x137px, constraints left/top, fill #1760CE
+  - RECTANGLE "Rectangle 7", 81x137px, constraints left/top, fill #3388FF
+  - RECTANGLE "Rectangle 9", 81x137px, constraints left/top, fill #AFD0FE
+  - RECTANGLE "Rectangle 12", 81x137px, constraints left/top, fill #7FB5FF
+  - RECTANGLE "Rectangle 10", 81x137px, constraints left/top, fill #DAEAFF
+  - RECTANGLE "Rectangle 11", 81x137px, constraints left/top, fill #EDF4FC
+  - RECTANGLE "Rectangle 13", 81x137px, constraints left/top, fill #212933
+  - RECTANGLE "Rectangle 14", 81x137px, constraints left/top, fill #323E49
+  - RECTANGLE "Rectangle 15", 81x137px, constraints left/top, fill #5C656F
+  - RECTANGLE "Rectangle 16", 81x137px, constraints left/top, fill #D8DDE1
+  - RECTANGLE "Rectangle 17", 81x137px, constraints left/top, fill #9DA7B1
+  - RECTANGLE "Rectangle 18", 81x137px, constraints left/top, fill #EEF0F2
+  - RECTANGLE "Rectangle 19", 81x137px, constraints left/top, fill #FAFBFC
+
+Screen: Styles / Headline
+- GROUP "Headline", 1114x118px, constraints left/top
+  - RECTANGLE "Rectangle 3", 1114x118px, constraints left/top, fill #000000
+  - TEXT "Estilos", 132x60px, constraints left/top, fill #FFFFFF, text [Poppins Bold, 40px], [heading]
+
+Screen: Styles / Headline
+- GROUP "Headline", 2920x118px, constraints left/top
+  - RECTANGLE "Rectangle 3", 2920x118px, constraints left/top, fill #000000
+  - TEXT "Apresentação dos Estilos", 1218.85x60px, constraints left/top, fill #FFFFFF, text [Poppins Bold, 40px], [heading]
+
+Screen: Styles / Estilos
+- FRAME "Estilos", 568x566px, constraints left/top, fill #EBEBEB
+  - ELLIPSE "Ellipse 1", 115x115px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 2", 115x115px, constraints left/top, fill SumUp/Sky Blue
+  - ELLIPSE "Ellipse 8", 115x115px, constraints left/top, fill #000000
+  - TEXT "Roboto Bold", 133x28px, constraints left/top, fill Primary/Black, text [Header/H3], [heading]
+  - TEXT "Montserrat Black", 368x49px, constraints left/top, fill Primary/Black, text [Montserrat Black, 40px], [heading]
+  - TEXT "Arial Bold", 76x18px, constraints left/top, fill Primary/Black, text [Arial BoldMT, 16px]
+  - TEXT "Arial Regular", 93x18px, constraints left/top, fill Primary/Black, text [Arial ArialMT, 16px]
+  - TEXT "Roboto Regular", 110x21px, constraints left/top, fill Primary/Black, text [Text/Roboto]
+  - TEXT "Montserrat Italic", 260x39px, constraints left/top, fill Primary/Black, text [Montserrat Regular, 32px], [heading]
+
+Screen: Styles / Cores secundárias
+- FRAME "Cores secundárias", 514x373px, constraints left/top, fill #EBEBEB
+  - ELLIPSE "Ellipse 1", 115x115px, constraints left/top, fill #BFD630
+  - ELLIPSE "Ellipse 2", 115x115px, constraints left/top, fill #F5CC1C
+  - ELLIPSE "Ellipse 8", 115x115px, constraints left/top, fill #F7941C
+  - ELLIPSE "Ellipse 9", 115x115px, constraints left/top, fill #DB4D4D
+  - ELLIPSE "Ellipse 10", 115x115px, constraints left/top, fill #B54DB3
+
+Screen: Styles / Apresentação - Cores Primárias
+- FRAME "Apresentação - Cores Primárias", 1440x1042px, constraints left/top, fill #D9D9D9
+  - TEXT "Cores Primárias", 310x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+  - TEXT "Usamos uma paleta de cores na escala 60 - 30 -10, com o SumU", 289x145px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 1", 134x62px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Branco", 77x31px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+    - TEXT "#FFFFFF", 134x31px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - GROUP "Group 3", 134x62px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Preto", 77x31px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+    - TEXT "#000000", 134x31px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - GROUP "Group 2", 179x62px, constraints left/top, radius 0/0/0/0px
+    - TEXT "SumUp Sky Blue", 179x56px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+    - TEXT "#3388FF", 134x31px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - ELLIPSE "Ellipse 11", 706x706px, constraints left/top, fill Primary/White
+  - ELLIPSE "Ellipse 13", 439x439px, constraints left/top, fill SumUp/Sky Blue
+  - VECTOR "Ellipse 14", 238x237px, constraints left/top, fill Primary/Black
+  - VECTOR "Vector 1", 1219x0px, constraints left/top, stroke #000000 3px
+
+Screen: Styles / Apresentação - Cores Secundárias
+- FRAME "Apresentação - Cores Secundárias", 1440x1042px, constraints left/top, fill #D9D9D9
+  - TEXT "Cores Secundárias", 393x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+  - TEXT "Usamos cinco cores secundárias centrais e devem ser aplicada", 322x145px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 1", 134x62px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Fresh Lime", 120x56px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+    - TEXT "#BFD630", 134x31px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - GROUP "Group 3", 134x62px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Tangerine", 108x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+    - TEXT "#F7941C", 134x31px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - GROUP "Group 2", 146x62px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Honey Yellow", 146x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+    - TEXT "#F5CC1C", 134x31px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - GROUP "Group 4", 134x62px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Coral", 57x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+    - TEXT "#DB4D4D", 134x31px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - GROUP "Group 5", 134x62px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Orchid", 71x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+    - TEXT "#B54DB3", 134x31px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - ELLIPSE "Ellipse 11", 535x535px, constraints left/top, fill #BFD630
+  - ELLIPSE "Ellipse 13", 283x283px, constraints left/top, fill #F7941C
+  - VECTOR "Ellipse 14", 210x208px, constraints left/top, fill #F5CC1C
+  - VECTOR "Ellipse 16", 210x208px, constraints left/top, fill #DB4D4D
+  - VECTOR "Ellipse 17", 210x208px, constraints left/top, fill #B54DB3
+  - VECTOR "Vector 1", 1219x0px, constraints left/top, stroke #000000 3px
+
+Screen: Styles / Apresentação - Tipografia
+- FRAME "Apresentação - Tipografia", 1440x1042px, constraints left/top, fill #000000
+  - TEXT "Conjunto Principal de Fontes", 518x47px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 40px], [heading]
+  - TEXT "Utilizadas como título e subtítulo de páginas web", 292x145px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 24px], [heading]
+  - VECTOR "Vector 1", 1219x0px, constraints left/top, stroke #FFFFFF 3px
+  - TEXT "Roboto Bold", 705x150px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 128px], [heading]
+  - TEXT "Arial Bold", 454x110px, constraints left/top, fill #FFFFFF, text [Arial BoldMT, 96px], [heading]
+  - TEXT "Arial Regular", 556x110px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 96px], [heading]
+  - TEXT "Roboto Regular", 876x150px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 128px], [heading]
+
+Screen: Styles / Apresentação - Escala de Cores Primárias
+- FRAME "Apresentação - Escala de Cores Primárias", 1440x1042px, constraints left/top, fill #D9D9D9
+  - TEXT "Escala de Cores Primárias", 554x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+  - TEXT "A Escala de Cores primárias incluem amostras completas das c", 472x145px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - VECTOR "Vector 1", 1219x0px, constraints left/top, stroke #000000 3px
+  - GROUP "Group 6", 1440x683.66px, constraints left/top [decorative, ~14 shapes]
+
+Screen: Components / Wireframe / Frame 14
+- FRAME "Frame 14", 3430x118px, constraints left/top, fill #000000
+  - GROUP "Headline", 688.63x60px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Componentes - Wireframe", 688.63x60px, constraints left/center, fill #FFFFFF, text [Poppins Bold, 40px], [heading]
+
+Screen: Components / Wireframe / Button
+- FRAME "Button", 622x735px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Button", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - GROUP "Default Button", 556x173px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - COMPONENT "Default / Solid", 151x45px, horizontal pad 12 32 12 32px gap 28px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill SumUp/Space Gray
+      - TEXT "Solid Button", 87x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+    - COMPONENT "Default / Outline", 168x45px, horizontal pad 12 34 12 32px gap 28px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, stroke #000000 1px
+      - TEXT "Outline Button", 102x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+    - TEXT "Default Button", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Button Menu", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Menu Button", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+    - COMPONENT "Menu / Icon", 151x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+      - TEXT "Icon Menu Button", 126x21px, constraints left/top, fill #000000, text [Text/Roboto]
+      - VECTOR "Vector", 10x11px, constraints left/top, fill #000000, stroke #000000 0px
+  - COMPONENT "Group", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints scale/scale, stroke #D9D9D9 1px
+    - TEXT "Button Group", 556x33px, constraints scale/scale, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Menu", 503x45px, constraints scale/scale, radius 0/0/0/0px
+    - FRAME "Default", 168.11x45px, horizontal pad 12 94 12 94px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, stroke SumUp/Space Gray 1px
+      - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+    - FRAME "Default", 167.45x45px, horizontal pad 12 100 12 100px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/center, radius 0/49/49/0px, stroke SumUp/Space Gray 1px
+      - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+    - FRAME "Frame 8", 167.45x45px, horizontal pad 12 88 12 88px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 49/0/0/49px, fill SumUp/Space Gray
+      - TEXT "Selected", 62x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+
+Screen: Components / Wireframe / Select
+- FRAME "Select", 622x639px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Select", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 556x130px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Menu", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 23", 556x224px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Forms", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Menu / Dropdown", 139.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+    - TEXT "Dropdown Menu", 117x21px, constraints left/top, fill #000000, text [Text/Roboto]
+    - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke #000000 2px
+  - COMPONENT "Forms / Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+    - TEXT "Select", 209.33x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+    - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Icon", 249x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+      - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints left/top [decorative, ~6 shapes]
+      - TEXT "Icon Select", 171.93x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Label / Default", 249x74px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Label:", 38x19px, constraints left/top, fill Primary/Black, text [Text 2/Roboto]
+    - FRAME "Forms / Select / Default", 249x50px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+      - TEXT "Select", 209.33x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Label / Icon", 249x74px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Label:", 38x19px, constraints left/top, fill Primary/Black, text [Text 2/Roboto]
+    - FRAME "Select / Default", 249x50px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+      - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints left/top [decorative, ~6 shapes]
+      - TEXT "Icon Select", 171.93x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+
+Screen: Components / Wireframe / Scroll
+- FRAME "Scroll", 622x639px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Scroll", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 556x428px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Scroll bar", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Scroll Bar", 21x311px, constraints left/top
+    - FRAME "Frame 7", 21x311px, horizontal pad 4 4 7 4px gap 8px sizing W:fixed H:fixed, constraints scale/scale, radius 20px, fill #FFFFFF
+      - RECTANGLE "Rectangle 11", 13x142px, constraints left/top, radius 20px, fill #D9D9D9
+
+Screen: Components / Wireframe / Accordion
+- FRAME "Accordion", 1284x353px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 1230x68px, constraints left/top
+    - TEXT "Accordion", 657.03x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 1230x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 1230x130px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Default Accordion", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Default", 1192x64px, horizontal pad 16 16 16 32px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D9
+    - TEXT "Accordion", 1128.33x32px, constraints left/top, fill #000000, text [Header/H4], [heading]
+    - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke #000000 2px
+
+Screen: Components / Wireframe / StepByStep
+- FRAME "StepByStep", 1284x747px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 1230x68px, constraints left/top
+    - TEXT "Step by Step", 657.03x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 1230x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 1230x530px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Default Step by Step", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - FRAME "Passo a Passo", 1056x460px, constraints left/top
+    - FRAME "Passo a Passo", 1056x430.25px, vertical pad 56 32 56 32px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, fill #EBEBEB
+      - GROUP "Content", 1002.5x318px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 8", 487x317px, constraints right/top, fill #D9D9D9
+        - GROUP "Text", 430.81x317px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eti", 430.81x317px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+        - GROUP "Scroll", 21x311px, constraints left/top, radius 20px
+          - FRAME "Frame 7", 21x311px, horizontal pad 4 4 7 4px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF
+            - RECTANGLE "Rectangle 11", 13x142px, constraints left/top, radius 20px, fill #D9D9D9
+    - GROUP "Menu", 757x45px, constraints scale/scale, radius 0/0/0/0px
+      - FRAME "Default", 253x45px, horizontal pad 12 94 12 94px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, stroke SumUp/Space Gray 1px
+        - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+      - FRAME "Default", 252x45px, horizontal pad 12 100 12 100px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/center, radius 0/49/49/0px, stroke SumUp/Space Gray 1px
+        - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+      - FRAME "Frame 8", 252x45px, horizontal pad 12 88 12 88px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 49/0/0/49px, fill SumUp/Space Gray
+        - TEXT "Selected", 62x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+
+Screen: Components / Wireframe / Navigation Bar
+- FRAME "Navigation Bar", 2106x353px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 2051x68px, constraints left/top
+    - TEXT "Navigation Bar", 1095.59x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 2051x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 2051x130px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Default Nav Bar", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Default", 1509x47px, constraints left/top
+    - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 149x47px, constraints scale/scale, fill image(hash: 146402966a83354c066d1c7164241dd7aaac8de2)
+    - INSTANCE "Menu / Dropdown", 161.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #D9D9D900
+      - TEXT "Dropdown Menu", 139x21px, constraints left/top, fill #000000, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke #000000 2px
+    - INSTANCE "Frame 8", 112.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #D9D9D900
+      - TEXT "Dropdown Menu", 90x21px, constraints left/top, fill #000000, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke #000000 2px
+    - INSTANCE "Frame 9", 186.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #D9D9D900
+      - TEXT "Dropdown Menu", 164x21px, constraints left/top, fill #000000, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke #000000 2px
+    - INSTANCE "Frame 10", 107.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #D9D9D900
+      - TEXT "Dropdown Menu", 85x21px, constraints left/top, fill #000000, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke #000000 2px
+    - INSTANCE "Frame 11", 63.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #D9D9D900
+      - TEXT "Dropdown Menu", 41x21px, constraints left/top, fill #000000, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke #000000 2px
+    - INSTANCE "Frame 13", 65x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #D9D9D900
+      - TEXT "Icon Menu Button", 40x21px, constraints left/top, fill #000000, text [Text/Roboto]
+      - VECTOR "Vector", 10x11px, constraints left/top, fill #000000, stroke #000000 0px
+
+Screen: Components / Wireframe / Footer
+- FRAME "Footer", 2106x845px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 2051x68px, constraints left/top
+    - TEXT "Footer", 1095.59x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 2051x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 2051x612px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Default Footer", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Default", 1920x494px, constraints left/top
+    - FRAME "Footer", 1920x315px, vertical pad 48 432 32 432px gap 32px sizing W:fixed H:fixed, constraints scale/scale, fill #F5F5F5
+      - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 126x37px, constraints left/top, fill image(hash: 146402966a83354c066d1c7164241dd7aaac8de2)
+      - FRAME "Frame 3", 1056x166px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 249x166px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Maquininhas", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Venda Online", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Conta digital", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "SumUp Antecipa", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "SumUp Empréstimos", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Indique e Ganhe", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 3", 249x166px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Encontre um Consultor", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Seja um Consultor", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Desenvolvedores", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Blog", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Sobre a SumUp", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Trabalhe com a gente", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 4", 249x108px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Handbook", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Imprensa", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Logística reversa", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Ajuda", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 5", 249x128px, vertical pad 0 14 0 0px gap 38px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Forms / Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+            - TEXT "Select", 209.33x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+            - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+          - INSTANCE "Forms / Select / Icon", 249x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+    - FRAME "Footer 2", 1920x179px, vertical pad 16 432 40 432px gap 32px align center/min sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 3", 960x49px, constraints left/top
+        - FRAME "Frame 3", 960x21px, horizontal pad 0 0 0 0px gap 33px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Transparência", 102x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Privacidade", 84x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Termos e Condições", 147x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "SAC", 31x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Ouvidoria", 68x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Demonstrações Financeiras", 199x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Status de serviços", 131x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 3", 110x16px, horizontal pad 0 0 0 0px gap 31px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - TEXT "SumUp Instituição de Pagamento Brasil Ltda. Todos os direito", 1056x42px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+
+Screen: Components / Wireframe / Stepper
+- FRAME "Stepper", 622x735px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Steppers", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - GROUP "Group 4", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Default Stepper", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 5", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Passed by Stepper", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 6", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Passed by Stepper", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 7", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Active Stepper", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Default / Text", 111x42px, constraints left/top
+    - ELLIPSE "Ellipse 1", 20x20px, constraints scale/scale, stroke SumUp/Space Gray 2px
+    - VECTOR "Line 1", 0x15px, constraints scale/scale, stroke SumUp/Space Gray 2px
+    - TEXT "Step name", 77x21px, constraints scale/scale, fill Text/SecDefault, text [Text/Roboto SemiBold]
+  - COMPONENT "PassedBy / Text", 111x42px, constraints left/top
+    - ELLIPSE "Ellipse 2", 20x20px, constraints scale/scale, stroke Primary/Black 2px
+    - VECTOR "Line 2", 0x15px, constraints scale/scale, stroke Primary/Black 2px
+    - TEXT "Step name", 77x21px, constraints scale/scale, fill Text/SecDefault, text [Text/Roboto SemiBold]
+  - COMPONENT "Default / NoText", 20x40px, constraints left/top
+    - ELLIPSE "Ellipse 3", 20x20px, constraints scale/scale, stroke SumUp/Space Gray 2px
+    - VECTOR "Line 3", 0x15px, constraints scale/scale, stroke SumUp/Space Gray 2px
+  - COMPONENT "PassedBy / NoText", 20x40px, constraints left/top
+    - ELLIPSE "Ellipse 4", 20x20px, constraints scale/scale, stroke Primary/Black 2px
+    - VECTOR "Line 4", 0x15px, constraints scale/scale, stroke Primary/Black 2px
+  - COMPONENT "Active / Text", 111x42px, constraints left/top
+    - ELLIPSE "Ellipse 5", 20x20px, constraints scale/scale, stroke Primary/Black 2px
+    - VECTOR "Line 5", 0x15px, constraints scale/scale, stroke Primary/Black 2px
+    - TEXT "Step name", 77x21px, constraints scale/scale, fill Text/PriDefault, text [Text/Roboto SemiBold]
+    - ELLIPSE "Ellipse 18", 12x12px, constraints scale/scale, fill Primary/Black
+  - COMPONENT "Active / NoText", 20x40px, constraints left/top
+    - ELLIPSE "Ellipse 19", 20x20px, constraints scale/scale, stroke Primary/Black 2px
+    - VECTOR "Line 6", 0x15px, constraints scale/scale, stroke Primary/Black 2px
+    - ELLIPSE "Ellipse 20", 12x12px, constraints scale/scale, fill Primary/Black
+
+Screen: Components / Wireframe / Select
+- FRAME "Select", 622x697px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Inuput", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 556x509px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Text", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Input / Text / Label / Icon Left", 367.07x75.69px, constraints left/top
+    - TEXT "Label:", 38x19px, constraints scale/scale, fill Primary/Black, text [Text 2/Roboto]
+    - FRAME "Forms / Select / Default", 367.07x50px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill Primary/White, stroke SumUp/Space Gray 1px
+      - INSTANCE "Icon / User", 24x25px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 24", 24x24px, constraints left/top, fill #D9D9D900
+        - VECTOR "Icon / User", 18.68x21.5px, constraints scale/scale, fill SumUp/Space Gray
+      - TEXT "Placeholder", 311.07x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+  - COMPONENT "Input / Text /  Label /  Icon Right", 367.07x75.69px, constraints left/top
+    - TEXT "Label:", 38x19px, constraints scale/scale, fill Primary/Black, text [Text 2/Roboto]
+    - FRAME "Forms / Select / Default", 367.07x50px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill Primary/White, stroke SumUp/Space Gray 1px
+      - TEXT "Placeholder", 311.07x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+      - INSTANCE "Icon / Eye", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.57x16.55px, constraints scale/scale, fill SumUp/Space Gray
+        - VECTOR "Vector", 7.16x7.16px, constraints scale/scale, stroke Primary/White 1.5px
+  - COMPONENT "Input / Text /  Label /  Default", 367.07x75.69px, constraints left/top
+    - TEXT "Label:", 38x19px, constraints scale/scale, fill Primary/Black, text [Text 2/Roboto]
+    - FRAME "Forms / Select / Default", 367.07x50px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill Primary/White, stroke SumUp/Space Gray 1px
+      - TEXT "Placeholder", 343.07x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+  - COMPONENT "Input / Text / NoLabel / Icon Left", 367.07x50px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill Primary/White, stroke SumUp/Space Gray 1px
+    - INSTANCE "Icon / User", 24x25px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 24", 24x24px, constraints left/top, fill #D9D9D900
+      - VECTOR "Icon / User", 18.68x21.5px, constraints scale/scale, fill SumUp/Space Gray
+    - TEXT "Placeholder", 311.07x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+  - COMPONENT "Input / Text /  Label /  Icon Right", 367.07x50px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill Primary/White, stroke SumUp/Space Gray 1px
+    - TEXT "Placeholder", 311.07x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+    - INSTANCE "Icon / Eye", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.57x16.55px, constraints scale/scale, fill SumUp/Space Gray
+      - VECTOR "Vector", 7.16x7.16px, constraints scale/scale, stroke Primary/White 1.5px
+  - COMPONENT "Input / Text /  Label /  Default", 367.07x50px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill Primary/White, stroke SumUp/Space Gray 1px
+    - TEXT "Placeholder", 343.07x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+
+Screen: Components / Wireframe / Select
+- FRAME "Select", 622x537px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Hiperlink", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 556x99px, constraints left/top, stroke #D9D9D9 1px
+  - COMPONENT "Hiperlink / Footer / Default", 117x21px, constraints left/top, fill #FFFFFF
+    - TEXT "Hiperlink default", 117x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+  - COMPONENT "Hiperlink / Footer / Hover", 107x21px, constraints left/top, fill #FFFFFF
+    - TEXT "Hiperlink / Footer / Hover", 107x21px, constraints scale/scale, fill SumUp/Modern Ink, text [Text/Roboto hyperlink]
+  - COMPONENT "Hiperlink / Default / Default", 117x21px, constraints left/top, fill #FFFFFF
+    - TEXT "Hiperlink / Default / Default", 117x21px, constraints scale/scale, fill SumUp/Modern Ink, text [Text/Roboto hyperlink]
+  - COMPONENT "Hiperlink / Default / Hover", 107x21px, constraints left/top, fill #FFFFFF
+    - TEXT "Hiperlink / Default / Hover", 107x21px, constraints scale/scale, fill Primary/Black, text [Text/Roboto hyperlink]
+  - TEXT "Footer", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 23", 556x99px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Default", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+
+Screen: Components / Wireframe / Select
+- FRAME "Select", 622x537px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Icons", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 556x368px, constraints left/top, stroke #D9D9D9 1px
+  - COMPONENT "Icon / User", 24x25px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 24", 24x24px, constraints left/top, fill #D9D9D900
+    - VECTOR "Icon / User", 18.68x21.5px, constraints scale/scale, fill SumUp/Space Gray
+  - COMPONENT "Icon / Eye", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 19.57x16.55px, constraints scale/scale, fill SumUp/Space Gray
+    - VECTOR "Vector", 7.16x7.16px, constraints scale/scale, stroke Primary/White 1.5px
+  - COMPONENT "Icon / Search", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 20x20px, constraints scale/scale, stroke SumUp/Space Gray 1.5px
+
+Screen: Components / Wireframe / Select
+- FRAME "Select", 622x537px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x61px, constraints left/top
+    - TEXT "Selection Controls", 331x47px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 556x99px, constraints left/top, stroke #D9D9D9 1px
+  - INSTANCE "Hiperlink / Default / Default", 117x21px, constraints left/top, fill #FFFFFF
+    - TEXT "Hiperlink / Default / Default", 117x21px, constraints scale/scale, fill SumUp/Modern Ink, text [Text/Roboto hyperlink]
+  - INSTANCE "Hiperlink / Default / Hover", 107x21px, constraints left/top, fill #FFFFFF
+    - TEXT "Hiperlink / Default / Hover", 107x21px, constraints scale/scale, fill Primary/Black, text [Text/Roboto hyperlink]
+  - RECTANGLE "Rectangle 23", 556x99px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Default", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Selection Controls / Check box / Deselected / Disabled", 24x24px, constraints scale/scale
+    - BOOLEAN_OPERATION "📍Icon", 18x18px, constraints scale/scale, fill #000000
+    - BOOLEAN_OPERATION "📍Icon", 18x18px, constraints scale/scale, fill 03. On Primary / High Emphasis
+    - RECTANGLE "🎨 Color", 24x24px, constraints scale/scale, fill Text/SecDefault, stroke #979797 0px
+  - COMPONENT "Selection Controls / Check box / Deselected / Enabled", 24x24px, constraints scale/scale
+    - BOOLEAN_OPERATION "📍Icon", 18x18px, constraints scale/scale, fill #000000
+    - GROUP "Object", 18x18px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - TEXT "Check Box", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Selection Controls / Check box / Selected / Disabled", 24x24px, constraints scale/scale
+    - BOOLEAN_OPERATION "📍Icon", 18x18px, constraints scale/scale, fill #000000
+    - BOOLEAN_OPERATION "📍Icon", 18x18px, constraints scale/scale, fill 03. On Primary / High Emphasis
+    - RECTANGLE "🎨 Color", 24x24px, constraints scale/scale, fill #5C656F8C, stroke #979797 0px
+  - COMPONENT "Selection Controls / Check box / Selected / Enabled", 24x24px, constraints scale/scale
+    - BOOLEAN_OPERATION "📍Icon", 18x18px, constraints scale/scale, fill #000000
+    - GROUP "Object", 18x18px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+
+Screen: Components / Main / StepByStep
+- FRAME "StepByStep", 1284x747px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 1230x68px, constraints left/top
+    - TEXT "Step by Step", 657.03x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 1230x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 1230x530px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Default Step by Step", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Default", 1056x460px, constraints left/top
+    - FRAME "Passo a Passo", 1056x430.25px, vertical pad 56 32 56 32px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, fill #EBEBEB
+      - GROUP "Content", 1002.25x318px, constraints left/top
+        - RECTANGLE "Rectangle 8", 487x317px, constraints right/top, fill #D9D9D9
+        - GROUP "Text", 430.81x317px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eti", 430.81x317px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+        - INSTANCE "Scroll Bar / Default / Default", 21x311px, constraints left/top, fill #FFFFFF
+          - FRAME "Scroll Bar", 21x311px, constraints scale/scale
+            - FRAME "Frame 7", 21x311px, horizontal pad 4 4 7 4px gap 8px sizing W:fixed H:fixed, constraints scale/scale, radius 20px, fill #FFFFFF, effect Neumorphism/default
+    - INSTANCE "Group", 755x45px, constraints scale/scale
+      - FRAME "Default", 252.33x45px, horizontal pad 12 94 12 94px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, stroke SumUp/Modern Ink 1px
+        - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+      - FRAME "Default", 251.33x45px, horizontal pad 12 100 12 100px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 0/49/49/0px, stroke SumUp/Modern Ink 1px
+        - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+      - FRAME "Frame 8", 251.33x45px, horizontal pad 12 88 12 88px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 49/0/0/49px, fill SumUp/Royal Blue
+        - TEXT "Selected", 62x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+
+Screen: Components / Main / Scroll
+- FRAME "Scroll", 622x2062px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Scroll", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 556x433px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Scroll bar", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Scroll Bar / Default / Default", 21x311px, constraints left/top, fill #FFFFFF
+    - FRAME "Scroll Bar", 21x311px, constraints scale/scale
+      - FRAME "Frame 7", 21x311px, horizontal pad 4 4 7 4px gap 8px sizing W:fixed H:fixed, constraints scale/scale, radius 20px, fill #FFFFFF, effect Neumorphism/default
+        - RECTANGLE "Rectangle 11", 13x142px, constraints left/top, radius 20px, fill #D9D9D9, effect Neumorphism/default
+  - COMPONENT "Scroll Bar / Default / Pressed", 21x311px, constraints left/top, fill #FFFFFF
+    - FRAME "Scroll Bar / Pressed", 21x311px, constraints scale/scale, fill #FFFFFF
+      - FRAME "Scroll Bar", 21x311px, constraints scale/scale
+        - FRAME "Frame 7", 21x311px, horizontal pad 4 4 7 4px gap 8px sizing W:fixed H:fixed, constraints scale/scale, radius 20px, fill #FFFFFF, effect Neumorphism/default
+          - RECTANGLE "Rectangle 11", 13x142px, constraints left/top, radius 20px, fill #D9D9D9, effect Neumorphism/default
+  - TEXT "Default", 68x22px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+  - TEXT "Pressed", 68x22px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+  - RECTANGLE "Rectangle 23", 556x433px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Scroll bar Mobile", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Scroll Bar / Mobile / Default", 8x311px, constraints left/top, fill #FFFFFF
+    - FRAME "Scroll Bar", 3.05x311px, constraints scale/scale
+      - FRAME "Frame 7", 8x311px, horizontal pad 2 2 7 2px gap 8px sizing W:fixed H:fixed, constraints scale/scale, radius 20px, fill #FFFFFF, effect Neumorphism/default
+        - RECTANGLE "Rectangle 11", 4x142px, constraints left/top, radius 20px, fill #D9D9D9, effect Neumorphism/default
+  - COMPONENT "Scroll Bar / Mobile / Pressed", 8x311px, constraints left/top, fill #FFFFFF
+    - FRAME "Scroll Bar / Pressed", 8x311px, constraints scale/scale, fill #FFFFFF
+      - FRAME "Scroll Bar", 8x311px, constraints scale/scale
+        - FRAME "Frame 7", 8x311px, horizontal pad 2 2 7 2px gap 8px sizing W:fixed H:fixed, constraints scale/scale, radius 20px, fill #FFFFFF, effect Neumorphism/default
+          - RECTANGLE "Rectangle 11", 4x142px, constraints left/top, radius 20px, fill SumUp/Space Gray, effect Neumorphism/default
+  - TEXT "Default", 68x22px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+  - TEXT "Pressed", 68x22px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+
+Screen: Components / Main / Footer
+- FRAME "Footer", 2106x1623px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 2051x68px, constraints left/top
+    - TEXT "Footer", 1095.59x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 2051x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 2051x612px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Default Footer", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Default", 1920x494px, constraints scale/scale
+    - FRAME "Footer", 1920x315px, vertical pad 48 432 32 432px gap 32px sizing W:fixed H:fixed, constraints scale/scale, fill #F5F5F5
+      - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 126x37px, constraints left/top, fill image(hash: 146402966a83354c066d1c7164241dd7aaac8de2)
+      - FRAME "Frame 3", 1056x166px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 249x166px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Maquininhas", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Venda Online", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Conta digital", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "SumUp Antecipa", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "SumUp Empréstimos", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Indique e Ganhe", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 3", 249x166px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Encontre um Consultor", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Seja um Consultor", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Desenvolvedores", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Blog", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Sobre a SumUp", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Trabalhe com a gente", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 4", 249x108px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Handbook", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Imprensa", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Logística reversa", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Ajuda", 249x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 5", 249x128px, vertical pad 0 14 0 0px gap 38px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Forms / Select / Default", 249x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Forms / Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+          - INSTANCE "Forms / Select / Icon / NoLabel / Default", 245x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Select / Default", 245x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+    - FRAME "Footer 2", 1920x179px, vertical pad 16 432 40 432px gap 32px align center/min sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 3", 960x49px, constraints left/top
+        - FRAME "Frame 3", 960x21px, horizontal pad 0 0 0 0px gap 33px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Transparência", 102x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Privacidade", 84x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Termos e Condições", 147x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "SAC", 31x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Ouvidoria", 68x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Demonstrações Financeiras", 199x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Status de serviços", 131x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 3", 110x16px, horizontal pad 0 0 0 0px gap 31px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - TEXT "SumUp Instituição de Pagamento Brasil Ltda. Todos os direito", 1056x42px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+  - RECTANGLE "Rectangle 23", 2051x681px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Mobile Footer", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Mobile", 567x430px, constraints center/top
+    - FRAME "Footer", 567x226px, vertical pad 48 12 32 12px gap 32px align center/min sizing W:fixed H:fixed, constraints scale/scale, fill #F5F5F5
+      - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 126x37px, constraints left/top, fill image(hash: 146402966a83354c066d1c7164241dd7aaac8de2)
+      - VECTOR "Line 2", 543x0px, constraints left/top, stroke SumUp/Modern Ink 1px
+      - FRAME "Frame 3", 543x45px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 5", 543x45px, vertical pad 0 0 0 0px gap 38px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Forms / Select / Icon / NoLabel / Default", 141.07x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Select / Default", 543x45px, horizontal pad 12 12 12 12px gap 433.93px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Modern Ink 1px
+    - FRAME "Footer 2", 567x204px, vertical pad 32 12 40 12px gap 32px align min/center sizing W:fixed H:fixed, constraints scale/center, fill #FFFFFF
+      - FRAME "Frame 3", 110x16px, horizontal pad 0 0 0 0px gap 31px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - TEXT "SumUp Instituição de Pagamento Brasil Ltda. Todos os direito", 477x84px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+  - COMPONENT "Tablet", 768x575px, constraints center/top
+    - FRAME "Footer", 768x315px, vertical pad 48 48 32 48px gap 32px align center/min sizing W:fixed H:fixed, constraints scale/scale, fill #F5F5F5
+      - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 126x37px, constraints left/top, fill image(hash: 146402966a83354c066d1c7164241dd7aaac8de2)
+      - FRAME "Frame 3", 675.67x166px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 151x166px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Maquininhas", 92x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Venda Online", 94x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Conta digital", 90x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "SumUp Antecipa", 119x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "SumUp Empréstimos", 151x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Indique e Ganhe", 115x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 3", 164x166px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Encontre um Consultor", 164x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Seja um Consultor", 131x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Desenvolvedores", 122x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Blog", 32x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Sobre a SumUp", 110x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Trabalhe com a gente", 154x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 4", 122x108px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Handbook", 74x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Imprensa", 67x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Logística reversa", 122x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Ajuda", 41x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 5", 142.67x128px, vertical pad 0 0 0 0px gap 38px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Forms / Select / Default", 142.67x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Forms / Select / Default", 142.67x45px, horizontal pad 12 12 12 12px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+          - INSTANCE "Forms / Select / Icon / NoLabel / Default", 141.07x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Select / Default", 141.07x45px, horizontal pad 12 12 12 12px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+    - FRAME "Footer 2", 768x259.95px, vertical pad 16 48 40 48px gap 32px align min/center sizing W:fixed H:fixed, constraints scale/center, fill #FFFFFF
+      - GROUP "Group 3", 462x60.95px, constraints left/top
+        - FRAME "Frame 3", 460x21px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Transparência", 102x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Privacidade", 84x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Termos e Condições", 147x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "SAC", 31x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - FRAME "Frame 20", 462x21px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ouvidoria", 68x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Demonstrações Financeiras", 199x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - TEXT "Status de serviços", 131x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+      - FRAME "Frame 3", 110x16px, horizontal pad 0 0 0 0px gap 31px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - TEXT "SumUp Instituição de Pagamento Brasil Ltda. Todos os direito", 672x63px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+
+Screen: Components / Main / Navigation Bar
+- FRAME "Navigation Bar", 2106x506px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 2051x68px, constraints left/top
+    - TEXT "Navigation Bar", 1095.59x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 2051x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 2051x130px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Default Nav Bar", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 23", 2051x130px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Mobile Nav Bar", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Default", 1546.84x47px, horizontal pad 0 0 0 0px gap 253px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 152.75x47px, constraints left/top, fill image(hash: 146402966a83354c066d1c7164241dd7aaac8de2)
+    - GROUP "Group 10", 777.09x35px, constraints left/top
+      - INSTANCE "Menu / Dropdown / Aceite pagamentos", 165.05x35px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - FRAME "Menu / Dropdown", 161.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+          - TEXT "Dropdown Menu", 139x21px, constraints left/top, fill Text/PriDefault, text [Text/Roboto]
+          - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke Text/PriDefault 2px
+      - INSTANCE "Menu / Dropdown / Conta Digital", 116.87x35px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - FRAME "Menu / Dropdown", 112.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+          - TEXT "Dropdown Menu", 90x21px, constraints left/top, fill Text/PriDefault, text [Text/Roboto]
+          - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke Text/PriDefault 2px
+      - INSTANCE "Menu / Dropdown / Cresça com segurança", 191.71x35px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - FRAME "Menu / Dropdown", 186.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+          - TEXT "Dropdown Menu", 164x21px, constraints left/top, fill Text/PriDefault, text [Text/Roboto]
+          - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke Text/PriDefault 2px
+      - INSTANCE "Menu / Dropdown / Renda extra", 115.85x35px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - FRAME "Menu / Dropdown", 107.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+          - TEXT "Dropdown Menu", 85x21px, constraints left/top, fill Text/PriDefault, text [Text/Roboto]
+          - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke Text/PriDefault 2px
+      - INSTANCE "Menu / Dropdown / Ajuda", 65.61x35px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Menu / Dropdown", 63.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+          - TEXT "Dropdown Menu", 41x21px, constraints left/top, fill Text/PriDefault, text [Text/Roboto]
+          - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke Text/PriDefault 2px
+    - INSTANCE "Menu / Icon / Login", 111x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+      - TEXT "Icon Menu Button", 40x21px, constraints left/top, fill Text/PriDefault, text [Text/Roboto]
+      - VECTOR "Vector", 10x11px, constraints left/top, fill Text/PriDefault, stroke Text/PriDefault 0px
+  - COMPONENT "Mobile", 562x48px, horizontal pad 0 0 0 0px gap 253px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 11", 232.75x48px, constraints left/top
+      - FRAME "Iconsax/Linear/hambergermenu", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 36x29.79px, constraints scale/scale, stroke SumUp/Modern Ink 4px
+      - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 152.75x47px, constraints left/top, fill image(hash: 146402966a83354c066d1c7164241dd7aaac8de2)
+    - FRAME "Default / Solid", 133x45px, horizontal pad 12 32 12 32px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill SumUp/Royal Blue
+      - TEXT "Solid Button", 40x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+      - VECTOR "Vector", 14x15px, constraints left/top, fill Primary/White, stroke Primary/White 0px
+  - COMPONENT "Phone", 307x32.5px, horizontal pad 0 0 0 0px gap 253px align space_between/center sizing W:fixed H:fixed, constraints center/top
+    - GROUP "Group 11", 98.13x32.5px, constraints left/top
+      - FRAME "Iconsax/Linear/hambergermenu", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x19.86px, constraints scale/scale, stroke SumUp/Modern Ink 4px
+      - RECTANGLE "SumUp_logo_ModernInk_RGB-FullLogo_web_250width 1", 38.13x32px, constraints left/top, fill image(hash: 146402966a83354c066d1c7164241dd7aaac8de2)
+    - FRAME "Default / Solid", 100x32px, horizontal pad 12 32 12 32px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill SumUp/Royal Blue
+      - TEXT "Login", 35x19px, constraints left/top, fill #FFFFFF, text [Text 2/Roboto]
+      - VECTOR "Vector", 12.13x13px, constraints left/top, fill Primary/White, stroke Primary/White 0px
+
+Screen: Components / Main / Stepper
+- FRAME "Stepper", 622x2062px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Steppers", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - GROUP "Group 4", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Default Stepper", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 5", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Passed by Stepper", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 6", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Passed by Stepper", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 7", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Active Stepper", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Default / Text", 111x42px, constraints left/top
+    - ELLIPSE "Ellipse 1", 20x20px, constraints scale/scale, stroke SumUp/Space Gray 2px
+    - VECTOR "Line 1", 0x15px, constraints scale/scale, stroke SumUp/Space Gray 2px
+    - TEXT "Step name", 77x21px, constraints scale/scale, fill Text/SecDefault, text [Text/Roboto SemiBold]
+  - COMPONENT "PassedBy / Text", 111x42px, constraints left/top
+    - ELLIPSE "Ellipse 2", 20x20px, constraints scale/scale, stroke SumUp/Royal Blue 2px
+    - VECTOR "Line 2", 0x15px, constraints scale/scale, stroke SumUp/Royal Blue 2px
+    - TEXT "Step name", 77x21px, constraints scale/scale, fill Text/SecDefault, text [Text/Roboto SemiBold]
+  - COMPONENT "Default / NoText", 20x40px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - ELLIPSE "Ellipse 3", 20x20px, constraints left/top, stroke SumUp/Space Gray 2px
+    - VECTOR "Line 3", 0x15px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "PassedBy / NoText", 20x40px, constraints left/top
+    - ELLIPSE "Ellipse 4", 20x20px, constraints scale/scale, stroke SumUp/Royal Blue 2px
+    - VECTOR "Line 4", 0x15px, constraints scale/scale, stroke SumUp/Royal Blue 2px
+  - COMPONENT "Active / Text", 111x42px, constraints left/top
+    - ELLIPSE "Ellipse 5", 20x20px, constraints scale/scale, stroke SumUp/Royal Blue 2px
+    - VECTOR "Line 5", 0x15px, constraints scale/scale, stroke SumUp/Royal Blue 2px
+    - TEXT "Step name", 77x21px, constraints scale/scale, fill Text/PriDefault, text [Text/Roboto SemiBold]
+    - ELLIPSE "Ellipse 18", 12x12px, constraints scale/scale, fill SumUp/Royal Blue
+  - COMPONENT "Active / NoText", 20x40px, constraints left/top
+    - ELLIPSE "Ellipse 19", 20x20px, constraints scale/scale, stroke SumUp/Royal Blue 2px
+    - VECTOR "Line 6", 0x15px, constraints scale/scale, stroke SumUp/Royal Blue 2px
+    - ELLIPSE "Ellipse 20", 12x12px, constraints scale/scale, fill SumUp/Royal Blue
+
+Screen: Components / Main / Button
+- FRAME "Button", 622x2062px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Button", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - GROUP "Default Button", 556x328px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 22", 556x285px, constraints left/top, stroke #D9D9D9 1px
+    - COMPONENT "Default / Solid / Default", 151x45px, horizontal pad 12 32 12 32px gap 28px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill SumUp/Royal Blue
+      - TEXT "Solid Button", 87x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+    - COMPONENT "Default / Outline / Default", 168x45px, horizontal pad 12 34 12 32px gap 28px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, stroke SumUp/Royal Blue 1px
+      - TEXT "Outline Button", 102x21px, constraints left/top, fill SumUp/Royal Blue, text [Text/Roboto]
+    - COMPONENT "Default / Solid / Hover", 146x45px, horizontal pad 12 32 12 32px gap 28px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill Secondary/Dark Blue
+      - TEXT "Solid Button", 82x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+    - COMPONENT "Default / Outline / Hover", 163x45px, horizontal pad 12 34 12 32px gap 28px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, stroke Secondary/Dark Blue 1px
+      - TEXT "Outline Button", 97x21px, constraints left/top, fill Secondary/Dark Blue, text [Text/Roboto]
+    - COMPONENT "Default / Solid / Pressed", 162x45px, horizontal pad 12 32 12 32px gap 28px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill Secondary/Darker Blue, effect Neumorphism/pressed/blue
+      - TEXT "Solid Button", 98x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+    - COMPONENT "Default / Outline / Pressed", 179x45px, constraints left/top
+      - VECTOR "Rectangle 26", 179x45px, constraints scale/scale, radius 30px, fill Secondary/LightGray, effect Neumorphism/pressed/active
+      - FRAME "Default / Outline", 179x45px, horizontal pad 12 34 12 32px gap 28px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 30px, stroke Secondary/Darker Blue 1px
+        - TEXT "Outline Pressed", 113x21px, constraints left/top, fill Secondary/Darker Blue, text [Text/Roboto]
+    - TEXT "Default Button", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Button Menu", 556x173px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x130px, constraints left/top, stroke #D9D9D9 1px
+    - TEXT "Menu Button", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+    - COMPONENT "Menu / Icon", 151x35px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "Menu / Icon", 151x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+        - TEXT "Icon Menu Button", 126x21px, constraints left/top, fill Text/PriDefault, text [Text/Roboto]
+        - VECTOR "Vector", 10x11px, constraints left/top, fill Text/PriDefault, stroke Text/PriDefault 0px
+  - COMPONENT "Menu / Icon / Hover", 153x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+    - TEXT "Icon Menu Button", 128x21px, constraints left/top, fill SumUp/Royal Blue, text [Text/Roboto SemiBold]
+    - VECTOR "Vector", 10x11px, constraints left/top, fill SumUp/Royal Blue, stroke SumUp/Royal Blue 0px
+  - FRAME "Group", 556x305px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x262px, constraints scale/scale, stroke #D9D9D9 1px
+    - TEXT "Button Group", 556x33px, constraints scale/scale, fill #000000, text [Roboto Regular, 24px], [heading]
+    - COMPONENT "Group", 503x45px, constraints scale/scale
+      - FRAME "Default", 168.11x45px, horizontal pad 12 94 12 94px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, stroke SumUp/Modern Ink 1px
+        - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+      - FRAME "Default", 167.45x45px, horizontal pad 12 100 12 100px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 0/49/49/0px, stroke SumUp/Modern Ink 1px
+        - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+      - FRAME "Frame 8", 167.45x45px, horizontal pad 12 88 12 88px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 49/0/0/49px, fill SumUp/Royal Blue
+        - TEXT "Selected", 62x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+    - COMPONENT "Group / Hover", 503x45px, constraints scale/scale
+      - FRAME "Default", 168.11x45px, horizontal pad 12 94 12 94px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, stroke SumUp/Modern Ink 1px
+        - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+      - FRAME "Default", 167.45x45px, horizontal pad 12 100 12 100px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 0/49/49/0px, stroke SumUp/Modern Ink 1px
+        - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+      - FRAME "Frame 8", 167.45x45px, horizontal pad 12 88 12 88px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 49/0/0/49px, fill Secondary/Dark Blue
+        - TEXT "Selected", 42x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+    - COMPONENT "Group / Hover", 503x45px, constraints scale/scale
+      - FRAME "Default", 168.11x45px, horizontal pad 12 94 12 94px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, stroke Secondary/Dark Blue 1px
+        - TEXT "Default", 42x21px, constraints left/top, fill Secondary/Dark Blue, text [Text/Roboto]
+      - FRAME "Default", 167.45x45px, horizontal pad 12 100 12 100px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 0/49/49/0px, stroke SumUp/Modern Ink 1px
+        - TEXT "Default", 52x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+      - FRAME "Frame 8", 167.45x45px, horizontal pad 12 88 12 88px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 49/0/0/49px, fill SumUp/Royal Blue
+        - TEXT "Selected", 62x21px, constraints left/top, fill #FFFFFF, text [Text/Roboto]
+  - FRAME "Group", 556x229px, constraints left/top
+    - RECTANGLE "Rectangle 23", 556x186px, constraints scale/scale, stroke #D9D9D9 1px
+    - TEXT "Button Icon", 556x33px, constraints scale/scale, fill #000000, text [Roboto Regular, 24px], [heading]
+    - COMPONENT "Icon", 100x100px, constraints scale/scale, effect Neumorphism/default
+      - ELLIPSE "Ellipse 21", 100x100px, constraints scale/scale, fill SumUp/Royal Blue
+      - GROUP "Group", 48x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+    - INSTANCE "Icon", 100x100px, constraints scale/scale, effect Neumorphism/pressed/blue
+      - ELLIPSE "Ellipse 21", 100x100px, constraints scale/scale, fill Secondary/Darker Blue
+      - GROUP "Group", 48x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+    - INSTANCE "Icon", 100x100px, constraints scale/scale, effect Neumorphism/default
+      - ELLIPSE "Ellipse 21", 100x100px, constraints scale/scale, fill Secondary/Dark Blue
+      - GROUP "Group", 48x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+
+Screen: Components / Main / Headline
+- FRAME "Headline", 6078x118px, constraints left/top, fill #000000
+  - GROUP "Headline", 688.63x60px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Componentes - Atomic Design", 688.63x60px, constraints left/center, fill #FFFFFF, text [Poppins Bold, 40px], [heading]
+
+Screen: Components / Main / Select
+- FRAME "Select", 622x2062px, constraints left/top, fill #F0F0F3
+  - GROUP "Headline", 556x68px, constraints left/top
+    - TEXT "Select", 297x54px, constraints left/top, fill #000000, text [Roboto Bold, 40px], [heading]
+    - VECTOR "Vector 1", 556x0px, constraints left/top, stroke #000000 3px
+  - RECTANGLE "Rectangle 22", 556x130px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Menu", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 23", 556x980px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "List 5", 556x33px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - COMPONENT "Menu / Dropdown", 139.67x35px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Menu / Dropdown", 139.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+      - TEXT "Dropdown Menu", 117x21px, constraints left/top, fill Text/PriDefault, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke Text/PriDefault 2px
+  - COMPONENT "Menu / Dropdown / Hover", 140.67x35px, horizontal pad 7 5 7 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+    - TEXT "Dropdown Menu", 118x21px, constraints left/top, fill SumUp/Royal Blue, text [Text/Roboto SemiBold]
+    - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Royal Blue 2px
+  - COMPONENT "Forms / Select / Icon / NoLabel / Default", 245x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Select / Default", 245x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+      - GROUP "Group 12", 205.33x21px, constraints left/top
+        - TEXT "Icon Select", 167.93x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints left/top [decorative, ~6 shapes]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Default / NoLabel / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+    - TEXT "Select", 205x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+    - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Icon / NoLabel / Selected", 249x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect Forms/Selected
+    - FRAME "Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Royal Blue 1px
+      - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints left/top [decorative, ~6 shapes]
+      - TEXT "Icon Selected", 170x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Default / NoLabel / Selected", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Royal Blue 1px, effect Forms/Selected
+    - TEXT "Selected", 205x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+    - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Default / NoLabel / Selecting", 249x194px, constraints left/top
+    - FRAME "Forms / Select / Default / Selected", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #FFFFFF, stroke SumUp/Royal Blue 1px, effect Forms/Selected
+      - TEXT "Selected", 205x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+    - GROUP "Group 8", 249x144px, constraints scale/scale, radius 0/0/0/0px, effect Neumorphism/default
+      - GROUP "List 1", 249x36px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 1", 249x36px, constraints scale/scale, radius 10/10/0/0px, fill Primary/White
+        - TEXT "List 1", 205x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+      - GROUP "List 2", 249x36px, constraints scale/scale
+        - RECTANGLE "Rectangle 24", 249x36px, constraints scale/scale, fill Primary/White
+        - TEXT "List 2", 205x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+      - GROUP "List 3", 249x36px, constraints scale/scale
+        - RECTANGLE "Rectangle 25", 249x36px, constraints scale/scale, fill Primary/White
+        - TEXT "List 3", 205x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+      - GROUP "List 4", 249x36px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 2", 249x36px, constraints scale/scale, radius 0/0/10/10px, fill Primary/White
+        - TEXT "List 4", 205x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+  - COMPONENT "Forms / Select / Icon / NoLabel / Selecting", 249x194px, constraints left/top
+    - FRAME "Forms / Select / Icon", 249x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+      - FRAME "Forms / Select / Icon / NoLabel / Selected", 249x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect Forms/Selected
+        - FRAME "Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Royal Blue 1px
+          - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints left/top [decorative, ~6 shapes]
+          - TEXT "Icon Selecting", 170x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+          - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+    - GROUP "Group 9", 249x144px, constraints scale/scale, radius 0/0/0/0px, effect Neumorphism/default
+      - GROUP "List 1", 249x36px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 1", 249x36px, constraints scale/scale, radius 10/10/0/0px, fill Primary/White
+        - TEXT "List 1", 168x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+      - GROUP "List 2", 249x36px, constraints scale/scale
+        - RECTANGLE "Rectangle 24", 249x36px, constraints scale/scale, fill Primary/White
+        - TEXT "List 2", 168x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+        - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints scale/scale [decorative, ~6 shapes]
+      - GROUP "List 3", 249x36px, constraints scale/scale
+        - RECTANGLE "Rectangle 25", 249x36px, constraints scale/scale, fill Primary/White
+        - TEXT "List 3", 168x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+        - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints scale/scale [decorative, ~6 shapes]
+      - GROUP "List 4", 249x36px, constraints scale/scale, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 2", 249x36px, constraints scale/scale, radius 0/0/10/10px, fill Primary/White
+        - TEXT "List 4", 168x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+        - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints scale/scale [decorative, ~6 shapes]
+      - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints scale/scale [decorative, ~6 shapes]
+  - COMPONENT "Forms / Select / Icon / NoLabel / Disabled", 249x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill Secondary/LightGray 2, stroke Text/SecDefault 1px
+      - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints left/top, opacity 50% [decorative, ~6 shapes]
+      - TEXT "Icon Select", 170x21px, constraints left/top, fill Text/SecDefault, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke Text/SecDefault 2px
+  - COMPONENT "Forms / Select / Default / NoLabel / Disabled", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill Secondary/LightGray 2, stroke Text/SecDefault 1px
+    - TEXT "Select", 205x21px, constraints left/top, fill Text/SecDefault, text [Text/Roboto]
+    - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke Text/SecDefault 2px
+  - COMPONENT "Forms / Select / Icon / Label / Disabled", 249x69px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Label:", 38x19px, constraints left/top, fill Primary/Black, text [Text 2/Roboto]
+    - INSTANCE "Forms / Select / Icon / NoLabel / Disabled", 249x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill Secondary/LightGray 2, stroke Text/SecDefault 1px
+        - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints left/top, opacity 50% [decorative, ~6 shapes]
+        - TEXT "Icon Select", 170x21px, constraints left/top, fill Text/SecDefault, text [Text/Roboto]
+        - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke Text/SecDefault 2px
+  - COMPONENT "Forms / Select / Icon / Label / Default", 245x69px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Label:", 38x19px, constraints left/top, fill Primary/Black, text [Text 2/Roboto]
+    - FRAME "Forms / Select / Icon / NoLabel / Default", 245x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Select / Default", 245x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+        - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints left/top [decorative, ~6 shapes]
+        - TEXT "Icon Select", 167.93x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Default / Label / Default", 249x69px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Label:", 38x19px, constraints left/top, fill Primary/Black, text [Text 2/Roboto]
+    - INSTANCE "Forms / Select / Default / NoLabel / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Space Gray 1px
+      - TEXT "Select", 205x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Icon / Label / Selected", 249x69px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Label:", 38x19px, constraints left/top, fill Primary/Black, text [Text 2/Roboto]
+    - INSTANCE "Forms / Select / Icon / NoLabel / Selected", 249x45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect Forms/Selected
+      - FRAME "Select / Default", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Royal Blue 1px
+        - GROUP "🦆 icon "Brazil"", 29.4x21px, constraints left/top [decorative, ~6 shapes]
+        - TEXT "Icon Selected", 170x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+        - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Default / Label / Selected", 249x69px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Label:", 38x19px, constraints left/top, fill Primary/Black, text [Text 2/Roboto]
+    - INSTANCE "Forms / Select / Default / NoLabel / Selected", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFF, stroke SumUp/Royal Blue 1px, effect Forms/Selected
+      - TEXT "Selected", 205x21px, constraints left/top, fill SumUp/Modern Ink, text [Text/Roboto]
+      - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+  - COMPONENT "Forms / Select / Default / Label / Selecting", 249x218px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Label:", 38x19px, constraints left/top, fill Primary/Black, text [Text 2/Roboto]
+    - INSTANCE "Forms / Select / Default / NoLabel / Selecting", 249x194px, constraints left/top
+      - FRAME "Forms / Select / Default / Selected", 249x45px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 15px, fill #FFFFFF, stroke SumUp/Royal Blue 1px, effect Forms/Selected
+        - TEXT "Selected", 205x21px, constraints left/top, fill SumUp/Space Gray, text [Text/Roboto]
+        - VECTOR "Vector 2", 7.67x4px, constraints left/top, stroke SumUp/Space Gray 2px
+      - GROUP "Group 8", 249x144px, constraints scale/scale, radius 0/0/0/0px, effect Neumorphism/default
+        - GROUP "List 1", 249x36px, constraints scale/scale, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 1", 249x36px, constraints scale/scale, radius 10/10/0/0px, fill Primary/White
+          - TEXT "List 1", 205x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+        - GROUP "List 2", 249x36px, constraints scale/scale
+          - RECTANGLE "Rectangle 24", 249x36px, constraints scale/scale, fill Primary/White
+          - TEXT "List 2", 205x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+        - GROUP "List 3", 249x36px, constraints scale/scale
+          - RECTANGLE "Rectangle 25", 249x36px, constraints scale/scale, fill Primary/White
+          - TEXT "List 3", 205x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+        - GROUP "List 4", 249x36px, constraints scale/scale, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 2", 249x36px, constraints scale/scale, radius 0/0/10/10px, fill Primary/White
+          - TEXT "List 4", 205x21px, constraints scale/scale, fill SumUp/Space Gray, text [Text/Roboto]
+  - COMPONENT "Forms / Select / Icon / Label / Selecting", 249x218px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Label:", 38x19px, constraints left/top, fill Primary/Black, text [Text 2/Roboto]
+    - INSTANCE "Forms / Select / Icon / NoLabel / Selecting", 249x194px, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

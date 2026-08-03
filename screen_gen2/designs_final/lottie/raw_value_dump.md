@@ -1,0 +1,1206 @@
+---
+name: app-with-lottie-animations-community
+source_file: App with Lottie Animations (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:34:23.534098+00:00
+---
+
+# App with Lottie Animations (Community) Design Guidelines
+
+## Source
+- Figma file: App with Lottie Animations (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:34:23.534098+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- M3/sys/light/outline: [#7D747E]
+- M3/sys/light/secondary-container: [#F0DCF4]
+- M3/sys/light/on-secondary-container: [#231728]
+- M3/read-only/dark/surface3: [#1D1B1E, #E9B2FF1C]
+- M3/sys/dark/primary: [#E9B2FF]
+- M3/sys/dark/on-surface-variant: [#CEC3CE]
+- M3/sys/dark/on-surface: [#E7E0E4]
+- M3/sys/dark/surface: [#1D1B1E]
+- M3/read-only/light/white: [#FFFFFF]
+- GR/LT/textPrimary (DC4 900): [#191C18]
+- On Surface / High Emphasis: [#FFFFFFDE]
+- M3/sys/dark/on-primary: [#4F0076]
+- M3/sys/dark/primary-container: [#7100A6]
+- Light/Element/Static_white: [#7100A6]
+- Light/Background/Secondary: [#515764]
+- Grey / 90: [#242424]
+- Light/Text/Secondary: [#999EA9]
+- Neutral / Neutral 90: [#22242A]
+- Neutral / Neutral 50: [#7B7E86]
+- M3/sys/dark/outline: none
+- Light/Element/Primary: [#999EA9]
+- Light/Background/Extra_surface: [#FFFFFF]
+- M3/read-only/dark/surface2: [#1D1B1E, #E9B2FF14]
+- M3/sys/dark/on-secondary-container: [#F0DCF4]
+- M3/sys/dark/secondary-container: [#504255]
+- Light/Background/Basic: [#FFFFFF]
+- Light/Text/Primary: [#21242C]
+- M3/sys/dark/on-secondary: [#392C3E]
+- Light/Background/Accent: [#3A83F1]
+- Light/Element/Error: [#FF3B30]
+- Light/Element/Accent: [#3A83F1]
+- Light/Background/Additional_one: [#F3F4F7]
+
+## Raw Colors (unstyled)
+- #E7E0E4: 77 uses
+- #F0DCF4: 71 uses
+- #1D1B1E: 49 uses
+- #FFFFFF: 36 uses
+- #FCFCFC: 29 uses
+- #1F1F1F: 25 uses
+- #E9B2FF: 19 uses
+- #8E918F80: 17 uses
+- #FFFFFF4D: 17 uses
+- #231728: 15 uses
+- #E2E2E2: 11 uses
+- #E9B2FE: 8 uses
+- #000000: 7 uses
+- #0062FF: 6 uses
+- #34A853: 6 uses
+- #4285F4: 6 uses
+- #E94235: 6 uses
+- #FBBC04: 6 uses
+- #182E66: 5 uses
+- #274E50: 4 uses
+- #447F6A: 4 uses
+- #4F0076: 4 uses
+- #C4C4C4: 4 uses
+- #636363: 3 uses
+- #7100A629: 3 uses
+
+## Typography Tokens
+- M3/label/large: Roboto Medium (500), 14px / 20px, tracking 0.1px
+- M3/title/medium: Roboto Medium (500), 16px / 24px, tracking 0.1px
+- M3/body/medium: Roboto Regular (400), 14px / 20px, tracking 0.25px
+- M3/headline/small: Roboto Regular (400), 24px / 32px, tracking 0px
+- M3/title/large: Roboto Regular (400), 22px / 28px, tracking 0px
+- M3/labelSmall: Roboto Medium (500), 11px / 16px, tracking 0.5px
+- Headline 6: Roboto Medium (500), 20px / 24px, tracking 0.15px
+- Default/Body_2: Roboto Regular (400), 16px / 24px, tracking 0.25px
+- Default/Large_Title_1: Roboto Bold (700), 32px / 40px, tracking 0px
+- M3/label/medium: Roboto Medium (500), 12px / 16px, tracking 0.5px
+- Default/Caption_1: Roboto Medium (500), 12px / 16px, tracking 0.4px
+- Default/Subhead_2: Roboto Medium (500), 14px / 16px, tracking 0px
+- Default/Body_1: Roboto Medium (500), 16px / 24px, tracking 0.5px
+- M3/body/large: Roboto Regular (400), 16px / 24px, tracking 0.5px
+- Default/Title_1: Roboto Bold (700), 22px / 28px, tracking 0px
+
+## Raw Typography (unstyled)
+- Roboto Bold, 14px: 80 uses
+- Roboto Black, 16px: 20 uses
+- Roboto Medium, 14px: 17 uses
+- Roboto Black, 14px: 7 uses
+- DM Sans Bold, 101.14px: 3 uses
+
+## Typography Hierarchy
+- 101.14px - DM Sans Bold, 101.14px (raw)
+- 32px - Default/Large_Title_1 (Roboto Bold)
+- 24px - M3/headline/small (Roboto Regular)
+- 22px - Default/Title_1 (Roboto Bold)
+- 22px - M3/title/large (Roboto Regular)
+- 20px - Headline 6 (Roboto Medium)
+- 16px - Default/Body_1 (Roboto Medium)
+- 16px - Default/Body_2 (Roboto Regular)
+- 16px - M3/body/large (Roboto Regular)
+- 16px - M3/title/medium (Roboto Medium)
+- 16px - Roboto Black, 16px (raw)
+- 14px - Default/Subhead_2 (Roboto Medium)
+- 14px - M3/body/medium (Roboto Regular)
+- 14px - M3/label/large (Roboto Medium)
+- 14px - Roboto Black, 14px (raw)
+- 14px - Roboto Bold, 14px (raw)
+- 14px - Roboto Medium, 14px (raw)
+- 12px - Default/Caption_1 (Roboto Medium)
+- 12px - M3/label/medium (Roboto Medium)
+- 11px - M3/labelSmall (Roboto Medium)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- M3/Elevation Dark/2: [drop_shadow 2px offset 0 1 #0000004D, drop_shadow 6px offset 0 2 #00000026]
+- M3/Elevation Dark/1: [drop_shadow 2px offset 0 1 #0000004D, drop_shadow 3px offset 0 1 #00000026]
+- M3/Elevation Light/1: [drop_shadow 3px offset 0 1 #00000026, drop_shadow 2px offset 0 1 #0000004D]
+- M3/Elevation Dark/3: [drop_shadow 3px offset 0 1 #0000004D, drop_shadow 8px offset 0 4 #00000026]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- ΩElements
+
+## Component Specs
+- ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar: size 412x70px, text [M3/labelSmall, Headline 6]
+
+## Most-Used Styles
+- M3/read-only/light/white: 83 uses
+- M3/sys/dark/on-surface: 49 uses
+- M3/label/large: 44 uses
+- M3/sys/dark/primary: 40 uses
+- M3/sys/dark/on-surface-variant: 30 uses
+- M3/sys/dark/surface: 27 uses
+- Light/Element/Primary: 26 uses
+- Default/Subhead_2: 22 uses
+- Light/Text/Secondary: 22 uses
+- Neutral / Neutral 50: 21 uses
+- M3/title/large: 18 uses
+- M3/sys/dark/primary-container: 16 uses
+- M3/title/medium: 16 uses
+- M3/body/medium: 15 uses
+- Default/Body_1: 13 uses
+- Headline 6: 11 uses
+- Light/Background/Basic: 11 uses
+- Light/Element/Static_white: 11 uses
+- Light/Text/Primary: 11 uses
+- M3/labelSmall: 11 uses
+- M3/sys/light/outline: 11 uses
+- On Surface / High Emphasis: 11 uses
+- Neutral / Neutral 90: 10 uses
+- M3/sys/dark/outline: 9 uses
+- M3/sys/dark/on-primary: 8 uses
+- M3/Elevation Dark/2: 7 uses
+- Light/Background/Extra_surface: 6 uses
+- Light/Background/Secondary: 6 uses
+- M3/sys/dark/on-secondary-container: 6 uses
+- M3/label/medium: 5 uses
+- Default/Caption_1: 3 uses
+- Grey / 90: 3 uses
+- M3/body/large: 3 uses
+- M3/sys/light/on-secondary-container: 3 uses
+- Default/Body_2: 2 uses
+- M3/read-only/dark/surface2: 2 uses
+- M3/read-only/dark/surface3: 2 uses
+- M3/sys/dark/secondary-container: 2 uses
+- Default/Large_Title_1: 1 use
+- Default/Title_1: 1 use
+- Light/Background/Accent: 1 use
+- Light/Background/Additional_one: 1 use
+- Light/Element/Accent: 1 use
+- Light/Element/Error: 1 use
+- M3/Elevation Dark/1: 1 use
+- M3/Elevation Dark/3: 1 use
+- M3/Elevation Light/1: 1 use
+- M3/headline/small: 1 use
+- M3/sys/dark/on-secondary: 1 use
+- M3/sys/light/secondary-container: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Alert
+- FRAME "Alert", 328x430px, vertical pad 32 16 32 16px gap 40px align min/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1D1B1E
+  - FRAME "Icon & Text", 296x278px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Icon Place", 140x140px, constraints left/top, fill image(hash: e5ee03e73dd52957a27698144566cc9788b9e5a8)
+    - FRAME "Text Group", 296x118px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Header", 165x28px, constraints left/top, fill #FFFFFF, text [Default/Title_1], [heading]
+      - TEXT "Text", 296x80px, constraints left/top, fill M3/sys/dark/on-surface-variant, text [M3/body/medium]
+  - FRAME "Buttob Group", 296x48px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Buttons", 296x48px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Background", 296x48px, constraints scale/scale, radius 8px, fill M3/sys/dark/primary
+      - FRAME "Button Group", 77x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center
+        - TEXT "Button Text", 68x24px, constraints center/center, fill M3/sys/dark/primary-container, text [Default/Body_1]
+
+Screen: Page 1 / Штрафы. Онлайн
+- TEXT "Штрафы. Онлайн", 921.48x132.04px, constraints left/top, fill #000000, text [DM Sans Bold, 101.14px], [heading]
+
+Screen: Page 1 / В зависимости от местоположения штрафа указывать место наиболее подвергнутое им
+- TEXT "В зависимости от местоположения штрафа указывать место наибо", 1767.11x887.77px, constraints left/top, fill #000000, text [DM Sans Medium, 67.43px], [heading]
+
+Screen: Page 1 / menu
+- FRAME "menu", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - INSTANCE "stacked-card (Dark)", 360x480px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill M3/sys/dark/surface, effect M3/Elevation Dark/2
+    - FRAME "header", 360x72px, horizontal pad 13 16 13 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "content", 304x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "monogram", 40x40px, constraints left/top
+          - ELLIPSE "background", 40x40px, constraints scale/scale, fill image(hash: a9eea4221ddb9a68a15f795a7c633a8c8e11fad2)
+        - FRAME "text", 248x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "header", 248x24px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/title/medium], [heading]
+          - TEXT "subhead", 248x20px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/body/medium]
+      - INSTANCE "trailing-icon", 24x24px, constraints scale/scale
+        - REGULAR_POLYGON "icon", 14x14px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+    - FRAME "media", 360x152px, constraints center/center, fill image(hash: a5e6331d33f97ca77a1defc2ffc701bbb4a95479)
+      - FRAME "03 Location", 59.43x59.43px, constraints left/top
+        - ELLIPSE "Bg", 59.43x59.43px, constraints scale/scale, fill Light/Background/Secondary, opacity 20%
+        - ELLIPSE "location", 21.39x21.39px, constraints scale/scale, fill M3/sys/dark/primary-container, stroke Light/Element/Static_white 2px
+    - FRAME "headline", 360x100px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints center/bottom, fill #FFFFFF
+      - TEXT "title", 328x48px, constraints center/center, fill M3/sys/dark/on-surface, text [M3/body/large]
+      - TEXT "subhead", 328x20px, constraints center/center, fill M3/sys/dark/on-surface-variant, text [M3/body/medium]
+    - FRAME "supporting text", 360x32px, vertical pad 0 16 0 16px gap 8px sizing W:fill H:fixed, constraints center/bottom, fill #FFFFFF
+      - INSTANCE "Base Component", 121x32px, horizontal pad 6 16 6 8px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 8px, fill M3/sys/dark/surface, stroke M3/sys/dark/outline 1px
+        - INSTANCE "Icon", 18x18px, constraints left/center
+          - VECTOR "Vector", 10.88x12.75px, constraints scale/scale, fill M3/sys/dark/primary
+        - TEXT "label-text", 71x20px, constraints left_right/scale, fill M3/sys/dark/on-surface, text [M3/label/large]
+    - FRAME "supporting text", 360x52px, vertical pad 16 16 16 16px gap 8px sizing W:fill H:fixed, constraints center/bottom, fill #FFFFFF
+      - TEXT "supporting-text", 328x20px, constraints center/center, fill M3/sys/dark/on-surface-variant, text [M3/body/medium]
+    - FRAME "actions", 360x72px, horizontal pad 16 16 16 16px gap 8px align max/min sizing W:fill H:fixed, constraints center/bottom
+      - INSTANCE "action 2", 122x40px, vertical pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill M3/sys/dark/primary
+        - TEXT "label-text", 74x20px, constraints center/center, fill M3/sys/dark/on-primary, text [M3/label/large]
+  - INSTANCE "stacked-card (Dark)", 360x480px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill M3/sys/dark/surface, effect M3/Elevation Dark/2
+    - FRAME "header", 360x72px, horizontal pad 13 16 13 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "content", 304x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "monogram", 40x40px, constraints left/top
+          - ELLIPSE "background", 40x40px, constraints scale/scale, fill image(hash: a9eea4221ddb9a68a15f795a7c633a8c8e11fad2)
+          - TEXT "Initial", 40x40px, constraints center/center, fill image(hash: a9eea4221ddb9a68a15f795a7c633a8c8e11fad2), text [M3/label/large]
+        - FRAME "text", 248x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "header", 248x24px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/title/medium], [heading]
+          - TEXT "subhead", 248x20px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/body/medium]
+      - INSTANCE "trailing-icon", 24x24px, constraints scale/scale
+        - REGULAR_POLYGON "icon", 14x14px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+    - FRAME "media", 360x152px, constraints center/center, fill image(hash: a5e6331d33f97ca77a1defc2ffc701bbb4a95479)
+      - FRAME "03 Location", 59.43x59.43px, constraints left/top
+        - ELLIPSE "Bg", 59.43x59.43px, constraints scale/scale, fill Light/Background/Secondary, opacity 20%
+        - ELLIPSE "location", 21.39x21.39px, constraints scale/scale, fill M3/sys/dark/primary-container, stroke Light/Element/Static_white 2px
+    - FRAME "headline", 360x100px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints center/bottom, fill #FFFFFF
+      - TEXT "title", 328x48px, constraints center/center, fill M3/sys/dark/on-surface, text [M3/body/large]
+      - TEXT "subhead", 328x20px, constraints center/center, fill M3/sys/dark/on-surface-variant, text [M3/body/medium]
+    - FRAME "supporting text", 360x32px, vertical pad 0 16 0 16px gap 8px sizing W:fill H:fixed, constraints center/bottom, fill #FFFFFF
+      - INSTANCE "Base Component", 121x32px, horizontal pad 6 16 6 8px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 8px, fill M3/sys/dark/surface, stroke M3/sys/dark/outline 1px
+        - INSTANCE "Icon", 18x18px, constraints left/center
+          - VECTOR "Vector", 10.88x12.75px, constraints scale/scale, fill M3/sys/dark/primary
+        - TEXT "label-text", 71x20px, constraints left_right/scale, fill M3/sys/dark/on-surface, text [M3/label/large]
+    - FRAME "supporting text", 360x52px, vertical pad 16 16 16 16px gap 8px sizing W:fill H:fixed, constraints center/bottom, fill #FFFFFF
+      - TEXT "supporting-text", 328x20px, constraints center/center, fill M3/sys/dark/on-surface-variant, text [M3/body/medium]
+    - FRAME "actions", 360x72px, horizontal pad 16 16 16 16px gap 8px align max/min sizing W:fill H:fixed, constraints center/bottom
+      - INSTANCE "action 2", 122x40px, vertical pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill M3/sys/dark/primary
+        - TEXT "label-text", 74x20px, constraints center/center, fill M3/sys/dark/on-primary, text [M3/label/large]
+  - INSTANCE "stacked-card (Dark)", 360x480px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill M3/sys/dark/surface, effect M3/Elevation Dark/2
+    - FRAME "header", 360x72px, horizontal pad 13 16 13 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "content", 304x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "monogram", 40x40px, constraints left/top
+          - ELLIPSE "background", 40x40px, constraints scale/scale, fill image(hash: a9eea4221ddb9a68a15f795a7c633a8c8e11fad2)
+          - TEXT "Initial", 40x40px, constraints center/center, fill M3/sys/dark/surface, text [M3/label/large]
+        - FRAME "text", 248x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "header", 248x24px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/title/medium], [heading]
+          - TEXT "subhead", 248x20px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/body/medium]
+      - INSTANCE "trailing-icon", 24x24px, constraints scale/scale
+        - REGULAR_POLYGON "icon", 14x14px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+    - FRAME "media", 360x152px, constraints center/center, fill image(hash: a5e6331d33f97ca77a1defc2ffc701bbb4a95479)
+      - FRAME "03 Location", 59.43x59.43px, constraints left/top
+        - ELLIPSE "Bg", 59.43x59.43px, constraints scale/scale, fill Light/Background/Secondary, opacity 20%
+        - ELLIPSE "location", 21.39x21.39px, constraints scale/scale, fill M3/sys/dark/primary-container, stroke Light/Element/Static_white 2px
+    - FRAME "headline", 360x100px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints center/bottom, fill #FFFFFF
+      - TEXT "title", 328x48px, constraints center/center, fill M3/sys/dark/on-surface, text [M3/body/large]
+      - TEXT "subhead", 328x20px, constraints center/center, fill M3/sys/dark/on-surface-variant, text [M3/body/medium]
+    - FRAME "supporting text", 360x32px, vertical pad 0 16 0 16px gap 8px sizing W:fill H:fixed, constraints center/bottom, fill #FFFFFF
+      - INSTANCE "Base Component", 121x32px, horizontal pad 6 16 6 8px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 8px, fill M3/sys/dark/surface, stroke M3/sys/dark/outline 1px
+        - INSTANCE "Icon", 18x18px, constraints left/center
+          - VECTOR "Vector", 10.88x12.75px, constraints scale/scale, fill M3/sys/dark/primary
+        - TEXT "label-text", 71x20px, constraints left_right/scale, fill M3/sys/dark/on-surface, text [M3/label/large]
+    - FRAME "supporting text", 360x52px, vertical pad 16 16 16 16px gap 8px sizing W:fill H:fixed, constraints center/bottom, fill #FFFFFF
+      - TEXT "supporting-text", 328x20px, constraints center/center, fill M3/sys/dark/on-surface-variant, text [M3/body/medium]
+    - FRAME "actions", 360x72px, horizontal pad 16 16 16 16px gap 8px align max/min sizing W:fill H:fixed, constraints center/bottom
+      - INSTANCE "action 2", 122x40px, vertical pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill M3/sys/dark/primary
+        - TEXT "label-text", 74x20px, constraints center/center, fill M3/sys/dark/on-primary, text [M3/label/large]
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+        - VECTOR "icon", 18x12px, constraints scale/scale, fill M3/sys/dark/on-surface
+      - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+      - INSTANCE "trailing-icon", 36x36px, constraints right/top
+        - VECTOR "icon", 30x30px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+
+Screen: Page 1 / menu
+- FRAME "menu", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - FRAME "Components / Controls", 360x587px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16/16/0/0px
+    - INSTANCE "Elements / Date Block", 359x52px, constraints scale/scale
+      - RECTANGLE "Rectangle 1354", 359x52px, constraints scale/scale, radius 16/16/0/0px
+      - TEXT "10 Июля 2020, 20:31", 83x24px, constraints center/center, fill #FFFFFF, text [Default/Body_2]
+      - INSTANCE "Outline / Close Outline", 28x28px, constraints right/top, fill #FFFFFF
+    - INSTANCE "Elements / Lable Block", 360x96px, constraints scale/scale
+      - GROUP "Group 2387", 80x80px, constraints left/top
+        - ELLIPSE "Ellipse 1419", 80x80px, constraints center/center, fill Light/Element/Static_white
+        - INSTANCE "Lable Place 77", 76x76px, constraints center/center, fill #FFFFFF
+          - ELLIPSE "unsplash:eSjmZW97cH8", 76x76px, constraints scale/scale, fill image(hash: a9eea4221ddb9a68a15f795a7c633a8c8e11fad2)
+    - INSTANCE "Elements / Text block", 360x100px, vertical pad 12 95 12 95px gap 12px align min/center sizing W:fixed H:fixed, constraints scale/scale
+      - TEXT "+ 200 000 ₽", 227x40px, constraints scale/scale, fill #E9B2FE, text [Roboto Bold, 24px], [heading]
+      - FRAME "Frame 2392", 136x24px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "Константин Н.", 136x24px, constraints left/top, fill #FFFFFF, text [Default/Body_1]
+    - INSTANCE "Elements / Status Block", 360x72px, constraints scale/scale
+      - RECTANGLE "Rectangle 1353", 360x72px, constraints scale/scale, fill #C4C4C4
+      - INSTANCE "Elements / Statuses", 157x28px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints center/center
+        - INSTANCE "Solid / Time Solid", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Union", 21x21px, constraints scale/scale, fill Light/Element/Primary
+        - TEXT "В обработке", 125x16px, constraints left/top, fill Light/Text/Secondary, text [Default/Subhead_2], [heading]
+    - FRAME "Frame 6538", 328x267px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+      - INSTANCE "01 Base Cell", 328x51px, horizontal pad 12 0 12 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Main Group", 328x48px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Leading Group", 245x48px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "01 Main / 02 Center Elements", 169x48px, vertical pad 12 0 12 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Main / 03 Trailing Elements", 83x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "01 Text Fields", 328x76px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Text Field", 328x76px, vertical pad 18 0 4 0px gap 2px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Body", 328x48px, horizontal pad 0 0 0 0px gap 0px align min/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Text Block", 256x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "02 Icon Place", 72x40px, constraints right/top, fill #FFFFFF
+          - INSTANCE "01 Separator", 328x4px, constraints center/top, fill M3/sys/dark/on-secondary
+            - LINE "Line", 328x0px, constraints left_right/top
+      - INSTANCE "01 Text Fields", 328x76px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Text Field", 328x76px, vertical pad 18 0 4 0px gap 2px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Body", 328x48px, horizontal pad 0 0 0 0px gap 0px align min/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Text Block", 256x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "02 Icon Place", 72x40px, constraints right/top, fill #FFFFFF
+      - FRAME "Frame 6538", 328x70px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "01 Text Fields", 328x70px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Text Field", 328x70px, vertical pad 18 0 4 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Body", 328x48px, horizontal pad 0 0 0 0px gap 0px align min/max sizing W:fill H:fixed, constraints left/top
+  - INSTANCE "FAB (Dark)", 56x56px, constraints left/top, effect M3/Elevation Dark/3
+    - INSTANCE "Base Component", 56x56px, constraints scale/scale
+      - FRAME "container", 56x56px, constraints scale/scale, radius 16px, fill M3/read-only/dark/surface3
+      - INSTANCE "primary icon", 24x24px, constraints center/center
+        - VECTOR "icon", 18x18px, constraints scale/scale, fill M3/sys/dark/primary
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+        - VECTOR "icon", 18x12px, constraints scale/scale, fill M3/sys/dark/on-surface
+      - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+
+Screen: Page 1 / menu
+- FRAME "menu", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - TEXT "Язык", 41x24px, constraints left/top, fill M3/sys/dark/primary, text [M3/title/medium], [heading]
+  - TEXT "Тема приложения", 138x24px, constraints left/top, fill M3/sys/dark/primary, text [M3/title/medium], [heading]
+  - INSTANCE "assistive-chip (Dark)", 105x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 105x32px, horizontal pad 6 16 6 8px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 8px, fill M3/sys/dark/surface, stroke M3/sys/dark/primary 1px
+      - GROUP "Logo", 18x18px, constraints left/top
+        - ELLIPSE "mask", 18x18px, constraints left/top, fill #000000
+        - GROUP "favicon", 20x20px, constraints left/top
+          - RECTANGLE "Rectangle", 20x20px, constraints left/top, fill M3/sys/dark/on-surface
+          - RECTANGLE "Netflix_Symbol_RGB", 12x14px, constraints left/top, fill image(hash: d9d281a91b0b7f055f26b0743ba9d76c56849a5b)
+      - TEXT "label-text", 55x20px, constraints left_right/scale, fill M3/sys/dark/on-surface, text [M3/label/large]
+  - INSTANCE "assistive-chip (Dark)", 88x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 88x32px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 8px, fill M3/sys/dark/surface, stroke M3/sys/dark/outline 1px
+      - TEXT "label-text", 56x20px, constraints left_right/top, fill M3/sys/dark/on-surface, text [M3/label/large]
+  - INSTANCE "assistive-chip (Dark)", 97x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 97x32px, horizontal pad 6 16 6 8px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 8px, fill M3/sys/dark/surface, stroke M3/sys/dark/outline 1px
+      - GROUP "Logo", 18x18px, constraints left/top
+        - ELLIPSE "mask", 18x18px, constraints left/top, fill #000000
+        - GROUP "favicon", 20x20px, constraints left/top
+          - RECTANGLE "Rectangle", 20x20px, constraints left/top, fill M3/sys/dark/on-surface
+          - RECTANGLE "Netflix_Symbol_RGB", 12x14px, constraints left/top, fill image(hash: d9d281a91b0b7f055f26b0743ba9d76c56849a5b)
+      - TEXT "label-text", 47x20px, constraints left_right/scale, fill M3/sys/dark/on-surface, text [M3/label/large]
+  - INSTANCE "assistive-chip (Dark)", 82x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, effect M3/Elevation Dark/1
+    - INSTANCE "Base Component", 82x32px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, radius 8px, fill M3/sys/dark/surface, stroke #E9B2FE 1px, effect M3/Elevation Light/1
+      - FRAME "state-layer", 82x32px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - TEXT "label-text", 50x20px, constraints left_right/top, fill M3/sys/dark/on-surface, text [M3/label/large]
+  - INSTANCE "assistive-chip (Dark)", 106x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 106x32px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 8px, fill M3/sys/dark/surface, stroke M3/sys/dark/outline 1px
+      - TEXT "label-text", 74x20px, constraints left_right/top, fill M3/sys/dark/on-surface, text [M3/label/large]
+  - RECTANGLE "image 1", 18x18px, constraints left/top, radius 30px, fill image(hash: 7e50d5ed12d69e854b6bd40390a522f5e2071228)
+  - ELLIPSE "Ellipse 1417", 19x18px, constraints scale/scale, fill #C4C4C4
+  - GROUP "Group 6532", 25.09x18.17px, constraints scale/scale
+    - RECTANGLE "Rectangle 1168", 25.09x6.06px, constraints scale/scale, fill #0052B4
+    - RECTANGLE "Rectangle 1169", 25.09x6.06px, constraints scale/scale, fill #F0F0F0
+    - RECTANGLE "Rectangle 1170", 25.09x6.06px, constraints scale/scale, fill #D80027
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+        - VECTOR "icon", 18x12px, constraints scale/scale, fill M3/sys/dark/on-surface
+      - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+      - INSTANCE "trailing-icon", 36x36px, constraints right/top
+        - VECTOR "icon", 30x30px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+
+Screen: Page 1 / menu
+- FRAME "menu", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - TEXT "TSIB team", 166x52px, constraints left/top, fill #FFFFFF, text [M3/title/large], [heading]
+  - TEXT "https://tsibteam.github.io/", 168x20px, constraints left/top, fill M3/sys/dark/primary, text [M3/label/large]
+  - FRAME "Frame 6", 24.71x24px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Facebook", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 24x24px, constraints scale/scale, fill #3C5A9A
+    - VECTOR "Vector", 7.83x16.63px, constraints scale/scale, fill #FFFFFF
+  - FRAME "cib:vk", 24x24px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 401", 20.27x12.27px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1E88E5
+  - TEXT "Мы - молодая команда, состоящая из Android разработчика и UX", 322x45px, constraints left/top, fill M3/sys/dark/outline, text [M3/title/medium], [heading]
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+        - VECTOR "icon", 18x12px, constraints scale/scale, fill M3/sys/dark/on-surface
+      - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+      - INSTANCE "trailing-icon", 36x36px, constraints right/top
+        - VECTOR "icon", 30x30px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+
+Screen: Page 1 / menu
+- FRAME "menu", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - FRAME "horizontal-card (Dark)", 380x80px, constraints left/top, radius 12px, fill M3/sys/dark/surface, effect M3/Elevation Dark/2
+    - FRAME "content", 240x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "monogram", 40x40px, constraints left/top
+        - ELLIPSE "background", 40x40px, constraints scale/scale, fill image(hash: a9eea4221ddb9a68a15f795a7c633a8c8e11fad2)
+      - FRAME "text", 184x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "header", 184x24px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/title/medium], [heading]
+        - TEXT "subhead", 184x20px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/body/medium]
+    - FRAME "media", 95x80px, constraints left_right/top_bottom, fill image(hash: 3d7a5f0becdae3e156c6e8bf1f9f10770c86cc98)
+  - FRAME "horizontal-card (Dark)", 380x80px, constraints left/top, radius 12px, fill M3/sys/dark/surface, effect M3/Elevation Dark/2
+    - FRAME "content", 240x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "monogram", 40x40px, constraints left/top
+        - ELLIPSE "background", 40x40px, constraints scale/scale, fill image(hash: a9eea4221ddb9a68a15f795a7c633a8c8e11fad2)
+      - FRAME "text", 184x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "header", 184x24px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/title/medium], [heading]
+        - TEXT "subhead", 184x20px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/body/medium]
+    - FRAME "media", 95x80px, constraints left_right/top_bottom, fill image(hash: 3d7a5f0becdae3e156c6e8bf1f9f10770c86cc98)
+  - FRAME "horizontal-card (Dark)", 380x80px, constraints left/top, radius 12px, fill M3/sys/dark/surface, effect M3/Elevation Dark/2
+    - FRAME "content", 240x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "monogram", 40x40px, constraints left/top
+        - ELLIPSE "background", 40x40px, constraints scale/scale, fill image(hash: a9eea4221ddb9a68a15f795a7c633a8c8e11fad2)
+      - FRAME "text", 184x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "header", 184x24px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/title/medium], [heading]
+        - TEXT "subhead", 184x20px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/body/medium]
+    - FRAME "media", 95x80px, constraints left_right/top_bottom, fill image(hash: 3d7a5f0becdae3e156c6e8bf1f9f10770c86cc98)
+  - FRAME "horizontal-card (Dark)", 380x80px, constraints left/top, radius 12px, fill M3/sys/dark/surface, effect M3/Elevation Dark/2
+    - FRAME "content", 240x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "monogram", 40x40px, constraints left/top
+        - ELLIPSE "background", 40x40px, constraints scale/scale, fill image(hash: a9eea4221ddb9a68a15f795a7c633a8c8e11fad2)
+      - FRAME "text", 184x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "header", 184x24px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/title/medium], [heading]
+        - TEXT "subhead", 184x20px, constraints left/top, fill M3/sys/dark/on-surface, text [M3/body/medium]
+    - FRAME "media", 95x80px, constraints left_right/top_bottom, fill image(hash: 3d7a5f0becdae3e156c6e8bf1f9f10770c86cc98)
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+        - VECTOR "icon", 18x12px, constraints scale/scale, fill M3/sys/dark/on-surface
+      - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+      - INSTANCE "trailing-icon", 36x36px, constraints right/top
+        - VECTOR "icon", 30x30px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+
+Screen: Page 1 / activity_shtrf
+- FRAME "activity_shtrf", 412x892px, constraints left/top, radius 18px, fill image(hash: d89c5c311f27699dee0d1c1d2c83c574ff9b30a0), stroke #8E918F80 8px
+  - RECTANGLE "Rectangle 1", 630x1106px, constraints left/top, fill image(hash: b2fa0e19a69bd6907fc3e28ee0c743b6f9ecc93b)
+  - FRAME "03 Location", 59.43x59.43px, constraints left/top
+    - ELLIPSE "Bg", 59.43x59.43px, constraints scale/scale, fill Light/Background/Secondary, opacity 20%
+    - VECTOR "Pointer", 14.82x12.52px, constraints scale/scale, fill M3/sys/dark/primary-container
+    - ELLIPSE "location", 21.39x21.39px, constraints scale/scale, fill M3/sys/dark/primary-container, stroke Light/Element/Static_white 2px
+  - INSTANCE "02 Several Pins", 24x24px, constraints left/top, radius 100px, fill Light/Background/Basic, stroke M3/sys/dark/primary-container 1.5px, effect [drop_shadow 4px offset 0 2 #0B1D3752]
+    - TEXT "Number", 15x16px, constraints center/center, fill Light/Text/Primary, text [Default/Caption_1]
+  - INSTANCE "02 Several Pins", 24x24px, constraints left/top, radius 100px, fill Light/Background/Basic, stroke M3/sys/dark/primary-container 1.5px, effect [drop_shadow 4px offset 0 2 #0B1D3752]
+    - TEXT "Number", 15x16px, constraints center/center, fill Light/Text/Primary, text [Default/Caption_1]
+  - INSTANCE "02 Several Pins", 40x40px, constraints left/top, radius 100px, fill Light/Background/Basic, stroke M3/sys/dark/primary-container 2px, effect [drop_shadow 4px offset 0 2 #0B1D3752]
+    - TEXT "Number", 29x16px, constraints center/center, fill Light/Text/Primary, text [Default/Caption_1]
+  - INSTANCE "navigation-bar (Dark)", 412x80px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "navigation-bar", 412x80px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill M3/read-only/dark/surface2
+      - INSTANCE "Dark segment", 137.33x80px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints center/scale
+        - INSTANCE "Base Component", 103x80px, vertical pad 12 0 16 0px gap 4px align center/center sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "icon", 64x32px, constraints left/top, fill #FFFFFF
+            - VECTOR "active-indicator", 64x32px, constraints center/center, radius 20px, fill M3/sys/dark/secondary-container
+            - INSTANCE "active.icon", 24x24px, constraints center/center
+          - TEXT "label-text", 103x16px, constraints scale/scale, fill M3/sys/dark/on-secondary-container, text [M3/label/medium]
+      - INSTANCE "Dark segment", 137.33x80px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints center/scale
+        - INSTANCE "Base Component", 103x80px, vertical pad 16 0 16 0px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale
+          - INSTANCE "inactive.icon", 24x24px, constraints center/center
+            - VECTOR "icon", 14x12px, constraints scale/scale, stroke M3/sys/dark/on-surface-variant 2px
+          - TEXT "label-text", 103x16px, constraints scale/scale, fill M3/sys/dark/on-surface-variant, text [M3/label/medium]
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+        - VECTOR "icon", 18x12px, constraints scale/scale, fill M3/sys/dark/on-surface
+      - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+      - INSTANCE "trailing-icon", 36x36px, constraints right/top
+        - VECTOR "icon", 30x30px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+  - FRAME "Frame 335358", 40x152px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "04 Buttons", 40x40px, constraints left/top
+      - ELLIPSE "Background", 40x40px, constraints scale/scale, fill Light/Background/Extra_surface, effect [drop_shadow 8px offset 0 5 #0000000F]
+      - INSTANCE "Outline / Plus Outline", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Union", 15.3x15.3px, constraints scale/scale, fill Light/Element/Primary
+    - INSTANCE "04 Buttons", 40x40px, constraints left/top
+      - ELLIPSE "Background", 40x40px, constraints scale/scale, fill Light/Background/Extra_surface, effect [drop_shadow 8px offset 0 5 #0000000F]
+      - INSTANCE "Outline / Minus Outline", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Union", 15.3x1.3px, constraints scale/scale, fill Light/Element/Primary
+    - INSTANCE "04 Buttons", 40x40px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Background", 40x40px, constraints scale/scale, fill Light/Background/Extra_surface, effect [drop_shadow 8px offset 0 5 #0000000F]
+      - INSTANCE "Solid / GPS Solid", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Union", 15.87x15.97px, constraints scale/scale, fill Light/Element/Primary
+
+Screen: Page 1 / menu
+- FRAME "menu", 412x892px, constraints left/top, radius 18px, fill image(hash: d89c5c311f27699dee0d1c1d2c83c574ff9b30a0), stroke #8E918F80 8px
+  - RECTANGLE "Rectangle 1", 630x1106px, constraints left/top, fill image(hash: b744bcd8cfc3df313736f8b2d4f6f17402065abf)
+  - FRAME "03 Location", 63.88x63.88px, constraints left/top
+    - ELLIPSE "Bg", 63.88x63.88px, constraints scale/scale, fill Light/Background/Secondary, opacity 20%
+    - VECTOR "Pointer", 15.6x13.78px, constraints scale/scale, fill M3/sys/dark/primary-container
+    - ELLIPSE "location", 23x23px, constraints scale/scale, fill M3/sys/dark/primary-container, stroke Light/Element/Static_white 2px
+  - INSTANCE "01 Pin", 36x36px, constraints center/center, fill #FFFFFF
+    - ELLIPSE "Bg", 36x36px, constraints scale/scale, fill #7100A629
+    - INSTANCE "01 Pin", 24x24px, constraints scale/scale, effect [drop_shadow 4px offset 0 2 #0B1D3752]
+      - INSTANCE "Bank Logos / U-V / VTB", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill M3/sys/dark/primary-container
+  - INSTANCE "01 Pin", 36x36px, constraints center/center, fill #FFFFFF
+    - ELLIPSE "Bg", 36x36px, constraints scale/scale, fill #7100A629
+    - INSTANCE "01 Pin", 24x24px, constraints scale/scale, effect [drop_shadow 4px offset 0 2 #0B1D3752]
+      - INSTANCE "Bank Logos / U-V / VTB", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill M3/sys/dark/primary-container
+  - INSTANCE "01 Pin", 36x36px, constraints center/center, fill #FFFFFF
+    - ELLIPSE "Bg", 36x36px, constraints scale/scale, fill #7100A629
+    - INSTANCE "01 Pin", 24x24px, constraints scale/scale, effect [drop_shadow 4px offset 0 2 #0B1D3752]
+      - INSTANCE "Bank Logos / U-V / VTB", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill M3/sys/dark/primary-container
+  - VECTOR "Vector", 4x4px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 4x4px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 4x4px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 12x11px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 12x11px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 12x11px, constraints scale/scale, fill #FFFFFF
+  - FRAME "navigation-bar (Dark)", 412x80px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "navigation-bar", 412x80px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill M3/read-only/dark/surface2
+      - FRAME "Dark segment", 206x80px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints center/scale
+        - FRAME "Base Component", 103x80px, vertical pad 12 0 16 0px gap 4px align center/center sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "icon", 64x32px, constraints left/top, fill #FFFFFF
+            - INSTANCE "active.icon", 24x24px, constraints center/center
+          - TEXT "label-text", 103x16px, constraints scale/scale, fill M3/sys/dark/on-secondary-container, text [M3/label/medium]
+      - FRAME "Dark segment", 206x80px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints center/scale
+        - FRAME "Base Component", 103x80px, vertical pad 12 0 16 0px gap 4px align center/center sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "icon", 64x32px, constraints left/top, fill #FFFFFF
+            - VECTOR "active-indicator", 64x32px, constraints center/center, radius 20px, fill M3/sys/dark/secondary-container
+            - INSTANCE "active.icon", 24x24px, constraints center/center
+          - TEXT "label-text", 103x16px, constraints scale/scale, fill M3/sys/dark/on-secondary-container, text [M3/label/medium]
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+        - VECTOR "icon", 18x12px, constraints scale/scale, fill M3/sys/dark/on-surface
+      - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+      - INSTANCE "trailing-icon", 36x36px, constraints right/top
+        - VECTOR "icon", 30x30px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+  - FRAME "Frame 335358", 40x152px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "04 Buttons", 40x40px, constraints left/top
+      - ELLIPSE "Background", 40x40px, constraints scale/scale, fill Light/Background/Extra_surface, effect [drop_shadow 8px offset 0 5 #0000000F]
+      - INSTANCE "Outline / Plus Outline", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Union", 15.3x15.3px, constraints scale/scale, fill Light/Element/Primary
+    - INSTANCE "04 Buttons", 40x40px, constraints left/top
+      - ELLIPSE "Background", 40x40px, constraints scale/scale, fill Light/Background/Extra_surface, effect [drop_shadow 8px offset 0 5 #0000000F]
+      - INSTANCE "Outline / Minus Outline", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Union", 15.3x1.3px, constraints scale/scale, fill Light/Element/Primary
+    - INSTANCE "04 Buttons", 40x40px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Background", 40x40px, constraints scale/scale, fill Light/Background/Extra_surface, effect [drop_shadow 8px offset 0 5 #0000000F]
+      - INSTANCE "Solid / GPS Solid", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Union", 15.87x15.97px, constraints scale/scale, fill Light/Element/Primary
+
+Screen: Page 1 / unboarding1
+- FRAME "unboarding1", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - RECTANGLE "Rectangle", 333x333px, constraints left/top, fill image(hash: 1754231580f45ae53d3c5b4b8bde2ebc0ada54e7)
+  - TEXT "Оплачивайте штрафы быстро и удобно", 297x123px, constraints left/top, fill #FFFFFF, text [M3/title/large], [heading]
+  - INSTANCE "button (Dark)", 90x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 90x40px, vertical pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 100px, fill M3/sys/dark/primary
+      - TEXT "label-text", 42x20px, constraints center/center, fill M3/sys/dark/on-primary, text [M3/label/large]
+  - VECTOR "Vector 1", 97.5x0px, constraints left/top, stroke #E9B2FE 3px
+  - VECTOR "Vector 2", 97.5x0px, constraints left/top, stroke #636363 3px
+  - VECTOR "Vector 3", 97.5x0px, constraints left/top, stroke #636363 3px
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+
+Screen: Page 1 / unboarding2
+- FRAME "unboarding2", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - TEXT "Узнайте о самых “опасных” точках на карте штрафов", 297x123px, constraints left/top, fill #FFFFFF, text [M3/title/large], [heading]
+  - INSTANCE "Base Component", 90x40px, vertical pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 100px, fill M3/sys/dark/primary
+    - TEXT "label-text", 42x20px, constraints center/center, fill M3/sys/dark/on-primary, text [M3/label/large]
+  - INSTANCE "button (Dark)", 90x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 90x40px, vertical pad 10 24 10 24px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 100px, stroke M3/sys/dark/outline 1px
+      - TEXT "label-text", 42x20px, constraints left_right/scale, fill M3/sys/dark/primary, text [M3/label/large]
+  - VECTOR "Vector 4", 97.5x0px, constraints left/top, stroke #E9B2FE 3px
+  - VECTOR "Vector 5", 97.5x0px, constraints left/top, stroke #E9B2FE 3px
+  - VECTOR "Vector 6", 97.5x0px, constraints left/top, stroke #636363 3px
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - RECTANGLE "Rectangle", 216x216px, constraints left/top, fill image(hash: aa02e551fe0db7f71f1cd32584a91d0afb8d74e7)
+
+Screen: Page 1 / unboarding3
+- FRAME "unboarding3", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - TEXT "Посмотрите историю всех оплаченных штрафов", 297x123px, constraints left/top, fill #FFFFFF, text [M3/title/large], [heading]
+  - RECTANGLE "Rectangle", 220x220px, constraints left/top, fill image(hash: a3c28a0551ebc0e27b5fb7379933a2df4d6f6be3)
+  - INSTANCE "Base Component", 90x40px, vertical pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 100px, fill M3/sys/dark/primary
+    - TEXT "label-text", 42x20px, constraints center/center, fill M3/sys/dark/on-primary, text [M3/label/large]
+  - INSTANCE "button (Dark)", 90x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 90x40px, vertical pad 10 24 10 24px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 100px, stroke M3/sys/dark/outline 1px
+      - TEXT "label-text", 42x20px, constraints left_right/scale, fill M3/sys/dark/primary, text [M3/label/large]
+  - VECTOR "Vector 7", 97.5x0px, constraints left/top, stroke #E9B2FE 3px
+  - VECTOR "Vector 8", 97.5x0px, constraints left/top, stroke #E9B2FE 3px
+  - VECTOR "Vector 9", 97.5x0px, constraints left/top, stroke #E9B2FE 3px
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+
+Screen: Page 1 / register1
+- FRAME "register1", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - TEXT "Остался последний шаг ! Пройдите регистрацию или войдите в а", 354x123px, constraints left/top, fill #FFFFFF, text [M3/title/large], [heading]
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - RECTANGLE "Rectangle", 233x233px, constraints left/top, fill image(hash: 0fe6b971d798dfa0ded1590bdc0e938a321fb616)
+  - RECTANGLE "Rectangle 1355", 55x65px, constraints left/top, radius 20px, fill #1F1F1F
+  - RECTANGLE "Rectangle 1356", 59x143px, constraints left/top, radius 40/14/7/7px, fill #1F1F1F
+  - GROUP "Group 10", 348x50px, constraints left/top, radius 25px
+    - RECTANGLE "Rectangle 27", 348x50px, constraints left/top, radius 25px, fill #E9B2FF
+    - TEXT "Войти в аккаунт", 165.4x20px, constraints left/top, fill #4F0076, text [M3/label/large]
+  - GROUP "Group 11", 348x50px, constraints left/top, radius 45px
+    - RECTANGLE "Rectangle 27", 348x50px, constraints left/top, radius 45px, stroke #E9B2FF 1px
+    - TEXT "Зарегистрироваться", 201.36x20px, constraints left/top, fill #E9B2FF, text [M3/label/large]
+
+Screen: Page 1 / Вход
+- FRAME "Вход", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - INSTANCE "56 Big Input Icon / Active", 348x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Optional label", 348x16px, constraints left_right/top, fill M3/sys/dark/primary, text [Roboto Black, 14px]
+    - FRAME "Input", 348x56px, constraints left/top
+      - INSTANCE "Base Field 4 4 4 4", 348x56px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Base", 348x56px, constraints scale/scale, radius 4px, fill #1F1F1F, stroke M3/sys/dark/primary 2px
+      - GROUP "Icon", 316x24px, constraints left/top
+        - INSTANCE "Solid / Star Solid", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #606060, opacity 20%
+          - VECTOR "Vector", 18.39x17.56px, constraints scale/scale, fill Neutral / Neutral 50
+        - TEXT "Optional placeholder", 284x24px, constraints left_right/top, fill Neutral / Neutral 90, text [Roboto Black, 16px]
+  - INSTANCE "56 Big Input Icon / Active", 348x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Optional label", 348x16px, constraints left_right/top, fill M3/sys/dark/primary, text [Roboto Black, 14px]
+    - FRAME "Input", 348x56px, constraints left/top
+      - INSTANCE "Base Field 4 4 4 4", 348x56px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Base", 348x56px, constraints scale/scale, radius 4px, fill #1F1F1F, stroke M3/sys/dark/primary 2px
+      - GROUP "Icon", 316x24px, constraints left/top
+        - INSTANCE "Solid / Star Solid", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #606060, opacity 20%
+          - VECTOR "Vector", 18.39x17.56px, constraints scale/scale, fill Neutral / Neutral 50
+        - TEXT "Optional placeholder", 284x24px, constraints left_right/top, fill #FFFFFF, text [Roboto Black, 16px]
+  - GROUP "Group 12", 348x50px, constraints left/top, radius 25px
+    - RECTANGLE "Rectangle 27", 348x50px, constraints left/top, radius 25px, fill #E9B2FF
+    - TEXT "Войти в аккаунт", 165.4x20px, constraints left/top, fill #4F0076, text [M3/label/large]
+  - GROUP "Group 13", 348x50px, constraints left/top, radius 45px
+    - RECTANGLE "Rectangle 27", 348x50px, constraints left/top, radius 45px, fill #0062FF, stroke #0062FF 1px
+    - TEXT "Войти с помощью VTB ID", 201.36x20px, constraints left/top, fill #FFFFFF, text [M3/label/large]
+  - FRAME "arrow_back", 24x24px, constraints left/top, fill #E9B2FF
+    - VECTOR "Vector", 24x24px, constraints scale/scale
+    - VECTOR "Vector", 16x16px, constraints scale/scale, fill #E9B2FF
+  - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/primary, text [M3/title/large], [heading]
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+
+Screen: Page 1 / Регистрация_1
+- FRAME "Регистрация_1", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - INSTANCE "56 Big Input Icon / Active", 348x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Optional label", 348x16px, constraints left_right/top, fill M3/sys/dark/primary, text [Roboto Black, 14px]
+    - FRAME "Input", 348x56px, constraints left/top
+      - INSTANCE "Base Field 4 4 4 4", 348x56px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Base", 348x56px, constraints scale/scale, radius 4px, fill #1F1F1F, stroke M3/sys/dark/primary 2px
+      - GROUP "Icon", 316x24px, constraints left/top
+        - INSTANCE "Solid / Star Solid", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #606060, opacity 20%
+          - VECTOR "Vector", 18.39x17.56px, constraints scale/scale, fill Neutral / Neutral 50
+        - TEXT "Optional placeholder", 284x24px, constraints left_right/top, fill Neutral / Neutral 90, text [Roboto Black, 16px]
+  - INSTANCE "56 Big Input Icon / Active", 348x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Optional label", 348x16px, constraints left_right/top, fill M3/sys/dark/primary, text [Roboto Black, 14px]
+    - FRAME "Input", 348x56px, constraints left/top
+      - INSTANCE "Base Field 4 4 4 4", 348x56px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Base", 348x56px, constraints scale/scale, radius 4px, fill #1F1F1F, stroke M3/sys/dark/primary 2px
+      - GROUP "Icon", 316x24px, constraints left/top
+        - INSTANCE "Solid / Star Solid", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #606060, opacity 20%
+          - VECTOR "Vector", 18.39x17.56px, constraints scale/scale, fill Neutral / Neutral 50
+        - TEXT "Optional placeholder", 284x24px, constraints left_right/top, fill #FFFFFF, text [Roboto Black, 16px]
+  - INSTANCE "56 Big Input Icon / Active", 348x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Optional label", 348x16px, constraints left_right/top, fill M3/sys/dark/primary, text [Roboto Black, 14px]
+    - FRAME "Input", 348x56px, constraints left/top
+      - INSTANCE "Base Field 4 4 4 4", 348x56px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Base", 348x56px, constraints scale/scale, radius 4px, fill #1F1F1F, stroke M3/sys/dark/primary 2px
+      - GROUP "Icon", 316x24px, constraints left/top
+        - INSTANCE "Solid / Star Solid", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #606060, opacity 20%
+          - VECTOR "Vector", 18.39x17.56px, constraints scale/scale, fill Neutral / Neutral 50
+        - TEXT "Optional placeholder", 284x24px, constraints left_right/top, fill #FFFFFF, text [Roboto Black, 16px]
+  - GROUP "Group 12", 348x50px, constraints left/top, radius 25px
+    - RECTANGLE "Rectangle 27", 348x50px, constraints left/top, radius 25px, fill #E9B2FF
+    - TEXT "Далее", 165.4x20px, constraints left/top, fill #4F0076, text [M3/label/large]
+  - GROUP "Group 13", 348x50px, constraints left/top, radius 45px
+    - RECTANGLE "Rectangle 27", 348x50px, constraints left/top, radius 45px, fill #0062FF, stroke #0062FF 1px
+    - TEXT "Регистрация с помощью VTB ID", 214x20px, constraints left/top, fill #FFFFFF, text [M3/label/large]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+      - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+  - VECTOR "Vector", 16x16px, constraints scale/scale, fill #E7E0E4
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+
+Screen: Page 1 / Регистрация_1
+- FRAME "Регистрация_1", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - INSTANCE "56 Big Input Icon / Active", 348x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Optional label", 348x16px, constraints left_right/top, fill M3/sys/dark/primary, text [Roboto Black, 14px]
+    - FRAME "Input", 348x56px, constraints left/top
+      - INSTANCE "Base Field 4 4 4 4", 348x56px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Base", 348x56px, constraints scale/scale, radius 4px, fill #1F1F1F, stroke M3/sys/dark/primary 2px
+      - GROUP "Icon", 316x24px, constraints left/top
+        - INSTANCE "Solid / Star Solid", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #606060, opacity 20%
+          - VECTOR "Vector", 18.39x17.56px, constraints scale/scale, fill Neutral / Neutral 50
+        - TEXT "Optional placeholder", 284x24px, constraints left_right/top, fill Neutral / Neutral 90, text [Roboto Black, 16px]
+  - INSTANCE "56 Big Input Icon / Active", 348x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Optional label", 348x16px, constraints left_right/top, fill M3/sys/dark/primary, text [Roboto Black, 14px]
+    - FRAME "Input", 348x56px, constraints left/top
+      - INSTANCE "Base Field 4 4 4 4", 348x56px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Base", 348x56px, constraints scale/scale, radius 4px, fill #1F1F1F, stroke M3/sys/dark/primary 2px
+      - GROUP "Icon", 316x24px, constraints left/top
+        - INSTANCE "Solid / Star Solid", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #606060, opacity 20%
+          - VECTOR "Vector", 18.39x17.56px, constraints scale/scale, fill Neutral / Neutral 50
+        - TEXT "Optional placeholder", 284x24px, constraints left_right/top, fill #FFFFFF, text [Roboto Black, 16px]
+  - GROUP "Group 12", 348x50px, constraints left/top, radius 25px
+    - RECTANGLE "Rectangle 27", 348x50px, constraints left/top, radius 25px, fill #E9B2FF
+    - TEXT "Зарегестрироваться", 165.4x20px, constraints left/top, fill #4F0076, text [M3/label/large]
+  - GROUP "Group 13", 348x50px, constraints left/top, radius 45px
+    - RECTANGLE "Rectangle 27", 348x50px, constraints left/top, radius 45px, fill #0062FF, stroke #0062FF 1px
+    - TEXT "Регистрация с помощью VTB ID", 214x20px, constraints left/top, fill #FFFFFF, text [M3/label/large]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+      - TEXT "headline", 296x28px, constraints center/bottom, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+  - VECTOR "Vector", 16x16px, constraints scale/scale, fill #E7E0E4
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+
+Screen: Page 1 / demo
+- FRAME "demo", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - TEXT "Header", 328x40px, constraints left/top, fill #FFFFFF, text [Default/Large_Title_1], [heading]
+  - TEXT "Text", 328x72px, constraints left/top, fill Light/Text/Secondary, text [Default/Body_2]
+  - INSTANCE "01 Circle", 72x72px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Background", 72x72px, constraints scale/scale
+    - GROUP "Button", 48x48px, constraints scale/scale
+      - ELLIPSE "Background Button", 48x48px, constraints scale/scale, fill M3/sys/dark/primary
+      - INSTANCE "Outline / Arrow Right Outline", 28x28px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Union", 16.17x14.42px, constraints scale/scale, fill M3/sys/dark/primary-container
+    - ELLIPSE "Page", 72x72px, constraints scale/scale, fill M3/sys/dark/primary
+  - GROUP "Group 1", 111.31x85.62px, constraints left/top, effect [drop_shadow 2.75px offset 0 3.43 #E9B2FF06, drop_shadow 6.95px offset 0 8.69 #E9B2FF08, drop_shadow 14.18px offset 0 17.72 #E9B2FF0A, drop_shadow 29.2px offset 0 36.5 #E9B2FF0C, drop_shadow 80px offset 0 100 #E9B2FF12]
+    - VECTOR "Vector", 111.31x51.38px, constraints scale/scale, fill #E9B2FF
+    - VECTOR "Vector", 77.06x25.69px, constraints scale/scale, fill #D671FF
+    - VECTOR "Vector", 94.19x44.95px, constraints scale/scale, fill gradient_linear(#FFFFFF99 0% | #FFFFFF1A 100%)
+  - FRAME "navigation", 412x28px, constraints left/top
+    - RECTANGLE "Home", 72x2px, constraints center/top_bottom, radius 8px, fill M3/read-only/light/white, effect [drop_shadow 13px offset 0 4 #00000040]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+
+Screen: Page 1 / card
+- FRAME "card", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - COMPONENT "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 231x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 24x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - FRAME "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 396x92px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 310x48px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 138x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - INSTANCE "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 285x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 134x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - INSTANCE "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 107x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 38x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - INSTANCE "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 107x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 41x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - INSTANCE "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 191x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 71x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - INSTANCE "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 191x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 27x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - VECTOR "Union", 21x16.33px, constraints scale/scale, fill Grey / 90
+  - FRAME "media", 381x315px, constraints center/center, radius 15px, fill image(hash: a5e6331d33f97ca77a1defc2ffc701bbb4a95479)
+    - FRAME "03 Location", 59.43x59.43px, constraints left/top
+      - ELLIPSE "Bg", 59.43x59.43px, constraints scale/scale, fill Light/Background/Secondary, opacity 20%
+      - ELLIPSE "location", 21.39x21.39px, constraints scale/scale, fill M3/sys/dark/primary-container, stroke Light/Element/Static_white 2px
+  - INSTANCE "button (Dark)", 130x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 130x40px, horizontal pad 10 24 10 16px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 100px, fill M3/sys/dark/primary
+      - INSTANCE "icon", 18x18px, constraints right/center
+        - VECTOR "Vector", 18x18px, constraints scale/scale
+        - VECTOR "Vector", 15x12px, constraints scale/scale, fill M3/sys/dark/on-primary
+      - TEXT "label-text", 64x20px, constraints left_right/scale, fill M3/sys/dark/on-primary, text [M3/label/large]
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+        - VECTOR "icon", 16x16px, constraints scale/scale, fill M3/sys/dark/on-surface
+      - TEXT "headline", 245x28px, constraints left_right/top, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+      - FRAME "trailing-icon", 24x24px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints right/top
+        - INSTANCE "trailing-icon 1", 24x24px, constraints scale/scale
+          - VECTOR "icon", 4x16px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+
+Screen: Page 1 / card
+- FRAME "card", 412x892px, constraints left/top, radius 18px, fill #1F1F1F, stroke #8E918F80 8px
+  - INSTANCE "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 107x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 38x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - INSTANCE "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 107x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 41x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - INSTANCE "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 191x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 71x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - INSTANCE "ΩElements/2. Text tiles/a. Overline+Headline 6+Avatar", 412x70px, constraints scale/scale
+    - TEXT "✏️ Headline 6", 191x24px, constraints left/top, fill On Surface / High Emphasis, text [Headline 6], [heading]
+    - TEXT "✏️ OVERLINE", 27x16px, constraints left/top, fill #E9B2FF, text [M3/labelSmall]
+    - INSTANCE "info_outline", 24x24px, constraints left/top
+      - GROUP "Group", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #E2E2E2
+  - FRAME "status bar", 412x53px, horizontal pad 10 24 10 24px gap 286px align space_between/max sizing W:fixed H:fixed, constraints left/top, fill #1D1B1E
+    - TEXT "Time", 29x20px, constraints scale/scale, fill M3/read-only/light/white, text [Roboto Medium, 14px]
+    - GROUP "right icons", 46x17px, constraints left/top [decorative, ~8 shapes]
+  - INSTANCE "top-app-bar (Dark)", 412x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Base Component", 412x64px, constraints scale/scale, fill M3/sys/dark/surface
+      - INSTANCE "leading-icon", 24x24px, constraints left/top
+        - VECTOR "icon", 16x16px, constraints scale/scale, fill M3/sys/dark/on-surface
+      - TEXT "headline", 75x28px, constraints left_right/top, fill M3/sys/dark/on-surface, text [M3/title/large], [heading]
+      - FRAME "trailing-icon", 24x24px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints right/top
+        - INSTANCE "trailing-icon 1", 24x24px, constraints scale/scale
+          - VECTOR "icon", 4x16px, constraints scale/scale, fill M3/sys/dark/on-surface-variant
+
+Screen: Page 1 / simple dialog
+- INSTANCE "simple dialog", 312x289px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE "Base Component", 312x289px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints scale/scale, radius 28px, fill M3/read-only/dark/surface3
+    - FRAME "Text Content", 312x201px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Title & Description", 312x201px, vertical pad 24 24 0 24px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 2608130", 264x29px, constraints left/top
+          - INSTANCE "Icon", 24x24px, constraints center/top
+            - VECTOR "icon", 17.2x22px, constraints scale/scale, fill M3/sys/dark/on-surface, stroke #979797 0px
+        - TEXT "Title", 264x32px, constraints center/top, fill M3/sys/dark/on-surface, stroke #979797 0px, text [M3/headline/small], [heading]
+        - TEXT "Body", 264x100px, constraints left_right/top_bottom, fill M3/sys/dark/on-surface-variant, text [M3/body/medium]
+    - FRAME "Actions", 312x88px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fill H:fixed, constraints left_right/bottom
+      - FRAME "Actions", 194x88px, horizontal pad 24 24 24 8px gap 8px align min/center sizing W:fixed H:fixed, constraints right/bottom
+        - INSTANCE "button (Dark)", 77x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Base Component", 77x40px, vertical pad 10 12 10 12px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 100px
+            - TEXT "label-text", 58x20px, constraints left_right/scale, fill M3/sys/dark/primary, text [M3/label/large]
+
+Screen: Page 1 / Основные экраны
+- TEXT "Основные экраны", 955x132px, constraints left/top, fill #000000, text [DM Sans Bold, 101.14px], [heading]
+
+Screen: Page 1 / Дополнительное
+- TEXT "Дополнительное", 905x132px, constraints left/top, fill #000000, text [DM Sans Bold, 101.14px], [heading]
+
+Screen: Page 1 / Plugin / file cover - 1
+- FRAME "Plugin / file cover - 1", 1920x960px, constraints left/top, fill #DFD5EC
+  - RECTANGLE "image 2", 1688x771px, constraints left/top, fill image(hash: 2317a856ead4215f13d19cb9df190e568e6f17b4)
+
+Screen: Page 1 / Navigation Drawer
+- INSTANCE "Navigation Drawer", 317x841px, vertical pad 12 12 12 12px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #1D1B1E
+  - FRAME "Product Lockup", 336x56px, vertical pad 8 8 8 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "18sp Lockup", 312x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Product", 269x20px, constraints left_right/center, fill #E7E0E4, text [M3/title/medium], [heading]
+  - INSTANCE "Section Header", 336x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 99x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 40x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill M3/sys/light/secondary-container
+    - INSTANCE "Icon", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill M3/sys/light/on-secondary-container, stroke #979797 0px
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 128x20px, constraints scale/center, fill M3/sys/light/on-secondary-container, text [Roboto Bold, 14px]
+      - TEXT "Metadata", 9x20px, constraints scale/center, fill M3/sys/light/on-secondary-container, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #1F1F1F
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+      - VECTOR "icon", 14x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 145x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/03", 24x24px, constraints scale/scale
+      - RECTANGLE "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 104x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/04", 24x24px, constraints scale/scale
+      - REGULAR_POLYGON "icon", 14x14px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 61x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - FRAME "Divider", 336x1px, vertical pad 0 16 0 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - RECTANGLE "Line", 304x1px, constraints center/scale, fill M3/sys/light/outline
+  - INSTANCE "Section Header", 336x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 99x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 48x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/01", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 73x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+      - VECTOR "icon", 14x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 37x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+
+Screen: Page 1 / Navigation Drawer
+- INSTANCE "Navigation Drawer", 317x841px, vertical pad 12 12 12 12px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #1D1B1E
+  - FRAME "Product Lockup", 336x56px, vertical pad 8 8 8 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "18sp Lockup", 312x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Product", 269x20px, constraints left_right/center, fill #E7E0E4, text [M3/title/medium], [heading]
+  - INSTANCE "Section Header", 336x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 99x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 40x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - INSTANCE "Icons/01", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill #F0DCF4, stroke #979797 0px
+    - FRAME "Text", 198x20px, horizontal pad 0 0 0 0px gap 70px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 128x20px, constraints scale/center, fill #F0DCF4, text [Roboto Bold, 14px]
+      - TEXT "Metadata", 9x20px, constraints scale/center, fill #F0DCF4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+      - VECTOR "icon", 14x12px, constraints scale/scale, fill #231728
+    - FRAME "Text", 198x20px, horizontal pad 0 0 0 0px gap 70px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 145x20px, constraints scale/center, fill #231728, text [Roboto Bold, 14px]
+      - TEXT "Metadata", 0x20px, constraints scale/center, fill #231728, text [M3/label/large]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/03", 24x24px, constraints scale/scale
+      - RECTANGLE "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 104x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/04", 24x24px, constraints scale/scale
+      - REGULAR_POLYGON "icon", 14x14px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 61x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - FRAME "Divider", 336x1px, vertical pad 0 16 0 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - RECTANGLE "Line", 304x1px, constraints center/scale, fill M3/sys/light/outline
+  - INSTANCE "Section Header", 336x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 99x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 48x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/01", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 73x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 336x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+      - VECTOR "icon", 14x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 260x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 37x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+
+Screen: Page 1 / Navigation Drawer
+- FRAME "Navigation Drawer", 317x841px, vertical pad 12 12 12 12px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #1D1B1E
+  - FRAME "Product Lockup", 293x56px, vertical pad 8 8 8 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "18sp Lockup", 269x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Product", 269x20px, constraints left_right/center, fill #E7E0E4, text [M3/title/medium], [heading]
+  - INSTANCE "Section Header", 293x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 40x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 40x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - INSTANCE "Icons/01", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill #F0DCF4, stroke #979797 0px
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 128x20px, constraints scale/center, fill #F0DCF4, text [Roboto Bold, 14px]
+      - TEXT "Metadata", 9x20px, constraints scale/center, fill #F0DCF4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/03", 24x24px, constraints scale/scale
+      - RECTANGLE "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 145x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+      - VECTOR "icon", 14x12px, constraints scale/scale, fill #231728
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 104x20px, constraints scale/center, fill #231728, text [Roboto Bold, 14px]
+      - TEXT "Metadata", 0x20px, constraints scale/center, fill #231728, text [M3/label/large]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/04", 24x24px, constraints scale/scale
+      - REGULAR_POLYGON "icon", 14x14px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 61x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - FRAME "Divider", 293x1px, vertical pad 0 16 0 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - RECTANGLE "Line", 261x1px, constraints center/scale, fill M3/sys/light/outline
+  - INSTANCE "Section Header", 293x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 48x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 48x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/01", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 73x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+      - VECTOR "icon", 14x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 37x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+
+Screen: Page 1 / Navigation Drawer
+- FRAME "Navigation Drawer", 317x841px, vertical pad 12 12 12 12px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #1D1B1E
+  - FRAME "Product Lockup", 293x56px, vertical pad 8 8 8 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "18sp Lockup", 269x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Product", 269x20px, constraints left_right/center, fill #E7E0E4, text [M3/title/medium], [heading]
+  - INSTANCE "Section Header", 293x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 40x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 40x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - INSTANCE "Icons/01", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill #F0DCF4, stroke #979797 0px
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 128x20px, constraints scale/center, fill #F0DCF4, text [Roboto Bold, 14px]
+      - TEXT "Metadata", 9x20px, constraints scale/center, fill #F0DCF4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/03", 24x24px, constraints scale/scale
+      - RECTANGLE "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 145x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/01", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 104x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/04", 24x24px, constraints scale/scale
+      - REGULAR_POLYGON "icon", 14x14px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 61x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - FRAME "Divider", 293x1px, vertical pad 0 16 0 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - RECTANGLE "Line", 261x1px, constraints center/scale, fill M3/sys/light/outline
+  - INSTANCE "Section Header", 293x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 48x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 48x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+      - VECTOR "icon", 14x12px, constraints scale/scale, fill #231728
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 73x20px, constraints scale/center, fill #231728, text [Roboto Bold, 14px]
+      - TEXT "Metadata", 0x20px, constraints scale/center, fill #231728, text [M3/label/large]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+      - VECTOR "icon", 14x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 37x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+
+Screen: Page 1 / Navigation Drawer
+- FRAME "Navigation Drawer", 317x841px, vertical pad 12 12 12 12px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #1D1B1E
+  - FRAME "Product Lockup", 293x56px, vertical pad 8 8 8 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "18sp Lockup", 269x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Product", 269x20px, constraints left_right/center, fill #E7E0E4, text [M3/title/medium], [heading]
+  - INSTANCE "Section Header", 293x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 40x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 40x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - INSTANCE "Icons/01", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill #F0DCF4, stroke #979797 0px
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 128x20px, constraints scale/center, fill #F0DCF4, text [Roboto Bold, 14px]
+      - TEXT "Metadata", 9x20px, constraints scale/center, fill #F0DCF4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/03", 24x24px, constraints scale/scale
+      - RECTANGLE "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 145x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/01", 24x24px, constraints scale/scale
+      - VECTOR "icon", 12x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 104x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/04", 24x24px, constraints scale/scale
+      - REGULAR_POLYGON "icon", 14x14px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 61x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - FRAME "Divider", 293x1px, vertical pad 0 16 0 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - RECTANGLE "Line", 261x1px, constraints center/scale, fill M3/sys/light/outline
+  - INSTANCE "Section Header", 293x56px, horizontal pad 18 16 18 16px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px
+    - FRAME "Left", 48x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 48x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+      - VECTOR "icon", 14x12px, constraints scale/scale, fill #F0DCF4
+    - FRAME "Text", 217x20px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Label", 73x20px, constraints scale/center, fill #E7E0E4, text [Roboto Bold, 14px]
+  - INSTANCE "Nav Item", 293x56px, horizontal pad 16 24 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #FCFCFC
+    - INSTANCE "Icons/02", 24x24px, constraints scale/scale
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

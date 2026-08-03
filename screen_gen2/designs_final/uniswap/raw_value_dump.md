@@ -1,0 +1,817 @@
+---
+name: uniswap-app-community
+source_file: Uniswap App (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:21:55.838821+00:00
+---
+
+# Uniswap App (Community) Design Guidelines
+
+## Source
+- Figma file: Uniswap App (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:21:55.838821+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Label Color / Light / Primary: [#000000]
+- SystemOrange / Light: [#FF9500]
+
+## Raw Colors (unstyled)
+- #000000: 140 uses
+- #181818: 117 uses
+- #A9AAB2: 74 uses
+- #FFFFFF: 64 uses
+- #DADADA: 59 uses
+- #E5E5E5: 43 uses
+- #FF007A: 41 uses
+- #FCFCFE: 30 uses
+- #A9ABB2: 23 uses
+- #E8006F: 21 uses
+- #919299: 18 uses
+- #FF007A1A: 16 uses
+- #F4F5F7: 8 uses
+- #C4C4C4: 5 uses
+- #979797: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- SF Pro Text Medium, 16px: 55 uses
+- SF Pro Text Medium, 14px: 34 uses
+- SF Pro Display Regular, 25px: 30 uses
+- SF Pro Display Medium, 20px: 29 uses
+- SF Pro Text Bold, 10px: 27 uses
+- SF Pro Text Medium, 15px: 24 uses
+- SF Pro Display Medium, 18px: 19 uses
+- SF Pro Text Medium, 13px: 19 uses
+- SF Pro Display Semibold, 20px: 11 uses
+- SF Pro Display Medium, 24px: 4 uses
+- SF Pro Display Semibold, 18px: 3 uses
+- SF Pro Display Semibold, 28px: 3 uses
+
+## Typography Hierarchy
+- 28px - SF Pro Display Semibold, 28px (raw)
+- 25px - SF Pro Display Regular, 25px (raw)
+- 24px - SF Pro Display Medium, 24px (raw)
+- 20px - SF Pro Display Medium, 20px (raw)
+- 20px - SF Pro Display Semibold, 20px (raw)
+- 18px - SF Pro Display Medium, 18px (raw)
+- 18px - SF Pro Display Semibold, 18px (raw)
+- 16px - SF Pro Text Medium, 16px (raw)
+- 15px - SF Pro Text Medium, 15px (raw)
+- 14px - SF Pro Text Medium, 14px (raw)
+- 13px - SF Pro Text Medium, 13px (raw)
+- 10px - SF Pro Text Bold, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- iPhone X, 11 Pro
+
+## Component Specs
+- iPhone X, 11 Pro / Light / Base: size 375x44px, fill #FFFFFF
+
+## Most-Used Styles
+- Label Color / Light / Primary: 10 uses
+- SystemOrange / Light: 8 uses
+
+## Layout & Structure
+Screen: Page 1 / Onboarding
+- FRAME "Onboarding", 375x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Gradient_4 1", 1449x814px, constraints left/top, fill image(hash: fef14fc2e1e009fb7547f1161262876553be4299), opacity 50%
+  - RECTANGLE "Gradient_3 1", 1445x812px, constraints left/top
+  - TEXT "Buy, swap, and send crypto tokens.", 247x76px, constraints left/top, fill #000000, text [SF Pro Display Semibold, 28px], [heading]
+  - RECTANGLE "Rectangle 1", 326x64px, constraints left/top, radius 20px, fill #E8006F, effect [drop_shadow 1px offset 0 0 #00000005, drop_shadow 8px offset 0 4 #00000014, drop_shadow 24px offset 0 16 #00000014, drop_shadow 32px offset 0 24 #00000005]
+  - TEXT "Get started with a new wallet", 253x24px, constraints left/top, fill #FFF9F9, text [SF Pro Display Semibold, 20px]
+  - TEXT "or import an existing wallet", 236x24px, constraints left/top, fill #FF007A, text [SF Pro Display Semibold, 20px]
+  - FRAME "Tabloid - 60 1", 359x360px, constraints left/top, fill #FFFFFF [decorative, ~10 shapes]
+  - COMPONENT "iPhone X, 11 Pro / Light / Base", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - FRAME "Time / Light / Base", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+
+Screen: Page 1 / Home
+- FRAME "Home", 375x812px, constraints left/top, fill gradient_linear(#F6EAF3 0% | #EDF2FA 100%)
+  - TEXT "Uniswap", 65x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+  - TEXT "$1,297.59", 70x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+  - ELLIPSE "Ellipse 3", 40x40px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+  - GROUP "Group 8", 347x348px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Card", 347x348px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+    - VECTOR "Card", 347x348px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+    - LINE "Divider", 347x0px, constraints scale/scale, stroke #E5E5E5 1px
+    - TEXT "My Tokens", 92x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - TEXT "Ether", 41x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "Compound", 84x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "Dai", 25x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "$405.60", 62x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - TEXT "$897.59", 59x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - TEXT "$50.13", 49x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - TEXT "0.213 ETH", 69x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "14.32 COMP", 84x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "50.13 DAI", 65x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "-0.54%", 48x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+    - TEXT "-1.5%%", 50x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+    - TEXT "-0.234%", 56x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+    - ELLIPSE "Ellipse 1", 40x40px, constraints left/top, fill #C4C4C4
+    - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill image(hash: c09ded1da7bc8ee7669707364ca8aa5a0fff5108), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - ELLIPSE "Ellipse 2", 40x40px, constraints left/top, fill image(hash: 653c0dd652dc373ebaffcda69f376c1cd971905b), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill image(hash: 700200cb25b6fde7dbcfb0c7bcc8bc96032bb777), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+  - INSTANCE "iPhone X, 11 Pro / Light / Base", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - FRAME "Time / Light / Base", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - GROUP "Group 5", 347x290px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Card", 347x290px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+    - RECTANGLE "IMG_5975 2 1", 347x146px, constraints left/top, fill image(hash: c5483b5543813222996a57bd716737cf18c81fc4)
+    - TEXT "Portfolio", 72x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - TEXT "$2,650.32", 94x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - TEXT "-0.54%", 58x19px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 16px]
+    - TEXT "H", 13x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+    - TEXT "W", 16x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+    - TEXT "Y", 11x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+    - RECTANGLE "Rectangle 11", 36x28px, constraints left/top, radius 8px, fill #FF007A1A
+    - TEXT "D", 12x19px, constraints left/top, fill #FF007A, text [SF Pro Text Medium, 16px]
+  - GROUP "Group 25", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 40x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - FRAME "search 1", 28x28px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20.07x20.07px, constraints scale/scale, fill #E8006F
+  - GROUP "Group 6", 347x64px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 14", 347x64px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+    - FRAME "send 2", 28x28px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 21.02x20.99px, constraints scale/scale, fill #FF007A
+    - RECTANGLE "Rectangle 17", 1.5x64px, constraints left/top, fill #E5E5E5
+    - RECTANGLE "Rectangle 18", 1.5x64px, constraints left/top, fill #E5E5E5
+    - TEXT "Buy", 31x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+    - TEXT "Send", 41x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+    - TEXT "Swap", 44x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+    - FRAME "creditcard 2", 28x28px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 21x14.88px, constraints scale/scale, fill #FF007A
+    - FRAME "transfers 2", 28x28px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 21x21px, constraints scale/scale, fill #FF007A
+  - GROUP "Group 24", 144x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 12", 144x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - ELLIPSE "Ellipse 6", 24x24px, constraints left/top, fill image(hash: 77e1604300efb3b90715e09bf8d688a297ac8c66), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - FRAME "chevrondown 1", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #E8006F
+    - TEXT "tiago.eth", 68x21px, constraints left/top, fill #E8006F, text [SF Pro Display Medium, 18px]
+  - GROUP "Group 22", 375x77px, constraints left/top [decorative, ~6 shapes]
+
+Screen: Page 1 / Swap
+- FRAME "Swap", 375x812px, constraints left/top, fill gradient_linear(#F6EAF3 0% | #EDF2FA 100%)
+  - GROUP "Group 18", 375x850px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 40x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - TEXT "Uniswap", 65x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "$1,297.59", 70x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - ELLIPSE "Ellipse 3", 40x40px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - GROUP "Group 8", 347x348px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Card", 347x348px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - VECTOR "Card", 347x348px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - LINE "Divider", 347x0px, constraints scale/scale, stroke #E5E5E5 1px
+      - TEXT "My tokens", 89x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "Ether", 41x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+      - TEXT "Compound", 84x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+      - TEXT "Dai", 25x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+      - TEXT "$405.60", 62x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+      - TEXT "$897.59", 59x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+      - TEXT "$50.13", 49x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+      - TEXT "0.213 ETH", 69x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "14.32 COMP", 84x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "50.13 DAI", 65x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "-0.54%", 48x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+      - TEXT "-1.5%%", 50x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+      - TEXT "-0.234%", 56x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+      - ELLIPSE "Ellipse 1", 40x40px, constraints left/top, fill #C4C4C4
+      - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill image(hash: c09ded1da7bc8ee7669707364ca8aa5a0fff5108), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+      - ELLIPSE "Ellipse 2", 40x40px, constraints left/top, fill image(hash: 653c0dd652dc373ebaffcda69f376c1cd971905b), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+      - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill image(hash: 700200cb25b6fde7dbcfb0c7bcc8bc96032bb777), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - INSTANCE "iPhone X, 11 Pro / Light / Base", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+        - FRAME "Time / Light / Base", 54x21px, constraints left/top, radius 32px
+          - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+    - GROUP "Group 5", 347x290px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Card", 347x290px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - TEXT "Portfolio", 72x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "$2,650.32", 94x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "-0.54%", 58x19px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 16px]
+      - RECTANGLE "IMG_5975 2", 347x148px, constraints left/top, fill image(hash: bfb1d0eda3f7d6e369b675a66f2c7751de294f9e)
+      - TEXT "H", 13x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "W", 16x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "Y", 11x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - RECTANGLE "Rectangle 11", 36x28px, constraints left/top, radius 8px, fill #FF007A1A
+      - TEXT "D", 12x19px, constraints left/top, fill #FF007A, text [SF Pro Text Medium, 16px]
+    - FRAME "search 1", 28x28px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20.07x20.07px, constraints scale/scale, fill #E8006F
+    - GROUP "Group 6", 347x64px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 14", 347x64px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - FRAME "send 2", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21.02x20.99px, constraints scale/scale, fill #FF007A
+      - RECTANGLE "Rectangle 17", 1.5x64px, constraints left/top, fill #E5E5E5
+      - RECTANGLE "Rectangle 18", 1.5x64px, constraints left/top, fill #E5E5E5
+      - TEXT "Buy", 31x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - TEXT "Send", 41x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - TEXT "Swap", 44x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - FRAME "creditcard 2", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21x14.88px, constraints scale/scale, fill #FF007A
+      - FRAME "transfers 2", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21x21px, constraints scale/scale, fill #FF007A
+    - RECTANGLE "Rectangle 12", 144x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - ELLIPSE "Ellipse 6", 24x24px, constraints left/top, fill image(hash: 77e1604300efb3b90715e09bf8d688a297ac8c66), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - FRAME "chevrondown 1", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #E8006F
+    - TEXT "tiago.eth", 68x21px, constraints left/top, fill #E8006F, text [SF Pro Display Medium, 18px]
+    - GROUP "Group 17", 375x77px, constraints left/top [decorative, ~6 shapes]
+  - RECTANGLE "Rectangle 15", 375x812px, constraints left/top, fill #00000080
+  - VECTOR "Card", 375x699px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+  - RECTANGLE "Handle", 40x6px, constraints scale/scale, radius 100px, fill #E5E5E5
+  - RECTANGLE "Rectangle 16", 325x98px, constraints left/top, radius 20px, fill #F4F5F7, stroke #E5E5E5 1px
+  - TEXT "Swap Tokens", 114x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+  - FRAME "gear 1", 28x28px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.75x22.75px, constraints scale/scale, fill #A9ABB2
+  - GROUP "Group 40", 325x98px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 20", 325x98px, constraints left/top, radius 20px, fill #F4F5F7, stroke #E5E5E5 1px
+    - GROUP "Group 39", 113x40px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 18", 113x40px, constraints left/top, radius 100px, fill #FFFFFF, stroke #E5E5E5 1px, effect [drop_shadow 1px offset 0 1 #00000005, drop_shadow 8px offset 0 4 #0000000A]
+      - ELLIPSE "Ellipse 6", 24x24px, constraints left/top, fill image(hash: 700200cb25b6fde7dbcfb0c7bcc8bc96032bb777), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+      - FRAME "chevrondown 2", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #181818
+      - TEXT "DAI", 29x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+    - TEXT "500", 53x33px, constraints left/top, fill #181818, text [SF Pro Display Semibold, 28px], [heading]
+    - TEXT "$499.419", 66x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "Balance: 250 DAI", 116x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+  - GROUP "Group 43", 325x98px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 19", 325x98px, constraints left/top, radius 20px, fill #F4F5F7, stroke #E5E5E5 1px
+    - GROUP "Group 42", 293x68px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 41", 113x40px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 12", 113x40px, constraints left/top, radius 100px, fill #FFFFFF, stroke #E5E5E5 1px, effect [drop_shadow 1px offset 0 1 #00000005, drop_shadow 8px offset 0 4 #0000000A]
+        - ELLIPSE "Ellipse 5", 24x24px, constraints left/top, fill image(hash: c09ded1da7bc8ee7669707364ca8aa5a0fff5108), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+        - FRAME "chevrondown 1", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #181818
+        - TEXT "ETH", 34x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - TEXT "0.28014", 107x33px, constraints left/top, fill #A9AAB2, text [SF Pro Display Semibold, 28px], [heading]
+      - TEXT "$499.749", 66x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "Balance: 0.0661 ETH", 141x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+  - GROUP "Group 44", 32x32px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 17", 32x32px, constraints left/top, radius 12px, fill #F2F3F5, stroke #FFFFFF 4px
+    - FRAME "arrowdown 1", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10.63x13.75px, constraints scale/scale, fill #000000
+  - GROUP "Group 38", 325x64px, constraints left/top, radius 20px
+    - RECTANGLE "Rectangle 14", 325x64px, constraints left/top, radius 20px, fill #E8006F, effect [drop_shadow 1px offset 0 0 #00000005, drop_shadow 8px offset 0 4 #0000001A, drop_shadow 24px offset 0 16 #0000001A, drop_shadow 32px offset 0 24 #00000005]
+    - TEXT "Swap", 50x24px, constraints left/top, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - FRAME "Light / Numeric", 375x291px, constraints left/top, fill #CCCED3
+    - FRAME "Background", 375x291px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "background", 375x291px, constraints scale/scale, fill #D1D5DB, effect [background_blur 108.73px]
+    - FRAME "Home Indicator", 375x34px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000, stroke #979797 0px
+    - GROUP "Keys", 363x207px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Delete", 24x17.99px, constraints scale/scale, fill #000000
+      - FRAME "0", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "9", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "8", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "7", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "6", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "5", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "4", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "3", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "2", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "1", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+
+Screen: Page 1 / Buy
+- FRAME "Buy", 375x812px, constraints left/top, fill gradient_linear(#F6EAF3 0% | #EDF2FA 100%)
+  - GROUP "Group 18", 375x850px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 40x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - TEXT "Uniswap", 65x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "$1,297.59", 70x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - ELLIPSE "Ellipse 3", 40x40px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - GROUP "Group 8", 347x348px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Card", 347x348px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - VECTOR "Card", 347x348px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - LINE "Divider", 347x0px, constraints scale/scale, stroke #E5E5E5 1px
+      - TEXT "My tokens", 89x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "Ether", 41x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+      - TEXT "Compound", 84x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+      - TEXT "Dai", 25x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+      - TEXT "$405.60", 62x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+      - TEXT "$897.59", 59x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+      - TEXT "$50.13", 49x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+      - TEXT "0.213 ETH", 69x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "14.32 COMP", 84x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "50.13 DAI", 65x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "-0.54%", 48x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+      - TEXT "-1.5%%", 50x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+      - TEXT "-0.234%", 56x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+      - ELLIPSE "Ellipse 1", 40x40px, constraints left/top, fill #C4C4C4
+      - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill image(hash: c09ded1da7bc8ee7669707364ca8aa5a0fff5108), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+      - ELLIPSE "Ellipse 2", 40x40px, constraints left/top, fill image(hash: 653c0dd652dc373ebaffcda69f376c1cd971905b), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+      - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill image(hash: 700200cb25b6fde7dbcfb0c7bcc8bc96032bb777), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - INSTANCE "iPhone X, 11 Pro / Light / Base", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+        - FRAME "Time / Light / Base", 54x21px, constraints left/top, radius 32px
+          - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+    - GROUP "Group 5", 347x290px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Card", 347x290px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - TEXT "Portfolio", 72x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "$2,650.32", 94x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "-0.54%", 58x19px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 16px]
+      - RECTANGLE "IMG_5975 2", 347x148px, constraints left/top, fill image(hash: bfb1d0eda3f7d6e369b675a66f2c7751de294f9e)
+      - TEXT "H", 13x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "W", 16x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "Y", 11x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - RECTANGLE "Rectangle 11", 36x28px, constraints left/top, radius 8px, fill #FF007A1A
+      - TEXT "D", 12x19px, constraints left/top, fill #FF007A, text [SF Pro Text Medium, 16px]
+    - FRAME "search 1", 28x28px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20.07x20.07px, constraints scale/scale, fill #E8006F
+    - GROUP "Group 6", 347x64px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 14", 347x64px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - FRAME "send 2", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21.02x20.99px, constraints scale/scale, fill #FF007A
+      - RECTANGLE "Rectangle 17", 1.5x64px, constraints left/top, fill #E5E5E5
+      - RECTANGLE "Rectangle 18", 1.5x64px, constraints left/top, fill #E5E5E5
+      - TEXT "Buy", 31x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - TEXT "Send", 41x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - TEXT "Swap", 44x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - FRAME "creditcard 2", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21x14.88px, constraints scale/scale, fill #FF007A
+      - FRAME "transfers 2", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21x21px, constraints scale/scale, fill #FF007A
+    - RECTANGLE "Rectangle 12", 144x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - ELLIPSE "Ellipse 6", 24x24px, constraints left/top, fill image(hash: 77e1604300efb3b90715e09bf8d688a297ac8c66), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - FRAME "chevrondown 1", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #E8006F
+    - TEXT "tiago.eth", 68x21px, constraints left/top, fill #E8006F, text [SF Pro Display Medium, 18px]
+    - GROUP "Group 17", 375x77px, constraints left/top [decorative, ~6 shapes]
+  - RECTANGLE "Rectangle 15", 375x812px, constraints left/top, fill #00000080
+  - VECTOR "Card", 375x699px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+  - RECTANGLE "Handle", 40x6px, constraints scale/scale, radius 100px, fill #E5E5E5
+  - TEXT "Buy Tokens", 99x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+  - FRAME "gear 1", 28x28px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.75x22.75px, constraints scale/scale, fill #A9ABB2
+  - FRAME "Light / Numeric", 375x291px, constraints left/top, fill #CCCED3
+    - FRAME "Background", 375x291px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "background", 375x291px, constraints scale/scale, fill #D1D5DB, effect [background_blur 108.73px]
+    - FRAME "Home Indicator", 375x34px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000, stroke #979797 0px
+    - GROUP "Keys", 363x207px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Delete", 24x17.99px, constraints scale/scale, fill #000000
+      - FRAME "0", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "9", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "8", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "7", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "6", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "5", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "4", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "3", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "2", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "1", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+  - GROUP "Group 37", 325x64px, constraints left/top, radius 20px
+    - RECTANGLE "Rectangle 14", 325x64px, constraints left/top, radius 20px, fill #E8006F, effect [drop_shadow 1px offset 0 0 #00000005, drop_shadow 8px offset 0 4 #0000001A, drop_shadow 24px offset 0 16 #0000001A, drop_shadow 32px offset 0 24 #00000005]
+    - TEXT "Buy", 35x24px, constraints left/top, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+  - GROUP "Group 36", 325x64px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Rectangle 16", 161x64px, constraints left/top, radius 0/0/0/0px, fill #F4F5F7, stroke #E5E5E5 1px
+    - VECTOR "Rectangle 21", 161x64px, constraints left/top, radius 0/0/0/0px, fill #F4F5F7, stroke #E5E5E5 1px
+    - TEXT "2 UNI", 50x24px, constraints left/top, fill #181818, text [SF Pro Display Semibold, 20px]
+    - TEXT "$33.14", 63x24px, constraints left/top, fill #A9AAB2, text [SF Pro Display Semibold, 20px]
+    - RECTANGLE "Rectangle 17", 32x32px, constraints left/top, radius 12px, fill #F2F3F5, stroke #FFFFFF 4px
+    - TEXT "=", 13x24px, constraints left/top, fill #181818, text [SF Pro Display Regular, 20px]
+  - GROUP "Group 35", 325x127px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Rectangle 22", 325x64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, stroke #E5E5E5 1px, effect [drop_shadow 1px offset 0 1 #00000005, drop_shadow 8px offset 0 4 #0000000A]
+    - VECTOR "Rectangle 20", 325x64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, stroke #E5E5E5 1px, effect [drop_shadow 1px offset 0 1 #00000005, drop_shadow 8px offset 0 4 #0000000A]
+    - ELLIPSE "Ellipse 7", 40x40px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - TEXT "VISA 2124", 92x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - TEXT "UNI", 33x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - TEXT "Balance: 21.246 UNI", 137x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - FRAME "creditcard 1", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x17px, constraints scale/scale, fill #181818
+    - FRAME "chevrondown 4", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #979797
+    - FRAME "chevrondown 5", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #979797
+
+Screen: Page 1 / Send
+- FRAME "Send", 375x812px, constraints left/top, fill gradient_linear(#F6EAF3 0% | #EDF2FA 100%)
+  - GROUP "Group 18", 375x850px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 40x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - TEXT "Uniswap", 65x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "$1,297.59", 70x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - ELLIPSE "Ellipse 3", 40x40px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - GROUP "Group 8", 347x348px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Card", 347x348px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - VECTOR "Card", 347x348px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - LINE "Divider", 347x0px, constraints scale/scale, stroke #E5E5E5 1px
+      - TEXT "My tokens", 89x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "Ether", 41x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+      - TEXT "Compound", 84x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+      - TEXT "Dai", 25x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+      - TEXT "$405.60", 62x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+      - TEXT "$897.59", 59x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+      - TEXT "$50.13", 49x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+      - TEXT "0.213 ETH", 69x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "14.32 COMP", 84x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "50.13 DAI", 65x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+      - TEXT "-0.54%", 48x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+      - TEXT "-1.5%%", 50x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+      - TEXT "-0.234%", 56x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+      - ELLIPSE "Ellipse 1", 40x40px, constraints left/top, fill #C4C4C4
+      - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill image(hash: c09ded1da7bc8ee7669707364ca8aa5a0fff5108), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+      - ELLIPSE "Ellipse 2", 40x40px, constraints left/top, fill image(hash: 653c0dd652dc373ebaffcda69f376c1cd971905b), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+      - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill image(hash: 700200cb25b6fde7dbcfb0c7bcc8bc96032bb777), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - INSTANCE "iPhone X, 11 Pro / Light / Base", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+        - FRAME "Time / Light / Base", 54x21px, constraints left/top, radius 32px
+          - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+    - GROUP "Group 5", 347x290px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Card", 347x290px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - TEXT "Portfolio", 72x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "$2,650.32", 94x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "-0.54%", 58x19px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 16px]
+      - RECTANGLE "IMG_5975 2", 347x148px, constraints left/top, fill image(hash: bfb1d0eda3f7d6e369b675a66f2c7751de294f9e)
+      - TEXT "H", 13x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "W", 16x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "Y", 11x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - RECTANGLE "Rectangle 11", 36x28px, constraints left/top, radius 8px, fill #FF007A1A
+      - TEXT "D", 12x19px, constraints left/top, fill #FF007A, text [SF Pro Text Medium, 16px]
+    - FRAME "search 1", 28x28px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20.07x20.07px, constraints scale/scale, fill #E8006F
+    - GROUP "Group 6", 347x64px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 14", 347x64px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+      - FRAME "send 2", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21.02x20.99px, constraints scale/scale, fill #FF007A
+      - RECTANGLE "Rectangle 17", 1.5x64px, constraints left/top, fill #E5E5E5
+      - RECTANGLE "Rectangle 18", 1.5x64px, constraints left/top, fill #E5E5E5
+      - TEXT "Buy", 31x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - TEXT "Send", 41x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - TEXT "Swap", 44x21px, constraints left/top, fill #181818, text [SF Pro Display Medium, 18px]
+      - FRAME "creditcard 2", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21x14.88px, constraints scale/scale, fill #FF007A
+      - FRAME "transfers 2", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21x21px, constraints scale/scale, fill #FF007A
+    - RECTANGLE "Rectangle 12", 144x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - ELLIPSE "Ellipse 6", 24x24px, constraints left/top, fill image(hash: 77e1604300efb3b90715e09bf8d688a297ac8c66), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - FRAME "chevrondown 1", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #E8006F
+    - TEXT "tiago.eth", 68x21px, constraints left/top, fill #E8006F, text [SF Pro Display Medium, 18px]
+    - GROUP "Group 17", 375x77px, constraints left/top [decorative, ~6 shapes]
+  - RECTANGLE "Rectangle 15", 375x812px, constraints left/top, fill #00000080
+  - VECTOR "Card", 375x734px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+  - GROUP "Group 20", 325x324px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Fee: $0.877", 86x18px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 15px]
+    - VECTOR "Rectangle 15", 325x64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, stroke #E5E5E5 1px, effect [drop_shadow 1px offset 0 1 #00000005, drop_shadow 8px offset 0 4 #0000000A]
+    - VECTOR "Rectangle 20", 325x64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, stroke #E5E5E5 1px, effect [drop_shadow 1px offset 0 1 #00000005, drop_shadow 8px offset 0 4 #0000000A]
+    - VECTOR "Rectangle 16", 161x64px, constraints left/top, radius 0/0/0/0px, fill #F4F5F7, stroke #E5E5E5 1px
+    - VECTOR "Rectangle 21", 161x64px, constraints left/top, radius 0/0/0/0px, fill #F4F5F7, stroke #E5E5E5 1px
+    - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill image(hash: e76a6621ac211cb0007936397b3865c7badb1d66), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - ELLIPSE "Ellipse 7", 40x40px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - TEXT "taika.eth", 74x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - TEXT "UNI", 33x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - TEXT "18.05 UNI", 89x24px, constraints left/top, fill #A9AAB2, text [SF Pro Display Semibold, 20px]
+    - TEXT "$300", 51x24px, constraints left/top, fill #181818, text [SF Pro Display Semibold, 20px]
+    - TEXT "Max: 21.24 UNI / ~$351.94", 183x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - RECTANGLE "Rectangle 14", 325x64px, constraints left/top, radius 20px, fill #E8006F, effect [drop_shadow 1px offset 0 0 #00000005, drop_shadow 8px offset 0 4 #0000001A, drop_shadow 24px offset 0 16 #0000001A, drop_shadow 32px offset 0 24 #00000005]
+    - TEXT "Send", 46x24px, constraints left/top, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+    - RECTANGLE "Rectangle 17", 32x32px, constraints left/top, radius 12px, fill #F2F3F5, stroke #FFFFFF 4px
+    - TEXT "=", 13x24px, constraints left/top, fill #181818, text [SF Pro Display Regular, 20px]
+    - FRAME "chevrondown 4", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #979797
+    - FRAME "chevrondown 5", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #979797
+  - RECTANGLE "Handle", 40x6px, constraints scale/scale, radius 100px, fill #E5E5E5
+  - RECTANGLE "Handle", 40x6px, constraints scale/scale, radius 100px, fill #E5E5E5
+  - TEXT "Send Tokens", 110x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+  - GROUP "Group 21", 142x36px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 19", 142x36px, constraints left/top, radius 100px, fill #F7F8FA, stroke #E5E5E5 1px
+    - FRAME "chevrondown 3", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #181818
+    - TEXT "Normal ~2m", 95x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+  - FRAME "Light / Numeric", 375x291px, constraints left/top, fill #CCCED3
+    - FRAME "Background", 375x291px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "background", 375x291px, constraints scale/scale, fill #D1D5DB, effect [background_blur 108.73px]
+    - FRAME "Home Indicator", 375x34px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000, stroke #979797 0px
+    - GROUP "Keys", 363x207px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Delete", 24x17.99px, constraints scale/scale, fill #000000
+      - FRAME "0", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "9", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "8", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "7", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "6", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "5", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "4", 117x47px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "3", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "2", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+      - FRAME "1", 117x46px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 117x12px, constraints left_right/scale, fill #000000, text [SF Pro Text Bold, 10px]
+        - TEXT "Number", 117x30px, constraints left_right/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+
+Screen: Page 1 / Explore
+- FRAME "Explore", 375x812px, constraints left/top, fill gradient_linear(#F6EEF4 0% | #F7F8FA 100%)
+  - TEXT "AlexMasmej", 92x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+  - TEXT "$897.59", 59x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+  - TEXT "4", 10x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+  - TEXT "ALEX", 37x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+  - TEXT "+305.54%", 67x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+  - ELLIPSE "Ellipse 7", 40x40px, constraints left/top, fill image(hash: c44b4b9b5d83182cc008df4f3652b7112bf76787), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+  - GROUP "Group 9", 347x148px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Card", 347x148px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+    - LINE "Divider", 347x0px, constraints scale/scale, stroke #E5E5E5 1px
+    - TEXT "My Favorites", 110x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - TEXT "PoolTogethr", 92x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "$9.53", 42x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - TEXT "POOL", 39x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "-0.11%", 43x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+    - ELLIPSE "Ellipse 3", 40x40px, constraints left/top, fill image(hash: a67d156e1023f9953fa658558a5697de625040be), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+  - INSTANCE "iPhone X, 11 Pro / Light / Base", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - FRAME "Time / Light / Base", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - GROUP "Group 26", 347x473px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Card", 347x473px, constraints scale/scale, radius 20px, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000A, drop_shadow 24px offset 0 16 #0000000A, drop_shadow 32px offset 0 24 #00000003]
+    - TEXT "Aave", 38x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "$255.01", 58x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - TEXT "5", 9x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "Aave", 33x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "-0.22%", 47x16px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 13px]
+    - ELLIPSE "Ellipse 8", 40x40px, constraints left/top, fill image(hash: 38666f051585c3aab1b659bf0b23352a46fea2e2), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - LINE "Divider", 347x0px, constraints scale/scale, stroke #E5E5E5 1px
+    - TEXT "Top Charts", 94x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - TEXT "Ether", 41x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "Uniswap", 65x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "ChainLink", 75x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "Compound", 84x19px, constraints left/top, fill #181818, text [SF Pro Text Medium, 16px]
+    - TEXT "$1,900.00", 72x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - TEXT "$16.57", 48x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - TEXT "$15.58", 49x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - TEXT "$379.22", 60x18px, constraints left/top, fill #181818, text [SF Pro Text Medium, 15px]
+    - TEXT "1", 7x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "2", 9x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "3", 9x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "4", 10x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "UNI", 25x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "ETH", 29x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "ETH", 29x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - TEXT "COMP", 43x17px, constraints left/top, fill #A9AAB2, text [SF Pro Text Medium, 14px]
+    - ... +17 more children
+  - GROUP "Group 22", 375x77px, constraints left/top [decorative, ~6 shapes]
+  - GROUP "Group 25", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 13", 40x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - FRAME "search 1", 28x28px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20.07x20.07px, constraints scale/scale, fill #E8006F
+  - GROUP "Group 24", 144x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 12", 144x40px, constraints left/top, radius 100px, fill #FF007A1A, stroke #E5E5E5 1px
+    - ELLIPSE "Ellipse 6", 24x24px, constraints left/top, fill image(hash: 77e1604300efb3b90715e09bf8d688a297ac8c66), effect [drop_shadow 8px offset 0 4 #00000014, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - FRAME "chevrondown 1", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.77x7.14px, constraints scale/scale, fill #E8006F
+    - TEXT "tiago.eth", 68x21px, constraints left/top, fill #E8006F, text [SF Pro Display Medium, 18px]
+
+Screen: Page 1 / Token page discover
+- FRAME "Token page discover", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X, 11 Pro / Light / Base", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - FRAME "Time / Light / Base", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - GROUP "Group 31", 375x201px, constraints left/top, radius 0/0/0/0px
+    - TEXT "About", 53x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - LINE "Divider", 375x0px, constraints scale/scale, stroke #E5E5E5 1px
+    - TEXT "Uniswap (UNI) is an Ethereum token that powers Uniswap, an a", 314x152px, constraints left/top, fill #999999, text [SF Pro Text Medium, 16px]
+  - GROUP "Group 30", 326x64px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 12", 326x64px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 14", 326x64px, constraints left/top, radius 20px, fill #E8006F, effect [drop_shadow 1px offset 0 0 #00000005, drop_shadow 8px offset 0 4 #0000001A, drop_shadow 24px offset 0 16 #0000001A, drop_shadow 32px offset 0 24 #00000005]
+      - GROUP "Group 1", 71x32px, constraints left/top
+        - TEXT "Buy", 35x24px, constraints left/top, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+        - FRAME "creditcard 1", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 18", 2x64px, constraints left/top, fill #FFFFFF
+      - GROUP "Group 7", 77x28px, constraints left/top
+        - TEXT "Swap", 45x21px, constraints left/top, fill #FFFFFF, text [SF Pro Display Semibold, 18px]
+        - FRAME "transfers 1", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 21x21px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Group 27", 321x56px, constraints left/top
+    - TEXT "Uniswap", 91x29px, constraints left/top, fill #181818, text [SF Pro Display Medium, 24px], [heading]
+    - TEXT "$16.57", 75x29px, constraints left/top, fill #181818, text [SF Pro Display Medium, 24px], [heading]
+    - TEXT "UNI", 33x24px, constraints left/top, fill #A9AAB2, text [SF Pro Display Medium, 20px]
+    - TEXT "1.56%", 55x24px, constraints left/top, fill #A9AAB2, text [SF Pro Display Medium, 20px]
+    - ELLIPSE "Ellipse 9", 56x56px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 8px offset 0 4 #0000000A, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+    - FRAME "arrowdown 2", 22x22px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.69x15.12px, constraints scale/scale, fill #A9AAB2, stroke #A9AAB2 0.2px
+  - GROUP "Group 28", 333x36px, constraints left/top
+    - FRAME "chevronleft 1", 36x36px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10.7x19.13px, constraints scale/scale, fill #FF007A
+    - FRAME "starempty 1", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 26.99x25.99px, constraints scale/scale, fill #FF007A
+  - GROUP "Group 22", 375x77px, constraints left/top [decorative, ~6 shapes]
+  - GROUP "Group 29", 375x216px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 2", 205x28px, constraints left/top, radius 8px
+      - TEXT "H", 13x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "W", 16x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "Y", 11x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - RECTANGLE "Rectangle 15", 36x28px, constraints left/top, radius 8px, fill #FF007A1A
+      - TEXT "D", 12x19px, constraints left/top, fill #FF007A, text [SF Pro Text Medium, 16px]
+    - RECTANGLE "IMG_5975 2 1", 375x158px, constraints left/top, fill image(hash: c5483b5543813222996a57bd716737cf18c81fc4)
+
+Screen: Page 1 / Widgets
+- FRAME "Widgets", 375x811.5px, constraints left/top, fill #F9F9F9
+  - RECTANGLE "IMG_6005 1", 375x812px, constraints left/top, fill image(hash: 1102304aef9eb028b9054ec89fdfd326fcad2f07)
+  - RECTANGLE "IMG_6004 1", 375x31px, constraints left/top, fill image(hash: 1f08a34eebf8bfaa2233b872d892945097cf6cdf)
+  - RECTANGLE "IMG_6002 1", 375x811.5px, constraints left/top
+  - RECTANGLE "IMG_EBDED451F307-1 1", 375x811.5px, constraints left/top
+  - RECTANGLE "Rectangle 25", 134.25x138.38px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 26", 134.25x138.38px, constraints left/top, fill #FFFFFF
+  - TEXT "Uniswap", 51x16.12px, constraints left/top, fill #181818, text [SF Pro Display Medium, 13.5px]
+  - TEXT "$16.57", 96.38x37.26px, constraints left/top, fill #181818, text [SF Pro Display Medium, 30.84px], [heading]
+  - TEXT "$2,650.32", 89.62x22.88px, constraints left/top, fill #181818, text [SF Pro Display Medium, 19.2px]
+  - FRAME "arrowdown 2", 23.25x23.25px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 12.36x15.98px, constraints scale/scale, fill #A9AAB2, stroke #A9AAB2 0.21px
+  - FRAME "arrowdown 3", 14.47x14.47px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 7.69x9.95px, constraints scale/scale, fill #A9AAB2, stroke #A9AAB2 0.13px
+  - TEXT "UNI", 17.54x12.76px, constraints left/top, fill #A9AAB2, text [SF Pro Display Medium, 10.5px]
+  - TEXT "1.56%", 55.83x24.36px, constraints left/top, fill #A9AAB2, text [SF Pro Display Medium, 20.3px]
+  - TEXT "0.54%", 36.75x15px, constraints left/top, fill #A9AAB2, text [SF Pro Display Medium, 12.64px]
+  - ELLIPSE "Ellipse 9", 29.77x29.77px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 4.25px offset 0 2.13 #0000000A, drop_shadow 0.53px offset 0 0.53 #00000005, drop_shadow 3.19px offset 0 1.59 #0000000F]
+  - TEXT "Uniswap", 46x14px, constraints left/top, fill #FFFFFF, text [SF Pro Display Medium, 12px]
+  - TEXT "Uniswap", 46x14px, constraints left/top, fill #FFFFFF, text [SF Pro Display Medium, 12px]
+  - RECTANGLE "IMG_5975 2 1", 152x64px, constraints left/top, fill image(hash: c5483b5543813222996a57bd716737cf18c81fc4)
+
+Screen: Page 1 / Notifications
+- FRAME "Notifications", 375x811.5px, constraints left/top, fill #F9F9F9
+  - RECTANGLE "IMG_6004 1", 375x812px, constraints left/top, fill image(hash: 1f08a34eebf8bfaa2233b872d892945097cf6cdf)
+  - FRAME "Light / Translucent", 348.86x103.01px, constraints left_right/top, radius 12.63px, fill #F5F5F599, effect [background_blur 52.83px]
+    - FRAME "Content", 323.59x56.36px, constraints left_right/top
+      - TEXT "Title", 76.77x19.44px, constraints left/top, fill Label Color / Light / Primary, text [SF Pro Text Semibold, 14.58px]
+      - TEXT "Description", 323.59x19.44px, constraints left_right/top, fill Label Color / Light / Primary, text [SF Pro Text Regular, 14.58px]
+    - GROUP "Right Item (Dots or Text)", 24.29x17.49px, constraints left/top, radius 0/0/0/0px
+      - TEXT "now", 24.29x17.49px, constraints right/top, fill #0000000D, stroke #979797 0px, text [SF Pro Text Regular, 12.63px]
+    - GROUP "App Icon + Name", 83.57x19.44px, constraints left/top, radius 4.21px
+      - TEXT "App Name", 58.31x17.49px, constraints left/top, fill #0000000D, text [SF Pro Text Regular, 12.63px]
+      - FRAME "App Icon", 19.44x19.44px, constraints left/top, radius 4.21px, fill #371B1B, stroke #979797 0px [decorative, ~12 shapes]
+
+Screen: Page 1 / Token page holding
+- FRAME "Token page holding", 375x812px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 23", 375x773px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 2", 205x28px, constraints left/top, radius 8px
+      - TEXT "H", 13x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "W", 16x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - TEXT "Y", 11x19px, constraints left/top, fill #919299, text [SF Pro Text Medium, 16px]
+      - RECTANGLE "Rectangle 15", 36x28px, constraints left/top, radius 8px, fill #FF007A1A
+      - TEXT "D", 12x19px, constraints left/top, fill #FF007A, text [SF Pro Text Medium, 16px]
+    - TEXT "About", 53x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+    - LINE "Divider", 375x0px, constraints scale/scale, stroke #E5E5E5 1px
+    - TEXT "Uniswap (UNI) is an Ethereum token that powers Uniswap, an a", 314x152px, constraints left/top, fill #999999, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 13", 326x64px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 19", 326x64px, constraints left/top, radius 20px, fill #E8006F, effect [drop_shadow 1px offset 0 0 #00000005, drop_shadow 8px offset 0 4 #0000001A, drop_shadow 24px offset 0 16 #0000001A, drop_shadow 32px offset 0 24 #00000005]
+      - GROUP "Group 1", 71x32px, constraints left/top
+        - TEXT "Buy", 35x24px, constraints left/top, fill #FFFFFF, text [SF Pro Display Semibold, 20px]
+        - FRAME "creditcard 1", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group 14", 326x208px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 15", 326x208px, constraints left/top, radius 20px, fill #FFFFFF, stroke #E5E5E5 1px, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #0000000D, drop_shadow 24px offset 0 16 #0000000D, drop_shadow 32px offset 0 24 #00000003]
+      - ELLIPSE "Ellipse 10", 28x28px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 8px offset 0 4 #0000000A, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+      - GROUP "Group 4", 302x64px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 1px offset 0 0 #00000005, drop_shadow 8px offset 0 4 #0000001A, drop_shadow 24px offset 0 16 #0000001A, drop_shadow 32px offset 0 24 #00000005]
+        - VECTOR "Rectangle 14", 302x64px, constraints left/top, radius 20px, fill #181818
+        - FRAME "send 2", 28x28px, constraints left/top, radius 16px, fill #181818
+          - VECTOR "Vector", 21.02x20.99px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 18", 2x64px, constraints left/top, fill #FFFFFF
+        - TEXT "Send", 42x21px, constraints left/top, fill #FFFFFF, text [SF Pro Display Semibold, 18px]
+        - TEXT "Swap", 45x21px, constraints left/top, fill #FFFFFF, text [SF Pro Display Semibold, 18px]
+        - FRAME "transfers 1", 28x28px, constraints left/top, radius 16px, fill #181818
+          - VECTOR "Vector", 21x21px, constraints scale/scale, fill #FFFFFF
+      - TEXT "My position", 100x24px, constraints left/top, fill #181818, text [SF Pro Display Medium, 20px]
+      - TEXT "21.246 UNI", 143x33px, constraints left/top, fill #181818, text [SF Pro Display Bold, 28px], [heading]
+      - TEXT "$351.91", 72x24px, constraints left/top, fill #A9AAB2, text [SF Pro Display Medium, 20px]
+    - RECTANGLE "IMG_5975 2 1", 375x158px, constraints left/top, fill image(hash: c5483b5543813222996a57bd716737cf18c81fc4)
+  - GROUP "Group 22", 375x77px, constraints left/top [decorative, ~6 shapes]
+  - GROUP "Group 34", 375x193px, constraints left/top
+    - RECTANGLE "Rectangle 27", 375x193px, constraints left/top, fill #FFFFFF, effect [drop_shadow 1px offset 0 0 #00000003, drop_shadow 8px offset 0 4 #00000005, drop_shadow 24px offset 0 16 #00000005, drop_shadow 32px offset 0 24 #00000003]
+    - INSTANCE "iPhone X, 11 Pro / Light / Base", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+        - FRAME "Time / Light / Base", 54x21px, constraints left/top, radius 32px
+          - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+    - GROUP "Group 33", 333x36px, constraints left/top
+      - FRAME "chevronleft 1", 36x36px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 10.7x19.13px, constraints scale/scale, fill #FF007A
+      - FRAME "starempty 1", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 26.99x25.99px, constraints scale/scale, fill #FF007A
+    - GROUP "Group 32", 321x56px, constraints left/top
+      - TEXT "Uniswap", 91x29px, constraints left/top, fill #181818, text [SF Pro Display Medium, 24px], [heading]
+      - TEXT "$16.57", 75x29px, constraints left/top, fill #181818, text [SF Pro Display Medium, 24px], [heading]
+      - TEXT "UNI", 33x24px, constraints left/top, fill #A9AAB2, text [SF Pro Display Medium, 20px]
+      - TEXT "1.56%", 55x24px, constraints left/top, fill #A9AAB2, text [SF Pro Display Medium, 20px]
+      - ELLIPSE "Ellipse 9", 56x56px, constraints left/top, fill image(hash: 3f789ca067a6a94239b1cdea6e0bd2cec9eb8bc9), effect [drop_shadow 8px offset 0 4 #0000000A, drop_shadow 1px offset 0 1 #00000005, drop_shadow 6px offset 0 3 #0000000F]
+      - FRAME "arrowdown 2", 22x22px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.69x15.12px, constraints scale/scale, fill #A9AAB2, stroke #A9AAB2 0.2px
+
+Screen: Page 1 / 🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄 Uniswap app breakdown: tiagosada.com/notes/uniswap Why protocol apps: tiagosada.com/notes/protocolapps Other stuff: @tiagosada
+- TEXT "🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄 Uniswap app breakdown: tiagosada.com/notes/unisw", 2554x739px, constraints left/top, fill #000000, text [SF Pro Display Medium, 80px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,14 @@
+# Step 1: Always dry-run first — zero cost, zero API calls, verifies matching + structure
+python3 generate_screens.py screens.csv designs.zip out.zip --provider dryrun
+
+# Step 2: Real run, OpenAI-style model (e.g. GPT-5.4-mini)
+export OPENAI_API_KEY=sk-...
+python3 generate_screens.py screens.csv designs.zip out.zip --provider openai --model gpt-5.4-mini
+
+# Any other OpenAI-compatible endpoint (OpenRouter, local server, etc.)
+python3 generate_screens.py screens.csv designs.zip out.zip \
+    --provider openai --model some/other-model --base-url https://openrouter.ai/api/v1
+
+# Anthropic models
+export ANTHROPIC_API_KEY=sk-ant-...
+python3 generate_screens.py screens.csv designs.zip out.zip --provider anthropic --model claude-sonnet-4-6

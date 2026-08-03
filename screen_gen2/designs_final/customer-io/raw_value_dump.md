@@ -1,0 +1,1133 @@
+---
+name: customer-io-messaging-automation-saas-ui-community
+source_file: Customer io - Messaging Automation SaaS UI (Community)
+source_page: All pages (2): 🎨 Replicated UI, 📕 Cover
+generated_at: 2026-07-25T09:56:33.030114+00:00
+---
+
+# Customer io - Messaging Automation SaaS UI (Community) Design Guidelines
+
+## Source
+- Figma file: Customer io - Messaging Automation SaaS UI (Community)
+- Figma page: All pages (2): 🎨 Replicated UI, 📕 Cover
+- Extracted at: 2026-07-25T09:56:33.030114+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 147 uses
+- #3F4E50: 104 uses
+- #FFFFFF: 92 uses
+- #F4FFEB: 84 uses
+- #65777A: 72 uses
+- #565D6D: 61 uses
+- #EBF0F1: 45 uses
+- #DCDBDD: 40 uses
+- #E4FFCD: 30 uses
+- #171A1F: 28 uses
+- #576466: 28 uses
+- #C9D6D8: 23 uses
+- #F8F9F9: 23 uses
+- #00882A: 19 uses
+- #839598: 19 uses
+- #09272B: 17 uses
+- #404F51: 17 uses
+- #00320B: 16 uses
+- #18A47B: 16 uses
+- #E5F3FF: 16 uses
+- #1F2C2D: 14 uses
+- #9095A1: 14 uses
+- #ACBABA: 13 uses
+- #ADBBBC: 12 uses
+- #EEEEEE: 11 uses
+- #00469F: 10 uses
+- #486061: 10 uses
+- #6F7B7C: 10 uses
+- #056D24: 9 uses
+- #818F92: 9 uses
+- #969FA0: 9 uses
+- #FBFAF8: 9 uses
+- #002860: 8 uses
+- #EAEAEA: 7 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Manrope Medium, 12px: 129 uses
+- Manrope Bold, 12px: 77 uses
+- Manrope Bold, 10px: 56 uses
+- Manrope SemiBold, 10px: 39 uses
+- Manrope Bold, 14px: 37 uses
+- Manrope SemiBold, 12px: 31 uses
+- Manrope SemiBold, 14px: 21 uses
+- Manrope Bold, 16px: 19 uses
+- ABeeZee Regular, 12px: 10 uses
+- Manrope ExtraBold, 12px: 9 uses
+- Manrope Medium, 11px: 8 uses
+- Manrope Regular, 11px: 8 uses
+- Manrope Regular, 12px: 8 uses
+- Helvetica Helvetica, 24px: 5 uses
+- Manrope Bold, 11px: 5 uses
+- Consolas Consolas, 12px: 4 uses
+- Manrope Bold, 20px: 4 uses
+- ABeeZee Regular, 11px: 3 uses
+- Inter Black, 120px: 3 uses
+- Manrope Bold, 26px: 3 uses
+
+## Typography Hierarchy
+- 120px - Inter Black, 120px (raw)
+- 26px - Manrope Bold, 26px (raw)
+- 24px - Helvetica Helvetica, 24px (raw)
+- 20px - Manrope Bold, 20px (raw)
+- 16px - Manrope Bold, 16px (raw)
+- 14px - Manrope Bold, 14px (raw)
+- 14px - Manrope SemiBold, 14px (raw)
+- 12px - ABeeZee Regular, 12px (raw)
+- 12px - Consolas Consolas, 12px (raw)
+- 12px - Manrope Bold, 12px (raw)
+- 12px - Manrope ExtraBold, 12px (raw)
+- 12px - Manrope Medium, 12px (raw)
+- 12px - Manrope Regular, 12px (raw)
+- 12px - Manrope SemiBold, 12px (raw)
+- 11px - ABeeZee Regular, 11px (raw)
+- 11px - Manrope Bold, 11px (raw)
+- 11px - Manrope Medium, 11px (raw)
+- 11px - Manrope Regular, 11px (raw)
+- 10px - Manrope Bold, 10px (raw)
+- 10px - Manrope SemiBold, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: 🎨 Replicated UI / Customer io - People
+- FRAME "Customer io - People", 1440x718px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F8F9F9, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Navbar", 1440x35px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #09272B
+    - FRAME "Menu Icon", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #F4FFEB 2px
+    - FRAME "Menu Button", 144x34px, horizontal pad 0 0 0 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Logo Text", 95x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+      - FRAME "Dropdown Menu", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+        - FRAME "Dropdown Chevron Up", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+        - FRAME "Dropdown Chevron Down", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+    - FRAME "Action Button", 112x19px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - FRAME "Button Icon", 8x8px, constraints left/top, radius 111px, fill #00882A
+      - TEXT "Button Text", 92x14px, constraints left/top, fill #00320B, text [Manrope Bold, 10px]
+    - FRAME "Spacer", 737x20px, constraints left/top
+    - TEXT "Trial Info", 89x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Upgrade Button", 71x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - TEXT "Upgrade Text", 51x14px, constraints left/top, fill #00320B, text [Manrope ExtraBold, 12px]
+    - FRAME "Help Button", 83x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+      - FRAME "Help Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #F4FFEB 1px
+      - TEXT "Help Text", 55x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Profile Menu", 90x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Notification Menu", 26x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Bell Icon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+        - FRAME "Notification Badge", 8x8px, constraints right/top, radius 111px, fill #00882A
+      - FRAME "Settings Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+      - FRAME "Profile Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x12px, constraints scale/scale, stroke #F4FFEB 1px
+  - FRAME "Row", 1440x683px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Sidebar", 36x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill #E4FFCD
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #18A47B 2px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #65777A 2px
+    - FRAME "Sidebar", 192x683px, vertical pad 0 5 0 5px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Header Button", 182x40px, horizontal pad 0 5 0 15px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - TEXT "Header Title", 133x40px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+        - FRAME "Header Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11x10px, constraints scale/scale, stroke #3F4E50 1.5px
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.01x13.35px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x36px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x36px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #EBF0F1
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Bold, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x16.67px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x10px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Icon Container", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.34px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+    - FRAME "Col", 1212x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill #F8F9F9
+      - FRAME "Button", 1212x37px, horizontal pad 0 5 0 5px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #E5F3FF, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "tabler-icon-help-hexagon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #00469F 1px
+        - TEXT "Verify Email Text", 598x14px, constraints left/top, fill #002860, text [Manrope Medium, 12px]
+      - TEXT "Version 21.6.66+fabd3cba", 130x20px, constraints left/bottom, fill #9095A1, text [Manrope Regular, 11px]
+      - FRAME "Col", 1212x646px, vertical pad 0 100 0 100px gap 0px sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 1012x53px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Section Title", 719x20px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+          - FRAME "Button", 150x36px, horizontal pad 0 10 0 15px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #09272B 1px, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - TEXT "Learn More Button Text", 93x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+            - FRAME "Caret up 4", 24x24px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 133x36px, horizontal pad 0 10 0 15px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #09272B, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - TEXT "Create Object Type Button Text", 76x14px, constraints left/top, fill #EEEEEE, text [Manrope SemiBold, 14px]
+            - FRAME "Caret up 4", 24x24px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Row", 1012x53px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Description", 69x20px, constraints left/top, fill #818F92, text [Manrope SemiBold, 12px]
+          - FRAME "Button", 161x25px, horizontal pad 3 3 3 3px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #C4CFD0 1px
+            - FRAME "Button", 84x19px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E0E0E0
+            - FRAME "Button", 68x19px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+        - FRAME "Row", 1012x45px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Button", 193x27px, horizontal pad 0 10 0 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #DCDBDD 1px, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - FRAME "tabler-icon-search", 24x24px, horizontal pad 1 1 1 1px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Search Input Helper Text", 141x22px, constraints left/top, fill #BDC1CA, text [Manrope Regular, 14px]
+          - FRAME "Button", 135x36px, horizontal pad 10 5 10 5px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - FRAME "tabler-icon-help-hexagon", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Button Text", 104x14px, constraints left/top, fill #0A72F4, text [Manrope Bold, 12px]
+        - FRAME "Row", 1012x43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, stroke #F0F3F4 1px
+          - TEXT "Counter Text", 71x14px, constraints left/top, fill #000000, text [Manrope Bold, 14px]
+          - FRAME "Button", 63x32px, horizontal pad 0 10 0 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #DCDBDD 1px, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - TEXT "Dropdown Option", 43x22px, constraints left/top, fill #ADBBBC, text [Manrope SemiBold, 14px]
+          - FRAME "Divider", 551x11px, constraints left/top
+          - FRAME "Row", 57x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #C9D6D8 1px
+            - FRAME "tabler-icon-table-options", 24x24px, constraints left/top, fill #FFFFFF
+          - TEXT "Pagination Info", 40x14px, constraints left/top, fill #65777A, text [Manrope Bold, 10px]
+          - FRAME "Row", 180x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #C9D6D8 1px [decorative, ~4 shapes]
+        - FRAME "DoubleCol", 1012x333px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #DCDBDD 1px
+          - FRAME "Col", 1012x32px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+            - FRAME "Checkbox", 16x16px, constraints left/top, radius 3px, stroke #DCDBDD 1px
+            - TEXT "Trigger instructions", 112x22px, constraints left/top, fill #66787B, text [Manrope SemiBold, 12px]
+            - FRAME "Divider", 747x16px, constraints left/top
+            - TEXT "Column Header", 112x22px, constraints left/top, fill #66787B, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 1012x301px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - FRAME "Col", 532x301px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fill, constraints left/top
+        - FRAME "Row", 1012x43px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, stroke #F0F3F4 1px
+          - TEXT "Pagination Info", 40x14px, constraints left/top, fill #65777A, text [Manrope Bold, 10px]
+          - FRAME "Row", 180x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #C9D6D8 1px [decorative, ~4 shapes]
+    - FRAME "Row", 171x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/bottom
+      - TEXT "Made with", 58x20px, constraints left/top, fill #565D6D, text [Manrope Regular, 12px]
+      - FRAME "tabler-icon-heart", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12.01x10.67px, constraints scale/scale, fill gradient_linear(#EA3747 0% | #6D27AE 100%)
+      - TEXT "around the world.", 97x20px, constraints left/top, fill #565D6D, text [Manrope Regular, 12px]
+
+Screen: 🎨 Replicated UI / Customer io - Analysis
+- FRAME "Customer io - Analysis", 1440x718px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F8F9F9, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Navbar", 1440x35px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #09272B
+    - FRAME "Menu Icon", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #F4FFEB 2px
+    - FRAME "Menu Button", 144x34px, horizontal pad 0 0 0 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Logo Text", 95x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+      - FRAME "Dropdown Menu", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+        - FRAME "Dropdown Chevron Up", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+        - FRAME "Dropdown Chevron Down", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+    - FRAME "Action Button", 112x19px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - FRAME "Button Icon", 8x8px, constraints left/top, radius 111px, fill #00882A
+      - TEXT "Button Text", 92x14px, constraints left/top, fill #00320B, text [Manrope Bold, 10px]
+    - FRAME "Spacer", 737x20px, constraints left/top
+    - TEXT "Trial Info", 89x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Upgrade Button", 71x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - TEXT "Upgrade Text", 51x14px, constraints left/top, fill #00320B, text [Manrope ExtraBold, 12px]
+    - FRAME "Help Button", 83x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+      - FRAME "Help Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #F4FFEB 1px
+      - TEXT "Help Text", 55x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Profile Menu", 90x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Notification Menu", 26x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Bell Icon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+        - FRAME "Notification Badge", 8x8px, constraints right/top, radius 111px, fill #00882A
+      - FRAME "Settings Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+      - FRAME "Profile Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x12px, constraints scale/scale, stroke #F4FFEB 1px
+  - FRAME "Row", 1440x683px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Sidebar", 36x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill #E4FFCD
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #18A47B 2px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #65777A 2px
+    - FRAME "Sidebar", 192x683px, vertical pad 0 5 0 5px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Header Button", 182x40px, horizontal pad 0 5 0 15px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - TEXT "Header Title", 133x40px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+        - FRAME "Header Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11x10px, constraints scale/scale, stroke #3F4E50 1.5px
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #EBF0F1
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Bold, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.01x13.35px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x36px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x36px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x16.67px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x10px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Icon Container", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.34px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+    - FRAME "Col", 1212x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill #F8F9F9
+      - FRAME "Button", 1212x37px, horizontal pad 0 5 0 5px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #E5F3FF, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "tabler-icon-help-hexagon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #00469F 1px
+        - TEXT "Verify Email Text", 598x14px, constraints left/top, fill #002860, text [Manrope Medium, 12px]
+      - TEXT "Version 21.6.66+fabd3cba", 130x20px, constraints left/bottom, fill #9095A1, text [Manrope Regular, 11px]
+      - FRAME "Col", 1212x646px, vertical pad 0 100 0 100px gap 15px sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 1012x44px, horizontal pad 0 0 0 0px gap 5px align min/max sizing W:fill H:fixed, constraints left/top
+          - TEXT "Section Title", 931x20px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+          - FRAME "Button", 76x31px, horizontal pad 0 10 0 15px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #C9D6D8, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - TEXT "Learn More Button Text", 45x14px, constraints left/top, fill #FDFDFD, text [Manrope SemiBold, 14px]
+        - FRAME "Row", 1012x32px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Description", 375x20px, constraints left/top, fill #818F92, text [Manrope SemiBold, 12px]
+        - FRAME "DoubleCol", 1012x196px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #DCDBDD 1px
+          - FRAME "Col", 1012x62px, horizontal pad 0 15 0 15px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+            - FRAME "Row", 87x62px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fill, constraints left/top
+            - FRAME "Row", 92x62px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fill, constraints left/top
+            - FRAME "Row", 170x62px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fill, constraints left/top
+            - FRAME "Row", 123x62px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "Col", 1012x62px, horizontal pad 0 15 0 15px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Col", 328x62px, vertical pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fill, constraints left/top
+            - FRAME "Col", 249x62px, vertical pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fill, constraints left/top
+            - FRAME "Row", 120x30px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Row", 186x30px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Col", 1012x62px, horizontal pad 0 15 0 15px gap 10px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Col", 204x62px, vertical pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fill, constraints left/top
+            - FRAME "Col", 109x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "DoubleCol", 1012x219px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #DCDBDD 1px
+          - FRAME "tabler-icon-alert-triangle", 32x32px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 26.66x23.1px, constraints scale/scale, stroke #829093 2px
+          - TEXT "Y, no data matching the specified criteria was found.", 361x20px, constraints left/top, fill #9095A1, text [Manrope Bold, 12px]
+        - FRAME "Dialog", 370x268px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #DCDBDD 1px, effect [drop_shadow 8px offset 0 4 #0000000D, drop_shadow 8px offset 0 4 #0000000D]
+          - FRAME "Row", 370x37px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #F8F9F9
+            - TEXT "Apr 28, 2024 - May 27, 2024", 152x17px, constraints left/top, fill #565D6D, text [Manrope Medium, 12px]
+          - FRAME "Row", 370x231px, horizontal pad 15 15 15 15px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - FRAME "Col", 127x201px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - FRAME "Col", 213x201px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Row", 171x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/bottom
+      - TEXT "Made with", 58x20px, constraints left/top, fill #565D6D, text [Manrope Regular, 12px]
+      - FRAME "tabler-icon-heart", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12.01x10.67px, constraints scale/scale, fill gradient_linear(#EA3747 0% | #6D27AE 100%)
+      - TEXT "around the world.", 97x20px, constraints left/top, fill #565D6D, text [Manrope Regular, 12px]
+
+Screen: 🎨 Replicated UI / Customer io - Setup Steps
+- FRAME "Customer io - Setup Steps", 1440x718px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F8F9F9, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Navbar", 1440x35px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #09272B
+    - FRAME "Menu Icon", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #F4FFEB 2px
+    - FRAME "Menu Button", 144x34px, horizontal pad 0 0 0 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Logo Text", 95x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+      - FRAME "Dropdown Menu", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+        - FRAME "Dropdown Chevron Up", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+        - FRAME "Dropdown Chevron Down", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+    - FRAME "Action Button", 112x19px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - FRAME "Button Icon", 8x8px, constraints left/top, radius 111px, fill #00882A
+      - TEXT "Button Text", 92x14px, constraints left/top, fill #00320B, text [Manrope Bold, 10px]
+    - FRAME "Spacer", 737x20px, constraints left/top
+    - TEXT "Trial Info", 89x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Upgrade Button", 71x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - TEXT "Upgrade Text", 51x14px, constraints left/top, fill #00320B, text [Manrope ExtraBold, 12px]
+    - FRAME "Help Button", 83x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+      - FRAME "Help Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #F4FFEB 1px
+      - TEXT "Help Text", 55x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Profile Menu", 90x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Notification Menu", 26x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Bell Icon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+        - FRAME "Notification Badge", 8x8px, constraints right/top, radius 111px, fill #00882A
+      - FRAME "Settings Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+      - FRAME "Profile Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x12px, constraints scale/scale, stroke #F4FFEB 1px
+  - FRAME "Row", 1440x683px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Sidebar", 36x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill #E4FFCD
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #18A47B 2px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #65777A 2px
+    - FRAME "Sidebar", 192x683px, vertical pad 0 5 0 5px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Header Button", 182x40px, horizontal pad 0 5 0 15px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - TEXT "Header Title", 133x40px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+        - FRAME "Header Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11x10px, constraints scale/scale, stroke #3F4E50 1.5px
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #EBF0F1
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Bold, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.01x13.35px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x36px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x36px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x16.67px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x10px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Icon Container", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.34px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+    - FRAME "Col", 1212x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill #F8F9F9
+      - FRAME "Button", 1212x37px, horizontal pad 0 5 0 5px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #E5F3FF, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "tabler-icon-help-hexagon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #00469F 1px
+        - TEXT "Verify Email Text", 598x14px, constraints left/top, fill #002860, text [Manrope Medium, 12px]
+      - FRAME "Row", 1212x30px, horizontal pad 0 20 0 20px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #C9D6D8 1px
+        - TEXT "Choose how to integrate your data", 131x18px, constraints left/top, fill #9095A1, text [Manrope Medium, 11px]
+      - FRAME "Row", 1212x616px, horizontal pad 30 60 0 60px gap 20px sizing W:fill H:fill, constraints left/top
+        - FRAME "Container", 261x364px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Your Setup List", 103x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container", 261x36px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Container", 261x36px, vertical pad 0 0 0 0px gap -0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 261x2px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #00882A
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #839598
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #839598
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #839598
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #839598
+          - FRAME "Container 507", 261x44px, horizontal pad 10 0 10 20px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 139x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 508", 261x44px, horizontal pad 10 0 10 20px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EBF0F1, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 77x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 509", 261x44px, horizontal pad 10 0 10 20px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 175x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 510", 261x44px, horizontal pad 10 0 10 20px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 186x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 511", 261x44px, horizontal pad 10 0 10 40px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 37x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 512", 261x44px, horizontal pad 10 0 10 19px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 133x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+        - FRAME "DoubleCol", 811x616px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #DCDBDD 1px
+          - FRAME "Col", 811x69px, vertical pad 20 20 20 20px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+            - FRAME "Row", 771x22px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Send people, attributes and events to Customer.io", 261x18px, constraints left/top, fill #9095A1, text [ABeeZee Regular, 11px]
+          - FRAME "Col", 811x547px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+            - FRAME "Row", 771x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Col", 771x212px, vertical pad 0 0 0 0px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Button", 771x62px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #DCDBDD 1px, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - TEXT "Choose how to integrate your data", 194x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+            - TEXT "Send people, attributes and events to Customer.io", 771x36px, constraints left/top, fill #435254, text [ABeeZee Regular, 12px]
+            - FRAME "Row", 771x18px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 771x88px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #23232F
+
+Screen: 🎨 Replicated UI / Customer io - Deliveries
+- FRAME "Customer io - Deliveries", 1440x718px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F8F9F9, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Navbar", 1440x35px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #09272B
+    - FRAME "Menu Icon", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #F4FFEB 2px
+    - FRAME "Menu Button", 144x34px, horizontal pad 0 0 0 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Logo Text", 95x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+      - FRAME "Dropdown Menu", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+        - FRAME "Dropdown Chevron Up", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+        - FRAME "Dropdown Chevron Down", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+    - FRAME "Action Button", 112x19px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - FRAME "Button Icon", 8x8px, constraints left/top, radius 111px, fill #00882A
+      - TEXT "Button Text", 92x14px, constraints left/top, fill #00320B, text [Manrope Bold, 10px]
+    - FRAME "Spacer", 737x20px, constraints left/top
+    - TEXT "Trial Info", 89x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Upgrade Button", 71x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - TEXT "Upgrade Text", 51x14px, constraints left/top, fill #00320B, text [Manrope ExtraBold, 12px]
+    - FRAME "Help Button", 83x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+      - FRAME "Help Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #F4FFEB 1px
+      - TEXT "Help Text", 55x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Profile Menu", 90x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Notification Menu", 26x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Bell Icon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+        - FRAME "Notification Badge", 8x8px, constraints right/top, radius 111px, fill #00882A
+      - FRAME "Settings Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+      - FRAME "Profile Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x12px, constraints scale/scale, stroke #F4FFEB 1px
+  - FRAME "Row", 1440x683px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Sidebar", 36x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill #E4FFCD
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #18A47B 2px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #65777A 2px
+    - FRAME "Sidebar", 192x683px, vertical pad 0 5 0 5px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Header Button", 182x40px, horizontal pad 0 5 0 15px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - TEXT "Header Title", 133x40px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+        - FRAME "Header Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11x10px, constraints scale/scale, stroke #3F4E50 1.5px
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.01x13.35px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x36px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x36px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #EBF0F1
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Bold, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x16.67px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x10px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Icon Container", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.34px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+    - FRAME "Col", 1212x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill #F8F9F9
+      - FRAME "Button", 1212x37px, horizontal pad 0 5 0 5px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #E5F3FF, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "tabler-icon-help-hexagon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #00469F 1px
+        - TEXT "Verify Email Text", 598x14px, constraints left/top, fill #002860, text [Manrope Medium, 12px]
+      - TEXT "Version 21.6.66+fabd3cba", 130x20px, constraints left/bottom, fill #9095A1, text [Manrope Regular, 11px]
+      - FRAME "Col", 1212x646px, vertical pad 0 100 0 100px gap 15px sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 1012x44px, horizontal pad 0 0 0 0px gap 5px align min/max sizing W:fill H:fixed, constraints left/top
+          - TEXT "Section Title", 931x20px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+          - FRAME "Button", 76x31px, horizontal pad 0 10 0 15px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #C9D6D8, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - TEXT "Learn More Button Text", 45x14px, constraints left/top, fill #FDFDFD, text [Manrope SemiBold, 14px]
+        - FRAME "Row", 1012x36px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+          - FRAME "Row", 78x36px, horizontal pad 0 10 0 10px gap 5px align min/center sizing W:fixed H:fill, constraints left/top, stroke #016FF4 1px
+            - TEXT "Tab Title", 58x14px, constraints left/top, fill #000000, text [Manrope Bold, 12px]
+          - FRAME "Row", 57x36px, horizontal pad 0 10 0 10px gap 5px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Tab Title", 37x14px, constraints left/top, fill #9DA6A7, text [Manrope Bold, 12px]
+        - FRAME "Row", 1012x32px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Filter Label", 515x20px, constraints left/top, fill #818F92, text [Manrope SemiBold, 12px]
+          - TEXT "Last Updated Text", 224x20px, constraints left/top, fill #818F92, text [Manrope SemiBold, 12px]
+          - TEXT "Auto Refresh Text", 72x20px, constraints left/top, fill #3F4E50, text [Manrope SemiBold, 12px]
+          - FRAME "Button", 63x26px, horizontal pad 3 3 3 3px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #C9D6D8, stroke #C4CFD0 1px
+            - FRAME "Button", 20x20px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #FFFFFF
+            - FRAME "Button", 34x19px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+          - FRAME "Button", 118x26px, horizontal pad 0 10 0 15px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #09272B 1px, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - TEXT "Button Text", 93x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+        - FRAME "Row", 1012x32px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Button", 136x32px, horizontal pad 0 10 0 10px gap 8px align space_between/center sizing W:fixed H:fill, constraints left/top, radius 4px, fill #FFFFFF, stroke #DCDBDD 1px, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - TEXT "Dropdown Option", 81x14px, constraints left/top, fill #2C393A, text [Manrope SemiBold, 14px]
+            - FRAME "Caret up 4", 24x24px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 102x32px, horizontal pad 0 10 0 10px gap 8px align space_between/center sizing W:fixed H:fill, constraints left/top, radius 4px, fill #FFFFFF, stroke #2080F5 1px, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - TEXT "Dropdown Option", 45x14px, constraints left/top, fill #839598, text [Manrope SemiBold, 14px]
+            - FRAME "Caret up 4", 24x24px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 232x32px, horizontal pad 0 10 0 10px gap 8px align min/center sizing W:fixed H:fill, constraints left/top, radius 4px, fill #FFFFFF, stroke #DCDBDD 1px, effect [drop_shadow 4px offset 0 0 #0000000D]
+            - FRAME "tabler-icon-calendar-week", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Dropdown Date Range", 180x14px, constraints left/top, fill #2C393A, text [Manrope SemiBold, 14px]
+        - FRAME "DoubleCol", 1012x324px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #DCDBDD 1px
+          - FRAME "Col", 1012x62px, horizontal pad 0 30 0 40px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+            - TEXT "Trigger instructions", 164x20px, constraints left/top, fill #818F92, text [Manrope Bold, 11px]
+            - TEXT "Column Header", 105x20px, constraints left/top, fill #818F92, text [Manrope Bold, 11px]
+            - FRAME "Row", 62x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Col", 555x262px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fill, constraints left/top
+            - FRAME "tabler-icon-inbox", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Messages info", 311x14px, constraints left/top, fill #65777A, text [Manrope Bold, 16px]
+            - TEXT "Message Info Text", 461x14px, constraints left/top, fill #65777A, text [Manrope Bold, 12px]
+            - TEXT "Message Info Text", 555x28px, constraints left/top, fill #65777A, text [Manrope Bold, 12px]
+            - FRAME "Button", 555x37px, horizontal pad 0 5 0 5px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Dialog", 169x210px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #DCDBDD 1px, effect [drop_shadow 8px offset 0 4 #0000000D, drop_shadow 8px offset 0 4 #0000000D]
+          - FRAME "Col", 155x210px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 155x30px, horizontal pad 5 10 5 10px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 155x30px, horizontal pad 5 10 5 10px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill #EBF0F1
+            - FRAME "Row", 155x30px, horizontal pad 5 10 5 10px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 155x30px, horizontal pad 5 10 5 10px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 155x30px, horizontal pad 5 10 5 10px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 155x30px, horizontal pad 5 10 5 10px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 155x30px, horizontal pad 5 10 5 10px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 14x210px, vertical pad 3 3 3 3px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FAFAFA, stroke #DCDBDD 1px
+            - INSTANCE "Vertical Divider", 8x76px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #C2C2C2
+    - FRAME "Row", 171x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/bottom
+      - TEXT "Made with", 58x20px, constraints left/top, fill #565D6D, text [Manrope Regular, 12px]
+      - FRAME "tabler-icon-heart", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12.01x10.67px, constraints scale/scale, fill gradient_linear(#EA3747 0% | #6D27AE 100%)
+      - TEXT "around the world.", 97x20px, constraints left/top, fill #565D6D, text [Manrope Regular, 12px]
+
+Screen: 🎨 Replicated UI / Customer io - Review
+- FRAME "Customer io - Review", 1440x718px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F8F9F9, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Navbar", 1440x35px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #09272B
+    - FRAME "Menu Icon", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #F4FFEB 2px
+    - FRAME "Menu Button", 144x34px, horizontal pad 0 0 0 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Logo Text", 95x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+      - FRAME "Dropdown Menu", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+        - FRAME "Dropdown Chevron Up", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+        - FRAME "Dropdown Chevron Down", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+    - FRAME "Action Button", 112x19px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - FRAME "Button Icon", 8x8px, constraints left/top, radius 111px, fill #00882A
+      - TEXT "Button Text", 92x14px, constraints left/top, fill #00320B, text [Manrope Bold, 10px]
+    - FRAME "Spacer", 737x20px, constraints left/top
+    - TEXT "Trial Info", 89x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Upgrade Button", 71x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - TEXT "Upgrade Text", 51x14px, constraints left/top, fill #00320B, text [Manrope ExtraBold, 12px]
+    - FRAME "Help Button", 83x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+      - FRAME "Help Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #F4FFEB 1px
+      - TEXT "Help Text", 55x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Profile Menu", 90x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Notification Menu", 26x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Bell Icon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+        - FRAME "Notification Badge", 8x8px, constraints right/top, radius 111px, fill #00882A
+      - FRAME "Settings Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+      - FRAME "Profile Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x12px, constraints scale/scale, stroke #F4FFEB 1px
+  - FRAME "Row", 1440x683px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Sidebar", 36x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill #E4FFCD
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #18A47B 2px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #65777A 2px
+    - FRAME "Sidebar", 192x683px, vertical pad 0 5 0 5px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Header Button", 182x40px, horizontal pad 0 5 0 15px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - TEXT "Header Title", 133x40px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+        - FRAME "Header Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11x10px, constraints scale/scale, stroke #3F4E50 1.5px
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #EBF0F1
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.01x13.35px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Bold, 12px]
+      - FRAME "Button", 182x36px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x36px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x16.67px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x10px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Icon Container", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.34px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+    - FRAME "Col", 1212x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill #F8F9F9
+      - FRAME "Button", 1212x37px, horizontal pad 0 5 0 5px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #E5F3FF, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "tabler-icon-help-hexagon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #00469F 1px
+        - TEXT "Verify Email Text", 598x14px, constraints left/top, fill #002860, text [Manrope Medium, 12px]
+      - FRAME "Row", 1212x30px, horizontal pad 0 20 0 20px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #C9D6D8 1px
+        - TEXT "Choose how to integrate your data", 245x18px, constraints left/top, fill #9095A1, text [Manrope Medium, 11px]
+      - FRAME "Row", 1212x49px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Row", 309.5x49px, horizontal pad 0 10 0 10px gap 5px align min/center sizing W:fill H:fill, constraints left/top
+          - TEXT "Campaign title", 149x14px, constraints left/top, fill #303D3D, text [Manrope Bold, 12px]
+          - FRAME "tabler-icon-pencil", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10.22x10.22px, constraints scale/scale, stroke #1678F5 1px
+        - FRAME "Row", 593x49px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "Container 507", 94x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 70x22px, constraints left/top, fill #6F7B7C, text [Manrope Bold, 14px]
+          - FRAME "Container 511", 103x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 79x22px, constraints left/top, fill #6F7B7C, text [Manrope Bold, 14px]
+          - FRAME "Container 508", 117x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 93x22px, constraints left/top, fill #6F7B7C, text [Manrope Bold, 14px]
+          - FRAME "Container 509", 109x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 85x22px, constraints left/top, fill #6F7B7C, text [Manrope Bold, 14px]
+          - FRAME "Container 510", 90x49px, horizontal pad 0 10 0 10px gap 10px align center/center sizing W:fixed H:fill, constraints left/top, fill #EDF0F0, stroke #016FF4 1px
+            - TEXT "Add people", 70x22px, constraints left/top, fill #1F2C2D, text [Manrope Bold, 14px]
+        - FRAME "Row", 309.5x49px, horizontal pad 0 10 0 10px gap 5px align max/center sizing W:fill H:fill, constraints left/top
+          - FRAME "tabler-icon-chevron-left", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x10px, constraints scale/scale, stroke #1678F5 1.5px
+          - TEXT "Exit button text", 23x14px, constraints left/top, fill #1678F5, text [Manrope Bold, 12px]
+      - TEXT "Version 21.6.66+fabd3cba", 130x20px, constraints left/bottom, fill #9095A1, text [Manrope Regular, 11px]
+      - FRAME "Row", 1212x48px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Page subtitle", 75x14px, constraints left/top, fill #000000, text [Manrope Bold, 20px]
+      - FRAME "Row", 1212x37px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Review message", 466x14px, constraints left/top, fill #969FA0, text [Manrope Bold, 12px]
+      - FRAME "Col", 1212x482px, vertical pad 0 10 0 10px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "DoubleCol", 1192x500px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #DCDBDD 1px
+          - FRAME "Col", 1192x214px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+            - FRAME "Container 507", 1152x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - TEXT "Trigger instructions", 466x16px, constraints left/top, fill #969FA0, text [Manrope Bold, 12px]
+            - FRAME "Row", 1152x37px, horizontal pad 0 10 0 10px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #F8F9F9, stroke #DDE5E6 1px
+            - FRAME "Row", 35x20px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #DDE5E6 1px
+            - FRAME "Row", 1152x37px, horizontal pad 0 10 0 10px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #F8F9F9, stroke #DDE5E6 1px
+          - FRAME "Col", 1192x106px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+            - FRAME "Container 507", 1152x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - TEXT "Messages info", 466x32px, constraints left/top, fill #969FA0, text [Manrope Bold, 12px]
+          - FRAME "Col", 1192x180px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Container 507", 1152x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - TEXT "People conversion goal", 466x16px, constraints left/top, fill #969FA0, text [Manrope Bold, 12px]
+            - FRAME "Row", 1152x28px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Exit condition description", 466x16px, constraints left/top, fill #969FA0, text [Manrope Bold, 12px]
+            - TEXT "Exit condition details", 593x16px, constraints left/top, fill #969FA0, text [Manrope Bold, 12px]
+
+Screen: 🎨 Replicated UI / Customer io - Setup list
+- FRAME "Customer io - Setup list", 1440x718px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F8F9F9, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Navbar", 1440x35px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #09272B
+    - FRAME "Menu Icon", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #F4FFEB 2px
+    - FRAME "Menu Button", 144x34px, horizontal pad 0 0 0 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Logo Text", 95x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+      - FRAME "Dropdown Menu", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+        - FRAME "Dropdown Chevron Up", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+        - FRAME "Dropdown Chevron Down", 10x10px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #F4FFEB 1.5px
+    - FRAME "Action Button", 112x19px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - FRAME "Button Icon", 8x8px, constraints left/top, radius 111px, fill #00882A
+      - TEXT "Button Text", 92x14px, constraints left/top, fill #00320B, text [Manrope Bold, 10px]
+    - FRAME "Spacer", 737x20px, constraints left/top
+    - TEXT "Trial Info", 89x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Upgrade Button", 71x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - TEXT "Upgrade Text", 51x14px, constraints left/top, fill #00320B, text [Manrope ExtraBold, 12px]
+    - FRAME "Help Button", 83x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+      - FRAME "Help Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #F4FFEB 1px
+      - TEXT "Help Text", 55x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Profile Menu", 90x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Notification Menu", 26x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Bell Icon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+        - FRAME "Notification Badge", 8x8px, constraints right/top, radius 111px, fill #00882A
+      - FRAME "Settings Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+      - FRAME "Profile Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x12px, constraints scale/scale, stroke #F4FFEB 1px
+  - FRAME "Row", 1440x683px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Sidebar", 36x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill #E4FFCD
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #18A47B 2px
+      - FRAME "Sidebar Item", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #65777A 2px
+    - FRAME "Sidebar", 192x683px, vertical pad 0 5 0 5px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Header Button", 182x40px, horizontal pad 0 5 0 15px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - TEXT "Header Title", 133x40px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+        - FRAME "Header Icon Container", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11x10px, constraints scale/scale, stroke #3F4E50 1.5px
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #EBF0F1
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Bold, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.01x13.35px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x36px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x12.8px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x36px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x16.67px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x10px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 147x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Icon Container", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13.33x15px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+      - FRAME "Spacer", 86x24px, constraints left/top
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "Icon Container", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.34px, constraints scale/scale, stroke #3F4E50 1.5px
+        - TEXT "Button Label", 126x37px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+        - FRAME "Caret Icon", 16x16px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 6.67x3.33px, constraints scale/scale, fill #576466, stroke #576466 0.5px
+    - FRAME "Col", 1212x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill #F8F9F9
+      - FRAME "Button", 1212x37px, horizontal pad 0 5 0 5px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #E5F3FF, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "tabler-icon-help-hexagon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #00469F 1px
+        - TEXT "Verify Email Text", 598x14px, constraints left/top, fill #002860, text [Manrope Medium, 12px]
+      - FRAME "Row", 1212x30px, horizontal pad 0 20 0 20px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #C9D6D8 1px
+        - TEXT "Choose how to integrate your data", 131x18px, constraints left/top, fill #9095A1, text [Manrope Medium, 11px]
+      - FRAME "Row", 1212x616px, horizontal pad 30 60 0 60px gap 20px sizing W:fill H:fill, constraints left/top
+        - FRAME "Container", 261x364px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Your Setup List", 103x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container", 261x36px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Container", 261x36px, vertical pad 0 0 0 0px gap -0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 261x2px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #00882A
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #839598
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #839598
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #839598
+            - FRAME "Row", 48.2x6px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #839598
+          - FRAME "Container 507", 261x44px, horizontal pad 10 0 10 20px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 139x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 508", 261x44px, horizontal pad 10 0 10 20px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EBF0F1, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 77x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 509", 261x44px, horizontal pad 10 0 10 20px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 175x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 510", 261x44px, horizontal pad 10 0 10 20px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 186x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 511", 261x44px, horizontal pad 10 0 10 40px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 37x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+          - FRAME "Container 512", 261x44px, horizontal pad 10 0 10 19px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill #EDF0F0, stroke #016FF4 1px
+            - FRAME "tabler-icon-circle-check", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Add people", 133x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 14px]
+        - FRAME "WhiteCol", 811x586px, vertical pad 20 20 20 20px gap 20px align min/center sizing W:fill H:fill, constraints left/top, radius 4px, fill #FFFFFF, stroke #DCDBDD 1px
+          - FRAME "Row", 771x66px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Welcome to Customer.io, Chelsea", 316x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 26px], [heading]
+            - FRAME "Row", 113x36px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #E4FFCD
+          - TEXT "Welcome to Customer.io, Chelsea", 771x22px, constraints left/top, fill #171A1F, text [Manrope Regular, 14px]
+          - FRAME "Container 466", 771x418px, constraints left/top, radius 4px, fill #E4FECF, effect [drop_shadow 1px offset 0 0 #171A1F12, drop_shadow 2px offset 0 0 #171A1F1F]
+            - FRAME "Container 464", 378x313px, constraints scale/scale, radius 4px, fill #07282A, effect [drop_shadow 1px offset 0 0 #171A1F12, drop_shadow 2px offset 0 0 #171A1F1F]
+            - TEXT "Journeys", 169x150px, constraints scale/scale, fill #171A1F, text [Lexend Bold, 36px], [heading]
+            - TEXT "customer.io", 129x102px, constraints scale/scale, fill #171A1F, text [Lexend Bold, 22px]
+            - FRAME "tabler-icon-components", 32x32px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "User Profile Image", 45x40px, constraints scale/scale, radius 4px, fill image(hash: dfe9b6ea7d365571b3b2de843a22f250fd9f6244)
+            - FRAME "Container 457", 134x86px, constraints center/center, radius 4px, fill #0C353B, effect [drop_shadow 1px offset 0 0 #171A1F12, drop_shadow 2px offset 0 0 #171A1F1F]
+            - FRAME "Row", 771x43px, horizontal pad 0 10 0 10px gap 20px align min/center sizing W:fixed H:fixed, constraints scale/bottom, fill #00000080
+
+Screen: 🎨 Replicated UI / Customer io - Plan
+- FRAME "Customer io - Plan", 1440x718px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F8F9F9, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Navbar", 1440x35px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #09272B
+    - FRAME "tabler-icon-chevron-left", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 5x10px, constraints scale/scale, stroke #FFFFFF 1.5px
+    - TEXT "Exit Settings", 75x14px, constraints left/top, fill #FFFFFF, text [Manrope Bold, 12px]
+    - FRAME "Spacer", 932x20px, constraints left/top
+    - TEXT "Trial Info", 89x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Menu Button", 71x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #E4FFCD
+      - TEXT "Logo Text", 51x14px, constraints left/top, fill #00320B, text [Manrope ExtraBold, 12px]
+    - FRAME "Action Button", 83x27px, horizontal pad 0 4 0 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+      - FRAME "tabler-icon-help-hexagon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #F4FFEB 1px
+      - TEXT "Button Text", 55x14px, constraints left/top, fill #F4FFEB, text [Manrope Bold, 10px]
+    - FRAME "Profile Menu", 90x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Notification Menu", 26x26px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Bell Icon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+        - FRAME "Notification Badge", 8x8px, constraints right/top, radius 111px, fill #00882A
+      - FRAME "Settings Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #F4FFEB 1px
+      - FRAME "Profile Icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x12px, constraints scale/scale, stroke #F4FFEB 1px
+  - FRAME "Row", 1440x683px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Sidebar", 192x683px, vertical pad 0 5 0 5px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #EBF0F1 1px
+      - FRAME "Button", 182x40px, horizontal pad 0 5 0 15px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - TEXT "Button Text", 162x40px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #EBF0F1
+        - FRAME "tabler-icon-building-arch", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x14.17px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "Button Text", 147x37px, constraints left/top, fill #000000, text [Manrope Bold, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "tabler-icon-table-options", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.86x16.25px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "Button Text", 147x37px, constraints left/top, fill #3F4E50, text [Manrope Medium, 12px]
+      - FRAME "Button", 182x37px, horizontal pad 0 5 0 5px gap 5px align min/max sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - TEXT "Button Text", 172x17px, constraints left/top, fill #3F4E50, text [Manrope Medium, 10px]
+      - FRAME "Button", 182x36px, horizontal pad 0 5 0 5px gap 5px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "tabler-icon-broadcast", 20x20px, constraints left/top, fill #FFFFFF
+        - TEXT "Button Text", 147x36px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Sidebar", 1248x683px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill #F8F9F9
+      - FRAME "Header Button", 1248x37px, horizontal pad 0 5 0 5px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #E5F3FF, effect [drop_shadow 4px offset 0 0 #0000000D]
+        - FRAME "tabler-icon-help-hexagon", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13.33px, constraints scale/scale, stroke #00469F 1px
+        - TEXT "Header Title", 598x14px, constraints left/top, fill #002860, text [Manrope Medium, 12px]
+      - FRAME "Row", 1248x30px, horizontal pad 0 20 0 20px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #C9D6D8 1px
+        - TEXT "Choose how to integrate your data", 146x18px, constraints left/top, fill #9095A1, text [Manrope Medium, 11px]
+      - FRAME "Col", 1248x616px, vertical pad 0 100 0 100px gap 15px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 1048x44px, horizontal pad 0 0 0 0px gap 5px align min/max sizing W:fill H:fixed, constraints left/top
+          - TEXT "Section Title", 1048x20px, constraints left/top, fill #000000, text [Manrope Bold, 16px]
+        - FRAME "Row", 1048x36px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+          - FRAME "Row", 74x36px, horizontal pad 0 10 0 10px gap 5px align min/center sizing W:fixed H:fill, constraints left/top, stroke #016FF4 1px
+            - TEXT "Tab", 54x14px, constraints left/top, fill #000000, text [Manrope Bold, 12px]
+          - FRAME "Row", 101x36px, horizontal pad 0 10 0 10px gap 5px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Tab", 81x14px, constraints left/top, fill #9DA6A7, text [Manrope Bold, 12px]
+          - FRAME "Row", 107x36px, horizontal pad 0 10 0 10px gap 5px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Tab", 87x14px, constraints left/top, fill #9DA6A7, text [Manrope Bold, 12px]
+        - FRAME "Col", 680x305px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #DCDBDD 1px
+          - FRAME "Col", 680x141px, vertical pad 20 20 20 20px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+            - FRAME "Row", 640x35px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 640x27px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 640x27px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 640x27px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 680x164px, vertical pad 20 20 20 20px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Col", 640x31px, vertical pad 0 0 0 0px gap 5px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Col", 640x32px, vertical pad 0 0 0 0px gap 5px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Col", 640x31px, vertical pad 0 0 0 0px gap 5px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Col", 680x212px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #DCDBDD 1px
+          - FRAME "Col", 680x141px, vertical pad 20 20 20 20px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #DCDBDD 1px
+            - FRAME "Row", 640x35px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 640x27px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 640x27px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 640x27px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 680x71px, vertical pad 20 20 20 20px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Col", 640x31px, vertical pad 0 0 0 0px gap 5px align space_between/center sizing W:fill H:fixed, constraints left/top
+
+Screen: 🎨 Replicated UI / Customer io - Objects
+- FRAME "Customer io - Objects", 1440x718px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F8F9F9, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Navbar", 1440x35px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #09272B
+    - FRAME "Menu Icon", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #F4FFEB 2px
+    - FRAME "Menu Button", 144x34px, horizontal pad 0 0 0 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

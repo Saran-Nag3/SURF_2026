@@ -1,0 +1,810 @@
+---
+name: duckduckgo-landing-page-ui-community
+source_file: DuckDuckGo Landing Page UI (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:32:52.960917+00:00
+---
+
+# DuckDuckGo Landing Page UI (Community) Design Guidelines
+
+## Source
+- Figma file: DuckDuckGo Landing Page UI (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:32:52.960917+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- duckduckgo_com__1440x811.076904296875_default/Cod Gray: [#1C1C1C]
+- duckduckgo_com__1440x811.076904296875_default/Linear Malachite Neon Carrot Pigment Indigo Cherry Pie: [gradient_linear(#FFD43F 3% | #FE8F3F 32% | #46008B 77% | #2B0055 100%)]
+- duckduckgo_com__1440x811.076904296875_default/Nero: [#FFFFFF]
+- duckduckgo_com__1440x811.076904296875_default/Malibu: [#8FABF9]
+- duckduckgo_com__1440x811.076904296875_default/Black 40%: [#00000066]
+- duckduckgo_com__1440x811.076904296875_default/Cod Gray: [#111111]
+- duckduckgo_com__1440x811.076904296875_default/Black 6%: [#0000000F]
+- duckduckgo_com__1440x811.076904296875_default/Black 60%: [#00000099]
+- duckduckgo_com__1440x811.076904296875_default/Tundora 40%: [#44444466]
+- duckduckgo_com__1440x811.076904296875_default/Black: [#000000]
+- duckduckgo_com__1440x811.076904296875_default/Nero 30%: none
+- duckduckgo_com__1440x811.076904296875_default/Linear Windsor Navy Blue: [gradient_linear(#3A0C74 0% | #000585 100%)]
+- duckduckgo_com__1440x811.076904296875_default/Nero 80%: [#FFFFFFCC]
+- duckduckgo_com__1440x811.076904296875_default/Linear Scarlet Limeade: [gradient_linear(#FB23FF 0% | #7DA2FF 100%)]
+- duckduckgo_com__1440x811.076904296875_default/Cornflower Blue: [#7295F6]
+- duckduckgo_com__1440x811.076904296875_default/Studio: [#6B4EBA]
+- duckduckgo_com__1440x811.076904296875_default/Black Rock: [#110336]
+- duckduckgo_com__1440x811.076904296875_default/Gallery: [#EEEEEE]
+- duckduckgo_com__1440x811.076904296875_default/Blue Marguerite: [#876ECB]
+- duckduckgo_com__1440x811.076904296875_default/Daisy Bush: [#876ECB]
+- duckduckgo_com__1440x811.076904296875_default/Tolopea: [#230545]
+- duckduckgo_com__1440x811.076904296875_default/Brandy Punch: [#CC8729]
+- duckduckgo_com__1440x811.076904296875_default/Caribbean Green: [#FFC680]
+- duckduckgo_com__1440x811.076904296875_default/Mulled Wine: [#544463]
+- duckduckgo_com__1440x811.076904296875_default/Jade: [#FFB652]
+- duckduckgo_com__1440x811.076904296875_default/Burnt Sienna: [#E46F4F]
+- duckduckgo_com__1440x811.076904296875_default/Brown Bramble: [#551605]
+- duckduckgo_com__1440x811.076904296875_default/Flame Pea: [#DE5833]
+- duckduckgo_com__1440x811.076904296875_default/Tabasco: [#DE5833]
+- duckduckgo_com__1440x811.076904296875_default/Voodoo: [#462847]
+- duckduckgo_com__1440x811.076904296875_default/Mule Fawn: [#9C452D]
+- duckduckgo_com__1440x811.076904296875_default/Mantis: [#63C853]
+- duckduckgo_com__1440x811.076904296875_default/San Felix: [#0F4E05]
+- duckduckgo_com__1440x811.076904296875_default/La Palma: [#63C853]
+- duckduckgo_com__1440x811.076904296875_default/Boston Blue: [#357DB6]
+- duckduckgo_com__1440x811.076904296875_default/Havelock Blue: [#60A5DA]
+- duckduckgo_com__1440x811.076904296875_default/Terracotta: [#E37151]
+- duckduckgo_com__1440x811.076904296875_default/Nero 10%: [#FFFFFF1A]
+- duckduckgo_com__1440x811.076904296875_default/Malachite: [#FFCC33]
+- duckduckgo_com__1440x811.076904296875_default/Mine Shaft: [#222222]
+- duckduckgo_com__1440x811.076904296875_default/Gamboge: [#E2A412]
+- duckduckgo_com__1440x811.076904296875_default/Nero 12%: none
+- duckduckgo_com__1440x811.076904296875_default/Mine Shaft: [#333333]
+- duckduckgo_com__1440x811.076904296875_default/Deep Koamaru: [#14307E]
+- duckduckgo_com__1440x811.076904296875_default/Apple: [#4CBA3C]
+- duckduckgo_com__1440x811.076904296875_default/Forest Green: [#3CA82B]
+- duckduckgo_com__1440x811.076904296875_default/Alto: [#DDDDDD]
+- duckduckgo_com__1440x811.076904296875_default/Nero 60%: [#FFFFFF99]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 170 uses
+- #000000: 19 uses
+- #7295F6: 16 uses
+- #110336: 13 uses
+- #230545: 9 uses
+- #EEEEEE: 9 uses
+- #00000066: 8 uses
+- #CC8729: 6 uses
+- #222222: 5 uses
+- #DE5833: 5 uses
+- #0000000F: 4 uses
+- #000000E5: 4 uses
+- #F9BE1A: 4 uses
+- #FFC680: 4 uses
+- #111111: 3 uses
+- #FFCC33: 3 uses
+- #FFFFFF1A: 3 uses
+- #FFFFFFCC: 3 uses
+
+## Typography Tokens
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14.75: Open Sans Regular (400), 14.75px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15.38: Open Sans Regular (400), 15.38px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 16: Open Sans Regular (400), 16px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14 upper: Open Sans Regular (400), 14px / 20px, tracking 2.1px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15.25: Open Sans Regular (400), 15.25px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15.13: Open Sans Regular (400), 15.12px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15: Open Sans Regular (400), 15px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.28: Open Sans Bold (700), 18.28px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 17.97: Open Sans Bold (700), 17.97px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.44: Open Sans Bold (700), 18.44px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.13: Open Sans Bold (700), 18.12px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 43.13: Open Sans Bold (700), 43.12px / 48px, tracking -0.48px
+- duckduckgo_com__1440x811.076904296875_default/Inter/Regular 17.34: Inter Regular (400), 17.34px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Inter/Regular 16.88: Inter Regular (400), 16.88px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Inter/Regular 17.03: Inter Regular (400), 17.03px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Inter/Regular 17.19: Inter Regular (400), 17.19px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 13.23: Open Sans Regular (400), 13.23px / 20px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 14.88: Open Sans Bold (700), 14.88px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 12.69: Open Sans Regular (400), 12.69px / 20px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 16: Open Sans Bold (700), 16px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14.88: Open Sans Regular (400), 14.88px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 18.59: Open Sans Regular (400), 18.59px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 32.63: Open Sans Bold (700), 32.62px / 40px, tracking -0.36px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 18.75: Open Sans Regular (400), 18.75px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 32.91: Open Sans Bold (700), 32.91px / 40px, tracking -0.36px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 19.53: Open Sans Regular (400), 19.53px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 32.2: Open Sans Bold (700), 32.2px / 40px, tracking -0.36px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 15.67: Open Sans Bold (700), 15.67px / 26px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 15.41: Open Sans Bold (700), 15.41px / 26px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.87: Open Sans Bold (700), 18.87px / 30px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 19.03: Open Sans Bold (700), 19.03px / 30px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 36.09: Open Sans Bold (700), 36.09px / 44px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.7: Open Sans Bold (700), 18.7px / 39.38px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 19.2: Open Sans Bold (700), 19.2px / 39.38px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.87: Open Sans Bold (700), 18.87px / 39.38px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 19.52: Open Sans Bold (700), 19.52px / 39.38px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.75: Open Sans Bold (700), 18.75px / 28px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 56.63: Open Sans Bold (700), 56.62px / 64px, tracking -1.92px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.88: Open Sans Regular (400), 22.88px / 32px, tracking -0.24px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 30.5: Open Sans Regular (400), 30.5px / 40px, tracking -0.32px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 30.13: Open Sans Regular (400), 30.12px / 40px, tracking -0.32px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 57: Open Sans Bold (700), 57px / 64px, tracking -1.92px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 21.56: Open Sans Bold (700), 21.56px / 32px, tracking -0.24px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 15.75: Open Sans Bold (700), 15.75px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 21.38: Open Sans Bold (700), 21.38px / 32px, tracking -0.24px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14: Open Sans Regular (400), 14px / 20px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 21.19: Open Sans Bold (700), 21.19px / 32px, tracking -0.24px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14.63: Open Sans Regular (400), 14.62px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 34.59: Open Sans Bold (700), 34.59px / 40px, tracking -0.36px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 21.94: Open Sans Regular (400), 21.94px / 32px, tracking -0.24px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.5: Open Sans Regular (400), 22.5px / 32px, tracking -0.24px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 12.9 upper: Open Sans Bold (700), 12.9px / 16px, tracking 0.39px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 57.5: Open Sans Bold (700), 57.5px / 64px, tracking -1.92px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14 upper: Open Sans Regular (400), 14px / 14px, tracking 2.1px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.31: Open Sans Regular (400), 22.31px / 32px, tracking -0.24px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58.5: Open Sans Bold (700), 58.5px / 64px, tracking -1.92px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 13.89 upper: Open Sans Regular (400), 13.89px / 14px, tracking 2.1px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58: Open Sans Bold (700), 58px / 64px, tracking -1.92px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.69: Open Sans Regular (400), 22.69px / 32px, tracking -0.24px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58.63: Open Sans Bold (700), 58.62px / 64px, tracking -1.92px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58.25: Open Sans Bold (700), 58.25px / 64px, tracking -1.92px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 14.38: Open Sans Bold (700), 14.38px / 24px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 17.16 underline: Open Sans Regular (400), 17.16px / 18px, tracking 0px
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 16.59: Open Sans Regular (400), 16.59px / 18px, tracking 0px
+
+## Raw Typography (unstyled)
+- Open Sans Regular, 13.12px: 21 uses
+- Open Sans Regular, 14.88px: 17 uses
+- Open Sans Regular, 15px: 15 uses
+- Open Sans Regular, 13.72px: 12 uses
+- Open Sans Regular, 13.84px: 10 uses
+- Open Sans Regular, 13.5px: 8 uses
+- Open Sans Regular, 13.61px: 8 uses
+- Open Sans Regular, 15.25px: 8 uses
+- Open Sans Regular, 15.38px: 7 uses
+- Open Sans Bold, 18.28px: 6 uses
+- Open Sans Regular, 13.23px: 6 uses
+- Open Sans Regular, 14px: 5 uses
+- Open Sans Regular, 10.46px: 4 uses
+- Open Sans Regular, 18.75px: 4 uses
+- Open Sans Regular, 21.94px: 4 uses
+- Open Sans SemiBold, 9.69px: 4 uses
+- Inter Regular, 16.88px: 3 uses
+- Open Sans Bold, 18.12px: 3 uses
+- Open Sans Bold, 18.87px: 3 uses
+- Open Sans Bold, 34.59px: 3 uses
+- Open Sans Regular, 15.62px: 3 uses
+
+## Typography Hierarchy
+- 58.62px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58.63 (Open Sans Bold)
+- 58.5px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58.5 (Open Sans Bold)
+- 58.25px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58.25 (Open Sans Bold)
+- 58px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58 (Open Sans Bold)
+- 57.5px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 57.5 (Open Sans Bold)
+- 57px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 57 (Open Sans Bold)
+- 56.62px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 56.63 (Open Sans Bold)
+- 43.12px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 43.13 (Open Sans Bold)
+- 36.09px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 36.09 (Open Sans Bold)
+- 34.59px - Open Sans Bold, 34.59px (raw)
+- 34.59px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 34.59 (Open Sans Bold)
+- 32.91px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 32.91 (Open Sans Bold)
+- 32.62px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 32.63 (Open Sans Bold)
+- 32.2px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 32.2 (Open Sans Bold)
+- 30.5px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 30.5 (Open Sans Regular)
+- 30.12px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 30.13 (Open Sans Regular)
+- 22.88px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.88 (Open Sans Regular)
+- 22.69px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.69 (Open Sans Regular)
+- 22.5px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.5 (Open Sans Regular)
+- 22.31px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.31 (Open Sans Regular)
+- 21.94px - Open Sans Regular, 21.94px (raw)
+- 21.94px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 21.94 (Open Sans Regular)
+- 21.56px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 21.56 (Open Sans Bold)
+- 21.38px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 21.38 (Open Sans Bold)
+- 21.19px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 21.19 (Open Sans Bold)
+- 19.53px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 19.53 (Open Sans Regular)
+- 19.52px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 19.52 (Open Sans Bold)
+- 19.2px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 19.2 (Open Sans Bold)
+- 19.03px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 19.03 (Open Sans Bold)
+- 18.87px - Open Sans Bold, 18.87px (raw)
+- 18.87px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.87 (Open Sans Bold)
+- 18.75px - Open Sans Regular, 18.75px (raw)
+- 18.75px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.75 (Open Sans Bold)
+- 18.75px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 18.75 (Open Sans Regular)
+- 18.7px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.7 (Open Sans Bold)
+- 18.59px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 18.59 (Open Sans Regular)
+- 18.44px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.44 (Open Sans Bold)
+- 18.28px - Open Sans Bold, 18.28px (raw)
+- 18.28px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.28 (Open Sans Bold)
+- 18.12px - Open Sans Bold, 18.12px (raw)
+- 18.12px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.13 (Open Sans Bold)
+- 17.97px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 17.97 (Open Sans Bold)
+- 17.34px - duckduckgo_com__1440x811.076904296875_default/Inter/Regular 17.34 (Inter Regular)
+- 17.19px - duckduckgo_com__1440x811.076904296875_default/Inter/Regular 17.19 (Inter Regular)
+- 17.16px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 17.16 underline (Open Sans Regular)
+- 17.03px - duckduckgo_com__1440x811.076904296875_default/Inter/Regular 17.03 (Inter Regular)
+- 16.88px - Inter Regular, 16.88px (raw)
+- 16.88px - duckduckgo_com__1440x811.076904296875_default/Inter/Regular 16.88 (Inter Regular)
+- 16.59px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 16.59 (Open Sans Regular)
+- 16px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 16 (Open Sans Bold)
+- 16px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 16 (Open Sans Regular)
+- 15.75px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 15.75 (Open Sans Bold)
+- 15.67px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 15.67 (Open Sans Bold)
+- 15.62px - Open Sans Regular, 15.62px (raw)
+- 15.41px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 15.41 (Open Sans Bold)
+- 15.38px - Open Sans Regular, 15.38px (raw)
+- 15.38px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15.38 (Open Sans Regular)
+- 15.25px - Open Sans Regular, 15.25px (raw)
+- 15.25px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15.25 (Open Sans Regular)
+- 15.12px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15.13 (Open Sans Regular)
+- 15px - Open Sans Regular, 15px (raw)
+- 15px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15 (Open Sans Regular)
+- 14.88px - Open Sans Regular, 14.88px (raw)
+- 14.88px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 14.88 (Open Sans Bold)
+- 14.88px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14.88 (Open Sans Regular)
+- 14.75px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14.75 (Open Sans Regular)
+- 14.62px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14.63 (Open Sans Regular)
+- 14.38px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 14.38 (Open Sans Bold)
+- 14px - Open Sans Regular, 14px (raw)
+- 14px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14 (Open Sans Regular)
+- 14px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14 upper (Open Sans Regular)
+- 13.89px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 13.89 upper (Open Sans Regular)
+- 13.84px - Open Sans Regular, 13.84px (raw)
+- 13.72px - Open Sans Regular, 13.72px (raw)
+- 13.61px - Open Sans Regular, 13.61px (raw)
+- 13.5px - Open Sans Regular, 13.5px (raw)
+- 13.23px - Open Sans Regular, 13.23px (raw)
+- 13.23px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 13.23 (Open Sans Regular)
+- 13.12px - Open Sans Regular, 13.12px (raw)
+- 12.9px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 12.9 upper (Open Sans Bold)
+- 12.69px - duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 12.69 (Open Sans Regular)
+- 10.46px - Open Sans Regular, 10.46px (raw)
+- 9.69px - Open Sans SemiBold, 9.69px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- duckduckgo_com__1440x811.076904296875_default/Nero: 116 uses
+- duckduckgo_com__1440x811.076904296875_default/Black: 19 uses
+- duckduckgo_com__1440x811.076904296875_default/Cornflower Blue: 15 uses
+- duckduckgo_com__1440x811.076904296875_default/Black Rock: 13 uses
+- duckduckgo_com__1440x811.076904296875_default/Malibu: 12 uses
+- duckduckgo_com__1440x811.076904296875_default/Gallery: 9 uses
+- duckduckgo_com__1440x811.076904296875_default/Tolopea: 9 uses
+- duckduckgo_com__1440x811.076904296875_default/Black 40%: 8 uses
+- duckduckgo_com__1440x811.076904296875_default/Brandy Punch: 6 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.28: 6 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15.25: 6 uses
+- duckduckgo_com__1440x811.076904296875_default/Cod Gray: 5 uses
+- duckduckgo_com__1440x811.076904296875_default/Flame Pea: 5 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14 upper: 5 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15.38: 5 uses
+- duckduckgo_com__1440x811.076904296875_default/Black 6%: 4 uses
+- duckduckgo_com__1440x811.076904296875_default/Caribbean Green: 4 uses
+- duckduckgo_com__1440x811.076904296875_default/Mine Shaft: 4 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 18.75: 4 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 21.94: 4 uses
+- duckduckgo_com__1440x811.076904296875_default/Inter/Regular 16.88: 3 uses
+- duckduckgo_com__1440x811.076904296875_default/Malachite: 3 uses
+- duckduckgo_com__1440x811.076904296875_default/Nero 10%: 3 uses
+- duckduckgo_com__1440x811.076904296875_default/Nero 80%: 3 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.13: 3 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 34.59: 3 uses
+- duckduckgo_com__1440x811.076904296875_default/Deep Koamaru: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Inter/Regular 17.03: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Inter/Regular 17.34: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Mantis: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Mule Fawn: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Mulled Wine: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Nero 30%: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 12.9 upper: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 15.41: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 15.75: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 16: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.7: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.87: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 32.91: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 57: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 13.89 upper: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14.63: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14.88: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 15.13: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 18.59: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.31: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.5: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Tabasco: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Voodoo: 2 uses
+- duckduckgo_com__1440x811.076904296875_default/Alto: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Apple: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Black 60%: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Blue Marguerite: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Boston Blue: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Brown Bramble: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Burnt Sienna: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Daisy Bush: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Forest Green: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Gamboge: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Havelock Blue: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Inter/Regular 17.19: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Jade: 1 use
+- duckduckgo_com__1440x811.076904296875_default/La Palma: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Linear Malachite Neon Carrot Pigment Indigo Cherry Pie: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Linear Scarlet Limeade: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Linear Windsor Navy Blue: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Nero 12%: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Nero 60%: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 14.38: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 14.88: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 15.67: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 17.97: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.44: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 18.75: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 19.03: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 19.2: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 19.52: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 21.19: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 21.38: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 21.56: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 32.2: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 32.63: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 36.09: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 43.13: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 56.63: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 57.5: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58.25: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58.5: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 58.63: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 12.69: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 13.23: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 14.75: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 16: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 16.59: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 17.16 underline: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 19.53: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.69: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 22.88: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 30.13: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 30.5: 1 use
+- duckduckgo_com__1440x811.076904296875_default/San Felix: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Studio: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Terracotta: 1 use
+- duckduckgo_com__1440x811.076904296875_default/Tundora 40%: 1 use
+
+## Layout & Structure
+Screen: Page 1 / DuckDuckGo - 1440
+- FRAME "DuckDuckGo - 1440", 1440x856px, constraints left/top, fill duckduckgo_com__1440x811.076904296875_default/Cod Gray
+  - FRAME "div.home_minimalHero__SUiID", 1440x848px, constraints left/top
+    - FRAME "Header", 1440x55px, vertical pad 23 22 0 22px gap 10px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "div.legacy-homepage_headerRight__2OE0u", 1396x32px, constraints left/top
+        - FRAME "Button", 32x32px, constraints right/top_bottom
+          - FRAME "SVG", 16x16px, constraints left/top
+            - VECTOR "Vector", 14x11.5px, constraints scale/scale, fill duckduckgo_com__1440x811.076904296875_default/Nero 60%
+    - FRAME "div.home_minimalContentWrap__DjSDA:margin", 1440x500.13px, horizontal pad 150 10 10 10px gap 10px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "div.home_minimalContentWrap__DjSDA", 1440x340.13px, constraints left/top
+        - FRAME "div.home_minimalContent___t7iW", 1440x277.67px, constraints center/top [decorative, ~11 shapes]
+        - FRAME "p.tagline_tagline__xryVo:margin", 1439.98x38.46px, constraints center/top
+          - FRAME "p.tagline_tagline__xryVo", 380.25x20.46px, constraints center/top
+            - TEXT "Privacy, simplified.", 143.55x18px, constraints center/top, fill duckduckgo_com__1440x811.076904296875_default/Gallery, text [duckduckgo_com__1440x811.076904296875_default/Open Sans/Regular 16.59]
+            - FRAME "Link", 232.25x20.92px, constraints center/top
+    - FRAME "div.legacy-homepage-variants_scrollCta__hNjqv:margin", 1440x304.35px, constraints center/bottom
+      - FRAME "div.legacy-homepage-variants_scrollCta__hNjqv", 146.62x84px, constraints center/bottom
+        - TEXT "Heading 6 → Explore our features", 146.82x24px, constraints center/top, fill duckduckgo_com__1440x811.076904296875_default/Nero, text [duckduckgo_com__1440x811.076904296875_default/Open Sans/Bold 14.38]
+        - FRAME "Link:margin", 48x60px, constraints left_right/top_bottom
+          - FRAME "Link", 48x48px, constraints left_right/top_bottom, radius 40px, stroke duckduckgo_com__1440x811.076904296875_default/Nero 12% 1px
+            - FRAME "SVG", 24x24px, constraints center/center
+  - FRAME "div#features", 1440x9024.9px, constraints left/top
+    - FRAME "div.legacy-homepage-variants_belowTheFold__b5i_x", 1376x5300.85px, constraints center/top
+      - FRAME "div.belowTheFold_problemAndSolution__7orQP", 1248x4926.38px, constraints left_right/top
+        - FRAME "Section:margin", 1248x3575.65px, constraints left_right/top
+          - FRAME "Section", 1248x3437.65px, constraints left_right/top
+            - FRAME "div.flex-grid", 1248x511.19px, constraints left_right/top
+            - FRAME "div.howItWorksDetails_root__loece", 1248x2798.46px, constraints left_right/top
+        - FRAME "Section:margin", 1248x1222.73px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Section", 1248x1222.73px, constraints left/top
+            - FRAME "div.flex-grid", 1248x460px, constraints center/top
+            - FRAME "div.flex-grid", 1248x762.73px, constraints left_right/top
+      - FRAME "Section", 1248x374.46px, constraints left_right/top
+        - FRAME "div.center_root__Uf1xM:margin", 1248x128px, constraints center/top
+          - FRAME "div.center_root__Uf1xM", 881.27x128px, constraints center/top
+            - FRAME "Heading 2", 881.27x128px, constraints left_right/top
+        - FRAME "div.center_root__Uf1xM:margin", 1248x184px, constraints center/top
+          - FRAME "div.center_root__Uf1xM", 763.77x160px, constraints center/top
+            - FRAME "p.text_text-xl__Es2Rn", 763.77x160px, constraints left_right/top
+        - FRAME "Link:margin", 317.44x62.46px, constraints left/top
+          - FRAME "Link", 317.44x38.46px, constraints left/top, radius 8px
+            - FRAME "SVG:margin", 49x36px, constraints left_right/top_bottom
+            - FRAME "p.text_text-lg__wn1El", 265.98x32px, constraints left/center
+    - FRAME "flame.1241f020.png", 1440x468.44px, constraints left_right/top, fill image(hash: e7ad3004b8daf588d5d49bd171d727f3e999d29c)
+    - FRAME "Section", 1440x2997.62px, constraints left_right/top, fill duckduckgo_com__1440x811.076904296875_default/Linear Malachite Neon Carrot Pigment Indigo Cherry Pie
+      - FRAME "div.container_root__Lmrbx", 1376x2531.15px, constraints center/top
+        - FRAME "Section", 1248x881.15px, constraints left_right/top
+          - FRAME "div.center_root__Uf1xM", 881.27x128px, constraints center/top
+            - FRAME "Heading 2", 881.27x128px, constraints left_right/top
+          - FRAME "div.featureCards_featureCardsWide___9JGl", 1248x673.15px, constraints left_right/top
+            - FRAME "div.flex-grid", 1248x673.15px, constraints left/top_bottom
+        - FRAME "Section", 1248x212px, constraints left_right/top, radius 12px, fill duckduckgo_com__1440x811.076904296875_default/Black 60%
+          - FRAME "div.flameSection_bottomCtaBoxText__1NuSD", 880x212px, constraints center/center
+            - FRAME "Heading 3", 848x40px, constraints left_right/top
+            - FRAME "List", 848x108px, constraints left_right/top
+          - FRAME "div.flameSection_bottomCtaBoxCta__ub_S_", 368x212px, constraints center/center
+            - FRAME "div.installCTA_installCTA__SJdct", 368x212px, constraints left/top_bottom, radius 12px, fill duckduckgo_com__1440x811.076904296875_default/Tundora 40%, effect [drop_shadow 40px offset 0 20 #00000014, drop_shadow 12px offset 0 4 #0000001A]
+        - FRAME "Section", 1248x274px, constraints left_right/top
+          - FRAME "div.flameSection_pressQuote__TPjxN", 300x274px, constraints left/top_bottom, radius 12px, fill duckduckgo_com__1440x811.076904296875_default/Black 6%
+            - FRAME "Figure", 258x232px, constraints left_right/top_bottom
+          - FRAME "div.flameSection_pressQuote__TPjxN:margin", 316x274px, constraints left_right/top
+            - FRAME "div.flameSection_pressQuote__TPjxN", 300x274px, constraints left_right/top, radius 12px, fill duckduckgo_com__1440x811.076904296875_default/Black 6%
+          - FRAME "div.flameSection_pressQuote__TPjxN:margin", 316x274px, constraints left_right/top
+            - FRAME "div.flameSection_pressQuote__TPjxN", 300x274px, constraints left_right/top, radius 12px, fill duckduckgo_com__1440x811.076904296875_default/Black 6%
+          - FRAME "div.flameSection_pressQuote__TPjxN:margin", 316x274px, constraints left_right/top
+            - FRAME "div.flameSection_pressQuote__TPjxN", 300x274px, constraints left_right/top, radius 12px, fill duckduckgo_com__1440x811.076904296875_default/Black 6%
+        - FRAME "Section", 1248x844px, constraints left_right/top
+          - FRAME "div.flameSection_faqLeftCol__VC9Jy", 468x844px, constraints left_right/top_bottom
+            - FRAME "Heading 2", 468x48px, constraints left_right/top
+          - FRAME "div.flameSection_faqRightCol__W1Frr", 702x844px, constraints left_right/top_bottom
+            - FRAME "div.stack_root__Mp7Le", 702x844px, constraints left_right/top
+      - FRAME "Footer", 1440x386.46px, constraints left_right/top
+        - FRAME "div.container_root__Lmrbx", 1376x378.46px, constraints center/top
+          - FRAME "div.stack_root__Mp7Le", 1248x313.23px, constraints left_right/top
+            - RECTANGLE "div.footer_footerHorizontalLine__mazNL", 1248x1.23px, constraints left_right/top, stroke duckduckgo_com__1440x811.076904296875_default/Nero 1px, opacity 10%
+            - FRAME "div.flex-grid:margin", 1248x312px, constraints left_right/top
+          - FRAME "div.stack_root__Mp7Le", 1248x65.23px, constraints left_right/top
+            - FRAME "div.footer_footerHorizontalLine__mazNL:margin", 1248x9.23px, constraints left_right/top
+            - FRAME "div.flex-grid:margin", 1248x24px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints center/center
+
+Screen: Page 1 / div.sideMenu_sideMenu__ApNj_
+- FRAME "div.sideMenu_sideMenu__ApNj_", 259.19x811.08px, constraints right/top_bottom, fill #282828, effect [drop_shadow 1px offset -1 0 #00000033]
+  - FRAME "div.sideMenu_sideMenuContent__OE7n9", 259.19x811.08px, constraints left_right/top_bottom
+    - FRAME "Button", 14.38x14.38px, constraints left_right/top_bottom
+      - FRAME "SVG", 14.37x15px, constraints left/top
+        - VECTOR "Vector", 14.01x14.57px, constraints scale/scale, fill #BFBFBFCC
+    - FRAME "Section", 237.6x115.44px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Heading 1", 237.6x19.44px, constraints left/top
+        - TEXT "DuckDuckGo Search", 117.22x13.54px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 10.63px]
+      - FRAME "List", 237.6x96px, constraints left/top
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Private Search", 91.22x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.61px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Themes", 50.85x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → All Settings", 70.95x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → !Bang Search Shortcuts", 147.2x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.61px]
+    - FRAME "Section", 237.6x163.19px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Heading 1", 237.6x43.19px, constraints left/top
+        - TEXT "Browser Downloads", 119.64x13.54px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 10.46px]
+      - FRAME "List", 237.6x120px, constraints left/top
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → iOS", 22.87x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 14.4px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Android", 50.35x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.39px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - FRAME "Link", 26.35x24px, constraints left/center
+            - TEXT "Mac", 26.55x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.61px]
+          - FRAME "div.sideMenu_sectionLinkBadge__Ds14_:margin", 36.1x16px, constraints left/top
+            - FRAME "div.sideMenu_sectionLinkBadge__Ds14_", 32.1x16px, constraints left/top, radius 4px, fill #F9BE1A
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - FRAME "Link", 57.62x24px, constraints left/center
+            - TEXT "Windows", 57.82x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.5px]
+          - FRAME "div.sideMenu_sectionLinkBadge__Ds14_:margin", 36.1x16px, constraints left/top
+            - FRAME "div.sideMenu_sectionLinkBadge__Ds14_", 32.1x16px, constraints left/top, radius 4px, fill #F9BE1A
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Browser Extensions", 124.24x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.5px]
+    - FRAME "Section", 237.6x187.19px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Heading 1", 237.6x43.19px, constraints left/top
+        - TEXT "Learn More", 65.6x13.54px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 10.46px]
+      - FRAME "List", 237.6x144px, constraints left/top
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → DuckDuckGo Browser", 139.55x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Who We Are", 79.05x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Privacy Blog", 77.91x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Careers", 49.89x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Privacy Policy", 86.28x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Terms of Service", 104.41x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.5px]
+    - FRAME "Section", 237.6x187.19px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Heading 1", 237.6x43.19px, constraints left/top
+        - TEXT "Other Resources", 98.62x13.54px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 10.8px]
+      - FRAME "List", 237.6x144px, constraints left/top
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → What’s New", 74.78x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Help", 30.01x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Privacy Newsletter", 117.32x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.5px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Spread DuckDuckGo", 132.78x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Press Kit", 54.7x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.61px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Advertise on Search", 127.58x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+
+Screen: Page 1 / div.sideMenu_sideMenu__ApNj_
+- FRAME "div.sideMenu_sideMenu__ApNj_", 259.19x1080px, constraints right/top_bottom, fill #282828, effect [drop_shadow 1px offset -1 0 #00000033]
+  - FRAME "div.sideMenu_sideMenuContent__OE7n9", 259.19x1080.08px, constraints left_right/top_bottom
+    - FRAME "Button", 14.37x15px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left_right/top
+      - FRAME "SVG", 14.37x15px, constraints left/top
+        - VECTOR "Vector", 14.01x14.57px, constraints scale/scale, fill #BFBFBFCC
+    - FRAME "Section", 237.6x115.44px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Heading 1", 237.6x19.44px, constraints left/top
+        - TEXT "DuckDuckGo Search", 117.22x13.54px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 10.63px]
+      - FRAME "List", 237.6x96px, constraints left/top
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Private Search", 91.22x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.61px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Themes", 50.85x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → All Settings", 70.95x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → !Bang Search Shortcuts", 147.2x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.61px]
+    - FRAME "Section", 237.6x163.19px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Heading 1", 237.6x43.19px, constraints left/top
+        - TEXT "Browser Downloads", 119.64x13.54px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 10.46px]
+      - FRAME "List", 237.6x120px, constraints left/top
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → iOS", 22.87x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 14.4px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Android", 50.35x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.39px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - FRAME "Link", 26.35x24px, constraints left/center
+            - TEXT "Mac", 26.55x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.61px]
+          - FRAME "div.sideMenu_sectionLinkBadge__Ds14_:margin", 36.1x16px, constraints left/top
+            - FRAME "div.sideMenu_sectionLinkBadge__Ds14_", 32.1x16px, constraints left/top, radius 4px, fill #F9BE1A
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - FRAME "Link", 57.62x24px, constraints left/center
+            - TEXT "Windows", 57.82x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.5px]
+          - FRAME "div.sideMenu_sectionLinkBadge__Ds14_:margin", 36.1x16px, constraints left/top
+            - FRAME "div.sideMenu_sectionLinkBadge__Ds14_", 32.1x16px, constraints left/top, radius 4px, fill #F9BE1A
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Browser Extensions", 124.24x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.5px]
+    - FRAME "Section", 237.6x187.19px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Heading 1", 237.6x43.19px, constraints left/top
+        - TEXT "Learn More", 65.6x13.54px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 10.46px]
+      - FRAME "List", 237.6x144px, constraints left/top
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → DuckDuckGo Browser", 139.55x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Who We Are", 79.05x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Privacy Blog", 77.91x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Careers", 49.89x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Privacy Policy", 86.28x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Terms of Service", 104.41x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.5px]
+    - FRAME "Section", 237.6x187.19px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Heading 1", 237.6x43.19px, constraints left/top
+        - TEXT "Other Resources", 98.62x13.54px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 10.8px]
+      - FRAME "List", 237.6x144px, constraints left/top
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → What’s New", 74.78x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Help", 30.01x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Privacy Newsletter", 117.32x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.5px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Spread DuckDuckGo", 132.78x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.84px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Press Kit", 54.7x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.61px]
+        - FRAME "Item", 237.6x24px, constraints left_right/top
+          - TEXT "Link → Advertise on Search", 127.58x17.23px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.72px]
+
+Screen: Page 1 / DuckDuckGo - 1920
+- FRAME "DuckDuckGo - 1920", 1920x1080px, vertical pad 0 10 0 10px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill duckduckgo_com__1440x811.076904296875_default/Cod Gray
+  - FRAME "Main", 1920x1080px, constraints left/top
+    - FRAME "Header", 1920x55px, constraints center/top
+      - FRAME "Button → SVG", 16x16px, constraints left/top
+        - VECTOR "Vector", 14x11.5px, constraints scale/scale, fill #FFFFFF99
+    - FRAME "div.home_minimalContentWrap__DjSDA", 1920x407.69px, constraints left_right/top
+      - FRAME "div.home_minimalContent___t7iW", 1920x277.69px, constraints center/top [decorative, ~11 shapes]
+      - FRAME "p.tagline_tagline__xryVo", 380.63x20px, constraints center/top
+        - TEXT "Privacy, simplified.", 148.35x21px, constraints center/top, fill #EEEEEE, text [Open Sans Regular, 17.16px]
+        - TEXT "Link → Help Spread DuckDuckGo!", 212.17x21px, constraints center/top, fill #EEEEEE, text [Open Sans Regular, 17.16px]
+        - FRAME "Link → SVG", 16x16px, constraints center/top
+          - VECTOR "Vector", 13.37x12.75px, constraints scale/scale, fill #DE5833
+          - VECTOR "Vector", 15.88x15.25px, constraints scale/scale, fill #9A3216
+      - FRAME "Link", 341.67x44px, constraints center/top, radius 8px, stroke #FFFFFF1F 1px
+        - FRAME "SVG", 24x24px, constraints center/center
+          - VECTOR "Vector", 18x21.75px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Download DuckDuckGo for Windows", 267.87x23px, constraints center/top, fill #FFFFFF, text [Open Sans Bold, 14.62px]
+    - FRAME "div.legacy-homepage-variants_scrollCta__hNjqv", 146.61x84px, constraints center/bottom
+      - TEXT "Heading 6 → Explore our features", 146.81x24px, constraints center/top, fill #FFFFFF, text [Open Sans Bold, 14.38px]
+      - FRAME "Link", 48x48px, constraints center/top, radius 40px, stroke #FFFFFF1F 1px
+        - FRAME "SVG", 24x24px, constraints center/center
+          - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Main", 1920x9226.16px, constraints left/top
+    - FRAME "div.legacy-homepage-variants_belowTheFold__b5i_x", 1376x5300.41px, constraints center/top
+      - FRAME "Section → orbits-desktop.2bf44c3d.png", 764.4x715.68px, constraints left_right/top, fill image(hash: 4151bbbc01cac3e4bb8c4334b8dc05548be47b46)
+      - TEXT "Section → Heading 2 → One super", 284.03x94px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 58.25px], [heading]
+      - FRAME "Section → Heading 2 → SVG", 22.88x41.59px, constraints left/top
+        - VECTOR "Vector", 22.88x41.59px, constraints scale/scale, fill #E2A412
+      - TEXT "Section → Heading 2 → charged app,", 356.39x94px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 58.62px], [heading]
+      - TEXT "Section → Heading 2 → multiple types of privacy", 660.18x158px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 57px], [heading]
+      - FRAME "Section", 640x96px, constraints left/top
+        - TEXT "The DuckDuckGo app includes our Web and App Tracking Protect", 598.89x93px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 22.69px]
+      - FRAME "Section", 564.89x20px, constraints left/top
+        - TEXT "See app listings for platform-specific details: iOS, Android", 565.09x17px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 13.12px]
+      - TEXT "Section → Section → Header → Search Protection", 177.26x14px, constraints left/top, fill #EEEEEE, text [Open Sans Regular, 14px]
+      - FRAME "Section → Section → Header → Heading 3", 594.84x128px, constraints left_right/top
+        - TEXT "Search without being tracked.", 593x128px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 59.25px], [heading]
+      - FRAME "Section → Section", 587.52x64px, constraints left/top
+        - TEXT "Other search engines track your every search, from where you", 572.78x61px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 22.31px]
+      - FRAME "Section → Section → Link → SVG", 36x36px, constraints left/center
+        - VECTOR "Vector", 34.5x34.5px, constraints scale/scale, stroke #7295F6 1.5px
+        - VECTOR "Vector", 11.93x11.96px, constraints scale/scale, fill #7295F6
+      - TEXT "Section → Section → Link → Learn more", 117.59x32px, constraints center/top, fill #7295F6, text [Open Sans Regular, 21.94px]
+      - FRAME "Section → Section → search-protection-back-light.png", 836.28x560px, constraints left/center, fill image(hash: 01de8d4c8e5ec3bd936c86f22cca39ac8935b7d8)
+      - FRAME "Section → Section → Picture → search-protection-front-dark.p", 260.05x481.59px, constraints left_right/top_bottom, fill image(hash: 4643cf5d08fa9107abe7c98aac6676d91c6a63d6)
+      - FRAME "Section → Section → Picture → web-protection-back-dark.png", 327.27x626.67px, constraints left_right/top, fill image(hash: 06c516edc7d6cd50a96545e6f09a0abfc2c8cc17)
+      - FRAME "Section → Section → Picture → web-protection-front-dark.png", 299.98x473.81px, constraints left_right/top, fill image(hash: bf093aee63e89931ce7fa3ba9146733dc20570ba)
+      - TEXT "Section → Section → Header → Web Tracking Protection", 235.59x14px, constraints left/top, fill #EEEEEE, text [Open Sans Regular, 13.89px]
+      - TEXT "Section → Section → Header → Heading 3 → Stop creepy trackin", 560.13x222px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 58px], [heading]
+      - FRAME "Section → Section", 587.52x96px, constraints left/top
+        - TEXT "DuckDuckGo's powerful tracker blocking stops most trackers b", 536.88x93px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 22.5px]
+      - FRAME "Section → Section → Link → SVG", 36x36px, constraints left/center
+        - VECTOR "Vector", 34.5x34.5px, constraints scale/scale, stroke #7295F6 1.5px
+        - VECTOR "Vector", 11.93x11.96px, constraints scale/scale, fill #7295F6
+      - TEXT "Section → Section → Link → Learn more", 117.59x32px, constraints center/top, fill #7295F6, text [Open Sans Regular, 21.94px]
+      - TEXT "Section → Section → Header → Email Protection", 160.83x14px, constraints left/top, fill #EEEEEE, text [Open Sans Regular, 13.89px]
+      - TEXT "Section → Section → Header → Heading 3 → Intercept and remov", 608x128px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 59.25px], [heading]
+      - FRAME "Section → Section → Header → Heading 3", 45.38x22px, constraints left/top, radius 5px, fill #FFCC33
+        - TEXT "Beta", 33.58x16px, constraints left/top, fill #222222, text [Open Sans Bold, 12.9px]
+      - FRAME "Section → Section", 587.52x128px, constraints left/top
+        - TEXT "85% of emails sent through Duck Addresses contained hidden e", 585.92x125px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 22.31px]
+      - ... +36 more children
+    - FRAME "flame.1241f020.png", 1920x624.59px, constraints left_right/top, fill image(hash: e7ad3004b8daf588d5d49bd171d727f3e999d29c)
+    - FRAME "Section", 1920x3043.16px, constraints left_right/top, fill gradient_linear(#FFD43F 3% | #FE8F3F 32% | #46008B 77% | #2B0055 100%)
+      - FRAME "div.container_root__Lmrbx", 1376x2577.16px, constraints center/top
+        - TEXT "Section → Heading 2 → Get the same Internet, but with", 840.09x158px, constraints center/top, fill #111111, text [Open Sans Bold, 56.62px], [heading]
+        - FRAME "Section → Section", 456x270px, constraints left_right/top, radius 12px, fill #FFFFFFCC, effect [drop_shadow 16px offset 0 8 #00000014, drop_shadow 6px offset 0 2 #0000001A]
+          - FRAME "widget-big@2x.a260ccf6.png", 297.02x163px, constraints right/top, fill image(hash: f6b990943e876b3a7a20f378b81a09ab601ee416)
+          - FRAME "div.featureCards_widgetsText__wbuWb", 176.38x36px, constraints scale/bottom
+            - FRAME "image", 40x36px, constraints left/center
+            - TEXT "Heading 3 → App Widgets", 116.58x28px, constraints center/top, fill #000000, text [Open Sans Bold, 18.75px]
+          - FRAME "widget-small@2x.07c865df.png", 150x150px, constraints left/bottom, fill image(hash: cd230a69591d492233decf42f594e3d2b5e1803d)
+        - FRAME "Section → Section", 456x387.16px, constraints left_right/top_bottom, radius 12px, fill #FFFFFFCC, effect [drop_shadow 16px offset 0 8 #00000014, drop_shadow 6px offset 0 2 #0000001A]
+          - FRAME "List", 344.25x39.38px, constraints left_right/top
+            - TEXT "Item → Voice Search", 123.9x39.38px, constraints center/top, fill #000000, text [Open Sans Bold, 19.52px]
+            - TEXT "Item → Favorites", 88x39.38px, constraints center/top, fill #000000, text [Open Sans Bold, 18.87px]
+            - TEXT "Item → Downloads", 106.7x39.38px, constraints center/top, fill #000000, text [Open Sans Bold, 19.2px]
+          - FRAME "List", 344.25x39.38px, constraints left_right/top
+            - TEXT "Item → Bookmarks", 107.39x39.38px, constraints center/top, fill #000000, text [Open Sans Bold, 18.87px]
+            - TEXT "Item → Smarter Encryption", 183.34x39.38px, constraints center/top, fill #000000, text [Open Sans Bold, 18.7px]
+          - FRAME "List", 344.25x44px, constraints left_right/top
+            - TEXT "Item → Tracker Blocking", 301.65x44px, constraints center/top, fill #000000, text [Open Sans Bold, 36.09px], [heading]
+          - FRAME "List", 344.25x30px, constraints left_right/top
+            - TEXT "Item → Local search", 118.78x30px, constraints center/top, fill #000000, text [Open Sans Bold, 19.2px]
+            - TEXT "Item → !bang shortcuts", 147.7x30px, constraints center/top, fill #000000, text [Open Sans Bold, 18.87px]
+          - FRAME "List", 344.25x26px, constraints left_right/top
+            - TEXT "Item → Application Lock", 128.03x26px, constraints center/top, fill #000000, text [Open Sans Bold, 15.41px]
+            - TEXT "Item → Custom themes", 121.11x26px, constraints center/top, fill #000000, text [Open Sans Bold, 15.41px]
+            - TEXT "Item → Maps", 42.01x26px, constraints center/top, fill #000000, text [Open Sans Bold, 15.67px]
+        - FRAME "Section → Section", 380x673.16px, constraints left_right/top_bottom, radius 12px, fill #FFFFFFCC, effect [drop_shadow 16px offset 0 8 #00000014, drop_shadow 6px offset 0 2 #0000001A]
+          - FRAME "burn@2x.be0bd36d.png", 292x471px, constraints center/top, fill image(hash: 1cf6c77bca21d1d609f41efaad8af0074c194aba)
+          - FRAME "div.stack_root__Mp7Le", 292x135.94px, constraints center/top
+            - FRAME "flame@2x.40e1cfa0.png", 35.98x43.94px, constraints center/top, fill image(hash: 7253a9c2183acf7034c9143187868ee77e1b956e)
+            - TEXT "Heading 3 → Burn After Reading", 173.08x28px, constraints center/top, fill #000000, text [Open Sans Bold, 18.12px]
+            - FRAME "p.text_text-sm__23qqs", 292x48px, constraints center/top
+        - FRAME "Section → Section", 380x673.16px, constraints left_right/top_bottom, radius 12px, fill gradient_linear(#3A0C74 0% | #000585 100%), effect [drop_shadow 16px offset 0 8 #00000014, drop_shadow 6px offset 0 2 #0000001A]
+          - FRAME "div.stack_root__Mp7Le", 99.58x95px, constraints center/top
+            - FRAME "night@2x.4ca79636.png", 67x67px, constraints center/top, fill image(hash: eec113049f9d98a89257700b904095d4a34b7c67)
+            - TEXT "Heading 3 → Dark Mode", 99.78x28px, constraints center/top, fill #FFFFFF, text [Open Sans Bold, 18.12px]
+          - FRAME "dark-mode@2x.3e150d01.png", 307.98x530.16px, constraints center/top, fill image(hash: e3b3ec0df2c68daaa59e80524ecfd3eb14a70be5)
+        - FRAME "Section", 1248x258px, constraints left_right/top, radius 12px, fill #00000099
+          - FRAME "div.flameSection_bottomCtaBoxText__1NuSD", 871x212px, constraints center/center
+            - TEXT "Heading 3 → Trusted by tens of millions worldwide!", 601.36x40px, constraints center/top, fill #FFFFFF, text [Open Sans Bold, 32.2px], [heading]
+            - TEXT "List → Item → Strong → 100%", 85.4x53px, constraints center/top, fill #FFFFFF, text [Open Sans Bold, 32.91px], [heading]
+            - TEXT "List → Item → Free", 40.33x28px, constraints center/top, fill #FFFFFF, text [Open Sans Regular, 19.53px]
+            - FRAME "List → Item", 279.67x108px, constraints left/center, stroke #FFFFFF4D 1px
+            - FRAME "List → Item", 279.67x108px, constraints left/center, stroke #FFFFFF4D 1px
+          - FRAME "div.installCTA_installCTA__SJdct", 377x258px, constraints left/top_bottom, radius 12px, fill #44444466, effect [drop_shadow 40px offset 0 20 #00000014, drop_shadow 12px offset 0 4 #0000001A]
+            - FRAME "div.installCTA_frontCard__DTnwm", 377x124px, constraints left_right/top, radius 12px, fill #222222, effect [drop_shadow 40px offset 0 20 #00000014, drop_shadow 12px offset 0 4 #0000001A]
+            - FRAME "div.installCTA_appButtons__DpvQX", 377x110px, constraints left_right/top
+        - FRAME "Section", 300x274px, constraints left/top_bottom, radius 12px, fill #0000000F
+          - TEXT "Figure → Blockquote → The company best known for", 234.59x22px, constraints left/top, fill #FFFFFF, text [Inter Regular, 17.03px]
+          - TEXT "Figure → Blockquote → its search engine is launching a", 249.58x106px, constraints left/top, fill #FFFFFF, text [Inter Regular, 16.88px]
+          - FRAME "Figure → Figcaption → Cite → Picture → WIRED-DARK-DEFAULT.b4", 128x40px, constraints left_right/top, fill image(hash: d287a59d94573eba54eb766ec944512835723caa)
+          - FRAME "Figure → Figcaption → Link → SVG", 36x36px, constraints left/top, opacity 30%
+            - VECTOR "Vector", 34.5x34.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+            - VECTOR "Vector", 11.93x11.96px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Section", 300x274px, constraints left/top_bottom, radius 12px, fill #0000000F
+          - TEXT "Figure → Blockquote → Tackling email privacy has", 215.95x22px, constraints left/top, fill #FFFFFF, text [Inter Regular, 17.34px]
+          - TEXT "Figure → Blockquote → been a major goal for", 245.7x134px, constraints left/top, fill #FFFFFF, text [Inter Regular, 17.19px]
+          - FRAME "Figure → Figcaption → Cite → Picture → VERGE-DARK-DEFAULT.88", 120.8x39.98px, constraints left_right/top, fill image(hash: 56ac4a23d4abbb11612249962d9ec5b959512739)
+          - FRAME "Figure → Figcaption → Link → SVG", 36x36px, constraints left/top, opacity 30%
+            - VECTOR "Vector", 34.5x34.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+            - VECTOR "Vector", 11.93x11.96px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Section", 300x274px, constraints left/top_bottom, radius 12px, fill #0000000F
+          - TEXT "Figure → Blockquote → It doesn’t allow targeted", 194.42x22px, constraints left/top, fill #FFFFFF, text [Inter Regular, 17.03px]
+          - TEXT "Figure → Blockquote → advertising, results are not", 246.25x134px, constraints left/top, fill #FFFFFF, text [Inter Regular, 16.88px]
+          - FRAME "Figure → Figcaption → Cite → Picture → UT-DARK-DEFAULT.6cd00", 92x40px, constraints left_right/top, fill image(hash: bd2cbf75418e676baf01ff84c44d5c6f7c08edcd)
+          - FRAME "Figure → Figcaption → Link → SVG", 36x36px, constraints left/top, opacity 30%
+            - VECTOR "Vector", 34.5x34.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+            - VECTOR "Vector", 11.93x11.96px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Section", 300x274px, constraints left/top_bottom, radius 12px, fill #0000000F
+          - TEXT "Figure → Blockquote → The 13-year-old company", 207.5x22px, constraints left/top, fill #FFFFFF, text [Inter Regular, 16.88px]
+          - TEXT "Figure → Blockquote → appears to be in a prime", 253.12x134px, constraints left/top, fill #FFFFFF, text [Inter Regular, 17.34px]
+          - FRAME "Figure → Figcaption → Cite → Picture → CNET-DARK.e3fd496e.pn", 55.19x39.98px, constraints left_right/top, fill image(hash: 6c63ce5a2facad128c95bb696ea134539ea003fd)
+          - FRAME "Figure → Figcaption → Link → SVG", 36x36px, constraints left/top, opacity 30%
+            - VECTOR "Vector", 34.5x34.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+            - VECTOR "Vector", 11.93x11.96px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Section → Heading 2 → Still have questions?", 432.72x48px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 43.12px], [heading]
+        - FRAME "Section → Section", 702x220px, constraints left_right/top, radius 12/12/0/0px
+          - FRAME "Heading 3", 702x76px, constraints left_right/top, fill #111111
+            - TEXT "Button → What is DuckDuckGo?", 199.7x28px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 18.28px]
+            - FRAME "Button → SVG", 16x16px, constraints left/center
+          - FRAME "Region", 702x144px, constraints left_right/top, fill #111111
+            - TEXT "DuckDuckGo is an independent Internet privacy company that a", 641.72x116px, constraints left/top, fill #E5E5E5, text [Open Sans Regular, 14.88px]
+        - FRAME "Section → Section → Heading 3", 702x76px, constraints left_right/top, fill #00000066
+          - TEXT "Button → How does DuckDuckGo protect my privacy?", 396.56x28px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 18.28px]
+          - FRAME "Button → SVG", 16x16px, constraints left/center
+            - VECTOR "Vector", 11x5.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - FRAME "Section → Section → Heading 3", 702x76px, constraints left_right/top, fill #00000066
+          - TEXT "Button → Does DuckDuckGo block all trackers on websites I vi", 503.72x28px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 18.12px]
+          - FRAME "Button → SVG", 16x16px, constraints left/center
+            - VECTOR "Vector", 11x5.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - FRAME "Section → Section → Heading 3", 702x76px, constraints left_right/top, fill #00000066
+          - TEXT "Button → How many people use DuckDuckGo?", 333.15x28px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 18.28px]
+          - FRAME "Button → SVG", 16x16px, constraints left/center
+            - VECTOR "Vector", 11x5.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - FRAME "Section → Section → Heading 3", 702x76px, constraints left_right/top, fill #00000066
+          - TEXT "Button → How does DuckDuckGo make money?", 344.56x28px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 18.28px]
+          - FRAME "Button → SVG", 16x16px, constraints left/center
+            - VECTOR "Vector", 11x5.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - FRAME "Section → Section → Heading 3", 702x76px, constraints left_right/top, fill #00000066
+          - TEXT "Button → Why use DuckDuckGo instead of Google?", 375.18x28px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 18.44px]
+          - FRAME "Button → SVG", 16x16px, constraints left/center
+            - VECTOR "Vector", 11x5.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - FRAME "Section → Section → Heading 3", 702x76px, constraints left_right/top, fill #00000066
+          - TEXT "Button → Is Incognito mode private?", 238.04x28px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 17.97px]
+          - FRAME "Button → SVG", 16x16px, constraints left/center
+            - VECTOR "Vector", 11x5.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - FRAME "Section → Section → Heading 3", 702x76px, constraints left_right/top, fill #00000066
+          - TEXT "Button → How do DuckDuckGo Search results compare to Google'", 527.54x28px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 18.28px]
+          - FRAME "Button → SVG", 16x16px, constraints left/center
+            - VECTOR "Vector", 11x5.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - FRAME "Section → Section → Heading 3", 702x76px, constraints left_right/top, fill #00000066
+          - TEXT "Button → Is DuckDuckGo owned by Google or any other entity?", 483.39x28px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 18.28px]
+          - FRAME "Button → SVG", 16x16px, constraints left/center
+            - VECTOR "Vector", 11x5.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+      - FRAME "Footer", 1376x378px, constraints center/top
+        - RECTANGLE "div.footer_footerHorizontalLine__mazNL", 1248x1px, constraints left_right/top, stroke #FFFFFF 1px, opacity 10%
+        - TEXT "Nav → Heading 2 → Learn More", 106.08x20px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 14px]
+        - TEXT "Nav → List → Item → Link → DuckDuckGo Browser", 155.18x140px, constraints left/top, fill #8FABF9, text [Open Sans Regular, 15.25px]
+        - TEXT "Nav → Heading 2 → Other Resources", 159.42x20px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 14px]
+        - TEXT "Nav → List → Item → Link → What’s New", 147.67x140px, constraints left/top, fill #8FABF9, text [Open Sans Regular, 15.38px]
+        - TEXT "Heading 2 → About DuckDuckGo", 178.83x20px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 14px]
+        - TEXT "DuckDuckGo is the independent Internet privacy company for a", 687.98x164px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 15px]
+        - RECTANGLE "div.footer_footerHorizontalLine__mazNL", 1248x1px, constraints left_right/top, stroke #FFFFFF 1px, opacity 20%
+        - TEXT "© 2023 DuckDuckGo", 151.34x20px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 15.62px]
+        - TEXT "Privacy, simplified.", 127.76x24px, constraints left/top, fill #FFFFFF, text [Open Sans Regular, 14.75px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

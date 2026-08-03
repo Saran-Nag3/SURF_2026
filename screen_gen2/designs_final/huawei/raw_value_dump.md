@@ -1,0 +1,300 @@
+---
+name: website-prototypes-community
+source_file: Website prototypes (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:45:39.009418+00:00
+---
+
+# Website prototypes (Community) Design Guidelines
+
+## Source
+- Figma file: Website prototypes (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:45:39.009418+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 110 uses
+- #FFFFFF: 40 uses
+- #C4C4C4: 27 uses
+- #E5E5E5: 23 uses
+- #0000004D: 22 uses
+- #D9D9D9: 12 uses
+- #000000CC: 3 uses
+
+## Typography Tokens
+- Body H4: Montserrat Bold (700), 24px / 36px, tracking -0.36px
+
+## Raw Typography (unstyled)
+- Montserrat Bold, 15px: 18 uses
+- Montserrat Medium, 20px: 18 uses
+- Montserrat Bold, 24px: 15 uses
+- Montserrat Medium, 24px: 8 uses
+- Montserrat Regular, 24px: 8 uses
+- Montserrat Medium, 32px: 5 uses
+- Montserrat Regular, 15px: 3 uses
+- Montserrat SemiBold, 32px: 3 uses
+
+## Typography Hierarchy
+- 32px - Montserrat Medium, 32px (raw)
+- 32px - Montserrat SemiBold, 32px (raw)
+- 24px - Body H4 (Montserrat Bold)
+- 24px - Montserrat Bold, 24px (raw)
+- 24px - Montserrat Medium, 24px (raw)
+- 24px - Montserrat Regular, 24px (raw)
+- 20px - Montserrat Medium, 20px (raw)
+- 15px - Montserrat Bold, 15px (raw)
+- 15px - Montserrat Regular, 15px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Body H4: 3 uses
+
+## Layout & Structure
+Screen: Page 1 / Add To Cart
+- FRAME "Add To Cart", 1280x832px, constraints left/top, fill #FFFFFF
+  - FRAME "Body", 1280x694px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px
+    - TEXT "Cushy Fleece Hoodie", 375x75px, constraints left/top, fill #000000, text [Montserrat Regular, 36px], [heading]
+    - TEXT "Choose size", 250x36px, constraints left/top, fill #000000, text [Body H4], [heading]
+    - INSTANCE "Button", 270x83px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 270x83px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Learn more", 182x39px, constraints scale/scale, fill #000000, text [Montserrat Medium, 32px], [heading]
+    - TEXT "Men's Pullover Hoodie $45", 360x36px, constraints left/top, fill #000000, text [Body H4], [heading]
+    - INSTANCE "Rectangle", 60x60px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 60x60px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 60x60px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 60x60px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 60x60px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 60x60px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 60x60px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 60x60px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 60x60px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 60x60px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 60x60px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 60x60px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 60x60px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 60x60px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 60x60px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 60x60px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 323x189.49px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 323x189.49px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 323x189.49px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 323x189.49px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 323x189.49px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 323x189.49px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 323x189.49px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 323x189.49px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - VECTOR "Rectangle", 322.5x188.14px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - VECTOR "Rectangle", 322.5x188.14px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - GROUP "Group 2", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "S", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 7", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "XS", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 3", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "M", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 4", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "XL", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 5", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "2XL", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 6", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "3XL", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - INSTANCE "Button", 238x62px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 238x62px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Learn more", 182x39px, constraints scale/scale, fill #000000, text [Montserrat Medium, 32px], [heading]
+  - FRAME "Footer", 1282x82px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px
+    - TEXT "About us", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "©CSE4IFU. Inc.", 301x24px, constraints left/top, fill #000000CC, text [Montserrat Regular, 15px]
+    - TEXT "Community", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "Advertised offers", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "Help", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "News", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "Contact us", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+  - FRAME "Navigation bar", 1280x60px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px
+    - TEXT "Men", 45x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - TEXT "Home", 99x39px, constraints left/top, fill #000000, text [Montserrat SemiBold, 32px], [heading]
+    - TEXT "Women", 80x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - TEXT "Boys", 48x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - TEXT "Girls", 44x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - INSTANCE "Button", 130x40px, constraints left/top, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 130x40px, constraints scale/scale, radius 6px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "Register", 83x24px, constraints scale/scale, fill #FFFFFF, stroke #000000 1px, text [Montserrat Medium, 20px]
+    - INSTANCE "Button", 130x40px, constraints left/top, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 130x40px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #C4C4C4 1px
+      - TEXT "Log in", 62x24px, constraints scale/scale, fill #000000, text [Montserrat Medium, 20px]
+
+Screen: Page 1 / Item Added
+- FRAME "Item Added", 1280x832px, constraints left/top, fill #FFFFFF
+  - FRAME "Body", 1280x694px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px
+    - TEXT "Choose size", 250x36px, constraints left/top, fill #000000, text [Body H4], [heading]
+    - INSTANCE "Button", 270x83px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 270x83px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Learn more", 182x39px, constraints scale/scale, fill #000000, text [Montserrat Medium, 32px], [heading]
+    - INSTANCE "Rectangle", 323x189.49px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 323x189.49px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 323x189.49px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 323x189.49px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 323x189.49px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 323x189.49px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - INSTANCE "Rectangle", 323x189.49px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 323x189.49px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - VECTOR "Rectangle", 322.5x188.14px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - VECTOR "Rectangle", 322.5x188.14px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - GROUP "Group 2", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "S", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 7", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "XS", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 3", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "M", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 4", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "XL", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 5", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "2XL", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - GROUP "Group 6", 83x60px, constraints left/top
+      - GROUP "Size", 60x60px, constraints left/top
+        - RECTANGLE "Rectangle 3", 60x60px, constraints left/top, fill #D9D9D9
+      - TEXT "3XL", 83x50px, constraints center/top_bottom, fill #000000, stroke #000000 1px, text [Montserrat Bold, 24px], [heading]
+    - INSTANCE "Button", 238x62px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 238x62px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Learn more", 182x39px, constraints scale/scale, fill #000000, text [Montserrat Medium, 32px], [heading]
+    - VECTOR "Rectangle 7", 399x229px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+    - TEXT "Items added to cart", 241x36px, constraints left/top, fill #000000, text [Montserrat Bold, 24px], [heading]
+    - LINE "Line 2", 340x0.89px, constraints left/top, stroke #000000 1px
+    - INSTANCE "Ellipse", 44x44px, constraints left/top, fill #FFFFFF
+      - VECTOR "Ellipse", 44x44px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - TEXT "Cushy Fleece Hoodie. $50", 300x59px, constraints left/top, fill #000000, text [Montserrat Regular, 24px], [heading]
+    - INSTANCE "Button", 167x58px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 167x58px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Learn more", 117x58px, constraints scale/scale, fill #000000, text [Montserrat Medium, 24px], [heading]
+    - INSTANCE "Button", 166x58px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 166x58px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Learn more", 116x29px, constraints scale/scale, fill #000000, text [Montserrat Medium, 24px], [heading]
+  - FRAME "Footer", 1282x82px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px
+    - TEXT "About us", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "©CSE4IFU. Inc.", 301x24px, constraints left/top, fill #000000CC, text [Montserrat Regular, 15px]
+    - TEXT "Community", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "Advertised offers", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "Help", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "News", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "Contact us", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+  - FRAME "Navigation bar", 1280x60px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px
+    - TEXT "Men", 45x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - TEXT "Home", 99x39px, constraints left/top, fill #000000, text [Montserrat SemiBold, 32px], [heading]
+    - TEXT "Women", 80x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - TEXT "Boys", 48x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - TEXT "Girls", 44x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - INSTANCE "Button", 130x40px, constraints left/top, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 130x40px, constraints scale/scale, radius 6px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "Register", 83x24px, constraints scale/scale, fill #FFFFFF, stroke #000000 1px, text [Montserrat Medium, 20px]
+    - INSTANCE "Button", 130x40px, constraints left/top, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 130x40px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #C4C4C4 1px
+      - TEXT "Log in", 62x24px, constraints scale/scale, fill #000000, text [Montserrat Medium, 20px]
+
+Screen: Page 1 / Checkout
+- FRAME "Checkout", 1280x832px, constraints left/top, fill #FFFFFF
+  - FRAME "Body", 1280x694px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px
+    - INSTANCE "Button", 270x83px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 270x83px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Learn more", 182x39px, constraints scale/scale, fill #000000, text [Montserrat Medium, 32px], [heading]
+    - VECTOR "Rectangle 4", 406x531px, constraints left/top, fill #C4C4C4, stroke #000000 1px
+    - TEXT "Summary 1 item", 208x30px, constraints left/top, fill #000000, text [Montserrat Bold, 24px], [heading]
+    - LINE "Line 1", 369.24x2.55px, constraints left/top, stroke #000000 1px
+    - LINE "Line 5", 369.24x2.55px, constraints left/top, stroke #000000 1px
+    - TEXT "Subtotal $50", 343x64px, constraints left/top, fill #000000, text [Montserrat Regular, 24px], [heading]
+    - TEXT "Shipping $4", 309x69px, constraints left/top, fill #000000, text [Montserrat Regular, 24px], [heading]
+    - TEXT "Taxes $3.50", 319x60px, constraints left/top, fill #000000, text [Montserrat Regular, 24px], [heading]
+    - INSTANCE "Button", 140x56px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 140x56px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Learn more", 116x29px, constraints scale/scale, fill #000000, text [Montserrat Medium, 24px], [heading]
+    - TEXT "Your Cart", 165x40px, constraints left/top, fill #000000, text [Montserrat Bold, 24px], [heading]
+    - TEXT "Item", 58x33px, constraints left/top, fill #000000, text [Montserrat Medium, 24px], [heading]
+    - TEXT "Price", 62x33px, constraints left/top, fill #000000, text [Montserrat Medium, 24px], [heading]
+    - TEXT "Quantity", 106x33px, constraints left/top, fill #000000, text [Montserrat Medium, 24px], [heading]
+    - TEXT "Subtotal: $50", 158x33px, constraints left/top, fill #000000, text [Montserrat Medium, 24px], [heading]
+    - TEXT "Total $57.50", 369x33px, constraints left/top, fill #000000, text [Montserrat Medium, 24px], [heading]
+    - LINE "Line 2", 742x0px, constraints left/top, stroke #000000 1px
+    - LINE "Line 3", 742x0px, constraints left/top, stroke #000000 1px
+    - LINE "Line 4", 736x0px, constraints left/top, stroke #000000 1px
+    - INSTANCE "Rectangle", 165x156px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle", 165x156px, constraints scale/scale, fill #E5E5E5, stroke #0000004D 1px
+    - TEXT "Cushy Fleece Hoodie Men’s", 184x54px, constraints left/top, fill #000000, text [Montserrat Regular, 24px], [heading]
+    - TEXT "Remove Item", 176x53px, constraints left/top, fill #000AFE, stroke #FFFFFF 1px, text [Montserrat Regular, 24px], [heading]
+    - TEXT "$50", 82x54px, constraints left/top, fill #000000, text [Montserrat Regular, 24px], [heading]
+    - RECTANGLE "Rectangle 5", 124x59px, constraints left/top, radius 10px, fill #FFFFFF, stroke #000000 1px
+    - RECTANGLE "Rectangle 6", 44x59px, constraints left/top, radius 0/10/10/0px, fill #E5E5E5, stroke #000000 1px
+    - GROUP "Group 1", 22.12x19.59px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 4", 11.02x19.42px, constraints left/top, stroke #000000 1px
+      - LINE "Line 5", 11.12x19.59px, constraints left/top, stroke #000000 1px
+    - ... +1 more children
+  - FRAME "Footer", 1282x82px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px
+    - TEXT "About us", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "©CSE4IFU. Inc.", 301x24px, constraints left/top, fill #000000CC, text [Montserrat Regular, 15px]
+    - TEXT "Community", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "Advertised offers", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "Help", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "News", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+    - TEXT "Contact us", 173x24px, constraints left/top, fill #000000, text [Montserrat Bold, 15px]
+  - FRAME "Navigation bar", 1280x60px, constraints left/top, fill #FFFFFF, stroke #C4C4C4 1px
+    - TEXT "Men", 45x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - TEXT "Home", 99x39px, constraints left/top, fill #000000, text [Montserrat SemiBold, 32px], [heading]
+    - TEXT "Women", 80x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - TEXT "Boys", 48x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - TEXT "Girls", 44x24px, constraints left/top, fill #000000, text [Montserrat Medium, 20px]
+    - INSTANCE "Button", 130x40px, constraints left/top, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 130x40px, constraints scale/scale, radius 6px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "Register", 83x24px, constraints scale/scale, fill #FFFFFF, stroke #000000 1px, text [Montserrat Medium, 20px]
+    - INSTANCE "Button", 130x40px, constraints left/top, stroke #C4C4C4 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 2", 130x40px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #C4C4C4 1px
+      - TEXT "Log in", 62x24px, constraints scale/scale, fill #000000, text [Montserrat Medium, 20px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

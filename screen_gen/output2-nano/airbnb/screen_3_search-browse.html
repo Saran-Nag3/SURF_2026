@@ -1,0 +1,149 @@
+<div class="app" style="background:#ffffff; color:#222222; font-family:'Airbnb Cereal VF', Circular, -apple-system, system-ui, Roboto, 'Helvetica Neue', sans-serif;">
+  <style>
+    .app .screen-search{width:100%; min-height:100vh; background:#ffffff;}
+    .app .top-bar{height:80px; background:#ffffff; border-bottom:1px solid #dddddd; display:flex; align-items:center; padding:0 16px; gap:12px;}
+    .app .back-btn{width:40px; height:40px; border-radius:9999px; background:#f2f2f2; border:1px solid #ebebeb; display:flex; align-items:center; justify-content:center; flex:0 0 auto;}
+    .app .back-btn:active{background:#ebebeb;}
+    .app .top-title{flex:1; font-size:16px; font-weight:600; color:#222222;}
+    .app .filters-btn{height:40px; padding:0 14px; border-radius:9999px; background:#f2f2f2; border:1px solid #ebebeb; display:flex; align-items:center; gap:8px; font-size:14px; font-weight:500; color:#222222;}
+    .app .filters-btn:active{background:#ebebeb;}
+    .app .content{padding:16px;}
+    .app .search-field{background:#ffffff; border:1px solid #dddddd; border-radius:9999px; height:56px; display:flex; align-items:center; padding:0 14px; gap:10px;}
+    .app .search-field:active{border-color:#c1c1c1;}
+    .app .field-label{font-size:14px; font-weight:500; color:#6a6a6a; line-height:1.29; position:absolute; left:-9999px;}
+    .app .search-input{border:none; outline:none; background:transparent; width:100%; font-size:16px; font-weight:400; color:#222222;}
+    .app .search-input::placeholder{color:#6a6a6a;}
+    .app .seg-chips{margin-top:14px; display:flex; gap:10px; overflow:hidden;}
+    .app .chip{height:40px; padding:0 16px; border-radius:9999px; border:1px solid #ebebeb; background:#ffffff; color:#6a6a6a; font-size:14px; font-weight:500; display:flex; align-items:center;}
+    .app .chip.active{border-color:#222222; color:#222222; background:#ffffff;}
+    .app .results-head{margin-top:18px; display:flex; align-items:flex-end; justify-content:space-between; gap:12px;}
+    .app .results-title{font-size:16px; font-weight:600; color:#222222;}
+    .app .results-sub{font-size:14px; font-weight:400; color:#6a6a6a;}
+    .app .list{margin-top:12px; display:flex; flex-direction:column; gap:16px; padding-bottom:26px;}
+    .app .row-card{background:#ffffff; border:1px solid #ebebeb; border-radius:14px; overflow:hidden;}
+    .app .row{display:flex;}
+    .app .thumb{width:132px; aspect-ratio:1/1; background:#f7f7f7; position:relative;}
+    .app .thumb .ph-img{height:100%;}
+    .app .row-body{padding:16px; flex:1;}
+    .app .row-title{font-size:16px; font-weight:600; color:#222222; line-height:1.25;}
+    .app .row-meta{margin-top:6px; font-size:14px; font-weight:400; color:#6a6a6a; line-height:1.43;}
+    .app .row-bottom{margin-top:10px; display:flex; justify-content:space-between; align-items:flex-end; gap:12px;}
+    .app .rating{font-size:14px; font-weight:500; color:#222222;}
+    .app .price{font-size:14px; font-weight:400; color:#222222; text-align:right;}
+    .app .new-badge{position:absolute; top:10px; left:10px; background:#ffffff; border-radius:9999px; padding:2px 6px; border:1px solid #ebebeb; font-size:8px; font-weight:700; line-height:1.25; letter-spacing:0.32px; text-transform:uppercase; color:#222222;}
+  </style>
+
+  <div class="screen-search">
+    <div class="top-bar">
+      <div class="back-btn" role="button" aria-label="Back">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M15 18l-6-6 6-6" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="top-title">Search</div>
+      <div class="filters-btn" role="button" aria-label="Filters">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M4 6h16" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+          <path d="M7 12h10" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+          <path d="M10 18h4" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Filters
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="search-field" role="search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="11" cy="11" r="6" stroke="#222222" stroke-width="2"/>
+          <path d="M20 20L16.5 16.5" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input class="search-input" value="Istanbul" aria-label="Query" />
+        <div style="width:12px;"></div>
+      </div>
+
+      <div class="seg-chips" aria-label="Category tabs">
+        <div class="chip active" role="button">Homes</div>
+        <div class="chip" role="button">Experiences</div>
+        <div class="chip" role="button">Services</div>
+      </div>
+
+      <div class="results-head">
+        <div>
+          <div class="results-title">Stays for 2–4 nights</div>
+          <div class="results-sub">3,248 results · Updated today</div>
+        </div>
+        <div class="results-sub">Map</div>
+      </div>
+
+      <div class="list">
+        <div class="row-card" role="article" aria-label="Result">
+          <div class="row">
+            <div class="thumb">
+              <div class="ph-img" data-q="warm boutique hotel room" aria-hidden="true"></div>
+              <div class="new-badge">NEW</div>
+            </div>
+            <div class="row-body">
+              <div class="row-title">Bright loft near the bazaar</div>
+              <div class="row-meta">2 guests · 1 bed · City center</div>
+              <div class="row-bottom">
+                <div class="rating">★ 4.83</div>
+                <div class="price">$142 night</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-card" role="article" aria-label="Result">
+          <div class="row">
+            <div class="thumb">
+              <div class="ph-img" data-q="coastal apartment with balcony" aria-hidden="true"></div>
+            </div>
+            <div class="row-body">
+              <div class="row-title">Quiet stay with terrace views</div>
+              <div class="row-meta">4 guests · 2 bedrooms · Harbor area</div>
+              <div class="row-bottom">
+                <div class="rating">★ 4.78</div>
+                <div class="price">$196 night</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-card" role="article" aria-label="Result">
+          <div class="row">
+            <div class="thumb">
+              <div class="ph-img" data-q="modern home office and window light" aria-hidden="true"></div>
+              <div class="new-badge">NEW</div>
+            </div>
+            <div class="row-body">
+              <div class="row-title">Design-forward home for remote work</div>
+              <div class="row-meta">3 guests · Wi‑Fi · Free parking</div>
+              <div class="row-bottom">
+                <div class="rating">★ 4.86</div>
+                <div class="price">$158 night</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-card" role="article" aria-label="Result">
+          <div class="row">
+            <div class="thumb">
+              <div class="ph-img" data-q="cozy cabin interior with fireplace" aria-hidden="true"></div>
+            </div>
+            <div class="row-body">
+              <div class="row-title">Fireplace comfort near transit</div>
+              <div class="row-meta">2 guests · 1 bath · Walkable streets</div>
+              <div class="row-bottom">
+                <div class="rating">★ 4.74</div>
+                <div class="price">$131 night</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

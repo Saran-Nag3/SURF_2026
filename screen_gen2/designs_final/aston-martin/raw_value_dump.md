@@ -1,0 +1,1226 @@
+---
+name: aston-martin-carplay-ultra-saas-ux-ui-design-community
+source_file: Aston Martin CarPlay Ultra - SaaS & UX UI Design (Community)
+source_page: All pages (3): Case Study, Ui, style Guide
+generated_at: 2026-07-25T09:55:28.229476+00:00
+---
+
+# Aston Martin CarPlay Ultra - SaaS & UX UI Design (Community) Design Guidelines
+
+## Source
+- Figma file: Aston Martin CarPlay Ultra - SaaS & UX UI Design (Community)
+- Figma page: All pages (3): Case Study, Ui, style Guide
+- Extracted at: 2026-07-25T09:55:28.229476+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Bloody Mary: [#BB0103]
+- Dusty Chimney: [#888E9A]
+- Morning Mist: [#E7EFEE]
+- color 2: [#181818]
+- color 1: [gradient_linear(#00655F 0% | #003C38 100%)]
+- button light: [#00000001]
+- Materials/Ultrathin: [#BFBFBF70, #0D0D0D]
+- Colors/Red: [#FF3B30]
+- Materials/Thin: [#A6A6A6B2, #333333]
+- Labels/Primary - Dark: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 954 uses
+- #D9D9D9: 347 uses
+- #E6E6E6: 324 uses
+- #4C5856: 308 uses
+- #D0DFDD: 220 uses
+- #FEFEFE: 139 uses
+- #00000001: 118 uses
+- #E7EFEE: 66 uses
+- #00000033: 62 uses
+- #888E9A: 57 uses
+- #00655F: 54 uses
+- #5C6562: 44 uses
+- #000000: 41 uses
+- #BB0103: 34 uses
+- #730001: 32 uses
+- #18181852: 30 uses
+- #000304: 26 uses
+- #080808: 24 uses
+- #18181866: 24 uses
+- #C7C7CC: 24 uses
+- #1A1A1A: 20 uses
+- #666666: 17 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- SF Compact Rounded Semibold, 27.83px: 56 uses
+- SF Pro Rounded Semibold, 39.72px: 52 uses
+- Manrope Medium, 16px: 40 uses
+- Manrope SemiBold, 18px: 36 uses
+- SF Pro Rounded Semibold, 43.83px: 36 uses
+- Inter Regular, 10.2px: 32 uses
+- Manrope Medium, 14px: 27 uses
+- Manrope Medium, 20px: 25 uses
+- Manrope Medium, 15px: 24 uses
+- SF Pro Regular, 46.69px: 18 uses
+- Manrope Medium, 13px: 16 uses
+- Manrope SemiBold, 30px: 13 uses
+- Helvetica Helvetica, 27.23px: 12 uses
+- Manrope Regular, 10px: 12 uses
+- SF Pro Rounded Semibold, 25.22px: 12 uses
+- SF Pro Rounded Semibold, 25px: 12 uses
+- SF Pro Rounded Semibold, 30.87px: 12 uses
+- Manrope SemiBold, 16px: 11 uses
+- Manrope SemiBold, 40px: 11 uses
+- Inter Bold, 10.2px: 10 uses
+- Manrope Regular, 18px: 10 uses
+- Manrope SemiBold, 90px: 10 uses
+- Inter Regular, 10px: 9 uses
+- Manrope SemiBold, 26px: 9 uses
+- Inter Regular, 12px: 8 uses
+- Manrope Medium, 10px: 8 uses
+- Manrope SemiBold, 38px: 8 uses
+- SF Pro Rounded Semibold, 47.04px: 8 uses
+- Manrope Medium, 17px: 7 uses
+- Manrope Medium, 30px: 7 uses
+- Manrope Regular, 12px: 7 uses
+- Manrope Regular, 16px: 7 uses
+- Manrope SemiBold, 20px: 7 uses
+- SF Pro Medium, 23.89px: 7 uses
+- SF Pro Medium, 58.33px: 7 uses
+- SF Pro Rounded Bold, 70px: 6 uses
+- SF Pro Rounded Semibold, 39.37px: 6 uses
+- SF Pro Rounded Semibold, 50.44px: 6 uses
+- Inter Bold, 15.3px: 5 uses
+- Manrope Medium, 26px: 5 uses
+- Manrope Regular, 13px: 5 uses
+- Manrope SemiBold, 17px: 5 uses
+- Manrope Bold, 38px: 4 uses
+- Manrope Medium, 12px: 4 uses
+- Manrope SemiBold, 48px: 4 uses
+- SF Pro Rounded Bold, 156.79px: 4 uses
+- SF Pro Rounded Bold, 199.18px: 4 uses
+- SF Pro Rounded Semibold, 19.86px: 4 uses
+- SF Pro Rounded Semibold, 33.4px: 4 uses
+- SF Pro Rounded Semibold, 55.68px: 4 uses
+- SF Pro Semibold, 17px: 4 uses
+
+## Typography Hierarchy
+- 199.18px - SF Pro Rounded Bold, 199.18px (raw)
+- 156.79px - SF Pro Rounded Bold, 156.79px (raw)
+- 90px - Manrope SemiBold, 90px (raw)
+- 70px - SF Pro Rounded Bold, 70px (raw)
+- 58.33px - SF Pro Medium, 58.33px (raw)
+- 55.68px - SF Pro Rounded Semibold, 55.68px (raw)
+- 50.44px - SF Pro Rounded Semibold, 50.44px (raw)
+- 48px - Manrope SemiBold, 48px (raw)
+- 47.04px - SF Pro Rounded Semibold, 47.04px (raw)
+- 46.69px - SF Pro Regular, 46.69px (raw)
+- 43.83px - SF Pro Rounded Semibold, 43.83px (raw)
+- 40px - Manrope SemiBold, 40px (raw)
+- 39.72px - SF Pro Rounded Semibold, 39.72px (raw)
+- 39.37px - SF Pro Rounded Semibold, 39.37px (raw)
+- 38px - Manrope Bold, 38px (raw)
+- 38px - Manrope SemiBold, 38px (raw)
+- 33.4px - SF Pro Rounded Semibold, 33.4px (raw)
+- 30.87px - SF Pro Rounded Semibold, 30.87px (raw)
+- 30px - Manrope Medium, 30px (raw)
+- 30px - Manrope SemiBold, 30px (raw)
+- 27.83px - SF Compact Rounded Semibold, 27.83px (raw)
+- 27.23px - Helvetica Helvetica, 27.23px (raw)
+- 26px - Manrope Medium, 26px (raw)
+- 26px - Manrope SemiBold, 26px (raw)
+- 25.22px - SF Pro Rounded Semibold, 25.22px (raw)
+- 25px - SF Pro Rounded Semibold, 25px (raw)
+- 23.89px - SF Pro Medium, 23.89px (raw)
+- 20px - Manrope Medium, 20px (raw)
+- 20px - Manrope SemiBold, 20px (raw)
+- 19.86px - SF Pro Rounded Semibold, 19.86px (raw)
+- 18px - Manrope Regular, 18px (raw)
+- 18px - Manrope SemiBold, 18px (raw)
+- 17px - Manrope Medium, 17px (raw)
+- 17px - Manrope SemiBold, 17px (raw)
+- 17px - SF Pro Semibold, 17px (raw)
+- 16px - Manrope Medium, 16px (raw)
+- 16px - Manrope Regular, 16px (raw)
+- 16px - Manrope SemiBold, 16px (raw)
+- 15.3px - Inter Bold, 15.3px (raw)
+- 15px - Manrope Medium, 15px (raw)
+- 14px - Manrope Medium, 14px (raw)
+- 13px - Manrope Medium, 13px (raw)
+- 13px - Manrope Regular, 13px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Manrope Medium, 12px (raw)
+- 12px - Manrope Regular, 12px (raw)
+- 10.2px - Inter Bold, 10.2px (raw)
+- 10.2px - Inter Regular, 10.2px (raw)
+- 10px - Inter Regular, 10px (raw)
+- 10px - Manrope Medium, 10px (raw)
+- 10px - Manrope Regular, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Glass Effect: [glass]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- material-symbols:arrow-back-rounded
+- Home Screen
+- ic:baseline-apple
+- material-symbols:arrow-back-ios-new-rounded
+- qlementine-icons:menu-dots-16
+- material-symbols:edit-outline-rounded
+- gg:add
+- material-symbols-light:car-fan-mid-right-sharp
+- material-symbols:speed-rounded
+- tabler:car-4wd-filled
+- line-md:engine-filled
+- solar:transmission-bold
+- material-symbols:arrow-insert-rounded
+
+## Component Specs
+- material-symbols:arrow-back-rounded: size 132.43x132.43px, fill #FFFFFF
+- Home Screen: size 865x1259px, text [SF Pro Regular, 46.69px, SF Pro Regular, 62.25px, Helvetica Helvetica, 108.94px, Helvetica Helvetica, 27.23px, SF Pro Bold, 44.74px, SF Pro Light, 145.9px, SF Pro Semibold, 66.14px]
+- ic:baseline-apple: size 94x94px, fill #FFFFFF
+- material-symbols:arrow-back-ios-new-rounded: size 16x16px, fill #FFFFFF
+- qlementine-icons:menu-dots-16: size 24x24px, fill #FFFFFF
+- material-symbols:edit-outline-rounded: size 24x24px, fill #FFFFFF
+- gg:add: size 34x34px, fill #FFFFFF
+- material-symbols-light:car-fan-mid-right-sharp: size 30x30px, fill #FFFFFF
+- material-symbols:speed-rounded: size 30x30px, fill #FFFFFF
+- tabler:car-4wd-filled: size 30x30px, fill #FFFFFF
+- line-md:engine-filled: size 30x30px, fill #FFFFFF
+- solar:transmission-bold: size 30x30px, fill #FFFFFF
+- material-symbols:arrow-insert-rounded: size 16x16px, fill #FFFFFF
+
+## Most-Used Styles
+- Glass Effect: 74 uses
+- Labels/Primary - Dark: 6 uses
+- Colors/Red: 3 uses
+- button light: 3 uses
+- Bloody Mary: 1 use
+- Dusty Chimney: 1 use
+- Materials/Thin: 1 use
+- Materials/Ultrathin: 1 use
+- Morning Mist: 1 use
+- color 1: 1 use
+- color 2: 1 use
+
+## Layout & Structure
+Screen: Case Study / Cover 1
+- FRAME "Cover 1", 1920x1277px, constraints left/top, fill #000304
+  - RECTANGLE "image 1", 1920x1277px, constraints left/top, fill image(hash: dc44b469d5f62f91ba56d43295e3fb05884a8dd3)
+  - RECTANGLE "aston-martin-logo-white-emblem-vector 1", 500x134px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+  - LINE "Line 1", 0x150px, constraints left/top, stroke #FFFFFF 3px
+  - RECTANGLE "New Liquid Glass Design 1", 500x100px, constraints right/bottom, fill image(hash: 287395cc8bc812b561788ff43b77dd160759702c)
+  - TEXT "&", 20x22px, constraints left/top, fill #FFFFFF11, stroke gradient_angular(#FFFFFF5A 12% | #FFFFFF00 37% | #FFFFFF5A 62% | #FFFFFF00 87%) 1px, effect [background_blur 15.16px, inner_shadow 4.62px offset 1.22 1.13 #FFFFFF20], text [Manrope SemiBold, 30px], [heading]
+  - TEXT "SaaS Dashboard", 438x40px, constraints left/top, fill #FFFFFF11, stroke gradient_angular(#FFFFFF5A 12% | #FFFFFF00 37% | #FFFFFF5A 62% | #FFFFFF00 87%) 1px, effect [background_blur 15.16px, inner_shadow 4.62px offset 1.22 1.13 #FFFFFF20], text [Manrope SemiBold, 56px], [heading]
+  - TEXT "CarPlay Ultra", 348x40px, constraints left/top, fill #FFFFFF11, stroke gradient_angular(#FFFFFF5A 12% | #FFFFFF00 37% | #FFFFFF5A 62% | #FFFFFF00 87%) 1px, effect [background_blur 15.16px, inner_shadow 4.62px offset 1.22 1.13 #FFFFFF20], text [Manrope SemiBold, 56px], [heading]
+  - COMPONENT "ic:baseline-apple", 94x94px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 59.4x70.51px, constraints scale/scale, fill #FFFFFF11, stroke gradient_angular(#FFFFFF5A 12% | #FFFFFF00 37% | #FFFFFF5A 62% | #FFFFFF00 87%) 1px, effect [background_blur 15.16px, inner_shadow 4.62px offset 1.22 1.13 #FFFFFF20]
+
+Screen: Case Study / Cover - 21
+- FRAME "Cover - 21", 1920x1200px, constraints left/top, fill #000304
+  - RECTANGLE "image 1", 1920x1277px, constraints left/top, fill image(hash: dc44b469d5f62f91ba56d43295e3fb05884a8dd3)
+  - TEXT "Thank you for watching", 993x65px, constraints center/top, fill #FFFFFF11, stroke gradient_angular(#FFFFFF5A 12% | #FFFFFF00 37% | #FFFFFF5A 62% | #FFFFFF00 87%) 1px, effect [background_blur 15.16px, inner_shadow 4.62px offset 1.22 1.13 #FFFFFF20], text [Manrope SemiBold, 90px], [heading]
+  - RECTANGLE "aston-martin-logo-white-emblem-vector 1", 400x107px, constraints center/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+  - RECTANGLE "Rectangle 61", 1920x1200px, constraints left/top, fill gradient_linear(#000304 0% | #0003041A 20% | #00030400 50% | #000304E5 80% | #000304 100%)
+  - RECTANGLE "Rectangle 62", 1920x1200px, constraints left/top, fill gradient_linear(#000304 0% | #0003041A 20% | #00030400 50% | #0003041A 80% | #000304 100%)
+
+Screen: Case Study / Cover 2
+- FRAME "Cover 2", 1920x752px, constraints left/top, fill #000304
+  - TEXT "Overview:", 427x65px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 90px], [heading]
+  - TEXT "The aston martin is a stylish and effective tool made for au", 1270x346px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 34px], [heading]
+
+Screen: Case Study / Cover 3
+- FRAME "Cover 3", 1920x1589px, constraints left/top, fill #000304
+  - RECTANGLE "image 2", 1920x1080px, constraints left/top, fill image(hash: 5de0031be5db97f4c2996ab82f0aa869d5f44973)
+  - RECTANGLE "Rectangle 1", 1920x1080px, constraints left/top, fill gradient_linear(#000304 0% | #000304BF 20% | #00030400 50% | #000304BF 90% | #000304 100%)
+  - TEXT "Problem", 356x65px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 90px], [heading]
+  - FRAME "Frame 14126", 700x300px, constraints left/top, radius 16px, fill #00000033, effect [glass, drop_shadow 4px offset 0 0 #00000040]
+    - RECTANGLE "Rectangle 2", 200x60px, constraints left/top, radius 16px, fill gradient_linear(#00655F 0% | #003C38 100%)
+    - TEXT "Problem 1", 135x22px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 30px], [heading]
+    - TEXT "Overwhelming Data  Large volumes of data, such as listing de", 680x166px, constraints center/top, fill #D0DFDD, text [Manrope Medium, 26px], [heading]
+  - FRAME "Frame 14127", 700x339px, constraints left/top, radius 16px, fill #00000033, effect [glass, drop_shadow 4px offset 0 0 #00000040]
+    - RECTANGLE "Rectangle 2", 200x60px, constraints left/top, radius 16px, fill gradient_linear(#00655F 0% | #003C38 100%)
+    - TEXT "Problem 2", 140x22px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 30px], [heading]
+    - TEXT "Inefficient Monitoring  Real-time tracking for car listings ", 669x207px, constraints center/top, fill #D0DFDD, text [Manrope SemiBold, 30px], [heading]
+  - FRAME "Frame 14128", 700x339px, constraints left/top, radius 16px, fill #00000033, effect [glass, drop_shadow 4px offset 0 0 #00000040]
+    - RECTANGLE "Rectangle 2", 200x60px, constraints left/top, radius 16px, fill gradient_linear(#00655F 0% | #003C38 100%)
+    - TEXT "Problem 3", 139x22px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 30px], [heading]
+    - TEXT "Limited Knowledge  It is hard to come up with information ab", 645x207px, constraints center/top, fill #D0DFDD, text [Manrope SemiBold, 30px], [heading]
+
+Screen: Case Study / Cover 4
+- FRAME "Cover 4", 1920x2395px, constraints left/top, fill #000304
+  - TEXT "We facilitate the simple management and optimization of auto", 1541x1518px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 130px], [heading]
+  - RECTANGLE "Rectangle 3", 1621x1384px, constraints left/top, fill gradient_linear(#00030400 0% | #000304CC 32% | #000304E5 64% | #000304 100%)
+  - RECTANGLE "49882ce7-a279-465c-bdef-8a7efa103d23 copy 1", 1920x2138px, constraints left/top, fill image(hash: 41fe7ef8ada05295795c91d003ad7d91d5973c67)
+
+Screen: Case Study / Cover 5
+- FRAME "Cover 5", 1920x1654px, constraints left/top, fill #000304
+  - RECTANGLE "image 3", 1920x1280px, constraints left/top, fill image(hash: 493e0d468fc8d6528c4f488355ff395eccb8ad99)
+  - RECTANGLE "Rectangle 4", 1920x1280px, constraints left/top, fill gradient_linear(#000304 0% | #000304 10% | #00030400 50% | #000304 90% | #000304 100%)
+  - RECTANGLE "Rectangle 5", 1920x1280px, constraints left/top, fill gradient_linear(#000304 0% | #000304 10% | #00030400 50% | #000304 90% | #000304 100%)
+  - RECTANGLE "Rectangle 6", 1920x1314px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - TEXT "Project Timeline", 367x169px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 90px], [heading]
+  - TEXT "To specify project goals, deliverables, schedules, and requi", 1262x162px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 34px], [heading]
+  - VECTOR "Vector 1", 1578.5x531px, constraints left/top, stroke #D0DFDD 30px
+  - VECTOR "Line 2", 0x220px, constraints left/top, stroke #D0DFDD 8px
+  - VECTOR "Line 4", 0x300px, constraints left/top, stroke #D0DFDD 8px
+  - VECTOR "Line 6", 0x680px, constraints left/top, stroke #D0DFDD 8px
+  - VECTOR "Line 3", 0x250px, constraints left/top, stroke #D0DFDD 8px
+  - VECTOR "Line 5", 0x450px, constraints left/top, stroke #D0DFDD 8px
+  - GROUP "Group 1", 166x78px, constraints left/top, radius 0/0/0/0px
+    - TEXT "001", 65x27px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 38px], [heading]
+    - TEXT "Discover", 166x29px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 40px], [heading]
+  - GROUP "Group 2", 180x78px, constraints left/top, radius 0/0/0/0px
+    - TEXT "002", 72x27px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 38px], [heading]
+    - TEXT "Research", 180x29px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 40px], [heading]
+  - GROUP "Group 3", 158x78px, constraints left/top, radius 0/0/0/0px
+    - TEXT "003", 71x27px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 38px], [heading]
+    - TEXT "Ideating", 158x29px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 40px], [heading]
+  - GROUP "Group 4", 133x78px, constraints left/top, radius 0/0/0/0px
+    - TEXT "004", 72x27px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 38px], [heading]
+    - TEXT "Design", 133x29px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 40px], [heading]
+  - GROUP "Group 5", 165x78px, constraints left/top, radius 0/0/0/0px
+    - TEXT "005", 71x27px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 38px], [heading]
+    - TEXT "Iteration", 165x29px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 40px], [heading]
+
+Screen: Case Study / Cover 6
+- FRAME "Cover 6", 1920x2963px, constraints left/top, fill #000304
+  - RECTANGLE "image 4", 1400x1968px, constraints left/top, fill image(hash: ceca0f1f0a0d35331a1663286cf3ab29ceb63c25)
+  - RECTANGLE "Rectangle 7", 1400x1968px, constraints left/top, fill gradient_linear(#000304 0% | #000304 10% | #00030400 50% | #000304 90% | #000304 100%)
+  - RECTANGLE "Rectangle 8", 1400x1968px, constraints left/top, fill gradient_linear(#000304 0% | #000304 10% | #00030400 50% | #000304 90% | #000304 100%)
+  - RECTANGLE "Rectangle 9", 1400x1968px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - TEXT "Manrope", 846x144px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 200px], [heading]
+  - GROUP "Group 6", 343x815px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 10", 343x815px, constraints left/top, radius 24/0/0/24px, fill #000304, stroke #D0DFDD 1px
+    - TEXT "a", 220x288px, constraints left/top, fill #D0DFDD, text [Manrope Light, 400px], [heading]
+    - TEXT "Light", 114x36px, constraints left/top, fill #D0DFDD, text [Manrope Light, 50px], [heading]
+  - GROUP "Group 7", 343x815px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 10", 343x815px, constraints left/top, radius 24/0/0/24px, fill #000304, stroke #D0DFDD 1px
+    - TEXT "a", 223x288px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 400px], [heading]
+    - TEXT "Regular", 178x36px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 50px], [heading]
+  - GROUP "Group 8", 343x815px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 10", 343x815px, constraints left/top, radius 24/0/0/24px, fill #000304, stroke #D0DFDD 1px
+    - TEXT "a", 225x288px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 400px], [heading]
+    - TEXT "Medium", 188x36px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 50px], [heading]
+  - GROUP "Group 9", 343x815px, constraints left/top, radius 24px
+    - RECTANGLE "Rectangle 10", 343x815px, constraints left/top, radius 24px, fill gradient_linear(#000304CC 0% | #00655F 100%), stroke #D0DFDD 1px
+    - TEXT "a", 228x288px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 400px], [heading]
+    - TEXT "SemiBold", 224x36px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 50px], [heading]
+  - TEXT "Because Manrope combines great readability with contemporary", 718x104px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 30px], [heading]
+  - GROUP "Group 10", 600x135.99px, constraints left/top
+    - VECTOR "Rectangle 11", 592.27x130.69px, constraints left/top, fill #00655F
+    - VECTOR "Vector", 600x135.99px, constraints scale/scale, fill #ECECEC
+  - GROUP "Group 11", 600x135.99px, constraints left/top
+    - VECTOR "Rectangle 11", 592.27x130.69px, constraints left/top, fill #003C38
+    - VECTOR "Vector", 600x135.99px, constraints scale/scale, fill #ECECEC
+  - GROUP "Group 15", 600x135.99px, constraints left/top
+    - VECTOR "Rectangle 11", 592.27x130.69px, constraints left/top, fill #FCDA72
+    - VECTOR "Vector", 600x135.99px, constraints scale/scale, fill #FEF1CB
+  - GROUP "Group 13", 600x135.99px, constraints left/top
+    - VECTOR "Rectangle 11", 592.27x130.69px, constraints left/top, fill #BB0103
+    - VECTOR "Vector", 600x135.99px, constraints scale/scale, fill #ECECEC
+  - GROUP "Group 14", 600x135.99px, constraints left/top
+    - VECTOR "Rectangle 11", 592.27x130.69px, constraints left/top, fill #FEFEFE
+    - VECTOR "Vector", 600x135.99px, constraints scale/scale, fill #000304
+  - GROUP "Group 12", 600x135.99px, constraints left/top
+    - VECTOR "Rectangle 11", 592.27x130.69px, constraints left/top, fill #E7EFEE
+    - VECTOR "Vector", 600x135.99px, constraints scale/scale, fill #000304
+  - TEXT "Peacock Pride #00655f", 202x63px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 30px], [heading]
+  - TEXT "Nordic Noir #003c38", 160x63px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 30px], [heading]
+  - TEXT "Golden Coin #fcda72", 175x63px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 30px], [heading]
+  - TEXT "Morning Mist #e7efee", 187x63px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 30px], [heading]
+  - TEXT "Bloody Mary #bb0103", 175x63px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 30px], [heading]
+  - TEXT "Brilliance #fefefe", 132x63px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 30px], [heading]
+  - TEXT "Typography & Color", 836x65px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 90px], [heading]
+
+Screen: Case Study / Cover 7
+- FRAME "Cover 7", 1920x1294px, constraints left/top, fill #000304
+  - TEXT "User Insights", 348x169px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 90px], [heading]
+  - FRAME "pie-05", 480x320px, constraints left/top, fill #FFFFFF
+    - GROUP "zr42-cls-250", 226.18x205.19px, constraints scale/scale
+      - VECTOR "Vector", 226.18x205.19px, constraints scale/scale, fill #00655F, stroke #000000 0px
+    - GROUP "zr42-cls-251", 161.33x110.98px, constraints scale/scale
+      - VECTOR "Vector", 161.33x110.98px, constraints scale/scale, fill #003C38, stroke #000000 0px
+    - TEXT "6/10", 68x33px, constraints scale/scale, fill #D0DFDD, text [Manrope SemiBold, 26px], [heading]
+  - TEXT "It is difficult for users to personalize their experience.", 429x55px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 26px], [heading]
+  - RECTANGLE "image 5", 1024x1024px, constraints left/top, fill image(hash: 3da9e1db41057575a7d128e33c852d917924a9c3)
+  - RECTANGLE "Rectangle 12", 1024x1024px, constraints left/top, fill gradient_linear(#000304 0% | #000304EB 10% | #00030400 50% | #000304CC 64% | #000304 100%)
+  - RECTANGLE "Rectangle 13", 1024x1024px, constraints left/top, fill gradient_linear(#000304 0% | #000304EB 10% | #00030400 50% | #000304EB 90% | #000304 100%)
+  - RECTANGLE "Rectangle 14", 1024x1024px, constraints left/top, fill gradient_linear(#000304 0% | #000304CC 10% | #00030400 50% | #000304CC 90% | #000304 100%)
+  - TEXT "Our target audience's insights helped us develop a product t", 972x167px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 48px], [heading], opacity 20%
+  - TEXT "People don't know how to list their vehicle.", 309x55px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 26px], [heading]
+  - FRAME "pie-05", 480x320px, constraints left/top, fill #FFFFFF
+    - GROUP "zr24-cls-178", 148.64x117.38px, constraints scale/scale
+      - VECTOR "Vector", 148.64x117.38px, constraints scale/scale, fill #00655F, stroke #000000 0px
+    - GROUP "zr24-cls-179", 239x229.11px, constraints scale/scale
+      - VECTOR "Vector", 239x229.11px, constraints scale/scale, fill #003C38, stroke #000000 0px
+    - TEXT "3/10", 65x33px, constraints scale/scale, fill #D0DFDD, text [Manrope SemiBold, 26px], [heading]
+  - TEXT "Aston Martin users spending too much on additional data insi", 508x55px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 26px], [heading]
+  - FRAME "pie-05", 480x320px, constraints left/top, fill #FFFFFF
+    - GROUP "zr24-cls-188", 239x229.11px, constraints scale/scale
+      - VECTOR "Vector", 239x229.11px, constraints scale/scale, fill #00655F, stroke #000000 0px
+    - GROUP "zr24-cls-189", 148.64x117.38px, constraints scale/scale
+      - VECTOR "Vector", 148.64x117.38px, constraints scale/scale, fill #003C38, stroke #000000 0px
+    - TEXT "7/10", 63x33px, constraints scale/scale, fill #D0DFDD, text [Manrope SemiBold, 26px], [heading]
+  - RECTANGLE "Rectangle 15", 796x191px, constraints left/top, fill gradient_linear(#000304 36% | #00030400 100%)
+  - RECTANGLE "Rectangle 16", 796x191px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 100%)
+
+Screen: Case Study / Cover 8
+- FRAME "Cover 8", 1920x1242px, constraints left/top, fill #000304
+  - RECTANGLE "macbook-16-pro-mockup-on-concrete-background-front-view copy", 1600x1068px, constraints left/top, radius 48px, fill image(hash: 8ddce2beb28d392e5b1e196f3d61991a5b9688f7)
+  - RECTANGLE "Rectangle 17", 1600x1068px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - RECTANGLE "Rectangle 18", 1600x1068px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 23% | #00030400 50% | #00030400 83% | #000304E5 100%)
+
+Screen: Case Study / Cover 9
+- FRAME "Cover 9", 1920x3301px, constraints left/top, fill #000304
+  - RECTANGLE "Free iPhone 14 Pro in Hand Mockup copy 1", 1250x1875px, constraints left/top, fill image(hash: 071c15d170e255c365e9c2ad4668761db92c7921)
+  - RECTANGLE "Rectangle 19", 1250x1876px, constraints left/top, fill gradient_linear(#000304 0% | #0003044D 20% | #00030400 50% | #0003044D 80% | #000304 100%)
+  - RECTANGLE "Rectangle 20", 1250x1876px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 30% | #00030400 50% | #00030400 70% | #000304 100%)
+  - RECTANGLE "gemini-2.5-flash-image-preview (nano-banana)_Create_a_UI_con", 1920x1280px, constraints left/top, fill image(hash: 47d9ab2b0bfbd3739ccf10a4b06f7a1464a29dfe)
+  - RECTANGLE "Rectangle 21", 1920x1296px, constraints left/top, fill gradient_linear(#000304 0% | #00030499 20% | #00030400 50% | #00030499 80% | #000304 100%)
+  - RECTANGLE "Rectangle 22", 1920x1296px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+
+Screen: Case Study / Cover 10
+- FRAME "Cover 10", 1920x1602px, constraints left/top, fill #000304
+  - RECTANGLE "[PS] iPad Pro Free Scene copy 1", 1920x1602px, constraints left/top, fill image(hash: 1104624697cd6b95f06f5a685b6c6f8a2776811b)
+  - RECTANGLE "Rectangle 23", 1797x1523px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304E5 84% | #000304 100%)
+
+Screen: Case Study / Cover - 11
+- FRAME "Cover - 11", 1920x1254px, constraints left/top, fill #000304
+  - RECTANGLE "image 6", 1920x1254px, constraints left/top, fill image(hash: 85be085984850ab0ad93758ab461f580bfd0ff21)
+  - RECTANGLE "Rectangle 24", 1920x1254px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - RECTANGLE "Rectangle 25", 1920x1254px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - ELLIPSE "Ellipse 1", 1200x1200px, constraints left/top, stroke #00655F 6px
+  - ELLIPSE "Ellipse 2", 1000x1000px, constraints left/top, stroke #00655F 6px
+  - ELLIPSE "Ellipse 3", 800x800px, constraints left/top, stroke #00655F 6px
+  - ELLIPSE "Ellipse 4", 600x600px, constraints left/top, fill #003C38
+  - TEXT "improving vehicle sales professionals' performance in dealer", 530x165px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 40px], [heading]
+  - RECTANGLE "aston-martin-logo-white-emblem-vector 2", 300x80px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+
+Screen: Case Study / Cover - 12
+- FRAME "Cover - 12", 1920x1280px, constraints left/top, fill #000304
+  - RECTANGLE "03 Dark Macbook Pro Mockup copy 1", 1920x1280px, constraints left/top, fill image(hash: b92b6818202d7e5f597ae8141a451b7acd15b319)
+
+Screen: Case Study / Cover - 13
+- FRAME "Cover - 13", 1920x2751px, constraints left/top, fill #000304
+  - RECTANGLE "Free Standing iPhone Pro Mockup copy 1", 1001x1159px, constraints left/top, radius 48px, fill image(hash: fef5ee3f751cb0136c2a1d861b74dbdaddbfd328)
+  - FRAME "Frame 14129", 699x1159px, constraints left/top
+    - RECTANGLE "Rectangle 26", 699x1159px, constraints left/top, radius 48px, fill gradient_linear(#00655F 0% | #003C38 100%)
+    - RECTANGLE "iPhone 13 Instagram Mockups kit  - 01 (1) copy 1", 700x940px, constraints left/top, fill image(hash: acaaaaeeb9d89ee89fbce60de9d20b5673f7dcc8)
+  - RECTANGLE "Rectangle 27", 1001x1159px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - RECTANGLE "Rectangle 31", 1001x1159px, constraints left/top, fill gradient_linear(#000304 0% | #00030480 10% | #00030400 50% | #00030480 90% | #000304 100%)
+  - RECTANGLE "Rectangle 29", 700x1159px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - RECTANGLE "Rectangle 30", 700x1159px, constraints left/top, fill gradient_linear(#000304 0% | #00030433 10% | #00030400 50% | #00030433 90% | #000304 100%)
+  - RECTANGLE "Rectangle 28", 700x1159px, constraints left/top, fill gradient_linear(#000304 0% | #0003041A 6% | #00030400 50% | #0003041A 94% | #000304 100%)
+  - FRAME "Frame 14130", 988x1259px, constraints left/top, radius 48/0/0/48px, fill #FFFFFF
+    - RECTANGLE "Rectangle 32", 988x1259px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+    - RECTANGLE "Rectangle 33", 988x1259px, constraints left/top
+    - RECTANGLE "Mac 1", 939x813px, constraints left/top, fill image(hash: b6c8b952626fc906ae750f6a03f4b16060ae5236)
+  - FRAME "Frame 14131", 837x1259px, constraints left/top, radius 48px, fill #FFFFFF
+    - COMPONENT "Home Screen", 865x1259px, constraints left/top
+      - FRAME "Home Screen - iPhone", 1557x3331px, vertical pad 0 0 0 0px gap 38.91px align min/center sizing W:fixed H:fixed, constraints center/top, fill image(hash: c8262f720e481cf12afdef848495a6b8e105f578)
+        - FRAME "Status Bar", 1529x210.09px, horizontal pad 0 0 0 0px gap 435.75px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Time", 536.9x210.09px, constraints left/top
+            - TEXT "Time", 143.95x86px, constraints scale/scale, fill Labels/Primary - Dark, text [SF Pro Semibold, 66.14px], [heading]
+          - FRAME "Levels", 556.35x210.09px, constraints left/top [decorative, ~5 shapes]
+        - FRAME "App Icons", 1557x2568.45px, constraints left/top
+          - FRAME "Row 1", 1283.89x311.25px, horizontal pad 0 0 0 0px gap 116.72px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "FaceTime", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Calendar", 233.44x307.36px, vertical pad 0 0 0 0px gap 19.45px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Photos", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Camera", 233.44x311.25px, constraints left/top, fill #FFFFFF
+          - FRAME "Row 2", 1291.67x311.25px, horizontal pad 0 0 0 0px gap 116.72px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Mail", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Notes", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Reminders", 241.22x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Clock", 233.44x311.25px, constraints left/top, fill #FFFFFF
+          - FRAME "Row 3", 1283.89x311.25px, horizontal pad 0 0 0 0px gap 116.72px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "News", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "TV", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Podcasts", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "App Store", 233.44x311.25px, constraints left/top, fill #FFFFFF
+          - FRAME "Row 4", 1283.89x311.25px, horizontal pad 0 0 0 0px gap 116.72px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Maps", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Health", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Wallet", 233.44x311.25px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Settings", 233.44x311.25px, constraints left/top, fill #FFFFFF
+          - FRAME "Row 6", 583.59x307.36px, horizontal pad 0 0 0 0px gap 116.72px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Row 6 - App 1", 233.44x307.36px, vertical pad 0 0 0 0px gap 19.45px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Row 6 - App 2", 233.44x307.36px, vertical pad 0 0 0 0px gap 19.45px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 34", 848x1293px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 100%)
+        - FRAME "Dock", 1529x474.65px, horizontal pad 46.69 42.8 46.69 42.8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 159.51px
+          - FRAME "Background", 1443.41x381.28px, horizontal pad 73.92 0 73.92 0px gap 116.72px align center/center sizing W:fill H:fill, constraints left/top, radius 159.51px, fill Materials/Ultrathin, effect [background_blur 194.53px]
+            - INSTANCE "Phone", 233.44x233.44px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Safari", 233.44x233.44px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Messages", 233.44x233.44px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Music", 233.44x233.44px, constraints left/top, fill image(hash: 936105d5ec07a3bbf2d29a06c415e216a32c1849)
+
+Screen: Case Study / Cover - 14
+- FRAME "Cover - 14", 1920x4033px, constraints left/top, fill #000304
+  - TEXT "The process is quick and easy for car dealers because they c", 1134x198px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 48px], [heading]
+  - TEXT "After filling out the form, users may see specifics about th", 1120x198px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 48px], [heading]
+  - RECTANGLE "01 Free Ipad Pro Mockup With Pencil copy 1", 1920x1280px, constraints left/top, fill image(hash: 49ee62ceb0631751699583fdbed0c58e661f93d8)
+  - RECTANGLE "Rectangle 35", 1920x1280px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - RECTANGLE "Rectangle 36", 1920x1280px, constraints left/top, fill gradient_linear(#000304 0% | #00030433 10% | #00030400 50% | #00030433 90% | #000304 100%)
+  - RECTANGLE "iPad Pro top view scene free mockup copy 1", 1920x1783px, constraints left/top, fill image(hash: dd374c28af38d7d17f200002cccc6d1c44d4290d)
+  - RECTANGLE "Rectangle 37", 1920x1783px, constraints left/top, fill gradient_linear(#000304 0% | #00030433 10% | #00030400 50% | #00030433 90% | #000304 100%)
+  - RECTANGLE "Rectangle 38", 1920x1783px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+
+Screen: Case Study / Cover - 15
+- FRAME "Cover - 15", 1920x2184px, constraints left/top, fill #000304
+  - TEXT "Getting the Best of the on Your Mobile Phone", 1084x188px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 90px], [heading]
+  - RECTANGLE "image 7", 1398x1746px, constraints left/top, fill image(hash: 9a4a176c93892708bb17066428619a356a57ff32)
+  - RECTANGLE "Rectangle 39", 1398x1746px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - RECTANGLE "Rectangle 40", 1398x1746px, constraints left/top, fill gradient_linear(#000304 0% | #000304B2 20% | #00030400 50% | #000304B2 80% | #000304 100%)
+  - TEXT "The "Aston Martin" dashboard has been customized for mobile ", 922x299px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 48px], [heading]
+  - RECTANGLE "iphone-15-pro-on-white-background-v6-front-view copy 1", 1920x1419px, constraints left/top, fill image(hash: 85100d23c32a2d9c7ef74a39313a79d54f6d8111)
+
+Screen: Case Study / Cover- 16
+- FRAME "Cover- 16", 1920x2122px, constraints left/top, fill #000304
+  - TEXT "Automobile salespeople can quickly see and filter their sale", 1103x167px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 48px], [heading]
+  - RECTANGLE "iPhone 14 Pro Mockup (iPhones Group) copy 1", 1920x1763px, constraints left/top, fill image(hash: c10836d0ea597879902c3038a739c73f3a63dfa6)
+
+Screen: Case Study / Cover - 17
+- FRAME "Cover - 17", 1920x4521px, constraints left/top, fill #000304
+  - TEXT "Digital Instrument Cluster", 794x188px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 90px], [heading]
+  - TEXT ""Apple CarPlay Ultra": A Game-Changing Integration The "CarP", 1350x248px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 40px], [heading]
+  - RECTANGLE "gemini-2.5-flash-image-preview (nano-banana)_the_digital_ins", 1920x753px, constraints left/top, fill image(hash: 8fad4e4b20d9759c1ac8ca986e2d2b15c7aa896c)
+  - RECTANGLE "Rectangle 41", 1920x759px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - RECTANGLE "Rectangle 42", 1920x754px, constraints left/top, fill gradient_linear(#000304 0% | #0003040F 40% | #00030400 50% | #0003040F 60% | #000304 100%)
+  - TEXT "Primary Readout: A large, central digital display shows the ", 1677x246px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 30px], [heading]
+  - RECTANGLE "1756922504762-e3b710fc-0f69-454a-8e77-2a1ec3fc2659 1", 1920x1004px, constraints left/top, fill image(hash: a7b030edd260bef426aa0bdf91c9d6ee3eb558ce)
+  - RECTANGLE "1756922504762-e3b710fc-0f69-454a-8e77-2a1ec3fc2659 2", 1920x1004px, constraints left/top, fill image(hash: ac7eb4ca9aef1a1f98237ddd6272fb5cb568914c)
+  - RECTANGLE "Rectangle 43", 1920x1004px, constraints left/top, fill gradient_linear(#000304 0% | #0003040F 40% | #00030400 50% | #0003040F 60% | #000304 100%)
+  - RECTANGLE "Rectangle 45", 1920x1004px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 40% | #00030400 50% | #00030400 60% | #000304 100%)
+  - RECTANGLE "Rectangle 44", 1920x1004px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 30% | #00030400 50% | #00030400 70% | #000304 100%)
+  - RECTANGLE "Rectangle 46", 1920x1004px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 30% | #00030400 50% | #00030400 70% | #000304 100%)
+
+Screen: Case Study / Cover - 18
+- FRAME "Cover - 18", 1920x1455px, constraints left/top, fill #000304
+  - TEXT "Key Feature: Integrated Media Playback The most significant ", 1491x249px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 30px], [heading]
+  - RECTANGLE "1756922504762-e3b710fc-0f69-454a-8e77-2a1ec3fc2659 3", 1920x1004px, constraints left/top, fill image(hash: c9ebdc50a19b4df35e25fe96dfc6fe253379fb66)
+  - RECTANGLE "Rectangle 47", 1920x1004px, constraints left/top, fill gradient_linear(#000304 0% | #0003040F 40% | #00030400 50% | #0003040F 60% | #000304 100%)
+  - RECTANGLE "Rectangle 48", 1920x1021px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 30% | #00030400 50% | #00030400 70% | #000304 100%)
+
+Screen: Case Study / Cover - 19
+- FRAME "Cover - 19", 1920x3000px, constraints left/top, fill #000304
+  - TEXT "Core Feature: Immersive, Full-Screen Navigation The central ", 1755x454px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 32px], [heading]
+  - FRAME "Frame 14132", 1920x941px, constraints left/top
+    - RECTANGLE "1756922504762-e3b710fc-0f69-454a-8e77-2a1ec3fc2659 3", 1920x941px, constraints left/top, fill image(hash: 594eefa59c71ef3bfb3c9e1653878711c7adb693)
+    - RECTANGLE "Rectangle 47", 1920x941px, constraints left/top, fill gradient_linear(#000304 0% | #0003040F 40% | #00030400 50% | #0003040F 60% | #000304 100%)
+    - RECTANGLE "Rectangle 48", 1920x941px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 30% | #00030400 50% | #00030400 70% | #000304 100%)
+  - RECTANGLE "1756922504762-e3b710fc-0f69-454a-8e77-2a1ec3fc2659 4", 1920x1004px, constraints left/top, fill image(hash: bedb55403617f397278088fb3e9a7e706c323be2)
+  - RECTANGLE "Rectangle 49", 1920x1004px, constraints left/top, fill gradient_linear(#000304 0% | #0003040F 40% | #00030400 50% | #0003040F 60% | #000304 100%)
+  - RECTANGLE "Rectangle 50", 1920x1021px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 10% | #00030400 50% | #00030400 90% | #000304 100%)
+
+Screen: Case Study / Cover - 20
+- FRAME "Cover - 20", 1920x4784px, constraints left/top, fill #000304
+  - TEXT "Result", 278x65px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 90px], [heading]
+  - TEXT "In addition to tracking recent listings, top-selling vehicle", 1182x194px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 40px], [heading]
+  - RECTANGLE "image 8", 1920x1281px, constraints left/top, fill image(hash: ebd168eb9814fce1fc19c4e8c6f04c95b06b8058)
+  - RECTANGLE "Rectangle 51", 1920x1281px, constraints left/top, fill gradient_linear(#000304 0% | #000304BC 20% | #00030400 40% | #00030400 50% | #00030400 60% | #000304BD 80% | #000304 100%)
+  - RECTANGLE "Rectangle 51", 1920x1345px, constraints left/top, fill gradient_linear(#000304 0% | #00030400 50% | #000304 100%)
+  - TEXT "This dashboard boosts productivity and keeps our team focuse", 1469x1340px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 130px], [heading]
+  - RECTANGLE "Rectangle 4", 1621x1210px, constraints left/top, fill gradient_linear(#00030400 0% | #00030499 32% | #000304B2 64% | #000304 100%)
+  - RECTANGLE "Rectangle 52", 753x480px, constraints left/top, radius 48px, fill gradient_linear(#00655F 0% | #003C38 100%)
+  - RECTANGLE "Rectangle 55", 792x850px, constraints left/top, radius 48px, fill #151515
+  - RECTANGLE "Rectangle 53", 350x330px, constraints left/top, radius 48px, fill #151515
+  - RECTANGLE "Rectangle 57", 350x330px, constraints left/top, radius 48px, fill #151515
+  - RECTANGLE "aston-martin-logo-white-emblem-vector 2", 200x53px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+  - COMPONENT "material-symbols:arrow-back-rounded", 132.43x132.43px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 84.9x84.7px, constraints scale/scale, fill #D0DFDD
+  - TEXT "9", 50x58px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 80px], [heading]
+  - TEXT "30%", 170x58px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 80px], [heading]
+  - TEXT "Project Sprints", 287x29px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 40px], [heading]
+  - TEXT "Sales Increase", 208x22px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 30px], [heading]
+  - TEXT "Sales Increase", 208x22px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 30px], [heading]
+  - TEXT "Profit Growth", 257x29px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 40px], [heading]
+  - RECTANGLE "Rectangle 58", 170x150px, constraints left/top, radius 24px, fill gradient_linear(#4B4747 0% | #7C7575 48% | #B1A7A7 100%)
+  - RECTANGLE "Rectangle 59", 170x250px, constraints left/top, radius 24px, fill #2C2C2C
+  - RECTANGLE "Rectangle 60", 170x500px, constraints left/top, radius 24px, fill #FCDA72
+  - TEXT "Aug", 72x27px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 38px], [heading]
+  - TEXT "Sep", 70x27px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 38px], [heading]
+  - TEXT "Oct", 66x27px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 38px], [heading]
+  - ... +2 more children
+
+Screen: Ui / Sales Dashboard Dark 1
+- FRAME "Sales Dashboard Dark 1", 1728x1117px, constraints left/top, fill #080808
+  - FRAME "Frame 44", 260x970px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - FRAME "Button / Light", 230x61px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill gradient_linear(#00655F 0% | #003C38 100%), effect [glass]
+      - VECTOR "Vector", 30x30px, constraints left/top, fill #FEFEFE
+      - TEXT "Dashboard", 94x13px, constraints left/top, fill #FEFEFE, text [Manrope SemiBold, 18px]
+    - FRAME "clip-container", 230x60px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+      - GROUP "Group 11", 40x40px, constraints left/top
+        - ELLIPSE "Ellipse 7", 40x40px, constraints left/top, fill gradient_linear(#00655F 0% | #002F2C 100%)
+        - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: cfdf410580fc078f42e80f2bba2890e02d9bacd4)
+      - TEXT "Jenny Wilson Admin", 101x28px, constraints left/top, fill #E7EFEE, text [Manrope SemiBold, 20px]
+      - GROUP "Group 12", 16x27px, constraints left/top
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x6.18px, constraints scale/scale, fill #9CA6BF
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x6.18px, constraints scale/scale, fill #9CA6BF
+    - GROUP "Group 4", 139x30px, constraints left/top
+      - INSTANCE "iconoir:reports-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 22.5x22.5px, constraints scale/scale
+          - VECTOR "Vector", 6.25x22.5px, constraints scale/scale, fill #D0DFDD
+          - VECTOR "Vector", 6.25x15px, constraints scale/scale, fill #D0DFDD
+          - VECTOR "Vector", 6.25x6.25px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Statistics", 97x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 5", 150x30px, constraints left/top
+      - INSTANCE "tabler:car-filled", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 25x18.75px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Car Listing", 108x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 6", 137x30px, constraints left/top
+      - INSTANCE "streamline:information-desk-customer-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 30x30px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Customers", 95x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 7", 155x30px, constraints left/top
+      - INSTANCE "stash:billing-info-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.88x21.88px, constraints scale/scale, fill #D0DFDD
+        - VECTOR "Vector", 20x18.12px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Transactions", 113x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 8", 129x30px, constraints left/top
+      - INSTANCE "mynaui:message-dots-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 26.88x24.38px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Messages", 87x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 9", 158x30px, constraints left/top
+      - INSTANCE "material-symbols:help", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 25x25px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Help Request", 116x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 10", 115x30px, constraints left/top
+      - INSTANCE "material-symbols:settings-rounded", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 23.8x25px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Settings", 73x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - ELLIPSE "Ellipse 4", 30x30px, constraints left/top, fill #BB0103
+    - TEXT "8", 10x12px, constraints left/top, fill #FEFEFE, text [Manrope Regular, 16px]
+    - VECTOR "Line 3", 250x1.21px, constraints left/top, stroke #3B3B3B 2px
+  - FRAME "Frame 39", 402x300px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - GROUP "Group 14", 402x283px, constraints left/top, radius 0/0/0/0px
+      - FRAME "line-01", 402x172px, constraints left/top, radius 0/0/30/30px [decorative, ~21 shapes]
+      - TEXT "Total Profit", 95x13px, constraints left/top, fill #A4ADBE, text [Manrope SemiBold, 18px]
+      - GROUP "Group 13", 80x26px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Button / Light", 80x26px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill gradient_linear(#00655F 0% | #003C38 100%), effect [glass]
+        - TEXT "60%", 32x11px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 14px]
+        - FRAME "clip-container", 20x20px, constraints left/top, radius 20px, fill #00000001, effect [glass]
+        - COMPONENT "material-symbols:arrow-insert-rounded", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 8.38x8.38px, constraints scale/scale, fill #E7EFEE
+      - TEXT "$83,356.68", 215x29px, constraints left/top, fill #E7EFEE, text [Manrope SemiBold, 40px], [heading]
+      - TEXT "Profit growth from previous month", 238x11px, constraints left/top, fill #888E9A, text [Manrope Medium, 14px]
+      - FRAME "Button / Light", 30x30px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 20px, fill #00000033, effect [glass]
+      - GROUP "liquid-glass-circle", 4x18px, constraints center/center, effect [drop_shadow 6px offset 0 3 #00000057, drop_shadow 10px offset 0 10 #00000047, drop_shadow 14px offset 0 23 #0000001F, drop_shadow 16px offset 0 40 #00000012, drop_shadow 18px offset 0 63 #00000003]
+        - VECTOR "Vector", 4x18px, constraints scale/scale, fill #E7EFEE
+  - FRAME "Frame 40", 402x301px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - GROUP "Group 15", 402x284px, constraints left/top, radius 0/0/0/0px
+      - FRAME "line-01", 402x166px, constraints left/top, radius 0/0/30/30px [decorative, ~15 shapes]
+      - TEXT "Total Sales", 94x13px, constraints left/top, fill #A4ADBE, text [Manrope SemiBold, 18px]
+      - GROUP "Group 13", 80x26px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Button / Light", 80x26px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill gradient_linear(#FCDA72 0% | #7E6C36 100%), effect [glass]
+        - TEXT "60%", 32x11px, constraints left/top, fill #473C1B, text [Manrope Medium, 14px]
+        - FRAME "clip-container", 20x20px, constraints left/top, radius 20px, fill #00000001, effect [glass]
+        - INSTANCE "material-symbols:arrow-insert-rounded", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 8.38x8.38px, constraints scale/scale, fill #473C1B
+      - TEXT "$9,62,458.23", 250x29px, constraints left/top, fill #E7EFEE, text [Manrope SemiBold, 40px], [heading]
+      - TEXT "Profit growth from previous month", 238x11px, constraints left/top, fill #888E9A, text [Manrope Medium, 14px]
+      - FRAME "Button / Light", 30x30px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #00000033, effect Glass Effect
+      - GROUP "liquid-glass-circle", 4x18px, constraints center/center
+        - VECTOR "Vector", 4x18px, constraints scale/scale, fill #E7EFEE
+  - FRAME "Frame 42", 828x300px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - GROUP "Group 18", 793x283px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Sales Statistics", 213x21px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 28px], [heading]
+      - RECTANGLE "360_F_992902748_CzPbctz83CJVOw5oRLG7Xfwxv0tLUhe4124589 1", 560x220px, constraints left/top, fill image(hash: c6d4713f4d0265222cde88d3115224204978e3bc)
+      - FRAME "clip-container", 100x32px, constraints center/center, radius 9999px, fill #00000001, effect [glass]
+        - TEXT "Weekly", 50x11px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 14px]
+      - FRAME "clip-container", 100x32px, constraints center/center, radius 9999px, fill #00000001, effect [glass]
+        - TEXT "Monthly", 57x11px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 14px]
+      - FRAME "Button / Light", 100x32px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill gradient_linear(#00655F 0% | #003C38 100%), effect [glass]
+        - TEXT "Yearly", 42x11px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 14px]
+      - GROUP "Group 17", 114x160px, constraints left/top, radius 6px
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: f79fb0d8849f22085f3f79b8ea58ce72fe438916), effect [glass]
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: bda8df3e71efc55c83b04bf5d6beb7d7596e69e0), effect [glass]
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: 1a7bdb9b2dc26ae0b3a0363e61c734a87e8ac93d), effect [glass]
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: 599838aa564a59d9ca28e7673715ec695f013ee8), effect [glass]
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: f4808ec269309f44e104c3935433fc2e61b1a6ca), effect [glass]
+        - TEXT "US 36%", 54x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+        - TEXT "UK 28.7%", 66x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+        - TEXT "UAE 26.1%", 72x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+        - TEXT "Ger 16.9%", 72x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+        - TEXT "Aus 20.7%", 74x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+      - GROUP "Group 16", 113x160px, constraints left/top, radius 6px
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: 52f3e39586106e06429b5e60ffba68f2f24663de), effect [glass]
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: 281fef3a25f5b957f6bb6884a5395cfb7b0e3a15), effect [glass]
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: 24a9bafd529408e1296526a6f41c656654abf7b1), effect [glass]
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: b22d444742d3a364adea850ea90955eefe1fde97), effect [glass]
+        - FRAME "Button / Light", 34x24px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill image(hash: 526a6c061229566945842b1fefc433746e0f076c), effect [glass]
+        - TEXT "lta 14.6%", 64x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+        - TEXT "Spi 12.5%", 67x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+        - TEXT "Fran 11.3%", 73x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+        - TEXT "Ind 4.4%", 61x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+        - TEXT "Chi 2.1%", 58x11px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 14px]
+      - FRAME "Button / Light", 14x20px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect Glass Effect
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+      - FRAME "Button / Light", 14x20px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect Glass Effect
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+      - FRAME "Button / Light", 12x16px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect Glass Effect
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+      - FRAME "Button / Light", 14x20px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect Glass Effect
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+      - FRAME "Button / Light", 9x12px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect Glass Effect
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+      - FRAME "Button / Light", 14x20px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect Glass Effect
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+      - FRAME "Button / Light", 14x20px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect Glass Effect
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+      - FRAME "Button / Light", 12x18px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect Glass Effect
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+      - FRAME "Button / Light", 10x14px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect Glass Effect
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+      - FRAME "Button / Light", 10x14px, horizontal pad 6 12 6 12px gap 12px align center/center sizing W:fixed H:fixed, constraints center/center, radius 16px, fill #1A1A1A, effect [background_blur 12px, inner_shadow 22px offset 0 0 #F2F2F280, inner_shadow 0px offset 0 0 #999999, inner_shadow 1px offset -2 -2 #B3B3B3, inner_shadow 1px offset 2 2 #B3B3B3, inner_shadow 0.5px offset 3 3 #FFFFFF80]
+        - INSTANCE "fluent-color:location-ripple-16", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 10.5x12.25px, constraints scale/scale
+            - VECTOR "Vector", 10.5x4.38px, constraints scale/scale, fill gradient_radial(#00655F 0% | #5E918C 50% | #A2BFBC 100%)
+            - VECTOR "Vector", 8.75x10.06px, constraints scale/scale, fill gradient_linear(#BB0103 0% | #730001 100%)
+            - VECTOR "Vector", 2.62x2.62px, constraints scale/scale, fill gradient_linear(#FDFDFD 0% | #FECBE6 100%)
+  - FRAME "Frame 45", 1680x101px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - FRAME "clip-container", 500x54px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+    - FRAME "clip-container", 54x54px, constraints left/top, radius 9999px, fill #00000001, effect Glass Effect
+    - FRAME "clip-container", 54x54px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+    - INSTANCE "iconamoon:search", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, stroke #9CA4AF 2px
+    - TEXT "Search here...", 109x12px, constraints left/top, fill #9CA4AF, text [Manrope Medium, 16px]
+    - INSTANCE "mynaui:message-dots-solid", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 26.88x24.38px, constraints scale/scale, fill #E7EFEE
+    - INSTANCE "mingcute:notification-fill", 30x30px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 22.35x27.27px, constraints scale/scale
+        - VECTOR "Vector", 1.04x0.84px, constraints scale/scale
+        - VECTOR "Vector", 22.35x23.75px, constraints scale/scale, fill #E7EFEE
+    - ELLIPSE "Ellipse 3", 10x10px, constraints left/top, fill #BB0103
+    - RECTANGLE "aston-martin-logo-white-emblem-vector 1", 200x53px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+  - FRAME "Frame 43", 1396x340px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - VECTOR "Line 2", 1393.98x6.73px, constraints left/top, stroke #3B3B3B 2px
+    - TEXT "Top Selling Cars", 194x19px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 26px], [heading]
+    - TEXT "Keep track of booking and passengers data also others inform", 464x11px, constraints left/top, fill #888E9A, text [Manrope Medium, 14px]
+    - FRAME "clip-container", 1396x64px, constraints center/center, radius 10px, fill #00000033, effect [glass]
+      - TEXT "Car Model", 70x11px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 14px]
+      - TEXT "Booking Number", 115x11px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 14px]
+      - TEXT "Customer Name", 112x11px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 14px]
+      - TEXT "Order Date", 76x11px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 14px]
+      - TEXT "Car Type", 62x11px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 14px]
+      - TEXT "Delivery Date", 92x11px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 14px]
+      - TEXT "Amount", 55x11px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 14px]
+      - TEXT "Status", 46x11px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 14px]
+      - TEXT "Action", 45x11px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 14px]
+    - RECTANGLE "dbx-exterior-right-front-three-quarter-7-Photoroom 1", 80x39px, constraints left/top, fill image(hash: 1636b938fd0745b523fe0f49fdd386a36aeaf8cf)
+    - RECTANGLE "dbx-exterior-right-front-three-quarter-7-Photoroom 2", 90x43px, constraints left/top, fill image(hash: ecdfd81e56db791a042045edb108b540a575351b)
+    - TEXT "DBX S 2025", 89x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "Valhalla 2025", 102x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "#62359", 65x12px, constraints left/top, fill #00655F, text [Manrope Medium, 16px]
+    - TEXT "#2156", 52x12px, constraints left/top, fill #00655F, text [Manrope Medium, 16px]
+    - TEXT "Simmons Brooklyn", 145x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "Robert Darlene", 119x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "28 May 2025", 98x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "16 Jun 2025", 92x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "Hybrid Car", 85x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "Hybrid Car", 85x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "27 Jun 2025", 93x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "04 Sep 2025", 98x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "$2,56,086.32", 99x12px, constraints left/top, fill #E7EFEE, text [Manrope Medium, 16px]
+    - TEXT "$1,000,000.12", 107x12px, constraints left/top, fill #FEFEFE, text [Manrope Medium, 16px]
+    - TEXT "holt.debra@example.com", 173x11px, constraints left/top, fill #888E9A, text [Manrope Regular, 14px]
+    - TEXT "cruz.sara@example.com", 167x11px, constraints left/top, fill #888E9A, text [Manrope Regular, 14px]
+    - RECTANGLE "rectangle", 70x26px, constraints left_right/top_bottom, radius 16px, fill #022916, effect [inner_shadow 2px offset -2 -2 #FFFFFF3D, inner_shadow 2px offset 2 2 #FFFFFF3D]
+    - RECTANGLE "rectangle", 70x26px, constraints left_right/top_bottom, radius 16px, fill #341400, effect [inner_shadow 2px offset -2 -2 #FFFFFF3D, inner_shadow 2px offset 2 2 #FFFFFF3D]
+    - TEXT "Delivered", 55x9px, constraints left/top, fill #06CC75, text [Manrope SemiBold, 12px]
+    - ... +4 more children
+  - FRAME "Frame 41", 544x620px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+      - TEXT "Hybrid Car", 85x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+      - FRAME "clip-container", 40x40px, constraints center/center, radius 9999px, fill #00000001, effect Glass Effect
+        - RECTANGLE "icons8-steering-wheel-30 1", 30x30px, constraints left/top, fill image(hash: db1c0257dfc0673b17c1734596a4819ecc547e48)
+    - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+      - FRAME "Frame 1", 40x40px, constraints left/top, radius 20px, fill #00000033, effect [glass]
+      - COMPONENT "solar:transmission-bold", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FEFEFE
+        - VECTOR "Vector", 6.88x10.63px, constraints scale/scale, fill #FEFEFE
+    - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+      - TEXT "1,064 hp", 66x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+      - FRAME "clip-container", 40x40px, constraints center/center, radius 9999px, fill #00000001, effect Glass Effect
+        - COMPONENT "line-md:engine-filled", 30x30px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 25x17.5px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+      - FRAME "Frame 5", 40x40px, constraints left/top, radius 20px, fill #00000001, effect Glass Effect
+      - COMPONENT "tabler:car-4wd-filled", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x25px, constraints scale/scale, fill #FEFEFE
+    - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+      - TEXT "214 mph", 65x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+      - FRAME "clip-container", 40x40px, constraints center/center, radius 9999px, fill #00000001, effect Glass Effect
+        - COMPONENT "material-symbols:speed-rounded", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24.97x20px, constraints scale/scale, fill #FEFEFE
+    - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+      - TEXT "2 seater", 65x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+      - TEXT "All-Wheel Drive", 120x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+      - TEXT "8-Speed", 68x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+      - FRAME "clip-container", 40x40px, constraints center/center, radius 9999px, fill #00000001, effect Glass Effect
+        - COMPONENT "material-symbols-light:car-fan-mid-right-sharp", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 21.24x21.54px, constraints scale/scale, fill #FEFEFE
+    - TEXT "Valhalla", 518x98px, constraints left/top, fill #282828, text [Manrope ExtraBold, 130px], [heading]
+    - ELLIPSE "Ellipse 8", 474x147px, constraints left/top, fill #151515, stroke button light 3px
+    - VECTOR "Vector 1", 52.11x10.85px, constraints left/top, stroke #151515 16px
+    - VECTOR "Vector 2", 52.98x7.96px, constraints left/top, stroke #151515 16px
+    - RECTANGLE "aston-martin-valhalla_100952203 1", 544x306px, constraints left/top, radius 28/28/150/150px, fill image(hash: a343b1085750749eadf100486739aa06a88c5170)
+    - TEXT "Valhalla", 518x98px, constraints left/top, fill #282828, stroke #282828 2px, text [Manrope ExtraBold, 130px], [heading]
+
+Screen: Ui / Sales Dashboard Dark 2
+- FRAME "Sales Dashboard Dark 2", 1728x1117px, constraints left/top, fill #080808
+  - FRAME "Frame 47", 260x972px, constraints left/top, radius 30px, fill #18181866
+  - FRAME "Frame 46", 1680x101px, constraints left/top, radius 30px, fill #18181866, effect Glass Effect
+  - FRAME "clip-container", 500x54px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+  - FRAME "clip-container", 54x54px, constraints left/top, radius 9999px, fill #00000001, effect Glass Effect
+  - FRAME "clip-container", 54x54px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+  - INSTANCE "iconamoon:search", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, stroke #9CA4AF 2px
+  - TEXT "Search here...", 109x12px, constraints left/top, fill #9CA4AF, text [Manrope Medium, 16px]
+  - INSTANCE "mynaui:message-dots-solid", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 26.88x24.38px, constraints scale/scale, fill #E7EFEE
+  - INSTANCE "mingcute:notification-fill", 30x30px, constraints left/top, fill #FFFFFF
+    - GROUP "Group", 22.35x27.27px, constraints scale/scale
+      - VECTOR "Vector", 1.04x0.84px, constraints scale/scale
+      - VECTOR "Vector", 22.35x23.75px, constraints scale/scale, fill #E7EFEE
+  - FRAME "clip-container", 230x60px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+    - GROUP "Group 11", 40x40px, constraints left/top
+      - ELLIPSE "Ellipse 7", 40x40px, constraints left/top, fill gradient_linear(#00655F 0% | #002F2C 100%)
+      - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: cfdf410580fc078f42e80f2bba2890e02d9bacd4)
+    - TEXT "Jenny Wilson Admin", 101x28px, constraints left/top, fill #E7EFEE, text [Manrope SemiBold, 20px]
+    - GROUP "Group 12", 16x27px, constraints left/top
+      - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 10x6.18px, constraints scale/scale, fill #9CA6BF
+      - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 10x6.18px, constraints scale/scale, fill #9CA6BF
+  - GROUP "Group 4", 139x30px, constraints left/top
+    - INSTANCE "iconoir:reports-solid", 30x30px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 22.5x22.5px, constraints scale/scale
+        - VECTOR "Vector", 6.25x22.5px, constraints scale/scale, fill #D0DFDD
+        - VECTOR "Vector", 6.25x15px, constraints scale/scale, fill #D0DFDD
+        - VECTOR "Vector", 6.25x6.25px, constraints scale/scale, fill #D0DFDD
+    - TEXT "Statistics", 97x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+  - FRAME "Button / Light", 230x61px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill gradient_linear(#00655F 0% | #003C38 100%), effect [glass]
+    - INSTANCE "tabler:car-filled", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 25x18.75px, constraints scale/scale, fill #FEFEFE
+    - TEXT "Car Listing", 108x13px, constraints left/top, fill #FEFEFE, text [Manrope SemiBold, 18px]
+  - GROUP "Group 6", 137x30px, constraints left/top
+    - INSTANCE "streamline:information-desk-customer-solid", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill #D0DFDD
+    - TEXT "Customers", 95x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+  - GROUP "Group 7", 155x30px, constraints left/top
+    - INSTANCE "stash:billing-info-solid", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.88x21.88px, constraints scale/scale, fill #D0DFDD
+      - VECTOR "Vector", 20x18.12px, constraints scale/scale, fill #D0DFDD
+    - TEXT "Transactions", 113x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+  - GROUP "Group 8", 129x30px, constraints left/top
+    - INSTANCE "mynaui:message-dots-solid", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 26.88x24.38px, constraints scale/scale, fill #D0DFDD
+    - TEXT "Messages", 87x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+  - GROUP "Group 9", 158x30px, constraints left/top
+    - INSTANCE "material-symbols:help", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 25x25px, constraints scale/scale, fill #D0DFDD
+    - TEXT "Help Request", 116x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+  - GROUP "Group 10", 115x30px, constraints left/top
+    - INSTANCE "material-symbols:settings-rounded", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 23.8x25px, constraints scale/scale, fill #D0DFDD
+    - TEXT "Settings", 73x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+  - ELLIPSE "Ellipse 3", 10x10px, constraints left/top, fill #BB0103
+  - ELLIPSE "Ellipse 4", 30x30px, constraints left/top, fill #BB0103
+  - TEXT "8", 10x12px, constraints left/top, fill #FEFEFE, text [Manrope Regular, 16px]
+  - VECTOR "Line 3", 250x1.21px, constraints left/top, stroke #3B3B3B 2px
+  - RECTANGLE "aston-martin-logo-white-emblem-vector 1", 200x53px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+  - VECTOR "Vector", 30x30px, constraints left/top, fill #D0DFDD
+  - TEXT "Dashboard", 94x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+  - FRAME "Frame 6", 650x414px, constraints left/top
+    - RECTANGLE "Rectangle 8", 650x414px, constraints left/top, radius 30px, fill #181818
+    - FRAME "clip-container", 170x80px, constraints center/center, radius 14.04px, fill #00000001, effect [glass]
+      - TEXT "Hybrid Car", 64x9px, constraints center/top, fill #888E9A, text [Manrope Medium, 13px]
+      - FRAME "clip-container", 35.11x35.11px, constraints center/center, radius 8775.48px, fill #00000001, effect [glass]
+        - RECTANGLE "icons8-steering-wheel-30 1", 24.29x24.29px, constraints center/center, fill image(hash: db1c0257dfc0673b17c1734596a4819ecc547e48)
+    - FRAME "clip-container", 170x80px, constraints center/center, radius 14.04px, fill #00000001, effect [glass]
+      - FRAME "Frame 1", 35.11x35.11px, constraints left/top, radius 17.55px, fill #00000033, effect [glass]
+      - INSTANCE "solar:transmission-bold", 24.29x24.29px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 20.24x20.24px, constraints scale/scale, fill #FEFEFE
+        - VECTOR "Vector", 5.57x8.6px, constraints scale/scale, fill #FEFEFE
+      - TEXT "8-Speed", 53x9px, constraints center/top, fill #888E9A, text [Manrope Medium, 13px]
+    - FRAME "clip-container", 170x80px, constraints center/center, radius 14.04px, fill #00000001, effect [glass]
+      - TEXT "1,064 hp", 51x9px, constraints center/top, fill #888E9A, text [Manrope Medium, 13px]
+      - FRAME "clip-container", 35.11x35.11px, constraints center/center, radius 8775.48px, fill #00000001, effect [glass]
+        - INSTANCE "line-md:engine-filled", 24.29x24.29px, constraints center/center, fill #FFFFFF
+          - GROUP "Group", 20.24x14.17px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "clip-container", 170x80px, constraints center/center, radius 14.04px, fill #00000001, effect [glass]
+      - FRAME "Frame 5", 35.11x35.11px, constraints left/top, radius 17.55px, fill #00000001, effect [glass]
+      - INSTANCE "tabler:car-4wd-filled", 24.29x24.29px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 16.19x20.24px, constraints scale/scale, fill #FEFEFE
+      - TEXT "All-Wheel Drive", 93x9px, constraints center/top, fill #888E9A, text [Manrope Medium, 13px]
+    - FRAME "clip-container", 170x80px, constraints center/center, radius 14.04px, fill #00000001, effect [glass]
+      - TEXT "214 mph", 51x9px, constraints center/top, fill #888E9A, text [Manrope Medium, 13px]
+      - FRAME "clip-container", 35.11x35.11px, constraints center/center, radius 8775.48px, fill #00000001, effect [glass]
+        - INSTANCE "material-symbols:speed-rounded", 24.29x24.29px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 20.22x16.19px, constraints scale/scale, fill #FEFEFE
+    - FRAME "clip-container", 170x80px, constraints center/center, radius 14.04px, fill #00000001, effect [glass]
+      - TEXT "2 seater", 50x9px, constraints center/top, fill #888E9A, text [Manrope Medium, 13px]
+      - FRAME "clip-container", 35.11x35.11px, constraints center/center, radius 8775.48px, fill #00000001, effect [glass]
+        - INSTANCE "material-symbols-light:car-fan-mid-right-sharp", 24.29x24.29px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.2x17.44px, constraints scale/scale, fill #FEFEFE
+  - ... +5 more children
+
+Screen: Ui / Sales Dashboard Dark 3
+- FRAME "Sales Dashboard Dark 3", 1728x1117px, constraints left/top, fill #080808
+  - FRAME "Frame 35", 1680x101px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - FRAME "clip-container", 500x54px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+    - FRAME "clip-container", 54x54px, constraints left/top, radius 9999px, fill #00000001, effect Glass Effect
+    - FRAME "clip-container", 54x54px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+    - INSTANCE "iconamoon:search", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, stroke #9CA4AF 2px
+    - TEXT "Search here...", 109x12px, constraints left/top, fill #9CA4AF, text [Manrope Medium, 16px]
+    - INSTANCE "mynaui:message-dots-solid", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 26.88x24.38px, constraints scale/scale, fill #E7EFEE
+    - INSTANCE "mingcute:notification-fill", 30x30px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 22.35x27.27px, constraints scale/scale
+        - VECTOR "Vector", 1.04x0.84px, constraints scale/scale
+        - VECTOR "Vector", 22.35x23.75px, constraints scale/scale, fill #E7EFEE
+    - ELLIPSE "Ellipse 3", 10x10px, constraints left/top, fill #BB0103
+    - RECTANGLE "aston-martin-logo-white-emblem-vector 1", 200x53px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+  - FRAME "Frame 34", 260x972px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - FRAME "clip-container", 230x60px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+      - GROUP "Group 11", 40x40px, constraints left/top
+        - ELLIPSE "Ellipse 7", 40x40px, constraints left/top, fill gradient_linear(#00655F 0% | #002F2C 100%)
+        - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: cfdf410580fc078f42e80f2bba2890e02d9bacd4)
+      - TEXT "Jenny Wilson Admin", 101x28px, constraints left/top, fill #E7EFEE, text [Manrope SemiBold, 20px]
+      - GROUP "Group 12", 16x27px, constraints left/top
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x6.18px, constraints scale/scale, fill #9CA6BF
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x6.18px, constraints scale/scale, fill #9CA6BF
+    - GROUP "Group 4", 139x30px, constraints left/top
+      - INSTANCE "iconoir:reports-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 22.5x22.5px, constraints scale/scale
+          - VECTOR "Vector", 6.25x22.5px, constraints scale/scale, fill #D0DFDD
+          - VECTOR "Vector", 6.25x15px, constraints scale/scale, fill #D0DFDD
+          - VECTOR "Vector", 6.25x6.25px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Statistics", 97x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - FRAME "Button / Light", 230x61px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill gradient_linear(#00655F 0% | #003C38 100%), effect [glass]
+      - INSTANCE "tabler:car-filled", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 25x18.75px, constraints scale/scale, fill #FEFEFE
+      - TEXT "Car Listing", 108x13px, constraints left/top, fill #FEFEFE, text [Manrope SemiBold, 18px]
+    - GROUP "Group 6", 137x30px, constraints left/top
+      - INSTANCE "streamline:information-desk-customer-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 30x30px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Customers", 95x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 7", 155x30px, constraints left/top
+      - INSTANCE "stash:billing-info-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.88x21.88px, constraints scale/scale, fill #D0DFDD
+        - VECTOR "Vector", 20x18.12px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Transactions", 113x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 8", 129x30px, constraints left/top
+      - INSTANCE "mynaui:message-dots-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 26.88x24.38px, constraints scale/scale, fill #A7A8AC
+      - TEXT "Messages", 87x13px, constraints left/top, fill #A7A8AC, text [Manrope SemiBold, 18px]
+    - GROUP "Group 9", 158x30px, constraints left/top
+      - INSTANCE "material-symbols:help", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 25x25px, constraints scale/scale, fill #A7A8AC
+      - TEXT "Help Request", 116x13px, constraints left/top, fill #A7A8AC, text [Manrope SemiBold, 18px]
+    - GROUP "Group 10", 115x30px, constraints left/top
+      - INSTANCE "material-symbols:settings-rounded", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 23.8x25px, constraints scale/scale, fill #A7A8AC
+      - TEXT "Settings", 73x13px, constraints left/top, fill #A7A8AC, text [Manrope SemiBold, 18px]
+    - ELLIPSE "Ellipse 4", 30x30px, constraints left/top, fill #BB0103
+    - TEXT "8", 10x12px, constraints left/top, fill #FEFEFE, text [Manrope Regular, 16px]
+    - VECTOR "Line 3", 250x1.21px, constraints left/top, stroke #3B3B3B 2px
+    - VECTOR "Vector", 30x30px, constraints left/top, fill #D0DFDD
+    - TEXT "Dashboard", 94x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+  - TEXT "Car Listing", 134x19px, constraints center/top, fill #FEFEFE, text [Manrope SemiBold, 26px], [heading]
+  - FRAME "clip-container", 100x38px, constraints center/center, radius 9999px, fill #18181833, effect [glass]
+    - TEXT "Back", 39x12px, constraints left/center, fill #FFFFFF, text [Manrope Medium, 17px]
+    - INSTANCE "material-symbols:arrow-back-ios-new-rounded", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 6.97x12.64px, constraints scale/scale, fill #FEFEFE
+  - FRAME "clip-container", 100x38px, constraints right/center, radius 9999px, fill gradient_linear(#003C38 0% | #00CBBF 100%), effect [glass]
+    - TEXT "Update", 59x12px, constraints center/center, fill #FFFFFF, text [Manrope Medium, 17px]
+  - FRAME "clip-container", 184x38px, constraints right/center, radius 9999px, fill #00000033, stroke gradient_linear(#00CBBF 0% | #003C38 100%) 1px, effect [glass]
+    - TEXT "View as customer", 140x12px, constraints left/center, fill #FFFFFF, text [Manrope Medium, 17px]
+    - INSTANCE "lets-icons:view", 16x16px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 11.69x8px, constraints scale/scale
+        - VECTOR "Vector", 4x4px, constraints scale/scale, stroke #FEFEFE 1px
+        - VECTOR "Vector", 11.69x8px, constraints scale/scale, stroke #FEFEFE 1px
+  - FRAME "Frame 18", 510x904px, constraints left/top, radius 28px, fill #18181852, effect Glass Effect
+    - TEXT "Car Image", 104x16px, constraints center/top, fill #FEFEFE, text [Manrope Medium, 22px]
+    - LINE "Line 27", 400x0px, constraints center/top, stroke #D0DFDD 1px
+    - FRAME "Frame 20", 470x300px, constraints left/top
+      - RECTANGLE "Rectangle 34624681", 470x300px, constraints center/top, radius 28px, fill image(hash: 86c84efb36b82c9eb79e6d626f106aa1d5670428)
+    - RECTANGLE "Rectangle 34624682", 130x130px, constraints left/top, radius 28px, fill image(hash: 86c84efb36b82c9eb79e6d626f106aa1d5670428)
+    - RECTANGLE "Rectangle 34624683", 130x130px, constraints left/top, radius 28px, fill image(hash: c056d86f707f1dba2619d8b4f0ef9f6b70f41aa9)
+    - RECTANGLE "Rectangle 34624684", 130x130px, constraints left/top, radius 28px, fill image(hash: 7014ef90d77e174f9495d984f80ae4193b886e9a)
+    - RECTANGLE "Rectangle 34624685", 130x130px, constraints left/top, radius 28px, fill image(hash: 1088367bf7daa12f8d5a04a4d2f17750dd153002)
+    - RECTANGLE "Rectangle 34624686", 130x130px, constraints left/top, radius 28px, fill image(hash: a4833ce6cf3b29858860be59a24204a9ffac8592)
+    - FRAME "Frame 21", 130x130px, constraints left/top, radius 28px, fill #00000033, effect Glass Effect
+      - COMPONENT "gg:add", 34x34px, constraints center/center, fill #FFFFFF
+        - GROUP "Group", 28.33x28.33px, constraints scale/scale
+          - VECTOR "Vector", 28.33x28.33px, constraints scale/scale, fill #FEFEFE
+          - VECTOR "Vector", 17x17px, constraints scale/scale, fill #FEFEFE
+      - TEXT "Add More", 81x13px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 18px]
+  - FRAME "Frame 23", 840x904px, constraints left/top, radius 28px, fill #18181852, effect Glass Effect
+    - TEXT "Car Image", 104x16px, constraints center/top, fill #FEFEFE, text [Manrope Medium, 22px]
+    - LINE "Line 28", 700x0px, constraints center/top, stroke #D0DFDD 1px
+    - TEXT "Car Model*", 104x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - TEXT "Engine Type*", 123x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - TEXT "Drivetrain*", 101x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - TEXT "Total Power*", 119x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - TEXT "Hybrid System*", 145x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - TEXT "Description", 109x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - TEXT "Top Speed*", 108x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - TEXT "Brakes*", 73x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - TEXT "Total Torque*", 126x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - TEXT "Suspension*", 120x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 20px]
+    - FRAME "Frame 24", 760x52px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "Aston Martin Valhalla", 174x13px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 18px]
+    - FRAME "Frame 25", 340x52px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "4.0L Twin-Turbo Flat-Plane Crank V8", 296x13px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 18px]
+    - FRAME "Frame 27", 340x52px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "All-Wheel Drive (AWD)", 182x13px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 18px]
+    - FRAME "Frame 29", 340x52px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "998 PS (984 bhp)", 145x13px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 18px]
+    - FRAME "Frame 31", 340x52px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "Two E-Motors (one front, one rear)", 286x13px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 18px]
+    - FRAME "Frame 33", 760x150px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "Enter a description", 140x12px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 16px]
+    - TEXT "This is a hint text to help user.", 191x10px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 14px]
+    - FRAME "Frame 26", 340x52px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "217 mph (350 km/h)", 162x13px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 18px]
+    - FRAME "Frame 28", 340x52px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "Carbon Ceramic Matrix (CCM)", 250x13px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 18px]
+    - FRAME "Frame 30", 340x52px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "1,000 Nm (738 lb-ft)", 164x13px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 18px]
+    - FRAME "Frame 32", 340x52px, constraints left/top, radius 16px, fill #00000033, effect Glass Effect
+      - TEXT "Push-Rod Front / Multi-link Rear", 263x13px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 18px]
+
+Screen: Ui / Sales Dashboard Dark 4
+- FRAME "Sales Dashboard Dark 4", 1728x1117px, constraints left/top, fill #080808
+  - FRAME "Frame 36", 260x972px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - FRAME "clip-container", 230x60px, constraints center/center, radius 16px, fill #00000001, effect [glass]
+      - GROUP "Group 11", 40x40px, constraints left/top
+        - ELLIPSE "Ellipse 7", 40x40px, constraints left/top, fill gradient_linear(#00655F 0% | #002F2C 100%)
+        - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: cfdf410580fc078f42e80f2bba2890e02d9bacd4)
+      - TEXT "Jenny Wilson Admin", 101x28px, constraints left/top, fill #E7EFEE, text [Manrope SemiBold, 20px]
+      - GROUP "Group 12", 16x27px, constraints left/top
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x6.18px, constraints scale/scale, fill #9CA6BF
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10x6.18px, constraints scale/scale, fill #9CA6BF
+    - GROUP "Group 4", 139x30px, constraints left/top
+      - INSTANCE "iconoir:reports-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 22.5x22.5px, constraints scale/scale
+          - VECTOR "Vector", 6.25x22.5px, constraints scale/scale, fill #D0DFDD
+          - VECTOR "Vector", 6.25x15px, constraints scale/scale, fill #D0DFDD
+          - VECTOR "Vector", 6.25x6.25px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Statistics", 97x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - FRAME "Button / Light", 230x61px, horizontal pad 6 12 6 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill gradient_linear(#00655F 0% | #003C38 100%), effect [glass]
+      - INSTANCE "tabler:car-filled", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 25x18.75px, constraints scale/scale, fill #FEFEFE
+      - TEXT "Car Listing", 108x13px, constraints left/top, fill #FEFEFE, text [Manrope SemiBold, 18px]
+    - GROUP "Group 6", 137x30px, constraints left/top
+      - INSTANCE "streamline:information-desk-customer-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 30x30px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Customers", 95x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 7", 155x30px, constraints left/top
+      - INSTANCE "stash:billing-info-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.88x21.88px, constraints scale/scale, fill #D0DFDD
+        - VECTOR "Vector", 20x18.12px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Transactions", 113x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 8", 129x30px, constraints left/top
+      - INSTANCE "mynaui:message-dots-solid", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 26.88x24.38px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Messages", 87x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 9", 158x30px, constraints left/top
+      - INSTANCE "material-symbols:help", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 25x25px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Help Request", 116x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - GROUP "Group 10", 115x30px, constraints left/top
+      - INSTANCE "material-symbols:settings-rounded", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 23.8x25px, constraints scale/scale, fill #D0DFDD
+      - TEXT "Settings", 73x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+    - ELLIPSE "Ellipse 4", 30x30px, constraints left/top, fill #BB0103
+    - TEXT "8", 10x12px, constraints left/top, fill #FEFEFE, text [Manrope Regular, 16px]
+    - VECTOR "Line 3", 250x1.21px, constraints left/top, stroke #3B3B3B 2px
+    - VECTOR "Vector", 30x30px, constraints left/top, fill #D0DFDD
+    - TEXT "Dashboard", 94x13px, constraints left/top, fill #D0DFDD, text [Manrope SemiBold, 18px]
+  - TEXT "Car Listing", 134x19px, constraints center/top, fill #FEFEFE, text [Manrope SemiBold, 26px], [heading]
+  - FRAME "Frame 18", 1380x593px, constraints left/top, radius 28px, fill #18181852, effect Glass Effect
+    - TEXT "Aston Martin Valhalla", 177x13px, constraints left/top, fill #D0DFDD, text [Manrope Medium, 18px]
+    - TEXT "Asking Price", 90x12px, constraints left/top, fill #818793, text [Manrope Regular, 16px]
+    - TEXT "Hybrid", 48x12px, constraints left/top, fill #D0DFDD, text [Manrope Regular, 16px]
+    - TEXT "$2,56,086.32", 114x13px, constraints left/top, fill #E7EFEE, text [Manrope SemiBold, 18px]
+    - FRAME "Frame 20", 600x383px, constraints center/top
+      - RECTANGLE "Rectangle 34624681", 600x383px, constraints center/top, radius 28px, fill image(hash: 86c84efb36b82c9eb79e6d626f106aa1d5670428)
+    - RECTANGLE "Rectangle 34624682", 130x130px, constraints left/top, radius 28px, fill image(hash: 86c84efb36b82c9eb79e6d626f106aa1d5670428)
+    - RECTANGLE "Rectangle 34624683", 130x130px, constraints left/top, radius 28px, fill image(hash: c056d86f707f1dba2619d8b4f0ef9f6b70f41aa9)
+    - RECTANGLE "Rectangle 34624684", 130x130px, constraints left/top, radius 28px, fill image(hash: 7014ef90d77e174f9495d984f80ae4193b886e9a)
+    - RECTANGLE "Rectangle 34624685", 130x130px, constraints left/top, radius 28px, fill image(hash: 1088367bf7daa12f8d5a04a4d2f17750dd153002)
+    - RECTANGLE "Rectangle 34624686", 130x130px, constraints left/top, radius 28px, fill image(hash: a4833ce6cf3b29858860be59a24204a9ffac8592)
+    - FRAME "Frame 21", 130x130px, constraints left/top, radius 28px, fill #18181852, effect Glass Effect
+      - INSTANCE "gg:add", 34x34px, constraints center/center, fill #FFFFFF
+        - GROUP "Group", 28.33x28.33px, constraints scale/scale
+          - VECTOR "Vector", 28.33x28.33px, constraints scale/scale, fill #FEFEFE
+          - VECTOR "Vector", 17x17px, constraints scale/scale, fill #FEFEFE
+      - TEXT "Add More", 81x13px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 18px]
+    - RECTANGLE "aston-martin-logo-white-emblem-vector 2", 100x27px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+  - FRAME "Frame 36", 1680x101px, constraints left/top, radius 28px, fill #18181866, effect Glass Effect
+    - FRAME "clip-container", 500x54px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+    - FRAME "clip-container", 54x54px, constraints left/top, radius 9999px, fill #00000001, effect Glass Effect
+    - FRAME "clip-container", 54x54px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+    - INSTANCE "iconamoon:search", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, stroke #9CA4AF 2px
+    - TEXT "Search here...", 109x12px, constraints left/top, fill #9CA4AF, text [Manrope Medium, 16px]
+    - INSTANCE "mynaui:message-dots-solid", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 26.88x24.38px, constraints scale/scale, fill #E7EFEE
+    - INSTANCE "mingcute:notification-fill", 30x30px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 22.35x27.27px, constraints scale/scale
+        - VECTOR "Vector", 1.04x0.84px, constraints scale/scale
+        - VECTOR "Vector", 22.35x23.75px, constraints scale/scale, fill #E7EFEE
+    - ELLIPSE "Ellipse 3", 10x10px, constraints left/top, fill #BB0103
+    - RECTANGLE "aston-martin-logo-white-emblem-vector 1", 200x53px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+  - FRAME "Frame 37", 1380x284px, constraints left/top, radius 28px, fill #18181852, effect Glass Effect
+    - FRAME "Frame 38", 1256x629px, constraints left/top
+      - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #1818184D, effect [glass]
+        - TEXT "Hybrid Car", 85x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+        - FRAME "clip-container", 40x40px, constraints center/center, radius 9999px, fill #00000001, effect Glass Effect
+          - RECTANGLE "icons8-steering-wheel-30 1", 30x30px, constraints left/top, fill image(hash: db1c0257dfc0673b17c1734596a4819ecc547e48)
+      - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #1818184D, effect [glass]
+        - FRAME "Frame 1", 40x40px, constraints left/top, radius 20px, fill #00000033, effect [glass]
+        - INSTANCE "solar:transmission-bold", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FEFEFE
+          - VECTOR "Vector", 6.88x10.63px, constraints scale/scale, fill #FEFEFE
+      - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #1818184D, effect [glass]
+        - TEXT "1,064 hp", 66x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+        - FRAME "clip-container", 40x40px, constraints center/center, radius 9999px, fill #00000001, effect Glass Effect
+          - INSTANCE "line-md:engine-filled", 30x30px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 25x17.5px, constraints scale/scale [decorative, ~4 shapes]
+      - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #1818184D, effect [glass]
+        - FRAME "Frame 5", 40x40px, constraints left/top, radius 20px, fill #00000001, effect Glass Effect
+        - INSTANCE "tabler:car-4wd-filled", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x25px, constraints scale/scale, fill #FEFEFE
+      - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #1818184D, effect [glass]
+        - TEXT "214 mph", 65x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+        - FRAME "clip-container", 40x40px, constraints center/center, radius 9999px, fill #00000001, effect Glass Effect
+          - INSTANCE "material-symbols:speed-rounded", 30x30px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 24.97x20px, constraints scale/scale, fill #FEFEFE
+      - FRAME "clip-container", 160x108px, constraints center/center, radius 16px, fill #1818184D, effect [glass]
+        - TEXT "2 seater", 65x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+        - TEXT "All-Wheel Drive", 120x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+        - TEXT "8-Speed", 68x12px, constraints left/top, fill #888E9A, text [Manrope Medium, 16px]
+        - FRAME "clip-container", 40x40px, constraints center/center, radius 9999px, fill #00000001, effect Glass Effect
+          - INSTANCE "material-symbols-light:car-fan-mid-right-sharp", 30x30px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 21.24x21.54px, constraints scale/scale, fill #FEFEFE
+      - TEXT "Key Features", 121x14px, constraints center/top, fill #D0DFDD, text [Manrope Medium, 20px]
+      - TEXT "Car Description", 147x14px, constraints center/top, fill #D0DFDD, text [Manrope Medium, 20px]
+      - TEXT "The Valhalla's powertrain is a "masterclass" in combining in", 1256x403px, constraints left/top, fill #888E9A, text [Manrope Regular, 17px]
+  - FRAME "clip-container", 100x38px, constraints center/center, radius 9999px, fill #00000001, effect [glass]
+    - TEXT "Back", 39x12px, constraints left/center, fill #FFFFFF, text [Manrope Medium, 17px]
+    - INSTANCE "material-symbols:arrow-back-ios-new-rounded", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 6.97x12.64px, constraints scale/scale, fill #FEFEFE
+  - FRAME "clip-container", 140x38px, constraints right/center, radius 9999px, fill gradient_linear(#003C38 0% | #00CBBF 100%), effect [glass]
+    - TEXT "Edit Details", 91x12px, constraints center/center, fill #FFFFFF, text [Manrope Medium, 17px]
+    - COMPONENT "material-symbols:edit-outline-rounded", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FEFEFE
+
+Screen: Ui / aston-martin-logo-white-emblem-vector 2
+- RECTANGLE "aston-martin-logo-white-emblem-vector 2", 16x4px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+
+Screen: Ui / Frame 19
+- FRAME "Frame 19", 470x300px, constraints left/top
+  - RECTANGLE "Rectangle 34624688", 470x300px, constraints center/top, radius 28px, fill image(hash: 86c84efb36b82c9eb79e6d626f106aa1d5670428)
+
+Screen: Ui / Frame 20
+- FRAME "Frame 20", 470x300px, constraints left/top
+  - RECTANGLE "Rectangle 34624688", 470x300px, constraints center/top, radius 28px, fill image(hash: c056d86f707f1dba2619d8b4f0ef9f6b70f41aa9)
+
+Screen: Ui / aston martin car info
+- FRAME "aston martin car info", 402x874px, constraints left/top, fill #080808
+  - FRAME "Frame 2", 370x60px, constraints left/top, radius 10px, fill #18181866, effect Glass Effect
+    - FRAME "clip-container", 44x44px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+      - COMPONENT "qlementine-icons:menu-dots-16", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 3x15px, constraints scale/scale, fill #E7EFEE
+    - FRAME "clip-container", 54x54px, constraints left/top, radius 9999px, fill #00000001, effect Glass Effect
+    - FRAME "clip-container", 44x44px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+    - INSTANCE "mingcute:notification-fill", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 17.88x21.81px, constraints scale/scale
+        - VECTOR "Vector", 0.84x0.67px, constraints scale/scale
+        - VECTOR "Vector", 17.88x19px, constraints scale/scale, fill #E7EFEE
+    - INSTANCE "mingcute:notification-fill", 30x30px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 22.35x27.27px, constraints scale/scale
+        - VECTOR "Vector", 1.04x0.84px, constraints scale/scale
+        - VECTOR "Vector", 22.35x23.75px, constraints scale/scale, fill #E7EFEE
+    - FRAME "clip-container", 44x44px, constraints left/top, radius 9999px, fill #00000001, effect [glass]
+    - INSTANCE "mynaui:message-dots-solid", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 21.5x19.5px, constraints scale/scale, fill #E7EFEE
+    - ELLIPSE "Ellipse 4", 6x6px, constraints left/top, fill #BB0103
+    - TEXT "Jenny Wilson Admin", 101x28px, constraints left/top, fill #E7EFEE, text [Manrope SemiBold, 20px]
+  - INSTANCE "Status bar", 402x62px, horizontal pad 21 16 19 16px gap 154px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Time", 108x22px, horizontal pad 2 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Time", 37x22px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 17px]
+    - FRAME "Levels", 108x22px, horizontal pad 1 0 0 0px gap 7px align center/center sizing W:fill H:fixed, constraints left/top [decorative, ~5 shapes]
+  - FRAME "Frame 3", 370x412px, constraints left/top, radius 26px, fill #18181866, effect Glass Effect
+    - RECTANGLE "aston-martin-logo-white-emblem-vector 2", 80x21px, constraints left/top, fill image(hash: faf817626deaffdaf3c56e42ef925d5c19c310e0)
+    - TEXT "Mastery. Driven. Valhalla", 102x33px, constraints left/top, fill #E7EFEE, text [Manrope Bold, 20px]
+    - TEXT "Asking Price", 75x9px, constraints left/top, fill #818793, text [Manrope Medium, 13px]
+    - TEXT "$2,56,086.32", 101x12px, constraints left/top, fill #E7EFEE, text [Manrope SemiBold, 16px]
+    - FRAME "clip-container", 100x70px, constraints center/center, radius 10.41px, fill #00000001, effect [glass]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,147 @@
+---
+name: stockx-app-community
+source_file: STOCKx App (Community)
+source_page: All pages (2): Page 1, Page 2
+generated_at: 2026-07-25T09:25:37.517970+00:00
+---
+
+# STOCKx App (Community) Design Guidelines
+
+## Source
+- Figma file: STOCKx App (Community)
+- Figma page: All pages (2): Page 1, Page 2
+- Extracted at: 2026-07-25T09:25:37.517970+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 25 uses
+- #FFFFFF: 14 uses
+- #5156D8: 7 uses
+- #F1F1F1: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Medium, 20px: 8 uses
+- Roboto Regular, 20px: 5 uses
+- Roboto Medium, 18px: 4 uses
+- Roboto Medium, 25px: 3 uses
+
+## Typography Hierarchy
+- 25px - Roboto Medium, 25px (raw)
+- 20px - Roboto Medium, 20px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 18px - Roboto Medium, 18px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / iPhone 11 Pro / X - 1
+- FRAME "iPhone 11 Pro / X - 1", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 118x76px, constraints left/top, radius 15px, fill #5156D8
+  - RECTANGLE "Rectangle 2", 118x76px, constraints left/top, radius 15px, fill #F1F1F1
+  - TEXT "Trending", 80x23px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - TEXT "Profit", 50x23px, constraints left/top, fill #C2C2C2, text [Roboto Medium, 20px]
+  - TEXT "+ $13.6", 68x23px, constraints left/top, fill #2FA33B, text [Roboto Medium, 20px]
+  - TEXT "$839.2", 62x23px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 20px]
+  - TEXT "0.020 BTC", 93x23px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+  - TEXT "TUE", 33x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - TEXT "WED", 38x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - TEXT "$839.2", 57x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - TEXT "THR", 36x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - TEXT "Total Amount", 121x23px, constraints left/top, fill #C2C2C2, text [Roboto Medium, 20px]
+  - RECTANGLE "Menu", 24x31px, constraints left/top, fill image(hash: 8cb856af04c1683cd9d9bc0aa1b2867318c54688)
+  - RECTANGLE "Search", 32x26px, constraints left/top, fill image(hash: 4b9d1b626cbadfee20369c8091fd20b6b336a8c1)
+  - RECTANGLE "Rectangle 3", 109x38px, constraints left/top, radius 15px, fill #F1F1F1
+  - TEXT "NEXT >", 49x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+  - TEXT "TODAY", 160x59px, constraints left/top, fill #EBEBEB, text [Roboto Black, 50px], [heading]
+  - TEXT "____", 36x23px, constraints left/top, fill #000000, text [Roboto Black, 20px]
+  - VECTOR "Vector 1", 364x95.5px, constraints left/top, stroke #5156D8 5px
+  - TEXT "Your Investments", 157x23px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - RECTANGLE "Rectangle 4", 38x38px, constraints left/top, radius 10px, fill #F1F1F1
+  - RECTANGLE "Plus Math", 24x27px, constraints left/top, fill image(hash: cb91a0b328af160f50d38ec40104b4000743a893)
+  - RECTANGLE "Rectangle 5", 310x86px, constraints left/top, radius 15px, fill #F2F2F2
+  - VECTOR "Vector 2", 0x53.5px, constraints left/top, stroke #5156D8 3px
+  - TEXT "BTC", 38x23px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - ... +6 more children
+
+Screen: Page 1 / iPhone 11 Pro / X - 2
+- FRAME "iPhone 11 Pro / X - 2", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "You have recieved an OTP on your mobile number", 328x58px, constraints left/top, fill #000000, text [Roboto Regular, 25px], [heading]
+  - TEXT "Verifying", 80x23px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - RECTANGLE "Rectangle 8", 75x75px, constraints left/top, radius 10px, fill #000000
+  - RECTANGLE "Rectangle 9", 75x75px, constraints left/top, radius 10px, fill #000000
+  - RECTANGLE "Rectangle 11", 75x75px, constraints left/top, radius 10px, fill #000000
+  - RECTANGLE "Rectangle 13", 75x75px, constraints left/top, radius 10px, fill #000000
+  - RECTANGLE "Rectangle 7", 68x68px, constraints left/top, radius 10px, fill #FFFFFF
+  - RECTANGLE "Rectangle 10", 68x68px, constraints left/top, radius 10px, fill #FFFFFF
+  - RECTANGLE "Rectangle 12", 68x68px, constraints left/top, radius 10px, fill #FFFFFF
+  - RECTANGLE "Rectangle 14", 68x68px, constraints left/top, radius 10px, fill #FFFFFF
+  - VECTOR "Vector 3", 36.5x0px, constraints left/top, stroke #000000 3px
+  - VECTOR "Vector 4", 36.5x0px, constraints left/top, stroke #000000 3px
+  - VECTOR "Vector 5", 36.5x0px, constraints left/top, stroke #000000 3px
+  - VECTOR "Vector 6", 36.5x0px, constraints left/top, stroke #000000 3px
+  - TEXT "One-Time-Password", 229x29px, constraints left/top, fill #5156D8, text [Roboto Medium, 25px], [heading]
+  - RECTANGLE "Rectangle 15", 123x40px, constraints left/top, radius 10px, fill #5156D8
+  - TEXT "SUBMIT", 92x29px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 25px], [heading]
+
+Screen: Page 1 / iPhone 11 Pro / X - 3
+- FRAME "iPhone 11 Pro / X - 3", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "Enter Your Mobile No", 235x29px, constraints left/top, fill #000000, text [Roboto Regular, 25px], [heading]
+  - RECTANGLE "Rectangle 16", 264x49px, constraints left/top, radius 10px, fill #F2F2F2
+  - TEXT "+82", 34x23px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+  - TEXT "Register", 75x23px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - RECTANGLE "Rectangle 16", 123x40px, constraints left/top, radius 10px, fill #5156D8
+  - TEXT "SUBMIT", 92x29px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 25px], [heading]
+
+Screen: Page 1 / Rectangle 17
+- RECTANGLE "Rectangle 17", 1525x1054px, constraints left/top, fill gradient_linear(#FF0000 0% | #0038FF 100%)
+
+Screen: Page 1 / Rectangle
+- RECTANGLE "Rectangle", 735x769px, constraints left/top, fill image(hash: 8c8eccbe5b7d7211c26dcf890b0518fd1017aba3)
+
+Screen: Page 1 / Rectangle
+- RECTANGLE "Rectangle", 735x769px, constraints left/top, fill image(hash: 96725623df29c0d8157d428a556572ccd11104ad)
+
+Screen: Page 1 / Rectangle
+- RECTANGLE "Rectangle", 735x769px, constraints left/top, fill image(hash: 18770d233c09a618fb701f453abed1b4bd99ae6a)
+
+Screen: Page 1 / ALL NEW STOCKx APP
+- TEXT "ALL NEW STOCKx APP", 498x56px, constraints left/top, fill #FFFFFF, text [Roboto Black, 48px], [heading]
+
+Screen: Page 1 / COMING SOON
+- TEXT "COMING SOON", 241x41px, constraints left/top, fill #FFFFFF, text [Roboto Black, 35px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

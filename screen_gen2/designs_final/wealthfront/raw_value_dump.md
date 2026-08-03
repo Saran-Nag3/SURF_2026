@@ -1,0 +1,930 @@
+---
+name: wealthfront-advanced-ui-ux-design-community
+source_file: WealthFront Advanced UI & UX Design (Community)
+source_page: WealthFront Wireframe
+generated_at: 2026-07-25T09:55:50.610452+00:00
+---
+
+# WealthFront Advanced UI & UX Design (Community) Design Guidelines
+
+## Source
+- Figma file: WealthFront Advanced UI & UX Design (Community)
+- Figma page: WealthFront Wireframe
+- Extracted at: 2026-07-25T09:55:50.610452+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White: [#FFFFFF]
+- Blue/700: [#1D4ED8]
+- Main/Linear: [#3A6FF8]
+- Background Color/1: none
+- Text/10: [#9E9E9E]
+- Text/100: [#FFFFFF]
+- Stroke: [#E4E4E4]
+- Secondary/100: [#FFC01E]
+- Background Color/2: [#1B2028]
+- Sec/100: [#F46D22]
+- White: none
+- Secondary/100: [#1ECB4F]
+- Main/100: none
+
+## Raw Colors (unstyled)
+- #FFFFFF: 304 uses
+- #000000: 106 uses
+- #E31937: 20 uses
+- #002868: 18 uses
+- #BF0A30: 18 uses
+- #FF0000: 16 uses
+- #1ECB4F: 14 uses
+- #1B2028: 12 uses
+- #3A6FF8: 12 uses
+- #66DC43: 12 uses
+- #DADADA: 10 uses
+- #00FF47: 8 uses
+- #E30A17: 8 uses
+- #D9D9D9: 6 uses
+- #001489: 4 uses
+- #003399: 4 uses
+- #004990: 4 uses
+- #007749: 4 uses
+- #2A385B: 4 uses
+- #3A6FF803: 4 uses
+- #606060: 4 uses
+- #E03C31: 4 uses
+- #E52E2E: 4 uses
+- #FFB81C: 4 uses
+- #FFCC00: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Poppins Regular, 12px: 80 uses
+- Poppins Regular, 14px: 60 uses
+- Poppins Medium, 14px: 32 uses
+- Poppins Medium, 10px: 20 uses
+- Poppins SemiBold, 21px: 16 uses
+- Poppins SemiBold, 14px: 12 uses
+- Poppins Medium, 12px: 10 uses
+- Poppins SemiBold, 16px: 8 uses
+- Poppins SemiBold, 10px: 6 uses
+- Inter SemiBold, 16px: 4 uses
+- Inter SemiBold, 20px: 4 uses
+- Poppins Regular, 18px: 4 uses
+- Poppins SemiBold, 18px: 4 uses
+- Poppins SemiBold, 32px: 4 uses
+
+## Typography Hierarchy
+- 32px - Poppins SemiBold, 32px (raw)
+- 21px - Poppins SemiBold, 21px (raw)
+- 20px - Inter SemiBold, 20px (raw)
+- 18px - Poppins Regular, 18px (raw)
+- 18px - Poppins SemiBold, 18px (raw)
+- 16px - Inter SemiBold, 16px (raw)
+- 16px - Poppins SemiBold, 16px (raw)
+- 14px - Poppins Medium, 14px (raw)
+- 14px - Poppins Regular, 14px (raw)
+- 14px - Poppins SemiBold, 14px (raw)
+- 12px - Poppins Medium, 12px (raw)
+- 12px - Poppins Regular, 12px (raw)
+- 10px - Poppins Medium, 10px (raw)
+- 10px - Poppins SemiBold, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Main/Linear: 316 uses
+- Text/10: 164 uses
+- Text/100: 88 uses
+- Background Color/1: 47 uses
+- Secondary/100: 44 uses
+- Background Color/2: 26 uses
+- Stroke: 18 uses
+- White: 16 uses
+- Main/100: 8 uses
+- Sec/100: 8 uses
+- Blue/700: 4 uses
+
+## Layout & Structure
+Screen: WealthFront Wireframe / Overview Navy Blue
+- FRAME "Overview Navy Blue", 1440x1024px, constraints left/top, radius 10px, fill #2A385B
+  - FRAME "Sidebar", 256x1024px, constraints left/top, fill Background Color/2
+    - RECTANGLE "Nav Bg", 256x1234px, constraints left/top, fill #12346A
+    - RECTANGLE "Nav Selection button", 197x50px, constraints left/top, radius 10px, fill #3A6FF8, effect [drop_shadow 32px offset 4 4 #675AFF12]
+    - RECTANGLE "Nav Selection button", 197x50px, constraints left/top, radius 10px, fill #3A6FF803, effect [drop_shadow 32px offset 4 4 #675AFF12]
+    - GROUP "Top Menu", 166x352px, constraints left/top
+      - FRAME "General", 166x352px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "overview", 166x32px, horizontal pad 0 11 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/element-3", 24x24px, constraints left/top [decorative, ~5 shapes]
+          - TEXT "Overview", 67x21px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 14px]
+        - FRAME "Transactions", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/wallet-2", 24x24px, constraints left/top [decorative, ~4 shapes]
+          - TEXT "Transactions", 91x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Chart", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/graph", 24x24px, constraints left/top
+            - VECTOR "Vector", 10.89x10.89px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 19.51x19.49px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - TEXT "Chart", 40x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Wallet", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/wallet-minus", 24x24px, constraints left/top [decorative, ~7 shapes]
+          - TEXT "Wallet", 44x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "News", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/message-text", 24x24px, constraints left/top [decorative, ~4 shapes]
+          - TEXT "News", 38x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Mail box", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/sms", 24x24px, constraints left/top
+            - VECTOR "Vector", 21.5x18.5px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 11.5x4.63px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - TEXT "Mail Box", 57x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - FRAME "settings", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Icon/setting-2", 24x24px, constraints left/top
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 21.52x20.38px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+      - TEXT "Setting", 49x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - FRAME "Logout", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Icon/logout", 24x24px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Logout", 48x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Footer Section", 1185x49px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 726", 1185x49px, constraints left/top, radius 0/0/10/10px, fill #2A385B, stroke #606060 1px
+      - FRAME "Footer Section", 985x21px, horizontal pad 0 0 0 0px gap 50px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Support", 56x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+        - TEXT "T & C's", 137x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+        - TEXT "Disclaimer", 74x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+    - RECTANGLE "WealthFront Logo10 1", 213x169px, constraints left/top, fill image(hash: 636f8d03aa547bb4df0ea141604e0a7feb8c0b26)
+  - FRAME "Dashboard header", 1185x65px, constraints left/top
+    - RECTANGLE "Rectangle 722", 1185x100px, constraints left/top, fill #31353F
+    - TEXT "Dashboard", 182x48px, constraints left/top, fill Text/100, text [Poppins SemiBold, 32px], [heading]
+    - FRAME "Search bar", 450x44px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 197", 450x44px, constraints left/top, radius 8px, fill Background Color/2
+      - GROUP "Icon/search-normal", 24x24px, constraints left/top
+        - VECTOR "Vector", 20.5x20.5px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 3.5x3.5px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill Text/10, opacity 0%
+      - TEXT "Search...", 58x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+    - GROUP "Notifications", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+    - FRAME "User Profile", 165x44px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Photo", 44x44px, constraints left_right/top_bottom, radius 10px, fill Text/10
+      - TEXT "John Doe", 67x21px, constraints left/top, fill Text/100, text [Poppins Medium, 14px]
+      - GROUP "Icon/arrow-down", 24x24px, constraints left/top
+        - VECTOR "Vector", 8.55x5.03px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+  - TEXT "Watch List Heading", 111x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+  - FRAME "USDZAR CARD", 258x178px, constraints left/top
+    - RECTANGLE "Rectangle 549", 258x178px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Icon/arrow-up", 18x18px, constraints left/top
+      - VECTOR "Vector", 10.5x5.73px, constraints scale/scale, fill Secondary/100
+      - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "+0.25%", 53x23px, constraints left/top, fill Secondary/100, text [Poppins SemiBold, 14px]
+    - TEXT "Amount", 142x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - TEXT "text", 64x24px, constraints left/top, fill Text/100, text [Poppins SemiBold, 16px]
+    - TEXT "text", 22x18px, constraints left/top, fill Text/100, text [Poppins Regular, 12px], opacity 60%
+    - GROUP "icon", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~24 shapes]
+    - GROUP "graph", 111x46.5px, constraints left/top
+      - ELLIPSE "Ellipse 69", 10x10px, constraints left/top, fill Main/100, effect [layer_blur 5px]
+      - VECTOR "Vector 10", 107x46.5px, constraints left/top, stroke Main/100 2px
+    - VECTOR "Vector", 13.01x10.86px, constraints scale/scale, stroke #1ECB4F 2px
+  - FRAME "USDCAD", 258x178px, constraints left/top
+    - RECTANGLE "Rectangle 549", 258x178px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Icon/arrow-up", 18x18px, constraints left/top
+      - VECTOR "Vector", 10.5x5.73px, constraints scale/scale, fill Secondary/100
+      - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "+0.25%", 53x23px, constraints left/top, fill Secondary/100, text [Poppins SemiBold, 14px]
+    - TEXT "Amount", 142x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - TEXT "text", 68x24px, constraints left/top, fill Text/100, text [Poppins SemiBold, 16px]
+    - TEXT "text", 26x18px, constraints left/top, fill Text/100, text [Poppins Regular, 12px], opacity 60%
+    - RECTANGLE "icon", 44x44px, constraints left/top, radius 10px, fill Background Color/1
+    - GROUP "graph", 111x46.5px, constraints left/top
+      - ELLIPSE "Ellipse 69", 10x10px, constraints left/top, fill Main/Linear, effect [layer_blur 5px]
+      - VECTOR "Vector 10", 107x46.5px, constraints left/top, stroke Main/Linear 2px
+    - FRAME "USDCAD 1", 33x20px, constraints left/top, fill #FFFFFF [decorative, ~16 shapes]
+    - VECTOR "Vector", 13.01x10.86px, constraints scale/scale, stroke #1ECB4F 2px
+  - FRAME "EURUSD CARD", 258x178px, constraints left/top
+    - RECTANGLE "Rectangle 549", 258x178px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Icon/arrow-up", 18x18px, constraints left/top
+      - VECTOR "Vector", 10.5x5.73px, constraints scale/scale, fill Secondary/100
+      - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "+0.25%", 53x23px, constraints left/top, fill Secondary/100, text [Poppins SemiBold, 14px]
+    - TEXT "Amount", 142x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - TEXT "text", 63x24px, constraints left/top, fill Text/100, text [Poppins SemiBold, 16px]
+    - TEXT "text", 24x18px, constraints left/top, fill Text/100, text [Poppins Regular, 12px], opacity 60%
+    - GROUP "icon", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~14 shapes]
+    - GROUP "graph", 111x46.5px, constraints left/top
+      - ELLIPSE "Ellipse 69", 10x10px, constraints left/top, fill Main/100, effect [layer_blur 5px]
+      - VECTOR "Vector 10", 107x46.5px, constraints left/top, stroke Main/100 2px
+    - VECTOR "Vector", 13.01x10.86px, constraints scale/scale, stroke #1ECB4F 2px
+  - FRAME "NZDUSD CARD", 258x178px, constraints left/top
+    - RECTANGLE "Rectangle 549", 258x178px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+      - VECTOR "Vector", 10.5x5.73px, constraints scale/scale, fill Sec/100
+      - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "-0.25%", 51x23px, constraints left/top, fill Sec/100, text [Poppins SemiBold, 14px]
+    - TEXT "Amount", 142x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - TEXT "text", 65x24px, constraints left/top, fill Text/100, text [Poppins SemiBold, 16px]
+    - TEXT "text", 24x18px, constraints left/top, fill Text/100, text [Poppins Regular, 12px], opacity 60%
+    - GROUP "icon", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~19 shapes]
+    - GROUP "graph", 111x46.5px, constraints left/top
+      - ELLIPSE "Ellipse 69", 10x10px, constraints left/top, fill Secondary/100, effect [layer_blur 5px]
+      - VECTOR "Vector 10", 107x46.5px, constraints left/top, stroke Secondary/100 2px
+    - VECTOR "Vector", 13.01x10.86px, constraints scale/scale, stroke #1ECB4F 2px
+  - FRAME "Chart", 1124x441px, constraints left/top
+    - RECTANGLE "Rectangle 496", 1123x441px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Graphs", 977.43x188px, constraints left/top
+      - VECTOR "Vector 11", 977.43x135.5px, constraints left/top, stroke Main/Linear 2px
+      - VECTOR "Vector 12", 977.43x188px, constraints left/top, fill Main/Linear, opacity 2%
+    - FRAME "Currency Pair", 88x21px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "USD/ZAR", 60x21px, constraints left/top, fill Stroke, text [Poppins Regular, 14px], opacity 60%
+      - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+        - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+        - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "$48.032,32", 96x27px, constraints left/top, fill Stroke, text [Poppins SemiBold, 18px]
+    - TEXT "Chart Heading", 61x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - FRAME "1 Hour chart", 985x16px, horizontal pad 0 0 0 0px gap 88px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 32x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 30x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 26x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 29x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 29x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - GROUP "Amount", 72.17x222px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - LINE "Line 19", 985x0px, constraints left/top, fill #D9D9D9, stroke Background Color/1 1px
+    - FRAME "pagination", 250x22px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "panigation", 40x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill Main/Linear
+        - TEXT "1h", 10x22px, constraints left/top, fill Stroke, text [Poppins Medium, 10px]
+      - FRAME "panigation", 43x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "3h", 13x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 41x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1d", 11x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 42x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1w", 12x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 44x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1m", 14x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+    - FRAME "Currency", 87x32px, horizontal pad 5 5 5 5px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px
+      - GROUP "Icon/dollar-circle", 18x18px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "USD", 21x22px, constraints left/top, fill Stroke, text [Poppins SemiBold, 10px], opacity 60%
+      - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+        - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+        - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - FRAME "Chart settings", 32x32px, horizontal pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px [decorative, ~7 shapes]
+    - FRAME "Bars", 977x32px, horizontal pad 0 0 0 0px gap 5px align min/max sizing W:fixed H:fixed, constraints left/top, opacity 10% [decorative, ~75 shapes]
+  - FRAME "My Portfolio", 1122x201px, constraints left/top
+    - RECTANGLE "Rectangle 725", 738x201px, constraints left/top, radius 15px, fill Background Color/2
+    - LINE "Line 19", 611x0px, constraints left/top, fill #D9D9D9, stroke Background Color/1 1px
+    - FRAME "View More Button", 73x32px, horizontal pad 5 10 5 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px
+      - TEXT "View More", 53x22px, constraints left/top, fill Stroke, text [Poppins SemiBold, 10px], opacity 60%
+    - GROUP "row", 684x32px, constraints left/top, radius 0/0/0/0px
+      - TEXT "value", 67x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - TEXT "value", 31x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - TEXT "date", 61x24px, constraints left/top, fill Secondary/100, text [Poppins Medium, 14px], opacity 80%
+      - TEXT "date", 104x21px, constraints left/top, fill Text/100, text [Poppins Medium, 14px], opacity 80%
+      - TEXT "value", 80x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - GROUP "Icon/more", 24x24px, constraints left/top [decorative, ~4 shapes]
+      - FRAME "button", 32x32px, horizontal pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px [decorative, ~7 shapes]
+    - GROUP "row", 684x32px, constraints left/top, radius 0/0/0/0px
+      - TEXT "value", 66x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - TEXT "value", 73x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - TEXT "date", 61x24px, constraints left/top, fill Secondary/100, text [Poppins Medium, 14px], opacity 80%
+      - TEXT "date", 104x21px, constraints left/top, fill Text/100, text [Poppins Medium, 14px], opacity 80%
+      - TEXT "value", 80x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - GROUP "Icon/more", 24x24px, constraints left/top [decorative, ~4 shapes]
+      - FRAME "button", 32x32px, horizontal pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px [decorative, ~4 shapes]
+    - TEXT "My Portfolio Heading", 126x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - GROUP "1st table heading", 635.42x18px, constraints left/top
+      - TEXT "text", 29x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 70x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 63x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 49x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 58x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+    - GROUP "2nd table heading", 638.42x18px, constraints left/top
+      - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+      - TEXT "text", 108x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 70x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 63x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 49x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 58x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - FRAME "Withdraw Button", 365x78px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+      - GROUP "Group 1", 25x22.28px, constraints left/top
+        - RECTANGLE "withdrawal 2", 25x18.1px, constraints left/top, fill image(hash: 12649393f6427e57fae2ea2547f69baa6103d963)
+        - REGULAR_POLYGON "Polygon 1", 9.56x9.56px, constraints left/top, fill #000000
+      - TEXT "Text", 95x30px, constraints left/top, fill White, text [Inter SemiBold, 20px]
+    - FRAME "Deposit Button", 365x78px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3A6FF8
+      - GROUP "Group 1", 25x18.1px, constraints left/top
+        - RECTANGLE "withdrawal 2", 25x18.1px, constraints left/top, fill image(hash: 12649393f6427e57fae2ea2547f69baa6103d963)
+        - REGULAR_POLYGON "Polygon 1", 7x7px, constraints left/top, fill #000000
+      - TEXT "Text", 75x30px, constraints left/top, fill White, text [Inter SemiBold, 20px]
+
+Screen: WealthFront Wireframe / Transactions Navy Blue
+- FRAME "Transactions Navy Blue", 1440x1024px, constraints left/top, radius 10px, fill #2A385B
+  - FRAME "Nav Sidebar", 256x1024px, constraints left/top, fill Background Color/2
+    - RECTANGLE "Nav Bg", 256x1234px, constraints left/top, fill #12346A
+    - RECTANGLE "Nav Selection Highlight", 197x50px, constraints left/top, radius 10px, fill #3A6FF8, effect [drop_shadow 32px offset 4 4 #675AFF12]
+    - RECTANGLE "Nav Selection Highlight", 197x50px, constraints left/top, radius 10px, fill #3A6FF803, effect [drop_shadow 32px offset 4 4 #675AFF12]
+    - GROUP "Top Menu", 166x352px, constraints left/top
+      - FRAME "General", 166x352px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Overview", 166x32px, horizontal pad 0 11 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/element-3", 24x24px, constraints left/top [decorative, ~5 shapes]
+          - TEXT "Overview", 67x21px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 14px]
+        - FRAME "Transactions", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/wallet-2", 24x24px, constraints left/top [decorative, ~4 shapes]
+          - TEXT "Transactions", 91x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Chart", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/graph", 24x24px, constraints left/top
+            - VECTOR "Vector", 10.89x10.89px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 19.51x19.49px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - TEXT "Chart", 40x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Wallet", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/wallet-minus", 24x24px, constraints left/top [decorative, ~7 shapes]
+          - TEXT "Wallet", 44x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "News", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/message-text", 24x24px, constraints left/top [decorative, ~4 shapes]
+          - TEXT "News", 38x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Mail Box", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/sms", 24x24px, constraints left/top
+            - VECTOR "Vector", 21.5x18.5px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 11.5x4.63px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - TEXT "Mail Box", 57x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - FRAME "Settings", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Icon/setting-2", 24x24px, constraints left/top
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 21.52x20.38px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+      - TEXT "Setting", 49x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - FRAME "Logout", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Icon/logout", 24x24px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Logout", 48x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Footer Section", 1185x49px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Footer Bar", 1185x49px, constraints left/top, radius 0/0/10/10px, fill #2A385B, stroke #606060 1px
+      - FRAME "Links to T & C's", 985x21px, horizontal pad 0 0 0 0px gap 50px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Support", 56x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+        - TEXT "T & C's", 137x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+        - TEXT "Disclamer", 74x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+    - RECTANGLE "WealthFront Logo10 1", 213x169px, constraints left/top, fill image(hash: 636f8d03aa547bb4df0ea141604e0a7feb8c0b26)
+  - FRAME "header", 1185x65px, constraints left/top
+    - RECTANGLE "Rectangle 722", 1185x100px, constraints left/top, fill #31353F
+    - TEXT "Transactions", 213x48px, constraints left/top, fill Text/100, text [Poppins SemiBold, 32px], [heading]
+    - FRAME "Search bar", 450x44px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 197", 450x44px, constraints left/top, radius 8px, fill Background Color/2
+      - GROUP "Icon/search-normal", 24x24px, constraints left/top
+        - VECTOR "Vector", 20.5x20.5px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 3.5x3.5px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill Text/10, opacity 0%
+      - TEXT "Search...", 58x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+    - GROUP "icon", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+    - FRAME "User Profile", 165x44px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Photo", 44x44px, constraints left_right/top_bottom, radius 10px, fill Text/10
+      - TEXT "John Doe", 67x21px, constraints left/top, fill Text/100, text [Poppins Medium, 14px]
+      - GROUP "Icon/arrow-down", 24x24px, constraints left/top
+        - VECTOR "Vector", 8.55x5.03px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+  - GROUP "Investments", 1124x854px, constraints left/top, radius 0/0/0/0px
+    - GROUP "NZDUSD", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - GROUP "Group 1756", 1090.09x47.78px, constraints scale/scale
+        - FRAME "nzdusd 1", 68x42px, constraints scale/scale, fill #FFFFFF [decorative, ~18 shapes]
+        - GROUP "Group 1757", 112.85x24px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "Airbnb", 112.85x24px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 1754", 192.38x23.89px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "$1,666,00", 84.73x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+          - TEXT "+12.78%", 60.34x20.48px, constraints scale/scale, fill #66DC43, text [Poppins Medium, 12px]
+        - GROUP "Group 21", 162.51x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 162.51x47.78px, constraints scale/scale, fill gradient_linear(#66DC43 0% | #66DC4300 100%)
+          - VECTOR "Vector 1", 161.03x29.34px, constraints scale/scale, stroke #66DC43 2px
+    - GROUP "USDRUB", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - FRAME "USDRUB", 68x42px, constraints scale/scale, fill #FFFFFF [decorative, ~24 shapes]
+      - GROUP "Group 1756", 1009.8x47.78px, constraints scale/scale
+        - GROUP "Group 1757", 81.25x24px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "USDRUB", 81.25x24px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 21", 162.51x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 162.51x47.78px, constraints scale/scale, fill gradient_linear(#66DC434D 0% | #66DC4300 100%)
+          - VECTOR "Vector 1", 162.51x25.23px, constraints scale/scale, stroke #66DC43 2px
+        - GROUP "Group 1754", 196.14x28.48px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "$3,786,00", 87.3x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+          - TEXT "+10.58%", 62.91x20.48px, constraints scale/scale, fill #66DC43, text [Poppins Medium, 12px]
+    - GROUP "USDCAD", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - FRAME "USDCAD", 68x42px, constraints scale/scale, fill #FFFFFF [decorative, ~16 shapes]
+      - GROUP "Group 1756", 1009.62x47.78px, constraints scale/scale
+        - GROUP "Group 1757", 98.18x24px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "USDCAD", 98.18x24px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 21", 162.51x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 162.51x47.78px, constraints scale/scale, fill gradient_linear(#3A6FF84D 0% | #3A6FF800 83%)
+          - VECTOR "Vector 1", 162.51x25.23px, constraints scale/scale, fill gradient_linear(#3A6FF84D 0% | #3A6FF800 83%), stroke #3A6FF8 2px
+        - GROUP "Group 1754", 191.44x27.48px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "$1,757,00", 80.88x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+          - TEXT "-5.72%", 52.64x20.48px, constraints scale/scale, fill #E52E2E, text [Poppins Medium, 12px]
+    - GROUP "USDZAR", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - GROUP "Group 1756", 1078.73x47.78px, constraints scale/scale
+        - GROUP "Group 1757", 168.25x42px, constraints scale/scale
+          - GROUP "Logo", 68x42px, constraints left/top, fill #FFFFFF [decorative, ~23 shapes]
+          - TEXT "USDZAR", 87.3x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 21", 164.28x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 164.28x47.78px, constraints scale/scale, fill gradient_linear(#439CDC 0% | #66DC4300 100%)
+          - VECTOR "Vector 1", 162.78x29.34px, constraints scale/scale, fill gradient_linear(#439CDC 0% | #66DC4300 100%), stroke #66DC43 2px
+        - GROUP "Group 1754", 214.59x24.48px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "+30.58%", 66.76x20.48px, constraints scale/scale, fill #66DC43, text [Poppins Medium, 12px]
+          - TEXT "$9,978,00", 87.3x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+    - GROUP "EURUSD", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - GROUP "Group 1756", 1083.29x49.78px, constraints scale/scale
+        - GROUP "Group 1757", 61.62x23.89px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "EURUSD", 61.62x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 21", 162.51x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 162.51x47.78px, constraints scale/scale, fill gradient_linear(#2E61E54D 0% | #3A6FF800 100%)
+          - VECTOR "Vector 1", 162.51x35.72px, constraints scale/scale, stroke #3A6FF8 2px
+        - GROUP "Group 1754", 213.51x23.89px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "-12.72%", 57.77x20.48px, constraints scale/scale, fill #E52E2E, text [Poppins Medium, 12px]
+          - TEXT "$8,553,00", 88.58x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Logo", 71x44px, constraints left/top, fill #FFFFFF [decorative, ~13 shapes]
+  - FRAME "Chart", 1124x498px, constraints left/top
+    - RECTANGLE "Rectangle 496", 1124x441px, constraints left/top, radius 0/0/15/15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Graphs", 977.43x188px, constraints left/top
+      - VECTOR "Vector 11", 977.43x135.5px, constraints left/top, stroke Main/Linear 2px
+      - VECTOR "Vector 12", 977.43x188px, constraints left/top, fill Main/Linear, opacity 2%
+    - FRAME "Currency Pair", 88x21px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "USD/ZAR", 60x21px, constraints left/top, fill Stroke, text [Poppins Regular, 14px], opacity 60%
+      - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+        - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+        - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "$48.032,32", 96x27px, constraints left/top, fill Stroke, text [Poppins SemiBold, 18px]
+    - TEXT "Chart Heading", 61x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - FRAME "1 Hour chart", 985x16px, horizontal pad 0 0 0 0px gap 88px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 32x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 30x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 26x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 29x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 29x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - GROUP "Amount", 72.17x222px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - LINE "Line 19", 985x0px, constraints left/top, fill #D9D9D9, stroke Background Color/1 1px
+    - VECTOR "Line 20", 1064x0px, constraints left/top, stroke Background Color/1 1px
+    - FRAME "pagination", 250x22px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "panigation", 40x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill Main/Linear
+        - TEXT "1h", 10x22px, constraints left/top, fill Stroke, text [Poppins Medium, 10px]
+      - FRAME "panigation", 43x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "3h", 13x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 41x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1d", 11x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 42x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1w", 12x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 44x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1m", 14x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+    - FRAME "Currency Settings", 87x32px, horizontal pad 5 5 5 5px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px
+      - GROUP "Icon/dollar-circle", 18x18px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "USD", 21x22px, constraints left/top, fill Stroke, text [Poppins SemiBold, 10px], opacity 60%
+      - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+        - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+        - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - FRAME "Chart Settings", 32x32px, horizontal pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px [decorative, ~7 shapes]
+    - FRAME "Bars", 977x32px, horizontal pad 0 0 0 0px gap 5px align min/max sizing W:fixed H:fixed, constraints left/top, opacity 10% [decorative, ~75 shapes]
+    - FRAME "Sell Button", 106x32px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+      - GROUP "Trend down 2", 18x18px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Text", 39x24px, constraints left/top, fill White, text [Inter SemiBold, 16px]
+    - FRAME "Buy Button", 106x32px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3A6FF8
+      - GROUP "Trend up 2", 18x18px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Text", 34x24px, constraints left/top, fill White, text [Inter SemiBold, 16px]
+
+Screen: WealthFront Wireframe / Overview Dark Blue
+- FRAME "Overview Dark Blue", 1440x1024px, constraints left/top, radius 10px, fill Background Color/1
+  - FRAME "Sidebar", 256x1024px, constraints left/top, fill Background Color/2
+    - RECTANGLE "Nav Bg", 256x1234px, constraints left/top, fill #1B2028
+    - RECTANGLE "Nav Selection button", 197x50px, constraints left/top, radius 10px, fill #3A6FF8, effect [drop_shadow 32px offset 4 4 #675AFF12]
+    - RECTANGLE "Nav Selection button", 197x50px, constraints left/top, radius 10px, fill #3A6FF803, effect [drop_shadow 32px offset 4 4 #675AFF12]
+    - GROUP "Top Menu", 166x352px, constraints left/top
+      - FRAME "General", 166x352px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "overview", 166x32px, horizontal pad 0 11 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/element-3", 24x24px, constraints left/top [decorative, ~5 shapes]
+          - TEXT "Overview", 67x21px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 14px]
+        - FRAME "Transactions", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/wallet-2", 24x24px, constraints left/top [decorative, ~4 shapes]
+          - TEXT "Transactions", 91x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Chart", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/graph", 24x24px, constraints left/top
+            - VECTOR "Vector", 10.89x10.89px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 19.51x19.49px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - TEXT "Chart", 40x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Wallet", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/wallet-minus", 24x24px, constraints left/top [decorative, ~7 shapes]
+          - TEXT "Wallet", 44x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "News", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/message-text", 24x24px, constraints left/top [decorative, ~4 shapes]
+          - TEXT "News", 38x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Mail box", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/sms", 24x24px, constraints left/top
+            - VECTOR "Vector", 21.5x18.5px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 11.5x4.63px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - TEXT "Mail Box", 57x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - FRAME "settings", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Icon/setting-2", 24x24px, constraints left/top
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 21.52x20.38px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+      - TEXT "Setting", 49x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - FRAME "Logout", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Icon/logout", 24x24px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Logout", 48x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Footer Section", 1185x49px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 726", 1185x49px, constraints left/top, radius 0/0/10/10px, fill #31353F, stroke #606060 1px
+      - FRAME "Footer Section", 985x21px, horizontal pad 0 0 0 0px gap 50px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Support", 56x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+        - TEXT "T & C's", 137x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+        - TEXT "Disclaimer", 74x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+    - RECTANGLE "WealthFront Logo10 1", 213x169px, constraints left/top, fill image(hash: 636f8d03aa547bb4df0ea141604e0a7feb8c0b26)
+  - FRAME "Dashboard header", 1185x65px, constraints left/top
+    - RECTANGLE "Rectangle 722", 1185x100px, constraints left/top, fill #31353F
+    - TEXT "Dashboard", 182x48px, constraints left/top, fill Text/100, text [Poppins SemiBold, 32px], [heading]
+    - FRAME "Search bar", 450x44px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 197", 450x44px, constraints left/top, radius 8px, fill Background Color/2
+      - GROUP "Icon/search-normal", 24x24px, constraints left/top
+        - VECTOR "Vector", 20.5x20.5px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 3.5x3.5px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill Text/10, opacity 0%
+      - TEXT "Search...", 58x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+    - GROUP "Notifications", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+    - FRAME "User Profile", 165x44px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Photo", 44x44px, constraints left_right/top_bottom, radius 10px, fill Text/10
+      - TEXT "John Doe", 67x21px, constraints left/top, fill Text/100, text [Poppins Medium, 14px]
+      - GROUP "Icon/arrow-down", 24x24px, constraints left/top
+        - VECTOR "Vector", 8.55x5.03px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+  - TEXT "Watch List Heading", 111x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+  - FRAME "USDZAR CARD", 258x178px, constraints left/top
+    - RECTANGLE "Rectangle 549", 258x178px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Icon/arrow-up", 18x18px, constraints left/top
+      - VECTOR "Vector", 10.5x5.73px, constraints scale/scale, fill Secondary/100
+      - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "+0.25%", 53x23px, constraints left/top, fill Secondary/100, text [Poppins SemiBold, 14px]
+    - TEXT "Amount", 142x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - TEXT "text", 64x24px, constraints left/top, fill Text/100, text [Poppins SemiBold, 16px]
+    - TEXT "text", 22x18px, constraints left/top, fill Text/100, text [Poppins Regular, 12px], opacity 60%
+    - GROUP "icon", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~24 shapes]
+    - GROUP "graph", 111x46.5px, constraints left/top
+      - ELLIPSE "Ellipse 69", 10x10px, constraints left/top, fill Main/100, effect [layer_blur 5px]
+      - VECTOR "Vector 10", 107x46.5px, constraints left/top, stroke Main/100 2px
+    - VECTOR "Vector", 13.01x10.86px, constraints scale/scale, stroke #1ECB4F 2px
+  - FRAME "USDCAD", 258x178px, constraints left/top
+    - RECTANGLE "Rectangle 549", 258x178px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Icon/arrow-up", 18x18px, constraints left/top
+      - VECTOR "Vector", 10.5x5.73px, constraints scale/scale, fill Secondary/100
+      - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "+0.25%", 53x23px, constraints left/top, fill Secondary/100, text [Poppins SemiBold, 14px]
+    - TEXT "Amount", 142x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - TEXT "text", 68x24px, constraints left/top, fill Text/100, text [Poppins SemiBold, 16px]
+    - TEXT "text", 26x18px, constraints left/top, fill Text/100, text [Poppins Regular, 12px], opacity 60%
+    - RECTANGLE "icon", 44x44px, constraints left/top, radius 10px, fill Background Color/1
+    - GROUP "graph", 111x46.5px, constraints left/top
+      - ELLIPSE "Ellipse 69", 10x10px, constraints left/top, fill Main/Linear, effect [layer_blur 5px]
+      - VECTOR "Vector 10", 107x46.5px, constraints left/top, stroke Main/Linear 2px
+    - FRAME "USDCAD 1", 33x20px, constraints left/top, fill #FFFFFF [decorative, ~16 shapes]
+    - VECTOR "Vector", 13.01x10.86px, constraints scale/scale, stroke #1ECB4F 2px
+  - FRAME "EURUSD CARD", 258x178px, constraints left/top
+    - RECTANGLE "Rectangle 549", 258x178px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Icon/arrow-up", 18x18px, constraints left/top
+      - VECTOR "Vector", 10.5x5.73px, constraints scale/scale, fill Secondary/100
+      - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "+0.25%", 53x23px, constraints left/top, fill Secondary/100, text [Poppins SemiBold, 14px]
+    - TEXT "Amount", 142x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - TEXT "text", 63x24px, constraints left/top, fill Text/100, text [Poppins SemiBold, 16px]
+    - TEXT "text", 24x18px, constraints left/top, fill Text/100, text [Poppins Regular, 12px], opacity 60%
+    - GROUP "icon", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~14 shapes]
+    - GROUP "graph", 111x46.5px, constraints left/top
+      - ELLIPSE "Ellipse 69", 10x10px, constraints left/top, fill Main/100, effect [layer_blur 5px]
+      - VECTOR "Vector 10", 107x46.5px, constraints left/top, stroke Main/100 2px
+    - VECTOR "Vector", 13.01x10.86px, constraints scale/scale, stroke #1ECB4F 2px
+  - FRAME "NZDUSD CARD", 258x178px, constraints left/top
+    - RECTANGLE "Rectangle 549", 258x178px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+      - VECTOR "Vector", 10.5x5.73px, constraints scale/scale, fill Sec/100
+      - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "-0.25%", 51x23px, constraints left/top, fill Sec/100, text [Poppins SemiBold, 14px]
+    - TEXT "Amount", 142x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - TEXT "text", 65x24px, constraints left/top, fill Text/100, text [Poppins SemiBold, 16px]
+    - TEXT "text", 24x18px, constraints left/top, fill Text/100, text [Poppins Regular, 12px], opacity 60%
+    - GROUP "icon", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~19 shapes]
+    - GROUP "graph", 111x46.5px, constraints left/top
+      - ELLIPSE "Ellipse 69", 10x10px, constraints left/top, fill Secondary/100, effect [layer_blur 5px]
+      - VECTOR "Vector 10", 107x46.5px, constraints left/top, stroke Secondary/100 2px
+    - VECTOR "Vector", 13.01x10.86px, constraints scale/scale, stroke #1ECB4F 2px
+  - FRAME "Chart", 1124x441px, constraints left/top
+    - RECTANGLE "Rectangle 496", 1123x441px, constraints left/top, radius 15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Graphs", 977.43x188px, constraints left/top
+      - VECTOR "Vector 11", 977.43x135.5px, constraints left/top, stroke Main/Linear 2px
+      - VECTOR "Vector 12", 977.43x188px, constraints left/top, fill Main/Linear, opacity 2%
+    - FRAME "Currency Pair", 88x21px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "USD/ZAR", 60x21px, constraints left/top, fill Stroke, text [Poppins Regular, 14px], opacity 60%
+      - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+        - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+        - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "$48.032,32", 96x27px, constraints left/top, fill Stroke, text [Poppins SemiBold, 18px]
+    - TEXT "Chart Heading", 61x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - FRAME "1 Hour chart", 985x16px, horizontal pad 0 0 0 0px gap 88px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 32x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 30x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 26x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 29x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 29x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - GROUP "Amount", 72.17x222px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - LINE "Line 19", 985x0px, constraints left/top, fill #D9D9D9, stroke Background Color/1 1px
+    - FRAME "pagination", 250x22px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "panigation", 40x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill Main/Linear
+        - TEXT "1h", 10x22px, constraints left/top, fill Stroke, text [Poppins Medium, 10px]
+      - FRAME "panigation", 43x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "3h", 13x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 41x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1d", 11x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 42x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1w", 12x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 44x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1m", 14x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+    - FRAME "Currency", 87x32px, horizontal pad 5 5 5 5px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px
+      - GROUP "Icon/dollar-circle", 18x18px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "USD", 21x22px, constraints left/top, fill Stroke, text [Poppins SemiBold, 10px], opacity 60%
+      - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+        - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+        - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - FRAME "Chart settings", 32x32px, horizontal pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px [decorative, ~7 shapes]
+    - FRAME "Bars", 977x32px, horizontal pad 0 0 0 0px gap 5px align min/max sizing W:fixed H:fixed, constraints left/top, opacity 10% [decorative, ~75 shapes]
+  - FRAME "My Portfolio", 1122x201px, constraints left/top
+    - RECTANGLE "Rectangle 725", 738x201px, constraints left/top, radius 15px, fill Background Color/2
+    - LINE "Line 19", 611x0px, constraints left/top, fill #D9D9D9, stroke Background Color/1 1px
+    - FRAME "View More Button", 73x32px, horizontal pad 5 10 5 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px
+      - TEXT "View More", 53x22px, constraints left/top, fill Stroke, text [Poppins SemiBold, 10px], opacity 60%
+    - GROUP "row", 684x32px, constraints left/top, radius 0/0/0/0px
+      - TEXT "value", 67x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - TEXT "value", 31x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - TEXT "date", 61x24px, constraints left/top, fill Secondary/100, text [Poppins Medium, 14px], opacity 80%
+      - TEXT "date", 104x21px, constraints left/top, fill Text/100, text [Poppins Medium, 14px], opacity 80%
+      - TEXT "value", 80x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - GROUP "Icon/more", 24x24px, constraints left/top [decorative, ~4 shapes]
+      - FRAME "button", 32x32px, horizontal pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px [decorative, ~7 shapes]
+    - GROUP "row", 684x32px, constraints left/top, radius 0/0/0/0px
+      - TEXT "value", 66x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - TEXT "value", 73x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - TEXT "date", 61x24px, constraints left/top, fill Secondary/100, text [Poppins Medium, 14px], opacity 80%
+      - TEXT "date", 104x21px, constraints left/top, fill Text/100, text [Poppins Medium, 14px], opacity 80%
+      - TEXT "value", 80x21px, constraints left/top, fill Text/100, text [Poppins Regular, 14px], opacity 80%
+      - GROUP "Icon/more", 24x24px, constraints left/top [decorative, ~4 shapes]
+      - FRAME "button", 32x32px, horizontal pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px [decorative, ~4 shapes]
+    - TEXT "My Portfolio Heading", 126x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - GROUP "1st table heading", 635.42x18px, constraints left/top
+      - TEXT "text", 29x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 70x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 63x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 49x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 58x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+    - GROUP "2nd table heading", 638.42x18px, constraints left/top
+      - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+      - TEXT "text", 108x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 70x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 63x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 49x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "text", 58x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - FRAME "Withdraw Button", 365x78px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+      - GROUP "Group 1", 25x22.28px, constraints left/top
+        - RECTANGLE "withdrawal 2", 25x18.1px, constraints left/top, fill image(hash: 12649393f6427e57fae2ea2547f69baa6103d963)
+        - REGULAR_POLYGON "Polygon 1", 9.56x9.56px, constraints left/top, fill #000000
+      - TEXT "Text", 95x30px, constraints left/top, fill White, text [Inter SemiBold, 20px]
+    - FRAME "Deposit Button", 365x78px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3A6FF8
+      - GROUP "Group 1", 25x18.1px, constraints left/top
+        - RECTANGLE "withdrawal 2", 25x18.1px, constraints left/top, fill image(hash: 12649393f6427e57fae2ea2547f69baa6103d963)
+        - REGULAR_POLYGON "Polygon 1", 7x7px, constraints left/top, fill #000000
+      - TEXT "Text", 75x30px, constraints left/top, fill White, text [Inter SemiBold, 20px]
+
+Screen: WealthFront Wireframe / Transactions Dark Blue
+- FRAME "Transactions Dark Blue", 1440x1024px, constraints left/top, radius 10px, fill #31353F
+  - FRAME "Nav Sidebar", 256x1024px, constraints left/top, fill Background Color/2
+    - RECTANGLE "Nav Bg", 256x1234px, constraints left/top, fill #1B2028
+    - RECTANGLE "Nav Selection Highlight", 197x50px, constraints left/top, radius 10px, fill #3A6FF8, effect [drop_shadow 32px offset 4 4 #675AFF12]
+    - RECTANGLE "Nav Selection Highlight", 197x50px, constraints left/top, radius 10px, fill #3A6FF803, effect [drop_shadow 32px offset 4 4 #675AFF12]
+    - GROUP "Top Menu", 166x352px, constraints left/top
+      - FRAME "General", 166x352px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Overview", 166x32px, horizontal pad 0 11 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/element-3", 24x24px, constraints left/top [decorative, ~5 shapes]
+          - TEXT "Overview", 67x21px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 14px]
+        - FRAME "Transactions", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/wallet-2", 24x24px, constraints left/top [decorative, ~4 shapes]
+          - TEXT "Transactions", 91x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Chart", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/graph", 24x24px, constraints left/top
+            - VECTOR "Vector", 10.89x10.89px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 19.51x19.49px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - TEXT "Chart", 40x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Wallet", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/wallet-minus", 24x24px, constraints left/top [decorative, ~7 shapes]
+          - TEXT "Wallet", 44x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "News", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/message-text", 24x24px, constraints left/top [decorative, ~4 shapes]
+          - TEXT "News", 38x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+        - FRAME "Mail Box", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Icon/sms", 24x24px, constraints left/top
+            - VECTOR "Vector", 21.5x18.5px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 11.5x4.63px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - TEXT "Mail Box", 57x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - FRAME "Settings", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Icon/setting-2", 24x24px, constraints left/top
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 21.52x20.38px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF, opacity 0%
+      - TEXT "Setting", 49x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - FRAME "Logout", 166x32px, horizontal pad 0 0 8 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Icon/logout", 24x24px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Logout", 48x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Footer Section", 1185x49px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Footer Bar", 1185x49px, constraints left/top, radius 0/0/10/10px, fill #31353F, stroke #606060 1px
+      - FRAME "Links to T & C's", 985x21px, horizontal pad 0 0 0 0px gap 50px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Support", 56x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+        - TEXT "T & C's", 137x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+        - TEXT "Disclamer", 74x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+    - RECTANGLE "WealthFront Logo10 1", 213x169px, constraints left/top, fill image(hash: 636f8d03aa547bb4df0ea141604e0a7feb8c0b26)
+  - FRAME "header", 1185x65px, constraints left/top
+    - RECTANGLE "Rectangle 722", 1185x100px, constraints left/top, fill #31353F
+    - TEXT "Transactions", 213x48px, constraints left/top, fill Text/100, text [Poppins SemiBold, 32px], [heading]
+    - FRAME "Search bar", 450x44px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 197", 450x44px, constraints left/top, radius 8px, fill Background Color/2
+      - GROUP "Icon/search-normal", 24x24px, constraints left/top
+        - VECTOR "Vector", 20.5x20.5px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 3.5x3.5px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill Text/10, opacity 0%
+      - TEXT "Search...", 58x21px, constraints left/top, fill Text/10, text [Poppins Regular, 14px]
+    - GROUP "icon", 44x44px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+    - FRAME "User Profile", 165x44px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Photo", 44x44px, constraints left_right/top_bottom, radius 10px, fill Text/10
+      - TEXT "John Doe", 67x21px, constraints left/top, fill Text/100, text [Poppins Medium, 14px]
+      - GROUP "Icon/arrow-down", 24x24px, constraints left/top
+        - VECTOR "Vector", 8.55x5.03px, constraints scale/scale, fill Text/10
+        - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+  - GROUP "Investments", 1124x854px, constraints left/top, radius 0/0/0/0px
+    - GROUP "NZDUSD", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - GROUP "Group 1756", 1090.09x47.78px, constraints scale/scale
+        - FRAME "nzdusd 1", 68x42px, constraints scale/scale, fill #FFFFFF [decorative, ~18 shapes]
+        - GROUP "Group 1757", 112.85x24px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "Airbnb", 112.85x24px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 1754", 192.38x23.89px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "$1,666,00", 84.73x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+          - TEXT "+12.78%", 60.34x20.48px, constraints scale/scale, fill #66DC43, text [Poppins Medium, 12px]
+        - GROUP "Group 21", 162.51x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 162.51x47.78px, constraints scale/scale, fill gradient_linear(#66DC43 0% | #66DC4300 100%)
+          - VECTOR "Vector 1", 161.03x29.34px, constraints scale/scale, stroke #66DC43 2px
+    - GROUP "USDRUB", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - FRAME "USDRUB", 68x42px, constraints scale/scale, fill #FFFFFF [decorative, ~24 shapes]
+      - GROUP "Group 1756", 1009.8x47.78px, constraints scale/scale
+        - GROUP "Group 1757", 81.25x24px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "USDRUB", 81.25x24px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 21", 162.51x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 162.51x47.78px, constraints scale/scale, fill gradient_linear(#66DC434D 0% | #66DC4300 100%)
+          - VECTOR "Vector 1", 162.51x25.23px, constraints scale/scale, stroke #66DC43 2px
+        - GROUP "Group 1754", 196.14x28.48px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "$3,786,00", 87.3x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+          - TEXT "+10.58%", 62.91x20.48px, constraints scale/scale, fill #66DC43, text [Poppins Medium, 12px]
+    - GROUP "USDCAD", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - FRAME "USDCAD", 68x42px, constraints scale/scale, fill #FFFFFF [decorative, ~16 shapes]
+      - GROUP "Group 1756", 1009.62x47.78px, constraints scale/scale
+        - GROUP "Group 1757", 98.18x24px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "USDCAD", 98.18x24px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 21", 162.51x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 162.51x47.78px, constraints scale/scale, fill gradient_linear(#3A6FF84D 0% | #3A6FF800 83%)
+          - VECTOR "Vector 1", 162.51x25.23px, constraints scale/scale, fill gradient_linear(#3A6FF84D 0% | #3A6FF800 83%), stroke #3A6FF8 2px
+        - GROUP "Group 1754", 191.44x27.48px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "$1,757,00", 80.88x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+          - TEXT "-5.72%", 52.64x20.48px, constraints scale/scale, fill #E52E2E, text [Poppins Medium, 12px]
+    - GROUP "USDZAR", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - GROUP "Group 1756", 1078.73x47.78px, constraints scale/scale
+        - GROUP "Group 1757", 168.25x42px, constraints scale/scale
+          - GROUP "Logo", 68x42px, constraints left/top, fill #FFFFFF [decorative, ~23 shapes]
+          - TEXT "USDZAR", 87.3x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 21", 164.28x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 164.28x47.78px, constraints scale/scale, fill gradient_linear(#439CDC 0% | #66DC4300 100%)
+          - VECTOR "Vector 1", 162.78x29.34px, constraints scale/scale, fill gradient_linear(#439CDC 0% | #66DC4300 100%), stroke #66DC43 2px
+        - GROUP "Group 1754", 214.59x24.48px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "+30.58%", 66.76x20.48px, constraints scale/scale, fill #66DC43, text [Poppins Medium, 12px]
+          - TEXT "$9,978,00", 87.3x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+    - GROUP "EURUSD", 1124x66px, constraints scale/scale, radius 0/0/0/0px, effect [drop_shadow 54px offset 10 24 #17204105]
+      - RECTANGLE "Rectangle 30", 1124x66px, constraints scale/scale, radius 10px, fill #1B2028
+      - GROUP "Group 1756", 1083.29x49.78px, constraints scale/scale
+        - GROUP "Group 1757", 61.62x23.89px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "EURUSD", 61.62x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Group 21", 162.51x47.78px, constraints scale/scale
+          - VECTOR "Vector 2", 162.51x47.78px, constraints scale/scale, fill gradient_linear(#2E61E54D 0% | #3A6FF800 100%)
+          - VECTOR "Vector 1", 162.51x35.72px, constraints scale/scale, stroke #3A6FF8 2px
+        - GROUP "Group 1754", 213.51x23.89px, constraints scale/scale, radius 0/0/0/0px
+          - TEXT "-12.72%", 57.77x20.48px, constraints scale/scale, fill #E52E2E, text [Poppins Medium, 12px]
+          - TEXT "$8,553,00", 88.58x23.89px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 14px]
+        - GROUP "Logo", 71x44px, constraints left/top, fill #FFFFFF [decorative, ~13 shapes]
+  - FRAME "Chart", 1124x498px, constraints left/top
+    - RECTANGLE "Rectangle 496", 1124x441px, constraints left/top, radius 0/0/15/15px, fill Background Color/2, effect [drop_shadow 33px offset 4 4 #0000000D]
+    - GROUP "Graphs", 977.43x188px, constraints left/top
+      - VECTOR "Vector 11", 977.43x135.5px, constraints left/top, stroke Main/Linear 2px
+      - VECTOR "Vector 12", 977.43x188px, constraints left/top, fill Main/Linear, opacity 2%
+    - FRAME "Currency Pair", 88x21px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "USD/ZAR", 60x21px, constraints left/top, fill Stroke, text [Poppins Regular, 14px], opacity 60%
+      - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+        - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+        - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - TEXT "$48.032,32", 96x27px, constraints left/top, fill Stroke, text [Poppins SemiBold, 18px]
+    - TEXT "Chart Heading", 61x32px, constraints left/top, fill Text/100, text [Poppins SemiBold, 21px]
+    - FRAME "1 Hour chart", 985x16px, horizontal pad 0 0 0 0px gap 88px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 32x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 33x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 30x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 26x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 29x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Text", 29x16px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - GROUP "Amount", 72.17x222px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+      - TEXT "Amount", 72.17x18px, constraints left/top, fill Text/10, text [Poppins Regular, 12px]
+    - LINE "Line 19", 985x0px, constraints left/top, fill #D9D9D9, stroke Background Color/1 1px
+    - VECTOR "Line 20", 1064x0px, constraints left/top, stroke Background Color/1 1px
+    - FRAME "pagination", 250x22px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "panigation", 40x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill Main/Linear
+        - TEXT "1h", 10x22px, constraints left/top, fill Stroke, text [Poppins Medium, 10px]
+      - FRAME "panigation", 43x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "3h", 13x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 41x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1d", 11x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 42x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1w", 12x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+      - FRAME "panigation", 44x22px, horizontal pad 0 15 0 15px gap 15px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, stroke Background Color/1 1px
+        - TEXT "1m", 14x22px, constraints left/top, fill Text/10, text [Poppins Medium, 10px]
+    - FRAME "Currency Settings", 87x32px, horizontal pad 5 5 5 5px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px
+      - GROUP "Icon/dollar-circle", 18x18px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "USD", 21x22px, constraints left/top, fill Stroke, text [Poppins SemiBold, 10px], opacity 60%
+      - GROUP "Icon/arrow-down", 18x18px, constraints left/top
+        - VECTOR "Vector", 6.42x3.77px, constraints scale/scale, fill Text/100
+        - VECTOR "Vector", 18x18px, constraints scale/scale, opacity 0%
+    - FRAME "Chart Settings", 32x32px, horizontal pad 7 7 7 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Background Color/1 1px [decorative, ~7 shapes]
+    - FRAME "Bars", 977x32px, horizontal pad 0 0 0 0px gap 5px align min/max sizing W:fixed H:fixed, constraints left/top, opacity 10% [decorative, ~75 shapes]
+    - FRAME "Sell Button", 106x32px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+      - GROUP "Trend down 2", 18x18px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Text", 39x24px, constraints left/top, fill White, text [Inter SemiBold, 16px]
+    - FRAME "Buy Button", 106x32px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3A6FF8
+      - GROUP "Trend up 2", 18x18px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Text", 34x24px, constraints left/top, fill White, text [Inter SemiBold, 16px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

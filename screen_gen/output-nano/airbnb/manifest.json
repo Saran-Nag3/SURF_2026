@@ -1,0 +1,42 @@
+{
+  "company": "airbnb",
+  "source": "/Users/sarannagubandi/downloads/markdowns/airbnb.md",
+  "platform": "android",
+  "device": "Galaxy A54",
+  "viewport_px": [
+    393,
+    873
+  ],
+  "output_px": [
+    1081,
+    2401
+  ],
+  "paradigm_detected": "Design system/component-library spec (tokens + reusable components like Card, Inputs, Accordion, Navigation) which maps naturally to typical app screens using those same building blocks.",
+  "self_check": "Single-column layouts with ~16dp side margins, no drawn status bar/chrome beyond an app bar and in-app bottom navigation, touch-state styling only (no hover), brand colors/typography tokens preserved, and no source-form-factor residue (plain handheld layout).",
+  "screens": [
+    {
+      "name": "Home",
+      "kind": "HOME FEED",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "Onboarding",
+      "kind": "ONBOARDING",
+      "png": "screen_2_onboarding.png",
+      "html": "screen_2_onboarding.html"
+    },
+    {
+      "name": "Search",
+      "kind": "SEARCH BROWSE",
+      "png": "screen_3_search-browse.png",
+      "html": "screen_3_search-browse.html"
+    },
+    {
+      "name": "Notifications",
+      "kind": "NOTIFICATIONS",
+      "png": "screen_4_notifications.png",
+      "html": "screen_4_notifications.html"
+    }
+  ]
+}

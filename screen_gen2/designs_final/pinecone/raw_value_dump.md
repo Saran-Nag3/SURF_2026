@@ -1,0 +1,1111 @@
+---
+name: pinecone-vector-database-saas-ui-community
+source_file: Pinecone - Vector database SaaS UI (Community)
+source_page: All pages (2): 🎨 Replicated UI, 📕 Cover
+generated_at: 2026-07-25T09:54:59.795515+00:00
+---
+
+# Pinecone - Vector database SaaS UI (Community) Design Guidelines
+
+## Source
+- Figma file: Pinecone - Vector database SaaS UI (Community)
+- Figma page: All pages (2): 🎨 Replicated UI, 📕 Cover
+- Extracted at: 2026-07-25T09:54:59.795515+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 244 uses
+- #E8E8ED: 117 uses
+- #FFFFFF: 109 uses
+- #171A1F: 103 uses
+- #72788D: 100 uses
+- #1B17F5: 55 uses
+- #EDEDFE: 38 uses
+- #666666: 29 uses
+- #4745F7: 26 uses
+- #111111: 13 uses
+- #020080: 10 uses
+- #BDC1CA: 10 uses
+- #F8F8FE: 9 uses
+- #FFFFFF80: 9 uses
+- #565D6D: 7 uses
+- #404040: 6 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Manrope SemiBold, 12px: 132 uses
+- Manrope SemiBold, 14px: 58 uses
+- Manrope Medium, 12px: 54 uses
+- Manrope Regular, 14px: 48 uses
+- Manrope Medium, 15px: 21 uses
+- Manrope Bold, 9px: 18 uses
+- Manrope Regular, 15px: 17 uses
+- Manrope Bold, 15px: 15 uses
+- Manrope Bold, 24px: 11 uses
+- Manrope Bold, 14px: 10 uses
+- Manrope ExtraBold, 14px: 9 uses
+- Consolas Consolas, 13px: 6 uses
+- Manrope Bold, 22px: 6 uses
+- Helvetica Helvetica, 24px: 5 uses
+- Manrope Bold, 21px: 4 uses
+- Inter Black, 120px: 3 uses
+- Manrope Bold, 18px: 3 uses
+- Manrope Medium, 16px: 3 uses
+
+## Typography Hierarchy
+- 120px - Inter Black, 120px (raw)
+- 24px - Helvetica Helvetica, 24px (raw)
+- 24px - Manrope Bold, 24px (raw)
+- 22px - Manrope Bold, 22px (raw)
+- 21px - Manrope Bold, 21px (raw)
+- 18px - Manrope Bold, 18px (raw)
+- 16px - Manrope Medium, 16px (raw)
+- 15px - Manrope Bold, 15px (raw)
+- 15px - Manrope Medium, 15px (raw)
+- 15px - Manrope Regular, 15px (raw)
+- 14px - Manrope Bold, 14px (raw)
+- 14px - Manrope ExtraBold, 14px (raw)
+- 14px - Manrope Regular, 14px (raw)
+- 14px - Manrope SemiBold, 14px (raw)
+- 13px - Consolas Consolas, 13px (raw)
+- 12px - Manrope Medium, 12px (raw)
+- 12px - Manrope SemiBold, 12px (raw)
+- 9px - Manrope Bold, 9px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: 🎨 Replicated UI / Pinecone - Table
+- FRAME "Pinecone - Table", 1440x769px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Nav", 1440x60px, horizontal pad 0 22 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+    - FRAME "tabler-icon-christmas-tree", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.67x15px, constraints scale/scale, stroke #000000 1.5px
+    - TEXT "Pinecone", 91x18px, constraints left/top, fill #000000, text [Manrope Medium, 15px]
+    - TEXT "Chelsea's Default Organization", 183x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "tabler-icon-chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10x5px, constraints scale/scale, stroke #000000 1.5px
+    - INSTANCE "Row", 13x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Projects", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Settings", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Row", 682x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+    - TEXT "Feedback", 83x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Docs", 55x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Support", 75x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Button", 32x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+      - TEXT "CT", 19x14px, constraints left/top, fill #000000, text [Manrope ExtraBold, 14px]
+  - FRAME "Row", 1440x709px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Col", 195x709px, vertical pad 12 12 12 12px gap 8px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF80, stroke #E8E8ED 1px
+      - FRAME "Button", 171x34px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "tabler-icon-folder", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x10px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 87x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 15x34px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 2", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+      - TEXT "DATABASE", 46x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Col", 171x59px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - FRAME "tabler-icon-columns-3", 20x20px, horizontal pad 3 3 3 3px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13x13px, constraints left/top, stroke #72788D 1.5px
+          - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 66x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 171x29px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 20x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Col", 16x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+          - TEXT "Text", 24x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #F8F8FE
+        - FRAME "tabler-icon-chart-circles", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #4745F7 1.5px
+        - TEXT "Text", 66x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 61x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "DATABASE", 38x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-lock", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 66x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-user-circle", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 54x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 73x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Row", 171x189px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Col", 169x221px, vertical pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #E8E8ED 1px
+        - FRAME "Button", 149x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 44x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+          - FRAME "tabler-icon-alert-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "RUs", 23x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 81x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/1M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "WUs", 27x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 77x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Storage", 46x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 53x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2GB", 36x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Row", 149x40px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fill H:fill, constraints left/top
+          - FRAME "Button", 149x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 76x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+    - FRAME "Col", 1245x709px, vertical pad 0 40 0 40px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill #FBFBFC
+      - INSTANCE "Row", 76x85px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Col", 1165x115px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "Row", 1165x58px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Row", 281x58px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "Default Project Collections", 39x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 343x58px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 86x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 185x58px, horizontal pad 0 12 0 12px gap 6px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 89x58px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+            - FRAME "tabler-icon-alert-circle", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Row", 158x58px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 79x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 88x58px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 28x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 110x58px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 52x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+        - FRAME "Row", 1165x58px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Row", 284x58px, horizontal pad 0 12 0 12px gap 12px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "Default Project Collections", 142x22px, constraints left/top, fill #171A1F, text [Manrope Bold, 15px]
+            - VECTOR "Ellipse 1", 10x10px, constraints left/top, fill #18AF76
+          - FRAME "Row", 335x58px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 172x36px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 185x58px, horizontal pad 0 12 0 12px gap 6px align min/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "Row", 97x58px, horizontal pad 0 6 0 6px gap 0px align max/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 27x36px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 114x58px, horizontal pad 0 12 0 12px gap 0px align max/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 46x36px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 150x58px, horizontal pad 0 12 0 12px gap 12px align center/center sizing W:fixed H:fill, constraints left/top
+            - FRAME "tabler-icon-columns-3", 24x24px, horizontal pad 3 3 3 3px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "tabler-icon-trash", 24x24px, horizontal pad 3 4 3 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Button", 162x34px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints right/top, radius 4px, fill #1B17F5
+        - FRAME "Frame 3", 10.67x34px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "tabler-icon-plus", 14x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 8.17x8.17px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - FRAME "Frame 1", 10.67x34px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fill, constraints left/top
+        - TEXT "Text", 116x14px, constraints left/top, fill #FFFFFF, text [Manrope Medium, 14px]
+        - FRAME "Frame 2", 10.67x34px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Default Project Collections", 303x36px, constraints left/top, fill #171A1F, text [Manrope Medium, 24px], [heading]
+
+Screen: 🎨 Replicated UI / Pinecone - Onboarding
+- FRAME "Pinecone - Onboarding", 1440x769px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Nav", 1440x60px, horizontal pad 0 22 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+    - FRAME "tabler-icon-christmas-tree", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.67x15px, constraints scale/scale, stroke #000000 1.5px
+    - TEXT "Pinecone", 91x18px, constraints left/top, fill #000000, text [Manrope Medium, 15px]
+    - TEXT "Chelsea's Default Organization", 183x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "tabler-icon-chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10x5px, constraints scale/scale, stroke #000000 1.5px
+    - INSTANCE "Row", 13x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Projects", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Settings", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Row", 682x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+    - TEXT "Feedback", 83x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Docs", 55x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Support", 75x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Button", 32x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+      - TEXT "CT", 19x14px, constraints left/top, fill #000000, text [Manrope ExtraBold, 14px]
+  - FRAME "Row", 1440x709px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Col", 195x709px, vertical pad 12 12 12 12px gap 8px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF80, stroke #E8E8ED 1px
+      - FRAME "Button", 171x34px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "tabler-icon-folder", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x10px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 87x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 15x34px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 2", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+      - TEXT "DATABASE", 46x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Col", 171x59px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #F8F8FE
+          - FRAME "tabler-icon-columns-3", 20x20px, horizontal pad 3 3 3 3px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13x13px, constraints left/top, stroke #4745F7 1.5px
+          - TEXT "Text", 45x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 82x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 171x29px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 20x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Col", 16x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+          - TEXT "Text", 49x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-chart-circles", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 66x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 61x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "DATABASE", 38x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-lock", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 66x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-user-circle", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 54x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 73x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Row", 171x189px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Col", 169x221px, vertical pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #E8E8ED 1px
+        - FRAME "Button", 149x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 44x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+          - FRAME "tabler-icon-alert-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "RUs", 23x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 81x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/1M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "WUs", 27x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 77x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Storage", 46x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 53x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2GB", 36x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Row", 149x40px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fill H:fill, constraints left/top
+          - FRAME "Button", 149x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 76x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+    - FRAME "Col", 1245x709px, vertical pad 0 40 0 40px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill #FBFBFC
+      - FRAME "Col", 624x709px, vertical pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fill, constraints left/top
+        - TEXT "Default Project Collections", 464x100px, constraints left_right/top, fill #171A1F, text [Manrope Bold, 35px], [heading]
+        - TEXT "Default Project Collections", 487x40px, constraints left_right/top, fill #171A1F, text [Lexend Regular, 14px]
+        - FRAME "Row", 322x34px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 116x34px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1B17F5
+            - TEXT "Text", 85x14px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 14px]
+          - FRAME "Button", 186x34px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 139x14px, constraints left/top, fill #020080, text [Manrope Bold, 16px]
+        - FRAME "Col", 550x446px, vertical pad 50 20 20 20px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #FFFFFF, effect [drop_shadow 10px offset 0 4 #00000040]
+          - FRAME "Col", 510x178px, vertical pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Install Pinecone", 163x32px, constraints left/top, fill #171A1F, text [Manrope Bold, 21px]
+            - TEXT "Ready to get started with Pinecone? First, install the", 490x44px, constraints left/top, fill #171A1F, text [Manrope Medium, 15px]
+            - FRAME "Row", 490x62px, vertical pad 20 20 20 20px gap 20px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #09091E
+          - FRAME "Button", 102x34px, horizontal pad 0 10 0 10px gap 8px align space_between/center sizing W:fixed H:fixed, constraints right/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 49x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+            - FRAME "Caret up 4", 20x20px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Col", 510x198px, vertical pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Install Pinecone", 87x32px, constraints left/top, fill #171A1F, text [Manrope Bold, 21px]
+            - TEXT "Ready to get started with Pinecone? First, install the", 490x22px, constraints left/top, fill #171A1F, text [Manrope Medium, 15px]
+            - FRAME "Row", 490x104px, vertical pad 20 20 20 20px gap 20px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #09091E
+
+Screen: 🎨 Replicated UI / Pinecone - Card List
+- FRAME "Pinecone - Card List", 1440x769px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Nav", 1440x60px, horizontal pad 0 22 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+    - FRAME "tabler-icon-christmas-tree", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.67x15px, constraints scale/scale, stroke #000000 1.5px
+    - TEXT "Pinecone", 91x18px, constraints left/top, fill #000000, text [Manrope Medium, 15px]
+    - TEXT "Chelsea's Default Organization", 183x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "tabler-icon-chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10x5px, constraints scale/scale, stroke #000000 1.5px
+    - INSTANCE "Row", 13x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Projects", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Settings", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Row", 682x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+    - TEXT "Feedback", 83x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Docs", 55x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Support", 75x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Button", 32x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+      - TEXT "CT", 19x14px, constraints left/top, fill #000000, text [Manrope ExtraBold, 14px]
+  - FRAME "Row", 1440x709px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Col", 195x709px, vertical pad 12 12 12 12px gap 8px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF80, stroke #E8E8ED 1px
+      - FRAME "Button", 171x34px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "tabler-icon-folder", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x10px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 87x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 15x34px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 2", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+      - TEXT "DATABASE", 46x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Col", 171x59px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #F8F8FE
+          - FRAME "tabler-icon-columns-3", 20x20px, horizontal pad 3 3 3 3px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13x13px, constraints left/top, stroke #4745F7 1.5px
+          - TEXT "Text", 45x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 82x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 171x29px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 20x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Col", 16x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+          - TEXT "Text", 49x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-chart-circles", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 66x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 61x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "DATABASE", 38x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-lock", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 66x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-user-circle", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 54x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 73x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Row", 171x189px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Col", 169x221px, vertical pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #E8E8ED 1px
+        - FRAME "Button", 149x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 44x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+          - FRAME "tabler-icon-alert-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "RUs", 23x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 81x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/1M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "WUs", 27x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 77x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Storage", 46x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 53x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2GB", 36x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Row", 149x40px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fill H:fill, constraints left/top
+          - FRAME "Button", 149x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 76x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+    - FRAME "Col", 1245x709px, vertical pad 40 40 40 40px gap 0px sizing W:fill H:fill, constraints left/top
+      - TEXT "Default Project Collections", 272x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 24px], [heading]
+      - FRAME "Row", 1165x69px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 679x34px, horizontal pad 0 10 0 10px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - FRAME "tabler-icon-search", 20x20px, horizontal pad 1 1 1 1px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints left/top, stroke #9095A1 1.5px
+          - TEXT "Text", 99x22px, constraints left/top, fill #BDC1CA, text [Manrope Regular, 14px]
+        - FRAME "Button", 174x34px, horizontal pad 0 10 0 10px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Text", 126x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Caret up 4", 20x20px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 10x5px, constraints left/top, fill #000000, stroke #000000 0.5px
+        - FRAME "Button", 134x34px, horizontal pad 0 10 0 10px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Text", 53x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Caret up 4", 20x20px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 10x5px, constraints left/top, fill #000000, stroke #000000 0.5px
+        - FRAME "Row", 1x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #E8E8ED 1px
+        - FRAME "Button", 117x34px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1B17F5
+          - FRAME "Frame 3", 16x34px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fill, constraints left/top
+          - TEXT "Text", 85x14px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 14px]
+          - FRAME "Frame 2", 16x34px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Showing 1 index", 102x22px, constraints left/top, fill #171A1F, text [Manrope Regular, 14px]
+      - FRAME "Row", 271x15px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Col", 1165x129px, vertical pad 20 20 20 20px gap 5px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "Button", 89x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints right/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Text", 59x14px, constraints left/top, fill #020080, text [Manrope SemiBold, 14px]
+        - FRAME "tabler-icon-dots", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 16x2px, constraints scale/scale, stroke #72788D 2px
+        - FRAME "Row", 67x35px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Default Project Collections", 36x22px, constraints left/top, fill #020080, text [Manrope Bold, 18px]
+          - VECTOR "Ellipse 1", 10x10px, constraints left/top, fill #18AF76
+        - FRAME "Row", 1125x22px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Host: https://test-2366941.svc.aped-4627-b74a.pinecone.io", 422x22px, constraints left/top, fill #565D6D, text [Manrope Regular, 15px]
+          - FRAME "tabler-icon-copy", 20x20px, horizontal pad 1 1 1 1px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x18px, constraints left/top, stroke #72788D 2px
+        - TEXT "Host: https://test-2366941.svc.aped-4627-b74a.pinecone.io", 364x22px, constraints left/top, fill #565D6D, text [Manrope Bold, 15px]
+
+Screen: 🎨 Replicated UI / Pinecone - Overview
+- FRAME "Pinecone - Overview", 1440x769px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Nav", 1440x60px, horizontal pad 0 22 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+    - FRAME "tabler-icon-christmas-tree", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.67x15px, constraints scale/scale, stroke #000000 1.5px
+    - TEXT "Pinecone", 91x18px, constraints left/top, fill #000000, text [Manrope Medium, 15px]
+    - TEXT "Chelsea's Default Organization", 183x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "tabler-icon-chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10x5px, constraints scale/scale, stroke #000000 1.5px
+    - INSTANCE "Row", 13x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Projects", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Settings", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Row", 682x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+    - TEXT "Feedback", 83x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Docs", 55x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Support", 75x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Button", 32x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+      - TEXT "CT", 19x14px, constraints left/top, fill #000000, text [Manrope ExtraBold, 14px]
+  - FRAME "Row", 1440x709px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Col", 195x709px, vertical pad 12 12 12 12px gap 8px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF80, stroke #E8E8ED 1px
+      - FRAME "Button", 171x34px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "tabler-icon-folder", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x10px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 87x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 15x34px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 2", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+      - TEXT "DATABASE", 46x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Col", 171x59px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #F8F8FE
+          - FRAME "tabler-icon-columns-3", 20x20px, horizontal pad 3 3 3 3px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13x13px, constraints left/top, stroke #4745F7 1.5px
+          - TEXT "Text", 45x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 82x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 171x29px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 20x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Col", 16x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+          - TEXT "Text", 49x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-chart-circles", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 66x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 61x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "DATABASE", 38x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-lock", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 66x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-user-circle", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 54x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 73x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Row", 171x189px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Col", 169x221px, vertical pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #E8E8ED 1px
+        - FRAME "Button", 149x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 44x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+          - FRAME "tabler-icon-alert-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "RUs", 23x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 81x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/1M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "WUs", 27x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 77x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Storage", 46x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 53x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2GB", 36x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Row", 149x40px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fill H:fill, constraints left/top
+          - FRAME "Button", 149x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 76x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+    - FRAME "Col", 1245x709px, vertical pad 40 40 40 40px gap 0px sizing W:fill H:fill, constraints left/top
+      - TEXT "Default Project Collections", 272x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 24px], [heading]
+      - FRAME "Row", 1165x69px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 679x34px, horizontal pad 0 10 0 10px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - FRAME "tabler-icon-search", 20x20px, horizontal pad 1 1 1 1px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints left/top, stroke #9095A1 1.5px
+          - TEXT "Text", 99x22px, constraints left/top, fill #BDC1CA, text [Manrope Regular, 14px]
+        - FRAME "Button", 174x34px, horizontal pad 0 10 0 10px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Text", 126x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Caret up 4", 20x20px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 10x5px, constraints left/top, fill #000000, stroke #000000 0.5px
+        - FRAME "Button", 134x34px, horizontal pad 0 10 0 10px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Text", 53x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Caret up 4", 20x20px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 10x5px, constraints left/top, fill #000000, stroke #000000 0.5px
+        - FRAME "Row", 1x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #E8E8ED 1px
+        - FRAME "Button", 117x34px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1B17F5
+          - FRAME "Frame 3", 16x34px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fill, constraints left/top
+          - TEXT "Text", 85x14px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 14px]
+          - FRAME "Frame 2", 16x34px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Showing 1 index", 102x22px, constraints left/top, fill #171A1F, text [Manrope Regular, 14px]
+      - FRAME "Row", 271x15px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Col", 1165x129px, vertical pad 20 20 20 20px gap 5px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "Button", 89x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints right/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Text", 59x14px, constraints left/top, fill #020080, text [Manrope SemiBold, 14px]
+        - FRAME "tabler-icon-dots", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 16x2px, constraints scale/scale, stroke #72788D 2px
+        - FRAME "Row", 67x35px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Default Project Collections", 36x22px, constraints left/top, fill #020080, text [Manrope Bold, 18px]
+          - VECTOR "Ellipse 1", 10x10px, constraints left/top, fill #18AF76
+        - FRAME "Row", 1125x22px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Host: https://test-2366941.svc.aped-4627-b74a.pinecone.io", 422x22px, constraints left/top, fill #565D6D, text [Manrope Regular, 15px]
+          - FRAME "tabler-icon-copy", 20x20px, horizontal pad 1 1 1 1px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x18px, constraints left/top, stroke #72788D 2px
+        - TEXT "Host: https://test-2366941.svc.aped-4627-b74a.pinecone.io", 364x22px, constraints left/top, fill #565D6D, text [Manrope Bold, 15px]
+  - FRAME "WhiteCol", 208x187px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints right/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px, effect [drop_shadow 10px offset 0 5 #00000026]
+    - FRAME "Frame 4", 208x72px, vertical pad 10 10 10 10px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+      - TEXT "Chelsea Tang", 116x28px, constraints left/top, fill #171A1F, text [Manrope SemiBold, 18px]
+      - TEXT "desertsfan@gmail.com", 160x24px, constraints left/top, fill #565D6D, text [Manrope Regular, 15px]
+    - FRAME "Frame 5", 208x70px, vertical pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+      - TEXT "Chelsea Tang", 64x20px, constraints left/top, fill #171A1F, text [Manrope Medium, 16px]
+      - FRAME "Row", 188x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Chelsea Tang", 46x20px, constraints left/top, fill #171A1F, text [Manrope Medium, 16px]
+        - FRAME "Button", 73x20px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #FFFFFF, stroke #1B17F5 1px
+          - TEXT "Text", 57x20px, constraints left/top, fill #1B17F5, text [Manrope Medium, 14px]
+    - FRAME "Frame 6", 208x40px, vertical pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Chelsea Tang", 59x20px, constraints left/top, fill #171A1F, text [Manrope Medium, 16px]
+
+Screen: 🎨 Replicated UI / Pinecone - Feedback
+- FRAME "Pinecone - Feedback", 1440x769px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Nav", 1440x60px, horizontal pad 0 22 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+    - FRAME "tabler-icon-christmas-tree", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.67x15px, constraints scale/scale, stroke #000000 1.5px
+    - TEXT "Pinecone", 91x18px, constraints left/top, fill #000000, text [Manrope Medium, 15px]
+    - TEXT "Chelsea's Default Organization", 183x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "tabler-icon-chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10x5px, constraints scale/scale, stroke #000000 1.5px
+    - INSTANCE "Row", 13x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Projects", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Settings", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Row", 682x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+    - TEXT "Feedback", 83x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Docs", 55x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Support", 75x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Button", 32x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+      - TEXT "CT", 19x14px, constraints left/top, fill #000000, text [Manrope ExtraBold, 14px]
+  - FRAME "Row", 1440x709px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Col", 195x709px, vertical pad 12 12 12 12px gap 8px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF80, stroke #E8E8ED 1px
+      - FRAME "Button", 171x34px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "tabler-icon-folder", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x10px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 87x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 15x34px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 2", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+      - TEXT "DATABASE", 46x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Col", 171x59px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #F8F8FE
+          - FRAME "tabler-icon-columns-3", 20x20px, horizontal pad 3 3 3 3px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13x13px, constraints left/top, stroke #4745F7 1.5px
+          - TEXT "Text", 45x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 82x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 171x29px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 20x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Col", 16x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+          - TEXT "Text", 49x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-chart-circles", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 66x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 61x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "DATABASE", 38x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-lock", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 66x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-user-circle", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 54x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 73x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Row", 171x189px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Col", 169x221px, vertical pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #E8E8ED 1px
+        - FRAME "Button", 149x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 44x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+          - FRAME "tabler-icon-alert-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "RUs", 23x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 81x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/1M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "WUs", 27x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 77x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Storage", 46x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 53x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2GB", 36x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Row", 149x40px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fill H:fill, constraints left/top
+          - FRAME "Button", 149x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 76x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+    - FRAME "Col", 1245x709px, vertical pad 40 40 40 40px gap 0px sizing W:fill H:fill, constraints left/top
+      - TEXT "Default Project Collections", 272x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 24px], [heading]
+      - FRAME "Row", 1165x69px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 679x34px, horizontal pad 0 10 0 10px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - FRAME "tabler-icon-search", 20x20px, horizontal pad 1 1 1 1px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints left/top, stroke #9095A1 1.5px
+          - TEXT "Text", 99x22px, constraints left/top, fill #BDC1CA, text [Manrope Regular, 14px]
+        - FRAME "Button", 174x34px, horizontal pad 0 10 0 10px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Text", 126x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Caret up 4", 20x20px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 10x5px, constraints left/top, fill #000000, stroke #000000 0.5px
+        - FRAME "Button", 134x34px, horizontal pad 0 10 0 10px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Text", 53x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Caret up 4", 20x20px, vertical pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 10x5px, constraints left/top, fill #000000, stroke #000000 0.5px
+        - FRAME "Row", 1x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #E8E8ED 1px
+        - FRAME "Button", 117x34px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1B17F5
+          - FRAME "Frame 3", 16x34px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fill, constraints left/top
+          - TEXT "Text", 85x14px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 14px]
+          - FRAME "Frame 2", 16x34px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Showing 1 index", 102x22px, constraints left/top, fill #171A1F, text [Manrope Regular, 14px]
+      - FRAME "Row", 271x15px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Col", 1165x129px, vertical pad 20 20 20 20px gap 5px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "Button", 89x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints right/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Text", 59x14px, constraints left/top, fill #020080, text [Manrope SemiBold, 14px]
+        - FRAME "tabler-icon-dots", 24x24px, constraints right/top, fill #FFFFFF
+          - VECTOR "Vector", 16x2px, constraints scale/scale, stroke #72788D 2px
+        - FRAME "Row", 67x35px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Default Project Collections", 36x22px, constraints left/top, fill #020080, text [Manrope Bold, 18px]
+          - VECTOR "Ellipse 1", 10x10px, constraints left/top, fill #18AF76
+        - FRAME "Row", 1125x22px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Host: https://test-2366941.svc.aped-4627-b74a.pinecone.io", 422x22px, constraints left/top, fill #565D6D, text [Manrope Regular, 15px]
+          - FRAME "tabler-icon-copy", 20x20px, horizontal pad 1 1 1 1px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x18px, constraints left/top, stroke #72788D 2px
+        - TEXT "Host: https://test-2366941.svc.aped-4627-b74a.pinecone.io", 364x22px, constraints left/top, fill #565D6D, text [Manrope Bold, 15px]
+  - FRAME "WhiteCol", 539x249px, vertical pad 14 14 14 14px gap 14px sizing W:fixed H:fixed, constraints right/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px, effect [drop_shadow 10px offset 0 4 #00000040]
+    - FRAME "WhiteCol", 511x165px, vertical pad 15 15 15 15px gap 0px align space_between/min sizing W:fill H:fill, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+      - TEXT "HYour feedback is valuable to us. Enter it here...", 323x24px, constraints left/top, fill #BDC1CA, text [Manrope Regular, 15px]
+      - FRAME "Row", 168x32px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "tabler-icon-mood-smile", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x24px, constraints scale/scale, stroke #BDBDBD 2px
+        - FRAME "tabler-icon-mood-empty", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x24px, constraints scale/scale, stroke #BDBDBD 2px
+        - FRAME "tabler-icon-mood-sad", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x24px, constraints scale/scale, stroke #BDBDBD 2px
+      - FRAME "tabler-icon-paperclip", 24x24px, constraints right/bottom, fill #FFFFFF
+        - VECTOR "Vector", 17.36x18.61px, constraints scale/scale, stroke #757575 2px
+      - ELLIPSE "Ellipse 2", 8x8px, constraints left/top, fill #6741E9
+    - FRAME "Row", 511x42px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Technical issue? Use support or docs instead.", 315x24px, constraints left/top, fill #9095A1, text [Manrope Regular, 15px]
+      - INSTANCE "Button", 78x34px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #E0E0E0
+        - TEXT "Text", 49x14px, constraints left/top, fill #A6A6A6, text [Manrope SemiBold, 14px]
+
+Screen: 🎨 Replicated UI / Pinecone - Form
+- FRAME "Pinecone - Form", 1440x769px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Nav", 1440x60px, horizontal pad 0 22 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+    - FRAME "tabler-icon-christmas-tree", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.67x15px, constraints scale/scale, stroke #000000 1.5px
+    - TEXT "Pinecone", 91x18px, constraints left/top, fill #000000, text [Manrope Medium, 15px]
+    - TEXT "Chelsea's Default Organization", 183x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "tabler-icon-chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10x5px, constraints scale/scale, stroke #000000 1.5px
+    - INSTANCE "Row", 13x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Projects", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Settings", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Row", 682x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+    - TEXT "Feedback", 83x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Docs", 55x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Support", 75x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Button", 32x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+      - TEXT "CT", 19x14px, constraints left/top, fill #000000, text [Manrope ExtraBold, 14px]
+  - FRAME "Row", 1440x709px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Col", 195x709px, vertical pad 12 12 12 12px gap 8px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF80, stroke #E8E8ED 1px
+      - FRAME "Button", 171x34px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "tabler-icon-folder", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x10px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 87x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 15x34px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 2", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+      - TEXT "DATABASE", 46x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Col", 171x59px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #F8F8FE
+          - FRAME "tabler-icon-columns-3", 20x20px, horizontal pad 3 3 3 3px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13x13px, constraints left/top, stroke #4745F7 1.5px
+          - TEXT "Text", 45x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 82x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 171x29px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 20x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Col", 16x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+          - TEXT "Text", 49x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-chart-circles", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 66x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 61x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "DATABASE", 38x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-lock", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 66x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-user-circle", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 54x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 73x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Row", 171x189px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Col", 169x221px, vertical pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #E8E8ED 1px
+        - FRAME "Button", 149x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 44x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+          - FRAME "tabler-icon-alert-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "RUs", 23x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 81x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/1M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "WUs", 27x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 77x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Storage", 46x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 53x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2GB", 36x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Row", 149x40px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fill H:fill, constraints left/top
+          - FRAME "Button", 149x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 76x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+    - FRAME "Col", 1245x709px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Col", 994x709px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+        - TEXT "Default Project Collections", 272x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 24px], [heading]
+        - FRAME "WhiteRow", 914x84px, horizontal pad 10 20 10 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Default Project Collections", 176x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 22px]
+          - FRAME "Button", 334x34px, horizontal pad 0 10 0 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 112x22px, constraints left/top, fill #BDC1CA, text [Manrope Regular, 14px]
+        - FRAME "WhiteRow", 914x216px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Default Project Collections", 164x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 24px], [heading]
+          - TEXT "The dimensions and metric depend on the model you select.", 414x24px, constraints left/top, fill #171A1F, text [Manrope Regular, 15px]
+          - FRAME "Row", 874x86px, horizontal pad 10 0 10 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Col", 238x66px, vertical pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fill, constraints left/top
+            - FRAME "Col", 238x66px, vertical pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fill, constraints left/top
+            - FRAME "Row", 169x35px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "WhiteRow", 914x203px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Default Project Collections", 160x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 22px]
+          - FRAME "Row", 874x39px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+            - FRAME "Row", 137x39px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top, stroke #1B17F5 1px
+            - FRAME "Row", 137x39px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "WhiteCol", 874x63px, vertical pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #1B17F5 1px
+      - FRAME "WhiteCol", 925x108px, vertical pad 20 25 20 25px gap 10px sizing W:fixed H:fixed, constraints center/bottom, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px, effect [drop_shadow 10px offset 0 4 #00000040]
+        - TEXT "The dimensions and metric depend on the model you select.", 164x24px, constraints left/top, fill #747A8D, text [Manrope Regular, 15px]
+        - FRAME "Row", 164x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Starter Plan", 132x34px, constraints left/top, fill #020080, text [Manrope Bold, 22px]
+          - FRAME "tabler-icon-alert-circle", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #72788D 1.5px
+        - FRAME "Button", 114x34px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints right/center, radius 4px, fill #E0E0E0
+          - TEXT "Text", 85x14px, constraints left/top, fill #A6A6A6, text [Manrope SemiBold, 14px]
+        - TEXT "Cancel", 86x43px, constraints left/top, fill #72788D, text [Manrope SemiBold, 12px]
+
+Screen: 🎨 Replicated UI / Pinecone-Modal
+- FRAME "Pinecone-Modal", 1440x769px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Nav", 1440x60px, horizontal pad 0 22 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+    - FRAME "tabler-icon-christmas-tree", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.67x15px, constraints scale/scale, stroke #000000 1.5px
+    - TEXT "Pinecone", 91x18px, constraints left/top, fill #000000, text [Manrope Medium, 15px]
+    - TEXT "Chelsea's Default Organization", 183x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "tabler-icon-chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10x5px, constraints scale/scale, stroke #000000 1.5px
+    - INSTANCE "Row", 13x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Projects", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Settings", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Row", 682x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+    - TEXT "Feedback", 83x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Docs", 55x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Support", 75x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Button", 32x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+      - TEXT "CT", 19x14px, constraints left/top, fill #000000, text [Manrope ExtraBold, 14px]
+  - FRAME "Row", 1440x709px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Col", 195x709px, vertical pad 12 12 12 12px gap 8px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF80, stroke #E8E8ED 1px
+      - FRAME "Button", 171x34px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "tabler-icon-folder", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x10px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 87x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 15x34px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 2", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+      - TEXT "DATABASE", 46x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Col", 171x59px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #F8F8FE
+          - FRAME "tabler-icon-columns-3", 20x20px, horizontal pad 3 3 3 3px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13x13px, constraints left/top, stroke #4745F7 1.5px
+          - TEXT "Text", 45x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 82x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 171x29px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 20x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Col", 16x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+          - TEXT "Text", 49x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-chart-circles", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 66x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 61x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "DATABASE", 38x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-lock", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x13px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 66x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-user-circle", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 54x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 73x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Row", 171x189px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Col", 169x221px, vertical pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #E8E8ED 1px
+        - FRAME "Button", 149x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - TEXT "Text", 61x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 44x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+          - FRAME "tabler-icon-alert-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x15px, constraints scale/scale, stroke #72788D 1.5px
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "RUs", 23x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 81x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/1M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "WUs", 27x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 77x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2M", 31x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Col", 149x33px, vertical pad 2 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Row", 149x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Storage", 46x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+            - FRAME "tabler-icon-alert-circle", 14x14px, constraints left/top, fill #FFFFFF
+            - FRAME "Row", 53x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "0/2GB", 36x20px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+          - FRAME "Row", 149x7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+        - FRAME "Row", 149x40px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fill H:fill, constraints left/top
+          - FRAME "Button", 149x34px, horizontal pad 0 0 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 76x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+    - FRAME "Col", 1245x709px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Col", 994x709px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+        - TEXT "Default Project Collections", 272x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 24px], [heading]
+        - FRAME "WhiteRow", 914x84px, horizontal pad 10 20 10 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Default Project Collections", 176x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 22px]
+          - FRAME "Button", 334x34px, horizontal pad 0 10 0 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+            - TEXT "Text", 112x22px, constraints left/top, fill #BDC1CA, text [Manrope Regular, 14px]
+        - FRAME "WhiteRow", 914x216px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Default Project Collections", 164x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 24px], [heading]
+          - TEXT "The dimensions and metric depend on the model you select.", 414x24px, constraints left/top, fill #171A1F, text [Manrope Regular, 15px]
+          - FRAME "Row", 874x86px, horizontal pad 10 0 10 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Col", 238x66px, vertical pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fill, constraints left/top
+            - FRAME "Col", 238x66px, vertical pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fill, constraints left/top
+            - FRAME "Row", 169x35px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "WhiteRow", 914x203px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+          - TEXT "Default Project Collections", 160x36px, constraints left/top, fill #171A1F, text [Manrope Bold, 22px]
+          - FRAME "Row", 874x39px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+            - FRAME "Row", 137x39px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top, stroke #1B17F5 1px
+            - FRAME "Row", 137x39px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "WhiteCol", 874x63px, vertical pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #1B17F5 1px
+      - FRAME "WhiteCol", 925x108px, vertical pad 20 25 20 25px gap 10px sizing W:fixed H:fixed, constraints center/bottom, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px, effect [drop_shadow 10px offset 0 4 #00000040]
+        - TEXT "The dimensions and metric depend on the model you select.", 164x24px, constraints left/top, fill #747A8D, text [Manrope Regular, 15px]
+        - FRAME "Row", 164x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Starter Plan", 132x34px, constraints left/top, fill #020080, text [Manrope Bold, 22px]
+          - FRAME "tabler-icon-alert-circle", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke #72788D 1.5px
+        - FRAME "Button", 114x34px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints right/center, radius 4px, fill #1B17F5
+          - TEXT "Text", 85x14px, constraints left/top, fill #FFFFFF, text [Manrope SemiBold, 14px]
+        - TEXT "Cancel", 86x43px, constraints left/top, fill #72788D, text [Manrope SemiBold, 12px]
+  - FRAME "Frame 7", 1440x770px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left_right/top_bottom, fill #00000080
+    - FRAME "WhiteCol", 916x587px, vertical pad 25 25 25 25px gap 15px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px, effect [drop_shadow 20px offset 0 4 #00000040]
+      - TEXT "Setup by model", 180x36px, constraints left/top, fill #04037F, text [Manrope Bold, 24px], [heading]
+      - FRAME "tabler-icon-x", 24x24px, constraints right/top, fill #FFFFFF
+        - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #1B17F5 2px
+      - TEXT "Click on a row to select your model. If it's not in the list", 819x39px, constraints left/top, fill #171A1F, text [Manrope Regular, 15px]
+      - FRAME "WhiteCol", 866x349px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "WhiteRow", 866x53px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Row", 554x53px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - TEXT "Default Project Collections", 39x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 102x53px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 71x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 88x53px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 44x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 122x53px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 33x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+        - FRAME "WhiteRow", 866x50px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Row", 554x50px, horizontal pad 0 12 0 12px gap 12px align min/center sizing W:fill H:fill, constraints left/top
+            - VECTOR "Vector", 17.98x18px, constraints left/top, stroke #404040 1.5px
+            - TEXT "Default Project Collections", 221x36px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 102x50px, horizontal pad 0 12 0 12px gap 0px align max/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 32x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 88x50px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 45x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 122x50px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 28x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+        - FRAME "WhiteRow", 866x51px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Row", 554x51px, horizontal pad 0 12 0 12px gap 12px align min/center sizing W:fill H:fill, constraints left/top
+            - VECTOR "Vector", 17.98x18px, constraints left/top, stroke #404040 1.5px
+            - TEXT "Default Project Collections", 99x36px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 102x51px, horizontal pad 0 12 0 12px gap 0px align max/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 32x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 88x51px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 45x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 122x51px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 28x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+        - FRAME "WhiteRow", 866x50px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Row", 554x50px, horizontal pad 0 12 0 12px gap 12px align min/center sizing W:fill H:fill, constraints left/top
+            - VECTOR "Vector", 17.98x18px, constraints left/top, stroke #404040 1.5px
+            - TEXT "Default Project Collections", 163x36px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 102x50px, horizontal pad 0 12 0 12px gap 0px align max/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 32x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 88x50px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 45x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 122x50px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 28x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+        - FRAME "WhiteRow", 866x51px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Row", 554x51px, horizontal pad 0 12 0 12px gap 12px align min/center sizing W:fill H:fill, constraints left/top
+            - VECTOR "Vector", 17.98x18px, constraints left/top, stroke #404040 1.5px
+            - TEXT "Default Project Collections", 162x36px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 102x51px, horizontal pad 0 12 0 12px gap 0px align max/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 32x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 88x51px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 45x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 122x51px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 28x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+        - FRAME "WhiteRow", 866x47px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Row", 554x47px, horizontal pad 0 12 0 12px gap 12px align min/center sizing W:fill H:fill, constraints left/top
+            - VECTOR "Vector", 17.98x18px, constraints left/top, stroke #404040 1.5px
+            - TEXT "Default Project Collections", 171x36px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 102x47px, horizontal pad 0 12 0 12px gap 0px align max/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 32x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 88x47px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 45x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 122x47px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 28x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+        - FRAME "WhiteRow", 866x47px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Row", 554x47px, horizontal pad 0 12 0 12px gap 12px align min/center sizing W:fill H:fill, constraints left/top
+            - VECTOR "Vector", 17.98x18px, constraints left/top, stroke #404040 1.5px
+            - TEXT "Default Project Collections", 226x36px, constraints left/top, fill #000000, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 102x47px, horizontal pad 0 12 0 12px gap 0px align max/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 32x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 88x47px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 45x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+          - FRAME "Row", 122x47px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Default Project Collections", 28x36px, constraints left/top, fill #666666, text [Manrope SemiBold, 14px]
+      - FRAME "Row", 916x77px, horizontal pad 10 25 10 25px gap 0px align max/min sizing W:fixed H:fixed, constraints left_right/bottom, stroke #E8E8ED 1px
+        - TEXT "Cancel", 84x34px, constraints left/top, fill #666666, text [Manrope Bold, 15px]
+        - FRAME "Button", 152x34px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1B17F5
+          - TEXT "Text", 131x22px, constraints left/top, fill #FFFFFF, text [Manrope Bold, 15px]
+
+Screen: 🎨 Replicated UI / Pinecone - Pricing
+- FRAME "Pinecone - Pricing", 1440x1102px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 6px offset 0 3 #120F281F]
+  - FRAME "Nav", 1440x60px, horizontal pad 0 22 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E8E8ED 1px
+    - FRAME "tabler-icon-christmas-tree", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.67x15px, constraints scale/scale, stroke #000000 1.5px
+    - TEXT "Pinecone", 91x18px, constraints left/top, fill #000000, text [Manrope Medium, 15px]
+    - TEXT "Chelsea's Default Organization", 183x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "tabler-icon-chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10x5px, constraints scale/scale, stroke #000000 1.5px
+    - INSTANCE "Row", 13x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Projects", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Settings", 74x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Row", 682x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+    - TEXT "Feedback", 83x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Docs", 55x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - TEXT "Support", 75x18px, constraints left/top, fill #000000, text [Manrope Medium, 12px]
+    - FRAME "Button", 32x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 111px, fill #EDEDFE
+      - TEXT "CT", 19x14px, constraints left/top, fill #000000, text [Manrope ExtraBold, 14px]
+  - FRAME "Row", 1440x1042px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+    - FRAME "Col", 195x1042px, vertical pad 12 12 12 12px gap 8px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF80, stroke #E8E8ED 1px
+      - FRAME "Button", 171x34px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E8E8ED 1px
+        - FRAME "tabler-icon-folder", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x10px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 87x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+        - FRAME "Col", 15x34px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 2", 21x34px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+          - FRAME "tabler-icon-chevron-down", 10x10px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 5x2.5px, constraints scale/scale, stroke #72788D 1.5px
+      - TEXT "DATABASE", 46x14px, constraints left/top, fill #171A1F, text [Manrope Bold, 9px]
+      - FRAME "Col", 171x59px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #F8F8FE
+          - FRAME "tabler-icon-columns-3", 20x20px, horizontal pad 3 3 3 3px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13x13px, constraints left/top, stroke #4745F7 1.5px
+          - TEXT "Text", 45x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+          - FRAME "Col", 82x30px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Row", 171x29px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Col", 20x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top, stroke #E8E8ED 1px
+          - FRAME "Col", 16x29px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+          - TEXT "Text", 49x14px, constraints left/top, fill #4745F7, text [Manrope SemiBold, 12px]
+      - FRAME "Button", 171x30px, horizontal pad 0 0 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - FRAME "tabler-icon-chart-circles", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke #72788D 1.5px
+        - TEXT "Text", 66x14px, constraints left/top, fill #000000, text [Manrope SemiBold, 12px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,430 @@
+---
+name: reflect-ai-saas-website-community
+source_file: Reflect AI SAAS Website (Community)
+source_page: All pages (2): Page 1, Thumbnail
+generated_at: 2026-07-25T09:30:22.963972+00:00
+---
+
+# Reflect AI SAAS Website (Community) Design Guidelines
+
+## Source
+- Figma file: Reflect AI SAAS Website (Community)
+- Figma page: All pages (2): Page 1, Thumbnail
+- Extracted at: 2026-07-25T09:30:22.963972+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 127 uses
+- #F4F0FF: 42 uses
+- #EFEDFD99: 36 uses
+- #EFEDFDB2: 32 uses
+- #BA9CFF4D: 27 uses
+- #FFFFFF01: 27 uses
+- #BA9CFF03: 24 uses
+- #FFFFFF3D: 17 uses
+- #4D2F8C: 15 uses
+- #000000: 13 uses
+- #FFFFFF0D: 12 uses
+- #FFFFFF66: 12 uses
+- #FFFFFF03: 9 uses
+- #FFFFFF1A: 7 uses
+- #03001480: 6 uses
+- #F3EEFF: 6 uses
+- #F3EEFF0F: 6 uses
+- #FFFFFF0A: 6 uses
+- #FFFFFF0F: 6 uses
+- #0A081BB2: 5 uses
+- #FFFFFF05: 5 uses
+- #FFFFFFCC: 5 uses
+- #FFFFFFE5: 5 uses
+- #030014: 4 uses
+- #060317F5: 3 uses
+- #712FFF1F: 3 uses
+- #9382FF03: 3 uses
+- #BA9CFF0A: 3 uses
+- #EFEDFD52: 3 uses
+- #F3EEFF14: 3 uses
+- #FA5FFF: 3 uses
+- #FFFFFF5C: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Regular, 16px: 56 uses
+- Inter Regular, 14px: 28 uses
+- Inter Medium, 16px: 24 uses
+- Inter Medium, 14px: 22 uses
+- Roboto Medium, 56px: 14 uses
+- Inter Regular, 12px: 8 uses
+- Inter Regular, 13px: 7 uses
+- Inter Medium, 13px: 6 uses
+
+## Typography Hierarchy
+- 56px - Roboto Medium, 56px (raw)
+- 16px - Inter Medium, 16px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Inter Regular, 14px (raw)
+- 13px - Inter Medium, 13px (raw)
+- 13px - Inter Regular, 13px (raw)
+- 12px - Inter Regular, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / reflect.app
+- FRAME "reflect.app", 1440x13460px, constraints left/top, fill #030014
+  - RECTANGLE "image", 2000x1125px, constraints center/top, fill image(hash: 91e706f5638d3af3046880393fc4b19ce8d84187)
+  - FRAME "Section", 1440x600px, vertical pad 64 0 324 0px gap 32px align min/center sizing W:fixed H:fixed, constraints center/top
+    - FRAME "div.section-header", 1440x144px, constraints left_right/top
+      - TEXT "Heading 2 → Think better with Reflect", 613x64px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 56px], [heading]
+      - FRAME "div.section-header-badge", 105.75x32px, horizontal pad 5 13.75 7 15px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #FFFFFF01, stroke #4D2F8C 1px, effect [inner_shadow 11px offset 0 -7 #A48FFF1F, background_blur 4px]
+        - FRAME "pseudo:mask-group", 103.75x32px, constraints left/top, stroke #000000 1px, effect [layer_blur 114px]
+          - RECTANGLE "pseudo:mask", 103.75x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "pseudo", 103.75x32px, constraints left/top, radius 32px, fill gradient_linear(#E59CFF3D 0% | #BA9CFF3D 50% | #9CB2FF3D 100%), effect [drop_shadow 4px offset 0 4 #00000040, background_blur 74px]
+        - TEXT "Get started", 77x20px, constraints left/top, fill gradient_linear(#E59CFF 0% | #BA9CFF 50% | #9CB2FF 100%), text [Inter Medium, 14px]
+      - TEXT "Never miss a note, idea or connection.", 290x24px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+    - FRAME "Link", 179.16x36px, horizontal pad 7 16.16 9 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #4D2F8C 1px
+      - RECTANGLE "pseudo", 179.16x36px, constraints scale/scale, radius 8px, fill #712FFF1F, effect [inner_shadow 12px offset 0 0 #BF97FF3D]
+      - FRAME "pseudo:mask-group", 125.16x36px, constraints left/top
+        - RECTANGLE "pseudo:mask", 125.16x36px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "pseudo", 125.16x36px, constraints left/top, radius 8px, fill #CFB8FF52
+      - TEXT "Start your 14-day trial", 147x20px, constraints left/top, fill #F4F0FF, text [Inter Medium, 14px]
+  - FRAME "Section", 1440x1339px, vertical pad 173 0 0 0px gap 232px align min/center sizing W:fixed H:fixed, constraints left_right/top
+    - FRAME "div.hero-content", 1440x168px, constraints center/top
+      - TEXT "Never miss a note, idea or connection.", 326x28px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 18px]
+      - TEXT "Heading 1 → Think better with Reflect", 788x80px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 72px], [heading]
+      - FRAME "div.section-header-badge", 291.25x32px, horizontal pad 5 13.75 7 15px gap 10px align min/center sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #FFFFFF01, stroke #4D2F8C 1px, effect [inner_shadow 11px offset 0 -7 #A48FFF1F]
+        - VECTOR "Vector", 18.5x16px, constraints left/top, fill #FFFFFF80
+        - TEXT "New: Our AI integration just landed", 234x20px, constraints left/top, fill gradient_linear(#E59CFF 0% | #BA9CFF 50% | #9CB2FF 100%), text [Inter Medium, 14px]
+        - FRAME "pseudo:mask-group", 103.75x32px, constraints left/top, stroke #000000 1px, effect [layer_blur 84px]
+          - RECTANGLE "pseudo:mask", 103.75x32px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "pseudo", 103.75x32px, constraints left/top, radius 32px, fill gradient_linear(#E59CFF3D 0% | #BA9CFF3D 50% | #9CB2FF3D 100%), effect [drop_shadow 4px offset 0 4 #00000040]
+    - FRAME "div.hero-video", 1216x766px, constraints center/top [decorative, ~5 shapes]
+    - FRAME "div.hero-black-hole:mask-group", 1440x810px, constraints scale/top [decorative, ~33 shapes]
+  - FRAME "Section", 1440x1287px, constraints left_right/top
+    - FRAME "div.ai-background", 1440x835px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top_bottom
+      - RECTANGLE "q-6c12dbae.png", 1440x835px, constraints left_right/top_bottom, fill image(hash: 5d3fc7562b3454b57dbfd13b639f4b550f37a55c)
+      - FRAME "div.rising-stars:mask-group", 282x300px, constraints scale/top [decorative, ~4 shapes]
+      - FRAME "div.ai-showcase", 578x140px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints scale/top, radius 24px, fill #FFFFFF03, stroke #FFFFFF1A 1px, effect [inner_shadow 0px offset 0 0 #FFFFFF08]
+        - FRAME "div.ai-showcase-outer-starlight:mask-group", 1x356px, horizontal pad 0 0 151.15 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "div.ai-showcase-outer-starlight:mask", 1x356px, constraints left/top, fill gradient_linear(#D9D9D900 0% | #D9D9D9 25% | #D9D9D9 75% | #D9D9D900 100%)
+          - RECTANGLE "pseudo", 1x356px, constraints left_right/top_bottom, fill gradient_linear(#C9B1FF00 0% | #C9B1FF 50% | #C9B1FF00 100%), opacity 25%
+        - FRAME "div.ai-showcase-outer-starlight:mask-group", 1x356px, horizontal pad 68.97 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "div.ai-showcase-outer-starlight:mask", 1x356px, constraints left/top, fill gradient_linear(#D9D9D900 0% | #D9D9D9 25% | #D9D9D9 75% | #D9D9D900 100%)
+          - RECTANGLE "pseudo", 1x356px, constraints left_right/top_bottom, fill gradient_linear(#C9B1FF00 0% | #C9B1FF 50% | #C9B1FF00 100%), opacity 25%
+        - FRAME "div.ai-showcase-outer-starlight:mask-group", 1x356px, horizontal pad 135.94 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "div.ai-showcase-outer-starlight:mask", 1x356px, constraints left/top, fill gradient_linear(#D9D9D900 0% | #D9D9D9 25% | #D9D9D9 75% | #D9D9D900 100%)
+          - RECTANGLE "pseudo", 1x356px, constraints left_right/top_bottom, fill gradient_linear(#C9B1FF00 0% | #C9B1FF 50% | #C9B1FF00 100%), opacity 25%
+        - FRAME "div.ai-showcase-outer-starlight:mask-group", 1x356px, horizontal pad 188.5 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "div.ai-showcase-outer-starlight:mask", 1x356px, constraints left/top, fill gradient_linear(#D9D9D900 0% | #D9D9D9 25% | #D9D9D9 75% | #D9D9D900 100%)
+          - RECTANGLE "pseudo", 1x356px, constraints left_right/top_bottom, fill gradient_linear(#C9B1FF00 0% | #C9B1FF 50% | #C9B1FF00 100%), opacity 25%
+        - FRAME "div.ai-showcase-inner", 560x122px, horizontal pad 24 282 74 33px gap 0px sizing W:fixed H:fixed, constraints left/top_bottom, radius 16px, fill #0401151A, stroke #FFFFFF1A 1px, effect [background_blur 34px]
+          - TEXT "How to use AI to take better notes", 245x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 15px]
+          - FRAME "div.ai-showcase-inner-starlight:mask-group", 180x8px, horizontal pad 0 0 7 160.4px gap 0px sizing W:fixed H:fixed, constraints right/top
+            - RECTANGLE "div.ai-showcase-inner-starlight:mask", 180x8px, constraints right/top, fill gradient_linear(#D9D9D900 0% | #D9D9D9 25% | #D9D9D9 75% | #D9D9D900 100%)
+            - RECTANGLE "pseudo", 180x1px, constraints left_right/top, fill gradient_linear(#C9B1FF00 0% | #C9B1FF 50% | #C9B1FF00 100%), opacity 50%
+          - FRAME "div.ai-showcase-inner-starlight:mask-group", 180x8px, horizontal pad 0 160.4 7 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+            - RECTANGLE "div.ai-showcase-inner-starlight:mask", 180x8px, constraints left/bottom, fill gradient_linear(#D9D9D900 0% | #D9D9D9 25% | #D9D9D9 75% | #D9D9D900 100%)
+            - RECTANGLE "pseudo", 180x1px, constraints left_right/top, fill gradient_linear(#C9B1FF00 0% | #C9B1FF 50% | #C9B1FF00 100%), opacity 50%
+          - FRAME "div.ai-showcase-text", 366.22x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "span.dot", 4x24px, constraints left/top_bottom, radius 2px, fill #FFFFFF3D
+            - FRAME "div", 346.22x24px, horizontal pad 0 0.22 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top_bottom
+          - FRAME "Button - Click to see AI magic", 148.22x26px, horizontal pad 1 5.22 1 6px gap 0px align min/center sizing W:fixed H:fixed, constraints right/top
+            - FRAME "SVG", 24x24px, constraints center/top
+            - FRAME "div.ai-showcase-button-text", 113x24px, horizontal pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/center
+    - FRAME "div.ai-cards", 1440x406px, vertical pad 0 270 0 270px gap 38px align min/center sizing W:fixed H:fixed, constraints left_right/top
+      - TEXT "Heading 3 → What can you do with Reflect AI?", 469x40px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 32px], [heading]
+      - FRAME "div.ai-cards-items", 900x328px, constraints center/top
+        - RECTANGLE "pseudo", 948x1px, constraints left/top, fill gradient_linear(#FFFFFF00 0% | #FFFFFF14 24% | #FFFFFF14 50% | #FFFFFF14 75% | #FFFFFF00 100%)
+        - FRAME "div.ai-cards-item", 300x164px, constraints center/top_bottom
+          - FRAME "SVG", 40x40px, constraints center/top
+            - VECTOR "Vector", 16.63x13.2px, constraints scale/scale, stroke #FFFFFF 1px
+            - VECTOR "Vector", 12x16.8px, constraints scale/scale, fill gradient_linear(#FFFFFF00 0% | #FFFFFF 100%), stroke #FFFFFF 1px
+            - VECTOR "Vector", 8x2px, constraints scale/scale, stroke #FFFFFF52 1px
+          - TEXT "Transcribe voice notes", 172x24px, constraints center/top, fill #F4F0FF, text [Inter Regular, 16px]
+          - TEXT "with human-level accuracy", 204x24px, constraints center/top, fill #EFEDFD99, text [Inter Regular, 16px]
+          - RECTANGLE "pseudo", 1x164px, constraints left/scale, fill gradient_linear(#FFFFFF1F 0% | #FFFFFF00 100%)
+        - FRAME "div.ai-cards-item", 300x164px, constraints center/top_bottom
+          - FRAME "SVG", 40x40px, constraints center/top [decorative, ~7 shapes]
+          - TEXT "Generate article outlines", 186x24px, constraints center/top, fill #F4F0FF, text [Inter Regular, 16px]
+          - TEXT "from your scattered thoughts", 222x24px, constraints center/top, fill #EFEDFD99, text [Inter Regular, 16px]
+          - RECTANGLE "pseudo", 1x164px, constraints left/scale, fill gradient_linear(#FFFFFF1F 0% | #FFFFFF00 100%)
+        - FRAME "div.ai-cards-item", 300x164px, constraints center/top_bottom
+          - FRAME "SVG", 40x40px, constraints center/top [decorative, ~7 shapes]
+          - TEXT "List key takeaways and action", 227x24px, constraints center/top, fill #F4F0FF, text [Inter Regular, 16px]
+          - TEXT "items from your meeting notes", 231x24px, constraints center/top, fill #EFEDFD99, text [Inter Regular, 16px]
+        - FRAME "div.ai-cards-item", 300x164px, constraints center/top_bottom
+          - FRAME "SVG", 40x40px, constraints center/top [decorative, ~8 shapes]
+          - TEXT "Fix grammar, spelling,", 165x24px, constraints center/top, fill #F4F0FF, text [Inter Regular, 16px]
+          - TEXT "and improve your writing", 187x24px, constraints center/top, fill #EFEDFD99, text [Inter Regular, 16px]
+          - RECTANGLE "pseudo", 1x164px, constraints left/scale, fill gradient_linear(#FFFFFF1F 0% | #FFFFFF00 100%)
+        - FRAME "div.ai-cards-item", 300x164px, constraints center/top_bottom
+          - FRAME "SVG", 40x40px, constraints center/top [decorative, ~6 shapes]
+          - TEXT "Save your own", 111x24px, constraints center/top, fill #F4F0FF, text [Inter Regular, 16px]
+          - TEXT "custom prompts", 123x24px, constraints center/top, fill #EFEDFD99, text [Inter Regular, 16px]
+    - FRAME "div.section-header", 1440x168px, constraints left_right/top
+      - TEXT "Heading 2 → Notes with an AI assistant", 655x64px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 56px], [heading]
+      - FRAME "p.section-header-description", 744x48px, horizontal pad 0 108 0 108px gap 0px align center/min sizing W:fixed H:fixed, constraints center/top
+        - TEXT "Reflect uses GPT-4 and Whisper from OpenAI to improve your w", 528x48px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+      - FRAME "div.section-header-badge", 93.75x32px, horizontal pad 5 13.75 7 15px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #FFFFFF01, stroke #4D2F8C 1px, effect [inner_shadow 11px offset 0 -7 #A48FFF1F]
+        - TEXT "Reflect AI", 65x20px, constraints left/top, fill gradient_linear(#E59CFF 0% | #BA9CFF 50% | #9CB2FF 100%), text [Inter Medium, 14px]
+        - FRAME "pseudo:mask-group", 103.75x32px, constraints left/top, stroke #000000 1px, effect [layer_blur 84px]
+          - RECTANGLE "pseudo:mask", 103.75x32px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "pseudo", 103.75x32px, constraints left/top, radius 32px, fill gradient_linear(#E59CFF3D 0% | #BA9CFF3D 50% | #9CB2FF3D 100%), effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Section", 1440x1241px, vertical pad 496 0 145 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left_right/top
+    - FRAME "div.rising-stars:mask-group", 936x212px, constraints scale/top [decorative, ~4 shapes]
+    - FRAME "div.section-header", 1440x168px, constraints left_right/top
+      - TEXT "Heading 2 → Give your brain superpowers", 713x64px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 56px], [heading]
+      - FRAME "p.section-header-description", 545x48px, horizontal pad 0 2.02 0 0.98px gap 0px align center/min sizing W:fixed H:fixed, constraints center/top
+        - TEXT "Mirror the way your mind works by associating notes through ", 542x48px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+      - FRAME "div.section-header-badge", 199.75x32px, horizontal pad 5 13.75 7 15px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #FFFFFF01, stroke #4D2F8C 1px, effect [inner_shadow 11px offset 0 -7 #A48FFF1F]
+        - TEXT "All your notes, connected", 171x20px, constraints left/top, fill gradient_linear(#E59CFF 0% | #BA9CFF 50% | #9CB2FF 100%), text [Inter Medium, 14px]
+        - FRAME "pseudo:mask-group", 103.75x32px, constraints left/top, stroke #000000 1px, effect [layer_blur 84px]
+          - RECTANGLE "pseudo:mask", 103.75x32px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "pseudo", 103.75x32px, constraints left/top, radius 32px, fill gradient_linear(#E59CFF3D 0% | #BA9CFF3D 50% | #9CB2FF3D 100%), effect [drop_shadow 4px offset 0 4 #00000040]
+    - FRAME "div.connected-cards", 936x384px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "div.connected-card", 468x384px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top_bottom, fill gradient_radial(#FFFFFF08 0% | #03001400 100%)
+        - FRAME "graph", 468x256px, constraints left/top
+          - FRAME "q-c92fad10.png", 468x256px, constraints left_right/top_bottom, fill image(hash: 0e0b93789f680040932a23db46863f95278916f9)
+          - FRAME "SVG", 77x87px, horizontal pad 1 1 0.7 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+            - VECTOR "Vector", 76x85.3px, constraints scale/scale, stroke gradient_linear(#FF79D9 0% | #A479FF 100%) 1px
+          - FRAME "SVG", 149x60px, horizontal pad 1 0.5 0.5 0.96px gap 0px sizing W:fixed H:fixed, constraints center/top
+            - VECTOR "Vector", 147.54x58.5px, constraints scale/scale, stroke gradient_linear(#79FFBF 0% | #A479FF 100%) 1px
+          - FRAME "SVG", 124x62px, horizontal pad 1 0 1 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+            - VECTOR "Vector", 124x60px, constraints scale/scale, stroke gradient_linear(#7996FF 0% | #A479FF 100%) 1px
+          - FRAME "SVG", 126x61px, horizontal pad 0 1 1 1px gap 0px sizing W:fixed H:fixed, constraints center/top
+            - VECTOR "Vector", 124x60px, constraints scale/scale, stroke gradient_linear(#FFC179 0% | #A479FF 100%) 1px
+          - FRAME "div.connected-card-backlink-circle", 32x32px, constraints left/top, radius 999px, fill #FF79D908, stroke #FF79D91A 1px
+            - FRAME "div.connected-card-backlink-circle-inner", 24x24px, constraints scale/scale, radius 999px, fill #FF79D903, effect [inner_shadow 5px offset 0 0 #FF79D940, drop_shadow 20px offset 0 0 #FF79D940]
+            - FRAME "pseudo", 98.99x26px, horizontal pad 5 9.99 5 11px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #0A081BB2, stroke #FFFFFF0D 1px
+          - FRAME "div.connected-card-backlink-circle", 32x32px, constraints left/top, radius 999px, fill #79FFBF08, stroke #79FFBF1A 1px
+            - FRAME "div.connected-card-backlink-circle-inner", 24x24px, constraints scale/scale, radius 999px, fill #79FFBF03, effect [inner_shadow 5px offset 0 0 #79FFBF40, drop_shadow 20px offset 0 0 #79FFBF40]
+            - FRAME "pseudo", 106.75x26px, horizontal pad 5 10.75 5 11px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #0A081BB2, stroke #FFFFFF0D 1px
+          - FRAME "div.connected-card-backlink-circle", 40x40px, constraints left/top, radius 999px, fill #A479FF08, stroke #A479FF1A 1px
+            - FRAME "div.connected-card-backlink-circle-inner", 32x32px, constraints scale/scale, radius 999px, fill #A479FF03, effect [inner_shadow 5px offset 0 0 #A479FF40, drop_shadow 20px offset 0 0 #A479FF40]
+            - FRAME "pseudo", 61.8x26px, horizontal pad 5 10.8 5 11px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #0A081BB2, stroke #FFFFFF0D 1px
+          - FRAME "div.connected-card-backlink-circle", 32x32px, constraints left/top, radius 999px, fill #7996FF08, stroke #7996FF1A 1px
+            - FRAME "div.connected-card-backlink-circle-inner", 24x24px, constraints scale/scale, radius 999px, fill #7996FF03, effect [inner_shadow 5px offset 0 0 #7996FF40, drop_shadow 20px offset 0 0 #7996FF40]
+            - FRAME "pseudo", 105.55x26px, horizontal pad 5 10.55 5 11px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #0A081BB2, stroke #FFFFFF0D 1px
+          - FRAME "div.connected-card-backlink-circle", 32x32px, constraints left/top, radius 999px, fill #FFC17908, stroke #FFC1791A 1px
+            - FRAME "div.connected-card-backlink-circle-inner", 24x24px, constraints scale/scale, radius 999px, fill #FFC17903, effect [inner_shadow 5px offset 0 0 #FFC17940, drop_shadow 20px offset 0 0 #FFC17940]
+            - FRAME "pseudo", 113.88x26px, horizontal pad 5 9.88 5 11px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #0A081BB2, stroke #FFFFFF0D 1px
+        - FRAME "div.connected-card-content", 468x128px, vertical pad 0 32 32 32px gap 16px sizing W:fixed H:fixed, constraints left_right/top
+          - FRAME "SVG", 32x32px, constraints center/top
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill gradient_linear(#FFFFFF00 0% | #FFFFFF 100%), stroke #FFFFFF 1px
+            - VECTOR "Vector", 16x16px, constraints scale/scale, stroke #FFFFFF 1px, opacity 20%
+            - VECTOR "Vector", 16x16px, constraints scale/scale, stroke #FFFFFF 1px, opacity 20%
+          - FRAME "div.connected-card-text", 404x48px, constraints left_right/top
+            - TEXT "Your thoughts connected.", 199x24px, constraints left/top, fill #F4F0FF, text [Inter Medium, 16px]
+            - RECTANGLE "pseudo", 1x16px, constraints left/top, fill #F3EEFF3D
+            - TEXT "Backlink your notes to", 168x24px, constraints left/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+            - TEXT "make everything easily searchable.", 265x24px, constraints left/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+      - FRAME "div.connected-card", 468x384px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top_bottom, fill gradient_radial(#FFFFFF08 0% | #03001400 100%)
+        - RECTANGLE "q-f6418f24.png", 468x256px, constraints left_right/top_bottom, fill image(hash: 855bd636812be95fbb29b5f939c42167715a1bb3)
+        - FRAME "div.connected-card-content", 468x128px, vertical pad 0 32 32 32px gap 16px sizing W:fixed H:fixed, constraints left_right/top
+          - FRAME "SVG", 32x32px, constraints center/top [decorative, ~6 shapes]
+          - FRAME "div.connected-card-text", 404x48px, constraints left_right/top
+            - TEXT "Frictionless thought capture.", 221x24px, constraints left/top, fill #F4F0FF, text [Inter Medium, 16px]
+            - RECTANGLE "pseudo", 1x16px, constraints left/top, fill #F3EEFF3D
+            - TEXT "Record your ideas and", 170x24px, constraints left/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+            - TEXT "to-do’s easily, so you never miss a thing.", 305x24px, constraints left/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+      - RECTANGLE "div.connected-cards-line", 456x1px, constraints left/top, fill gradient_linear(#F3EEFF1F 0% | #F3EEFF00 100%)
+      - RECTANGLE "div.connected-cards-line", 456x1px, constraints left/bottom, fill gradient_linear(#F3EEFF1F 0% | #F3EEFF00 100%)
+      - RECTANGLE "div.connected-cards-line", 1x280px, constraints left/top, fill gradient_linear(#F3EEFF1F 0% | #F3EEFF00 100%)
+      - RECTANGLE "div.connected-cards-line", 1x384px, constraints left/top, fill gradient_linear(#F3EEFF1F 0% | #F3EEFF00 100%)
+      - RECTANGLE "div.connected-cards-line", 1x256px, constraints right/top, fill gradient_linear(#F3EEFF1F 0% | #F3EEFF00 100%)
+    - RECTANGLE "q-44e26a19.png", 806x849px, constraints scale/top, fill image(hash: 8e4f2d3345a086329165f4ce3f46e1afddd431f6)
+  - FRAME "Section", 890x1110px, constraints center/top
+    - FRAME "div.research-radar", 890x890px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top_bottom [decorative, ~4 shapes]
+    - RECTANGLE "div", 1x212px, constraints left/top, fill gradient_linear(#F3EEFF1F 0% | #FFFFFF00 100%)
+    - RECTANGLE "div", 1x212px, constraints right/top, fill gradient_linear(#F3EEFF1F 0% | #FFFFFF00 100%)
+    - FRAME "div.research-cards", 890x212px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+      - FRAME "div.research-card", 445x212px, constraints left_right/top_bottom
+        - FRAME "SVG", 40x40px, constraints center/top [decorative, ~6 shapes]
+        - TEXT "Integrated with your devices", 219x24px, constraints center/top, fill #F4F0FF, text [Inter Medium, 16px]
+        - FRAME "div.research-card-description", 381x48px, horizontal pad 0 22.45 0 23.55px gap 0px align center/min sizing W:fixed H:fixed, constraints left_right/top
+          - TEXT "We're everywhere, mobile or desktop, online or offline. Ever", 335x48px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+        - RECTANGLE "pseudo", 1x16px, constraints left/top, fill #FFFFFF3D
+      - FRAME "div.research-card", 445x212px, constraints left_right/top_bottom
+        - FRAME "SVG", 40x40px, constraints center/top
+          - VECTOR "Vector", 28x30px, constraints scale/scale, fill gradient_linear(#FFFFFF00 0% | #FFFFFF 100%), stroke #FFFFFF 1.5px
+          - VECTOR "Vector", 6x5.37px, constraints scale/scale, stroke #FFFFFF 1.5px
+          - VECTOR "Vector", 10x7px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 1.5px
+        - TEXT "Secure but open", 126x24px, constraints center/top, fill #F4F0FF, text [Inter Medium, 16px]
+        - FRAME "div.research-card-description", 381x48px, horizontal pad 0 6.83 0 6.17px gap 0px align center/min sizing W:fixed H:fixed, constraints left_right/top
+          - TEXT "End-to-end encryption keeps your notes secure. Our export an", 368x48px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+        - RECTANGLE "pseudo", 1x16px, constraints left/top, fill #FFFFFF3D
+      - RECTANGLE "div", 1x132px, constraints left/top, fill gradient_linear(#F3EEFF00 0% | #F3EEFF1F 100%)
+      - RECTANGLE "div", 1x180px, constraints scale/top, fill gradient_linear(#F3EEFF00 0% | #F3EEFF1F 100%)
+      - RECTANGLE "div", 1x212px, constraints right/top, fill gradient_linear(#F3EEFF00 0% | #F3EEFF1F 100%)
+    - FRAME "div.section-header", 890x168px, constraints left_right/top
+      - TEXT "Heading 2 → Never lose information", 572x64px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 56px], [heading]
+      - FRAME "p.section-header-description", 614x48px, horizontal pad 0 0.16 0 0.84px gap 0px align center/min sizing W:fixed H:fixed, constraints center/top
+        - TEXT "Collect your web snippets, Kindle highlights and important l", 613x48px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+      - FRAME "div.section-header-badge", 174.75x32px, horizontal pad 5 13.75 7 15px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #FFFFFF01, stroke #4D2F8C 1px, effect [inner_shadow 11px offset 0 -7 #A48FFF1F]
+        - TEXT "Research and reading", 146x20px, constraints left/top, fill gradient_linear(#E59CFF 0% | #BA9CFF 50% | #9CB2FF 100%), text [Inter Medium, 14px]
+        - FRAME "pseudo:mask-group", 103.75x32px, constraints left/top, stroke #000000 1px, effect [layer_blur 84px]
+          - RECTANGLE "pseudo:mask", 103.75x32px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "pseudo", 103.75x32px, constraints left/top, radius 32px, fill gradient_linear(#E59CFF3D 0% | #BA9CFF3D 50% | #9CB2FF3D 100%), effect [drop_shadow 4px offset 0 4 #00000040]
+  - GROUP "Group 35519", 1422.57x1422.57px, constraints left/top
+    - FRAME "div.research-radar-scanner:mask", 1074.5x1074.5px, horizontal pad 0 52 391 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 711.82x830.03px, constraints scale/scale, fill #000000
+    - FRAME "div.research-radar-scanner", 1074.5x1074.5px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "pseudo", 1074.5x1074.5px, constraints left_right/top_bottom, radius 392px, fill gradient_linear(#6366F166 13% | #03001400 50%)
+      - RECTANGLE "pseudo", 5.96x391.99px, constraints left/top, fill gradient_linear(#FFFFFF3D 0% | #FFFFFF00 100%)
+  - FRAME "Section", 1440x696px, vertical pad 222 660.61 372 660.59px gap 48px align min/center sizing W:fixed H:fixed, constraints left_right/top
+    - FRAME "div.lazy-video:mask-group", 1568x886px, horizontal pad 0 0 4 0px gap 0px align center/min sizing W:fixed H:fixed, constraints scale/scale
+      - RECTANGLE "div.lazy-video:mask", 1568x886px, constraints scale/scale, fill gradient_radial(#FFFFFF 61% | #00000000 100%)
+      - RECTANGLE "image", 1568x882px, constraints left/top, fill image(hash: 03cbff63e5a3e3cce9acd94a5aafbd99f64b7339)
+      - FRAME "div.section-header-badge", 101.75x32px, horizontal pad 5 13.75 7 15px gap 0px align min/center sizing W:fixed H:fixed, constraints center/center, radius 32px, fill #FFFFFF01, stroke #4D2F8C 1px, effect [inner_shadow 11px offset 0 -7 #A48FFF1F]
+        - TEXT "Encryption", 73x20px, constraints left/top, fill gradient_linear(#E59CFF 0% | #BA9CFF 50% | #9CB2FF 100%), text [Inter Medium, 14px]
+        - FRAME "pseudo:mask-group", 103.75x32px, constraints left/top, stroke #000000 1px, effect [layer_blur 84px]
+          - RECTANGLE "pseudo:mask", 103.75x32px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "pseudo", 103.75x32px, constraints left/top, radius 32px, fill gradient_linear(#E59CFF3D 0% | #BA9CFF3D 50% | #9CB2FF3D 100%), effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 35520", 458x136px, constraints center/center, radius 0/0/0/0px
+        - TEXT "Heading 2 → Give your brain superpowers", 457x64px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 56px], [heading]
+        - TEXT "The contents of your notes are end-to-end encrypted. No one ", 458x48px, constraints left/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+    - FRAME "div.encryption-logo", 80x102px, vertical pad 0 0 0 0px gap -22px align min/center sizing W:fixed H:fixed, constraints center/top
+      - RECTANGLE "image", 52x44px, constraints center/top, fill image(hash: 3f8df73213d5819d8a199983860841102139aeef)
+      - RECTANGLE "q-92fb8db8.png", 80x80px, constraints left/top, fill image(hash: bcb5543b467496c496d4c2c24eae74243c1a5650)
+  - FRAME "Section", 1440x1154px, constraints left_right/top
+    - RECTANGLE "q-7bea4872.png", 812x431px, constraints left_right/top_bottom, fill image(hash: 31a9e7f5224f9eeb0c5209a7e476a74391a14879)
+    - FRAME "div.section-header", 1440x232px, constraints left_right/top
+      - FRAME "Heading 2", 1440x128px, horizontal pad 0 508.41 0 508.59px gap 0px align center/min sizing W:fixed H:fixed, constraints left_right/top
+        - TEXT "Get more out of your meetings", 423x128px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 56px], [heading]
+      - FRAME "div.section-header-badge", 91.75x32px, horizontal pad 5 13.75 7 15px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #FFFFFF01, stroke #4D2F8C 1px, effect [inner_shadow 11px offset 0 -7 #A48FFF1F]
+        - TEXT "Meetings", 63x20px, constraints left/top, fill gradient_linear(#E59CFF 0% | #BA9CFF 50% | #9CB2FF 100%), text [Inter Medium, 14px]
+        - FRAME "pseudo:mask-group", 103.75x32px, constraints left/top, stroke #000000 1px, effect [layer_blur 84px]
+          - RECTANGLE "pseudo:mask", 103.75x32px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "pseudo", 103.75x32px, constraints left/top, radius 32px, fill gradient_linear(#E59CFF3D 0% | #BA9CFF3D 50% | #9CB2FF3D 100%), effect [drop_shadow 4px offset 0 4 #00000040]
+      - FRAME "p.section-header-description", 554x48px, horizontal pad 0 0 0 0.08px gap 0px align center/min sizing W:fixed H:fixed, constraints center/top
+        - TEXT "Keep track of all your meetings and what was discussed. Impo", 555x48px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+    - FRAME "reflect.app by html.to.design ❤️ FREE version - 12/08/2023, ", 896x466px, constraints center/top
+      - FRAME "q-e30fe909.png", 896x466px, constraints scale/scale, fill image(hash: f1019cccdbafe283ca696e71fcb4a29d82282990)
+      - FRAME "div.meetings-piece-box:mask-group", 372x80px, horizontal pad 8 8 8 108px gap 0px align max/min sizing W:fixed H:fixed, constraints right/top
+        - RECTANGLE "div.meetings-piece-box:mask", 372x80px, constraints right/top, fill gradient_linear(#00000000 0% | #FFFFFF 31%)
+        - FRAME "div.meetings-piece-box-inner", 256x64px, horizontal pad 11 41 12 21px gap 20px align min/center sizing W:fixed H:fixed, constraints right/top, radius 8px, fill #060317F5, effect [inner_shadow 24px offset 0 0 #FFFFFF0A]
+          - RECTANGLE "image 68", 26x26px, constraints left/top, fill image(hash: 216ee8635d2339017230874448b3eee8824c6f3e)
+          - FRAME "div.h2d-e8199581", 151x41px, vertical pad 0 0 1 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+            - TEXT "Google Calendar", 104x20px, constraints left/top, fill #FFFFFFCC, text [Inter Medium, 13px]
+            - TEXT "alexmaccaw@gmail.com", 151x20px, constraints left/top, fill #FFFFFF70, text [Inter Regular, 13px]
+          - RECTANGLE "pseudo", 256x64px, constraints left/top, radius 8px, stroke #FFFFFF0D 1px
+      - FRAME "div.meetings-piece-box:mask-group", 372x80px, horizontal pad 8 8 8 108px gap 0px align max/min sizing W:fixed H:fixed, constraints right/top
+        - RECTANGLE "div.meetings-piece-box:mask", 372x80px, constraints right/top, fill gradient_linear(#00000000 0% | #FFFFFF 31%)
+        - FRAME "div.meetings-piece-box-inner", 256x64px, horizontal pad 11 41 12 21px gap 20px align min/center sizing W:fixed H:fixed, constraints right/top, radius 8px, fill #060317F5, effect [inner_shadow 24px offset 0 0 #FFFFFF0A]
+          - RECTANGLE "image 69", 32x30px, constraints left/top, fill image(hash: c5ea5f356c77d0ec06403a2b27225d22679595bc)
+          - FRAME "div.h2d-b6d96fbe", 164x41px, vertical pad 0 0 1 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+            - TEXT "Outlook", 49x20px, constraints left/top, fill #FFFFFFCC, text [Inter Medium, 13px]
+            - TEXT "alexmaccaw@outlook.com", 164x20px, constraints left/top, fill #FFFFFF70, text [Inter Regular, 13px]
+          - RECTANGLE "pseudo", 256x64px, constraints left/top, radius 8px, stroke #FFFFFF0D 1px
+      - FRAME "div.meetings-piece-box:mask-group", 672x210px, horizontal pad 8 336 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "div.meetings-piece-box:mask", 672x210px, constraints left/top, fill gradient_linear(#00000000 0% | #FFFFFF 50%)
+        - FRAME "div.meetings-piece-box-inner", 336x202px, constraints left/top, radius 8px, fill #060317F5, effect [inner_shadow 24px offset 0 0 #FFFFFF0A]
+          - TEXT "Meetings", 58x24px, constraints left/top, fill #FFFFFF52, text [Inter Medium, 13px]
+          - FRAME "div.meetings-piece-box-item", 304x42px, horizontal pad 8 9 9 15px gap 10.57px align space_between/center sizing W:fixed H:fixed, constraints left_right/top, radius 6px, fill #FFFFFF05, stroke #FFFFFF0D 1px, effect [inner_shadow 24px offset 0 0 #FFFFFF0F]
+            - FRAME "div.meetings-piece-box-item-title", 195x25px, horizontal pad 0 5 1 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+            - FRAME "div.meetings-piece-box-item-detail", 74.43x25px, horizontal pad 0 0 0 0px gap 3.43px align min/max sizing W:fixed H:fixed, constraints left/center
+          - FRAME "div.meetings-piece-box-item", 304x42px, horizontal pad 8 9 9 15px gap 11.53px align space_between/center sizing W:fixed H:fixed, constraints left_right/top, radius 6px, fill #FFFFFF05, stroke #FFFFFF0D 1px, effect [inner_shadow 24px offset 0 0 #FFFFFF0F]
+            - FRAME "div.meetings-piece-box-item-title", 195x25px, horizontal pad 0 1 1 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+            - FRAME "div.meetings-piece-box-item-detail", 73.47x25px, horizontal pad 0 0 0 0px gap 3.47px align min/max sizing W:fixed H:fixed, constraints left/center
+          - FRAME "div.meetings-piece-box-item", 304x42px, horizontal pad 8 9 9 15px gap 19.73px align space_between/center sizing W:fixed H:fixed, constraints left_right/top, radius 6px, fill #FFFFFF05, stroke #FFFFFF0D 1px, effect [inner_shadow 24px offset 0 0 #FFFFFF0F]
+            - FRAME "div.meetings-piece-box-item-title", 180x25px, horizontal pad 0 0 1 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+            - FRAME "div.meetings-piece-box-item-detail", 80.27x25px, horizontal pad 0 0 0 0px gap 3.27px align min/max sizing W:fixed H:fixed, constraints left/center
+          - RECTANGLE "pseudo", 336x202px, constraints left/top, radius 8px, stroke #FFFFFF1A 1px
+    - RECTANGLE "div.meetings-animation-fader", 1440x241px, constraints center/bottom, fill gradient_linear(#03001400 0% | #03001480 34% | #030014 82%)
+  - FRAME "Section", 1440x940px, vertical pad 116 0 172 0px gap 48px align min/center sizing W:fixed H:fixed, constraints center/top, fill gradient_radial(#9465FF0F 0% | #03001400 100%)
+    - FRAME "div.integrations-static-lines", 1000x408px, horizontal pad 0 0 0 0px gap 998px align space_between/min sizing W:fixed H:fixed, constraints scale/top
+      - RECTANGLE "pseudo", 1x408px, constraints left/top_bottom, fill gradient_linear(#F3EEFF00 0% | #F3EEFF1F 100%)
+      - RECTANGLE "pseudo", 1x408px, constraints left/top_bottom, fill gradient_linear(#F3EEFF00 0% | #F3EEFF1F 100%)
+    - FRAME "div.section-header", 1440x172px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left_right/top
+      - FRAME "div.section-header-badge", 109.75x32px, horizontal pad 5 13.75 7 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF01, stroke #4D2F8C 1px, effect [inner_shadow 11px offset 0 -7 #A48FFF1F]
+        - TEXT "Integrations", 81x20px, constraints left/top, fill gradient_linear(#E59CFF 0% | #BA9CFF 50% | #9CB2FF 100%), text [Inter Medium, 14px]
+        - FRAME "pseudo:mask-group", 103.75x32px, constraints left/top, stroke #000000 1px, effect [layer_blur 84px]
+          - RECTANGLE "pseudo:mask", 103.75x32px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "pseudo", 103.75x32px, constraints left/top, radius 32px, fill gradient_linear(#E59CFF3D 0% | #BA9CFF3D 50% | #9CB2FF3D 100%), effect [drop_shadow 4px offset 0 4 #00000040]
+      - FRAME "Heading 2", 1440x128px, constraints left_right/top
+        - TEXT "Use Reflect", 286x64px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 56px], [heading]
+        - TEXT "with other apps", 387x64px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFFB2 100%), text [Roboto Medium, 56px], [heading]
+    - FRAME "div.lazy-background-image", 984x432px, constraints center/top, fill image(hash: 30c904e67264ba34f3eef8541841cca96db2ddb6)
+      - FRAME "div.integrations-item", 468x219.5px, constraints left_right/top_bottom, fill gradient_radial(#FFFFFF14 0% | #03001400 100%)
+        - RECTANGLE "image", 40x40px, constraints center/top, fill image(hash: 18b5ee2159c2567ff94f3856adf9c35e20092d35)
+        - TEXT "Zapier", 49x24px, constraints center/top, fill #F4F0FF, text [Inter Medium, 16px]
+        - FRAME "div.integrations-item-description", 404x48px, horizontal pad 0 64.31 0 64.69px gap 0px align center/min sizing W:fixed H:fixed, constraints left_right/top
+          - TEXT "Connect with Reflect with dozens of applications without cod", 275x48px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+      - FRAME "div.integrations-item", 468x219.5px, constraints left_right/top_bottom, fill gradient_radial(#FFFFFF08 0% | #03001400 100%)
+        - RECTANGLE "image", 40x40px, constraints center/top, fill image(hash: 51bf1d0b6b2a609b4326649ba111d3e845f5e331)
+        - TEXT "Readwise", 74x24px, constraints center/top, fill #F4F0FF, text [Inter Medium, 16px]
+        - FRAME "div.integrations-item-description", 404x48px, horizontal pad 0 78.48 0 77.52px gap 0px align center/min sizing W:fixed H:fixed, constraints left_right/top
+          - TEXT "Sync your reading highlights and notes with Reflect.", 248x48px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+      - FRAME "div.integrations-item", 468x203.5px, constraints left_right/top_bottom, fill gradient_radial(#FFFFFF08 0% | #03001400 100%)
+        - RECTANGLE "q-ffb847cc.png", 112x48px, constraints center/top, fill image(hash: 3a12ec88a388175cf709f7b0e34ec02f431d857a)
+        - TEXT "Google and Outlook", 152x24px, constraints center/top, fill #F4F0FF, text [Inter Medium, 16px]
+        - TEXT "Integrate your contacts and calendars", 288x24px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+      - FRAME "div.integrations-item", 468x203.5px, constraints left_right/top_bottom, fill gradient_radial(#FFFFFF14 0% | #03001400 100%)
+        - RECTANGLE "q-0fbeed8c.png", 108x48px, constraints center/top, fill image(hash: c5f294d84a57cde1d778a7f3f7ac785d1b14e79d)
+        - TEXT "Chrome and Safari", 142x24px, constraints center/top, fill #F4F0FF, text [Inter Medium, 16px]
+        - TEXT "Save web clips and sync with your Kindle", 312x24px, constraints center/top, fill #EFEDFDB2, text [Inter Regular, 16px]
+      - FRAME "div.integrations-lines:mask-group", 1x424px, constraints scale/top
+        - RECTANGLE "div.integrations-lines:mask", 1x424px, constraints scale/top, fill gradient_linear(#FFFFFF00 0% | #FFFFFF 25% | #FFFFFF 50% | #FFFFFF 75% | #FFFFFF00 100%)
+        - FRAME "div.integrations-lines", 1x424px, constraints scale/top
+          - RECTANGLE "div", 1x50px, constraints left/scale, fill gradient_linear(#C9B1FF00 0% | #C9B1FF 50% | #C9B1FF00 100%), opacity 94%
+          - RECTANGLE "div", 1x50px, constraints left/scale, fill gradient_linear(#C9B1FF00 0% | #C9B1FF 50% | #C9B1FF00 100%), opacity 94%
+      - FRAME "div.integrations-waves", 48x48px, constraints scale/top
+        - RECTANGLE "image", 130.04x130.04px, constraints scale/scale, radius 65.02px, fill image(hash: 79d0f0e1a687d02dede079053c5f02c3c40d27a7), opacity 57%
+        - RECTANGLE "image", 132.12x132.12px, constraints scale/scale, radius 66.07px, fill image(hash: 4f5711a87317b3cbe2d759bd34d7d622b241c01d), effect [layer_blur 54px], opacity 23%
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Thumbnail / Frame 1
+- FRAME "Frame 1", 1500x888px, constraints left/top
+  - RECTANGLE "MacBook Air (2022)", 1500x888px, constraints left/top, fill image(hash: 329efc0639d248c5eb2b5adccef222cbcef933e4)
+
+Screen: Thumbnail / MacBook #13
+- RECTANGLE "MacBook #13", 1500x1125px, constraints left/top, fill image(hash: d80954103def0194d9e839e255d3c72ebf8a5cf3)
+
+Screen: Thumbnail / MacBook #01
+- RECTANGLE "MacBook #01", 1500x1125px, constraints left/top, fill image(hash: 98b06e9cac3d3d08c9e2a2b2d3f777d988930299)
+
+Screen: Thumbnail / Wireframe - 1
+- FRAME "Wireframe - 1", 1440x1024px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Background 1", 1440x1250px, constraints left/top, fill image(hash: b9eec71e83af6e46985346b1802da3ecb383443f)
+  - RECTANGLE "ZenBook Duo 14", 1418x811px, constraints center/center, fill image(hash: 8e62820926da00d4bca3921c4ff736538fe6a20c)
+
+Screen: Thumbnail / Wireframe - 2
+- FRAME "Wireframe - 2", 1440x1024px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Background 1", 1440x1250px, constraints left/top, fill image(hash: b9eec71e83af6e46985346b1802da3ecb383443f)
+  - RECTANGLE "MacBook Air (15 inch)", 1165x1024px, constraints center/top, fill image(hash: 778266f613ee76e2c279dd302606e5c90f337670)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

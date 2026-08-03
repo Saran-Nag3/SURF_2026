@@ -1,0 +1,1736 @@
+---
+name: vk-app-for-ipad-community
+source_file: VK App for iPad (Community)
+source_page: All pages (19): Getting Started, Guide, Feed, Core, Content, Messenger, Music, Stickers & Gifts, SuperAppKit, Video & Clips, Calls, E-Commerce, Communities, Concepts,     , Components, Prototype · Search at Explore, Prototype · Search at Home, _Meta
+generated_at: 2026-07-25T09:18:49.163165+00:00
+---
+
+# VK App for iPad (Community) Design Guidelines
+
+## Source
+- Figma file: VK App for iPad (Community)
+- Figma page: All pages (19): Getting Started, Guide, Feed, Core, Content, Messenger, Music, Stickers & Gifts, SuperAppKit, Video & Clips, Calls, E-Commerce, Communities, Concepts,     , Components, Prototype · Search at Explore, Prototype · Search at Home, _Meta
+- Extracted at: 2026-07-25T09:18:49.163165+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White / White: [#FFFFFF]
+- Azure / A100: [#2787F5]
+- Light Background / Page: [#EBEDF0]
+- Light Background / Content: [#FFFFFF]
+- Light Separator / Alpha: [#FFFFFF]
+- Light Text / Primary: [#000000]
+- Black / Alpha20: [#0000004D]
+- Light TabBar / Inactive Icon: [#99A2AD]
+- Light Counter / Prominent Background: [#FF3347]
+- Light Counter / Prominent Text: [#FFFFFF]
+- Light Accents / Accent: none
+- Colors/White: [#FFFFFF]
+- Colors/Grey 0 (#000): none
+- Light Accents / Destructive: none
+- Light TabBar / Active Icon: [#2975CC]
+- Light / Writebar Icon: [#3F8AE0]
+- Light / Input Background: [#F2F3F5]
+- Light / Input Border: [#F2F3F5]
+- Light Text / Placeholder: [#818C99]
+- Light Button / Commerce Background: [#4BB34B]
+- Light Button / Commerce Foreground: [#FFFFFF]
+- Light Icon / Secondary: [#99A2AD]
+- Light Text / Secondary: [#818C99]
+- Steel Gray / 300: [#99A2AD]
+- Light / Segmented Control Tint: none
+- Light Separator / Common: [#D7D8D9]
+- Light Accents / Accent: [#3F8AE0]
+- Light Icon / Tertiary: [#B8C1CC]
+- Light Header / Background: [#FFFFFF]
+- Light Search Bar / Field Background: [#EBEDF0]
+- Light Search Bar / Field Tint: [#818C99]
+- Light Icon / Tertiary Alpha: [#0000003D]
+- Light Header / Tint: [#3F8AE0]
+- Light Header / Text: [#000000]
+- Light / Image Border: [image(hash: f30218243badbb98a464d95eb4eb7c785244447e)]
+- Light Text / Action Counter: [#818C99]
+- Light Icon / Outline Secondary: [#99A2AD]
+- Light Text / Tertiary: [#99A2AD]
+- Light Background / Suggestions: [#FFFFFF]
+- Light Button / Outline Border: none
+- Light Button / Outline Foreground: [#3F8AE0]
+- Light Text/Muted: [#2C2D2E]
+- Light Background / Light: [#F9F9F9]
+- Light / Link Alternate: [#4986CC]
+- Light Text / Subhead: [#6D7885]
+- Light Button / Tertiary Background: [#00000000]
+- Light Button / Tertiary Foreground: [#4986CC]
+- Light Button / Primary Foreground: [#FFFFFF]
+- Light / Snippet Border: [#FFFFFF]
+- Light Button / Primary Background: [#4986CC]
+- Black / Black: [#000000]
+- Light Background / Snippet Background: [#FFFFFF]
+- Light Text / Muted: [#2C2D2E]
+- Light Button / Secondary Background: [#001C3D0D]
+- Light Button / Secondary Foreground: [#3F8AE0]
+- Light Separator / Alternate: [#FFFFFF]
+- Blue / 200: [#5C9CE6]
+- Other Colors / Green: [#4BB34B]
+- Light Icon / Outline Medium: [#818C99]
+- Light Field / Background: [#F2F3F5]
+- Light Placeholder/Icon Background: [#001C3D14]
+- Light Content Placeholder / Text: [#818C99]
+- Light TabBar / Tablet Active Icon: [#2975CC]
+- Light Dynamic / Blue: [#3F8AE0]
+- Light Text / Name: [#4986CC]
+- Light Icon / Medium: [#818C99]
+- Light Dynamic / Green: [#4BB34B]
+- Light Dynamic / Violet: [#792EC0]
+- Light Dynamic / Orange: [#FFA000]
+- Other Colors / Orange Fire: [#F05C44]
+- Light / Loader Track Value Fill: [#528BCC]
+- Light / Loader Track Fill: [#E1E3E6]
+- Light Ink: [#000000]
+- Light Primary: [#FFFFFF]
+- Light Secondary: [#AEB3BE]
+- Dark Ink: [#FFFFFF]
+- Dark Primary: [#646464]
+- Dark Secondary: [#3F3F3F]
+- Dark Action: [#D3D3D3]
+- Light Background / Modal Card Background: [#FFFFFF]
+- Light / Action Sheet Action Foreground: [#3F8AE0]
+- Light / Action Sheet Separator: [#0000001F]
+- Black / Alpha35: [#00000059]
+- Light / Panel Tab Active Background: [#EBEDF0]
+- Light / Snippet Icon Tertiary: none
+- Light Stories / Create Button Background From: [#F2F3F5]
+- Light Stories / Create Button Foreground: [#6D7885]
+- Light Modal / Card Border: [#FFFFFF]
+- Light Counter / Secondary Background: [#AEB7C2]
+- Light Counter / Secondary Text: [#FFFFFF]
+- Light Counter / Primary Background: [#3F8AE0]
+- Light Counter / Primary Text: [#FFFFFF]
+- Black / Alpha06: [#0000000F]
+- Poll / Orange: [gradient_linear(#D93651 0% | #D99816 100%)]
+- White / Alpha15: [#FFFFFF26]
+- Gradients / Black ↑: [gradient_linear(#00000000 0% | #00000004 9% | #0000000E 19% | #0000001E 28% | #00000033 38% | #0000004A 48% | #00000064 57% | #00000080 66% | #0000009B 74% | #000000B5 81% | #000000CC 88% | #000000E1 93% | #000000F1 97% | #000000FB 99% | #000000 100%)]
+- Light Background / Content Tint Background: [#F5F5F5]
+- Gray / 300: [#AAAEB3]
+- Light Text / Link: [#4986CC]
+- Gradients / White ↓: [gradient_linear(#FFFFFF00 0% | #FFFFFF04 9% | #FFFFFF0E 19% | #FFFFFF1E 28% | #FFFFFF33 38% | #FFFFFF4A 48% | #FFFFFF64 57% | #FFFFFF80 66% | #FFFFFF9B 74% | #FFFFFFB5 81% | #FFFFFFCC 88% | #FFFFFFE1 93% | #FFFFFFF1 97% | #FFFFFFFB 99% | #FFFFFF 100%)]
+- Black / Alpha12: [#FFFFFF]
+- Colors / Blue Bright: [#5C9CE6]
+- Light Blue / 400: [#7996B2]
+- Black / Black alpha12: [#0000001F]
+- Gray / 400: [#939393]
+- Blue / 400: none
+- WORKI/RGB/WHITE: [#FFFFFF]
+- Sky 300: [#71AAEB]
+- Light / Switch iOS Off Border: [#EBEDF0]
+- Gradient / Red: [gradient_linear(#FF5263 0% | #FF3347 100%)]
+- Gradients / Red: [gradient_linear(#FF5263 0% | #FF3347 100%)]
+- Black / Alpha60: [#00000099]
+- Dark / Image Border: [image(hash: be1c3a5d3adb481e8f4c100363ad1d27c0f02c4d)]
+- Black / Alpha75: [#000000BF]
+- Gray / 200: [#C4C8CC]
+- Gray / 800: [#2C2D2E]
+- Black / Black alpha40: [#00000066]
+- Black / Black alpha8: [image(hash: ebee3c4919a4458a179a23e57837dfdd0eadd72c), #0000000A]
+- Black / Black alpha16: [#00000029]
+- Steel Gray / 400: [#818C99]
+- Light Field / Border: [#F2F3F5]
+- Light Field / Error Background: [#FAEBEB]
+- Light Field / Error Border: [#FAEBEB]
+- Light Field / Valid Border: [#F2F3F5]
+- Light Button / Muted Background: [#F2F3F5]
+- Gray / 040: [#F2F3F5]
+- Red / Red: [#E64646]
+- Other Colors / Emerald: [#4CD964]
+- Gray / Gray750 Alpha56: [#3637388F]
+- Gray / Gray750 Alpha32: [#36373852]
+- White / Alpha60: none
+- Dark Gradients / Content Tint Background ↑: [gradient_linear(#23232400 0% | #23232404 9% | #2323240E 19% | #2323241E 28% | #23232433 38% | #2323244A 48% | #23232464 57% | #23232480 66% | #2323249B 74% | #232324B5 81% | #232324CC 88% | #232324E1 93% | #232324F1 97% | #232324FB 99% | #232324 100%)]
+- Gradients / Black ↓: [gradient_linear(#00000000 0% | #00000004 9% | #0000000E 19% | #0000001E 28% | #00000033 38% | #0000004A 48% | #00000064 57% | #00000080 66% | #0000009B 74% | #000000B5 81% | #000000CC 88% | #000000E1 93% | #000000F1 97% | #000000FB 99% | #000000 100%)]
+- White / Alpha20: [#FFFFFF33]
+- Dark Button / Secondary Destructive Foreground: none
+- Dark Button / Tertiary Foreground: [#E1E3E6]
+- Gray / 900: [#19191A]
+- Dark Background / Content: [#19191A]
+- Dark Separator / Common: [#363738]
+- Dark Text / Secondary: [#76787A]
+- Dark Icon / Tertiary: [#5D5F61]
+- Dark Icon / Secondary: [#76787A]
+- Dark Text / Primary: [#E1E3E6]
+- Dark Accents / Accent: [#71AAEB]
+- Dark Accents / Destructive: [#FF5C5C]
+- Dark Header / Background: [#19191A]
+- Dark Separator / Alpha: [#19191A]
+- Dark Icon / Medium: [#909499]
+- Dark Header / Text: [#E1E3E6]
+- Dark Button / Primary Background: [#E1E3E6]
+- Dark Button / Primary Foreground: [#19191A]
+- Gradients / Blue: [gradient_linear(#70B2FF 0% | #5C9CE6 100%)]
+- Dark Search Bar / Field Background: [#363738]
+- Dark Search Bar / Field Tint: [#AAAEB3]
+- Dark Icon / Tertiary Alpha: [#FFFFFF3D]
+- Dark Icon / Outline Medium: [#AAAEB3]
+- Dark Header / Tint: [#E1E3E6]
+- Light Gradients / Content Tint Background ↑: [gradient_linear(#F5F5F500 0% | #F5F5F504 9% | #F5F5F50E 19% | #F5F5F51E 28% | #F5F5F533 38% | #F5F5F54A 48% | #F5F5F564 57% | #F5F5F580 66% | #F5F5F59B 74% | #F5F5F5B5 81% | #F5F5F5CC 88% | #F5F5F5E1 93% | #F5F5F5F1 97% | #F5F5F5FB 99% | #F5F5F5 100%)]
+- Light Placeholder / Icon Foreground Secondary: [#AEB7C2]
+- Light Placeholder / Icon Background Opaque: [#F2F3F5]
+- Light Placeholder / Icon Foreground Primary: [#99A2AD]
+- Dark Background / Page: [#0A0A0A]
+- Dark TabBar / Inactive Icon: [#76787A]
+- Dark TabBar / Active Icon: [#FFFFFF]
+- Black / Alpha05: [#FFFFFF]
+- Gray / 850: [#232324]
+- Black / Alpha24: [#0000003D]
+- Light / Feed Recommended Friend Promo Background: [#528BCC]
+- White / Alpha40: [#FFFFFF66]
+- White / white alpha64: [image(hash: ec659d349adea81cfb850747156922916dd99e97)]
+- Dark Counter / Prominent Background: [#FF3347]
+- Dark Counter / Prominent Text: [#FFFFFF]
+- Dark / Writebar Icon: [#E1E3E6]
+- Dark / Input Background: [#2C2D2E]
+- Dark / Input Border: [#2C2D2E]
+- Dark Text / Placeholder: [#AAAEB3]
+- Dark Button / Commerce Background: [#4BB34B]
+- Dark Button / Commerce Foreground: [#FFFFFF]
+- Dark / Segmented Control Tint: none
+- bright_light / media / overlay_button_foreground: [#2C2D2E]
+- bright_light / text / secondary: [#818C99]
+- VK Taxi Palette / VK: none
+- Light Button / Primary Background: [#00B887]
+- Light Accents / Accent: [#00B887]
+- Dark Accents / Accent: [#29CD90]
+- Light Button / Tertiary Foreground: [#00B887]
+- bright_light / separator / alpha: none
+- bright_light / text / primary: [#000000]
+- White / Alpha12: [#FFFFFF1F]
+- Other Colors / Yellow Light: [#FFD54F]
+- Mono / OK $black: [#000000]
+- Light VK Connect / Button Primary Background: [#19191A]
+- Light Gradients / Content Tint Background ↓: [gradient_linear(#F5F5F500 0% | #F5F5F504 9% | #F5F5F50E 19% | #F5F5F51E 28% | #F5F5F533 38% | #F5F5F54A 48% | #F5F5F564 57% | #F5F5F580 66% | #F5F5F59B 74% | #F5F5F5B5 81% | #F5F5F5CC 88% | #F5F5F5E1 93% | #F5F5F5F1 97% | #F5F5F5FB 99% | #F5F5F5 100%)]
+- Gradients / White ↑: [gradient_linear(#FFFFFF00 0% | #FFFFFF04 9% | #FFFFFF0E 19% | #FFFFFF1E 28% | #FFFFFF33 38% | #FFFFFF4A 48% | #FFFFFF64 57% | #FFFFFF80 66% | #FFFFFF9B 74% | #FFFFFFB5 81% | #FFFFFFCC 88% | #FFFFFFE1 93% | #FFFFFFF1 97% | #FFFFFFFB 99% | #FFFFFF 100%)]
+- Light Dynamic / Red: [#FF3347]
+- Light Button / Muted Foreground: [#3F8AE0]
+- Light / Music Playback Icon: [#000000]
+- Gray / 400: [#909499]
+- Light Header / Text Secondary: [#818C99]
+- Light IM / Bubble Incoming: [#EBEDF0]
+- Light IM / Text Name: [#4986CC]
+- Light IM / Bubble Outgoing: [#CCE4FF]
+- Light IM / Forward Line Tint: [#45678F]
+- Light Background / Keyboard: [#E1E3E6]
+- Label Color / Light / Primary: [#000000]
+- Light Background / Highlighted: [#00000014]
+- Gradients / Violet: [gradient_linear(#C48AFF 0% | #AA65F0 100%)]
+- Light Icon / Alpha Placeholder: [#FFFFFF]
+- Gradients / Yellow: [gradient_linear(#FFB73D 0% | #FFA000 100%)]
+- Blueprint 25: [#EBF2FA]
+
+## Raw Colors (unstyled)
+- #000000: 7793 uses
+- #FFFFFF: 4208 uses
+- #FFFFFF80: 818 uses
+- #C4C4C4: 639 uses
+- #9F4E4E: 588 uses
+- #C0C0C0: 546 uses
+- #B6B6B6: 406 uses
+- #D77B7B: 392 uses
+- #FF0000: 354 uses
+- #00000014: 198 uses
+- #DADADA: 191 uses
+- #757677: 184 uses
+- #AAADB7: 154 uses
+- #0000000A: 138 uses
+- #3F8AE0: 135 uses
+- #37324A: 116 uses
+- #909499: 100 uses
+
+## Typography Tokens
+- VK Caption 1 Medium: VK Sans Text Medium (500), 13px / 16px, tracking 0px
+- VK Caption 2 Regular: VK Sans Text Regular (400), 12px / 14px, tracking 0.06px
+- VK Title 3 Regular: VK Sans Text Regular (400), 17px / 22px, tracking -0.22px
+- VK Caption 1 Regular: VK Sans Text Regular (400), 13px / 16px, tracking 0px
+- VK Caption 1 Demibold: VK Sans Text DemiBold (400), 13px / 16px, tracking 0px
+- VK Subhead Medium: VK Sans Text Medium (500), 14px / 18px, tracking -0.06px
+- VK Headline Medium: VK Sans Text Medium (500), 16px / 20px, tracking -0.16px
+- VK Display Title 2: VK Sans Display DemiBold (600), 21px / 26px, tracking 0px
+- VK Subhead Regular: VK Sans Text Regular (400), 14px / 18px, tracking -0.06px
+- VK Caption 2 Semibold: VK Sans Text DemiBold (400), 12px / 14px, tracking 0.06px
+- VK Text Regular: VK Sans Text Regular (400), 15px / 20px, tracking -0.1px
+- VK Text Medium: VK Sans Text Medium (500), 15px / 20px, tracking -0.1px
+- VK Title 3 Medium: VK Sans Text Medium (500), 17px / 22px, tracking -0.22px
+- VK Caption Сaps 1 Demibold: VK Sans Text DemiBold (400), 13px / 16px, tracking 0px
+- SF Caption Caps 2 Semibold: SF Pro Text Semibold (600), 12px / 14px, tracking 0px
+- VK Text Demibold: VK Sans Text DemiBold (400), 15px / 20px, tracking -0.1px
+- VK Headline Regular: VK Sans Text Regular (400), 16px / 20px, tracking -0.16px
+- SF 12 pt · Caption 2 Regular: SF Pro Text Regular (400), 12px / 14px, tracking 0px
+- SF · Widget / Caption 1 Regular: SF Pro Text Regular (400), 13px / 16px, tracking -0.08px
+- R · Widget / 15 pt · Text Regular: Roboto Regular (400), 15px / 20px, tracking 0.15px
+- SF Caption Caps 1 Semibold: SF Pro Text Semibold (600), 13px / 16px, tracking -0.08px
+- SF · Widget / Text Regular: SF Pro Text Regular (400), 15px / 20px, tracking -0.24px
+- SF Title 2 Semibold: SF Pro Display Semibold (600), 20px / 24px, tracking 0.38px
+- VK Caption 3 Regular: VK Sans Text Regular (400), 11px / 14px, tracking 0.11px
+- VK Title 1 Bold: VK Sans Text Bold (700), 24px / 28px, tracking -0.48px
+- VK Title 3 Demibold: VK Sans Text DemiBold (600), 17px / 22px, tracking -0.22px
+- VK Title 2 Regular: VK Sans Text Regular (400), 20px / 24px, tracking -0.4px
+- SF 15 pt · Text Regular: SF Pro Text Regular (400), 15px / 20px, tracking -0.24px
+- VK Title 3 Demibold: VK Sans Text DemiBold (400), 17px / 22px, tracking -0.22px
+- R Subhead Medium: Roboto Medium (500), 14px / 18px, tracking 0.2px
+- VK Subhead Demibold: VK Sans Text DemiBold (400), 14px / 18px, tracking -0.06px
+- VK Headline Demibold: VK Sans Text DemiBold (400), 16px / 20px, tracking -0.16px
+- VK Caption 1 Demibold: VK Sans Text DemiBold (600), 13px / 16px, tracking 0px
+- VK Caption 2 Medium: VK Sans Text Medium (500), 12px / 14px, tracking 0.06px
+- VK Subhead Demibold: VK Sans Text DemiBold (600), 14px / 18px, tracking -0.06px
+- VK Title 2 Demibold: VK Sans Text DemiBold (600), 20px / 24px, tracking -0.4px
+- R Text Regular: Roboto Regular (400), 15px / 20px, tracking 0.2px
+- R Caption 1 Medium: Roboto Medium (500), 13px / 16px, tracking 0.2px
+- R Caption 1 Regular: Roboto Regular (400), 13px / 16px, tracking 0.2px
+- R Text Medium: Roboto Medium (500), 15px / 20px, tracking 0.2px
+- VK Taxi / Text (16 – 20): Roboto Regular (400), 16px / 20px, tracking 0px
+- R Headline Medium: Roboto Medium (500), 16px / 20px, tracking 0.1px
+- VK Taxi / Title (24 – 28): TT Commons Medium (500), 24px / 28px, tracking 0px
+- VKS Headline Regular: VK Sans Text Regular (400), 16px / 20px, tracking -0.16px
+- VK Caption Caps 2 Demibold: VK Sans Text DemiBold (600), 12px / 14px, tracking 0.06px
+- SF 13 pt · Caption 1 Regular: SF Pro Text Regular (400), 13px / 16px, tracking -0.08px
+- SF 14 pt · Subhead Regular: SF Pro Text Regular (400), 14px / 18px, tracking -0.15px
+- R Caption 2 Medium: Roboto Medium (500), 12px / 14px, tracking 0.2px
+- SF Caption Caps 3 Semibold: SF Pro Text Semibold (600), 11px / 14px, tracking 0.06px
+- VK Headline Demibold: VK Sans Text DemiBold (600), 16px / 20px, tracking -0.16px
+- SF Title 1 Semibold: SF Pro Display Semibold (600), 24px / 28px, tracking 0.33px
+
+## Raw Typography (unstyled)
+- SF Pro Text Regular, 17px: 683 uses
+- SF Pro Text Semibold, 12px: 662 uses
+- SF Pro Display Light, 32px: 432 uses
+- SF Pro Text Regular, 14px: 372 uses
+- SF Pro Text Regular, 23px: 338 uses
+- SF Pro Text Regular, 27px: 312 uses
+- SF Pro Text Regular, 19.5px: 210 uses
+- SF Pro Text Regular, 20px: 185 uses
+- SF Pro Text Regular, 15px: 179 uses
+- VK Sans Text Medium, 14px: 168 uses
+- SF Pro Text Regular, 21px: 152 uses
+- SF Pro Text Regular, 22px: 104 uses
+- SF Pro Text Regular, 12px: 100 uses
+- SF Pro Text Regular, 16px: 99 uses
+- SF Pro Text Regular, 13px: 91 uses
+- SF Pro Text Semibold, 15px: 85 uses
+- VK Sans Text Regular, 12px: 73 uses
+- VK Sans Text Medium, 12px: 68 uses
+- VK Sans Display DemiBold, 200px: 66 uses
+- SF Pro Text Regular, 25px: 64 uses
+- VK Sans Text Medium, 10px: 63 uses
+- VK Sans Text Regular, 14px: 62 uses
+- SF Pro Text Bold, 9px: 50 uses
+- SF Pro Text Regular, 18px: 50 uses
+- SF Pro Text Medium, 11px: 39 uses
+- SF Pro Text Bold, 11px: 38 uses
+- VK Sans Text Regular, 15px: 34 uses
+- SF Pro Display Regular, 28px: 28 uses
+
+## Typography Hierarchy
+- 200px - VK Sans Display DemiBold, 200px (raw)
+- 32px - SF Pro Display Light, 32px (raw)
+- 28px - SF Pro Display Regular, 28px (raw)
+- 27px - SF Pro Text Regular, 27px (raw)
+- 25px - SF Pro Text Regular, 25px (raw)
+- 24px - SF Title 1 Semibold (SF Pro Display Semibold)
+- 24px - VK Taxi / Title (24 – 28) (TT Commons Medium)
+- 24px - VK Title 1 Bold (VK Sans Text Bold)
+- 23px - SF Pro Text Regular, 23px (raw)
+- 22px - SF Pro Text Regular, 22px (raw)
+- 21px - SF Pro Text Regular, 21px (raw)
+- 21px - VK Display Title 2 (VK Sans Display DemiBold)
+- 20px - SF Pro Text Regular, 20px (raw)
+- 20px - SF Title 2 Semibold (SF Pro Display Semibold)
+- 20px - VK Title 2 Demibold (VK Sans Text DemiBold)
+- 20px - VK Title 2 Regular (VK Sans Text Regular)
+- 19.5px - SF Pro Text Regular, 19.5px (raw)
+- 18px - SF Pro Text Regular, 18px (raw)
+- 17px - SF Pro Text Regular, 17px (raw)
+- 17px - VK Title 3 Medium (VK Sans Text Medium)
+- 17px - VK Title 3 Demibold (VK Sans Text DemiBold)
+- 17px - VK Title 3 Regular (VK Sans Text Regular)
+- 16px - R Headline Medium (Roboto Medium)
+- 16px - SF Pro Text Regular, 16px (raw)
+- 16px - VK Headline Demibold (VK Sans Text DemiBold)
+- 16px - VK Headline Medium (VK Sans Text Medium)
+- 16px - VK Headline Regular (VK Sans Text Regular)
+- 16px - VK Taxi / Text (16 – 20) (Roboto Regular)
+- 16px - VKS Headline Regular (VK Sans Text Regular)
+- 15px - R Text Medium (Roboto Medium)
+- 15px - R Text Regular (Roboto Regular)
+- 15px - R · Widget / 15 pt · Text Regular (Roboto Regular)
+- 15px - SF 15 pt · Text Regular (SF Pro Text Regular)
+- 15px - SF Pro Text Regular, 15px (raw)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 15px - SF · Widget / Text Regular (SF Pro Text Regular)
+- 15px - VK Sans Text Regular, 15px (raw)
+- 15px - VK Text Demibold (VK Sans Text DemiBold)
+- 15px - VK Text Medium (VK Sans Text Medium)
+- 15px - VK Text Regular (VK Sans Text Regular)
+- 14px - R Subhead Medium (Roboto Medium)
+- 14px - SF 14 pt · Subhead Regular (SF Pro Text Regular)
+- 14px - SF Pro Text Regular, 14px (raw)
+- 14px - VK Sans Text Medium, 14px (raw)
+- 14px - VK Sans Text Regular, 14px (raw)
+- 14px - VK Subhead Demibold (VK Sans Text DemiBold)
+- 14px - VK Subhead Medium (VK Sans Text Medium)
+- 14px - VK Subhead Regular (VK Sans Text Regular)
+- 13px - R Caption 1 Medium (Roboto Medium)
+- 13px - R Caption 1 Regular (Roboto Regular)
+- 13px - SF 13 pt · Caption 1 Regular (SF Pro Text Regular)
+- 13px - SF Caption Caps 1 Semibold (SF Pro Text Semibold)
+- 13px - SF Pro Text Regular, 13px (raw)
+- 13px - SF · Widget / Caption 1 Regular (SF Pro Text Regular)
+- 13px - VK Caption 1 Demibold (VK Sans Text DemiBold)
+- 13px - VK Caption 1 Medium (VK Sans Text Medium)
+- 13px - VK Caption 1 Regular (VK Sans Text Regular)
+- 13px - VK Caption Сaps 1 Demibold (VK Sans Text DemiBold)
+- 12px - R Caption 2 Medium (Roboto Medium)
+- 12px - SF 12 pt · Caption 2 Regular (SF Pro Text Regular)
+- 12px - SF Caption Caps 2 Semibold (SF Pro Text Semibold)
+- 12px - SF Pro Text Regular, 12px (raw)
+- 12px - SF Pro Text Semibold, 12px (raw)
+- 12px - VK Caption 2 Medium (VK Sans Text Medium)
+- 12px - VK Caption 2 Regular (VK Sans Text Regular)
+- 12px - VK Caption 2 Semibold (VK Sans Text DemiBold)
+- 12px - VK Caption Caps 2 Demibold (VK Sans Text DemiBold)
+- 12px - VK Sans Text Medium, 12px (raw)
+- 12px - VK Sans Text Regular, 12px (raw)
+- 11px - SF Pro Text Bold, 11px (raw)
+- 11px - SF Pro Text Medium, 11px (raw)
+- 11px - SF Caption Caps 3 Semibold (SF Pro Text Semibold)
+- 11px - VK Caption 3 Regular (VK Sans Text Regular)
+- 10px - VK Sans Text Medium, 10px (raw)
+- 9px - SF Pro Text Bold, 9px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Elevation · Snippet: [drop_shadow 4px offset 0 2 #00000003, drop_shadow 6px offset 0 0 #0000000A]
+- Elevation 4 pt · Badges: [drop_shadow 4px offset 0 2 #00000014]
+- Elevation 16 pt: [drop_shadow 96px offset 0 0 #00000029, drop_shadow 2px offset 0 0 #0000001F]
+- Elevation 8 pt · Cards: [drop_shadow 24px offset 0 2 #00000014, drop_shadow 2px offset 0 0 #00000014]
+- Elevation 8 dp: [drop_shadow 8px offset 0 8 #00000029, drop_shadow 4px offset 0 0 #00000014]
+- Elevation 32 pt: [drop_shadow 24px offset 0 0 #00000029, drop_shadow 2px offset 0 0 #00000014]
+- Elevation 4 dp: [drop_shadow 4px offset 0 4 #00000014, drop_shadow 2px offset 0 0 #0000000A]
+- VK Taxi/Card Sheet Shadow: [drop_shadow 32px offset 0 16 #00000033]
+- Small Shadow: [drop_shadow 12px offset 0 4 #0000001A]
+- Elevation · Overlay: [drop_shadow 3px offset 0 1 #00000052]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Frame 20642
+- x
+- Frame 83
+- item copy 4
+- item copy 5
+- Keyboard
+- iPad 9.7"
+- iPad 10.5"
+- iPad 12.9"
+- iOS Avatar Button
+
+## Component Specs
+- Frame 20642: size 120x142px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [SF Pro Text Regular, 12px]
+- x / Product Card / Normal / iPad: size 219x295px, fill #FFFFFF, text [VK Caption 1 Regular, VK Subhead Demibold, SF Pro Text Medium, 11px, VK Caption 3 Regular, SF Pro Text Regular, 13px]
+- Frame 83: size 335x231px, horizontal layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, text [VK Subhead Regular, VK Caption 1 Regular]
+- item copy 4: size 219x278px, fill #FFFFFF, text [VK Caption 1 Regular, VK Subhead Demibold]
+- item copy 5: size 185x244px, fill #FFFFFF, text [VK Caption 1 Regular, VK Subhead Demibold]
+- Keyboard: size 1194x398px, fill #CDD0D4EB, effect [background_blur 108.73px], text [SF Pro Text Regular, 18px, SF Pro Text Regular, 19.5px, SF Pro Text Regular, 17px, SF Pro Display Light, 32px, SF Pro Display Regular, 28px] | variants: Mode: Dark/Light; Type: Alphabetic/Emoji
+- x / Cell / Left / Common / 4. Number: size 42x48px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [VK Headline Regular]
+- x / Cell / Middle / 3. Title Medium with Player Track: size 235x80px, vertical layout, padding 7 0 7 0px, gap 0px, sizing W:fixed H:fixed, text [VK Caption 1 Regular, VK Caption 1 Medium, VK Headline Regular]
+- iPad 9.7" / Landscape / Alphabet Light ~ Lowercase: size 1024x328px, text [SF Pro Text Regular, 15px, SF Pro Text Regular, 16px, SF Pro Text Regular, 17px, SF Pro Text Regular, 20px, SF Pro Text Regular, 22px]
+- iPad 9.7" / Portrait / Alphabet Light ~ Lowercase: size 768x264px, text [SF Pro Text Regular, 14px, SF Pro Text Regular, 23px, SF Pro Text Regular, 20px, SF Pro Text Regular, 16px]
+- iPad 10.5" / Landscape / Alphabet Light ~ Lowercase: size 1112x349px, text [SF Pro Text Regular, 17px, SF Pro Text Regular, 27px, SF Pro Text Regular, 21px, SF Pro Text Regular, 20px]
+- iPad 10.5" / Portrait / Alphabet Light ~ Lowercase: size 834x264px, text [SF Pro Text Regular, 18px, SF Pro Text Regular, 19.5px, SF Pro Text Regular, 17px, SF Pro Display Light, 32px, SF Pro Display Regular, 28px, SF Pro Text Regular, 14px, SF Pro Text Regular, 23px, SF Pro Text Regular, 20px, SF Pro Text Regular, 16px]
+- iPad 12.9" / Landscape / Alphabet Light ~ Lowercase: size 1366x422px, text [SF Pro Text Regular, 20px, SF Pro Text Regular, 25px, SF Pro Text Regular, 21px, SF Pro Text Regular, 27px]
+- iPad 12.9" / Portrait / Alphabet Light ~ Lowercase: size 1024x349px, text [SF Pro Text Regular, 17px, SF Pro Text Regular, 27px, SF Pro Text Regular, 21px, SF Pro Text Regular, 20px]
+- iPad 9.7" / Landscape / Alphabet Light ~ Uppercase: size 1024x328px, text [SF Pro Text Regular, 15px, SF Pro Text Regular, 16px, SF Pro Text Regular, 17px, SF Pro Text Regular, 20px, SF Pro Text Regular, 22px]
+- iPad 9.7" / Portrait / Alphabet Light ~ Uppercase: size 768x264px, text [SF Pro Text Regular, 14px, SF Pro Text Regular, 23px, SF Pro Text Regular, 20px, SF Pro Text Regular, 16px]
+- iPad 10.5" / Landscape / Alphabet Light ~ Uppercase: size 1112x349px, text [SF Pro Text Regular, 17px, SF Pro Text Regular, 27px, SF Pro Text Regular, 21px, SF Pro Text Regular, 20px]
+- iPad 10.5" / Portrait / Alphabet Light ~ Uppercase: size 834x264px, text [SF Pro Text Regular, 14px, SF Pro Text Regular, 23px, SF Pro Text Regular, 20px, SF Pro Text Regular, 16px]
+- iPad 12.9" / Landscape / Alphabet Light ~ Uppercase: size 1366x422px, text [SF Pro Text Regular, 20px, SF Pro Text Regular, 25px, SF Pro Text Regular, 21px, SF Pro Text Regular, 27px]
+- iPad 12.9" / Portrait / Alphabet Light ~ Uppercase: size 1024x349px, text [SF Pro Text Regular, 17px, SF Pro Text Regular, 27px, SF Pro Text Regular, 21px, SF Pro Text Regular, 20px]
+- iPad 9.7" / Landscape / Alphabet Dark ~ Lowercase: size 1024x328px, text [SF Pro Text Regular, 15px, SF Pro Text Regular, 16px, SF Pro Text Regular, 17px, SF Pro Text Regular, 20px, SF Pro Text Regular, 22px]
+- iPad 9.7" / Portrait / Alphabet Dark ~ Lowercase: size 768x264px, text [SF Pro Text Regular, 14px, SF Pro Text Regular, 23px, SF Pro Text Regular, 20px, SF Pro Text Regular, 16px]
+- iPad 10.5" / Portrait / Alphabet Dark ~ Lowercase: size 834x264px, text [SF Pro Text Regular, 14px, SF Pro Text Regular, 23px, SF Pro Text Regular, 20px, SF Pro Text Regular, 16px]
+- iPad 10.5" / Landscape / Alphabet Dark ~ Lowercase: size 1112x349px, text [SF Pro Text Regular, 17px, SF Pro Text Regular, 27px, SF Pro Text Regular, 21px, SF Pro Text Regular, 20px]
+- iPad 12.9" / Landscape / Alphabet Dark ~ Lowercase: size 1366x422px, text [SF Pro Text Regular, 20px, SF Pro Text Regular, 21px, SF Pro Text Regular, 25px, SF Pro Text Regular, 27px]
+- iPad 12.9" / Portrait / Alphabet Dark ~ Lowercase: size 1024x349px, text [SF Pro Text Regular, 17px, SF Pro Text Regular, 27px, SF Pro Text Regular, 21px, SF Pro Text Regular, 20px]
+- iPad 9.7" / Landscape / Alphabet Dark ~ Uppercase: size 1024x328px, text [SF Pro Text Regular, 15px, SF Pro Text Regular, 16px, SF Pro Text Regular, 17px, SF Pro Text Light, 24px, SF Pro Text Regular, 20px, SF Pro Text Regular, 22px]
+- iPad 9.7" / Portrait / Alphabet Dark ~ Uppercase: size 768x264px, text [SF Pro Text Regular, 14px, SF Pro Text Regular, 23px, SF Pro Text Regular, 20px, SF Pro Text Regular, 16px]
+- iPad 10.5" / Portrait / Alphabet Dark ~ Uppercase: size 834x264px, text [SF Pro Text Regular, 14px, SF Pro Text Regular, 23px, SF Pro Text Regular, 20px, SF Pro Text Regular, 16px]
+- iPad 10.5" / Landscape / Alphabet Dark ~ Uppercase: size 1112x349px, text [SF Pro Text Regular, 17px, SF Pro Text Regular, 27px, SF Pro Text Regular, 21px, SF Pro Text Regular, 20px]
+- iPad 12.9" / Landscape / Alphabet Dark ~ Uppercase: size 1366x422px, text [SF Pro Text Regular, 20px, SF Pro Text Regular, 21px, SF Pro Text Regular, 25px, SF Pro Text Regular, 27px]
+- iPad 12.9" / Portrait / Alphabet Dark ~ Uppercase: size 1024x349px, text [SF Pro Text Regular, 17px, SF Pro Text Regular, 27px, SF Pro Text Regular, 21px, SF Pro Text Regular, 20px]
+- iOS Avatar Button: size 96x44px
+
+## Most-Used Styles
+- Light Accents / Accent: 8069 uses
+- Light Text / Primary: 5944 uses
+- Light Icon / Secondary: 5341 uses
+- White / White: 5284 uses
+- Light Counter / Prominent Background: 4882 uses
+- Light Text / Secondary: 4138 uses
+- Light / Image Border: 3927 uses
+- VK Caption 2 Regular: 3741 uses
+- Light Icon / Tertiary: 3617 uses
+- Light Counter / Prominent Text: 2660 uses
+- Light Background / Content: 2371 uses
+- VK Caption 1 Regular: 2306 uses
+- Light Accents / Destructive: 2209 uses
+- Light TabBar / Inactive Icon: 1931 uses
+- Blue / 200: 1838 uses
+- VK Headline Medium: 1274 uses
+- VK Caption 1 Medium: 1266 uses
+- VK Title 3 Regular: 1227 uses
+- VK Subhead Medium: 1163 uses
+- VK Text Regular: 1121 uses
+- Light Button / Primary Foreground: 912 uses
+- Black / Alpha12: 870 uses
+- Light / Segmented Control Tint: 808 uses
+- Light Ink: 770 uses
+- Light Header / Tint: 726 uses
+- VK Subhead Regular: 704 uses
+- Light Search Bar / Field Tint: 684 uses
+- Light / Writebar Icon: 651 uses
+- Dark Ink: 606 uses
+- VK Text Medium: 592 uses
+- Light Primary: 591 uses
+- VK Caption 1 Demibold: 588 uses
+- VK Headline Regular: 562 uses
+- Light Separator / Alpha: 544 uses
+- Light Separator / Common: 540 uses
+- Black / Alpha35: 530 uses
+- Light Button / Outline Foreground: 522 uses
+- Light Button / Primary Background: 496 uses
+- Dark / Image Border: 490 uses
+- Light Text / Tertiary: 461 uses
+- Dark Primary: 453 uses
+- VK Title 3 Demibold: 441 uses
+- Light Icon / Outline Medium: 440 uses
+- Light TabBar / Active Icon: 418 uses
+- Light Text / Subhead: 403 uses
+- Light Background / Suggestions: 380 uses
+- Other Colors / Green: 356 uses
+- Light Icon / Outline Secondary: 349 uses
+- Light Search Bar / Field Background: 343 uses
+- Light Button / Tertiary Foreground: 333 uses
+- SF Caption Caps 2 Semibold: 332 uses
+- Light / Snippet Border: 323 uses
+- Light Button / Secondary Foreground: 323 uses
+- Elevation 4 pt · Badges: 298 uses
+- Light Header / Background: 293 uses
+- Light Button / Commerce Foreground: 278 uses
+- VK Display Title 2: 275 uses
+- Light Header / Text: 269 uses
+- SF 13 pt · Caption 1 Regular: 264 uses
+- Gradients / Black ↑: 255 uses
+- Light Button / Commerce Background: 252 uses
+- Light Text / Placeholder: 247 uses
+- Colors/Grey 0 (#000): 244 uses
+- Colors/White: 241 uses
+- Light / Input Border: 241 uses
+- Light Text / Action Counter: 231 uses
+- Light Counter / Primary Text: 224 uses
+- Light / Input Background: 219 uses
+- Black / Black: 216 uses
+- VK Caption 3 Regular: 210 uses
+- Gray / Gray750 Alpha32: 206 uses
+- Light Counter / Secondary Text: 206 uses
+- VK Subhead Demibold: 190 uses
+- SF 12 pt · Caption 2 Regular: 187 uses
+- Light Background / Page: 183 uses
+- White / Alpha60: 173 uses
+- Dark Accents / Accent: 155 uses
+- Light Button / Tertiary Background: 148 uses
+- VK Title 3 Medium: 143 uses
+- Light Counter / Primary Background: 138 uses
+- SF 14 pt · Subhead Regular: 137 uses
+- Light Secondary: 128 uses
+- Dark Text / Primary: 120 uses
+- VK Caption Сaps 1 Demibold: 120 uses
+- Light Placeholder/Icon Background: 118 uses
+- Other Colors / Yellow Light: 117 uses
+- Light Button / Outline Border: 114 uses
+- Light Counter / Secondary Background: 113 uses
+- VK Caption 2 Semibold: 109 uses
+- Light Field / Background: 103 uses
+- Dark Secondary: 102 uses
+- Light Button / Secondary Background: 101 uses
+- Gray / 400: 95 uses
+- Light Dynamic / Blue: 93 uses
+- Light / Link Alternate: 85 uses
+- Elevation 8 pt · Cards: 84 uses
+- Gray / 800: 82 uses
+- White / Alpha15: 76 uses
+- Dark Icon / Tertiary: 73 uses
+- Light Button / Muted Background: 73 uses
+- VK Caption 2 Medium: 71 uses
+- Light Text / Name: 68 uses
+- Light IM / Bubble Outgoing: 66 uses
+- White / Alpha40: 64 uses
+- Dark Background / Content: 63 uses
+- Dark Text / Secondary: 63 uses
+- Dark TabBar / Inactive Icon: 56 uses
+- Light Text / Link: 56 uses
+- Light Icon / Medium: 54 uses
+- Dark Icon / Secondary: 53 uses
+- Dark Counter / Prominent Background: 52 uses
+- Light Background / Modal Card Background: 52 uses
+- Gradient / Red: 50 uses
+- Black / Alpha24: 49 uses
+- Light Separator / Alternate: 48 uses
+- Other Colors / Emerald: 46 uses
+- Colors / Blue Bright: 44 uses
+- Gray / Gray750 Alpha56: 44 uses
+- Light IM / Bubble Incoming: 44 uses
+- VK Text Demibold: 44 uses
+- Light Field / Border: 43 uses
+- Light IM / Text Name: 42 uses
+- Light Text/Muted: 40 uses
+- Black / Black alpha12: 39 uses
+- Light Background / Content Tint Background: 39 uses
+- Light Dynamic / Red: 38 uses
+- Elevation · Snippet: 37 uses
+- Light Background / Snippet Background: 37 uses
+- Black / Alpha60: 36 uses
+- Dark Accents / Destructive: 34 uses
+- Gradients / Red: 34 uses
+- VK Headline Demibold: 33 uses
+- VK Title 1 Bold: 32 uses
+- SF 15 pt · Text Regular: 31 uses
+- Light TabBar / Tablet Active Icon: 30 uses
+- SF · Widget / Caption 1 Regular: 30 uses
+- Light Dynamic / Orange: 29 uses
+- SF Caption Caps 1 Semibold: 28 uses
+- White / Alpha20: 28 uses
+- Dark Counter / Prominent Text: 26 uses
+- Light Dynamic / Green: 26 uses
+- Light Text / Muted: 26 uses
+- VK Caption Caps 2 Demibold: 26 uses
+- Dark Gradients / Content Tint Background ↑: 24 uses
+- Light / Loader Track Fill: 23 uses
+- Light / Loader Track Value Fill: 23 uses
+- Light / Action Sheet Action Foreground: 22 uses
+- Light Dynamic / Violet: 21 uses
+- R Subhead Medium: 21 uses
+- Light Content Placeholder / Text: 20 uses
+- Light Gradients / Content Tint Background ↑: 20 uses
+- SF Title 2 Semibold: 20 uses
+- SF · Widget / Text Regular: 20 uses
+- Elevation · Overlay: 19 uses
+- Gradients / Black ↓: 19 uses
+- Light Background / Light: 19 uses
+- Poll / Orange: 19 uses
+- Dark Separator / Alpha: 18 uses
+- Gray / 200: 18 uses
+- Black / Alpha05: 17 uses
+- Light Header / Text Secondary: 17 uses
+- White / Alpha12: 17 uses
+- Dark / Segmented Control Tint: 16 uses
+- Dark Separator / Common: 16 uses
+- R Caption 1 Regular: 16 uses
+- VK Title 2 Regular: 16 uses
+- Gray / 300: 15 uses
+- Light / Action Sheet Separator: 15 uses
+- Light Background / Highlighted: 15 uses
+- Light Placeholder / Icon Background Opaque: 15 uses
+- Blue / 400: 14 uses
+- Dark Background / Page: 14 uses
+- R Text Medium: 14 uses
+- Elevation 8 dp: 13 uses
+- Light Modal / Card Border: 13 uses
+- Azure / A100: 12 uses
+- Dark / Writebar Icon: 12 uses
+- Dark TabBar / Active Icon: 12 uses
+- Gradients / White ↑: 12 uses
+- Light / Snippet Icon Tertiary: 12 uses
+- R Caption 1 Medium: 12 uses
+- Red / Red: 12 uses
+- Sky 300: 12 uses
+- Dark Action: 11 uses
+- Light IM / Forward Line Tint: 11 uses
+- Black / Black alpha40: 10 uses
+- Dark Button / Secondary Destructive Foreground: 10 uses
+- Dark Button / Tertiary Foreground: 10 uses
+- Elevation 32 pt: 10 uses
+- Other Colors / Orange Fire: 10 uses
+- R · Widget / 15 pt · Text Regular: 10 uses
+- Black / Black alpha16: 9 uses
+- Gradients / Blue: 9 uses
+- Light / Feed Recommended Friend Promo Background: 9 uses
+- Black / Black alpha8: 8 uses
+- Dark Header / Background: 8 uses
+- Dark Icon / Medium: 8 uses
+- Gray / 900: 8 uses
+- Light / Switch iOS Off Border: 8 uses
+- Light Button / Muted Foreground: 8 uses
+- Light Placeholder / Icon Foreground Secondary: 8 uses
+- VK Title 2 Demibold: 8 uses
+- Dark Header / Text: 7 uses
+- Dark Search Bar / Field Tint: 6 uses
+- Light / Panel Tab Active Background: 6 uses
+- SF Caption Caps 3 Semibold: 6 uses
+- Dark Header / Tint: 5 uses
+- Gradients / Violet: 5 uses
+- Light / Music Playback Icon: 5 uses
+- Light Icon / Alpha Placeholder: 5 uses
+- Black / Alpha75: 4 uses
+- Dark / Input Background: 4 uses
+- Dark / Input Border: 4 uses
+- Dark Button / Commerce Background: 4 uses
+- Dark Button / Commerce Foreground: 4 uses
+- Dark Icon / Outline Medium: 4 uses
+- Dark Text / Placeholder: 4 uses
+- Elevation 16 pt: 4 uses
+- Gradients / White ↓: 4 uses
+- Gray / 850: 4 uses
+- Light Placeholder / Icon Foreground Primary: 4 uses
+- Light Stories / Create Button Background From: 4 uses
+- Light Stories / Create Button Foreground: 4 uses
+- Light VK Connect / Button Primary Background: 4 uses
+- R Text Regular: 4 uses
+- Small Shadow: 4 uses
+- VK Taxi/Card Sheet Shadow: 4 uses
+- bright_light / media / overlay_button_foreground: 4 uses
+- bright_light / text / primary: 4 uses
+- Black / Alpha06: 3 uses
+- Dark Search Bar / Field Background: 3 uses
+- Light Background / Keyboard: 3 uses
+- WORKI/RGB/WHITE: 3 uses
+- White / white alpha64: 3 uses
+- Dark Button / Primary Background: 2 uses
+- Dark Button / Primary Foreground: 2 uses
+- Elevation 4 dp: 2 uses
+- Label Color / Light / Primary: 2 uses
+- Light Gradients / Content Tint Background ↓: 2 uses
+- R Headline Medium: 2 uses
+- VK Taxi / Text (16 – 20): 2 uses
+- VK Taxi / Title (24 – 28): 2 uses
+- VK Taxi Palette / VK: 2 uses
+- VKS Headline Regular: 2 uses
+- bright_light / text / secondary: 2 uses
+- Blueprint 25: 1 use
+- Gradients / Yellow: 1 use
+- Gray / 040: 1 use
+- SF Title 1 Semibold: 1 use
+
+## Layout & Structure
+Screen: Getting Started / Page 1
+- FRAME "Page 1", 1440x800px, constraints left/top, radius 18px, fill #EBF2FA
+  - FRAME "Main", 928x900px, constraints left/top, fill Blueprint 25, effect Elevation 16 pt
+    - FRAME "snippet_cover", 928x800px, constraints left/top, fill #2787F5
+      - RECTANGLE "INSERT-APP-NAME_INSERT-APP-APPLE-ID_AppStore_AppsGamesWatch ", 2416x604px, constraints left/top, fill image(hash: ceea0e1dddd00142793db0e646f144f2a0d5ac6e)
+  - FRAME "Side", 512x800px, constraints left/top, fill Light Background / Content, effect Elevation 8 pt · Cards
+    - INSTANCE "VK Logo / Main", 48x48px, constraints left/top, fill #FFFFFF
+      - VECTOR "↳ Background", 48x48px, constraints scale/scale, fill Azure / A100
+      - VECTOR "↳ Foreground", 31.99x19px, constraints scale/scale, fill White / White
+    - GROUP "Section", 384x216px, constraints left/top
+      - INSTANCE "Sticker Sheet / Page Header", 384x200px, vertical pad 16 0 16 0px gap 8px sizing W:fixed H:fixed, constraints left/bottom
+        - FRAME "Layout", 212x56px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Counter", 333x56px, constraints left/top, fill Light Text/Muted, text [VK Sans Display DemiBold, 44px], [heading]
+        - TEXT "↳ Description", 384x92px, constraints left/center, fill Light Text / Subhead, text [SF Pro Text Regular, 16px]
+      - TEXT "↳ Description", 275x20px, constraints left/top, fill Light Accents / Accent, text [VK Sans Text Medium, 16px]
+      - INSTANCE "chevron_16", 12x16px, constraints left/top
+        - VECTOR "↳ Icon Color", 5.8x9.8px, constraints scale/scale, fill Light Accents / Accent
+
+Screen: Guide / Modal Page
+- FRAME "Modal Page", 1194x834px, constraints left/top, radius 12px
+  - FRAME "Modal", 1194x834px, constraints left/top, fill Black / Alpha35
+    - FRAME "Page", 416x488px, constraints left_right/top, radius 14/14/0/0px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - INSTANCE "Panel Header / Set 01: Default", 416x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+          - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+            - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - INSTANCE "x / Right", 96x44px, constraints right/center
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 1194x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 1194x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+  - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+    - FRAME "Indicator", 1194x15px, constraints left/top
+      - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Modal Page
+- FRAME "Modal Page", 1194x834px, constraints left/top, radius 12px
+  - FRAME "Modal", 1194x834px, constraints left/top, fill Black / Alpha35
+    - FRAME "Page", 540x488px, constraints left_right/top, radius 14/14/0/0px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - INSTANCE "Panel Header / Set 01: Default", 540x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+          - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+            - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - INSTANCE "x / Right", 96x44px, constraints right/center
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 1194x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 1194x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+  - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+    - FRAME "Indicator", 1194x15px, constraints left/top
+      - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Modal Card
+- FRAME "Modal Card", 1194x834px, constraints left/top, radius 12px
+  - FRAME "Modal", 1194x834px, constraints left/top, fill Black / Alpha35
+    - FRAME "Card", 416x400px, constraints left/top, radius 14px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - FRAME "Sample Background", 450x140px, constraints left/top [decorative, ~159 shapes]
+      - FRAME "Content", 327x264px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Top Padding (Do Not Hide) + Dissmiss", 327x8px, constraints left/top
+        - FRAME "x / Modal Card / Top / 2. Avatar", 72x80px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Container", 72x80px, constraints left/center
+            - RECTANGLE "↳ Image", 72x72px, constraints center/top, radius 36px, fill image(hash: d61e6cedde4548d5f3519807843f02c80ba26344), stroke Light / Image Border 0.5px
+        - TEXT "↳ Title", 385x24px, constraints scale/scale, fill Light Text / Primary, text [SF Title 2 Semibold], [heading]
+        - TEXT "↳ Text", 385x36px, constraints scale/scale, fill Light Text / Subhead, text [VK Subhead Regular], [heading]
+        - FRAME "Show/Hide Users Stack", 327x84px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Spacing", 327x12px, vertical pad 0 12 0 12px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Spacing & Separator", 303x12px, constraints left_right/top [decorative, ~4 shapes]
+          - INSTANCE "Users Stack / With Label / Mode 4: Vertical Medium", 311x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "x / Base / Users Stack Vertical", 351x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Button", 385x88px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Bottom", 384x52px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Button", 327x52px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Button", 327x44px, constraints left_right/top
+        - FRAME "Disclaimer", 385x36px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 4219", 385x4px, constraints left/top
+          - TEXT "↳ Text", 385x28px, constraints scale/scale, fill Light Text / Secondary, text [VK Caption 3 Regular]
+          - RECTANGLE "Rectangle 4221", 385x4px, constraints left/top
+      - FRAME "Show/Hide Dismiss Button", 48x48px, constraints right/center, fill #FFFFFF
+        - INSTANCE "dismiss_dark_24", 24x24px, constraints center/center
+          - VECTOR "↳ Background Color", 24x24px, constraints scale/scale, fill Black / Black, opacity 24%
+          - VECTOR "↳ Foreground Color", 10x10px, constraints scale/scale, fill White / White
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 1194x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 1194x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+  - INSTANCE "Home Indicator / 3. iPad Landscape On Overlay (Fixed White)", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+    - FRAME "Indicator", 1194x15px, constraints left/top
+      - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill White / White
+
+Screen: Guide / Modal Card
+- FRAME "Modal Card", 1194x834px, constraints left/top, radius 12px
+  - FRAME "Modal", 1194x834px, constraints left/top, fill Black / Alpha35
+    - FRAME "Card", 416x400px, constraints left/top, radius 14px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - INSTANCE "Panel Header / Set 01: Default", 416x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+          - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+            - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - INSTANCE "x / Right", 96x44px, constraints right/center
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 1194x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 1194x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+  - INSTANCE "Home Indicator / 3. iPad Landscape On Overlay (Fixed White)", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+    - FRAME "Indicator", 1194x15px, constraints left/top
+      - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill White / White
+
+Screen: Guide / Page Sheet @ Landscape
+- FRAME "Page Sheet @ Landscape", 1194x834px, constraints left/top, radius 12px
+  - FRAME "Modal", 1194x834px, constraints left/top, fill Black / Alpha35
+    - FRAME "Page Sheet", 704x746px, constraints left/top, radius 14px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - INSTANCE "Panel Header / Set 01: Default", 704x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+        - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+          - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+            - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - INSTANCE "x / Right", 96x44px, constraints right/center
+    - INSTANCE "Home Indicator / 3. iPad Landscape On Overlay (Fixed White)", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+      - FRAME "Indicator", 1194x15px, constraints left/top
+        - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill White / White
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 1194x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 1194x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+
+Screen: Guide / Page Sheet @ Portrait
+- FRAME "Page Sheet @ Portrait", 834x1194px, constraints left/top, radius 12px
+  - FRAME "Modal", 834x1194px, constraints left/top, fill Black / Alpha35
+    - FRAME "Page Sheet", 704x996px, constraints left/top, radius 14px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - INSTANCE "Panel Header / Set 01: Default", 704x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+        - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+          - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+            - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - INSTANCE "x / Right", 96x44px, constraints right/center
+    - INSTANCE "Home Indicator / 2. iPad Portrait On Overlay (Fixed White)", 834x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+      - FRAME "Indicator", 834x20px, constraints left/top
+        - RECTANGLE "Home Indicator", 273x5.5px, constraints center/bottom, radius 100px, fill White / White
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 834x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 834x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+
+Screen: Guide / Form Sheet @ Portrait
+- FRAME "Form Sheet @ Portrait", 834x1194px, constraints left/top, radius 12px
+  - FRAME "Modal", 834x1194px, constraints left/top, fill Black / Alpha35
+    - INSTANCE "Home Indicator / 2. iPad Portrait On Overlay (Fixed White)", 834x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+      - FRAME "Indicator", 834x20px, constraints left/top
+        - RECTANGLE "Home Indicator", 273x5.5px, constraints center/bottom, radius 100px, fill White / White
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 834x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 834x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+  - FRAME "Form Sheet", 540x620px, constraints left/top, radius 14px, fill Light Background / Content, effect Elevation 8 pt · Cards
+    - INSTANCE "Panel Header / Set 01: Default", 540x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+        - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+          - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - FRAME "Layout", 133x26px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints center/center
+          - INSTANCE "x / Right", 96x44px, constraints right/center
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px
+
+Screen: Guide / Form Sheet @ Landscape
+- FRAME "Form Sheet @ Landscape", 1194x834px, constraints left/top, radius 12px
+  - FRAME "Modal", 1194x834px, constraints left/top, fill Black / Alpha35
+    - FRAME "Form Sheet", 540x620px, constraints left/top, radius 14px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - INSTANCE "Panel Header / Set 01: Default", 540x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+        - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+          - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+            - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - INSTANCE "x / Right", 96x44px, constraints right/center
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 1194x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 1194x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+  - INSTANCE "Home Indicator / 3. iPad Landscape On Overlay (Fixed White)", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+    - FRAME "Indicator", 1194x15px, constraints left/top
+      - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill White / White
+
+Screen: Guide / Modal Page
+- FRAME "Modal Page", 1194x834px, constraints left/top, radius 12px
+  - FRAME "Modal", 1194x834px, constraints left/top, fill Black / Alpha35
+    - FRAME "Page", 416x743px, constraints center/top, radius 14/14/0/0px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - INSTANCE "Panel Header / Set 01: Default", 416x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+          - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+            - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - INSTANCE "x / Right", 96x44px, constraints right/center
+  - FRAME "Frame 1", 51x72px, constraints left/top
+    - TEXT "72 pt", 42x17px, constraints left/center, fill Other Colors / Yellow Light, text [JetBrains Mono Regular, 14px]
+    - RECTANGLE "Rectangle 4221", 1x72px, constraints left/top_bottom, fill Other Colors / Yellow Light
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 1194x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 1194x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+  - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+    - FRAME "Indicator", 1194x15px, constraints left/top
+      - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Modal Page
+- FRAME "Modal Page", 1194x834px, constraints left/top, radius 12px
+  - FRAME "Modal", 1194x834px, constraints left/top, fill Black / Alpha35
+    - FRAME "Page", 640x488px, constraints center/top, radius 14/14/0/0px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - INSTANCE "Panel Header / Set 01: Default", 640x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+          - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+            - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - INSTANCE "x / Right", 96x44px, constraints right/center
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 1194x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 1194x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+  - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+    - FRAME "Indicator", 1194x15px, constraints left/top
+      - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Modal Page
+- FRAME "Modal Page", 1194x834px, constraints left/top, radius 12px
+  - FRAME "Modal", 1194x834px, constraints left/top, fill Black / Alpha35
+    - FRAME "Page", 720x488px, constraints center/top, radius 14/14/0/0px, fill Light Background / Content, effect Elevation 8 pt · Cards
+      - INSTANCE "Panel Header / Set 01: Default", 720x52px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+          - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+            - INSTANCE "x / Middle", 175x44px, constraints center/center
+            - INSTANCE "x / Right", 96x44px, constraints right/center
+  - INSTANCE "Status Bar / 7.  iPad · On Overlay (Fixed White)", 1194x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 1194x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill White / White
+      - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Time", 34x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+        - TEXT "↳ Time", 54x14px, constraints left/center, fill White / White, text [SF Pro Text Semibold, 12px]
+  - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom
+    - FRAME "Indicator", 1194x15px, constraints left/top
+      - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Modal Page
+- TEXT "Modal Page", 1129x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Modals
+- TEXT "Modals", 707x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Page & Form Sheet
+- TEXT "Page & Form Sheet", 1802x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Навигация
+- TEXT "Навигация", 415x100px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 80px], [heading]
+
+Screen: Guide / Modal Card
+- TEXT "Modal Card", 1111x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Tie
+- TEXT "Tie", 295x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Tie · Modal
+- TEXT "Tie · Modal", 1044x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Layout · Islands
+- TEXT "Layout · Islands", 1465x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Guides
+- TEXT "Guides", 1354x500px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 400px], [heading]
+
+Screen: Guide / ⚠ Если в мобильном отображении островов не было, то разбивать на острова на айпаде — дополнительная работа для разработчиков
+- TEXT "⚠ Если в мобильном отображении островов не было, то разбиват", 1318x74px, constraints left/top, fill #FFFFFF, text [JetBrains Mono Regular, 30px], [heading]
+
+Screen: Guide / Modal Card и Modal Page — наши кастомные компоненты. Они отличаются шапкой и поведением
+- TEXT "Modal Card и Modal Page — наши кастомные компоненты. Они отл", 575x111px, constraints left/top, fill #FFFFFF, text [JetBrains Mono Regular, 30px], [heading]
+
+Screen: Guide / Если хочется показать побольше графичного контента
+- TEXT "Если хочется показать побольше графичного контента", 1318x37px, constraints left/top, fill #FFFFFF, text [JetBrains Mono Regular, 30px], [heading]
+
+Screen: Guide / В шапке может быть любое наполнение: заголовки, иконки и т. д.
+- TEXT "В шапке может быть любое наполнение: заголовки, иконки и т. ", 700x74px, constraints left/top, fill #FFFFFF, text [JetBrains Mono Regular, 30px], [heading]
+
+Screen: Guide / My Music
+- FRAME "My Music", 375x812px, constraints left/top, radius 14px, fill Light Background / Content
+  - FRAME "Layout", 375x1080px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - INSTANCE "Panel Header / Set 10: Main Search with Tabs", 375x140px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "x / Base / Panel Header", 375x140px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+        - INSTANCE "Status Bar / 1. iPhone X · Default", 375x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Container", 375x44px, constraints center/center
+            - INSTANCE "Screen Corners / Top Corners", 375x18px, constraints left_right/top, fill #FFFFFF
+            - FRAME "Frame 2", 44.81x10.97px, constraints right/center, fill #FFFFFF [decorative, ~9 shapes]
+            - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill Light Text / Primary
+            - TEXT "↳ Time", 54x18px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 15px]
+        - INSTANCE "x / Panel Header / Content / 4. Main Search with Back", 375x52px, constraints left/top
+          - INSTANCE "Search / State 1: Default", 343x52px, constraints left_right/center
+            - INSTANCE "x / Base / Search Field", 319x36px, constraints left_right/center, radius 10px, fill Light Search Bar / Field Background
+          - FRAME "Button", 36x44px, constraints left/center
+            - INSTANCE "Back Icon", 20x28px, constraints left/center
+        - FRAME "Layout", 375x44px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Show/Hide Tabs", 375x44px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Swipe Tabs / Layout / Fixed Width: 3 Tabs", 375x48px, constraints scale/scale
+    - FRAME "Frame 1", 375x152px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "Group Header", 375x44px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Top", 351x4px, constraints scale/scale
+          - RECTANGLE "Separator Top · 3x", 351x0.33px, constraints left_right/top, fill Light Separator / Common
+          - INSTANCE "x / Right", 132x36px, constraints right/top
+            - FRAME "Button", 120x44px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center, radius 10px
+        - INSTANCE "x / Group Header Base", 98x40px, horizontal pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "Left Layout", 94x39px, vertical pad 7 0 7 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Title Layout", 94x23px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Padding", 16x1px, constraints left/top
+          - RECTANGLE "Minimum Height", 4x40px, constraints left/top
+      - INSTANCE "Horizontal Cell List", 375x203px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Layout", 808x96px, horizontal pad 0 4 0 4px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 1: Small User Item", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 80x96px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Spacing", 375x12px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Spacing & Separator", 351x12px, constraints left_right/top [decorative, ~4 shapes]
+    - FRAME "Frame 33", 894x256px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "Group Header", 375x44px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Top", 351x4px, constraints scale/scale
+          - RECTANGLE "Separator Top · 3x", 351x0.33px, constraints left_right/top, fill Light Separator / Common
+          - INSTANCE "x / Right", 132x36px, constraints right/top
+            - FRAME "Button", 120x44px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center, radius 10px
+        - INSTANCE "x / Group Header Base", 98x40px, horizontal pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "Left Layout", 94x39px, vertical pad 7 0 7 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Title Layout", 94x23px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Padding", 16x1px, constraints left/top
+          - RECTANGLE "Minimum Height", 4x40px, constraints left/top
+      - INSTANCE "Horizontal Cell List", 453x204px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Layout", 894x208px, horizontal pad 0 6 0 6px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Horizontal Cell / Set 5: Large Image Item", 147x190px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 147x190px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 5: Large Image Item", 147x208px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 147x208px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 5: Large Image Item", 147x208px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 147x208px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 5: Large Image Item", 147x208px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 147x208px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 5: Large Image Item", 147x208px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 147x208px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Horizontal Cell / Set 5: Large Image Item", 147x208px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "x / Horizontal Cell / Base", 147x208px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Spacing", 375x4px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Spacing & Separator", 351x4px, constraints left_right/top [decorative, ~4 shapes]
+    - INSTANCE "Spacing", 375x8px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Spacing & Separator", 351x8px, constraints left_right/top [decorative, ~4 shapes]
+    - FRAME "Tracks", 375x524px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Group Header", 375x44px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Top", 351x4px, constraints scale/scale
+          - RECTANGLE "Separator Top · 3x", 351x0.33px, constraints left_right/top, fill Light Separator / Common
+          - INSTANCE "x / Right", 132x36px, constraints right/top
+            - FRAME "Layout", 116x44px, horizontal pad 12 12 12 12px gap 4px align min/center sizing W:fixed H:fixed, constraints right/center, radius 10px
+        - INSTANCE "x / Group Header Base", 118x40px, horizontal pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "Left Layout", 114x39px, vertical pad 7 0 7 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Title Layout", 114x23px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Padding", 16x1px, constraints left/top
+          - RECTANGLE "Minimum Height", 4x40px, constraints left/top
+      - INSTANCE "Item Cell Button", 375x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px
+        - INSTANCE "x / Base / Cell", 375x60px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fixed H:fixed, constraints scale/scale
+          - INSTANCE "x / Base / Cell Content Left", 156x60px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+            - FRAME "Show/Hide Left", 182x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Auto-added frame", 99x60px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "↔ Resize / 2. 375 pt · iPhone 8", 99x8px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "x / Base / Cell Content Right", 96x48px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Show/Hide Right", 96x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+      - INSTANCE "Cell / Set 7: Medium Music Item", 375x60px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, radius 10px
+        - INSTANCE "x / Base / Cell", 375x60px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "x / Base / Cell Content Left", 156x60px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+            - FRAME "Show/Hide Left", 113x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Auto-added frame", 99x60px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "↔ Resize / 2. 375 pt · iPhone 8", 99x8px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "x / Base / Cell Content Right", 96x48px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Show/Hide Right", 96x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+      - INSTANCE "Cell / Set 7: Medium Music Item", 375x60px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, radius 10px
+        - INSTANCE "x / Base / Cell", 375x60px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "x / Base / Cell Content Left", 156x60px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+            - FRAME "Show/Hide Left", 113x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Auto-added frame", 99x60px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "↔ Resize / 2. 375 pt · iPhone 8", 99x8px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "x / Base / Cell Content Right", 96x48px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Show/Hide Right", 96x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+      - INSTANCE "Cell / Set 7: Medium Music Item", 375x60px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, radius 10px
+        - INSTANCE "x / Base / Cell", 375x60px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "x / Base / Cell Content Left", 156x60px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+            - FRAME "Show/Hide Left", 113x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Auto-added frame", 99x60px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "↔ Resize / 2. 375 pt · iPhone 8", 99x8px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "x / Base / Cell Content Right", 96x48px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Show/Hide Right", 96x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+      - INSTANCE "Cell / Set 7: Medium Music Item", 375x60px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, radius 10px
+        - INSTANCE "x / Base / Cell", 375x60px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "x / Base / Cell Content Left", 156x60px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+            - FRAME "Show/Hide Left", 113x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Auto-added frame", 99x60px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "↔ Resize / 2. 375 pt · iPhone 8", 99x8px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "x / Base / Cell Content Right", 96x48px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Show/Hide Right", 96x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+      - INSTANCE "Cell / Set 7: Medium Music Item", 375x60px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, radius 10px
+        - INSTANCE "x / Base / Cell", 375x60px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "x / Base / Cell Content Left", 156x60px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+            - FRAME "Show/Hide Left", 113x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Auto-added frame", 99x60px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "↔ Resize / 2. 375 pt · iPhone 8", 99x8px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "x / Base / Cell Content Right", 96x48px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Show/Hide Right", 96x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+      - INSTANCE "Cell / Set 7: Medium Music Item", 375x60px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, radius 10px
+        - INSTANCE "x / Base / Cell", 375x60px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "x / Base / Cell Content Left", 156x60px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+            - FRAME "Show/Hide Left", 113x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Auto-added frame", 99x60px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "↔ Resize / 2. 375 pt · iPhone 8", 99x8px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "x / Base / Cell Content Right", 96x48px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Show/Hide Right", 96x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+      - INSTANCE "Cell / Set 7: Medium Music Item", 375x60px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, radius 10px
+        - INSTANCE "x / Base / Cell", 375x60px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "x / Base / Cell Content Left", 156x60px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+            - FRAME "Show/Hide Left", 113x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Auto-added frame", 99x60px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "↔ Resize / 2. 375 pt · iPhone 8", 99x8px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "x / Base / Cell Content Right", 96x48px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Show/Hide Right", 96x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+  - INSTANCE "Tab Bar / Set 1: Default", 375x83px, vertical pad 0 0 0 0px gap 0px align max/min sizing W:fixed H:fixed, constraints left_right/bottom
+    - INSTANCE "x / Base / Tab Bar Container", 375x83px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/center, fill Light Background / Content, stroke Light Separator / Alpha 0.5px
+      - INSTANCE "x / Tab Bar / Layout / 5 Tabs", 375x49px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints center/scale
+        - INSTANCE "x / Tab Bar / Item / Style 1: Default", 75x49px, constraints center/scale
+          - FRAME "Layout", 71x38px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Show/Hide Label", 71x10px, constraints left/top, fill #FFFFFF
+        - INSTANCE "x / Tab Bar / Item / Style 1: Default", 75x49px, constraints center/scale
+          - FRAME "Layout", 71x38px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Show/Hide Label", 71x10px, constraints left/top, fill #FFFFFF
+        - INSTANCE "x / Tab Bar / Item / Style 1: Default", 75x49px, constraints center/scale
+          - FRAME "Layout", 71x38px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Show/Hide Label", 71x10px, constraints left/top, fill #FFFFFF
+        - INSTANCE "x / Tab Bar / Item / Style 1: Default", 75x49px, constraints center/scale
+          - FRAME "Layout", 71x38px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Show/Hide Label", 71x10px, constraints left/top, fill #FFFFFF
+        - INSTANCE "x / Tab Bar / Item / Style 1: Default", 75x49px, constraints center/scale
+          - FRAME "Layout", 71x38px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Show/Hide Label", 71x10px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Home Indicator / 1. iPhone X · Default", 375x34px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Indicator", 375x34px, constraints left/top
+          - INSTANCE "Screen Corners / Bottom Corners", 375x18px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "Home Indicator", 131x5px, constraints center/bottom, radius 100px, fill Light Text / Primary, opacity 90%
+
+Screen: Guide / Snackbar
+- TEXT "Snackbar", 885x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Bottom Bar
+- TEXT "Bottom Bar", 1073x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Swipe Action
+- TEXT "Swipe Action", 1252x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Empty State
+- TEXT "Empty State", 1169x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Islands
+- TEXT "Islands", 336x125px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 100px], [heading]
+
+Screen: Guide / Mainland
+- TEXT "Mainland", 439x125px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 100px], [heading]
+
+Screen: Guide / Layout · Mainland
+- TEXT "Layout · Mainland", 1670x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Layout · Mainland Wide
+- TEXT "Layout · Mainland Wide", 2219x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Layout · Hero
+- TEXT "Layout · Hero", 1251x250px, constraints left/top, fill #FFFFFF, text [VK Sans Display DemiBold, 200px], [heading]
+
+Screen: Guide / Panel · Islands @ Landscape
+- FRAME "Panel · Islands @ Landscape", 1194x834px, constraints left/top, radius 12px, fill Light Background / Page
+  - FRAME "Main", 800x1782px, constraints left_right/top
+    - FRAME "Layout", 800x796px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Island", 800x104px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x56px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x300px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x300px, constraints left/top, radius 10px, fill Light Background / Content
+  - INSTANCE "Panel Header / Set 01: Default", 1194x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+      - INSTANCE "Status Bar / 7.  iPad · Default", 375x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 375x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill Light Text / Primary
+          - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "↳ Time", 34x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+            - TEXT "↳ Time", 54x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+      - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+        - INSTANCE "x / Left", 96x44px, constraints left/center
+          - FRAME "Button", 48x44px, constraints left/center, radius 10px
+            - ELLIPSE "↳ Image", 32x32px, constraints left/top, fill image(hash: f30218243badbb98a464d95eb4eb7c785244447e), stroke Light / Image Border 0.33px
+        - INSTANCE "x / Middle", 175x44px, constraints center/center
+          - FRAME "Layout", 133x26px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints center/center
+            - TEXT "↳ Title", 72x26px, constraints center/center, fill Light Header / Text, text [VK Display Title 2], [heading]
+        - INSTANCE "x / Right", 96x44px, constraints right/center
+          - FRAME "Layout", 48x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px, fill #FFFFFF
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px
+  - INSTANCE "Tab Bar / Set 4: iPad", 1194x64px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left_right/bottom
+    - INSTANCE "x / Base / Tab Bar Container", 1194x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints scale/center, fill Light Background / Content, stroke Light Separator / Alpha 0.5px
+      - INSTANCE "x / Tab Bar / Layout / 6 Tabs (iPad)", 1194x49px, horizontal pad 0 57 0 57px gap 0px sizing W:fill H:fixed, constraints center/scale
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 88x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 52x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 58x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 120x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 84x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 78x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 42x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 87x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 51x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 124x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 88x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Indicator", 375x15px, constraints left/top
+          - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Swipe Action
+- FRAME "Swipe Action", 1194x834px, constraints left/top, radius 12px, fill Light Background / Page
+  - FRAME "Main", 800x1782px, constraints left_right/top
+    - FRAME "Layout", 800x780px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Island", 800x120px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Frame 20616", 800x120px, constraints left/top, fill #FFFFFF
+        - FRAME "Island", 816x120px, constraints left/top, radius 10px, fill Light Background / Content
+        - FRAME "Swipe Action", 140x120px, constraints left/top, radius 10px, fill Light Accents / Destructive
+          - TEXT "↳ Label", 45x14px, constraints center/bottom, fill White / White, text [VK Caption 3 Regular]
+      - FRAME "Island", 800x120px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x120px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x120px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x120px, constraints left/top, radius 10px, fill Light Background / Content
+  - INSTANCE "Panel Header / Set 01: Default", 1194x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+      - INSTANCE "Status Bar / 7.  iPad · Default", 375x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 375x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill Light Text / Primary
+          - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "↳ Time", 34x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+            - TEXT "↳ Time", 54x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+      - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+        - INSTANCE "x / Left", 96x44px, constraints left/center
+          - FRAME "Button", 48x44px, constraints left/center, radius 10px
+            - ELLIPSE "↳ Image", 32x32px, constraints left/top, fill image(hash: f30218243badbb98a464d95eb4eb7c785244447e), stroke Light / Image Border 0.33px
+        - INSTANCE "x / Middle", 175x44px, constraints center/center
+          - FRAME "Layout", 133x26px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints center/center
+            - TEXT "↳ Title", 72x26px, constraints center/center, fill Light Header / Text, text [VK Display Title 2], [heading]
+        - INSTANCE "x / Right", 96x44px, constraints right/center
+          - FRAME "Layout", 48x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px, fill #FFFFFF
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px
+  - INSTANCE "Tab Bar / Set 4: iPad", 1194x64px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left_right/bottom
+    - INSTANCE "x / Base / Tab Bar Container", 1194x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints scale/center, fill Light Background / Content, stroke Light Separator / Alpha 0.5px
+      - INSTANCE "x / Tab Bar / Layout / 6 Tabs (iPad)", 1194x49px, horizontal pad 0 57 0 57px gap 0px sizing W:fill H:fixed, constraints center/scale
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 88x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 52x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 58x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 120x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 84x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 78x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 42x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 87x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 51x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 124x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 88x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Indicator", 375x15px, constraints left/top
+          - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Panel · Islands @ Landscape
+- FRAME "Panel · Islands @ Landscape", 1194x834px, constraints left/top, radius 12px, fill Light Background / Page
+  - FRAME "Main", 800x1782px, constraints left_right/top
+    - FRAME "Layout", 800x796px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Island", 800x104px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x56px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x300px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x300px, constraints left/top, radius 10px, fill Light Background / Content
+  - INSTANCE "Panel Header / Set 01: Default", 1194x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+      - INSTANCE "Status Bar / 7.  iPad · Default", 375x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 375x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill Light Text / Primary
+          - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "↳ Time", 34x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+            - TEXT "↳ Time", 54x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+      - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+        - INSTANCE "x / Left", 96x44px, constraints left/center
+          - FRAME "Button", 48x44px, constraints left/center, radius 10px
+            - ELLIPSE "↳ Image", 32x32px, constraints left/top, fill image(hash: f30218243badbb98a464d95eb4eb7c785244447e), stroke Light / Image Border 0.33px
+        - INSTANCE "x / Middle", 175x44px, constraints center/center
+          - FRAME "Layout", 133x26px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints center/center
+            - TEXT "↳ Title", 72x26px, constraints center/center, fill Light Header / Text, text [VK Display Title 2], [heading]
+        - INSTANCE "x / Right", 96x44px, constraints right/center
+          - FRAME "Layout", 48x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px, fill #FFFFFF
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px
+  - FRAME "Bottom Bar", 1194x132px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/bottom, stroke Light Separator / Alternate 0.5px
+    - FRAME "Bottom Bar / Default", 1194x68px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints center/bottom, fill Light Background / Content
+      - FRAME "Buttons Container", 1194x68px, vertical pad 12 293 12 293px gap 12px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Show/Hide Top Button", 608x44px, constraints center/top
+          - INSTANCE "x / Button Base", 608x44px, constraints scale/center, radius 10px, fill Light Button / Primary Background
+            - FRAME "Layout", 55x44px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+    - INSTANCE "Tab Bar / Set 4: iPad", 1194x64px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fill H:fixed, constraints center/bottom
+      - INSTANCE "x / Base / Tab Bar Container", 1194x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints scale/center, fill Light Background / Content
+        - INSTANCE "x / Tab Bar / Layout / 6 Tabs (iPad)", 1194x49px, horizontal pad 0 57 0 57px gap 0px sizing W:fill H:fixed, constraints center/scale
+          - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+            - FRAME "Layout", 88x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+          - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+            - FRAME "Layout", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+          - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+            - FRAME "Layout", 120x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+          - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+            - FRAME "Layout", 78x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+          - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+            - FRAME "Layout", 87x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+          - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+            - FRAME "Layout", 124x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+        - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale
+          - FRAME "Indicator", 1194x15px, constraints left/top
+            - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Snackbar
+- FRAME "Snackbar", 1194x834px, constraints left/top, radius 12px, fill Light Background / Page
+  - FRAME "Main", 800x1782px, constraints left_right/top
+    - FRAME "Layout", 800x796px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Island", 800x104px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x56px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x300px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x300px, constraints left/top, radius 10px, fill Light Background / Content
+  - INSTANCE "Panel Header / Set 01: Default", 1194x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+      - INSTANCE "Status Bar / 7.  iPad · Default", 375x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 375x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill Light Text / Primary
+          - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "↳ Time", 34x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+            - TEXT "↳ Time", 54x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+      - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+        - INSTANCE "x / Left", 96x44px, constraints left/center
+          - FRAME "Button", 48x44px, constraints left/center, radius 10px
+            - ELLIPSE "↳ Image", 32x32px, constraints left/top, fill image(hash: f30218243badbb98a464d95eb4eb7c785244447e), stroke Light / Image Border 0.33px
+        - INSTANCE "x / Middle", 175x44px, constraints center/center
+          - FRAME "Layout", 133x26px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints center/center
+            - TEXT "↳ Title", 72x26px, constraints center/center, fill Light Header / Text, text [VK Display Title 2], [heading]
+        - INSTANCE "x / Right", 96x44px, constraints right/center
+          - FRAME "Layout", 48x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px, fill #FFFFFF
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px
+  - INSTANCE "Tab Bar / Set 4: iPad", 1194x64px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left_right/bottom
+    - INSTANCE "x / Base / Tab Bar Container", 1194x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints scale/center, fill Light Background / Content, stroke Light Separator / Alpha 0.5px
+      - INSTANCE "x / Tab Bar / Layout / 6 Tabs (iPad)", 1194x49px, horizontal pad 0 57 0 57px gap 0px sizing W:fill H:fixed, constraints center/scale
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 88x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 52x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 58x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 120x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 84x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 78x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 42x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 87x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 51x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 124x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 88x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Indicator", 375x15px, constraints left/top
+          - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+  - INSTANCE "Snackbar / Set 1: Default", 328x88px, horizontal pad 12 12 12 12px gap 0px align min/max sizing W:fixed H:fixed, constraints left/bottom
+    - INSTANCE "Snackbar", 359x56px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fixed, constraints center/scale, radius 10px, fill Light Background / Modal Card Background, stroke Light Modal / Card Border 0.5px, effect Elevation 32 pt
+      - INSTANCE "Left", 239x48px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+        - FRAME "Layout", 239x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Show/Hide Icon", 32x48px, constraints left/top, fill #FFFFFF
+            - INSTANCE "↳ Icon", 24x24px, constraints left/center, fill #FFFFFF
+          - FRAME "Text Layout", 207x44px, vertical pad 12 4 12 4px gap 2px sizing W:fill H:fixed, constraints left_right/center
+            - TEXT "↳ Text", 240x20px, constraints left/center, fill Light Text / Primary, text [VK Text Regular]
+            - FRAME "Show/Hide Vertical Button", 77x24px, constraints left/top, fill #FFFFFF
+
+Screen: Guide / Snackbar
+- FRAME "Snackbar", 1194x834px, constraints left/top, radius 12px, fill Light Background / Page
+  - FRAME "Main", 800x1782px, constraints left_right/top
+    - FRAME "Layout", 800x796px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Island", 800x104px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x56px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x300px, constraints left/top, radius 10px, fill Light Background / Content
+      - FRAME "Island", 800x300px, constraints left/top, radius 10px, fill Light Background / Content
+  - INSTANCE "Panel Header / Set 01: Default", 1194x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+      - INSTANCE "Status Bar / 7.  iPad · Default", 375x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 375x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill Light Text / Primary
+          - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "↳ Time", 34x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+            - TEXT "↳ Time", 54x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+      - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+        - INSTANCE "x / Left", 96x44px, constraints left/center
+          - FRAME "Button", 48x44px, constraints left/center, radius 10px
+            - ELLIPSE "↳ Image", 32x32px, constraints left/top, fill image(hash: f30218243badbb98a464d95eb4eb7c785244447e), stroke Light / Image Border 0.33px
+        - INSTANCE "x / Middle", 175x44px, constraints center/center
+          - FRAME "Layout", 133x26px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints center/center
+            - TEXT "↳ Title", 72x26px, constraints center/center, fill Light Header / Text, text [VK Display Title 2], [heading]
+  - INSTANCE "Snackbar / Set 1: Default", 328x88px, horizontal pad 12 12 12 12px gap 0px align min/max sizing W:fixed H:fixed, constraints left/bottom
+    - INSTANCE "Snackbar", 359x56px, horizontal pad 0 12 0 12px gap 0px align min/center sizing W:fill H:fixed, constraints center/scale, radius 10px, fill Light Background / Modal Card Background, stroke Light Modal / Card Border 0.5px, effect Elevation 32 pt
+      - INSTANCE "Left", 239x48px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/center
+        - FRAME "Layout", 239x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Show/Hide Icon", 32x48px, constraints left/top, fill #FFFFFF
+            - INSTANCE "↳ Icon", 24x24px, constraints left/center, fill #FFFFFF
+          - FRAME "Text Layout", 207x44px, vertical pad 12 4 12 4px gap 2px sizing W:fill H:fixed, constraints left_right/center
+            - TEXT "↳ Text", 240x20px, constraints left/center, fill Light Text / Primary, text [VK Text Regular]
+            - FRAME "Show/Hide Vertical Button", 77x24px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Indicator", 1194x15px, constraints left/top
+      - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Panel · Mainland @ Landscape
+- FRAME "Panel · Mainland @ Landscape", 1194x834px, constraints left/top, radius 12px, fill Light Background / Page
+  - FRAME "Main", 800x750px, constraints left/top, radius 10px, fill Light Background / Content
+  - INSTANCE "Panel Header / Set 01: Default", 1194x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+      - INSTANCE "Status Bar / 7.  iPad · Default", 375x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 375x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill Light Text / Primary
+          - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "↳ Time", 34x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+            - TEXT "↳ Time", 54x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+      - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+        - INSTANCE "x / Left", 96x44px, constraints left/center
+          - FRAME "Button", 48x44px, constraints left/center, radius 10px
+            - ELLIPSE "↳ Image", 32x32px, constraints left/top, fill image(hash: f30218243badbb98a464d95eb4eb7c785244447e), stroke Light / Image Border 0.33px
+        - INSTANCE "x / Middle", 175x44px, constraints center/center
+          - FRAME "Layout", 133x26px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints center/center
+            - TEXT "↳ Title", 72x26px, constraints center/center, fill Light Header / Text, text [VK Display Title 2], [heading]
+        - INSTANCE "x / Right", 96x44px, constraints right/center
+          - FRAME "Layout", 48x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px, fill #FFFFFF
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px
+  - INSTANCE "Tab Bar / Set 4: iPad", 1194x64px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left_right/bottom
+    - INSTANCE "x / Base / Tab Bar Container", 1194x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints scale/center, fill Light Background / Content, stroke Light Separator / Alpha 0.5px
+      - INSTANCE "x / Tab Bar / Layout / 6 Tabs (iPad)", 1194x49px, horizontal pad 0 57 0 57px gap 0px sizing W:fill H:fixed, constraints center/scale
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 88x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 52x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 58x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 120x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 84x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 78x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 42x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 87x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 51x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 124x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 88x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Indicator", 375x15px, constraints left/top
+          - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Empty State
+- FRAME "Empty State", 1194x834px, constraints left/top, radius 12px, fill Light Background / Page
+  - FRAME "Main", 800x328px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Light Background / Content
+    - INSTANCE "Placeholder", 800x348px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/center
+      - INSTANCE "x / Base / Placeholder", 375x348px, vertical pad 48 32 48 32px gap 8px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Show/Hide Icon", 56x60px, vertical pad 0 0 4 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "↳ Icon", 56x56px, constraints left/top
+            - VECTOR "↳ Icon Color", 55.5x36px, constraints scale/scale, fill Light Placeholder / Icon Foreground Primary
+        - TEXT "↳ Title", 736x24px, constraints left_right/top, fill Light Text / Primary, text [VK Title 2 Demibold], [heading]
+        - TEXT "↳ Text", 736x20px, constraints left_right/scale, fill Light Text / Secondary, text [VK Headline Regular], [heading]
+        - FRAME "Show/Hide Button", 311x52px, vertical pad 16 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Button", 135x36px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top
+            - INSTANCE "x / Button Base", 135x36px, horizontal pad 0 16 0 16px gap 6px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill Light Button / Primary Background
+        - FRAME "Show/Hide Tertiary Button", 311x44px, vertical pad 8 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Button", 81x36px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top
+            - INSTANCE "x / Button Base", 81x36px, horizontal pad 0 16 0 16px gap 6px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill Light Button / Tertiary Background
+  - INSTANCE "Panel Header / Set 01: Default", 1194x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+      - INSTANCE "Status Bar / 7.  iPad · Default", 375x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 375x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill Light Text / Primary
+          - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "↳ Time", 34x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+            - TEXT "↳ Time", 54x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+      - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+        - INSTANCE "x / Left", 96x44px, constraints left/center
+          - FRAME "Button", 44x44px, horizontal pad 8 8 8 8px gap 2px align min/center sizing W:fixed H:fixed, constraints left/center, radius 10px
+            - INSTANCE "Back Icon", 20x28px, constraints left/center
+            - RECTANGLE "Padding", 6x25px, constraints left/top
+        - INSTANCE "x / Middle", 175x44px, constraints center/center
+          - FRAME "Layout", 133x26px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints center/center
+            - TEXT "↳ Title", 90x26px, constraints center/center, fill Light Header / Text, text [VK Display Title 2], [heading]
+  - INSTANCE "Tab Bar / Set 4: iPad", 1194x64px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left_right/bottom
+    - INSTANCE "x / Base / Tab Bar Container", 1194x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints scale/center, fill Light Background / Content, stroke Light Separator / Alpha 0.5px
+      - INSTANCE "x / Tab Bar / Layout / 6 Tabs (iPad)", 1194x49px, horizontal pad 0 57 0 57px gap 0px sizing W:fill H:fixed, constraints center/scale
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 88x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 52x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 58x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 120x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 84x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 78x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 42x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 87x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 51x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 124x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 88x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Home Indicator / 3. iPad Landscape", 1194x15px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Indicator", 375x15px, constraints left/top
+          - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Light Text / Primary
+
+Screen: Guide / Empty State
+- FRAME "Empty State", 1194x834px, constraints left/top, radius 12px, fill Light Background / Page
+  - FRAME "Layout", 800x614px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px
+    - FRAME "Main", 800x271px, constraints center/top, radius 10px, fill Light Background / Content
+      - GROUP "Item", 706x281px, constraints left/top
+        - RECTANGLE "Body", 375x281px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 706x271px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Group Header / Style 2: Secondary", 800x40px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Top", 776x4px, constraints scale/scale
+            - FRAME "x / Base / Group Header Secondary", 174x36px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "Auto-added frame", 706x8px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Spacing", 375x8px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "Group", 403x96px, horizontal pad 0 0 0 12px gap 40px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - GROUP "Group 20549", 132x96px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 20548", 219x96px, constraints left/top, radius 0/0/0/0px
+          - INSTANCE "Spacing", 375x12px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+            - FRAME "Spacing & Separator", 351x12px, constraints left_right/top [decorative, ~4 shapes]
+          - FRAME "Auto-added frame", 706x103px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top [decorative, ~5 shapes]
+          - INSTANCE "Spacing", 375x12px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+            - FRAME "Spacing & Separator", 351x12px, constraints left_right/top [decorative, ~4 shapes]
+    - FRAME "Main", 800x271px, constraints center/top, radius 10px, fill Light Background / Content
+      - GROUP "Item", 800x281px, constraints left/top
+        - RECTANGLE "Body", 424.93x281px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 800x271px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Group Header / Style 2: Secondary", 800x40px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Top", 776x4px, constraints scale/scale
+            - FRAME "x / Base / Group Header Secondary", 174x36px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "Auto-added frame", 800x8px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Spacing", 375x8px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+          - FRAME "Group", 403x96px, horizontal pad 0 0 0 12px gap 40px align center/min sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group 20549", 132x96px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 20548", 219x96px, constraints left/top, radius 0/0/0/0px
+          - INSTANCE "Spacing", 375x12px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+            - FRAME "Spacing & Separator", 351x12px, constraints left_right/top [decorative, ~4 shapes]
+          - FRAME "Auto-added frame", 800x103px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 2", 706x103px, horizontal pad 0 12 0 12px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Spacing", 375x12px, vertical pad 0 12 0 12px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+            - FRAME "Spacing & Separator", 351x12px, constraints left_right/top [decorative, ~4 shapes]
+    - FRAME "Footer", 800x52px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Group Footer", 800x64px, vertical pad 24 12 24 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "↳ Label", 776x16px, constraints left_right/center, fill Light Text / Secondary, text [VK Caption 1 Regular]
+  - INSTANCE "Panel Header / Set 01: Default", 1194x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+    - INSTANCE "x / Base / Panel Header", 375x96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill Light Header / Background, stroke Light Separator / Alpha 0px
+      - INSTANCE "Status Bar / 7.  iPad · Default", 375x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 375x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill Light Text / Primary
+          - FRAME "Time and Date", 96x14px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "↳ Time", 34x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+            - TEXT "↳ Time", 54x14px, constraints left/center, fill Light Text / Primary, text [SF Pro Text Semibold, 12px]
+      - INSTANCE "x / Panel Header / Content / 1. Default", 375x52px, constraints left/top
+        - INSTANCE "x / Left", 96x44px, constraints left/center
+          - FRAME "Button", 44x44px, horizontal pad 8 8 8 8px gap 2px align min/center sizing W:fixed H:fixed, constraints left/center, radius 10px
+            - INSTANCE "Back Icon", 20x28px, constraints left/center
+            - RECTANGLE "Padding", 6x25px, constraints left/top
+        - INSTANCE "x / Middle", 175x44px, constraints center/center
+          - FRAME "Layout", 133x26px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints center/center
+            - TEXT "↳ Title", 121x26px, constraints center/center, fill Light Header / Text, text [VK Display Title 2], [heading]
+        - INSTANCE "x / Right", 96x44px, constraints right/center
+          - FRAME "Layout", 48x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/center
+            - FRAME "Button", 48x44px, constraints right/center, radius 10px, fill #FFFFFF
+  - INSTANCE "Tab Bar / Set 4: iPad", 1194x64px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left_right/bottom
+    - INSTANCE "x / Base / Tab Bar Container", 1194x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints scale/center, fill Light Background / Content, stroke Light Separator / Alpha 0.5px
+      - INSTANCE "x / Tab Bar / Layout / 6 Tabs (iPad)", 1194x49px, horizontal pad 0 57 0 57px gap 0px sizing W:fill H:fixed, constraints center/scale
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 88x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 52x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 94x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 58x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 120x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 84x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 78x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 42x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 87x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Icon Container", 28x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Layout", 51x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "x / Tab Bar / Item / Style 2: Horizontal", 199x49px, constraints center/scale
+          - FRAME "Layout", 124x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,506 @@
+---
+name: grain-website-ui-kit-saas-design-kit-saas-website-design-example-ui-design-inspiration-community
+source_file: Grain Website UI Kit, Saas Design Kit, SaaS Website Design Example, UI Design Inspiration (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:56:09.637683+00:00
+---
+
+# Grain Website UI Kit, Saas Design Kit, SaaS Website Design Example, UI Design Inspiration (Community) Design Guidelines
+
+## Source
+- Figma file: Grain Website UI Kit, Saas Design Kit, SaaS Website Design Example, UI Design Inspiration (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:56:09.637683+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White-100: [#FFFFFF]
+- Black-10: [#0000001A]
+- Black 8: [#000000CC]
+- Black-8 : [#000000CC]
+- Special / Black 1: [#0000001A]
+- Gray/300: none
+
+## Raw Colors (unstyled)
+- #000000: 2364 uses
+- #FFFFFF: 393 uses
+- #333333: 168 uses
+- #D9D9D9: 133 uses
+- #EAECF0: 85 uses
+- #8243EA: 82 uses
+- #545454: 77 uses
+- #EBD9FF: 50 uses
+- #F2F4F7: 49 uses
+- #0000000D: 36 uses
+- #1F1F1F1F: 35 uses
+- #F2EBFF: 34 uses
+- #BDBDBD: 25 uses
+- #C4C4C4: 22 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Poppins Regular, 10.46px: 122 uses
+- Inter Regular, 15.9px: 69 uses
+- Poppins Regular, 11px: 44 uses
+- Inter SemiBold, 13.02px: 31 uses
+- Poppins Regular, 12px: 29 uses
+- Inter Regular, 11.8px: 28 uses
+- Poppins Regular, 13.08px: 25 uses
+- Inter SemiBold, 15.9px: 23 uses
+- Inter Regular, 39.8px: 21 uses
+- Inter Regular, 31.9px: 18 uses
+- Poppins Regular, 15.69px: 18 uses
+- Inter Bold, 40px: 17 uses
+- Inter SemiBold, 24px: 17 uses
+- Inter SemiBold, 49.8px: 16 uses
+- Inter Regular, 14.71px: 14 uses
+- Inter SemiBold, 6.9px: 14 uses
+- Poppins Regular, 13.75px: 14 uses
+- Inter Regular, 19.8px: 13 uses
+- Inter SemiBold, 9.09px: 13 uses
+- Inter Regular, 13.9px: 12 uses
+- Poppins Regular, 18px: 12 uses
+- Poppins SemiBold, 10.46px: 10 uses
+- Poppins SemiBold, 11px: 10 uses
+- Inter Medium, 23.8px: 8 uses
+- Inter Regular, 12.93px: 8 uses
+- Inter Medium, 14.8px: 7 uses
+- Inter Medium, 15.9px: 7 uses
+- Inter SemiBold, 13.8px: 7 uses
+- Inter SemiBold, 9.68px: 7 uses
+- Poppins Regular, 16.34px: 7 uses
+- Poppins Regular, 25px: 7 uses
+- Inter SemiBold, 8.68px: 6 uses
+- Poppins Regular, 16px: 6 uses
+- Inter Medium, 12.42px: 5 uses
+- Inter Medium, 13.99px: 5 uses
+- Inter SemiBold, 4.73px: 5 uses
+- Kodchasan Bold, 32.63px: 5 uses
+- Kodchasan Bold, 85.67px: 5 uses
+
+## Typography Hierarchy
+- 85.67px - Kodchasan Bold, 85.67px (raw)
+- 49.8px - Inter SemiBold, 49.8px (raw)
+- 40px - Inter Bold, 40px (raw)
+- 39.8px - Inter Regular, 39.8px (raw)
+- 32.63px - Kodchasan Bold, 32.63px (raw)
+- 31.9px - Inter Regular, 31.9px (raw)
+- 25px - Poppins Regular, 25px (raw)
+- 24px - Inter SemiBold, 24px (raw)
+- 23.8px - Inter Medium, 23.8px (raw)
+- 19.8px - Inter Regular, 19.8px (raw)
+- 18px - Poppins Regular, 18px (raw)
+- 16.34px - Poppins Regular, 16.34px (raw)
+- 16px - Poppins Regular, 16px (raw)
+- 15.9px - Inter Medium, 15.9px (raw)
+- 15.9px - Inter Regular, 15.9px (raw)
+- 15.9px - Inter SemiBold, 15.9px (raw)
+- 15.69px - Poppins Regular, 15.69px (raw)
+- 14.8px - Inter Medium, 14.8px (raw)
+- 14.71px - Inter Regular, 14.71px (raw)
+- 13.99px - Inter Medium, 13.99px (raw)
+- 13.9px - Inter Regular, 13.9px (raw)
+- 13.8px - Inter SemiBold, 13.8px (raw)
+- 13.75px - Poppins Regular, 13.75px (raw)
+- 13.08px - Poppins Regular, 13.08px (raw)
+- 13.02px - Inter SemiBold, 13.02px (raw)
+- 12.93px - Inter Regular, 12.93px (raw)
+- 12.42px - Inter Medium, 12.42px (raw)
+- 12px - Poppins Regular, 12px (raw)
+- 11.8px - Inter Regular, 11.8px (raw)
+- 11px - Poppins Regular, 11px (raw)
+- 11px - Poppins SemiBold, 11px (raw)
+- 10.46px - Poppins Regular, 10.46px (raw)
+- 10.46px - Poppins SemiBold, 10.46px (raw)
+- 9.68px - Inter SemiBold, 9.68px (raw)
+- 9.09px - Inter SemiBold, 9.09px (raw)
+- 8.68px - Inter SemiBold, 8.68px (raw)
+- 6.9px - Inter SemiBold, 6.9px (raw)
+- 4.73px - Inter SemiBold, 4.73px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- Icon 16×16: columns count 1, section 16px, gutter 0px, align center + rows count 1, section 16px, gutter 0px, align center
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Gray/300: 44 uses
+- Black-8 : 36 uses
+- Black-10: 5 uses
+- White-100: 5 uses
+- Black 8: 4 uses
+- Special / Black 1: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Desktop - Light Mode
+- SECTION "Desktop - Light Mode", 1825x12344.45px, fill #404040, stroke #FFFFFF1A 1px
+  - FRAME "Screen", 1425x11846.45px, constraints left/top, fill #FFFFFF
+    - FRAME "Body", 1425x11846.45px, constraints left/top, fill #FFFFFF
+      - GROUP "Div [page--wrapper]", 1425x11846.44px, constraints left/top
+        - GROUP "Footer [section--footer]", 1425x561.47px, constraints left/top
+          - FRAME "Div [copyright--wrapper]", 1425x97.99px, constraints left/top, stroke #C9C9C9 1px
+            - FRAME "Div [main--container]", 1200x78.99px, constraints left/top
+          - FRAME "Div [footer__wrapper]", 1140x391.49px, horizontal pad 0 0 0 0px gap 156px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [footer__column]", 300x391.49px, constraints left/top
+            - FRAME "Div [footer__wrapper]", 684x391.49px, horizontal pad 0 461.7 0 0px gap 45.59px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Main [page--main]", 1425x11148px, constraints left/top
+          - FRAME "Section [section--new]", 1425x460px, constraints left/top, radius 3px
+            - FRAME "Div [get--started]", 1140x460px, constraints left/top, radius 40px, fill #00B96C
+          - FRAME "Section [section--new]", 1425x750px, constraints left/top, radius 3px
+            - FRAME "Div [main--container]", 1200x750px, constraints left/top
+          - FRAME "Section [section--new]", 1425x399px, constraints left/top, radius 3px
+            - GROUP "Div [horizontal--flex]", 1140.01x399px, constraints left/top
+          - FRAME "Section [section--new]", 1425x463.1px, constraints left/top, radius 3px
+            - FRAME "Div [main--container]", 1200x463.1px, constraints left/top
+          - FRAME "Section [section--new]", 1425x879.99px, constraints left/top, radius 3px, fill #FAFAFA
+            - FRAME "Div [main--container]", 1200x767.99px, constraints left/top
+          - FRAME "Section [section--new]", 1425x813.22px, constraints left/top, radius 3px
+            - FRAME "Div [vertical--flex_center]", 1140x813.22px, constraints left/top
+          - FRAME "Section [section--new]", 1425x3899.12px, vertical pad 0 112.5 1726.77 112.5px gap 100px sizing W:fixed H:fixed, constraints left/top, radius 3px
+            - FRAME "Div [ai-meeting-notes]", 1200x905.79px, constraints left/top
+            - FRAME "Div [meeting-automation]", 1200x905.79px, constraints left/top
+            - FRAME "Div [coaching]", 1200x881.79px, constraints left/top
+            - FRAME "Div [deal-analytics]", 1200x905.79px, constraints left/top
+          - FRAME "Section [section--new]", 1425x606.58px, constraints left/top, radius 3px
+            - FRAME "Div [main--container]", 1200x606.58px, constraints left/top
+          - FRAME "Section [section--new]", 1425x1616.97px, constraints left/top, radius 3px
+            - FRAME "Div [company--trust]", 820x218.4px, constraints left/top
+            - FRAME "Div [main--container]", 1440x715.21px, constraints left/top [decorative, ~5 shapes]
+            - FRAME "Div [hero--content]", 820x369.38px, constraints left/top
+        - FRAME "Div [navigation]", 1425x89px, constraints left/top, stroke #F0F0F0 0px
+          - GROUP "Div [container--large]", 1346x88px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Div [nav__btn-group]", 205.39x88px, constraints left/top, radius 0/0/0/0px
+            - FRAME "Div [menu-fix-w]", 605.9x88px, horizontal pad 0 339.8 0 20px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Link [nav__logo-wrapper]", 126x33.6px, constraints left/top
+      - FRAME "Div [intercom-lightweight-app-launcher]", 48x48px, constraints left/top, radius 50px, fill #13AF78, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+        - FRAME "Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x24px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/", 212x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+
+Screen: Page 1 / Intergration
+- SECTION "Intergration", 1825x3654.05px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/integrations", 352x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 90", 1312x2906px, constraints center/top, fill image(hash: 389c2a5c81a3f8a24c88d3399c81fcc3436e5411)
+
+Screen: Page 1 / Updates Page
+- SECTION "Updates Page", 1825x6202.96px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/topics/product-updates", 490x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 91", 1378x5517px, constraints center/top, fill image(hash: 33bf844a1ead268de5b7d292022a04fcc5997aea)
+
+Screen: Page 1 / Security page
+- SECTION "Security page", 1825x5861.72px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/security", 306x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 92", 1401x5274px, constraints center/top, fill image(hash: d7cad43ee10a402e76e2f886fac4d4c355c08467)
+
+Screen: Page 1 / Use case
+- SECTION "Use case", 1825x7051.62px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/use-case/product", 420x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - TEXT "https://grain.com/", 102x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - RECTANGLE "image 93", 1415x6505px, constraints center/top, fill image(hash: 096bd49944b73e82d9332c492bbfec5af7a2351d)
+
+Screen: Page 1 / Resources
+- SECTION "Resources", 1825x4255.79px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/company", 319x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 96", 1401x3695px, constraints center/top, fill image(hash: 1445a5d8821c58b0a20525bb997e8c56c85fc627)
+
+Screen: Page 1 / Careers
+- SECTION "Careers", 1825x4964.7px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/careers", 300x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 97", 1405x4403px, constraints center/top, fill image(hash: e45646878a213b449e221162ab047190e20d875e)
+
+Screen: Page 1 / Customers
+- SECTION "Customers", 1825x5890.57px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/customers", 335x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 98", 1376x5209px, constraints center/top, fill image(hash: 458e494a9bb08a7a71fecae4bdf0fb021eab1a89)
+
+Screen: Page 1 / Blog
+- SECTION "Blog", 1825x8258.37px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/blog", 263x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 99", 1339x7382px, constraints center/top, fill image(hash: c54b64defae4dac8ce772f3597137c2399563e15)
+
+Screen: Page 1 / Resource
+- SECTION "Resource", 1825x2536.02px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/resource/self-guided-product-tour", 618x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 100", 1425x2038.5px, constraints center/top, fill image(hash: d84d5567006bbe8fecc43c066ab93916c6ee44a3)
+
+Screen: Page 1 / Contact
+- SECTION "Contact", 1825x2349.62px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/contact", 301x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 101", 1425x1852px, constraints left/top, fill image(hash: 5b3529ad969a3ec564c182c384171fb5a12e027b)
+
+Screen: Page 1 / Pricing
+- SECTION "Pricing", 1825x9200.93px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/pricing", 292x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 102", 1391x8428px, constraints center/top, fill image(hash: 6617b103e03f208383d72cefc7776f84c4fabca3)
+
+Screen: Page 1 / Login
+- SECTION "Login", 1825x1451.19px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/login", 269x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 105", 1425x953.5px, constraints left/top, fill image(hash: d6dff76c431d192558de6ec745f305ea1f360c71)
+
+Screen: Page 1 / Demo booking
+- SECTION "Demo booking", 1825x2740.85px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/live-demo", 329x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 106", 1301x2048px, constraints left/top, fill image(hash: 8873c825f0d89a25261117dc4a8067383342a31d)
+
+Screen: Page 1 / Privacy
+- SECTION "Privacy", 1825x4397.12px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/privacy", 297x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 107", 1377x3768px, constraints center/top, fill image(hash: 978aaaaa947b641ce33c5d73d9317ae686448a1c)
+
+Screen: Page 1 / Support
+- SECTION "Support", 1825x2552.07px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://support.grain.com/en", 339x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 109", 1432.5x2048px, constraints center/top, fill image(hash: 0c1e93d5a4807c70fd73ebed9e36d08f8edf2570)
+
+Screen: Page 1 / Resource
+- SECTION "Resource", 1825x2305.79px, fill #404040, stroke #FFFFFF1A 1px
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://grain.com/resource/sales-coaching-guide", 578x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 110", 1425x1808px, constraints center/top, fill image(hash: ab85c18ac2644c3b1ced2287e57f659cdc3a301c)
+
+Screen: Page 1 / Web to Figma
+- FRAME "Web to Figma", 5940x636px, horizontal pad 140 110 140 110px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #8746EB
+  - TEXT "✨ Imported with Web to Figma", 4564x356px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 296.9px], [heading]
+
+Screen: Page 1 / Chrome extension
+- FRAME "Chrome extension", 913.78x257.56px, horizontal pad 14.28 0 14.28 0px gap 42.83px align center/center sizing W:fixed H:fixed, constraints left/top, radius 214.17px, fill #007AEA, stroke #FFFFFF29 3.57px
+  - FRAME "Google_Chrome-Logo.wine 1", 112.31x114.22px, constraints left/top, radius 89.34px, fill #FFFFFF [decorative, ~43 shapes]
+  - TEXT "Get extension", 575x229px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 85.67px], [heading]
+
+Screen: Page 1 / FIgma Plugin
+- FRAME "FIgma Plugin", 913.78x257.56px, horizontal pad 14.28 0 14.28 0px gap 42.83px align center/center sizing W:fixed H:fixed, constraints left/top, radius 214.17px, fill #8746EB
+  - FRAME "Frame", 114.22x114.22px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - TEXT "Try in Figma", 480x229px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 85.67px], [heading]
+
+Screen: Page 1 / Web To Figma Plugin
+- FRAME "Web To Figma Plugin", 1920x960px, constraints left/top, fill #0B021C
+  - FRAME "Frame 1116606390", 1920x964.53px, constraints left/top
+    - FRAME "Frame 1116606378", 1920x964.53px, constraints left/top, radius 18.13px
+      - RECTANGLE "Rectangle 132", 1920x964.53px, constraints left/top, fill #0B021C
+      - INSTANCE "Background pattern", 3662.32x2746.74px, constraints left/top, opacity 13%
+        - FRAME "Mask", 2746.74x2746.74px, constraints center/top
+          - INSTANCE "_Background mask", 2746.74x2746.74px, constraints center/top, fill gradient_radial(#000000 0% | #00000000 95%)
+        - FRAME "Content", 3662.32x2746.74px, constraints center/top [decorative, ~44 shapes]
+      - ELLIPSE "Ellipse 35", 1450.42x1450.42px, constraints left/top, fill #8243EA66, effect [layer_blur 725.21px]
+      - GROUP "Group 17", 794.1x683.51px, constraints left/top [decorative, ~14 shapes]
+      - GROUP "Group 21", 794.11x703.46px, constraints right/top [decorative, ~15 shapes]
+      - ELLIPSE "Ellipse 37", 1450.42x1450.42px, constraints left/top, fill #8243EA33, effect [layer_blur 725.21px]
+      - GROUP "Group 24", 794.11x703.46px, constraints center/center [decorative, ~15 shapes]
+      - FRAME "Frame 1116606583", 787x793.52px, vertical pad 0 0 0 0px gap 36.26px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1116606582", 787x210px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Design inspirations,", 787x105px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 79.77px], [heading]
+          - TEXT "meet Figma", 453x105px, constraints left/top, fill #8746EB, text [Kodchasan Bold, 79.77px], [heading]
+        - FRAME "Frame 1116606389", 647.25x547.26px, vertical pad 0 0 0 0px gap 58.02px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 1116606388", 647.25x123px, vertical pad 0 0 0 0px gap 19.94px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Web to Figma is the most delightful way to save, organise, a", 647.25x123px, constraints left/top, fill #FFFFFFCC, text [Inter Light, 25.38px], [heading]
+          - FRAME "Frame 1116606387", 458.52x366.24px, vertical pad 0 0 0 0px gap 27.2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606382", 401.15x54.39px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606385", 415.52x50.77px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606386", 428.52x50.77px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606383", 446.52x50.76px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606384", 458.52x50.77px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Ellipse 71", 258.61x221.19px, constraints left/top, fill #6831E1, effect [layer_blur 116.03px]
+      - FRAME "Frame 1116606584", 1026.35x940.96px, horizontal pad 0 0 0 0px gap -54.39px align min/max sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Ellipse 71", 258.61x221.19px, constraints left/top, fill #6831E1, effect [layer_blur 116.03px]
+        - FRAME "Figma Plugin", 538.65x754.11px, vertical pad 0 0 0 0px gap 17.24px sizing W:fixed H:fixed, constraints left/top, radius 16.54px, fill White-100, stroke gradient_linear(#6F2DFF 0% | #FFFFFF 100%) 3.63px, effect [drop_shadow 97.29px offset 0 2.15 #4900C38A]
+          - FRAME "Frame 28", 751.74x61.64px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 751.74x60.14px, horizontal pad 6.01 12.03 6.01 24.06px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Divider", 751.74x1.5px, constraints left/top
+          - FRAME "Frame 29", 538.65x304.17px, vertical pad 0 17.24 0 17.24px gap 17.24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 7", 504.17x71.03px, vertical pad 0 0 0 0px gap 8.76px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Recent captures", 224.08x18px, constraints left/top, fill Black-8 , text [Inter SemiBold, 11.85px]
+            - FRAME "Frame 33", 1025.58x180.67px, horizontal pad 0 0 0 0px gap 17.24px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "separator", 538.65x1.08px, constraints left/top, fill Special / Black 1
+          - RECTANGLE "image 45", 538.92x267.42px, constraints left/top, fill image(hash: d3f2c4fc71ad854217e7d1e66164b91e2435e755)
+        - FRAME "Figma Plugin", 542.1x940.96px, constraints left/top, radius 16.54px, fill White-100, stroke gradient_linear(#6F2DFF 0% | #FFFFFF 100%) 3.63px, effect [drop_shadow 97.29px offset 0 2.15 #4900C38A]
+          - FRAME "Frame 28", 751.74x68.9px, vertical pad 0 0 0 0px gap 7.25px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 751.74x60.14px, constraints left/top
+            - INSTANCE "Divider", 751.74x1.5px, constraints left/top
+          - INSTANCE "Divider", 751.74x1.5px, constraints left/top
+          - FRAME "Frame 1116606553", 542.1x3012.82px, vertical pad 0 0 0 0px gap 17.36px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 32", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606492", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606491", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 33", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606489", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 34", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606488", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606490", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606493", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606494", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606495", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606496", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606497", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606498", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606499", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606500", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1116606586", 90.65x90.65px, constraints left/top
+          - ELLIPSE "Ellipse 72", 90.65x90.65px, constraints left/top, fill #6932E2, stroke gradient_linear(#6F2DFF 0% | #FFFFFF00 100%) 3.24px, effect [drop_shadow 86.87px offset 0 1.92 #4900C38A]
+          - FRAME "Frame", 43.51x43.51px, constraints center/center, fill #FFFFFF
+            - VECTOR "Vector", 36.26x30.82px, constraints scale/scale, stroke #FFFFFF 3.63px
+            - VECTOR "Vector", 36.26x0px, constraints scale/scale, stroke #FFFFFF 3.63px
+      - FRAME "Frame 1116606585", 78.17x82.81px, constraints left/top [decorative, ~7 shapes]
+      - ELLIPSE "Ellipse 48", 7.43x7.43px, constraints left/top, fill gradient_radial(#D6BDFF 0% | #7B2CFF 100%), effect [drop_shadow 5.44px offset 0 0 #FFFFFF61]
+  - FRAME "Frame 1116606586", 101.53x101.53px, constraints left/top [decorative, ~5 shapes]
+
+Screen: Page 1 / Figma Plugin
+- FRAME "Figma Plugin", 1591x2166px, constraints left/top, radius 6.36px, fill White-100, stroke #00000033 1.59px, effect [drop_shadow 194px offset 0 4 #7B2CFF99]
+  - FRAME "Frame 30", 1591x299.11px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 11", 1591x168.65px, vertical pad 50.91 0 0 0px gap 38.18px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 6", 1591x76.37px, horizontal pad 0 50.91 0 50.91px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1116605345", 377.82x76.37px, horizontal pad 0 0 0 0px gap 25.46px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Circle", 76.37x76.37px, constraints left/top, radius 76.37px, fill #8243EA
+            - TEXT "web", 43x27px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 20.75px]
+            - TEXT "f", 11x27px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 20.75px]
+            - TEXT "igma", 47x27px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 20.75px]
+            - VECTOR "Vector 1 (Stroke)", 12.12x14.53px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 1.04px
+          - TEXT "title", 276x51px, constraints left/top, fill Black 8, text [Inter SemiBold, 41.37px], [heading]
+        - VECTOR "Vector", 31.82x31.82px, constraints left/top, stroke Black-8  3.18px
+      - INSTANCE "Divider", 1591x3.18px, constraints left/top
+        - RECTANGLE "Rectangle", 1591x3.18px, constraints left_right/center, fill Black-10
+    - FRAME "Frame 27", 1591x130.46px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 6", 1591x127.28px, horizontal pad 12.73 25.46 12.73 50.91px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 31", 800.74x51px, horizontal pad 0 0 0 0px gap 50.91px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 30", 264.64x51px, horizontal pad 0 0 0 0px gap 12.73px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 50.91x50.91px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Inspirations", 201x51px, constraints left/top, fill Black-8 , text [Inter SemiBold, 35px], [heading]
+          - FRAME "Frame 32", 256.64x51px, horizontal pad 0 0 0 0px gap 12.73px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Type, Paragraph, Character/gallery", 50.91x50.91px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Collections", 193x51px, constraints left/top, fill #00000080, text [Inter SemiBold, 35px], [heading]
+          - FRAME "Frame 31", 177.64x51px, horizontal pad 0 0 0 0px gap 12.73px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Interface, Essential/download-arrow", 50.91x50.91px, constraints left/top, fill #FFFFFF
+            - TEXT "Import", 114x51px, constraints left/top, fill #00000080, text [Inter SemiBold, 35px], [heading]
+        - FRAME "Frame 1116605379", 444.28x101.82px, horizontal pad 0 0 0 0px gap 25.46px align max/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 32", 317x50px, horizontal pad 0 0 0 0px gap 12.73px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Upgrade to PRO", 317x50px, constraints left/top, fill #8243EA, text [Kodchasan Bold, 38.18px], [heading]
+          - INSTANCE "32 / adjust", 101.82x101.82px, constraints left/top
+            - BOOLEAN_OPERATION "Union", 38.18x44.55px, constraints left/top, fill Black 8
+      - INSTANCE "Divider", 1591x3.18px, constraints left/top
+        - RECTANGLE "Rectangle", 1591x3.18px, constraints left_right/center, fill Black-10
+  - RECTANGLE "image 73", 1502x1685.17px, constraints left/top, fill image(hash: a29c1dbe464e4e05f716a293bc52fdfced575dce)
+
+Screen: Page 1 / Import any Webpage of Grain website using Web to Figma Plugin
+- TEXT "Import any Webpage of Grain website using Web to Figma Plugi", 1665x274px, constraints left/top, fill #000000, text [Kodchasan Bold, 85.67px], [heading]
+
+Screen: Page 1 / Vector 1 (Stroke)
+- VECTOR "Vector 1 (Stroke)", 419.52x350.06px, constraints left/top, fill #FFFFFF, stroke #7B2CFF 29.97px
+
+Screen: Page 1 / Website UI Kit
+- FRAME "Website UI Kit", 1920x1200px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1116606391", 1920x1200px, constraints center/top, fill #0B021C
+    - RECTANGLE "grid", 2595.01x1303.63px, constraints right/top, fill image(hash: f29563c2037c09846625eb90744f7ce82135d8b1)
+    - FRAME "1", 599x418px, constraints left/top, radius 22px, fill #FFFFFF
+      - RECTANGLE "image", 607.32x426.19px, constraints left/top, fill image(hash: 8ff3a4b6454ef9cbc35517a5f2d22879bc5d8b76)
+    - FRAME "2", 734.71x375px, constraints left/top, radius 26.98px, fill #FFFFFF [decorative, ~6 shapes]
+    - FRAME "19", 734.71x375px, constraints left/top, radius 26.98px, fill #FFFFFF [decorative, ~6 shapes]
+    - FRAME "3", 572x412.37px, constraints left/top, radius 21px, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "20", 572x412.37px, constraints left/top, radius 21px, fill #FFFFFF
+      - RECTANGLE "image", 686x482px, constraints left/top, fill image(hash: de3fcb9754eee199c04174804465389f2410ebf4)
+      - RECTANGLE "image", 572x339px, constraints left/top, fill image(hash: 9a84fb4fc01c1ac6dd0319cce6ad52b85cc595fa)
+    - FRAME "18", 606.75x413.69px, constraints left/top, radius 30px, fill #FAF9F6
+      - RECTANGLE "image", 598x420px, constraints left/top, fill image(hash: 165e5b70f9a88547b347632ce30a46347d14ed4a)
+      - RECTANGLE "image", 1425x1000px, constraints left/top, fill image(hash: 632319d6ae27cf312e3435f4146c0d9a394552b4)
+      - RECTANGLE "image", 1425x1000px, constraints left/top, fill image(hash: 1fbcd577e0e49a02701623d170592ecbe2435aaa)
+    - RECTANGLE "Rectangle 244", 1905x1576.15px, constraints left/top, fill gradient_linear(#0F042300 52% | #0F0520 94%)
+    - ELLIPSE "Glow-2", 1333.83x1333.83px, constraints left/top, fill #8243EA66, effect [layer_blur 666.92px]
+    - ELLIPSE "Glow-1", 1096x1096px, constraints left/top, fill #00B96C, effect [layer_blur 666.92px]
+    - ELLIPSE "Glow-1", 1096x1096px, constraints left/top, fill #00B96C, effect [layer_blur 666.92px]
+    - GROUP "Dots-3", 661.75x569.59px, constraints left/top [decorative, ~14 shapes]
+    - GROUP "Dots", 661.75x586.21px, constraints center/center [decorative, ~15 shapes]
+    - GROUP "Dots-2", 661.75x586.21px, constraints right/top [decorative, ~15 shapes]
+    - INSTANCE "Square", 195.98x195.98px, constraints left/top, fill #8243EA, effect [drop_shadow 6.73px offset 0 6.73 #00000040, drop_shadow 204.76px offset 0 5.32 #000000]
+      - TEXT "web", 125x80px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 61.24px], [heading]
+      - TEXT "f", 30x80px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 61.24px], [heading]
+      - TEXT "igma", 137x80px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 61.24px], [heading]
+      - VECTOR "Vector 1 (Stroke)", 35.77x42.87px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 3.06px
+    - FRAME "Frame 1116606379", 769x196px, vertical pad 0 0 0 0px gap -12.46px sizing W:fixed H:fixed, constraints left/top, stroke #000000 1px
+      - TEXT "Grain UI Kit", 769x196px, constraints left/top, fill #FFFFFF, effect [background_blur 92.17px], text [Kodchasan Bold, 135.8px], [heading]
+    - TEXT "👉 Landing Page Design 👉 20+ Pages 👉 50+ Components", 580x261px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 47.87px], [heading]
+
+Screen: Page 1 / Chrome extension
+- FRAME "Chrome extension", 913.78x257.56px, horizontal pad 14.28 0 14.28 0px gap 42.83px align center/center sizing W:fixed H:fixed, constraints left/top, radius 214.17px, fill #007AEA, stroke #FFFFFF29 3.57px
+  - FRAME "Google_Chrome-Logo.wine 1", 112.31x114.22px, constraints left/top, radius 89.34px, fill #FFFFFF [decorative, ~43 shapes]
+  - TEXT "Get extension", 575x229px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 85.67px], [heading]
+
+Screen: Page 1 / FIgma Plugin
+- FRAME "FIgma Plugin", 913.78x257.56px, horizontal pad 14.28 0 14.28 0px gap 42.83px align center/center sizing W:fixed H:fixed, constraints left/top, radius 214.17px, fill #8746EB
+  - FRAME "Frame", 114.22x114.22px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - TEXT "Try in Figma", 480x229px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 85.67px], [heading]
+
+Screen: Page 1 / Thumbnail
+- FRAME "Thumbnail", 1920x1200px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1116606391", 1920x1200px, constraints center/top, fill #0B021C
+    - VECTOR "Ellipse 71", 258.61x221.19px, constraints left/top, fill #6831E1, effect [layer_blur 116.03px]
+    - RECTANGLE "grid", 2595.01x1303.63px, constraints right/top, fill image(hash: f29563c2037c09846625eb90744f7ce82135d8b1)
+    - FRAME "Sparkles-2", 142.02x142.02px, constraints left/top [decorative, ~7 shapes]
+    - ELLIPSE "Glow-2", 1333.83x1333.83px, constraints left/top, fill #8243EA66, effect [layer_blur 666.92px]
+    - ELLIPSE "Glow-1", 1333.83x1333.83px, constraints left/top, fill #8243EA33, effect [layer_blur 666.92px]
+    - GROUP "Dots-3", 661.75x569.59px, constraints left/top [decorative, ~14 shapes]
+    - GROUP "Dots", 661.75x586.21px, constraints center/center [decorative, ~15 shapes]
+    - GROUP "Dots-2", 661.75x586.21px, constraints right/top [decorative, ~15 shapes]
+    - GROUP "Sparkles", 128.07x103.17px, constraints left/top [decorative, ~7 shapes]
+    - VECTOR "Blur", 0x240px, constraints left/top, stroke #9A5DFF63 28.59px, effect [layer_blur 33.36px]
+    - VECTOR "Vector 33", 547.86x0px, constraints left/top, stroke gradient_linear(#6102FF 0% | #8243EA00 100%) 7.12px
+    - VECTOR "Vector 34", 538.5x0px, constraints left/top, stroke gradient_linear(#6102FF 0% | #8243EA00 100%) 7.12px
+    - VECTOR "Vector 31", 2.01x243.5px, constraints left/top, stroke gradient_linear(#FFFFFF 3% | #6000FF 100%) 5.11px
+    - INSTANCE "Square", 129.29x129.29px, constraints center/top, fill #8243EA, effect [drop_shadow 4.44px offset 0 4.44 #00000040, drop_shadow 135.08px offset 0 3.51 #000000]
+      - TEXT "web", 82x53px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 40.4px], [heading]
+      - TEXT "f", 20x53px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 40.4px], [heading]
+      - TEXT "igma", 91x53px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 40.4px], [heading]
+      - VECTOR "Vector 1 (Stroke)", 23.6x28.28px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 2.02px
+    - FRAME "Frame 1116606397", 727x256.85px, vertical pad 0 0 0 0px gap 56.71px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Frame 1116606379", 727x256.85px, vertical pad 0 0 0 0px gap -7.15px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Landing Page", 727x128px, constraints left/top, fill #8746EB, effect [drop_shadow 34px offset 0 4 #8151FF99], text [Kodchasan Bold, 106.41px], [heading]
+        - TEXT "Grain", 300x136px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 113.41px], [heading]
+  - GROUP "Sparkles", 128.07x103.17px, constraints left/top [decorative, ~7 shapes]
+  - VECTOR "Vector 31", 2.01x243.5px, constraints left/top, stroke gradient_linear(#FFFFFF 3% | #6000FF 100%) 5.11px
+  - VECTOR "Blur", 2x152px, constraints left/top, stroke #9A5DFF63 28.59px, effect [layer_blur 33.36px]
+  - RECTANGLE "image", 1009.98x691.41px, constraints left/top, radius 19.61px, fill image(hash: 54c7a99a9afb66507da10af80a1cdb2539fd22f5)
+  - RECTANGLE "image", 992.37x751.06px, constraints left/top, radius 19.61px, fill image(hash: 146e7ca907f325a3db4832c3887e76d99b202a72)
+  - RECTANGLE "image", 1018.99x692.29px, constraints left/top, radius 19.61px, fill image(hash: dea54cac53c4ecf265d07cb8040d304b6eccc458)
+  - RECTANGLE "image", 958.61x622.07px, constraints left/top, radius 19.61px, fill image(hash: 54c7a99a9afb66507da10af80a1cdb2539fd22f5)
+  - RECTANGLE "image", 981.16x641.11px, constraints left/top, radius 19.61px, fill image(hash: 54c7a99a9afb66507da10af80a1cdb2539fd22f5)
+  - RECTANGLE "image", 1021.96x726.02px, constraints left/top, radius 19.61px, fill image(hash: dea54cac53c4ecf265d07cb8040d304b6eccc458)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

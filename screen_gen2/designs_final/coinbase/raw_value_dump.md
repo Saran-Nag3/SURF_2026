@@ -1,0 +1,1119 @@
+---
+name: coinbase-cryptocurrency-mobile-app-kit-community
+source_file: Coinbase CryptoCurrency Mobile App Kit (Community)
+source_page: All pages (4): Cover, Dribble shots, Demo Designs, Full Version Preview
+generated_at: 2026-07-25T09:34:27.101517+00:00
+---
+
+# Coinbase CryptoCurrency Mobile App Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Coinbase CryptoCurrency Mobile App Kit (Community)
+- Figma page: All pages (4): Cover, Dribble shots, Demo Designs, Full Version Preview
+- Extracted at: 2026-07-25T09:34:27.101517+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Primary/Brainstorming Black: [#121212]
+- Primary/Brainstorming Purple: [#6979F8]
+- Colors/Neutral/White: [#FFFFFF]
+- white: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 523 uses
+- #FFFFFF80: 422 uses
+- #18191D: 182 uses
+- #AA5555: 182 uses
+- #55AA79: 162 uses
+- #F8F8F8: 109 uses
+- #858487: 98 uses
+- #CDA92D: 70 uses
+- #0B0A0F: 51 uses
+- #4671ED: 41 uses
+- #707A83: 39 uses
+- #2D76F9: 36 uses
+- #32353C: 32 uses
+- #FFFFFFE8: 31 uses
+- #000000: 24 uses
+- #53565B: 20 uses
+- #DE6944: 20 uses
+- #D9D9D9: 16 uses
+- #101010: 13 uses
+- #D9D9D933: 12 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Poppins SemiBold, 20px: 282 uses
+- Poppins Medium, 16px: 171 uses
+- Poppins Regular, 27px: 160 uses
+- Poppins Regular, 16px: 146 uses
+- Poppins Light, 11px: 90 uses
+- Poppins Regular, 20px: 63 uses
+- Poppins SemiBold, 16px: 63 uses
+- Poppins SemiBold, 11px: 55 uses
+- Poppins Regular, 14px: 30 uses
+- Poppins Medium, 20px: 26 uses
+- Poppins SemiBold, 19px: 26 uses
+- Poppins Medium, 12px: 20 uses
+- Poppins Medium, 14px: 14 uses
+- Poppins SemiBold, 28px: 14 uses
+- Poppins Bold, 12px: 10 uses
+- Poppins Medium, 24px: 8 uses
+- Poppins Regular, 13px: 8 uses
+
+## Typography Hierarchy
+- 28px - Poppins SemiBold, 28px (raw)
+- 27px - Poppins Regular, 27px (raw)
+- 24px - Poppins Medium, 24px (raw)
+- 20px - Poppins Medium, 20px (raw)
+- 20px - Poppins Regular, 20px (raw)
+- 20px - Poppins SemiBold, 20px (raw)
+- 19px - Poppins SemiBold, 19px (raw)
+- 16px - Poppins Medium, 16px (raw)
+- 16px - Poppins Regular, 16px (raw)
+- 16px - Poppins SemiBold, 16px (raw)
+- 14px - Poppins Medium, 14px (raw)
+- 14px - Poppins Regular, 14px (raw)
+- 13px - Poppins Regular, 13px (raw)
+- 12px - Poppins Bold, 12px (raw)
+- 12px - Poppins Medium, 12px (raw)
+- 11px - Poppins Light, 11px (raw)
+- 11px - Poppins SemiBold, 11px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Primary/Brainstorming Purple: 2 uses
+- Colors/Neutral/White: 1 use
+- Primary/Brainstorming Black: 1 use
+- white: 1 use
+
+## Layout & Structure
+Screen: Cover / BM Cover
+- FRAME "BM Cover", 1920x960px, constraints left/top, fill Primary/Brainstorming Black
+  - FRAME "BM - Copywrite", 310x60px, horizontal pad 0 0 0 0px gap 70px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "media", 310x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "media-body", 310x60px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "avatar", 60x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "avatar", 60x60px, constraints center/center, radius 50px, fill image(hash: 41851592983c9543b563242c31f716687b676e73)
+        - INSTANCE "media-content", 240x44px, vertical pad 0 0 0 0px gap 3px align center/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "Frank Esteban", 143x25px, constraints left/top, fill white, text [Poppins Medium, 21px]
+          - TEXT "Web Development", 240x16px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 15px]
+  - GROUP "Group 427320605", 502x387px, constraints left/center
+    - FRAME "BM - HEadline", 502x347px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "c", 438x97px, constraints left/top, fill Primary/Brainstorming Purple, text [Poppins SemiBold, 90px], [heading]
+      - TEXT "Cryptocurrency Mobile App UIKIT", 502x210px, constraints left/top, fill Colors/Neutral/White, text [Poppins Medium, 48px], [heading]
+    - TEXT "c", 171x21px, constraints left/top, fill Primary/Brainstorming Purple, text [Poppins SemiBold, 24px], [heading]
+  - FRAME "BM - Figma logo", 58.72x92.28px, constraints left/top, effect [drop_shadow 41.65px offset 0 31.24 #32324714, drop_shadow 20.83px offset 0 20.83 #32324714] [decorative, ~5 shapes]
+  - GROUP "Group 1", 1112x1406.26px, constraints left/top [decorative, ~16 shapes]
+
+Screen: Dribble shots / Mockup 3 - iPhone 11
+- FRAME "Mockup 3 - iPhone 11", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 37b555b6eb1b48d780854474eb78b736baf4bd87)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: da5f73070cfd38c75836451fe7e8f56784ceced2)
+
+Screen: Dribble shots / Mockup 3 - iPhone 15
+- FRAME "Mockup 3 - iPhone 15", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 9a8ce4833686981b4fb0970a1961654058345330)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 3decbc3d26977492f1194338ad684c943a51bb2d)
+
+Screen: Dribble shots / Mockup 3 - iPhone 19
+- FRAME "Mockup 3 - iPhone 19", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 42b38114844cf321b3ece70ad7ed32d63978e304)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: f5267c244056eed0d283a901b1e4bb9ff25a9b3e)
+
+Screen: Dribble shots / Mockup 3 - iPhone 12
+- FRAME "Mockup 3 - iPhone 12", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 638925d7353caf5947845ae652434998e205c4c8)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 6076a56e44306bff39e2bdf52d28c7bc6aeac354)
+
+Screen: Dribble shots / Mockup 3 - iPhone 16
+- FRAME "Mockup 3 - iPhone 16", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: c5eda9777083c80334b2981d132b28343d9c4233)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 9c2540508888aefa34e512decf738b2b80979129)
+
+Screen: Dribble shots / Mockup 3 - iPhone 20
+- FRAME "Mockup 3 - iPhone 20", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 2d2132181ba602ac1d1b96c88021d9870934114d)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 9c2540508888aefa34e512decf738b2b80979129)
+
+Screen: Dribble shots / Mockup 3 - iPhone 13
+- FRAME "Mockup 3 - iPhone 13", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: aaa09393a7f24b1b47f75adc30296e6fe11d2f54)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 71749cecf0a6b21d229902f2b5370b65daca0f26)
+
+Screen: Dribble shots / Mockup 3 - iPhone 17
+- FRAME "Mockup 3 - iPhone 17", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: f7a5e8229b6bb644717c473773c8a7098ef74f79)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 42047433e9bbc3b2b21baeb73da671a9c7fcbb40)
+
+Screen: Dribble shots / Mockup 3 - iPhone 21
+- FRAME "Mockup 3 - iPhone 21", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 41058e3fce012d77babcfd231882992c05881968)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 42047433e9bbc3b2b21baeb73da671a9c7fcbb40)
+
+Screen: Dribble shots / Mockup 3 - iPhone 14
+- FRAME "Mockup 3 - iPhone 14", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: ac6d6fda3bbd01ebae5d0e219c9090433bd1db43)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 7979cbbb692a471922e813abf3a0a9b52a3f5686)
+
+Screen: Dribble shots / Mockup 3 - iPhone 18
+- FRAME "Mockup 3 - iPhone 18", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 8b5daa683f97aa0494304feac12b9c1e1ec36305)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: 27cd93d0ec75194213ca9b909d671f971020bc03)
+
+Screen: Dribble shots / Mockup 3 - iPhone 22
+- FRAME "Mockup 3 - iPhone 22", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "Left Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: dd5bcc1ff2289a6c84436d1012a667d6cd8cabc0)
+  - GROUP "Right Mockup", 1672x3298.22px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 1672x3298.22px, constraints left/top, effect [drop_shadow 100px offset -40 50 #00000066]
+      - RECTANGLE "Black", 1672x3298.22px, constraints scale/scale, fill image(hash: 103b9825daee1c53df131f9f7aadb92d818fa24b)
+    - GROUP "Place your Design", 1414x3060.26px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 1414x3060.26px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 1414x3065.31px, constraints scale/scale, fill image(hash: cf6c9d7ab1218398594e21291f3631b5ee45c259)
+
+Screen: Dribble shots / Mockup 8 - iPhone 11
+- FRAME "Mockup 8 - iPhone 11", 6064x4048px, constraints scale/scale, fill #101010
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: 28646d28efc6ce5dd200370128592e310a5c6c97)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: 42b38114844cf321b3ece70ad7ed32d63978e304)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: f7a5e8229b6bb644717c473773c8a7098ef74f79)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: 8b5daa683f97aa0494304feac12b9c1e1ec36305)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: 79850e79643dfbbb1672b8ed4f4ebe6d6c0e5d2e)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: 27cd93d0ec75194213ca9b909d671f971020bc03)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: de5fb6e5ef4d2eb7d3fc2c61c5540b423b2549ca)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: 8b5daa683f97aa0494304feac12b9c1e1ec36305)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: 9a8ce4833686981b4fb0970a1961654058345330)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: c5eda9777083c80334b2981d132b28343d9c4233)
+  - GROUP "iPhone 11", 2915.4x2915.4px, constraints left/top, fill #FFFFFF
+    - INSTANCE "iPhone 11 - Choose Color & Shadow", 2915.4x2915.4px, constraints left/top, effect [drop_shadow 250px offset -250 250 #00000066]
+      - RECTANGLE "Black", 2915.4x2915.4px, constraints scale/scale, fill image(hash: b1e8b347f312bd8b7fa2293a503a5d09089104a7)
+    - GROUP "Place your Design", 2624.47x2624.47px, constraints left/top, fill #FFFFFF
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - VECTOR "screen", 2624.47x2624.47px, constraints scale/scale, fill #CDA92D
+      - RECTANGLE "Place your Design", 2627.43x2627.43px, constraints scale/scale, fill image(hash: 97e01079a4537503c61e871f0e9b19fad2b28e95)
+
+Screen: Demo Designs / Coinbase wallet
+- FRAME "Coinbase wallet", 430x932px, constraints left/top, fill #0B0A0F
+  - GROUP "Group 2", 319x54px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Coinbase WALLET", 319x54px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 36px], [heading]
+
+Screen: Demo Designs / SplashScreen
+- FRAME "SplashScreen", 430x932px, constraints left/top, fill #0B0A0F
+  - RECTANGLE "Rectangle 1", 430x622px, constraints left/top, fill image(hash: 7031f5e0ecfdcc7d28b1b1b0c12e4b6f2510a94f)
+  - GROUP "Group 2", 395x244px, constraints left/top, radius 50px
+    - TEXT "Welcome to Coinbase Wallet", 235x84px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+    - GROUP "Group 1", 395x68px, constraints left/top, radius 50px
+      - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #FFFFFF
+      - TEXT "Create new wallet", 202.51x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+    - TEXT "I already have a wallet", 229x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+
+Screen: Demo Designs / SplashScreen
+- FRAME "SplashScreen", 430x932px, constraints left/top, fill #0B0A0F
+  - RECTANGLE "Rectangle 1", 430x542px, constraints left/top, fill image(hash: aa0c3bcc5447a5584b61bde13ebb68e549baff70)
+  - GROUP "Group 2", 395x259px, constraints left/top, radius 50px
+    - TEXT "Trade,send, and store crypto and NFTs", 310x84px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+    - GROUP "Group 1", 395x68px, constraints left/top, radius 50px
+      - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #FFFFFF
+      - TEXT "Create new wallet", 202.51x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+    - TEXT "I already have a wallet", 229x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+
+Screen: Demo Designs / SplashScreen
+- FRAME "SplashScreen", 430x932px, constraints left/top, fill #0B0A0F
+  - GROUP "Group 2", 395x244px, constraints left/top, radius 50px
+    - TEXT "Manage your Dapps", 196x84px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+    - GROUP "Group 1", 395x68px, constraints left/top, radius 50px
+      - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #FFFFFF
+      - TEXT "Create new wallet", 202.51x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+    - TEXT "I already have a wallet", 229x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+  - RECTANGLE "Rectangle 2", 430x622px, constraints left/top, fill image(hash: 20f94bf9618150440d0336f52586ea17428dc55f)
+
+Screen: Demo Designs / SplashScreen
+- FRAME "SplashScreen", 430x932px, constraints left/top, fill #0B0A0F
+  - RECTANGLE "Rectangle 1", 430x622px, constraints left/top, fill image(hash: a30b6088d395bc1596837ca1230279ee32bb57a3)
+  - GROUP "Group 2", 395x244px, constraints left/top, radius 50px
+    - TEXT "Manage everything in Coinbase wallet", 279x84px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+    - GROUP "Group 1", 395x68px, constraints left/top, radius 50px
+      - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #FFFFFF
+      - TEXT "Create new wallet", 202.51x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+    - TEXT "I already have a wallet", 229x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+
+Screen: Demo Designs / Security
+- FRAME "Security", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "material-symbols:content-copy-outline", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 14.17x16.67px, constraints scale/scale, fill #F8F8F8
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Back up your wallet", 279x42px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+  - TEXT "Your secret recovery phrase is used to recover your crypto i", 388x168px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 16px]
+  - TEXT "Copy to clipboard", 151x22px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 16px]
+  - TEXT "Your secret recovery phrase is used to recover your crypto i", 323x66px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 16px]
+  - GROUP "Group 1", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #FFFFFF
+    - TEXT "Back up on iCloud", 202.51x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+  - GROUP "Group 4", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #32353C
+    - TEXT "Back up manually", 202.51x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+  - GROUP "Group 3", 274x5px, constraints left/top, radius 20px [decorative, ~5 shapes]
+  - RECTANGLE "Rectangle 8", 385x124px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.3px
+  - RECTANGLE "Rectangle 9", 377x114px, constraints left/top, radius 6px, fill #FFFFFF03, stroke #FFFFFF 0.3px, effect [background_blur 10px]
+  - FRAME "mdi:eye", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18.33x12.5px, constraints scale/scale, fill #F8F8F8
+
+Screen: Demo Designs / Username
+- FRAME "Username", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Pick your username", 283x42px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+  - TEXT "Choose wisely! You can only change this once a year.", 388x47px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 16px]
+  - TEXT "johnjames.cb.id", 130x21px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 16px]
+  - TEXT "Powered by ENS", 116x21px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+  - TEXT "Username", 87x19px, constraints left/top, fill #FFFFFFE8, text [Poppins SemiBold, 14px]
+  - GROUP "Group 4", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #32353C
+    - TEXT "Claim my username", 210x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+  - GROUP "Group 3", 274x5px, constraints left/top, radius 20px [decorative, ~5 shapes]
+  - RECTANGLE "Rectangle 8", 385x70px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.7px
+  - RECTANGLE "Rectangle 9", 15x15px, constraints left/top, fill #D9D9D9, stroke #FFFFFF 0.7px
+  - RECTANGLE "Rectangle 10", 15x15px, constraints left/top, fill #D9D9D9, stroke #FFFFFF 0.7px
+  - GROUP "Group 23", 375x217px, constraints left/top
+    - GROUP "Group 22", 341x197px, constraints left/top, radius 0/0/0/0px
+      - TEXT "You can import your ENS name into Coinbase wallet", 229x39px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 13px]
+      - TEXT "Allow anyone to search for your username and see your profil", 341x39px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 13px]
+      - TEXT "I agree to the subdomain terms", 214x21px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 13px]
+      - TEXT "Use your own ENS", 151x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Learn how", 99x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+    - RECTANGLE "IMG_5627", 129x129px, constraints left/top, fill image(hash: 1efac68ccdb66e0a4e430b87ac0411b2a9c4ac8c)
+
+Screen: Demo Designs / Signin
+- FRAME "Signin", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Enter the 7-digit code we texted to +xxx xxxxxxx800", 377x84px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+  - TEXT "This helps us keep your account secure by verifying that its", 388x47px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 16px]
+  - GROUP "Group 123", 140x21px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Cancel signing in", 140x21px, constraints left/top, fill #2D76F9, text [Poppins Medium, 14px]
+  - GROUP "Group 124", 140x21px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Try another way", 140x21px, constraints left/top, fill #2D76F9, text [Poppins Medium, 14px]
+  - GROUP "Group 24", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #141518
+    - TEXT "Resend code in 30", 210x30px, constraints left/top, fill #707A83, text [Poppins Medium, 20px]
+  - GROUP "Group 116", 48.9x55px, constraints left/top, radius 6px
+    - GROUP "Group 114", 48.9x55px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 8", 48.9x55px, constraints left/top, radius 6px, fill #D9D9D9, stroke #4671ED 2px
+  - GROUP "Group 117", 48.9x55px, constraints left/top, radius 6px
+    - GROUP "Group 114", 48.9x55px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 8", 48.9x55px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.4px
+  - GROUP "Group 118", 48.9x55px, constraints left/top, radius 6px
+    - GROUP "Group 114", 48.9x55px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 8", 48.9x55px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.4px
+  - GROUP "Group 119", 48.9x55px, constraints left/top, radius 6px
+    - GROUP "Group 114", 48.9x55px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 8", 48.9x55px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.4px
+  - GROUP "Group 120", 48.9x55px, constraints left/top, radius 6px
+    - GROUP "Group 114", 48.9x55px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 8", 48.9x55px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.4px
+  - GROUP "Group 121", 48.9x55px, constraints left/top, radius 6px
+    - GROUP "Group 114", 48.9x55px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 8", 48.9x55px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.4px
+  - GROUP "Group 122", 48.9x55px, constraints left/top, radius 6px
+    - GROUP "Group 114", 48.9x55px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 8", 48.9x55px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.4px
+  - GROUP "Group 23", 57x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 57x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Sign in", 57x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - RECTANGLE "IMG_5926", 69x62px, constraints left/top, fill image(hash: ba3be15e9ae735b89b88a58d8b286a205c185a8a)
+
+Screen: Demo Designs / Signin
+- FRAME "Signin", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "healthicons:ui-user-profile", 36x36px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Enter phone number", 292x42px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+  - GROUP "Group 4", 140x21px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Cancel signing in", 140x21px, constraints left/top, fill #2D76F9, text [Poppins Medium, 14px]
+  - GROUP "Group 116", 154x21px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Cant access phone ?", 154x21px, constraints left/top, fill #2D76F9, text [Poppins Medium, 14px]
+  - GROUP "Group 24", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #4671ED
+    - TEXT "Continue", 210x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+  - GROUP "Group 115", 394x196px, constraints left/top, radius 6px
+    - TEXT "Phone number", 110x19px, constraints left/top, fill #FFFFFFE8, text [Poppins SemiBold, 14px]
+    - GROUP "Group 116", 394x70px, constraints left/top, radius 6px
+      - TEXT "08098208830800", 189x21px, constraints left/top, fill #B3B3B3, text [Poppins Regular, 16px]
+      - RECTANGLE "Rectangle 8", 394x70px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.4px
+    - GROUP "Group 115", 394x70px, constraints left/top, radius 6px
+      - TEXT "example@email.com", 189x21px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - RECTANGLE "Rectangle 8", 394x70px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.2px
+  - GROUP "Group 23", 57x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 57x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Sign in", 57x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - RECTANGLE "IMG_5926", 69x62px, constraints left/top, fill image(hash: ba3be15e9ae735b89b88a58d8b286a205c185a8a)
+
+Screen: Demo Designs / Homescreen
+- FRAME "Homescreen", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Notifications", 105x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - FRAME "material-symbols:settings-outline-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 19.49x20px, constraints scale/scale, fill #F8F8F8
+  - GROUP "Group 54", 430x69px, constraints left/top
+    - GROUP "Group 38", 430x0.5px, constraints left/top
+      - VECTOR "Rectangle 13", 430x0.5px, constraints left/top, fill #53565B
+    - GROUP "Group 45", 391x48px, constraints left/top
+      - GROUP "Group 40", 39x48px, constraints left/top
+        - TEXT "Assets", 39x16px, constraints left/top, fill #2D76F9, text [Poppins SemiBold, 11px]
+        - FRAME "raphael:piechart", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x23.71px, constraints scale/scale, fill #2D76F9
+      - GROUP "Group 41", 75x48px, constraints left/top
+        - TEXT "Transactions", 75x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "mdi:list-box-outline", 24x27px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x20.25px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 42", 47x48px, constraints left/top
+        - TEXT "Browser", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "mdi:web", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 43", 47x48px, constraints left/top
+        - TEXT "Explore", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "material-symbols:search-rounded", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.6x17.58px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 44", 47x48px, constraints left/top
+        - TEXT "Settings", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "material-symbols:settings-outline-rounded", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19.49x20px, constraints scale/scale, fill #F8F8F8
+  - GROUP "Group 53", 327x206px, constraints left/top
+    - GROUP "Group 52", 278x54px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Explore the world of crypto to start getting updates.", 278x19px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 13px]
+      - TEXT "Welcome !", 137x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 24px], [heading]
+    - RECTANGLE "IMG_5951", 327x143px, constraints left/top, fill image(hash: 1bf29f707c3dd666284d7cf5cd8a4ad1f30ca711)
+
+Screen: Demo Designs / Homescreen
+- FRAME "Homescreen", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Swap", 46x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 53", 430.77x375px, constraints left/top
+    - GROUP "Group 107", 430.77x375px, constraints left/top
+      - GROUP "Group 106", 312x58px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Connect your Coinbase account to buy or transfer crypto", 278x19px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 13px]
+        - TEXT "To swap, first fund your wallet", 312x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 20px]
+      - RECTANGLE "IMG_6015", 430.77x305px, constraints left/top, fill image(hash: 2fc6fb8041f21bc835201c5c871728cd8938bca9)
+  - GROUP "Group 4", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #4671ED
+    - TEXT "Add Crypto to your wallet", 257x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+
+Screen: Demo Designs / Homescreen
+- FRAME "Homescreen", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Send", 46x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 53", 430.77x414px, constraints left/top
+    - GROUP "Group 107", 430.77x414px, constraints left/top
+      - GROUP "Group 106", 324x97px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Use a coinbase account to buy or transfer crypto, or receive", 278x19px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 13px]
+        - TEXT "To send, first add crypto to your wallet", 324x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 20px]
+      - RECTANGLE "IMG_6015", 430.77x305px, constraints left/top, fill image(hash: 2fc6fb8041f21bc835201c5c871728cd8938bca9)
+  - GROUP "Group 4", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #4671ED
+    - TEXT "Add Crypto to your wallet", 257x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+
+Screen: Demo Designs / Homescreen
+- FRAME "Homescreen", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Receive cryptos and NFTs", 212x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 34", 72x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 72x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Address", 72x22px, constraints left/top, fill #4671ED, text [Poppins SemiBold, 16px]
+  - GROUP "Group 35", 87x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 87x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Username", 87x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - RECTANGLE "Rectangle 12", 72x2px, constraints left/top, fill #4671ED
+  - GROUP "Group 48", 385x118px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 47", 385x118px, constraints left/top, radius 0/0/0/0px
+      - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill #32353C
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #F8F8F8
+      - FRAME "mdi:warning-circle", 17x17px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.17x14.17px, constraints scale/scale, fill #F8F8F8
+      - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill #32353C
+      - FRAME "carbon:qr-code", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - GROUP "Group 41", 194x20px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 23", 194x20px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 22", 194x20px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Your Ethereum address", 194x20px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "0xF09...67c484", 105x21px, constraints left/top, fill #878C98, text [Poppins Regular, 14px]
+      - RECTANGLE "Rectangle 8", 385x118px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.2px
+      - GROUP "Group 46", 95x20px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 49", 385x118px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 47", 385x118px, constraints left/top, radius 0/0/0/0px
+      - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill #32353C
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #F8F8F8
+      - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill #32353C
+      - FRAME "carbon:qr-code", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - GROUP "Group 41", 194x20px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 23", 194x20px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 22", 194x20px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Your Solana address", 194x20px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Fvp8...bQWBV", 105x21px, constraints left/top, fill #878C98, text [Poppins Regular, 14px]
+      - RECTANGLE "Rectangle 8", 385x118px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.2px
+      - GROUP "Group 46", 20x20px, constraints left/top
+        - ELLIPSE "Ellipse 6", 20x20px, constraints left/top, fill image(hash: 526b6f3835cb20ae323bb774a68afa73cb0a36b8)
+  - GROUP "Group 50", 385x118px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 47", 385x118px, constraints left/top, radius 0/0/0/0px
+      - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill #32353C
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #F8F8F8
+      - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill #32353C
+      - FRAME "carbon:qr-code", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - GROUP "Group 41", 194x20px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 23", 194x20px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 22", 194x20px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Your Bitcoin address", 194x20px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "bcp8...bQWBV", 105x21px, constraints left/top, fill #878C98, text [Poppins Regular, 14px]
+      - RECTANGLE "Rectangle 8", 385x118px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.2px
+      - GROUP "Group 46", 20x20px, constraints left/top
+        - ELLIPSE "Ellipse 6", 20x20px, constraints left/top, fill image(hash: 083749b636762329e37881de58d830d066a674e7)
+  - GROUP "Group 51", 385x118px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 47", 385x118px, constraints left/top, radius 0/0/0/0px
+      - FRAME "material-symbols:chevron-right-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 6.55x11.15px, constraints scale/scale, fill #A7A7A7
+      - GROUP "Group 41", 194x20px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 23", 194x20px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 22", 194x20px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Other Assets", 194x20px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - RECTANGLE "Rectangle 8", 385x118px, constraints left/top, radius 6px, fill #D9D9D9, stroke #FFFFFF 0.2px
+      - GROUP "Group 46", 20x20px, constraints left/top
+        - ELLIPSE "Ellipse 6", 20x20px, constraints left/top, fill image(hash: 526b6f3835cb20ae323bb774a68afa73cb0a36b8)
+
+Screen: Demo Designs / Homescreen
+- FRAME "Homescreen", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Receive cryptos and NFTs", 212x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 34", 72x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 72x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Address", 72x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 35", 87x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 87x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Username", 87x22px, constraints left/top, fill #4671ED, text [Poppins SemiBold, 16px]
+  - RECTANGLE "Rectangle 12", 92x2px, constraints left/top, fill #4671ED
+  - GROUP "Group 106", 374x122px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Coinbase wallet users can send crypto to you using this user", 278x44px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 13px]
+    - TEXT "@wallets68834683497", 374x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 32px], [heading]
+  - GROUP "Group 4", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #32353C
+    - TEXT "Share your username", 218x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+  - RECTANGLE "IMG_6019", 430.77x174px, constraints left/top, fill image(hash: 30e45a6978352a1c6023de96e7db17728c920e4c)
+
+Screen: Demo Designs / Homescreen
+- FRAME "Homescreen", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "material-symbols:arrow-back-rounded", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.58x15.19px, constraints scale/scale, fill #F8F8F8
+  - TEXT "Bridge", 55x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 53", 430.77x234px, constraints left/top
+    - GROUP "Group 107", 430.77x234px, constraints left/top
+      - GROUP "Group 106", 318x58px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Connect your Coinbase account to buy or transfer crypto", 278x19px, constraints left/top, fill #FFFFFFE8, text [Poppins Regular, 13px]
+        - TEXT "To bridge, first fund your wallet", 318x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 20px]
+      - RECTANGLE "IMG_6016", 430.77x161px, constraints left/top, fill image(hash: 2fdfc6703b26e555601a216e992ea81d28f716bb)
+  - GROUP "Group 4", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #4671ED
+    - TEXT "Add Crypto to your wallet", 257x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+
+Screen: Demo Designs / Homescreen
+- FRAME "Homescreen", 430x932px, constraints left/top, fill #0B0A0F
+  - GROUP "Group 38", 430x584.5px, constraints left/top
+    - RECTANGLE "Rectangle 11", 430x35px, constraints left/top, fill #030F30
+    - RECTANGLE "Rectangle 12", 430x0.5px, constraints left/top, fill #53565B
+    - VECTOR "Rectangle 13", 430x0.5px, constraints left/top, fill #53565B
+    - GROUP "Group 37", 154x20px, constraints left/top
+      - GROUP "Group 33", 126x20px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 126x20px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Invite your friends", 126x20px, constraints left/top, fill #4671ED, text [Poppins SemiBold, 12px]
+      - VECTOR "Vector", 16.88x18px, constraints scale/scale, fill #4671ED
+  - FRAME "mdi:cancel-bold", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #484B51
+  - GROUP "Group 26", 96x24px, constraints left/top
+    - FRAME "ph:bell", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 17.81x20.25px, constraints scale/scale, fill #F8F8F8
+    - FRAME "uil:capture", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20x20px, constraints scale/scale, fill #F8F8F8
+    - FRAME "material-symbols:content-copy-outline-rounded", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 17x20px, constraints scale/scale, fill #F8F8F8
+  - GROUP "Group 34", 56x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 56x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Crypto", 56x22px, constraints left/top, fill #4671ED, text [Poppins SemiBold, 16px]
+  - GROUP "Group 35", 42x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 42x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "NFTs", 42x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 36", 37x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 37x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "DeFi", 37x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 25", 130x30px, constraints left/top
+    - FRAME "material-symbols:keyboard-arrow-down-rounded", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.15x6.55px, constraints scale/scale, fill #707A83
+    - GROUP "Group 24", 75x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 75x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Wallet 1", 75x22px, constraints left/top, fill #707A83, text [Poppins Medium, 16px]
+    - ELLIPSE "Ellipse 2", 30x30px, constraints left/top, fill #D9D9D9
+  - TEXT "USD 5,466.00", 187x42px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+  - GROUP "Group 28", 45x74px, constraints left/top
+    - GROUP "Group 27", 26x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 26x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Buy", 26x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 34", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - FRAME "material-symbols:add-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14x14px, constraints scale/scale, fill #0B0A0F
+  - GROUP "Group 29", 45x74px, constraints left/top
+    - GROUP "Group 27", 40x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 40x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Swap", 40x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 33", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - FRAME "material-symbols:swap-vert-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.15x15.16px, constraints scale/scale, fill #0B0A0F
+  - GROUP "Group 30", 49x74px, constraints left/top
+    - GROUP "Group 27", 49x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 49x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Bridge", 49x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 33", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - FRAME "material-symbols:swap-calls-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.2x15px, constraints scale/scale, fill #0B0A0F
+  - GROUP "Group 31", 45x74px, constraints left/top
+    - GROUP "Group 27", 37x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 37x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Send", 37x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 33", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - FRAME "mdi:arrow-up", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.84x15.84px, constraints scale/scale, fill #0B0A0F
+  - GROUP "Group 32", 55x74px, constraints left/top
+    - GROUP "Group 27", 55x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 55x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Receive", 55x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 33", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - INSTANCE "mdi:arrow-down", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.84x15.84px, constraints scale/scale, fill #0B0A0F
+  - RECTANGLE "Rectangle 12", 56x2px, constraints left/top, fill #4671ED
+  - GROUP "Group 39", 388x91px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 23", 281x33px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 281x33px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Add crypto to get started", 281x33px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 22px]
+    - TEXT "You can add funds with your Coinbase account or another wall", 388x47px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+  - RECTANGLE "IMG_5630", 430.77x185px, constraints left/top, fill image(hash: 3df94ba27a591cc45557b75b807e188398d0c7c2)
+  - GROUP "Group 4", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #4671ED
+    - TEXT "Add Crypto", 202.51x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+  - GROUP "Group 45", 391x48px, constraints left/top
+    - GROUP "Group 40", 39x48px, constraints left/top
+      - TEXT "Assets", 39x16px, constraints left/top, fill #2D76F9, text [Poppins SemiBold, 11px]
+      - FRAME "raphael:piechart", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x23.71px, constraints scale/scale, fill #2D76F9
+    - GROUP "Group 41", 75x48px, constraints left/top
+      - TEXT "Transactions", 75x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+      - FRAME "mdi:list-box-outline", 24x27px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18x20.25px, constraints scale/scale, fill #F8F8F8
+    - GROUP "Group 42", 47x48px, constraints left/top
+      - TEXT "Browser", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+      - FRAME "mdi:web", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #F8F8F8
+    - GROUP "Group 43", 47x48px, constraints left/top
+      - TEXT "Explore", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+      - FRAME "material-symbols:search-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 17.6x17.58px, constraints scale/scale, fill #F8F8F8
+    - GROUP "Group 44", 47x48px, constraints left/top
+      - TEXT "Settings", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+      - FRAME "material-symbols:settings-outline-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.49x20px, constraints scale/scale, fill #F8F8F8
+
+Screen: Demo Designs / Homescreen
+- FRAME "Homescreen", 430x932px, constraints left/top, fill #0B0A0F
+  - GROUP "Group 38", 430x584.5px, constraints left/top
+    - RECTANGLE "Rectangle 11", 430x35px, constraints left/top, fill #030F30
+    - RECTANGLE "Rectangle 12", 430x0.5px, constraints left/top, fill #53565B
+    - VECTOR "Rectangle 13", 430x0.5px, constraints left/top, fill #53565B
+    - GROUP "Group 37", 154x20px, constraints left/top
+      - GROUP "Group 33", 126x20px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 126x20px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Invite your friends", 126x20px, constraints left/top, fill #4671ED, text [Poppins SemiBold, 12px]
+      - VECTOR "Vector", 16.88x18px, constraints scale/scale, fill #4671ED
+  - FRAME "mdi:cancel-bold", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #484B51
+  - GROUP "Group 26", 96x24px, constraints left/top
+    - FRAME "ph:bell", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 17.81x20.25px, constraints scale/scale, fill #F8F8F8
+    - FRAME "uil:capture", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20x20px, constraints scale/scale, fill #F8F8F8
+    - FRAME "material-symbols:content-copy-outline-rounded", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 17x20px, constraints scale/scale, fill #F8F8F8
+  - GROUP "Group 34", 56x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 56x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Crypto", 56x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 35", 42x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 42x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "NFTs", 42x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 36", 37x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 37x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "DeFi", 37x22px, constraints left/top, fill #2D76F9, text [Poppins SemiBold, 16px]
+  - GROUP "Group 25", 130x30px, constraints left/top
+    - FRAME "material-symbols:keyboard-arrow-down-rounded", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.15x6.55px, constraints scale/scale, fill #707A83
+    - GROUP "Group 24", 75x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 75x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Wallet 1", 75x22px, constraints left/top, fill #707A83, text [Poppins Medium, 16px]
+    - ELLIPSE "Ellipse 2", 30x30px, constraints left/top, fill #D9D9D9
+  - TEXT "USD 5,466.00", 187x42px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 28px], [heading]
+  - GROUP "Group 28", 45x74px, constraints left/top
+    - GROUP "Group 27", 26x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 26x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Buy", 26x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 34", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - FRAME "material-symbols:add-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14x14px, constraints scale/scale, fill #0B0A0F
+  - GROUP "Group 29", 45x74px, constraints left/top
+    - GROUP "Group 27", 40x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 40x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Swap", 40x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 33", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - FRAME "material-symbols:swap-vert-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.15x15.16px, constraints scale/scale, fill #0B0A0F
+  - GROUP "Group 30", 49x74px, constraints left/top
+    - GROUP "Group 27", 49x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 49x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Bridge", 49x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 33", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - FRAME "material-symbols:swap-calls-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.2x15px, constraints scale/scale, fill #0B0A0F
+  - GROUP "Group 31", 45x74px, constraints left/top
+    - GROUP "Group 27", 37x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 37x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Send", 37x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 33", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - FRAME "mdi:arrow-up", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.84x15.84px, constraints scale/scale, fill #0B0A0F
+  - GROUP "Group 32", 55x74px, constraints left/top
+    - GROUP "Group 27", 55x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 55x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Receive", 55x22px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 14px]
+    - GROUP "Group 33", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 3", 45x45px, constraints left/top, fill #4671ED
+      - INSTANCE "mdi:arrow-down", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.84x15.84px, constraints scale/scale, fill #0B0A0F
+  - RECTANGLE "Rectangle 12", 56x2px, constraints left/top, fill #4671ED
+  - GROUP "Group 39", 388x91px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 23", 255x33px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 255x33px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Start earning with DeFi", 255x33px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 22px]
+    - TEXT "Add crypto to your wallet to get started with decentralized ", 388x47px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+  - RECTANGLE "IMG_5632", 430.77x170px, constraints left/top, fill image(hash: bcb57efb9f291f187eca1bec635f5cdc99cb761c)
+  - GROUP "Group 4", 395x68px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 2", 395x68px, constraints left/top, radius 50px, fill #4671ED
+    - TEXT "Add Crypto", 202.51x30px, constraints left/top, fill #000000, text [Poppins Medium, 20px]
+  - GROUP "Group 45", 391x48px, constraints left/top
+    - GROUP "Group 40", 39x48px, constraints left/top
+      - TEXT "Assets", 39x16px, constraints left/top, fill #2D76F9, text [Poppins SemiBold, 11px]
+      - FRAME "raphael:piechart", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x23.71px, constraints scale/scale, fill #2D76F9
+    - GROUP "Group 41", 75x48px, constraints left/top
+      - TEXT "Transactions", 75x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+      - FRAME "mdi:list-box-outline", 24x27px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18x20.25px, constraints scale/scale, fill #F8F8F8
+    - GROUP "Group 42", 47x48px, constraints left/top
+      - TEXT "Browser", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+      - FRAME "mdi:web", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #F8F8F8
+    - GROUP "Group 43", 47x48px, constraints left/top
+      - TEXT "Explore", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+      - FRAME "material-symbols:search-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 17.6x17.58px, constraints scale/scale, fill #F8F8F8
+    - GROUP "Group 44", 47x48px, constraints left/top
+      - TEXT "Settings", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+      - FRAME "material-symbols:settings-outline-rounded", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.49x20px, constraints scale/scale, fill #F8F8F8
+
+Screen: Demo Designs / Explore
+- FRAME "Explore", 430x932px, constraints left/top, fill #0B0A0F
+  - FRAME "mdi:dots-vertical", 22x22px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 3.67x14.67px, constraints scale/scale, fill #F5F3F3
+  - FRAME "material-symbols:add-box-outline-rounded", 22x22px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 16.5x16.5px, constraints scale/scale, fill #F5F3F3
+  - GROUP "Group 55", 194x40px, constraints left/top, radius 20px
+    - RECTANGLE "Rectangle 16", 194x40px, constraints left/top, radius 20px, fill #1B1D22
+    - GROUP "Group 25", 137.79x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 24", 137.79x22px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 137.79x22px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Search or type URL", 137.79x22px, constraints left/top, fill #707A83, text [Poppins Medium, 14px]
+  - GROUP "Group 56", 67x24px, constraints left/top
+    - FRAME "material-symbols:keyboard-arrow-down-rounded", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 6.55x11.15px, constraints scale/scale, fill #707A83
+    - FRAME "material-symbols:keyboard-arrow-down-rounded", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 6.55x11.15px, constraints scale/scale, fill #707A83
+  - TEXT "Top dapps", 130x36px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 24px], [heading]
+  - GROUP "Group 57", 307x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 307x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Swap", 47x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Earn", 39x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Manage", 68x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Connect", 72x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+  - GROUP "Group 58", 29x33px, constraints left/top
+    - GROUP "Group 24", 24x22px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 22", 24x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "All", 24x22px, constraints left/top, fill #4671ED, text [Poppins SemiBold, 16px]
+    - RECTANGLE "Rectangle 12", 29x2px, constraints left/top, fill #4671ED
+  - GROUP "Group 61", 353x53px, constraints left/top
+    - GROUP "Group 59", 287x51px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 23", 43x23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 43x23px, constraints left/top, radius 0/0/0/0px
+          - TEXT "1inch", 43x23px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Swap tokens with the most liquidity", 287x24px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+    - GROUP "Group 60", 50x50px, constraints left/top
+      - ELLIPSE "Ellipse 10", 45x45px, constraints left/top, fill image(hash: 30d503411476bf7cc6b9952299e94560b60c76ec)
+      - ELLIPSE "Ellipse 11", 25x25px, constraints left/top, fill image(hash: bf56f9bc73dc030e6e8cf84235f3f76fa0f0ba29), stroke #000000 1.5px
+  - GROUP "Group 62", 353x51px, constraints left/top
+    - GROUP "Group 59", 287x51px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 23", 43x23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 43x23px, constraints left/top, radius 0/0/0/0px
+          - TEXT "ENS", 43x23px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Get your unique .eth name", 287x24px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+    - GROUP "Group 61", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 10", 45x45px, constraints left/top, fill image(hash: 5d76e5bb15faeecd2421edd7f65cf9dbb41c56af)
+  - GROUP "Group 63", 353x53px, constraints left/top
+    - GROUP "Group 59", 287x51px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 23", 88x23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 88x23px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Trader Joe", 88x23px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Discover DeFi", 287x24px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+    - GROUP "Group 61", 50x50px, constraints left/top
+      - ELLIPSE "Ellipse 10", 45x45px, constraints left/top, fill image(hash: b0ce4368a991152dee84e257ccab866b2f8f7c55)
+      - ELLIPSE "Ellipse 11", 25x25px, constraints left/top, fill image(hash: c88412d3c80bf6590f91666f5b322e54b959f1d8), stroke #000000 1.5px
+  - GROUP "Group 64", 353x53px, constraints left/top
+    - GROUP "Group 59", 287x51px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 23", 96x23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 96x23px, constraints left/top, radius 0/0/0/0px
+          - TEXT "QuickSwap", 96x23px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Swap tokens and supply liquidity", 287x24px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+    - GROUP "Group 61", 50x50px, constraints left/top
+      - ELLIPSE "Ellipse 10", 45x45px, constraints left/top, fill image(hash: a8bffdad576e824a312dd6531864521773a75c74)
+      - ELLIPSE "Ellipse 11", 25x25px, constraints left/top, fill image(hash: bf56f9bc73dc030e6e8cf84235f3f76fa0f0ba29), stroke #000000 1.5px
+  - GROUP "Group 65", 353x51px, constraints left/top
+    - GROUP "Group 59", 287x51px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 23", 65x23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 65x23px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Bungee", 65x23px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Make the jump to explore your fari...", 287x24px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+    - GROUP "Group 61", 45x45px, constraints left/top
+      - ELLIPSE "Ellipse 10", 45x45px, constraints left/top, fill image(hash: 97cbc351167a94e9fcbec456664e7efeaa9e83de)
+  - GROUP "Group 66", 353x53px, constraints left/top
+    - GROUP "Group 59", 287x51px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 23", 96x23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 96x23px, constraints left/top, radius 0/0/0/0px
+          - TEXT "SushiSwap", 96x23px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Swap and earn with the communi...", 287x24px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+    - GROUP "Group 61", 50x50px, constraints left/top
+      - ELLIPSE "Ellipse 10", 45x45px, constraints left/top, fill image(hash: 13d29abc8126de30435415c8913ca61365fd6c6c)
+      - ELLIPSE "Ellipse 11", 25x25px, constraints left/top, fill image(hash: bf56f9bc73dc030e6e8cf84235f3f76fa0f0ba29), stroke #000000 1.5px
+  - GROUP "Group 67", 353x53px, constraints left/top
+    - GROUP "Group 59", 287x51px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 23", 65x23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 65x23px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Quest3", 65x23px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Complete quests and get rewards", 287x24px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+    - GROUP "Group 61", 50x50px, constraints left/top
+      - ELLIPSE "Ellipse 10", 45x45px, constraints left/top, fill image(hash: f5f0e447c2fb8bc7d52aae5df2801654eb73347c)
+      - ELLIPSE "Ellipse 11", 25x25px, constraints left/top, fill image(hash: bf56f9bc73dc030e6e8cf84235f3f76fa0f0ba29), stroke #000000 1.5px
+  - GROUP "Group 68", 353x53px, constraints left/top
+    - GROUP "Group 59", 287x51px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 23", 74x23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 22", 74x23px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Raydium", 74x23px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+      - TEXT "Swap and earn tokens", 287x24px, constraints left/top, fill #FFFFFF80, text [Poppins Regular, 16px]
+    - GROUP "Group 61", 50x50px, constraints left/top
+      - ELLIPSE "Ellipse 10", 45x45px, constraints left/top, fill image(hash: 83522d906e4e00dcbc45e60f95a86df7a1e34707)
+      - ELLIPSE "Ellipse 11", 25x25px, constraints left/top, fill image(hash: 79c30515c4827bf427a0f6695daabb3408f75782), stroke #000000 1.5px
+  - GROUP "Group 54", 430x69px, constraints left/top
+    - GROUP "Group 38", 430x0.5px, constraints left/top
+      - VECTOR "Rectangle 13", 430x0.5px, constraints left/top, fill #53565B
+    - GROUP "Group 45", 391x48px, constraints left/top
+      - GROUP "Group 40", 39x48px, constraints left/top
+        - TEXT "Assets", 39x16px, constraints left/top, fill #858487, text [Poppins SemiBold, 11px]
+        - FRAME "raphael:piechart", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x23.71px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 45", 75x48px, constraints left/top
+        - TEXT "Transactions", 75x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "mdi:list-box-outline", 24x27px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x20.25px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 42", 47x48px, constraints left/top
+        - TEXT "Browser", 47x16px, constraints left/top, fill #2D76F9, text [Poppins SemiBold, 11px]
+        - FRAME "mdi:web", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #2D76F9
+      - GROUP "Group 43", 47x48px, constraints left/top
+        - TEXT "Explore", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "material-symbols:search-rounded", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.6x17.58px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 44", 47x48px, constraints left/top
+        - TEXT "Settings", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "material-symbols:settings-outline-rounded", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19.49x20px, constraints scale/scale, fill #F8F8F8
+
+Screen: Demo Designs / SETTINGS
+- FRAME "SETTINGS", 430x932px, constraints left/top, fill #0B0A0F
+  - TEXT "Settings", 100x36px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 24px], [heading]
+  - GROUP "Group 57", 95x22px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 22", 95x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Wallets", 95x22px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 20px]
+  - GROUP "Group 54", 430x368px, constraints left/top
+    - GROUP "Group 38", 430x299.5px, constraints left/top
+      - VECTOR "Rectangle 13", 430x0.5px, constraints left/top, fill #53565B
+      - VECTOR "Rectangle 14", 430x0.5px, constraints left/top, fill #53565B
+    - GROUP "Group 45", 391x48px, constraints left/top
+      - GROUP "Group 40", 39x48px, constraints left/top
+        - TEXT "Assets", 39x16px, constraints left/top, fill #858487, text [Poppins SemiBold, 11px]
+        - FRAME "raphael:piechart", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x23.71px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 45", 75x48px, constraints left/top
+        - TEXT "Transactions", 75x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "mdi:list-box-outline", 24x27px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18x20.25px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 46", 47x48px, constraints left/top
+        - TEXT "Browser", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "mdi:web", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 43", 47x48px, constraints left/top
+        - TEXT "Explore", 47x16px, constraints left/top, fill #FFFFFF80, text [Poppins SemiBold, 11px]
+        - FRAME "material-symbols:search-rounded", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.6x17.58px, constraints scale/scale, fill #F8F8F8
+      - GROUP "Group 44", 47x48px, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

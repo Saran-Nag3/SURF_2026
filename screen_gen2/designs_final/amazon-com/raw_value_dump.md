@@ -1,0 +1,554 @@
+---
+name: amazon-mobile-mockup-e-commerce-community
+source_file: amazon mobile mockup (e-commerce) (Community)
+source_page: All pages (3): Page 1, Page 3, comps
+generated_at: 2026-07-25T09:56:53.040178+00:00
+---
+
+# amazon mobile mockup (e-commerce) (Community) Design Guidelines
+
+## Source
+- Figma file: amazon mobile mockup (e-commerce) (Community)
+- Figma page: All pages (3): Page 1, Page 3, comps
+- Extracted at: 2026-07-25T09:56:53.040178+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- fill_icon: none
+- Line_icon: none
+
+## Raw Colors (unstyled)
+- #000000: 286 uses
+- #FFFFFF: 75 uses
+- #FFFCFC: 70 uses
+- #D9D9D9: 40 uses
+- #817F7F: 24 uses
+- #1C635E: 20 uses
+- #EFEFEF85: 16 uses
+- #363538: 12 uses
+- #3E4651: 12 uses
+- #FED813: 10 uses
+- #242424: 8 uses
+- #524F4F: 8 uses
+- #9CAEC2: 8 uses
+- #B52502: 8 uses
+- #D5B7F2: 8 uses
+- #ED0827: 8 uses
+- #FCF1F1: 8 uses
+- #878484: 6 uses
+- #DDD3D3: 6 uses
+- #DFDFDF: 6 uses
+- #CAD8E7: 5 uses
+- #010101: 4 uses
+- #050505: 4 uses
+- #0A0909: 4 uses
+- #257527: 4 uses
+- #26818F: 4 uses
+- #AF1C41: 4 uses
+- #DCE3EB: 4 uses
+- #FFA51D: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Regular, 12px: 52 uses
+- Inter Regular, 15px: 42 uses
+- Inter Bold, 15px: 24 uses
+- Inter Medium, 15px: 22 uses
+- Inter SemiBold, 12px: 22 uses
+- Inter Medium, 14px: 16 uses
+- Inter SemiBold, 20px: 15 uses
+- Inter Regular, 13px: 10 uses
+- Inter Regular, 17px: 10 uses
+- Inter Bold, 13px: 8 uses
+- Inter Light, 12px: 8 uses
+- Inter Light, 15px: 8 uses
+- Inter Regular, 11px: 8 uses
+- Inter Medium, 10px: 6 uses
+- Inter Regular, 10px: 6 uses
+- Inter SemiBold, 15px: 6 uses
+- Inter Medium, 40px: 5 uses
+- Inter Light, 10px: 4 uses
+- Inter Light, 35px: 4 uses
+- Inter Medium, 12px: 4 uses
+- Inter Medium, 20px: 4 uses
+- Inter Medium, 35px: 4 uses
+- Inter Regular, 20px: 4 uses
+- Inter Regular, 30px: 4 uses
+- Inter ExtraBold, 27px: 3 uses
+
+## Typography Hierarchy
+- 40px - Inter Medium, 40px (raw)
+- 35px - Inter Light, 35px (raw)
+- 35px - Inter Medium, 35px (raw)
+- 30px - Inter Regular, 30px (raw)
+- 27px - Inter ExtraBold, 27px (raw)
+- 20px - Inter Medium, 20px (raw)
+- 20px - Inter Regular, 20px (raw)
+- 20px - Inter SemiBold, 20px (raw)
+- 17px - Inter Regular, 17px (raw)
+- 15px - Inter Bold, 15px (raw)
+- 15px - Inter Light, 15px (raw)
+- 15px - Inter Medium, 15px (raw)
+- 15px - Inter Regular, 15px (raw)
+- 15px - Inter SemiBold, 15px (raw)
+- 14px - Inter Medium, 14px (raw)
+- 13px - Inter Bold, 13px (raw)
+- 13px - Inter Regular, 13px (raw)
+- 12px - Inter Light, 12px (raw)
+- 12px - Inter Medium, 12px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Inter SemiBold, 12px (raw)
+- 11px - Inter Regular, 11px (raw)
+- 10px - Inter Light, 10px (raw)
+- 10px - Inter Medium, 10px (raw)
+- 10px - Inter Regular, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Arrow_left
+- Favorite
+- Bookmark
+- iphone 14 color change
+
+## Component Specs
+- Arrow_left: size 24x24px
+- Favorite: size 24x24px
+- Bookmark: size 24x24px
+- iphone 14 color change: size 688x973px | variants: Property 1: Default
+
+## Most-Used Styles
+- Line_icon: 80 uses
+- fill_icon: 78 uses
+
+## Layout & Structure
+Screen: Page 1 / Group 415
+- GROUP "Group 415", 927.87x811.93px, constraints left/top
+  - RECTANGLE "iPhone 14 Pro", 634.18x663.03px, constraints left/top, fill image(hash: 3ad734635ccf6faac0db7c259326e7038195ed77)
+  - RECTANGLE "iPhone 14 Pro", 612.1x655.83px, constraints left/top, fill image(hash: a84a329f9ae152844ce855dec2287fa2bf19e5e8)
+  - RECTANGLE "iPhone 14 Pro", 592.03x582.55px, constraints left/top, fill image(hash: 336f119ef7f00afda2fc975daf5e6ca2ce9b2477)
+  - RECTANGLE "iPhone 14 Pro", 649x811.93px, constraints left/top
+
+Screen: Page 1 / final
+- SECTION "final", 1709x2396px, fill #444444, stroke #FFFFFF1A 1px
+  - FRAME "HOME PAGE", 390x1190px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 4165", 417x49px, constraints left/top, fill #C7EFE480, stroke #CECECE73 1px
+    - RECTANGLE "Rectangle 4166", 417x57px, constraints left/top, fill #FFFFFF, stroke #C5C5C58C 1px
+    - LINE "Line 7", 0x59px, constraints left/top, stroke #817F7F40 1px
+    - TEXT "Deliver to Aishani - Xyz 123456", 228x18px, constraints left/top, fill #4B4B4B, text [Inter SemiBold, 15px]
+    - TEXT "Sponsored", 249x30px, constraints left/top, fill #CACACA, text [Inter SemiBold, 12px]
+    - FRAME "Frame 4", 351x199px, constraints left/top
+      - TEXT "Shop Apple", 159x3.3px, constraints left/top, fill #000000, text [Inter Regular, 13px]
+      - GROUP "scroll", 176x138px, constraints left/top
+        - GROUP "Group 409", 176x138px, constraints left/top
+          - RECTANGLE "Rectangle 4167", 176x138px, constraints left/top, fill #FFFFFF, stroke #DFDFDF 1px
+          - RECTANGLE "iphone 13  3 1", 74x118px, constraints left/top, fill image(hash: 64d17f5e8e56f0904a543ec1b133691471c76017)
+      - GROUP "scroll", 219x138px, constraints left/top
+        - RECTANGLE "Rectangle 4167", 176x138px, constraints left/top, fill #FFFFFF, stroke #DFDFDF 1px
+        - INSTANCE "iconixto/bold/apple", 41x41px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 407", 27.53x33.83px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 501", 27.53x25.46px, constraints scale/scale, fill #000000, stroke #000000 0.5px
+            - VECTOR "Vector 502", 6.83x7.69px, constraints scale/scale, radius 0/0/0/0px, fill #000000, stroke #000000 0.5px
+        - TEXT "iPhone", 163x21px, constraints left/top, fill #000000, text [Inter SemiBold, 30px], [heading]
+      - GROUP "Group 408", 176x138px, constraints left/top
+        - GROUP "scroll", 176x138px, constraints left/top
+          - RECTANGLE "Rectangle 4167", 176x138px, constraints left/top, fill #FFFFFF, stroke #DFDFDF 1px
+        - RECTANGLE "iphone white 4 1", 78x118px, constraints left/top, fill image(hash: 2492fbcdbf296ef1cfefa1f9a3051cf4f5c6c994)
+      - TEXT "Apple iPhone 14(128GB) -(Product)WHITE", 338x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - TEXT "$997", 90x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+      - TEXT "Apple iPhone 12(128GB) -(Product)BLACK", 373x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - TEXT "$837", 90x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - TEXT "Results", 106x32px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+    - TEXT "997", 90x21px, constraints left/top, fill #000000, text [Inter Regular, 30px], [heading]
+    - GROUP "Group 411", 536x310px, constraints left/top
+      - RECTANGLE "Rectangle 15", 228x310px, constraints left/top, fill image(hash: a505980287c50b80ea2a51b0422e709436f5028c)
+      - TEXT "Apple iPhone 14(128GB) -(Product)RED", 338x15px, constraints left/top, fill #000000, text [Inter Regular, 17px]
+      - TEXT "Flat USD 100 Off on HDFC BankCards Get it by Tomorrow, 21 Ma", 192x77px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+    - TEXT "877", 90x21px, constraints left/top, fill #000000, text [Inter Regular, 30px], [heading]
+    - GROUP "Group 410", 338x408px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Apple iPhone 13(128GB) -(Product)BLUE", 338x15px, constraints left/top, fill #000000, text [Inter Regular, 17px]
+      - TEXT "Flat USD 100 Off on HDFC BankCards Get it by Tomorrow, 21 Ma", 192x77px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - TEXT "$", 8x15px, constraints left/top, fill #000000, text [Inter Light, 12px]
+      - TEXT "EMI starts at $75. No Cost EMI available EMI options", 189x36px, constraints left/top, fill #000000, text [Inter Regular, 10px]
+      - TEXT "$", 8x15px, constraints left/top, fill #000000, text [Inter Light, 12px]
+      - TEXT "EMI starts at $75. No Cost EMI available EMI options", 189x36px, constraints left/top, fill #000000, text [Inter Regular, 10px]
+    - GROUP "footer", 427x97px, constraints left/top
+      - RECTANGLE "Rectangle 3", 390x48px, constraints left/bottom, fill #FFFFFF
+      - RECTANGLE "Rectangle 4", 427x49px, constraints left/bottom, fill #FFFFFF, stroke #878484 1px
+      - INSTANCE "Menu", 24x20.21px, constraints left/top
+        - VECTOR "Vector 7", 14x0px, constraints scale/scale, radius 2px, stroke Line_icon 2px
+        - VECTOR "Vector 8", 14x0px, constraints scale/scale, radius 2px, stroke Line_icon 2px
+        - VECTOR "Vector 9", 14x0px, constraints scale/scale, radius 2px, stroke Line_icon 2px
+      - INSTANCE "Home", 24x20.21px, constraints left/top
+        - VECTOR "Rectangle 1", 14x13.51px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+        - VECTOR "Vector 3", 5x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+      - INSTANCE "User_alt", 24x20.21px, constraints left/top
+        - ELLIPSE "Ellipse 46", 8x6.74px, constraints scale/scale, stroke Line_icon 2px
+        - VECTOR "Rectangle 4160", 14x5.89px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+      - INSTANCE "Basket_alt_3", 30x25.26px, constraints left/top
+        - VECTOR "Vector", 7.5x4.21px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - VECTOR "Rectangle 41", 15x3.16px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - VECTOR "Vector 339", 16.25x6.32px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - VECTOR "Vector 340", 16.25x6.32px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - ELLIPSE "Ellipse 167", 2.5x2.11px, constraints scale/scale, fill fill_icon
+        - ELLIPSE "Ellipse 168", 2.5x2.11px, constraints scale/scale, fill fill_icon
+      - INSTANCE "darhboard", 24x20.21px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 34", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+        - RECTANGLE "Rectangle 35", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+        - RECTANGLE "Rectangle 36", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+        - RECTANGLE "Rectangle 37", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+    - RECTANGLE "iphone blue 4 1", 156x260.12px, constraints scale/scale, fill image(hash: 7a93589377a4be4d2c7d21c16be55279e3b20633)
+    - GROUP "iphone header", 351x9.89px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Life is easier on iPhone", 351x9.89px, constraints left/top, fill #000000, text [Inter Medium, 17px]
+    - GROUP "Group 412", 40x40px, constraints left/top
+      - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill #FFFFFF, stroke #DDD3D3 1px, effect [drop_shadow 5px offset 2 6 #00000040]
+      - INSTANCE "Mic", 24x20.21px, constraints left/top
+        - RECTANGLE "Rectangle 47", 6x9.26px, constraints scale/scale, radius 3px, stroke fill_icon 2px
+        - ELLIPSE "Ellipse 56", 12x10.1px, constraints scale/scale, stroke fill_icon 2px
+        - VECTOR "Vector 77", 0x1.68px, constraints scale/scale, stroke fill_icon 2px
+    - GROUP "header", 390x89px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 390x89px, constraints left/top, fill gradient_linear(#84D8E2 0% | #94DFDA 51% | #A2E6D1 100%)
+      - RECTANGLE "Rectangle 5", 243x41px, constraints left/top, radius 5px, fill #FFFFFF
+      - INSTANCE "iconixto/linear/search", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 123", 18x18px, constraints left/top, radius 0/0/0/0px
+          - ELLIPSE "Ellipse 7", 16x16px, constraints scale/scale, stroke #363538 1.5px
+          - VECTOR "Vector 12", 4.5x4px, constraints scale/scale, radius 4px, stroke #363538 1.5px
+      - TEXT "iPhone", 134x20px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+      - INSTANCE "Arrow_left", 24x24px, constraints left/top
+        - VECTOR "Vector 9", 15x12px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+      - INSTANCE "Mic", 24x20.21px, constraints left/top
+        - RECTANGLE "Rectangle 47", 6x9.26px, constraints scale/scale, radius 3px, stroke fill_icon 2px
+        - ELLIPSE "Ellipse 56", 12x10.1px, constraints scale/scale, stroke fill_icon 2px
+        - VECTOR "Vector 77", 0x1.68px, constraints scale/scale, stroke fill_icon 2px
+  - FRAME "iPhone 13", 390x2037px, constraints left/top, fill #FFFFFF
+    - GROUP "Stickers", 334x534px, constraints left/top
+      - GROUP "10% off", 68x53px, constraints left/top
+        - ELLIPSE "Ellipse 2", 45x45px, constraints left/top, fill #B52502
+        - TEXT "12%", 39x34px, constraints left/top, fill #FFFFFF, text [Inter Bold, 13px]
+        - TEXT "off", 52x31px, constraints left/top, fill #FFFFFF, text [Inter Bold, 13px]
+      - RECTANGLE "iphone14 pictue", 279x534px, constraints left/top, fill image(hash: 7a93589377a4be4d2c7d21c16be55279e3b20633)
+      - ELLIPSE "Ellipse 4", 30x30px, constraints left/top, fill #EFEFEF85, effect [drop_shadow 4px offset 0 4 #00000040]
+      - ELLIPSE "Ellipse 3", 30x30px, constraints left/top, fill #EFEFEF85, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "-12%", 93x45px, constraints left/top, fill #AF1C41, text [Inter Light, 35px], [heading]
+    - GROUP "dot scroller", 102x10px, constraints left/top [decorative, ~5 shapes]
+    - GROUP "description", 586x1802px, constraints left/top, radius 0/0/0/0px
+      - TEXT "877", 170x49px, constraints left/top, fill #000000, text [Inter Medium, 35px], [heading]
+      - TEXT "$", 8x12px, constraints left/top, fill #050505, text [Inter Regular, 15px]
+      - TEXT "M.R.P: $1200 (12%off)", 142x17px, constraints left/top, fill #000000, text [Inter Light, 15px]
+      - TEXT "EMI starts at $75. No Cost EMI available EMI options", 189x36px, constraints left/top, fill #000000, text [Inter Regular, 10px]
+      - TEXT "Inclusive of all taxes", 124x16px, constraints left/top, fill #000000, text [Inter Regular, 13px]
+      - TEXT "Buy now, pay in EMIs up to 12 months with Amazon Pay Later", 492x114px, constraints left/top, fill #1C635E, text [Inter Regular, 13px]
+      - RECTANGLE "Rectangle 6", 85x16px, constraints left/top, radius 4px, fill #3E4651
+      - TEXT "Fulfilled", 67x23px, constraints left/top, fill #FFFFFF, text [Inter Regular, 11px]
+      - TEXT "Apple iPhone 13(128GB) -(Product)BLUE", 528x30px, constraints left/top, fill #817F7F, text [Inter Regular, 12px]
+      - TEXT "Brand Apple", 443x54px, constraints left/top, fill #26818F, text [Inter Regular, 15px]
+      - TEXT "Activate & get welcome rewards of $60>", 325x72px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+      - RECTANGLE "Rectangle 7", 409x48px, constraints left/top, fill #FFFFFF, stroke #817F7F 1px
+      - TEXT "Size: 128GB", 287x63px, constraints left/top, fill #524F4F, text [Inter Bold, 15px]
+      - TEXT "Color: (PRODUCT)BLUE", 463x90px, constraints left/top, fill #0A0909, text [Inter Bold, 15px]
+      - RECTANGLE "Rectangle 13", 433x29px, constraints left/top, fill #FFFFFF, stroke #817F7F 1px
+      - TEXT "Offers", 80x19px, constraints left/top, fill #010101, text [Inter Bold, 15px]
+      - RECTANGLE "Rectangle 14", 424x66px, constraints left/top, fill #FFFFFF, stroke #817F7F 1px
+      - TEXT "Exchange Your Old iPhone", 264x29px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+      - TEXT "Save upto $299", 202x26px, constraints left/top, fill #524F4F, text [Inter Light, 15px]
+      - TEXT "Flat USD 100 Off on HDFC BankCards Get it by Tomorrow, 21 Ma", 282x77px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+      - TEXT "Secure transaction", 192x24px, constraints left/top, fill #1C635E, text [Inter Medium, 14px]
+      - TEXT "Sold by Appario Retail Private Ltd and Fulfilled by Amazon", 431x80px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+      - TEXT "Add to wish List", 194x26px, constraints left/top, fill #1C635E, text [Inter Medium, 14px]
+      - TEXT "In stock", 192x27px, constraints left/top, fill #257527, text [Inter SemiBold, 15px]
+      - GROUP "yellow butons", 331x113px, constraints left/top, radius 30px
+        - RECTANGLE "Rectangle 15", 324x46px, constraints left/top, radius 30px, fill #FED813
+        - RECTANGLE "Rectangle 16", 324x46px, constraints left/top, radius 30px, fill #FFA51D
+        - TEXT "Buy Now", 206x40px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+        - TEXT "Add to Cart", 154x54px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+      - ... +1 more children
+    - FRAME "Frame 2", 367x119px, constraints left/top
+      - GROUP "Group 125", 118x115px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 8", 118x115px, constraints left/top, radius 10px, fill #FFFCFC, stroke #000000 1px
+        - VECTOR "Line 6", 116x0px, constraints left/top, stroke #000000 1px
+        - TEXT "Upto $150 discount for XYZ bank", 103x21px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - GROUP "Group 126", 118x115px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 8", 118x115px, constraints left/top, radius 10px, fill #FFFCFC, stroke #000000 1px
+        - VECTOR "Line 6", 116x0px, constraints left/top, stroke #000000 1px
+        - TEXT "flat $12 discount for students", 103x21px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - GROUP "Group 127", 118x115px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 8", 118x115px, constraints left/top, radius 10px, fill #FFFCFC, stroke #000000 1px
+        - VECTOR "Line 6", 116x0px, constraints left/top, stroke #000000 1px
+        - TEXT "Upto $100 discount for return", 103x21px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - GROUP "Group 128", 118x115px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 8", 118x115px, constraints left/top, radius 10px, fill #FFFCFC, stroke #000000 1px
+        - VECTOR "Line 6", 116x0px, constraints left/top, stroke #000000 1px
+        - TEXT "Upto $160 discount", 103x21px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - GROUP "Group 124", 118x115px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 135", 118x115px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 8", 118x115px, constraints left/top, radius 10px, fill #FFFCFC, stroke #000000 1px
+          - VECTOR "Line 6", 116x0px, constraints left/top, stroke #000000 1px
+          - TEXT "Upto $120 discount", 103x21px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+    - FRAME "Frame 1", 356x185px, constraints left/top [decorative, ~15 shapes]
+    - INSTANCE "Bookmark", 24x24px, constraints left/top
+      - VECTOR "Rectangle 1", 16x17.37px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+    - INSTANCE "Favorite", 24x24px, constraints left/top
+      - VECTOR "Vector 15", 22x20px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+    - ELLIPSE "Ellipse 1", 40x40px, constraints left/top, fill #FFFFFF, stroke #DDD3D3 1px, effect [drop_shadow 5px offset 2 6 #00000040]
+    - INSTANCE "Mic", 24x20.21px, constraints left/top
+      - RECTANGLE "Rectangle 47", 6x9.26px, constraints scale/scale, radius 3px, stroke fill_icon 2px
+      - ELLIPSE "Ellipse 56", 12x10.1px, constraints scale/scale, stroke fill_icon 2px
+      - VECTOR "Vector 77", 0x1.68px, constraints scale/scale, stroke fill_icon 2px
+    - INSTANCE "Mic", 24x20.21px, constraints left/top
+      - RECTANGLE "Rectangle 47", 6x9.26px, constraints scale/scale, radius 3px, stroke fill_icon 2px
+      - ELLIPSE "Ellipse 56", 12x10.1px, constraints scale/scale, stroke fill_icon 2px
+      - VECTOR "Vector 77", 0x1.68px, constraints scale/scale, stroke fill_icon 2px
+    - GROUP "footer", 427x97px, constraints left/top
+      - RECTANGLE "Rectangle 3", 390x48px, constraints left/bottom, fill #FFFFFF
+      - RECTANGLE "Rectangle 4", 427x49px, constraints left/bottom, fill #FFFFFF, stroke #878484 1px
+      - INSTANCE "Menu", 24x20.21px, constraints left/top
+        - VECTOR "Vector 7", 14x0px, constraints scale/scale, radius 2px, stroke Line_icon 2px
+        - VECTOR "Vector 8", 14x0px, constraints scale/scale, radius 2px, stroke Line_icon 2px
+        - VECTOR "Vector 9", 14x0px, constraints scale/scale, radius 2px, stroke Line_icon 2px
+      - INSTANCE "Home", 24x20.21px, constraints left/top
+        - VECTOR "Rectangle 1", 14x13.51px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+        - VECTOR "Vector 3", 5x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+      - INSTANCE "User_alt", 24x20.21px, constraints left/top
+        - ELLIPSE "Ellipse 46", 8x6.74px, constraints scale/scale, stroke Line_icon 2px
+        - VECTOR "Rectangle 4160", 14x5.89px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+      - INSTANCE "Basket_alt_3", 30x25.26px, constraints left/top
+        - VECTOR "Vector", 7.5x4.21px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - VECTOR "Rectangle 41", 15x3.16px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - VECTOR "Vector 339", 16.25x6.32px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - VECTOR "Vector 340", 16.25x6.32px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - ELLIPSE "Ellipse 167", 2.5x2.11px, constraints scale/scale, fill fill_icon
+        - ELLIPSE "Ellipse 168", 2.5x2.11px, constraints scale/scale, fill fill_icon
+      - INSTANCE "darhboard", 24x20.21px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 34", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+        - RECTANGLE "Rectangle 35", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+        - RECTANGLE "Rectangle 36", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+        - RECTANGLE "Rectangle 37", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+    - GROUP "header", 390x89px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 390x89px, constraints left/top, fill gradient_linear(#84D8E2 0% | #94DFDA 51% | #A2E6D1 100%)
+      - RECTANGLE "Rectangle 5", 243x41px, constraints left/top, radius 5px, fill #FFFFFF
+      - INSTANCE "iconixto/linear/search", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 123", 18x18px, constraints left/top, radius 0/0/0/0px
+          - ELLIPSE "Ellipse 7", 16x16px, constraints scale/scale, stroke #363538 1.5px
+          - VECTOR "Vector 12", 4.5x4px, constraints scale/scale, radius 4px, stroke #363538 1.5px
+      - TEXT "iPhone", 134x20px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+      - INSTANCE "Arrow_left", 24x24px, constraints left/top
+        - VECTOR "Vector 9", 15x12px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+      - INSTANCE "Mic", 24x20.21px, constraints left/top
+        - RECTANGLE "Rectangle 47", 6x9.26px, constraints scale/scale, radius 3px, stroke fill_icon 2px
+        - ELLIPSE "Ellipse 56", 12x10.1px, constraints scale/scale, stroke fill_icon 2px
+        - VECTOR "Vector 77", 0x1.68px, constraints scale/scale, stroke fill_icon 2px
+  - FRAME "Frame 3", 417x212px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF
+    - RECTANGLE "Rectangle 4161", 417x212px, constraints left/top, radius 10/10/0/0px, fill #FEFEFE
+    - RECTANGLE "Rectangle 4163", 417x46px, constraints left/top, fill #2C6AFA, effect [layer_blur 9px]
+    - RECTANGLE "Rectangle 4162", 417x38px, constraints left/top, radius 10000/1000/0/0px, fill #08FFFE, effect [layer_blur 41px]
+    - TEXT "Alexa", 213x26px, constraints left/top, fill #2DADD0, text [Inter SemiBold, 20px]
+    - RECTANGLE "Rectangle 4164", 70x7px, constraints left/top, radius 10px, fill #797878
+    - TEXT "How can i help?", 366x58px, constraints left/top, fill #41AAC9, text [Inter ExtraBold, 27px], [heading]
+  - FRAME "add to cart", 390x680px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 4168", 390x616px, constraints left/top, fill #FFFFFF
+    - LINE "Line 8", 390.01x0px, constraints left/top, stroke #878787 1px
+    - RECTANGLE "Rectangle 4169", 120x63px, constraints left/top, radius 10px, fill #FFFFFF, stroke #898989 1px
+    - RECTANGLE "Rectangle 4170", 224x63px, constraints left/top, radius 10px, fill #FED813, stroke #817F7F 1px
+    - RECTANGLE "Rectangle 4173", 107x30px, constraints left/top, radius 10px, fill #FED813, stroke #817F7F 1px
+    - TEXT "Recommended accessories with this iPhone", 358x39px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+    - TEXT "Added to cart", 190x49px, constraints left/top, fill #0F770C, text [Inter SemiBold, 20px]
+    - TEXT "Cart Subtotal (1 item):$", 277x32px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - TEXT "Cart", 92x37px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+    - TEXT "Proceed to checkout", 261x37px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+    - TEXT "Mobile cases & covers (4)", 345x38px, constraints left/top, fill #817F7F, text [Inter Regular, 17px]
+    - TEXT "Apple Leather Wallet with MagSafe(for iPhone)-Sequoia", 366x69px, constraints left/top, fill #1C635E, text [Inter Regular, 17px]
+    - TEXT "Apple Polycarbonate Clear Case MagSafe for iPhone 13", 366x69px, constraints left/top, fill #1C635E, text [Inter Regular, 17px]
+    - RECTANGLE "WhatsApp Image 2023-05-28 at 14.55 1", 85x130px, constraints left/top, fill image(hash: 4c29e96e7c8c686e4c36f750e668f4be56b0d5f8)
+    - TEXT "$120", 169x57px, constraints left/top, fill #B52502, text [Inter Regular, 20px]
+    - TEXT "$130", 169x57px, constraints left/top, fill #B52502, text [Inter Regular, 20px]
+    - RECTANGLE "Rectangle 17", 85x16px, constraints left/top, radius 4px, fill #3E4651
+    - RECTANGLE "Rectangle 4171", 85x16px, constraints left/top, radius 4px, fill #3E4651
+    - TEXT "Fulfilled", 67x23px, constraints left/top, fill #FFFFFF, text [Inter Regular, 11px]
+    - TEXT "Fulfilled", 67x23px, constraints left/top, fill #FFFFFF, text [Inter Regular, 11px]
+    - GROUP "Group 414", 109x61px, constraints left/top, radius 10px
+      - RECTANGLE "Rectangle 4172", 107x30px, constraints left/top, radius 10px, fill #FED813, stroke #817F7F 1px
+      - TEXT "+Add", 78x53px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - TEXT "+Add", 78x53px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - GROUP "dot scroller", 51x5px, constraints left/top [decorative, ~5 shapes]
+    - GROUP "dot scroller", 51x5px, constraints left/top [decorative, ~5 shapes]
+    - RECTANGLE "WhatsApp Image 2023-05-28 at 14.55 2", 98x156px, constraints left/top, fill image(hash: 0285114d7bc455902162de001eedf34eadca2d79)
+    - ... +1 more children
+
+Screen: Page 1 / Iphone
+- SECTION "Iphone", 964x2396px, fill #444444, stroke #FFFFFF1A 1px
+  - GROUP "iphone 14 color change", 356x973px, constraints left/top [decorative, ~16 shapes]
+
+Screen: Page 3 / Wireframe - 2
+- FRAME "Wireframe - 2", 1400x10000px, constraints left/top, fill #DCE3EB
+  - ELLIPSE "Ellipse 169", 1000x1000px, constraints left/top, fill #D09999, effect [layer_blur 4px]
+  - ELLIPSE "Ellipse 170", 1100x1100px, constraints left/top, fill #C2473D78, effect [layer_blur 4px]
+  - ELLIPSE "Ellipse 171", 1100x1100px, constraints left/top, fill #D09999, effect [layer_blur 4px]
+  - GROUP "iphone header", 714x71px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Interactive Amazon MockUp", 714x71px, constraints left/top, fill #000000, text [Inter Medium, 40px], [heading]
+  - GROUP "iphone header", 714x71px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Amazon Search MockUp", 714x71px, constraints left/top, fill #000000, text [Inter Medium, 40px], [heading]
+  - GROUP "iphone header", 714x71px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Alexa Feature", 714x71px, constraints left/top, fill #000000, text [Inter Medium, 32px], [heading]
+  - GROUP "iphone header", 714x71px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Description", 714x71px, constraints left/top, fill #000000, text [Inter Medium, 36px], [heading]
+  - GROUP "iphone header", 714x71px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Search Page", 714x71px, constraints left/top, fill #000000, text [Inter Medium, 40px], [heading]
+  - GROUP "iphone header", 714x71px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Product Page (iPhone 14)", 714x71px, constraints left/top, fill #000000, text [Inter Medium, 40px], [heading]
+  - TEXT "Homepage: Explore the latest iPhone 13 and iPhone 14 deals. ", 607x403px, constraints left/top, fill #000000, text [Inter Medium, 20px]
+  - LINE "Line 9", 428x2px, constraints left/top, stroke #000000 1px
+  - LINE "Line 11", 110x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 15", 110x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 21", 110x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 16", 110x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 12", 110x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 10", 428x2px, constraints left/top, stroke #000000 1px
+  - LINE "Line 13", 538.08x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 14", 538.08x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 22", 538.08x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 18", 546x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 19", 528x0px, constraints left/top, stroke #000000 1px
+  - GROUP "Group 416", 927.87x811.93px, constraints left/top, effect [background_blur 4px] [decorative, ~4 shapes]
+  - FRAME "HOME PAGE", 390x1190px, constraints left/top, radius 8px, fill #FFFFFF, stroke #CAD8E7 16px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 4165", 417x49px, constraints left/top, fill #C7EFE480, stroke #CECECE73 1px
+    - RECTANGLE "Rectangle 4166", 417x57px, constraints left/top, fill #FFFFFF, stroke #C5C5C58C 1px
+    - LINE "Line 7", 0x59px, constraints left/top, stroke #817F7F40 1px
+    - TEXT "Deliver to Aishani - Xyz 123456", 228x18px, constraints left/top, fill #4B4B4B, text [Inter SemiBold, 15px]
+    - TEXT "Sponsored", 249x30px, constraints left/top, fill #CACACA, text [Inter SemiBold, 12px]
+    - FRAME "Frame 4", 351x199px, constraints left/top
+      - TEXT "Shop Apple", 159x3.3px, constraints left/top, fill #000000, text [Inter Regular, 13px]
+      - GROUP "scroll", 176x138px, constraints left/top
+        - GROUP "Group 409", 176x138px, constraints left/top
+          - RECTANGLE "Rectangle 4167", 176x138px, constraints left/top, fill #FFFFFF, stroke #DFDFDF 1px
+          - RECTANGLE "iphone 13  3 1", 74x118px, constraints left/top, fill image(hash: 64d17f5e8e56f0904a543ec1b133691471c76017)
+      - GROUP "scroll", 219x138px, constraints left/top
+        - RECTANGLE "Rectangle 4167", 176x138px, constraints left/top, fill #FFFFFF, stroke #DFDFDF 1px
+        - INSTANCE "iconixto/bold/apple", 41x41px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 407", 27.53x33.83px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 501", 27.53x25.46px, constraints scale/scale, fill #000000, stroke #000000 0.5px
+            - VECTOR "Vector 502", 6.83x7.69px, constraints scale/scale, radius 0/0/0/0px, fill #000000, stroke #000000 0.5px
+        - TEXT "iPhone", 163x21px, constraints left/top, fill #000000, text [Inter SemiBold, 30px], [heading]
+      - GROUP "Group 408", 176x138px, constraints left/top
+        - GROUP "scroll", 176x138px, constraints left/top
+          - RECTANGLE "Rectangle 4167", 176x138px, constraints left/top, fill #FFFFFF, stroke #DFDFDF 1px
+        - RECTANGLE "iphone white 4 1", 78x118px, constraints left/top, fill image(hash: 2492fbcdbf296ef1cfefa1f9a3051cf4f5c6c994)
+      - TEXT "Apple iPhone 14(128GB) -(Product)WHITE", 338x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - TEXT "$997", 90x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+      - TEXT "Apple iPhone 12(128GB) -(Product)BLACK", 373x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - TEXT "$837", 90x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - TEXT "Results", 106x32px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+    - TEXT "997", 90x21px, constraints left/top, fill #000000, text [Inter Regular, 30px], [heading]
+    - GROUP "Group 411", 536x310px, constraints left/top
+      - RECTANGLE "Rectangle 15", 228x310px, constraints left/top, fill image(hash: a505980287c50b80ea2a51b0422e709436f5028c)
+      - TEXT "Apple iPhone 14(128GB) -(Product)RED", 338x15px, constraints left/top, fill #000000, text [Inter Regular, 17px]
+      - TEXT "Flat USD 100 Off on HDFC BankCards Get it by Tomorrow, 21 Ma", 192x77px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+    - TEXT "877", 90x21px, constraints left/top, fill #000000, text [Inter Regular, 30px], [heading]
+    - GROUP "Group 410", 338x408px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Apple iPhone 13(128GB) -(Product)BLUE", 338x15px, constraints left/top, fill #000000, text [Inter Regular, 17px]
+      - TEXT "Flat USD 100 Off on HDFC BankCards Get it by Tomorrow, 21 Ma", 192x77px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+      - TEXT "$", 8x15px, constraints left/top, fill #000000, text [Inter Light, 12px]
+      - TEXT "EMI starts at $75. No Cost EMI available EMI options", 189x36px, constraints left/top, fill #000000, text [Inter Regular, 10px]
+      - TEXT "$", 8x15px, constraints left/top, fill #000000, text [Inter Light, 12px]
+      - TEXT "EMI starts at $75. No Cost EMI available EMI options", 189x36px, constraints left/top, fill #000000, text [Inter Regular, 10px]
+    - GROUP "footer", 427x97px, constraints left/top
+      - RECTANGLE "Rectangle 3", 390x48px, constraints left/bottom, fill #FFFFFF
+      - RECTANGLE "Rectangle 4", 427x49px, constraints left/bottom, fill #FFFFFF, stroke #878484 1px
+      - INSTANCE "Menu", 24x20.21px, constraints left/top
+        - VECTOR "Vector 7", 14x0px, constraints scale/scale, radius 2px, stroke Line_icon 2px
+        - VECTOR "Vector 8", 14x0px, constraints scale/scale, radius 2px, stroke Line_icon 2px
+        - VECTOR "Vector 9", 14x0px, constraints scale/scale, radius 2px, stroke Line_icon 2px
+      - INSTANCE "Home", 24x20.21px, constraints left/top
+        - VECTOR "Rectangle 1", 14x13.51px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+        - VECTOR "Vector 3", 5x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+      - INSTANCE "User_alt", 24x20.21px, constraints left/top
+        - ELLIPSE "Ellipse 46", 8x6.74px, constraints scale/scale, stroke Line_icon 2px
+        - VECTOR "Rectangle 4160", 14x5.89px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+      - INSTANCE "Basket_alt_3", 30x25.26px, constraints left/top
+        - VECTOR "Vector", 7.5x4.21px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - VECTOR "Rectangle 41", 15x3.16px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - VECTOR "Vector 339", 16.25x6.32px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - VECTOR "Vector 340", 16.25x6.32px, constraints scale/scale, radius 0/0/0/0px, stroke fill_icon 2px
+        - ELLIPSE "Ellipse 167", 2.5x2.11px, constraints scale/scale, fill fill_icon
+        - ELLIPSE "Ellipse 168", 2.5x2.11px, constraints scale/scale, fill fill_icon
+      - INSTANCE "darhboard", 24x20.21px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 34", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+        - RECTANGLE "Rectangle 35", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+        - RECTANGLE "Rectangle 36", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+        - RECTANGLE "Rectangle 37", 6x5.05px, constraints scale/scale, radius 1px, stroke Line_icon 2px
+    - RECTANGLE "iphone blue 4 1", 156x260.12px, constraints scale/scale, fill image(hash: 7a93589377a4be4d2c7d21c16be55279e3b20633)
+    - GROUP "Group 412", 40x40px, constraints left/top
+      - ELLIPSE "Ellipse 5", 40x40px, constraints left/top, fill #FFFFFF, stroke #DDD3D3 1px, effect [drop_shadow 5px offset 2 6 #00000040]
+      - INSTANCE "Mic", 24x20.21px, constraints left/top
+        - RECTANGLE "Rectangle 47", 6x9.26px, constraints scale/scale, radius 3px, stroke fill_icon 2px
+        - ELLIPSE "Ellipse 56", 12x10.1px, constraints scale/scale, stroke fill_icon 2px
+        - VECTOR "Vector 77", 0x1.68px, constraints scale/scale, stroke fill_icon 2px
+    - GROUP "header", 390x89px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 390x89px, constraints left/top, fill gradient_linear(#84D8E2 0% | #94DFDA 51% | #A2E6D1 100%)
+      - RECTANGLE "Rectangle 5", 243x41px, constraints left/top, radius 5px, fill #FFFFFF
+      - INSTANCE "iconixto/linear/search", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 123", 18x18px, constraints left/top, radius 0/0/0/0px
+          - ELLIPSE "Ellipse 7", 16x16px, constraints scale/scale, stroke #363538 1.5px
+          - VECTOR "Vector 12", 4.5x4px, constraints scale/scale, radius 4px, stroke #363538 1.5px
+      - TEXT "iPhone", 134x20px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+      - INSTANCE "Arrow_left", 24x24px, constraints left/top
+        - VECTOR "Vector 9", 15x12px, constraints scale/scale, radius 0/0/0/0px, stroke Line_icon 2px
+      - INSTANCE "Mic", 24x20.21px, constraints left/top
+        - RECTANGLE "Rectangle 47", 6x9.26px, constraints scale/scale, radius 3px, stroke fill_icon 2px
+        - ELLIPSE "Ellipse 56", 12x10.1px, constraints scale/scale, stroke fill_icon 2px
+        - VECTOR "Vector 77", 0x1.68px, constraints scale/scale, stroke fill_icon 2px
+  - GROUP "Group 418", 1843.57x1748px, constraints left/top [decorative, ~4 shapes]
+  - ... +9 more children
+
+Screen: Page 3 / Wireframe - 1
+- FRAME "Wireframe - 1", 1440x1024px, constraints left/top, fill #D9E0E7
+  - GROUP "iphone header", 714x71px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Interactive Amazon MockUp", 714x71px, constraints left/top, fill #000000, text [Inter Medium, 40px], [heading]
+  - GROUP "iphone header", 714x71px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Description", 714x71px, constraints left/top, fill #000000, text [Inter Medium, 36px], [heading]
+  - TEXT "Homepage: Explore the latest iPhone 13 and iPhone 14 deals. ", 607x403px, constraints left/top, fill #000000, text [Inter Medium, 20px]
+  - LINE "Line 9", 428x2px, constraints left/top, stroke #000000 1px
+  - LINE "Line 11", 110x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 12", 110x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 10", 428x2px, constraints left/top, stroke #000000 1px
+  - GROUP "Group 417", 927.87x811.93px, constraints left/top [decorative, ~4 shapes]
+
+Screen: comps / iphone 14 color change
+- COMPONENT_SET "iphone 14 color change", 4960x1013px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Default", 688x973px, constraints left/top
+    - RECTANGLE "iphone red 5 1", 281x407px, constraints scale/scale, fill image(hash: 7a93589377a4be4d2c7d21c16be55279e3b20633)
+    - FRAME "Frame 1", 688x185px, constraints scale/scale [decorative, ~15 shapes]
+  - COMPONENT "Property 1=Default", 654x973px, constraints left/top
+    - RECTANGLE "iphone red 5 1", 281x407px, constraints scale/scale, fill image(hash: ab2dae8f1a8cf4daa2f493a16e4be291335b1dc0)
+    - FRAME "Frame 1", 654x185px, constraints scale/scale [decorative, ~15 shapes]
+  - COMPONENT "Property 1=Default", 654x973px, constraints left/top
+    - RECTANGLE "iphone red 5 1", 281x407px, constraints scale/scale, fill image(hash: 6a6a3d679022a51f004f7d599ea5c1b63d4cfeb4)
+    - FRAME "Frame 1", 654x185px, constraints scale/scale [decorative, ~15 shapes]
+  - COMPONENT "Property 1=Default", 670x973px, constraints left/top
+    - RECTANGLE "iphone red 5 1", 281x407px, constraints scale/scale, fill image(hash: 2492fbcdbf296ef1cfefa1f9a3051cf4f5c6c994)
+    - FRAME "Frame 1", 670x185px, constraints scale/scale [decorative, ~15 shapes]
+  - COMPONENT "Property 1=Default", 768x973px, constraints left/top
+    - RECTANGLE "iphone red 5 1", 281x407px, constraints scale/scale, fill image(hash: a505980287c50b80ea2a51b0422e709436f5028c)
+    - FRAME "Frame 1", 768x185px, constraints scale/scale [decorative, ~15 shapes]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,172 @@
+---
+name: service-apartment-app-community
+source_file: SERVICE APARTMENT APP (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:22:09.728678+00:00
+---
+
+# SERVICE APARTMENT APP (Community) Design Guidelines
+
+## Source
+- Figma file: SERVICE APARTMENT APP (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:22:09.728678+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #9A9898: 23 uses
+- #000000: 22 uses
+- #0000005E: 8 uses
+- #343338: 7 uses
+- #FFDA16: 6 uses
+- #FFFFFF: 6 uses
+- #737373: 3 uses
+- #C4C4C4: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 16px: 13 uses
+- Inter Medium, 15px: 9 uses
+- Inter SemiBold, 20px: 5 uses
+
+## Typography Hierarchy
+- 20px - Inter SemiBold, 20px (raw)
+- 16px - Inter SemiBold, 16px (raw)
+- 15px - Inter Medium, 15px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- iPhone 13 Pro
+
+## Component Specs
+- iPhone 13 Pro/Gold (Page 1): size 437x882px, text [Inter Medium, 15px, Inter SemiBold, 16px, Inter Bold, 15px, Inter SemiBold, 20px, Inter ExtraBold, 28px, Inter SemiBold, 15px, Inter Regular, 10px]
+- iPhone 13 Pro/Gold (Page 1): size 437x882px, text [Inter SemiBold, 16px, Inter SemiBold, 20px, Inter Bold, 24px, Inter ExtraBold, 16px, Inter ExtraBold, 42px, Inter Medium, 18px]
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / Twitter header - 1
+- FRAME "Twitter header - 1", 1600x1200px, constraints left/top, fill #C2C4CB
+  - GROUP "Group 1", 437x882px, constraints left/top, effect [drop_shadow 4px offset 0 4 #00000040]
+    - COMPONENT "iPhone 13 Pro/Gold", 437x882px, constraints left/top
+      - RECTANGLE "Rectangle 1", 389x841px, constraints scale/scale, radius 20px, fill image(hash: a0ab7e29723986dc1570430132e0c0034d4405b4)
+      - TEXT "Favourites", 82x19px, constraints scale/scale, fill #0000005E, text [Inter SemiBold, 16px]
+      - TEXT "Chat", 37x19px, constraints scale/scale, fill #0000005E, text [Inter SemiBold, 16px]
+      - TEXT "Profile", 50x19px, constraints scale/scale, fill #0000005E, text [Inter SemiBold, 16px]
+      - TEXT "Search", 55x19px, constraints scale/scale, fill #000000, text [Inter SemiBold, 16px]
+      - FRAME "person", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 18x18px, constraints scale/scale, fill #0000005E
+      - FRAME "chat-square-dots", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x23px, constraints scale/scale, fill #0000005E
+        - VECTOR "Vector", 15x3px, constraints scale/scale, fill #0000005E
+      - FRAME "bookmark-plus", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 18x24px, constraints scale/scale, fill #0000005E
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, fill #0000005E
+      - FRAME "list", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 16.5x13.5px, constraints scale/scale, fill #000000
+      - TEXT "A lot of homes are available for short stay and rental of re", 325x44px, constraints scale/scale, fill #343338, text [Inter Medium, 18px]
+      - TEXT "Find a home", 250x51px, constraints scale/scale, fill #000000, text [Inter ExtraBold, 42px], [heading]
+      - RECTANGLE "Gold", 437x882px, constraints scale/scale, fill image(hash: 72845d606f65e2c5493a1d8f2466d063bcf4a258)
+      - RECTANGLE "Rectangle 3", 200x71px, constraints scale/scale, radius 10px, fill #EEEEEEC7
+      - RECTANGLE "Rectangle 4", 331x71px, constraints scale/scale, radius 10px, fill #F2F2F2
+      - TEXT "Ikoyi, Lagos", 114x24px, constraints scale/scale, fill #343338, text [Inter SemiBold, 20px]
+      - TEXT "Region", 54x19px, constraints scale/scale, fill #5552528F, text [Inter SemiBold, 16px]
+      - RECTANGLE "Rectangle 5", 331x71px, constraints scale/scale, radius 10px, fill #F2F2F2
+      - TEXT "Price range", 89x19px, constraints scale/scale, fill #9A9898, text [Inter SemiBold, 16px]
+      - TEXT "200,000 - 50,000,000", 175x19px, constraints scale/scale, fill #343338, text [Inter SemiBold, 16px]
+      - RECTANGLE "Rectangle 6", 331x71px, constraints scale/scale, radius 10px, fill #FEDC2B
+      - TEXT "Show 50,565 Ads Homes", 200x19px, constraints scale/scale, fill #000000, text [Inter ExtraBold, 16px]
+      - RECTANGLE "Rectangle 7", 331x99px, constraints scale/scale, radius 10px, fill #FFFFFF, effect [drop_shadow 15px offset 0 4 #00000012]
+      - FRAME "arrow-right", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 21x13.5px, constraints scale/scale, fill #000000
+      - TEXT "2000 homes", 99x19px, constraints scale/scale, fill #343338, text [Inter SemiBold, 16px]
+      - TEXT "Rent", 55x29px, constraints scale/scale, fill #343338, text [Inter Bold, 24px], [heading]
+      - ... +8 more children
+    - FRAME "reception-4", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x18px, constraints scale/scale, fill #000000
+    - TEXT "22:10", 43x19px, constraints scale/scale, fill #000000, text [Inter SemiBold, 16px]
+  - FRAME "bell-fill", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 21x24px, constraints scale/scale, fill #000000
+  - FRAME "battery-full", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 21x12px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 21x6px, constraints scale/scale, fill #000000
+  - RECTANGLE "Rectangle 10", 394x391px, constraints left/top, radius 20/0/0/0px, fill #C4C4C4
+
+Screen: Page 1 / iPhone 13 Pro/Gold
+- COMPONENT "iPhone 13 Pro/Gold", 437x882px, constraints left/top
+  - RECTANGLE "Gold", 437x882px, constraints scale/scale, fill image(hash: 72845d606f65e2c5493a1d8f2466d063bcf4a258)
+  - RECTANGLE "Rectangle 9", 408x849px, constraints scale/scale, radius 40px, fill #FFFFFF
+  - VECTOR "Rectangle 20", 353x189px, constraints scale/scale, radius 20px, fill image(hash: 6c85f46911e4b84bb6a34b5b98335b03db3c2b91), effect [drop_shadow 8px offset 0 2 #00000040]
+  - RECTANGLE "Gold", 437x882px, constraints scale/scale, fill image(hash: 72845d606f65e2c5493a1d8f2466d063bcf4a258)
+  - FRAME "Frame 2", 353x62px, constraints scale/scale
+  - RECTANGLE "Rectangle 19", 353x327px, constraints scale/scale, radius 20/20/0/0px, fill image(hash: 4e9d33621b4350f6294f501fbd8e8c63b903bee9), effect [drop_shadow 8px offset 0 2 #00000040]
+  - RECTANGLE "Rectangle 21", 353x141px, constraints scale/scale, radius 0/0/20/20px, fill #FFFFFF, effect [drop_shadow 8px offset 0 2 #00000040]
+  - TEXT "2", 10x18px, constraints scale/scale, fill #9A9898, text [Inter Medium, 15px]
+  - RECTANGLE "Rectangle 22", 353x1px, constraints scale/scale, fill #C4C4C4
+  - GROUP "Group 2157", 283x44px, constraints scale/scale
+    - GROUP "Group 2156", 51.4x41px, constraints scale/scale
+      - FRAME "house-plan", 24x24px, constraints scale/scale, fill #FF1919
+        - GROUP "Group", 23.1x24px, constraints scale/scale
+          - VECTOR "Vector", 23.1x24px, constraints scale/scale, fill #9A9898
+          - VECTOR "Vector", 2.51x2.51px, constraints scale/scale, fill #9A9898
+      - GROUP "Group 2153", 47.4x39px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "Ft", 15x18px, constraints scale/scale, fill #9A9898, text [Inter Medium, 15px]
+        - TEXT "50", 19x18px, constraints scale/scale, fill #9A9898, text [Inter Medium, 15px]
+        - TEXT "2", 8.4x19.6px, constraints scale/scale, fill #9A9898, text [Inter Regular, 10px]
+    - GROUP "Group 2155", 77x42px, constraints scale/scale
+      - FRAME "door", 24x24px, constraints scale/scale, fill #FF1919
+        - VECTOR "Vector", 19.11x19.11px, constraints scale/scale, fill #9A9898
+        - VECTOR "Vector", 1.95x1.95px, constraints scale/scale, fill #9A9898
+      - TEXT "Bedrooms", 77x18px, constraints scale/scale, fill #9A9898, text [Inter Medium, 15px]
+      - TEXT "2", 10x18px, constraints scale/scale, fill #9A9898, text [Inter Medium, 15px]
+    - GROUP "Group 2154", 74x44px, constraints scale/scale
+      - TEXT "Bathroom", 74x18px, constraints scale/scale, fill #9A9898, text [Inter Medium, 15px]
+      - FRAME "bathtub", 24x24px, constraints scale/scale, fill #FF1919 [decorative, ~10 shapes]
+  - TEXT "SERVICE APARTMENT", 161x18px, constraints scale/scale, fill #B4B7BE, text [Inter SemiBold, 15px]
+  - FRAME "geo-alt-fill", 16x16px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 12x16px, constraints scale/scale, fill #4E5359
+  - TEXT "3, Bourdilon Road, Ikoyi, LS", 194x18px, constraints scale/scale, fill #50545E, text [Inter Medium, 15px]
+  - TEXT "#200,000", 143x34px, constraints scale/scale, fill #2C3847, text [Inter ExtraBold, 28px], [heading]
+  - TEXT "Search", 68x24px, constraints scale/scale, fill #000000, text [Inter SemiBold, 20px]
+  - TEXT "Trending", 87x24px, constraints scale/scale, fill #000000, text [Inter SemiBold, 20px]
+  - TEXT "/per night", 70x18px, constraints scale/scale, fill #9A9898, text [Inter Medium, 15px]
+  - RECTANGLE "Rectangle 23", 69x30px, constraints scale/scale, radius 10px, fill #FF1919
+  - TEXT "OPEN", 42x18px, constraints scale/scale, fill #FFFFFF, text [Inter Bold, 15px]
+  - FRAME "arrow-left", 24x24px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 21x13.5px, constraints scale/scale, fill #000000
+  - GROUP "Group 2158", 132x24px, constraints scale/scale [decorative, ~5 shapes]
+  - FRAME "suit-heart-fill", 24x24px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 24x20.57px, constraints scale/scale, fill #FFDA16
+  - TEXT "LTE", 28x19px, constraints scale/scale, fill #000000, text [Inter SemiBold, 16px]
+  - TEXT "22:10", 43x19px, constraints scale/scale, fill #000000, text [Inter SemiBold, 16px]
+  - FRAME "reception-4", 24x24px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 22.5x18px, constraints scale/scale, fill #000000
+  - ... +5 more children
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

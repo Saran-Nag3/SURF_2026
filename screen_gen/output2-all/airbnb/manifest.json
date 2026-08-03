@@ -1,0 +1,42 @@
+{
+  "company": "airbnb",
+  "source": "/Users/sarannagubandi/downloads/awesome/airbnb.md",
+  "platform": "android",
+  "device": "Galaxy A54",
+  "viewport_px": [
+    393,
+    873
+  ],
+  "output_px": [
+    1081,
+    2401
+  ],
+  "paradigm_detected": "marketing site / consumer marketplace, because the spec centers on a responsive photography-led marketplace with top-nav products, global search, listing cards, and editorial sections rather than a native mobile app flow.",
+  "self_check": "All four screens are single-column Android translations with app content starting at the app bar, touch-only controls, no desktop or web residue, and the white/Rausch palette, Cereal typography, and soft rounded components preserved.",
+  "screens": [
+    {
+      "name": "Home",
+      "kind": "HOME FEED",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "Welcome",
+      "kind": "ONBOARDING",
+      "png": "screen_2_onboarding.png",
+      "html": "screen_2_onboarding.html"
+    },
+    {
+      "name": "Browse",
+      "kind": "SEARCH BROWSE",
+      "png": "screen_3_search-browse.png",
+      "html": "screen_3_search-browse.html"
+    },
+    {
+      "name": "Activity",
+      "kind": "NOTIFICATIONS",
+      "png": "screen_4_notifications.png",
+      "html": "screen_4_notifications.html"
+    }
+  ]
+}

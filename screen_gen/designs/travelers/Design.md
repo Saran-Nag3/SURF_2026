@@ -1,0 +1,181 @@
+---
+name: travelers-app-community
+source_file: Travelers App (Community)
+source_page: Page 1
+generated_at: 2026-07-02T20:53:41.401009+00:00
+---
+
+# Travelers App (Community) Design Guidelines
+
+## Source
+- Figma file: Travelers App (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-02T20:53:41.401009+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 16 uses
+- #666CA6CC: 15 uses
+- #FCFCFC: 14 uses
+- #FFFFFF: 10 uses
+- #666CA699: 6 uses
+- #333FB699: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 8px: 6 uses
+- Inter SemiBold, 15px: 4 uses
+- Katibeh Regular, 60px: 4 uses
+- Inter Bold, 10px: 3 uses
+- Montserrat Light, 12px: 3 uses
+- Montserrat SemiBold, 18px: 3 uses
+
+## Typography Hierarchy
+- 60px - Katibeh Regular, 60px (raw)
+- 18px - Montserrat SemiBold, 18px (raw)
+- 15px - Inter SemiBold, 15px (raw)
+- 12px - Montserrat Light, 12px (raw)
+- 10px - Inter Bold, 10px (raw)
+- 8px - Inter SemiBold, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Component 1
+
+## Component Specs
+- Component 1: size 508x207px, fill #FFFFFF
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / Login
+- FRAME "Login", 390x844px, constraints left/top, radius 20px, fill #FFFFFF
+  - RECTANGLE "image 1", 1501x844px, constraints left/top, fill image(hash: 384b031ad47d796c168384961df6c907c10213e3)
+  - TEXT "Travelers", 185x48px, constraints left/top, fill #000000, text [Katibeh Regular, 60px], [heading]
+  - TEXT "Travel community app", 185x48px, constraints left/top, fill #000000, text [Inter SemiBold, 15px]
+  - RECTANGLE "Rectangle 1", 319x55px, constraints left/top, radius 10px, fill #666CA6CC
+  - RECTANGLE "Rectangle 2", 319x55px, constraints left/top, radius 10px, fill #666CA6CC
+  - LINE "Line 1", 0x35px, constraints left/top, stroke #666CA699 1px
+  - LINE "Line 2", 0x35px, constraints left/top, stroke #666CA699 1px
+  - TEXT "Email", 153x19px, constraints left/top, fill #FCFCFC, text [Inter SemiBold, 8px]
+  - TEXT "Password", 153x19px, constraints left/top, fill #FCFCFC, text [Inter SemiBold, 8px]
+  - TEXT "Forgot Password", 153x19px, constraints left/top, fill #FCFCFC, text [Inter Bold, 10px]
+  - TEXT "Don’t have an account?", 153x19px, constraints left/top, fill #FCFCFC, text [Inter SemiBold, 10px]
+  - TEXT "create now", 153x19px, constraints left/top, fill #FCFCFC, text [Inter Bold, 10px]
+  - RECTANGLE "Envelope", 24x24px, constraints left/top, fill image(hash: 14c2c87aa2bc1fadcc0839de21484de771081ab5)
+  - RECTANGLE "Lock", 29x29px, constraints left/top, fill image(hash: 0c18b00dc2cf735327c3e68c84187a3941414061)
+  - RECTANGLE "Rectangle 3", 390x66px, constraints left/top, radius 0/0/18/18px, fill #666CA6CC
+  - TEXT "Log in", 153x19px, constraints left/top, fill #FCFCFC, text [Inter Bold, 15px]
+
+Screen: Page 1 / Splash Screen
+- FRAME "Splash Screen", 390x844px, constraints left/top, radius 18px, fill #FFFFFF
+  - RECTANGLE "image 1", 390x844px, constraints left/top, fill image(hash: 384b031ad47d796c168384961df6c907c10213e3)
+  - TEXT "Travelers", 185x48px, constraints left/top, fill gradient_linear(#000000 0% | #FFFFFF 29%), text [Katibeh Regular, 60px], [heading]
+  - TEXT "Travel community app", 185x48px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 15px]
+
+Screen: Page 1 / Register
+- FRAME "Register", 390x844px, constraints left/top, radius 18px, fill #FFFFFF
+  - RECTANGLE "image 1", 1501x844px, constraints left/top, fill image(hash: 384b031ad47d796c168384961df6c907c10213e3)
+  - TEXT "Travelers", 185x48px, constraints left/top, fill #000000, text [Katibeh Regular, 60px], [heading]
+  - TEXT "Travel community app", 185x48px, constraints left/top, fill #000000, text [Inter SemiBold, 15px]
+  - RECTANGLE "Rectangle 1", 319x55px, constraints left/top, radius 10px, fill #666CA6CC
+  - RECTANGLE "Rectangle 2", 319x55px, constraints left/top, radius 10px, fill #666CA6CC
+  - RECTANGLE "Rectangle 4", 319x55px, constraints left/top, radius 10px, fill #666CA6CC
+  - RECTANGLE "Rectangle 5", 319x55px, constraints left/top, radius 10px, fill #666CA6CC
+  - LINE "Line 1", 0x35px, constraints left/top, stroke #666CA699 1px
+  - LINE "Line 2", 0x35px, constraints left/top, stroke #666CA699 1px
+  - LINE "Line 3", 0x35px, constraints left/top, stroke #666CA699 1px
+  - LINE "Line 4", 0x35px, constraints left/top, stroke #666CA699 1px
+  - TEXT "Email", 153x19px, constraints left/top, fill #FCFCFC, text [Inter SemiBold, 8px]
+  - TEXT "Password", 153x19px, constraints left/top, fill #FCFCFC, text [Inter SemiBold, 8px]
+  - TEXT "Confirm Password", 153x19px, constraints left/top, fill #FCFCFC, text [Inter SemiBold, 8px]
+  - TEXT "Name", 153x19px, constraints left/top, fill #FCFCFC, text [Inter SemiBold, 8px]
+  - TEXT "Already have an account?", 153x19px, constraints left/top, fill #FCFCFC, text [Inter SemiBold, 10px]
+  - TEXT "login now", 153x19px, constraints left/top, fill #FCFCFC, text [Inter Bold, 10px]
+  - RECTANGLE "Envelope", 24x24px, constraints left/top, fill image(hash: 14c2c87aa2bc1fadcc0839de21484de771081ab5)
+  - RECTANGLE "Lock", 29x29px, constraints left/top, fill image(hash: 0c18b00dc2cf735327c3e68c84187a3941414061)
+  - RECTANGLE "Lock", 29x29px, constraints left/top, fill image(hash: 0c18b00dc2cf735327c3e68c84187a3941414061)
+  - RECTANGLE "Rectangle 3", 390x66px, constraints left/top, radius 0/0/18/18px, fill #666CA6CC
+  - TEXT "Sign Up", 153x19px, constraints left/top, fill #FCFCFC, text [Inter Bold, 15px]
+
+Screen: Page 1 / Home
+- FRAME "Home", 390x844px, constraints left/top, radius 20px, fill #FCFCFC
+  - RECTANGLE "image 1", 390x296px, constraints left/top, radius 20/20/0/0px, fill image(hash: 384b031ad47d796c168384961df6c907c10213e3)
+  - TEXT "Travelers", 185x48px, constraints left/top, fill #FFFFFF, text [Katibeh Regular, 60px], [heading]
+  - TEXT "App connect with travel community", 271x20px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 15px]
+  - RECTANGLE "Rectangle 4", 284x54px, constraints left/top, radius 8px, fill #FFFFFF, stroke #666CA6CC 0.5px, effect [drop_shadow 10px offset 0 4 #666CA699]
+  - TEXT "Right now at London", 220x19px, constraints left/top, fill #000000, text [Montserrat Regular, 12px]
+  - TEXT "See all", 44x18px, constraints left/top, fill #333FB699, text [Montserrat Medium, 12px]
+  - TEXT "Popular Travelers", 220x19px, constraints left/top, fill #000000, text [Montserrat Regular, 12px]
+  - TEXT "See all", 44x18px, constraints left/top, fill #333FB699, text [Montserrat Medium, 12px]
+  - COMPONENT "Component 1", 508x207px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 5", 160x207px, constraints scale/scale, radius 18px, fill image(hash: c84ff63b35a0d2af58db83250bac377ab6a1253a), effect [drop_shadow 10px offset 0 0 #333FB699]
+    - RECTANGLE "Rectangle 6", 160x207px, constraints scale/scale, radius 18px, fill image(hash: 38de1bd07ab7bebef56240fbed9cb2418380b9a6), effect [drop_shadow 10px offset 0 0 #666CA699]
+    - RECTANGLE "Rectangle 6", 160x207px, constraints scale/scale, radius 18px, fill image(hash: c84ff63b35a0d2af58db83250bac377ab6a1253a), effect [drop_shadow 10px offset 0 0 #666CA699]
+  - RECTANGLE "Rectangle 7", 76x76px, constraints left/top, radius 18px, fill image(hash: 26bdcae3eca9b1f0b6709cfc693c21232cdcc026), effect [drop_shadow 10px offset 0 0 #666CA6CC]
+  - RECTANGLE "Rectangle 8", 76x76px, constraints left/top, radius 18px, fill image(hash: 4a4cc718c313cbbc521b568b7578601457644d52), effect [drop_shadow 10px offset 0 0 #666CA6CC]
+  - RECTANGLE "Rectangle 9", 76x76px, constraints left/top, radius 18px, fill image(hash: e95bbcc4161acfc156943dafc22edaec0037b986), effect [drop_shadow 10px offset 0 0 #666CA6CC]
+  - RECTANGLE "Rectangle 10", 76x76px, constraints left/top, radius 18px, fill image(hash: 840ac3ee30702694687d8edc5534edbe5d1c7af5), effect [drop_shadow 10px offset 0 0 #666CA6CC]
+  - RECTANGLE "Rectangle 11", 109x32px, constraints left/top, radius 5px, fill #333FB699, effect [drop_shadow 5px offset 0 0 #666CA699]
+  - RECTANGLE "Globe", 25x22px, constraints left/top, fill image(hash: 1f2046391cb141b1ae8dc372395b3373ff9ae392)
+  - RECTANGLE "View Module", 25x22px, constraints left/top, fill image(hash: 5a00dd5bce50918653677347cb95a250aeeb3787)
+  - RECTANGLE "Discussion Forum", 26x22px, constraints left/top, fill image(hash: 3547c9a160bf07b863654318f4c8b80cea46ab96)
+  - RECTANGLE "Notification Center", 26x22px, constraints left/top, fill image(hash: 8de2a247fa015aba884f5800f3dce160c65699a3)
+  - TEXT "Home", 57x18px, constraints left/top, fill #FFFFFF, text [Inter Medium, 12px]
+
+Screen: Page 1 / Community
+- FRAME "Community", 390x844px, constraints left/top, radius 20px, fill #666CA64D
+  - VECTOR "Rectangle 12", 323x397px, constraints left/top, radius 15px, fill gradient_linear(#FFFFFF 0% | #FFFFFFAA 89% | #FFFFFF00 100% | #FFFFFFBE 100%), effect [drop_shadow 50px offset 0 0 #0000001A]
+  - RECTANGLE "Rectangle 11", 109x32px, constraints left/top, radius 5px, fill #333FB699, effect [drop_shadow 5px offset 0 0 #666CA699]
+  - RECTANGLE "Globe", 25x22px, constraints left/top, fill image(hash: 1f2046391cb141b1ae8dc372395b3373ff9ae392)
+  - RECTANGLE "View Module", 25x22px, constraints left/top, fill image(hash: 5a00dd5bce50918653677347cb95a250aeeb3787)
+  - RECTANGLE "Discussion Forum", 26x22px, constraints left/top, fill image(hash: 3547c9a160bf07b863654318f4c8b80cea46ab96)
+  - RECTANGLE "Notification Center", 26x22px, constraints left/top, fill image(hash: 8de2a247fa015aba884f5800f3dce160c65699a3)
+  - TEXT "Home", 57x18px, constraints left/top, fill #FFFFFF, text [Inter Medium, 12px]
+  - VECTOR "Arrow 1", 24x0px, constraints left/top, stroke #000000 3px
+  - TEXT "Popular Travelers", 168x22px, constraints left/top, fill #000000, text [Montserrat Regular, 18px]
+  - ELLIPSE "Ellipse 1", 40x40px, constraints left/top, fill image(hash: e1fa973d722fad0035cb0d7e7c718ab0fbc56857)
+  - RECTANGLE "Rectangle 12", 323x397px, constraints left/top, radius 15px, fill #FFFFFF, effect [drop_shadow 50px offset 0 0 #0000001A]
+  - ELLIPSE "Ellipse 2", 40x40px, constraints left/top, fill image(hash: e1fa973d722fad0035cb0d7e7c718ab0fbc56857)
+  - ELLIPSE "Ellipse 3", 40x40px, constraints left/top, fill image(hash: e1fa973d722fad0035cb0d7e7c718ab0fbc56857)
+  - TEXT "Alex Viojwan", 168x22px, constraints left/top, fill #000000, text [Montserrat SemiBold, 18px]
+  - TEXT "Alex Viojwan", 80x22px, constraints left/top, fill #000000, text [Montserrat SemiBold, 12px]
+  - TEXT "Alex Viojwan", 80x22px, constraints left/top, fill #000000, text [Montserrat SemiBold, 12px]
+  - TEXT "Just now", 80x22px, constraints left/top, fill #000000, text [Montserrat Light, 12px]
+  - TEXT "Just now", 80x22px, constraints left/top, fill #000000, text [Montserrat Light, 12px]
+  - TEXT "The original solo fraveller", 179x22px, constraints left/top, fill #000000, text [Montserrat Light, 12px]
+  - TEXT "Recent Post", 22x168px, constraints left/top, fill #000000, text [Montserrat SemiBold, 18px], opacity 90%
+  - TEXT "Sandy Kart", 168x22px, constraints left/top, fill #000000, text [Montserrat SemiBold, 18px]
+  - RECTANGLE "Rectangle 13", 92x92px, constraints left/top, radius 8px, fill image(hash: c401c70fc4e526d421a9d48d0d2679cb37d5f70a)
+  - RECTANGLE "Rectangle 14", 92x92px, constraints left/top, radius 8px, fill image(hash: 2ca5904bb6a98ad6a758bd778963101f94e69397)
+  - LINE "Line 5", 0x117px, constraints left/top, stroke #666CA6CC 1px
+  - LINE "Line 6", 0x117px, constraints left/top, stroke #666CA6CC 1px
+  - ... +4 more children
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,1326 @@
+---
+name: fortnite-progressive-companion-app-community
+source_file: Fortnite Progressive Companion App (Community)
+source_page: All pages (6): Screens, Screenshots, Components, Style Guide, Mapping/Frameworks etc., Presentation
+generated_at: 2026-07-25T09:23:27.697679+00:00
+---
+
+# Fortnite Progressive Companion App (Community) Design Guidelines
+
+## Source
+- Figma file: Fortnite Progressive Companion App (Community)
+- Figma page: All pages (6): Screens, Screenshots, Components, Style Guide, Mapping/Frameworks etc., Presentation
+- Extracted at: 2026-07-25T09:23:27.697679+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Radial Blues: [gradient_radial(#4C51F7 0% | #454AE1 100%)]
+- Foundation /Yellow/yellow-500: [#F2EC00]
+- Foundation /Black/black-500: [#060606]
+- Foundation /Blue/blue-50: [#EDEEFE]
+- Foundation /Blue/blue-500: [#4C51F7]
+- Foundation /Blue/blue-100: [#C8C9FD]
+- Foundation /Blue/blue-900: [#202268]
+- Dark: [#1D1A1B]
+- Blue: [#3E1FFF]
+- Foundation /White/white-500: [#FBFBFB]
+- Foundation /Yellow/yellow-900: [#666300]
+- Foundation /Yellow/yellow-800: [#858200]
+- Foundation /Yellow/yellow-700: [#ACA800]
+- Foundation /Yellow/yellow-600: [#DCD700]
+- Foundation /Yellow/yellow-400: [#F5F033]
+- Foundation /Yellow/yellow-300: [#F6F254]
+- Foundation /Yellow/yellow-200: [#F9F68A]
+- Foundation /Yellow/yellow-100: [#FBF9B0]
+- Foundation /Yellow/yellow-50: [#FEFDE6]
+- Foundation /Black/black-900: [#030303]
+- Foundation /Black/black-800: [#030303]
+- Foundation /Black/black-700: [#040404]
+- Foundation /Black/black-600: [#050505]
+- Foundation /Black/black-400: [#383838]
+- Foundation /Black/black-300: [#585858]
+- Foundation /Black/black-200: [#8C8C8C]
+- Foundation /Black/black-100: [#B2B2B2]
+- Foundation /Black/black-50: [#E6E6E6]
+- Foundation /White/white-900: [#696969]
+- Foundation /White/white-800: [#8A8A8A]
+- Foundation /White/white-700: [#B2B2B2]
+- Foundation /White/white-600: [#E4E4E4]
+- Foundation /White/white-400: [#FCFCFC]
+- Foundation /White/white-300: [#FCFCFC]
+- Foundation /White/white-200: [#FDFDFD]
+- Foundation /White/white-100: [#FEFEFE]
+- Foundation /White/white-50: [#FFFFFF]
+- Foundation /Purple/purple-900: [#42204F]
+- Foundation /Purple/purple-800: [#562A67]
+- Foundation /Purple/purple-700: [#6F3785]
+- Foundation /Purple/purple-600: [#8F46AA]
+- Foundation /Purple/purple-500: [#9D4DBB]
+- Foundation /Purple/purple-400: [#B171C9]
+- Foundation /Purple/purple-300: [#BD88D1]
+- Foundation /Purple/purple-200: [#D2ADE0]
+- Foundation /Purple/purple-100: [#E1C8EA]
+- Foundation /Purple/purple-50: [#F5EDF8]
+- Foundation /Green/green-900: [#153D17]
+- Foundation /Green/green-800: [#1B501E]
+- Foundation /Green/green-700: [#236826]
+- Foundation /Green/green-600: [#2D8531]
+- Foundation /Green/green-500: [#319236]
+- Foundation /Green/green-400: [#5AA85E]
+- Foundation /Green/green-300: [#75B678]
+- Foundation /Green/green-200: [#A0CDA3]
+- Foundation /Green/green-100: [#BFDDC1]
+- Foundation /Green/green-50: [#EAF4EB]
+- Foundation /Blue/blue-800: [#2A2D88]
+- Foundation /Blue/blue-700: [#363AAF]
+- Foundation /Blue/blue-600: [#454AE1]
+- Foundation /Blue/blue-400: [#7074F9]
+- Foundation /Blue/blue-300: [#878AFA]
+- Foundation /Blue/blue-200: [#ADAFFB]
+- Battle pass gradient: [gradient_radial(#F3AF19 0% | #AD7C12 44% | #664A0B 66% | #030303 98%), image(hash: 6efcf3851275e08c000a15c2c9626e7c54d13cee)]
+- Background gradient: [gradient_radial(#09AAFB 0% | #0745B4 100%)]
+
+## Raw Colors (unstyled)
+- #737373: 381 uses
+- #222222: 294 uses
+- #000000: 160 uses
+- #FFFFFF: 95 uses
+- #DD9F17: 45 uses
+- #F2EC00: 42 uses
+- #D8D8D8: 30 uses
+- #AD7C12: 28 uses
+- #0B0D0E: 20 uses
+- #1D1D1D: 20 uses
+- #28DFEA: 16 uses
+- #F2F2F2: 14 uses
+- #101010: 13 uses
+- #00082D: 12 uses
+- #7B61FF: 12 uses
+- #9747FF: 8 uses
+- #FFFF00: 8 uses
+
+## Typography Tokens
+- BBK - HEADER 4: Burbank Big Condensed Black (700), 21px / auto, tracking 0px
+- BBK - HEADER 1: Burbank Big Condensed Black (700), 50px / auto, tracking 0px
+- BBK - HEADER 3: Burbank Big Condensed Black (700), 28px / auto, tracking 0px
+- BBK - HEADER 2: Burbank Big Condensed Black (700), 38px / auto, tracking 0px
+- Paragraph big: Floki Regular (400), 16px / auto, tracking 0px
+- Header 2: Floki Bold (700), 38px / auto, tracking 0px
+- Header 1: Floki Bold (700), 50px / auto, tracking 0px
+- BBK - Paragraph big: Burbank Big Condensed Bold (600), 16px / auto, tracking 0px
+- BBK - BUTTON TEXT: Burbank Big Condensed Black (700), 16px / auto, tracking 0px
+- BBK - Paragraph small: Burbank Big Condensed Bold (600), 12px / auto, tracking 0px
+- Button text: Floki ExtraBold (800), 16px / auto, tracking 0px
+- Paragraph small: Floki Regular (400), 12px / auto, tracking 0px
+- Header 4: Floki Bold (700), 21px / auto, tracking 0px
+- Header 3: Floki Bold (700), 28px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 12px: 407 uses
+- Inter Regular, 9px: 213 uses
+- Burbank Big Condensed Black, 50px: 37 uses
+- Inter Regular, 15px: 28 uses
+- Burbank Big Condensed Bold, 50px: 25 uses
+- Burbank Big Condensed Black, 15px: 24 uses
+- Poppins ExtraBoldItalic, 10px: 20 uses
+- Burbank Big Condensed Bold, 36px: 19 uses
+- Burbank Big Condensed Black, 38px: 6 uses
+- Floki Medium, 21px: 5 uses
+
+## Typography Hierarchy
+- 50px - BBK - HEADER 1 (Burbank Big Condensed Black)
+- 50px - Burbank Big Condensed Black, 50px (raw)
+- 50px - Burbank Big Condensed Bold, 50px (raw)
+- 50px - Header 1 (Floki Bold)
+- 38px - BBK - HEADER 2 (Burbank Big Condensed Black)
+- 38px - Burbank Big Condensed Black, 38px (raw)
+- 38px - Header 2 (Floki Bold)
+- 36px - Burbank Big Condensed Bold, 36px (raw)
+- 28px - BBK - HEADER 3 (Burbank Big Condensed Black)
+- 28px - Header 3 (Floki Bold)
+- 21px - BBK - HEADER 4 (Burbank Big Condensed Black)
+- 21px - Floki Medium, 21px (raw)
+- 21px - Header 4 (Floki Bold)
+- 16px - BBK - BUTTON TEXT (Burbank Big Condensed Black)
+- 16px - BBK - Paragraph big (Burbank Big Condensed Bold)
+- 16px - Button text (Floki ExtraBold)
+- 16px - Paragraph big (Floki Regular)
+- 15px - Burbank Big Condensed Black, 15px (raw)
+- 15px - Inter Regular, 15px (raw)
+- 12px - BBK - Paragraph small (Burbank Big Condensed Bold)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Paragraph small (Floki Regular)
+- 10px - Poppins ExtraBoldItalic, 10px (raw)
+- 9px - Inter Regular, 9px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- Vertical Mobile: columns count 4, section 77.5px, gutter 16px, align stretch
+
+## Component Families
+- quest list
+- menu-item
+- mobile-menu-item
+- ButtonPrimary
+- battle-pass-skin
+- Fortnite_lhama
+- Component 1
+- Battle Pass
+- Clock
+- Exit
+- Fish
+- Mic
+- Npc Dialog
+- Person add
+- People
+- Padlock
+- Person
+- Settings
+- V-Bucks
+- loading
+- Epic_Games_logo 1
+- FortniteLogo
+- map-pin
+- xp-icon
+- badge
+- calendar
+- circle
+- map
+- quests
+- locker
+- star
+
+## Component Specs
+- quest list: size 364x146px, text [BBK - Paragraph big, BBK - HEADER 2] | variants: Property 1: Default/expand
+- menu-item: size 117x40px, horizontal layout, padding 4 4 4 4px, gap 4px, align center/center, sizing W:fixed H:fixed, text [BBK - HEADER 3] | variants: Property 1: Default/Selected
+- mobile-menu-item: size 56x76px, vertical layout, padding 4 4 4 4px, gap 4px, align center/center, sizing W:fixed H:fixed, fill Foundation /Blue/blue-50, text [BBK - BUTTON TEXT] | variants: Property 1: Default/selected
+- ButtonPrimary: size 362.5x59.5px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [BBK - HEADER 3] | variants: Property 1: Default/Variant2/Variant3
+- battle-pass-skin: size 997x904px, fill #FFFFFF | variants: Property 1: Default/Variant2
+- Fortnite_lhama: size 350x331.83px | variants: Property 1: Default/loading
+- Component 1: size 63.58x62.63px, fill #FFFFFF | variants: Property 1: Selected/default
+- Battle Pass: size 64x64px, fill #FFFFFF | variants: Battle Pass: 12/16/18/24/28/32/38/42/48/64
+- Clock: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48/64
+- Exit: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48/64
+- Fish: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48
+- Mic: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48
+- Npc Dialog: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48
+- Person add: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48
+- People: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48
+- Padlock: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48
+- Person: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48
+- Settings: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/48/Variant10
+- V-Bucks: size 64x64px, fill #FFFFFF | variants: Property 1: 12/16/18/24/28/32/38/42/64/Variant10
+- loading: size 48x48px, fill #FFFFFF | variants: Property 1: Default/Variant2
+- ButtonPrimary/button_tertiary: size 121x31px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Floki Bold, 21px]
+- Epic_Games_logo 1: size 250x290.1px, fill #FFFFFF
+- FortniteLogo: size 350x97.63px
+- map-pin: size 48x48px
+- xp-icon: size 57x41.5px, fill #FFFFFF, text [BBK - HEADER 3]
+- badge: size 28.44x30.06px, fill #FFFFFF
+- calendar: size 35.78x35.72px
+- circle: size 33.46x35.07px, fill #FFFFFF
+- map: size 48x48px
+- quests: size 48x48px
+- locker: size 48x48px
+- star: size 48x48px, fill #FFFFFF
+
+## Most-Used Styles
+- Foundation /Blue/blue-50: 390 uses
+- Foundation /Blue/blue-900: 260 uses
+- Foundation /White/white-500: 185 uses
+- Foundation /Black/black-500: 120 uses
+- BBK - HEADER 3: 108 uses
+- Foundation /Blue/blue-500: 57 uses
+- Foundation /Blue/blue-400: 53 uses
+- BBK - HEADER 2: 47 uses
+- BBK - HEADER 4: 35 uses
+- Foundation /Yellow/yellow-500: 35 uses
+- Paragraph big: 33 uses
+- BBK - BUTTON TEXT: 28 uses
+- BBK - HEADER 1: 23 uses
+- BBK - Paragraph big: 22 uses
+- Foundation /Blue/blue-800: 11 uses
+- Header 2: 9 uses
+- Radial Blues: 8 uses
+- Background gradient: 6 uses
+- Foundation /Blue/blue-100: 6 uses
+- Foundation /Blue/blue-300: 6 uses
+- BBK - Paragraph small: 5 uses
+- Battle pass gradient: 3 uses
+- Foundation /Black/black-100: 3 uses
+- Foundation /Green/green-500: 3 uses
+- Header 4: 3 uses
+- Foundation /Black/black-50: 2 uses
+- Foundation /Yellow/yellow-700: 2 uses
+- Header 1: 2 uses
+- Blue: 1 use
+- Button text: 1 use
+- Dark: 1 use
+- Foundation /Black/black-200: 1 use
+- Foundation /Black/black-300: 1 use
+- Foundation /Black/black-400: 1 use
+- Foundation /Black/black-600: 1 use
+- Foundation /Black/black-700: 1 use
+- Foundation /Black/black-800: 1 use
+- Foundation /Black/black-900: 1 use
+- Foundation /Blue/blue-200: 1 use
+- Foundation /Blue/blue-600: 1 use
+- Foundation /Blue/blue-700: 1 use
+- Foundation /Green/green-100: 1 use
+- Foundation /Green/green-200: 1 use
+- Foundation /Green/green-300: 1 use
+- Foundation /Green/green-400: 1 use
+- Foundation /Green/green-50: 1 use
+- Foundation /Green/green-600: 1 use
+- Foundation /Green/green-700: 1 use
+- Foundation /Green/green-800: 1 use
+- Foundation /Green/green-900: 1 use
+- Foundation /Purple/purple-100: 1 use
+- Foundation /Purple/purple-200: 1 use
+- Foundation /Purple/purple-300: 1 use
+- Foundation /Purple/purple-400: 1 use
+- Foundation /Purple/purple-50: 1 use
+- Foundation /Purple/purple-500: 1 use
+- Foundation /Purple/purple-600: 1 use
+- Foundation /Purple/purple-700: 1 use
+- Foundation /Purple/purple-800: 1 use
+- Foundation /Purple/purple-900: 1 use
+- Foundation /White/white-100: 1 use
+- Foundation /White/white-200: 1 use
+- Foundation /White/white-300: 1 use
+- Foundation /White/white-400: 1 use
+- Foundation /White/white-50: 1 use
+- Foundation /White/white-600: 1 use
+- Foundation /White/white-700: 1 use
+- Foundation /White/white-800: 1 use
+- Foundation /White/white-900: 1 use
+- Foundation /Yellow/yellow-100: 1 use
+- Foundation /Yellow/yellow-200: 1 use
+- Foundation /Yellow/yellow-300: 1 use
+- Foundation /Yellow/yellow-400: 1 use
+- Foundation /Yellow/yellow-50: 1 use
+- Foundation /Yellow/yellow-600: 1 use
+- Foundation /Yellow/yellow-800: 1 use
+- Foundation /Yellow/yellow-900: 1 use
+- Header 3: 1 use
+- Paragraph small: 1 use
+
+## Layout & Structure
+Screen: Screens / 01 - Splash Screen
+- FRAME "01 - Splash Screen", 390x844px, constraints left/top, fill Background gradient
+  - INSTANCE "Fortnite_lhama", 350x389px, constraints left/top
+    - INSTANCE "loading", 48x48px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group", 40x40px, constraints scale/scale
+        - VECTOR "Vector", 40x40px, constraints scale/scale, stroke Foundation /Blue/blue-50 4px
+        - VECTOR "Vector", 24x24px, constraints scale/scale, stroke Foundation /Blue/blue-50 4px
+    - GROUP "_x31__1_", 338.25x316.31px, constraints scale/scale [decorative, ~4 shapes]
+  - VECTOR "_x34_", 9.47x9.47px, constraints scale/scale, fill Foundation /Blue/blue-50
+
+Screen: Screens / 01 - Splash Screen
+- FRAME "01 - Splash Screen", 390x844px, constraints left/top, fill Background gradient
+  - INSTANCE "Fortnite_lhama", 350x389px, constraints left/top
+    - INSTANCE "loading", 48x48px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group", 40x40px, constraints scale/scale
+        - VECTOR "Vector", 40x40px, constraints scale/scale, stroke Foundation /Blue/blue-50 4px
+        - VECTOR "Vector", 24x24px, constraints scale/scale, stroke Foundation /Blue/blue-50 4px
+    - GROUP "_x31__1_", 338.25x316.31px, constraints scale/scale [decorative, ~4 shapes]
+  - VECTOR "_x34_", 1188x1187px, constraints scale/scale, fill Foundation /Blue/blue-50
+
+Screen: Screens / 02 - Login
+- FRAME "02 - Login", 390x844px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - FRAME "Frame 1", 358x186px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Epic_Games_logo 1", 67x78px, constraints left/top, fill #FFFFFF
+      - GROUP "g10", 67x78px, constraints scale/scale [decorative, ~7 shapes]
+    - INSTANCE "FortniteLogo", 358x100px, constraints left/top
+      - GROUP "Group", 358x100px, constraints scale/scale [decorative, ~8 shapes]
+  - FRAME "Frame 5", 362.5x114.5px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "ButtonPrimary", 362.5x59.5px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 3", 362.5x59.5px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector 3", 362.5x59.5px, constraints left/top, fill #F2EC00, stroke #000000 1px
+        - VECTOR "Vector 4", 348.5x49.5px, constraints left/top, fill Foundation /Blue/blue-500, stroke #000000 1px
+        - FRAME "Frame 1", 293x28px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints center/center
+          - INSTANCE "Epic_Games_logo 1", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "g10", 24x24px, constraints scale/scale [decorative, ~7 shapes]
+          - TEXT "NEW QUESTS!", 255x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+    - FRAME "Frame 4", 306x31px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Don’t you have an Epic Account yet?", 243x31px, constraints left/top, fill #FFFFFF, text [Header 4], [heading]
+      - INSTANCE "ButtonPrimary/button_tertiary", 57x31px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "TERTIARY BUTTON", 57x31px, constraints left/top, fill #F2EC00, text [Floki Bold, 21px]
+
+Screen: Screens / 03 - Locker
+- FRAME "03 - Locker", 390x844px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - VECTOR "Vector 51", 361x79px, constraints left/top, fill Foundation /Blue/blue-900, stroke #FFFFF4 1px
+  - FRAME "Frame 6", 390x96px, horizontal pad 16 16 16 16px gap 89px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - RECTANGLE "output-onlinegiftools 1", 236x480px, constraints left/top, fill image(hash: 96d4d85e8f541dc96f3fbe572d85e3d3a3e3ddcb)
+  - TEXT "SELECTING", 136x38px, constraints left/top, fill #FFFFFF, text [BBK - HEADER 2], [heading]
+  - GROUP "Group 67", 204x55.56px, constraints left/top
+    - VECTOR "Vector 54", 204x47.74px, constraints left/top, fill Foundation /Blue/blue-900, stroke #5A78BD 0.87px
+    - VECTOR "Vector 56", 14.76x19.1px, constraints left/top, stroke Foundation /Blue/blue-50 0.87px
+    - VECTOR "Vector 55", 50.35x39.93px, constraints left/top, fill Foundation /White/white-500, stroke #5A78BD 0.87px
+    - TEXT "OUTFIT", 66x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+  - FRAME "filter", 254.31x62.63px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Component 1", 63.58x62.63px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector 57", 63.58x62.63px, constraints scale/scale, fill Foundation /Blue/blue-50
+      - VECTOR "Vector 58", 51.03x55.95px, constraints scale/scale, fill Foundation /Blue/blue-900, stroke #000000 1px
+      - INSTANCE "infinite", 40.15x40.09px, constraints scale/scale
+        - VECTOR "Vector", 40.15x40.09px, constraints scale/scale
+        - VECTOR "Vector", 33.25x23.55px, constraints scale/scale, fill Foundation /Blue/blue-50
+    - INSTANCE "Component 2", 63.58x62.63px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector 57", 63.58x62.63px, constraints scale/scale, fill Foundation /Blue/blue-500
+      - VECTOR "Vector 58", 51.03x55.95px, constraints scale/scale, fill Foundation /Blue/blue-500, stroke #000000 1px
+      - INSTANCE "calendar", 40.15x40.09px, constraints scale/scale
+        - VECTOR "Vector", 40.15x40.09px, constraints scale/scale, fill Foundation /Blue/blue-50
+    - INSTANCE "Component 3", 63.58x62.63px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector 57", 63.58x62.63px, constraints scale/scale, fill Foundation /Blue/blue-500
+      - VECTOR "Vector 58", 51.03x55.95px, constraints scale/scale, fill Foundation /Blue/blue-500, stroke #000000 1px
+      - INSTANCE "badge", 40.15x40.09px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector 62", 40.15x40.09px, constraints scale/scale, fill Foundation /Blue/blue-50
+    - INSTANCE "Component 4", 63.58x62.63px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector 57", 63.58x62.63px, constraints scale/scale, fill Foundation /Blue/blue-500
+      - VECTOR "Vector 58", 51.03x55.95px, constraints scale/scale, fill Foundation /Blue/blue-500, stroke #000000 1px
+      - INSTANCE "circle", 40.15x40.09px, constraints scale/scale, fill #FFFFFF
+        - ELLIPSE "Ellipse 7", 40.15x40.09px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - TEXT "FILTER-ALL", 56x15px, constraints left/top, fill Foundation /White/white-500, text [Paragraph big]
+  - GROUP "Group 69", 359x53px, constraints left/top
+    - VECTOR "Vector 84", 359x53px, constraints left/top, stroke Foundation /Blue/blue-50 3px
+    - TEXT "SEARCH", 56x21px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+  - FRAME "Frame 10", 208.81x432px, vertical pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top [decorative, ~18 shapes]
+  - FRAME "Frame 13", 361x58.9px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "ButtonPrimary", 176.5x58.9px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints center/center
+      - FRAME "Frame 3", 176.5x58.9px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector 3", 176.5x58.9px, constraints left/top, fill Foundation /Blue/blue-300, stroke #000000 0.99px
+        - VECTOR "Vector 4", 163.02x49px, constraints left_right/top, fill Foundation /Blue/blue-500
+        - FRAME "Frame 1", 152x28px, horizontal pad 0 0 0 0px gap 13.86px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "NEW QUESTS!", 152x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+    - INSTANCE "ButtonPrimary", 176.5x58.9px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints center/center
+      - FRAME "Frame 3", 176.5x58.9px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector 3", 176.5x58.9px, constraints left/top, fill Foundation /Blue/blue-300, stroke #000000 0.99px
+        - VECTOR "Vector 4", 163.02x49px, constraints left_right/top, fill Foundation /Blue/blue-500
+        - FRAME "Frame 1", 128x28px, horizontal pad 0 0 0 0px gap 13.86px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "NEW QUESTS!", 128x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+  - FRAME "mobile-menu", 390x76px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50, stroke #F2EC00 4px
+      - INSTANCE "locker", 48x48px, constraints left/top
+        - GROUP "Group", 34.2x38px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "Battle Pass", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 35x32px, constraints scale/scale, fill Foundation /Blue/blue-900, stroke Foundation /Blue/blue-900 1px
+      - TEXT "LOCKER", 71x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "V-Bucks", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "V-Bucks", 35.08x36px, constraints scale/scale, fill Foundation /Blue/blue-900
+      - TEXT "LOCKER", 59x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "quests", 48x48px, constraints left/top
+        - GROUP "Group", 34.29x24px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "map", 48x48px, constraints left/top
+        - GROUP "Group", 35.56x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 26x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+
+Screen: Screens / 05 - Item shop
+- FRAME "05 - Item shop", 390x1128px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - FRAME "Frame 6", 390x96px, horizontal pad 16 16 16 16px gap 89px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - VECTOR "Vector 84", 359x53px, constraints left/top, stroke Foundation /Blue/blue-50 3px
+  - TEXT "SEARCH", 56x21px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+  - TEXT "FEATURED", 127x38px, constraints left/top, fill #FFFFFF, text [BBK - HEADER 2], [heading]
+  - FRAME "Frame 36", 374x353px, constraints left/top
+    - GROUP "Group 55", 200.5x353px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: 8b4f4eef0aa0fd25fdbc9d30135931f7b7c51d49), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - VECTOR "Vector 49", 186.5x24px, constraints left/top, fill #FFFF00, stroke #FFFFF4 3px
+      - TEXT "NEW LOADING SCREEN INCLUDED!", 167x15px, constraints left/top, fill #363103, text [Burbank Big Condensed Black, 15px]
+      - TEXT "ZURI", 24x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "1,200", 26x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 56", 193x345px, constraints left/top
+      - VECTOR "Vector 50", 192x300px, constraints left/top, fill image(hash: 53b54383fe075e83ff08bdcf09b3e563e86be22d), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "ENPOWRED DHA", 80x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 57", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: 0bc0194d86f7d7afd93d75cc9a7c733f37b205b7), stroke #000000 1px
+      - VECTOR "Vector 46", 193.5x10px, constraints left/top, fill #FFFF00, stroke #000000 1px
+      - VECTOR "Vector 47", 193.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 193.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "MANIC", 35x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 58", 200x353px, constraints left/top
+      - VECTOR "Vector 45", 192.5x345.5px, constraints left/top, fill image(hash: 8b4f4eef0aa0fd25fdbc9d30135931f7b7c51d49), stroke #000000 1px
+      - VECTOR "Vector 50", 192x300px, constraints left/top, fill image(hash: 8ec07a5d2ad4f093905ce19553cd6034ad80c459), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - VECTOR "Vector 49", 146x24px, constraints left/top, fill #FFFF00, stroke #FFFFF4 3px
+      - TEXT "BACK BLING & PICKAXE!", 123x15px, constraints left/top, fill #363103, text [Burbank Big Condensed Black, 15px]
+      - TEXT "SCARLET SAI", 64x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "600", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 59", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: a8bdb9cc71eec0d4fc0c1f51b6b11a2655f44cc2), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "MARIUS", 42x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+  - FRAME "Frame 37", 374x353px, constraints left/top
+    - GROUP "Group 55", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: 8b4f4eef0aa0fd25fdbc9d30135931f7b7c51d49), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "ZURI", 24x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "1,200", 26x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 56", 193x345px, constraints left/top
+      - VECTOR "Vector 50", 192x300px, constraints left/top, fill image(hash: 53b54383fe075e83ff08bdcf09b3e563e86be22d), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "ENPOWRED DHA", 80x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 57", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: 0bc0194d86f7d7afd93d75cc9a7c733f37b205b7), stroke #000000 1px
+      - VECTOR "Vector 46", 193.5x10px, constraints left/top, fill #FFFF00, stroke #000000 1px
+      - VECTOR "Vector 47", 193.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 193.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "MANIC", 35x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 58", 193x345.5px, constraints left/top
+      - VECTOR "Vector 45", 192.5x345.5px, constraints left/top, fill image(hash: 8b4f4eef0aa0fd25fdbc9d30135931f7b7c51d49), stroke #000000 1px
+      - VECTOR "Vector 50", 192x300px, constraints left/top, fill image(hash: 8ec07a5d2ad4f093905ce19553cd6034ad80c459), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "SCARLET SAI", 64x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "600", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 59", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: a8bdb9cc71eec0d4fc0c1f51b6b11a2655f44cc2), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "MARIUS", 42x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+  - RECTANGLE "Rectangle 1", 388x161px, constraints left/bottom, fill gradient_linear(#D9D9D900 0% | #0135A7 64%)
+  - FRAME "mobile-menu", 390x76px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "locker", 48x48px, constraints left/top
+        - GROUP "Group", 34.2x38px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "Battle Pass", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 35x32px, constraints scale/scale, fill Foundation /Blue/blue-900, stroke Foundation /Blue/blue-900 1px
+      - TEXT "LOCKER", 71x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50, stroke #F2EC00 4px
+      - INSTANCE "V-Bucks", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "V-Bucks", 35.08x36px, constraints scale/scale, fill Foundation /Blue/blue-900
+      - TEXT "LOCKER", 59x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "quests", 48x48px, constraints left/top
+        - GROUP "Group", 34.29x24px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "map", 48x48px, constraints left/top
+        - GROUP "Group", 35.56x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 26x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+
+Screen: Screens / 04 - Battle pass
+- FRAME "04 - Battle pass", 390x935px, constraints left/top, fill Battle pass gradient
+  - FRAME "Frame 6", 390x96px, horizontal pad 16 16 16 16px gap 89px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - FRAME "Frame 26", 358x39px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 24", 334x39px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 23", 334x21px, horizontal pad 0 0 0 0px gap 127px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 21", 31x21px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "LV", 17x21px, constraints left/top, fill #DD9F17, text [BBK - HEADER 4], [heading]
+          - TEXT "6", 10x21px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+        - FRAME "Frame 22", 121x21px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "1,700 XP", 64x21px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+          - TEXT "to LV 7", 49x21px, constraints left/top, fill #DD9F17, text [BBK - HEADER 4], [heading]
+      - FRAME "Frame 19", 334x14px, horizontal pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top [decorative, ~11 shapes]
+    - FRAME "Frame 25", 16x39px, vertical pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fill, constraints left/top
+      - INSTANCE "star", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x11.33px, constraints scale/scale, fill #DD9F17, stroke #DD9F17 2px
+      - TEXT "+5", 9x12px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - Paragraph small]
+  - FRAME "Frame 28", 267x153.81px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 27", 267x78.9px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "ButtonPrimary", 267x58.9px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints center/center
+        - FRAME "Frame 3", 267x58.9px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 3", 267x58.9px, constraints left/top, fill Foundation /Black/black-500, stroke #000000 0.99px
+          - VECTOR "Vector 4", 253.02x49px, constraints left_right/top, fill Foundation /Yellow/yellow-500
+          - FRAME "Frame 1", 109x28px, horizontal pad 0 0 0 0px gap 13.86px align min/center sizing W:fixed H:fixed, constraints center/center
+            - TEXT "NEW QUESTS!", 109x28px, constraints left/top, fill Foundation /Black/black-500, text [BBK - HEADER 3], [heading]
+      - TEXT "AND GET BATTLE STARS", 82x12px, constraints left/top, fill #000000, text [BBK - Paragraph small]
+    - INSTANCE "ButtonPrimary", 267x58.9px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+      - FRAME "Frame 3", 267x58.9px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector 3", 267x58.9px, constraints left/top, fill Foundation /Blue/blue-50, stroke #000000 0.99px
+        - VECTOR "Vector 4", 253.02x49px, constraints left_right/top, fill Foundation /Blue/blue-500
+        - FRAME "Frame 1", 209x28px, horizontal pad 0 0 0 0px gap 13.86px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "NEW QUESTS!", 209x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+  - FRAME "Frame 33", 361x142px, horizontal pad 0 0 0 0px gap 45px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 32", 168x142px, vertical pad 0 0 0 0px gap 6px align space_between/min sizing W:fixed H:fill, constraints left/top
+      - TEXT "BATTLE PASS REWARDS", 168x76px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 2], [heading]
+      - TEXT "Spend Battle Stars to Redeem Season 1 Rewards", 135x32px, constraints left/top, fill Foundation /White/white-500, text [BBK - Paragraph big]
+    - FRAME "Frame 31", 148x142px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 29", 148x63px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "1/100", 78x38px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 2], [heading]
+        - TEXT "REDEEMED REWARDS", 148x21px, constraints left/top, fill #F2EC00, text [BBK - HEADER 4], [heading]
+      - FRAME "Frame 30", 134x63px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "1/14", 59x38px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 2], [heading]
+        - TEXT "PAGES COMPLETED", 134x21px, constraints left/top, fill #F2EC00, text [BBK - HEADER 4], [heading]
+  - FRAME "Frame 34", 375x282px, constraints left/top
+    - FRAME "Frame 35", 696x282px, horizontal pad 0 0 0 0px gap 16px align min/max sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 8", 340x282px, constraints left/top
+        - RECTANGLE "Rectangle 8", 340x161px, constraints left/top
+        - VECTOR "Vector 8", 330.48x117px, constraints left/top, fill #DD9F17
+        - GROUP "Group 7", 206.4x103.77px, constraints left/top [decorative, ~14 shapes]
+        - RECTANGLE "Fortnite-PNG-Images 1", 324.59x269px, constraints left/top, fill image(hash: 03a11a03e2f806ba6ab1130303ea9b5ac720f26c)
+        - VECTOR "Vector 6", 330.93x42px, constraints left/top, fill Foundation /White/white-500
+        - TEXT "BATTLE PASS REWARDS", 330.53x28px, constraints left/top, fill #DD9F17, text [BBK - HEADER 3], [heading]
+      - GROUP "Group 8", 340x253px, constraints left/top
+        - RECTANGLE "Rectangle 8", 340x161px, constraints left/top
+        - VECTOR "Vector 8", 330.48x117px, constraints left/top, fill Foundation /Blue/blue-100
+        - GROUP "Group 7", 206.4x103.77px, constraints left/top [decorative, ~14 shapes]
+        - RECTANGLE "pngfind 1", 166.69x243px, constraints left/top, fill image(hash: 270bc22300c97b76e46e4867e5daca76453df70e)
+        - RECTANGLE "pngfind 3", 200.78x212px, constraints left/top, fill image(hash: 6bd15011a40951f5d66668dad5b719de69a461ed)
+        - VECTOR "Vector 6", 330.93x42px, constraints left/top, fill Foundation /Blue/blue-900
+        - TEXT "EXTRA REWARDS", 330.53x28px, constraints left/top, fill #DD9F17, text [BBK - HEADER 3], [heading]
+  - FRAME "Frame 14", 357x48px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 18", 147x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Battle Pass", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 35x32px, constraints scale/scale, fill #DD9F17
+      - TEXT "SEASON 1", 91x28px, constraints left/top, fill #DD9F17, text [BBK - HEADER 3], [heading]
+    - FRAME "Frame 17", 146x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 15", 70x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Battle Pass", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x21.33px, constraints scale/scale, fill #DD9F17
+        - TEXT "LV 6", 30x21px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+      - FRAME "Frame 16", 60x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "star", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x22.67px, constraints scale/scale, fill #DD9F17, stroke #DD9F17 2px
+        - TEXT "30", 20x21px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+  - FRAME "mobile-menu", 390x76px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/bottom
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "locker", 48x48px, constraints left/top
+        - GROUP "Group", 34.2x38px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50, stroke #F2EC00 4px
+      - INSTANCE "Battle Pass", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 35x32px, constraints scale/scale, fill Foundation /Blue/blue-900
+      - TEXT "LOCKER", 71x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "V-Bucks", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "V-Bucks", 35.08x36px, constraints scale/scale, fill Foundation /Blue/blue-900
+      - TEXT "LOCKER", 59x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "quests", 48x48px, constraints left/top
+        - GROUP "Group", 34.29x24px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "map", 48x48px, constraints left/top
+        - GROUP "Group", 35.56x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 26x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+
+Screen: Screens / WhatsApp Image 2022-12-04 at 1.55 1
+- RECTANGLE "WhatsApp Image 2022-12-04 at 1.55 1", 1600x758px, constraints left/top, fill image(hash: f4aee9d825054cec0d07ea310c54126612c11143)
+
+Screen: Screens / 01 - Splash screen
+- FRAME "01 - Splash screen", 1440x1024px, constraints left/top, fill Background gradient
+  - INSTANCE "Fortnite_lhama", 350x389px, constraints left/top
+    - INSTANCE "loading", 48x48px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group", 40x40px, constraints scale/scale
+        - VECTOR "Vector", 40x40px, constraints scale/scale, stroke Foundation /Blue/blue-50 4px
+        - VECTOR "Vector", 24x24px, constraints scale/scale, stroke Foundation /Blue/blue-50 4px
+    - GROUP "_x31__1_", 338.25x316.31px, constraints scale/scale [decorative, ~4 shapes]
+  - VECTOR "_x34_", 9.47x9.47px, constraints scale/scale, fill Foundation /Blue/blue-50
+
+Screen: Screens / 01 - Splash screen
+- FRAME "01 - Splash screen", 1440x1024px, constraints left/top, fill Background gradient
+  - INSTANCE "Fortnite_lhama", 350x389px, constraints left/top
+    - INSTANCE "loading", 48x48px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group", 40x40px, constraints scale/scale
+        - VECTOR "Vector", 40x40px, constraints scale/scale, stroke Foundation /Blue/blue-50 4px
+        - VECTOR "Vector", 24x24px, constraints scale/scale, stroke Foundation /Blue/blue-50 4px
+    - GROUP "_x31__1_", 338.25x316.31px, constraints scale/scale [decorative, ~4 shapes]
+  - VECTOR "_x34_", 2104.53x2103.7px, constraints scale/scale, fill Foundation /Blue/blue-50
+
+Screen: Screens / 02 - Login
+- FRAME "02 - Login", 1440x1024px, vertical pad 218 539 218 539px gap 188px align center/center sizing W:fixed H:fixed, constraints left/top, fill Background gradient
+  - FRAME "Frame 1", 358x186px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Epic_Games_logo 1", 67x78px, constraints left/top, fill #FFFFFF
+      - GROUP "g10", 67x78px, constraints scale/scale [decorative, ~7 shapes]
+    - INSTANCE "FortniteLogo", 358x100px, constraints left/top
+      - GROUP "Group", 358x100px, constraints scale/scale [decorative, ~8 shapes]
+  - FRAME "Frame 5", 362.5x114.5px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "ButtonPrimary", 362.5x59.5px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 3", 362.5x59.5px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector 3", 362.5x59.5px, constraints left/top, fill #F2EC00, stroke #000000 1px
+        - VECTOR "Vector 4", 348.5x49.5px, constraints left/top, fill Foundation /Blue/blue-500, stroke #000000 1px
+        - FRAME "Frame 1", 293x28px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints center/center
+          - INSTANCE "Epic_Games_logo 1", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "g10", 24x24px, constraints scale/scale [decorative, ~7 shapes]
+          - TEXT "NEW QUESTS!", 255x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+    - FRAME "Frame 4", 306x31px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Don’t you have an Epic Account yet?", 243x31px, constraints left/top, fill #FFFFFF, text [Header 4], [heading]
+      - INSTANCE "ButtonPrimary/button_tertiary", 57x31px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "TERTIARY BUTTON", 57x31px, constraints left/top, fill #F2EC00, text [Floki Bold, 21px]
+
+Screen: Screens / 03 - Locker
+- FRAME "03 - Locker", 1440x1024px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - FRAME "Frame 6", 1440x96px, horizontal pad 16 64 16 64px gap 89px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "mobile-menu", 986.5x40px, horizontal pad 0 0 0 0px gap 64px sizing W:fill H:fixed, constraints center/bottom
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+        - INSTANCE "locker", 32x32px, constraints left/top
+          - GROUP "Group", 22.8x25.33px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 168x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Battle Pass", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x21.33px, constraints scale/scale, fill Foundation /White/white-500, stroke Foundation /White/white-500 1px
+        - TEXT "LOCKER", 124x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "V-Bucks", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "V-Bucks", 23.38x24px, constraints scale/scale, fill Foundation /White/white-500
+        - TEXT "LOCKER", 104x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "quests", 32x32px, constraints left/top
+          - GROUP "Group", 22.86x16px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "map", 32x32px, constraints left/top
+          - GROUP "Group", 23.7x21.33px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 45x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - GROUP "Group 67", 204x55.56px, constraints left/top
+    - VECTOR "Vector 54", 204x47.74px, constraints left/top, fill Foundation /Blue/blue-900, stroke #5A78BD 0.87px
+    - VECTOR "Vector 56", 14.76x19.1px, constraints left/top, stroke Foundation /Blue/blue-50 0.87px
+    - VECTOR "Vector 55", 50.35x39.93px, constraints left/top, fill Foundation /White/white-500, stroke #5A78BD 0.87px
+    - TEXT "OUTFIT", 66x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+  - GROUP "Group 68", 737x79px, constraints left/top
+    - VECTOR "Vector 84", 737x79px, constraints left/top, fill Foundation /Blue/blue-900, stroke #FFFFF4 1px
+    - FRAME "filter", 519.19x62.63px, horizontal pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Component 1", 63.58x62.63px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 57", 63.58x62.63px, constraints scale/scale, fill Foundation /Blue/blue-50
+        - VECTOR "Vector 58", 51.03x55.95px, constraints scale/scale, fill Foundation /Blue/blue-900, stroke #000000 1px
+        - INSTANCE "infinite", 40.15x40.09px, constraints scale/scale
+          - VECTOR "Vector", 40.15x40.09px, constraints scale/scale
+          - VECTOR "Vector", 33.25x23.55px, constraints scale/scale, fill Foundation /Blue/blue-50
+      - INSTANCE "Component 2", 63.58x62.63px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 57", 63.58x62.63px, constraints scale/scale, fill Foundation /Blue/blue-500
+        - VECTOR "Vector 58", 51.03x55.95px, constraints scale/scale, fill Foundation /Blue/blue-500, stroke #000000 1px
+        - INSTANCE "calendar", 40.15x40.09px, constraints scale/scale
+          - VECTOR "Vector", 40.15x40.09px, constraints scale/scale, fill Foundation /Blue/blue-50
+      - INSTANCE "Component 3", 63.58x62.63px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 57", 63.58x62.63px, constraints scale/scale, fill Foundation /Blue/blue-500
+        - VECTOR "Vector 58", 51.03x55.95px, constraints scale/scale, fill Foundation /Blue/blue-500, stroke #000000 1px
+        - INSTANCE "badge", 40.15x40.09px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector 62", 40.15x40.09px, constraints scale/scale, fill Foundation /Blue/blue-50
+      - INSTANCE "Component 4", 63.58x62.63px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 57", 63.58x62.63px, constraints scale/scale, fill Foundation /Blue/blue-500
+        - VECTOR "Vector 58", 51.03x55.95px, constraints scale/scale, fill Foundation /Blue/blue-500, stroke #000000 1px
+        - INSTANCE "circle", 40.15x40.09px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 7", 40.15x40.09px, constraints scale/scale, fill Foundation /Blue/blue-50
+    - TEXT "FILTER-ALL", 114.33x15px, constraints left/top, fill Foundation /White/white-500, text [Paragraph big]
+  - TEXT "SELECTING", 136x38px, constraints left/top, fill #FFFFFF, text [BBK - HEADER 2], [heading]
+  - GROUP "Group 64", 111.26x138.63px, constraints left/top
+    - VECTOR "Vector 66", 111.26x138.63px, constraints left/top, fill #407DD1, stroke #0135A7 1px
+    - VECTOR "Vector 64", 100.39x129.44px, constraints left/top, fill #0744AB, stroke #0744AB 1px
+    - VECTOR "Vector 65", 29.28x30.06px, constraints left/top, stroke #8799D3 5px
+  - RECTANGLE "image 5", 112x140px, constraints left/top, fill image(hash: 2b6cd7794f38ab3b2c48d982e1b6bed359de1db5), stroke #F2EC00 2px
+  - VECTOR "Vector 68", 111x139px, constraints left/top, fill image(hash: ef0cf807a12e17e0b9f66e796c84dab78ea72d5b)
+  - VECTOR "Vector 69", 112x139px, constraints left/top, fill image(hash: 2b9d9128d27aefac20760eeb0b3cfbeecbf815fa), stroke #0135A7 1px
+  - VECTOR "Vector 70", 112x139px, constraints left/top, fill image(hash: a39aca50996e380fc05c7911f45b8d48b6877f99), stroke #0135A7 1px
+  - VECTOR "Vector 71", 111x139px, constraints left/top, fill image(hash: ba6d2960b418495071f5cf6a45f89d63fdda7ca6), stroke #0135A7 1px
+  - VECTOR "Vector 72", 110x139px, constraints left/top, fill image(hash: 0eaeae2b73f5f4cab45965d3916756cc98eff7a7), stroke #0135A7 1px
+  - VECTOR "Vector 78", 110x139px, constraints left/top, fill image(hash: 16c0ff6337f96ebccc04e23d0a0a1d89cbf86eb8), stroke #0135A7 1px
+  - VECTOR "Vector 73", 112x139px, constraints left/top, fill image(hash: 8e1501c9d8953187f3624e4d8d9be81e56b67b6c), stroke #0135A7 1px
+  - VECTOR "Vector 79", 112x139px, constraints left/top, fill image(hash: 3a53c88ca9c21c7f9803ebbcfc4813093f647321), stroke #0135A7 1px
+  - VECTOR "Vector 74", 111x139px, constraints left/top, fill image(hash: 54ad5b78f23c748c30f1293a63d3d5b4077121c5), stroke #0135A7 1px
+  - VECTOR "Vector 80", 111x139px, constraints left/top, fill image(hash: baf9a0a5a43054ab7adce2e711f52041209acc5e), stroke #0135A7 1px
+  - VECTOR "Vector 75", 112x139px, constraints left/top, fill image(hash: 0f9b941f5ed9c9e96f013bceaaa37b525ebc045e), stroke #0135A7 1px
+  - VECTOR "Vector 81", 112x139px, constraints left/top, fill image(hash: ba8c42dc1103b072638277d3ce703aa5ef099d38), stroke #0135A7 1px
+  - VECTOR "Vector 76", 112x139px, constraints left/top, fill image(hash: 313f7ead2fd5add02a1e0a94feab0a31711afa0d), stroke #0135A7 1px
+  - VECTOR "Vector 82", 112x139px, constraints left/top, fill image(hash: 1c7468afcab454484f35303d147e7ff0849eb511), stroke #0135A7 1px
+  - VECTOR "Vector 77", 111x139px, constraints left/top, fill image(hash: 253346d356ed1554c20c46115c456b31e9086c6e), stroke #0135A7 1px
+  - VECTOR "Vector 83", 111x139px, constraints left/top, fill image(hash: 07236b8d7337e31ce0531e61b26319a99caa6cc4), stroke #0135A7 1px
+  - RECTANGLE "output-onlinegiftools 1", 381x775px, constraints left/top, fill image(hash: 96d4d85e8f541dc96f3fbe572d85e3d3a3e3ddcb)
+  - GROUP "Group 69", 738x53px, constraints left/top
+    - VECTOR "Vector 84", 738x53px, constraints left/top, stroke Foundation /Blue/blue-50 3px
+    - TEXT "SEARCH", 115.12x21px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+  - FRAME "Frame 13", 361x58.9px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "ButtonPrimary", 176.5x58.9px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints center/center
+      - FRAME "Frame 3", 176.5x58.9px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector 3", 176.5x58.9px, constraints left/top, fill Foundation /Blue/blue-300, stroke #000000 0.99px
+        - VECTOR "Vector 4", 163.02x49px, constraints left_right/top, fill Foundation /Blue/blue-500
+        - FRAME "Frame 1", 152x28px, horizontal pad 0 0 0 0px gap 13.86px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "NEW QUESTS!", 152x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+    - INSTANCE "ButtonPrimary", 176.5x58.9px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints center/center
+      - FRAME "Frame 3", 176.5x58.9px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector 3", 176.5x58.9px, constraints left/top, fill Foundation /Blue/blue-300, stroke #000000 0.99px
+        - VECTOR "Vector 4", 163.02x49px, constraints left_right/top, fill Foundation /Blue/blue-500
+        - FRAME "Frame 1", 128x28px, horizontal pad 0 0 0 0px gap 13.86px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "NEW QUESTS!", 128x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+
+Screen: Screens / 05 - Item shop
+- FRAME "05 - Item shop", 1440x1024px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - FRAME "Frame 6", 1440x96px, horizontal pad 16 64 16 64px gap 89px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "mobile-menu", 986.5x40px, horizontal pad 0 0 0 0px gap 64px sizing W:fill H:fixed, constraints center/bottom
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "locker", 32x32px, constraints left/top
+          - GROUP "Group", 22.8x25.33px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 168x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Battle Pass", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x21.33px, constraints scale/scale, fill Foundation /White/white-500, stroke Foundation /White/white-500 1px
+        - TEXT "LOCKER", 124x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+        - INSTANCE "V-Bucks", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "V-Bucks", 23.38x24px, constraints scale/scale, fill Foundation /Blue/blue-900
+        - TEXT "LOCKER", 104x28px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "quests", 32x32px, constraints left/top
+          - GROUP "Group", 22.86x16px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "map", 32x32px, constraints left/top
+          - GROUP "Group", 23.7x21.33px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 45x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - GROUP "Group 69", 738x53px, constraints left/top
+    - VECTOR "Vector 84", 738x53px, constraints left/top, stroke Foundation /Blue/blue-50 3px
+    - TEXT "SEARCH", 115.12x21px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+  - TEXT "FEATURED", 127x38px, constraints left/top, fill #FFFFFF, text [BBK - HEADER 2], [heading]
+  - FRAME "Frame 36", 1025x353px, constraints left/top
+    - GROUP "Group 55", 200.5x353px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: 8b4f4eef0aa0fd25fdbc9d30135931f7b7c51d49), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - VECTOR "Vector 49", 186.5x24px, constraints left/top, fill #FFFF00, stroke #FFFFF4 3px
+      - TEXT "NEW LOADING SCREEN INCLUDED!", 167x15px, constraints left/top, fill #363103, text [Burbank Big Condensed Black, 15px]
+      - TEXT "ZURI", 24x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "1,200", 26x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 56", 193x345px, constraints left/top
+      - VECTOR "Vector 50", 192x300px, constraints left/top, fill image(hash: 53b54383fe075e83ff08bdcf09b3e563e86be22d), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "ENPOWRED DHA", 80x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 57", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: 0bc0194d86f7d7afd93d75cc9a7c733f37b205b7), stroke #000000 1px
+      - VECTOR "Vector 46", 193.5x10px, constraints left/top, fill #FFFF00, stroke #000000 1px
+      - VECTOR "Vector 47", 193.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 193.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "MANIC", 35x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 58", 200x353px, constraints left/top
+      - VECTOR "Vector 45", 192.5x345.5px, constraints left/top, fill image(hash: 8b4f4eef0aa0fd25fdbc9d30135931f7b7c51d49), stroke #000000 1px
+      - VECTOR "Vector 50", 192x300px, constraints left/top, fill image(hash: 8ec07a5d2ad4f093905ce19553cd6034ad80c459), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - VECTOR "Vector 49", 146x24px, constraints left/top, fill #FFFF00, stroke #FFFFF4 3px
+      - TEXT "BACK BLING & PICKAXE!", 123x15px, constraints left/top, fill #363103, text [Burbank Big Condensed Black, 15px]
+      - TEXT "SCARLET SAI", 64x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "600", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 59", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: a8bdb9cc71eec0d4fc0c1f51b6b11a2655f44cc2), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "MARIUS", 42x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+  - FRAME "Frame 37", 1018x353px, constraints left/top
+    - GROUP "Group 55", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: 8b4f4eef0aa0fd25fdbc9d30135931f7b7c51d49), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "ZURI", 24x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "1,200", 26x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 56", 193x345px, constraints left/top
+      - VECTOR "Vector 50", 192x300px, constraints left/top, fill image(hash: 53b54383fe075e83ff08bdcf09b3e563e86be22d), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "ENPOWRED DHA", 80x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 57", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: 0bc0194d86f7d7afd93d75cc9a7c733f37b205b7), stroke #000000 1px
+      - VECTOR "Vector 46", 193.5x10px, constraints left/top, fill #FFFF00, stroke #000000 1px
+      - VECTOR "Vector 47", 193.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 193.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "MANIC", 35x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 58", 193x345.5px, constraints left/top
+      - VECTOR "Vector 45", 192.5x345.5px, constraints left/top, fill image(hash: 8b4f4eef0aa0fd25fdbc9d30135931f7b7c51d49), stroke #000000 1px
+      - VECTOR "Vector 50", 192x300px, constraints left/top, fill image(hash: 8ec07a5d2ad4f093905ce19553cd6034ad80c459), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "SCARLET SAI", 64x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "600", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+    - GROUP "Group 59", 193.5x345.5px, constraints left/top
+      - VECTOR "Vector 50", 192.5x345.5px, constraints left/top, fill image(hash: a8bdb9cc71eec0d4fc0c1f51b6b11a2655f44cc2), stroke #000000 1px
+      - VECTOR "Vector 46", 192.5x10px, constraints left/top, fill #28DFEA, stroke #000000 1px
+      - VECTOR "Vector 47", 192.5x31px, constraints left/top, fill #1D1D1D, stroke #000000 1px
+      - VECTOR "Vector 48", 192.5x22px, constraints left/top, fill #0B0D0E, stroke #000000 1px
+      - TEXT "MARIUS", 42x15px, constraints left/top, fill #FFFFFF, text [Burbank Big Condensed Black, 15px]
+      - TEXT "800", 20x15px, constraints left/top, fill #FFFFFF, text [Poppins ExtraBoldItalic, 10px]
+      - RECTANGLE "v-bucks-removebg-preview 2", 21x20px, constraints left/top, fill image(hash: daa27bbdde8a049f319b20faf7879a29be9300ad)
+  - RECTANGLE "muckxh8fl8891-removebg-preview 1", 504x811px, constraints left/top, fill image(hash: 208c114c64f2a895e422d0d478f611bfe1f681b4)
+
+Screen: Screens / 06 - Quests
+- FRAME "06 - Quests", 1440x1024px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - FRAME "Frame 6", 1440x96px, horizontal pad 16 64 16 64px gap 89px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "mobile-menu", 986.5x40px, horizontal pad 0 0 0 0px gap 64px sizing W:fill H:fixed, constraints center/bottom
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "locker", 32x32px, constraints left/top
+          - GROUP "Group", 22.8x25.33px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 168x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Battle Pass", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x21.33px, constraints scale/scale, fill Foundation /White/white-500, stroke Foundation /White/white-500 1px
+        - TEXT "LOCKER", 124x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "V-Bucks", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "V-Bucks", 23.38x24px, constraints scale/scale, fill Foundation /Blue/blue-50
+        - TEXT "LOCKER", 104x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+        - INSTANCE "quests", 32x32px, constraints left/top
+          - GROUP "Group", 22.86x16px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "map", 32x32px, constraints left/top
+          - GROUP "Group", 23.7x21.33px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 45x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - FRAME "Frame 56", 364x900px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "quest list", 364x367px, constraints left/top, fill #FFFFFF
+      - GROUP "Group 71", 364x146px, constraints scale/scale
+        - VECTOR "Rectangle 13", 269x125px, constraints scale/scale, fill Foundation /Blue/blue-50
+        - VECTOR "Rectangle 14", 125x125px, constraints scale/scale, fill #101010
+        - TEXT "EXPLORER", 130x38px, constraints scale/scale, fill Foundation /Blue/blue-900, text [BBK - HEADER 2], [heading]
+        - TEXT "DISCOVER THE ISLAND AND EARN REWARDS", 204x16px, constraints scale/scale, fill Foundation /Blue/blue-500, text [BBK - Paragraph big]
+        - RECTANGLE "pngfind 3", 124x146px, constraints scale/scale, fill image(hash: 6bd15011a40951f5d66668dad5b719de69a461ed)
+      - FRAME "Frame 42", 356x21px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "EXPLORER QUESTS", 130x21px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+        - TEXT "CLICK TO FOLLOW THE QUEST", 136x16px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - Paragraph big]
+      - RECTANGLE "Rectangle 15", 278x80px, constraints scale/scale, radius 8/0/0/8px, fill #20226880
+      - RECTANGLE "Rectangle 17", 278x80px, constraints scale/scale, radius 8/0/0/8px, fill #20226880
+      - RECTANGLE "Rectangle 16", 80x80px, constraints scale/scale, radius 0/8/8/0px, fill Foundation /Blue/blue-800
+      - RECTANGLE "Rectangle 18", 80x80px, constraints scale/scale, radius 0/8/8/0px, fill Foundation /Blue/blue-800
+      - INSTANCE "xp-icon", 57x41.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector 85", 57x41.5px, constraints scale/scale, fill gradient_diamond(#4C51F7 0% | #6166FF 51% | #8061FF 100%), stroke Foundation /Blue/blue-900 3px
+        - TEXT "XP", 27x28px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+      - INSTANCE "xp-icon", 57x41.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector 85", 57x41.5px, constraints scale/scale, fill gradient_diamond(#4C51F7 0% | #6166FF 51% | #8061FF 100%), stroke Foundation /Blue/blue-900 3px
+        - TEXT "XP", 27x28px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+      - TEXT "20 k", 33x21px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+      - TEXT "120 k", 41x21px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+      - TEXT "Visit the new locations", 117x16px, constraints scale/scale, fill #FFFFFF, text [BBK - Paragraph big]
+      - TEXT "Hire me as an UX Designer", 131x16px, constraints scale/scale, fill #FFFFFF, text [BBK - Paragraph big]
+    - INSTANCE "Group 71", 364x367px, constraints left/top, fill #FFFFFF
+      - GROUP "Group 71", 364x146px, constraints scale/scale
+        - VECTOR "Rectangle 13", 269x125px, constraints scale/scale, fill Foundation /Blue/blue-800
+        - VECTOR "Rectangle 14", 125x125px, constraints scale/scale, fill #101010
+        - TEXT "EXPLORER", 103x38px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 2], [heading]
+        - RECTANGLE "pngfind 3", 124x146px, constraints scale/scale, fill image(hash: bf5115db74ddfcac03a8da1d679d67deeae1fb23)
+      - FRAME "Frame 42", 356x21px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "EXPLORER QUESTS", 130x21px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+        - TEXT "CLICK TO FOLLOW THE QUEST", 136x16px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - Paragraph big]
+      - RECTANGLE "Rectangle 15", 278x80px, constraints scale/scale, radius 8/0/0/8px, fill #20226880
+      - RECTANGLE "Rectangle 17", 278x80px, constraints scale/scale, radius 8/0/0/8px, fill #20226880
+      - RECTANGLE "Rectangle 16", 80x80px, constraints scale/scale, radius 0/8/8/0px, fill Foundation /Blue/blue-800
+      - RECTANGLE "Rectangle 18", 80x80px, constraints scale/scale, radius 0/8/8/0px, fill Foundation /Blue/blue-800
+      - INSTANCE "xp-icon", 57x41.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector 85", 57x41.5px, constraints scale/scale, fill gradient_diamond(#4C51F7 0% | #6166FF 51% | #8061FF 100%), stroke Foundation /Blue/blue-900 3px
+        - TEXT "XP", 27x28px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+      - INSTANCE "xp-icon", 57x41.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector 85", 57x41.5px, constraints scale/scale, fill gradient_diamond(#4C51F7 0% | #6166FF 51% | #8061FF 100%), stroke Foundation /Blue/blue-900 3px
+        - TEXT "XP", 27x28px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+      - TEXT "20 k", 33x21px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+      - TEXT "120 k", 41x21px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+      - TEXT "Visit the new locations", 117x16px, constraints scale/scale, fill #FFFFFF, text [BBK - Paragraph big]
+      - TEXT "Hire me as an UX Designer", 131x16px, constraints scale/scale, fill #FFFFFF, text [BBK - Paragraph big]
+    - INSTANCE "Group 72", 364x146px, constraints left/top
+      - VECTOR "Rectangle 13", 269x125px, constraints scale/scale, fill Foundation /Blue/blue-800
+      - VECTOR "Rectangle 14", 125x125px, constraints scale/scale, fill #101010
+      - TEXT "EXPLORER", 76x38px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 2], [heading]
+      - TEXT "DISCOVER THE ISLAND AND EARN REWARDS", 0x16px, constraints scale/scale, fill Foundation /Blue/blue-500, text [BBK - Paragraph big]
+      - RECTANGLE "pngfind 3", 124x146px, constraints scale/scale, fill image(hash: 270bc22300c97b76e46e4867e5daca76453df70e)
+  - FRAME "Frame 40", 896x810px, constraints center/center
+    - RECTANGLE "Screenshot_4", 2515.52x1538.79px, constraints left/top, fill image(hash: 8f4b0ea6ff91770fdc5af110e77bdb72827371f6)
+  - FRAME "Frame 41", 386x28px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "map-pin", 24x24px, constraints left/top
+      - VECTOR "Vector", 17.25x21.75px, constraints scale/scale, fill Foundation /Black/black-500
+    - TEXT "CLICK ON THE MAP TO MARK A PLACE", 352x28px, constraints left/top, fill #FFFFFF, text [BBK - HEADER 3], [heading]
+
+Screen: Screens / 07 - Map
+- FRAME "07 - Map", 1440x1024px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - FRAME "Frame 6", 1440x96px, horizontal pad 16 64 16 64px gap 89px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "mobile-menu", 986.5x40px, horizontal pad 0 0 0 0px gap 64px sizing W:fill H:fixed, constraints center/bottom
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "locker", 32x32px, constraints left/top
+          - GROUP "Group", 22.8x25.33px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 168x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Battle Pass", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x21.33px, constraints scale/scale, fill Foundation /White/white-500, stroke Foundation /White/white-500 1px
+        - TEXT "LOCKER", 124x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "V-Bucks", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "V-Bucks", 23.38x24px, constraints scale/scale, fill Foundation /Blue/blue-50
+        - TEXT "LOCKER", 104x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "quests", 32x32px, constraints left/top
+          - GROUP "Group", 22.86x16px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+        - INSTANCE "map", 32x32px, constraints left/top
+          - GROUP "Group", 23.7x21.33px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 45x28px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - HEADER 3], [heading]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - FRAME "Frame 40", 1312x810px, constraints center/center
+    - RECTANGLE "Screenshot_4", 2515.52x1538.79px, constraints left/top, fill image(hash: 8f4b0ea6ff91770fdc5af110e77bdb72827371f6)
+  - FRAME "Frame 41", 386x28px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "map-pin", 24x24px, constraints left/top
+      - VECTOR "Vector", 17.25x21.75px, constraints scale/scale, fill Foundation /Black/black-500
+    - TEXT "CLICK ON THE MAP TO MARK A PLACE", 352x28px, constraints left/top, fill #FFFFFF, text [BBK - HEADER 3], [heading]
+
+Screen: Screens / 04 - Battle pass
+- FRAME "04 - Battle pass", 1440x1024px, constraints left/top, fill Battle pass gradient
+  - FRAME "Frame 28", 358x153.81px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 27", 358x78.9px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "ButtonPrimary", 358x58.9px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints center/center
+        - FRAME "Frame 3", 358x58.9px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 3", 358x58.9px, constraints left/top, fill Foundation /Black/black-500, stroke #000000 0.99px
+          - VECTOR "Vector 4", 344.02x49px, constraints left_right/top, fill Foundation /Yellow/yellow-500
+          - FRAME "Frame 1", 109x28px, horizontal pad 0 0 0 0px gap 13.86px align min/center sizing W:fixed H:fixed, constraints center/center
+            - TEXT "NEW QUESTS!", 109x28px, constraints left/top, fill Foundation /Black/black-500, text [BBK - HEADER 3], [heading]
+      - TEXT "AND GET BATTLE STARS", 82x12px, constraints left/top, fill #000000, text [BBK - Paragraph small]
+    - INSTANCE "ButtonPrimary", 358x58.9px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints center/center
+      - FRAME "Frame 3", 358x58.9px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector 3", 358x58.9px, constraints left/top, fill Foundation /Blue/blue-50, stroke #000000 0.99px
+        - VECTOR "Vector 4", 344.02x49px, constraints left_right/top, fill Foundation /Blue/blue-500
+        - FRAME "Frame 1", 209x28px, horizontal pad 0 0 0 0px gap 13.86px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "NEW QUESTS!", 209x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+  - FRAME "Frame 14", 162x32px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 17", 162x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 15", 80x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Battle Pass", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x21.33px, constraints scale/scale, fill #DD9F17
+        - TEXT "LV 6", 40x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+      - FRAME "Frame 16", 66x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "star", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x22.67px, constraints scale/scale, fill #DD9F17, stroke #DD9F17 2px
+        - TEXT "30", 26x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+  - FRAME "Frame 18", 234x64px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Battle Pass", 64x64px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 46.67x42.67px, constraints scale/scale, fill #DD9F17
+    - TEXT "SEASON 1", 162x50px, constraints left/top, fill #DD9F17, text [BBK - HEADER 1], [heading]
+  - FRAME "Frame 26", 358x46px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 24", 333x46px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 23", 333x28px, horizontal pad 0 0 0 0px gap 127px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 21", 40x28px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "LV", 23x28px, constraints left/top, fill #DD9F17, text [BBK - HEADER 3], [heading]
+          - TEXT "6", 13x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+        - FRAME "Frame 22", 158x28px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "1,700 XP", 85x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+          - TEXT "to LV 7", 65x28px, constraints left/top, fill #DD9F17, text [BBK - HEADER 3], [heading]
+      - FRAME "Frame 19", 333x14px, horizontal pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top [decorative, ~11 shapes]
+    - FRAME "Frame 25", 17x46px, vertical pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fill, constraints left/top
+      - INSTANCE "star", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x11.33px, constraints scale/scale, fill #DD9F17, stroke #DD9F17 2px
+      - TEXT "+5", 17x21px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 4], [heading]
+  - FRAME "Frame 33", 220x334px, horizontal pad 0 0 0 0px gap 64px align min/center sizing W:fixed H:fixed, constraints left/top
+  - FRAME "Frame 32", 220x392px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "BATTLE PASS REWARDS", 220x100px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 1], [heading]
+    - FRAME "Frame 38", 201x228px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Spend Battle Stars to Redeem Season 1 Rewards", 201x42px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 4], [heading]
+      - FRAME "Frame 31", 197x180px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 29", 197x82px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "1/100", 102x50px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 1], [heading]
+          - TEXT "REDEEMED REWARDS", 197x28px, constraints left/top, fill #F2EC00, text [BBK - HEADER 3], [heading]
+        - FRAME "Frame 30", 178x82px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "1/14", 78x50px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 1], [heading]
+          - TEXT "PAGES COMPLETED", 178x28px, constraints left/top, fill #F2EC00, text [BBK - HEADER 3], [heading]
+  - FRAME "Battle Pass", 1009x1009px, constraints left/top
+    - VECTOR "Vector", 735.73x672.67px, constraints scale/scale, fill #DD9F1766
+  - INSTANCE "battle-pass-skin", 997x904px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 8", 375x639px, constraints scale/scale, fill gradient_radial(#09AAFB 0% | #0745B4 100%), effect [layer_blur 30px]
+    - ELLIPSE "Ellipse 9", 375x639px, constraints scale/scale, fill gradient_radial(#09AAFB 0% | #0745B4 100%), effect [layer_blur 30px]
+    - RECTANGLE "Fortnite-Skin-Transparent 1", 956x864px, constraints scale/scale, fill image(hash: bf5115db74ddfcac03a8da1d679d67deeae1fb23)
+  - FRAME "Frame 34", 1440x282px, constraints left/top
+    - FRAME "Frame 35", 1440x282px, horizontal pad 0 64 0 64px gap 16px align min/max sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 8", 340x282px, constraints left/top
+        - RECTANGLE "Rectangle 8", 340x161px, constraints left/top
+        - VECTOR "Vector 8", 330.48x117px, constraints left/top, fill #DD9F17
+        - GROUP "Group 7", 206.4x103.77px, constraints left/top [decorative, ~14 shapes]
+        - RECTANGLE "Fortnite-PNG-Images 1", 324.59x269px, constraints left/top, fill image(hash: 03a11a03e2f806ba6ab1130303ea9b5ac720f26c)
+        - VECTOR "Vector 6", 330.93x42px, constraints left/top, fill Foundation /White/white-500
+        - TEXT "BATTLE PASS REWARDS", 330.53x28px, constraints left/top, fill #DD9F17, text [BBK - HEADER 3], [heading]
+      - GROUP "Group 8", 308x253px, constraints left/top
+        - RECTANGLE "Rectangle 8", 308x161px, constraints left/top
+        - VECTOR "Vector 8", 299.38x117px, constraints left/top, fill Foundation /Blue/blue-100
+        - GROUP "Group 7", 186.99x103.77px, constraints left/top [decorative, ~14 shapes]
+        - RECTANGLE "pngfind 1", 151x243px, constraints left/top, fill image(hash: 270bc22300c97b76e46e4867e5daca76453df70e)
+        - RECTANGLE "pngfind 3", 181.88x212px, constraints left/top, fill image(hash: 6bd15011a40951f5d66668dad5b719de69a461ed)
+        - VECTOR "Vector 6", 299.79x42px, constraints left/top, fill Foundation /Blue/blue-900
+        - TEXT "EXTRA REWARDS", 299.42x28px, constraints left/top, fill #DD9F17, text [BBK - HEADER 3], [heading]
+      - GROUP "Group 10", 308x243px, constraints left/top
+        - RECTANGLE "Rectangle 8", 308x161px, constraints left/top
+        - VECTOR "Vector 8", 299.38x117px, constraints left/top, fill Foundation /Blue/blue-100
+        - GROUP "Group 7", 186.99x103.77px, constraints left/top [decorative, ~14 shapes]
+        - RECTANGLE "geralt-of-rivia-icon 1", 163.96x206px, constraints left/top, fill image(hash: 3f1528d111ea1be0963ac13d6b1bbaa10d437096)
+        - VECTOR "Vector 6", 299.79x42px, constraints left/top, fill Foundation /Blue/blue-900
+        - TEXT "GERALT OF RIVIA", 299.42x28px, constraints left/top, fill Foundation /Blue/blue-50, text [BBK - HEADER 3], [heading]
+      - GROUP "Group 9", 308x238px, constraints left/top
+        - RECTANGLE "Rectangle 8", 299.16x161px, constraints left/top
+        - VECTOR "Vector 8", 290.78x117px, constraints left/top, fill Foundation /Blue/blue-100
+        - GROUP "Group 7", 181.57x103.77px, constraints left/top [decorative, ~14 shapes]
+        - RECTANGLE "pngfind 3", 176.66x212px, constraints left/top, fill image(hash: 6bd15011a40951f5d66668dad5b719de69a461ed)
+        - VECTOR "Vector 6", 291.18x42px, constraints left/top, fill Foundation /Blue/blue-900
+        - RECTANGLE "kindpng_4209434 1", 217.33x139px, constraints left/top, fill image(hash: 075993818726fc88d1e7113dc05e2b8fe6f2d8e7)
+        - TEXT "FORTNITE CLUB", 290.82x28px, constraints left/top, fill #DD9F17, text [BBK - HEADER 3], [heading]
+  - FRAME "Frame 6", 1440x96px, horizontal pad 16 64 16 64px gap 89px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "mobile-menu", 986.5x40px, horizontal pad 0 0 0 0px gap 64px sizing W:fill H:fixed, constraints center/bottom
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "locker", 32x32px, constraints left/top
+          - GROUP "Group", 22.8x25.33px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 168x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+        - INSTANCE "Battle Pass", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x21.33px, constraints scale/scale, fill Foundation /Blue/blue-900, stroke Foundation /Blue/blue-900 1px
+        - TEXT "LOCKER", 124x28px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "V-Bucks", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "V-Bucks", 23.38x24px, constraints scale/scale, fill Foundation /White/white-500
+        - TEXT "LOCKER", 104x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "quests", 32x32px, constraints left/top
+          - GROUP "Group", 22.86x16px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 73x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+      - INSTANCE "menu-item", 140.62x40px, horizontal pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "map", 32x32px, constraints left/top
+          - GROUP "Group", 23.7x21.33px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "LOCKER", 45x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+
+Screen: Screens / Screenshot_1
+- RECTANGLE "Screenshot_1", 1917x1079px, constraints left/top, fill image(hash: 44b5ad1c358773d6ced2f0beabb080937dd2852f)
+
+Screen: Screens / Screenshot_2
+- RECTANGLE "Screenshot_2", 1920x1079px, constraints left/top, fill image(hash: 83db2cfe2e25b4a1de2ea9d345b2037e4d1f0227)
+
+Screen: Screens / Screenshot_3
+- RECTANGLE "Screenshot_3", 1919x1079px, constraints left/top, fill image(hash: 594c595aca7eb64404e5f42fde2aa306e2aeae5d)
+
+Screen: Screens / Screenshot_4
+- RECTANGLE "Screenshot_4", 1919x1079px, constraints left/top, fill image(hash: 8f4b0ea6ff91770fdc5af110e77bdb72827371f6)
+
+Screen: Screens / 06 - Quests
+- FRAME "06 - Quests", 390x844px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - FRAME "Frame 6", 390x96px, horizontal pad 16 16 16 16px gap 89px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - FRAME "Frame 39", 364x450px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "quest list", 364x146px, constraints left/top
+      - VECTOR "Rectangle 13", 269x125px, constraints scale/scale, fill Foundation /Blue/blue-50
+      - VECTOR "Rectangle 14", 125x125px, constraints scale/scale, fill #101010
+      - TEXT "EXPLORER", 130x38px, constraints scale/scale, fill Foundation /Blue/blue-900, text [BBK - HEADER 2], [heading]
+      - TEXT "DISCOVER THE ISLAND AND EARN REWARDS", 204x16px, constraints scale/scale, fill Foundation /Blue/blue-500, text [BBK - Paragraph big]
+      - RECTANGLE "pngfind 3", 124x146px, constraints scale/scale, fill image(hash: 6bd15011a40951f5d66668dad5b719de69a461ed)
+    - INSTANCE "Group 71", 364x146px, constraints left/top
+      - VECTOR "Rectangle 13", 269x125px, constraints scale/scale, fill Foundation /Blue/blue-800
+      - VECTOR "Rectangle 14", 125x125px, constraints scale/scale, fill #101010
+      - TEXT "EXPLORER", 103x38px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 2], [heading]
+      - RECTANGLE "pngfind 3", 124x146px, constraints scale/scale, fill image(hash: bf5115db74ddfcac03a8da1d679d67deeae1fb23)
+    - INSTANCE "Group 72", 364x146px, constraints left/top
+      - VECTOR "Rectangle 13", 269x125px, constraints scale/scale, fill Foundation /Blue/blue-800
+      - VECTOR "Rectangle 14", 125x125px, constraints scale/scale, fill #101010
+      - TEXT "EXPLORER", 76x38px, constraints scale/scale, fill Foundation /Blue/blue-50, text [BBK - HEADER 2], [heading]
+      - TEXT "DISCOVER THE ISLAND AND EARN REWARDS", 0x16px, constraints scale/scale, fill Foundation /Blue/blue-500, text [BBK - Paragraph big]
+      - RECTANGLE "pngfind 3", 124x146px, constraints scale/scale, fill image(hash: 270bc22300c97b76e46e4867e5daca76453df70e)
+  - RECTANGLE "Rectangle 1", 388x161px, constraints left/bottom, fill gradient_linear(#D9D9D900 0% | #0135A7 64%)
+  - FRAME "mobile-menu", 390x76px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "locker", 48x48px, constraints left/top
+        - GROUP "Group", 34.2x38px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "Battle Pass", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 35x32px, constraints scale/scale, fill Foundation /Blue/blue-900, stroke Foundation /Blue/blue-900 1px
+      - TEXT "LOCKER", 71x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "V-Bucks", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "V-Bucks", 35.08x36px, constraints scale/scale, fill Foundation /Blue/blue-900
+      - TEXT "LOCKER", 59x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50, stroke #F2EC00 4px
+      - INSTANCE "quests", 48x48px, constraints left/top
+        - GROUP "Group", 34.29x24px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "map", 48x48px, constraints left/top
+        - GROUP "Group", 35.56x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 26x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+
+Screen: Screens / 07 - Map
+- FRAME "07 - Map", 390x844px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - FRAME "Frame 6", 390x96px, horizontal pad 16 16 16 16px gap 89px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - FRAME "Frame 40", 390x623px, constraints center/center
+    - RECTANGLE "Screenshot_4", 2515.52x1538.79px, constraints left/top, fill image(hash: 8f4b0ea6ff91770fdc5af110e77bdb72827371f6)
+  - FRAME "Frame 41", 386x28px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "map-pin", 24x24px, constraints left/top
+      - VECTOR "Vector", 17.25x21.75px, constraints scale/scale, fill Foundation /Black/black-500
+    - TEXT "CLICK ON THE MAP TO MARK A PLACE", 352x28px, constraints left/top, fill #FFFFFF, text [BBK - HEADER 3], [heading]
+  - FRAME "mobile-menu", 390x76px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "locker", 48x48px, constraints left/top
+        - GROUP "Group", 34.2x38px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "Battle Pass", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 35x32px, constraints scale/scale, fill Foundation /Blue/blue-900, stroke Foundation /Blue/blue-900 1px
+      - TEXT "LOCKER", 71x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "V-Bucks", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "V-Bucks", 35.08x36px, constraints scale/scale, fill Foundation /Blue/blue-900
+      - TEXT "LOCKER", 59x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50
+      - INSTANCE "quests", 48x48px, constraints left/top
+        - GROUP "Group", 34.29x24px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 42x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+    - INSTANCE "mobile-menu-item", 78x76px, vertical pad 4 4 4 4px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, fill Foundation /Blue/blue-50, stroke #F2EC00 4px
+      - INSTANCE "map", 48x48px, constraints left/top
+        - GROUP "Group", 35.56x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "LOCKER", 26x16px, constraints left/top, fill Foundation /Blue/blue-900, text [BBK - BUTTON TEXT]
+
+Screen: Screens / 08 - Profile
+- FRAME "08 - Profile", 390x768px, constraints left/top, fill gradient_radial(#09AAFB 0% | #0745B4 100%)
+  - FRAME "Frame 6", 390x96px, horizontal pad 16 16 16 16px gap 89px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Fortnite_lhama", 67.5x64px, constraints left/top
+      - GROUP "_x31__1_", 65.24x61.01px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "Frame 7", 80x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Npc Dialog", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Npc Dialog", 22.67x25.33px, constraints scale/scale, fill #F2EC00
+      - INSTANCE "Person", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Person", 18x20px, constraints scale/scale, fill Foundation /Blue/blue-50
+  - VECTOR "Rectangle 19", 390x79.5px, constraints left/top, fill Foundation /Blue/blue-900
+  - GROUP "Group 73", 80x80px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "image 5", 80x80px, constraints left/top, radius 250px, fill image(hash: 2b6cd7794f38ab3b2c48d982e1b6bed359de1db5)
+    - ELLIPSE "Ellipse 10", 18x18px, constraints left/top, fill Foundation /Green/green-500
+  - TEXT "nerdsier00", 111x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+  - FRAME "Frame 47", 390x65px, horizontal pad 0 0 0 0px gap 56px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 44", 92.67x65px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 43", 52x29px, vertical pad 0 0 0 0px gap 1px align min/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "WINS", 52x28px, constraints left/top, fill Foundation /Yellow/yellow-500, text [BBK - HEADER 3], [heading]
+        - LINE "Line 1", 50x0px, constraints left/top, stroke Foundation /White/white-500 2px
+      - TEXT "202", 38x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+    - FRAME "Frame 45", 92.67x65px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 43", 66x29px, vertical pad 0 0 0 0px gap 1px align min/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "TOP 10", 66x28px, constraints left/top, fill Foundation /Black/black-100, text [BBK - HEADER 3], [heading]
+        - LINE "Line 1", 66x0px, constraints left/top, stroke Foundation /White/white-500 2px
+      - TEXT "696", 39x28px, constraints left/top, fill Foundation /White/white-500, text [BBK - HEADER 3], [heading]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

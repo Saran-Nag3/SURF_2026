@@ -1,0 +1,1204 @@
+---
+name: arc-browser-interface-community
+source_file: Arc browser interface (Community)
+source_page: All pages (9): Thumbnail, Assets  & Components, ----------, Sidebar, Main Window, Split Screen, Little Arc, -------, Arc Browser
+generated_at: 2026-07-25T09:53:25.050046+00:00
+---
+
+# Arc browser interface (Community) Design Guidelines
+
+## Source
+- Figma file: Arc browser interface (Community)
+- Figma page: All pages (9): Thumbnail, Assets  & Components, ----------, Sidebar, Main Window, Split Screen, Little Arc, -------, Arc Browser
+- Extracted at: 2026-07-25T09:53:25.050046+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- linear for arc: [#0E1116]
+- On Dark/Text/Light: [#FFFFFF66]
+- On Light/Background: [#FFFFFF]
+- On Dark/Default: [#FFFFFF14]
+- On Dark/Disabled: none
+- On Dark/Hover: [#FFFFFF26]
+- On Dark/Foreground: [#FFFFFF]
+- On Dark/Background: [#000000]
+- On Dark/Text/Foreground: [#000000]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 98 uses
+- #FFFFFFB2: 94 uses
+- #00000036: 90 uses
+- #D9D9D9: 57 uses
+- #FFFFFF66: 50 uses
+- #FFFFFF0A: 45 uses
+- #000000: 41 uses
+- #0E1116: 39 uses
+- #0A66C2: 36 uses
+- #DC2217: 36 uses
+- #FFFFFF14: 31 uses
+- #1ED760: 25 uses
+- #1D9BF0: 23 uses
+- #FFFFFFCC: 20 uses
+- #9747FF1A: 16 uses
+- #888888: 12 uses
+- #F4BD50: 12 uses
+- #9747FF: 11 uses
+- #FFFFFF33: 11 uses
+- #D9D9D905: 9 uses
+- #00000040: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- SF Pro Text Medium, 12px: 77 uses
+- SF Pro Text Semibold, 12px: 48 uses
+- SF Pro Text Medium, 16px: 33 uses
+- SF Pro Text Medium, 10px: 22 uses
+- Clash Display Regular, 120px: 5 uses
+- SF Pro Text RegularItalic, 14px: 3 uses
+
+## Typography Hierarchy
+- 120px - Clash Display Regular, 120px (raw)
+- 16px - SF Pro Text Medium, 16px (raw)
+- 14px - SF Pro Text RegularItalic, 14px (raw)
+- 12px - SF Pro Text Medium, 12px (raw)
+- 12px - SF Pro Text Semibold, 12px (raw)
+- 10px - SF Pro Text Medium, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Sidebar
+- New Tab
+- Hr
+- Space
+- Tabs
+- Pinned tabs
+- IconBtn
+- Controls
+- Interface
+- Lil arc nav
+- Developer mode
+- otta
+- LinkedIn svg
+- Favicon
+
+## Component Specs
+- Sidebar (Assets  & Components): size 224x1024px, radius 12px, fill #0E1116, stroke linear for arc 1px, text [SF Pro Text Medium, 16px, SF Pro Text Semibold, 12px, SF Pro Text Medium, 10px, SF Pro Text Medium, 12px] | variants: Sidebar/ Grain: 0%/10%/5%/linear
+- New Tab: size 201x32px, radius 8px, horizontal layout, padding 6 6 6 6px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #00000036, text [SF Pro Text Semibold, 12px] | variants: Property 1: Resting/hover
+- Hr / On Dark: size 212x16px, vertical layout, padding 8 10 8 10px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF | variants: State: Default/Hover
+- Space: size 180x32px, radius 8px, horizontal layout, padding 4 6 4 6px, gap 8px, align space_between/center, sizing W:fixed H:fixed, fill #00000036, text [SF Pro Text Regular, 10px] | variants: Property 1: Space/ Resting/Space/ hover
+- Tabs: size 180x32px, radius 8px, horizontal layout, padding 6 6 6 6px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #00000036, text [SF Pro Text Semibold, 12px] | variants: Tabs: Active/Hover/Resting/url
+- Pinned tabs: size 32x32px, radius 6px, horizontal layout, padding 8 8 8 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #00000036 | variants: Pinned tabs: Active/Hover/Resting; color: None/Solid/linear; Color: None
+- IconBtn / On Dark: size 26x26px, radius 6px | variants: State: Active/Default/Disabled/Hover
+- Controls / On Dark: size 52x12px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed | variants: State: Default/Hover
+- Interface / Folder: size 22x22px | variants: ❍ Expanded?: False/True
+- Lil arc nav: size 1361x56px, radius 12/12/0/0px, horizontal layout, padding 12 24 12 24px, gap 14px, align min/center, sizing W:fixed H:fixed, fill #0E1116, text [SF Pro Text Semibold, 12px]
+- Developer mode: size 1374x56px, radius 12/12/0/0px, horizontal layout, padding 16 24 16 24px, gap 1003px, align min/center, sizing W:fixed H:fixed, fill #3E43CA, text [SF Pro Text RegularItalic, 14px]
+- Space / Pizza: size 24x24px
+- Space / Music: size 24x24px
+- Space / Bed: size 24x24px
+- Space / Planet: size 24x24px
+- Space / Chat: size 24x24px
+- Space / Palette: size 24x24px
+- Space / Baseball: size 24x24px
+- Space / Cloud outline: size 24x24px
+- Space / Shapes: size 24x24px
+- Space / Flag: size 24x24px
+- Space / Skull: size 24x24px
+- Space / Map: size 24x24px
+- Space / Heart: size 24x24px
+- Space / Circle: size 24x24px
+- Space / Code: size 24x24px
+- Space / Video: size 24x24px
+- Space / Airplane: size 24x24px
+- Space / Paw: size 24x24px
+- Space / Egg: size 24x24px
+- Space / Cutlery: size 24x24px
+- Space / People: size 24x24px
+- Space / Present: size 24x24px
+- Space / Square: size 24x24px
+- Space / Basket: size 24x24px
+- Space / Cloud: size 24x24px
+- Space / Mail: size 24x24px
+- Space / Sun: size 24x24px
+- Space / Weight: size 24x24px
+- Space / Moon: size 24x24px
+- Space / Page: size 24x24px
+- Space / Terminal: size 24x24px
+- Space / Triangle: size 24x24px
+- Space / Book: size 24x24px
+- Space / Checkbox: size 24x24px
+- Space / Inbox: size 24x24px
+- Space / Folder: size 24x24px
+- Space / Squares: size 24x24px
+- Space / Globe: size 24x24px
+- Space / Coins: size 24x24px
+- Space / Layers: size 24x24px
+- Space / Star: size 24x24px
+- Space / Grid 3x3: size 24x24px
+- Space / Grid 2x2: size 24x24px
+- Space / Bell: size 24x24px
+- Space / Lightning: size 24x24px
+- Space / Bookmark: size 24x24px
+- Interface / Pencil: size 24x24px
+- Interface / Library: size 24x24px
+- Interface / Add: size 24x24px
+- Interface / Refresh: size 24x24px
+- Interface / ArrowRight: size 24x24px
+- Interface / ArrowLeft: size 24x24px
+- Interface / Window: size 24x24px
+- Interface / Close: size 24x24px
+- Interface / Lock: size 24x24px
+- Interface / Search: size 24x24px
+- Interface / Camera: size 24x24px
+- Interface / Link: size 24x24px
+- Interface / More: size 24x24px
+- otta: size 20x20px, radius 13px, vertical layout, padding 4 2 4 2px, gap 8px, sizing W:fixed H:fixed, fill #FECE32
+- LinkedIn svg: size 16x16px, fill #FFFFFF
+- Favicon /  Placeholder: size 16x16px, fill #FFFFFF
+- Favicon /  Apple: size 16x16px, fill #FFFFFF
+- Favicon /  Spotify: size 16x16px, fill #FFFFFF
+- Favicon / Raycast: size 16x16px, radius 2px
+- Favicon / Linear: size 16x16px, radius 2px
+- Favicon / Gmail: size 16x16px, radius 2px
+- Favicon / Youtube: size 16x16px, radius 2px
+- Favicon / Github: size 16x16px, radius 2px
+- Favicon / Figma: size 16x16px, radius 2px, vertical layout, padding 1 0 1 0px, gap 8px, align center/center, sizing W:fixed H:fixed
+- Favicon / Google: size 16x16px, radius 2px
+- Favicon / Twitter: size 16x16px, radius 2px, vertical layout, padding 1 0 1 0px, gap 8px, align center/center, sizing W:fixed H:fixed
+- Sidebar (Sidebar): size 224x1024px, radius 12px, fill #0E1116, stroke gradient_linear(#FFFFFF 0% | #D9D9D96E 100%) 1px, text [SF Pro Text Medium, 16px, SF Pro Text Semibold, 12px, SF Pro Text Medium, 10px, SF Pro Text Medium, 12px] | variants: Sidebar/ Grain: 0%/10%/5%/linear
+
+## Most-Used Styles
+- On Dark/Text/Light: 257 uses
+- On Dark/Default: 42 uses
+- linear for arc: 18 uses
+- On Light/Background: 12 uses
+- On Dark/Text/Foreground: 4 uses
+- On Dark/Hover: 3 uses
+- On Dark/Background: 2 uses
+- On Dark/Disabled: 2 uses
+- On Dark/Foreground: 2 uses
+
+## Layout & Structure
+Screen: Thumbnail / Thumbnail
+- FRAME "Thumbnail", 7742x5640px, constraints left/top, fill #0E1116
+  - RECTANGLE "image 1", 9371x4453px, constraints left/top, fill image(hash: fc657f1ba7d2d334221bfb721a514f5634256fd0)
+  - TEXT "Arc Browser Interface.", 1989x590px, constraints left/top, fill #FFFFFF, text [Clash Display Semibold, 240px], [heading]
+  - TEXT "For presentation", 880x79px, constraints left/top, fill #FFFFFF, text [Clash Display Regular, 64px], [heading]
+  - FRAME "Frame 1", 1297x952px, vertical pad 0 0 0 0px gap 53px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Editable components", 1197x148px, constraints left/top, fill #FFFFFF, text [Clash Display Regular, 120px], [heading]
+    - TEXT "Lilttle arc", 515x148px, constraints left/top, fill #FFFFFF, text [Clash Display Regular, 120px], [heading]
+    - TEXT "Split screen", 664x148px, constraints left/top, fill #FFFFFF, text [Clash Display Regular, 120px], [heading]
+    - TEXT "Developer mode", 945x148px, constraints left/top, fill #FFFFFF, text [Clash Display Regular, 120px], [heading]
+    - TEXT "With sidebar & Without", 1297x148px, constraints left/top, fill #FFFFFF, text [Clash Display Regular, 120px], [heading]
+
+Screen: Assets  & Components / Assets
+- SECTION "Assets", 1664x681px, fill #FFFFFF0D, stroke #FFFFFF1A 1px
+  - SECTION "Favicons", 240x176px
+    - COMPONENT "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+      - GROUP "Group", 16x13px, constraints scale/scale
+        - VECTOR "Vector", 16x13px, constraints scale/scale, fill #1D9BF0
+    - COMPONENT "Favicon / Google", 16x16px, constraints left/top, radius 2px
+      - FRAME "Google", 16x16px, constraints left/top, radius 50px, fill #FFFFFF
+        - RECTANGLE "Google", 11.84x11.84px, constraints left/top, fill image(hash: cea29507843f9711cb0339ebe86bf45ba0035611)
+    - COMPONENT "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+      - RECTANGLE "image 10", 16x12px, constraints left/top, fill image(hash: 732c7b9a55f78664319c173062c395f560eb2def)
+    - COMPONENT "Favicon / Github", 16x16px, constraints left/top, radius 2px
+      - FRAME "github-mark-white 1", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.94x16px, constraints scale/scale, fill On Dark/Foreground
+    - COMPONENT "Favicon / Youtube", 16x16px, constraints left/top, radius 2px
+      - FRAME "logo-youtube 1", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 16x11.25px, constraints scale/scale
+          - VECTOR "Vector", 16x11.25px, constraints scale/scale, fill #DC2217
+          - VECTOR "Vector", 4.32x4.5px, constraints scale/scale, fill #FFFFFF
+    - COMPONENT "Favicon / Gmail", 16x16px, constraints left/top, radius 2px
+      - RECTANGLE "image 4", 15x13px, constraints left/top, fill image(hash: f7a66eb4cd74cb925211d2a4bc89e9ebf5cab27e)
+    - COMPONENT "Favicon / Linear", 16x16px, constraints left/top, radius 2px
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #FFFFFF
+    - COMPONENT "Favicon / Raycast", 16x16px, constraints left/top, radius 2px
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #FF6363
+    - COMPONENT "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+    - COMPONENT "Favicon /  Apple", 16x16px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame", 13x15.97px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 13x15.97px, constraints scale/scale, fill #888888
+    - COMPONENT "Favicon /  Placeholder", 16x16px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 16x16px, constraints left/top, fill On Dark/Text/Light
+      - VECTOR "Vector (Stroke)", 2.67x2.67px, constraints scale/scale, fill #9747FF
+    - COMPONENT "LinkedIn svg", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Path 2525", 0.74x1.15px, constraints scale/scale, fill #0A66C2
+      - VECTOR "Path 2520", 13.53x15.87px, constraints scale/scale, fill #0A66C2
+      - VECTOR "Path 2526", 1.85x2.16px, constraints scale/scale, fill #0A66C2
+    - COMPONENT "otta", 20x20px, vertical pad 4 2 4 2px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #FECE32
+      - GROUP "Group", 16x12px, constraints left/top
+        - VECTOR "Vector", 16x12px, constraints scale/scale, fill #000000
+  - SECTION "Interface", 576x145px
+    - COMPONENT "Interface / More", 24x24px, constraints left/top
+      - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "Interface / Link", 24x24px, constraints left/top
+      - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "Interface / Camera", 24x24px, constraints left/top
+      - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "Interface / Search", 24x24px, constraints left/top
+      - VECTOR "Vector", 10.75x11.25px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "Interface / Lock", 24x24px, constraints left/top
+      - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "Interface / Close", 24x24px, constraints left/top
+      - VECTOR "Vector", 8x8px, constraints center/center, stroke On Dark/Text/Light 1.5px
+    - COMPONENT "Interface / Window", 24x24px, constraints left/top
+      - VECTOR "Vector", 18x14px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "Interface / ArrowLeft", 24x24px, constraints left/top
+      - VECTOR "Vector", 15.5x10.5px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "Interface / ArrowRight", 24x24px, constraints left/top
+      - VECTOR "Vector", 13x9px, constraints center/center, stroke On Dark/Text/Light 1.5px
+    - COMPONENT "Interface / Refresh", 24x24px, constraints left/top
+      - VECTOR "Vector", 14.5x17px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "Interface / Add", 24x24px, constraints left/top
+      - VECTOR "Vector", 12x12.5px, constraints left/top, stroke On Dark/Text/Light 1.5px
+    - COMPONENT "Interface / Library", 24x24px, constraints left/top
+      - VECTOR "Vector", 13.04x16px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+    - COMPONENT_SET "Interface / Folder", 82x30px, horizontal pad 4 11 4 11px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "❍ Expanded?=False", 22x22px, constraints left/top
+        - VECTOR "Rectangle 8", 18x12px, constraints left/center, radius 3px, fill On Dark/Hover, stroke On Dark/Text/Foreground 1.5px
+        - RECTANGLE "Rectangle 7", 18x13px, constraints left/center, radius 3px, fill On Dark/Background, stroke On Dark/Text/Foreground 1.5px
+      - COMPONENT "❍ Expanded?=True", 22x22px, constraints left/top
+        - VECTOR "Rectangle 7", 19x16px, constraints left/center, radius 3px, fill On Dark/Hover, stroke On Dark/Text/Foreground 1.5px
+        - VECTOR "Rectangle 7", 18x11px, constraints left/center, radius 3px, fill On Dark/Background, stroke On Dark/Text/Foreground 1.5px
+    - COMPONENT "Interface / Pencil", 24x24px, constraints left/top
+      - VECTOR "Vector 13", 6.5x5px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+      - VECTOR "Vector 14", 3.78x4.1px, constraints left/top, fill On Dark/Text/Light
+      - VECTOR "Vector 15", 7x7.5px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+  - SECTION "Spaces", 576x296px
+    - COMPONENT "Space / Star", 24x24px, constraints left/top
+      - VECTOR "Vector", 10.5x12.5px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Bookmark", 24x24px, constraints left/top
+      - BOOLEAN_OPERATION "Vector", 9x12.95px, constraints left/top, fill On Dark/Text/Light
+    - COMPONENT "Space / Lightning", 24x24px, constraints left/top
+      - VECTOR "Vector", 9.98x13.04px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Bell", 24x24px, constraints left/top
+      - VECTOR "Vector", 10.42x11.9px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Grid 2x2", 24x24px, constraints left/top
+      - VECTOR "Vector", 12x12px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Grid 3x3", 24x24px, constraints left/top
+      - VECTOR "Vector", 11x11px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Star", 24x24px, constraints left/top
+      - VECTOR "Vector", 14x13.55px, constraints scale/scale, radius 0.5px, fill On Dark/Text/Light
+    - COMPONENT "Space / Layers", 24x24px, constraints left/top
+      - VECTOR "Vector", 10.31x12.35px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Coins", 24x24px, constraints left/top
+      - BOOLEAN_OPERATION "Vector", 11x11.73px, constraints left/top, fill On Dark/Text/Light
+    - COMPONENT "Space / Globe", 24x24px, constraints left/top
+      - VECTOR "Vector", 11x10px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Globe", 24x24px, constraints left/top
+      - BOOLEAN_OPERATION "Vector", 9x13px, constraints left/top, fill On Dark/Text/Light
+    - COMPONENT "Space / Squares", 24x24px, constraints left/top
+      - VECTOR "Vector", 12x12px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Folder", 24x24px, constraints left/top
+      - BOOLEAN_OPERATION "Vector", 13x11px, constraints left/top, fill On Dark/Text/Light
+    - COMPONENT "Space / Inbox", 24x24px, constraints left/top
+      - VECTOR "Vector", 13x11px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Checkbox", 24x24px, constraints left/top
+      - BOOLEAN_OPERATION "Vector", 11x11px, constraints left/top, fill On Dark/Text/Light
+    - COMPONENT "Space / Book", 24x24px, constraints left/top
+      - VECTOR "Vector", 13x11.18px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Triangle", 24x24px, constraints left/top
+      - VECTOR "Vector", 14x12px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Terminal", 24x24px, constraints left/top
+      - BOOLEAN_OPERATION "Vector", 13x12px, constraints left/top, fill On Dark/Text/Light
+    - COMPONENT "Space / Page", 24x24px, constraints left/top
+      - VECTOR "Vector", 9x12px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Moon", 24x24px, constraints left/top
+      - BOOLEAN_OPERATION "Vector", 12.86x12.86px, constraints left/top, fill On Dark/Text/Light
+    - COMPONENT "Space / Weight", 24x24px, constraints left/top
+      - VECTOR "Vector", 12.39x7.66px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Sun", 24x24px, constraints left/top
+      - VECTOR "Vector", 13.5x13.5px, constraints scale/scale, fill On Dark/Text/Light
+    - COMPONENT "Space / Mail", 24x24px, constraints left/top
+      - BOOLEAN_OPERATION "Vector", 13x10px, constraints left/top, fill On Dark/Text/Light
+    - COMPONENT "Space / Cloud", 24x24px, constraints left/top
+      - BOOLEAN_OPERATION "Vector", 14.44x10px, constraints left/top, fill On Dark/Text/Light
+    - COMPONENT "Space / Basket", 24x24px, constraints left/top
+      - VECTOR "Vector", 11.61x9.43px, constraints scale/scale, fill On Dark/Text/Light
+    - ... +23 more children
+  - COMPONENT_SET "Controls / On Dark", 100x96px, vertical pad 24 24 24 24px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+      - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+      - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+    - COMPONENT "State=Hover", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill #ED6A5E, stroke #0000001A 1px
+        - VECTOR "Vector 10", 4.5x4.5px, constraints left/top, stroke #00000040 1px
+      - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill #F4BD50, stroke #0000001A 1px
+        - VECTOR "Vector 11", 5x0px, constraints left/top, stroke #00000040 1px
+      - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill #61C454, stroke #0000001A 1px
+        - BOOLEAN_OPERATION "Subtract", 6x6px, constraints left/top, fill #00000066
+  - COMPONENT_SET "IconBtn / On Dark", 224x74px, horizontal pad 24 24 24 24px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 26x26px, constraints left/top, radius 6px
+      - INSTANCE "Interface / More", 24x24px, constraints left/top
+        - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "State=Active", 26x26px, constraints left/top, radius 6px
+      - INSTANCE "Interface / More", 24x24px, constraints left/top
+        - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Foreground
+    - COMPONENT "State=Disabled", 26x26px, constraints left/top, radius 6px
+      - INSTANCE "Interface / More", 24x24px, constraints left/top
+        - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Disabled
+    - COMPONENT "State=Hover", 26x26px, constraints left/top, radius 6px, fill On Dark/Hover
+      - INSTANCE "Interface / More", 24x24px, constraints left/top
+        - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Text/Light
+  - COMPONENT_SET "Pinned tabs", 219x72px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Pinned tabs=Resting, color=None, Color=None", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+      - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+    - COMPONENT "Pinned tabs=Hover, color=None", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #0000005E
+      - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+    - COMPONENT "Pinned tabs=Active, color=Solid", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036, stroke #DC2217 1px
+      - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px
+        - FRAME "logo-youtube 1", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 16x11.25px, constraints scale/scale
+            - VECTOR "Vector", 16x11.25px, constraints scale/scale, fill #DC2217
+            - VECTOR "Vector", 4.32x4.5px, constraints scale/scale, fill #FFFFFF
+    - COMPONENT "Pinned tabs=Active, color=linear", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036, stroke gradient_linear(#9747FF 0% | #9747FFBD 0% | #DC221769 100%) 1px
+      - INSTANCE "Favicon / Linear", 16x16px, constraints left/top, radius 2px
+        - VECTOR "Vector", 16x16px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT_SET "Tabs", 212x192px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Tabs=Resting", 180x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 58x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Favicon / Gmail", 16x16px, constraints left/top, radius 2px
+            - RECTANGLE "image 4", 15x13px, constraints left/top, fill image(hash: f7a66eb4cd74cb925211d2a4bc89e9ebf5cab27e)
+        - TEXT "Gmail", 34x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+    - COMPONENT "Tabs=Hover", 180x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 89x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - RECTANGLE "image 10", 16x12px, constraints left/top, fill image(hash: 732c7b9a55f78664319c173062c395f560eb2def)
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / More", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / Close", 24x24px, constraints left/top
+          - VECTOR "Vector", 8x8px, constraints center/center, stroke On Dark/Text/Light 1.5px
+    - COMPONENT "Tabs=Active", 180x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 89x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - RECTANGLE "image 10", 16x12px, constraints left/top, fill image(hash: 732c7b9a55f78664319c173062c395f560eb2def)
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / More", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x3px, constraints center/center, fill #FFFFFFCC
+        - INSTANCE "Interface / Close", 24x24px, constraints left/top
+          - VECTOR "Vector", 8x8px, constraints center/center, stroke #FFFFFFCC 1.5px
+    - COMPONENT "Tabs=url", 180x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 97x28px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 28x28px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+            - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill On Dark/Text/Light
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Link", 24x24px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+          - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+  - FRAME "Space", 180x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+    - FRAME "Frame 2", 57x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Favicon / Gmail", 16x16px, constraints left/top, radius 2px
+          - RECTANGLE "image 4", 15x13px, constraints left/top, fill image(hash: f7a66eb4cd74cb925211d2a4bc89e9ebf5cab27e)
+      - TEXT "Gmail", 33x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 12px]
+  - COMPONENT_SET "Space", 212x106px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Space/ hover", 180x32px, horizontal pad 4 6 4 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 57x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #FFFFFF66 1px
+          - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - RECTANGLE "image 10", 16x12px, constraints left/top, fill image(hash: 732c7b9a55f78664319c173062c395f560eb2def)
+        - TEXT "Design", 33x15px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 10px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Pencil", 24x24px, constraints left/top
+          - VECTOR "Vector 13", 6.5x5px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+          - VECTOR "Vector 14", 3.78x4.1px, constraints left/top, fill On Dark/Text/Light
+          - VECTOR "Vector 15", 7x7.5px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+        - INSTANCE "Interface / More", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Text/Light
+    - COMPONENT "Property 1=Space/ Resting", 180x28px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 51x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 16x16px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Space / Grid 3x3", 16x16px, constraints left/top
+            - VECTOR "Vector", 7.33x7.33px, constraints scale/scale, fill On Dark/Text/Light
+        - TEXT "Design", 33x15px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 10px]
+  - COMPONENT_SET "Hr / On Dark", 260x104px, vertical pad 24 24 24 24px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 212x16px, vertical pad 8 10 8 10px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Hr", 192x0px, constraints scale/scale, stroke On Dark/Disabled 1px
+    - COMPONENT "State=Hover", 212x16px, horizontal pad 2 10 2 10px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Hr", 165x0px, constraints left_right/scale, stroke On Dark/Text/Light 1px
+      - TEXT "Clear", 27x12px, constraints right/top, fill On Dark/Text/Light, text [SF Pro Text Bold, 10px]
+  - COMPONENT_SET "New Tab", 233x114px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Resting", 201x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 7", 79x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Add", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x12.5px, constraints left/top, stroke #FFFFFF66 1.5px
+        - TEXT "New Tab", 51x18px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Semibold, 12px]
+    - COMPONENT "Property 1=hover", 201x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 7", 79x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Add", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x12.5px, constraints left/top, stroke #FFFFFF66 1.5px
+        - TEXT "New Tab", 51x18px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 8", 28x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 12x12px, constraints left/top, fill #FFFFFF66
+        - TEXT "T", 8x18px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Semibold, 12px]
+
+Screen: Assets  & Components / Grain
+- RECTANGLE "Grain", 223x1024px, constraints left/top
+
+Screen: Assets  & Components / Sidebar
+- COMPONENT_SET "Sidebar", 1117x1056px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Sidebar/ Grain=0%", 224x1024px, constraints left/top, radius 12px, fill #0E1116, stroke linear for arc 1px
+    - FRAME "Navigation", 221x36px, horizontal pad 6 12 6 12px gap 28px sizing W:fixed H:fixed, constraints left/top, fill #0E1116
+      - FRAME "Frame 5", 81x24px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Controls / On Dark", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+        - INSTANCE "Interface / Window", 24x24px, constraints left/top
+          - VECTOR "Vector", 18x14px, constraints center/center, fill On Dark/Text/Light
+      - FRAME "Frame 6", 88x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / ArrowLeft", 24x24px, constraints left/top
+          - VECTOR "Vector", 15.5x10.5px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / ArrowRight", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x9px, constraints center/center, stroke On Dark/Text/Light 1.5px
+        - INSTANCE "Interface / Refresh", 24x24px, constraints left/top
+          - VECTOR "Vector", 14.5x17px, constraints center/center, fill On Dark/Text/Light
+    - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 91x24px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+            - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill On Dark/Text/Light
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Link", 24x24px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+          - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+    - FRAME "Pinned tabs", 200x32px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036, stroke #DC2217 1px
+        - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px
+          - FRAME "logo-youtube 1", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 16x11.25px, constraints scale/scale
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Google", 16x16px, constraints left/top, radius 2px
+          - FRAME "Google", 16x16px, constraints left/top, radius 50px, fill #FFFFFF
+            - RECTANGLE "Google", 11.84x11.84px, constraints left/top, fill image(hash: cea29507843f9711cb0339ebe86bf45ba0035611)
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - GROUP "Group", 16x13px, constraints scale/scale
+            - VECTOR "Vector", 16x13px, constraints scale/scale, fill #1D9BF0
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Apple", 16x16px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame", 13x15.97px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13x15.97px, constraints scale/scale, fill #888888
+    - INSTANCE "Space", 198x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 16x20px, horizontal pad 2 0 2 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Space / Grid 3x3", 16x16px, constraints left/top
+            - VECTOR "Vector", 7.33x7.33px, constraints scale/scale, fill On Dark/Text/Light
+        - TEXT "Design", 87x15px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Medium, 10px]
+    - FRAME "Pinned tabs", 200x176px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 57x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Gmail", 16x16px, constraints left/top, radius 2px
+          - TEXT "Gmail", 33x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 65x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - TEXT "Gmail", 41x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "LinkedIn svg", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Gmail", 81x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 60x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 36x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 101x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Figma.com", 77x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 12px]
+        - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / More", 24x24px, constraints left/top
+            - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Text/Light
+          - INSTANCE "Interface / Close", 24x24px, constraints left/top
+            - VECTOR "Vector", 8x8px, constraints center/center, stroke On Dark/Text/Light 1.5px
+    - FRAME "Tabs", 200x104px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 60x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 36x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 72x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 48x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 183x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 24x24px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 18px, fill #F4BD50
+            - INSTANCE "otta", 20x20px, vertical pad 4 2 4 2px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #FFFFFF
+          - TEXT "Gmail", 155x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+    - INSTANCE "Hr / On Dark", 200x19px, horizontal pad 2 8 2 8px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Hr", 145x0px, constraints left_right/scale, stroke On Dark/Text/Light 0.5px
+      - TEXT "Clear", 26x15px, constraints right/top, fill On Dark/Text/Light, text [SF Pro Text Medium, 10px]
+    - INSTANCE "New Tab", 201x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 7", 79x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Add", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x12.5px, constraints left/top, stroke #FFFFFF66 1.5px
+        - TEXT "New Tab", 51x18px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Semibold, 12px]
+    - FRAME "Navigation", 223x36px, horizontal pad 6 12 6 12px gap 74px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0E1116, stroke #FFFFFF33 1px
+      - FRAME "Frame 9", 96x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Library", 24x24px, constraints left/top
+          - VECTOR "Vector", 13.04x16px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+        - FRAME "Spaces", 64x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "🏗️", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px]
+          - TEXT "📝", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+          - TEXT "🪜", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+      - INSTANCE "Interface / Add", 24x24px, constraints left/top
+        - VECTOR "Vector", 12x12.5px, constraints left/top, stroke On Dark/Text/Light 1.5px
+  - COMPONENT "Sidebar/ Grain=5%", 224x1024px, constraints left/top, radius 12px, fill #0E1116, stroke gradient_linear(#FFFFFF 0% | #D9D9D96E 100%) 1px
+    - FRAME "Navigation", 223x36px, horizontal pad 6 12 6 12px gap 74px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0E1116, stroke #FFFFFF33 1px
+      - FRAME "Frame 9", 96x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Library", 24x24px, constraints left/top
+          - VECTOR "Vector", 13.04x16px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+        - FRAME "Spaces", 64x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "🏗️", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px]
+          - TEXT "📝", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+          - TEXT "🪜", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+      - INSTANCE "Interface / Add", 24x24px, constraints left/top
+        - VECTOR "Vector", 12x12.5px, constraints left/top, stroke On Dark/Text/Light 1.5px
+    - RECTANGLE "Rectangle 30", 223x1024px, constraints left/top, fill image(hash: 0f16d765f4f1a471edd13f47df88bdd4e032409d)
+    - FRAME "Navigation", 221x36px, horizontal pad 6 12 6 12px gap 28px sizing W:fixed H:fixed, constraints left/top, fill #0E1116
+      - FRAME "Frame 5", 81x24px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Controls / On Dark", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+        - INSTANCE "Interface / Window", 24x24px, constraints left/top
+          - VECTOR "Vector", 18x14px, constraints center/center, fill On Dark/Text/Light
+      - FRAME "Frame 6", 88x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / ArrowLeft", 24x24px, constraints left/top
+          - VECTOR "Vector", 15.5x10.5px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / ArrowRight", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x9px, constraints center/center, stroke On Dark/Text/Light 1.5px
+        - INSTANCE "Interface / Refresh", 24x24px, constraints left/top
+          - VECTOR "Vector", 14.5x17px, constraints center/center, fill On Dark/Text/Light
+    - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 91x24px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+            - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill On Dark/Text/Light
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Link", 24x24px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+          - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+    - FRAME "Pinned tabs", 200x32px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036, stroke #DC2217 1px
+        - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px
+          - FRAME "logo-youtube 1", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 16x11.25px, constraints scale/scale
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Google", 16x16px, constraints left/top, radius 2px
+          - FRAME "Google", 16x16px, constraints left/top, radius 50px, fill #FFFFFF
+            - RECTANGLE "Google", 11.84x11.84px, constraints left/top, fill image(hash: cea29507843f9711cb0339ebe86bf45ba0035611)
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - GROUP "Group", 16x13px, constraints scale/scale
+            - VECTOR "Vector", 16x13px, constraints scale/scale, fill #1D9BF0
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Apple", 16x16px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame", 13x15.97px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13x15.97px, constraints scale/scale, fill #888888
+    - INSTANCE "Space", 198x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 16x20px, horizontal pad 2 0 2 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Space / Grid 3x3", 16x16px, constraints left/top
+            - VECTOR "Vector", 7.33x7.33px, constraints scale/scale, fill On Dark/Text/Light
+        - TEXT "Design", 87x15px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Medium, 10px]
+    - FRAME "Pinned tabs", 200x176px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 57x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Gmail", 16x16px, constraints left/top, radius 2px
+          - TEXT "Gmail", 33x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 65x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - TEXT "Gmail", 41x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "LinkedIn svg", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Gmail", 81x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 60x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 36x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 101x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Figma.com", 77x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 12px]
+        - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / More", 24x24px, constraints left/top
+            - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Text/Light
+          - INSTANCE "Interface / Close", 24x24px, constraints left/top
+            - VECTOR "Vector", 8x8px, constraints center/center, stroke On Dark/Text/Light 1.5px
+    - FRAME "Tabs", 200x104px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 60x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 36x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 72x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 48x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 183x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 24x24px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 18px, fill #F4BD50
+            - INSTANCE "otta", 20x20px, vertical pad 4 2 4 2px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #FFFFFF
+          - TEXT "Gmail", 155x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+    - INSTANCE "Hr / On Dark", 200x19px, horizontal pad 2 8 2 8px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Hr", 145x0px, constraints left_right/scale, stroke On Dark/Text/Light 0.5px
+      - TEXT "Clear", 26x15px, constraints right/top, fill On Dark/Text/Light, text [SF Pro Text Medium, 10px]
+    - INSTANCE "New Tab", 201x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 7", 79x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Add", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x12.5px, constraints left/top, stroke #FFFFFF66 1.5px
+        - TEXT "New Tab", 51x18px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Semibold, 12px]
+  - COMPONENT "Sidebar/ Grain=10%", 224x1024px, constraints left/top, radius 12px, fill #0E1116, stroke gradient_linear(#FFFFFF 0% | #D9D9D96E 100%) 1px
+    - FRAME "Navigation", 223x36px, horizontal pad 6 12 6 12px gap 74px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0E1116, stroke #FFFFFF33 1px
+      - FRAME "Frame 9", 96x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Library", 24x24px, constraints left/top
+          - VECTOR "Vector", 13.04x16px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+        - FRAME "Spaces", 64x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "🏗️", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px]
+          - TEXT "📝", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+          - TEXT "🪜", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+      - INSTANCE "Interface / Add", 24x24px, constraints left/top
+        - VECTOR "Vector", 12x12.5px, constraints left/top, stroke On Dark/Text/Light 1.5px
+    - RECTANGLE "Grain", 223x1024px, constraints left/top, fill image(hash: 0f16d765f4f1a471edd13f47df88bdd4e032409d)
+    - FRAME "Navigation", 221x36px, horizontal pad 6 12 6 12px gap 28px sizing W:fixed H:fixed, constraints left/top, fill #0E1116
+      - FRAME "Frame 5", 81x24px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Controls / On Dark", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+        - INSTANCE "Interface / Window", 24x24px, constraints left/top
+          - VECTOR "Vector", 18x14px, constraints center/center, fill On Dark/Text/Light
+      - FRAME "Frame 6", 88x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / ArrowLeft", 24x24px, constraints left/top
+          - VECTOR "Vector", 15.5x10.5px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / ArrowRight", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x9px, constraints center/center, stroke On Dark/Text/Light 1.5px
+        - INSTANCE "Interface / Refresh", 24x24px, constraints left/top
+          - VECTOR "Vector", 14.5x17px, constraints center/center, fill On Dark/Text/Light
+    - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 91x24px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+            - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill On Dark/Text/Light
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Link", 24x24px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+          - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+    - FRAME "Pinned tabs", 200x32px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036, stroke #DC2217 1px
+        - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px
+          - FRAME "logo-youtube 1", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 16x11.25px, constraints scale/scale
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Google", 16x16px, constraints left/top, radius 2px
+          - FRAME "Google", 16x16px, constraints left/top, radius 50px, fill #FFFFFF
+            - RECTANGLE "Google", 11.84x11.84px, constraints left/top, fill image(hash: cea29507843f9711cb0339ebe86bf45ba0035611)
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - GROUP "Group", 16x13px, constraints scale/scale
+            - VECTOR "Vector", 16x13px, constraints scale/scale, fill #1D9BF0
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Apple", 16x16px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame", 13x15.97px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13x15.97px, constraints scale/scale, fill #888888
+    - INSTANCE "Space", 198x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 16x20px, horizontal pad 2 0 2 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Space / Grid 3x3", 16x16px, constraints left/top
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Assets  & Components / Developer mode
+- COMPONENT "Developer mode", 1374x56px, horizontal pad 16 24 16 24px gap 1003px align min/center sizing W:fixed H:fixed, constraints left/top, radius 12/12/0/0px, fill #3E43CA
+  - FRAME "url", 171x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+      - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill #FFFFFF
+    - TEXT "https:// youtube.com", 139x21px, constraints left/top, fill #FFFFFFCC, text [SF Pro Text RegularItalic, 14px]
+  - FRAME "Frame 11", 152x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 10", 56x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Interface / Link", 24x24px, constraints left/top
+        - VECTOR "Vector", 15x15px, constraints center/center, fill #FFFFFFCC
+      - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+        - VECTOR "Vector", 16x13px, constraints center/center, fill #FFFFFFCC
+    - LINE "Line 1", 0x24px, constraints left/top, stroke #FFFFFF66 1px
+    - FRAME "icons", 80x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Space / Terminal", 24x24px, constraints left/top
+        - BOOLEAN_OPERATION "Vector", 13x12px, constraints left/top, fill #FFFFFFCC
+      - INSTANCE "Space / Globe", 24x24px, constraints left/top
+        - BOOLEAN_OPERATION "Vector", 9x13px, constraints left/top, fill #FFFFFFCC
+      - INSTANCE "Space / Palette", 24x24px, constraints left/top
+        - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFFCC
+
+Screen: Assets  & Components / Lil arc nav
+- COMPONENT "Lil arc nav", 1361x56px, horizontal pad 12 24 12 24px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top, radius 12/12/0/0px, fill #0E1116
+  - INSTANCE "Controls / On Dark", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+    - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+    - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+  - INSTANCE "Tabs", 1023x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+    - FRAME "Frame 2", 502x28px, horizontal pad 0 0 0 0px gap 409px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Icon container", 28x28px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Search", 24x24px, constraints left/top
+          - VECTOR "Vector", 10.75x11.25px, constraints center/center, fill On Dark/Text/Light
+      - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+    - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Interface / Link", 24x24px, constraints left/top
+        - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+      - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+        - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+  - FRAME "New Tab", 210x32px, horizontal pad 6 6 6 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #0E1116
+    - FRAME "Frame 7", 154x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Open in Design/ Freelance", 154x18px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Semibold, 12px]
+    - FRAME "Frame 8", 32x22px, horizontal pad 2 4 2 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF1A, stroke linear for arc 0.5px
+      - VECTOR "Vector", 12x12px, constraints left/top, fill #FFFFFF66
+      - TEXT "0", 8x18px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Semibold, 12px]
+
+Screen: Sidebar / Sidebar
+- COMPONENT_SET "Sidebar", 1117x1056px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Sidebar/ Grain=0%", 224x1024px, constraints left/top, radius 12px, fill #0E1116, stroke gradient_linear(#FFFFFF 0% | #D9D9D96E 100%) 1px
+    - FRAME "Navigation", 221x36px, horizontal pad 6 12 6 12px gap 28px sizing W:fixed H:fixed, constraints left/top, fill #0E1116
+      - FRAME "Frame 5", 81x24px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Controls / On Dark", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+        - INSTANCE "Interface / Window", 24x24px, constraints left/top
+          - VECTOR "Vector", 18x14px, constraints center/center, fill On Dark/Text/Light
+      - FRAME "Frame 6", 88x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / ArrowLeft", 24x24px, constraints left/top
+          - VECTOR "Vector", 15.5x10.5px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / ArrowRight", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x9px, constraints center/center, stroke On Dark/Text/Light 1.5px
+        - INSTANCE "Interface / Refresh", 24x24px, constraints left/top
+          - VECTOR "Vector", 14.5x17px, constraints center/center, fill On Dark/Text/Light
+    - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 91x24px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+            - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill On Dark/Text/Light
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Link", 24x24px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+          - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+    - FRAME "Pinned tabs", 200x32px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036, stroke #DC2217 1px
+        - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px
+          - FRAME "logo-youtube 1", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 16x11.25px, constraints scale/scale
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Google", 16x16px, constraints left/top, radius 2px
+          - FRAME "Google", 16x16px, constraints left/top, radius 50px, fill #FFFFFF
+            - RECTANGLE "Google", 11.84x11.84px, constraints left/top, fill image(hash: cea29507843f9711cb0339ebe86bf45ba0035611)
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - GROUP "Group", 16x13px, constraints scale/scale
+            - VECTOR "Vector", 16x13px, constraints scale/scale, fill #1D9BF0
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Apple", 16x16px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame", 13x15.97px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13x15.97px, constraints scale/scale, fill #888888
+    - INSTANCE "Space", 198x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 16x20px, horizontal pad 2 0 2 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Space / Grid 3x3", 16x16px, constraints left/top
+            - VECTOR "Vector", 7.33x7.33px, constraints scale/scale, fill On Dark/Text/Light
+        - TEXT "Design", 87x15px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Medium, 10px]
+    - FRAME "Pinned tabs", 200x176px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 57x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Gmail", 16x16px, constraints left/top, radius 2px
+          - TEXT "Gmail", 33x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 65x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - TEXT "Gmail", 41x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "LinkedIn svg", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Gmail", 81x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 60x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 36x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 101x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Figma.com", 77x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 12px]
+        - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / More", 24x24px, constraints left/top
+            - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Text/Light
+          - INSTANCE "Interface / Close", 24x24px, constraints left/top
+            - VECTOR "Vector", 8x8px, constraints center/center, stroke On Dark/Text/Light 1.5px
+    - FRAME "Tabs", 200x104px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 60x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 36x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 72x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 48x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 183x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 24x24px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 18px, fill #F4BD50
+            - INSTANCE "otta", 20x20px, vertical pad 4 2 4 2px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #FFFFFF
+          - TEXT "Gmail", 155x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+    - INSTANCE "Hr / On Dark", 200x19px, horizontal pad 2 8 2 8px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Hr", 145x0px, constraints left_right/scale, stroke On Dark/Text/Light 0.5px
+      - TEXT "Clear", 26x15px, constraints right/top, fill On Dark/Text/Light, text [SF Pro Text Medium, 10px]
+    - INSTANCE "New Tab", 201x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 7", 79x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Add", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x12.5px, constraints left/top, stroke #FFFFFF66 1.5px
+        - TEXT "New Tab", 51x18px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Semibold, 12px]
+    - FRAME "Navigation", 223x36px, horizontal pad 6 12 6 12px gap 74px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0E1116, stroke #FFFFFF33 1px
+      - FRAME "Frame 9", 96x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Library", 24x24px, constraints left/top
+          - VECTOR "Vector", 13.04x16px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+        - FRAME "Spaces", 64x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "🏗️", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px]
+          - TEXT "📝", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+          - TEXT "🪜", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+      - INSTANCE "Interface / Add", 24x24px, constraints left/top
+        - VECTOR "Vector", 12x12.5px, constraints left/top, stroke On Dark/Text/Light 1.5px
+  - COMPONENT "Sidebar/ Grain=5%", 224x1024px, constraints left/top, radius 12px, fill #0E1116, stroke gradient_linear(#FFFFFF 0% | #D9D9D96E 100%) 1px
+    - FRAME "Navigation", 223x36px, horizontal pad 6 12 6 12px gap 74px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0E1116, stroke #FFFFFF33 1px
+      - FRAME "Frame 9", 96x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Library", 24x24px, constraints left/top
+          - VECTOR "Vector", 13.04x16px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+        - FRAME "Spaces", 64x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "🏗️", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px]
+          - TEXT "📝", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+          - TEXT "🪜", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+      - INSTANCE "Interface / Add", 24x24px, constraints left/top
+        - VECTOR "Vector", 12x12.5px, constraints left/top, stroke On Dark/Text/Light 1.5px
+    - RECTANGLE "Rectangle 30", 223x1024px, constraints left/top, fill image(hash: 0f16d765f4f1a471edd13f47df88bdd4e032409d)
+    - FRAME "Navigation", 221x36px, horizontal pad 6 12 6 12px gap 28px sizing W:fixed H:fixed, constraints left/top, fill #0E1116
+      - FRAME "Frame 5", 81x24px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Controls / On Dark", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+        - INSTANCE "Interface / Window", 24x24px, constraints left/top
+          - VECTOR "Vector", 18x14px, constraints center/center, fill On Dark/Text/Light
+      - FRAME "Frame 6", 88x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / ArrowLeft", 24x24px, constraints left/top
+          - VECTOR "Vector", 15.5x10.5px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / ArrowRight", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x9px, constraints center/center, stroke On Dark/Text/Light 1.5px
+        - INSTANCE "Interface / Refresh", 24x24px, constraints left/top
+          - VECTOR "Vector", 14.5x17px, constraints center/center, fill On Dark/Text/Light
+    - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 91x24px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+            - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill On Dark/Text/Light
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Link", 24x24px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+          - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+    - FRAME "Pinned tabs", 200x32px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036, stroke #DC2217 1px
+        - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px
+          - FRAME "logo-youtube 1", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 16x11.25px, constraints scale/scale
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Google", 16x16px, constraints left/top, radius 2px
+          - FRAME "Google", 16x16px, constraints left/top, radius 50px, fill #FFFFFF
+            - RECTANGLE "Google", 11.84x11.84px, constraints left/top, fill image(hash: cea29507843f9711cb0339ebe86bf45ba0035611)
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - GROUP "Group", 16x13px, constraints scale/scale
+            - VECTOR "Vector", 16x13px, constraints scale/scale, fill #1D9BF0
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Apple", 16x16px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame", 13x15.97px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13x15.97px, constraints scale/scale, fill #888888
+    - INSTANCE "Space", 198x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 16x20px, horizontal pad 2 0 2 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Space / Grid 3x3", 16x16px, constraints left/top
+            - VECTOR "Vector", 7.33x7.33px, constraints scale/scale, fill On Dark/Text/Light
+        - TEXT "Design", 87x15px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Medium, 10px]
+    - FRAME "Pinned tabs", 200x176px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 57x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Gmail", 16x16px, constraints left/top, radius 2px
+          - TEXT "Gmail", 33x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 65x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - TEXT "Gmail", 41x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "LinkedIn svg", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Gmail", 81x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 60x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 36x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 101x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Figma.com", 77x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 12px]
+        - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / More", 24x24px, constraints left/top
+            - VECTOR "Vector", 13x3px, constraints center/center, fill On Dark/Text/Light
+          - INSTANCE "Interface / Close", 24x24px, constraints left/top
+            - VECTOR "Vector", 8x8px, constraints center/center, stroke On Dark/Text/Light 1.5px
+    - FRAME "Tabs", 200x104px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 60x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Figma", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 36x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 72x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 20x20px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px, fill #FFFFFF
+          - TEXT "Gmail", 48x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+      - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+        - FRAME "Frame 2", 183x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon container", 24x24px, horizontal pad 2 2 2 2px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 18px, fill #F4BD50
+            - INSTANCE "otta", 20x20px, vertical pad 4 2 4 2px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #FFFFFF
+          - TEXT "Gmail", 155x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Medium, 12px]
+    - INSTANCE "Hr / On Dark", 200x19px, horizontal pad 2 8 2 8px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Hr", 145x0px, constraints left_right/scale, stroke On Dark/Text/Light 0.5px
+      - TEXT "Clear", 26x15px, constraints right/top, fill On Dark/Text/Light, text [SF Pro Text Medium, 10px]
+    - INSTANCE "New Tab", 201x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 7", 79x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Add", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x12.5px, constraints left/top, stroke #FFFFFF66 1.5px
+        - TEXT "New Tab", 51x18px, constraints left/top, fill #FFFFFF66, text [SF Pro Text Semibold, 12px]
+  - COMPONENT "Sidebar/ Grain=10%", 224x1024px, constraints left/top, radius 12px, fill #0E1116, stroke gradient_linear(#FFFFFF 0% | #D9D9D96E 100%) 1px
+    - FRAME "Navigation", 223x36px, horizontal pad 6 12 6 12px gap 74px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0E1116, stroke #FFFFFF33 1px
+      - FRAME "Frame 9", 96x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Library", 24x24px, constraints left/top
+          - VECTOR "Vector", 13.04x16px, constraints left/top, radius 0/0/0/0px, fill On Dark/Text/Light
+        - FRAME "Spaces", 64x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "🏗️", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px]
+          - TEXT "📝", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+          - TEXT "🪜", 16x18px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 16px], opacity 20%
+      - INSTANCE "Interface / Add", 24x24px, constraints left/top
+        - VECTOR "Vector", 12x12.5px, constraints left/top, stroke On Dark/Text/Light 1.5px
+    - RECTANGLE "Grain", 223x1024px, constraints left/top, fill image(hash: 0f16d765f4f1a471edd13f47df88bdd4e032409d)
+    - FRAME "Navigation", 221x36px, horizontal pad 6 12 6 12px gap 28px sizing W:fixed H:fixed, constraints left/top, fill #0E1116
+      - FRAME "Frame 5", 81x24px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Controls / On Dark", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+        - INSTANCE "Interface / Window", 24x24px, constraints left/top
+          - VECTOR "Vector", 18x14px, constraints center/center, fill On Dark/Text/Light
+      - FRAME "Frame 6", 88x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / ArrowLeft", 24x24px, constraints left/top
+          - VECTOR "Vector", 15.5x10.5px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / ArrowRight", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x9px, constraints center/center, stroke On Dark/Text/Light 1.5px
+        - INSTANCE "Interface / Refresh", 24x24px, constraints left/top
+          - VECTOR "Vector", 14.5x17px, constraints center/center, fill On Dark/Text/Light
+    - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 91x24px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+            - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill On Dark/Text/Light
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Link", 24x24px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+          - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+    - FRAME "Pinned tabs", 200x32px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036, stroke #DC2217 1px
+        - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px
+          - FRAME "logo-youtube 1", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 16x11.25px, constraints scale/scale
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Google", 16x16px, constraints left/top, radius 2px
+          - FRAME "Google", 16x16px, constraints left/top, radius 50px, fill #FFFFFF
+            - RECTANGLE "Google", 11.84x11.84px, constraints left/top, fill image(hash: cea29507843f9711cb0339ebe86bf45ba0035611)
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Twitter", 16x16px, vertical pad 1 0 1 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+          - GROUP "Group", 16x13px, constraints scale/scale
+            - VECTOR "Vector", 16x13px, constraints scale/scale, fill #1D9BF0
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Apple", 16x16px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame", 13x15.97px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 13x15.97px, constraints scale/scale, fill #888888
+    - INSTANCE "Space", 198x32px, horizontal pad 6 6 6 6px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 105x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 16x20px, horizontal pad 2 0 2 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Space / Grid 3x3", 16x16px, constraints left/top
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Main Window / Full screen
+- FRAME "Full screen", 1440x1024px, constraints left/top, radius 24px, fill #0E1116, stroke linear for arc 1px
+  - RECTANGLE "Place content here", 1416x1000px, constraints left/top, radius 12px, fill #D9D9D905
+  - INSTANCE "Interface / More", 15.77x24px, constraints left/top
+    - VECTOR "Vector", 3x13px, constraints center/center, fill On Dark/Text/Light
+  - INSTANCE "Interface / More", 15.77x24px, constraints left/top
+    - VECTOR "Vector", 3x13px, constraints center/center, fill On Dark/Text/Light
+
+Screen: Main Window / Full screen/ Developer mode
+- FRAME "Full screen/ Developer mode", 1440x1024px, constraints left/top, radius 24px, fill #0E1116, stroke linear for arc 1px
+  - RECTANGLE "Place content here", 1416x952px, constraints left/top, radius 12px, fill #D9D9D905
+  - INSTANCE "Developer mode", 1413x48px, horizontal pad 12 24 12 24px gap 1003px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 12/12/0/0px, fill #3E43CA
+    - FRAME "url", 171x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+        - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill #FFFFFF
+      - TEXT "https:// youtube.com", 139x21px, constraints left/top, fill #FFFFFFCC, text [SF Pro Text RegularItalic, 14px]
+    - FRAME "Frame 11", 152x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10", 56x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Link", 24x24px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints center/center, fill #FFFFFFCC
+        - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+          - VECTOR "Vector", 16x13px, constraints center/center, fill #FFFFFFCC
+      - LINE "Line 1", 0x24px, constraints left/top, stroke #FFFFFF66 1px
+      - FRAME "icons", 80x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Space / Terminal", 24x24px, constraints left/top
+          - BOOLEAN_OPERATION "Vector", 13x12px, constraints left/top, fill #FFFFFFCC
+        - INSTANCE "Space / Globe", 24x24px, constraints left/top
+          - BOOLEAN_OPERATION "Vector", 9x13px, constraints left/top, fill #FFFFFFCC
+        - INSTANCE "Space / Palette", 24x24px, constraints left/top
+          - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFFCC
+  - INSTANCE "Interface / More", 15.77x24px, constraints left/top
+    - VECTOR "Vector", 3x13px, constraints center/center, fill On Dark/Text/Light
+
+Screen: Main Window / Full screen with Side bar
+- FRAME "Full screen with Side bar", 1440x1044px, constraints left/top, radius 24px, fill #0E1116, stroke linear for arc 1px
+  - RECTANGLE "Place content here", 1184x1020px, constraints left/top, radius 12px, fill #D9D9D905
+  - TEXT "Place content here", 178x21px, constraints left/top, fill #FFFFFF, text [SF Pro Text RegularItalic, 20px]
+  - INSTANCE "Interface / More", 15.77x24px, constraints left/top
+    - VECTOR "Vector", 3x13px, constraints center/center, fill On Dark/Text/Light
+  - INSTANCE "Sidebar", 224x1024px, constraints left/top, radius 12px, fill #0E1116, stroke gradient_linear(#FFFFFF 0% | #D9D9D96E 100%) 1px
+    - FRAME "Navigation", 221x36px, horizontal pad 6 12 6 12px gap 28px sizing W:fixed H:fixed, constraints left/top, fill #0E1116
+      - FRAME "Frame 5", 81x24px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Controls / On Dark", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Close", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Minimize", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+          - FRAME "Expand", 12x12px, constraints left/top, radius 100px, fill On Dark/Default
+        - INSTANCE "Interface / Window", 24x24px, constraints left/top
+          - VECTOR "Vector", 18x14px, constraints center/center, fill On Dark/Text/Light
+      - FRAME "Frame 6", 88x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / ArrowLeft", 24x24px, constraints left/top
+          - VECTOR "Vector", 15.5x10.5px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / ArrowRight", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x9px, constraints center/center, stroke On Dark/Text/Light 1.5px
+        - INSTANCE "Interface / Refresh", 24x24px, constraints left/top
+          - VECTOR "Vector", 14.5x17px, constraints center/center, fill On Dark/Text/Light
+    - INSTANCE "Tabs", 200x32px, horizontal pad 6 6 6 6px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00000036
+      - FRAME "Frame 2", 91x24px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Icon container", 24x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface / Lock", 24x24px, constraints left/top
+            - VECTOR "Vector", 8.06x11.22px, constraints center/center, fill On Dark/Text/Light
+        - TEXT "Figma.com", 65x18px, constraints left/top, fill #FFFFFFB2, text [SF Pro Text Semibold, 12px]
+      - FRAME "Frame 3", 52x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface / Link", 24x24px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints center/center, fill On Dark/Text/Light
+        - INSTANCE "Interface / Camera", 24x24px, constraints left/top
+          - VECTOR "Vector", 16x13px, constraints center/center, fill On Dark/Text/Light
+    - FRAME "Pinned tabs", 200x32px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon /  Spotify", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.95x15.95px, constraints scale/scale, fill #1ED760
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036, stroke #DC2217 1px
+        - INSTANCE "Favicon / Youtube", 16x16px, constraints left/top, radius 2px
+          - FRAME "logo-youtube 1", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 16x11.25px, constraints scale/scale
+      - INSTANCE "Pinned tabs", 32x32px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #00000036
+        - INSTANCE "Favicon / Google", 16x16px, constraints left/top, radius 2px
+          - FRAME "Google", 16x16px, constraints left/top, radius 50px, fill #FFFFFF
+            - RECTANGLE "Google", 11.84x11.84px, constraints left/top, fill image(hash: cea29507843f9711cb0339ebe86bf45ba0035611)
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

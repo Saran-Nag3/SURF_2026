@@ -1,0 +1,329 @@
+---
+name: kick-coffee-website-community
+source_file: Kick Coffee Website (Community)
+source_page: All pages (4): Creative_brief, Styles and colors, components, Final Design
+generated_at: 2026-07-25T09:32:50.517633+00:00
+---
+
+# Kick Coffee Website (Community) Design Guidelines
+
+## Source
+- Figma file: Kick Coffee Website (Community)
+- Figma page: All pages (4): Creative_brief, Styles and colors, components, Final Design
+- Extracted at: 2026-07-25T09:32:50.517633+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- red: [#E03E36]
+- yellow: [#FFFDD3]
+- black: [#FFFDD3]
+- maroon: [#B80D57]
+- purple: [#700961]
+- orange: [#FF7C38]
+
+## Raw Colors (unstyled)
+- #000000: 33 uses
+- #D9D9D9: 28 uses
+- #FFFFFF: 8 uses
+- #9747FF: 4 uses
+
+## Typography Tokens
+- desktop paragraph: Montserrat Regular (400), 20px / auto, tracking 0px
+- Desktop H4: Montserrat SemiBold (600), 30px / auto, tracking 0px
+- desktop H3: Montserrat SemiBold (600), 40px / auto, tracking 0px
+- Desktop H2: Montserrat SemiBold (600), 50px / auto, tracking 0px
+- Desktop Caption: Montserrat Regular (400), 15px / auto, tracking 0px
+- Mobile Caption: Montserrat Regular (400), 12px / auto, tracking 0px
+- Desktop H1: Montserrat SemiBold (600), 60px / auto, tracking 0px
+- Mobile H1: Montserrat SemiBold (600), 48px / auto, tracking 0px
+- Mobile H2: Montserrat SemiBold (600), 40px / auto, tracking 0px
+- Mobile H3: Montserrat SemiBold (600), 32px / auto, tracking 0px
+- Mobile H4: Montserrat SemiBold (600), 24px / auto, tracking 0px
+- Mobile Paragraph: Montserrat Regular (400), 16px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Montserrat SemiBold, 16px: 3 uses
+
+## Typography Hierarchy
+- 60px - Desktop H1 (Montserrat SemiBold)
+- 50px - Desktop H2 (Montserrat SemiBold)
+- 48px - Mobile H1 (Montserrat SemiBold)
+- 40px - Mobile H2 (Montserrat SemiBold)
+- 40px - desktop H3 (Montserrat SemiBold)
+- 32px - Mobile H3 (Montserrat SemiBold)
+- 30px - Desktop H4 (Montserrat SemiBold)
+- 24px - Mobile H4 (Montserrat SemiBold)
+- 20px - desktop paragraph (Montserrat Regular)
+- 16px - Mobile Paragraph (Montserrat Regular)
+- 16px - Montserrat SemiBold, 16px (raw)
+- 15px - Desktop Caption (Montserrat Regular)
+- 12px - Mobile Caption (Montserrat Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- customer_master
+- horizontal_master
+- square_master
+- hero_master
+- text_card_4
+- cta_button
+- text_card_3
+- text_card_2
+- Text_card_1
+
+## Component Specs
+- customer_master: size 250x250px, fill #FFFFFF | variants: Property 1: Customer_5/customer_1/customer_2/customer_3/customer_4
+- horizontal_master: size 500x333.33px, fill #FFFFFF | variants: Property 1: coffee_sign_lights/floppy_hat/laptop/latte_art/mountain_mugs/wodden_board/wodden_spoon/zoe_slosh
+- square_master: size 500x500px, fill #FFFFFF | variants: Property 1: high_five/man_sips/metal_mugs/pour_over/spilling_beans/splash/steaming_mug/woman_sips
+- hero_master: size 1280x600px, fill #FFFFFF | variants: Property 1: hero_beans/hero_bedroom/hero_campfire/hero_coffeeeshop/hero_many_lattes/hero_sunrise/hero_woman
+- text_card_4: size 284x203px, vertical layout, padding 23 16 23 16px, gap 14px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Montserrat SemiBold, 16px, desktop paragraph, Desktop H4]
+- cta_button: size 206x36px, radius 8px, horizontal layout, padding 8 28 8 28px, gap 8px, align center/center, sizing W:fixed H:fixed, fill yellow, stroke black 1px, text [Montserrat SemiBold, 16px]
+- text_card_3: size 500x389px, vertical layout, padding 24 16 24 16px, gap 28px, sizing W:fixed H:fixed, fill #FFFFFF, text [desktop paragraph, desktop H3, Desktop H2]
+- text_card_2: size 500x393px, vertical layout, padding 24 16 24 16px, gap 19px, sizing W:fixed H:fixed, fill #FFFFFF, text [desktop paragraph, desktop H3, Montserrat Bold, 14px]
+- Text_card_1: size 500x371px, vertical layout, padding 24 16 24 16px, gap 27px, sizing W:fixed H:fixed, fill #FFFFFF, text [Montserrat SemiBold, 16px, desktop paragraph, Desktop H4, desktop H3]
+
+## Most-Used Styles
+- Desktop Caption: 7 uses
+- desktop paragraph: 7 uses
+- black: 5 uses
+- desktop H3: 4 uses
+- Desktop H4: 3 uses
+- yellow: 3 uses
+- Desktop H1: 2 uses
+- Desktop H2: 2 uses
+- maroon: 2 uses
+- red: 2 uses
+- Mobile Caption: 1 use
+- Mobile H1: 1 use
+- Mobile H2: 1 use
+- Mobile H3: 1 use
+- Mobile H4: 1 use
+- Mobile Paragraph: 1 use
+- orange: 1 use
+- purple: 1 use
+
+## Layout & Structure
+Screen: Creative_brief / MacBook Air - 1
+- FRAME "MacBook Air - 1", 1280x832px, constraints left/top, fill #FFFFFF
+  - TEXT "KICK: High Energy Coffee", 783x73px, constraints left/top, fill #000000, text [Desktop H1], [heading]
+  - TEXT "This", 41x24px, constraints left/top, fill #000000, text [desktop paragraph]
+  - RECTANGLE "kick_coffee 1", 872x588px, constraints left/top, fill image(hash: 73c25377a2bd2fa0d32c17cb01f299e555939bec)
+
+Screen: Creative_brief / MacBook Air - 2
+- FRAME "MacBook Air - 2", 1280x832px, constraints left/top, fill #FFFFFF
+  - TEXT "Welcome to the best place to buy coffee online! We are a spe", 1105x810px, constraints left/top, fill #000000, text [desktop paragraph]
+
+Screen: Styles and colors / MacBook Pro 14" - 1
+- FRAME "MacBook Pro 14" - 1", 1512x982px, constraints left/top, fill #FFFFFF
+  - TEXT "Paragraph (1rem/16px)", 178x20px, constraints left/top, fill #000000, text [Mobile Paragraph]
+  - TEXT "Paragraph (20px)", 172x24px, constraints left/top, fill #000000, text [desktop paragraph]
+
+Screen: Styles and colors / Headline 4 (1.5rem/24px
+- TEXT "Headline 4 (1.5rem/24px", 297x29px, constraints left/top, fill #000000, text [Mobile H4], [heading]
+
+Screen: Styles and colors / Headline 4 (30px
+- TEXT "Headline 4 (30px", 261x37px, constraints left/top, fill #000000, text [Desktop H4], [heading]
+
+Screen: Styles and colors / Headline 3 (2rem/32px)
+- TEXT "Headline 3 (2rem/32px)", 380x39px, constraints left/top, fill #000000, text [Mobile H3], [heading]
+
+Screen: Styles and colors / Headline 3 (40px)
+- TEXT "Headline 3 (40px)", 360x49px, constraints left/top, fill #000000, text [desktop H3], [heading]
+
+Screen: Styles and colors / Headline 2 (2.5rem/40px)
+- TEXT "Headline 2 (2.5rem/40px)", 525x49px, constraints left/top, fill #000000, text [Mobile H2], [heading]
+
+Screen: Styles and colors / Headline 2 (50px)
+- TEXT "Headline 2 (50px)", 461x61px, constraints left/top, fill #000000, text [Desktop H2], [heading]
+
+Screen: Styles and colors / Headline 1 (3rem/48px)
+- TEXT "Headline 1 (3rem/48px)", 566x59px, constraints left/top, fill #000000, text [Mobile H1], [heading]
+
+Screen: Styles and colors / Headline 1 (60px)
+- TEXT "Headline 1 (60px)", 526x73px, constraints left/top, fill #000000, text [Desktop H1], [heading]
+
+Screen: Styles and colors / Mobile styles
+- TEXT "Mobile styles", 322x59px, constraints left/top, fill #000000, text [Montserrat SemiBold, 48px], [heading]
+
+Screen: Styles and colors / Desktop styles (125%)
+- TEXT "Desktop styles (125%)", 524x59px, constraints left/top, fill #000000, text [Montserrat SemiBold, 48px], [heading]
+
+Screen: Styles and colors / Caption (0.750rem/12px)
+- TEXT "Caption (0.750rem/12px)", 145x15px, constraints left/top, fill #000000, text [Mobile Caption]
+
+Screen: Styles and colors / Caption (15px)
+- TEXT "Caption (15px)", 106x18px, constraints left/top, fill #000000, text [Desktop Caption]
+
+Screen: Styles and colors / Yellow
+- TEXT "Yellow", 49x18px, constraints left/top, fill #000000, text [Desktop Caption]
+
+Screen: Styles and colors / Orange
+- TEXT "Orange", 57x18px, constraints left/top, fill #000000, text [Desktop Caption]
+
+Screen: Styles and colors / Red
+- TEXT "Red", 31x18px, constraints left/top, fill #000000, text [Desktop Caption]
+
+Screen: Styles and colors / Maroon
+- TEXT "Maroon", 58x18px, constraints left/top, fill #000000, text [Desktop Caption]
+
+Screen: Styles and colors / Purple
+- TEXT "Purple", 50x18px, constraints left/top, fill #000000, text [Desktop Caption]
+
+Screen: Styles and colors / Black
+- TEXT "Black", 42x18px, constraints left/top, fill #000000, text [Desktop Caption]
+
+Screen: Styles and colors / #ff7c38
+- RECTANGLE "#ff7c38", 57x39px, constraints left/top, fill orange
+
+Screen: Styles and colors / #e03e36
+- RECTANGLE "#e03e36", 57x39px, constraints left/top, fill red
+
+Screen: Styles and colors / #b80d57
+- RECTANGLE "#b80d57", 57x39px, constraints left/top, fill maroon
+
+Screen: Styles and colors / #700961
+- RECTANGLE "#700961", 57x39px, constraints left/top, fill purple
+
+Screen: Styles and colors / #644a7f
+- RECTANGLE "#644a7f", 57x39px, constraints left/top, fill black
+
+Screen: Styles and colors / #edf3b7
+- RECTANGLE "#edf3b7", 57x39px, constraints left/top, fill yellow
+
+Screen: components / hero_master
+- COMPONENT_SET "hero_master", 1312x5378px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=hero_beans", 1280x600px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "hero_beans", 1280x600px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=hero_many_lattes", 1280x600px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "hero_many_lattes", 1280x600px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=hero_coffeeeshop", 1280x600px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "hero_coffeeeshop", 1280x600px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=hero_bedroom", 1280x600px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "hero_bedroom", 1280x600px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=hero_woman", 1280x600px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "hero_woman", 1280x600px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=hero_campfire", 1280x600px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "hero_campfire", 1280x600px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=hero_sunrise", 1280x600px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "hero_sunrise", 1280x600px, constraints scale/scale, fill #D9D9D9
+
+Screen: components / square_master
+- COMPONENT_SET "square_master", 4584x532px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=high_five", 500x500px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "high_five", 500x500px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=woman_sips", 500x500px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "woman_sips", 500x500px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=man_sips", 500x500px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "man_sips", 500x500px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=steaming_mug", 500x500px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "steaming_mug", 500x500px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=spilling_beans", 500x500px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "spilling_beans", 500x500px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=splash", 500x500px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "splash", 500x500px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=pour_over", 500x500px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "pour_over", 500x500px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=metal_mugs", 500x500px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "metal_mugs", 500x500px, constraints scale/scale, fill #D9D9D9
+
+Screen: components / horizontal_master
+- COMPONENT_SET "horizontal_master", 4613x365.33px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=latte_art", 500x333.33px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "latte_art", 500x333.33px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=coffee_sign_lights", 500x333.33px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "coffee_sign_lights", 500x333.33px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=laptop", 500x333.33px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "laptop", 500x333.33px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=zoe_slosh", 500x333.33px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "zoe_slosh", 500x333.33px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=mountain_mugs", 500x333.33px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "mountain_mugs", 500x333.33px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=wodden_spoon", 500x333.33px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "wodden_spoon", 500x333.33px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=floppy_hat", 500x333.33px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "floppy_hat", 500x333.33px, constraints scale/scale, fill #D9D9D9
+  - COMPONENT "Property 1=wodden_board", 500x333.33px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "wodden_board", 500x333.33px, constraints scale/scale, fill #D9D9D9
+
+Screen: components / customer_master
+- COMPONENT_SET "customer_master", 1574x282px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=customer_1", 250x250px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "customer_1", 250x250px, constraints scale/scale, radius 316px, fill image(hash: 641af5b774441983aebe2f1293d1cfc74e01f3f6)
+  - COMPONENT "Property 1=customer_2", 250x250px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "customer_2", 250x250px, constraints scale/scale, radius 316px, fill image(hash: 4cebfbce9baf777535190c663631b97bb9795dc4)
+  - COMPONENT "Property 1=customer_3", 250x250px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "customer_3", 250x250px, constraints scale/scale, radius 316px, fill image(hash: 6c2bf60d7bbf0d3a9fcb1e6854a07e4332677655)
+  - COMPONENT "Property 1=customer_4", 250x250px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "customer_4", 250x250px, constraints scale/scale, radius 316px, fill image(hash: f1e5ca1e9f301eeb05909330a86655a0825d815b)
+  - COMPONENT "Property 1=Customer_5", 250x250px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Customer_5", 250x250px, constraints scale/scale, radius 316px, fill image(hash: 85b7770c54182b8ee7f7a68ba941cd4677fda1cc)
+
+Screen: components / Text_card_1
+- COMPONENT "Text_card_1", 500x371px, vertical pad 24 16 24 16px gap 27px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - TEXT "I am a level 3 headline", 468x49px, constraints left/top, fill #000000, text [desktop H3], [heading]
+  - TEXT "I am a level 4 subheadline", 468x37px, constraints left/top, fill #000000, text [Desktop H4], [heading]
+  - TEXT "Amet minim mollit non deserunt ullamco est sit aliqua dolor ", 404x120px, constraints left/top, fill #000000, text [desktop paragraph]
+  - INSTANCE "cta_button", 206x36px, horizontal pad 8 28 8 28px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill yellow, stroke black 1px
+    - TEXT "Call to Action", 150x20px, constraints left/top, fill black, text [Montserrat SemiBold, 16px]
+
+Screen: components / text_card_2
+- COMPONENT "text_card_2", 500x393px, vertical pad 24 16 24 16px gap 19px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - TEXT "CATEGORY", 427x17px, constraints left/top, fill maroon, text [Montserrat Bold, 14px]
+  - TEXT "I am a level 3 Headline", 427x98px, constraints left/top, fill #000000, text [desktop H3], [heading]
+  - TEXT "Amet minim mollit non deserunt ullamco est sit aliqua dolor ", 468x192px, constraints left/top, fill #000000, text [desktop paragraph]
+
+Screen: components / text_card_3
+- COMPONENT "text_card_3", 500x389px, vertical pad 24 16 24 16px gap 28px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - TEXT "I am a level 2 headline", 468x122px, constraints left/top, fill #000000, text [Desktop H2], [heading]
+  - TEXT "I am a level 3 headline", 468x49px, constraints left/top, fill #000000, text [desktop H3], [heading]
+  - TEXT "Amet minim mollit non deserunt ullamco est sit aliqua dolor ", 468x96px, constraints left/top, fill #000000, text [desktop paragraph]
+
+Screen: components / cta_button
+- COMPONENT "cta_button", 206x36px, horizontal pad 8 28 8 28px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill yellow, stroke black 1px
+  - TEXT "Call to Action", 150x20px, constraints left/top, fill black, text [Montserrat SemiBold, 16px]
+
+Screen: components / text_card_4
+- COMPONENT "text_card_4", 284x203px, vertical pad 23 16 23 16px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - TEXT "Level 4 headline", 252x37px, constraints left/top, fill #000000, text [Desktop H4], [heading]
+  - TEXT "Amet minim mollit non  deserunt ullamco est sit aliqua dolor", 246x72px, constraints left/top, fill #000000, text [desktop paragraph]
+  - TEXT "Call to Action", 150x20px, constraints left/top, fill red, text [Montserrat SemiBold, 16px]
+
+Screen: components / pastry_1
+- RECTANGLE "pastry_1", 500x400px, constraints left/top, fill #D9D9D9
+
+Screen: components / pastry_3
+- RECTANGLE "pastry_3", 500x400px, constraints left/top, fill #D9D9D9
+
+Screen: components / pastry_2
+- RECTANGLE "pastry_2", 500x400px, constraints left/top, fill #D9D9D9
+
+Screen: components / pastry_4
+- RECTANGLE "pastry_4", 500x400px, constraints left/top, fill #D9D9D9
+
+Screen: components / pastry_5
+- RECTANGLE "pastry_5", 500x400px, constraints left/top, fill #D9D9D9
+
+Screen: Final Design / Home_page_desktop
+- FRAME "Home_page_desktop", 1280x2500px, constraints left/top, fill #FFFFFF
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,971 @@
+---
+name: medium-article-screens-community
+source_file: Medium Article Screens (Community)
+source_page: All pages (2): Coverpage, Mobile Screens
+generated_at: 2026-07-25T09:24:42.935099+00:00
+---
+
+# Medium Article Screens (Community) Design Guidelines
+
+## Source
+- Figma file: Medium Article Screens (Community)
+- Figma page: All pages (2): Coverpage, Mobile Screens
+- Extracted at: 2026-07-25T09:24:42.935099+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #6F6F6F: 335 uses
+- #000000: 141 uses
+- #D9D9D9: 84 uses
+- #FFFFFF: 65 uses
+- #F0EEEE: 47 uses
+- #373737: 36 uses
+- #B2B2B2: 36 uses
+- #242424: 25 uses
+- #F9F9F9: 21 uses
+- #5C6BC0: 18 uses
+- #959595: 11 uses
+- #696969: 10 uses
+- #1A8917: 6 uses
+- #D9D9D900: 5 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Test Söhne Buch, 18px: 172 uses
+- Test Söhne Buch, 14px: 78 uses
+- Test Söhne Leicht, 14px: 73 uses
+- Test Söhne Dreiviertelfett, 24px: 36 uses
+- Test Söhne Halbfett, 38px: 19 uses
+- Test Söhne Halbfett, 21.61px: 18 uses
+- Test Söhne Dreiviertelfett, 14px: 15 uses
+- Test Söhne Buch, 16px: 14 uses
+- Test Söhne Buch, 24px: 13 uses
+- Test Söhne Buch, 12px: 4 uses
+- Test Söhne Buch, 20px: 4 uses
+
+## Typography Hierarchy
+- 38px - Test Söhne Halbfett, 38px (raw)
+- 24px - Test Söhne Buch, 24px (raw)
+- 24px - Test Söhne Dreiviertelfett, 24px (raw)
+- 21.61px - Test Söhne Halbfett, 21.61px (raw)
+- 20px - Test Söhne Buch, 20px (raw)
+- 18px - Test Söhne Buch, 18px (raw)
+- 16px - Test Söhne Buch, 16px (raw)
+- 14px - Test Söhne Buch, 14px (raw)
+- 14px - Test Söhne Dreiviertelfett, 14px (raw)
+- 14px - Test Söhne Leicht, 14px (raw)
+- 12px - Test Söhne Buch, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Coverpage / Frame 18
+- FRAME "Frame 18", 507x63px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F5F5F5
+
+Screen: Coverpage / Thumbnail
+- FRAME "Thumbnail", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "iPhone 15 Pro", 1025x1102px, constraints left/top, fill image(hash: c29392b8ad37022b0c96d055f7619c40a47b0c7b)
+  - TEXT "Medium", 730.06x211px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 160.36px], [heading]
+  - TEXT "News app inspired screens", 509x174px, constraints left/top, fill #000000, text [Test Söhne Dreiviertelfett, 65.31px], [heading]
+  - TEXT "Mobile Screens with different states", 645.42x149.83px, constraints left/top, fill #696969, text [Test Söhne Buch, 34.58px], [heading]
+  - FRAME "Frame 36", 232.43x84.52px, vertical pad 9.6 5.76 9.6 5.76px gap 19.21px sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+    - FRAME "Frame 8", 220.9x65.31px, horizontal pad 0 21.13 0 21.13px gap 5.76px align min/center sizing W:fill H:fixed, constraints left/top, radius 14px, fill #1A8917, stroke #FFFFFF 1.92px
+      - TEXT "Light mode", 178.64x40.34px, constraints left/top, fill #FFFFFF, text [Test Söhne Buch, 30.73px], [heading]
+
+Screen: Mobile Screens / Multi-state screen lesson
+- TEXT "Multi-state screen lesson", 488.39x74.69px, constraints left/top, fill #FFFFFF, text [Inter Bold, 34.47px], [heading]
+
+Screen: Mobile Screens / Ideal State - Detail page
+- FRAME "Ideal State - Detail page", 393x852px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - FRAME "Frame 2", 362x344px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Member-only story", 362x55px, constraints left/top, fill #000000, text [Test Söhne Buch, 14px]
+    - TEXT "Steve Jobs hated user research. here’s why i agree with him.", 362x135px, constraints left/top, fill #000000, text [Test Söhne Dreiviertelfett, 34px], [heading]
+    - TEXT "People have no idea what they want, and product managers wou", 362x142px, constraints left/top, fill #373737, text [Test Söhne Buch, 18px]
+  - FRAME "Frame 10", 354x98px, horizontal pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 13", 97x86px, constraints left/top
+      - ELLIPSE "Ellipse 2", 75x73px, constraints left/top, fill image(hash: e02f3f0cd9ad853c5b650849919a4d3ebafea35c), stroke #B2B2B2 1px
+      - ELLIPSE "Ellipse 3", 50x48px, constraints left/top, fill #D9D9D9, stroke #FFFFFF 4px
+    - FRAME "Frame 6", 210x63px, vertical pad 0 0 0 0px gap -5px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 4", 210x50px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Dr. Derek Austin 🥳", 210x21px, constraints left/top, fill #000000, text [Test Söhne Buch, 16px]
+        - TEXT "Published in Career Programming", 210x24px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+      - FRAME "Frame 5", 218x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "10 min read .", 83x29px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+        - TEXT "Jul 31, 2024", 135x29px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+    - TEXT "Follow", 45x98px, constraints left/top, fill #1A8917, text [Test Söhne Kraftig, 14px]
+  - FRAME "Frame 7", 107x34px, horizontal pad 5 13 5 13px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #959595 1px
+    - VECTOR "Vector", 20x20px, constraints left/top, fill #959595
+    - TEXT "Listen", 58x26px, constraints left/top, fill #959595, text [Test Söhne Buch, 16px]
+  - FRAME "Frame 8", 107x34px, horizontal pad 5 13 5 13px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #959595 1px
+    - FRAME "export-variant", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x22px, constraints scale/scale, fill #959595
+    - TEXT "Share", 54x26px, constraints left/top, fill #959595, text [Test Söhne Buch, 16px]
+  - FRAME "Frame 9", 98x34px, horizontal pad 5 13 5 13px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #959595 1px
+    - VECTOR "Vector", 16x4px, constraints left/top, fill #959595
+    - TEXT "More", 53x26px, constraints left/top, fill #959595, text [Test Söhne Buch, 16px]
+  - RECTANGLE "Rectangle 1", 362x95px, constraints left/top, radius 4px, fill #D9D9D9
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+
+Screen: Mobile Screens / Ideal State - Detail page
+- FRAME "Ideal State - Detail page", 393x852px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 3", 742x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - RECTANGLE "Rectangle 16", 340x38px, constraints left/top, fill #D9D9D9, effect [background_blur 4px]
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, effect [layer_blur 4px], text [Test Söhne Leicht, 14px]
+  - FRAME "Frame 2", 362x344px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top [decorative, ~7 shapes]
+  - RECTANGLE "Rectangle 8", 189x52px, constraints left/top, fill #D9D9D9
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x1189px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x956.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 21", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x1189px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x956.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 21", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - BOOLEAN_OPERATION "Subtract", 34x34px, constraints left/top, fill #000000
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x1189px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x960.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 21", 402x300px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x268px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 344x46px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 258x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 238x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 28", 42x42px, horizontal pad 11 11 11 11px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - FRAME "Frame 29", 44x46px, vertical pad 21 0 21 0px gap 22px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x230px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x1189px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x960.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 21", 402x300px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x268px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 344x46px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 258x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 238x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 28", 42x42px, horizontal pad 11 11 11 11px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - FRAME "Frame 29", 44x46px, vertical pad 21 0 21 0px gap 22px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x230px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - ELLIPSE "Ellipse 5", 108x109px, constraints left/top, fill #D9D9D9, stroke #000000 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 7", 393x1189px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 6", 123x123px, constraints left/top, fill #5F4F4F
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x1189px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x960.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 21", 402x300px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x268px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Frame 19", 344x46px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 258x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 238x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 28", 42x42px, horizontal pad 11 11 11 11px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - FRAME "Frame 29", 44x46px, vertical pad 21 0 21 0px gap 22px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x230px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - ELLIPSE "Ellipse 5", 108x109px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 7", 393x1189px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 6", 159.61x159.61px, constraints left/top, fill #5F4F4F
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x1189px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x960.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 21", 402x300px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x268px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Frame 19", 344x46px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 258x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 238x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 28", 42x42px, horizontal pad 11 11 11 11px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - FRAME "Frame 29", 44x46px, vertical pad 21 0 21 0px gap 22px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x230px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - ELLIPSE "Ellipse 5", 108x109px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 7", 393x1189px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 6", 168.36x168.36px, constraints left/top, fill #5F4F4F
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x1189px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x960.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 21", 402x300px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x268px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Frame 19", 344x46px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 258x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 238x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 28", 42x42px, horizontal pad 11 11 11 11px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - FRAME "Frame 29", 44x46px, vertical pad 21 0 21 0px gap 22px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x230px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - ELLIPSE "Ellipse 5", 108x109px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 7", 393x1189px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 6", 129.53x129.53px, constraints left/top, fill #5F4F4F
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x965px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x626.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x230px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x910px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x626.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x230px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 5", 385x1189px, constraints left/top, fill #2B282896
+  - VECTOR "Rectangle 6", 385x821px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - TEXT "Got it, we’ll recommend fewer like this", 313x47px, constraints left/top, fill #373737, text [Test Söhne Dreiviertelfett, 24px], [heading]
+  - TEXT "You can additionally take any of the actions below.", 313x47px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - FRAME "Frame 34", 334x198px, vertical pad 6 0 6 0px gap 3px align min/max sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #6F6F6F 0.25px
+    - FRAME "Frame 31", 334x68px, vertical pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 32", 317x48px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 19x16px, constraints left/top, fill #000000
+        - FRAME "Frame 30", 288x48px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Mute Actions", 288x24px, constraints left/top, fill #000000, text [Test Söhne Buch, 14px]
+          - TEXT "Melody Koh 😆", 288x24px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+    - FRAME "Frame 32", 334x68px, vertical pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 32", 317x48px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 19x16px, constraints left/top, fill #000000
+        - FRAME "Frame 30", 288x48px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Mute Publication", 288x24px, constraints left/top, fill #000000, text [Test Söhne Buch, 14px]
+          - TEXT "Prototypr", 288x24px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+    - FRAME "Frame 33", 334x44px, horizontal pad 10 10 10 6px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - VECTOR "Vector", 24x18px, constraints left/top, fill #FD1010
+      - FRAME "Frame 32", 317x24px, horizontal pad 0 33 0 33px gap -3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 30", 251x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Report story", 251x24px, constraints left/top, fill #FD1010, text [Test Söhne Buch, 14px]
+  - LINE "Line 19", 335x0px, constraints left/top, stroke #6F6F6F 0.25px
+  - LINE "Line 20", 334x0px, constraints left/top, stroke #6F6F6F 0.25px
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - FRAME "Frame 7", 77x27px, horizontal pad 5 13 5 13px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #959595 1px
+    - TEXT "Undo", 51x26px, constraints left/top, fill #959595, text [Test Söhne Buch, 16px]
+  - FRAME "Frame 35", 85x44px, vertical pad 5 3 5 3px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+    - FRAME "Frame 8", 76x34px, horizontal pad 0 11 0 11px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #000000, stroke #FFFFFF 1px
+      - TEXT "Done", 54x26px, constraints left/top, fill #FFFFFF, text [Test Söhne Buch, 16px]
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x910px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x626.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x230px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 5", 385x1189px, constraints left/top, fill #2B282896
+  - VECTOR "Rectangle 6", 385x821px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - TEXT "Responses (2)", 313x47px, constraints left/top, fill #373737, text [Test Söhne Dreiviertelfett, 24px], [heading]
+  - FRAME "Frame 35", 392x86px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "To respond to this story, get the Medium app", 191x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+    - FRAME "Frame 35", 121x44px, vertical pad 5 3 5 3px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+      - FRAME "Frame 8", 108x34px, horizontal pad 0 11 0 11px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #1A8917, stroke #FFFFFF 1px
+        - TEXT "Open in app", 86x21px, constraints left/top, fill #FFFFFF, text [Test Söhne Buch, 16px]
+  - FRAME "Frame 36", 139x55px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "MOST RELEVANT", 118x55px, constraints left/top, fill #000000, text [Test Söhne Dreiviertelfett, 14px]
+    - VECTOR "Vector", 12x7.41px, constraints left/top, fill #373737
+  - FRAME "Frame 21", 393x222px, vertical pad 0 0 0 0px gap -34px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 20", 362x213px, vertical pad 0 0 0 0px gap -141px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 2", 362x213px, constraints left/top
+        - FRAME "Frame 14", 362x198px, vertical pad 49 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 13", 362x191px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 37", 362x46px, horizontal pad 0 0 0 0px gap 9px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "It leaves myself looking flushed and so flawless and lasts a", 348x82px, constraints left/top, fill #373737, text [Test Söhne Buch, 16px]
+      - FRAME "Frame 19", 362x53px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 18", 362x53px, vertical pad 10 10 10 10px gap 19px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 17", 342x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 15", 93.02x22px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 21", 362x213px, vertical pad 0 0 0 0px gap -141px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 2", 362x213px, constraints left/top
+        - FRAME "Frame 14", 362x198px, vertical pad 49 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 13", 362x191px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 37", 362x46px, horizontal pad 0 0 0 0px gap 9px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "This is wonderful. Thanks alot!", 348x82px, constraints left/top, fill #373737, text [Test Söhne Buch, 16px]
+      - FRAME "Frame 19", 362x53px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 18", 362x53px, vertical pad 10 10 10 10px gap 19px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 17", 342x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 15", 93.02x22px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 16", 393x0px, constraints left/top, stroke #F0EEEE 1px
+
+Screen: Mobile Screens / Ideal State - Listing page
+- FRAME "Ideal State - Listing page", 393x1189px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 23", 402x956.01px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 21", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 22", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+    - FRAME "Frame 23", 402x296px, vertical pad 0 0 0 0px gap 32px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 362x264px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 2", 362x213px, constraints left/top
+          - FRAME "Frame 14", 362x198px, vertical pad 54 0 54 0px gap 10px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 13", 362x198px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 2", 85.84x46px, constraints left/top, radius 4px, fill #D9D9D9
+        - FRAME "Frame 19", 334.02x42px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 272.02x42px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 252.02x22px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints left/top, fill #6F6F6F, stroke #6F6F6F 2px
+          - VECTOR "Vector", 16x4px, constraints left/top, fill #6F6F6F
+      - LINE "Line 16", 402x0px, constraints left/top, stroke #F0EEEE 1px
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - GROUP "Group 14", 226x148px, constraints left/top, radius 0/0/0/0px
+    - FRAME "Frame 25", 226x138px, vertical pad 17 17 17 17px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #242424
+      - TEXT "Looking to view articles by your favorite authors? You can v", 190x65px, constraints left/top, fill #FFFFFF, text [Test Söhne Buch, 14px]
+      - TEXT "Okay, got it", 197x39px, constraints left/top, fill #FFFFFF, text [Test Söhne Buch, 14px]
+    - REGULAR_POLYGON "Polygon 1", 28x19px, constraints left/top, radius 2px, fill #242424
+
+Screen: Mobile Screens / Ideal State - Listing page - Blank
+- FRAME "Ideal State - Listing page - Blank", 393x852px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 3", 359x371px, constraints left/top, radius 4px, fill #F9F9F9
+  - TEXT "Articles based on your preference will appear here.", 268x156px, constraints left/top, fill #696969, text [Test Söhne Buch, 18px]
+  - TEXT "Browse Articles Now", 268x81px, constraints left/top, fill #1A8917, text [Test Söhne Buch, 20px]
+
+Screen: Mobile Screens / Ideal State - Listing page - tutorial
+- FRAME "Ideal State - Listing page - tutorial", 393x852px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+  - FRAME "Frame 24", 350.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "+", 23x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 24px], [heading]
+    - TEXT "For you", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Following", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Disability", 98x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - LINE "Line 18", 63x0px, constraints left/top, stroke #000000 1px
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 3", 359x371px, constraints left/top, radius 4px, fill #F9F9F9
+  - TEXT "Articles based on your preference will appear here.", 268x156px, constraints left/top, fill #696969, text [Test Söhne Buch, 18px]
+  - TEXT "Browse Articles Now", 268x81px, constraints left/top, fill #1A8917, text [Test Söhne Buch, 20px]
+  - RECTANGLE "Rectangle 4", 393x852px, constraints left/top, fill #24242447
+  - GROUP "Group 14", 226x148px, constraints left/top, radius 0/0/0/0px
+    - FRAME "Frame 25", 226x138px, vertical pad 17 17 17 17px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #242424
+      - TEXT "Looking to view articles by your favorite authors? You can v", 190x65px, constraints left/top, fill #FFFFFF, text [Test Söhne Buch, 14px]
+      - TEXT "Okay, got it", 197x39px, constraints left/top, fill #FFFFFF, text [Test Söhne Buch, 14px]
+    - REGULAR_POLYGON "Polygon 1", 28x19px, constraints left/top, radius 2px, fill #242424
+
+Screen: Mobile Screens / Ideal State - Listing page - tutorial
+- FRAME "Ideal State - Listing page - tutorial", 393x852px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 4", 393x852px, constraints left/top, fill #24242447
+  - FRAME "Frame 26", 310x38px, horizontal pad 6 13 6 13px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top, radius 31px, stroke #B2B2B2 1px
+    - VECTOR "Vector", 18x19px, constraints left/top, fill #D9D9D9
+    - TEXT "Search", 90x26px, constraints left/top, fill #696969, text [Test Söhne Buch, 16px]
+  - TEXT "Recent searches", 256x32px, constraints left/top, fill #000000, text [Test Söhne Dreiviertelfett, 24px], [heading]
+  - TEXT "You have no recent searches.", 268x78px, constraints left/top, fill #696969, text [Test Söhne Buch, 18px]
+
+Screen: Mobile Screens / Ideal State - Listing page - tutorial
+- FRAME "Ideal State - Listing page - tutorial", 393x852px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 4", 393x852px, constraints left/top, fill #24242447
+  - FRAME "Frame 26", 310x38px, horizontal pad 6 13 6 13px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top, radius 31px, stroke #B2B2B2 1px
+    - VECTOR "Vector", 18x19px, constraints left/top, fill #D9D9D9
+    - TEXT "djbdk |", 90x26px, constraints left/top, fill #696969, text [Test Söhne Buch, 16px]
+  - TEXT "Make sure all words are spelled correctly. Try different key", 336x78px, constraints left/top, fill #696969, text [Test Söhne Buch, 18px]
+  - FRAME "Frame 24", 371.41x39px, horizontal pad 6 13 6 13px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Stories", 78x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "People", 71x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Publications", 110x27px, constraints left/top, fill #6F6F6F, text [Test Söhne Buch, 18px]
+    - TEXT "Topic", 59x27px, constraints left/top, fill gradient_linear(#6F6F6F 0% | #D5D5D500 100%), text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 7.41x12px, constraints left/top, fill #6F6F6F
+  - TEXT "Results for djbdk", 256x32px, constraints left/top, fill #000000, text [Test Söhne Dreiviertelfett, 24px], [heading]
+  - LINE "Line 17", 358.01x0px, constraints left/top, stroke #F0EEEE 1px
+
+Screen: Mobile Screens / Ideal State - Listing page - tutorial
+- FRAME "Ideal State - Listing page - tutorial", 393x852px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - RECTANGLE "Rectangle 4", 393x852px, constraints left/top, fill #24242447
+  - FRAME "Frame 35", 121x44px, vertical pad 5 3 5 3px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+    - FRAME "Frame 8", 108x34px, horizontal pad 0 11 0 11px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #242424, stroke #FFFFFF 1px
+      - TEXT "Get Started", 86x21px, constraints left/top, fill #FFFFFF, text [Test Söhne Buch, 16px]
+  - TEXT "Human stories & ideas", 362x45px, constraints left/top, fill #000000, text [Test Söhne Dreiviertelfett, 34px], [heading]
+  - TEXT "A place to read, write and deepen your understanding.", 336x78px, constraints left/top, fill #696969, text [Test Söhne Buch, 18px]
+  - FRAME "Frame 36", 121x44px, vertical pad 5 3 5 3px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #D9D9D900
+    - FRAME "Frame 8", 115x34px, horizontal pad 0 11 0 11px gap 3px align min/center sizing W:fill H:fixed, constraints left/top, radius 20px, fill #1A8917, stroke #FFFFFF 1px
+      - TEXT "Start reading", 93x21px, constraints left/top, fill #FFFFFF, text [Test Söhne Buch, 16px]
+
+Screen: Mobile Screens / Ideal State - Listing page - tutorial
+- FRAME "Ideal State - Listing page - tutorial", 393x852px, constraints left/top, fill #FFFFFF
+  - TEXT "Medium", 173x50px, constraints left/top, fill #242424, text [Test Söhne Halbfett, 38px], [heading]
+  - FRAME "Frame 1", 146.5x38px, horizontal pad 0 0 0 0px gap 26px align min/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 26.5x27.13px, constraints left/top, fill #D9D9D9
+    - VECTOR "Vector", 30x31.5px, constraints left/top, radius 0/0/0/0px, fill #D9D9D9
+    - BOOLEAN_OPERATION "Subtract", 38x38px, constraints left/top, fill #5C6BC0
+  - FRAME "Frame 3", 392x80px, horizontal pad 21 29 21 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F9F9F9
+    - TEXT "Your membership will expire on December 1,2024 Reactivate me", 334x38px, constraints left/top, fill #000000, text [Test Söhne Leicht, 14px]
+  - VECTOR "Vector", 14x14px, constraints center/top, fill #6F6F6F
+  - RECTANGLE "Rectangle 4", 393x852px, constraints left/top, fill #24242447
+  - FRAME "Frame 26", 310x38px, horizontal pad 6 13 6 13px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top, radius 31px, stroke #B2B2B2 1px
+    - VECTOR "Vector", 18x19px, constraints left/top, fill #D9D9D9
+    - TEXT "Search", 90x26px, constraints left/top, fill #696969, text [Test Söhne Buch, 16px]
+  - TEXT "Recent searches", 256x32px, constraints left/top, fill #000000, text [Test Söhne Dreiviertelfett, 24px], [heading]
+  - FRAME "Frame 27", 334x78px, horizontal pad 0 0 0 0px gap 52px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Steve Jobs", 268x78px, constraints left/top, fill #696969, text [Test Söhne Buch, 18px]
+    - VECTOR "Vector", 14x14px, constraints left/top, fill #6F6F6F
+
+Screen: Mobile Screens / dots-horizontal
+- FRAME "dots-horizontal", 24x24px, constraints left/top, fill #FFFFFF
+
+Screen: Mobile Screens / arrow-down-drop-circle-outline
+- FRAME "arrow-down-drop-circle-outline", 24x24px, constraints left/top, fill #FFFFFF
+
+Screen: Mobile Screens / chevron-up
+- FRAME "chevron-up", 24x24px, constraints left/top, fill #FFFFFF
+
+Screen: Mobile Screens / Line 21
+- LINE "Line 21", 393x0px, constraints left/top, stroke #F0EEEE 1px
+
+Screen: Mobile Screens / Line 22
+- LINE "Line 22", 393x0px, constraints left/top, stroke #000000 1px
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

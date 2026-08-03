@@ -1,0 +1,1385 @@
+---
+name: reddit-design-system-community
+source_file: Reddit Design System (Community)
+source_page: All pages (16): Cover, Intro, __________________, Color, Typography, Grid, ____________________, Buttons, Card, Dropdown, Icon, Input Field, Navigation, Pill, Tab, Testing
+generated_at: 2026-07-25T09:17:36.773554+00:00
+---
+
+# Reddit Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Reddit Design System (Community)
+- Figma page: All pages (16): Cover, Intro, __________________, Color, Typography, Grid, ____________________, Buttons, Card, Dropdown, Icon, Input Field, Navigation, Pill, Tab, Testing
+- Extracted at: 2026-07-25T09:17:36.773554+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- www.reddit.com/Lochmara: [#0079D3]
+- www.reddit.com/Nero: [#FFFFFF]
+- www.reddit.com/Emerald: [#46D160]
+- www.reddit.com/Black: [#000000]
+- www.reddit.com/Porcelain: [#EDEFF1]
+- www.reddit.com/Shark: [#1A1A1B]
+- www.reddit.com/Oslo Gray: [#878A8C]
+- www.reddit.com/Oslo Gray 50%: [#878A8C80]
+- www.reddit.com/Gray Chateau: [#9FA1A3]
+- www.reddit.com/Cod Gray: [#1C1C1C]
+- www.reddit.com/Boulder: [#7C7C7C]
+- www.reddit.com/Givry: [#F7E1CB]
+- www.reddit.com/Diesel: [#FFFF00]
+- www.reddit.com/Deep Cerulean: [#FF7BAC]
+- www.reddit.com/Silver: [#CCCCCC]
+- www.reddit.com/Flamingo: [#F15A24]
+- www.reddit.com/Bright Turquoise: [#0DD3BB]
+- www.reddit.com/Shark 7%: none
+- colors/neutral/fg: [#171F22]
+
+## Raw Colors (unstyled)
+- #000000: 86 uses
+- #878A8C: 72 uses
+- #FFFFFF: 61 uses
+- #9747FF: 60 uses
+- #1C1C1C: 36 uses
+- #1A1A1B: 25 uses
+- #0079D3: 14 uses
+- #EDEFF1: 14 uses
+- #787C7E: 12 uses
+- #434343: 10 uses
+- #D9D9D9: 10 uses
+- #FFFFFF80: 9 uses
+- #8F8F8F: 8 uses
+- #00B162: 6 uses
+- #1A1A1B12: 6 uses
+- #589AD8: 5 uses
+- #0279D3: 4 uses
+- #46D160: 4 uses
+- #7C7C7C: 4 uses
+- #FF4500: 4 uses
+- #106AB5: 3 uses
+- #797979: 3 uses
+- #FF825E: 3 uses
+
+## Typography Tokens
+- Body 2/Bold (button): Noto Sans Bold (700), 14px / 17px, tracking 0px
+- Body 2/Regular: Noto Sans Regular (400), 14px / 21px, tracking 0px
+- Body 1/Medium: IBM Plex Sans Medium (500), 14px / 18px, tracking 0px
+- Title 2: IBM Plex Sans Medium (500), 18px / 22px, tracking 0px
+- Caption 1/Bold: IBM Plex Sans Bold (700), 12px / 16px, tracking 0px
+- Caption 1/Regular: IBM Plex Sans Regular (400), 12px / 16px, tracking 0px
+- Username/Bold: IBM Plex Sans Bold (700), 12px / 16px, tracking 0px
+- Body2/Bold (button): Noto Sans Bold (700), 14px / 17px, tracking 0px
+- Caption2/Regular (Noto): Noto Sans Regular (400), 12px / 16px, tracking 0px
+- Caption1/Bold: IBM Plex Sans Bold (700), 12px / 16px, tracking 0px
+- Body1/Regular (IBM): IBM Plex Sans Regular (400), 14px / 21px, tracking 0px
+- Username/Medium: IBM Plex Sans Medium (500), 12px / 16px, tracking 0px
+- Body 1/Regular: IBM Plex Sans Regular (400), 14px / 21px, tracking 0px
+- Title 1: IBM Plex Sans Medium (500), 20px / 24px, tracking 0px
+- Caption 3/Uppercase: IBM Plex Sans Bold (700), 10px / 12px, tracking 0.5px
+- Caption 2/Bold: Noto Sans Bold (700), 12px / 16px, tracking 0px
+- Body 1/Regular: IBM Plex Sans Regular (400), 14px / 18px, tracking 0px
+- Username/Regular: IBM Plex Sans Regular (400), 12px / 16px, tracking 0px
+- www.reddit.com/IBM Plex Sans/Medium 14: IBM Plex Sans Medium (500), 14px / auto, tracking 0px
+- Title 3: IBM Plex Sans Medium (500), 16px / 20px, tracking 0px
+- Caption 1/Medium: IBM Plex Sans Medium (500), 12px / 16px, tracking 0px
+- Caption2/Bold: Noto Sans Bold (700), 12px / 16px, tracking 0px
+- Caption3/Uppercase: IBM Plex Sans Bold (700), 10px / 12px, tracking 0.5px
+- Label (username)/Bold: IBM Plex Sans Bold (700), 10px / 16px, tracking 0px
+- Label (username)/Medium: IBM Plex Sans Medium (500), 10px / 16px, tracking 0px
+- Caption1/Medium: IBM Plex Sans Medium (500), 12px / 16px, tracking 0px
+- Caption1/Regular (IBM): IBM Plex Sans Regular (400), 12px / 16px, tracking 0px
+- Body1/Medium: IBM Plex Sans Medium (500), 14px / 18px, tracking 0px
+- Body2/Regular (Noto): Noto Sans Regular (400), 14px / 21px, tracking 0px
+- H3/Bold: IBM Plex Sans Bold (700), 16px / 20px, tracking 0px
+- H3/Medium: IBM Plex Sans Medium (500), 16px / 20px, tracking 0px
+- H2/Bold: IBM Plex Sans Bold (700), 18px / 22px, tracking 0px
+- H2/Medium: IBM Plex Sans Medium (500), 18px / 22px, tracking 0px
+- H1/Bold: IBM Plex Sans Bold (700), 20px / 24px, tracking 0px
+- H1/Medium: IBM Plex Sans Medium (500), 20px / 24px, tracking 0px
+
+## Raw Typography (unstyled)
+- Noto Sans Bold, 14px: 45 uses
+- IBM Plex Sans Regular, 12px: 36 uses
+- IBM Plex Sans Bold, 12px: 20 uses
+- IBM Plex Sans Medium, 14px: 16 uses
+- Noto Sans Regular, 24px: 16 uses
+- IBM Plex Sans Regular, 20px: 13 uses
+- Noto Sans Regular, 12px: 13 uses
+- IBM Plex Sans Regular, 14px: 11 uses
+- IBM Plex Sans Regular, 32px: 11 uses
+- IBM Plex Sans SemiBold, 75px: 11 uses
+- IBM Plex Sans Medium, 16px: 10 uses
+- IBM Plex Sans Bold, 20px: 7 uses
+- IBM Plex Sans Medium, 40px: 7 uses
+- Noto Sans Regular, 14px: 7 uses
+- Noto Sans Medium, 34px: 6 uses
+- IBM Plex Sans Bold, 10px: 5 uses
+- Noto Sans Medium, 14px: 5 uses
+- Avenir Next Bold, 20px: 4 uses
+- IBM Plex Sans Regular, 6px: 4 uses
+- Noto Sans Medium, 50px: 4 uses
+- Noto Sans Regular, 28px: 4 uses
+- IBM Plex Sans Regular, 40px: 3 uses
+- IBM Plex Sans SemiBold, 66px: 3 uses
+
+## Typography Hierarchy
+- 75px - IBM Plex Sans SemiBold, 75px (raw)
+- 66px - IBM Plex Sans SemiBold, 66px (raw)
+- 50px - Noto Sans Medium, 50px (raw)
+- 40px - IBM Plex Sans Medium, 40px (raw)
+- 40px - IBM Plex Sans Regular, 40px (raw)
+- 34px - Noto Sans Medium, 34px (raw)
+- 32px - IBM Plex Sans Regular, 32px (raw)
+- 28px - Noto Sans Regular, 28px (raw)
+- 24px - Noto Sans Regular, 24px (raw)
+- 20px - Avenir Next Bold, 20px (raw)
+- 20px - H1/Bold (IBM Plex Sans Bold)
+- 20px - H1/Medium (IBM Plex Sans Medium)
+- 20px - IBM Plex Sans Bold, 20px (raw)
+- 20px - IBM Plex Sans Regular, 20px (raw)
+- 20px - Title 1 (IBM Plex Sans Medium)
+- 18px - H2/Bold (IBM Plex Sans Bold)
+- 18px - H2/Medium (IBM Plex Sans Medium)
+- 18px - Title 2 (IBM Plex Sans Medium)
+- 16px - H3/Bold (IBM Plex Sans Bold)
+- 16px - H3/Medium (IBM Plex Sans Medium)
+- 16px - IBM Plex Sans Medium, 16px (raw)
+- 16px - Title 3 (IBM Plex Sans Medium)
+- 14px - Body 1/Medium (IBM Plex Sans Medium)
+- 14px - Body 1/Regular (IBM Plex Sans Regular)
+- 14px - Body 2/Bold (button) (Noto Sans Bold)
+- 14px - Body 2/Regular (Noto Sans Regular)
+- 14px - Body1/Medium (IBM Plex Sans Medium)
+- 14px - Body1/Regular (IBM) (IBM Plex Sans Regular)
+- 14px - Body2/Bold (button) (Noto Sans Bold)
+- 14px - Body2/Regular (Noto) (Noto Sans Regular)
+- 14px - IBM Plex Sans Medium, 14px (raw)
+- 14px - IBM Plex Sans Regular, 14px (raw)
+- 14px - Noto Sans Bold, 14px (raw)
+- 14px - Noto Sans Medium, 14px (raw)
+- 14px - Noto Sans Regular, 14px (raw)
+- 14px - www.reddit.com/IBM Plex Sans/Medium 14 (IBM Plex Sans Medium)
+- 12px - Caption 1/Bold (IBM Plex Sans Bold)
+- 12px - Caption 1/Medium (IBM Plex Sans Medium)
+- 12px - Caption 1/Regular (IBM Plex Sans Regular)
+- 12px - Caption 2/Bold (Noto Sans Bold)
+- 12px - Caption1/Bold (IBM Plex Sans Bold)
+- 12px - Caption1/Medium (IBM Plex Sans Medium)
+- 12px - Caption1/Regular (IBM) (IBM Plex Sans Regular)
+- 12px - Caption2/Bold (Noto Sans Bold)
+- 12px - Caption2/Regular (Noto) (Noto Sans Regular)
+- 12px - IBM Plex Sans Bold, 12px (raw)
+- 12px - IBM Plex Sans Regular, 12px (raw)
+- 12px - Noto Sans Regular, 12px (raw)
+- 12px - Username/Bold (IBM Plex Sans Bold)
+- 12px - Username/Medium (IBM Plex Sans Medium)
+- 12px - Username/Regular (IBM Plex Sans Regular)
+- 10px - Caption 3/Uppercase (IBM Plex Sans Bold)
+- 10px - Caption3/Uppercase (IBM Plex Sans Bold)
+- 10px - IBM Plex Sans Bold, 10px (raw)
+- 10px - Label (username)/Bold (IBM Plex Sans Bold)
+- 10px - Label (username)/Medium (IBM Plex Sans Medium)
+- 6px - IBM Plex Sans Regular, 6px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow - 1: [drop_shadow 6px offset 0 2 #00000033]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- OC - Button Tag
+- Spoiler - Button Tag
+- NSFW Button Tag
+- Tab button
+- Tab Button -1
+- Top Tab Button
+- Best Tab Button
+- Hot Tab Button
+- New Tab Button
+- Comment Card
+- Create Post Card
+- Card
+- Community tile
+- Recent Posts Item
+- Flair -Button Tag
+- Create Post Dropdown
+- Icon Button
+- Icon
+- Poll
+- notification
+- table
+- quote block
+- codeblock
+- link
+- alert-circle
+- size
+- Ellipsis
+- abc list
+- Bulleted list
+- numbered list
+- Superscript
+- Gif
+- Image
+- Code
+- Link
+- Post
+- Dropdown
+- Add
+- Alert-circle
+- Hot
+- Best
+- Top
+- New
+- Arrow
+- Search
+- Bookmark
+- Vote
+- Comment Field
+- Searchbar
+- Create Post Field
+- Create Post Textfield
+- Comments Textfield
+- Tab for Homepage
+- Header
+- Tab for Create a Post - Poll Active
+- Tabs for Create a post - Poll Inactive
+
+## Component Specs
+- OC - Button Tag: size 85x36px, radius 9999px, vertical layout, padding 6 16 6 16px, gap 0px, sizing W:fixed H:fixed, stroke #888888 1px, text [Body2/Bold (button)] | variants: State: Default/Hover/Inactive/Selected
+- Spoiler - Button Tag: size 113x36px, radius 9999px, vertical layout, padding 6 16 6 16px, gap 0px, sizing W:fixed H:fixed, stroke #888888 1px, text [Body2/Bold (button)] | variants: State: Default/Hover/Inactive/Selected
+- NSFW Button Tag: size 105x36px, radius 99px, vertical layout, padding 6 16 6 16px, gap 0px, sizing W:fixed H:fixed, stroke #888888 1px, text [Body2/Bold (button)] | variants: State: Default/Hover/Inactive/Selected
+- Tab button: size 122x41px, radius 99px, horizontal layout, padding 0 20 0 20px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #F6F7F8, text [Body2/Bold (button)] | variants: Current: False/True; State: hover/rest
+- Tab Button -1: size 185x50.24px, horizontal layout, padding 12 32 12 32px, gap 36px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF00, stroke #0079D3 1px, text [Body2/Bold (button)] | variants: State: Deselected/Selected/hover
+- Top Tab Button: size 75.76x32px, horizontal layout, padding 4 8 4 8px, gap 4px, align center/center, sizing W:fixed H:fixed, text [Body2/Bold (button)] | variants: State: Default/Hover/Selected
+- Best Tab Button: size 75.76x32px, horizontal layout, padding 4 8 4 8px, gap 4px, align center/center, sizing W:fixed H:fixed, text [Body2/Bold (button)] | variants: State: Default/Hover/Selected
+- Hot Tab Button: size 75.76x32px, horizontal layout, padding 4 8 4 8px, gap 4px, align center/center, sizing W:fixed H:fixed, text [Body2/Bold (button)] | variants: State: Default/Hover/Selected
+- New Tab Button: size 75.76x32px, horizontal layout, padding 4 8 4 8px, gap 4px, align center/center, sizing W:fixed H:fixed, text [Body2/Bold (button)] | variants: State: Default/Hover/Selected
+- Comment Card: size 704x109px, fill #FFFFFF, text [Caption 2/Bold, Username/Medium, Body 1/Regular, Username/Regular] | variants: Type: Comment & Reply/comment/reply
+- Create Post Card: size 741x671px, text [IBM Plex Sans Medium, 14px, Body 2/Bold (button), Noto Sans Bold, 14px, Body2/Bold (button), Body 2/Regular, Caption 1/Bold, Caption 3/Uppercase, IBM Plex Sans Regular, 14px, www.reddit.com/IBM Plex Sans/Medium 14, Noto Sans Regular, 12px, Title 1] | variants: State: active/rest/save draft active
+- Card/Post(Text Only): size 640x223px, radius 4px, fill #FFFFFF, stroke #D1D1D1 1px, text [Body2/Bold (button), Caption2/Regular (Noto), Caption1/Bold, IBM Plex Sans Regular, 6px, Body1/Regular (IBM), Title 2] | variants: Property 1: Post (Text Only)
+- Card: size 312x336px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #D1D1D1 1px, text [Caption 1/Bold, Caption 1/Medium, Noto Sans Bold, 14px, Username/Bold] | variants: Property 1: Moderator/Variant2/Variant3
+- Community tile: size 321x68px, horizontal layout, padding 16 8 16 8px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #C3C3C3 1px, text [Noto Sans Bold, 14px, Username/Regular, Username/Bold] | variants: State: Default/Hover
+- Card/Home: size 310x261px, text [Noto Sans Bold, 14px, Body 2/Bold (button), Noto Sans Regular, 14px, IBM Plex Sans Medium, 16px] | variants: State: Create Community Hover/Create Community Pressed/Create Post Button Hover/Create Post Pressed/Home
+- Recent Posts Item: size 286x87px, horizontal layout, padding 12 0 12 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #F6F7F8 1px, text [IBM Plex Sans Regular, 12px, IBM Plex Sans Bold, 12px, IBM Plex Sans Medium, 14px] | variants: Order: first middle/last
+- Card/Premium Card: size 306x94px, radius 4px, vertical layout, padding 10 10 10 10px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #C3C3C3 1px, text [Noto Sans Bold, 14px, Body 2/Regular, Body 1/Medium] | variants: State: hover/rest
+- Card/Reddit Rules: size 357.32x355.06px, radius 4px, vertical layout, padding 12 12 12 12px, gap 24px, sizing W:fixed H:fixed, text [Caption 1/Bold, Title 3]
+- Card/Post(Image Only): size 640x672px, fill #FFFFFF, text [Body 2/Bold (button), Title 2, Caption 1/Bold, Caption 1/Regular, IBM Plex Sans Regular, 6px, Username/Bold]
+- Card/About Community: size 312x492.5px, radius 4px, vertical layout, padding 1 1 1 1px, gap 0px, sizing W:fixed H:fixed, fill www.reddit.com/Nero, stroke www.reddit.com/Silver 1px, text [Noto Sans Bold, 10px, Body 2/Bold (button), Noto Sans Bold, 14px, Noto Sans Regular, 14px, IBM Plex Sans Regular, 12px, IBM Plex Sans Medium, 16px, Body 2/Regular, IBM Plex Sans Bold, 14px]
+- Flair -Button Tag: size 134.88x34.06px, radius 9999px, vertical layout, padding 4 16 4 16px, gap 10px, align center/center, sizing W:fixed H:fixed, stroke #888888 1px, text [Body2/Bold (button)] | variants: State: Default/Hover/Inactive
+- Create Post Dropdown: size 269x36px, radius 4px, horizontal layout, padding 10 17 10 17px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Body1/Regular (IBM)] | variants: State: hover/rest
+- Icon Button: size 24x24px, radius 4px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: State: focused/hover/rest; Type: Image/Link/Upvote/down/downvote; Selected: False/True
+- Icon: size 19.45x19.46px, vertical layout, padding 0 0 0 0px, gap 10px, align space_between/center, sizing W:fixed H:fixed | variants: Community_Icon: Big/Small
+- Poll: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF | variants: State: Inactive/Selected/Unselected
+- notification: size 32x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: Icon Button/abc list; Property 2: Icon Button/rest; Property 3: rest; Property 4: Notification- new
+- table: size 32x32px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: Icon Button; Property 2: rest
+- quote block: size 32x32px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: Icon Button; Property 2: rest
+- codeblock: size 32x32px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: Icon Button; Property 2: rest
+- link: size 32x32px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: Icon Button; Property 2: rest
+- alert-circle: size 32x32px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: rest
+- size: size 32x32px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: rest
+- Ellipsis: size 32x32px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: rest
+- abc list: size 32x32px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: rest
+- Bulleted list: size 32x32px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: hover/rest
+- numbered list: size 32x32px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: hover/rest
+- Superscript: size 32x32px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: hover/rest
+- Gif: size 32x32px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: hover/rest
+- Image (Icon): size 32x32px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: hover/rest
+- Code: size 32x32px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Property 1: hover/rest
+- Link: size 24x24px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: state: Selected/rest
+- Image (Icon): size 24x24px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: State: Selected/rest
+- Post: size 26.24x26.24px, horizontal layout, padding 4 4 4 4px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: State: Unselected/selected
+- Dropdown: size 26.88x22.06px, vertical layout, padding 8 8 8 8px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF | variants: State: Active/Inactive
+- Add: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Thickness: thicker/thinner
+- Alert-circle: size 20x20px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Type: spoiler/circle
+- Hot: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Selected: False/True
+- Best: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Selected: False/True
+- Top: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Selected: False/True
+- New: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Selected: False/True
+- Arrow: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Type: circle/dropdown-down/dropdown-down bl/dropdown-up/share
+- Search: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Size: large/medium
+- Bookmark: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Type: 1/2
+- Vote: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Direction: down/up
+- Icon/Birthday Cake: size 26x17.74px, vertical layout, padding 0 4 0 0px, gap 0px, sizing W:fixed H:fixed
+- Comment Field: size 707x182px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Caption 1/Bold] | variants: Satet: Active/Default
+- Searchbar: size 389x40px, radius 99px, horizontal layout, padding 10 16 10 16px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #F6F7F8, text [Body 1/Regular] | variants: State: filled/focus/hover/rest
+- Create Post Field: size 486x41px, radius 4px, horizontal layout, padding 10 17 10 17px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #F6F7F8, stroke #EDEFF1 1px, text [Body1/Regular (IBM)] | variants: Location: Create a post/Homepage; State: filled/focus/rest
+- Create Post Textfield: size 707x182px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, stroke #EDEFF1 1px, text [Body 2/Regular, Caption 1/Bold] | variants: State: filled/focused/rest
+- Comments Textfield: size 613x172px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #EDEFF1 1px, text [Caption 1/Bold, Body 2/Regular] | variants: State: filled/focused/rest; Type: Comments/Comments Reply
+- Tab for Homepage: size 638x60px, fill #FFFFFF, text [Body 2/Bold (button)] | variants: State: Best selected/Hot selected/New selected/Top Selected
+- Header: size 1350x59px, fill #FFFFFF, text [Noto Sans Bold, 14px, Noto Sans Medium, 14px, Body 1/Regular] | variants: Version: Logged In/Logged out
+- Tab for Create a Post - Poll Active: size 740x50.44px, fill #FFFFFF, text [Body 2/Bold (button)] | variants: Version: Image & Video/Link/Post
+- Tabs for Create a post - Poll Inactive: size 740x50.44px, fill #FFFFFF, text [Body 2/Bold (button)] | variants: Version: Image or Video/Link/Poll Selected/Post
+- Card/Post(Text Only)/Post (Text Only): size 640x223px, radius 4px, fill #FFFFFF, stroke #D1D1D1 1px, text [Body2/Bold (button), Caption2/Regular (Noto), Caption1/Bold, IBM Plex Sans Regular, 6px, Body1/Regular (IBM), Title 2]
+
+## Most-Used Styles
+- Body 2/Bold (button): 91 uses
+- Body2/Bold (button): 51 uses
+- Caption 1/Bold: 48 uses
+- Title 1: 46 uses
+- www.reddit.com/Nero: 40 uses
+- www.reddit.com/Oslo Gray: 40 uses
+- www.reddit.com/Lochmara: 26 uses
+- www.reddit.com/Black: 24 uses
+- www.reddit.com/Shark: 23 uses
+- Caption 1/Medium: 19 uses
+- www.reddit.com/Cod Gray: 18 uses
+- Body 2/Regular: 17 uses
+- www.reddit.com/Porcelain: 17 uses
+- Username/Medium: 12 uses
+- Body 1/Regular: 11 uses
+- Username/Bold: 10 uses
+- Caption 3/Uppercase: 9 uses
+- www.reddit.com/Oslo Gray 50%: 9 uses
+- Caption 1/Regular: 8 uses
+- Caption 2/Bold: 8 uses
+- Username/Regular: 8 uses
+- Caption2/Regular (Noto): 7 uses
+- Body1/Regular (IBM): 6 uses
+- Title 3: 6 uses
+- Title 2: 5 uses
+- www.reddit.com/Boulder: 5 uses
+- www.reddit.com/Bright Turquoise: 5 uses
+- Body 1/Medium: 4 uses
+- Caption1/Bold: 3 uses
+- www.reddit.com/Gray Chateau: 3 uses
+- www.reddit.com/IBM Plex Sans/Medium 14: 3 uses
+- www.reddit.com/Shark 7%: 3 uses
+- Label (username)/Medium: 2 uses
+- www.reddit.com/Diesel: 2 uses
+- www.reddit.com/Emerald: 2 uses
+- www.reddit.com/Silver: 2 uses
+- Body1/Medium: 1 use
+- Body2/Regular (Noto): 1 use
+- Caption1/Medium: 1 use
+- Caption1/Regular (IBM): 1 use
+- Caption2/Bold: 1 use
+- Caption3/Uppercase: 1 use
+- H1/Bold: 1 use
+- H1/Medium: 1 use
+- H2/Bold: 1 use
+- H2/Medium: 1 use
+- H3/Bold: 1 use
+- H3/Medium: 1 use
+- Label (username)/Bold: 1 use
+- Shadow - 1: 1 use
+- www.reddit.com/Deep Cerulean: 1 use
+- www.reddit.com/Flamingo: 1 use
+- www.reddit.com/Givry: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1920x1080px, constraints left/top, fill #FF4500
+  - RECTANGLE "image 192", 754x850px, constraints left/top, fill image(hash: 8913c08d3bc22172bcaa90f512f0361a8e2cb8c1)
+  - TEXT "Reddit Design System (Unofficial) r/Upvote UI Kit", 904x264px, constraints left/top, fill #FFFFFF, text [IBM Plex Sans SemiBold, 75px], [heading]
+  - VECTOR "Vector 16", 810x257.51px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 119", 308x90px, horizontal pad 19 43 19 43px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 18px, stroke #FFFFFF 2px
+    - TEXT "Auto-Layout", 222x52px, constraints left/top, fill #FFFFFF, text [IBM Plex Sans Regular, 40px], [heading]
+  - FRAME "Frame 120", 207x90px, horizontal pad 19 30 19 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 18px, stroke #FFFFFF 2px
+    - TEXT "Variants", 147x52px, constraints left/top, fill #FFFFFF, text [IBM Plex Sans Regular, 40px], [heading]
+  - FRAME "Frame 121", 459x90px, horizontal pad 19 42 19 42px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 18px, stroke #FFFFFF 2px
+    - TEXT "Interactive Elements", 375x52px, constraints left/top, fill #FFFFFF, text [IBM Plex Sans Regular, 40px], [heading]
+
+Screen: Intro / Design Principles
+- FRAME "Design Principles", 1920x1080px, constraints left/top, fill #FFFFFF
+  - TEXT "Our Design Principles", 657x80px, constraints left/top, fill #000000, text [IBM Plex Sans SemiBold, 66px], [heading]
+  - FRAME "Frame 112", 572x219px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 378x70px, constraints left/top, fill #FF4500, text [Noto Sans Medium, 50px], [heading]
+    - TEXT "Description", 572x129px, constraints left/top, fill #434343, text [Noto Sans Regular, 28px], [heading]
+  - FRAME "Frame 115", 580x219px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 252x70px, constraints left/top, fill #FF4500, text [Noto Sans Medium, 50px], [heading]
+    - TEXT "Description", 580x129px, constraints left/top, fill #434343, text [Noto Sans Regular, 28px], [heading]
+  - FRAME "Frame 114", 586x219px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 357x70px, constraints left/top, fill #FF4500, text [Noto Sans Medium, 50px], [heading]
+    - TEXT "Description", 586x129px, constraints left/top, fill #434343, text [Noto Sans Regular, 28px], [heading]
+  - FRAME "Frame 113", 629x219px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 210x70px, constraints left/top, fill #FF4500, text [Noto Sans Medium, 50px], [heading]
+    - TEXT "Description", 629x129px, constraints left/top, fill #434343, text [Noto Sans Regular, 28px], [heading]
+
+Screen: Intro / Accessibility
+- FRAME "Accessibility", 1920x1080px, constraints left/top, fill #FFFFFF
+  - TEXT "Accessibility Audit", 568x80px, constraints left/top, fill #000000, text [IBM Plex Sans SemiBold, 66px], [heading]
+  - FRAME "Frame 113", 708x161px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 395x46px, constraints left/top, fill #000000, text [Noto Sans Medium, 34px], [heading]
+    - TEXT "Description", 708x105px, constraints left/top, fill #434343, text [Noto Sans Regular, 24px], [heading]
+  - FRAME "Frame 116", 708x196px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 672x46px, constraints left/top, fill #000000, text [Noto Sans Medium, 34px], [heading]
+    - TEXT "Description", 708x140px, constraints left/top, fill #434343, text [Noto Sans Regular, 24px], [heading]
+  - FRAME "Frame 117", 708x196px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 607x46px, constraints left/top, fill #000000, text [Noto Sans Medium, 34px], [heading]
+    - TEXT "Description", 708x140px, constraints left/top, fill #434343, text [Noto Sans Regular, 24px], [heading]
+  - FRAME "Frame 118", 708x196px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 417x46px, constraints left/top, fill #000000, text [Noto Sans Medium, 34px], [heading]
+    - TEXT "Description", 708x140px, constraints left/top, fill #434343, text [Noto Sans Regular, 24px], [heading]
+  - FRAME "Frame 114", 708x126px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 546x46px, constraints left/top, fill #000000, text [Noto Sans Medium, 34px], [heading]
+    - TEXT "Description", 708x70px, constraints left/top, fill #434343, text [Noto Sans Regular, 24px], [heading]
+  - FRAME "Frame 115", 732x196px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Description", 442x46px, constraints left/top, fill #000000, text [Noto Sans Medium, 34px], [heading]
+    - TEXT "Description", 732x140px, constraints left/top, fill #434343, text [Noto Sans Regular, 24px], [heading]
+  - FRAME "check-circle", 50x50px, constraints left/top, fill #FFFFFF
+    - VECTOR "Icon", 41.67x41.67px, constraints scale/scale, stroke #00B162 4.67px
+  - FRAME "check-circle", 50x50px, constraints left/top, fill #FFFFFF
+    - VECTOR "Icon", 41.67x41.67px, constraints scale/scale, stroke #00B162 4.67px
+  - FRAME "check-circle", 50x50px, constraints left/top, fill #FFFFFF
+    - VECTOR "Icon", 41.67x41.67px, constraints scale/scale, stroke #00B162 4.67px
+  - FRAME "check-circle", 50x50px, constraints left/top, fill #FFFFFF
+    - VECTOR "Icon", 41.67x41.67px, constraints scale/scale, stroke #00B162 4.67px
+  - FRAME "check-circle", 50x50px, constraints left/top, fill #FFFFFF
+    - VECTOR "Icon", 41.67x41.67px, constraints scale/scale, stroke #00B162 4.67px
+  - FRAME "check-circle", 50x50px, constraints left/top, fill #FFFFFF
+    - VECTOR "Icon", 41.67x41.67px, constraints scale/scale, stroke #00B162 4.67px
+
+Screen: Intro / Welcome Page
+- FRAME "Welcome Page", 1920x1080px, constraints left/top, fill #FFFFFF
+  - FRAME "Text", 137x90px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - TEXT "Description", 386x80px, constraints left/top, fill #000000, text [IBM Plex Sans SemiBold, 66px], [heading]
+  - TEXT "Description", 1314x462px, constraints left/top, fill #000000, text [Noto Sans Medium, 43px], [heading]
+
+Screen: Color / Color
+- FRAME "Color", 1856x1629px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Section Titles for Design System", 1856x256px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8, stroke #FF4500 1px
+    - TEXT "Button", 291x24px, constraints left/top, fill #FF4500, text [IBM Plex Sans SemiBold, 75px], [heading]
+  - RECTANGLE "Rectangle 104", 75x75px, constraints left/top, radius 10px, fill #FFFFFF, stroke #EDEFF1 1px
+  - RECTANGLE "Rectangle 113", 75x75px, constraints left/top, radius 10px, fill #F2F8FC
+  - RECTANGLE "Rectangle 119", 75x75px, constraints left/top, radius 10px, fill #E79C7D
+  - RECTANGLE "Rectangle 124", 75x75px, constraints left/top, radius 10px, fill #46D160
+  - RECTANGLE "Rectangle 120", 75x75px, constraints left/top, radius 10px, fill #FF5525
+  - RECTANGLE "Rectangle 125", 75x75px, constraints left/top, radius 10px, fill #7193FE
+  - RECTANGLE "Rectangle 126", 75x75px, constraints left/top, radius 10px, fill #7193FE
+  - RECTANGLE "Rectangle 121", 75x75px, constraints left/top, radius 10px, fill #FF4500
+  - RECTANGLE "Rectangle 114", 75x75px, constraints left/top, radius 10px, fill #D8ECF9
+  - RECTANGLE "Rectangle 115", 75x75px, constraints left/top, radius 10px, fill #8CBBE5
+  - RECTANGLE "Rectangle 116", 75x75px, constraints left/top, radius 10px, fill #56A7F8
+  - RECTANGLE "Rectangle 117", 75x75px, constraints left/top, radius 10px, fill #3293DB
+  - RECTANGLE "Rectangle 118", 75x75px, constraints left/top, radius 10px, fill #0079D3
+  - RECTANGLE "Rectangle 105", 75x75px, constraints left/top, radius 10px, fill #F6F7F8
+  - RECTANGLE "Rectangle 106", 75x75px, constraints left/top, radius 10px, fill #EDEFF1
+  - RECTANGLE "Rectangle 107", 75x75px, constraints left/top, radius 10px, fill #DBE0E5
+  - RECTANGLE "Rectangle 108", 75x75px, constraints left/top, radius 10px, fill #C3C3C3
+  - RECTANGLE "Rectangle 109", 75x75px, constraints left/top, radius 10px, fill #B7B7B7
+  - RECTANGLE "Rectangle 110", 75x75px, constraints left/top, radius 10px, fill #888888
+  - RECTANGLE "Rectangle 122", 75x75px, constraints left/top, radius 10px, fill #696969
+  - RECTANGLE "Rectangle 111", 75x75px, constraints left/top, radius 10px, fill #404040
+  - RECTANGLE "Rectangle 112", 75x75px, constraints left/top, radius 10px, fill #1A1A1B
+  - RECTANGLE "Rectangle 123", 75x75px, constraints left/top, radius 10px, fill #000000
+  - TEXT "Heading 1 → Guys I did it!", 122x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - ... +6 more children
+
+Screen: Typography / Typography
+- FRAME "Typography", 1556x2158px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Section Titles for Design System", 1556x256px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8, stroke #FF4500 1px
+    - TEXT "Button", 514x24px, constraints left/top, fill #FF4500, text [IBM Plex Sans SemiBold, 75px], [heading]
+  - TEXT "Noto B 14/17 / Body 2", 149x17px, constraints center/top, fill #000000, text [Body 2/Bold (button)]
+  - TEXT "Heading", 95x30px, constraints left/top, fill #FF4500, text [IBM Plex Sans Bold, 20px]
+  - TEXT "Supporting text", 292x30px, constraints left/top, fill #0079D3, text [Avenir Next Bold, 20px]
+  - TEXT "Type specimen - semibold", 362x48px, constraints left/top, fill #000000, text [H1/Medium], [heading]
+  - TEXT "Type specimen - bold", 362x48px, constraints left/top, fill #000000, text [H1/Bold], [heading]
+  - TEXT "Heading", 95x30px, constraints left/top, fill #FF4500, text [IBM Plex Sans Bold, 20px]
+  - TEXT "Supporting text", 270x30px, constraints left/top, fill #0079D3, text [IBM Plex Sans Regular, 20px]
+  - TEXT "Type specimen - regular", 362x44px, constraints left/top, fill #000000, text [H2/Medium], [heading]
+  - TEXT "Type specimen - semibold", 362x44px, constraints left/top, fill #000000, text [H2/Bold], [heading]
+  - TEXT "Type specimen - bold", 362x64px, constraints left/top, fill #171F22, text [IBM Plex Sans Regular, 24px], [heading], opacity 0%
+  - TEXT "Heading", 95x30px, constraints left/top, fill #FF4500, text [IBM Plex Sans Bold, 20px]
+  - TEXT "Supporting text", 258x30px, constraints left/top, fill #0079D3, text [IBM Plex Sans Regular, 20px]
+  - TEXT "Type specimen - regular", 362x40px, constraints left/top, fill #000000, text [H3/Medium], [heading]
+  - TEXT "Type specimen - semibold", 362x40px, constraints left/top, fill #000000, text [H3/Bold], [heading]
+  - TEXT "Heading", 48x30px, constraints left/top, fill #FF4500, text [IBM Plex Sans Bold, 20px]
+  - TEXT "Supporting text", 219x30px, constraints left/top, fill #0079D3, text [IBM Plex Sans Regular, 20px]
+  - TEXT "Supporting text", 177x30px, constraints left/top, fill #0079D3, text [IBM Plex Sans Regular, 20px]
+  - TEXT "Type specimen - regular", 362x42px, constraints left/top, fill #000000, text [Body1/Regular (IBM)]
+  - TEXT "Type specimen - regular", 362x42px, constraints left/top, fill #000000, text [Body2/Regular (Noto)]
+  - TEXT "Type specimen - semibold", 362x36px, constraints left/top, fill #000000, text [Body1/Medium]
+  - TEXT "Type specimen - semibold", 362x34px, constraints left/top, fill #000000, text [Noto Sans Bold, 14px]
+  - TEXT "Heading", 90x30px, constraints left/top, fill #FF4500, text [IBM Plex Sans Bold, 20px]
+  - TEXT "Heading", 90x30px, constraints left/top, fill #FF4500, text [IBM Plex Sans Bold, 20px]
+  - TEXT "Heading", 96x30px, constraints left/top, fill #FF4500, text [IBM Plex Sans Bold, 20px]
+  - ... +14 more children
+
+Screen: Grid / Grid
+- FRAME "Grid", 4155x2300px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Section Titles for Design System", 4155x256px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8, stroke #FF4500 1px
+    - TEXT "Button", 255x24px, constraints left/top, fill #FF4500, text [IBM Plex Sans SemiBold, 75px], [heading]
+  - TEXT "These are UI Elements used in Figma to help organize content", 1689x38px, constraints left/top, fill #000000, text [IBM Plex Sans Regular, 32px], [heading]
+  - FRAME "MacBook Pro 14" - 1", 1512x982px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1", 1512x862px, constraints left/top
+  - FRAME "Desktop - 2", 1440x1024px, constraints left/top, fill #F5F5F5
+
+Screen: Buttons / Button
+- FRAME "Button", 2244x3245px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Section Titles for Design System", 2244x256px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8, stroke #FF4500 1px
+    - TEXT "Button", 342x24px, constraints left/top, fill #FF4500, text [IBM Plex Sans SemiBold, 75px], [heading]
+  - TEXT "Clickable UI elements that allow users to take action", 754x38px, constraints left/top, fill #000000, text [IBM Plex Sans Regular, 32px], [heading]
+  - COMPONENT_SET "New Tab Button", 116x181px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "New", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 18.44x19.2px, constraints left/top, fill #888888
+      - TEXT "New", 31.76x18px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+    - COMPONENT "State=Hover", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F5F5F5
+      - INSTANCE "New", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 18.44x19.2px, constraints left/top, fill #888888
+      - TEXT "New", 31.76x18px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+    - COMPONENT "State=Selected", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #E0E0E0
+      - INSTANCE "New", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 18.44x19.2px, constraints left/top, fill #0F6CBD
+      - TEXT "New", 31.76x18px, constraints left/top, fill #0F6CBD, text [Body2/Bold (button)]
+  - COMPONENT_SET "Hot Tab Button", 116x176px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Hot", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 17.24x19.3px, constraints left/top, fill #888888
+      - TEXT "Hot", 31.76x18px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+    - COMPONENT "State=Hover", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F5F5F5
+      - INSTANCE "Hot", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 17.24x19.3px, constraints left/top, fill #888888
+      - TEXT "Hot", 31.76x18px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+    - COMPONENT "State=Selected", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #E0E0E0
+      - INSTANCE "Hot", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - BOOLEAN_OPERATION "Subtract", 17.24x19.3px, constraints left/top, fill #0F6CBD
+      - TEXT "Hot", 31.76x18px, constraints left/top, fill #0F6CBD, text [Body2/Bold (button)]
+  - COMPONENT_SET "Best Tab Button", 116x176px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Best", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - BOOLEAN_OPERATION "Union", 18.7x19.7px, constraints left/top, fill #888888
+      - TEXT "Best", 31.76x18px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+    - COMPONENT "State=Hover", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F5F5F5
+      - INSTANCE "Best", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - BOOLEAN_OPERATION "Union", 18.7x19.7px, constraints left/top, fill #888888
+      - TEXT "Best", 31.76x18px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+    - COMPONENT "State=Selected", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #E0E0E0
+      - INSTANCE "Best", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 18.24x19.68px, constraints left/top, fill #0F6CBD
+      - TEXT "Best", 31.76x18px, constraints left/top, fill #0F6CBD, text [Body2/Bold (button)]
+  - COMPONENT_SET "Top Tab Button", 116x176px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Top", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 16.14x18.7px, constraints left/top, fill #888888
+      - TEXT "Top", 31.76x18px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+    - COMPONENT "State=Hover", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F5F5F5
+      - INSTANCE "Top", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 16.14x18.7px, constraints left/top, fill #888888
+      - TEXT "Top", 31.76x18px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+    - COMPONENT "State=Selected", 75.76x32px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #E0E0E0
+      - INSTANCE "Top", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 15", 18.07x18.38px, constraints left/top
+          - VECTOR "Vector 12", 12.17x18.38px, constraints left/top, fill #0F6CBD, stroke #0F6CBD 0.4px
+          - VECTOR "Vector 10", 5.07x8px, constraints left/top, fill #0F6CBD, stroke #0F6CBD 0.4px
+          - VECTOR "Vector 11", 5.07x8px, constraints left/top, fill #0F6CBD, stroke #0F6CBD 0.4px
+      - TEXT "Top", 31.76x18px, constraints left/top, fill #0F6CBD, text [Body2/Bold (button)]
+  - COMPONENT_SET "Tab Button -1", 226x231px, constraints left/top, radius 5px, fill #FFFFFF, stroke #9747FF 1px
+    - COMPONENT "State=Selected", 185x50.24px, horizontal pad 12 32 12 32px gap 36px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #0079D3 1px
+      - FRAME "Frame 26", 65.24x26.24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Post", 26.24x26.24px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #0079D3
+        - TEXT "Post", 31x17px, constraints left/top, fill #0079D3, text [Body2/Bold (button)]
+    - COMPONENT "State=Deselected", 185x50.24px, horizontal pad 12 32 12 32px gap 36px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #F5F5F5 1px
+      - FRAME "Frame 29", 65.24x26.24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Post", 26.24x26.24px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+        - FRAME "Frame 26", 31x17px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Post", 31x17px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+    - COMPONENT "State=hover", 185x50.24px, horizontal pad 12 32 12 32px gap 36px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8
+      - FRAME "Frame 29", 65.24x26.24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Post", 26.24x26.24px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+        - FRAME "Frame 26", 31x17px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Post", 31x17px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+  - COMPONENT_SET "Tab button", 309x142px, constraints left/top, radius 5px, fill #DBE0E5, stroke #9747FF 1px
+    - COMPONENT "Current=True, State=rest", 122x41px, horizontal pad 0 20 0 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F6F7F8
+      - TEXT "Button Text", 82x17px, constraints left/top, fill #000000, text [Body2/Bold (button)]
+    - COMPONENT "Current=True, State=hover", 122x41px, horizontal pad 0 20 0 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F6F7F880
+      - TEXT "Button Text", 82x17px, constraints left/top, fill #1A1A1B, text [Body2/Bold (button)]
+    - COMPONENT "Current=False, State=rest", 122x41px, horizontal pad 0 20 0 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+      - TEXT "Button Text", 82x17px, constraints left/top, fill #000000, text [Body2/Bold (button)]
+    - COMPONENT "Current=False, State=hover", 122x41px, horizontal pad 0 20 0 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F6F7F880
+      - TEXT "Button Text", 82x17px, constraints left/top, fill #1A1A1B, text [Body2/Bold (button)]
+  - TEXT "Heading 1 → Guys I did it!", 294x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 127x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 343x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 378x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - LINE "Line 28", 2073x0px, constraints left/top, stroke #888888 1px
+  - LINE "Line 29", 2073x0px, constraints left/top, stroke #888888 1px
+  - TEXT "Heading 1 → Guys I did it!", 310x52px, constraints left/top, fill #000000, text [IBM Plex Sans Medium, 40px], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 310x52px, constraints left/top, fill #000000, text [IBM Plex Sans Medium, 40px], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 279x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 219x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 195x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 188x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 242x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 215x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 310x52px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 310x52px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 310x52px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - ... +51 more children
+
+Screen: Card / Card
+- FRAME "Card", 4808x5216px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Section Titles for Design System", 4808x256px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8, stroke #FF4500 1px
+    - TEXT "Button", 271x24px, constraints left/top, fill #FF4500, text [IBM Plex Sans SemiBold, 75px], [heading]
+  - INSTANCE "Card/Footer Card", 312x110px, vertical pad 12 12 12 12px gap 6px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #C3C3C3 1px
+    - FRAME "Frame 57", 288x64px, vertical pad 0 0 10 0px gap 6px sizing W:fill H:fixed, constraints left/top, stroke #EDEFF1 1px
+      - FRAME "Frame 54", 217.14x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "User Agreement", 136x16px, constraints left/top, fill #1A1A1B, text [Noto Sans Regular, 12px]
+        - TEXT "Content policy", 81.14x16px, constraints left/top, fill #1A1A1B, text [Noto Sans Regular, 12px]
+      - FRAME "Frame 55", 252.22x32px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 56", 252.22x32px, constraints left/top
+          - TEXT "Privacy policy", 136x16px, constraints left/top, fill #1A1A1B, text [Noto Sans Regular, 12px]
+          - TEXT "Moderator Code of Conduct", 109.22x32px, constraints left/top, fill #1A1A1B, text [Noto Sans Regular, 12px]
+    - TEXT "Reddit, Inc. © 2024. All rights reserved.", 288x16px, constraints left/top, fill #1A1A1B, text [Noto Sans Regular, 12px]
+  - COMPONENT_SET "Card/Premium Card", 346x362px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=rest", 306x94px, vertical pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #C3C3C3 1px
+      - FRAME "Frame 42", 286x32px, horizontal pad 0 0 0 0px gap 9px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Premium Icon", 27.1x27.09px, vertical pad 2 2 2 2px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 23.1x23.09px, constraints left/top, fill #FF4500
+        - FRAME "Frame 41", 181x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Reddit Premium", 106x12px, constraints left/top, fill #1A1A1B, text [Body 1/Medium]
+          - TEXT "The best Reddit experience", 181x16px, constraints left/top, fill #1A1A1B, text [Body 2/Regular]
+      - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #FF4500
+        - TEXT "Button", 58x17px, constraints left/top, fill #FFFFFF, text [Noto Sans Bold, 14px]
+    - COMPONENT "State=hover", 306x94px, vertical pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #C3C3C3 1px
+      - FRAME "Frame 42", 286x32px, horizontal pad 0 0 0 0px gap 9px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Premium Icon", 27.1x27.09px, vertical pad 2 2 2 2px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 23.1x23.09px, constraints left/top, fill #FF4500
+        - FRAME "Frame 41", 181x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Reddit Premium", 106x12px, constraints left/top, fill #1A1A1B, text [Body 1/Medium]
+          - TEXT "The best Reddit experience", 181x16px, constraints left/top, fill #1A1A1B, text [Body 2/Regular]
+      - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #FF5525
+        - TEXT "Button", 58x17px, constraints left/top, fill #FFFFFF, text [Noto Sans Bold, 14px]
+    - COMPONENT "focused", 306x94px, vertical pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #C3C3C3 1px
+      - FRAME "Frame 42", 286x32px, horizontal pad 0 0 0 0px gap 9px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Premium Icon", 27.1x27.09px, vertical pad 2 2 2 2px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 23.1x23.09px, constraints left/top, fill #FF4500
+        - FRAME "Frame 41", 181x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Reddit Premium", 106x12px, constraints left/top, fill #1A1A1B, text [Body 1/Medium]
+          - TEXT "The best Reddit experience", 181x16px, constraints left/top, fill #1A1A1B, text [Body 2/Regular]
+      - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #FF825E
+        - TEXT "Button", 58x17px, constraints left/top, fill #FFFFFF, text [Noto Sans Bold, 14px]
+  - INSTANCE "Card/Recent Posts", 310x392px, vertical pad 10 12 10 12px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #C3C3C3 1px
+    - TEXT "Heading 2 → Recent posts", 78.78x12px, constraints left/top, fill #1A1A1B, text [IBM Plex Sans Bold, 10px]
+    - FRAME "Frame 48", 286x360px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 46", 286x336px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Recent Posts Item", 286x87px, horizontal pad 12 0 12 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #F6F7F8 1px
+          - FRAME "div._2c1ElNxHftd8W_nZtcG9zf", 65x49px, constraints left/top, radius 4px, stroke #EDEFF1 1px
+            - FRAME "Icon", 20x20px, constraints left/top
+          - FRAME "Frame 9", 204x63px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 45", 204x39.25px, constraints left/top
+        - INSTANCE "Recent Posts Item", 286x87px, horizontal pad 12 0 12 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #F6F7F8 1px
+          - FRAME "div._2c1ElNxHftd8W_nZtcG9zf", 65x49px, constraints left/top, radius 4px, stroke #EDEFF1 1px
+            - FRAME "Icon", 20x20px, constraints left/top
+          - FRAME "Frame 9", 204x63px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 45", 204x39.25px, constraints left/top
+        - INSTANCE "Recent Posts Item", 286x87px, horizontal pad 12 0 12 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #F6F7F8 1px
+          - FRAME "div._2c1ElNxHftd8W_nZtcG9zf", 65x49px, constraints left/top, radius 4px, stroke #EDEFF1 1px
+            - FRAME "Icon", 20x20px, constraints left/top
+          - FRAME "Frame 9", 204x63px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 45", 204x39.25px, constraints left/top
+        - INSTANCE "Recent Posts Item", 286x75px, horizontal pad 12 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div._2c1ElNxHftd8W_nZtcG9zf", 65x49px, constraints left/top, radius 4px, stroke #EDEFF1 1px
+            - FRAME "Icon", 20x20px, constraints left/top
+          - FRAME "Frame 9", 204x63px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 45", 204x39.25px, constraints left/top
+      - FRAME "Frame 49", 286x24px, vertical pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Button", 33x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+          - TEXT "Button", 29x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Regular, 12px]
+  - COMPONENT_SET "Recent Posts Item", 326x234px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Order=first middle", 286x87px, horizontal pad 12 0 12 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #F6F7F8 1px
+      - FRAME "div._2c1ElNxHftd8W_nZtcG9zf", 65x49px, constraints left/top, radius 4px, stroke #EDEFF1 1px
+        - FRAME "Icon", 20x20px, constraints left/top
+          - VECTOR "Vector", 18.24x18.24px, constraints scale/scale, fill #878A8C
+      - FRAME "Frame 9", 204x63px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 45", 204x39.25px, constraints left/top
+          - TEXT "Post Title", 173.03x18px, constraints left/top, fill #1C1C1C, text [IBM Plex Sans Medium, 14px]
+          - FRAME "Frame 44", 204x35px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "111 points", 58.36x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Regular, 12px]
+            - TEXT "·", 4.66x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Bold, 12px]
+            - TEXT "112 comments", 81.86x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Regular, 12px]
+            - TEXT "·", 4.66x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Bold, 12px]
+            - TEXT "6/16/2022", 59.97x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Regular, 12px]
+    - COMPONENT "Order=last", 286x75px, horizontal pad 12 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "div._2c1ElNxHftd8W_nZtcG9zf", 65x49px, constraints left/top, radius 4px, stroke #EDEFF1 1px
+        - FRAME "Icon", 20x20px, constraints left/top
+          - VECTOR "Vector", 18.24x18.24px, constraints scale/scale, fill #878A8C
+      - FRAME "Frame 9", 204x63px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 45", 204x39.25px, constraints left/top
+          - TEXT "Post Title", 173.03x18px, constraints left/top, fill #1C1C1C, text [IBM Plex Sans Medium, 14px]
+          - FRAME "Frame 44", 204x35px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "111 points", 58.36x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Regular, 12px]
+            - TEXT "·", 4.66x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Bold, 12px]
+            - TEXT "112 comments", 81.86x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Regular, 12px]
+            - TEXT "·", 4.66x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Bold, 12px]
+            - TEXT "6/16/2022", 59.97x16px, constraints left/top, fill #878A8C, text [IBM Plex Sans Regular, 12px]
+  - COMPONENT_SET "Card/Home", 350x1425px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Home", 310x261px, constraints left/top
+      - FRAME "Frame 9", 310x265px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #C3C3C3 1px
+        - FRAME "Image", 310x34px, constraints left/top, radius 3/3/0/0px, fill #0079D3
+        - FRAME "Frame 64", 310x231px, vertical pad 10 10 14 10px gap 18px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Frame 62", 290x113px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 61", 280x46px, constraints left/top
+            - FRAME "Frame 58", 270x42px, horizontal pad 0 0 0 0px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Separator", 286x1px, constraints left/top, fill #1A1A1B12, stroke #D1D1D1 1px
+          - FRAME "Frame 63", 290x76px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #0079D3
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #FFFFFF, stroke #0079D3 1px
+      - RECTANGLE "Snoo Avatar", 40x68px, constraints left/top, fill image(hash: 64755eda2dedc3b983cf316991d4c61d83bf66ed)
+    - COMPONENT "State=Create Community Pressed", 310x261px, constraints left/top
+      - FRAME "Frame 9", 310x265px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #C3C3C3 1px
+        - FRAME "Image", 310x34px, constraints left/top, radius 3/3/0/0px, fill #0079D3
+        - FRAME "Frame 64", 310x231px, vertical pad 10 10 14 10px gap 18px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Frame 62", 290x113px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 61", 280x46px, constraints left/top
+            - FRAME "Frame 58", 270x42px, horizontal pad 0 0 0 0px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Separator", 286x1px, constraints left/top, fill #1A1A1B12, stroke #D1D1D1 1px
+          - FRAME "Frame 63", 290x76px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #0079D3
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #D8ECF9, stroke #0079D3 1px
+      - RECTANGLE "Snoo Avatar", 40x68px, constraints left/top, fill image(hash: 64755eda2dedc3b983cf316991d4c61d83bf66ed)
+    - COMPONENT "State=Create Community Hover", 310x261px, constraints left/top
+      - FRAME "Frame 9", 310x265px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #C3C3C3 1px
+        - FRAME "Image", 310x34px, constraints left/top, radius 3/3/0/0px, fill #0079D3
+        - FRAME "Frame 64", 310x231px, vertical pad 10 10 14 10px gap 18px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Frame 62", 290x113px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 61", 280x46px, constraints left/top
+            - FRAME "Frame 58", 270x42px, horizontal pad 0 0 0 0px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Separator", 286x1px, constraints left/top, fill #1A1A1B12, stroke #D1D1D1 1px
+          - FRAME "Frame 63", 290x76px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #0079D3
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F2F8FC, stroke #0079D3 1px
+      - RECTANGLE "Snoo Avatar", 40x68px, constraints left/top, fill image(hash: 64755eda2dedc3b983cf316991d4c61d83bf66ed)
+    - COMPONENT "State=Create Post Button Hover", 310x261px, constraints left/top
+      - FRAME "Frame 9", 310x265px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #C3C3C3 1px
+        - FRAME "Image", 310x34px, constraints left/top, radius 3/3/0/0px, fill #0079D3
+        - FRAME "Frame 64", 310x231px, vertical pad 10 10 14 10px gap 18px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Frame 62", 290x113px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 61", 280x46px, constraints left/top
+            - FRAME "Frame 58", 270x42px, horizontal pad 0 0 0 0px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Separator", 286x1px, constraints left/top, fill #1A1A1B12, stroke #D1D1D1 1px
+          - FRAME "Frame 63", 290x76px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #589AD8, stroke #0079D3 1px
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #FFFFFF, stroke #0079D3 1px
+      - RECTANGLE "Snoo Avatar", 40x68px, constraints left/top, fill image(hash: 64755eda2dedc3b983cf316991d4c61d83bf66ed)
+    - COMPONENT "State=Create Post Pressed", 310x261px, constraints left/top
+      - FRAME "Frame 9", 310x265px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #C3C3C3 1px
+        - FRAME "Image", 310x34px, constraints left/top, radius 3/3/0/0px, fill #0079D3
+        - FRAME "Frame 64", 310x231px, vertical pad 10 10 14 10px gap 18px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Frame 62", 290x113px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 61", 280x46px, constraints left/top
+            - FRAME "Frame 58", 270x42px, horizontal pad 0 0 0 0px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Separator", 286x1px, constraints left/top, fill #1A1A1B12, stroke #D1D1D1 1px
+          - FRAME "Frame 63", 290x76px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #8CBBE5, stroke #0079D3 1px
+            - INSTANCE "Button", 286x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #FFFFFF, stroke #0079D3 1px
+      - RECTANGLE "Snoo Avatar", 40x68px, constraints left/top, fill image(hash: 64755eda2dedc3b983cf316991d4c61d83bf66ed)
+  - COMPONENT_SET "Community tile", 361x196px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 321x68px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #C3C3C3 1px
+      - FRAME "Frame 39", 219x36px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 32", 36x36px, constraints left/top, fill #D9D9D9
+        - FRAME "Frame 38", 179x32px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "r/Username", 85.45x16px, constraints left/top, fill #1C1C1C, text [Username/Bold]
+          - TEXT "900 K Members", 179x16px, constraints left/top, fill #1C1C1C, text [Username/Regular]
+      - INSTANCE "Button", 86x32px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F6F7F8
+        - TEXT "Button", 27x17px, constraints left/top, fill #0079D3, text [Noto Sans Bold, 14px]
+    - COMPONENT "State=Hover", 321x68px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F5F5F5, stroke #C3C3C3 1px
+      - FRAME "Frame 39", 219x36px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 32", 36x36px, constraints left/top, fill #D9D9D9
+        - FRAME "Frame 38", 179x32px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "r/Username", 85.45x16px, constraints left/top, fill #1C1C1C, text [Username/Bold]
+          - TEXT "900 K Members", 179x16px, constraints left/top, fill #1C1C1C, text [Username/Regular]
+      - INSTANCE "Button", 86x32px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #E0E0E0
+        - TEXT "Button", 27x17px, constraints left/top, fill #0079D3, text [Noto Sans Bold, 14px]
+  - INSTANCE "Communities Card", 321x249.5px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 103", 321x249px, constraints scale/scale, fill #FFFFFF, stroke #B7B7B7 1px, effect Shadow - 1
+    - INSTANCE "Community tile", 321x68px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF, stroke #C3C3C3 1px
+      - FRAME "Frame 39", 219x36px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 32", 36x36px, constraints left/top, fill #D9D9D9
+        - FRAME "Frame 38", 179x32px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "r/Username", 85.45x16px, constraints left/top, fill #1C1C1C, text [Username/Bold]
+          - TEXT "900 K Members", 179x16px, constraints left/top, fill #1C1C1C, text [Username/Regular]
+      - INSTANCE "Button", 86x32px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F6F7F8
+        - TEXT "Button", 27x17px, constraints left/top, fill #0079D3, text [Noto Sans Bold, 14px]
+    - INSTANCE "Community tile", 321x68px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF, stroke #C3C3C3 1px
+      - FRAME "Frame 39", 219x36px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 32", 36x36px, constraints left/top, fill #D9D9D9
+        - FRAME "Frame 38", 179x32px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "r/Username", 85.45x16px, constraints left/top, fill #1C1C1C, text [Username/Bold]
+          - TEXT "900 K Members", 179x16px, constraints left/top, fill #1C1C1C, text [Username/Regular]
+      - INSTANCE "Button", 86x32px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F6F7F8
+        - TEXT "Button", 27x17px, constraints left/top, fill #0079D3, text [Noto Sans Bold, 14px]
+    - INSTANCE "Community tile", 321x67.5px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF, stroke #C3C3C3 1px
+      - FRAME "Frame 39", 219x36px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 32", 36x36px, constraints left/top, fill #D9D9D9
+        - FRAME "Frame 38", 179x32px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "r/Username", 85.45x16px, constraints left/top, fill #1C1C1C, text [Username/Bold]
+          - TEXT "900 K Members", 179x16px, constraints left/top, fill #1C1C1C, text [Username/Regular]
+      - INSTANCE "Button", 86x32px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F6F7F8
+        - TEXT "Button", 27x17px, constraints left/top, fill #0079D3, text [Noto Sans Bold, 14px]
+    - TEXT "Communities", 321x46px, constraints scale/scale, fill #000000, text [Title 2], [heading]
+  - COMPONENT_SET "Card", 352x1088px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Moderator", 312x336px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D1D1D1 1px
+      - INSTANCE "Card/Moderator", 312x336px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D1D1D1 1px
+        - FRAME "Moderator Banner", 312x40px, horizontal pad 0 12 12 12px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 3/3/0/0px, fill www.reddit.com/Lochmara
+          - FRAME "Auto Layout for Text", 65x16px, vertical pad 10 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heading 2 → Moderators", 65x16px, constraints left/top, fill www.reddit.com/Nero, text [Username/Bold]
+        - FRAME "Frame 70", 302x228px, vertical pad 0 0 0 16px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 286x32px, horizontal pad 10 10 10 10px gap 1px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #FFFFFF, stroke #0079D3 1px
+            - INSTANCE "Mail", 32x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 67", 131x17px, horizontal pad 0 0 0 0px gap -6px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Usernames", 283x176px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Moderator Button", 299x36px, horizontal pad 0 0 12 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 155x24px, horizontal pad 0 0 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 139x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+    - COMPONENT "Property 1=Variant2", 312x336px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D1D1D1 1px
+      - INSTANCE "Card/Moderator", 312x336px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D1D1D1 1px
+        - FRAME "Moderator Banner", 312x40px, horizontal pad 0 12 12 12px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 3/3/0/0px, fill www.reddit.com/Lochmara
+          - FRAME "Auto Layout for Text", 65x16px, vertical pad 10 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heading 2 → Moderators", 65x16px, constraints left/top, fill www.reddit.com/Nero, text [Username/Bold]
+        - FRAME "Frame 70", 302x228px, vertical pad 0 0 0 16px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 286x32px, horizontal pad 10 10 10 10px gap 1px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #F2F8FC, stroke #0079D3 1px
+            - INSTANCE "Mail", 32x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 67", 131x17px, horizontal pad 0 0 0 0px gap -6px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Usernames", 283x176px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Moderator Button", 299x36px, horizontal pad 0 0 12 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 155x24px, horizontal pad 0 0 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 139x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+    - COMPONENT "Property 1=Variant3", 312x336px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D1D1D1 1px
+      - INSTANCE "Card/Moderator", 312x336px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D1D1D1 1px
+        - FRAME "Moderator Banner", 312x40px, horizontal pad 0 12 12 12px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 3/3/0/0px, fill www.reddit.com/Lochmara
+          - FRAME "Auto Layout for Text", 65x16px, vertical pad 10 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heading 2 → Moderators", 65x16px, constraints left/top, fill www.reddit.com/Nero, text [Username/Bold]
+        - FRAME "Frame 70", 302x228px, vertical pad 0 0 0 16px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 286x32px, horizontal pad 10 10 10 10px gap 1px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #D8ECF9, stroke #0079D3 1px
+            - INSTANCE "Mail", 32x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 67", 131x17px, horizontal pad 0 0 0 0px gap -6px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Usernames", 283x176px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "User Name", 283x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Moderator Button", 299x36px, horizontal pad 0 0 12 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 155x24px, horizontal pad 0 0 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 139x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+  - COMPONENT_SET "Card/Post(Text Only)", 711x263px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Post (Text Only)", 640x223px, constraints left/top, radius 4px, fill #FFFFFF, stroke #D1D1D1 1px
+      - FRAME "Frame 79", 571.32x143px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 80", 347.67x22px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Link → Heading 3 → Teacher has accused me of using ChatGPT", 347.67x22px, constraints left/top, fill #1A1A1B, text [Title 2], [heading]
+        - FRAME "Frame 81", 571.32x105px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "My teacher has accused me of using ChatGPT on two of my essa", 571.32x105px, constraints left/top, fill #1A1A1B, text [Body1/Regular (IBM)]
+      - FRAME "Frame 82", 625.68x52px, horizontal pad 8 0 8 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Comments Buttons", 136x36px, horizontal pad 8 4 8 4px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 20x20px, constraints left/top
+            - INSTANCE "Comment", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale
+          - TEXT "360 comments", 102x17px, constraints left/top, fill #878A8C, text [Body2/Bold (button)]
+        - FRAME "Share Button", 74x36px, horizontal pad 8 4 8 4px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 20x20px, constraints left/top
+            - INSTANCE "Arrow", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale
+            - INSTANCE "Arrow", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale
+          - TEXT "Share", 40x17px, constraints left/top, fill #888888, text [Body2/Bold (button)]
+        - FRAME "Save Button", 67x36px, horizontal pad 8 4 8 4px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 20x20px, constraints left/top
+            - INSTANCE "Bookmark", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale
+          - TEXT "Save", 33x17px, constraints left/top, fill #878A8C, text [Body2/Bold (button)]
+        - INSTANCE "Ellipsis", 32x32px, vertical pad 8 4 8 4px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 15x3px, constraints left/top, fill #888888
+        - RECTANGLE "div._21pmAV9gWG6F_UKVe7YIE0", 284.68x36px, constraints left/top
+      - FRAME "Reddit Community, author, and time stamp", 591x21px, constraints left/top
+        - TEXT "•", 2.72x20px, constraints left/center, fill #7C7C7C, text [IBM Plex Sans Regular, 6px]
+        - FRAME "Frame 78", 299.81x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 19.45x19.46px, vertical pad 0 0 0 0px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 19.45x19.46px, constraints left/top, fill www.reddit.com/Lochmara
+          - TEXT "Link → r/ChatGPT", 60.04x20px, constraints left/top, fill #1C1C1C, text [Caption1/Bold]
+          - TEXT "Posted by", 53.31x16px, constraints left/top, fill #787C7E, text [Caption2/Regular (Noto)]
+          - TEXT "Link → u/gunnarloaf", 73x16px, constraints left/top, fill #787C7E, text [Caption2/Regular (Noto)]
+          - TEXT "22 hours ago", 74x16px, constraints left/top, fill #787C7E, text [Caption2/Regular (Noto)]
+      - FRAME "Upvotes", 37x223px, horizontal pad 10 6 10 6px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 77", 25x72.15px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Vote", 22.77x23.57px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18.01x18.98px, constraints left/top, fill #888888
+          - TEXT "803", 25x17px, constraints left/top, fill #1A1A1B, text [Body2/Bold (button)]
+          - INSTANCE "Vote", 22.77x23.57px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18.01x19px, constraints left/top, fill #888888
+  - COMPONENT "Card/About Community", 312x492.5px, vertical pad 1 1 1 1px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill www.reddit.com/Nero, stroke www.reddit.com/Silver 1px
+    - FRAME "div._ZhON3a3vplThB8NFwuJn", 310x46px, horizontal pad 0 12 12 12px gap -0px sizing W:fill H:fixed, constraints left_right/top, radius 3/3/0/0px, fill www.reddit.com/Lochmara
+  - ... +8 more children
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Dropdown / Dropdown
+- FRAME "Dropdown", 1976x740px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Section Titles for Design System", 1976x256px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8, stroke #FF4500 1px
+    - TEXT "Button", 467x24px, constraints left/top, fill #FF4500, text [IBM Plex Sans SemiBold, 75px], [heading]
+  - COMPONENT_SET "Create Post Dropdown", 309x128px, constraints left/top, radius 5px, fill #FFFFFF, stroke #9747FF 1px
+    - COMPONENT "State=rest", 269x36px, horizontal pad 10 17 10 17px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - INSTANCE "Add", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 18x18px, constraints left/top, fill #000000
+      - FRAME "Frame 18", 99.88x22.06px, constraints left/top
+        - TEXT "Create Post", 73x21px, constraints left/top, fill #1A1A1B, text [Body1/Regular (IBM)]
+        - INSTANCE "Dropdown", 26.88x22.06px, vertical pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints right/center, fill #FFFFFF
+          - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill #000000
+    - COMPONENT "State=hover", 269x36px, horizontal pad 12 17 12 17px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #EDEFF1 1px
+      - INSTANCE "Add", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 18x18px, constraints left/top, fill #000000
+      - FRAME "Frame 18", 99.88x22.06px, constraints left/top
+        - TEXT "Create Post", 73x21px, constraints left/top, fill #1A1A1B, text [Body1/Regular (IBM)]
+        - INSTANCE "Dropdown", 26.88x22.06px, vertical pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints right/center, fill #FFFFFF
+          - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill #000000
+  - TEXT "Drop downs allow users to view a list of options to choose f", 901x38px, constraints left/top, fill #000000, text [IBM Plex Sans Regular, 32px], [heading]
+  - TEXT "Drop downs allow users to view a list of options to choose f", 901x38px, constraints left/top, fill #000000, text [IBM Plex Sans Regular, 32px], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 230x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 316x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - COMPONENT_SET "Flair -Button Tag", 174.88x182.18px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 134.88x34.06px, vertical pad 4 16 4 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, stroke #888888 1px
+      - FRAME "span", 102.88x26.06px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 74", 102.88x26.06px, horizontal pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "i._1mvTX6krm3Q2d1CSyUm28s", 28x20px, vertical pad 0 8 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Bookmark", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div._1pXTTYLLHHqfgwyMuCqT6T", 32x17.25px, horizontal pad 0 0 0.25 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Flair", 32x17px, constraints center/center, fill #888888, text [Body2/Bold (button)]
+          - INSTANCE "Dropdown", 26.88x22.06px, vertical pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill #888888
+    - COMPONENT "State=Hover", 134.88x34.06px, vertical pad 4 16 4 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, fill #F5F5F5, stroke #888888 1px
+      - FRAME "span", 102.88x26.06px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 74", 102.88x26.06px, horizontal pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "i._1mvTX6krm3Q2d1CSyUm28s", 28x20px, vertical pad 0 8 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Bookmark", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div._1pXTTYLLHHqfgwyMuCqT6T", 32x17.25px, horizontal pad 0 0 0.25 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Flair", 32x17px, constraints center/center, fill #888888, text [Body2/Bold (button)]
+          - INSTANCE "Dropdown", 26.88x22.06px, vertical pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill #888888
+    - COMPONENT "State=Inactive", 134.88x34.06px, vertical pad 4 16 4 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, stroke #C3C3C3 1px
+      - FRAME "span", 102.88x26.06px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 74", 102.88x26.06px, horizontal pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "i._1mvTX6krm3Q2d1CSyUm28s", 28x20px, vertical pad 0 8 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Bookmark", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div._1pXTTYLLHHqfgwyMuCqT6T", 32x17.25px, horizontal pad 0 0 0.25 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Flair", 32x17px, constraints center/center, fill #C3C3C3, text [Body2/Bold (button)]
+          - INSTANCE "Dropdown", 26.88x22.06px, vertical pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill #888888
+
+Screen: Icon / Icon
+- FRAME "Icon", 2436x976px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Section Titles for Design System", 2436x282px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8, stroke #FF4500 1px
+    - TEXT "Button", 263x24px, constraints left/top, fill #FF4500, text [IBM Plex Sans SemiBold, 75px], [heading]
+  - TEXT "Icons are visual representations concepts or actions, ensure", 1673x76px, constraints left/top, fill #000000, text [IBM Plex Sans Regular, 32px], [heading]
+  - INSTANCE "Karma", 12x12px, constraints left/top
+    - VECTOR "Vector", 11.95x11.95px, constraints scale/scale, fill #FF4500
+  - INSTANCE "Menu item", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 18.24x18.22px, constraints left/top, fill #888888
+  - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+  - INSTANCE "Ellipsis", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 15x3px, constraints left/top, fill #888888
+  - INSTANCE "Active dot", 8x8px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 8x8px, constraints scale/scale, fill #46D160
+  - INSTANCE "Comment", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 18.24x19.12px, constraints left/top, fill #888888
+  - COMPONENT_SET "Vote", 64x118px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Direction=up", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.01x18.98px, constraints left/top, fill #888888
+    - COMPONENT "Direction=down", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.01x19px, constraints left/top, fill #888888
+  - COMPONENT_SET "Bookmark", 64x108px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Type=1", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 14.24x18.86px, constraints left/top, fill #888888
+    - COMPONENT "Type=2", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.84x18.85px, constraints left/top, fill www.reddit.com/Gray Chateau
+  - COMPONENT_SET "Search", 64x108px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Size=medium", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 15.23x15.31px, constraints left/top, fill #888888
+    - COMPONENT "Size=large", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 19.04x19.14px, constraints left/top, fill www.reddit.com/Oslo Gray
+  - COMPONENT_SET "Arrow", 64x265px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Type=share", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.24x19.08px, constraints left/top, fill #888888
+    - COMPONENT "Type=dropdown-down bl", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill #000000
+    - COMPONENT "Type=circle", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 19.24x19.24px, constraints left/top, fill #000000
+    - COMPONENT "Type=dropdown-down", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill www.reddit.com/Gray Chateau
+    - COMPONENT "Type=dropdown-up", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill www.reddit.com/Gray Chateau
+  - INSTANCE "Vote group/Frame 14", 24x80px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Vote", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.01x18.98px, constraints left/top, fill #888888
+    - TEXT "803", 21.93x16px, constraints left/top, fill #1A1A1B, text [Caption 1/Bold]
+    - INSTANCE "Vote", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.01x19px, constraints left/top, fill #888888
+  - COMPONENT_SET "New", 64x108px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=False", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.44x19.2px, constraints left/top, fill #888888
+    - COMPONENT "Selected=True", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.44x19.2px, constraints left/top, fill #0079D3
+  - COMPONENT_SET "Top", 64x108px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=False", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 16.14x18.7px, constraints left/top, fill #888888
+    - COMPONENT "Selected=True", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 15", 18.07x18.38px, constraints left/top
+        - VECTOR "Vector 12", 12.17x18.38px, constraints left/top, fill #0079D3, stroke #0079D3 0.4px
+        - VECTOR "Vector 10", 5.07x8px, constraints left/top, fill #0079D3, stroke #0079D3 0.4px
+        - VECTOR "Vector 11", 5.07x8px, constraints left/top, fill #0079D3, stroke #0079D3 0.4px
+  - COMPONENT_SET "Best", 64x118px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=False", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - BOOLEAN_OPERATION "Union", 18.7x19.7px, constraints left/top, fill #888888
+    - COMPONENT "Selected=True", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.24x19.68px, constraints left/top, fill #0079D3
+  - COMPONENT_SET "Hot", 64x118px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=False", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 17.24x19.3px, constraints left/top, fill #888888
+    - COMPONENT "Selected=True", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - BOOLEAN_OPERATION "Subtract", 17.24x19.3px, constraints left/top, fill #0079D3
+  - COMPONENT_SET "Alert-circle", 60x108px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Type=circle", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+    - COMPONENT "Type=spoiler", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 19.41x19.41px, constraints left/top, fill #888888
+  - COMPONENT_SET "Add", 64x118px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Thickness=thicker", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18x18px, constraints left/top, fill #000000
+    - COMPONENT "Thickness=thinner", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18x18px, constraints left/top, fill www.reddit.com/Oslo Gray 50%
+  - INSTANCE "Advertise", 17.55x15.77px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.55x15.77px, constraints scale/scale, fill #000000
+  - INSTANCE "Check", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector 12", 16x10.5px, constraints left/top, stroke #FFFFFF 1.2px
+  - INSTANCE "Remove", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 19.24x19.24px, constraints left/top, fill #1A1A1B
+  - COMPONENT_SET "Dropdown", 67x108px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Active", 26.88x22.06px, vertical pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill #1A1A1B
+    - COMPONENT "State=Inactive", 26.88x22.06px, vertical pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10.88x6.06px, constraints left/top, fill #888888
+  - COMPONENT_SET "Post", 66x108px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=selected", 26.24x26.24px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #0079D3
+    - COMPONENT "State=Unselected", 26.24x26.24px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+  - COMPONENT_SET "Image", 64x118px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+    - COMPONENT "State=Selected", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Image & Video", 20x20px, horizontal pad 0 0 0 0px gap 10.97px sizing W:fixed H:fixed, constraints left/top, radius 6.62px, fill #0079D3
+        - VECTOR "Vector", 20x20px, constraints left/top, fill #EBEBEB
+  - ... +28 more children
+
+Screen: Input Field / Input Fields
+- FRAME "Input Fields", 3494x3008px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Section Titles for Design System", 3494x256px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8, stroke #FF4500 1px
+    - TEXT "Button", 528x24px, constraints left/top, fill #FF4500, text [IBM Plex Sans SemiBold, 75px], [heading]
+  - COMPONENT_SET "Comments Textfield", 743x1172px, constraints left/top, radius 5px, fill #FFFFFF, stroke #9747FF 1px
+    - COMPONENT "State=rest, Type=Comments Reply", 613x172px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #EDEFF1 1px
+      - FRAME "Text containter", 613x138px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Textbox", 613x138px, vertical pad 8 16 109 16px gap 0px sizing W:fill H:fixed, constraints left_right/top, radius 4/4/0/0px, fill www.reddit.com/Nero
+          - FRAME "div.public-DraftStyleDefault-block", 581x21px, constraints left_right/top
+            - TEXT "What are your thoughts?", 154x21px, constraints left/top, fill www.reddit.com/Oslo Gray, text [Body 2/Regular]
+      - FRAME "Frame 32", 613x34px, horizontal pad 0 10 0 10px gap 43px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 30", 228x24px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image -tab", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 11.62x16.1px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 4.83x16.52px, constraints left/top, fill #888888
+          - INSTANCE "Link", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 14.24x19.44px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18x16.42px, constraints left/top, fill #888888
+          - INSTANCE "Code/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 19.24x10.8px, constraints left/top, fill #888888
+          - INSTANCE "Ellipsis", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 15x3px, constraints left/top, fill #888888
+        - FRAME "Frame 31", 268x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 125x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 93x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 71x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 39x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 64x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #888888
+            - TEXT "Button", 32x16px, constraints left/top, fill #FFFFFF80, text [Caption 1/Bold]
+    - COMPONENT "State=rest, Type=Comments", 665x172px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #EDEFF1 1px
+      - FRAME "Text containter", 665x138px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Textbox", 665x138px, vertical pad 8 16 109 16px gap 0px sizing W:fill H:fixed, constraints left_right/top, radius 4/4/0/0px, fill www.reddit.com/Nero
+          - FRAME "div.public-DraftStyleDefault-block", 633x21px, constraints left_right/top
+            - TEXT "What are your thoughts?", 154x21px, constraints left/top, fill #888888, text [Body 2/Regular]
+      - FRAME "Frame 32", 665x34px, horizontal pad 0 10 0 10px gap 43px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 30", 336x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image -tab", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - FRAME "Frame 37", 152x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Link", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Code/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 15.28x16.1px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 17.5x15px, constraints left/top, fill www.reddit.com/Oslo Gray
+          - INSTANCE "Ellipsis", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 15x3px, constraints left/top, fill #888888
+        - FRAME "Frame 31", 268x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 125x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 93x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 71x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 39x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 64x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #888888
+            - TEXT "Button", 32x16px, constraints left/top, fill #FFFFFF80, text [Caption 1/Bold]
+    - COMPONENT "State=focused, Type=Comments", 665x172px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #1A1A1B 1px
+      - FRAME "Text containter", 665x138px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Textbox", 665x138px, vertical pad 8 16 109 16px gap 0px sizing W:fill H:fixed, constraints left_right/top, radius 4/4/0/0px, fill www.reddit.com/Nero
+          - FRAME "div.public-DraftStyleDefault-block", 633x21px, constraints left_right/top
+            - TEXT "What are your thoughts?", 154x21px, constraints left/top, fill #888888, text [Body 2/Regular]
+      - FRAME "Frame 32", 665x34px, horizontal pad 0 10 0 10px gap 43px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 30", 336x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image -tab", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - FRAME "Frame 37", 152x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Link", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Code/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 15.28x16.1px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 17.5x15px, constraints left/top, fill www.reddit.com/Oslo Gray
+          - INSTANCE "Ellipsis", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 15x3px, constraints left/top, fill #888888
+        - FRAME "Frame 31", 268x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 125x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 93x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 71x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 39x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 64x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #888888
+            - TEXT "Button", 32x16px, constraints left/top, fill #FFFFFF80, text [Caption 1/Bold]
+    - COMPONENT "State=filled, Type=Comments", 665x172px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #1A1A1B 1px
+      - FRAME "Text containter", 665x138px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Textbox", 665x138px, vertical pad 8 16 109 16px gap 0px sizing W:fill H:fixed, constraints left_right/top, radius 4/4/0/0px, fill www.reddit.com/Nero
+          - FRAME "div.public-DraftStyleDefault-block", 633x21px, constraints left_right/top
+            - TEXT "What are your thoughts?", 154x21px, constraints left/top, fill #000000, text [Body 2/Regular]
+      - FRAME "Frame 32", 665x34px, horizontal pad 0 10 0 10px gap 43px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 30", 336x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image -tab", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - FRAME "Frame 37", 152x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Link", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Code/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 15.28x16.1px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 17.5x15px, constraints left/top, fill www.reddit.com/Oslo Gray
+          - INSTANCE "Ellipsis", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 15x3px, constraints left/top, fill #888888
+        - FRAME "Frame 31", 268x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 125x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 93x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 71x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 39x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 64x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #888888
+            - TEXT "Button", 32x16px, constraints left/top, fill #FFFFFF80, text [Caption 1/Bold]
+    - COMPONENT "State=focused, Type=Comments Reply", 613x172px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #1A1A1B 1px
+      - FRAME "Text containter", 613x138px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Textbox", 613x138px, vertical pad 8 16 109 16px gap 0px sizing W:fill H:fixed, constraints left_right/top, radius 4/4/0/0px, fill www.reddit.com/Nero
+          - FRAME "div.public-DraftStyleDefault-block", 581x21px, constraints left_right/top
+            - TEXT "What are your thoughts?", 154x21px, constraints left/top, fill www.reddit.com/Oslo Gray, text [Body 2/Regular]
+      - FRAME "Frame 32", 613x34px, horizontal pad 0 10 0 10px gap 43px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 30", 228x24px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image -tab", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 11.62x16.1px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 4.83x16.52px, constraints left/top, fill #888888
+          - INSTANCE "Link", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 14.24x19.44px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18x16.42px, constraints left/top, fill #888888
+          - INSTANCE "Code/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 19.24x10.8px, constraints left/top, fill #888888
+          - INSTANCE "Ellipsis", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 15x3px, constraints left/top, fill #888888
+        - FRAME "Frame 31", 268x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 125x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 93x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 71x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 39x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 64x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #888888
+            - TEXT "Button", 32x16px, constraints left/top, fill #FFFFFF80, text [Caption 1/Bold]
+    - COMPONENT "State=filled, Type=Comments Reply", 613x172px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #1A1A1B 1px
+      - FRAME "Text containter", 613x138px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Textbox", 613x138px, vertical pad 8 16 109 16px gap 0px sizing W:fill H:fixed, constraints left_right/top, radius 4/4/0/0px, fill www.reddit.com/Nero
+          - FRAME "div.public-DraftStyleDefault-block", 581x21px, constraints left_right/top
+            - TEXT "What are your thoughts?", 154x21px, constraints left/top, fill #000000, text [Body 2/Regular]
+      - FRAME "Frame 32", 613x34px, horizontal pad 0 10 0 10px gap 43px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 30", 228x24px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image -tab", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18.24x18.24px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 11.62x16.1px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 4.83x16.52px, constraints left/top, fill #888888
+          - INSTANCE "Link", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 14.24x19.44px, constraints left/top, fill #888888
+          - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 18x16.42px, constraints left/top, fill #888888
+          - INSTANCE "Code/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 19.24x10.8px, constraints left/top, fill #888888
+          - INSTANCE "Ellipsis", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 15x3px, constraints left/top, fill #888888
+        - FRAME "Frame 31", 268x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 125x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 93x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 71x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 39x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+          - INSTANCE "Button", 64x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px, fill #888888
+            - TEXT "Button", 32x16px, constraints left/top, fill #FFFFFF80, text [Caption 1/Bold]
+  - COMPONENT_SET "Create Post Textfield", 747x626px, constraints left/top, radius 5px, fill #FFFFFF, stroke #9747FF 1px
+    - COMPONENT "State=rest", 707x182px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #EDEFF1 1px
+      - FRAME "Frame 32", 707x44px, horizontal pad 0 10 0 10px gap 43px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 30", 464x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 34", 184x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Link", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Code/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - FRAME "Frame 35", 152x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Quote block/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Codeblock/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - FRAME "Frame 33", 56x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Source/video/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 31", 125x24px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 125x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 93x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+      - FRAME "Text containter", 707x138px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Textbox", 707x138px, vertical pad 8 16 109 16px gap 0px sizing W:fill H:fixed, constraints left_right/top, radius 4/4/0/0px, fill www.reddit.com/Nero
+          - FRAME "div.public-DraftStyleDefault-block", 675x21px, constraints left_right/top
+            - TEXT "What are your thoughts?", 154x21px, constraints left/top, fill #888888, text [Body 2/Regular]
+    - COMPONENT "State=focused", 707x182px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #1A1A1B 1px
+      - FRAME "Frame 32", 707x44px, horizontal pad 0 10 0 10px gap 43px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 30", 464x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 34", 184x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Link", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Code/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - FRAME "Frame 35", 152x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Quote block/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Codeblock/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - FRAME "Frame 33", 56x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Source/video/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 31", 125x24px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 125x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 93x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+      - FRAME "Text containter", 707x138px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Textbox", 707x138px, vertical pad 8 16 109 16px gap 0px sizing W:fill H:fixed, constraints left_right/top, radius 4/4/0/0px, fill www.reddit.com/Nero
+          - FRAME "div.public-DraftStyleDefault-block", 675x21px, constraints left_right/top
+            - TEXT "What are your thoughts?", 154x21px, constraints left/top, fill #888888, text [Body 2/Regular]
+    - COMPONENT "State=filled", 707x182px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #1A1A1B 1px
+      - FRAME "Frame 32", 707x44px, horizontal pad 0 10 0 10px gap 43px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F8
+        - FRAME "Frame 30", 464x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 34", 184x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Link", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Code/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - FRAME "Frame 35", 152x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Type styles", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Quote block/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Codeblock/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon divider", 20x20px, vertical pad 0 6 0 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "div._2voJAi1L0g2QbtAFDHSOCK", 1x14px, constraints left/top, stroke #DBE0E5 1px
+          - FRAME "Frame 33", 56x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Source/video/rest", 24x24px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 31", 125x24px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 125x24px, horizontal pad 0 16 0 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 99px
+            - TEXT "Button", 93x16px, constraints left/top, fill #0079D3, text [Caption 1/Bold]
+      - FRAME "Text containter", 707x138px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Textbox", 707x138px, vertical pad 8 16 109 16px gap 0px sizing W:fill H:fixed, constraints left_right/top, radius 4/4/0/0px, fill www.reddit.com/Nero
+          - FRAME "div.public-DraftStyleDefault-block", 675x21px, constraints left_right/top
+            - TEXT "What are your thoughts?", 154x21px, constraints left/top, fill #000000, text [Body 2/Regular]
+  - TEXT "Heading 1 → Guys I did it!", 338x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 308x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Heading 1 → Guys I did it!", 366x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - COMPONENT_SET "Create Post Field", 748x310px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Location=Homepage, State=rest", 486x41px, horizontal pad 10 17 10 17px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #F6F7F8, stroke #EDEFF1 1px
+      - TEXT "Create Post", 73x21px, constraints left/top, fill #888888, text [Body1/Regular (IBM)]
+    - COMPONENT "Location=Homepage, State=focus", 486x38px, constraints left/top, radius 4px, fill #FFFFFF, stroke #0279D3 1px
+      - TEXT "Create Post", 73x18px, constraints left/top, fill #888888, text [IBM Plex Sans Regular, 14px]
+    - COMPONENT "Location=Create a post, State=rest", 708x38px, horizontal pad 10 17 10 17px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #EDEFF1 1px
+      - TEXT "Title", 28x18px, constraints left/top, fill #888888, text [IBM Plex Sans Regular, 14px]
+      - TEXT "0/300", 31x12px, constraints left/top, fill #888888, text [Caption 3/Uppercase]
+    - COMPONENT "Location=Create a post, State=focus", 708x38px, horizontal pad 10 17 10 17px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Title", 28x18px, constraints left/top, fill #888888, text [IBM Plex Sans Regular, 14px]
+      - TEXT "0/300", 31x12px, constraints left/top, fill #888888, text [Caption 3/Uppercase]
+    - COMPONENT "Location=Create a post, State=filled", 708x38px, horizontal pad 10 17 10 17px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Title", 28x18px, constraints left/top, fill #000000, text [IBM Plex Sans Regular, 14px]
+      - TEXT "0/300", 31x12px, constraints left/top, fill #888888, text [Caption 3/Uppercase]
+  - TEXT "Heading 1 → Guys I did it!", 98x24px, constraints left/top, fill #000000, text [Title 1], [heading]
+  - TEXT "Areas that allows users to enter information", 628x38px, constraints left/top, fill #000000, text [IBM Plex Sans Regular, 32px], [heading]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

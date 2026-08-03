@@ -1,0 +1,1793 @@
+---
+name: ibm-carbon-design-system-community
+source_file: IBM Carbon Design System (Community)
+source_page: All pages (46): Cover, Elements, Grid, Overview, -----, Accordion, Breadcrumb, Button, Checkbox, Code snippet, Combobox, Content switcher, Data table, Date picker, Dropdown, File uploader, Form, Inline loading, Link, List, Loading, Modal, Multiselect, Notification, Number input, Overflow menu, Pagination, Popover, Progress indicator, Radio button, Search, Select, Slider, Structured list, Tabs, Tag, Text area, Text input, Tile, Toggle, Toggletip, Tooltip, UI Shell (TBD), -----, ZZ_Icons, ZZ_Other Base Components
+generated_at: 2026-07-02T20:48:06.758754+00:00
+---
+
+# IBM Carbon Design System (Community) Design Guidelines
+
+## Source
+- Figma file: IBM Carbon Design System (Community)
+- Figma page: All pages (46): Cover, Elements, Grid, Overview, -----, Accordion, Breadcrumb, Button, Checkbox, Code snippet, Combobox, Content switcher, Data table, Date picker, Dropdown, File uploader, Form, Inline loading, Link, List, Loading, Modal, Multiselect, Notification, Number input, Overflow menu, Pagination, Popover, Progress indicator, Radio button, Search, Select, Slider, Structured list, Tabs, Tag, Text area, Text input, Tile, Toggle, Toggletip, Tooltip, UI Shell (TBD), -----, ZZ_Icons, ZZ_Other Base Components
+- Extracted at: 2026-07-02T20:48:06.758754+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- support / notification-warning-background-color: [#FFF8E1]
+- text/text-primary: [#161616]
+- miscellaneous/skeleton-background: [#E5E5E5]
+- miscellaneous/skeleton-element: [#C6C6C6]
+- icon/icon-primary: [#161616]
+- button/button-primary: [#0F62FE]
+- icon/icon-on-color: [#FFFFFF]
+- text/text-on-color: [#FFFFFF]
+- focus/focus: [#FFFFFF]
+- button/button-secondary: none
+- text/text-secondary: [#525252]
+- background/background-inverse: [#393939]
+- text/text-inverse: [#FFFFFF]
+- link/link-inverse: [#78A9FF]
+- miscellaneous/toggle-off: [#8D8D8D]
+- support/support-success: [#24A148]
+- text/text-disabled: [#C6C6C6]
+- button/button-disabled: [#C6C6C6]
+- icon/icon-on-color-disabled: [#8D8D8D]
+- support/support-error: [#DA1E28]
+- field/field-02: [#FFFFFF]
+- icon/icon-secondary: [#525252]
+- text/text-placeholder: [#A8A8A8]
+- field/field-01: [#F4F4F4]
+- border/border-strong-01: none
+- icon/icon-disabled: [#C6C6C6]
+- support/support-warning: [#F1C21B]
+- text/text-error: [#DA1E28]
+- border/border-strong-02: [#8D8D8D]
+- layer accent/layer-accent-01: [#E0E0E0]
+- layer accent/layer-accent-02: [#E0E0E0]
+- layer/layer-02: [#FFFFFF]
+- border/border-interactive: [#0F62FE]
+- layer/layer-01: [#F4F4F4]
+- border/border-subtle-01: [#E0E0E0]
+- layer accent/layer-accent-hover-02: [#CACACA]
+- layer accent/layer-accent-hover-01: [#CACACA]
+- layer/layer-selected-disabled: [#8D8D8D]
+- text/text-on-color-disabled: [#8D8D8D]
+- border/border-disabled: [#C6C6C6]
+- layer/layer-hover-01: [#E5E5E5]
+- layer/layer-selected-inverse: [#161616]
+- field/field-hover-01: [#E5E5E5]
+- field/field-hover-02: [#E5E5E5]
+- link/link-primary-hover: [#FFFFFF]
+- link/link-primary: [#0F62FE]
+- background/background-hover: [#E5E5E5]
+- border/border-subtle-02: [#E0E0E0]
+- support / notification-success-background-color: [#DEFBE6]
+- support / notification-info-background-color: [#EDF5FF]
+- support/support-info: [#EDF5FF]
+- support/notification-error-background-color: [#FFF1F1]
+- support/support-warning-inverse: [#F1C21B]
+- support/support-success-inverse: [#42BE65]
+- support/support-info-inverse: [#4589FF]
+- support/support-error-inverse: [#FA4D56]
+- focus/focus-inverse: none
+- background/background-inverse-hover: [#4C4C4C]
+- layer/layer-selected-02: [#E0E0E0]
+- layer/layer-selected-01: [#E0E0E0]
+- text/text-helper: [#6F6F6F]
+- button/button-danger-primary: [#DA1E28]
+- link/link-visited: [#8A3FFC]
+- border/border-subtle-00: [#E0E0E0]
+- button/button-secondary-hover: [#4C4C4C]
+- background/background-selected-hover: [#CACACA]
+- miscellaneous/highlight: [#D0E2FF]
+- button/button-primary-hover: [#0353E9]
+- button/button-primary-active: [#002D9C]
+- layer/layer-active-01: [#C6C6C6]
+- background/background: [#FFFFFF]
+- miscellaneous/transparent: none
+- border/border-inverse: none
+- button/button-tertiary: [#0F62FE]
+- button/button-secondary-active: [#6F6F6F]
+- button/button-danger-hover: [#BA1B23]
+- button/button-danger-active: [#750E13]
+- button/button-tertiary-hover: [#0353E9]
+- button/button-tertiary-active: [#002D9C]
+- background/background-active: [#C6C6C6]
+- icon/icon-inverse: [#FFFFFF]
+- miscellaneous/overlay: [#16161680]
+- miscellaneous/interactive: [#0F62FE]
+- focus/focus-inset: [#FFFFFF]
+- button/button-separator: [#E0E0E0]
+- button/button-danger-secondary: [#DA1E28]
+- link/link-secondary: [#0043CE]
+- border/border-strong-03: [#8D8D8D]
+- border/border-subtle-selected-03: [#C6C6C6]
+- border/border-subtle-selected-02: [#C6C6C6]
+- border/border-subtle-selected-01: [#C6C6C6]
+- border/border-subtle-03: [#E0E0E0]
+- field/field-hover-03: [#E5E5E5]
+- field/field-03: [#F4F4F4]
+- layer accent/layer-accent-active-03: [#A8A8A8]
+- layer accent/layer-accent-active-02: [#A8A8A8]
+- layer accent/layer-accent-active-01: [#C6C6C6]
+- layer accent/layer-accent-hover-03: [#CACACA]
+- layer accent/layer-accent-03: [#E0E0E0]
+- layer/layer-selected-hover-03: [#CACACA]
+- layer/layer-selected-hover-02: [#CACACA]
+- layer/layer-selected-hover-01: [#CACACA]
+- layer/layer-selected-03: [#E0E0E0]
+- layer/layer-active-03: [#C6C6C6]
+- layer/layer-active-02: [#C6C6C6]
+- layer/layer-hover-03: [#E5E5E5]
+- layer/layer-hover-02: [#E5E5E5]
+- layer/layer-03: [#F4F4F4]
+- background/background-brand: [#0F62FE]
+- background/background-selected: [#E0E0E0]
+
+## Raw Colors (unstyled)
+- #000000: 29561 uses
+- #8E93FF: 9508 uses
+- #E0E0E0: 7583 uses
+- #5539E6: 2380 uses
+- #626262: 1771 uses
+- #FFFFFF: 1748 uses
+- #161616: 659 uses
+- #222323: 654 uses
+- #F4F4F4: 521 uses
+
+## Typography Tokens
+- productive/helper-text-01 (link): IBM Plex Sans IBMPlexSans (400), 12px / 16px, tracking 0.32px
+- productive / label-01: IBM Plex Sans IBMPlexSans (400), 12px / 16px, tracking 0.32px
+- body/body-compact-01: IBM Plex Sans IBMPlexSans (400), 14px / 18px, tracking 0.16px
+- body/body-01: IBM Plex Sans IBMPlexSans (400), 14px / 20px, tracking 0.16px
+- productive / helper-text-01: IBM Plex Sans IBMPlexSans (400), 12px / 16px, tracking 0.32px
+- headings/heading-compact-01: IBM Plex Sans SemiBold (600), 14px / 18px, tracking 0.16px
+- productive / code-02: IBM Plex Mono IBMPlexMono (400), 14px / 20px, tracking 0.32px
+- headings/heading-03: IBM Plex Sans IBMPlexSans (400), 20px / 28px, tracking 0px
+- body/body-compact-02 (link): IBM Plex Sans IBMPlexSans (400), 16px / 22px, tracking 0px
+- body/body-compact-01 (link): IBM Plex Sans IBMPlexSans (400), 14px / 18px, tracking 0.16px
+- body/body-compact-02: IBM Plex Sans IBMPlexSans (400), 16px / 22px, tracking 0px
+- productive/code-01: IBM Plex Mono IBMPlexMono (400), 12px / 16px, tracking 0.32px
+
+## Raw Typography (unstyled)
+- IBM Plex Sans IBMPlexSans, 14px: 2456 uses
+- SF Pro Text Regular, 14px: 668 uses
+- SF Pro Text Medium, 14px: 271 uses
+- IBM Plex Sans SemiBold, 14px: 251 uses
+- IBM Plex Sans IBMPlexSans, 12px: 236 uses
+- IBM Plex Sans SemiBold, 12px: 151 uses
+- IBM Plex Mono IBMPlexMono, 12px: 122 uses
+- IBM Plex Sans SemiBold, 16px: 117 uses
+- Password Dots Dots, 14px: 108 uses
+- IBM Plex Sans Regular, 12px: 40 uses
+
+## Typography Hierarchy
+- 20px - headings/heading-03 (IBM Plex Sans IBMPlexSans)
+- 16px - IBM Plex Sans SemiBold, 16px (raw)
+- 16px - body/body-compact-02 (IBM Plex Sans IBMPlexSans)
+- 16px - body/body-compact-02 (link) (IBM Plex Sans IBMPlexSans)
+- 14px - IBM Plex Sans IBMPlexSans, 14px (raw)
+- 14px - IBM Plex Sans SemiBold, 14px (raw)
+- 14px - Password Dots Dots, 14px (raw)
+- 14px - SF Pro Text Medium, 14px (raw)
+- 14px - SF Pro Text Regular, 14px (raw)
+- 14px - body/body-01 (IBM Plex Sans IBMPlexSans)
+- 14px - body/body-compact-01 (IBM Plex Sans IBMPlexSans)
+- 14px - body/body-compact-01 (link) (IBM Plex Sans IBMPlexSans)
+- 14px - headings/heading-compact-01 (IBM Plex Sans SemiBold)
+- 14px - productive / code-02 (IBM Plex Mono IBMPlexMono)
+- 12px - IBM Plex Mono IBMPlexMono, 12px (raw)
+- 12px - IBM Plex Sans IBMPlexSans, 12px (raw)
+- 12px - IBM Plex Sans Regular, 12px (raw)
+- 12px - IBM Plex Sans SemiBold, 12px (raw)
+- 12px - productive / helper-text-01 (IBM Plex Sans IBMPlexSans)
+- 12px - productive / label-01 (IBM Plex Sans IBMPlexSans)
+- 12px - productive/code-01 (IBM Plex Mono IBMPlexMono)
+- 12px - productive/helper-text-01 (link) (IBM Plex Sans IBMPlexSans)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Drop Shadow: [drop_shadow 6px offset 0 2 #0000004D]
+- Inner Focus: [inner_shadow 0px offset 0 0 #FFFFFF]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Accordion Item
+- Accordion Group
+- Accordion Skeleton
+- Breadcrumb Skeleton
+- Breadcrumb Item
+- Breadcrumb Group
+- .Base Breadcrumb Overflow
+- Expressive Button Group
+- Button Group Default
+- Expressive Button 05 Skeleton
+- Button 02 Secondary
+- Button 01 Primary
+- Expressive Button 02 Secondary
+- Expressive Button 03 Tertiary
+- Expressive Button 04 Ghost
+- Expressive Button 01 Primary
+- Button 03 Tertiary
+- Button 04 Ghost
+- Button 05 Skeleton
+- Checkbox Group
+- Checkbox Item
+- Checkbox Skeleton
+- Code Snippet Multiline
+- Code Snippet Multiline Skeleton
+- Code Snippet Singleline
+- Code Snippet Singleline Skeleton
+- Code Snippet Inline
+- Combobox Warning
+- Combobox Error
+- Combobox Default
+- Content Switcher Group
+- Content Switcher Item
+- .Base Action Button
+- .Base Interactive Button
+- .Base Icon Button
+- Regular Column
+- First Column
+- Action Bar
+- Toolbar
+- Title
+- Header
+- First Cell
+- Cell
+- Starter Table
+- .Base Date Navigation
+- .Base Date Year Navigation
+- .Base Date Calendar Month Navigation
+- .Base Date Calendar Day
+- Date Picker with Calendar
+- Date Picker Single
+- Date Picker Simple
+- .Base Calendar
+- Date Picker Skeleton
+- .Base Multiselect Number
+- .Base Dropdown Option
+- Inline Dropdown Warning
+- Inline Dropdown Error
+- Inline Dropdown Default
+- Dropdown Warning
+- Dropdown Error
+- Dropdown Default
+- Dropdown Skeleton
+- File Uploader
+- File Uploader Drop Container
+- File Uploader Item
+- .Base Button Close
+- File Uploader Skeleton
+- Inline Loading Interactive
+- Inline Loading
+- .Base Loading Spinner
+- Link
+- List Item
+- List
+- Loading Spinner
+- Modal 03 Danger
+- Modal 01 Transactional
+- Modal 02 Passive
+- Inline Multiselect Warning
+- Inline Multiselect Error
+- Inline Multiselect Default
+- Multiselect filterable Warning
+- Multiselect filterable Error
+- Multiselect filterable Default
+- Multiselect Warning
+- Multiselect Error
+- Multiselect Default
+- Inline Notification
+- Toast Notification
+- .Base Close Button
+- Number Input Read only
+- Number Input Warning
+- Number Input Error
+- Number Input Default
+- .Base Number Input Controls
+- Number Input Skeleton
+- Overflow Menu
+- Overflow Menu Option
+- Overflow Menu Button
+- Table Pagination Unbound
+- Table Pagination Simple
+- Table Pagination Advanced
+- .Base Pagination Select Input
+- .Base Pagination Number Overflow
+- .Base Pagination Number Item
+- Standalone Pagination
+- Popover No tip
+- Popover Tab tip
+- Popover Caret tip
+- .Base Progress Indicator Step Text
+- Progress Indicator Skeleton Group
+- Progress Indicator Group
+- Progress Indicator Skeleton
+- Progress Indicator Step Vertical
+- Progress Indicator Step Horizontal
+- Radio Button Skeleton Group
+- Radio Button Group
+- Radio Button Item
+- Radio Button Skeleton Item
+- Search Skeleton
+- Search
+- Select Inline Warning
+- Select Inline Error
+- Select Inline Default
+- Select Warning
+- Select Error
+- Select Default
+- .Base Slider Number Input
+- .Base Slider Handle
+- Slider
+- Slider Skeleton
+- Structured List Cell Selection
+- Structured List Cell Simple
+- Structured List Header
+- Structured List Header Row
+- Structured List Selectable Row
+- Structured List Skeleton
+- Container Tab Group
+- Line Tab Group
+- Container Tab Skeleton
+- Container Tab
+- Line Tab
+- Container Tab Skeleton Group
+- Line Tab Skeleton Group
+- Line Tab Skeleton
+- Tag Skeleton
+- Tag
+- Text Area Error
+- Text Area
+- Text Area Skeleton
+- Password Input Error
+- Password Input
+- .base Show Hide Button
+- Text Input Warning
+- Text Input Error
+- Text Input
+- Password Input Skeleton
+- Text Input Skeleton
+- Toggle small
+- Toggle
+- Toggletip Interactive
+- Toggletip
+- Definition Link
+- Icon Button with Tooltip
+- Icon with Tooltip
+- Icon Button Tooltip
+- Definition Tooltip
+- Standard Tooltip
+- information--square
+- information--square--filled
+- tag
+- circle-dash
+- incomplete
+- filter
+- warning--alt--filled
+- warning
+- warning--filled
+- view
+- view--off
+- circle--fill
+- circle--filled
+- settings
+- settings--adjust
+- search
+- radio-button--focus
+- radio-button
+- radio-button--checked
+- overflow-menu--horizontal
+- overflow-menu--vertical
+- menu
+- information
+- information--filled
+- error--filled
+- edit--off
+- edit
+- delete
+- copy
+- close
+- chevron--up
+- chevron--right
+- chevron--left
+- chevron--down
+- checkmark
+- checkmark--outline
+- checkmark--filled
+- checkbox
+- checkbox--undeterminate--filled
+- checkbox--checked--filled
+- caret--up
+- caret--right
+- caret--left
+- caret--down
+- calendar
+- arrows
+- arrow--up
+- arrow--down
+- subtract
+- add
+- .Documentation Label
+- .Base Sekeleton Bar
+- .component-images
+- .BrowserUI Select Dropdown
+- .BrowserUI Select Dropdown Option
+- .Documentation PostIt
+- .tile
+- .BrowserUI Text Area Corner Handle
+
+## Component Specs
+- Accordion Item: size 470x143px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill miscellaneous/transparent, text [body/body-compact-01] | variants: Size: Large/Medium/Small; Align: End/Start; Open: False/True; Last-child: False/True; State: Active/Default/Disabled/Focus/Hover
+- Accordion Group: size 470x40px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Items: 1/2/3/4/5/6/7; Size: Large/Medium/Small; Align: End/Start
+- Accordion Skeleton: size 470x269px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF | variants: Align: End/Start
+- Breadcrumb Skeleton: size 108x18px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Overflow: False/True
+- Breadcrumb Item: size 85x18px, horizontal layout, padding 0 0 0 1px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Current: False/True; Overflow: False/True
+- Breadcrumb Group: size 360x18px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Items: 1/2/3/4/5
+- .Base Breadcrumb Overflow: size 35x18px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01] | variants: Open: False/True; Items: 1/2/3/4/5
+- Expressive Button Group: size 1024x46px, horizontal layout, padding 0 0 0 0px, gap 1px, sizing W:fixed H:fixed, text [body/body-compact-01] | variants: Items: 1/2/3/4/5/6/7; Size: Default/Extra Large/Large; Orientation: Horizontal/Vertical
+- Button Group Default: size 1024x48px, horizontal layout, padding 0 0 0 0px, gap 1px, sizing W:fixed H:fixed, text [body/body-compact-01] | variants: Items: 1/2/3/4/5/6/7; Size: Default/Extra Large/Large/Medium/Small; Orientation: Horizontal/Vertical
+- Expressive Button 05 Skeleton: size 133x48px, text [body/body-compact-02] | variants: Size: Default/Extra Large/Large; Text: False/True; Icon: False/True
+- Button 02 Secondary: size 124x48px, horizontal layout, padding 15 16 15 16px, gap 32px, align min/center, sizing W:fixed H:fixed, fill button/button-secondary, stroke focus/focus 2px, effect [inner_shadow 0px offset 0 0 #FFFFFF], text [body/body-compact-01] | variants: Size: Default/Extra Large/Large/Medium/Small; Text: False/True; Icon: False/True; State: Active/Default/Disabled/Focus/Hover
+- Button 01 Primary: size 124x48px, horizontal layout, padding 15 16 15 16px, gap 32px, align min/center, sizing W:fixed H:fixed, fill button/button-primary, stroke focus/focus 2px, effect Inner Focus, text [body/body-compact-01] | variants: Size: Default/Extra Large/Large/Medium/Small; Text: False/True; Icon: False/True; Danger: False/True; State: Active/Default/Disabled/Focus/Hover
+- Expressive Button 02 Secondary: size 133x48px, horizontal layout, padding 13 16 13 16px, gap 32px, align min/center, sizing W:fixed H:fixed, fill button/button-secondary, stroke focus/focus 2px, effect [inner_shadow 0px offset 0 0 #FFFFFF], text [body/body-compact-02] | variants: Size: Default/Extra Large/Large; Text: False/True; Icon: False/True; State: Active/Default/Disabled/Focus/Hover
+- Expressive Button 03 Tertiary: size 133x48px, horizontal layout, padding 13 16 13 16px, gap 32px, align min/center, sizing W:fixed H:fixed, fill button/button-tertiary, stroke focus/focus 2px, effect [inner_shadow 0px offset 0 0 #FFFFFF], text [body/body-compact-02] | variants: Size: Default/Extra Large/Large; Text: False/True; Icon: False/True; Danger: False/True; State: Active/Default/Disabled/Focus/Hover
+- Expressive Button 04 Ghost: size 81x48px, horizontal layout, padding 13 16 13 16px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke focus/focus 2px, effect [inner_shadow 0px offset 0 0 #FFFFFF], text [body/body-compact-02] | variants: Size: Default/Extra Large/Large; Text: False/True; Icon: False/True; Danger: False/True; State: Active/Default/Disabled/Focus/Hover
+- Expressive Button 01 Primary: size 133x48px, horizontal layout, padding 13 16 13 16px, gap 32px, align min/center, sizing W:fixed H:fixed, fill button/button-primary, stroke focus/focus 2px, effect [inner_shadow 0px offset 0 0 #FFFFFF], text [body/body-compact-02] | variants: Size: Default/Extra Large/Large; Text: False/True; Icon: False/True; Danger: False/True; State: Active/Default/Disabled/Focus/Hover
+- Button 03 Tertiary: size 124x48px, horizontal layout, padding 15 16 15 16px, gap 32px, align min/center, sizing W:fixed H:fixed, fill button/button-tertiary, stroke focus/focus 2px, effect [inner_shadow 0px offset 0 0 #FFFFFF], text [body/body-compact-01] | variants: Size: Default/Extra Large/Large/Medium/Small; Text: False/True; Icon: False/True; Danger: False/True; State: Active/Default/Disabled/Focus/Hover
+- Button 04 Ghost: size 76x48px, horizontal layout, padding 15 16 15 16px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke focus/focus 2px, effect [inner_shadow 0px offset 0 0 #FFFFFF], text [body/body-compact-01] | variants: Size: Default/Extra Large/Large/Medium/Small; Text: False/True; Icon: False/True; Danger: False/True; State: Active/Default/Disabled/Focus/Hover
+- Button 05 Skeleton: size 124x48px, text [body/body-compact-01] | variants: Size: Default/Extra Large/Large/Medium/Small; Text: False/True; Icon: False/True
+- Checkbox Group: size 128x46px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01, productive / helper-text-01] | variants: Items: 1/2/3/4/5/6/7
+- Checkbox Item: size 128x22px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Selected: Indeterminate/Selected/Unselected; Label: False/True; State: Default/Disabled/Focus
+- Checkbox Skeleton: size 128x22px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF
+- Code Snippet Multiline: size 640x192px, fill layer/layer-01, text [body/body-compact-01, productive/code-01] | variants: Light: False/True; Open: False/True
+- Code Snippet Multiline Skeleton: size 640x96px, fill layer/layer-01, text [body/body-compact-01] | variants: Light: False/True
+- Code Snippet Singleline: size 640x40px, fill layer/layer-01, text [productive/code-01, body/body-compact-01] | variants: Light: False/True; State: Default/Focus
+- Code Snippet Singleline Skeleton: size 640x48px, fill layer/layer-01, text [productive/code-01, body/body-compact-01] | variants: Light: False/True
+- Code Snippet Inline: size 69x20px, radius 4px, horizontal layout, padding 0 8 0 8px, gap 0px, align min/center, sizing W:fixed H:fixed, fill layer/layer-01, text [productive/code-01] | variants: Light: False/True; State: Active/Default/Focus/Hover
+- Combobox Warning: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Selected: False/True; Open: False/True; State: Active/Default/Default Cursor
+- Combobox Error: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Selected: False/True; Open: False/True; State: Active/Default/Default Cursor
+- Combobox Default: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper Text: False/True; Selected: False/True; Open: False/True; State: Active/Default/Default Cursor/Disabled
+- Content Switcher Group: size 504x40px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Items: 2/3/4/5; Size: Large/Medium/Small; Disabled: False/True
+- Content Switcher Item: size 126x40px, radius 0/4/4/0px, fill border/border-inverse, text [body/body-compact-01] | variants: Size: Large/Medium/Small; Section: Left/Middle/Right; Selected: False/True; State: Active/Default/Disabled/Hover
+- .Base Action Button (Data table): size 98x48px, horizontal layout, padding 15 16 15 16px, gap 8px, align min/center, sizing W:fixed H:fixed, fill button/button-disabled, text [body/body-compact-01] | variants: Size: Default/Small; Variant: Text/Text + Icon; Interactive: Default/active/disabled/focus/hover; last-child: False/True
+- .Base Interactive Button: size 32x32px, horizontal layout, padding 8 8 8 8px, gap 8px, align center/center, sizing W:fixed H:fixed | variants: Type: Checkbox/Expandable/Radio Button; Interactive: Default/focus
+- .Base Icon Button: size 32x32px, horizontal layout, padding 8 8 8 8px, gap 8px, align center/center, sizing W:fixed H:fixed | variants: Interactive: Default/acitve/active/focus/hover; Selected: False/True
+- Regular Column: size 200x528px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, headings/heading-compact-01] | variants: Type: Actions/Default/Link/Overflow Menu; Size: Extra Large/Extra Small/Large/Medium/Small
+- First Column: size 200x528px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, headings/heading-compact-01] | variants: Type: Batch Expandable/Batch Expandable+Batch Selectable/Batch Selectable/Default/Expandable/Expandable+Selectable/Radio Buttons/Selectable; Size: Extra Large/Extra Small/Large/Medium/Small
+- Action Bar: size 1200x48px, horizontal layout, padding 0 0 0 16px, gap 0px, align min/center, sizing W:fixed H:fixed, fill button/button-primary, text [body/body-compact-01] | variants: Size: Default/Small
+- Toolbar: size 1200x48px, horizontal layout, padding 0 0 0 0px, gap 0px, align max/min, sizing W:fixed H:fixed, fill layer/layer-01, text [body/body-compact-01] | variants: Size: Default/Small
+- Title: size 1200x86px, vertical layout, padding 16 16 24 16px, gap 0px, sizing W:fixed H:fixed, fill layer/layer-01, text [body/body-compact-01, headings/heading-03] | variants: Description: False/True
+- Header: size 200x48px, fill #E0E0E0, text [headings/heading-compact-01, body/body-compact-01] | variants: Expansion: Batch expandable/Expandable/No; Selection: Batch Checkbox/Checkbox/No/Radio Buttons; Interactive: Active/Default/Focus/Hover; Sortable: Arrow-Down/Arrow-Up/Arrows/No; Size: Extra Large/Extra Small/Large/Medium/Small
+- First Cell: size 200x48px, fill layer/layer-01, text [body/body-compact-01] | variants: Expandable: False/True; Selectable: Checkbox/No/Radio Button; Selected: False/True; Interactive: Default/Hover; Size: Extra Large/Extra Small/Large/Medium/Small
+- Cell: size 200x48px, fill layer/layer-01, text [body/body-compact-01] | variants: Type: Default/Icons/Link/Overflow Menu; Selected: False/True; Interactive: Default/Hover; Size: Extra Large/Extra Small/Large/Medium/Small
+- Starter Table: size 1200x662px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill background/background, text [body/body-compact-01, headings/heading-compact-01, headings/heading-03]
+- .Base Date Navigation: size 281x40px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [headings/heading-compact-01] | variants: Interactive: Default/Hover
+- .Base Date Year Navigation: size 16x16px, fill #FFFFFF | variants: Direction: Down/Up; Interactive: Default/Hover
+- .Base Date Calendar Month Navigation: size 40x40px, fill #FFFFFF | variants: Direction: next month/previous month; Interactive: Default/Hover
+- .Base Date Calendar Day: size 40x40px, fill #FFFFFF, text [body/body-compact-01] | variants: Interactive: default/disabled/endRange/focus/hover/inRange/nextmonthday/selected/today
+- Date Picker with Calendar: size 288x64px, text [headings/heading-compact-01, body/body-compact-01, productive / label-01, productive / code-02] | variants: Size: Large/Medium/Small; Light: False/True; Range: False/True; State: Default/Open
+- Date Picker Single: size 288x64px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [productive / helper-text-01, productive / code-02, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Helper Text: False/True; State: Active/Default/Disabled/Error/Filled/Focus/Warning
+- Date Picker Simple: size 119x64px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [productive / helper-text-01, productive / code-02, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Helper Text: False/True; State: Active/Default/Disabled/Error/Filled/Focus/Warning
+- .Base Calendar: size 288x340px, fill layer/layer-01, effect Drop Shadow, text [headings/heading-compact-01, body/body-compact-01]
+- Date Picker Skeleton: size 120x56px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF
+- .Base Multiselect Number: size 42x24px, radius 12px, horizontal layout, padding 0 0 0 8px, gap 2px, align min/center, sizing W:fixed H:fixed, fill button/button-secondary, text [productive / label-01] | variants: Interactive: Default/Hover
+- .Base Dropdown Option: size 288x40px, fill layer/layer-selected-01, text [body/body-compact-01] | variants: Size: Large/Medium/Small; Light: False/True; Type: Default/Multiselect; Interactive: Default/Disabled/Hover; first-child: False/True; Selected: False/True
+- Inline Dropdown Warning: size 247x60px, horizontal layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Open: False/True; State: Active/Default/Hover
+- Inline Dropdown Error: size 247x60px, horizontal layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Open: False/True; State: Active/Default/Hover
+- Inline Dropdown Default: size 223x40px, horizontal layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Open: False/True; State: Active/Default/Disabled/Hover
+- Dropdown Warning: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Open: False/True; State: Active/Default/Hover
+- Dropdown Error: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Open: False/True; State: Active/Default/Hover
+- Dropdown Default: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper Text: False/True; Open: False/True; State: Active/Default/Disabled/Hover
+- Dropdown Skeleton: size 288x40px
+- File Uploader: size 320x156px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [IBM Plex Sans IBMPlexSans, 12px, body/body-compact-01, headings/heading-compact-01] | variants: State: Default/Disabled; Uploads: 0/1/2/3/4/5; Loaded: False/True; Drag and Drop: False/True
+- File Uploader Drop Container: size 320x96px, horizontal layout, padding 16 16 16 16px, gap 10px, sizing W:fixed H:fixed, stroke border/border-strong-01 1px, text [body/body-compact-01] | variants: State: Active/Default/Disabled/Hover
+- File Uploader Item: size 288x48px, horizontal layout, padding 12 12 12 16px, gap 8px, align min/center, sizing W:fixed H:fixed, fill field/field-01, text [IBM Plex Sans IBMPlexSans, 12px, body/body-compact-01] | variants: Variant: Error/Error with Explanation/Uploaded/Uploading; Size: Large/Medium/Small
+- .Base Button Close: size 24x24px, horizontal layout, padding 4 4 4 4px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Interactive: Active/Default
+- File Uploader Skeleton: size 225x104px
+- Inline Loading Interactive: size 132x16px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [productive / label-01] | variants: Interaction: ToError/ToInactive/ToSuccess; State: End/Start; Label: False/True
+- Inline Loading: size 127x16px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [IBM Plex Sans IBMPlexSans, 12px, productive / label-01] | variants: State: Active/Error/Inactive/Success; Label: False/True
+- .Base Loading Spinner: size 16x16px, fill #FFFFFF | variants: Rotation: 0/1/10/120/2/240/3/4/5/6/7/8/9; Active: False/True
+- Link: size 72x18px, horizontal layout, padding 0 1 0 1px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Size: Large/Medium/Small; Light: False/True; Icon: False/True; Inline: False/True; State: Active/Default/Disabled/Focus/Hover/Visited
+- List Item: size 188x18px, horizontal layout, padding 0 0 0 32px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Variant: Ordered List/Unordered List; Level: 1/2
+- List: size 188x108px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01] | variants: Variant: Ordered/Unordered
+- Loading Spinner: size 88x88px, fill #FFFFFF | variants: Rotation: 0/120/240
+- Modal 03 Danger: size 755x212px, vertical layout, padding 0 0 0 0px, gap 0px, align min/max, sizing W:fixed H:fixed, fill layer/layer-01, text [body/body-compact-01, body/body-01, headings/heading-03, productive / label-01] | variants: Optional Label: False/True
+- Modal 01 Transactional: size 755x212px, vertical layout, padding 0 0 0 0px, gap 0px, align min/max, sizing W:fixed H:fixed, fill layer/layer-01, text [body/body-compact-01, body/body-01, headings/heading-03, productive / label-01] | variants: Optional Label: False/True
+- Modal 02 Passive: size 755x168px, vertical layout, padding 0 0 0 0px, gap 0px, align min/max, sizing W:fixed H:fixed, fill layer/layer-01, text [body/body-01, body/body-compact-01, headings/heading-03, productive / label-01] | variants: Optional Label: False/True
+- Inline Multiselect Warning: size 245x60px, horizontal layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Selected: False/True; Open: False/True; State: Active/Default/Hover
+- Inline Multiselect Error: size 245x60px, horizontal layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Selected: False/True; Open: False/True; State: Active/Default/Hover
+- Inline Multiselect Default: size 221x40px, horizontal layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Selected: False/True; Open: False/True; State: Active/Default/Disabled/Hover
+- Multiselect filterable Warning: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Selected: False/True; Open: False/True; State: Active/Active Cursor/Default
+- Multiselect filterable Error: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Selected: False/True; Open: False/True; State: Active/Active Cursor/Default
+- Multiselect filterable Default: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper Text: False/True; Selected: False/True; Open: False/True; State: Active/Active Cursor/Default/Disabled
+- Multiselect Warning: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Selected: False/True; Open: False/True; State: Active/Default/Hover
+- Multiselect Error: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Selected: False/True; Open: False/True; State: Active/Default/Hover
+- Multiselect Default: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper Text: False/True; Selected: False/True; Open: False/True; State: Active/Default/Disabled/Hover
+- Inline Notification: size 560x66px, horizontal layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, fill background/background-inverse, text [IBM Plex Sans IBMPlexSans, 14px, body/body-compact-01, headings/heading-compact-01] | variants: Variant: Error/Info/Info Square/Success/Warning/Warning alt; Multiple Lines: False/True; Low Contrast: False/True; Close Button: False/True; Action Button: False/True
+- Toast Notification: size 352x110px, horizontal layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, fill background/background-inverse, effect Drop Shadow, text [body/body-compact-01, headings/heading-compact-01] | variants: Variant: Error/Info/Info Square/Success/Warning/Warning alt; Low Contrast: False/True; Close Button: False/True; Caption: False/True
+- .Base Close Button: size 48x48px, horizontal layout, padding 14 14 14 14px, gap 10px, sizing W:fixed H:fixed | variants: Interactive: Active/Default; Low Contrast: False/True
+- .Base Action Button (Notification): size 74x32px, horizontal layout, padding 7 16 7 16px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Interactive: Active/Default/Hover; Low Contrast: False/True
+- Number Input Read only: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / helper-text-01, productive / code-02, productive / label-01] | variants: Size: Large/Medium/Small; Label: False/True; Helper Text: False/True; State: Default/Focus
+- Number Input Warning: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / helper-text-01, productive / code-02, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper Text: True; Controls: False/True; State: Default/Focus/Focus Cursor
+- Number Input Error: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / helper-text-01, productive / code-02, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper Text: True; Controls: False/True; State: Default/Focus/Focus Cursor
+- Number Input Default: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / helper-text-01, productive / code-02, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper Text: False/True; Controls: False/True; State: Default/Disabled/Focus/Focus Cursor
+- .Base Number Input Controls: size 120x39px, horizontal layout, padding 0 0 0 0px, gap 0px, align max/min, sizing W:fixed H:fixed | variants: Interactive: Active Minus/Active Plus/Default/Disabled/Hover Minus/Hover Plus; Icon: Error/None/Read only/Warning; Size: Large/Medium/Small; No Controls: False/True
+- Number Input Skeleton: size 288x62px
+- Overflow Menu: size 40x40px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect Drop Shadow, text [body/body-compact-01] | variants: Size: Large/Medium/Small; Items: 1/2/3/4/5/6/7; Light: False/True; Open: False/True; Flipped: False/True
+- Overflow Menu Option: size 160x32px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill layer/layer-01, text [body/body-compact-01] | variants: Size: Large/Medium/Small; Light: False/True; Danger: False/True; Divider: False/True; State: Active/Default/Disabled/Hover
+- Overflow Menu Button: size 40x40px, fill #FFFFFF | variants: State: Active/Default/Hover/Opened; Size: Large/Medium/Small; Light: False/True
+- Table Pagination Unbound: size 1024x41px, text [body/body-compact-01] | variants: Size: Large/Medium/Small
+- Table Pagination Simple: size 1024x41px, fill layer/layer-01, text [body/body-compact-01] | variants: Size: Large/Medium/Small
+- Table Pagination Advanced: size 1024x41px, fill layer/layer-01, text [SF Pro Text Regular, 14px, body/body-compact-01] | variants: Size: Large/Medium/Small; State: Default/Select Items/Select Page
+- .Base Pagination Select Input: size 65x40px, horizontal layout, padding 10 16 10 16px, gap 4px, align min/center, sizing W:fixed H:fixed, text [body/body-compact-01] | variants: State: Active/Default/Hover; Size: Large/Medium/Small
+- .Base Pagination Number Overflow: size 48x48px, fill #FFFFFF, text [SF Pro Text Regular, 14px] | variants: State: Active/Default/Hover/Selected
+- .Base Pagination Number Item: size 48x48px, fill #FFFFFF, text [headings/heading-compact-01] | variants: State: Default/Focus/Hover; Selected: False/True
+- Standalone Pagination: size 576x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01, SF Pro Text Regular, 14px, headings/heading-compact-01]
+- Popover No tip: size 114x96px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect Drop Shadow | variants: Color: Dark/Default/Light; Rounded Corners: False/True
+- Popover Tab tip: size 114x96px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect Drop Shadow | variants: Color: Dark/Default/Light; Direction: Bottom/Top; Align: End/Start; Size: Large/Medium/Small
+- Popover Caret tip: size 66x56px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect Drop Shadow | variants: Color: Dark/Default/Light; Direction: Bottom/Left/Right/Top; Align: Center/End/Start
+- .Base Progress Indicator Step Text: size 57x18px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: State: Active/Default/Disabled/Hover; Truncated: False/True
+- Progress Indicator Skeleton Group: size 640x28px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed | variants: Items: 5; Orientation: Horizontal/Vertical
+- Progress Indicator Group: size 640x44px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / label-01, body/body-compact-01] | variants: Items: 2/3/4/5/6/7; Orientation: Horizontal/Vertical
+- Progress Indicator Skeleton: size 128x28px, fill #FFFFFF | variants: Orientation: Horizontal/Vertical
+- Progress Indicator Step Vertical: size 114x58px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [productive / label-01, body/body-compact-01] | variants: State: Complete/Current/Disabled/Error/Incomplete; Optional Label: False/True; Truncate Text: False/True
+- Progress Indicator Step Horizontal: size 128x44px, fill #FFFFFF, text [productive / label-01, body/body-compact-01] | variants: State: Complete/Current/Disabled/Error/Incomplete; Optional Label: False/True; Truncate Text: False/True
+- Radio Button Skeleton Group: size 704x44px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF | variants: Items: 5; Orientation: Horizontal/Vertical
+- Radio Button Group: size 310x44px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01, productive / label-01] | variants: Items: 2/3/4/5/6/7; Orientation: Horizontal/Vertical
+- Radio Button Item: size 147x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01] | variants: Variant: Selected/Unselected; Label: False/True; State: Active/Default/Disabled
+- Radio Button Skeleton Item: size 128x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF
+- Search Skeleton: size 512x48px | variants: Size: Large/Medium/Small
+- Search: size 512x48px, fill field/field-01, text [body/body-compact-01] | variants: Size: Large/Medium/Small; Light: False/True; State: Active/Active Cursor/Default/Disabled/Filled/Filled Active/Filled Active Cursor
+- Select Inline Warning: size 192x60px, text [SF Pro Text Regular, 14px, SF Pro Text Medium, 14px, productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Label: False/True; Open: False/True
+- Select Inline Error: size 192x60px, text [SF Pro Text Regular, 14px, SF Pro Text Medium, 14px, productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Label: False/True; Open: False/True
+- Select Inline Default: size 168x40px, text [SF Pro Text Regular, 14px, SF Pro Text Medium, 14px, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Label: False/True; Open: False/True
+- Select Warning: size 288x84px, fill #FFFFFF, text [SF Pro Text Regular, 14px, SF Pro Text Medium, 14px, body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Open: False/True
+- Select Error: size 288x84px, fill #FFFFFF, text [SF Pro Text Regular, 14px, SF Pro Text Medium, 14px, body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Open: False/True
+- Select Default: size 288x84px, fill #FFFFFF, text [SF Pro Text Regular, 14px, SF Pro Text Medium, 14px, body/body-compact-01, productive / helper-text-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper text: False/True; Open: False/True
+- .Base Slider Number Input: size 64x40px, fill field/field-01, text [productive / code-02] | variants: State: Default/Disabled/Focus/Focus Cursor; Light: False/True
+- .Base Slider Handle: size 1024x24px, fill #FFFFFF | variants: State: Active/Default/Disabled/Focus/Hover
+- Slider: size 416x64px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [productive / code-02, productive / label-01] | variants: Light: False/True; State: Default/Disabled
+- Slider Skeleton: size 271x50px, vertical layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed
+- Structured List Cell Selection: size 160x59px, text [body/body-compact-01] | variants: Position: First/Last/Middle; Condensed: False/True; Flush alignment: False/True; State: Active/Default/Hover/Selected
+- Structured List Cell Simple: size 160x59px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01] | variants: Condensed: False/True; Flush alignment: False/True
+- Structured List Header: size 160x43px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [headings/heading-compact-01] | variants: Condensed: False/True; Flush alignment: False/True; Selection Icon: False/True
+- Structured List Header Row: size 1285x43px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [headings/heading-compact-01] | variants: Condensed: False/True; Flush Alignment: False/True
+- Structured List Selectable Row: size 1285x59px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body/body-compact-01] | variants: Condensed: False/True; Flush Alignment: False/True; Selected: False/True; State: Active/Default/Hover
+- Structured List Skeleton: size 800x238px
+- Container Tab Group: size 804x48px, text [body/body-compact-01, productive / label-01, headings/heading-compact-01] | variants: Horizontal Buttons: Left/Left+Right/Right; Light: False/True; Icon: False/True; Label: False/True; Secondary Label: False/True
+- Line Tab Group: size 804x40px, text [body/body-compact-01, headings/heading-compact-01] | variants: Size: Large/Medium; Horizontal Buttons: Left/Left+Right/Right; Icon: False/True; Label: False/True
+- Container Tab Skeleton: size 160x48px, fill #E0E0E0 | variants: last-child: False/True
+- Container Tab: size 160x48px, fill layer accent/layer-accent-01, text [productive / label-01, body/body-compact-01] | variants: Light: False/True; Selected: False/True; Icon: False/True; Label: False/True; Secondary Label: False/True; Border right: False/True; State: Active/Default/Disabled/Hover
+- Line Tab: size 160x40px, fill #FFFFFF, text [body/body-compact-01] | variants: Size: Large/Medium; Icon: False/True; Label: False/True; Selected: False/True; State: Active/Default/Disabled/Hover
+- Container Tab Skeleton Group: size 804x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed
+- Line Tab Skeleton Group: size 804x40px, horizontal layout, padding 0 0 0 0px, gap 1px, sizing W:fixed H:fixed
+- Line Tab Skeleton: size 160x40px
+- Tag Skeleton: size 60x24px, radius 24px, fill #E0E0E0 | variants: Size: Medium/Small
+- Tag: size 104x24px, radius 24px, horizontal layout, padding 0 8 0 8px, gap 4px, align min/center, sizing W:fixed H:fixed, fill #E0E0E0, text [productive / label-01] | variants: Color: Blue/Cyan/Gray/Gray (cool-gray)/Gray (warm-gray)/Green/High Contrast/Magenta/Purple/Red/Teal; Size: Medium/Small; Icon: False/True; Filter: False/True; State: Active/Default/Disabled/Hover
+- Text Area Error: size 226x164px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Light: False/True; Label: False/True; Character Limit: False/True; State: Active/Active Cursor/Active Filled/Active Filled Cursor/Default/Filled
+- Text Area: size 226x164px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Light: False/True; Label: False/True; Helper Text: False/True; Character Limit: False/True; State: Active/Active Cursor/Active Filled/Active Filled Cursor/Default/Disabled/Filled
+- Text Area Skeleton: size 226x123px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed
+- Password Input Error: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Filled: False/True; Visible: False/True; State: Active/Active cursor/Default
+- Password Input: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper text: False/true; Filled: False/True; Visible: False/True; State: Active/Active cursor/Default/Disabled
+- .base Show Hide Button: size 40x40px, horizontal layout, padding 12 12 12 12px, gap 8px, align min/center, sizing W:fixed H:fixed, text [body/body-compact-01] | variants: State: Default/Focus/Hover; Size: Large/Medium/Small; View: False/True
+- Text Input Warning: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Filled: False/True; State: Active/Active cursor/Default
+- Text Input Error: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Filled: False/True; State: Active/Active cursor/Default
+- Text Input: size 288x84px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [productive / helper-text-01, body/body-compact-01, productive / label-01] | variants: Size: Large/Medium/Small; Light: False/True; Label: False/True; Helper text: False/True; Filled: False/True; Read Only: False/True; State: Active/Active cursor/Default/Disabled
+- Password Input Skeleton: size 226x62px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed
+- Text Input Skeleton: size 226x62px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed
+- Toggle small: size 59x18px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [body/body-compact-01] | variants: Toggle State: False/True; State: Active/Default/Disabled
+- Toggle: size 75x56px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, text [body/body-compact-01, productive / label-01] | variants: Toggle State: False/True; State: Active/Default/Disabled
+- Toggletip Interactive: size 16x16px, fill #FFFFFF, text [body/body-compact-01, body/body-01] | variants: Direction: Bottom/Left/Right/Top; Open: False/True
+- Toggletip: size 256x166px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [body/body-compact-01, body/body-01] | variants: Direction: Bottom/Left/Right/Top
+- Definition Link: size 98x17px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [productive / label-01] | variants: State: Active/Default/Hover
+- Icon Button with Tooltip: size 48x48px, text [body/body-compact-01] | variants: Size: Default/Medium/Small; Direction: Bottom/Left/Right/Top; Align: Center/End/Start; State: Default/Hover
+- Icon with Tooltip: size 16x16px, text [body/body-compact-01] | variants: Direction: Bottom/Left/Right/Top; Align: Center/End/Start; State: Default/Focus/Hover
+- Icon Button Tooltip: size 66x27px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect Drop Shadow, text [body/body-compact-01] | variants: Direction: Bottom/Left/Right/Top; Align: Center/End/Start
+- Definition Tooltip: size 95x40px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect Drop Shadow, text [body/body-compact-01] | variants: Direction: Bottom/Left/Right/Top; Align: Center/End/Start
+- Standard Tooltip: size 66x56px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect Drop Shadow, text [body/body-compact-01] | variants: Direction: Bottom/Left/Right/Top; Align: Center/End/Start
+- information--square: size 16x16px, fill #FFFFFF
+- information--square--filled: size 16x16px, fill #FFFFFF
+- tag: size 16x16px, fill #FFFFFF
+- circle-dash: size 16x16px, fill #FFFFFF
+- incomplete: size 16x16px, fill #FFFFFF
+- filter: size 16x16px, fill #FFFFFF
+- warning--alt--filled: size 16x16px, fill #FFFFFF
+- warning: size 16x16px
+- warning--filled: size 16x16px
+- view: size 16x16px
+- view--off: size 16x16px
+- circle--fill: size 16x16px
+- circle--filled: size 16x16px
+- settings: size 16x16px
+- settings--adjust: size 16x16px
+- search: size 16x16px
+- radio-button--focus: size 16x16px
+- radio-button: size 16x16px
+- radio-button--checked: size 16x16px
+- overflow-menu--horizontal: size 16x16px
+- overflow-menu--vertical: size 16x16px
+- menu: size 16x16px
+- information: size 16x16px
+- information--filled: size 16x16px
+- error--filled: size 16x16px
+- edit--off: size 16x16px
+- edit: size 16x16px
+- delete: size 16x16px
+- copy: size 16x16px
+- close: size 16x16px
+- chevron--up: size 16x16px
+- chevron--right: size 16x16px
+- chevron--left: size 16x16px
+- chevron--down: size 16x16px
+- checkmark: size 16x16px
+- checkmark--outline: size 16x16px
+- checkmark--filled: size 16x16px
+- checkbox: size 16x16px
+- checkbox--undeterminate--filled: size 16x16px
+- checkbox--checked--filled: size 16x16px
+- caret--up: size 16x16px
+- caret--right: size 16x16px
+- caret--left: size 16x16px
+- caret--down: size 16x16px
+- calendar: size 16x16px
+- arrows: size 16x16px
+- arrow--up: size 16x16px
+- arrow--down: size 16x16px
+- subtract: size 16x16px
+- add: size 16x16px
+- .Documentation Label: size 120x48px, fill #FFFFFF, text [IBM Plex Sans IBMPlexSans, 14px] | variants: Large: False/True; Vertical: False/True
+- .Base Sekeleton Bar: size 406x16px, fill miscellaneous/skeleton-background | variants: Animation Step: 1/2/3/4
+- .component-images: size 320x320px, fill #FFFFFF | variants: Component: accordion/breadcrumb/button/checkbox/code-snippet/content-switcher/data-table/date-picker/dropdown/file-uploader/form/inline-loading/link/list/loading/modal/multiselect/notification/number-input/overflow-menu/pagination/progress-indicator/radio-button/search/select/slider/structured-list/tabs/tag/text-input/tile 1/toggle/tooltip/ui-shell
+- .BrowserUI Select Dropdown: size 58x128px, radius 6px, vertical layout, padding 9 6 9 6px, gap 5px, sizing W:fixed H:fixed, fill #FFFFFF99, stroke #00000033 1px, effect [drop_shadow 20px offset 0 0 #00000026, background_blur 50px], text [SF Pro Text Regular, 14px] | variants: Categrories: False/True
+- .BrowserUI Select Dropdown Option: size 43x18px, radius 3px, horizontal layout, padding 0 18 0 18px, gap 2px, align min/center, sizing W:fixed H:fixed, text [SF Pro Text Regular, 14px] | variants: State: Category/Default/Hover; Selected: False/True; HasCategory: False/True
+- .Documentation PostIt: size 480x134px, vertical layout, padding 24 32 24 32px, gap 16px, sizing W:fixed H:fixed, fill support / notification-warning-background-color, text [IBM Plex Sans IBMPlexSans, 16px, IBM Plex Sans IBMPlexSans, 48px, IBM Plex Sans IBMPlexSans, 28px]
+- .tile: size 219x214px, fill #FFFFFF, stroke #F4F4F4 2px, text [productive/helper-text-01 (link), IBM Plex Sans IBMPlexSans, 14px]
+- .BrowserUI Text Area Corner Handle: size 7x7px
+
+## Most-Used Styles
+- body/body-compact-01: 28577 uses
+- icon/icon-primary: 22115 uses
+- text/text-secondary: 18842 uses
+- text/text-primary: 14318 uses
+- field/field-01: 7184 uses
+- field/field-02: 5982 uses
+- productive / label-01: 5426 uses
+- focus/focus: 4129 uses
+- productive / helper-text-01: 3322 uses
+- text/text-on-color: 2538 uses
+- icon/icon-on-color: 2493 uses
+- border/border-subtle-01: 2438 uses
+- support/support-error: 2150 uses
+- icon/icon-secondary: 2089 uses
+- layer/layer-01: 1950 uses
+- border/border-subtle-02: 1324 uses
+- headings/heading-compact-01: 1021 uses
+- Drop Shadow: 932 uses
+- button/button-secondary: 913 uses
+- text/text-disabled: 897 uses
+- border/border-strong-01: 802 uses
+- support/support-warning: 795 uses
+- text/text-helper: 625 uses
+- button/button-disabled: 608 uses
+- productive / code-02: 585 uses
+- icon/icon-disabled: 562 uses
+- text/text-placeholder: 536 uses
+- layer/layer-02: 534 uses
+- text/text-error: 530 uses
+- background/background-inverse: 403 uses
+- field/field-hover-01: 403 uses
+- layer/layer-selected-inverse: 365 uses
+- button/button-primary: 362 uses
+- miscellaneous/transparent: 339 uses
+- border/border-strong-02: 337 uses
+- background/background-selected-hover: 328 uses
+- link/link-primary: 252 uses
+- border/border-interactive: 243 uses
+- background/background-hover: 236 uses
+- body/body-compact-02: 230 uses
+- layer/layer-selected-01: 201 uses
+- text/text-inverse: 201 uses
+- button/button-danger-primary: 175 uses
+- field/field-hover-02: 169 uses
+- layer/layer-hover-01: 159 uses
+- Inner Focus: 146 uses
+- layer/layer-selected-02: 139 uses
+- miscellaneous/skeleton-background: 125 uses
+- link/link-inverse: 117 uses
+- miscellaneous/skeleton-element: 113 uses
+- text/text-on-color-disabled: 104 uses
+- border/border-inverse: 103 uses
+- button/button-tertiary: 97 uses
+- layer accent/layer-accent-01: 95 uses
+- support/support-info: 81 uses
+- icon/icon-inverse: 79 uses
+- link/link-primary-hover: 71 uses
+- border/border-subtle-00: 70 uses
+- productive/helper-text-01 (link): 63 uses
+- button/button-danger-active: 61 uses
+- button/button-danger-hover: 61 uses
+- icon/icon-on-color-disabled: 60 uses
+- layer accent/layer-accent-02: 57 uses
+- miscellaneous/highlight: 54 uses
+- support/support-info-inverse: 49 uses
+- support/support-success: 49 uses
+- support/support-warning-inverse: 49 uses
+- layer/layer-selected-disabled: 42 uses
+- link/link-visited: 37 uses
+- border/border-disabled: 32 uses
+- body/body-compact-01 (link): 30 uses
+- button/button-primary-active: 29 uses
+- button/button-primary-hover: 29 uses
+- body/body-compact-02 (link): 28 uses
+- focus/focus-inverse: 27 uses
+- support / notification-warning-background-color: 25 uses
+- support/support-error-inverse: 25 uses
+- support/support-success-inverse: 25 uses
+- support / notification-info-background-color: 24 uses
+- button/button-secondary-hover: 22 uses
+- button/button-tertiary-hover: 22 uses
+- background/background-active: 21 uses
+- button/button-secondary-active: 21 uses
+- button/button-tertiary-active: 20 uses
+- productive/code-01: 19 uses
+- body/body-01: 18 uses
+- layer accent/layer-accent-hover-01: 17 uses
+- layer accent/layer-accent-hover-02: 17 uses
+- headings/heading-03: 12 uses
+- support / notification-success-background-color: 12 uses
+- support/notification-error-background-color: 12 uses
+- layer/layer-active-01: 5 uses
+- miscellaneous/toggle-off: 5 uses
+- background/background: 3 uses
+- background/background-inverse-hover: 3 uses
+- background/background-brand: 2 uses
+- background/background-selected: 1 use
+- border/border-strong-03: 1 use
+- border/border-subtle-03: 1 use
+- border/border-subtle-selected-01: 1 use
+- border/border-subtle-selected-02: 1 use
+- border/border-subtle-selected-03: 1 use
+- button/button-danger-secondary: 1 use
+- button/button-separator: 1 use
+- field/field-03: 1 use
+- field/field-hover-03: 1 use
+- focus/focus-inset: 1 use
+- layer accent/layer-accent-03: 1 use
+- layer accent/layer-accent-active-01: 1 use
+- layer accent/layer-accent-active-02: 1 use
+- layer accent/layer-accent-active-03: 1 use
+- layer accent/layer-accent-hover-03: 1 use
+- layer/layer-03: 1 use
+- layer/layer-active-02: 1 use
+- layer/layer-active-03: 1 use
+- layer/layer-hover-02: 1 use
+- layer/layer-hover-03: 1 use
+- layer/layer-selected-03: 1 use
+- layer/layer-selected-hover-01: 1 use
+- layer/layer-selected-hover-02: 1 use
+- layer/layer-selected-hover-03: 1 use
+- link/link-secondary: 1 use
+- miscellaneous/interactive: 1 use
+- miscellaneous/overlay: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1600x960px, constraints left/top, fill background/background-brand
+  - FRAME "Frame 3", 240x240px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1", 240x240px, constraints left/top, fill #EDF6FF
+    - VECTOR "Triangle 1", 240x240px, constraints left/top, fill #D1E2FE
+  - FRAME "Frame 5", 240x240px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1", 240x240px, constraints left/top, fill #79A9FE
+    - VECTOR "Triangle 1", 240x240px, constraints left/top, fill #D1E2FE
+  - FRAME "Frame 2", 240x240px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 2", 240x240px, constraints left/top, fill #A7C8FE
+    - VECTOR "Triangle 2", 240x240px, constraints left/top, fill #79A9FE
+  - RECTANGLE "Rectangle 1", 240x240px, constraints left/top, fill #EDF6FF
+  - FRAME "Frame 8", 480x480px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+  - FRAME "Frame 1", 240x240px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 5", 240x240px, constraints left/top, fill #D1E2FE
+    - VECTOR "Triangle 3", 240x240px, constraints left/top, fill #EDF6FF
+  - FRAME "Frame 6", 240x240px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 5", 240x240px, constraints left/top, fill #D1E2FE
+    - VECTOR "Triangle 3", 240x240px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 7", 240x240px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 5", 240x240px, constraints left/top, fill #D4BBFF
+    - VECTOR "Triangle 3", 240x240px, constraints left/top, fill #EDF6FF
+  - FRAME "Frame 9", 240x240px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Frame 4", 240x240px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Frame 10", 720x536px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "IBM Icons", 720x360px, constraints left/top, fill text/text-on-color, text [IBM Plex Sans Light, 100px], [heading]
+    - TEXT "IBM Icons", 474x128px, constraints left/top, fill #D1E2FE, text [IBM Plex Sans Light, 100px], [heading]
+
+Screen: Elements / Color tokens - White theme
+- FRAME "Color tokens - White theme", 1056x12906px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 3", 960x927px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 2", 124x24px, horizontal pad 0 0 0 16px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Core tokens", 108x24px, constraints left/top, fill #252525, text [IBM Plex Sans IBMPlexSans, 20px]
+    - FRAME "Frame 1", 960x879px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top, fill #E0E0E0
+      - GROUP "header", 960x47px, constraints left/top, fill #FFFFFF
+        - VECTOR "bkg", 960x47px, constraints left/top, fill #F4F4F4
+        - TEXT "Token Copy 2", 189.8x16px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 14px]
+        - TEXT "Role Copy", 189.8x16px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 14px]
+        - TEXT "Value Copy", 189.8x16px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 14px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill background/background
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF, stroke #DCDCDC 1px
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 190x36px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 99x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 83x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill background/background-hover
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x36px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 144x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 128x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill background/background-active
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 151x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 135x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill background/background-selected
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 166x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 150x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill background/background-selected-hover
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 212x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 196x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill background/background-inverse
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x36px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 159x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 143x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill background/background-inverse-hover
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 204x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 188x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill background/background-brand
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 144x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 128x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+  - FRAME "Frame 4", 960x1863px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 2", 65x24px, horizontal pad 0 0 0 16px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Core tokens", 49x24px, constraints left/top, fill #252525, text [IBM Plex Sans IBMPlexSans, 20px]
+    - FRAME "Frame 1", 960x1815px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top, fill #E0E0E0
+      - GROUP "header", 960x47px, constraints left/top, fill #FFFFFF
+        - VECTOR "bkg", 960x47px, constraints left/top, fill #F4F4F4
+        - TEXT "Token Copy 2", 189.8x16px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 14px]
+        - TEXT "Role Copy", 189.8x16px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 14px]
+        - TEXT "Value Copy", 189.8x16px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 14px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-01
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF, stroke #DCDCDC 1px
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x36px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 84x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 68x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-02
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 84x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 68x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-03, stroke #DCDCDC 1px
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 84x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 68x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-hover-01
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 129x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 113x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-hover-02
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 129x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 113x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-hover-03
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 129x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 113x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-active-01
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 136x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 120x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-active-02
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 136x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 120x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-active-03
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 136x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 120x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-selected-01
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 151x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 135x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-selected-02
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 151x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 135x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-selected-03
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 151x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 135x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-selected-hover-01
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "Default page backgro", 288x18px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+        - GROUP "token", 320x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "tile", 320x103px, constraints left/top, fill #F4F4F4
+          - FRAME "snippet", 197x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #E0E0E0
+            - TEXT "$ui-background", 181x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+      - GROUP "$background", 960x103px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "value", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+          - TEXT "White — #ffffff", 94x54px, constraints left/top, fill #393939, text [IBM Plex Sans IBMPlexSans, 14px]
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill layer/layer-selected-hover-02
+          - RECTANGLE "swatch", 48x48px, constraints left/top, fill #FFFFFF
+        - GROUP "role", 319x103px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "tile", 319x103px, constraints left/top, fill #F4F4F4
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Elements / Type tokens
+- FRAME "Type tokens", 1056x3620px, constraints scale/scale, fill #FFFFFF
+  - FRAME "labels", 481x2214px, constraints left/top, fill #FFFFFF
+    - TEXT "Headings", 481x22px, constraints scale/scale, fill #161616, text [IBM Plex Sans SemiBold, 14px]
+    - TEXT "Body", 34x18px, constraints scale/center, fill #161616, text [IBM Plex Sans SemiBold, 14px]
+    - TEXT "Productive styles", 154x24px, constraints scale/center, fill #252525, text [IBM Plex Sans IBMPlexSans, 20px]
+    - TEXT "Type tokens", 152x36px, constraints scale/center, fill #161616, text [IBM Plex Sans IBMPlexSans, 28px], [heading]
+  - GROUP "productive-heading-06", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "productive-heading-0", 190x100px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 175x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 3", 175x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$productive-heading-", 159x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for layout h", 441x128px, constraints left/top, fill #161616, text [IBM Plex Sans Light, 54px], [heading]
+  - FRAME "productive-heading-06", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints scale/scale, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints scale/scale, fill #F4F4F4
+    - TEXT "productive-heading-0", 190x100px, constraints scale/scale, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 175x24px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 3", 175x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$productive-heading-", 159x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints scale/scale, fill #F4F4F4
+    - TEXT "This is for layout h", 482x50px, constraints scale/center, fill #161616, text [IBM Plex Sans Light, 42px], [heading]
+  - GROUP "productive-heading-05", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "productive-heading-0", 190x100px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 175x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 3", 175x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$productive-heading-", 159x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for layout h", 448x40px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 32px], [heading]
+  - GROUP "productive-heading-04", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "productive-heading-0", 190x100px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 175x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 3", 175x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$productive-heading-", 159x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for layout h", 448x36px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 28px], [heading]
+  - GROUP "productive-heading-03", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "productive-heading-0", 190x96px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 175x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 3", 175x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$productive-heading-", 159x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for componen", 379x26px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 20px]
+  - GROUP "productive-heading-02", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "productive-heading-0", 190x96px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 175x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 3", 175x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$productive-heading-", 159x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for componen", 313x22px, constraints left/top, fill #161616, text [IBM Plex Sans SemiBold, 16px]
+  - GROUP "productive-headlng-01", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "productive-heading-0", 190x112px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 175x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 3", 175x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$productive-heading-", 159x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for componen", 448x18px, constraints left/top, fill #161616, text [IBM Plex Sans SemiBold, 14px]
+  - GROUP "body-long-02", 962x216px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x216px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x216px, constraints left/top, fill #F4F4F4
+    - TEXT "body-long-02 Type: I", 190x112px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 116x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 3", 116x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$body-long-02", 94x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x216px, constraints left/top, fill #F4F4F4
+    - TEXT "This is commonly use", 504x120px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 16px]
+  - GROUP "body-short-02", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "body-short-02 Type:", 190x112px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - GROUP "token", 116x24px, constraints left/top, fill #FFFFFF
+      - FRAME "Group 7 Copy 2", 116x24px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle Copy 2", 116x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+        - TEXT "$body—short-02", 101x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for short pa", 464x44px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 16px]
+  - GROUP "body-long-01", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "body-long-01 Type: I", 190x112px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 109x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 3", 109x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$body-long-01", 94x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is commonly use", 448x100px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+  - GROUP "body-short-01", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "body-short-01 Type:", 190x112px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 116x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 4", 116x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$body-short-01", 101x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for short pa", 436x36px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+  - GROUP "body-short-01", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "body-short-01 Type:", 190x112px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 116x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 4", 116x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$body-short-01", 101x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for short pa", 461x36px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 14px]
+  - GROUP "helper-text-01", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "helper-text-01 Type:", 202x96px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 125x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 125x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$helper-text-01", 108x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for explanat", 370x32px, constraints left/top, fill button/button-secondary, text [IBM Plex Sans IBMPlexSans, 12px]
+  - GROUP "caption-01", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "caption-01 Type: IBM", 202x96px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 96x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 96x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$caption-01", 80x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for captions", 381x16px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 12px]
+  - GROUP "label-01", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "label-01 Type: IBM P", 202x96px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 81x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 81x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$label-01", 65x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for field la", 370x16px, constraints left/top, fill #161616, text [IBM Plex Sans IBMPlexSans, 12px]
+  - GROUP "code-02", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "code-02 Type: IBM Pl", 202x112px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 74x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 74x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$code-02", 58x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for code sni", 448x40px, constraints left/top, fill #161616, text [productive / code-02]
+  - GROUP "code-01", 962x168px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "base layer", 193x168px, constraints left/top, fill #DCDCDC, stroke #979797 0px
+    - RECTANGLE "tile", 320x168px, constraints left/top, fill #F4F4F4
+    - TEXT "code-01 Type: IBM Pl", 202x104px, constraints left/top, fill #3D3D3D, text [IBM Plex Sans SemiBold, 12px]
+    - FRAME "token", 74x24px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 74x24px, constraints scale/scale, radius 2px, fill #DCDCDC, stroke #979797 0px
+      - TEXT "$code-01", 58x16px, constraints scale/center, fill #161616, text [IBM Plex Mono IBMPlexMono, 12px]
+    - VECTOR "tile", 641x168px, constraints left/top, fill #F4F4F4
+    - TEXT "This is for inline c", 448x32px, constraints left/top, fill #161616, text [productive/code-01]
+
+Screen: Grid / max-1584px-16 column
+- FRAME "max-1584px-16 column", 1584x600px, constraints scale/scale, fill #FFFFFF
+  - BOOLEAN_OPERATION "outside-margin", 1584x600px, constraints left/top, fill #0000001A, stroke #979797 0px
+
+Screen: Grid / xlg-1312px-16 column
+- FRAME "xlg-1312px-16 column", 1312x600px, constraints scale/scale, fill #FFFFFF
+  - BOOLEAN_OPERATION "outside-margin", 1312x600px, constraints left/top, fill #0000001A, stroke #979797 0px
+
+Screen: Grid / lg-1056px-16 column
+- FRAME "lg-1056px-16 column", 1056x600px, constraints scale/scale, fill #FFFFFF
+  - BOOLEAN_OPERATION "outside-margin", 1056x600px, constraints left/top, fill #0000001A, stroke #979797 0px
+
+Screen: Grid / md-672px-8 column
+- FRAME "md-672px-8 column", 672x600px, constraints scale/scale, fill #FFFFFF
+  - BOOLEAN_OPERATION "outside-margin", 672x600px, constraints left/top, fill #0000001A, stroke #979797 0px
+
+Screen: Grid / sm-320px-4 column
+- FRAME "sm-320px-4 column", 320x600px, constraints scale/scale, fill #FFFFFF
+
+Screen: Grid / IBM Grid
+- FRAME "IBM Grid", 640x2024px, constraints scale/scale, fill #FFFFFF
+  - RECTANGLE "Background", 640x2024px, constraints left/top, fill #F4F4F4
+  - FRAME "Content", 443x1956px, constraints left/top, fill #FFFFFF
+    - TEXT "As a designer, we al", 443x1916px, constraints scale/scale, fill image(hash: f24fa6e51e8e50e42ae558654c3b4170ff86a1e7), text [IBM Plex Sans IBMPlexSans, 14px]
+    - FRAME "Math", 378x341px, constraints scale/scale, fill #FFFFFF
+      - TEXT "2*16", 32x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "2*16", 32x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "2*16", 32x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "2*24 copy", 32x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "16* (2*16+32)", 93x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "16* (2*16+48)", 93x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "16* (2*16+64) copy", 93x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "8* (2*16+48)", 85x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "4* (2*16+64)", 85x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "1,056", 38x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "1,312", 38x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "1,584 copy", 38x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "672", 26x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+      - TEXT "384", 26x20px, constraints scale/center, fill #0F6DFF, text [IBM Plex Sans IBMPlexSans, 14px]
+    - TEXT "IBM Grid", 116x36px, constraints scale/center, fill #161616, text [IBM Plex Sans SemiBold, 28px], [heading]
+    - RECTANGLE "Rectangle 1", 174x55px, constraints left/top, fill image(hash: f24fa6e51e8e50e42ae558654c3b4170ff86a1e7)
+
+Screen: Overview / Overview
+- FRAME "Overview", 970x2533px, constraints left/top, fill background/background
+  - TEXT "Overview", 221x64px, constraints left/top, fill #000000, text [IBM Plex Sans Light, 54px], [heading]
+  - TEXT "Components are one of the key building blocks of the design ", 555x78px, constraints left/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 20px]
+  - TEXT "Each component has been designed and coded to solve a specif", 558x140px, constraints left/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+  - TEXT "Components", 410x36px, constraints left/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 28px], [heading]
+  - FRAME "Components-frame", 876x1926px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 9", 876x214px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Group 2", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.45x77.91px, constraints scale/scale [decorative, ~25 shapes]
+        - TEXT "Breadcrumb", 65x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 137.56x7.09px, constraints scale/scale [decorative, ~22 shapes]
+        - TEXT "Breadcrumb", 80x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 107x32.1px, constraints scale/scale, fill #0068FF
+          - VECTOR "Vector", 8.36x8.36px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 13.38x13.38px, constraints scale/scale
+          - VECTOR "Vector", 26.83x6.66px, constraints scale/scale, fill #F3F3F3
+        - TEXT "Breadcrumb", 44x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Checkbox", 142.44x69.55px, constraints scale/scale [decorative, ~21 shapes]
+        - TEXT "Breadcrumb", 63x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+    - FRAME "Frame 8", 876x214px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Group 5", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 144.45x21.4px, constraints scale/scale, fill #171717
+          - VECTOR "Vector", 123.78x7.59px, constraints scale/scale, fill #F3F3F3
+          - VECTOR "Vector", 47.48x21.4px, constraints scale/scale, fill gradient_linear(#17171700 0% | #171717 100%)
+          - VECTOR "Vector", 21.4x21.4px, constraints scale/scale, fill #3D3D3D
+          - VECTOR "Vector", 8.69x8.69px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 10.7x10.7px, constraints scale/scale
+          - RECTANGLE "Rectangle", 9.93x12.84px, constraints scale/scale, fill image(hash: 88fd20dc5c484502a17181a5bce414d4432c4f24)
+        - TEXT "Breadcrumb", 85x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE "Group 6", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 141.77x21.4px, constraints scale/scale [decorative, ~18 shapes]
+        - TEXT "Breadcrumb", 110x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.45x87.75px, constraints scale/scale [decorative, ~25 shapes]
+        - TEXT "Breadcrumb", 67x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE "Group 7", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 121.71x122.53px, constraints scale/scale
+            - GROUP "Date_Picker", 121.71x122.53px, constraints scale/scale
+        - TEXT "Breadcrumb", 73x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+    - FRAME "Frame 10", 876x214px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.45x86.27px, constraints scale/scale [decorative, ~17 shapes]
+        - TEXT "Breadcrumb", 67x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 131.08x8.03px, constraints scale/scale, fill #CACACA
+          - VECTOR "Vector", 90.95x8.02px, constraints scale/scale, fill #CACACA
+          - VECTOR "Vector", 64.2x8.03px, constraints scale/scale, fill #A4A4A4
+          - VECTOR "Vector", 64.2x21.4px, constraints scale/scale, fill #0062FF
+          - VECTOR "Vector", 31.45x7.06px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 144.45x21.4px, constraints scale/scale, fill #F3F3F3
+          - VECTOR "Vector", 64.2x8.02px, constraints scale/scale, fill #D8D8D8
+          - VECTOR "Vector", 8.69x8.69px, constraints scale/scale, stroke #DCDCDC 3px
+          - GROUP "Group", 10.7x10.7px, constraints scale/scale
+            - ELLIPSE "Ellipse 2", 10.7x10.7px, constraints scale/scale, fill #0F62FE
+        - TEXT "Breadcrumb", 85x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE "Group 7", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 110.34x119.85px, constraints scale/scale [decorative, ~33 shapes]
+        - TEXT "Breadcrumb", 34x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE "Group 8", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 143.78x20.73px, constraints scale/scale [decorative, ~5 shapes]
+        - TEXT "Breadcrumb", 89x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+    - FRAME "Frame 11", 876x214px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Group 5", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 39.76x8.05px, constraints scale/scale, fill #0062FF
+          - VECTOR "Vector", 39.53x0px, constraints scale/scale, stroke #0062FF 1px
+        - TEXT "Breadcrumb", 27x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE "Group 6", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "List", 119.71x86.88px, constraints scale/scale
+            - TEXT "–", 9x18px, constraints scale/scale, fill #252525, text [IBM Plex Sans IBMPlexSans, 14px]
+            - TEXT "–", 9x18px, constraints scale/scale, fill #252525, text [IBM Plex Sans IBMPlexSans, 14px]
+            - TEXT "–", 9x18px, constraints scale/scale, fill #252525, text [IBM Plex Sans IBMPlexSans, 14px]
+            - VECTOR "Rectangle-Copy-3", 2.68x2.67px, constraints scale/scale, fill #171717
+            - VECTOR "Rectangle-Copy-4", 2.68x2.67px, constraints scale/scale, fill #171717
+            - VECTOR "Rectangle-Copy-5", 2.68x2.68px, constraints scale/scale, fill #171717
+            - VECTOR "Rectangle-3-Copy-18", 90.95x8.03px, constraints scale/scale, fill #CACACA
+            - VECTOR "Rectangle-3-Copy-19", 90.95x8.03px, constraints scale/scale, fill #CACACA
+            - VECTOR "Rectangle-3-Copy-21", 90.95x8.03px, constraints scale/scale, fill #CACACA
+            - VECTOR "Rectangle-3-Copy-20", 90.95x8.02px, constraints scale/scale, fill #CACACA
+            - VECTOR "Rectangle-3-Copy-22", 90.95x8.03px, constraints scale/scale, fill #CACACA
+            - VECTOR "Rectangle-3-Copy-23", 90.95x8.02px, constraints scale/scale, fill #CACACA
+        - TEXT "Breadcrumb", 23x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 38.79x38.79px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "Breadcrumb", 51x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.45x81.59px, constraints scale/scale [decorative, ~12 shapes]
+        - TEXT "Breadcrumb", 40x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+    - FRAME "Frame 12", 876x214px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Group 5", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 8.36x8.36px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 144.45x21.4px, constraints scale/scale, fill #DCDCDC
+          - VECTOR "Vector", 143.11x64.87px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 143.11x64.87px, constraints scale/scale, fill #D8D8D8
+          - VECTOR "Vector", 144.45x21.4px, constraints scale/scale, fill #F3F3F3
+          - VECTOR "Vector", 144.45x21.4px, constraints scale/scale, fill #F3F3F3
+          - VECTOR "Vector", 128.4x0.67px, constraints scale/scale, fill #DCDCDC
+          - VECTOR "Vector", 144.45x25.41px, constraints scale/scale, fill #F3F3F3
+          - VECTOR "Vector", 128.4x0.67px, constraints scale/scale, fill #DCDCDC
+          - VECTOR "Vector", 6.69x3.82px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 10.7x10.7px, constraints scale/scale
+          - VECTOR "Vector", 37.45x8.03px, constraints scale/scale, fill #BEBEBE
+          - VECTOR "Vector", 88.27x8.03px, constraints scale/scale, fill #D8D8D8
+          - VECTOR "Vector", 64.2x8.02px, constraints scale/scale, fill #D8D8D8
+          - VECTOR "Vector", 88.27x8.03px, constraints scale/scale, fill #D8D8D8
+          - VECTOR "Vector", 28.09x16.05px, constraints scale/scale, fill #171717
+          - VECTOR "Vector", 3.74x5.73px, constraints scale/scale, fill #F3F3F3
+          - VECTOR "Vector", 10.7x10.7px, constraints scale/scale
+          - GROUP "Group 9", 6.15x6.15px, constraints left/top
+            - RECTANGLE "Rectangle 1", 6.15x6.15px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 2", 6.15x6.15px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Breadcrumb", 72x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE "Group 6", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.45x77.58px, constraints scale/scale [decorative, ~15 shapes]
+        - TEXT "Breadcrumb", 75x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 85.6x21.4px, constraints scale/scale [decorative, ~11 shapes]
+        - TEXT "Breadcrumb", 89x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.01x28.01px, constraints scale/scale
+            - GROUP "Pagination", 144.01x28.01px, constraints scale/scale
+        - TEXT "Breadcrumb", 68x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+    - FRAME "Frame 13", 876x214px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Group 5", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.45x18.06px, constraints scale/scale [decorative, ~11 shapes]
+        - TEXT "Breadcrumb", 117x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE "Group 6", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 80.25x107px, constraints scale/scale [decorative, ~16 shapes]
+        - TEXT "Breadcrumb", 98x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 142.44x69.55px, constraints scale/scale [decorative, ~13 shapes]
+        - TEXT "Breadcrumb", 83x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.45x21.4px, constraints scale/scale [decorative, ~11 shapes]
+        - TEXT "Breadcrumb", 45x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+    - FRAME "Frame 14", 876x214px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Group 5", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.78x21.4px, constraints scale/scale [decorative, ~7 shapes]
+        - TEXT "Breadcrumb", 41x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE "Group 6", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 168.52x21.4px, constraints scale/scale [decorative, ~7 shapes]
+        - TEXT "Breadcrumb", 38x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 144.45x84.93px, constraints scale/scale [decorative, ~33 shapes]
+        - TEXT "Breadcrumb", 95x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".tile", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 149.8x92.29px, constraints scale/scale [decorative, ~21 shapes]
+        - TEXT "Breadcrumb", 30x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+    - FRAME "Frame 15", 876x214px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Group 5", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+        - INSTANCE ".component-images", 214x214px, constraints left/top, fill #FFFFFF
+          - GROUP "Artboard", 169.19x53.5px, constraints scale/scale [decorative, ~18 shapes]
+        - TEXT "Breadcrumb", 23x18px, constraints center/top, fill #000000, text [IBM Plex Sans IBMPlexSans, 14px]
+        - FRAME "Frame 8", 111x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/bottom
+          - TEXT "Documentation", 87x16px, constraints center/top, fill #000000, text [productive/helper-text-01 (link)]
+          - INSTANCE "chevron--right", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.7x10px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE "Group 6", 219x214px, constraints left/top, fill #FFFFFF, stroke #F4F4F4 2px
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Accordion / Group
+- FRAME "Group", 3443x2137px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE ".Documentation Label", 84x81px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x81px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 9x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 84x42px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x42px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 9x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 84x119px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x119px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 9x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 84x160px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x160px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 9x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 84x200px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x200px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 9x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 84x239px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x239px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 9x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 84x280px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x280px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 9x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 84x270px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x270px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 57x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 25x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 25x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 25x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 3100x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 3100x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 51x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 980x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 980x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 60x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 980x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 980x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 43x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 980x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 980x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 41x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 32x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 32x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 32x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+
+Screen: Accordion / Item
+- FRAME "Item", 6883x2137px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE ".Documentation Label", 84x40px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x40px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 47x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 84x40px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x40px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 47x18px, constraints right/center, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 84x748px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x748px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 29x22px, constraints right/center, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 84x748px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame vertical", 25x748px, constraints right/top_bottom [decorative, ~4 shapes]
+    - TEXT "Label", 37x22px, constraints right/center, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 47x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 47x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 47x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 1020x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 1020x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 51x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 2120x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 2120x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 60x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 2120x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 2120x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 43x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 2120x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 2120x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 41x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 1020x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 1020x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 51x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 1020x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 1020x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 51x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 1020x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 1020x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 40x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 1020x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 1020x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 40x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 1020x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 1020x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 40x22px, constraints center/top, fill #5539E6, text [IBM Plex Sans SemiBold, 16px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 66x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 66x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 66x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 47x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 47x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 47x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 66x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 66x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - INSTANCE ".Documentation Label", 470x48px, constraints left/top, fill #FFFFFF
+    - FRAME ".Frame horizontal", 470x24px, constraints left_right/bottom, fill #FFFFFF [decorative, ~4 shapes]
+    - TEXT "Label", 66x18px, constraints center/top, fill #5539E6, text [IBM Plex Sans IBMPlexSans, 14px]
+  - ... +8 more children
+
+Screen: Accordion / Accordion Skeleton
+- COMPONENT_SET "Accordion Skeleton", 1012x301px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Align=End", 470x269px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "open", 470x145px, constraints center/scale, fill #FFFFFF
+      - RECTANGLE "border-top", 470x1px, constraints left_right/top, fill #E0E0E0
+      - INSTANCE "chevron--up", 16x16px, constraints right/top
+        - VECTOR "Vector", 10x5.7px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".Base Sekeleton Bar", 406x16px, constraints left_right/top, fill miscellaneous/skeleton-background
+        - RECTANGLE "text line", 1x16px, constraints left/top_bottom, fill miscellaneous/skeleton-element
+      - INSTANCE ".Base Sekeleton Bar", 294x16px, constraints left_right/top, fill miscellaneous/skeleton-background
+        - RECTANGLE "text line", 1x16px, constraints left/top_bottom, fill miscellaneous/skeleton-element
+      - INSTANCE ".Base Sekeleton Bar", 256x16px, constraints left_right/top, fill miscellaneous/skeleton-background
+        - RECTANGLE "text line", 1x16px, constraints left/top_bottom, fill miscellaneous/skeleton-element
+      - INSTANCE ".Base Sekeleton Bar", 310x16px, constraints left_right/top, fill miscellaneous/skeleton-background
+        - RECTANGLE "text line", 1x16px, constraints left/top_bottom, fill miscellaneous/skeleton-element
+    - FRAME "closed 1", 470x41px, constraints center/scale, fill #FFFFFF
+      - RECTANGLE "border-top", 470x1px, constraints left_right/top, fill #E0E0E0
+      - INSTANCE "chevron--down", 16x16px, constraints right/top
+        - VECTOR "Vector", 10x5.7px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".Base Sekeleton Bar", 406x16px, constraints left_right/top, fill miscellaneous/skeleton-background
+        - RECTANGLE "text line", 1x16px, constraints left/top_bottom, fill miscellaneous/skeleton-element
+    - FRAME "closed 2", 470x41px, constraints center/scale, fill #FFFFFF
+      - RECTANGLE "border-top", 470x1px, constraints left_right/top, fill #E0E0E0
+      - INSTANCE "chevron--down", 16x16px, constraints right/top
+        - VECTOR "Vector", 10x5.7px, constraints scale/scale, fill icon/icon-primary
+      - INSTANCE ".Base Sekeleton Bar", 406x16px, constraints left_right/top, fill miscellaneous/skeleton-background
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

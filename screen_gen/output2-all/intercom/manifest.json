@@ -1,0 +1,36 @@
+{
+  "company": "intercom",
+  "source": "/Users/sarannagubandi/downloads/awesome/intercom.md",
+  "platform": "android",
+  "device": "Galaxy A54",
+  "viewport_px": [
+    393,
+    873
+  ],
+  "output_px": [
+    1081,
+    2401
+  ],
+  "paradigm_detected": "marketing site, because the spec describes a cream editorial web canvas with top nav, pricing/FAQ/footer patterns, and product mockup cards rather than native mobile screens.",
+  "self_check": "All three screens are single-column Android fragments with app-only chrome, touch-friendly controls, no web/spatial residue, and they keep the cream canvas, white lifted cards, Saans typography, hairline borders, restrained radii, charcoal primary, and Fin Orange only as a Fin accent.",
+  "screens": [
+    {
+      "name": "Home",
+      "kind": "HOME FEED",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "Search",
+      "kind": "SEARCH BROWSE",
+      "png": "screen_2_search-browse.png",
+      "html": "screen_2_search-browse.html"
+    },
+    {
+      "name": "Profile",
+      "kind": "PROFILE",
+      "png": "screen_3_profile.png",
+      "html": "screen_3_profile.html"
+    }
+  ]
+}

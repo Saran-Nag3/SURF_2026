@@ -1,0 +1,1250 @@
+---
+name: n26-ui-community
+source_file: N26 UI (Community)
+source_page: All pages (2): cover, references
+generated_at: 2026-07-25T09:28:58.978605+00:00
+---
+
+# N26 UI (Community) Design Guidelines
+
+## Source
+- Figma file: N26 UI (Community)
+- Figma page: All pages (2): cover, references
+- Extracted at: 2026-07-25T09:28:58.978605+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- white: [#FFFFFF]
+- grey-100: [#FFFFFF]
+- green-500: [#36A18B]
+- Grays/Black: [#000000]
+- grey-200: none
+- black: [#1B1B1B]
+- grey-400: [#6D6D6D]
+- red-300: [#B15D5B]
+- yellow-100: [#F2ECE1]
+- green-100: [#E8F2EE]
+- blue-100: [#E9EEF2]
+- blue-300: [#2B697A]
+- Content / contentPrimary: [#000000]
+- Inverse / Background / backgroundInversePrimary: [#000000]
+- red-100: [#F2E8E8]
+- green-200: [#CCE3DA]
+- grey-300: [#838388]
+- green-400: [#9BD0C5]
+- Background/backgroundPrimary: [#FFFFFF]
+- Inverse / Content / contentInversePrimary: [#FFFFFF]
+- Content++ / contentOnColor: [#FFFFFF]
+- blue-200: [#BBD8E8]
+- yellow-300: [#967C4D]
+- green-300: [#B1D5D1]
+
+## Raw Colors (unstyled)
+- #000000: 597 uses
+- #0B1C3F: 55 uses
+- #FFFFFF: 22 uses
+- #9747FF: 10 uses
+- #0000001A: 6 uses
+
+## Typography Tokens
+- label/medium: Manrope SemiBold (600), 16px / 20px, tracking 0px
+- label/xsmall: Manrope Medium (500), 10px / 16px, tracking 0px
+- Paragraph/small: Manrope Regular (400), 14px / 20px, tracking 0.1px
+- Paragraph/Medium (16\24): Inter Regular (400), 16px / 24px, tracking 0px
+- heading/xsmall: Manrope SemiBold (600), 18px / 24px, tracking 0px
+- heading/large: Manrope SemiBold (600), 36px / 40px, tracking 0px
+- heading/medium: Manrope SemiBold (600), 24px / 32px, tracking 0px
+- label/small: Manrope Medium (500), 16px / 20px, tracking 0px
+- Label/X Small (12\16): Inter Medium (500), 12px / 16px, tracking 0px
+- heading/small: Manrope SemiBold (600), 20px / 28px, tracking 0px
+- label/large: Manrope Medium (500), 18px / 24px, tracking 0px
+
+## Raw Typography (unstyled)
+- Manrope Medium, 18px: 9 uses
+- SF Pro Text Semibold, 15px: 8 uses
+- Manrope Bold, 14px: 6 uses
+
+## Typography Hierarchy
+- 36px - heading/large (Manrope SemiBold)
+- 24px - heading/medium (Manrope SemiBold)
+- 20px - heading/small (Manrope SemiBold)
+- 18px - Manrope Medium, 18px (raw)
+- 18px - heading/xsmall (Manrope SemiBold)
+- 18px - label/large (Manrope Medium)
+- 16px - Paragraph/Medium (16\24) (Inter Regular)
+- 16px - label/medium (Manrope SemiBold)
+- 16px - label/small (Manrope Medium)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 14px - Manrope Bold, 14px (raw)
+- 14px - Paragraph/small (Manrope Regular)
+- 12px - Label/X Small (12\16) (Inter Medium)
+- 10px - label/xsmall (Manrope Medium)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Status bar - iOS
+- Music and sound Player
+- Edit
+- Arrows-chevron
+- Layout
+- Documents
+- Folder
+- devices
+- mouse and keyboard
+- Comercial
+- Interface essential
+- User
+- Typography
+- Banners
+- .circle-Icon
+- heading
+- .listItem
+- .Itemnav
+- Icon-button
+- buttons
+- Brand
+- Home Indicator - iOS
+- Avatar
+- verticalButton
+- filter
+- bottomNav
+- divider
+- List
+- search
+- input
+- .colors
+
+## Component Specs
+-  Status bar - iOS: size 375x44px, vertical layout, padding 0 0 0 0px, gap 101px, sizing W:fixed H:fixed, text [SF Pro Text Semibold, 15px] | variants: soft: iOS; theme: dark/light; size: large/small
+- Music and sound Player/Airplay: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Edit/marker: size 24x24px, fill #FFFFFF | variants: Style: Filled/outlined
+- Edit/Crop: size 24x24px, fill #FFFFFF | variants: Style: Filled/outlined
+- Edit/Add-anchor-point: size 24x24px, fill #FFFFFF | variants: Style: Filled/outlined
+- Edit/Brush: size 24x24px, fill #FFFFFF | variants: Style: Filled/outlined
+- Edit/Edit-anchor-point: size 24x24px, fill #FFFFFF | variants: Style: Filled/outlined
+- Edit/Eraser: size 24x24px, fill #FFFFFF | variants: Style: Filled/outlined
+- Edit/Brush-1: size 24x24px, fill #FFFFFF | variants: Style: Filled/outlined
+- Edit/Remove-anchor-point: size 24x24px, fill #FFFFFF | variants: Style: Filled/outlined
+- Edit/Layer: size 24x24px, fill #FFFFFF | variants: Style: Filled/outlined
+- Arrows-chevron/Rotate: size 24x24px, fill #FFFFFF | variants: Style: Filled - 0/Outlined
+- Arrows-chevron/corner up arrows 1: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/corner up arrows: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrows-right-left: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-up-down: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-up-down-corner: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Square-Up-right: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Square-down-right: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Square-Down-left: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Square-Up-left: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-Right-Down-: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-Left-Down: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-Right-Up: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-Up-Left: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-Left: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-Right: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-up: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Arrow-Down: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/chevron-right: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/Chevron-Left: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Arrows-chevron/chevron-up: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Layout/grid-8: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Layout/grid-7: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Layout/grid-6: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Layout/grid-5: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Layout/grid-4: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Layout/grid-3: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Layout/grid-2: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Layout/grid-1: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Search-Document: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Copy-Document: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Document: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Documents: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Document-Edit: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Document-Fav: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Add-Document: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Document-secure: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Document-1-Copy: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Sync-Document: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Document-history: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Broken-Document: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Documents/Shredder: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/opened-Folder: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Remove-folder: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Folder-Marked: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Folder-sync: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Folder-secure: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Folder-Content: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Folder: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Folder-information: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Folder-locked: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Folder-Details: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Folder-Shared: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/Multi-Folder: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Folder/edit-folder: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Keypad: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Kaset-Drive: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/gramophone: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Battery-Medium: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Playstation: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Speaker: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Homepod: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/type C: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/CPU: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Airpod-Case: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Radio: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/USB: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Telephone: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/iPod: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Phone-PC: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/handy-game: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Battery-Full: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Battery: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/iPad: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Tv: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/iMac: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/flopy: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Airpod: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Watch: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/joystick: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/watch: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/VR-Glasses: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/SD-card: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/iPhone: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Battery-low: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/charging-battrey: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- devices/Sim card: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- mouse and keyboard/Mouse: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- mouse and keyboard/Keyboard-Close: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- mouse and keyboard/Keyboard-Open: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- mouse and keyboard/Keyboard: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Box-search: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Shop: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Box: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Box-fav: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Delivery: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Delivery time: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/shopping-basket: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/shopping-basket-handy: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Shopping: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Shopping-bag: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/shopkeeper: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Box-add: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Right-position: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Comercial/Discount-2: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/PLay-pause: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/Play: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/Pause-rectangle: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/Next: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/previous: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/Music-note-1: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/Volume-Down: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/Volume-Up: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/Volume: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/Forward: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Music and sound Player/backwards: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Menu-3: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Information: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Retry-refresh: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Sticker: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Download: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/eye: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Space-Shuttle: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Board: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Setting: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Wi-Fi: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Click: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Wallet: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Cast: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Move: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Filter: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Expand: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/minimize: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Image: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Flag: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Sort: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Send: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Receive : size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/External-link: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Mug: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Chat: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/chat: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Command: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Figma: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Google: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Facebook: size 24x24px, fill #FFFFFF | variants: Style: Filled
+- Interface essential/twitter: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Linkedin: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Behance: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Dribbble: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Instagram: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/instant: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Loader: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Tag: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Key: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Lamp: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Email-notice: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Clip board: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/World: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Location: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Microphone: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Anchor: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Shield: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Bluetooth: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Trending-up: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Trending-down: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Trash: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Activity: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Sync-retry: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Check: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Signal: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Close: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Credit-card: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Book: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Zap: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Son: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Moon: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Delete: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Copy: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Inbox: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/SandClock: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Star: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Alarm: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Pin: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Unavailable: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Flame: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Clock: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Unlock: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Lock: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Camera: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/alert-triangle: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/alert-octagon: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Information-circle: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Information-Rectangle : size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Compass: size 24x24px, fill #AC4C4C | variants: Style: Filled/Outlined
+- Interface essential/Archive: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Calendar: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Share: size 24x24px, fill #FFFFFF | variants: Share: Filled/Outlined
+- Interface essential/Notebook: size 24x24px, fill #FFFFFF | variants: Notebook: Filled/Outlined
+- Edit/Edit: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Pen: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Menu-1: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Menu-4: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Menu: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/List-caption: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Email-2: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Minus-circle: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Minus regtangle: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Minus: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Pluse ellipse: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Pluse regtangle: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Pluse: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Reply: size 24x24px, fill #FFFFFF | variants: Reply: Filled/Outlined
+- Interface essential/emai-1: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- User/Group-person: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- User/Two-Person: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- User/Add-Person: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Close-rectangle: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Heart: size 24x24px | variants: Style: Filled/Outlined
+- Interface essential/Chat-1: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Disabled-Bell: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Bell: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Bookmark: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- User/Person: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Magnifier : size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Interface essential/Home: size 24x24px, fill #FFFFFF | variants: Style: Filled/Outlined
+- Typography: size 343x24px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fill H:fixed, text [label/large] | variants: Class: Heading/Label/Paragraph; Size: Large/Medium/Small/X small/medium/small
+- Banners: size 343x114px, radius 8px, horizontal layout, padding 16 16 16 16px, gap 16px, sizing W:fixed H:fixed, fill yellow-100, stroke grey-100 1px, text [Paragraph/small, label/medium] | variants: type: Account/Alert/holidays/savings/warning
+- .circle-Icon: size 56x56px, radius 64px, horizontal layout, padding 16 16 16 16px, gap 8px, align center/center, sizing W:fixed H:fixed, stroke grey-100 1px | variants: type: green/outline
+- heading: size 375x48px, horizontal layout, padding 8 16 8 16px, gap 16px, align min/center, sizing W:fixed H:fixed, text [Manrope Bold, 14px, heading/medium] | variants: Property 1: Default/Variant2
+- .listItem: size 342x68px, horizontal layout, padding 12 20 12 20px, gap 24px, align min/center, sizing W:fixed H:fixed, text [Paragraph/small, label/medium] | variants: type: black/error/green
+- .Itemnav: size 44x48px, vertical layout, padding 2 8 2 8px, gap 0px, align min/center, sizing W:fixed H:fixed, text [label/xsmall] | variants: selected: off/on
+- Icon-button: size 24x24px, radius 32px, horizontal layout, padding 4 4 4 4px, gap 8px, sizing W:fixed H:fixed, fill white | variants: state: default/hover
+- buttons: size 343x44px, radius 8px, vertical layout, padding 12 8 12 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill green-400, text [label/medium] | variants: type: disabled/ghost/white
+- Brand: size 46x32px, fill #FFFFFF | variants: Property 1: Default/Variant2
+-  Home Indicator - iOS: size 375x21px, fill #FFFFFF
+- Avatar: size 30x30px, radius 184px, horizontal layout, padding 4 4 4 4px, gap 8px, align center/center, sizing W:fixed H:fixed, fill blue-100, text [Manrope Bold, 14px]
+- verticalButton: size 101x106px, vertical layout, padding 0 0 0 0px, gap 2px, align min/center, sizing W:fixed H:fixed, text [Manrope Medium, 18px]
+- filter: size 142x44px, radius 8px, vertical layout, padding 12 16 12 16px, gap 8px, sizing W:fixed H:fixed, fill white, stroke grey-100 1px, effect [drop_shadow 4px offset 0 2 #6E6E6E1A, drop_shadow 7px offset 0 7 #6E6E6E17, drop_shadow 9px offset 0 15 #6E6E6E0D, drop_shadow 11px offset 0 27 #6E6E6E03, drop_shadow 12px offset 0 42 #6E6E6E00], text [label/medium]
+- bottomNav: size 375x56px, horizontal layout, padding 4 24 4 24px, gap 41px, align space_between/min, sizing W:fixed H:fixed, stroke grey-200 1px, text [label/xsmall]
+- divider: size 343x0px, fill #FFFFFF
+- List: size 343x340px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, stroke grey-100 1px, text [Paragraph/small, label/medium]
+- search: size 345x36px, radius 8px, horizontal layout, padding 8 8 8 8px, gap 4px, sizing W:fixed H:fixed, fill grey-200, text [label/small]
+- input: size 343x76px, radius 8px, horizontal layout, padding 28 16 28 16px, gap 8px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke grey-100 1px, text [label/small]
+- .colors: size 180x180px, radius 32px, fill #FFFFFF
+
+## Most-Used Styles
+- black: 105 uses
+- label/medium: 61 uses
+- Paragraph/small: 52 uses
+- grey-400: 52 uses
+- Content / contentPrimary: 47 uses
+- grey-200: 36 uses
+- green-500: 35 uses
+- grey-100: 31 uses
+- white: 24 uses
+- label/xsmall: 19 uses
+- red-300: 9 uses
+- heading/xsmall: 8 uses
+- Grays/Black: 7 uses
+- blue-100: 7 uses
+- blue-300: 7 uses
+- grey-300: 7 uses
+- heading/medium: 7 uses
+- label/small: 7 uses
+- Content++ / contentOnColor: 6 uses
+- Inverse / Content / contentInversePrimary: 5 uses
+- heading/large: 5 uses
+- yellow-100: 5 uses
+- Paragraph/Medium (16\24): 4 uses
+- green-100: 4 uses
+- Label/X Small (12\16): 3 uses
+- green-200: 3 uses
+- green-400: 3 uses
+- red-100: 3 uses
+- Background/backgroundPrimary: 1 use
+- blue-200: 1 use
+- green-300: 1 use
+- heading/small: 1 use
+- label/large: 1 use
+- yellow-300: 1 use
+
+## Layout & Structure
+Screen: cover / thumbnail
+- FRAME "thumbnail", 1920x1080px, constraints left/top, fill #0D0D0D
+  - FRAME "pblogom", 77x94px, constraints left/top, fill #FFFFFF
+    - GROUP "Artwork 4", 77x94px, constraints scale/scale
+      - GROUP "Group", 77x94px, constraints scale/scale
+        - VECTOR "Vector", 77x94px, constraints scale/scale, fill #F7F7F7
+        - VECTOR "Vector", 25.67x8.55px, constraints scale/scale, fill #F5AEE8
+        - VECTOR "Vector", 25.67x8.55px, constraints scale/scale, fill #F5AEE8
+  - FRAME "footer", 1114x54px, horizontal pad 0 0 0 0px gap 44.4px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Avatar & Text", 311x54px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "avatar", 48x48px, constraints left/top, fill image(hash: 35aceab941dbb2334a0d3401769106afb02f91dd), stroke #FFFFFF 2px
+      - FRAME "Avatar text", 251x54px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Pablo Alejandro Gomez", 251x24px, constraints left/top, fill #FFFFFF, text [Inter Bold, 22px]
+        - TEXT "Pblogom", 75x28px, constraints left/top, fill #FFFFFF, text [Inter Regular, 18px]
+    - TEXT "COPYWRIGHT @pablegomez", 285x32px, constraints left/top, fill #A9A9A9, text [Inter Regular, 17.76px]
+  - FRAME "Frame 1", 709x904px, constraints left/top, radius 1000/1000/0/0px, fill green-500, stroke #FFFFFF 7px
+    - RECTANGLE "image 2", 512.31x1106.58px, constraints left/top, fill image(hash: 882590fe62d6124c09278475b56c6ccd57caffdb)
+  - FRAME "Frame 2", 275x284px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "UI library", 224x68px, constraints left/top, fill #F7F7F7CC, text [Inter Regular, 56px], [heading]
+    - INSTANCE "Brand", 275x192px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 275x188.56px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector 3", 64.27x67px, constraints left/top, stroke #000000 6px
+  - VECTOR "Vector 5", 50.02x81.95px, constraints left/top, stroke #000000 6px
+
+Screen: references / Colors
+- SECTION "Colors", 1440x2316px, fill #FFFFFF, stroke #0000001A 1px
+  - FRAME "Frame 2", 1060x180px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill green-500
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill green-400
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill green-300
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill green-200
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill green-100
+  - FRAME "Frame 3", 1280x180px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill black
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill grey-400
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill grey-300
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill grey-200
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill grey-100
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill white
+  - FRAME "Frame 4", 400x180px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill red-300
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill red-100
+  - FRAME "Frame 6", 400x180px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill yellow-300
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill yellow-100
+  - FRAME "Frame 5", 620x180px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill blue-300
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill blue-200
+    - INSTANCE ".colors", 180x180px, constraints left/top, radius 32px, fill blue-100
+  - COMPONENT ".colors", 180x180px, constraints left/top, radius 32px, fill #FFFFFF
+
+Screen: references / Brand
+- SECTION "Brand", 1826x2316px, fill #FFFFFF, stroke #0000001A 1px
+  - COMPONENT_SET "Brand", 78x112px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 46x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 46x31.43px, constraints scale/scale, fill #000000
+    - COMPONENT "Property 1=Variant2", 46x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 46x31.43px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT_SET "buttons", 375x206px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "type=disabled", 343x44px, vertical pad 12 8 12 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill green-400
+      - FRAME "content", 83x20px, vertical pad 0 4 0 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Typography", 75x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 75x20px, constraints left_right/top, fill green-500, text [label/medium]
+    - COMPONENT "type=white", 343x44px, vertical pad 12 8 12 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill white
+      - FRAME "content", 83x20px, vertical pad 0 4 0 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Typography", 75x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 75x20px, constraints left_right/top, fill green-500, text [label/medium]
+    - COMPONENT "type=ghost", 343x44px, vertical pad 12 8 12 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+      - FRAME "content", 83x20px, vertical pad 0 4 0 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Typography", 75x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 75x20px, constraints left_right/top, fill white, text [label/medium]
+  - COMPONENT "input", 343x76px, horizontal pad 28 16 28 16px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke grey-100 1px
+    - INSTANCE "Typography", 73x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 73x20px, constraints left_right/top, fill grey-300, text [label/small]
+    - INSTANCE "Typography", 58x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 58x20px, constraints left_right/top, fill green-500, text [label/small]
+  - COMPONENT_SET "Icon-button", 83x56px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "state=default", 24x24px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill white
+      - INSTANCE "Arrows-chevron/Arrow-Down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 11.64x6.32px, constraints scale/scale, fill #000000
+    - COMPONENT "state=hover", 24x24px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill grey-100
+      - INSTANCE "Arrows-chevron/Arrow-Down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 11.64x6.32px, constraints scale/scale, fill #000000
+  - COMPONENT "search", 345x36px, horizontal pad 8 8 8 8px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill grey-200
+    - INSTANCE "Interface essential/Magnifier", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Icon", 15.67x16.46px, constraints scale/scale, fill grey-300
+    - INSTANCE "Typography", 242x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 242x20px, constraints left_right/top, fill grey-300, text [label/small]
+  - COMPONENT "List", 343x340px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke grey-100 1px
+    - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 302x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 11", 262x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "leading", 32x44px, horizontal pad 4 4 4 4px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "Interface essential/Home", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "content", 206x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "trailing", 16x44px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+          - INSTANCE "Arrows-chevron/chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 6.33x11.65px, constraints scale/scale, fill #000000
+    - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+      - LINE "Line 1", 343x0px, constraints scale/scale, stroke grey-200 1px
+    - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 302x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 11", 262x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "leading", 32x44px, horizontal pad 4 4 4 4px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "Interface essential/Home", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "content", 206x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "trailing", 16x44px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+          - INSTANCE "Arrows-chevron/chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 6.33x11.65px, constraints scale/scale, fill #000000
+    - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+      - LINE "Line 1", 343x0px, constraints scale/scale, stroke grey-200 1px
+    - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 302x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 11", 262x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "leading", 32x44px, horizontal pad 4 4 4 4px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "Interface essential/Home", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "content", 206x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "trailing", 16x44px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+          - INSTANCE "Arrows-chevron/chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 6.33x11.65px, constraints scale/scale, fill #000000
+    - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+      - LINE "Line 1", 343x0px, constraints scale/scale, stroke grey-200 1px
+    - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 302x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 11", 262x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "leading", 32x44px, horizontal pad 4 4 4 4px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "Interface essential/Home", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "content", 206x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "trailing", 16x44px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+          - INSTANCE "Arrows-chevron/chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 6.33x11.65px, constraints scale/scale, fill #000000
+    - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+      - LINE "Line 1", 343x0px, constraints scale/scale, stroke grey-200 1px
+    - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 302x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 11", 262x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "leading", 32x44px, horizontal pad 4 4 4 4px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "Interface essential/Home", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "content", 206x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "trailing", 16x44px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+          - INSTANCE "Arrows-chevron/chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 6.33x11.65px, constraints scale/scale, fill #000000
+  - COMPONENT "divider", 343x0px, constraints left/top, fill #FFFFFF
+    - LINE "Line 1", 343x0px, constraints scale/scale, stroke grey-200 1px
+  - COMPONENT_SET ".Itemnav", 125x76px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "selected=off", 44x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Interface essential/Bookmark", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 16.33x21px, constraints scale/scale, fill black
+      - INSTANCE "Typography", 28x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 28x16px, constraints left_right/top, fill black, text [label/xsmall]
+    - COMPONENT "selected=on", 44x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Interface essential/Bookmark", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 15.75x21.03px, constraints scale/scale, fill green-500
+      - INSTANCE "Typography", 28x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 28x16px, constraints left_right/top, fill green-500, text [label/xsmall]
+  - COMPONENT "bottomNav", 375x56px, horizontal pad 4 24 4 24px gap 41px align space_between/min sizing W:fixed H:fixed, constraints left/top, stroke grey-200 1px
+    - INSTANCE ".Itemnav", 44x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Interface essential/Bookmark", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 16.33x21px, constraints scale/scale, fill black
+      - INSTANCE "Typography", 28x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 28x16px, constraints left_right/top, fill black, text [label/xsmall]
+    - INSTANCE ".Itemnav", 53x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Interface essential/Book", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 18.97x20.42px, constraints scale/scale, fill black
+      - INSTANCE "Typography", 37x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 37x16px, constraints left_right/top, fill black, text [label/xsmall]
+    - INSTANCE ".Itemnav", 52x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Interface essential/Chat-1", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 24.54x24.01px, constraints scale/scale, fill black
+      - INSTANCE "Typography", 36x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 36x16px, constraints left_right/top, fill black, text [label/xsmall]
+    - INSTANCE ".Itemnav", 44x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Interface essential/Credit-card", 28x28px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 23.33x16.33px, constraints scale/scale, fill green-500
+      - INSTANCE "Typography", 28x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 28x16px, constraints left_right/top, fill green-500, text [label/xsmall]
+  - COMPONENT_SET ".listItem", 374x268px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "type=black", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 302x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 11", 262x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "leading", 32x44px, horizontal pad 4 4 4 4px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "Interface essential/Home", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "content", 206x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 206x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "trailing", 16x44px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+          - INSTANCE "Arrows-chevron/chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 6.33x11.65px, constraints scale/scale, fill #000000
+    - COMPONENT "type=error", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 21", 302x44px, horizontal pad 0 0 0 0px gap 24px align space_between/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 11", 222x44px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "leading", 44x44px, horizontal pad 4 8 4 8px gap 8px align center/center sizing W:fixed H:fill, constraints left/top, radius 24px, stroke grey-400 1px
+            - INSTANCE "Interface essential/Home", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Interface essential/Close-rectangle", 16x16px, constraints right/bottom, fill #FFFFFF
+          - FRAME "content", 166x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 61x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 23", 166x20px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "trailing", 41x44px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+          - INSTANCE "Typography", 41x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 41x24px, constraints left_right/top, fill grey-400, text [Paragraph/Medium (16\24)]
+    - COMPONENT "type=green", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 302x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 11", 302x44px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "leading", 32x44px, horizontal pad 4 4 4 4px gap 8px align min/center sizing W:fixed H:fill, constraints left/top
+            - INSTANCE "Interface essential/Home", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "content", 246x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 246x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 246x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+  - COMPONENT_SET "heading", 407x144px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 375x48px, horizontal pad 8 16 8 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Typography", 257x32px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 257x32px, constraints left_right/top, fill black, text [heading/medium], [heading]
+      - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 20x19.66px, constraints scale/scale, fill #000000
+      - INSTANCE "Avatar", 30x30px, horizontal pad 4 4 4 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 184px, fill blue-100
+        - TEXT "Text", 20x24px, constraints left/top, fill blue-300, text [Manrope Bold, 14px]
+    - COMPONENT "Property 1=Variant2", 375x48px, horizontal pad 8 16 8 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Typography", 177x32px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 177x32px, constraints left_right/top, fill black, text [heading/medium], [heading]
+      - FRAME "trailing", 150x32px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fill, constraints left/top
+        - INSTANCE "Interface essential/eye", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 21.58x14.3px, constraints scale/scale, fill #000000
+        - INSTANCE "Arrows-chevron/Arrow-up-down", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 20.24x16.43px, constraints scale/scale, fill #000000
+        - FRAME "Frame 22", 16x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "divider", 0x24px, constraints left/top, fill #FFFFFF
+            - LINE "Line 1", 0x24px, constraints scale/scale, stroke grey-200 1px
+        - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 20x19.66px, constraints scale/scale, fill #000000
+        - INSTANCE "Avatar", 30x30px, horizontal pad 4 4 4 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 184px, fill blue-100
+          - TEXT "Text", 20x24px, constraints left/top, fill blue-300, text [Manrope Bold, 14px]
+  - COMPONENT "filter", 142x44px, vertical pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill white, stroke grey-100 1px, effect [drop_shadow 4px offset 0 2 #6E6E6E1A, drop_shadow 7px offset 0 7 #6E6E6E17, drop_shadow 9px offset 0 15 #6E6E6E0D, drop_shadow 11px offset 0 27 #6E6E6E03, drop_shadow 12px offset 0 42 #6E6E6E00]
+    - INSTANCE "Typography", 110x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 110x20px, constraints left_right/top, fill green-500, text [label/medium]
+  - COMPONENT "verticalButton", 101x106px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE ".circle-Icon", 56x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 64px, stroke grey-100 1px
+      - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 20x19.66px, constraints scale/scale, fill #000000
+    - INSTANCE "Typography", 101x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 101x48px, constraints left_right/top, fill black, text [Manrope Medium, 18px]
+  - COMPONENT_SET ".circle-Icon", 88x160px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "type=outline", 56x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 64px, stroke grey-100 1px
+      - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 20x19.66px, constraints scale/scale, fill #000000
+    - COMPONENT "type=green", 56x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 64px, fill green-500, stroke grey-100 1px
+      - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 20x19.66px, constraints scale/scale, fill white
+  - COMPONENT_SET "Banners", 375x689px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "type=warning", 343x114px, horizontal pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill yellow-100, stroke grey-100 1px
+      - FRAME "Frame 16", 223x82px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Typography", 223x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 223x40px, constraints left_right/top, fill black, text [label/medium]
+        - INSTANCE "Typography", 223x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 223x40px, constraints left_right/top, fill grey-400, text [Paragraph/small]
+      - INSTANCE "Interface essential/Image", 72x72px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 60.72x60.72px, constraints scale/scale, fill #000000
+    - COMPONENT "type=Alert", 343x88px, horizontal pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill red-100, stroke grey-100 1px
+      - FRAME "Frame 16", 239x42px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Typography", 239x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 239x20px, constraints left_right/top, fill black, text [label/medium]
+        - INSTANCE "Typography", 239x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 239x20px, constraints left_right/top, fill grey-400, text [Paragraph/small]
+      - INSTANCE "Interface essential/Image", 56x56px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 47.23x47.23px, constraints scale/scale, fill #000000
+    - COMPONENT "type=savings", 343x74px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill yellow-100, stroke grey-100 1px
+      - INSTANCE "Interface essential/Image", 40x40px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 33.73x33.73px, constraints scale/scale, fill #000000
+      - FRAME "Frame 16", 171x42px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Typography", 171x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 171x20px, constraints left_right/top, fill black, text [label/medium]
+        - INSTANCE "Typography", 171x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 171x20px, constraints left_right/top, fill grey-400, text [Paragraph/small]
+      - FRAME "Frame 17", 68x20px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/eye", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 17.98x11.91px, constraints scale/scale, fill #000000
+        - INSTANCE "Typography", 40x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 40x20px, constraints left_right/top, fill black, text [label/medium]
+    - COMPONENT "type=holidays", 343x74px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill green-200, stroke grey-100 1px
+      - INSTANCE "Interface essential/Image", 40x40px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 33.73x33.73px, constraints scale/scale, fill #000000
+      - FRAME "Frame 16", 171x42px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Typography", 171x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 171x20px, constraints left_right/top, fill black, text [label/medium]
+        - INSTANCE "Typography", 171x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 171x20px, constraints left_right/top, fill grey-400, text [Paragraph/small]
+      - FRAME "Frame 17", 68x20px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/eye", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 17.98x11.91px, constraints scale/scale, fill #000000
+        - INSTANCE "Typography", 40x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 40x20px, constraints left_right/top, fill black, text [label/medium]
+    - COMPONENT "type=Account", 320x144px, horizontal pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill green-100
+      - FRAME "Frame 16", 224x112px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 21", 224x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 20", 147x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 119x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Interface essential/eye", 20x20px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Typography", 224x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 224x20px, constraints left_right/top, fill grey-400, text [Paragraph/small]
+        - INSTANCE "Typography", 82x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 82x40px, constraints left_right/top, fill black, text [heading/large], [heading]
+      - INSTANCE "Interface essential/Image", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 40.48x40.48px, constraints scale/scale, fill #000000
+  - COMPONENT "Avatar", 30x30px, horizontal pad 4 4 4 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 184px, fill blue-100
+    - TEXT "Text", 20x24px, constraints left/top, fill blue-300, text [Manrope Bold, 14px]
+
+Screen: references / Typography
+- SECTION "Typography", 938x2316px, fill #FFFFFF, stroke #0000001A 1px
+  - COMPONENT_SET "Typography", 375x520px, vertical pad 16 16 16 16px gap 28px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Class=Label, Size=Large", 343x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 343x24px, constraints left_right/top, fill black, text [label/large]
+    - COMPONENT "Class=Label, Size=Medium", 343x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 343x20px, constraints left_right/top, fill black, text [label/medium]
+    - COMPONENT "Class=Label, Size=Small", 343x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 343x20px, constraints left_right/top, fill black, text [label/small]
+    - COMPONENT "Class=Label, Size=X small", 343x16px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 343x16px, constraints left_right/top, fill black, text [label/xsmall]
+    - COMPONENT "Class=Heading, Size=Large", 343x80px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 343x80px, constraints left_right/top, fill black, text [heading/large], [heading]
+    - COMPONENT "Class=Heading, Size=medium", 343x32px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 343x32px, constraints left_right/top, fill black, text [heading/medium], [heading]
+    - COMPONENT "Class=Heading, Size=small", 343x28px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 343x28px, constraints left_right/top, fill black, text [heading/small], [heading]
+    - COMPONENT "Class=Heading, Size=X small", 343x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 343x24px, constraints left_right/top, fill black, text [heading/xsmall], [heading]
+    - COMPONENT "Class=Paragraph, Size=Small", 343x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 343x20px, constraints left_right/top, fill black, text [Paragraph/small]
+  - TEXT "Labels", 38x16px, constraints left/top, fill #000000, text [Label/X Small (12\16)]
+  - TEXT "Headings", 55x16px, constraints left/top, fill #000000, text [Label/X Small (12\16)]
+  - TEXT "Paragraphs", 66x16px, constraints left/top, fill #000000, text [Label/X Small (12\16)]
+  - RECTANGLE "Rectangle 1", 5x185px, constraints left/top, fill #D9D9D9
+
+Screen: references / Icons
+- FRAME "Icons", 1601x3461px, constraints left/top, radius 40px, fill #FFFFFF
+  - COMPONENT_SET "Interface essential/Home", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 18x17.98px, constraints left/top, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 20x20px, constraints left/top, fill #000000
+  - COMPONENT_SET "Interface essential/Magnifier", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Icon", 18.82x19.75px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Icon", 18.8x19.75px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "User/Person", 65x120px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Icon", 15.81x20px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Icon", 15.81x20px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Bookmark", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Icon", 13.5x18.02px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Icon", 14x18px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Bell", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 18.81x19.39px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 18.81x19.38px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Disabled-Bell", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20.79x20.25px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 19.5x20.06px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Chat-1", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20.19x19.81px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 21.03x20.58px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Heart", 65x120px, constraints left/top, radius 5px
+    - COMPONENT "Style=Filled", 24x24px, constraints center/top
+      - RECTANGLE "Icon", 24x24px, constraints scale/scale
+      - VECTOR "Icon", 20.1x17.48px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints center/top
+      - RECTANGLE "Icon", 24x24px, constraints scale/scale
+      - VECTOR "Icon", 20.3x17.8px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Close-rectangle", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints center/top, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "User/Add-Person", 65x120px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 19.65x20px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 20.15x20px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "User/Two-Person", 65x120px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20.55x17.86px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 19.89x17.86px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "User/Group-person", 65x120px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 21.65x14.45px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 21.67x14.39px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/emai-1", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 19.84x20.01px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 19.84x20.01px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Reply", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Reply=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20.24x20.24px, constraints scale/scale, fill #000000
+    - COMPONENT "Reply=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 17.5x14.53px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Pluse", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 19x19px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 17.5x17.5px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Pluse regtangle", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Pluse ellipse", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Minus", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Icon", 19x3px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Icon", 17.5x1.5px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Minus regtangle", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Minus-circle", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 20x20px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Email-2", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 20x17px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 20x17px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Filter", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 19.98x20.01px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 20.09x20.02px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Filter", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 18x12.6px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 18x13px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/List-caption", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 14.82x7px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 14.32x6.5px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Interface essential/Menu", 65x120px, constraints left/top, radius 5px, stroke #5500FF 1px
+    - COMPONENT "Style=Filled", 24x24px, constraints scale/bottom, fill #FFFFFF
+      - VECTOR "Icon", 16x5.76px, constraints scale/scale, fill #000000
+    - COMPONENT "Style=Outlined", 24x24px, constraints scale/top, fill #FFFFFF
+      - VECTOR "Icon", 15.5x5.26px, constraints scale/scale, fill #000000
+  - ... +221 more children
+
+Screen: references / Native
+- SECTION "Native", 1440x923px, fill #FFFFFF, stroke #0000001A 1px
+  - COMPONENT_SET "Status bar - iOS", 407x247px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "soft=iOS, theme=dark, size=large", 375x44px, vertical pad 0 0 0 0px gap 101px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Container", 375x44px, constraints left_right/top
+        - FRAME "Battery", 24.33x11.33px, constraints right/top
+          - RECTANGLE "Border", 22x11.33px, constraints right/center, radius 2.67px, stroke Content++ / contentOnColor 1px, opacity 40%
+          - VECTOR "Cap", 1.33x4px, constraints right/center, fill Content++ / contentOnColor, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints right/center, radius 1.33px, fill Content++ / contentOnColor
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints scale/scale, fill Content++ / contentOnColor
+        - BOOLEAN_OPERATION "Signal", 17x10.67px, constraints right/top, fill Content++ / contentOnColor
+        - TEXT "Time", 42x18px, constraints left/top, fill Content++ / contentOnColor, text [SF Pro Text Semibold, 15px]
+    - COMPONENT "soft=iOS, theme=dark, size=small", 375x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Container", 375x20px, constraints left/top
+        - FRAME "Battery", 26.5x11.5px, constraints right/top [decorative, ~5 shapes]
+        - TEXT "Time", 63x16px, constraints center/top, fill Inverse / Content / contentInversePrimary, text [SF Pro Text Semibold, 12px]
+        - BOOLEAN_OPERATION "Signal", 16.5x10px, constraints scale/scale, fill Inverse / Content / contentInversePrimary
+    - COMPONENT "soft=iOS, theme=light, size=small", 375x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Background/backgroundPrimary
+      - FRAME "Container", 375x20px, constraints left_right/top_bottom
+        - FRAME "Battery", 26.5x11.5px, constraints right/top [decorative, ~5 shapes]
+        - TEXT "Time", 62x16px, constraints center/top, fill Content / contentPrimary, text [SF Pro Text Semibold, 12px]
+        - BOOLEAN_OPERATION "Signal", 16.5x10px, constraints scale/scale, fill Content / contentPrimary
+    - COMPONENT "soft=iOS, theme=light, size=large", 375x44px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Container", 375x44px, constraints left/top
+        - FRAME "Battery", 24.33x11.33px, constraints right/top, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints right/center, radius 2.67px, stroke Content / contentPrimary 1px, opacity 40%
+          - VECTOR "Cap", 1.33x4px, constraints right/center, fill Content / contentPrimary, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints right/center, radius 1.33px, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Signal", 17x10.67px, constraints right/top, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints scale/scale, fill Content / contentPrimary
+        - TEXT "Time", 42x18px, constraints left/top, fill Content / contentPrimary, text [SF Pro Text Semibold, 15px]
+  - COMPONENT "Home Indicator - iOS", 375x21px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill Grays/Black
+
+Screen: references / reference
+- SECTION "reference", 2788x923px, fill #FFFFFF, stroke #0000001A 1px
+  - RECTANGLE "IMG_1533", 375x811.54px, constraints left/top, fill image(hash: 94cc0cea302b350ca27a924ff1586050d5d83403)
+  - RECTANGLE "IMG_1532", 375x811.54px, constraints left/top, fill image(hash: 5713ea7f8d1b67644734ebeda9cafe08b0925e9d)
+  - RECTANGLE "IMG_1531", 375x811.54px, constraints left/top, fill image(hash: 090635170b9485e3bb2e2639c0e8a7e0ab084b99)
+  - RECTANGLE "IMG_1530", 375x811.54px, constraints left/top, fill image(hash: cdbbb46851c4dbb044800a79f7f1bacce21f1205)
+  - RECTANGLE "IMG_1528", 375x811.54px, constraints left/top, fill image(hash: a2e8e62d4d6e790ce343d0bddad93f06b27f505b)
+  - RECTANGLE "IMG_1526", 375x811.54px, constraints left/top, fill image(hash: 4ba150fbfb76e070882104d905bad90d375c0169)
+
+Screen: references / Result
+- SECTION "Result", 4082x3461px, fill #232323, stroke #0000001A 1px
+  - FRAME "login", 375x812px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill green-500
+    - INSTANCE "Status bar - iOS", 375x44px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Container", 375x44px, constraints left/top
+        - FRAME "Battery", 24.33x11.33px, constraints right/top, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints right/center, radius 2.67px, stroke Content / contentPrimary 1px, opacity 40%
+          - VECTOR "Cap", 1.33x4px, constraints right/center, fill Content / contentPrimary, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints right/center, radius 1.33px, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Signal", 17x10.67px, constraints right/top, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints scale/scale, fill Content / contentPrimary
+        - TEXT "Time", 42x18px, constraints left/top, fill Content / contentPrimary, text [SF Pro Text Semibold, 15px]
+    - FRAME "body", 375x715px, vertical pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fill, constraints left/top
+      - FRAME "heading", 375x551px, vertical pad 24 8 24 8px gap 76px align min/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Brand", 59x41px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 59x40.26px, constraints scale/scale, fill #FFFFFF
+        - FRAME "content", 343x56px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Typography", 343x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 343x24px, constraints left_right/top, fill white, text [heading/xsmall], [heading]
+          - INSTANCE "Typography", 343x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 343x20px, constraints left_right/top, fill white, text [Paragraph/small]
+      - FRAME "button dock", 343x164px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "buttons", 343x44px, vertical pad 12 8 12 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "content", 83x20px, vertical pad 0 4 0 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 75x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "buttons", 343x44px, vertical pad 12 8 12 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill green-400
+          - FRAME "content", 83x20px, vertical pad 0 4 0 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 75x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "buttons", 343x44px, vertical pad 12 8 12 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "content", 83x20px, vertical pad 0 4 0 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 75x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Home Indicator - iOS", 375x21px, constraints left/top
+      - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill Grays/Black
+  - FRAME "login", 375x812px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill green-500
+    - INSTANCE "Status bar - iOS", 375x44px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Container", 375x44px, constraints left/top
+        - FRAME "Battery", 24.33x11.33px, constraints right/top, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints right/center, radius 2.67px, stroke Content / contentPrimary 1px, opacity 40%
+          - VECTOR "Cap", 1.33x4px, constraints right/center, fill Content / contentPrimary, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints right/center, radius 1.33px, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Signal", 17x10.67px, constraints right/top, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints scale/scale, fill Content / contentPrimary
+        - TEXT "Time", 42x18px, constraints left/top, fill Content / contentPrimary, text [SF Pro Text Semibold, 15px]
+    - FRAME "body", 375x715px, vertical pad 0 0 0 0px gap 8px align max/center sizing W:fill H:fill, constraints left/top
+      - FRAME "heading", 375x603px, vertical pad 24 8 24 8px gap 76px align min/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Brand", 59x41px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 59x40.26px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 8", 343x224px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 343x56px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 343x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 343x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "input", 343x76px, horizontal pad 28 16 28 16px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke grey-100 1px
+            - INSTANCE "Typography", 73x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 58x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "buttons", 343x44px, vertical pad 12 8 12 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill white
+            - FRAME "content", 83x20px, vertical pad 0 4 0 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "button dock", 343x104px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "buttons", 343x44px, vertical pad 12 8 12 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "content", 83x20px, vertical pad 0 4 0 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 75x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "buttons", 343x44px, vertical pad 12 8 12 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "content", 83x20px, vertical pad 0 4 0 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Typography", 75x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Home Indicator - iOS", 375x21px, constraints left/top
+      - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill Grays/Black
+  - FRAME "settings", 375x810px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill white
+    - INSTANCE "Status bar - iOS", 375x44px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Container", 375x44px, constraints left/top
+        - FRAME "Battery", 24.33x11.33px, constraints right/top, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints right/center, radius 2.67px, stroke Content / contentPrimary 1px, opacity 40%
+          - VECTOR "Cap", 1.33x4px, constraints right/center, fill Content / contentPrimary, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints right/center, radius 1.33px, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Signal", 17x10.67px, constraints right/top, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints scale/scale, fill Content / contentPrimary
+        - TEXT "Time", 42x18px, constraints left/top, fill Content / contentPrimary, text [SF Pro Text Semibold, 15px]
+    - FRAME "body", 375x745px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fill, constraints left/top
+      - FRAME "heading", 375x92px, vertical pad 8 16 8 16px gap 12px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Icon-button", 24x24px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill white
+          - INSTANCE "Arrows-chevron/Arrow-Down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 11.64x6.32px, constraints scale/scale, fill #000000
+        - INSTANCE "Typography", 343x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 343x40px, constraints left_right/top, fill black, text [heading/large], [heading]
+      - FRAME "heading", 375x44px, vertical pad 4 16 4 16px gap 12px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "search", 345x36px, horizontal pad 8 8 8 8px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill grey-200
+          - INSTANCE "Interface essential/Magnifier", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15.67x16.46px, constraints scale/scale, fill grey-300
+          - INSTANCE "Typography", 242x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 242x20px, constraints left_right/top, fill grey-300, text [label/small]
+      - FRAME "Frame 13", 375x384px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "heading", 375x32px, vertical pad 4 16 4 16px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Typography", 343x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 343x24px, constraints left_right/top, fill black, text [heading/xsmall], [heading]
+        - FRAME "heading", 375x348px, vertical pad 4 16 4 16px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "List", 343x340px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke grey-100 1px
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 14", 375x384px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "heading", 375x32px, vertical pad 4 16 4 16px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Typography", 343x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 343x24px, constraints left_right/top, fill black, text [heading/xsmall], [heading]
+        - FRAME "heading", 375x348px, vertical pad 4 16 4 16px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "List", 343x340px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke grey-100 1px
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Home Indicator - iOS", 375x21px, constraints left/top
+      - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill Grays/Black
+  - FRAME "cards", 375x810px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill white
+    - INSTANCE "Status bar - iOS", 375x44px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Container", 375x44px, constraints left/top
+        - FRAME "Battery", 24.33x11.33px, constraints right/top, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints right/center, radius 2.67px, stroke Content / contentPrimary 1px, opacity 40%
+          - VECTOR "Cap", 1.33x4px, constraints right/center, fill Content / contentPrimary, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints right/center, radius 1.33px, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Signal", 17x10.67px, constraints right/top, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints scale/scale, fill Content / contentPrimary
+        - TEXT "Time", 42x18px, constraints left/top, fill Content / contentPrimary, text [SF Pro Text Semibold, 15px]
+    - FRAME "body", 375x689px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "heading", 375x48px, horizontal pad 8 16 8 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Typography", 257x32px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 257x32px, constraints left_right/top, fill black, text [heading/medium], [heading]
+        - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 20x19.66px, constraints scale/scale, fill #000000
+        - INSTANCE "Avatar", 30x30px, horizontal pad 4 4 4 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 184px, fill blue-100
+          - TEXT "Text", 20x24px, constraints left/top, fill blue-300, text [Manrope Bold, 14px]
+      - FRAME "actions", 375x122px, horizontal pad 8 16 8 16px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "verticalButton", 167.5x82px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".circle-Icon", 56x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 64px, stroke grey-100 1px
+            - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Typography", 101x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 101x48px, constraints left_right/top, fill black, text [Manrope Medium, 18px]
+        - INSTANCE "verticalButton", 167.5x106px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".circle-Icon", 56x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 64px, stroke grey-100 1px
+            - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Typography", 101x48px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 167.5x48px, constraints left_right/top, fill black, text [Manrope Medium, 18px]
+      - INSTANCE "divider", 343x0px, constraints left/top, fill #FFFFFF
+        - LINE "Line 1", 343x0px, constraints scale/scale, stroke grey-200 1px
+      - FRAME "Frame 13", 375x156px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "heading", 375x156px, vertical pad 4 16 4 16px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "List", 343x340px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke grey-100 1px
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "List", 343x340px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke grey-100 1px
+            - INSTANCE ".listItem", 342x68px, horizontal pad 12 20 12 20px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "bottomNav", 375x60px, horizontal pad 4 24 4 24px gap 41px align space_between/min sizing W:fixed H:fixed, constraints left/top, stroke grey-200 1px
+      - INSTANCE ".Itemnav", 44x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/Bookmark", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 16.33x21px, constraints scale/scale, fill black
+        - INSTANCE "Typography", 28x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 28x16px, constraints left_right/top, fill black, text [label/xsmall]
+      - INSTANCE ".Itemnav", 53x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/Book", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 18.97x20.42px, constraints scale/scale, fill black
+        - INSTANCE "Typography", 37x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 37x16px, constraints left_right/top, fill black, text [label/xsmall]
+      - INSTANCE ".Itemnav", 52x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/Chat-1", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 24.54x24.01px, constraints scale/scale, fill black
+        - INSTANCE "Typography", 36x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 36x16px, constraints left_right/top, fill black, text [label/xsmall]
+      - INSTANCE ".Itemnav", 44x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/Credit-card", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 23.33x16.33px, constraints scale/scale, fill green-500
+        - INSTANCE "Typography", 28x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 28x16px, constraints left_right/top, fill green-500, text [label/xsmall]
+    - INSTANCE "Home Indicator - iOS", 375x21px, constraints left/top
+      - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill Grays/Black
+  - FRAME "finance", 375x810px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill white
+    - INSTANCE "Status bar - iOS", 375x44px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Container", 375x44px, constraints left/top
+        - FRAME "Battery", 24.33x11.33px, constraints right/top, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints right/center, radius 2.67px, stroke Content / contentPrimary 1px, opacity 40%
+          - VECTOR "Cap", 1.33x4px, constraints right/center, fill Content / contentPrimary, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints right/center, radius 1.33px, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Signal", 17x10.67px, constraints right/top, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints scale/scale, fill Content / contentPrimary
+        - TEXT "Time", 42x18px, constraints left/top, fill Content / contentPrimary, text [SF Pro Text Semibold, 15px]
+    - FRAME "body", 375x689px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "heading", 375x48px, horizontal pad 8 16 8 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Typography", 177x32px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 177x32px, constraints left_right/top, fill black, text [heading/medium], [heading]
+        - FRAME "trailing", 150x32px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fill, constraints left/top
+          - INSTANCE "Interface essential/eye", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 21.58x14.3px, constraints scale/scale, fill #000000
+          - INSTANCE "Arrows-chevron/Arrow-up-down", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 20.24x16.43px, constraints scale/scale, fill #000000
+          - FRAME "Frame 22", 16x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 0x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 20x19.66px, constraints scale/scale, fill #000000
+          - INSTANCE "Avatar", 30x30px, horizontal pad 4 4 4 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 184px, fill blue-100
+            - TEXT "Text", 20x24px, constraints left/top, fill blue-300, text [Manrope Bold, 14px]
+      - FRAME "actions", 375x196px, vertical pad 4 16 4 16px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Typography", 343x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 343x24px, constraints left_right/top, fill black, text [heading/xsmall], [heading]
+        - INSTANCE "Typography", 119x32px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 77x32px, constraints left_right/top, fill black, text [heading/medium], [heading]
+        - INSTANCE "Typography", 343x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 343x20px, constraints left_right/top, fill grey-400, text [Paragraph/small]
+        - FRAME "actions", 343x88px, horizontal pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "verticalButton", 171.5x88px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE ".circle-Icon", 56x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 64px, fill green-500, stroke grey-100 1px
+            - INSTANCE "Typography", 101x48px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "verticalButton", 171.5x88px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE ".circle-Icon", 56x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 64px, stroke grey-100 1px
+            - INSTANCE "Typography", 101x48px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 24", 343x176px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Banners", 343x74px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill green-200, stroke grey-100 1px
+          - INSTANCE "Interface essential/Image", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 33.73x33.73px, constraints scale/scale, fill #000000
+          - FRAME "Frame 16", 171x42px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 171x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 17", 68x20px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Interface essential/eye", 20x20px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Typography", 40x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Banners", 343x88px, horizontal pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill red-100, stroke grey-100 1px
+          - FRAME "Frame 16", 239x42px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 239x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 239x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Interface essential/Image", 56x56px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 47.23x47.23px, constraints scale/scale, fill #000000
+      - FRAME "Frame 25", 375x118px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "actions", 375x40px, horizontal pad 8 16 8 16px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Typography", 343x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 343x24px, constraints left_right/top, fill black, text [heading/xsmall], [heading]
+        - INSTANCE "Banners", 343x74px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill yellow-100, stroke grey-100 1px
+          - INSTANCE "Interface essential/Image", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 33.73x33.73px, constraints scale/scale, fill #000000
+          - FRAME "Frame 16", 171x42px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 171x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 171x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 17", 68x20px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Interface essential/eye", 20x20px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Typography", 40x20px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "bottomNav", 375x60px, horizontal pad 4 24 4 24px gap 41px align space_between/min sizing W:fixed H:fixed, constraints left/top, stroke grey-200 1px
+      - INSTANCE ".Itemnav", 44x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/Bookmark", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 16.33x21px, constraints scale/scale, fill black
+        - INSTANCE "Typography", 28x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 28x16px, constraints left_right/top, fill black, text [label/xsmall]
+      - INSTANCE ".Itemnav", 53x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/Book", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 18.97x20.42px, constraints scale/scale, fill green-500
+        - INSTANCE "Typography", 28x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 37x16px, constraints left_right/top, fill green-500, text [label/xsmall]
+      - INSTANCE ".Itemnav", 52x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/Chat-1", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 24.54x24.01px, constraints scale/scale, fill black
+        - INSTANCE "Typography", 36x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 36x16px, constraints left_right/top, fill black, text [label/xsmall]
+      - INSTANCE ".Itemnav", 44x48px, vertical pad 2 8 2 8px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Interface essential/Credit-card", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 23.33x16.33px, constraints scale/scale, fill black
+        - INSTANCE "Typography", 28x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 28x16px, constraints left_right/top, fill black, text [label/xsmall]
+    - INSTANCE "Home Indicator - iOS", 375x21px, constraints left/top
+      - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill Grays/Black
+  - FRAME "home", 375x810px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill white
+    - INSTANCE "Status bar - iOS", 375x44px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Container", 375x44px, constraints left/top
+        - FRAME "Battery", 24.33x11.33px, constraints right/top, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints right/center, radius 2.67px, stroke Content / contentPrimary 1px, opacity 40%
+          - VECTOR "Cap", 1.33x4px, constraints right/center, fill Content / contentPrimary, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints right/center, radius 1.33px, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Signal", 17x10.67px, constraints right/top, fill Content / contentPrimary
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints scale/scale, fill Content / contentPrimary
+        - TEXT "Time", 42x18px, constraints left/top, fill Content / contentPrimary, text [SF Pro Text Semibold, 15px]
+    - FRAME "body", 375x689px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "heading", 375x48px, horizontal pad 8 16 8 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Typography", 177x32px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 177x32px, constraints left_right/top, fill black, text [heading/medium], [heading]
+        - FRAME "trailing", 150x32px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fill, constraints left/top
+          - INSTANCE "Interface essential/eye", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 21.58x14.3px, constraints scale/scale, fill #000000
+          - INSTANCE "Arrows-chevron/Arrow-up-down", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 20.24x16.43px, constraints scale/scale, fill #000000
+          - FRAME "Frame 22", 16x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "divider", 0x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Interface essential/Chat", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 20x19.66px, constraints scale/scale, fill #000000
+          - INSTANCE "Avatar", 30x30px, horizontal pad 4 4 4 4px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 184px, fill blue-100
+            - TEXT "Text", 20x24px, constraints left/top, fill blue-300, text [Manrope Bold, 14px]
+      - FRAME "heading", 375x152px, horizontal pad 4 16 4 16px gap 12px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Banners", 320x144px, horizontal pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill green-100
+          - FRAME "Frame 16", 224x112px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 21", 224x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Typography", 82x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Interface essential/Image", 48x48px, constraints left/top, fill #FFFFFF
+  ... this screen truncated at the 300-node per-screen limit.
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

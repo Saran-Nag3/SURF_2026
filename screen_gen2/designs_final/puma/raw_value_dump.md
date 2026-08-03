@@ -1,0 +1,138 @@
+---
+name: puma-website-ui-community
+source_file: Puma Website UI (Community)
+source_page: All pages (2): Page 1, Cover
+generated_at: 2026-07-25T09:30:24.727112+00:00
+---
+
+# Puma Website UI (Community) Design Guidelines
+
+## Source
+- Figma file: Puma Website UI (Community)
+- Figma page: All pages (2): Page 1, Cover
+- Extracted at: 2026-07-25T09:30:24.727112+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 32 uses
+- #D9D9D91A: 5 uses
+- #000000: 3 uses
+- #FFFFFF0D: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Regular, 20px: 5 uses
+- Inter Light, 13.53px: 3 uses
+- Inter SemiBold, 10.52px: 3 uses
+
+## Typography Hierarchy
+- 20px - Inter Regular, 20px (raw)
+- 13.53px - Inter Light, 13.53px (raw)
+- 10.52px - Inter SemiBold, 10.52px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / Desktop - 1
+- FRAME "Desktop - 1", 1440x1024px, constraints left/top, radius 40px, fill #121212
+  - ELLIPSE "Ellipse 5", 457x457px, constraints left/top, fill #D9D9D91A
+  - ELLIPSE "Ellipse 4", 457x457px, constraints left/top, fill #D9D9D91A
+  - ELLIPSE "Ellipse 3", 457x457px, constraints left/top, fill #D9D9D91A
+  - ELLIPSE "Ellipse 2", 457x457px, constraints left/top, fill #D9D9D91A
+  - ELLIPSE "Ellipse 1", 457x457px, constraints left/top, fill #D9D9D91A
+  - RECTANGLE "Rectangle 1", 1562x1114px, constraints left/top, fill #18181833, effect [background_blur 176px]
+  - GROUP "Group 7", 829.53x258px, constraints center/center
+    - VECTOR "Vector", 639.86x258px, constraints scale/scale, fill #FFFFFF0F
+    - VECTOR "Vector", 165.63x258px, constraints scale/scale, fill #FFFFFF0F
+  - FRAME "Frame 1", 1440x3px, vertical pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 1", 1440x0px, constraints left/top, stroke #000000 3px
+    - LINE "Line 2", 1440x0px, constraints left/top, stroke #202020 3px
+  - FRAME "Frame 1", 1440x3px, vertical pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 1", 1440x0px, constraints left/top, stroke #000000 3px
+    - LINE "Line 2", 1440x0px, constraints left/top, stroke #202020 3px
+  - LINE "Line 3", 68x0px, constraints left/top, stroke #FFFFFF 6px
+  - FRAME "Frame", 1288.6x49.83px, horizontal pad 0 0 0 0px gap 240px align center/center sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Vector", 64x49.83px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 2", 538x24px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "MEN", 45x24px, constraints left/top, fill #FFFFFF, text [Inter Regular, 20px]
+      - TEXT "WOMEN", 79x24px, constraints left/top, fill #FFFFFF, text [Inter Regular, 20px]
+      - TEXT "KIDS & TEENS", 135x24px, constraints left/top, fill #FFFFFF, text [Inter Regular, 20px]
+      - TEXT "SPORTS", 80x24px, constraints left/top, fill #FFFFFF, text [Inter Regular, 20px]
+      - TEXT "OUTLET", 79x24px, constraints left/top, fill #FFFFFF, text [Inter Regular, 20px]
+    - FRAME "Frame 5", 206.6x28.7px, horizontal pad 0 0 0 0px gap 113px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~8 shapes]
+  - RECTANGLE "shoe 1", 770.14x544.25px, constraints center/top, fill image(hash: 3d8220a669f760aebab394d2d331cc6272858449)
+  - ELLIPSE "Ellipse 6", 605x49px, constraints left/top, fill gradient_linear(#000000 0% | #1C1C1C00 100%), effect [layer_blur 20px]
+  - ELLIPSE "Ellipse 7", 251.58x185.37px, constraints left/top, fill #FFFFFF, effect [layer_blur 100px]
+  - ELLIPSE "Ellipse 8", 265.17x154.25px, constraints left/top, fill #000000, effect [layer_blur 67px]
+  - TEXT "FOREVER FAST", 327x182px, constraints left/top, fill #FFFFFF, text [Inter Thin, 75px], [heading]
+  - FRAME "Frame 6", 268x133px, vertical pad 0 0 0 0px gap 31px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Ignite Nxt Crafted Golf Shoes", 268x78px, constraints left/top, fill #FFFFFF, text [Inter Light, 32px], [heading]
+    - TEXT "MRP: 1499", 104x24px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 20px]
+  - FRAME "Frame 9", 1152x141.27px, horizontal pad 0 0 0 0px gap 78px align center/center sizing W:fixed H:fixed, constraints center/top
+    - GROUP "Group 4", 332x141.27px, constraints left/top, radius 0/0/0/0px
+      - FRAME "Frame 7", 259.24x141.27px, constraints left/top, radius 9.02px, fill #FFFFFF0D, stroke #FFFFFF 0.38px
+        - FRAME "Frame 8", 106x70.28px, vertical pad 0 0 0 0px gap 17.28px align center/max sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ignite Nxt Big Logo Limited", 106x40px, constraints left/top, fill #FFFFFF, text [Inter Light, 13.53px]
+          - TEXT "MRP: 1699", 55x13px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10.52px]
+        - FRAME "gridicons:add-outline", 24.05x24.05px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20.04x20.04px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "shoe1 1", 183.97x125.5px, constraints left/top, fill image(hash: 03712ad12024c551dc69aedee1a6a6906e5f24c2)
+    - GROUP "Group 5", 332x141.27px, constraints left/top, radius 0/0/0/0px
+      - FRAME "Frame 7", 259.24x141.27px, constraints left/top, radius 9.02px, fill #FFFFFF0D, stroke #FFFFFF 0.38px
+        - FRAME "Frame 8", 106x70.28px, vertical pad 0 0 0 0px gap 17.28px align center/max sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ignite Nxt Big Logo Limited", 106x40px, constraints left/top, fill #FFFFFF, text [Inter Light, 13.53px]
+          - TEXT "MRP: 1699", 55x13px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10.52px]
+        - FRAME "gridicons:add-outline", 24.05x24.05px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20.04x20.04px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "shoe1 1", 183.97x125.5px, constraints left/top, fill image(hash: 03712ad12024c551dc69aedee1a6a6906e5f24c2)
+    - GROUP "Group 6", 332x141.27px, constraints left/top, radius 0/0/0/0px
+      - FRAME "Frame 7", 259.24x141.27px, constraints left/top, radius 9.02px, fill #FFFFFF0D, stroke #FFFFFF 0.38px
+        - FRAME "Frame 8", 106x70.28px, vertical pad 0 0 0 0px gap 17.28px align center/max sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ignite Nxt Big Logo Limited", 106x40px, constraints left/top, fill #FFFFFF, text [Inter Light, 13.53px]
+          - TEXT "MRP: 1699", 55x13px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10.52px]
+        - FRAME "gridicons:add-outline", 24.05x24.05px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20.04x20.04px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "shoe1 1", 183.97x125.5px, constraints left/top, fill image(hash: 03712ad12024c551dc69aedee1a6a6906e5f24c2)
+  - ELLIPSE "Ellipse 9", 530x85px, constraints center/top, stroke gradient_linear(#11111100 0% | #FFFFFF 100%) 4px
+  - ELLIPSE "Ellipse 10", 54x54px, constraints center/top, fill #7B7B7B
+  - FRAME "Frame 10", 45.64x27.32px, horizontal pad 0 0 0 0px gap -9px align center/center sizing W:fixed H:fixed, constraints left/top
+    - REGULAR_POLYGON "Polygon 2", 27.32x27.32px, constraints left/top, fill #D9D9D9
+    - REGULAR_POLYGON "Polygon 1", 27.32x27.32px, constraints left/top, fill #D9D9D9
+
+Screen: Cover / image 1
+- RECTANGLE "image 1", 2880x2048px, constraints left/top, fill image(hash: 4aabeb40d337b2edee0877af044439860bfe1f96)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

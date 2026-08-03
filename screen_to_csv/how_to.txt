@@ -1,0 +1,9 @@
+pip install Pillow
+
+# Heuristic mode (no API key, uses filenames + HTML/image analysis)
+python3 screens_to_csv.py screens.zip output.csv
+
+# AI-assisted mode (much more accurate screen-type/description, needs your own key)
+pip install anthropic
+export ANTHROPIC_API_KEY=sk-ant-...
+python3 screens_to_csv.py screens.zip output.csv --use-ai

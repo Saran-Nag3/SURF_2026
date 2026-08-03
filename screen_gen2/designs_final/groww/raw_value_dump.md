@@ -1,0 +1,1035 @@
+---
+name: groww-app-ui-community
+source_file: Groww App UI (Community)
+source_page: All pages (2): Thumbnail, Screens
+generated_at: 2026-07-25T09:22:04.469638+00:00
+---
+
+# Groww App UI (Community) Design Guidelines
+
+## Source
+- Figma file: Groww App UI (Community)
+- Figma page: All pages (2): Thumbnail, Screens
+- Extracted at: 2026-07-25T09:22:04.469638+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 312 uses
+- #E8E8E8: 60 uses
+- #00B386: 54 uses
+- #757575: 43 uses
+- #FFFFFF: 32 uses
+- #9B9B9C: 21 uses
+- #808080: 13 uses
+- #4E5ACC: 11 uses
+- #B7B7B7: 10 uses
+- #1E1E1E: 7 uses
+- #ECECEC: 7 uses
+- #F35D5D: 7 uses
+- #32B495: 6 uses
+- #473636: 5 uses
+- #8D8D8D: 5 uses
+- #9B9999: 5 uses
+- #DADADA: 5 uses
+- #F5F6F6: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Regular, 30px: 55 uses
+- Roboto Medium, 14px: 48 uses
+- Roboto Regular, 13px: 42 uses
+- Roboto Regular, 14px: 37 uses
+- Roboto Medium, 15px: 30 uses
+- Roboto Medium, 18px: 28 uses
+- Roboto Regular, 15px: 28 uses
+- Roboto Medium, 16px: 21 uses
+- Roboto Medium, 13px: 19 uses
+- Roboto SemiBold, 13px: 18 uses
+- Roboto Medium, 11px: 17 uses
+- Roboto Medium, 20px: 6 uses
+- Roboto Regular, 12px: 6 uses
+- Roboto Medium, 12px: 4 uses
+
+## Typography Hierarchy
+- 30px - Roboto Regular, 30px (raw)
+- 20px - Roboto Medium, 20px (raw)
+- 18px - Roboto Medium, 18px (raw)
+- 16px - Roboto Medium, 16px (raw)
+- 15px - Roboto Medium, 15px (raw)
+- 15px - Roboto Regular, 15px (raw)
+- 14px - Roboto Medium, 14px (raw)
+- 14px - Roboto Regular, 14px (raw)
+- 13px - Roboto Medium, 13px (raw)
+- 13px - Roboto Regular, 13px (raw)
+- 13px - Roboto SemiBold, 13px (raw)
+- 12px - Roboto Medium, 12px (raw)
+- 12px - Roboto Regular, 12px (raw)
+- 11px - Roboto Medium, 11px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Thumbnail / Thumbanil
+- FRAME "Thumbanil", 1920x1080px, constraints left/top, fill #FFFFFF
+  - VECTOR "Rectangle 1", 996x1083px, constraints left/top, fill #00F3BB
+  - RECTANGLE "iPhone 16", 1500x1125px, constraints left/top, fill image(hash: 5c715258c6c452a5389054f56308778f467c54ab)
+  - TEXT "Groww App UI", 276x291px, constraints left/top, fill #000000, text [Inter Medium, 80px], [heading]
+  - TEXT "Created By: Shariq Shaikh", 299x29px, constraints left/top, fill #000000, text [Inter Medium, 24px], [heading]
+  - TEXT "Email: shariqshaikh11042004@gmail.com", 476x29px, constraints left/top, fill #000000, text [Inter Medium, 24px], [heading]
+
+Screen: Screens / Stocks
+- FRAME "Stocks", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Logo & Profile", 352x35px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+    - TEXT "Stocks", 55x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - RECTANGLE "image 2", 35x35px, constraints left/top, radius 50px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+    - FRAME "material-symbols:search", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+    - FRAME "ic:outline-qr-code", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+  - FRAME "Index 1", 195x68px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+    - TEXT "NIFTY 50", 55x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - TEXT "24,194.50", 58x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+    - TEXT "-27.40 (0.11%)", 87x15px, constraints left/top, fill #F35D5D, text [Roboto SemiBold, 13px]
+  - FRAME "Index 2", 195x68px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+    - TEXT "BANK NIFTY", 74x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - TEXT "52,191.50", 58x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+    - TEXT "-16.00 (0.03%)", 87x15px, constraints left/top, fill #F35D5D, text [Roboto SemiBold, 13px]
+  - GROUP "Tabs", 444x37px, constraints left/top, radius 40px
+    - FRAME "Frame 15", 91x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #ECECEC, stroke #000000 1px
+      - TEXT "Explore", 47x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - FRAME "Frame 16", 101x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+      - TEXT "Holdings", 56x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - FRAME "Frame 17", 63x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+      - TEXT "ETF", 25x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - FRAME "Frame 18", 159x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+      - TEXT "Road Construction", 117x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - GROUP "Most Bought", 372x389px, constraints left/top, radius 10px
+    - TEXT "Most bought on Groww", 187x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - GROUP "Most bought Cards", 372x344px, constraints left/top, radius 10px
+      - FRAME "Frame 19", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+        - RECTANGLE "image 3", 34x15px, constraints left/top, fill image(hash: dffef2f83754ae8f2d99572b332ae1909ea3afc8)
+        - TEXT "Triveni Turbine", 107x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - TEXT "₹823.96", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+        - TEXT "+59.80 (7.83%)", 89x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+      - FRAME "Frame 21", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+        - RECTANGLE "image", 38x38px, constraints left/top, fill image(hash: 01e94d70d2e0035eb520814031f7664ac3454d67)
+        - TEXT "Zomato", 56x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - TEXT "₹280.11", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+        - TEXT "+6.80 (2.49%)", 82x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+      - FRAME "Frame 22", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+        - RECTANGLE "image", 38x38px, constraints left/top, radius 12px, fill image(hash: 69f9146be7f2e471e8c204ad59d201a542e5940d)
+        - TEXT "Swiggy", 52x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - TEXT "₹461.90", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+        - TEXT "+31.20 (7.24%)", 89x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+      - FRAME "Frame 20", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+        - RECTANGLE "image", 50x22px, constraints left/top, fill image(hash: f31f6e1d8f3b953dbf5d595f04659fa608fab1a1)
+        - TEXT "BSE", 29x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - TEXT "₹4,431.10", 66x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+        - TEXT "-255.70 (5.46%)", 94x15px, constraints left/top, fill #F35D5D, text [Roboto SemiBold, 13px]
+  - GROUP "Product & Tools", 372x131px, constraints left/top
+    - TEXT "Product & Tools", 128x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - GROUP "Tools", 372x98px, constraints left/top
+      - RECTANGLE "image 6", 372x76px, constraints left/top, fill image(hash: 3ee0d630c2c93961073440642a985c1e0d80b8e2)
+      - TEXT "F&O", 23x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+      - TEXT "Events", 36x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+      - TEXT "IPO", 20x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+      - TEXT "All Stocks", 54x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+  - FRAME "Frame 47", 372x1338px, constraints left/top, fill #FFFFFF
+    - GROUP "Tabs", 216x37px, constraints left/top, radius 40px
+      - FRAME "Frame 15", 65x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #ECECEC, stroke #000000 1px
+        - TEXT "Large", 36x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - FRAME "Frame 16", 56x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+        - TEXT "Mid", 24x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - FRAME "Frame 17", 63x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+        - TEXT "Small", 36x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - GROUP "Group 9", 141x32px, constraints left/top
+      - TEXT "Gainers", 62x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+      - TEXT "Losers", 55x21px, constraints left/top, fill #969696, text [Roboto Medium, 18px]
+      - RECTANGLE "Rectangle 3", 62x3px, constraints left/top, fill #00B386
+    - GROUP "Gainers/Large Cap", 372x344px, constraints left/top, radius 10px
+      - FRAME "Frame 19", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+        - RECTANGLE "image 3", 34x15px, constraints left/top, fill image(hash: dffef2f83754ae8f2d99572b332ae1909ea3afc8)
+        - TEXT "Triveni Turbine", 107x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - TEXT "₹823.96", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+        - TEXT "+59.80 (7.83%)", 89x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+      - FRAME "Frame 21", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+        - RECTANGLE "image", 38x38px, constraints left/top, fill image(hash: 01e94d70d2e0035eb520814031f7664ac3454d67)
+        - TEXT "Zomato", 56x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - TEXT "₹280.11", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+        - TEXT "+6.80 (2.49%)", 82x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+      - FRAME "Frame 22", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+        - TEXT "See More", 77x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+        - TEXT "Gainers", 48x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+        - FRAME "material-symbols:chevron-right", 22x22px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6.78x11px, constraints scale/scale, fill #1E1E1E
+      - FRAME "Frame 20", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+        - RECTANGLE "image", 50x22px, constraints left/top, fill image(hash: f31f6e1d8f3b953dbf5d595f04659fa608fab1a1)
+        - TEXT "BSE", 29x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - TEXT "₹4,431.10", 66x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+        - TEXT "-255.70 (5.46%)", 94x15px, constraints left/top, fill #F35D5D, text [Roboto SemiBold, 13px]
+    - GROUP "Popular ETFs", 372x389px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Popular ETFs for SIP", 167x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+      - TEXT "See more", 60x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - GROUP "Most bought Cards", 372x344px, constraints left/top, radius 10px
+        - FRAME "Frame 19", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+          - RECTANGLE "image 3", 34x15px, constraints left/top, fill image(hash: dffef2f83754ae8f2d99572b332ae1909ea3afc8)
+          - TEXT "Triveni Turbine", 107x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+          - TEXT "₹823.96", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+          - TEXT "+59.80 (7.83%)", 89x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+        - FRAME "Frame 21", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+          - RECTANGLE "image", 38x38px, constraints left/top, fill image(hash: 01e94d70d2e0035eb520814031f7664ac3454d67)
+          - TEXT "Zomato", 56x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+          - TEXT "₹280.11", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+          - TEXT "+6.80 (2.49%)", 82x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+        - FRAME "Frame 22", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+          - RECTANGLE "image", 38x38px, constraints left/top, radius 12px, fill image(hash: 69f9146be7f2e471e8c204ad59d201a542e5940d)
+          - TEXT "Swiggy", 52x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+          - TEXT "₹461.90", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+          - TEXT "+31.20 (7.24%)", 89x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+        - FRAME "Frame 20", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+          - RECTANGLE "image", 50x22px, constraints left/top, fill image(hash: f31f6e1d8f3b953dbf5d595f04659fa608fab1a1)
+          - TEXT "BSE", 29x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+          - TEXT "₹4,431.10", 66x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+          - TEXT "-255.70 (5.46%)", 94x15px, constraints left/top, fill #F35D5D, text [Roboto SemiBold, 13px]
+      - RECTANGLE "Rectangle 5", 59x1px, constraints left/top, stroke #CACACA 1px
+    - GROUP "Top Intraday", 372x389px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Top Intraday", 100x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+      - TEXT "See more", 60x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - GROUP "Most bought Cards", 372x344px, constraints left/top, radius 10px
+        - FRAME "Frame 19", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+          - RECTANGLE "image 3", 34x15px, constraints left/top, fill image(hash: dffef2f83754ae8f2d99572b332ae1909ea3afc8)
+          - TEXT "Triveni Turbine", 107x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+          - TEXT "₹823.96", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+          - TEXT "+59.80 (7.83%)", 89x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+        - FRAME "Frame 21", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+          - RECTANGLE "image", 38x38px, constraints left/top, fill image(hash: 01e94d70d2e0035eb520814031f7664ac3454d67)
+          - TEXT "Zomato", 56x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+          - TEXT "₹280.11", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+          - TEXT "+6.80 (2.49%)", 82x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+        - FRAME "Frame 22", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+          - RECTANGLE "image", 38x38px, constraints left/top, radius 12px, fill image(hash: 69f9146be7f2e471e8c204ad59d201a542e5940d)
+          - TEXT "Swiggy", 52x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+          - TEXT "₹461.90", 54x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+          - TEXT "+31.20 (7.24%)", 89x15px, constraints left/top, fill #00B386, text [Roboto SemiBold, 13px]
+        - FRAME "Frame 20", 176x160px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+          - RECTANGLE "image", 50x22px, constraints left/top, fill image(hash: f31f6e1d8f3b953dbf5d595f04659fa608fab1a1)
+          - TEXT "BSE", 29x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+          - TEXT "₹4,431.10", 66x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+          - TEXT "-255.70 (5.46%)", 94x15px, constraints left/top, fill #F35D5D, text [Roboto SemiBold, 13px]
+      - RECTANGLE "Rectangle 5", 59x1px, constraints left/top, stroke #CACACA 1px
+  - FRAME "Bottom Nav", 412x64px, constraints left/top, fill #FFFFFF, effect [drop_shadow 5px offset 0 0 #00000040]
+    - FRAME "Frame 12", 352x46px, horizontal pad 0 0 0 0px gap 94px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 9", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "solar:graph-up-bold", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x23.33px, constraints scale/scale, fill #4E5ACC
+        - TEXT "Stocks", 43x13px, constraints left/top, fill #4E5ACC, text [Roboto Medium, 11px]
+      - FRAME "Frame 10", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "tabler:layout", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18.67x18.67px, constraints scale/scale, stroke #9B9B9C 2.33px
+        - TEXT "Mutual Funds", 85x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+      - FRAME "Frame 11", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "bx:right-arrow", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.5x23.34px, constraints scale/scale, fill #9B9B9C
+        - TEXT "UPI", 85x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+
+Screen: Screens / Individual Stock Page
+- FRAME "Individual Stock Page", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "formkit:arrowleft", 32x18px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 9.02x16.04px, constraints scale/scale, fill #000000
+  - FRAME "Frame 31", 371x28px, horizontal pad 0 0 0 0px gap 153px align space_between/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Stock Info", 372x103px, constraints left/top, radius 10px
+    - FRAME "Frame 32", 124x27px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+      - TEXT "Electrical Equip.", 94x15px, constraints left/top, fill #919191, text [Roboto SemiBold, 13px]
+    - TEXT "Triveni Turbine", 131x23px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "₹836.45", 88x28px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+    - TEXT "+12.50 (1.52%)", 95x16px, constraints left/top, fill #00B386, text [Roboto Medium, 14px]
+    - TEXT "1D", 18x16px, constraints left/top, fill #969696, text [Roboto Medium, 14px]
+  - GROUP "Chart", 372x308px, constraints left/top
+    - RECTANGLE "Stock Chart", 372x251px, constraints left/top, fill image(hash: 4e541655d14e468c5cf98ad68acbda62eb5cb444)
+    - RECTANGLE "Separator", 372x1px, constraints left/top, stroke #919191 1px
+    - GROUP "Timeline", 372x29px, constraints left/top
+      - TEXT "NSE", 31x19px, constraints left/top, fill #00B386, text [Roboto SemiBold, 16px]
+      - FRAME "Frame 33", 333x29px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 15", 47x29px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #ECECEC, stroke #000000 1px
+          - TEXT "1D", 19x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+        - FRAME "Frame 15", 47x29px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px
+          - TEXT "1W", 22x18px, constraints left/top, fill #9B9999, text [Roboto Regular, 15px]
+        - FRAME "Frame 15", 47x29px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px
+          - TEXT "1M", 21x16px, constraints left/top, fill #9B9999, text [Roboto Regular, 14px]
+        - FRAME "Frame 15", 47x29px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px
+          - TEXT "1Y", 18x18px, constraints left/top, fill #9B9999, text [Roboto Regular, 15px]
+        - FRAME "Frame 15", 47x29px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px
+          - TEXT "5Y", 17x16px, constraints left/top, fill #9B9999, text [Roboto Regular, 14px]
+        - FRAME "Frame 16", 47x29px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px
+          - TEXT "ALL", 26x18px, constraints left/top, fill #9B9999, text [Roboto Regular, 15px]
+        - FRAME "material-symbols:candlestick-chart-outline", 26x26px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.17x17.33px, constraints scale/scale, fill #00B386
+  - FRAME "Stock SIP", 372x89px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+    - FRAME "Frame 35", 45x45px, constraints left/top, radius 50px, fill #E7E7E7
+      - FRAME "mdi:calendar", 22x22px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.5x18.33px, constraints scale/scale, fill #696969
+    - TEXT "Create Stock SIP", 113x18px, constraints left/top, fill #3A3A3A, text [Roboto Medium, 15px]
+    - TEXT "Automate your investments in this stock", 233x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+    - FRAME "material-symbols:chevron-right", 23x23px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 7.09x11.5px, constraints scale/scale, fill #757575
+  - GROUP "Tabs", 412x38px, constraints left/top
+    - FRAME "Frame 36", 412x18px, horizontal pad 0 0 0 0px gap 84px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #000000 1px
+      - TEXT "Overview", 62x18px, constraints left/top, fill #00B386, text [Roboto Medium, 15px]
+      - TEXT "News", 38x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+      - TEXT "Events", 45x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+    - GROUP "Underline", 412x4px, constraints left/top
+      - RECTANGLE "Rectangle 2", 412x4px, constraints left/top, fill #E8E8E8
+      - RECTANGLE "Rectangle 3", 150x4px, constraints left/top, fill #00B386
+  - FRAME "Scrollable", 372x2032px, constraints left/top, fill #FFFFFF
+    - GROUP "Performance", 412x388px, constraints left/top
+      - FRAME "Performance", 133x21px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Performance", 105x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+        - FRAME "material-symbols:info-outline", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, fill #A2A2A2
+      - GROUP "Todays' Low", 72x39px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Today’s Low", 72x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+        - TEXT "763.00", 44x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - GROUP "Today's High", 74x39px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Today’s High", 74x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+        - TEXT "788.00", 44x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - RECTANGLE "Rectangle 2", 372x4px, constraints left/top, fill #F5F5F5
+      - GROUP "52Week", 372x64px, constraints left/top
+        - GROUP "52W Low", 77x39px, constraints left/top, radius 0/0/0/0px
+          - TEXT "52 Week Low", 77x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+          - TEXT "350.35", 44x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+        - GROUP "52W High", 80x39px, constraints left/top, radius 0/0/0/0px
+          - TEXT "52 Week High", 80x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+          - TEXT "885.00", 44x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+        - RECTANGLE "Rectangle 2", 372x4px, constraints left/top, fill #F5F5F5
+      - GROUP "Info", 299x102px, constraints left/top
+        - FRAME "Open", 44x39px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Open", 44x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+          - TEXT "773.05", 44x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+        - FRAME "Open", 76x39px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lower Circuit", 77x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+          - TEXT "604.60", 76x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+        - FRAME "Open", 76x39px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Upper Circuit", 75x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+          - TEXT "909.90", 76x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+        - FRAME "Prev. Close", 65x39px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Prev. Close", 65x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+          - TEXT "755.75", 65x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+        - FRAME "Volume", 62x39px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Volume", 62x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+          - TEXT "21,56,327", 62x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - RECTANGLE "Separator", 412x1px, constraints left/top, fill #E8E8E8
+    - GROUP "Experts Rating", 412x246px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Separator", 412x1px, constraints left/top, fill #E8E8E8
+      - GROUP "Experts Rating", 372x213px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Experts", 372x25px, constraints left/top
+          - TEXT "Experts rating", 113x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+          - FRAME "mdi:chevron-up", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #1E1E1E
+        - GROUP "Rating", 108x108px, constraints left/top
+          - ELLIPSE "Ellipse 2", 108x108px, constraints left/top, fill #00B38626
+          - TEXT "83%", 57x35px, constraints left/top, fill #00B386, text [Roboto Medium, 30px], [heading]
+        - GROUP "Stats", 191x77px, constraints left/top, radius 2px
+          - TEXT "Buy", 22x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+          - TEXT "83%", 25x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+          - TEXT "Hold", 28x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+          - TEXT "0%", 17x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+          - TEXT "Sell", 21x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+          - TEXT "17%", 25x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+          - RECTANGLE "Rectangle 6", 106x10px, constraints left/top, radius 2px, fill #00B386
+          - RECTANGLE "Rectangle 7", 27x10px, constraints left/top, radius 2px, fill #E8E8E8
+        - GROUP "Dotted Link", 184x20px, constraints left/top
+          - TEXT "By Refinitiv from 6 analysts", 184x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+          - RECTANGLE "Rectangle 5", 183x1px, constraints left/top, stroke #000000 1px
+    - GROUP "Fundamentals", 412x240px, constraints left/top
+      - GROUP "Fundamentals", 372x24px, constraints left/top
+        - FRAME "Fundamentals", 143x21px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Fundamentals", 115x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+          - FRAME "material-symbols:info-outline", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, fill #A2A2A2
+        - FRAME "mdi:chevron-up", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #1E1E1E
+      - FRAME "Fundamentals Left", 168x154px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 51", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Mkt Cap", 52x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "₹23,987Cr", 92x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - FRAME "Frame 52", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "P/E Ration(TTM)", 105x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "76.15", 39x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - FRAME "Frame 53", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "P/B Ratio", 60x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "22.01", 84x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - FRAME "Frame 54", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Industry P/E", 77x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "94.68", 67x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - FRAME "Frame 55", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Debt to Equity", 87x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "0.01", 56x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+      - FRAME "Fundamentals Left", 168x154px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 51", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "ROE", 27x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "28.91%", 117x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - FRAME "Frame 52", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "EPS(TTM)", 64x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "9.91", 80x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - FRAME "Frame 53", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Div Yield", 54x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "0.48%", 90x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - FRAME "Frame 54", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Book Value", 71x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "34.29", 73x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - FRAME "Frame 55", 168x18px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Face Value", 69x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+          - TEXT "1", 75x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+      - RECTANGLE "Separator", 412x1px, constraints left/top, fill #E8E8E8
+    - GROUP "Financials", 412x362px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Financials", 372x24px, constraints left/top
+        - TEXT "Financials", 85.69x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+        - FRAME "mdi:chevron-up", 25.08x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12.54x7.41px, constraints scale/scale, fill #1E1E1E
+      - RECTANGLE "Separator", 412x1px, constraints left/top, fill #E8E8E8
+      - GROUP "Bars", 372x191px, constraints left/top
+        - RECTANGLE "Axis", 372x1px, constraints left/top, fill #CFCFCF
+        - FRAME "Frame 61", 372x191px, horizontal pad 0 0 0 0px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 60", 34x191px, constraints left/top
+            - TEXT "402", 34x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+            - RECTANGLE "Rectangle 8", 20x125px, constraints left/top, fill #00B386
+            - TEXT "Sep ‘23", 37x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+          - FRAME "Frame 59", 34x191px, constraints left/top
+            - TEXT "449", 34x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+            - RECTANGLE "Rectangle 8", 20x138px, constraints left/top, fill #00B386
+            - TEXT "Dec ‘23", 37x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+          - FRAME "Frame 58", 34x191px, constraints left/top
+            - TEXT "475", 34x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+            - RECTANGLE "Rectangle 8", 20x146px, constraints left/top, fill #00B386
+            - TEXT "Mar ‘24", 38x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+          - FRAME "Frame 57", 34x191px, constraints left/top
+            - TEXT "483", 34x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+            - RECTANGLE "Rectangle 8", 20x152px, constraints left/top, fill #00B386
+            - TEXT "Jun ‘24", 37x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+          - FRAME "Frame 56", 34x191px, constraints left/top
+            - TEXT "521", 34x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+            - RECTANGLE "Rectangle 8", 20x159px, constraints left/top, fill #00B386
+            - TEXT "Sep ‘24", 37x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+      - GROUP "Tabs", 372x33px, constraints left/top, radius 40px
+        - FRAME "Frame 15", 70x33px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #ECECEC, stroke #000000 1px
+          - TEXT "Revenue", 50x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+        - FRAME "Frame 16", 59x33px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+          - TEXT "Profit", 32x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+        - FRAME "Frame 17", 85x33px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+          - TEXT "Net Worth", 59x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+        - FRAME "Frame 18", 110x33px, horizontal pad 12 27 12 27px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+          - FRAME "mdi:chevron-left-right", 17x17px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12.75x6.5px, constraints scale/scale, fill #1E1E1E
+          - TEXT "Quarterly", 53x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - GROUP "Deatils", 340x16px, constraints left/top, radius 0/0/0/0px
+        - TEXT "View details", 76x16px, constraints left/top, fill #00B386, text [Roboto Medium, 14px]
+        - TEXT "*All values are in crore", 119x14px, constraints left/top, fill #757575, text [Roboto Regular, 12px]
+    - GROUP "About company", 412x211px, constraints left/top
+      - GROUP "Company Details", 308x120px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Parent organisation", 122x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+        - TEXT "Triveni Turbine Limited", 154x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - TEXT "MD/CEO", 54x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+        - TEXT "Mr. Nikhil Sahwney", 128x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - TEXT "Founded in", 69x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+        - TEXT "NA", 21x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+        - TEXT "NSE Symbol", 77x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+        - TEXT "TRUTURBINE", 90x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+      - GROUP "About Company", 372x24px, constraints left/top
+        - TEXT "About company", 127x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+        - FRAME "mdi:chevron-up", 25.08x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12.54x7.41px, constraints scale/scale, fill #1E1E1E
+      - RECTANGLE "Separator", 412x1px, constraints left/top, fill #E8E8E8
+    - GROUP "Shareholding Pattern", 372x24px, constraints left/top
+      - TEXT "Shareholding pattern", 169x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+      - FRAME "mdi:chevron-up", 25.08x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12.54x7.41px, constraints scale/scale, fill #1E1E1E
+    - RECTANGLE "Separator", 412x1px, constraints left/top, fill #E8E8E8
+    - GROUP "Tabs", 364x33px, constraints left/top, radius 40px
+      - FRAME "Frame 15", 70x33px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #ECECEC, stroke #000000 1px
+        - TEXT "Sep ‘24", 43x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - FRAME "Frame 16", 59x33px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px
+        - TEXT "Jun ‘24", 42x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - FRAME "Frame 17", 65x33px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px
+        - TEXT "Mar ‘24", 44x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - FRAME "Frame 18", 69x33px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px
+        - TEXT "Dec ‘23", 43x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - FRAME "Frame 19", 69x33px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px
+        - TEXT "Sep ‘23", 43x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+    - GROUP "Promoters", 372x32px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Promoters", 61x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - GROUP "Promoters Bar", 274x6px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 9", 274x1px, constraints left/top, stroke #DADADA 1px
+        - RECTANGLE "Rectangle 10", 148x6px, constraints left/top, radius 2px, fill #00B386
+      - TEXT "55.84%", 43x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - GROUP "Promoters", 372x32px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Foreign Institutions", 112x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - GROUP "Promoters Bar", 274x6px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 9", 274x1px, constraints left/top, stroke #DADADA 1px
+        - RECTANGLE "Rectangle 10", 78x6px, constraints left/top, radius 2px, fill #00B386
+      - TEXT "28.09%", 43x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - GROUP "Promoters", 372x32px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Mutual Funds", 79x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - GROUP "Promoters Bar", 274x6px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 9", 274x1px, constraints left/top, stroke #DADADA 1px
+        - RECTANGLE "Rectangle 10", 30x6px, constraints left/top, radius 2px, fill #00B386
+      - TEXT "10.81%", 43x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - GROUP "Promoters", 372x32px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Retail", 33x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - GROUP "Promoters Bar", 274x6px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 9", 274x1px, constraints left/top, stroke #DADADA 1px
+        - RECTANGLE "Rectangle 10", 20x6px, constraints left/top, radius 2px, fill #00B386
+      - TEXT "4.59%", 36x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - GROUP "Promoters", 372x32px, constraints left/top
+      - TEXT "Other Domestic Institutions", 159x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+      - GROUP "Promoters Bar", 274x1px, constraints left/top
+        - RECTANGLE "Rectangle 9", 274x1px, constraints left/top, stroke #DADADA 1px
+      - TEXT "0.68%", 36x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+  - FRAME "Bottom Nav", 412x94px, constraints left/top, fill #FFFFFF, effect [drop_shadow 3px offset 0 0 #00000040]
+    - FRAME "Frame 37", 176x57px, constraints left/top, radius 10px, fill #F35D5D
+      - TEXT "Sell", 31x21px, constraints left/top, fill #FFFFFF, text [Roboto SemiBold, 18px]
+    - FRAME "Frame 38", 176x57px, constraints left/top, radius 10px, fill #00B386
+      - TEXT "Buy", 31x21px, constraints left/top, fill #FFFFFF, text [Roboto SemiBold, 18px]
+
+Screen: Screens / Performace Modal
+- FRAME "Performace Modal", 412x619px, constraints left/top, radius 10/10/0/0px, fill #FFFFFF
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Today’s High", 86.46x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "Today’s High is the highest price at which the stock has bee", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Today’s low", 79.35x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "Today’s Low is the lowest price at which the stock has been ", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "52W high", 64.16x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "52W High is the highest price at which the stock has been tr", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "52W low", 58.23x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "52W Low is the lowest price at which the stock has been trad", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Opening Price", 94.89x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "Opening price is the price at which the stock starts trading", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - TEXT "Performance", 105x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - TEXT "Performance has numbers that shows how the company stock is ", 372x54px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - FRAME "Frame 50", 45x45px, constraints left/top, radius 54px, fill #F8F8F8
+    - FRAME "material-symbols:docs", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 17.33x21.67px, constraints scale/scale, fill #00B386
+
+Screen: Screens / Fundamentals Modal
+- FRAME "Fundamentals Modal", 412x619px, constraints left/top, radius 10/10/0/0px, fill #FFFFFF
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Market Cap", 86.46x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "Today’s High is the highest price at which the stock has bee", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "ROE", 79.35x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "Today’s Low is the lowest price at which the stock has been ", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "P/E Ratio (TTM)", 102x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "52W High is the highest price at which the stock has been tr", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Book Value", 71x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "52W Low is the lowest price at which the stock has been trad", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Today's High", 372x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "P/B Ratio", 94.89x18px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "Opening price is the price at which the stock starts trading", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - TEXT "Fundamentals", 115x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - TEXT "It is the financial information that is reported quarterly o", 372x36px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - FRAME "Frame 50", 45x45px, constraints left/top, radius 54px, fill #F8F8F8
+    - FRAME "material-symbols:docs", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 17.33x21.67px, constraints scale/scale, fill #00B386
+
+Screen: Screens / Mutual Funds
+- FRAME "Mutual Funds", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "Index 1", 285x127px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+    - TEXT "Motilal Oswal Midcap Fund", 170x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "36.11%", 43x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - TEXT "Equity Mid Cap", 87x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+    - TEXT "3Y", 16x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+    - TEXT "5", 8x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+    - RECTANGLE "image", 36x36px, constraints left/top, radius 5px, fill image(hash: 0a22379fc1bbbbe8c8213fc60a807e8f21586760)
+    - FRAME "tabler:star-filled", 14x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.82x12.25px, constraints scale/scale, fill #808080
+  - FRAME "Index 2", 285x127px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+    - TEXT "Motilal Oswal Midcap Fund", 170x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "36.11%", 43x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - TEXT "Equity Mid Cap", 87x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+    - TEXT "3Y", 16x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+    - TEXT "5", 8x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+    - RECTANGLE "image", 36x36px, constraints left/top, radius 5px, fill image(hash: 0a22379fc1bbbbe8c8213fc60a807e8f21586760)
+    - FRAME "tabler:star-filled", 14x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.82x12.25px, constraints scale/scale, fill #808080
+  - GROUP "Tabs", 411x37px, constraints left/top, radius 40px
+    - FRAME "Frame 15", 91x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #ECECEC, stroke #000000 1px
+      - TEXT "Explore", 47x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - FRAME "Frame 16", 107x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+      - TEXT "Dashboard", 68x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - FRAME "Frame 17", 67x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+      - TEXT "SIPs", 29x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - FRAME "Frame 18", 110x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+      - TEXT "Watchlist", 59x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - TEXT "Funds by Groww", 133x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - TEXT "Popular Funds", 117x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - TEXT "Collections", 91x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - TEXT "All Mutual Funds", 106x16px, constraints left/top, fill #00B386, text [Roboto Medium, 14px]
+  - TEXT "View all", 49x16px, constraints left/top, fill #00B386, text [Roboto Medium, 14px]
+  - RECTANGLE "image 7", 341x224px, constraints left/top, fill image(hash: bb6da83359d39a61967e5ae188b5d084fd784556)
+  - FRAME "Frame 21", 176x160px, constraints left/top, radius 10px, fill #FFFFFF, stroke #E8E8E8 1px
+    - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+    - TEXT "Groww Value Fund", 133x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - GROUP "Group 35", 71x18px, constraints left/top, radius 0/0/0/0px
+      - TEXT "15.39%", 50x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+      - TEXT "3Y", 17x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+  - FRAME "Frame 22", 176x160px, constraints left/top, radius 10px, fill #FFFFFF, stroke #E8E8E8 1px
+    - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+    - TEXT "Groww Large Cap Fund", 141x38px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - GROUP "Group 35", 71x18px, constraints left/top, radius 0/0/0/0px
+      - TEXT "15.39%", 50x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+      - TEXT "3Y", 17x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+  - FRAME "Bottom Nav", 412x64px, constraints left/top, fill #FFFFFF, effect [drop_shadow 5px offset 0 0 #00000040]
+    - FRAME "Frame 12", 352x46px, horizontal pad 0 0 0 0px gap 94px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 9", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "solar:graph-up-bold", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x23.33px, constraints scale/scale, fill #9B9B9C
+        - TEXT "Stocks", 43x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+      - FRAME "Frame 10", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "tabler:layout", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18.67x18.67px, constraints scale/scale, fill #4E5ACC, stroke #4E5ACC 2.33px
+        - TEXT "Mutual Funds", 85x13px, constraints left/top, fill #4E5ACC, text [Roboto Medium, 11px]
+      - FRAME "Frame 11", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "bx:right-arrow", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.5x23.34px, constraints scale/scale, fill #9B9B9C
+        - TEXT "UPI", 85x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+  - GROUP "Logo & Profile", 352x35px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+    - TEXT "Mutual Funds", 110x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - RECTANGLE "image 2", 35x35px, constraints left/top, radius 50px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+    - FRAME "material-symbols:search", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+    - FRAME "ic:outline-qr-code", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+
+Screen: Screens / Mutual Funds - Dashboard
+- FRAME "Mutual Funds - Dashboard", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Tabs", 411x37px, constraints left/top, radius 40px
+    - FRAME "Frame 15", 91x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+      - TEXT "Explore", 47x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - FRAME "Frame 16", 107x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #ECECEC, stroke #000000 1px
+      - TEXT "Dashboard", 68x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - FRAME "Frame 17", 67x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+      - TEXT "SIPs", 29x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - FRAME "Frame 18", 110x37px, horizontal pad 12 27 12 27px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke #E8E8E8 1px
+      - TEXT "Watchlist", 59x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - TEXT "Investments (4)", 141x23px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - FRAME "Investment", 372x205px, constraints left/top, radius 10px, stroke #E8E8E8 1px
+    - GROUP "Current", 340x41px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Current", 43x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+      - TEXT "Total Returns", 77x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+      - TEXT "₹2,14,720", 66x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+      - TEXT "+ ₹52,129 (32.06%)", 130x18px, constraints left/top, fill #00B386, text [Roboto Medium, 15px]
+    - GROUP "Current", 340x41px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Invested", 50x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+      - TEXT "1D Returns", 64x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+      - TEXT "₹1,62,592", 66x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+      - TEXT "+ ₹689.07(0.32%)", 118x18px, constraints left/top, fill #00B386, text [Roboto Medium, 15px]
+    - TEXT "XIRR", 28x15px, constraints left/top, fill #808080, text [Roboto Regular, 13px]
+    - RECTANGLE "Rectangle 4", 372x1px, constraints left/top, fill #E8E8E8
+    - TEXT "37.67%", 50x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+    - FRAME "Frame 46", 139x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "bitcoin-icons:graph-filled", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Portfolio analysis", 111x16px, constraints left/top, fill #00B386, text [Roboto SemiBold, 14px]
+  - GROUP "Group 12", 43.67x18px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 10", 11.67x7px, constraints left/top, radius 5px
+      - RECTANGLE "Rectangle 11", 11.67x1.08px, constraints left/top, radius 5px, fill #000000, stroke #000000 1px
+      - RECTANGLE "Rectangle 12", 9x1px, constraints left/top, radius 5px, fill #000000, stroke #000000 1px
+      - RECTANGLE "Rectangle 13", 6x1px, constraints left/top, radius 5px, fill #000000, stroke #000000 1px
+    - GROUP "Group 11", 25x18px, constraints left/top
+      - TEXT "Sort", 25x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+      - RECTANGLE "Rectangle 14", 25x1px, constraints left/top, stroke #000000 1px
+  - GROUP "Group 18", 412x82px, constraints left/top
+    - GROUP "Group 17", 368x61px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Motilal Oswal Midcap Fund Direct Growth", 250x36px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+      - TEXT "SIP", 250x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+      - GROUP "Group 16", 54x41px, constraints left/top, radius 0/0/0/0px
+        - TEXT "₹52,129", 54x18px, constraints left/top, fill #00B386, text [Roboto Medium, 15px]
+        - TEXT "(46,998)", 52x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+    - RECTANGLE "Rectangle 15", 412x1px, constraints left/top, fill #E8E8E8
+  - GROUP "Group 19", 412x82px, constraints left/top
+    - GROUP "Group 17", 368x61px, constraints left/top, radius 0/0/0/0px
+      - TEXT "ICICI Prudential Commodities Fund Direct Growth", 250x36px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+      - TEXT "SIP", 250x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+      - GROUP "Group 16", 54x41px, constraints left/top, radius 0/0/0/0px
+        - TEXT "₹52,129", 54x18px, constraints left/top, fill #00B386, text [Roboto Medium, 15px]
+        - TEXT "(46,998)", 52x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+    - RECTANGLE "Rectangle 15", 412x1px, constraints left/top, fill #E8E8E8
+  - GROUP "Group 20", 412x82px, constraints left/top
+    - GROUP "Group 17", 368x61px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Quant Small Cap Fund Direct Plan Growth", 250x36px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+      - TEXT "SIP", 250x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+      - GROUP "Group 16", 54x41px, constraints left/top, radius 0/0/0/0px
+        - TEXT "₹52,129", 54x18px, constraints left/top, fill #00B386, text [Roboto Medium, 15px]
+        - TEXT "(46,998)", 52x16px, constraints left/top, fill #757575, text [Roboto Regular, 14px]
+    - RECTANGLE "Rectangle 15", 412x1px, constraints left/top, fill #E8E8E8
+  - GROUP "Logo & Profile", 352x35px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+    - TEXT "Mutual Funds", 110x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - RECTANGLE "image 2", 35x35px, constraints left/top, radius 50px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+    - FRAME "material-symbols:search", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+    - FRAME "ic:outline-qr-code", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+  - FRAME "Bottom Nav", 412x64px, constraints left/top, fill #FFFFFF, effect [drop_shadow 5px offset 0 0 #00000040]
+    - FRAME "Frame 12", 352x46px, horizontal pad 0 0 0 0px gap 94px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 9", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "solar:graph-up-bold", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x23.33px, constraints scale/scale, fill #9B9B9C
+        - TEXT "Stocks", 43x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+      - FRAME "Frame 10", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "tabler:layout", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18.67x18.67px, constraints scale/scale, fill #4E5ACC, stroke #4E5ACC 2.33px
+        - TEXT "Mutual Funds", 85x13px, constraints left/top, fill #4E5ACC, text [Roboto Medium, 11px]
+      - FRAME "Frame 11", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "bx:right-arrow", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.5x23.34px, constraints scale/scale, fill #9B9B9C
+        - TEXT "UPI", 85x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+  - GROUP "Group 15", 130x18px, constraints left/top
+    - GROUP "Group 13", 106x18px, constraints left/top
+      - GROUP "Group 11", 106x18px, constraints left/top
+        - TEXT "Current (Invested)", 106x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+        - RECTANGLE "Rectangle 14", 102x1px, constraints left/top, stroke #000000 1px
+    - GROUP "Group 14", 24x15px, constraints left/top
+      - FRAME "material-symbols:chevron-left-rounded", 15x15px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 4.09x6.97px, constraints scale/scale, fill #000000
+      - FRAME "material-symbols:chevron-left-rounded", 15x15px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 4.09x6.97px, constraints scale/scale, fill #000000
+
+Screen: Screens / UPI
+- FRAME "UPI", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "Bottom Nav", 412x64px, constraints left/top, fill #FFFFFF, effect [drop_shadow 5px offset 0 0 #00000040]
+    - FRAME "Frame 12", 352x46px, horizontal pad 0 0 0 0px gap 94px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 9", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "solar:graph-up-bold", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x23.33px, constraints scale/scale, fill #9B9B9C
+        - TEXT "Stocks", 43x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+      - FRAME "Frame 10", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "tabler:layout", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18.67x18.67px, constraints scale/scale, stroke #9B9B9C 2.33px
+        - TEXT "Mutual Funds", 85x13px, constraints left/top, fill #9B9B9C, text [Roboto Medium, 11px]
+      - FRAME "Frame 11", 43x46px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "bx:right-arrow", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.5x23.34px, constraints scale/scale, fill #4E5ACC
+        - TEXT "UPI", 85x13px, constraints left/top, fill #4E5ACC, text [Roboto Medium, 11px]
+    - FRAME "bxs:right-arrow", 24x24px, constraints left/top, fill #FFFFFF
+  - GROUP "Logo & Profile", 352x35px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+    - TEXT "UPI", 29x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - RECTANGLE "image 2", 35x35px, constraints left/top, radius 50px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+    - FRAME "material-symbols:search", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+    - FRAME "ic:outline-qr-code", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+  - FRAME "Services", 372x123px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 5", 78x123px, constraints left/top, radius 10px
+      - FRAME "Frame 39", 78x75px, constraints left/top, radius 10px, fill #F5F6F6
+        - FRAME "material-symbols:upi-pay-outline", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 25x20px, constraints scale/scale, fill #00B386
+      - TEXT "Activate UPI Lite", 52x32px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - GROUP "Group 6", 78x123px, constraints left/top, radius 10px
+      - TEXT "Pay anyone", 46x32px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - FRAME "Frame 40", 78x75px, constraints left/top, radius 10px, fill #F5F6F6
+        - FRAME "mdi:user-outline", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #00B386
+    - GROUP "Group 7", 78x123px, constraints left/top, radius 10px
+      - TEXT "Self transfer", 50x32px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - FRAME "Frame 41", 78x75px, constraints left/top, radius 10px, fill #F5F6F6
+        - FRAME "material-symbols:replay", 40.98x40.98px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 32.61x33.98px, constraints scale/scale, fill #00B386
+    - GROUP "Group 8", 78x123px, constraints left/top, radius 10px
+      - TEXT "Check Balance", 51x32px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - FRAME "Frame 42", 78x75px, constraints left/top, radius 10px, fill #F5F6F6
+        - FRAME "mdi:wallet-outline", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.75x22.5px, constraints scale/scale, fill #00B386
+  - FRAME "Title", 372x45px, horizontal pad 0 0 0 0px gap 167px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Payments", 133x45px, constraints left/top
+      - TEXT "My Payments", 116x22px, constraints left/top, fill #000000, text [Roboto Medium, 19px]
+      - TEXT "8291567780@yesg", 112x15px, constraints left/top, fill #7F7F7F, text [Roboto Regular, 13px]
+      - FRAME "mdi:content-copy", 15x15px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.88x13.75px, constraints scale/scale, fill #7F7F7F
+    - FRAME "Frame 43", 72x38px, constraints left/top, radius 20px, stroke #E8E8E8 1px
+      - FRAME "Frame 44", 43.84x19.45px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Star", 16.84x19.45px, constraints left/top
+          - VECTOR "Vector", 16.84x19.45px, constraints scale/scale, fill #4E5ACC
+          - VECTOR "Vector", 10x9px, constraints scale/scale, fill #FFFFFF
+        - TEXT "₹0", 17x18px, constraints left/top, fill #000000, text [Roboto Medium, 15px]
+  - TEXT "Recharge your mobile", 185x22px, constraints left/top, fill #000000, text [Roboto Medium, 19px]
+  - TEXT "Enjoy ₹0 platform fee", 142x18px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+  - RECTANGLE "WhatsApp Image 2024-11-27 at 23.21.08_f7508cc4 1", 166x196px, constraints left/top, fill image(hash: 44f15b0eb855604f037217b4a8cd0ba4a0206636)
+  - FRAME "Frame 45", 176x40px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #00B386
+    - TEXT "Explore Mobile Recharge", 145x15px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 13px]
+
+Screen: Screens / Profile
+- FRAME "Profile", 412x987px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Group 32", 412x215px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Separator", 412x1px, constraints left/top, fill #E8E8E8
+    - GROUP "Group 31", 412x194px, constraints left/top, radius 100px
+      - TEXT "Mohammed Shariq Qamruddin Shaikh", 412x64px, constraints left/top, fill #000000, text [Roboto Medium, 27px], [heading]
+      - GROUP "Profile Picture", 100x100px, constraints left/top, radius 100px
+        - RECTANGLE "image 2", 100x100px, constraints left/top, radius 100px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+  - GROUP "Group 33", 392x521px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 24", 392x65px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Separator", 342x1px, constraints left/top, fill #E8E8E8
+      - GROUP "Group 22", 372x44px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 21", 179x43px, constraints left/top
+          - FRAME "mdi:wallet-outline", 30x30px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 23.75x22.5px, constraints scale/scale, fill #757575
+          - GROUP "Group 23", 129x43px, constraints left/top, radius 0/0/0/0px
+            - TEXT "$0.00", 41x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+            - TEXT "Stocks, F&O balance", 129x16px, constraints left/top, fill #757575, text [Roboto Medium, 14px]
+        - FRAME "Frame 45", 117x38px, horizontal pad 13 16 13 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #E9FAF2
+          - FRAME "line-md:plus-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 15x15px, constraints scale/scale
+          - TEXT "Add money", 66x15px, constraints left/top, fill #32B495, text [Roboto Medium, 13px]
+    - GROUP "Group 25", 392x56px, constraints left/top
+      - RECTANGLE "Separator", 342x1px, constraints left/top, fill #E8E8E8
+      - GROUP "Group 21", 105x30px, constraints left/top
+        - FRAME "material-symbols:receipt-outline", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 22.5x25px, constraints scale/scale, fill #757575
+        - GROUP "Group 23", 55x21px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Orders", 55x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - GROUP "Group 26", 392x56px, constraints left/top
+      - RECTANGLE "Separator", 342x1px, constraints left/top, fill #E8E8E8
+      - GROUP "Group 21", 178x30px, constraints left/top
+        - FRAME "mdi:account-outline", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #757575
+        - GROUP "Group 23", 128x21px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Account Details", 128x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - GROUP "Group 27", 392x56px, constraints left/top
+      - RECTANGLE "Separator", 342x1px, constraints left/top, fill #E8E8E8
+      - GROUP "Group 21", 187x30px, constraints left/top
+        - FRAME "mdi:bank-outline", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.75x25px, constraints scale/scale, fill #757575
+        - GROUP "Group 23", 137x21px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Banks & Autopay", 137x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - GROUP "Group 28", 392x60px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Separator", 342x1px, constraints left/top, fill #E8E8E8
+      - GROUP "Group 21", 94x30px, constraints left/top
+        - FRAME "mdi:heart-outline", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 25x22.94px, constraints scale/scale, fill #757575
+        - GROUP "Group 23", 44x21px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Refer", 44x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+      - FRAME "Frame 45", 95x38px, horizontal pad 13 16 13 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #E9FAF2
+        - FRAME "ri:whatsapp-line", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, fill #32B495
+        - TEXT "Invite", 32x15px, constraints left/top, fill #32B495, text [Roboto Medium, 13px]
+    - GROUP "Group 29", 392x56px, constraints left/top
+      - RECTANGLE "Separator", 342x1px, constraints left/top, fill #E8E8E8
+      - GROUP "Group 21", 242x30px, constraints left/top
+        - FRAME "material-symbols:support-agent", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 25x22.5px, constraints scale/scale, fill #757575
+        - GROUP "Group 23", 192x21px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Customer Support 24x7", 192x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+    - GROUP "Group 30", 392x56px, constraints left/top
+      - RECTANGLE "Separator", 342x1px, constraints left/top, fill #E8E8E8
+      - GROUP "Group 21", 114x30px, constraints left/top
+        - FRAME "heroicons-outline:document-report", 30x30px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.5x22.5px, constraints scale/scale, stroke #757575 2.5px
+        - GROUP "Group 23", 64x21px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Reports", 64x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - RECTANGLE "image 1", 25x25px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+  - GROUP "Group 11", 54x18px, constraints left/top
+    - TEXT "About Us", 54x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - RECTANGLE "Rectangle 14", 54x1px, constraints left/top, stroke #000000 1px
+  - GROUP "Group 13", 49x18px, constraints left/top
+    - TEXT "Charges", 49x15px, constraints left/top, fill #000000, text [Roboto Medium, 13px]
+    - RECTANGLE "Rectangle 14", 49x1px, constraints left/top, stroke #000000 1px
+  - GROUP "Group 12", 80x15px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Version 17.74", 80x15px, constraints left/top, fill #757575, text [Roboto Regular, 13px]
+  - GROUP "Group 34", 370x26px, constraints left/top [decorative, ~6 shapes]
+
+Screen: Screens / PIN-2
+- FRAME "PIN-2", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Logo & Profile", 352x35px, constraints left/top
+    - FRAME "Frame 1", 352x35px, horizontal pad 0 0 0 0px gap 265px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+      - RECTANGLE "image 2", 35x35px, constraints left/top, radius 50px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+  - TEXT "Hi, Mohammed Shariq Qamruddin Shaikh", 331x46px, constraints left/top, fill #473636, text [Roboto Medium, 20px]
+  - TEXT "Enter your Groww PIN", 331x18px, constraints left/top, fill #8D8D8D, text [Roboto Regular, 15px]
+  - FRAME "Frame 2", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - FRAME "Frame 3", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - FRAME "Frame 4", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - FRAME "Frame 5", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - GROUP "Keypad", 324x246px, constraints left/top
+    - TEXT ".", 8x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "0", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "7", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "8", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "9", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "4", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "5", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "6", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "1", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "2", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "3", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - FRAME "jam:delete", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 28.56x20.42px, constraints scale/scale, fill #000000
+  - TEXT "Use fingerprint", 331x19px, constraints left/top, fill #00B386, text [Roboto Medium, 16px]
+
+Screen: Screens / PIN-3
+- FRAME "PIN-3", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Logo & Profile", 352x35px, constraints left/top
+    - FRAME "Frame 1", 352x35px, horizontal pad 0 0 0 0px gap 265px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+      - RECTANGLE "image 2", 35x35px, constraints left/top, radius 50px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+  - TEXT "Hi, Mohammed Shariq Qamruddin Shaikh", 331x46px, constraints left/top, fill #473636, text [Roboto Medium, 20px]
+  - TEXT "Enter your Groww PIN", 331x18px, constraints left/top, fill #8D8D8D, text [Roboto Regular, 15px]
+  - FRAME "Frame 2", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - FRAME "Frame 6", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - FRAME "Frame 4", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - FRAME "Frame 5", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - GROUP "Keypad", 324x246px, constraints left/top
+    - TEXT ".", 8x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "0", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "7", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "8", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "9", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "4", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "5", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "6", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "1", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "2", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "3", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - FRAME "jam:delete", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 28.56x20.42px, constraints scale/scale, fill #000000
+  - TEXT "Use fingerprint", 331x19px, constraints left/top, fill #00B386, text [Roboto Medium, 16px]
+
+Screen: Screens / PIN-4
+- FRAME "PIN-4", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Logo & Profile", 352x35px, constraints left/top
+    - FRAME "Frame 1", 352x35px, horizontal pad 0 0 0 0px gap 265px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+      - RECTANGLE "image 2", 35x35px, constraints left/top, radius 50px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+  - TEXT "Hi, Mohammed Shariq Qamruddin Shaikh", 331x46px, constraints left/top, fill #473636, text [Roboto Medium, 20px]
+  - TEXT "Enter your Groww PIN", 331x18px, constraints left/top, fill #8D8D8D, text [Roboto Regular, 15px]
+  - FRAME "Frame 2", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - FRAME "Frame 6", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - FRAME "Frame 7", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - FRAME "Frame 5", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - GROUP "Keypad", 324x246px, constraints left/top
+    - TEXT ".", 8x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "0", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "7", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "8", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "9", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "4", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "5", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "6", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "1", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "2", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "3", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - FRAME "jam:delete", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 28.56x20.42px, constraints scale/scale, fill #000000
+  - TEXT "Use fingerprint", 331x19px, constraints left/top, fill #00B386, text [Roboto Medium, 16px]
+
+Screen: Screens / PIN-5
+- FRAME "PIN-5", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Logo & Profile", 352x35px, constraints left/top
+    - FRAME "Frame 1", 352x35px, horizontal pad 0 0 0 0px gap 265px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+      - RECTANGLE "image 2", 35x35px, constraints left/top, radius 50px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+  - TEXT "Hi, Mohammed Shariq Qamruddin Shaikh", 331x46px, constraints left/top, fill #473636, text [Roboto Medium, 20px]
+  - TEXT "Enter your Groww PIN", 331x18px, constraints left/top, fill #8D8D8D, text [Roboto Regular, 15px]
+  - FRAME "Frame 2", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - FRAME "Frame 6", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - FRAME "Frame 7", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - FRAME "Frame 8", 65x65px, constraints left/top, radius 10px, stroke #000000 2px
+    - ELLIPSE "Ellipse 1", 10x10px, constraints left/top, fill #000000
+  - GROUP "Keypad", 324x246px, constraints left/top
+    - TEXT ".", 8x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "0", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "7", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "8", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "9", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "4", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "5", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "6", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "1", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "2", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "3", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - FRAME "jam:delete", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 28.56x20.42px, constraints scale/scale, fill #000000
+  - TEXT "Use fingerprint", 331x19px, constraints left/top, fill #00B386, text [Roboto Medium, 16px]
+
+Screen: Screens / PIN-1
+- FRAME "PIN-1", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Logo & Profile", 352x35px, constraints left/top
+    - FRAME "Frame 1", 352x35px, horizontal pad 0 0 0 0px gap 265px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 1", 35x35px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+      - RECTANGLE "image 2", 35x35px, constraints left/top, radius 50px, fill image(hash: 28bb1ea10fb0643d9842b348ada7843f7aa757e0)
+  - TEXT "Hi, Mohammed Shariq Qamruddin Shaikh", 331x46px, constraints left/top, fill #473636, text [Roboto Medium, 20px]
+  - TEXT "Enter your Groww PIN", 331x18px, constraints left/top, fill #8D8D8D, text [Roboto Regular, 15px]
+  - TEXT "Use fingerprint", 331x19px, constraints left/top, fill #00B386, text [Roboto Medium, 16px]
+  - FRAME "Frame 2", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - FRAME "Frame 3", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - FRAME "Frame 4", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - FRAME "Frame 5", 65x65px, constraints left/top, radius 10px, stroke #B7B7B7 1px
+  - GROUP "Keypad", 324x246px, constraints left/top
+    - TEXT ".", 8x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "0", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "7", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "8", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "9", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "4", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "5", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "6", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "1", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "2", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - TEXT "3", 17x35px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+    - FRAME "jam:delete", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 28.56x20.42px, constraints scale/scale, fill #000000
+
+Screen: Screens / Splash
+- FRAME "Splash", 412x917px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "image 1", 90x90px, constraints left/top, fill image(hash: 1d131c836773daa67de39df89713e0b4effa6039)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

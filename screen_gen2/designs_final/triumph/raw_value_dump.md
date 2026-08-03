@@ -1,0 +1,990 @@
+---
+name: landing-website-section-layouts-community
+source_file: Landing Website Section Layouts (Community)
+source_page: All pages (9): Intro, One Column Section, Two Columns Section, Three Columns Section, Four Columns Section, Testimonial Section, Pricing Section, Slider Section, Header Section
+generated_at: 2026-07-25T09:56:39.897602+00:00
+---
+
+# Landing Website Section Layouts (Community) Design Guidelines
+
+## Source
+- Figma file: Landing Website Section Layouts (Community)
+- Figma page: All pages (9): Intro, One Column Section, Two Columns Section, Three Columns Section, Four Columns Section, Testimonial Section, Pricing Section, Slider Section, Header Section
+- Extracted at: 2026-07-25T09:56:39.897602+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Accent: [#BC31EA33]
+- Surface: [#FFFFFF]
+- Primary: [#FFFFFF]
+- Background: [#EEEEEE]
+- Border / Subtle: [#EEEEEE]
+- Text / Subtle: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #EEEEEE: 254 uses
+- #AAAAAA: 98 uses
+- #FFFFFF: 95 uses
+- #000000: 16 uses
+- #C4C4C4: 11 uses
+- #808080: 8 uses
+- #BC31EA33: 8 uses
+- #DADADA: 6 uses
+- #C2D1D9: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Chalkboard Chalkboard, 13.16px: 5 uses
+- Chalkboard Chalkboard, 8.99px: 4 uses
+
+## Typography Hierarchy
+- 13.16px - Chalkboard Chalkboard, 13.16px (raw)
+- 8.99px - Chalkboard Chalkboard, 8.99px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Single Info #6
+- Frame 14
+- Single Info #4
+- Single Info #3
+- Single Info #2
+- Single Info #1
+- Single Info Box
+- Pricing table Collapsed
+- Pricing table
+
+## Component Specs
+- Single Info #6 (Two Columns Section): size 255.45x268.69px, radius 6.82px, vertical layout, padding 54.56 27.28 54.56 27.28px, gap 6.18px, sizing W:fixed H:fixed, fill #FFFFFF, stroke Text / Subtle 2.05px
+- Frame 14: size 206x44.22px, radius 64.67px, vertical layout, padding 15.52 20.69 15.52 20.69px, gap 6.47px, sizing W:fixed H:fixed, fill #074EE833, stroke Primary 1.94px
+- Single Info #4: size 481.28x300.22px, vertical layout, padding 0 0 0 0px, gap 32px, sizing W:fixed H:fixed
+- Single Info #3: size 302x191.02px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF
+- Single Info #2: size 315.8x143.4px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF
+- Single Info #1: size 325.01x309.59px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed
+- Single Info Box: size 291.89x280.47px, radius 7.5px, vertical layout, padding 24.01 24.01 24.01 24.01px, gap 72.03px, sizing W:fixed H:fixed, stroke Text / Subtle 2.25px
+- Single Info #6 (Testimonial Section): size 310x217.4px, radius 6.82px, vertical layout, padding 32 24 32 24px, gap 6.18px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke Text / Subtle 2.05px
+- Single Info #6 (Testimonial Section): size 266.92x272.84px, radius 6.82px, vertical layout, padding 48 48 48 48px, gap 6.18px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke Text / Subtle 2.05px
+- Single Info #6 (Testimonial Section): size 266.92x314.65px, radius 6.82px, vertical layout, padding 32 48 32 48px, gap 6.18px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke Text / Subtle 2.05px
+- Pricing table Collapsed: size 299x64.7px, radius 5px, horizontal layout, padding 16 16 16 16px, gap 16px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke Text / Subtle 1.68px
+- Pricing table: size 255.02x269.19px, radius 5px, vertical layout, padding 26.33 19.74 26.33 19.74px, gap 16px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke Text / Subtle 1.68px, text [Chalkboard Chalkboard, 13.16px]
+
+## Most-Used Styles
+- Border / Subtle: 222 uses
+- Background: 111 uses
+- Primary: 58 uses
+- Surface: 56 uses
+- Text / Subtle: 37 uses
+- Accent: 8 uses
+
+## Layout & Structure
+Screen: Intro / intro
+- FRAME "intro", 1440x1024px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle", 997.48x803.31px, constraints left/top, fill image(hash: b39f2857e61f150b55107dc129372b624b5b1299), opacity 40%
+  - FRAME "Section Layout #1", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - INSTANCE "01 Images / Placeholder Alt.", 309.85x309.85px, constraints left/center, fill Background, stroke Border / Subtle 6.2px
+      - BOOLEAN_OPERATION "Exclude", 117.54x105.31px, constraints left/top, stroke Border / Subtle 6.2px
+    - INSTANCE "Single Info #4", 326.09x203.42px, vertical pad 0 0 0 0px gap 21.68px sizing W:fixed H:fixed, constraints left/center
+      - RECTANGLE "Rectangle 1", 326.09x34.33px, constraints left/top, fill #AAAAAA
+      - FRAME "Frame 3", 244.09x91.4px, vertical pad 0 0 0 0px gap 10.84px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 3", 244.09x23.24px, constraints left/top, fill #EEEEEE
+        - RECTANGLE "Rectangle 6", 244.09x23.24px, constraints left/top, fill #EEEEEE
+        - RECTANGLE "Rectangle 7", 185.92x23.24px, constraints left/top, fill #EEEEEE
+      - RECTANGLE "Rectangle 5", 95.58x34.33px, constraints left/top, radius 135.51px, fill Primary
+  - TEXT "LANDING WEBSITE LAYOUTS", 946x88px, constraints left/top, fill #FFFFFF, text [Outfit SemiBold, 69.48px], [heading]
+  - TEXT "by Triumph", 209x52px, constraints left/top, fill #FFFFFF, text [Outfit SemiBold, 41.57px], [heading]
+  - TEXT "For wire-framing", 388x52px, constraints left/top, fill #FFFFFF, text [Outfit SemiBold, 41.57px], [heading]
+  - FRAME "Section Layout #2", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 5", 213.97x265.47px, vertical pad 0 0 0 0px gap 71.14px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #2", 213.97x97.16px, vertical pad 0 0 0 0px gap 10.84px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 213.97x29.3px, horizontal pad 0 0 0 0px gap 8.72px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 29.3x29.3px, constraints left/top, fill Background, stroke Border / Subtle 0.59px
+            - VECTOR "Vector 1", 25.62x25.62px, constraints left_right/top_bottom, stroke Border / Subtle 0.59px
+            - VECTOR "Vector 2", 25.62x25.62px, constraints left_right/top_bottom, stroke Border / Subtle 0.59px
+          - RECTANGLE "Rectangle 1", 175.94x18.52px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 187.37x57.02px, vertical pad 0 0 0 0px gap 10.84px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 187.37x11.78px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 187.37x11.78px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 154.19x11.78px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #2", 213.97x97.16px, vertical pad 0 0 0 0px gap 10.84px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 213.97x29.3px, horizontal pad 0 0 0 0px gap 8.72px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 29.3x29.3px, constraints left/top, fill Background, stroke Border / Subtle 0.59px
+            - VECTOR "Vector 1", 25.62x25.62px, constraints left_right/top_bottom, stroke Border / Subtle 0.59px
+            - VECTOR "Vector 2", 25.62x25.62px, constraints left_right/top_bottom, stroke Border / Subtle 0.59px
+          - RECTANGLE "Rectangle 1", 175.94x18.52px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 187.37x57.02px, vertical pad 0 0 0 0px gap 10.84px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 187.37x11.78px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 187.37x11.78px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 154.19x11.78px, constraints left/top, fill #EEEEEE
+    - FRAME "Frame 6", 213.97x265.47px, vertical pad 0 0 0 0px gap 71.14px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #2", 213.97x97.16px, vertical pad 0 0 0 0px gap 10.84px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 213.97x29.3px, horizontal pad 0 0 0 0px gap 8.72px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 29.3x29.3px, constraints left/top, fill Background, stroke Border / Subtle 0.59px
+            - VECTOR "Vector 1", 25.62x25.62px, constraints left_right/top_bottom, stroke Border / Subtle 0.59px
+            - VECTOR "Vector 2", 25.62x25.62px, constraints left_right/top_bottom, stroke Border / Subtle 0.59px
+          - RECTANGLE "Rectangle 1", 175.94x18.52px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 187.37x57.02px, vertical pad 0 0 0 0px gap 10.84px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 187.37x11.78px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 187.37x11.78px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 154.19x11.78px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #2", 213.97x97.16px, vertical pad 0 0 0 0px gap 10.84px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 213.97x29.3px, horizontal pad 0 0 0 0px gap 8.72px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 29.3x29.3px, constraints left/top, fill Background, stroke Border / Subtle 0.59px
+            - VECTOR "Vector 1", 25.62x25.62px, constraints left_right/top_bottom, stroke Border / Subtle 0.59px
+            - VECTOR "Vector 2", 25.62x25.62px, constraints left_right/top_bottom, stroke Border / Subtle 0.59px
+          - RECTANGLE "Rectangle 1", 175.94x18.52px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 187.37x57.02px, vertical pad 0 0 0 0px gap 10.84px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 187.37x11.78px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 187.37x11.78px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 154.19x11.78px, constraints left/top, fill #EEEEEE
+  - FRAME "Frame 7", 247x58.9px, horizontal pad 14.45 14.45 14.45 14.45px gap 4.52px align center/center sizing W:fixed H:fixed, constraints left/top, radius 152.18px, fill Primary
+    - TEXT "Open Next page", 176x30px, constraints left/top, fill #FFFFFF, text [Outfit SemiBold, 24px], [heading]
+
+Screen: One Column Section / Section Layout [One Column]
+- SECTION "Section Layout [One Column]", 2813x923px, fill #BC31EA33, stroke Accent 5px
+  - FRAME "Section Layout #1", 1280x720px, constraints left/top, fill #FFFFFF
+    - FRAME "Single Info #5", 541x482.19px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints center/center
+      - INSTANCE "01 Images / Placeholder Alt.", 541x221px, constraints left/top, fill Background, stroke Border / Subtle 4.42px
+        - BOOLEAN_OPERATION "Exclude", 83.83x75.11px, constraints left/top, stroke Border / Subtle 4.42px
+      - FRAME "Single Info #4", 354.59x221.19px, vertical pad 0 0 0 0px gap 23.58px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+  - FRAME "Section Layout #2", 1280x720px, constraints left/top, fill #FFFFFF
+    - FRAME "Single Info #5", 541x513.13px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints center/center
+      - FRAME "Single Info #4", 541x184.13px, vertical pad 0 0 0 0px gap 23.58px align min/center sizing W:fill H:fixed, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "01 Images / Placeholder Alt.", 541x289px, constraints left/top, fill Background, stroke Border / Subtle 4.42px
+        - BOOLEAN_OPERATION "Exclude", 83.83x75.11px, constraints left/top, stroke Border / Subtle 4.42px
+
+Screen: Two Columns Section / Section Layout [Two Columns]
+- SECTION "Section Layout [Two Columns]", 2802x4077px, fill #BC31EA33, stroke Accent 5px
+  - FRAME "Section Layout #1", 1280x720px, constraints left/top, fill #FFFFFF
+    - INSTANCE "01 Images / Placeholder Alt.", 457.3x457.3px, constraints left/center, fill Background, stroke Border / Subtle 9.15px
+      - BOOLEAN_OPERATION "Exclude", 173.48x155.42px, constraints left/top, stroke Border / Subtle 9.15px
+    - COMPONENT "Single Info #4", 481.28x300.22px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/center
+      - RECTANGLE "Rectangle 1", 481.28x50.66px, constraints left/top, fill #AAAAAA
+      - FRAME "Frame 3", 360.26x134.9px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 3", 360.26x34.3px, constraints left/top, fill #EEEEEE
+        - RECTANGLE "Rectangle 6", 360.26x34.3px, constraints left/top, fill #EEEEEE
+        - RECTANGLE "Rectangle 7", 274.39x34.3px, constraints left/top, fill #EEEEEE
+      - RECTANGLE "Rectangle 5", 141.06x50.66px, constraints left/top, radius 200px, fill Primary
+  - FRAME "Section Layout #3", 1280x720px, constraints left/top, fill #FFFFFF
+    - INSTANCE "01 Images / Placeholder Alt.", 431x530px, constraints left/center, fill Background, stroke Border / Subtle 9.15px
+      - BOOLEAN_OPERATION "Exclude", 173.48x155.42px, constraints left/top, stroke Border / Subtle 9.15px
+    - FRAME "Frame 4", 315.8x526.2px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+  - FRAME "Section Layout #5", 1280x846px, constraints left/top, fill #FFFFFF
+    - INSTANCE "01 Images / Placeholder Alt.", 431x703px, constraints left/center, fill Background, stroke Border / Subtle 9.15px
+      - BOOLEAN_OPERATION "Exclude", 173.48x155.42px, constraints left/top, stroke Border / Subtle 9.15px
+    - FRAME "Frame 5", 642.53x191.02px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #3", 276.53x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 276.53x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 276.53x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+    - INSTANCE "Single Info #4", 481.28x300.22px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/center
+      - RECTANGLE "Rectangle 1", 481.28x50.66px, constraints left/top, fill #AAAAAA
+      - FRAME "Frame 3", 360.26x134.9px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 3", 360.26x34.3px, constraints left/top, fill #EEEEEE
+        - RECTANGLE "Rectangle 6", 360.26x34.3px, constraints left/top, fill #EEEEEE
+        - RECTANGLE "Rectangle 7", 274.39x34.3px, constraints left/top, fill #EEEEEE
+      - RECTANGLE "Rectangle 5", 141.06x50.66px, constraints left/top, radius 200px, fill Primary
+  - FRAME "Section Layout #6", 1280x846px, constraints left/top, fill #FFFFFF
+    - INSTANCE "01 Images / Placeholder Alt.", 431x703px, constraints left/center, fill Background, stroke Border / Subtle 9.15px
+      - BOOLEAN_OPERATION "Exclude", 173.48x155.42px, constraints left/top, stroke Border / Subtle 9.15px
+    - FRAME "Frame 5", 302x487.04px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+    - FRAME "Frame 6", 302x487.04px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+  - FRAME "Section Layout #7", 1280x846px, constraints left/top, fill #FFFFFF
+    - INSTANCE "01 Images / Placeholder Alt.", 431x703px, constraints left/center, fill Background, stroke Border / Subtle 9.15px
+      - BOOLEAN_OPERATION "Exclude", 173.48x155.42px, constraints left/top, stroke Border / Subtle 9.15px
+    - FRAME "Frame 5", 623x367.35px, vertical pad 0 0 0 0px gap 169.44px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Single Info #3", 623x367.35px, vertical pad 0 0 0 0px gap 25.82px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 623x44.11px, vertical pad 0 0 0 0px gap 20.78px align center/min sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 623x44.11px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 623x297.42px, vertical pad 0 0 0 0px gap 25.82px sizing W:fill H:fixed, constraints left/top [decorative, ~6 shapes]
+    - FRAME "Frame 19", 666x44.22px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT "Frame 14", 206x44.22px, vertical pad 15.52 20.69 15.52 20.69px gap 6.47px sizing W:fixed H:fixed, constraints left/top, radius 64.67px, fill #074EE833, stroke Primary 1.94px
+        - FRAME "Frame 1", 160x13.18px, vertical pad 0 0 0 0px gap 6.21px align center/min sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 160x13.18px, constraints left/top, fill Primary
+      - INSTANCE "Frame 17", 206x44.22px, vertical pad 15.52 20.69 15.52 20.69px gap 6.47px sizing W:fixed H:fixed, constraints left/top, radius 64.67px, fill #074EE833, stroke #074EE880 1.94px
+        - FRAME "Frame 1", 160x13.18px, vertical pad 0 0 0 0px gap 6.21px align center/min sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 160x13.18px, constraints left/top, fill #AAAAAA
+      - INSTANCE "Frame 18", 206x44.22px, vertical pad 15.52 20.69 15.52 20.69px gap 6.47px sizing W:fixed H:fixed, constraints left/top, radius 64.67px, fill #074EE833, stroke #074EE880 1.94px
+        - FRAME "Frame 1", 160x13.18px, vertical pad 0 0 0 0px gap 6.21px align center/min sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 160x13.18px, constraints left/top, fill #AAAAAA
+  - FRAME "Section Layout #4", 1280x720px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 13", 564.89x585.38px, horizontal pad 0 0 0 0px gap 54px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11", 255.45x585.38px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Single Info #6", 255.45x268.69px, vertical pad 54.56 27.28 54.56 27.28px gap 6.18px sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+          - FRAME "Frame 10", 200.89x159.57px, vertical pad 0 0 0 0px gap 19.78px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "01 Images / Placeholder", 81.63x81.63px, constraints left/top, fill Background, stroke Border / Subtle 1.63px
+            - FRAME "Frame 9", 200.89x58.16px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Single Info #6", 255.45x268.69px, vertical pad 54.56 27.28 54.56 27.28px gap 6.18px sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+          - FRAME "Frame 10", 200.89x159.57px, vertical pad 0 0 0 0px gap 19.78px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "01 Images / Placeholder", 81.63x81.63px, constraints left/top, fill Background, stroke Border / Subtle 1.63px
+            - FRAME "Frame 9", 200.89x58.16px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - FRAME "Frame 12", 255.45x585.38px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Single Info #6", 255.45x268.69px, vertical pad 54.56 27.28 54.56 27.28px gap 6.18px sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+          - FRAME "Frame 10", 200.89x159.57px, vertical pad 0 0 0 0px gap 19.78px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "01 Images / Placeholder", 81.63x81.63px, constraints left/top, fill Background, stroke Border / Subtle 1.63px
+            - FRAME "Frame 9", 200.89x58.16px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Single Info #6", 255.45x268.69px, vertical pad 54.56 27.28 54.56 27.28px gap 6.18px sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+          - FRAME "Frame 10", 200.89x159.57px, vertical pad 0 0 0 0px gap 19.78px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "01 Images / Placeholder", 81.63x81.63px, constraints left/top, fill Background, stroke Border / Subtle 1.63px
+            - FRAME "Frame 9", 200.89x58.16px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+    - INSTANCE "Single Info #4", 481.28x300.22px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/center
+      - RECTANGLE "Rectangle 1", 481.28x50.66px, constraints left/top, fill #AAAAAA
+      - FRAME "Frame 3", 360.26x134.9px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 3", 360.26x34.3px, constraints left/top, fill #EEEEEE
+        - RECTANGLE "Rectangle 6", 360.26x34.3px, constraints left/top, fill #EEEEEE
+        - RECTANGLE "Rectangle 7", 274.39x34.3px, constraints left/top, fill #EEEEEE
+      - RECTANGLE "Rectangle 5", 141.06x50.66px, constraints left/top, radius 200px, fill Primary
+  - FRAME "Section Layout #2", 1280x720px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 5", 315.8x391.8px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+    - FRAME "Frame 6", 315.8x391.8px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+
+Screen: Three Columns Section / Section Layout [Three Columns]
+- SECTION "Section Layout [Three Columns]", 2865x2986px, fill #BC31EA33, stroke Accent 5px
+  - FRAME "Section Layout #1", 1280x720px, constraints left/top, fill #FFFFFF
+    - COMPONENT "Single Info #1", 325.01x309.59px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Frame 10", 325.01x309.59px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "01 Images / Placeholder Alt.", 132.23x132.23px, constraints left/top, fill Background, stroke Border / Subtle 2.64px
+          - BOOLEAN_OPERATION "Exclude", 50.16x44.94px, constraints left/top, stroke Border / Subtle 2.64px
+        - FRAME "Frame 9", 325.01x145.36px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+    - INSTANCE "Single Info #1", 325.01x309.59px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Frame 10", 325.01x309.59px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "01 Images / Placeholder Alt.", 132.23x132.23px, constraints left/top, fill Background, stroke Border / Subtle 2.64px
+          - BOOLEAN_OPERATION "Exclude", 50.16x44.94px, constraints left/top, stroke Border / Subtle 2.64px
+        - FRAME "Frame 9", 325.01x145.36px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+    - INSTANCE "Single Info #1", 325.01x309.59px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Frame 10", 325.01x309.59px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "01 Images / Placeholder Alt.", 132.23x132.23px, constraints left/top, fill Background, stroke Border / Subtle 2.64px
+          - BOOLEAN_OPERATION "Exclude", 50.16x44.94px, constraints left/top, stroke Border / Subtle 2.64px
+        - FRAME "Frame 9", 325.01x145.36px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+  - FRAME "Section Layout #2", 1280x720px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 5", 315.8x391.8px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - COMPONENT "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+    - FRAME "Frame 6", 315.8x391.8px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+    - FRAME "Frame 7", 315.8x391.8px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #2", 315.8x143.4px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+  - FRAME "Section Layout #3", 1280x720px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 5", 302x487.04px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - COMPONENT "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+    - FRAME "Frame 6", 302x487.04px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+    - FRAME "Frame 7", 302x487.04px, vertical pad 0 0 0 0px gap 105px sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info #3", 302x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 50.66x50.66px, constraints left/top, fill Background, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 1", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+            - VECTOR "Vector 2", 44.92x44.92px, constraints left_right/top_bottom, stroke Border / Subtle 1.01px
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+  - FRAME "Section Layout #4", 1280x1138px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 5", 294.55x667.95px, vertical pad 0 0 0 0px gap 200px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Single Info #1", 294.55x233.97px, vertical pad 0 0 0 0px gap 9.06px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10", 294.55x233.97px, vertical pad 0 0 0 0px gap 29px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 119.69x119.69px, constraints left/top, fill Background, stroke Border / Subtle 2.39px
+            - VECTOR "Vector 1", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+            - VECTOR "Vector 2", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+          - FRAME "Frame 9", 294.55x85.28px, vertical pad 0 0 0 0px gap 14.5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - FRAME "Single Info #1", 294.55x233.97px, vertical pad 0 0 0 0px gap 9.06px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10", 294.55x233.97px, vertical pad 0 0 0 0px gap 29px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 119.69x119.69px, constraints left/top, fill Background, stroke Border / Subtle 2.39px
+            - VECTOR "Vector 1", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+            - VECTOR "Vector 2", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+          - FRAME "Frame 9", 294.55x85.28px, vertical pad 0 0 0 0px gap 14.5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+    - FRAME "Frame 6", 294.55x667.95px, vertical pad 0 0 0 0px gap 200px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Single Info #1", 294.55x233.97px, vertical pad 0 0 0 0px gap 9.06px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10", 294.55x233.97px, vertical pad 0 0 0 0px gap 29px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 119.69x119.69px, constraints left/top, fill Background, stroke Border / Subtle 2.39px
+            - VECTOR "Vector 1", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+            - VECTOR "Vector 2", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+          - FRAME "Frame 9", 294.55x85.28px, vertical pad 0 0 0 0px gap 14.5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - FRAME "Single Info #1", 294.55x233.97px, vertical pad 0 0 0 0px gap 9.06px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10", 294.55x233.97px, vertical pad 0 0 0 0px gap 29px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 119.69x119.69px, constraints left/top, fill Background, stroke Border / Subtle 2.39px
+            - VECTOR "Vector 1", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+            - VECTOR "Vector 2", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+          - FRAME "Frame 9", 294.55x85.28px, vertical pad 0 0 0 0px gap 14.5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+    - FRAME "Single Info #1", 294.55x233.97px, vertical pad 0 0 0 0px gap 9.06px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Frame 10", 294.55x233.97px, vertical pad 0 0 0 0px gap 29px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "01 Images / Placeholder", 119.69x119.69px, constraints left/top, fill Background, stroke Border / Subtle 2.39px
+          - VECTOR "Vector 1", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+          - VECTOR "Vector 2", 105.64x105.64px, constraints left_right/top_bottom, stroke Border / Subtle 2.39px
+        - FRAME "Frame 9", 294.55x85.28px, vertical pad 0 0 0 0px gap 14.5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+    - INSTANCE "01 Images / Placeholder Alt.", 343.11x343.11px, constraints center/center, fill Background, stroke Border / Subtle 6.86px
+      - BOOLEAN_OPERATION "Exclude", 130.16x116.61px, constraints left/top, stroke Border / Subtle 6.86px
+  - FRAME "Section Layout #5", 1280x846px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 14", 493x664px, constraints left/top, radius 10px, fill #F1F1F1, stroke Text / Subtle 3px
+      - INSTANCE "Single Info #3", 276.53x191.02px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 302x90.87px, vertical pad 0 0 0 0px gap 12.88px align center/min sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 302x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - INSTANCE "01 Images / Placeholder Alt.", 290.42x473.71px, constraints left/center, fill Background, stroke Border / Subtle 6.16px
+        - BOOLEAN_OPERATION "Exclude", 116.9x104.73px, constraints left/top, stroke Border / Subtle 6.16px
+    - FRAME "Frame 17", 338x664px, constraints left/top, radius 10px, fill #F1F1F1, stroke Text / Subtle 3px
+      - INSTANCE "Single Info #3", 244.04x168.57px, vertical pad 0 0 0 0px gap 14.12px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 266.51x80.19px, vertical pad 0 0 0 0px gap 11.36px align center/min sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 266.51x24.12px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 244.04x74.26px, vertical pad 0 0 0 0px gap 14.12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 244.04x15.34px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 244.04x15.34px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 200.82x15.34px, constraints left/top, fill #EEEEEE
+      - INSTANCE "01 Images / Placeholder Alt.", 257.93x420.71px, constraints left/center, fill Background, stroke Border / Subtle 5.47px
+        - BOOLEAN_OPERATION "Exclude", 103.82x93.01px, constraints left/top, stroke Border / Subtle 5.47px
+    - FRAME "Frame 18", 338x664px, constraints left/top, radius 10px, fill #F1F1F1, stroke Text / Subtle 3px
+      - INSTANCE "Single Info #3", 244.04x168.57px, vertical pad 0 0 0 0px gap 14.12px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 266.51x80.19px, vertical pad 0 0 0 0px gap 11.36px align center/min sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 266.51x24.12px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 244.04x74.26px, vertical pad 0 0 0 0px gap 14.12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 244.04x15.34px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 244.04x15.34px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 200.82x15.34px, constraints left/top, fill #EEEEEE
+      - INSTANCE "01 Images / Placeholder Alt.", 257.93x420.71px, constraints left/center, fill Background, stroke Border / Subtle 5.47px
+        - BOOLEAN_OPERATION "Exclude", 103.82x93.01px, constraints left/top, stroke Border / Subtle 5.47px
+
+Screen: Four Columns Section / Section Layout [Four Columns]
+- SECTION "Section Layout [Four Columns]", 1359x800px, fill #BC31EA33, stroke Accent 5px
+  - FRAME "Section Layout #1", 1280x720px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 11", 907.67x280.47px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT "Single Info Box", 291.89x280.47px, vertical pad 24.01 24.01 24.01 24.01px gap 72.03px sizing W:fixed H:fixed, constraints left/top, radius 7.5px, stroke Text / Subtle 2.25px
+        - INSTANCE "01 Images / Placeholder", 89.81x89.81px, constraints left/top, fill Background, stroke Border / Subtle 1.8px
+          - VECTOR "Vector 1", 79.22x79.22px, constraints left_right/top_bottom, stroke Border / Subtle 1.8px
+          - VECTOR "Vector 2", 79.22x79.22px, constraints left_right/top_bottom, stroke Border / Subtle 1.8px
+        - FRAME "Frame 9", 243.87x70.61px, vertical pad 0 0 0 0px gap 12.01px align center/min sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 6", 243.87x20.51px, constraints left/top, fill #AAAAAA
+          - FRAME "Frame 8", 207.49x38.09px, vertical pad 0 0 0 0px gap 12.01px align center/min sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 7", 207.49x13.04px, constraints left/top, fill #EEEEEE
+            - RECTANGLE "Rectangle 8", 152.13x13.04px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info Box", 291.89x280.47px, vertical pad 24.01 24.01 24.01 24.01px gap 72.03px sizing W:fixed H:fixed, constraints left/top, radius 7.5px, stroke Text / Subtle 2.25px
+        - INSTANCE "01 Images / Placeholder", 89.81x89.81px, constraints left/top, fill Background, stroke Border / Subtle 1.8px
+          - VECTOR "Vector 1", 79.22x79.22px, constraints left_right/top_bottom, stroke Border / Subtle 1.8px
+          - VECTOR "Vector 2", 79.22x79.22px, constraints left_right/top_bottom, stroke Border / Subtle 1.8px
+        - FRAME "Frame 9", 243.87x70.61px, vertical pad 0 0 0 0px gap 12.01px align center/min sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 6", 243.87x20.51px, constraints left/top, fill #AAAAAA
+          - FRAME "Frame 8", 207.49x38.09px, vertical pad 0 0 0 0px gap 12.01px align center/min sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 7", 207.49x13.04px, constraints left/top, fill #EEEEEE
+            - RECTANGLE "Rectangle 8", 152.13x13.04px, constraints left/top, fill #EEEEEE
+      - INSTANCE "Single Info Box", 291.89x280.47px, vertical pad 24.01 24.01 24.01 24.01px gap 72.03px sizing W:fixed H:fixed, constraints left/top, radius 7.5px, stroke Text / Subtle 2.25px
+        - INSTANCE "01 Images / Placeholder", 89.81x89.81px, constraints left/top, fill Background, stroke Border / Subtle 1.8px
+          - VECTOR "Vector 1", 79.22x79.22px, constraints left_right/top_bottom, stroke Border / Subtle 1.8px
+          - VECTOR "Vector 2", 79.22x79.22px, constraints left_right/top_bottom, stroke Border / Subtle 1.8px
+        - FRAME "Frame 9", 243.87x70.61px, vertical pad 0 0 0 0px gap 12.01px align center/min sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 6", 243.87x20.51px, constraints left/top, fill #AAAAAA
+          - FRAME "Frame 8", 207.49x38.09px, vertical pad 0 0 0 0px gap 12.01px align center/min sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 7", 207.49x13.04px, constraints left/top, fill #EEEEEE
+            - RECTANGLE "Rectangle 8", 152.13x13.04px, constraints left/top, fill #EEEEEE
+    - FRAME "Single Info #1", 277x145.36px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/center [decorative, ~4 shapes]
+
+Screen: Testimonial Section / Section Layout [Testimonial]
+- SECTION "Section Layout [Testimonial]", 1974x1868px, fill #BC31EA33, stroke Accent 5px
+  - FRAME "Section Layout #1", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 7", 706x340.14px, horizontal pad 0 0 0 0px gap 47px align min/center sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "01 Images / Placeholder Alt.", 253x336px, constraints left/top, fill Background, stroke Border / Subtle 6.2px
+        - BOOLEAN_OPERATION "Exclude", 117.54x105.31px, constraints left/top, stroke Border / Subtle 6.2px
+      - FRAME "Frame 6", 406x340.14px, vertical pad 0 0 0 0px gap 129px sizing W:fixed H:fixed, constraints left/top [decorative, ~9 shapes]
+  - FRAME "Section Layout #3", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - FRAME "Single Info #6", 266.92x326.84px, vertical pad 32 48 32 48px gap 6.18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+      - FRAME "Frame 10", 170.92x262.84px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "01 Images / Avatar", 80x80px, constraints left/top
+          - ELLIPSE "Ellipse 10", 80x80px, constraints scale/scale, fill Background, stroke Border / Subtle 2px
+          - BOOLEAN_OPERATION "Intersect", 60x63.33px, constraints left/top, fill Background, stroke Border / Subtle 2px
+        - FRAME "Frame 9", 170.92x72.65px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 11", 109.95x30.19px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 7", 80x11.1px, constraints left/top, fill #AAAAAA
+          - RECTANGLE "Rectangle 8", 109.95x11.1px, constraints left/top, fill #EEEEEE
+    - FRAME "Single Info #6", 266.92x326.84px, vertical pad 32 48 32 48px gap 6.18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+      - FRAME "Frame 10", 170.92x262.84px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "01 Images / Avatar", 80x80px, constraints left/top
+          - ELLIPSE "Ellipse 10", 80x80px, constraints scale/scale, fill Background, stroke Border / Subtle 2px
+          - BOOLEAN_OPERATION "Intersect", 60x63.33px, constraints left/top, fill Background, stroke Border / Subtle 2px
+        - FRAME "Frame 9", 170.92x72.65px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 11", 109.95x30.19px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 7", 80x11.1px, constraints left/top, fill #AAAAAA
+          - RECTANGLE "Rectangle 8", 109.95x11.1px, constraints left/top, fill #EEEEEE
+    - FRAME "Frame 12", 117x48px, horizontal pad 0 0 0 0px gap 21px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icon Button", 48x48px, constraints left/top, radius 24px, fill Primary
+        - INSTANCE "arrow-left", 24x24px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+          - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+      - INSTANCE "Icon Button", 48x48px, constraints left/top, radius 24px, fill Primary
+        - INSTANCE "arrow-right", 24x24px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+          - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+    - FRAME "Single Info #4", 192x283.1px, vertical pad 0 0 0 0px gap 21.68px sizing W:fixed H:fixed, constraints left/center [decorative, ~7 shapes]
+  - FRAME "Section Layout #4", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - COMPONENT "Single Info #6", 266.92x314.65px, vertical pad 32 48 32 48px gap 6.18px align center/center sizing W:fixed H:fixed, constraints left/center, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+      - FRAME "Frame 10", 170.92x250.65px, vertical pad 0 0 0 0px gap 40px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Format quote", 58x58px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 58x58px, constraints scale/scale
+          - VECTOR "Vector", 33.83x24.17px, constraints scale/scale, fill #808080
+        - FRAME "Frame 9", 170.92x72.65px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 13", 170.92x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Avatar", 40x40px, constraints left/top
+            - ELLIPSE "Ellipse 10", 40x40px, constraints scale/scale, fill Background, stroke Border / Subtle 1px
+            - BOOLEAN_OPERATION "Intersect", 30x31.67px, constraints left/top, fill Background, stroke Border / Subtle 1px
+          - FRAME "Frame 11", 109.95x30.19px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 7", 80x11.1px, constraints left/top, radius 20px, fill #AAAAAA
+            - RECTANGLE "Rectangle 8", 109.95x11.1px, constraints left/top, radius 20px, fill #EEEEEE
+    - INSTANCE "Single Info #6", 266.92x314.65px, vertical pad 32 48 32 48px gap 6.18px align center/center sizing W:fixed H:fixed, constraints left/center, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+      - FRAME "Frame 10", 170.92x250.65px, vertical pad 0 0 0 0px gap 40px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Format quote", 58x58px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 58x58px, constraints scale/scale
+          - VECTOR "Vector", 33.83x24.17px, constraints scale/scale, fill #808080
+        - FRAME "Frame 9", 170.92x72.65px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 13", 170.92x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "01 Images / Avatar", 40x40px, constraints left/top
+            - ELLIPSE "Ellipse 10", 40x40px, constraints scale/scale, fill Background, stroke Border / Subtle 1px
+            - BOOLEAN_OPERATION "Intersect", 30x31.67px, constraints left/top, fill Background, stroke Border / Subtle 1px
+          - FRAME "Frame 11", 109.95x30.19px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 7", 80x11.1px, constraints left/top, radius 20px, fill #AAAAAA
+            - RECTANGLE "Rectangle 8", 109.95x11.1px, constraints left/top, radius 20px, fill #EEEEEE
+    - INSTANCE "Icon Button", 48x48px, constraints left/center, radius 24px, fill Primary
+      - INSTANCE "arrow-left", 24x24px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+        - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+    - INSTANCE "Icon Button", 48x48px, constraints left/center, radius 24px, fill Primary
+      - INSTANCE "arrow-right", 24x24px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+        - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+  - FRAME "Section Layout #4", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 14", 652.93x272.84px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints center/center
+      - INSTANCE "Single Info #6", 169x172.75px, vertical pad 30.39 30.39 30.39 30.39px gap 3.91px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4.32px, fill #FFFFFF, stroke Text / Subtle 1.3px, opacity 50%
+        - FRAME "Frame 10", 108.22x111.97px, vertical pad 0 0 0 0px gap 5.07px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~10 shapes]
+        - INSTANCE "01 Images / Avatar", 50.65x50.65px, constraints center/top
+          - ELLIPSE "Ellipse 10", 50.65x50.65px, constraints scale/scale, fill Background, stroke Border / Subtle 1.27px
+          - BOOLEAN_OPERATION "Intersect", 37.99x40.1px, constraints left/top, fill Background, stroke Border / Subtle 1.27px
+      - COMPONENT "Single Info #6", 266.92x272.84px, vertical pad 48 48 48 48px gap 6.18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+        - FRAME "Frame 10", 170.92x176.84px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~10 shapes]
+        - INSTANCE "01 Images / Avatar", 80x80px, constraints center/top
+          - ELLIPSE "Ellipse 10", 80x80px, constraints scale/scale, fill Background, stroke Border / Subtle 2px
+          - BOOLEAN_OPERATION "Intersect", 60x63.33px, constraints left/top, fill Background, stroke Border / Subtle 2px
+      - INSTANCE "Single Info #6", 169x172.75px, vertical pad 30.39 30.39 30.39 30.39px gap 3.91px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4.32px, fill #FFFFFF, stroke Text / Subtle 1.3px, opacity 50%
+        - FRAME "Frame 10", 108.22x111.97px, vertical pad 0 0 0 0px gap 5.07px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~10 shapes]
+        - INSTANCE "01 Images / Avatar", 50.65x50.65px, constraints center/top
+          - ELLIPSE "Ellipse 10", 50.65x50.65px, constraints scale/scale, fill Background, stroke Border / Subtle 1.27px
+          - BOOLEAN_OPERATION "Intersect", 37.99x40.1px, constraints left/top, fill Background, stroke Border / Subtle 1.27px
+    - INSTANCE "Icon Button", 48x48px, constraints left/center, radius 24px, fill Primary
+      - INSTANCE "arrow-left", 24x24px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+        - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+    - INSTANCE "Icon Button", 48x48px, constraints left/center, radius 24px, fill Primary
+      - INSTANCE "arrow-right", 24x24px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+        - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+  - FRAME "Section Layout #5", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 12", 117x48px, horizontal pad 0 0 0 0px gap 21px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icon Button", 48x48px, constraints left/top, radius 24px, fill Primary
+        - INSTANCE "arrow-left", 24x24px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+          - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+      - INSTANCE "Icon Button", 48x48px, constraints left/top, radius 24px, fill Primary
+        - INSTANCE "arrow-right", 24x24px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+          - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+    - FRAME "Frame 16", 962x217.4px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT "Single Info #6", 310x217.4px, vertical pad 32 24 32 24px gap 6.18px align center/min sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+        - FRAME "Frame 15", 92.85x18.57px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 10", 262x128.65px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 9", 262x72.65px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fill H:fixed, constraints left/top [decorative, ~6 shapes]
+          - FRAME "Frame 13", 262x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "01 Images / Avatar", 40x40px, constraints left/top
+            - FRAME "Frame 11", 109.95x30.19px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Single Info #6", 310x217.4px, vertical pad 32 24 32 24px gap 6.18px align center/min sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+        - FRAME "Frame 15", 92.85x18.57px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 10", 262x128.65px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 9", 262x72.65px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fill H:fixed, constraints left/top [decorative, ~6 shapes]
+          - FRAME "Frame 13", 262x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "01 Images / Avatar", 40x40px, constraints left/top
+            - FRAME "Frame 11", 109.95x30.19px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Single Info #6", 310x217.4px, vertical pad 32 24 32 24px gap 6.18px align center/min sizing W:fixed H:fixed, constraints left/top, radius 6.82px, fill #FFFFFF, stroke Text / Subtle 2.05px
+        - FRAME "Frame 15", 92.85x18.57px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 18.57x18.57px, constraints left/top, radius 9.28px
+            - INSTANCE "star", 10.45x10.45px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 10", 262x128.65px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 9", 262x72.65px, vertical pad 0 0 0 0px gap 9.89px align center/center sizing W:fill H:fixed, constraints left/top [decorative, ~6 shapes]
+          - FRAME "Frame 13", 262x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "01 Images / Avatar", 40x40px, constraints left/top
+            - FRAME "Frame 11", 109.95x30.19px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4", 237.74x70.58px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 1", 237.74x21.14px, constraints left/top, radius 20px, fill #AAAAAA
+      - RECTANGLE "Rectangle 2", 201.24x16.72px, constraints left/top, radius 20px, fill #EEEEEE
+      - RECTANGLE "Rectangle 4", 158.83x16.72px, constraints left/top, radius 20px, fill #EEEEEE
+  - FRAME "Section Layout #2", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - REGULAR_POLYGON "Polygon 2", 36.61x36.61px, constraints center/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 3px
+    - FRAME "Frame 7", 454x209.4px, horizontal pad 24 24 24 24px gap 47px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5px, fill #FFFFFF, stroke Text / Subtle 3px [decorative, ~7 shapes]
+    - INSTANCE "Icon Button", 48x48px, constraints left/center, radius 24px, fill Primary
+      - INSTANCE "arrow-left", 24x24px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+        - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+    - INSTANCE "Icon Button", 48x48px, constraints left/center, radius 24px, fill Primary
+      - INSTANCE "arrow-right", 24x24px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+        - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+    - FRAME "Frame 8", 208x48px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints center/top
+      - INSTANCE "01 Images / Avatar", 30x30px, constraints left/top
+        - ELLIPSE "Ellipse 10", 30x30px, constraints scale/scale, fill Background, stroke Border / Subtle 1.4px
+        - BOOLEAN_OPERATION "Intersect", 22.5x23.75px, constraints left/top, fill Background, stroke Border / Subtle 1.4px
+      - INSTANCE "01 Images / Avatar", 30x30px, constraints left/top
+        - ELLIPSE "Ellipse 10", 30x30px, constraints scale/scale, fill Background, stroke Border / Subtle 1.4px
+        - BOOLEAN_OPERATION "Intersect", 22.5x23.75px, constraints left/top, fill Background, stroke Border / Subtle 1.4px
+      - INSTANCE "01 Images / Avatar", 48x48px, constraints left/top
+        - ELLIPSE "Ellipse 10", 48x48px, constraints scale/scale, fill Background, stroke Border / Subtle 2px
+        - BOOLEAN_OPERATION "Intersect", 36x38px, constraints left/top, fill Background, stroke Border / Subtle 2px
+      - INSTANCE "01 Images / Avatar", 30x30px, constraints left/top
+        - ELLIPSE "Ellipse 10", 30x30px, constraints scale/scale, fill Background, stroke Border / Subtle 1.4px
+        - BOOLEAN_OPERATION "Intersect", 22.5x23.75px, constraints left/top, fill Background, stroke Border / Subtle 1.4px
+      - INSTANCE "01 Images / Avatar", 30x30px, constraints left/top
+        - ELLIPSE "Ellipse 10", 30x30px, constraints scale/scale, fill Background, stroke Border / Subtle 1.4px
+        - BOOLEAN_OPERATION "Intersect", 22.5x23.75px, constraints left/top, fill Background, stroke Border / Subtle 1.4px
+
+Screen: Pricing Section / Section Layout [Pricing]
+- SECTION "Section Layout [Pricing]", 1980x767px, fill #BC31EA33, stroke Accent 5px
+  - FRAME "Section Layout #1", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 17", 797.07x269.19px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints center/top
+      - COMPONENT "Pricing table", 255.02x269.19px, vertical pad 26.33 19.74 26.33 19.74px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1.68px
+        - RECTANGLE "Rectangle 1", 131.95x17.39px, constraints left/top, radius 16.45px, fill #AAAAAA
+        - FRAME "Frame 10", 215.54x127.67px, vertical pad 0 0 0 0px gap 13.16px align center/min sizing W:fill H:fixed, constraints left/top [decorative, ~10 shapes]
+        - FRAME "Frame 16", 215.54x39.49px, vertical pad 0 8.23 0 8.23px gap 8.23px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Button", 199.08x39.49px, horizontal pad 0 13.16 0 13.16px gap 6.58px align center/center sizing W:fixed H:fixed, constraints left/top, radius 82.27px, fill Primary
+            - TEXT "Large", 0x15px, constraints left/top, fill Surface, text [Chalkboard Chalkboard, 13.16px]
+      - INSTANCE "Pricing table", 255.02x269.19px, vertical pad 26.33 19.74 26.33 19.74px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #F1F1F1, stroke Text / Subtle 1.68px
+        - RECTANGLE "Rectangle 1", 131.95x17.39px, constraints left/top, radius 16.45px, fill #AAAAAA
+        - FRAME "Frame 10", 215.54x127.67px, vertical pad 0 0 0 0px gap 13.16px align center/min sizing W:fill H:fixed, constraints left/top [decorative, ~10 shapes]
+        - FRAME "Frame 16", 215.54x39.49px, vertical pad 0 8.23 0 8.23px gap 8.23px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Button", 199.08x39.49px, horizontal pad 0 13.16 0 13.16px gap 6.58px align center/center sizing W:fixed H:fixed, constraints left/top, radius 82.27px, fill Primary
+            - TEXT "Large", 0x15px, constraints left/top, fill Surface, text [Chalkboard Chalkboard, 13.16px]
+      - INSTANCE "Pricing table", 255.02x269.19px, vertical pad 26.33 19.74 26.33 19.74px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1.68px
+        - RECTANGLE "Rectangle 1", 131.95x17.39px, constraints left/top, radius 16.45px, fill #AAAAAA
+        - FRAME "Frame 10", 215.54x127.67px, vertical pad 0 0 0 0px gap 13.16px align center/min sizing W:fill H:fixed, constraints left/top [decorative, ~10 shapes]
+        - FRAME "Frame 16", 215.54x39.49px, vertical pad 0 8.23 0 8.23px gap 8.23px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Button", 199.08x39.49px, horizontal pad 0 13.16 0 13.16px gap 6.58px align center/center sizing W:fixed H:fixed, constraints left/top, radius 82.27px, fill Primary
+            - TEXT "Large", 0x15px, constraints left/top, fill Surface, text [Chalkboard Chalkboard, 13.16px]
+    - FRAME "Frame 4", 237.74x70.58px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top
+      - RECTANGLE "Rectangle 1", 237.74x21.14px, constraints left/top, radius 20px, fill #AAAAAA
+      - RECTANGLE "Rectangle 2", 201.24x16.72px, constraints left/top, radius 20px, fill #EEEEEE
+      - RECTANGLE "Rectangle 4", 158.83x16.72px, constraints left/top, radius 20px, fill #EEEEEE
+  - FRAME "Section Layout #2", 867.27x487.84px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 4", 277x183.74px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints center/center
+      - RECTANGLE "Rectangle 1", 277x21.14px, constraints left/top, radius 20px, fill #AAAAAA
+      - RECTANGLE "Rectangle 2", 235.47x16.72px, constraints left/top, radius 20px, fill #EEEEEE
+      - RECTANGLE "Rectangle 5", 235.47x16.72px, constraints left/top, radius 20px, fill #EEEEEE
+      - RECTANGLE "Rectangle 6", 235.47x16.72px, constraints left/top, radius 20px, fill #EEEEEE
+      - RECTANGLE "Rectangle 7", 235.47x16.72px, constraints left/top, radius 20px, fill #EEEEEE
+      - RECTANGLE "Rectangle 4", 158.83x16.72px, constraints left/top, radius 20px, fill #EEEEEE
+      - INSTANCE "Button", 98x31px, horizontal pad 0 13.16 0 13.16px gap 6.58px align center/center sizing W:fixed H:fixed, constraints left/top, radius 82.27px, fill Primary
+        - TEXT "Large", 0x15px, constraints left/top, fill Surface, text [Chalkboard Chalkboard, 13.16px]
+    - FRAME "Frame 18", 299x403.57px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/center
+      - COMPONENT "Pricing table Collapsed", 299x64.7px, horizontal pad 16 16 16 16px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1.68px
+        - RECTANGLE "Rectangle 1", 131.95x17.39px, constraints left/top, radius 16.45px, fill #AAAAAA
+        - INSTANCE "Icon Button", 32.7x32.7px, constraints left/top, radius 16.35px, fill Primary
+          - INSTANCE "plus", 16.35x16.35px, constraints center/center, fill #FFFFFF
+            - VECTOR "Vector", 0x9.54px, constraints scale/scale, stroke Surface 1.36px
+            - VECTOR "Vector", 9.54x0px, constraints scale/scale, stroke Surface 1.36px
+      - INSTANCE "Pricing table Collapsed", 299x64.7px, horizontal pad 16 16 16 16px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1.68px
+        - RECTANGLE "Rectangle 1", 131.95x17.39px, constraints left/top, radius 16.45px, fill #AAAAAA
+        - INSTANCE "Icon Button", 32.7x32.7px, constraints left/top, radius 16.35px, fill Primary
+          - INSTANCE "plus", 16.35x16.35px, constraints center/center, fill #FFFFFF
+            - VECTOR "Vector", 0x9.54px, constraints scale/scale, stroke Surface 1.36px
+            - VECTOR "Vector", 9.54x0px, constraints scale/scale, stroke Surface 1.36px
+      - FRAME "Pricing table", 299x185.48px, vertical pad 24 16 24 16px gap 16px align center/max sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #F1F1F1, stroke Text / Subtle 1.68px
+        - FRAME "Frame 19", 266.64x32.7px, horizontal pad 0 0 0 0px gap 102px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 131.95x17.39px, constraints left/top, radius 16.45px, fill #AAAAAA
+          - INSTANCE "Icon Button", 32.7x32.7px, constraints left/top, radius 16.35px, fill Primary
+            - INSTANCE "x", 16.35x16.35px, constraints center/center, fill #FFFFFF
+        - FRAME "Frame 9", 267x42.79px, vertical pad 0 0 0 0px gap 8.14px align center/center sizing W:fill H:fixed, constraints left/top [decorative, ~5 shapes]
+        - INSTANCE "Button", 267x30px, horizontal pad 0 13.16 0 13.16px gap 6.58px align center/center sizing W:fill H:fixed, constraints left/top, radius 82.27px, fill Primary
+          - TEXT "Large", 0x15px, constraints left/top, fill Surface, text [Chalkboard Chalkboard, 13.16px]
+      - INSTANCE "Pricing table Collapsed", 299x64.7px, horizontal pad 16 16 16 16px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1.68px
+        - RECTANGLE "Rectangle 1", 131.95x17.39px, constraints left/top, radius 16.45px, fill #AAAAAA
+        - INSTANCE "Icon Button", 32.7x32.7px, constraints left/top, radius 16.35px, fill Primary
+          - INSTANCE "plus", 16.35x16.35px, constraints center/center, fill #FFFFFF
+            - VECTOR "Vector", 0x9.54px, constraints scale/scale, stroke Surface 1.36px
+            - VECTOR "Vector", 9.54x0px, constraints scale/scale, stroke Surface 1.36px
+
+Screen: Slider Section / Section Layout [Slider]
+- SECTION "Section Layout [Slider]", 2837x880px, fill #BC31EA33, stroke Accent 5px
+  - FRAME "Section Layout #1", 1280x720px, constraints left/top, fill #FFFFFF
+    - FRAME "Single Info #2", 507x276.21px, vertical pad 0 0 0 0px gap 25.15px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - FRAME "Frame 3", 831.59x223.4px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Single Info #2", 395.8x223.4px, vertical pad 40 40 40 40px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1px
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - FRAME "Single Info #2", 395.8x223.4px, vertical pad 40 40 40 40px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1px
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+  - FRAME "Section Layout #1", 1280x720px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 3", 1267.39x223.4px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Single Info #2", 395.8x223.4px, vertical pad 40 40 40 40px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1px
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - FRAME "Single Info #2", 395.8x223.4px, vertical pad 40 40 40 40px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1px
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+      - FRAME "Single Info #2", 395.8x223.4px, vertical pad 40 40 40 40px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke Text / Subtle 1px
+        - FRAME "Frame 1", 315.8x43.25px, horizontal pad 0 0 0 0px gap 12.88px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "01 Images / Placeholder", 43.25x43.25px, constraints left/top, fill Background, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 1", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+            - VECTOR "Vector 2", 37.81x37.81px, constraints left_right/top_bottom, stroke Border / Subtle 0.86px
+          - RECTANGLE "Rectangle 1", 259.67x27.33px, constraints left/top, fill #AAAAAA
+        - FRAME "Frame 2", 276.53x84.15px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 3", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 6", 276.53x17.38px, constraints left/top, fill #EEEEEE
+          - RECTANGLE "Rectangle 7", 227.56x17.38px, constraints left/top, fill #EEEEEE
+    - RECTANGLE "Rectangle 2", 535x43px, constraints center/top, fill #AAAAAA
+    - INSTANCE "Icon Button", 48x48px, constraints left/center, radius 24px, fill Primary
+      - INSTANCE "arrow-left", 24x24px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 14x0px, constraints scale/scale, stroke Surface 2px
+        - VECTOR "Vector", 7x14px, constraints scale/scale, stroke Surface 2px
+    - INSTANCE "Indicators", 86x10px, constraints center/scale
+      - GROUP "indicators", 86x10px, constraints left/top, fill #FFFFFF [decorative, ~10 shapes]
+
+Screen: Header Section / Section Layout [Header]
+- SECTION "Section Layout [Header]", 1345x1025px, fill #BC31EA33, stroke Accent 5px
+  - FRAME "Section Layout #1", 1280x183px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 18", 1203.78x40.99px, horizontal pad 0 0 0 0px gap 310px align min/center sizing W:fixed H:fixed, constraints center/top
+      - INSTANCE "01 Images / Placeholder Alt.", 40.99x40.99px, constraints left/top, fill Background, stroke Border / Subtle 0.82px
+        - BOOLEAN_OPERATION "Exclude", 15.55x13.93px, constraints left/top, stroke Border / Subtle 0.82px
+      - FRAME "Frame 17", 425.79x17.39px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Button", 117x27px, horizontal pad 0 8.99 0 8.99px gap 4.49px align center/center sizing W:fixed H:fixed, constraints left/top, radius 56.17px, fill Primary
+        - TEXT "Large", 0x11px, constraints left/top, fill Surface, text [Chalkboard Chalkboard, 8.99px]
+  - FRAME "Section Layout #4", 1280x183px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 18", 1203.78x40.99px, horizontal pad 0 0 0 0px gap 310px align space_between/center sizing W:fixed H:fixed, constraints center/top
+      - INSTANCE "01 Images / Placeholder Alt.", 40.99x40.99px, constraints left/top, fill Background, stroke Border / Subtle 0.82px
+        - BOOLEAN_OPERATION "Exclude", 15.55x13.93px, constraints left/top, stroke Border / Subtle 0.82px
+      - FRAME "Frame 22", 566.79x27px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 17", 425.79x17.39px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 117x27px, horizontal pad 0 8.99 0 8.99px gap 4.49px align center/center sizing W:fixed H:fixed, constraints left/top, radius 56.17px, fill Primary
+          - TEXT "Large", 0x11px, constraints left/top, fill Surface, text [Chalkboard Chalkboard, 8.99px]
+  - FRAME "Section Layout #3", 1280x183px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 18", 1204x40.99px, horizontal pad 0 0 0 0px gap 310px align space_between/center sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Frame 20", 490.78x40.99px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "01 Images / Placeholder Alt.", 40.99x40.99px, constraints left/top, fill Background, stroke Border / Subtle 0.82px
+          - BOOLEAN_OPERATION "Exclude", 15.55x13.93px, constraints left/top, stroke Border / Subtle 0.82px
+        - FRAME "Frame 17", 425.79x17.39px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - FRAME "Frame 21", 258x27px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 117x27px, horizontal pad 0 8.99 0 8.99px gap 4.49px align center/center sizing W:fixed H:fixed, constraints left/top, radius 56.17px, fill Surface, stroke Primary 1.12px
+          - TEXT "Large", 0x11px, constraints left/top, fill Primary, text [Chalkboard Chalkboard, 8.99px]
+        - INSTANCE "Button", 117x27px, horizontal pad 0 8.99 0 8.99px gap 4.49px align center/center sizing W:fixed H:fixed, constraints left/top, radius 56.17px, fill Primary
+          - TEXT "Large", 0x11px, constraints left/top, fill Surface, text [Chalkboard Chalkboard, 8.99px]
+  - FRAME "Section Layout #2", 1280x183px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 19", 1204x41px, horizontal pad 0 0 0 0px gap 1069px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "01 Images / Placeholder Alt.", 103x41px, constraints left/top, fill Background, stroke Border / Subtle 0.82px
+        - BOOLEAN_OPERATION "Exclude", 15.55x13.93px, constraints left/top, stroke Border / Subtle 0.82px
+      - INSTANCE "Icon Button", 40x40px, constraints left/top, radius 20px, fill Surface, stroke Primary 2px
+        - INSTANCE "menu", 24x24px, constraints center/center, fill #FFFFFF
+          - VECTOR "Vector", 18x0px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 18x0px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 18x0px, constraints scale/scale, stroke Primary 2px
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

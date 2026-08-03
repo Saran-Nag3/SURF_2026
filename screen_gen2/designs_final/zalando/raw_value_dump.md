@@ -1,0 +1,498 @@
+---
+name: zalando-web-header-ui-kit-community
+source_file: Zalando Web Header UI Kit (Community)
+source_page: All pages (2): Cover, Header Layout
+generated_at: 2026-07-25T09:42:57.767770+00:00
+---
+
+# Zalando Web Header UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Zalando Web Header UI Kit (Community)
+- Figma page: All pages (2): Cover, Header Layout
+- Extracted at: 2026-07-25T09:42:57.767770+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 229 uses
+- #1A1A1A: 119 uses
+- #6328E0: 26 uses
+- #D0D1D3: 14 uses
+- #EFEFF0: 8 uses
+- #467AAD: 7 uses
+- #C96240: 7 uses
+- #CA6F2A: 7 uses
+- #F2CA3C: 7 uses
+- #00000033: 6 uses
+- #B1548E: 6 uses
+- #9747FF: 3 uses
+- #FF6900: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Helvetica Bold, 13px: 39 uses
+- Helvetica Bold, 15px: 39 uses
+- Helvetica Bold, 27px: 13 uses
+- Times New Roman TimesNewRomanPSMT, 28px: 13 uses
+- Helvetica Helvetica, 14px: 7 uses
+
+## Typography Hierarchy
+- 28px - Times New Roman TimesNewRomanPSMT, 28px (raw)
+- 27px - Helvetica Bold, 27px (raw)
+- 15px - Helvetica Bold, 15px (raw)
+- 14px - Helvetica Helvetica, 14px (raw)
+- 13px - Helvetica Bold, 13px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Icons
+- Icon Combo
+- Main
+- Header
+
+## Component Specs
+- Icons: size 41.28x39.94px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF | variants: Name: Arrow/Check/Circular Economy/Coins/Double Swirl/Eye/Eye Lashes/Factory/Freight/Heart/Leaf/Mix/Shield/Shopping/Smile/Sparkle/Swirl/Wallet
+- Icon Combo: size 179.24x40px, horizontal layout, padding 0 0 0 0px, gap 6px, sizing W:fixed H:fixed, fill #FFFFFF | variants: Combo: Assortment/Brands/Delivery/Payment/Style Profile/Sustainability; Num: 3x/4x
+- Main: size 1920x536.23px, text [Helvetica Bold, 13px, Times New Roman TimesNewRomanPSMT, 28px, Helvetica Bold, 27px, Helvetica Bold, 15px] | variants: Combo: Brands/Fashion/Free delivery/Own/Pay/Transparency; Color: Blue/Orange/Purple/Red/White/Yellow; Dark Mode: False/True
+- Header: size 1920x96px, fill #FFFFFF, text [Inter Regular, 16px, Helvetica Helvetica, 14px, Inter Bold, 15px, Inter Bold, 14px]
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1600x960px, constraints left/top, fill #1A1A1A
+  - VECTOR "Vector", 1154.54x1203.85px, constraints scale/scale, fill #FF6900
+  - GROUP "Zalando Logo", 774.27x156px, constraints center/center
+    - VECTOR "Vector", 591.3x130.17px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 149.61x156px, constraints scale/scale, fill #FF6900
+  - INSTANCE "Icon Combo", 643.59x124px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints right/top, fill #FFFFFF
+    - INSTANCE "Icons", 183.86x124px, vertical pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Freight", 183.86x124px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 135.13x124px, vertical pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Heart", 135.13x124px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 129.09x123.33px, vertical pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Arrow", 129.09x123.33px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 123.52x123.52px, horizontal pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Smile", 123.52x123.52px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Icon Combo", 555.64x124px, horizontal pad 0 0 0 0px gap 18.6px sizing W:fixed H:fixed, constraints right/top, fill #FFFFFF
+    - INSTANCE "Icons", 125.92x123.81px, vertical pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Wallet", 125.92x123.81px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 127.98x123.82px, vertical pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Coins", 127.98x123.82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 122.15x124px, horizontal pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Swirl", 122.15x124px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 123.79x123.79px, vertical pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Check", 123.79x123.79px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Icons", 123.86x123.86px, horizontal pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 123.86x123.86px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Icons", 128.59x123.75px, vertical pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Mix", 128.59x123.75px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Icons", 101.32x123.94px, horizontal pad 0 0 0 0px gap 24.8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Shopping", 101.32x123.94px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 1216x536px, constraints left/top, radius 24px
+    - INSTANCE "Main", 1920x536.23px, constraints center/top
+      - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+        - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+      - FRAME "List", 1920x536.23px, constraints left/top
+        - FRAME "Item", 1920x536.23px, constraints left/top, fill #F2CA3C
+          - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+            - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+            - FRAME "div._47XpSr", 490.66x119.99px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+        - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+      - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+        - FRAME "Img", 24x24px, constraints center/center
+          - FRAME "Frame", 24x24px, constraints center/top
+            - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+
+Screen: Header Layout / Header
+- COMPONENT "Header", 1920x96px, constraints left/top, fill #FFFFFF
+  - FRAME "div.z-navicat-header_wrapper", 1200x100px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "div.z-navicat-header_topRow", 1200x60px, constraints left/top
+      - FRAME "Nav ⏵ List", 183.69x37px, constraints left/top
+        - TEXT "Item ⏵ Link ⏵ Women", 56x24px, constraints left/top, fill #1A1A1A, text [Inter Bold, 15px]
+        - TEXT "Item ⏵ Link ⏵ Men", 30x24px, constraints left/top, fill #1A1A1A, text [Inter Bold, 14px]
+        - TEXT "Item ⏵ Link ⏵ Kids", 33x24px, constraints left/top, fill #1A1A1A, text [Inter Bold, 15px]
+      - FRAME "Link ⏵ logo_default.svg", 120x24.23px, constraints left_right/center
+        - FRAME "logo_default.svg", 119.94x24.23px, constraints center/center
+          - GROUP "Group", 119.21x24.02px, constraints scale/scale
+            - VECTOR "Vector", 91.04x20.04px, constraints scale/scale, fill #1D1D1B
+            - VECTOR "Vector", 23.03x24.02px, constraints scale/scale, fill #FF6900
+      - FRAME "div.z-navicat-header_navTools", 128x54px, horizontal pad 12 12 22 12px gap 22px sizing W:fixed H:fixed, constraints right/center
+        - FRAME "Link ⏵ Img", 20x20px, constraints left/center
+          - FRAME "Frame", 20x20px, constraints center/top
+            - VECTOR "Vector", 16.25x20px, constraints scale/scale, fill #1A1A1A
+        - FRAME "Link ⏵ Img", 20x20px, constraints left/top
+          - FRAME "Frame", 20x20px, constraints center/top
+            - VECTOR "Vector", 19.85x18.15px, constraints scale/scale, fill #1A1A1A
+        - FRAME "Link ⏵ Img", 20x20px, constraints left/top
+          - FRAME "Frame", 20x20px, constraints center/top
+            - VECTOR "Vector", 17.16x20.02px, constraints scale/scale, fill #1A1A1A
+    - FRAME "div.z-navicat-header_bottomRow", 1200x40px, horizontal pad 0 0 0 0px gap 404.14px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Nav - Choose an area of the site to explore ⏵ List", 507.86x40px, constraints left/top
+        - TEXT "Clothing ⏵ Link ⏵ Clothing", 52x20px, constraints left/top, fill #1A1A1A, text [Helvetica Helvetica, 14px]
+        - TEXT "Shoes ⏵ Link ⏵ Shoes", 40x20px, constraints left/top, fill #1A1A1A, text [Helvetica Helvetica, 14px]
+        - TEXT "Accessories ⏵ Link ⏵ Accessories", 76x20px, constraints left/top, fill #1A1A1A, text [Helvetica Helvetica, 14px]
+        - TEXT "Sports ⏵ Link ⏵ Sports", 41x20px, constraints left/top, fill #1A1A1A, text [Helvetica Helvetica, 14px]
+        - TEXT "Designer ⏵ Link ⏵ Designer", 57x20px, constraints left/top, fill #1A1A1A, text [Helvetica Helvetica, 14px]
+        - TEXT "Brands ⏵ Link ⏵ Brands", 45x20px, constraints left/top, fill #1A1A1A, text [Helvetica Helvetica, 14px]
+        - TEXT "Sale  ⏵ Link ⏵ Sale", 29x20px, constraints left/top, fill #1A1A1A, text [Helvetica Helvetica, 14px]
+      - FRAME "Search", 288x36px, constraints left/top, fill #EFEFF0
+        - FRAME "Img", 18x18px, constraints left/bottom
+          - FRAME "Frame", 18x18px, constraints center/top
+            - VECTOR "Vector", 17.44x17.44px, constraints scale/scale, fill #1A1A1A
+        - FRAME "Input - Search", 238x24px, constraints left/top
+          - TEXT "Search", 56.59x24px, constraints left/top, fill #66676E, text [Inter Regular, 16px]
+  - FRAME "div.z-navicat-header_categoryOverlayContainer", 1920x1px, constraints left_right/bottom, fill #FFFFFF, stroke #D0D1D3 1px
+
+Screen: Header Layout / Main
+- COMPONENT_SET "Main", 3912x3529.38px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Combo=Fashion, Color=Yellow, Dark Mode=False", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #F2CA3C
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #1A1A1A, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 490.66x119.99px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 189.97x39.99px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 474.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Free delivery, Color=Red, Dark Mode=False", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #C96240
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #1A1A1A, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 524.66x120px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 196.38x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 508.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Brands, Color=Purple, Dark Mode=False", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #B1548E
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #FFFFFF, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 554.66x119.94px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 178.19x39.94px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 538.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Own, Color=Blue, Dark Mode=False", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #467AAD
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #FFFFFF, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 484.66x119.98px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 179.65x39.98px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 468.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Transparency, Color=White, Dark Mode=False", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #EFEFF0
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #1A1A1A, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 628.66x119.09px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 177.44x39.09px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 612.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Pay, Color=Orange, Dark Mode=False", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #CA6F2A
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #1A1A1A, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 362.66x120px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 179.24x40px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 346.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Fashion, Color=Yellow, Dark Mode=True", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #1A1A1A
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #FFFFFF, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 490.66x119.99px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 189.97x39.99px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 474.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Free delivery, Color=Red, Dark Mode=True", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #1A1A1A
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #FFFFFF, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 524.66x120px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 196.38x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 508.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Brands, Color=Purple, Dark Mode=True", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #1A1A1A
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #FFFFFF, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 554.66x119.94px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 178.19x39.94px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 538.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Own, Color=Blue, Dark Mode=True", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #1A1A1A
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #FFFFFF, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 484.66x119.98px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 179.65x39.98px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 468.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Transparency, Color=White, Dark Mode=True", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #1A1A1A
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #FFFFFF, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 628.66x119.09px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 177.44x39.09px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 612.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+  - COMPONENT "Combo=Pay, Color=Orange, Dark Mode=True", 1920x536.23px, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/bottom, fill #FFFFFF
+      - TEXT "Skip forwards over a carousel of items", 250.84x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "List", 1920x536.23px, constraints left/top
+      - FRAME "Item", 1920x536.23px, constraints left/top, fill #1A1A1A
+        - FRAME "div.I7OI1O", 1216x536.23px, constraints center/top
+          - FRAME "div.mo6ZnF", 474.66x80px, constraints left_right/bottom
+            - TEXT "Where would you like to start?", 199.03x21px, constraints left/top, fill #FFFFFF, text [Helvetica Bold, 13px]
+            - FRAME "div.L5YdXz", 490.66x48px, constraints left/top
+          - FRAME "div._5qdMrS", 709.33x500.23px, constraints left/top [decorative, ~8 shapes]
+          - FRAME "div._47XpSr", 362.66x120px, vertical pad 0 0 0 16px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Combo", 179.24x40px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Heading 2", 346.66x64px, vertical pad 0 75.66 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Link", 16x16px, constraints left/top, fill #FFFFFF
+      - TEXT "Skip backwards over a carousel of items", 264.18x21px, constraints left/top, fill #6328E0, text [Helvetica Bold, 13px]
+    - FRAME "Button", 42x42px, horizontal pad 9 9 9 9px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #D0D1D3 1px, opacity 90%
+      - FRAME "Img", 24x24px, constraints center/center
+        - FRAME "Frame", 24x24px, constraints center/top
+          - VECTOR "Vector", 23.56x19.46px, constraints scale/scale, fill #1A1A1A
+
+Screen: Header Layout / Icon Combo
+- COMPONENT_SET "Icon Combo", 228.38x471px, vertical pad 16 16 16 16px gap 40px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Combo=Payment, Num=4x", 179.24x40px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 40.62x39.94px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Wallet", 40.62x39.94px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 41.28x39.94px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Coins", 41.28x39.94px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 39.4x40px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Swirl", 39.4x40px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 39.93x39.93px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Check", 39.93x39.93px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Combo=Sustainability, Num=4x", 177.44x39.09px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 36.86x39.07px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Leaf", 36.86x39.07px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 37.29x39.09px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Circular Economy", 37.29x39.09px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 34.35x39.07px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Shield", 34.35x39.07px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 38.92x39.07px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Factory", 38.92x39.07px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Combo=Style Profile, Num=4x", 179.65x39.98px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 41.48x39.92px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Mix", 41.48x39.92px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 41.64x39.78px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Arrow", 41.64x39.78px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 32.68x39.98px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Shopping", 32.68x39.98px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 39.84x39.84px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Smile", 39.84x39.84px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Combo=Brands, Num=3x", 178.19x39.94px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 63.83x39.42px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Eye", 63.83x39.42px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 57.07x39.46px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Double Swirl", 57.07x39.46px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 41.28x39.94px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Coins", 41.28x39.94px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Combo=Delivery, Num=4x", 196.38x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 59.31x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Freight", 59.31x40px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 43.59x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Heart", 43.59x40px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 41.64x39.78px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Arrow", 41.64x39.78px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 39.84x39.84px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Smile", 39.84x39.84px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Combo=Assortment, Num=3x", 189.97x39.99px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 39.95x39.96px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 39.95x39.96px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 101.33x39.99px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 101.33x39.99px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 32.68x39.98px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - VECTOR "Shopping", 32.68x39.98px, constraints left/top, fill #FFFFFF
+
+Screen: Header Layout / Icons
+- COMPONENT_SET "Icons", 1133.41x72px, horizontal pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Name=Coins", 41.28x39.94px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Coins", 41.28x39.94px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Swirl", 39.4x40px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Swirl", 39.4x40px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Check", 39.93x39.93px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Check", 39.93x39.93px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Wallet", 40.62x39.94px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Wallet", 40.62x39.94px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Circular Economy", 37.29x39.09px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Circular Economy", 37.29x39.09px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Leaf", 36.86x39.07px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Leaf", 36.86x39.07px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Shield", 34.35x39.07px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Shield", 34.35x39.07px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Factory", 38.92x39.07px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Factory", 38.92x39.07px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Smile", 39.84x39.84px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Smile", 39.84x39.84px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Arrow", 41.64x39.78px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Arrow", 41.64x39.78px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Mix", 41.48x39.92px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Mix", 41.48x39.92px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Shopping", 32.68x39.98px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Shopping", 32.68x39.98px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Double Swirl", 57.07x39.46px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Double Swirl", 57.07x39.46px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Eye", 63.83x39.42px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Eye", 63.83x39.42px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Freight", 59.31x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Freight", 59.31x40px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Heart", 43.59x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Heart", 43.59x40px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Sparkle", 39.95x39.96px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 39.95x39.96px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Name=Eye Lashes", 101.33x39.99px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 101.33x39.99px, constraints left/top, fill #FFFFFF
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

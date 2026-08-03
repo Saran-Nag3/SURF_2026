@@ -1,0 +1,252 @@
+---
+name: concept-beer-app-community
+source_file: Concept Beer APP (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:51:04.421907+00:00
+---
+
+# Concept Beer APP (Community) Design Guidelines
+
+## Source
+- Figma file: Concept Beer APP (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:51:04.421907+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 127 uses
+- #472B29: 60 uses
+- #000000: 30 uses
+- #FDFCEF: 12 uses
+- #FEFDEF: 12 uses
+- #2BBFFF: 9 uses
+- #2ABFFF: 8 uses
+- #FFE000: 7 uses
+- #C7EDE6: 6 uses
+- #2BBFFF47: 4 uses
+- #76D7FA: 4 uses
+- #C4C4C4: 4 uses
+- #216282: 3 uses
+- #B40313: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- MS UI Gothic UIGothic, 24px: 11 uses
+- Montserrat Alternates ExtraLight, 24px: 6 uses
+- Kokoro Regular, 16px: 5 uses
+- MS UI Gothic UIGothic, 12px: 4 uses
+- MS UI Gothic UIGothic, 14px: 4 uses
+- Kulim Park SemiBold, 36px: 3 uses
+
+## Typography Hierarchy
+- 36px - Kulim Park SemiBold, 36px (raw)
+- 24px - MS UI Gothic UIGothic, 24px (raw)
+- 24px - Montserrat Alternates ExtraLight, 24px (raw)
+- 16px - Kokoro Regular, 16px (raw)
+- 14px - MS UI Gothic UIGothic, 14px (raw)
+- 12px - MS UI Gothic UIGothic, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / iPhone 13 Pro Max - 1
+- FRAME "iPhone 13 Pro Max - 1", 428x926px, constraints left/top, radius 17px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 428x926px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 1", 239x239px, constraints left/top, fill #2BBFFF
+  - ELLIPSE "Ellipse 2", 475x523px, constraints left/top, fill #2BBFFF
+  - VECTOR "Arrow 1", 61.01x0px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / iPhone 13 Pro Max - 3
+- FRAME "iPhone 13 Pro Max - 3", 428x926px, constraints left/top, radius 17px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 428x926px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 1", 164.4x133px, constraints left/top [decorative, ~32 shapes]
+  - VECTOR "Beer Cloud", 186.56x27.2px, constraints left/top, fill #2ABFFF
+  - TEXT "BEER CAFE", 144x19px, constraints left/top, fill #000000, text [Kokoro Regular, 16px]
+  - RECTANGLE "Rectangle 2", 428x339px, constraints left/top, radius 30/30/17/17px, fill #2ABFFF
+  - TEXT "Welcome", 152x0px, constraints left/top, fill #000000, text [Kulim Park SemiBold, 36px], [heading]
+  - TEXT "Text", 1176x0px, constraints left/top, fill #000000, text [Montserrat Alternates ExtraLight, 24px], [heading]
+  - ELLIPSE "Ellipse 1", 239x239px, constraints left/top, fill #2BBFFF
+  - ELLIPSE "Ellipse 2", 238x239px, constraints left/top, fill #2BBFFF
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut a", 342x100px, constraints left/top, fill #000000, text [Montserrat Alternates ExtraLight, 24px], [heading]
+  - RECTANGLE "Rectangle 3", 128x45px, constraints left/top, radius 23px, fill #000000
+  - RECTANGLE "Rectangle 4", 128x45px, constraints left/top, radius 23px, fill #FFFFFF
+  - TEXT "Sign in", 67x24px, constraints left/top, fill #FFFFFF, text [MS UI Gothic UIGothic, 24px], [heading]
+  - TEXT "Sign up", 74x24px, constraints left/top, fill #000000, text [MS UI Gothic UIGothic, 24px], [heading]
+
+Screen: Page 1 / iPhone 13 Pro Max - 4
+- FRAME "iPhone 13 Pro Max - 4", 428x926px, constraints left/top, radius 17px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 2", 428x339px, constraints left/top, radius 17/0/17/17px, fill #2ABFFF
+  - TEXT "Welcome", 152x0px, constraints left/top, fill #000000, text [Kulim Park SemiBold, 36px], [heading]
+  - TEXT "Text", 1176x0px, constraints left/top, fill #000000, text [Montserrat Alternates ExtraLight, 24px], [heading]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut a", 380x110px, constraints left/top, fill #000000, text [Montserrat Alternates ExtraLight, 24px], [heading]
+  - RECTANGLE "Rectangle 5", 428x721px, constraints left/top, radius 43/43/0/0px, fill #FFFFFF
+  - RECTANGLE "Rectangle 3", 310x45px, constraints left/top, radius 23px, fill #000000
+  - TEXT "Sign in", 67x24px, constraints left/top, fill #FFFFFF, text [MS UI Gothic UIGothic, 24px], [heading]
+  - TEXT "Sing in", 61x0px, constraints left/top, fill #000000, text [Kulim Park Bold, 20px]
+  - TEXT "Register", 54x0px, constraints left/top, fill #000000, text [Kulim Park SemiBold, 15px]
+  - VECTOR "Arrow 1", 14.01x0px, constraints left/top, stroke #000000 1px
+  - TEXT "Text", 194x44px, constraints left/top, fill #FFFFFF, text [Kulim Park SemiBoldItalic, 20px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut a", 330x38px, constraints left/top, fill #000000, text [Montserrat Alternates ExtraLight, 14px]
+  - RECTANGLE "Rectangle 6", 304x52px, constraints left/top, radius 49px, fill #FFFFFF, stroke #2BBFFF47 1px, effect [inner_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 9", 304x52px, constraints left/top, radius 49px, fill #FFFFFF, stroke #2BBFFF47 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 10", 304x52px, constraints left/top, radius 49px, fill #FFFFFF, stroke #2BBFFF47 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 7", 304x52px, constraints left/top, radius 49px, fill #FFFFFF, stroke #2BBFFF47 1px, effect [inner_shadow 4px offset 0 4 #00000040]
+  - TEXT "Username", 59x14px, constraints left/top, fill #A3A3A380, text [MS UI Gothic UIGothic, 14px]
+  - TEXT "Passsword", 63x14px, constraints left/top, fill #A3A3A380, text [MS UI Gothic UIGothic, 14px]
+  - TEXT "Forgot Password ?", 94x12px, constraints left/top, fill #000000BF, text [MS UI Gothic UIGothic, 12px]
+  - RECTANGLE "Rectangle 8", 19x19px, constraints left/top, fill #FFFFFF, stroke #00000073 1px
+  - TEXT "Remember me ?", 81x12px, constraints left/top, fill #000000BF, text [MS UI Gothic UIGothic, 12px]
+  - TEXT "Continue with Google", 108x12px, constraints left/top, fill #000000, text [MS UI Gothic UIGothic, 12px]
+  - TEXT "Continue with Facebook", 121x12px, constraints left/top, fill #000000, text [MS UI Gothic UIGothic, 12px]
+  - FRAME "icons8_facebook_1 1", 48x48px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 36x36px, constraints scale/scale, fill #3F51B5
+    - VECTOR "Vector", 12x25px, constraints scale/scale, fill #FFFFFF
+  - ... +4 more children
+
+Screen: Page 1 / iPhone 13 Pro Max - 2
+- FRAME "iPhone 13 Pro Max - 2", 428x926px, constraints left/top, radius 17px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 428x926px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 1", 239x239px, constraints left/top, fill #2ABFFF
+  - ELLIPSE "Ellipse 2", 405x446px, constraints left/top, fill #2BBFFF
+  - FRAME "Frame 2", 186.56x239.2px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 1", 164.4x133px, constraints left/top [decorative, ~32 shapes]
+    - VECTOR "Beer Cloud", 186.56x27.2px, constraints left/top, fill #FDB904
+    - TEXT "BEER CAFE", 144x19px, constraints left/top, fill #000000, text [Kokoro Regular, 16px]
+  - VECTOR "Arrow 1", 61.01x0px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Frame 1
+- FRAME "Frame 1", 186.56x239.2px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+  - GROUP "Group 1", 164.4x133px, constraints left/top [decorative, ~32 shapes]
+  - VECTOR "Beer Cloud", 186.56x27.2px, constraints left/top, fill #2ABFFF
+  - TEXT "BEER CAFE", 144x19px, constraints left/top, fill #000000, text [Kokoro Regular, 16px]
+
+Screen: Page 1 / iPhone 13 - Blue
+- FRAME "iPhone 13 - Blue", 2030x1354px, constraints left/top
+  - FRAME "Background", 2030x1354px, constraints scale/scale
+    - RECTANGLE "[Change this color]", 2030x1354px, constraints scale/scale, fill #216282
+    - RECTANGLE "Background Overlay", 2030x1354px, constraints scale/scale, fill gradient_radial(#787878 0% | #000000 100%)
+  - FRAME "[Mockup] iPhone 13", 415x852px, constraints scale/scale, radius 44px, fill #FFFFFF
+    - INSTANCE "[Template] iPhone 13", 415x852px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "[Base] iPhone 13", 415x852px, constraints scale/scale
+        - GROUP "Shadows", 886.05x1353.81px, constraints scale/scale
+          - RECTANGLE "Image", 748.78x1218.61px, constraints scale/scale, fill image(hash: 6f17649d42f21bd43b310596ed8ad15e5a969393), opacity 60%
+          - RECTANGLE "Image", 886.05x1353.81px, constraints scale/scale, fill image(hash: f3dbf9e54ad1d2dffcb0baf33f9920ca483a3511)
+          - RECTANGLE "Image", 636.68x1113.29px, constraints scale/scale, fill image(hash: 6f17649d42f21bd43b310596ed8ad15e5a969393), opacity 50%
+        - GROUP "Phone", 421x852px, constraints left/top
+          - VECTOR "[Change this color]", 421x852px, constraints scale/scale, fill #216282
+        - GROUP "Effects", 421x852px, constraints scale/scale [decorative, ~19 shapes]
+    - GROUP "Screen", 375x812px, constraints left/top
+      - VECTOR "Screen Mask", 375x812px, constraints scale/scale, fill #C4C4C4
+      - GROUP "Screen Content", 375x812px, constraints left/top
+        - FRAME "[Place screen here]", 375x812px, constraints scale/scale, fill gradient_linear(#FFFFFF 0% | #B5ADA8 100%)
+          - FRAME "iPhone 13 Pro Max - 2", 428x926px, constraints left/top, radius 17px, fill #FFFFFF
+            - RECTANGLE "Rectangle 1", 428x926px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 1", 239x239px, constraints left/top, fill #2ABFFF
+            - ELLIPSE "Ellipse 2", 405x446px, constraints left/top, fill #2BBFFF
+            - FRAME "Frame 2", 186.56x239.2px, vertical pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Arrow 1", 61x1px, constraints left/top, stroke #000000 3px
+  - FRAME "[Mockup] iPhone 13", 415x852px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "[Template] iPhone 13", 415x852px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "[Base] iPhone 13", 415x852px, constraints scale/scale
+        - GROUP "Shadows", 886.05x1353.81px, constraints scale/scale
+          - RECTANGLE "Image", 748.78x1218.61px, constraints scale/scale, fill image(hash: 6f17649d42f21bd43b310596ed8ad15e5a969393), opacity 60%
+          - RECTANGLE "Image", 886.05x1353.81px, constraints scale/scale, fill image(hash: f3dbf9e54ad1d2dffcb0baf33f9920ca483a3511)
+          - RECTANGLE "Image", 636.68x1113.29px, constraints scale/scale, fill image(hash: 6f17649d42f21bd43b310596ed8ad15e5a969393), opacity 50%
+        - GROUP "Phone", 421x852px, constraints left/top
+          - VECTOR "[Change this color]", 421x852px, constraints scale/scale, fill #216282
+        - GROUP "Effects", 421x852px, constraints scale/scale [decorative, ~19 shapes]
+    - GROUP "Text", 186x76.5px, constraints scale/scale
+      - TEXT "Blue", 42x18px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Medium, 15px]
+      - FRAME "[Auto Layout] Text", 186x55px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "iPhone 13", 186x55px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 45px], [heading]
+
+Screen: Page 1 / iPhone 13 - Red
+- FRAME "iPhone 13 - Red", 2030x1354px, constraints left/top
+  - FRAME "Background", 2030x1354px, constraints scale/scale
+    - RECTANGLE "[Change this color]", 2030x1354px, constraints scale/scale, fill #B40313
+    - RECTANGLE "Background Overlay", 2030x1354px, constraints scale/scale, fill gradient_radial(#787878 0% | #000000 100%)
+  - FRAME "[Mockup] iPhone 13", 415x852px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "[Template] iPhone 13", 415x852px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "[Base] iPhone 13", 415x852px, constraints scale/scale
+        - GROUP "Shadows", 886.05x1353.81px, constraints scale/scale
+          - RECTANGLE "Image", 748.78x1218.61px, constraints scale/scale, fill image(hash: 6f17649d42f21bd43b310596ed8ad15e5a969393), opacity 60%
+          - RECTANGLE "Image", 886.05x1353.81px, constraints scale/scale, fill image(hash: f3dbf9e54ad1d2dffcb0baf33f9920ca483a3511)
+          - RECTANGLE "Image", 636.68x1113.29px, constraints scale/scale, fill image(hash: 6f17649d42f21bd43b310596ed8ad15e5a969393), opacity 50%
+        - GROUP "Phone", 421x852px, constraints left/top
+          - VECTOR "[Change this color]", 421x852px, constraints scale/scale, fill #B40313
+        - GROUP "Effects", 421x852px, constraints scale/scale [decorative, ~19 shapes]
+    - GROUP "Screen", 375x812px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Screen Mask", 375x812px, constraints scale/scale, fill #C4C4C4
+      - GROUP "Screen Content", 428x923px, constraints left/top, radius 17px
+        - FRAME "iPhone 13 Pro Max - 3", 428x923px, constraints scale/scale, radius 17px, fill #FFFFFF
+          - RECTANGLE "Rectangle 1", 428x926px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 1", 164.4x132.57px, constraints left/top [decorative, ~32 shapes]
+          - VECTOR "Beer Cloud", 186.56x27.2px, constraints left/top, fill #2ABFFF
+          - TEXT "BEER CAFE", 144x19px, constraints left/top, fill #000000, text [Kokoro Regular, 16px]
+          - RECTANGLE "Rectangle 2", 375x299px, constraints left/top, radius 30/30/17/17px, fill #2ABFFF
+          - TEXT "Welcome", 152x0px, constraints left/top, fill #000000, text [Kulim Park SemiBold, 36px], [heading]
+          - TEXT "Text", 1176x0px, constraints left/top, fill #000000, text [Montserrat Alternates ExtraLight, 24px], [heading]
+          - ELLIPSE "Ellipse 1", 239x239px, constraints left/top, fill #2BBFFF
+          - ELLIPSE "Ellipse 2", 238x239px, constraints left/top, fill #2BBFFF
+          - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut a", 342x100px, constraints left/top, fill #000000, text [Montserrat Alternates ExtraLight, 24px], [heading]
+          - RECTANGLE "Rectangle 3", 128x45px, constraints left/top, radius 23px, fill #000000
+          - RECTANGLE "Rectangle 4", 128x45px, constraints left/top, radius 23px, fill #FFFFFF
+          - TEXT "Sign in", 67x24px, constraints left/top, fill #FFFFFF, text [MS UI Gothic UIGothic, 24px], [heading]
+          - TEXT "Sign up", 74x24px, constraints left/top, fill #000000, text [MS UI Gothic UIGothic, 24px], [heading]
+  - FRAME "[Mockup] iPhone 13", 415x852px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "[Template] iPhone 13", 415x852px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "[Base] iPhone 13", 415x852px, constraints scale/scale
+        - GROUP "Shadows", 886.05x1353.81px, constraints scale/scale
+          - RECTANGLE "Image", 748.78x1218.61px, constraints scale/scale, fill image(hash: 6f17649d42f21bd43b310596ed8ad15e5a969393), opacity 60%
+          - RECTANGLE "Image", 886.05x1353.81px, constraints scale/scale, fill image(hash: f3dbf9e54ad1d2dffcb0baf33f9920ca483a3511)
+          - RECTANGLE "Image", 636.68x1113.29px, constraints scale/scale, fill image(hash: 6f17649d42f21bd43b310596ed8ad15e5a969393), opacity 50%
+        - GROUP "Phone", 421x852px, constraints left/top
+          - VECTOR "[Change this color]", 421x852px, constraints scale/scale, fill #B40313
+        - GROUP "Effects", 421x852px, constraints scale/scale [decorative, ~19 shapes]
+    - GROUP "Text", 186x76.5px, constraints scale/scale
+      - TEXT "Red", 33x18px, constraints scale/scale, fill #FFFFFF, text [SF Pro Text Medium, 15px]
+      - FRAME "[Auto Layout] Text", 186x55px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "iPhone 13", 186x55px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 45px], [heading]
+
+Screen: Page 1 / iPhone 13 Pro Max - 5
+- FRAME "iPhone 13 Pro Max - 5", 428x926px, constraints left/top, radius 17px, fill #1C1C2C
+  - GROUP "Group 1", 635.36x514px, constraints left/top [decorative, ~32 shapes]
+  - TEXT "Stay tuned", 220x32px, constraints left/top, fill #FFFFFF, text [Sequel100Black-55 55, 32px], [heading]
+  - VECTOR "Arrow 1", 14.01x0px, constraints left/top, stroke #FFFFFF 1px
+  - RECTANGLE "Rectangle 4", 128x45px, constraints left/top, radius 23px, fill #FFE000
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

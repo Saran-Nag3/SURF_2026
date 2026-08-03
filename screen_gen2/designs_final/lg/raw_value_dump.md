@@ -1,0 +1,214 @@
+---
+name: washing-machine-interface-lg-community
+source_file: Washing Machine Interface - LG (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:55:07.041170+00:00
+---
+
+# Washing Machine Interface - LG (Community) Design Guidelines
+
+## Source
+- Figma file: Washing Machine Interface - LG (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:55:07.041170+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #E5E5E5: 68 uses
+- #FFFFFF: 25 uses
+- #000000: 23 uses
+- #966363: 10 uses
+- #2D1E1E: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Open Sans SemiBold, 12px: 10 uses
+- Poppins Light, 10px: 10 uses
+- Open Sans SemiBold, 6px: 8 uses
+- Poppins Medium, 10px: 5 uses
+- Poppins Light, 12px: 3 uses
+
+## Typography Hierarchy
+- 12px - Open Sans SemiBold, 12px (raw)
+- 12px - Poppins Light, 12px (raw)
+- 10px - Poppins Light, 10px (raw)
+- 10px - Poppins Medium, 10px (raw)
+- 6px - Open Sans SemiBold, 6px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / Rectangle 21
+- RECTANGLE "Rectangle 21", 1256x465px, constraints left/top, fill #FFFFFF
+
+Screen: Page 1 / Washing Machine
+- FRAME "Washing Machine", 1012x292px, constraints left/top, radius 2/2/55/55px, fill #6411119C, stroke #000000 1px
+  - FRAME "Touch board", 534x171px, constraints center/center, radius 6px, fill #000000B2, stroke #000000 1px
+    - TEXT "TEMP", 64x25px, constraints left/top, fill #FFFFFF, text [Poppins Light, 14px]
+    - GROUP "Warm", 54x20px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 2", 54x20px, constraints left/top, radius 6px, fill #FFFFFF
+      - TEXT "WARM", 38x15px, constraints left/top, fill #000000, text [Poppins Light, 12px]
+    - GROUP "Hot", 54x20px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 3", 54x20px, constraints left/top, radius 6px, fill #FFFFFF
+      - TEXT "HOT", 38x15px, constraints left/top, fill #000000, text [Poppins Light, 12px]
+    - GROUP "Cold", 54x20px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 4", 54x20px, constraints left/top, radius 6px, fill #FFFFFF
+      - TEXT "COLD", 38x15px, constraints left/top, fill #000000, text [Poppins Light, 12px]
+    - TEXT "Water-Detergent", 83x17px, constraints left/top, fill #FFFFFF, text [Poppins Light, 9px]
+    - RECTANGLE "sensor board", 200x136px, constraints left/top, radius 2px, fill #2D1E1E, stroke #C4C4C4 1px
+    - GROUP "Water Detergent", 70x103px, constraints left/top, radius 3px
+      - RECTANGLE "Rectangle 6", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - RECTANGLE "Rectangle 7", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - RECTANGLE "Rectangle 8", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - RECTANGLE "Rectangle 9", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - RECTANGLE "Rectangle 10", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - RECTANGLE "Rectangle 11", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - RECTANGLE "Rectangle 12", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - RECTANGLE "Rectangle 13", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - RECTANGLE "Rectangle 14", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - RECTANGLE "Rectangle 15", 29x15px, constraints left/top, radius 3px, fill #E5E5E5
+      - GROUP "Numbers", 57x99px, constraints left/top, radius 0/0/0/0px
+        - TEXT "1", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+        - TEXT "5", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+        - TEXT "7", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+        - TEXT "9", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+        - TEXT "3", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+        - TEXT "2", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+        - TEXT "6", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+        - TEXT "8", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+        - TEXT "10", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+        - TEXT "4", 16x9px, constraints center/center, fill #000000, text [Poppins Light, 10px]
+    - TEXT "sensor", 79x19px, constraints left/top, fill #FFFFFF, text [Quantico Regular, 18px]
+    - FRAME "time left", 141x45px, constraints center/center, radius 3px, stroke #E5E5E5 1px
+      - RECTANGLE "Rectangle 20", 108x47px, constraints left/top, fill image(hash: 393ae6bc802c5c4bb8cd8062dc64c88633844ef6)
+    - GROUP "icons", 161x20px, constraints left/top, radius 3px
+      - FRAME "icons", 25x20px, constraints left/top, radius 3px, fill #E5E5E5, stroke #E5E5E5 1px
+        - RECTANGLE "image 1", 190x203px, constraints left/top, fill #E5E5E5
+        - RECTANGLE "Rectangle 18", 19x17px, constraints left/top, fill image(hash: f47640870f9f1e809070ba80c9607c169225e9b9)
+      - FRAME "icons", 25x20px, constraints left/top, radius 3px, fill #E5E5E5, stroke #E5E5E5 1px
+        - RECTANGLE "Rectangle 19", 21x18px, constraints left/top, fill image(hash: 30b5338e813993fb54d594603961f4ad9b916eb2)
+      - FRAME "icons", 25x20px, constraints left/top, radius 3px, fill #E5E5E5, stroke #E5E5E5 1px
+      - FRAME "icons", 25x20px, constraints left/top, radius 3px, fill #E5E5E5, stroke #E5E5E5 1px
+      - FRAME "icons", 25x20px, constraints left/top, radius 3px, fill #E5E5E5, stroke #E5E5E5 1px
+    - GROUP "Delay Start", 36x14px, constraints left/top
+      - ELLIPSE "delay start", 14x14px, constraints left/top, fill #2D1E1E, stroke #E5E5E5 1px
+      - TEXT "DELAY START", 23x12px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 5px]
+    - GROUP "Time Left", 35x14px, constraints left/top
+      - ELLIPSE "Time left", 14x14px, constraints left/top, fill #2D1E1E, stroke #E5E5E5 1px
+      - TEXT "TIME LEFT", 23x12px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 5px]
+    - GROUP "Right Side Buttons", 133x92px, constraints left/top, radius 3px
+      - GROUP "Right butons", 60x92px, constraints left/top, radius 3px
+        - GROUP "Fuzzy", 60x18px, constraints left/top, radius 3px
+          - RECTANGLE "Rectangle 16", 60x18px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "TUB CLEAN", 22x9px, constraints left/top, fill #000000, text [Open Sans SemiBold, 6px]
+        - GROUP "Fuzzy", 60x18px, constraints left/top, radius 3px
+          - RECTANGLE "Rectangle 16", 60x18px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "FAVORITE", 30x9px, constraints left/top, fill #000000, text [Open Sans SemiBold, 6px]
+        - GROUP "Fuzzy", 60x18px, constraints left/top, radius 3px
+          - RECTANGLE "Rectangle 16", 60x18px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "SILENT", 22x9px, constraints left/top, fill #000000, text [Open Sans SemiBold, 6px]
+        - GROUP "Fuzzy", 60x18px, constraints left/top, radius 3px
+          - RECTANGLE "Rectangle 16", 60x18px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "SMART CLEANING", 30x9px, constraints left/top, fill #000000, text [Open Sans SemiBold, 6px]
+      - GROUP "Left butons", 60x92px, constraints left/top, radius 3px
+        - GROUP "Fuzzy", 60x18px, constraints left/top, radius 3px
+          - RECTANGLE "Rectangle 16", 60x18px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "FUZZY", 22x9px, constraints center/center, fill #000000, text [Open Sans SemiBold, 6px]
+        - GROUP "Fuzzy", 60x18px, constraints left/top, radius 3px
+          - RECTANGLE "Rectangle 16", 60x18px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "WOOL", 22x9px, constraints left/top, fill #000000, text [Open Sans SemiBold, 6px]
+        - GROUP "Fuzzy", 60x18px, constraints left/top, radius 3px
+          - RECTANGLE "Rectangle 16", 60x18px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "QUICK WASH", 22x9px, constraints left/top, fill #000000, text [Open Sans SemiBold, 6px]
+        - GROUP "Fuzzy", 60x18px, constraints left/top, radius 3px
+          - RECTANGLE "Rectangle 16", 60x18px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "JEANS", 22x9px, constraints left/top, fill #000000, text [Open Sans SemiBold, 6px]
+    - GROUP "Arrows", 103x1px, constraints left/top [decorative, ~4 shapes]
+  - VECTOR "wash", 18x17px, constraints left/top, fill image(hash: 23371578ad2dbfe36b9762d554e8f0c2486a3771)
+  - ELLIPSE "rinse", 52x14.1px, constraints left/top, fill image(hash: 8249a86f29960aee06399d7b1d5c8db79d0fac18)
+  - GROUP "min", 65x106px, constraints left/top
+    - GROUP "min time", 8x76px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "min texts", 61x106px, constraints left/top, radius 0/0/0/0px
+      - TEXT "(min.)", 61x17px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 10px]
+      - TEXT "120", 61x17px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 10px]
+      - TEXT "90", 61x17px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 10px]
+      - TEXT "60", 61x17px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 10px]
+      - TEXT "TUB DRY", 61x17px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 10px]
+  - TEXT "TurboDrum", 130x37px, constraints left/top, fill #FFFFFF, text [Poppins Black, 20px]
+  - GROUP "Outer Buttons", 844x160px, constraints left/top
+    - GROUP "Air Dry", 58x71px, constraints left/top
+      - ELLIPSE "Ellipse 5", 57.18x53.66px, constraints left/top, fill #966363, stroke #E5E5E5 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "AIR DRY", 58x12.38px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+    - GROUP "Temp", 60.69x71px, constraints left/top
+      - ELLIPSE "Ellipse 5", 59.83x53.66px, constraints left/top, fill #966363, stroke #E5E5E5 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "TEMP", 60.69x12.38px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+    - GROUP "Wash", 60.69x71px, constraints left/top
+      - ELLIPSE "Ellipse 5", 59.83x53.66px, constraints left/top, fill #966363, stroke #E5E5E5 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "WASH", 60.69x12.38px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+    - GROUP "Water", 60.69x71px, constraints left/top
+      - ELLIPSE "Ellipse 5", 59.83x53.66px, constraints left/top, fill #966363, stroke #E5E5E5 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "WATER", 60.69x12.38px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+    - GROUP "Rinse", 60.69x71px, constraints left/top
+      - ELLIPSE "Ellipse 5", 59.83x53.66px, constraints left/top, fill #966363, stroke #E5E5E5 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "RINSE", 60.69x12.38px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+    - GROUP "Spin", 60.69x71px, constraints left/top
+      - ELLIPSE "Ellipse 5", 59.83x53.66px, constraints left/top, fill #966363, stroke #E5E5E5 2px, effect [drop_shadow 4px offset 0 4 #00000040, drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "SPIN", 60.69x12.38px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+    - GROUP "Delay", 60.69x71px, constraints left/top
+      - ELLIPSE "Ellipse 5", 59.83x53.66px, constraints left/top, fill #966363, stroke #E5E5E5 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "DELAY", 60.69x12.38px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+    - GROUP "Prog", 60.69x71px, constraints left/top
+      - ELLIPSE "Ellipse 5", 59.83x53.66px, constraints left/top, fill #966363, stroke #E5E5E5 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "PROGRAM", 60.69x12.38px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+    - GROUP "Start", 130x65px, constraints left/top
+      - ELLIPSE "Ellipse 5", 70x65px, constraints left/top, fill #966363, stroke #6A3D14 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "START PAUSE", 71x25px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+    - GROUP "Power", 122x56px, constraints left/top
+      - ELLIPSE "Ellipse 5", 59x56px, constraints left/top, fill #966363, stroke #660F0F 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - ELLIPSE "Ellipse 6", 34x32px, constraints center/center, fill image(hash: 5f79d065b3e1682bb9a639cfb2749771ca0202cf)
+      - TEXT "POWER AUTO OFF", 62.59x23.26px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 12px]
+  - RECTANGLE "Rectangle 17", 34.44x31px, constraints left/top, fill image(hash: ecfbaee7e62731db1adf5b5870fdca2941e9b822)
+  - ELLIPSE "Ellipse 7", 40x35px, constraints left/top, fill image(hash: 2741b841f9a93a5814cea8f28b61e74186073bdf)
+  - ELLIPSE "Ellipse 8", 34x33px, constraints left/top, fill image(hash: 601b1b2343df0071d5e216584a753a2245b541d9)
+  - ELLIPSE "Ellipse 9", 59x32px, constraints center/center, fill image(hash: d110a26d8c04c9e8c56711378f3268a9ab50f123)
+  - VECTOR "Ellipse 15", 27x17px, constraints center/center, fill image(hash: d110a26d8c04c9e8c56711378f3268a9ab50f123)
+  - ELLIPSE "Ellipse 10", 88x32px, constraints left/top, fill image(hash: 8249a86f29960aee06399d7b1d5c8db79d0fac18)
+  - ELLIPSE "Ellipse 11", 46x46px, constraints left/top, fill image(hash: 23371578ad2dbfe36b9762d554e8f0c2486a3771)
+  - ELLIPSE "Ellipse 12", 48x44px, constraints left/top, fill image(hash: 6e9ffd529814cb2a58e2159cc16cbf8da921c2b6)
+  - ELLIPSE "Ellipse 13", 44x42px, constraints left/top, fill image(hash: ee235d42ebe0b7faa33df8fd32d96d33eae22295)
+  - ELLIPSE "Ellipse 14", 50x46px, constraints left/top, fill image(hash: 468b97d7aa30f43cc7536d06a8d1c025a19f5ddf)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

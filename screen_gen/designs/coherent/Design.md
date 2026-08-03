@@ -1,0 +1,1570 @@
+---
+name: coherent-design-system-cds-community
+source_file: Coherent Design System (CDS) (Community)
+source_page: All pages (51): 📘 Getting Started , 📜 Component List, ----, 🪄Styles,       ↳ Visual Style,       ↳ Colors  ,       ↳ Elevation,       ↳ Fonts,       ↳ Overlay (Scrim),       ↳ Ripple , ----, ⛺️ Basic Components,       ↳ Badge,       ↳ Banner,       ↳ Button,       ↳ Checkbox,       ↳ Chips (Pills),       ↳ Dropdown Menu,       ↳ Divider,       ↳ Floating Action Button (FAB),       ↳ Icon Button,       ↳ Inputs (Form Controls),       ↳ Layout Blocks & Content Wrappers,       ↳ Media Content (Avatars, Thumbnails, Images),       ↳ Paginator,       ↳ Progress Indicator,       ↳ Radio Button,       ↳ Slider,       ↳ Snackbar,       ↳ Switch (Toggle),       ↳ Tabs,       ↳ Table,       ↳ Time Picker,       ↳ Toggle Button (Segmented Button),       ↳ Tooltip, ----, 🏠 Grouped Controls,       ↳ Bottom Navigation,       ↳ Breadcrumbs,       ↳ Card,       ↳ Chat (Messenger),       ↳ Chart Widget,       ↳ Dialog (Popup, Modal Window),       ↳ Header (Toolbar),       ↳ List, List Item, Tree,       ↳ Navigation Drawer & Rail,       ↳ Popover,       ↳ Stepper,       ↳ Video Player, ----, ⚙️ System Components
+generated_at: 2026-07-02T20:49:53.877249+00:00
+---
+
+# Coherent Design System (CDS) (Community) Design Guidelines
+
+## Source
+- Figma file: Coherent Design System (CDS) (Community)
+- Figma page: All pages (51): 📘 Getting Started , 📜 Component List, ----, 🪄Styles,       ↳ Visual Style,       ↳ Colors  ,       ↳ Elevation,       ↳ Fonts,       ↳ Overlay (Scrim),       ↳ Ripple , ----, ⛺️ Basic Components,       ↳ Badge,       ↳ Banner,       ↳ Button,       ↳ Checkbox,       ↳ Chips (Pills),       ↳ Dropdown Menu,       ↳ Divider,       ↳ Floating Action Button (FAB),       ↳ Icon Button,       ↳ Inputs (Form Controls),       ↳ Layout Blocks & Content Wrappers,       ↳ Media Content (Avatars, Thumbnails, Images),       ↳ Paginator,       ↳ Progress Indicator,       ↳ Radio Button,       ↳ Slider,       ↳ Snackbar,       ↳ Switch (Toggle),       ↳ Tabs,       ↳ Table,       ↳ Time Picker,       ↳ Toggle Button (Segmented Button),       ↳ Tooltip, ----, 🏠 Grouped Controls,       ↳ Bottom Navigation,       ↳ Breadcrumbs,       ↳ Card,       ↳ Chat (Messenger),       ↳ Chart Widget,       ↳ Dialog (Popup, Modal Window),       ↳ Header (Toolbar),       ↳ List, List Item, Tree,       ↳ Navigation Drawer & Rail,       ↳ Popover,       ↳ Stepper,       ↳ Video Player, ----, ⚙️ System Components
+- Extracted at: 2026-07-02T20:49:53.877249+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Elevation Surface/5dp: [#191919, #FFFFFF1C]
+- Elevation Surface/3dp: [#FFFFFF, #FFFFFF14]
+- Black — Inactive: [#0000008A]
+- Elevation Surface/1dp: [#191919, #FFFFFF0D]
+- Elevation Surface/4dp: [#FFFFFF, #FFFFFF17]
+- csds/surface: [image(hash: 60f0b237356150cecb6d9c4ebf7b68d02344d737)]
+- csds/surface: [image(hash: 046ba49fb11bae6cd27b94f0ec808ad217b4223b)]
+- Green / 600: [#43A047]
+- Blue Grey /50: [#ECEFF1]
+- Blue Grey /900: [#263238]
+- Placeholder/Image: [#F2F2F2, image(hash: fdd5df82bd74c1fe919f8014015946c1a4886722)]
+- csds/on-surface-disabled: [#CCCCCC]
+- csds/ripple/hover: [#4362DD14]
+- csds/on-surface-medium: [#666666]
+- csds/on-surface-low: [#999999]
+- csds/on-surface: [#191919]
+- csds/primary-inactive: [#9DB0FF]
+- Elevation Surface/2dp: [#191919, #FFFFFF12]
+- Background / HUD: [#222222]
+
+## Raw Colors (unstyled)
+- #212121: 2490 uses
+- #DADADA: 1401 uses
+- #0167A4: 495 uses
+- #0214BD: 466 uses
+- #111111: 462 uses
+- #E6E6E6: 153 uses
+- #666666: 136 uses
+- #E5E5E5: 136 uses
+- #FFFFFF: 111 uses
+- #000000: 46 uses
+- #CA3D35: 44 uses
+
+## Typography Tokens
+- body1: Roboto Regular (400), 16px / 24px, tracking 0.5px
+- 16 sp • Body 1: Roboto Regular (400), 16px / 24px, tracking 0.5px
+- headline4: Roboto Regular (400), 34px / 40px, tracking 0.25px
+- body2: Roboto Regular (400), 14px / 20px, tracking 0.25px
+- subtitle2: Roboto Medium (500), 14px / 16px, tracking 0.1px
+- headline3: Roboto Regular (400), 48px / 56px, tracking 0px
+- overline: Roboto Regular (400), 10px / 12px, tracking 1.5px
+- caption: Roboto Regular (400), 12px / 16px, tracking 0.4px
+- button2: Roboto Medium (500), 14px / 20px, tracking 0.1px
+- headline6: Roboto Medium (500), 20px / 24px, tracking 0.15px
+- subtitle1: Roboto Regular (400), 16px / 20px, tracking 0.15px
+- button2-uppercase: Roboto Medium (500), 14px / 20px, tracking 1.25px
+- csds/body1: Roboto Regular (400), 16px / 24px, tracking 0.5px
+- button1: Roboto Medium (500), 16px / 24px, tracking 0.5px
+- csds/headline6: Roboto Medium (500), 20px / 24px, tracking 0.15px
+- body1-bold: Roboto Bold (700), 16px / 24px, tracking 0.5px
+- headline5: Roboto Regular (400), 24px / 32px, tracking 0px
+- body2-bold: Roboto Bold (700), 14px / 20px, tracking 0.5px
+- csds/button-uppercase: Roboto Medium (500), 14px / 20px, tracking 1.25px
+- csds/headline3: Roboto Regular (400), 48px / 56px, tracking 0px
+- csds/caption: Roboto Regular (400), 12px / 16px, tracking 0.4px
+- csds/body2: Roboto Regular (400), 14px / 20px, tracking 0.25px
+- body2-bold-strikethrough: Roboto Bold (700), 14px / 20px, tracking 0.25px
+- body2-strikethrough: Roboto Regular (400), 14px / 20px, tracking 0.25px
+- headline2: Roboto Light (300), 60px / 112px, tracking -0.5px
+- headline1: Roboto Light (300), 96px / 116px, tracking -1.5px
+- Neg – UI 11: Inter Regular (400), 11px / 16px, tracking 0.11px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 13.65px: 186 uses
+- Roboto Regular, 15.92px: 133 uses
+- Roboto Regular, 21px: 86 uses
+- Roboto Regular, 18px: 80 uses
+- Roboto Medium, 21px: 37 uses
+- Roboto Regular, 24px: 37 uses
+- Roboto Regular, 14.07px: 23 uses
+- Roboto Regular, 24.32px: 23 uses
+- Roboto Regular, 16px: 17 uses
+- Roboto Medium, 16.41px: 16 uses
+- Roboto Medium, 21.28px: 10 uses
+- Roboto Medium, 14px: 9 uses
+- Roboto Regular, 11.37px: 9 uses
+- Roboto Regular, 27.3px: 9 uses
+- Roboto Medium, 15.92px: 8 uses
+- Roboto Medium, 22.75px: 8 uses
+- Roboto Regular, 72px: 6 uses
+
+## Typography Hierarchy
+- 96px - headline1 (Roboto Light)
+- 72px - Roboto Regular, 72px (raw)
+- 60px - headline2 (Roboto Light)
+- 48px - csds/headline3 (Roboto Regular)
+- 48px - headline3 (Roboto Regular)
+- 34px - headline4 (Roboto Regular)
+- 27.3px - Roboto Regular, 27.3px (raw)
+- 24.32px - Roboto Regular, 24.32px (raw)
+- 24px - Roboto Regular, 24px (raw)
+- 24px - headline5 (Roboto Regular)
+- 22.75px - Roboto Medium, 22.75px (raw)
+- 21.28px - Roboto Medium, 21.28px (raw)
+- 21px - Roboto Medium, 21px (raw)
+- 21px - Roboto Regular, 21px (raw)
+- 20px - csds/headline6 (Roboto Medium)
+- 20px - headline6 (Roboto Medium)
+- 18px - Roboto Regular, 18px (raw)
+- 16.41px - Roboto Medium, 16.41px (raw)
+- 16px - 16 sp • Body 1 (Roboto Regular)
+- 16px - Roboto Regular, 16px (raw)
+- 16px - body1 (Roboto Regular)
+- 16px - body1-bold (Roboto Bold)
+- 16px - button1 (Roboto Medium)
+- 16px - csds/body1 (Roboto Regular)
+- 16px - subtitle1 (Roboto Regular)
+- 15.92px - Roboto Medium, 15.92px (raw)
+- 15.92px - Roboto Regular, 15.92px (raw)
+- 14.07px - Roboto Regular, 14.07px (raw)
+- 14px - Roboto Medium, 14px (raw)
+- 14px - body2 (Roboto Regular)
+- 14px - body2-bold (Roboto Bold)
+- 14px - body2-bold-strikethrough (Roboto Bold)
+- 14px - body2-strikethrough (Roboto Regular)
+- 14px - button2 (Roboto Medium)
+- 14px - button2-uppercase (Roboto Medium)
+- 14px - csds/body2 (Roboto Regular)
+- 14px - csds/button-uppercase (Roboto Medium)
+- 14px - subtitle2 (Roboto Medium)
+- 13.65px - Roboto Regular, 13.65px (raw)
+- 12px - caption (Roboto Regular)
+- 12px - csds/caption (Roboto Regular)
+- 11.37px - Roboto Regular, 11.37px (raw)
+- 11px - Neg – UI 11 (Inter Regular)
+- 10px - overline (Roboto Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- FAB/Standard: [drop_shadow 5px offset 0 4 #00000024, drop_shadow 10px offset 0 1 #0000001F, drop_shadow 4px offset 0 2 #00000033]
+- Elevation/1: [drop_shadow 2px offset 0 1 #0000004D, drop_shadow 3px offset 0 1 #00000026]
+- Elevation/3: [drop_shadow 3px offset 0 1 #0000004D, drop_shadow 8px offset 0 4 #00000026]
+- Elevation/2: [drop_shadow 2px offset 0 1 #0000004D, drop_shadow 6px offset 0 2 #00000026]
+- Elevation/4: [drop_shadow 3px offset 0 2 #0000004D, drop_shadow 10px offset 0 6 #00000026]
+- FAB/Hover: [drop_shadow 4px offset 0 2 #00000024, drop_shadow 5px offset 0 4 #0000001F, drop_shadow 10px offset 0 1 #00000033]
+- FAB / Standart: [drop_shadow 4px offset 0 2 #00000033, drop_shadow 10px offset 0 1 #0000001F, drop_shadow 5px offset 0 4 #00000024]
+- FAB / Hover: [drop_shadow 10px offset 0 1 #00000033, drop_shadow 5px offset 0 4 #0000001F, drop_shadow 4px offset 0 2 #00000024]
+- Elevation/5: [drop_shadow 4px offset 0 4 #0000004D, drop_shadow 12px offset 0 8 #00000026]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Figma-logo
+- Overlay (Scrim)
+- .Ripple
+- Badge
+- Banner
+- Button
+- Checkbox
+- Chip
+- .DDM Components
+- Dropdown Menu
+- Divider
+- FAB
+- Icon Button
+- Inputs
+- .Date Picker Components
+- Calendar
+- .Input Parts
+- .Expanding Control
+- Content Wrapper
+- LayoutBlocks
+- Image
+- Avatar Image
+- Thumbnail
+- Paginator
+- .Spinner
+- .Progress Line
+- Spinner
+- Progress Line
+- Progress Indicator
+- Radio Button
+- Tick Marks
+- Tick Mark
+- .Slider Parts
+- Slider
+- Snackbar (Toast)
+- Switch
+- Tab Navigation Control
+- Tab
+- Tab Navigation Bar
+- Table-Parts
+- .Clock
+- .Hour
+- .Time Selector
+- .Period Selector
+- .Period
+- Time Picker
+- Toggle Button
+- Toggle Bar
+- Tooltip
+- Bottom Navigation Cell
+- Bottom Navigation
+- .Breadcrumb Elements
+- Breadcrumbs
+- Card Background
+- Rating Stars
+- Card-Header
+- Card-Content
+- Card
+- Message Status Icons
+- Chat Message
+- Message Status
+- Message Content
+- Scale Cell
+- Chart Parts
+- Grid Cell
+- Grid Line
+- Grid Type
+- Bar Blocks
+- Chart Content (Editable)
+- Data Visualization Section
+- Toolbar
+- Header
+- Bar Base
+- Chart Body
+- Chart Widget
+- Dialog Components
+- Dialog
+- Tree Node
+- List Item
+- Tree
+- Supportive Text
+- Advanced list-item
+- List
+- .Thumbnail Logo
+- Nav Rail Parts
+- .Large Logo
+- Nav Drawer Parts
+- .cursors
+- Navigation Rail
+- Navigation Drawer
+- .Pin
+- .Popover Components
+- Popover
+- .Stepper Item
+- .Step Icon
+- Stepper
+- .Video Player Parts
+- Video Player
+- .Color Tokens Table
+- .System
+- Scrollbar
+- .modifier
+- .Coherent Color Mixer
+- .Instance Icon
+- .Variable Icon
+- .Main Component Icon
+- .Documentation Header
+
+## Component Specs
+- Figma-logo: size 20x20px, fill #FFFFFF
+- Overlay (Scrim): size 32x32px | variants: Style: Blurred/Darkened/None
+- .Ripple: size 40x40px, radius 120px, fill #4759FF14 | variants: State: Focused/Hovered/Pressed; Color: Dark/Primary/Secondary
+- Badge: size 12x12px, radius 22px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #D83535, stroke #FFFFFF 1px | variants: Type: Digit (Text)/Dot/Icon; BG Fill: No/Yes; Size: Large/Medium/Small
+- Banner: size 360x52px, vertical layout, padding 8 8 8 16px, gap 0px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E6E6E6 1px, text [button2, body2] | variants: Usage: Desktop/Mobile; Text Line: One/Two
+- Button: size 95x36px, radius 4px, horizontal layout, padding 8 12 8 12px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #4759FF, text [button2] | variants: Style: Contained/Ghost/Outlined; Size: Default/Large/Medium; State: Focused/Hovered/Pressed/Resting; Disabled: No/Yes
+- Checkbox: size 80x20px, horizontal layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption, body2] | variants: Size: Default/Large/Medium; Checked: Indeterminate/No/Yes; State: Focused/Hovered/Pressed/Resting; Disabled: No/Yes
+- Chip: size 96x32px, radius 32px, horizontal layout, padding 4 4 4 4px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, effect FAB / Hover, text [body2] | variants: Chip Type: Default/Icon Only; Style: Contained Dark/Contained Light/Outlined; Size: Default/Small/X-Small; State: Dragged/Focused/Hovered/Pressed/Resting/Selected; Disabled: No/Yes
+- .DDM Components / Menu Background: size 280x56px, radius 0/0/4/4px, fill Elevation Surface/3dp, effect Elevation/3 | variants: Input Type: Filled/Outlined
+- .DDM Components / Menu Value: size 280x48px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF00, text [caption, body1, body2] | variants: State: Disabled/Hovered/Resting/Selected
+- Dropdown Menu: size 280x256px, radius 4px, horizontal layout, padding 8 0 8 0px, gap 0px, sizing W:fixed H:fixed, text [caption, body1, body2] | variants: Width: Auto/Fixed
+- Divider: size 90x1px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed | variants: Direction: Horizontal/Vertical; Show Title: False/True
+- FAB: size 48x48px, radius 256px, horizontal layout, padding 12 12 12 12px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #4759FF, effect FAB / Standart, text [button1] | variants: Size: Default/Large/Small; State: Focused/Hovered/Pressed/Resting
+- Icon Button: size 48x48px, radius 999px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [caption] | variants: Size: Default/Large/Small; State: Focused/Hovered/Pressed/Resting; Disabled: No/Yes
+- Inputs / Search: size 240x56px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [caption, body2] | variants: Type: Filled/Outlined; Size: Default/Large/Medium; Expandable: No/Yes; Empty: No/Yes; Populated: No/Yes; State: Focused/Hovered/Read Only/Resting; Error: No/Yes; Disabled: No/Yes
+- Inputs / Text Area: size 320x114px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [caption, body2] | variants: Type: Filled/Outlined; Size: Default/Large/Medium; Empty: No/Yes; Populated: No/Yes; State: Focused/Hovered/Read Only/Resting; Error: No/Yes; Disabled: No/Yes
+- Inputs / Text Field Multi Line: size 320x76px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption, body2] | variants: Type: Filled/Outlined; Size: Default/Large/Middle; Empty: No/Yes; Populated: No/Yes; State: Focused/Hovered/Read Only/Resting; Error: No/Yes; Disabled: No/Yes
+- Inputs / Date Picker: size 240x76px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [button2, caption, subtitle2, body2] | variants: Type: Filled/Outlined; Size: Default/Large/Medium; Date Entry Via: Date Picker/Text Input; Empty: No/Yes; Populated: No/Yes; State: Focused/Hovered/Read Only/Resting; Error: No/Yes; Disabled: No/Yes
+- .Date Picker Components / Calendar Header: size 256x52px, horizontal layout, padding 16 8 12 24px, gap 57px, align space_between/center, sizing W:fixed H:fixed, text [subtitle2] | variants: View: Calendar View/Date Range Left/Date Range Right/Year Selection
+- .Date Picker Components / Calendar Body: size 256x244px, vertical layout, padding 8 16 8 16px, gap 0px, align min/center, sizing W:fixed H:fixed, text [caption, subtitle2] | variants: Type: Date/Month/Year
+- .Date Picker Components / Calendar Row: size 224x32px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [caption] | variants: Type: Days of the Month (Numbers)\/Months/Week Days/Years
+- .Date Picker Components / Range Background: size 32x32px, radius 999/0/0/999px | variants: State: Selected/Selecting; Range Type: End Date/In Range/Start Date
+- .Date Picker Components / Calendar Cell / Year-Month: size 56x32px, text [caption] | variants: Type: Default/Today; State: Disabled/Hovered/Resting/Selected
+- .Date Picker Components / Calendar Cell / Day: size 32x32px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [caption] | variants: Type: Default/Null/Outside Month/Today/Week; State: Disabled/Hovered/Resting/Selected
+- Calendar: size 256x296px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill Elevation Surface/3dp, effect Elevation/3, text [button2, caption, subtitle2] | variants: Type: Date/Date Range Empty/Date Range Filled/Month/Year
+- Inputs / Multi Select: size 320x76px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [caption, body2] | variants: Type: Filled/Outlined; Size: Default/Large/Medium; Empty: No/Yes; Populated: No/Yes; State: Focused/Hovered/Read Only/Resting; Error: No/Yes; Disabled: No/Yes
+- Inputs / Switch Group: size 240x148px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [caption, body2] | variants: Error: No/Yes; Disabled: No/Yes; Read Only: No/Yes
+- Inputs / Radio Button Group: size 240x148px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [caption, body2] | variants: Position: Horizontal/Vertical; Error: No/Yes; Disabled: No/Yes; Read Only: No/Yes
+- Inputs / Checkbox Group: size 240x148px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [caption, body2] | variants: Position: Horizontal/Vertical; Error: No/Yes; Disabled: No/Yes; Read Only: No/Yes
+- Inputs / Text Field Single Line: size 320x76px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [caption, body2] | variants: Type: Filled/Outlined; Size: Default/Large/Medium; Empty: No/Yes; Populated: No/Yes; State: Focused/Hovered/Read Only/Resting; Error: No/Yes; Disabled: No/Yes
+- .Input Parts / Caret: size 1x24px, horizontal layout, padding 4 0 4 0px, gap 8px, align min/center, sizing W:fixed H:fixed | variants: Error: No/Yes
+- Inputs / Single Select: size 320x76px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption, body2] | variants: Type: Filled/Outlined; Size: Default/Large/Medium; Empty: No/Yes; Populated: No/Yes; State: Focused/Hovered/Read Only/Resting; Error: No/Yes; Disabled: No/Yes
+- .Expanding Control: size 8x8px
+- .Date Picker Components / Calendar Footer: size 256x44px, horizontal layout, padding 0 8 8 8px, gap 8px, align max/center, sizing W:fixed H:fixed, text [button2]
+- .Date Picker Components / Calendar Cell / Year-Month/.Date Picker Components/Range Background/.Date Picker Components/Calendar Cell/Text Label: size 57x32px, horizontal layout, padding 8 12 8 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [subtitle2]
+- Content Wrapper: size 8x8px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: Size: 112px/128px/12px/16px/20px/24px/32px/40px/48px/64px/8px/96px
+- LayoutBlocks / Vertical / x1: size 40x40px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Vertical / x2: size 40x80px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Vertical / x3: size 40x120px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Vertical / x4: size 40x160px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Vertical / x5: size 40x200px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Vertical / x6: size 40x240px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Vertical / x7: size 40x280px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Vertical / x8: size 40x320px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Vertical / x9: size 40x360px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Vertical / x10: size 40x400px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x1: size 40x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x2: size 80x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x3: size 120x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x4: size 160x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x5: size 200x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x6: size 240x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x7: size 280x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x8: size 320x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x9: size 360x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Horizontal / x10: size 400x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [overline]
+- LayoutBlocks / Base: size 40x40px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #5D667D0F, stroke #5D667D 1px, text [overline]
+- Image: size 102.86x240.01px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed | variants: Aspect ratio: 16:10/16:9/1:1/21:9/2:1/3:2/4:3/5:4; Portrait: No/Yes; Image Placeholder: No/Yes
+- Avatar Image: size 40x40px, radius 999px, fill image(hash: efe98099a0aa97c1aa64e286bc82e633cc9aed22), stroke #FFFFFF 0px | variants: User: Bot 1/Bot 2/Bot 3/Bot 4/Bot 5/Bot 6/Bot 7/Bot 8/Bot 9/Default/Female 1/Female 10/Female 11/Female 12/Female 13/Female 14/Female 15/Female 16/Female 17/Female 18/Female 19/Female 2/Female 20/Female 3/Female 4/Female 5/Female 6/Female 7/Female 8/Female 9/Male 1/Male 10/Male 11/Male 12/Male 13/Male 14/Male 15/Male 16/Male 17/Male 18/Male 19/Male 2/Male 20/Male 3/Male 4/Male 5/Male 6/Male 7/Male 8/Male 9
+- Thumbnail: size 24x24px, radius 999px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: Type: Abbreviation/Icon/Image; State: Default/Disabled/Selected
+- Paginator: size 550x56px, horizontal layout, padding 0 8 0 8px, gap 12px, align max/center, sizing W:fixed H:fixed, text [caption, body2] | variants: Disabled: False/True
+- .Spinner / Active Indicator Color: size 40x40px, fill #FFFFFF | variants: Color: Accent/Primary
+- .Progress Line / Active Indicator Color: size 40x4px, radius 4px, fill #4759FF | variants: Color: Accent/Primary
+- Spinner: size 48x48px, fill #FFFFFF | variants: State: 10%/100%/20%/30%/40%/50%/60%/70%/80%/90%/N/A; Type: Determinate/Indeterminate
+- Progress Line: size 240x4px, radius 4px, fill #F2F2F2 | variants: Type: Determinate/Indeterminate; State: 0%/10%/100%/20%/30%/40%/50%/60%/70%/80%/90%/N/A
+- Progress Indicator: size 240x52px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [caption, body2] | variants: Type: Circular/Linear
+- Radio Button: size 80x20px, horizontal layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption, body2] | variants: Size: Default/Large/Medium; Checked: No/Yes; State: Focused/Hovered/Pressed/Resting; Disabled: No/Yes
+- Tick Marks: size 240x2px, horizontal layout, padding 0 0 0 0px, gap 26px, align space_between/center, sizing W:fixed H:fixed | variants: Marks #: x1/x2
+- Tick Mark: size 2x2px | variants: State: Active/Inactive
+- .Slider Parts / Thumb: size 12x12px, radius 99px, horizontal layout, padding 0 0 0 0px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #4759FF, text [caption] | variants: State: Dragged/Focused/Hovered/Pressed/Resting
+- .Slider Parts / Progress Line: size 240x2px, radius 2px, fill #EFF1FF, text [caption] | variants: State: 0%/10%/100%/20%/30%/30-70%/40%/50%/60%/70%/80%/90%; Type: Continuous/Range
+- Slider: size 320x28px, horizontal layout, padding 0 0 0 0px, gap 16px, align min/center, sizing W:fixed H:fixed, text [caption] | variants: Disabled: No/Yes
+- Snackbar (Toast): size 344x48px, radius 4px, vertical layout, padding 6 8 6 16px, gap 0px, align center/min, sizing W:fixed H:fixed, fill Elevation Surface/1dp, effect Elevation/1, text [button2, body2] | variants: Usage: Desktop/Mobile
+- Switch: size 120x20px, horizontal layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [caption, body2] | variants: Size: Default/Large/Medium; Checked: No/Yes; State: Focused/Hovered/Pressed/Resting; Disabled: No/Yes
+- Tab Navigation Control: size 40x48px, horizontal layout, padding 12 8 12 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF00, stroke #E6E6E6 1px | variants: State: Disabled/Hovered/Pressed/Resting
+- Tab: size 61x72px, vertical layout, padding 14 16 14 16px, gap 12px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF00, stroke #4759FF 2px, text [button2-uppercase] | variants: Active: No/Yes; State: Disabled/Focused/Hovered/Pressed/Resting; Usage: Mobile/Web; Orientation: Horizontal/Vertical
+- Tab Navigation Bar: size 540x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E6E6E6 1px, text [caption, button2] | variants: Usage: Mobile/Web; Tab Orientation: Horizontal/Vertical
+- Table-Parts / Background: size 320x52px, stroke #E6E6E6 1px | variants: State: Custom (Green-50)/Custom (Red-50)/Custom (Striped)/Custom (Yellow-50)/Default/Drag & Drop/Hovered/Selected
+- Table-Parts / Table Cell / View Mode / Expand-Collapse: size 80x52px, horizontal layout, padding 2 16 2 16px, gap 8px, sizing W:fixed H:fixed, stroke #E6E6E6 0px, text [caption] | variants: State: Collapsed/Expanded
+- Table-Parts / Table Cell / View Mode / Checkbox: size 56x52px, horizontal layout, padding 6 8 6 8px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke #E6E6E6 0px, text [body2, body1] | variants: State: Focused/Hovered/Pressed/Resting; Checked: No/Yes; Mode: Edit/View
+- Table-Parts / Table Cell / View Mode / Avatar-SecondaryText: size 168x52px, horizontal layout, padding 6 16 6 16px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke #E6E6E6 0px, text [caption, body2] | variants: Pr. Text Style: Default/Hyperlink
+- Table-Parts / Table Cell / View Mode / Default: size 104x52px, horizontal layout, padding 14 16 14 16px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke #E6E6E6 0px, text [body2] | variants: Pr. Text Style: Default/Hyperlink
+- Table-Parts / Header Cell / Checkbox: size 56x56px, horizontal layout, padding 8 8 8 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E6E6E6 1px, text [body2, body1] | variants: State: Focused/Hovered/Pressed/Resting; Selected: Indeterminate/No/Yes
+- Table-Parts / Drag & Drop / Dropzone: size 252x52px, fill #4759FF1F
+- Table-Parts / Drag & Drop / Dropline: size 252x4px, fill #4759FF14
+- Table-Parts / Drag & Drop / Card: size 252x52px, radius 4px, horizontal layout, padding 14 16 14 16px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #4759FF, effect Elevation/3, text [body2]
+- Table-Parts / Table Cell / Edit Mode / Multi Select: size 240x52px, vertical layout, padding 6 16 6 16px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [button2, caption, body2]
+- Table-Parts / Table Cell / Edit Mode / Single Select: size 240x52px, vertical layout, padding 6 16 6 16px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [button2, caption, body2]
+- Table-Parts / Table Cell / Edit Mode / Date Picker: size 240x52px, vertical layout, padding 6 16 6 16px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [button2, caption, body2]
+- Table-Parts / Table Cell / Edit Mode / Text Area: size 240x92px, vertical layout, padding 6 16 6 16px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [button2, caption, body2]
+- Table-Parts / Table Cell / Edit Mode / Text Field Multi Line: size 240x52px, vertical layout, padding 6 16 6 16px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [button2, caption, body2]
+- Table-Parts / Table Cell / Edit Mode / Text Field Single Line: size 240x52px, vertical layout, padding 6 16 6 16px, gap 0px, sizing W:fixed H:fixed, text [button2, caption, body2]
+- Table-Parts / Table Cell / View Mode / Actions: size 152x52px, horizontal layout, padding 14 16 14 16px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke #E6E6E6 0px
+- Table-Parts / Table Cell / View Mode / Drag & Drop: size 48x52px, horizontal layout, padding 2 0 2 0px, gap 8px, sizing W:fixed H:fixed, stroke #E6E6E6 0px, text [caption]
+- Table-Parts / Table Cell / View Mode / Chips: size 194x52px, horizontal layout, padding 14 16 14 16px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke #E6E6E6 0px, text [body2]
+- Table-Parts / Table Cell / View Mode / Progress: size 184x52px, horizontal layout, padding 16 16 16 16px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke #E6E6E6 0px, text [caption]
+- Table-Parts / Header Cell / Default: size 92x56px, horizontal layout, padding 16 16 16 16px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke #E6E6E6 1px, text [subtitle2]
+- .Clock: size 256x256px, radius 256px, fill #F2F2F2, text [subtitle1] | variants: Time: 1/10/11/12/2/3/4/5/6/7/8/9
+- .Hour: size 48x48px, radius 100px, vertical layout, padding 0 0 0 0px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF00, text [subtitle1] | variants: State: Default/Selected
+- .Time Selector: size 96x104px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [caption, headline3] | variants: State: Active/Focused/Inactive
+- .Period Selector: size 52x80px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF00, stroke #B3B3B3 1px, text [button2-uppercase] | variants: Period: AM/PM; Position: Horizontal/Vertical
+- .Period: size 52x40px, horizontal layout, padding 8 8 8 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF00, stroke #B3B3B3 1px, text [button2-uppercase] | variants: State: Default/Selected
+- Time Picker: size 328x508px, radius 4px, vertical layout, padding 0 0 0 0px, gap 24px, align min/center, sizing W:fixed H:fixed, fill Elevation Surface/3dp, effect Elevation/3, text [button2, subtitle1, button2-uppercase, caption, headline3, overline] | variants: Position: Horizontal/Vertical; Input Type: Dial/Time
+- Toggle Button: size 119x48px, radius 4/0/0/4px, horizontal layout, padding 12 16 12 16px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF00, stroke #4759FF 1px, text [body1] | variants: Button Type: Default/Single Icon; Style: Contained/Ghost; Size: Default/Large/Medium; Placement: Center/Generic/Left/Right; Selected: No/Yes; State: Focused/Hovered/Pressed/Resting; Disabled: No/Yes
+- Toggle Bar: size 355x48px, radius 4px, horizontal layout, padding 0 0 0 0px, gap -1px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF00, text [body1]
+- Tooltip: size 60x24px, radius 4px, horizontal layout, padding 4 8 4 8px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #666666, text [caption]
+- Bottom Navigation Cell: size 80x56px, vertical layout, padding 8 0 8 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [caption] | variants: Active: No/Yes
+- Bottom Navigation: size 360x56px, horizontal layout, padding 0 0 0 0px, gap 8px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Breadcrumb Elements / Breadcrumb level: size 51x28px, radius 4px, horizontal layout, padding 4 8 4 8px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF00, text [caption, body2] | variants: State: Active/Disabled/Focused/Hovered/Resting
+- .Breadcrumb Elements / Separator / Arrow: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed
+- .Breadcrumb Elements / Separator / Slash: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [body2-bold]
+- Breadcrumbs: size 492x28px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [caption, body2, body2-bold]
+- Card Background: size 100x100px, radius 4px, fill Elevation Surface/1dp, effect Elevation/1 | variants: Type: Elevated/Filled/Outlined; State: Disabled/Dragged/Focused/Hovered/Pressed/Resting/Selected
+- Rating Stars: size 120x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed | variants: Stars #: 1/2/3/4/5
+- Card-Header: size 400x72px, radius 4/4/0/0px, horizontal layout, padding 16 0 16 16px, gap 16px, align min/center, sizing W:fixed H:fixed, text [caption, subtitle2, headline6] | variants: Thumbnail Position: Left/Right
+- Card-Content / Action container: size 340x64px, radius 0/0/4/4px, horizontal layout, padding 0 0 16 0px, gap 16px, align min/center, sizing W:fixed H:fixed, text [caption, button2]
+- Card-Content / Rating: size 340x24px, horizontal layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, text [body1]
+- Card-Content / Chips: size 340x32px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body2]
+- Card-Content / Supportive Text: size 340x24px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body1]
+- Card-Content / Title: size 340x88px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, text [body2, headline5, overline]
+- Card / Horizontal: size 400x216px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [body1, body2, headline5, overline]
+- Card / Vertical: size 400x612px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [caption, button2, body2, body1, headline5, overline, subtitle2, headline6]
+- Message Status Icons: size 16x16px, vertical layout, padding 3 4 3 4px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Message Status: Delivered/Delivered-alt/Editing/Issue/Pending/Pending-alt/Sent/Viewed/Viewed-alt
+- Chat Message: size 406x92px, horizontal layout, padding 0 96 0 0px, gap 12px, align max/min, sizing W:fill H:fixed, text [overline, Roboto Regular, 10px, caption, body2] | variants: Direction: Inbound/Neutral/Outbound
+- Message Status: size 62x16px, horizontal layout, padding 0 0 0 0px, gap 4px, align max/center, sizing W:fixed H:fixed, text [overline, Roboto Regular, 10px]
+- Message Content / Info Line: size 300x12px, horizontal layout, padding 0 8 0 8px, gap 8px, align center/center, sizing W:fixed H:fixed, text [overline]
+- Message Content / Quote: size 300x56px, radius 4px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, effect Elevation/1, text [body2, caption]
+- Message Content / Audio: size 300x28px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [overline, caption]
+- Message Content / Image: size 300x200px, radius 4px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed
+- Message Content / Code: size 300x80px, radius 8px, vertical layout, padding 0 0 0 0px, gap 2px, sizing W:fixed H:fixed, text [button2, Roboto Mono Regular, 14px]
+- Message Content / Text: size 300x20px, vertical layout, padding 0 0 0 0px, gap 2px, align min/max, sizing W:fixed H:fixed, text [body2]
+- Scale Cell: size 51x24px, stroke #999999 1px, text [caption] | variants: Type: Centered/Centered - Start/Horizontal - Start/Horizontal Standard/Left Aligned - Vertical/Left Aligned Centered - Vertical/Right Aligned - Vertical/Right Aligned Centered - Vertical
+- Chart Parts / Axis Title: size 20x81px, vertical layout, padding 0 0 0 0px, gap 0px, align center/max, sizing W:fixed H:fixed, text [caption, body2] | variants: Position: Horizontal/Vertical
+- Chart Parts / Vertical Base Scale: size 48x236px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fill, text [caption] | variants: Scale Type: Left Base Scale - 00/Right Base Scale - 00/Right Scale Centered - 00
+- Chart Parts / Horizontal Base Scale: size 443x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fill H:fixed, text [caption] | variants: Scale Type: Logarithmic/Months/Numeric
+- Chart Parts / Side Scale: size 68x236px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fill, text [caption, body2] | variants: Vertical Scale Type: Left Scale/Right Scale/Right Scale - Centered
+- Grid Cell: size 46x46px | variants: Type: Empty/Horizontal/Horizontal + Vertical/Vertical
+- Grid Line: size 280x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fill H:fill, fill #FFFFFF, stroke #E6E6E6 1px | variants: Horizontal Lines: 0/1/2; Vertical Lines: 0/5
+- Grid Type: size 563x204px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fill H:fill, fill #FFFFFF, stroke #191919 1px | variants: Grid Type: 1 Axis + Intermediate Lines/2 Axes + Grid/Empty/Single Horizontal Lines/Vertical Lines
+- Bar Blocks: size 20x20px, vertical layout, padding 2 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed | variants: Color: Blue/Green/Grey/Orange/Red; Transparent: No/Yes
+- Chart Content (Editable): size 320x240px, fill #FFFFFF | variants: Type: Area Chart/Bar Chart Combined/Bar Сhart/Histogram/Linear (1 Line)/Linear (2 Lines)/Stacked bar chart
+- Data Visualization Section: size 699x266.86px, horizontal layout, padding 16 16 0 16px, gap 0px, sizing W:fill H:fill, text [caption, body2] | variants: Chart Type: Area Chart/Bar Chart/Bar Chart Combined/Histogram/Linear - 1 Line/Linear - 2 Lines/Stacked Bar Chart
+- Chart Parts / Legend Item: size 99x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [body2] | variants: Color: Blue/Green/Grey/Orange/Red; Type: Box Solid/Box Transparent/Line
+- Chart Parts / Difference: size 71x29px, horizontal layout, padding 9 0 0 8px, gap 4px, sizing W:fixed H:fill, text [body2] | variants: Metric Value: Decreasing/Increasing/Neutral
+- Chart Parts / Symbol: size 28x29px, vertical layout, padding 9 0 0 1px, gap 0px, sizing W:fixed H:fill, text [body2] | variants: Symbol: Currency/Degree
+- Toolbar: size 636x40px, horizontal layout, padding 4 8 0 16px, gap 10px, align max/center, sizing W:fill H:fixed, text [body2] | variants: Toolbar Type: Date Range/Legend/Metrics/Toggle Filter
+- Header (      ↳ Chart Widget): size 636x44px, horizontal layout, padding 0 8 0 16px, gap 10px, sizing W:fill H:fixed, text [caption, subtitle2, headline6] | variants: Header Type: Actions/Date Picker/Toggle Filter
+- Chart Parts / Bottom Scale: size 516x44px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body2, caption]
+- Bar Base: size 22x32px, vertical layout, padding 0 4 0 4px, gap 0px, align min/center, sizing W:fixed H:fixed, text [caption]
+- Chart Body: size 644x240px
+- Chart Parts / Legend Bar: size 640x28px, horizontal layout, padding 4 0 4 0px, gap 16px, sizing W:fixed H:fixed, text [body2]
+- Chart Parts / Metric Box: size 146x52px, vertical layout, padding 8 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body2, headline5, overline]
+- Chart Widget: size 800x450px, radius 4px, vertical layout, padding 16 8 16 8px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, effect Elevation/1, text [body2, caption, headline5, overline, subtitle2, headline6]
+- Dialog Components / Action Buttons: size 340x84px, horizontal layout, padding 24 24 24 24px, gap 8px, align max/center, sizing W:fixed H:fixed, stroke #B3B3B3 0px, text [button2]
+- Dialog Components / Supporting Text: size 340x96px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body1]
+- Dialog Components / Header: size 340x64px, radius 4/4/0/0px, horizontal layout, padding 24 24 16 24px, gap 16px, align min/center, sizing W:fixed H:fixed, stroke #B3B3B3 0px, text [csds/headline6]
+- Dialog: size 560x368px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill Elevation Surface/3dp, effect Elevation/3, text [button2, caption, body1, csds/headline6]
+- Header (      ↳ Header (Toolbar)): size 1280x56px, horizontal layout, padding 0 24 0 24px, gap 24px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [overline, caption, button2, body1]
+- Tree Node: size 300x48px, horizontal layout, padding 12 16 12 16px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF00, text [body2, body1] | variants: Level: 1/2/3/4; State: Disabled/Hovered/Resting; Selected: No/Yes
+- List Item: size 380x76px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF00, text [caption, body2, body1, overline] | variants: State: Disabled/Focused/Hovered/Pressed/Resting/Selected
+- Tree: size 300x480px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body2, body1]
+- Supportive Text: size 420x40px, vertical layout, padding 0 16 0 16px, gap 0px, sizing W:fixed H:fixed, text [body2]
+- Advanced list-item: size 645x240px, horizontal layout, padding 24 24 24 24px, gap 24px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, text [body1, body2, caption, overline]
+- List: size 380x389px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [caption, body2, body1, overline]
+- .Thumbnail Logo : size 40x40px | variants: Logo: Coherent Solutions/Custom Logo 1/Custom Logo 2/Custom Logo 3/Custom Logo 4/Custom Logo 5/Custom Logo 6
+- Nav Rail Parts / List / List Item: size 72x56px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF00, text [subtitle2] | variants: Selected: No/Yes; State: Focused/Hover/Pressed/Resting; Disabled: No/Yes
+- .Large Logo: size 110x40px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF | variants: Logo: CS Black/CS Blue/CS Blue & Black/CS White/Custom Logo 1/Custom Logo 2/Custom Logo 3/Custom Logo 4/Custom Logo 5/Custom Logo 6
+- Nav Drawer Parts / List / List Item L2: size 250x48px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF00, text [caption, subtitle2] | variants: Selected: No/Yes; State: Focused/Hover/Pressed/Resting; Disabled: No/Yes
+- Nav Drawer Parts / List / List Item L1: size 250x48px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF00, text [caption, subtitle2] | variants: Selected: No/Yes; State: Focused/Hover/Pressed/Resting; Disabled: No/Yes
+- .cursors / default: size 24x24px
+- Nav Rail Parts / Extras / Text Block: size 72x40px, vertical layout, padding 12 12 12 12px, gap 12px, align min/center, sizing W:fixed H:fixed, text [caption]
+- Nav Rail Parts / Extras / CTA Block: size 72x72px, vertical layout, padding 12 0 12 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- Nav Rail Parts / Extras / Search Block: size 72x72px, vertical layout, padding 12 0 12 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [caption]
+- Nav Rail Parts / Extras / Avatar Block: size 72x64px, horizontal layout, padding 12 0 12 0px, gap 16px, align center/center, sizing W:fixed H:fixed
+- Nav Rail Parts / Extras / Logo-Icon Button Block: size 72x64px, horizontal layout, padding 12 16 12 16px, gap 8px, align center/center, sizing W:fixed H:fixed, text [caption]
+- Nav Rail Parts / List / Subheader: size 72x48px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [caption]
+- Navigation Rail: size 80x720px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption, subtitle2]
+- Nav Drawer Parts / Extras / Text Block: size 250x40px, vertical layout, padding 12 16 12 16px, gap 12px, sizing W:fixed H:fixed, text [caption]
+- Nav Drawer Parts / Extras / CTA Block: size 250x80px, vertical layout, padding 12 16 12 16px, gap 10px, align center/min, sizing W:fixed H:fixed, text [button1]
+- Nav Drawer Parts / Extras / Search Block: size 250x80px, vertical layout, padding 12 16 12 16px, gap 10px, sizing W:fixed H:fixed, text [caption, body1]
+- Nav Drawer Parts / Extras / Avatar Block: size 250x68px, horizontal layout, padding 12 16 12 16px, gap 16px, align min/center, sizing W:fixed H:fixed, text [caption, body2, headline6]
+- Nav Drawer Parts / Extras / Logo-Icon Button Block: size 250x64px, horizontal layout, padding 12 16 12 16px, gap 8px, align min/center, sizing W:fixed H:fixed, text [caption]
+- Nav Drawer Parts / List / Subheader: size 250x48px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [caption, body2]
+- Navigation Drawer: size 280x720px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption, subtitle2, body2, headline6]
+- .Pin: size 24x12px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed | variants: Position: Bottom/Left/Right/Top
+- .Popover Components / Action Buttons: size 400x60px, horizontal layout, padding 12 8 12 16px, gap 8px, align max/center, sizing W:fixed H:fixed, stroke #E6E6E6 0px, text [button2, body2]
+- .Popover Components / Supporting Text: size 400x60px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body2]
+- .Popover Components / Header: size 400x48px, radius 4/4/0/0px, horizontal layout, padding 12 16 12 16px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke #E6E6E6 0px, text [subtitle1]
+- Popover: size 424x264px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, effect Elevation/3, text [button2, body2, caption, body1, subtitle1]
+- .Stepper Item: size 130x72px, horizontal layout, padding 0 0 0 0px, gap -16px, align min/center, sizing W:fixed H:fixed, text [caption, body1] | variants: State: Disabled/Hovered/Pressed/Resting; Type: Horizontal/Vertical
+- .Step Icon: size 24x24px, radius 99px, fill #666666, text [body1] | variants: State: Active/Completed/Inactive
+- Stepper: size 570x72px, horizontal layout, padding 0 0 0 0px, gap -16px, align min/center, sizing W:fixed H:fixed, text [caption, body1] | variants: Type: Horizontal/Vertical
+- .Video Player Parts / Progress Bar: size 240x4px, radius 4px, fill #FFFFFF, text [caption] | variants: State: 0%/10%/100%/20%/30%/40%/50%/60%/70%/80%/90%
+- Video Player: size 640x360px, text [caption, body1, body2, subtitle1] | variants: State: Error message/Loader/Picture-in-picture/Standart
+- .Video Player Parts / Thumb: size 12x12px, vertical layout, padding 0 0 0 0px, gap 2px, align max/center, sizing W:fixed H:fixed, text [caption]
+- .Video Player Parts / Player Bar: size 680x92px, vertical layout, padding 20 0 0 0px, gap 0px, align max/center, sizing W:fixed H:fixed, fill gradient_linear(#00000000 3% | #04040433 25% | #08080866 51% | #000000B2 92%), text [caption, body1, body2]
+- .Video Player Parts / Player Icons / Forward10: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Replay10: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Fast forward: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Fast rewind: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Next: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Previous: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Playback speed: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Picture-in-picture: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Download: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Replay: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Fullscreen off: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Fullscreen on: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / More: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption, body1, body2]
+- .Video Player Parts / Player Icons / Settings: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Subtitles off: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Subtitles on: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Volume off: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Volume on: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Pause: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Video Player Parts / Player Icons / Play: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [caption]
+- .Color Tokens Table: size 995x56px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [subtitle2] | variants: Type: Header/Row
+- .System / Anatomy Components / Area Indicator: size 131x24px, horizontal layout, padding 0 0 0 0px, gap 8px, align max/center, sizing W:fixed H:fixed, text [body2] | variants: Label Position: Bottom/Left/Right/Top
+- .System / Anatomy Components / Dashed Line: size 1x40px, fill #FFFFFF | variants: Position: Horizontal/Vertical
+- .System / Anatomy Components / Area Indicator OLD: size 83x28px, radius 4/4/0/0px, horizontal layout, padding 8 24 0 24px, gap 8px, align center/min, sizing W:fixed H:fixed, stroke #D83535 1px, text [body2] | variants: Label Position: Bottom/Left/Right/Top
+- .System / Anatomy Components / Measure Label: size 32x24px, horizontal layout, padding 0 0 0 0px, gap 8px, align max/center, sizing W:fixed H:fixed, text [body2] | variants: Label Position: Bottom/Left/Right/Top
+- .System / Anatomy Components / Label With Line (⚙️ System Components): size 163x40px, horizontal layout, padding 0 0 0 0px, gap 8px, align max/center, sizing W:fixed H:fixed, text [body2] | variants: Label Position: Bottom/Left/Right/Top
+- .System / Anatomy Components / Label With Line (⚙️ System Components): size 115x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align max/center, sizing W:fixed H:fixed, text [body2] | variants: Label Position: Bottom/Left/Right/Top
+- Scrollbar: size 16x150px, horizontal layout, padding 0 4 0 4px, gap 0px, align center/min, sizing W:fixed H:fixed, fill #6666661F, effect [inner_shadow 0px offset -0.5 0 #00000012, inner_shadow 0px offset -1 0 #00000005, inner_shadow 0px offset 1 0 #00000005, inner_shadow 0px offset 0.5 0 #00000012] | variants: Platform: Mac/Windows; Position: A - Beginning/B - Middle/C - End
+- .modifier: size 60x100px, fill #FFFFFF
+- .Coherent Color Mixer: size 1164x148px, horizontal layout, padding 24 24 24 24px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [16 sp • Body 1]
+- .Instance Icon: size 40x40px
+- .Variable Icon: size 40x40px, fill #FFFFFF
+- .Main Component Icon: size 40x40px
+- .cursors / ibeam-horizontal: size 24x24px
+- .cursors / grab: size 24x24px
+- .cursors / hover: size 24x24px
+- .Documentation Header: size 1440x144px, vertical layout, padding 0 0 0 0px, gap 16px, align min/center, sizing W:fixed H:fixed, text [body1, headline3, overline]
+
+## Most-Used Styles
+- caption: 13085 uses
+- body2: 6610 uses
+- body1: 3490 uses
+- subtitle2: 2246 uses
+- button2: 821 uses
+- overline: 461 uses
+- 16 sp • Body 1: 425 uses
+- Elevation/1: 425 uses
+- headline4: 357 uses
+- subtitle1: 274 uses
+- headline6: 205 uses
+- Elevation Surface/3dp: 201 uses
+- Elevation/3: 163 uses
+- headline3: 100 uses
+- FAB/Standard: 87 uses
+- headline5: 83 uses
+- button2-uppercase: 82 uses
+- Black — Inactive: 74 uses
+- Elevation Surface/1dp: 68 uses
+- button1: 61 uses
+- body2-bold: 59 uses
+- FAB / Hover: 45 uses
+- Placeholder/Image: 17 uses
+- Blue Grey /50: 16 uses
+- Blue Grey /900: 16 uses
+- csds/headline6: 14 uses
+- FAB / Standart: 11 uses
+- csds/body1: 11 uses
+- csds/on-surface-disabled: 8 uses
+- Elevation/2: 6 uses
+- Green / 600: 6 uses
+- csds/surface: 6 uses
+- Elevation Surface/2dp: 5 uses
+- Elevation Surface/4dp: 5 uses
+- Elevation/4: 5 uses
+- FAB/Hover: 4 uses
+- body1-bold: 4 uses
+- csds/on-surface-medium: 4 uses
+- Elevation Surface/5dp: 3 uses
+- Elevation/5: 2 uses
+- body2-bold-strikethrough: 2 uses
+- body2-strikethrough: 2 uses
+- csds/button-uppercase: 2 uses
+- csds/on-surface: 2 uses
+- csds/primary-inactive: 2 uses
+- csds/ripple/hover: 2 uses
+- headline1: 2 uses
+- headline2: 2 uses
+- Neg – UI 11: 1 use
+- csds/headline3: 1 use
+
+## Layout & Structure
+Screen: 📘 Getting Started  / Welcome!
+- FRAME "Welcome!", 760x2365px, vertical pad 80 80 80 80px gap 40px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF
+  - FRAME "Header", 600x264px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - INSTANCE ".Documentation Header", 600x120px, vertical pad 0 0 16 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Subtitle", 600x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 504x12px, constraints left/top, fill #191919, text [overline]
+        - INSTANCE ".Large Logo", 88x32px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Logo", 88x32px, constraints left/top [decorative, ~32 shapes]
+      - FRAME "Component Details", 600x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 600x56px, constraints left/top, fill #191919, text [headline3], [heading]
+    - TEXT "Thank you for duplicating the Coherent Design System and wel", 600x144px, constraints left/top, fill #666666, text [body1]
+  - FRAME "Preview", 600x396px, constraints left/top
+    - RECTANGLE "image 2", 760x396.38px, constraints center/top, fill image(hash: c615779f134421274ff4bbf83159642418f5f9f9)
+  - FRAME "Details", 600x752px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Details", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - FRAME "Colors", 600x200px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "File Structure", 600x24px, constraints left/top, fill #191919, text [headline6], [heading]
+      - TEXT "To reduce the load on file memory and improve navigation, al", 600x168px, constraints left/top, fill #666666, text [body1]
+    - FRAME "External Libraries", 600x192px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Icons & External Libraries", 600x24px, constraints left/top, fill #191919, text [headline6], [heading]
+      - TEXT "The Coherent Design System does not currently have any nativ", 600x72px, constraints left/top, fill #666666, text [body1]
+      - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - TEXT "Guide to libraries in Figma", 572x24px, constraints left/top, fill #4759FF, text [body1]
+      - TEXT "Even though we recommend using Material Icons, feel free usi", 600x48px, constraints left/top, fill #666666, text [body1]
+    - FRAME "Colors", 600x248px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Colors", 600x24px, constraints left/top, fill #191919, text [headline6], [heading]
+      - TEXT "Coherent Design System colors palette consists of contrast-b", 600x216px, constraints left/top, fill #666666, text [body1]
+  - FRAME "License", 600x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+    - TEXT "License", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - TEXT "Coherent Design System is an open source project licensed un", 600x24px, constraints left/top, fill #666666, text [body1]
+  - FRAME "Contact Us", 600x561px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Support", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - FRAME "Support Text", 600x144px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "We'd love to hear your thoughts on how we can make Coherent ", 600x48px, constraints left/top, fill #666666, text [body1]
+      - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Figma-logo", 20x20px, constraints left/top
+          - VECTOR "path0_fill", 6.67x6.67px, constraints scale/scale, fill #0ACF83
+          - VECTOR "path1_fill", 6.67x6.67px, constraints scale/scale, fill #A259FF
+          - VECTOR "path1_fill_1_", 6.67x6.67px, constraints scale/scale, fill #F24E1E
+          - VECTOR "path2_fill", 6.67x6.67px, constraints scale/scale, fill #FF7262
+          - VECTOR "path3_fill", 6.67x6.67px, constraints scale/scale, fill #1ABCFE
+        - TEXT "Community File", 572x24px, constraints left/top, fill #4759FF, text [body1]
+      - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "feed", 20x20px, constraints left/top
+          - VECTOR "Vector", 15x15px, constraints scale/scale, fill #4759FF
+        - TEXT "Online Form", 572x24px, constraints left/top, fill #4759FF, text [body1]
+      - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "alternate_email", 20x20px, constraints left/top
+          - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, fill #4759FF
+        - TEXT "support.designsystem@coherentsolutions.com", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "LinkedIn Links", 600x152px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Also, feel free to write directly to guys from our team", 600x24px, constraints left/top, fill #666666, text [body1]
+      - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "LinkedIn", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #0A66C2
+        - TEXT "Alexey Novik", 572x24px, constraints left/top, fill #4759FF, text [body1]
+      - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "LinkedIn", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #0A66C2
+        - TEXT "Denis Kozyulya", 572x24px, constraints left/top, fill #4759FF, text [body1]
+      - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "LinkedIn", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #0A66C2
+        - TEXT "Yuri Grigorovich", 572x24px, constraints left/top, fill #4759FF, text [body1]
+      - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "LinkedIn", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #0A66C2
+        - TEXT "Ksenia Gorobuk", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - INSTANCE "Divider", 600x1px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, opacity 24%
+      - RECTANGLE "Divider Line", 90x1px, constraints left/top, fill #666666
+    - TEXT "By submitting feedback to support.designsystems@coherentsolu", 600x128px, constraints left/top, fill #999999, text [caption]
+
+Screen: 📘 Getting Started  / Colors Overview
+- FRAME "Colors Overview", 760x796px, vertical pad 80 80 80 80px gap 40px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF
+  - INSTANCE ".Documentation Header", 600x120px, vertical pad 0 0 16 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+    - FRAME "Subtitle", 600x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Title", 504x12px, constraints left/top, fill #191919, text [overline]
+      - INSTANCE ".Large Logo", 88x32px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Logo", 88x32px, constraints left/top [decorative, ~32 shapes]
+    - FRAME "Component Details", 600x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Title", 600x56px, constraints left/top, fill #191919, text [headline3], [heading]
+  - FRAME "Version Box", 600x264px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+    - TEXT "May 2024", 600x16px, constraints left/top, fill #666666, text [caption]
+    - TEXT "1.1.0", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - TEXT "Solid improvements of the color variables to make it more in", 600x192px, constraints left/top, fill #191919, text [body1]
+  - FRAME "Version Box", 600x96px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Nov 2023", 600x16px, constraints left/top, fill #666666, text [caption]
+    - TEXT "1.0.0", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - TEXT "Initial Release.", 600x24px, constraints left/top, fill #191919, text [body1]
+  - INSTANCE "Button", 205x36px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #4759FF
+    - FRAME "Label-wrap", 51x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 153x20px, constraints left/top, fill #FFFFFF, text [button2]
+
+Screen: 📘 Getting Started  / Colors Overview
+- FRAME "Colors Overview", 760x1413px, vertical pad 80 80 80 80px gap 32px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF
+  - FRAME "Frame 2", 600x264px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - INSTANCE ".Documentation Header", 600x120px, vertical pad 0 0 16 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Subtitle", 600x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 504x12px, constraints left/top, fill #191919, text [overline]
+        - INSTANCE ".Large Logo", 88x32px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Logo", 88x32px, constraints left/top [decorative, ~32 shapes]
+      - FRAME "Component Details", 600x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 600x56px, constraints left/top, fill #191919, text [headline3], [heading]
+    - TEXT "Coherent Solutions is a digital product engineering company ", 600x144px, constraints left/top, fill #666666, text [body1]
+  - FRAME "Services", 600x680px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+    - INSTANCE "Card Background", 600x679px, constraints left_right/top_bottom, radius 8px, fill Elevation Surface/1dp, effect Elevation/1
+    - FRAME "Card Container", 600x680px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 8px
+      - FRAME "Block-02", 600x300px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Image Container", 600x300px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #08153F
+          - FRAME "Aspect ratio keeper # Rotated Auto Layout", 519.62x300px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #FFFFFF66 1px
+      - INSTANCE "Block-03", 600x99px, vertical pad 16 16 11 16px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Headline", 568x32px, constraints left/top, fill #191919, text [Roboto Regular, 24px], [heading]
+        - TEXT "Body", 568x40px, constraints left/top, fill #666666, text [body2]
+      - INSTANCE "Block-04", 600x112px, vertical pad 0 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 568x96px, constraints left/top, fill #191919, text [Roboto Regular, 16px]
+      - INSTANCE "Block-05", 600x72px, horizontal pad 0 16 0 16px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Chip 01", 156x32px, horizontal pad 4 8 4 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #4759FF0F
+          - FRAME "Label Container", 140x24px, horizontal pad 2 4 2 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Label", 132x20px, constraints left/top, fill #4759FF, text [body2]
+        - INSTANCE "Chip 02", 156x32px, horizontal pad 4 8 4 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #4759FF0F
+          - FRAME "Label Container", 140x24px, horizontal pad 2 4 2 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Label", 132x20px, constraints left/top, fill #4759FF, text [body2]
+        - INSTANCE "Chip 03", 130x32px, horizontal pad 4 8 4 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #4759FF0F
+          - FRAME "Label Container", 114x24px, horizontal pad 2 4 2 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Label", 106x20px, constraints left/top, fill #4759FF, text [body2]
+        - INSTANCE "Chip 04", 123x32px, horizontal pad 4 8 4 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #4759FF0F
+          - FRAME "Label Container", 107x24px, horizontal pad 2 4 2 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Label", 99x20px, constraints left/top, fill #4759FF, text [body2]
+        - INSTANCE "Chip 05", 200x32px, horizontal pad 4 8 4 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #4759FF0F
+          - FRAME "Label Container", 184x24px, horizontal pad 2 4 2 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Label", 176x20px, constraints left/top, fill #4759FF, text [body2]
+      - FRAME "Block-06", 600x33px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, opacity 24%
+        - RECTANGLE "Divider Line", 568x1px, constraints left/top, fill #666666
+      - INSTANCE "Block-07", 600x64px, horizontal pad 0 0 16 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Action Buttons", 584x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "2nd Action Button", 105x36px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #4759FF
+            - FRAME "Label-wrap", 81x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+  - FRAME "Frame 1", 600x245px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Clutch", 284x245px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px
+      - INSTANCE "Card Background", 284x244px, constraints left_right/top_bottom, radius 8px, fill Elevation Surface/1dp, effect Elevation/1
+      - FRAME "Card Container", 284x245px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Block-02", 284x142px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Image Container", 284x142px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Aspect ratio keeper # Rotated Auto Layout", 245.95x142px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #FFFFFF66 1px
+        - INSTANCE "Block-03", 284x103px, vertical pad 16 16 11 16px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Headline", 252x32px, constraints left/top, fill #191919, text [Roboto Regular, 24px], [heading]
+          - TEXT "Body", 252x20px, constraints left/top, fill #666666, text [body2]
+          - INSTANCE "Ratings", 252x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Rating Stars", 120x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 106x20px, constraints left/top, fill #666666, text [body2]
+    - FRAME "LinkedIn", 284x245px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, radius 8px
+      - INSTANCE "Card Background", 284x244px, constraints left_right/top_bottom, radius 8px, fill Elevation Surface/1dp, effect Elevation/1
+      - FRAME "Card Container", 284x221px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Block-02", 284x142px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Image Container", 284x142px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Aspect ratio keeper # Rotated Auto Layout", 245.95x142px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #FFFFFF66 1px
+        - INSTANCE "Block-03", 284x79px, vertical pad 16 16 11 16px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Headline", 252x32px, constraints left/top, fill #191919, text [Roboto Regular, 24px], [heading]
+          - TEXT "Body", 252x20px, constraints left/top, fill #666666, text [body2]
+
+Screen: 📘 Getting Started  / Helpful Figma Resources
+- FRAME "Helpful Figma Resources", 760x1152px, vertical pad 80 80 80 80px gap 40px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF
+  - FRAME "Header", 600x176px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE ".Documentation Header", 600x120px, vertical pad 0 0 16 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Subtitle", 600x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 504x12px, constraints left/top, fill #191919, text [overline]
+        - INSTANCE ".Large Logo", 88x32px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Logo", 88x32px, constraints left/top [decorative, ~32 shapes]
+      - FRAME "Component Details", 600x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 600x56px, constraints left/top, fill #191919, text [headline3], [heading]
+    - FRAME "Source Info", 600x56px, horizontal pad 16 32 16 32px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #4759FF0F
+      - TEXT "Label", 137x24px, constraints left/top, fill #666666, text [body1]
+      - TEXT "Link", 391x24px, constraints left/top, fill #666666, text [body1]
+  - FRAME "Figma Basics", 600x136px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Figma Basics", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Best Practice Guides", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Figma Learn", 572x24px, constraints left/top, fill #4759FF, text [body1]
+  - FRAME "Libraries & Components", 600x376px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Libraries & Components", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "YouTube", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x14.09px, constraints scale/scale, fill #FF0302
+        - VECTOR "Vector", 5.23x5.95px, constraints scale/scale, fill #FEFEFE
+      - TEXT "Figma tutorial: Create a shareable team library", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Guide to libraries in Figma", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "YouTube", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x14.09px, constraints scale/scale, fill #FF0302
+        - VECTOR "Vector", 5.23x5.95px, constraints scale/scale, fill #FEFEFE
+      - TEXT "Figma Tutorial: Components - The Basics", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Guide to components in Figma", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Explore component properties", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Component Properties Playground", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Auto layout playground", 572x24px, constraints left/top, fill #4759FF, text [body1]
+  - FRAME "Variables", 600x184px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Variables", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "YouTube", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x14.09px, constraints scale/scale, fill #FF0302
+        - VECTOR "Vector", 5.23x5.95px, constraints scale/scale, fill #FEFEFE
+      - TEXT "Figma Tutorial: Intro to variables", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Variables Playground", 572x24px, constraints left/top, fill #4759FF, text [body1]
+    - FRAME "Link", 600x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Figma", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Guide to variables in Figma", 572x24px, constraints left/top, fill #4759FF, text [body1]
+
+Screen: 📜 Component List / Component List
+- FRAME "Component List", 760x1490px, vertical pad 80 80 80 80px gap 40px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF
+  - FRAME "Header", 600x288px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - INSTANCE ".Documentation Header", 600x288px, vertical pad 0 0 16 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Subtitle", 600x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 504x12px, constraints left/top, fill #191919, text [overline]
+        - INSTANCE ".Large Logo", 88x32px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Logo", 88x32px, constraints left/top [decorative, ~32 shapes]
+      - FRAME "Component Details", 600x224px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 600x56px, constraints left/top, fill #191919, text [headline3], [heading]
+        - TEXT "Description", 600x168px, constraints left/top, fill #666666, text [body1]
+  - FRAME "Libraries & Components", 600x634px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Title", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - FRAME "Content List", 600x570px, horizontal pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - FRAME "1st Column", 276x570px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [Roboto Regular, 16px]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - FRAME "List Item", 276x90px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+          - TEXT "Description", 276x64px, constraints left/top, fill #666666, text [caption]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+      - FRAME "2nd Column", 276x570px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - FRAME "List Item", 276x42px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+          - TEXT "Description", 276x16px, constraints left/top, fill #666666, text [caption]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+  - FRAME "Libraries & Components", 600x328px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Title", 600x40px, constraints left/top, fill #191919, text [headline4], [heading]
+    - FRAME "Content List", 600x264px, horizontal pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - FRAME "1st Column", 276x264px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+      - FRAME "2nd Column", 276x264px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+        - TEXT "List Item", 276x24px, constraints left/top, fill #4759FF, text [body1]
+
+Screen:       ↳ Visual Style / Example Custom 1 - Light
+- FRAME "Example Custom 1 - Light", 1440x1522px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Navigation Drawer", 419x1435px, vertical pad 8 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left_right/top_bottom, fill #FFFFFF
+    - INSTANCE "Header", 280x151px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F2F2F2
+      - INSTANCE "Block-01", 280x64px, vertical pad 4 0 4 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+        - FRAME "Content Wrap", 250x48px, vertical pad 12 16 12 16px gap 8px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Content", 218x24px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - FRAME "Text Block", 178x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Block-02", 280x68px, vertical pad 4 0 4 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+        - FRAME "Content Wrap", 250x48px, vertical pad 12 16 12 16px gap 8px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Content", 218x24px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - FRAME "Text Block", 178x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+    - FRAME "Body", 280x561px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top
+      - FRAME "Content Wrap", 280x561px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fill, constraints left/top, radius 8px
+        - INSTANCE "Nav List", 280x520px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fill, constraints left/top, radius 8px, fill #F2F2F2
+          - INSTANCE "Nav Item 01", 280x48px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Content Wrap", 280x48px, vertical pad 12 16 12 16px gap 8px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Nav Item 02", 280x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Button", 138x56px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 36px, fill #5D667D0F
+          - INSTANCE "Nav Item 03", 280x48px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Content Wrap", 280x48px, vertical pad 12 16 12 16px gap 8px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Nav Item 04", 280x48px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Thumbnail", 40x40px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #6666660F
+            - FRAME "Content Wrap", 162x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Nav Item 05", 280x48px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Thumbnail", 40x40px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #6666660F
+            - FRAME "Content Wrap", 162x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Nav Item 06", 280x48px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Thumbnail", 40x40px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #6666660F
+            - FRAME "Content Wrap", 162x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+  - FRAME "Scroll Area", 709x1426px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 8px, fill #F2F2F2
+    - FRAME "Cover", 709x307px, vertical pad 16 16 16 16px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 8/8/0/0px, fill #4759FF0F
+      - FRAME "Header", 677x36px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Nav", 80x36px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #5D667D0F
+            - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #5D667D0F
+            - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "Right Controls", 573x36px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Button", 95x36px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 36px, fill #5D667D
+            - FRAME "Label-wrap", 51x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Button", 95x36px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 36px, fill #5D667D0F
+            - INSTANCE "Leading Icon", 20x20px, constraints scale/scale
+            - FRAME "Label-wrap", 51x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #5D667D0F
+            - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #5D667D0F
+            - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Content Wrap", 677x215px, horizontal pad 0 0 0 0px gap 16px align min/max sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Image", 215x215px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, effect FAB/Standard
+          - FRAME "Image Container", 215x215px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill image(hash: 07f90cbb94017ec3b0a2609b72fc5cfb17fe4606)
+            - FRAME "Aspect ratio keeper # Additionally 45º rotated Auto Layout", 215x215px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Content", 446x120px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Category", 446x20px, constraints left/top, fill #666666, text [body2]
+          - TEXT "Title", 446x32px, constraints left/top, fill #191919, text [headline5], [heading]
+          - TEXT "Description", 446x20px, constraints left/top, fill #666666, text [body2]
+          - FRAME "Details", 446x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar Image", 24x24px, constraints left/top, radius 999px, fill image(hash: b6b15ea9602f65f5b195e191dfe3153261da8b7c), stroke #FFFFFF 0px
+            - TEXT "Title", 121x20px, constraints left/top, fill #666666, text [body2-bold]
+            - TEXT "Dot", 8x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Title", 82x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Dot", 8x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Title", 163x20px, constraints left/top, fill #666666, text [body2]
+    - FRAME "Subheader", 709x56px, horizontal pad 0 16 0 16px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Player Controls", 585x56px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Icon Button", 56x56px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #4759FF
+          - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x14px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x18.35px, constraints scale/scale, fill #666666
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x4px, constraints scale/scale, fill #666666
+      - INSTANCE "Button", 87x36px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 36px, fill #FFFFFF00
+        - FRAME "Label-wrap", 51x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 24x20px, constraints left/top, fill #5D667D, text [button2]
+        - INSTANCE "Trailing Icon", 20x20px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 15x8.33px, constraints scale/scale, fill #5D667D
+    - FRAME "Table", 709x392px, vertical pad 0 16 0 16px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 677x56px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 16/16/0/0px
+        - INSTANCE "Table-Parts / Header Cell / Default", 48x56px, horizontal pad 16 16 16 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+          - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px align max/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 16x16px, constraints left/top, fill #191919, text [subtitle2], [heading]
+        - INSTANCE "Table-Parts / Header Cell / Default", 188.33x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+          - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x16px, constraints left/top, fill #191919, text [subtitle2], [heading]
+        - INSTANCE "Table-Parts / Header Cell / Default", 188.33x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+          - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x16px, constraints left/top, fill #191919, text [subtitle2], [heading]
+        - INSTANCE "Table-Parts / Header Cell / Default", 188.33x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+          - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x16px, constraints left/top, fill #191919, text [subtitle2], [heading]
+        - INSTANCE "Table-Parts / Header Cell / Default", 64x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+          - INSTANCE "Lead-Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x20px, constraints scale/scale, fill #191919
+      - FRAME "Row 1", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - INSTANCE "Leading-icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 14x14px, constraints scale/scale, fill #2F8C33
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 2ba491ebf5919ca1f5f6db065822e383b3139982), stroke #E6E6E6 1px
+          - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 108.33x20px, constraints left/top, fill #2F8C33, text [subtitle2], [heading]
+            - TEXT "Secondary-Text", 108.33x16px, constraints left/top, fill #666666, text [caption]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 32x20px, constraints left/top, fill #191919, text [body2]
+      - FRAME "Row 2", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 16x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: f61c0cb97c3bfcf364a28caee2fd9827e739f649), stroke #E6E6E6 1px
+          - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 108.33x20px, constraints left/top, fill #191919, text [subtitle2], [heading]
+            - TEXT "Secondary-Text", 108.33x16px, constraints left/top, fill #666666, text [caption]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 32x20px, constraints left/top, fill #191919, text [body2]
+      - FRAME "Row 3", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 16x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 6d618fec27cb5417b0acfa1f7799511811b11ada), stroke #E6E6E6 1px
+          - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 108.33x20px, constraints left/top, fill #191919, text [subtitle2], [heading]
+            - TEXT "Secondary-Text", 108.33x16px, constraints left/top, fill #666666, text [caption]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 32x20px, constraints left/top, fill #191919, text [body2]
+      - FRAME "Row 4", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 16x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 5de76c9d8ca96c4738c44cc4e73a490a2c11d209), stroke #E6E6E6 1px
+          - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 108.33x20px, constraints left/top, fill #191919, text [subtitle2], [heading]
+            - TEXT "Secondary-Text", 108.33x16px, constraints left/top, fill #666666, text [caption]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 32x20px, constraints left/top, fill #191919, text [body2]
+      - FRAME "Row 5", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 16x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 79c28d4a206e7c09c29beb07273da5c9b343fdb9), stroke #E6E6E6 1px
+          - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 108.33x20px, constraints left/top, fill #191919, text [subtitle2], [heading]
+            - TEXT "Secondary-Text", 108.33x16px, constraints left/top, fill #666666, text [caption]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 32x20px, constraints left/top, fill #191919, text [body2]
+      - FRAME "Row 6", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 16x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 87b14eed3e9a7b99d7419a32e4c3d4c9f38b81fc), stroke #E6E6E6 1px
+          - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 108.33x20px, constraints left/top, fill #191919, text [subtitle2], [heading]
+            - TEXT "Secondary-Text", 108.33x16px, constraints left/top, fill #666666, text [caption]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 156.33x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+          - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary-Text", 32x20px, constraints left/top, fill #191919, text [body2]
+    - FRAME "Header", 709x40px, horizontal pad 16 16 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Title", 677x24px, constraints left/top, fill #191919, text [headline6], [heading]
+    - FRAME "Cards", 709x291px, horizontal pad 0 16 0 16px gap 16px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Card / Vertical", 215x233.25px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Card Container", 400x612px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-02", 400x200px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Image Container", 240x240px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill image(hash: c4bfd064a28e96c3db9c98beba287ef1d8d4df6f)
+          - INSTANCE "Block-03", 400x115px, vertical pad 16 0 16 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Headline", 215x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+            - TEXT "Body", 215x20px, constraints left/top, fill #666666, text [body2]
+      - INSTANCE "Card / Vertical", 215x233.25px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Card Container", 400x612px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-02", 400x200px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Image Container", 240x240px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill image(hash: 6ca0ca52d04a693c71b4edcce2444c086ae0de64)
+          - INSTANCE "Block-03", 400x115px, vertical pad 16 0 16 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Headline", 215x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+            - TEXT "Body", 215x20px, constraints left/top, fill #666666, text [body2]
+      - INSTANCE "Card / Vertical", 215x233.25px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Card Container", 400x612px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-02", 400x200px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Image Container", 240x240px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill image(hash: 71471819c8339898ed31ffd0fe06784dfad71b51)
+          - INSTANCE "Block-03", 400x115px, vertical pad 16 0 16 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Headline", 215x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+            - TEXT "Body", 215x20px, constraints left/top, fill #666666, text [body2]
+    - FRAME "Frame 4", 709x313px, vertical pad 0 16 40 16px gap 32px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Footer", 677x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Content", 157.25x136px, vertical pad 16 0 16 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title", 157.25x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+        - FRAME "Content", 157.25x192px, vertical pad 16 0 16 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title", 157.25x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+        - FRAME "Content", 157.25x108px, vertical pad 16 0 16 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title", 157.25x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+        - FRAME "Content", 157.25x72px, horizontal pad 16 0 16 0px gap 8px sizing W:fill H:fixed, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Divider", 677x1px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, opacity 24%
+        - RECTANGLE "Divider Line", 90x1px, constraints left/top, fill #666666
+      - FRAME "Subfooter", 677x16px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "List", 562x16px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Menu Item", 31x16px, constraints left/top, fill #666666, text [caption]
+          - TEXT "Menu Item", 133x16px, constraints left/top, fill #666666, text [caption]
+          - TEXT "Menu Item", 80x16px, constraints left/top, fill #666666, text [caption]
+          - TEXT "Menu Item", 39x16px, constraints left/top, fill #666666, text [caption]
+          - TEXT "Menu Item", 52x16px, constraints left/top, fill #666666, text [caption]
+          - TEXT "Menu Item", 72x16px, constraints left/top, fill #666666, text [caption]
+        - TEXT "Menu Item", 99x16px, constraints left/top, fill #666666, text [caption]
+  - INSTANCE "Details Panel", 280x817.33px, vertical pad 0 16 16 16px gap 8px sizing W:fixed H:fixed, constraints right/top, radius 8px, fill #F2F2F2
+    - INSTANCE "Header", 40x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 212x16px, constraints left/top, fill #191919, text [subtitle2], [heading]
+      - INSTANCE "Block-02", 40x40px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+        - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11.67x11.67px, constraints scale/scale, fill #666666
+    - INSTANCE "Image", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+      - FRAME "Image Container", 240x240px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill image(hash: 2ba491ebf5919ca1f5f6db065822e383b3139982)
+        - FRAME "Aspect ratio keeper # Additionally 45º rotated Auto Layout", 240x240px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Aspect ratio keeper # Rotated Auto Layout", 84.17x224.76px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints right/bottom, stroke #FFFFFF66 1px
+    - INSTANCE "Header", 40x40px, horizontal pad 0 0 16 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 160x24px, constraints left/top, fill #191919, text [headline6], [heading]
+        - INSTANCE "Block-02", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 160x16px, constraints left/top, fill #666666, text [subtitle2], [heading]
+      - INSTANCE "Block-02", 40x40px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+        - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.67x15.29px, constraints scale/scale, fill #666666
+      - INSTANCE "Block-03", 40x40px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+        - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x3.33px, constraints scale/scale, fill #666666
+    - INSTANCE "Card", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #6666660F
+      - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Image Container", 240x160px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8/8/0/0px, fill image(hash: 9f07a9065df0c548e5bef548b8d20ef633fb63d2)
+          - FRAME "Aspect ratio keeper # Rotated Auto Layout", 178.89x160px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #FFFFFF66 1px
+      - INSTANCE "Block-02", 40x40px, vertical pad 16 16 16 16px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 216x16px, constraints left/top, fill #191919, text [subtitle2], [heading]
+        - INSTANCE "Block-02", 40x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 146x32px, constraints left/top, fill #666666, text [caption]
+          - INSTANCE "Block-02", 40x40px, horizontal pad 4 10 4 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 36px, fill #FFFFFF00, stroke #5D667D 1px
+            - FRAME "Label-wrap", 51x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Block-03", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 216x48px, constraints left/top, fill #666666, text [caption]
+    - INSTANCE "Card", 40x40px, vertical pad 16 16 16 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #6666660F
+      - INSTANCE "Block-01", 40x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 168x16px, constraints left/top, fill #191919, text [subtitle2], [heading]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen:       ↳ Visual Style / Example Default - Light
+- FRAME "Example Default - Light", 1440x800px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 5", 1440x897.33px, horizontal pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Navigation Drawer", 419x508px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px
+      - INSTANCE "Header", 280x151px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #5D667D0F
+        - INSTANCE "Block-01", 280x64px, vertical pad 4 0 4 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+          - FRAME "Content Wrap", 250x48px, vertical pad 12 16 12 16px gap 8px align center/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Content", 218x24px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Block-02", 280x68px, vertical pad 4 0 4 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+          - FRAME "Content Wrap", 250x48px, vertical pad 12 16 12 16px gap 8px align center/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Content", 218x24px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Body", 280x561px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #5D667D0F
+        - FRAME "Content Wrap", 280x561px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px
+          - INSTANCE "Nav List", 280x520px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px
+            - INSTANCE "Nav Item 01", 280x48px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - INSTANCE "Nav Item 02", 280x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Nav Item 03", 280x48px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - INSTANCE "Nav Item 04", 280x48px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Nav Item 05", 280x48px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Nav Item 06", 280x48px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+    - FRAME "Scroll Area", 709x704px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px
+      - FRAME "Cover", 709x307px, vertical pad 16 16 16 16px gap 24px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #5D667D0F
+        - FRAME "Header", 677x36px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Nav", 80x36px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+            - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - FRAME "Right Controls", 573x36px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Button", 95x36px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #4759FF
+            - INSTANCE "Button", 87x36px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF00
+            - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+            - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+        - FRAME "Content Wrap", 677x215px, horizontal pad 0 0 0 0px gap 16px align min/max sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Image", 215x215px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Image Container", 215x215px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill image(hash: 07f90cbb94017ec3b0a2609b72fc5cfb17fe4606)
+          - FRAME "Content", 446x116px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Category", 446x16px, constraints left/top, fill #666666, text [subtitle2], [heading]
+            - TEXT "Title", 446x32px, constraints left/top, fill #191919, text [headline5], [heading]
+            - TEXT "Description", 446x20px, constraints left/top, fill #666666, text [body2]
+            - FRAME "Details", 446x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Subheader", 709x48px, horizontal pad 0 16 0 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Player Controls", 585x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #4759FF
+            - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+            - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+            - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Button", 87x36px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 36px, fill #FFFFFF00
+          - FRAME "Label-wrap", 51x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Label", 24x20px, constraints left/top, fill #666666, text [button2]
+          - INSTANCE "Trailing Icon", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 15x8.33px, constraints scale/scale, fill #666666
+      - FRAME "Table", 709x392px, vertical pad 0 16 0 16px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 677x56px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 16/16/0/0px
+          - INSTANCE "Table-Parts / Header Cell / Default", 48x56px, horizontal pad 16 16 16 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+            - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px align max/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Header Cell / Default", 188.33x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+            - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Header Cell / Default", 188.33x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+            - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Header Cell / Default", 188.33x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+            - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Header Cell / Default", 64x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #B3B3B3 1px
+            - INSTANCE "Lead-Icon", 24x24px, constraints left/top, fill #FFFFFF
+        - FRAME "Row 1", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - INSTANCE "Leading-icon", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 2ba491ebf5919ca1f5f6db065822e383b3139982), stroke #E6E6E6 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Row 2", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: f61c0cb97c3bfcf364a28caee2fd9827e739f649), stroke #E6E6E6 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Row 3", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 6d618fec27cb5417b0acfa1f7799511811b11ada), stroke #E6E6E6 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Row 4", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 5de76c9d8ca96c4738c44cc4e73a490a2c11d209), stroke #E6E6E6 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Row 5", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 79c28d4a206e7c09c29beb07273da5c9b343fdb9), stroke #E6E6E6 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Row 6", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 87b14eed3e9a7b99d7419a32e4c3d4c9f38b81fc), stroke #E6E6E6 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #E6E6E6 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Header", 709x40px, horizontal pad 16 16 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 677x24px, constraints left/top, fill #191919, text [headline6], [heading]
+      - FRAME "Cards", 709x287px, horizontal pad 0 16 0 16px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Card / Vertical", 215x273.67px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Card Container", 400x612px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-02", 400x200px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-03", 400x115px, vertical pad 8 0 16 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Card / Vertical", 215x273.67px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Card Container", 400x612px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-02", 400x200px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-03", 400x115px, vertical pad 8 0 16 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Card / Vertical", 215x273.67px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Card Container", 400x612px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-02", 400x200px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-03", 400x115px, vertical pad 8 0 16 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4", 709x313px, vertical pad 0 16 40 16px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Footer", 677x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Content", 157.25x136px, vertical pad 16 0 16 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title", 157.25x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - FRAME "Content", 157.25x192px, vertical pad 16 0 16 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title", 157.25x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - FRAME "Content", 157.25x108px, vertical pad 16 0 16 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title", 157.25x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+            - TEXT "Menu Item", 157.25x20px, constraints left/top, fill #666666, text [body2]
+          - FRAME "Content", 157.25x72px, horizontal pad 16 0 16 0px gap 8px sizing W:fill H:fixed, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Divider", 677x1px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, opacity 24%
+          - RECTANGLE "Divider Line", 90x1px, constraints left/top, fill #666666
+        - FRAME "Subfooter", 677x16px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "List", 562x16px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Menu Item", 31x16px, constraints left/top, fill #666666, text [caption]
+            - TEXT "Menu Item", 133x16px, constraints left/top, fill #666666, text [caption]
+            - TEXT "Menu Item", 80x16px, constraints left/top, fill #666666, text [caption]
+            - TEXT "Menu Item", 39x16px, constraints left/top, fill #666666, text [caption]
+            - TEXT "Menu Item", 52x16px, constraints left/top, fill #666666, text [caption]
+            - TEXT "Menu Item", 72x16px, constraints left/top, fill #666666, text [caption]
+          - TEXT "Menu Item", 99x16px, constraints left/top, fill #666666, text [caption]
+    - INSTANCE "Details Panel", 280x932px, vertical pad 0 16 16 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #5D667D0F
+      - INSTANCE "Block-01", 40x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 212x24px, constraints left/top, fill #191919, text [body1]
+        - INSTANCE "Block-02", 40x40px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+          - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 11.67x11.67px, constraints scale/scale, fill #666666
+      - INSTANCE "Block-02", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Image Container", 240x240px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill image(hash: 2ba491ebf5919ca1f5f6db065822e383b3139982)
+          - FRAME "Aspect ratio keeper # Additionally 45º rotated Auto Layout", 240x240px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Aspect ratio keeper # Rotated Auto Layout", 84.17x224.76px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints right/bottom, stroke #FFFFFF66 1px
+      - INSTANCE "Block-03", 40x40px, horizontal pad 0 0 16 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 160x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+          - INSTANCE "Block-02", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 160x16px, constraints left/top, fill #666666, text [caption]
+        - INSTANCE "Block-02", 40x40px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+          - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16.67x15.29px, constraints scale/scale, fill #666666
+        - INSTANCE "Block-03", 40x40px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+          - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x3.33px, constraints scale/scale, fill #666666
+      - INSTANCE "Block-04", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #5D667D0F
+        - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Image Container", 240x160px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8/8/0/0px, fill image(hash: 9f07a9065df0c548e5bef548b8d20ef633fb63d2)
+            - FRAME "Aspect ratio keeper # Rotated Auto Layout", 178.89x160px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #FFFFFF66 1px
+        - INSTANCE "Block-02", 40x40px, vertical pad 16 16 16 16px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 216x20px, constraints left/top, fill #191919, text [subtitle1], [heading]
+          - INSTANCE "Block-02", 40x40px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-02", 40x40px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF00, stroke #4759FF 1px
+          - INSTANCE "Block-03", 40x40px, vertical pad 8 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 216x60px, constraints left/top, fill #666666, text [body2]
+      - INSTANCE "Block-05", 40x40px, vertical pad 16 8 16 8px gap 16px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #5D667D0F
+        - INSTANCE "Block-01", 40x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 178x24px, constraints left/top, fill #191919, text [body1]
+          - INSTANCE "Block-02", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 54x20px, constraints left/top, fill #191919, text [button2]
+        - INSTANCE "Block-02", 40x40px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-02", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-02", 40x40px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF00, stroke #4759FF 1px
+            - FRAME "Label-wrap", 51x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Block-03", 40x40px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-01", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Block-02", 40x40px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Block-02", 40x40px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF00, stroke #4759FF 1px
+            - FRAME "Label-wrap", 51x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+  - FRAME "Footer", 1440x88px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left_right/bottom, fill Elevation Surface/2dp, stroke #FFFFFF 1px, effect Elevation/2
+    - INSTANCE "Block-02", 419x68px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Thumbnail", 40x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 48862b4321b19274abc09f67331b4a3bdd6c9f21), stroke #E6E6E6 1px
+      - FRAME "Content Wrap", 331x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text block", 291x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Primary text", 291x24px, constraints left/top, fill #191919, text [headline6], [heading]
+          - TEXT "Secondary text", 291x20px, constraints left/top, fill #666666, text [body2]
+        - INSTANCE "Trailing Icon Button", 24x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x18.35px, constraints scale/scale, fill #666666
+    - FRAME "Player", 570x72px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Player Controls", 272x48px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill #666666
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x12px, constraints scale/scale, fill #666666
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x14px, constraints scale/scale, fill #666666
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x12px, constraints scale/scale, fill #666666
+        - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18x20px, constraints scale/scale, fill #666666
+      - FRAME "Timeline", 570x20px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 28x20px, constraints left/top, fill #191919, text [body2]
+        - INSTANCE "Progress Line", 498x4px, constraints left/top, radius 4px, fill #FAFAFA
+          - INSTANCE "Active Indicator", 99.6x4px, constraints scale/scale, radius 4px, fill #4759FF
+        - TEXT "Text", 28x20px, constraints left/top, fill #191919, text [body2]
+    - FRAME "Extra Controls", 419x36px, horizontal pad 0 0 0 0px gap 0px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+        - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.67x13.33px, constraints scale/scale, fill #666666
+      - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+        - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11.67x15.83px, constraints scale/scale, fill #666666
+      - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+        - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.83x13.33px, constraints scale/scale, fill #666666
+      - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+        - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18.33x13.33px, constraints scale/scale, fill #666666
+      - FRAME "Volume", 125x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+          - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15x14.62px, constraints scale/scale, fill #666666
+        - INSTANCE "Progress Line", 89x4px, constraints left/top, radius 4px, fill #FAFAFA
+          - INSTANCE "Active Indicator", 17.8x4px, constraints scale/scale, radius 4px, fill #4759FF
+      - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+        - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 18.33x15px, constraints scale/scale, fill #666666
+      - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999/0/999/999px
+        - INSTANCE "Leading Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x15px, constraints scale/scale, fill #666666
+
+Screen:       ↳ Visual Style / Example Default - Dark
+- FRAME "Example Default - Dark", 1440x800px, constraints left/top, fill #191919
+  - FRAME "Frame 5", 1424x889.33px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Navigation Drawer", 419x508px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px
+      - INSTANCE "Header", 280x151px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #AAB3CA14
+        - INSTANCE "Block-01", 280x64px, vertical pad 4 0 4 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+          - FRAME "Content Wrap", 250x48px, vertical pad 12 16 12 16px gap 8px align center/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Content", 218x24px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Block-02", 280x68px, vertical pad 4 0 4 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+          - FRAME "Content Wrap", 250x48px, vertical pad 12 16 12 16px gap 8px align center/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Content", 218x24px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Body", 280x561px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #AAB3CA14
+        - FRAME "Content Wrap", 280x561px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px
+          - INSTANCE "Nav List", 280x520px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px
+            - INSTANCE "Nav Item 01", 280x48px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - INSTANCE "Nav Item 02", 280x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Nav Item 03", 280x48px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - INSTANCE "Nav Item 04", 280x48px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Nav Item 05", 280x48px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Nav Item 06", 280x48px, horizontal pad 12 16 12 16px gap 16px align center/center sizing W:fill H:fixed, constraints left/top
+    - FRAME "Scroll Area", 709x704px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px
+      - FRAME "Cover", 709x307px, vertical pad 16 16 16 16px gap 24px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #AAB3CA14
+        - FRAME "Header", 677x36px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Nav", 80x36px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+            - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+          - FRAME "Right Controls", 573x36px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Button", 95x36px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #A4ADFF
+            - INSTANCE "Button", 87x36px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF00
+            - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+            - INSTANCE "Icon Button", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+        - FRAME "Content Wrap", 677x215px, horizontal pad 0 0 0 0px gap 16px align min/max sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Image", 215x215px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Image Container", 215x215px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill image(hash: 07f90cbb94017ec3b0a2609b72fc5cfb17fe4606)
+          - FRAME "Content", 446x120px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Category", 446x20px, constraints left/top, fill #B3B3B3, text [body2]
+            - TEXT "Title", 446x32px, constraints left/top, fill #F2F2F2, text [headline5], [heading]
+            - TEXT "Description", 446x20px, constraints left/top, fill #B3B3B3, text [body2]
+            - FRAME "Details", 446x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Subheader", 709x48px, horizontal pad 0 16 0 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Player Controls", 585x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #A4ADFF
+            - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+            - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon Button", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+            - INSTANCE "Leading Icon", 24x24px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Button", 87x36px, horizontal pad 8 8 8 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 36px, fill #FFFFFF00
+          - FRAME "Label-wrap", 51x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Label", 24x20px, constraints left/top, fill #B3B3B3, text [button2]
+          - INSTANCE "Trailing Icon", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 15x8.33px, constraints scale/scale, fill #B3B3B3
+      - FRAME "Table", 709x392px, vertical pad 0 16 0 16px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 677x56px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 16/16/0/0px
+          - INSTANCE "Table-Parts / Header Cell / Default", 48x56px, horizontal pad 16 16 16 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #666666 1px
+            - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px align max/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Header Cell / Default", 188.33x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00, stroke #666666 1px
+            - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Header Cell / Default", 188.33x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00, stroke #666666 1px
+            - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Header Cell / Default", 188.33x56px, horizontal pad 16 16 16 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00, stroke #666666 1px
+            - FRAME "Text", 60x24px, horizontal pad 4 0 4 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Header Cell / Default", 64x56px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #666666 1px
+            - INSTANCE "Lead-Icon", 24x24px, constraints left/top, fill #FFFFFF
+        - FRAME "Row 1", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #292929 0px
+            - INSTANCE "Leading-icon", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 2ba491ebf5919ca1f5f6db065822e383b3139982), stroke #292929 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Row 2", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: f61c0cb97c3bfcf364a28caee2fd9827e739f649), stroke #292929 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Row 3", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 6d618fec27cb5417b0acfa1f7799511811b11ada), stroke #292929 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Row 4", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 5de76c9d8ca96c4738c44cc4e73a490a2c11d209), stroke #292929 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 64x52px, horizontal pad 14 16 14 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Row 5", 677x52px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 48x52px, horizontal pad 14 16 14 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Avatar-SecondaryText", 188.33x52px, horizontal pad 6 16 6 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - INSTANCE "Avatar Image", 40x40px, constraints left/top, radius 4px, fill image(hash: 79c28d4a206e7c09c29beb07273da5c9b343fdb9), stroke #292929 1px
+            - FRAME "Main-Content", 88x40px, vertical pad 2 0 2 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table-Parts / Table Cell / View Mode / Default", 188.33x52px, horizontal pad 14 16 14 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #292929 0px
+            - FRAME "Text", 72x24px, horizontal pad 2 0 2 0px gap 8px sizing W:fill H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

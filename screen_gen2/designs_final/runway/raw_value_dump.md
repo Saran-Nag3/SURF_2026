@@ -1,0 +1,1111 @@
+---
+name: runway-fashion-slider-app-community
+source_file: Runway Fashion Slider App (Community)
+source_page: All pages (2): Design, Cover
+generated_at: 2026-07-25T09:19:08.685945+00:00
+---
+
+# Runway Fashion Slider App (Community) Design Guidelines
+
+## Source
+- Figma file: Runway Fashion Slider App (Community)
+- Figma page: All pages (2): Design, Cover
+- Extracted at: 2026-07-25T09:19:08.685945+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Green Gradient: [gradient_linear(#303030 0% | #020202 100%)]
+
+## Raw Colors (unstyled)
+- #000000: 1041 uses
+- #FFFFFF: 40 uses
+- #ECECEC: 24 uses
+- #D9D9D9: 17 uses
+- #919191: 16 uses
+- #041511: 14 uses
+
+## Typography Tokens
+- Product Price Text: Inter SemiBold (600), 16px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Bold, 16px: 80 uses
+- Inter SemiBold, 16px: 74 uses
+- Inter Medium, 11.76px: 72 uses
+- Inter SemiBold, 13.44px: 72 uses
+- Inter Medium, 14px: 33 uses
+- Inter Medium, 16px: 29 uses
+- Inter SemiBold, 14px: 29 uses
+- Inter Medium, 7.9px: 24 uses
+- Inter SemiBold, 9.02px: 24 uses
+- Inter Bold, 18px: 15 uses
+- Inter SemiBold, 11px: 15 uses
+- Inter Thin, 16px: 15 uses
+- Inter SemiBold, 11.09px: 14 uses
+- Inter Medium, 9.7px: 12 uses
+- Inter Bold, 20px: 11 uses
+- Inter Medium, 10.74px: 9 uses
+- Inter Bold, 10.74px: 8 uses
+- Inter Bold, 10.49px: 7 uses
+- Inter SemiBold, 10px: 4 uses
+- Inter Medium, 9.4px: 3 uses
+- Inter SemiBold, 10.49px: 3 uses
+- Inter SemiBold, 10.74px: 3 uses
+
+## Typography Hierarchy
+- 20px - Inter Bold, 20px (raw)
+- 18px - Inter Bold, 18px (raw)
+- 16px - Inter Bold, 16px (raw)
+- 16px - Inter Medium, 16px (raw)
+- 16px - Inter SemiBold, 16px (raw)
+- 16px - Inter Thin, 16px (raw)
+- 16px - Product Price Text (Inter SemiBold)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Inter SemiBold, 14px (raw)
+- 13.44px - Inter SemiBold, 13.44px (raw)
+- 11.76px - Inter Medium, 11.76px (raw)
+- 11.09px - Inter SemiBold, 11.09px (raw)
+- 11px - Inter SemiBold, 11px (raw)
+- 10.74px - Inter Bold, 10.74px (raw)
+- 10.74px - Inter Medium, 10.74px (raw)
+- 10.74px - Inter SemiBold, 10.74px (raw)
+- 10.49px - Inter Bold, 10.49px (raw)
+- 10.49px - Inter SemiBold, 10.49px (raw)
+- 10px - Inter SemiBold, 10px (raw)
+- 9.7px - Inter Medium, 9.7px (raw)
+- 9.4px - Inter Medium, 9.4px (raw)
+- 9.02px - Inter SemiBold, 9.02px (raw)
+- 7.9px - Inter Medium, 7.9px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Product Price Text: 6 uses
+- Green Gradient: 4 uses
+
+## Layout & Structure
+Screen: Design / iPhone 14 Plus - 20
+- FRAME "iPhone 14 Plus - 20", 430x932px, constraints left/top, radius 20px, fill #FFFFFF
+  - INSTANCE "Status Bar/Light/Max", 428x44px, constraints left/top, fill #FFFFFF
+    - FRAME "iPhone X/Status Bars/Status Bar (Black)", 414x44px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "Rectangle", 414x44px, constraints scale/scale
+      - GROUP "Battery", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Border", 22x11.33px, constraints right/top, radius 2.67px, stroke #181818 1px, opacity 35%
+        - VECTOR "Cap", 1.33x4px, constraints right/top, fill #181818, opacity 40%
+        - RECTANGLE "Capacity", 18x8px, constraints right/top, radius 1.33px, fill #181818
+      - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill #181818
+      - BOOLEAN_OPERATION "Cellular Connection", 18.77x10.67px, constraints right/top, fill #181818
+      - FRAME "Time Style", 54x21px, constraints left/top
+        - TEXT "↳ Time", 54x19px, constraints left/center, fill #181818, text [Inter Thin, 16px]
+  - FRAME "Frame 50", 430x55px, horizontal pad 0 20 0 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+    - FRAME "arrow-left", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14x0px, constraints scale/scale, stroke #000000 2px
+      - VECTOR "Vector", 7x14px, constraints scale/scale, stroke #000000 2px
+    - FRAME "Frame 39632", 59x42px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Men", 39x22px, constraints left/top, fill #000000, text [Inter Bold, 18px]
+    - FRAME "bi:bag", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 21x24px, constraints scale/scale, fill #000000, stroke #000000 0.3px
+      - FRAME "Frame 54", 12.86x12.86px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 30px, fill #FF0000, stroke #FFFFFF 1px
+        - TEXT "5", 7x13px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 11px]
+  - FRAME "Frame 39643", 428x52px, horizontal pad 0 20 0 20px gap 67px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+    - FRAME "Frame 39640", 84x19px, horizontal pad 0 0 0 0px gap 23px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Sort by", 49x17px, constraints left/top, fill #000000, text [Inter SemiBold, 14px]
+      - FRAME "Frame 39639", 12x19px, vertical pad 0 0 0 0px gap -5px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "chevron-up", 12x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x3px, constraints scale/scale, stroke #000000 1.5px
+        - FRAME "chevron-down", 12x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x3px, constraints scale/scale, stroke #000000 1.5px
+    - FRAME "Frame 39642", 304x52px, horizontal pad 0 0 0 0px gap 20px align max/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Frame 39641", 60x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "lucide:settings-2", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 13.33x13.33px, constraints scale/scale
+            - VECTOR "Vector", 12.5x8.33px, constraints scale/scale, stroke #000000 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke #000000 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "Filter", 35x17px, constraints left/top, fill #000000, text [Inter SemiBold, 14px]
+      - FRAME "ion:grid-outline", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - FRAME "solar:users-group-rounded-bold", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x8px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 14x8px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 7.03x17px, constraints scale/scale, fill #000000
+  - FRAME "Frame 72", 272.89x673.67px, constraints left/top
+    - RECTANGLE "image 1", 321.3x673.67px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+    - ELLIPSE "Ellipse 2", 312.52x53.14px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 73", 235.46x564.35px, constraints left/top
+    - ELLIPSE "Ellipse 1", 324.22x55.13px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 2", 246.67x564.35px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+  - FRAME "Frame 74", 156.97x407.38px, constraints left/top
+    - RECTANGLE "image 3", 134.91x402.71px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+    - ELLIPSE "Ellipse 3", 324.22x47.65px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 21", 146.31x244.33px, constraints left/top
+    - FRAME "Frame 17", 132.65x22.43px, constraints left/top
+      - ELLIPSE "Ellipse 4", 132.65x22.43px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 4", 93.64x244.33px, constraints center/top, fill image(hash: 469a39f070681c66ef7b0b841fe69af84f0424ba)
+  - FRAME "Frame 20", 92.51x158.01px, constraints left/top
+    - RECTANGLE "image 5", 52.55x158.01px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+    - ELLIPSE "Ellipse 5", 105.09x15.17px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "pRICE 1", 428x98px, vertical pad 15 34 0 36px gap 7px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 30px offset 0 4 #0000001A]
+    - TEXT "Gray coat and white T-shirt", 358x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+    - FRAME "Frame 39633", 358x19px, horizontal pad 0 0 0 0px gap 80px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "£30", 32x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+      - FRAME "heart", 18x18px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.68x13.67px, constraints scale/scale, stroke #000000 1.5px
+  - FRAME "Frame 19", 72.32x133.07px, constraints left/top
+    - ELLIPSE "Ellipse 6", 72.32x15.19px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 6", 43.03x132.71px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+
+Screen: Design / iPhone 14 Plus - 8
+- FRAME "iPhone 14 Plus - 8", 430x932px, constraints left/top, radius 20px, fill #FFFFFF
+  - FRAME "Frame 19", 30.39x55.91px, constraints left/top
+    - ELLIPSE "Ellipse 6", 30.39x6.38px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 6", 18.08x55.76px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+  - FRAME "Frame 20", 88.02x150.35px, constraints left/top
+    - RECTANGLE "image 5", 50x150.35px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+    - ELLIPSE "Ellipse 5", 100x14.44px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 21", 139.21x232.48px, constraints left/top
+    - FRAME "Frame 17", 126.22x21.35px, constraints left/top
+      - ELLIPSE "Ellipse 4", 126.22x21.35px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 4", 89.1x232.48px, constraints center/top, fill image(hash: 469a39f070681c66ef7b0b841fe69af84f0424ba)
+  - INSTANCE "Status Bar/Light/Max", 428x44px, constraints left/top, fill #FFFFFF
+    - FRAME "iPhone X/Status Bars/Status Bar (Black)", 414x44px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "Rectangle", 414x44px, constraints scale/scale
+      - GROUP "Battery", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Border", 22x11.33px, constraints right/top, radius 2.67px, stroke #131212 1px, opacity 35%
+        - VECTOR "Cap", 1.33x4px, constraints right/top, fill #131212, opacity 40%
+        - RECTANGLE "Capacity", 18x8px, constraints right/top, radius 1.33px, fill #131212
+      - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill #131212
+      - BOOLEAN_OPERATION "Cellular Connection", 18.77x10.67px, constraints right/top, fill #131212
+      - FRAME "Time Style", 54x21px, constraints left/top
+        - TEXT "↳ Time", 54x19px, constraints left/center, fill #131212, text [Inter Thin, 16px]
+  - FRAME "Frame 39643", 428x52px, horizontal pad 0 20 0 20px gap 67px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+    - FRAME "Frame 39640", 84x19px, horizontal pad 0 0 0 0px gap 23px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Sort by", 49x17px, constraints left/top, fill #000000, text [Inter SemiBold, 14px]
+      - FRAME "Frame 39639", 12x19px, vertical pad 0 0 0 0px gap -5px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "chevron-up", 12x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x3px, constraints scale/scale, stroke #000000 1.5px
+        - FRAME "chevron-down", 12x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x3px, constraints scale/scale, stroke #000000 1.5px
+    - FRAME "Frame 39642", 304x52px, horizontal pad 0 0 0 0px gap 20px align max/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Frame 39641", 60x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "lucide:settings-2", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 13.33x13.33px, constraints scale/scale
+            - VECTOR "Vector", 12.5x8.33px, constraints scale/scale, stroke #000000 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke #000000 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "Filter", 35x17px, constraints left/top, fill #000000, text [Inter SemiBold, 14px]
+      - FRAME "ion:grid-outline", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - FRAME "solar:users-group-rounded-bold", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x8px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 14x8px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 7.03x17px, constraints scale/scale, fill #000000
+  - FRAME "Frame 74", 149.36x387.62px, constraints left/top
+    - RECTANGLE "image 3", 128.37x383.18px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+    - ELLIPSE "Ellipse 3", 308.5x45.34px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 73", 224.04x536.98px, constraints right/top
+    - ELLIPSE "Ellipse 1", 308.5x52.45px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 2", 234.71x536.98px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+  - FRAME "Frame 72", 259.66x641px, constraints left/top
+    - RECTANGLE "image 1", 305.72x641px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+    - ELLIPSE "Ellipse 2", 297.36x50.56px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "pRICE 1", 430x138px, vertical pad 10 20 0 20px gap 5px align min/center sizing W:fixed H:fixed, constraints center/bottom, radius 20px, fill #FFFFFF, effect [drop_shadow 30px offset 0 4 #0000001A]
+    - RECTANGLE "Rectangle 36", 42x6px, constraints left/top, radius 6px, fill #D9D9D9
+    - FRAME "Text", 390x45px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39934", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Classic Tailored Fit Men's Dress Shirt", 289x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39935", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Modern Slim-Fit Men's Chinos", 235x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39936", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Casual Crewneck Men's Sweatshirt", 277x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39937", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Premium Wool Men's Blazer", 216x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39938", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Vintage-Inspired Men's Denim Jacket", 293x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39939", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Lightweight Men's Puffer Jacket", 252x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39940", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Classic Men's Polo Shirt", 188x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+    - FRAME "Frame 39633", 390x40px, horizontal pad 0 0 0 0px gap 80px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 39941", 56x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "£35", 40x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+      - FRAME "Frame 39942", 92x40px, horizontal pad 10 15 10 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px
+        - FRAME "heart", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.42x15.19px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "450", 32x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - FRAME "Frame 50", 430x55px, horizontal pad 0 20 0 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+    - FRAME "arrow-left", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14x0px, constraints scale/scale, stroke #000000 2px
+      - VECTOR "Vector", 7x14px, constraints scale/scale, stroke #000000 2px
+    - FRAME "Frame 39632", 59x42px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Men", 39x22px, constraints left/top, fill #000000, text [Inter Bold, 18px]
+    - FRAME "bi:bag", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 21x24px, constraints scale/scale, fill #000000, stroke #000000 0.3px
+      - FRAME "Frame 54", 12.86x12.86px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 30px, fill #FF0000, stroke #FFFFFF 1px
+        - TEXT "5", 7x13px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 11px]
+
+Screen: Design / iPhone 14 Plus - 17
+- FRAME "iPhone 14 Plus - 17", 430x932px, constraints left/top, radius 20px, fill #FFFFFF
+  - FRAME "Frame 39946", 56x7px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/bottom [decorative, ~4 shapes]
+  - FRAME "Frame 19", 30.39x55.91px, constraints left/top
+    - ELLIPSE "Ellipse 6", 30.39x6.38px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 6", 18.08x55.76px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+  - FRAME "Frame 20", 88.02x150.35px, constraints left/top
+    - RECTANGLE "image 5", 50x150.35px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+    - ELLIPSE "Ellipse 5", 100x14.44px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 21", 139.21x232.48px, constraints left/top
+    - FRAME "Frame 17", 126.22x21.35px, constraints left/top
+      - ELLIPSE "Ellipse 4", 126.22x21.35px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 4", 89.1x232.48px, constraints center/top, fill image(hash: 469a39f070681c66ef7b0b841fe69af84f0424ba)
+  - INSTANCE "Status Bar/Light/Max", 428x44px, constraints left/top, fill #FFFFFF
+    - FRAME "iPhone X/Status Bars/Status Bar (Black)", 414x44px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "Rectangle", 414x44px, constraints scale/scale
+      - GROUP "Battery", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Border", 22x11.33px, constraints right/top, radius 2.67px, stroke #131212 1px, opacity 35%
+        - VECTOR "Cap", 1.33x4px, constraints right/top, fill #131212, opacity 40%
+        - RECTANGLE "Capacity", 18x8px, constraints right/top, radius 1.33px, fill #131212
+      - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill #131212
+      - BOOLEAN_OPERATION "Cellular Connection", 18.77x10.67px, constraints right/top, fill #131212
+      - FRAME "Time Style", 54x21px, constraints left/top
+        - TEXT "↳ Time", 54x19px, constraints left/center, fill #131212, text [Inter Thin, 16px]
+  - FRAME "Frame 39643", 428x52px, horizontal pad 0 20 0 20px gap 67px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+    - FRAME "Frame 39640", 84x19px, horizontal pad 0 0 0 0px gap 23px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Sort by", 49x17px, constraints left/top, fill #000000, text [Inter SemiBold, 14px]
+      - FRAME "Frame 39639", 12x19px, vertical pad 0 0 0 0px gap -5px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "chevron-up", 12x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x3px, constraints scale/scale, stroke #000000 1.5px
+        - FRAME "chevron-down", 12x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x3px, constraints scale/scale, stroke #000000 1.5px
+    - FRAME "Frame 39642", 304x52px, horizontal pad 0 0 0 0px gap 20px align max/center sizing W:fill H:fill, constraints left/top
+      - FRAME "Frame 39641", 60x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "lucide:settings-2", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 13.33x13.33px, constraints scale/scale
+            - VECTOR "Vector", 12.5x8.33px, constraints scale/scale, stroke #000000 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke #000000 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "Filter", 35x17px, constraints left/top, fill #000000, text [Inter SemiBold, 14px]
+      - FRAME "ion:grid-outline", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - FRAME "solar:users-group-rounded-bold", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x8px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 14x8px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 7.03x17px, constraints scale/scale, fill #000000
+  - FRAME "Frame 74", 149.36x387.62px, constraints left/top
+    - RECTANGLE "image 3", 128.37x383.18px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+    - ELLIPSE "Ellipse 3", 308.5x45.34px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 73", 224.04x536.98px, constraints right/top
+    - ELLIPSE "Ellipse 1", 308.5x52.45px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 2", 234.71x536.98px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+  - FRAME "Frame 72", 259.66x641px, constraints left/top
+    - RECTANGLE "image 1", 305.72x641px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+    - ELLIPSE "Ellipse 2", 297.36x50.56px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "pRICE 1", 430x141px, vertical pad 10 20 20 20px gap 10px align min/center sizing W:fixed H:fixed, constraints center/bottom, radius 20px, fill #FFFFFF, effect [drop_shadow 30px offset 0 4 #0000001A]
+    - RECTANGLE "Rectangle 36", 42x6px, constraints left/top, radius 6px, fill #D9D9D9
+    - FRAME "Text", 390x45px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39934", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Classic Tailored Fit Men's Dress Shirt", 289x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39935", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Modern Slim-Fit Men's Chinos", 235x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39936", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Casual Crewneck Men's Sweatshirt", 277x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39937", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Premium Wool Men's Blazer", 216x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39938", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Vintage-Inspired Men's Denim Jacket", 293x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39939", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Lightweight Men's Puffer Jacket", 252x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39940", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Classic Men's Polo Shirt", 188x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+    - FRAME "Frame 39633", 390x51px, horizontal pad 0 0 0 0px gap 80px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 39941", 56x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "£35", 40x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+      - FRAME "Frame 39942", 92x40px, horizontal pad 10 15 10 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #F4F4F4
+        - FRAME "heart", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.42x15.19px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "450", 32x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+    - FRAME "Frame 39945", 390x55px, horizontal pad 0 0 0 0px gap 42px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #ECECEC 1px
+      - FRAME "Frame 39943", 152.5x55px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+        - TEXT "Select colour", 102x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+        - FRAME "uil:sort", 14x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 7.01x10.51px, constraints scale/scale, fill #000000
+      - RECTANGLE "Rectangle 38", 1x31px, constraints left/top, fill #D9D9D9
+      - FRAME "Frame 39944", 152.5x55px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+        - TEXT "Select size", 84x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+        - FRAME "uil:sort", 14x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 7.01x10.51px, constraints scale/scale, fill #000000
+    - FRAME "Frame 39514", 390x55px, horizontal pad 21.23 21.23 21.23 21.23px gap 21.23px align center/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #181818
+      - TEXT "ADD TO BAG", 100x19px, constraints left/top, fill #FFFFFF, text [Inter Bold, 16px]
+    - FRAME "Frame 39949", 390x110px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #ECECEC 1px
+      - FRAME "Frame 39947", 390x55px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "solar:delivery-linear", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 18.53x18.75px, constraints scale/scale
+            - VECTOR "Vector", 18.53x17.05px, constraints scale/scale, fill #000000
+            - VECTOR "Vector", 11.16x10.83px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "Free delivery", 100x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+      - FRAME "Frame 39948", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 39950", 119x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "hugeicons:truck-return", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x16px, constraints scale/scale
+          - TEXT "Free return", 85x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - TEXT "View return policy", 121x17px, constraints left/top, fill #999797, text [Inter Medium, 14px]
+    - FRAME "Frame 39952", 390x39px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "About product", 111x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+    - FRAME "Frame 39950", 390x220px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #ECECEC 1px
+      - FRAME "Frame 39947", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39951", 146x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "fluent:apps-list-detail-20-regular", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x12px, constraints scale/scale, fill #000000
+          - TEXT "Product details", 116x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+      - FRAME "Frame 39948", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39950", 80x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "solar:hanger-2-linear", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x20px, constraints scale/scale
+          - TEXT "Brand", 46x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+      - FRAME "Frame 39949", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39950", 120x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "hugeicons:tape-measure", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x14px, constraints scale/scale
+          - TEXT "Size and fit", 86x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+      - FRAME "Frame 39950", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39950", 90x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "solar:history-outline", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+          - TEXT "History", 56x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+    - FRAME "Frame 39956", 390x39px, horizontal pad 10 0 10 0px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "You might also like", 143x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+      - TEXT "View all", 52x17px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+    - FRAME "Frame 39917", 430x276.93px, horizontal pad 0 0 15 20px gap 5px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39913", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 1", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 1", 96.99x203.35px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+          - ELLIPSE "Ellipse 2", 94.34x16.04px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39635", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£20", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39914", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 2", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - ELLIPSE "Ellipse 1", 120.21x20.44px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - RECTANGLE "image 2", 91.45x209.24px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+        - FRAME "Frame 39636", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Deep gray essential regul..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£25", 26x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39916", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+          - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£46", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39915", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 78.58x205.04px, constraints center/top, fill image(hash: 469a39f070681c66ef7b0b841fe69af84f0424ba)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39917", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 72.27x205.04px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39918", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 68.07x205.04px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39919", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 112.6x205.04px, constraints center/top, fill image(hash: fd46e45f62978e1774c215ffe89e0e60b12e7206)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39927", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 1", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 1", 96.99x203.35px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+          - ELLIPSE "Ellipse 2", 94.34x16.04px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39635", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£20", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39928", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 2", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - ELLIPSE "Ellipse 1", 120.21x20.44px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - RECTANGLE "image 2", 91.45x209.24px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+        - FRAME "Frame 39636", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Deep gray essential regul..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£25", 26x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39929", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+          - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£46", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39930", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 72.27x205.04px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39931", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 68.07x205.04px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 37", 0.84x38.65px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 39955", 390x39px, horizontal pad 10 0 10 0px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "People also bought", 147x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+      - TEXT "View all", 52x17px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+    - FRAME "Frame 39954", 430x291.93px, horizontal pad 15 0 15 20px gap 5px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39929", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+          - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£46", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39930", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 72.27x205.04px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39914", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 2", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - ELLIPSE "Ellipse 1", 120.21x20.44px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - RECTANGLE "image 2", 91.45x209.24px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+        - FRAME "Frame 39636", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Deep gray essential regul..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£25", 26x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39916", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+          - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£46", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39913", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 1", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 1", 96.99x203.35px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+          - ELLIPSE "Ellipse 2", 94.34x16.04px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39635", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Design / iPhone 14 Plus - 18
+- FRAME "iPhone 14 Plus - 18", 430x932px, constraints left/top, radius 20px, fill #ECECEC
+  - FRAME "Frame 19", 30.39x55.91px, constraints left/top
+    - ELLIPSE "Ellipse 6", 30.39x6.38px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 6", 18.08x55.76px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+  - FRAME "Frame 20", 88.02x150.35px, constraints left/top
+    - RECTANGLE "image 5", 50x150.35px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+    - ELLIPSE "Ellipse 5", 100x14.44px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 21", 139.21x232.48px, constraints left/top
+    - FRAME "Frame 17", 126.22x21.35px, constraints left/top
+      - ELLIPSE "Ellipse 4", 126.22x21.35px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 4", 89.1x232.48px, constraints center/top, fill image(hash: 469a39f070681c66ef7b0b841fe69af84f0424ba)
+  - FRAME "Frame 74", 149.36x387.62px, constraints left/top
+    - RECTANGLE "image 3", 128.37x383.18px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+    - ELLIPSE "Ellipse 3", 308.5x45.34px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 73", 224.04x536.98px, constraints left/top
+    - ELLIPSE "Ellipse 1", 308.5x52.45px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 2", 234.71x536.98px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+  - INSTANCE "Status Bar/Light/Max", 428x44px, constraints left/top, fill #FFFFFF
+    - FRAME "iPhone X/Status Bars/Status Bar (Black)", 414x44px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "Rectangle", 414x44px, constraints scale/scale
+      - GROUP "Battery", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Border", 22x11.33px, constraints right/top, radius 2.67px, stroke #131212 1px, opacity 35%
+        - VECTOR "Cap", 1.33x4px, constraints right/top, fill #131212, opacity 40%
+        - RECTANGLE "Capacity", 18x8px, constraints right/top, radius 1.33px, fill #131212
+      - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill #131212
+      - BOOLEAN_OPERATION "Cellular Connection", 18.77x10.67px, constraints right/top, fill #131212
+      - FRAME "Time Style", 54x21px, constraints left/top
+        - TEXT "↳ Time", 54x19px, constraints left/center, fill #131212, text [Inter Thin, 16px]
+  - FRAME "Frame 72", 178.24x440px, constraints left/top
+    - RECTANGLE "image 1", 209.85x440px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+    - ELLIPSE "Ellipse 2", 204.12x34.71px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 39946", 56x7px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+  - FRAME "pRICE 1", 430x366px, vertical pad 10 20 20 20px gap 10px align min/center sizing W:fixed H:fixed, constraints center/bottom, radius 20px, fill #FFFFFF, effect [drop_shadow 30px offset 0 4 #0000001A]
+    - RECTANGLE "Rectangle 36", 42x6px, constraints left/top, radius 6px, fill #D9D9D9
+    - FRAME "Text", 390x45px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39934", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Classic Tailored Fit Men's Dress Shirt", 289x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39935", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Modern Slim-Fit Men's Chinos", 235x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39936", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Casual Crewneck Men's Sweatshirt", 277x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39937", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Premium Wool Men's Blazer", 216x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39938", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Vintage-Inspired Men's Denim Jacket", 293x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39939", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Lightweight Men's Puffer Jacket", 252x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39940", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Classic Men's Polo Shirt", 188x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+    - FRAME "Frame 39633", 390x51px, horizontal pad 0 0 0 0px gap 80px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 39941", 56x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "£35", 40x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+      - FRAME "Frame 39942", 92x40px, horizontal pad 10 15 10 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #F4F4F4
+        - FRAME "heart", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.42x15.19px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "450", 32x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+    - FRAME "Frame 39945", 390x55px, horizontal pad 0 0 0 0px gap 42px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #ECECEC 1px
+      - FRAME "Frame 39943", 152.5x55px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+        - TEXT "Select colour", 102x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+        - FRAME "uil:sort", 14x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 7.01x10.51px, constraints scale/scale, fill #000000
+      - RECTANGLE "Rectangle 38", 1x31px, constraints left/top, fill #D9D9D9
+      - FRAME "Frame 39944", 152.5x55px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+        - TEXT "Select size", 84x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+        - FRAME "uil:sort", 14x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 7.01x10.51px, constraints scale/scale, fill #000000
+    - FRAME "Frame 39514", 390x55px, horizontal pad 21.23 21.23 21.23 21.23px gap 21.23px align center/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #181818
+      - TEXT "ADD TO BAG", 100x19px, constraints left/top, fill #FFFFFF, text [Inter Bold, 16px]
+    - FRAME "Frame 39949", 390x110px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #ECECEC 1px
+      - FRAME "Frame 39947", 390x55px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "solar:delivery-linear", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 18.53x18.75px, constraints scale/scale
+            - VECTOR "Vector", 18.53x17.05px, constraints scale/scale, fill #000000
+            - VECTOR "Vector", 11.16x10.83px, constraints scale/scale, stroke #000000 1.5px
+        - TEXT "Free delivery", 100x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+      - FRAME "Frame 39948", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 39950", 119x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "hugeicons:truck-return", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x16px, constraints scale/scale
+          - TEXT "Free return", 85x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - TEXT "View return policy", 121x17px, constraints left/top, fill #999797, text [Inter Medium, 14px]
+    - FRAME "Frame 39952", 390x39px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "About product", 111x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+    - FRAME "Frame 39950", 390x220px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #ECECEC 1px
+      - FRAME "Frame 39947", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39951", 146x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "fluent:apps-list-detail-20-regular", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x12px, constraints scale/scale, fill #000000
+          - TEXT "Product details", 116x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+      - FRAME "Frame 39948", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39950", 80x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "solar:hanger-2-linear", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x20px, constraints scale/scale
+          - TEXT "Brand", 46x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+      - FRAME "Frame 39949", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39950", 120x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "hugeicons:tape-measure", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x14px, constraints scale/scale
+          - TEXT "Size and fit", 86x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+      - FRAME "Frame 39950", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39950", 90x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "solar:history-outline", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+          - TEXT "History", 56x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+    - FRAME "Frame 39956", 390x39px, horizontal pad 10 0 10 0px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "You might also like", 143x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+      - TEXT "View all", 52x17px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+    - FRAME "Frame 39917", 430x276.93px, horizontal pad 0 0 15 20px gap 5px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39913", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 1", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 1", 96.99x203.35px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+          - ELLIPSE "Ellipse 2", 94.34x16.04px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39635", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£20", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39914", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 2", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - ELLIPSE "Ellipse 1", 120.21x20.44px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - RECTANGLE "image 2", 91.45x209.24px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+        - FRAME "Frame 39636", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Deep gray essential regul..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£25", 26x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39916", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+          - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£46", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39915", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 78.58x205.04px, constraints center/top, fill image(hash: 469a39f070681c66ef7b0b841fe69af84f0424ba)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39917", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 72.27x205.04px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39918", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 68.07x205.04px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39919", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 112.6x205.04px, constraints center/top, fill image(hash: fd46e45f62978e1774c215ffe89e0e60b12e7206)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39927", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 1", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 1", 96.99x203.35px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+          - ELLIPSE "Ellipse 2", 94.34x16.04px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39635", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£20", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39928", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 2", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - ELLIPSE "Ellipse 1", 120.21x20.44px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - RECTANGLE "image 2", 91.45x209.24px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+        - FRAME "Frame 39636", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Deep gray essential regul..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£25", 26x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39929", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+          - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£46", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39930", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 72.27x205.04px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39931", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 68.07x205.04px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 37", 0.84x38.65px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 39955", 390x39px, horizontal pad 10 0 10 0px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "People also bought", 147x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+      - TEXT "View all", 52x17px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+    - FRAME "Frame 39954", 430x291.93px, horizontal pad 15 0 15 20px gap 5px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39929", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+          - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£46", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39930", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 72.27x205.04px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39914", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 2", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - ELLIPSE "Ellipse 1", 120.21x20.44px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - RECTANGLE "image 2", 91.45x209.24px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+        - FRAME "Frame 39636", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Deep gray essential regul..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£25", 26x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39916", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+          - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£46", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39913", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 1", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - RECTANGLE "image 1", 96.99x203.35px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+          - ELLIPSE "Ellipse 2", 94.34x16.04px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39635", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Top man black", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£20", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39915", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 78.58x205.04px, constraints center/top, fill image(hash: 469a39f070681c66ef7b0b841fe69af84f0424ba)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+            - FRAME "heart", 15.13x15.13px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39931", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+          - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+          - RECTANGLE "image 4", 68.07x205.04px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+          - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+        - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+          - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "£30", 27x16px, constraints left/top, fill #000000, text [Inter SemiBold, 13.44px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Design / iPhone 14 Plus - 19
+- FRAME "iPhone 14 Plus - 19", 430x932px, constraints left/top, radius 20px, fill #ECECEC
+  - FRAME "Frame 19", 30.39x55.91px, constraints left/top
+    - ELLIPSE "Ellipse 6", 30.39x6.38px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 6", 18.08x55.76px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+  - FRAME "Frame 20", 88.02x150.35px, constraints left/top
+    - RECTANGLE "image 5", 50x150.35px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+    - ELLIPSE "Ellipse 5", 100x14.44px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 21", 139.21x232.48px, constraints left/top
+    - FRAME "Frame 17", 126.22x21.35px, constraints left/top
+      - ELLIPSE "Ellipse 4", 126.22x21.35px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 4", 89.1x232.48px, constraints center/top, fill image(hash: 469a39f070681c66ef7b0b841fe69af84f0424ba)
+  - FRAME "Frame 74", 149.36x387.62px, constraints left/top
+    - RECTANGLE "image 3", 128.37x383.18px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+    - ELLIPSE "Ellipse 3", 308.5x45.34px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 73", 224.04x536.98px, constraints left/top
+    - ELLIPSE "Ellipse 1", 308.5x52.45px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+    - RECTANGLE "image 2", 234.71x536.98px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+  - INSTANCE "Status Bar/Light/Max", 428x44px, constraints left/top, fill #FFFFFF
+    - FRAME "iPhone X/Status Bars/Status Bar (Black)", 414x44px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "Rectangle", 414x44px, constraints scale/scale
+      - GROUP "Battery", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Border", 22x11.33px, constraints right/top, radius 2.67px, stroke #131212 1px, opacity 35%
+        - VECTOR "Cap", 1.33x4px, constraints right/top, fill #131212, opacity 40%
+        - RECTANGLE "Capacity", 18x8px, constraints right/top, radius 1.33px, fill #131212
+      - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill #131212
+      - BOOLEAN_OPERATION "Cellular Connection", 18.77x10.67px, constraints right/top, fill #131212
+      - FRAME "Time Style", 54x21px, constraints left/top
+        - TEXT "↳ Time", 54x19px, constraints left/center, fill #131212, text [Inter Thin, 16px]
+  - FRAME "Frame 72", 178.24x440px, constraints left/top
+    - RECTANGLE "image 1", 209.85x440px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+    - ELLIPSE "Ellipse 2", 204.12x34.71px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+  - FRAME "Frame 39946", 56x7px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+  - FRAME "pRICE 1", 430x780px, vertical pad 10 20 20 20px gap 10px align min/center sizing W:fixed H:fixed, constraints center/bottom, radius 20px, fill #FFFFFF, effect [drop_shadow 30px offset 0 4 #0000001A]
+    - FRAME "Frame 39957", 390x6px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 36", 42x6px, constraints left/top, radius 6px, fill #D9D9D9
+    - FRAME "Frame 39958", 430x758px, vertical pad 0 20 0 20px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Text", 390x45px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 39934", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - TEXT "Classic Tailored Fit Men's Dress Shirt", 289x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+        - FRAME "Frame 39935", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - TEXT "Modern Slim-Fit Men's Chinos", 235x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+        - FRAME "Frame 39936", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - TEXT "Casual Crewneck Men's Sweatshirt", 277x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+        - FRAME "Frame 39937", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - TEXT "Premium Wool Men's Blazer", 216x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+        - FRAME "Frame 39938", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - TEXT "Vintage-Inspired Men's Denim Jacket", 293x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+        - FRAME "Frame 39939", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - TEXT "Lightweight Men's Puffer Jacket", 252x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+        - FRAME "Frame 39940", 390x45px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - TEXT "Classic Men's Polo Shirt", 188x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+      - FRAME "Frame 39633", 390x51px, horizontal pad 0 0 0 0px gap 80px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39941", 56x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "£35", 40x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+        - FRAME "Frame 39942", 92x40px, horizontal pad 10 15 10 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #F4F4F4
+          - FRAME "heart", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 17.42x15.19px, constraints scale/scale, stroke #000000 1.5px
+          - TEXT "450", 32x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+      - FRAME "Frame 39945", 390x55px, horizontal pad 0 0 0 0px gap 42px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39943", 152.5x55px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+          - TEXT "Select colour", 102x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+          - FRAME "uil:sort", 14x14px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.01x10.51px, constraints scale/scale, fill #000000
+        - RECTANGLE "Rectangle 38", 1x31px, constraints left/top, fill #D9D9D9
+        - FRAME "Frame 39944", 152.5x55px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+          - TEXT "Select size", 84x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+          - FRAME "uil:sort", 14x14px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.01x10.51px, constraints scale/scale, fill #000000
+      - FRAME "Frame 39514", 390x55px, horizontal pad 21.23 21.23 21.23 21.23px gap 21.23px align center/center sizing W:fill H:fixed, constraints left/top, radius 5px, fill #181818
+        - TEXT "ADD TO BAG", 100x19px, constraints left/top, fill #FFFFFF, text [Inter Bold, 16px]
+      - FRAME "Frame 39949", 390x110px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39947", 390x55px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+          - FRAME "solar:delivery-linear", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 18.53x18.75px, constraints scale/scale
+          - TEXT "Free delivery", 100x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - FRAME "Frame 39948", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 39950", 119x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "hugeicons:truck-return", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Free return", 85x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+          - TEXT "View return policy", 121x17px, constraints left/top, fill #999797, text [Inter Medium, 14px]
+      - FRAME "Frame 39952", 390x39px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "About product", 111x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+      - FRAME "Frame 39950", 390x220px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #ECECEC 1px
+        - FRAME "Frame 39947", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+          - FRAME "Frame 39951", 146x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "fluent:apps-list-detail-20-regular", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Product details", 116x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+          - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+        - FRAME "Frame 39948", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+          - FRAME "Frame 39950", 80x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "solar:hanger-2-linear", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Brand", 46x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+          - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+        - FRAME "Frame 39949", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+          - FRAME "Frame 39950", 120x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "hugeicons:tape-measure", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Size and fit", 86x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+          - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+        - FRAME "Frame 39950", 390x55px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #ECECEC 1px
+          - FRAME "Frame 39950", 90x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "solar:history-outline", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "History", 56x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+          - FRAME "chevron-down", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x6px, constraints scale/scale, stroke #919191 2px
+      - FRAME "Frame 39956", 390x39px, horizontal pad 10 0 10 0px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "You might also like", 143x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - TEXT "View all", 52x17px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+      - FRAME "Frame 39917", 430x276.93px, horizontal pad 0 0 15 20px gap 5px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 39913", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 1", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - RECTANGLE "image 1", 96.99x203.35px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+            - ELLIPSE "Ellipse 2", 94.34x16.04px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39635", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Top man black", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39914", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 2", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - ELLIPSE "Ellipse 1", 120.21x20.44px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+            - RECTANGLE "image 2", 91.45x209.24px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+          - FRAME "Frame 39636", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Deep gray essential regul..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39916", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+            - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39915", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+            - RECTANGLE "image 4", 78.58x205.04px, constraints center/top, fill image(hash: 469a39f070681c66ef7b0b841fe69af84f0424ba)
+            - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39917", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+            - RECTANGLE "image 4", 72.27x205.04px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+            - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39918", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+            - RECTANGLE "image 4", 68.07x205.04px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+            - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39919", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+            - RECTANGLE "image 4", 112.6x205.04px, constraints center/top, fill image(hash: fd46e45f62978e1774c215ffe89e0e60b12e7206)
+            - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39927", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 1", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - RECTANGLE "image 1", 96.99x203.35px, constraints center/top, fill image(hash: c4d4d6a33c9191bf0b0d8d76f67548b140a72b11)
+            - ELLIPSE "Ellipse 2", 94.34x16.04px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39635", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Top man black", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39928", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 2", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - ELLIPSE "Ellipse 1", 120.21x20.44px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+            - RECTANGLE "image 2", 91.45x209.24px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+          - FRAME "Frame 39636", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Deep gray essential regul..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39929", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+            - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39930", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+            - RECTANGLE "image 4", 72.27x205.04px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+            - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39931", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+            - RECTANGLE "image 4", 68.07x205.04px, constraints center/top, fill image(hash: 6c669a89266816a19c95eb41849e4f25a1ade59e)
+            - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 37", 0.84x38.65px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 39955", 390x39px, horizontal pad 10 0 10 0px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "People also bought", 147x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+        - TEXT "View all", 52x17px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+      - FRAME "Frame 39954", 430x291.93px, horizontal pad 15 0 15 20px gap 5px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 39929", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+            - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39930", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 3", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - FRAME "Frame 17", 127.28x21.53px, constraints left/top
+            - RECTANGLE "image 4", 72.27x205.04px, constraints center/top, fill image(hash: ea2b832a60e5ac54a40a5bc6340fd49111400d4c)
+            - ELLIPSE "Ellipse 4", 111.32x18.83px, constraints left/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39638", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Gray coat and white T-sh..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39914", 168.06x261.93px, vertical pad 0 0 0 0px gap 11.76px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 2", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - ELLIPSE "Ellipse 1", 120.21x20.44px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+            - RECTANGLE "image 2", 91.45x209.24px, constraints center/top, fill image(hash: ca3843a6b28bbb73b11be40e80e0022b032c86b6)
+          - FRAME "Frame 39636", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Deep gray essential regul..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 39916", 168.06x261.08px, vertical pad 0 0 0 0px gap 10.92px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cloth 4", 168.06x214.28px, constraints left/top, radius 5.04px, fill #ECECEC
+            - RECTANGLE "image 3", 68.18x203.51px, constraints center/top, fill image(hash: af315f8da9b6019bdfef2a98a6124dd2266376c7)
+            - ELLIPSE "Ellipse 3", 163.85x24.08px, constraints center/top, fill gradient_radial(#0000003D 0% | #66666600 100%)
+          - FRAME "Frame 39637", 158.82x35.88px, vertical pad 0 0 0 0px gap 5.88px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Top man black with Trous..", 158.82x14px, constraints left/top, fill #000000, text [Inter Medium, 11.76px]
+            - FRAME "Frame 39633", 158.82x16px, horizontal pad 0 0 0 0px gap 67.22px align space_between/center sizing W:fill H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

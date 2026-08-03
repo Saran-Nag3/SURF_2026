@@ -1,0 +1,1245 @@
+---
+name: lego-brick-design-system-community
+source_file: LEGO Brick Design System (Community)
+source_page: All pages (3): Cover, Design System, __WIP
+generated_at: 2026-07-25T09:19:50.771891+00:00
+---
+
+# LEGO Brick Design System (Community) Design Guidelines
+
+## Source
+- Figma file: LEGO Brick Design System (Community)
+- Figma page: All pages (3): Cover, Design System, __WIP
+- Extracted at: 2026-07-25T09:19:50.771891+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Dark Stroke: none
+
+## Raw Colors (unstyled)
+- #D9D9D9: 6082 uses
+- #000000: 5866 uses
+- #FFFFFF: 530 uses
+- #5A5D60: 322 uses
+- #0000004D: 215 uses
+
+## Typography Tokens
+- Archivo X Small - Black: Archivo Black Regular (400), 12px / auto, tracking 0px
+- Archivo X Small - Bold: Archivo Bold (700), 12px / auto, tracking 0px
+- Archivo X Small - Semibold: Archivo SemiBold (600), 12px / auto, tracking 0px
+- Archivo X Small - Medium: Archivo Medium (500), 12px / auto, tracking 0px
+- Archivo X Small - Regular: Archivo Regular (400), 12px / auto, tracking 0px
+- Archivo Small - Black: Archivo Black Regular (400), 14px / auto, tracking 0px
+- Archivo Small - Bold: Archivo Bold (700), 14px / auto, tracking 0px
+- Archivo Small - Semibold: Archivo SemiBold (600), 14px / auto, tracking 0px
+- Archivo Small - Medium: Archivo Medium (500), 14px / auto, tracking 0px
+- Archivo Small - Regular: Archivo Regular (400), 14px / auto, tracking 0px
+- Archivo Large - Black: Archivo Black Regular (400), 18px / auto, tracking 0px
+- Archivo Large - Bold: Archivo Bold (700), 18px / auto, tracking 0px
+- Archivo Large - Semibold: Archivo SemiBold (600), 18px / auto, tracking 0px
+- Archivo Large - Medium: Archivo Medium (500), 18px / auto, tracking 0px
+- Archivo Large - Regular: Archivo Regular (400), 18px / auto, tracking 0px
+- Archivo Base - Black: Archivo Black Regular (400), 16px / auto, tracking 0px
+- Archivo Base - Bold: Archivo Bold (700), 16px / auto, tracking 0px
+- Archivo Base - Semibold: Archivo SemiBold (600), 16px / auto, tracking 0px
+- Archivo Base - Medium: Archivo Medium (500), 16px / auto, tracking 0px
+- Archivo Base - Regular: Archivo Regular (400), 16px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 12px: 92 uses
+- Archivo Regular, 24px: 8 uses
+- Archivo Regular, 12px: 3 uses
+- Archivo Regular, 20px: 3 uses
+- Archivo Regular, 28px: 3 uses
+- Archivo Regular, 32px: 3 uses
+- Archivo Regular, 36px: 3 uses
+- Archivo Regular, 42px: 3 uses
+- Archivo Regular, 48px: 3 uses
+- Archivo Regular, 54px: 3 uses
+- Archivo Regular, 60px: 3 uses
+- Archivo Regular, 68px: 3 uses
+- Archivo Regular, 76px: 3 uses
+- Archivo Regular, 84px: 3 uses
+- Archivo Regular, 92px: 3 uses
+
+## Typography Hierarchy
+- 92px - Archivo Regular, 92px (raw)
+- 84px - Archivo Regular, 84px (raw)
+- 76px - Archivo Regular, 76px (raw)
+- 68px - Archivo Regular, 68px (raw)
+- 60px - Archivo Regular, 60px (raw)
+- 54px - Archivo Regular, 54px (raw)
+- 48px - Archivo Regular, 48px (raw)
+- 42px - Archivo Regular, 42px (raw)
+- 36px - Archivo Regular, 36px (raw)
+- 32px - Archivo Regular, 32px (raw)
+- 28px - Archivo Regular, 28px (raw)
+- 24px - Archivo Regular, 24px (raw)
+- 20px - Archivo Regular, 20px (raw)
+- 18px - Archivo Large - Black (Archivo Black Regular)
+- 18px - Archivo Large - Bold (Archivo Bold)
+- 18px - Archivo Large - Medium (Archivo Medium)
+- 18px - Archivo Large - Regular (Archivo Regular)
+- 18px - Archivo Large - Semibold (Archivo SemiBold)
+- 16px - Archivo Base - Black (Archivo Black Regular)
+- 16px - Archivo Base - Bold (Archivo Bold)
+- 16px - Archivo Base - Medium (Archivo Medium)
+- 16px - Archivo Base - Regular (Archivo Regular)
+- 16px - Archivo Base - Semibold (Archivo SemiBold)
+- 14px - Archivo Small - Black (Archivo Black Regular)
+- 14px - Archivo Small - Bold (Archivo Bold)
+- 14px - Archivo Small - Medium (Archivo Medium)
+- 14px - Archivo Small - Regular (Archivo Regular)
+- 14px - Archivo Small - Semibold (Archivo SemiBold)
+- 12px - Archivo Regular, 12px (raw)
+- 12px - Archivo X Small - Black (Archivo Black Regular)
+- 12px - Archivo X Small - Bold (Archivo Bold)
+- 12px - Archivo X Small - Medium (Archivo Medium)
+- 12px - Archivo X Small - Regular (Archivo Regular)
+- 12px - Archivo X Small - Semibold (Archivo SemiBold)
+- 12px - Inter Regular, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Button
+- __primitive--button--structure
+- Rectangular Brick
+- Rectangular Brick with Single Peg
+- Round Brick
+- Slope Brick
+- Washing Machine Brick
+- L Brick
+- Computer Mouse Brick
+- Computer Screen Brick
+- Keyboard Brick
+- Palette
+- __primitive--graphic
+- __primitive--custom-shapes--flower--top
+- __primitive--complex-brick-shapes--washing-machine-brick--side
+- __primitive--complex-brick-shapes--lip--top
+- __primitive--complex-brick-shapes--washing-machine-brick-height
+- __primitive--peg-frame--front
+- __primitive--peg-base--front
+- __primitive--peg-base--top
+- __primitive--complex-brick-shapes-slope--front-angle
+- __primitive--complex-brick-shapes--lip--front
+- __primitive--complex-brick-shapes--washing-machine--top
+- __primitive--complex-brick-shapes-slope--top
+- __primitive--round-brick-shapes--side
+- __primitive--circle-brick-shapes--top
+- __primitive--brick--pegs--top
+- __primitive--complex-brick-shapes--L--top
+- __primitive--basic-brick-shapes--top
+- __primitive--complex-brick-shapes-slope--side
+- __primitive--basic-brick-shapes--side
+- __primitive--brick-component-color
+- __primitive--brick-component--peg
+- LEGO Logo
+- __primitive--button--base
+- __primitive--button--top
+- Minifigure Hair
+- Minifigure head
+- Minifigure Torso
+- Minifigure Legs
+- Flower Brick
+- Plant with 3 Leaves Brick
+- __primitive--custom-shapes--plant-leaves
+- __primitive--round-brick--main
+- __primitive--circle-brick--base
+- __primitive--peg-frame--top
+
+## Component Specs
+- Button: size 112x92px, fill #FFFFFF, text [Archivo Regular, 24px] | variants: Color: Purple/Yellow
+- __primitive--button--structure: size 112x92px, text [Archivo Regular, 24px] | variants: State: Default/Pressed
+- Rectangular Brick: size 20x20px, fill #FFFFFF | variants: Base Dimensions: 1x1/1x2/1x3/1x4/1x5/1x6/2x2/2x3/2x4/2x5/2x6/3x3/3x4/3x5/3x6/4x4/4x5/4x6; X Rotation: 0°/90°; Y Rotation: 0°/90°; Z Rotation: 0°/90°; Perspective: front/iso/top; Height: 1/Plate
+- Rectangular Brick with Single Peg: size 20x12px | variants: Base Dimensions: 1x2/1x3; X Rotation: 0°/90°; Y Rotation: 0°; Z Rotation: 0°; Perspective: front/iso/top; Height: Plate
+- Round Brick: size 35x44px | variants: Height: 1/Plate; Perspective: front/iso/top; Variation: 1/2
+- Slope Brick: size 52x44px, fill #FFFFFF | variants: Perspective: front/iso/top; Base Dimensions: 1x2/2x2/Mixed; Rotation: 0/180°/270°/90°
+- Washing Machine Brick: size 51x54px, fill #FFFFFF | variants: Base Dimensions: 1x1/1x2; Perspective: front/iso/top; X Rotation: 180°/270°/90°/Default
+- L Brick: size 40x40px, fill #FFFFFF | variants: Base Dimensions: 2x2/2x3; Rotation: 0/180°/270°/90°; Perspective: front/iso/top; Height: 1/Plate; Orientation: 1/2
+- Computer Mouse Brick: size 35x28px, fill #FFFFFF | variants: Perspective: iso left/iso right
+- Computer Screen Brick: size 41x64px, fill #FFFFFF | variants: Perspective: iso left/iso right
+- Keyboard Brick: size 52x38px, fill #FFFFFF | variants: Rotation: 0°/90°
+- Palette: size 16x20px, fill #FFFFFF | variants: Material Color: Aqua/Black/Blue/Blue-Violet/Bright Green/Bright Light Blue/Bright Light Orange/Bright Light Yellow/Bright Pink/Brown/Clikits Lavender/Coral/Dark Azure/Dark Blue/Dark Blue-Violet/Dark Bluish Gray/Dark Brown/Dark Gray/Dark Green/Dark Nougat/Dark Olive Green/Dark Orange/Dark Pink/Dark Purple/Dark Red/Dark Salmon/Dark Tan/Dark Turquoise/Dark Yellow/Earth Orange/Fabuland Brown/Fabuland Lime/Fabuland Orange/Green/Lavender/Light Aqua/Light Blue/Light Bluish Gray/Light Brown/Light Gray/Light Green/Light Lilac/Light Lime/Light Nougat/Light Orange/Light Pink/Light Purple/Light Salmon/Light Turquoise/Light Violet/Light Yellow/Lilac/Lime/Little Robots Blue/Maersk Blue/Magenta/Medium Azure/Medium Blue/Medium Brown/Medium Dark Pink/Medium Green/Medium Lavender/Medium Lime/Medium Nougat/Medium Orange/Medium Tan/Medium Violet/Neon Green/Neon Orange/Neon Yellow/Nougat/Olive Green/Orange/Pink/Purple/Red/Reddish Brown/Rust/Salmon/Sand Blue/Sand Green/Sand Purple/Sand Red/Sky Blue/Tan/Very Light Bluish Gray/Very Light Gray/Very Light Orange/Violet/White/Yellow/Yellowish Green
+- __primitive--graphic: size 40x20px | variants: Graphic: Computer Screen/Frame 3/Frame 4/Keyboard/Mouse; Perspective: iso/top; Rotation: 0°/90°
+- __primitive--custom-shapes--flower--top: size 40x40px | variants: Perspective: iso/top
+- __primitive--complex-brick-shapes--washing-machine-brick--side: size 20x24px | variants: X Rotation: Default/Variant2/Variant3/Variant4; Perspective: iso left/iso right/side
+- __primitive--complex-brick-shapes--lip--top: size 20.78x12px, fill #FFFFFF | variants: X Rotation: 0°/90°; Tiles: 1/2
+- __primitive--complex-brick-shapes--washing-machine-brick-height: size 20x20px, fill #FFFFFF | variants: Tiles: 1/2; Perspective: front/iso left/iso right
+- __primitive--peg-frame--front: size 20x4px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: Rotation: 0/90°
+- __primitive--peg-base--front: size 12x4px, fill #FFFFFF | variants: Rotation: 0/90°
+- __primitive--peg-base--top: size 12x12px, fill #FFFFFF | variants: Type: Hollow/Solid; Shading: Default/Highlight/Shadow
+- __primitive--complex-brick-shapes-slope--front-angle: size 34.5x40px | variants: Tiles: 1x1/1x2; Perspective: iso left/iso right
+- __primitive--complex-brick-shapes--lip--front: size 20x4px, fill #FFFFFF | variants: Perspective: front/iso left/iso right; Tiles: 1/2; Z Rotation: 0/90°
+- __primitive--complex-brick-shapes--washing-machine--top: size 16x40px, fill #FFFFFF | variants: Rotation: 0/90°; Perspective: iso/top; Section: top; Tile Count: 1x1/1x2
+- __primitive--complex-brick-shapes-slope--top: size 40x40px, fill #FFFFFF | variants: Rotation: 0/90°; Perspective: iso/top; Section: bottom/top; Tile Count: 1x1/1x2/2x2/2x3
+- __primitive--round-brick-shapes--side: size 20x24px | variants: Perspective: front/iso; Height: 1/Plate; Variation: 1/2
+- __primitive--circle-brick-shapes--top: size 20x20px, radius 999px, stroke #000000 1px | variants: Perspective: iso/top
+- __primitive--brick--pegs--top: size 20x4px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF | variants: Perspective: front/iso/top; X Rotation: 0°/90°; Y Rotation: 0°/90°; Z Rotation: 0°/90°; Tile Count: 1/2/3/4/5/6; Hollow Pegs: False/True
+- __primitive--complex-brick-shapes--L--top: size 40x40px | variants: Dimensions: 2x2/2x3/2x4; Perspective: iso/top; Orientation: 1/2/3/4; Rotation: 0/90°
+- __primitive--basic-brick-shapes--top: size 20x20px, fill #FFFFFF | variants: Perspective: iso/top; Tile Count: 1x1/1x2/1x3/1x4/1x5/1x6/2x2/2x3/2x4/2x5/2x6/3x3/3x4/3x5/3x6/4x4/4x5/4x6; X Rotation: 0°/90°; Z Rotation: 0°/90°; Y Rotation: 0°/90°
+- __primitive--complex-brick-shapes-slope--side: size 40x24px, fill #FFFFFF | variants: Perspective: front/iso left/iso right; Tile Size: 2/3; Height: 1; Rotation: 0/90°
+- __primitive--basic-brick-shapes--side: size 20x24px, fill #FFFFFF | variants: Perspective: front/iso left/iso right/iso top; Tile Size: 1/2/3/4/5/6/__primitive--basic-brick-shapes--side; Height: 1/2/5/Plate; Z Rotation: 0°/90°; X Rotation: 0°/90°; Y Rotation: 0°/90°
+- __primitive--brick-component-color: size 12x12px, fill #9C9C9C | variants: Shading: default/highlight/shadow
+- __primitive--brick-component--peg: size 20x20px | variants: Perspective: front/iso/top; X Rotation: 0°/90°; Z Rotation: 0°/90°; Type: Default/Minifigure
+- LEGO Logo: size 256x256px, fill #FFFFFF
+- __primitive--button--base: size 112x66px, radius 12px, horizontal layout, padding 20 20 20 20px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #000000 2px, text [Archivo Regular, 24px]
+- __primitive--button--top: size 112x66px, radius 12px, horizontal layout, padding 20 20 20 20px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #000000 2px, text [Archivo Regular, 24px]
+- Minifigure Hair: size 42.5x36px
+- Minifigure head: size 34.64x40.31px, fill #FFFFFF
+- Minifigure Torso: size 70x80.5px
+- Minifigure Legs: size 52.5x79px
+- Flower Brick: size 49x43px, fill #FFFFFF
+- Plant with 3 Leaves Brick: size 109.82x75.99px
+- __primitive--custom-shapes--plant-leaves: size 109.82x70.22px
+- __primitive--complex-brick-shapes--L--top/__primitive--custom-shapes--2/3-round-brick--peg: size 27.71x16px
+- __primitive--complex-brick-shapes--L--top/__primitive--custom-shapes--2/3-round-brick: size 19.68x26.31px
+- __primitive--round-brick--main: size 20x20px, stroke #212121 1px
+- __primitive--circle-brick--base: size 16x4px, stroke #212121 1px
+- __primitive--peg-frame--top: size 20x20px
+
+## Most-Used Styles
+- Dark Stroke: 4 uses
+- Archivo Base - Black: 1 use
+- Archivo Base - Bold: 1 use
+- Archivo Base - Medium: 1 use
+- Archivo Base - Regular: 1 use
+- Archivo Base - Semibold: 1 use
+- Archivo Large - Black: 1 use
+- Archivo Large - Bold: 1 use
+- Archivo Large - Medium: 1 use
+- Archivo Large - Regular: 1 use
+- Archivo Large - Semibold: 1 use
+- Archivo Small - Black: 1 use
+- Archivo Small - Bold: 1 use
+- Archivo Small - Medium: 1 use
+- Archivo Small - Regular: 1 use
+- Archivo Small - Semibold: 1 use
+- Archivo X Small - Black: 1 use
+- Archivo X Small - Bold: 1 use
+- Archivo X Small - Medium: 1 use
+- Archivo X Small - Regular: 1 use
+- Archivo X Small - Semibold: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1920x1080px, constraints left/top, fill #0080DD
+  - GROUP "Mask group", 1920x1080px, constraints left/top [decorative, ~43 shapes]
+  - INSTANCE "LEGO Logo", 256x256px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 252.89x252.89px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 252.89x252.89px, constraints scale/scale, fill #FFD700
+    - VECTOR "Vector", 252.89x252.89px, constraints scale/scale, fill #DA291C
+    - VECTOR "Vector", 256x256px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 233.87x104.51px, constraints scale/scale, fill #000000
+  - TEXT "Brick Design System", 648x204px, constraints left/top, fill #FFFFFF, text [Archivo Black, 96px], [heading]
+  - TEXT "Built with ❤️ by Austin Taylor", 622x52px, constraints left/top, fill #CBE9FF, text [Archivo SemiBold, 48px], [heading]
+  - TEXT "LEGO® is a registered trademark of the LEGO Group, which doe", 1237x26px, constraints left/top, fill #CBE9FF, text [Archivo SemiBold, 24px], [heading]
+  - GROUP "Group 2", 509x505.34px, constraints left/top
+    - FRAME "Rectangular Brick", 380.83x307.6px, constraints left/top
+      - FRAME "__primitive--basic-brick-shapes--side", 253.7x234.37px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component-color", 253.74x234.51px, constraints left_right/top_bottom, fill #FBE04C
+          - VECTOR "Stroke (Stroke)", 253.74x234.51px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--basic-brick-shapes--side", 126.85x161.13px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component-color", 126.44x161px, constraints left_right/top_bottom, fill #FBE04C
+          - VECTOR "Shadow", 126.44x161px, constraints scale/scale, fill #0000004D
+          - VECTOR "Stroke (Stroke)", 126.44x161px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--basic-brick-shapes--top", 380.56x219.7px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component-color", 380.56x219.7px, constraints scale/scale, fill #FBE04C
+          - VECTOR "Highlight", 380.56x219.7px, constraints scale/scale, fill #FFFFFF, opacity 40%
+          - VECTOR "Stroke (Stroke)", 380.56x219.7px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--brick--pegs--top", 380.5x292.91px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+            - FRAME "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--brick--pegs--top", 380.5x292.91px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+            - FRAME "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+            - FRAME "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+    - FRAME "Rectangular Brick", 377.17x307.6px, constraints left/top
+      - FRAME "__primitive--basic-brick-shapes--side", 126.85x161.13px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component-color", 126.44x161px, constraints left_right/top_bottom, fill #FBE04C
+          - VECTOR "Stroke (Stroke)", 126.44x161px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--basic-brick-shapes--side", 253.7x234.37px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component-color", 253.74x234.51px, constraints left_right/top_bottom, fill #FBE04C
+          - VECTOR "Shadow", 253.74x234.51px, constraints scale/scale, fill #0000004D
+          - VECTOR "Stroke (Stroke)", 253.74x234.51px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--basic-brick-shapes--top", 380.56x219.7px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component-color", 380.56x219.7px, constraints scale/scale, fill #FBE04C
+          - VECTOR "Highlight", 380.56x219.7px, constraints scale/scale, fill #FFFFFF, opacity 40%
+          - VECTOR "Stroke (Stroke)", 380.56x219.7px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--brick--pegs--top", 380.5x292.91px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+            - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+            - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--brick--pegs--top", 380.5x292.91px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+            - FRAME "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+            - FRAME "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+    - FRAME "Rectangular Brick", 380.83x307.6px, constraints left/top
+      - FRAME "__primitive--basic-brick-shapes--side", 317.12x270.99px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component-color", 317.12x270.99px, constraints scale/scale, fill #FBE04C
+          - VECTOR "Stroke (Stroke)", 317.12x270.99px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--basic-brick-shapes--side", 63.43x124.51px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component-color", 63.43x124.51px, constraints scale/scale, fill #FBE04C
+          - VECTOR "Shadow", 63.43x124.51px, constraints scale/scale, fill #0000004D
+          - VECTOR "Stroke (Stroke)", 63.43x124.51px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--basic-brick-shapes--top", 380.55x219.7px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component-color", 380.55x219.7px, constraints scale/scale, fill #FBE04C
+          - VECTOR "Highlight", 380.55x219.7px, constraints scale/scale, fill #FFFFFF, opacity 40%
+          - VECTOR "Stroke (Stroke)", 380.55x219.7px, constraints scale/scale, fill #000000
+      - FRAME "__primitive--brick--pegs--top", 443.91x329.52px, constraints scale/scale, fill #FFFFFF
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+            - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+            - VECTOR "--peg-highlight", 76.11x43.94px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - VECTOR "--peg-stroke (Stroke)", 76.11x43.94px, constraints scale/scale, fill #000000
+        - FRAME "__primitive--brick-component--peg", 126.84x73.23px, constraints scale/scale
+          - FRAME "__primitive--peg-frame--top", 126.84x73.23px, constraints scale/scale
+            - FRAME "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 53.86x45.72px, constraints left/top
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #9C9C9C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #212121
+            - INSTANCE "__primitive--brick-component-color", 58.59x43.94px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment", 53.86x45.72px, constraints scale/scale, fill #FBE04C
+            - VECTOR "Peg Iso Treatment (Stroke)", 53.86x45.72px, constraints scale/scale, fill #000000
+          - FRAME "__primitive--peg-base--top", 76.11x43.94px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Mask group", 76.11x43.94px, constraints left/top
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Design System / Foundational LEGO Shapes
+- SECTION "Foundational LEGO Shapes", 4377x2040px, fill #FFFFFF, stroke #0000001A 1px
+  - COMPONENT "__primitive--peg-frame--top", 20x20px, constraints left/top
+    - INSTANCE "__primitive--peg-base--top", 12x12px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 12x12px, constraints left/top
+        - ELLIPSE "Peg Circle", 12x12px, constraints scale/scale, fill #D9D9D9
+        - INSTANCE "__primitive--brick-component-color", 12x12px, constraints scale/scale, fill #9C9C9C
+      - ELLIPSE "--peg-highlight", 12x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+      - ELLIPSE "--peg-stroke", 12x12px, constraints scale/scale, stroke #000000 1px
+  - COMPONENT_SET "__primitive--brick-component--peg", 167x101px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Perspective=top, X Rotation=0°, Z Rotation=0°, Type=Default", 20x20px, constraints left/top
+      - INSTANCE "__primitive--peg-frame--top", 20x20px, constraints scale/scale
+        - INSTANCE "__primitive--peg-base--top", 12x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 12x12px, constraints left/top
+            - ELLIPSE "Peg Circle", 12x12px, constraints scale/scale, fill #D9D9D9
+            - INSTANCE "__primitive--brick-component-color", 12x12px, constraints scale/scale, fill #9C9C9C
+          - ELLIPSE "--peg-highlight", 12x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+          - ELLIPSE "--peg-stroke", 12x12px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, X Rotation=90°, Z Rotation=90°, Type=Defa", 20x20px, constraints left/top
+      - INSTANCE "__primitive--peg-frame--top", 20x20px, constraints scale/scale
+        - INSTANCE "__primitive--peg-base--top", 12x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 12x12px, constraints left/top
+            - ELLIPSE "Peg Circle", 12x12px, constraints scale/scale, fill #D9D9D9
+            - INSTANCE "__primitive--brick-component-color", 12x12px, constraints scale/scale, fill #9C9C9C
+          - ELLIPSE "--peg-highlight", 12x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+          - ELLIPSE "--peg-stroke", 12x12px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, X Rotation=0°, Z Rotation=0°, Type=Defaul", 20x4px, constraints left/top
+      - INSTANCE "__primitive--peg-frame--front", 20x4px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "__primitive--peg-base--front", 12x4px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 12x4px, constraints scale/scale, fill #9C9C9C
+            - RECTANGLE "Stroke", 12x4px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, X Rotation=90°, Z Rotation=90°, Type=Defaul", 4x20px, constraints left/top
+      - INSTANCE "__primitive--peg-frame--front", 4x20px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "__primitive--peg-base--front", 4x12px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 4x12px, constraints scale/scale, fill #9C9C9C
+            - RECTANGLE "Stroke", 4x12px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso, X Rotation=0°, Z Rotation=0°, Type=Default", 34.64x20px, constraints left/top
+      - INSTANCE "__primitive--peg-frame--top", 34.64x20px, constraints scale/scale
+        - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 20.78x12px, constraints left/top
+            - ELLIPSE "Peg Circle", 20.78x12px, constraints scale/scale, fill #D9D9D9
+            - INSTANCE "__primitive--brick-component-color", 20.78x12px, constraints scale/scale, fill #9C9C9C
+          - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+          - ELLIPSE "--peg-stroke", 20.78x12px, constraints scale/scale, stroke #000000 1px
+      - GROUP "Mask group", 14.71x12.49px, constraints left/top
+        - VECTOR "Peg Iso Treatment", 14.71x12.49px, constraints left/top, fill #9C9C9C, stroke #212121 1px
+        - INSTANCE "__primitive--brick-component-color", 16x12px, constraints left_right/top_bottom, fill #9C9C9C
+        - VECTOR "Peg Iso Treatment", 14.71x12.49px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Mask group", 20.78x12px, constraints left/top
+          - ELLIPSE "Peg Circle", 20.78x12px, constraints scale/scale, fill #D9D9D9
+          - INSTANCE "__primitive--brick-component-color", 20.78x12px, constraints scale/scale, fill #9C9C9C
+        - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - ELLIPSE "--peg-stroke", 20.78x12px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso, X Rotation=0°, Z Rotation=90°, Type=Default", 18.17x20px, constraints left/top
+      - GROUP "Mask group", 18.17x18.98px, constraints left/top
+        - VECTOR "Peg Iso Treatment", 18.17x18.98px, constraints left/top, fill #9C9C9C, stroke #212121 1px
+        - INSTANCE "__primitive--brick-component-color", 18.39x19.86px, constraints left_right/top_bottom, fill #9C9C9C
+        - VECTOR "Peg Iso Treatment", 18.17x18.98px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - INSTANCE "__primitive--peg-base--top", 10.39x18px, constraints left/top, fill #FFFFFF
+        - GROUP "Mask group", 10.39x18px, constraints left/top
+          - ELLIPSE "Peg Circle", 10.39x18px, constraints scale/scale, fill #D9D9D9
+          - INSTANCE "__primitive--brick-component-color", 10.39x18px, constraints scale/scale, fill #9C9C9C
+        - ELLIPSE "--peg-stroke", 10.39x18px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso, X Rotation=90°, Z Rotation=90°, Type=Defaul", 18.17x19.58px, constraints left/top
+      - GROUP "Mask group", 18.17x18.98px, constraints left/top
+        - VECTOR "Peg Iso Treatment", 18.17x18.98px, constraints left/top, fill #9C9C9C, stroke #212121 1px
+        - INSTANCE "__primitive--brick-component-color", 18.39x19.86px, constraints left_right/top_bottom, fill #9C9C9C
+        - VECTOR "Peg Iso Treatment", 18.17x18.98px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+        - VECTOR "Peg Iso Treatment", 18.17x18.98px, constraints left/top, fill #212121, opacity 30%
+      - INSTANCE "__primitive--peg-base--top", 10.39x18px, constraints left/top, fill #FFFFFF
+        - GROUP "Mask group", 10.39x18px, constraints left/top
+          - ELLIPSE "Peg Circle", 10.39x18px, constraints scale/scale, fill #D9D9D9
+          - INSTANCE "__primitive--brick-component-color", 10.39x18px, constraints scale/scale, fill #9C9C9C
+        - ELLIPSE "--peg-shadow", 10.39x18px, constraints scale/scale, fill #000000, opacity 30%
+        - ELLIPSE "--peg-stroke", 10.39x18px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso, X Rotation=0°, Z Rotation=0°, Type=Minifigu", 35x26px, constraints left/top
+      - GROUP "Mask group", 14.74x22.48px, constraints left/top
+        - BOOLEAN_OPERATION "Union", 14.74x22.48px, constraints left/top, fill #D9D9D9
+        - INSTANCE "__primitive--brick-component-color", 16x25px, constraints left/top, fill #9C9C9C
+      - BOOLEAN_OPERATION "Union", 14.74x22.48px, constraints left/top, stroke #000000 1px
+      - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+        - GROUP "Mask group", 20.78x12px, constraints left/top
+          - ELLIPSE "Peg Circle", 20.78x12px, constraints scale/scale, fill #D9D9D9
+          - INSTANCE "__primitive--brick-component-color", 20.78x12px, constraints scale/scale, fill #9C9C9C
+        - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - ELLIPSE "--peg-stroke", 20.78x12px, constraints scale/scale, stroke #000000 1px
+  - COMPONENT_SET "__primitive--brick-component-color", 84x52px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Shading=default", 12x12px, constraints scale/scale, fill #9C9C9C
+      - RECTANGLE "Stroke", 12x12px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Shading=highlight", 12x12px, constraints scale/scale, fill #9C9C9C
+      - RECTANGLE "Highlight", 12x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+      - RECTANGLE "Stroke", 12x12px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Shading=shadow", 12x12px, constraints scale/scale, fill #9C9C9C
+      - RECTANGLE "Shadow", 12x12px, constraints scale/scale, fill #0000004D
+      - RECTANGLE "Stroke", 12x12px, constraints scale/scale, stroke #000000 1px
+  - COMPONENT_SET "__primitive--basic-brick-shapes--side", 1726x629px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Perspective=front, Tile Size=1, Height=1, Z Rotation=0°, X R", 20x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 20x24px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 20x24px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=1, Height=2, Z Rotation=0°, X R", 20x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 20x48px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 20x48px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=1, Height=Plate, Z Rotation=0°,", 20x8px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 20x8px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 20x8px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=2, Height=1, Z Rotation=0°, X R", 40x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 40x24px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 40x24px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=2, Height=2, Z Rotation=0°, X R", 40x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 40x48px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 40x48px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=2, Height=Plate, Z Rotation=0°,", 40x8px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 40x8px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 40x8px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=3, Height=1, Z Rotation=0°, X R", 60x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 60x24px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 60x24px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=3, Height=2, Z Rotation=0°, X R", 60x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 60x48px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 60x48px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=3, Height=Plate, Z Rotation=0°,", 60x8px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 60x8px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 60x8px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=4, Height=1, Z Rotation=0°, X R", 80x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 80x24px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 80x24px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=4, Height=2, Z Rotation=0°, X R", 80x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 80x48px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 80x48px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=4, Height=Plate, Z Rotation=0°,", 80x8px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 80x8px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 80x8px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=5, Height=1, Z Rotation=0°, X R", 100x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 100x24px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 100x24px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=5, Height=2, Z Rotation=0°, X R", 100x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 100x48px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 100x48px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=5, Height=5, Z Rotation=0°, X R", 100x8px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 100x8px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 100x8px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=6, Height=1, Z Rotation=0°, X R", 120x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 120x24px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 120x24px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=6, Height=2, Z Rotation=0°, X R", 120x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 120x48px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 120x48px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=6, Height=Plate, Z Rotation=0°,", 120x8px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 120x8px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 120x8px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=1, Height=1, Z Rotation=0°, ", 17.32x34px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 17.32x34px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 17.32x34px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=1, Height=2, Z Rotation=0°, ", 17.32x58px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 17.32x58px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 17.32x58px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=1, Height=Plate, Z Rotation=", 17.32x18px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 17.32x18px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 17.32x18px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=2, Height=1, Z Rotation=0°, ", 34.64x44px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 34.64x44px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 34.64x44px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=2, Height=2, Z Rotation=0°, ", 34.64x68px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 34.64x68px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 34.64x68px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=2, Height=Plate, Z Rotation=", 34.64x28px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 34.64x28px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 34.64x28px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=3, Height=1, Z Rotation=0°, ", 51.96x54px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 51.96x54px, constraints left_right/top_bottom, fill #9C9C9C
+        - RECTANGLE "Stroke", 51.96x54px, constraints scale/scale, stroke #000000 1px
+    - ... +53 more children
+  - COMPONENT_SET "__primitive--complex-brick-shapes-slope--side", 503x132px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Perspective=front, Tile Size=2, Height=1, Rotation=90°", 40x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 40x24px, constraints left/top
+        - VECTOR "Vector 1", 40x24px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 40x24px, constraints left_right/top_bottom, fill #9C9C9C
+      - VECTOR "Vector 2", 40x24px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=2, Height=1, Rotation=0", 40x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 40x24px, constraints left/top
+        - VECTOR "Vector 1", 40x24px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 40x24px, constraints left_right/top_bottom, fill #9C9C9C
+      - VECTOR "Vector 2", 40x24px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=3, Height=1, Rotation=0", 60x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 60x24px, constraints left/top
+        - VECTOR "Vector 1", 60x24px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 60x24px, constraints left_right/top_bottom, fill #9C9C9C
+      - VECTOR "Vector 2", 60x24px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=front, Tile Size=3, Height=1, Rotation=90°", 60x24px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 60x24px, constraints left/top
+        - VECTOR "Vector 1", 60x24px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 60x24px, constraints left_right/top_bottom, fill #9C9C9C
+      - VECTOR "Vector 2", 60x24px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=2, Height=1, Rotation=90°", 34.64x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 34.64x44px, constraints left/top
+        - VECTOR "Vector 1", 34.64x44px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 34.64x44px, constraints left_right/top_bottom, fill #9C9C9C
+      - VECTOR "Vector 2", 34.64x44px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=2, Height=1, Rotation=0", 34.64x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 34.64x44px, constraints left/top
+        - VECTOR "Vector 1", 34.64x44px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 34.64x44px, constraints left_right/top_bottom, fill #9C9C9C
+      - VECTOR "Vector 2", 34.64x44px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=3, Height=1, Rotation=0", 51.96x54px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 51.96x54px, constraints left/top
+        - VECTOR "Vector 1", 51.96x54px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 51.96x54px, constraints left_right/top_bottom, fill #9C9C9C
+      - VECTOR "Vector 2", 51.96x54px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=iso left, Tile Size=3, Height=1, Rotation=90°", 51.96x54px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 51.96x54px, constraints left/top
+        - VECTOR "Vector 1", 51.96x54px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 51.96x54px, constraints left_right/top_bottom, fill #9C9C9C
+      - VECTOR "Vector 2", 51.96x54px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=iso right, Tile Size=2, Height=1, Rotation=90°", 34.64x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 34.64x44px, constraints left/top
+        - VECTOR "Vector 1", 34.64x44px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 34.64x44px, constraints left_right/top_bottom, fill #9C9C9C
+          - RECTANGLE "Shadow", 34.64x44px, constraints scale/scale, fill #0000004D
+      - VECTOR "Vector 2", 34.64x44px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=iso right, Tile Size=2, Height=1, Rotation=0", 34.64x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 34.64x44px, constraints left/top
+        - VECTOR "Vector 1", 34.64x44px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 34.64x44px, constraints left_right/top_bottom, fill #9C9C9C
+          - RECTANGLE "Shadow", 34.64x44px, constraints scale/scale, fill #0000004D
+      - VECTOR "Vector 2", 34.64x44px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=iso right, Tile Size=3, Height=1, Rotation=0", 51.96x54px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 51.96x54px, constraints left/top
+        - VECTOR "Vector 1", 51.96x54px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 51.96x54px, constraints left_right/top_bottom, fill #9C9C9C
+          - RECTANGLE "Shadow", 51.96x54px, constraints scale/scale, fill #0000004D
+      - VECTOR "Vector 2", 51.96x54px, constraints left/top, stroke #000000 1px
+    - COMPONENT "Perspective=iso right, Tile Size=3, Height=1, Rotation=90°", 51.96x54px, constraints left/top, fill #FFFFFF
+      - GROUP "Mask group", 51.96x54px, constraints left/top
+        - VECTOR "Vector 1", 51.96x54px, constraints left/top, fill #000000
+        - INSTANCE "__primitive--brick-component-color", 51.96x54px, constraints left_right/top_bottom, fill #9C9C9C
+          - RECTANGLE "Shadow", 51.96x54px, constraints scale/scale, fill #0000004D
+      - VECTOR "Vector 2", 51.96x54px, constraints left/top, stroke #000000 1px
+  - COMPONENT_SET "__primitive--basic-brick-shapes--top", 2074x988px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Perspective=top, Tile Count=1x1, X Rotation=90°, Z Rotation=", 20x20px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 20x20px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 20x20px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=1x2, X Rotation=90°, Z Rotation=", 40x20px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 40x20px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 40x20px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 40x20px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=2x2, X Rotation=90°, Z Rotation=", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 40x40px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 40x40px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 40x40px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=3x3, X Rotation=90°, Z Rotation=", 60x60px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 60x60px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 60x60px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 60x60px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=4x4, X Rotation=90°, Z Rotation=", 80x80px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 80x80px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 80x80px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 80x80px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=1x3, X Rotation=90°, Z Rotation=", 60x20px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 60x20px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 60x20px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 60x20px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=2x3, X Rotation=90°, Z Rotation=", 60x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 60x40px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 60x40px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 60x40px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=3x4, X Rotation=90°, Z Rotation=", 80x60px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 80x60px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 80x60px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 80x60px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=4x5, X Rotation=90°, Z Rotation=", 100x80px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 100x80px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 100x80px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 100x80px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=1x4, X Rotation=90°, Z Rotation=", 80x20px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 80x20px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 80x20px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 80x20px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=2x4, X Rotation=90°, Z Rotation=", 80x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 80x40px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 80x40px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 80x40px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=3x5, X Rotation=90°, Z Rotation=", 100x60px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 100x60px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 100x60px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 100x60px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=4x6, X Rotation=90°, Z Rotation=", 120x80px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 120x80px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 120x80px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 120x80px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=1x5, X Rotation=90°, Z Rotation=", 100x20px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 100x20px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 100x20px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 100x20px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=2x5, X Rotation=90°, Z Rotation=", 100x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 100x40px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 100x40px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - RECTANGLE "Stroke", 100x40px, constraints scale/scale, stroke #000000 1px
+    - COMPONENT "Perspective=top, Tile Count=3x6, X Rotation=90°, Z Rotation=", 120x60px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component-color", 120x60px, constraints scale/scale, fill #9C9C9C
+        - RECTANGLE "Highlight", 120x60px, constraints scale/scale, fill #FFFFFF, opacity 40%
+    - ... +79 more children
+  - ... +2 more children
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Design System / Colors
+- SECTION "Colors", 345x2040px, fill #FFFFFF, stroke #0000001A 1px
+  - TEXT "White", 33x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Dark Gray", 57x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Yellowish Green", 91x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Nougat", 42x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Maersk Blue", 70x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Dark Brown", 66x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Light Green", 66x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Bright Light Orange", 111x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Lilac", 26x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Coral", 30x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Olive Green", 66x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Dark Orange", 72x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Light Blue", 57x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Fabuland Brown", 92x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Light Aqua", 61x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Light Yellow", 69x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Purple", 37x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Magenta", 50x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Very Light Gray", 88x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Very Light Bluish Gray", 125x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Dark Bluish Gray", 94x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Medium Lime", 76x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Medium Nougat", 91x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Medium Azure", 82x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - TEXT "Brown", 36x15px, constraints left/top, fill #212121, text [Inter Regular, 12px]
+  - ... +68 more children
+
+Screen: Design System / LEGO Bricks
+- SECTION "LEGO Bricks", 4795x2952px, fill #FFFFFF
+  - COMPONENT "Plant with 3 Leaves Brick", 109.82x75.99px, constraints left/top
+    - INSTANCE "__primitive--complex-brick-shapes--L--top/__primitive--custo", 19.68x26.31px, constraints left/top
+      - BOOLEAN_OPERATION "Union", 19.68x26.31px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+    - INSTANCE "__primitive--complex-brick-shapes--L--top/__primitive--custo", 27.71x16px, constraints left/top
+      - ELLIPSE "Ellipse 30", 27.71x16px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+    - INSTANCE "__primitive--custom-shapes--plant-leaves", 109.82x70.22px, constraints left/top
+      - VECTOR "Vector 22", 45.26x43px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - BOOLEAN_OPERATION "Union", 42.05x24.4px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - VECTOR "Vector 23", 38.5x20.93px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - BOOLEAN_OPERATION "Union", 40.35x29.39px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - VECTOR "Vector 24", 38.43x21.25px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - VECTOR "Vector 25", 42.05x23.21px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - VECTOR "Vector 26", 39.35x28.67px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - VECTOR "Vector 27", 7x1.5px, constraints left/top, stroke #000000 1px
+      - VECTOR "Vector 28", 7.5x9.5px, constraints left/top, stroke #000000 1px
+      - VECTOR "Vector 29", 11.5x14px, constraints left/top, stroke #000000 1px
+    - INSTANCE "__primitive--brick--pegs--top", 51.96x49.99px, horizontal pad 0 0 0 0px gap -20px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--brick-component--peg", 34.64x20px, constraints left/top
+        - INSTANCE "__primitive--peg-frame--top", 34.64x20px, constraints scale/scale
+          - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+            - GROUP "Mask group", 20.78x12px, constraints left/top
+            - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - ELLIPSE "--peg-stroke", 20.78x12px, constraints scale/scale, stroke #000000 1px
+        - GROUP "Mask group", 14.71x12.49px, constraints left/top
+          - VECTOR "Peg Iso Treatment", 14.71x12.49px, constraints left/top, fill #9C9C9C, stroke #212121 1px
+          - INSTANCE "__primitive--brick-component-color", 16x12px, constraints left_right/top_bottom, fill #9C9C9C
+          - VECTOR "Peg Iso Treatment", 14.71x12.49px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+        - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints scale/scale
+          - GROUP "Mask group", 20.78x12px, constraints left/top
+            - BOOLEAN_OPERATION "Empty Peg Circle", 20.78x12px, constraints left/top, fill #D9D9D9
+            - INSTANCE "__primitive--brick-component-color", 20.78x12px, constraints scale/scale, fill #9C9C9C
+            - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+          - BOOLEAN_OPERATION "--peg-stroke", 20.78x12px, constraints left/top, stroke #000000 1px
+  - COMPONENT "Flower Brick", 49x43px, constraints left/top, fill #FFFFFF
+    - INSTANCE "__primitive--complex-brick-shapes--L--top/__primitive--custo", 19.68x26.31px, constraints left/top
+      - BOOLEAN_OPERATION "Union", 19.68x26.31px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+    - INSTANCE "__primitive--custom-shapes--flower--top", 69.28x39.99px, constraints left/top
+      - RECTANGLE "Rectangle 391", 41.22x8px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - BOOLEAN_OPERATION "Union", 49.14x34.28px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - BOOLEAN_OPERATION "Union", 41.6x13.28px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - BOOLEAN_OPERATION "Union", 69.28x40px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+    - INSTANCE "__primitive--brick-component--peg", 34.64x20px, constraints left/top
+      - INSTANCE "__primitive--peg-frame--top", 34.64x20px, constraints scale/scale
+        - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 20.78x12px, constraints left/top
+            - ELLIPSE "Peg Circle", 20.78x12px, constraints scale/scale, fill #D9D9D9
+            - INSTANCE "__primitive--brick-component-color", 20.78x12px, constraints scale/scale, fill #9C9C9C
+          - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+          - ELLIPSE "--peg-stroke", 20.78x12px, constraints scale/scale, stroke #000000 1px
+      - GROUP "Mask group", 14.71x12.49px, constraints left/top
+        - VECTOR "Peg Iso Treatment", 14.71x12.49px, constraints left/top, fill #9C9C9C, stroke #212121 1px
+        - INSTANCE "__primitive--brick-component-color", 16x12px, constraints left_right/top_bottom, fill #9C9C9C
+        - VECTOR "Peg Iso Treatment", 14.71x12.49px, constraints left/top, fill #9C9C9C, stroke #000000 1px
+      - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints scale/scale
+        - GROUP "Mask group", 20.78x12px, constraints left/top
+          - BOOLEAN_OPERATION "Empty Peg Circle", 20.78x12px, constraints left/top, fill #D9D9D9
+          - INSTANCE "__primitive--brick-component-color", 20.78x12px, constraints scale/scale, fill #9C9C9C
+          - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - BOOLEAN_OPERATION "--peg-stroke", 20.78x12px, constraints left/top, stroke #000000 1px
+  - COMPONENT_SET "Keyboard Brick", 162x78px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Rotation=90°", 52x38px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Rectangular Brick", 52x38px, constraints scale/scale
+        - INSTANCE "__primitive--basic-brick-shapes--top", 51.96x30px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 51.96x30px, constraints scale/scale, fill #9C9C9C
+            - RECTANGLE "Highlight", 51.96x30px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - RECTANGLE "Stroke", 51.96x30px, constraints scale/scale, stroke #000000 1px
+        - INSTANCE "__primitive--basic-brick-shapes--side", 34.64x28px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 34.64x28px, constraints left_right/top_bottom, fill #9C9C9C
+            - RECTANGLE "Stroke", 34.64x28px, constraints scale/scale, stroke #000000 1px
+        - INSTANCE "__primitive--basic-brick-shapes--side", 17.32x18px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 17.32x18px, constraints left_right/top_bottom, fill #9C9C9C
+            - RECTANGLE "Shadow", 17.32x18px, constraints scale/scale, fill #0000004D
+            - RECTANGLE "Stroke", 17.32x18px, constraints scale/scale, stroke #000000 1px
+      - INSTANCE "__primitive--graphic", 51.96x30px, constraints scale/scale
+        - FRAME "Keyboard", 43.3x25px, constraints left/top [decorative, ~50 shapes]
+    - COMPONENT "Rotation=0°", 52x38px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Rectangular Brick", 52x38px, constraints scale/scale
+        - INSTANCE "__primitive--basic-brick-shapes--side", 17.32x18px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 17.32x18px, constraints left_right/top_bottom, fill #9C9C9C
+            - RECTANGLE "Stroke", 17.32x18px, constraints scale/scale, stroke #000000 1px
+        - INSTANCE "__primitive--basic-brick-shapes--side", 34.64x28px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 34.64x28px, constraints left_right/top_bottom, fill #9C9C9C
+            - RECTANGLE "Shadow", 34.64x28px, constraints scale/scale, fill #0000004D
+            - RECTANGLE "Stroke", 34.64x28px, constraints scale/scale, stroke #000000 1px
+        - INSTANCE "__primitive--basic-brick-shapes--top", 51.96x30px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 51.96x30px, constraints scale/scale, fill #9C9C9C
+            - RECTANGLE "Highlight", 51.96x30px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - RECTANGLE "Stroke", 51.96x30px, constraints scale/scale, stroke #000000 1px
+      - INSTANCE "__primitive--graphic", 51.96x30px, constraints scale/scale
+        - RECTANGLE "Rectangle 392", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 393", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 433", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 394", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 434", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 395", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 435", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 396", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 436", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 397", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 437", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 398", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 438", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 399", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 439", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 400", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 440", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 401", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 441", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 407", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 408", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 409", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 410", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 411", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - RECTANGLE "Rectangle 412", 3.46x2px, constraints left/top, fill #D9D9D9, stroke #5A5D60 0.5px
+        - ... +23 more children
+  - COMPONENT_SET "Computer Screen Brick", 145x104px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Perspective=iso left", 41x64px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Rectangular Brick", 41x64px, constraints scale/scale
+        - INSTANCE "__primitive--basic-brick-shapes--side", 41.57x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 41.57x24px, constraints left_right/top_bottom, fill #9C9C9C
+            - RECTANGLE "Highlight", 41.57x24px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - RECTANGLE "Stroke", 41.57x24px, constraints scale/scale, stroke #000000 1px
+        - INSTANCE "__primitive--basic-brick-shapes--top", 34.64x60px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 34.64x60px, constraints scale/scale, fill #9C9C9C
+            - RECTANGLE "Stroke", 34.64x60px, constraints scale/scale, stroke #000000 1px
+        - INSTANCE "__primitive--basic-brick-shapes--side", 6.93x44px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 6.93x44px, constraints left_right/top_bottom, fill #9C9C9C
+            - RECTANGLE "Shadow", 6.93x44px, constraints scale/scale, fill #0000004D
+            - RECTANGLE "Stroke", 6.93x44px, constraints scale/scale, stroke #000000 1px
+      - INSTANCE "__primitive--graphic", 34.64x60px, constraints scale/scale
+        - RECTANGLE "Rectangle 443", 32.91x57px, constraints left/top, fill #449EDB
+        - RECTANGLE "Rectangle 444", 31.18x50px, constraints left/top, fill #E5E8E8, stroke #000000 0.5px
+        - RECTANGLE "Rectangle 445", 31.18x21px, constraints left/top, fill #5A5D60, stroke #000000 0.5px
+        - RECTANGLE "Rectangle 446", 29.45x44px, constraints left/top, fill #FFFFFF, stroke #000000 0.5px
+        - RECTANGLE "image 2", 1.73x3px, constraints left/top, fill image(hash: c326eb381e59a868e44ee61aaad6205e0696ed8e)
+        - RECTANGLE "Rectangle 447", 6.93x7px, constraints left/top, fill #E5E8E8
+        - RECTANGLE "Rectangle 448", 6.93x7px, constraints left/top, fill #F08878
+        - RECTANGLE "Rectangle 453", 6.93x7px, constraints left/top, fill #F08878
+        - RECTANGLE "Rectangle 449", 6.93x7px, constraints left/top, fill #75BEE0
+        - RECTANGLE "Rectangle 450", 6.93x7px, constraints left/top, fill #A3DC94
+        - RECTANGLE "Rectangle 451", 10.39x25px, constraints left/top, radius 2px, stroke #7466C8 0.25px
+        - RECTANGLE "Rectangle 452", 13.86x31px, constraints left/top, stroke #7466C8 0.25px
+        - RECTANGLE "Rectangle 454", 10.39x9px, constraints left/top, radius 1px, fill #E5E8E8
+        - RECTANGLE "Rectangle 455", 10.39x8px, constraints left/top, radius 1px, fill #E5E8E8
+        - RECTANGLE "Rectangle 456", 6.06x5.5px, constraints left/top, radius 1px, fill #E5E8E8
+    - COMPONENT "Perspective=iso right", 42x64px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Rectangular Brick", 42x64px, constraints scale/scale
+        - INSTANCE "__primitive--basic-brick-shapes--side", 41.57x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 41.57x24px, constraints left_right/top_bottom, fill #9C9C9C
+            - RECTANGLE "Highlight", 41.57x24px, constraints scale/scale, fill #FFFFFF, opacity 40%
+            - RECTANGLE "Stroke", 41.57x24px, constraints scale/scale, stroke #000000 1px
+        - INSTANCE "__primitive--basic-brick-shapes--top", 34.64x60px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 34.64x60px, constraints scale/scale, fill #9C9C9C
+            - RECTANGLE "Shadow", 34.64x60px, constraints scale/scale, fill #0000004D
+            - RECTANGLE "Stroke", 34.64x60px, constraints scale/scale, stroke #000000 1px
+        - INSTANCE "__primitive--basic-brick-shapes--side", 6.93x44px, constraints left/top, fill #FFFFFF
+          - INSTANCE "__primitive--brick-component-color", 6.93x44px, constraints left_right/top_bottom, fill #9C9C9C
+            - RECTANGLE "Stroke", 6.93x44px, constraints scale/scale, stroke #000000 1px
+      - INSTANCE "__primitive--graphic", 34.64x60px, constraints scale/scale
+        - RECTANGLE "Rectangle 443", 32.91x57px, constraints left/top, fill #449EDB
+        - RECTANGLE "Rectangle 444", 31.18x50px, constraints left/top, fill #E5E8E8, stroke #000000 0.5px
+        - RECTANGLE "Rectangle 445", 31.18x21px, constraints left/top, fill #5A5D60, stroke #000000 0.5px
+        - RECTANGLE "Rectangle 446", 29.45x44px, constraints left/top, fill #FFFFFF, stroke #000000 0.5px
+        - RECTANGLE "image 2", 1.73x3px, constraints left/top, fill image(hash: c326eb381e59a868e44ee61aaad6205e0696ed8e)
+        - RECTANGLE "Rectangle 447", 6.93x7px, constraints left/top, fill #E5E8E8
+        - RECTANGLE "Rectangle 448", 6.93x7px, constraints left/top, fill #F08878
+        - RECTANGLE "Rectangle 453", 6.93x7px, constraints left/top, fill #F08878
+        - RECTANGLE "Rectangle 449", 6.93x7px, constraints left/top, fill #75BEE0
+        - RECTANGLE "Rectangle 450", 6.93x7px, constraints left/top, fill #A3DC94
+        - RECTANGLE "Rectangle 451", 10.39x25px, constraints left/top, radius 2px, stroke #7466C8 0.25px
+        - RECTANGLE "Rectangle 452", 13.86x31px, constraints left/top, stroke #7466C8 0.25px
+        - RECTANGLE "Rectangle 454", 10.39x9px, constraints left/top, radius 1px, fill #E5E8E8
+        - RECTANGLE "Rectangle 455", 10.39x8px, constraints left/top, radius 1px, fill #E5E8E8
+        - RECTANGLE "Rectangle 456", 6.06x5.5px, constraints left/top, radius 1px, fill #E5E8E8
+  - COMPONENT_SET "Computer Mouse Brick", 121x68px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Perspective=iso left", 35x28px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Round Brick", 35x28px, constraints left/top
+        - INSTANCE "__primitive--round-brick-shapes--side", 25x23px, constraints left/top
+          - INSTANCE "__primitive--circle-brick-shapes--top", 34.64x20px, constraints left/top, radius 999px, stroke #000000 1px
+            - INSTANCE "__primitive--brick-component-color", 34.64x20px, constraints scale/scale, fill #9C9C9C
+          - GROUP "Mask group", 24.66x23.21px, constraints left/top
+            - BOOLEAN_OPERATION "Union", 24.66x23.21px, constraints left/top, fill #CCCCCC
+            - INSTANCE "__primitive--brick-component-color", 25x32px, constraints scale/scale, fill #9C9C9C
+          - BOOLEAN_OPERATION "Union", 24.66x23.21px, constraints left/top, stroke #000000 1px
+        - INSTANCE "__primitive--circle-brick-shapes--top", 34.64x20px, constraints left/top, radius 999px, stroke #000000 1px
+          - INSTANCE "__primitive--brick-component-color", 34.64x20px, constraints scale/scale, fill #9C9C9C
+            - RECTANGLE "Highlight", 34.64x20px, constraints scale/scale, fill #FFFFFF, opacity 40%
+      - INSTANCE "__primitive--graphic", 34.64x20px, constraints left/top
+        - BOOLEAN_OPERATION "Subtract", 11.91x6.87px, constraints left/top, stroke #5A5D60 0.5px
+        - BOOLEAN_OPERATION "Subtract", 11.91x6.87px, constraints left/top, stroke #5A5D60 0.5px
+    - COMPONENT "Perspective=iso right", 35x28px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--graphic", 34.64x20px, constraints left/top
+        - BOOLEAN_OPERATION "Subtract", 11.91x6.87px, constraints left/top, stroke #5A5D60 0.5px
+        - BOOLEAN_OPERATION "Subtract", 11.91x6.87px, constraints left/top, stroke #5A5D60 0.5px
+      - INSTANCE "Round Brick", 35x28px, constraints left/top
+        - INSTANCE "__primitive--round-brick-shapes--side", 25x23px, constraints left/top
+          - INSTANCE "__primitive--circle-brick-shapes--top", 34.64x20px, constraints left/top, radius 999px, stroke #000000 1px
+            - INSTANCE "__primitive--brick-component-color", 34.64x20px, constraints scale/scale, fill #9C9C9C
+          - GROUP "Mask group", 24.66x23.21px, constraints left/top
+            - BOOLEAN_OPERATION "Union", 24.66x23.21px, constraints left/top, fill #CCCCCC
+            - INSTANCE "__primitive--brick-component-color", 25x32px, constraints scale/scale, fill #9C9C9C
+          - BOOLEAN_OPERATION "Union", 24.66x23.21px, constraints left/top, stroke #000000 1px
+        - INSTANCE "__primitive--circle-brick-shapes--top", 34.64x20px, constraints left/top, radius 999px, stroke #000000 1px
+          - INSTANCE "__primitive--brick-component-color", 34.64x20px, constraints scale/scale, fill #9C9C9C
+            - RECTANGLE "Highlight", 34.64x20px, constraints scale/scale, fill #FFFFFF, opacity 40%
+      - INSTANCE "__primitive--graphic", 34.64x20px, constraints left/top
+        - BOOLEAN_OPERATION "Subtract", 11.91x6.87px, constraints left/top, stroke #5A5D60 0.5px
+        - BOOLEAN_OPERATION "Subtract", 11.91x6.87px, constraints left/top, stroke #5A5D60 0.5px
+  - COMPONENT "Minifigure Legs", 52.5x79px, constraints left/top
+    - VECTOR "Vector 147", 16x21.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 148", 14.5x25px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 149", 21.5x12.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 150", 34.5x28px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 151", 16x22px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 152", 40.5x30.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 153", 21x12px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 154", 31.5x23.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 155", 17.5x15.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 156", 49x28px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 157", 18x45.57px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 158", 4.5x15.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 159", 6.5x13px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 160", 15x8.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 161", 9x5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 162", 4x15px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 163", 6.5x14.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 164", 4.5x15px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 165", 15x8.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 166", 9x4.5px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 167", 4x17px, constraints scale/scale, fill #2058A1, stroke #000000 1px
+    - VECTOR "Vector 186", 1.93x10px, constraints scale/scale, stroke #000000 1px
+    - VECTOR "Vector 187", 1.93x10px, constraints scale/scale, stroke #000000 1px
+  - COMPONENT "Minifigure Torso", 70x80.5px, constraints left/top
+    - VECTOR "Vector 147", 18.5x15.24px, constraints scale/scale, fill #FBE04C, stroke #000000 1px
+    - VECTOR "Vector 148", 10.5x8px, constraints scale/scale, fill #F6BE53, stroke #000000 1px
+    - VECTOR "Vector 149", 12x12px, constraints scale/scale, fill #FBE04C, stroke #000000 1px
+    - VECTOR "Vector 150", 1.5x5.5px, constraints scale/scale, stroke #000000 1px
+    - VECTOR "Vector 151", 12.55x14.6px, constraints scale/scale, fill #FDF099, stroke #000000 1px
+    - VECTOR "Vector 152", 21.75x28.7px, constraints scale/scale, fill #5A5D60, stroke #000000 1px
+    - VECTOR "Vector 155", 49x56.8px, constraints scale/scale, fill #5A5D60, stroke #000000 1px
+    - INSTANCE "__primitive--brick-component--peg", 35x26px, constraints scale/scale
+      - GROUP "Mask group", 14.74x22.48px, constraints left/top
+        - BOOLEAN_OPERATION "Union", 14.74x22.48px, constraints left/top, fill #D9D9D9
+        - INSTANCE "__primitive--brick-component-color", 16x25px, constraints left/top, fill #5A5D60
+      - BOOLEAN_OPERATION "Union", 14.74x22.48px, constraints left/top, stroke #000000 1px
+      - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+        - GROUP "Mask group", 20.78x12px, constraints left/top
+          - ELLIPSE "Peg Circle", 20.78x12px, constraints scale/scale, fill #D9D9D9
+          - INSTANCE "__primitive--brick-component-color", 20.78x12px, constraints scale/scale, fill #5A5D60
+        - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FFFFFF, opacity 40%
+        - ELLIPSE "--peg-stroke", 20.78x12px, constraints scale/scale, stroke #000000 1px
+    - VECTOR "Vector 156", 12.99x14.5px, constraints scale/scale, fill #FBE04C, stroke #000000 1px
+    - VECTOR "Vector 157", 9.54x11.02px, constraints scale/scale, fill #F6BE53, stroke #000000 1px
+    - VECTOR "Vector 158", 11x5.5px, constraints scale/scale, stroke #000000 1px
+    - VECTOR "Vector 159", 11x12.44px, constraints scale/scale, fill #FBE04C, stroke #000000 1px
+    - VECTOR "Vector 160", 0.5x5px, constraints scale/scale, stroke #000000 1px
+    - VECTOR "Vector 161", 18.02x36.12px, constraints scale/scale, fill #5A5D60, stroke #000000 1px
+    - VECTOR "Vector 162", 11.43x13.55px, constraints scale/scale, fill #FDF099, stroke #000000 1px
+    - VECTOR "Vector 153", 15.5x8.5px, constraints scale/scale, stroke #000000 1px
+    - VECTOR "Vector 154", 27.5x47.5px, constraints scale/scale, stroke #000000 1px
+  - COMPONENT "Minifigure head", 34.64x40.31px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 8", 31.81x35.8px, constraints scale/scale
+      - INSTANCE "__primitive--complex-brick-shapes--L--top/__primitive--custo", 19.68x26.31px, constraints scale/scale
+        - BOOLEAN_OPERATION "Union", 19.68x26.31px, constraints left/top, fill #FBE04C, stroke #000000 1px
+      - VECTOR "Union", 31.81x33.97px, constraints scale/scale, fill #FBE04C, stroke #000000 1px
+    - GROUP "Mask group", 31.81x33.97px, constraints scale/scale [decorative, ~12 shapes]
+    - INSTANCE "__primitive--brick-component--peg", 34.64x20px, constraints scale/scale
+      - INSTANCE "__primitive--peg-frame--top", 34.64x20px, constraints scale/scale
+        - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Mask group", 20.78x12px, constraints left/top
+            - ELLIPSE "Peg Circle", 20.78x12px, constraints scale/scale, fill #D9D9D9
+            - INSTANCE "__primitive--brick-component-color", 20.78x12px, constraints scale/scale, fill #FBE04C
+          - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FBE04C, opacity 40%
+          - ELLIPSE "--peg-stroke", 20.78x12px, constraints scale/scale, stroke #000000 1px
+      - GROUP "Mask group", 14.71x12.49px, constraints left/top
+        - VECTOR "Peg Iso Treatment", 14.71x12.49px, constraints left/top, fill #9C9C9C, stroke #212121 1px
+        - INSTANCE "__primitive--brick-component-color", 16x12px, constraints left_right/top_bottom, fill #FBE04C
+        - VECTOR "Peg Iso Treatment", 14.71x12.49px, constraints left/top, fill #FBE04C, stroke #000000 1px
+      - INSTANCE "__primitive--peg-base--top", 20.78x12px, constraints scale/scale
+        - GROUP "Mask group", 20.78x12px, constraints left/top
+          - BOOLEAN_OPERATION "Empty Peg Circle", 20.78x12px, constraints left/top, fill #D9D9D9
+          - INSTANCE "__primitive--brick-component-color", 20.78x12px, constraints scale/scale, fill #FBE04C
+          - ELLIPSE "--peg-highlight", 20.78x12px, constraints scale/scale, fill #FBE04C, opacity 40%
+        - BOOLEAN_OPERATION "--peg-stroke", 20.78x12px, constraints left/top, stroke #000000 1px
+  - COMPONENT "Minifigure Hair", 42.5x36px, constraints left/top
+    - VECTOR "Vector 147", 42.5x36px, constraints scale/scale, fill #9A6E49, stroke #000000 1px
+    - VECTOR "Vector 148", 7.5x26px, constraints scale/scale, stroke #000000 0.5px
+    - VECTOR "Vector 149", 6.48x18.14px, constraints scale/scale, fill #7A4530, stroke #000000 0.5px
+    - VECTOR "Vector 150", 7x6.5px, constraints scale/scale, fill #7A4530, stroke #000000 0.5px
+    - VECTOR "Vector 151", 16x22.5px, constraints scale/scale, fill #7A4530, stroke #000000 0.5px
+    - VECTOR "Vector 152", 2.22x5.5px, constraints scale/scale, fill #7A4530, stroke #000000 0.5px
+    - VECTOR "Vector 153", 5.5x5px, constraints scale/scale, fill #DAA267, stroke #000000 0.5px
+    - VECTOR "Vector 154", 4.1x2px, constraints scale/scale, fill #DAA267, stroke #000000 0.5px
+    - VECTOR "Vector 155", 4.5x6px, constraints scale/scale, stroke #000000 0.5px
+    - VECTOR "Vector 156", 4.5x5px, constraints scale/scale, stroke #000000 0.5px
+    - VECTOR "Vector 157", 5.22x9px, constraints scale/scale, fill #DAA267, stroke #000000 0.5px
+    - VECTOR "Vector 158", 4x6.5px, constraints scale/scale, fill #7A4530, stroke #000000 0.5px
+    - VECTOR "Vector 159", 6.5x20px, constraints scale/scale, fill #7A4530, stroke #000000 0.5px
+    - VECTOR "Vector 160", 6x3px, constraints scale/scale, stroke #000000 0.5px
+    - VECTOR "Vector 161", 2.5x5.5px, constraints scale/scale, fill #7A4530, stroke #000000 0.5px
+    - ... +14 more children
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Design System / Typography
+- SECTION "Typography", 3829x1287px, fill #FFFFFF
+  - TEXT "Archivo 16", 76x17px, constraints left/top, fill #212121, text [Archivo Regular, 16px]
+  - TEXT "Base", 37x17px, constraints left/top, fill #212121, text [Archivo Base - Regular]
+  - TEXT "Base", 37x17px, constraints left/top, fill #212121, text [Archivo Base - Medium]
+  - TEXT "Base", 38x17px, constraints left/top, fill #212121, text [Archivo Base - Semibold]
+  - TEXT "Base", 39x17px, constraints left/top, fill #212121, text [Archivo Base - Bold]
+  - TEXT "Base", 44x17px, constraints left/top, fill #212121, text [Archivo Base - Black]
+  - TEXT "1", 9x17px, constraints left/top, fill #212121, text [Archivo Regular, 16px]
+  - TEXT "Archivo 18", 86x20px, constraints left/top, fill #212121, text [Archivo Regular, 18px]
+  - TEXT "Large", 47x20px, constraints left/top, fill #212121, text [Archivo Large - Regular]
+  - TEXT "Large", 47x20px, constraints left/top, fill #212121, text [Archivo Large - Medium]
+  - TEXT "Large", 48x20px, constraints left/top, fill #212121, text [Archivo Large - Semibold]
+  - TEXT "Large", 50x20px, constraints left/top, fill #212121, text [Archivo Large - Bold]
+  - TEXT "Large", 57x20px, constraints left/top, fill #212121, text [Archivo Large - Black]
+  - TEXT "1.125", 46x20px, constraints left/top, fill #212121, text [Archivo Regular, 18px]
+  - TEXT "Archivo 20", 95x22px, constraints left/top, fill #212121, text [Archivo Regular, 20px]
+  - TEXT "X Large", 71x22px, constraints left/top, fill #212121, text [Archivo Regular, 20px]
+  - TEXT "X Large", 72x22px, constraints left/top, fill #212121, text [Archivo Medium, 20px]
+  - TEXT "X Large", 73x22px, constraints left/top, fill #212121, text [Archivo SemiBold, 20px]
+  - TEXT "X Large", 74x22px, constraints left/top, fill #212121, text [Archivo Bold, 20px]
+  - TEXT "X Large", 85x22px, constraints left/top, fill #212121, text [Archivo Black Regular, 20px]
+  - TEXT "1.25", 39x22px, constraints left/top, fill #212121, text [Archivo Regular, 20px]
+  - TEXT "Archivo 24", 114x26px, constraints left/top, fill #212121, text [Archivo Regular, 24px], [heading]
+  - TEXT "2X Large", 98x26px, constraints left/top, fill #212121, text [Archivo Regular, 24px], [heading]
+  - TEXT "2X Large", 99x26px, constraints left/top, fill #212121, text [Archivo Medium, 24px], [heading]
+  - TEXT "2X Large", 100x26px, constraints left/top, fill #212121, text [Archivo SemiBold, 24px], [heading]
+  - ... +94 more children
+
+Screen: Design System / UI Primitives
+- SECTION "UI Primitives", 702x350px, fill #FFFFFF
+  - COMPONENT "__primitive--button--top", 112x66px, horizontal pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 2px
+    - TEXT "Button", 72x26px, constraints left/top, fill #000000, text [Archivo Regular, 24px], [heading]
+  - COMPONENT "__primitive--button--base", 112x66px, horizontal pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 2px
+  - COMPONENT_SET "__primitive--button--structure", 293x116px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 112x92px, constraints left/top
+      - INSTANCE "__primitive--button--base", 112x66px, horizontal pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 12px, fill #FFFFFF, stroke #000000 2px
+      - INSTANCE "__primitive--button--top", 112x66px, horizontal pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 12px, fill #FFFFFF, stroke #000000 2px
+        - TEXT "Button", 72x26px, constraints left/top, fill #000000, text [Archivo Regular, 24px], [heading]
+    - COMPONENT "State=Pressed", 112x92px, constraints left/top
+      - INSTANCE "__primitive--button--base", 112x66px, horizontal pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 12px, fill #FFFFFF, stroke #000000 2px
+      - INSTANCE "__primitive--button--top", 112x66px, horizontal pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 12px, fill #FFFFFF, stroke #000000 2px
+        - TEXT "Button", 72x26px, constraints left/top, fill #000000, text [Archivo Regular, 24px], [heading]
+
+Screen: Design System / UI Components
+- SECTION "UI Components", 702x579px, fill #FFFFFF
+  - COMPONENT "LEGO Logo", 256x256px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 252.89x252.89px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 252.89x252.89px, constraints scale/scale, fill #FFD700
+    - VECTOR "Vector", 252.89x252.89px, constraints scale/scale, fill #DA291C
+    - VECTOR "Vector", 256x256px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 233.87x104.51px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "Button", 152x244px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Color=Yellow", 112x92px, constraints left/top, fill #FFFFFF
+      - INSTANCE "__primitive--button--structure", 112x92px, constraints scale/scale
+        - INSTANCE "__primitive--button--base", 112x66px, horizontal pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 12px, fill #D49A45, stroke #000000 2px
+        - INSTANCE "__primitive--button--top", 112x66px, horizontal pad 20 20 20 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 12px, fill #FBE04C, stroke #000000 2px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,865 @@
+---
+name: sony-app-design-community
+source_file: Sony App Design (Community)
+source_page: All pages (3): 🖤 Hello!, 📱 UI Design, 🤳Instagram 
+generated_at: 2026-07-25T09:21:37.025576+00:00
+---
+
+# Sony App Design (Community) Design Guidelines
+
+## Source
+- Figma file: Sony App Design (Community)
+- Figma page: All pages (3): 🖤 Hello!, 📱 UI Design, 🤳Instagram 
+- Extracted at: 2026-07-25T09:21:37.025576+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Grey: [#79767D]
+- Purple: [#AA9EB7]
+- Text: none
+
+## Raw Colors (unstyled)
+- #FFFFFF: 2510 uses
+- #000000: 48 uses
+- #212121: 24 uses
+- #FF5113: 19 uses
+- #363339: 14 uses
+- #EDFC74: 14 uses
+
+## Typography Tokens
+- Caption / c2 | 12pt Regular: SF Pro Display Regular (400), 12px / 16px, tracking 0px
+- Body/b2 | 16pt Medium: SF Pro Display Medium (500), 16px / 20px, tracking 0px
+- Caption / c1 | 14pt Regular: SF Pro Display Regular (400), 14px / 18px, tracking 0.11px
+
+## Raw Typography (unstyled)
+- Montserrat Regular, 21px: 39 uses
+- Montserrat Bold, 24px: 11 uses
+- SF Pro Display Regular, 32px: 10 uses
+- SF Pro Text Medium, 10px: 10 uses
+- Axiforma Medium, 14px: 8 uses
+- Montserrat ExtraLight, 11.16px: 8 uses
+- Montserrat ExtraLight, 15.94px: 8 uses
+- Montserrat Regular, 48px: 5 uses
+- Axiforma Medium, 28px: 4 uses
+- Axiforma Regular, 14px: 4 uses
+- Montserrat Bold, 15.94px: 4 uses
+- Montserrat Bold, 50.05px: 4 uses
+- Montserrat Regular, 38.76px: 4 uses
+- Poppins Regular, 10.65px: 4 uses
+- SF Pro Text Semibold, 15px: 4 uses
+
+## Typography Hierarchy
+- 50.05px - Montserrat Bold, 50.05px (raw)
+- 48px - Montserrat Regular, 48px (raw)
+- 38.76px - Montserrat Regular, 38.76px (raw)
+- 32px - SF Pro Display Regular, 32px (raw)
+- 28px - Axiforma Medium, 28px (raw)
+- 24px - Montserrat Bold, 24px (raw)
+- 21px - Montserrat Regular, 21px (raw)
+- 16px - Body/b2 | 16pt Medium (SF Pro Display Medium)
+- 15.94px - Montserrat Bold, 15.94px (raw)
+- 15.94px - Montserrat ExtraLight, 15.94px (raw)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 14px - Axiforma Medium, 14px (raw)
+- 14px - Axiforma Regular, 14px (raw)
+- 14px - Caption / c1 | 14pt Regular (SF Pro Display Regular)
+- 12px - Caption / c2 | 12pt Regular (SF Pro Display Regular)
+- 11.16px - Montserrat ExtraLight, 11.16px (raw)
+- 10.65px - Poppins Regular, 10.65px (raw)
+- 10px - SF Pro Text Medium, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- abstract
+- Header
+- Footer
+- grid
+- Créditos
+
+## Component Specs
+- abstract/07 (📱 UI Design): size 812x812px
+- abstract/06 (📱 UI Design): size 1005x934px
+- abstract/02 (🤳Instagram ): size 629.9x456.91px
+- Header: size 997x157px, fill #FFFFFF, text [Montserrat Regular, 21px]
+- Footer: size 996.71x104.58px, text [Montserrat Regular, 21px]
+- abstract/07 (🤳Instagram ): size 631x581px
+- abstract/02 (🤳Instagram ): size 925x671px
+- abstract/06 (🤳Instagram ): size 640x594px
+- abstract/04: size 703x629px
+- grid/2: size 552x658px
+- abstract/08: size 687x574px
+- Créditos: size 996.71x104.58px, fill #FFFFFF, text [Montserrat Regular, 21px]
+
+## Most-Used Styles
+- Body/b2 | 16pt Medium: 8 uses
+- Purple: 8 uses
+- Text: 7 uses
+- Caption / c1 | 14pt Regular: 4 uses
+- Grey: 2 uses
+- Caption / c2 | 12pt Regular: 1 use
+
+## Layout & Structure
+Screen: 🖤 Hello! / BR
+- FRAME "BR", 1530.67x861px, constraints left/top, fill #000000
+  - FRAME "Header", 1381.59x45.44px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - TEXT "Considere seguir para novos designs e histórias", 507.83x268.66px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 50.05px], [heading]
+  - TEXT "@design.dutra", 507.83x268.66px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 50.05px], [heading]
+  - TEXT "DUTRA DESIGN © 2021 ALL RIGHTS RESERVED", 269.46x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 11.16px]
+  - TEXT "INSCREVER-SE", 84.51x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 11.16px]
+  - TEXT "COOKIES", 58.2x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 11.16px]
+  - GROUP "XMLID_2_", 23.25x23.92px, constraints scale/scale
+    - VECTOR "XMLID_7_", 23.25x23.92px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "XMLID_4_", 12.07x12.42px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "XMLID_3_", 2.91x2.99px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Benito Pedro Desenvolvedor", 269.46x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 15.94px]
+  - GROUP "social bar benito", 71.75x24.71px, constraints left/top [decorative, ~5 shapes]
+  - GROUP "social bar marcus", 310.12x73.34px, constraints left/top
+    - FRAME "LinkedIn", 23.12x23.12px, constraints left/top, fill #FFFFFF
+      - GROUP "XMLID_1_", 23x23.12px, constraints scale/scale
+        - GROUP "XMLID_5_", 5.57x23.12px, constraints scale/scale
+          - VECTOR "XMLID_9_", 4.72x15.37px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "XMLID_6_", 5.57x5.69px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "XMLID_2_", 14.77x15.98px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Dribble", 23.82x23.82px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Instagram", 23.25x23.92px, constraints scale/scale
+      - VECTOR "XMLID_7_", 23.25x23.92px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "XMLID_4_", 12.07x12.42px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "XMLID_3_", 2.91x2.99px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Whats App", 24.71x24.71px, constraints scale/scale
+      - VECTOR "XMLID_4_", 24.71x24.71px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "XMLID_3_", 12.02x11.15px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Marcus Dutra Designer", 269.46x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 15.94px]
+  - GROUP "social bar", 145.09x24.71px, constraints left/top [decorative, ~5 shapes]
+
+Screen: 🖤 Hello! / EN
+- FRAME "EN", 1530.67x861px, constraints left/top, fill #000000
+  - FRAME "Header", 1381.59x45.44px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - TEXT "Consider follow new designs and stories.", 507.83x268.66px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 50.05px], [heading]
+  - TEXT "@design.dutra", 507.83x268.66px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 50.05px], [heading]
+  - TEXT "DUTRA DESIGN © 2021 ALL RIGHTS RESERVED", 269.46x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 11.16px]
+  - TEXT "INSCREVER-SE", 84.51x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 11.16px]
+  - TEXT "COOKIES", 58.2x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 11.16px]
+  - GROUP "XMLID_2_", 23.25x23.92px, constraints scale/scale
+    - VECTOR "XMLID_7_", 23.25x23.92px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "XMLID_4_", 12.07x12.42px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "XMLID_3_", 2.91x2.99px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Benito Pedro Desenvolvedor", 269.46x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 15.94px]
+  - GROUP "social bar benito", 71.75x24.71px, constraints left/top [decorative, ~5 shapes]
+  - GROUP "social bar marcus", 310.12x73.34px, constraints left/top
+    - FRAME "LinkedIn", 23.12x23.12px, constraints left/top, fill #FFFFFF
+      - GROUP "XMLID_1_", 23x23.12px, constraints scale/scale
+        - GROUP "XMLID_5_", 5.57x23.12px, constraints scale/scale
+          - VECTOR "XMLID_9_", 4.72x15.37px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "XMLID_6_", 5.57x5.69px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "XMLID_2_", 14.77x15.98px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Dribble", 23.82x23.82px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Instagram", 23.25x23.92px, constraints scale/scale
+      - VECTOR "XMLID_7_", 23.25x23.92px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "XMLID_4_", 12.07x12.42px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "XMLID_3_", 2.91x2.99px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Whats App", 24.71x24.71px, constraints scale/scale
+      - VECTOR "XMLID_4_", 24.71x24.71px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "XMLID_3_", 12.02x11.15px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Marcus Dutra Designer", 269.46x73.34px, constraints left/top, fill #FFFFFF, text [Montserrat ExtraLight, 15.94px]
+  - GROUP "social bar", 145.09x24.71px, constraints left/top [decorative, ~5 shapes]
+
+Screen: 🖤 Hello! / Thumb
+- FRAME "Thumb", 2126.02x1291.85px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 2126.02x1294.25px, constraints scale/scale, fill image(hash: 525e6bb679f9df63e692941d03744db5c99f036a)
+  - RECTANGLE "image 61", 2663.07x1996.84px, constraints left/top, effect [background_blur 0px]
+  - INSTANCE "Footer", 1839.44x193.01px, constraints left/top
+    - TEXT ".design", 1839.44x193.01px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 38.76px], [heading]
+    - TEXT "2021", 1839.44x193.01px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 38.76px], [heading]
+  - TEXT "UI+UX Design", 620.09x108.88px, constraints left/top, fill #FFFFFF, text [Montserrat Light, 88.58px], [heading]
+  - TEXT "+Instagram Carousel", 627.47x68.28px, constraints left/top, fill #FFFFFF, text [Montserrat Light, 54.91px], [heading]
+  - RECTANGLE "Home 2", 801.55x1234.27px, constraints left/top, radius 55.99px, fill image(hash: 475f811236d914bb8ac5dfb62a95aaaa15b9b61d), effect [drop_shadow 75.67px offset 0 86.74 #00000040]
+  - INSTANCE "Header", 1991.3x289.74px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 1991.3x289.74px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 1991.3x289.74px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 38.76px], [heading]
+      - FRAME "Frame", 107.85x99.66px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 107.85x99.66px, constraints scale/scale
+          - VECTOR "Vector", 19.22x99.66px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 17.09x40.12px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 17.09x40.12px, constraints scale/scale, fill #FFFFFF
+  - GROUP "SETA", 604.34x16.75px, constraints left/top
+    - VECTOR "Vector", 604.34x0px, constraints scale/scale, stroke #FFFFFF 7.38px
+    - VECTOR "Vector", 13.78x16.75px, constraints scale/scale, stroke #FFFFFF 7.38px
+  - RECTANGLE "image 63", 1118.38x145.79px, constraints left/top, fill image(hash: 69c2364d2dfbb8a193ad5866f8feb81ced02009b)
+  - RECTANGLE "Intro 1", 811.42x1236.55px, constraints left/top, radius 55.99px, fill image(hash: f45d7642572253666b8fc60269d4ec47c8cd5f3b), effect [drop_shadow 84.89px offset -33.22 86.74 #00000040]
+  - RECTANGLE "Home 1", 801.55x1234.27px, constraints left/top, radius 55.99px, fill image(hash: 5b368765108e995cf3d746157f48fba5c932d660), effect [drop_shadow 75.67px offset 0 86.74 #00000040]
+  - FRAME "Sony_logo 1", 764x137px, constraints left/top, fill #FFFFFF
+    - VECTOR "path4258", 760.94x133.95px, constraints scale/scale, fill #FFFFFF
+
+Screen: 📱 UI Design / Home
+- FRAME "Home", 375x812px, constraints left/top, fill #020202
+  - GROUP "Decoração", 1005x1599.84px, constraints left/top
+    - COMPONENT "abstract/06", 1005x934px, constraints scale/scale, opacity 5%
+      - GROUP "Group", 244.62x843.17px, constraints scale/scale
+        - GROUP "Group", 244.62x843.17px, constraints scale/scale
+          - VECTOR "Vector", 244.62x843.17px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group", 653.54x599px, constraints scale/scale
+        - GROUP "Group", 653.54x599px, constraints scale/scale
+          - VECTOR "Vector", 653.54x599px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group", 999.29x928.09px, constraints scale/scale [decorative, ~54 shapes]
+      - GROUP "Group", 999.39x928.09px, constraints scale/scale [decorative, ~61 shapes]
+      - GROUP "Group", 722.18x358.45px, constraints scale/scale [decorative, ~8 shapes]
+      - GROUP "Group", 108.51x126.59px, constraints scale/scale [decorative, ~4 shapes]
+      - GROUP "Group", 245.47x269.39px, constraints scale/scale [decorative, ~5 shapes]
+      - GROUP "Group", 1004.94x934px, constraints scale/scale [decorative, ~54 shapes]
+      - GROUP "Group", 1005x933.66px, constraints scale/scale [decorative, ~61 shapes]
+    - GROUP "Group 83", 846.91x870.84px, constraints scale/scale
+      - ELLIPSE "Ellipse 18", 746.43x746.43px, constraints scale/scale, fill gradient_linear(#6100FF 0% | #00FFFF00 100%), effect [layer_blur 200px]
+      - REGULAR_POLYGON "Polygon 2", 751.22x751.22px, constraints scale/scale, fill gradient_linear(#0075FF 0% | #00A3FF00 100%), effect [layer_blur 150px]
+    - RECTANGLE "image 62", 375x812px, constraints scale/scale
+    - ELLIPSE "Circle", 417x308px, constraints left/top, fill #433D48, effect [layer_blur 154px]
+  - FRAME "Status Bar", 375x44px, constraints left_right/top, fill #FFFFFF
+    - FRAME "Symbols", 68x13px, constraints right/center, fill #FFFFFF [decorative, ~15 shapes]
+    - FRAME "Bars/Status/_/Time", 180x22px, constraints left/center
+      - TEXT "↳ Time", 32x18px, constraints left/center, fill #FFFFFF, text [SF Pro Text Semibold, 15px]
+  - INSTANCE "Tabbar", 375x82px, constraints left/top
+    - FRAME "• iPhone X / Home Indicator", 375x34px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - GROUP "Header", 211x57.65px, constraints left/top, radius 11.53px
+    - TEXT "Bem vindo de volta. Juninho Paulo", 145.28x38.05px, constraints scale/scale, fill #FFFFFF, text [Axiforma Bold, 20.75px]
+    - RECTANGLE "Rectangle 2012", 54.19x57.65px, constraints left/top, radius 11.53px, fill image(hash: b6196ebaaba25f3e1273de63632098fbcf3aefff)
+  - GROUP "Cartões", 921x263px, constraints left/top, radius 0/0/0/0px
+    - TEXT "✏️Secondary text", 198x32px, constraints left/top, fill #FFFFFF, text [Axiforma Bold, 24.9px], [heading]
+    - GROUP "Pagination", 40.6x7px, constraints left/top
+      - ELLIPSE "Bullit", 7x7px, constraints left/top, fill #5A3FF6
+      - ELLIPSE "Bullit", 4.2x4.2px, constraints left/top, fill #5D5662
+      - ELLIPSE "Bullit", 4.2x4.2px, constraints left/top, fill #5D5662
+    - GROUP "Cartões", 921x184px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Card 1", 297x184px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "card1bg", 297x184px, constraints scale/scale, radius 30px, fill gradient_linear(#9C2CF3 0% | #3A49F9 100%), stroke #979797 0px
+        - GROUP "Card 1 Mask", 297x184px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "bg", 297x184px, constraints scale/scale, radius 30px, fill #ED713C, stroke #979797 0px
+          - INSTANCE "abstract/07", 363x385px, constraints scale/scale, opacity 6%
+            - GROUP "Group", 361.06x382.94px, constraints scale/scale [decorative, ~41 shapes]
+            - GROUP "Group", 361.01x382.82px, constraints scale/scale [decorative, ~41 shapes]
+            - GROUP "Group", 362.98x385px, constraints scale/scale [decorative, ~41 shapes]
+            - GROUP "Group", 362.96x384.91px, constraints scale/scale [decorative, ~41 shapes]
+        - TEXT "09/25", 49.97x13px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 14px]
+        - TEXT "5282", 155.57x13px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 14px], opacity 90%
+        - GROUP "mastercard_logo", 42.43x27.81px, constraints left/top
+          - VECTOR "Vector", 11.47x21.86px, constraints scale/scale, fill #FF5F00
+          - GROUP "Group", 42.43x27.81px, constraints left/top
+            - VECTOR "Vector", 21.2x27.81px, constraints scale/scale, fill #EB001B
+            - VECTOR "Vector", 21.2x27.81px, constraints scale/scale, fill #F79E1B
+        - TEXT "$5,750,20", 148.03x26px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 28px], [heading]
+        - VECTOR "Logo", 72x12.65px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Card 2", 297x184px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "card1bg", 297x184px, constraints scale/scale, radius 30px, fill gradient_linear(#3A49F9 0% | #00FF47 100%), stroke #979797 0px
+        - GROUP "Card 1 Mask", 297x184px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "bg", 297x184px, constraints scale/scale, radius 30px, fill #ED713C, stroke #979797 0px
+          - INSTANCE "abstract/07", 363x385px, constraints scale/scale, opacity 6%
+            - GROUP "Group", 361.06x382.94px, constraints scale/scale [decorative, ~41 shapes]
+            - GROUP "Group", 361.01x382.82px, constraints scale/scale [decorative, ~41 shapes]
+            - GROUP "Group", 362.98x385px, constraints scale/scale [decorative, ~41 shapes]
+            - GROUP "Group", 362.96x384.91px, constraints scale/scale [decorative, ~41 shapes]
+        - TEXT "09/25", 49.97x13px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 14px]
+        - TEXT "5282", 155.57x13px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 14px], opacity 90%
+        - GROUP "mastercard_logo", 42.43x35.92px, constraints left/top [decorative, ~4 shapes]
+        - TEXT "$5,750,20", 148.03x26px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 28px], [heading]
+        - TEXT "Current Balance", 118.8x13px, constraints scale/center, fill #FFFFFF, text [Axiforma Regular, 14px], opacity 54%
+      - GROUP "Card 1", 297x184px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "card1bg", 297x184px, constraints scale/scale, radius 30px, fill gradient_linear(#9C2CF3 0% | #F93A3A 100%), stroke #979797 0px
+        - GROUP "Card 1 Mask", 297x184px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "bg", 297x184px, constraints scale/scale, radius 30px, fill #ED713C, stroke #979797 0px
+          - INSTANCE "abstract/07", 363x385px, constraints scale/scale, opacity 6%
+            - GROUP "Group", 361.06x382.94px, constraints scale/scale [decorative, ~41 shapes]
+            - GROUP "Group", 361.01x382.82px, constraints scale/scale [decorative, ~41 shapes]
+            - GROUP "Group", 362.98x385px, constraints scale/scale [decorative, ~41 shapes]
+            - GROUP "Group", 362.96x384.91px, constraints scale/scale [decorative, ~41 shapes]
+        - TEXT "09/25", 49.97x13px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 14px]
+        - TEXT "5282", 155.57x13px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 14px], opacity 90%
+        - GROUP "mastercard_logo", 42.43x35.92px, constraints left/top [decorative, ~4 shapes]
+        - TEXT "$5,750,20", 148.03x26px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 28px], [heading]
+        - TEXT "Current Balance", 118.8x13px, constraints scale/center, fill #FFFFFF, text [Axiforma Regular, 14px], opacity 54%
+  - GROUP "Transações", 375x365px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Base", 375x354px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#8F3EF6 0% | #4B28FF 100%), effect [background_blur 17px]
+    - GROUP "Background", 375x282px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Base", 375x282px, constraints left/top, radius 0/0/0/0px, fill #282729, effect [background_blur 17px]
+      - FRAME "Filter", 82x34px, horizontal pad 8 16 8 16px gap 6px sizing W:fixed H:fixed, constraints center/center, radius 40px, fill #1E1F1F
+        - TEXT "Filtro", 30x18px, constraints left/top, fill #FFFFFF, text [Caption / c1 | 14pt Regular]
+        - FRAME "24 / arrows / chevron-left", 14x18px, constraints center/center, fill #FFFFFF
+          - VECTOR "icon", 10.16x4.83px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+    - FRAME "List item", 375x60px, constraints left/top
+      - TEXT "Unsplash", 66x20px, constraints left/top, fill #FFFFFF, text [Body/b2 | 16pt Medium]
+      - GROUP "Group 1843", 32x32px, constraints left/top
+        - GROUP "Group 1842", 32x32px, constraints left/top
+          - ELLIPSE "Ellipse 491", 32x32px, constraints left/top, fill image(hash: 2ad6fc0b07d2e390ee62c08cfb743a022388263a)
+      - TEXT "Outcoming transfer", 112x22px, constraints left/top, fill Grey, text [SF Pro Display Light, 14px]
+      - TEXT "- R$9", 40x20px, constraints left/top, fill #FFFFFF, text [Body/b2 | 16pt Medium]
+    - FRAME "List item", 375x60px, constraints left/top
+      - TEXT "Youtube Premium", 123x20px, constraints left/top, fill #FFFFFF, text [Body/b2 | 16pt Medium]
+      - GROUP "Group 1843", 32x32px, constraints left/top
+        - GROUP "Group 1842", 32x32px, constraints left/top
+          - ELLIPSE "Ellipse 491", 32x32px, constraints left/top, fill image(hash: 4636c3367edd48e4a3357b87da287880652821bd)
+      - TEXT "Assinaturas", 70x18px, constraints left/top, fill #B4B1B7, text [Caption / c1 | 14pt Regular]
+      - TEXT "- R$15", 47x20px, constraints left/top, fill #FFFFFF, text [Body/b2 | 16pt Medium]
+    - FRAME "List item", 375x60px, constraints left/top
+      - TEXT "Salário", 48x20px, constraints left/top, fill #FFFFFF, text [Body/b2 | 16pt Medium]
+      - TEXT "Fruto de trabalho", 102x18px, constraints left/top, fill #B4B1B7, text [Caption / c1 | 14pt Regular]
+      - TEXT "+R$1279", 65x20px, constraints left/top, fill #FFFFFF, text [Body/b2 | 16pt Medium]
+      - TEXT "💸", 28x35px, constraints left/top, fill #000000, text [SF Pro Display Medium, 28px], [heading]
+    - FRAME "List item", 375x60px, constraints left/top
+      - TEXT "Reparo do Carro", 112x20px, constraints left/top, fill #FFFFFF, text [Body/b2 | 16pt Medium]
+      - TEXT "Serviços", 52x18px, constraints left/top, fill #B4B1B7, text [Caption / c1 | 14pt Regular]
+      - TEXT "- R$45", 50x20px, constraints left/top, fill #FFFFFF, text [Body/b2 | 16pt Medium]
+      - TEXT "🚗", 28x35px, constraints left/top, fill #000000, text [SF Pro Display Medium, 28px], [heading]
+    - TEXT "Title", 142x30px, constraints left/top, fill #FFFFFF, text [Axiforma Regular, 21px]
+    - RECTANGLE "Line", 46x3px, constraints scale/scale, radius 4px, fill #444147, opacity 50%
+  - FRAME "Menu", 375x82px, constraints left/top
+    - FRAME "tap-bar/Variant5", 375x83px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "tapbar-bg", 375x82px, constraints left/top, radius 0/0/0/0px, fill #1E1E1ECC, effect [background_blur 37px]
+      - GROUP "Chat", 24x24px, constraints left/top
+        - GROUP "Unactive", 24x24px, constraints left/top
+          - INSTANCE "Icon_Chat_2px_Line", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x20px, constraints scale/scale [decorative, ~5 shapes]
+      - GROUP "Card", 24x24px, constraints left/top
+        - GROUP "Unactive", 24x24px, constraints left/top
+          - INSTANCE "Icon_Card_2px_Line", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x20px, constraints scale/scale [decorative, ~4 shapes]
+      - GROUP "Home", 24x24px, constraints left/top
+        - GROUP "Active", 24x24px, constraints left/top
+          - INSTANCE "Icon_Home_2px_Line", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x20px, constraints scale/scale
+      - FRAME "users", 19x19px, constraints left/top, fill #E3E3E3 [decorative, ~4 shapes]
+    - FRAME "• iPhone X / Home Indicator", 375x34px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill #353535
+
+Screen: 📱 UI Design / Transferencia
+- FRAME "Transferencia", 375x812px, constraints left/top, fill #020202
+  - GROUP "Decoração", 1005x1202px, constraints left/top
+    - INSTANCE "abstract/06", 1005x934px, constraints scale/scale, opacity 5%
+      - GROUP "Group", 244.62x843.17px, constraints scale/scale
+        - GROUP "Group", 244.62x843.17px, constraints scale/scale
+          - VECTOR "Vector", 244.62x843.17px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group", 653.54x599px, constraints scale/scale
+        - GROUP "Group", 653.54x599px, constraints scale/scale
+          - VECTOR "Vector", 653.54x599px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group", 999.29x928.09px, constraints scale/scale [decorative, ~54 shapes]
+      - GROUP "Group", 999.39x928.09px, constraints scale/scale [decorative, ~61 shapes]
+      - GROUP "Group", 722.18x358.45px, constraints scale/scale [decorative, ~8 shapes]
+      - GROUP "Group", 108.51x126.59px, constraints scale/scale [decorative, ~4 shapes]
+      - GROUP "Group", 245.47x269.39px, constraints scale/scale [decorative, ~5 shapes]
+      - GROUP "Group", 1004.94x934px, constraints scale/scale [decorative, ~54 shapes]
+      - GROUP "Group", 1005x933.66px, constraints scale/scale [decorative, ~61 shapes]
+    - RECTANGLE "image 62", 375x812px, constraints scale/scale
+    - ELLIPSE "Circle", 417x308px, constraints left/top, fill #433D48, effect [layer_blur 154px]
+  - RECTANGLE "Home", 135x5px, constraints center/bottom, radius 100px, fill #353535
+  - GROUP "Painel de Transferência", 846.91x1162.84px, constraints left/top, radius 0/0/0/0px
+    - GROUP "BG", 846.91x1151.84px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Rectangle 351", 375x681px, constraints left/top, radius 0/0/0/0px, fill #282729
+      - GROUP "Group 83", 846.91x870.84px, constraints left/top
+        - ELLIPSE "Ellipse 18", 746.43x746.43px, constraints left/top, fill gradient_linear(#6100FF 0% | #00FFFF00 100%), effect [layer_blur 200px]
+        - REGULAR_POLYGON "Polygon 2", 751.22x751.22px, constraints left/top, fill gradient_linear(#0075FF 0% | #00A3FF00 100%), effect [layer_blur 150px]
+    - FRAME "Teclado", 375x376px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "Background", 375x377px, constraints scale/scale
+      - RECTANGLE "Rectangle 1988", 102x65px, constraints left/top, radius 20px, fill #363339
+      - RECTANGLE "Rectangle 1991", 102x65px, constraints left/top, radius 20px, fill #363339
+      - RECTANGLE "Rectangle 1994", 102x65px, constraints left/top, radius 20px, fill #363339
+      - RECTANGLE "Rectangle 1997", 102x65px, constraints left/top, radius 20px, fill #363339
+      - RECTANGLE "Rectangle 1990", 102x65px, constraints left/top, radius 20px, fill #363339
+      - RECTANGLE "Rectangle 1992", 102x65px, constraints left/top, radius 20px, fill #363339
+      - RECTANGLE "Rectangle 1995", 102x65px, constraints left/top, radius 20px, fill #363339
+      - RECTANGLE "Rectangle 1989", 102x65px, constraints left/top, radius 20px, fill #363339
+      - RECTANGLE "Rectangle 1993", 102x65px, constraints left/top, radius 20px, fill #363339
+      - RECTANGLE "Rectangle 1996", 102x65px, constraints left/top, radius 20px, fill #363339
+      - GROUP "Container", 263x256.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "0", 22x38px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - TEXT "0", 22x38px, constraints center/center, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+        - GROUP "Group 2055", 40x46.5px, constraints left/top, radius 0/0/0/0px
+          - TEXT "W X Y Z", 40x12px, constraints scale/center, fill Purple, text [SF Pro Text Medium, 10px]
+          - TEXT "9", 21x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+        - GROUP "Group 2054", 27x46.5px, constraints left/top, radius 0/0/0/0px
+          - TEXT "T U V", 27x12px, constraints scale/center, fill Purple, text [SF Pro Text Medium, 10px]
+          - TEXT "8", 21x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+        - GROUP "Group 2053", 37x46.5px, constraints left/top, radius 0/0/0/0px
+          - TEXT "P Q R S", 37x12px, constraints scale/center, fill Purple, text [SF Pro Text Medium, 10px]
+          - TEXT "7", 20x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+        - GROUP "Group 2052", 31x46.5px, constraints left/top, radius 0/0/0/0px
+          - TEXT "M N O", 31x12px, constraints scale/center, fill Purple, text [SF Pro Text Medium, 10px]
+          - TEXT "6", 21x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+        - GROUP "Group 2051", 25x46.5px, constraints left/top, radius 0/0/0/0px
+          - TEXT "J K L", 25x12px, constraints scale/center, fill Purple, text [SF Pro Text Medium, 10px]
+          - TEXT "5", 21x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+        - GROUP "Group 2050", 24x46.5px, constraints left/top, radius 0/0/0/0px
+          - TEXT "G H I", 24x12px, constraints scale/center, fill Purple, text [SF Pro Text Medium, 10px]
+          - TEXT "4", 21x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+        - GROUP "Group 2048", 26x46.5px, constraints left/top, radius 0/0/0/0px
+          - TEXT "D E F", 26x12px, constraints scale/center, fill Purple, text [SF Pro Text Medium, 10px]
+          - TEXT "3", 21x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+        - GROUP "Group 2047", 27x47px, constraints left/top, radius 0/0/0/0px
+          - TEXT "A B C", 27x12px, constraints scale/center, fill Purple, text [SF Pro Text Medium, 10px]
+          - TEXT "2", 21x38px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+        - GROUP "1", 15x38px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - GROUP "Group 2049", 15x38px, constraints left/top, radius 0/0/0/0px
+            - TEXT "1", 15x38px, constraints center/center, fill #FFFFFF, text [SF Pro Display Regular, 32px], [heading]
+      - GROUP "back", 26x20px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "base", 26x20px, constraints left/top, radius 0/0/0/0px, fill #363339
+        - GROUP "x", 8x8px, constraints left/top
+          - VECTOR "Vector 100", 8x8px, constraints left/top, stroke #FFFFFF 1.5px
+          - VECTOR "Vector 101", 8x8px, constraints left/top, stroke #FFFFFF 1.5px
+      - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+    - FRAME "Botão", 327x48px, constraints left/top
+      - RECTANGLE "base", 327x48px, constraints scale/scale, radius 38px, fill gradient_linear(#6100FF 0% | #6A5EFA 100%)
+      - TEXT "text", 49x22px, constraints scale/scale, fill #FFFFFF, text [Axiforma Medium, 15px]
+    - GROUP "Cartão", 328x53px, constraints left/top, radius 0/0/0/0px
+      - TEXT "MasterCard", 84x18px, constraints left/top, fill #FFFFFF, text [Axiforma Regular, 14px]
+      - TEXT "R$5.750,20", 74x18px, constraints left/top, fill Grey, text [Axiforma Regular, 14px]
+      - GROUP "Label", 55x24px, constraints left/top, radius 8px
+        - RECTANGLE "Rectangle 1987", 55x24px, constraints left/top, radius 8px, fill #363339
+        - TEXT "•• 5534", 41x16px, constraints left/top, fill #FFFFFF, text [Axiforma Regular, 12px]
+      - RECTANGLE "Rectangle 1917", 52x52px, constraints left/top, radius 20px, fill #363339
+      - GROUP "mastercard_logo", 42.43x27.81px, constraints left/top
+        - VECTOR "Vector", 11.47x21.86px, constraints scale/scale, fill #FF5F00
+        - GROUP "Group", 42.43x27.81px, constraints left/top
+          - VECTOR "Vector", 21.2x27.81px, constraints scale/scale, fill #EB001B
+          - VECTOR "Vector", 21.2x27.81px, constraints scale/scale, fill #F79E1B
+      - VECTOR "Sony", 59x11px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Preço", 106x33px, constraints left/top
+      - GROUP "Group 2042", 106x33px, constraints left/top
+        - GROUP "Group 2041", 101x32px, constraints left/top, radius 0/0/0/0px
+          - TEXT "✏️Secondary text", 101x32px, constraints left/top, fill #FFFFFF, text [Axiforma Medium, 32px], [heading]
+        - RECTANGLE "Rectangle 1985", 1x30px, constraints left/top, fill #FFFFFF, opacity 50%
+    - GROUP "Destinatário", 80x89px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2012", 47x50px, constraints left/top, radius 10px, fill image(hash: aa69194c87c6c2f26ca109fc8522e85d7409cb69)
+      - TEXT "Mayarinha ✨", 80x19px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+      - GROUP "Group 2056", 55x24px, constraints left/top, radius 8px
+        - RECTANGLE "Rectangle 1986", 55x24px, constraints left/top, radius 8px, fill #363339
+        - TEXT "•• 6917", 41x16px, constraints left/top, fill #FFFFFF, text [Caption / c2 | 12pt Regular]
+    - RECTANGLE "Linha", 46x3px, constraints scale/scale, radius 4px, fill #444147, opacity 50%
+  - GROUP "Campo de Navegação", 375x44px, constraints left/top
+    - RECTANGLE "base", 375x44px, constraints left/top, fill #FFFFFF, opacity 0%
+    - TEXT "✏️ Title", 121.6x32px, constraints left/top, fill #FFFFFF, text [Axiforma Medium, 25.6px], [heading]
+    - FRAME "Left side icons", 64x44px, constraints left/top
+      - FRAME "icon / back", 32x32px, constraints left/top
+        - RECTANGLE "base_icon", 32x32px, constraints scale/scale, radius 20px, fill #FFFFFF, stroke #3E3E3E 1px, opacity 7%
+        - FRAME "24 / arrows / chevron-left", 20x20px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "icon", 8.43x14.51px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+  - FRAME "Status Bar", 375x44px, constraints left_right/top, fill #FFFFFF
+    - FRAME "Symbols", 68x13px, constraints right/center, fill #FFFFFF [decorative, ~15 shapes]
+    - FRAME "Bars/Status/_/Time", 180x22px, constraints left/center
+      - TEXT "↳ Time", 32x18px, constraints left/center, fill #FFFFFF, text [SF Pro Text Semibold, 15px]
+
+Screen: 📱 UI Design / Intro
+- FRAME "Intro", 375x812px, constraints left/top, fill image(hash: e101a61c1f665fb407ceb832c47c907b82d47f41)
+  - GROUP "Decoração", 949.84x1424.84px, constraints left/top
+    - RECTANGLE "image 62", 375x812px, constraints scale/scale
+    - GROUP "Group 82", 870.84x846.91px, constraints left/top
+      - ELLIPSE "Ellipse 18", 746.43x746.43px, constraints left/top, fill gradient_linear(#6100FF 0% | #00FFFF00 100%), effect [layer_blur 200px]
+      - REGULAR_POLYGON "Polygon 2", 751.22x751.22px, constraints left/top, fill gradient_linear(#0075FF 0% | #00A3FF00 100%), effect [layer_blur 150px]
+    - GROUP "Group 83", 846.91x870.84px, constraints left/top
+      - ELLIPSE "Ellipse 18", 746.43x746.43px, constraints left/top, fill gradient_linear(#6100FF 0% | #00FFFF00 100%), effect [layer_blur 200px]
+      - REGULAR_POLYGON "Polygon 2", 751.22x751.22px, constraints left/top, fill gradient_linear(#0075FF 0% | #00A3FF00 100%), effect [layer_blur 150px]
+    - COMPONENT "abstract/07", 812x812px, constraints scale/scale, opacity 6%
+      - GROUP "Group", 807.65x807.66px, constraints scale/scale [decorative, ~41 shapes]
+      - GROUP "Group", 807.54x807.4px, constraints scale/scale [decorative, ~41 shapes]
+      - GROUP "Group", 811.95x812px, constraints scale/scale [decorative, ~41 shapes]
+      - GROUP "Group", 811.91x811.82px, constraints scale/scale [decorative, ~41 shapes]
+  - TEXT "Agora como banco.", 332x171px, constraints scale/scale, fill #FFFFFF, text [Axiforma Bold, 84px], [heading]
+  - TEXT "Desfrute o Design Vision da Sony nas suas finanças.", 317x56px, constraints scale/scale, fill #FFFFFF, text [Axiforma Light, 24px], [heading]
+  - GROUP "Continuar", 72x72px, constraints left/top
+    - ELLIPSE "Ellipse 19", 72x72px, constraints left/top, fill #3337C8
+    - VECTOR "Vector", 13x26px, constraints scale/scale, stroke #FFFFFF 3px
+  - VECTOR "Logo", 165x29px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Status Bar", 375x44px, constraints left_right/top, fill #FFFFFF
+    - FRAME "Symbols", 68x13px, constraints right/center, fill #FFFFFF [decorative, ~15 shapes]
+    - FRAME "Bars/Status/_/Time", 180x22px, constraints left/center
+      - TEXT "↳ Time", 32x18px, constraints left/center, fill #FFFFFF, text [SF Pro Text Semibold, 15px]
+  - FRAME "Tabbar", 375x82px, constraints left/top
+    - FRAME "• iPhone X / Home Indicator", 375x34px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+
+Screen: 🤳Instagram  / 10
+- FRAME "10", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1113x1126px, constraints scale/scale, fill image(hash: 87f09d0df62def8ea5dc3946e702bc90227f0368)
+  - RECTANGLE "image 61", 1443x1082px, constraints left/top, effect [background_blur 0px]
+  - INSTANCE "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Group", 303.2x72.6px, constraints scale/scale
+    - VECTOR "Vector", 63.2x71.45px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 72.26x72.58px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 84.39x72.6px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "Créditos", 996.71x104.58px, constraints left/top, fill #FFFFFF
+    - TEXT "Marcus Dutra Designer for Dutra Design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "Benito Pedro Developer for Dutra Design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+
+Screen: 🤳Instagram  / 9
+- FRAME "9", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1113x1126px, constraints scale/scale, fill image(hash: 766e31ca9fdb4f28623cb08477bd73e92edeb7e4), effect [layer_blur 8px]
+  - RECTANGLE "image 61", 1443x1082px, constraints left/top, effect [background_blur 0px]
+  - INSTANCE "Footer", 996.71x104.58px, constraints left/top
+    - TEXT ".design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "2021", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+  - INSTANCE "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Template Disponível no Figma", 997x81px, constraints left/top, fill #FFFFFF, text [Montserrat Medium, 64px], [heading]
+  - TEXT "Acesso Gratuito Link na Bio", 997x133px, constraints left/top, fill #FFFFFF, text [Montserrat Regular, 64px], [heading]
+  - RECTANGLE "image 63", 997x518px, constraints left/top, fill image(hash: 126eba4f220baf9daccdfbd0c11f07d234f0ab7c)
+  - FRAME "figma-1 1", 62x93px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+
+Screen: 🤳Instagram  / 8
+- FRAME "8", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1113x1126px, constraints scale/scale, fill image(hash: 766e31ca9fdb4f28623cb08477bd73e92edeb7e4), effect [layer_blur 8px]
+  - RECTANGLE "image 61", 1443x1082px, constraints left/top, effect [background_blur 0px]
+  - INSTANCE "Footer", 996.71x104.58px, constraints left/top
+    - TEXT ".design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "2021", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+  - INSTANCE "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - RECTANGLE "Intro 1", 320x694px, constraints left/top, radius 34.05px, fill image(hash: f45d7642572253666b8fc60269d4ec47c8cd5f3b)
+  - RECTANGLE "Intro 2", 319x694px, constraints left/top, radius 34.05px, fill image(hash: 5b368765108e995cf3d746157f48fba5c932d660)
+  - RECTANGLE "Intro 3", 320x694px, constraints left/top, radius 34.05px, fill image(hash: 530826b022da5ef0049aea7abec500fd19408917)
+
+Screen: 🤳Instagram  / 7
+- FRAME "7", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1113x1126px, constraints scale/scale, fill image(hash: 958c9e83d6f1a8b4f63dffaf4cf9fad1f7209c6c), effect [layer_blur 8px]
+  - COMPONENT "abstract/08", 687x574px, constraints scale/scale, opacity 35%
+    - GROUP "Group", 317.98x555.69px, constraints scale/scale [decorative, ~14 shapes]
+    - GROUP "Group", 317.98x555.69px, constraints scale/scale [decorative, ~17 shapes]
+    - GROUP "Group", 346.49x474.51px, constraints scale/scale [decorative, ~17 shapes]
+    - GROUP "Group", 318x277.53px, constraints scale/scale [decorative, ~9 shapes]
+    - GROUP "Group", 510.44x480.71px, constraints scale/scale [decorative, ~13 shapes]
+    - GROUP "Group", 541.14x574px, constraints scale/scale [decorative, ~39 shapes]
+    - GROUP "Group", 531.18x480.64px, constraints scale/scale [decorative, ~11 shapes]
+    - GROUP "Group", 533.1x490.23px, constraints scale/scale [decorative, ~17 shapes]
+    - GROUP "Group", 340.54x574px, constraints scale/scale [decorative, ~33 shapes]
+    - GROUP "Group", 182.53x573.86px, constraints scale/scale [decorative, ~8 shapes]
+    - GROUP "Group", 182.59x488.86px, constraints scale/scale [decorative, ~6 shapes]
+    - GROUP "Group", 151.07x86.28px, constraints scale/scale
+      - GROUP "Group", 151.07x86.28px, constraints scale/scale
+        - GROUP "Group", 151.07x86.25px, constraints scale/scale
+          - VECTOR "Vector", 151.07x86.25px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 1.56x1.27px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 75.5x86.28px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group", 509.56x490.11px, constraints scale/scale [decorative, ~20 shapes]
+    - GROUP "Group", 508.17x480.76px, constraints scale/scale [decorative, ~15 shapes]
+    - GROUP "Group", 530.72x573.97px, constraints scale/scale [decorative, ~28 shapes]
+    - GROUP "Group", 497.77x281.92px, constraints scale/scale [decorative, ~6 shapes]
+    - GROUP "Group", 499.08x287.48px, constraints scale/scale [decorative, ~9 shapes]
+    - GROUP "Group", 622.36x279.91px, constraints scale/scale [decorative, ~9 shapes]
+    - GROUP "Group", 622.36x279.91px, constraints scale/scale [decorative, ~9 shapes]
+    - GROUP "Group", 653.1x480.76px, constraints scale/scale [decorative, ~20 shapes]
+    - GROUP "Group", 653.42x562.86px, constraints scale/scale [decorative, ~22 shapes]
+    - GROUP "Group", 622.36x281.92px, constraints scale/scale [decorative, ~9 shapes]
+    - GROUP "Group", 622.36x281.92px, constraints scale/scale [decorative, ~9 shapes]
+    - GROUP "Group", 622.36x281.92px, constraints scale/scale [decorative, ~9 shapes]
+    - GROUP "Group", 317.7x555.69px, constraints scale/scale [decorative, ~14 shapes]
+    - ... +7 more children
+  - RECTANGLE "image 61", 1443x1082px, constraints left/top, effect [background_blur 0px]
+  - INSTANCE "Footer", 996.71x104.58px, constraints left/top
+    - TEXT ".design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "2021", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+  - RECTANGLE "Intro 1", 463.79x1004.4px, constraints left/top, radius 34.05px, fill image(hash: 530826b022da5ef0049aea7abec500fd19408917)
+  - INSTANCE "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector 8", 251x0px, constraints left/top, stroke #FFFFFF 2px
+  - VECTOR "Vector 9", 104x0px, constraints left/top, stroke #FFFFFF 2px
+  - TEXT "Contato", 101x29px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - TEXT "Teclado Alfanumérico", 171x58px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - TEXT "Enviar", 166x20px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - TEXT "Seletor de Cartão", 166x20px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - TEXT "Botão de Ação", 154x20px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - VECTOR "Vector 10", 104x0px, constraints left/top, stroke #FFFFFF 2px
+  - VECTOR "Vector 12", 104x0px, constraints left/top, stroke #FFFFFF 2px
+  - VECTOR "Vector 11", 104x0px, constraints left/top, stroke #FEFEFE 2px
+
+Screen: 🤳Instagram  / 6
+- FRAME "6", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1113x1126px, constraints scale/scale, fill image(hash: 958c9e83d6f1a8b4f63dffaf4cf9fad1f7209c6c), effect [layer_blur 8px]
+  - COMPONENT "grid/2", 552x658px, constraints left/top, opacity 35%
+    - VECTOR "Vector", 552x658px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 549.91x41.71px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 550x78.11px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 549.89x97.6px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 550.16x114.06px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 550x77.23px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 53.93x547.85px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 54.37x557.67px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 2.24x503.13px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 63.84x564.36px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 64.94x554.39px, constraints scale/scale, fill #FFFFFF
+  - RECTANGLE "image 61", 1443x1082px, constraints left/top, effect [background_blur 0px]
+  - INSTANCE "Footer", 996.71x104.58px, constraints left/top
+    - TEXT ".design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "2021", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+  - RECTANGLE "Intro 1", 413.27x895px, constraints left/top, radius 30.34px, fill image(hash: 530826b022da5ef0049aea7abec500fd19408917)
+  - INSTANCE "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Transferência", 660x81px, constraints left/top, fill #FFFFFF, text [Montserrat Medium, 62px], [heading]
+  - TEXT "Nada além do necessário no painel.", 390x244px, constraints left/top, fill #FFFFFF, text [Montserrat Regular, 48px], [heading]
+  - TEXT "Digite seu valor e envie a transferência.", 390x244px, constraints left/top, fill #FFFFFF, text [Montserrat Regular, 48px], [heading]
+
+Screen: 🤳Instagram  / 5
+- FRAME "5", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1113x1126px, constraints scale/scale, fill image(hash: 841773b1e91273a9723d692f519df7b64ac8ebfe), effect [layer_blur 8px]
+  - COMPONENT "abstract/04", 703x629px, constraints left/top, opacity 35%
+    - VECTOR "Vector", 136.28x519.09px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 132.82x521.56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 127.01x527.13px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 118.92x535.51px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 121.19x545.86px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 132.06x558.04px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 142.69x570.99px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 155.16x583.96px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 167.38x597.01px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 177.37x608.19px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 192.96x617.85px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 200.4x624.74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 204.7x628.59px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 204.91x628.72px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 204.27x627.87px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 202.83x626.79px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 201.43x625.17px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 199.83x622.94px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 191.62x620.78px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 190.02x618.44px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 188.48x616.44px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 186.66x614.59px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 185.32x612.99px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 184.27x611.61px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 183.39x610.78px, constraints scale/scale, fill #FFFFFF
+    - ... +26 more children
+  - RECTANGLE "image 61", 1443x1082px, constraints left/top, effect [background_blur 0px]
+  - INSTANCE "Footer", 996.71x104.58px, constraints left/top
+    - TEXT ".design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "2021", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+  - RECTANGLE "Intro 1", 463.79x1004.4px, constraints left/top, radius 34.05px, fill image(hash: 5b368765108e995cf3d746157f48fba5c932d660)
+  - INSTANCE "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector 6", 254x0px, constraints left/top, stroke #FFFFFF 2px
+  - VECTOR "Vector 7", 241x9.5px, constraints left/top, stroke #FFFFFF 2px
+  - VECTOR "Vector 8", 104x0px, constraints left/top, stroke #FFFFFF 2px
+  - TEXT "Movimentação Bancária", 188x58px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - TEXT "Cartões de Crédito", 136x58px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - TEXT "Barra de Navegação", 140x58px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - TEXT "Header", 92x29px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - VECTOR "Vector 9", 121.5x0px, constraints left/top, stroke #FFFFFF 2px
+
+Screen: 🤳Instagram  / 4
+- FRAME "4", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1113x1126px, constraints scale/scale, fill image(hash: 841773b1e91273a9723d692f519df7b64ac8ebfe), effect [layer_blur 8px]
+  - COMPONENT "abstract/06", 640x594px, constraints scale/scale, opacity 35%
+    - GROUP "Group", 155.78x536.23px, constraints scale/scale
+      - GROUP "Group", 155.78x536.23px, constraints scale/scale
+        - VECTOR "Vector", 155.78x536.23px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group", 416.18x380.95px, constraints scale/scale
+      - GROUP "Group", 416.18x380.95px, constraints scale/scale
+        - VECTOR "Vector", 416.18x380.95px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group", 636.36x590.24px, constraints scale/scale [decorative, ~54 shapes]
+    - GROUP "Group", 636.43x590.24px, constraints scale/scale [decorative, ~61 shapes]
+    - GROUP "Group", 459.9x227.96px, constraints scale/scale [decorative, ~8 shapes]
+    - GROUP "Group", 69.1x80.51px, constraints scale/scale [decorative, ~4 shapes]
+    - GROUP "Group", 156.32x171.33px, constraints scale/scale [decorative, ~5 shapes]
+    - GROUP "Group", 639.96x594px, constraints scale/scale [decorative, ~54 shapes]
+    - GROUP "Group", 640x593.78px, constraints scale/scale [decorative, ~61 shapes]
+  - INSTANCE "Footer", 996.71x104.58px, constraints left/top
+    - TEXT ".design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "2021", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+  - RECTANGLE "Intro 1", 413.27x895px, constraints left/top, radius 30.34px, fill image(hash: 5b368765108e995cf3d746157f48fba5c932d660)
+  - INSTANCE "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Home", 299x81px, constraints left/top, fill #FFFFFF, text [Montserrat Medium, 87.71px], [heading]
+  - TEXT "Apenas o suficiente na sua frente.", 390x244px, constraints left/top, fill #FFFFFF, text [Montserrat Regular, 48px], [heading]
+  - TEXT "Esteja no controle de tudo que sai e entra.", 390x244px, constraints left/top, fill #FFFFFF, text [Montserrat Regular, 48px], [heading]
+
+Screen: 🤳Instagram  / 3
+- FRAME "3", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1132x1119px, constraints scale/scale, fill image(hash: 485837a0f8fa2a094c30234ada85372891596a52), effect [layer_blur 8px]
+  - COMPONENT "abstract/02", 925x671px, constraints left/top, opacity 35%
+    - VECTOR "Vector", 925x441.55px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 881.04x420.73px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 837.11x399.81px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 793.17x378.87px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 749.21x357.96px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 705.3x337.13px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 661.34x316.1px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 617.41x295.17px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 573.47x274.25px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 529.51x253.34px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 485.58x232.4px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 441.64x212px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 398.11x190.79px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 354.93x169.63px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 310.07x148.65px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 266.14x127.78px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 221.79x106.84px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 178.29x85.93px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 134.39x65.03px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 90.11x44px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 46.15x23.16px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 2.22x668.74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 144.56x659px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 272.64x628.37px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 374.31x580.09px, constraints scale/scale, fill #FFFFFF
+    - ... +16 more children
+  - ELLIPSE "Ellipse 1", 144x144px, constraints left/top, fill #CD071E
+  - ELLIPSE "Ellipse 3", 144x144px, constraints left/top, stroke #CD071E 7px
+  - RECTANGLE "image 61", 1443x1082px, constraints left/top, effect [background_blur 0px]
+  - INSTANCE "Footer", 996.71x104.58px, constraints left/top
+    - TEXT ".design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "2021", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+  - RECTANGLE "Intro 1", 463.79x1006.21px, constraints left/top, radius 30.34px, fill image(hash: f45d7642572253666b8fc60269d4ec47c8cd5f3b)
+  - INSTANCE "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Botão de Ação", 184x29px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - TEXT "Descrição", 125x29px, constraints left/top, fill #FFFFFF, text [Montserrat Bold, 24px], [heading]
+  - VECTOR "Vector 4", 347x29px, constraints left/top, stroke #FFFFFF 2px
+  - VECTOR "Vector 12", 184.5x45.5px, constraints left/top, stroke #FFFFFF 2px
+
+Screen: 🤳Instagram  / 2
+- FRAME "2", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1121x1133px, constraints scale/scale, fill image(hash: 485837a0f8fa2a094c30234ada85372891596a52), effect [layer_blur 8px]
+  - COMPONENT "abstract/07", 631x581px, constraints scale/scale, opacity 35%
+    - GROUP "Group", 627.62x577.9px, constraints scale/scale [decorative, ~41 shapes]
+    - GROUP "Group", 627.53x577.71px, constraints scale/scale [decorative, ~41 shapes]
+    - GROUP "Group", 630.96x581px, constraints scale/scale [decorative, ~41 shapes]
+    - GROUP "Group", 630.93x580.87px, constraints scale/scale [decorative, ~41 shapes]
+  - RECTANGLE "image 61", 1443x1082px, constraints left/top, effect [background_blur 0px]
+  - INSTANCE "Footer", 996.71x104.58px, constraints left/top
+    - TEXT ".design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "2021", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+  - RECTANGLE "Intro 1", 413.27x895px, constraints left/top, radius 30.34px, fill image(hash: f45d7642572253666b8fc60269d4ec47c8cd5f3b)
+  - INSTANCE "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Intro", 297x81px, constraints left/top, fill #FFFFFF, text [Montserrat Medium, 87.71px], [heading]
+  - TEXT "Introduzindo o novo aplicativo da Sony, agora como banco.", 390x613px, constraints left/top, fill #FFFFFF, text [Montserrat Regular, 48px], [heading]
+
+Screen: 🤳Instagram  / 1
+- FRAME "1", 1080x1080px, constraints left/top, fill #000000
+  - RECTANGLE "image 62", 1080x1082px, constraints scale/scale, fill image(hash: d6f1a7813b29d74c1e8afa2d6b71fa38a509871a)
+  - RECTANGLE "image 61", 1443x1082px, constraints left/top, effect [background_blur 0px]
+  - COMPONENT "Footer", 996.71x104.58px, constraints left/top
+    - TEXT ".design", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+    - TEXT "2021", 996.71x104.58px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+  - TEXT "UI+UX Design", 336x59px, constraints left/top, fill #FFFFFF, text [Montserrat Light, 48px], [heading]
+  - RECTANGLE "Home 1", 630.8x971.34px, constraints left/top, radius 30.34px, fill image(hash: 5b368765108e995cf3d746157f48fba5c932d660), effect [drop_shadow 41px offset 0 47 #00000040]
+  - COMPONENT "Header", 997x157px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dicas & Novidades", 997x157px, constraints scale/scale, fill #FFFFFF
+      - TEXT "História & Contos", 997x157px, constraints scale/scale, fill #FFFFFF, text [Montserrat Regular, 21px]
+      - FRAME "Frame", 54x54px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 54x54px, constraints scale/scale
+          - VECTOR "Vector", 9.62x54px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 8.55x21.74px, constraints scale/scale, fill #FFFFFF
+  - GROUP "SETA", 307x14px, constraints left/top
+    - VECTOR "Vector", 307x0px, constraints scale/scale, stroke #FFFFFF 4px
+    - VECTOR "Vector", 7x14px, constraints scale/scale, stroke #FFFFFF 4px
+  - RECTANGLE "Intro 1", 638.57x973.13px, constraints left/top, radius 30.34px, fill image(hash: f45d7642572253666b8fc60269d4ec47c8cd5f3b), effect [drop_shadow 46px offset -18 47 #00000040]
+  - GROUP "Card 1", 334.5x254.6px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 37px offset 0 4 #00000040]
+    - RECTANGLE "card1bg", 334.5x254.6px, constraints scale/scale, radius 30px, fill gradient_linear(#78F32C 0% | #3A4DF9 61%), stroke #979797 0px
+    - GROUP "Card 1 Mask", 334.5x254.6px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "bg", 334.5x254.6px, constraints scale/scale, radius 30px, fill #ED713C, stroke #979797 0px
+      - COMPONENT "abstract/02", 629.9x456.91px, constraints left/top, opacity 6%
+        - VECTOR "Vector", 629.9x300.67px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 599.97x286.49px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 570.05x272.25px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 540.13x257.99px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 510.2x243.75px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 480.29x229.57px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 450.36x215.25px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 420.44x200.99px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 390.52x186.75px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 360.59x172.51px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 330.67x158.25px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 300.75x144.36px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 271.1x129.91px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 241.7x115.51px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 211.15x101.22px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 181.23x87.01px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 151.04x72.75px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 121.41x58.51px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 91.52x44.28px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 61.36x29.96px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 31.43x15.77px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 1.51x455.37px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 98.44x448.74px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 185.66x427.88px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 254.89x395.01px, constraints scale/scale, fill #FFFFFF
+        - ... +16 more children
+    - TEXT "09/25", 51.63x25.49px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 14px]
+    - TEXT "5282", 153.64x52.82px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 14px], opacity 90%
+    - FRAME "symbols 1", 55.08x55.08px, constraints scale/scale, fill #FFFFFF [decorative, ~5 shapes]
+    - TEXT "$5,750,20", 149.71x63.43px, constraints scale/center, fill #FFFFFF, text [Axiforma Medium, 28px], [heading]
+    - VECTOR "Logo", 72.82x30.86px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Sony_logo 1", 422x77px, constraints left/top, fill #FFFFFF
+    - VECTOR "path4258", 420.31x75.28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "figma-1 1", 62x93px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

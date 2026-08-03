@@ -1,0 +1,719 @@
+---
+name: apple-news-ios-community
+source_file: Apple News · iOS (Community)
+source_page: All pages (3): Page, ---, 🖼️ Thumbnail
+generated_at: 2026-07-25T09:39:11.864239+00:00
+---
+
+# Apple News · iOS (Community) Design Guidelines
+
+## Source
+- Figma file: Apple News · iOS (Community)
+- Figma page: All pages (3): Page, ---, 🖼️ Thumbnail
+- Extracted at: 2026-07-25T09:39:11.864239+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- 🗑️ DEPRECATED/🌈/black: [#000000, image(hash: 720ef144fcc2d871e20fd2ed8135e2b21665887d)]
+- Photo/Beach #1: [image(hash: 735b55e177b70043342c76936e383b2ee581deb7)]
+- Photo/Beach #3: [image(hash: cf42fc2f4c59f4576afec5467d425f4c272d00ed)]
+- Photo/Ice Cream #1: [image(hash: 733a01dfac128ebb358e4d60b781a35719397fbd)]
+- Photo/Ice Cream #3: [image(hash: 79f1e3d5dc6bef572cc22fe0855f48efe019a998)]
+- Photo/Perigueux #2: [image(hash: f0f635bf1da0a8afea5347755c49eba2da625f70)]
+- Photo/Perigueux #1: [image(hash: 63c291cc077649b10b861db601c39c4eb003f775)]
+- Photo/Minerva #1: [image(hash: 2b0174b328054e932da1720915a6821119f30acb)]
+- Photo/Minerva #2: [image(hash: 62592b19fe441feb6f1f95a85416c4a9ddaa0307)]
+- App Logo/News: [image(hash: 3ec6890de39c4219f42cf181a86202a5c7375c6b)]
+- User/Kevin Lanceplaine: [image(hash: 0b4b2a5414121580195e2f15accb9d0d93a9695a)]
+- .../Thumbnails/Wallet: [image(hash: fd8be1b200450902fa7a0e42d99ca24b6d090503)]
+- .../Thumbnails/Shortcuts: [image(hash: cac742c5562474c10498f906bd82d9335032af33)]
+- .../Thumbnails/Settings: [image(hash: 629b92a3d7188e66ac37c3b884210e36d7e19c6c)]
+- .../Thumbnails/Safari: [image(hash: 19e61b4ea2ae81dc6b4fca69bf3abef7fe50a56c)]
+- .../Thumbnails/Notes: [image(hash: 69b96d21b729d4e712daeb6a5a5bc37209379933)]
+- .../Thumbnails/Podcasts: [image(hash: 6b9a3a31385b1c2d202af47721c7603a1baf71e2)]
+- .../Thumbnails/Photos: [image(hash: fcf8e79b6e73609f34f4552644479b9c0c2c28e3)]
+- .../Thumbnails/Pay: [image(hash: 85cbf5f30b0ad11ce30ff732481d199e17cecafa)]
+- .../Thumbnails/News: [image(hash: 0564fa4042c2725a816056003e4770726f1654ee)]
+- .../Thumbnails/Maps: [image(hash: e7b97b43dc43e4a64dc3356dc1a2ffd8cd944092)]
+- .../Thumbnails/Journal: [image(hash: c04b33a89bb9b1b9ec92fc5f86e5e2ecc865f262)]
+- .../Thumbnails/Home Screen: [image(hash: 88fa3623fb9d2a684f0b78ae37e2245439b99465)]
+- .../Thumbnails/Home: [image(hash: 2cc6659914c56a6b7f53663307439d4a5b1292df)]
+- .../Thumbnails/Health: [image(hash: 75990ed4b67882ff4d02480f4e8b67ef8662a7fd)]
+- .../Thumbnails/Fitness: [image(hash: ff7bcf3634203f24b29b8b8d48d9fc2c3e1379db)]
+- .../Thumbnails/Contacts: [image(hash: 4becdaa44e535646206560084de92a4734ecfe02)]
+- .../Thumbnails/Calendar: [image(hash: a7d92677491b0cce41095a82781287f3448ac92f)]
+- .../Thumbnails/Calculator: [image(hash: 8f77daac01250dc6728a4a42365d14f8498ba95c)]
+- .../Thumbnails/Books: [image(hash: b63092df8947098955a2aa8a8cad99dbbf9a6cd4)]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 108 uses
+- #D9D9D9: 42 uses
+- #000000: 36 uses
+- #CC171E: 9 uses
+- #FFFFFF80: 9 uses
+
+## Typography Tokens
+- SemiBold/17pt: SF Pro Semibold (590), 17px / 22px, tracking -0.43px
+- Regular/11pt: SF Pro Regular (400), 11px / 13px, tracking 0.06px
+- Regular/17pt: SF Pro Regular (400), 17px / 22px, tracking -0.43px
+- SemiBold/18pt: SF Pro Semibold (590), 18px / 23px, tracking -0.44px
+- SemiBold/10pt: SF Pro Semibold (590), 10px / 12px, tracking 0.12px
+- SemiBold/23pt: SF Pro Semibold (590), 23px / 29px, tracking -0.1px
+- SemiBold/15pt: SF Pro Semibold (590), 15px / 20px, tracking -0.23px
+- SemiBold/12pt: SF Pro Semibold (590), 12px / 16px, tracking 0px
+- SemiBold/22pt: SF Pro Semibold (590), 22px / 28px, tracking -0.26px
+- Regular/14pt: SF Pro Regular (400), 14px / 19px, tracking -0.15px
+- Underlined/17pt: SF Pro Regular (400), 17px / 22px, tracking -0.43px
+- Bold/34pt: SF Pro Bold (700), 34px / 41px, tracking 0.4px
+- Bold/28pt: SF Pro Bold (700), 28px / 34px, tracking 0.38px
+- SemiBold/28pt: SF Pro Semibold (590), 28px / 34px, tracking 0.38px
+
+## Raw Typography (unstyled)
+- SF Pro Bold, 11px: 36 uses
+- SF Pro Bold, 5px: 36 uses
+- SF Pro Medium, 4px: 36 uses
+- SF Pro Semibold, 14px: 36 uses
+- SF Pro Regular, 123px: 19 uses
+- Damion Damion, 15px: 18 uses
+- Damion Damion, 34px: 18 uses
+- SF Pro Black, 31px: 14 uses
+- SF Pro Heavy, 19px: 14 uses
+- SF Pro Heavy, 50px: 14 uses
+- Kanit ExtraBold, 15px: 9 uses
+- Kanit Regular, 15px: 9 uses
+- Patua One Regular, 25px: 9 uses
+- Patua One Regular, 8px: 9 uses
+- Playfair Display Bold, 34px: 9 uses
+- Playfair Display Regular, 15px: 9 uses
+- SF Pro Black, 29px: 7 uses
+- SF Pro Bold, 17px: 7 uses
+
+## Typography Hierarchy
+- 123px - SF Pro Regular, 123px (raw)
+- 50px - SF Pro Heavy, 50px (raw)
+- 34px - Bold/34pt (SF Pro Bold)
+- 34px - Damion Damion, 34px (raw)
+- 34px - Playfair Display Bold, 34px (raw)
+- 31px - SF Pro Black, 31px (raw)
+- 29px - SF Pro Black, 29px (raw)
+- 28px - Bold/28pt (SF Pro Bold)
+- 28px - SemiBold/28pt (SF Pro Semibold)
+- 25px - Patua One Regular, 25px (raw)
+- 23px - SemiBold/23pt (SF Pro Semibold)
+- 22px - SemiBold/22pt (SF Pro Semibold)
+- 19px - SF Pro Heavy, 19px (raw)
+- 18px - SemiBold/18pt (SF Pro Semibold)
+- 17px - Regular/17pt (SF Pro Regular)
+- 17px - SF Pro Bold, 17px (raw)
+- 17px - SemiBold/17pt (SF Pro Semibold)
+- 17px - Underlined/17pt (SF Pro Regular)
+- 15px - Damion Damion, 15px (raw)
+- 15px - Kanit ExtraBold, 15px (raw)
+- 15px - Kanit Regular, 15px (raw)
+- 15px - Playfair Display Regular, 15px (raw)
+- 15px - SemiBold/15pt (SF Pro Semibold)
+- 14px - Regular/14pt (SF Pro Regular)
+- 14px - SF Pro Semibold, 14px (raw)
+- 12px - SemiBold/12pt (SF Pro Semibold)
+- 11px - Regular/11pt (SF Pro Regular)
+- 11px - SF Pro Bold, 11px (raw)
+- 10px - SemiBold/10pt (SF Pro Semibold)
+- 8px - Patua One Regular, 8px (raw)
+- 5px - SF Pro Bold, 5px (raw)
+- 4px - SF Pro Medium, 4px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Material Blur: [background_blur 50px]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- .Magazine
+- 📱 News › All Titles
+- 📱 News › Welcome
+
+## Component Specs
+- .Magazine: size 168x270px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [SF Pro Bold, 11px, SF Pro Semibold, 14px, Damion Damion, 15px, Damion Damion, 34px, SF Pro Medium, 4px, SF Pro Bold, 5px] | variants: Device: 📱 15 Pro/📱 15 Pro Max; Variant: Ice Cream Bulletin/Ming Weekly/Périgueux Inside/Tahiti The Magazine
+- 📱 News › All Titles: size 430x932px, fill #FFFFFF, text [SemiBold/10pt, SemiBold/23pt, SF Pro Bold, 11px, SF Pro Semibold, 14px, Damion Damion, 15px, Damion Damion, 34px, SF Pro Medium, 4px, SF Pro Bold, 5px, Patua One Regular, 25px, Patua One Regular, 8px, Kanit Regular, 15px, Kanit ExtraBold, 15px, Playfair Display Regular, 15px, Playfair Display Bold, 34px, SemiBold/15pt, SF Pro Bold, 17px, SF Pro Heavy, 19px, SemiBold/12pt, SemiBold/17pt, SF Pro Black, 31px, SF Pro Black, 29px, SemiBold/18pt]
+- 📱 News › Welcome: size 430x932px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [SemiBold/17pt, Regular/11pt, Regular/17pt, SF Pro Heavy, 50px, SemiBold/18pt]
+
+## Most-Used Styles
+- SemiBold/17pt: 46 uses
+- SemiBold/10pt: 35 uses
+- SemiBold/23pt: 35 uses
+- SemiBold/12pt: 28 uses
+- Regular/17pt: 20 uses
+- SemiBold/15pt: 14 uses
+- SemiBold/18pt: 10 uses
+- Photo/Beach #1: 9 uses
+- Photo/Beach #3: 9 uses
+- Photo/Ice Cream #1: 9 uses
+- Photo/Ice Cream #3: 9 uses
+- Photo/Minerva #1: 9 uses
+- Photo/Minerva #2: 9 uses
+- Photo/Perigueux #1: 9 uses
+- Photo/Perigueux #2: 9 uses
+- Material Blur: 7 uses
+- Regular/11pt: 7 uses
+- SemiBold/22pt: 5 uses
+- Bold/34pt: 3 uses
+- App Logo/News: 2 uses
+- SemiBold/28pt: 2 uses
+- Underlined/17pt: 2 uses
+- User/Kevin Lanceplaine: 2 uses
+- .../Thumbnails/Books: 1 use
+- .../Thumbnails/Calculator: 1 use
+- .../Thumbnails/Calendar: 1 use
+- .../Thumbnails/Contacts: 1 use
+- .../Thumbnails/Fitness: 1 use
+- .../Thumbnails/Health: 1 use
+- .../Thumbnails/Home: 1 use
+- .../Thumbnails/Home Screen: 1 use
+- .../Thumbnails/Journal: 1 use
+- .../Thumbnails/Maps: 1 use
+- .../Thumbnails/News: 1 use
+- .../Thumbnails/Notes: 1 use
+- .../Thumbnails/Pay: 1 use
+- .../Thumbnails/Photos: 1 use
+- .../Thumbnails/Podcasts: 1 use
+- .../Thumbnails/Safari: 1 use
+- .../Thumbnails/Settings: 1 use
+- .../Thumbnails/Shortcuts: 1 use
+- .../Thumbnails/Wallet: 1 use
+- Bold/28pt: 1 use
+- Regular/14pt: 1 use
+
+## Layout & Structure
+Screen: Page / 📱 Screens
+- FRAME "📱 Screens", 1766x1944px, vertical pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+  - FRAME "Row", 1766x932px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "📱 News › Welcome", 430x932px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "🧰 Status Bar", 430x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Status Bar", 430x54px, horizontal pad 0 10 0 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Left Area", 142x54px, horizontal pad 18 0 13 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Status Bar › Time", 37x23px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧩 Status Bar › Dynamic Island", 126x54px, vertical pad 11 0 6 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Hole", 126x37px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #000000
+          - FRAME "Right Area", 142x54px, horizontal pad 18 0 13 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Icons", 92x23px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Center", 430x583px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Fixed Width Content", 288x249px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Logo Container", 74x88px, horizontal pad 0 0 22 8px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~7 shapes]
+          - FRAME "Title and Subtitle", 268x161px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Welcome Text", 268x105px, vertical pad 0 0 0 0px gap -15px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "The best stories from the sources you love, selected just fo", 268x44px, constraints left/top, fill #000000, text [Regular/17pt]
+      - FRAME "Bottom", 430x295px, vertical pad 40 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Fixed Width Content", 288x221px, vertical pad 0 0 12 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon and Text", 288x127px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Icon", 36x36px, constraints left/top [decorative, ~4 shapes]
+            - TEXT "Apple collects your activity in News, which is not associate", 288x91px, constraints left/top, fill #8E8E93, text [Regular/11pt]
+          - INSTANCE "🧰 Button", 288x50px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Button", 288x50px, vertical pad 14 20 14 20px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 14px, fill #FF2854
+        - INSTANCE "🧰 Home Bar", 430x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Home", 430x34px, vertical pad 0 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Home Bar - Change Opacity", 154x5px, constraints left/top, radius 100px, fill #000000, effect [background_blur 80px]
+    - INSTANCE "📱 News › Welcome", 430x932px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - INSTANCE "🧰 Status Bar", 430x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Status Bar", 430x54px, horizontal pad 0 10 0 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Left Area", 142x54px, horizontal pad 18 0 13 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Status Bar › Time", 37x23px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧩 Status Bar › Dynamic Island", 126x54px, vertical pad 11 0 6 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Hole", 126x37px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #000000
+          - FRAME "Right Area", 142x54px, horizontal pad 18 0 13 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Icons", 92x23px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Center", 430x583px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Fixed Width Content", 288x249px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Logo Container", 74x88px, horizontal pad 0 0 22 8px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~7 shapes]
+          - FRAME "Title and Subtitle", 268x161px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Welcome Text", 268x105px, vertical pad 0 0 0 0px gap -15px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "The best stories from the sources you love, selected just fo", 268x44px, constraints left/top, fill #FFFFFF, text [Regular/17pt]
+      - FRAME "Bottom", 430x295px, vertical pad 40 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Fixed Width Content", 288x221px, vertical pad 0 0 12 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon and Text", 288x127px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Icon", 36x36px, constraints left/top [decorative, ~4 shapes]
+            - TEXT "Apple collects your activity in News, which is not associate", 288x91px, constraints left/top, fill #8E8E93, text [Regular/11pt]
+          - INSTANCE "🧰 Button", 288x50px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Button", 288x50px, vertical pad 14 20 14 20px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 14px, fill #FF345F
+        - INSTANCE "🧰 Home Bar", 430x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Home", 430x34px, vertical pad 0 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Home Bar - Change Opacity", 154x5px, constraints left/top, radius 100px, fill #FFFFFF, effect [background_blur 80px]
+    - INSTANCE "📱 News › Welcome", 393x852px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "🧰 Status Bar", 393x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Status Bar", 393x54px, horizontal pad 0 10 0 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Left Area", 123.5x53px, horizontal pad 18 0 13 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Status Bar › Time", 35x22px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧩 Status Bar › Dynamic Island", 126x54px, vertical pad 11 0 6 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Hole", 126x37px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #000000
+          - FRAME "Right Area", 123.5x51px, horizontal pad 18 0 13 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Icons", 80.78x20px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Center", 393x503px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Fixed Width Content", 288x249px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Logo Container", 74x88px, horizontal pad 0 0 22 8px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~7 shapes]
+          - FRAME "Title and Subtitle", 268x161px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Welcome Text", 268x105px, vertical pad 0 0 0 0px gap -15px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "The best stories from the sources you love, selected just fo", 268x44px, constraints left/top, fill #000000, text [Regular/17pt]
+      - FRAME "Bottom", 393x295px, vertical pad 40 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Fixed Width Content", 288x221px, vertical pad 0 0 12 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon and Text", 288x127px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Icon", 36x36px, constraints left/top [decorative, ~4 shapes]
+            - TEXT "Apple collects your activity in News, which is not associate", 288x91px, constraints left/top, fill #8E8E93, text [Regular/11pt]
+          - INSTANCE "🧰 Button", 288x50px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Button", 288x50px, vertical pad 14 20 14 20px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 14px, fill #FF2854
+        - INSTANCE "🧰 Home Bar", 393x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Home", 393x34px, vertical pad 0 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Home Bar - Change Opacity", 140x5px, constraints left/top, radius 100px, fill #000000, effect [background_blur 80px]
+    - INSTANCE "📱 News › Welcome", 393x852px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - INSTANCE "🧰 Status Bar", 393x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Status Bar", 393x54px, horizontal pad 0 10 0 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Left Area", 123.5x53px, horizontal pad 18 0 13 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Status Bar › Time", 35x22px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧩 Status Bar › Dynamic Island", 126x54px, vertical pad 11 0 6 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Hole", 126x37px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #000000
+          - FRAME "Right Area", 123.5x51px, horizontal pad 18 0 13 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Icons", 80.78x20px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Center", 393x503px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Fixed Width Content", 288x249px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Logo Container", 74x88px, horizontal pad 0 0 22 8px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~7 shapes]
+          - FRAME "Title and Subtitle", 268x161px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Welcome Text", 268x105px, vertical pad 0 0 0 0px gap -15px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "The best stories from the sources you love, selected just fo", 268x44px, constraints left/top, fill #FFFFFF, text [Regular/17pt]
+      - FRAME "Bottom", 393x295px, vertical pad 40 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Fixed Width Content", 288x221px, vertical pad 0 0 12 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon and Text", 288x127px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Icon", 36x36px, constraints left/top [decorative, ~4 shapes]
+            - TEXT "Apple collects your activity in News, which is not associate", 288x91px, constraints left/top, fill #8E8E93, text [Regular/11pt]
+          - INSTANCE "🧰 Button", 288x50px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Button", 288x50px, vertical pad 14 20 14 20px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 14px, fill #FF345F
+        - INSTANCE "🧰 Home Bar", 393x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Home", 393x34px, vertical pad 0 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Home Bar - Change Opacity", 140x5px, constraints left/top, radius 100px, fill #FFFFFF, effect [background_blur 80px]
+  - FRAME "Row", 1766x932px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "📱 News › All Titles", 430x932px, constraints left/top, fill #FFFFFF
+      - FRAME "Top", 430x910px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Navigation Bar", 430x154px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧰 Status Bar", 430x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Bar", 430x54px, horizontal pad 0 10 0 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Title", 430x100px, vertical pad 22 20 10 20px gap -6px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Apple News", 134x37px, horizontal pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Discover", 135x37px, constraints left/top, fill #8E8E93, text [SF Pro Black, 31px], [heading]
+          - FRAME "Divider", 430x1px, horizontal pad 0 20 0 20px gap 0px align center/max sizing W:fixed H:fixed, constraints left_right/bottom
+            - RECTANGLE "Divider", 390x0.33px, constraints left/top, fill #C7C7CC
+        - FRAME "Filter - Scrollable Area", 430x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Filters", 534x64px, horizontal pad 10 20 10 20px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter", 104x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F2F2F7
+            - FRAME "Filter", 113x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #000000
+            - FRAME "Filter", 112x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F2F2F7
+            - FRAME "Filter", 135x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F2F2F7
+        - FRAME "Sections", 430x692px, vertical pad 0 20 0 20px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Section Title", 390x74px, horizontal pad 17 0 29 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Text", 197x23px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "🧰 Button", 28x28px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Listing", 390x618px, vertical pad 0 0 0 0px gap 44px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 390x287px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 390x287px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "🧰 Tab Bars", 430x83px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+        - FRAME "Tab Bar", 430x83px, vertical pad 0 0 32 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧰 Home Bar", 430x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+            - FRAME "Home", 430x34px, vertical pad 0 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Divider", 430x1px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left_right/top
+            - RECTANGLE "Divider", 430x0.33px, constraints left/top, fill #C7C7CC
+          - FRAME "Tabs", 430x51px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #1", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #2", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #3", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #4", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #5", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Background", 430x83px, constraints left_right/top_bottom, fill #FFFFFFB2, effect Material Blur
+    - INSTANCE "📱 News › All Titles", 430x932px, constraints left/top, fill #000000
+      - FRAME "Top", 430x910px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Navigation Bar", 430x154px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧰 Status Bar", 430x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Bar", 430x54px, horizontal pad 0 10 0 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Title", 430x100px, vertical pad 22 20 10 20px gap -6px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Apple News", 134x37px, horizontal pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Discover", 135x37px, constraints left/top, fill #8E8E93, text [SF Pro Black, 31px], [heading]
+          - FRAME "Divider", 430x1px, horizontal pad 0 20 0 20px gap 0px align center/max sizing W:fixed H:fixed, constraints left_right/bottom
+            - RECTANGLE "Divider", 390x0.33px, constraints left/top, fill #464649
+        - FRAME "Filter - Scrollable Area", 430x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Filters", 534x64px, horizontal pad 10 20 10 20px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter", 104x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #28282A
+            - FRAME "Filter", 113x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+            - FRAME "Filter", 112x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #28282A
+            - FRAME "Filter", 135x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #28282A
+        - FRAME "Sections", 430x692px, vertical pad 0 20 0 20px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Section Title", 390x74px, horizontal pad 17 0 29 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Text", 197x23px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "🧰 Button", 28x28px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Listing", 390x618px, vertical pad 0 0 0 0px gap 44px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 390x287px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 390x287px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "🧰 Tab Bars", 430x83px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+        - FRAME "Tab Bar", 430x83px, vertical pad 0 0 32 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧰 Home Bar", 430x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+            - FRAME "Home", 430x34px, vertical pad 0 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Divider", 430x1px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left_right/top
+            - RECTANGLE "Divider", 430x0.33px, constraints left/top, fill #464649
+          - FRAME "Tabs", 430x51px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #1", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #2", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #3", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #4", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #5", 86x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Background", 430x83px, constraints left_right/top_bottom, fill #28282AF0, effect Material Blur
+    - INSTANCE "📱 News › All Titles", 393x852px, constraints left/top, fill #FFFFFF
+      - FRAME "Top", 393x876px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Navigation Bar", 393x154px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧰 Status Bar", 393x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Bar", 393x54px, horizontal pad 0 10 0 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Title", 393x100px, vertical pad 22 16 10 16px gap -6px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Apple News", 134x37px, horizontal pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Discover", 135x37px, constraints left/top, fill #8E8E93, text [SF Pro Black, 31px], [heading]
+          - FRAME "Divider", 393x1px, horizontal pad 0 20 0 20px gap 0px align center/max sizing W:fixed H:fixed, constraints left_right/bottom
+            - RECTANGLE "Divider", 353x0.33px, constraints left/top, fill #C7C7CC
+        - FRAME "Filter - Scrollable Area", 393x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Filters", 526x64px, horizontal pad 10 16 10 16px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter", 104x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F2F2F7
+            - FRAME "Filter", 113x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #000000
+            - FRAME "Filter", 112x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F2F2F7
+            - FRAME "Filter", 135x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F2F2F7
+        - FRAME "Sections", 393x658px, vertical pad 0 16 0 16px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Section Title", 361x74px, horizontal pad 17 0 29 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Text", 197x23px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "🧰 Button", 28x28px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Listing", 361x584px, vertical pad 0 0 0 0px gap 44px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 361x270px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 361x270px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "🧰 Tab Bars", 393x83px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+        - FRAME "Tab Bar", 393x83px, vertical pad 0 0 32 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧰 Home Bar", 393x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+            - FRAME "Home", 393x34px, vertical pad 0 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Divider", 393x1px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left_right/top
+            - RECTANGLE "Divider", 393x0.33px, constraints left/top, fill #C7C7CC
+          - FRAME "Tabs", 393x51px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #1", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #2", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #3", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #4", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #5", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Background", 393x83px, constraints left_right/top_bottom, fill #FFFFFFB2, effect Material Blur
+    - INSTANCE "📱 News › All Titles", 393x852px, constraints left/top, fill #000000
+      - FRAME "Top", 393x876px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Navigation Bar", 393x154px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧰 Status Bar", 393x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Bar", 393x54px, horizontal pad 0 10 0 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Title", 393x100px, vertical pad 22 16 10 16px gap -6px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Apple News", 134x37px, horizontal pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Discover", 135x37px, constraints left/top, fill #8E8E93, text [SF Pro Black, 31px], [heading]
+          - FRAME "Divider", 393x1px, horizontal pad 0 20 0 20px gap 0px align center/max sizing W:fixed H:fixed, constraints left_right/bottom
+            - RECTANGLE "Divider", 353x0.33px, constraints left/top, fill #464649
+        - FRAME "Filter - Scrollable Area", 393x64px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Filters", 526x64px, horizontal pad 10 16 10 16px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter", 104x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #28282A
+            - FRAME "Filter", 113x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+            - FRAME "Filter", 112x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #28282A
+            - FRAME "Filter", 135x44px, horizontal pad 11 12 11 12px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #28282A
+        - FRAME "Sections", 393x658px, vertical pad 0 16 0 16px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Section Title", 361x74px, horizontal pad 17 0 29 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Text", 197x23px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "🧰 Button", 28x28px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Listing", 361x584px, vertical pad 0 0 0 0px gap 44px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 361x270px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 361x270px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "🧰 Tab Bars", 393x83px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+        - FRAME "Tab Bar", 393x83px, vertical pad 0 0 32 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "🧰 Home Bar", 393x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom
+            - FRAME "Home", 393x34px, vertical pad 0 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Divider", 393x1px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left_right/top
+            - RECTANGLE "Divider", 393x0.33px, constraints left/top, fill #464649
+          - FRAME "Tabs", 393x51px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #1", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #2", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #3", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #4", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "🧩 Tab #5", 78.6x51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Background", 393x83px, constraints left_right/top_bottom, fill #28282AF0, effect Material Blur
+
+Screen: Page / ⚙️ Local Components
+- FRAME "⚙️ Local Components", 1164x957px, vertical pad 80 80 80 80px gap 80px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - COMPONENT_SET ".Magazine", 1004x797px, constraints left/top, fill #FFFFFF, stroke #9747FF 1px
+    - COMPONENT "Device=📱 15 Pro, Variant=Tahiti The Magazine", 168x270px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Magazine", 168x270px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Covers", 168x214px, constraints left/top
+          - FRAME "Cover", 152x198px, constraints right/bottom, radius 6px, fill Photo/Beach #3, effect [drop_shadow 4px offset 0 4 #00000040]
+            - GROUP "Details", 62x58px, constraints left/top, radius 0/0/0/0px
+            - FRAME "Name", 72x58px, vertical pad 0 0 0 0px gap -10px align min/max sizing W:fixed H:fixed, constraints right/top
+          - FRAME "Cover", 152x198px, constraints left/top, radius 6px, fill Photo/Beach #1, effect [drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Name", 72x58px, vertical pad 0 0 0 0px gap -10px align min/max sizing W:fixed H:fixed, constraints right/top
+        - FRAME "Title and Btn", 112x40px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Tahiti The Magazine", 112x17px, constraints left/top, fill #000000, text [SF Pro Semibold, 14px]
+          - FRAME "Follow Button", 65x16px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #FF2854 1.33px
+            - TEXT "Follow", 46x16px, constraints left/top, fill #FF2854, text [SF Pro Bold, 11px]
+    - COMPONENT "Device=📱 15 Pro, Variant=Ice Cream Bulletin", 168x270px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Magazine", 168x270px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Covers", 168x214px, constraints left/top
+          - FRAME "Cover", 152x183px, constraints left/top, radius 6px, fill Photo/Ice Cream #3, effect [drop_shadow 4px offset 0 4 #00000040]
+          - FRAME "Cover", 152x183px, constraints right/bottom, radius 6px, fill Photo/Ice Cream #1, effect [drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Name", 110x36px, vertical pad 0 0 0 0px gap -4px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Title and Btn", 102x40px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ice Cream Bulletin", 102x17px, constraints left/top, fill #000000, text [SF Pro Semibold, 14px]
+          - FRAME "Follow Button", 65x16px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #FF2854 1.33px
+            - TEXT "Follow", 46x16px, constraints left/top, fill #FF2854, text [SF Pro Bold, 11px]
+    - COMPONENT "Device=📱 15 Pro, Variant=Périgueux Inside", 168x270px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Magazine", 168x270px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Covers", 168x214px, constraints left/top
+          - FRAME "Cover", 152x183px, constraints left/top, radius 6px, fill Photo/Perigueux #1, effect [drop_shadow 4px offset 0 4 #00000040]
+          - FRAME "Cover", 152x183px, constraints right/bottom, radius 6px, fill Photo/Perigueux #2, effect [drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Name", 137x40px, vertical pad 0 0 0 0px gap -4px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Title and Btn", 94x40px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Périgueux Inside", 94x17px, constraints left/top, fill #000000, text [SF Pro Semibold, 14px]
+          - FRAME "Follow Button", 65x16px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #FF2854 1.33px
+            - TEXT "Follow", 46x16px, constraints left/top, fill #FF2854, text [SF Pro Bold, 11px]
+    - COMPONENT "Device=📱 15 Pro, Variant=Ming Weekly", 168x270px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Magazine", 168x270px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Covers", 168x214px, constraints left/top
+          - FRAME "Cover", 152x198px, constraints right/bottom, radius 6px, fill Photo/Minerva #2, effect [drop_shadow 4px offset 0 4 #00000040]
+            - GROUP "Details", 62x58px, constraints left/top, radius 0/0/0/0px
+          - FRAME "Cover", 152x198px, constraints left/top, radius 6px, fill Photo/Minerva #1, effect [drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Name", 120x45px, horizontal pad 0 0 0 0px gap -10px align max/min sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Title and Btn", 74x40px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ming Weekly", 74x17px, constraints left/top, fill #000000, text [SF Pro Semibold, 14px]
+          - FRAME "Follow Button", 65x16px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #FF2854 1.33px
+            - TEXT "Follow", 46x16px, constraints left/top, fill #FF2854, text [SF Pro Bold, 11px]
+    - COMPONENT "Device=📱 15 Pro Max, Variant=Tahiti The Magazine", 181x287px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Magazine", 181x287px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Covers", 181x231px, constraints left/top
+          - FRAME "Cover", 165x215px, constraints right/bottom, radius 6px, fill Photo/Beach #3, effect [drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Name", 72x58px, vertical pad 0 0 0 0px gap -10px align min/max sizing W:fixed H:fixed, constraints right/top
+            - GROUP "Details", 62x58px, constraints left/top, radius 0/0/0/0px
+          - FRAME "Cover", 165x215px, constraints left/top, radius 6px, fill Photo/Beach #1, effect [drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Name", 72x58px, vertical pad 0 0 0 0px gap -10px align min/max sizing W:fixed H:fixed, constraints right/top
+        - FRAME "Title and Btn", 112x40px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Tahiti The Magazine", 112x17px, constraints left/top, fill #000000, text [SF Pro Semibold, 14px]
+          - FRAME "Follow Button", 65x16px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #FF2854 1.33px
+            - TEXT "Follow", 46x16px, constraints left/top, fill #FF2854, text [SF Pro Bold, 11px]
+    - COMPONENT "Device=📱 15 Pro Max, Variant=Ice Cream Bulletin", 181x287px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Magazine", 181x287px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Covers", 181x231px, constraints left/top
+          - FRAME "Cover", 165x199px, constraints left/top, radius 6px, fill Photo/Ice Cream #3, effect [drop_shadow 4px offset 0 4 #00000040]
+          - FRAME "Cover", 165x199px, constraints right/bottom, radius 6px, fill Photo/Ice Cream #1, effect [drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Name", 110x36px, vertical pad 0 0 0 0px gap -4px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Title and Btn", 102x40px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ice Cream Bulletin", 102x17px, constraints left/top, fill #000000, text [SF Pro Semibold, 14px]
+          - FRAME "Follow Button", 65x16px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #FF2854 1.33px
+            - TEXT "Follow", 46x16px, constraints left/top, fill #FF2854, text [SF Pro Bold, 11px]
+    - COMPONENT "Device=📱 15 Pro Max, Variant=Périgueux Inside", 181x287px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Magazine", 181x287px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Covers", 181x231px, constraints left/top
+          - FRAME "Cover", 165x199px, constraints left/top, radius 6px, fill Photo/Perigueux #1, effect [drop_shadow 4px offset 0 4 #00000040]
+          - FRAME "Cover", 165x199px, constraints right/bottom, radius 6px, fill Photo/Perigueux #2, effect [drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Name", 137x40px, vertical pad 0 0 0 0px gap -4px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Title and Btn", 94x40px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Périgueux Inside", 94x17px, constraints left/top, fill #000000, text [SF Pro Semibold, 14px]
+          - FRAME "Follow Button", 65x16px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #FF2854 1.33px
+            - TEXT "Follow", 46x16px, constraints left/top, fill #FF2854, text [SF Pro Bold, 11px]
+    - COMPONENT "Device=📱 15 Pro Max, Variant=Ming Weekly", 181x287px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Magazine", 181x287px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Covers", 181x231px, constraints left/top
+          - FRAME "Cover", 165x215px, constraints right/bottom, radius 6px, fill Photo/Minerva #2, effect [drop_shadow 4px offset 0 4 #00000040]
+            - GROUP "Details", 62x58px, constraints left/top, radius 0/0/0/0px
+          - FRAME "Cover", 165x215px, constraints left/top, radius 6px, fill Photo/Minerva #1, effect [drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Name", 120x45px, horizontal pad 0 0 0 0px gap -10px align max/min sizing W:fixed H:fixed, constraints right/top
+        - FRAME "Title and Btn", 74x40px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ming Weekly", 74x17px, constraints left/top, fill #000000, text [SF Pro Semibold, 14px]
+          - FRAME "Follow Button", 65x16px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #FF2854 1.33px
+            - TEXT "Follow", 46x16px, constraints left/top, fill #FF2854, text [SF Pro Bold, 11px]
+
+Screen: Page / 📘 Similar Files
+- FRAME "📘 Similar Files", 1340x1644px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "📘 Similar Files", 1340x1644px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Content", 1340x1644px, vertical pad 80 80 80 80px gap 40px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Text and User", 1180x71px, horizontal pad 0 0 0 0px gap 24px align space_between/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Title and Desc", 240x71px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Similar Files", 190x41px, constraints left/top, fill #000000, text [Bold/34pt], [heading]
+          - TEXT "Made using the same iOS UI Kit", 240x22px, constraints left/top, fill #3C3C4399, text [Regular/17pt]
+        - FRAME "User", 150x32px, horizontal pad 4 12 4 4px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #7676801F, stroke #3C3C435C 0.33px
+          - RECTANGLE "Img", 24x24px, constraints left/top, radius 999px, fill User/Kevin Lanceplaine
+          - TEXT "@lanceplaine", 102x22px, constraints left/top, fill #000000, text [Regular/17pt]
+      - FRAME "Listing", 1180x1373px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Books
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Calculator
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Calendar
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Contacts
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Fitness
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Health
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Home
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Home Screen
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Journal
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Maps
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/News
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Pay
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Photos
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Podcasts
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Notes
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Safari
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Settings
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Shortcuts
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+        - INSTANCE ".File", 380x179px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "File", 380x179px, constraints left/top
+            - RECTANGLE "Img", 380x179px, constraints left_right/top_bottom, fill .../Thumbnails/Wallet
+            - TEXT "Figma", 380x179px, constraints left_right/top_bottom, fill #00000000, text [SF Pro Regular, 123px], [heading]
+
+Screen: Page / 📘 News
+- FRAME "📘 News", 1900x1958px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "🔧 Title", 345x232px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Title", 345x232px, horizontal pad 80 80 80 80px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Icon and Text", 185x72px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Logo", 72x72px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill App Logo/News, stroke #C7C7CC 0.5px
+        - FRAME "Text", 89x41px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 89x41px, constraints left/top, fill #000000, text [Bold/34pt], [heading]
+  - FRAME "Content", 1900x1726px, vertical pad 0 80 80 80px gap 80px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Row", 1740x1166px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "🔧 Screen", 860x1166px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Title and Table", 860x1166px, vertical pad 60 80 80 80px gap 60px align max/min sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #F2F2F7
+          - TEXT "Screen Name", 118x34px, constraints left/top, fill #000000, text [SemiBold/28pt], [heading]
+          - FRAME "Devices", 700x932px, horizontal pad 0 0 0 0px gap -160px align max/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Device", 430x932px, constraints left/top
+            - FRAME "Device", 430x932px, constraints left/top
+      - INSTANCE "🔧 Screen", 860x1166px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Title and Table", 860x1166px, vertical pad 60 80 80 80px gap 60px align max/min sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #F2F2F7
+          - TEXT "Screen Name", 108x34px, constraints left/top, fill #000000, text [SemiBold/28pt], [heading]
+          - FRAME "Devices", 700x932px, horizontal pad 0 0 0 0px gap -160px align max/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Device", 430x932px, constraints left/top
+            - FRAME "Device", 430x932px, constraints left/top
+    - INSTANCE "🔧  Coming Soon", 1740x400px, vertical pad 0 40 0 40px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke #8E8E93 1px
+      - FRAME "Center", 350x66px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tell me what you want next", 350x34px, constraints left/top, fill #000000, text [Bold/28pt], [heading]
+        - FRAME "Icon and Link", 166x22px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "􀄫", 20x22px, constraints left/top, fill #007BFE, text [Regular/17pt]
+          - TEXT "ios-ui-kit.canny.io", 136x22px, constraints left/top, fill #007BFE, text [Underlined/17pt]
+
+Screen: Page / 📘 Welcome
+- FRAME "📘 Welcome", 800x1392px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "📘 Welcome", 800x1392px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+    - FRAME "Content", 800x1392px, vertical pad 80 80 80 80px gap 60px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and Version", 640x71px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "👋 Welcome", 189x41px, constraints left/top, fill #000000, text [Bold/34pt], [heading]
+        - TEXT "May 2024 · v18.0 · Changelog", 244x22px, constraints left/top, fill #8E8E93, text [Regular/17pt]
+      - FRAME "Section", 640x66px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Ask for new components, screens or changes", 452x28px, constraints left/top, fill #000000, text [SemiBold/22pt]
+        - FRAME "Paragraphs", 640x22px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - TEXT "https://ios-ui-kit.canny.io", 640x22px, constraints left/top, fill #007BFE, text [Underlined/17pt]
+      - FRAME "Section", 640x354px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Unofficial UI Kit", 155x28px, constraints left/top, fill #000000, text [SemiBold/22pt]
+        - FRAME "Paragraphs", 640x310px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - TEXT "This Figma UI Kit for iOS 17 is provided "as is," without an", 640x110px, constraints left/top, fill #000000, text [Regular/17pt]
+          - TEXT "Please note that all trademarks, images, and visual elements", 640x88px, constraints left/top, fill #000000, text [Regular/17pt]
+          - TEXT "By using this UI Kit, you acknowledge the above stipulations", 640x88px, constraints left/top, fill #000000, text [Regular/17pt]
+      - FRAME "Section", 640x110px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Work in progress", 169x28px, constraints left/top, fill #000000, text [SemiBold/22pt]
+        - TEXT "This UI Kit is a work in progress, with the intention to und", 640x66px, constraints left/top, fill #000000, text [Regular/17pt]
+      - FRAME "Section", 640x145px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Contributors", 127x28px, constraints left/top, fill #000000, text [SemiBold/22pt]
+        - FRAME "Img and Text", 189x41px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Avatar", 41x41px, constraints left/top, radius 100px, fill User/Kevin Lanceplaine
+          - FRAME "Text", 138x41px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Kevin Lanceplaine", 138x22px, constraints left/top, fill #000000, text [Regular/17pt]
+            - TEXT "@lanceplaine", 86x19px, constraints left/top, fill #8E8E93, text [Regular/14pt]
+        - TEXT "If you are interested in helping, let me know by leaving a m", 640x44px, constraints left/top, fill #000000, text [Regular/17pt]
+      - FRAME "Section", 640x186px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Big thanks", 105x28px, constraints left/top, fill #000000, text [SemiBold/22pt]
+        - TEXT "Despite this UI Kit being created from scratch, without inco", 640x66px, constraints left/top, fill #000000, text [Regular/17pt]
+        - FRAME "Img and Text", 99x22px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Avatar", 22x22px, constraints left/top, radius 100px, fill image(hash: 79af931ebce6280f28f41b5ad6248009916a9745)
+          - TEXT "Meng To", 67x22px, constraints left/top, fill #000000, text [Regular/17pt]
+        - FRAME "Img and Text", 120x22px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Avatar", 22x22px, constraints left/top, radius 100px, fill image(hash: 94c0e71136050d566a8f7cfad6eb43fda700c18c)
+          - TEXT "Joey Banks", 88x22px, constraints left/top, fill #000000, text [Regular/17pt]
+
+Screen: 🖼️ Thumbnail / 🖼️ News
+- FRAME "🖼️ News", 2400x1200px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE "🖼️ App Thumbnail", 2400x1200px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Content", 2400x1200px, constraints left/top, fill gradient_linear(#1C1C1E 0% | #000000 100%)
+      - FRAME "Icon and Text", 286x602px, vertical pad 0 0 0 0px gap 68px align center/min sizing W:fixed H:fixed, constraints left/center
+        - RECTANGLE "Icon", 256x256px, constraints left/top, radius 56px, fill App Logo/News
+        - FRAME "Text", 286x278px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "App Name", 271x129px, constraints left/top, fill #FFFFFF, text [SF Pro Semibold, 108px], [heading]
+          - TEXT "iOS 17", 286x129px, constraints left/top, fill #EBEBF599, text [SF Pro Light, 108px], [heading]
+      - FRAME "Devices", 740x932px, horizontal pad 0 0 0 0px gap -120px sizing W:fixed H:fixed, constraints right/center
+        - FRAME "Device", 430x932px, constraints left/top
+          - INSTANCE "🧰 Bezel", 430x932px, constraints left/top
+            - RECTANGLE "Bezel", 510x1012px, constraints center/center, fill image(hash: 7490ae5fa64cd890e75e4f5a2fb5a6b0788bfb37)
+          - FRAME "Crop Screen", 430x932px, constraints left/top, radius 54px
+            - INSTANCE "📱 News › All Titles", 430x932px, constraints left/top, fill #000000
+        - FRAME "Device", 430x932px, constraints left/top
+          - INSTANCE "🧰 Bezel", 430x932px, constraints left/top
+            - RECTANGLE "Bezel", 510x1012px, constraints center/center, fill image(hash: 7490ae5fa64cd890e75e4f5a2fb5a6b0788bfb37)
+          - FRAME "Crop Screen", 430x932px, constraints left/top, radius 54px
+            - INSTANCE "📱 News › Welcome", 430x932px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #000000
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

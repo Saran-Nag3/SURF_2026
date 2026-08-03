@@ -1,0 +1,1150 @@
+---
+name: pcc-employee-progressive-web-app-community
+source_file: PCC Employee Progressive Web App (Community)
+source_page: All pages (3): ui-design, design-systsem/guidelines, wireframes
+generated_at: 2026-07-25T09:45:11.726748+00:00
+---
+
+# PCC Employee Progressive Web App (Community) Design Guidelines
+
+## Source
+- Figma file: PCC Employee Progressive Web App (Community)
+- Figma page: All pages (3): ui-design, design-systsem/guidelines, wireframes
+- Extracted at: 2026-07-25T09:45:11.726748+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 382 uses
+- #000000: 368 uses
+- #F5F3EE: 180 uses
+- #C4C4C4: 119 uses
+- #212121: 80 uses
+- #735933: 39 uses
+- #3A3327: 29 uses
+- #F3F0E9: 29 uses
+- #BB9436: 27 uses
+- #3B931C: 15 uses
+- #E27249: 14 uses
+- #215968: 11 uses
+- #9F7C42: 11 uses
+- #BCA947: 8 uses
+
+## Typography Tokens
+- nav-icon-name-sm: Lato Bold (700), 9px / auto, tracking 0px
+- button-text-sm: Lato Bold (700), 20px / auto, tracking 0px
+- chapter-title-header-sm: Dirty Headline DirtyHeadline (400), 40px / auto, tracking 0px
+- navigation-title-sm: Dirty Headline DirtyHeadline (400), 23px / auto, tracking 0px
+- input-text-sm: Lato Regular (400), 16px / auto, tracking 0px
+- search-result-text-sm: Lato Heavy (800), 14px / auto, tracking 0px
+- body-text-sm: Lato Medium (500), 12px / auto, tracking 0px
+- section-header-sm: Lato Black (900), 16px / auto, tracking 0px
+- chapter-name-text: Lato SemiBold (600), 12px / auto, tracking 0px
+- search-result-description-sm: Lato SemiBold (600), 12px / auto, tracking 0px
+- card-title-sm: Lato Bold (700), 12px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Lato SemiBold, 14px: 112 uses
+- Lato SemiBold, 12px: 68 uses
+- Lato Bold, 12px: 35 uses
+- Lato Bold, 9px: 35 uses
+- Lato Regular, 16px: 25 uses
+- Dirty Headline DirtyHeadline, 23px: 22 uses
+- Lato Regular, 20px: 22 uses
+- Lato Regular, 14px: 17 uses
+- Lato Regular, 12px: 15 uses
+- Lato Black, 12px: 10 uses
+- Lato Black, 20px: 9 uses
+- Lato Black, 32px: 9 uses
+- Lato Bold, 16px: 8 uses
+- Lato Medium, 12px: 7 uses
+- Lato Bold, 20px: 5 uses
+- Dirty Headline DirtyHeadline, 24px: 4 uses
+- Dirty Headline DirtyHeadline, 9px: 4 uses
+- Lato Bold, 32px: 4 uses
+- Lato Italic, 20px: 4 uses
+- Broadsheet Broadsheet, 25px: 3 uses
+- Lato Regular, 24px: 3 uses
+- Lato SemiBold, 16px: 3 uses
+
+## Typography Hierarchy
+- 40px - chapter-title-header-sm (Dirty Headline DirtyHeadline)
+- 32px - Lato Black, 32px (raw)
+- 32px - Lato Bold, 32px (raw)
+- 25px - Broadsheet Broadsheet, 25px (raw)
+- 24px - Dirty Headline DirtyHeadline, 24px (raw)
+- 24px - Lato Regular, 24px (raw)
+- 23px - Dirty Headline DirtyHeadline, 23px (raw)
+- 23px - navigation-title-sm (Dirty Headline DirtyHeadline)
+- 20px - Lato Black, 20px (raw)
+- 20px - Lato Bold, 20px (raw)
+- 20px - Lato Italic, 20px (raw)
+- 20px - Lato Regular, 20px (raw)
+- 20px - button-text-sm (Lato Bold)
+- 16px - Lato Bold, 16px (raw)
+- 16px - Lato Regular, 16px (raw)
+- 16px - Lato SemiBold, 16px (raw)
+- 16px - input-text-sm (Lato Regular)
+- 16px - section-header-sm (Lato Black)
+- 14px - Lato Regular, 14px (raw)
+- 14px - Lato SemiBold, 14px (raw)
+- 14px - search-result-text-sm (Lato Heavy)
+- 12px - Lato Black, 12px (raw)
+- 12px - Lato Bold, 12px (raw)
+- 12px - Lato Medium, 12px (raw)
+- 12px - Lato Regular, 12px (raw)
+- 12px - Lato SemiBold, 12px (raw)
+- 12px - body-text-sm (Lato Medium)
+- 12px - card-title-sm (Lato Bold)
+- 12px - chapter-name-text (Lato SemiBold)
+- 12px - search-result-description-sm (Lato SemiBold)
+- 9px - Dirty Headline DirtyHeadline, 9px (raw)
+- 9px - Lato Bold, 9px (raw)
+- 9px - nav-icon-name-sm (Lato Bold)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- search-btn
+- navbar-mobile
+
+## Component Specs
+- search-btn: size 30x30px, radius 10px, fill #9F7C42
+- navbar-mobile: size 414x76px, horizontal layout, padding 12 28 12 28px, gap 77px, align space_between/min, sizing W:fixed H:fixed, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012], text [nav-icon-name-sm]
+
+## Most-Used Styles
+- nav-icon-name-sm: 57 uses
+- button-text-sm: 5 uses
+- navigation-title-sm: 5 uses
+- input-text-sm: 4 uses
+- search-result-text-sm: 4 uses
+- chapter-title-header-sm: 3 uses
+- search-result-description-sm: 3 uses
+- body-text-sm: 2 uses
+- card-title-sm: 2 uses
+- chapter-name-text: 2 uses
+- section-header-sm: 2 uses
+
+## Layout & Structure
+Screen: ui-design / splash screen
+- FRAME "splash screen", 414x736px, constraints left/top, fill #BB9436
+  - FRAME "Frame 5", 256x193px, constraints left/top
+    - FRAME "Frame", 255.52x193px, constraints center/center, fill #FFFFFF
+      - VECTOR "Vector", 255.52x193px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Polynesian Cultural Center", 256x26px, constraints left/top, fill #FFFFFF, text [Broadsheet Broadsheet, 25px], [heading]
+  - TEXT "PCC EMPLOYEE", 137x32px, constraints left/top, fill #FFFFFF, text [navigation-title-sm], [heading]
+
+Screen: ui-design / registration
+- FRAME "registration", 414x736px, constraints left/top, fill #BB9436
+  - FRAME "login-btn", 56x56px, constraints center/top, radius 56px, fill #735933
+    - VECTOR "Vector", 18x16px, constraints scale/scale, fill #FFFFFF
+  - FRAME "input-email", 265x25px, constraints center/top, fill #FFFFFF
+    - LINE "Line 1", 265x0px, constraints left_right/top, stroke #FFFFFF 1px
+    - TEXT "Email", 38x19px, constraints left/top, fill #FFFFFF, text [Lato Regular, 16px]
+  - FRAME "input-password", 265x25px, constraints center/top, fill #FFFFFF
+    - LINE "Line 2", 265x0px, constraints left_right/top, stroke #FFFFFF 1px
+    - TEXT "Employee ID Number", 151x19px, constraints left/top, fill #FFFFFF, text [Lato Regular, 16px]
+  - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+
+Screen: ui-design / set-password
+- FRAME "set-password", 414x736px, constraints left/top, fill #BB9436
+  - FRAME "input-email", 265x25px, constraints center/top, fill #FFFFFF
+    - LINE "Line 1", 265x0px, constraints left_right/top, stroke #FFFFFF 1px
+    - TEXT "Password", 68x19px, constraints left/top, fill #FFFFFF, text [Lato Regular, 16px]
+  - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+  - FRAME "login-btn", 265x56px, constraints center/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 6", 265x56px, constraints left/top, radius 5px, fill #735933
+    - TEXT "Register", 73x24px, constraints left/top, fill #F5F3EE, text [Lato Bold, 20px]
+
+Screen: ui-design / login
+- FRAME "login", 414x736px, constraints left/top, fill #BB9436
+  - RECTANGLE "Rectangle 24", 414x736px, constraints left/top, fill #BB9436
+  - VECTOR "Rectangle 7", 414x736px, constraints left/top, fill #EDD8AC
+  - FRAME "login-btn", 265x56px, constraints center/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 6", 265x56px, constraints left/top, radius 5px, fill #735933
+    - TEXT "Log in", 54x24px, constraints left/top, fill #F5F3EE, text [button-text-sm]
+  - FRAME "input-email", 265x25px, constraints center/top, fill #FFFFFF
+    - LINE "Line 1", 265x0px, constraints left_right/top, stroke #FFFFFF 1px
+    - TEXT "Email", 38x19px, constraints left/top, fill #FFFFFF, text [input-text-sm]
+  - FRAME "input-password", 265x25px, constraints center/top, fill #FFFFFF
+    - LINE "Line 2", 265x0px, constraints left_right/top, stroke #FFFFFF 1px
+    - TEXT "Passcode", 66x19px, constraints left/top, fill #FFFFFF, text [input-text-sm]
+  - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [navigation-title-sm], [heading]
+  - FRAME "Frame 25", 30x30px, constraints left/top, radius 10px, fill #9F7C42, opacity 0%
+    - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+
+Screen: ui-design / login-keyFrame
+- FRAME "login-keyFrame", 414x736px, constraints left/top, fill #FFFFFF
+  - LINE "Line 1", 265x0px, constraints left_right/top, stroke #FFFFFF 1px, opacity 0%
+  - LINE "Line 2", 265x0px, constraints left_right/top, stroke #FFFFFF 1px, opacity 0%
+  - RECTANGLE "Rectangle 6", 265x56px, constraints left/top, radius 5px, fill #215968, opacity 0%
+  - TEXT "Log in", 53x24px, constraints left/top, fill #BCA947, text [Lato Bold, 20px], opacity 0%
+  - TEXT "Email", 39x19px, constraints left/top, fill #F5F3EE, text [Lato Regular, 16px], opacity 0%
+  - TEXT "Passcode", 66x19px, constraints left/top, fill #F5F3EE, text [Lato Regular, 16px], opacity 0%
+  - RECTANGLE "Rectangle 24", 414x60px, constraints left/top, fill #BB9436
+  - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+  - FRAME "Frame 25", 30x30px, constraints left/top, radius 10px, fill #9F7C42
+    - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+
+Screen: ui-design / homeScreen
+- FRAME "homeScreen", 414x736px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 1", 490x736px, constraints left/top, fill image(hash: 140149039a98f135dbf74e3ffe6e79e102f5db51)
+  - RECTANGLE "Rectangle 11", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 14", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 17", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 20", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 12", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 15", 75x75px, constraints left/top, radius 30px, fill #BCA947
+  - GROUP "Group 5", 48x36.26px, constraints left/top [decorative, ~22 shapes]
+  - RECTANGLE "Rectangle 18", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 21", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 13", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 16", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 19", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 22", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "PCC Employee", 90x15px, constraints left/top, fill #FFFFFF, text [Montserrat Regular, 12px]
+
+Screen: ui-design / splash screen
+- FRAME "splash screen", 414x736px, constraints left/top, fill #BB9436
+  - FRAME "Frame 5", 256x193px, constraints left/top
+    - FRAME "Frame", 255.52x193px, constraints center/center, fill #FFFFFF
+      - VECTOR "Vector", 255.52x193px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Polynesian Cultural Center", 256x26px, constraints left/top, fill #FFFFFF, text [Broadsheet Broadsheet, 25px], [heading]
+  - TEXT "PCC EMPLOYEE", 137x32px, constraints left/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+
+Screen: ui-design / homeScreen
+- FRAME "homeScreen", 414x736px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 1", 490x736px, constraints left/top, fill image(hash: 140149039a98f135dbf74e3ffe6e79e102f5db51)
+  - RECTANGLE "Rectangle 11", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 14", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 17", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 20", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 12", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 15", 75x75px, constraints left/top, radius 30px, fill #BCA947
+  - GROUP "Group 5", 48x36.26px, constraints left/top [decorative, ~22 shapes]
+  - RECTANGLE "Rectangle 18", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 21", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 13", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 16", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 19", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - RECTANGLE "Rectangle 22", 75x75px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "PCC Employee", 90x15px, constraints left/top, fill #FFFFFF, text [Montserrat Regular, 12px]
+
+Screen: ui-design / dashboard
+- FRAME "dashboard", 414x736px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 345x171px, horizontal pad 0 0 0 0px gap 27px align min/center sizing W:fixed H:fixed, constraints center/top
+    - FRAME "card", 97x171px, constraints left_right/top, fill #FFFFFF
+      - TEXT "Employee Handbook", 97x32px, constraints left/top, fill #3A3327, text [card-title-sm], [heading]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #E27249
+        - RECTANGLE "pexels-eva-elijas-6569148 1", 107x160px, constraints left/top, fill image(hash: ad4989a6e55f141d00d59d3c5e3caddc0d3cc700)
+        - RECTANGLE "Rectangle 23", 116x134px, constraints left/top, fill #3B931C
+        - VECTOR "Vector", 43x32px, constraints scale/scale, fill #FFFFFF
+        - TEXT "EMPLOYEE HANDBOOK", 39x23px, constraints left/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 9px]
+    - FRAME "card", 97x171px, constraints left_right/top, fill #FFFFFF
+      - TEXT "Policies and Procedures", 97x30px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #735933
+        - RECTANGLE "pexels-jess-vide-4321815 1", 113.6x142.02px, constraints left/top, fill image(hash: 69a0923748d0d04047913c82a20a110858b48c9c)
+        - RECTANGLE "Rectangle 23", 116x134px, constraints left/top, fill #44CCBC
+        - VECTOR "Vector", 43x32px, constraints scale/scale, fill #FFFFFF
+        - TEXT "POLICIES AND PROCEDURES", 51x23px, constraints left/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 9px]
+    - FRAME "card", 97x171px, constraints left_right/top, fill #FFFFFF
+      - TEXT "Cultural Management Tools", 97x25px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #F19F45
+        - RECTANGLE "Island Reps Carl 1", 187.71x134px, constraints left/top, fill image(hash: 4168f38dcf151f9c5755c94a346bf8261573e92f)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #EAB142
+  - FRAME "Frame 23", 347x168px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "card", 97x168px, constraints left/top, fill #FFFFFF
+      - TEXT "Training", 97x31px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #ADDBDC
+        - RECTANGLE "pexels-pixabay-416726 1", 210x139px, constraints left/top, fill image(hash: 69a0923748d0d04047913c82a20a110858b48c9c)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #E27249
+    - FRAME "card", 97x168px, constraints left/top, fill #FFFFFF
+      - TEXT "Coming Soon", 97x31px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #BCA947
+        - RECTANGLE "pexels-roberto-nickson-2559941 (2) 1", 201x134px, constraints left/top, fill image(hash: 1daec93c8bc8d28b62128e649253718552fe7bf8)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #735933
+  - COMPONENT "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+  - FRAME "seacrh-bar", 414x60px, constraints left_right/bottom, fill #BB9436
+    - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [navigation-title-sm], [heading]
+    - COMPONENT "search-btn", 30x30px, constraints left/top, radius 10px, fill #9F7C42
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+    - TEXT "Search", 48x19px, constraints left/top, fill #FFFFFF, text [Lato SemiBold, 16px], opacity 0%
+
+Screen: ui-design / modal-overlay
+- FRAME "modal-overlay", 414x736px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 345x171px, horizontal pad 0 0 0 0px gap 27px align min/center sizing W:fixed H:fixed, constraints center/top
+    - FRAME "card", 97x171px, constraints left_right/top, fill #FFFFFF
+      - TEXT "Employee Handbook", 97x32px, constraints left/top, fill #3A3327, text [card-title-sm], [heading]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #E27249
+        - RECTANGLE "pexels-eva-elijas-6569148 1", 107x160px, constraints left/top, fill image(hash: ad4989a6e55f141d00d59d3c5e3caddc0d3cc700)
+        - RECTANGLE "Rectangle 23", 116x134px, constraints left/top, fill #3B931C
+        - VECTOR "Vector", 43x32px, constraints scale/scale, fill #FFFFFF
+        - TEXT "EMPLOYEE HANDBOOK", 39x23px, constraints left/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 9px]
+    - FRAME "card", 97x171px, constraints left_right/top, fill #FFFFFF
+      - TEXT "Policies and Procedures", 97x30px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #735933
+        - RECTANGLE "pexels-jess-vide-4321815 1", 113.6x142.02px, constraints left/top, fill image(hash: 69a0923748d0d04047913c82a20a110858b48c9c)
+        - RECTANGLE "Rectangle 23", 116x134px, constraints left/top, fill #44CCBC
+        - VECTOR "Vector", 43x32px, constraints scale/scale, fill #FFFFFF
+        - TEXT "POLICIES AND PROCEDURES", 51x23px, constraints left/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 9px]
+    - FRAME "card", 97x171px, constraints left_right/top, fill #FFFFFF
+      - TEXT "Cultural Management Tools", 97x25px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #F19F45
+        - RECTANGLE "Island Reps Carl 1", 187.71x134px, constraints left/top, fill image(hash: 4168f38dcf151f9c5755c94a346bf8261573e92f)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #EAB142
+  - FRAME "Frame 23", 347x168px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "card", 97x168px, constraints left/top, fill #FFFFFF
+      - TEXT "Training", 97x31px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #ADDBDC
+        - RECTANGLE "pexels-pixabay-416726 1", 210x139px, constraints left/top, fill image(hash: 69a0923748d0d04047913c82a20a110858b48c9c)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #E27249
+    - FRAME "card", 97x168px, constraints left/top, fill #FFFFFF
+      - TEXT "Coming Soon", 97x31px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #BCA947
+        - RECTANGLE "pexels-roberto-nickson-2559941 (2) 1", 201x134px, constraints left/top, fill image(hash: 1daec93c8bc8d28b62128e649253718552fe7bf8)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #735933
+  - INSTANCE "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+  - FRAME "seacrh-bar", 414x60px, constraints left_right/bottom, fill #BB9436
+    - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [navigation-title-sm], [heading]
+    - INSTANCE "search-btn", 30x30px, constraints left/top, radius 10px, fill #9F7C42
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+    - TEXT "Search", 48x19px, constraints left/top, fill #FFFFFF, text [Lato SemiBold, 16px], opacity 0%
+  - RECTANGLE "Rectangle 33", 414x736px, constraints left/top, fill #FFFFFF80, effect [background_blur 30px]
+  - FRAME "Frame 30", 254x278px, constraints left/top, radius 10px, fill #FFFFFF, effect [drop_shadow 50px offset 20 14 #BB943680]
+    - TEXT "ALERT", 62x24px, constraints left/top, fill #735933, text [Lato Black, 20px]
+    - TEXT "The info you entered is incorrect. Please review your input ", 190x54px, constraints left/top, fill #000000, text [Lato Regular, 14px]
+    - TEXT "OK", 22x17px, constraints left/top, fill #317C17, text [Lato Black, 14px]
+    - LINE "Line 11", 254x0px, constraints left/top, stroke #C4C4C4 1px
+
+Screen: ui-design / search-bar-open
+- FRAME "search-bar-open", 414x736px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 355x72px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "Search result", 82x17px, constraints left/top, fill #000000, text [search-result-text-sm]
+    - TEXT "Search result description", 131x14px, constraints left/top, fill #000000, text [search-result-description-sm]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 2", 355x72px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "Article Title", 74x17px, constraints left/top, fill #000000, text [search-result-text-sm]
+    - TEXT "Cultural Accountability", 121x14px, constraints left/top, fill #000000, text [search-result-description-sm]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 3", 355x72px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "Article Blah blah", 104x17px, constraints left/top, fill #000000, text [search-result-text-sm]
+    - TEXT "Employee Handbook", 111x14px, constraints left/top, fill #000000, text [search-result-description-sm]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "navigation", 414x60px, constraints left_right/top, fill #BB9436
+    - LINE "Line 3", 205x0px, constraints left/top, stroke #FFFFFF 1px
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+    - INSTANCE "search-btn", 112x30px, constraints left/top, radius 10px, fill #9F7C42
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+    - TEXT "Search", 48x19px, constraints left/top, fill #FFFFFF, text [Lato SemiBold, 16px]
+  - INSTANCE "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+
+Screen: ui-design / category-screen
+- FRAME "category-screen", 414x1118px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "01", 14x14px, constraints left/top, fill #000000, text [chapter-name-text]
+    - TEXT "Article", 36x14px, constraints left/top, fill #000000, text [chapter-name-text]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 7", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "07", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Standards of Personal Conduct Highlights", 220x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 4", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "04", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "PCC Training in Action", 118x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 8", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "10", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Standards of Performance", 138x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 13", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "10", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Standards of Performance", 138x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 2", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "02", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Article with Media", 98x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 9", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "08", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Safety", 34x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 14", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "08", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Safety", 34x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 5", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "05", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "4 Keys to a Great Guest Experience", 188x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 10", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "11", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Sexual Harassment", 101x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 15", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "11", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Sexual Harassment", 101x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 3", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "03", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Our Cultural Beliefs in Action", 155x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 11", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "09", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Dress and Grooming Standards", 164x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 16", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "09", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Dress and Grooming Standards", 164x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 6", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "06", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Service Recovery", 91x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 12", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "12", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Title VII: Harassment", 111x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 17", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "12", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Title VII: Harassment", 111x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "navigation", 414x60px, constraints left_right/top, fill #3B931C
+    - TEXT "EMPLOYEE HANDBOOK", 200x32px, constraints left/top, fill #F5F3EE, text [Dirty Headline DirtyHeadline, 23px]
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+    - INSTANCE "search-btn", 30x30px, constraints left/top, radius 10px, fill #317C17
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+  - INSTANCE "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+
+Screen: ui-design / accountability-list
+- FRAME "accountability-list", 414x1118px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "01", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "President’s Message", 126x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 7", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "07", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Standards of Personal Conduct Highlights", 256x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 4", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "04", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "PCC Training in Action", 138x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 8", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "10", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Standards of Performance", 161x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 13", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "10", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Standards of Performance", 161x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 2", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "02", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Our Purpose, Mission, and Core Directives", 262x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 9", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "08", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Safety", 40x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 14", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "08", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Safety", 40x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 5", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "05", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "4 Keys to a Great Guest Experience", 219x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 10", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "11", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Sexual Harassment", 118x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 15", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "11", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Sexual Harassment", 118x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 3", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "03", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Our Cultural Beliefs in Action", 181x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 11", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "09", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Dress and Grooming Standards", 191x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 16", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "09", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Dress and Grooming Standards", 191x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 6", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "06", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Service Recovery", 106x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 12", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "12", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Title VII: Harassment", 130x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 17", 355x44px, constraints left/top, radius 5px, fill #F5F3EE
+    - TEXT "12", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Title VII: Harassment", 130x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "navigation", 414x60px, constraints left_right/top, fill #EAB142
+    - TEXT "CULTURAL MANAGEMENT...", 241x32px, constraints left/top, fill #F5F3EE, text [Dirty Headline DirtyHeadline, 23px]
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+    - INSTANCE "search-btn", 30x30px, constraints left/top, radius 10px, fill #BB9436
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+  - INSTANCE "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+
+Screen: ui-design / article
+- FRAME "article", 414x1247px, constraints left/top, fill #FFFFFF
+  - TEXT "We will begin in this chapter by dealing with some general q", 333x163px, constraints left/top, fill #3A3327, text [body-text-sm]
+  - FRAME "image", 414x304px, constraints scale/top, radius 5px, fill #E27249
+    - RECTANGLE "pexels-eva-elijas-6569148 1", 578x436px, constraints left/top, fill image(hash: 2cb3bbfb432f720b4e8a1875dccca8fd0a521fe6)
+  - TEXT "PRESIDENT’S MESSAGE", 333x110px, constraints left/top, fill #3B931C, text [chapter-title-header-sm], [heading]
+  - TEXT "In this subject we have, of course, the difficulty that the ", 334x281px, constraints left/top, fill #3A3327, text [Lato Medium, 12px]
+  - TEXT "President Alfred Grace", 185x24px, constraints left/top, fill #735933, text [Lato Italic, 20px]
+  - FRAME "navigation", 414x60px, constraints left_right/top, fill #3B931C
+    - TEXT "EMPLOYEE HANDBOOK", 200x32px, constraints left/top, fill #F5F3EE, text [Dirty Headline DirtyHeadline, 23px]
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+    - FRAME "Frame 25", 30x30px, constraints left/top, radius 10px, fill #317C17
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+  - INSTANCE "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+
+Screen: ui-design / article-with-media
+- FRAME "article-with-media", 414x1526px, constraints left/top, fill #FFFFFF
+  - TEXT "We will begin in this chapter by dealing with some general q", 333x163px, constraints left/top, fill #3A3327, text [Lato Medium, 12px]
+  - TEXT "OUR PURPOSE, MISSION, AND CORE DIRECTIVES", 328x220px, constraints left/top, fill #3B931C, text [chapter-title-header-sm], [heading]
+  - TEXT "In this subject we have, of course, the difficulty that the ", 334x281px, constraints left/top, fill #3A3327, text [Lato Medium, 12px]
+  - FRAME "image", 333x208px, constraints scale/top, radius 5px, fill #E27249
+    - RECTANGLE "pexels-eva-elijas-6569148 1", 333x497.94px, constraints left/top, fill image(hash: 27026743e34d36c7fde2585b59874689efaf760a)
+    - REGULAR_POLYGON "Polygon 1", 58x58px, constraints left/top, fill #FFFFFF
+  - FRAME "image", 421x304px, constraints scale/top, fill #ADDBDC
+    - RECTANGLE "pexels-pixabay-416726 1", 438x304px, constraints left/top, fill image(hash: 524010e8c52321bf7ab5c9f4144d9cdaee924ac2)
+  - FRAME "navigation", 414x60px, constraints left_right/top, fill #3B931C
+    - TEXT "EMPLOYEE HANDBOOK", 200x32px, constraints left/top, fill #F5F3EE, text [Dirty Headline DirtyHeadline, 23px]
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+    - INSTANCE "search-btn", 30x30px, constraints left/top, radius 10px, fill #317C17
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+  - INSTANCE "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+
+Screen: ui-design / account-page
+- FRAME "account-page", 414x838px, constraints left/top, fill #FFFFFF
+  - FRAME "bio", 376x60px, constraints left_right/top, radius 15px, stroke #C4C4C4 1px
+    - GROUP "id-number", 309x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "ID Number", 59x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - TEXT "2081234", 49x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+      - LINE "Line 5", 309x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - GROUP "birthday", 309x21px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Birthday", 45x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - TEXT "April 6, 1830", 70x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+      - LINE "Line 6", 309x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - GROUP "dept-name", 309x21px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Department", 64x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - TEXT "Marketing", 57x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+      - LINE "Line 7", 309x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - GROUP "division-name", 309x21px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Division", 43x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - TEXT "Marketing Administration", 140x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+      - LINE "Line 8", 309x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - GROUP "supervisor-name", 309x21px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Supervisor", 56x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - TEXT "Xayezi Pastores", 86x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+      - LINE "Line 9", 309x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - TEXT "User Information", 123x19px, constraints left/top, fill #000000, text [section-header-sm], [heading]
+    - LINE "Line 10", 376x0px, constraints left/top, stroke #C4C4C4 1px
+    - TEXT "Update Information", 90x12px, constraints left/top, fill #277BC9, text [Lato Black, 10px]
+    - VECTOR "back-arrow (Stroke)", 15x10px, constraints left/top, fill #000000
+  - FRAME "bio", 383x259px, constraints left_right/top, radius 15px, stroke #C4C4C4 1px
+    - GROUP "benefits", 316x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Universal Studios Discount", 142x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - LINE "Line 5", 316x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - GROUP "benefits", 316x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Disneyland Parks Discount", 141x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - LINE "Line 5", 316x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - GROUP "benefits", 316x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Free membership at the BYUH Gyms", 194x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - LINE "Line 5", 316x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - GROUP "benefits", 316x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Free tickets to Mars", 105x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - LINE "Line 5", 316x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - GROUP "benefits", 316x22px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Horseback Riding Experience at Malaekahana", 240x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+      - LINE "Line 5", 316x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - TEXT "Benefits", 61x19px, constraints left/top, fill #000000, text [section-header-sm], [heading]
+  - FRAME "bio", 376x259px, constraints left_right/top, radius 15px, fill #3D7C1F, stroke #C4C4C4 1px
+    - TEXT "Ephraim Tacuban", 200x31px, constraints left/top, fill #FFFFFF, text [Lato Black, 26px], [heading]
+    - TEXT "Vice President", 101x19px, constraints left/top, fill #FFFFFF, text [input-text-sm]
+    - FRAME "image", 109x115px, constraints scale/top, fill #ADDBDC
+      - RECTANGLE "pexels-pixabay-416726 1", 438x304px, constraints left/top, fill image(hash: 524010e8c52321bf7ab5c9f4144d9cdaee924ac2)
+  - FRAME "navigation", 414x60px, constraints left_right/top, fill #BB9436
+    - TEXT "account", 77x32px, constraints left/top, fill #F3F0E9, text [Dirty Headline DirtyHeadline, 23px]
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+    - INSTANCE "search-btn", 30x30px, constraints left/top, radius 10px, fill #9F7C42
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+  - INSTANCE "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+
+Screen: ui-design / settings-page
+- FRAME "settings-page", 414x736px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 355x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Account Settings", 90x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 4", 355x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Privacy", 39x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 5", 355x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "About", 33x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "navigation", 414x60px, constraints left_right/top, fill #BB9436
+    - TEXT "SETTINGS", 90x32px, constraints left/top, fill #F3F0E9, text [Dirty Headline DirtyHeadline, 23px]
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+    - INSTANCE "search-btn", 30x30px, constraints left/top, radius 10px, fill #9F7C42
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+  - INSTANCE "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+
+Screen: ui-design / directory
+- FRAME "directory", 414x736px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 355x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "First Aid (283 459 7219)", 133x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 15.3x20.1px, constraints scale/scale, fill #212121
+  - FRAME "Frame 2", 355x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Maintenance (283 459 7219)", 155x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 15.3x20.1px, constraints scale/scale, fill #212121
+  - FRAME "Frame 3", 355x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Custodian (283 459 7219)", 139x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 15.3x20.1px, constraints scale/scale, fill #212121
+  - FRAME "Frame 4", 355x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "On-call Manager (283 459 7219)", 174x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 15.3x20.1px, constraints scale/scale, fill #212121
+  - FRAME "Frame 5", 355x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Safety Officer (283 459 7219)", 158x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 15.3x20.1px, constraints scale/scale, fill #212121
+  - FRAME "Frame 6", 355x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Security (283 459 7219)", 129x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 15.3x20.1px, constraints scale/scale, fill #212121
+  - FRAME "navigation", 414x60px, constraints left_right/top, fill #BB9436
+    - TEXT "DIRECTORY", 102x32px, constraints left/top, fill #F3F0E9, text [Dirty Headline DirtyHeadline, 23px]
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+    - INSTANCE "search-btn", 30x30px, constraints left/top, radius 10px, fill #9F7C42
+      - VECTOR "Vector", 11x12px, constraints left/top, stroke #FFFFFF 2px
+  - INSTANCE "navbar-mobile", 414x76px, horizontal pad 12 28 12 28px gap 77px align space_between/min sizing W:fixed H:fixed, constraints left_right/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [nav-icon-name-sm]
+
+Screen: ui-design / splash screen
+- FRAME "splash screen", 1280x720px, constraints left/top, fill #BB9436
+  - FRAME "Frame 5", 256x193px, constraints center/top
+    - FRAME "Frame", 255.52x193px, constraints center/center, fill #FFFFFF
+      - VECTOR "Vector", 255.52x193px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Polynesian Cultural Center", 256x26px, constraints center/top, fill #FFFFFF, text [Broadsheet Broadsheet, 25px], [heading]
+  - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+
+Screen: ui-design / login
+- FRAME "login", 1280x720px, constraints left/top
+  - FRAME "Frame 22", 1280x720px, constraints left_right/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 7", 1280x720px, constraints left_right/top, fill #BB9436
+    - VECTOR "Vector", 19x20px, constraints right/top, stroke #FFFFFF 2px, opacity 0%
+    - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px], opacity 0%
+  - FRAME "login-btn", 265x56px, constraints center/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 6", 265x56px, constraints left/top, radius 5px, fill #735933
+    - TEXT "Log in", 54x24px, constraints left/top, fill #F5F3EE, text [Lato Bold, 20px]
+  - FRAME "input-email", 265x25px, constraints center/top, fill #FFFFFF
+    - LINE "Line 1", 265x0px, constraints left_right/top, stroke #FFFFFF 1px
+    - TEXT "Email", 38x19px, constraints left/top, fill #FFFFFF, text [Lato Regular, 16px]
+  - FRAME "input-password", 265x25px, constraints center/top, fill #FFFFFF
+    - LINE "Line 2", 265x0px, constraints left_right/top, stroke #FFFFFF 1px
+    - TEXT "Passcode", 66x19px, constraints left/top, fill #FFFFFF, text [Lato Regular, 16px]
+  - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+
+Screen: ui-design / login-keyFrame
+- FRAME "login-keyFrame", 1280x720px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 22", 1280x60px, constraints left_right/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 7", 1280x60px, constraints left_right/top, fill #BB9436
+    - VECTOR "Vector", 19x20px, constraints right/top, stroke #FFFFFF 2px
+    - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+  - LINE "Line 1", 1131x0px, constraints left_right/top, stroke #FFFFFF 1px, opacity 0%
+  - LINE "Line 2", 1131x0px, constraints left_right/top, stroke #FFFFFF 1px, opacity 0%
+  - RECTANGLE "Rectangle 6", 265x56px, constraints left/top, radius 5px, fill #215968, opacity 0%
+  - TEXT "Log in", 53x24px, constraints left/top, fill #BCA947, text [Lato Bold, 20px], opacity 0%
+  - TEXT "Email", 39x19px, constraints left/top, fill #F5F3EE, text [Lato Regular, 16px], opacity 0%
+  - TEXT "Passcode", 66x19px, constraints left/top, fill #F5F3EE, text [Lato Regular, 16px], opacity 0%
+
+Screen: ui-design / dashboard
+- FRAME "dashboard", 1280x720px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 345x171px, horizontal pad 0 0 0 0px gap 27px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "card", 97x171px, constraints left_right/top, fill #FFFFFF
+      - TEXT "Employee Handbook", 97x32px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #E27249
+        - RECTANGLE "pexels-eva-elijas-6569148 1", 107x160px, constraints left/top, fill image(hash: ad4989a6e55f141d00d59d3c5e3caddc0d3cc700)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #3B931C
+    - FRAME "card", 97x171px, constraints left_right/top, fill #FFFFFF
+      - TEXT "Cultural Management Tools", 97x25px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #F19F45
+        - RECTANGLE "Island Reps Carl 1", 187.71x134px, constraints left/top, fill image(hash: 4168f38dcf151f9c5755c94a346bf8261573e92f)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #735933
+    - FRAME "card", 97x171px, constraints left_right/top, fill #FFFFFF
+      - TEXT "Policies and Procedures", 97x30px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #735933
+        - RECTANGLE "pexels-jess-vide-4321815 1", 113.6x142.02px, constraints left/top, fill image(hash: c14f94b176b2adc242c31b1b25a2aa89c6ef1986)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #277BC9
+  - FRAME "Frame 23", 347x168px, horizontal pad 0 0 0 0px gap 28px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "card", 97x168px, constraints left/top, fill #FFFFFF
+      - TEXT "Traction EOS", 97x31px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #ADDBDC
+        - RECTANGLE "pexels-pixabay-416726 1", 210x139px, constraints left/top, fill image(hash: 16bbeb733e9ff95741610f6218d8333bb725d0fa)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #E27249
+    - FRAME "card", 97x168px, constraints left/top, fill #FFFFFF
+      - TEXT "Culture of Accountability", 97x31px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #BCA947
+        - RECTANGLE "pexels-roberto-nickson-2559941 (2) 1", 201x134px, constraints left/top, fill image(hash: 1daec93c8bc8d28b62128e649253718552fe7bf8)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #EAB142
+    - FRAME "card", 97x168px, constraints left/top, fill #FFFFFF
+      - TEXT "Book", 97x31px, constraints left/top, fill #3A3327, text [Lato Bold, 12px]
+      - FRAME "image", 97x134px, constraints scale/top, radius 5px, fill #BCA947
+        - RECTANGLE "pexels-roberto-nickson-2559941 (2) 1", 201x134px, constraints left/top, fill image(hash: 1daec93c8bc8d28b62128e649253718552fe7bf8)
+        - RECTANGLE "Rectangle 23", 116x19px, constraints left/top, fill #44CCBC
+  - FRAME "navigation", 1280x60px, constraints left_right/top, fill #BB9436
+    - TEXT "PCC EMPLOYEE", 137x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+    - VECTOR "search-icon", 19x20px, constraints right/top, stroke #FFFFFF 2px
+  - FRAME "navbar-mobile", 66x720px, constraints left/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - VECTOR "Vector", 44x33px, constraints left/top, fill #FFFFFF
+
+Screen: ui-design / article
+- FRAME "article", 1280x1023px, constraints left/top, fill #FFFFFF
+  - TEXT "We will begin in this chapter by dealing with some general q", 608x163px, constraints left/top, fill #3A3327, text [Lato Medium, 12px]
+  - TEXT "President’s Message", 341x55px, constraints left/top, fill #3B931C, text [Dirty Headline DirtyHeadline, 40px], [heading]
+  - TEXT "President Alfred Grace", 185x24px, constraints left/top, fill #735933, text [Lato Italic, 20px]
+  - TEXT "In this subject we have, of course, the difficulty that the ", 608x186px, constraints left/top, fill #3A3327, text [Lato Medium, 12px]
+  - FRAME "image", 608x446px, constraints scale/top, radius 5px, fill #E27249
+    - RECTANGLE "pexels-eva-elijas-6569148 1", 608x458px, constraints left/top, fill image(hash: 2cb3bbfb432f720b4e8a1875dccca8fd0a521fe6)
+  - FRAME "navigation", 1215x60px, constraints left_right/top, fill #3B931C
+    - TEXT "EMPLOYEE HANDBOOK", 200x32px, constraints center/top, fill #F5F3EE, text [Dirty Headline DirtyHeadline, 23px]
+    - VECTOR "Vector", 19x20px, constraints right/top, stroke #F5F3EE 2px
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+  - FRAME "navbar-mobile", 66x720px, constraints left_right/top, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - VECTOR "Vector", 44x33px, constraints left/top, fill #FFFFFF
+
+Screen: ui-design / article
+- FRAME "article", 1280x1591px, constraints left/top, fill #FFFFFF
+  - TEXT "We will begin in this chapter by dealing with some general q", 608x163px, constraints left/top, fill #3A3327, text [Lato Medium, 12px]
+  - FRAME "image", 608x446px, constraints left_right/top, radius 5px, fill #E27249
+    - RECTANGLE "pexels-eva-elijas-6569148 1", 608x458px, constraints left/top, fill image(hash: df286ff83cb8235411b63ae0b548687cba886274)
+  - TEXT "OUR MISSION, VISION, AND CULTURAL  BELIEF", 603x110px, constraints left/top, fill #3B931C, text [Dirty Headline DirtyHeadline, 40px], [heading]
+  - TEXT "President Alfred Grace", 185x24px, constraints left/top, fill #735933, text [Lato Italic, 20px]
+  - TEXT "In this subject we have, of course, the difficulty that the ", 608x186px, constraints left/top, fill #3A3327, text [Lato Medium, 12px]
+  - FRAME "image", 608x446px, constraints scale/top, radius 5px, fill #E27249
+    - RECTANGLE "pexels-eva-elijas-6569148 1", 608x498px, constraints left/top, fill image(hash: 27026743e34d36c7fde2585b59874689efaf760a)
+    - REGULAR_POLYGON "Polygon 1", 58x58px, constraints left/top, fill #FFFFFF
+  - FRAME "navigation", 1214x60px, constraints left_right/top, fill #3B931C
+    - TEXT "EMPLOYEE HANDBOOK", 200x32px, constraints center/top, fill #F5F3EE, text [Dirty Headline DirtyHeadline, 23px]
+    - VECTOR "Vector", 19x20px, constraints right/top, stroke #F5F3EE 2px
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+  - FRAME "navbar-mobile", 66x720px, constraints left_right/top, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - VECTOR "Vector", 44x33px, constraints left/top, fill #FFFFFF
+
+Screen: ui-design / category-screen
+- FRAME "category-screen", 1280x720px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "01", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Article", 42x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 7", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "07", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Standards of Personal Conduct Highlights", 256x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 4", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "04", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "PCC Training in Action", 138x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 8", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "10", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Standards of Performance", 161x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 13", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "15", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Standards of Performance", 161x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 2", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "02", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Article with Image", 113x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 9", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "08", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Safety", 40x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 14", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "13", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Safety", 40x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 5", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "05", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "4 Keys to a Great Guest Experience", 219x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 10", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "11", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Sexual Harassment", 118x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 15", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "16", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Sexual Harassment", 118x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 3", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "03", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Our Cultural Beliefs in Action", 181x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 11", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "09", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Dress and Grooming Standards", 191x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 16", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "14", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Dress and Grooming Standards", 191x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 6", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "06", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Service Recovery", 106x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 12", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "12", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Title VII: Harassment", 130x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "Frame 17", 518x44px, constraints left_right/top, radius 5px, fill #F5F3EE
+    - TEXT "17", 17x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+    - TEXT "Title VII: Harassment", 130x17px, constraints left/top, fill #000000, text [Lato SemiBold, 14px]
+  - FRAME "grid-button", 38x37px, constraints left/top, opacity 30% [decorative, ~4 shapes]
+  - FRAME "list-view-button", 35x35px, constraints left/top
+    - VECTOR "Vector 1", 14x15px, constraints left/top, stroke #3A3327 2px
+  - FRAME "navigation", 1214x60px, constraints left_right/top, fill #3B931C
+    - TEXT "EMPLOYEE HANDBOOK", 200x32px, constraints center/top, fill #F5F3EE, text [Dirty Headline DirtyHeadline, 23px]
+    - VECTOR "Vector", 19x20px, constraints right/top, stroke #F5F3EE 2px
+    - FRAME "back-button", 52x60px, constraints left/top
+      - VECTOR "back-arrow", 8x13px, constraints left/top, stroke #FFFFFF 2px
+  - FRAME "navbar-mobile", 66x720px, constraints left/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - VECTOR "Vector", 44x33px, constraints left/top, fill #FFFFFF
+
+Screen: ui-design / CMS
+- FRAME "CMS", 1280x720px, constraints left/top, fill #FFFFFF
+  - TEXT "CONTENT", 43x11px, constraints left/top, fill #735933, text [Lato Bold, 9px]
+  - TEXT "META", 25x11px, constraints left/top, fill #735933, text [Lato Bold, 9px]
+  - RECTANGLE "Rectangle 28", 679x527px, constraints left/top, fill #E5E5E5
+  - LINE "Line 4", 44x0px, constraints left/top, stroke #735933 2px
+  - FRAME "Frame 27", 182x39px, constraints left/top, radius 10px, fill #9F7C42
+    - TEXT "PREVIEW", 41x11px, constraints left/top, fill #FFFFFF, text [Lato Bold, 9px]
+    - VECTOR "Vector", 14x9px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 28", 182x39px, constraints left/top, radius 10px, fill #9F7C42
+    - TEXT "SAVE", 22x11px, constraints left/top, fill #FFFFFF, text [Lato Bold, 9px]
+    - VECTOR "Vector", 11x11px, constraints scale/scale, fill #FFFFFF
+  - TEXT "PCC EMPLOYEE APP", 219x39px, constraints left/top, fill #9F7C42, text [Dirty Headline DirtyHeadline, 28px], [heading]
+  - RECTANGLE "Rectangle 29", 491x36px, constraints left/top, radius 5px, fill #FFFFFF
+  - RECTANGLE "Rectangle 32", 115x36px, constraints left/top, radius 5px, fill #FFFFFF
+  - RECTANGLE "Rectangle 31", 627x36px, constraints left/top, radius 5px, fill #FFFFFF
+  - RECTANGLE "Rectangle 30", 627x327px, constraints left/top, radius 5px, fill #FFFFFF
+  - FRAME "navbar-mobile", 96x720px, constraints left/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - VECTOR "Vector", 44x33px, constraints left/top, fill #FFFFFF
+    - TEXT "CATEGORIES", 55x11px, constraints left/top, fill #FFFFFF, text [Lato Bold, 9px]
+    - TEXT "SECTION", 39x11px, constraints left/top, fill #FFFFFF, text [Lato Bold, 9px]
+    - TEXT "ARTICLE", 36x11px, constraints left/top, fill #FFFFFF, text [Lato Bold, 9px]
+    - LINE "Line 3", 55x0px, constraints left/top, stroke #FFFFFF 2px
+
+Screen: ui-design / settings-page
+- FRAME "settings-page", 1280x720px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1", 305x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Account Settings", 90x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 2", 305x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Authentication", 80x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 3", 305x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Contact Settings", 88x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 4", 305x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "Privacy", 39x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 5", 305x44px, constraints left/top, radius 5px, fill #F3F0E9
+    - TEXT "About", 33x14px, constraints left/top, fill #000000, text [Lato SemiBold, 12px]
+    - VECTOR "Vector", 6.3x12px, constraints right/center, fill #212121
+  - FRAME "Frame 29", 739x560px, constraints left/top, radius 20px, fill #F5F3EE
+  - FRAME "navigation", 1280x60px, constraints left_right/top, fill #BB9436
+    - TEXT "SETTINGS", 90x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+    - VECTOR "search-icon", 19x20px, constraints right/top, stroke #FFFFFF 2px
+  - FRAME "navbar-mobile", 66x720px, constraints left/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - VECTOR "Vector", 44x33px, constraints left/top, fill #FFFFFF
+
+Screen: ui-design / account-page
+- FRAME "account-page", 1280x720px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "pexels-jonas-kakaroto-736230 1", 108x108px, constraints left/top, radius 35px, fill image(hash: 8cdb9861459dc6f989afd8c89894614946083535)
+  - TEXT "Ephraim Tacuban", 227x36px, constraints left/top, fill #000000, text [Lato Bold, 30px], [heading]
+  - TEXT "VP of Communications", 141x17px, constraints left/top, fill #000000, text [Lato Regular, 14px]
+  - FRAME "bio", 739x559px, constraints left_right/top, radius 20px, fill #F3F0E9
+    - TEXT "ID Number", 59x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+    - TEXT "2081234", 49x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+    - TEXT "Birthday", 45x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+    - TEXT "Department", 64x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+    - TEXT "Division", 43x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+    - TEXT "Supervisor", 56x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+    - TEXT "April 6, 1830", 70x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+    - TEXT "Marketing", 57x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+    - TEXT "Marketing Administration", 140x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+    - TEXT "Xayezi Pastores", 86x14px, constraints left/top, fill #000000, text [Lato Black, 12px]
+    - LINE "Line 5", 672x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - LINE "Line 6", 672x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - LINE "Line 7", 672x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - LINE "Line 8", 672x0px, constraints left_right/top, stroke #C4C4C4 1px
+    - LINE "Line 9", 672x0px, constraints left_right/top, stroke #C4C4C4 1px
+  - FRAME "navigation", 1280x60px, constraints left_right/top, fill #BB9436
+    - TEXT "ACCOUNT", 84x32px, constraints center/top, fill #FFFFFF, text [Dirty Headline DirtyHeadline, 23px]
+    - VECTOR "search-icon", 19x20px, constraints right/top, stroke #FFFFFF 2px
+  - FRAME "navbar-mobile", 66x720px, constraints left/bottom, fill #735933, effect [drop_shadow 8px offset 0 -3 #00000012]
+    - FRAME "home-btn", 28x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "HOME", 28x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "settings-btn", 42x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "SETTINGS", 42x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "account-btn", 44x31px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "ACCOUNT", 44x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - FRAME "directory-btn", 51x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 15x19px, constraints scale/scale, fill #FFFFFF
+      - TEXT "DIRECTORY", 51x11px, constraints scale/scale, fill #FFFFFF, text [Lato Bold, 9px]
+    - VECTOR "Vector", 44x33px, constraints left/top, fill #FFFFFF
+
+Screen: design-systsem/guidelines / Color
+- FRAME "Color", 1280x1654px, constraints left/top, fill #FFFFFF
+  - TEXT "Primary Colors", 210x38px, constraints left/top, fill #000000, text [Lato Bold, 32px], [heading]
+  - TEXT "Colors", 93x38px, constraints left/top, fill #000000, text [Lato Black, 32px], [heading]
+  - TEXT "Secondary Colors", 248x38px, constraints left/top, fill #000000, text [Lato Bold, 32px], [heading]
+  - TEXT "The colors used for the app represents the traditional color", 294x102px, constraints left/top, fill #000000, text [Lato Regular, 14px]
+  - TEXT "These are the colors to be used for the theme and accent of ", 294x102px, constraints left/top, fill #000000, text [Lato Regular, 14px]
+  - TEXT "Seconadry colors are for the different categories in the lib", 294x102px, constraints left/top, fill #000000, text [Lato Regular, 14px]
+  - LINE "Line 1", 1100x0px, constraints left/top, stroke #C4C4C4 1px
+  - LINE "Line 2", 1100x0px, constraints left/top, stroke #C4C4C4 1px
+  - FRAME "Frame 8", 756x374px, constraints left/top, radius 10px, fill #F5F3EE
+    - GROUP "color-white", 150x268px, constraints left/top
+      - RECTANGLE "Rectangle 12", 150x150px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+      - TEXT "Pure White", 82x19px, constraints left/top, fill #000000, text [Lato Bold, 16px]
+      - TEXT "#FFFFFF", 64x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "R 255 G 255 B 255", 137x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+    - GROUP "color-sun-tan", 150x268px, constraints left/top
+      - RECTANGLE "Rectangle 10", 150x150px, constraints left/top, fill #BB9436
+      - TEXT "#BB9436", 68x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "R 187 G 148 B 54", 127x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "Sun Tan", 56x19px, constraints left/top, fill #000000, text [Lato Bold, 16px]
+    - GROUP "color-tapa-brown", 150x268px, constraints left/top
+      - RECTANGLE "Rectangle 11", 150x150px, constraints left/top, fill #735933
+      - TEXT "#735933", 65x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "R 115 G 89 B 51", 118x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "Tapa Brown", 85x19px, constraints left/top, fill #000000, text [Lato Bold, 16px]
+  - FRAME "Frame 9", 760x796px, constraints left/top, radius 10px, fill #F5F3EE
+    - GROUP "color-sky-blue", 150x268px, constraints left/top
+      - RECTANGLE "Rectangle 9", 150x150px, constraints left/top, fill #ADDBDC
+      - TEXT "#ADDBDC", 78x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "R 173 G 219 B 220", 137x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "Sky Blue", 62x19px, constraints left/top, fill #000000, text [Lato Bold, 16px]
+    - GROUP "color-lush-green", 150x268px, constraints left/top
+      - GROUP "Group 3", 150x150px, constraints left/top
+        - RECTANGLE "Rectangle 3", 150x150px, constraints left/top, fill #3B931C
+      - TEXT "#3B931C", 68x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "R 59 G 147 B 28", 118x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "Lush Green", 81x19px, constraints left/top, fill #000000, text [Lato Bold, 16px]
+    - GROUP "color-ocean-blue", 150x268px, constraints left/top
+      - GROUP "Group 4", 150x150px, constraints left/top
+        - RECTANGLE "Rectangle 4", 150x150px, constraints left/top, fill #277BC9
+      - TEXT "#277BC9", 68x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "R 39 G 123 B 201", 127x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "Ocean Blue", 82x19px, constraints left/top, fill #000000, text [Lato Bold, 16px]
+    - GROUP "color-sunset-orange", 150x268px, constraints left/top
+      - GROUP "Group 5", 150x150px, constraints left/top
+        - RECTANGLE "Rectangle 4", 150x150px, constraints left/top, fill #E27249
+      - TEXT "#E27249", 65x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "R 226 G 114 B 73", 127x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "Sunset Orange", 105x19px, constraints left/top, fill #000000, text [Lato Bold, 16px]
+    - GROUP "color-grey", 150x268px, constraints left/top
+      - GROUP "Group 6", 150x150px, constraints left/top
+        - RECTANGLE "Rectangle 4", 150x150px, constraints left/top, fill #C4C4C4
+      - TEXT "#C4C4C4", 70x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "R 196 G 196 B 196", 137x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - TEXT "Grey", 34x19px, constraints left/top, fill #000000, text [Lato Bold, 16px]
+
+Screen: design-systsem/guidelines / Typography
+- FRAME "Typography", 1438x3754px, constraints left/top, fill #FFFFFF
+  - FRAME "Type Ramp", 1253x731px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "sectionHeader", 1253x94px, horizontal pad 35 59 35 59px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Example", 286x24px, constraints left/top, fill #215968, text [Lato Black, 20px]
+      - TEXT "Typeface", 284x24px, constraints left/top, fill #215968, text [Lato Black, 20px]
+      - TEXT "Weight", 285x24px, constraints left/top, fill #215968, text [Lato Black, 20px]
+      - TEXT "Size (px) / Line height (em)", 264x24px, constraints left/top, fill #215968, text [Lato Black, 20px]
+    - FRAME "Frame 2", 1258x94px, horizontal pad 35 59 35 59px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F5F3EE
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

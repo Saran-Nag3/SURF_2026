@@ -1,0 +1,228 @@
+---
+name: temu-ui-screens-community
+source_file: Temu UI Screens (Community)
+source_page:   UIKit
+generated_at: 2026-07-25T09:23:34.843506+00:00
+---
+
+# Temu UI Screens (Community) Design Guidelines
+
+## Source
+- Figma file: Temu UI Screens (Community)
+- Figma page:   UIKit
+- Extracted at: 2026-07-25T09:23:34.843506+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 26 uses
+- #0A051C: 10 uses
+- #F7F7F7: 6 uses
+- #FFFFFF: 6 uses
+- #000001: 5 uses
+- #1F1736: 5 uses
+- #010101: 4 uses
+- #070707: 4 uses
+- #4499F8: 4 uses
+- #F8F8F8: 4 uses
+- #040404: 3 uses
+- #D2CED5: 3 uses
+- #F8F6F7: 3 uses
+- #FCFAFB: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Regular, 12.67px: 32 uses
+- Inter Regular, 14.67px: 20 uses
+- Inter Regular, 14px: 12 uses
+- Inter Regular, 11px: 10 uses
+- Inter Regular, 12.33px: 8 uses
+- Inter Regular, 16px: 8 uses
+- Inter Regular, 13.33px: 7 uses
+- Inter Regular, 14.33px: 7 uses
+- Inter Regular, 20px: 7 uses
+- Inter Regular, 13.67px: 6 uses
+- Inter Regular, 19.67px: 6 uses
+- Manrope SemiBold, 24px: 6 uses
+- Inter Regular, 10.67px: 4 uses
+- Inter Regular, 10px: 4 uses
+- Inter Regular, 10.33px: 3 uses
+- Inter Regular, 11.67px: 3 uses
+- Inter Regular, 13px: 3 uses
+- Inter Regular, 15px: 3 uses
+- Inter Regular, 17px: 3 uses
+- Inter Regular, 9px: 3 uses
+
+## Typography Hierarchy
+- 24px - Manrope SemiBold, 24px (raw)
+- 20px - Inter Regular, 20px (raw)
+- 19.67px - Inter Regular, 19.67px (raw)
+- 17px - Inter Regular, 17px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 15px - Inter Regular, 15px (raw)
+- 14.67px - Inter Regular, 14.67px (raw)
+- 14.33px - Inter Regular, 14.33px (raw)
+- 14px - Inter Regular, 14px (raw)
+- 13.67px - Inter Regular, 13.67px (raw)
+- 13.33px - Inter Regular, 13.33px (raw)
+- 13px - Inter Regular, 13px (raw)
+- 12.67px - Inter Regular, 12.67px (raw)
+- 12.33px - Inter Regular, 12.33px (raw)
+- 11.67px - Inter Regular, 11.67px (raw)
+- 11px - Inter Regular, 11px (raw)
+- 10.67px - Inter Regular, 10.67px (raw)
+- 10.33px - Inter Regular, 10.33px (raw)
+- 10px - Inter Regular, 10px (raw)
+- 9px - Inter Regular, 9px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen:   UIKit / Intro
+- FRAME "Intro", 1333x2227px, vertical pad 160 160 160 160px gap 88px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 6", 1013x140px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "img_v3_02k9_c90e6fc8-9338-4f74-a86a-197804e4da7g 1", 140x140px, constraints left/top, fill image(hash: a9af280a876ddd0647a3f3771db2435d6d1511db)
+    - TEXT "UXarts Screenshot to Design Component", 833x136px, constraints left/top, fill #4499F8, text [Manrope ExtraBold, 50px], [heading]
+  - FRAME "Frame 3", 1013x299px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "What can you do with Screenshot to Design Component?", 1013x110px, constraints left/top, fill #4499F8, text [Manrope ExtraBold, 40px], [heading]
+    - TEXT "Screenshot to Design Component enables users to upload scree", 1013x165px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+  - FRAME "Frame 2", 1013x352px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Screenshot to Design Component Capabilities", 1013x55px, constraints left/top, fill #4499F8, text [Manrope ExtraBold, 40px], [heading]
+    - FRAME "Frame 1", 1013x273px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Accurate Component Detection: Reliably identifies and segmen", 1013x66px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+      - TEXT "Editable Figma Files: Outputs high-quality, editable layers ", 1013x66px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+      - TEXT "Structure Recognition: Understands hierarchy and relationshi", 1013x66px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+      - TEXT "Al-Powered Insights: Extracts clean, reusable components, re", 1013x33px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+  - FRAME "Frame 4", 348x104px, horizontal pad 31 66 31 66px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #4499F8
+    - TEXT "Download Now", 215x41px, constraints left/top, fill #FFFFFF, text [Manrope Bold, 30px], [heading]
+
+Screen:   UIKit / Before generation (Image)
+- FRAME "Before generation (Image)", 3560x2227px, vertical pad 160 160 160 160px gap 120px sizing W:fixed H:fixed, constraints left/top, fill #393939, stroke #696969 1px
+  - TEXT "Before generation (Image)", 1002x97px, constraints left/top, fill #FFFFFF, text [Inter Medium, 80px], [heading]
+  - FRAME "Frame 7", 3240x1624px, horizontal pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+
+Screen:   UIKit / After generation (Figma design)
+- FRAME "After generation (Figma design)", 5180x2224px, vertical pad 160 160 160 160px gap 120px sizing W:fixed H:fixed, constraints left/top, fill #2A2A2A, stroke #72C572 1px
+  - TEXT "After generation (Figma design)", 1219x97px, constraints left/top, fill #FFFFFF, text [Inter Medium, 80px], [heading]
+  - FRAME "Frame 17", 4860x1687px, horizontal pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 13", 1740x973.67px, vertical pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 1740x84px, horizontal pad 0 0 16 0px gap 120px sizing W:fill H:fixed, constraints left/top, stroke #F8F8F8 1px
+        - FRAME "Frame 10", 1740x68px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Generated Design", 341x48px, constraints left/top, fill #FFFFFF, text [Inter Regular, 40px], [heading]
+      - FRAME "Frame 18", 1740x809.67px, horizontal pad 0 0 0 0px gap 80px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 375x809.67px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "document_1_0:0", 375x809.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "ghostBackground_document_1_0:0_06249012867", 375x809.67px, constraints left/top, fill image(hash: 16e2ef1a7aff543e45f8c35afcd02a1ad0fd58a5)
+            - FRAME "block_1_90", 375x47.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_91", 375x5.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_92", 375x12.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_93", 375x12.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_94", 375x5.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_95", 375x2.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_96", 375x25.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_97", 375x4.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_98", 375x2.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_99", 375x13px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_100", 375x12.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_101", 375x299px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_102", 375x1.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_103", 375x1.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_104", 375x283.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_1_105", 375x1.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "FC#TabBar_1_106:FC#TabBar_1_106", 375x77.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Button_1_4:Button_1_4", 344x53px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 26.33px, fill #F5F4F7, stroke #CAC9CB 1px
+            - TEXT "text_1_43", 80x14px, constraints left/top, fill #000000, text [Inter Regular, 19px]
+            - TEXT "text_1_44", 59x14px, constraints left/top, fill #0A051D, text [Inter Regular, 20px]
+        - FRAME "Frame", 375x809.67px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "document_2_0:0", 375x809.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "ghostBackground_document_2_0:0_06235173109", 375x809.67px, constraints left/top, fill image(hash: cb8ba46c129bb888fedfb3199f9a63123439c8a9)
+            - FRAME "block_2_72", 375x157.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_2_73", 375x2.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_2_74", 375x648.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "compo_2_7", 374.67x2.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 1.33px
+            - FRAME "compo_2_40", 374.67x3.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 375x809.67px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "document_3_0:0", 375x809.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "ghostBackground_document_3_0:0_06269392870", 375x809.67px, constraints left/top, fill image(hash: 24e0691c35b8bca5628ce3d22d3a09d163a6ef38)
+            - FRAME "block_3_105", 375x4.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_106", 375x160.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_107", 375x4px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_108", 375x4px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_109", 375x249.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_110", 375x2.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_111", 375x3px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_112", 375x5.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_113", 375x2.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_114", 375x4.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_115", 375x4.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_116", 375x1.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_117", 375x5px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_118", 375x2.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_119", 375x3.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_120", 375x13px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_121", 375x20.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_122", 375x3.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_123", 375x2.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_124", 375x4px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_125", 375x15.33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_126", 375x10px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_127", 375x5px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "block_3_128", 375x2.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - ... +9 more children
+        - FRAME "Frame", 375x809.67px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "document_4_0:0", 375x809.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "ghostBackground_document_4_0:0_06231545080", 375x809.67px, constraints left/top, fill image(hash: 49aa384ab6f40dc374d43c3d9c4a47640bb2e836)
+            - FRAME "block_4_106", 375x808.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 16", 3040x1687px, vertical pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11", 3040x64px, horizontal pad 0 0 16 0px gap 120px sizing W:fill H:fixed, constraints left/top, stroke #F8F8F8 1px
+        - TEXT "Generated UI Components", 504x48px, constraints left/top, fill #FFFFFF, text [Inter Regular, 40px], [heading]
+      - FRAME "Frame 19", 3040x1543px, horizontal pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 1440x370.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CONTAINER", 720x370.67px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "TEXT", 117x17px, constraints left/top, fill #F7F7F7, text [Inter Regular, 14px]
+            - FRAME "BASIC_COMPONENT1", 720x333.67px, vertical pad 84 84 84 84px gap 84px sizing W:fixed H:fixed, constraints left/top, fill #F7F7F7
+          - FRAME "CONTAINER", 720x370.67px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "TEXT", 106x17px, constraints left/top, fill #EFEFEF, text [Inter Regular, 14px]
+            - FRAME "BASIC_COMPONENT0", 720x333.67px, vertical pad 84 84 84 84px gap 84px sizing W:fixed H:fixed, constraints left/top, fill #EFEFEF
+        - FRAME "Frame", 720x1543px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CONTAINER", 720x1543px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "TEXT", 139x17px, constraints left/top, fill #F7F7F7, text [Inter Regular, 14px]
+            - FRAME "FEATURE_COMPONENTS1", 720x1506px, vertical pad 84 84 84 84px gap 84px sizing W:fixed H:fixed, constraints left/top, fill #F7F7F7
+        - FRAME "Frame", 720x561px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CONTAINER", 720x561px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "TEXT", 62x17px, constraints left/top, fill #F7F7F7, text [Inter Regular, 14px]
+            - FRAME "RESOURCE1", 720x524px, vertical pad 84 84 84 84px gap 84px sizing W:fixed H:fixed, constraints left/top, fill #F7F7F7
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,789 @@
+---
+name: linear-app-landing-page-community
+source_file: Linear App Landing Page (Community)
+source_page: All pages (2): Thumbnail, Designs
+generated_at: 2026-07-02T20:56:21.774404+00:00
+---
+
+# Linear App Landing Page (Community) Design Guidelines
+
+## Source
+- Figma file: Linear App Landing Page (Community)
+- Figma page: All pages (2): Thumbnail, Designs
+- Extracted at: 2026-07-02T20:56:21.774404+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- linear.app/Woodsmoke: [#08090A]
+- linear.app/Cod Gray: [#08090A]
+- linear.app/Abbey: [#595B5D]
+- linear.app/Iron: [#E2E4E6]
+- linear.app/Oslo Gray: [#949698]
+- linear.app/Scooter: [#26B5CE]
+- linear.app/Abbey: [#57595A]
+- linear.app/Burnt Sienna: [#EB5757]
+- linear.app/Jaffa: [#F2994A]
+- linear.app/Shark: [#282C30]
+- linear.app/Dodger Blue: [#4EA7FC]
+- linear.app/Indigo: [#5E6AD2]
+- linear.app/Shark: [#1A1C1F]
+- linear.app/Shuttle Gray: [#62666D]
+- linear.app/Black: [#000000]
+- linear.app/Shark: none
+- linear.app/Woodsmoke: [#0E1010]
+- linear.app/Mine Shaft: [#262626]
+- linear.app/Mercury: [#E6E6E6]
+- linear.app/Nero 70%: [#FFFFFFB2]
+- linear.app/Nero: [#FFFFFF]
+- linear.app/Shark: [#08090A]
+- linear.app/Oslo Gray: [#969799]
+- linear.app/Iron: [#E3E4E6]
+- linear.app/Manatee: [#9C9DA1]
+- linear.app/Linear Woodsmoke Woodsmoke: [gradient_linear(#141516 0% | #08090A 100%)]
+- linear.app/Mine Shaft: [#232323]
+- linear.app/Nero 8%: none
+- linear.app/Mine Shaft: [#373737]
+- linear.app/Woodsmoke: [#101113]
+- linear.app/Tundora: [#414141]
+- linear.app/Linear Tundora 70% Silver Chalice 70%: [gradient_linear(#4B4B4B80 0% | #B1B1B1 100%)]
+- linear.app/Nero 20%: [#FFFFFF33]
+- linear.app/Nero 10%: [#FFFFFF1A]
+- linear.app/Nero 5%: [#FFFFFF0D]
+- linear.app/Crusta: [#FC7840]
+- linear.app/Tundora: [#4B4B4B]
+- linear.app/Shark: [#232426]
+- linear.app/Linear Nero 10% Nero 10%: none
+- linear.app/Linear Black 50% Shuttle Gray 50%: [gradient_linear(#000000 0% | #616A73 100%)]
+- linear.app/Cod Gray: [#141414]
+- linear.app/Woodsmoke: [#0D0E0F]
+- linear.app/Nero 1%: [#FFFFFF03]
+- linear.app/Nero 50%: none
+- linear.app/Black: [#FF0000]
+- linear.app/Oslo Gray: [#8A8F98]
+- linear.app/Shark: [#28282C]
+- linear.app/Nero 3%: [#FFFFFF08]
+- linear.app/Abbey: none
+- linear.app/Linear Shuttle Gray Shuttle Gray Shuttle Gray Shuttle Gray: [gradient_linear(#616A7300 0% | #616A730D 40% | #616A730D 80% | #616A7300 100%)]
+- linear.app/Buddha Gold: [#B59AFF]
+- linear.app/Linear Black Woodsmoke: [gradient_linear(#00000000 70% | #08090A 100%)]
+- linear.app/Linear Woodsmoke Black Linear Woodsmoke Black Black Woodsmoke Linear Black Woodsmoke: [gradient_linear(#08090A 20% | #00000000 30%), gradient_linear(#08090A 0% | #00000000 20% | #00000000 80% | #08090A 100%), gradient_linear(#00000000 70% | #08090A 100%)]
+- linear.app/Woodsmoke: [#151617]
+- linear.app/Yellow: [#FEFEFF]
+- linear.app/Nevada: [#6E6F70]
+- linear.app/Woodsmoke: [#0B0C0D]
+- linear.app/Oslo Gray: [#8F9092]
+- linear.app/Woodsmoke: [#101112]
+- linear.app/Scarpa Flow: [#5C5C5E]
+- linear.app/Iron: [#E3E5E8]
+- linear.app/Manatee: [#999B9E]
+- linear.app/Wild Sand: [#F5F5F5]
+- linear.app/Woodsmoke: [#5E6AD2]
+- linear.app/Ronchi: [#F1CA4B]
+- linear.app/Green Haze: [#00AF4E]
+- linear.app/Linear Nero Nero Nero: [gradient_linear(#FFFFFF14 0% | #FFFFFF05 50% | #FFFFFF00 55%)]
+- linear.app/Linear Black Black Linear Black Black: [gradient_linear(#000000 40% | #00000000 90%), gradient_linear(#000000 30% | #00000000 80%)]
+- linear.app/Amber: none
+- linear.app/Blue Marguerite: [#6771C5]
+- linear.app/Anzac: [#DEB949]
+- linear.app/Manatee: [#91959C]
+- linear.app/Radial Alto Dove Gray: [gradient_radial(#D9D9D9 0% | #73737300 80%)]
+- linear.app/Old Gold: [#D4B144]
+- linear.app/Linear Black Woodsmoke: [gradient_linear(#00000000 80% | #08090A 97%)]
+- linear.app/Nero 0.2%: [#FFFFFF01]
+- linear.app/La Palma: [#2C901C]
+- linear.app/Mantis 20%: [#68CC5833]
+- linear.app/Green Kelp 50%: [#22362080]
+- linear.app/Mantis: [#68CC58]
+- linear.app/Magenta / Fuchsia: [#FEFFFE]
+- linear.app/Nero 2%: [#FFFFFF05]
+- linear.app/Cod Gray: [#1C1C1C]
+- linear.app/Mine Shaft 40%: [#28282866]
+- linear.app/Mantis 25%: [#68CC5840]
+- linear.app/Linear Black Woodsmoke Linear Woodsmoke Black: [gradient_linear(#00000000 60% | #08090A 100%), gradient_linear(#08090A 0% | #00000000 30%)]
+- linear.app/Mine Shaft 20%: [#28282833]
+- linear.app/Jaffa 25%: [#F2994A40]
+- linear.app/Tall Poppy: [#C52828]
+- linear.app/Tall Poppy 25%: [#C5282840]
+- linear.app/Ronchi: none
+- linear.app/Indigo: [#5E69D1]
+- linear.app/Dodger Blue: [#1ABCFE]
+- linear.app/Tropical Rain Forest: [#FF7262]
+- linear.app/Pomegranate: [#F24E1E]
+- linear.app/Chelsea Gem: [#A259FF]
+- linear.app/Caribbean Green: [#0ACF83]
+- linear.app/Radial Black Black: [gradient_radial(#00000000 99% | #000000 100%)]
+- linear.app/Linear Black Black Linear Black Black: [gradient_linear(#000000 20% | #00000000 100%), gradient_linear(#000000 50% | #00000000 100%)]
+- linear.app/Radial Alto Dove Gray: [gradient_radial(#D9D9D9 0% | #73737300 100%)]
+- linear.app/Linear Black Shuttle Gray Shuttle Gray Shuttle Gray: [gradient_linear(#00000000 0% | #616A731F 40% | #616A731F 60% | #616A7300 100%)]
+- linear.app/Linear Black Woodsmoke: [gradient_linear(#00000000 80% | #08090A 90%)]
+- linear.app/Radial Alto Dove Gray Black: [gradient_radial(#D9D9D90A 0% | #73737305 80% | #00000000 100%)]
+- linear.app/Radial Alto Dove Gray Black: [gradient_radial(#D9D9D90F 0% | #73737305 80% | #00000000 100%)]
+- linear.app/Radial Alto Gray Dove Gray: [gradient_radial(#D9D9D914 0% | #8C8C8C05 50% | #73737300 80%)]
+- linear.app/Cod Gray 20%: [#0A0A0A33]
+- linear.app/Nero 15%: [#FFFFFF26]
+- linear.app/Nero 80%: [#FFFFFFCC]
+- linear.app/Cod Gray 80%: [#0A0A0ACC]
+- linear.app/Linear Black Black: [gradient_linear(#000000 20% | #00000000 80%)]
+- Dark/☀ font: [#18181B]
+- Twitter White 100: none
+
+## Raw Colors (unstyled)
+- #FFFFFF: 32 uses
+- #FFFFFF1C: 7 uses
+- #000000: 4 uses
+- #08090A: 4 uses
+- #969799: 4 uses
+
+## Typography Tokens
+- linear.app/SF Pro Display/Semibold 56: SF Pro Display Semibold (600), 56px / 61.6px, tracking -1.82px
+- linear.app/SF Pro Display/Semibold 54.58: SF Pro Display Semibold (600), 54.58px / 61.6px, tracking -1.82px
+- linear.app/SF Pro Display/Semibold 17: SF Pro Display Semibold (600), 17px / 24.5px, tracking 0px
+- linear.app/SF Pro Display/Regular 17: SF Pro Display Regular (400), 17px / 24.5px, tracking 0px
+- linear.app/SF Pro Display/Regular 15: SF Pro Display Regular (400), 15px / 23px, tracking -0.16px
+- linear.app/SF Pro Display/Semibold 17: SF Pro Display Semibold (600), 17px / 20px, tracking -0.22px
+- linear.app/SF Pro Display/Regular 14.27: SF Pro Display Regular (400), 14.27px / 23px, tracking -0.16px
+- linear.app/SF Pro Display/Semibold 10.4: SF Pro Display Semibold (600), 10.4px / auto, tracking 0px
+- linear.app/SF Pro Display/Semibold 11.78: SF Pro Display Semibold (600), 11.78px / 19.5px, tracking 0px
+- linear.app/SF Pro Display/Semibold 12.09: SF Pro Display Semibold (600), 12.09px / 19.5px, tracking 0px
+- linear.app/SF Pro Display/Semibold 11.98: SF Pro Display Semibold (600), 11.98px / 19.5px, tracking 0px
+- linear.app/SF Pro Display/Semibold 12.49: SF Pro Display Semibold (600), 12.49px / 19.5px, tracking 0px
+- linear.app/SF Pro Display/Semibold 12.39: SF Pro Display Semibold (600), 12.39px / 19.5px, tracking 0px
+- linear.app/SF Pro Display/Semibold 11.88: SF Pro Display Semibold (600), 11.88px / 19.5px, tracking 0px
+
+## Raw Typography (unstyled)
+- SF Pro Display Regular, 14px: 90 uses
+- SF Pro Display Semibold, 14px: 52 uses
+- SF Pro Display Regular, 10.61px: 48 uses
+- SF Pro Display Regular, 9.35px: 42 uses
+- SF Pro Display Semibold, 10.61px: 29 uses
+- SF Pro Display Semibold, 21px: 28 uses
+- SF Pro Display Semibold, 15px: 26 uses
+- SF Pro Display Semibold, 9.35px: 23 uses
+- SF Pro Display Semibold, 13px: 20 uses
+- SF Pro Display Semibold, 17px: 20 uses
+- SF Pro Display Medium, 14px: 18 uses
+- SF Pro Display Semibold, 12.88px: 17 uses
+- SF Pro Display Semibold, 15.91px: 15 uses
+- SF Pro Display Semibold, 37.39px: 15 uses
+- SF Pro Display Semibold, 42.44px: 15 uses
+- SF Pro Display Regular, 13px: 14 uses
+- SF Pro Display Semibold, 10.02px: 12 uses
+- SF Pro Display Semibold, 11.37px: 12 uses
+- SF Pro Display Semibold, 14.02px: 11 uses
+- SF Pro Display Semibold, 8.68px: 10 uses
+- SF Pro Display Semibold, 9.85px: 10 uses
+- SF Pro Display Medium, 10.61px: 9 uses
+- SF Pro Display Medium, 9.35px: 9 uses
+- SF Pro Display Regular, 11.37px: 9 uses
+- SF Pro Display Semibold, 11.35px: 9 uses
+- SF Pro Display Regular, 15px: 8 uses
+- SF Pro Display Regular, 8.68px: 7 uses
+- SF Pro Display Regular, 9.85px: 7 uses
+- SF Pro Display Regular, 10.81px: 6 uses
+- SF Pro Display Regular, 9.53px: 6 uses
+- SF Pro Display Semibold, 14.27px: 6 uses
+- SF Pro Display Regular, 10.02px: 5 uses
+- SF Pro Display Regular, 11.35px: 5 uses
+- SF Pro Display Regular, 12.88px: 5 uses
+
+## Typography Hierarchy
+- 56px - linear.app/SF Pro Display/Semibold 56 (SF Pro Display Semibold)
+- 54.58px - linear.app/SF Pro Display/Semibold 54.58 (SF Pro Display Semibold)
+- 42.44px - SF Pro Display Semibold, 42.44px (raw)
+- 37.39px - SF Pro Display Semibold, 37.39px (raw)
+- 21px - SF Pro Display Semibold, 21px (raw)
+- 17px - SF Pro Display Semibold, 17px (raw)
+- 17px - linear.app/SF Pro Display/Regular 17 (SF Pro Display Regular)
+- 17px - linear.app/SF Pro Display/Semibold 17 (SF Pro Display Semibold)
+- 15.91px - SF Pro Display Semibold, 15.91px (raw)
+- 15px - SF Pro Display Regular, 15px (raw)
+- 15px - SF Pro Display Semibold, 15px (raw)
+- 15px - linear.app/SF Pro Display/Regular 15 (SF Pro Display Regular)
+- 14.27px - SF Pro Display Semibold, 14.27px (raw)
+- 14.27px - linear.app/SF Pro Display/Regular 14.27 (SF Pro Display Regular)
+- 14.02px - SF Pro Display Semibold, 14.02px (raw)
+- 14px - SF Pro Display Medium, 14px (raw)
+- 14px - SF Pro Display Regular, 14px (raw)
+- 14px - SF Pro Display Semibold, 14px (raw)
+- 13px - SF Pro Display Regular, 13px (raw)
+- 13px - SF Pro Display Semibold, 13px (raw)
+- 12.88px - SF Pro Display Regular, 12.88px (raw)
+- 12.88px - SF Pro Display Semibold, 12.88px (raw)
+- 12.49px - linear.app/SF Pro Display/Semibold 12.49 (SF Pro Display Semibold)
+- 12.39px - linear.app/SF Pro Display/Semibold 12.39 (SF Pro Display Semibold)
+- 12.09px - linear.app/SF Pro Display/Semibold 12.09 (SF Pro Display Semibold)
+- 11.98px - linear.app/SF Pro Display/Semibold 11.98 (SF Pro Display Semibold)
+- 11.88px - linear.app/SF Pro Display/Semibold 11.88 (SF Pro Display Semibold)
+- 11.78px - linear.app/SF Pro Display/Semibold 11.78 (SF Pro Display Semibold)
+- 11.37px - SF Pro Display Regular, 11.37px (raw)
+- 11.37px - SF Pro Display Semibold, 11.37px (raw)
+- 11.35px - SF Pro Display Regular, 11.35px (raw)
+- 11.35px - SF Pro Display Semibold, 11.35px (raw)
+- 10.81px - SF Pro Display Regular, 10.81px (raw)
+- 10.61px - SF Pro Display Medium, 10.61px (raw)
+- 10.61px - SF Pro Display Regular, 10.61px (raw)
+- 10.61px - SF Pro Display Semibold, 10.61px (raw)
+- 10.4px - linear.app/SF Pro Display/Semibold 10.4 (SF Pro Display Semibold)
+- 10.02px - SF Pro Display Regular, 10.02px (raw)
+- 10.02px - SF Pro Display Semibold, 10.02px (raw)
+- 9.85px - SF Pro Display Regular, 9.85px (raw)
+- 9.85px - SF Pro Display Semibold, 9.85px (raw)
+- 9.53px - SF Pro Display Regular, 9.53px (raw)
+- 9.35px - SF Pro Display Medium, 9.35px (raw)
+- 9.35px - SF Pro Display Regular, 9.35px (raw)
+- 9.35px - SF Pro Display Semibold, 9.35px (raw)
+- 8.68px - SF Pro Display Regular, 8.68px (raw)
+- 8.68px - SF Pro Display Semibold, 8.68px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Placeholder
+- Component 1
+- Animated Text
+- App
+
+## Component Specs
+- Placeholder: size 1455x7857.83px, vertical layout, padding 0 0 0 0px, gap 46px, sizing W:fixed H:fixed, fill Dark/☀ font, text [SF Pro Display Regular, 10.61px, SF Pro Display Medium, 10.61px, SF Pro Display Semibold, 11.37px, SF Pro Display Semibold, 42.44px, SF Pro Display Regular, 9.85px, SF Pro Display Semibold, 10.61px, SF Pro Display Regular, 11.37px, SF Pro Display Semibold, 9.85px, SF Pro Display Semibold, 12.88px, SF Pro Display Regular, 12.88px, SF Pro Display Semibold, 15.91px, SF Pro Display Regular, 7.58px, SF Pro Display Semibold, 7.58px, SF Pro Display Semibold, 18.19px, SF Pro Display Regular, 10.81px, SF Pro Display Semibold, 10.81px, SF Pro Display Semibold, 41.36px, SF Pro Display Semibold, 7.88px, SF Pro Display Semibold, 8.93px, SF Pro Display Semibold, 9.16px, SF Pro Display Semibold, 9.08px, SF Pro Display Semibold, 9.47px, SF Pro Display Semibold, 9.39px, SF Pro Display Semibold, 9px]
+- Component 1: size 2277.1x1219.33px | variants: Property 1: App_1/App_2
+- Animated Text: size 1088x1034px, text [SF Pro Display Semibold, 15px, SF Pro Display Semibold, 21px, linear.app/SF Pro Display/Semibold 56, linear.app/SF Pro Display/Semibold 54.58] | variants: Property 1: Default/Variant2
+- App: size 2277.1x1219.33px
+
+## Most-Used Styles
+- linear.app/Woodsmoke: 2112 uses
+- linear.app/Indigo: 1339 uses
+- linear.app/Oslo Gray: 690 uses
+- linear.app/Iron: 364 uses
+- linear.app/Nero: 336 uses
+- linear.app/Ronchi: 160 uses
+- linear.app/Abbey: 149 uses
+- linear.app/Black: 146 uses
+- linear.app/Green Haze: 140 uses
+- linear.app/Shark: 115 uses
+- linear.app/Cod Gray: 67 uses
+- linear.app/Nero 10%: 64 uses
+- linear.app/Manatee: 56 uses
+- linear.app/SF Pro Display/Semibold 56: 48 uses
+- linear.app/Mine Shaft: 45 uses
+- linear.app/Nero 8%: 44 uses
+- linear.app/Nero 3%: 32 uses
+- linear.app/Nero 5%: 32 uses
+- linear.app/Nero 50%: 28 uses
+- linear.app/Nero 80%: 28 uses
+- linear.app/Mantis: 24 uses
+- linear.app/Burnt Sienna: 22 uses
+- linear.app/Jaffa: 22 uses
+- linear.app/Dodger Blue: 18 uses
+- linear.app/Mercury: 14 uses
+- linear.app/Scooter: 14 uses
+- linear.app/La Palma: 12 uses
+- linear.app/Linear Black Woodsmoke: 12 uses
+- linear.app/Linear Tundora 70% Silver Chalice 70%: 12 uses
+- linear.app/Nero 20%: 12 uses
+- linear.app/Radial Black Black: 12 uses
+- linear.app/SF Pro Display/Regular 14.27: 12 uses
+- linear.app/Tundora: 12 uses
+- linear.app/Shuttle Gray: 11 uses
+- linear.app/SF Pro Display/Regular 17: 10 uses
+- linear.app/Linear Black Black Linear Black Black: 8 uses
+- linear.app/Linear Nero Nero Nero: 8 uses
+- linear.app/Magenta / Fuchsia: 8 uses
+- linear.app/Mine Shaft 20%: 8 uses
+- linear.app/Nero 0.2%: 8 uses
+- linear.app/Radial Alto Dove Gray: 8 uses
+- linear.app/Tall Poppy: 8 uses
+- linear.app/Nero 70%: 6 uses
+- linear.app/SF Pro Display/Regular 15: 6 uses
+- linear.app/SF Pro Display/Semibold 17: 6 uses
+- linear.app/Amber: 4 uses
+- linear.app/Anzac: 4 uses
+- linear.app/Blue Marguerite: 4 uses
+- linear.app/Buddha Gold: 4 uses
+- linear.app/Caribbean Green: 4 uses
+- linear.app/Chelsea Gem: 4 uses
+- linear.app/Cod Gray 20%: 4 uses
+- linear.app/Cod Gray 80%: 4 uses
+- linear.app/Crusta: 4 uses
+- linear.app/Green Kelp 50%: 4 uses
+- linear.app/Jaffa 25%: 4 uses
+- linear.app/Linear Black 50% Shuttle Gray 50%: 4 uses
+- linear.app/Linear Black Black: 4 uses
+- linear.app/Linear Black Shuttle Gray Shuttle Gray Shuttle Gray: 4 uses
+- linear.app/Linear Black Woodsmoke Linear Woodsmoke Black: 4 uses
+- linear.app/Linear Nero 10% Nero 10%: 4 uses
+- linear.app/Linear Shuttle Gray Shuttle Gray Shuttle Gray Shuttle Gray: 4 uses
+- linear.app/Linear Woodsmoke Black Linear Woodsmoke Black Black Woodsmoke Linear Black Woodsmoke: 4 uses
+- linear.app/Linear Woodsmoke Woodsmoke: 4 uses
+- linear.app/Mantis 20%: 4 uses
+- linear.app/Mantis 25%: 4 uses
+- linear.app/Mine Shaft 40%: 4 uses
+- linear.app/Nero 1%: 4 uses
+- linear.app/Nero 15%: 4 uses
+- linear.app/Nero 2%: 4 uses
+- linear.app/Nevada: 4 uses
+- linear.app/Old Gold: 4 uses
+- linear.app/Pomegranate: 4 uses
+- linear.app/SF Pro Display/Semibold 11.98: 4 uses
+- linear.app/SF Pro Display/Semibold 54.58: 4 uses
+- linear.app/Scarpa Flow: 4 uses
+- linear.app/Tall Poppy 25%: 4 uses
+- linear.app/Tropical Rain Forest: 4 uses
+- linear.app/Wild Sand: 4 uses
+- linear.app/Yellow: 4 uses
+- linear.app/Radial Alto Dove Gray Black: 2 uses
+- linear.app/SF Pro Display/Semibold 10.4: 2 uses
+- linear.app/SF Pro Display/Semibold 11.78: 2 uses
+- linear.app/SF Pro Display/Semibold 11.88: 2 uses
+- linear.app/SF Pro Display/Semibold 12.09: 2 uses
+- linear.app/SF Pro Display/Semibold 12.39: 2 uses
+- linear.app/SF Pro Display/Semibold 12.49: 2 uses
+- Dark/☀ font: 1 use
+- Twitter White 100: 1 use
+- linear.app/Radial Alto Gray Dove Gray: 1 use
+
+## Layout & Structure
+Screen: Thumbnail / Cover
+- FRAME "Cover", 1920x1071.63px, constraints left/top, radius 20px, fill #181818, stroke #FFFFFF26 2.23px
+  - FRAME "Laptop", 1267x798px, constraints left/center, radius 20px, fill #202124, stroke gradient_linear(#404040 0% | #262626 100%) 8.94px, effect [drop_shadow 74.18px offset 0 63.58 #0000008C]
+    - RECTANGLE "Screenshot 2022-11-10 at 16.15", 369.46x797.98px, constraints left/top
+    - INSTANCE "Placeholder", 1281.97x6930.43px, vertical pad 0 0 0 0px gap 40.53px sizing W:fixed H:fixed, constraints left/top, fill Dark/☀ font
+      - FRAME "1920", 1281.97x6930.43px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Container", 1281.97x6667.55px, vertical pad 0 0 0 0px gap 6.68px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Main", 1281.97x6667.55px, vertical pad 0 0 0 0px gap 6.68px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Header", 1281.97x58.76px, constraints left/top
+            - FRAME "Container", 1281.97x801.23px, constraints left/top
+            - RECTANGLE "Gradient", 1281.97x1086.34px, constraints scale/top, fill gradient_linear(#00000000 51% | #08090A 78%)
+            - FRAME "Section", 1281.97x285.49px, vertical pad 42.73 277.76 42.73 277.76px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Section", 1281.97x574.42px, vertical pad 106.3 0 106.83 0px gap 32.05px align min/center sizing W:fill H:fixed, constraints left/top, fill linear.app/Linear Black Shuttle Gray Shuttle Gray Shuttle Gray
+            - FRAME "Container", 1281.97x1596.94px, constraints left/top
+            - FRAME "Container", 1281.97x1687.04px, constraints left/top
+            - FRAME "Container", 1281.97x730.58px, constraints left/top
+            - FRAME "Section", 1281.97x733.92px, vertical pad 106.83 277.76 106.83 277.76px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Section", 1281.97x211.19px, vertical pad 63.56 277.76 64.1 277.76px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill linear.app/Linear Woodsmoke Woodsmoke
+        - FRAME "Footer", 1281.97x262.88px, vertical pad 0.67 277.76 0 277.76px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill linear.app/Woodsmoke, stroke linear.app/Shark 0.67px
+          - FRAME "Container", 726.45x262.22px, horizontal pad 37.39 21.37 37.39 21.37px gap 0px sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Margin", 202.98x187.43px, vertical pad 0 55.91 0 0px gap 0px align center/min sizing W:fill H:fill, constraints left/top_bottom
+            - FRAME "Container", 120.18x187.43px, vertical pad 0 0 0 0px gap 9.35px sizing W:fixed H:fill, constraints left/top_bottom
+            - FRAME "Container", 120.18x187.43px, vertical pad 0 0 0 0px gap 9.35px sizing W:fixed H:fill, constraints left/top_bottom
+            - FRAME "Container", 120.18x187.43px, vertical pad 0 0 0 0px gap 9.35px sizing W:fixed H:fill, constraints left/top_bottom
+            - FRAME "Container", 120.18x187.43px, vertical pad 0 0 0 0px gap 9.35px sizing W:fixed H:fill, constraints left/top_bottom
+  - FRAME "Title", 903x712.83px, vertical pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/center
+    - FRAME "Frame 1000004509", 903x712.83px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Tag", 419x155.37px, horizontal pad 27.47 27.47 27.47 27.47px gap 27.47px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+      - FRAME "Frame 1000004512", 903x547.45px, vertical pad 0 0 0 0px gap 50px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "linear.app Website", 839x372px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 170.64px], [heading]
+        - FRAME "Frame 1000004511", 903x125.45px, vertical pad 0 0 0 0px gap 26px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 1000004510", 903x125.45px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "Frame 2", 903x125.45px, horizontal pad 23.24 61 27.34 61px gap 11.93px align center/center sizing W:fixed H:fixed, constraints left/top, radius 167.34px, fill #FFFFFFE5, stroke #FFFFFF 1px
+
+Screen: Designs / 1920
+- FRAME "1920", 1920x10366.4px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Container", 1920x9984.4px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Main", 1920x9984.4px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 1920x88px, constraints left/top
+        - FRAME "Mask Group", 1920x88px, constraints left/top
+          - RECTANGLE "Mask", 1920x88px, constraints left/top, fill linear.app/Linear Black Black
+          - RECTANGLE "Overlay+OverlayBlur", 1920x88px, constraints left/top, fill linear.app/Cod Gray 80%, effect [background_blur 5px]
+        - FRAME "Header", 1048x48px, vertical pad 0 12 0 12px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, radius 16px, fill linear.app/Cod Gray 20%, effect [drop_shadow 0px offset 0 0 #FFFFFF14, background_blur 24px]
+          - FRAME "Nav - Main", 1024x48px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left_right/top_bottom
+            - FRAME "List - Site navigation", 1024x48px, horizontal pad 8 0.06 8 0px gap 50px align space_between/center sizing W:fill H:fixed, constraints left_right/top
+      - FRAME "Container", 1920x1200px, constraints left/top
+        - FRAME "Container", 1920x1200px, constraints left/top_bottom
+          - RECTANGLE "Gradient", 1371.79x1371.79px, constraints left/top, radius 9999px, fill gradient_radial(#D9D9D91C 0% | #8C8C8C05 50% | #73737300 80%)
+          - RECTANGLE "Gradient", 1145.51x1145.51px, constraints left/top, radius 9999px, fill gradient_radial(#D9D9D929 0% | #73737305 80% | #00000000 100%)
+          - RECTANGLE "Gradient", 1145.51x1145.51px, constraints left/top, radius 9999px, fill gradient_radial(#D9D9D957 0% | #73737352 80% | #00000000 100%)
+        - FRAME "Section", 1920x1115.19px, vertical pad 72 416 0 416px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top
+          - INSTANCE "App", 2277.1x1219.33px, constraints center/bottom
+            - FRAME "Background+Border", 2277.1x1219.33px, vertical pad 1 1 1 1px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill linear.app/Woodsmoke, stroke linear.app/Cod Gray 1px [decorative, ~81 shapes]
+            - RECTANGLE "App", 1974.15x1118.72px, constraints right/top, radius 6px, fill image(hash: 62a3fefb412f5de175c71b01e701f06cba4f37f7), stroke #FFFFFF1C 1px, effect [drop_shadow 24px offset 0 44 #00000040]
+          - RECTANGLE "Gradient", 1750.05x1143.17px, constraints right/top_bottom, fill linear.app/Linear Black Woodsmoke
+          - FRAME "Container", 1088x1043.19px, constraints center/top
+            - FRAME "Heading 1", 1024x123.19px, constraints left_right/top
+            - FRAME "Blur", 1024x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [layer_blur 0px]
+            - FRAME "Blur", 1024x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [layer_blur 0px]
+      - RECTANGLE "Gradient", 1920x1627px, constraints scale/top, fill gradient_linear(#00000000 51% | #08090A 78%)
+      - FRAME "Section", 1920x426.66px, vertical pad 64 416 64 416px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 1088x298.66px, vertical pad 0 32 0 32px gap 32px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Container", 1024x56px, vertical pad 0 273.92 0 273.92px gap 0px align min/center sizing W:fill H:fixed, constraints left_right/top
+            - TEXT "Powering the world’s best product teams. From next-gen start", 476.16x56px, constraints center/top, fill #FFFFFF, text [SF Pro Display Semibold, 21px]
+          - FRAME "Link", 1024x210.66px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left_right/top [decorative, ~7 shapes]
+      - FRAME "Section", 1920x859.99px, vertical pad 159.2 0 160 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top, fill linear.app/Linear Black Shuttle Gray Shuttle Gray Shuttle Gray
+        - FRAME "Container", 1088x124.79px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Container", 1024x124.79px, horizontal pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 500x124.79px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+            - FRAME "Container", 500x98px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+        - FRAME "Container", 1920x368px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Container", 1920x360px, horizontal pad 0 448 0 448px gap 8px align center/min sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 336x360px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+            - FRAME "Container", 336x360px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+            - FRAME "Container", 336x360px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+      - FRAME "Container", 1920x2391.72px, constraints left/top
+        - FRAME "Container", 1920x600px, constraints left_right/top
+          - RECTANGLE "Gradient", 1920x600px, constraints scale/top_bottom, fill gradient_linear(#131516 50% | #08090A 100%)
+        - FRAME "Section", 1920x2391.72px, vertical pad 160 0 160 0px gap -153.6px align min/center sizing W:fixed H:fixed, constraints left_right/top
+          - FRAME "Container", 1088x196.1px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Container", 1024x196.1px, vertical pad 0 0 0 0px gap 24.01px align center/min sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Container", 1920x810px, vertical pad 0 160 0 160px gap 0px align center/center sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Img:mask-group", 1600x810px, constraints center/center
+          - FRAME "Container", 1088x1372.82px, constraints center/top
+            - FRAME "Border", 1024x563.81px, horizontal pad 2 0 2 0px gap 24px align center/min sizing W:fixed H:fixed, constraints left_right/top, stroke linear.app/Nero 3% 2px
+            - FRAME "Container", 1024x488px, horizontal pad 0 0 0 0px gap 24px align center/min sizing W:fixed H:fixed, constraints left_right/top
+            - RECTANGLE "Separator", 1024x2px, constraints left_right/top, radius 9999px, fill linear.app/Nero 3%
+            - FRAME "Container", 1024x71px, horizontal pad 0 0 0 0px gap 40px align center/min sizing W:fixed H:fixed, constraints left_right/top
+      - FRAME "Container", 1920x2526.66px, constraints left/top
+        - FRAME "Container", 1920x600px, constraints left_right/top
+          - RECTANGLE "Gradient", 1920x899px, constraints scale/top_bottom, fill gradient_linear(#131416 30% | #08090A 76%)
+        - FRAME "Section", 1920x2526.66px, constraints left_right/top
+          - FRAME "Container", 1088x257.69px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Container", 1024x257.69px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Container", 1920x810px, vertical pad 0 160 0 160px gap 0px align center/center sizing W:fixed H:fixed, constraints left_right/top
+            - FRAME "Img:mask-group", 1600x810px, constraints center/center
+          - FRAME "Container", 1088x1330.95px, constraints center/top
+            - FRAME "Border", 1024x611px, horizontal pad 2 0 2 0px gap 24px align center/min sizing W:fixed H:fixed, constraints left_right/top, stroke linear.app/Nero 3% 2px
+            - FRAME "Container", 1024x570.95px, constraints left_right/top
+            - RECTANGLE "Separator", 1024x2px, constraints left_right/top, radius 9999px, fill linear.app/Nero 3%
+            - FRAME "Container", 1024x71px, horizontal pad 0 0 0 0px gap 40px align center/min sizing W:fixed H:fixed, constraints left_right/top
+      - FRAME "Container", 1920x1094.19px, constraints left/top
+        - FRAME "Container", 1920x600px, constraints left_right/top
+          - RECTANGLE "Gradient", 1920x600px, constraints scale/top_bottom, fill linear.app/Linear Black Woodsmoke
+        - FRAME "Section", 1920x1094.98px, vertical pad 160 416 160 416px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill linear.app/Linear Shuttle Gray Shuttle Gray Shuttle Gray Shuttle Gray
+          - FRAME "Container", 1088x774.98px, vertical pad 0 0 0 0px gap 47.99px align min/center sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Container", 1088x160.99px, horizontal pad 0 0 0 0px gap 111.33px align center/max sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 1920x566px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Section", 1920x1099.19px, vertical pad 160 416 160 416px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 1088x779.19px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Container", 1024x779.19px, vertical pad 0 0 0 0px gap 24px align center/min sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 1024x253.19px, vertical pad 0 0 0 0px gap 15.2px sizing W:fill H:fixed, constraints left_right/top_bottom
+            - FRAME "Container", 1024x311px, vertical pad 16 0 0 0px gap 24px sizing W:fill H:fixed, constraints left_right/top_bottom
+            - FRAME "Container", 1024x167px, vertical pad 40 0 0 0px gap 32px sizing W:fill H:fixed, constraints left_right/top_bottom
+            - FRAME "Container", 1920x1099.19px, constraints left_right/top_bottom [decorative, ~58 shapes]
+      - FRAME "Section", 1920x315.99px, vertical pad 95.2 416 96 416px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill linear.app/Linear Woodsmoke Woodsmoke
+        - FRAME "Container", 1088x124.79px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Container", 1024x124.79px, horizontal pad 0 0 0 0px gap 109.12px align min/max sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 674.66x124.79px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+            - FRAME "Container", 227.01x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - FRAME "Footer", 1920x382px, vertical pad 1 416 0 416px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill linear.app/Woodsmoke, stroke linear.app/Shark 1px
+    - FRAME "Container", 1088x381px, horizontal pad 56 32 56 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Margin", 304x269px, vertical pad 0 83.73 0 0px gap 0px align center/min sizing W:fill H:fill, constraints left/top_bottom
+        - FRAME "Container", 220.27x269px, vertical pad 0 0 0 0px gap 227px align space_between/min sizing W:fixed H:fixed, constraints left/top_bottom
+          - FRAME "Link", 220.27x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "SVG - Linear Logo:margin", 26x18px, vertical pad 0 8 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Linear", 41x24px, constraints left/top, fill linear.app/Oslo Gray, text [SF Pro Display Medium, 14px]
+            - FRAME "Container", 134x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+          - FRAME "Container", 220.27x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left_right/top [decorative, ~7 shapes]
+      - FRAME "Container", 180x269px, vertical pad 0 0 0 0px gap 14px sizing W:fixed H:fill, constraints left/top_bottom
+        - FRAME "Heading 3", 180x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - TEXT "Product", 48x24px, constraints left/top, fill linear.app/Iron, text [SF Pro Display Medium, 14px]
+        - FRAME "List", 180x231px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 51x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 70x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 41x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 65x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 31x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 85x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 60x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Container", 180x269px, vertical pad 0 0 0 0px gap 14px sizing W:fixed H:fill, constraints left/top_bottom
+        - FRAME "Heading 3", 180x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - TEXT "Company", 59x24px, constraints left/top, fill linear.app/Iron, text [SF Pro Display Medium, 14px]
+        - FRAME "List", 180x161px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 53x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 27x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 46x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 65x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 35x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Container", 180x269px, vertical pad 0 0 0 0px gap 14px sizing W:fixed H:fill, constraints left/top_bottom
+        - FRAME "Heading 3", 180x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - TEXT "Resources", 64x24px, constraints left/top, fill linear.app/Iron, text [SF Pro Display Medium, 14px]
+        - FRAME "List", 180x231px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 96x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 69x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 47x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 26x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 81x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 95x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 123x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Container", 180x269px, vertical pad 0 0 0 0px gap 14px sizing W:fixed H:fill, constraints left/top_bottom
+        - FRAME "Heading 3", 180x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - TEXT "Developers", 69x24px, constraints left/top, fill linear.app/Iron, text [SF Pro Display Medium, 14px]
+        - FRAME "List", 180x126px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 21x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 38x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 42x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 54x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+
+Screen: Designs / 1920 - ANIMATED HERO
+- FRAME "1920 - ANIMATED HERO", 1920x10366.4px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Container", 1920x9984.4px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Main", 1920x9984.4px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 1920x88px, constraints left/top
+        - FRAME "Mask Group", 1920x88px, constraints left/top
+          - RECTANGLE "Mask", 1920x88px, constraints left/top, fill linear.app/Linear Black Black
+          - RECTANGLE "Overlay+OverlayBlur", 1920x88px, constraints left/top, fill linear.app/Cod Gray 80%, effect [background_blur 5px]
+        - FRAME "Header", 1048x48px, vertical pad 0 12 0 12px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, radius 16px, fill linear.app/Cod Gray 20%, effect [drop_shadow 0px offset 0 0 #FFFFFF14, background_blur 24px]
+          - FRAME "Nav - Main", 1024x48px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left_right/top_bottom
+            - FRAME "List - Site navigation", 1024x48px, horizontal pad 8 0.06 8 0px gap 50px align space_between/center sizing W:fill H:fixed, constraints left_right/top
+      - FRAME "Container", 1920x1200px, constraints left/top
+        - FRAME "Container", 1920x1200px, constraints left/top_bottom
+          - RECTANGLE "Gradient", 1371.79x1371.79px, constraints left/top, radius 9999px, fill linear.app/Radial Alto Gray Dove Gray
+          - RECTANGLE "Gradient", 1145.51x1145.51px, constraints left/top, radius 9999px, fill linear.app/Radial Alto Dove Gray Black
+          - RECTANGLE "Gradient", 1145.51x1145.51px, constraints left/top, radius 9999px, fill linear.app/Radial Alto Dove Gray Black
+        - FRAME "Section", 1920x1106px, vertical pad 72 416 0 416px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top
+          - INSTANCE "Component 1", 2277.1x1219.33px, constraints left/top
+            - FRAME "Background+Border", 2277.1x1219.33px, vertical pad 1 1 1 1px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill linear.app/Woodsmoke, stroke linear.app/Cod Gray 1px [decorative, ~81 shapes]
+            - INSTANCE "App_Blur_Animation", 1974.15x1118.72px, constraints left/top, fill #FFFFFF, opacity 0%
+          - RECTANGLE "Gradient", 1750.05x1134.17px, constraints right/top_bottom, fill linear.app/Linear Black Woodsmoke
+          - INSTANCE "Animated Text", 1088x1034px, constraints left/top
+            - FRAME "Heading 1", 1024x123.19px, constraints left_right/top, effect [layer_blur 100px], opacity 0%
+            - FRAME "Blur", 1024x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [layer_blur 64px], opacity 0%
+            - FRAME "Blur", 1024x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [layer_blur 64px], opacity 0%
+      - RECTANGLE "Gradient", 1920x1627px, constraints scale/top, fill gradient_linear(#00000000 51% | #08090A 78%)
+      - FRAME "Section", 1920x426.66px, vertical pad 64 416 64 416px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 1088x298.66px, vertical pad 0 32 0 32px gap 32px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Container", 1024x56px, vertical pad 0 273.92 0 273.92px gap 0px align min/center sizing W:fill H:fixed, constraints left_right/top
+            - TEXT "Powering the world’s best product teams. From next-gen start", 476.16x56px, constraints center/top, fill #FFFFFF, text [SF Pro Display Semibold, 21px]
+          - FRAME "Link", 1024x210.66px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left_right/top [decorative, ~7 shapes]
+      - FRAME "Section", 1920x859.99px, vertical pad 159.2 0 160 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top, fill linear.app/Linear Black Shuttle Gray Shuttle Gray Shuttle Gray
+        - FRAME "Container", 1088x124.79px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Container", 1024x124.79px, horizontal pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 500x124.79px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+            - FRAME "Container", 500x98px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top
+        - FRAME "Container", 1920x368px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Container", 1920x360px, horizontal pad 0 448 0 448px gap 8px align center/min sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 336x360px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+            - FRAME "Container", 336x360px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+            - FRAME "Container", 336x360px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+      - FRAME "Container", 1920x2391.72px, constraints left/top
+        - FRAME "Container", 1920x600px, constraints left_right/top
+          - RECTANGLE "Gradient", 1920x600px, constraints scale/top_bottom, fill gradient_linear(#131516 50% | #08090A 100%)
+        - FRAME "Section", 1920x2391.72px, vertical pad 160 0 160 0px gap -153.6px align min/center sizing W:fixed H:fixed, constraints left_right/top
+          - FRAME "Container", 1088x196.1px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Container", 1024x196.1px, vertical pad 0 0 0 0px gap 24.01px align center/min sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Container", 1920x810px, vertical pad 0 160 0 160px gap 0px align center/center sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Img:mask-group", 1600x810px, constraints center/center
+          - FRAME "Container", 1088x1372.82px, constraints center/top
+            - FRAME "Border", 1024x563.81px, horizontal pad 2 0 2 0px gap 24px align center/min sizing W:fixed H:fixed, constraints left_right/top, stroke linear.app/Nero 3% 2px
+            - FRAME "Container", 1024x488px, horizontal pad 0 0 0 0px gap 24px align center/min sizing W:fixed H:fixed, constraints left_right/top
+            - RECTANGLE "Separator", 1024x2px, constraints left_right/top, radius 9999px, fill linear.app/Nero 3%
+            - FRAME "Container", 1024x71px, horizontal pad 0 0 0 0px gap 40px align center/min sizing W:fixed H:fixed, constraints left_right/top
+      - FRAME "Container", 1920x2526.66px, constraints left/top
+        - FRAME "Container", 1920x600px, constraints left_right/top
+          - RECTANGLE "Gradient", 1920x899px, constraints scale/top_bottom, fill gradient_linear(#131416 30% | #08090A 76%)
+        - FRAME "Section", 1920x2526.66px, constraints left_right/top
+          - FRAME "Container", 1088x257.69px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Container", 1024x257.69px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Container", 1920x810px, vertical pad 0 160 0 160px gap 0px align center/center sizing W:fixed H:fixed, constraints left_right/top
+            - FRAME "Img:mask-group", 1600x810px, constraints center/center
+          - FRAME "Container", 1088x1330.95px, constraints center/top
+            - FRAME "Border", 1024x611px, horizontal pad 2 0 2 0px gap 24px align center/min sizing W:fixed H:fixed, constraints left_right/top, stroke linear.app/Nero 3% 2px
+            - FRAME "Container", 1024x570.95px, constraints left_right/top
+            - RECTANGLE "Separator", 1024x2px, constraints left_right/top, radius 9999px, fill linear.app/Nero 3%
+            - FRAME "Container", 1024x71px, horizontal pad 0 0 0 0px gap 40px align center/min sizing W:fixed H:fixed, constraints left_right/top
+      - FRAME "Container", 1920x1094.19px, constraints left/top
+        - FRAME "Container", 1920x600px, constraints left_right/top
+          - RECTANGLE "Gradient", 1920x600px, constraints scale/top_bottom, fill linear.app/Linear Black Woodsmoke
+        - FRAME "Section", 1920x1094.98px, vertical pad 160 416 160 416px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill linear.app/Linear Shuttle Gray Shuttle Gray Shuttle Gray Shuttle Gray
+          - FRAME "Container", 1088x774.98px, vertical pad 0 0 0 0px gap 47.99px align min/center sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Container", 1088x160.99px, horizontal pad 0 0 0 0px gap 111.33px align center/max sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 1920x566px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Section", 1920x1099.19px, vertical pad 160 416 160 416px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 1088x779.19px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Container", 1024x779.19px, vertical pad 0 0 0 0px gap 24px align center/min sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 1024x253.19px, vertical pad 0 0 0 0px gap 15.2px sizing W:fill H:fixed, constraints left_right/top_bottom
+            - FRAME "Container", 1024x311px, vertical pad 16 0 0 0px gap 24px sizing W:fill H:fixed, constraints left_right/top_bottom
+            - FRAME "Container", 1024x167px, vertical pad 40 0 0 0px gap 32px sizing W:fill H:fixed, constraints left_right/top_bottom
+            - FRAME "Container", 1920x1099.19px, constraints left_right/top_bottom [decorative, ~58 shapes]
+      - FRAME "Section", 1920x315.99px, vertical pad 95.2 416 96 416px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill linear.app/Linear Woodsmoke Woodsmoke
+        - FRAME "Container", 1088x124.79px, vertical pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Container", 1024x124.79px, horizontal pad 0 0 0 0px gap 109.12px align min/max sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Container", 674.66x124.79px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left_right/top_bottom
+            - FRAME "Container", 227.01x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - FRAME "Footer", 1920x382px, vertical pad 1 416 0 416px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill linear.app/Woodsmoke, stroke linear.app/Shark 1px
+    - FRAME "Container", 1088x381px, horizontal pad 56 32 56 32px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Margin", 304x269px, vertical pad 0 83.73 0 0px gap 0px align center/min sizing W:fill H:fill, constraints left/top_bottom
+        - FRAME "Container", 220.27x269px, vertical pad 0 0 0 0px gap 227px align space_between/min sizing W:fixed H:fixed, constraints left/top_bottom
+          - FRAME "Link", 220.27x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "SVG - Linear Logo:margin", 26x18px, vertical pad 0 8 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Linear", 41x24px, constraints left/top, fill linear.app/Oslo Gray, text [SF Pro Display Medium, 14px]
+            - FRAME "Container", 134x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+          - FRAME "Container", 220.27x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left_right/top [decorative, ~7 shapes]
+      - FRAME "Container", 180x269px, vertical pad 0 0 0 0px gap 14px sizing W:fixed H:fill, constraints left/top_bottom
+        - FRAME "Heading 3", 180x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - TEXT "Product", 48x24px, constraints left/top, fill linear.app/Iron, text [SF Pro Display Medium, 14px]
+        - FRAME "List", 180x231px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 51x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 70x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 41x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 65x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 31x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 85x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 60x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Container", 180x269px, vertical pad 0 0 0 0px gap 14px sizing W:fixed H:fill, constraints left/top_bottom
+        - FRAME "Heading 3", 180x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - TEXT "Company", 59x24px, constraints left/top, fill linear.app/Iron, text [SF Pro Display Medium, 14px]
+        - FRAME "List", 180x161px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 53x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 27x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 46x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 65x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 35x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Container", 180x269px, vertical pad 0 0 0 0px gap 14px sizing W:fixed H:fill, constraints left/top_bottom
+        - FRAME "Heading 3", 180x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - TEXT "Resources", 64x24px, constraints left/top, fill linear.app/Iron, text [SF Pro Display Medium, 14px]
+        - FRAME "List", 180x231px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 96x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 69x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 47x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 26x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 81x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 95x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 123x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Container", 180x269px, vertical pad 0 0 0 0px gap 14px sizing W:fixed H:fill, constraints left/top_bottom
+        - FRAME "Heading 3", 180x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - TEXT "Developers", 69x24px, constraints left/top, fill linear.app/Iron, text [SF Pro Display Medium, 14px]
+        - FRAME "List", 180x126px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left_right/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 21x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 38x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 42x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Item", 180x21px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+            - FRAME "Link", 54x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+
+Screen: Designs / Animated Text
+- COMPONENT_SET "Animated Text", 1128x2128px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Default", 1088x1034px, constraints left/top
+    - FRAME "Heading 1", 1024x123.19px, constraints left_right/top, effect [layer_blur 100px], opacity 0%
+      - FRAME "Blur", 146.78x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "Linear", 146.98x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 37.63x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "is", 37.83x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 54.58], [heading]
+      - FRAME "Blur", 28.55x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "a", 28.75x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 321.47x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "purpose-built", 321.67x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 88.31x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "tool", 88.51x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 65.17x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "for", 65.37x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 204.06x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "planning", 204.26x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 90.03x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "and", 90.23x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 187.52x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "building", 187.72x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 212.47x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "products", 212.67x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+    - FRAME "Blur", 1024x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [layer_blur 64px], opacity 0%
+      - FRAME "Heading 2", 716.8x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+        - TEXT "Meet the system for modern product development. Streamline i", 716.8x56px, constraints left/top, fill linear.app/Nero 70%, text [SF Pro Display Semibold, 21px]
+    - FRAME "Blur", 1024x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [layer_blur 64px], opacity 0%
+      - FRAME "Link", 121x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill linear.app/Mercury, effect [drop_shadow 1px offset 0 0 #00000014, drop_shadow 1px offset 0 1 #00000012, drop_shadow 2px offset 0 3 #0000000A, drop_shadow 2px offset 0 5 #00000003, inner_shadow 1px offset 0 -1 #0000001C]
+        - TEXT "Start building", 89x40px, constraints left/top, fill linear.app/Woodsmoke, text [SF Pro Display Semibold, 15px]
+  - COMPONENT "Property 1=Variant2", 1088x1034px, constraints left/top
+    - FRAME "Heading 1", 1024x123.19px, constraints left_right/top, effect [layer_blur 0.1px]
+      - FRAME "Blur", 146.78x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "Linear", 146.98x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 37.63x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "is", 37.83x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 54.58], [heading]
+      - FRAME "Blur", 28.55x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "a", 28.75x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 321.47x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "purpose-built", 321.67x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 88.31x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "tool", 88.51x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 65.17x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "for", 65.37x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 204.06x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "planning", 204.26x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 90.03x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "and", 90.23x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 187.52x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "building", 187.72x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+      - FRAME "Blur", 212.47x61.59px, constraints left/top, effect [layer_blur 0px]
+        - TEXT "products", 212.67x61.6px, constraints left/top, fill linear.app/Nero, text [linear.app/SF Pro Display/Semibold 56], [heading]
+    - FRAME "Blur", 1024x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [layer_blur 0.1px]
+      - FRAME "Heading 2", 716.8x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+        - TEXT "Meet the system for modern product development. Streamline i", 716.8x56px, constraints left/top, fill linear.app/Nero 70%, text [SF Pro Display Semibold, 21px]
+    - FRAME "Blur", 1024x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left_right/top, effect [layer_blur 0.1px]
+      - FRAME "Link", 121x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill linear.app/Mercury, effect [drop_shadow 1px offset 0 0 #00000014, drop_shadow 1px offset 0 1 #00000012, drop_shadow 2px offset 0 3 #0000000A, drop_shadow 2px offset 0 5 #00000003, inner_shadow 1px offset 0 -1 #0000001C]
+        - TEXT "Start building", 89x40px, constraints left/top, fill linear.app/Woodsmoke, text [SF Pro Display Semibold, 15px]
+
+Screen: Designs / Component 1
+- COMPONENT_SET "Component 1", 2317.1x2858.33px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=App_1", 2277.1x1219.33px, constraints left/top
+    - FRAME "Background+Border", 2277.1x1219.33px, vertical pad 1 1 1 1px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill linear.app/Woodsmoke, stroke linear.app/Cod Gray 1px [decorative, ~81 shapes]
+    - INSTANCE "App_Blur_Animation", 1974.15x1118.72px, constraints left/top, fill #FFFFFF, opacity 0%
+      - RECTANGLE "App", 1974.15x1118.72px, constraints scale/scale, radius 6px, fill image(hash: 62a3fefb412f5de175c71b01e701f06cba4f37f7), stroke #FFFFFF1C 1px, effect [drop_shadow 24px offset 0 -26 #00000040, layer_blur 100px]
+  - COMPONENT "Property 1=App_2", 2277.1x1219.33px, constraints left/top
+    - FRAME "Background+Border", 2277.1x1219.33px, vertical pad 1 1 1 1px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill linear.app/Woodsmoke, stroke linear.app/Cod Gray 1px [decorative, ~81 shapes]
+    - INSTANCE "App_Blur_Animation", 1974.15x1118.72px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "App", 1974.15x1118.72px, constraints scale/scale, radius 6px, fill image(hash: 62a3fefb412f5de175c71b01e701f06cba4f37f7), stroke #FFFFFF1C 1px, effect [drop_shadow 24px offset 0 -26 #00000040, layer_blur 0.1px]
+
+Screen: Designs / App
+- COMPONENT "App", 2277.1x1219.33px, constraints left/top
+  - FRAME "Background+Border", 2277.1x1219.33px, vertical pad 1 1 1 1px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill linear.app/Woodsmoke, stroke linear.app/Cod Gray 1px [decorative, ~81 shapes]
+  - RECTANGLE "App", 1974.15x1118.72px, constraints right/top, radius 6px, fill image(hash: 62a3fefb412f5de175c71b01e701f06cba4f37f7), stroke #FFFFFF1C 1px, effect [drop_shadow 24px offset 0 44 #00000040]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

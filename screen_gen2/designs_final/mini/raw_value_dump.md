@@ -1,0 +1,744 @@
+---
+name: mini-design-system-community
+source_file: Mini Design System (Community)
+source_page: All pages (2): Cover, Design System
+generated_at: 2026-07-25T09:20:56.420560+00:00
+---
+
+# Mini Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Mini Design System (Community)
+- Figma page: All pages (2): Cover, Design System
+- Extracted at: 2026-07-25T09:20:56.420560+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Greyscale / 900: none
+- Shadow / 400: [#FFFFFF]
+- Primary/500: [#246BFD]
+- Others / White: [#246BFD]
+- Greyscale / 400: [#BDBDBD]
+- Greyscale / 700: [#616161]
+- Shadow Maker / 600: [#FFFFFF]
+- Shadow Maker / 500: [#FFFFFF]
+- Shadow Maker / 400: [#FFFFFF]
+- Shadow Maker / 300: [#FFFFFF]
+- Shadow Maker / 200: [#FFFFFF]
+- Shadow Maker / 100: [#FFFFFF]
+- Shadow / 600: [#FFFFFF]
+- Shadow / 500: [#FFFFFF]
+- Shadow / 300: [#FFFFFF]
+- Shadow / 200: [#FFFFFF]
+- Shadow / 100: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #F7FCFF: 151 uses
+- #005555: 133 uses
+- #9E9E9E: 117 uses
+- #130F26: 98 uses
+- #FFFFFF: 95 uses
+- #434343: 86 uses
+- #E31D1C: 42 uses
+- #00555514: 14 uses
+- #FAFAFA: 14 uses
+- #000000: 8 uses
+- #009A9A: 8 uses
+- #212121: 6 uses
+- #028989: 5 uses
+- #E0E0E0: 5 uses
+
+## Typography Tokens
+- body / xsmall / bold: Urbanist Bold (700), 10px / auto, tracking 0.2px
+- H1 / bold: Urbanist Bold (700), 48px / 91.67%, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Light, 10px: 21 uses
+- Inter SemiBold, 19.45px: 21 uses
+- Urbanist SemiBold, 15.24px: 18 uses
+- Inter Regular, 15.24px: 12 uses
+- Inter SemiBold, 16.34px: 8 uses
+- Inter Bold, 18px: 6 uses
+- Inter SemiBold, 14px: 6 uses
+- Inter SemiBold, 15.24px: 6 uses
+- Inter SemiBold, 16px: 6 uses
+- Inter Bold, 10px: 5 uses
+- Urbanist Bold, 26.12px: 4 uses
+- Urbanist SemiBold, 16.34px: 4 uses
+- Inter Medium, 10px: 3 uses
+
+## Typography Hierarchy
+- 48px - H1 / bold (Urbanist Bold)
+- 26.12px - Urbanist Bold, 26.12px (raw)
+- 19.45px - Inter SemiBold, 19.45px (raw)
+- 18px - Inter Bold, 18px (raw)
+- 16.34px - Inter SemiBold, 16.34px (raw)
+- 16.34px - Urbanist SemiBold, 16.34px (raw)
+- 16px - Inter SemiBold, 16px (raw)
+- 15.24px - Inter Regular, 15.24px (raw)
+- 15.24px - Inter SemiBold, 15.24px (raw)
+- 15.24px - Urbanist SemiBold, 15.24px (raw)
+- 14px - Inter SemiBold, 14px (raw)
+- 10px - Inter Bold, 10px (raw)
+- 10px - Inter Light, 10px (raw)
+- 10px - Inter Medium, 10px (raw)
+- 10px - body / xsmall / bold (Urbanist Bold)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Bottom bar
+- Chips
+- Toggle
+- Radio
+- Checkbox
+- Avatar
+- Button
+- Input
+- Shadow
+
+## Component Specs
+- Bottom bar: size 428x82px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill Shadow / 400, effect [drop_shadow 4.15px offset 0 2.76 #0000000D, drop_shadow 10.37px offset 0 6.91 #0000001A], text [Inter Light, 10px, body / xsmall / bold] | variants: Active Menu: Dark Home/Dark Inbox/Dark Profile/Dark Project/Light Home/Light Inbox/Light Profile/Light Project; Component: Bottom Bar
+- Chips: size 100x45px, radius 100px, horizontal layout, padding 10 24 10 24px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #005555, text [Inter Bold, 18px] | variants: Size: Large/Medium/Small; Type: Border/Filled; Icon: Left/None/Right; Component: Chips
+- Toggle: size 51.36x28.02px, radius 1167.37px, fill #005555 | variants: State: Disabled/Enabled; Theme: Dark/Default/Light; Component: Toggle
+- Radio: size 28.02x28.02px, fill #FFFFFF | variants: Style: None/Text; Theme: Dark/Default/Light; State: Selected/Unselected; Component: Radio
+- Checkbox: size 28.02x28.02px, fill #FFFFFF | variants: Style: None/Text; Theme: Dark/Default/Light; State: Checked/Unchecked; Component: Checkbox
+- Avatar: size 56.03x56.03px | variants: Type: Default/Edit Avatar/Offline Avatar/Online Avatar; Component: Avatar
+- Button: size 527.87x80.57px, radius 22.23px, fill #005555, text [Inter SemiBold, 19.45px] | variants: Component: Button
+- Input: size 84.89x66.39px, radius 13.06px, fill #434343, stroke #434343 1.09px, text [Urbanist Bold, 26.12px] | variants: Status: Active/Default/Fill; Type: Code/Default/Email/Normal/Password/Phone/Username; State: Active Input/Default Input/Filled Input; Theme: Dark/Light; Component: Input Field
+- Shadow / 100: size 207.32x207.32px, fill Shadow / 100, effect [drop_shadow 1.38px offset 0 0.69 #0000000D]
+
+## Most-Used Styles
+- Shadow Maker / 100: 6 uses
+- Shadow / 400: 5 uses
+- H1 / bold: 4 uses
+- body / xsmall / bold: 3 uses
+- Others / White: 2 uses
+- Greyscale / 400: 1 use
+- Shadow / 100: 1 use
+- Shadow / 200: 1 use
+- Shadow / 300: 1 use
+- Shadow / 500: 1 use
+- Shadow / 600: 1 use
+- Shadow Maker / 200: 1 use
+- Shadow Maker / 300: 1 use
+- Shadow Maker / 400: 1 use
+- Shadow Maker / 500: 1 use
+- Shadow Maker / 600: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1600x960px, constraints left/top, fill #FFFFFF
+  - GROUP "Item", 1237.5x831.55px, constraints left/top
+    - GROUP "Group 1", 406.33x831.55px, constraints left/top
+      - RECTANGLE "Button", 406.33x400.78px, constraints left/top, fill image(hash: 9edc4c082788b23c1b83c4eeb6590d464ab2009f), effect [drop_shadow 40px offset 8 13 #00000026]
+      - RECTANGLE "Selection Control", 406.33x400.78px, constraints left/top, fill image(hash: dac19b64f60dbd70fad6327f065398eeb98f8e46), effect [drop_shadow 70px offset 15 10 #0000001A]
+    - RECTANGLE "Input Field", 784.5x773.78px, constraints left/top, fill image(hash: 6f2370768eeb0e5f7c2a183404cadbc023bcdca8), effect [drop_shadow 70px offset 89 52 #0000001A]
+  - VECTOR "Shape", 565x960px, constraints left/top, radius 10px, fill #005555, effect [inner_shadow 54px offset -67 52 #00000021, drop_shadow 36px offset 26 -30 #0000001A]
+  - TEXT "@rafatulux", 149x39px, constraints left/top, fill #F4F4F4, text [Inter Medium, 28px], [heading]
+  - TEXT "Mini Design System & Component", 382x108px, constraints left/top, fill #F3F3F3, text [Inter Bold, 38.6px], [heading]
+
+Screen: Design System / Input Field
+- FRAME "Input Field", 1755x1731px, constraints left/top, fill #FFFFFF
+  - COMPONENT_SET "Input", 1397.47x1170px, constraints left/top, radius 5.44px, stroke #005555 1.09px
+    - COMPONENT "Status=Fill, Type=Code, State=Filled Input, Theme=Dark, Comp", 84.89x66.39px, constraints left/top, radius 13.06px, fill #434343, stroke #434343 1.09px
+      - TEXT "Label", 15x31px, constraints left/top, fill #434343, text [Urbanist Bold, 26.12px], [heading]
+    - COMPONENT "Status=Active, Type=Code, State=Active Input, Theme=Dark, Co", 84.89x66.39px, constraints left/top, radius 13.06px, fill #00555514, stroke #005555 1.09px
+      - TEXT "Label", 15x31px, constraints left/top, fill #434343, text [Urbanist Bold, 26.12px], [heading]
+    - COMPONENT "Status=Default, Type=Code, State=Default Input, Theme=Dark, ", 84.89x66.39px, constraints left/top, radius 13.06px, fill #434343, stroke #434343 1.09px
+    - COMPONENT "Status=Fill, Type=Phone, State=Filled Input, Theme=Dark, Com", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - FRAME "Frame 4", 52.24x19.59px, horizontal pad 0 0 0 0px gap 8.71px align min/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "flag", 26.12x19.59px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~34 shapes]
+        - INSTANCE "Iconly/Light/Arrow - Down 2", 17.41x17.41px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Light/Arrow - Down 2", 17.41x17.41px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Arrow - Down 2", 10.16x5.08px, constraints left/top, fill #FFFFFF
+      - TEXT "Label", 304.74x21px, constraints left/top, fill #434343, text [Urbanist SemiBold, 15.24px]
+    - COMPONENT "Status=Active, Type=Phone, State=Active Input, Theme=Dark, C", 413.58x60.95px, constraints left/top, radius 13.06px, fill #00555514, stroke #005555 1.09px
+      - FRAME "Frame 4", 52.24x19.59px, horizontal pad 0 0 0 0px gap 8.71px align min/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "flag", 26.12x19.59px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~34 shapes]
+        - INSTANCE "Iconly/Light/Arrow - Down 2", 17.41x17.41px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Light/Arrow - Down 2", 17.41x17.41px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Arrow - Down 2", 10.16x5.08px, constraints left/top, fill #FFFFFF
+      - TEXT "Label", 304.74x21px, constraints left/top, fill #434343, text [Inter SemiBold, 15.24px]
+    - COMPONENT "Status=Default, Type=Phone, State=Default Input, Theme=Dark,", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - FRAME "Frame 4", 52.24x19.59px, horizontal pad 0 0 0 0px gap 8.71px align min/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "flag", 26.12x19.59px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~34 shapes]
+        - INSTANCE "Iconly/Light/Arrow - Down 2", 17.41x17.41px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Light/Arrow - Down 2", 17.41x17.41px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Arrow - Down 2", 10.16x5.08px, constraints left/top, fill #FFFFFF
+      - TEXT "Label", 304.74x21px, constraints left/top, fill #9E9E9E, text [Inter Regular, 15.24px]
+    - COMPONENT "Status=Fill, Type=Normal, State=Filled Input, Theme=Dark, Co", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - INSTANCE "Iconly/Bold/Profile", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Profile", 14.51x18.14px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Profile", 14.51x18.14px, constraints scale/scale, fill #434343
+      - TEXT "Label", 300.39x21px, constraints left/top, fill #434343, text [Urbanist SemiBold, 15.24px]
+      - INSTANCE "Iconly/Bold/Arrow - Down 2", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Iconly/Bold/Arrow - Down 2", 21.77x21.77px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Arrow - Down 2", 10.88x9.07px, constraints left/top, fill #FFFFFF
+            - VECTOR "Arrow - Down 2", 10.88x9.07px, constraints scale/scale, fill #434343
+    - COMPONENT "Status=Active, Type=Normal, State=Active Input, Theme=Dark, ", 413.58x60.95px, constraints left/top, radius 13.06px, fill #00555514, stroke #005555 1.09px
+      - INSTANCE "Iconly/Bold/Profile", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Profile", 14.51x18.14px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Profile", 14.51x18.14px, constraints scale/scale, fill #005555
+      - TEXT "Label", 300.39x21px, constraints left/top, fill #434343, text [Inter SemiBold, 15.24px]
+      - INSTANCE "Iconly/Bold/Arrow - Down 2", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Iconly/Bold/Arrow - Down 2", 21.77x21.77px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Arrow - Down 2", 10.88x9.07px, constraints left/top, fill #FFFFFF
+            - VECTOR "Arrow - Down 2", 10.88x9.07px, constraints scale/scale, fill #005555
+    - COMPONENT "Status=Default, Type=Normal, State=Default Input, Theme=Dark", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - INSTANCE "Iconly/Bold/Profile", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Profile", 14.51x18.14px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Profile", 14.51x18.14px, constraints scale/scale, fill #9E9E9E
+      - TEXT "Label", 300.39x21px, constraints left/top, fill #9E9E9E, text [Inter Regular, 15.24px]
+      - INSTANCE "Iconly/Bold/Arrow - Down 2", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Iconly/Bold/Arrow - Down 2", 21.77x21.77px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Arrow - Down 2", 10.88x9.07px, constraints left/top, fill #FFFFFF
+            - VECTOR "Arrow - Down 2", 10.88x9.07px, constraints scale/scale, fill #9E9E9E
+    - COMPONENT "Status=Fill, Type=Password, State=Filled Input, Theme=Dark, ", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - INSTANCE "Iconly/Bold/Lock", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Lock", 15.42x18.14px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Label", 300.39x21px, constraints left/top, fill #434343, text [Urbanist SemiBold, 15.24px]
+      - INSTANCE "Iconly/Bold/Hide", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Hide", 18.14x15.42px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - COMPONENT "Status=Active, Type=Password, State=Active Input, Theme=Dark", 413.58x60.95px, constraints left/top, radius 13.06px, fill #00555514, stroke #005555 1.09px
+      - INSTANCE "Iconly/Bold/Lock", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Lock", 15.42x18.14px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - INSTANCE "Iconly/Bold/Hide", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Hide", 18.14x15.42px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Label", 300.39x21px, constraints left/top, fill #434343, text [Inter SemiBold, 15.24px]
+    - COMPONENT "Status=Default, Type=Password, State=Default Input, Theme=Da", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - INSTANCE "Iconly/Bold/Lock", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Lock", 15.42x18.14px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Label", 300.39x21px, constraints left/top, fill #9E9E9E, text [Inter Regular, 15.24px]
+      - INSTANCE "Iconly/Bold/Hide", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Hide", 18.14x15.42px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - COMPONENT "Status=Fill, Type=Email, State=Filled Input, Theme=Dark, Com", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - INSTANCE "Iconly/Bold/Message", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Message", 18.14x16.33px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Message", 18.14x16.33px, constraints scale/scale, fill #434343
+      - TEXT "Label", 335.22x21px, constraints left/top, fill #434343, text [Urbanist SemiBold, 15.24px]
+    - COMPONENT "Status=Active, Type=Email, State=Active Input, Theme=Dark, C", 413.58x60.95px, constraints left/top, radius 13.06px, fill #00555514, stroke #005555 1.09px
+      - INSTANCE "Iconly/Bold/Message", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Message", 18.14x16.33px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Message", 18.14x16.33px, constraints scale/scale, fill #005555
+      - TEXT "Label", 335.22x21px, constraints left/top, fill #434343, text [Inter SemiBold, 15.24px]
+    - COMPONENT "Status=Default, Type=Email, State=Default Input, Theme=Dark,", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - INSTANCE "Iconly/Bold/Message", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Message", 18.14x16.33px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Message", 18.14x16.33px, constraints scale/scale, fill #9E9E9E
+      - TEXT "Label", 335.22x21px, constraints left/top, fill #9E9E9E, text [Inter Regular, 15.24px]
+    - COMPONENT "Status=Fill, Type=Username, State=Filled Input, Theme=Dark, ", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - INSTANCE "Iconly/Bold/Profile", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Profile", 14.51x18.14px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Profile", 14.51x18.14px, constraints scale/scale, fill #434343
+      - TEXT "Label", 335.22x21px, constraints left/top, fill #434343, text [Urbanist SemiBold, 15.24px]
+    - COMPONENT "Status=Active, Type=Username, State=Active Input, Theme=Dark", 413.58x60.95px, constraints left/top, radius 13.06px, fill #00555514, stroke #005555 1.09px
+      - INSTANCE "Iconly/Bold/Profile", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Profile", 14.51x18.14px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Profile", 14.51x18.14px, constraints scale/scale, fill #005555
+      - TEXT "Label", 335.22x21px, constraints left/top, fill #434343, text [Inter SemiBold, 15.24px]
+    - COMPONENT "Status=Default, Type=Username, State=Default Input, Theme=Da", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - INSTANCE "Iconly/Bold/Profile", 21.77x21.77px, constraints left/top, fill #FFFFFF
+        - GROUP "Profile", 14.51x18.14px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Profile", 14.51x18.14px, constraints scale/scale, fill #9E9E9E
+      - TEXT "Label", 335.22x21px, constraints left/top, fill #9E9E9E, text [Inter Regular, 15.24px]
+    - COMPONENT "Status=Fill, Type=Default, State=Filled Input, Theme=Dark, C", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - TEXT "Label", 370.05x21px, constraints left/top, fill #434343, text [Urbanist SemiBold, 15.24px]
+    - COMPONENT "Status=Active, Type=Default, State=Active Input, Theme=Dark,", 413.58x60.95px, constraints left/top, radius 13.06px, fill #00555514, stroke #005555 1.09px
+      - TEXT "Label", 370.05x21px, constraints left/top, fill #434343, text [Inter SemiBold, 15.24px]
+    - COMPONENT "Status=Default, Type=Default, State=Default Input, Theme=Dar", 413.58x60.95px, constraints left/top, radius 13.06px, fill #434343
+      - TEXT "Label", 370.05x21px, constraints left/top, fill #9E9E9E, text [Inter Regular, 15.24px]
+    - COMPONENT "Status=Fill, Type=Code, State=Filled Input, Theme=Light, Com", 84.89x66.39px, constraints left/top, radius 13.06px, fill #FAFAFA, stroke #EEEEEE 1.09px
+      - TEXT "Label", 15x31px, constraints left/top, fill #434343, text [Urbanist Bold, 26.12px], [heading]
+    - COMPONENT "Status=Active, Type=Code, State=Active Input, Theme=Light, C", 84.89x66.39px, constraints left/top, radius 13.06px, fill #00555514, stroke #005555 1.09px
+      - TEXT "Label", 15x31px, constraints left/top, fill #434343, text [Urbanist Bold, 26.12px], [heading]
+    - COMPONENT "Status=Default, Type=Code, State=Default Input, Theme=Light,", 84.89x66.39px, constraints left/top, radius 13.06px, fill #FAFAFA, stroke #EEEEEE 1.09px
+    - COMPONENT "Status=Fill, Type=Phone, State=Filled Input, Theme=Light, Co", 413.58x60.95px, constraints left/top, radius 13.06px, fill #FAFAFA
+      - FRAME "Frame 4", 52.24x19.59px, horizontal pad 0 0 0 0px gap 8.71px align min/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "flag", 26.12x19.59px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~34 shapes]
+        - INSTANCE "Iconly/Light/Arrow - Down 2", 17.41x17.41px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Light/Arrow - Down 2", 17.41x17.41px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Arrow - Down 2", 10.16x5.08px, constraints left/top, fill #FFFFFF
+      - TEXT "Label", 304.74x21px, constraints left/top, fill #434343, text [Urbanist SemiBold, 15.24px]
+    - ... +17 more children
+  - FRAME "Header", 1755x213px, constraints left/top, fill #212121
+    - TEXT "Input Field", 223x53px, constraints left/top, fill #FFFFFF, text [H1 / bold], [heading]
+
+Screen: Design System / Shadow
+- FRAME "Shadow", 1755x1731px, constraints left/top, fill #F5F5F5
+  - FRAME "Header", 1755x213px, constraints left/top, fill #212121
+    - TEXT "Shadow", 181x53px, constraints left/top, fill #FFFFFF, text [H1 / bold], [heading]
+  - COMPONENT "Shadow / 100", 207.32x207.32px, constraints left/top, fill Shadow / 100, effect [drop_shadow 1.38px offset 0 0.69 #0000000D]
+  - FRAME "Shadow / 200", 207.32x207.32px, constraints left/top, fill Shadow / 200, effect [drop_shadow 1.38px offset 0 0.69 #0000000F, drop_shadow 2.07px offset 0 0.69 #0000001A]
+  - FRAME "Shadow / 300", 207.32x207.32px, constraints left/top, fill Shadow / 300, effect [drop_shadow 2.76px offset 0 1.38 #0000000F, drop_shadow 4.15px offset 0 2.76 #0000001A]
+  - FRAME "Shadow / 400", 207.32x207.32px, constraints left/top, fill Shadow / 400, effect [drop_shadow 4.15px offset 0 2.76 #0000000D, drop_shadow 10.37px offset 0 6.91 #0000001A]
+  - FRAME "Shadow / 500", 207.32x207.32px, constraints left/top, fill Shadow / 500, effect [drop_shadow 6.91px offset 0 6.91 #0000000A, drop_shadow 17.28px offset 0 13.82 #0000001A]
+  - FRAME "Shadow / 600", 207.32x207.32px, constraints left/top, fill Shadow / 600, effect [drop_shadow 34.55px offset 0 17.28 #00000040]
+  - RECTANGLE "Shadow Maker / 100", 207.32x207.32px, constraints left/top, fill Shadow Maker / 100, effect [drop_shadow 2.18px offset 0 1.28 #00000004]
+  - RECTANGLE "Shadow Maker / 601", 228.51x229.36px, constraints left/top, fill Shadow Maker / 100, effect [drop_shadow 4.5px offset 0 5.63 #00000007]
+  - RECTANGLE "Shadow Maker / 602", 228.51x227.66px, constraints left/top, fill Shadow Maker / 100, effect [drop_shadow 8.98px offset 0 13.82 #00000009]
+  - RECTANGLE "Shadow Maker / 603", 228.51x227.66px, constraints left/top, fill Shadow Maker / 100, effect [drop_shadow 17.61px offset 0 26.62 #0000000B]
+  - RECTANGLE "Shadow Maker / 604", 228.51x229.36px, constraints left/top, fill Shadow Maker / 100, effect [drop_shadow 32.38px offset 0 44.79 #0000000E]
+  - RECTANGLE "Shadow Maker / 605", 228.51x229.36px, constraints left/top, fill Shadow Maker / 100, effect [drop_shadow 55.28px offset 0 69.11 #00000012]
+  - RECTANGLE "Shadow Maker / 200", 207.32x207.32px, constraints left/top, fill Shadow Maker / 200, effect [drop_shadow 2.18px offset 0 1.28 #00000004, drop_shadow 4.5px offset 0 5.63 #00000007]
+  - RECTANGLE "Shadow Maker / 300", 207.32x207.32px, constraints left/top, fill Shadow Maker / 300, effect [drop_shadow 2.18px offset 0 1.28 #00000004, drop_shadow 4.5px offset 0 5.63 #00000007, drop_shadow 8.98px offset 0 13.82 #00000009]
+  - RECTANGLE "Shadow Maker / 400", 207.32x207.32px, constraints left/top, fill Shadow Maker / 400, effect [drop_shadow 2.18px offset 0 1.28 #00000004, drop_shadow 4.5px offset 0 5.63 #00000007, drop_shadow 8.98px offset 0 13.82 #00000009, drop_shadow 17.61px offset 0 26.62 #0000000B]
+  - RECTANGLE "Shadow Maker / 500", 207.32x207.32px, constraints left/top, fill Shadow Maker / 500, effect [drop_shadow 2.18px offset 0 1.28 #00000004, drop_shadow 4.5px offset 0 5.63 #00000007, drop_shadow 8.98px offset 0 13.82 #00000009, drop_shadow 17.61px offset 0 26.62 #0000000B, drop_shadow 32.38px offset 0 44.79 #0000000E]
+  - RECTANGLE "Shadow Maker / 600", 207.32x207.32px, constraints left/top, fill Shadow Maker / 600, effect [drop_shadow 2.18px offset 0 1.28 #00000004, drop_shadow 4.5px offset 0 5.63 #00000007, drop_shadow 8.98px offset 0 13.82 #00000009, drop_shadow 17.61px offset 0 26.62 #0000000B, drop_shadow 32.38px offset 0 44.79 #0000000E, drop_shadow 55.28px offset 0 69.11 #00000012]
+
+Screen: Design System / Button
+- FRAME "Button", 1755x1731px, constraints left/top, fill #FFFFFF
+  - FRAME "Header", 1755x213px, constraints left/top, fill #212121
+    - TEXT "Button", 140x53px, constraints left/top, fill #FFFFFF, text [H1 / bold], [heading]
+  - COMPONENT_SET "Button", 1119.65x1228px, constraints left/top, radius 6.95px, stroke #005555 1.39px
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 22.23px, fill #005555
+      - TEXT "Button", 483.42x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 22.23px, fill #028989
+      - TEXT "Button", 483.42x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 22.23px, fill #005555
+      - FRAME "Auto Layout Horizontal", 483.42x27.78px, horizontal pad 0 0 0 0px gap 22.23px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Iconly/Bold/Buy", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 23.15x23.15px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+        - TEXT "Button", 65x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+        - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 20.84x13.89px, constraints left/top, fill #FFFFFF
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 22.23px, fill #028989
+      - FRAME "Auto Layout Horizontal", 483.42x27.78px, horizontal pad 0 0 0 0px gap 22.23px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Iconly/Bold/Buy", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 23.15x23.15px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+        - TEXT "Button", 58x27px, constraints left/top, fill #FFFFFF, text [Urbanist SemiBold, 19.45px]
+        - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 20.84x13.89px, constraints left/top, fill #FFFFFF
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 22px, fill #FFFFFF, stroke #B0B0B0 1.39px
+      - TEXT "Button", 483.42x27px, constraints left/top, fill #005555, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 22.23px, fill #434343
+      - TEXT "Button", 483.42x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 22px, fill #FFFFFF, stroke #B0B0B0 1.39px
+      - FRAME "Auto Layout Horizontal", 483.42x27.78px, horizontal pad 0 0 0 0px gap 22.23px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Iconly/Bold/Buy", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 23.15x23.15px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+        - TEXT "Button", 65x27px, constraints left/top, fill #005555, text [Inter SemiBold, 19.45px]
+        - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 20.84x13.89px, constraints left/top, fill #FFFFFF
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 22.23px, fill #434343
+      - FRAME "Auto Layout Horizontal", 483.42x27.78px, horizontal pad 0 0 0 0px gap 22.23px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Iconly/Bold/Buy", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 23.15x23.15px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+        - TEXT "Button", 65x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+        - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 20.84x13.89px, constraints left/top, fill #FFFFFF
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 138.91px, fill #FFFFFF, stroke #B0B0B0 1.39px
+      - TEXT "Button", 483.42x27px, constraints left/top, fill #005555, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 138.91px, fill #434343
+      - TEXT "Button", 483.42x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 138.91px, fill #028989
+      - TEXT "Button", 483.42x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 138.91px, fill #FFFFFF, stroke #B0B0B0 1.39px
+      - FRAME "Auto Layout Horizontal", 483.42x27.78px, horizontal pad 0 0 0 0px gap 22.23px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Iconly/Bold/Buy", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 23.15x23.15px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+        - TEXT "Button", 65x27px, constraints left/top, fill #005555, text [Inter SemiBold, 19.45px]
+        - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 20.84x13.89px, constraints left/top, fill #FFFFFF
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 138.91px, fill #434343
+      - FRAME "Auto Layout Horizontal", 483.42x27.78px, horizontal pad 0 0 0 0px gap 22.23px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Iconly/Bold/Buy", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 23.15x23.15px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+        - TEXT "Button", 65x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+        - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 20.84x13.89px, constraints left/top, fill #FFFFFF
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 138.91px, fill #028989
+      - FRAME "Auto Layout Horizontal", 483.42x27.78px, horizontal pad 0 0 0 0px gap 22.23px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Iconly/Bold/Buy", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 23.15x23.15px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+        - TEXT "Button", 65x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+        - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Iconly/Bold/Arrow - Right", 27.78x27.78px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 20.84x13.89px, constraints left/top, fill #FFFFFF
+    - COMPONENT "Component=Button", 527.87x83.35px, constraints left/top, radius 22.23px, fill #FFFFFF, stroke #D0D0D0 1.39px
+      - FRAME "Auto Layout Horizontal", 247.01x33.34px, horizontal pad 0 0 0 0px gap 16.67px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Frame", 33.34x33.34px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 27.09x33.34px, constraints scale/scale
+            - VECTOR "Vector", 27.09x33.34px, constraints scale/scale, fill #000000
+            - VECTOR "Vector", 27.09x33.34px, constraints scale/scale, fill #000000
+        - TEXT "Continue with Apple", 197x27px, constraints scale/scale, fill #434343, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x83.35px, constraints left/top, radius 22.23px, fill #434343, stroke #434343 1.39px
+      - FRAME "Auto Layout Horizontal", 247.01x33.34px, horizontal pad 0 0 0 0px gap 16.67px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Frame", 33.34x33.34px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 27.09x33.34px, constraints scale/scale
+            - VECTOR "Vector", 27.09x33.34px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 27.09x33.34px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Continue with Apple", 197x27px, constraints scale/scale, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x83.35px, constraints left/top, radius 22.23px, fill #FFFFFF, stroke #D0D0D0 1.39px
+      - FRAME "Auto Layout Horizontal", 257.68x33.34px, horizontal pad 0 0 0 0px gap 16.67px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Frame", 32.01x33.34px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Continue with Google", 209x27px, constraints scale/scale, fill #434343, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x83.35px, vertical pad 25 44.45 25 44.45px gap 13.89px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22.23px, fill #434343, stroke #434343 1.39px
+      - FRAME "Auto Layout Horizontal", 257.68x33.34px, horizontal pad 0 0 0 0px gap 16.67px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Frame", 32.01x33.34px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Continue with Google", 209x27px, constraints scale/scale, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x83.35px, constraints left/top, radius 22.23px, fill #FFFFFF, stroke #D0D0D0 1.39px
+      - FRAME "Auto Layout Horizontal", 285.01x33.34px, horizontal pad 0 0 0 0px gap 16.67px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Frame", 33.34x33.34px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 33.34x33.34px, constraints scale/scale, fill gradient_linear(#2AA4F4 0% | #007AD9 100%)
+          - VECTOR "Vector", 14.58x27.78px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Continue with Facebook", 235x27px, constraints scale/scale, fill #434343, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 527.87x83.35px, constraints left/top, radius 22.23px, fill #434343, stroke #434343 1.39px
+      - FRAME "Auto Layout Horizontal", 285.01x33.34px, horizontal pad 0 0 0 0px gap 16.67px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Frame", 33.34x33.34px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 33.34x33.34px, constraints scale/scale, fill gradient_linear(#2AA4F4 0% | #007AD9 100%)
+          - VECTOR "Vector", 14.58x27.78px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Continue with Facebook", 235x27px, constraints scale/scale, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+    - COMPONENT "Component=Button", 80.57x80.57px, constraints left/top, radius 138.91px, fill #005555
+      - INSTANCE "Iconly/Curved/Plus", 55.57x55.57px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 16.57x16.55px, constraints left/top, fill #FFFFFF
+          - VECTOR "Line", 2.44x16.55px, constraints scale/scale, stroke #FFFFFF 2.08px
+          - VECTOR "Line", 16.57x2.44px, constraints scale/scale, stroke #FFFFFF 2.08px
+    - COMPONENT "Component=Button", 80.57x80.57px, constraints left/top, radius 22.23px, fill #005555
+      - INSTANCE "Iconly/Curved/Plus", 55.57x55.57px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 16.57x16.55px, constraints left/top, fill #FFFFFF
+          - VECTOR "Line", 2.44x16.55px, constraints scale/scale, stroke #FFFFFF 2.08px
+          - VECTOR "Line", 16.57x2.44px, constraints scale/scale, stroke #FFFFFF 2.08px
+    - COMPONENT "Component=Button", 80.57x80.57px, vertical pad 12.5 12.5 12.5 12.5px gap 11.11px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22.23px, fill #FFFFFF, stroke #E0E0E0 1.39px
+      - INSTANCE "Iconly/Curved/Plus", 55.57x55.57px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 16.57x16.55px, constraints left/top, fill #FFFFFF
+          - VECTOR "Line", 2.44x16.55px, constraints scale/scale, stroke #434343 2.08px
+          - VECTOR "Line", 16.57x2.44px, constraints scale/scale, stroke #434343 2.08px
+    - COMPONENT "Component=Button", 80.57x80.57px, constraints left/top, radius 22.23px, fill #434343, stroke #434343 1.39px
+      - INSTANCE "Iconly/Curved/Plus", 55.57x55.57px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 16.57x16.55px, constraints left/top, fill #FFFFFF
+          - VECTOR "Line", 2.44x16.55px, constraints scale/scale, stroke #FFFFFF 2.08px
+          - VECTOR "Line", 16.57x2.44px, constraints scale/scale, stroke #FFFFFF 2.08px
+    - COMPONENT "Component=Button", 527.87x80.57px, constraints left/top, radius 138.91px, fill #005555
+      - TEXT "Button", 483.42x27px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 19.45px]
+    - ... +1 more children
+
+Screen: Design System / Selection Control
+- FRAME "Selection Control", 1755x1731px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 83", 1588x338px, constraints left/top, stroke #005555 1px
+  - FRAME "Header", 1755x213px, constraints left/top, fill #212121
+    - TEXT "Selection Control", 367x53px, constraints left/top, fill #FFFFFF, text [H1 / bold], [heading]
+  - GROUP "Group 1", 303.52x168.1px, constraints left/top, radius 5.84px
+    - TEXT "Avatar", 303.52x23px, constraints left/top, fill #434343, text [Inter SemiBold, 16.34px]
+    - COMPONENT_SET "Avatar", 303.52x98.06px, constraints left/top, radius 5.84px, stroke #005555 1.17px
+      - COMPONENT "Type=Online Avatar, Component=Avatar", 56.03x56.03px, constraints left/top
+        - ELLIPSE "Ellipse", 56.03x56.03px, constraints scale/scale, fill image(hash: 1876db94adec6ad7f35e5a30b73b00a91492ca4e)
+        - ELLIPSE "Ellipse", 14.01x14.01px, constraints scale/scale, fill #005555, stroke Others / White 1.87px
+      - COMPONENT "Type=Offline Avatar, Component=Avatar", 56.03x56.03px, constraints left/top
+        - ELLIPSE "Ellipse", 56.03x56.03px, constraints scale/scale, fill image(hash: 2807367af281dfc0939a4b8df48694243b8f8493)
+        - ELLIPSE "Ellipse", 14.01x14.01px, constraints scale/scale, fill Greyscale / 400, stroke Others / White 1.87px
+      - COMPONENT "Type=Edit Avatar, Component=Avatar", 56.03x56.03px, constraints left/top
+        - ELLIPSE "Ellipse", 56.03x56.03px, constraints scale/scale, fill image(hash: 2848af764d6b2425037613714d4c487e317a6d4f)
+        - INSTANCE "Iconly/Bold/Edit Square", 14.01x14.01px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 11.67x11.67px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Exclude", 11.67x11.67px, constraints scale/scale, fill #005555
+      - COMPONENT "Type=Default, Component=Avatar", 56.03x56.03px, constraints left/top
+        - ELLIPSE "Ellipse", 56.03x56.03px, constraints scale/scale, fill image(hash: af72ff98547f9f64d22365d53ac7fa014d610fbf)
+  - GROUP "Group 2", 357.22x189.93px, constraints left/top
+    - FRAME "Checkbox", 357.22x189.93px, vertical pad 0 0 0 0px gap 37.36px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 357.22x23px, constraints left/top, fill #434343, text [Inter SemiBold, 16.34px]
+      - COMPONENT_SET "Checkbox", 357.22x129.58px, constraints left/top, radius 5.84px, stroke #005555 1.17px
+        - COMPONENT "Style=None, Theme=Default, State=Unchecked, Component=Checkb", 28.02x28.02px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle", 28.02x28.02px, constraints scale/scale, radius 9.34px, stroke #005555 3.5px
+        - COMPONENT "Style=None, Theme=Default, State=Checked, Component=Checkbox", 28.02x28.02px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 28.02x28.02px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle", 28.02x28.02px, constraints scale/scale, radius 9.34px, fill #005555
+            - VECTOR "Vector", 10.51x7px, constraints scale/scale, stroke #FFFFFF 3.5px
+        - COMPONENT "Style=Text, Theme=Light, State=Checked, Component=Checkbox", 114.03x28.02px, horizontal pad 0 0 0 0px gap 14.01px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group", 28.02x28.02px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle", 28.02x28.02px, constraints left/top, radius 9.34px, fill #005555
+            - VECTOR "Vector", 10.51x7px, constraints scale/scale, stroke #FFFFFF 3.5px
+          - TEXT "Checked", 72x23px, constraints scale/scale, fill #434343, text [Inter SemiBold, 16.34px]
+        - COMPONENT "Style=Text, Theme=Light, State=Unchecked, Component=Checkbox", 134.03x28.02px, horizontal pad 0 0 0 0px gap 14.01px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle", 28.02x28.02px, constraints left/top, radius 9.34px, stroke #005555 3.5px
+          - TEXT "Unchecked", 92x23px, constraints scale/scale, fill #434343, text [Inter SemiBold, 16.34px]
+        - COMPONENT "Style=Text, Theme=Dark, State=Unchecked, Component=Checkbox", 125.03x28.02px, horizontal pad 0 0 0 0px gap 14.01px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle", 28.02x28.02px, constraints left/top, radius 9.34px, stroke #005555 3.5px
+          - TEXT "Unchecked", 83x23px, constraints scale/scale, fill #FFFFFF, text [Urbanist SemiBold, 16.34px]
+        - COMPONENT "Style=Text, Theme=Dark, State=Checked, Component=Checkbox", 108.03x28.02px, horizontal pad 0 0 0 0px gap 14.01px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group", 28.02x28.02px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle", 28.02x28.02px, constraints left/top, radius 9.34px, fill #005555
+            - VECTOR "Vector", 10.51x7px, constraints scale/scale, stroke #FFFFFF 3.5px
+          - TEXT "Checked", 66x23px, constraints scale/scale, fill #FFFFFF, text [Urbanist SemiBold, 16.34px]
+  - GROUP "Group 3", 357.22x186.43px, constraints left/top
+    - FRAME "Radio", 357.22x186.43px, vertical pad 0 0 0 0px gap 37.36px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Radio", 357.22x23px, constraints left/top, fill #434343, text [Inter SemiBold, 16.34px]
+      - COMPONENT_SET "Radio", 357.22x126.08px, constraints left/top, radius 5.84px, stroke #005555 1.17px
+        - COMPONENT "Style=Text, Theme=Light, State=Selected, Component=Radio", 114.03x28.02px, horizontal pad 0 0 0 0px gap 14.01px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group", 28.02x28.02px, constraints left/top
+            - ELLIPSE "Ellipse", 28.02x28.02px, constraints left/top, stroke #005555 3.5px
+            - ELLIPSE "Ellipse", 16.34x16.34px, constraints left/top, fill #005555
+          - TEXT "Selected", 72x23px, constraints scale/scale, fill #434343, text [Inter SemiBold, 16.34px]
+        - COMPONENT "Style=Text, Theme=Dark, State=Selected, Component=Radio", 108.03x28.02px, horizontal pad 0 0 0 0px gap 14.01px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group", 28.02x28.02px, constraints left/top
+            - ELLIPSE "Ellipse", 28.02x28.02px, constraints left/top, stroke #005555 3.5px
+            - ELLIPSE "Ellipse", 16.34x16.34px, constraints left/top, fill #005555
+          - TEXT "Selected", 66x23px, constraints scale/scale, fill #FFFFFF, text [Urbanist SemiBold, 16.34px]
+        - COMPONENT "Style=Text, Theme=Light, State=Unselected, Component=Radio", 135.03x28.02px, horizontal pad 0 0 0 0px gap 14.01px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse", 28.02x28.02px, constraints left/top, stroke #005555 3.5px
+          - TEXT "Unselected", 93x23px, constraints scale/scale, fill #434343, text [Inter SemiBold, 16.34px]
+        - COMPONENT "Style=Text, Theme=Dark, State=Unselected, Component=Radio", 126.03x28.02px, horizontal pad 0 0 0 0px gap 14.01px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse", 28.02x28.02px, constraints left/top, stroke #005555 3.5px
+          - TEXT "Unselected", 84x23px, constraints scale/scale, fill #FFFFFF, text [Urbanist SemiBold, 16.34px]
+        - COMPONENT "Style=None, Theme=Default, State=Unselected, Component=Radio", 28.02x28.02px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse", 28.02x28.02px, constraints scale/scale, stroke #005555 3.5px
+        - COMPONENT "Style=None, Theme=Default, State=Selected, Component=Radio", 28.02x28.02px, constraints left/top
+          - ELLIPSE "Ellipse", 28.02x28.02px, constraints scale/scale, stroke #005555 3.5px
+          - ELLIPSE "Ellipse", 16.34x16.34px, constraints scale/scale, fill #005555
+  - GROUP "Group 4", 219.47x125.73px, constraints left/top
+    - FRAME "Toggle", 219.47x125.73px, vertical pad 0 0 0 0px gap 37.36px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Label", 219.47x23px, constraints left/top, fill #434343, text [Inter SemiBold, 16.34px]
+      - COMPONENT_SET "Toggle", 219.47x65.37px, constraints left/top, radius 5.84px, stroke #005555 1.17px
+        - COMPONENT "State=Disabled, Theme=Light, Component=Toggle", 51.36x28.02px, constraints left/top, radius 1167.37px, fill #EEEEEE
+          - FRAME "Frame", 28.02x28.02px, constraints left/top, radius 1167.37px, fill #FFFFFF, stroke #EEEEEE 2.33px
+        - COMPONENT "State=Disabled, Theme=Dark, Component=Toggle", 51.36x28.02px, constraints left/top, radius 1167.37px, fill #434343
+          - FRAME "Frame", 28.02x28.02px, constraints left/top, radius 1167.37px, fill #FFFFFF, stroke #434343 2.33px
+        - COMPONENT "State=Enabled, Theme=Default, Component=Toggle", 51.36x28.02px, constraints left/top, radius 1167.37px, fill #005555
+          - FRAME "Frame", 28.02x28.02px, constraints left/top, radius 1167.37px, fill #FFFFFF, stroke #005555 2.33px
+  - FRAME "Chips", 390x537px, constraints left/top
+    - TEXT "Chips", 390x35px, constraints left/top, fill #212121, text [Inter Bold, 32px], [heading]
+    - COMPONENT_SET "Chips", 390x470px, constraints left/top, radius 5px, stroke #005555 1px
+      - COMPONENT "Size=Large, Type=Filled, Icon=None, Component=Chips", 100x45px, horizontal pad 10 24 10 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #005555
+        - TEXT "Chips", 52x25px, constraints left/top, fill #FFFFFF, text [Inter Bold, 18px]
+      - COMPONENT "Size=Large, Type=Border, Icon=None, Component=Chips", 100x45px, horizontal pad 10 24 10 24px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #005555 2px
+        - TEXT "Chips", 52x25px, constraints left/top, fill #005555, text [Inter Bold, 18px]
+      - COMPONENT "Size=Large, Type=Filled, Icon=Left, Component=Chips", 128x45px, horizontal pad 10 24 10 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #005555
+        - INSTANCE "Iconly/Bold/Star", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Star", 16.67x15.83px, constraints left/top, fill #FFFFFF
+            - VECTOR "Star", 16.67x15.83px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Chips", 52x25px, constraints left/top, fill #FFFFFF, text [Inter Bold, 18px]
+      - COMPONENT "Size=Large, Type=Border, Icon=Left, Component=Chips", 128x45px, horizontal pad 10 24 10 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #005555 2px
+        - INSTANCE "Iconly/Bold/Star", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Star", 16.67x15.83px, constraints left/top, fill #FFFFFF
+            - VECTOR "Star", 16.67x15.83px, constraints scale/scale, fill #005555
+        - TEXT "Chips", 52x25px, constraints left/top, fill #005555, text [Inter Bold, 18px]
+      - COMPONENT "Size=Large, Type=Filled, Icon=Right, Component=Chips", 128x45px, horizontal pad 10 24 10 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #005555
+        - TEXT "Chips", 52x25px, constraints left/top, fill #FFFFFF, text [Inter Bold, 18px]
+        - INSTANCE "Iconly/Light-Outline/Close Square", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Close Square", 16.67x16.67px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - COMPONENT "Size=Large, Type=Border, Icon=Right, Component=Chips", 128x45px, horizontal pad 10 24 10 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #005555 2px
+        - TEXT "Chips", 52x25px, constraints left/top, fill #005555, text [Inter Bold, 18px]
+        - INSTANCE "Iconly/Light-Outline/Close Square", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Close Square", 16.67x16.67px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - COMPONENT "Size=Medium, Type=Filled, Icon=Left, Component=Chips", 110x38px, horizontal pad 8 20 8 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #005555
+        - INSTANCE "Iconly/Bold/Star", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Star", 13.34x12.67px, constraints left/top, fill #FFFFFF
+            - VECTOR "Star", 13.34x12.67px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Chips", 46x22px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 16px]
+      - COMPONENT "Size=Medium, Type=Border, Icon=Left, Component=Chips", 110x38px, horizontal pad 8 20 8 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #005555 2px
+        - INSTANCE "Iconly/Bold/Star", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Star", 13.34x12.67px, constraints left/top, fill #FFFFFF
+            - VECTOR "Star", 13.34x12.67px, constraints scale/scale, fill #005555
+        - TEXT "Chips", 46x22px, constraints left/top, fill #005555, text [Inter SemiBold, 16px]
+      - COMPONENT "Size=Medium, Type=Filled, Icon=None, Component=Chips", 86x38px, horizontal pad 8 20 8 20px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #005555
+        - TEXT "Chips", 46x22px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 16px]
+      - COMPONENT "Size=Medium, Type=Border, Icon=None, Component=Chips", 86x38px, horizontal pad 8 20 8 20px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #005555 2px
+        - TEXT "Chips", 46x22px, constraints left/top, fill #005555, text [Inter SemiBold, 16px]
+      - COMPONENT "Size=Small, Type=Filled, Icon=Left, Component=Chips", 92x32px, horizontal pad 6 16 6 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #005555
+        - INSTANCE "Iconly/Bold/Star", 12x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Star", 10x9.5px, constraints left/top, fill #FFFFFF
+            - VECTOR "Star", 10x9.5px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Chips", 40x20px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 14px]
+      - COMPONENT "Size=Small, Type=Border, Icon=Left, Component=Chips", 92x32px, horizontal pad 6 16 6 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #005555 2px
+        - INSTANCE "Iconly/Bold/Star", 12x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Star", 10x9.5px, constraints left/top, fill #FFFFFF
+            - VECTOR "Star", 10x9.5px, constraints scale/scale, fill #005555
+        - TEXT "Chips", 40x20px, constraints left/top, fill #005555, text [Inter SemiBold, 14px]
+      - COMPONENT "Size=Medium, Type=Filled, Icon=Right, Component=Chips", 110x38px, horizontal pad 8 20 8 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #005555
+        - TEXT "Chips", 46x22px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 16px]
+        - INSTANCE "Iconly/Light-Outline/Close Square", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Close Square", 13.33x13.33px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - COMPONENT "Size=Medium, Type=Border, Icon=Right, Component=Chips", 110x38px, horizontal pad 8 20 8 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #005555 2px
+        - TEXT "Chips", 46x22px, constraints left/top, fill #005555, text [Inter SemiBold, 16px]
+        - INSTANCE "Iconly/Light-Outline/Close Square", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Close Square", 13.33x13.33px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - COMPONENT "Size=Small, Type=Filled, Icon=None, Component=Chips", 72x32px, horizontal pad 6 16 6 16px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #005555
+        - TEXT "Chips", 40x20px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 14px]
+      - COMPONENT "Size=Small, Type=Border, Icon=None, Component=Chips", 72x32px, horizontal pad 6 16 6 16px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #005555 2px
+        - TEXT "Chips", 40x20px, constraints left/top, fill #005555, text [Inter SemiBold, 14px]
+      - COMPONENT "Size=Small, Type=Filled, Icon=Right, Component=Chips", 92x32px, horizontal pad 6 16 6 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #005555
+        - TEXT "Chips", 40x20px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 14px]
+        - INSTANCE "Iconly/Light-Outline/Close Square", 12x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Close Square", 10x10px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - COMPONENT "Size=Small, Type=Border, Icon=Right, Component=Chips", 92x32px, horizontal pad 6 16 6 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, stroke #005555 2px
+        - TEXT "Chips", 40x20px, constraints left/top, fill #005555, text [Inter SemiBold, 14px]
+        - INSTANCE "Iconly/Light-Outline/Close Square", 12x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Close Square", 10x10px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - TEXT "Label", 904x35px, constraints left/top, fill #212121, text [Inter Bold, 32px], [heading]
+  - COMPONENT_SET "Bottom bar", 904x470px, constraints left/top, radius 5px, stroke #028989 1px
+    - COMPONENT "Active Menu=Light Home, Component=Bottom Bar", 428x82px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill Shadow / 400, effect [drop_shadow 4.15px offset 0 2.76 #0000000D, drop_shadow 10.37px offset 0 6.91 #0000001A]
+      - FRAME "Auto Layout Horizontal", 428x48px, horizontal pad 0 32 0 32px gap 19px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Bold/Home", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 19x20px, constraints left/top, fill #FFFFFF
+          - TEXT "Home", 55x12px, constraints left/top, fill #005555, text [body / xsmall / bold]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Document", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Document", 16.67x18.41px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Project", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Horizontal", 68x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 40x40px, constraints left/top, radius 1000px, fill #005555
+            - INSTANCE "Iconly/Curved/Plus", 40x40px, constraints center/center, fill #FFFFFF
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Chat", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Chat", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Inbox", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Profile", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.34x18.41px, constraints left/top, fill #FFFFFF
+          - TEXT "Profile", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+      - INSTANCE "Home Indicator", 428x34px, constraints left_right/bottom, fill #FFFFFF
+        - VECTOR "Vector", 134x5px, constraints center/bottom, radius 100px, fill #E0E0E0
+    - COMPONENT "Active Menu=Dark Home, Component=Bottom Bar", 428x90px, vertical pad 8 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16/16/0/0px, fill #181A20D9, effect [background_blur 20px]
+      - FRAME "Auto Layout Horizontal", 428x48px, horizontal pad 0 32 0 32px gap 19px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Bold/Home", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 19x20px, constraints left/top, fill #FFFFFF
+          - TEXT "Home", 55x12px, constraints left/top, fill #009A9A, text [Inter Bold, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Document", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Document", 16.67x18.41px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Project", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Horizontal", 68x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 40x40px, constraints left/top, radius 1000px, fill #F7FCFF
+            - INSTANCE "Iconly/Curved/Plus", 40x40px, constraints center/center, fill #005555
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Chat", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Chat", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Inbox", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Profile", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.34x18.41px, constraints left/top, fill #FFFFFF
+          - TEXT "Profile", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+      - INSTANCE "Home Indicator", 428x34px, constraints left_right/bottom, fill #FFFFFF
+        - VECTOR "Vector", 134x5px, constraints center/bottom, radius 100px, fill #424242
+    - COMPONENT "Active Menu=Light Project, Component=Bottom Bar", 428x82px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill Shadow / 400, effect [drop_shadow 4.15px offset 0 2.76 #0000000D, drop_shadow 10.37px offset 0 6.91 #0000001A]
+      - FRAME "Auto Layout Horizontal", 428x48px, horizontal pad 0 32 0 32px gap 19px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Home", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 19x20px, constraints left/top, fill #FFFFFF
+          - TEXT "Home", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Bold/Document", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Document", 18x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+          - TEXT "Project", 55x12px, constraints left/top, fill #005555, text [body / xsmall / bold]
+        - FRAME "Auto Layout Horizontal", 68x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 40x40px, constraints left/top, radius 1000px, fill #005555
+            - INSTANCE "Iconly/Curved/Plus", 40x40px, constraints center/center, fill #FFFFFF
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Chat", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Chat", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Inbox", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Profile", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.34x18.41px, constraints left/top, fill #FFFFFF
+          - TEXT "Profile", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+      - INSTANCE "Home Indicator", 428x34px, constraints left_right/bottom, fill #FFFFFF
+        - VECTOR "Vector", 134x5px, constraints center/bottom, radius 100px, fill #E0E0E0
+    - COMPONENT "Active Menu=Dark Project, Component=Bottom Bar", 428x90px, vertical pad 8 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16/16/0/0px, fill #181A20D9, effect [background_blur 20px]
+      - FRAME "Auto Layout Horizontal", 428x48px, horizontal pad 0 32 0 32px gap 19px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Home", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 19x20px, constraints left/top, fill #FFFFFF
+          - TEXT "Home", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Bold/Document", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Document", 18x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+          - TEXT "Project", 55x12px, constraints left/top, fill #009A9A, text [Inter Bold, 10px]
+        - FRAME "Auto Layout Horizontal", 68x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 40x40px, constraints left/top, radius 1000px, fill #FFFFFF
+            - INSTANCE "Iconly/Curved/Plus", 40x40px, constraints center/center, fill #FFFFFF
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Chat", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Chat", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Inbox", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Profile", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.34x18.41px, constraints left/top, fill #FFFFFF
+          - TEXT "Profile", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+      - INSTANCE "Home Indicator", 428x34px, constraints left_right/bottom, fill #FFFFFF
+        - VECTOR "Vector", 134x5px, constraints center/bottom, radius 100px, fill #424242
+    - COMPONENT "Active Menu=Light Inbox, Component=Bottom Bar", 428x82px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill Shadow / 400, effect [drop_shadow 4.15px offset 0 2.76 #0000000D, drop_shadow 10.37px offset 0 6.91 #0000001A]
+      - FRAME "Auto Layout Horizontal", 428x48px, horizontal pad 0 32 0 32px gap 19px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Home", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 19x20px, constraints left/top, fill #FFFFFF
+          - TEXT "Home", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Document", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Document", 16.67x18.41px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Project", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Horizontal", 68x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 40x40px, constraints left/top, radius 1000px, fill #005555
+            - INSTANCE "Iconly/Curved/Plus", 40x40px, constraints center/center, fill #FFFFFF
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Bold/Chat", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Chat", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+          - TEXT "Inbox", 55x12px, constraints left/top, fill #005555, text [Inter Bold, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Profile", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.34x18.41px, constraints left/top, fill #FFFFFF
+          - TEXT "Profile", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+      - INSTANCE "Home Indicator", 428x34px, constraints left_right/bottom, fill #FFFFFF
+        - VECTOR "Vector", 134x5px, constraints center/bottom, radius 100px, fill #E0E0E0
+    - COMPONENT "Active Menu=Dark Inbox, Component=Bottom Bar", 428x90px, vertical pad 8 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16/16/0/0px, fill #181A20D9, effect [background_blur 20px]
+      - FRAME "Auto Layout Horizontal", 428x48px, horizontal pad 0 32 0 32px gap 19px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Home", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 19x20px, constraints left/top, fill #FFFFFF
+          - TEXT "Home", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Document", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Document", 16.67x18.41px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Project", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+        - FRAME "Auto Layout Horizontal", 68x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 40x40px, constraints left/top, radius 1000px, fill #FFFFFF
+            - INSTANCE "Iconly/Curved/Plus", 40x40px, constraints center/center, fill #FFFFFF
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Bold/Chat", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Chat", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+          - TEXT "Inbox", 55x12px, constraints left/top, fill #009A9A, text [body / xsmall / bold]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Profile", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.34x18.41px, constraints left/top, fill #FFFFFF
+          - TEXT "Profile", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Light, 10px]
+      - INSTANCE "Home Indicator", 428x34px, constraints left_right/bottom, fill #FFFFFF
+        - VECTOR "Vector", 134x5px, constraints center/bottom, radius 100px, fill #424242
+    - COMPONENT "Active Menu=Light Profile, Component=Bottom Bar", 428x82px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill Shadow / 400, effect [drop_shadow 4.15px offset 0 2.76 #0000000D, drop_shadow 10.37px offset 0 6.91 #0000001A]
+      - FRAME "Auto Layout Horizontal", 428x48px, horizontal pad 0 32 0 32px gap 19px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Home", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 19x20px, constraints left/top, fill #FFFFFF
+          - TEXT "Home", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Medium, 10px]
+        - FRAME "Auto Layout Vertical", 55x38px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Iconly/Light/Document", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Document", 16.67x18.41px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Project", 55x12px, constraints left/top, fill #9E9E9E, text [Inter Medium, 10px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

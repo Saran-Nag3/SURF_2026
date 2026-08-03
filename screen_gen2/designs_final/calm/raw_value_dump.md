@@ -1,0 +1,1333 @@
+---
+name: calm-design-system-community
+source_file: Calm Design System (Community)
+source_page: All pages (2): Calm Design System by Akshay Syal, Symbols
+generated_at: 2026-07-25T09:20:19.884674+00:00
+---
+
+# Calm Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Calm Design System (Community)
+- Figma page: All pages (2): Calm Design System by Akshay Syal, Symbols
+- Extracted at: 2026-07-25T09:20:19.884674+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 389 uses
+- #000000: 143 uses
+- #060606: 130 uses
+- #DDDDDD: 78 uses
+- #F4F5F7: 70 uses
+- #828894: 54 uses
+- #FB6340: 52 uses
+- #2DCE89: 41 uses
+- #8062F91A: 40 uses
+- #11CDEF: 35 uses
+- #172B4D: 35 uses
+- #5E72E4: 35 uses
+- #F5365C: 35 uses
+- #010101: 33 uses
+- #10182F: 22 uses
+- #FAFAFA: 22 uses
+- #9E9E9E: 21 uses
+- #DADDE3: 19 uses
+- #D8DCE6: 16 uses
+- #00EFE1: 11 uses
+- #DADADA: 11 uses
+- #37D5F2: 8 uses
+- #ADADAD: 8 uses
+- #B0B7C3: 8 uses
+- #BFC0C3: 8 uses
+- #CECECE: 8 uses
+- #F75676: 8 uses
+- #FB9B14: 8 uses
+- #FC7C5F: 8 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- SF Pro Display Bold, 14px: 133 uses
+- Inter Medium, 24px: 110 uses
+- SF Pro Display Medium, 14px: 44 uses
+- SF Pro Display Medium, 12px: 30 uses
+- SF Pro Display Regular, 14px: 22 uses
+- Inter Medium, 14px: 12 uses
+- SF Pro Display Medium, 16px: 12 uses
+- SF Pro Display Semibold, 14px: 12 uses
+- SF Pro Display Semibold, 24px: 12 uses
+- Inter SemiBold, 14px: 10 uses
+- SF Pro Display Regular, 24px: 5 uses
+- SF Pro Display Semibold, 18px: 5 uses
+- SF Pro Display Bold, 36px: 3 uses
+- SF Pro Display Regular, 20px: 3 uses
+
+## Typography Hierarchy
+- 36px - SF Pro Display Bold, 36px (raw)
+- 24px - Inter Medium, 24px (raw)
+- 24px - SF Pro Display Regular, 24px (raw)
+- 24px - SF Pro Display Semibold, 24px (raw)
+- 20px - SF Pro Display Regular, 20px (raw)
+- 18px - SF Pro Display Semibold, 18px (raw)
+- 16px - SF Pro Display Medium, 16px (raw)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - SF Pro Display Bold, 14px (raw)
+- 14px - SF Pro Display Medium, 14px (raw)
+- 14px - SF Pro Display Regular, 14px (raw)
+- 14px - SF Pro Display Semibold, 14px (raw)
+- 12px - SF Pro Display Medium, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Pagination
+- toaster_danger_with_icon
+- toaster_info_with_icon
+- toaster_warning_with_icon
+- tooltips_top_right
+- tooltips_bottom_left
+- tooltips_top_left
+- tooltips_bottom_right
+- tooltips_right
+- tooltips_left
+- tooltips_top_center
+- tooltips_bottom_center
+- toaster_success_with_icon
+- label_secondary
+- label_default
+- label_warning
+- label_danger
+- label_success
+- label_info
+- label_primary
+- btn_secondary_rounded
+- btn_secondary_border_icon
+- alert_danger
+- alert_danger_with_icon
+- alert_info
+- alert_info_with_icon
+- alert_warning
+- alert_warning_with_icon
+- alert_success
+- alert_success_with_icon
+- btn_secondary_rounded_icon
+- btn_secondary_with_icon
+- btn_secondary_without_border
+- btn_secondary_border_rounded
+- btn_secondary_border
+- btn_secondary
+- btn_default_rounded
+- btn_default_border_icon
+- btn_default_rounded_icon
+- btn_default_with_icon
+- btn_default_without_border
+- btn_default_border_rounded
+- btn_default_border
+- btn_default
+- btn_warning_rounded
+- btn_warning_border_icon
+- btn_warning_rounded_icon
+- btn_warning_with_icon
+- btn_warning_without_border
+- btn_warning_border_rounded
+- btn_warning_border
+- btn_warning
+- btn_danger_rounded
+- btn_danger_border_icon
+- btn_danger_rounded_icon
+- btn_danger_with_icon
+- btn_danger_without_border
+- btn_danger_border_rounded
+- btn_danger_border
+- btn_danger
+- btn_success_rounded
+- btn_success_border_icon
+- btn_success_rounded_icon
+- btn_success_with_icon
+- btn_success_without_border
+- btn_success_border_rounded
+- btn_success_border
+- btn_success
+- btn_info_rounded
+- btn_info_border_icon
+- btn_info_rounded_icon
+- btn_info_with_icon
+- btn_info_without_border
+- btn_info_border_rounded
+- btn_info_border
+- btn_info
+- btn_primary_rounded
+- btn_primary_border_icon
+- btn_primary_rounded_icon
+- btn_primary_with_icon
+- btn_primary_without_border
+- btn_primary_border_rounded
+- btn_primary_border
+- btn_primary
+- Disabled checkbox
+- Disabled unchecked
+- Checked
+- Toggle On
+- Toggle Off
+- Unchecked
+- Disabled Checked
+- Disabled Unchecked
+- unchecked
+- Input Select Option
+- Input Field with Password
+- Input Field with Textarea
+- Input Field with Disable
+- Input Field with calendar
+- Input Field with search
+- Input Field with warning
+- Input Field with inside error
+- Input Field with Success
+- Input Field with error
+- Input Field with border
+- Input Field
+- Grids
+
+## Component Specs
+- Pagination (Symbols): size 504x60px, text [Inter Medium, 24px]
+- Pagination (Symbols): size 571x60px, text [Inter Medium, 24px]
+- Pagination (Symbols): size 502x60px, text [Inter Medium, 24px]
+- Pagination (Symbols): size 356x60px, text [Inter Medium, 24px]
+- Pagination (Symbols): size 459.91x60px, text [Inter Medium, 24px]
+- Pagination (Symbols): size 385.91x60px, text [Inter Medium, 24px]
+- toaster_danger_with_icon: size 462x66px, text [SF Pro Display Medium, 12px, SF Pro Display Medium, 14px]
+- toaster_info_with_icon: size 462x66px, text [SF Pro Display Medium, 14px]
+- toaster_warning_with_icon: size 462x66px, text [SF Pro Display Medium, 12px, SF Pro Display Medium, 14px]
+- tooltips_top_right: size 123x46px, text [SF Pro Display Medium, 14px]
+- tooltips_bottom_left: size 123x46px, text [SF Pro Display Medium, 14px]
+- tooltips_top_left: size 123x46px, text [SF Pro Display Medium, 14px]
+- tooltips_bottom_right: size 123x46px, text [SF Pro Display Medium, 14px]
+- tooltips_right: size 131x38px, text [SF Pro Display Medium, 14px]
+- tooltips_left: size 131x38px, text [SF Pro Display Medium, 14px]
+- tooltips_top_center: size 123x46px, text [SF Pro Display Medium, 14px]
+- tooltips_bottom_center: size 123x46px, text [SF Pro Display Medium, 14px]
+- toaster_success_with_icon: size 462x66px, text [SF Pro Display Medium, 12px, SF Pro Display Medium, 14px]
+- label_secondary: size 125x32px, text [SF Pro Display Bold, 14px]
+- label_default: size 106x32px, text [SF Pro Display Bold, 14px]
+- label_warning: size 103x32px, text [SF Pro Display Bold, 14px]
+- label_danger: size 103x32px, text [SF Pro Display Bold, 14px]
+- label_success: size 103x32px, text [SF Pro Display Bold, 14px]
+- label_info: size 76x32px, text [SF Pro Display Bold, 14px]
+- label_primary: size 105x32px, text [SF Pro Display Bold, 14px]
+- btn_secondary_rounded: size 125x43px, text [SF Pro Display Bold, 14px]
+- btn_secondary_border_icon: size 146x43px, text [SF Pro Display Bold, 14px]
+- alert_danger: size 462x43px, text [SF Pro Display Medium, 14px]
+- alert_danger_with_icon: size 462x43px, text [SF Pro Display Medium, 14px]
+- alert_info: size 462x43px, text [SF Pro Display Medium, 14px]
+- alert_info_with_icon: size 462x43px, text [SF Pro Display Medium, 14px]
+- alert_warning: size 462x43px, text [SF Pro Display Medium, 14px]
+- alert_warning_with_icon: size 462x43px, text [SF Pro Display Medium, 14px]
+- alert_success: size 462x43px, text [SF Pro Display Medium, 14px]
+- alert_success_with_icon: size 462x43px, text [SF Pro Display Medium, 14px]
+- btn_secondary_rounded_icon: size 146x43px, text [SF Pro Display Bold, 14px]
+- btn_secondary_with_icon: size 146x43px, text [SF Pro Display Bold, 14px]
+- btn_secondary_without_border: size 125x43px, text [SF Pro Display Bold, 14px]
+- btn_secondary_border_rounded: size 125x43px, text [SF Pro Display Bold, 14px]
+- btn_secondary_border: size 125x43px, text [SF Pro Display Bold, 14px]
+- btn_secondary: size 125x43px, text [SF Pro Display Bold, 14px]
+- btn_default_rounded: size 106x43px, text [SF Pro Display Bold, 14px]
+- btn_default_border_icon: size 118x43px, text [SF Pro Display Bold, 14px]
+- btn_default_rounded_icon: size 118x43px, text [SF Pro Display Bold, 14px]
+- btn_default_with_icon: size 118x43px, text [SF Pro Display Bold, 14px]
+- btn_default_without_border: size 106x43px, text [SF Pro Display Bold, 14px]
+- btn_default_border_rounded: size 106x43px, text [SF Pro Display Bold, 14px]
+- btn_default_border: size 106x43px, text [SF Pro Display Bold, 14px]
+- btn_default: size 106x43px, text [SF Pro Display Bold, 14px]
+- btn_warning_rounded: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_warning_border_icon: size 126x43px, text [SF Pro Display Bold, 14px]
+- btn_warning_rounded_icon: size 126x43px, text [SF Pro Display Bold, 14px]
+- btn_warning_with_icon: size 126x43px, text [SF Pro Display Bold, 14px]
+- btn_warning_without_border: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_warning_border_rounded: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_warning_border: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_warning: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_danger_rounded: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_danger_border_icon: size 118x43px, text [SF Pro Display Bold, 14px]
+- btn_danger_rounded_icon: size 118x43px, text [SF Pro Display Bold, 14px]
+- btn_danger_with_icon: size 118x43px, text [SF Pro Display Bold, 14px]
+- btn_danger_without_border: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_danger_border_rounded: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_danger_border: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_danger: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_success_rounded: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_success_border_icon: size 125x43px, text [SF Pro Display Bold, 14px]
+- btn_success_rounded_icon: size 125x43px, text [SF Pro Display Bold, 14px]
+- btn_success_with_icon: size 125x43px, text [SF Pro Display Bold, 14px]
+- btn_success_without_border: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_success_border_rounded: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_success_border: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_success: size 103x43px, text [SF Pro Display Bold, 14px]
+- btn_info_rounded: size 76x43px, text [SF Pro Display Bold, 14px]
+- btn_info_border_icon: size 91x43px, text [SF Pro Display Bold, 14px]
+- btn_info_rounded_icon: size 91x43px, text [SF Pro Display Bold, 14px]
+- btn_info_with_icon: size 91x43px, text [SF Pro Display Bold, 14px]
+- btn_info_without_border: size 76x43px, text [SF Pro Display Bold, 14px]
+- btn_info_border_rounded: size 76x43px, text [SF Pro Display Bold, 14px]
+- btn_info_border: size 76x43px, text [SF Pro Display Bold, 14px]
+- btn_info: size 76x43px, text [SF Pro Display Bold, 14px]
+- btn_primary_rounded: size 105x43px, text [SF Pro Display Bold, 14px]
+- btn_primary_border_icon: size 124x43px, text [SF Pro Display Bold, 14px]
+- btn_primary_rounded_icon: size 124x43px, text [SF Pro Display Bold, 14px]
+- btn_primary_with_icon: size 124x43px, text [SF Pro Display Bold, 14px]
+- btn_primary_without_border: size 105x43px, text [SF Pro Display Bold, 14px]
+- btn_primary_border_rounded: size 105x43px, text [SF Pro Display Bold, 14px]
+- btn_primary_border: size 105x43px, text [SF Pro Display Bold, 14px]
+- btn_primary: size 105x43px, text [SF Pro Display Bold, 14px]
+- Disabled checkbox: size 191x20px, text [Inter SemiBold, 14px]
+- Disabled unchecked: size 191x20px, text [Inter SemiBold, 14px]
+- Checked: size 191x20px, text [Inter SemiBold, 14px]
+- Toggle On: size 207x20px, text [Inter SemiBold, 14px]
+- Toggle Off: size 207x20px, text [Inter SemiBold, 14px]
+- Unchecked: size 191x20px, text [Inter SemiBold, 14px]
+- Disabled Checked: size 191x20px, text [Inter SemiBold, 14px]
+- Disabled Unchecked: size 191x20px, text [Inter SemiBold, 14px]
+- unchecked: size 191x20px, text [Inter SemiBold, 14px]
+- Input Select Option: size 380x215px, text [Inter Medium, 14px, SF Pro Display Medium, 12px]
+- Input Field with Password: size 380x72px, text [SF Pro Display Medium, 12px, Inter Medium, 14px]
+- Input Field with Textarea: size 400x128px, text [Inter Medium, 14px, SF Pro Display Medium, 12px]
+- Input Field with Disable: size 380x72px, text [SF Pro Display Medium, 12px, SF Pro Display Regular, 14px]
+- Input Field with calendar: size 380x72px, text [SF Pro Display Medium, 12px, SF Pro Display Regular, 14px]
+- Input Field with search: size 380x72px, text [SF Pro Display Medium, 12px, SF Pro Display Regular, 14px]
+- Input Field with warning: size 380x72px, text [SF Pro Display Medium, 12px, Inter Regular, 14px]
+- Input Field with inside error: size 380x72px, fill #FFFFFF, text [SF Pro Display Medium, 12px, SF Pro Display Regular, 14px]
+- Input Field with Success: size 380x72px, text [SF Pro Display Medium, 12px, SF Pro Display Regular, 14px]
+- Input Field with error: size 380x96px, text [SF Pro Display Regular, 11px, SF Pro Display Medium, 12px, SF Pro Display Regular, 14px]
+- Input Field with border: size 380x72px, text [SF Pro Display Medium, 12px, SF Pro Display Regular, 14px]
+- Input Field: size 380x72px, text [SF Pro Display Medium, 12px, SF Pro Display Regular, 14px]
+- Grids / iOS Grid 375px: size 375x224px, fill #FFFFFF
+- Grids / Mobile Web Grid 320px: size 320x224px, fill #FFFFFF
+- Grids / Desktop 1180 px: size 1180x224px, fill #FFFFFF
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Calm Design System by Akshay Syal / Typography
+- FRAME "Typography", 1440x884px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Typography", 1313x558px, constraints left/top, fill #FFFFFF
+    - FRAME "Text link", 743x20px, constraints left/top, fill #FFFFFF
+      - TEXT "Lets Buy Now Click on this link", 236.11x20px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 14px]
+      - TEXT "BUY NOW", 76x20px, constraints scale/center, fill #538DFF, text [SF Pro Display Medium, 14px]
+      - TEXT "Text link", 451.74x20px, constraints scale/center, fill #538DFF, text [SF Pro Display Medium, 14px]
+    - FRAME "Small", 1201.73x16px, constraints left/top, fill #FFFFFF
+      - TEXT "by Bruce Wayne", 756.64x16px, constraints scale/center, fill #828894, text [SF Pro Display Regular, 12px]
+      - TEXT "Small", 422.83x16px, constraints scale/center, fill #828894, text [SF Pro Display Regular, 12px]
+    - FRAME "Body", 1201.73x80px, constraints left/top, fill #FFFFFF
+      - TEXT "lorem ispum", 756.64x60px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 14px]
+      - TEXT "Body Copy", 422.83x20px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 14px]
+    - FRAME "Headline", 1201.73x20px, constraints left/top, fill #FFFFFF
+      - TEXT "Still Can't Decide?!", 756.64x20px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 14px]
+      - TEXT "Headline Copy", 422.83x20px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 14px]
+    - FRAME "Subtitle", 1201.73x24px, constraints left/top, fill #FFFFFF
+      - TEXT "Looking For More", 756.64x24px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 18px]
+      - TEXT "Subtitle", 422.83x24px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 18px]
+    - FRAME "Heading", 1201.73x32px, constraints left/top, fill #FFFFFF
+      - TEXT "Get started", 756.64x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+      - TEXT "Title", 422.83x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - FRAME "Main Heading", 1201.73x42px, constraints left/top, fill #FFFFFF
+      - TEXT "How Do You Get this Kit", 756.64x42px, constraints scale/center, fill #000000, text [SF Pro Display Bold, 36px], [heading]
+      - TEXT "Large title", 422.83x42px, constraints scale/center, fill #000000, text [SF Pro Display Bold, 36px], [heading]
+    - FRAME "Banner Text", 1312x71px, constraints left/top, fill #FFFFFF
+      - TEXT "Welcome to Design System", 946.34x56px, constraints scale/center, fill #000000, text [SF Pro Display Bold, 54px], [heading]
+      - TEXT "Banner Text", 461.63x56px, constraints scale/center, fill #000000, text [SF Pro Display Bold, 54px], [heading]
+    - FRAME "Typography Heading", 1313x68px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Line", 1313x1.66px, constraints scale/scale, fill #DADADA
+      - TEXT "Tilte", 154.67x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+
+Screen: Calm Design System by Akshay Syal / Calm Design System
+- FRAME "Calm Design System", 1440x884px, constraints scale/scale, fill #FFFFFF
+  - RECTANGLE "Rectangle 2956", 720x884px, constraints left/top, fill gradient_linear(#080808 0% | #1D1D1D 58% | #262626 100% | #08080800 100%)
+  - GROUP "Group 329", 363.68x32.98px, constraints scale/scale [decorative, ~11 shapes]
+  - TEXT "I'm Akshay Syal 🤘", 265x43px, constraints scale/scale, fill #FFFFFF, text [Abril Fatface Regular, 32px], [heading]
+  - TEXT "Freelance UI/UX Designer", 262x30px, constraints scale/scale, fill #FFFFFF, text [Abril Fatface Regular, 22px]
+  - GROUP "syalakshay", 187x186.5px, constraints scale/scale
+    - GROUP "Ellipse 30", 185x185px, constraints scale/scale
+      - VECTOR "Vector", 176x176px, constraints scale/scale, fill #FFFFFF1C, opacity 45%
+      - VECTOR "Vector", 185x185px, constraints scale/scale, fill image(hash: 793c976383bc94f4663ab81ade7b1d7af2437ce1), stroke #FFFFFF1C 9px
+    - GROUP "Mask Group 5", 187x185px, constraints scale/scale
+      - VECTOR "Image 46", 187x185px, constraints scale/scale
+  - TEXT "LET’S TALK ABOUT YOUR PROJECT", 237x19px, constraints scale/scale, fill #FFFFFF, text [Karla Regular, 16px], opacity 50%
+  - TEXT "@syalakshay", 122x23px, constraints scale/scale, fill #FFFFFF, text [Karla Regular, 20px]
+  - TEXT "www.akshaysyal.wordpress.com", 234x19px, constraints scale/scale, fill #FFFFFF, text [Karla Regular, 16px]
+  - TEXT "all portfolio username", 132x15px, constraints scale/scale, fill #FFFFFF, text [Karla Regular, 13px], opacity 40%
+  - TEXT "syalfreelance@gmail.com", 354x40px, constraints scale/scale, fill #FFFFFF, text [Abril Fatface Regular, 30px], [heading]
+  - FRAME "Frame", 428.81x117.97px, constraints left/top, fill #FFFFFF [decorative, ~38 shapes]
+  - TEXT "Title", 592x87px, constraints scale/center, fill #080808, text [SF Pro Display Regular, 24px], [heading]
+  - TEXT "Title", 592x144px, constraints scale/center, fill #080808, text [SF Pro Display Regular, 24px], [heading]
+  - TEXT "Large title", 422.83x42px, constraints scale/center, fill #000000, text [SF Pro Display Bold, 36px], [heading]
+  - TEXT "Title", 592x116px, constraints scale/center, fill #080808, text [SF Pro Display Regular, 24px], [heading]
+  - GROUP "Mask Group", 180x161px, constraints left/top, opacity 30%
+    - RECTANGLE "Rectangle 2957", 180x161px, constraints left/top, fill #C4C4C4
+    - VECTOR "Union 59", 205x175px, constraints scale/scale, fill #DDDDDD80, opacity 80%
+  - GROUP "Mask Group", 180x161px, constraints left/top, opacity 30%
+    - RECTANGLE "Rectangle 2957", 180x161px, constraints left/top, fill #C4C4C4
+    - VECTOR "Union 59", 205x175px, constraints scale/scale, fill #DDDDDD80, opacity 80%
+
+Screen: Calm Design System by Akshay Syal / Text Fields
+- FRAME "Text Fields", 1440x774px, constraints scale/scale, fill #FFFFFF
+  - FRAME "States", 1224x670px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Input Field", 380x72px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA
+      - TEXT "Value:", 348x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+    - INSTANCE "Input Field with border", 380x72px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 1px
+      - TEXT "Value:", 348x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+    - INSTANCE "Input Field with error", 380x96px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 0px
+      - TEXT "Value:", 348x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #FF0000, text [SF Pro Display Regular, 11px]
+    - INSTANCE "Input Field with Textarea", 400x128px, constraints left/top
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+      - RECTANGLE "Back layer - Style 🌈", 380x104px, constraints scale/scale, radius 4px, fill #FAFAFA
+      - RECTANGLE "⚠️ State", 380x104px, constraints scale/scale, radius 4px
+      - TEXT "🖍 Text Value", 363x88px, constraints scale/scale, fill #B0B7C3, text [Inter Medium, 14px]
+      - BOOLEAN_OPERATION "Resizer", 12.9x10.4px, constraints scale/scale, fill #B0B7C3
+    - INSTANCE "Input Field with Password", 380x72px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #FB9B14 0px
+      - INSTANCE "Icon", 20x20px, constraints scale/scale, fill #FFFFFF
+        - BOOLEAN_OPERATION "🎨 Icon style", 18.33x13.33px, constraints scale/scale, fill #C9CED6
+      - TEXT "Value:", 348x24px, constraints scale/scale, fill #B0B7C3, text [Inter Medium, 14px]
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+    - INSTANCE "Input Select Option", 380x215px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 1px
+      - TEXT "Value:", 311x24px, constraints scale/scale, fill #B0B7C3, text [Inter Medium, 14px]
+      - VECTOR "Vector 1", 12.5x6px, constraints scale/scale, radius 1px, fill #8A909C, stroke #000000 0px
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+      - RECTANGLE "Input Style", 380x133px, constraints scale/scale, radius 4px, fill #FFFFFF, effect [drop_shadow 4px offset 0 1 #00000014]
+      - TEXT "Value:", 311x24px, constraints scale/scale, fill #000000, text [Inter Medium, 14px]
+      - RECTANGLE "active_bg", 380x38px, constraints scale/scale, fill #F0F0F0
+      - TEXT "Value:", 311x24px, constraints scale/scale, fill #000000, text [Inter Medium, 14px]
+      - TEXT "Value:", 311x24px, constraints scale/scale, fill #000000, text [Inter Medium, 14px]
+    - INSTANCE "Input Field with inside error", 380x72px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #FB6340 1px
+      - TEXT "Value:", 348x20px, constraints scale/scale, fill #FB6340, text [SF Pro Display Regular, 14px]
+      - VECTOR "Value:", 10x10px, constraints scale/scale, fill #FB6340
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+    - INSTANCE "Input Field with warning", 380x72px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #FB9B14 1px
+      - TEXT "Value:", 348x20px, constraints scale/scale, fill #FB9B14, text [Inter Regular, 14px]
+      - VECTOR "Value:", 17.44x17.44px, constraints scale/scale, fill #FB9B14
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+    - INSTANCE "Input Field with Disable", 380x72px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #DADDE3, stroke #DDDDDD 0px
+      - TEXT "Value:", 348x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+    - TEXT "Styles", 75.72x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - INSTANCE "Input Field with Success", 380x72px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #2DCE89 1px
+      - TEXT "Value:", 348x20px, constraints scale/scale, fill #2DCE89, text [SF Pro Display Regular, 14px]
+      - VECTOR "Value:", 15.5x15.5px, constraints scale/scale, fill #2DCE89
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+    - INSTANCE "Input Field with search", 380x72px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 0px
+      - VECTOR "Value:", 15.99x16.02px, constraints scale/scale, fill #828894
+      - TEXT "Value:", 322x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+    - INSTANCE "Input Field with calendar", 380x72px, constraints left/top
+      - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 0px
+      - TEXT "Value:", 322x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+      - VECTOR "Value:", 14x16px, constraints scale/scale, fill #828894
+      - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+    - RECTANGLE "Rectangle", 1224x1.94px, constraints scale/scale, fill #DADADA
+
+Screen: Calm Design System by Akshay Syal / Buttons Style
+- FRAME "Buttons Style", 1440x1140px, constraints scale/scale, fill #FFFFFF
+  - GROUP "heading", 1224x50.62px, constraints left/top
+    - TEXT "Styles", 118x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - RECTANGLE "Rectangle", 1224x1.94px, constraints scale/scale, fill #DADADA
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - INSTANCE "btn_primary", 105x43px, constraints left/top
+    - RECTANGLE "button_bg", 105x43px, constraints scale/scale, radius 5px, fill #5E72E4
+    - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_primary_border", 105x43px, constraints left/top
+    - RECTANGLE "button_bg", 105x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #5E72E4 1px
+    - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #5E72E4, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_primary_border_rounded", 105x43px, constraints left/top
+    - RECTANGLE "button_bg", 105x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #5E72E4 1px
+    - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #5E72E4, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_primary_rounded", 105x43px, constraints left/top
+    - RECTANGLE "Rectangle 3", 105x43px, constraints scale/scale, radius 55px, fill #5E72E4
+    - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_info", 76x43px, constraints left/top
+    - RECTANGLE "button_bg", 76x43px, constraints scale/scale, radius 5px, fill #11CDEF
+    - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_info_border", 76x43px, constraints left/top
+    - RECTANGLE "button_bg", 76x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #11CDEF 1px
+    - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #11CDEF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_info_border_rounded", 76x43px, constraints left/top
+    - RECTANGLE "button_bg", 76x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #11CDEF 1px
+    - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #11CDEF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_info_rounded", 76x43px, constraints left/top
+    - RECTANGLE "button_bg", 76x43px, constraints scale/scale, radius 55px, fill #11CDEF
+    - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_success", 103x43px, constraints left/top
+    - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #2DCE89
+    - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_success_border", 103x43px, constraints left/top
+    - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #2DCE89 1px
+    - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #2DCE89, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_success_border_rounded", 103x43px, constraints left/top
+    - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #2DCE89 1px
+    - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #2DCE89, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_success_rounded", 103x43px, constraints left/top
+    - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 55px, fill #2DCE89
+    - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_danger", 103x43px, constraints left/top
+    - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #F5365C
+    - TEXT "DANGER", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_danger_border", 103x43px, constraints left/top
+    - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #F5365C 1px
+    - TEXT "DANGER", 77x16px, constraints scale/scale, fill #F5365C, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_danger_border_rounded", 103x43px, constraints left/top
+    - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #F5365C 1px
+    - TEXT "DANGER", 77x16px, constraints scale/scale, fill #F5365C, text [SF Pro Display Bold, 14px]
+  - INSTANCE "btn_danger_rounded", 103x43px, constraints left/top
+    - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 55px, fill #F5365C
+    - TEXT "DANGER", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - ... +40 more children
+
+Screen: Calm Design System by Akshay Syal / Controls
+- FRAME "Controls", 1440x774px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Checkboxes", 207x51px, constraints left/top
+    - TEXT "Styles", 207x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - RECTANGLE "Rectangle", 207x2px, constraints scale/scale, fill #DADADA
+  - INSTANCE "unchecked", 191x20px, constraints scale/scale
+    - RECTANGLE "box", 20x20px, constraints scale/scale, radius 4px, fill #FFFFFF, stroke #DADDE3 1px
+    - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - INSTANCE "Checked", 191x20px, constraints scale/scale
+    - RECTANGLE "box", 20x20px, constraints scale/scale, radius 4px, fill #FB6340, stroke #5333FF 0px
+    - VECTOR "Check", 12x10px, constraints scale/scale, fill #FFFFFF
+    - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - INSTANCE "Unchecked", 191x20px, constraints left/top
+    - RECTANGLE "box", 20x20px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #DADDE3 1px
+    - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - INSTANCE "Toggle Off", 207x20px, constraints left/top
+    - GROUP "Off", 36x20px, constraints scale/scale, radius 34px
+      - RECTANGLE "box", 36x20px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #DADDE3 1px
+      - RECTANGLE "box", 14x14px, constraints scale/scale, radius 34px, fill #DADDE3, stroke #D8DCE6 1px
+    - TEXT "Toggle Off", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - INSTANCE "Toggle On", 207x20px, constraints left/top
+    - GROUP "On", 36x20px, constraints scale/scale, radius 34px
+      - RECTANGLE "box", 36x20px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #FB6340 1px
+      - RECTANGLE "box", 14x14px, constraints scale/scale, radius 34px, fill #FB6340, stroke #FB6340 1px
+    - TEXT "Toggle On", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - INSTANCE "Checked", 191x20px, constraints left/top
+    - RECTANGLE "box", 20x20px, constraints scale/scale, radius 34px, fill #FB6340, stroke #D8DCE6 0px
+    - RECTANGLE "box", 8x8px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #D8DCE6 0px
+    - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - INSTANCE "Disabled unchecked", 191x20px, constraints left/top
+    - RECTANGLE "box", 20x20px, constraints scale/scale, radius 34px, fill #DADDE3, stroke #D8DCE6 1px
+    - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - INSTANCE "Disabled checkbox", 191x20px, constraints left/top
+    - RECTANGLE "box", 20x20px, constraints scale/scale, radius 34px, fill #DADDE3, stroke #D8DCE6 0px
+    - RECTANGLE "box", 8x8px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #D8DCE6 0px
+    - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - INSTANCE "Disabled Unchecked", 191x20px, constraints scale/scale
+    - RECTANGLE "box", 20x20px, constraints scale/scale, radius 4px, fill #DADDE3, stroke #D8DCE6 0px
+    - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - INSTANCE "Disabled Checked", 191x20px, constraints scale/scale
+    - RECTANGLE "box", 20x20px, constraints scale/scale, radius 4px, fill #DADDE3, stroke #D8DCE6 0px
+    - VECTOR "Check", 12x10px, constraints scale/scale, fill #FFFFFF
+    - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [SF Pro Display Semibold, 14px]
+  - GROUP "Radios", 207x51px, constraints left/top
+    - TEXT "Styles", 207x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - RECTANGLE "Rectangle", 207x2px, constraints scale/scale, fill #DADADA
+  - GROUP "Toggle", 207x51px, constraints left/top
+    - TEXT "Styles", 207x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - RECTANGLE "Rectangle", 207x2px, constraints scale/scale, fill #DADADA
+  - GROUP "Sliders", 280x51px, constraints left/top
+    - TEXT "Styles", 207x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - RECTANGLE "Rectangle", 280x2px, constraints scale/scale, fill #DADADA
+  - RECTANGLE "Rectangle", 280x4px, constraints scale/scale, radius 2px, fill #DADDE3
+  - RECTANGLE "Color", 68x4px, constraints scale/scale, radius 2px, fill #FB6340
+  - ELLIPSE "Handle", 24x24px, constraints center/center, fill #FFFFFF, effect [drop_shadow 6px offset 0 4 #82889452, drop_shadow 0px offset 0 0 #82889429]
+
+Screen: Calm Design System by Akshay Syal / Notifications
+- FRAME "Notifications", 1440x934px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "alert_success_with_icon", 462x43px, constraints left/top
+    - RECTANGLE "alert_bg", 462x43px, constraints scale/scale, radius 6px, fill #4FD69C, stroke #F4F5F7 0px
+    - TEXT "Success! This is a success alert—check it out!", 313x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+    - VECTOR "thumbs-up", 13.97x14px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "times", 9.64x9.64px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "alert_warning_with_icon", 462x43px, constraints left/top
+    - RECTANGLE "alert_bg", 462x43px, constraints scale/scale, radius 6px, fill #FC7C5F, stroke #F4F5F7 0px
+    - TEXT "Warning! This is a warning alert—check it out!", 313x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+    - VECTOR "exclamation-triangle", 15.74x13.99px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "times", 9.64x9.64px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "alert_info_with_icon", 462x43px, constraints left/top
+    - RECTANGLE "alert_bg", 462x43px, constraints scale/scale, radius 6px, fill #37D5F2, stroke #F4F5F7 0px
+    - TEXT "Info! This is an info alert—check it out!", 313x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+    - VECTOR "bell", 12.26x14px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "times", 9.64x9.64px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "alert_danger_with_icon", 462x43px, constraints left/top
+    - RECTANGLE "alert_bg", 462x43px, constraints scale/scale, radius 6px, fill #F75676, stroke #F4F5F7 0px
+    - TEXT "Danger! This is an error alert—check it out!", 313x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+    - VECTOR "exclamation-circle", 13.56x13.56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "times", 9.64x9.64px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "alert_success", 462x43px, constraints left/top
+    - RECTANGLE "alert_bg", 462x43px, constraints scale/scale, radius 6px, fill #4FD69C, stroke #F4F5F7 0px
+    - TEXT "Success! This is a success alert—check it out!", 313x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+    - VECTOR "times", 9.64x9.64px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "alert_warning", 462x43px, constraints left/top
+    - RECTANGLE "alert_bg", 462x43px, constraints scale/scale, radius 6px, fill #FC7C5F, stroke #F4F5F7 0px
+    - TEXT "Warning! This is a warning alert—check it out!", 313x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+    - VECTOR "times", 9.64x9.64px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "alert_info", 462x43px, constraints left/top
+    - RECTANGLE "alert_bg", 462x43px, constraints scale/scale, radius 6px, fill #37D5F2, stroke #F4F5F7 0px
+    - TEXT "Info! This is an info alert—check it out!", 313x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+    - VECTOR "times", 9.64x9.64px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "alert_danger", 462x43px, constraints left/top
+    - RECTANGLE "alert_bg", 462x43px, constraints scale/scale, radius 6px, fill #F75676, stroke #F4F5F7 0px
+    - TEXT "Danger! This is an error alert—check it out!", 313x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+    - VECTOR "times", 9.64x9.64px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "toaster_success_with_icon", 462x66px, constraints left/top
+    - RECTANGLE "alert_bg", 462x66px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Success!", 313x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+    - VECTOR "times", 16x16px, constraints scale/scale, fill #BFC0C3
+    - TEXT "This is a success alert—check it out!", 313x16px, constraints scale/scale, fill #ADADAD, text [SF Pro Display Medium, 12px]
+    - VECTOR "thumbs-up", 13.97x14px, constraints scale/scale, fill #47D764
+    - RECTANGLE "active_Bar", 4x66px, constraints scale/scale, fill #47D764
+  - INSTANCE "toaster_warning_with_icon", 462x66px, constraints left/top
+    - RECTANGLE "alert_bg", 462x66px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Warning!", 313x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+    - VECTOR "times", 16x16px, constraints scale/scale, fill #BFC0C3
+    - TEXT "This is a warning alert—check it out!", 313x16px, constraints scale/scale, fill #ADADAD, text [SF Pro Display Medium, 12px]
+    - VECTOR "exclamation-triangle", 15.74x13.99px, constraints scale/scale, fill #FC7C5F
+    - RECTANGLE "active_Bar", 4x66px, constraints scale/scale, fill #FC7C5F
+  - INSTANCE "toaster_info_with_icon", 462x66px, constraints left/top
+    - RECTANGLE "alert_bg", 462x66px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Info!", 313x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+    - VECTOR "times", 16x16px, constraints scale/scale, fill #BFC0C3
+    - TEXT "This is an info alert—check it out!", 313x16px, constraints scale/scale, fill #ADADAD, text [SF Pro Display Medium, 14px]
+    - VECTOR "bell", 12.26x14px, constraints scale/scale, fill #37D5F2
+    - RECTANGLE "active_Bar", 4x66px, constraints scale/scale, fill #37D5F2
+  - INSTANCE "toaster_danger_with_icon", 462x66px, constraints left/top
+    - RECTANGLE "alert_bg", 462x66px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Danger!", 313x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+    - VECTOR "times", 16x16px, constraints scale/scale, fill #BFC0C3
+    - TEXT "This is an error alert—check it out!", 313x16px, constraints scale/scale, fill #ADADAD, text [SF Pro Display Medium, 12px]
+    - VECTOR "exclamation-circle", 13.56x13.56px, constraints scale/scale, fill #F75676
+    - RECTANGLE "active_Bar", 4x66px, constraints scale/scale, fill #F75676
+  - GROUP "heading", 1224x50.62px, constraints left/top
+    - TEXT "Styles", 333x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - RECTANGLE "Rectangle", 1224x1.94px, constraints scale/scale, fill #DADADA
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 16px]
+  - INSTANCE "tooltips_bottom_center", 123x46px, constraints left/top
+    - BOOLEAN_OPERATION "Union", 123x46px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Tooltips", 95x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+  - INSTANCE "tooltips_top_center", 123x46px, constraints left/top
+    - BOOLEAN_OPERATION "Union", 123x46px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Tooltips", 95x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+  - INSTANCE "tooltips_left", 131x38px, constraints left/top
+    - BOOLEAN_OPERATION "Union", 131x38px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Tooltips", 95x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+  - INSTANCE "tooltips_right", 131x38px, constraints left/top
+    - BOOLEAN_OPERATION "Union", 131x38px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Tooltips", 95x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+  - INSTANCE "tooltips_bottom_right", 123x46px, constraints left/top
+    - BOOLEAN_OPERATION "Union", 123x46px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Tooltips", 95x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+  - INSTANCE "tooltips_top_left", 123x46px, constraints left/top
+    - BOOLEAN_OPERATION "Union", 123x46px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Tooltips", 95x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+  - INSTANCE "tooltips_bottom_left", 123x46px, constraints left/top
+    - BOOLEAN_OPERATION "Union", 123x46px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Tooltips", 95x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+  - INSTANCE "tooltips_top_right", 123x46px, constraints left/top
+    - BOOLEAN_OPERATION "Union", 123x46px, constraints scale/scale, fill #FFFFFF, stroke #F4F5F7 0px, effect [drop_shadow 5px offset 0 1 #0000001A]
+    - TEXT "Tooltips", 95x16px, constraints scale/scale, fill #000000, text [SF Pro Display Medium, 14px]
+
+Screen: Calm Design System by Akshay Syal / Labels
+- FRAME "Labels", 1440x934px, constraints scale/scale, fill #FFFFFF
+  - GROUP "heading", 1224x50.62px, constraints left/top
+    - TEXT "Styles", 333x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - RECTANGLE "Rectangle", 1224x1.94px, constraints scale/scale, fill #DADADA
+  - INSTANCE "label_primary", 105x32px, constraints left/top
+    - RECTANGLE "label_bg", 105x32px, constraints scale/scale, radius 55px, fill #5E72E4
+    - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "label_info", 76x32px, constraints left/top
+    - RECTANGLE "label_bg", 76x32px, constraints scale/scale, radius 55px, fill #11CDEF
+    - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "label_success", 103x32px, constraints left/top
+    - RECTANGLE "label_bg", 103x32px, constraints scale/scale, radius 55px, fill #2DCE89
+    - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "label_danger", 103x32px, constraints left/top
+    - RECTANGLE "label_bg", 103x32px, constraints scale/scale, radius 55px, fill #F5365C
+    - TEXT "DANGER", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "label_warning", 103x32px, constraints left/top
+    - RECTANGLE "label_bg", 103x32px, constraints scale/scale, radius 55px, fill #FB6340
+    - TEXT "WARNING", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "label_default", 106x32px, constraints left/top
+    - RECTANGLE "label_bg", 106x32px, constraints scale/scale, radius 55px, fill #172B4D
+    - TEXT "DEFAULT", 79.24x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - INSTANCE "label_secondary", 125x32px, constraints left/top
+    - RECTANGLE "button_bg", 125x32px, constraints scale/scale, radius 55px, fill #F4F5F7
+    - TEXT "SECONDARY", 93.45x16px, constraints scale/scale, fill #000000, text [SF Pro Display Bold, 14px]
+
+Screen: Calm Design System by Akshay Syal / Paginations
+- FRAME "Paginations", 1440x934px, constraints scale/scale, fill #FFFFFF
+  - GROUP "button heading", 1224x50.62px, constraints left/top
+    - TEXT "Styles", 333x32px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 24px], [heading]
+    - RECTANGLE "Rectangle", 1224x1.94px, constraints scale/scale, fill #DADADA
+  - INSTANCE "Pagination", 385.91x60px, constraints left/top
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "2", 60x60px, constraints scale/scale, radius 5px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "1", 60x60px, constraints scale/scale, radius 5px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 5px, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "3", 60x60px, constraints scale/scale, radius 5px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "4 dots", 60x60px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+  - INSTANCE "Pagination", 459.91x60px, constraints left/top
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "1", 60x60px, constraints scale/scale, radius 5px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "2", 60x60px, constraints scale/scale, radius 5px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 5px, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "3", 60x60px, constraints scale/scale, radius 5px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "4", 60x60px, constraints scale/scale, radius 5px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "5 dots", 60x60px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+  - INSTANCE "Pagination", 356x60px, constraints left/top
+    - GROUP "right arrow", 60x60px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #DDDDDD 1px
+      - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "1", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "2", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "3", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "5 dots", 60x60px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+  - INSTANCE "Pagination", 356x60px, constraints left/top
+    - GROUP "right arrow", 60x60px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #FFFFFF 1px
+      - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "1", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #FFFFFF 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "2", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "3", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #FFFFFF 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "5 dots", 60x60px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+  - INSTANCE "Pagination", 504x60px, constraints left/top
+    - GROUP "right arrow", 60x60px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #DDDDDD 1px
+      - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "left arrow", 60x60px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #DDDDDD 1px
+      - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "1", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "2", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "3", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "4", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "5 dots", 60x60px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+  - INSTANCE "Pagination", 502x60px, constraints left/top
+    - RECTANGLE "Input Style", 502x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #DDDDDD 1px
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "1", 19x24px, constraints scale/scale, radius 0/0/0/0px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "2", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+  - INSTANCE "Pagination", 502x60px, constraints left/top
+    - RECTANGLE "Input Style", 502x60px, constraints scale/scale, radius 75px, fill #F6F6F6, stroke #DDDDDD 1px
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "1", 19x24px, constraints scale/scale, radius 0/0/0/0px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "2", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+  - INSTANCE "Pagination", 502x60px, constraints left/top
+    - RECTANGLE "Input Style", 502x60px, constraints scale/scale, radius 8px, fill #FFFFFF, stroke #DDDDDD 1px
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "1", 19x24px, constraints scale/scale, radius 0/0/0/0px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "2", 60x60px, constraints scale/scale
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+  - INSTANCE "Pagination", 502x60px, constraints left/top
+    - RECTANGLE "Input Style", 502x60px, constraints scale/scale, radius 8px, fill #F6F6F6, stroke #DDDDDD 1px
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "1", 19x24px, constraints scale/scale, radius 0/0/0/0px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "2", 60x60px, constraints scale/scale
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+  - INSTANCE "Pagination", 571x60px, constraints left/top
+    - GROUP "1", 19x24px, constraints scale/scale, radius 0/0/0/0px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "3", 571x24px, constraints scale/scale
+      - TEXT "Value:", 56x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+      - TEXT "Value:", 56x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+      - VECTOR "Value:", 21x13.45px, constraints scale/scale, fill #060606
+      - VECTOR "Value:", 21x13.45px, constraints scale/scale, fill #060606
+    - GROUP "2", 60x60px, constraints scale/scale
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+  - INSTANCE "Pagination", 571x60px, constraints left/top
+    - GROUP "1", 19x24px, constraints scale/scale, radius 0/0/0/0px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "3", 571x24px, constraints scale/scale
+      - TEXT "Value:", 56x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+      - TEXT "Value:", 56x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+      - VECTOR "Value:", 21x13.45px, constraints scale/scale, fill #060606
+      - VECTOR "Value:", 21x13.45px, constraints scale/scale, fill #060606
+    - GROUP "2", 60x60px, constraints scale/scale, radius 40px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 40px, fill #FFFFFF, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #000000, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+  - INSTANCE "Pagination", 504x60px, constraints left/top
+    - GROUP "right arrow", 60x60px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #FFFFFF 1px
+      - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "left arrow", 60x60px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #FFFFFF 1px
+      - VECTOR "Value:", 11.91x20.03px, constraints scale/scale, fill #060606
+    - GROUP "1", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #FFFFFF 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "2", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #10182F, stroke #DDDDDD 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "3", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #FFFFFF 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "4", 60x60px, constraints scale/scale, radius 75px
+      - RECTANGLE "Input Style", 60x60px, constraints scale/scale, radius 75px, fill #FFFFFF, stroke #FFFFFF 1px
+      - TEXT "Value:", 19x24px, constraints scale/scale, fill #060606, text [Inter Medium, 24px], [heading]
+    - GROUP "5 dots", 60x60px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+
+Screen: Calm Design System by Akshay Syal / Bootstrap Grids
+- FRAME "Bootstrap Grids", 1440x884px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Grids / iOS Grid 375px", 375x224px, constraints scale/scale
+    - GROUP "iOS Grid 375px", 375x224px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - TEXT "Subtitle", 212x20px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 14px]
+  - TEXT "Tilte", 180x24px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 18px]
+  - INSTANCE "Grids / Mobile Web Grid 320px", 320x224px, constraints scale/scale
+    - GROUP "Mobile Web Grid 320px", 320x224px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - TEXT "Subtitle", 212x20px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 14px]
+  - TEXT "Tilte", 131x24px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 18px]
+  - INSTANCE "Desktop Grid 1180 px", 1180x224px, constraints scale/scale
+    - GROUP "Grid 1180 px", 1180x224px, constraints left/top, fill #FFFFFF [decorative, ~13 shapes]
+  - TEXT "Subilte", 222x20px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 14px]
+  - TEXT "Tilte", 105x24px, constraints scale/center, fill #000000, text [SF Pro Display Semibold, 18px]
+  - GROUP "Layout Heading", 1313x54px, constraints left/top
+    - RECTANGLE "Line", 1313x1.66px, constraints scale/scale, fill #DADADA
+    - TEXT "Tilte", 154.67x32px, constraints scale/center, fill #000000, text [Inter SemiBold, 24px], [heading]
+
+Screen: Calm Design System by Akshay Syal / cover
+- FRAME "cover", 1120x700px, constraints left/top, fill #FFE7ED
+  - RECTANGLE "image 2", 1120x747px, constraints left/top, fill image(hash: 8bc75fdce4b3bb0e9ab8030e69d844851e1e1f2e)
+
+Screen: Symbols / Grids / Desktop 1180 px
+- COMPONENT "Grids / Desktop 1180 px", 1180x224px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Grid 1180 px", 1180x224px, constraints left/top, fill #FFFFFF [decorative, ~13 shapes]
+
+Screen: Symbols / Grids / Mobile Web Grid 320px
+- COMPONENT "Grids / Mobile Web Grid 320px", 320x224px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Mobile Web Grid 320px", 320x224px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+
+Screen: Symbols / Grids / iOS Grid 375px
+- COMPONENT "Grids / iOS Grid 375px", 375x224px, constraints scale/scale, fill #FFFFFF
+  - GROUP "iOS Grid 375px", 375x224px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+
+Screen: Symbols / Input Field
+- COMPONENT "Input Field", 380x72px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA
+  - TEXT "Value:", 348x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+
+Screen: Symbols / Input Field with border
+- COMPONENT "Input Field with border", 380x72px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 1px
+  - TEXT "Value:", 348x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+
+Screen: Symbols / Input Field with error
+- COMPONENT "Input Field with error", 380x96px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 0px
+  - TEXT "Value:", 348x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #FF0000, text [SF Pro Display Regular, 11px]
+
+Screen: Symbols / Input Field with Success
+- COMPONENT "Input Field with Success", 380x72px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #2DCE89 1px
+  - TEXT "Value:", 348x20px, constraints scale/scale, fill #2DCE89, text [SF Pro Display Regular, 14px]
+  - VECTOR "Value:", 15.5x15.5px, constraints scale/scale, fill #2DCE89
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+
+Screen: Symbols / Input Field with inside error
+- COMPONENT "Input Field with inside error", 380x72px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #FB6340 1px
+  - TEXT "Value:", 348x20px, constraints scale/scale, fill #FB6340, text [SF Pro Display Regular, 14px]
+  - VECTOR "Value:", 10x10px, constraints scale/scale, fill #FB6340
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+
+Screen: Symbols / Input Field with warning
+- COMPONENT "Input Field with warning", 380x72px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #FB9B14 1px
+  - TEXT "Value:", 348x20px, constraints scale/scale, fill #FB9B14, text [Inter Regular, 14px]
+  - VECTOR "Value:", 17.44x17.44px, constraints scale/scale, fill #FB9B14
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+
+Screen: Symbols / Input Field with search
+- COMPONENT "Input Field with search", 380x72px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 0px
+  - VECTOR "Value:", 15.99x16.02px, constraints scale/scale, fill #828894
+  - TEXT "Value:", 322x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+
+Screen: Symbols / Input Field with calendar
+- COMPONENT "Input Field with calendar", 380x72px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 0px
+  - TEXT "Value:", 322x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+  - VECTOR "Value:", 14x16px, constraints scale/scale, fill #828894
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+
+Screen: Symbols / Input Field with Disable
+- COMPONENT "Input Field with Disable", 380x72px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #DADDE3, stroke #DDDDDD 0px
+  - TEXT "Value:", 348x20px, constraints scale/scale, fill #828894, text [SF Pro Display Regular, 14px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+
+Screen: Symbols / Input Field with Textarea
+- COMPONENT "Input Field with Textarea", 400x128px, constraints left/top
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+  - RECTANGLE "Back layer - Style 🌈", 380x104px, constraints scale/scale, radius 4px, fill #FAFAFA
+  - RECTANGLE "⚠️ State", 380x104px, constraints scale/scale, radius 4px
+  - TEXT "🖍 Text Value", 363x88px, constraints scale/scale, fill #B0B7C3, text [Inter Medium, 14px]
+  - BOOLEAN_OPERATION "Resizer", 12.9x10.4px, constraints scale/scale, fill #B0B7C3
+
+Screen: Symbols / Input Field with Password
+- COMPONENT "Input Field with Password", 380x72px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #FB9B14 0px
+  - INSTANCE "Icon", 20x20px, constraints scale/scale, fill #FFFFFF
+    - BOOLEAN_OPERATION "🎨 Icon style", 18.33x13.33px, constraints scale/scale, fill #C9CED6
+  - TEXT "Value:", 348x24px, constraints scale/scale, fill #B0B7C3, text [Inter Medium, 14px]
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+
+Screen: Symbols / Input Select Option
+- COMPONENT "Input Select Option", 380x215px, constraints left/top
+  - RECTANGLE "Input Style", 380x48px, constraints scale/scale, radius 4px, fill #FAFAFA, stroke #DDDDDD 1px
+  - TEXT "Value:", 311x24px, constraints scale/scale, fill #B0B7C3, text [Inter Medium, 14px]
+  - VECTOR "Vector 1", 12.5x6px, constraints scale/scale, radius 1px, fill #8A909C, stroke #000000 0px
+  - TEXT "Label:", 380x16px, constraints scale/scale, fill #828894, text [SF Pro Display Medium, 12px]
+  - RECTANGLE "Input Style", 380x133px, constraints scale/scale, radius 4px, fill #FFFFFF, effect [drop_shadow 4px offset 0 1 #00000014]
+  - TEXT "Value:", 311x24px, constraints scale/scale, fill #000000, text [Inter Medium, 14px]
+  - RECTANGLE "active_bg", 380x38px, constraints scale/scale, fill #F0F0F0
+  - TEXT "Value:", 311x24px, constraints scale/scale, fill #000000, text [Inter Medium, 14px]
+  - TEXT "Value:", 311x24px, constraints scale/scale, fill #000000, text [Inter Medium, 14px]
+
+Screen: Symbols / unchecked
+- COMPONENT "unchecked", 191x20px, constraints scale/scale
+  - RECTANGLE "box", 20x20px, constraints scale/scale, radius 4px, fill #FFFFFF, stroke #DADDE3 1px
+  - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / Checked
+- COMPONENT "Checked", 191x20px, constraints scale/scale
+  - RECTANGLE "box", 20x20px, constraints scale/scale, radius 4px, fill #FB6340, stroke #5333FF 0px
+  - VECTOR "Check", 12x10px, constraints scale/scale, fill #FFFFFF
+  - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / Disabled Unchecked
+- COMPONENT "Disabled Unchecked", 191x20px, constraints scale/scale
+  - RECTANGLE "box", 20x20px, constraints scale/scale, radius 4px, fill #DADDE3, stroke #D8DCE6 0px
+  - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / Disabled Checked
+- COMPONENT "Disabled Checked", 191x20px, constraints scale/scale
+  - RECTANGLE "box", 20x20px, constraints scale/scale, radius 4px, fill #DADDE3, stroke #D8DCE6 0px
+  - VECTOR "Check", 12x10px, constraints scale/scale, fill #FFFFFF
+  - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / Unchecked
+- COMPONENT "Unchecked", 191x20px, constraints left/top
+  - RECTANGLE "box", 20x20px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #DADDE3 1px
+  - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / Toggle Off
+- COMPONENT "Toggle Off", 207x20px, constraints left/top
+  - GROUP "Off", 36x20px, constraints scale/scale, radius 34px
+    - RECTANGLE "box", 36x20px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #DADDE3 1px
+    - RECTANGLE "box", 14x14px, constraints scale/scale, radius 34px, fill #DADDE3, stroke #D8DCE6 1px
+  - TEXT "Toggle Off", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / Toggle On
+- COMPONENT "Toggle On", 207x20px, constraints left/top
+  - GROUP "On", 36x20px, constraints scale/scale, radius 34px
+    - RECTANGLE "box", 36x20px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #FB6340 1px
+    - RECTANGLE "box", 14x14px, constraints scale/scale, radius 34px, fill #FB6340, stroke #FB6340 1px
+  - TEXT "Toggle On", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / Checked
+- COMPONENT "Checked", 191x20px, constraints left/top
+  - RECTANGLE "box", 20x20px, constraints scale/scale, radius 34px, fill #FB6340, stroke #D8DCE6 0px
+  - RECTANGLE "box", 8x8px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #D8DCE6 0px
+  - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / Disabled unchecked
+- COMPONENT "Disabled unchecked", 191x20px, constraints left/top
+  - RECTANGLE "box", 20x20px, constraints scale/scale, radius 34px, fill #DADDE3, stroke #D8DCE6 1px
+  - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / Disabled checkbox
+- COMPONENT "Disabled checkbox", 191x20px, constraints left/top
+  - RECTANGLE "box", 20x20px, constraints scale/scale, radius 34px, fill #DADDE3, stroke #D8DCE6 0px
+  - RECTANGLE "box", 8x8px, constraints scale/scale, radius 34px, fill #FFFFFF, stroke #D8DCE6 0px
+  - TEXT "unchecked", 161x20px, constraints scale/scale, fill #000000, text [Inter SemiBold, 14px]
+
+Screen: Symbols / btn_primary
+- COMPONENT "btn_primary", 105x43px, constraints left/top
+  - RECTANGLE "button_bg", 105x43px, constraints scale/scale, radius 5px, fill #5E72E4
+  - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_primary_border
+- COMPONENT "btn_primary_border", 105x43px, constraints left/top
+  - RECTANGLE "button_bg", 105x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #5E72E4 1px
+  - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #5E72E4, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_primary_border_rounded
+- COMPONENT "btn_primary_border_rounded", 105x43px, constraints left/top
+  - RECTANGLE "button_bg", 105x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #5E72E4 1px
+  - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #5E72E4, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_primary_without_border
+- COMPONENT "btn_primary_without_border", 105x43px, constraints left/top
+  - RECTANGLE "button_bg", 105x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #FFFFFF 1px
+  - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #5E72E4, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_primary_with_icon
+- COMPONENT "btn_primary_with_icon", 124x43px, constraints left/top
+  - RECTANGLE "button_bg", 124x43px, constraints scale/scale, radius 5px, fill #5E72E4, stroke #5E72E4 1px
+  - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_primary_rounded_icon
+- COMPONENT "btn_primary_rounded_icon", 124x43px, constraints left/top
+  - RECTANGLE "button_bg", 124x43px, constraints scale/scale, radius 55px, fill #5E72E4, stroke #5E72E4 1px
+  - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_primary_border_icon
+- COMPONENT "btn_primary_border_icon", 124x43px, constraints left/top
+  - RECTANGLE "button_bg", 124x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #5E72E4 1px
+  - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #5E72E4, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #5E72E4
+
+Screen: Symbols / btn_primary_border_icon
+- COMPONENT "btn_primary_border_icon", 124x43px, constraints left/top
+  - RECTANGLE "button_bg", 124x43px, constraints scale/scale, radius 55px, fill #FFFFFF, stroke #5E72E4 1px
+  - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #5E72E4, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #5E72E4
+
+Screen: Symbols / btn_primary_rounded
+- COMPONENT "btn_primary_rounded", 105x43px, constraints left/top
+  - RECTANGLE "Rectangle 3", 105x43px, constraints scale/scale, radius 55px, fill #5E72E4
+  - TEXT "PRIMARY", 62x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_info
+- COMPONENT "btn_info", 76x43px, constraints left/top
+  - RECTANGLE "button_bg", 76x43px, constraints scale/scale, radius 5px, fill #11CDEF
+  - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_info_border
+- COMPONENT "btn_info_border", 76x43px, constraints left/top
+  - RECTANGLE "button_bg", 76x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #11CDEF 1px
+  - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #11CDEF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_info_border_rounded
+- COMPONENT "btn_info_border_rounded", 76x43px, constraints left/top
+  - RECTANGLE "button_bg", 76x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #11CDEF 1px
+  - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #11CDEF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_info_without_border
+- COMPONENT "btn_info_without_border", 76x43px, constraints left/top
+  - RECTANGLE "button_bg", 76x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #FFFFFF 1px
+  - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #11CDEF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_info_with_icon
+- COMPONENT "btn_info_with_icon", 91x43px, constraints left/top
+  - RECTANGLE "button_bg", 91x43px, constraints scale/scale, radius 5px, fill #11CDEF, stroke #11CDEF 1px
+  - TEXT "INFO", 47x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_info_rounded_icon
+- COMPONENT "btn_info_rounded_icon", 91x43px, constraints left/top
+  - RECTANGLE "button_bg", 91x43px, constraints scale/scale, radius 55px, fill #11CDEF, stroke #11CDEF 1px
+  - TEXT "INFO", 47x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_info_border_icon
+- COMPONENT "btn_info_border_icon", 91x43px, constraints left/top
+  - RECTANGLE "button_bg", 91x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #11CDEF 1px
+  - TEXT "INFO", 47x16px, constraints scale/scale, fill #11CDEF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #11CDEF
+
+Screen: Symbols / btn_info_border_icon
+- COMPONENT "btn_info_border_icon", 91x43px, constraints left/top
+  - RECTANGLE "button_bg", 91x43px, constraints scale/scale, radius 55px, fill #FFFFFF, stroke #11CDEF 1px
+  - TEXT "INFO", 47x16px, constraints scale/scale, fill #11CDEF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #11CDEF
+
+Screen: Symbols / btn_info_rounded
+- COMPONENT "btn_info_rounded", 76x43px, constraints left/top
+  - RECTANGLE "button_bg", 76x43px, constraints scale/scale, radius 55px, fill #11CDEF
+  - TEXT "INFO", 50.67x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_success
+- COMPONENT "btn_success", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #2DCE89
+  - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_success_border
+- COMPONENT "btn_success_border", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #2DCE89 1px
+  - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #2DCE89, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_success_border_rounded
+- COMPONENT "btn_success_border_rounded", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #2DCE89 1px
+  - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #2DCE89, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_success_without_border
+- COMPONENT "btn_success_without_border", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #FFFFFF 1px
+  - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #2DCE89, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_success_with_icon
+- COMPONENT "btn_success_with_icon", 125x43px, constraints left/top
+  - RECTANGLE "button_bg", 125x43px, constraints scale/scale, radius 5px, fill #2DCE89, stroke #2DCE89 1px
+  - TEXT "SUCCESS", 71x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_success_rounded_icon
+- COMPONENT "btn_success_rounded_icon", 125x43px, constraints left/top
+  - RECTANGLE "button_bg", 125x43px, constraints scale/scale, radius 55px, fill #2DCE89, stroke #2DCE89 1px
+  - TEXT "SUCCESS", 71x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_success_border_icon
+- COMPONENT "btn_success_border_icon", 125x43px, constraints left/top
+  - RECTANGLE "button_bg", 125x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #2DCE89 1px
+  - TEXT "SUCCESS", 71x16px, constraints scale/scale, fill #2DCE89, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #2DCE89
+
+Screen: Symbols / btn_success_border_icon
+- COMPONENT "btn_success_border_icon", 125x43px, constraints left/top
+  - RECTANGLE "button_bg", 125x43px, constraints scale/scale, radius 55px, fill #FFFFFF, stroke #2DCE89 1px
+  - TEXT "SUCCESS", 71x16px, constraints scale/scale, fill #2DCE89, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #2DCE89
+
+Screen: Symbols / btn_success_rounded
+- COMPONENT "btn_success_rounded", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 55px, fill #2DCE89
+  - TEXT "SUCCESS", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_danger
+- COMPONENT "btn_danger", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #F5365C
+  - TEXT "DANGER", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_danger_border
+- COMPONENT "btn_danger_border", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #F5365C 1px
+  - TEXT "DANGER", 77x16px, constraints scale/scale, fill #F5365C, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_danger_border_rounded
+- COMPONENT "btn_danger_border_rounded", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #F5365C 1px
+  - TEXT "DANGER", 77x16px, constraints scale/scale, fill #F5365C, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_danger_without_border
+- COMPONENT "btn_danger_without_border", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #FFFFFF 1px
+  - TEXT "DANGER", 77x16px, constraints scale/scale, fill #F5365C, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_danger_with_icon
+- COMPONENT "btn_danger_with_icon", 118x43px, constraints left/top
+  - RECTANGLE "button_bg", 118x43px, constraints scale/scale, radius 5px, fill #F5365C, stroke #F5365C 1px
+  - TEXT "DANGER", 63x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_danger_rounded_icon
+- COMPONENT "btn_danger_rounded_icon", 118x43px, constraints left/top
+  - RECTANGLE "button_bg", 118x43px, constraints scale/scale, radius 55px, fill #F5365C, stroke #F5365C 1px
+  - TEXT "DANGER", 63x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_danger_border_icon
+- COMPONENT "btn_danger_border_icon", 118x43px, constraints left/top
+  - RECTANGLE "button_bg", 118x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #F5365C 1px
+  - TEXT "DANGER", 63x16px, constraints scale/scale, fill #F5365C, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #F5365C
+
+Screen: Symbols / btn_danger_border_icon
+- COMPONENT "btn_danger_border_icon", 118x43px, constraints left/top
+  - RECTANGLE "button_bg", 118x43px, constraints scale/scale, radius 55px, fill #FFFFFF, stroke #F5365C 1px
+  - TEXT "DANGER", 63x16px, constraints scale/scale, fill #F5365C, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #F5365C
+
+Screen: Symbols / btn_danger_rounded
+- COMPONENT "btn_danger_rounded", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 55px, fill #F5365C
+  - TEXT "DANGER", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_warning
+- COMPONENT "btn_warning", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #FB6340
+  - TEXT "WARNING", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_warning_border
+- COMPONENT "btn_warning_border", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #FB6340 1px
+  - TEXT "WARNING", 77x16px, constraints scale/scale, fill #FB6340, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_warning_border_rounded
+- COMPONENT "btn_warning_border_rounded", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #FB6340 1px
+  - TEXT "WARNING", 77x16px, constraints scale/scale, fill #FB6340, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_warning_without_border
+- COMPONENT "btn_warning_without_border", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #FFFFFF 1px
+  - TEXT "WARNING", 77x16px, constraints scale/scale, fill #FB6340, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_warning_with_icon
+- COMPONENT "btn_warning_with_icon", 126x43px, constraints left/top
+  - RECTANGLE "button_bg", 126x43px, constraints scale/scale, radius 5px, fill #FB6340, stroke #FB6340 1px
+  - TEXT "WARNING", 72x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_warning_rounded_icon
+- COMPONENT "btn_warning_rounded_icon", 126x43px, constraints left/top
+  - RECTANGLE "button_bg", 126x43px, constraints scale/scale, radius 55px, fill #FB6340, stroke #FB6340 1px
+  - TEXT "WARNING", 72x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FFFFFF
+
+Screen: Symbols / btn_warning_border_icon
+- COMPONENT "btn_warning_border_icon", 126x43px, constraints left/top
+  - RECTANGLE "button_bg", 126x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #FB6340 1px
+  - TEXT "WARNING", 72x16px, constraints scale/scale, fill #FB6340, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FB6340
+
+Screen: Symbols / btn_warning_border_icon
+- COMPONENT "btn_warning_border_icon", 126x43px, constraints left/top
+  - RECTANGLE "button_bg", 126x43px, constraints scale/scale, radius 55px, fill #FFFFFF, stroke #FB6340 1px
+  - TEXT "WARNING", 72x16px, constraints scale/scale, fill #FB6340, text [SF Pro Display Bold, 14px]
+  - VECTOR "birthday-cake", 12x14px, constraints scale/scale, fill #FB6340
+
+Screen: Symbols / btn_warning_rounded
+- COMPONENT "btn_warning_rounded", 103x43px, constraints left/top
+  - RECTANGLE "button_bg", 103x43px, constraints scale/scale, radius 55px, fill #FB6340
+  - TEXT "WARNING", 77x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_default
+- COMPONENT "btn_default", 106x43px, constraints left/top
+  - RECTANGLE "button_bg", 106x43px, constraints scale/scale, radius 5px, fill #172B4D
+  - TEXT "DEFAULT", 79.24x16px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_default_border
+- COMPONENT "btn_default_border", 106x43px, constraints left/top
+  - RECTANGLE "button_bg", 106x43px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #172B4D 1px
+  - TEXT "DEFAULT", 79.24x16px, constraints scale/scale, fill #172B4D, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_default_border_rounded
+- COMPONENT "btn_default_border_rounded", 106x43px, constraints left/top
+  - RECTANGLE "button_bg", 106x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #172B4D 1px
+  - TEXT "DEFAULT", 79.24x16px, constraints scale/scale, fill #172B4D, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_default_without_border
+- COMPONENT "btn_default_without_border", 106x43px, constraints left/top
+  - RECTANGLE "button_bg", 106x43px, constraints scale/scale, radius 45px, fill #FFFFFF, stroke #FFFFFF 1px
+  - TEXT "DEFAULT", 79.24x16px, constraints scale/scale, fill #172B4D, text [SF Pro Display Bold, 14px]
+
+Screen: Symbols / btn_default_with_icon
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

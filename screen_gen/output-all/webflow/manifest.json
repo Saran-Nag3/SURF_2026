@@ -1,0 +1,42 @@
+{
+  "company": "webflow",
+  "source": "/Users/sarannagubandi/downloads/markdowns/webflow.md",
+  "platform": "android",
+  "device": "Pixel 7a",
+  "viewport_px": [
+    412,
+    892
+  ],
+  "output_px": [
+    1082,
+    2342
+  ],
+  "paradigm_detected": "marketing site, because the source is a desktop landing page with hero sections, featured case studies, awards, and CTA blocks rather than native mobile app flows.",
+  "self_check": "All four screens are translated to single-column Android layouts with app UI starting at the top, touch-only controls, no web/spatial residue, and the dark purple, lavender, gradient, Montserrat, and rounded-corner brand cues preserved.",
+  "screens": [
+    {
+      "name": "Home",
+      "kind": "HOME FEED",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "Welcome",
+      "kind": "ONBOARDING",
+      "png": "screen_2_onboarding.png",
+      "html": "screen_2_onboarding.html"
+    },
+    {
+      "name": "Case Study",
+      "kind": "ITEM DETAIL",
+      "png": "screen_3_item-detail.png",
+      "html": "screen_3_item-detail.html"
+    },
+    {
+      "name": "Empty Awards",
+      "kind": "EMPTY STATE",
+      "png": "screen_4_empty-state.png",
+      "html": "screen_4_empty-state.html"
+    }
+  ]
+}

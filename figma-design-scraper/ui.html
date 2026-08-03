@@ -1,0 +1,114 @@
+<!-- Design Value Scraper — UI (iframe). Builds the CSV and triggers download.
+     The sandbox cannot touch the filesystem, so the file is assembled here. -->
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: Inter, -apple-system, "Segoe UI", sans-serif;
+    font-size: 12px; margin: 0; padding: 16px;
+    background: var(--figma-color-bg, #fff);
+    color: var(--figma-color-text, #1a1a1a);
+  }
+  h1 { font-size: 13px; font-weight: 600; margin: 0 0 4px; }
+  p.sub { margin: 0 0 16px; color: var(--figma-color-text-secondary, #777); line-height: 1.5; }
+  fieldset { border: none; margin: 0 0 14px; padding: 0; }
+  legend { font-weight: 600; margin-bottom: 6px; padding: 0; }
+  label.opt { display: flex; align-items: center; gap: 8px; padding: 4px 0; cursor: pointer; }
+  button {
+    width: 100%; border: none; border-radius: 6px; padding: 10px;
+    font-size: 12px; font-weight: 600; cursor: pointer;
+    background: var(--figma-color-bg-brand, #0d99ff); color: #fff;
+  }
+  button.secondary {
+    background: var(--figma-color-bg-secondary, #f0f0f0);
+    color: var(--figma-color-text, #1a1a1a); margin-top: 8px;
+  }
+  button:disabled { opacity: .5; cursor: default; }
+  .status { margin-top: 14px; line-height: 1.6; color: var(--figma-color-text-secondary, #777); }
+  .summary { margin-top: 10px; max-height: 150px; overflow: auto; }
+  .summary div { display: flex; justify-content: space-between; padding: 2px 0; }
+  .summary span:last-child { color: var(--figma-color-text-secondary, #777); }
+</style>
+
+<h1>Design Value Scraper</h1>
+<p class="sub">Exports a deduplicated catalog of the raw values present — existence only, no counts, no inference.</p>
+
+<fieldset>
+  <legend>Scope</legend>
+  <label class="opt"><input type="radio" name="scope" value="selection" checked> Current selection</label>
+  <label class="opt"><input type="radio" name="scope" value="page"> Entire page</label>
+</fieldset>
+
+<button id="run">Scrape &amp; export CSV</button>
+<button id="copy" class="secondary" disabled>Copy CSV to clipboard</button>
+
+<div class="status" id="status">Select a frame, or choose “Entire page”.</div>
+<div class="summary" id="summary"></div>
+
+<script>
+  var lastCSV = "";
+
+  document.getElementById("run").onclick = function () {
+    var scope = document.querySelector('input[name="scope"]:checked').value;
+    document.getElementById("status").textContent = "Scraping…";
+    parent.postMessage({ pluginMessage: { type: "run", scope: scope } }, "*");
+  };
+
+  document.getElementById("copy").onclick = function () {
+    if (!lastCSV) return;
+    navigator.clipboard.writeText(lastCSV).then(function () {
+      document.getElementById("status").textContent = "CSV copied to clipboard.";
+    });
+  };
+
+  function esc(v) {
+    v = v == null ? "" : String(v);
+    return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
+  }
+
+  function buildCSV(columns, rows) {
+    var out = [columns.join(",")];
+    for (var i = 0; i < rows.length; i++) {
+      var r = rows[i];
+      out.push(columns.map(function (c) { return esc(r[c]); }).join(","));
+    }
+    return out.join("\n");
+  }
+
+  function summarize(rows) {
+    var byCat = {};
+    for (var i = 0; i < rows.length; i++) byCat[rows[i].category] = (byCat[rows[i].category] || 0) + 1;
+    var el = document.getElementById("summary");
+    el.innerHTML = "";
+    Object.keys(byCat).sort().forEach(function (k) {
+      var d = document.createElement("div");
+      d.innerHTML = "<span>" + k + "</span><span>" + byCat[k] + " distinct</span>";
+      el.appendChild(d);
+    });
+  }
+
+  function download(name, text) {
+    var blob = new Blob([text], { type: "text/csv;charset=utf-8" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url; a.download = name;
+    document.body.appendChild(a); a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  onmessage = function (event) {
+    var msg = event.data.pluginMessage;
+    if (!msg || msg.type !== "result") return;
+
+    lastCSV = buildCSV(msg.columns, msg.rows);
+    document.getElementById("copy").disabled = msg.rows.length === 0;
+
+    var safeName = (msg.fileName || "design").replace(/[^a-z0-9_\-]+/gi, "-");
+    download(safeName + "_design-values.csv", lastCSV);
+
+    document.getElementById("status").textContent =
+      msg.rows.length + " distinct values from " + msg.nodeCount +
+      " nodes (" + msg.scope + "). CSV downloaded.";
+    summarize(msg.rows);
+  };
+</script>

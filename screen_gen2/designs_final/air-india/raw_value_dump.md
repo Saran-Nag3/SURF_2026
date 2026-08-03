@@ -1,0 +1,1276 @@
+---
+name: air-india-ui-community
+source_file: Air India UI (Community)
+source_page: All pages (2): Visual Design, Presentation
+generated_at: 2026-07-25T09:55:40.025547+00:00
+---
+
+# Air India UI (Community) Design Guidelines
+
+## Source
+- Figma file: Air India UI (Community)
+- Figma page: All pages (2): Visual Design, Presentation
+- Extracted at: 2026-07-25T09:55:40.025547+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Primary: [#CC0200]
+- Jeeny1: none
+- #000000: [#000000]
+- #4F4F4F: [#4F4F4F]
+- #CA1F34: none
+- #FFFFFF: [#FFFFFF]
+- Gray 2: [#4F4F4F]
+- Main Red Color: [#CC0200]
+- Grey/700: [#5F6368]
+- Gray 3: [#828282]
+- bg: [#F5F7F5]
+- Gray 4: [#BDBDBD]
+- Yellow/600: [#F9AB00]
+- Grey/900: [#202124]
+- Grey/800: [#3C4043]
+- Orange/700: [#D56E0C]
+- Grey/600: none
+- Blue/700: [#D8D8D8]
+- Color Off-1: [#E5E5E5]
+- Blue/600: [#1A73E8]
+- Grey/300: [#DADCE0]
+- Grey/White: [#FFFFFF]
+- Green 2: [#27AE60]
+- Yellow/50: [#FEF7E0]
+- WHite: [#FFFFFF]
+- #FAA61A: [#FAA61A]
+- Secondary: [#FE9901]
+- Gray 1: [#333333]
+- Dark / Dark 4: [#C7C9D9]
+- Light / Light 1: [#EBEBF0]
+- Light / Light 2: [#F2F2F5]
+- Light / Light 4: [#FFFFFF]
+- Dark / Dark 2: [#555770]
+- Primary / Main Color: [#3E7BFA]
+- Light / Tints / Pink: [#FF2D55]
+- Light / Tints / Indigo: [#5856D6]
+- Light / Base: [#000000]
+- color_text: [#1A1A1A]
+- 3rd: [#E5E5E5]
+- 1st: [#FF7152]
+- True White: [#FFFFFF]
+- Purple Extra Light: [#E9E8FC]
+- Grey / 200: [#CBD4E6]
+- Purple Blue Gradient: [gradient_linear(#605DEC 0% | #2A26D9 100%)]
+- Purple White: none
+- Grey / 400: [#7C8DB0]
+- Purple 1: [#9B51E0]
+- Purple Light: [gradient_linear(#99BBFF 0% | #CCCCFF 49% | #99BBFF 100%)]
+- Green/50: [#E6F4EA]
+- Green/600: [#1E8E3E]
+- Green/800: [#137333]
+- Grey / 600: [#FFFFFF]
+- Purple Blue: [#605DEC]
+- #BDBDBD: [#BDBDBD]
+- #F2F2F2: [#F2F2F2]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 901 uses
+- #A4A4A4: 600 uses
+- #D9000D: 464 uses
+- #EF7000: 377 uses
+- #486AAE: 196 uses
+- #00000033: 180 uses
+- #D9D9D9: 151 uses
+- #D8D8D8: 112 uses
+- #000000: 107 uses
+- #D9000D1A: 94 uses
+- #FEFCFB: 63 uses
+- #DCDCDC: 60 uses
+- #0000001A: 36 uses
+- #6926D7: 31 uses
+- #DADADA: 22 uses
+- #5451E8: 19 uses
+- #80868B: 18 uses
+
+## Typography Tokens
+- Component Labels / Menu & Navigation: Google Sans Medium (500), 14px / 20px, tracking 0.25px
+- Subheader/2 - 14pt: Google Sans Medium (500), 14px / 20px, tracking 0.25px
+- Body/Body 2 (Android) - 14pt: Roboto Regular (400), 14px / 20px, tracking 0.2px
+- Body/Body 1 (Android) - 16pt: Roboto Regular (400), 16px / 24px, tracking 0.1px
+- Caption/Caption (Android) - 12pt: Roboto Regular (400), 12px / 16px, tracking 0.3px
+- Overline/Overline (Android) - 11pt: Roboto Medium (500), 11px / 16px, tracking 0.8px
+- Component Labels/Button: Google Sans Medium (500), 14px / 20px, tracking 0.25px
+- Stylized / Small: Inter Regular (400), 12px / auto, tracking 0px
+- Body Extra Small: Nunito Sans Regular (400), 12px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 20px: 403 uses
+- Roboto SemiBold, 20px: 345 uses
+- Roboto Regular, 16px: 284 uses
+- Roboto Regular, 14px: 193 uses
+- Roboto Bold, 24px: 178 uses
+- Roboto Regular, 12px: 168 uses
+- Roboto Bold, 16px: 107 uses
+- Roboto Bold, 40px: 104 uses
+- Roboto Bold, 32px: 101 uses
+- Roboto Regular, 24px: 89 uses
+- Roboto Regular, 22px: 69 uses
+- Roboto Medium, 14px: 68 uses
+- Inter Bold, 15px: 60 uses
+- Inter Regular, 10px: 60 uses
+- Inter Regular, 16px: 60 uses
+- Inter Regular, 8px: 60 uses
+- Roboto Bold, 20px: 51 uses
+- Roboto SemiBold, 16px: 46 uses
+- Roboto SemiBold, 18px: 45 uses
+- Font Awesome 5 Free Regular, 14px: 42 uses
+- Roboto Medium, 18px: 36 uses
+- Nunito Sans Regular, 14px: 33 uses
+- Roboto Bold, 28px: 33 uses
+- Roboto Regular, 10px: 32 uses
+- Roboto SemiBold, 12px: 32 uses
+- Roboto Regular, 28px: 30 uses
+- Google Sans Regular, 14px: 28 uses
+- Roboto Bold, 60px: 27 uses
+- Roboto Medium, 20px: 21 uses
+- Volkhov Bold, 60px: 17 uses
+
+## Typography Hierarchy
+- 60px - Roboto Bold, 60px (raw)
+- 60px - Volkhov Bold, 60px (raw)
+- 40px - Roboto Bold, 40px (raw)
+- 32px - Roboto Bold, 32px (raw)
+- 28px - Roboto Bold, 28px (raw)
+- 28px - Roboto Regular, 28px (raw)
+- 24px - Roboto Bold, 24px (raw)
+- 24px - Roboto Regular, 24px (raw)
+- 22px - Roboto Regular, 22px (raw)
+- 20px - Roboto Bold, 20px (raw)
+- 20px - Roboto Medium, 20px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 20px - Roboto SemiBold, 20px (raw)
+- 18px - Roboto Medium, 18px (raw)
+- 18px - Roboto SemiBold, 18px (raw)
+- 16px - Body/Body 1 (Android) - 16pt (Roboto Regular)
+- 16px - Inter Regular, 16px (raw)
+- 16px - Roboto Bold, 16px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 16px - Roboto SemiBold, 16px (raw)
+- 15px - Inter Bold, 15px (raw)
+- 14px - Body/Body 2 (Android) - 14pt (Roboto Regular)
+- 14px - Component Labels / Menu & Navigation (Google Sans Medium)
+- 14px - Component Labels/Button (Google Sans Medium)
+- 14px - Font Awesome 5 Free Regular, 14px (raw)
+- 14px - Google Sans Regular, 14px (raw)
+- 14px - Nunito Sans Regular, 14px (raw)
+- 14px - Roboto Medium, 14px (raw)
+- 14px - Roboto Regular, 14px (raw)
+- 14px - Subheader/2 - 14pt (Google Sans Medium)
+- 12px - Body Extra Small (Nunito Sans Regular)
+- 12px - Caption/Caption (Android) - 12pt (Roboto Regular)
+- 12px - Roboto Regular, 12px (raw)
+- 12px - Roboto SemiBold, 12px (raw)
+- 12px - Stylized / Small (Inter Regular)
+- 11px - Overline/Overline (Android) - 11pt (Roboto Medium)
+- 10px - Inter Regular, 10px (raw)
+- 10px - Roboto Regular, 10px (raw)
+- 8px - Inter Regular, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Elevation Light/3: [drop_shadow 3px offset 0 1 #3C40434D, drop_shadow 8px offset 0 4 #3C404326]
+- Elevation Light/1: [drop_shadow 3px offset 0 1 #3C404326, drop_shadow 2px offset 0 1 #3C40434D]
+- Elevation Light/2: [drop_shadow 6px offset 0 2 #3C404326, drop_shadow 2px offset 0 1 #3C40434D]
+- Drop Shadow: [drop_shadow 10px offset 0 4 #00000026]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Gray 2: 1556 uses
+- Primary: 885 uses
+- Grey/700: 477 uses
+- Gray 3: 323 uses
+- Grey/300: 245 uses
+- Grey/White: 190 uses
+- Grey/800: 122 uses
+- Purple White: 118 uses
+- Body/Body 1 (Android) - 16pt: 105 uses
+- #000000: 95 uses
+- Gray 4: 93 uses
+- Purple Blue Gradient: 84 uses
+- Grey / 200: 72 uses
+- #FFFFFF: 68 uses
+- Overline/Overline (Android) - 11pt: 66 uses
+- Grey/600: 65 uses
+- Purple Extra Light: 65 uses
+- 3rd: 60 uses
+- #CA1F34: 57 uses
+- Grey/900: 57 uses
+- color_text: 56 uses
+- Grey / 400: 51 uses
+- True White: 47 uses
+- Light / Base: 46 uses
+- Color Off-1: 45 uses
+- #4F4F4F: 43 uses
+- Grey / 600: 32 uses
+- Subheader/2 - 14pt: 28 uses
+- #FAA61A: 25 uses
+- Secondary: 20 uses
+- bg: 19 uses
+- Blue/600: 18 uses
+- Component Labels / Menu & Navigation: 16 uses
+- Orange/700: 16 uses
+- Yellow/600: 16 uses
+- Main Red Color: 15 uses
+- Purple 1: 15 uses
+- WHite: 15 uses
+- Component Labels/Button: 14 uses
+- Yellow/50: 14 uses
+- Light / Tints / Indigo: 12 uses
+- Body/Body 2 (Android) - 14pt: 11 uses
+- Elevation Light/1: 11 uses
+- Primary / Main Color: 9 uses
+- Elevation Light/2: 8 uses
+- Dark / Dark 2: 7 uses
+- Elevation Light/3: 7 uses
+- Stylized / Small: 7 uses
+- #BDBDBD: 6 uses
+- Body Extra Small: 6 uses
+- Green/600: 6 uses
+- Jeeny1: 5 uses
+- 1st: 4 uses
+- Gray 1: 4 uses
+- Light / Tints / Pink: 4 uses
+- Green 2: 3 uses
+- Green/50: 3 uses
+- Green/800: 3 uses
+- Purple Blue: 2 uses
+- #F2F2F2: 1 use
+- Caption/Caption (Android) - 12pt: 1 use
+- Dark / Dark 4: 1 use
+- Drop Shadow: 1 use
+- Light / Light 1: 1 use
+- Light / Light 2: 1 use
+- Light / Light 4: 1 use
+- Purple Light: 1 use
+
+## Layout & Structure
+Screen: Visual Design / Re-design Air India_Mohammed Asif AH
+- FRAME "Re-design Air India_Mohammed Asif AH", 1920x4373px, constraints left/top, fill #FEFCFB
+  - GROUP "Group 1000003578", 1169x316px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Shape", 1169x316px, constraints left/top, radius 10px, fill #FFFFFF, effect [drop_shadow 80px offset 0 2 #0000000F]
+    - GROUP "Group 1000003577", 1090x236px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003601", 582.4x24px, constraints left/top
+        - GROUP "Group 1000003595", 136.4x16px, constraints left/top
+          - GROUP "Group 1000003600", 14.4x16px, constraints left/top
+            - VECTOR "Vector", 14.4x6.4px, constraints scale/scale, stroke Gray 2 2px
+            - VECTOR "Vector", 14.4x6.4px, constraints scale/scale, stroke Gray 2 2px
+          - TEXT "Round Trip", 96x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003596", 167x24px, constraints left/top
+          - FRAME "account", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill Gray 2
+          - TEXT "1 Passengers", 121x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003593", 137x16px, constraints left/top
+          - TEXT "Special Fares", 119x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003594", 70x16px, constraints left/top
+          - TEXT "Cabin", 52x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+      - GROUP "Group 1000003571", 1089.25x56px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003566", 272.25x56px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 248", 272.25x56px, constraints left/top, radius 4/0/0/4px, fill Primary, stroke Primary 1px
+          - FRAME "Frame 1000003565", 159x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10/0/0/10px
+            - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - TEXT "Search Flights", 127x23px, constraints left/top, fill #FFFFFF, stroke Primary 0px, text [Roboto Regular, 20px]
+        - GROUP "Group 1000003568", 273.36x56px, constraints left/top
+          - RECTANGLE "Rectangle 249", 273.36x56px, constraints left/top, fill #D9000D1A, stroke Primary 1px
+          - FRAME "Frame 1000003567", 182x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 1000003562", 24x24px, constraints left/top
+            - TEXT "Manage Booking", 150x23px, constraints left/top, fill Gray 2, stroke Primary 0px, text [Roboto Regular, 20px]
+        - GROUP "Group 1000003570", 274.47x56px, constraints left/top
+          - RECTANGLE "Rectangle 250", 274.47x56px, constraints left/top, fill #D9000D1A, stroke Primary 1px
+          - FRAME "Frame 1000003569", 109x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 1000003563", 24x24px, constraints left/top
+            - TEXT "Check-in", 77x23px, constraints left/top, fill #000000, stroke Primary 0px, text [Roboto Regular, 20px]
+        - GROUP "Group 1000003569", 272.25x56px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 251", 272.25x56px, constraints left/top, radius 0/4/4/0px, fill #D9000D1A, stroke Primary 1px
+          - FRAME "Frame 1000003569", 144x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 1000003564", 24x24px, constraints left/top
+            - TEXT "Flight Status", 112x23px, constraints left/top, fill #000000, stroke Primary 0px, text [Roboto Regular, 20px]
+      - GROUP "Group 1000003575", 1090x84px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Explore Btn", 156x60px, horizontal pad 14 50 14 50px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Primary, effect [drop_shadow 16px offset 0 8 #FA743629]
+          - TEXT "Search", 56x32px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 18px]
+        - GROUP "Group 1000003574", 533.59x84px, constraints left/top
+          - GROUP "Group", 21.59x24px, constraints scale/scale
+            - VECTOR "Vector", 21.59x9.6px, constraints scale/scale, stroke Gray 2 2px
+            - VECTOR "Vector", 21.59x9.6px, constraints scale/scale, stroke Gray 2 2px
+          - FRAME "Text fields", 240x84px, vertical pad 0 543 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "From", 33x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+            - FRAME "Text fields", 240x56px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Text fields", 240x84px, vertical pad 0 543 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "to", 15x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+            - FRAME "Text fields", 240x56px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 1000003573", 328x84px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Travel dates", 85x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+          - GROUP "Text field", 328x56px, constraints left/top, radius 0/0/0/0px
+            - INSTANCE "Text Field", 328x56px, constraints left/top, radius 4px
+            - INSTANCE "Icon button", 44x44px, constraints left/top, radius 20px, fill #FFFFFF
+  - INSTANCE "Callout", 1169x72px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Yellow/50
+    - FRAME "Icon container", 56x52px, horizontal pad 14 16 14 16px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icon", 24x24px, constraints left/top
+        - VECTOR "icon", 22x19px, constraints scale/scale, fill Orange/700
+    - FRAME "Text container", 530x52px, horizontal pad 16 0 16 0px gap 10px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 911x42px, constraints left/top, fill Grey/800, text [Roboto Bold, 20px]
+    - FRAME "Actions container", 170x52px, horizontal pad 8 8 8 16px gap 8px align center/center sizing W:fixed H:fill, constraints left/top
+      - FRAME "Actions", 146x36px, horizontal pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Standard Button", 85x36px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Button", 85x36px, vertical pad 8 24 8 24px gap 10px align center/min sizing W:fixed H:fixed, constraints scale/scale, radius 4px, fill Yellow/600
+            - TEXT "Label", 130x20px, constraints left_right/scale, fill Grey/900, text [Roboto Medium, 14px]
+  - GROUP "Group 1000003585", 1920x576px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Exclusive deals", 1920x576px, constraints left/top
+      - RECTANGLE "Bg", 1920x576px, constraints left/top, fill #FEFCFB
+    - GROUP "Group 1000003584", 1171x440px, constraints left/top, radius 4px
+      - GROUP "Group 1000003582", 1171x349px, constraints left/top, radius 4px
+        - GROUP "1", 280x349px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: c6ec562bf48db9e126996080e6c86ede9da6062e)
+          - GROUP "Group 1000003599", 257x75px, constraints left/top, radius 0/0/0/0px
+            - TEXT "More reasons to fly Air India", 257x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+            - TEXT "FR points & associated benefits extended till 30th Sep 2022", 228x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "1163375", 280x349px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: 23f0500b8088dade4ffe14276931eac7ee993b14)
+          - TEXT "Experience Dreamliner", 280x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "State-of-the-art-flying with more entertainment and comfort", 226x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "1163376", 280x349px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: 6c32242e22f03ee5551077bb3949e9f07334a90a)
+          - TEXT "Bid. Fly. Enjoy!", 280x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Bid upfront to enjoy travelling in our business or first cla", 226x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "1163377", 280x349px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: e9c5241debcc2005687a069505f1fa550d335a4d)
+          - TEXT "Maharajah Scholar’s Scheme", 278x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Avail special baggage allowance for students", 252x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "Group 1000003583", 385x47px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Why Choose Air India", 385x47px, constraints left/top, fill Gray 2, text [Roboto Bold, 40px], [heading]
+  - GROUP "Group 1000003598", 1920x547px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Exclusive deals", 1920x547px, constraints left/top
+      - RECTANGLE "Bg", 1920x547px, constraints left/top, fill #FEFCFB
+    - GROUP "Group 1000003584", 1171x411px, constraints left/top, radius 4px
+      - GROUP "Group 1000003582", 1171x320px, constraints left/top, radius 4px
+        - GROUP "1", 280x320px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill #D9D9D9
+          - GROUP "Group 1000003599", 257x46px, constraints left/top, radius 0/0/0/0px
+            - TEXT "COVID-19 Updates and travel advisories", 257x46px, constraints left/top, fill color_text, text [Roboto SemiBold, 20px]
+        - GROUP "1163375", 280x297px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill #D9D9D9
+          - TEXT "Essential travel requirements", 280x23px, constraints left/top, fill color_text, text [Roboto SemiBold, 20px]
+        - GROUP "1163376", 280x297px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: f44435e1004921808926a994204271c31eb8dc73)
+          - TEXT "Airport information", 280x23px, constraints left/top, fill color_text, text [Roboto SemiBold, 20px]
+        - GROUP "1163377", 280x297px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: 762d5f366f79b8a0dd360a523535f0c53f76495f)
+          - TEXT "Trip Assurance", 278x23px, constraints left/top, fill color_text, text [Roboto SemiBold, 20px]
+      - GROUP "Group 1000003583", 724x47px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Plan your trip and travel with confidence", 724x47px, constraints left/top, fill Gray 2, text [Roboto Bold, 40px], [heading]
+  - GROUP "Group 1000003623", 1920x400px, constraints left/top
+    - RECTANGLE "Bg", 1920x400px, constraints left/top, fill image(hash: a5423c28e31c0d4b72043ede849c8450a16ce853)
+    - RECTANGLE "Bg", 1920x400px, constraints left/top, fill gradient_linear(#1D1D1D 7% | #1D1D1D00 100%), opacity 70%
+    - TEXT "FLY NON-STOP! Experience our non stop flights to USA, Europe", 817x194px, constraints left/top, fill Primary, text [Volkhov Bold, 60px], [heading]
+  - GROUP "Group 1000003618", 1920x703px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Bg", 1920x703px, constraints left/top, fill #F5F7F5
+    - GROUP "Group 1000003617", 1170.43x56px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003616", 1170.43x56px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003571", 1170.43x56px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - GROUP "Group 1000003612", 140.23x24px, constraints left/top, radius 0/0/0/0px
+          - FRAME "Frame 1000003565", 108x23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10/0/0/10px
+            - TEXT "Latest news", 108x23px, constraints left/top, fill #FFFFFF, stroke Primary 0px, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003608", 24x24px, constraints left/top
+            - FRAME "newspaper-variant", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1000003613", 86.5x24px, constraints left/top
+          - FRAME "Frame 1000003567", 54x23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Cargo", 54x23px, constraints left/top, fill Gray 2, stroke Primary 0px, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003609", 24x24px, constraints left/top
+            - FRAME "truck-cargo-container", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1000003614", 79.41x24px, constraints left/top
+          - TEXT "FAQs", 47x23px, constraints left/top, fill #000000, stroke Primary 0px, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003610", 24x24px, constraints left/top
+            - FRAME "frequently-asked-questions", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1000003615", 119.57x24px, constraints left/top
+          - FRAME "Frame 1000003569", 87x23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Feedback", 87x23px, constraints left/top, fill #000000, stroke Primary 0px, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003611", 24x24px, constraints left/top
+            - FRAME "comment-quote", 24x24px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 1000003631", 1168.58x387px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 1000003622", 1168.58x387px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003621", 1168.58x160px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Gallery", 268.22x140px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - TEXT "Gallery", 268.22x160px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - TEXT "Gallery", 268.22x140px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - TEXT "Gallery", 269.27x140px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+      - RECTANGLE "Rectangle", 1167.53x1px, constraints left/top, fill Gray 2, opacity 15%
+      - GROUP "Group 73", 268.22x72px, constraints left/top
+        - TEXT "Gallery", 240.87x12px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 12px]
+        - TEXT "Gallery", 268.22x15px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - GROUP "Group 69", 108.34x30px, constraints left/top [decorative, ~11 shapes]
+      - GROUP "Group 71", 368.44x80.01px, constraints left/top, radius 4px
+        - TEXT "Gallery", 368.14x14px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - TEXT "Gallery", 368.14x12px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - GROUP "Group 70", 368.44x29.11px, constraints left/top, radius 4px
+          - RECTANGLE "Mask", 244.02x29.01px, constraints scale/scale, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 2 2 #38293312]
+          - TEXT "Gallery", 92.56x9px, constraints left/top, fill Gray 2, text [Roboto Regular, 10px], opacity 50%
+          - GROUP "Group 1000003651", 110.44x29.01px, constraints left/top, radius 4px
+            - RECTANGLE "Mask", 110.44x29.01px, constraints scale/scale, radius 4px, fill Main Red Color, effect [drop_shadow 8px offset 2 2 #38293312]
+            - TEXT "Gallery", 72.58x9px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 10px]
+      - GROUP "Group 72", 268.22x77px, constraints left/top
+        - TEXT "Gallery", 240.87x12px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 12px]
+        - TEXT "Gallery", 268.22x15px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - RECTANGLE "image 1 copy 1", 268.22x35px, constraints left/top, fill image(hash: 414bfcd69caca6649750cf2c567665e9994520ff)
+      - GROUP "Group 1000003620", 756.26x44px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Gallery", 566.93x32px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - LINE "Line 2", 756.26x0px, constraints left/top, stroke Gray 4 1px
+    - GROUP "Group 1000003619", 179.86x45px, constraints left/top
+      - RECTANGLE "Air-India-logo 1", 179.86x45px, constraints left/top, fill image(hash: 8e2bf12decc2b2433c7d78a1786122bee46dc9cd)
+  - GROUP "Group 1000003628", 1920x482px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 1000003630", 1920x482px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003627", 1920x482px, constraints left/top
+        - GROUP "Exclusive deals", 1920x482px, constraints left/top
+          - RECTANGLE "Bg", 1920x482px, constraints left/top, fill #FEFCFB
+      - GROUP "Group 1000003626", 1174x346px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003584", 204x47px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 1000003583", 204x47px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Best Offers", 204x47px, constraints left/top, fill Gray 2, text [Roboto Bold, 40px], [heading]
+        - GROUP "Group 1000003659", 283x255px, constraints left/top, radius 0/0/0/0px
+          - GROUP "cart-1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "temassiz", 7.82x14.22px, constraints left/top [decorative, ~4 shapes]
+            - GROUP "cip", 27.73x22.75px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+          - GROUP "Group 1000003600", 268x75px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Special offer!", 257x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+            - TEXT "Enjoy 7% cashback* up to ₹950 using Bank Credit Cards. T&C a", 268x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "Group 1000003660", 283x255px, constraints left/top, radius 0/0/0/0px
+          - GROUP "cart-1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "temassiz", 7.82x14.22px, constraints left/top [decorative, ~4 shapes]
+            - GROUP "cip", 27.73x22.75px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+          - TEXT "Special offer!", 280x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Enjoy 5% cashback* up to ₹750 using Bank Credit Cards. T&C a", 265x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "Group 1000003661", 283x255px, constraints left/top, radius 0/0/0/0px
+          - GROUP "cart-1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "temassiz", 7.82x14.22px, constraints left/top [decorative, ~4 shapes]
+            - GROUP "cip", 27.73x22.75px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+          - TEXT "Special offer!", 280x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Enjoy 10% cashback* up to ₹1750 using Bank Credit Cards. T&C", 265x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "Group 1000003662", 283x255px, constraints left/top, radius 0/0/0/0px
+          - GROUP "cart-1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "temassiz", 7.82x14.22px, constraints left/top [decorative, ~4 shapes]
+            - GROUP "cip", 27.73x22.75px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+          - TEXT "Special offer!", 278x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Enjoy 15% cashback* up to ₹2750 using Bank Credit Cards. T&C", 279x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+  - RECTANGLE "image 3 1", 188x16px, constraints left/top, fill image(hash: 1b9390f94ca7f82d07eefd352a78053041bf1441)
+  - FRAME "Carousel1", 1169x454px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group 1000003640", 1169x454px, constraints left/top, radius 0/0/0/0px
+      - FRAME "Slider", 74x14px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - GROUP "Group 1000003590", 1169x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 4337", 1169x400px, constraints left/top, radius 4px, fill image(hash: af000995d32d5f5ded7c6b66a4638b916754d3d0)
+        - RECTANGLE "1163374-airindiaboeing7878dreamlinervtanl32519williamderrick", 511x340px, constraints left/top, fill image(hash: cc88b99539e5a03242526750271814f9c93b548a)
+        - GROUP "Group 1000003580", 382x204px, constraints left/top
+          - GROUP "Group 1000003579", 382x117px, constraints left/top, radius 0/0/0/0px
+            - TEXT "WELCOME TO THE NEW ERA", 382x117px, constraints left/top, fill Primary, text [Volkhov Bold, 60px], [heading]
+          - RECTANGLE "image 2", 326x73px, constraints left/top, fill image(hash: e656b40683cce471895195309cdb57fec6823d0d)
+      - GROUP "Group 5", 153x166px, constraints left/top, radius 0/0/0/0px
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill Primary, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 1st, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+  - GROUP "Group 1000003607", 1170x470.77px, constraints left/top, radius 0/0/0/0px
+    - GROUP "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 242.43x138.03px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Mask", 242.43x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "Mask", 242.43x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 275.4x173.92px, constraints scale/scale
+    - GROUP "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 242.91x138.03px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Mask", 242.91x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "Mask", 242.91x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 275.95x173.92px, constraints scale/scale
+    - GROUP "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 242.91x138.03px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Mask", 242.91x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "Mask", 242.91x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 275.95x173.92px, constraints scale/scale
+    - GROUP "Group 1000003646", 568.14x466.11px, constraints left/top, radius 0/0/0/0px
+      - GROUP "cranes-and-containers-ship-at-international-logist-B2GRTLL (", 567.16x319.9px, constraints left/top, radius 4px, fill #FFFFFF
+        - RECTANGLE "Mask", 567.16x319.9px, constraints scale/scale, radius 4px, fill #D8D8D8
+        - RECTANGLE "Mask", 567.16x319.9px, constraints scale/scale, radius 4px, fill #D8D8D8
+        - RECTANGLE "unsplash:CmJHegzIMnw", 636.65x340px, constraints left/top, radius 4px, fill image(hash: 342ffd7838d1fd69fa5153db3a4db0be33fd7503)
+      - TEXT "Excellent company qu", 567.08x40px, constraints scale/center, fill Gray 2, text [Roboto SemiBold, 20px]
+      - TEXT "Vivamus eu luctus nu", 568.14x49.01px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "categorie", 120.28x16.76px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "cargo", 100.72x16.76px, constraints scale/scale, fill Gray 3, text [Nunito Regular, 14px]
+        - TEXT "folder", 14.67x16.76px, constraints scale/scale, fill Gray 2, text [Font Awesome 5 Free Regular, 14px]
+      - GROUP "calendar", 118.81x17.32px, constraints left/top, fill #FFFFFF
+        - TEXT "28 Jan 2021", 100.72x16.76px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - BOOLEAN_OPERATION "Shape", 14.76x14px, constraints left/top, fill Gray 2
+    - GROUP "Group 1000003648", 570.24x138px, constraints left/top, radius 4px
+      - TEXT "Excellent company qu", 294.08x44px, constraints scale/center, fill Gray 2, text [Roboto SemiBold, 18px]
+      - TEXT "Phasellus commodo fe", 294.08x46.01px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "categorie", 129.88x16.64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "cargo", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "folder", 15.84x16.64px, constraints scale/scale, fill Gray 2, text [Roboto Regular, 14px]
+      - GROUP "calendar", 127.77x17.56px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "28 Jan 2021", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "calendar", 13.73x16.64px, constraints scale/scale, fill Gray 2, text [Font Awesome 5 Free Regular, 14px]
+      - RECTANGLE "unsplash:oCsQLKENz34", 242.43x138px, constraints left/top, radius 4px, fill image(hash: 763c62cfffe94140588dcbf52774f409af12a340)
+    - GROUP "Group 1000003649", 570.24x138px, constraints left/top, radius 4px
+      - TEXT "Excellent company qu", 294.08x44px, constraints scale/center, fill Gray 2, text [Roboto SemiBold, 18px]
+      - TEXT "Phasellus commodo fe", 294.08x47.01px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "categorie", 129.88x16.64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "cargo", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "folder", 15.84x16.64px, constraints scale/scale, fill Gray 2, text [Roboto Regular, 14px]
+      - GROUP "calendar", 127.77x17.56px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "28 Jan 2021", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "calendar", 13.73x16.64px, constraints scale/scale, fill Gray 2, text [Font Awesome 5 Free Regular, 14px]
+      - RECTANGLE "unsplash:5KRFOTnpnnY", 242.43x138px, constraints left/top, radius 4px, fill image(hash: f011caf72697da5dd02f4e16c6ec0502f26bf7aa)
+    - GROUP "Group 1000003647", 570.24x138px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Excellent company qu", 294.08x44px, constraints scale/center, fill Gray 2, text [Roboto SemiBold, 18px]
+      - TEXT "Phasellus commodo fe", 294.08x44.01px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "categorie", 129.88x16.64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "cargo", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "folder", 15.84x16.64px, constraints scale/scale, fill Gray 2, text [Roboto Regular, 14px]
+      - GROUP "calendar", 128.3x17.21px, constraints left/top, fill #FFFFFF
+        - TEXT "28 Jan 2021", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - BOOLEAN_OPERATION "Shape", 14.76x14px, constraints left/top, fill Gray 2
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Visual Design / Chatbot
+- FRAME "Chatbot", 1920x4373px, constraints left/top, fill #FEFCFB
+  - GROUP "Group 1000003578", 1169x316px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Shape", 1169x316px, constraints left/top, radius 10px, fill #FFFFFF, effect [drop_shadow 80px offset 0 2 #0000000F]
+    - GROUP "Group 1000003577", 1090x236px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003601", 582.4x24px, constraints left/top
+        - GROUP "Group 1000003595", 136.4x16px, constraints left/top
+          - GROUP "Group 1000003600", 14.4x16px, constraints left/top
+            - VECTOR "Vector", 14.4x6.4px, constraints scale/scale, stroke Gray 2 2px
+            - VECTOR "Vector", 14.4x6.4px, constraints scale/scale, stroke Gray 2 2px
+          - TEXT "Round Trip", 96x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003596", 167x24px, constraints left/top
+          - FRAME "account", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill Gray 2
+          - TEXT "1 Passengers", 121x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003593", 137x16px, constraints left/top
+          - TEXT "Special Fares", 119x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003594", 70x16px, constraints left/top
+          - TEXT "Cabin", 52x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+      - GROUP "Group 1000003571", 1089.25x56px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003566", 272.25x56px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 248", 272.25x56px, constraints left/top, radius 4/0/0/4px, fill Primary, stroke Primary 1px
+          - FRAME "Frame 1000003565", 159x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10/0/0/10px
+            - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - TEXT "Search Flights", 127x23px, constraints left/top, fill #FFFFFF, stroke Primary 0px, text [Roboto Regular, 20px]
+        - GROUP "Group 1000003568", 273.36x56px, constraints left/top
+          - RECTANGLE "Rectangle 249", 273.36x56px, constraints left/top, fill #D9000D1A, stroke Primary 1px
+          - FRAME "Frame 1000003567", 182x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 1000003562", 24x24px, constraints left/top
+            - TEXT "Manage Booking", 150x23px, constraints left/top, fill Gray 2, stroke Primary 0px, text [Roboto Regular, 20px]
+        - GROUP "Group 1000003570", 274.47x56px, constraints left/top
+          - RECTANGLE "Rectangle 250", 274.47x56px, constraints left/top, fill #D9000D1A, stroke Primary 1px
+          - FRAME "Frame 1000003569", 109x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 1000003563", 24x24px, constraints left/top
+            - TEXT "Check-in", 77x23px, constraints left/top, fill #000000, stroke Primary 0px, text [Roboto Regular, 20px]
+        - GROUP "Group 1000003569", 272.25x56px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 251", 272.25x56px, constraints left/top, radius 0/4/4/0px, fill #D9000D1A, stroke Primary 1px
+          - FRAME "Frame 1000003569", 144x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 1000003564", 24x24px, constraints left/top
+            - TEXT "Flight Status", 112x23px, constraints left/top, fill #000000, stroke Primary 0px, text [Roboto Regular, 20px]
+      - GROUP "Group 1000003575", 1090x84px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Explore Btn", 156x60px, horizontal pad 14 50 14 50px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Primary, effect [drop_shadow 16px offset 0 8 #FA743629]
+          - TEXT "Search", 56x32px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 18px]
+        - GROUP "Group 1000003574", 533.59x84px, constraints left/top
+          - GROUP "Group", 21.59x24px, constraints scale/scale
+            - VECTOR "Vector", 21.59x9.6px, constraints scale/scale, stroke Gray 2 2px
+            - VECTOR "Vector", 21.59x9.6px, constraints scale/scale, stroke Gray 2 2px
+          - FRAME "Text fields", 240x84px, vertical pad 0 543 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "From", 33x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+            - FRAME "Text fields", 240x56px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Text fields", 240x84px, vertical pad 0 543 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "to", 15x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+            - FRAME "Text fields", 240x56px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 1000003573", 328x84px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Travel dates", 85x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+          - GROUP "Text field", 328x56px, constraints left/top, radius 0/0/0/0px
+            - INSTANCE "Text Field", 328x56px, constraints left/top, radius 4px
+            - INSTANCE "Icon button", 44x44px, constraints left/top, radius 20px, fill #FFFFFF
+  - INSTANCE "Callout", 1169x72px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Yellow/50
+    - FRAME "Icon container", 56x52px, horizontal pad 14 16 14 16px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icon", 24x24px, constraints left/top
+        - VECTOR "icon", 22x19px, constraints scale/scale, fill Orange/700
+    - FRAME "Text container", 530x52px, horizontal pad 16 0 16 0px gap 10px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text", 911x42px, constraints left/top, fill Grey/800, text [Roboto Bold, 20px]
+    - FRAME "Actions container", 170x52px, horizontal pad 8 8 8 16px gap 8px align center/center sizing W:fixed H:fill, constraints left/top
+      - FRAME "Actions", 146x36px, horizontal pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Standard Button", 85x36px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Button", 85x36px, vertical pad 8 24 8 24px gap 10px align center/min sizing W:fixed H:fixed, constraints scale/scale, radius 4px, fill Yellow/600
+            - TEXT "Label", 130x20px, constraints left_right/scale, fill Grey/900, text [Roboto Medium, 14px]
+  - GROUP "Group 1000003585", 1920x576px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Exclusive deals", 1920x576px, constraints left/top
+      - RECTANGLE "Bg", 1920x576px, constraints left/top, fill #FEFCFB
+    - GROUP "Group 1000003584", 1171x440px, constraints left/top, radius 4px
+      - GROUP "Group 1000003582", 1171x349px, constraints left/top, radius 4px
+        - GROUP "1", 280x349px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: c6ec562bf48db9e126996080e6c86ede9da6062e)
+          - GROUP "Group 1000003599", 257x75px, constraints left/top, radius 0/0/0/0px
+            - TEXT "More reasons to fly Air India", 257x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+            - TEXT "FR points & associated benefits extended till 30th Sep 2022", 228x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "1163375", 280x349px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: 23f0500b8088dade4ffe14276931eac7ee993b14)
+          - TEXT "Experience Dreamliner", 280x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "State-of-the-art-flying with more entertainment and comfort", 226x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "1163376", 280x349px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: 6c32242e22f03ee5551077bb3949e9f07334a90a)
+          - TEXT "Bid. Fly. Enjoy!", 280x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Bid upfront to enjoy travelling in our business or first cla", 226x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "1163377", 280x349px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: e9c5241debcc2005687a069505f1fa550d335a4d)
+          - TEXT "Maharajah Scholar’s Scheme", 278x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Avail special baggage allowance for students", 252x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "Group 1000003583", 385x47px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Why Choose Air India", 385x47px, constraints left/top, fill Gray 2, text [Roboto Bold, 40px], [heading]
+  - GROUP "Group 1000003598", 1920x547px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Exclusive deals", 1920x547px, constraints left/top
+      - RECTANGLE "Bg", 1920x547px, constraints left/top, fill #FEFCFB
+    - GROUP "Group 1000003584", 1171x411px, constraints left/top, radius 4px
+      - GROUP "Group 1000003582", 1171x320px, constraints left/top, radius 4px
+        - GROUP "1", 280x320px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill #D9D9D9
+          - GROUP "Group 1000003599", 257x46px, constraints left/top, radius 0/0/0/0px
+            - TEXT "COVID-19 Updates and travel advisories", 257x46px, constraints left/top, fill color_text, text [Roboto SemiBold, 20px]
+        - GROUP "1163375", 280x297px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill #D9D9D9
+          - TEXT "Essential travel requirements", 280x23px, constraints left/top, fill color_text, text [Roboto SemiBold, 20px]
+        - GROUP "1163376", 280x297px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: f44435e1004921808926a994204271c31eb8dc73)
+          - TEXT "Airport information", 280x23px, constraints left/top, fill color_text, text [Roboto SemiBold, 20px]
+        - GROUP "1163377", 280x297px, constraints left/top, radius 4px
+          - RECTANGLE "Rectangle 17", 280x250px, constraints left/top, radius 4px, fill image(hash: 762d5f366f79b8a0dd360a523535f0c53f76495f)
+          - TEXT "Trip Assurance", 278x23px, constraints left/top, fill color_text, text [Roboto SemiBold, 20px]
+      - GROUP "Group 1000003583", 724x47px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Plan your trip and travel with confidence", 724x47px, constraints left/top, fill Gray 2, text [Roboto Bold, 40px], [heading]
+  - GROUP "Group 1000003623", 1920x400px, constraints left/top
+    - RECTANGLE "Bg", 1920x400px, constraints left/top, fill image(hash: a5423c28e31c0d4b72043ede849c8450a16ce853)
+    - RECTANGLE "Bg", 1920x400px, constraints left/top, fill gradient_linear(#1D1D1D 7% | #1D1D1D00 100%), opacity 70%
+    - TEXT "FLY NON-STOP! Experience our non stop flights to USA, Europe", 817x194px, constraints left/top, fill Primary, text [Volkhov Bold, 60px], [heading]
+  - GROUP "Group 1000003618", 1920x703px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Bg", 1920x703px, constraints left/top, fill #F5F7F5
+    - GROUP "Group 1000003617", 1170.43x56px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003616", 1170.43x56px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003571", 1170.43x56px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - GROUP "Group 1000003612", 140.23x24px, constraints left/top, radius 0/0/0/0px
+          - FRAME "Frame 1000003565", 108x23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10/0/0/10px
+            - TEXT "Latest news", 108x23px, constraints left/top, fill #FFFFFF, stroke Primary 0px, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003608", 24x24px, constraints left/top
+            - FRAME "newspaper-variant", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1000003613", 86.5x24px, constraints left/top
+          - FRAME "Frame 1000003567", 54x23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Cargo", 54x23px, constraints left/top, fill Gray 2, stroke Primary 0px, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003609", 24x24px, constraints left/top
+            - FRAME "truck-cargo-container", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1000003614", 79.41x24px, constraints left/top
+          - TEXT "FAQs", 47x23px, constraints left/top, fill #000000, stroke Primary 0px, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003610", 24x24px, constraints left/top
+            - FRAME "frequently-asked-questions", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1000003615", 119.57x24px, constraints left/top
+          - FRAME "Frame 1000003569", 87x23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Feedback", 87x23px, constraints left/top, fill #000000, stroke Primary 0px, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003611", 24x24px, constraints left/top
+            - FRAME "comment-quote", 24x24px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 1000003631", 1168.58x387px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 1000003622", 1168.58x387px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003621", 1168.58x160px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Gallery", 268.22x140px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - TEXT "Gallery", 268.22x160px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - TEXT "Gallery", 268.22x140px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - TEXT "Gallery", 269.27x140px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+      - RECTANGLE "Rectangle", 1167.53x1px, constraints left/top, fill Gray 2, opacity 15%
+      - GROUP "Group 73", 268.22x72px, constraints left/top
+        - TEXT "Gallery", 240.87x12px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 12px]
+        - TEXT "Gallery", 268.22x15px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - GROUP "Group 69", 108.34x30px, constraints left/top [decorative, ~11 shapes]
+      - GROUP "Group 71", 368.44x80.01px, constraints left/top, radius 4px
+        - TEXT "Gallery", 368.14x14px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - TEXT "Gallery", 368.14x12px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - GROUP "Group 70", 368.44x29.11px, constraints left/top, radius 4px
+          - RECTANGLE "Mask", 244.02x29.01px, constraints scale/scale, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 2 2 #38293312]
+          - TEXT "Gallery", 92.56x9px, constraints left/top, fill Gray 2, text [Roboto Regular, 10px], opacity 50%
+          - GROUP "Group 1000003651", 110.44x29.01px, constraints left/top, radius 4px
+            - RECTANGLE "Mask", 110.44x29.01px, constraints scale/scale, radius 4px, fill Main Red Color, effect [drop_shadow 8px offset 2 2 #38293312]
+            - TEXT "Gallery", 72.58x9px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 10px]
+      - GROUP "Group 72", 268.22x77px, constraints left/top
+        - TEXT "Gallery", 240.87x12px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 12px]
+        - TEXT "Gallery", 268.22x15px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - RECTANGLE "image 1 copy 1", 268.22x35px, constraints left/top, fill image(hash: 414bfcd69caca6649750cf2c567665e9994520ff)
+      - GROUP "Group 1000003620", 756.26x44px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Gallery", 566.93x32px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+        - LINE "Line 2", 756.26x0px, constraints left/top, stroke Gray 4 1px
+    - GROUP "Group 1000003619", 179.86x45px, constraints left/top
+      - RECTANGLE "Air-India-logo 1", 179.86x45px, constraints left/top, fill image(hash: 8e2bf12decc2b2433c7d78a1786122bee46dc9cd)
+  - GROUP "Group 1000003628", 1920x482px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 1000003630", 1920x482px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003627", 1920x482px, constraints left/top
+        - GROUP "Exclusive deals", 1920x482px, constraints left/top
+          - RECTANGLE "Bg", 1920x482px, constraints left/top, fill #FEFCFB
+      - GROUP "Group 1000003626", 1174x346px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003584", 204x47px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 1000003583", 204x47px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Best Offers", 204x47px, constraints left/top, fill Gray 2, text [Roboto Bold, 40px], [heading]
+        - GROUP "Group 1000003659", 283x255px, constraints left/top, radius 0/0/0/0px
+          - GROUP "cart-1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "temassiz", 7.82x14.22px, constraints left/top [decorative, ~4 shapes]
+            - GROUP "cip", 27.73x22.75px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+          - GROUP "Group 1000003600", 268x75px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Special offer!", 257x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+            - TEXT "Enjoy 7% cashback* up to ₹950 using Bank Credit Cards. T&C a", 268x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "Group 1000003660", 283x255px, constraints left/top, radius 0/0/0/0px
+          - GROUP "cart-1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "temassiz", 7.82x14.22px, constraints left/top [decorative, ~4 shapes]
+            - GROUP "cip", 27.73x22.75px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+          - TEXT "Special offer!", 280x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Enjoy 5% cashback* up to ₹750 using Bank Credit Cards. T&C a", 265x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "Group 1000003661", 283x255px, constraints left/top, radius 0/0/0/0px
+          - GROUP "cart-1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "temassiz", 7.82x14.22px, constraints left/top [decorative, ~4 shapes]
+            - GROUP "cip", 27.73x22.75px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+          - TEXT "Special offer!", 280x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Enjoy 10% cashback* up to ₹1750 using Bank Credit Cards. T&C", 265x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+        - GROUP "Group 1000003662", 283x255px, constraints left/top, radius 0/0/0/0px
+          - GROUP "cart-1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 1", 283x155.01px, constraints left/top, radius 0/0/0/0px
+            - GROUP "temassiz", 7.82x14.22px, constraints left/top [decorative, ~4 shapes]
+            - GROUP "cip", 27.73x22.75px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+          - TEXT "Special offer!", 278x23px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - TEXT "Enjoy 15% cashback* up to ₹2750 using Bank Credit Cards. T&C", 279x44px, constraints left/top, fill Gray 3, text [Roboto Regular, 16px]
+  - RECTANGLE "image 3 1", 188x16px, constraints left/top, fill image(hash: 1b9390f94ca7f82d07eefd352a78053041bf1441)
+  - FRAME "Carousel1", 1169x454px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group 1000003640", 1169x454px, constraints left/top, radius 0/0/0/0px
+      - FRAME "Slider", 74x14px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - GROUP "Group 1000003590", 1169x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 4337", 1169x400px, constraints left/top, radius 4px, fill image(hash: af000995d32d5f5ded7c6b66a4638b916754d3d0)
+        - RECTANGLE "1163374-airindiaboeing7878dreamlinervtanl32519williamderrick", 511x340px, constraints left/top, fill image(hash: cc88b99539e5a03242526750271814f9c93b548a)
+        - GROUP "Group 1000003580", 382x204px, constraints left/top
+          - GROUP "Group 1000003579", 382x117px, constraints left/top, radius 0/0/0/0px
+            - TEXT "WELCOME TO THE NEW ERA", 382x117px, constraints left/top, fill Primary, text [Volkhov Bold, 60px], [heading]
+          - RECTANGLE "image 2", 326x73px, constraints left/top, fill image(hash: e656b40683cce471895195309cdb57fec6823d0d)
+      - GROUP "Group 5", 153x166px, constraints left/top, radius 0/0/0/0px
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill Primary, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 1st, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+        - TEXT "+", 13x26px, constraints left/top, fill 3rd, text [Roboto Regular, 22px]
+  - GROUP "Group 1000003607", 1170x470.77px, constraints left/top, radius 0/0/0/0px
+    - GROUP "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 242.43x138.03px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Mask", 242.43x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "Mask", 242.43x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 275.4x173.92px, constraints scale/scale
+    - GROUP "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 242.91x138.03px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Mask", 242.91x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "Mask", 242.91x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 275.95x173.92px, constraints scale/scale
+    - GROUP "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 242.91x138.03px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Mask", 242.91x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "Mask", 242.91x138.03px, constraints scale/scale, fill #D8D8D8
+      - RECTANGLE "logistics-business-at-harbor-of-rotterdam-netherla-27569D3", 275.95x173.92px, constraints scale/scale
+    - GROUP "Group 1000003646", 568.14x466.11px, constraints left/top, radius 0/0/0/0px
+      - GROUP "cranes-and-containers-ship-at-international-logist-B2GRTLL (", 567.16x319.9px, constraints left/top, radius 4px, fill #FFFFFF
+        - RECTANGLE "Mask", 567.16x319.9px, constraints scale/scale, radius 4px, fill #D8D8D8
+        - RECTANGLE "Mask", 567.16x319.9px, constraints scale/scale, radius 4px, fill #D8D8D8
+        - RECTANGLE "unsplash:CmJHegzIMnw", 636.65x340px, constraints left/top, radius 4px, fill image(hash: 342ffd7838d1fd69fa5153db3a4db0be33fd7503)
+      - TEXT "Excellent company qu", 567.08x40px, constraints scale/center, fill Gray 2, text [Roboto SemiBold, 20px]
+      - TEXT "Vivamus eu luctus nu", 568.14x49.01px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "categorie", 120.28x16.76px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "cargo", 100.72x16.76px, constraints scale/scale, fill Gray 3, text [Nunito Regular, 14px]
+        - TEXT "folder", 14.67x16.76px, constraints scale/scale, fill Gray 2, text [Font Awesome 5 Free Regular, 14px]
+      - GROUP "calendar", 118.81x17.32px, constraints left/top, fill #FFFFFF
+        - TEXT "28 Jan 2021", 100.72x16.76px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - BOOLEAN_OPERATION "Shape", 14.76x14px, constraints left/top, fill Gray 2
+    - GROUP "Group 1000003648", 570.24x138px, constraints left/top, radius 4px
+      - TEXT "Excellent company qu", 294.08x44px, constraints scale/center, fill Gray 2, text [Roboto SemiBold, 18px]
+      - TEXT "Phasellus commodo fe", 294.08x46.01px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "categorie", 129.88x16.64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "cargo", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "folder", 15.84x16.64px, constraints scale/scale, fill Gray 2, text [Roboto Regular, 14px]
+      - GROUP "calendar", 127.77x17.56px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "28 Jan 2021", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "calendar", 13.73x16.64px, constraints scale/scale, fill Gray 2, text [Font Awesome 5 Free Regular, 14px]
+      - RECTANGLE "unsplash:oCsQLKENz34", 242.43x138px, constraints left/top, radius 4px, fill image(hash: 763c62cfffe94140588dcbf52774f409af12a340)
+    - GROUP "Group 1000003649", 570.24x138px, constraints left/top, radius 4px
+      - TEXT "Excellent company qu", 294.08x44px, constraints scale/center, fill Gray 2, text [Roboto SemiBold, 18px]
+      - TEXT "Phasellus commodo fe", 294.08x47.01px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "categorie", 129.88x16.64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "cargo", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "folder", 15.84x16.64px, constraints scale/scale, fill Gray 2, text [Roboto Regular, 14px]
+      - GROUP "calendar", 127.77x17.56px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "28 Jan 2021", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "calendar", 13.73x16.64px, constraints scale/scale, fill Gray 2, text [Font Awesome 5 Free Regular, 14px]
+      - RECTANGLE "unsplash:5KRFOTnpnnY", 242.43x138px, constraints left/top, radius 4px, fill image(hash: f011caf72697da5dd02f4e16c6ec0502f26bf7aa)
+    - GROUP "Group 1000003647", 570.24x138px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Excellent company qu", 294.08x44px, constraints scale/center, fill Gray 2, text [Roboto SemiBold, 18px]
+      - TEXT "Phasellus commodo fe", 294.08x44.01px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 16px]
+      - GROUP "categorie", 129.88x16.64px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "cargo", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - TEXT "folder", 15.84x16.64px, constraints scale/scale, fill Gray 2, text [Roboto Regular, 14px]
+      - GROUP "calendar", 128.3x17.21px, constraints left/top, fill #FFFFFF
+        - TEXT "28 Jan 2021", 108.76x16.64px, constraints scale/scale, fill Gray 3, text [Roboto Regular, 14px]
+        - BOOLEAN_OPERATION "Shape", 14.76x14px, constraints left/top, fill Gray 2
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Visual Design / Flight select
+- FRAME "Flight select", 1920x1944px, constraints left/top, fill #FEFCFB
+  - RECTANGLE "Rectangle 4340", 1920x1588px, constraints left/top, fill bg, opacity 50%
+  - GROUP "Group 1000003672", 1167.95x74px, constraints left/top
+    - GROUP "Group 1000003631", 952.81x74px, constraints left/top
+      - GROUP "Group 1000003622", 756.26x44px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003620", 756.26x44px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Gallery", 566.93x32px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+          - LINE "Line 2", 756.26x0px, constraints left/top, stroke Gray 4 1px
+      - GROUP "Group 1000003619", 179.86x45px, constraints left/top
+        - RECTANGLE "Air-India-logo 1", 179.86x45px, constraints left/top, fill image(hash: 8e2bf12decc2b2433c7d78a1786122bee46dc9cd)
+    - RECTANGLE "image 3 1", 188x16px, constraints left/top, fill image(hash: 1b9390f94ca7f82d07eefd352a78053041bf1441)
+  - GROUP "Group 1000003682", 1170x223px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4341", 1170x223px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+    - GROUP "Group 1000003672", 1090x143px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003601", 582.4x24px, constraints left/top
+        - GROUP "Group 1000003595", 136.4x16px, constraints left/top
+          - GROUP "Group 1000003600", 14.4x16px, constraints left/top
+            - VECTOR "Vector", 14.4x6.4px, constraints scale/scale, stroke Gray 2 2px
+            - VECTOR "Vector", 14.4x6.4px, constraints scale/scale, stroke Gray 2 2px
+          - TEXT "Round Trip", 96x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003596", 167x24px, constraints left/top
+          - FRAME "account", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill Gray 2
+          - TEXT "1 Passengers", 121x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003593", 137x16px, constraints left/top
+          - TEXT "Special Fares", 119x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003594", 70x16px, constraints left/top
+          - TEXT "Cabin", 52x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+      - GROUP "Group 1000003575", 1090x84px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Explore Btn", 156x60px, horizontal pad 14 50 14 50px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Primary, effect [drop_shadow 16px offset 0 8 #FA743629]
+          - TEXT "Modify", 56x32px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 18px]
+        - GROUP "Group 1000003574", 533.59x84px, constraints left/top
+          - GROUP "Group", 21.59x24px, constraints scale/scale
+            - VECTOR "Vector", 21.59x9.6px, constraints scale/scale, stroke Gray 2 2px
+            - VECTOR "Vector", 21.59x9.6px, constraints scale/scale, stroke Gray 2 2px
+          - FRAME "Text fields", 240x84px, vertical pad 0 543 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "From", 33x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+            - FRAME "Text fields", 240x56px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Text fields", 240x84px, vertical pad 0 543 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "to", 15x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+            - FRAME "Text fields", 240x56px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 1000003573", 328x84px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Travel dates", 85x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+          - GROUP "Text field", 328x56px, constraints left/top, radius 0/0/0/0px
+            - INSTANCE "Text Field", 328x56px, constraints left/top, radius 4px
+            - INSTANCE "Icon button", 44x44px, constraints left/top, radius 20px, fill #FFFFFF
+  - GROUP "Group 1000003675", 451x87px, constraints left/top, radius 0/0/0/0px
+    - FRAME "Frame 1000003565", 184x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10/0/0/10px
+      - GROUP "Group 1000003561", 24x24px, constraints left/top
+        - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.06x17.06px, constraints scale/scale, fill Gray 2
+      - TEXT "Departing Flights", 152x23px, constraints left/top, fill Gray 2, stroke #CC0200 0px, text [Roboto Regular, 20px]
+    - GROUP "Group 1000003674", 451x47px, constraints left/top
+      - GROUP "Group 1000003584", 294x47px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003583", 294x47px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Chennai to Delhi", 294x47px, constraints left/top, fill Gray 2, text [Roboto Bold, 40px], [heading]
+      - GROUP "Group 1000003673", 117x28px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003583", 117x28px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Sun, 22 Jul", 117x28px, constraints left/top, fill Gray 2, text [Roboto Regular, 24px], [heading]
+      - ELLIPSE "Ellipse 36", 8x8px, constraints left/top, fill Gray 3
+  - GROUP "Group 1000003712", 347x34px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 1000003709", 104x34px, constraints left/top, radius 0/0/0/0px
+      - FRAME "Button", 104x34px, horizontal pad 8 12 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 4px, fill Grey/White, effect Elevation Light/1
+      - FRAME "Frame 1000003594", 72x16px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Stops", 52x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+        - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+    - GROUP "Group 1000003711", 98x34px, constraints left/top, radius 0/0/0/0px
+      - FRAME "Button", 98x34px, horizontal pad 8 12 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 4px, fill Grey/White, effect Elevation Light/1
+      - GROUP "Group 1000003708", 66x25px, constraints left/top
+        - TEXT "Price", 46x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+        - GROUP "Group 1000003707", 16x25px, constraints left/top
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+    - GROUP "Group 1000003710", 97x34px, constraints left/top, radius 0/0/0/0px
+      - FRAME "Button", 97x34px, horizontal pad 8 12 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 4px, fill Grey/White, effect Elevation Light/1
+      - FRAME "Frame 1000003593", 65x16px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Time", 45x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+        - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+  - FRAME "Frame 1000003588", 1168x91px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - GROUP "Group 1000003693", 1168x91px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003689", 200x80px, constraints left/top, radius 4px
+        - RECTANGLE "Rectangle 249", 200x80px, constraints left/top, radius 4px, fill #CA1F341A, stroke Primary 1px
+        - TEXT "21 Jul, Sat ₹9,705", 198.75x60px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+      - GROUP "Group 1000003692", 200x80px, constraints left/top, radius 4px
+        - RECTANGLE "Rectangle 249", 200x80px, constraints left/top, radius 4px, fill #CA1F341A, stroke Primary 1px
+        - TEXT "20 Jul, Fri ₹10,508", 198.75x60px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+      - GROUP "Group 1000003690", 200x80px, constraints left/top, radius 4px
+        - RECTANGLE "Rectangle 249", 200x80px, constraints left/top, radius 4px, fill #CA1F341A, stroke Primary 1px
+        - TEXT "23 Jul, Mon ₹9,111", 198.75x60px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+      - GROUP "Group 1000003691", 200x80px, constraints left/top, radius 4px
+        - RECTANGLE "Rectangle 249", 200x80px, constraints left/top, radius 4px, fill #CA1F341A, stroke Primary 1px
+        - TEXT "24 Jul, Tue ₹9,075", 198.75x60px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+      - GROUP "Group 1000003688", 200x91px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 248", 200x80px, constraints left/top, radius 4px, fill #CA1F34
+        - TEXT "22 Jul, Sun ₹9,508", 198.75x60px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 20px]
+        - REGULAR_POLYGON "Polygon 1", 30x16px, constraints left/top, fill #CA1F34
+      - INSTANCE "Back arrow", 24x24px, constraints left/top
+        - VECTOR "icon", 16x16px, constraints scale/scale, fill Gray 4
+      - FRAME "Frame 1000003586", 24x24px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Next arrow", 24x24px, constraints right/top
+          - VECTOR "icon", 16x16px, constraints scale/scale, fill Grey/700
+  - FRAME "Frame 1000003707", 1170x820px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 1000003699", 1170x100px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4341", 1170x100px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+      - GROUP "Group 1000003698", 1133x65px, constraints left/top
+        - GROUP "Group 1000003696", 477.94x65px, constraints left/top
+          - TEXT "06:20 MAA", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - TEXT "09:10 DEL", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003694", 245.94x33.94px, constraints left/top
+            - GROUP "Group 1000003562", 33.94x33.94px, constraints left/top
+            - TEXT "2h 50m", 68x30px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+            - LINE "Line 10", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - LINE "Line 11", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - ELLIPSE "Ellipse 37", 4x4px, constraints left/top, fill Gray 2
+        - TEXT "Non-stop", 84x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+        - GROUP "Group 1000003695", 264x65px, constraints left/top
+          - TEXT "₹9,508 * 5 seats left at this price", 222x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x10px, constraints scale/scale, stroke Gray 2 2px
+        - GROUP "Group 1000003697", 91x30px, constraints left/top
+          - TEXT "AI 429", 59x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 1000003700", 1170x100px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4341", 1170x100px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+      - GROUP "Group 1000003698", 1133x65px, constraints left/top
+        - GROUP "Group 1000003696", 477.94x65px, constraints left/top
+          - TEXT "09:30 MAA", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - TEXT "12:10 DEL", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003694", 245.94x33.94px, constraints left/top
+            - GROUP "Group 1000003562", 33.94x33.94px, constraints left/top
+            - TEXT "2h 50m", 68x30px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+            - LINE "Line 10", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - LINE "Line 11", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - ELLIPSE "Ellipse 37", 4x4px, constraints left/top, fill Gray 2
+        - TEXT "Non-stop", 84x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+        - GROUP "Group 1000003695", 264x65px, constraints left/top
+          - TEXT "₹11,908 * 9 seats left at this price", 222x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x10px, constraints scale/scale, stroke Gray 2 2px
+        - GROUP "Group 1000003697", 91x30px, constraints left/top
+          - TEXT "AI 429", 59x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 1000003701", 1170x100px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4341", 1170x100px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+      - GROUP "Group 1000003698", 1133x65px, constraints left/top
+        - GROUP "Group 1000003696", 477.94x65px, constraints left/top
+          - TEXT "16:40 MAA", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - TEXT "19:10 DEL", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003694", 245.94x33.94px, constraints left/top
+            - GROUP "Group 1000003562", 33.94x33.94px, constraints left/top
+            - TEXT "2h 50m", 68x30px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+            - LINE "Line 10", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - LINE "Line 11", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - ELLIPSE "Ellipse 37", 4x4px, constraints left/top, fill Gray 2
+        - TEXT "Non-stop", 84x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+        - GROUP "Group 1000003695", 264x65px, constraints left/top
+          - TEXT "₹14,508 * 3 seats left at this price", 222x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x10px, constraints scale/scale, stroke Gray 2 2px
+        - GROUP "Group 1000003697", 91x30px, constraints left/top
+          - TEXT "AI 429", 59x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 1000003702", 1170x100px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4341", 1170x100px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+      - GROUP "Group 1000003698", 1133x65px, constraints left/top
+        - GROUP "Group 1000003696", 477.94x65px, constraints left/top
+          - TEXT "19:20 MAA", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - TEXT "22:50 DEL", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003694", 245.94x33.94px, constraints left/top
+            - GROUP "Group 1000003562", 33.94x33.94px, constraints left/top
+            - TEXT "2h 50m", 68x30px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+            - LINE "Line 10", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - LINE "Line 11", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - ELLIPSE "Ellipse 37", 4x4px, constraints left/top, fill Gray 2
+        - TEXT "Non-stop", 84x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+        - GROUP "Group 1000003695", 264x65px, constraints left/top
+          - TEXT "₹9,508 * 1 seat left at this price", 212x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x10px, constraints scale/scale, stroke Gray 2 2px
+        - GROUP "Group 1000003697", 91x30px, constraints left/top
+          - TEXT "AI 429", 59x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 1000003703", 1170x100px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4341", 1170x100px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+      - GROUP "Group 1000003698", 1133x65px, constraints left/top
+        - GROUP "Group 1000003696", 477.94x65px, constraints left/top
+          - TEXT "22:10 MAA", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - TEXT "21:30 DEL", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003694", 245.94x33.94px, constraints left/top
+            - GROUP "Group 1000003562", 33.94x33.94px, constraints left/top
+            - TEXT "2h 50m", 68x30px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+            - LINE "Line 10", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - LINE "Line 11", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - ELLIPSE "Ellipse 37", 4x4px, constraints left/top, fill Gray 2
+        - TEXT "Non-stop", 84x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+        - GROUP "Group 1000003695", 264x65px, constraints left/top
+          - TEXT "₹9,508 * 7 seats left at this price", 222x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x10px, constraints scale/scale, stroke Gray 2 2px
+        - GROUP "Group 1000003697", 91x30px, constraints left/top
+          - TEXT "AI 429", 59x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 1000003705", 1170x100px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4341", 1170x100px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+      - GROUP "Group 1000003698", 1133x65px, constraints left/top
+        - GROUP "Group 1000003696", 477.94x65px, constraints left/top
+          - TEXT "23:10 MAA", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - TEXT "00:10 DEL", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003694", 245.94x33.94px, constraints left/top
+            - GROUP "Group 1000003562", 33.94x33.94px, constraints left/top
+            - TEXT "2h 50m", 68x30px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+            - LINE "Line 10", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - LINE "Line 11", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - ELLIPSE "Ellipse 37", 4x4px, constraints left/top, fill Gray 2
+        - TEXT "Non-stop", 84x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+        - GROUP "Group 1000003695", 264x65px, constraints left/top
+          - TEXT "₹9,508 * 3 seats left at this price", 222x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x10px, constraints scale/scale, stroke Gray 2 2px
+        - GROUP "Group 1000003697", 91x30px, constraints left/top
+          - TEXT "AI 429", 59x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 1000003704", 1170x100px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4341", 1170x100px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+      - GROUP "Group 1000003698", 1133x65px, constraints left/top
+        - GROUP "Group 1000003696", 477.94x65px, constraints left/top
+          - TEXT "23:50 MAA", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - TEXT "00:45 DEL", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003694", 245.94x33.94px, constraints left/top
+            - GROUP "Group 1000003562", 33.94x33.94px, constraints left/top
+            - TEXT "2h 50m", 68x30px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+            - LINE "Line 10", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - LINE "Line 11", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - ELLIPSE "Ellipse 37", 4x4px, constraints left/top, fill Gray 2
+        - TEXT "Non-stop", 84x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+        - GROUP "Group 1000003695", 264x65px, constraints left/top
+          - TEXT "₹9,508 * 4 seats left at this price", 222x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x10px, constraints scale/scale, stroke Gray 2 2px
+        - GROUP "Group 1000003697", 91x30px, constraints left/top
+          - TEXT "AI 429", 59x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 1000003713", 1170x48px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4341", 1170x48px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+    - FRAME "Frame 1000003593", 179x16px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Show more flights", 161x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+      - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+  - GROUP "Group 1000003571", 1169.54x56px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 1000003566", 585.15x56px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 248", 585.15x56px, constraints left/top, radius 4/0/0/4px, fill Primary, stroke Primary 1px
+      - FRAME "Frame 1000003565", 163x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10/0/0/10px
+        - TEXT "ECONOMY ₹9,508", 163x28px, constraints left/top, fill #FFFFFF, stroke Primary 0px, text [Roboto Bold, 20px]
+    - GROUP "Group 1000003568", 587.54x56px, constraints left/top
+      - RECTANGLE "Rectangle 249", 587.54x56px, constraints left/top, fill #D9000D1A, stroke Primary 1px
+      - FRAME "Frame 1000003567", 171x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "BUSINESS ₹20,038", 171x28px, constraints left/top, fill Gray 2, stroke Primary 0px, text [Roboto Bold, 20px]
+  - GROUP "Group 1000003771", 1920x114px, constraints left/top [decorative, ~41 shapes]
+  - FRAME "Frame 10586", 76x16px, horizontal pad 0 16 0 16px gap 2px sizing W:fixed H:fixed, constraints left/top, fill #8A0B1C
+    - TEXT "EN", 26x16px, constraints left/top, fill Primary, text [Roboto SemiBold, 20px]
+    - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Primary 1px
+  - FRAME "Frame 10585", 100x16px, horizontal pad 0 16 0 16px gap 2px sizing W:fixed H:fixed, constraints left/top, fill #8A0B1C
+    - TEXT "Login", 50x16px, constraints left/top, fill Primary, text [Roboto SemiBold, 20px]
+    - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Primary 1px
+  - GROUP "Group 1000003632", 24x24px, constraints left/top
+    - FRAME "magnify", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 17.5x17.5px, constraints scale/scale, fill Primary
+
+Screen: Visual Design / Flight select confirm
+- FRAME "Flight select confirm", 1920x1216px, constraints left/top, fill #FEFCFB
+  - RECTANGLE "Rectangle 4340", 1920x891px, constraints left/top, fill bg, opacity 50%
+  - GROUP "Group 1000003672", 1167.95x74px, constraints left/top
+    - GROUP "Group 1000003631", 952.81x74px, constraints left/top
+      - GROUP "Group 1000003622", 756.26x44px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003620", 756.26x44px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Gallery", 566.93x32px, constraints left/top, fill Gray 2, text [Roboto Regular, 12px]
+          - LINE "Line 2", 756.26x0px, constraints left/top, stroke Gray 4 1px
+      - GROUP "Group 1000003619", 179.86x45px, constraints left/top
+        - RECTANGLE "Air-India-logo 1", 179.86x45px, constraints left/top, fill image(hash: 8e2bf12decc2b2433c7d78a1786122bee46dc9cd)
+    - RECTANGLE "image 3 1", 188x16px, constraints left/top, fill image(hash: 1b9390f94ca7f82d07eefd352a78053041bf1441)
+  - GROUP "Group 1000003682", 1170x223px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4341", 1170x223px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+    - GROUP "Group 1000003672", 1090x143px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1000003601", 582.4x24px, constraints left/top
+        - GROUP "Group 1000003595", 136.4x16px, constraints left/top
+          - GROUP "Group 1000003600", 14.4x16px, constraints left/top
+            - VECTOR "Vector", 14.4x6.4px, constraints scale/scale, stroke Gray 2 2px
+            - VECTOR "Vector", 14.4x6.4px, constraints scale/scale, stroke Gray 2 2px
+          - TEXT "Round Trip", 96x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003596", 167x24px, constraints left/top
+          - FRAME "account", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill Gray 2
+          - TEXT "1 Passengers", 121x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003593", 137x16px, constraints left/top
+          - TEXT "Special Fares", 119x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+        - GROUP "Group 1000003594", 70x16px, constraints left/top
+          - TEXT "Cabin", 52x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+      - GROUP "Group 1000003575", 1090x84px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Explore Btn", 156x60px, horizontal pad 14 50 14 50px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Primary, effect [drop_shadow 16px offset 0 8 #FA743629]
+          - TEXT "Modify", 56x32px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 18px]
+        - GROUP "Group 1000003574", 533.59x84px, constraints left/top
+          - GROUP "Group", 21.59x24px, constraints scale/scale
+            - VECTOR "Vector", 21.59x9.6px, constraints scale/scale, stroke Gray 2 2px
+            - VECTOR "Vector", 21.59x9.6px, constraints scale/scale, stroke Gray 2 2px
+          - FRAME "Text fields", 240x84px, vertical pad 0 543 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "From", 33x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+            - FRAME "Text fields", 240x56px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Text fields", 240x84px, vertical pad 0 543 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "to", 15x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+            - FRAME "Text fields", 240x56px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 1000003573", 328x84px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Travel dates", 85x16px, constraints left/top, fill Grey/700, text [Overline/Overline (Android) - 11pt]
+          - GROUP "Text field", 328x56px, constraints left/top, radius 0/0/0/0px
+            - INSTANCE "Text Field", 328x56px, constraints left/top, radius 4px
+            - INSTANCE "Icon button", 44x44px, constraints left/top, radius 20px, fill #FFFFFF
+  - GROUP "Group 1000003675", 451x87px, constraints left/top, radius 0/0/0/0px
+    - FRAME "Frame 1000003565", 184x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10/0/0/10px
+      - GROUP "Group 1000003561", 24x24px, constraints left/top
+        - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 17.06x17.06px, constraints scale/scale, fill Gray 2
+      - TEXT "Departing Flights", 152x23px, constraints left/top, fill Gray 2, stroke #CC0200 0px, text [Roboto Regular, 20px]
+    - GROUP "Group 1000003674", 451x47px, constraints left/top
+      - GROUP "Group 1000003584", 294x47px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003583", 294x47px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Chennai to Delhi", 294x47px, constraints left/top, fill Gray 2, text [Roboto Bold, 40px], [heading]
+      - GROUP "Group 1000003673", 117x28px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 1000003583", 117x28px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Sun, 22 Jul", 117x28px, constraints left/top, fill Gray 2, text [Roboto Regular, 24px], [heading]
+      - ELLIPSE "Ellipse 36", 8x8px, constraints left/top, fill Gray 3
+  - FRAME "Frame 1000003707", 1170x100px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 1000003699", 1170x100px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4341", 1170x100px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+      - GROUP "Group 1000003698", 1133x65px, constraints left/top
+        - GROUP "Group 1000003696", 477.94x65px, constraints left/top
+          - TEXT "06:20 MAA", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - TEXT "09:10 DEL", 84x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - GROUP "Group 1000003694", 245.94x33.94px, constraints left/top
+            - GROUP "Group 1000003562", 33.94x33.94px, constraints left/top
+            - TEXT "2h 50m", 68x30px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+            - LINE "Line 10", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - LINE "Line 11", 65x0px, constraints scale/scale, stroke Gray 2 1px
+            - ELLIPSE "Ellipse 37", 4x4px, constraints left/top, fill Gray 2
+        - TEXT "Non-stop", 84x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+        - GROUP "Group 1000003695", 264x65px, constraints left/top
+          - TEXT "₹9,508 * 5 seats left at this price", 222x65px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+          - FRAME "chevron-down", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 20x10px, constraints scale/scale, stroke Gray 2 2px
+        - GROUP "Group 1000003697", 91x30px, constraints left/top
+          - TEXT "AI 429", 59x30px, constraints left/top, fill Gray 2, text [Roboto SemiBold, 20px]
+          - GROUP "Group 1000003561", 24x24px, constraints left/top
+            - FRAME "airplane", 24x24px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 1000003718", 1170x135px, constraints left/top, radius 4px
+    - RECTANGLE "Rectangle 4341", 1170x135px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+    - GROUP "Group 1000003672", 173x60px, constraints left/top, radius 4px
+      - GROUP "Group 1000003575", 173x60px, constraints left/top, radius 4px
+        - FRAME "Explore Btn", 173x60px, horizontal pad 14 50 14 50px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Primary, effect [drop_shadow 16px offset 0 8 #FA743629]
+          - TEXT "Continue", 73x32px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 18px]
+    - TEXT "₹9,508 Total for all passenger(s) (including taxes, charges ", 710x95px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+  - GROUP "Group 1000003713", 1170x48px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4341", 1170x48px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 8px offset 0 0 #00000040]
+    - FRAME "Frame 1000003593", 179x16px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Show more flights", 161x16px, constraints left/top, fill Gray 2, text [Roboto Regular, 20px]
+      - FRAME "chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x4px, constraints scale/scale, stroke Gray 2 1px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,445 @@
+---
+name: gemini-ui-screens-community
+source_file: Gemini UI Screens (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:22:20.484744+00:00
+---
+
+# Gemini UI Screens (Community) Design Guidelines
+
+## Source
+- Figma file: Gemini UI Screens (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:22:20.484744+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Global/Blue/700: [#6C92E4]
+- Content / contentPrimary: [#000000]
+- Text Colours/Tertiary: [#5D758F]
+- Ink/Base: [#0E0F0F]
+- Ink/Lighter: [#464A4D]
+
+## Raw Colors (unstyled)
+- #F0F0F0: 56 uses
+- #0052B4: 28 uses
+- #000000: 27 uses
+- #D80027: 14 uses
+- #ECB22E: 14 uses
+- #50555C: 7 uses
+- #0000005C: 6 uses
+- #DADADA: 5 uses
+
+## Typography Tokens
+- text-xs/font-semibold: Figtree SemiBold (600), 12px / 14px, tracking 0px
+- text-xxs/font-semibold: Figtree SemiBold (600), 10px / 14px, tracking 0px
+- text-sm/font-semibold: Figtree SemiBold (600), 14px / 20px, tracking 0px
+- text-xs/font-medium$: Figtree Medium (500), 12px / 16px, tracking 0px
+- text-sm/font-medium$: Figtree Medium (500), 14px / 20px, tracking 0px
+- text-sm/font-regular$: Figtree Regular (400), 14px / 20px, tracking 0px
+- text-base/font-medium$: Figtree Medium (500), 16px / 24px, tracking 0px
+- text-lg/font-semibold: Figtree SemiBold (600), 18px / 28px, tracking -0.09px
+- Caption L/Medium: Figtree Medium (500), 14px / 20px, tracking -0.1px
+- text-4xl/font-semibold: Figtree SemiBold (600), 36px / 44px, tracking -0.36px
+- text-xs/font-bold$: Figtree Bold (700), 12px / 16px, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 22.5px: 26 uses
+- Figtree SemiBold, 128px: 4 uses
+- Inter Regular, 16px: 3 uses
+- SF Pro Text Semibold, 15px: 3 uses
+
+## Typography Hierarchy
+- 128px - Figtree SemiBold, 128px (raw)
+- 36px - text-4xl/font-semibold (Figtree SemiBold)
+- 22.5px - Inter Regular, 22.5px (raw)
+- 18px - text-lg/font-semibold (Figtree SemiBold)
+- 16px - Inter Regular, 16px (raw)
+- 16px - text-base/font-medium$ (Figtree Medium)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 14px - Caption L/Medium (Figtree Medium)
+- 14px - text-sm/font-medium$ (Figtree Medium)
+- 14px - text-sm/font-regular$ (Figtree Regular)
+- 14px - text-sm/font-semibold (Figtree SemiBold)
+- 12px - text-xs/font-bold$ (Figtree Bold)
+- 12px - text-xs/font-medium$ (Figtree Medium)
+- 12px - text-xs/font-semibold (Figtree SemiBold)
+- 10px - text-xxs/font-semibold (Figtree SemiBold)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- Icon grid: rows count 1, section 22px, gutter 0px, align stretch + columns count 1, section 22px, gutter 0px, align stretch + ...
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- text-xs/font-semibold: 34 uses
+- text-xxs/font-semibold: 33 uses
+- text-sm/font-semibold: 28 uses
+- text-sm/font-medium$: 11 uses
+- Ink/Lighter: 6 uses
+- Ink/Base: 5 uses
+- text-sm/font-regular$: 5 uses
+- text-xs/font-medium$: 5 uses
+- Text Colours/Tertiary: 3 uses
+- text-base/font-medium$: 3 uses
+- text-xs/font-bold$: 2 uses
+- Content / contentPrimary: 1 use
+- text-4xl/font-semibold: 1 use
+- text-lg/font-semibold: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Conversation
+- FRAME "Conversation", 374x812px, constraints left/top, fill #0B0C0E
+  - INSTANCE "Chat", 250x56px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Contents", 328x36px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Text", 296x36px, horizontal pad 8 8 8 8px gap 4px align max/max sizing W:fill H:fixed, constraints left/top, radius 8/8/2/8px, fill #FFFFFF1A
+        - TEXT "Text", 234x40px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-medium$]
+  - FRAME "Frame 16", 342x324px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Please share what you've written! I'd be happy to help you i", 342x240px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-medium$]
+    - FRAME "Frame 15", 342x60px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 14", 342x20px, horizontal pad 0 0 0 0px gap 164px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 13", 152x20px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "thumb_up_alt", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.33x16.67px, constraints scale/scale, fill #FFFFFF99
+          - INSTANCE "thumb_down_alt", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.33x16.67px, constraints scale/scale, fill #FFFFFF99
+          - INSTANCE "ios_share", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x18.33px, constraints scale/scale, fill #FFFFFF99
+          - INSTANCE "file_copy", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15.83x18.33px, constraints scale/scale, fill #FFFFFF99
+        - INSTANCE "dot-vertical-filled", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 4x16px, constraints scale/scale, fill #FFFFFF99
+      - TEXT "Gemini can make make mistakes, so double-check it.", 342x16px, constraints left/top, fill #FFFFFF4D, text [text-xs/font-medium$]
+  - FRAME "Frame 18", 342x32px, horizontal pad 0 0 0 0px gap 157px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 17", 153x32px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Google_Gemini_icon_2025.svg 1", 32x32px, constraints left/top, fill image(hash: 88209722b1066fdd3f40bc5ad0499c12d8c00b02)
+      - INSTANCE "Button", 115x28px, horizontal pad 7 8 7 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF08
+        - FRAME "Text", 38x14px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 81x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+        - INSTANCE "tail-icon", 14x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 5.83x2.67px, constraints scale/scale, fill #FFFFFFE5, stroke #FFFFFFE5 2px
+    - INSTANCE "volume_up", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x17.54px, constraints scale/scale, fill #FFFFFFE5
+  - FRAME "Frame 29", 374x82px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #0B0C0E
+    - INSTANCE "Status bar", 374x42px, horizontal pad 12 24 12 32px gap 220px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - GROUP "Time", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "Time", 54x18px, constraints left/center, fill #FFFFFFE5, text [SF Pro Text Semibold, 15px]
+      - GROUP "Utilities", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+    - FRAME "Content", 374x40px, horizontal pad 8 16 8 16px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "menu-02", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 18x12px, constraints scale/scale, stroke #FFFFFFE5 1.5px
+      - INSTANCE "edit-contained", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFFE5 2px
+    - TEXT "Seeking Help to Improve Writing", 262x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+  - FRAME "Frame 7", 374x140px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom, radius 20/20/0/0px, fill #0B0C0E, stroke #FFFFFF1A 1px, effect [drop_shadow 12px offset 0 -4 #79797926]
+    - FRAME "Frame 6", 374x116px, vertical pad 20 16 20 16px gap 20px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ask Gemini", 342x24px, constraints left/top, fill #FFFFFF4D, text [text-base/font-medium$]
+      - FRAME "Frame 5", 342x32px, horizontal pad 0 0 0 0px gap 55px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 3", 70x32px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "IconContainer", 32x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+            - INSTANCE "Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "IconContainer", 32x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 4", 132x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Chips", 48x32px, horizontal pad 6 8 6 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, fill #0B0C0E, stroke #FFFFFF1A 1px
+            - FRAME "Text", 40x20px, horizontal pad 0 1 0 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "IconContainer", 36x32px, horizontal pad 6 8 6 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, fill #0B0C0E, stroke #FFFFFF1A 1px
+            - INSTANCE "Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - INSTANCE "IconContainer", 32x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+            - INSTANCE "Icon", 20x20px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Home Indicator/Light", 374x24px, vertical pad 12 0 8 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+      - RECTANGLE "Home Indicator", 140x4px, constraints left/top, radius 100px, fill #FFFFFF
+
+Screen: Page 1 / Typing
+- FRAME "Typing", 374x812px, constraints left/top, fill #0B0C0E
+  - INSTANCE "Chat", 250x56px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Contents", 328x36px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Text", 296x36px, horizontal pad 8 8 8 8px gap 4px align max/max sizing W:fill H:fixed, constraints left/top, radius 8/8/2/8px, fill #FFFFFF1A
+        - TEXT "Text", 234x40px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-medium$]
+  - FRAME "Frame 16", 342x324px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Please share what you've written! I'd be happy to help you i", 342x240px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-medium$]
+    - FRAME "Frame 15", 342x60px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 14", 342x20px, horizontal pad 0 0 0 0px gap 164px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 13", 152x20px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "thumb_up_alt", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.33x16.67px, constraints scale/scale, fill #FFFFFF99
+          - INSTANCE "thumb_down_alt", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.33x16.67px, constraints scale/scale, fill #FFFFFF99
+          - INSTANCE "ios_share", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x18.33px, constraints scale/scale, fill #FFFFFF99
+          - INSTANCE "file_copy", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 15.83x18.33px, constraints scale/scale, fill #FFFFFF99
+        - INSTANCE "dot-vertical-filled", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 4x16px, constraints scale/scale, fill #FFFFFF99
+      - TEXT "Gemini can make make mistakes, so double-check it.", 342x16px, constraints left/top, fill #FFFFFF4D, text [text-xs/font-medium$]
+  - FRAME "Frame 18", 342x32px, horizontal pad 0 0 0 0px gap 157px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 17", 153x32px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Google_Gemini_icon_2025.svg 1", 32x32px, constraints left/top, fill image(hash: 88209722b1066fdd3f40bc5ad0499c12d8c00b02)
+      - INSTANCE "Button", 115x28px, horizontal pad 7 8 7 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF08
+        - FRAME "Text", 38x14px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 81x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+        - INSTANCE "tail-icon", 14x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 5.83x2.67px, constraints scale/scale, fill #FFFFFFE5, stroke #FFFFFFE5 2px
+    - INSTANCE "volume_up", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x17.54px, constraints scale/scale, fill #FFFFFFE5
+  - INSTANCE "Keyboard", 374x291px, constraints left/bottom
+    - FRAME "Background", 374x291px, constraints scale/scale
+      - RECTANGLE "Background", 374x291px, constraints scale/scale, fill #FFFFFF0F, effect [background_blur 81.55px]
+    - FRAME "Home Indicator", 374x34px, constraints scale/scale
+      - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+    - FRAME "Frame 1", 368x259px, constraints left_right/top
+      - BOOLEAN_OPERATION "Dictation", 15x25px, constraints center/top, fill #FFFFFF4D
+      - BOOLEAN_OPERATION "Emoji", 27x27px, constraints center/top, fill #FFFFFF4D
+      - FRAME "Return", 87.76x42px, constraints scale/center
+        - VECTOR "Rectangle", 88x42px, constraints left_right/top_bottom, radius 4.6px, fill #1D54E2
+        - TEXT "Label", 88x21px, constraints left_right/scale, fill #0B0C0E, text [Inter Regular, 16px]
+      - FRAME "Space", 181.51x42px, constraints scale/center
+        - VECTOR "Rectangle", 182x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Label", 182x21px, constraints left_right/scale, fill #FFFFFFE5, text [Inter Regular, 16px]
+      - FRAME "123", 86.76x42px, constraints scale/center
+        - VECTOR "Rectangle", 87x42px, constraints left_right/top_bottom, radius 4.6px, fill #FFFFFF0F
+        - TEXT "Label", 87x21px, constraints left_right/scale, fill #FFFFFFE5, text [Inter Regular, 16px]
+      - GROUP "Delete", 41.89x42px, constraints left/top, fill #FFFFFF [decorative, ~10 shapes]
+      - GROUP "Shift", 41.89x42px, constraints left/top, fill #FFFFFF
+        - FRAME "Key Light", 41.89x42px, constraints scale/center
+          - RECTANGLE "Rectangle", 42x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+          - TEXT "Symbol", 0x27px, constraints scale/center, fill #FFFFFFE5, text [SF Pro Text Regular, 22.5px]
+        - VECTOR "Shift", 18.83x16.41px, constraints scale/center, fill #FFFFFFE5
+      - FRAME "M", 31.91x42px, constraints scale/center
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 21x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "N", 31.91x42px, constraints scale/center
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "B", 31.91x42px, constraints scale/center
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "V", 31.91x42px, constraints scale/center
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "C", 31.91x42px, constraints scale/center
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "X", 31.91x42px, constraints scale/center
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "Z", 31.91x42px, constraints scale/center
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "L", 31.91x42px, constraints scale/top
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "K", 31.91x42px, constraints scale/top
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "J", 31.91x42px, constraints scale/top
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "H", 31.91x42px, constraints scale/top
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "G", 31.91x42px, constraints scale/top
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "F", 31.91x42px, constraints scale/top
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 14x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "D", 31.91x42px, constraints scale/top
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "S", 31.91x42px, constraints scale/top
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "A", 31.91x42px, constraints scale/top
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "P", 31.91x42px, constraints scale/center
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - FRAME "O", 31.91x42px, constraints scale/center
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #0B0C0E
+        - TEXT "Symbol", 18x27px, constraints scale/center, fill #FFFFFFE5, text [Inter Regular, 22.5px]
+      - ... +8 more children
+  - FRAME "Frame 29", 374x82px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #0B0C0E
+    - INSTANCE "Status bar", 374x42px, horizontal pad 12 24 12 32px gap 220px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - GROUP "Time", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "Time", 54x18px, constraints left/center, fill #FFFFFFE5, text [SF Pro Text Semibold, 15px]
+      - GROUP "Utilities", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+    - FRAME "Content", 374x40px, horizontal pad 8 16 8 16px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "menu-02", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 18x12px, constraints scale/scale, stroke #FFFFFFE5 1.5px
+      - INSTANCE "edit-contained", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFFE5 2px
+    - TEXT "Seeking Help to Improve Writing", 262x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+  - FRAME "Frame 7", 374x116px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom, radius 20/20/0/0px, fill #0B0C0E, stroke #FFFFFF1A 1px, effect [drop_shadow 12px offset 0 -4 #79797926]
+    - FRAME "Frame 6", 374x116px, vertical pad 20 16 20 16px gap 20px sizing W:fill H:fixed, constraints left/top
+      - TEXT "|", 342x24px, constraints left/top, fill #FFFFFFE5, text [text-base/font-medium$]
+      - FRAME "Frame 5", 342x32px, horizontal pad 0 0 0 0px gap 55px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 3", 70x32px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "IconContainer", 32x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+            - INSTANCE "Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "IconContainer", 32x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 4", 132x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Chips", 48x32px, horizontal pad 6 8 6 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, fill #0B0C0E, stroke #FFFFFF1A 1px
+            - FRAME "Text", 40x20px, horizontal pad 0 1 0 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "IconContainer", 36x32px, horizontal pad 6 8 6 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, fill #0B0C0E, stroke #FFFFFF1A 1px
+            - INSTANCE "Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - INSTANCE "IconContainer", 32x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+            - INSTANCE "Icon", 20x20px, constraints left/top, fill #FFFFFF
+
+Screen: Page 1 / Home
+- FRAME "Home", 374x812px, constraints left/top, fill #0B0C0E
+  - TEXT "Hello, Sandeep", 242x44px, constraints center/center, fill #FFFFFFE5, text [text-4xl/font-semibold], [heading]
+  - INSTANCE "Alert", 342x44px, horizontal pad 8 8 8 12px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF1A, stroke #FFFFFF1A 1px
+    - FRAME "Heading", 202x20px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading goes here.", 223x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+    - FRAME "Link button", 118x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Button", 56x20px, horizontal pad 7 8 7 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF
+        - FRAME "Text", 38x14px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 47x14px, constraints left/top, fill #0B0C0E, text [text-xs/font-semibold]
+    - INSTANCE "Close Button", 20x20px, horizontal pad 1 1 1 1px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+      - INSTANCE "x-03", 18x18px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 6x6px, constraints scale/scale, stroke #FFFFFFE5 1.5px
+  - FRAME "Frame 11", 342x60px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 9", 79.5x60px, vertical pad 10 8 10 8px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, stroke #FFFFFF1A 1px
+      - TEXT "Help me", 63.5x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+      - TEXT "write", 63.5x20px, constraints left/top, fill #FFFFFF4D, text [text-sm/font-regular$]
+    - FRAME "Frame 10", 79.5x60px, vertical pad 10 8 10 8px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, stroke #FFFFFF1A 1px
+      - TEXT "Give me", 63.5x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+      - TEXT "study tips", 63.5x20px, constraints left/top, fill #FFFFFF4D, text [text-sm/font-regular$]
+    - FRAME "Frame 11", 79.5x60px, vertical pad 10 8 10 8px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, stroke #FFFFFF1A 1px
+      - TEXT "Inspire", 63.5x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+      - TEXT "me", 63.5x20px, constraints left/top, fill #FFFFFF4D, text [text-sm/font-regular$]
+    - FRAME "Frame 12", 79.5x60px, vertical pad 10 8 10 8px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, stroke #FFFFFF1A 1px
+      - TEXT "Save me", 63.5x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+      - TEXT "time", 63.5x20px, constraints left/top, fill #FFFFFF4D, text [text-sm/font-regular$]
+  - FRAME "Frame 30", 374x90px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #0B0C0E
+    - INSTANCE "Status bar", 374x42px, horizontal pad 12 24 12 32px gap 220px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - GROUP "Time", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "Time", 54x18px, constraints left/center, fill #FFFFFFE5, text [SF Pro Text Semibold, 15px]
+      - GROUP "Utilities", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+    - FRAME "Content", 374x48px, horizontal pad 8 16 8 16px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "menu-02", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 18x12px, constraints scale/scale, stroke #FFFFFFE5 1.5px
+      - INSTANCE "Avatar", 32x32px, constraints left/top, radius 999px, fill #0B0C0E
+        - RECTANGLE "image", 32x32px, constraints scale/scale, radius 980px, fill image(hash: 192886d4c793f09d3d13fe691bf0bc92e56a52ee)
+    - TEXT "Gemini", 58x28px, constraints center/top, fill #FFFFFFE5, text [text-lg/font-semibold]
+  - FRAME "Frame 7", 374x140px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/bottom, radius 20/20/0/0px, fill #0B0C0E, stroke #FFFFFF1A 1px, effect [drop_shadow 12px offset 0 -4 #79797926]
+    - FRAME "Frame 6", 374x116px, vertical pad 20 16 20 16px gap 20px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ask Gemini", 342x24px, constraints left/top, fill #FFFFFF4D, text [text-base/font-medium$]
+      - FRAME "Frame 5", 342x32px, horizontal pad 0 0 0 0px gap 55px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 3", 213x32px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "IconContainer", 32x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+            - INSTANCE "Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 2", 175x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Chips", 61x32px, horizontal pad 6 8 6 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, fill #0B0C0E, stroke #FFFFFF1A 1px
+            - INSTANCE "Chips", 80x32px, horizontal pad 6 8 6 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, fill #0B0C0E, stroke #FFFFFF1A 1px
+            - INSTANCE "Chips", 26x30px, horizontal pad 6 4 6 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, fill #0B0C0E, stroke #FFFFFF1A 1px
+        - FRAME "Frame 4", 72x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "IconContainer", 32x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+            - INSTANCE "Icon", 20x20px, constraints left/top, fill #FFFFFF
+          - INSTANCE "IconContainer", 32x32px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+            - INSTANCE "Icon", 20x20px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Home Indicator/Light", 374x24px, vertical pad 12 0 8 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+      - RECTANGLE "Home Indicator", 140x4px, constraints left/top, radius 100px, fill #FFFFFF
+
+Screen: Page 1 / Overlay
+- FRAME "Overlay", 281x812px, constraints left/top, fill #0B0C0E
+  - FRAME "Frame 28", 281x798px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 27", 281x151px, vertical pad 42 16 14 16px gap 15px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF1A
+      - INSTANCE "Input", 249x44px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Placeholder Input", 334x44px, horizontal pad 12 12 12 12px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px, fill #FFFFFF0F
+          - INSTANCE "search-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14x14px, constraints scale/scale, stroke #FFFFFFE5 2px
+          - TEXT "Placeholder text", 197x20px, constraints left/top, fill #FFFFFF4D, text [text-sm/font-medium$]
+      - FRAME "Frame 26", 249x36px, horizontal pad 0 0 0 0px gap 17px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Button", 200x36px, horizontal pad 8 10 8 0px gap 2px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #FFFFFF08
+          - INSTANCE "lead-icon", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 13.33x13.33px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFFE5, stroke #FFFFFFE5 1.5px
+          - FRAME "Text", 52x20px, horizontal pad 0 4 0 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Label", 64x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+        - FRAME "IconContainer", 32x32px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF1A
+          - FRAME "Icon", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #FFFFFFE5
+    - FRAME "Frame 23", 281x647px, vertical pad 0 16 0 16px gap 20px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF1A
+      - FRAME "Frame 21", 249x177px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 249x121px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 8 8 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Text", 215x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+            - INSTANCE "chevron-right", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 19", 249x75px, horizontal pad 0 8 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 1", 75x75px, constraints left/top, radius 8px, fill #FFFFFF0F
+            - RECTANGLE "Rectangle 2", 75x75px, constraints left/top, radius 8px, fill #FFFFFF0F
+            - RECTANGLE "Rectangle 3", 75x75px, constraints left/top, radius 8px, fill #FFFFFF0F
+        - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 8 8 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px
+          - TEXT "Text", 215x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+          - INSTANCE "chevron-right", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 4.17x8.33px, constraints scale/scale, stroke #FFFFFFE5 2px
+      - FRAME "Frame 22", 249x532px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 24", 249x20px, horizontal pad 0 8 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 241x20px, constraints left/top, fill #FFFFFFE5, text [text-sm/font-semibold]
+        - FRAME "Frame 25", 249x502px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px, fill #FFFFFF1A
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+          - FRAME "_ItemNavMenu", 249x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 80px
+            - TEXT "Text", 225x14px, constraints left/top, fill #FFFFFFE5, text [text-xs/font-semibold]
+
+Screen: Page 1 / Group 1
+- GROUP "Group 1", 2629x1947px, constraints left/top
+  - TEXT "Feel free to use these screens", 1582x154px, constraints left/top, fill #FFFFFFE5, text [Figtree SemiBold, 128px], [heading]
+  - TEXT "Made using my design system", 1008x96px, constraints left/top, fill #FFFFFFE5, text [Figtree SemiBold, 80px], [heading]
+  - TEXT "Light Mode also available", 835x96px, constraints left/top, fill #FFFFFFE5, text [Figtree SemiBold, 80px], [heading]
+  - FRAME "Frame 31", 2629x154px, horizontal pad 0 0 0 0px gap 56px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "I would appreciate if you follow me on", 2028x154px, constraints left/top, fill #FFFFFFE5, text [Figtree SemiBold, 128px], [heading]
+    - TEXT "Instagram", 545x154px, constraints left/top, fill #FFFFFFE5, text [Figtree SemiBold, 128px], [heading]
+
+Screen: Page 1 / Plugin / file cover - 1
+- FRAME "Plugin / file cover - 1", 1920x1080px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 1597x1597px, constraints left/top, stroke gradient_radial(#DFDFDF 0% | #51515100 100%) 1px
+  - RECTANGLE "Google_Gemini_logo.svg 1", 866x320px, constraints left/top, fill image(hash: 3f76e5f4b0e5243c0935ef7e55b5ad55d0830bd9)
+  - TEXT "UI Screens", 579x154px, constraints left/top, fill #000000, text [Figtree SemiBold, 128px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

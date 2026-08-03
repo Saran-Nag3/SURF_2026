@@ -1,0 +1,975 @@
+---
+name: paypal-design-mobile-app-community
+source_file: PayPal design mobile app (Community)
+source_page: All pages (3): Cover, User Interface, Prototype
+generated_at: 2026-07-25T09:20:54.210012+00:00
+---
+
+# PayPal design mobile app (Community) Design Guidelines
+
+## Source
+- Figma file: PayPal design mobile app (Community)
+- Figma page: All pages (3): Cover, User Interface, Prototype
+- Extracted at: 2026-07-25T09:20:54.210012+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Blue Aqua: [#9FD9FC]
+- Gray: [#676767]
+
+## Raw Colors (unstyled)
+- #000000: 210 uses
+- #FFFFFF: 202 uses
+- #0901A7: 117 uses
+- #9FD9FC: 81 uses
+- #3EB3F9: 56 uses
+- #110055: 33 uses
+- #D9D9D9: 24 uses
+- #727272: 21 uses
+- #99AAB5: 18 uses
+- #0275BA: 12 uses
+- #666666: 12 uses
+- #E2A042: 12 uses
+- #FFD469: 12 uses
+- #28308A: 9 uses
+- #C2C2C2: 9 uses
+- #CCD6DD: 6 uses
+- #FFB636: 6 uses
+- #7CCEFF: 5 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Regular, 16px: 42 uses
+- Inter Medium, 24px: 36 uses
+- Roboto Medium, 14px: 27 uses
+- Roboto Medium, 24px: 22 uses
+- Roboto Regular, 14px: 21 uses
+- Roboto Regular, 18px: 21 uses
+- Inter Medium, 16px: 18 uses
+- Roboto Regular, 12px: 15 uses
+- Roboto Medium, 22px: 12 uses
+- Roboto Medium, 25px: 8 uses
+- PT Serif Caption Caption, 36px: 3 uses
+- PT Serif Caption Caption, 48px: 3 uses
+- Roboto Bold, 24px: 3 uses
+- Roboto Medium, 20px: 3 uses
+
+## Typography Hierarchy
+- 48px - PT Serif Caption Caption, 48px (raw)
+- 36px - PT Serif Caption Caption, 36px (raw)
+- 25px - Roboto Medium, 25px (raw)
+- 24px - Inter Medium, 24px (raw)
+- 24px - Roboto Bold, 24px (raw)
+- 24px - Roboto Medium, 24px (raw)
+- 22px - Roboto Medium, 22px (raw)
+- 20px - Roboto Medium, 20px (raw)
+- 18px - Roboto Regular, 18px (raw)
+- 16px - Inter Medium, 16px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 14px - Roboto Medium, 14px (raw)
+- 14px - Roboto Regular, 14px (raw)
+- 12px - Roboto Regular, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Cover
+
+## Component Specs
+- Cover: size 3592x1801px, fill #FFFFFF, text [Roboto Regular, 12px, Roboto Regular, 14px, Inter Medium, 16px, Roboto Regular, 16px, Inter Medium, 24px, Roboto Medium, 24px, Roboto Medium, 14px, Roboto ExtraBold, 164px, Roboto Medium, 22px, Roboto Regular, 18px, Roboto Bold, 24px, PT Serif Caption Caption, 48px, Roboto Medium, 25px, Roboto Medium, 20px, PT Serif Caption Caption, 36px]
+
+## Most-Used Styles
+- Blue Aqua: 12 uses
+- Gray: 3 uses
+
+## Layout & Structure
+Screen: Cover / Cover
+- COMPONENT "Cover", 3592x1801px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 5", 3592x1801px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 4", 3592x1801px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 56", 3592x1801px, constraints left/top, fill #3EB3F9, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 67", 656.48x1070.93px, constraints left/top
+        - FRAME "iPhone 13 Pro Max - 4", 656.48x1070.93px, constraints left/top, fill #FFFFFF
+          - TEXT "Started", 83.43x46.28px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 24px], [heading]
+          - FRAME "Frame 2", 585.37x774.74px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 1", 627.7x944.54px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 43", 457.44x272.6px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 40", 457.44x272.6px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 42", 296.89x95.86px, constraints left/top
+          - GROUP "Group 41", 435.61x185.05px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 31", 435.61x185.05px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Artsan7", 59.9x32.23px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+            - TEXT "artsan7@gmail.com", 145.29x53.51px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+            - RECTANGLE "Rectangle 43", 140.93x36.05px, constraints left/top, fill #D9D9D9
+          - GROUP "Group 2", 422.79x133.62px, constraints left/top
+            - RECTANGLE "Rectangle 16", 422.79x133.62px, constraints left/top, fill #FFFFFF
+            - FRAME "bi:battery-full", 22.76x21.95px, constraints left/top, fill #FFFFFF
+            - FRAME "bx:wifi", 22.76x21.95px, constraints left/top, fill #FFFFFF
+            - FRAME "bx:signal-5", 22.76x21.95px, constraints left/top, fill #FFFFFF
+            - TEXT "8:56", 70.2x37.03px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+      - GROUP "Mask group", 3592x1801px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 57", 3592x1801px, constraints left/top, fill #3EB3F9, effect [drop_shadow 4px offset 0 4 #00000040]
+        - GROUP "Group 69", 632.85x1070.93px, constraints left/top
+          - FRAME "iPhone 13 Pro Max - 5", 632.85x1070.93px, constraints left/top, fill #FFFFFF
+            - GROUP "Group 68", 647.42x1076.79px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 71", 632.85x1070.93px, constraints left/top
+          - FRAME "iPhone 13 Pro Max - 6", 632.85x1070.93px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 53", 507.84x496.09px, constraints left/top, radius 8px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+            - RECTANGLE "Rectangle 47", 133.17x81.86px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+            - TEXT "Payments", 64.73x31.33px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+            - RECTANGLE "Rectangle 48", 133.17x81.86px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+            - RECTANGLE "Rectangle 49", 133.17x81.86px, constraints left/top, radius 40px, fill #3EB3F9, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+            - TEXT "Request", 54.08x28.58px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+            - TEXT "Bills", 29.88x22.32px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+            - GROUP "Group 51", 269.78x255.8px, constraints left/top [decorative, ~4 shapes]
+            - GROUP "Group 49", 366.43x149.48px, constraints left/top, radius 20px
+            - GROUP "Group 59", 196.9x116.58px, constraints left/top, radius 30px
+            - TEXT "Find people to starting request money", 232.22x74.65px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+            - TEXT "Share your link", 79.76x33.39px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+            - TEXT "Send invoice", 69.11x30.64px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+            - TEXT "Split the bill", 63.3x29.14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+            - ELLIPSE "Ellipse 10", 84.13x85.59px, constraints left/top, fill #C2C2C2
+            - ELLIPSE "Ellipse 8", 84.13x85.59px, constraints left/top, fill #C2C2C2
+            - ELLIPSE "Ellipse 9", 84.13x85.59px, constraints left/top, fill #C2C2C2
+            - RECTANGLE "Rectangle 54", 33.35x40.54px, constraints left/top, radius 3px, fill #0901A7
+            - ELLIPSE "Ellipse 11", 14.42x14.67px, constraints left/top, fill #9FD9FC
+            - GROUP "Group 43", 455.08x276.58px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 41", 434x188.84px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 2", 421.61x137.31px, constraints left/top
+            - FRAME "bx:link-alt", 50.48x51.35px, constraints left/top, fill #FFFFFF
+            - FRAME "fa6-solid:file-invoice", 37.19x45.18px, constraints left/top, fill #FFFFFF
+            - FRAME "fluent:arrow-forward-28-regular", 28.84x29.34px, constraints left/top, fill #FFFFFF
+            - ... +1 more children
+        - GROUP "Group 65", 632.85x1070.93px, constraints left/top
+          - FRAME "iPhone 13 Pro Max - 3", 632.85x1070.93px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Space", 494.59x433.39px, constraints left/top, radius 3px, fill #FFFFFF, effect [drop_shadow 21px offset 0 12 #00000040]
+            - GROUP "Group 55", 180.54x101.41px, constraints left/top, radius 40px
+            - GROUP "Group 56", 180.54x101.41px, constraints left/top, radius 40px
+            - TEXT "Rewards", 96.58x50.51px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+            - GROUP "Group 32", 447.32x244.27px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 62", 447.32x244.27px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 43", 455.08x276.58px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 41", 434x188.84px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 2", 421.61x137.31px, constraints left/top
+            - GROUP "Group 60", 169.19x197.29px, constraints left/top
+        - GROUP "Group 70", 632.85x1070.93px, constraints left/top
+          - FRAME "iPhone 13 Pro Max - 7", 632.85x1070.93px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Space", 494.59x433.39px, constraints left/top, radius 3px, fill #FFFFFF, effect [drop_shadow 21px offset 0 12 #00000040]
+            - TEXT "Keep track of everything you do with PayPal right here.Let`s", 354.54x175.59px, constraints left/top, fill #727272, text [Roboto Regular, 18px]
+            - GROUP "Group 55", 180.54x101.41px, constraints left/top, radius 40px
+            - GROUP "Group 56", 180.54x101.41px, constraints left/top, radius 40px
+            - TEXT "Rewards", 96.58x50.51px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+            - GROUP "Group 63", 169.46x172.4px, constraints left/top [decorative, ~6 shapes]
+            - TEXT "All your payment and purchases in one place", 339.52x147.08px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+            - GROUP "Group 43", 455.08x276.58px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 41", 434x188.84px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 2", 421.61x137.31px, constraints left/top
+            - GROUP "Group 60", 169.19x197.29px, constraints left/top
+        - ELLIPSE "Ellipse 12", 415.49x431px, constraints left/top, fill #9FD9FC
+        - RECTANGLE "Rectangle 58", 1370.51x1134.1px, constraints left/top, radius 42px, fill #9FD9FC
+        - ELLIPSE "Ellipse 13", 489x507px, constraints left/top, fill #7CCEFF
+        - ELLIPSE "Ellipse 14", 489x507px, constraints left/top, fill #7CCEFF
+      - TEXT "PayPal design mobile app", 1189x334px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 164px], [heading]
+      - GROUP "Group 7", 468x468px, constraints left/top
+        - GROUP "Group 5", 468x468px, constraints left/top
+          - ELLIPSE "Ellipse 1", 468x468px, constraints left/top, fill #9FD9FC, opacity 50%
+          - RECTANGLE "download (1) 1", 331.02x331.02px, constraints left/top, fill image(hash: 13000c0d66d1fb6ed0a866dc3978f207ad838463)
+      - GROUP "Group 66", 656.48x1070.93px, constraints left/top
+        - FRAME "iPhone 13 Pro Max - 2", 656.48x1070.93px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 64", 656.54x1071.15px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 47", 133.87x80.7px, constraints left/top, radius 40px, fill #3EB3F9, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+            - TEXT "Payments", 65x30.77px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+            - RECTANGLE "Rectangle 48", 133.87x80.7px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+            - RECTANGLE "Rectangle 49", 133.87x80.7px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+            - TEXT "Request", 54.33x28.1px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+            - TEXT "Bills", 30.07x22.06px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+            - TEXT "Find people to start sending money", 216.37x68.51px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+            - GROUP "Group 59", 197.89x114.86px, constraints left/top, radius 30px
+            - GROUP "Group 60", 197.89x114.86px, constraints left/top, radius 30px
+            - GROUP "Group 43", 457.44x272.6px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 41", 435.61x185.05px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 2", 422.79x133.62px, constraints left/top
+            - GROUP "Group 49", 367.7x146.28px, constraints left/top, radius 20px
+            - GROUP "Group 51", 268.64x252.61px, constraints left/top [decorative, ~4 shapes]
+
+Screen: User Interface / Request
+- GROUP "Request", 428x997px, constraints left/top
+  - FRAME "Home", 428x997px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 64", 431x997.23px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Started", 79x28px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 24px], [heading]
+      - FRAME "Frame 2", 431x691px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 1", 431x866px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 32", 428x84px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 42", 428x84px, constraints left/top, radius 8px, fill #FFFFFF, effect [drop_shadow 12px offset 0 4 #00000040]
+            - GROUP "Group 7", 62x62px, constraints left/top
+            - TEXT "932,99 $", 151x48px, constraints left/top, fill #000000, text [PT Serif Caption Caption, 36px], [heading]
+            - TEXT "Paypal Balance", 109x19px, constraints left/top, fill Gray, text [Roboto Regular, 16px]
+          - GROUP "Group 45", 428x84px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 33", 428x84px, constraints left/top, radius 8px
+            - TEXT "You way pay With Paypal", 177x19px, constraints left/top, fill #666666, text [Roboto Regular, 16px]
+            - TEXT "Link Bank or card", 165x30px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+            - GROUP "Group 8", 62x62px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+          - GROUP "Group 47", 428x166px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 39", 428x166px, constraints left/top, radius 8px
+            - GROUP "Group 16", 96x96px, constraints left/top
+            - TEXT "Pay from your phone", 232x29px, constraints left/top, fill #000000, text [Roboto Medium, 25px], [heading]
+            - TEXT "To any people or place you love", 242x42px, constraints left/top, fill #666666, text [Roboto Regular, 18px]
+          - GROUP "Group 48", 428x166px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 36", 428x166px, constraints left/top, radius 8px
+            - TEXT "Pay from your Community", 280x28px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+            - TEXT "new transaction will pop up here", 242x42px, constraints left/top, fill #666666, text [Roboto Regular, 18px]
+            - GROUP "Group 38", 96x96px, constraints left/top [decorative, ~5 shapes]
+          - GROUP "Group 46", 227x75px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Payment with new stickers,emojis,and more", 227x42px, constraints left/top, fill #666666, text [Roboto Regular, 18px]
+            - TEXT "Send money now", 192x29px, constraints left/top, fill #000000, text [Roboto Medium, 25px], [heading]
+          - GROUP "Group 33", 80x90px, constraints left/top [decorative, ~6 shapes]
+          - FRAME "Frame 3", 428x174.23px, constraints left/top, fill #FFFFFF
+      - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 25", 428x174.23px, constraints left/top
+            - GROUP "Group 22", 428x174.23px, constraints left/top
+          - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+          - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+          - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+          - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+        - GROUP "Group 42", 300x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints left/scale, fill #110055
+          - VECTOR "Vector", 24x24px, constraints scale/scale, fill #9FD9FC
+          - VECTOR "Vector", 14x24px, constraints scale/scale, fill #28308A
+      - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+          - GROUP "Group 4", 48x48px, constraints left/top
+            - GROUP "Mask group", 48x48px, constraints left/top
+        - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+        - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+        - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+      - GROUP "Group 2", 428x31px, constraints left/top
+        - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+        - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 19x8.94px, constraints scale/scale
+            - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+            - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+        - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+        - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+        - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+
+Screen: User Interface / Payments
+- GROUP "Payments", 428x997px, constraints left/top
+  - FRAME "Payments", 428x997px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 47", 125x52px, constraints left/top, radius 40px, fill #3EB3F9, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+    - TEXT "Payments", 63x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+    - RECTANGLE "Rectangle 48", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+    - RECTANGLE "Rectangle 49", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+    - TEXT "Request", 52x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "Bills", 27x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "Find people to start sending money", 219x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+    - GROUP "Group 59", 186x72px, constraints left/top, radius 30px
+      - RECTANGLE "Rectangle 50", 186x72px, constraints left/top, radius 30px, fill #0901A7, effect [drop_shadow 9px offset 0 6 #00000040]
+      - TEXT "Started", 79x28px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 24px], [heading]
+    - GROUP "Group 60", 186x72px, constraints left/top, radius 30px
+      - RECTANGLE "Rectangle 50", 186x72px, constraints left/top, radius 30px, fill #0901A7, effect [drop_shadow 9px offset 0 6 #00000040]
+      - TEXT "Started", 79x28px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 24px], [heading]
+    - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 25", 428x174.23px, constraints left/top
+          - GROUP "Group 22", 428x174.23px, constraints left/top
+            - GROUP "Group 21", 428x174.23px, constraints left/top
+        - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+        - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+        - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+        - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - GROUP "Group 42", 300x24px, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/scale, fill #110055
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+        - VECTOR "Vector", 14x24px, constraints scale/scale, fill #9FD9FC
+    - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+        - GROUP "Group 4", 48x48px, constraints left/top
+          - GROUP "Mask group", 48x48px, constraints left/top
+            - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+            - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+      - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+      - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+      - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+    - GROUP "Group 2", 428x31px, constraints left/top
+      - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+      - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 19x8.94px, constraints scale/scale
+          - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+      - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+      - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+      - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+    - GROUP "Group 49", 364x60px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 46", 364x46px, constraints left/top, radius 20px, fill #FFFFFF, stroke #99AAB5 1px
+      - TEXT "Name/@username/email/Mobile", 218x16px, constraints left/top, fill #727272, text [Roboto Regular, 14px]
+      - TEXT "Send to someone new", 124x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - FRAME "akar-icons:search", 24x24px, constraints left/top, radius 20px, fill #FFFFFF
+        - VECTOR "Vector", 19x19px, constraints scale/scale, stroke #727272 2px
+    - GROUP "Group 51", 226x204px, constraints left/top [decorative, ~4 shapes]
+
+Screen: User Interface / Bills
+- GROUP "Bills", 428x997px, constraints left/top
+  - FRAME "Bills", 428x997px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 47", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+    - TEXT "Payments", 63x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - RECTANGLE "Rectangle 48", 125x52px, constraints left/top, radius 40px, fill #3EB3F9, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+    - RECTANGLE "Rectangle 49", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+    - TEXT "Request", 52x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - TEXT "Bills", 27x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+    - TEXT "This is where you`ll see bils you can pay with paypal like s", 322x37px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+    - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 25", 428x174.23px, constraints left/top
+          - GROUP "Group 22", 428x174.23px, constraints left/top
+            - GROUP "Group 21", 428x174.23px, constraints left/top
+        - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+        - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+        - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+        - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - GROUP "Group 42", 300x24px, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/scale, fill #110055
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+        - VECTOR "Vector", 14x24px, constraints scale/scale, fill #9FD9FC
+    - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+        - GROUP "Group 4", 48x48px, constraints left/top
+          - GROUP "Mask group", 48x48px, constraints left/top
+            - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+            - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+      - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+      - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+      - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+    - GROUP "Group 2", 428x31px, constraints left/top
+      - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+      - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 19x8.94px, constraints scale/scale
+          - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+      - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+      - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+      - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+    - GROUP "Group 61", 310x227px, constraints left/top [decorative, ~5 shapes]
+
+Screen: User Interface / Request
+- GROUP "Request", 428x997px, constraints left/top
+  - FRAME "Request", 428x997px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 53", 428x400px, constraints left/top, radius 8px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 47", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+    - TEXT "Payments", 63x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - RECTANGLE "Rectangle 48", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+    - RECTANGLE "Rectangle 49", 125x52px, constraints left/top, radius 40px, fill #3EB3F9, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+    - TEXT "Request", 52x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+    - TEXT "Bills", 27x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+    - GROUP "Group 51", 226x204px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 49", 364x60px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 46", 364x46px, constraints left/top, radius 20px, fill #FFFFFF, stroke #99AAB5 1px
+      - TEXT "Name/@username/email/Mobile", 218x16px, constraints left/top, fill #727272, text [Roboto Regular, 14px]
+      - TEXT "Request for someone new", 151x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - FRAME "akar-icons:search", 24x24px, constraints left/top, radius 20px, fill #FFFFFF
+        - VECTOR "Vector", 19x19px, constraints scale/scale, stroke #727272 2px
+    - GROUP "Group 59", 186x72px, constraints left/top, radius 30px
+      - RECTANGLE "Rectangle 50", 186x72px, constraints left/top, radius 30px, fill #0901A7, effect [drop_shadow 9px offset 0 6 #00000040]
+      - TEXT "Started", 79x28px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 24px], [heading]
+    - TEXT "Find people to starting request money", 236x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+    - TEXT "Share your link", 79x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - TEXT "Send invoice", 68x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - TEXT "Split the bill", 62x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - ELLIPSE "Ellipse 10", 70x70px, constraints left/top, fill #C2C2C2
+    - ELLIPSE "Ellipse 8", 70x70px, constraints left/top, fill #C2C2C2
+    - ELLIPSE "Ellipse 9", 70x70px, constraints left/top, fill #C2C2C2
+    - RECTANGLE "Rectangle 54", 26x35px, constraints left/top, radius 3px, fill #0901A7
+    - ELLIPSE "Ellipse 11", 12x12px, constraints left/top, fill #9FD9FC
+    - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 25", 428x174.23px, constraints left/top
+          - GROUP "Group 22", 428x174.23px, constraints left/top
+            - GROUP "Group 21", 428x174.23px, constraints left/top
+        - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+        - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+        - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+        - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - GROUP "Group 42", 300x24px, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/scale, fill #110055
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+        - VECTOR "Vector", 14x24px, constraints scale/scale, fill #9FD9FC
+    - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+        - GROUP "Group 4", 48x48px, constraints left/top
+          - GROUP "Mask group", 48x48px, constraints left/top
+            - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+            - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+      - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+      - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+      - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+    - GROUP "Group 2", 428x31px, constraints left/top
+      - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+      - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 19x8.94px, constraints scale/scale
+          - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+      - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+      - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+      - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+    - FRAME "bx:link-alt", 42x42px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 32.34x32.34px, constraints scale/scale, fill #3EB3F9
+      - VECTOR "Vector", 17.33x17.33px, constraints scale/scale, fill #9FD9FC
+    - FRAME "fa6-solid:file-invoice", 29x39px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 29x39px, constraints scale/scale, fill #3EB3F9
+      - RECTANGLE "Rectangle 55", 14.8x6px, constraints scale/scale, fill #9FD9FC
+    - FRAME "fluent:arrow-forward-28-regular", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.86x14.77px, constraints scale/scale, fill #3EB3F9
+    - ... +1 more children
+
+Screen: User Interface / Wallet
+- GROUP "Wallet", 428x997px, constraints left/top
+  - FRAME "Wallet", 428x997px, constraints left/top, fill #FFFFFF
+    - GROUP "Wallet", 430x997.23px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Space", 430x335px, constraints left/top, radius 3px, fill #FFFFFF, effect [drop_shadow 21px offset 0 12 #00000040]
+      - GROUP "Group 55", 172x60px, constraints left/top, radius 40px
+        - GROUP "Group 54", 172x60px, constraints left/top, radius 40px
+          - RECTANGLE "Rectangle 49", 172x60px, constraints left/top, radius 40px, fill #9FD9FC, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #000000]
+        - TEXT "Wallet", 62x26px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 22px]
+      - GROUP "Group 56", 172x60px, constraints left/top, radius 40px
+        - GROUP "Group 54", 172x60px, constraints left/top, radius 40px
+          - RECTANGLE "Rectangle 49", 172x60px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #000000]
+        - TEXT "Activity", 74x26px, constraints left/top, fill #000000, text [Roboto Medium, 22px]
+      - TEXT "Rewards", 93x28px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+      - GROUP "Group 32", 428x141px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 42", 428x141px, constraints left/top, radius 8px, fill #FFFFFF
+        - GROUP "Group 7", 84x84px, constraints left/top
+          - GROUP "Group 5", 84x84px, constraints left/top
+            - ELLIPSE "Ellipse 1", 84x84px, constraints left/top, fill #9FD9FC, opacity 50%
+            - RECTANGLE "download (1) 1", 59.41x59.41px, constraints left/top, fill image(hash: 13000c0d66d1fb6ed0a866dc3978f207ad838463)
+        - TEXT "132,99 $", 202x59px, constraints left/top, fill #000000, text [PT Serif Caption Caption, 48px], [heading]
+        - TEXT "PayPal Balance", 124x21px, constraints left/top, fill #727272, text [Roboto Regular, 18px]
+      - GROUP "Group 62", 428x141px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 57", 428x141px, constraints left/top, radius 8px
+          - RECTANGLE "Rectangle 42", 428x141px, constraints left/top, radius 8px, fill #FFFFFF
+        - GROUP "Group 58", 84x84px, constraints left/top [decorative, ~5 shapes]
+        - TEXT "Add banks and cards", 232x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+        - TEXT "Link cards to shop and pay with paypal,and link banks to wit", 291x72px, constraints left/top, fill #727272, text [Roboto Regular, 18px]
+      - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 25", 428x174.23px, constraints left/top
+            - GROUP "Group 22", 428x174.23px, constraints left/top
+          - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+          - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+          - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+          - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+        - GROUP "Group 42", 300x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints left/scale, fill #9FD9FC
+          - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+          - VECTOR "Vector", 14x24px, constraints scale/scale, fill #110055
+      - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+          - GROUP "Group 4", 48x48px, constraints left/top
+            - GROUP "Mask group", 48x48px, constraints left/top
+        - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+        - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+        - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+      - GROUP "Group 2", 428x31px, constraints left/top
+        - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+        - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 19x8.94px, constraints scale/scale
+            - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+            - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+        - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+        - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+        - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+      - GROUP "Group 60", 132x170px, constraints left/top
+        - ELLIPSE "Ellipse 5", 126x104px, constraints scale/scale, fill #D9D9D9
+        - FRAME "fxemoji:trophy", 132x132px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - TEXT "No reward", 65x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+
+Screen: User Interface / Activity
+- GROUP "Activity", 428x997px, constraints left/top
+  - FRAME "Activity", 428x997px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Space", 430x335px, constraints left/top, radius 3px, fill #FFFFFF, effect [drop_shadow 21px offset 0 12 #00000040]
+    - TEXT "Keep track of everything you do with PayPal right here.Let`s", 344x92px, constraints left/top, fill #727272, text [Roboto Regular, 18px]
+    - GROUP "Group 55", 172x60px, constraints left/top, radius 40px
+      - GROUP "Group 54", 172x60px, constraints left/top, radius 40px
+        - RECTANGLE "Rectangle 49", 172x60px, constraints left/top, radius 40px, fill #FFFFFF, stroke #565569 1px, effect [drop_shadow 2px offset 0 3 #000000]
+      - TEXT "Wallet", 62x26px, constraints left/top, fill #000000, text [Roboto Medium, 22px]
+    - GROUP "Group 56", 172x60px, constraints left/top, radius 40px
+      - GROUP "Group 54", 172x60px, constraints left/top, radius 40px
+        - RECTANGLE "Rectangle 49", 172x60px, constraints left/top, radius 40px, fill #9FD9FC, stroke #2A2845 1px, effect [drop_shadow 2px offset 0 3 #000000]
+      - TEXT "Activity", 74x26px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 22px]
+    - TEXT "Rewards", 93x28px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+    - GROUP "Group 63", 141x141px, constraints left/top [decorative, ~6 shapes]
+    - TEXT "All your payment and purchases in one place", 335x65px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+    - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 25", 428x174.23px, constraints left/top
+          - GROUP "Group 22", 428x174.23px, constraints left/top
+            - GROUP "Group 21", 428x174.23px, constraints left/top
+        - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+        - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+        - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+        - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - GROUP "Group 42", 300x24px, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/scale, fill #9FD9FC
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+        - VECTOR "Vector", 14x24px, constraints scale/scale, fill #110055
+    - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+        - GROUP "Group 4", 48x48px, constraints left/top
+          - GROUP "Mask group", 48x48px, constraints left/top
+            - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+            - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+      - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+      - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+      - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+    - GROUP "Group 2", 428x31px, constraints left/top
+      - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+      - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 19x8.94px, constraints scale/scale
+          - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+      - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+      - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+      - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+    - GROUP "Group 60", 132x170px, constraints left/top
+      - ELLIPSE "Ellipse 5", 126x104px, constraints scale/scale, fill #D9D9D9
+      - FRAME "fxemoji:trophy", 132x132px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "No reward", 65x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+
+Screen: Prototype / Payments
+- FRAME "Payments", 428x997px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 47", 125x52px, constraints left/top, radius 40px, fill #3EB3F9, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+  - TEXT "Payments", 63x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+  - RECTANGLE "Rectangle 48", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+  - RECTANGLE "Rectangle 49", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+  - TEXT "Request", 52x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - TEXT "Bills", 27x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - TEXT "Find people to start sending money", 219x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Group 59", 186x72px, constraints left/top, radius 30px
+    - RECTANGLE "Rectangle 50", 186x72px, constraints left/top, radius 30px, fill #0901A7, effect [drop_shadow 9px offset 0 6 #00000040]
+    - TEXT "Started", 79x28px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 24px], [heading]
+  - GROUP "Group 60", 186x72px, constraints left/top, radius 30px
+    - RECTANGLE "Rectangle 50", 186x72px, constraints left/top, radius 30px, fill #0901A7, effect [drop_shadow 9px offset 0 6 #00000040]
+    - TEXT "Started", 79x28px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 24px], [heading]
+  - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 25", 428x174.23px, constraints left/top
+        - GROUP "Group 22", 428x174.23px, constraints left/top
+          - GROUP "Group 21", 428x174.23px, constraints left/top
+            - VECTOR "Rectangle 40", 428x174.23px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+      - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+      - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "Group 42", 300x24px, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/scale, fill #110055
+      - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+      - VECTOR "Vector", 14x24px, constraints scale/scale, fill #9FD9FC
+  - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+      - GROUP "Group 4", 48x48px, constraints left/top
+        - GROUP "Mask group", 48x48px, constraints left/top
+          - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+          - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+    - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+    - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+    - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 2", 428x31px, constraints left/top
+    - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+    - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 19x8.94px, constraints scale/scale
+        - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+    - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+    - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+    - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - GROUP "Group 49", 364x60px, constraints left/top, radius 20px
+    - RECTANGLE "Rectangle 46", 364x46px, constraints left/top, radius 20px, fill #FFFFFF, stroke #99AAB5 1px
+    - TEXT "Name/@username/email/Mobile", 218x16px, constraints left/top, fill #727272, text [Roboto Regular, 14px]
+    - TEXT "Send to someone new", 124x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - FRAME "akar-icons:search", 24x24px, constraints left/top, radius 20px, fill #FFFFFF
+      - VECTOR "Vector", 19x19px, constraints scale/scale, stroke #727272 2px
+  - GROUP "Group 51", 226x204px, constraints left/top [decorative, ~4 shapes]
+
+Screen: Prototype / Bills
+- FRAME "Bills", 428x997px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 47", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+  - TEXT "Payments", 63x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - RECTANGLE "Rectangle 48", 125x52px, constraints left/top, radius 40px, fill #3EB3F9, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+  - RECTANGLE "Rectangle 49", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+  - TEXT "Request", 52x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - TEXT "Bills", 27x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+  - TEXT "This is where you`ll see bils you can pay with paypal like s", 322x37px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 25", 428x174.23px, constraints left/top
+        - GROUP "Group 22", 428x174.23px, constraints left/top
+          - GROUP "Group 21", 428x174.23px, constraints left/top
+            - VECTOR "Rectangle 40", 428x174.23px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+      - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+      - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "Group 42", 300x24px, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/scale, fill #110055
+      - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+      - VECTOR "Vector", 14x24px, constraints scale/scale, fill #9FD9FC
+  - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+      - GROUP "Group 4", 48x48px, constraints left/top
+        - GROUP "Mask group", 48x48px, constraints left/top
+          - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+          - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+    - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+    - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+    - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 2", 428x31px, constraints left/top
+    - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+    - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 19x8.94px, constraints scale/scale
+        - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+    - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+    - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+    - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - GROUP "Group 61", 310x227px, constraints left/top [decorative, ~5 shapes]
+
+Screen: Prototype / Request
+- FRAME "Request", 428x997px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 53", 428x400px, constraints left/top, radius 8px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 47", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+  - TEXT "Payments", 63x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - RECTANGLE "Rectangle 48", 125x52px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+  - RECTANGLE "Rectangle 49", 125x52px, constraints left/top, radius 40px, fill #3EB3F9, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #00000040]
+  - TEXT "Request", 52x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+  - TEXT "Bills", 27x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - GROUP "Group 51", 226x204px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 49", 364x60px, constraints left/top, radius 20px
+    - RECTANGLE "Rectangle 46", 364x46px, constraints left/top, radius 20px, fill #FFFFFF, stroke #99AAB5 1px
+    - TEXT "Name/@username/email/Mobile", 218x16px, constraints left/top, fill #727272, text [Roboto Regular, 14px]
+    - TEXT "Request for someone new", 151x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - FRAME "akar-icons:search", 24x24px, constraints left/top, radius 20px, fill #FFFFFF
+      - VECTOR "Vector", 19x19px, constraints scale/scale, stroke #727272 2px
+  - GROUP "Group 59", 186x72px, constraints left/top, radius 30px
+    - RECTANGLE "Rectangle 50", 186x72px, constraints left/top, radius 30px, fill #0901A7, effect [drop_shadow 9px offset 0 6 #00000040]
+    - TEXT "Started", 79x28px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 24px], [heading]
+  - TEXT "Find people to starting request money", 236x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - TEXT "Share your link", 79x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "Send invoice", 68x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "Split the bill", 62x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - ELLIPSE "Ellipse 10", 70x70px, constraints left/top, fill #C2C2C2
+  - ELLIPSE "Ellipse 8", 70x70px, constraints left/top, fill #C2C2C2
+  - ELLIPSE "Ellipse 9", 70x70px, constraints left/top, fill #C2C2C2
+  - RECTANGLE "Rectangle 54", 26x35px, constraints left/top, radius 3px, fill #0901A7
+  - ELLIPSE "Ellipse 11", 12x12px, constraints left/top, fill #9FD9FC
+  - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 25", 428x174.23px, constraints left/top
+        - GROUP "Group 22", 428x174.23px, constraints left/top
+          - GROUP "Group 21", 428x174.23px, constraints left/top
+            - VECTOR "Rectangle 40", 428x174.23px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+      - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+      - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "Group 42", 300x24px, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/scale, fill #110055
+      - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+      - VECTOR "Vector", 14x24px, constraints scale/scale, fill #9FD9FC
+  - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+      - GROUP "Group 4", 48x48px, constraints left/top
+        - GROUP "Mask group", 48x48px, constraints left/top
+          - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+          - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+    - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+    - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+    - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 2", 428x31px, constraints left/top
+    - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+    - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 19x8.94px, constraints scale/scale
+        - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+    - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+    - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+    - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - FRAME "bx:link-alt", 42x42px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 32.34x32.34px, constraints scale/scale, fill #3EB3F9
+    - VECTOR "Vector", 17.33x17.33px, constraints scale/scale, fill #9FD9FC
+  - FRAME "fa6-solid:file-invoice", 29x39px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 29x39px, constraints scale/scale, fill #3EB3F9
+    - RECTANGLE "Rectangle 55", 14.8x6px, constraints scale/scale, fill #9FD9FC
+  - FRAME "fluent:arrow-forward-28-regular", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18.86x14.77px, constraints scale/scale, fill #3EB3F9
+  - ... +1 more children
+
+Screen: Prototype / Home
+- FRAME "Home", 428x997px, constraints left/top, fill #FFFFFF
+  - TEXT "Started", 79x28px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 24px], [heading]
+  - FRAME "Frame 2", 431x691px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 1", 431x866px, constraints left/top, fill #FFFFFF
+      - GROUP "Group 32", 428x84px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 42", 428x84px, constraints left/top, radius 8px, fill #FFFFFF, effect [drop_shadow 12px offset 0 4 #00000040]
+        - GROUP "Group 7", 62x62px, constraints left/top
+          - GROUP "Group 5", 62x62px, constraints left/top
+            - ELLIPSE "Ellipse 1", 62x62px, constraints left/top, fill #9FD9FC, opacity 50%
+            - RECTANGLE "download (1) 1", 43.85x43.85px, constraints left/top, fill image(hash: 13000c0d66d1fb6ed0a866dc3978f207ad838463)
+        - TEXT "132,99 $", 151x48px, constraints left/top, fill #000000, text [PT Serif Caption Caption, 36px], [heading]
+        - TEXT "Paypal Balance", 109x19px, constraints left/top, fill Gray, text [Roboto Regular, 16px]
+      - GROUP "Group 45", 428x84px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 33", 428x84px, constraints left/top, radius 8px
+          - RECTANGLE "Rectangle 42", 428x84px, constraints left/top, radius 8px, fill #FFFFFF, effect [drop_shadow 12px offset 0 4 #00000040]
+        - TEXT "You way pay With Paypal", 177x19px, constraints left/top, fill #666666, text [Roboto Regular, 16px]
+        - TEXT "Link Bank or card", 165x30px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+        - GROUP "Group 8", 62x62px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - GROUP "Group 47", 428x166px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 39", 428x166px, constraints left/top, radius 8px
+          - RECTANGLE "Rectangle 42", 428x166px, constraints left/top, radius 8px, fill #FFFFFF, effect [drop_shadow 12px offset 0 4 #00000040]
+        - GROUP "Group 16", 96x96px, constraints left/top
+          - GROUP "Group 17", 96x96px, constraints left/top
+            - ELLIPSE "Ellipse 3", 96x96px, constraints left/top, fill Blue Aqua
+            - GROUP "Group 11", 64.29x64.29px, constraints left/top
+        - TEXT "Pay from your phone", 232x29px, constraints left/top, fill #000000, text [Roboto Medium, 25px], [heading]
+        - TEXT "To any people or place you love", 242x42px, constraints left/top, fill #666666, text [Roboto Regular, 18px]
+      - GROUP "Group 48", 428x166px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 36", 428x166px, constraints left/top, radius 8px
+          - RECTANGLE "Rectangle 42", 428x166px, constraints left/top, radius 8px, fill #FFFFFF, effect [drop_shadow 12px offset 0 4 #00000040]
+        - TEXT "Pay from your phone", 232x29px, constraints left/top, fill #000000, text [Roboto Medium, 25px], [heading]
+        - TEXT "new transaction will pop up here", 242x42px, constraints left/top, fill #666666, text [Roboto Regular, 18px]
+        - GROUP "Group 38", 96x96px, constraints left/top [decorative, ~5 shapes]
+      - GROUP "Group 46", 428x120px, constraints left/top, radius 8px
+        - GROUP "Group 34", 428x120px, constraints left/top, radius 8px
+          - RECTANGLE "Rectangle 42", 428x120px, constraints left/top, radius 8px, fill #FFFFFF, effect [drop_shadow 12px offset 0 4 #00000040]
+        - TEXT "Payment with new stickers,emojis,and more", 227x42px, constraints left/top, fill #666666, text [Roboto Regular, 18px]
+        - TEXT "Send money now", 192x29px, constraints left/top, fill #000000, text [Roboto Medium, 25px], [heading]
+      - GROUP "Group 33", 80x90px, constraints left/top [decorative, ~6 shapes]
+      - FRAME "Frame 3", 428x174.23px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 25", 428x174.23px, constraints left/top
+        - GROUP "Group 22", 428x174.23px, constraints left/top
+          - GROUP "Group 21", 428x174.23px, constraints left/top
+            - VECTOR "Rectangle 40", 428x174.23px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+      - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+      - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "Group 42", 300x24px, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/scale, fill #110055
+      - VECTOR "Vector", 24x24px, constraints scale/scale, fill #9FD9FC
+      - VECTOR "Vector", 14x24px, constraints scale/scale, fill #28308A
+  - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+      - GROUP "Group 4", 48x48px, constraints left/top
+        - GROUP "Mask group", 48x48px, constraints left/top
+          - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+          - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+    - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+    - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+    - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 2", 428x31px, constraints left/top
+    - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+    - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 19x8.94px, constraints scale/scale
+        - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+    - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+    - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+    - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+
+Screen: Prototype / Wallet
+- FRAME "Wallet", 428x997px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Space", 430x335px, constraints left/top, radius 3px, fill #FFFFFF, effect [drop_shadow 21px offset 0 12 #00000040]
+  - GROUP "Group 55", 172x60px, constraints left/top, radius 40px
+    - GROUP "Group 54", 172x60px, constraints left/top, radius 40px
+      - RECTANGLE "Rectangle 49", 172x60px, constraints left/top, radius 40px, fill #9FD9FC, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #000000]
+    - TEXT "Wallet", 62x26px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 22px]
+  - GROUP "Group 56", 172x60px, constraints left/top, radius 40px
+    - GROUP "Group 54", 172x60px, constraints left/top, radius 40px
+      - RECTANGLE "Rectangle 49", 172x60px, constraints left/top, radius 40px, fill #FFFFFF, stroke #0901A7 1px, effect [drop_shadow 2px offset 0 3 #000000]
+    - TEXT "Activity", 74x26px, constraints left/top, fill #000000, text [Roboto Medium, 22px]
+  - TEXT "Rewards", 93x28px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+  - GROUP "Group 32", 428x141px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 42", 428x141px, constraints left/top, radius 8px, fill #FFFFFF
+    - GROUP "Group 7", 84x84px, constraints left/top
+      - GROUP "Group 5", 84x84px, constraints left/top
+        - ELLIPSE "Ellipse 1", 84x84px, constraints left/top, fill #9FD9FC, opacity 50%
+        - RECTANGLE "download (1) 1", 59.41x59.41px, constraints left/top, fill image(hash: 13000c0d66d1fb6ed0a866dc3978f207ad838463)
+    - TEXT "132,99 $", 202x59px, constraints left/top, fill #000000, text [PT Serif Caption Caption, 48px], [heading]
+    - TEXT "PayPal Balance", 124x21px, constraints left/top, fill #727272, text [Roboto Regular, 18px]
+  - GROUP "Group 62", 428x141px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 57", 428x141px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 42", 428x141px, constraints left/top, radius 8px, fill #FFFFFF
+    - GROUP "Group 58", 84x84px, constraints left/top [decorative, ~5 shapes]
+    - TEXT "Add banks and cards", 232x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+    - TEXT "Link cards to shop and pay with paypal,and link banks to wit", 291x72px, constraints left/top, fill #727272, text [Roboto Regular, 18px]
+  - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 25", 428x174.23px, constraints left/top
+        - GROUP "Group 22", 428x174.23px, constraints left/top
+          - GROUP "Group 21", 428x174.23px, constraints left/top
+            - VECTOR "Rectangle 40", 428x174.23px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+      - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+      - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "Group 42", 300x24px, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/scale, fill #9FD9FC
+      - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+      - VECTOR "Vector", 14x24px, constraints scale/scale, fill #110055
+  - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+      - GROUP "Group 4", 48x48px, constraints left/top
+        - GROUP "Mask group", 48x48px, constraints left/top
+          - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+          - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+    - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+    - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+    - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 2", 428x31px, constraints left/top
+    - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+    - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 19x8.94px, constraints scale/scale
+        - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+    - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+    - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+    - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - GROUP "Group 60", 132x170px, constraints left/top
+    - ELLIPSE "Ellipse 5", 126x104px, constraints scale/scale, fill #D9D9D9
+    - FRAME "fxemoji:trophy", 132x132px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - TEXT "No reward", 65x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+
+Screen: Prototype / Activity
+- FRAME "Activity", 428x997px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Space", 430x335px, constraints left/top, radius 3px, fill #FFFFFF, effect [drop_shadow 21px offset 0 12 #00000040]
+  - TEXT "Keep track of everything you do with PayPal right here.Let`s", 344x92px, constraints left/top, fill #727272, text [Roboto Regular, 18px]
+  - GROUP "Group 55", 172x60px, constraints left/top, radius 40px
+    - GROUP "Group 54", 172x60px, constraints left/top, radius 40px
+      - RECTANGLE "Rectangle 49", 172x60px, constraints left/top, radius 40px, fill #FFFFFF, stroke #565569 1px, effect [drop_shadow 2px offset 0 3 #000000]
+    - TEXT "Wallet", 62x26px, constraints left/top, fill #000000, text [Roboto Medium, 22px]
+  - GROUP "Group 56", 172x60px, constraints left/top, radius 40px
+    - GROUP "Group 54", 172x60px, constraints left/top, radius 40px
+      - RECTANGLE "Rectangle 49", 172x60px, constraints left/top, radius 40px, fill #9FD9FC, stroke #2A2845 1px, effect [drop_shadow 2px offset 0 3 #000000]
+    - TEXT "Activity", 74x26px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 22px]
+  - TEXT "Rewards", 93x28px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+  - GROUP "Group 63", 141x141px, constraints left/top [decorative, ~6 shapes]
+  - TEXT "All your payment and purchases in one place", 335x65px, constraints left/top, fill #000000, text [Roboto Medium, 24px], [heading]
+  - GROUP "Group 43", 428x174.23px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 40", 428x174.23px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 25", 428x174.23px, constraints left/top
+        - GROUP "Group 22", 428x174.23px, constraints left/top
+          - GROUP "Group 21", 428x174.23px, constraints left/top
+            - VECTOR "Rectangle 40", 428x174.23px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 44", 178x78.4px, constraints left/top, radius 16px, fill #0901A7
+      - RECTANGLE "Rectangle 45", 178x78px, constraints left/top, radius 16px, fill #0901A7
+      - TEXT "Send", 59x29px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+      - TEXT "Request", 95x28px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - GROUP "Group 42", 300x24px, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/scale, fill #9FD9FC
+      - VECTOR "Vector", 24x24px, constraints scale/scale, fill #110055
+      - VECTOR "Vector", 14x24px, constraints scale/scale, fill #110055
+  - GROUP "Group 41", 428x84px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 31", 428x84px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 41", 428x84px, constraints left/top, radius 0/0/19/19px, fill #0901A7
+      - GROUP "Group 4", 48x48px, constraints left/top
+        - GROUP "Mask group", 48x48px, constraints left/top
+          - ELLIPSE "Ellipse 1", 48x48px, constraints left/top, fill #3EB3F9
+          - RECTANGLE "1657187935627 1", 51.92x68.16px, constraints left/top, fill image(hash: f364cadc39437a85bf5b328da913aaf44b5e4f0c)
+    - TEXT "Artsan7", 57x19px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 16px]
+    - TEXT "artsan7@gmail.com", 145x19px, constraints left/top, fill #9FD9FC, text [Roboto Regular, 16px]
+    - RECTANGLE "Rectangle 43", 145x1px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 2", 428x31px, constraints left/top
+    - RECTANGLE "Rectangle 16", 428x31px, constraints left/top, fill #FFFFFF
+    - FRAME "bi:battery-full", 19x17.88px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 19x8.94px, constraints scale/scale
+        - VECTOR "Vector", 11.88x4.47px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 19x8.94px, constraints scale/scale, fill #000000
+    - FRAME "bx:wifi", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.95x8.73px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 13.36x3.61px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 3.17x2.98px, constraints scale/scale, fill #000000
+    - FRAME "bx:signal-5", 19x17.88px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14.25x12.67px, constraints scale/scale, fill #000000
+    - TEXT "8:56", 67x21.46px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - GROUP "Group 60", 132x170px, constraints left/top
+    - ELLIPSE "Ellipse 5", 126x104px, constraints scale/scale, fill #D9D9D9
+    - FRAME "fxemoji:trophy", 132x132px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - TEXT "No reward", 65x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

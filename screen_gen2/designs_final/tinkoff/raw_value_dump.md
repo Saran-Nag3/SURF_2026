@@ -1,0 +1,1241 @@
+---
+name: tinkoff-form-design-system-community
+source_file: Tinkoff Form Design System (Community)
+source_page: All pages (3): Cover, Typography & Components, Example
+generated_at: 2026-07-25T09:19:06.238107+00:00
+---
+
+# Tinkoff Form Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Tinkoff Form Design System (Community)
+- Figma page: All pages (3): Cover, Typography & Components, Example
+- Extracted at: 2026-07-25T09:19:06.238107+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- fields/text/subtitle under field: [#141414]
+- radio/fill-background: [#FFFFFF]
+- radio/fill-border: [#FFFFFF]
+- radio/icon: [#AFAFAF]
+- radio/subtitle: [#6C6F71]
+- radio/title: [#141414]
+- radio/fill-checkbox-default: [#ECF1F7]
+- radio/icon-active: [#332C09]
+- radio/fill-checkbox-active: [#FFDD2D]
+- fields/text/subtitle: [#141414]
+- green point/fill-green point-default: [#27AE60]
+- green point/text: [#FFFFFF]
+- fields/text/title: [#141414]
+- fields/fill-background-enabled: [#ECF1F7]
+- fields/icon: [#6C6F71]
+- fields/text/field name: [#6C6F71]
+- fields/text/input text: [#141414]
+- fields/text/placeholder: [#6C6F71]
+- Dim Gray: [#6C6F71]
+- checkboxes/icon: [#AFAFAF]
+- checkboxes/subtitle: [#6C6F71]
+- checkboxes/title: [#141414]
+- checkboxes/icon-active: [#332C09]
+- checkboxes/fill-radio-active: [#FFDD2D]
+- fields/text/error: [#EB5757]
+- fields/fill-background-error: [#FFEBEA]
+- fields/fill-background-typing: [#FFFFFF]
+- fields/fill-border-typing: [#FFFFFF]
+- other/cursor: none
+- fields/fill-background-completed: [#ECF1F7]
+- fields/icon-ok: [#27AE60]
+- Eerie Black: [#141414]
+- text/secondary: [#6C6F71]
+- buttons/primary/fill-background-default: [#FFDD2D]
+- buttons/primary/text: [#141414]
+- buttons/flat/fill-background: [#FFFFFF00]
+- buttons/flat/text-default: [#336FEE]
+- form footer/line: none
+- buttons/flat/text-hover-and-clicked: [#1F50BA]
+- buttons/primary/fill-background-hover: [#FCC722]
+- buttons/primary/fill-background-clicked: [#FAB619]
+- checkboxes/fill-radio-default: [#ECF1F7]
+- radio/icon-on-hover: [#6C6F71]
+- radio/fill-checkbox-on-hover: [#E3EAF2]
+- checkboxes/icon-on-hover: [#332C09]
+- checkboxes/fill-radio-on-hover: [#FCC722]
+- green point/icon: [#6C6F71]
+- text/primary: [#141414]
+- fields/text/field text-desabled: [#AFAFAF]
+- fields/fill-background-hover: [#E3EAF2]
+- fields/fill-border-focus: [#141414]
+- fields/fill-border-error-focus: [#EB5757]
+- fields/fill-background-disabled: [#F6F6F6]
+- fields/fill-background-error-focus: [#FFFFFF]
+- fields/fill-background-focus: [#FFFFFF]
+- Red Salsa: [#EB5757]
+- Silver Chalice: [#AFAFAF]
+- Sunglow: [#FCC722]
+- Alice Blue Dark: [#E3EAF2]
+- Alice Blue: [#ECF1F7]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 12 uses
+- #9747FF: 10 uses
+- #000000: 5 uses
+- #D9D9D9: 5 uses
+
+## Typography Tokens
+- 13px: Roboto Regular (400), 13px / 20px, tracking 0px
+- 11px: Roboto Regular (400), 11px / 16px, tracking 0px
+- 15px: Roboto Regular (400), 15px / 24px, tracking 0px
+- 10px: Roboto Regular (400), 10px / 20px, tracking 0px
+- 24px: Roboto SemiBold (600), 24px / 28px, tracking 0px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 15px: 558 uses
+- Roboto SemiBold, 15px: 226 uses
+- Roboto SemiBold, 42px: 9 uses
+
+## Typography Hierarchy
+- 42px - Roboto SemiBold, 42px (raw)
+- 24px - 24px (Roboto SemiBold)
+- 15px - 15px (Roboto Regular)
+- 15px - Roboto Regular, 15px (raw)
+- 15px - Roboto SemiBold, 15px (raw)
+- 13px - 13px (Roboto Regular)
+- 11px - 11px (Roboto Regular)
+- 10px - 10px (Roboto Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- base field
+- Form Footer
+- button
+- Field Title
+- solution main
+- base
+- solution_item
+- checkbox
+- radio
+- Input
+- Form Footer solution
+- null_solution_item
+- icons
+- Green point_for fields
+- Green point
+- help_FILL1_wght300_GRAD0_opsz24 1
+- done_FILL0_wght300_GRAD0_opsz24 1
+- expand_circle_down_FILL0_wght300_GRAD0_opsz24 1
+- expand_less_FILL0_wght300_GRAD0_opsz24 1
+- expand_more_FILL0_wght300_GRAD0_opsz24
+
+## Component Specs
+- base field: size 536x56px, radius 7px, horizontal layout, padding 16 15 16 15px, gap 0px, sizing W:fixed H:fixed, fill #D9D9D9, text [11px, 15px] | variants: Style: Default/Focus and field/Focus and field with cursore/Focus and field with cursore and input text
+- Form Footer: size 536x81px, horizontal layout, padding 25 0 0 0px, gap 170px, align space_between/min, sizing W:fixed H:fixed, stroke form footer/line 1px, text [15px, 13px] | variants: Platrofm: Mobile/PC; Left: Checkbox/Link
+- button: size 79x56px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [15px] | variants: Type: Flat/Primary; Size: L/M; State: Hover/Normal/Сlicked
+- Field Title: size 536x92px, vertical layout, padding 0 0 20 0px, gap 20px, sizing W:fixed H:fixed, text [15px, 11px, 24px] | variants: Platform: Mobile/PC
+- solution main: size 538x56px, horizontal layout, padding 0 0 0 0px, gap 20px, sizing W:fixed H:fixed, text [13px, Roboto Regular, 15px] | variants: Platform: Mobile/PC; Type: Checkbox/Radio; How many: 1/2/3/4
+- base: size 256x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [13px, Roboto Regular, 15px] | variants: Type: Checkbox/Radio
+- solution_item: size 259x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [13px, Roboto Regular, 15px] | variants: Type: Checkbox/Radio; State: off/on/on_hover; Sublitle: off/on; Right icon: off/on
+- checkbox: size 24x24px | variants: State: hover_on/off/on
+- radio: size 24x24px | variants: State: hover_on/off/on
+- Input: size 536x56px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [13px, 11px, 15px, 24px] | variants: Platform: Mobile/PC; Type: Checkbox/Dropdown/Input/Radio; Number of fields: 1/2/3/4; State: Complete/Disable/Enabled/Error/Error-focus/Focus/Hover/Typing; Title: off/on; Green point: off/on; Subtitle: off/on; Subtitle Under Field: off/on
+- / main field (Typography & Components): size 536x56px, vertical layout, padding 0 0 0 0px, gap 5px, align min/center, sizing W:fixed H:fixed, text [13px, 11px, 15px, 24px]
+- Form Footer solution: size 268x40px, horizontal layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, text [13px]
+-  button: size 79x56px, radius 7px, horizontal layout, padding 16 25 16 25px, gap 10px, sizing W:fixed H:fixed, fill buttons/primary/fill-background-default, text [15px]
+- / main field (Typography & Components): size 536x56px, vertical layout, padding 0 0 0 0px, gap 5px, sizing W:fixed H:fixed, text [13px, Roboto Regular, 15px, 15px, 11px, 24px]
+- null_solution_item: size 259x56px, fill #FFFFFF
+- icons: size 107x33px, horizontal layout, padding 9 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [11px]
+- Green point_for fields: size 59x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [11px]
+- Green point: size 47x24px, radius 100px, horizontal layout, padding 4 7 4 7px, gap 10px, align center/center, sizing W:fixed H:fixed, fill green point/fill-green point-default, text [11px]
+- help_FILL1_wght300_GRAD0_opsz24 1: size 24x24px, fill #FFFFFF
+- done_FILL0_wght300_GRAD0_opsz24 1: size 24x24px, fill #FFFFFF
+- expand_circle_down_FILL0_wght300_GRAD0_opsz24 1: size 24x24px, fill #FFFFFF
+- expand_less_FILL0_wght300_GRAD0_opsz24 1: size 24x24px, fill #FFFFFF
+- expand_more_FILL0_wght300_GRAD0_opsz24: size 24x24px, fill #FFFFFF
+
+## Most-Used Styles
+- 11px: 1018 uses
+- green point/text: 1018 uses
+- fields/icon: 789 uses
+- green point/fill-green point-default: 632 uses
+- 15px: 590 uses
+- 13px: 480 uses
+- fields/text/title: 410 uses
+- Dim Gray: 409 uses
+- fields/text/field name: 356 uses
+- fields/text/subtitle: 294 uses
+- radio/icon: 283 uses
+- radio/title: 283 uses
+- radio/fill-background: 282 uses
+- radio/fill-border: 282 uses
+- checkboxes/icon: 277 uses
+- checkboxes/title: 277 uses
+- radio/fill-checkbox-default: 271 uses
+- checkboxes/fill-radio-default: 266 uses
+- 24px: 251 uses
+- fields/text/subtitle under field: 217 uses
+- 10px: 203 uses
+- fields/text/field text-desabled: 129 uses
+- other/cursor: 126 uses
+- fields/text/input text: 107 uses
+- fields/text/placeholder: 97 uses
+- fields/fill-background-error-focus: 61 uses
+- fields/fill-background-completed: 54 uses
+- fields/fill-background-error: 54 uses
+- fields/fill-border-typing: 54 uses
+- fields/fill-background-enabled: 53 uses
+- fields/text/error: 53 uses
+- fields/fill-border-error-focus: 50 uses
+- fields/fill-background-disabled: 49 uses
+- fields/fill-background-focus: 49 uses
+- fields/fill-background-hover: 49 uses
+- fields/fill-border-focus: 49 uses
+- fields/fill-background-typing: 42 uses
+- Eerie Black: 37 uses
+- fields/icon-ok: 29 uses
+- Silver Chalice: 20 uses
+- checkboxes/fill-radio-active: 16 uses
+- checkboxes/icon-active: 16 uses
+- radio/subtitle: 15 uses
+- buttons/primary/text: 12 uses
+- radio/fill-checkbox-active: 10 uses
+- radio/icon-active: 10 uses
+- buttons/flat/fill-background: 9 uses
+- buttons/primary/fill-background-default: 8 uses
+- buttons/flat/text-default: 7 uses
+- checkboxes/subtitle: 7 uses
+- checkboxes/fill-radio-on-hover: 6 uses
+- checkboxes/icon-on-hover: 6 uses
+- radio/fill-checkbox-on-hover: 6 uses
+- radio/icon-on-hover: 6 uses
+- text/secondary: 6 uses
+- buttons/flat/text-hover-and-clicked: 5 uses
+- buttons/primary/fill-background-clicked: 5 uses
+- buttons/primary/fill-background-hover: 5 uses
+- form footer/line: 3 uses
+- green point/icon: 3 uses
+- Alice Blue: 1 use
+- Alice Blue Dark: 1 use
+- Sunglow: 1 use
+- text/primary: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1160x696px, constraints left/top, fill #F1EBD6
+  - ELLIPSE "Ellipse 3", 1080x1080px, constraints left/top, fill Alice Blue, opacity 17%
+  - ELLIPSE "Ellipse 4", 659x659px, constraints left/top, fill Alice Blue Dark, opacity 20%
+  - ELLIPSE "Ellipse 6", 617x618px, constraints left/top, fill Sunglow
+  - INSTANCE "Input", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 536x104px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 176x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 284x28px, constraints left/top, fill fields/text/title, text [24px], [heading]
+            - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+        - INSTANCE "base field", 536x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+          - FRAME "Text", 482x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Field Name", 114x20px, constraints left/top, fill fields/text/field name, text [10px]
+            - TEXT "Input Text", 482x24px, constraints left/top, fill fields/text/input text, text [15px]
+          - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "icon_2", 24x24px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Input", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 536x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "base field", 536x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-typing, stroke fields/fill-border-typing 1px
+          - FRAME "Frame 1", 447x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Field Name", 41x20px, constraints left/top, fill fields/text/field name, text [10px]
+            - FRAME "Placeholder with cursore with input text", 447x24px, horizontal pad 0 0 0 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - FRAME "icons_right", 59x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE "Input", 536x81px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 536x81px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-error
+          - TEXT "Field Name", 459x24px, constraints left/top, fill fields/text/field name, text [15px]
+          - FRAME "icons_right", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Subtitle Under Field", 536x20px, constraints left/top, fill fields/text/error, text [13px]
+  - INSTANCE "Input", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x95px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 132x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 177x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+            - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+        - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+          - FRAME "Text", 236x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Field Name", 114x20px, constraints left/top, fill fields/text/field name, text [10px]
+            - TEXT "Input Text", 236x24px, constraints left/top, fill fields/text/input text, text [15px]
+          - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "icon_2", 24x24px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Input", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-typing, stroke fields/fill-border-typing 1px
+          - FRAME "Frame 1", 201x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Field Name", 41x20px, constraints left/top, fill fields/text/field name, text [10px]
+            - FRAME "Placeholder with cursore with input text", 201x24px, horizontal pad 0 0 0 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - FRAME "icons_right", 59x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE "Input", 290x81px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x81px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-error
+          - TEXT "Field Name", 213x24px, constraints left/top, fill fields/text/field name, text [15px]
+          - FRAME "icons_right", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Subtitle Under Field", 290x20px, constraints left/top, fill fields/text/error, text [13px]
+  - INSTANCE "Input", 290x150px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x150px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title + Field", 290x150px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 151x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+        - INSTANCE "solution main", 290x111px, vertical pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution_item", 290x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7/7/0/0px, fill radio/fill-background, stroke radio/fill-border 1px
+            - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution_item", 290x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 0/0/7/7px, fill radio/fill-background, stroke radio/fill-border 1px
+            - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+  - INSTANCE "Input", 536x148px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 536x148px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 536x148px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 536x92px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 176x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 300x28px, constraints left/top, fill fields/text/title, text [24px], [heading]
+            - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+          - TEXT "Subtitle", 536x24px, constraints left/top, fill fields/text/subtitle, text [15px]
+        - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+          - TEXT "Field Name", 506x24px, constraints left/top, fill fields/text/field name, text [15px]
+
+Screen: Typography & Components / 🟢 Universal Field
+- FRAME "🟢 Universal Field", 11338x11898px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 2.21px offset 0 2.77 #68686812, drop_shadow 5.32px offset 0 6.65 #6868680D, drop_shadow 10.02px offset 0 12.52 #6868680B, drop_shadow 17.87px offset 0 22.34 #68686809, drop_shadow 33.42px offset 0 41.78 #68686807, drop_shadow 80px offset 0 100 #68686805]
+  - COMPONENT_SET "Input", 11168x11648px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Platform=PC, Type=Input, Number of fields=1, State=Enabled, ", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 506x24px, constraints left/top, fill fields/text/field name, text [15px]
+    - COMPONENT "Platform=Mobile, Type=Input, Number of fields=1, State=Enabl", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 260x24px, constraints left/top, fill fields/text/field name, text [15px]
+    - COMPONENT "Platform=PC, Type=Dropdown, Number of fields=1, State=Enable", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 482x24px, constraints left/top, fill fields/text/field name, text [15px]
+            - FRAME "icons_right", 24x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Platform=Mobile, Type=Dropdown, Number of fields=1, State=En", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 236x24px, constraints left/top, fill fields/text/field name, text [15px]
+            - FRAME "icons_right", 24x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Platform=PC, Type=Dropdown, Number of fields=1, State=Comple", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+            - FRAME "Text", 482x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Platform=Mobile, Type=Dropdown, Number of fields=1, State=Co", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+            - FRAME "Text", 236x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Platform=PC, Type=Input, Number of fields=1, State=Enabled, ", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x104px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 119x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 506x24px, constraints left/top, fill fields/text/field name, text [15px]
+    - COMPONENT "Platform=Mobile, Type=Input, Number of fields=1, State=Enabl", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x95px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 260x24px, constraints left/top, fill fields/text/field name, text [15px]
+    - COMPONENT "Platform=PC, Type=Dropdown, Number of fields=1, State=Enable", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x104px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 119x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 482x24px, constraints left/top, fill fields/text/field name, text [15px]
+            - FRAME "icons_right", 24x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Platform=Mobile, Type=Dropdown, Number of fields=1, State=En", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x95px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 236x24px, constraints left/top, fill fields/text/field name, text [15px]
+            - FRAME "icons_right", 24x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Platform=PC, Type=Dropdown, Number of fields=1, State=Comple", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x104px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 119x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+            - FRAME "Text", 482x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Platform=Mobile, Type=Dropdown, Number of fields=1, State=Co", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x95px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+            - FRAME "Text", 236x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Platform=PC, Type=Input, Number of fields=1, State=Enabled, ", 536x129px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x129px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 119x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 506x24px, constraints left/top, fill fields/text/field name, text [15px]
+        - TEXT "Subtitle Under Field", 536x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=Mobile, Type=Input, Number of fields=1, State=Enabl", 290x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x120px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 260x24px, constraints left/top, fill fields/text/field name, text [15px]
+        - TEXT "Subtitle Under Field", 290x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=PC, Type=Dropdown, Number of fields=1, State=Enable", 536x129px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x129px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 119x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 482x24px, constraints left/top, fill fields/text/field name, text [15px]
+            - FRAME "icons_right", 24x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subtitle Under Field", 536x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=Mobile, Type=Dropdown, Number of fields=1, State=En", 290x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x120px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 236x24px, constraints left/top, fill fields/text/field name, text [15px]
+            - FRAME "icons_right", 24x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subtitle Under Field", 290x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=PC, Type=Dropdown, Number of fields=1, State=Comple", 536x129px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x129px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 119x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+            - FRAME "Text", 482x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subtitle Under Field", 536x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=Mobile, Type=Dropdown, Number of fields=1, State=Co", 290x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x120px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+            - FRAME "Text", 236x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subtitle Under Field", 290x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=PC, Type=Input, Number of fields=1, State=Enabled, ", 536x125px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x125px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x100px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x44px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Subtitle", 536x24px, constraints left/top, fill fields/text/subtitle, text [15px]
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 506x24px, constraints left/top, fill fields/text/field name, text [15px]
+        - TEXT "Subtitle Under Field", 536x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=Mobile, Type=Input, Number of fields=1, State=Enabl", 290x116px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x116px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x91px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 290x35px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Subtitle", 290x20px, constraints left/top, fill fields/text/subtitle, text [13px]
+          - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 260x24px, constraints left/top, fill fields/text/field name, text [15px]
+        - TEXT "Subtitle Under Field", 290x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=PC, Type=Dropdown, Number of fields=1, State=Enable", 536x125px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x125px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x100px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x44px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Subtitle", 536x24px, constraints left/top, fill fields/text/subtitle, text [15px]
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 482x24px, constraints left/top, fill fields/text/field name, text [15px]
+            - FRAME "icons_right", 24x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subtitle Under Field", 536x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=Mobile, Type=Dropdown, Number of fields=1, State=En", 290x116px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x116px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x91px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 290x35px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Subtitle", 290x20px, constraints left/top, fill fields/text/subtitle, text [13px]
+          - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 236x24px, constraints left/top, fill fields/text/field name, text [15px]
+            - FRAME "icons_right", 24x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subtitle Under Field", 290x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=PC, Type=Dropdown, Number of fields=1, State=Comple", 536x125px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x125px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x100px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x44px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Subtitle", 536x24px, constraints left/top, fill fields/text/subtitle, text [15px]
+          - INSTANCE "base field", 536x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+            - FRAME "Text", 482x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subtitle Under Field", 536x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=Mobile, Type=Dropdown, Number of fields=1, State=Co", 290x116px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 290x116px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 290x91px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 290x35px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Subtitle", 290x20px, constraints left/top, fill fields/text/subtitle, text [13px]
+          - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+            - FRAME "Text", 236x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subtitle Under Field", 290x20px, constraints left/top, fill fields/text/subtitle under field, text [13px]
+    - COMPONENT "Platform=PC, Type=Input, Number of fields=1, State=Enabled, ", 536x100px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x100px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x100px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x44px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Subtitle", 536x24px, constraints left/top, fill fields/text/subtitle, text [15px]
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 506x24px, constraints left/top, fill fields/text/field name, text [15px]
+    - ... +551 more children
+  - TEXT "Radiobutton / PC", 184x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Input, Textarea / PC", 213x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Checkbox / PC", 159x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Dropdown / PC", 162x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Input, Textarea / Mobile", 255x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Dropdown / Mobile", 204x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Radiobutton /Mobile", 220x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Checkbox /Mobile", 195x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Input, Dropdown, Radio, Checkbox", 643x60px, constraints left/top, fill Eerie Black, text [Roboto SemiBold, 42px], [heading]
+  - TEXT "Placeholder", constraints left/top, fill Dim Gray, text [15px]
+
+Screen: Typography & Components / Typography
+- FRAME "Typography", 565x478px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 2.21px offset 0 2.77 #68686812, drop_shadow 5.32px offset 0 6.65 #6868680D, drop_shadow 10.02px offset 0 12.52 #6868680B, drop_shadow 17.87px offset 0 22.34 #68686809, drop_shadow 33.42px offset 0 41.78 #68686807, drop_shadow 80px offset 0 100 #68686805]
+  - TEXT "24px / 28 line height", 232x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Typography", 222x60px, constraints left/top, fill Eerie Black, text [Roboto SemiBold, 42px], [heading]
+  - TEXT "15px / 24 line height", 144x24px, constraints left/top, fill Eerie Black, text [15px]
+  - TEXT "13px / 20 line height", 124x20px, constraints left/top, fill Eerie Black, text [13px]
+  - TEXT "11px / 16 line height", 105x16px, constraints left/top, fill Eerie Black, text [11px]
+  - TEXT "10px / 20 line height", 96x20px, constraints left/top, fill Eerie Black, text [10px]
+
+Screen: Typography & Components / Colors
+- FRAME "Colors", 970x1729px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 2.21px offset 0 2.77 #68686812, drop_shadow 5.32px offset 0 6.65 #6868680D, drop_shadow 10.02px offset 0 12.52 #6868680B, drop_shadow 17.87px offset 0 22.34 #68686809, drop_shadow 33.42px offset 0 41.78 #68686807, drop_shadow 80px offset 0 100 #68686805]
+  - TEXT "Colors", 123x60px, constraints left/top, fill Eerie Black, text [Roboto SemiBold, 42px], [heading]
+  - GROUP "Other", 60x108px, constraints left/top, radius 10px
+    - TEXT "Other", 60x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+    - RECTANGLE "Rectangle 51", 50x50px, constraints left/top, radius 10px, fill other/cursor, effect [drop_shadow 16px offset 0 8 #0000003D]
+  - GROUP "Form Footer", 132x108px, constraints left/top, radius 10px
+    - TEXT "Form Footer", 132x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+    - RECTANGLE "Rectangle 52", 50x50px, constraints left/top, radius 10px, fill form footer/line, effect [drop_shadow 16px offset 0 8 #0000003D]
+  - GROUP "Fields", 800x258px, constraints left/top, radius 10px
+    - TEXT "Fields", 65x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+    - GROUP "colors", 800x200px, constraints left/top, radius 10px [decorative, ~21 shapes]
+  - GROUP "Text", 125x108px, constraints left/top, radius 10px
+    - TEXT "Text", 47x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+    - RECTANGLE "Rectangle 25", 50x50px, constraints left/top, radius 10px, fill text/primary, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 26", 50x50px, constraints left/top, radius 10px, fill text/secondary, effect [drop_shadow 16px offset 0 8 #0000003D]
+  - GROUP "Buttons", 500x108px, constraints left/top, radius 10px
+    - TEXT "Buttons", 84x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+    - RECTANGLE "Rectangle 18", 50x50px, constraints left/top, radius 10px, fill buttons/primary/fill-background-default, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 22", 50x50px, constraints left/top, radius 10px, fill buttons/flat/fill-background, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 19", 50x50px, constraints left/top, radius 10px, fill buttons/primary/fill-background-hover, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 20", 50x50px, constraints left/top, radius 10px, fill buttons/primary/fill-background-clicked, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 21", 50x50px, constraints left/top, radius 10px, fill buttons/primary/text, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 23", 50x50px, constraints left/top, radius 10px, fill buttons/flat/text-hover-and-clicked, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 24", 50x50px, constraints left/top, radius 10px, fill buttons/flat/text-default, effect [drop_shadow 16px offset 0 8 #0000003D]
+  - GROUP "Green point", 200x108px, constraints left/top, radius 10px
+    - TEXT "Green point", 125x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+    - RECTANGLE "Rectangle 16", 50x50px, constraints left/top, radius 10px, fill green point/fill-green point-default, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 42", 50x50px, constraints left/top, radius 10px, fill green point/text, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 17", 50x50px, constraints left/top, radius 10px, fill green point/icon, effect [drop_shadow 16px offset 0 8 #0000003D]
+  - GROUP "Checkboxes", 575x108px, constraints left/top, radius 10px
+    - TEXT "Checkboxes", 132x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+    - RECTANGLE "Rectangle 5", 50x50px, constraints left/top, radius 10px, fill checkboxes/fill-radio-active, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 53", 50x50px, constraints left/top, radius 10px, fill checkboxes/title, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 54", 50x50px, constraints left/top, radius 10px, fill checkboxes/subtitle, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 57", 50x50px, constraints left/top, radius 10px, fill radio/icon, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 6", 50x50px, constraints left/top, radius 10px, fill checkboxes/fill-radio-on-hover, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 7", 50x50px, constraints left/top, radius 10px, fill checkboxes/fill-radio-default, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 8", 50x50px, constraints left/top, radius 10px, fill checkboxes/icon-active, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 14", 50x50px, constraints left/top, radius 10px, fill checkboxes/icon-on-hover, effect [drop_shadow 16px offset 0 8 #0000003D]
+  - GROUP "Radio", 725x108px, constraints left/top, radius 10px
+    - TEXT "Radio", 62x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+    - RECTANGLE "Rectangle 9", 50x50px, constraints left/top, radius 10px, fill radio/fill-checkbox-active, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 55", 50x50px, constraints left/top, radius 10px, fill radio/title, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 58", 50x50px, constraints left/top, radius 10px, fill checkboxes/icon, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 56", 50x50px, constraints left/top, radius 10px, fill radio/subtitle, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 11", 50x50px, constraints left/top, radius 10px, fill radio/fill-checkbox-default, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 27", 50x50px, constraints left/top, radius 10px, fill radio/fill-border, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 28", 50x50px, constraints left/top, radius 10px, fill radio/fill-background, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 15", 50x50px, constraints left/top, radius 10px, fill radio/fill-checkbox-on-hover, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 12", 50x50px, constraints left/top, radius 10px, fill radio/icon-active, effect [drop_shadow 16px offset 0 8 #0000003D]
+    - RECTANGLE "Rectangle 13", 50x50px, constraints left/top, radius 10px, fill radio/icon-on-hover, effect [drop_shadow 16px offset 0 8 #0000003D]
+
+Screen: Typography & Components / Icons
+- FRAME "Icons", 655x478px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 2.21px offset 0 2.77 #68686812, drop_shadow 5.32px offset 0 6.65 #6868680D, drop_shadow 10.02px offset 0 12.52 #6868680B, drop_shadow 17.87px offset 0 22.34 #68686809, drop_shadow 33.42px offset 0 41.78 #68686807, drop_shadow 80px offset 0 100 #68686805]
+  - TEXT "Icons", 103x60px, constraints left/top, fill Eerie Black, text [Roboto SemiBold, 42px], [heading]
+  - COMPONENT "expand_more_FILL0_wght300_GRAD0_opsz24", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 11.3x6.73px, constraints scale/scale, fill #000000
+  - COMPONENT "expand_less_FILL0_wght300_GRAD0_opsz24 1", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 11.3x6.73px, constraints scale/scale, fill #000000
+  - COMPONENT "expand_circle_down_FILL0_wght300_GRAD0_opsz24 1", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 19x19px, constraints scale/scale, fill #000000
+  - COMPONENT "done_FILL0_wght300_GRAD0_opsz24 1", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill #000000
+  - COMPONENT_SET "radio", 126x64px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=on", 24x24px, constraints left/top
+      - ELLIPSE "Ellipse 1", 24x24px, constraints left/top, fill radio/fill-checkbox-active
+      - ELLIPSE "Ellipse 2", 12x12px, constraints left/top, fill radio/icon-active
+    - COMPONENT "State=hover_on", 24x24px, constraints left/top
+      - ELLIPSE "Ellipse 1", 24x24px, constraints left/top, fill radio/fill-checkbox-on-hover
+      - ELLIPSE "Ellipse 2", 12x12px, constraints left/top, fill radio/icon-on-hover
+    - COMPONENT "State=off", 24x24px, constraints left/top
+      - ELLIPSE "Ellipse 1", 24x24px, constraints left/top, fill radio/fill-checkbox-default
+  - COMPONENT_SET "checkbox", 126x64px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=off", 24x24px, constraints left/top
+      - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-default
+    - COMPONENT "State=on", 24x24px, constraints left/top
+      - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+      - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+    - COMPONENT "State=hover_on", 24x24px, constraints left/top
+      - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-on-hover
+      - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-on-hover
+  - COMPONENT "help_FILL1_wght300_GRAD0_opsz24 1", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill #000000
+  - COMPONENT "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+    - TEXT "+100%", 33x16px, constraints left/top, fill green point/text, text [11px]
+  - COMPONENT "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 4", 6x24px, constraints left/top, fill #D9D9D9
+    - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+      - TEXT "+100%", 33x16px, constraints left/top, fill green point/text, text [11px]
+    - RECTANGLE "Rectangle 4", 6x24px, constraints left/top, fill #D9D9D9
+  - COMPONENT "icons", 107x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 6x24px, constraints left/top, fill #D9D9D9
+      - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+        - TEXT "+100%", 33x16px, constraints left/top, fill green point/text, text [11px]
+      - RECTANGLE "Rectangle 4", 6x24px, constraints left/top, fill #D9D9D9
+    - INSTANCE "icon_1", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.3x6.73px, constraints scale/scale, fill green point/icon
+    - INSTANCE "icon_2", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.3x6.73px, constraints scale/scale, fill green point/icon
+  - TEXT "Green point", 125x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+
+Screen: Typography & Components / Elements for checkboxes and radio buttons
+- FRAME "Elements for checkboxes and radio buttons", 2742x1958px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 2.21px offset 0 2.77 #68686812, drop_shadow 5.32px offset 0 6.65 #6868680D, drop_shadow 10.02px offset 0 12.52 #6868680B, drop_shadow 17.87px offset 0 22.34 #68686809, drop_shadow 33.42px offset 0 41.78 #68686807, drop_shadow 80px offset 0 100 #68686805]
+  - COMPONENT_SET "solution_item", 1266x618px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Type=Checkbox, State=on, Sublitle=off, Right icon=off", 259x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+            - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+          - FRAME "Description_item", 223x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 223x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+    - COMPONENT "Type=Checkbox, State=off, Sublitle=off, Right icon=off", 259x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-default
+          - FRAME "Description_item", 223x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 223x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+    - COMPONENT "Type=Checkbox, State=on_hover, Sublitle=off, Right icon=off", 259x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-on-hover
+            - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-on-hover
+          - FRAME "Description_item", 223x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 223x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+    - COMPONENT "Type=Checkbox, State=on, Sublitle=off, Right icon=on", 259x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+            - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+          - FRAME "Description_item", 187x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 187x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill checkboxes/icon
+    - COMPONENT "Type=Checkbox, State=off, Sublitle=off, Right icon=on", 259x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-default
+          - FRAME "Description_item", 187x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 187x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill checkboxes/icon
+    - COMPONENT "Type=Checkbox, State=on_hover, Sublitle=off, Right icon=on", 259x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-on-hover
+            - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-on-hover
+          - FRAME "Description_item", 187x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 187x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill checkboxes/icon
+    - COMPONENT "Type=Checkbox, State=on, Sublitle=on, Right icon=off", 259x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+            - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+          - FRAME "Description_item", 223x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 223x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 223x20px, constraints left/top, fill checkboxes/subtitle, text [13px]
+    - COMPONENT "Type=Checkbox, State=off, Sublitle=on, Right icon=off", 259x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-default
+          - FRAME "Description_item", 223x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 223x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 223x20px, constraints left/top, fill checkboxes/subtitle, text [13px]
+    - COMPONENT "Type=Checkbox, State=on_hover, Sublitle=on, Right icon=off", 259x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-on-hover
+            - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-on-hover
+          - FRAME "Description_item", 223x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 223x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 223x20px, constraints left/top, fill checkboxes/subtitle, text [13px]
+    - COMPONENT "Type=Checkbox, State=on, Sublitle=on, Right icon=on", 259x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+            - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+          - FRAME "Description_item", 187x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 187x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 187x20px, constraints left/top, fill checkboxes/subtitle, text [13px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill checkboxes/icon
+    - COMPONENT "Type=Checkbox, State=off, Sublitle=on, Right icon=on", 259x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-default
+          - FRAME "Description_item", 187x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 187x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 187x20px, constraints left/top, fill checkboxes/subtitle, text [13px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill checkboxes/icon
+    - COMPONENT "Type=Checkbox, State=on_hover, Sublitle=on, Right icon=on", 259x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "base", 259x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 259x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints left/top
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-on-hover
+            - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-on-hover
+          - FRAME "Description_item", 187x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 187x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 187x20px, constraints left/top, fill checkboxes/subtitle, text [13px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill checkboxes/icon
+    - COMPONENT "Type=Radio, State=on, Sublitle=off, Right icon=off", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 191x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 191x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+    - COMPONENT "Type=Radio, State=on, Sublitle=off, Right icon=on", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 155x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 155x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill radio/icon
+    - COMPONENT "Type=Radio, State=off, Sublitle=off, Right icon=off", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 191x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 191x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+    - COMPONENT "Type=Radio, State=off, Sublitle=off, Right icon=on", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 155x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 155x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill radio/icon
+    - COMPONENT "Type=Radio, State=on_hover, Sublitle=off, Right icon=off", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 191x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 191x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+    - COMPONENT "Type=Radio, State=on_hover, Sublitle=off, Right icon=on", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 155x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 155x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill radio/icon
+    - COMPONENT "Type=Radio, State=on, Sublitle=on, Right icon=off", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 191x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 191x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 191x20px, constraints left/top, fill radio/subtitle, text [13px]
+    - COMPONENT "Type=Radio, State=on, Sublitle=on, Right icon=on", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 155x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 155x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 155x20px, constraints left/top, fill radio/subtitle, text [13px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill radio/icon
+    - COMPONENT "Type=Radio, State=off, Sublitle=on, Right icon=off", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 191x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 191x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 191x20px, constraints left/top, fill radio/subtitle, text [13px]
+    - COMPONENT "Type=Radio, State=off, Sublitle=on, Right icon=on", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 155x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 155x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 155x20px, constraints left/top, fill radio/subtitle, text [13px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill radio/icon
+    - COMPONENT "Type=Radio, State=on_hover, Sublitle=on, Right icon=off", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 191x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 191x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 191x20px, constraints left/top, fill radio/subtitle, text [13px]
+    - COMPONENT "Type=Radio, State=on_hover, Sublitle=on, Right icon=on", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+      - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "solution_item", 24x40px, constraints left/top
+            - INSTANCE "radio", 24x24px, constraints center/center
+          - FRAME "Description_item", 155x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title_item", 155x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+            - TEXT "Subtitle_item", 155x20px, constraints left/top, fill radio/subtitle, text [13px]
+          - INSTANCE "right_icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.2x18.2px, constraints scale/scale, fill radio/icon
+  - COMPONENT_SET "base", 296x132px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Type=Checkbox", 256x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Description + checkbox", 256x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "solution", 24x24px, constraints left/top
+          - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+          - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+        - FRAME "Description_item", 220x20px, vertical pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title_item", 220x20px, constraints left/top, fill checkboxes/title, text [Roboto Regular, 15px]
+    - COMPONENT "Type=Radio", 256x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Description + checkbox", 256x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "solution_item", 24x40px, constraints left/top
+          - INSTANCE "solution", 24x24px, constraints center/center
+            - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+            - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+        - FRAME "Description_item", 220x20px, vertical pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title_item", 220x20px, constraints left/top, fill radio/title, text [Roboto Regular, 15px]
+  - COMPONENT_SET "solution main", 1206x1511px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Platform=PC, Type=Radio, How many=2", 538x56px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "solution_item", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+        - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "solution_item", 24x40px, constraints left/top
+            - FRAME "Description_item", 191x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "solution_item", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+        - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "solution_item", 24x40px, constraints left/top
+            - FRAME "Description_item", 191x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - COMPONENT "Platform=Mobile, Type=Radio, How many=2", 290x111px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "solution_item", 290x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7/7/0/0px, fill radio/fill-background, stroke radio/fill-border 1px
+        - INSTANCE "base", 258x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Description + checkbox", 258x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "solution_item", 24x40px, constraints left/top
+            - FRAME "Description_item", 222x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "solution_item", 290x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 0/0/7/7px, fill radio/fill-background, stroke radio/fill-border 1px
+        - INSTANCE "base", 258x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Description + checkbox", 258x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "solution_item", 24x40px, constraints left/top
+            - FRAME "Description_item", 222x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - COMPONENT "Platform=PC, Type=Checkbox, How many=2", 538x24px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "solution_item", 259x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Description + checkbox", 259x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "solution", 24x24px, constraints left/top
+            - FRAME "Description_item", 223x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "solution_item", 259x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Description + checkbox", 259x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "solution", 24x24px, constraints left/top
+            - FRAME "Description_item", 223x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - COMPONENT "Platform=Mobile, Type=Checkbox, How many=2", 290x63px, vertical pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "solution_item", 290x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "base", 290x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Description + checkbox", 290x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "solution", 24x24px, constraints left/top
+            - FRAME "Description_item", 254x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "solution_item", 290x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "base", 290x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Description + checkbox", 290x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "solution", 24x24px, constraints left/top
+            - FRAME "Description_item", 254x20px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - COMPONENT "Platform=PC, Type=Radio, How many=4", 538x132px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "row_1", 538x56px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "solution_item", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+          - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "solution_item", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+          - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "row_2", 538x56px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "solution_item", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+          - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "solution_item", 259x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+          - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Description + checkbox", 227x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+    - COMPONENT "Platform=Mobile, Type=Radio, How many=4", 290x221px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "row_1", 290x111px, vertical pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "solution_item", 290x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7/7/0/0px, fill radio/fill-background, stroke radio/fill-border 1px
+          - INSTANCE "base", 258x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Description + checkbox", 258x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "solution_item", 290x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill radio/fill-background, stroke radio/fill-border 1px
+          - INSTANCE "base", 258x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Description + checkbox", 258x40px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "row_2", 290x111px, vertical pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "solution_item", 290x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill radio/fill-background, stroke radio/fill-border 1px
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Typography & Components / Title Elements
+- FRAME "Title Elements", 1126x493px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 2.21px offset 0 2.77 #68686812, drop_shadow 5.32px offset 0 6.65 #6868680D, drop_shadow 10.02px offset 0 12.52 #6868680B, drop_shadow 17.87px offset 0 22.34 #68686809, drop_shadow 33.42px offset 0 41.78 #68686807, drop_shadow 80px offset 0 100 #68686805]
+  - COMPONENT_SET "Field Title", 956x243px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Platform=PC", 536x92px, vertical pad 0 0 20 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Title", 176x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Title", 119x28px, constraints left/top, fill fields/text/title, text [24px], [heading]
+        - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+          - TEXT "+100%", 33x16px, constraints left/top, fill green point/text, text [11px]
+      - TEXT "Subtitle", 536x24px, constraints left/top, fill fields/text/subtitle, text [15px]
+    - COMPONENT "Platform=Mobile", 320x71px, vertical pad 0 0 15 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Title", 132x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Title", 75x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+        - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+          - TEXT "+100%", 33x16px, constraints left/top, fill green point/text, text [11px]
+      - TEXT "Subtitle", 320x20px, constraints left/top, fill fields/text/subtitle, text [13px]
+  - TEXT "Title Elements", 271x60px, constraints left/top, fill Eerie Black, text [Roboto SemiBold, 42px], [heading]
+  - TEXT "PC", 32x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Mobile", 74x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+
+Screen: Typography & Components / Buttons
+- FRAME "Buttons", 587x793px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 2.21px offset 0 2.77 #68686812, drop_shadow 5.32px offset 0 6.65 #6868680D, drop_shadow 10.02px offset 0 12.52 #6868680B, drop_shadow 17.87px offset 0 22.34 #68686809, drop_shadow 33.42px offset 0 41.78 #68686807, drop_shadow 80px offset 0 100 #68686805]
+  - TEXT "Buttons", 147x60px, constraints left/top, fill Eerie Black, text [Roboto SemiBold, 42px], [heading]
+  - COMPONENT "button", 79x56px, horizontal pad 16 25 16 25px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-default
+    - TEXT "button_text", 29x24px, constraints left/top, fill buttons/primary/text, text [15px]
+  - COMPONENT_SET "button", 417x422px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Type=Primary, Size=L, State=Сlicked", 79x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "button", 79x56px, horizontal pad 16 25 16 25px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-clicked, stroke buttons/primary/fill-background-clicked 1px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/primary/text, text [15px]
+    - COMPONENT "Type=Flat, Size=L, State=Сlicked", 79x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill buttons/flat/fill-background
+      - INSTANCE "button", 79x56px, horizontal pad 16 25 16 25px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/flat/text-hover-and-clicked, text [15px]
+    - COMPONENT "Type=Primary, Size=M, State=Сlicked", 75x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "button", 75x40px, horizontal pad 9 23 7 23px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-clicked, stroke buttons/primary/fill-background-clicked 1px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/primary/text, text [15px]
+    - COMPONENT "Type=Flat, Size=M, State=Сlicked", 75x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill buttons/flat/fill-background
+      - INSTANCE "button", 75x40px, horizontal pad 9 23 7 23px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/flat/text-hover-and-clicked, text [15px]
+    - COMPONENT "Type=Primary, Size=L, State=Hover", 79x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "button", 79x56px, horizontal pad 16 25 16 25px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-hover, stroke buttons/primary/fill-background-hover 1px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/primary/text, text [15px]
+    - COMPONENT "Type=Flat, Size=L, State=Hover", 79x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill buttons/flat/fill-background
+      - INSTANCE "button", 79x56px, horizontal pad 16 25 16 25px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/flat/text-hover-and-clicked, text [15px]
+    - COMPONENT "Type=Primary, Size=M, State=Hover", 75x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "button", 75x40px, horizontal pad 9 23 7 23px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-hover, stroke buttons/primary/fill-background-hover 1px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/primary/text, text [15px]
+    - COMPONENT "Type=Flat, Size=M, State=Hover", 75x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill buttons/flat/fill-background
+      - INSTANCE "button", 75x40px, horizontal pad 9 23 7 23px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/flat/text-hover-and-clicked, text [15px]
+    - COMPONENT "Type=Primary, Size=L, State=Normal", 79x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "button", 79x56px, horizontal pad 16 25 16 25px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-default
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/primary/text, text [15px]
+    - COMPONENT "Type=Flat, Size=L, State=Normal", 79x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill buttons/flat/fill-background
+      - INSTANCE "button", 79x56px, horizontal pad 16 25 16 25px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/flat/text-default, text [15px]
+    - COMPONENT "Type=Primary, Size=M, State=Normal", 75x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "button", 75x40px, horizontal pad 9 23 7 23px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-default
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/primary/text, text [15px]
+    - COMPONENT "Type=Flat, Size=M, State=Normal", 75x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill buttons/flat/fill-background
+      - INSTANCE "button", 75x40px, horizontal pad 9 23 7 23px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px
+        - TEXT "button_text", 29x24px, constraints left/top, fill buttons/flat/text-default, text [15px]
+
+Screen: Typography & Components / 🟢Form Footer Elements with Button
+- FRAME "🟢Form Footer Elements with Button", 1174x705px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 2.21px offset 0 2.77 #68686812, drop_shadow 5.32px offset 0 6.65 #6868680D, drop_shadow 10.02px offset 0 12.52 #6868680B, drop_shadow 17.87px offset 0 22.34 #68686809, drop_shadow 33.42px offset 0 41.78 #68686807, drop_shadow 80px offset 0 100 #68686805]
+  - COMPONENT_SET "Form Footer", 1004x350px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Platrofm=PC, Left=Checkbox", 536x81px, horizontal pad 25 0 0 0px gap 170px align space_between/min sizing W:fixed H:fixed, constraints left/top, stroke form footer/line 1px
+      - INSTANCE "Form Footer solution", 271x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "solution", 24x24px, constraints left/top
+          - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+          - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+        - TEXT "Я принимаю условия передачи информации и страхования", 235x40px, constraints left/top, fill text/secondary, text [13px]
+      - INSTANCE "button_right", 95x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "button", 95x56px, horizontal pad 16 25 16 25px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-default
+          - TEXT "button_text", 45x24px, constraints left/top, fill buttons/primary/text, text [15px]
+    - COMPONENT "Platrofm=PC, Left=Link", 536x81px, horizontal pad 25 0 0 0px gap 170px align space_between/min sizing W:fixed H:fixed, constraints left/top, stroke form footer/line 1px
+      - INSTANCE "button_left", 44x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill buttons/flat/fill-background
+        - INSTANCE "button", 44x56px, horizontal pad 16 0 16 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px
+          - TEXT "button_text", 44x24px, constraints left/top, fill buttons/flat/text-default, text [15px]
+      - INSTANCE "button_right", 95x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "button", 95x56px, horizontal pad 16 25 16 25px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-default
+          - TEXT "button_text", 45x24px, constraints left/top, fill buttons/primary/text, text [15px]
+    - COMPONENT "Platrofm=Mobile, Left=Checkbox", 288x60px, horizontal pad 0 0 0 0px gap 20px align space_between/min sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Form Footer solution", 177x60px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "solution", 24x24px, constraints left/top
+          - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+          - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+        - TEXT "Я принимаю условия передачи информации и страхования", 141x60px, constraints left/top, fill text/secondary, text [13px]
+      - INSTANCE "button_right", 91x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "button", 91x40px, horizontal pad 9 23 7 23px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-default
+          - TEXT "button_text", 45x24px, constraints left/top, fill buttons/primary/text, text [15px]
+    - COMPONENT "Platrofm=Mobile, Left=Link", 288x40px, horizontal pad 0 0 0 0px gap 20px align space_between/min sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "button_left", 44x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill buttons/flat/fill-background
+        - INSTANCE "button", 44x40px, horizontal pad 9 0 7 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px
+          - TEXT "button_text", 44x24px, constraints left/top, fill buttons/flat/text-default, text [15px]
+      - INSTANCE "button_right", 91x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "button", 91x40px, horizontal pad 9 23 7 23px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill buttons/primary/fill-background-default
+          - TEXT "button_text", 45x24px, constraints left/top, fill buttons/primary/text, text [15px]
+  - COMPONENT "Form Footer solution", 268x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "solution", 24x24px, constraints left/top
+      - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 2px, fill checkboxes/fill-radio-active
+      - VECTOR "Vector", 15.55x11.3px, constraints scale/scale, fill checkboxes/icon-active
+    - TEXT "Я принимаю условия передачи информации и страхования", 232x40px, constraints left/top, fill text/secondary, text [13px]
+  - TEXT "Form Footer Elements with Button", 643x60px, constraints left/top, fill Eerie Black, text [Roboto SemiBold, 42px], [heading]
+  - TEXT "PC", 32x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+  - TEXT "Mobile", 74x28px, constraints left/top, fill Eerie Black, text [24px], [heading]
+
+Screen: Typography & Components / Base Elements for checkboxes and radio buttons
+- FRAME "Base Elements for checkboxes and radio buttons", 824x768px, constraints left/top, radius 20px, fill #FFFFFF, effect [drop_shadow 2.21px offset 0 2.77 #68686812, drop_shadow 5.32px offset 0 6.65 #6868680D, drop_shadow 10.02px offset 0 12.52 #6868680B, drop_shadow 17.87px offset 0 22.34 #68686809, drop_shadow 33.42px offset 0 41.78 #68686807, drop_shadow 80px offset 0 100 #68686805]
+  - TEXT "Base Elements for input/dropdown", 654x60px, constraints left/top, fill Eerie Black, text [Roboto SemiBold, 42px], [heading]
+  - COMPONENT_SET "base field", 616x397px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Style=Default", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill #D9D9D9
+    - COMPONENT "Style=Focus and field", 536x35px, horizontal pad 7 15 8 15px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 7px, fill #D9D9D9
+      - FRAME "Text", 506x20px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+    - COMPONENT "Style=Focus and field with cursore", 536x39px, horizontal pad 7 15 8 15px gap 0px sizing W:fixed H:fixed, constraints right/top, radius 7px, fill #D9D9D9
+      - FRAME "Text", 506x24px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Placeholder with cursore", 506x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - COMPONENT "Style=Focus and field with cursore and input text", 536x37px, horizontal pad 7 15 8 15px gap 0px sizing W:fixed H:fixed, constraints right/top, radius 7px, fill #D9D9D9
+      - FRAME "Frame 1", 506x22px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Placeholder with cursore with input text", 506x22px, horizontal pad 0 0 0 0px gap 3px sizing W:fill H:fixed, constraints left/top
+  - COMPONENT "/ main field", 536x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Title + Field", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill #D9D9D9
+
+Screen: Example / PC
+- FRAME "PC", 828x1014px, constraints left/top, fill #FFFFFF
+  - GROUP "Form", 536x845px, constraints left/top
+    - INSTANCE "Input", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x104px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 176x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+            - FRAME "Text", 482x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Input", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-typing, stroke fields/fill-border-typing 1px
+            - FRAME "Frame 1", 447x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - FRAME "icons_right", 59x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Input", 536x81px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x81px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-error
+            - TEXT "Field Name", 459x24px, constraints left/top, fill fields/text/field name, text [15px]
+            - FRAME "icons_right", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subtitle Under Field", 536x20px, constraints left/top, fill fields/text/error, text [13px]
+    - INSTANCE "Input", 536x72px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x72px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Title + Field", 536x72px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 119x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "solution main", 536x24px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "solution_item", 538x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+            - INSTANCE "null_solution_item", 1x24px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Input", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x104px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Title + Field", 536x104px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x48px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 119x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "solution main", 536x56px, horizontal pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "solution_item", 258x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+            - INSTANCE "solution_item", 258x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7px, fill radio/fill-background, stroke radio/fill-border 1px
+    - INSTANCE "Input", 536x148px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "/ main field", 536x148px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - FRAME "Title + Field", 536x148px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Field Title", 536x92px, vertical pad 0 0 20 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Title", 176x28px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Subtitle", 536x24px, constraints left/top, fill fields/text/subtitle, text [15px]
+          - INSTANCE "base field", 536x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+            - TEXT "Field Name", 506x24px, constraints left/top, fill fields/text/field name, text [15px]
+
+Screen: Example / iPhone SE
+- FRAME "iPhone SE", 320x895px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Input", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x95px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 132x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 177x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+            - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+        - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+          - FRAME "Text", 236x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Field Name", 114x20px, constraints left/top, fill fields/text/field name, text [10px]
+            - TEXT "Input Text", 236x24px, constraints left/top, fill fields/text/input text, text [15px]
+          - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "icon_2", 24x24px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Input", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-typing, stroke fields/fill-border-typing 1px
+          - FRAME "Frame 1", 201x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Field Name", 41x20px, constraints left/top, fill fields/text/field name, text [10px]
+            - FRAME "Placeholder with cursore with input text", 201x24px, horizontal pad 0 0 0 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - FRAME "icons_right", 59x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE "Input", 290x81px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x81px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-error
+          - TEXT "Field Name", 213x24px, constraints left/top, fill fields/text/field name, text [15px]
+          - FRAME "icons_right", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Subtitle Under Field", 290x20px, constraints left/top, fill fields/text/error, text [13px]
+  - INSTANCE "Input", 290x63px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x63px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title + Field", 290x63px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 239x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+        - INSTANCE "solution main", 290x24px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution_item", 290x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill #FFFFFF
+            - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+  - INSTANCE "Input", 290x127px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x127px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x127px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x71px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 132x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 187x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+            - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+          - TEXT "Subtitle", 290x40px, constraints left/top, fill fields/text/subtitle, text [13px]
+        - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+          - TEXT "Field Name", 260x24px, constraints left/top, fill fields/text/field name, text [15px]
+  - INSTANCE "Input", 290x150px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x150px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title + Field", 290x150px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 151x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+        - INSTANCE "solution main", 290x111px, vertical pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution_item", 290x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 7/7/0/0px, fill radio/fill-background, stroke radio/fill-border 1px
+            - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution_item", 290x56px, horizontal pad 8 16 8 16px gap 0px sizing W:fill H:fixed, constraints scale/scale, radius 0/0/7/7px, fill radio/fill-background, stroke radio/fill-border 1px
+            - INSTANCE "base", 227x40px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+
+Screen: Example / iPhone 13 PRO MAX
+- FRAME "iPhone 13 PRO MAX", 390x895px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Input", 360x95px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x95px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x95px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 132x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 177x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+            - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+        - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-completed
+          - FRAME "Text", 236x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Field Name", 114x20px, constraints left/top, fill fields/text/field name, text [10px]
+            - TEXT "Input Text", 306x24px, constraints left/top, fill fields/text/input text, text [15px]
+          - FRAME "icons_right", 24x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "icon_2", 24x24px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Input", 360x56px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x56px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "base field", 290x56px, horizontal pad 7 15 8 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-typing, stroke fields/fill-border-typing 1px
+          - FRAME "Frame 1", 201x41px, vertical pad 0 0 0 0px gap -3px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Field Name", 41x20px, constraints left/top, fill fields/text/field name, text [10px]
+            - FRAME "Placeholder with cursore with input text", 201x24px, horizontal pad 0 0 0 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - FRAME "icons_right", 59x33px, horizontal pad 9 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE "Input", 360x81px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x81px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x56px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-error
+          - TEXT "Field Name", 283x24px, constraints left/top, fill fields/text/field name, text [15px]
+          - FRAME "icons_right", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Green point_for fields", 59x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Subtitle Under Field", 360x20px, constraints left/top, fill fields/text/error, text [13px]
+  - INSTANCE "Input", 360x63px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x63px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title + Field", 290x63px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 239x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+        - INSTANCE "solution main", 290x24px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "solution_item", 290x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints scale/scale, fill #FFFFFF
+            - INSTANCE "base", 259x24px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+  - INSTANCE "Input", 360x147px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x127px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints scale/scale
+      - FRAME "Title + Field", 290x127px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x71px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 132x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 187x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+            - INSTANCE "Green point", 47x24px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green point/fill-green point-default
+          - TEXT "Subtitle", 360x40px, constraints left/top, fill fields/text/subtitle, text [13px]
+        - INSTANCE "base field", 290x56px, horizontal pad 16 15 16 15px gap 0px sizing W:fill H:fixed, constraints left/top, radius 7px, fill fields/fill-background-enabled
+          - TEXT "Field Name", 330x24px, constraints left/top, fill fields/text/field name, text [15px]
+  - INSTANCE "Input", 360x150px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "/ main field", 290x150px, vertical pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title + Field", 290x150px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Field Title", 290x39px, vertical pad 0 0 15 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Title", 75x24px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 151x24px, constraints left/top, fill fields/text/title, text [Roboto SemiBold, 15px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

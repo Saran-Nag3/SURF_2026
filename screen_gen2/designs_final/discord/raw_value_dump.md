@@ -1,0 +1,1312 @@
+---
+name: discord-ui-kit-community
+source_file: Discord UI Kit (Community)
+source_page: All pages (5): Assets, About, Message Builder, Changelog, Cover & Kit Components
+generated_at: 2026-07-25T09:13:24.183770+00:00
+---
+
+# Discord UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Discord UI Kit (Community)
+- Figma page: All pages (5): Assets, About, Message Builder, Changelog, Cover & Kit Components
+- Extracted at: 2026-07-25T09:13:24.183770+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Gray/Dark Mode/Message Bar: [#40444B]
+- CTA Colors/Blurple/Text: [#949CF7]
+- Gray/Dark Mode/Server Badge: none
+- Gray/White: [#FFFFFF]
+- Gray/Dark Mode/Chat Icons: [#B9BBBE]
+- Gray/Dark Mode/Text: [#DCDDDE]
+- Gray/Dark Mode/Icons: [#B9BBBE]
+- Gray/Dark Mode/Primary Chat Area: [#36393F]
+- Gray/Dark Mode/Server List and Title Bar: [#202225]
+- Gray/Dark Mode/Channel Names: [#72767D]
+- CTA Colors/Green: [#3BA55C]
+- CTA Colors/Blurple/Main: [#5865F2]
+- Gray/Dark Mode/Tooltips and Userprofile: none
+- Gray/Dark Mode/Sidebar Channels: [#2F3136]
+- CTA Colors/Link: [#00AFF4]
+- Gray/Dark Mode/Selected Channel: [#393C43]
+- Gray/Dark Mode/Dividers: none
+- Nitro/Main: [#FF6BFA]
+- Gray/Dark Mode/Sidebar Profile Info: [#292B2F]
+- Green: [#3BA55C]
+- CTA Colors/Secondary: [#4F545C]
+- Nitro/Light: [#FFB0FF]
+- Badges/Nitro/Hexagon: [#B7C2CE]
+- Badges/Nitro/Circle: [#ECEFF8]
+- Badges/Nitro/Background: [#4F5D7F]
+- Gray/Dark Mode/Voice Channel Counter: [#8E9297]
+- CTA Colors/Orange: [#FAA61A1A]
+- CTA Colors/Red: [#ED4245]
+- CTA Colors/Blurple/Hover: [#4752C4]
+- Offline Grey: [#747F8D]
+- Red: [#ED4245]
+- Idle: [#FAA61A]
+- Badges/Bug Hunter/Gold: [#FFD56C]
+- Badges/Bug Hunter/Light Gold: [#FFEAC0]
+- Badges/Bug Hunter/Light Green: [#B4E1CE]
+- Badges/Bug Hunter/Green: [#3BA561]
+- Nitro/Classic: [#EF8843]
+- Badges/Hypesquad/Balance: [#45DDC0]
+- Badges/Hypesquad/Brilliance: [#F07D5F]
+- Badges/Hypesquad/Bravery: [#9C84EF]
+- Badges/Hypesquad/Events: [#FBB848]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 258 uses
+- #FFFFFF80: 94 uses
+- #99AAB5: 44 uses
+- #000000: 39 uses
+- #C0BCBC: 30 uses
+- #202225: 23 uses
+- #FFCC4D: 12 uses
+- #3BA55C: 10 uses
+- #5C913B: 9 uses
+- #5865F2: 6 uses
+- #77B255: 6 uses
+- #AA8DD8: 6 uses
+- #18191C00: 5 uses
+- #42454A: 5 uses
+- #1ED760: 4 uses
+- #212326: 4 uses
+- #3B3D42: 4 uses
+- #5D6269: 4 uses
+- #E655D4: 4 uses
+- #FFDEF9: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Whitney Semibold Semibold, 9.5px: 72 uses
+- Whitney Semibold Semibold, 10px: 55 uses
+- Whitney Medium, 11.5px: 36 uses
+- Whitney Medium, 8px: 35 uses
+- ABC Ginto Normal Trial Bold, 25px: 34 uses
+- Whitney Semibold Semibold, 11px: 34 uses
+- Whitney Medium, 11px: 31 uses
+- Whitney Medium, 10px: 29 uses
+- Whitney Semibold Semibold, 20.68px: 25 uses
+- Whitney Semibold Semibold, 9.19px: 25 uses
+- Whitney Semibold Semibold, 9px: 24 uses
+- Whitney Medium, 15px: 20 uses
+- Whitney Bold, 12px: 16 uses
+- Whitney Medium, 10.5px: 15 uses
+- Whitney Medium, 17.41px: 15 uses
+- Whitney Medium, 7.74px: 15 uses
+- Whitney Semibold Semibold, 10.64px: 15 uses
+- Whitney Semibold Semibold, 23.94px: 15 uses
+- ABC Ginto Normal Trial Bold, 35px: 13 uses
+- Whitney Semibold Semibold, 4px: 12 uses
+- Whitney Medium, 12px: 11 uses
+- ABC Ginto Normal Trial Bold, 9.11px: 10 uses
+- ABC Ginto Normal Trial Medium, 10px: 8 uses
+- Whitney Medium, 10.64px: 8 uses
+- Whitney Medium, 23.94px: 8 uses
+- ABC Ginto Normal Trial Bold, 15px: 7 uses
+- Whitney Medium, 8.5px: 6 uses
+- Whitney Semibold Semibold, 11.5px: 6 uses
+- Whitney Bold, 11px: 5 uses
+- Whitney Medium, 4.67px: 5 uses
+- Whitney Medium, 5.11px: 5 uses
+- Whitney Medium, 9px: 5 uses
+- Whitney Semibold Semibold, 10.55px: 5 uses
+- ABC Ginto Normal Trial Bold, 12.27px: 4 uses
+- ABC Ginto Normal Trial Bold, 4.05px: 4 uses
+- ABC Ginto Normal Trial Medium, 15.7px: 4 uses
+- Whitney Bold, 11.61px: 4 uses
+- Whitney Bold, 13px: 4 uses
+- Whitney Bold, 15.26px: 4 uses
+- Whitney Bold, 26.12px: 4 uses
+- Whitney Medium, 11.14px: 4 uses
+- Whitney Semibold Semibold, 13.15px: 4 uses
+
+## Typography Hierarchy
+- 35px - ABC Ginto Normal Trial Bold, 35px (raw)
+- 26.12px - Whitney Bold, 26.12px (raw)
+- 25px - ABC Ginto Normal Trial Bold, 25px (raw)
+- 23.94px - Whitney Medium, 23.94px (raw)
+- 23.94px - Whitney Semibold Semibold, 23.94px (raw)
+- 20.68px - Whitney Semibold Semibold, 20.68px (raw)
+- 17.41px - Whitney Medium, 17.41px (raw)
+- 15.7px - ABC Ginto Normal Trial Medium, 15.7px (raw)
+- 15.26px - Whitney Bold, 15.26px (raw)
+- 15px - ABC Ginto Normal Trial Bold, 15px (raw)
+- 15px - Whitney Medium, 15px (raw)
+- 13.15px - Whitney Semibold Semibold, 13.15px (raw)
+- 13px - Whitney Bold, 13px (raw)
+- 12.27px - ABC Ginto Normal Trial Bold, 12.27px (raw)
+- 12px - Whitney Bold, 12px (raw)
+- 12px - Whitney Medium, 12px (raw)
+- 11.61px - Whitney Bold, 11.61px (raw)
+- 11.5px - Whitney Medium, 11.5px (raw)
+- 11.5px - Whitney Semibold Semibold, 11.5px (raw)
+- 11.14px - Whitney Medium, 11.14px (raw)
+- 11px - Whitney Bold, 11px (raw)
+- 11px - Whitney Medium, 11px (raw)
+- 11px - Whitney Semibold Semibold, 11px (raw)
+- 10.64px - Whitney Medium, 10.64px (raw)
+- 10.64px - Whitney Semibold Semibold, 10.64px (raw)
+- 10.55px - Whitney Semibold Semibold, 10.55px (raw)
+- 10.5px - Whitney Medium, 10.5px (raw)
+- 10px - ABC Ginto Normal Trial Medium, 10px (raw)
+- 10px - Whitney Medium, 10px (raw)
+- 10px - Whitney Semibold Semibold, 10px (raw)
+- 9.5px - Whitney Semibold Semibold, 9.5px (raw)
+- 9.19px - Whitney Semibold Semibold, 9.19px (raw)
+- 9.11px - ABC Ginto Normal Trial Bold, 9.11px (raw)
+- 9px - Whitney Medium, 9px (raw)
+- 9px - Whitney Semibold Semibold, 9px (raw)
+- 8.5px - Whitney Medium, 8.5px (raw)
+- 8px - Whitney Medium, 8px (raw)
+- 7.74px - Whitney Medium, 7.74px (raw)
+- 5.11px - Whitney Medium, 5.11px (raw)
+- 4.67px - Whitney Medium, 4.67px (raw)
+- 4.05px - ABC Ginto Normal Trial Bold, 4.05px (raw)
+- 4px - Whitney Semibold Semibold, 4px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Modal Shadow: [drop_shadow 20px offset 0 5 #00000033]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Modal
+- Input Field
+- Modal Buttons
+- Title Bar
+- Context Option
+- Dropdown
+- Selector
+- Button
+- Footer and Author
+- Embed Text
+- Icons
+- Category
+- Channels
+- Boost Progress Bar
+- Server Banner
+- Channel Icons
+- Badge
+- RPC
+- Username
+- Status
+- User Badges
+- User Avatar
+- Message Bar
+- Context Menu
+- Gift
+- Embed Image
+- Embed Container
+- Message
+- Reply
+- Sidebar Profile
+- Server Name
+- Voice Counter
+- Profile
+- Sub-type
+- Group
+
+## Component Specs
+- Modal: size 353x286px, fill #FFFFFF, effect Modal Shadow, text [Whitney Semibold Semibold, 10px, Whitney Medium, 12.5px, ABC Ginto Normal Trial Medium, 19.4px] | variants: Style: Authentication/Form/Image/Message/Promotional/Regular
+- Input Field: size 306x30px, radius 2px, fill Gray/Dark Mode/Tooltips and Userprofile, text [Whitney Medium, 12px] | variants: Size: Long Text/Short Text; Selected: False/True
+- Modal Buttons: size 302x27.95px, horizontal layout, padding 0 0 0 0px, gap 162px, align space_between/center, sizing W:fixed H:fixed, text [Whitney Semibold Semibold, 10px] | variants: Button Count: 1/2/3; Color: Destructive/Primary/Promotional/Success
+- Title Bar: size 1043x36px, fill Gray/Dark Mode/Primary Chat Area, effect [drop_shadow 0px offset 0 1 #0000000D], text [Whitney Medium, 10px, Whitney Medium, 10.08px, ABC Ginto Normal Trial Bold, 12.27px] | variants: Style: Channel/Friends/Group
+- Context Option: size 117x13px, horizontal layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Whitney Medium, 11.5px] | variants: Dropdown: False/True
+- Dropdown: size 9x9px, fill #FFFFFF | variants: Open: False/True
+- Selector: size 300x32px, radius 2px, horizontal layout, padding 10 10 10 10px, gap 10px, align space_between/center, sizing W:fixed H:fixed, fill Gray/Dark Mode/Tooltips and Userprofile, stroke #202225 1px, text [Whitney Medium, 11px] | variants: Property 1: Context/Seector
+- Button: size 50x21px, radius 2px, vertical layout, padding 5 11 5 11px, gap 0px, align min/center, sizing W:fixed H:fixed, fill CTA Colors/Blurple/Main, text [Whitney Semibold Semibold, 9.5px] | variants: Type: Destructive/Link/Primary/Secondary/Success; Emoji: False/True; Hover: False/True
+- Footer and Author: size 55x12px, horizontal layout, padding 0 0 0 0px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Whitney Medium, 10px] | variants: Type: Author/Footer; Image: false/true; Timestamp: false/true
+- Embed Text: size 152x15px, fill #FFFFFF, text [Whitney Bold, 13px] | variants: Type: Description/Fields/Title
+- Icons: size 9.8x14px, fill #FFFFFF | variants: Type: Deafen/Mute/Settings; Disabled: False/True
+- Category: size 157x13px, horizontal layout, padding 0 0 0 0px, gap 4px, align center/center, sizing W:fixed H:fixed, text [ABC Ginto Normal Trial Medium, 10px] | variants: Open: False/True; Hover: False/True; Type: Category/Default
+- Channels: size 170x28px, radius 3px, horizontal layout, padding 7 9 7 9px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #34373C, text [Whitney Medium, 11.5px] | variants: Type: Events/Forum/Home/Hub/News/Rules/Stage/Text/Threads/Voice; Selected: False/True
+- Boost Progress Bar: size 175x37px, fill Gray/Dark Mode/Sidebar Channels, text [Whitney Medium, 9.5px, Whitney Semibold Semibold, 9.5px, Whitney Bold, 9.5px] | variants: LVL3: False/True
+- Server Banner: size 181x101px, effect [drop_shadow 0px offset 0 1 #0000000D], text [ABC Ginto Normal Trial Bold, 11.5px] | variants: Banner: False/Finder/True
+- Channel Icons: size 13x14px, fill #FFFFFF | variants: Type: Active Threads/Events/Forum/Friends/Group/Home/Hub/News/Rules/Stage/Text/Text (NSFW)/Text (Private)/Text (Threads)/User/Voice
+- Badge: size 12x11.43px | variants: Banner: False/True; Type: LVL 1/LVL 2/LVL 3/Partner/Verified
+- RPC: size 212x125px, text [Whitney Medium, 8.5px, Whitney Medium, 10.5px, Whitney Semibold Semibold, 11.5px, Whitney Semibold Semibold, 10.55px, ABC Ginto Normal Trial Bold, 9.11px] | variants: Type: Game/Spotify
+- Username: size 80x34px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Whitney Medium, 10.5px, ABC Ginto Normal Trial Bold, 15px] | variants: Server Avatar: False/True
+- Status: size 20x20px | variants: Type: DND/Idle/Mobile/Offline/Online/Streaming; Outline: False/True
+- User Badges: size 12x12px, fill #FFFFFF | variants: Badge: Boost/Bug Hunter Gold/Bug Hunter Green/Certified Moderator/Discord Partner/Discord Staff/Early Bot Dev/Early Supporter/HS Balance/HS Bravery/HS Brilliance/HS Events/Nitro
+- User Avatar: size 70x69px, fill #FFFFFF | variants: Outline: False/True; Status: False/True
+- Message Bar: size 931.12x39px, radius 7px, horizontal layout, padding 9 13 9 13px, gap 12px, align min/center, sizing W:fixed H:fixed, fill Gray/Dark Mode/Message Bar, text [Whitney Medium, 12px]
+- Context Menu: size 143x173px, radius 2px, vertical layout, padding 15 10 15 10px, gap 13px, align center/center, sizing W:fixed H:fixed, fill Gray/Dark Mode/Tooltips and Userprofile, effect Modal Shadow, text [Whitney Medium, 11.5px]
+- Gift: size 588x154px, radius 5px, fill Gray/Dark Mode/Server List and Title Bar, text [Whitney Semibold Semibold, 13.15px, Whitney Bold, 15.26px, Whitney Medium, 11.14px, Whitney Bold, 12px, Whitney Medium, 12px]
+- Embed Image: size 300x169px, fill #FFFFFF
+- Embed Container: size 333.5x406.5px, radius 4px, vertical layout, padding 0 0 0 2.5px, gap 10px, sizing W:fixed H:fixed, fill CTA Colors/Blurple/Main, text [Whitney Medium, 10px, Whitney Medium, 11px, Whitney Bold, 12px, Whitney Bold, 13px, Whitney Bold, 11px]
+- Message: size 144x35px, horizontal layout, padding 0 0 0 0px, gap 9px, sizing W:fixed H:fixed, text [Whitney Medium, 8px, Whitney Semibold Semibold, 11px, Whitney Medium, 11px, Whitney Semibold Semibold, 9.5px, Whitney Semibold Semibold, 13.15px, Whitney Bold, 15.26px, Whitney Medium, 11.14px, Whitney Bold, 12px, Whitney Medium, 12px, Whitney Medium, 10px, Whitney Bold, 13px, Whitney Bold, 11px, Whitney Medium, 11.5px, Whitney Medium, 9px, Whitney Semibold Semibold, 8px, Whitney Semibold Semibold, 11.5px]
+- Reply: size 140.5x14px, horizontal layout, padding 0 1 0 18px, gap 2px, align min/max, sizing W:fixed H:fixed, fill #FFFFFF, text [Whitney Bold, 9px, Whitney Medium, 9px, Whitney Bold, 10px]
+- Sidebar Profile: size 180x40px, fill Gray/Dark Mode/Sidebar Profile Info, text [Whitney Medium, 9.5px, Whitney Semibold Semibold, 11px]
+- Server Name: size 102x15px, horizontal layout, padding 0 0 0 0px, gap 3px, align min/center, sizing W:fixed H:fixed, text [ABC Ginto Normal Trial Bold, 11.5px]
+- Voice Counter: size 32x13px, text [Whitney Semibold Semibold, 7px]
+- Profile: size 225x457.5px, radius 4px, vertical layout, padding 0 0 12 0px, gap 11px, sizing W:fixed H:fixed, fill Gray/Dark Mode/Tooltips and Userprofile, effect Modal Shadow, text [Whitney Medium, 8px, ABC Ginto Normal Trial Bold, 9.11px, Whitney Semibold Semibold, 9px, Whitney Medium, 8.5px, Whitney Medium, 10.5px, Whitney Semibold Semibold, 11.5px, Whitney Semibold Semibold, 10.55px, ABC Ginto Normal Trial Bold, 15px]
+- Sub-type: size 114x33px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [ABC Ginto Normal Trial Bold, 25px]
+- Group: size 216x121px, vertical layout, padding 0 0 0 0px, gap 7px, sizing W:fill H:fixed, text [Whitney Medium, 15px, ABC Ginto Normal Trial Bold, 35px]
+
+## Most-Used Styles
+- Gray/White: 520 uses
+- Gray/Dark Mode/Text: 314 uses
+- Gray/Dark Mode/Icons: 150 uses
+- CTA Colors/Blurple/Main: 133 uses
+- Gray/Dark Mode/Tooltips and Userprofile: 96 uses
+- Gray/Dark Mode/Channel Names: 92 uses
+- Gray/Dark Mode/Server List and Title Bar: 62 uses
+- Gray/Dark Mode/Sidebar Profile Info: 61 uses
+- Gray/Dark Mode/Sidebar Channels: 40 uses
+- Gray/Dark Mode/Primary Chat Area: 25 uses
+- CTA Colors/Green: 22 uses
+- Modal Shadow: 22 uses
+- Gray/Dark Mode/Chat Icons: 15 uses
+- CTA Colors/Secondary: 14 uses
+- Gray/Dark Mode/Message Bar: 12 uses
+- Gray/Dark Mode/Server Badge: 11 uses
+- Gray/Dark Mode/Selected Channel: 10 uses
+- Green: 10 uses
+- Gray/Dark Mode/Dividers: 9 uses
+- Badges/Nitro/Background: 8 uses
+- Nitro/Main: 8 uses
+- CTA Colors/Red: 7 uses
+- Badges/Nitro/Circle: 4 uses
+- Badges/Nitro/Hexagon: 4 uses
+- CTA Colors/Link: 4 uses
+- Nitro/Light: 4 uses
+- CTA Colors/Blurple/Text: 3 uses
+- Gray/Dark Mode/Voice Channel Counter: 3 uses
+- Nitro/Classic: 3 uses
+- CTA Colors/Blurple/Hover: 2 uses
+- CTA Colors/Orange: 2 uses
+- Idle: 2 uses
+- Offline Grey: 2 uses
+- Red: 2 uses
+- Badges/Bug Hunter/Gold: 1 use
+- Badges/Bug Hunter/Green: 1 use
+- Badges/Bug Hunter/Light Gold: 1 use
+- Badges/Bug Hunter/Light Green: 1 use
+- Badges/Hypesquad/Balance: 1 use
+- Badges/Hypesquad/Bravery: 1 use
+- Badges/Hypesquad/Brilliance: 1 use
+- Badges/Hypesquad/Events: 1 use
+
+## Layout & Structure
+Screen: Assets / User Components
+- FRAME "User Components", 548x1707.5px, vertical pad 40 50 40 50px gap 23px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Gray/Dark Mode/Sidebar Profile Info, effect Modal Shadow
+  - INSTANCE "Group", 448x87px, vertical pad 0 0 0 0px gap 7px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Components", 302x46px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 35px], [heading]
+    - TEXT "These components are mainly used in ... . Duplicate a varian", 448x34px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 15px]
+  - INSTANCE "Sub-type", 93x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 93x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "User Avatar", 368x109px, horizontal pad 20 20 20 20px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Outline=True, Status=True", 70x69px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 2", 70x70px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+      - ELLIPSE "Ellipse 1", 62x61px, constraints scale/scale, fill image(hash: efca99a2472f730b73a2dcd2ac3017d279185497)
+      - INSTANCE "Status", 20x20px, constraints scale/scale
+        - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+        - VECTOR "online", 12x12px, constraints scale/scale, fill Green
+    - COMPONENT "Outline=False, Status=True", 70x69px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 2", 70x70px, constraints scale/scale
+      - ELLIPSE "Ellipse 1", 62x61px, constraints scale/scale, fill image(hash: efca99a2472f730b73a2dcd2ac3017d279185497)
+      - INSTANCE "Status", 20x20px, constraints scale/scale
+        - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+        - VECTOR "online", 12x12px, constraints scale/scale, fill Green
+    - COMPONENT "Outline=True, Status=False", 70x69px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 2", 70x70px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+      - ELLIPSE "Ellipse 1", 62x61px, constraints scale/scale, fill image(hash: efca99a2472f730b73a2dcd2ac3017d279185497)
+    - COMPONENT "Outline=False, Status=False", 70x69px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 2", 70x70px, constraints scale/scale
+      - ELLIPSE "Ellipse 1", 62x61px, constraints scale/scale, fill image(hash: efca99a2472f730b73a2dcd2ac3017d279185497)
+  - INSTANCE "Sub-type", 151x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 151x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "User Badges", 393.05x47px, horizontal pad 17.5 17 17.5 17px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Badge=Discord Staff", 12x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Discord Staff", 12x12px, constraints scale/scale, fill CTA Colors/Blurple/Main
+    - COMPONENT "Badge=Discord Partner", 12x9px, constraints left/top, fill #FFFFFF
+      - VECTOR "Discord Partner", 12x9px, constraints scale/scale, fill CTA Colors/Blurple/Main
+    - COMPONENT "Badge=Certified Moderator", 10.91x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Certified Moderator", 10.91x12px, constraints scale/scale, fill CTA Colors/Blurple/Main
+    - COMPONENT "Badge=HS Events", 13.2x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "HS Events", 13.2x12px, constraints scale/scale, fill Badges/Hypesquad/Events
+    - COMPONENT "Badge=HS Bravery", 12x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "HS Bravery", 12x12px, constraints scale/scale, fill Badges/Hypesquad/Bravery
+    - COMPONENT "Badge=HS Brilliance", 13.2x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "HS Brilliance", 13.2x12px, constraints scale/scale, fill Badges/Hypesquad/Brilliance
+    - COMPONENT "Badge=HS Balance", 12x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "HS Balance", 12x12px, constraints scale/scale, fill Badges/Hypesquad/Balance
+    - COMPONENT "Badge=Early Bot Dev", 15x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Early Bot Dev", 15x12px, constraints scale/scale, fill #3E70DD
+    - COMPONENT "Badge=Early Supporter", 17.15x12px, constraints left/top
+      - VECTOR "Vector", 11.11x6.68px, constraints scale/scale, fill #AABFF2
+      - VECTOR "Vector", 1.35x1.35px, constraints scale/scale, fill #000000
+      - VECTOR "Vector", 6x3.75px, constraints scale/scale, fill #CBDAF7
+      - VECTOR "Vector", 3.08x0.67px, constraints scale/scale, fill #AABFF2
+      - VECTOR "Vector", 1.69x3.75px, constraints scale/scale, fill Nitro/Classic
+      - VECTOR "Vector", 4.93x5.08px, constraints scale/scale, fill #D0D9EA
+      - VECTOR "Vector", 13.87x8.57px, constraints scale/scale, fill #EBEFF7
+      - VECTOR "Vector", 5.72x2.37px, constraints scale/scale, fill Nitro/Classic
+      - VECTOR "Vector", 16.75x5.25px, constraints scale/scale, fill #647096
+      - VECTOR "Vector", 1.9x2.2px, constraints scale/scale, fill Nitro/Classic
+    - COMPONENT "Badge=Nitro", 17.15x12px, constraints left/top
+      - VECTOR "Vector", 1.55x1.2px, constraints scale/scale, fill Badges/Nitro/Background
+      - VECTOR "Vector", 15.1x12px, constraints scale/scale, fill Badges/Nitro/Background
+      - VECTOR "Vector", 6.98x6.85px, constraints scale/scale, fill Badges/Nitro/Circle
+      - VECTOR "Vector", 4.9x4.2px, constraints scale/scale, fill Badges/Nitro/Hexagon
+    - COMPONENT "Badge=Boost", 7.05x12px, constraints left/top
+      - VECTOR "Vector", 7.05x12px, constraints scale/scale, fill Nitro/Main
+      - VECTOR "Vector", 3.52x4.25px, constraints scale/scale, fill Nitro/Light
+      - VECTOR "Vector", 3.52x4.25px, constraints scale/scale, fill #E655D4
+      - VECTOR "Vector", 3.52x7.02px, constraints scale/scale, fill #FFDEF9
+    - COMPONENT "Badge=Bug Hunter Green", 12.71x12px, constraints left/top
+      - VECTOR "Catcher", 8.12x11.27px, constraints scale/scale, fill Badges/Bug Hunter/Green
+      - VECTOR "Green Spoon", 10.03x12px, constraints scale/scale, fill Badges/Bug Hunter/Light Green
+    - COMPONENT "Badge=Bug Hunter Gold", 12.69x12px, constraints left/top
+      - VECTOR "Catcher", 8.11x11.29px, constraints scale/scale, fill Badges/Bug Hunter/Light Gold
+      - VECTOR "Golden Spoon", 10.02x12px, constraints scale/scale, fill #FFD56C
+      - RECTANGLE "Golden Spoon", 10.05x12.16px, constraints scale/scale, fill Badges/Bug Hunter/Gold
+      - VECTOR "Reflection", 2.75x7.27px, constraints scale/scale, fill Gray/White
+  - INSTANCE "Sub-type", 207x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 207x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Status", 448x47px, horizontal pad 13.5 16 13.5 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Type=Online, Outline=False", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill #18191C00
+      - VECTOR "online", 12x12px, constraints scale/scale, fill Green
+    - COMPONENT "Type=Mobile, Outline=False", 20x20px, constraints left/top
+      - VECTOR "Circle Outline", 20x25.9px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile, opacity 0%
+      - VECTOR "Subtract", 12x17.9px, constraints scale/scale, fill CTA Colors/Green
+    - COMPONENT "Type=Idle, Outline=False", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill #18191C00
+      - VECTOR "idle", 11.91x11.91px, constraints scale/scale, radius 0/0/0/0px, fill Idle
+    - COMPONENT "Type=DND, Outline=False", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill #18191C00
+      - VECTOR "dnd", 12x12px, constraints scale/scale, fill Red
+    - COMPONENT "Type=Streaming, Outline=False", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill #18191C00
+      - VECTOR "streaming", 12x12px, constraints scale/scale, fill #593695
+    - COMPONENT "Type=Offline, Outline=False", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill #18191C00
+      - VECTOR "offline", 12x12px, constraints scale/scale, fill Offline Grey
+    - COMPONENT "Type=Online, Outline=True", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+      - VECTOR "online", 12x12px, constraints scale/scale, fill Green
+    - COMPONENT "Type=Mobile, Outline=True", 20x20px, constraints left/top
+      - VECTOR "Circle Outline", 20x25.9px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+      - VECTOR "Subtract", 12x17.9px, constraints scale/scale, fill CTA Colors/Green
+    - COMPONENT "Type=Idle, Outline=True", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+      - VECTOR "idle", 11.91x11.91px, constraints scale/scale, radius 0/0/0/0px, fill Idle
+    - COMPONENT "Type=DND, Outline=True", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+      - VECTOR "dnd", 12x12px, constraints scale/scale, fill Red
+    - COMPONENT "Type=Streaming, Outline=True", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+      - VECTOR "streaming", 12x12px, constraints scale/scale, fill #593695
+    - COMPONENT "Type=Offline, Outline=True", 20x20px, constraints left/top
+      - ELLIPSE "Circle Outline", 20x20px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+      - VECTOR "offline", 12x12px, constraints scale/scale, fill Offline Grey
+  - INSTANCE "Sub-type", 122x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 122x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Username", 142x108px, vertical pad 20 20 20 20px gap 14px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Server Avatar=True", 80x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Muatex", 56x20px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 15px]
+      - FRAME "Frame 13", 80x14px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - INSTANCE "User Avatar", 14x14px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 14x14.2px, constraints scale/scale
+          - ELLIPSE "Ellipse 1", 12.4x12.38px, constraints scale/scale, fill image(hash: efca99a2472f730b73a2dcd2ac3017d279185497)
+        - TEXT "Muatex#0001", 64x12px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 10.5px]
+    - COMPONENT "Server Avatar=False", 102x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Muatex", 56x20px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 15px]
+      - TEXT "#0001", 46x20px, constraints scale/scale, fill Gray/Dark Mode/Icons, text [ABC Ginto Normal Trial Bold, 15px]
+  - INSTANCE "Sub-type", 170x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 170x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "RPC", 244x298px, vertical pad 13.5 16 13.5 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Type=Spotify", 212x125px, constraints left/top
+      - FRAME "Playing a Game", 213x16.95px, horizontal pad 0 0 0 12px gap 2px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "LISTENING TO SPOTIFY", 105x12px, constraints left/top, fill Gray/Dark Mode/Icons, text [ABC Ginto Normal Trial Bold, 9.11px]
+        - VECTOR "Vector", 16.95x16.95px, constraints scale/scale, fill #1ED760
+      - FRAME "Buttons", 212x24px, horizontal pad 0 0 0 12px gap 6px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Play", 170x24px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill CTA Colors/Secondary
+          - VECTOR "Vector", 12x12px, constraints scale/scale, fill Gray/White
+          - TEXT "Play on Spotify", 67x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10.55px]
+        - FRAME "Listen Along", 24x24px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill CTA Colors/Secondary
+          - VECTOR "Vector", 12.71x12px, constraints scale/scale, fill Gray/White
+      - FRAME "Main RPC", 94x45px, horizontal pad 0 0 0 12px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cover", 45x45px, constraints left/top, radius 7px, fill Gray/Dark Mode/Primary Chat Area
+        - FRAME "Description", 30x39px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Song", 25x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 11.5px]
+          - TEXT "Artist", 26x12px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 10.5px]
+          - TEXT "Album", 30x12px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 10.5px]
+      - FRAME "Frame 3", 213x15px, vertical pad 0 0 0 12px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 1", 201x15px, constraints left/top, radius 8px
+          - TEXT "0:42", 17x10px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 8.5px]
+          - TEXT "4:20", 17x10px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 8.5px]
+          - FRAME "Slider", 201x3px, constraints left/top, radius 8px, fill #212326
+            - RECTANGLE "Rectangle 20", 23x3px, constraints left/top, radius 6969px, fill Gray/White
+    - COMPONENT "Type=Game", 212x130px, constraints left/top
+      - FRAME "Playing a Game", 201x12px, horizontal pad 0 0 0 12px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "PLAYING A GAME", 79x12px, constraints left/top, fill Gray/Dark Mode/Icons, text [ABC Ginto Normal Trial Bold, 9.11px]
+      - FRAME "Buttons", 212x54px, vertical pad 0 0 0 12px gap 6px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Play", 200x24px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill CTA Colors/Secondary
+          - TEXT "Button", 31x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10.55px]
+        - FRAME "Play", 200x24px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill CTA Colors/Secondary
+          - TEXT "Button", 31x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10.55px]
+      - FRAME "Main RPC", 96x45px, horizontal pad 0 0 0 12px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Cover", 45x45px, constraints left/top, radius 7px, fill Gray/Dark Mode/Primary Chat Area
+        - FRAME "Description", 32x39px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Game", 29x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 11.5px]
+          - TEXT "State", 23x12px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 10.5px]
+          - TEXT "Details", 32x12px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 10.5px]
+  - INSTANCE "Sub-type", 143x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 143x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT "Profile", 225x457.5px, vertical pad 0 0 12 0px gap 11px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray/Dark Mode/Tooltips and Userprofile, effect Modal Shadow
+    - GROUP "Group 2", 225x123.5px, constraints left/top
+      - FRAME "Banner", 225x90px, constraints left/top, fill Gray/White
+        - RECTANGLE "Rectangle 19", 225x90px, constraints left/top, fill #000000
+      - INSTANCE "User Avatar", 68x67px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 68x67.97px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+        - ELLIPSE "Ellipse 1", 60.23x59.23px, constraints scale/scale, fill image(hash: efca99a2472f730b73a2dcd2ac3017d279185497)
+        - INSTANCE "Status", 19.43x19.42px, constraints scale/scale
+          - ELLIPSE "Circle Outline", 19.43x19.42px, constraints scale/scale, fill Gray/Dark Mode/Tooltips and Userprofile
+          - VECTOR "online", 11.66x11.65px, constraints scale/scale, fill Green
+      - FRAME "Badges", 79.1x12px, horizontal pad 0 0 0 0px gap 5px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "User Badges", 12x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Discord Staff", 12x12px, constraints scale/scale, fill CTA Colors/Blurple/Main
+        - INSTANCE "User Badges", 12x9px, constraints left/top, fill #FFFFFF
+          - VECTOR "Discord Partner", 12x9px, constraints scale/scale, fill CTA Colors/Blurple/Main
+        - INSTANCE "User Badges", 10.91x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Certified Moderator", 10.91x12px, constraints scale/scale, fill CTA Colors/Blurple/Main
+        - INSTANCE "User Badges", 17.15x12px, constraints left/top
+          - VECTOR "Vector", 1.55x1.2px, constraints scale/scale, fill Badges/Nitro/Background
+          - VECTOR "Vector", 15.1x12px, constraints scale/scale, fill Badges/Nitro/Background
+          - VECTOR "Vector", 6.98x6.85px, constraints scale/scale, fill Badges/Nitro/Circle
+          - VECTOR "Vector", 4.9x4.2px, constraints scale/scale, fill Badges/Nitro/Hexagon
+        - INSTANCE "User Badges", 7.05x12px, constraints left/top
+          - VECTOR "Vector", 7.05x12px, constraints scale/scale, fill Nitro/Main
+          - VECTOR "Vector", 3.52x4.25px, constraints scale/scale, fill Nitro/Light
+          - VECTOR "Vector", 3.52x4.25px, constraints scale/scale, fill #E655D4
+          - VECTOR "Vector", 3.52x7.02px, constraints scale/scale, fill #FFDEF9
+    - INSTANCE "Username", 114x20px, horizontal pad 0 0 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Muatex", 56x20px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 15px]
+      - TEXT "#0001", 46x20px, constraints scale/scale, fill Gray/Dark Mode/Icons, text [ABC Ginto Normal Trial Bold, 15px]
+    - RECTANGLE "Rectangle 17", 201x1px, constraints left/top, fill Gray/Dark Mode/Dividers
+    - FRAME "Content", 212x268px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "About Me", 63x12px, horizontal pad 0 0 0 12px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "ABOUT ME", 49x12px, constraints left/top, fill Gray/Dark Mode/Icons, text [ABC Ginto Normal Trial Bold, 9.11px]
+      - FRAME "Bio", 117x29px, horizontal pad 0 0 5 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "About", 105x24px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 10.5px]
+      - INSTANCE "RPC", 212x125px, constraints left/top
+        - FRAME "Playing a Game", 213x16.95px, horizontal pad 0 0 0 12px gap 2px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "LISTENING TO SPOTIFY", 105x12px, constraints left/top, fill Gray/Dark Mode/Icons, text [ABC Ginto Normal Trial Bold, 9.11px]
+          - VECTOR "Vector", 16.95x16.95px, constraints scale/scale, fill #1ED760
+        - FRAME "Buttons", 212x24px, horizontal pad 0 0 0 12px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Play", 170x24px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill CTA Colors/Secondary
+            - VECTOR "Vector", 12x12px, constraints scale/scale, fill Gray/White
+            - TEXT "Play on Spotify", 67x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10.55px]
+          - FRAME "Listen Along", 24x24px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill CTA Colors/Secondary
+            - VECTOR "Vector", 12.71x12px, constraints scale/scale, fill Gray/White
+        - FRAME "Main RPC", 94x45px, horizontal pad 0 0 0 12px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cover", 45x45px, constraints left/top, radius 7px, fill Gray/Dark Mode/Primary Chat Area
+          - FRAME "Description", 30x39px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Song", 25x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 11.5px]
+            - TEXT "Artist", 26x12px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 10.5px]
+            - TEXT "Album", 30x12px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 10.5px]
+        - FRAME "Frame 3", 213x15px, vertical pad 0 0 0 12px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 1", 201x15px, constraints left/top, radius 8px
+            - TEXT "0:42", 17x10px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 8.5px]
+            - TEXT "4:20", 17x10px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 8.5px]
+            - FRAME "Slider", 201x3px, constraints left/top, radius 8px, fill #212326
+      - FRAME "ROLES", 42x12px, horizontal pad 0 0 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "ROLES", 30x12px, constraints left/top, fill Gray/Dark Mode/Icons, text [ABC Ginto Normal Trial Bold, 9.11px]
+      - FRAME "Roles", 197x16px, horizontal pad 0 0 0 12px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 14", 39x16px, horizontal pad 3 5.5 3 5.5px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Gray/Dark Mode/Sidebar Profile Info
+          - ELLIPSE "Ellipse 4", 8x8px, constraints left/top, fill Gray/Dark Mode/Icons
+          - TEXT "Role", 17x10px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9px]
+        - FRAME "Frame 16", 39x16px, horizontal pad 3 5.5 3 5.5px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Gray/Dark Mode/Sidebar Profile Info
+          - ELLIPSE "Ellipse 4", 8x8px, constraints left/top, fill Gray/Dark Mode/Icons
+          - TEXT "Role", 17x10px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9px]
+        - FRAME "Frame 17", 39x16px, horizontal pad 3 5.5 3 5.5px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Gray/Dark Mode/Sidebar Profile Info
+          - ELLIPSE "Ellipse 4", 8x8px, constraints left/top, fill Gray/Dark Mode/Icons
+          - TEXT "Role", 17x10px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9px]
+        - FRAME "Frame 15", 39x16px, horizontal pad 3 5.5 3 5.5px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Gray/Dark Mode/Sidebar Profile Info
+          - ELLIPSE "Ellipse 4", 8x8px, constraints left/top, fill Gray/Dark Mode/Icons
+          - TEXT "Role", 17x10px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9px]
+        - FRAME "Frame 15", 17x16px, horizontal pad 3 5.5 3 5.5px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Gray/Dark Mode/Sidebar Profile Info
+          - VECTOR "Vector", 6x6px, constraints scale/scale, fill Gray/Dark Mode/Icons
+      - FRAME "NOTE", 38x12px, horizontal pad 0 0 0 12px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "NOTE", 26x12px, constraints left/top, fill Gray/Dark Mode/Icons, text [ABC Ginto Normal Trial Bold, 9.11px]
+      - FRAME "Note", 212x26px, vertical pad 0 0 0 12px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Note", 200x26px, horizontal pad 4.5 3 3 4.5px gap 10px sizing W:fill H:fixed, constraints left/top, radius 2.5px, fill Gray/Dark Mode/Server List and Title Bar
+          - TEXT "Click to add a note", 63x9px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 8px]
+
+Screen: Assets / Server Components
+- FRAME "Server Components", 580x1629px, vertical pad 40 50 40 50px gap 23px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Gray/Dark Mode/Sidebar Profile Info, effect Modal Shadow
+  - INSTANCE "Group", 480x87px, vertical pad 0 0 0 0px gap 7px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Components", 336x46px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 35px], [heading]
+    - TEXT "These components are mainly used in ... . Duplicate a varian", 480x34px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 15px]
+  - INSTANCE "Sub-type", 276x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 276x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - FRAME "Voice Counter", 66x47px, vertical pad 17 17 17 17px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Voice Counter", 32x13px, constraints left/top
+      - VECTOR "Rectangle 1", 20x13px, constraints scale/scale, radius 6969/6969/6969/6969px, fill Gray/Dark Mode/Server List and Title Bar
+      - VECTOR "Rectangle 2", 19x13px, constraints scale/scale, radius 6969/6969/6969/6969px, fill Gray/Dark Mode/Primary Chat Area
+      - TEXT "00", 9x8px, constraints scale/scale, fill Gray/Dark Mode/Voice Channel Counter, text [Whitney Semibold Semibold, 7px]
+      - TEXT "99", 8x8px, constraints scale/scale, fill Gray/Dark Mode/Voice Channel Counter, text [Whitney Semibold Semibold, 7px]
+  - INSTANCE "Sub-type", 156x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 156x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - FRAME "Server Name", 134x45px, vertical pad 15 16 15 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Server Name", 102x15px, horizontal pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Badge", 12x11.43px, constraints left/top
+        - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill #3BA55C
+        - VECTOR "Vector", 5.96x5.38px, constraints scale/scale, fill Gray/White
+      - TEXT "Example Server", 87x15px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 11.5px]
+  - INSTANCE "Sub-type", 175x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 175x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Badge", 111x50px, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Banner=True, Type=Verified", 12x11.43px, constraints left/top
+      - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill #3BA55C
+      - VECTOR "Vector", 5.96x5.38px, constraints scale/scale, fill Gray/White
+    - COMPONENT "Banner=False, Type=Verified", 12x11.43px, constraints left/top
+      - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill Gray/Dark Mode/Server Badge
+      - VECTOR "Vector", 5.96x5.38px, constraints scale/scale, fill Gray/White
+    - COMPONENT "Banner=True, Type=Partner", 12x11.43px, constraints left/top
+      - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill #5865F2
+      - VECTOR "Vector", 7.9x5.38px, constraints scale/scale, fill Gray/White
+    - COMPONENT "Banner=False, Type=Partner", 12x11.43px, constraints left/top
+      - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill Gray/Dark Mode/Server Badge
+      - VECTOR "Vector", 7.9x5.38px, constraints scale/scale, fill Gray/White
+    - COMPONENT "Banner=False, Type=LVL 1", 12x11.45px, constraints left/top
+      - VECTOR "Vector", 12x11.45px, constraints scale/scale, fill Gray/Dark Mode/Server Badge
+      - VECTOR "Vector", 4.2x7px, constraints scale/scale, fill Gray/White
+    - COMPONENT "Banner=True, Type=LVL 1", 12x11.45px, constraints left/top
+      - VECTOR "Vector", 12x11.45px, constraints scale/scale, fill Gray/Dark Mode/Server Badge
+      - VECTOR "Vector", 4.2x7px, constraints scale/scale, fill Gray/White
+    - COMPONENT "Banner=False, Type=LVL 2", 12x11.45px, constraints left/top
+      - VECTOR "Vector", 12x11.45px, constraints scale/scale, fill Gray/Dark Mode/Server Badge
+      - GROUP "Group", 4.2x7px, constraints scale/scale
+        - VECTOR "Vector", 1.4x3.06px, constraints scale/scale, fill Gray/White
+        - VECTOR "Vector", 4.2x7px, constraints scale/scale, fill Gray/White
+    - COMPONENT "Banner=True, Type=LVL 2", 12x11.45px, constraints left/top
+      - VECTOR "Vector", 12x11.45px, constraints scale/scale, fill Gray/White
+      - GROUP "Group", 4.2x7px, constraints scale/scale
+        - VECTOR "Vector", 1.4x3.06px, constraints scale/scale, fill Gray/Dark Mode/Server List and Title Bar
+        - VECTOR "Vector", 4.2x7px, constraints scale/scale, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Banner=True, Type=LVL 3", 12x11.45px, constraints left/top
+      - VECTOR "Vector", 12x11.45px, constraints scale/scale, fill Gray/White
+      - BOOLEAN_OPERATION "Union", 4.2x7px, constraints scale/scale, fill Nitro/Main
+    - COMPONENT "Banner=False, Type=LVL 3", 12x11.45px, constraints left/top
+      - VECTOR "Vector", 12x11.45px, constraints scale/scale, fill Gray/Dark Mode/Server Badge
+      - BOOLEAN_OPERATION "Union", 4.2x7px, constraints scale/scale, fill Nitro/Main
+  - INSTANCE "Sub-type", 169x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 169x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Channel Icons", 480x46px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Type=Text", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Text", 13x12px, constraints center/center, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Text (Private)", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13x12.41px, constraints center/center, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Text (NSFW)", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13x11.59px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Text (Threads)", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13x12.35px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Home", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Home", 13x11.05px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Rules", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rules", 13x14px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=News", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "News", 13x10.8px, constraints center/center, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Forum", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Forum", 13x12.1px, constraints center/center, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Hub", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Hub", 13x13px, constraints center/center, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Events", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Events", 13x14.44px, constraints center/center, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Active Threads", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Threads", 13x12.87px, constraints center/center, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Voice", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Voice", 13x12.27px, constraints center/center, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Stage", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Stage", 13x10.63px, constraints center/center, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Friends", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13x10.15px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=Group", 13x14px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 13x10.4px, constraints left/top, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Type=User", 13x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13x13px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+  - INSTANCE "Sub-type", 156x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 156x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Server Banner", 211x243px, vertical pad 15 15 15 15px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Banner=True", 181x101px, constraints left/top, effect [drop_shadow 0px offset 0 1 #0000000D]
+      - VECTOR "Banner", 181x101px, constraints scale/scale, radius 0/0/0/0px, fill image(hash: d158e58229a87acd65e78367ad05ff4419358b38)
+      - VECTOR "Dark Overlay", 181x50px, constraints scale/scale, radius 0/0/0/0px, fill gradient_linear(#000000CC 0% | #00000000 100%)
+      - FRAME "Server Info", 181x40px, constraints scale/scale
+        - INSTANCE "Dropdown", 9x9px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 9x5px, constraints scale/scale, fill Gray/White
+        - INSTANCE "Server Name", 102x15px, horizontal pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Badge", 12x11.43px, constraints left/top
+            - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill #3BA55C
+            - VECTOR "Vector", 5.96x5.38px, constraints scale/scale, fill Gray/White
+          - TEXT "Example Server", 87x15px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 11.5px]
+    - COMPONENT "Banner=False", 181x40px, constraints right/top, radius 5/0/0/0px, fill Gray/Dark Mode/Sidebar Channels, effect [drop_shadow 0px offset 0 1 #0000000D]
+      - FRAME "Server Info", 181x40px, constraints scale/top
+        - INSTANCE "Dropdown", 9x9px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 9x5px, constraints scale/scale, fill Gray/White
+        - INSTANCE "Server Name", 102x15px, horizontal pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Badge", 12x11.43px, constraints left/top
+            - VECTOR "Vector", 12x11.43px, constraints scale/scale, fill #3BA55C
+            - VECTOR "Vector", 5.96x5.38px, constraints scale/scale, fill Gray/White
+          - TEXT "Example Server", 87x15px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 11.5px]
+    - COMPONENT "Banner=Finder", 181x40px, constraints right/top, radius 5/0/0/0px, fill Gray/Dark Mode/Sidebar Channels, effect [drop_shadow 0px offset 0 1 #0000000D]
+      - FRAME "Server Info", 181x40px, horizontal pad 8 8 8 8px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/top
+        - FRAME "Text", 165x24px, horizontal pad 10 5 10 5px gap 10px align min/center sizing W:fill H:fill, constraints left/top, radius 3px, fill Gray/Dark Mode/Server List and Title Bar
+          - TEXT "Find or start a conversation", 126x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11px]
+  - TEXT "Boost Progress Bar", 232x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Boost Progress Bar", 207x122px, vertical pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "LVL3=False", 175x37px, constraints left/top, fill Gray/Dark Mode/Sidebar Channels
+      - TEXT "GOAL: LVL 3", 52x11px, constraints left/top, fill Gray/White, text [Whitney Bold, 9.5px]
+      - RECTANGLE "Slider", 156x3px, constraints scale/top, radius 6969px, fill gradient_linear(#3F70DD 0% | #B377F3 100%)
+      - FRAME "Text", 61x11px, horizontal pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints right/center
+        - TEXT "14/14", 24x11px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Semibold Semibold, 9.5px]
+        - TEXT "Boosts", 27x11px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 9.5px]
+        - INSTANCE "Dropdown", 6x6px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 3.33x6px, constraints scale/scale, fill Gray/Dark Mode/Icons
+      - RECTANGLE "Rectangle 15", 168x1px, constraints scale/bottom, fill #3B3D42
+      - GROUP "Emoji", 8.72x8.58px, constraints left/top [decorative, ~15 shapes]
+    - COMPONENT "LVL3=True", 175x37px, constraints left/top, fill Gray/Dark Mode/Sidebar Channels
+      - TEXT "GOAL: LVL 3", 52x11px, constraints left/top, fill Gray/White, text [Whitney Bold, 9.5px]
+      - FRAME "Slider", 151x3px, constraints scale/top, radius 6969px, fill Gray/Dark Mode/Tooltips and Userprofile
+        - RECTANGLE "Slider", 141x3px, constraints left/top, radius 6969px, fill gradient_linear(#3F70DD 0% | #B377F3 100%)
+      - FRAME "Text", 60x11px, horizontal pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints right/center
+        - TEXT "13/14", 23x11px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Semibold Semibold, 9.5px]
+        - TEXT "Boosts", 27x11px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 9.5px]
+        - INSTANCE "Dropdown", 6x6px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 3.33x6px, constraints scale/scale, fill Gray/Dark Mode/Icons
+      - RECTANGLE "Rectangle 15", 164x1px, constraints scale/bottom, fill #3B3D42
+  - INSTANCE "Sub-type", 111x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 111x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Channels", 391x356px, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Type=Events, Selected=True", 170x28px, horizontal pad 7 9 7 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #34373C
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Events", 13x14.44px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "Events", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Events, Selected=False", 170x28px, horizontal pad 7 9 7 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Events", 13x14.44px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "Events", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Threads, Selected=True", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #34373C
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Threads", 13x12.87px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "Active Threads", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Threads, Selected=False", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Threads", 13x12.87px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "Active Threads", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Home, Selected=True", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Selected Channel
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Home", 13x11.05px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+      - TEXT "home", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Home, Selected=False", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Home", 13x11.05px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+      - TEXT "home", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Rules, Selected=True", 170x28px, horizontal pad 7 9 7 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Selected Channel
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Rules", 13x14px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+      - TEXT "rules", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC
+    - COMPONENT "Type=Rules, Selected=False", 170x28px, horizontal pad 7 9 7 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Rules", 13x14px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+      - TEXT "rules", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=News, Selected=True", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Selected Channel
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "News", 13x10.8px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "news", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC
+    - COMPONENT "Type=News, Selected=False", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "News", 13x10.8px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "news", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Text, Selected=True", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Selected Channel
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Text", 13x12px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "text", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC
+    - COMPONENT "Type=Text, Selected=False", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Text", 13x12px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "text", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Forum, Selected=True", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Selected Channel
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Forum", 13x12.1px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "forum", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC
+    - COMPONENT "Type=Forum, Selected=False", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Forum", 13x12.1px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "forum", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Hub, Selected=True", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Selected Channel
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Hub", 13x13px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "hub", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Hub, Selected=False", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Hub", 13x13px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "hub", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Voice, Selected=True", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Selected Channel
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Voice", 13x12.27px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "voice", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC
+    - COMPONENT "Type=Voice, Selected=False", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Voice", 13x12.27px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "voice", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+    - COMPONENT "Type=Stage, Selected=True", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Selected Channel
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stage", 13x10.63px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "stage", 106x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC
+    - COMPONENT "Type=Stage, Selected=False", 170x29px, horizontal pad 7.5 9 7.5 9px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stage", 13x10.63px, constraints center/center, fill Gray/Dark Mode/Channel Names
+      - TEXT "stage", 106x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.5px]
+      - BOOLEAN_OPERATION "Union", 12x10.73px, constraints left/top, fill #C0BCBC, opacity 0%
+
+Screen: Assets / Sidebar Components
+- FRAME "Sidebar Components", 450x737px, vertical pad 40 50 40 50px gap 23px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Gray/Dark Mode/Sidebar Profile Info, effect Modal Shadow
+  - INSTANCE "Group", 350x104px, vertical pad 0 0 0 0px gap 7px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Components", 350x46px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 35px], [heading]
+    - TEXT "These components are mainly used in ... . Duplicate a varian", 350x51px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 15px]
+  - INSTANCE "Sub-type", 197x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 197x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Category", 189x190px, vertical pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Open=False, Hover=False, Type=Category", 157x13px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown", 5x5px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 2.78x5px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+      - TEXT "CATEGORY", 135x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [ABC Ginto Normal Trial Medium, 10px]
+      - VECTOR "Create", 9x9px, constraints left/top, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Open=False, Hover=True, Type=Category", 157x13px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown", 5x5px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 2.78x5px, constraints scale/scale, fill #C0BCBC
+      - TEXT "CATEGORY", 135x13px, constraints left/top, fill #C0BCBC, text [ABC Ginto Normal Trial Medium, 10px]
+      - VECTOR "Create", 9x9px, constraints left/top, fill #C0BCBC
+    - COMPONENT "Open=True, Hover=False, Type=Category", 157x13px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown", 5x5px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 5x2.78px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+      - TEXT "CATEGORY", 135x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [ABC Ginto Normal Trial Medium, 10px]
+      - VECTOR "Create", 9x9px, constraints left/top, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Open=True, Hover=True, Type=Category", 157x13px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown", 5x5px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 5x2.78px, constraints scale/scale, fill #C0BCBC
+      - TEXT "CATEGORY", 135x13px, constraints left/top, fill #C0BCBC, text [ABC Ginto Normal Trial Medium, 10px]
+      - VECTOR "Create", 9x9px, constraints left/top, fill #C0BCBC
+    - COMPONENT "Open=False, Hover=False, Type=Default", 157x13px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "DIRECT MESSAGES", 144x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [ABC Ginto Normal Trial Medium, 10px]
+      - VECTOR "Create", 9x9px, constraints left/top, fill Gray/Dark Mode/Channel Names
+    - COMPONENT "Open=True, Hover=False, Type=Default", 157x13px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "DIRECT MESSAGES", 144x13px, constraints left/top, fill #C0BCBC, text [ABC Ginto Normal Trial Medium, 10px]
+      - VECTOR "Create", 9x9px, constraints left/top, fill #C0BCBC
+  - INSTANCE "Sub-type", 152x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 152x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Icons", 188.13x54px, horizontal pad 20 20 20 20px gap 14px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Type=Mute, Disabled=False", 9.8x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "User / Mute / False", 9.8x14px, constraints scale/scale, fill Gray/Dark Mode/Icons
+    - COMPONENT "Type=Mute, Disabled=True", 12.6x14px, constraints left/top
+      - BOOLEAN_OPERATION "Union", 9.8x14px, constraints scale/scale, fill Gray/Dark Mode/Icons
+      - VECTOR "Vector", 12.6x12.6px, constraints scale/scale, fill CTA Colors/Red
+    - COMPONENT "Type=Deafen, Disabled=True", 13.73x14px, constraints left/top
+      - BOOLEAN_OPERATION "Union", 12.95x12.95px, constraints scale/scale, fill Gray/Dark Mode/Icons
+      - VECTOR "Vector", 13.73x13.73px, constraints scale/scale, fill CTA Colors/Red
+    - COMPONENT "Type=Deafen, Disabled=False", 14x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "User / Deafen / False", 14x14px, constraints scale/scale, fill Gray/Dark Mode/Icons
+    - COMPONENT "Type=Settings, Disabled=False", 14x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "User / Mute / False", 14x14px, constraints scale/scale, fill Gray/Dark Mode/Icons
+    - COMPONENT "Type=Settings, Disabled=True", 14x14px, constraints left/top, fill #FFFFFF
+      - VECTOR "User / Settings / True", 14x14px, constraints scale/scale, fill Gray/Dark Mode/Icons
+  - INSTANCE "Sub-type", 143x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 143x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - FRAME "User Profile", 212x72px, vertical pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Sidebar Profile", 180x40px, constraints left/top, fill Gray/Dark Mode/Sidebar Profile Info
+      - FRAME "User", 66x28px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "User Avatar", 28x28px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 28x28.41px, constraints scale/scale
+          - ELLIPSE "Ellipse 1", 24.8x24.75px, constraints scale/scale, fill image(hash: efca99a2472f730b73a2dcd2ac3017d279185497)
+          - INSTANCE "Status", 8x8.12px, constraints scale/scale
+            - ELLIPSE "Circle Outline", 8x8.12px, constraints scale/scale, fill Gray/Dark Mode/Sidebar Profile Info
+            - VECTOR "online", 4.8x4.87px, constraints scale/scale, fill Green
+        - FRAME "Name", 34x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "muatex", 34x13px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 11px]
+          - TEXT "#0001", 27x11px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 9.5px]
+      - FRAME "Setting Icons", 61.8x14px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "Icons", 9.8x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "User / Mute / False", 9.8x14px, constraints scale/scale, fill Gray/Dark Mode/Icons
+        - INSTANCE "Icons", 14x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "User / Deafen / False", 14x14px, constraints scale/scale, fill Gray/Dark Mode/Icons
+        - INSTANCE "Icons", 14x14px, constraints left/top, fill #FFFFFF
+          - VECTOR "User / Mute / False", 14x14px, constraints scale/scale, fill Gray/Dark Mode/Icons
+
+Screen: Assets / Message Components
+- FRAME "Message Components", 688x2489px, vertical pad 40 50 40 50px gap 23px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Gray/Dark Mode/Sidebar Profile Info, effect Modal Shadow
+  - INSTANCE "Group", 588x87px, vertical pad 0 0 0 0px gap 7px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Components", 376x46px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 35px], [heading]
+    - TEXT "These components are mainly used in ... . Duplicate a varian", 588x34px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 15px]
+  - INSTANCE "Sub-type", 227x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+    - TEXT "Sub-type", 227x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT "Reply", 140.5x14px, horizontal pad 0 1 0 18px gap 2px align min/max sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector 2", 24.5x8px, constraints right/center, radius 5px, stroke Gray/Dark Mode/Channel Names 1px
+    - FRAME "Image and Text", 95x14px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints right/center
+      - INSTANCE "User Avatar", 14x14px, constraints left/top, fill #FFFFFF, opacity 90%
+        - ELLIPSE "Ellipse 2", 14x14.2px, constraints scale/scale
+        - ELLIPSE "Ellipse 1", 12.4x12.38px, constraints scale/scale, fill image(hash: efca99a2472f730b73a2dcd2ac3017d279185497)
+      - FRAME "Reply Text", 79x12px, horizontal pad 0 0 0 0px gap 3px align min/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "@Muatex", 42x12px, constraints left/top, fill Gray/White, text [Whitney Bold, 10px], opacity 80%
+        - TEXT "Message", 34x10px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 9px], opacity 50%
+  - COMPONENT "Message", 144x35px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "User Avatar", 35x35px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 2", 35x35.51px, constraints scale/scale
+      - ELLIPSE "Ellipse 1", 31x30.94px, constraints scale/scale, fill image(hash: efca99a2472f730b73a2dcd2ac3017d279185497)
+    - FRAME "Text", 100x31px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Username", 100x13px, horizontal pad 0 0 0 0px gap 6px align min/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Muatex", 38x13px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 11.5px]
+        - TEXT "Today at 09:41", 56x10px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 9px]
+      - FRAME "Message", 44x13px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Message", 44x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11.5px]
+  - TEXT "Embed Container", 210x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT "Embed Container", 333.5x406.5px, vertical pad 0 0 0 2.5px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill CTA Colors/Blurple/Main
+    - FRAME "Gray Container", 331x406.5px, vertical pad 14 13.5 17 13.5px gap 6px sizing W:fixed H:fixed, constraints left/top, radius 0/2/2/0px, fill Gray/Dark Mode/Sidebar Channels
+      - INSTANCE "Author", 86x18px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 3", 18x18px, constraints left/top, fill image(hash: 458a4a43c4bce080d25cdb2c07db10256f590549)
+        - TEXT "Lorem Ipsum", 62x13px, constraints left/top, fill Gray/White, text [Whitney Bold, 11px]
+      - INSTANCE "Title", 152x15px, constraints left/top, fill #FFFFFF
+        - TEXT "Lorem Ipsum dolor sit amet", 152x15px, constraints scale/scale, fill Gray/White, text [Whitney Bold, 13px]
+      - INSTANCE "Description", 304x1px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Don", 304x1px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11px]
+      - INSTANCE "Fields", 290x120px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Inline Field", 140x120px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Field", 25x14px, constraints left/top, fill Gray/White, text [Whitney Bold, 12px]
+          - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Don", 130x104px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11px]
+        - FRAME "Inline Field", 140x120px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Field", 25x14px, constraints left/top, fill Gray/White, text [Whitney Bold, 12px]
+          - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Don", 130x104px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11px]
+      - VECTOR "Divider", 12.5x1.5px, constraints left/top, stroke Gray/Dark Mode/Sidebar Channels 1px
+      - INSTANCE "Embed Image", 300x169px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Stock", 300x169px, constraints scale/scale, radius 4px, fill image(hash: d158e58229a87acd65e78367ad05ff4419358b38)
+      - INSTANCE "Footer", 155x15px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 3", 15x15px, constraints left/top, fill image(hash: 458a4a43c4bce080d25cdb2c07db10256f590549)
+        - TEXT "Lorem Ipsum", 55x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+        - TEXT "•", 5x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+        - TEXT "Today at 09:41", 62x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+  - TEXT "Embed Text", 142x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Embed Text", 331x308px, vertical pad 14 13.5 17 13.5px gap 6px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Sidebar Channels
+    - COMPONENT "Type=Title", 152x15px, constraints left/top, fill #FFFFFF
+      - TEXT "Lorem Ipsum dolor sit amet", 152x15px, constraints scale/scale, fill Gray/White, text [Whitney Bold, 13px]
+    - COMPONENT "Type=Description", 304x130px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Don", 304x130px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11px]
+    - COMPONENT "Type=Fields", 290x120px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Inline Field", 140x120px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Field", 25x14px, constraints left/top, fill Gray/White, text [Whitney Bold, 12px]
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Don", 130x104px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11px]
+      - FRAME "Inline Field", 140x120px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Field", 25x14px, constraints left/top, fill Gray/White, text [Whitney Bold, 12px]
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Don", 130x104px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11px]
+  - TEXT "Footer & Author", 196x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Footer and Author", 182x146px, vertical pad 14 13.5 17 13.5px gap 6px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Sidebar Channels
+    - COMPONENT "Type=Footer, Image=false, Timestamp=false", 55x12px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem Ipsum", 55x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+    - COMPONENT "Type=Footer, Image=false, Timestamp=true", 134x12px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem Ipsum", 55x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+      - TEXT "•", 5x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+      - TEXT "Today at 09:41", 62x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+    - COMPONENT "Type=Footer, Image=true, Timestamp=true", 155x15px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 3", 15x15px, constraints left/top, fill image(hash: 458a4a43c4bce080d25cdb2c07db10256f590549)
+      - TEXT "Lorem Ipsum", 55x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+      - TEXT "•", 5x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+      - TEXT "Today at 09:41", 62x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+    - COMPONENT "Type=Footer, Image=true, Timestamp=false", 76x15px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 3", 15x15px, constraints left/top, fill image(hash: 458a4a43c4bce080d25cdb2c07db10256f590549)
+      - TEXT "Lorem Ipsum", 55x12px, constraints left/top, fill Gray/White, text [Whitney Medium, 10px]
+    - COMPONENT "Type=Author, Image=true, Timestamp=false", 86x18px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 3", 18x18px, constraints left/top, fill image(hash: 458a4a43c4bce080d25cdb2c07db10256f590549)
+      - TEXT "Lorem Ipsum", 62x13px, constraints left/top, fill Gray/White, text [Whitney Bold, 11px]
+    - COMPONENT "Type=Author, Image=false, Timestamp=false", 62x13px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem Ipsum", 62x13px, constraints left/top, fill Gray/White, text [Whitney Bold, 11px]
+  - INSTANCE "Sub-type", 165x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+    - TEXT "Sub-type", 165x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT "Embed Image", 300x169px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Stock", 300x169px, constraints scale/scale, radius 4px, fill image(hash: d158e58229a87acd65e78367ad05ff4419358b38)
+  - INSTANCE "Sub-type", 211x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+    - TEXT "Sub-type", 211x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Button", 306x218px, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Type=Primary, Emoji=False, Hover=False", 50x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Blurple/Main
+      - FRAME "Content", 28x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Primary, Emoji=False, Hover=True", 50x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Blurple/Hover
+      - FRAME "Content", 28x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Primary, Emoji=True, Hover=False", 65x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Blurple/Main
+      - FRAME "Content", 43x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Primary, Emoji=True, Hover=True", 65x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Blurple/Hover
+      - FRAME "Content", 43x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Success, Emoji=False, Hover=False", 50x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Green
+      - FRAME "Content", 28x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Success, Emoji=False, Hover=True", 50x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #2D7D46
+      - FRAME "Content", 28x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Success, Emoji=True, Hover=False", 65x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Green
+      - FRAME "Content", 43x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Success, Emoji=True, Hover=True", 65x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #2D7D46
+      - FRAME "Content", 43x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Secondary, Emoji=False, Hover=False", 50x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Secondary
+      - FRAME "Content", 28x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Secondary, Emoji=False, Hover=True", 50x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #5D6269
+      - FRAME "Content", 28x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Link, Emoji=False, Hover=False", 64x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Secondary
+      - FRAME "Content", 42x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+        - VECTOR "Link", 9x9px, constraints left/top, fill Gray/White
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Link, Emoji=False, Hover=True", 64x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #5D6269
+      - FRAME "Content", 42x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+        - VECTOR "Link", 9x9px, constraints left/top, fill Gray/White
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Secondary, Emoji=True, Hover=False", 65x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Secondary
+      - FRAME "Content", 43x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Secondary, Emoji=True, Hover=True", 65x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #5D6269
+      - FRAME "Content", 43x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Link, Emoji=True, Hover=False", 79x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Secondary
+      - FRAME "Content", 57x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+        - VECTOR "Link", 9x9px, constraints left/top, fill Gray/White
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Link, Emoji=True, Hover=True", 79x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #5D6269
+      - FRAME "Content", 57x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+        - VECTOR "Link", 9x9px, constraints left/top, fill Gray/White
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Destructive, Emoji=False, Hover=False", 50x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Red
+      - FRAME "Content", 28x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Destructive, Emoji=False, Hover=True", 50x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #C03537
+      - FRAME "Content", 28x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Destructive, Emoji=True, Hover=False", 65x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Red
+      - FRAME "Content", 43x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+    - COMPONENT "Type=Destructive, Emoji=True, Hover=True", 65x21px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #C03537
+      - FRAME "Content", 43x11px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 10x10px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Button", 28x11px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 9.5px]
+      - RECTANGLE "Min Width", 21x0px, constraints left/top
+  - INSTANCE "Sub-type", 101x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+    - TEXT "Sub-type", 101x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Selector", 332x216.5px, vertical pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Property 1=Seector", 300x32px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Gray/Dark Mode/Tooltips and Userprofile, stroke #202225 1px
+      - FRAME "Content", 55x13px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Emoji", 12x12px, constraints left/top, radius 1px, fill #FFFFFF80
+        - TEXT "Selector", 38x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11px]
+      - INSTANCE "Dropdown", 9x9px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 9x5px, constraints scale/scale, fill Gray/Dark Mode/Text
+    - COMPONENT "Property 1=Context", 300x136.5px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 2px, stroke Gray/Dark Mode/Tooltips and Userprofile 1px
+      - FRAME "Selection", 300x45.5px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill Gray/Dark Mode/Server List and Title Bar
+        - FRAME "Content", 64x25.5px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Emoji", 12x12px, constraints left/top, radius 1px, fill #FFFFFF80
+          - FRAME "Text", 44x25.5px, vertical pad 0 0 0 0px gap 3.5px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Selection", 44x13px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 11px]
+            - TEXT "Description", 40x9px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 8px]
+        - INSTANCE "Dropdown", 9x9px, constraints left/top, fill #FFFFFF, opacity 0%
+          - BOOLEAN_OPERATION "Union", 9x5px, constraints scale/scale, fill Gray/Dark Mode/Text
+      - FRAME "Selection", 300x45.5px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill Gray/Dark Mode/Tooltips and Userprofile
+        - FRAME "Content", 64x25.5px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Emoji", 12x12px, constraints left/top, radius 1px, fill #FFFFFF80
+          - FRAME "Text", 44x25.5px, vertical pad 0 0 0 0px gap 3.5px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Selection", 44x13px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 11px]
+            - TEXT "Description", 40x9px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 8px]
+        - INSTANCE "Dropdown", 9x9px, constraints left/top, fill #FFFFFF, opacity 0%
+          - BOOLEAN_OPERATION "Union", 9x5px, constraints scale/scale, fill Gray/Dark Mode/Text
+      - FRAME "Selection", 300x45.5px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill Gray/Dark Mode/Tooltips and Userprofile
+        - FRAME "Content", 64x25.5px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Emoji", 12x12px, constraints left/top, radius 1px, fill #FFFFFF80
+          - FRAME "Text", 44x25.5px, vertical pad 0 0 0 0px gap 3.5px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Selection", 44x13px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 11px]
+            - TEXT "Description", 40x9px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 8px]
+        - INSTANCE "Dropdown", 9x9px, constraints left/top, fill #FFFFFF, opacity 0%
+          - BOOLEAN_OPERATION "Union", 9x5px, constraints scale/scale, fill Gray/Dark Mode/Text
+  - INSTANCE "Sub-type", 49x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+    - TEXT "Sub-type", 49x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT "Gift", 588x154px, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - FRAME "Text", 287x14px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Muatex#0001", 76x14px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Bold, 12px]
+      - TEXT "has gifted you a subscription for", 164x14px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 12px]
+      - TEXT "1 month!", 47x14px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Bold, 12px]
+    - TEXT "Expires in 48 hours", 90x13px, constraints left/top, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 11.14px]
+    - TEXT "You’ve been gifted a subscription!", 221x18px, constraints left/top, fill Gray/White, text [Whitney Bold, 15.26px]
+    - FRAME "Image", 271.5x154px, constraints left/top, fill Gray/White
+      - RECTANGLE "Rectangle 1", 271.5x154px, constraints scale/scale, fill image(hash: 4ee5850dc4677c65bcc56fdf726c92e2d2559818)
+    - INSTANCE "Button", 70.45x28.84px, vertical pad 5 11 5 11px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Green
+      - FRAME "Content", 40x15px, horizontal pad 0 0 0 0px gap 6.92px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Button", 40x15px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 13.15px]
+      - RECTANGLE "Min Width", 29.07x0px, constraints left/top
+
+Screen: Assets / App Components
+- FRAME "App Components", 1175x1084px, vertical pad 40 50 40 50px gap 23px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Gray/Dark Mode/Sidebar Profile Info, effect Modal Shadow
+  - INSTANCE "Group", 1075x70px, vertical pad 0 0 0 0px gap 7px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Components", 295x46px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 35px], [heading]
+    - TEXT "These components are mainly used in ... . Duplicate a varian", 1075x17px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 15px]
+  - INSTANCE "Sub-type", 206x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 206x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Dropdown", 66x45px, horizontal pad 16 16 16 16px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Open=False", 9x9px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 9x5px, constraints scale/scale, fill Gray/White
+    - COMPONENT "Open=True", 9x9px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 9x9px, constraints scale/scale, fill Gray/White
+  - INSTANCE "Sub-type", 172x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 172x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Context Option", 189x109px, vertical pad 31.5 36 31.5 36px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Dropdown=True", 117x13px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Option", 100x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11.5px]
+      - INSTANCE "Dropdown", 7x7px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 3.89x7px, constraints scale/scale, fill Gray/Dark Mode/Text
+    - COMPONENT "Dropdown=False", 117x13px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Option", 100x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11.5px]
+      - INSTANCE "Dropdown", 7x7px, constraints left/top, fill #FFFFFF, opacity 0%
+        - BOOLEAN_OPERATION "Union", 3.89x7px, constraints scale/scale, fill Gray/Dark Mode/Text
+  - FRAME "Context Menu", 189x230px, horizontal pad 28.5 23 28.5 23px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Context Menu", 143x173px, vertical pad 15 10 15 10px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill Gray/Dark Mode/Tooltips and Userprofile, effect Modal Shadow
+      - INSTANCE "Context Option", 117x13px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Option", 100x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11.5px]
+        - INSTANCE "Dropdown", 7x7px, constraints left/top, fill #FFFFFF, opacity 0%
+          - BOOLEAN_OPERATION "Union", 3.89x7px, constraints scale/scale, fill Gray/Dark Mode/Text
+      - INSTANCE "Context Option", 117x13px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Option", 100x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11.5px]
+        - INSTANCE "Dropdown", 7x7px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 3.89x7px, constraints scale/scale, fill Gray/Dark Mode/Text
+      - VECTOR "Divider", 123x0px, constraints left/top, stroke Gray/Dark Mode/Dividers 1px
+      - INSTANCE "Context Option", 117x13px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Option", 100x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11.5px]
+        - INSTANCE "Dropdown", 7x7px, constraints left/top, fill #FFFFFF, opacity 0%
+          - BOOLEAN_OPERATION "Union", 3.89x7px, constraints scale/scale, fill Gray/Dark Mode/Text
+      - INSTANCE "Context Option", 117x13px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Option", 100x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11.5px]
+        - INSTANCE "Dropdown", 7x7px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 3.89x7px, constraints scale/scale, fill Gray/Dark Mode/Text
+      - VECTOR "Vector", 123x0px, constraints left/top, stroke Gray/Dark Mode/Dividers 1px
+      - INSTANCE "Context Option", 117x13px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Option", 100x13px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 11.5px]
+        - INSTANCE "Dropdown", 7x7px, constraints left/top, fill #FFFFFF, opacity 0%
+          - BOOLEAN_OPERATION "Union", 3.89x7px, constraints scale/scale, fill Gray/Dark Mode/Text
+  - INSTANCE "Sub-type", 156x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 156x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT "Message Bar", 931.12x39px, horizontal pad 9 13 9 13px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 7px, fill Gray/Dark Mode/Message Bar
+    - VECTOR "Vector", 16x16px, constraints left/top, fill Gray/Dark Mode/Icons
+    - TEXT "This is an example message.", 724x14px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 12px]
+    - FRAME "Icons", 141.12x21px, horizontal pad 0 0 0 0px gap 12px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~10 shapes]
+  - INSTANCE "Sub-type", 103x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 103x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Title Bar", 1075x172px, vertical pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Style=Channel", 1043x36px, constraints left/top, fill Gray/Dark Mode/Primary Chat Area, effect [drop_shadow 0px offset 0 1 #0000000D]
+      - FRAME "Text", 120x18px, horizontal pad 0 0 0 0px gap 11px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 47x16px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+            - VECTOR "Text", 13x12px, constraints center/center, fill Gray/Dark Mode/Channel Names
+          - TEXT "chat", 27x16px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 12.27px]
+        - RECTANGLE "Rectangle 16", 1x18px, constraints left/top, fill #42454A
+        - TEXT "Description", 50x12px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 10.08px]
+      - FRAME "Icons", 286x18px, horizontal pad 0 0 0 0px gap 15px align max/center sizing W:fixed H:fixed, constraints right/center
+        - VECTOR "Vector", 16x15px, constraints scale/scale, fill Gray/Dark Mode/Icons
+        - VECTOR "Vector", 14x14.1px, constraints left/top, fill Gray/Dark Mode/Icons
+        - VECTOR "Vector", 14x14.38px, constraints left/top, fill Gray/Dark Mode/Icons
+        - BOOLEAN_OPERATION "Union", 16x12.8px, constraints left/top, fill Gray/White
+        - FRAME "Default", 166x18px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 108x18px, horizontal pad 4 5 4 5px gap 10px align space_between/max sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray/Dark Mode/Server List and Title Bar
+            - TEXT "Search", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 10px]
+            - VECTOR "Vector", 10x10px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+          - VECTOR "Vector", 14x14px, constraints left/top, fill Gray/Dark Mode/Icons
+          - VECTOR "Vector", 14x14.24px, constraints left/top, fill Gray/Dark Mode/Icons
+    - COMPONENT "Style=Group", 1043x36px, constraints left/top, fill Gray/Dark Mode/Primary Chat Area, effect [drop_shadow 0px offset 0 1 #0000000D]
+      - FRAME "Text", 56x16px, horizontal pad 0 0 0 0px gap 11px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 56x16px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 13x10.4px, constraints left/top, fill Gray/Dark Mode/Channel Names
+          - TEXT "group", 36x16px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 12.27px]
+      - FRAME "Icons", 318.86x18px, horizontal pad 0 0 0 0px gap 15px align max/center sizing W:fixed H:fixed, constraints right/center
+        - VECTOR "Vector", 13.86x14px, constraints left/top, fill Gray/Dark Mode/Icons
+        - VECTOR "Vector", 16x12px, constraints left/top, fill Gray/Dark Mode/Icons
+        - VECTOR "Vector", 14x14.38px, constraints left/top, fill Gray/Dark Mode/Icons
+        - VECTOR "Union", 18x17px, constraints left/top, fill Gray/Dark Mode/Icons
+        - BOOLEAN_OPERATION "Union", 16x12.8px, constraints left/top, fill Gray/White
+        - FRAME "Default", 166x18px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 108x18px, horizontal pad 4 5 4 5px gap 10px align space_between/max sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray/Dark Mode/Server List and Title Bar
+            - TEXT "Search", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Channel Names, text [Whitney Medium, 10px]
+            - VECTOR "Vector", 10x10px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+          - VECTOR "Vector", 14x14px, constraints left/top, fill Gray/Dark Mode/Icons
+          - VECTOR "Vector", 14x14.24px, constraints left/top, fill Gray/Dark Mode/Icons
+    - COMPONENT "Style=Friends", 1043x36px, constraints left/top, fill Gray/Dark Mode/Primary Chat Area, effect [drop_shadow 0px offset 0 1 #0000000D]
+      - FRAME "Text", 383x18px, horizontal pad 0 0 0 0px gap 11px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 65x16px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Channel Icons", 13x14px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13x10.15px, constraints scale/scale, fill Gray/Dark Mode/Channel Names
+          - TEXT "Friends", 45x16px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 12.27px]
+        - RECTANGLE "Rectangle 16", 1x18px, constraints left/top, fill #42454A
+        - FRAME "Frame 10", 295x18px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Online", 45x18px, horizontal pad 1.5 7 3.5 7px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #3E4249
+            - TEXT "Online", 31x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11px]
+          - FRAME "All", 27x18px, horizontal pad 1.5 7 3.5 7px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #3E4249
+            - TEXT "All", 13x13px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 11px]
+          - FRAME "Pending", 51x18px, horizontal pad 1.5 7 3.5 7px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #3E4249
+            - TEXT "Pending", 37x13px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 11px]
+          - FRAME "Blocked", 51x18px, horizontal pad 1.5 7 3.5 7px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #3E4249
+            - TEXT "Blocked", 37x13px, constraints left/top, fill Gray/Dark Mode/Icons, text [Whitney Medium, 11px]
+          - FRAME "Add", 65x18px, horizontal pad 1.5 7 3.5 7px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, radius 2px, fill CTA Colors/Green
+            - TEXT "Add Friend", 51x13px, constraints left/top, fill Gray/White, text [Whitney Medium, 11px]
+      - FRAME "Icons", 59x18px, horizontal pad 0 0 0 0px gap 15px align max/center sizing W:fixed H:fixed, constraints right/center
+        - RECTANGLE "Rectangle 16", 1x18px, constraints left/top, fill #42454A
+        - VECTOR "Vector", 14x14px, constraints left/top, fill Gray/Dark Mode/Icons
+        - VECTOR "Vector", 14x14.24px, constraints left/top, fill Gray/Dark Mode/Icons
+
+Screen: Assets / Modal Components
+- FRAME "Modal Components", 850x2571.55px, vertical pad 40 50 40 50px gap 23px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Gray/Dark Mode/Sidebar Profile Info, effect Modal Shadow
+  - INSTANCE "Group", 750x87px, vertical pad 0 0 0 0px gap 7px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Components", 332x46px, constraints left/top, fill Gray/White, text [ABC Ginto Normal Trial Bold, 35px], [heading]
+    - TEXT "These components are mainly used in ... . Duplicate a varian", 750x34px, constraints left/top, fill Gray/Dark Mode/Text, text [Whitney Medium, 15px]
+  - INSTANCE "Sub-type", 97x33px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Sub-type", 97x33px, constraints scale/scale, fill Gray/White, text [ABC Ginto Normal Trial Bold, 25px], [heading]
+  - COMPONENT_SET "Modal Buttons", 342x583.55px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Gray/Dark Mode/Server List and Title Bar
+    - COMPONENT "Button Count=3, Color=Primary", 302x27.95px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+      - FRAME "Right Buttons", 109.49x27.95px, horizontal pad 0 0 0 0px gap 17px align max/center sizing W:fixed H:fixed, constraints right/bottom
+        - TEXT "Cancel", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+        - INSTANCE "Button", 63.49x27.95px, vertical pad 5 15 5 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2.12px, fill CTA Colors/Blurple/Main
+          - FRAME "Content", 29x12px, horizontal pad 0 0 0 0px gap 7.97px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 29x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10px]
+          - RECTANGLE "Min Width", 33.49x0px, constraints left/top
+    - COMPONENT "Button Count=2, Color=Primary", 302x27.95px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px], opacity 0%
+      - FRAME "Right Buttons", 109.49x27.95px, horizontal pad 0 0 0 0px gap 17px align max/center sizing W:fixed H:fixed, constraints right/bottom
+        - TEXT "Cancel", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+        - INSTANCE "Button", 63.49x27.95px, vertical pad 5 15 5 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2.12px, fill CTA Colors/Blurple/Main
+          - FRAME "Content", 29x12px, horizontal pad 0 0 0 0px gap 7.97px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 29x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10px]
+          - RECTANGLE "Min Width", 33.49x0px, constraints left/top
+    - COMPONENT "Button Count=1, Color=Primary", 302x27.95px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px], opacity 0%
+      - FRAME "Right Buttons", 109.49x27.95px, horizontal pad 0 0 0 0px gap 17px align max/center sizing W:fixed H:fixed, constraints right/bottom
+        - TEXT "Cancel", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px], opacity 0%
+        - INSTANCE "Button", 63.49x27.95px, vertical pad 5 15 5 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2.12px, fill CTA Colors/Blurple/Main
+          - FRAME "Content", 29x12px, horizontal pad 0 0 0 0px gap 7.97px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 29x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10px]
+          - RECTANGLE "Min Width", 33.49x0px, constraints left/top
+    - COMPONENT "Button Count=3, Color=Success", 302x27.95px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+      - FRAME "Right Buttons", 109.49x27.95px, horizontal pad 0 0 0 0px gap 17px align max/center sizing W:fixed H:fixed, constraints right/bottom
+        - TEXT "Cancel", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+        - INSTANCE "Button", 63.49x27.95px, vertical pad 5 15 5 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2.12px, fill CTA Colors/Green
+          - FRAME "Content", 29x12px, horizontal pad 0 0 0 0px gap 7.97px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 29x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10px]
+          - RECTANGLE "Min Width", 33.49x0px, constraints left/top
+    - COMPONENT "Button Count=2, Color=Success", 302x27.95px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px], opacity 0%
+      - FRAME "Right Buttons", 109.49x27.95px, horizontal pad 0 0 0 0px gap 17px align max/center sizing W:fixed H:fixed, constraints right/bottom
+        - TEXT "Cancel", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+        - INSTANCE "Button", 63.49x27.95px, vertical pad 5 15 5 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2.12px, fill CTA Colors/Green
+          - FRAME "Content", 29x12px, horizontal pad 0 0 0 0px gap 7.97px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 29x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10px]
+          - RECTANGLE "Min Width", 33.49x0px, constraints left/top
+    - COMPONENT "Button Count=1, Color=Success", 302x27.95px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px], opacity 0%
+      - FRAME "Right Buttons", 109.49x27.95px, horizontal pad 0 0 0 0px gap 17px align max/center sizing W:fixed H:fixed, constraints right/bottom
+        - TEXT "Cancel", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px], opacity 0%
+        - INSTANCE "Button", 63.49x27.95px, vertical pad 5 15 5 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2.12px, fill CTA Colors/Green
+          - FRAME "Content", 29x12px, horizontal pad 0 0 0 0px gap 7.97px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 29x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10px]
+          - RECTANGLE "Min Width", 33.49x0px, constraints left/top
+    - COMPONENT "Button Count=3, Color=Destructive", 302x27.95px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+      - FRAME "Right Buttons", 109.49x27.95px, horizontal pad 0 0 0 0px gap 17px align max/center sizing W:fixed H:fixed, constraints right/bottom
+        - TEXT "Cancel", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+        - INSTANCE "Button", 63.49x27.95px, vertical pad 5 15 5 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2.12px, fill CTA Colors/Red
+          - FRAME "Content", 29x12px, horizontal pad 0 0 0 0px gap 7.97px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 29x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10px]
+          - RECTANGLE "Min Width", 33.49x0px, constraints left/top
+    - COMPONENT "Button Count=2, Color=Destructive", 302x27.95px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px], opacity 0%
+      - FRAME "Right Buttons", 109.49x27.95px, horizontal pad 0 0 0 0px gap 17px align max/center sizing W:fixed H:fixed, constraints right/bottom
+        - TEXT "Cancel", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+        - INSTANCE "Button", 63.49x27.95px, vertical pad 5 15 5 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2.12px, fill CTA Colors/Red
+          - FRAME "Content", 29x12px, horizontal pad 0 0 0 0px gap 7.97px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 29x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10px]
+          - RECTANGLE "Min Width", 33.49x0px, constraints left/top
+    - COMPONENT "Button Count=1, Color=Destructive", 302x27.95px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px], opacity 0%
+      - FRAME "Right Buttons", 109.49x27.95px, horizontal pad 0 0 0 0px gap 17px align max/center sizing W:fixed H:fixed, constraints right/bottom
+        - TEXT "Cancel", 29x12px, constraints scale/scale, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px], opacity 0%
+        - INSTANCE "Button", 63.49x27.95px, vertical pad 5 15 5 15px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2.12px, fill CTA Colors/Red
+          - FRAME "Content", 29x12px, horizontal pad 0 0 0 0px gap 7.97px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 29x12px, constraints left/top, fill Gray/White, text [Whitney Semibold Semibold, 10px]
+          - RECTANGLE "Min Width", 33.49x0px, constraints left/top
+    - COMPONENT "Button Count=3, Color=Promotional", 302x24px, horizontal pad 0 0 0 0px gap 162px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 21x12px, constraints center/bottom, fill Gray/Dark Mode/Text, text [Whitney Semibold Semibold, 10px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

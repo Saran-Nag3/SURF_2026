@@ -1,0 +1,138 @@
+---
+name: masterclass-variables-prototype-avan-ado-config-2023-by-lucas-marte-community
+source_file: Masterclass - Variables & Prototype avançado [Config 2023] By Lucas marte (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:54:42.211164+00:00
+---
+
+# Masterclass - Variables & Prototype avançado [Config 2023] By Lucas marte (Community) Design Guidelines
+
+## Source
+- Figma file: Masterclass - Variables & Prototype avançado [Config 2023] By Lucas marte (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:54:42.211164+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Background 2: [#696CE0]
+
+## Raw Colors (unstyled)
+- #000000: 15 uses
+- #FFFFFF: 15 uses
+- #7579FF: 3 uses
+- #D9D9D9: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Regular, 19.22px: 8 uses
+
+## Typography Hierarchy
+- 19.22px - Inter Regular, 19.22px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Ellipse 2
+- contador
+
+## Component Specs
+- Ellipse 2: size 72x72px, fill #FFFFFF
+- contador: size 88x33px, horizontal layout, padding 0 0 0 0px, gap 13px, align center/center, sizing W:fixed H:fixed, text [Inter SemiBold, 22.42px, Inter Bold, 19.22px]
+
+## Most-Used Styles
+- Background 2: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Like
+- FRAME "Like", 234x273px, constraints left/top, fill #FFFFFF
+  - FRAME "Component 1", 49x24px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "fi-rr-thumbs-up", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x20.57px, constraints scale/scale, fill #000000
+    - TEXT "0", 12x22px, constraints left/top, fill #000000, text [Inter Regular, 18px]
+
+Screen: Page 1 / Carrinho de compras
+- FRAME "Carrinho de compras", 395.63x370px, constraints left/top
+  - RECTANGLE "Rectangle 1", 395.63x370px, constraints left/top, radius 16.02px, fill #FFFFFF
+  - FRAME "Frame 5", 288x65.03px, horizontal pad 16.02 13 16.02 13px gap 16.02px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 16.02px, fill #F2F2F2
+    - TEXT "Quantidade", 102x22px, constraints left/top, fill #000000, text [Inter SemiBold, 18px]
+    - COMPONENT "contador", 88x33px, horizontal pad 0 0 0 0px gap 13px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "-", 11x27px, constraints left/top, fill #000000, text [Inter SemiBold, 22.42px]
+      - FRAME "Frame 11", 35x33px, horizontal pad 5 5 5 5px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF
+        - TEXT "1", 25x23px, constraints left/top, fill #000000, text [Inter Bold, 19.22px]
+      - TEXT "+", 16x27px, constraints left/top, fill #000000, text [Inter SemiBold, 22.42px]
+  - TEXT "Resumo da compra", 223x29px, constraints left/top, fill #000000, text [Inter SemiBold, 24px], [heading]
+  - FRAME "Frame 8", 280.3x23px, horizontal pad 0 0 0 0px gap 73.68px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Subtotal", 77x23px, constraints left/top, fill #000000, text [Inter Regular, 19.22px]
+    - FRAME "Frame 9", 58x23px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "R$", 25x23px, constraints left/top, fill #000000, text [Inter Regular, 19.22px]
+      - TEXT "40", 25x23px, constraints left/top, fill #000000, text [Inter Regular, 19.22px]
+  - FRAME "Frame 9", 112.12x23px, horizontal pad 0 0 0 0px gap 73.68px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Total", 45x23px, constraints left/top, fill #000000, text [Inter Regular, 19.22px]
+    - FRAME "Frame 9", 58x23px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "R$", 25x23px, constraints left/top, fill #000000, text [Inter Regular, 19.22px]
+      - TEXT "40", 25x23px, constraints left/top, fill #000000, text [Inter Regular, 19.22px]
+  - LINE "Line 1", 275.5x0px, constraints left/top, stroke #5F5F5F 1.6px
+
+Screen: Page 1 / Dark and Light
+- FRAME "Dark and Light", 395.63x370px, constraints left/top, fill #7579FF
+  - FRAME "mode", 213.94x30.43px, horizontal pad 0 0 0 0px gap 35.24px align center/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Light", 46x23px, constraints left/top, fill #FFFFFF, text [Inter Regular, 19.22px]
+    - FRAME "Frame 10", 54.46x30.43px, horizontal pad 4.81 6.41 4.81 6.41px gap 16.02px align min/center sizing W:fixed H:fixed, constraints left/top, radius 160.17px, fill #FFFFFF
+      - ELLIPSE "Ellipse 1", 20.82x20.82px, constraints left/top, fill Background 2
+    - TEXT "Dark", 43x23px, constraints left/top, fill #FFFFFF, text [Inter Regular, 19.22px], opacity 70%
+
+Screen: Page 1 / Show photo
+- FRAME "Show photo", 395.63x370px, constraints left/top
+  - VECTOR "Rectangle 1", 395.63x370px, constraints left/top, radius 16.02px, fill #7579FF
+  - FRAME "Frame 11", 175.86x36px, horizontal pad 0 0 0 0px gap 18.86px align min/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 2", 36x36px, constraints left/top, radius 8.57px, fill #9747FF, stroke #9747FF 1px
+    - TEXT "Mostrar foto", 121x25px, constraints left/top, fill #FFFFFF, text [Inter Regular, 20.57px]
+    - VECTOR "Vector 1", 17.5x14.5px, constraints left/top, stroke #FFFFFF 3px
+  - ELLIPSE "Ellipse 3", 99x99px, constraints left/top, fill #D9D9D9
+
+Screen: Page 1 / Dark mode
+- FRAME "Dark mode", 388x380px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 388x221px, constraints left/top, radius 10/10/0/0px, fill #D9D9D9
+  - FRAME "Frame 2", 388x159px, vertical pad 20 20 20 20px gap 16px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Vegano", 348x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+    - TEXT "Lorem ipsum dolor sit amet consectetur.", 348x19px, constraints left/top, fill #000000, text [Inter Regular, 16px]
+    - FRAME "Frame 1", 139x44px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #2DA77B
+      - TEXT "Ver mais", 65x19px, constraints left/top, fill #FFFFFF, text [Inter Regular, 16px]
+      - FRAME "fi-rr-arrow-small-right", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14x11.99px, constraints scale/scale, fill #FFFFFF
+
+Screen: Page 1 / Group 2
+- GROUP "Group 2", 1218x252px, constraints left/top
+  - RECTANGLE "Captura de Tela 2023-07-27 às 08.59 1", 891x184px, constraints left/top, fill image(hash: 229a1b71a96a697bb3046ad652e100b054b2502b)
+  - RECTANGLE "Rectangle 3", 321x184px, constraints left/top, fill #7579FF
+  - TEXT "Cupom de desconto", 164x21px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16.97px]
+  - TEXT "Por apenas: R$ 22,90", 251x29px, constraints left/top, fill #FFFFFF, text [Inter Bold, 24px], [heading]
+  - TEXT "Compre agora meu curso de Figma, cupom exclusivo para inscri", 931x29px, constraints left/top, fill #FFFFFF, text [Inter Bold, 24px], [heading]
+  - GROUP "Group 1", 245x50px, constraints left/top
+    - RECTANGLE "Rectangle 4", 245x50px, constraints left/top, fill #FFFFFF
+    - INSTANCE "fi-rr-arrow-right", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x12.62px, constraints scale/scale, fill #7579FF
+    - TEXT "Ver curso na Udemy", 164x21px, constraints left/top, fill #7579FF, text [Inter Medium, 16.97px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,813 @@
+---
+name: linkedin-ui-screens-community
+source_file: Linkedin UI Screens (Community)
+source_page: All pages (5): 🖼️ Cover, ___________________________________, 🌞 Light theme, ___________________________________, 🌚 Dark theme
+generated_at: 2026-07-02T20:48:24.303926+00:00
+---
+
+# Linkedin UI Screens (Community) Design Guidelines
+
+## Source
+- Figma file: Linkedin UI Screens (Community)
+- Figma page: All pages (5): 🖼️ Cover, ___________________________________, 🌞 Light theme, ___________________________________, 🌚 Dark theme
+- Extracted at: 2026-07-02T20:48:24.303926+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- dark_theme/Dark: [#031A31]
+- light_theme/Blue: [#0A66C2]
+- light_theme/BG Home: [#E9E5DF]
+- light_theme/Divider: [#E0DFDC]
+- dark_theme/Dark2: [#17162F]
+- light_theme/gold: [#C37D16]
+- light_theme/Dark: [#000000]
+- light_theme/White: [#FFFFFF]
+- light_theme/ava: [gradient_linear(#446F31 24% | #446F31 33% | #446F31FC 44% | #446F31C5 62% | #3B841B6F 79% | #3B841B00 100%)]
+- dark_theme/White: [#FFFFFF]
+- light_theme/Grey: [#585C60]
+- dark_theme/Grey: [#495159]
+- light_theme/BG: [#F3F2EF]
+- light_theme/Blue light: [#E8F3FF]
+- light_theme/Grey2: [#8C8C8C]
+- light_theme/Red: [#CC1016]
+- light_theme/Blue2: [#DCE6F1]
+- light_theme/Green: none
+- light_theme/ava2: [gradient_linear(#8244CB 24% | #8244CB 33% | #8244CBFC 44% | #8244CBCC 62% | #8244CB78 79% | #3B841B00 100% | #8244CB00 100%)]
+- light_theme/Black: [#1D2226]
+- dark_theme/Darck_blue: [#053361]
+
+## Raw Colors (unstyled)
+- #C4C4C4: 203 uses
+- #455154: 182 uses
+- #FFFFFF: 120 uses
+- #000000: 88 uses
+- #666666: 73 uses
+- #3E5155: 52 uses
+- #FFFFFF4D: 52 uses
+- #5F6163: 21 uses
+- #EBEBEB: 12 uses
+- #5D3B01: 8 uses
+- #8C8C8C: 8 uses
+- #ABABAB: 8 uses
+- #585C60: 6 uses
+- #060606: 5 uses
+- #0A66C2: 5 uses
+- #187583: 5 uses
+- #215B64: 5 uses
+- #7DDBF4: 5 uses
+- #A0B4B7: 5 uses
+- #BFD3D5: 5 uses
+- #DAE5E8: 5 uses
+- #FFFFFF33: 5 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Regular, 17px: 128 uses
+- Roboto Light, 17px: 78 uses
+- Roboto Regular, 18px: 64 uses
+- Roboto Light, 12px: 56 uses
+- Roboto Regular, 20px: 56 uses
+- Roboto Medium, 17px: 52 uses
+- Roboto Medium, 20px: 46 uses
+- Roboto Medium, 12px: 36 uses
+- Roboto Medium, 18px: 36 uses
+- SF Pro Text Semibold, 15px: 26 uses
+- Roboto Medium, 15px: 24 uses
+- Roboto Bold, 17px: 12 uses
+- Roboto Light, 18px: 12 uses
+- Roboto Light, 15px: 10 uses
+- Roboto Regular, 15px: 10 uses
+- Roboto Bold, 18px: 6 uses
+- Roboto Bold, 24px: 6 uses
+- Roboto Medium, 27px: 4 uses
+- Roboto Regular, 14px: 4 uses
+- Roboto Regular, 16px: 4 uses
+
+## Typography Hierarchy
+- 27px - Roboto Medium, 27px (raw)
+- 24px - Roboto Bold, 24px (raw)
+- 20px - Roboto Medium, 20px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 18px - Roboto Bold, 18px (raw)
+- 18px - Roboto Light, 18px (raw)
+- 18px - Roboto Medium, 18px (raw)
+- 18px - Roboto Regular, 18px (raw)
+- 17px - Roboto Bold, 17px (raw)
+- 17px - Roboto Light, 17px (raw)
+- 17px - Roboto Medium, 17px (raw)
+- 17px - Roboto Regular, 17px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 15px - Roboto Light, 15px (raw)
+- 15px - Roboto Medium, 15px (raw)
+- 15px - Roboto Regular, 15px (raw)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 14px - Roboto Regular, 14px (raw)
+- 12px - Roboto Light, 12px (raw)
+- 12px - Roboto Medium, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Primary Card: [drop_shadow 0px offset 0 0.33 #BDC5CD]
+- Secondary Card: [drop_shadow 0px offset 0 0.33 #CED5DC]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- bloc
+- Dashboard
+- opentowork
+- Navigation Bar
+- Top bar
+- Post
+- Diolog
+- tabl
+- Comments
+- Card
+- txt
+- info
+- list
+- dashboard
+
+## Component Specs
+- bloc: size 414x483px, fill light_theme/White, text [Roboto Light, 18px, Roboto Regular, 18px, Roboto Bold, 17px, Roboto Medium, 17px, Roboto Medium, 30px, Roboto Medium, 18px, Roboto Bold, 18px]
+- Dashboard: size 414x209px, fill light_theme/Blue2, text [Roboto Regular, 17px, Roboto Bold, 24px, Roboto Medium, 20px, Roboto LightItalic, 17px, Roboto Regular, 20px]
+- opentowork: size 64x64px
+- Navigation Bar: size 414x84px, fill #FFFFFF, text [Roboto Light, 12px]
+- Top bar: size 414x88px, text [SF Pro Text Semibold, 15px, Roboto Regular, 18px]
+- Post: size 414x344px, text [Roboto Regular, 15px, Roboto Regular, 20px, Roboto Medium, 15px, Roboto Regular, 17px, Roboto Medium, 17px, Roboto Medium, 18px]
+- Diolog: size 349x52px, text [Roboto Regular, 18px, Roboto Light, 17px, Roboto Medium, 18px, Roboto Medium, 12px]
+- tabl: size 414x74px, text [Roboto Light, 17px, Roboto Medium, 12px]
+- Comments: size 414x296px, fill light_theme/Blue light, text [Roboto Regular, 17px]
+- Card: size 182x295px, text [Roboto Light, 15px, Roboto Medium, 17px, Roboto Light, 12px, Roboto Medium, 15px]
+- txt (🌞 Light theme): size 414x63px, horizontal layout, padding 20 20 20 20px, gap 188px, align max/center, sizing W:fixed H:fixed, fill light_theme/White, text [Roboto Medium, 20px]
+- txt (🌞 Light theme): size 414x109px, text [Roboto Regular, 20px, Roboto Medium, 20px]
+- info: size 198x62px, text [Roboto Medium, 20px, Roboto Medium, 17px]
+- list (🌞 Light theme): size 142x21px, horizontal layout, padding 0 0 0 0px, gap 20px, align min/center, sizing W:fixed H:fixed, text [Roboto Regular, 18px]
+- txt (🌞 Light theme): size 414x83px, text [Roboto Regular, 20px]
+- list (🌞 Light theme): size 246x28px, text [Roboto Regular, 18px]
+- dashboard: size 414x326px, radius 4px, fill light_theme/White, stroke light_theme/BG Home 1px, text [Roboto Regular, 17px, Roboto Regular, 20px, Roboto Light, 40px]
+
+## Most-Used Styles
+- light_theme/Grey: 1044 uses
+- light_theme/White: 853 uses
+- light_theme/Dark: 378 uses
+- dark_theme/White: 189 uses
+- light_theme/Grey2: 174 uses
+- light_theme/Blue: 153 uses
+- dark_theme/Dark: 101 uses
+- light_theme/BG Home: 97 uses
+- light_theme/Green: 82 uses
+- light_theme/ava: 82 uses
+- light_theme/Divider: 71 uses
+- light_theme/ava2: 38 uses
+- light_theme/BG: 36 uses
+- light_theme/Blue2: 28 uses
+- Primary Card: 24 uses
+- light_theme/Red: 13 uses
+- light_theme/Blue light: 9 uses
+- Secondary Card: 8 uses
+- dark_theme/Dark2: 6 uses
+- light_theme/Black: 6 uses
+- dark_theme/Grey: 2 uses
+- light_theme/gold: 2 uses
+- dark_theme/Darck_blue: 1 use
+
+## Layout & Structure
+Screen: 🖼️ Cover / Cover
+- FRAME "Cover", 1200x660px, constraints scale/scale, fill gradient_linear(#30A9DD 0% | #0A66C2 100%)
+  - GROUP "Logo", 197x253px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Icon", 125x124px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 124x124px, constraints left/top, radius 25px, fill #FFFFFF, stroke #FFFFFF33 1px
+      - FRAME "mdi:linkedin", 124x124px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 93x93px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Instagram UI", 197x58px, constraints left/top, fill #FFFFFF, text [Inter Bold, 48px], [heading]
+    - TEXT "Title1", 130x31px, constraints left/top, fill #FFFFFF80, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "Rectangle", 375x812px, constraints left/top, radius 18px, fill image(hash: 901bd7bf10350d5f344588d5b4e4fa9f9331f8b0), effect [drop_shadow 6.17px offset 0 2.02 #0000000A, drop_shadow 14.83px offset 0 4.85 #0000000E, drop_shadow 27.92px offset 0 9.14 #00000012, drop_shadow 49.81px offset 0 16.31 #00000015, drop_shadow 93.16px offset 0 30.5 #0000001A, drop_shadow 223px offset 0 73 #00000024]
+  - RECTANGLE "Rectangle", 375x812px, constraints left/top, radius 18px, fill image(hash: d78c4e8f0518fcc91c432cef788ab8c1a7069fa1), effect [drop_shadow 10.99px offset 0 3.63 #00000009, drop_shadow 26.4px offset 0 8.71 #0000000D, drop_shadow 49.71px offset 0 16.4 #00000011, drop_shadow 88.68px offset 0 29.26 #00000014, drop_shadow 165.86px offset 0 54.73 #00000018, drop_shadow 397px offset 0 131 #00000021]
+
+Screen: 🌞 Light theme / Light theme
+- FRAME "Light theme", 2984x2919px, constraints left/top
+  - GROUP "Light theme", 2984x2919px, constraints left/top
+    - FRAME "linkedin_Dashboard", 414x896px, constraints left/top, fill light_theme/White
+      - INSTANCE "Top bar", 414x40px, constraints left/center
+        - RECTANGLE "Background", 414x88px, constraints left/top, fill light_theme/White, effect Primary Card
+        - GROUP "Account", 43x19.55px, constraints scale/scale, radius 0/0/0/0px
+        - FRAME "Bars / Status Bar / iPhone X", 414x44px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "⬛ Background", 414x44px, constraints scale/scale, fill #F7F7F7
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+          - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill light_theme/Dark
+          - BOOLEAN_OPERATION "Mobile Signal", 18.77x10.67px, constraints right/top, fill light_theme/Dark
+          - FRAME "Time Style", 60x18px, constraints scale/scale, fill #FFFFFF
+            - TEXT "9:41", 60x18px, constraints left_right/center, fill light_theme/Dark, text [SF Pro Text Semibold, 15px]
+      - FRAME "Header", 414x98px, constraints left/top, fill #FFFFFF
+        - GROUP "Header", 414x42px, constraints left/top
+          - TEXT "Who’s Viewed Your Profile", 314x32px, constraints left/top, fill light_theme/Dark, text [Roboto Medium, 27px], [heading]
+          - LINE "Divider", 414x0px, constraints left_right/bottom, stroke light_theme/Divider 1px, effect [drop_shadow 2px offset 0 1 #00000026]
+          - FRAME "carbon:arrow-left", 24x21.63px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 24x20px, constraints scale/scale, fill light_theme/Grey
+        - GROUP "Premium", 122x18px, constraints left/top, radius 2px
+          - RECTANGLE "Premium_icon", 14x14px, constraints left/top, radius 2px, fill gradient_linear(#F6C780 49% | #E4A53F 49%)
+          - TEXT "premium", 98x18px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 15px]
+      - RECTANGLE "Rectangle 51", 414x10px, constraints left/top, fill #F8C77E
+      - COMPONENT "dashboard", 414x326px, constraints left/top, radius 4px, fill light_theme/White, stroke light_theme/BG Home 1px
+        - FRAME "txt", 381x69px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "2,798", 97x47px, constraints left/top, fill light_theme/Blue, text [Roboto Light, 40px], [heading]
+          - TEXT "profile viewers (past 90 days) -80% since last week", 184x69px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 20px]
+          - FRAME "ri:question-line", 20x69px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16.67x16.67px, constraints center/center, fill light_theme/Grey
+          - FRAME "arrow", 20x69px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector 9", 20.5x6.5px, constraints center/center, stroke light_theme/Grey 2px
+        - GROUP "schedule", 376x167px, constraints left/top
+          - TEXT "25,748", 52x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "45,748", 52x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "748", 29x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "Jul 19", 47x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "Aug 30", 54x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "Oct 11", 50x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - LINE "Line 17", 309x0px, constraints left/top, stroke light_theme/Grey 0.5px
+          - VECTOR "Line 18", 309x121px, constraints left/top, stroke light_theme/Blue 1px
+          - VECTOR "Vector 10", 83x70px, constraints left/top, fill light_theme/Blue, opacity 50%
+          - VECTOR "Vector 11", 115x91.01px, constraints left/top, fill light_theme/Blue, opacity 50%
+          - VECTOR "Line 19", 55x121px, constraints left/top, fill light_theme/Blue, opacity 40%
+          - LINE "Line 20", 264x0px, constraints left/top, stroke light_theme/Grey 1px
+          - LINE "Line 21", 49x0px, constraints left/top, stroke light_theme/Grey 1px
+          - LINE "Line 22", 0x6px, constraints left/top, stroke light_theme/Grey 0.5px
+          - LINE "Line 24", 0x10px, constraints left/top, stroke light_theme/Grey 0.5px
+          - LINE "Line 23", 0x20px, constraints left/top, stroke light_theme/Grey 0.5px
+          - ELLIPSE "Ellipse 32", 11x11px, constraints left/top, fill light_theme/White, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 33", 11x11px, constraints left/top, fill light_theme/White, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 34", 11x11px, constraints left/top, fill light_theme/White, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 35", 11x11px, constraints left/top, fill light_theme/White, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 41", 11x11px, constraints left/top, fill light_theme/White, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 42", 11x11px, constraints left/top, fill light_theme/White, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 36", 11x11px, constraints left/top, fill light_theme/White, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 37", 11x11px, constraints left/top, fill light_theme/White, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 38", 11x11px, constraints left/top, fill light_theme/White, stroke light_theme/Blue 2px
+          - ... +2 more children
+      - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill light_theme/Dark
+      - FRAME "btn", 188x43px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill light_theme/Green
+        - TEXT "All profile viewers", 146x23px, constraints left/top, fill light_theme/White, text [Roboto Bold, 18px]
+      - FRAME "btn", 213x43px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke light_theme/Grey 1px
+        - TEXT "14 Interesting views", 173x23px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 18px]
+      - FRAME "dashboard", 378x202px, constraints left/top, radius 10px, stroke light_theme/White 1px, effect [drop_shadow 4px offset 0 1 #00000080]
+        - GROUP "txt", 276x20px, constraints left/top, radius 0/0/0/0px
+          - TEXT "37 person with the job title Recruiter", 276x20px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 17px]
+        - GROUP "txt", 346x38px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Get more views by updating your profile with the lalest info", 346x38px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 16px]
+        - FRAME "btn", 153x32px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke light_theme/Blue 1px
+          - TEXT "Update profile", 113x22px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 17px]
+        - FRAME "icon", 56x46px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - FRAME "dashboard", 378x202px, constraints left/top, radius 10px, stroke #FFFFFF 1px, effect [drop_shadow 4px offset 0 1 #00000080]
+        - FRAME "Head", 384x64px, constraints scale/top, fill gradient_linear(#BF5AE0 0% | #A811DA 37% | #E4737B 73% | #FBE571 96%)
+          - FRAME "Frame 17", 381.21x449.35px, constraints left/top, fill light_theme/Grey2
+        - FRAME "btn", 113x32px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke light_theme/Blue 1px
+          - TEXT "Message", 73x22px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 17px]
+        - TEXT "1 h", 22x19px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 16px]
+        - TEXT "Timothy Hodges", 119x19px, constraints left/top, fill light_theme/Dark, text [Roboto Medium, 16px]
+        - GROUP "Ava", 94x94px, constraints left/top
+          - ELLIPSE "Round", 94x94px, constraints scale/scale, fill image(hash: 93539f7e33b5ee1ed96651e2cef8e4e1bc7c5019)
+          - INSTANCE "opentowork", 94x94px, constraints scale/scale
+            - GROUP "hiring", 94x94px, constraints scale/scale [decorative, ~8 shapes]
+    - FRAME "linkedin_Profile", 414x896px, constraints left/top, fill #E9E5DF
+      - INSTANCE "Post", 414x344px, constraints scale/scale
+        - RECTANGLE "Background", 414x457px, constraints left/top, fill light_theme/White, effect Secondary Card
+        - ELLIPSE "Round", 64x64px, constraints left/top, fill image(hash: cfe253570dba125b29f1b97ad6a04849ad43165d)
+        - TEXT "Hello, I am looking for a new career opportunity and would a", 363x66px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 17px]
+        - GROUP "Group 5", 355x18px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Like", 27x18px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 15px]
+          - TEXT "Comment", 65x18px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 15px]
+          - TEXT "Share", 38x18px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 15px]
+          - TEXT "Send", 34x18px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 15px]
+        - FRAME "Frame 1", 374x20px, horizontal pad 0 0 0 0px gap 90px align center/min sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+        - FRAME "dots", 3x17px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 3x3px, constraints left/top, fill light_theme/Grey
+          - ELLIPSE "Ellipse 5", 3x3px, constraints left/top, fill light_theme/Grey
+          - ELLIPSE "Ellipse 6", 3x3px, constraints left/top, fill light_theme/Grey
+        - TEXT "Kateryna Luibinskaya and Tatyana Romanova like this", 374x52px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 20px]
+        - FRAME "Frame 5", 70x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "8ekq8gho1ruaf8i7f86vd1ftt", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - FRAME "lhxmwiwoag9qepsh4nc28zus", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+          - FRAME "b1dl5jk88euc7e9ri50xy5qo8", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~14 shapes]
+          - TEXT "77", 22x18px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 15px]
+        - TEXT "11 comments", 90x18px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 15px]
+        - LINE "Divider", 384x0px, constraints left/top, stroke #EBEBEB 2px
+      - FRAME "Post", 414x371px, constraints scale/scale
+        - RECTANGLE "Background", 414x457px, constraints left/top, fill #FFFFFF, effect Secondary Card
+        - ELLIPSE "Round", 75x75px, constraints left/top, fill image(hash: 540ab7fef78fff29ea91865d372f5b6d17735593)
+        - GROUP "Group 6", 167x71px, constraints left/top
+          - TEXT "UI/UX designer", 118x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - FRAME "Frame 3", 60x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "17 h", 31x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+            - VECTOR ".", 3x3px, constraints left/top, fill light_theme/Grey
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill light_theme/Grey
+          - FRAME "Frame 2", 167x21px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Vera Drozdova", 129x21px, constraints left/top, fill #404040, text [Roboto Medium, 18px]
+            - VECTOR ".", 3x3px, constraints left/top, fill light_theme/Grey
+            - TEXT "2 st", 27x20px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 17px]
+        - FRAME "Frame 4", 3x17px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 3x3px, constraints left/top, fill light_theme/Grey
+          - ELLIPSE "Ellipse 5", 3x3px, constraints left/top, fill light_theme/Grey
+          - ELLIPSE "Ellipse 6", 3x3px, constraints left/top, fill light_theme/Grey
+        - RECTANGLE "image 1", 384x292px, constraints left/top, fill image(hash: 31cd3a9537153c1e3f4c6bde133754ff868f14f0)
+      - FRAME "Navigation Bar", 414x84px, constraints left/center
+        - LINE "Line 3", 90x0px, constraints left/top, stroke light_theme/Dark 2px
+      - RECTANGLE "Background", 414x83px, constraints left/top, fill #FFFFFF, effect [drop_shadow 0px offset 0 -0.33 #BDC5CD]
+      - FRAME "Top bar", 414x89px, constraints left/center
+        - RECTANGLE "Background", 414x88px, constraints left/top, fill light_theme/White, effect Primary Card
+        - GROUP "Account", 43x43px, constraints scale/scale
+          - ELLIPSE "Round", 43x43px, constraints scale/bottom, fill image(hash: ee117895022a097d9bebca54e6c416b48dc84d21)
+        - GROUP "Group 2", 268x40px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 1", 268x40px, constraints left/top, radius 5px, fill #EEF3F8
+          - GROUP "QR", 22x22px, constraints left/top [decorative, ~6 shapes]
+          - TEXT "Search", 56x21px, constraints left/center, fill light_theme/Dark, text [Roboto Regular, 18px]
+          - FRAME "fluent:search-12-filled", 22x22px, constraints left/top, fill #5F6163
+            - GROUP "Group", 18.36x18.37px, constraints scale/scale
+        - BOOLEAN_OPERATION "Union", 30x27px, constraints left/top, fill light_theme/Grey
+      - FRAME "Bars / Status Bar / iPhone X", 414x44px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "⬛ Background", 414x44px, constraints scale/scale, fill #F7F7F7
+        - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+        - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill #060606
+        - BOOLEAN_OPERATION "Mobile Signal", 18.77x10.67px, constraints right/top, fill #060606
+        - FRAME "Time Style", 59.62x18px, constraints scale/scale, fill #FFFFFF
+          - TEXT "9:41", 60x18px, constraints left_right/center, fill #171717, text [SF Pro Text Semibold, 15px]
+      - LINE "Divaider", 384x0px, constraints left/top, stroke #EBEBEB 2px
+      - LINE "Divaider", 384x0px, constraints left/top, stroke #EBEBEB 2px
+      - FRAME "Frame 12", 355x45px, horizontal pad 0 0 0 0px gap 37px align center/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 32x45px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 6", 29x29px, constraints left/top, fill #FFFFFF [decorative, ~8 shapes]
+          - TEXT "Home", 32x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+        - FRAME "Frame 10", 61x42px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 8", 23x26px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+          - TEXT "My Network", 61x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+        - FRAME "Frame 9", 24x37px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - BOOLEAN_OPERATION "Subtract", 21x21px, constraints left/top, fill #8C8C8C
+          - TEXT "Post", 24x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+        - FRAME "Frame 8", 58x37.57px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 13", 22x21.57px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 22x21.57px, constraints left/top, fill #8C8C8C
+            - ELLIPSE "Ellipse 10", 14x14px, constraints left/top, fill #CC1016
+            - TEXT "4", 7x14px, constraints left/top, fill #FFFFFF, text [Roboto Light, 12px]
+          - TEXT "Notification", 58x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+        - FRAME "Frame 7", 26x35.5px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group", 24x19.5px, constraints scale/scale
+            - VECTOR "Vector", 24x10.45px, constraints scale/scale, fill #8C8C8C
+            - VECTOR "Vector", 24x10.72px, constraints scale/scale, fill #8C8C8C
+          - TEXT "Jobs", 26x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+      - RECTANGLE "Background", 414x865px, constraints left/top, fill light_theme/Dark, opacity 60%
+      - RECTANGLE "Rectangle 19", 356x865px, constraints left/top, fill light_theme/White
+      - FRAME "Bars / Home Indicator", 414x35px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "⬛ Background", 414x35px, constraints scale/scale, fill #F7F7F7
+        - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill light_theme/Dark
+      - FRAME "View Profile", 356x204px, constraints left/top, fill light_theme/BG
+        - FRAME "ci:close-big", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 14x14px, constraints scale/scale
+            - VECTOR "Vector", 14x14px, constraints scale/scale, fill light_theme/Dark
+        - GROUP "txt", 168x53px, constraints left/top
+          - FRAME "txt", 167x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "View Profile", 82x20px, constraints left/top, fill light_theme/Blue, text [Roboto Regular, 17px]
+            - VECTOR ".", 3x3px, constraints left/top, fill light_theme/Dark
+            - TEXT "Settrings", 62x20px, constraints left/top, fill #0A66C2, text [Roboto Regular, 17px]
+          - TEXT "Yuri Dud", 104x26px, constraints left/top, fill light_theme/Dark, text [Roboto Bold, 22px]
+        - ELLIPSE "Round", 50x50px, constraints left/top, fill image(hash: cd6990646550b6a94cc78311b3578bbf532975ae)
+        - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Divider 2px
+        - GROUP "Premium", 241x24px, constraints left/top, radius 4px
+          - RECTANGLE "Premium_icon", 24x24px, constraints left/top, radius 4px, fill gradient_linear(#F6C780 49% | #E4A53F 49%)
+          - TEXT "Access My Premium", 199x23px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 20px]
+        - INSTANCE "opentowork", 50x50px, constraints left/top
+          - GROUP "opentowork", 50x50px, constraints left/top
+            - ELLIPSE "Ellipse 24", 50x50px, constraints scale/scale, fill light_theme/ava
+            - VECTOR "Vector", 31.28x21.16px, constraints scale/scale, fill light_theme/White
+      - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Divider 2px
+      - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Divider 2px
+      - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Divider 2px
+      - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Divider 2px
+      - GROUP "List", 266x129px, constraints left/top
+        - COMPONENT "list", 246x28px, constraints left/top
+          - FRAME "icon", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+          - TEXT "Premium Career Group", 202x21px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 18px]
+        - INSTANCE "list", 246x28px, constraints left/top
+          - FRAME "icon", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+          - TEXT "Premium Career Group", 139x21px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 18px]
+        - TEXT "Recent", 67x23px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 20px]
+      - GROUP "List2", 266x117px, constraints left/top
+        - INSTANCE "list", 246x28px, constraints left/top
+          - FRAME "icon", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+          - TEXT "Premium Career Group", 139x21px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 18px]
+        - TEXT "Groups", 70x23px, constraints left/top, fill light_theme/Blue, text [Roboto Regular, 20px]
+        - INSTANCE "list", 246x28px, constraints left/top
+          - FRAME "icon", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+          - TEXT "Premium Career Group", 202x21px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 18px]
+      - GROUP "List3", 169x65px, constraints left/top
+        - TEXT "Events", 65x23px, constraints left/top, fill light_theme/Blue, text [Roboto Regular, 20px]
+        - GROUP "Group 10", 149x21px, constraints left/top
+          - FRAME "ci:close-big", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 13.2x13.2px, constraints scale/scale
+          - TEXT "Create Event", 113x21px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 18px]
+      - TEXT "Followed Hashtags", 187x23px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 20px]
+      - TEXT "Dickover more", 142x23px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 20px]
+    - FRAME "linkedin_Network", 414x896px, constraints left/top, fill light_theme/White
+      - LINE "Divaider", 384x0px, constraints left/top, stroke light_theme/Divider 2px
+      - INSTANCE "Top bar", 414x40px, constraints left/center
+        - RECTANGLE "Background", 414x88px, constraints left/top, fill light_theme/White, effect Primary Card
+        - GROUP "Account", 43x19.55px, constraints scale/scale, radius 0/0/0/0px
+        - FRAME "Bars / Status Bar / iPhone X", 414x44px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "⬛ Background", 414x44px, constraints scale/scale, fill #F7F7F7
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+          - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill light_theme/Dark
+          - BOOLEAN_OPERATION "Mobile Signal", 18.77x10.67px, constraints right/top, fill light_theme/Dark
+          - FRAME "Time Style", 60x18px, constraints scale/scale, fill #FFFFFF
+            - TEXT "9:41", 60x18px, constraints left_right/center, fill light_theme/Dark, text [SF Pro Text Semibold, 15px]
+      - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill light_theme/Dark
+      - GROUP "Messagin", 414x43px, constraints left/top
+        - TEXT "Manage my network", 187x23px, constraints left/top, fill light_theme/Dark, text [Roboto Medium, 20px]
+        - FRAME "carbon:arrow-left", 24x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x20px, constraints scale/scale, fill light_theme/Grey2
+        - LINE "Divider", 414x0px, constraints left_right/bottom, stroke light_theme/Divider 1px, effect [drop_shadow 2px offset 0 1 #00000026]
+      - FRAME "bi:question-circle-fill", 16x16px, constraints left/top, fill #FFFFFF
+      - COMPONENT "txt", 414x83px, constraints left/top
+        - TEXT "Connections", 112x23px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 20px]
+        - TEXT "193", 34x23px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 20px]
+        - FRAME "icon", 23x26px, constraints left/top, fill #FFFFFF
+        - LINE "Divider", 414x0px, constraints scale/bottom, stroke light_theme/Divider 2px
+        - FRAME "Icon", 23x26px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF [decorative, ~20 shapes]
+      - INSTANCE "txt", 414x83px, constraints left/top
+        - TEXT "Connections", 132x23px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 20px]
+        - TEXT "193", 34x23px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 20px]
+        - FRAME "icon", 23x26px, constraints left/top, fill #FFFFFF
+        - LINE "Divider", 414x0px, constraints scale/bottom, stroke light_theme/Divider 2px
+        - FRAME "Icon", 23x26px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF [decorative, ~20 shapes]
+      - INSTANCE "txt", 414x83px, constraints left/top
+        - TEXT "Connections", 101x23px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 20px]
+        - TEXT "193", 23x23px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 20px]
+        - FRAME "icon", 23x26px, constraints left/top, fill #FFFFFF
+        - LINE "Divider", 414x0px, constraints scale/bottom, stroke light_theme/Divider 2px
+        - FRAME "Icon", 23x26px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF [decorative, ~20 shapes]
+      - INSTANCE "txt", 414x83px, constraints left/top
+        - TEXT "Connections", 65x23px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 20px]
+        - TEXT "193", 23x23px, constraints scale/scale, fill light_theme/Dark, text [Roboto Regular, 20px]
+        - FRAME "icon", 23x26px, constraints left/top, fill #FFFFFF
+        - LINE "Divider", 414x0px, constraints scale/bottom, stroke light_theme/Divider 2px
+        - FRAME "Icon", 23x26px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF [decorative, ~20 shapes]
+    - FRAME "linkedin_Share_post", 414x896px, constraints left/top, fill light_theme/White
+      - FRAME "Add", 414x621px, constraints left/top, radius 30/30/0/0px, stroke light_theme/White 1px, effect [drop_shadow 8px offset 0 2 #0000004D]
+        - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill light_theme/Dark
+        - GROUP "add_list", 228x325.96px, constraints left/top
+          - COMPONENT "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 98x21px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 100x21px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 178x21px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 132x21px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 184x21px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 114x21px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 101x21px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 18px]
+        - RECTANGLE "Line", 56x5px, constraints center/bottom, radius 100px, fill light_theme/Grey
+      - TEXT "What do you want to talk about?", 342x28px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 24px], [heading]
+      - COMPONENT "info", 198x62px, constraints left/top
+        - FRAME "btn", 132x26px, horizontal pad 3 10 3 10px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 40px, stroke light_theme/Grey 1px
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill light_theme/Grey
+          - TEXT "Anyone", 57x20px, constraints left/top, fill light_theme/Dark, text [Roboto Medium, 17px]
+          - REGULAR_POLYGON "Polygon 1", 19x12px, constraints left/top, fill light_theme/Grey
+        - TEXT "Yuri Dud", 87x23px, constraints scale/scale, fill light_theme/Dark, text [Roboto Medium, 20px]
+        - GROUP "ava", 56x56px, constraints scale/scale
+          - ELLIPSE "Round", 56x56px, constraints scale/scale, fill image(hash: cd6990646550b6a94cc78311b3578bbf532975ae)
+          - INSTANCE "opentowork", 56x56px, constraints scale/scale
+            - GROUP "opentowork", 56x56px, constraints left/top
+      - GROUP "Head", 414x43px, constraints left/top
+        - TEXT "Share post", 97x23px, constraints left/top, fill light_theme/Dark, text [Roboto Medium, 20px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: 🌚 Dark theme / Dark theme
+- FRAME "Dark theme", 2984x2919px, constraints left/top
+  - GROUP "Dark theme", 2984x2919px, constraints left/top
+    - FRAME "linkedin_Dashboard", 414x896px, constraints left/top, fill dark_theme/Dark
+      - INSTANCE "Top bar", 414x40px, constraints left/center
+        - RECTANGLE "Background", 414x88px, constraints left/top, fill dark_theme/Dark, effect Primary Card
+        - GROUP "Account", 43x19.55px, constraints scale/scale, radius 0/0/0/0px
+        - FRAME "Bars / Status Bar / iPhone X", 414x44px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "⬛ Background", 414x44px, constraints scale/scale, fill #F7F7F7
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+          - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill dark_theme/White
+          - BOOLEAN_OPERATION "Mobile Signal", 18.77x10.67px, constraints right/top, fill dark_theme/White
+          - FRAME "Time Style", 60x18px, constraints scale/scale, fill #FFFFFF
+            - TEXT "9:41", 60x18px, constraints left_right/center, fill dark_theme/White, text [SF Pro Text Semibold, 15px]
+      - FRAME "Header", 414x98px, constraints left/top, fill dark_theme/Dark
+        - GROUP "Header", 414x42px, constraints left/top
+          - TEXT "Who’s Viewed Your Profile", 314x32px, constraints left/top, fill dark_theme/White, text [Roboto Medium, 27px], [heading]
+          - LINE "Divider", 414x0px, constraints left_right/bottom, stroke light_theme/Divider 1px, effect [drop_shadow 2px offset 0 1 #00000026]
+          - FRAME "carbon:arrow-left", 24x21.63px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 24x20px, constraints scale/scale, fill light_theme/Grey
+        - GROUP "Premium", 122x18px, constraints left/top, radius 2px
+          - RECTANGLE "Premium_icon", 14x14px, constraints left/top, radius 2px, fill gradient_linear(#F6C780 49% | #E4A53F 49%)
+          - TEXT "premium", 98x18px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 15px]
+      - RECTANGLE "Rectangle 51", 414x10px, constraints left/top, fill #F8C77E
+      - INSTANCE "dashboard", 414x326px, constraints left/top, radius 4px, fill dark_theme/Dark, stroke light_theme/BG Home 1px
+        - FRAME "txt", 381x69px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "2,798", 97x47px, constraints left/top, fill light_theme/Blue, text [Roboto Light, 40px], [heading]
+          - TEXT "profile viewers (past 90 days) -80% since last week", 184x69px, constraints left/top, fill light_theme/BG, text [Roboto Regular, 20px]
+          - FRAME "ri:question-line", 20x69px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16.67x16.67px, constraints center/center, fill light_theme/Grey
+          - FRAME "arrow", 20x69px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector 9", 20.5x6.5px, constraints center/center, stroke light_theme/Grey 2px
+        - GROUP "schedule", 376x167px, constraints left/top
+          - TEXT "25,748", 52x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "45,748", 52x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "748", 29x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "Jul 19", 47x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "Aug 30", 54x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - TEXT "Oct 11", 50x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - LINE "Line 17", 309x0px, constraints left/top, stroke light_theme/Grey 0.5px
+          - VECTOR "Line 18", 309x121px, constraints left/top, stroke light_theme/Blue 1px
+          - VECTOR "Vector 10", 83x70px, constraints left/top, fill light_theme/Blue, opacity 50%
+          - VECTOR "Vector 11", 115x91.01px, constraints left/top, fill light_theme/Blue, opacity 50%
+          - VECTOR "Line 19", 55x121px, constraints left/top, fill light_theme/Blue, opacity 40%
+          - LINE "Line 20", 264x0px, constraints left/top, stroke light_theme/Grey 1px
+          - LINE "Line 21", 49x0px, constraints left/top, stroke light_theme/Grey 1px
+          - LINE "Line 22", 0x6px, constraints left/top, stroke light_theme/Grey 0.5px
+          - LINE "Line 24", 0x10px, constraints left/top, stroke light_theme/Grey 0.5px
+          - LINE "Line 23", 0x20px, constraints left/top, stroke light_theme/Grey 0.5px
+          - ELLIPSE "Ellipse 32", 11x11px, constraints left/top, fill dark_theme/Dark, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 33", 11x11px, constraints left/top, fill dark_theme/Dark, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 34", 11x11px, constraints left/top, fill dark_theme/Dark, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 35", 11x11px, constraints left/top, fill dark_theme/Dark, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 41", 11x11px, constraints left/top, fill dark_theme/Dark, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 42", 11x11px, constraints left/top, fill dark_theme/Dark, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 36", 11x11px, constraints left/top, fill dark_theme/Dark, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 37", 11x11px, constraints left/top, fill dark_theme/Dark, stroke light_theme/Blue 2px
+          - ELLIPSE "Ellipse 38", 11x11px, constraints left/top, fill dark_theme/Dark, stroke light_theme/Blue 2px
+          - ... +2 more children
+      - FRAME "btn", 188x43px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill light_theme/Green
+        - TEXT "All profile viewers", 146x23px, constraints left/top, fill dark_theme/Dark, text [Roboto Bold, 18px]
+      - FRAME "btn", 213x43px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke light_theme/Grey 1px
+        - TEXT "14 Interesting views", 173x23px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 18px]
+      - FRAME "dashboard", 378x202px, constraints left/top, radius 10px, stroke dark_theme/Dark 1px, effect [drop_shadow 4px offset 0 1 #00000080]
+        - GROUP "txt", 276x20px, constraints left/top, radius 0/0/0/0px
+          - TEXT "37 person with the job title Recruiter", 276x20px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 17px]
+        - GROUP "txt", 346x38px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Get more views by updating your profile with the lalest info", 346x38px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 16px]
+        - FRAME "btn", 153x32px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke light_theme/Blue 1px
+          - TEXT "Update profile", 113x22px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 17px]
+        - FRAME "icon", 56x46px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - FRAME "dashboard", 378x202px, constraints left/top, radius 10px, stroke dark_theme/Dark 1px, effect [drop_shadow 4px offset 0 1 #00000080]
+        - FRAME "Head", 384x64px, constraints scale/top, fill gradient_linear(#BF5AE0 0% | #A811DA 37% | #E4737B 73% | #FBE571 96%)
+          - FRAME "Frame 17", 381.21x449.35px, constraints left/top, fill light_theme/Grey2
+        - FRAME "btn", 113x32px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, stroke light_theme/Blue 1px
+          - TEXT "Message", 73x22px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 17px]
+        - TEXT "1 h", 22x19px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 16px]
+        - TEXT "Timothy Hodges", 119x19px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 16px]
+        - GROUP "Ava", 94x94px, constraints left/top
+          - ELLIPSE "Round", 94x94px, constraints scale/scale, fill image(hash: 93539f7e33b5ee1ed96651e2cef8e4e1bc7c5019)
+          - INSTANCE "opentowork", 94x94px, constraints scale/scale
+            - GROUP "hiring", 94x94px, constraints scale/scale [decorative, ~8 shapes]
+      - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill light_theme/BG Home
+    - FRAME "linkedin_Profile", 414x896px, constraints left/top, fill #E9E5DF
+      - INSTANCE "Post", 414x344px, constraints scale/scale
+        - RECTANGLE "Background", 414x457px, constraints left/top, fill dark_theme/Dark, effect Secondary Card
+        - ELLIPSE "Round", 64x64px, constraints left/top, fill image(hash: cfe253570dba125b29f1b97ad6a04849ad43165d)
+        - TEXT "Hello, I am looking for a new career opportunity and would a", 363x66px, constraints left/top, fill light_theme/Dark, text [Roboto Regular, 17px]
+        - GROUP "Group 5", 355x18px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Like", 27x18px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 15px]
+          - TEXT "Comment", 65x18px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 15px]
+          - TEXT "Share", 38x18px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 15px]
+          - TEXT "Send", 34x18px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 15px]
+        - FRAME "Frame 1", 374x20px, horizontal pad 0 0 0 0px gap 90px align center/min sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+        - FRAME "dots", 3x17px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 3x3px, constraints left/top, fill light_theme/Grey
+          - ELLIPSE "Ellipse 5", 3x3px, constraints left/top, fill light_theme/Grey
+          - ELLIPSE "Ellipse 6", 3x3px, constraints left/top, fill light_theme/Grey
+        - TEXT "Kateryna Luibinskaya and Tatyana Romanova like this", 374x52px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 20px]
+        - FRAME "Frame 5", 70x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "8ekq8gho1ruaf8i7f86vd1ftt", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - FRAME "lhxmwiwoag9qepsh4nc28zus", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+          - FRAME "b1dl5jk88euc7e9ri50xy5qo8", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~14 shapes]
+          - TEXT "77", 22x18px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 15px]
+        - TEXT "11 comments", 90x18px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 15px]
+        - LINE "Divider", 384x0px, constraints left/top, stroke #EBEBEB 2px
+      - FRAME "Post", 414x371px, constraints scale/scale
+        - RECTANGLE "Background", 414x457px, constraints left/top, fill dark_theme/Dark, effect Secondary Card
+        - ELLIPSE "Round", 75x75px, constraints left/top, fill image(hash: 540ab7fef78fff29ea91865d372f5b6d17735593)
+        - GROUP "Group 6", 167x71px, constraints left/top
+          - TEXT "UI/UX designer", 118x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+          - FRAME "Frame 3", 60x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "17 h", 31x20px, constraints left/top, fill light_theme/Grey, text [Roboto Regular, 17px]
+            - VECTOR ".", 3x3px, constraints left/top, fill light_theme/Grey
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill light_theme/Grey
+          - FRAME "Frame 2", 167x21px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Vera Drozdova", 129x21px, constraints left/top, fill dark_theme/Grey, text [Roboto Medium, 18px]
+            - VECTOR ".", 3x3px, constraints left/top, fill light_theme/Grey
+            - TEXT "2 st", 27x20px, constraints left/top, fill light_theme/Grey, text [Roboto Medium, 17px]
+        - FRAME "Frame 4", 3x17px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 3x3px, constraints left/top, fill light_theme/Grey
+          - ELLIPSE "Ellipse 5", 3x3px, constraints left/top, fill light_theme/Grey
+          - ELLIPSE "Ellipse 6", 3x3px, constraints left/top, fill light_theme/Grey
+        - RECTANGLE "image 1", 384x292px, constraints left/top, fill image(hash: 31cd3a9537153c1e3f4c6bde133754ff868f14f0)
+      - FRAME "Navigation Bar", 414x84px, constraints left/center
+        - LINE "Line 3", 90x0px, constraints left/top, stroke #000000 2px
+      - RECTANGLE "Background", 414x83px, constraints left/top, fill dark_theme/Dark, effect [drop_shadow 0px offset 0 -0.33 #BDC5CD]
+      - FRAME "Top bar", 414x89px, constraints left/center
+        - RECTANGLE "Background", 414x88px, constraints left/top, fill dark_theme/Dark, effect Primary Card
+        - GROUP "Account", 43x43px, constraints scale/scale
+          - ELLIPSE "Round", 43x43px, constraints scale/bottom, fill image(hash: ee117895022a097d9bebca54e6c416b48dc84d21)
+        - GROUP "Group 2", 268x40px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 1", 268x40px, constraints left/top, radius 5px, fill #EEF3F8
+          - GROUP "QR", 22x22px, constraints left/top [decorative, ~6 shapes]
+          - TEXT "Search", 56x21px, constraints left/center, fill #000000, text [Roboto Regular, 18px]
+          - FRAME "fluent:search-12-filled", 22x22px, constraints left/top, fill #5F6163
+            - GROUP "Group", 18.36x18.37px, constraints scale/scale
+        - BOOLEAN_OPERATION "Union", 30x27px, constraints left/top, fill #666666
+      - FRAME "Bars / Status Bar / iPhone X", 414x44px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "⬛ Background", 414x44px, constraints scale/scale, fill #F7F7F7
+        - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+        - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill dark_theme/White
+        - BOOLEAN_OPERATION "Mobile Signal", 18.77x10.67px, constraints right/top, fill dark_theme/White
+        - FRAME "Time Style", 59.62x18px, constraints scale/scale, fill #FFFFFF
+          - TEXT "9:41", 60x18px, constraints left_right/center, fill dark_theme/White, text [SF Pro Text Semibold, 15px]
+      - LINE "Divaider", 384x0px, constraints left/top, stroke #EBEBEB 2px
+      - LINE "Divaider", 384x0px, constraints left/top, stroke #EBEBEB 2px
+      - FRAME "Frame 12", 355x45px, horizontal pad 0 0 0 0px gap 37px align center/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 32x45px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 6", 29x29px, constraints left/top, fill #FFFFFF [decorative, ~8 shapes]
+          - TEXT "Home", 32x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+        - FRAME "Frame 10", 61x42px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 8", 23x26px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+          - TEXT "My Network", 61x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+        - FRAME "Frame 9", 24x37px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - BOOLEAN_OPERATION "Subtract", 21x21px, constraints left/top, fill light_theme/Grey2
+          - TEXT "Post", 24x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+        - FRAME "Frame 8", 58x37.57px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 13", 22x21.57px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 22x21.57px, constraints left/top, fill light_theme/Grey2
+            - ELLIPSE "Ellipse 10", 14x14px, constraints left/top, fill light_theme/Red
+            - TEXT "4", 7x14px, constraints left/top, fill light_theme/White, text [Roboto Light, 12px]
+          - TEXT "Notification", 58x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+        - FRAME "Frame 7", 26x35.5px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group", 24x19.5px, constraints scale/scale
+            - VECTOR "Vector", 24x10.45px, constraints scale/scale, fill light_theme/Grey2
+            - VECTOR "Vector", 24x10.72px, constraints scale/scale, fill light_theme/Grey2
+          - TEXT "Jobs", 26x14px, constraints left/top, fill light_theme/Grey, text [Roboto Light, 12px]
+      - RECTANGLE "Background", 414x865px, constraints left/top, fill #000000, opacity 60%
+      - FRAME "Bars / Home Indicator", 414x35px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "⬛ Background", 414x35px, constraints scale/scale, fill #F7F7F7
+      - GROUP "Group 26", 358x865px, constraints left/top
+        - RECTANGLE "Rectangle 19", 356x865px, constraints left/top, fill dark_theme/Dark
+        - FRAME "View Profile", 356x204px, constraints left/top, fill dark_theme/Darck_blue
+          - FRAME "ci:close-big", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14x14px, constraints scale/scale
+          - GROUP "txt", 168x53px, constraints left/top
+            - FRAME "txt", 167x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Yuri Dud", 104x26px, constraints left/top, fill light_theme/BG Home, text [Roboto Bold, 22px]
+          - ELLIPSE "Round", 50x50px, constraints left/top, fill image(hash: cd6990646550b6a94cc78311b3578bbf532975ae)
+          - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Divider 2px
+          - GROUP "Premium", 241x24px, constraints left/top, radius 4px
+            - RECTANGLE "Premium_icon", 24x24px, constraints left/top, radius 4px, fill gradient_linear(#F6C780 49% | #E4A53F 49%)
+            - TEXT "Access My Premium", 199x23px, constraints left/top, fill light_theme/Divider, text [Roboto Regular, 20px]
+          - INSTANCE "opentowork", 50x50px, constraints left/top
+            - GROUP "opentowork", 50x50px, constraints left/top
+        - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Grey 1px
+        - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Grey 1px
+        - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Grey 1px
+        - LINE "Divider", 358x0px, constraints left/top, stroke light_theme/Grey 1px
+        - GROUP "List", 266x129px, constraints left/top
+          - INSTANCE "list", 246x28px, constraints left/top
+            - FRAME "icon", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Premium Career Group", 202x21px, constraints scale/scale, fill light_theme/BG, text [Roboto Regular, 18px]
+          - INSTANCE "list", 246x28px, constraints left/top
+            - FRAME "icon", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Premium Career Group", 139x21px, constraints scale/scale, fill light_theme/BG, text [Roboto Regular, 18px]
+          - TEXT "Recent", 67x23px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 20px]
+        - GROUP "List2", 266x117px, constraints left/top
+          - INSTANCE "list", 246x28px, constraints left/top
+            - FRAME "icon", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Premium Career Group", 139x21px, constraints scale/scale, fill light_theme/BG, text [Roboto Regular, 18px]
+          - TEXT "Groups", 70x23px, constraints left/top, fill light_theme/Blue, text [Roboto Regular, 20px]
+          - INSTANCE "list", 246x28px, constraints left/top
+            - FRAME "icon", 16x16px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Premium Career Group", 202x21px, constraints scale/scale, fill light_theme/BG, text [Roboto Regular, 18px]
+        - GROUP "List3", 169x65px, constraints left/top
+          - TEXT "Events", 65x23px, constraints left/top, fill light_theme/Blue, text [Roboto Regular, 20px]
+          - GROUP "Group 10", 149x21px, constraints left/top
+            - FRAME "ci:close-big", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Create Event", 113x21px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 18px]
+        - TEXT "Followed Hashtags", 187x23px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 20px]
+        - TEXT "Dickover more", 142x23px, constraints left/top, fill light_theme/Blue, text [Roboto Medium, 20px]
+      - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill light_theme/BG
+    - FRAME "linkedin_Network", 414x896px, constraints left/top, fill dark_theme/Dark
+      - LINE "Divaider", 384x0px, constraints left/top, stroke #EBEBEB 2px
+      - INSTANCE "Top bar", 414x40px, constraints left/center
+        - RECTANGLE "Background", 414x88px, constraints left/top, fill dark_theme/Dark, effect Primary Card
+        - GROUP "Account", 43x19.55px, constraints scale/scale, radius 0/0/0/0px
+        - FRAME "Bars / Status Bar / iPhone X", 414x44px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "⬛ Background", 414x44px, constraints scale/scale, fill #F7F7F7
+          - GROUP "Battery", 24.5x10.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+          - BOOLEAN_OPERATION "Wifi", 16.86x10.97px, constraints right/top, fill dark_theme/White
+          - BOOLEAN_OPERATION "Mobile Signal", 18.77x10.67px, constraints right/top, fill dark_theme/White
+          - FRAME "Time Style", 60x18px, constraints scale/scale, fill #FFFFFF
+            - TEXT "9:41", 60x18px, constraints left_right/center, fill dark_theme/White, text [SF Pro Text Semibold, 15px]
+      - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill light_theme/BG Home
+      - GROUP "Messagin", 414x43px, constraints left/top
+        - TEXT "Manage my network", 187x23px, constraints left/top, fill dark_theme/White, text [Roboto Medium, 20px]
+        - FRAME "carbon:arrow-left", 24x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x20px, constraints scale/scale, fill light_theme/Grey2
+        - LINE "Divider", 414x0px, constraints left_right/bottom, stroke light_theme/Divider 1px, effect [drop_shadow 2px offset 0 1 #00000026]
+      - FRAME "bi:question-circle-fill", 16x16px, constraints left/top, fill #FFFFFF
+      - INSTANCE "txt", 414x83px, constraints left/top
+        - TEXT "Connections", 112x23px, constraints scale/scale, fill light_theme/BG Home, text [Roboto Regular, 20px]
+        - TEXT "193", 34x23px, constraints scale/scale, fill light_theme/BG Home, text [Roboto Regular, 20px], opacity 50%
+        - FRAME "icon", 23x26px, constraints left/top, fill #FFFFFF
+        - LINE "Divider", 414x0px, constraints scale/bottom, stroke light_theme/Grey 2px
+        - FRAME "Icon", 23x26px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF [decorative, ~20 shapes]
+      - INSTANCE "txt", 414x83px, constraints left/top
+        - TEXT "Connections", 132x23px, constraints scale/scale, fill dark_theme/White, text [Roboto Regular, 20px]
+        - TEXT "193", 34x23px, constraints scale/scale, fill dark_theme/White, text [Roboto Regular, 20px], opacity 50%
+        - FRAME "icon", 23x26px, constraints left/top, fill #FFFFFF
+        - LINE "Divider", 414x0px, constraints scale/bottom, stroke light_theme/Grey 2px
+        - FRAME "Icon", 23x26px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF [decorative, ~20 shapes]
+      - INSTANCE "txt", 414x83px, constraints left/top
+        - TEXT "Connections", 101x23px, constraints scale/scale, fill dark_theme/White, text [Roboto Regular, 20px]
+        - TEXT "193", 23x23px, constraints scale/scale, fill dark_theme/White, text [Roboto Regular, 20px], opacity 50%
+        - FRAME "icon", 23x26px, constraints left/top, fill #FFFFFF
+        - LINE "Divider", 414x0px, constraints scale/bottom, stroke light_theme/Grey 2px
+        - FRAME "Icon", 23x26px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF [decorative, ~20 shapes]
+      - INSTANCE "txt", 414x83px, constraints left/top
+        - TEXT "Connections", 65x23px, constraints scale/scale, fill dark_theme/White, text [Roboto Regular, 20px]
+        - TEXT "193", 23x23px, constraints scale/scale, fill dark_theme/White, text [Roboto Regular, 20px], opacity 50%
+        - FRAME "icon", 23x26px, constraints left/top, fill #FFFFFF
+        - LINE "Divider", 414x0px, constraints scale/bottom, stroke light_theme/Grey 2px
+        - FRAME "Icon", 23x26px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF [decorative, ~20 shapes]
+    - FRAME "linkedin_Share_post", 414x896px, constraints left/top, fill dark_theme/Dark
+      - FRAME "Add", 414x621px, constraints left/top, radius 30/30/0/0px, stroke dark_theme/Dark 1px, effect [drop_shadow 8px offset 0 2 #0000004D]
+        - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill light_theme/BG Home
+        - GROUP "add_list", 229x325.96px, constraints left/top
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 98x21px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 100x21px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 178x21px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 132x21px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 184x21px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 114x21px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 18px]
+          - INSTANCE "list", 142x21px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icon_list", 24x19px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~33 shapes]
+            - TEXT "Add a photo", 101x21px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 18px]
+        - RECTANGLE "Line", 56x5px, constraints center/bottom, radius 100px, fill dark_theme/White
+      - TEXT "What do you want to talk about?", 342x28px, constraints left/top, fill dark_theme/White, text [Roboto Regular, 24px], [heading]
+      - INSTANCE "info", 198x62px, constraints left/top
+        - FRAME "btn", 133x26px, horizontal pad 3 10 3 10px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 40px, stroke light_theme/Grey2 1px
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill light_theme/Grey2
+          - TEXT "Anyone", 58x20px, constraints left/top, fill light_theme/Grey2, text [Roboto Medium, 17px]
+          - REGULAR_POLYGON "Polygon 1", 19x12px, constraints left/top, fill light_theme/Grey2
+        - TEXT "Yuri Dud", 87x23px, constraints scale/scale, fill dark_theme/White, text [Roboto Medium, 20px]
+        - GROUP "ava", 56x56px, constraints scale/scale
+          - ELLIPSE "Round", 56x56px, constraints scale/scale, fill image(hash: cd6990646550b6a94cc78311b3578bbf532975ae)
+          - INSTANCE "opentowork", 56x56px, constraints scale/scale
+            - GROUP "opentowork", 56x56px, constraints left/top
+      - GROUP "Head", 414x43px, constraints left/top
+        - TEXT "Share post", 97x23px, constraints left/top, fill dark_theme/White, text [Roboto Medium, 20px]
+        - TEXT "Post", 41x23px, constraints left/top, fill dark_theme/White, text [Roboto Medium, 20px]
+        - LINE "Divider", 414x0px, constraints left_right/bottom, stroke light_theme/Divider 1px, effect [drop_shadow 2px offset 0 1 #00000026]
+        - FRAME "ci:close-big", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 14x14px, constraints scale/scale
+            - VECTOR "Vector", 14x14px, constraints scale/scale, fill dark_theme/White
+      - INSTANCE "Top bar", 414x40px, constraints left/center
+  ... this screen truncated at the 300-node per-screen limit.
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

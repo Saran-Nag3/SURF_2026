@@ -1,0 +1,42 @@
+{
+  "company": "airbnb",
+  "source": "/Users/sarannagubandi/downloads/awesome/airbnb.md",
+  "platform": "android",
+  "device": "Galaxy A54",
+  "viewport_px": [
+    393,
+    873
+  ],
+  "output_px": [
+    1081,
+    2401
+  ],
+  "paradigm_detected": "already-mobile because the spec centers on a handheld-first marketplace UI with pill search, stacked cards, and a top navigation that collapses on <744px widths.",
+  "self_check": "Single-column mobile layouts with no drawn status bar/chrome, touch-state styling only (no hover/focus effects beyond basic pressed/disabled), no source-form-factor remnants, and brand tokens/typography/rounded corners preserved from the spec.",
+  "screens": [
+    {
+      "name": "Home",
+      "kind": "home_feed",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "Onboarding",
+      "kind": "onboarding",
+      "png": "screen_2_onboarding.png",
+      "html": "screen_2_onboarding.html"
+    },
+    {
+      "name": "Search",
+      "kind": "search_browse",
+      "png": "screen_3_search-browse.png",
+      "html": "screen_3_search-browse.html"
+    },
+    {
+      "name": "Notifications",
+      "kind": "notifications",
+      "png": "screen_4_notifications.png",
+      "html": "screen_4_notifications.html"
+    }
+  ]
+}

@@ -1,0 +1,925 @@
+---
+name: okta-a-chat-app-community
+source_file: OKTA, A chat app (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:45:30.003574+00:00
+---
+
+# OKTA, A chat app (Community) Design Guidelines
+
+## Source
+- Figma file: OKTA, A chat app (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:45:30.003574+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Black/01: [#191D31]
+- Colors / Dark / Base 1: [#161719]
+- White/01: [#FFFFFF]
+- Light Grey/01: none
+- Tosca/01: none
+
+## Raw Colors (unstyled)
+- #000000: 302 uses
+- #FFFFFF: 147 uses
+- #343030: 46 uses
+- #DADADA: 37 uses
+- #1B1919: 23 uses
+- #5D5A5A: 23 uses
+- #FFFFFF5C: 12 uses
+- #F6F6F6: 8 uses
+- #FDFDFD: 8 uses
+- #1A1B365C: 4 uses
+- #A7AEC1: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- OCR-A BT Regular, 6px: 95 uses
+- OCR-A BT Regular, 8px: 47 uses
+- OCR-A BT Regular, 5px: 44 uses
+- OCR-A A, 5px: 24 uses
+- OCR-B 10 BT Regular, 18px: 16 uses
+- OCR-B 10 BT Regular, 14px: 13 uses
+- OCR-A BT Regular, 18px: 11 uses
+- OCR-A A, 10px: 8 uses
+- Nothing Font (5x7) NothingFont5x7, 25px: 6 uses
+- OCR-B 10 BT Regular, 10px: 6 uses
+- Inter SemiBold, 15px: 4 uses
+- OCR A Extended OCRAExtended, 15px: 3 uses
+- OCR-A BT Regular, 16px: 3 uses
+
+## Typography Hierarchy
+- 25px - Nothing Font (5x7) NothingFont5x7, 25px (raw)
+- 18px - OCR-A BT Regular, 18px (raw)
+- 18px - OCR-B 10 BT Regular, 18px (raw)
+- 16px - OCR-A BT Regular, 16px (raw)
+- 15px - Inter SemiBold, 15px (raw)
+- 15px - OCR A Extended OCRAExtended, 15px (raw)
+- 14px - OCR-B 10 BT Regular, 14px (raw)
+- 10px - OCR-A A, 10px (raw)
+- 10px - OCR-B 10 BT Regular, 10px (raw)
+- 8px - OCR-A BT Regular, 8px (raw)
+- 6px - OCR-A BT Regular, 6px (raw)
+- 5px - OCR-A A, 5px (raw)
+- 5px - OCR-A BT Regular, 5px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Black/01: 18 uses
+- Colors / Dark / Base 1: 16 uses
+- White/01: 6 uses
+- Light Grey/01: 4 uses
+- Tosca/01: 2 uses
+
+## Layout & Structure
+Screen: Page 1 / Chat
+- FRAME "Chat", 390x844px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 33857", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Mom", 33x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Get Apple from the grocers", 115x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+          - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+          - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - GROUP "Group 33858", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Mom", 33x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Get Apple from the grocers", 115x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+          - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+          - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - FRAME "Status Bar", 375x44px, constraints left/top
+    - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x18px, constraints left/top, fill Colors / Dark / Base 1, text [Inter SemiBold, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+  - INSTANCE "App Bar", 390x34px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Bottom Bar", 390x34px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "• iPhone X / Home Indicator", 390x34px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill Black/01
+  - TEXT "Your Chats -", 151x18px, constraints left/top, fill #000000, text [Nothing Font (5x7) NothingFont5x7, 25px], [heading]
+  - RECTANGLE "Rectangle 1", 298x37px, constraints left/top, radius 14px, fill #FFFFFF, effect [inner_shadow 4px offset 0 4 #00000040, drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Search Chats", 127x18px, constraints left/top, fill #393636, text [OCR-A BT Regular, 18px]
+  - RECTANGLE "Search", 26x33px, constraints left/top, fill image(hash: 725aa96cc8033c19269ff203aa63424427d4a793)
+  - RECTANGLE "Test Account", 30x31px, constraints left/top, fill image(hash: 9743bd931275a42afd1f95ee8adaeffd73f6138a)
+  - RECTANGLE "Rectangle 59", 390x49px, constraints left/top, radius 30px, fill #000000
+  - RECTANGLE "Share", 30x31px, constraints left/top, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+  - GROUP "Group 33849", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Mom", 33x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Get Apple from the grocers", 115x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+          - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+          - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - GROUP "Group 33850", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Dad", 33x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - GROUP "Group 33859", 126x48px, constraints left/top, radius 12px
+            - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+            - TEXT "Get a Tv from the market", 103x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+            - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+            - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - GROUP "Group 33851", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Bro", 33x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Come to English class on wed", 122x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+          - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+          - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - GROUP "Group 33852", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Jonathon", 86x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "U free on saturday, we can go out", 121x18px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+          - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+          - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - GROUP "Group 33853", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Mom", 33x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Get Apple from the grocers", 115x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+          - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+          - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - GROUP "Group 33854", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Sid", 33x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "PLease send me the HW", 91x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+          - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+          - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - GROUP "Group 33855", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Rohan", 54x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Happy Birtday Pulakit , MAY god bless you", 120x18px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+          - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+          - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - GROUP "Group 33856", 143x114px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+      - TEXT "Sham", 43x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+      - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+        - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+          - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "yOU FREE ON SATURDAY we can go out", 120x18px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+          - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+          - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+          - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+          - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+          - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+  - TEXT "Community", 91.37x9.94px, constraints left/top, fill #FFFFFF, text [OCR-B 10 BT Regular, 14px]
+  - TEXT "Chats", 50.76x9.94px, constraints left/top, fill #FFFFFF, stroke #404040 1px, text [OCR-B 10 BT Regular, 14px]
+  - TEXT "Profile", 71.06x9.94px, constraints left/top, fill #FFFFFF, text [OCR-B 10 BT Regular, 14px]
+  - TEXT "Groups", 50.76x9.94px, constraints left/top, fill #FFFFFF, text [OCR-B 10 BT Regular, 14px]
+
+Screen: Page 1 / groups
+- FRAME "groups", 390x844px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 33869", 367x114px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 274x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+    - RECTANGLE "Share", 20x26px, constraints left/top, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33859", 126x48px, constraints left/top, radius 12px
+      - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Get a Tv from the market", 103x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+      - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+      - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "Project 50", 224x20px, constraints left/top, fill #000000, text [OCR-A BT Regular, 18px]
+    - GROUP "Group 33860", 108x29px, constraints left/top
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints left/top, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints left/top, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+    - RECTANGLE "Rectangle 64", 81x111px, constraints left/top, radius 16px, fill #FFFFFF, stroke #000000 0.3px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - GROUP "Group 33861", 64x93px, constraints left/top, radius 20px
+      - GROUP "Group 33862", 64x17px, constraints left/top, radius 20px
+        - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Archive group", 37x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+      - GROUP "Group 33863", 64x55px, constraints left/top, radius 20px
+        - GROUP "Group 33864", 64x17px, constraints left/top, radius 20px
+          - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Delete group", 34x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+        - RECTANGLE "Rectangle 66", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Lock group", 28x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - FRAME "Status Bar", 375x44px, constraints left/top
+    - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x18px, constraints left/top, fill Colors / Dark / Base 1, text [Inter SemiBold, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+  - INSTANCE "App Bar", 390x34px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Bottom Bar", 390x34px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "• iPhone X / Home Indicator", 390x34px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill Black/01
+  - GROUP "Group 33870", 390x49px, constraints left/top, radius 30px
+    - RECTANGLE "Rectangle 59", 390x49px, constraints left/top, radius 30px, fill #000000
+    - TEXT "Community", 91.37x9.94px, constraints left/top, fill #FFFFFF, text [OCR-B 10 BT Regular, 14px]
+    - TEXT "Chats", 50.76x9.94px, constraints left/top, fill #FFFFFF, text [OCR-B 10 BT Regular, 14px]
+    - TEXT "Profile", 71.06x9.94px, constraints left/top, fill #FFFFFF, text [OCR-B 10 BT Regular, 14px]
+    - TEXT "Groups", 50.76x9.94px, constraints left/top, fill #FFFFFF, stroke #4F4A4A 1px, text [OCR-B 10 BT Regular, 14px]
+  - TEXT "Your Groups -", 165x18px, constraints left/top, fill #000000, text [Nothing Font (5x7) NothingFont5x7, 25px], [heading]
+  - RECTANGLE "Test Account", 30x31px, constraints left/top, fill image(hash: 9743bd931275a42afd1f95ee8adaeffd73f6138a)
+  - RECTANGLE "Share", 30x31px, constraints left/top, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+  - RECTANGLE "Rectangle 1", 298x37px, constraints left/top, radius 14px, fill #FFFFFF, effect [inner_shadow 4px offset 0 4 #00000040, drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Search Groups", 138x18px, constraints left/top, fill #393636, text [OCR-A BT Regular, 18px]
+  - RECTANGLE "Search", 26x33px, constraints left/top, fill image(hash: 725aa96cc8033c19269ff203aa63424427d4a793)
+  - GROUP "Group 33865", 367x114px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 274x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+    - RECTANGLE "Share", 20x26px, constraints left/top, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33859", 126x48px, constraints left/top, radius 12px
+      - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Get a Tv from the market", 103x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+      - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+      - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "Family Group", 224x20px, constraints left/top, fill #000000, text [OCR-A BT Regular, 18px]
+    - GROUP "Group 33860", 108x29px, constraints left/top
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints left/top, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints left/top, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+    - RECTANGLE "Rectangle 64", 81x111px, constraints left/top, radius 16px, fill #FFFFFF, stroke #000000 0.3px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - GROUP "Group 33861", 64x93px, constraints left/top, radius 20px
+      - GROUP "Group 33862", 64x17px, constraints left/top, radius 20px
+        - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Archive group", 37x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+      - GROUP "Group 33863", 64x55px, constraints left/top, radius 20px
+        - GROUP "Group 33864", 64x17px, constraints left/top, radius 20px
+          - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Delete group", 34x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+        - RECTANGLE "Rectangle 66", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Lock group", 28x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - GROUP "Group 33866", 367x114px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 274x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+    - RECTANGLE "Share", 20x26px, constraints left/top, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33859", 126x48px, constraints left/top, radius 12px
+      - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "U free on saturday, we can go out", 121x18px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+      - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+      - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "Freinds", 224x20px, constraints left/top, fill #000000, text [OCR-A BT Regular, 18px]
+    - GROUP "Group 33860", 108x29px, constraints left/top
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints left/top, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints left/top, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+    - RECTANGLE "Rectangle 64", 81x111px, constraints left/top, radius 16px, fill #FFFFFF, stroke #000000 0.3px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - GROUP "Group 33861", 64x93px, constraints left/top, radius 20px
+      - GROUP "Group 33862", 64x17px, constraints left/top, radius 20px
+        - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Archive group", 37x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+      - GROUP "Group 33863", 64x55px, constraints left/top, radius 20px
+        - GROUP "Group 33864", 64x17px, constraints left/top, radius 20px
+          - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Delete group", 34x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+        - RECTANGLE "Rectangle 66", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Lock group", 28x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - GROUP "Group 33867", 367x114px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 274x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+    - RECTANGLE "Share", 20x26px, constraints left/top, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33859", 126x48px, constraints left/top, radius 12px
+      - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+      - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "Computer group", 224x20px, constraints left/top, fill #000000, text [OCR-A BT Regular, 18px]
+    - GROUP "Group 33860", 108x29px, constraints left/top
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints left/top, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints left/top, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+    - RECTANGLE "Rectangle 64", 81x111px, constraints left/top, radius 16px, fill #FFFFFF, stroke #000000 0.3px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - GROUP "Group 33861", 64x93px, constraints left/top, radius 20px
+      - GROUP "Group 33862", 64x17px, constraints left/top, radius 20px
+        - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Archive group", 37x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+      - GROUP "Group 33863", 64x55px, constraints left/top, radius 20px
+        - GROUP "Group 33864", 64x17px, constraints left/top, radius 20px
+          - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Delete group", 34x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+        - RECTANGLE "Rectangle 66", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Lock group", 28x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - GROUP "Group 33868", 367x114px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 274x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+    - RECTANGLE "Share", 20x26px, constraints left/top, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33859", 126x48px, constraints left/top, radius 12px
+      - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+      - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints left/top
+      - GROUP "Group 33839", 16x16px, constraints left/top
+        - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "Tp nothing else", 224x20px, constraints left/top, fill #000000, text [OCR-A BT Regular, 18px]
+    - GROUP "Group 33860", 108x29px, constraints left/top
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints left/top, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints left/top, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+    - RECTANGLE "Rectangle 64", 81x111px, constraints left/top, radius 16px, fill #FFFFFF, stroke #000000 0.3px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - GROUP "Group 33861", 64x93px, constraints left/top, radius 20px
+      - GROUP "Group 33862", 64x17px, constraints left/top, radius 20px
+        - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Archive group", 37x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+      - GROUP "Group 33863", 64x55px, constraints left/top, radius 20px
+        - GROUP "Group 33864", 64x17px, constraints left/top, radius 20px
+          - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Delete group", 34x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+        - RECTANGLE "Rectangle 66", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Lock group", 28x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - TEXT "PLease send me the HW", 91x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+  - TEXT "Happy Birtday Pulakit , MAY god bless you", 114x18px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+
+Screen: Page 1 / Community
+- FRAME "Community", 390x844px, constraints left/top, fill #FFFFFF
+  - FRAME "Status Bar", 375x44px, constraints left/top
+    - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x18px, constraints left/top, fill Colors / Dark / Base 1, text [Inter SemiBold, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+  - INSTANCE "App Bar", 390x34px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Bottom Bar", 390x34px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "• iPhone X / Home Indicator", 390x34px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill Black/01
+  - TEXT "Your Communities -", 245x18px, constraints left/top, fill #000000, text [Nothing Font (5x7) NothingFont5x7, 25px], [heading]
+  - RECTANGLE "Test Account", 30x31px, constraints left/top, fill image(hash: 9743bd931275a42afd1f95ee8adaeffd73f6138a)
+  - RECTANGLE "Share", 30x31px, constraints left/top, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+  - RECTANGLE "Rectangle 1", 298x37px, constraints left/top, radius 14px, fill #FFFFFF, effect [inner_shadow 4px offset 0 4 #00000040, drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Search", 26x33px, constraints left/top, fill image(hash: 725aa96cc8033c19269ff203aa63424427d4a793)
+  - TEXT "Search communities", 192x18px, constraints left/top, fill #393636, text [OCR-A BT Regular, 18px]
+  - GROUP "Group 33871", 373x208px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 67", 373x208px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - GROUP "Group 33850", 143x114px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+        - TEXT "COD", 33x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+        - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+          - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+            - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+            - TEXT "Lets play in the afternooon", 120x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+            - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+            - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+            - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+            - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+            - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+      - GROUP "Group 33840", 16x16px, constraints left/top
+        - GROUP "Group 33839", 16x16px, constraints left/top
+          - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - GROUP "Group 33849", 143x114px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+        - TEXT "PUBG", 43x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+        - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+          - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+            - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+            - TEXT "What time to play", 75x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+            - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+            - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+            - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+            - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+            - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+      - GROUP "Group 33840", 16x16px, constraints left/top
+        - GROUP "Group 33839", 16x16px, constraints left/top
+          - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "Gaming community, India", 242x20px, constraints left/top, fill #000000, text [OCR-A BT Regular, 18px]
+    - GROUP "Group 33839", 16x16px, constraints left/top
+      - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - GROUP "Group 33860", 108x29px, constraints left/top
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints left/top, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints left/top, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33862", 64x17px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Archive community", 49x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - GROUP "Group 33865", 64x17px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Delete community", 46x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - GROUP "Group 33866", 64x17px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Lock community", 41x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - GROUP "Group 33872", 373x208px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 67", 373x208px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - GROUP "Group 33850", 143x114px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+        - TEXT "Boards", 65x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+        - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+          - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+            - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+            - TEXT "board is 10 days later, ready?", 118x18px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+            - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+            - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+            - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+            - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+            - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+      - GROUP "Group 33840", 16x16px, constraints left/top
+        - GROUP "Group 33839", 16x16px, constraints left/top
+          - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - GROUP "Group 33849", 143x114px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+        - TEXT "English", 75x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+        - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+          - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+            - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+            - TEXT "English class tom", 77x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+            - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+            - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+            - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+            - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+            - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+      - GROUP "Group 33840", 16x16px, constraints left/top
+        - GROUP "Group 33839", 16x16px, constraints left/top
+          - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "Study community, India", 231x20px, constraints left/top, fill #000000, text [OCR-A BT Regular, 18px]
+    - GROUP "Group 33839", 16x16px, constraints left/top
+      - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - GROUP "Group 33860", 108x29px, constraints left/top
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints left/top, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints left/top, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33862", 64x17px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Archive community", 49x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - GROUP "Group 33865", 64x17px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Delete community", 46x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - GROUP "Group 33866", 64x17px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Lock community", 41x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - GROUP "Group 33873", 373x208px, constraints left/top, radius 0/0/0/0px, effect [layer_blur 1px]
+    - RECTANGLE "Rectangle 67", 373x208px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - GROUP "Group 33850", 143x114px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+        - TEXT "Sitar", 54x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+        - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+          - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+            - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+            - TEXT "Lets play in the afternooon", 120x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+            - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+            - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+            - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+            - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+            - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+      - GROUP "Group 33840", 16x16px, constraints left/top
+        - GROUP "Group 33839", 16x16px, constraints left/top
+          - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - GROUP "Group 33849", 143x114px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 33841", 143x114px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 2", 143x114px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+        - TEXT "Piano", 54x19px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 18px]
+        - GROUP "Group 33840", 126x103px, constraints left/top, radius 12px
+          - GROUP "Group 33839", 126x103px, constraints left/top, radius 12px
+            - RECTANGLE "Rectangle 60", 126x48px, constraints left/top, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+            - TEXT "What time to play", 75x9px, constraints left/top, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+            - TEXT "Recents", 34x9px, constraints left/top, fill #000000, text [OCR-A BT Regular, 8px]
+            - TEXT "sent on 10am", 41x7px, constraints left/top, fill #1B1919, text [OCR-A BT Regular, 6px]
+            - TEXT "Last seen 10:05", 50x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+            - TEXT "Delete chat", 38x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+            - TEXT "Mark as read", 39x7px, constraints left/top, fill #343030, text [OCR-A BT Regular, 6px]
+      - GROUP "Group 33840", 16x16px, constraints left/top
+        - GROUP "Group 33839", 16x16px, constraints left/top
+          - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "Music community, India", 236x20px, constraints left/top, fill #000000, text [OCR-A BT Regular, 18px]
+    - GROUP "Group 33839", 16x16px, constraints left/top
+      - RECTANGLE "Menu Vertical", 16x16px, constraints left/top, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - GROUP "Group 33860", 108x29px, constraints left/top
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints left/top, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints left/top, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints left/top, fill #000000, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33862", 64x17px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Archive community", 49x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - GROUP "Group 33865", 64x17px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Delete community", 46x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+    - GROUP "Group 33866", 64x17px, constraints left/top, radius 20px
+      - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Lock community", 41x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - GROUP "Group 33871", 390x49px, constraints left/top, radius 30px
+    - RECTANGLE "Rectangle 59", 390x49px, constraints left/top, radius 30px, fill #000000
+    - TEXT "Community", 91.37x9.94px, constraints left/top, fill #FFFFFF, stroke #4A4646 1px, text [OCR-B 10 BT Regular, 14px]
+    - TEXT "Chats", 50.76x9.94px, constraints left/top, fill #FFFFFF, text [OCR-B 10 BT Regular, 14px]
+    - TEXT "Profile", 71.06x9.94px, constraints left/top, fill #FFFFFF, text [OCR-B 10 BT Regular, 14px]
+    - TEXT "Groups", 50.76x9.94px, constraints left/top, fill #FFFFFF, text [OCR-B 10 BT Regular, 14px]
+
+Screen: Page 1 / Edit Profile
+- FRAME "Edit Profile", 390x844px, constraints left/top, fill White/01
+  - FRAME "Input Field", 327x83px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Placeholder", 72x21px, constraints left/top, fill Black/01, text [OCR-A A, 16px]
+    - FRAME "Form", 327x52px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 33", 327x52px, constraints left/top, radius 15px, fill White/01, stroke Light Grey/01 1px
+      - FRAME "Text Area", 237x25px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 51080", 237x25px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Pulakit Bararia", 237x25px, constraints left/top, fill Black/01, text [Nothing Font (5x7) NothingFont5x7, 14px]
+  - FRAME "Input Field", 327x83px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Placeholder", 193x21px, constraints left/top, fill Black/01, text [OCR-A BT Regular, 16px]
+    - FRAME "Form", 327x52px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 33", 327x52px, constraints left/top, radius 15px, fill White/01, stroke Light Grey/01 1px
+      - FRAME "Text Area", 275x25px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 51080", 275x25px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "profile", 24x24px, constraints scale/scale, fill #FFFFFF
+          - TEXT "3204u3242", 237x25px, constraints left/top, fill Black/01, text [Nothing Font (5x7) NothingFont5x7, 14px]
+      - FRAME "Frame 51081", 44x44px, horizontal pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Mail", 24x24px, constraints left/top, fill image(hash: 98d19fcc4817476b70b341cf87f8bc65d6e50914)
+  - FRAME "Input Field", 327x83px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Placeholder", 80x21px, constraints scale/scale, fill Black/01, text [OCR-A BT Regular, 16px]
+    - FRAME "Form", 327x52px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 33", 327x52px, constraints left/top, radius 15px, fill White/01, stroke Light Grey/01 1px
+      - FRAME "Text Area", 0x21px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 51080", 0x21px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 0x21px, constraints left/top, fill #000000, text [OCR-A BT Regular, 16px]
+      - RECTANGLE "Password", 24x24px, constraints left/top, fill image(hash: 5f41dbb79f53937aa90aff0ab0368f27bfe49f9b)
+  - RECTANGLE "Female Profile", 100x100px, constraints left/top, fill image(hash: 7d747ccf7ab62f39ec51c41026659b1072dbd480)
+  - TEXT "**********", 85x25px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 14px]
+  - RECTANGLE "Test Account", 30x31px, constraints left/top, fill image(hash: 9743bd931275a42afd1f95ee8adaeffd73f6138a)
+  - INSTANCE "Header", 375x117px, constraints left/top, fill White/01
+    - GROUP "Group 33827", 375x46px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Page Title", 116x21px, constraints left/top, fill Black/01, text [Nothing Font (5x7) NothingFont5x7, 16px]
+      - LINE "Line 9", 375x0px, constraints left/top, stroke Light Grey/01 1.5px
+    - INSTANCE "• iPhone X / Bars | Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 54x16px, constraints left/center, fill #000000, text [OCR A Extended OCRAExtended, 15px]
+      - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+  - RECTANGLE "Back", 50x50px, constraints left/top, fill image(hash: 85770feeea77742f400d2d10a5b49aeadf288f98)
+  - INSTANCE "Button", 327x56px, horizontal pad 15 123 15 123px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #000000
+    - TEXT "Create Account", 78x21px, constraints left/top, fill White/01, text [OCR-B 10 BT Regular, 16px]
+  - INSTANCE "App Bar", 390x34px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Bottom Bar", 390x34px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "• iPhone X / Home Indicator", 390x34px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill Black/01
+
+Screen: Page 1 / Chat display
+- FRAME "Chat display", 390x844px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 68", 361x87px, constraints scale/scale, radius 16px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "+4", 14x13px, constraints left/top, fill #000000, text [OCR-A BT Regular, 12px]
+  - RECTANGLE "Test Account", 30x31px, constraints scale/scale, fill image(hash: 9bf09757ebbe125d77520f6a59681cf1aa811d95)
+  - TEXT "An Example group", 212x18px, constraints scale/scale, fill #000000, text [Nothing Font (5x7) NothingFont5x7, 25px], [heading]
+  - GROUP "Group 33874", 65x35px, constraints left/top
+    - RECTANGLE "Circled User Male Skin Type 4", 29x35px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - RECTANGLE "Test Account", 29x35px, constraints left/top, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+    - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints left/top, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+  - GROUP "Group 33862", 64x17px, constraints left/top, radius 20px
+    - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+    - TEXT "Archive group", 37x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - GROUP "Group 33864", 64x17px, constraints left/top, radius 20px
+    - RECTANGLE "Rectangle 65", 64x17px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+    - TEXT "Delete group", 34x5px, constraints left/top, fill #000000, text [OCR-A BT Regular, 5px]
+  - RECTANGLE "Rectangle 1", 346x47px, constraints left/top, radius 14px, fill #FFFFFF, effect [inner_shadow 4px offset 0 4 #00000040, drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Type your message", 152x17px, constraints left/top, fill #000000, text [OCR-A A, 15px]
+  - RECTANGLE "Image", 16x30px, constraints left/top, fill image(hash: 961433cd384c8ff1403d0634a3c53191c64d597d)
+  - RECTANGLE "Voice", 16x30px, constraints left/top, fill image(hash: 18260739580b99bf5c3dd84fd14853e364eaaf6f)
+  - RECTANGLE "Back", 34x40px, constraints left/top, fill image(hash: 85770feeea77742f400d2d10a5b49aeadf288f98)
+  - INSTANCE "• iPhone X / Bars | Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Action", 54x16px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x16px, constraints left/center, fill #000000, text [OCR A Extended OCRAExtended, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+  - INSTANCE "App Bar", 390x34px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Bottom Bar", 390x34px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "• iPhone X / Home Indicator", 390x34px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill Black/01
+  - RECTANGLE "Menu Vertical", 28x28px, constraints left/top, fill image(hash: 13d9200974ef42a4870666625c9bb8f2b7342ad3)
+  - GROUP "Group 33875", 352x64px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 69", 352x64px, constraints left/top, radius 14px, fill #FDFDFD, stroke #000000 0.1px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Delete message", 36x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "sent: 5:00pm", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "Hide message", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - RECTANGLE "Circled User Male Skin Type 4", 21x23px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - TEXT "Pulakit Bararia", 79x11px, constraints left/top, fill #000000, text [OCR-A A, 10px]
+    - RECTANGLE "Rectangle 70", 316x15px, constraints left/top, radius 14px, fill #F6F6F6, stroke #000000 0.01px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "lets meet at the playground by 5pm, OK", 159x7px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 7px]
+    - RECTANGLE "Menu Vertical", 10x14px, constraints left/top, fill image(hash: 13d9200974ef42a4870666625c9bb8f2b7342ad3)
+  - GROUP "Group 33876", 352x64px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 69", 352x64px, constraints left/top, radius 14px, fill #FDFDFD, stroke #000000 0.1px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Delete message", 36x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "sent: 5:00pm", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "Hide message", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - RECTANGLE "Circled User Male Skin Type 4", 21x23px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - TEXT "Pulakit Bararia", 79x11px, constraints left/top, fill #000000, text [OCR-A A, 10px]
+    - RECTANGLE "Rectangle 70", 316x15px, constraints left/top, radius 14px, fill #F6F6F6, stroke #000000 0.01px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "lets meet at the playground by 5pm, OK", 159x7px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 7px]
+    - RECTANGLE "Menu Vertical", 10x14px, constraints left/top, fill image(hash: 13d9200974ef42a4870666625c9bb8f2b7342ad3)
+  - GROUP "Group 33877", 352x64px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 69", 352x64px, constraints left/top, radius 14px, fill #FDFDFD, stroke #000000 0.1px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Delete message", 36x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "sent: 5:00pm", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "Hide message", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - RECTANGLE "Circled User Male Skin Type 4", 21x23px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - TEXT "SAM", 18x11px, constraints left/top, fill #000000, text [OCR-A A, 10px]
+    - RECTANGLE "Rectangle 70", 316x20px, constraints left/top, radius 14px, fill #F6F6F6, stroke #000000 0.01px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "ok", 12x10px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 10px]
+    - RECTANGLE "Menu Vertical", 10x14px, constraints left/top, fill image(hash: 13d9200974ef42a4870666625c9bb8f2b7342ad3)
+  - GROUP "Group 33878", 352x64px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 69", 352x64px, constraints left/top, radius 14px, fill #FDFDFD, stroke #000000 0.1px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Delete message", 36x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "sent: 5:00pm", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "Hide message", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - RECTANGLE "Circled User Male Skin Type 4", 21x23px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - TEXT "Pulakit Bararia", 79x11px, constraints left/top, fill #000000, text [OCR-A A, 10px]
+    - RECTANGLE "Rectangle 70", 316x20px, constraints left/top, radius 14px, fill #F6F6F6, stroke #000000 0.01px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "lets meet at the playground by 5pm, OK", 229x10px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 10px]
+    - RECTANGLE "Menu Vertical", 10x14px, constraints left/top, fill image(hash: 13d9200974ef42a4870666625c9bb8f2b7342ad3)
+  - GROUP "Group 33879", 352x64px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 69", 352x64px, constraints left/top, radius 14px, fill #FDFDFD, stroke #000000 0.1px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Delete message", 36x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "sent: 5:00pm", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "Hide message", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - RECTANGLE "Circled User Male Skin Type 4", 21x23px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - TEXT "JAVA", 22x11px, constraints left/top, fill #000000, text [OCR-A A, 10px]
+    - RECTANGLE "Rectangle 70", 316x20px, constraints left/top, radius 14px, fill #F6F6F6, stroke #000000 0.01px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "no, i have a class, 4:30?", 147x10px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 10px]
+    - RECTANGLE "Menu Vertical", 10x14px, constraints left/top, fill image(hash: 13d9200974ef42a4870666625c9bb8f2b7342ad3)
+  - GROUP "Group 33880", 352x64px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 69", 352x64px, constraints left/top, radius 14px, fill #FDFDFD, stroke #000000 0.1px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Delete message", 36x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "sent: 5:00pm", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "Hide message", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - RECTANGLE "Circled User Male Skin Type 4", 21x23px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - TEXT "Sunil", 26x11px, constraints left/top, fill #000000, text [OCR-A A, 10px]
+    - RECTANGLE "Rectangle 70", 316x20px, constraints left/top, radius 14px, fill #F6F6F6, stroke #000000 0.01px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "4:00pm", 36x10px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 10px]
+    - RECTANGLE "Menu Vertical", 10x14px, constraints left/top, fill image(hash: 13d9200974ef42a4870666625c9bb8f2b7342ad3)
+  - GROUP "Group 33877", 352x64px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 69", 352x64px, constraints left/top, radius 14px, fill #FDFDFD, stroke #000000 0.1px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Delete message", 36x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "sent: 5:00pm", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "Hide message", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - RECTANGLE "Circled User Male Skin Type 4", 21x23px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - TEXT "Raj", 16x11px, constraints left/top, fill #000000, text [OCR-A A, 10px]
+    - RECTANGLE "Rectangle 70", 316x20px, constraints left/top, radius 14px, fill #F6F6F6, stroke #000000 0.01px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "WHt time", 48x10px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 10px]
+    - RECTANGLE "Menu Vertical", 10x14px, constraints left/top, fill image(hash: 13d9200974ef42a4870666625c9bb8f2b7342ad3)
+  - TEXT "Today", 39x13px, constraints left/top, fill #000000, text [OCR A Extended OCRAExtended, 13px]
+  - GROUP "Group 33880", 352x64px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 69", 352x64px, constraints left/top, radius 14px, fill #FDFDFD, stroke #000000 0.1px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Delete message", 36x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "sent: 5:00pm", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - TEXT "Hide message", 31x6px, constraints left/top, fill #000000, text [OCR-A A, 5px]
+    - RECTANGLE "Circled User Male Skin Type 4", 21x23px, constraints left/top, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - TEXT "sACHIN", 34x11px, constraints left/top, fill #000000, text [OCR-A A, 10px]
+    - RECTANGLE "Rectangle 70", 316x20px, constraints left/top, radius 14px, fill #F6F6F6, stroke #000000 0.01px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "DONE", 24x10px, constraints left/top, fill #000000, text [OCR-B 10 BT Regular, 10px]
+    - RECTANGLE "Menu Vertical", 10x14px, constraints left/top, fill image(hash: 13d9200974ef42a4870666625c9bb8f2b7342ad3)
+  - RECTANGLE "User Typing Using Typewriter", 24x24px, constraints left/top, fill image(hash: db305a660bbe2671e4088821cbdbfb2fb2d0b80e)
+
+Screen: Page 1 / Community display
+- FRAME "Community display", 390x844px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 68", 361x87px, constraints scale/scale, radius 16px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "An example community", 278x18px, constraints scale/scale, fill #000000, text [Nothing Font (5x7) NothingFont5x7, 25px], [heading]
+  - GROUP "Group 33874", 65x35px, constraints scale/scale
+    - RECTANGLE "Circled User Male Skin Type 4", 29x35px, constraints scale/scale, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+    - RECTANGLE "Test Account", 29x35px, constraints scale/scale, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+    - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints scale/scale, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+  - GROUP "Group 33862", 64x17px, constraints scale/scale, radius 20px
+    - RECTANGLE "Rectangle 65", 64x17px, constraints scale/scale, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+    - TEXT "Archive group", 37x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+  - GROUP "Group 33864", 64x17px, constraints scale/scale, radius 20px
+    - RECTANGLE "Rectangle 65", 64x17px, constraints scale/scale, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+    - TEXT "Delete group", 34x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+  - RECTANGLE "Test Account", 30x31px, constraints scale/scale, fill image(hash: b16ba1c38eaabea0f002055a4b0d96a6d9080b31)
+  - TEXT "+100", 18x18px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 8px]
+  - GROUP "Group 33865", 367x114px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 274x114px, constraints scale/scale, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+    - RECTANGLE "Share", 20x26px, constraints scale/scale, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+    - TEXT "Delete chat", 38x7px, constraints scale/scale, fill #343030, text [OCR-A BT Regular, 6px]
+    - TEXT "Mark as read", 39x7px, constraints scale/scale, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33859", 126x48px, constraints scale/scale, radius 12px
+      - RECTANGLE "Rectangle 60", 126x48px, constraints scale/scale, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Get a Tv from the market", 103x9px, constraints scale/scale, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+      - TEXT "Recents", 34x9px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 8px]
+      - TEXT "sent on 10am", 41x7px, constraints scale/scale, fill #1B1919, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints scale/scale
+      - GROUP "Group 33839", 16x16px, constraints scale/scale
+        - RECTANGLE "Menu Vertical", 16x16px, constraints scale/scale, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "An example group(1)", 224x21px, constraints scale/scale, fill #000000, text [OCR-A A, 18px]
+    - GROUP "Group 33860", 108x29px, constraints scale/scale
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints scale/scale, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints scale/scale, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints scale/scale, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 6px]
+    - RECTANGLE "Rectangle 64", 81x111px, constraints scale/scale, radius 16px, fill #FFFFFF, stroke #000000 0.3px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - GROUP "Group 33861", 64x93px, constraints scale/scale, radius 20px
+      - GROUP "Group 33862", 64x17px, constraints scale/scale, radius 20px
+        - RECTANGLE "Rectangle 65", 64x17px, constraints scale/scale, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Archive group", 37x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+      - GROUP "Group 33863", 64x55px, constraints scale/scale, radius 20px
+        - GROUP "Group 33864", 64x17px, constraints scale/scale, radius 20px
+          - RECTANGLE "Rectangle 65", 64x17px, constraints scale/scale, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Delete group", 34x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+        - RECTANGLE "Rectangle 66", 64x17px, constraints scale/scale, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Lock group", 28x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+  - GROUP "Group 33875", 367x114px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 274x114px, constraints scale/scale, radius 15px, fill #FFFFFF, stroke #000000 0.2px, effect [drop_shadow 6px offset 0 4 #00000040]
+    - RECTANGLE "Share", 20x26px, constraints scale/scale, fill image(hash: f7f856d3319a64ab00aea11444dd2684a2d90aa3)
+    - TEXT "Last seen: 10am, 10th Jan", 68x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+    - TEXT "Delete chat", 38x7px, constraints scale/scale, fill #343030, text [OCR-A BT Regular, 6px]
+    - TEXT "Mark as read", 39x7px, constraints scale/scale, fill #343030, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33859", 126x48px, constraints scale/scale, radius 12px
+      - RECTANGLE "Rectangle 60", 126x48px, constraints scale/scale, radius 12px, fill #FFFFFF, stroke #000000 0.1px
+      - TEXT "Get a Tv from the market", 103x9px, constraints scale/scale, fill #5D5A5A, text [OCR-A BT Regular, 8px]
+      - TEXT "Recents", 34x9px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 8px]
+      - TEXT "sent on 10am", 41x7px, constraints scale/scale, fill #1B1919, text [OCR-A BT Regular, 6px]
+    - GROUP "Group 33840", 16x16px, constraints scale/scale
+      - GROUP "Group 33839", 16x16px, constraints scale/scale
+        - RECTANGLE "Menu Vertical", 16x16px, constraints scale/scale, fill image(hash: 66d1fe22caad696b7fad72198b2d6ed79ac84b48)
+    - TEXT "An example group(2)", 224x21px, constraints scale/scale, fill #000000, text [OCR-A A, 18px]
+    - GROUP "Group 33860", 108x29px, constraints scale/scale
+      - RECTANGLE "Circled User Male Skin Type 4", 29x29px, constraints scale/scale, fill image(hash: 3f000ad8da349fd18f65d5340a4fd486ba3d4834)
+      - RECTANGLE "Test Account", 29x29px, constraints scale/scale, fill image(hash: e3fa5ef0b6ef03a9782b4cf792a0d0e55529d26d)
+      - RECTANGLE "Circled User Male Skin Type 6", 29x29px, constraints scale/scale, fill image(hash: 07fca215282f46fa77c86ee1bd4967511bed9d83)
+      - TEXT "+ 40 members", 39x7px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 6px]
+    - RECTANGLE "Rectangle 64", 81x111px, constraints scale/scale, radius 16px, fill #FFFFFF, stroke #000000 0.3px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - GROUP "Group 33861", 64x93px, constraints scale/scale, radius 20px
+      - GROUP "Group 33862", 64x17px, constraints scale/scale, radius 20px
+        - RECTANGLE "Rectangle 65", 64x17px, constraints scale/scale, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Archive group", 37x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+      - GROUP "Group 33863", 64x55px, constraints scale/scale, radius 20px
+        - GROUP "Group 33864", 64x17px, constraints scale/scale, radius 20px
+          - RECTANGLE "Rectangle 65", 64x17px, constraints scale/scale, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+          - TEXT "Delete group", 34x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+        - RECTANGLE "Rectangle 66", 64x17px, constraints scale/scale, radius 20px, fill #FFFFFF, stroke #000000 0.1px
+        - TEXT "Lock group", 28x5px, constraints scale/scale, fill #000000, text [OCR-A BT Regular, 5px]
+  - RECTANGLE "Back", 27x44px, constraints scale/scale, fill image(hash: 85770feeea77742f400d2d10a5b49aeadf288f98)
+  - INSTANCE "• iPhone X / Bars | Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Action", 54x16px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x16px, constraints left/center, fill #000000, text [OCR A Extended OCRAExtended, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+  - INSTANCE "App Bar", 390x34px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Bottom Bar", 390x34px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "• iPhone X / Home Indicator", 390x34px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill Black/01
+
+Screen: Page 1 / FLash
+- FRAME "FLash", 390x844px, constraints left/top, fill #000000
+  - RECTANGLE "glass abstract shapes", 390x401px, constraints left/top, fill image(hash: 0260325c143bc1ad8d17c1b142fa9ed4ee2e9dd5)
+  - TEXT "Okta", 93x18px, constraints scale/scale, fill #FFFFFF, text [Nothing Font (5x7) NothingFont5x7, 40px], [heading]
+  - TEXT "A different Chat app", 231x18px, constraints scale/scale, fill #FFFFFF, text [Nothing Font (5x7) NothingFont5x7, 25px], [heading]
+  - TEXT "Tap to continue", 75x18px, constraints left/top, fill #FFFFFF, text [Nothing Font (5x7) NothingFont5x7, 10px]
+
+Screen: Page 1 / Landing page
+- FRAME "Landing page", 390x844px, constraints left/top, fill #FFFFFF
+  - TEXT "Refine Your Productivity", 349x88px, constraints center/center, fill #000000, effect [background_blur 4px], text [OCR-A A, 38px], [heading]
+  - INSTANCE "Status Bar", 375x44px, constraints left/top
+    - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x18px, constraints left/top, fill Colors / Dark / Base 1, text [Inter SemiBold, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+  - TEXT "Okta’s design embraces a monochromatic palette, which exudes", 356x28px, constraints left/top, fill #4F5C6E, effect [inner_shadow 4px offset 0 4 #00000040], text [OCR-A A, 12px]
+  - GROUP "Group 33829", 283x64px, constraints left/top, radius 20px
+    - GROUP "Group 33833", 283x64px, constraints left/top, radius 20px
+      - GROUP "Group 33831", 283x64px, constraints left/top, radius 20px
+        - RECTANGLE "Rectangle 1", 283x64px, constraints left/top, radius 20px, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 33830", 200x31px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 33832", 200x31px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Let’s Start", 200x31px, constraints left/top, fill #FFFFFF, text [OCR A Extended OCRAExtended, 30px], [heading]
+  - RECTANGLE "Rectangle 51", 147x2px, constraints left/top, radius 12px, fill #000000
+  - INSTANCE "App Bar", 375x34px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Bottom Bar", 375x34px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "• iPhone X / Home Indicator", 375x34px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Line", 135x5px, constraints center/bottom, radius 100px, fill Black/01
+  - GROUP "Logo", 61x17px, constraints left/top
+    - ELLIPSE "Ellipse 1", 17.21x17px, constraints left/top, fill #000000
+    - ELLIPSE "Ellipse 2", 17.21x17px, constraints left/top, fill #FFFFFF, stroke #000000 0.5px
+    - ELLIPSE "Ellipse 3", 17.21x17px, constraints left/top, fill #000000
+  - RECTANGLE "glass abstract shapes", 278.5x315.23px, constraints left/top, fill image(hash: 0260325c143bc1ad8d17c1b142fa9ed4ee2e9dd5)
+  - TEXT "OKTA", 33x13px, constraints left/top, fill #000000, text [Nothing Font (5x7) NothingFont5x7, 12px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

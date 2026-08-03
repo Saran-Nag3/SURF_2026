@@ -1,0 +1,42 @@
+{
+  "company": "webflow",
+  "source": "/Users/sarannagubandi/downloads/awesome/webflow.md",
+  "platform": "android",
+  "device": "Pixel 7a",
+  "viewport_px": [
+    412,
+    892
+  ],
+  "output_px": [
+    1082,
+    2342
+  ],
+  "paradigm_detected": "component library/design system derived from a marketing-site language, because the spec is dominated by tokens, reusable components, and desktop marketing patterns that need mobile-native translation.",
+  "self_check": "Each screen is a single-column Android fragment with no status-bar chrome drawn, touch-only controls, desktop/web residue removed, and the near-black, white, chromatic category fills, WF Visual Sans typography, and 4px/8px radius system preserved.",
+  "screens": [
+    {
+      "name": "Home",
+      "kind": "HOME FEED",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "Onboarding",
+      "kind": "ONBOARDING",
+      "png": "screen_2_onboarding.png",
+      "html": "screen_2_onboarding.html"
+    },
+    {
+      "name": "Project Detail",
+      "kind": "ITEM DETAIL",
+      "png": "screen_3_item-detail.png",
+      "html": "screen_3_item-detail.html"
+    },
+    {
+      "name": "Empty CMS",
+      "kind": "EMPTY STATE",
+      "png": "screen_4_empty-state.png",
+      "html": "screen_4_empty-state.html"
+    }
+  ]
+}

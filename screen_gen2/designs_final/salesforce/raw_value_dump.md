@@ -1,0 +1,2245 @@
+---
+name: salesforce-mobile-screens-editable-community
+source_file: Salesforce Mobile Screens Editable (Community)
+source_page: All pages (14): 👑 Cover, ---, 📍 Project Setup ⬇️,     🧮  Colors,     🔠  Fonts, ---, 📍 Components ⬇️,     🌟  Iconography,     💠  Main Components, ---, 📍 Project Screens ⬇️,     📄  Templates (Main Files Here) 🟢, ---, ✨ Thank you
+generated_at: 2026-07-25T09:20:49.959173+00:00
+---
+
+# Salesforce Mobile Screens Editable (Community) Design Guidelines
+
+## Source
+- Figma file: Salesforce Mobile Screens Editable (Community)
+- Figma page: All pages (14): 👑 Cover, ---, 📍 Project Setup ⬇️,     🧮  Colors,     🔠  Fonts, ---, 📍 Components ⬇️,     🌟  Iconography,     💠  Main Components, ---, 📍 Project Screens ⬇️,     📄  Templates (Main Files Here) 🟢, ---, ✨ Thank you
+- Extracted at: 2026-07-25T09:20:49.959173+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Imagery/Instagram/1: [gradient_linear(#4E60D3 0% | #913BAF 14% | #D52D88 76% | #F26D4F 100%), gradient_radial(#FED276 0% | #FDBD61F9 17% | #F6804D 45% | #E83D5C00 100%)]
+- Blog/LinkedIn/2: [#FFFFFF]
+- Blog/LinkedIn/1: [#0A66C2]
+- Creative/Behance/1: [#1769FF]
+- System/White: [#FFFFFF]
+- Primary/Main: [#0070D2]
+- System/Background: [#F2F2F2]
+- System/Dark Gray: [#6F6E6A]
+- System/Separator Line: [#FFFFFF]
+- Error/Error Main: [#C23934]
+- System/Secondary Black: [#3B3B3B]
+- System/Black: [#171717]
+- Foundation / Gray / 05: [#FFFFFF]
+- Secondary/Main: [#F8FAFA]
+- System/Default Blue: [#F8FAFA]
+- Icon/White: [#FFFFFF]
+- colors/backgrounds/dark: [#0F0F0F]
+- Foundation / Gray / 01: [#FFFFFF]
+- Text / Placeholder: [#706E6B]
+- Icon / Light: [#B0ADAB]
+- Text / Weak: [#3E3E3C]
+- Icon / Default: [#706E6B]
+- Text / Default: [#080707]
+- Foundation / Gray / 04: [#ECEBEA]
+- Foundation / Blue / Endeavour: [#005FB2]
+- Foundation / Green / Emerald: [#4BCA81]
+- Text / White: [#FFFFFF]
+- Icon / White: [#FFFFFF]
+- Foundation / Red / Flush Mahogany: [#FFFFFF]
+- Text / Error: [#C23934]
+- Foundation / Blue / Azure: [#FFFFFF]
+- System/Disabled Light: [#DDDBDA]
+- Primary/Main Hover: [#F4F6F9]
+- Primary/Dark: [#004A8A]
+- System/Disabled: [#C9C7C5]
+- Error/Error Pressed: [#A61A14]
+- Success/Success Main: [#4BCA81]
+- Success/Success Pressed: [#04844B]
+- wireframes/colors/text-legibility/high-emphasis: [#170E2B]
+- colors/backgrounds/light: [#F5F5F5]
+- System/Navigation Background: [#FAFAF8]
+- System/Light Gray: [#A1A9B1]
+- Secondary/Light: [#FEFEFE]
+- Secondary/Dark: [#F3F3F3]
+- Primary/Light: [#289BFF]
+
+## Raw Colors (unstyled)
+- #000000: 1123 uses
+- #FFFFFF: 309 uses
+- #1B96FF: 112 uses
+- #107CAD: 96 uses
+- #FF5D2D: 90 uses
+- #06A59A: 79 uses
+- #FF538A: 79 uses
+- #3BA755: 72 uses
+- #5867E8: 64 uses
+- #FFFFFFE5: 45 uses
+- #939393: 43 uses
+- #396547: 36 uses
+- #9050E9: 21 uses
+- #032D60: 14 uses
+- #F28B00: 13 uses
+
+## Typography Tokens
+- H6: Roboto Medium (500), 10px / auto, tracking 0px
+- Body 3: Roboto Regular (400), 12px / auto, tracking 0px
+- Body 2: Roboto Regular (400), 14px / auto, tracking 0px
+- 03 - Body / Default: Segoe UI SegoeUI (400), 13px / 20px, tracking 0px
+- Body 1: Roboto Regular (400), 16px / auto, tracking 0px
+- H3/Bold: Roboto Bold (700), 16px / auto, tracking 0px
+- H1/Bold: Roboto Bold (700), 24px / auto, tracking 0px
+- Body 2/Semibold: Roboto SemiBold (600), 14px / auto, tracking 0px
+- Caption: Roboto Regular (400), 8px / auto, tracking 0px
+- H2/Bold: Roboto Bold (700), 20px / auto, tracking 0px
+- H4/Bold: Roboto Bold (700), 14px / auto, tracking 0px
+- H5: Roboto Medium (500), 12px / auto, tracking 0px
+- 02 - Label / Default: Segoe UI SegoeUI (400), 12px / 18px, tracking 0px
+
+## Raw Typography (unstyled)
+- Source Sans Pro Black, 36px: 102 uses
+- Roboto Regular, 16px: 15 uses
+- Roboto Medium, 14px: 10 uses
+- Roboto Bold, 64px: 6 uses
+- Source Sans Pro Black, 76px: 5 uses
+- Montserrat Bold, 36px: 4 uses
+- Roboto Regular, 48px: 3 uses
+
+## Typography Hierarchy
+- 76px - Source Sans Pro Black, 76px (raw)
+- 64px - Roboto Bold, 64px (raw)
+- 48px - Roboto Regular, 48px (raw)
+- 36px - Montserrat Bold, 36px (raw)
+- 36px - Source Sans Pro Black, 36px (raw)
+- 24px - H1/Bold (Roboto Bold)
+- 20px - H2/Bold (Roboto Bold)
+- 16px - Body 1 (Roboto Regular)
+- 16px - H3/Bold (Roboto Bold)
+- 16px - Roboto Regular, 16px (raw)
+- 14px - Body 2 (Roboto Regular)
+- 14px - Body 2/Semibold (Roboto SemiBold)
+- 14px - H4/Bold (Roboto Bold)
+- 14px - Roboto Medium, 14px (raw)
+- 13px - 03 - Body / Default (Segoe UI SegoeUI)
+- 12px - 02 - Label / Default (Segoe UI SegoeUI)
+- 12px - Body 3 (Roboto Regular)
+- 12px - H5 (Roboto Medium)
+- 10px - H6 (Roboto Medium)
+- 8px - Caption (Roboto Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- 02 - Container / Border Top: [drop_shadow 0px offset 0 -1 #DDDBDA]
+- 02 - Container / Border Bottom: [drop_shadow 0px offset 0 1 #DDDBDA]
+- 12 - Docked Composer / Bottom: [drop_shadow 4px offset 0 -3 #00000029]
+- 02 - Container / Border Top & Bottom: [drop_shadow 0px offset 0 1 #DDDBDA, drop_shadow 0px offset 0 -1 #DDDBDA]
+- 06 - Input / Error: [drop_shadow 0px offset 0 1 #C23934, drop_shadow 0px offset 0 -1 #C23934, drop_shadow 0px offset 1 0 #C23934, drop_shadow 0px offset -1 0 #C23934, drop_shadow 0px offset -1 -1 #C23934, drop_shadow 0px offset -1 1 #C23934, drop_shadow 0px offset 1 -1 #C23934, drop_shadow 0px offset 1 1 #C23934]
+- 06 - Input / Focus: [drop_shadow 3px offset 0 0 #0070D2]
+- 01 - Button / Focus: [drop_shadow 3px offset 0 0 #0070D2]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Icon
+- Doctype Icons
+- Utility Icons
+- Custom Icons
+- Action Icons
+- Standard Icons
+- Combobox
+- Input
+- Badge
+- Button
+- Field
+- Footer Item
+- Objects Rows
+- Page Header
+- Item Page Menu
+- Footer Full
+- Footer
+- List Item Home
+- Header
+- Android-status-bar
+
+## Component Specs
+- Icon: size 48x48px | variants: Property 1: 12/16/20/24/32/40/48
+- Doctype Icons / Ai: size 48x48px, fill #FFFFFF
+- Doctype Icons / Attachment: size 48x48px, fill #FFFFFF
+- Doctype Icons / audio: size 48x48px, fill #FFFFFF
+- Doctype Icons / box_notes: size 48x48px, fill #FFFFFF
+- Doctype Icons / CSV: size 48x48px, fill #FFFFFF
+- Doctype Icons / EPS: size 48x48px, fill #FFFFFF
+- Doctype Icons / EXE: size 48x48px, fill #FFFFFF
+- Doctype Icons / Excel: size 48x48px, fill #FFFFFF
+- Doctype Icons / Flash: size 48x48px, fill #FFFFFF
+- Doctype Icons / Folder: size 48x48px, fill #FFFFFF
+- Doctype Icons / gdoc: size 48x48px, fill #FFFFFF
+- Doctype Icons / gdocs: size 48x48px, fill #FFFFFF
+- Doctype Icons / gform: size 48x48px, fill #FFFFFF
+- Doctype Icons / gpres: size 48x48px, fill #FFFFFF
+- Doctype Icons / gsheet: size 48x48px, fill #FFFFFF
+- Doctype Icons / HTML: size 48x48px, fill #FFFFFF
+- Doctype Icons / Image: size 48x48px, fill #FFFFFF
+- Doctype Icons / Keynote: size 48x48px, fill #FFFFFF
+- Doctype Icons / Link: size 48x48px, fill #FFFFFF
+- Doctype Icons / library_folder: size 48x48px, fill #FFFFFF
+- Doctype Icons / MP4: size 48x48px, fill #FFFFFF
+- Doctype Icons / Overlay: size 48x48px, fill #FFFFFF
+- Doctype Icons / PDF: size 48x48px, fill #FFFFFF
+- Doctype Icons / PSD: size 48x48px, fill #FFFFFF
+- Doctype Icons / Pack: size 48x48px, fill #FFFFFF
+- Doctype Icons / Pages: size 48x48px, fill #FFFFFF
+- Doctype Icons / ppt: size 48x48px, fill #FFFFFF
+- Doctype Icons / quip_doc: size 48x48px, fill #FFFFFF
+- Doctype Icons / quip_sheet: size 48x48px, fill #FFFFFF
+- Doctype Icons / quip_slide: size 48x48px, fill #FFFFFF
+- Doctype Icons / RTF: size 48x48px, fill #FFFFFF
+- Doctype Icons / Slide: size 48x48px, fill #FFFFFF
+- Doctype Icons / Stypi: size 48x48px, fill #FFFFFF
+- Doctype Icons / txt: size 48x48px, fill #FFFFFF
+- Doctype Icons / Unknown: size 48x48px, fill #FFFFFF
+- Doctype Icons / Video: size 48x48px, fill #FFFFFF
+- Doctype Icons / Visio: size 48x48px, fill #FFFFFF
+- Doctype Icons / Webex: size 48x48px, fill #FFFFFF
+- Doctype Icons / Word: size 48x48px, fill #FFFFFF
+- Doctype Icons / XML: size 48x48px, fill #FFFFFF
+- Doctype Icons / Zip: size 48x48px, fill #FFFFFF
+- Utility Icons / A / activity: size 32x32px, fill #FFFFFF
+- Utility Icons / A / ad_set: size 32x32px, fill #FFFFFF
+- Utility Icons / A / add: size 32x32px, fill #FFFFFF
+- Utility Icons / A / add_source: size 32x32px, fill #FFFFFF
+- Utility Icons / A / adduser: size 32x32px, fill #FFFFFF
+- Utility Icons / A / adjust_value: size 32x32px, fill #FFFFFF
+- Utility Icons / A / advanced_function: size 32x32px, fill #FFFFFF
+- Utility Icons / A / advertising: size 32x32px, fill #FFFFFF
+- Utility Icons / A / agent_home: size 32x32px, fill #FFFFFF
+- Utility Icons / A / agent_session: size 32x32px, fill #FFFFFF
+- Utility Icons / A / aggregation_policy: size 32x32px, fill #FFFFFF
+- Utility Icons / A / alert: size 32x32px, fill #FFFFFF
+- Utility Icons / A / all: size 32x32px, fill #FFFFFF
+- Utility Icons / A / anchor: size 32x32px, fill #FFFFFF
+- Utility Icons / A / animal_and_nature: size 32x32px, fill #FFFFFF
+- Utility Icons / A / announcement: size 32x32px, fill #FFFFFF
+- Utility Icons / A / answer: size 32x32px, fill #FFFFFF
+- Utility Icons / A / answered_twice: size 32x32px, fill #FFFFFF
+- Utility Icons / A / anywhere_alert: size 32x32px, fill #FFFFFF
+- Utility Icons / A / anywhere_chat: size 32x32px, fill #FFFFFF
+- Utility Icons / A / apex: size 32x32px, fill #FFFFFF
+- Utility Icons / A / apex_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / A / apex_plugin: size 32x32px, fill #FFFFFF
+- Utility Icons / A / app_web_messaging: size 32x32px, fill #FFFFFF
+- Utility Icons / A / approval: size 32x32px, fill #FFFFFF
+- Utility Icons / A / apps: size 32x32px, fill #FFFFFF
+- Utility Icons / A / archive: size 32x32px, fill #FFFFFF
+- Utility Icons / A / arrow_bottom: size 32x32px, fill #FFFFFF
+- Utility Icons / A / arrow_left: size 32x32px, fill #FFFFFF
+- Utility Icons / A / arrow_right: size 32x32px, fill #FFFFFF
+- Utility Icons / A / arrow_top: size 32x32px, fill #FFFFFF
+- Utility Icons / A / arrowdown: size 32x32px, fill #FFFFFF
+- Utility Icons / A / arrowup: size 32x32px, fill #FFFFFF
+- Utility Icons / A / asset_audit: size 32x32px, fill #FFFFFF
+- Utility Icons / A / asset_object: size 32x32px, fill #FFFFFF
+- Utility Icons / A / asset_warranty: size 32x32px, fill #FFFFFF
+- Utility Icons / A / assignment: size 32x32px, fill #FFFFFF
+- Utility Icons / A / attach: size 32x32px, fill #FFFFFF
+- Utility Icons / A / automate: size 32x32px, fill #FFFFFF
+- Utility Icons / A / away: size 32x32px, fill #FFFFFF
+- Utility Icons / B / back: size 32x32px, fill #FFFFFF
+- Utility Icons / B / ban: size 32x32px, fill #FFFFFF
+- Utility Icons / B / block_visitor: size 32x32px, fill #FFFFFF
+- Utility Icons / B / bold: size 32x32px, fill #FFFFFF
+- Utility Icons / B / bookmark: size 32x32px, fill #FFFFFF
+- Utility Icons / B / bookmark_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / B / bookmark_stroke: size 32x32px, fill #FFFFFF
+- Utility Icons / B / bottom_align: size 32x32px, fill #FFFFFF
+- Utility Icons / B / breadcrumbs: size 32x32px, fill #FFFFFF
+- Utility Icons / B / broadcast: size 32x32px, fill #FFFFFF
+- Utility Icons / B / brush: size 32x32px, fill #FFFFFF
+- Utility Icons / B / bucket: size 32x32px, fill #FFFFFF
+- Utility Icons / B / budget_category_value: size 32x32px, fill #FFFFFF
+- Utility Icons / B / budget_period: size 32x32px, fill #FFFFFF
+- Utility Icons / B / bug: size 32x32px, fill #FFFFFF
+- Utility Icons / B / builder: size 32x32px, fill #FFFFFF
+- Utility Icons / B / bundle_config: size 32x32px, fill #FFFFFF
+- Utility Icons / B / bundle_policy: size 32x32px, fill #FFFFFF
+- Utility Icons / B / button_choice: size 32x32px, fill #FFFFFF
+- Utility Icons / B / buyer_group_qualifier: size 32x32px, fill #FFFFFF
+- Utility Icons / C / calculated_insights: size 32x32px, fill #FFFFFF
+- Utility Icons / C / call: size 32x32px, fill #FFFFFF
+- Utility Icons / C / campaign: size 32x32px, fill #FFFFFF
+- Utility Icons / C / cancel_file_request: size 32x32px, fill #FFFFFF
+- Utility Icons / C / cancel_transfer: size 32x32px, fill #FFFFFF
+- Utility Icons / C / capacity_plan: size 32x32px, fill #FFFFFF
+- Utility Icons / C / capslock: size 32x32px, fill #FFFFFF
+- Utility Icons / C / captions: size 32x32px, fill #FFFFFF
+- Utility Icons / C / cart: size 32x32px, fill #FFFFFF
+- Utility Icons / C / case: size 32x32px, fill #FFFFFF
+- Utility Icons / C / cases: size 32x32px, fill #FFFFFF
+- Utility Icons / C / center_align: size 32x32px, fill #FFFFFF
+- Utility Icons / C / center_align_text: size 32x32px, fill #FFFFFF
+- Utility Icons / C / change_owner: size 32x32px, fill #FFFFFF
+- Utility Icons / C / change_record_type: size 32x32px, fill #FFFFFF
+- Utility Icons / C / change_request: size 32x32px, fill #FFFFFF
+- Utility Icons / C / chart: size 32x32px, fill #FFFFFF
+- Utility Icons / C / chat: size 32x32px, fill #FFFFFF
+- Utility Icons / C / check: size 32x32px, fill #FFFFFF
+- Utility Icons / C / checkin: size 32x32px, fill #FFFFFF
+- Utility Icons / C / checkout: size 32x32px, fill #FFFFFF
+- Utility Icons / C / chevrondown: size 32x32px, fill #FFFFFF
+- Utility Icons / C / chevronleft: size 32x32px, fill #FFFFFF
+- Utility Icons / C / chevronright: size 32x32px, fill #FFFFFF
+- Utility Icons / C / chevronup: size 32x32px, fill #FFFFFF
+- Utility Icons / C / choice: size 32x32px, fill #FFFFFF
+- Utility Icons / C / classic_interface: size 32x32px, fill #FFFFFF
+- Utility Icons / C / clear: size 32x32px, fill #FFFFFF
+- Utility Icons / C / clock: size 32x32px, fill #FFFFFF
+- Utility Icons / C / close: size 32x32px, fill #FFFFFF
+- Utility Icons / C / collapse_all: size 32x32px, fill #FFFFFF
+- Utility Icons / C / collection: size 32x32px, fill #FFFFFF
+- Utility Icons / C / collection_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / C / collection_variable: size 32x32px, fill #FFFFFF
+- Utility Icons / C / color_swatch: size 32x32px, fill #FFFFFF
+- Utility Icons / C / comments: size 32x32px, fill #FFFFFF
+- Utility Icons / C / company: size 32x32px, fill #FFFFFF
+- Utility Icons / C / component_customization: size 32x32px, fill #FFFFFF
+- Utility Icons / C / connected_apps: size 32x32px, fill #FFFFFF
+- Utility Icons / C / constant: size 32x32px, fill #FFFFFF
+- Utility Icons / C / contact: size 32x32px, fill #FFFFFF
+- Utility Icons / C / contact_request: size 32x32px, fill #FFFFFF
+- Utility Icons / C / contract: size 32x32px, fill #FFFFFF
+- Utility Icons / C / contract_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / C / contract_doc: size 32x32px, fill #FFFFFF
+- Utility Icons / C / contract_line_outcome: size 32x32px, fill #FFFFFF
+- Utility Icons / C / contract_line_outcome_data: size 32x32px, fill #FFFFFF
+- Utility Icons / C / contract_payment: size 32x32px, fill #FFFFFF
+- Utility Icons / C / copy: size 32x32px, fill #FFFFFF
+- Utility Icons / C / copy_to_clipboard: size 32x32px, fill #FFFFFF
+- Utility Icons / C / coupon_codes: size 32x32px, fill #FFFFFF
+- Utility Icons / C / crossfilter: size 32x32px, fill #FFFFFF
+- Utility Icons / C / currency: size 32x32px, fill #FFFFFF
+- Utility Icons / C / currency_input: size 32x32px, fill #FFFFFF
+- Utility Icons / C / custom_apps: size 32x32px, fill #FFFFFF
+- Utility Icons / C / customer: size 32x32px, fill #FFFFFF
+- Utility Icons / C / customer_workspace: size 32x32px, fill #FFFFFF
+- Utility Icons / C / cut: size 32x32px, fill #FFFFFF
+- Utility Icons / D / dash: size 32x32px, fill #FFFFFF
+- Utility Icons / D / data_cloud: size 32x32px, fill #FFFFFF
+- Utility Icons / D / data_graph: size 32x32px, fill #FFFFFF
+- Utility Icons / D / data_mapping: size 32x32px, fill #FFFFFF
+- Utility Icons / D / data_model: size 32x32px, fill #FFFFFF
+- Utility Icons / D / data_transforms: size 32x32px, fill #FFFFFF
+- Utility Icons / D / database: size 32x32px, fill #FFFFFF
+- Utility Icons / D / datadotcom: size 32x32px, fill #FFFFFF
+- Utility Icons / D / date_input: size 32x32px, fill #FFFFFF
+- Utility Icons / D / date_time: size 32x32px, fill #FFFFFF
+- Utility Icons / D / dayview: size 32x32px, fill #FFFFFF
+- Utility Icons / D / delete: size 32x32px, fill #FFFFFF
+- Utility Icons / D / deprecate: size 32x32px, fill #FFFFFF
+- Utility Icons / D / description: size 32x32px, fill #FFFFFF
+- Utility Icons / D / desktop: size 32x32px, fill #FFFFFF
+- Utility Icons / D / desktop_and_phone: size 32x32px, fill #FFFFFF
+- Utility Icons / D / desktop_console: size 32x32px, fill #FFFFFF
+- Utility Icons / D / detach: size 32x32px, fill #FFFFFF
+- Utility Icons / D / dialing: size 32x32px, fill #FFFFFF
+- Utility Icons / D / diamond: size 32x32px, fill #FFFFFF
+- Utility Icons / D / discounts: size 32x32px, fill #FFFFFF
+- Utility Icons / D / dislike: size 32x32px, fill #FFFFFF
+- Utility Icons / D / display_rich_text: size 32x32px, fill #FFFFFF
+- Utility Icons / D / display_text: size 32x32px, fill #FFFFFF
+- Utility Icons / D / dock_panel: size 32x32px, fill #FFFFFF
+- Utility Icons / D / document_preview: size 32x32px, fill #FFFFFF
+- Utility Icons / D / down: size 32x32px, fill #FFFFFF
+- Utility Icons / D / download: size 32x32px, fill #FFFFFF
+- Utility Icons / D / drag: size 32x32px, fill #FFFFFF
+- Utility Icons / D / drag_and_drop: size 32x32px, fill #FFFFFF
+- Utility Icons / D / duration_downscale: size 32x32px, fill #FFFFFF
+- Utility Icons / D / dynamic_record_choice: size 32x32px, fill #FFFFFF
+- Utility Icons / E / edit: size 32x32px, fill #FFFFFF
+- Utility Icons / E / edit_form: size 32x32px, fill #FFFFFF
+- Utility Icons / E / edit_gpt: size 32x32px, fill #FFFFFF
+- Utility Icons / E / education: size 32x32px, fill #FFFFFF
+- Utility Icons / E / einstein: size 32x32px, fill #FFFFFF
+- Utility Icons / E / email: size 32x32px, fill #FFFFFF
+- Utility Icons / E / email_open: size 32x32px, fill #FFFFFF
+- Utility Icons / E / emoji: size 32x32px, fill #FFFFFF
+- Utility Icons / E / end_call: size 32x32px, fill #FFFFFF
+- Utility Icons / E / end_chat: size 32x32px, fill #FFFFFF
+- Utility Icons / E / end_messaging_session: size 32x32px, fill #FFFFFF
+- Utility Icons / E / engage: size 32x32px, fill #FFFFFF
+- Utility Icons / E / enter: size 32x32px, fill #FFFFFF
+- Utility Icons / E / entitlement: size 32x32px, fill #FFFFFF
+- Utility Icons / E / erect_window: size 32x32px, fill #FFFFFF
+- Utility Icons / E / error: size 32x32px, fill #FFFFFF
+- Utility Icons / E / event: size 32x32px, fill #FFFFFF
+- Utility Icons / E / event_ext: size 32x32px, fill #FFFFFF
+- Utility Icons / E / events: size 32x32px, fill #FFFFFF
+- Utility Icons / E / expand: size 32x32px, fill #FFFFFF
+- Utility Icons / E / expand_all: size 32x32px, fill #FFFFFF
+- Utility Icons / E / expand_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / E / expired: size 32x32px, fill #FFFFFF
+- Utility Icons / F / fallback: size 32x32px, fill #FFFFFF
+- Utility Icons / F / favorite: size 32x32px, fill #FFFFFF
+- Utility Icons / F / favorite_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / F / feed: size 32x32px, fill #FFFFFF
+- Utility Icons / F / field_sales: size 32x32px, fill #FFFFFF
+- Utility Icons / F / file: size 32x32px, fill #FFFFFF
+- Utility Icons / F / filter: size 32x32px, fill #FFFFFF
+- Utility Icons / F / filterList: size 32x32px, fill #FFFFFF
+- Utility Icons / F / filter_criteria: size 32x32px, fill #FFFFFF
+- Utility Icons / F / filter_criteria_rule: size 32x32px, fill #FFFFFF
+- Utility Icons / F / flow: size 32x32px, fill #FFFFFF
+- Utility Icons / F / flow_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / F / food_and_drink: size 32x32px, fill #FFFFFF
+- Utility Icons / F / form: size 32x32px, fill #FFFFFF
+- Utility Icons / F / formula: size 32x32px, fill #FFFFFF
+- Utility Icons / F / forward: size 32x32px, fill #FFFFFF
+- Utility Icons / F / forward_up: size 32x32px, fill #FFFFFF
+- Utility Icons / F / freeze_column: size 32x32px, fill #FFFFFF
+- Utility Icons / F / frozen: size 32x32px, fill #FFFFFF
+- Utility Icons / F / fulfillment_order: size 32x32px, fill #FFFFFF
+- Utility Icons / F / full_width_view: size 32x32px, fill #FFFFFF
+- Utility Icons / F / funding_award_adjustment: size 32x32px, fill #FFFFFF
+- Utility Icons / F / funding_requirement: size 32x32px, fill #FFFFFF
+- Utility Icons / G / global_constant: size 32x32px, fill #FFFFFF
+- Utility Icons / G / graph: size 32x32px, fill #FFFFFF
+- Utility Icons / G / groups: size 32x32px, fill #FFFFFF
+- Utility Icons / G / guidance: size 32x32px, fill #FFFFFF
+- Utility Icons / H / hazmat_equipment: size 32x32px, fill #FFFFFF
+- Utility Icons / H / heart: size 32x32px, fill #FFFFFF
+- Utility Icons / H / help: size 32x32px, fill #FFFFFF
+- Utility Icons / H / help_center: size 32x32px, fill #FFFFFF
+- Utility Icons / H / help_doc_ext: size 32x32px, fill #FFFFFF
+- Utility Icons / H / hide: size 32x32px, fill #FFFFFF
+- Utility Icons / H / hide_mobile: size 32x32px, fill #FFFFFF
+- Utility Icons / H / hierarchy: size 32x32px, fill #FFFFFF
+- Utility Icons / H / high_velocity_sales: size 32x32px, fill #FFFFFF
+- Utility Icons / H / holiday_operating_hours: size 32x32px, fill #FFFFFF
+- Utility Icons / H / home: size 32x32px, fill #FFFFFF
+- Utility Icons / H / hourglass: size 32x32px, fill #FFFFFF
+- Utility Icons / H / http: size 32x32px, fill #FFFFFF
+- Utility Icons / I / identity: size 32x32px, fill #FFFFFF
+- Utility Icons / I / image: size 32x32px, fill #FFFFFF
+- Utility Icons / I / in_app_assistant: size 32x32px, fill #FFFFFF
+- Utility Icons / I / inbox: size 32x32px, fill #FFFFFF
+- Utility Icons / I / incident: size 32x32px, fill #FFFFFF
+- Utility Icons / I / incoming_call: size 32x32px, fill #FFFFFF
+- Utility Icons / I / indicator_performance_period: size 32x32px, fill #FFFFFF
+- Utility Icons / I / info: size 32x32px, fill #FFFFFF
+- Utility Icons / I / info_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / I / insert_tag_field: size 32x32px, fill #FFFFFF
+- Utility Icons / I / insert_template: size 32x32px, fill #FFFFFF
+- Utility Icons / I / inspector_panel: size 32x32px, fill #FFFFFF
+- Utility Icons / I / integration: size 32x32px, fill #FFFFFF
+- Utility Icons / I / internal_share: size 32x32px, fill #FFFFFF
+- Utility Icons / I / italic: size 32x32px, fill #FFFFFF
+- Utility Icons / J / jump_to_bottom: size 32x32px, fill #FFFFFF
+- Utility Icons / J / jump_to_left: size 32x32px, fill #FFFFFF
+- Utility Icons / J / jump_to_right: size 32x32px, fill #FFFFFF
+- Utility Icons / J / jump_to_top: size 32x32px, fill #FFFFFF
+- Utility Icons / J / justify_text: size 32x32px, fill #FFFFFF
+- Utility Icons / K / kanban: size 32x32px, fill #FFFFFF
+- Utility Icons / K / key: size 32x32px, fill #FFFFFF
+- Utility Icons / K / key_dates: size 32x32px, fill #FFFFFF
+- Utility Icons / K / keyboard_dismiss: size 32x32px, fill #FFFFFF
+- Utility Icons / K / keypad: size 32x32px, fill #FFFFFF
+- Utility Icons / K / knowledge_base: size 32x32px, fill #FFFFFF
+- Utility Icons / K / knowledge_smart_link: size 32x32px, fill #FFFFFF
+- Utility Icons / L / label: size 32x32px, fill #FFFFFF
+- Utility Icons / L / labels: size 32x32px, fill #FFFFFF
+- Utility Icons / L / layers: size 32x32px, fill #FFFFFF
+- Utility Icons / L / layout: size 32x32px, fill #FFFFFF
+- Utility Icons / L / layout_banner: size 32x32px, fill #FFFFFF
+- Utility Icons / L / layout_card: size 32x32px, fill #FFFFFF
+- Utility Icons / L / layout_overlap: size 32x32px, fill #FFFFFF
+- Utility Icons / L / layout_tile: size 32x32px, fill #FFFFFF
+- Utility Icons / L / lead: size 32x32px, fill #FFFFFF
+- Utility Icons / L / leave_conference: size 32x32px, fill #FFFFFF
+- Utility Icons / L / left: size 32x32px, fill #FFFFFF
+- Utility Icons / L / left_align: size 32x32px, fill #FFFFFF
+- Utility Icons / L / left_align_text: size 32x32px, fill #FFFFFF
+- Utility Icons / L / level_down: size 32x32px, fill #FFFFFF
+- Utility Icons / L / level_up: size 32x32px, fill #FFFFFF
+- Utility Icons / L / light_bulb: size 32x32px, fill #FFFFFF
+- Utility Icons / L / lightning_extension: size 32x32px, fill #FFFFFF
+- Utility Icons / L / lightning_inspector: size 32x32px, fill #FFFFFF
+- Utility Icons / L / like: size 32x32px, fill #FFFFFF
+- Utility Icons / L / link: size 32x32px, fill #FFFFFF
+- Utility Icons / L / linked: size 32x32px, fill #FFFFFF
+- Utility Icons / L / list: size 32x32px, fill #FFFFFF
+- Utility Icons / L / listen: size 32x32px, fill #FFFFFF
+- Utility Icons / L / live_message: size 32x32px, fill #FFFFFF
+- Utility Icons / L / location: size 32x32px, fill #FFFFFF
+- Utility Icons / L / location_permit: size 32x32px, fill #FFFFFF
+- Utility Icons / L / lock: size 32x32px, fill #FFFFFF
+- Utility Icons / L / locker_service_api_viewer: size 32x32px, fill #FFFFFF
+- Utility Icons / L / locker_service_console: size 32x32px, fill #FFFFFF
+- Utility Icons / L / log_a_call: size 32x32px, fill #FFFFFF
+- Utility Icons / L / logout: size 32x32px, fill #FFFFFF
+- Utility Icons / L / loop: size 32x32px, fill #FFFFFF
+- Utility Icons / L / lower_flag: size 32x32px, fill #FFFFFF
+- Utility Icons / M / macros: size 32x32px, fill #FFFFFF
+- Utility Icons / M / magicwand: size 32x32px, fill #FFFFFF
+- Utility Icons / M / maintenance_plan: size 32x32px, fill #FFFFFF
+- Utility Icons / M / mark_all_as_read: size 32x32px, fill #FFFFFF
+- Utility Icons / M / market: size 32x32px, fill #FFFFFF
+- Utility Icons / M / matrix: size 32x32px, fill #FFFFFF
+- Utility Icons / M / meet_content_source: size 32x32px, fill #FFFFFF
+- Utility Icons / M / meet_focus_content: size 32x32px, fill #FFFFFF
+- Utility Icons / M / meet_focus_equal: size 32x32px, fill #FFFFFF
+- Utility Icons / M / meet_focus_presenter: size 32x32px, fill #FFFFFF
+- Utility Icons / M / meet_present_panel: size 32x32px, fill #FFFFFF
+- Utility Icons / M / merge: size 32x32px, fill #FFFFFF
+- Utility Icons / M / merge_field: size 32x32px, fill #FFFFFF
+- Utility Icons / M / metrics: size 32x32px, fill #FFFFFF
+- Utility Icons / M / middle_align: size 32x32px, fill #FFFFFF
+- Utility Icons / M / minimize_window: size 32x32px, fill #FFFFFF
+- Utility Icons / M / missed_call: size 32x32px, fill #FFFFFF
+- Utility Icons / M / mixed_sources_mapping: size 32x32px, fill #FFFFFF
+- Utility Icons / M / money: size 32x32px, fill #FFFFFF
+- Utility Icons / M / moneybag: size 32x32px, fill #FFFFFF
+- Utility Icons / M / monthlyview: size 32x32px, fill #FFFFFF
+- Utility Icons / M / more: size 32x32px, fill #FFFFFF
+- Utility Icons / M / move: size 32x32px, fill #FFFFFF
+- Utility Icons / M / mulesoft: size 32x32px, fill #FFFFFF
+- Utility Icons / M / multi_picklist: size 32x32px, fill #FFFFFF
+- Utility Icons / M / multi_select_checkbox: size 32x32px, fill #FFFFFF
+- Utility Icons / M / muted: size 32x32px, fill #FFFFFF
+- Utility Icons / N / new: size 32x32px, fill #FFFFFF
+- Utility Icons / N / new_direct_message: size 32x32px, fill #FFFFFF
+- Utility Icons / N / new_window: size 32x32px, fill #FFFFFF
+- Utility Icons / N / news: size 32x32px, fill #FFFFFF
+- Utility Icons / N / no_return: size 32x32px, fill #FFFFFF
+- Utility Icons / N / note: size 32x32px, fill #FFFFFF
+- Utility Icons / N / notebook: size 32x32px, fill #FFFFFF
+- Utility Icons / N / notification: size 32x32px, fill #FFFFFF
+- Utility Icons / N / notification_off: size 32x32px, fill #FFFFFF
+- Utility Icons / N / notification_snoozed: size 32x32px, fill #FFFFFF
+- Utility Icons / N / number_input: size 32x32px, fill #FFFFFF
+- Utility Icons / O / office365: size 32x32px, fill #FFFFFF
+- Utility Icons / O / offline: size 32x32px, fill #FFFFFF
+- Utility Icons / O / offline_briefcase: size 32x32px, fill #FFFFFF
+- Utility Icons / O / offline_cached: size 32x32px, fill #FFFFFF
+- Utility Icons / O / omni_channel: size 32x32px, fill #FFFFFF
+- Utility Icons / O / open: size 32x32px, fill #FFFFFF
+- Utility Icons / O / open_folder: size 32x32px, fill #FFFFFF
+- Utility Icons / O / opened_folder: size 32x32px, fill #FFFFFF
+- Utility Icons / O / opportunity: size 32x32px, fill #FFFFFF
+- Utility Icons / O / orchestrator: size 32x32px, fill #FFFFFF
+- Utility Icons / O / orders: size 32x32px, fill #FFFFFF
+- Utility Icons / O / org_chart: size 32x32px, fill #FFFFFF
+- Utility Icons / O / outbound_call: size 32x32px, fill #FFFFFF
+- Utility Icons / O / outcome: size 32x32px, fill #FFFFFF
+- Utility Icons / O / overflow: size 32x32px, fill #FFFFFF
+- Utility Icons / P / package: size 32x32px, fill #FFFFFF
+- Utility Icons / P / package_org: size 32x32px, fill #FFFFFF
+- Utility Icons / P / package_org_beta: size 32x32px, fill #FFFFFF
+- Utility Icons / P / page: size 32x32px, fill #FFFFFF
+- Utility Icons / P / page_structure: size 32x32px, fill #FFFFFF
+- Utility Icons / P / palette: size 32x32px, fill #FFFFFF
+- Utility Icons / P / password: size 32x32px, fill #FFFFFF
+- Utility Icons / P / paste: size 32x32px, fill #FFFFFF
+- Utility Icons / P / pause: size 32x32px, fill #FFFFFF
+- Utility Icons / P / pause_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / P / payment_gateway: size 32x32px, fill #FFFFFF
+- Utility Icons / P / pdf_ext: size 32x32px, fill #FFFFFF
+- Utility Icons / P / people: size 32x32px, fill #FFFFFF
+- Utility Icons / P / percent: size 32x32px, fill #FFFFFF
+- Utility Icons / P / phone_landscape: size 32x32px, fill #FFFFFF
+- Utility Icons / P / phone_portrait: size 32x32px, fill #FFFFFF
+- Utility Icons / P / photo: size 32x32px, fill #FFFFFF
+- Utility Icons / P / picklist: size 32x32px, fill #FFFFFF
+- Utility Icons / P / picklist_choice: size 32x32px, fill #FFFFFF
+- Utility Icons / P / picklist_type: size 32x32px, fill #FFFFFF
+- Utility Icons / P / pin: size 32x32px, fill #FFFFFF
+- Utility Icons / P / pinned: size 32x32px, fill #FFFFFF
+- Utility Icons / P / planning_poker: size 32x32px, fill #FFFFFF
+- Utility Icons / P / play: size 32x32px, fill #FFFFFF
+- Utility Icons / P / podcast_webinar: size 32x32px, fill #FFFFFF
+- Utility Icons / P / pop_in: size 32x32px, fill #FFFFFF
+- Utility Icons / P / power: size 32x32px, fill #FFFFFF
+- Utility Icons / P / preview: size 32x32px, fill #FFFFFF
+- Utility Icons / P / price_book_entries: size 32x32px, fill #FFFFFF
+- Utility Icons / P / price_books: size 32x32px, fill #FFFFFF
+- Utility Icons / P / pricing_workspace: size 32x32px, fill #FFFFFF
+- Utility Icons / P / print: size 32x32px, fill #FFFFFF
+- Utility Icons / P / priority: size 32x32px, fill #FFFFFF
+- Utility Icons / P / privately_shared: size 32x32px, fill #FFFFFF
+- Utility Icons / P / problem: size 32x32px, fill #FFFFFF
+- Utility Icons / P / process: size 32x32px, fill #FFFFFF
+- Utility Icons / P / product: size 32x32px, fill #FFFFFF
+- Utility Icons / P / product_consumed_state: size 32x32px, fill #FFFFFF
+- Utility Icons / P / product_quantity_rules: size 32x32px, fill #FFFFFF
+- Utility Icons / P / product_service_campaign: size 32x32px, fill #FFFFFF
+- Utility Icons / P / product_service_campaign_item: size 32x32px, fill #FFFFFF
+- Utility Icons / P / product_transfer: size 32x32px, fill #FFFFFF
+- Utility Icons / P / product_transfer_state: size 32x32px, fill #FFFFFF
+- Utility Icons / P / product_warranty_term: size 32x32px, fill #FFFFFF
+- Utility Icons / P / product_workspace: size 32x32px, fill #FFFFFF
+- Utility Icons / P / products: size 32x32px, fill #FFFFFF
+- Utility Icons / P / profile: size 32x32px, fill #FFFFFF
+- Utility Icons / P / profile_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / P / promotion_segments: size 32x32px, fill #FFFFFF
+- Utility Icons / P / promotion_tiers: size 32x32px, fill #FFFFFF
+- Utility Icons / P / promotions: size 32x32px, fill #FFFFFF
+- Utility Icons / P / promotions_workspace: size 32x32px, fill #FFFFFF
+- Utility Icons / P / prompt: size 32x32px, fill #FFFFFF
+- Utility Icons / P / prompt_edit: size 32x32px, fill #FFFFFF
+- Utility Icons / P / propagation_policy: size 32x32px, fill #FFFFFF
+- Utility Icons / P / proposition: size 32x32px, fill #FFFFFF
+- Utility Icons / P / push: size 32x32px, fill #FFFFFF
+- Utility Icons / P / puzzle: size 32x32px, fill #FFFFFF
+- Utility Icons / Q / qualifications: size 32x32px, fill #FFFFFF
+- Utility Icons / Q / question: size 32x32px, fill #FFFFFF
+- Utility Icons / Q / question_mark: size 32x32px, fill #FFFFFF
+- Utility Icons / Q / questions_and_answers: size 32x32px, fill #FFFFFF
+- Utility Icons / Q / queue: size 32x32px, fill #FFFFFF
+- Utility Icons / Q / quick_text: size 32x32px, fill #FFFFFF
+- Utility Icons / Q / quip: size 32x32px, fill #FFFFFF
+- Utility Icons / Q / quotation_marks: size 32x32px, fill #FFFFFF
+- Utility Icons / Q / quote: size 32x32px, fill #FFFFFF
+- Utility Icons / R / radio_button: size 32x32px, fill #FFFFFF
+- Utility Icons / R / rating: size 32x32px, fill #FFFFFF
+- Utility Icons / R / reassign: size 32x32px, fill #FFFFFF
+- Utility Icons / R / recipe: size 32x32px, fill #FFFFFF
+- Utility Icons / R / record: size 32x32px, fill #FFFFFF
+- Utility Icons / R / record_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / R / record_create: size 32x32px, fill #FFFFFF
+- Utility Icons / R / record_delete: size 32x32px, fill #FFFFFF
+- Utility Icons / R / record_lookup: size 32x32px, fill #FFFFFF
+- Utility Icons / R / record_update: size 32x32px, fill #FFFFFF
+- Utility Icons / R / recurring_exception: size 32x32px, fill #FFFFFF
+- Utility Icons / R / recycle_bin_empty: size 32x32px, fill #FFFFFF
+- Utility Icons / R / recycle_bin_full: size 32x32px, fill #FFFFFF
+- Utility Icons / R / redo: size 32x32px, fill #FFFFFF
+- Utility Icons / R / refresh: size 32x32px, fill #FFFFFF
+- Utility Icons / R / relate: size 32x32px, fill #FFFFFF
+- Utility Icons / R / reminder: size 32x32px, fill #FFFFFF
+- Utility Icons / R / remove_formatting: size 32x32px, fill #FFFFFF
+- Utility Icons / R / remove_link: size 32x32px, fill #FFFFFF
+- Utility Icons / R / replace: size 32x32px, fill #FFFFFF
+- Utility Icons / R / reply: size 32x32px, fill #FFFFFF
+- Utility Icons / R / reply_all: size 32x32px, fill #FFFFFF
+- Utility Icons / R / report_issue: size 32x32px, fill #FFFFFF
+- Utility Icons / R / reset_password: size 32x32px, fill #FFFFFF
+- Utility Icons / R / resource_absence: size 32x32px, fill #FFFFFF
+- Utility Icons / R / resource_capacity: size 32x32px, fill #FFFFFF
+- Utility Icons / R / resource_territory: size 32x32px, fill #FFFFFF
+- Utility Icons / R / restriction_policy: size 32x32px, fill #FFFFFF
+- Utility Icons / R / retail_execution: size 32x32px, fill #FFFFFF
+- Utility Icons / R / retweet: size 32x32px, fill #FFFFFF
+- Utility Icons / R / ribbon: size 32x32px, fill #FFFFFF
+- Utility Icons / R / richtextbulletedlist: size 32x32px, fill #FFFFFF
+- Utility Icons / R / richtextindent: size 32x32px, fill #FFFFFF
+- Utility Icons / R / richtextnumberedlist: size 32x32px, fill #FFFFFF
+- Utility Icons / R / richtextoutdent: size 32x32px, fill #FFFFFF
+- Utility Icons / R / right: size 32x32px, fill #FFFFFF
+- Utility Icons / R / right_align: size 32x32px, fill #FFFFFF
+- Utility Icons / R / right_align_text: size 32x32px, fill #FFFFFF
+- Utility Icons / R / rotate: size 32x32px, fill #FFFFFF
+- Utility Icons / R / routing_offline: size 32x32px, fill #FFFFFF
+- Utility Icons / R / rows: size 32x32px, fill #FFFFFF
+- Utility Icons / R / rules: size 32x32px, fill #FFFFFF
+- Utility Icons / S / salesforce1: size 32x32px, fill #FFFFFF
+- Utility Icons / S / salesforce_page: size 32x32px, fill #FFFFFF
+- Utility Icons / S / save: size 32x32px, fill #FFFFFF
+- Utility Icons / S / scan: size 32x32px, fill #FFFFFF
+- Utility Icons / S / screen: size 32x32px, fill #FFFFFF
+- Utility Icons / S / search: size 32x32px, fill #FFFFFF
+- Utility Icons / S / section: size 32x32px, fill #FFFFFF
+- Utility Icons / S / segments: size 32x32px, fill #FFFFFF
+- Utility Icons / S / send: size 32x32px, fill #FFFFFF
+- Utility Icons / S / send_log: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sender_email: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sentiment_negative: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sentiment_neutral: size 32x32px, fill #FFFFFF
+- Utility Icons / S / serialized_product: size 32x32px, fill #FFFFFF
+- Utility Icons / S / serialized_product_transaction: size 32x32px, fill #FFFFFF
+- Utility Icons / S / service_appointment: size 32x32px, fill #FFFFFF
+- Utility Icons / S / service_contract: size 32x32px, fill #FFFFFF
+- Utility Icons / S / service_report: size 32x32px, fill #FFFFFF
+- Utility Icons / S / service_territory_policy: size 32x32px, fill #FFFFFF
+- Utility Icons / S / settings: size 32x32px, fill #FFFFFF
+- Utility Icons / S / setup: size 32x32px, fill #FFFFFF
+- Utility Icons / S / setup_assistant_guide: size 32x32px, fill #FFFFFF
+- Utility Icons / S / setup_modal: size 32x32px, fill #FFFFFF
+- Utility Icons / S / share: size 32x32px, fill #FFFFFF
+- Utility Icons / S / share_file: size 32x32px, fill #FFFFFF
+- Utility Icons / S / share_mobile: size 32x32px, fill #FFFFFF
+- Utility Icons / S / share_post: size 32x32px, fill #FFFFFF
+- Utility Icons / S / shield: size 32x32px, fill #FFFFFF
+- Utility Icons / S / shift_pattern: size 32x32px, fill #FFFFFF
+- Utility Icons / S / shift_pattern_entry: size 32x32px, fill #FFFFFF
+- Utility Icons / S / shift_scheduling_operation: size 32x32px, fill #FFFFFF
+- Utility Icons / S / shift_ui: size 32x32px, fill #FFFFFF
+- Utility Icons / S / shopping_bag: size 32x32px, fill #FFFFFF
+- Utility Icons / S / shortcuts: size 32x32px, fill #FFFFFF
+- Utility Icons / S / side_list: size 32x32px, fill #FFFFFF
+- Utility Icons / S / signature: size 32x32px, fill #FFFFFF
+- Utility Icons / S / signpost: size 32x32px, fill #FFFFFF
+- Utility Icons / S / skip: size 32x32px, fill #FFFFFF
+- Utility Icons / S / skip_back: size 32x32px, fill #FFFFFF
+- Utility Icons / S / skip_forward: size 32x32px, fill #FFFFFF
+- Utility Icons / S / slack: size 32x32px, fill #FFFFFF
+- Utility Icons / S / slack_conversations: size 32x32px, fill #FFFFFF
+- Utility Icons / S / slider: size 32x32px, fill #FFFFFF
+- Utility Icons / S / smiley_and_people: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sms: size 32x32px, fill #FFFFFF
+- Utility Icons / S / snippet: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sobject: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sobject_collection: size 32x32px, fill #FFFFFF
+- Utility Icons / S / socialshare: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sort: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sort_policy: size 32x32px, fill #FFFFFF
+- Utility Icons / S / spacer: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sparkles: size 32x32px, fill #FFFFFF
+- Utility Icons / S / spinner: size 32x32px, fill #FFFFFF
+- Utility Icons / S / stage: size 32x32px, fill #FFFFFF
+- Utility Icons / S / stage_collection: size 32x32px, fill #FFFFFF
+- Utility Icons / S / standard_objects: size 32x32px, fill #FFFFFF
+- Utility Icons / S / steps: size 32x32px, fill #FFFFFF
+- Utility Icons / S / stop: size 32x32px, fill #FFFFFF
+- Utility Icons / S / store: size 32x32px, fill #FFFFFF
+- Utility Icons / S / strategy: size 32x32px, fill #FFFFFF
+- Utility Icons / S / strikethrough: size 32x32px, fill #FFFFFF
+- Utility Icons / S / success: size 32x32px, fill #FFFFFF
+- Utility Icons / S / summary: size 32x32px, fill #FFFFFF
+- Utility Icons / S / summarydetail: size 32x32px, fill #FFFFFF
+- Utility Icons / S / survey: size 32x32px, fill #FFFFFF
+- Utility Icons / S / swarm_request: size 32x32px, fill #FFFFFF
+- Utility Icons / S / swarm_session: size 32x32px, fill #FFFFFF
+- Utility Icons / S / switch: size 32x32px, fill #FFFFFF
+- Utility Icons / S / symbols: size 32x32px, fill #FFFFFF
+- Utility Icons / S / sync: size 32x32px, fill #FFFFFF
+- Utility Icons / S / system_and_global_variable: size 32x32px, fill #FFFFFF
+- Utility Icons / T / table: size 32x32px, fill #FFFFFF
+- Utility Icons / T / table_settings: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tableau: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tablet_landscape: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tablet_portrait: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tabset: size 32x32px, fill #FFFFFF
+- Utility Icons / T / talent_development: size 32x32px, fill #FFFFFF
+- Utility Icons / T / target: size 32x32px, fill #FFFFFF
+- Utility Icons / T / target_mode: size 32x32px, fill #FFFFFF
+- Utility Icons / T / task: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tax_policy: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tax_rate: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tax_treatment: size 32x32px, fill #FFFFFF
+- Utility Icons / T / text: size 32x32px, fill #FFFFFF
+- Utility Icons / T / text_background_color: size 32x32px, fill #FFFFFF
+- Utility Icons / T / text_color: size 32x32px, fill #FFFFFF
+- Utility Icons / T / text_template: size 32x32px, fill #FFFFFF
+- Utility Icons / T / textarea: size 32x32px, fill #FFFFFF
+- Utility Icons / T / textbox: size 32x32px, fill #FFFFFF
+- Utility Icons / T / threedots: size 32x32px, fill #FFFFFF
+- Utility Icons / T / threedots_vertical: size 32x32px, fill #FFFFFF
+- Utility Icons / T / thunder: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tile_card_list: size 32x32px, fill #FFFFFF
+- Utility Icons / T / toggle: size 32x32px, fill #FFFFFF
+- Utility Icons / T / toggle_off: size 32x32px, fill #FFFFFF
+- Utility Icons / T / toggle_on: size 32x32px, fill #FFFFFF
+- Utility Icons / T / toggle_panel_bottom: size 32x32px, fill #FFFFFF
+- Utility Icons / T / toggle_panel_left: size 32x32px, fill #FFFFFF
+- Utility Icons / T / toggle_panel_right: size 32x32px, fill #FFFFFF
+- Utility Icons / T / toggle_panel_top: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tollways: size 32x32px, fill #FFFFFF
+- Utility Icons / T / top_align: size 32x32px, fill #FFFFFF
+- Utility Icons / T / topic: size 32x32px, fill #FFFFFF
+- Utility Icons / T / topic2: size 32x32px, fill #FFFFFF
+- Utility Icons / T / touch_action: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tour: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tour_check: size 32x32px, fill #FFFFFF
+- Utility Icons / T / tracker: size 32x32px, fill #FFFFFF
+- Utility Icons / T / trail: size 32x32px, fill #FFFFFF
+- Utility Icons / T / trailblazer_ext: size 32x32px, fill #FFFFFF
+- Utility Icons / T / trailhead: size 32x32px, fill #FFFFFF
+- Utility Icons / T / trailhead_alt: size 32x32px, fill #FFFFFF
+- Utility Icons / T / trailhead_ext: size 32x32px, fill #FFFFFF
+- Utility Icons / T / transparent: size 32x32px, fill #FFFFFF
+- Utility Icons / T / transport_bicycle: size 32x32px, fill #FFFFFF
+- Utility Icons / T / transport_heavy_truck: size 32x32px, fill #FFFFFF
+- Utility Icons / T / transport_light_truck: size 32x32px, fill #FFFFFF
+- Utility Icons / T / transport_walking: size 32x32px, fill #FFFFFF
+- Utility Icons / T / travel_and_places: size 32x32px, fill #FFFFFF
+- Utility Icons / T / trending: size 32x32px, fill #FFFFFF
+- Utility Icons / T / truck: size 32x32px, fill #FFFFFF
+- Utility Icons / T / turn_off_notifications: size 32x32px, fill #FFFFFF
+- Utility Icons / T / type: size 32x32px, fill #FFFFFF
+- Utility Icons / T / type_tool: size 32x32px, fill #FFFFFF
+- Utility Icons / U / undelete: size 32x32px, fill #FFFFFF
+- Utility Icons / U / undeprecate: size 32x32px, fill #FFFFFF
+- Utility Icons / U / underline: size 32x32px, fill #FFFFFF
+- Utility Icons / U / undo: size 32x32px, fill #FFFFFF
+- Utility Icons / U / unlinked: size 32x32px, fill #FFFFFF
+- Utility Icons / U / unlock: size 32x32px, fill #FFFFFF
+- Utility Icons / U / unmuted: size 32x32px, fill #FFFFFF
+- Utility Icons / U / up: size 32x32px, fill #FFFFFF
+- Utility Icons / U / upload: size 32x32px, fill #FFFFFF
+- Utility Icons / U / user: size 32x32px, fill #FFFFFF
+- Utility Icons / U / user_role: size 32x32px, fill #FFFFFF
+- Utility Icons / V / variable: size 32x32px, fill #FFFFFF
+- Utility Icons / V / variation_attribute_setup: size 32x32px, fill #FFFFFF
+- Utility Icons / V / variation_products: size 32x32px, fill #FFFFFF
+- Utility Icons / V / video: size 32x32px, fill #FFFFFF
+- Utility Icons / V / video_off: size 32x32px, fill #FFFFFF
+- Utility Icons / V / visibility_rule_assigned: size 32x32px, fill #FFFFFF
+- Utility Icons / V / voicemail_drop: size 32x32px, fill #FFFFFF
+- Utility Icons / V / volume_high: size 32x32px, fill #FFFFFF
+- Utility Icons / V / volume_low: size 32x32px, fill #FFFFFF
+- Utility Icons / V / volume_off: size 32x32px, fill #FFFFFF
+- Utility Icons / W / waits: size 32x32px, fill #FFFFFF
+- Utility Icons / W / walkthroughs: size 32x32px, fill #FFFFFF
+- Utility Icons / W / warning: size 32x32px, fill #FFFFFF
+- Utility Icons / W / warranty_term: size 32x32px, fill #FFFFFF
+- Utility Icons / W / watchlist: size 32x32px, fill #FFFFFF
+- Utility Icons / W / water: size 32x32px, fill #FFFFFF
+- Utility Icons / W / weeklyview: size 32x32px, fill #FFFFFF
+- Utility Icons / W / wellness: size 32x32px, fill #FFFFFF
+- Utility Icons / W / wifi: size 32x32px, fill #FFFFFF
+- Utility Icons / W / work_forecast: size 32x32px, fill #FFFFFF
+- Utility Icons / W / work_order_type: size 32x32px, fill #FFFFFF
+- Utility Icons / W / workforce_engagement: size 32x32px, fill #FFFFFF
+- Utility Icons / W / world: size 32x32px, fill #FFFFFF
+- Utility Icons / Y / your_account: size 32x32px, fill #FFFFFF
+- Utility Icons / Y / yubi_key: size 32x32px, fill #FFFFFF
+- Utility Icons / Z / zoomin: size 32x32px, fill #FFFFFF
+- Utility Icons / Z / zoomout: size 32x32px, fill #FFFFFF
+- Custom Icons / custom1: size 48x48px, fill #FFFFFF
+- Custom Icons / custom10: size 48x48px, fill #FFFFFF
+- Custom Icons / custom2: size 48x48px, fill #FFFFFF
+- Custom Icons / custom3: size 48x48px, fill #FFFFFF
+- Custom Icons / custom4: size 48x48px, fill #FFFFFF
+- Custom Icons / custom5: size 48x48px, fill #FFFFFF
+- Custom Icons / custom6: size 48x48px, fill #FFFFFF
+- Custom Icons / custom7: size 48x48px, fill #FFFFFF
+- Custom Icons / custom8: size 48x48px, fill #FFFFFF
+- Custom Icons / custom9: size 48x48px, fill #FFFFFF
+- Custom Icons / custom11: size 48x48px, fill #FFFFFF
+- Custom Icons / custom12: size 48x48px, fill #FFFFFF
+- Custom Icons / custom13: size 48x48px, fill #FFFFFF
+- Custom Icons / custom14: size 48x48px, fill #FFFFFF
+- Custom Icons / custom15: size 48x48px, fill #FFFFFF
+- Custom Icons / custom16: size 48x48px, fill #FFFFFF
+- Custom Icons / custom17: size 48x48px, fill #FFFFFF
+- Custom Icons / custom18: size 48x48px, fill #FFFFFF
+- Custom Icons / custom19: size 48x48px, fill #FFFFFF
+- Custom Icons / custom20: size 48x48px, fill #FFFFFF
+- Custom Icons / custom101: size 48x48px, fill #FFFFFF
+- Custom Icons / custom102: size 48x48px, fill #FFFFFF
+- Custom Icons / custom103: size 48x48px, fill #FFFFFF
+- Custom Icons / custom104: size 48x48px, fill #FFFFFF
+- Custom Icons / custom105: size 48x48px, fill #FFFFFF
+- Custom Icons / custom106: size 48x48px, fill #FFFFFF
+- Custom Icons / custom107: size 48x48px, fill #FFFFFF
+- Custom Icons / custom108: size 48x48px, fill #FFFFFF
+- Custom Icons / custom109: size 48x48px, fill #FFFFFF
+- Custom Icons / custom110: size 48x48px, fill #FFFFFF
+- Custom Icons / custom111: size 48x48px, fill #FFFFFF
+- Custom Icons / custom112: size 48x48px, fill #FFFFFF
+- Custom Icons / custom113: size 48x48px, fill #FFFFFF
+- Custom Icons / custom21: size 48x48px, fill #FFFFFF
+- Custom Icons / custom22: size 48x48px, fill #FFFFFF
+- Custom Icons / custom23: size 48x48px, fill #FFFFFF
+- Custom Icons / custom24: size 48x48px, fill #FFFFFF
+- Custom Icons / custom25: size 48x48px, fill #FFFFFF
+- Custom Icons / custom26: size 48x48px, fill #FFFFFF
+- Custom Icons / custom27: size 48x48px, fill #FFFFFF
+- Custom Icons / custom28: size 48x48px, fill #FFFFFF
+- Custom Icons / custom29: size 48x48px, fill #FFFFFF
+- Custom Icons / custom30: size 48x48px, fill #FFFFFF
+- Custom Icons / custom31: size 48x48px, fill #FFFFFF
+- Custom Icons / custom32: size 48x48px, fill #FFFFFF
+- Custom Icons / custom33: size 48x48px, fill #FFFFFF
+- Custom Icons / custom34: size 48x48px, fill #FFFFFF
+- Custom Icons / custom35: size 48x48px, fill #FFFFFF
+- Custom Icons / custom36: size 48x48px, fill #FFFFFF
+- Custom Icons / custom37: size 48x48px, fill #FFFFFF
+- Custom Icons / custom38: size 48x48px, fill #FFFFFF
+- Custom Icons / custom39: size 48x48px, fill #FFFFFF
+- Custom Icons / custom40: size 48x48px, fill #FFFFFF
+- Custom Icons / custom41: size 48x48px, fill #FFFFFF
+- Custom Icons / custom42: size 48x48px, fill #FFFFFF
+- Custom Icons / custom43: size 48x48px, fill #FFFFFF
+- Custom Icons / custom44: size 48x48px, fill #FFFFFF
+- Custom Icons / custom45: size 48x48px, fill #FFFFFF
+- Custom Icons / custom46: size 48x48px, fill #FFFFFF
+- Custom Icons / custom47: size 48x48px, fill #FFFFFF
+- Custom Icons / custom48: size 48x48px, fill #FFFFFF
+- Custom Icons / custom49: size 48x48px, fill #FFFFFF
+- Custom Icons / custom50: size 48x48px, fill #FFFFFF
+- Custom Icons / custom51: size 48x48px, fill #FFFFFF
+- Custom Icons / custom52: size 48x48px, fill #FFFFFF
+- Custom Icons / custom53: size 48x48px, fill #FFFFFF
+- Custom Icons / custom54: size 48x48px, fill #FFFFFF
+- Custom Icons / custom55: size 48x48px, fill #FFFFFF
+- Custom Icons / custom56: size 48x48px, fill #FFFFFF
+- Custom Icons / custom57: size 48x48px, fill #FFFFFF
+- Custom Icons / custom58: size 48x48px, fill #FFFFFF
+- Custom Icons / custom59: size 48x48px, fill #FFFFFF
+- Custom Icons / custom60: size 48x48px, fill #FFFFFF
+- Custom Icons / custom61: size 48x48px, fill #FFFFFF
+- Custom Icons / custom62: size 48x48px, fill #FFFFFF
+- Custom Icons / custom63: size 48x48px, fill #FFFFFF
+- Custom Icons / custom64: size 48x48px, fill #FFFFFF
+- Custom Icons / custom65: size 48x48px, fill #FFFFFF
+- Custom Icons / custom66: size 48x48px, fill #FFFFFF
+- Custom Icons / custom67: size 48x48px, fill #FFFFFF
+- Custom Icons / custom68: size 48x48px, fill #FFFFFF
+- Custom Icons / custom69: size 48x48px, fill #FFFFFF
+- Custom Icons / custom70: size 48x48px, fill #FFFFFF
+- Custom Icons / custom71: size 48x48px, fill #FFFFFF
+- Custom Icons / custom72: size 48x48px, fill #FFFFFF
+- Custom Icons / custom73: size 48x48px, fill #FFFFFF
+- Custom Icons / custom74: size 48x48px, fill #FFFFFF
+- Custom Icons / custom75: size 48x48px, fill #FFFFFF
+- Custom Icons / custom76: size 48x48px, fill #FFFFFF
+- Custom Icons / custom77: size 48x48px, fill #FFFFFF
+- Custom Icons / custom78: size 48x48px, fill #FFFFFF
+- Custom Icons / custom79: size 48x48px, fill #FFFFFF
+- Custom Icons / custom80: size 48x48px, fill #FFFFFF
+- Custom Icons / custom81: size 48x48px, fill #FFFFFF
+- Custom Icons / custom82: size 48x48px, fill #FFFFFF
+- Custom Icons / custom83: size 48x48px, fill #FFFFFF
+- Custom Icons / custom84: size 48x48px, fill #FFFFFF
+- Custom Icons / custom85: size 48x48px, fill #FFFFFF
+- Custom Icons / custom86: size 48x48px, fill #FFFFFF
+- Custom Icons / custom87: size 48x48px, fill #FFFFFF
+- Custom Icons / custom88: size 48x48px, fill #FFFFFF
+- Custom Icons / custom89: size 48x48px, fill #FFFFFF
+- Custom Icons / custom90: size 48x48px, fill #FFFFFF
+- Custom Icons / custom100: size 48x48px, fill #FFFFFF
+- Custom Icons / custom91: size 48x48px, fill #FFFFFF
+- Custom Icons / custom92: size 48x48px, fill #FFFFFF
+- Custom Icons / custom93: size 48x48px, fill #FFFFFF
+- Custom Icons / custom94: size 48x48px, fill #FFFFFF
+- Custom Icons / custom95: size 48x48px, fill #FFFFFF
+- Custom Icons / custom96: size 48x48px, fill #FFFFFF
+- Custom Icons / custom97: size 48x48px, fill #FFFFFF
+- Custom Icons / custom98: size 48x48px, fill #FFFFFF
+- Custom Icons / custom99: size 48x48px, fill #FFFFFF
+- Action Icons / A / add_contact: size 40x40px, fill #FFFFFF
+- Action Icons / A / add_file: size 40x40px, fill #FFFFFF
+- Action Icons / A / add_photo_video: size 40x40px, fill #FFFFFF
+- Action Icons / A / add_relationship: size 40x40px, fill #FFFFFF
+- Action Icons / A / adjust_value: size 40x40px, fill #FFFFFF
+- Action Icons / A / announcement: size 40x40px, fill #FFFFFF
+- Action Icons / A / apex: size 40x40px, fill #FFFFFF
+- Action Icons / A / approval: size 40x40px, fill #FFFFFF
+- Action Icons / B / back: size 40x40px, fill #FFFFFF
+- Action Icons / B / bug: size 40x40px, fill #FFFFFF
+- Action Icons / C / call: size 40x40px, fill #FFFFFF
+- Action Icons / C / canvas: size 40x40px, fill #FFFFFF
+- Action Icons / C / change_owner: size 40x40px, fill #FFFFFF
+- Action Icons / C / change_record_type: size 40x40px, fill #FFFFFF
+- Action Icons / C / check: size 40x40px, fill #FFFFFF
+- Action Icons / C / clone: size 40x40px, fill #FFFFFF
+- Action Icons / C / close: size 40x40px, fill #FFFFFF
+- Action Icons / D / defer: size 40x40px, fill #FFFFFF
+- Action Icons / D / delete: size 40x40px, fill #FFFFFF
+- Action Icons / D / description: size 40x40px, fill #FFFFFF
+- Action Icons / D / dial_in: size 40x40px, fill #FFFFFF
+- Action Icons / D / download: size 40x40px, fill #FFFFFF
+- Action Icons / E / edit: size 40x40px, fill #FFFFFF
+- Action Icons / E / edit_groups: size 40x40px, fill #FFFFFF
+- Action Icons / E / edit_relationship: size 40x40px, fill #FFFFFF
+- Action Icons / E / email: size 40x40px, fill #FFFFFF
+- Action Icons / F / fallback: size 40x40px, fill #FFFFFF
+- Action Icons / F / filter: size 40x40px, fill #FFFFFF
+- Action Icons / F / flow: size 40x40px, fill #FFFFFF
+- Action Icons / F / follow: size 40x40px, fill #FFFFFF
+- Action Icons / F / following: size 40x40px, fill #FFFFFF
+- Action Icons / F / freeze_user: size 40x40px, fill #FFFFFF
+- Action Icons / G / goal: size 40x40px, fill #FFFFFF
+- Action Icons / G / google_news: size 40x40px, fill #FFFFFF
+- Action Icons / I / info: size 40x40px, fill #FFFFFF
+- Action Icons / J / join_group: size 40x40px, fill #FFFFFF
+- Action Icons / L / lead_convert: size 40x40px, fill #FFFFFF
+- Action Icons / L / leave_group: size 40x40px, fill #FFFFFF
+- Action Icons / L / log_a_call: size 40x40px, fill #FFFFFF
+- Action Icons / L / log_event: size 40x40px, fill #FFFFFF
+- Action Icons / M / manage_perm_sets: size 40x40px, fill #FFFFFF
+- Action Icons / M / map: size 40x40px, fill #FFFFFF
+- Action Icons / M / more: size 40x40px, fill #FFFFFF
+- Action Icons / N / new: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_account: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_campaign: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_case: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_child_case: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_contact: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom1: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom10: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom100: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom11: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom12: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom13: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom14: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom15: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom16: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom17: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom18: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom19: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom2: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom20: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom21: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom22: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom23: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom24: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom25: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom26: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom27: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom28: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom29: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom3: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom30: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom31: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom32: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom33: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom34: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom35: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom36: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom37: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom38: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom39: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom4: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom40: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom41: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom42: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom43: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom44: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom45: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom46: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom47: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom48: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom49: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom5: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom50: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom51: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom52: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom53: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom54: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom55: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom56: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom57: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom58: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom59: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom6: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom60: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom61: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom62: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom63: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom64: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom65: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom66: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom67: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom68: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom69: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom7: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom70: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom71: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom72: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom73: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom74: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom75: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom76: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom77: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom78: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom79: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom8: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom80: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom81: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom82: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom83: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom84: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom85: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom86: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom87: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom88: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom89: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom9: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom90: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom91: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom92: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom93: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom94: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom95: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom96: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom97: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom98: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_custom99: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_event: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_group: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_lead: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_note: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_notebook: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_opportunity: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_person_account: size 40x40px, fill #FFFFFF
+- Action Icons / N / new_task: size 40x40px, fill #FFFFFF
+- Action Icons / P / password_unlock: size 40x40px, fill #FFFFFF
+- Action Icons / P / preview: size 40x40px, fill #FFFFFF
+- Action Icons / P / priority: size 40x40px, fill #FFFFFF
+- Action Icons / Q / question_post_action: size 40x40px, fill #FFFFFF
+- Action Icons / Q / quote: size 40x40px, fill #FFFFFF
+- Action Icons / R / recall: size 40x40px, fill #FFFFFF
+- Action Icons / R / record: size 40x40px, fill #FFFFFF
+- Action Icons / R / refresh: size 40x40px, fill #FFFFFF
+- Action Icons / R / reject: size 40x40px, fill #FFFFFF
+- Action Icons / R / remove: size 40x40px, fill #FFFFFF
+- Action Icons / R / remove_relationship: size 40x40px, fill #FFFFFF
+- Action Icons / R / reset_password: size 40x40px, fill #FFFFFF
+- Action Icons / S / scan_disabled: size 40x40px, fill #FFFFFF
+- Action Icons / S / scan_enabled: size 40x40px, fill #FFFFFF
+- Action Icons / S / script: size 40x40px, fill #FFFFFF
+- Action Icons / S / share: size 40x40px, fill #FFFFFF
+- Action Icons / S / share_file: size 40x40px, fill #FFFFFF
+- Action Icons / S / share_link: size 40x40px, fill #FFFFFF
+- Action Icons / S / share_poll: size 40x40px, fill #FFFFFF
+- Action Icons / S / share_post: size 40x40px, fill #FFFFFF
+- Action Icons / S / share_thanks: size 40x40px, fill #FFFFFF
+- Action Icons / S / sort: size 40x40px, fill #FFFFFF
+- Action Icons / S / submit_for_approval: size 40x40px, fill #FFFFFF
+- Action Icons / U / update: size 40x40px, fill #FFFFFF
+- Action Icons / U / update_status: size 40x40px, fill #FFFFFF
+- Action Icons / U / upload: size 40x40px, fill #FFFFFF
+- Action Icons / U / user: size 40x40px, fill #FFFFFF
+- Action Icons / U / user_activation: size 40x40px, fill #FFFFFF
+- Action Icons / V / view_relationship: size 40x40px, fill #FFFFFF
+- Action Icons / W / web_link: size 40x40px, fill #FFFFFF
+- Standard Icons / A / account: size 48x48px, fill #FFFFFF
+- Standard Icons / A / account_info: size 48x48px, fill #FFFFFF
+- Standard Icons / A / action_list_component: size 48x48px, fill #FFFFFF
+- Standard Icons / A / actions_and_buttons: size 48x48px, fill #FFFFFF
+- Standard Icons / A / activation_target: size 48x48px, fill #FFFFFF
+- Standard Icons / A / activations: size 48x48px, fill #FFFFFF
+- Standard Icons / A / address: size 48x48px, fill #FFFFFF
+- Standard Icons / A / agent_home: size 48x48px, fill #FFFFFF
+- Standard Icons / A / agent_session: size 48x48px, fill #FFFFFF
+- Standard Icons / A / aggregation_policy: size 48x48px, fill #FFFFFF
+- Standard Icons / A / ai_accelerator_card: size 48x48px, fill #FFFFFF
+- Standard Icons / A / all: size 48x48px, fill #FFFFFF
+- Standard Icons / A / announcement: size 48x48px, fill #FFFFFF
+- Standard Icons / A / answer_best: size 48x48px, fill #FFFFFF
+- Standard Icons / A / answer_private: size 48x48px, fill #FFFFFF
+- Standard Icons / A / answer_public: size 48x48px, fill #FFFFFF
+- Standard Icons / A / apex: size 48x48px, fill #FFFFFF
+- Standard Icons / A / apex_plugin: size 48x48px, fill #FFFFFF
+- Standard Icons / A / app: size 48x48px, fill #FFFFFF
+- Standard Icons / A / approval: size 48x48px, fill #FFFFFF
+- Standard Icons / A / apps: size 48x48px, fill #FFFFFF
+- Standard Icons / A / apps_admin: size 48x48px, fill #FFFFFF
+- Standard Icons / A / article: size 48x48px, fill #FFFFFF
+- Standard Icons / A / asset_action: size 48x48px, fill #FFFFFF
+- Standard Icons / A / asset_action_source: size 48x48px, fill #FFFFFF
+- Standard Icons / A / asset_audit: size 48x48px, fill #FFFFFF
+- Standard Icons / A / asset_downtime_period: size 48x48px, fill #FFFFFF
+- Standard Icons / A / asset_hierarchy: size 48x48px, fill #FFFFFF
+- Standard Icons / A / asset_object: size 48x48px, fill #FFFFFF
+- Standard Icons / A / asset_relationship: size 48x48px, fill #FFFFFF
+- Standard Icons / A / asset_state_period: size 48x48px, fill #FFFFFF
+- Standard Icons / A / asset_warranty: size 48x48px, fill #FFFFFF
+- Standard Icons / A / assigned_resource: size 48x48px, fill #FFFFFF
+- Standard Icons / A / assignment: size 48x48px, fill #FFFFFF
+- Standard Icons / A / attach: size 48x48px, fill #FFFFFF
+- Standard Icons / A / attribute_based_pricing: size 48x48px, fill #FFFFFF
+- Standard Icons / A / avatar: size 48x48px, fill #FFFFFF
+- Standard Icons / A / avatar_loading: size 48x48px, fill #FFFFFF
+- Standard Icons / B / bill_of_materials: size 48x48px, fill #FFFFFF
+- Standard Icons / B / bot: size 48x48px, fill #FFFFFF
+- Standard Icons / B / bot_training: size 48x48px, fill #FFFFFF
+- Standard Icons / B / branch_merge: size 48x48px, fill #FFFFFF
+- Standard Icons / B / brand: size 48x48px, fill #FFFFFF
+- Standard Icons / B / budget: size 48x48px, fill #FFFFFF
+- Standard Icons / B / budget_allocation: size 48x48px, fill #FFFFFF
+- Standard Icons / B / budget_category_value: size 48x48px, fill #FFFFFF
+- Standard Icons / B / budget_period: size 48x48px, fill #FFFFFF
+- Standard Icons / B / bundle_config: size 48x48px, fill #FFFFFF
+- Standard Icons / B / bundle_policy: size 48x48px, fill #FFFFFF
+- Standard Icons / B / bundles_pricing: size 48x48px, fill #FFFFFF
+- Standard Icons / B / business_hours: size 48x48px, fill #FFFFFF
+- Standard Icons / B / buyer_account: size 48x48px, fill #FFFFFF
+- Standard Icons / B / buyer_group: size 48x48px, fill #FFFFFF
+- Standard Icons / B / buyer_group_qualifier: size 48x48px, fill #FFFFFF
+- Standard Icons / C / calculated_insights: size 48x48px, fill #FFFFFF
+- Standard Icons / C / calibration: size 48x48px, fill #FFFFFF
+- Standard Icons / C / call: size 48x48px, fill #FFFFFF
+- Standard Icons / C / call_coaching: size 48x48px, fill #FFFFFF
+- Standard Icons / C / call_history: size 48x48px, fill #FFFFFF
+
+## Most-Used Styles
+- Icon/White: 865 uses
+- System/Dark Gray: 714 uses
+- System/White: 190 uses
+- 03 - Body / Default: 152 uses
+- Primary/Main: 123 uses
+- Body 3: 72 uses
+- System/Separator Line: 52 uses
+- System/Disabled Light: 50 uses
+- Text / Placeholder: 50 uses
+- H6: 49 uses
+- Body 2: 47 uses
+- Foundation / Gray / 05: 47 uses
+- System/Black: 47 uses
+- Foundation / Gray / 01: 44 uses
+- System/Default Blue: 39 uses
+- System/Secondary Black: 38 uses
+- Icon / Light: 35 uses
+- Text / Weak: 28 uses
+- 01 - Button / Focus: 24 uses
+- 02 - Container / Border Bottom: 21 uses
+- Primary/Main Hover: 18 uses
+- Error/Error Main: 16 uses
+- Foundation / Gray / 04: 16 uses
+- H3/Bold: 16 uses
+- Caption: 13 uses
+- System/Disabled: 12 uses
+- 02 - Label / Default: 10 uses
+- 06 - Input / Error: 10 uses
+- 06 - Input / Focus: 10 uses
+- Error/Error Pressed: 10 uses
+- Foundation / Blue / Azure: 10 uses
+- Foundation / Red / Flush Mahogany: 10 uses
+- H1/Bold: 10 uses
+- Text / Error: 10 uses
+- Icon / Default: 9 uses
+- Secondary/Main: 9 uses
+- System/Background: 9 uses
+- colors/backgrounds/dark: 9 uses
+- Body 2/Semibold: 8 uses
+- Primary/Dark: 7 uses
+- 02 - Container / Border Top: 6 uses
+- 12 - Docked Composer / Bottom: 6 uses
+- Success/Success Pressed: 6 uses
+- Foundation / Green / Emerald: 5 uses
+- wireframes/colors/text-legibility/high-emphasis: 5 uses
+- H2/Bold: 4 uses
+- H4/Bold: 4 uses
+- Body 1: 3 uses
+- Foundation / Blue / Endeavour: 3 uses
+- H5: 3 uses
+- Success/Success Main: 3 uses
+- 02 - Container / Border Top & Bottom: 2 uses
+- Icon / White: 2 uses
+- Text / Default: 2 uses
+- Blog/LinkedIn/1: 1 use
+- Blog/LinkedIn/2: 1 use
+- Creative/Behance/1: 1 use
+- Imagery/Instagram/1: 1 use
+- Primary/Light: 1 use
+- Secondary/Dark: 1 use
+- Secondary/Light: 1 use
+- System/Light Gray: 1 use
+- System/Navigation Background: 1 use
+- Text / White: 1 use
+- colors/backgrounds/light: 1 use
+
+## Layout & Structure
+Screen: 👑 Cover / Plugin / file cover - 1
+- FRAME "Plugin / file cover - 1", 1920x1080px, constraints left/top, fill #D7EEFF
+  - RECTANGLE "image 1", 161x113px, constraints left/top, fill image(hash: f2d53792ea174cff2a9d8a950f15b97418d9d56e)
+  - INSTANCE "Badge", 172x44px, horizontal pad 8 24 8 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #002863
+    - TEXT "Pinned Report", 124x28px, constraints left/top, fill System/White, text [H1/Bold], [heading]
+  - RECTANGLE "mockup1 1", 927x993px, constraints left/top, fill image(hash: 9bd9df2c9b3914085c518dc2fa389cfb41dbb470)
+  - TEXT "Chirayu Bansal", 548x44px, constraints left/top, fill #000000, text [Montserrat Bold, 36px], [heading]
+  - TEXT "🔧 Fully Customizable Elements", 600x44px, constraints left/top, fill #000000, text [Montserrat Bold, 36px], [heading]
+  - TEXT "📱 5 Flows Covered (10 Screens)", 600x44px, constraints left/top, fill #000000, text [Montserrat Bold, 36px], [heading]
+  - TEXT "✅ Latest Salesforce UI", 600x44px, constraints left/top, fill #000000, text [Montserrat Bold, 36px], [heading]
+  - TEXT "Salesforce Mobile Screens", 887x268px, constraints left/top, fill #00366A, text [Montserrat Bold, 110px], [heading]
+
+Screen:     🧮  Colors / Desktop - 1
+- FRAME "Desktop - 1", 1071x1024px, horizontal pad 74 73 74 73px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #000000
+  - FRAME "Frame 1", 925x871px, horizontal pad 32 32 32 32px gap 64px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 6", 214x279px, vertical pad 24 24 24 24px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #D9D9D9 1px
+      - FRAME "Frame 2", 166x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill Primary/Main
+        - TEXT "Primary Main", 95x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 3", 163x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill Primary/Dark
+        - TEXT "Primary Dark", 92x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 4", 166x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill Primary/Light
+        - TEXT "Primary Light", 95x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - FRAME "Frame 5", 234x279px, vertical pad 24 24 24 24px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #D9D9D9 1px
+      - FRAME "Frame 2", 186x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill Secondary/Main
+        - TEXT "Secondary Main", 115x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 3", 183x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill Secondary/Dark
+        - TEXT "Secondary Dark", 112x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 4", 186x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill Secondary/Light
+        - TEXT "Secondary Light", 115x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - FRAME "Frame 7", 285x789px, vertical pad 24 24 24 24px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #D9D9D9 1px
+      - FRAME "Frame 2", 111x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill System/Black
+        - TEXT "Black", 40x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 8", 190x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill System/Secondary Black
+        - TEXT "Secondary Black", 119x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 3", 140x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill System/Dark Gray
+        - TEXT "Gray Dark", 69x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 4", 143x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill System/Light Gray
+        - TEXT "Grey Light", 72x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 7", 141x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill #F5F5F5
+        - TEXT "Separator", 70x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 6", 157x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill System/Background
+        - TEXT "Background", 86x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 5", 237x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill System/Navigation Background
+        - TEXT "Navigation Background", 166x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 9", 112x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill System/White
+        - TEXT "White", 41x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - FRAME "Frame 10", 158x61px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1", 61x61px, constraints left/top, fill System/Default Blue
+        - TEXT "Default Blue", 87x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+
+Screen:     🔠  Fonts / Desktop - 1
+- FRAME "Desktop - 1", 364x1024px, horizontal pad 74 73 74 73px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #000000
+  - FRAME "Frame 1", 218x871px, horizontal pad 32 32 32 32px gap 64px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 7", 154x474px, vertical pad 24 24 24 24px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #D9D9D9 1px
+      - TEXT "H1", 31x28px, constraints left/top, fill #000000, text [H1/Bold], [heading]
+      - TEXT "H2", 26x23px, constraints left/top, fill #000000, text [H2/Bold], [heading]
+      - TEXT "H3", 21x19px, constraints left/top, fill #000000, text [H3/Bold], [heading]
+      - TEXT "H4", 18x16px, constraints left/top, fill #000000, text [H4/Bold], [heading]
+      - TEXT "H5", 16x14px, constraints left/top, fill #000000, text [H5], [heading]
+      - TEXT "H6", 13x12px, constraints left/top, fill #000000, text [H6], [heading]
+      - TEXT "Body 1", 49x19px, constraints left/top, fill #000000, text [Body 1]
+      - TEXT "Body 2", 43x16px, constraints left/top, fill #000000, text [Body 2]
+      - TEXT "Body 2 Semibold", 106x16px, constraints left/top, fill #000000, text [Body 2/Semibold]
+      - TEXT "Body 3", 37x14px, constraints left/top, fill #000000, text [Body 3]
+      - TEXT "Caption", 28x9px, constraints left/top, fill #000000, text [Caption]
+
+Screen:     🌟  Iconography / Standard Icons
+- FRAME "Standard Icons", 1180x7574px, constraints left/top, fill #FFFFFF
+  - TEXT "Standard Icons", 509x96px, constraints left/top, fill #000000, text [Source Sans Pro Black, 76px], [heading]
+  - FRAME "y", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "Y", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Standard Icons / Y / your_account", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / Y / your_account", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "your_account", 28.2x27.89px, constraints scale/scale, fill Icon/White
+  - FRAME "w", 1180x344px, constraints left/top, fill #FFFFFF
+    - TEXT "W", 30x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Standard Icons / W / workforce_engagement", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / workforce_engagement", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #B60554
+        - VECTOR "workforce_engagement", 28.62x28.56px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_type_group", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_type_group", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "work_type_group", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_type", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_type", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "work_type", 25.2x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_step_template", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_step_template", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #06A59A
+        - VECTOR "work_step_template", 26.74x28.46px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_step", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_step", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #06A59A
+        - VECTOR "work_step", 26.88x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_queue", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_queue", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "work_queue", 28.81x21.02px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_plan_template_entry", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_plan_template_entry", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #06A59A
+        - VECTOR "work_plan_template_entry", 28.61x28.56px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_plan_template", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_plan_template", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #06A59A
+        - VECTOR "work_plan_template", 26.88x28.51px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_plan_rule", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_plan_rule", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #06A59A
+        - VECTOR "work_plan_rule", 26.16x28.66px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_plan", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_plan", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #06A59A
+        - VECTOR "work_plan", 26.88x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_order_item", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_order_item", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "work_order_item", 26.88x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_order", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_order", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #06A59A
+        - VECTOR "work_order", 28.87x15.31px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_forecast", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_forecast", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF5D2D
+        - VECTOR "work_forecast", 33.79x26.88px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_contract", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_contract", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "work_contract", 25.1x28.61px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_capacity_usage", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_capacity_usage", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "work_capacity_usage", 26.88x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / work_capacity_limit", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / work_capacity_limit", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "work_capacity_limit", 25.15x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / webcart", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / webcart", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #396547
+        - VECTOR "webcart", 28.46x26.88px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / water", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / water", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #5867E8
+        - VECTOR "water", 18.3x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / warranty_term", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / warranty_term", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "warranty_term", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / walkthroughs", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / walkthroughs", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #06A59A
+        - VECTOR "walkthroughs", 27.84x27.84px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / W / waits", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / W / waits", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF5D2D
+        - VECTOR "waits", 28.8x25.54px, constraints scale/scale, fill Icon/White
+  - FRAME "v", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "V", 21x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Standard Icons / V / volume_discounts", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / V / volume_discounts", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF5D2D
+        - VECTOR "volume_discounts", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / V / voice_call", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / V / voice_call", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #3BA755
+        - VECTOR "voice_call", 28.83x28.78px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / V / visualforce_page", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / V / visualforce_page", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF5D2D
+        - VECTOR "visualforce_page", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / V / visits", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / V / visits", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "visits", 26.05x28.85px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / V / visit_templates", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / V / visit_templates", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "visit_templates", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / V / video", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / V / video", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #9050E9
+        - VECTOR "video", 28.8x16.45px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / V / variation_products", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / V / variation_products", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #396547
+        - VECTOR "variation_products", 28.49x26.07px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / V / variation_attribute_setup", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / V / variation_attribute_setup", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #396547
+        - VECTOR "variation_attribute_setup", 27.67x26.02px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / V / variable", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / V / variable", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "variable", 28.8x28.22px, constraints scale/scale, fill Icon/White
+  - FRAME "u", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "U", 25x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Standard Icons / U / user_role", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / U / user_role", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #3BA755
+        - VECTOR "user_role", 28.7x27.55px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / U / user", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / U / user", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "user", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / U / uploaded_model", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / U / uploaded_model", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #06A59A
+        - VECTOR "uploaded_model", 26.12x28.79px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / U / unmatched", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / U / unmatched", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "unmatched", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / U / unified_health_score", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / U / unified_health_score", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #5867E8
+        - VECTOR "unified_health_score", 28.8x19.67px, constraints scale/scale, fill Icon/White
+  - FRAME "t", 1180x344px, constraints left/top, fill #FFFFFF
+    - TEXT "T", 21x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Standard Icons / T / travel_mode", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / travel_mode", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #3BA755
+        - VECTOR "travel_mode", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / trailhead_alt", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / trailhead_alt", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #032D60
+        - VECTOR "trailhead_alt", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / trailhead", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / trailhead", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #032D60
+        - VECTOR "trailhead", 28.71x28.81px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / tour_check", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / tour_check", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #9050E9
+        - VECTOR "tour_check", 28.8x25.02px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / tour", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / tour", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #9050E9
+        - VECTOR "tour", 28.8x27.68px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / topic2", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / topic2", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "topic2", 28.08x28.61px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / topic", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / topic", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "topic", 28.78x28.78px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / toggle", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / toggle", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #939393
+        - VECTOR "toggle", 28.63x28.79px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / today", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / today", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF538A
+        - VECTOR "today", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / timeslot", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / timeslot", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF5D2D
+        - VECTOR "timeslot", 27.64x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / timesheet_entry", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / timesheet_entry", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #3BA755
+        - VECTOR "timesheet_entry", 27.51x28.75px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / timesheet", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / timesheet", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #5867E8
+        - VECTOR "timesheet", 27.51x28.75px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / time_period", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / time_period", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #032D60
+        - VECTOR "time_period", 26.88x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / thanks_loading", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / thanks_loading", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #939393
+        - VECTOR "thanks_loading", 28.8x28.8px, constraints scale/scale, fill Icon/White, opacity 50%
+    - COMPONENT "Standard Icons / T / thanks", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / thanks", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF538A
+        - VECTOR "thanks", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / textbox", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / textbox", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #939393
+        - VECTOR "textbox", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / textarea", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / textarea", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #939393
+        - VECTOR "textarea", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / text_template", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / text_template", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "text_template", 28.6x28.74px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / text", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / text", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #939393
+        - VECTOR "text", 28.77x28.9px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / template", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / template", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "template", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / team_member", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / team_member", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF5D2D
+        - VECTOR "team_member", 29.76x26.88px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / tax_treatment", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / tax_treatment", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #396547
+        - VECTOR "tax_treatment", 28.8x27.16px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / tax_rate", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / tax_rate", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #396547
+        - VECTOR "tax_rate", 28.22x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / T / tax_policy", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / T / tax_policy", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #396547
+        - VECTOR "tax_policy", 24.41x28.8px, constraints scale/scale, fill Icon/White
+    - ... +3 more children
+  - FRAME "s", 1180x736px, constraints left/top, fill #FFFFFF
+    - TEXT "S", 21x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Standard Icons / S / system_and_global_variable", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / system_and_global_variable", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "system_and_global_variable", 28.8x28.85px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / swarm_session", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / swarm_session", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF538A
+        - VECTOR "swarm_session", 28.85x28.22px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / swarm_request", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / swarm_request", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF538A
+        - VECTOR "swarm_request", 34x28.75px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / survey", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / survey", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "survey", 28.75x27.36px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / strategy", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / strategy", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #3BA755
+        - VECTOR "strategy", 28.9x28.9px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / story", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / story", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "story", 28.8x22.93px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / store_group", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / store_group", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #1B96FF
+        - VECTOR "store_group", 28.75x22.66px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / store", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / store", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #396547
+        - VECTOR "store", 28.7x24.48px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / steps", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / steps", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #107CAD
+        - VECTOR "steps", 28.7x29.09px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / stage_collection", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / stage_collection", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF5D2D
+        - VECTOR "stage_collection", 28.85x17.28px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / stage", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / stage", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #FF5D2D
+        - VECTOR "stage", 28.9x17.28px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Standard Icons / S / sossession", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Standard Icons / S / sossession", 48x48px, constraints scale/scale
+    - ... +45 more children
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen:     🌟  Iconography / Action Icons
+- FRAME "Action Icons", 1180x4188px, constraints left/top, fill #FFFFFF
+  - TEXT "Action Icons", 413x96px, constraints left/top, fill #000000, text [Source Sans Pro Black, 76px], [heading]
+  - FRAME "w", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "W", 30x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / W / web_link", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / W / web_link", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "web_link", 22.15x22.15px, constraints scale/scale, fill Icon/White
+  - FRAME "v", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "V", 21x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / V / view_relationship", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / V / view_relationship", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "view_relationship", 22.15x22.15px, constraints scale/scale, fill Icon/White
+  - FRAME "u", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "U", 25x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / U / user_activation", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / U / user_activation", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "user_activation", 22.11x22.2px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / U / user", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / U / user", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "user", 22.15x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / U / upload", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / U / upload", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "upload", 22.15x22.18px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / U / update_status", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / U / update_status", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #06A59A
+        - VECTOR "update_status", 22.17x19.32px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / U / update", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / U / update", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "update", 22.15x22.15px, constraints scale/scale, fill Icon/White
+  - FRAME "s", 1180x246px, constraints left/top, fill #FFFFFF
+    - TEXT "S", 21x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / S / submit_for_approval", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / submit_for_approval", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #3BA755
+        - VECTOR "submit_for_approval", 22.15x22.16px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / sort", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / sort", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #3BA755
+        - VECTOR "sort", 22.11x22.2px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / share_thanks", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / share_thanks", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF538A
+        - VECTOR "share_thanks", 22.15x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / share_post", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / share_post", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "share_post", 22.2x20.35px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / share_poll", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / share_poll", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "share_poll", 22.15x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / share_link", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / share_link", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #5867E8
+        - VECTOR "share_link", 22.15x22.08px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / share_file", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / share_file", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #939393
+        - VECTOR "share_file", 22.15x18.51px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / share", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / share", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "share", 22.18x22.18px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / script", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / script", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "script", 20.35x17.72px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / scan_enabled", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / scan_enabled", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "scan_enabled", 22.15x19.38px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / S / scan_disabled", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / S / scan_disabled", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #939393
+        - VECTOR "scan_disabled", 22.15x19.38px, constraints scale/scale, fill Icon/White
+  - FRAME "r", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "R", 23x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / R / reset_password", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / R / reset_password", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "reset_password", 20.4x20.35px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / R / remove_relationship", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / R / remove_relationship", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF538A
+        - VECTOR "remove_relationship", 22.15x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / R / remove", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / R / remove", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "remove", 17.08x17.08px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / R / reject", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / R / reject", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #06A59A
+        - VECTOR "reject", 17.08x17.08px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / R / refresh", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / R / refresh", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "refresh", 20.4x20.35px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / R / record", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / R / record", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #3BA755
+        - VECTOR "record", 20.31x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / R / recall", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / R / recall", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #084968
+        - VECTOR "recall", 18.62x22.13px, constraints scale/scale, fill Icon/White
+  - FRAME "q", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "Q", 25x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / Q / quote", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / Q / quote", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #3BA755
+        - VECTOR "quote", 19.38x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / Q / question_post_action", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / Q / question_post_action", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #3BA755
+        - VECTOR "question_post_action", 14.73x22.2px, constraints scale/scale, fill Icon/White
+  - FRAME "p", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "P", 22x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / P / priority", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / P / priority", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF5D2D
+        - VECTOR "priority", 21.23x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / P / preview", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / P / preview", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #5867E8
+        - VECTOR "preview", 24.02x15.69px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / P / password_unlock", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / P / password_unlock", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "password_unlock", 18.46x22.16px, constraints scale/scale, fill Icon/White
+  - FRAME "n", 1180x1226px, constraints left/top, fill #FFFFFF
+    - TEXT "N", 25x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / N / new_task", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_task", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #3BA755
+        - VECTOR "new_task", 22.19x19.42px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_person_account", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_person_account", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #5867E8
+        - VECTOR "new_person_account", 22.11x18.46px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_opportunity", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_opportunity", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF5D2D
+        - VECTOR "new_opportunity", 22.15x19.38px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_notebook", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_notebook", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF5D2D
+        - VECTOR "new_notebook", 20.31x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_note", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_note", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF5D2D
+        - VECTOR "new_note", 22.16x19.34px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_lead", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_lead", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF5D2D
+        - VECTOR "new_lead", 22.16x22.16px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_group", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_group", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "new_group", 23.95x17.49px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_event", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_event", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF538A
+        - VECTOR "new_event", 20.31x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom99", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom99", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF538A
+        - VECTOR "new_custom99", 22.15x20.3px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom98", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom98", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF5D2D
+        - VECTOR "new_custom98", 22.2x15.69px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom97", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom97", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF538A
+        - VECTOR "new_custom97", 11.08x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom96", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom96", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "new_custom96", 22.18x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom95", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom95", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #3BA755
+        - VECTOR "new_custom95", 18.46x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom94", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom94", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #06A59A
+        - VECTOR "new_custom94", 22.15x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom93", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom93", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #5C5C5C
+        - VECTOR "new_custom93", 22.14x20.31px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom92", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom92", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #056764
+        - VECTOR "new_custom92", 18.49x22.1px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom91", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom91", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #939393
+        - VECTOR "new_custom91", 22.16x22.17px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom90", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom90", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #06A59A
+        - VECTOR "new_custom90", 22.16x22.11px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom9", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom9", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "new_custom9", 22.17x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom89", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom89", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "new_custom89", 22.19x22.17px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom88", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom88", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #9050E9
+        - VECTOR "new_custom88", 22.15x22.14px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom87", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom87", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #CB65FF
+        - VECTOR "new_custom87", 20.45x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom86", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom86", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF538A
+        - VECTOR "new_custom86", 22.15x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / N / new_custom85", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / N / new_custom85", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF538A
+        - VECTOR "new_custom85", 22.15x22.15px, constraints scale/scale, fill Icon/White
+    - ... +90 more children
+  - FRAME "m", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "M", 28x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / M / more", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / M / more", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "more", 22.15x5.54px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / M / map", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / M / map", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "map", 22.15x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / M / manage_perm_sets", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / M / manage_perm_sets", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "manage_perm_sets", 22.15x22.15px, constraints scale/scale, fill Icon/White
+  - FRAME "l", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "L", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / L / log_event", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / L / log_event", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "log_event", 22.17x18.46px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / L / log_a_call", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / L / log_a_call", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #06A59A
+        - VECTOR "log_a_call", 20.77x22.15px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / L / leave_group", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / L / leave_group", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF5D2D
+        - VECTOR "leave_group", 22.25x17.54px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / L / lead_convert", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / L / lead_convert", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF5D2D
+        - VECTOR "lead_convert", 17.89x21.25px, constraints scale/scale, fill Icon/White
+  - FRAME "j", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "J", 19x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / J / join_group", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / J / join_group", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #5867E8
+        - VECTOR "join_group", 22.2x20.31px, constraints scale/scale, fill Icon/White
+  - FRAME "i", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "I", 12x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / I / info", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / I / info", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "info", 22.15x22.15px, constraints scale/scale, fill Icon/White
+  - FRAME "g", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "G", 24x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / G / google_news", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / G / google_news", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #FF538A
+        - VECTOR "google_news", 24x20.31px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / G / goal", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / G / goal", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #1B96FF
+        - VECTOR "goal", 22.15x22.15px, constraints scale/scale, fill Icon/White
+  - FRAME "f", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "F", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Action Icons / F / freeze_user", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / F / freeze_user", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #107CAD
+        - VECTOR "freeze_user", 19.71x22.11px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / F / following", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / F / following", 40x40px, constraints scale/scale
+        - RECTANGLE "Icon Background", 40x40px, constraints scale/scale, radius 48px, fill #3BA755
+        - VECTOR "following", 22.13x22.13px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Action Icons / F / follow", 40x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Action Icons / F / follow", 40x40px, constraints scale/scale
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen:     🌟  Iconography / Custom Icons
+- FRAME "Custom Icons", 1180x1976px, constraints left/top, fill #FFFFFF
+  - TEXT "Custom Icons", 452x96px, constraints left/top, fill #000000, text [Source Sans Pro Black, 76px], [heading]
+  - FRAME "9", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "9", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Custom Icons / custom99", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom99", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #F0856E
+        - VECTOR "custom99", 28.8x26.9px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom98", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom98", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #E1BE5C
+        - VECTOR "custom98", 30.72x21.6px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom97", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom97", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #DD6085
+        - VECTOR "custom97", 15.36x30.72px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom96", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom96", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #6D9DE3
+        - VECTOR "custom96", 28.78x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom95", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom95", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #8BCF6A
+        - VECTOR "custom95", 24x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom94", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom94", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #439CBA
+        - VECTOR "custom94", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom93", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom93", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #904D4C
+        - VECTOR "custom93", 28.46x26.88px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom92", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom92", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #517E82
+        - VECTOR "custom92", 24x28.78px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom91", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom91", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #BF7B66
+        - VECTOR "custom91", 28.75x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom100", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom100", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #E15D76
+        - VECTOR "custom100", 28.8x25.92px, constraints scale/scale, fill Icon/White
+  - FRAME "8", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "8", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Custom Icons / custom90", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom90", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #22A48A
+        - VECTOR "custom90", 28.83x28.85px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom89", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom89", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #3E99BE
+        - VECTOR "custom89", 28.79x28.85px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom88", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom88", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #996FE6
+        - VECTOR "custom88", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom87", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom87", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #D876E5
+        - VECTOR "custom87", 26.88x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom86", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom86", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #E260AB
+        - VECTOR "custom86", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom85", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom85", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #F26891
+        - VECTOR "custom85", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom84", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom84", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #F6707B
+        - VECTOR "custom84", 26.88x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom83", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom83", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #E7806F
+        - VECTOR "custom83", 28.79x28.78px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom82", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom82", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #D15B97
+        - VECTOR "custom82", 30.67x26.89px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom81", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom81", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #DA627F
+        - VECTOR "custom81", 28.8x28.71px, constraints scale/scale, fill Icon/White
+  - FRAME "7", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "7", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Custom Icons / custom80", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom80", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #659AD5
+        - VECTOR "custom80", 29.76x28.82px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom79", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom79", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #8ED363
+        - VECTOR "custom79", 30.72x22.08px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom78", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom78", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #5A95DD
+        - VECTOR "custom78", 28.8x28.81px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom77", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom77", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #B55D5B
+        - VECTOR "custom77", 24.48x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom76", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom76", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #DB6D7A
+        - VECTOR "custom76", 25.91x28.6px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom75", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom75", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #CD9F65
+        - VECTOR "custom75", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom74", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom74", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #41C8A0
+        - VECTOR "custom74", 21.12x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom73", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom73", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #679EF0
+        - VECTOR "custom73", 28.8x28.76px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom72", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom72", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #8D9BFB
+        - VECTOR "custom72", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom71", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom71", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #E36EE3
+        - VECTOR "custom71", 28.8x26.9px, constraints scale/scale, fill Icon/White
+  - FRAME "6", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "6", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Custom Icons / custom70", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom70", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #E769B4
+        - VECTOR "custom70", 28.73x28.72px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom69", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom69", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #ED6387
+        - VECTOR "custom69", 28.81x28.75px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom68", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom68", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #F26979
+        - VECTOR "custom68", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom67", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom67", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #F87D76
+        - VECTOR "custom67", 28.71x28.7px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom66", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom66", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #D8BE5F
+        - VECTOR "custom66", 28.81x28.76px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom65", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom65", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #F279AB
+        - VECTOR "custom65", 29.72x23.04px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom64", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom64", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #618FD8
+        - VECTOR "custom64", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom63", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom63", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #7CCF60
+        - VECTOR "custom63", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom62", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom62", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #6B92DC
+        - VECTOR "custom62", 28.8x24px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom61", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom61", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #F57376
+        - VECTOR "custom61", 24x28.85px, constraints scale/scale, fill Icon/White
+  - FRAME "5", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "5", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Custom Icons / custom60", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom60", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #BF5A88
+        - VECTOR "custom60", 28.81x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom59", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom59", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #E3D067
+        - VECTOR "custom59", 18.24x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom58", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom58", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #34B59D
+        - VECTOR "custom58", 28.85x28.87px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom57", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom57", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #5A9CDD
+        - VECTOR "custom57", 25.92x27.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom56", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom56", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #718DEB
+        - VECTOR "custom56", 28.81x28.86px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom55", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom55", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #D66EE0
+        - VECTOR "custom55", 30.72x24.96px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom54", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom54", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #EA70B1
+        - VECTOR "custom54", 28.8x26.89px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom53", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom53", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #F36E83
+        - VECTOR "custom53", 26.88x28.77px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom52", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom52", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #EE8E6F
+        - VECTOR "custom52", 28.79x28.83px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom51", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom51", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #D8C760
+        - VECTOR "custom51", 26.87x28.83px, constraints scale/scale, fill Icon/White
+  - FRAME "4", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "4", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Custom Icons / custom50", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom50", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #49BCD3
+        - VECTOR "custom50", 28.71x28.46px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom49", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom49", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #E25C80
+        - VECTOR "custom49", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom48", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom48", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #EF697F
+        - VECTOR "custom48", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom47", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom47", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #5FCC64
+        - VECTOR "custom47", 25.93x28.79px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom46", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom46", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #67A5E7
+        - VECTOR "custom46", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom45", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom45", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #D95879
+        - VECTOR "custom45", 30.72x19.2px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom44", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom44", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #C8CA58
+        - VECTOR "custom44", 18.29x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom43", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom43", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #7F93F9
+        - VECTOR "custom43", 31.63x26.83px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom42", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom42", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #CFD05B
+        - VECTOR "custom42", 28.8x26.88px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom41", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom41", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #43B5B5
+        - VECTOR "custom41", 30.72x19.68px, constraints scale/scale, fill Icon/White
+  - FRAME "3", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "3", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Custom Icons / custom40", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom40", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #83C75E
+        - VECTOR "custom40", 28.8x22.08px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom39", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom39", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #4FBE75
+        - VECTOR "custom39", 28.77x28.79px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom38", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom38", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #53B6D7
+        - VECTOR "custom38", 28.8x24px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom37", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom37", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #8C89F2
+        - VECTOR "custom37", 30.72x26.88px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom36", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom36", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #D472D4
+        - VECTOR "custom36", 22.08x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom35", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom35", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #E9637E
+        - VECTOR "custom35", 21.12x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom34", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom34", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #D58A6A
+        - VECTOR "custom34", 28.8x28.82px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom33", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom33", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #97CF5D
+        - VECTOR "custom33", 30.72x22.08px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom32", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom32", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #38C393
+        - VECTOR "custom32", 28.8x28.8px, constraints scale/scale, fill Icon/White
+    - COMPONENT "Custom Icons / custom31", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom31", 48x48px, constraints scale/scale
+        - RECTANGLE "Icon Background", 48x48px, constraints scale/scale, radius 4px, fill #EB687F
+        - VECTOR "custom31", 28.8x25.92px, constraints scale/scale, fill Icon/White
+  - FRAME "2", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "2", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Custom Icons / custom30", 48x48px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Custom Icons / custom30", 48x48px, constraints scale/scale
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen:     🌟  Iconography / Utility Icons
+- FRAME "Utility Icons", 1180x8604px, constraints left/top, fill #FFFFFF
+  - TEXT "Utility Icons", 414x96px, constraints left/top, fill #000000, text [Source Sans Pro Black, 76px], [heading]
+  - FRAME "z", 1180x148px, constraints left/top, fill #FFFFFF
+    - TEXT "Z", 20x45px, constraints left/top, fill #000000, text [Source Sans Pro Black, 36px], [heading]
+    - COMPONENT "Utility Icons / Z / zoomout", 32x32px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Utility Icons / Z / zoomout", 32x32px, constraints scale/scale
+        - BOOLEAN_OPERATION "Icon", 29.52x29.57px, constraints scale/scale, fill System/Dark Gray
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

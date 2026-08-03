@@ -1,0 +1,1146 @@
+---
+name: nothing-weather-app-2023-community
+source_file: Nothing Weather App 2023 (Community)
+source_page: All pages (4): Home, Prototype, Components, thank you
+generated_at: 2026-07-25T09:25:16.112468+00:00
+---
+
+# Nothing Weather App 2023 (Community) Design Guidelines
+
+## Source
+- Figma file: Nothing Weather App 2023 (Community)
+- Figma page: All pages (4): Home, Prototype, Components, thank you
+- Extracted at: 2026-07-25T09:25:16.112468+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- dull red: [#8A2025]
+- bright red: [#D71921]
+- blue: [#002F6C]
+- grey: [#2C2D30]
+- bgblack: [#07080A]
+- white: [#E7EAE9]
+
+## Raw Colors (unstyled)
+- #535353: 41 uses
+- #9747FF: 13 uses
+- #FFFFFF: 9 uses
+- #E7EAE9: 8 uses
+- #5E6980: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Noto Sans Mono Regular, 18px: 63 uses
+- Noto Sans Mono Regular, 15px: 33 uses
+- Noto Sans Mono Regular, 20px: 33 uses
+- Noto Sans Mono Regular, 17px: 29 uses
+- Noto Sans Mono Regular, 24px: 23 uses
+- Noto Sans Mono Regular, 11px: 20 uses
+- Ndot 55, 23px: 15 uses
+- Noto Sans Mono Regular, 16.4px: 14 uses
+- Noto Sans Mono Regular, 14.99px: 13 uses
+- Noto Sans Mono Regular, 19px: 9 uses
+- Noto Sans Mono Regular, 22px: 9 uses
+- Ndot 57, 18px: 7 uses
+- Noto Sans Mono Regular, 18.22px: 6 uses
+- Agrandir GrandHeavy, 16.4px: 5 uses
+- Ndot 55, 20.95px: 5 uses
+- Ndot 57, 54px: 4 uses
+- Noto Sans Mono Regular, 9.19px: 4 uses
+- Noto Sans Mono Regular, 19.13px: 3 uses
+- Noto Sans Mono Regular, 21px: 3 uses
+
+## Typography Hierarchy
+- 54px - Ndot 57, 54px (raw)
+- 24px - Noto Sans Mono Regular, 24px (raw)
+- 23px - Ndot 55, 23px (raw)
+- 22px - Noto Sans Mono Regular, 22px (raw)
+- 21px - Noto Sans Mono Regular, 21px (raw)
+- 20.95px - Ndot 55, 20.95px (raw)
+- 20px - Noto Sans Mono Regular, 20px (raw)
+- 19.13px - Noto Sans Mono Regular, 19.13px (raw)
+- 19px - Noto Sans Mono Regular, 19px (raw)
+- 18.22px - Noto Sans Mono Regular, 18.22px (raw)
+- 18px - Ndot 57, 18px (raw)
+- 18px - Noto Sans Mono Regular, 18px (raw)
+- 17px - Noto Sans Mono Regular, 17px (raw)
+- 16.4px - Agrandir GrandHeavy, 16.4px (raw)
+- 16.4px - Noto Sans Mono Regular, 16.4px (raw)
+- 15px - Noto Sans Mono Regular, 15px (raw)
+- 14.99px - Noto Sans Mono Regular, 14.99px (raw)
+- 11px - Noto Sans Mono Regular, 11px (raw)
+- 9.19px - Noto Sans Mono Regular, 9.19px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- prediction-component
+- weather3
+- pie-chart
+- wind-amplitude
+- arrow
+- temp-level-dots
+- weather-small
+- weather1
+- weather2
+- temperature-bar
+- main-menu
+- selected-title
+- TITLE
+- precipitation-info
+- wind-bar
+- temperature
+- temp-level
+- TODAY
+
+## Component Specs
+- prediction-component: size 269x50px, horizontal layout, padding 0 0 0 0px, gap 24px, align min/center, sizing W:fixed H:fixed, text [Noto Sans Mono Regular, 15px, Noto Sans Mono Regular, 18px] | variants: Property 1: CLEAR-NIGHT/CLOUDY/SHOWERS/SUNNY
+- weather3: size 120x120px, fill #FFFFFF | variants: Property 1: clear-night/clear-sun/cloudy/showers
+- pie-chart: size 55x109px, vertical layout, padding 0 0 0 0px, gap 21px, align min/center, sizing W:fixed H:fixed, text [Noto Sans Mono Regular, 24px] | variants: Property 1: 0%/10%/100%/20%/30%/40%/50%/60%/70%/80%/90%
+- wind-amplitude: size 30x38px, vertical layout, padding 0 0 0 0px, gap 2px, align max/center, sizing W:fixed H:fixed, text [Noto Sans Mono Regular, 17px] | variants: Property 1: 0/1/10/2/3/4/5/6/7/8/9
+- arrow: size 12x12px, fill #FFFFFF | variants: Property 1: NORTH/east/north-east/north-west/south/south-east/south-west/west
+- temp-level-dots: size 18x204px, vertical layout, padding 0 0 0 0px, gap 0px, align max/center, sizing W:fixed H:fixed, text [Noto Sans Mono Regular, 11px] | variants: Property 1: 1/10/2/3/4/5/6/7/8/9/ZERO
+- weather-small: size 36x56.68px, fill #FFFFFF, text [Noto Sans Mono Regular, 14.99px, Noto Sans Mono Regular, 9.19px] | variants: Property 1: clear-night/cloudy/showers/sunny
+- weather1: size 129x165px, fill #FFFFFF, text [Noto Sans Mono Regular, 18px] | variants: Property 1: Default/Variant2/Variant3/Variant4
+- weather2: size 120x183px, fill #FFFFFF | variants: Property 1: Default/Frame 4/Variant2/Variant3/Variant4
+- temperature-bar: size 3x14px, fill #FFFFFF | variants: Property 1: active/inactive
+- main-menu: size 424x52px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Noto Sans Mono Regular, 20px] | variants: Property 1: 10DAYS/TODAY/TOMORROW
+- selected-title: size 100x52px, radius 8px, stroke white 3px, text [Noto Sans Mono Regular, 20px] | variants: Property 1: active/inactive
+- TITLE: size 54x25px, fill #FFFFFF, text [Noto Sans Mono Regular, 18px] | variants: Property 1: active/inactive
+- precipitation-info: size 55x221px, vertical layout, padding 0 0 0 0px, gap 18px, align min/center, sizing W:fixed H:fixed, text [Noto Sans Mono Regular, 22px, Noto Sans Mono Regular, 17px, Noto Sans Mono Regular, 24px]
+- wind-bar: size 46x103px, vertical layout, padding 0 0 0 0px, gap 17px, align min/center, sizing W:fixed H:fixed, text [Noto Sans Mono Regular, 19px, Noto Sans Mono Regular, 17px]
+- temperature: size 119.2x47px, horizontal layout, padding 0 0 0 0px, gap 1px, align center/min, sizing W:fixed H:fixed, text [Ndot 57, 54px]
+- temp-level: size 36x265.68px, vertical layout, padding 0 0 0 0px, gap 5px, align max/center, sizing W:fixed H:fixed, text [Noto Sans Mono Regular, 14.99px, Noto Sans Mono Regular, 9.19px, Noto Sans Mono Regular, 11px]
+- TODAY: size 100x52px, radius 14px, stroke white 3px, text [Noto Sans Mono Regular, 20px]
+
+## Most-Used Styles
+- white: 1995 uses
+- grey: 670 uses
+- bright red: 188 uses
+- blue: 140 uses
+- dull red: 26 uses
+- bgblack: 21 uses
+
+## Layout & Structure
+Screen: Home / Plugin / file cover - 7
+- FRAME "Plugin / file cover - 7", 1920x1189px, constraints left/top
+  - RECTANGLE "OIG 2", 1995x1207px, constraints left/top, fill image(hash: d13729c085aa120a327013140c8642d9fa3ceb26)
+  - FRAME "Frame 59", 1609.81x884.02px, constraints center/center
+    - GROUP "Group 41", 583.44x846.01px, constraints left/top, radius 0/0/0/0px
+      - FRAME "HOME", 393.5x845.2px, constraints left/top, radius 73.66px, fill bgblack, effect [layer_blur 6px]
+        - INSTANCE "main-menu", 386.44x49.03px, horizontal pad 0 0 0 0px gap 9.11px align center/max sizing W:fixed H:fixed, constraints center/top
+          - TEXT "10 DAYS", 138.67x47.96px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 18.22px]
+          - INSTANCE "TODAY", 91.3x47.76px, constraints left/top, radius 12.75px, stroke white 2.73px
+            - TEXT "TODAY", 91.3x47.76px, constraints scale/scale, fill bright red, stroke bright red 0.27px, text [Noto Sans Mono Regular, 18.22px]
+          - TEXT "TOMORROW", 138.67x47.96px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 18.22px]
+        - FRAME "menu-bar", 691.5x25.74px, horizontal pad 0 0 0 0px gap 62.85px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "TITLE", 40.18x22.95px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 40.09x22.17px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 69.33x23.07px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 69.09x22.3px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 128.54x23.32px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 128.09x22.55px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 40.18x22.95px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 40.09x22.17px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 30.16x22.9px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 30.09x22.13px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 69.33x23.07px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 69.09x22.3px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+        - GROUP "info", 206.28x95.2px, constraints left/top
+          - FRAME "air-quality", 205.98x26.88px, horizontal pad 0 0 0 0px gap 8.2px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "air-quality", 141.31x26.61px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19.13px]
+            - TEXT "fair", 56.59x26.24px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19.13px]
+          - TEXT "official-note", 190.61x52.82px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19.13px]
+        - FRAME "day-info", 239.91x77.85px, vertical pad 0 0 0 0px gap 0.91px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "date-time", 190.49x25.82px, constraints left/top, fill white, text [Ndot 55, 20.95px]
+          - TEXT "temperature", 87.56x25.38px, constraints left/top, fill white, text [Ndot 55, 20.95px]
+          - TEXT "weather", 239.68x26.03px, constraints left/top, fill white, text [Ndot 55, 20.95px]
+      - GROUP "thermometer", 580.83x237.6px, constraints center/top, radius 0/0/0/0px
+        - RECTANGLE "thermometer-outline", 580.83x237.6px, constraints left/top, radius 44.23px, fill #00000080, stroke #FFFFFF 7px
+        - BOOLEAN_OPERATION "Union", 465.37x108.06px, constraints left/top, stroke #FFFFFF 5.74px
+        - GROUP "mercury", 203.4x25.62px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 29", 182.11x7.85px, constraints left/top, radius 20.54px, fill bright red
+          - ELLIPSE "Ellipse 144", 24.85x24.85px, constraints left/top, fill bright red
+        - FRAME "top-temperature-scale", 323.6x26.14px, horizontal pad 0 0 0 0px gap 9.48px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+        - FRAME "bottom-temperature-scale", 323.6x26.14px, horizontal pad 0 0 0 0px gap 9.48px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill grey
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+          - INSTANCE "temperature-bar", 4.83x22.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 29", 4.83x22.14px, constraints scale/scale, radius 20.54px, fill bright red
+    - GROUP "Group 43", 565.89x845.94px, constraints left/top, radius 0/0/0/0px
+      - FRAME "SUN", 393.5x845.2px, constraints left/top, radius 73.66px, fill bgblack, effect [layer_blur 7.13px]
+        - INSTANCE "main-menu", 386.44x49.03px, horizontal pad 0 0 0 0px gap 9.11px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "10 DAYS", 138.67x47.96px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 18.22px]
+          - INSTANCE "TODAY", 91.3x47.76px, constraints left/top, radius 12.75px, stroke white 2.73px
+            - TEXT "TODAY", 91.3x47.76px, constraints scale/scale, fill bright red, stroke bright red 0.27px, text [Noto Sans Mono Regular, 18.22px]
+          - TEXT "TOMORROW", 138.67x47.96px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 18.22px]
+        - FRAME "menu", 691.5x25.74px, horizontal pad 0 0 0 0px gap 62.85px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "TITLE", 40.18x22.95px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 40.09x22.17px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 69.33x23.07px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 69.09x22.3px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 128.54x23.32px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 128.09x22.55px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 40.18x22.95px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 40.09x22.17px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 30.16x22.9px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 30.09x22.13px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 16.4px]
+          - INSTANCE "TITLE", 69.33x23.07px, constraints left/top, fill #FFFFFF
+            - TEXT "TITLE", 69.09x22.3px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 16.4px]
+        - FRAME "sunrise-sunset", 191.5x49.38px, vertical pad 0 0 0 0px gap 4.55px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "sunrise", 191.34x22.82px, horizontal pad 0 0 0 0px gap 47.37px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "sunrise", 71.09x20.3px, constraints left/top, fill white, text [Ndot 57, 16.4px]
+            - TEXT "6:00", 72.97x22.31px, constraints left/top, fill white, text [Noto Sans Mono Regular, 16.4px]
+          - FRAME "sunset", 191.39x22.82px, horizontal pad 0 0 0 0px gap 47.37px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "sunset", 71.14x20.3px, constraints left/top, fill white, text [Ndot 57, 16.4px]
+            - TEXT "19:00", 72.97x22.31px, constraints left/top, fill white, text [Noto Sans Mono Regular, 16.4px]
+        - FRAME "day-info", 239.22x51.94px, vertical pad 0 0 0 0px gap 0.91px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "date-time", 190.49x25.82px, constraints left/top, fill white, text [Ndot 55, 20.95px]
+          - TEXT "chances-of-rain", 239.11x26.03px, constraints left/top, fill white, text [Ndot 55, 20.95px]
+      - GROUP "rollercoaster", 563.6x311.55px, constraints left/top, radius 0/0/0/0px [decorative, ~10 shapes]
+
+Screen: Prototype / HOME
+- FRAME "HOME", 428x926px, constraints left/top, fill bgblack
+  - INSTANCE "main-menu", 424x52px, horizontal pad 0 0 0 0px gap 10px align center/max sizing W:fixed H:fixed, constraints center/top
+    - TEXT "10 DAYS", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+    - INSTANCE "TODAY", 100x52px, constraints left/top, radius 14px, stroke white 3px
+      - TEXT "TODAY", 100x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+    - TEXT "TOMORROW", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+  - FRAME "menu-bar", 759x25px, horizontal pad 0 0 0 0px gap 69px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 141x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 141x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 33x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 33x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+  - GROUP "info", 226x104px, constraints left/top
+    - FRAME "air-quality", 226x29px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "air-quality", 155x29px, constraints left/top, fill white, text [Noto Sans Mono Regular, 21px]
+      - TEXT "fair", 62x29px, constraints left/top, fill white, text [Noto Sans Mono Regular, 21px]
+    - TEXT "official-note", 209x58px, constraints left/top, fill white, text [Noto Sans Mono Regular, 21px]
+  - GROUP "thermometer", 298x120.84px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "thermometer-outline", 298x120.84px, constraints left/top, radius 25.44px, stroke white 2.73px
+    - BOOLEAN_OPERATION "Union", 238.95x54.51px, constraints left/top, stroke white 2.73px
+    - GROUP "mercury", 104.48x12.72px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 29", 93.58x3.63px, constraints left/top, radius 11.81px, fill bright red
+      - ELLIPSE "Ellipse 144", 12.72x12.72px, constraints left/top, fill bright red
+    - FRAME "top-temperature-scale", 166.26x12.72px, horizontal pad 0 0 0 0px gap 5.45px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+    - FRAME "bottom-temperature-scale", 166.26x12.72px, horizontal pad 0 0 0 0px gap 5.45px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill grey
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+      - INSTANCE "temperature-bar", 2.73x12.72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 29", 2.73x12.72px, constraints scale/scale, radius 11.81px, fill bright red
+  - FRAME "day-info", 263x86px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "date-time", 209x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+    - TEXT "temperature", 96x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+    - TEXT "weather", 263x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+
+Screen: Prototype / WEATHER
+- FRAME "WEATHER", 428x926px, constraints left/top, fill bgblack
+  - INSTANCE "main-menu", 424x52px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "10 DAYS", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+    - INSTANCE "TODAY", 100x52px, constraints left/top, radius 14px, stroke white 3px
+      - TEXT "TODAY", 100x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+    - TEXT "TOMORROW", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+  - FRAME "menu", 759x25px, horizontal pad 0 0 0 0px gap 69px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 141x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 141x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 33x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 33x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+  - FRAME "temperature-graph", 309x265.68px, horizontal pad 0 0 0 0px gap 3px align center/max sizing W:fixed H:fixed, constraints center/top
+    - INSTANCE "temp-level", 36x265.68px, vertical pad 0 0 0 0px gap 5px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temp-level-dots", 18x204px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "24", 14x24px, constraints left/top, fill white, text [Noto Sans Mono Regular, 11px]
+        - ELLIPSE "Ellipse 655", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 656", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 657", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 658", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 659", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 660", 18x18px, constraints left/top, fill blue
+      - INSTANCE "weather-small", 36x56.68px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 22.88x20.78px, constraints scale/scale [decorative, ~57 shapes]
+        - TEXT "90%", 18x13px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 9.19px]
+        - TEXT "12am", 36x20.3px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 14.99px]
+    - INSTANCE "Frame 30", 36x265.68px, vertical pad 0 0 0 0px gap 5px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temp-level-dots", 18x204px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "24", 14x24px, constraints left/top, fill white, text [Noto Sans Mono Regular, 11px]
+        - ELLIPSE "Ellipse 654", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 655", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 656", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 657", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 658", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 659", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 660", 18x18px, constraints left/top, fill blue
+      - INSTANCE "weather-small", 36x56.68px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 18.67x18.67px, constraints scale/scale [decorative, ~29 shapes]
+        - TEXT "12am", 36x20.3px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 14.99px]
+    - INSTANCE "Frame 31", 36x265.68px, vertical pad 0 0 0 0px gap 5px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temp-level-dots", 18x204px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "24", 14x24px, constraints left/top, fill white, text [Noto Sans Mono Regular, 11px]
+        - ELLIPSE "Ellipse 652", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 653", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 654", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 655", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 656", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 657", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 658", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 659", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 660", 18x18px, constraints left/top, fill blue
+      - INSTANCE "weather-small", 36x56.68px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 18.67x18.67px, constraints scale/scale [decorative, ~29 shapes]
+        - TEXT "12am", 36x20.3px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 14.99px]
+    - INSTANCE "Frame 32", 36x265.68px, vertical pad 0 0 0 0px gap 5px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temp-level-dots", 18x204px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "24", 14x24px, constraints left/top, fill white, text [Noto Sans Mono Regular, 11px]
+        - ELLIPSE "Ellipse 655", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 656", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 657", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 658", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 659", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 660", 18x18px, constraints left/top, fill blue
+      - INSTANCE "weather-small", 36x56.68px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 22.88x12.35px, constraints scale/scale [decorative, ~51 shapes]
+        - TEXT "12am", 36x20.3px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 14.99px]
+    - INSTANCE "Frame 33", 36x265.68px, vertical pad 0 0 0 0px gap 5px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temp-level-dots", 18x204px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "24", 14x24px, constraints left/top, fill white, text [Noto Sans Mono Regular, 11px]
+        - ELLIPSE "Ellipse 655", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 656", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 657", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 658", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 659", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 660", 18x18px, constraints left/top, fill blue
+      - INSTANCE "weather-small", 36x56.68px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 22.88x12.35px, constraints scale/scale [decorative, ~51 shapes]
+        - TEXT "12am", 36x20.3px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 14.99px]
+    - INSTANCE "Frame 34", 36x265.68px, vertical pad 0 0 0 0px gap 5px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temp-level-dots", 18x204px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "24", 14x24px, constraints left/top, fill white, text [Noto Sans Mono Regular, 11px]
+        - ELLIPSE "Ellipse 654", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 655", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 656", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 657", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 658", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 659", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 660", 18x18px, constraints left/top, fill blue
+      - INSTANCE "weather-small", 36x56.68px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 22.88x12.35px, constraints scale/scale [decorative, ~51 shapes]
+        - TEXT "12am", 36x20.3px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 14.99px]
+    - INSTANCE "Frame 35", 36x265.68px, vertical pad 0 0 0 0px gap 5px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temp-level-dots", 18x204px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "24", 14x24px, constraints left/top, fill white, text [Noto Sans Mono Regular, 11px]
+        - ELLIPSE "Ellipse 656", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 657", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 658", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 659", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 660", 18x18px, constraints left/top, fill blue
+      - INSTANCE "weather-small", 36x56.68px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 22.88x20.78px, constraints scale/scale [decorative, ~57 shapes]
+        - TEXT "90%", 18x13px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 9.19px]
+        - TEXT "12am", 36x20.3px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 14.99px]
+    - INSTANCE "Frame 36", 36x265.68px, vertical pad 0 0 0 0px gap 5px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temp-level-dots", 18x204px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "24", 14x24px, constraints left/top, fill white, text [Noto Sans Mono Regular, 11px]
+        - ELLIPSE "Ellipse 655", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 656", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 657", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 658", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 659", 18x18px, constraints left/top, fill blue
+        - ELLIPSE "Ellipse 660", 18x18px, constraints left/top, fill blue
+      - INSTANCE "weather-small", 36x56.68px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 1", 18.67x18.67px, constraints scale/scale [decorative, ~29 shapes]
+        - TEXT "12am", 36x20.3px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 14.99px]
+  - FRAME "temperature-weather", 323x146px, horizontal pad 0 0 0 0px gap 39px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "temperature-main", 176x146px, vertical pad 0 0 0 0px gap 22px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "temperature", 119.2x47px, horizontal pad 0 0 0 0px gap 1px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "23", 68x47px, constraints left/top, fill white, text [Ndot 57, 54px], [heading]
+        - BOOLEAN_OPERATION "Union", 16.2x16.2px, constraints left/top, fill white
+        - TEXT "c", 33x46px, constraints left/top, fill white, text [Ndot 57, 54px], [heading]
+      - FRAME "temperature-info", 176x77px, vertical pad 0 0 0 0px gap 1px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "DAY 32°C", 94x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+        - TEXT "night 32°C", 117x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+        - TEXT "FEELS LIKE 38°C", 176x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "weather1", 108x138.14px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 462", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 475", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 488", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 501", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 514", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 527", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 540", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 553", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 566", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 579", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 592", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 605", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 618", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 463", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 476", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 489", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 502", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 515", 7.2x7.2px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 528", 7.2x7.2px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 541", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 554", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 567", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 580", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 593", 7.2x7.2px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 606", 7.2x7.2px, constraints scale/scale, fill grey
+      - ... +145 more children
+  - FRAME "day-info", 262x57px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "date-time", 209x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+    - TEXT "chances-of-rain", 262x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+
+Screen: Prototype / PRECIPITATION
+- FRAME "PRECIPITATION", 428x926px, constraints left/top, fill bgblack
+  - INSTANCE "main-menu", 424x52px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "10 DAYS", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+    - INSTANCE "TODAY", 100x52px, constraints left/top, radius 14px, stroke white 3px
+      - TEXT "TODAY", 100x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+    - TEXT "TOMORROW", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+  - FRAME "menu", 759x25px, horizontal pad 0 0 0 0px gap 69px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 141x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 141x25px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 33x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 33x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+  - FRAME "precipitation-info", 428x219px, horizontal pad 0 22 0 22px gap 19px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "chance-volume", 58x149px, vertical pad 6 0 6 0px gap 98px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "chance", 58x22px, constraints left/top, fill white, text [Noto Sans Mono Regular, 16px]
+      - TEXT "volume", 58x22px, constraints left/top, fill white, text [Noto Sans Mono Regular, 16px]
+    - INSTANCE "precipitation-info", 55x215px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "pie-chart", 55x109px, vertical pad 0 0 0 0px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "0%", 29x33px, constraints left/top, fill white, text [Noto Sans Mono Regular, 24px], [heading]
+        - GROUP "pie", 55x55px, constraints left/top
+          - ELLIPSE "pie-bg", 55x55px, constraints left/top, fill white
+          - ELLIPSE "pie-element", 55x55px, constraints left/top, fill blue
+      - TEXT "<0.01", 51x23px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+      - TEXT "12pm", 30x53px, constraints left/top, fill white, text [Noto Sans Mono Regular, 22px]
+    - INSTANCE "Frame 39", 55x206px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "pie-chart", 55x109px, vertical pad 0 0 0 0px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "10%", 44x33px, constraints left/top, fill white, text [Noto Sans Mono Regular, 24px], [heading]
+        - GROUP "pie", 55x55px, constraints left/top
+          - ELLIPSE "pie-bg", 55x55px, constraints left/top, fill white
+          - ELLIPSE "pie-element", 55x55px, constraints left/top, fill blue
+      - TEXT "<0.01", 51x23px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+      - TEXT "12pm", 30x40px, constraints left/top, fill white, text [Noto Sans Mono Regular, 22px]
+    - INSTANCE "Frame 40", 55x206px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "pie-chart", 55x109px, vertical pad 0 0 0 0px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "50%", 44x33px, constraints left/top, fill white, text [Noto Sans Mono Regular, 24px], [heading]
+        - GROUP "pie", 55x55px, constraints left/top
+          - ELLIPSE "pie-bg", 55x55px, constraints left/top, fill white
+          - ELLIPSE "pie-element", 55x55px, constraints left/top, fill blue
+      - TEXT "<0.01", 31x23px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+      - TEXT "12pm", 30x40px, constraints left/top, fill white, text [Noto Sans Mono Regular, 22px]
+    - INSTANCE "Frame 41", 55x206px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "pie-chart", 55x109px, vertical pad 0 0 0 0px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "30%", 44x33px, constraints left/top, fill white, text [Noto Sans Mono Regular, 24px], [heading]
+        - GROUP "pie", 55x55px, constraints left/top
+          - ELLIPSE "pie-bg", 55x55px, constraints left/top, fill white
+          - ELLIPSE "pie-element", 55x55px, constraints left/top, fill blue
+      - TEXT "<0.01", 11x23px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+      - TEXT "12pm", 30x40px, constraints left/top, fill white, text [Noto Sans Mono Regular, 22px]
+    - INSTANCE "Frame 42", 55x206px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "pie-chart", 55x109px, vertical pad 0 0 0 0px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "50%", 44x33px, constraints left/top, fill white, text [Noto Sans Mono Regular, 24px], [heading]
+        - GROUP "pie", 55x55px, constraints left/top
+          - ELLIPSE "pie-bg", 55x55px, constraints left/top, fill white
+          - ELLIPSE "pie-element", 55x55px, constraints left/top, fill blue
+      - TEXT "<0.01", 31x23px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+      - TEXT "12pm", 30x40px, constraints left/top, fill white, text [Noto Sans Mono Regular, 22px]
+    - INSTANCE "Frame 43", 55x206px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "pie-chart", 55x109px, vertical pad 0 0 0 0px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "40%", 44x33px, constraints left/top, fill white, text [Noto Sans Mono Regular, 24px], [heading]
+        - GROUP "pie", 55x55px, constraints left/top
+          - ELLIPSE "pie-bg", 55x55px, constraints left/top, fill white
+          - ELLIPSE "pie-element", 55x55px, constraints left/top, fill blue
+      - TEXT "<0.01", 31x23px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+      - TEXT "12pm", 30x40px, constraints left/top, fill white, text [Noto Sans Mono Regular, 22px]
+    - INSTANCE "Frame 44", 55x206px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "pie-chart", 55x109px, vertical pad 0 0 0 0px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "30%", 44x33px, constraints left/top, fill white, text [Noto Sans Mono Regular, 24px], [heading]
+        - GROUP "pie", 55x55px, constraints left/top
+          - ELLIPSE "pie-bg", 55x55px, constraints left/top, fill white
+          - ELLIPSE "pie-element", 55x55px, constraints left/top, fill blue
+      - TEXT "<0.01", 31x23px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+      - TEXT "12pm", 30x40px, constraints left/top, fill white, text [Noto Sans Mono Regular, 22px]
+    - INSTANCE "Frame 45", 55x206px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "pie-chart", 55x109px, vertical pad 0 0 0 0px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "20%", 44x33px, constraints left/top, fill white, text [Noto Sans Mono Regular, 24px], [heading]
+        - GROUP "pie", 55x55px, constraints left/top
+          - ELLIPSE "pie-bg", 55x55px, constraints left/top, fill white
+          - ELLIPSE "pie-element", 55x55px, constraints left/top, fill blue
+      - TEXT "<0.01", 51x23px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+      - TEXT "12pm", 30x40px, constraints left/top, fill white, text [Noto Sans Mono Regular, 22px]
+  - FRAME "day-info", 262x57px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "date-time", 209x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+    - TEXT "chances-of-rain", 262x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+
+Screen: Prototype / WIND
+- FRAME "WIND", 428x926px, constraints left/top, fill bgblack
+  - INSTANCE "main-menu", 424x52px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "10 DAYS", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+    - INSTANCE "TODAY", 100x52px, constraints left/top, radius 14px, stroke white 3px
+      - TEXT "TODAY", 100x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+    - TEXT "TOMORROW", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+  - FRAME "menu", 759x25px, horizontal pad 0 0 0 0px gap 69px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 141x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 141x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 33x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 33x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+  - FRAME "wind-bar-info", 522x103px, horizontal pad 0 0 0 0px gap 22px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "wind-bar", 46x103px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 12x12px, constraints left/top, fill #FFFFFF
+        - VECTOR ">", 9.2x9.2px, constraints center/center, fill white
+      - INSTANCE "wind-amplitude", 30x38px, vertical pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "8", 11x17px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+        - FRAME "Frame 49", 30x19px, vertical pad 0 0 0 0px gap 1px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~8 shapes]
+      - TEXT "11pm", 46x19px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19px]
+    - INSTANCE "Frame 52", 46x103px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 12x12px, constraints left/top, fill #FFFFFF
+        - VECTOR ">", 9.2x9.2px, constraints center/center, fill white
+      - INSTANCE "wind-amplitude", 30x38px, vertical pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "6", 11x17px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+        - FRAME "Frame 49", 30x19px, vertical pad 0 0 0 0px gap 1px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+      - TEXT "11pm", 35x19px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19px]
+    - INSTANCE "Frame 53", 46x103px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 12x12px, constraints left/top, fill #FFFFFF
+        - VECTOR ">", 12x7.2px, constraints center/center, fill white
+      - INSTANCE "wind-amplitude", 30x38px, vertical pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "6", 11x17px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+        - FRAME "Frame 49", 30x19px, vertical pad 0 0 0 0px gap 1px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+      - TEXT "11pm", 35x19px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19px]
+    - INSTANCE "Frame 54", 46x103px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 12x12px, constraints left/top, fill #FFFFFF
+        - VECTOR ">", 9.2x9.2px, constraints center/center, fill white
+      - INSTANCE "wind-amplitude", 30x38px, vertical pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "5", 11x17px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+        - FRAME "Frame 49", 30x19px, vertical pad 0 0 0 0px gap 1px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+      - TEXT "11pm", 35x19px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19px]
+    - INSTANCE "Frame 55", 46x103px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 12x12px, constraints left/top, fill #FFFFFF
+        - VECTOR ">", 12x7.2px, constraints center/center, fill white
+      - INSTANCE "wind-amplitude", 30x38px, vertical pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "5", 11x17px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+        - FRAME "Frame 49", 30x19px, vertical pad 0 0 0 0px gap 1px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+      - TEXT "11pm", 35x19px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19px]
+    - INSTANCE "Frame 56", 46x103px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 12x12px, constraints left/top, fill #FFFFFF
+        - VECTOR ">", 12x7.2px, constraints center/center, fill white
+      - INSTANCE "wind-amplitude", 30x38px, vertical pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "5", 11x17px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+        - FRAME "Frame 49", 30x19px, vertical pad 0 0 0 0px gap 1px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+      - TEXT "11pm", 35x19px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19px]
+    - INSTANCE "Frame 57", 46x103px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 12x12px, constraints left/top, fill #FFFFFF
+        - VECTOR ">", 12x7.2px, constraints center/center, fill white
+      - INSTANCE "wind-amplitude", 30x38px, vertical pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "10", 21x17px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+        - FRAME "Frame 49", 30x19px, vertical pad 0 0 0 0px gap 1px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~10 shapes]
+      - TEXT "11pm", 35x19px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19px]
+    - INSTANCE "Frame 58", 46x103px, vertical pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 12x12px, constraints left/top, fill #FFFFFF
+        - VECTOR ">", 12x7.2px, constraints center/center, fill white
+      - INSTANCE "wind-amplitude", 30x38px, vertical pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "10", 21x17px, constraints left/top, fill white, text [Noto Sans Mono Regular, 17px]
+        - FRAME "Frame 49", 30x19px, vertical pad 0 0 0 0px gap 1px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~10 shapes]
+      - TEXT "11pm", 35x19px, constraints left/top, fill white, text [Noto Sans Mono Regular, 19px]
+  - GROUP "windmill", 51x256px, constraints left/top
+    - GROUP "fan-stand", 51x236px, constraints center/top
+      - LINE "Line 1", 37x0px, constraints left/top, fill bright red, stroke bright red 2.5px
+      - LINE "Line 2", 34x0px, constraints left/top, stroke bright red 2.5px
+      - REGULAR_POLYGON "Polygon 1", 51x236px, constraints left/top, stroke white 2.5px
+    - INSTANCE "fan", 41x41px, constraints center/top, fill #FFFFFF
+      - INSTANCE "fan", 41x41px, constraints scale/scale
+        - BOOLEAN_OPERATION "Union", 241.36x210.77px, constraints left/top, fill bgblack, stroke white 2px
+        - ELLIPSE "Ellipse 756", 41x41px, constraints scale/scale, fill bgblack, stroke white 2px
+        - VECTOR ">", 12x7.2px, constraints scale/scale, fill white
+  - FRAME "day-info", 262x57px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "date-time", 209x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+    - TEXT "chances-of-rain", 262x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+
+Screen: Prototype / SUN
+- FRAME "SUN", 428x926px, constraints left/top, fill bgblack
+  - INSTANCE "main-menu", 424x52px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "10 DAYS", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+    - INSTANCE "TODAY", 100x52px, constraints left/top, radius 14px, stroke white 3px
+      - TEXT "TODAY", 100x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+    - TEXT "TOMORROW", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+  - FRAME "menu", 759x25px, horizontal pad 0 0 0 0px gap 69px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 141x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 141x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 33x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 33x25px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+  - FRAME "sunrise-sunset", 210x55px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints center/top
+    - FRAME "sunrise", 210x25px, horizontal pad 0 0 0 0px gap 52px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "sunrise", 78x22px, constraints left/top, fill white, text [Ndot 57, 18px]
+      - TEXT "6:00", 80x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+    - FRAME "sunset", 210x25px, horizontal pad 0 0 0 0px gap 52px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "sunset", 78x22px, constraints left/top, fill white, text [Ndot 57, 18px]
+      - TEXT "19:00", 80x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+  - GROUP "rollercoaster", 375.65x196px, constraints left/top [decorative, ~9 shapes]
+  - VECTOR "car", 51.39x40.39px, constraints left/top, radius 57/57/57/57px, fill bright red
+  - FRAME "day-info", 262x57px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "date-time", 209x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+    - TEXT "chances-of-rain", 262x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+
+Screen: Prototype / DETAILS
+- FRAME "DETAILS", 428x926px, constraints left/top, fill bgblack
+  - INSTANCE "main-menu", 424x52px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "10 DAYS", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+    - INSTANCE "TODAY", 100x52px, constraints left/top, radius 14px, stroke white 3px
+      - TEXT "TODAY", 100x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+    - TEXT "TOMORROW", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+  - FRAME "menu", 759x25px, horizontal pad 0 0 0 0px gap 69px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 141x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 141x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 44x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 44x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 33x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 33x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+    - INSTANCE "TITLE", 76x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 76x25px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 18px]
+  - FRAME "details-info", 276x149px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints center/top
+    - FRAME "humidity", 276x25px, horizontal pad 0 0 0 0px gap 43px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "HUMIDITY", 107x22px, constraints left/top, fill white, text [Ndot 57, 18px]
+      - TEXT "94%", 126x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+    - FRAME "dew-point", 276x22px, horizontal pad 0 0 0 0px gap 43px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "DEW POINT", 107x22px, constraints left/top, fill white, text [Ndot 57, 18px]
+      - TEXT "24℃", 126x22px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+    - FRAME "pressure", 276x22px, horizontal pad 0 0 0 0px gap 43px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "PRESSURE", 107x22px, constraints left/top, fill white, text [Ndot 57, 18px]
+      - TEXT "1,005 mBAR", 126x22px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+    - FRAME "uv-index", 276x22px, horizontal pad 0 0 0 0px gap 43px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "UV INDEX", 107x22px, constraints left/top, fill white, text [Ndot 57, 18px]
+      - TEXT "LOW, 0", 126x22px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+    - FRAME "visibility", 276x22px, horizontal pad 0 0 0 0px gap 43px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "VISIBILTY", 107x22px, constraints left/top, fill white, text [Ndot 57, 18px]
+      - TEXT "10 KM", 126x22px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+  - FRAME "day-info", 262x57px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "date-time", 209x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+    - TEXT "chances-of-rain", 262x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+
+Screen: Prototype / 10DAYS
+- FRAME "10DAYS", 428x926px, constraints left/top, fill bgblack
+  - INSTANCE "main-menu", 424x52px, horizontal pad 0 0 0 0px gap -2px align center/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "TOMORROW", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+    - INSTANCE "TODAY", 124x52px, constraints left/top, radius 14px, stroke white 3px
+      - TEXT "TODAY", 124x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+    - TEXT "TODAY", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+  - FRAME "predictions", 293x458px, vertical pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints center/top
+    - INSTANCE "prediction-component", 293x50px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 63", 30x41px, vertical pad 0 0 0 0px gap 9px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "28°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+        - TEXT "24°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - FRAME "Frame 64", 149x50px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 65", 149x50px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "today", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+          - TEXT "showers", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - INSTANCE "weather3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 42", 41.83x37.05px, constraints center/center [decorative, ~57 shapes]
+    - INSTANCE "Frame 67", 293x50px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 63", 30x41px, vertical pad 0 0 0 0px gap 9px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "28°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+        - TEXT "24°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - FRAME "Frame 64", 149x50px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 65", 149x50px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "today", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+          - TEXT "showers", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - INSTANCE "weather3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 42", 41.83x37.05px, constraints center/center [decorative, ~57 shapes]
+    - INSTANCE "Frame 68", 293x50px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 63", 30x41px, vertical pad 0 0 0 0px gap 9px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "28°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+        - TEXT "24°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - FRAME "Frame 64", 149x50px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 65", 149x50px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "today", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+          - TEXT "CLOUDY", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - INSTANCE "weather3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 43", 41.83x22.58px, constraints center/center [decorative, ~51 shapes]
+    - INSTANCE "Frame 69", 293x50px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 63", 30x41px, vertical pad 0 0 0 0px gap 9px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "28°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+        - TEXT "24°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - FRAME "Frame 64", 149x50px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 65", 149x50px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "today", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+          - TEXT "CLOUDY", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - INSTANCE "weather3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 43", 41.83x22.58px, constraints center/center [decorative, ~51 shapes]
+    - INSTANCE "Frame 70", 293x50px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 63", 30x41px, vertical pad 0 0 0 0px gap 9px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "28°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+        - TEXT "24°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - FRAME "Frame 64", 149x50px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 65", 149x50px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "today", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+          - TEXT "sunny", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - INSTANCE "weather3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "sun", 34.12x34.12px, constraints center/center [decorative, ~29 shapes]
+    - INSTANCE "Frame 71", 293x50px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 63", 30x41px, vertical pad 0 0 0 0px gap 9px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "28°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+        - TEXT "24°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - FRAME "Frame 64", 149x50px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 65", 149x50px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "today", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+          - TEXT "sunny", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - INSTANCE "weather3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "sun", 34.12x34.12px, constraints center/center [decorative, ~29 shapes]
+    - INSTANCE "Frame 72", 293x50px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 63", 30x41px, vertical pad 0 0 0 0px gap 9px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "28°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+        - TEXT "24°", 30x13px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - FRAME "Frame 64", 149x50px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 65", 149x50px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "today", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 18px]
+          - TEXT "sunny", 149x25px, constraints left/top, fill white, text [Noto Sans Mono Regular, 15px]
+      - INSTANCE "weather3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "sun", 34.12x34.12px, constraints center/center [decorative, ~29 shapes]
+  - FRAME "day-info", 262x57px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "date-time", 209x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+    - TEXT "chances-of-rain", 262x28px, constraints left/top, fill white, text [Ndot 55, 23px]
+
+Screen: Prototype / instruction
+- GROUP "instruction", 977x548px, constraints left/top
+  - TEXT "click the on top right to the see prototype and animations", 977x540px, constraints left/top, fill #000000, text [Agrandir GrandHeavy, 77px], [heading]
+  - GROUP "Group 44", 161x161px, constraints left/top
+    - RECTANGLE "Rectangle 48", 161x161px, constraints left/top, fill #333333
+    - REGULAR_POLYGON "Polygon 4", 86.93x86.93px, constraints left/top, stroke #FFFCFC 2.55px
+    - TEXT "‹", 64x19px, constraints left/top, fill #FFFFFF, text [Agrandir GrandHeavy, 49px], [heading]
+
+Screen: Components / home page components
+- FRAME "home page components", 1100x2050px, constraints left/top, radius 163px, fill bgblack
+  - COMPONENT "TODAY", 100x52px, constraints left/top, radius 14px, stroke white 3px
+    - TEXT "TODAY", 100x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+  - COMPONENT_SET "TITLE", 136x110px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=active", 54x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 54x25px, constraints scale/scale, fill white, text [Noto Sans Mono Regular, 18px]
+    - COMPONENT "Property 1=inactive", 54x25px, constraints left/top, fill #FFFFFF
+      - TEXT "TITLE", 54x25px, constraints scale/scale, fill #535353, text [Noto Sans Mono Regular, 18px]
+  - COMPONENT_SET "selected-title", 140x164px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=active", 100x52px, constraints center/center, radius 8px, stroke white 3px
+      - TEXT "today", 60x20px, constraints scale/scale, fill bright red, stroke bright red 0.5px, text [Noto Sans Mono Regular, 20px]
+    - COMPONENT "Property 1=inactive", 120x52px, constraints center/center, radius 8px
+      - TEXT "today", 100x33.55px, constraints scale/scale, fill dull red, text [Noto Sans Mono Regular, 20px]
+  - COMPONENT_SET "main-menu", 464x311px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=TODAY", 424x52px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "10 DAYS", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+      - INSTANCE "TODAY", 100x52px, constraints left/top, radius 14px, stroke white 3px
+        - TEXT "TODAY", 100x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+      - TEXT "TOMORROW", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+    - COMPONENT "Property 1=TOMORROW", 424x52px, horizontal pad 0 0 0 0px gap -8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "10 DAYS", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+      - INSTANCE "TODAY", 136x52px, constraints left/top, radius 14px, stroke white 3px
+        - TEXT "TODAY", 136x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+      - TEXT "TODAY", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+    - COMPONENT "Property 1=10DAYS", 424x52px, horizontal pad 0 0 0 0px gap -2px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "TOMORROW", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+      - INSTANCE "TODAY", 124x52px, constraints left/top, radius 14px, stroke white 3px
+        - TEXT "TODAY", 124x52px, constraints scale/scale, fill bright red, stroke bright red 0.3px, text [Noto Sans Mono Regular, 20px]
+      - TEXT "TODAY", 152x52px, constraints left/top, fill dull red, text [Noto Sans Mono Regular, 20px]
+  - COMPONENT_SET "temperature-bar", 43x88px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=inactive", 3x14px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 29", 3x14px, constraints scale/scale, radius 13px, fill grey
+    - COMPONENT "Property 1=active", 3x14px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 29", 3x14px, constraints scale/scale, radius 13px, fill bright red
+
+Screen: Components / weather page components
+- FRAME "weather page components", 1100x2050px, constraints left/top, radius 163px, fill bgblack
+  - COMPONENT_SET "weather2", 160x1335px, constraints center/center, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 120x183px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 178", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 189", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 168", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 179", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 190", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 201", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 245", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 158", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 169", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 180", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 191", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 202", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 235", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 159", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 170", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 181", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 192", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 203", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 171", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 182", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 193", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 204", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 248", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 161", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 172", 9.5x9.5px, constraints scale/scale, fill white
+      - ... +32 more children
+    - COMPONENT "Property 1=Variant2", 98x183px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 201", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 169", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 235", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 192", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 203", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 214", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 182", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 193", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 204", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 215", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 226", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 161", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 183", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 194", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 205", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 216", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 227", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 249", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 184", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 195", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 206", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 217", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 228", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 196", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 207", 9.5x9.5px, constraints scale/scale, fill white
+      - ... +4 more children
+    - COMPONENT "Property 1=Variant3", 98x183px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 190", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 201", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 212", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 169", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 180", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 191", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 202", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 213", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 224", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 235", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 159", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 170", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 181", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 192", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 203", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 214", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 225", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 236", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 160", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 204", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 215", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 226", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 237", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 248", 9.5x9.55px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 227", 9.5x9.55px, constraints scale/scale, fill white
+      - ... +15 more children
+    - COMPONENT "Property 1=Variant4", 120x183px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 178", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 189", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 168", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 179", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 190", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 201", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 158", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 169", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 180", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 191", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 202", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 159", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 170", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 181", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 192", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 203", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 171", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 182", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 193", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 204", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 161", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 172", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 183", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 194", 9.5x9.5px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 205", 9.5x9.5px, constraints scale/scale, fill white
+      - ... +26 more children
+    - COMPONENT "Property 1=Frame 4", 120x183px, vertical pad 0 0 0 0px gap 18px align max/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "90%", 83x56px, constraints left/top, fill white, text [Noto Sans Mono Regular, 46px], [heading]
+      - INSTANCE "Component 4/Variant5", 120x109px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 178", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 189", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 168", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 179", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 190", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 201", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 245", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 158", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 169", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 180", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 191", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 202", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 235", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 159", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 170", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 181", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 192", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 203", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 171", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 182", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 193", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 204", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 248", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 161", 9.5x9.5px, constraints scale/scale, fill white
+        - ELLIPSE "Ellipse 172", 9.5x9.5px, constraints scale/scale, fill white
+        - ... +32 more children
+  - COMPONENT_SET "weather1", 169x817px, constraints center/center, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 129x165px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 462", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 475", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 488", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 501", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 514", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 527", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 540", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 553", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 566", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 579", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 592", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 605", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 618", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 463", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 476", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 489", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 502", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 515", 8.6x8.6px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 528", 8.6x8.6px, constraints scale/scale, fill white
+      - ELLIPSE "Ellipse 541", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 554", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 567", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 580", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 593", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 606", 8.6x8.6px, constraints scale/scale, fill grey
+      - ... +145 more children
+    - COMPONENT "Property 1=Variant2", 129x165px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 462", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 475", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 488", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 501", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 514", 8.6x8.6px, constraints scale/scale, fill grey
+      - ELLIPSE "Ellipse 527", 8.6x8.6px, constraints scale/scale, fill grey
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

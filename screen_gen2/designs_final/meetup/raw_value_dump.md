@@ -1,0 +1,228 @@
+---
+name: pride-month-meetup-web-design-community
+source_file: Pride Month Meetup Web design (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:55:03.585899+00:00
+---
+
+# Pride Month Meetup Web design (Community) Design Guidelines
+
+## Source
+- Figma file: Pride Month Meetup Web design (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:55:03.585899+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 180 uses
+- #FFBD11: 69 uses
+- #FFFFFF: 40 uses
+- #FF6CDF: 20 uses
+- #AA3ED8: 12 uses
+- #FFD22E: 12 uses
+- #0061E1: 7 uses
+- #00AED9: 7 uses
+- #2EBA00: 7 uses
+- #67027D: 7 uses
+- #F4003C: 7 uses
+- #FF8000: 7 uses
+- #FFD400: 7 uses
+- #8F0FC7: 6 uses
+- #FFD232: 6 uses
+- #0E6AFF: 4 uses
+- #0FAB3D: 4 uses
+- #7BCEF2: 4 uses
+- #F64E4E: 4 uses
+- #161A21: 3 uses
+- #212826: 3 uses
+- #3E73E1: 3 uses
+- #46BE4A: 3 uses
+- #9C2DAD: 3 uses
+- #F18028: 3 uses
+- #F2505F: 3 uses
+- #FD831F: 3 uses
+- #FFF34A: 3 uses
+- #FFFFFF03: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Regular, 24px: 60 uses
+- Rammetto One Regular, 80px: 16 uses
+- Rammetto One Regular, 140px: 10 uses
+- JetBrains Mono Medium, 19px: 4 uses
+- JetBrains Mono Medium, 20px: 4 uses
+- JetBrains Mono Regular, 24px: 3 uses
+
+## Typography Hierarchy
+- 140px - Rammetto One Regular, 140px (raw)
+- 80px - Rammetto One Regular, 80px (raw)
+- 24px - Inter Regular, 24px (raw)
+- 24px - JetBrains Mono Regular, 24px (raw)
+- 20px - JetBrains Mono Medium, 20px (raw)
+- 19px - JetBrains Mono Medium, 19px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / colors
+- FRAME "colors", 1600x1200px, constraints left/top, fill #FFD232
+  - RECTANGLE "Rectangle 8138", 1544x1149px, constraints center/top, radius 88px, fill #7BCEF2, stroke #000000 3px
+  - RECTANGLE "Rectangle 8137", 1473x1075px, constraints center/top, radius 76px, fill #FFD232, stroke #000000 3px
+  - FRAME "Frame 1000003424", 1400x1006px, constraints center/bottom, radius 60px, fill #FFFFFF, stroke #000000 3px
+    - GROUP "Group 1000001021", 399x1339px, constraints center/top, opacity 80% [decorative, ~7 shapes]
+    - GROUP "stars", 809.18x402.1px, constraints left/top [decorative, ~24 shapes]
+    - VECTOR "Vector", 27x27px, constraints scale/scale, fill #000000
+    - FRAME "Frame 1000003435", 1305x135px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Frame 1000003432", 375x135px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "C", 60x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #F64E4E], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "o", 76x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #FFBD11], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "L", 52x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #FFF34A], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "o", 76x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #0FAB3D], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "r", 75x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #0E6AFF], text [Rammetto One Regular, 80px], [heading]
+      - FRAME "Frame 1000003433", 88x135px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "&", 88x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #F64E4E], text [Rammetto One Regular, 80px], [heading]
+      - FRAME "Frame 1000003434", 794x135px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "T", 64x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #F64E4E], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "Y", 68x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #FFBD11], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "p", 69x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #F64E4E], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "o", 76x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #0FAB3D], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "g", 68x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #0E6AFF], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "r", 75x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #0FAB3D], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "A", 84x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #FFF34A], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "p", 69x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #F64E4E], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "h", 72x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #F64E4E], text [Rammetto One Regular, 80px], [heading]
+        - TEXT "Y", 68x135px, constraints left/top, fill #FFFFFF, stroke #000000 3px, effect [drop_shadow 0px offset 0 4 #FFBD11], text [Rammetto One Regular, 80px], [heading]
+    - GROUP "Group 126634", 32x32px, constraints left/top, radius 12px [decorative, ~6 shapes]
+    - VECTOR "Vector", 23.18x23.1px, constraints scale/scale, fill #000000
+    - FRAME "Frame 1000003440", 1071x286px, vertical pad 0 0 0 0px gap 80px align min/center sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Frame 1000003436", 1071x93px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 1000001022", 245.25x93px, constraints left/top, radius 52.5px
+          - RECTANGLE "Rectangle 7912", 245.25x93px, constraints left/top, radius 52.5px, fill #FFFFFF, stroke #000000 2.25px
+          - RECTANGLE "Rectangle 7913", 129x93px, constraints left/top, radius 52.5px, fill #FF6CDF, stroke #000000 2.25px
+          - TEXT "#FF6CDF", 83.25x25px, constraints left/center, fill #000000, text [JetBrains Mono Medium, 19px]
+        - GROUP "Group 1000001023", 245.25x93px, constraints left/top, radius 52.5px
+          - RECTANGLE "Rectangle 7912", 245.25x93px, constraints left/top, radius 52.5px, fill #FFFFFF, stroke #000000 2.25px
+          - RECTANGLE "Rectangle 7913", 129x93px, constraints left/top, radius 52.5px, fill #FFD232, stroke #000000 2.25px
+          - TEXT "#FFD232", 83.25x25px, constraints left/center, fill #000000, text [JetBrains Mono Medium, 19px]
+        - GROUP "Group 1000001024", 245.25x93px, constraints left/top, radius 52.5px
+          - RECTANGLE "Rectangle 7912", 245.25x93px, constraints left/top, radius 52.5px, fill #FFFFFF, stroke #000000 2.25px
+          - RECTANGLE "Rectangle 7913", 129x93px, constraints left/top, radius 52.5px, fill #7BCEF2, stroke #000000 2.25px
+          - TEXT "#7BCEF2", 83.25x25px, constraints left/center, fill #000000, text [JetBrains Mono Medium, 19px]
+        - GROUP "Group 1000001025", 245.25x93px, constraints left/top, radius 52.5px
+          - RECTANGLE "Rectangle 7912", 245.25x93px, constraints left/top, radius 52.5px, fill #FFFFFF, stroke #000000 2.25px
+          - RECTANGLE "Rectangle 7913", 129x93px, constraints left/top, radius 52.5px, fill #FCFCFC, stroke #000000 2.25px
+          - TEXT "#FCFCFC", 83.25x25px, constraints left/center, fill #000000, text [JetBrains Mono Medium, 19px]
+      - FRAME "Frame 1000003439", 842x113px, horizontal pad 0 0 0 0px gap 38px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1000003437", 418x113px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 1000003438", 418x113px, horizontal pad 31 67 31 67px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 52.5px, fill #FFFFFF, stroke #000000 2.25px
+            - TEXT "Rammetto One", 284x51px, constraints left/top, fill #000000, text [Rammetto One Regular, 30px], [heading]
+        - FRAME "Frame 1000003438", 386x102px, horizontal pad 31 67 31 67px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 52.5px, fill #FFFFFF, stroke #000000 2.25px
+          - TEXT "JetBrains Mono", 252x40px, constraints left/top, fill #000000, text [JetBrains Mono Medium, 30px], [heading]
+    - GROUP "Rainbow shape", 313x156.5px, constraints left/top
+      - VECTOR "Arc", 313x156.5px, constraints left/top, fill #333333, stroke #FFD22E 2px
+      - VECTOR "Arc", 232.67x116.34px, constraints left/top, fill #333333, stroke #FFD22E 2px
+      - VECTOR "Arc", 141.27x70.63px, constraints left/top, fill #333333, stroke #FFD22E 2px
+    - GROUP "Rainbow shape", 232x116px, constraints left/top
+      - VECTOR "Arc", 232x116px, constraints left/top, fill #333333, stroke #AA3ED8 2px
+      - VECTOR "Arc", 172.46x86.23px, constraints left/top, fill #333333, stroke #AA3ED8 2px
+      - VECTOR "Arc", 104.71x52.35px, constraints left/top, fill #333333, stroke #AA3ED8 2px
+    - VECTOR "PRIDE", 121.56x29.46px, constraints left/top, fill gradient_linear(#F44840 9% | #EAB820 25% | #56C63F 47% | #5F60F3 73% | #9637B7 100%)
+    - VECTOR "PRIDE", 121.56x29.46px, constraints left/top, fill gradient_linear(#F44840 9% | #EAB820 25% | #56C63F 47% | #5F60F3 73% | #9637B7 100%)
+    - VECTOR "Vector", 61.13x56.4px, constraints scale/scale, fill #F18028, stroke #F18028 2px
+  - TEXT "www.nickelfox.com", 268x32px, constraints left/top, fill #000000, text [JetBrains Mono Regular, 24px], [heading]
+  - GROUP "Group 31", 190x190px, constraints left/top
+    - ELLIPSE "Ellipse 25", 190x190px, constraints left/top, fill #C18D27, stroke #FFBD11 1px
+    - GROUP "Group 30", 174x173.7px, constraints left/top
+      - VECTOR "Heart 2", 45.03x39.84px, constraints left/top, fill #FFBD11
+      - GROUP "Group", 173.6x66.37px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L", 31.9x27.73px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "o", 30.6x31.55px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "v", 26.03x32.17px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "e", 20.79x31.58px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "i", 7.81x29.32px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "s", 16.37x30.35px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "l", 14.37x29.47px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "o", 27.03x32.64px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "v", 29.94x30.82px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "e", 31.9x27.73px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+      - GROUP "Group", 173.6x66.37px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L", 31.9x27.73px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "o", 30.6x31.55px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "v", 26.03x32.17px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "e", 20.79x31.58px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "i", 7.81x29.32px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "s", 16.37x30.35px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "l", 14.37x29.47px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "o", 27.03x32.64px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "v", 29.94x30.82px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "e", 31.9x27.73px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+  - FRAME "Group", 37.28x193.82px, constraints left/top, opacity 59% [decorative, ~6 shapes]
+
+Screen: Page 1 / Pride Month Meetup Web design
+- FRAME "Pride Month Meetup Web design", 1600x1200px, constraints left/top, fill #FFD232
+  - RECTANGLE "Rectangle 8138", 1544x1149px, constraints center/top, radius 88px, fill #7BCEF2, stroke #000000 3px
+  - RECTANGLE "Rectangle 8137", 1473x1075px, constraints center/top, radius 76px, fill #FFD232, stroke #000000 3px
+  - FRAME "Frame 1000003424", 1400x1006px, constraints center/bottom, radius 60px, fill #FFFFFF, stroke #000000 3px [decorative, ~97 shapes]
+  - TEXT "www.nickelfox.com", 268x32px, constraints left/top, fill #000000, text [JetBrains Mono Regular, 24px], [heading]
+  - GROUP "Group 31", 190x190px, constraints left/top
+    - ELLIPSE "Ellipse 25", 190x190px, constraints left/top, fill #C18D27, stroke #FFBD11 1px
+    - GROUP "Group 30", 174x173.7px, constraints left/top
+      - VECTOR "Heart 2", 45.03x39.84px, constraints left/top, fill #FFBD11
+      - GROUP "Group", 173.6x66.37px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L", 31.9x27.73px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "o", 30.6x31.55px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "v", 26.03x32.17px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "e", 20.79x31.58px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "i", 7.81x29.32px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "s", 16.37x30.35px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "l", 14.37x29.47px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "o", 27.03x32.64px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "v", 29.94x30.82px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "e", 31.9x27.73px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+      - GROUP "Group", 173.6x66.37px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L", 31.9x27.73px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "o", 30.6x31.55px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "v", 26.03x32.17px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "e", 20.79x31.58px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "i", 7.81x29.32px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "s", 16.37x30.35px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "l", 14.37x29.47px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "o", 27.03x32.64px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "v", 29.94x30.82px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+        - TEXT "e", 31.9x27.73px, constraints left/top, fill #FFBD11, text [Inter Regular, 24px], [heading]
+  - FRAME "Group", 37.28x193.82px, constraints left/top, opacity 59% [decorative, ~6 shapes]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

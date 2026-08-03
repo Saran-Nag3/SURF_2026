@@ -1,0 +1,2088 @@
+---
+name: tailwind-css-design-system-style-guide-community
+source_file: Tailwind CSS  Design System - Style Guide (Community)
+source_page: All pages (3): Overview, 👀 Instructions, 🎨 Style Guide
+generated_at: 2026-07-25T09:27:40.452087+00:00
+---
+
+# Tailwind CSS  Design System - Style Guide (Community) Design Guidelines
+
+## Source
+- Figma file: Tailwind CSS  Design System - Style Guide (Community)
+- Figma page: All pages (3): Overview, 👀 Instructions, 🎨 Style Guide
+- Extracted at: 2026-07-25T09:27:40.452087+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White: [#FFFFFF]
+- Indigo/500: [#6366F1]
+- Gray/500: [#6D7280]
+- Gray/900: [#111827]
+- PInk/900: [#831843]
+- PInk/800: [#9D174D]
+- PInk/700: [#B3185B]
+- PInk/600: [#DB2777]
+- PInk/500: [#EC4899]
+- PInk/400: [#F472B6]
+- PInk/300: [#F9A8D4]
+- PInk/200: [#FBCFE8]
+- PInk/100: [#FCE7F3]
+- PInk/50: [#FDF2F8]
+- Purple/900: [#581C87]
+- Purple/800: [#6B21A8]
+- Purple/700: [#7E22CE]
+- Purple/600: [#9333EA]
+- Purple/500: [#A855F7]
+- Purple/400: [#C084FC]
+- Purple/300: [#D8B4FE]
+- Purple/200: [#E9D5FF]
+- Purple/100: [#F3E8FF]
+- Purple/50: [#FAF5FF]
+- Indigo/900: [#312E81]
+- Indigo/800: [#3730A3]
+- Indigo/700: [#4338CA]
+- Indigo/600: [#4F46E5]
+- Indigo/400: [#818CF8]
+- Indigo/300: [#A5B4FC]
+- Indigo/200: [#C7D2FE]
+- Indigo/100: [#E0E7FF]
+- Indigo/50: [#EEF2FF]
+- Blue/900: [#1E3A8A]
+- Blue/800: [#1E40AF]
+- Blue/700: [#1D4ED8]
+- Blue/600: [#2563EB]
+- Blue/500: [#3B82F6]
+- Blue/400: [#60A5FA]
+- Blue/300: [#93C5FD]
+- Blue/200: [#BFDBFE]
+- Blue/100: [#DBEAFE]
+- Blue/50: [#EFF6FF]
+- Green/900: [#14532D]
+- Green/800: [#166534]
+- Green/700: [#15803D]
+- Green/600: [#16A34A]
+- Green/500: [#22C55E]
+- Green/400: [#4ADE80]
+- Green/300: [#86EFAC]
+- Green/200: [#BBF7D0]
+- Green/100: [#DCFCE7]
+- Green/50: [#F0FDF4]
+- Yellow/900: [#713F12]
+- Yellow/800: [#854D0E]
+- Yellow/700: [#A16207]
+- Yellow/600: [#CA8A04]
+- Yellow/500: [#EAB308]
+- Yellow/400: [#FACC15]
+- Yellow/300: [#FDE047]
+- Yellow/200: [#FEF08A]
+- Yellow/100: [#FEF9C3]
+- Yellow/50: [#FEFCE8]
+- Orange/900: [#7C2D12]
+- Orange/800: [#9A3412]
+- Orange/700: [#C2410C]
+- Orange/600: [#EA580C]
+- Orange/500: [#F97316]
+- Orange/400: [#FB923C]
+- Orange/300: [#FDBA74]
+- Orange/200: [#FED7AA]
+- Orange/100: [#FFEDD5]
+- Orange/50: [#FFF7ED]
+- Red/900: [#7F1D1D]
+- Red/800: [#991B1B]
+- Red/700: [#B91C1C]
+- Red/600: [#DC2626]
+- Red/500: [#EF4444]
+- Red/400: [#F87171]
+- Red/300: [#FCA5A5]
+- Red/200: [#FECACA]
+- Red/100: [#FEE2E2]
+- Red/50: [#FEF2F2]
+- Gray/800: [#1F2937]
+- Gray/700: [#374151]
+- Gray/600: [#4B5563]
+- Gray/400: [#9CA3AF]
+- Gray/300: [#D2D5DA]
+- Gray/200: [#E5E7EB]
+- Gray/100: [#F3F4F6]
+- Gray/50: [#F9FAFB]
+- systemGrey/600: [#757575]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 5 uses
+- #000000: 4 uses
+- #9747FF: 4 uses
+
+## Typography Tokens
+- text-xs/font-semibold: Inter SemiBold (600), 12px / 107.42%, tracking 0px
+- text-9xl/font-bold: Inter Bold (700), 128px / 107.42%, tracking 0px
+- text-sm/font-semibold: Inter SemiBold (600), 14px / 107.42%, tracking 0px
+- text-lg/font-regular: Inter Regular (400), 18px / 123.94%, tracking 0px
+- text-5xl/font-semibold: Inter SemiBold (600), 48px / 115.68%, tracking 0px
+- text-xl/font-semibold: Inter SemiBold (600), 20px / 123.94%, tracking 0px
+- text-3xl/font-semibold: Inter SemiBold (600), 30px / 123.94%, tracking 0px
+- text-base/font-semibold: Inter SemiBold (600), 16px / 123.94%, tracking 0px
+- text-5xl/font-regular: Inter Regular (400), 48px / 115.68%, tracking 0px
+- text-xs/font-bold: Inter Bold (700), 12px / 107.42%, tracking 0px
+- text-xs/font-regular: Inter Regular (400), 12px / 107.42%, tracking 0px
+- text-xs/font-light: Inter Light (300), 12px / 107.42%, tracking 0px
+- text-sm/font-bold: Inter Bold (700), 14px / 107.42%, tracking 0px
+- text-sm/font-regular: Inter Regular (400), 14px / 107.42%, tracking 0px
+- text-sm/font-light: Inter Light (300), 14px / 107.42%, tracking 0px
+- text-base/font-bold: Inter Bold (700), 16px / 123.94%, tracking 0px
+- text-base/font-regular: Inter Regular (400), 16px / 123.94%, tracking 0px
+- text-base/font-light: Inter Light (300), 16px / 123.94%, tracking 0px
+- text-lg/font-bold: Inter Bold (700), 18px / 123.94%, tracking 0px
+- text-lg/font-semibold: Inter SemiBold (600), 18px / 123.94%, tracking 0px
+- text-lg/font-light: Inter Light (300), 18px / 123.94%, tracking 0px
+- text-xl/font-bold: Inter Bold (700), 20px / 123.94%, tracking 0px
+- text-xl/font-regular: Inter Regular (400), 20px / 123.94%, tracking 0px
+- text-xl/font-light: Inter Light (300), 20px / 123.94%, tracking 0px
+- text-2xl/font-bold: Inter Bold (700), 24px / 123.94%, tracking 0px
+- text-2xl/font-semibold: Inter SemiBold (600), 24px / 123.94%, tracking 0px
+- text-2xl/font-regular: Inter Regular (400), 24px / 123.94%, tracking 0px
+- text-2xl/font-light: Inter Light (300), 24px / 123.94%, tracking 0px
+- text-3xl/font-bold: Inter Bold (700), 30px / 123.94%, tracking 0px
+- text-3xl/font-regular: Inter Regular (400), 30px / 123.94%, tracking 0px
+- text-3xl/font-light: Inter Light (300), 30px / 123.94%, tracking 0px
+- text-4xl/font-bold: Inter Bold (700), 36px / 123.94%, tracking 0px
+- text-4xl/font-semibold: Inter SemiBold (600), 36px / 123.94%, tracking 0px
+- text-4xl/font-regular: Inter Regular (400), 36px / 123.94%, tracking 0px
+- text-4xl/font-light: Inter Light (300), 36px / 123.94%, tracking 0px
+- text-5xl/font-bold: Inter Bold (700), 48px / 115.68%, tracking 0px
+- text-5xl/font-light: Inter Light (300), 48px / 115.68%, tracking 0px
+- text-6xl/font-bold: Inter Bold (700), 60px / 115.68%, tracking 0px
+- text-6xl/font-semibold: Inter SemiBold (600), 60px / 115.68%, tracking 0px
+- text-6xl/font-regular: Inter Regular (400), 60px / 115.68%, tracking 0px
+- text-6xl/font-light: Inter Light (300), 60px / 115.68%, tracking 0px
+- text-7xl/font-bold: Inter Bold (700), 72px / 115.68%, tracking 0px
+- text-7xl/font-semibold: Inter SemiBold (600), 72px / 115.68%, tracking 0px
+- text-7xl/font-regular: Inter Regular (400), 72px / 115.68%, tracking 0px
+- text-7xl/font-light: Inter Light (300), 72px / 115.68%, tracking 0px
+- text-8xl/bold: Inter Bold (700), 96px / 107.42%, tracking 0px
+- text-8xl/semibold: Inter SemiBold (600), 96px / 107.42%, tracking 0px
+- text-8xl/font-regular: Inter Regular (400), 96px / 107.42%, tracking 0px
+- text-8xl/font-light: Inter Light (300), 96px / 107.42%, tracking 0px
+- text-9xl/font-semibold: Inter SemiBold (600), 128px / 107.42%, tracking 0px
+- text-9xl/font-regular: Inter Regular (400), 128px / 107.42%, tracking 0px
+- text-9xl/font-light: Inter Light (300), 128px / 107.42%, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 2.59px: 91 uses
+- Inter SemiBold, 3.03px: 91 uses
+- Inter Regular, 12px: 90 uses
+- Inter SemiBold, 4.32px: 61 uses
+- Inter SemiBold, 10.37px: 12 uses
+- Inter Regular, 3.89px: 10 uses
+- Inter SemiBold, 3.62px: 6 uses
+- Inter Regular, 10.37px: 5 uses
+- Inter Bold, 27.66px: 4 uses
+- Inter Regular, 12.97px: 3 uses
+
+## Typography Hierarchy
+- 128px - text-9xl/font-bold (Inter Bold)
+- 128px - text-9xl/font-light (Inter Light)
+- 128px - text-9xl/font-regular (Inter Regular)
+- 128px - text-9xl/font-semibold (Inter SemiBold)
+- 96px - text-8xl/bold (Inter Bold)
+- 96px - text-8xl/font-light (Inter Light)
+- 96px - text-8xl/font-regular (Inter Regular)
+- 96px - text-8xl/semibold (Inter SemiBold)
+- 72px - text-7xl/font-bold (Inter Bold)
+- 72px - text-7xl/font-light (Inter Light)
+- 72px - text-7xl/font-regular (Inter Regular)
+- 72px - text-7xl/font-semibold (Inter SemiBold)
+- 60px - text-6xl/font-bold (Inter Bold)
+- 60px - text-6xl/font-light (Inter Light)
+- 60px - text-6xl/font-regular (Inter Regular)
+- 60px - text-6xl/font-semibold (Inter SemiBold)
+- 48px - text-5xl/font-bold (Inter Bold)
+- 48px - text-5xl/font-light (Inter Light)
+- 48px - text-5xl/font-regular (Inter Regular)
+- 48px - text-5xl/font-semibold (Inter SemiBold)
+- 36px - text-4xl/font-bold (Inter Bold)
+- 36px - text-4xl/font-light (Inter Light)
+- 36px - text-4xl/font-regular (Inter Regular)
+- 36px - text-4xl/font-semibold (Inter SemiBold)
+- 30px - text-3xl/font-bold (Inter Bold)
+- 30px - text-3xl/font-light (Inter Light)
+- 30px - text-3xl/font-regular (Inter Regular)
+- 30px - text-3xl/font-semibold (Inter SemiBold)
+- 27.66px - Inter Bold, 27.66px (raw)
+- 24px - text-2xl/font-bold (Inter Bold)
+- 24px - text-2xl/font-light (Inter Light)
+- 24px - text-2xl/font-regular (Inter Regular)
+- 24px - text-2xl/font-semibold (Inter SemiBold)
+- 20px - text-xl/font-bold (Inter Bold)
+- 20px - text-xl/font-light (Inter Light)
+- 20px - text-xl/font-regular (Inter Regular)
+- 20px - text-xl/font-semibold (Inter SemiBold)
+- 18px - text-lg/font-bold (Inter Bold)
+- 18px - text-lg/font-light (Inter Light)
+- 18px - text-lg/font-regular (Inter Regular)
+- 18px - text-lg/font-semibold (Inter SemiBold)
+- 16px - text-base/font-bold (Inter Bold)
+- 16px - text-base/font-light (Inter Light)
+- 16px - text-base/font-regular (Inter Regular)
+- 16px - text-base/font-semibold (Inter SemiBold)
+- 14px - text-sm/font-bold (Inter Bold)
+- 14px - text-sm/font-light (Inter Light)
+- 14px - text-sm/font-regular (Inter Regular)
+- 14px - text-sm/font-semibold (Inter SemiBold)
+- 12.97px - Inter Regular, 12.97px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 12px - text-xs/font-bold (Inter Bold)
+- 12px - text-xs/font-light (Inter Light)
+- 12px - text-xs/font-regular (Inter Regular)
+- 12px - text-xs/font-semibold (Inter SemiBold)
+- 10.37px - Inter Regular, 10.37px (raw)
+- 10.37px - Inter SemiBold, 10.37px (raw)
+- 4.32px - Inter SemiBold, 4.32px (raw)
+- 3.89px - Inter Regular, 3.89px (raw)
+- 3.62px - Inter SemiBold, 3.62px (raw)
+- 3.03px - Inter SemiBold, 3.03px (raw)
+- 2.59px - Inter Regular, 2.59px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow/2xl: [drop_shadow 50px offset 0 25 #00000040]
+- Shadow/xl: [drop_shadow 25px offset 0 20 #0000001A, drop_shadow 10px offset 0 10 #0000000A]
+- Shadow/lg: [drop_shadow 15px offset 0 10 #0000001A, drop_shadow 6px offset 0 4 #0000000D]
+- Shadow/md: [drop_shadow 6px offset 0 4 #0000001A, drop_shadow 4px offset 0 2 #00000080]
+- Shadow/base: [drop_shadow 3px offset 0 1 #0000001A, drop_shadow 2px offset 0 1 #0000001A]
+- Shadow/sm: [drop_shadow 2px offset 0 1 #00000014]
+
+## Grid Styles
+- base: columns count 4, section 60px, gutter 16px, align stretch
+- md: columns count 8, section 44px, gutter 32px, align stretch
+- lg: columns count 12, section 48px, gutter 32px, align center
+- xl: columns count 12, section 72px, gutter 32px, align center
+- 2xl: columns count 12, section 80px, gutter 32px, align center
+
+## Component Families
+- icon
+
+## Component Specs
+- icon/Fill (Overview): size 7.28x7.28px, fill #FFFFFF | variants: Name: Alarm/ArrowCircleDown/ArrowCircleLeft/ArrowCircleRight/ArrowCircleUp/ArrowDown/ArrowLeft/ArrowRight/ArrowUp/Bell/BellSlash/Bluetooth/BluetoothSlash/Calendar/CalendarBlank/CalendarCheck/CalendarPlus/CaretCircleDown/CaretCircleLeft/CaretCircleRight/CaretCircleUp/CaretDown/CaretLeft/CaretRight/CaretUp/Clock/CloudArrowDown/CloudArrowUp/CloudCheck/CloudSlash/GearSix/Info/LinkBreak/LinkSimple/LinkSimpleBreak/LockSimple/LockSimpleOpen/Shield/ShieldCheck/Spinner/SpinnerGap/User/UserCircle/UserCircleMinus/UserCirclePlus/UserFocus/UserMinus/UserPlus/UserRectangle/UserSquare/UserSwitch/Users/UsersThree/Warning/WarningCircle/WarningOctagon
+- icon/Outline (Overview): size 7.28x7.28px, fill #FFFFFF | variants: Name: Alarm/ArrowCircleDown/ArrowCircleLeft/ArrowCircleRight/ArrowCircleUp/ArrowDown/ArrowLeft/ArrowRight/ArrowUp/Bell/BellSlash/Bluetooth/BluetoothSlash/Calendar/CalendarBlank/CalendarCheck/CalendarPlus/CaretCircleDown/CaretCircleLeft/CaretCircleRight/CaretCircleUp/CaretDown/CaretLeft/CaretRight/CaretUp/Clock/CloudArrowDown/CloudArrowUp/CloudCheck/CloudSlash/GearSix/Info/LinkBreak/LinkSimple/LinkSimpleBreak/LockSimple/LockSimpleOpen/Shield/ShieldCheck/Spinner/SpinnerGap/User/UserCircle/UserCircleMinus/UserCirclePlus/UserFocus/UserMinus/UserPlus/UserRectangle/UserSquare/UserSwitch/Users/UsersThree/Warning/WarningCircle/WarningOctagon
+- icon/Fill (🎨 Style Guide): size 24x24px, fill #FFFFFF | variants: Name: Alarm/ArrowCircleDown/ArrowCircleLeft/ArrowCircleRight/ArrowCircleUp/ArrowDown/ArrowLeft/ArrowRight/ArrowUp/Bell/BellSlash/Bluetooth/BluetoothSlash/Calendar/CalendarBlank/CalendarCheck/CalendarPlus/CaretCircleDown/CaretCircleLeft/CaretCircleRight/CaretCircleUp/CaretDown/CaretLeft/CaretRight/CaretUp/Clock/CloudArrowDown/CloudArrowUp/CloudCheck/CloudSlash/GearSix/Info/LinkBreak/LinkSimple/LinkSimpleBreak/LockSimple/LockSimpleOpen/Shield/ShieldCheck/Spinner/SpinnerGap/User/UserCircle/UserCircleMinus/UserCirclePlus/UserFocus/UserMinus/UserPlus/UserRectangle/UserSquare/UserSwitch/Users/UsersThree/Warning/WarningCircle/WarningOctagon
+- icon/Outline (🎨 Style Guide): size 24x24px, fill #FFFFFF | variants: Name: Alarm/ArrowCircleDown/ArrowCircleLeft/ArrowCircleRight/ArrowCircleUp/ArrowDown/ArrowLeft/ArrowRight/ArrowUp/Bell/BellSlash/Bluetooth/BluetoothSlash/Calendar/CalendarBlank/CalendarCheck/CalendarPlus/CaretCircleDown/CaretCircleLeft/CaretCircleRight/CaretCircleUp/CaretDown/CaretLeft/CaretRight/CaretUp/Clock/CloudArrowDown/CloudArrowUp/CloudCheck/CloudSlash/GearSix/Info/LinkBreak/LinkSimple/LinkSimpleBreak/LockSimple/LockSimpleOpen/Shield/ShieldCheck/Spinner/SpinnerGap/User/UserCircle/UserCircleMinus/UserCirclePlus/UserFocus/UserMinus/UserPlus/UserRectangle/UserSquare/UserSwitch/Users/UsersThree/Warning/WarningCircle/WarningOctagon
+
+## Most-Used Styles
+- Gray/900: 829 uses
+- Gray/500: 242 uses
+- White: 201 uses
+- Indigo/500: 136 uses
+- text-sm/font-semibold: 91 uses
+- text-xl/font-semibold: 62 uses
+- Gray/100: 33 uses
+- text-base/font-semibold: 25 uses
+- Gray/400: 21 uses
+- Gray/700: 20 uses
+- text-5xl/font-semibold: 18 uses
+- text-lg/font-regular: 14 uses
+- text-xs/font-semibold: 13 uses
+- text-5xl/font-regular: 10 uses
+- Indigo/100: 8 uses
+- Purple/500: 8 uses
+- text-3xl/font-semibold: 8 uses
+- text-9xl/font-bold: 7 uses
+- Indigo/700: 6 uses
+- Shadow/2xl: 6 uses
+- systemGrey/600: 6 uses
+- text-4xl/font-regular: 6 uses
+- Indigo/50: 4 uses
+- Indigo/600: 3 uses
+- text-6xl/font-regular: 3 uses
+- Blue/100: 2 uses
+- Blue/200: 2 uses
+- Blue/300: 2 uses
+- Blue/400: 2 uses
+- Blue/50: 2 uses
+- Blue/500: 2 uses
+- Blue/600: 2 uses
+- Blue/700: 2 uses
+- Blue/800: 2 uses
+- Blue/900: 2 uses
+- Gray/200: 2 uses
+- Gray/300: 2 uses
+- Gray/50: 2 uses
+- Gray/600: 2 uses
+- Gray/800: 2 uses
+- Green/100: 2 uses
+- Green/200: 2 uses
+- Green/300: 2 uses
+- Green/400: 2 uses
+- Green/50: 2 uses
+- Green/500: 2 uses
+- Green/600: 2 uses
+- Green/700: 2 uses
+- Green/800: 2 uses
+- Green/900: 2 uses
+- Indigo/200: 2 uses
+- Indigo/300: 2 uses
+- Indigo/400: 2 uses
+- Indigo/800: 2 uses
+- Indigo/900: 2 uses
+- Orange/100: 2 uses
+- Orange/200: 2 uses
+- Orange/300: 2 uses
+- Orange/400: 2 uses
+- Orange/50: 2 uses
+- Orange/500: 2 uses
+- Orange/600: 2 uses
+- Orange/700: 2 uses
+- Orange/800: 2 uses
+- Orange/900: 2 uses
+- PInk/100: 2 uses
+- PInk/200: 2 uses
+- PInk/300: 2 uses
+- PInk/400: 2 uses
+- PInk/50: 2 uses
+- PInk/500: 2 uses
+- PInk/600: 2 uses
+- PInk/700: 2 uses
+- PInk/800: 2 uses
+- PInk/900: 2 uses
+- Purple/100: 2 uses
+- Purple/200: 2 uses
+- Purple/300: 2 uses
+- Purple/400: 2 uses
+- Purple/50: 2 uses
+- Purple/600: 2 uses
+- Purple/700: 2 uses
+- Purple/800: 2 uses
+- Purple/900: 2 uses
+- Red/100: 2 uses
+- Red/200: 2 uses
+- Red/300: 2 uses
+- Red/400: 2 uses
+- Red/50: 2 uses
+- Red/500: 2 uses
+- Red/600: 2 uses
+- Red/700: 2 uses
+- Red/800: 2 uses
+- Red/900: 2 uses
+- Yellow/100: 2 uses
+- Yellow/200: 2 uses
+- Yellow/300: 2 uses
+- Yellow/400: 2 uses
+- Yellow/50: 2 uses
+- Yellow/500: 2 uses
+- Yellow/600: 2 uses
+- Yellow/700: 2 uses
+- Yellow/800: 2 uses
+- Yellow/900: 2 uses
+- text-4xl/font-semibold: 2 uses
+- text-6xl/font-semibold: 2 uses
+- text-7xl/font-bold: 2 uses
+- text-9xl/font-semibold: 2 uses
+- Shadow/base: 1 use
+- Shadow/lg: 1 use
+- Shadow/md: 1 use
+- Shadow/sm: 1 use
+- Shadow/xl: 1 use
+- text-2xl/font-bold: 1 use
+- text-2xl/font-light: 1 use
+- text-2xl/font-regular: 1 use
+- text-2xl/font-semibold: 1 use
+- text-3xl/font-bold: 1 use
+- text-3xl/font-light: 1 use
+- text-3xl/font-regular: 1 use
+- text-4xl/font-bold: 1 use
+- text-4xl/font-light: 1 use
+- text-5xl/font-bold: 1 use
+- text-5xl/font-light: 1 use
+- text-6xl/font-bold: 1 use
+- text-6xl/font-light: 1 use
+- text-7xl/font-light: 1 use
+- text-7xl/font-regular: 1 use
+- text-7xl/font-semibold: 1 use
+- text-8xl/bold: 1 use
+- text-8xl/font-light: 1 use
+- text-8xl/font-regular: 1 use
+- text-8xl/semibold: 1 use
+- text-9xl/font-light: 1 use
+- text-9xl/font-regular: 1 use
+- text-base/font-bold: 1 use
+- text-base/font-light: 1 use
+- text-base/font-regular: 1 use
+- text-lg/font-bold: 1 use
+- text-lg/font-light: 1 use
+- text-lg/font-semibold: 1 use
+- text-sm/font-bold: 1 use
+- text-sm/font-light: 1 use
+- text-sm/font-regular: 1 use
+- text-xl/font-bold: 1 use
+- text-xl/font-light: 1 use
+- text-xl/font-regular: 1 use
+- text-xs/font-bold: 1 use
+- text-xs/font-light: 1 use
+- text-xs/font-regular: 1 use
+
+## Layout & Structure
+Screen: Overview / Thumbnail
+- FRAME "Thumbnail", 1920x960px, constraints left/top, fill Gray/100
+  - FRAME "title", 550x365px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints center/center
+    - TEXT "text", 531x172px, constraints left/top, fill Gray/900, text [Inter Bold, 72px], [heading]
+    - TEXT "text", 330x54px, constraints left/top, fill Indigo/500, text [text-4xl/font-semibold], [heading]
+    - FRAME "labels", 550x43px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "lable", 151x43px, horizontal pad 8 24 8 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 36px, fill Indigo/100
+        - TEXT "text", 103x27px, constraints left/top, fill Indigo/700, text [text-lg/font-regular]
+      - FRAME "lable", 157x43px, horizontal pad 8 24 8 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 36px, fill Indigo/100
+        - TEXT "text", 109x27px, constraints left/top, fill Indigo/700, text [text-lg/font-regular]
+      - FRAME "lable", 117x43px, horizontal pad 8 24 8 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 36px, fill Indigo/100
+        - TEXT "text", 69x27px, constraints left/top, fill Indigo/700, text [text-lg/font-regular]
+      - FRAME "lable", 101x43px, horizontal pad 8 24 8 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 36px, fill Indigo/100
+        - TEXT "text", 53x27px, constraints left/top, fill Indigo/700, text [text-lg/font-regular]
+  - FRAME "Frame 12", 1857.5x1895.82px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints center/center
+    - FRAME "Icons", 571.66x540.82px, vertical pad 43.22 43.22 43.22 43.22px gap 43.22px sizing W:fixed H:fixed, constraints left/top, radius 12.97px, fill White, effect [drop_shadow 10.81px offset 0 5.4 #00000040]
+      - FRAME "header", 181.31x209.31px, vertical pad 0 0 0 0px gap 6.92px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "title", 96.09x108.85px, constraints left/top, fill Indigo/500, text [Inter Bold, 27.66px], [heading]
+        - FRAME "Frame 3", 147.49x182.89px, horizontal pad 0 0 0 0px gap 5.19px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "title", 20.44x20.27px, constraints left/top, fill systemGrey/600, text [Inter Regular, 10.37px]
+          - FRAME "Frame 2", 37.06x41.54px, horizontal pad 0 0 0 0px gap 1.08px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1", 28.36x31px, horizontal pad 1.73 6.92 1.73 6.92px gap 1.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 1.95px, stroke Indigo/500 0.43px
+            - TEXT "+", 16.13x14.75px, constraints left/top, fill Indigo/500, text [Inter Regular, 10.37px]
+            - TEXT "I", 13.67x11.6px, constraints left/top, fill Indigo/500, text [Inter Regular, 10.37px]
+          - TEXT "title", 107.25x131.38px, constraints left/top, fill systemGrey/600, text [Inter Regular, 10.37px]
+      - FRAME "iconsOutline", 178.01x177.76px, vertical pad 0 0 0 0px gap 24.2px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Header", 100.36x117.09px, vertical pad 0 0 0 0px gap 3.46px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 89.39x108.52px, constraints left/scale, fill Gray/900, text [Inter SemiBold, 10.37px]
+          - FRAME "Text", 83.09x103.6px, horizontal pad 0 0 0 0px gap 240.32px sizing W:fill H:fixed, constraints left/top
+            - FRAME "properties", 51.02x62.56px, horizontal pad 0 0 0 0px gap 3.46px sizing W:fixed H:fixed, constraints left/top
+          - LINE "Divider", 77.57x99.29px, constraints left/top, stroke Gray/100 0.22px
+        - COMPONENT_SET "icon/Outline", 110.74x112.53px, constraints left/top, radius 1.08px, stroke #9747FF 0.22px
+          - COMPONENT "Name=CaretUp", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 3.27x3.55px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=CaretRight", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 3.55x3.27px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=CaretLeft", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 3.55x3.27px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=CaretDown", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 3.27x3.55px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=CaretCircleUp", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.54x1.65px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=CaretCircleRight", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.65x1.54px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=CaretCircleLeft", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.65x1.54px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=CaretCircleDown", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.54x1.65px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=ArrowUp", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.81x2.2px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.95x3.2px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=ArrowRight", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.2x2.81px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 3.2x2.95px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=ArrowLeft", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.2x2.81px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 3.2x2.95px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=ArrowDown", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.81x2.2px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.95x3.2px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=ArrowCircleUp", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.39x1.51px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.28x1px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=ArrowCircleRight", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.51x1.39px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1x1.28px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=ArrowCircleLeft", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.51x1.39px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1x1.28px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=ArrowCircleDown", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.39x1.51px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.28x1px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=UserSwitch", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.28x2.28px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.23x2.54px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 0.98x1.07px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 0.98x1.07px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 4.12x4.32px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 4.12x4.32px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=UsersThree", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.28x2.28px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 0.98x1.07px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 0.98x1.07px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.01x2.29px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.81x1.81px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.81x1.81px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=UserSquare", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.28x2.28px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 5.01x5.01px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.65x2.94px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=Users", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.96x2.96px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.48x2.35px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.39x2.77px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.5x1.62px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=UserRectangle", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.28x2.28px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 4.95x5.06px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.46x2.77px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=UserPlus", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 0.6x0.77px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 0.77x0.6px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 3.41x3.41px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.78x3.24px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=UserMinus", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 0.6x0.77px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 3.41x3.41px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.78x3.24px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=UserFocus", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 1.02x1.02px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.02x1.02px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.02x1.02px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.02x1.02px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.82x1.82px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 1.83x2.09px, constraints scale/scale, stroke Gray/900 0.43px
+          - COMPONENT "Name=UserCirclePlus", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.28x2.28px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 2.23x2.54px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 0.6x0.77px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 0.77x0.6px, constraints scale/scale, stroke Gray/900 0.43px
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, stroke Gray/900 0.43px
+          - ... +31 more children
+      - FRAME "iconsFill", 178.01x177.76px, vertical pad 0 0 0 0px gap 24.2px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Header", 100.36x117.09px, vertical pad 0 0 0 0px gap 3.46px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 79.54x95.92px, constraints left/scale, fill Gray/900, text [Inter SemiBold, 10.37px]
+          - FRAME "Text", 83.09x103.6px, horizontal pad 0 0 0 0px gap 240.32px sizing W:fill H:fixed, constraints left/top
+            - FRAME "properties", 51.02x62.56px, horizontal pad 0 0 0 0px gap 3.46px sizing W:fixed H:fixed, constraints left/top
+          - LINE "Divider", 77.57x99.29px, constraints left/top, stroke Gray/100 0.22px
+        - COMPONENT_SET "icon/Fill", 110.74x112.53px, constraints left/top, radius 1.08px, stroke #9747FF 0.22px
+          - COMPONENT "Name=CaretUp", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 3.73x4.01px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=CaretRight", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 4.01x3.73px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=CaretLeft", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 4.01x3.73px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=CaretDown", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 3.73x4.01px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=CaretCircleUp", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.92x5.92px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=CaretCircleRight", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.92x5.92px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=CaretCircleLeft", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.92x5.92px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=CaretCircleDown", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.92x5.92px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=ArrowUp", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.06x4.95px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=ArrowRight", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 4.95x5.06px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=ArrowLeft", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 4.95x5.06px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=ArrowDown", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.06x4.95px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=ArrowCircleUp", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.92x5.92px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=ArrowCircleRight", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.92x5.92px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=ArrowCircleLeft", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.92x5.92px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=ArrowCircleDown", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.92x5.92px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=UserSwitch", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 6.51x6.68px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=UsersThree", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.97x6.2px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=UserSquare", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, fill Gray/900
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=Users", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 4.51x4.52px, constraints scale/scale, fill Gray/900
+            - VECTOR "Vector", 3.79x3.59px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=UserRectangle", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, fill Gray/900
+            - VECTOR "Vector", 5.4x5.52px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=UserPlus", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.83x6.06px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=UserMinus", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.83x6.06px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=UserFocus", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.46x5.46px, constraints scale/scale, fill Gray/900
+          - COMPONENT "Name=UserCirclePlus", 7.28x7.28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 7.28x7.28px, constraints scale/scale
+            - VECTOR "Vector", 5.91x5.91px, constraints scale/scale, fill Gray/900
+          - ... +31 more children
+    - FRAME "Colors", 741.47x689.7px, vertical pad 43.22 43.22 43.22 43.22px gap 43.22px sizing W:fixed H:fixed, constraints left/top, radius 12.97px, fill White, effect [drop_shadow 10.81px offset 0 5.4 #00000040]
+      - TEXT "title", 83.78x93.08px, constraints left/top, fill Indigo/500, text [Inter Bold, 27.66px], [heading]
+      - FRAME "colors", 557.7x519.59px, vertical pad 0 0 0 0px gap 11.24px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "color style", 203.59x242.93px, vertical pad 0 0 0 0px gap 6.92px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "name", 43.25x49.46px, horizontal pad 0 0 0 0px gap 2.59px align min/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 26.6x28.15px, constraints left/scale, fill Gray/900, text [Inter SemiBold, 10.37px]
+            - FRAME "text", 22.51x25.1px, horizontal pad 1.73 1.73 1.73 1.73px gap 1.73px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Row", 186.32x229.43px, horizontal pad 0 0 0 0px gap 3.46px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "color style", 203.59x242.93px, vertical pad 0 0 0 0px gap 6.92px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "name", 39.56x44.74px, horizontal pad 0 0 0 0px gap 2.59px align min/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 24.13x25px, constraints left/scale, fill Gray/900, text [Inter SemiBold, 10.37px]
+            - FRAME "text", 21.28x23.52px, horizontal pad 1.73 1.73 1.73 1.73px gap 1.73px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Row", 186.32x229.43px, horizontal pad 0 0 0 0px gap 3.46px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "color style", 203.59x242.93px, vertical pad 0 0 0 0px gap 6.92px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "name", 54.33x63.65px, horizontal pad 0 0 0 0px gap 2.59px align min/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 34.6x38.39px, constraints left/scale, fill Gray/900, text [Inter SemiBold, 10.37px]
+            - FRAME "text", 25.59x29.04px, horizontal pad 1.73 1.73 1.73 1.73px gap 1.73px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Row", 186.32x229.43px, horizontal pad 0 0 0 0px gap 3.46px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "color style", 203.59x242.93px, vertical pad 0 0 0 0px gap 6.92px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "name", 50.64x58.92px, horizontal pad 0 0 0 0px gap 2.59px align min/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 32.14x35.24px, constraints left/scale, fill Gray/900, text [Inter SemiBold, 10.37px]
+            - FRAME "text", 24.36x27.46px, horizontal pad 1.73 1.73 1.73 1.73px gap 1.73px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Row", 186.32x229.43px, horizontal pad 0 0 0 0px gap 3.46px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_color base", 33.04x33.25px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: 👀 Instructions / style guide
+- FRAME "style guide", 3643x4375px, vertical pad 200 200 200 200px gap 240px sizing W:fixed H:fixed, constraints left/top, radius 60px, fill Indigo/50
+  - FRAME "header", 3098.85x421px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 3098.85x171px, constraints scale/center, fill Gray/900, text [text-9xl/font-bold], [heading]
+    - TEXT "text", 2166x202px, constraints scale/center, fill Gray/700, text [text-5xl/font-regular], [heading]
+  - FRAME "content", 3243x3314px, vertical pad 0 0 0 0px gap 240px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "subtitle", 799x86px, horizontal pad 0 0 0 0px gap 16px align min/max sizing W:fixed H:fixed, constraints left/top
+      - TEXT "text", 799x86px, constraints left/scale, fill Gray/900, text [text-6xl/font-semibold], [heading]
+    - FRAME "section", 2792x1556px, vertical pad 0 0 0 0px gap 160px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "section title", 1406x256px, vertical pad 0 0 0 0px gap 56px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "label", 532x92px, horizontal pad 12 40 12 40px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill Indigo/100
+          - TEXT "text", 452x68px, constraints left/scale, fill Indigo/500, text [text-5xl/font-semibold], [heading]
+        - TEXT "description", 1406x108px, constraints scale/center, fill Gray/700, text [text-4xl/font-regular], [heading]
+      - FRAME "color example", 2792x1140px, constraints left/top, fill #FFFFFF [decorative, ~14 shapes]
+    - FRAME "section", 3243x1192px, vertical pad 0 0 0 0px gap 160px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "section title", 1406x310px, vertical pad 0 0 0 0px gap 56px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "label", 500x92px, horizontal pad 12 40 12 40px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill Indigo/100
+          - TEXT "text", 420x68px, constraints left/scale, fill Indigo/500, text [text-5xl/font-semibold], [heading]
+        - TEXT "description", 1406x162px, constraints scale/center, fill Gray/700, text [text-4xl/font-regular], [heading]
+      - FRAME "typeface example", 3243x722px, constraints left/top, fill #FFFFFF [decorative, ~11 shapes]
+
+Screen: 👀 Instructions / About
+- FRAME "About", 955x543px, vertical pad 100 100 100 100px gap 48px sizing W:fixed H:fixed, constraints left/top, radius 40px, fill Indigo/50
+  - TEXT "text", 291x101px, constraints left/top, fill Gray/900, text [text-7xl/font-bold], [heading]
+  - FRAME "links", 755x194px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "icon + text", 719x54px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "TextT", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 32x32px, constraints scale/scale
+        - VECTOR "Vector", 0x18px, constraints scale/scale, stroke #000000 2px
+        - VECTOR "Vector", 20x4px, constraints scale/scale, stroke #000000 2px
+        - VECTOR "Vector", 8x0px, constraints scale/scale, stroke #000000 2px
+      - TEXT "text", 671x54px, constraints left/top, fill Gray/900, text [text-4xl/font-regular], [heading]
+    - FRAME "icon + link", 610x54px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Phosphor Mark", 32x32px, constraints left/top, fill image(hash: abdb356ab2bf35bf72b372d2d233b89edcce4d7b)
+      - TEXT "text", 562x54px, constraints left/top, fill Gray/900, text [text-4xl/font-regular], [heading]
+    - FRAME "icon + link", 755x54px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "FigmaLogo", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 32x32px, constraints scale/scale
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+      - TEXT "text", 707x54px, constraints left/top, fill Purple/500, text [text-4xl/font-regular], [heading]
+
+Screen: 🎨 Style Guide / Icons
+- FRAME "Icons", 1418x2237px, vertical pad 200 200 200 200px gap 200px sizing W:fixed H:fixed, constraints left/top, radius 60px, fill White, effect Shadow/2xl
+  - FRAME "header", 1018x265px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 507x166px, constraints left/top, fill Indigo/500, text [text-9xl/font-bold], [heading]
+    - FRAME "Frame 3", 1018x67px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "title", 65x67px, constraints left/top, fill systemGrey/600, text [text-5xl/font-regular], [heading]
+      - FRAME "Frame 2", 188x67px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 133x61px, horizontal pad 8 32 8 32px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 9px, stroke Indigo/500 2px
+          - TEXT "Shift", 69x45px, constraints left/top, fill Indigo/500, text [text-3xl/font-semibold], [heading]
+        - TEXT "+", 32x67px, constraints left/top, fill Indigo/500, text [text-5xl/font-regular], [heading]
+        - TEXT "I", 13x67px, constraints left/top, fill Indigo/500, text [text-5xl/font-regular], [heading]
+      - TEXT "title", 717x67px, constraints left/top, fill systemGrey/600, text [text-5xl/font-regular], [heading]
+  - FRAME "iconsOutline", 583x586px, vertical pad 0 0 0 0px gap 112px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 583x130px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "text", 580x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+      - FRAME "Text", 583x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+        - FRAME "properties", 338x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "properties", 161x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 88x30px, constraints left/scale, fill Gray/500, text [text-xl/font-semibold]
+            - TEXT "text", 65x30px, constraints left/scale, fill Indigo/500, text [text-xl/font-semibold]
+          - FRAME "properties", 161x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 64x30px, constraints left/scale, fill Gray/500, text [text-xl/font-semibold]
+            - TEXT "text", 89x30px, constraints left/scale, fill Indigo/500, text [text-xl/font-semibold]
+      - LINE "Divider", 583x0px, constraints left/top, stroke Gray/100 1px
+    - COMPONENT_SET "icon/Outline", 392x344px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Name=CaretUp", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 15x7.5px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=CaretRight", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 7.5x15px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=CaretLeft", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 7.5x15px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=CaretDown", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 15x7.5px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=CaretCircleUp", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 6.75x3.75px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=CaretCircleRight", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 3.75x6.75px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=CaretCircleLeft", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 3.75x6.75px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=CaretCircleDown", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 6.75x3.75px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=ArrowUp", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 0x16.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 13.5x6.75px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=ArrowRight", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 16.5x0px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 6.75x13.5px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=ArrowLeft", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 16.5x0px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 6.75x13.5px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=ArrowDown", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 0x16.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 13.5x6.75px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=ArrowCircleUp", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 6.36x3.18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 0x7.5px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=ArrowCircleRight", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 3.18x6.36px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 7.5x0px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=ArrowCircleLeft", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 3.18x6.36px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 7.5x0px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=ArrowCircleDown", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 6.36x3.18px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 0x7.5px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=UserSwitch", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 12.04x3.69px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 4.5x2.25px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 4.5x2.25px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 16.57x11.26px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 16.57x11.26px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=UsersThree", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 4.5x2.25px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 4.5x2.25px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 10.8x3.37px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 5.95x6px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 5.95x6px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=UserSquare", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 16.5x16.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 13.16x5.25px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=Users", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 9.75x9.75px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 6.2x9.75px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 13.5x3.51px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 6.75x3.51px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=UserRectangle", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 18x15px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 12.73x4.5px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=UserPlus", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 4.5x0px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 0x4.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 11.25x11.25px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 16.09x3.75px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=UserMinus", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 4.5x0px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 11.25x11.25px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 16.09x3.75px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=UserFocus", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 3.38x3.38px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 3.38x3.38px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 3.38x3.38px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 3.38x3.38px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 6x6px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 9.96x3px, constraints scale/scale, stroke Gray/900 2px
+      - COMPONENT "Name=UserCirclePlus", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 12.04x3.69px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 4.5x0px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 0x4.5px, constraints scale/scale, stroke Gray/900 2px
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Gray/900 2px
+      - ... +31 more children
+  - FRAME "iconsFill", 583x586px, vertical pad 0 0 0 0px gap 112px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 583x130px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "text", 506x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+      - FRAME "Text", 583x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+        - FRAME "properties", 338x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "properties", 161x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 88x30px, constraints left/scale, fill Gray/500, text [text-xl/font-semibold]
+            - TEXT "text", 65x30px, constraints left/scale, fill Indigo/500, text [text-xl/font-semibold]
+          - FRAME "properties", 161x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 64x30px, constraints left/scale, fill Gray/500, text [text-xl/font-semibold]
+            - TEXT "text", 89x30px, constraints left/scale, fill Indigo/500, text [text-xl/font-semibold]
+      - LINE "Divider", 583x0px, constraints left/top, stroke Gray/100 1px
+    - COMPONENT_SET "icon/Fill", 392x344px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Name=CaretUp", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 16.5x9px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=CaretRight", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 9x16.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=CaretLeft", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 9x16.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=CaretDown", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 16.5x9px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=CaretCircleUp", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=CaretCircleRight", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=CaretCircleLeft", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=CaretCircleDown", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=ArrowUp", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 15x18px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=ArrowRight", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x15px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=ArrowLeft", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x15px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=ArrowDown", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 15x18px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=ArrowCircleUp", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=ArrowCircleRight", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=ArrowCircleLeft", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=ArrowCircleDown", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=UserSwitch", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x19.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=UsersThree", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 23.25x16.88px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=UserSquare", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 8.25x8.25px, constraints scale/scale, fill Gray/900
+        - VECTOR "Vector", 18x18px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=Users", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 15x14.76px, constraints scale/scale, fill Gray/900
+        - VECTOR "Vector", 9.57x14.76px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=UserRectangle", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 8.25x8.25px, constraints scale/scale, fill Gray/900
+        - VECTOR "Vector", 19.5x16.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=UserPlus", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.67x16.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=UserMinus", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.67x16.5px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=UserFocus", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x18px, constraints scale/scale, fill Gray/900
+      - COMPONENT "Name=UserCirclePlus", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Gray/900
+      - ... +31 more children
+
+Screen: 🎨 Style Guide / Typography
+- FRAME "Typography", 3321x5619px, vertical pad 200 200 200 200px gap 200px sizing W:fixed H:fixed, constraints left/top, radius 60px, fill White, effect Shadow/2xl
+  - TEXT "title", 751x166px, constraints left/top, fill Indigo/500, text [text-9xl/font-bold], [heading]
+  - FRAME "Typeface", 2921x614px, vertical pad 0 0 0 0px gap 80px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 2921x282px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Typeface", 130x84px, constraints left/top, fill Gray/900, text [text-6xl/font-regular], [heading]
+      - TEXT "Sample", 171x166px, constraints left/top, fill Gray/900, text [text-9xl/font-semibold], [heading]
+    - TEXT "Specimen", 2921x252px, constraints center/scale, fill Gray/900, text [text-6xl/font-regular], [heading]
+  - FRAME "Type scale", 2921x4039px, vertical pad 0 0 0 0px gap 120px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "_Type scale base", 2921x411px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x333px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 713.25x333px, constraints center/scale, fill Gray/900, text [text-9xl/font-light], [heading]
+        - TEXT "text", 713.25x333px, constraints center/scale, fill Gray/900, text [text-9xl/font-regular], [heading]
+        - TEXT "text", 685.25x333px, constraints center/scale, fill Gray/900, text [text-9xl/font-semibold], [heading]
+        - TEXT "text", 713.25x333px, constraints center/scale, fill Gray/900, text [text-9xl/font-bold], [heading]
+    - FRAME "_Type scale base", 2921x328px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x250px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x250px, constraints center/scale, fill Gray/900, text [text-8xl/font-light], [heading]
+        - TEXT "text", 706.25x250px, constraints center/scale, fill Gray/900, text [text-8xl/font-regular], [heading]
+        - TEXT "text", 706.25x250px, constraints center/scale, fill Gray/900, text [text-8xl/semibold], [heading]
+        - TEXT "text", 706.25x250px, constraints center/scale, fill Gray/900, text [text-8xl/bold], [heading]
+    - FRAME "_Type scale base", 2921x276px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x42px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x26px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x202px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x202px, constraints center/scale, fill Gray/900, text [text-7xl/font-light], [heading]
+        - TEXT "text", 706.25x202px, constraints center/scale, fill Gray/900, text [text-7xl/font-regular], [heading]
+        - TEXT "text", 706.25x202px, constraints center/scale, fill Gray/900, text [text-7xl/font-semibold], [heading]
+        - TEXT "text", 706.25x202px, constraints center/scale, fill Gray/900, text [text-7xl/font-bold], [heading]
+    - FRAME "_Type scale base", 2921x246px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x168px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x168px, constraints center/scale, fill Gray/900, text [text-6xl/font-light], [heading]
+        - TEXT "text", 706.25x168px, constraints center/scale, fill Gray/900, text [text-6xl/font-regular], [heading]
+        - TEXT "text", 706.25x168px, constraints center/scale, fill Gray/900, text [text-6xl/font-semibold], [heading]
+        - TEXT "text", 706.25x168px, constraints center/scale, fill Gray/900, text [text-6xl/font-bold], [heading]
+    - FRAME "_Type scale base", 2921x213px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x135px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x135px, constraints center/scale, fill Gray/900, text [text-5xl/font-light], [heading]
+        - TEXT "text", 706.25x135px, constraints center/scale, fill Gray/900, text [text-5xl/font-regular], [heading]
+        - TEXT "text", 706.25x135px, constraints center/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+        - TEXT "text", 706.25x135px, constraints center/scale, fill Gray/900, text [text-5xl/font-bold], [heading]
+    - FRAME "_Type scale base", 2921x186px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x108px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x108px, constraints center/scale, fill Gray/900, text [text-4xl/font-light], [heading]
+        - TEXT "text", 706.25x108px, constraints center/scale, fill Gray/900, text [text-4xl/font-regular], [heading]
+        - TEXT "text", 706.25x108px, constraints center/scale, fill Gray/900, text [text-4xl/font-semibold], [heading]
+        - TEXT "text", 706.25x108px, constraints center/scale, fill Gray/900, text [text-4xl/font-bold], [heading]
+    - FRAME "_Type scale base", 2921x168px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x90px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x90px, constraints center/scale, fill Gray/900, text [text-3xl/font-light], [heading]
+        - TEXT "text", 706.25x90px, constraints center/scale, fill Gray/900, text [text-3xl/font-regular], [heading]
+        - TEXT "text", 706.25x90px, constraints center/scale, fill Gray/900, text [text-3xl/font-semibold], [heading]
+        - TEXT "text", 706.25x90px, constraints center/scale, fill Gray/900, text [text-3xl/font-bold], [heading]
+    - FRAME "_Type scale base", 2921x150px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x72px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x72px, constraints center/scale, fill Gray/900, text [text-2xl/font-light], [heading]
+        - TEXT "text", 706.25x72px, constraints center/scale, fill Gray/900, text [text-2xl/font-regular], [heading]
+        - TEXT "text", 706.25x72px, constraints center/scale, fill Gray/900, text [text-2xl/font-semibold], [heading]
+        - TEXT "text", 706.25x72px, constraints center/scale, fill Gray/900, text [text-2xl/font-bold], [heading]
+    - FRAME "_Type scale base", 2921x138px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x60px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x60px, constraints center/scale, fill Gray/900, text [text-xl/font-light]
+        - TEXT "text", 706.25x60px, constraints center/scale, fill Gray/900, text [text-xl/font-regular]
+        - TEXT "text", 706.25x60px, constraints center/scale, fill Gray/900, text [text-xl/font-semibold]
+        - TEXT "text", 706.25x60px, constraints center/scale, fill Gray/900, text [text-xl/font-bold]
+    - FRAME "_Type scale base", 2921x132px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x54px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x54px, constraints center/scale, fill Gray/900, text [text-lg/font-light]
+        - TEXT "text", 706.25x54px, constraints center/scale, fill Gray/900, text [text-lg/font-regular]
+        - TEXT "text", 706.25x54px, constraints center/scale, fill Gray/900, text [text-lg/font-semibold]
+        - TEXT "text", 706.25x54px, constraints center/scale, fill Gray/900, text [text-lg/font-bold]
+    - FRAME "_Type scale base", 2921x126px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x48px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x48px, constraints center/scale, fill Gray/900, text [text-base/font-light]
+        - TEXT "text", 706.25x48px, constraints center/scale, fill Gray/900, text [text-base/font-regular]
+        - TEXT "text", 706.25x48px, constraints center/scale, fill Gray/900, text [text-base/font-semibold]
+        - TEXT "text", 706.25x48px, constraints center/scale, fill Gray/900, text [text-base/font-bold]
+    - FRAME "_Type scale base", 2921x115px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x37px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x37px, constraints center/scale, fill Gray/900, text [text-sm/font-light]
+        - TEXT "text", 706.25x37px, constraints center/scale, fill Gray/900, text [text-sm/font-regular]
+        - TEXT "text", 706.25x37px, constraints center/scale, fill Gray/900, text [text-sm/font-semibold]
+        - TEXT "text", 706.25x37px, constraints center/scale, fill Gray/900, text [text-sm/font-bold]
+    - FRAME "_Type scale base", 2921x110px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Header", 2921x46px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text", 2921x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+          - FRAME "properties", 361x30px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 148x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "properties", 197x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Divider", 2921x0px, constraints left/top, stroke Gray/100 1px
+      - FRAME "Row", 2921x32px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "text", 706.25x32px, constraints center/scale, fill Gray/900, text [text-xs/font-light]
+        - TEXT "text", 706.25x32px, constraints center/scale, fill Gray/900, text [text-xs/font-regular]
+        - TEXT "text", 706.25x32px, constraints center/scale, fill Gray/900, text [text-xs/font-semibold]
+        - TEXT "text", 706.25x32px, constraints center/scale, fill Gray/900, text [text-xs/font-bold]
+
+Screen: 🎨 Style Guide / Grids
+- FRAME "Grids", 1936x5081px, vertical pad 200 200 200 200px gap 200px sizing W:fixed H:fixed, constraints left/top, radius 60px, fill White, effect Shadow/2xl
+  - FRAME "header", 991x265px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 338x166px, constraints left/top, fill Indigo/500, text [text-9xl/font-bold], [heading]
+    - FRAME "Frame 3", 991x67px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "title", 65x67px, constraints left/top, fill systemGrey/600, text [text-5xl/font-regular], [heading]
+      - FRAME "Frame 2", 250x67px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 172x61px, horizontal pad 8 32 8 32px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 9px, stroke Indigo/500 2px
+          - TEXT "Control", 108x45px, constraints left/top, fill Indigo/500, text [text-3xl/font-semibold], [heading]
+        - TEXT "+", 32x67px, constraints left/top, fill Indigo/500, text [text-5xl/font-regular], [heading]
+        - TEXT "G", 36x67px, constraints left/top, fill Indigo/500, text [text-5xl/font-regular], [heading]
+      - TEXT "title", 628x67px, constraints left/top, fill systemGrey/600, text [text-5xl/font-regular], [heading]
+  - FRAME "breakpoints", 1536x4216px, vertical pad 0 0 0 0px gap 112px sizing W:fixed H:fixed, constraints left/top
+    - FRAME ".breakpoint-2xl", 1536x900px, constraints scale/scale, radius 4px, fill #FFFFFF, stroke Gray/400 1px
+      - FRAME "info", 418x177px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "name", 355x121px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 355x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+          - TEXT "text", 119x45px, constraints left/scale, fill Indigo/500, text [text-3xl/font-semibold], [heading]
+        - FRAME "values", 418x24px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "value", 152x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 69x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 75x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+          - FRAME "value", 98x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 50x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 40x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+          - FRAME "value", 120x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 61x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 51x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+    - FRAME ".breakpoint-xl", 1280x800px, constraints scale/scale, radius 4px, fill #FFFFFF, stroke Gray/400 1px
+      - FRAME "info", 431x177px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "name", 325x121px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 325x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+          - TEXT "text", 119x45px, constraints left/scale, fill Indigo/500, text [text-3xl/font-semibold], [heading]
+        - FRAME "values", 431x24px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "value", 166x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 69x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 89x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+          - FRAME "value", 98x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 50x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 40x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+          - FRAME "value", 119x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 61x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 50x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+    - FRAME ".breakpoint-lg", 1024x700px, constraints scale/scale, radius 4px, fill #FFFFFF, stroke Gray/400 1px
+      - FRAME "info", 418x177px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "name", 329x121px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 329x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+          - TEXT "text", 93x45px, constraints left/scale, fill Indigo/500, text [text-3xl/font-semibold], [heading]
+        - FRAME "values", 418x24px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "value", 152x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 69x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 75x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+          - FRAME "value", 98x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 50x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 40x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+          - FRAME "value", 120x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 61x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 51x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+    - FRAME ".breakpoint-md", 640x800px, constraints scale/scale, radius 4px, fill #FFFFFF, stroke Gray/400 1px
+      - FRAME "info", 410x177px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "name", 360x121px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 360x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+          - TEXT "text", 85x45px, constraints left/scale, fill Indigo/500, text [text-3xl/font-semibold], [heading]
+        - FRAME "values", 410x24px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "value", 144x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 69x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 67x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+          - FRAME "value", 98x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 50x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 40x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+          - FRAME "value", 120x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 61x24px, constraints left/scale, fill Gray/700, text [text-base/font-semibold]
+            - TEXT "text", 51x24px, constraints left/scale, fill Indigo/500, text [text-base/font-semibold]
+    - FRAME ".breakpoint-base", 320x568px, constraints scale/scale, radius 4px, fill #FFFFFF, stroke Gray/400 1px
+      - FRAME "info", 250x179px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "name", 250x83px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 250x45px, constraints left/scale, fill Gray/900, text [text-3xl/font-semibold], [heading]
+          - TEXT "text", 65x30px, constraints left/scale, fill Indigo/500, text [text-xl/font-semibold]
+        - FRAME "values", 129x64px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "value", 129x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 52x16px, constraints left/scale, fill Gray/700, text [text-xs/font-semibold]
+            - TEXT "text", 69x16px, constraints left/scale, fill Indigo/500, text [text-xs/font-semibold]
+          - FRAME "value", 75x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 38x16px, constraints left/scale, fill Gray/700, text [text-xs/font-semibold]
+            - TEXT "text", 29x16px, constraints left/scale, fill Indigo/500, text [text-xs/font-semibold]
+          - FRAME "value", 90x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 46x16px, constraints left/scale, fill Gray/700, text [text-xs/font-semibold]
+            - TEXT "text", 36x16px, constraints left/scale, fill Indigo/500, text [text-xs/font-semibold]
+
+Screen: 🎨 Style Guide / Colors
+- FRAME "Colors", 1664x3036px, vertical pad 200 200 200 200px gap 200px sizing W:fixed H:fixed, constraints left/top, radius 60px, fill White, effect Shadow/2xl
+  - TEXT "title", 413x166px, constraints left/top, fill Indigo/500, text [text-9xl/font-bold], [heading]
+  - FRAME "colors", 1264x2270px, vertical pad 0 0 0 0px gap 52px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "color style", 1264x206px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "name", 233x68px, horizontal pad 0 0 0 0px gap 12px align min/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "text", 110x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+        - FRAME "text", 111x43px, horizontal pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 95x27px, constraints left/scale, fill Indigo/500, text [text-lg/font-regular]
+      - FRAME "Row", 1264x106px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/50
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 19x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 61x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/100
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 26x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 54x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/200
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/300
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/400
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 48x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/500
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/600
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 53x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/700
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 27x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 53x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/800
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Gray/900
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+    - FRAME "color style", 1264x206px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "name", 203x68px, horizontal pad 0 0 0 0px gap 12px align min/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "text", 90x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+        - FRAME "text", 101x43px, horizontal pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 85x27px, constraints left/scale, fill Indigo/500, text [text-lg/font-regular]
+      - FRAME "Row", 1264x106px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/50
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 19x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 61x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/100
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 26x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 54x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/200
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/300
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 47x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/400
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 47x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/500
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/600
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/700
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 27x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 53x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/800
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Red/900
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+    - FRAME "color style", 1264x206px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "name", 316x68px, horizontal pad 0 0 0 0px gap 12px align min/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "text", 171x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+        - FRAME "text", 133x43px, horizontal pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 117x27px, constraints left/scale, fill Indigo/500, text [text-lg/font-regular]
+      - FRAME "Row", 1264x106px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Orange/50
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 19x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 61x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Orange/100
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 26x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 54x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Orange/200
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Orange/300
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 48x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Orange/400
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 49x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Orange/500
+          - FRAME "properties", 112x42px, horizontal pad 12 8 12 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/0/8/8px, fill White
+            - TEXT "name", 28x18px, constraints left/top, fill Gray/900, text [text-sm/font-semibold]
+            - TEXT "hex", 52x16px, constraints left/top, fill Gray/500, text [Inter Regular, 12px]
+        - INSTANCE "_color base", 112x106px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "color", 112x64px, constraints left/top, radius 8/8/0/0px, fill Orange/600
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
+
+
+---
+
+---
+name: tailwind-css-button-ui-kit-auto-layout-community
+source_file: Tailwind CSS Button UI Kit (Auto Layout) (Community)
+source_page: All pages (3): Overview, 👀 Instructions, ❖ Button Components
+generated_at: 2026-07-25T09:27:43.392728+00:00
+---
+
+# Tailwind CSS Button UI Kit (Auto Layout) (Community) Design Guidelines
+
+## Source
+- Figma file: Tailwind CSS Button UI Kit (Auto Layout) (Community)
+- Figma page: All pages (3): Overview, 👀 Instructions, ❖ Button Components
+- Extracted at: 2026-07-25T09:27:43.392728+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White: [#FFFFFF]
+- Blue/500: [#3B82F6]
+- Blue/700: [#1D4ED8]
+- Blue/300: [#3B82F6]
+- Gray/300: none
+- Gray/900: [#111827]
+- Blue/100: [#DBEAFE]
+- Gray/100: [#F3F4F6]
+- Blue/200: [#BFDBFE]
+- Gray/400: [#9CA3AF]
+- Indigo/500: [#6366F1]
+- Indigo/50: [#EEF2FF]
+- Gray/500: [#6D7280]
+- systemGrey/600: [#757575]
+- Gray/700: [#374151]
+- Indigo/100: [#E0E7FF]
+- Indigo/600: none
+- Purple/500: [#A855F7]
+- Purple/600: [#FFFFFF]
+- Indigo/700: [#4338CA]
+
+## Raw Colors (unstyled)
+- #000000: 4 uses
+
+## Typography Tokens
+- text-xs/font-semibold: Inter SemiBold (600), 12px / 123.94%, tracking 0px
+- text-sm/font-semibold: Inter SemiBold (600), 14px / 20px, tracking 0px
+- text-base/font-semibold: Inter SemiBold (600), 16px / 123.94%, tracking 0px
+- text-3xl/font-bold: Inter Bold (700), 30px / 123.94%, tracking 0px
+- text-base/font-bold: Inter Bold (700), 16px / 123.94%, tracking 0px
+- text-9xl/font-bold: Inter Bold (700), 128px / 107.42%, tracking 0px
+- text-xl/font-semibold: Inter SemiBold (600), 20px / 123.94%, tracking 0px
+- text-5xl/font-semibold: Inter SemiBold (600), 48px / 115.68%, tracking 0px
+- text-5xl/font-regular: Inter Regular (400), 48px / 115.68%, tracking 0px
+- text-3xl/font-semibold: Inter SemiBold (600), 30px / 123.94%, tracking 0px
+- text-4xl/font-regular: Inter Regular (400), 36px / 123.94%, tracking 0px
+- text-6xl/font-semibold: Inter SemiBold (600), 60px / 115.68%, tracking 0px
+- text-7xl/font-bold: Inter Bold (700), 72px / 115.68%, tracking 0px
+- text-lg/font-regular: Inter Regular (400), 18px / 123.94%, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 7.55px: 96 uses
+- Inter SemiBold, 8.63px: 96 uses
+- Inter SemiBold, 6.47px: 48 uses
+- Inter SemiBold, 14px: 36 uses
+- Inter SemiBold, 7.5px: 16 uses
+
+## Typography Hierarchy
+- 128px - text-9xl/font-bold (Inter Bold)
+- 72px - text-7xl/font-bold (Inter Bold)
+- 60px - text-6xl/font-semibold (Inter SemiBold)
+- 48px - text-5xl/font-regular (Inter Regular)
+- 48px - text-5xl/font-semibold (Inter SemiBold)
+- 36px - text-4xl/font-regular (Inter Regular)
+- 30px - text-3xl/font-bold (Inter Bold)
+- 30px - text-3xl/font-semibold (Inter SemiBold)
+- 20px - text-xl/font-semibold (Inter SemiBold)
+- 18px - text-lg/font-regular (Inter Regular)
+- 16px - text-base/font-bold (Inter Bold)
+- 16px - text-base/font-semibold (Inter SemiBold)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - text-sm/font-semibold (Inter SemiBold)
+- 12px - text-xs/font-semibold (Inter SemiBold)
+- 8.63px - Inter SemiBold, 8.63px (raw)
+- 7.55px - Inter SemiBold, 7.55px (raw)
+- 7.5px - Inter SemiBold, 7.5px (raw)
+- 6.47px - Inter SemiBold, 6.47px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow/2xl: [drop_shadow 50px offset 0 25 #00000040]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- icon
+- Button
+
+## Component Specs
+- icon/Fill: size 24x24px, fill #FFFFFF | variants: Name: Alarm/ArrowCircleDown/ArrowCircleLeft/ArrowCircleRight/ArrowCircleUp/ArrowDown/ArrowLeft/ArrowRight/ArrowUp/Bell/BellSlash/Bluetooth/BluetoothSlash/Calendar/CalendarBlank/CalendarCheck/CalendarPlus/CaretCircleDown/CaretCircleLeft/CaretCircleRight/CaretCircleUp/CaretDown/CaretLeft/CaretRight/CaretUp/Clock/CloudArrowDown/CloudArrowUp/CloudCheck/CloudSlash/GearSix/Info/LinkBreak/LinkSimple/LinkSimpleBreak/LockSimple/LockSimpleOpen/Shield/ShieldCheck/Spinner/SpinnerGap/User/UserCircle/UserCircleMinus/UserCirclePlus/UserFocus/UserMinus/UserPlus/UserRectangle/UserSquare/UserSwitch/Users/UsersThree/Warning/WarningCircle/WarningOctagon
+- icon/Outline: size 24x24px, fill #FFFFFF | variants: Name: Alarm/ArrowCircleDown/ArrowCircleLeft/ArrowCircleRight/ArrowCircleUp/ArrowDown/ArrowLeft/ArrowRight/ArrowUp/Bell/BellSlash/Bluetooth/BluetoothSlash/Calendar/CalendarBlank/CalendarCheck/CalendarPlus/CaretCircleDown/CaretCircleLeft/CaretCircleRight/CaretCircleUp/CaretDown/CaretLeft/CaretRight/CaretUp/Clock/CloudArrowDown/CloudArrowUp/CloudCheck/CloudSlash/GearSix/Info/LinkBreak/LinkSimple/LinkSimpleBreak/LockSimple/LockSimpleOpen/Shield/ShieldCheck/Spinner/SpinnerGap/User/UserCircle/UserCircleMinus/UserCirclePlus/UserFocus/UserMinus/UserPlus/UserRectangle/UserSquare/UserSwitch/Users/UsersThree/Warning/WarningCircle/WarningOctagon
+- Button: size 135x52px, radius 6px, horizontal layout, padding 14 24 14 24px, gap 0px, align center/center, sizing W:fixed H:fixed, fill Blue/500, text [text-base/font-semibold] | variants: Type: Filled/Link/Outline/Pill; Size: base/lg/sm/xl/xs; Icon: Left/None/Only/Right; State: Default/Disabled/Focus/Hover
+
+## Most-Used Styles
+- White: 622 uses
+- Gray/900: 447 uses
+- Blue/500: 354 uses
+- Blue/200: 168 uses
+- Blue/300: 168 uses
+- Gray/400: 122 uses
+- text-base/font-semibold: 96 uses
+- text-sm/font-semibold: 96 uses
+- Blue/700: 84 uses
+- Gray/300: 84 uses
+- text-xs/font-semibold: 64 uses
+- Gray/100: 46 uses
+- Blue/100: 42 uses
+- Indigo/500: 29 uses
+- text-xl/font-semibold: 9 uses
+- Indigo/100: 8 uses
+- Purple/500: 6 uses
+- text-4xl/font-regular: 6 uses
+- text-3xl/font-bold: 5 uses
+- text-5xl/font-regular: 5 uses
+- text-5xl/font-semibold: 5 uses
+- Gray/500: 4 uses
+- Gray/700: 4 uses
+- Indigo/700: 4 uses
+- text-lg/font-regular: 4 uses
+- Indigo/50: 3 uses
+- text-9xl/font-bold: 3 uses
+- Shadow/2xl: 2 uses
+- systemGrey/600: 2 uses
+- text-base/font-bold: 2 uses
+- Indigo/600: 1 use
+- Purple/600: 1 use
+- text-3xl/font-semibold: 1 use
+- text-6xl/font-semibold: 1 use
+- text-7xl/font-bold: 1 use
+
+## Layout & Structure
+Screen: Overview / Thumbnail
+- FRAME "Thumbnail", 1920x960px, constraints left/top, fill Gray/100
+  - FRAME "title", 550x325px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints center/center
+    - FRAME "caption + title", 501x234px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "text", 359x30px, constraints left/top, fill Indigo/500, text [text-xl/font-semibold]
+      - TEXT "text", 501x172px, constraints left/top, fill Gray/900, text [Inter Bold, 72px], [heading]
+    - FRAME "labels", 550x43px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "lable", 151x43px, horizontal pad 8 24 8 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 36px, fill Indigo/100
+        - TEXT "text", 103x27px, constraints left/top, fill Indigo/700, text [text-lg/font-regular]
+      - FRAME "lable", 157x43px, horizontal pad 8 24 8 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 36px, fill Indigo/100
+        - TEXT "text", 109x27px, constraints left/top, fill Indigo/700, text [text-lg/font-regular]
+      - FRAME "lable", 117x43px, horizontal pad 8 24 8 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 36px, fill Indigo/100
+        - TEXT "text", 69x27px, constraints left/top, fill Indigo/700, text [text-lg/font-regular]
+      - FRAME "lable", 101x43px, horizontal pad 8 24 8 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 36px, fill Indigo/100
+        - TEXT "text", 53x27px, constraints left/top, fill Indigo/700, text [text-lg/font-regular]
+  - FRAME "content", 954.78x657.73px, vertical pad 0 0 0 0px gap 20.01px sizing W:fixed H:fixed, constraints center/center
+    - FRAME "Button Architecture", 954.78x657.73px, constraints left/top, radius 12.5px, fill Indigo/100
+      - INSTANCE "Button", 59x46.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Gray/100, stroke Gray/300 1px
+        - TEXT "Text", 41.01x30.03px, constraints left/top, fill Gray/900, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 59x46.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 2px
+        - TEXT "Text", 41.01x30.03px, constraints left/top, fill Gray/900, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 59x46.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+        - TEXT "Text", 41.01x30.03px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 59x46.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/100
+        - TEXT "Text", 41.01x30.03px, constraints left/top, fill Blue/500, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 59x46.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 2px
+        - TEXT "Text", 41.01x30.03px, constraints left/top, fill Blue/500, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 59x46.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+        - TEXT "Text", 41.01x30.03px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 59x46.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/700
+        - TEXT "Text", 41.01x30.03px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 59x46.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/500, stroke Blue/300 2px
+        - TEXT "Text", 41.01x30.03px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 59x46.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/200
+        - TEXT "Text", 41.01x30.03px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 51.21x41.69px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+        - TEXT "Text", 33.21x25.53px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 59.87x46.69px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px
+        - TEXT "Text", 41.87x30.53px, constraints left/top, fill Blue/500, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 69.4x52.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Gray/300 1px
+        - TEXT "Text", 51.4x36.03px, constraints left/top, fill Gray/900, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 55.54x44.19px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/500
+        - TEXT "Text", 37.54x28.03px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 42.55x36.69px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500, stroke Blue/300 2px
+        - TEXT "Text", 24.55x20.53px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 42.55x36.69px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+        - TEXT "Text", 24.55x20.53px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Button", 63.33x48.69px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500
+        - TEXT "Text", 45.34x32.53px, constraints left/top, fill White, text [Inter SemiBold, 7.5px]
+      - INSTANCE "Line / Dashed / Straight - Purple", 29.2x46.82px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 25.37x43.95px, constraints left_right/center, stroke Indigo/500 0.63px
+        - VECTOR "Vector 2", 7.29x6.37px, constraints right/center, radius 0.63px, fill Indigo/500
+        - ELLIPSE "Ellipse 1", 5.12x5.12px, constraints left/center, fill Indigo/500
+      - TEXT "❖ Button Types", 75.92x52.49px, constraints left/top, fill Indigo/500, text [Inter Bold, 10px]
+      - TEXT "❖ Button States", 76.78x52.99px, constraints left/top, fill Indigo/500, text [Inter Bold, 10px]
+      - FRAME "dashedLine", 54x57.89px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 53.37x56.81px, constraints left_right/top_bottom, radius 12.5px, stroke Gray/400 0.63px
+        - VECTOR "Vector 2", 7.29x6.37px, constraints right/bottom, radius 0.63px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 5.12x5.12px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 101.11x85.09px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 100.48x84px, constraints left_right/top_bottom, radius 12.5px, stroke Gray/400 0.63px
+        - VECTOR "Vector 2", 7.29x6.37px, constraints right/bottom, radius 0.63px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 5.12x5.12px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 32.88x45.7px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 32.25x44.61px, constraints left_right/top_bottom, radius 12.5px, stroke Gray/400 0.63px
+        - VECTOR "Vector 2", 7.29x6.37px, constraints right/bottom, radius 0.63px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 5.12x5.12px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 74.57x69.77px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 73.95x68.68px, constraints left_right/top_bottom, radius 12.5px, stroke Gray/400 0.63px
+        - VECTOR "Vector 2", 7.29x6.37px, constraints right/bottom, radius 0.63px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 5.12x5.12px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 131.43x102.59px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 130.8x101.51px, constraints left_right/top_bottom, radius 12.5px, stroke Gray/400 0.63px
+        - VECTOR "Vector 2", 7.29x6.37px, constraints right/bottom, radius 0.63px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 5.12x5.12px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 32.88x45.7px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 32.25x44.61px, constraints left_right/top_bottom, radius 12.5px, stroke Gray/400 0.63px
+        - VECTOR "Vector 2", 7.29x6.37px, constraints right/bottom, radius 0.63px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 5.12x5.12px, constraints left/top, fill Gray/400
+      - ... +6 more children
+  - FRAME "buttons", 1782.66x1469.67px, constraints center/center, radius 10.79px, fill White, stroke Purple/600 2px, effect Shadow/2xl
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500, stroke Blue/300 3px
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/200
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill Gray/900, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill Blue/500, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500, stroke Blue/300 3px
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/200
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill Gray/900
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill Gray/900, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill Blue/500
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill Blue/500, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500, stroke Blue/300 3px
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/200
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill Gray/900, text [Inter SemiBold, 8.63px]
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill Gray/900
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill Blue/500, text [Inter SemiBold, 8.63px]
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill Blue/500
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Gray/100, stroke Gray/300 1px
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill Gray/900, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 77.18x60.79px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/100
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill Blue/500, text [Inter SemiBold, 8.63px]
+    - INSTANCE "Button", 92.13x69.42px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+      - INSTANCE "icon/Fill", 14.74x14.74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.74x14.74px, constraints scale/scale
+        - VECTOR "Vector", 12.47x11.48px, constraints scale/scale, fill White
+      - TEXT "Text", 47.2x34.76px, constraints left/top, fill White, text [Inter SemiBold, 8.63px]
+    - ... +295 more children
+  - FRAME "avatar", 233x64px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Bonnie profile", 64x64px, constraints scale/scale, radius 1000px, fill #A485FC, stroke #111111 1px
+    - TEXT "link", 153x30px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+
+Screen: 👀 Instructions / About
+- FRAME "About", 975x543px, vertical pad 100 100 100 100px gap 48px sizing W:fixed H:fixed, constraints left/top, radius 40px, fill Indigo/50
+  - TEXT "text", 291x101px, constraints left/top, fill Gray/900, text [text-7xl/font-bold], [heading]
+  - FRAME "links", 775x194px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "icon + text", 719x54px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "TextT", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 32x32px, constraints scale/scale
+        - VECTOR "Vector", 0x18px, constraints scale/scale, stroke #000000 2px
+        - VECTOR "Vector", 20x4px, constraints scale/scale, stroke #000000 2px
+        - VECTOR "Vector", 8x0px, constraints scale/scale, stroke #000000 2px
+      - TEXT "text", 671x54px, constraints left/top, fill Gray/900, text [text-4xl/font-regular], [heading]
+    - FRAME "icon + link", 610x54px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Phosphor Mark", 32x32px, constraints left/top, fill image(hash: abdb356ab2bf35bf72b372d2d233b89edcce4d7b)
+      - TEXT "text", 562x54px, constraints left/top, fill Gray/900, text [text-4xl/font-regular], [heading]
+    - FRAME "icon + link", 775x54px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "FigmaLogo", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 32x32px, constraints scale/scale
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+        - VECTOR "Vector", 8.5x8.5px, constraints scale/scale, stroke Purple/500 2px
+      - TEXT "text", 727x54px, constraints left/top, fill Purple/500, text [text-4xl/font-regular], [heading]
+
+Screen: 👀 Instructions / Instructions
+- FRAME "Instructions", 3558x6692px, vertical pad 200 200 200 200px gap 240px sizing W:fixed H:fixed, constraints left/top, radius 60px, fill Indigo/50
+  - FRAME "header", 3098.85x421px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "title", 3098.85x171px, constraints scale/center, fill Gray/900, text [text-9xl/font-bold], [heading]
+    - TEXT "text", 2166x202px, constraints scale/center, fill Gray/700, text [text-5xl/font-regular], [heading]
+  - FRAME "content", 3158x5631px, vertical pad 0 0 0 0px gap 240px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "subtitle", 799x86px, horizontal pad 0 0 0 0px gap 16px align min/max sizing W:fixed H:fixed, constraints left/top
+      - TEXT "text", 799x86px, constraints left/scale, fill Gray/900, text [text-6xl/font-semibold], [heading]
+    - FRAME "section", 2792x1132px, vertical pad 0 0 0 0px gap 160px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "section title", 1406x256px, vertical pad 0 0 0 0px gap 56px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "label", 532x92px, horizontal pad 12 40 12 40px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill Indigo/100
+          - TEXT "text", 452x68px, constraints left/scale, fill Indigo/500, text [text-5xl/font-semibold], [heading]
+        - TEXT "description", 1406x108px, constraints scale/center, fill Gray/700, text [text-4xl/font-regular], [heading]
+      - FRAME "color example", 2792x716px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+    - FRAME "section", 3139x1138px, vertical pad 0 0 0 0px gap 160px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "section title", 1406x256px, vertical pad 0 0 0 0px gap 56px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "label", 500x92px, horizontal pad 12 40 12 40px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill Indigo/100
+          - TEXT "text", 420x68px, constraints left/scale, fill Indigo/500, text [text-5xl/font-semibold], [heading]
+        - TEXT "description", 1406x108px, constraints scale/center, fill Gray/700, text [text-4xl/font-regular], [heading]
+      - FRAME "typeface example", 3139x722px, constraints left/top, fill #FFFFFF [decorative, ~11 shapes]
+    - FRAME "section", 3158x2555px, vertical pad 0 0 0 0px gap 160px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "section title", 1406x310px, vertical pad 0 0 0 0px gap 56px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "label", 496x92px, horizontal pad 12 40 12 40px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill Indigo/100
+          - TEXT "text", 416x68px, constraints left/scale, fill Indigo/500, text [text-5xl/font-semibold], [heading]
+        - TEXT "description", 1406x162px, constraints scale/center, fill Gray/700, text [text-4xl/font-regular], [heading]
+      - FRAME "typeface example", 3158x939px, constraints left/top, fill #FFFFFF [decorative, ~8 shapes]
+      - FRAME "Icons", 2811x986px, horizontal pad 200 200 200 200px gap 200px sizing W:fixed H:fixed, constraints left/top, radius 60px, fill Gray/100, stroke Indigo/500 8px
+        - FRAME "header", 845x265px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "title", 507x166px, constraints left/top, fill Indigo/500, text [text-9xl/font-bold], [heading]
+          - FRAME "Frame 3", 845x67px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "title", 65x67px, constraints left/top, fill systemGrey/600, text [text-5xl/font-regular], [heading]
+            - FRAME "Frame 2", 188x67px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "title", 544x67px, constraints left/top, fill systemGrey/600, text [text-5xl/font-regular], [heading]
+        - FRAME "iconsOutline", 583x586px, vertical pad 0 0 0 0px gap 112px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Header", 583x130px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 580x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+            - FRAME "Text", 583x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+            - LINE "Divider", 583x0px, constraints left/top, stroke Gray/100 1px
+          - COMPONENT_SET "icon/Outline", 392x344px, constraints left/top, radius 5px, stroke #9747FF 1px
+            - COMPONENT "Name=CaretUp", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretRight", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretLeft", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretDown", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretCircleUp", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretCircleRight", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretCircleLeft", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretCircleDown", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowUp", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowRight", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowLeft", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowDown", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowCircleUp", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowCircleRight", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowCircleLeft", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowCircleDown", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserSwitch", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UsersThree", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserSquare", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=Users", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserRectangle", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserPlus", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserMinus", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserFocus", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserCirclePlus", 24x24px, constraints left/top, fill #FFFFFF
+            - ... +31 more children
+        - FRAME "iconsFill", 583x586px, vertical pad 0 0 0 0px gap 112px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Header", 583x130px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 506x68px, constraints left/scale, fill Gray/900, text [text-5xl/font-semibold], [heading]
+            - FRAME "Text", 583x30px, horizontal pad 0 0 0 0px gap 1112px sizing W:fill H:fixed, constraints left/top
+            - LINE "Divider", 583x0px, constraints left/top, stroke Gray/100 1px
+          - COMPONENT_SET "icon/Fill", 392x344px, constraints left/top, radius 5px, stroke #9747FF 1px
+            - COMPONENT "Name=CaretUp", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretRight", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretLeft", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretDown", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretCircleUp", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretCircleRight", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretCircleLeft", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=CaretCircleDown", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowUp", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowRight", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowLeft", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowDown", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowCircleUp", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowCircleRight", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowCircleLeft", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=ArrowCircleDown", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserSwitch", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UsersThree", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserSquare", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=Users", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserRectangle", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserPlus", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserMinus", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserFocus", 24x24px, constraints left/top, fill #FFFFFF
+            - COMPONENT "Name=UserCirclePlus", 24x24px, constraints left/top, fill #FFFFFF
+            - ... +31 more children
+
+Screen: ❖ Button Components / Buttons
+- FRAME "Buttons", 3538x2738px, vertical pad 200 200 200 200px gap 200px sizing W:fixed H:fixed, constraints left/top, radius 60px, fill White, effect Shadow/2xl
+  - TEXT "❖ Buttons", 659x166px, constraints left/top, fill Indigo/500, text [text-9xl/font-bold], [heading]
+  - FRAME "content", 1593x372px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 186x45px, constraints left/top, fill Gray/900, text [text-3xl/font-bold], [heading]
+    - FRAME "Button Architecture", 1593x295px, constraints left/top, radius 20px, fill Indigo/50
+      - INSTANCE "Button", 89x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Gray/100, stroke Gray/300 1px
+        - TEXT "Text", 65x18px, constraints left/top, fill Gray/900, text [text-xs/font-semibold]
+      - INSTANCE "Button", 89x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 2px
+        - TEXT "Text", 65x18px, constraints left/top, fill Gray/900, text [text-xs/font-semibold]
+      - INSTANCE "Button", 89x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+        - TEXT "Text", 65x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Button", 89x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/100
+        - TEXT "Text", 65x18px, constraints left/top, fill Blue/500, text [text-xs/font-semibold]
+      - INSTANCE "Button", 89x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 2px
+        - TEXT "Text", 65x18px, constraints left/top, fill Blue/500, text [text-xs/font-semibold]
+      - INSTANCE "Button", 89x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+        - TEXT "Text", 65x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Button", 89x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/700
+        - TEXT "Text", 65x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Button", 89x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/500, stroke Blue/300 2px
+        - TEXT "Text", 65x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Button", 89x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/200
+        - TEXT "Text", 65x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Button", 75x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+        - TEXT "Text", 51x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Button", 90x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px
+        - TEXT "Text", 66x18px, constraints left/top, fill Blue/500, text [text-xs/font-semibold]
+      - INSTANCE "Button", 108x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Gray/300 1px
+        - TEXT "Text", 84x18px, constraints left/top, fill Gray/900, text [text-xs/font-semibold]
+      - INSTANCE "Button", 83x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/500
+        - TEXT "Text", 59x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Button", 59x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500, stroke Blue/300 2px
+        - TEXT "Text", 35x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Button", 59x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+        - TEXT "Text", 35x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Button", 97x34px, horizontal pad 8 12 8 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500
+        - TEXT "Text", 73x18px, constraints left/top, fill White, text [text-xs/font-semibold]
+      - INSTANCE "Line / Dashed / Straight - Purple", 6x83px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 0x81px, constraints left_right/center, stroke Indigo/500 1px
+        - VECTOR "Vector 2", 10x6px, constraints right/center, radius 1px, fill Indigo/500
+        - ELLIPSE "Ellipse 1", 6x6px, constraints left/center, fill Indigo/500
+      - TEXT "❖ Button Types", 125x24px, constraints left/top, fill Indigo/500, text [text-base/font-bold]
+      - TEXT "❖ Button States", 128x24px, constraints left/top, fill Indigo/500, text [text-base/font-bold]
+      - FRAME "dashedLine", 57x74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 57x72px, constraints left_right/top_bottom, radius 20px, stroke Gray/400 1px
+        - VECTOR "Vector 2", 10x6px, constraints right/bottom, radius 1px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 6x6px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 144x74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 144x72px, constraints left_right/top_bottom, radius 20px, stroke Gray/400 1px
+        - VECTOR "Vector 2", 10x6px, constraints right/bottom, radius 1px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 6x6px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 18x74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 18x72px, constraints left_right/top_bottom, radius 20px, stroke Gray/400 1px
+        - VECTOR "Vector 2", 10x6px, constraints right/bottom, radius 1px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 6x6px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 95x74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 95x72px, constraints left_right/top_bottom, radius 20px, stroke Gray/400 1px
+        - VECTOR "Vector 2", 10x6px, constraints right/bottom, radius 1px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 6x6px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 200x74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 200x72px, constraints left_right/top_bottom, radius 20px, stroke Gray/400 1px
+        - VECTOR "Vector 2", 10x6px, constraints right/bottom, radius 1px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 6x6px, constraints left/top, fill Gray/400
+      - FRAME "dashedLine", 18x74px, constraints left/top, fill #FFFFFF
+        - VECTOR "Line", 18x72px, constraints left_right/top_bottom, radius 20px, stroke Gray/400 1px
+        - VECTOR "Vector 2", 10x6px, constraints right/bottom, radius 1px, fill Gray/400
+        - ELLIPSE "Ellipse 1", 6x6px, constraints left/top, fill Gray/400
+      - ... +6 more children
+  - FRAME "components", 3138x1400px, horizontal pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "type", 115x1244px, vertical pad 50 0 50 0px gap 160px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Subtitle", 85x166px, constraints scale/center, fill Indigo/500, text [text-3xl/font-bold], [heading]
+      - TEXT "Subtitle", 47x166px, constraints scale/center, fill Indigo/500, text [text-3xl/font-bold], [heading]
+      - TEXT "Subtitle", 115x166px, constraints scale/center, fill Indigo/500, text [text-3xl/font-bold], [heading]
+      - TEXT "Subtitle", 66x166px, constraints scale/center, fill Indigo/500, text [text-3xl/font-bold], [heading]
+    - FRAME "content", 2975x1400px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "status", 60x1266px, vertical pad 61 0 61 0px gap 160px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "status", 60x166px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+        - FRAME "status", 60x166px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+        - FRAME "status", 60x166px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+        - FRAME "status", 60x166px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - TEXT "Text", 60x34px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+      - FRAME "content", 2899x1400px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "size", 2851x17px, horizontal pad 0 0 0 0px gap 60px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "size", 687x17px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 89x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 100x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 116x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 127x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 135x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - FRAME "size", 829x17px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 113x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 124x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 146x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 159x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 167x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - FRAME "size", 829x17px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 113x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 124x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 146x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 159x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 167x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+          - FRAME "size", 326x17px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 28x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 36x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 42x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 48x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+            - TEXT "Text", 52x17px, constraints scale/center, fill Gray/400, text [Inter SemiBold, 14px]
+        - COMPONENT_SET "Button", 2899x1367px, constraints left/top, radius 5px, stroke #7B61FF 1px
+          - COMPONENT "Type=Filled, Size=xl, Icon=None, State=Focus", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500, stroke Blue/300 3px
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Filled, Size=xl, Icon=None, State=Disabled", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Pill, Size=xl, Icon=None, State=Disabled", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/200
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Outline, Size=xl, Icon=None, State=Disabled", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Link, Size=xl, Icon=None, State=Disabled", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Outline, Size=xl, Icon=None, State=Focus", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+            - TEXT "Text", 87x24px, constraints left/top, fill Gray/900, text [text-base/font-semibold]
+          - COMPONENT "Type=Link, Size=xl, Icon=None, State=Focus", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+            - TEXT "Text", 87x24px, constraints left/top, fill Blue/500, text [text-base/font-semibold]
+          - COMPONENT "Type=Filled, Size=xl, Icon=Left, State=Focus", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500, stroke Blue/300 3px
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Filled, Size=xl, Icon=Left, State=Disabled", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Pill, Size=xl, Icon=Left, State=Disabled", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/200
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Outline, Size=xl, Icon=Left, State=Disabled", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Link, Size=xl, Icon=Left, State=Disabled", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Outline, Size=xl, Icon=Left, State=Focus", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 87x24px, constraints left/top, fill Gray/900, text [text-base/font-semibold]
+          - COMPONENT "Type=Link, Size=xl, Icon=Left, State=Focus", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 87x24px, constraints left/top, fill Blue/500, text [text-base/font-semibold]
+          - COMPONENT "Type=Filled, Size=xl, Icon=Right, State=Focus", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/500, stroke Blue/300 3px
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+          - COMPONENT "Type=Filled, Size=xl, Icon=Right, State=Disabled", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+          - COMPONENT "Type=Pill, Size=xl, Icon=Right, State=Disabled", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Blue/200
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+          - COMPONENT "Type=Outline, Size=xl, Icon=Right, State=Disabled", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+          - COMPONENT "Type=Link, Size=xl, Icon=Right, State=Disabled", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/200
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+          - COMPONENT "Type=Outline, Size=xl, Icon=Right, State=Focus", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+            - TEXT "Text", 87x24px, constraints left/top, fill Gray/900, text [text-base/font-semibold]
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+          - COMPONENT "Type=Link, Size=xl, Icon=Right, State=Focus", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke Blue/300 3px
+            - TEXT "Text", 87x24px, constraints left/top, fill Blue/500, text [text-base/font-semibold]
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+          - COMPONENT "Type=Filled, Size=xl, Icon=None, State=Hover", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - COMPONENT "Type=Outline, Size=xl, Icon=None, State=Hover", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Gray/100, stroke Gray/300 1px
+            - TEXT "Text", 87x24px, constraints left/top, fill Gray/900, text [text-base/font-semibold]
+          - COMPONENT "Type=Link, Size=xl, Icon=None, State=Hover", 135x52px, horizontal pad 14 24 14 24px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/100
+            - TEXT "Text", 87x24px, constraints left/top, fill Blue/500, text [text-base/font-semibold]
+          - COMPONENT "Type=Filled, Size=xl, Icon=Left, State=Hover", 167x52px, horizontal pad 14 24 14 24px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Blue/700
+            - INSTANCE "icon/Fill", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 87x24px, constraints left/top, fill White, text [text-base/font-semibold]
+          - ... +295 more children
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

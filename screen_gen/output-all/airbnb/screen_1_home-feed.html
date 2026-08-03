@@ -1,0 +1,46 @@
+<div class="app"><style>
+.app{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display",system-ui,sans-serif;background:#fff;color:#222;min-height:100%;}
+.app *{box-sizing:border-box}
+.app .screen{padding:12px 0 88px;background:#fff}
+.app .topbar{padding:0 16px 12px;border-bottom:1px solid #EBEBEB;background:#fff;position:sticky;top:0}
+.app .search-pill{margin-top:4px;height:56px;border:1px solid #DDDDDD;border-radius:999px;background:#fff;display:flex;align-items:center;padding:0 8px 0 18px;box-shadow:0 1px 5px rgba(0,0,0,.08)}
+.app .search-copy{flex:1;display:flex;flex-direction:column;gap:2px}
+.app .label{font-size:14px;line-height:17px;font-weight:600;color:#222}
+.app .sub{font-size:14px;line-height:17px;color:#717171}
+.app .search-btn{width:40px;height:40px;border-radius:999px;background:#FF385C;display:flex;align-items:center;justify-content:center;flex:none}
+.app .tabs{display:flex;gap:24px;overflow:auto;padding:14px 16px 10px;background:#fff;border-bottom:1px solid #EBEBEB}
+.app .tab{flex:none;display:flex;flex-direction:column;align-items:center;gap:6px;color:#717171;min-width:52px}
+.app .tab svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.8}
+.app .tab span{font-size:14px;line-height:17px;font-weight:600;white-space:nowrap}
+.app .tab.active{color:#222}
+.app .tab.active::after{content:"";width:40px;height:2px;background:#222;border-radius:2px;margin-top:2px}
+.app .section{padding:16px}
+.app .title{font-size:22px;line-height:26px;font-weight:600;color:#222;margin:0 0 6px}
+.app .muted{font-size:14px;line-height:17px;color:#717171}
+.app .callout{margin-top:12px;border:1px solid #DDDDDD;border-radius:12px;padding:16px;background:#fff;display:flex;gap:12px;align-items:flex-start}
+.app .callout-icon{width:32px;height:32px;border-radius:50%;border:1.5px solid #D03660;background:#F6D7DF;display:flex;align-items:center;justify-content:center;color:#D03660;flex:none}
+.app .cards{display:flex;flex-direction:column;gap:18px;padding:0 16px}
+.app .card{background:#fff}
+.app .media-wrap{position:relative}
+.app .ph-img{width:100%;display:block;background:#D3D3D3;border-radius:12px}
+.app .listing .ph-img{aspect-ratio:324/308}
+.app .badge{position:absolute;left:12px;top:12px;background:#fff;border-radius:4px;padding:4px 8px;font-size:13px;line-height:17px;font-weight:600;color:#222}
+.app .heart{position:absolute;right:12px;top:12px;width:32px;height:32px;border-radius:50%;background:rgba(34,34,34,.3);display:flex;align-items:center;justify-content:center}
+.app .heart svg{width:18px;height:18px;stroke:#fff;fill:none;stroke-width:2}
+.app .dots{position:absolute;left:50%;transform:translateX(-50%);bottom:10px;display:flex;gap:6px}
+.app .dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.65)}
+.app .dot.active{background:#fff}
+.app .info{padding-top:12px;display:flex;gap:8px}
+.app .grow{flex:1;min-width:0}
+.app .row{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.app .name{font-size:14px;line-height:17px;font-weight:600;color:#222}
+.app .meta,.app .dates,.app .total{font-size:14px;line-height:17px;color:#5E5E5E;margin-top:4px}
+.app .price{font-size:14px;line-height:17px;color:#222;margin-top:8px}
+.app .price b{font-weight:600}
+.app .rating{display:flex;align-items:center;gap:4px;font-size:14px;line-height:17px;color:#222;white-space:nowrap}
+.app .rating svg{width:14px;height:14px;fill:#222}
+.app .bottom{position:fixed;left:0;right:0;bottom:0;height:72px;background:#fff;border-top:1px solid #EBEBEB;display:flex;padding:6px 6px 10px}
+.app .nav-item{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;color:#717171;font-size:12px;line-height:14px;font-weight:600}
+.app .nav-item svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.8}
+.app .nav-item.active{color:#FF385C}
+</style><div class="screen"><div class="topbar"><div class="search-pill"><div class="search-copy"><div class="label">Where to?</div><div class="sub">Anywhere · Any week · Add guests</div></div><div class="search-btn"><svg viewBox="0 0 24 24" width="18" height="18"><circle cx="11" cy="11" r="5.5" stroke="#fff" stroke-width="2" fill="none"></circle><path d="M16 16l4.5 4.5" stroke="#fff" stroke-width="2" stroke-linecap="round"></path></svg></div></div></div><div class="tabs"><div class="tab active"><svg viewBox="0 0 24 24"><path d="M4 14.5c4.5-6 11.5-6 16 0"></path><path d="M7 14.5V18h10v-3.5"></path><path d="M9 10V7h6v3"></path></svg><span>Stays</span></div><div class="tab"><svg viewBox="0 0 24 24"><path d="M3.5 10.5L12 4l8.5 6.5"></path><path d="M6 9.5V19h12V9.5"></path></svg><span>House</span></div><div class="tab"><svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"></rect><path d="M8 12h8"></path><path d="M12 8v8"></path></svg><span>Hotel</span></div><div class="tab"><svg viewBox="0 0 24 24"><path d="M5 18V8l7-3 7 3v10"></path><path d="M9 18v-4h6v4"></path></svg><span>Guesthouse</span></div></div><div class="section"><h1 class="title">Popular stays</h1><div class="muted">Places to stay with standout ratings and flexible dates</div><div class="callout"><div class="callout-icon"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M12 5v7" stroke="#D03660" stroke-width="2" stroke-linecap="round"></path><circle cx="12" cy="16.5" r="1.3" fill="#D03660"></circle></svg></div><div class="label" style="font-weight:400;line-height:19px">Rare find: several places available this week have been booked often recently.</div></div></div><div class="cards"><div class="card listing"><div class="media-wrap"><div class="ph-img" data-q="cozy cabin exterior"></div><div class="badge">Superhost</div><div class="heart"><svg viewBox="0 0 24 24"><path d="M12 20s-6.5-4.35-8.5-7.6C1.8 9.55 3.3 6 7.1 6c1.9 0 3.1 1 3.9 2 0.8-1 2-2 3.9-2 3.8 0 5.3 3.55 3.6 6.4C18.5 15.65 12 20 12 20z"></path></svg></div><div class="dots"><div class="dot active"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div><div class="info"><div class="grow"><div class="row"><div class="name">Pine Hill cabin</div><div class="rating"><svg viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.27 5.82.85-4.21 4.11.99 5.8L12 16.9 6.8 19.53l.99-5.8-4.21-4.11 5.82-.85z"></path></svg>4.91</div></div><div class="meta">Woodland retreat · 2 queen beds</div><div class="dates">Apr 18–22</div><div class="price"><b>$289 night</b> · $1,156 total</div></div></div></div><div class="card listing"><div class="media-wrap"><div class="ph-img" data-q="modern apartment interior"></div><div class="heart"><svg viewBox="0 0 24 24"><path d="M12 20s-6.5-4.35-8.5-7.6C1.8 9.55 3.3 6 7.1 6c1.9 0 3.1 1 3.9 2 0.8-1 2-2 3.9-2 3.8 0 5.3 3.55 3.6 6.4C18.5 15.65 12 20 12 20z"></path></svg></div><div class="dots"><div class="dot"></div><div class="dot active"></div><div class="dot"></div><div class="dot"></div></div></div><div class="info"><div class="grow"><div class="row"><div class="name">City loft near river walk</div><div class="rating"><svg viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.27 5.82.85-4.21 4.11.99 5.8L12 16.9 6.8 19.53l.99-5.8-4.21-4.11 5.82-.85z"></path></svg>4.84</div></div><div class="meta">Downtown stay · 1 bedroom</div><div class="dates">May 2–5</div><div class="price"><b>$214 night</b> · $642 total</div></div></div></div><div class="card listing"><div class="media-wrap"><div class="ph-img" data-q="tiny house countryside"></div><div class="badge">Guest favorite</div><div class="heart"><svg viewBox="0 0 24 24"><path d="M12 20s-6.5-4.35-8.5-7.6C1.8 9.55 3.3 6 7.1 6c1.9 0 3.1 1 3.9 2 0.8-1 2-2 3.9-2 3.8 0 5.3 3.55 3.6 6.4C18.5 15.65 12 20 12 20z"></path></svg></div><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot active"></div><div class="dot"></div></div></div><div class="info"><div class="grow"><div class="row"><div class="name">Tiny farm guesthouse</div><div class="rating"><svg viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.27 5.82.85-4.21 4.11.99 5.8L12 16.9 6.8 19.53l.99-5.8-4.21-4.11 5.82-.85z"></path></svg>4.97</div></div><div class="meta">Guesthouse · 2 single beds</div><div class="dates">May 12–15</div><div class="price"><b>$172 night</b> · $516 total</div></div></div></div></div><div class="bottom"><div class="nav-item active"><svg viewBox="0 0 24 24"><path d="M4 10.5L12 4l8 6.5"></path><path d="M6.5 10V20h11V10"></path></svg><div>Home</div></div><div class="nav-item"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"></circle><path d="M20 20l-4.2-4.2"></path></svg><div>Search</div></div><div class="nav-item"><svg viewBox="0 0 24 24"><rect x="5" y="6" width="14" height="13" rx="2"></rect><path d="M8 4.5v3M16 4.5v3"></path></svg><div>Trips</div></div><div class="nav-item"><svg viewBox="0 0 24 24"><path d="M12 20c4.2 0 7-2.3 7-5.5 0-4.5-4.5-5-4.5-8.5A2.5 2.5 0 0 0 12 3.5 2.5 2.5 0 0 0 9.5 6c0 3.5-4.5 4-4.5 8.5C5 17.7 7.8 20 12 20z"></path></svg><div>Activity</div></div></div></div></div>

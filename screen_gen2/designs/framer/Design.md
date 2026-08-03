@@ -1,0 +1,2308 @@
+---
+name: saas-website-ui-kit-framer-website-kit-community
+source_file: SaaS Website UI Kit — Framer Website Kit (Community)
+source_page: All pages (7): Cover, Light Page, Dark Page, Components, ----------------------------------, Use this kit in Framer, Figma to HTML with Framer Plugin
+generated_at: 2026-07-02T20:45:41.139942+00:00
+---
+
+# SaaS Website UI Kit — Framer Website Kit (Community) Design Guidelines
+
+## Source
+- Figma file: SaaS Website UI Kit — Framer Website Kit (Community)
+- Figma page: All pages (7): Cover, Light Page, Dark Page, Components, ----------------------------------, Use this kit in Framer, Figma to HTML with Framer Plugin
+- Extracted at: 2026-07-02T20:45:41.139942+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Neutral/100: [#FFFFFF]
+- Neutral/300: [#FFFFFF]
+- Neutral/600: [#6F6C90]
+
+## Raw Colors (unstyled)
+- #000000: 358 uses
+- #FFFFFF: 250 uses
+- #7B7B7B: 90 uses
+- #00000026: 44 uses
+- #FFFFFF80: 39 uses
+- #FFFFFF33: 36 uses
+- #808080: 35 uses
+- #010D3E: 22 uses
+- #F1F1F1: 22 uses
+- #2222221A: 17 uses
+- #00000099: 15 uses
+- #FFFFFF00: 15 uses
+- #9747FF: 12 uses
+- #0D0D0D: 10 uses
+- #0000001A: 9 uses
+- #070707: 8 uses
+- #1B1B1B14: 7 uses
+- #999999: 6 uses
+
+## Typography Tokens
+- Body S: Inter Regular (400), 14px / auto, tracking 0px
+- Body S Bold: Inter Bold (700), 14px / auto, tracking 0px
+- Body Small Tag: DM Sans Regular (400), 14px / auto, tracking 0px
+- Body Bold: Inter Medium (500), 16px / auto, tracking -0.32px
+- Body Medium: Inter Regular (400), 16px / 23px, tracking -0.16px
+- Tag: Inter Medium (500), 13px / 31px, tracking -0.33px
+- H5: DM Sans Bold (700), 18px / auto, tracking -0.56px
+- H4: DM Sans Bold (700), 26px / 60px, tracking -1.04px
+- Body Large: Inter Regular (400), 22px / 31px, tracking -0.79px
+- H2: DM Sans Bold (700), 54px / 60px, tracking -3.24px
+- H1: DM Sans Bold (700), 90px / 90px, tracking -5.85px
+
+## Raw Typography (unstyled)
+- Switzer Semibold, 32px: 9 uses
+- DM Sans Bold, 130px: 3 uses
+- DM Sans Bold, 390px: 3 uses
+- DM Sans Bold, 64px: 3 uses
+
+## Typography Hierarchy
+- 390px - DM Sans Bold, 390px (raw)
+- 130px - DM Sans Bold, 130px (raw)
+- 90px - H1 (DM Sans Bold)
+- 64px - DM Sans Bold, 64px (raw)
+- 54px - H2 (DM Sans Bold)
+- 32px - Switzer Semibold, 32px (raw)
+- 26px - H4 (DM Sans Bold)
+- 22px - Body Large (Inter Regular)
+- 18px - H5 (DM Sans Bold)
+- 16px - Body Bold (Inter Medium)
+- 16px - Body Medium (Inter Regular)
+- 14px - Body S (Inter Regular)
+- 14px - Body S Bold (Inter Bold)
+- 14px - Body Small Tag (DM Sans Regular)
+- 13px - Tag (Inter Medium)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow: [drop_shadow 104px offset 0 4 #7D5E9C]
+- General/Shadow 02: [drop_shadow 12px offset 0 2 #14142B14]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Footer-L
+- Logo
+- Footer-S
+- Form
+- Nav Bar-Desktop
+- Tag
+- Bar
+- Socials
+- Feature Cards
+- Icons
+- Buttons
+- Testimonial
+
+## Component Specs
+- Footer-L: size 1212x327px, horizontal layout, padding 40 20 40 20px, gap 512px, sizing W:fixed H:fixed, fill #000000, text [Body S, Body S Bold] | variants: Property 1: Desktop/Mobile
+- Logo (Components): size 390x81px, horizontal layout, padding 20 20 20 20px, gap 290px, align min/center, sizing W:fixed H:fixed, fill #000000 | variants: Property 1: Nav Bar-Desktop-W/Nav Bar-Desktop-b; Property 2: Nav-Mobile
+- Footer-S: size 1210x64px, horizontal layout, padding 20 40 20 40px, gap 633px, align min/center, sizing W:fixed H:fixed, stroke #FFFFFF33 1px, text [Body Small Tag] | variants: Property 1: Footer-S/Footer-S-mobile
+- Form: size 411x42px, horizontal layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Body Bold] | variants: Property 1: desktop/mobile
+- Logo (Components): size 182x41px, horizontal layout, padding 0 0 0 0px, gap 8px, align center/center, sizing W:fixed H:fixed, text [Body S] | variants: Property 1: Default
+- Nav Bar-Desktop: size 1200x81px, horizontal layout, padding 20 20 20 20px, gap 463px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF03, effect [background_blur 14px], text [Body Bold, Body Medium, Body S] | variants: Property 1: Default/NavDark
+- Tag: size 137x29px, radius 10px, horizontal layout, padding 10 13 10 13px, gap 10px, align center/center, sizing W:fixed H:fixed, stroke #2222221A 1px, text [Tag] | variants: Property 1: Bar-Dark/Bar-Light
+- Bar: size 1200x46px, horizontal layout, padding 14 110 14 110px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #000000, text [Body Small Tag] | variants: Property 1: Darkmode-Bar/Lightmode-Bar
+- Socials: size 24x24px, fill #FFFFFF | variants: Property 1: Instagram/LinkedIn/Pinterest/TikTok/X/Youtube
+- Feature Cards: size 282x225px, vertical layout, padding 40 0 40 0px, gap 10px, sizing W:fixed H:fixed, text [Body Medium, H5] | variants: Property 1: Feature Card-Dark Mode/Feature Card-Light Mode
+- Icons: size 20x20px, fill #FFFFFF | variants: Icons: Arrow-b/Arrow-w/Ecosystem/Ecosystem-White/Lock/Lock-White/Menu/Menu-w/Notifications/Notifications-White/Target/Target-White/Tick/Tick-White
+- Buttons: size 139x40px, radius 10px, horizontal layout, padding 10 15 10 15px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #000000, text [Body Bold] | variants: CTA: Black S/Black S arrow/No Background/White M/White S
+- Logo/Default: size 40x41px
+- Form/FAQ: size 449x84.75px, horizontal layout, padding 30 0 30 0px, gap 0px, align center/center, sizing W:fixed H:fixed, stroke #FFFFFF33 1px, text [H5]
+- Testimonial: size 325x234px, radius 20px, vertical layout, padding 40 40 40 40px, gap 20px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA], text [Body Medium, Body Bold]
+- Footer-S/Socials/Card: size 486x538px, radius 20px, vertical layout, padding 40 40 40 40px, gap 0px, align center/center, sizing W:fixed H:fixed, stroke #1B1B1B14 1px, effect [drop_shadow 24px offset 0 7 #24262B], text [Body Medium, H4]
+
+## Most-Used Styles
+- Body S: 171 uses
+- Body Medium: 123 uses
+- Body Bold: 67 uses
+- H5: 54 uses
+- H2: 27 uses
+- Tag: 27 uses
+- Body Large: 21 uses
+- Body S Bold: 20 uses
+- Body Small Tag: 18 uses
+- Neutral/100: 12 uses
+- Neutral/600: 12 uses
+- General/Shadow 02: 9 uses
+- H4: 7 uses
+- Neutral/300: 6 uses
+- Shadow: 3 uses
+- H1: 2 uses
+
+## Layout & Structure
+Screen: Cover / Thumbnail
+- FRAME "Thumbnail", 1920x960px, constraints left/top, fill gradient_linear(#EAEEFE 0% | #FEE6FF 100%)
+  - TEXT "SaaS Website UI Kit", 511x285px, constraints left/top, fill gradient_linear(#000000 0% | #651080 100%), text [Inter ExtraBold, 120px], [heading]
+  - FRAME "black-horizontal 2", 251x82px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 54.32x81.47px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 165.74x36.57px, constraints scale/scale, fill #000000
+  - GROUP "Group 5", 1964.22x1625.42px, constraints left/top, radius 0/0/0/0px [decorative, ~14 shapes]
+
+Screen: Light Page / Desktop
+- FRAME "Desktop", 1200x6605px, constraints left/top, fill #FFFFFF
+  - FRAME "Stack", 1362x6610px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top
+    - INSTANCE "Bar", 1200x46px, horizontal pad 14 110 14 110px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - FRAME "Frame 20", 486x18px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fill, constraints left/top
+        - TEXT "This page is included in a free SaaS Website Kit.", 310x18px, constraints left/top, fill #FFFFFF99, text [Body Small Tag]
+        - FRAME "Frame 19", 162x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "View the complete Kit", 142x18px, constraints left/top, fill #FFFFFF, text [Body Small Tag]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10x8.4px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Nav Bar-Desktop", 1200x81px, horizontal pad 20 20 20 20px gap 463px align center/center sizing W:fixed H:fixed, constraints left/top, fill #EAEEFE, effect [background_blur 14px]
+      - INSTANCE "Logo", 182x41px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Logo/Default", 40x41px, constraints left/top
+          - RECTANGLE "Rectangle 2", 40x33px, constraints scale/scale, fill gradient_linear(#F87BFF 0% | #FB92CF 24% | #FFDD9B 48% | #C2F0B1 73% | #2FD8FE 100%), effect [layer_blur 11px]
+          - RECTANGLE "logosaas", 40x40px, constraints scale/scale, radius 10px, fill image(hash: 2f8abfe3a059c4b13847ae71fc68a6c1ea9cc7ae)
+        - TEXT "made by", 58x17px, constraints left/top, fill #000000, text [Body S]
+        - FRAME "black-horizontal 1", 68x22px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14.72x21.86px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 44.9x9.81px, constraints scale/scale, fill #000000
+      - FRAME "Stack", 524x39px, horizontal pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "About", 45x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - TEXT "Features", 65x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - TEXT "Customers", 81x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - TEXT "Updates", 63x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - TEXT "Help", 35x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - INSTANCE "Buttons", 115x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #000000
+          - TEXT "Get for free", 85x19px, constraints left/top, fill #FFFFFF, text [Body Bold]
+    - FRAME "Hero", 1200x710px, constraints left/top
+      - GROUP "Group 6", 1200x710px, constraints left/top
+        - RECTANGLE "Rectangle 2", 1200x710px, constraints left/top, fill gradient_linear(#EAEEFE 0% | #183EC2 100%)
+        - FRAME "Hero Content", 511x448px, vertical pad 0 0 0 0px gap 29px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 137x29px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 111x31px, constraints left/top, fill #000000, text [Tag]
+          - TEXT "H1", 511x193px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H1], [heading]
+          - TEXT "Body", 457x99px, constraints left/top, fill #010D3E, text [Body Large]
+          - GROUP "Buttons", 240x40px, constraints left/top
+            - FRAME "Frame 40", 240x40px, horizontal pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "cylinder 1", 216x197px, constraints left/top, fill image(hash: 420d641c737fb7d11949e8838d920f4858f3881b)
+        - RECTANGLE "Visual", 648x648px, constraints left/top, fill image(hash: 992dbc42159c4a979dec9490eef96d9e2b1ae5cf)
+    - FRAME "Logo Ticker", 1200x132px, constraints left/top [decorative, ~7 shapes]
+    - GROUP "Product", 1362x1495px, constraints left/top
+      - RECTANGLE "Rectangle 4", 1200x1495px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #D2DCFF 100%)
+      - FRAME "Frame 30", 1100x1277px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 18", 540x289px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 165x27px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 139x31px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 540x242px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x123px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+            - TEXT "Body", 535x99px, constraints left/top, fill #010D3E, text [Body Large]
+        - RECTANGLE "Product Image", 1100x683px, constraints left/top, fill image(hash: f65e0c2be15663431af0e7ccaf366b9baa354ca4), effect [drop_shadow 64px offset 0 4 #00000040]
+        - GROUP "Grid", 1100x225px, constraints left/top
+          - INSTANCE "1", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints center/top
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Integration ecosystem", 185x23px, constraints left/top, fill #000000, text [H5], [heading]
+            - FRAME "Frame 23", 260x77px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "2", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints center/top
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Integration ecosystem", 194x23px, constraints left/top, fill #000000, text [H5], [heading]
+            - FRAME "Frame 23", 260x77px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "3", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints center/top
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Integration ecosystem", 206x23px, constraints left/top, fill #000000, text [H5], [heading]
+            - FRAME "Frame 23", 260x77px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "4", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints center/top
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Integration ecosystem", 220x23px, constraints left/top, fill #000000, text [H5], [heading]
+            - FRAME "Frame 23", 260x77px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+      - RECTANGLE "torus 1", 248x248px, constraints left/top, fill image(hash: 7d5d67b72cba574a18e13acdd5a2af4576dff9ff)
+      - RECTANGLE "pyramid 1", 262x262px, constraints left/top, fill image(hash: a93c56bac6242f2ea736fa22bc67d56c69ed8b34)
+    - FRAME "Everything you need", 1200x1075px, constraints left/top
+      - FRAME "Frame 29", 992x887px, vertical pad 0 0 0 0px gap 60px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 20", 540x289px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 165x27px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 139x31px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 540x242px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x123px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+            - TEXT "Body", 535x99px, constraints left/top, fill #010D3E, text [Body Large]
+        - FRAME "Frame 6", 992x538px, horizontal pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Footer-S/Socials/Card", 486x538px, vertical pad 40 40 40 40px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke #1B1B1B14 1px, effect [drop_shadow 24px offset 0 7 #24262B]
+            - RECTANGLE "cube-helix 1", 329x329px, constraints left/top, fill image(hash: e6f3898f606af89c9f2cc41ce3a572c6a6238284)
+            - FRAME "Frame 17", 385x129px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Footer-S/Socials/Card", 486x538px, vertical pad 40 40 40 40px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke #1B1B1B14 1px, effect [drop_shadow 24px offset 0 7 #24262B]
+            - RECTANGLE "cube-helix 1", 329x329px, constraints left/top, fill image(hash: 3b0726d25f82e3e3faa76bd4472a5c71587e1730)
+            - FRAME "Frame 17", 385x129px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Pricing", 1200x1211px, constraints left/top
+      - FRAME "Frame 28", 1103x1057px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 19", 540x289px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 165x27px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 139x31px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 540x242px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x123px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+            - TEXT "Body", 535x99px, constraints left/top, fill #010D3E, text [Body Large]
+        - GROUP "Group 5", 1103x728px, constraints left/top, radius 24px
+          - FRAME "Pricing Card", 351x508px, constraints left/top, radius 24px, fill Neutral/100, stroke Neutral/300 1px, effect General/Shadow 02
+            - FRAME "Frame 12", 271x424px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Pricing Card", 351x728px, constraints left/top, radius 24px, fill Neutral/100, stroke Neutral/300 1px, effect General/Shadow 02
+            - FRAME "Frame 12", 271x644px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Pricing Card", 351x603px, constraints left/top, radius 24px, fill #000000, effect General/Shadow 02
+            - FRAME "Frame 12", 271x520px, vertical pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Testimonials", 1200x1055px, constraints left/top
+      - FRAME "Frame 21", 540x112px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "Tag", 101x31px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+          - TEXT "Version 2.0 is here", 75x31px, constraints left/top, fill #000000, text [Tag]
+        - FRAME "Frame 17", 540x61px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "H2", 540x61px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+      - INSTANCE "Testimonial", 325x234px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x92px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 191x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 07864d8d3924432cae9b99b830bf273dd0982c09)
+          - FRAME "Frame 1", 141x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 82x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 141x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 152x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 37710da228915dee7aca28e52e8522b8fb4cf22f)
+          - FRAME "Frame 1", 102x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 102x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 63x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x257px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x115px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 164x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 2849aeb4238ff660d9f87d0612ac273d12d0e6e0)
+          - FRAME "Frame 1", 114x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 101x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 114x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x234px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x92px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 184x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 352090d8b9df30d0eafd043844aaad4ad36a1ac1)
+          - FRAME "Frame 1", 134x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 97x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 134x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 151x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 3a49584354a3dd53edc60ebdc3d3b70bef1d3029)
+          - FRAME "Frame 1", 101x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 101x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 79x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x257px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x115px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 147x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 9e37e374aaef97a2796f1dc001539e0237e8a199)
+          - FRAME "Frame 1", 97x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 78x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 97x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 144x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 957b7f8c426bd8507cd75908b60199e91b2eace5)
+          - FRAME "Frame 1", 94x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 82x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 94x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 178x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 4bf48b34f8274f646d6c1852ccfc3dfc6e985033)
+          - FRAME "Frame 1", 128x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 88x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 128x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 133x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: de5ad70e92ac3478bcf2244662bbc1125d2c689d)
+          - FRAME "Frame 1", 83x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 83x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 63x23px, constraints left/top, fill #000000, text [Body Medium]
+      - RECTANGLE "Rectangle 6", 1200x786px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #FFFFFF00 100%)
+    - FRAME "Sign up", 1200x472px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 25", 1200x472px, vertical pad 132 330 132 330px gap 10px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#FFFFFF 0% | #D2DCFF 100%)
+        - FRAME "Frame 6", 540x206px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 540x126px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x60px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+            - TEXT "Body", 447x46px, constraints left/top, fill #010D3E, text [Body Medium]
+          - FRAME "Frame 40", 240x40px, horizontal pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Buttons", 115x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #000000
+            - INSTANCE "Buttons", 108x40px, horizontal pad 10 0 10 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px
+      - RECTANGLE "emojistar 1", 362x362px, constraints left/top, fill image(hash: 0edd4bc86cf6130bed0875ae4dc980bec07b6949)
+      - RECTANGLE "helix2 1", 363x363px, constraints left/top, fill image(hash: 0e6587822e1e09e9aaf9ea4e60ebf16c4057c2f9)
+    - FRAME "Footer", 1200x333px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Footer-L", 1212x327px, horizontal pad 40 20 40 20px gap 512px sizing W:fixed H:fixed, constraints left/top, fill #000000
+        - FRAME "Frame 31", 240x247px, vertical pad 0 0 0 0px gap 111px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 30", 240x112px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Logo/Default", 40x41px, constraints left/top
+            - TEXT "Effortlessly turn your ideas into a fully functional, respon", 240x51px, constraints left/top, fill #BCBCBC, text [Body S]
+          - GROUP "Logo group", 199x24px, constraints left/top
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 29", 420x239px, horizontal pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Product", 79x202px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Product", 55x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "Features", 58x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Integrations", 79x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Updates", 56x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "FAQ", 27x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Pricing", 46x17px, constraints left/top, fill #7B7B7B, text [Body S]
+          - FRAME "Company", 66x239px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Company", 66x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "About", 40x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Blog", 30x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Careers", 52x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Manifesto", 66x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Press", 37x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Contact", 53x17px, constraints left/top, fill #7B7B7B, text [Body S]
+          - FRAME "Resources", 76x165px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Resources", 73x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "Examples", 64x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Community", 76x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Guides", 47x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Docs", 34x17px, constraints left/top, fill #7B7B7B, text [Body S]
+          - FRAME "Security", 55x128px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Legal", 38x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "Privacy", 49x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Terms", 41x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Security", 55x17px, constraints left/top, fill #7B7B7B, text [Body S]
+  - RECTANGLE "half-torus 1", 318.43x318.43px, constraints left/top, fill image(hash: b431f6631e0811f038acc4dcc316595cc72fd9f6)
+
+Screen: Light Page / Tablet
+- FRAME "Tablet", 810x8568px, constraints left/top, fill #FFFFFF
+  - FRAME "Stack", 810x8567px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Bar", 810x46px, horizontal pad 14 110 14 110px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - FRAME "Frame 20", 486x18px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fill, constraints left/top
+        - FRAME "Frame 19", 162x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "View the complete Kit", 142x18px, constraints left/top, fill #FFFFFF, text [Body Small Tag]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10x8.4px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Nav Bar-Desktop", 810x81px, horizontal pad 20 20 20 20px gap 73px align center/center sizing W:fixed H:fixed, constraints left/top, fill #EAEEFE, effect [background_blur 14px]
+      - INSTANCE "Logo", 182x41px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Logo/Default", 40x41px, constraints left/top
+          - RECTANGLE "Rectangle 2", 40x33px, constraints scale/scale, fill gradient_linear(#F87BFF 0% | #FB92CF 24% | #FFDD9B 48% | #C2F0B1 73% | #2FD8FE 100%), effect [layer_blur 11px]
+          - RECTANGLE "logosaas", 40x40px, constraints scale/scale, radius 10px, fill image(hash: 2f8abfe3a059c4b13847ae71fc68a6c1ea9cc7ae)
+        - TEXT "made by", 58x17px, constraints left/top, fill #000000, text [Body S]
+        - FRAME "black-horizontal 1", 68x22px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14.72x21.86px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 44.9x9.81px, constraints scale/scale, fill #000000
+      - FRAME "Stack", 524x39px, horizontal pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "About", 45x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - TEXT "Features", 65x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - TEXT "Customers", 81x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - TEXT "Updates", 63x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - TEXT "Help", 35x23px, constraints left/top, fill #00000099, text [Body Medium]
+        - INSTANCE "Buttons", 115x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #000000
+          - TEXT "Get for free", 85x19px, constraints left/top, fill #FFFFFF, text [Body Bold]
+    - FRAME "Hero", 810x710px, constraints left/top
+      - GROUP "Group 6", 810x710px, constraints left/top
+        - RECTANGLE "Rectangle 2", 810x710px, constraints left/top, fill gradient_linear(#EAEEFE 0% | #183EC2 100%)
+        - FRAME "Hero Content", 478x448px, vertical pad 0 0 0 0px gap 29px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 137x29px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 111x31px, constraints left/top, fill #000000, text [Tag]
+          - TEXT "H1", 478x193px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H1], [heading]
+          - TEXT "Body", 457x99px, constraints left/top, fill #010D3E, text [Body Large]
+          - FRAME "Buttons", 240x40px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 40", 240x40px, horizontal pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "cylinder 1", 216x197px, constraints left/top, fill image(hash: 420d641c737fb7d11949e8838d920f4858f3881b)
+        - RECTANGLE "Visual", 333x648px, constraints left/top, fill image(hash: 992dbc42159c4a979dec9490eef96d9e2b1ae5cf)
+    - FRAME "Logos", 810x132px, constraints left/top [decorative, ~7 shapes]
+    - GROUP "Product", 810x1495px, constraints left/top
+      - RECTANGLE "Rectangle 4", 810x1495px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #D2DCFF 100%)
+      - FRAME "Frame 30", 774x1316px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 18", 540x289px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 165x27px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 139x31px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 540x242px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x123px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+            - TEXT "Body", 535x99px, constraints left/top, fill #010D3E, text [Body Large]
+        - RECTANGLE "Product Image", 768x477px, constraints left/top, fill image(hash: f65e0c2be15663431af0e7ccaf366b9baa354ca4), effect [drop_shadow 64px offset 0 4 #00000040]
+        - FRAME "Grid", 774x470px, horizontal pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 34", 260x470px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Feature Cards", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Frame 3", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 35", 260x470px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Frame 4", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Frame 5", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "torus 1", 152x248px, constraints left/top, fill image(hash: 7d5d67b72cba574a18e13acdd5a2af4576dff9ff)
+      - RECTANGLE "pyramid 1", 146x262px, constraints left/top, fill image(hash: a93c56bac6242f2ea736fa22bc67d56c69ed8b34)
+    - FRAME "Everything you need", 810x1651px, constraints left/top
+      - FRAME "Frame 29", 540x1445px, vertical pad 0 0 0 0px gap 60px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 20", 540x289px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 165x27px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 139x31px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 540x242px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x123px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+            - TEXT "Body", 535x99px, constraints left/top, fill #010D3E, text [Body Large]
+        - FRAME "Frame 6", 486x1096px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Footer-S/Socials/Card", 486x538px, vertical pad 40 40 40 40px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke #1B1B1B14 1px, effect [drop_shadow 24px offset 0 7 #24262B]
+            - RECTANGLE "cube-helix 1", 329x329px, constraints left/top, fill image(hash: e6f3898f606af89c9f2cc41ce3a572c6a6238284)
+            - FRAME "Frame 17", 385x129px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Footer-S/Socials/Card", 486x538px, vertical pad 40 40 40 40px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke #1B1B1B14 1px, effect [drop_shadow 24px offset 0 7 #24262B]
+            - RECTANGLE "cube-helix 1", 329x329px, constraints left/top, fill image(hash: 3b0726d25f82e3e3faa76bd4472a5c71587e1730)
+            - FRAME "Frame 17", 385x129px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Pricing", 810x2495px, constraints left/top
+      - FRAME "Frame 28", 540x2218px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 19", 540x289px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 165x27px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 139x31px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 540x242px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x123px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+            - TEXT "Body", 535x99px, constraints left/top, fill #010D3E, text [Body Large]
+        - GROUP "Group 5", 351x1889px, constraints left/top
+          - FRAME "Frame 36", 351x1889px, vertical pad 0 0 0 0px gap 25px align max/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Card", 351x508px, constraints left/top, radius 24px, fill Neutral/100, stroke Neutral/300 1px, effect General/Shadow 02
+            - FRAME "Pricing Card", 351x603px, constraints left/top, radius 24px, fill #000000, effect General/Shadow 02
+            - FRAME "Pricing Card", 351x728px, constraints left/top, radius 24px, fill Neutral/100, stroke Neutral/300 1px, effect General/Shadow 02
+    - FRAME "Testimonials", 810x1152px, constraints left/top
+      - FRAME "Frame 21", 540x112px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "Tag", 99x31px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+          - TEXT "Version 2.0 is here", 73x62px, constraints left/top, fill #000000, text [Tag]
+        - FRAME "Frame 17", 540x61px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "H2", 540x61px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+      - INSTANCE "Testimonial", 325x234px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x92px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 191x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 07864d8d3924432cae9b99b830bf273dd0982c09)
+          - FRAME "Frame 1", 141x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 82x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 141x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 152x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 37710da228915dee7aca28e52e8522b8fb4cf22f)
+          - FRAME "Frame 1", 102x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 102x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 63x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x257px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x115px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 164x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 2849aeb4238ff660d9f87d0612ac273d12d0e6e0)
+          - FRAME "Frame 1", 114x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 101x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 114x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x234px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x92px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 184x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 352090d8b9df30d0eafd043844aaad4ad36a1ac1)
+          - FRAME "Frame 1", 134x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 97x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 134x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 151x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 3a49584354a3dd53edc60ebdc3d3b70bef1d3029)
+          - FRAME "Frame 1", 101x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 101x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 79x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x257px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x115px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 147x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 9e37e374aaef97a2796f1dc001539e0237e8a199)
+          - FRAME "Frame 1", 97x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 78x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 97x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 144x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 957b7f8c426bd8507cd75908b60199e91b2eace5)
+          - FRAME "Frame 1", 94x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 82x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 94x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 178x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 4bf48b34f8274f646d6c1852ccfc3dfc6e985033)
+          - FRAME "Frame 1", 128x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 88x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 128x23px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+        - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+        - FRAME "Frame 18", 133x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: de5ad70e92ac3478bcf2244662bbc1125d2c689d)
+          - FRAME "Frame 1", 83x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Alex Rivera", 83x19px, constraints left/top, fill #000000, text [Body Bold]
+            - TEXT "@jamietechguru00", 63x23px, constraints left/top, fill #000000, text [Body Medium]
+      - RECTANGLE "Rectangle 6", 810x822px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #FFFFFF00 46% | #FFFFFF8C 100%)
+    - FRAME "Sign up", 810x472px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 25", 810x470px, vertical pad 132 330 132 330px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#FFFFFF 0% | #D2DCFF 100%)
+        - FRAME "Frame 6", 540x206px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 540x126px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x60px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H2], [heading]
+            - TEXT "Body", 447x46px, constraints left/top, fill #010D3E, text [Body Medium]
+          - GROUP "Buttons", 240x40px, constraints left/top
+            - FRAME "Frame 40", 240x40px, horizontal pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "emojistar 1", 362x362px, constraints left/top, fill image(hash: 0edd4bc86cf6130bed0875ae4dc980bec07b6949)
+      - RECTANGLE "helix2 1", 363x363px, constraints left/top, fill image(hash: 0e6587822e1e09e9aaf9ea4e60ebf16c4057c2f9)
+    - FRAME "Footer", 810x333px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Footer-L", 810x327px, horizontal pad 40 20 40 20px gap 122px sizing W:fixed H:fixed, constraints left/top, fill #000000
+        - FRAME "Frame 31", 240x247px, vertical pad 0 0 0 0px gap 111px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 30", 240x112px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Logo/Default", 40x41px, constraints left/top
+            - TEXT "Effortlessly turn your ideas into a fully functional, respon", 240x51px, constraints left/top, fill #BCBCBC, text [Body S]
+          - GROUP "Logo group", 199x24px, constraints left/top
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 29", 420x239px, horizontal pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Product", 79x202px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Product", 55x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "Features", 58x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Integrations", 79x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Updates", 56x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "FAQ", 27x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Pricing", 46x17px, constraints left/top, fill #7B7B7B, text [Body S]
+          - FRAME "Company", 66x239px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Company", 66x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "About", 40x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Blog", 30x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Careers", 52x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Manifesto", 66x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Press", 37x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Contact", 53x17px, constraints left/top, fill #7B7B7B, text [Body S]
+          - FRAME "Resources", 76x165px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Resources", 73x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "Examples", 64x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Community", 76x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Guides", 47x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Docs", 34x17px, constraints left/top, fill #7B7B7B, text [Body S]
+          - FRAME "Security", 55x128px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Legal", 38x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "Privacy", 49x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Terms", 41x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Security", 55x17px, constraints left/top, fill #7B7B7B, text [Body S]
+
+Screen: Light Page / Mobile
+- FRAME "Mobile", 430x9497px, constraints left/top, fill #FFFFFF
+  - FRAME "Stack", 431x9449px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Bar", 431x46px, horizontal pad 14 110 14 110px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - FRAME "Frame 20", 162x18px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 19", 162x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "View the complete Kit", 142x18px, constraints left/top, fill #FFFFFF, text [Body Small Tag]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10x8.4px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Logo", 431x81px, horizontal pad 20 20 20 20px gap 330px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #EAEEFE
+      - INSTANCE "Logo/Default", 40x41px, constraints left/top
+        - RECTANGLE "Rectangle 2", 40x33px, constraints scale/scale, fill gradient_linear(#F87BFF 0% | #FB92CF 24% | #FFDD9B 48% | #C2F0B1 73% | #2FD8FE 100%), effect [layer_blur 11px]
+        - RECTANGLE "logosaas", 40x40px, constraints scale/scale, radius 10px, fill image(hash: 2f8abfe3a059c4b13847ae71fc68a6c1ea9cc7ae)
+      - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "menu", 20x20px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 15.62x11.88px, constraints scale/scale, fill #000000
+    - GROUP "Group 6", 430x973px, constraints left/top
+      - RECTANGLE "Rectangle 2", 430x973px, constraints left/top, fill gradient_linear(#EAEEFE 0% | #183EC2 100%)
+      - FRAME "Hero Content", 365x391px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tag", 137x29px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+          - TEXT "Version 2.0 is here", 111x31px, constraints left/top, fill #000000, text [Tag]
+        - TEXT "H1", 287x126px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [Switzer Semibold, 54px], [heading]
+        - TEXT "Body", 364x124px, constraints left/top, fill #010D3E, text [Body Large]
+        - GROUP "Buttons", 240x40px, constraints left/top
+          - FRAME "Frame 40", 240x40px, horizontal pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Buttons", 115x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #000000
+            - INSTANCE "Buttons", 108x40px, horizontal pad 10 0 10 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px
+    - FRAME "Logos", 431x132px, constraints left/top [decorative, ~7 shapes]
+    - GROUP "Product", 430x1700px, constraints left/top
+      - RECTANGLE "Rectangle 4", 430x1700px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #D2DCFF 100%)
+      - FRAME "Frame 30", 429x1523px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 18", 377x245px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 165x27px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 139x31px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 377x198px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 376x61px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [Switzer Semibold, 32px], [heading]
+            - TEXT "Body", 373x99px, constraints left/top, fill #010D3E, text [Body Large]
+        - RECTANGLE "Product Image", 384x238px, constraints left/top, fill image(hash: f65e0c2be15663431af0e7ccaf366b9baa354ca4), effect [drop_shadow 64px offset 0 4 #00000040]
+        - FRAME "Grid", 430x960px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 34", 260x470px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Feature Cards", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Frame 3", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 35", 260x470px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Frame 4", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Frame 5", 260x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Everything you need", 430x1681px, constraints left/top
+      - FRAME "Frame 29", 431x1445px, vertical pad 0 0 0 0px gap 60px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 20", 430x289px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 165x27px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 139x31px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 358x242px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 297x67px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [Switzer Semibold, 32px], [heading]
+            - TEXT "Body", 358x155px, constraints left/top, fill #010D3E, text [Body Large]
+        - FRAME "Frame 6", 408x1096px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Footer-S/Socials/Card", 408x538px, vertical pad 40 40 40 40px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke #1B1B1B14 1px, effect [drop_shadow 24px offset 0 7 #24262B]
+            - RECTANGLE "cube-helix 1", 329x329px, constraints left/top, fill image(hash: e6f3898f606af89c9f2cc41ce3a572c6a6238284)
+            - FRAME "Frame 17", 385x129px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Footer-S/Socials/Card", 408x538px, vertical pad 40 40 40 40px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke #1B1B1B14 1px, effect [drop_shadow 24px offset 0 7 #24262B]
+            - RECTANGLE "cube-helix 1", 329x329px, constraints left/top, fill image(hash: 3b0726d25f82e3e3faa76bd4472a5c71587e1730)
+            - FRAME "Frame 17", 385x129px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Pricing", 430x2357px, constraints left/top
+      - FRAME "Frame 28", 430x2184px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 19", 430x255px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 165x27px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 139x31px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 433x208px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 394x64px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [Switzer Semibold, 32px], [heading]
+            - TEXT "Body", 365x124px, constraints left/top, fill #010D3E, text [Body Large]
+        - GROUP "Group 5", 351x1889px, constraints left/top
+          - FRAME "Frame 36", 351x1889px, vertical pad 0 0 0 0px gap 25px align max/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Card", 351x508px, constraints left/top, radius 24px, fill Neutral/100, stroke Neutral/300 1px, effect General/Shadow 02
+            - FRAME "Pricing Card", 351x603px, constraints left/top, radius 24px, fill #000000, effect General/Shadow 02
+            - FRAME "Pricing Card", 351x728px, constraints left/top, radius 24px, fill Neutral/100, stroke Neutral/300 1px, effect General/Shadow 02
+    - FRAME "Testimonials", 430x1009px, constraints left/top
+      - FRAME "Frame 38", 431x866px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 21", 430x115px, vertical pad 0 0 0 0px gap 20px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Tag", 99x31px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #2222221A 1px
+            - TEXT "Version 2.0 is here", 73x62px, constraints left/top, fill #000000, text [Tag]
+          - FRAME "Frame 17", 429x64px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 163x64px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [Switzer Semibold, 32px], [heading]
+        - FRAME "Frame 37", 325x719px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+            - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+            - FRAME "Frame 18", 152x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Testimonial", 325x257px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+            - TEXT "As a seasoned designer always on the lookout for innovative ", 245x115px, constraints left/top, fill #000000, text [Body Medium]
+            - FRAME "Frame 18", 147x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Testimonial", 325x211px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+            - TEXT "As a seasoned designer always on the lookout for innovative ", 245x69px, constraints left/top, fill #000000, text [Body Medium]
+            - FRAME "Frame 18", 144x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 6", 430x874px, constraints center/top, fill gradient_linear(#FFFFFF 0% | #FFFFFF00 44% | #FFFFFF 100%)
+    - FRAME "Sign up", 431x341px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 25", 430x341px, vertical pad 132 330 132 330px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#FFFFFF 0% | #D2DCFF 100%)
+        - FRAME "Frame 6", 275x233px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 540x153px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x64px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [Switzer Semibold, 32px], [heading]
+            - TEXT "Body", 280x69px, constraints left/top, fill #010D3E, text [Body Medium]
+          - FRAME "Frame 40", 240x40px, horizontal pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Buttons", 115x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #000000
+            - INSTANCE "Buttons", 108x40px, horizontal pad 10 0 10 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px
+    - INSTANCE "Footer-L", 431x1129px, horizontal pad 40 20 40 20px gap 152px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - FRAME "Frame 32", 391x1049px, vertical pad 0 0 0 0px gap 72px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 31", 397x150px, vertical pad 0 0 0 0px gap 31px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 30", 397x95px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Logo/Default", 40x41px, constraints left/top
+            - TEXT "Effortlessly turn your ideas into a fully functional, respon", 397x34px, constraints left/top, fill #BCBCBC, text [Body S]
+          - GROUP "Logo group", 199x24px, constraints left/top
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 29", 79x827px, vertical pad 0 0 0 0px gap 31px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Product", 79x202px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Product", 55x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "Features", 58x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Integrations", 79x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Updates", 56x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "FAQ", 27x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Pricing", 46x17px, constraints left/top, fill #7B7B7B, text [Body S]
+          - FRAME "Company", 66x239px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Company", 66x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "About", 40x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Blog", 30x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Careers", 52x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Manifesto", 66x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Press", 37x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Contact", 53x17px, constraints left/top, fill #7B7B7B, text [Body S]
+          - FRAME "Resources", 76x165px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Resources", 73x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "Examples", 64x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Community", 76x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Guides", 47x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Docs", 34x17px, constraints left/top, fill #7B7B7B, text [Body S]
+          - FRAME "Security", 55x128px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Legal", 38x17px, constraints left/top, fill #FFFFFF, text [Body S Bold]
+            - TEXT "Privacy", 49x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Terms", 41x17px, constraints left/top, fill #7B7B7B, text [Body S]
+            - TEXT "Security", 55x17px, constraints left/top, fill #7B7B7B, text [Body S]
+    - RECTANGLE "Visual", 388x388px, constraints center/top, fill image(hash: 992dbc42159c4a979dec9490eef96d9e2b1ae5cf)
+
+Screen: Dark Page / Desktop
+- FRAME "Desktop", 1200x4096px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 2", 1200x1754px, constraints left/top, fill gradient_linear(#000000 0% | #5D2CA8D9 58% | #000000 100%)
+  - FRAME "Stack", 1200x4081px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/top
+    - INSTANCE "Bar", 1200x46px, horizontal pad 14 110 14 110px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#FEECFF 0% | #FECAFF 12% | #FEB5FF 27% | #FFDBE7 40% | #FFF4D6 49% | #F3FCD7 59% | #D2F5EE 71% | #C3EFFF 84% | #FBEFFF 100%)
+      - FRAME "Frame 20", 486x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+        - TEXT "This page is included in a free SaaS Website Kit.", 315x18px, constraints left/top, fill #000000, text [Body Small Tag]
+        - FRAME "Frame 19", 162x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "View the complete Kit", 142x18px, constraints left/top, fill #000000, text [Body Small Tag]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10x8.4px, constraints scale/scale, fill #000000
+    - INSTANCE "Nav Bar-Desktop", 1200x81px, horizontal pad 20 20 20 20px gap 463px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF03, effect [background_blur 14px]
+      - INSTANCE "Logo", 182x41px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Logo/Default", 40x41px, constraints left/top
+          - RECTANGLE "Rectangle 2", 40x33px, constraints scale/scale, fill gradient_linear(#F87BFF 0% | #FB92CF 24% | #FFDD9B 48% | #C2F0B1 73% | #2FD8FE 100%), effect [layer_blur 11px]
+          - RECTANGLE "logosaas", 40x40px, constraints scale/scale, radius 10px, fill image(hash: 2f8abfe3a059c4b13847ae71fc68a6c1ea9cc7ae)
+        - TEXT "made by", 58x17px, constraints left/top, fill #FFFFFF, text [Body S]
+        - FRAME "black-horizontal 1", 68x22px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14.72x21.86px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 44.9x9.81px, constraints scale/scale, fill #FFFFFF
+      - FRAME "Stack", 524x39px, horizontal pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "About", 45x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - TEXT "Features", 65x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - TEXT "Customers", 81x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - TEXT "Updates", 63x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - TEXT "Help", 35x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - INSTANCE "Buttons", 115x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+          - TEXT "Get for free", 85x19px, constraints left/top, fill #000000, text [Body Bold]
+    - FRAME "Hero", 1200x731px, constraints left/top
+      - GROUP "Group 1", 2344x1569px, constraints left/top
+        - RECTANGLE "Rectangle 1", 1200x730px, constraints left/top, fill gradient_linear(#000000 0% | #200D42 34% | #4F21A1 65% | #A46EDB 82%)
+        - ELLIPSE "Ellipse 2", 2344x1014px, constraints center/top, fill gradient_radial(#000000 82% | #9560EB 100%), stroke #B48CDE 1px
+        - FRAME "Hero Content", 642x519px, vertical pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints center/top
+          - INSTANCE "Tag", 229x31px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #222222 1px
+            - FRAME "Frame 28", 203x31px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "H1", 642x250px, constraints left/top, fill #FFFFFF, text [DM Sans Bold, 165px], [heading]
+          - TEXT "Body", 457x93px, constraints left/top, fill #FFFFFF, text [Body Large]
+          - INSTANCE "Buttons", 125x49px, horizontal pad 15 20 15 20px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - TEXT "Get for free", 85x19px, constraints left/top, fill #000000, text [Body Bold]
+        - RECTANGLE "cursor 1", 200x200px, constraints left/top, fill image(hash: eae30f41d018d8c7e682731cd7583c20ad9688c4), effect [layer_blur 14px]
+        - RECTANGLE "cursor 2", 200x200px, constraints left/top, fill image(hash: eae30f41d018d8c7e682731cd7583c20ad9688c4)
+        - RECTANGLE "message 2", 200x200px, constraints left/top, fill image(hash: 4cc494ec4127ead5aed5b5d08d726818eea9d6b0), effect [layer_blur 14px]
+        - RECTANGLE "message 1", 200x200px, constraints left/top, fill image(hash: 4cc494ec4127ead5aed5b5d08d726818eea9d6b0)
+    - FRAME "Logo Ticker", 1200x150px, constraints left/top
+      - FRAME "Frame 29", 1023.09x87px, vertical pad 0 0 0 0px gap 38px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Trusted by the world’s most innovative teams", 299x17px, constraints left/top, fill #7A7A7A, text [Body S]
+        - FRAME "Frame 21", 1023.09x32px, horizontal pad 0 0 0 0px gap 58px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+    - FRAME "Grid", 1200x742px, constraints left/top
+      - FRAME "Frame 28", 1112x501px, vertical pad 0 0 0 0px gap 66px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 18", 540x175px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 17", 540x175px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x62px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+            - TEXT "Body", 535x93px, constraints left/top, fill #FFFFFF, text [Body Large]
+        - FRAME "Frame 25", 1112x260px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Feature Cards", 360x260px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+            - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - FRAME "Frame 24", 319x100px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Feature Cards", 360x260px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+            - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - FRAME "Frame 24", 319x100px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Feature Cards", 360x260px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+            - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - FRAME "Frame 24", 319x100px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Product", 1200x1074px, constraints left/top
+      - FRAME "Frame 27", 1092x913px, vertical pad 0 0 0 0px gap 60px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 26", 540x175px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 17", 540x175px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x62px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+            - TEXT "Body", 535x93px, constraints left/top, fill #FFFFFF, text [Body Large]
+        - RECTANGLE "App Night", 1092x678px, constraints left/top, fill image(hash: 12196e38cb0fedfe094456e82302a61249ba8986), effect [drop_shadow 24px offset 0 4 #000000A6]
+    - FRAME "Faq", 1200x706px, constraints left/top
+      - TEXT "H2", 645x60px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+      - FRAME "FAQ's", 675x339px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Form/FAQ", 673x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 648.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Form/FAQ", 673x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 648.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Form/FAQ", 673x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 648.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Form/FAQ", 673x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 648.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+    - FRAME "Sign up", 1200x487px, constraints left/top
+      - FRAME "Frame 25", 1200x472px, vertical pad 132 330 132 330px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 6", 540x208px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 540x126px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x60px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+            - TEXT "Body", 447x46px, constraints left/top, fill #BBBBBB, text [Body Medium]
+          - INSTANCE "Form", 409x42px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Form", 286x42px, horizontal pad 9 12 9 12px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF33
+            - INSTANCE "Buttons", 113x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "emojistar 1", 263x263px, constraints left/top, fill image(hash: 5af613d52217cb01365490d6854e96d017618df5)
+      - RECTANGLE "helix2 1", 268.53x268.53px, constraints left/top, fill image(hash: 169e3a9dbdccb982fe0adcdfa86514e4717a55a4)
+    - INSTANCE "Footer-S", 1200x64px, horizontal pad 20 40 20 40px gap 633px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+      - TEXT "@ 2024 Your Company, Inc. All rights reserved", 298x18px, constraints left/top, fill #808080, text [Body Small Tag]
+      - FRAME "Frame 26", 199x24px, horizontal pad 0 0 0 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x14px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x17px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 21x16.5px, constraints scale/scale, fill #FFFFFF80
+
+Screen: Dark Page / Tablet
+- FRAME "Tablet", 810x5064px, constraints left/top
+  - RECTANGLE "Purple gradient", 809x1643px, constraints center/top, fill gradient_linear(#000000 0% | #4C248A 38% | #05020A 100%)
+  - FRAME "Stack", 809x4499px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Bar", 810x46px, horizontal pad 14 110 14 110px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#FEECFF 0% | #FECAFF 12% | #FEB5FF 27% | #FFDBE7 40% | #FFF4D6 49% | #F3FCD7 59% | #D2F5EE 71% | #C3EFFF 84% | #FBEFFF 100%)
+      - FRAME "Frame 20", 486x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fill, constraints left/top
+        - TEXT "This page is included in a free SaaS Website Kit.", 315x18px, constraints left/top, fill #000000, text [Body Small Tag]
+        - FRAME "Frame 19", 162x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "View the complete Kit", 142x18px, constraints left/top, fill #000000, text [Body Small Tag]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10x8.4px, constraints scale/scale, fill #000000
+    - INSTANCE "Nav Bar-Desktop", 810x81px, horizontal pad 20 20 20 20px gap 63px align center/center sizing W:fixed H:fixed, constraints left/top, fill #040404, effect [background_blur 14px]
+      - INSTANCE "Logo", 182x41px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Logo/Default", 40x41px, constraints left/top
+          - RECTANGLE "Rectangle 2", 40x33px, constraints scale/scale, fill gradient_linear(#F87BFF 0% | #FB92CF 24% | #FFDD9B 48% | #C2F0B1 73% | #2FD8FE 100%), effect [layer_blur 11px]
+          - RECTANGLE "logosaas", 40x40px, constraints scale/scale, radius 10px, fill image(hash: 2f8abfe3a059c4b13847ae71fc68a6c1ea9cc7ae)
+        - TEXT "made by", 58x17px, constraints left/top, fill #FFFFFF, text [Body S]
+        - FRAME "black-horizontal 1", 68x22px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14.72x21.86px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 44.9x9.81px, constraints scale/scale, fill #FFFFFF
+      - FRAME "Stack", 524x39px, horizontal pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "About", 45x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - TEXT "Features", 65x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - TEXT "Customers", 81x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - TEXT "Updates", 63x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - TEXT "Help", 35x23px, constraints left/top, fill #FFFFFF00, text [Body Medium]
+        - INSTANCE "Buttons", 115x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+          - TEXT "Get for free", 85x19px, constraints left/top, fill #000000, text [Body Bold]
+    - FRAME "Hero", 810x731px, constraints left/top
+      - GROUP "Group 1", 1924x1565px, constraints left/top
+        - RECTANGLE "Rectangle 1", 1200x731px, constraints left/top, fill gradient_linear(#000000 0% | #200D42 34% | #4F21A1 65% | #A46EDB 82%)
+        - ELLIPSE "Ellipse 2", 1924x1014px, constraints center/top, fill gradient_radial(#000000 82% | #9560EB 100%), stroke #B48CDE 1px
+        - FRAME "Hero Content", 635x509px, vertical pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints center/top
+          - INSTANCE "Tag", 229x31px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #222222 1px
+            - FRAME "Frame 28", 203x31px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "H1", 635x240px, constraints left/top, fill #FFFFFF, text [Switzer Semibold, 154px], [heading]
+          - TEXT "Body", 457x93px, constraints left/top, fill #FFFFFF, text [Body Large]
+          - INSTANCE "Buttons", 125x49px, horizontal pad 15 20 15 20px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - TEXT "Get for free", 85x19px, constraints left/top, fill #000000, text [Body Bold]
+      - GROUP "Message", 151.46x156px, constraints left/top
+        - RECTANGLE "message 2", 151.46x151.46px, constraints left/top, fill image(hash: 4cc494ec4127ead5aed5b5d08d726818eea9d6b0), effect [layer_blur 14px]
+        - RECTANGLE "message 1", 151.46x151.46px, constraints left/top, fill image(hash: 4cc494ec4127ead5aed5b5d08d726818eea9d6b0)
+      - GROUP "Cursor", 181.2x183px, constraints left/top
+        - RECTANGLE "cursor 1", 180.3x180.3px, constraints left/top, fill image(hash: eae30f41d018d8c7e682731cd7583c20ad9688c4), effect [layer_blur 14px]
+        - RECTANGLE "cursor 2", 180.3x180.3px, constraints left/top, fill image(hash: eae30f41d018d8c7e682731cd7583c20ad9688c4)
+    - FRAME "Logos", 809x150px, constraints left/top, fill #000000
+      - FRAME "Frame 29", 652x127.12px, vertical pad 0 0 0 0px gap 38px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Trusted by the world’s most innovative teams", 299x17px, constraints left/top, fill #7A7A7A, text [Body S]
+        - FRAME "Frame 21", 630x72.12px, vertical pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+    - FRAME "2nd", 809x1298px, constraints left/top, fill #000000
+      - FRAME "Frame 28", 713x1053px, vertical pad 0 0 0 0px gap 66px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 18", 540x175px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 17", 540x175px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x62px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+            - TEXT "Body", 535x93px, constraints left/top, fill #FFFFFF, text [Body Large]
+        - FRAME "Frame 25", 360x812px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Feature Cards", 360x260px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+            - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - FRAME "Frame 24", 319x100px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Feature Cards", 360x260px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+            - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - FRAME "Frame 24", 319x100px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Feature Cards", 360x260px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+            - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - FRAME "Frame 24", 319x100px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "3rd", 809x936px, constraints left/top
+      - FRAME "Frame 27", 710x672px, vertical pad 0 0 0 0px gap 60px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 26", 540x175px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 17", 540x175px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x62px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+            - TEXT "Body", 535x93px, constraints left/top, fill #FFFFFF, text [Body Large]
+        - RECTANGLE "App Night", 704x437px, constraints left/top, fill image(hash: 12196e38cb0fedfe094456e82302a61249ba8986), effect [drop_shadow 24px offset 0 4 #000000A6]
+    - FRAME "Faq", 810x706px, constraints left/top
+      - TEXT "H2", 645x60px, constraints center/top, fill #FFFFFF, text [H2], [heading]
+      - FRAME "FAQ's", 675x339px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "Form/FAQ", 673x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 648.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Form/FAQ", 673x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 648.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Form/FAQ", 673x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 648.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Form/FAQ", 673x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 648.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+    - FRAME "instant access", 810x487px, constraints left/top, fill #000000
+      - FRAME "Frame 25", 810x469px, vertical pad 132 330 132 330px gap 10px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #05020A
+        - FRAME "Frame 6", 540x208px, vertical pad 0 0 0 0px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 540x126px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x60px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+            - TEXT "Body", 447x46px, constraints left/top, fill #BBBBBB, text [Body Medium]
+          - INSTANCE "Form", 409x42px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Form", 286x42px, horizontal pad 9 12 9 12px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF33
+            - INSTANCE "Buttons", 113x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "graph", 234x234px, constraints left/top, fill image(hash: 5af613d52217cb01365490d6854e96d017618df5)
+      - RECTANGLE "helix", 268.53x268.53px, constraints left/top, fill image(hash: 169e3a9dbdccb982fe0adcdfa86514e4717a55a4)
+    - INSTANCE "Footer-S", 810x64px, horizontal pad 20 40 20 40px gap 244px align min/center sizing W:fixed H:fixed, constraints left/top, fill #05020A, stroke #FFFFFF33 1px
+      - TEXT "@ 2024 Your Company, Inc. All rights reserved", 298x18px, constraints left/top, fill #808080, text [Body Small Tag]
+      - FRAME "Frame 26", 199x24px, horizontal pad 0 0 0 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x14px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x17px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 21x16.5px, constraints scale/scale, fill #FFFFFF80
+
+Screen: Dark Page / Mobile
+- FRAME "Mobile", 390x4217px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 3", 390x1331px, constraints left/top, fill gradient_linear(#000000 0% | #46217E 34% | #05020A 100%)
+  - FRAME "Stack", 390x4217px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Bar", 390x46px, horizontal pad 14 110 14 110px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#FEECFF 0% | #FECAFF 12% | #FEB5FF 27% | #FFDBE7 40% | #FFF4D6 49% | #F3FCD7 59% | #D2F5EE 71% | #C3EFFF 84% | #FBEFFF 100%)
+      - FRAME "Frame 20", 486x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 19", 162x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "View the complete Kit", 142x18px, constraints left/top, fill #000000, text [Body Small Tag]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 10x8.4px, constraints scale/scale, fill #000000
+    - INSTANCE "Logo", 390x81px, horizontal pad 20 20 20 20px gap 290px align min/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - INSTANCE "Logo/Default", 40x41px, constraints left/top
+        - RECTANGLE "Rectangle 2", 40x33px, constraints scale/scale, fill gradient_linear(#F87BFF 0% | #FB92CF 24% | #FFDD9B 48% | #C2F0B1 73% | #2FD8FE 100%), effect [layer_blur 11px]
+        - RECTANGLE "logosaas", 40x40px, constraints scale/scale, radius 10px, fill image(hash: 2f8abfe3a059c4b13847ae71fc68a6c1ea9cc7ae)
+      - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "menu", 20x20px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 15.62x11.88px, constraints scale/scale, fill #FFFFFF
+    - FRAME "Hero", 390x616px, constraints left/top
+      - GROUP "Group 1", 909x831px, constraints left/top
+        - RECTANGLE "Rectangle 1", 390x585px, constraints left/top, fill gradient_linear(#000000 0% | #200D42 34% | #4F21A1 65% | #A46EDB 82%)
+        - ELLIPSE "Ellipse 1", 909x359px, constraints center/top, fill gradient_radial(#000000 69% | #9C67F4 100%), stroke gradient_linear(#BE9AE7 0% | #6A568100 100%) 1px
+        - FRAME "Hero Content", 335x431px, vertical pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints center/top
+          - INSTANCE "Tag", 229x31px, horizontal pad 10 13 10 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #222222 1px
+            - FRAME "Frame 28", 203x31px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "H1", 223x100px, constraints left/top, fill #FFFFFF, text [Switzer Semibold, 54px], [heading]
+          - TEXT "Body", 335x155px, constraints left/top, fill #FFFFFF, text [Body Large]
+          - INSTANCE "Buttons", 125x49px, horizontal pad 15 20 15 20px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - TEXT "Get for free", 85x19px, constraints left/top, fill #000000, text [Body Bold]
+    - FRAME "Logos", 390x266px, constraints left/top, fill #000000
+      - FRAME "Frame 29", 652x183.27px, vertical pad 0 0 0 0px gap 38px align min/center sizing W:fixed H:fixed, constraints center/top
+        - TEXT "Trusted by the world’s most innovative teams", 185x34px, constraints left/top, fill #7A7A7A, text [Body S]
+        - FRAME "Frame 21", 341x111.27px, vertical pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+    - FRAME "2nd", 390x1298px, constraints left/top, fill #000000
+      - FRAME "Frame 28", 390x1115px, vertical pad 0 0 0 0px gap 66px align min/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 18", 360x237px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 17", 360x237px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 360x62px, constraints left/top, fill #FFFFFF, text [Switzer Semibold, 32px], [heading]
+            - TEXT "Body", 357x155px, constraints left/top, fill #FFFFFF, text [Body Large]
+        - FRAME "Frame 25", 360x812px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Feature Cards", 360x260px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+            - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - FRAME "Frame 24", 319x100px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Feature Cards", 360x260px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+            - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - FRAME "Frame 24", 319x100px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Feature Cards", 360x260px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+            - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+            - FRAME "Frame 24", 319x100px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "3rd", 390x692px, constraints left/top
+      - FRAME "Frame 27", 390x515px, vertical pad 0 0 0 0px gap 60px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 26", 347x235px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 17", 355x235px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 284x60px, constraints left/top, fill #FFFFFF, text [Switzer Semibold, 32px], [heading]
+            - TEXT "Body", 355x155px, constraints left/top, fill #FFFFFF, text [Body Large]
+        - RECTANGLE "App Night", 356x220px, constraints left/top, fill image(hash: 12196e38cb0fedfe094456e82302a61249ba8986), effect [drop_shadow 24px offset 0 4 #000000A6]
+    - FRAME "Faq", 390x639px, constraints left/top
+      - TEXT "H2", 237x78px, constraints center/top, fill #FFFFFF, text [Switzer Semibold, 32px], [heading]
+      - FRAME "FAQ's", 390x339px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "Form/FAQ", 366x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 341.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Form/FAQ", 366x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 341.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Form/FAQ", 366x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 341.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Form/FAQ", 366x84.75px, horizontal pad 30 0 30 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF33 1px
+          - TEXT "How does the pricing work for teams", 341.25x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+          - FRAME "Frame", 24.75x24.75px, horizontal pad 3 3 3 3px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18.75x18.75px, constraints left/top, fill #FFFFFF
+    - FRAME "instant access", 390x429px, constraints left/top, fill #000000
+      - FRAME "Frame 25", 392x484px, vertical pad 132 330 132 330px gap 10px align space_between/center sizing W:fixed H:fixed, constraints center/center, fill #05020A
+        - FRAME "Frame 6", 391x280px, vertical pad 0 0 0 0px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 391x149px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "H2", 540x60px, constraints left/top, fill #FFFFFF, text [Switzer Semibold, 32px], [heading]
+            - TEXT "Body", 333x69px, constraints left/top, fill #BBBBBB, text [Body Medium]
+          - INSTANCE "Form", 286x91px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Form", 286x42px, horizontal pad 9 12 9 12px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF33
+            - INSTANCE "Buttons", 286x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "helix", 268.53x268.53px, constraints left/top, fill image(hash: 169e3a9dbdccb982fe0adcdfa86514e4717a55a4)
+    - INSTANCE "Footer-S", 390x150px, vertical pad 50 40 50 40px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #05020A, stroke #FFFFFF33 1px
+      - TEXT "@ 2024 Your Company, Inc. All rights reserved", 298x18px, constraints left/top, fill #808080, text [Body Small Tag]
+      - FRAME "Frame 26", 199x24px, horizontal pad 0 0 0 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x14px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16x16px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15x17px, constraints scale/scale, fill #FFFFFF80
+        - INSTANCE "Socials", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 21x16.5px, constraints scale/scale, fill #FFFFFF80
+
+Screen: Components / Buttons
+- COMPONENT_SET "Buttons", 177x340px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "CTA=Black S arrow", 139x40px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #000000
+    - TEXT "Get for free", 85x19px, constraints left/top, fill #FFFFFF, text [Body Bold]
+    - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.5x10.5px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "CTA=Black S", 115x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #000000
+    - TEXT "Get for free", 85x19px, constraints left/top, fill #FFFFFF, text [Body Bold]
+  - COMPONENT "CTA=White S", 115x39px, horizontal pad 10 15 10 15px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+    - TEXT "Get for free", 85x19px, constraints left/top, fill #000000, text [Body Bold]
+  - COMPONENT "CTA=No Background", 109x40px, horizontal pad 10 0 10 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px
+    - TEXT "Get for free", 85x19px, constraints left/top, fill #000000, text [Body Bold]
+    - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12.5x10.5px, constraints scale/scale, fill #000000
+  - COMPONENT "CTA=White M", 125x49px, horizontal pad 15 20 15 20px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+    - TEXT "Get for free", 85x19px, constraints left/top, fill #000000, text [Body Bold]
+
+Screen: Components / Icons
+- COMPONENT_SET "Icons", 147x278px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Icons=Ecosystem", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.63x15.63px, constraints scale/scale, fill #000000
+  - COMPONENT "Icons=Target", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 16.89x16.89px, constraints scale/scale, fill #000000
+  - COMPONENT "Icons=Target-White", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 16.89x16.89px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "Icons=Lock", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.62x17.5px, constraints scale/scale, fill #000000
+  - COMPONENT "Icons=Lock-White", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.62x17.5px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "Icons=Notifications", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.62x16.88px, constraints scale/scale, fill #000000
+  - COMPONENT "Icons=Notifications-White", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.62x16.88px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "Icons=Arrow-w", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 12.5x10.5px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "Icons=Arrow-b", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 12.5x10.5px, constraints scale/scale, fill #000000
+  - COMPONENT "Icons=Tick", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 13x9.5px, constraints scale/scale, fill #000000
+  - COMPONENT "Icons=Menu", 20x20px, constraints left/top, fill #FFFFFF
+    - FRAME "menu", 20x20px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 15.62x11.88px, constraints scale/scale, fill #000000
+  - COMPONENT "Icons=Menu-w", 20x20px, constraints left/top, fill #FFFFFF
+    - FRAME "menu", 20x20px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 15.62x11.88px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "Icons=Tick-White", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 13x9.5px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "Icons=Ecosystem-White", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 15.63x15.63px, constraints scale/scale, fill #FFFFFF
+
+Screen: Components / Footer-S/Socials/Card
+- COMPONENT "Footer-S/Socials/Card", 486x538px, vertical pad 40 40 40 40px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke #1B1B1B14 1px, effect [drop_shadow 24px offset 0 7 #24262B]
+  - RECTANGLE "cube-helix 1", 329x329px, constraints left/top, fill image(hash: e6f3898f606af89c9f2cc41ce3a572c6a6238284)
+  - FRAME "Frame 17", 385x129px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "H2", 262x60px, constraints left/top, fill gradient_linear(#000000 0% | #001354 100%), text [H4], [heading]
+    - TEXT "Body", 345x69px, constraints left/top, fill #010D3E, text [Body Medium]
+
+Screen: Components / Testimonial
+- COMPONENT "Testimonial", 325x234px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #F1F1F1 1px, effect [drop_shadow 14px offset 0 7 #EAEAEA]
+  - TEXT "As a seasoned designer always on the lookout for innovative ", 245x92px, constraints left/top, fill #000000, text [Body Medium]
+  - FRAME "Frame 18", 191x42px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - ELLIPSE "Ellipse 1", 42x42px, constraints left/top, fill image(hash: 07864d8d3924432cae9b99b830bf273dd0982c09)
+    - FRAME "Frame 1", 141x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Alex Rivera", 82x19px, constraints left/top, fill #000000, text [Body Bold]
+      - TEXT "@jamietechguru00", 141x23px, constraints left/top, fill #000000, text [Body Medium]
+
+Screen: Components / Feature Cards
+- COMPONENT_SET "Feature Cards", 447x558px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Feature Card-Light Mode", 282x225px, vertical pad 40 0 40 0px gap 10px sizing W:fixed H:fixed, constraints center/center
+    - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.75x18.75px, constraints scale/scale, fill #000000
+    - TEXT "Integration ecosystem", 185x23px, constraints left/top, fill #000000, text [H5], [heading]
+    - FRAME "Frame 23", 282x77px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Body", 282x46px, constraints left/top, fill #000000, text [Body Medium]
+      - INSTANCE "Buttons", 107x21px, horizontal pad 10 0 10 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px
+        - TEXT "Get for free", 85x23px, constraints left/top, fill #000000, text [Body Medium]
+        - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12.5x10.5px, constraints scale/scale, fill #000000
+  - COMPONENT "Property 1=Feature Card-Dark Mode", 399x237px, vertical pad 40 40 40 40px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #0D0D0D, stroke #FFFFFF33 1px
+    - FRAME "Frame 21", 56x56px, vertical pad 18 18 18 18px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+      - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.63x15.63px, constraints scale/scale, fill #000000
+    - FRAME "Frame 24", 319x77px, vertical pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Integration ecosystem", 185x23px, constraints left/top, fill #FFFFFF, text [H5], [heading]
+      - TEXT "Body", 319x46px, constraints left/top, fill #FFFFFF, text [Body Medium]
+
+Screen: Components / Socials
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
+
+
+---
+
+---
+name: ai-startup-website-ui-kit-framer-website-kit-community
+source_file: AI Startup Website UI Kit — Framer Website Kit (Community)
+source_page: All pages (8): Example 1, Example 2, 3D's, Components, ---, Use this kit in Framer, Figma to HTML with Framer Plugin, Cover
+generated_at: 2026-07-02T20:45:43.397418+00:00
+---
+
+# AI Startup Website UI Kit — Framer Website Kit (Community) Design Guidelines
+
+## Source
+- Figma file: AI Startup Website UI Kit — Framer Website Kit (Community)
+- Figma page: All pages (8): Example 1, Example 2, 3D's, Components, ---, Use this kit in Framer, Figma to HTML with Framer Plugin, Cover
+- Extracted at: 2026-07-02T20:45:43.397418+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 597 uses
+- #FFFFFF26: 222 uses
+- #000000: 107 uses
+- #FFFFFF80: 103 uses
+- #FFFFFFB2: 78 uses
+- #FFFFFF00: 52 uses
+- #FFFFFF99: 35 uses
+- #140B27: 31 uses
+- #8C45FF66: 21 uses
+- #FFFFFF1A: 21 uses
+- #9855FF: 18 uses
+- #3D3D3D66: 14 uses
+- #0000000F: 13 uses
+- #282729: 11 uses
+- #020103: 9 uses
+- #D9D9D9: 9 uses
+- #8C45FF: 8 uses
+
+## Typography Tokens
+- Body XS: Inter Regular (400), 13px / 26px, tracking -0px
+- Body S: Inter Regular (400), 14px / 26px, tracking -0px
+- Body M: Inter Regular (400), 16px / 26px, tracking -0px
+- Heading 5: Inter Medium (500), 16px / 31px, tracking -0px
+- Body L: Inter Regular (400), 20px / 31px, tracking -0px
+- Heading 2: Inter Medium (500), 56px / 65px, tracking -0.84px
+- Heading 4: Inter Medium (500), 24px / 38px, tracking -0.01px
+- Quote: Inter Medium (500), 23px / 34px, tracking -0px
+- Heading 3: Inter Medium (500), 32px / 38px, tracking -0.01px
+- Heading 1: Inter Medium (500), 82px / 84px, tracking -4.15px
+- Heading 6: Inter Medium (500), 13px / 26px, tracking -0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 13px: 14 uses
+- Inter Medium, 15px: 12 uses
+- Inter Bold, 10px: 11 uses
+- Inter Medium, 24px: 11 uses
+- Inter Regular, 10px: 8 uses
+- Inter Medium, 26px: 7 uses
+- Inter Bold, 130px: 3 uses
+- Inter Bold, 390px: 3 uses
+- Inter Bold, 64px: 3 uses
+- Inter Regular, 18px: 3 uses
+
+## Typography Hierarchy
+- 390px - Inter Bold, 390px (raw)
+- 130px - Inter Bold, 130px (raw)
+- 82px - Heading 1 (Inter Medium)
+- 64px - Inter Bold, 64px (raw)
+- 56px - Heading 2 (Inter Medium)
+- 32px - Heading 3 (Inter Medium)
+- 26px - Inter Medium, 26px (raw)
+- 24px - Heading 4 (Inter Medium)
+- 24px - Inter Medium, 24px (raw)
+- 23px - Quote (Inter Medium)
+- 20px - Body L (Inter Regular)
+- 18px - Inter Regular, 18px (raw)
+- 16px - Body M (Inter Regular)
+- 16px - Heading 5 (Inter Medium)
+- 15px - Inter Medium, 15px (raw)
+- 14px - Body S (Inter Regular)
+- 13px - Body XS (Inter Regular)
+- 13px - Heading 6 (Inter Medium)
+- 13px - Inter Regular, 13px (raw)
+- 10px - Inter Bold, 10px (raw)
+- 10px - Inter Regular, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- CTA S
+- Footer
+- Nav
+- Form
+- Testimonial
+- Pricing Card
+- CTA
+- Toggle
+- Logo
+- AI Kit
+- Toggle Button
+- Nav elements
+- Badge
+
+## Component Specs
+- CTA S: size 121x41px, radius 8px, horizontal layout, padding 5 15 5 15px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Inter Medium, 15px]
+- Footer: size 1162.66x38px, horizontal layout, padding 0 30 0 30px, gap 256px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF00, text [Body XS, Inter Regular, 13px] | variants: Property 1: S; Property 2: Desktop/Mobile
+- Nav: size 1200x68px, horizontal layout, padding 13 0 13 0px, gap 74px, align center/center, sizing W:fixed H:fixed, stroke #FFFFFF26 1px, text [Body S, Body XS] | variants: Property 1: M/S/S/Mobile
+- Form: size 401x49px, vertical layout, padding 0 0 0 0px, gap 10px, align center/min, sizing W:fixed H:fixed, text [Body M, Inter Medium, 15px] | variants: Property 1: Desktop/mobile
+- Testimonial: size 990x401px | variants: Property 1: Desktop/Mobile
+- Pricing Card: size 307x500px, text [Body S, Body M, Inter Medium, 24px] | variants: Property 1: Dark/Light
+- CTA: size 109x30px, radius 8px, horizontal layout, padding 2 15 2 15px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px], text [Body S] | variants: Property 1: Dark/Purple/White; Property 2: M/S
+- Toggle/Text: size 133x31px, horizontal layout, padding 0 0 0 0px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Heading 5]
+- Logo: size 38x38px, fill #FFFFFF
+- AI Kit/Feature: size 259x93px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Body M, Heading 5]
+- Toggle Button: size 33x20px
+- Logo/Box: size 235x98px, radius 10px, vertical layout, padding 32 40 32 40px, gap 10px, sizing W:fixed H:fixed, stroke #FFFFFF26 1px
+- Logo/Ticker: size 1318x30px, horizontal layout, padding 0 0 0 0px, gap 54px, align min/center, sizing W:fixed H:fixed, text [Body S]
+- Nav elements: size 512x42px, radius 60px, horizontal layout, padding 8 40 8 40px, gap 30px, align center/center, sizing W:fixed H:fixed, stroke #FFFFFF26 1px, text [Body XS]
+- Badge/S: size 34x18px, radius 40px, vertical layout, padding 10 10 10 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #9855FF, text [Inter Bold, 10px]
+- Badge/M: size 291x42px, radius 50px, horizontal layout, padding 8 14 8 14px, gap 7px, align min/center, sizing W:fixed H:fixed, fill #000000, stroke #FFFFFF26 1px, text [Body M, Inter Bold, 10px]
+
+## Most-Used Styles
+- Body S: 223 uses
+- Body M: 105 uses
+- Body XS: 103 uses
+- Heading 5: 62 uses
+- Body L: 15 uses
+- Heading 2: 12 uses
+- Heading 6: 12 uses
+- Heading 4: 9 uses
+- Heading 1: 4 uses
+- Heading 3: 4 uses
+- Quote: 4 uses
+
+## Layout & Structure
+Screen: Example 1 / Desktop
+- FRAME "Desktop", 1200x5922px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #020103
+  - FRAME "Nav/M", 1200x68px, horizontal pad 13 0 13 0px gap 74px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+    - INSTANCE "Logo", 38x38px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Logo", 38x38px, constraints scale/scale, fill image(hash: 715ed604d5b3586a8dadef2253faa05390e29898)
+    - INSTANCE "Nav elements", 512x42px, horizontal pad 8 40 8 40px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top, radius 60px, stroke #FFFFFF26 1px
+      - FRAME "Frame 28", 71x26px, horizontal pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Features", 54x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+        - FRAME "caret-down 1", 14x14px, constraints left/top, fill #FFFFFF, opacity 60%
+          - VECTOR "Vector", 9.63x5.25px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Developers", 70x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+      - FRAME "Frame 29", 76x26px, horizontal pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Company", 59x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+        - FRAME "caret-down 2", 14x14px, constraints left/top, fill #FFFFFF, opacity 60%
+          - VECTOR "Vector", 9.63x5.25px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Blog", 28x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+      - TEXT "Changelog", 67x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+    - FRAME "CTA", 121x42px, vertical pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #FFFFFF26 1px
+      - INSTANCE "CTA", 109x30px, horizontal pad 2 15 2 15px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+        - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+  - FRAME "Hero", 1200x1165px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "App & Mask", 1200x1165px, constraints left/top, radius 0/0/0/0px [decorative, ~10 shapes]
+    - FRAME "Frame 32", 586x319px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "Heading 1", 586x168px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #B372CF 100%), text [Heading 1], [heading]
+      - TEXT "Body", 544x62px, constraints left/top, fill #FFFFFF, text [Body L]
+      - RECTANGLE "Rectangle 4", 137x57px, constraints left/top, radius 12px, stroke #FFFFFF1A 1px
+      - COMPONENT "CTA S", 121x41px, horizontal pad 5 15 5 15px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 8px, fill #FFFFFF
+        - TEXT "Start for free", 91x31px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+    - RECTANGLE "Black Shade", 1200x308px, constraints left/top, fill gradient_linear(#00000000 0% | #050208 100%)
+    - INSTANCE "Badge/M", 291x42px, horizontal pad 8 14 8 14px gap 7px align min/center sizing W:fixed H:fixed, constraints center/top, radius 50px, fill #000000, stroke #FFFFFF26 1px
+      - INSTANCE "Badge/S", 34x18px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #9855FF
+        - TEXT "NEW", 24x17px, constraints left/top, fill #000000, text [Inter Bold, 10px]
+      - TEXT "Latest integration just arrived", 222x26px, constraints left/top, fill #9855FF, text [Body M]
+  - FRAME "Companies", 1200x390px, vertical pad 0 0 0 0px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Trusted by the world’s most innovative teams", 342x26px, constraints left/top, fill #FFFFFFB2, text [Body M]
+    - FRAME "Logos", 970x206px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Row 1", 970x98px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Logo/Box", 235x98px, vertical pad 32 40 32 40px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 941013f15bd70e5728d3a7c822c99db88103f761)
+        - INSTANCE "Logo/Box", 235x98px, vertical pad 32 40 32 40px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: bb3b23a45e00043771c516d33d948c587bfbd166)
+        - INSTANCE "Logo/Box", 235x98px, vertical pad 32 40 32 40px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 5690b2d066847ffd317ca6c0aa7db639e8ae55f6)
+        - INSTANCE "Logo/Box", 235x98px, vertical pad 32 40 32 40px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 2388911dc5c60ec1bfd6a5a12c6418677af625f1)
+      - FRAME "Row 3", 970x98px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Logo/Box", 235x98px, vertical pad 32 40 32 40px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 5e0312fb091f502a345b0cca8b0307e4d1891d76)
+        - INSTANCE "Logo/Box", 235x98px, vertical pad 32 40 32 40px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 7c7787ac21932c0368f447fd099935a7608f8f49)
+        - INSTANCE "Logo/Box", 235x98px, vertical pad 32 40 32 40px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 4f61c09cd2f3d7147e895046ed70a7e6d0b60f96)
+        - INSTANCE "Logo/Box", 235x98px, vertical pad 32 40 32 40px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: fad388fb2dd1d6f1bb6c2b961fd5ff21fbffb0dc)
+  - FRAME "Bento", 1200x1136px, vertical pad 80 50 80 50px gap 31px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Heading2", 553x114px, constraints left/top, fill #FFFFFF, text [Heading 3], [heading]
+    - FRAME "Bento1", 1100x400px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "SEO", 346x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 5", 346x400px, constraints left/top, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+        - GROUP "Text", 259x79px, constraints left/top, radius 0/0/0/0px
+          - TEXT "SEO goal setting", 127x17px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Helps you set and achieve SEO goals with guided assistance.", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - RECTANGLE "Visual", 265x206px, constraints left/top, fill image(hash: 24a9f01d3971cc35568397685ee5c97315aec88f)
+      - GROUP "User Friendly", 744x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 7", 744x400px, constraints left/top, radius 10px, fill gradient_linear(#000000 0% | #371866 100%)
+        - GROUP "Visual", 744x400px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 8", 744x400px, constraints left/top, radius 10px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1)
+          - RECTANGLE "App Wide@2x 1", 1098x793.24px, constraints left/top, radius 8px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1), stroke #FFFFFF1A 1px
+          - RECTANGLE "Rectangle 9", 744x400px, constraints left/top, fill gradient_linear(#03010600 0% | #361764 100%)
+        - GROUP "Text", 259x86px, constraints left/top, radius 0/0/0/0px
+          - TEXT "User-friendly dashboard", 187x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Perform complex SEO audits and optimizations with a single c", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+    - FRAME "Bento2", 1100x400px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Visual reports", 744x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 7", 744x400px, constraints left/top, radius 10px, fill gradient_linear(#000000 0% | #371866 100%)
+        - GROUP "Visual", 744x400px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 8", 744x400px, constraints left/top, radius 10px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1)
+          - RECTANGLE "App Wide@2x 1", 633x353.28px, constraints left/top, radius 8px, fill image(hash: eae8138160032364094bfd6626ea47c713363c5a), stroke #FFFFFF1A 1px
+          - RECTANGLE "Rectangle 9", 744x400px, constraints left/top, fill gradient_linear(#03010600 0% | #361764 100%)
+        - GROUP "Text", 189x79px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Visual reports", 127x17px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Visual insights into your site’s performance.", 189x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+      - GROUP "Smart Generator", 346x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 5", 346x400px, constraints left/top, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+        - GROUP "Text", 225x86px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Smart Keyword Generator", 199x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic suggestions and the best keywords to target.", 225x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - RECTANGLE "Visual", 234x234px, constraints left/top, fill image(hash: 295d6d3d5c83aa5d4622b0189a7d97a1343e5d11)
+  - FRAME "Features", 1200x681px, vertical pad 76 50 76 50px gap 40px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#190D2E 0% | #020103 100%), stroke #FFFFFF26 1px
+    - TEXT "Heading 2", 354x130px, constraints left/top, fill #FFFFFF, text [Heading 2], [heading]
+    - FRAME "Frame 14", 1086x359px, horizontal pad 0 0 0 0px gap 60px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 13", 322x359px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "AI Kit/Feature", 259x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 208x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "gauge 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Title", 187x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Body", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 259x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 166x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "list-checks 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Content evaluation", 145x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Simple corrections for immediate improvemens.", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 259x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 212x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "magic-wand 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Link Optimization Wizard", 191x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Guides you through the process of creating and managing link", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+      - FRAME "Frame 12", 322x359px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 128x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "chart-line 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Visual reports", 107x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Visual insights into your site’s performance.", 265x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 148x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "target 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "SEO goal setting", 127x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Helps you set and achieve SEO goals with guided assistance.", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 321x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 194x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "cursor-click 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "One-click optimization", 173x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Perform complex SEO audits and optimizations with a single c", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+      - FRAME "Frame 11", 322x359px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 220x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "sparkle 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Smart Keyword Generator", 199x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic suggestions and the best keywords to target.", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 154x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "bell-ringing 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Automated alerts", 133x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic notifications about your SEO health, including qui", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 321x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 168x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "files 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Competitor reports", 147x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Provides insights into competitors’ keyword strategies and r", 321x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+    - FRAME "Frame 10", 857x79px, constraints left/top
+  - FRAME "Clients", 1170x723px, vertical pad 78 90 78 90px gap 28px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Heading 2", 289x48px, constraints left/top, fill #FFFFFF, text [Heading 2], [heading]
+    - TEXT "Hear firsthand how our solutions have boosted online success", 433x62px, constraints left/top, fill #FFFFFF, text [Body L]
+    - INSTANCE "Testimonial", 990x401px, constraints left/top
+      - RECTANGLE "Avatar@3x 1", 217x217px, constraints scale/scale, radius 20px, fill image(hash: 8c8e2f273918e4312c37556124cb921ca962ebf6)
+      - LINE "Line 1", 0x401px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+      - LINE "Line 2", 0x401px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+      - LINE "Line 3", 990x0px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+      - LINE "Line 4", 990x0px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+    - FRAME "Frame 15", 339x170px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "”This product has completely transformed how I manage my pro", 339x102px, constraints left/top, fill #FFFFFF, text [Quote]
+      - GROUP "Text", 289x48px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Talia Taylor", 127x17px, constraints left/top, fill #FFFFFF, text [Body M]
+        - TEXT "Digital Marketing Director @ Quantum", 289x26px, constraints left/top, fill #FFFFFFB2, text [Body S]
+    - ELLIPSE "Ellipse 7", 312x234px, constraints left/top, fill #8C45FF80, effect [layer_blur 254px]
+  - FRAME "Pricing", 1199x793px, vertical pad 14 129 14 129px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill gradient_radial(#56299D00 0% | #020103 100%)
+    - FRAME "Frame 34", 941x765px, vertical pad 0 0 0 0px gap 111px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 17", 433x150px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Heading 2", 289x48px, constraints left/top, fill #FFFFFF, text [Heading 2], [heading]
+        - TEXT "Body", 433x62px, constraints left/top, fill #FFFFFF, text [Body L]
+      - FRAME "Frame 33", 941x504px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Pricing Card", 307x500px, constraints left/top
+          - RECTANGLE "Rectangle 16", 307x500px, constraints scale/scale, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+          - INSTANCE "CTA", 267x38px, horizontal pad 6 15 6 15px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill #3D3D3D66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+            - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+          - LINE "Line 5", 267x0px, constraints scale/scale, stroke #282729 1px
+          - FRAME "Frame 33", 163x243px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 32", 147x63px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Rows", 163x140px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Pricing Card", 307x504px, constraints left/top
+          - RECTANGLE "Rectangle 17", 307x500px, constraints scale/scale, radius 10px, fill gradient_linear(#010002 0% | #361764 100%), effect [drop_shadow 74px offset 0 10 #4E00BF69]
+          - LINE "Line 6", 267x0px, constraints scale/scale, stroke #282729 1px
+          - GROUP "Pattern", 307x504px, constraints scale/scale, radius 0/0/0/0px, opacity 30%
+            - RECTANGLE "Rectangle 17", 307x504px, constraints scale/scale, radius 10px, fill gradient_linear(#010002 0% | #361764 100%), effect [drop_shadow 74px offset 0 10 #4E00BF69]
+            - RECTANGLE "pattern 1", 308x432.43px, constraints scale/scale, radius 15px, fill image(hash: e943fd303c0291fd9475f87f73eb8662aae4ab65)
+            - RECTANGLE "Rectangle 18", 310x485.86px, constraints scale/scale, radius 10px, fill gradient_linear(#000000 29% | #00000000 100%)
+          - INSTANCE "CTA", 267x38px, horizontal pad 6 15 6 15px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+            - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+          - FRAME "Frame 31", 163x314px, vertical pad 0 0 0 0px gap 41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 30", 147x63px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Rows", 163x210px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Pricing Card", 307x500px, constraints left/top
+          - RECTANGLE "Rectangle 16", 307x500px, constraints scale/scale, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+          - INSTANCE "CTA", 267x38px, horizontal pad 6 15 6 15px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill #3D3D3D66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+            - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+          - LINE "Line 5", 267x0px, constraints scale/scale, stroke #282729 1px
+          - FRAME "Frame 33", 163x243px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 32", 147x63px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Rows", 163x140px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Toggle/Text", 77x31px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+      - INSTANCE "Toggle Button", 33x20px, constraints left/top
+        - RECTANGLE "Rectangle 10", 33x20px, constraints scale/scale, radius 30px, fill #8C45FF
+        - RECTANGLE "Rectangle 11", 16x16px, constraints scale/scale, radius 30px, fill #F9F5FF
+      - TEXT "Billed Yearly", 38x31px, constraints left/top, fill #FFFFFF80, text [Heading 5], [heading]
+  - FRAME "CTA", 1200x558px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 27", 1200x558px, constraints left/top
+    - GROUP "CTA Section", 1100x473px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 19", 1100x473px, constraints center/top, radius 10px, fill #D9D9D9
+      - RECTANGLE "pattern 1", 1100x473px, constraints center/top, radius 15px, fill image(hash: e943fd303c0291fd9475f87f73eb8662aae4ab65)
+      - ELLIPSE "Ellipse 9", 686x622px, constraints center/top, fill #8C45FF7D, effect [layer_blur 304px]
+      - RECTANGLE "Rectangle 21", 1093x473px, constraints left/top, fill gradient_linear(#02010300 0% | #020103 100%)
+      - INSTANCE "Form", 401x49px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Form", 401x49px, horizontal pad 19 16 19 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #FFFFFF26 1px
+          - INSTANCE "CTA", 114x41px, horizontal pad 5 15 5 15px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+            - TEXT "Join waitlist", 84x31px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+          - TEXT "Your email", 91x11px, constraints left/top, fill #FFFFFF80, text [Body M]
+    - RECTANGLE "Rectangle 20", 1100x473px, constraints center/top, radius 10px, stroke #FFFFFF26 1px
+    - TEXT "Heading 2", 422x132px, constraints center/top, fill #FFFFFF, text [Heading 2], [heading]
+    - FRAME "Frame 21", 316x26px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "No credit card required", 175x26px, constraints left/top, fill #FFFFFF80, text [Body M]
+      - TEXT "·", 5x26px, constraints left/top, fill #FFFFFF80, text [Body M]
+      - TEXT "7-days free trial", 120x26px, constraints left/top, fill #FFFFFF80, text [Body M]
+  - FRAME "Footer", 1195x408px, horizontal pad 41 45 41 45px gap 483px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+    - RECTANGLE "logokit 1", 137.66x38px, constraints left/top, fill image(hash: 8909687868a3643fa9263486615e91c4e8870fd0)
+    - FRAME "Frame 26", 430x302px, horizontal pad 0 0 0 0px gap 60px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 30", 188x302px, horizontal pad 0 0 0 0px gap 60px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 22", 67x256px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Product", 49x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+          - TEXT "Features", 54x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Integration", 67x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Updates", 52x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "FAQ", 25x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+          - TEXT "Pricing", 43x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+        - FRAME "Frame 23", 61x302px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Company", 60x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+          - TEXT "About", 37x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Blog", 28x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Careers", 49x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Manifesto", 61x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+          - TEXT "Press", 35x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Contract", 54x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+      - FRAME "Frame 31", 182x256px, horizontal pad 0 0 0 0px gap 60px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 24", 71x256px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Resources", 66x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+          - TEXT "Examples", 59x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Community", 71x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Guides", 43x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Docs", 32x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+          - TEXT "Press", 35x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+        - FRAME "Frame 25", 51x164px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Legal", 34x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+          - TEXT "Privacy", 46x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Terms", 38x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - TEXT "Security", 51x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+    - FRAME "Frame 27", 132x24px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "x-logo-fill 1", 24x24px, constraints left/top, fill #FFFFFF, opacity 40%
+        - VECTOR "Vector", 16.5x18px, constraints scale/scale, fill #FFFFFF
+      - FRAME "instagram-logo-fill 1", 24x24px, constraints left/top, fill #FFFFFF, opacity 40%
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #FFFFFF
+      - FRAME "youtube-logo-fill 1", 24x24px, constraints left/top, fill #FFFFFF, opacity 40%
+        - VECTOR "Vector", 21x16.5px, constraints scale/scale, fill #FFFFFF
+
+Screen: Example 1 / Tablet
+- FRAME "Tablet", 810x5745.38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #020103
+  - FRAME "Nav/M", 810x68px, horizontal pad 13 0 13 0px gap 34px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+    - INSTANCE "Logo", 38x38px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Logo", 38x38px, constraints scale/scale, fill image(hash: 715ed604d5b3586a8dadef2253faa05390e29898)
+    - INSTANCE "Nav elements", 512x42px, horizontal pad 8 40 8 40px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top, radius 60px, stroke #FFFFFF26 1px
+      - FRAME "Frame 28", 71x26px, horizontal pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Features", 54x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+        - FRAME "caret-down 1", 14x14px, constraints left/top, fill #FFFFFF, opacity 60%
+          - VECTOR "Vector", 9.63x5.25px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Developers", 70x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+      - FRAME "Frame 29", 76x26px, horizontal pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Company", 59x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+        - FRAME "caret-down 2", 14x14px, constraints left/top, fill #FFFFFF, opacity 60%
+          - VECTOR "Vector", 9.63x5.25px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Blog", 28x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+      - TEXT "Changelog", 67x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+    - FRAME "CTA", 121x42px, vertical pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #FFFFFF26 1px
+      - INSTANCE "CTA", 109x30px, horizontal pad 2 15 2 15px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+        - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+  - FRAME "Hero", 810x786.38px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "App & Mask", 810x786.38px, constraints left/top, radius 0/0/0/0px [decorative, ~10 shapes]
+    - FRAME "Frame 32", 586x319px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "Heading 1", 586x168px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #B372CF 100%), text [Heading 1], [heading]
+      - TEXT "Body", 544x62px, constraints left/top, fill #FFFFFF, text [Body L]
+      - RECTANGLE "Rectangle 4", 137x57px, constraints left/top, radius 12px, stroke #FFFFFF1A 1px
+      - INSTANCE "CTA S", 121x41px, horizontal pad 5 15 5 15px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 8px, fill #FFFFFF
+        - TEXT "Start for free", 91x31px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+    - RECTANGLE "Black Shade", 810x308px, constraints left/top, fill gradient_linear(#00000000 0% | #050208 100%)
+    - INSTANCE "Badge/M", 291x42px, horizontal pad 8 14 8 14px gap 7px align min/center sizing W:fixed H:fixed, constraints center/top, radius 50px, fill #000000, stroke #FFFFFF26 1px
+      - INSTANCE "Badge/S", 34x18px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #9855FF
+        - TEXT "NEW", 24x17px, constraints left/top, fill #000000, text [Inter Bold, 10px]
+      - TEXT "Latest integration just arrived", 222x26px, constraints left/top, fill #9855FF, text [Body M]
+  - FRAME "Companies", 810x390px, vertical pad 0 0 0 0px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Trusted by the world’s most innovative teams", 342x26px, constraints left/top, fill #FFFFFFB2, text [Body M]
+    - FRAME "Logos", 730x206px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Row 1", 730x98px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 941013f15bd70e5728d3a7c822c99db88103f761)
+        - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: bb3b23a45e00043771c516d33d948c587bfbd166)
+        - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 5690b2d066847ffd317ca6c0aa7db639e8ae55f6)
+        - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 2388911dc5c60ec1bfd6a5a12c6418677af625f1)
+      - FRAME "Row 3", 730x98px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 5e0312fb091f502a345b0cca8b0307e4d1891d76)
+        - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 7c7787ac21932c0368f447fd099935a7608f8f49)
+        - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 4f61c09cd2f3d7147e895046ed70a7e6d0b60f96)
+        - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+          - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: fad388fb2dd1d6f1bb6c2b961fd5ff21fbffb0dc)
+  - FRAME "Bento", 810x1136px, vertical pad 80 50 80 50px gap 31px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Heading2", 553x114px, constraints left/top, fill #FFFFFF, text [Heading 3], [heading]
+    - FRAME "Bento1", 744x400px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "SEO", 254x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 5", 254x400px, constraints left/top, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+        - GROUP "Text", 208x109px, constraints left/top, radius 0/0/0/0px
+          - TEXT "SEO goal setting", 131x17px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Helps you set and achieve SEO goals with guided assistance.", 208x78px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - RECTANGLE "Visual", 194.54x206px, constraints left/top, fill image(hash: 24a9f01d3971cc35568397685ee5c97315aec88f)
+      - GROUP "User Friendly", 480x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 7", 480x400px, constraints left/top, radius 10px, fill gradient_linear(#000000 0% | #371866 100%)
+        - GROUP "Visual", 480x400px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 8", 480x400px, constraints left/top, radius 10px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1)
+          - RECTANGLE "App Wide@2x 1", 827x483px, constraints left/top, radius 8px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1), stroke #FFFFFF1A 1px
+          - RECTANGLE "Rectangle 9", 480x400px, constraints left/top, fill gradient_linear(#03010600 0% | #361764 100%)
+        - GROUP "Text", 327.84x90px, constraints left/top, radius 0/0/0/0px
+          - TEXT "User-friendly dashboard", 282.06x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Perform complex SEO audits and optimizations with a single c", 327.84x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+    - FRAME "Bento2", 744x400px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Visual reports", 477x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 7", 477x400px, constraints left/top, radius 10px, fill gradient_linear(#000000 0% | #371866 100%)
+        - GROUP "Visual", 477x400px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 8", 477x400px, constraints left/top, radius 10px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1)
+          - RECTANGLE "App Wide@2x 1", 635x300px, constraints left/top, radius 8px, fill image(hash: eae8138160032364094bfd6626ea47c713363c5a), stroke #FFFFFF1A 1px
+          - RECTANGLE "Rectangle 9", 477x400px, constraints left/top, fill gradient_linear(#03010600 0% | #361764 100%)
+        - GROUP "Text", 315.95x76px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Visual reports", 138.92x17px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Visual insights into your site’s performance.", 315.95x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+      - GROUP "Smart Generator", 254x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 5", 254x400px, constraints left/top, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+        - GROUP "Text", 209x112px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Smart Keyword Generator", 209x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic suggestions and the best keywords to target.", 208.64x78px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - RECTANGLE "Visual", 171.78x234px, constraints left/top, fill image(hash: 295d6d3d5c83aa5d4622b0189a7d97a1343e5d11)
+  - FRAME "Features", 810x950px, vertical pad 76 50 76 50px gap 40px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#190D2E 0% | #020103 100%), stroke #FFFFFF26 1px
+    - TEXT "Heading 2", 354x130px, constraints left/top, fill #FFFFFF, text [Heading 2], [heading]
+    - FRAME "Frame 14", 704x628px, horizontal pad 0 0 0 0px gap 60px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 13", 322x625px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "AI Kit/Feature", 259x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 208x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "gauge 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Title", 187x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Body", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 259x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 166x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "list-checks 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Content evaluation", 145x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Simple corrections for immediate improvemens.", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 259x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 212x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "magic-wand 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Link Optimization Wizard", 191x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Guides you through the process of creating and managing link", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 128x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "chart-line 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Visual reports", 107x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Visual insights into your site’s performance.", 265x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 148x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "target 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "SEO goal setting", 127x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Helps you set and achieve SEO goals with guided assistance.", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+      - FRAME "Frame 12", 322x628px, vertical pad 0 0 0 0px gap 40px align min/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "AI Kit/Feature", 321x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 194x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "cursor-click 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "One-click optimization", 173x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Perform complex SEO audits and optimizations with a single c", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 220x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "sparkle 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Smart Keyword Generator", 199x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic suggestions and the best keywords to target.", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 154x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "bell-ringing 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Automated alerts", 133x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic notifications about your SEO health, including qui", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 321x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 168x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "files 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Competitor reports", 147x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Provides insights into competitors’ keyword strategies and r", 321x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+  - FRAME "Clients", 810x656px, vertical pad 78 90 78 90px gap 28px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Heading 2", 289x48px, constraints left/top, fill #FFFFFF, text [Heading 2], [heading]
+    - TEXT "Hear firsthand how our solutions have boosted online success", 433x62px, constraints left/top, fill #FFFFFF, text [Body L]
+    - INSTANCE "Testimonial", 810x334px, constraints left/top
+      - RECTANGLE "Avatar@3x 1", 177.55x180.74px, constraints scale/scale, radius 20px, fill image(hash: 8c8e2f273918e4312c37556124cb921ca962ebf6)
+      - LINE "Line 1", 0x334px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+      - LINE "Line 2", 0x334px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+      - LINE "Line 3", 810x0px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+      - LINE "Line 4", 810x0px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+    - FRAME "Frame 15", 339x170px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "”This product has completely transformed how I manage my pro", 339x102px, constraints left/top, fill #FFFFFF, text [Quote]
+      - GROUP "Text", 289x48px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Talia Taylor", 127x17px, constraints left/top, fill #FFFFFF, text [Body M]
+        - TEXT "Digital Marketing Director @ Quantum", 289x26px, constraints left/top, fill #FFFFFFB2, text [Body S]
+    - ELLIPSE "Ellipse 7", 312x234px, constraints left/top, fill #8C45FF80, effect [layer_blur 254px]
+  - FRAME "Pricing", 810x793px, vertical pad 14 129 14 129px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill gradient_radial(#56299D00 0% | #020103 100%)
+    - FRAME "Frame 34", 801x765px, vertical pad 0 0 0 0px gap 111px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 17", 433x150px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Heading 2", 289x48px, constraints left/top, fill #FFFFFF, text [Heading 2], [heading]
+        - TEXT "Body", 433x62px, constraints left/top, fill #FFFFFF, text [Body L]
+      - FRAME "Frame 33", 802x504px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Pricing Card", 253x500px, constraints left/top
+          - RECTANGLE "Rectangle 16", 253x500px, constraints scale/scale, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+          - INSTANCE "CTA", 220.04x38px, horizontal pad 6 15 6 15px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill #3D3D3D66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+            - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+          - LINE "Line 5", 220.04x0px, constraints scale/scale, stroke #282729 1px
+          - FRAME "Frame 33", 163x243px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 32", 147x63px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Rows", 163x140px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Pricing Card", 253x504px, constraints left/top
+          - RECTANGLE "Rectangle 17", 253x500px, constraints scale/scale, radius 10px, fill gradient_linear(#010002 0% | #361764 100%), effect [drop_shadow 74px offset 0 10 #4E00BF69]
+          - LINE "Line 6", 220.04x0px, constraints scale/scale, stroke #282729 1px
+          - GROUP "Pattern", 253x504px, constraints scale/scale, radius 0/0/0/0px, opacity 30%
+            - RECTANGLE "Rectangle 17", 253x504px, constraints scale/scale, radius 10px, fill gradient_linear(#010002 0% | #361764 100%), effect [drop_shadow 74px offset 0 10 #4E00BF69]
+            - RECTANGLE "pattern 1", 253.82x432.43px, constraints scale/scale, radius 15px, fill image(hash: e943fd303c0291fd9475f87f73eb8662aae4ab65)
+            - RECTANGLE "Rectangle 18", 255.47x485.86px, constraints scale/scale, radius 10px, fill gradient_linear(#000000 29% | #00000000 100%)
+          - INSTANCE "CTA", 220.04x38px, horizontal pad 6 15 6 15px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+            - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+          - FRAME "Frame 31", 163x314px, vertical pad 0 0 0 0px gap 41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 30", 147x63px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Rows", 163x210px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Pricing Card", 253x500px, constraints left/top
+          - RECTANGLE "Rectangle 16", 253x500px, constraints scale/scale, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+          - INSTANCE "CTA", 220.04x38px, horizontal pad 6 15 6 15px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill #3D3D3D66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+            - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+          - LINE "Line 5", 220.04x0px, constraints scale/scale, stroke #282729 1px
+          - FRAME "Frame 33", 163x243px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 32", 147x63px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Rows", 163x140px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Toggle/Text", 133x31px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+        - INSTANCE "Toggle Button", 33x20px, constraints left/top
+          - RECTANGLE "Rectangle 10", 33x20px, constraints scale/scale, radius 30px, fill #8C45FF
+          - RECTANGLE "Rectangle 11", 16x16px, constraints scale/scale, radius 30px, fill #F9F5FF
+        - TEXT "Billed Yearly", 94x31px, constraints left/top, fill #FFFFFF80, text [Heading 5], [heading]
+  - FRAME "CTA", 810x558px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 27", 810x558px, constraints left/top
+    - GROUP "CTA Section", 776x473px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 19", 776x473px, constraints center/top, radius 10px, fill #D9D9D9
+      - RECTANGLE "pattern 1", 776x473px, constraints center/top, radius 15px, fill image(hash: e943fd303c0291fd9475f87f73eb8662aae4ab65)
+      - ELLIPSE "Ellipse 9", 450.27x622px, constraints center/top, fill #8C45FF7D, effect [layer_blur 304px]
+      - RECTANGLE "Rectangle 21", 776x473px, constraints left/top, fill gradient_linear(#02010300 0% | #020103 100%)
+      - INSTANCE "Form", 403x49px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Form", 401x49px, horizontal pad 19 16 19 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #FFFFFF26 1px
+          - INSTANCE "CTA", 114x41px, horizontal pad 5 15 5 15px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+            - TEXT "Join waitlist", 84x31px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+          - TEXT "Your email", 91x11px, constraints left/top, fill #FFFFFF80, text [Body M]
+    - RECTANGLE "Rectangle 20", 776x473px, constraints center/top, radius 10px, stroke #FFFFFF26 1px
+    - TEXT "Heading 2", 422x132px, constraints center/top, fill #FFFFFF, text [Heading 2], [heading]
+    - FRAME "Frame 21", 316x26px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "No credit card required", 175x26px, constraints left/top, fill #FFFFFF80, text [Body M]
+      - TEXT "·", 5x26px, constraints left/top, fill #FFFFFF80, text [Body M]
+      - TEXT "7-days free trial", 120x26px, constraints left/top, fill #FFFFFF80, text [Body M]
+  - FRAME "Footer", 810x408px, horizontal pad 41 45 41 45px gap 483px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+    - FRAME "Frame 35", 737x302px, horizontal pad 0 0 0 0px gap 180px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "logokit 1", 127x35px, constraints left/top, fill image(hash: 8909687868a3643fa9263486615e91c4e8870fd0)
+      - FRAME "Frame 26", 430x302px, horizontal pad 0 0 0 0px gap 60px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 30", 188x302px, horizontal pad 0 0 0 0px gap 60px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 22", 67x256px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Product", 49x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+            - TEXT "Features", 54x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Integration", 67x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Updates", 52x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "FAQ", 25x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+            - TEXT "Pricing", 43x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - FRAME "Frame 23", 61x302px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Company", 60x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+            - TEXT "About", 37x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Blog", 28x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Careers", 49x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Manifesto", 61x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+            - TEXT "Press", 35x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Contract", 54x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+        - FRAME "Frame 31", 182x256px, horizontal pad 0 0 0 0px gap 60px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 24", 71x256px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Resources", 66x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+            - TEXT "Examples", 59x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Community", 71x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Guides", 43x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Docs", 32x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+            - TEXT "Press", 35x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - FRAME "Frame 25", 51x164px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Legal", 34x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+            - TEXT "Privacy", 46x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Terms", 38x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Security", 51x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+    - FRAME "Frame 27", 132x24px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "x-logo-fill 1", 24x24px, constraints left/top, fill #FFFFFF, opacity 40%
+        - VECTOR "Vector", 16.5x18px, constraints scale/scale, fill #FFFFFF
+      - FRAME "instagram-logo-fill 1", 24x24px, constraints left/top, fill #FFFFFF, opacity 40%
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #FFFFFF
+      - FRAME "youtube-logo-fill 1", 24x24px, constraints left/top, fill #FFFFFF, opacity 40%
+        - VECTOR "Vector", 21x16.5px, constraints scale/scale, fill #FFFFFF
+
+Screen: Example 1 / Mobile
+- FRAME "Mobile", 390x8665px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #020103
+  - INSTANCE "Nav", 390x68px, horizontal pad 13 0 13 0px gap 154px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+    - INSTANCE "Logo", 38x38px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Logo", 38x38px, constraints scale/scale, fill image(hash: 715ed604d5b3586a8dadef2253faa05390e29898)
+    - FRAME "Frame 36", 163x42px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "CTA", 121x42px, vertical pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #FFFFFF26 1px
+        - INSTANCE "CTA", 109x30px, horizontal pad 2 15 2 15px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+          - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+      - FRAME "list 1", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x18px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Hero", 390x786px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "App & Mask", 390x786px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+    - FRAME "Frame 32", 369x277px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "Heading 1", 394x104px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #B372CF 100%), text [Inter Medium, 48px], [heading]
+      - TEXT "Body", 359x84px, constraints left/top, fill #FFFFFF, text [Inter Regular, 18px]
+      - RECTANGLE "Rectangle 4", 137x57px, constraints left/top, radius 12px, stroke #FFFFFF1A 1px
+      - INSTANCE "CTA S", 121x41px, horizontal pad 5 15 5 15px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 8px, fill #FFFFFF
+        - TEXT "Start for free", 91x31px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+    - RECTANGLE "Black Shade", 390x308px, constraints left/top, fill gradient_linear(#00000000 0% | #050208 100%)
+    - INSTANCE "Badge/M", 291x42px, horizontal pad 8 14 8 14px gap 7px align min/center sizing W:fixed H:fixed, constraints center/top, radius 50px, fill #000000, stroke #FFFFFF26 1px
+      - INSTANCE "Badge/S", 34x18px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #9855FF
+        - TEXT "NEW", 24x17px, constraints left/top, fill #000000, text [Inter Bold, 10px]
+      - TEXT "Latest integration just arrived", 222x26px, constraints left/top, fill #9855FF, text [Body M]
+  - FRAME "Companies", 390x568px, vertical pad 0 0 0 0px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Trusted by the world’s most innovative teams", 342x26px, constraints left/top, fill #FFFFFFB2, text [Body M]
+    - FRAME "Logos", 360x422px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 36", 360x422px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Row 1", 175x422px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+            - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 941013f15bd70e5728d3a7c822c99db88103f761)
+          - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+            - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: bb3b23a45e00043771c516d33d948c587bfbd166)
+          - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+            - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 5690b2d066847ffd317ca6c0aa7db639e8ae55f6)
+          - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+            - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 2388911dc5c60ec1bfd6a5a12c6418677af625f1)
+        - FRAME "Row 3", 175x422px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+            - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 5e0312fb091f502a345b0cca8b0307e4d1891d76)
+          - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+            - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 7c7787ac21932c0368f447fd099935a7608f8f49)
+          - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+            - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: 4f61c09cd2f3d7147e895046ed70a7e6d0b60f96)
+          - INSTANCE "Logo/Box", 175x98px, vertical pad 32 10 32 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #FFFFFF26 1px
+            - RECTANGLE "acme 1", 155x34px, constraints left/top, fill image(hash: fad388fb2dd1d6f1bb6c2b961fd5ff21fbffb0dc)
+  - FRAME "Bento", 387x1994px, vertical pad 80 50 80 50px gap 31px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Heading2", 345x152px, constraints left/top, fill #FFFFFF, text [Inter Medium, 26px], [heading]
+    - FRAME "Bento1", 390x810px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "SEO", 360x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 5", 360x400px, constraints left/top, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+        - GROUP "Text", 294.8x83px, constraints left/top, radius 0/0/0/0px
+          - TEXT "SEO goal setting", 185.67x17px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Helps you set and achieve SEO goals with guided assistance.", 294.8x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - RECTANGLE "Visual", 275.72x206px, constraints left/top, fill image(hash: 24a9f01d3971cc35568397685ee5c97315aec88f)
+      - GROUP "User Friendly", 360x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 7", 360x400px, constraints left/top, radius 10px, fill gradient_linear(#000000 0% | #371866 100%)
+        - GROUP "Visual", 360x400px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 8", 360x400px, constraints left/top, radius 10px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1)
+          - RECTANGLE "App Wide@2x 1", 333x454px, constraints left/top, radius 8px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1), stroke #FFFFFF1A 1px
+          - RECTANGLE "Rectangle 9", 360x400px, constraints left/top, fill gradient_linear(#03010600 0% | #361764 100%)
+        - GROUP "Text", 245.88x116px, constraints left/top, radius 0/0/0/0px
+          - TEXT "User-friendly dashboard", 211.55x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Perform complex SEO audits and optimizations with a single c", 245.88x78px, constraints left/top, fill #FFFFFFB2, text [Body M]
+    - FRAME "Bento2", 390x810px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Visual reports", 360x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 7", 360x400px, constraints left/top, radius 10px, fill gradient_linear(#000000 0% | #371866 100%)
+        - GROUP "Visual", 360x400px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 8", 360x400px, constraints left/top, radius 10px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1)
+          - RECTANGLE "App Wide@2x 1", 333x394px, constraints left/top, radius 8px, fill image(hash: eae8138160032364094bfd6626ea47c713363c5a), stroke #FFFFFF1A 1px
+          - RECTANGLE "Rectangle 9", 360x400px, constraints left/top, fill gradient_linear(#03010600 0% | #361764 100%)
+        - GROUP "Text", 238.66x75.62px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Visual reports", 133x17px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Visual insights into your site’s performance.", 238.45x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+      - GROUP "Smart Generator", 360x400px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 5", 360x400px, constraints left/top, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+        - GROUP "Text", 296.22x86px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Smart Keyword Generator", 296.22x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic suggestions and the best keywords to target.", 295.7x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - RECTANGLE "Visual", 243.47x234px, constraints left/top, fill image(hash: 295d6d3d5c83aa5d4622b0189a7d97a1343e5d11)
+  - FRAME "Features", 390x1434px, vertical pad 76 50 76 50px gap 40px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#190D2E 0% | #020103 100%), stroke #FFFFFF26 1px
+    - TEXT "Heading 2", 304x65px, constraints left/top, fill #FFFFFF, text [Inter Medium, 26px], [heading]
+    - FRAME "Frame 14", 322x1177px, vertical pad 0 0 0 0px gap 60px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 13", 322x625px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "AI Kit/Feature", 259x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 208x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "gauge 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Title", 187x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Body", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 259x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 166x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "list-checks 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Content evaluation", 145x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Simple corrections for immediate improvemens.", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 259x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 212x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "magic-wand 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Link Optimization Wizard", 191x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Guides you through the process of creating and managing link", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 128x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "chart-line 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Visual reports", 107x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Visual insights into your site’s performance.", 265x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 148x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "target 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "SEO goal setting", 127x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Helps you set and achieve SEO goals with guided assistance.", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+      - FRAME "Frame 12", 322x628px, vertical pad 0 0 0 0px gap 40px align min/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "AI Kit/Feature", 321x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 194x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "cursor-click 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "One-click optimization", 173x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Perform complex SEO audits and optimizations with a single c", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 220x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "sparkle 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Smart Keyword Generator", 199x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic suggestions and the best keywords to target.", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 154x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "bell-ringing 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Automated alerts", 133x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic notifications about your SEO health, including qui", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 321x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 168x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "files 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Competitor reports", 147x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Provides insights into competitors’ keyword strategies and r", 321x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+  - FRAME "Clients", 390x678px, vertical pad 50 0 50 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 37", 300x151px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Heading 2", 289x48px, constraints left/top, fill #FFFFFF, text [Inter Medium, 26px], [heading]
+      - TEXT "Hear firsthand how our solutions have boosted online success", 300x93px, constraints left/top, fill #FFFFFF, text [Inter Regular, 18px]
+    - INSTANCE "Testimonial", 317x290px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Avatar@3x 1", 172x171px, constraints scale/scale, radius 20px, fill image(hash: 8c8e2f273918e4312c37556124cb921ca962ebf6)
+      - LINE "Line 1", 317x0px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+      - LINE "Line 2", 317x0px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+      - LINE "Line 3", 0x290px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+      - LINE "Line 4", 0x290px, constraints scale/scale, stroke gradient_linear(#141315 0% | #FFFFFF 17% | #EAEAEA 87% | #020103 100%) 1px, opacity 60%
+    - FRAME "Frame 15", 339x146px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints center/center
+      - TEXT "”This product has completely transformed how I manage my pro", 339x78px, constraints left/top, fill #FFFFFF, text [Inter Medium, 20px]
+      - GROUP "Text", 339x48px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Talia Taylor", 148.97x17px, constraints center/top, fill #FFFFFF, text [Body M]
+        - TEXT "Digital Marketing Director @ Quantum", 339x26px, constraints left/top, fill #FFFFFFB2, text [Body S]
+    - ELLIPSE "Ellipse 7", 312x234px, constraints center/top, fill #8C45FF80, effect [layer_blur 254px]
+  - FRAME "Pricing", 390x1814px, vertical pad 14 129 14 129px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill gradient_radial(#56299D00 0% | #020103 100%)
+    - FRAME "Frame 34", 390x1786px, vertical pad 0 0 0 0px gap 111px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Text", 307x151px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Heading 2", 289x48px, constraints left/top, fill #FFFFFF, text [Inter Medium, 26px], [heading]
+        - INSTANCE "Toggle/Text", 133x31px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+          - INSTANCE "Toggle Button", 33x20px, constraints left/top
+            - RECTANGLE "Rectangle 10", 33x20px, constraints scale/scale, radius 30px, fill #8C45FF
+            - RECTANGLE "Rectangle 11", 16x16px, constraints scale/scale, radius 30px, fill #F9F5FF
+          - TEXT "Billed Yearly", 94x31px, constraints left/top, fill #FFFFFF80, text [Heading 5], [heading]
+        - TEXT "Body", 304x93px, constraints left/top, fill #FFFFFF, text [Inter Regular, 18px]
+      - FRAME "Pricing cards", 390x1524px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Pricing Card", 253x500px, constraints left/top
+          - RECTANGLE "Rectangle 16", 253x500px, constraints scale/scale, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+          - INSTANCE "CTA", 220.04x38px, horizontal pad 6 15 6 15px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill #3D3D3D66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+            - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+          - LINE "Line 5", 220.04x0px, constraints scale/scale, stroke #282729 1px
+          - FRAME "Frame 33", 163x243px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 32", 147x63px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Rows", 163x140px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Pricing Card", 253x504px, constraints left/top
+          - RECTANGLE "Rectangle 17", 253x500px, constraints scale/scale, radius 10px, fill gradient_linear(#010002 0% | #361764 100%), effect [drop_shadow 74px offset 0 10 #4E00BF69]
+          - LINE "Line 6", 220.04x0px, constraints scale/scale, stroke #282729 1px
+          - GROUP "Pattern", 253x504px, constraints scale/scale, radius 0/0/0/0px, opacity 30%
+            - RECTANGLE "Rectangle 17", 253x504px, constraints scale/scale, radius 10px, fill gradient_linear(#010002 0% | #361764 100%), effect [drop_shadow 74px offset 0 10 #4E00BF69]
+            - RECTANGLE "pattern 1", 253.82x432.43px, constraints scale/scale, radius 15px, fill image(hash: e943fd303c0291fd9475f87f73eb8662aae4ab65)
+            - RECTANGLE "Rectangle 18", 255.47x485.86px, constraints scale/scale, radius 10px, fill gradient_linear(#000000 29% | #00000000 100%)
+          - INSTANCE "CTA", 220.04x38px, horizontal pad 6 15 6 15px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+            - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+          - FRAME "Frame 31", 163x314px, vertical pad 0 0 0 0px gap 41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 30", 147x63px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Rows", 163x210px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Pricing Card", 253x500px, constraints left/top
+          - RECTANGLE "Rectangle 16", 253x500px, constraints scale/scale, radius 10px, fill #0000000F, stroke #FFFFFF26 1px
+          - INSTANCE "CTA", 220.04x38px, horizontal pad 6 15 6 15px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 10px, fill #3D3D3D66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+            - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+          - LINE "Line 5", 220.04x0px, constraints scale/scale, stroke #282729 1px
+          - FRAME "Frame 33", 163x243px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 32", 147x63px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Pricing Rows", 163x140px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - FRAME "CTA", 390x558px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 27", 390x558px, constraints left/top
+    - GROUP "CTA Section", 390x473px, constraints center/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 19", 390x473px, constraints center/top, radius 10px, fill #D9D9D9
+      - RECTANGLE "pattern 1", 390x473px, constraints center/top, radius 15px, fill image(hash: e943fd303c0291fd9475f87f73eb8662aae4ab65)
+      - ELLIPSE "Ellipse 9", 226.29x622px, constraints center/top, fill #8C45FF7D, effect [layer_blur 304px]
+      - INSTANCE "Form", 272x102px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Form", 272x49px, horizontal pad 19 16 19 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #FFFFFF26 1px
+          - TEXT "Your email", 91x11px, constraints left/top, fill #FFFFFF80, text [Body M]
+        - INSTANCE "CTA", 272x41px, horizontal pad 5 15 5 15px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+          - TEXT "Join waitlist", 84x31px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+    - RECTANGLE "Rectangle 20", 390x473px, constraints center/top, radius 10px, stroke #FFFFFF26 1px
+    - TEXT "Heading 2", 422x132px, constraints center/top, fill #FFFFFF, text [Inter Medium, 36px], [heading]
+    - FRAME "Frame 21", 316x26px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "No credit card required", 175x26px, constraints left/top, fill #FFFFFF80, text [Body M]
+      - TEXT "·", 5x26px, constraints left/top, fill #FFFFFF80, text [Body M]
+      - TEXT "7-days free trial", 120x26px, constraints left/top, fill #FFFFFF80, text [Body M]
+  - FRAME "Footer", 390x765px, horizontal pad 41 45 41 45px gap 483px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+    - FRAME "Frame 35", 299x683px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 38", 299x35px, horizontal pad 0 0 0 0px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - FRAME "Frame 26", 188x618px, vertical pad 0 0 0 0px gap 60px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 30", 188x302px, horizontal pad 0 0 0 0px gap 60px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 22", 67x256px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Product", 49x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+            - TEXT "Features", 54x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Integration", 67x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Updates", 52x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "FAQ", 25x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+            - TEXT "Pricing", 43x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - FRAME "Frame 23", 61x302px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Company", 60x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+            - TEXT "About", 37x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Blog", 28x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Careers", 49x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Manifesto", 61x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+            - TEXT "Press", 35x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Contract", 54x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+        - FRAME "Frame 31", 182x256px, horizontal pad 0 0 0 0px gap 60px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 24", 71x256px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Resources", 66x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+            - TEXT "Examples", 59x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Community", 71x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Guides", 43x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Docs", 32x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+            - TEXT "Press", 35x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+          - FRAME "Frame 25", 51x164px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Legal", 34x26px, constraints left/top, fill #FFFFFF, text [Heading 6], [heading]
+            - TEXT "Privacy", 46x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Terms", 38x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+            - TEXT "Security", 51x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+
+Screen: Example 2 / Phone
+- FRAME "Phone", 390x4789px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #020103
+  - INSTANCE "Nav", 390x68px, horizontal pad 13 0 13 0px gap 154px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+    - INSTANCE "Logo", 38x38px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Logo", 38x38px, constraints scale/scale, fill image(hash: 715ed604d5b3586a8dadef2253faa05390e29898)
+    - FRAME "Frame 36", 163x42px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "CTA", 121x42px, vertical pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #FFFFFF26 1px
+        - INSTANCE "CTA", 109x30px, horizontal pad 2 15 2 15px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+          - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+      - FRAME "list 1", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x18px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Hero", 390x722px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 3", 390x722px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+    - FRAME "Frame 49", 344.5x572px, vertical pad 0 0 0 0px gap 52px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 47", 324x490px, vertical pad 0 0 0 0px gap 28px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Badge/M", 291x42px, horizontal pad 8 14 8 14px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #000000, stroke #FFFFFF26 1px
+          - INSTANCE "Badge/S", 34x18px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #9855FF
+            - TEXT "NEW", 24x17px, constraints left/top, fill #000000, text [Inter Bold, 10px]
+          - TEXT "Latest integration just arrived", 222x26px, constraints left/top, fill #9855FF, text [Body M]
+        - TEXT "Heading 1", 324x138px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #000000 100%), text [Inter Medium, 54px], [heading]
+        - TEXT "Body", 315x124px, constraints left/top, fill #FFFFFF, text [Body L], opacity 70%
+        - INSTANCE "Form", 324x102px, vertical pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Form", 324x49px, horizontal pad 19 16 19 16px gap 10px align min/center sizing W:fill H:fill, constraints left/top, radius 8px, stroke #FFFFFF26 1px
+            - TEXT "Your email", 91x11px, constraints left/top, fill #FFFFFF80, text [Body M]
+          - INSTANCE "CTA", 324x41px, horizontal pad 5 15 5 15px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+            - TEXT "Join waitlist", 84x31px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+      - INSTANCE "Logo/Ticker", 1318x30px, horizontal pad 0 0 0 0px gap 54px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Trusted by top innovative teams:", 217x26px, constraints left/top, fill #FFFFFF, text [Body S], opacity 70%
+        - RECTANGLE "celestial 1", 117.5x30px, constraints left/top, fill image(hash: 4f61c09cd2f3d7147e895046ed70a7e6d0b60f96)
+        - RECTANGLE "apexw 1", 93.75x30px, constraints left/top, fill image(hash: 7c7787ac21932c0368f447fd099935a7608f8f49)
+        - RECTANGLE "quantrumw 1", 117.69x30px, constraints left/top, fill image(hash: 5690b2d066847ffd317ca6c0aa7db639e8ae55f6)
+        - RECTANGLE "acme 1", 141.56x30px, constraints left/top, fill image(hash: 941013f15bd70e5728d3a7c822c99db88103f761)
+        - RECTANGLE "pulsew 1", 112.17x30px, constraints left/top, fill image(hash: 2388911dc5c60ec1bfd6a5a12c6418677af625f1)
+  - FRAME "Features", 390x1369px, vertical pad 50 54 33 54px gap 80px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 48", 344x216px, vertical pad 0 0 0 0px gap 22px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Badge/M", 184x42px, horizontal pad 8 14 8 14px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #000000, stroke #FFFFFF26 1px
+        - TEXT "Latest integration just arrived", 156x26px, constraints left/top, fill #9855FF, text [Body M]
+      - TEXT "Heading 2", 344x152px, constraints left/top, fill #FFFFFF, text [Inter Medium, 26px], [heading]
+    - GROUP "App & Mask", 363.84x264.84px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Mask group", 363.84x264.84px, constraints left/top, radius 0/0/0/0px
+        - GROUP "App", 363.84x264.84px, constraints center/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 1", 363.84x264.84px, constraints left/top, radius 10px, fill gradient_linear(#0D0718 0% | #0F081B00 48% | #0B0614 100%), stroke #FFFFFF1A 1px, effect [drop_shadow 70px offset 0 -30 #8C45FF40]
+          - RECTANGLE "App Wide@2x 1", 356.69x257.69px, constraints left/top, radius 8px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1), stroke #FFFFFF1A 1px
+    - FRAME "Features", 322x678px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 322x319px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 128x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "chart-line 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Visual reports", 107x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Visual insights into your site’s performance.", 265x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 148x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "target 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "SEO goal setting", 127x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Helps you set and achieve SEO goals with guided assistance.", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 321x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 194x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "cursor-click 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "One-click optimization", 173x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Perform complex SEO audits and optimizations with a single c", 259x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+      - FRAME "Frame 11", 322x319px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 220x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "sparkle 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Smart Keyword Generator", 199x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic suggestions and the best keywords to target.", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 154x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "bell-ringing 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Automated alerts", 133x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Automatic notifications about your SEO health, including qui", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 321x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 168x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "files 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Competitor reports", 147x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Provides insights into competitors’ keyword strategies and r", 321x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+  - FRAME "Testimonial", 390x562px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "CTA Section", 362x439px, constraints center/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 19", 362x439px, constraints center/top, radius 10px, fill #D9D9D9
+      - RECTANGLE "Stars", 362x439px, constraints center/top, radius 15px, fill image(hash: 96e45ae1ba60f13f2644063a88546318f60a3bfb)
+      - ELLIPSE "Shadow", 357.67x622px, constraints center/top, fill #8C45FF7D, effect [layer_blur 304px]
+      - RECTANGLE "Rectangle 20", 362x439px, constraints center/top, radius 10px, stroke #FFFFFF26 1px
+      - FRAME "Core", 316x346px, vertical pad 0 0 0 0px gap 30px align center/min sizing W:fixed H:fixed, constraints center/center
+        - RECTANGLE "Avatar@3x 1", 173x173px, constraints left/top, radius 20px, fill image(hash: 8c8e2f273918e4312c37556124cb921ca962ebf6)
+        - FRAME "Testimonial", 289x143px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "”This product has completely transformed how I manage my pro", 289x75px, constraints left/top, fill #FFFFFF, text [Inter Medium, 20px]
+          - GROUP "Text", 289x48px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Talia Taylor", 127x17px, constraints left/top, fill #FFFFFF, text [Body M]
+            - TEXT "Digital Marketing Director @ Quantum", 289x26px, constraints left/top, fill #FFFFFFB2, text [Body S]
+  - FRAME "Pricing", 390x1119px, vertical pad 42 50 42 50px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Core", 390x1005px, vertical pad 0 0 0 0px gap 40px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 50", 370x110px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Pricing", 166x48px, constraints left/top, fill #FFFFFF, text [Inter Medium, 26px], [heading]
+        - TEXT "Choose the right plan to meet your SEO needs and start optim", 364x62px, constraints left/top, fill #FFFFFF, text [Body L]
+      - FRAME "Pricing cards", 390x855px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 52", 390x119px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "A", 130x119px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8/8/0/0px
+            - FRAME "Frame 45", 108x89px, vertical pad 0 0 0 0px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "B", 130x119px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8/8/0/0px, fill #140B27
+            - FRAME "Frame 45", 108x81px, vertical pad 0 0 0 0px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "C", 130x119px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8/8/0/0px
+            - FRAME "Frame 45", 108x89px, vertical pad 0 0 0 0px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Price", 390x92px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "A", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - FRAME "Frame 60", 27x62px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "B", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #140B27, stroke #FFFFFF26 1px
+            - TEXT "$79", 26x26px, constraints left/top, fill #FFFFFF, stroke #000000 1px, text [Body S]
+          - FRAME "C", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - TEXT "$149", 34x26px, constraints left/top, fill #FFFFFF, stroke #000000 1px, text [Body S]
+        - FRAME "Frame 53", 390x92px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "A", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - FRAME "Frame 62", 102x62px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "B", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #140B27, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF, stroke #000000 1px, text [Body S]
+          - FRAME "C", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF, stroke #000000 1px, text [Body S]
+        - FRAME "Frame 60", 390x92px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "A", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - FRAME "Frame 62", 103x62px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "B", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #140B27, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF, stroke #000000 1px, text [Body S]
+          - FRAME "C", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF, stroke #000000 1px, text [Body S]
+        - FRAME "Frame 61", 390x92px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "A", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - FRAME "Frame 62", 76x62px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "B", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #140B27, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, text [Body S]
+          - FRAME "C", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, stroke #000000 1px, text [Body S]
+        - FRAME "Frame 62", 390x92px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "A", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - FRAME "Frame 62", 99x62px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "B", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #140B27, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, text [Body S]
+          - FRAME "C", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, stroke #000000 1px, text [Body S]
+        - FRAME "Frame 63", 390x92px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "A", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - FRAME "Frame 62", 81x62px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "B", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #140B27, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, text [Body S]
+          - FRAME "C", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, stroke #000000 1px, text [Body S]
+        - FRAME "Frame 64", 390x92px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "A", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - FRAME "Frame 62", 85x62px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "B", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #140B27, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, text [Body S]
+          - FRAME "C", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, stroke #000000 1px, text [Body S]
+        - FRAME "Frame 65", 390x92px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "A", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - FRAME "Frame 62", 70x62px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "B", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #140B27, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, text [Body S]
+          - FRAME "C", 130x92px, horizontal pad 15 10 15 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF26 1px
+            - INSTANCE "Icons", 15x15px, constraints left/top, fill #FFFFFF
+            - TEXT "Unlimited", 63x26px, constraints left/top, fill #FFFFFF00, stroke #000000 1px, text [Body S]
+  - FRAME "CTA", 390x582px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 24", 390x582px, constraints left/top
+    - RECTANGLE "Rectangle 20", 370x508px, constraints center/center, radius 10px, stroke #FFFFFF26 1px
+    - GROUP "CTA Section", 370x508px, constraints center/top, radius 0/0/0/0px
+      - RECTANGLE "stars", 370x508px, constraints center/top, radius 15px, fill image(hash: 96e45ae1ba60f13f2644063a88546318f60a3bfb)
+      - GROUP "Mask group", 370x508px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "mask", 370x508px, constraints center/top, radius 10px, fill #020103
+        - VECTOR "Ellipse 9", 323.46x249.54px, constraints center/top, fill #5D2EA9, effect [layer_blur 304px]
+    - FRAME "Text and Core", 363x357px, vertical pad 0 0 0 0px gap 50px align center/center sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Frame 51", 363x269px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Icon Big@3x 1", 92x96px, constraints left/top, radius 27px, fill image(hash: 3695aa3606dcf68be4ee20551398020a703e8b70)
+        - TEXT "The magic of AI at your fingertips.", 276x71px, constraints left/top, fill #FFFFFF, text [Inter Medium, 26px], [heading]
+        - TEXT "Achieve clear, impactful results without the complexity.", 363x62px, constraints left/top, fill #FFFFFF, text [Body L]
+      - FRAME "CTA btn", 118x38px, horizontal pad 10 15 10 15px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+        - TEXT "Try for free", 74x18px, constraints left/top, fill #FFFFFF, text [Body S]
+  - INSTANCE "Footer", 390x367px, horizontal pad 0 30 0 30px gap 228px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00
+    - FRAME "Frame 35", 314.66x278px, vertical pad 0 0 0 0px gap 30px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 34", 314.66x38px, horizontal pad 0 0 0 0px gap 87px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - FRAME "Frame 22", 67x210px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Features", 54x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+        - TEXT "Integration", 67x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+        - TEXT "Updates", 52x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+        - TEXT "FAQ", 25x26px, constraints left/top, fill #FFFFFF80, text [Inter Regular, 13px]
+        - TEXT "Pricing", 43x26px, constraints left/top, fill #FFFFFF80, text [Body XS]
+
+Screen: Example 2 / Tablet
+- FRAME "Tablet", 810x4374px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #020103
+  - INSTANCE "Nav", 810x68px, horizontal pad 0 0 0 0px gap 42px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 30", 751x58px, horizontal pad 8 16 8 16px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #FFFFFF26 1px
+      - INSTANCE "Logo", 38x38px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Logo", 38x38px, constraints scale/scale, fill image(hash: 715ed604d5b3586a8dadef2253faa05390e29898)
+      - INSTANCE "Nav elements", 512x42px, horizontal pad 8 40 8 40px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top, radius 60px
+        - FRAME "Frame 28", 71x26px, horizontal pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Features", 54x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+          - FRAME "caret-down 1", 14x14px, constraints left/top, fill #FFFFFF, opacity 60%
+            - VECTOR "Vector", 9.63x5.25px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Developers", 70x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+        - FRAME "Frame 29", 76x26px, horizontal pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Company", 59x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+          - FRAME "caret-down 2", 14x14px, constraints left/top, fill #FFFFFF, opacity 60%
+            - VECTOR "Vector", 9.63x5.25px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Blog", 28x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+        - TEXT "Changelog", 67x26px, constraints left/top, fill #FFFFFF99, text [Body XS]
+      - INSTANCE "CTA", 109x30px, horizontal pad 2 15 2 15px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #8C45FF66, stroke #FFFFFF26 1px, effect [inner_shadow 6px offset 0 0 #FFFFFF40, background_blur 14px]
+        - TEXT "Join waitlist", 79x26px, constraints left/top, fill #FFFFFF, text [Body S]
+  - GROUP "Hero", 810x722px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 3", 810x722px, constraints left/top, radius 0/0/0/0px [decorative, ~7 shapes]
+    - FRAME "Frame 49", 715.5x577px, vertical pad 0 0 0 0px gap 142px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 47", 544x405px, vertical pad 0 0 0 0px gap 28px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Badge/M", 291x42px, horizontal pad 8 14 8 14px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #000000, stroke #FFFFFF26 1px
+          - INSTANCE "Badge/S", 34x18px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, fill #9855FF
+            - TEXT "NEW", 24x17px, constraints left/top, fill #000000, text [Inter Bold, 10px]
+          - TEXT "Latest integration just arrived", 222x26px, constraints left/top, fill #9855FF, text [Body M]
+        - TEXT "Heading 1", 492x168px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #000000 100%), text [Heading 1], [heading]
+        - TEXT "Body", 544x62px, constraints left/top, fill #FFFFFF, text [Body L], opacity 70%
+        - INSTANCE "Form", 401x49px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Form", 401x49px, horizontal pad 19 16 19 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #FFFFFF26 1px
+            - INSTANCE "CTA", 114x41px, horizontal pad 5 15 5 15px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+            - TEXT "Your email", 91x11px, constraints left/top, fill #FFFFFF80, text [Body M]
+      - INSTANCE "Logo/Ticker", 1318x30px, horizontal pad 0 0 0 0px gap 54px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Trusted by top innovative teams:", 217x26px, constraints left/top, fill #FFFFFF, text [Body S], opacity 70%
+        - RECTANGLE "celestial 1", 117.5x30px, constraints left/top, fill image(hash: 4f61c09cd2f3d7147e895046ed70a7e6d0b60f96)
+        - RECTANGLE "apexw 1", 93.75x30px, constraints left/top, fill image(hash: 7c7787ac21932c0368f447fd099935a7608f8f49)
+        - RECTANGLE "quantrumw 1", 117.69x30px, constraints left/top, fill image(hash: 5690b2d066847ffd317ca6c0aa7db639e8ae55f6)
+        - RECTANGLE "acme 1", 141.56x30px, constraints left/top, fill image(hash: 941013f15bd70e5728d3a7c822c99db88103f761)
+        - RECTANGLE "pulsew 1", 112.17x30px, constraints left/top, fill image(hash: 2388911dc5c60ec1bfd6a5a12c6418677af625f1)
+  - FRAME "Features", 810x1359px, vertical pad 50 54 33 54px gap 80px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 48", 553x178px, vertical pad 0 0 0 0px gap 22px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Badge/M", 184x42px, horizontal pad 8 14 8 14px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #000000, stroke #FFFFFF26 1px
+        - TEXT "Latest integration just arrived", 156x26px, constraints left/top, fill #9855FF, text [Body M]
+      - TEXT "Heading 2", 553x114px, constraints left/top, fill #FFFFFF, text [Heading 3], [heading]
+    - GROUP "App & Mask", 754x548.84px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Mask group", 754x548.84px, constraints left/top, radius 0/0/0/0px
+        - GROUP "App", 754x548.84px, constraints center/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 1", 754x548.84px, constraints left/top, radius 10px, fill gradient_linear(#0D0718 0% | #0F081B00 48% | #0B0614 100%), stroke #FFFFFF1A 1px, effect [drop_shadow 70px offset 0 -30 #8C45FF40]
+          - RECTANGLE "App Wide@2x 1", 739.19x534.02px, constraints left/top, radius 8px, fill image(hash: e5ce890bca00124a5371399de473bf05de51d0d1), stroke #FFFFFF1A 1px
+    - FRAME "Features", 684x319px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 322x319px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 128x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "chart-line 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Visual reports", 107x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Visual insights into your site’s performance.", 265x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 322x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 148x31px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "target 1", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "SEO goal setting", 127x31px, constraints left/top, fill #FFFFFF, text [Heading 5], [heading]
+          - TEXT "Helps you set and achieve SEO goals with guided assistance.", 322x52px, constraints left/top, fill #FFFFFFB2, text [Body M]
+        - FRAME "AI Kit/Feature", 321x93px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

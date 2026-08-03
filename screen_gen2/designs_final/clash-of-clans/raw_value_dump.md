@@ -1,0 +1,531 @@
+---
+name: clash-of-clans-ui-components-design-community
+source_file: Clash of Clans - UI Components Design (Community)
+source_page: All pages (2): thumbnail, components
+generated_at: 2026-07-25T09:54:36.345992+00:00
+---
+
+# Clash of Clans - UI Components Design (Community) Design Guidelines
+
+## Source
+- Figma file: Clash of Clans - UI Components Design (Community)
+- Figma page: All pages (2): thumbnail, components
+- Extracted at: 2026-07-25T09:54:36.345992+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 153 uses
+- #FFFFFF: 97 uses
+- #C88508: 42 uses
+- #BEA479: 39 uses
+- #D9D9D9: 30 uses
+- #FFF455: 18 uses
+- #C46A15CC: 15 uses
+- #D9923A: 15 uses
+- #0909095C: 12 uses
+- #DB6F4D: 12 uses
+- #FECB32: 12 uses
+- #FEFAEF: 12 uses
+- #E74D0E: 9 uses
+- #F5F6E459: 9 uses
+- #171609: 6 uses
+- #195C21: 6 uses
+- #291C02: 6 uses
+- #2A2C26: 6 uses
+- #54524B: 6 uses
+- #766B57: 6 uses
+- #B2AC9B: 6 uses
+- #D7D7D7: 6 uses
+- #ECFC12: 6 uses
+- #EDFF90: 6 uses
+- #FDDA46: 6 uses
+- #FFFFE0: 6 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Cartel-Dem i Dem, 30.16px: 6 uses
+- Cartel-Dem i Dem, 41.07px: 3 uses
+- Supercell-Magic Magic, 16.85px: 3 uses
+- Supercell-Magic Magic, 24.83px: 3 uses
+- Supercell-Magic Magic, 25.72px: 3 uses
+- Supercell-Magic Magic, 26.48px: 3 uses
+- Supercell-Magic Magic, 27.02px: 3 uses
+- Supercell-Magic Magic, 27.56px: 3 uses
+- Supercell-Magic Magic, 27.66px: 3 uses
+- Supercell-Magic Magic, 29.75px: 3 uses
+- Supercell-Magic Magic, 30.17px: 3 uses
+- Supercell-Magic Magic, 38.81px: 3 uses
+
+## Typography Hierarchy
+- 41.07px - Cartel-Dem i Dem, 41.07px (raw)
+- 38.81px - Supercell-Magic Magic, 38.81px (raw)
+- 30.17px - Supercell-Magic Magic, 30.17px (raw)
+- 30.16px - Cartel-Dem i Dem, 30.16px (raw)
+- 29.75px - Supercell-Magic Magic, 29.75px (raw)
+- 27.66px - Supercell-Magic Magic, 27.66px (raw)
+- 27.56px - Supercell-Magic Magic, 27.56px (raw)
+- 27.02px - Supercell-Magic Magic, 27.02px (raw)
+- 26.48px - Supercell-Magic Magic, 26.48px (raw)
+- 25.72px - Supercell-Magic Magic, 25.72px (raw)
+- 24.83px - Supercell-Magic Magic, 24.83px (raw)
+- 16.85px - Supercell-Magic Magic, 16.85px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: thumbnail / thumbnail
+- FRAME "thumbnail", 808x632px, constraints left/top, fill gradient_radial(#002F4A 0% | #00101A 65%)
+  - RECTANGLE "pngwing.com (1) 1", 322x347px, constraints left/top, fill image(hash: d4f66f9334b402ad068a9037d58e110749bba9a0), effect [drop_shadow 13.2px offset 3.11 5.44 #00000069, drop_shadow 24.07px offset 13.2 20.19 #0000005C, drop_shadow 32.62px offset 28.73 45.82 #00000036, drop_shadow 38.83px offset 51.25 81.54 #0000000F, drop_shadow 41.94px offset 79.99 127.36 #00000003]
+  - GROUP "Group 100", 720.89x534.8px, constraints left/top [decorative, ~6 shapes]
+  - GROUP "Mask group", 722.72x534.8px, constraints center/center [decorative, ~7 shapes]
+  - TEXT "COMPONENTS", 324.57x96.21px, constraints center/top, fill gradient_linear(#FFEB7E 0% | #FFD247 100%), stroke #000000 2.22px, effect [drop_shadow 0px offset 0 4.43 #000000, inner_shadow 5px offset 0 13 #FFFFFF59, inner_shadow 3.4px offset 0 -4 #9D6600ED], text [Supercell-Magic Magic, 32.89px], [heading]
+  - GROUP "Group 99", 418.43x204.61px, constraints left/top, radius 0/0/0/0px, effect [inner_shadow 5px offset 0 13 #FFFFFF59]
+    - TEXT "CLASH OF", 407.44x133.07px, constraints center/top, fill gradient_linear(#FDE777 0% | #FECB32 100%), stroke #000000 2.22px, effect [drop_shadow 0px offset 0 9.34 #000000, inner_shadow 3.4px offset 0 -4 #9D6600ED], text [Supercell-Magic Magic, 60.7px], [heading]
+    - TEXT "CLANS", 278.94x113.32px, constraints center/top, fill gradient_linear(#FFE163 0% | #FFCE28 100%), stroke #000000 2.22px, effect [drop_shadow 0px offset 0 9.34 #000000, inner_shadow 3.4px offset 0 -4 #9D6600ED], text [Supercell-Magic Magic, 60.7px], [heading]
+  - RECTANGLE "pngwing.com 1", 222.51x234.49px, constraints left/top, fill image(hash: dfa2be089ef646b65e5a628e8bbe949921c593b4), effect [drop_shadow 19px offset 6 6 #000000BF, drop_shadow 34px offset 23 26 #000000A6, drop_shadow 47px offset 52 58 #00000061, drop_shadow 55px offset 92 103 #0000001C, drop_shadow 60px offset 144 160 #00000003]
+  - TEXT "BEHANCE", 92x21px, constraints left/top, fill #FFEB7E42, effect [inner_shadow 3.7px offset 0 0 #FFEB7E], text [Supercell-Magic Magic, 14px]
+  - TEXT "dribbble", 101x21px, constraints left/top, fill #B2B2B229, effect [inner_shadow 5.9px offset 0 0 #FFFFFF8F], text [Supercell-Magic Magic, 14px]
+
+Screen: thumbnail / thumbnail
+- FRAME "thumbnail", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "pngwing.com (1) 1", 571.11x614.62px, constraints left/top, fill image(hash: d4f66f9334b402ad068a9037d58e110749bba9a0), effect [drop_shadow 23.4px offset 5.51 9.64 #00000069, drop_shadow 42.67px offset 23.4 35.79 #0000005C, drop_shadow 57.81px offset 50.93 81.21 #00000036, drop_shadow 68.82px offset 90.85 144.53 #0000000F, drop_shadow 74.33px offset 141.77 225.74 #00000003]
+  - GROUP "Group 100", 1277.74x947.91px, constraints left/top [decorative, ~6 shapes]
+  - GROUP "Mask group", 1280.97x947.91px, constraints center/center [decorative, ~7 shapes]
+  - TEXT "COMPONENTS", 575.46x171.44px, constraints center/top, fill gradient_linear(#FFEB7E 0% | #FFD247 100%), stroke #000000 3.93px, effect [drop_shadow 0px offset 0 7.85 #000000, inner_shadow 8.86px offset 0 23.04 #FFFFFF59, inner_shadow 6.03px offset 0 -7.09 #9D6600ED], text [Supercell-Magic Magic, 58.29px], [heading]
+  - GROUP "Group 99", 741.83x362.31px, constraints left/top, radius 0/0/0/0px, effect [inner_shadow 8.86px offset 0 23.04 #FFFFFF59]
+    - TEXT "CLASH OF", 722.34x235.51px, constraints center/top, fill gradient_linear(#FDE777 0% | #FECB32 100%), stroke #000000 3.93px, effect [drop_shadow 0px offset 0 16.55 #000000, inner_shadow 6.03px offset 0 -7.09 #9D6600ED], text [Supercell-Magic Magic, 107.59px], [heading]
+    - TEXT "CLANS", 494.03x200.42px, constraints center/top, fill gradient_linear(#FFE163 0% | #FFCE28 100%), stroke #000000 3.93px, effect [drop_shadow 0px offset 0 16.55 #000000, inner_shadow 6.03px offset 0 -7.09 #9D6600ED], text [Supercell-Magic Magic, 107.59px], [heading]
+  - RECTANGLE "pngwing.com 1", 394.38x415.62px, constraints left/top, fill image(hash: dfa2be089ef646b65e5a628e8bbe949921c593b4), effect [drop_shadow 33.68px offset 10.63 10.63 #000000BF, drop_shadow 60.26px offset 40.77 46.08 #000000A6, drop_shadow 83.3px offset 92.17 102.8 #00000061, drop_shadow 97.48px offset 163.06 182.56 #0000001C, drop_shadow 106.35px offset 255.23 283.59 #00000003]
+  - TEXT "BEHANCE", 163x37px, constraints left/top, fill #FFEB7E42, effect [inner_shadow 6.56px offset 0 0 #FFEB7E], text [Supercell-Magic Magic, 24.81px], [heading]
+  - TEXT "dribbble", 178x37px, constraints left/top, fill #B2B2B229, effect [inner_shadow 10.46px offset 0 0 #FFFFFF8F], text [Supercell-Magic Magic, 24.81px], [heading]
+
+Screen: components / 3
+- FRAME "3", 2702.52x1216px, constraints left/top
+  - RECTANGLE "Screenshot_2025-04-14-18-28-54-311_com.supercell.clashofclan", 2702.52x1216px, constraints left/top, fill image(hash: 4dfe99c9b80f3bc04ab2065e26d1f407680d033f)
+  - GROUP "Group 88", 110.87x110.87px, constraints left/top [decorative, ~8 shapes]
+  - GROUP "Group 87", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn-white", 110.87x110.87px, constraints left/top
+      - FRAME "Frame 7", 110.87x110.87px, constraints left/top
+        - RECTANGLE "Rectangle 1", 110.87x110.87px, constraints left_right/top_bottom, radius 19.96px, fill #F5F6E459, effect [inner_shadow 0px offset 0 0 #FFFFFFCC, drop_shadow 1.51px offset 0 0.89 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+        - RECTANGLE "Rectangle 2", 95.35x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#F5F6E4 0% | #F5F6E4EB 100%)
+    - GROUP "Group 69", 80.71x86.51px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector 33", 47.01x50.15px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#FFFFFF 36% | #F5F6E4 40%), stroke #000000 0.89px, effect [inner_shadow 0px offset 0 -2.66 #FFFFFF, drop_shadow 0px offset 0 1.77 #000000, drop_shadow 0.71px offset 0.89 4.43 #00000040]
+      - VECTOR "Polygon 9", 39.94x28.38px, constraints left/top, fill #FFFFFF, stroke #2A2C26 0.89px, effect [drop_shadow 0px offset 0 1.51 #000000, drop_shadow 0.71px offset 0.89 4.43 #00000040]
+      - VECTOR "Polygon 10", 28.38x39.94px, constraints left/top, fill #FFFFFF, stroke #2A2C26 0.89px, effect [drop_shadow 0px offset 0 1.77 #000000, drop_shadow 0.71px offset 0.89 4.43 #00000040]
+  - GROUP "Group 86", 312.2x94.67px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 26", 265.74x59.22px, constraints left/top, radius 0/14.26/14.26/0px, fill gradient_linear(#525252 0% | #282828 62% | #000000 100%), stroke #FFFFFF 2.16px
+    - TEXT "286", 69.49x41px, constraints left/top, fill #FFFFFF, stroke #000000 1.1px, effect [drop_shadow 0.95px offset 0 3.46 #000000], text [Supercell-Magic Magic, 27.66px], [heading]
+    - GROUP "Group 35", 56.88x56.63px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 56.88x56.63px, constraints left/top, radius 13.83px, fill #58980C, stroke #000000 0.86px, effect [inner_shadow 0px offset 0 0 #80B330, drop_shadow 1.02px offset 0 1.2 #000000, drop_shadow 0.84px offset 0 4.21 #000000]
+      - RECTANGLE "Rectangle 2", 45.59x22.05px, constraints left_right/top, radius 9.94/9.94/6.92/6.92px, fill gradient_linear(#B9E60D 0% | #85BE13 100%)
+    - VECTOR "Rectangle 27", 25.46x25.42px, constraints left/top, radius 0.78px, fill #FFFFFF, stroke #000000 1.3px, effect [drop_shadow 0px offset 0 1.73 #000000, layer_blur 1.04px]
+    - VECTOR "Rectangle 28", 25.46x25.42px, constraints left/top, radius 0.78px, fill #FFFFFF, stroke #000000 1.3px, effect [drop_shadow 0px offset 0 1.73 #000000]
+    - GROUP "Group 45", 74.69x94.67px, constraints left/top, effect [drop_shadow 2.12px offset 0 4.54 #00000033] [decorative, ~8 shapes]
+  - GROUP "Group 44", 438.18x94.67px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 43", 438.18x62.31px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 22", 438.18x62.31px, constraints left/top, radius 15.84px, fill #0909095C, stroke #000000 4.4px
+      - RECTANGLE "fill", 131.02x53.01px, constraints left/top, radius 11.36/0/0/11.36px, fill #E7C00D, effect [inner_shadow 2.04px offset 1.6 1.6 #F9E95A, inner_shadow 2.56px offset 0.78 0 #F6D544, inner_shadow 12.26px offset 0 -0.78 #F6D544, inner_shadow 1.09px offset 0 0.78 #F6D544, drop_shadow 3.28px offset -0.4 0 #FFF16A96, inner_shadow 10.3px offset 4.54 0 #FFFFFF5E]
+      - RECTANGLE "Rectangle 23", 420.21x23.37px, constraints left/top, radius 11.44px, fill #FFFFFF, opacity 55%
+    - GROUP "Group 39", 82.08x94.67px, constraints left/top [decorative, ~11 shapes]
+    - TEXT "2 861 028", 171x41px, constraints left/top, fill #FFFFFF, stroke #000000 1.02px, effect [drop_shadow 0.88px offset 0 3.2 #000000], text [Supercell-Magic Magic, 27.56px], [heading]
+  - GROUP "Group 49", 438.49x94.67px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 46", 438.49x67.4px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 28", 438.49x67.4px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 22", 438.49x67.4px, constraints left/top, radius 17.09px, fill #0909095C, stroke #000000 4.75px
+        - RECTANGLE "fill", 225.47x57.77px, constraints left/top, radius 12.93/0/0/12.93px, fill #C026C0, effect [inner_shadow 2.2px offset 1.72 1.72 #DE5ADE, inner_shadow 8.36px offset 3.45 0 #F177E7, inner_shadow 13.23px offset 0 -0.84 #DE5ADE, inner_shadow 1.17px offset 0 0.84 #DE5ADE, drop_shadow 3.54px offset -0.43 0 #F076E3, inner_shadow 5.35px offset 2.16 0 #FFFFFF52]
+        - RECTANGLE "Rectangle 23", 420.32x24.99px, constraints left/top, radius 12.35px, fill #FFFFFF, opacity 55%
+      - TEXT "3 904 434", 199x44px, constraints left/top, fill #FFFFFF, stroke #000000 1.1px, effect [drop_shadow 0.95px offset 0 3.45 #000000], text [Supercell-Magic Magic, 29.75px], [heading]
+    - GROUP "Group 47", 83.64x94.67px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector 23", 83.64x94.67px, constraints left/top, radius 0/0/0/0px, fill gradient_radial(#DE38F8 0% | #F449FF 6% | #E72AFE 45% | #CF22FE 57% | #B622E5 65% | #9F23C2 83% | #6D2169 100%), stroke #000000 3.88px, effect [inner_shadow 5.95px offset -0.43 -9.48 #A92279, inner_shadow 2.41px offset -0.43 -5.17 #C92F91, drop_shadow 0px offset -1.29 3.45 #000000]
+      - VECTOR "Vector 24", 32.91x45.41px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#D0D0D0 0% | #929292 100%), effect [layer_blur 1.72px]
+  - GROUP "Group 50", 316.64x84.26px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 46", 316.64x59.43px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 28", 316.64x59.43px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 22", 316.64x59.43px, constraints left/top, radius 15.22px, fill #0909095C, stroke #000000 4.23px
+        - RECTANGLE "fill", 113.92x51.23px, constraints left/top, radius 11.51/0/0/11.51px, fill #270D34, effect [inner_shadow 1.96px offset 1.53 1.53 #270D34, inner_shadow 7.44px offset 3.07 0 #270D34, inner_shadow 11.77px offset 0 -0.75 #270D34, inner_shadow 1.04px offset 0 0.75 #2C0C3D, drop_shadow 3.15px offset -0.38 0 #4D1A67, inner_shadow 4.76px offset 1.92 0 #FFFFFF52]
+        - RECTANGLE "Rectangle 23", 303.33x22.17px, constraints left/top, radius 10.99px, fill #FFFFFF, opacity 55%
+      - TEXT "25 051", 107x39px, constraints left/top, fill #FFFFFF, stroke #000000 0.98px, effect [drop_shadow 0.84px offset 0 3.07 #000000], text [Supercell-Magic Magic, 26.48px], [heading]
+    - GROUP "Group 47", 74.45x84.26px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector 23", 74.45x84.26px, constraints left/top, radius 0/0/0/0px, fill gradient_radial(#675D6A 0% | #66586B 6% | #453446 45% | #3C2E3F 57% | #40323F 65% | #382F32 83% | #382F2F 100%), stroke #000000 3.45px, effect [inner_shadow 3.51px offset -1.35 -8.09 #4E3B36, inner_shadow 2.15px offset -2.02 -4.72 #3F3735, drop_shadow 0px offset -1.15 3.07 #000000]
+      - VECTOR "Vector 24", 29.29x40.42px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#D0D0D0 0% | #929292 100%), effect [layer_blur 1.53px]
+  - RECTANGLE "Rectangle 21", 176.5x59.43px, constraints left/top, fill #02020280, stroke #FFFFFF 1.77px
+  - TEXT "1342", 80x38px, constraints left/top, fill #FFFFFF, stroke #000000 2.4px, effect [drop_shadow 0.36px offset 0 2.66 #000000], text [Supercell-Magic Magic, 25.72px], [heading]
+  - GROUP "Group 83", 215.53x215.53px, constraints left/top
+    - FRAME "btn", 215.53x215.53px, constraints left/top
+      - RECTANGLE "Rectangle 1", 215.53x215.53px, constraints left/top, radius 19.4px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 3.66px offset 0 4.31 #000000, drop_shadow 1.08px offset 0 11.85 #00000040]
+      - RECTANGLE "Rectangle 2", 193.97x99.14px, constraints left_right/top, radius 8.62px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+      - GROUP "Group 9", 139.82x111px, constraints left/top, radius 0/0/0/0px [decorative, ~25 shapes]
+      - GROUP "Group 10", 168.11x49.57px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+      - STAR "Star 3", 49.57x49.57px, constraints left/top, radius 1.69px, fill #FFF989, effect [layer_blur 13.47px], opacity 36%
+      - VECTOR "Ellipse 20", 34.48x47.42px, constraints left/top, radius 1.69px, fill gradient_linear(#FFF989 34% | #99955200 100%), effect [layer_blur 13.47px], opacity 18%
+      - TEXT "Attack!", 165x44px, constraints center/top, fill #FFFFFF, stroke #000000 2.16px, effect [drop_shadow 0px offset 0 4.31 #000000], text [Supercell-Magic Magic, 30.17px], [heading]
+  - GROUP "Group 31", 468.31x110.87px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 29", 376.06x73.62px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 27", 376.06x61.2px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "zorx", 60x25px, constraints left/top, fill #FFFFFF, stroke #000000 2.4px, effect [drop_shadow 0px offset 0 3.55 #000000], text [Supercell-Magic Magic, 16.85px]
+    - GROUP "Group 30", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "btn", 110.87x110.87px, constraints left/top
+        - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #1D70AACC, effect [inner_shadow 0px offset 0 0 #9AD5EFDB, drop_shadow 1.88px offset 0 2.22 #000000, drop_shadow 1.55px offset 0 7.76 #00000040]
+        - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#40C3F1EB 0% | #309ED1D1 100%)
+      - GROUP "Group 22", 91.95x91.95px, constraints left/top, radius 2.39px
+        - STAR "Star 5", 91.95x91.95px, constraints left/top, radius 2.39px, fill #0EE0FE, stroke #000000 1.79px, effect [drop_shadow 0px offset 0 2.39 #000000]
+        - GROUP "Mask group", 91.95x91.95px, constraints left/top, radius 2.39px
+          - STAR "Star 6", 91.95x91.95px, constraints left/top, radius 2.39px, fill #D9D9D9
+          - VECTOR "Star 7", 87.45x91.95px, constraints left/top, radius 2.39px, fill gradient_linear(#21DDFF 0% | #21DDFF 37% | #0DB2EB 100%), effect [inner_shadow 0.71px offset -0.35 7.1 #FFFFFF87, drop_shadow 2.21px offset 2.39 0 #0000002B]
+        - TEXT "92", 61x57px, constraints left/top, fill #FFFFFF, stroke #000000 2.39px, effect [drop_shadow 0.36px offset 0 5.37 #000000], text [Supercell-Magic Magic, 38.81px], [heading]
+  - GROUP "Group 82", 95.79x133.93px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 3", 95.79x133.93px, constraints left/top, radius 15.96px, fill #EA8A3B, effect [inner_shadow 0px offset 0 -7.1 #CC7239, drop_shadow 0px offset 0 0 #000000, inner_shadow 0px offset 0 0 #000000, drop_shadow 0px offset 0 0 #64655F]
+    - RECTANGLE "Rectangle 6", 86.92x66.52px, constraints left/top, radius 11.53/11.53/0/0px, fill #F3AA28, opacity 50%
+    - GROUP "Group 1", 69.53x71.73px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 0px offset 0 5.32 #00000040] [decorative, ~9 shapes]
+    - TEXT "Join", 74x37px, constraints left/top, fill #FFFFFF, stroke #000000 1.77px, effect [drop_shadow 0px offset 0 3.55 #000000], text [Supercell-Magic Magic, 24.83px], [heading]
+    - VECTOR "Subtract", 69.53x64.61px, constraints left/top, fill #FAC63B, effect [inner_shadow 2.66px offset 0 -1.33 #FFFFFF87]
+  - GROUP "Group 7", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #716C68A6, effect [inner_shadow 0px offset 0 0 #EEEEEECC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#BBBBBB 0% | #BBBBBBBA 100%)
+    - GROUP "Group 15", 95.6x81.96px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+  - GROUP "Group 85", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+    - GROUP "Group 14", 87.12x88.69px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+  - GROUP "Group 84", 127.93x126.83px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+    - GROUP "Group 20", 87.27x92.24px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+    - GROUP "Group 21", 51.65x51.65px, constraints left/top, radius 12.66px
+      - RECTANGLE "Rectangle 17", 51.65x51.65px, constraints left/top, radius 12.66px, fill gradient_linear(#FA191B 0% | #DA1529 100%), stroke #FFFFFF 3.29px, effect [inner_shadow 1.42px offset 0 -5.32 #00000040, inner_shadow 0.63px offset 0 5.57 #FFFFFF40, drop_shadow 1.06px offset 0 2.53 #00000040]
+      - TEXT "7", 18x35px, constraints center/center, fill #FFFFFF, effect [drop_shadow 1.39px offset 0.76 -0.25 #00000040, drop_shadow 1.39px offset -1.01 0.51 #00000040], text [Cartel-Dem i Dem, 30.16px], [heading]
+  - INSTANCE "btn", 110.87x110.87px, constraints left/top
+    - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+    - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+  - GROUP "Group 25", 77.56x77.72px, constraints left/top [decorative, ~7 shapes]
+  - GROUP "Group 81", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+    - GROUP "Group 26", 85.15x57.09px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 1.6px offset 0 4.43 #00000040]
+      - RECTANGLE "Rectangle 20", 79.34x57.09px, constraints left/top, radius 3.87px, fill #D9D9D9, stroke #000000 1.21px, effect [inner_shadow 3.19px offset 0 0 #151307AD, inner_shadow 0px offset 0 0 #FEF6CD, drop_shadow 0px offset 0 0.97 #000000]
+      - VECTOR "Polygon 2", 85.15x26.12px, constraints left/top, radius 0/0/0/0px, fill #FFFFE3, stroke #25221E 0.97px, effect [inner_shadow 0px offset 0 -2.42 #000000]
+  - VECTOR "Vector 14", 60.31x58.54px, constraints left/top, radius 1.77px, fill #646665, effect [inner_shadow 0.71px offset 0 -1.77 #00000040, inner_shadow 5.94px offset 0 0.89 #00000057], opacity 90%
+  - VECTOR "background", 84.26x87.36px, constraints left/top, fill #707070, opacity 95%
+  - VECTOR "Vector 16", 60.31x58.54px, constraints left/top, radius 3.55px, stroke gradient_linear(#CDCDCD 0% | #AAAAAA 23% | #858585 44% | #616161 73% | #565656 100%) 1.77px
+  - VECTOR "Vector 17 (Stroke)", 84.7x87.36px, constraints left/top, radius 0/0/0/0px, fill #FFFFFC, effect [drop_shadow 1.06px offset 0 2.66 #323232]
+  - GROUP "Group 80", 219.13x222.62px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 72", 219.13x222.62px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 216.14x210.74px, constraints left_right/top_bottom, radius 17.29px, fill gradient_linear(#E3890F 0% | #EAC833 51%), effect [inner_shadow 0px offset 0 -2.16 #E7B923D1, inner_shadow 0px offset 0 0 #FFE276, drop_shadow 2.94px offset 0 1.73 #000000, drop_shadow 2.42px offset 0 12.1 #00000040]
+      - RECTANGLE "Rectangle 32", 204.25x95.1px, constraints center/top, radius 12.97px, fill gradient_linear(#FFFFFE 0% | #FFF6C0 100%)
+      - GROUP "Group 71", 53.78x53.78px, constraints left/top, radius 13.18px
+        - RECTANGLE "Rectangle 17", 53.78x53.78px, constraints left/top, radius 13.18px, fill gradient_linear(#B13BC5 0% | #734081 100%), stroke #FFFFFF 3.43px, effect [inner_shadow 1.62px offset 0 -6.48 #00000054, inner_shadow 0.66px offset 0 6.48 #FFFFFF69, drop_shadow 1.11px offset 0 2.64 #00000040]
+        - TEXT "10", 41x48px, constraints center/center, fill #FFFFFF, effect [drop_shadow 1.7px offset 0.93 -0.31 #00000040, drop_shadow 1.7px offset -1.23 0.62 #00000040], text [Cartel-Dem i Dem, 41.07px], [heading]
+    - GROUP "Group 79", 147.58x148.05px, constraints left/top, radius 0/0/0/0px [decorative, ~40 shapes]
+    - TEXT "SHOP", 104x40px, constraints center/top, fill #FFFFFF, stroke #000000 2.16px, effect [drop_shadow 0px offset 0 4.32 #000000], text [Supercell-Magic Magic, 27.02px], [heading]
+  - GROUP "Group 61", 116.4x122.4px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn-white", 110.87x110.87px, constraints left/top
+      - FRAME "Frame 7", 110.87x110.87px, constraints left/top
+        - RECTANGLE "Rectangle 1", 110.87x110.87px, constraints left_right/top_bottom, radius 19.96px, fill #F5F6E459, effect [inner_shadow 0px offset 0 0 #FFFFFFCC, drop_shadow 1.51px offset 0 0.89 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+        - RECTANGLE "Rectangle 2", 95.35x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#F5F6E4 0% | #F5F6E4EB 100%)
+    - GROUP "Group 58", 94.89x89.58px, constraints left/top, radius 0/0/0/0px [decorative, ~14 shapes]
+    - GROUP "Group 59", 51.65x51.65px, constraints left/top, radius 12.66px
+      - RECTANGLE "Rectangle 17", 51.65x51.65px, constraints left/top, radius 12.66px, fill gradient_linear(#FA191B 0% | #DA1529 100%), stroke #FFFFFF 3.29px, effect [inner_shadow 1.42px offset 0 -5.32 #00000040, inner_shadow 0.63px offset 0 5.57 #FFFFFF40, drop_shadow 1.06px offset 0 2.53 #00000040]
+      - TEXT "!", 8x35px, constraints center/center, fill #FFFFFF, effect [drop_shadow 1.39px offset 0.76 -0.25 #00000040, drop_shadow 1.39px offset -1.01 0.51 #00000040], text [Cartel-Dem i Dem, 30.16px], [heading]
+
+Screen: components / 2
+- FRAME "2", 2702.52x1216px, constraints left/top
+  - RECTANGLE "Screenshot_2025-04-14-18-28-54-311_com.supercell.clashofclan", 2702.52x1216px, constraints left/top, fill image(hash: 9e8010b36a5f7fd79f4d15b18776e02ac320f576)
+  - GROUP "Group 88", 110.87x110.87px, constraints left/top [decorative, ~8 shapes]
+  - GROUP "Group 87", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn-white", 110.87x110.87px, constraints left/top
+      - FRAME "Frame 7", 110.87x110.87px, constraints left/top
+        - RECTANGLE "Rectangle 1", 110.87x110.87px, constraints left_right/top_bottom, radius 19.96px, fill #F5F6E459, effect [inner_shadow 0px offset 0 0 #FFFFFFCC, drop_shadow 1.51px offset 0 0.89 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+        - RECTANGLE "Rectangle 2", 95.35x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#F5F6E4 0% | #F5F6E4EB 100%)
+    - GROUP "Group 69", 80.71x86.51px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector 33", 47.01x50.15px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#FFFFFF 36% | #F5F6E4 40%), stroke #000000 0.89px, effect [inner_shadow 0px offset 0 -2.66 #FFFFFF, drop_shadow 0px offset 0 1.77 #000000, drop_shadow 0.71px offset 0.89 4.43 #00000040]
+      - VECTOR "Polygon 9", 39.94x28.38px, constraints left/top, fill #FFFFFF, stroke #2A2C26 0.89px, effect [drop_shadow 0px offset 0 1.51 #000000, drop_shadow 0.71px offset 0.89 4.43 #00000040]
+      - VECTOR "Polygon 10", 28.38x39.94px, constraints left/top, fill #FFFFFF, stroke #2A2C26 0.89px, effect [drop_shadow 0px offset 0 1.77 #000000, drop_shadow 0.71px offset 0.89 4.43 #00000040]
+  - GROUP "Group 86", 312.2x94.67px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 26", 265.74x59.22px, constraints left/top, radius 0/14.26/14.26/0px, fill gradient_linear(#525252 0% | #282828 62% | #000000 100%), stroke #FFFFFF 2.16px
+    - TEXT "286", 69.49x41px, constraints left/top, fill #FFFFFF, stroke #000000 1.1px, effect [drop_shadow 0.95px offset 0 3.46 #000000], text [Supercell-Magic Magic, 27.66px], [heading]
+    - GROUP "Group 35", 56.88x56.63px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 56.88x56.63px, constraints left/top, radius 13.83px, fill #58980C, stroke #000000 0.86px, effect [inner_shadow 0px offset 0 0 #80B330, drop_shadow 1.02px offset 0 1.2 #000000, drop_shadow 0.84px offset 0 4.21 #000000]
+      - RECTANGLE "Rectangle 2", 45.59x22.05px, constraints left_right/top, radius 9.94/9.94/6.92/6.92px, fill gradient_linear(#B9E60D 0% | #85BE13 100%)
+    - VECTOR "Rectangle 27", 25.46x25.42px, constraints left/top, radius 0.78px, fill #FFFFFF, stroke #000000 1.3px, effect [drop_shadow 0px offset 0 1.73 #000000, layer_blur 1.04px]
+    - VECTOR "Rectangle 28", 25.46x25.42px, constraints left/top, radius 0.78px, fill #FFFFFF, stroke #000000 1.3px, effect [drop_shadow 0px offset 0 1.73 #000000]
+    - GROUP "Group 45", 74.69x94.67px, constraints left/top, effect [drop_shadow 2.12px offset 0 4.54 #00000033] [decorative, ~8 shapes]
+  - GROUP "Group 44", 438.18x94.67px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 43", 438.18x62.31px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 22", 438.18x62.31px, constraints left/top, radius 15.84px, fill #0909095C, stroke #000000 4.4px
+      - RECTANGLE "fill", 131.02x53.01px, constraints left/top, radius 11.36/0/0/11.36px, fill #E7C00D, effect [inner_shadow 2.04px offset 1.6 1.6 #F9E95A, inner_shadow 2.56px offset 0.78 0 #F6D544, inner_shadow 12.26px offset 0 -0.78 #F6D544, inner_shadow 1.09px offset 0 0.78 #F6D544, drop_shadow 3.28px offset -0.4 0 #FFF16A96, inner_shadow 10.3px offset 4.54 0 #FFFFFF5E]
+      - RECTANGLE "Rectangle 23", 420.21x24.99px, constraints left/top, radius 11.44px, fill #FFFFFF, opacity 55%
+    - GROUP "Group 39", 82.08x94.67px, constraints left/top [decorative, ~11 shapes]
+    - TEXT "2 861 028", 171x41px, constraints left/top, fill #FFFFFF, stroke #000000 1.02px, effect [drop_shadow 0.88px offset 0 3.2 #000000], text [Supercell-Magic Magic, 27.56px], [heading]
+  - GROUP "Group 49", 438.49x94.67px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 46", 438.49x67.4px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 28", 438.49x67.4px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 22", 438.49x67.4px, constraints left/top, radius 17.09px, fill #0909095C, stroke #000000 4.75px
+        - RECTANGLE "fill", 225.47x57.77px, constraints left/top, radius 12.93/0/0/12.93px, fill #C026C0, effect [inner_shadow 2.2px offset 1.72 1.72 #DE5ADE, inner_shadow 8.36px offset 3.45 0 #F177E7, inner_shadow 13.23px offset 0 -0.84 #DE5ADE, inner_shadow 1.17px offset 0 0.84 #DE5ADE, drop_shadow 3.54px offset -0.43 0 #F076E3, inner_shadow 5.35px offset 2.16 0 #FFFFFF52]
+        - RECTANGLE "Rectangle 23", 420.32x24.99px, constraints left/top, radius 12.35px, fill #FFFFFF, opacity 55%
+      - TEXT "3 904 434", 199x44px, constraints left/top, fill #FFFFFF, stroke #000000 1.1px, effect [drop_shadow 0.95px offset 0 3.45 #000000], text [Supercell-Magic Magic, 29.75px], [heading]
+    - GROUP "Group 47", 83.64x94.67px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector 23", 83.64x94.67px, constraints left/top, radius 0/0/0/0px, fill gradient_radial(#DE38F8 0% | #F449FF 6% | #E72AFE 45% | #CF22FE 57% | #B622E5 65% | #9F23C2 83% | #6D2169 100%), stroke #000000 3.88px, effect [inner_shadow 5.95px offset -0.43 -9.48 #A92279, inner_shadow 2.41px offset -0.43 -5.17 #C92F91, drop_shadow 0px offset -1.29 3.45 #000000]
+      - VECTOR "Vector 24", 32.91x45.41px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#D0D0D0 0% | #929292 100%), effect [layer_blur 1.72px]
+  - GROUP "Group 50", 316.64x84.26px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 46", 316.64x59.43px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 28", 316.64x59.43px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 22", 316.64x59.43px, constraints left/top, radius 15.22px, fill #0909095C, stroke #000000 4.23px
+        - RECTANGLE "fill", 113.92x51.23px, constraints left/top, radius 11.51/0/0/11.51px, fill #270D34, effect [inner_shadow 1.96px offset 1.53 1.53 #270D34, inner_shadow 7.44px offset 3.07 0 #270D34, inner_shadow 11.77px offset 0 -0.75 #270D34, inner_shadow 1.04px offset 0 0.75 #2C0C3D, drop_shadow 3.15px offset -0.38 0 #4D1A67, inner_shadow 4.76px offset 1.92 0 #FFFFFF52]
+        - RECTANGLE "Rectangle 23", 303.33x22.17px, constraints left/top, radius 10.99px, fill #FFFFFF, opacity 55%
+      - TEXT "25 051", 107x39px, constraints left/top, fill #FFFFFF, stroke #000000 0.98px, effect [drop_shadow 0.84px offset 0 3.07 #000000], text [Supercell-Magic Magic, 26.48px], [heading]
+    - GROUP "Group 47", 74.45x84.26px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector 23", 74.45x84.26px, constraints left/top, radius 0/0/0/0px, fill gradient_radial(#675D6A 0% | #66586B 6% | #453446 45% | #3C2E3F 57% | #40323F 65% | #382F32 83% | #382F2F 100%), stroke #000000 3.45px, effect [inner_shadow 3.51px offset -1.35 -8.09 #4E3B36, inner_shadow 2.15px offset -2.02 -4.72 #3F3735, drop_shadow 0px offset -1.15 3.07 #000000]
+      - VECTOR "Vector 24", 29.29x40.42px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#D0D0D0 0% | #929292 100%), effect [layer_blur 1.53px]
+  - RECTANGLE "Rectangle 21", 176.5x59.43px, constraints left/top, fill #02020280, stroke #FFFFFF 1.77px
+  - TEXT "1342", 80x38px, constraints left/top, fill #FFFFFF, stroke #000000 2.4px, effect [drop_shadow 0.36px offset 0 2.66 #000000], text [Supercell-Magic Magic, 25.72px], [heading]
+  - GROUP "Group 83", 215.53x215.53px, constraints left/top
+    - FRAME "btn", 215.53x215.53px, constraints left/top
+      - RECTANGLE "Rectangle 1", 215.53x215.53px, constraints left/top, radius 19.4px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 3.66px offset 0 4.31 #000000, drop_shadow 1.08px offset 0 11.85 #00000040]
+      - RECTANGLE "Rectangle 2", 193.97x99.14px, constraints left_right/top, radius 8.62px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+      - GROUP "Group 9", 139.82x111px, constraints left/top, radius 0/0/0/0px [decorative, ~25 shapes]
+      - GROUP "Group 10", 168.11x49.57px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+      - STAR "Star 3", 49.57x49.57px, constraints left/top, radius 1.69px, fill #FFF989, effect [layer_blur 13.47px], opacity 36%
+      - VECTOR "Ellipse 20", 34.48x47.42px, constraints left/top, radius 1.69px, fill gradient_linear(#FFF989 34% | #99955200 100%), effect [layer_blur 13.47px], opacity 18%
+      - TEXT "Attack!", 165x44px, constraints center/top, fill #FFFFFF, stroke #000000 2.16px, effect [drop_shadow 0px offset 0 4.31 #000000], text [Supercell-Magic Magic, 30.17px], [heading]
+  - GROUP "Group 31", 468.31x110.87px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 29", 376.06x73.62px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 27", 376.06x61.2px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "zorx", 60x25px, constraints left/top, fill #FFFFFF, stroke #000000 2.4px, effect [drop_shadow 0px offset 0 3.55 #000000], text [Supercell-Magic Magic, 16.85px]
+    - GROUP "Group 30", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "btn", 110.87x110.87px, constraints left/top
+        - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #1D70AACC, effect [inner_shadow 0px offset 0 0 #9AD5EFDB, drop_shadow 1.88px offset 0 2.22 #000000, drop_shadow 1.55px offset 0 7.76 #00000040]
+        - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#40C3F1EB 0% | #309ED1D1 100%)
+      - GROUP "Group 22", 91.95x91.95px, constraints left/top, radius 2.39px
+        - STAR "Star 5", 91.95x91.95px, constraints left/top, radius 2.39px, fill #0EE0FE, stroke #000000 1.79px, effect [drop_shadow 0px offset 0 2.39 #000000]
+        - GROUP "Mask group", 91.95x91.95px, constraints left/top, radius 2.39px
+          - STAR "Star 6", 91.95x91.95px, constraints left/top, radius 2.39px, fill #D9D9D9
+          - VECTOR "Star 7", 87.45x91.95px, constraints left/top, radius 2.39px, fill gradient_linear(#21DDFF 0% | #21DDFF 37% | #0DB2EB 100%), effect [inner_shadow 0.71px offset -0.35 7.1 #FFFFFF87, drop_shadow 2.21px offset 2.39 0 #0000002B]
+        - TEXT "92", 61x57px, constraints left/top, fill #FFFFFF, stroke #000000 2.39px, effect [drop_shadow 0.36px offset 0 5.37 #000000], text [Supercell-Magic Magic, 38.81px], [heading]
+  - GROUP "Group 82", 95.79x133.93px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 3", 95.79x133.93px, constraints left/top, radius 15.96px, fill #EA8A3B, effect [inner_shadow 0px offset 0 -7.1 #CC7239, drop_shadow 0px offset 0 0 #000000, inner_shadow 0px offset 0 0 #000000, drop_shadow 0px offset 0 0 #64655F]
+    - RECTANGLE "Rectangle 6", 86.92x66.52px, constraints left/top, radius 11.53/11.53/0/0px, fill #F3AA28, opacity 50%
+    - GROUP "Group 1", 69.53x71.73px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 0px offset 0 5.32 #00000040] [decorative, ~9 shapes]
+    - TEXT "Join", 74x37px, constraints left/top, fill #FFFFFF, stroke #000000 1.77px, effect [drop_shadow 0px offset 0 3.55 #000000], text [Supercell-Magic Magic, 24.83px], [heading]
+    - VECTOR "Subtract", 69.53x64.61px, constraints left/top, fill #FAC63B, effect [inner_shadow 2.66px offset 0 -1.33 #FFFFFF87]
+  - GROUP "Group 7", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #716C68A6, effect [inner_shadow 0px offset 0 0 #EEEEEECC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#BBBBBB 0% | #BBBBBBBA 100%)
+    - GROUP "Group 15", 95.6x81.96px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+  - GROUP "Group 85", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+    - GROUP "Group 14", 87.12x88.69px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+  - GROUP "Group 84", 127.93x126.83px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+    - GROUP "Group 20", 87.27x92.24px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+    - GROUP "Group 21", 51.65x51.65px, constraints left/top, radius 12.66px
+      - RECTANGLE "Rectangle 17", 51.65x51.65px, constraints left/top, radius 12.66px, fill gradient_linear(#FA191B 0% | #DA1529 100%), stroke #FFFFFF 3.29px, effect [inner_shadow 1.42px offset 0 -5.32 #00000040, inner_shadow 0.63px offset 0 5.57 #FFFFFF40, drop_shadow 1.06px offset 0 2.53 #00000040]
+      - TEXT "7", 18x35px, constraints center/center, fill #FFFFFF, effect [drop_shadow 1.39px offset 0.76 -0.25 #00000040, drop_shadow 1.39px offset -1.01 0.51 #00000040], text [Cartel-Dem i Dem, 30.16px], [heading]
+  - INSTANCE "btn", 110.87x110.87px, constraints left/top
+    - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+    - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+  - GROUP "Group 25", 77.56x77.72px, constraints left/top [decorative, ~7 shapes]
+  - GROUP "Group 81", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+    - GROUP "Group 26", 85.15x57.09px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 1.6px offset 0 4.43 #00000040]
+      - RECTANGLE "Rectangle 20", 79.34x57.09px, constraints left/top, radius 3.87px, fill #D9D9D9, stroke #000000 1.21px, effect [inner_shadow 3.19px offset 0 0 #151307AD, inner_shadow 0px offset 0 0 #FEF6CD, drop_shadow 0px offset 0 0.97 #000000]
+      - VECTOR "Polygon 2", 85.15x26.12px, constraints left/top, radius 0/0/0/0px, fill #FFFFE3, stroke #25221E 0.97px, effect [inner_shadow 0px offset 0 -2.42 #000000]
+  - VECTOR "Vector 14", 60.31x58.54px, constraints left/top, radius 1.77px, fill #646665, effect [inner_shadow 0.71px offset 0 -1.77 #00000040, inner_shadow 5.94px offset 0 0.89 #00000057], opacity 90%
+  - VECTOR "background", 84.26x87.36px, constraints left/top, fill #707070, opacity 95%
+  - VECTOR "Vector 16", 60.31x58.54px, constraints left/top, radius 3.55px, stroke gradient_linear(#CDCDCD 0% | #AAAAAA 23% | #858585 44% | #616161 73% | #565656 100%) 1.77px
+  - VECTOR "Vector 17 (Stroke)", 84.7x87.36px, constraints left/top, radius 0/0/0/0px, fill #FFFFFC, effect [drop_shadow 1.06px offset 0 2.66 #323232]
+  - GROUP "Group 80", 219.13x222.62px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 72", 219.13x222.62px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 216.14x210.74px, constraints left_right/top_bottom, radius 17.29px, fill gradient_linear(#E3890F 0% | #EAC833 51%), effect [inner_shadow 0px offset 0 -2.16 #E7B923D1, inner_shadow 0px offset 0 0 #FFE276, drop_shadow 2.94px offset 0 1.73 #000000, drop_shadow 2.42px offset 0 12.1 #00000040]
+      - RECTANGLE "Rectangle 32", 204.25x95.1px, constraints center/top, radius 12.97px, fill gradient_linear(#FFFFFE 0% | #FFF6C0 100%)
+      - GROUP "Group 71", 53.78x53.78px, constraints left/top, radius 13.18px
+        - RECTANGLE "Rectangle 17", 53.78x53.78px, constraints left/top, radius 13.18px, fill gradient_linear(#B13BC5 0% | #734081 100%), stroke #FFFFFF 3.43px, effect [inner_shadow 1.62px offset 0 -6.48 #00000054, inner_shadow 0.66px offset 0 6.48 #FFFFFF69, drop_shadow 1.11px offset 0 2.64 #00000040]
+        - TEXT "10", 41x48px, constraints center/center, fill #FFFFFF, effect [drop_shadow 1.7px offset 0.93 -0.31 #00000040, drop_shadow 1.7px offset -1.23 0.62 #00000040], text [Cartel-Dem i Dem, 41.07px], [heading]
+    - GROUP "Group 79", 147.58x148.05px, constraints left/top, radius 0/0/0/0px [decorative, ~40 shapes]
+    - TEXT "SHOP", 104x40px, constraints center/top, fill #FFFFFF, stroke #000000 2.16px, effect [drop_shadow 0px offset 0 4.32 #000000], text [Supercell-Magic Magic, 27.02px], [heading]
+  - GROUP "Group 61", 116.4x122.4px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn-white", 110.87x110.87px, constraints left/top
+      - FRAME "Frame 7", 110.87x110.87px, constraints left/top
+        - RECTANGLE "Rectangle 1", 110.87x110.87px, constraints left_right/top_bottom, radius 19.96px, fill #F5F6E459, effect [inner_shadow 0px offset 0 0 #FFFFFFCC, drop_shadow 1.51px offset 0 0.89 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+        - RECTANGLE "Rectangle 2", 95.35x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#F5F6E4 0% | #F5F6E4EB 100%)
+    - GROUP "Group 58", 94.89x89.58px, constraints left/top, radius 0/0/0/0px [decorative, ~14 shapes]
+    - GROUP "Group 59", 51.65x51.65px, constraints left/top, radius 12.66px
+      - RECTANGLE "Rectangle 17", 51.65x51.65px, constraints left/top, radius 12.66px, fill gradient_linear(#FA191B 0% | #DA1529 100%), stroke #FFFFFF 3.29px, effect [inner_shadow 1.42px offset 0 -5.32 #00000040, inner_shadow 0.63px offset 0 5.57 #FFFFFF40, drop_shadow 1.06px offset 0 2.53 #00000040]
+      - TEXT "!", 8x35px, constraints center/center, fill #FFFFFF, effect [drop_shadow 1.39px offset 0.76 -0.25 #00000040, drop_shadow 1.39px offset -1.01 0.51 #00000040], text [Cartel-Dem i Dem, 30.16px], [heading]
+
+Screen: components / 1
+- FRAME "1", 2702.52x1216px, constraints left/top
+  - RECTANGLE "Screenshot_2025-04-14-18-28-54-311_com.supercell.clashofclan", 2702.52x1216px, constraints left/top, fill gradient_radial(#002F4A 0% | #00101A 65%)
+  - GROUP "Group 88", 110.87x110.87px, constraints left/top [decorative, ~8 shapes]
+  - GROUP "Group 87", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn-white", 110.87x110.87px, constraints left/top
+      - FRAME "Frame 7", 110.87x110.87px, constraints left/top
+        - RECTANGLE "Rectangle 1", 110.87x110.87px, constraints left_right/top_bottom, radius 19.96px, fill #F5F6E459, effect [inner_shadow 0px offset 0 0 #FFFFFFCC, drop_shadow 1.51px offset 0 0.89 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+        - RECTANGLE "Rectangle 2", 95.35x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#F5F6E4 0% | #F5F6E4EB 100%)
+    - GROUP "Group 69", 80.71x86.51px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector 33", 47.01x50.15px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#FFFFFF 36% | #F5F6E4 40%), stroke #000000 0.89px, effect [inner_shadow 0px offset 0 -2.66 #FFFFFF, drop_shadow 0px offset 0 1.77 #000000, drop_shadow 0.71px offset 0.89 4.43 #00000040]
+      - VECTOR "Polygon 9", 39.94x28.38px, constraints left/top, fill #FFFFFF, stroke #2A2C26 0.89px, effect [drop_shadow 0px offset 0 1.51 #000000, drop_shadow 0.71px offset 0.89 4.43 #00000040]
+      - VECTOR "Polygon 10", 28.38x39.94px, constraints left/top, fill #FFFFFF, stroke #2A2C26 0.89px, effect [drop_shadow 0px offset 0 1.77 #000000, drop_shadow 0.71px offset 0.89 4.43 #00000040]
+  - GROUP "Group 86", 312.2x94.67px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 26", 265.74x59.22px, constraints left/top, radius 0/14.26/14.26/0px, fill gradient_linear(#525252 0% | #282828 62% | #000000 100%), stroke #FFFFFF 2.16px
+    - TEXT "286", 69.49x41px, constraints left/top, fill #FFFFFF, stroke #000000 1.1px, effect [drop_shadow 0.95px offset 0 3.46 #000000], text [Supercell-Magic Magic, 27.66px], [heading]
+    - GROUP "Group 35", 56.88x56.63px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 56.88x56.63px, constraints left/top, radius 13.83px, fill #58980C, stroke #000000 0.86px, effect [inner_shadow 0px offset 0 0 #80B330, drop_shadow 1.02px offset 0 1.2 #000000, drop_shadow 0.84px offset 0 4.21 #000000]
+      - RECTANGLE "Rectangle 2", 45.59x22.05px, constraints left_right/top, radius 9.94/9.94/6.92/6.92px, fill gradient_linear(#B9E60D 0% | #85BE13 100%)
+    - VECTOR "Rectangle 27", 25.46x25.42px, constraints left/top, radius 0.78px, fill #FFFFFF, stroke #000000 1.3px, effect [drop_shadow 0px offset 0 1.73 #000000, layer_blur 1.04px]
+    - VECTOR "Rectangle 28", 25.46x25.42px, constraints left/top, radius 0.78px, fill #FFFFFF, stroke #000000 1.3px, effect [drop_shadow 0px offset 0 1.73 #000000]
+    - GROUP "Group 45", 74.69x94.67px, constraints left/top, effect [drop_shadow 2.12px offset 0 4.54 #00000033] [decorative, ~8 shapes]
+  - GROUP "Group 44", 438.18x94.67px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 43", 438.18x62.31px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 22", 438.18x62.31px, constraints left/top, radius 15.84px, fill #0909095C, stroke #000000 4.4px
+      - RECTANGLE "fill", 131.02x53.01px, constraints left/top, radius 11.36/0/0/11.36px, fill #E7C00D, effect [inner_shadow 2.04px offset 1.6 1.6 #F9E95A, inner_shadow 2.56px offset 0.78 0 #F6D544, inner_shadow 12.26px offset 0 -0.78 #F6D544, inner_shadow 1.09px offset 0 0.78 #F6D544, drop_shadow 3.28px offset -0.4 0 #FFF16A96, inner_shadow 10.3px offset 4.54 0 #FFFFFF5E]
+      - RECTANGLE "Rectangle 23", 420.21x24.99px, constraints left/top, radius 11.44px, fill #FFFFFF, opacity 55%
+    - GROUP "Group 39", 82.08x94.67px, constraints left/top [decorative, ~11 shapes]
+    - TEXT "2 861 028", 171x41px, constraints left/top, fill #FFFFFF, stroke #000000 1.02px, effect [drop_shadow 0.88px offset 0 3.2 #000000], text [Supercell-Magic Magic, 27.56px], [heading]
+  - GROUP "Group 49", 438.49x94.67px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 46", 438.49x67.4px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 28", 438.49x67.4px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 22", 438.49x67.4px, constraints left/top, radius 17.09px, fill #0909095C, stroke #000000 4.75px
+        - RECTANGLE "fill", 225.47x57.77px, constraints left/top, radius 12.93/0/0/12.93px, fill #C026C0, effect [inner_shadow 2.2px offset 1.72 1.72 #DE5ADE, inner_shadow 8.36px offset 3.45 0 #F177E7, inner_shadow 13.23px offset 0 -0.84 #DE5ADE, inner_shadow 1.17px offset 0 0.84 #DE5ADE, drop_shadow 3.54px offset -0.43 0 #F076E3, inner_shadow 5.35px offset 2.16 0 #FFFFFF52]
+        - RECTANGLE "Rectangle 23", 420.32x24.99px, constraints left/top, radius 12.35px, fill #FFFFFF, opacity 55%
+      - TEXT "3 904 434", 199x44px, constraints left/top, fill #FFFFFF, stroke #000000 1.1px, effect [drop_shadow 0.95px offset 0 3.45 #000000], text [Supercell-Magic Magic, 29.75px], [heading]
+    - GROUP "Group 47", 83.64x94.67px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector 23", 83.64x94.67px, constraints left/top, radius 0/0/0/0px, fill gradient_radial(#DE38F8 0% | #F449FF 6% | #E72AFE 45% | #CF22FE 57% | #B622E5 65% | #9F23C2 83% | #6D2169 100%), stroke #000000 3.88px, effect [inner_shadow 5.95px offset -0.43 -9.48 #A92279, inner_shadow 2.41px offset -0.43 -5.17 #C92F91, drop_shadow 0px offset -1.29 3.45 #000000]
+      - VECTOR "Vector 24", 32.91x45.41px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#D0D0D0 0% | #929292 100%), effect [layer_blur 1.72px]
+  - GROUP "Group 50", 316.64x84.26px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 46", 316.64x59.43px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 28", 316.64x59.43px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 22", 316.64x59.43px, constraints left/top, radius 15.22px, fill #0909095C, stroke #000000 4.23px
+        - RECTANGLE "fill", 113.92x51.23px, constraints left/top, radius 11.51/0/0/11.51px, fill #270D34, effect [inner_shadow 1.96px offset 1.53 1.53 #270D34, inner_shadow 7.44px offset 3.07 0 #270D34, inner_shadow 11.77px offset 0 -0.75 #270D34, inner_shadow 1.04px offset 0 0.75 #2C0C3D, drop_shadow 3.15px offset -0.38 0 #4D1A67, inner_shadow 4.76px offset 1.92 0 #FFFFFF52]
+        - RECTANGLE "Rectangle 23", 303.33x22.17px, constraints left/top, radius 10.99px, fill #FFFFFF, opacity 55%
+      - TEXT "25 051", 107x39px, constraints left/top, fill #FFFFFF, stroke #000000 0.98px, effect [drop_shadow 0.84px offset 0 3.07 #000000], text [Supercell-Magic Magic, 26.48px], [heading]
+    - GROUP "Group 47", 74.45x84.26px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector 23", 74.45x84.26px, constraints left/top, radius 0/0/0/0px, fill gradient_radial(#675D6A 0% | #66586B 6% | #453446 45% | #3C2E3F 57% | #40323F 65% | #382F32 83% | #382F2F 100%), stroke #000000 3.45px, effect [inner_shadow 3.51px offset -1.35 -8.09 #4E3B36, inner_shadow 2.15px offset -2.02 -4.72 #3F3735, drop_shadow 0px offset -1.15 3.07 #000000]
+      - VECTOR "Vector 24", 29.29x40.42px, constraints left/top, radius 0/0/0/0px, fill gradient_linear(#D0D0D0 0% | #929292 100%), effect [layer_blur 1.53px]
+  - RECTANGLE "Rectangle 21", 176.5x59.43px, constraints left/top, fill #02020280, stroke #FFFFFF 1.77px
+  - TEXT "1342", 80x38px, constraints left/top, fill #FFFFFF, stroke #000000 2.4px, effect [drop_shadow 0.36px offset 0 2.66 #000000], text [Supercell-Magic Magic, 25.72px], [heading]
+  - GROUP "Group 83", 215.53x215.53px, constraints left/top
+    - FRAME "btn", 215.53x215.53px, constraints left/top
+      - RECTANGLE "Rectangle 1", 215.53x215.53px, constraints left/top, radius 19.4px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 3.66px offset 0 4.31 #000000, drop_shadow 1.08px offset 0 11.85 #00000040]
+      - RECTANGLE "Rectangle 2", 193.97x99.14px, constraints left_right/top, radius 8.62px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+      - GROUP "Group 9", 139.82x111px, constraints left/top, radius 0/0/0/0px [decorative, ~25 shapes]
+      - GROUP "Group 10", 168.11x49.57px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+      - STAR "Star 3", 49.57x49.57px, constraints left/top, radius 1.69px, fill #FFF989, effect [layer_blur 13.47px], opacity 36%
+      - VECTOR "Ellipse 20", 34.48x47.42px, constraints left/top, radius 1.69px, fill gradient_linear(#FFF989 34% | #99955200 100%), effect [layer_blur 13.47px], opacity 18%
+      - TEXT "Attack!", 165x44px, constraints center/top, fill #FFFFFF, stroke #000000 2.16px, effect [drop_shadow 0px offset 0 4.31 #000000], text [Supercell-Magic Magic, 30.17px], [heading]
+  - GROUP "Group 31", 468.31x110.87px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 29", 376.06x73.62px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 27", 376.06x61.2px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "zorx", 60x25px, constraints left/top, fill #FFFFFF, stroke #000000 2.4px, effect [drop_shadow 0px offset 0 3.55 #000000], text [Supercell-Magic Magic, 16.85px]
+    - GROUP "Group 30", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "btn", 110.87x110.87px, constraints left/top
+        - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #1D70AACC, effect [inner_shadow 0px offset 0 0 #9AD5EFDB, drop_shadow 1.88px offset 0 2.22 #000000, drop_shadow 1.55px offset 0 7.76 #00000040]
+        - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#40C3F1EB 0% | #309ED1D1 100%)
+      - GROUP "Group 22", 91.95x91.95px, constraints left/top, radius 2.39px
+        - STAR "Star 5", 91.95x91.95px, constraints left/top, radius 2.39px, fill #0EE0FE, stroke #000000 1.79px, effect [drop_shadow 0px offset 0 2.39 #000000]
+        - GROUP "Mask group", 91.95x91.95px, constraints left/top, radius 2.39px
+          - STAR "Star 6", 91.95x91.95px, constraints left/top, radius 2.39px, fill #D9D9D9
+          - VECTOR "Star 7", 87.45x91.95px, constraints left/top, radius 2.39px, fill gradient_linear(#21DDFF 0% | #21DDFF 37% | #0DB2EB 100%), effect [inner_shadow 0.71px offset -0.35 7.1 #FFFFFF87, drop_shadow 2.21px offset 2.39 0 #0000002B]
+        - TEXT "92", 61x57px, constraints left/top, fill #FFFFFF, stroke #000000 2.39px, effect [drop_shadow 0.36px offset 0 5.37 #000000], text [Supercell-Magic Magic, 38.81px], [heading]
+  - GROUP "Group 82", 95.79x133.93px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 3", 95.79x133.93px, constraints left/top, radius 15.96px, fill #EA8A3B, effect [inner_shadow 0px offset 0 -7.1 #CC7239, drop_shadow 0px offset 0 0 #000000, inner_shadow 0px offset 0 0 #000000, drop_shadow 0px offset 0 0 #64655F]
+    - RECTANGLE "Rectangle 6", 86.92x66.52px, constraints left/top, radius 11.53/11.53/0/0px, fill #F3AA28, opacity 50%
+    - GROUP "Group 1", 69.53x71.73px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 0px offset 0 5.32 #00000040] [decorative, ~9 shapes]
+    - TEXT "Join", 74x37px, constraints left/top, fill #FFFFFF, stroke #000000 1.77px, effect [drop_shadow 0px offset 0 3.55 #000000], text [Supercell-Magic Magic, 24.83px], [heading]
+    - VECTOR "Subtract", 69.53x64.61px, constraints left/top, fill #FAC63B, effect [inner_shadow 2.66px offset 0 -1.33 #FFFFFF87]
+  - GROUP "Group 7", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #716C68A6, effect [inner_shadow 0px offset 0 0 #EEEEEECC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#BBBBBB 0% | #BBBBBBBA 100%)
+    - GROUP "Group 15", 95.6x81.96px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+  - GROUP "Group 85", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+    - GROUP "Group 14", 87.12x88.69px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+  - GROUP "Group 84", 127.93x126.83px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+    - GROUP "Group 20", 87.27x92.24px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+    - GROUP "Group 21", 51.65x51.65px, constraints left/top, radius 12.66px
+      - RECTANGLE "Rectangle 17", 51.65x51.65px, constraints left/top, radius 12.66px, fill gradient_linear(#FA191B 0% | #DA1529 100%), stroke #FFFFFF 3.29px, effect [inner_shadow 1.42px offset 0 -5.32 #00000040, inner_shadow 0.63px offset 0 5.57 #FFFFFF40, drop_shadow 1.06px offset 0 2.53 #00000040]
+      - TEXT "7", 18x35px, constraints center/center, fill #FFFFFF, effect [drop_shadow 1.39px offset 0.76 -0.25 #00000040, drop_shadow 1.39px offset -1.01 0.51 #00000040], text [Cartel-Dem i Dem, 30.16px], [heading]
+  - INSTANCE "btn", 110.87x110.87px, constraints left/top
+    - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+    - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+  - GROUP "Group 25", 77.56x77.72px, constraints left/top [decorative, ~7 shapes]
+  - GROUP "Group 81", 110.87x110.87px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn", 110.87x110.87px, constraints left/top
+      - RECTANGLE "Rectangle 1", 111x111px, constraints left_right/top_bottom, radius 19.96px, fill #C46A15CC, effect [inner_shadow 0px offset 0 0 #FFDCA1CC, drop_shadow 1.51px offset 0 1.77 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+      - RECTANGLE "Rectangle 2", 95.48x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#FFB748 0% | #E0952FBA 100%)
+    - GROUP "Group 26", 85.15x57.09px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 1.6px offset 0 4.43 #00000040]
+      - RECTANGLE "Rectangle 20", 79.34x57.09px, constraints left/top, radius 3.87px, fill #D9D9D9, stroke #000000 1.21px, effect [inner_shadow 3.19px offset 0 0 #151307AD, inner_shadow 0px offset 0 0 #FEF6CD, drop_shadow 0px offset 0 0.97 #000000]
+      - VECTOR "Polygon 2", 85.15x26.12px, constraints left/top, radius 0/0/0/0px, fill #FFFFE3, stroke #25221E 0.97px, effect [inner_shadow 0px offset 0 -2.42 #000000]
+  - VECTOR "Vector 14", 60.31x58.54px, constraints left/top, radius 1.77px, fill #646665, effect [inner_shadow 0.71px offset 0 -1.77 #00000040, inner_shadow 5.94px offset 0 0.89 #00000057], opacity 90%
+  - VECTOR "background", 84.26x87.36px, constraints left/top, fill #707070, opacity 95%
+  - VECTOR "Vector 16", 60.31x58.54px, constraints left/top, radius 3.55px, stroke gradient_linear(#CDCDCD 0% | #AAAAAA 23% | #858585 44% | #616161 73% | #565656 100%) 1.77px
+  - VECTOR "Vector 17 (Stroke)", 84.7x87.36px, constraints left/top, radius 0/0/0/0px, fill #FFFFFC, effect [drop_shadow 1.06px offset 0 2.66 #323232]
+  - GROUP "Group 80", 219.13x222.62px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 72", 219.13x222.62px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 216.14x210.74px, constraints left_right/top_bottom, radius 17.29px, fill gradient_linear(#E3890F 0% | #EAC833 51%), effect [inner_shadow 0px offset 0 -2.16 #E7B923D1, inner_shadow 0px offset 0 0 #FFE276, drop_shadow 2.94px offset 0 1.73 #000000, drop_shadow 2.42px offset 0 12.1 #00000040]
+      - RECTANGLE "Rectangle 32", 204.25x95.1px, constraints center/top, radius 12.97px, fill gradient_linear(#FFFFFE 0% | #FFF6C0 100%)
+      - GROUP "Group 71", 53.78x53.78px, constraints left/top, radius 13.18px
+        - RECTANGLE "Rectangle 17", 53.78x53.78px, constraints left/top, radius 13.18px, fill gradient_linear(#B13BC5 0% | #734081 100%), stroke #FFFFFF 3.43px, effect [inner_shadow 1.62px offset 0 -6.48 #00000054, inner_shadow 0.66px offset 0 6.48 #FFFFFF69, drop_shadow 1.11px offset 0 2.64 #00000040]
+        - TEXT "10", 41x48px, constraints center/center, fill #FFFFFF, effect [drop_shadow 1.7px offset 0.93 -0.31 #00000040, drop_shadow 1.7px offset -1.23 0.62 #00000040], text [Cartel-Dem i Dem, 41.07px], [heading]
+    - GROUP "Group 79", 147.58x148.05px, constraints left/top, radius 0/0/0/0px [decorative, ~40 shapes]
+    - TEXT "SHOP", 104x40px, constraints center/top, fill #FFFFFF, stroke #000000 2.16px, effect [drop_shadow 0px offset 0 4.32 #000000], text [Supercell-Magic Magic, 27.02px], [heading]
+  - GROUP "Group 61", 116.4x122.4px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "btn-white", 110.87x110.87px, constraints left/top
+      - FRAME "Frame 7", 110.87x110.87px, constraints left/top
+        - RECTANGLE "Rectangle 1", 110.87x110.87px, constraints left_right/top_bottom, radius 19.96px, fill #F5F6E459, effect [inner_shadow 0px offset 0 0 #FFFFFFCC, drop_shadow 1.51px offset 0 0.89 #000000, drop_shadow 1.24px offset 0 6.21 #00000040]
+        - RECTANGLE "Rectangle 2", 95.35x47.67px, constraints left_right/top, radius 13.3px, fill gradient_linear(#F5F6E4 0% | #F5F6E4EB 100%)
+    - GROUP "Group 58", 94.89x89.58px, constraints left/top, radius 0/0/0/0px [decorative, ~14 shapes]
+    - GROUP "Group 59", 51.65x51.65px, constraints left/top, radius 12.66px
+      - RECTANGLE "Rectangle 17", 51.65x51.65px, constraints left/top, radius 12.66px, fill gradient_linear(#FA191B 0% | #DA1529 100%), stroke #FFFFFF 3.29px, effect [inner_shadow 1.42px offset 0 -5.32 #00000040, inner_shadow 0.63px offset 0 5.57 #FFFFFF40, drop_shadow 1.06px offset 0 2.53 #00000040]
+      - TEXT "!", 8x35px, constraints center/center, fill #FFFFFF, effect [drop_shadow 1.39px offset 0.76 -0.25 #00000040, drop_shadow 1.39px offset -1.01 0.51 #00000040], text [Cartel-Dem i Dem, 30.16px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

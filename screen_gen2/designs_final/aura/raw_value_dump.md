@@ -1,0 +1,1430 @@
+---
+name: aura-vaadin-design-system-community
+source_file: Aura / Vaadin Design System (Community)
+source_page: All pages (42): Introduction, ---, Colors, Typography, Styles, Icons, ---, Accordion & Details, Avatar, Badge, Button, Card, CRUD ($), Charts ($), Checkbox, Combo Box & Select, Context Menu, Cookie Consent ($), Custom Field, Dashboard ($), Date Picker, Date Time Picker, Dialogs, Grid, List Box, Login, Map ($), Master Detail Layout, Menu Bar, Messages, Notification, Popover, Progress Bar, Radio button, Rich Text Editor ($), Side Navigation, Split Layout, Tabs, Text Field, Time picker, Tooltip, Upload
+generated_at: 2026-07-25T09:43:20.990558+00:00
+---
+
+# Aura / Vaadin Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Aura / Vaadin Design System (Community)
+- Figma page: All pages (42): Introduction, ---, Colors, Typography, Styles, Icons, ---, Accordion & Details, Avatar, Badge, Button, Card, CRUD ($), Charts ($), Checkbox, Combo Box & Select, Context Menu, Cookie Consent ($), Custom Field, Dashboard ($), Date Picker, Date Time Picker, Dialogs, Grid, List Box, Login, Map ($), Master Detail Layout, Menu Bar, Messages, Notification, Popover, Progress Bar, Radio button, Rich Text Editor ($), Side Navigation, Split Layout, Tabs, Text Field, Time picker, Tooltip, Upload
+- Extracted at: 2026-07-25T09:43:20.990558+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #9747FF: 53 uses
+- #FFFFFF03: 18 uses
+- #0ACF83: 12 uses
+- #1ABCFE: 12 uses
+- #A259FF: 12 uses
+- #F24E1E: 12 uses
+- #FF7262: 12 uses
+- #7B61FF: 11 uses
+- #000000: 9 uses
+- #FFFFFF: 9 uses
+- #1B1B1F: 7 uses
+- #431C8F: 6 uses
+- #603FA1: 6 uses
+- #7B3AFB: 6 uses
+- #FAF8FF: 6 uses
+
+## Typography Tokens
+- Component text styles/Field label: Instrument Sans Medium (500), 14px / 20px, tracking 0px
+- Text S: Instrument Sans Regular (400), 13px / 20px, tracking 0px
+- Text M: Instrument Sans Regular (400), 14px / 20px, tracking 0px
+- Component text styles/Input field: Instrument Sans Regular (400), 14px / 20px, tracking 0px
+- Text XL: Instrument Sans SemiBold (600), 18px / 26px, tracking 0px
+- Text XS: Instrument Sans Regular (400), 11px / 16px, tracking 0px
+- Text L: Instrument Sans SemiBold (600), 16px / 22px, tracking 0px
+
+## Raw Typography (unstyled)
+- Instrument Sans Regular, 14px: 3951 uses
+- Instrument Sans Medium, 14px: 1796 uses
+- Instrument Sans Regular, 12px: 146 uses
+- Instrument Sans SemiBold, 28px: 100 uses
+- Instrument Sans SemiBold, 14px: 83 uses
+- Instrument Sans SemiBold, 16px: 76 uses
+- Inter Regular, 16px: 65 uses
+- Instrument Sans SemiBold, 40px: 57 uses
+- Instrument Sans Medium, 13px: 50 uses
+
+## Typography Hierarchy
+- 40px - Instrument Sans SemiBold, 40px (raw)
+- 28px - Instrument Sans SemiBold, 28px (raw)
+- 18px - Text XL (Instrument Sans SemiBold)
+- 16px - Instrument Sans SemiBold, 16px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 16px - Text L (Instrument Sans SemiBold)
+- 14px - Component text styles/Field label (Instrument Sans Medium)
+- 14px - Component text styles/Input field (Instrument Sans Regular)
+- 14px - Instrument Sans Medium, 14px (raw)
+- 14px - Instrument Sans Regular, 14px (raw)
+- 14px - Instrument Sans SemiBold, 14px (raw)
+- 14px - Text M (Instrument Sans Regular)
+- 13px - Instrument Sans Medium, 13px (raw)
+- 13px - Text S (Instrument Sans Regular)
+- 12px - Instrument Sans Regular, 12px (raw)
+- 11px - Text XS (Instrument Sans Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow XS: [drop_shadow 4px offset 0 1 #14141433]
+- Overlay shadow + blur: [background_blur 20px, drop_shadow 16px offset 0 8 #14141433, drop_shadow 0px offset 0 0 #0000000F]
+- Shadow S: [drop_shadow 5px offset 0 2 #14141433]
+- Overlay blur: [background_blur 20px]
+- Shadow M: [drop_shadow 16px offset 0 8 #14141433]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Color swatch
+- Item
+- Item (dropdown)
+- Item (custom presentation)
+- Divider line
+- Code
+- Underline
+- Strikethrough
+- H1
+- Bold
+- H2
+- Quote
+- Clear
+- H3
+- Superscript
+- Subscript
+- Italic
+- Outdent
+- List-bullet
+- List-number
+- Indent
+- Background
+- Align right
+- Align left
+- Align center
+- User
+- Upload
+- Undo
+- Sort
+- Resize
+- Refresh
+- Redo
+- Plus
+- Play
+- Photo
+- paper-airplane
+- Pen
+- Minus
+- Menu
+- Link
+- Fullscreen
+- Eye
+- Eye, disabled
+- Warn
+- Dropdown
+- Drag
+- Cross
+- Clock
+- Checkmark
+- Calendar
+- Arrow up
+- Arrow right
+- Arrow left
+- Arrow down
+- Angle up
+- Angle right
+- Angle left
+- Angle down
+- [empty]
+- Accordion
+- Details
+- Avatar
+- Item (avatar)
+- Avatar Group (overflow list)
+- Avatar (overflow)
+- Avatar Group
+- Badge
+- Button (tertiary, icon-only)
+- Button (tertiary)
+- Button (icon-only)
+- Button
+- Button (primary, icon-only)
+- Button (primary)
+- Card (Image)
+- Card
+- CRUD Edit column ($)
+- CRUD Editor aside ($)
+- CRUD Edit dialog ($)
+- CRUD Toolbar ($)
+- CRUD ($)
+- Checkbox
+- Checkbox with label
+- Checkbox group (horizontal)
+- Checkbox group (vertical)
+- Multi-Select Combo Box
+- Combo Box
+- Multi-Select Overflow Chip
+- Multi-Select Chip
+- Combo Box Overlay
+- Context Menu (2 levels)
+- Context Menu
+- Cookie Consent ($)
+- Custom field examples
+- Custom field
+- Dashboard widget
+- Date Picker
+- Date Picker Overlay
+- Date Time Picker
+- Confirm dialog
+- Dialog
+- Parts
+- Column
+- Grid with cells
+- Grid (Rich content)
+- Grid (filter columns)
+- Grid (tree)
+- Grid
+- List Box
+- Login form
+- Login overlay
+- Map ($)
+- Map
+- Master Detail Layout
+- Menu Bar
+- Menu Bar example
+- Message List
+- Message List + Input
+- Message Input
+- Message
+- Notification
+- Popover
+- Progress Bar
+- Progress Bar (indeterminate)
+- Radio button
+- Radio button with label
+- Radio button group (horizontal)
+- Radio button group (vertical)
+- Rich text editor ($)
+- Side Nav Item
+- Nav bar
+- Side Navigation (labels)
+- Side Navigation (hierarchy)
+- Split Layout
+- Tab
+- Vertical tabs
+- Horizontal tabs
+- Tab Sheet
+- Text Area
+- Password Field
+- Number Field
+- Text Field
+- Time Picker
+- Time Picker Overlay
+- Tooltip
+
+## Component Specs
+- Color swatch: size 240x120px, radius 8px, fill #3266E4, text [Text L, Text S]
+- Item: size 180x32px, radius 5px, horizontal layout, padding 6 8 6 4px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px] | variants: Selected: Off/On
+- Item (dropdown): size 180x32px, radius 5px, horizontal layout, padding 6 8 6 4px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px] | variants: Selected: Off/On
+- Item (custom presentation): size 180x48px, radius 5px, horizontal layout, padding 6 8 6 4px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Text S, Text XS, Instrument Sans Medium, 14px, Component text styles/Field label] | variants: Selected: Off/On
+- Divider line: size 180x9px
+- Code: size 20x20px, fill #FFFFFF
+- Underline: size 20x20px, fill #FFFFFF
+- Strikethrough: size 20x20px, fill #FFFFFF
+- H1: size 20x20px, fill #FFFFFF
+- Bold: size 20x20px, fill #FFFFFF
+- H2: size 20x20px, fill #FFFFFF
+- Quote: size 20x20px, fill #FFFFFF
+- Clear: size 20x20px, fill #FFFFFF
+- H3: size 20x20px, fill #FFFFFF
+- Superscript: size 20x20px, fill #FFFFFF
+- Subscript: size 20x20px, fill #FFFFFF
+- Italic: size 20x20px, fill #FFFFFF
+- Outdent: size 20x20px, fill #FFFFFF
+- List-bullet: size 20x20px, fill #FFFFFF
+- List-number: size 20x20px, fill #FFFFFF
+- Indent: size 20x20px, fill #FFFFFF
+- Background: size 20x20px, fill #FFFFFF
+- Align right: size 20x20px, fill #FFFFFF
+- Align left: size 20x20px, fill #FFFFFF
+- Align center: size 20x20px, fill #FFFFFF
+- User: size 20x20px
+- Upload (Icons): size 20x20px
+- Undo: size 20x20px, fill #FFFFFF
+- Sort: size 20x20px, fill #FFFFFF
+- Resize: size 20x20px, fill #FFFFFF
+- Refresh: size 20x20px
+- Redo: size 20x20px, fill #FFFFFF
+- Plus: size 20x20px
+- Play: size 20x20px
+- Photo: size 20x20px, fill #FFFFFF
+- paper-airplane: size 20x20px, fill #FFFFFF
+- Pen: size 20x20px
+- Minus: size 20x20px
+- Menu: size 20x20px
+- Link: size 20x20px, fill #FFFFFF
+- Fullscreen: size 20x20px, fill #FFFFFF
+- Eye: size 20x20px
+- Eye, disabled: size 20x20px
+- Warn: size 20x20px
+- Dropdown: size 20x20px
+- Drag: size 20x20px, fill #FFFFFF
+- Cross: size 20x20px
+- Clock: size 20x20px
+- Checkmark: size 20x20px
+- Calendar: size 20x20px, fill #FFFFFF
+- Arrow up: size 20x20px
+- Arrow right: size 20x20px
+- Arrow left: size 20x20px
+- Arrow down: size 20x20px
+- Angle up: size 20x20px
+- Angle right: size 20x20px
+- Angle left: size 20x20px
+- Angle down: size 20x20px
+- [empty]: size 20x20px
+- Accordion: size 264x192px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px, Text M] | variants: Variant: Default/Filled/Filled Reverse/Reverse
+- Details/Detail (open): size 260x64px, radius 9px, vertical layout, padding 0 0 8 0px, gap 4px, align center/min, sizing W:fill H:fixed, text [Text M, Instrument Sans Medium, 14px] | variants: Variant: Filled/Normal; Icon position: Left/Right
+- Details/Detail: size 260x32px, radius 9px, horizontal layout, padding 6 0 6 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px] | variants: Variant: Filled/Normal; Icon position: Left/Right
+- Avatar: size 32x32px, radius 64px, text [Component text styles/Field label] | variants: Color: User-color-0/User-color-1/User-color-2/User-color-3/User-color-4/User-color-5/User-color-6/User-color-7/User-color-8/User-color-9; Image: Off/On
+- Item (avatar): size 184x32px, text [Instrument Sans Medium, 13px, Text M]
+- Avatar Group (overflow list): size 194x136px, radius 9px, vertical layout, padding 4 4 4 4px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFFD9, stroke #03030314 1px, effect Shadow M, text [Instrument Sans Medium, 13px, Text M]
+- Avatar (overflow): size 32x32px, radius 64px, text [Component text styles/Field label]
+- Avatar Group: size 110x32px, horizontal layout, padding 0 0 0 0px, gap -6px, sizing W:fixed H:fixed, text [Component text styles/Field label]
+- Badge: size 20x20px, radius 25px, horizontal layout, padding 2.5 2.5 2.5 2.5px, gap 3px, align min/center, sizing W:fixed H:fixed, fill #3266E4 | variants: Style: Icon/Icon Filled/Text/Text Filled; Color: Accent/Accent neutral/Blue/Green/Orange/Purple/Red/Yellow
+- Button (tertiary, icon-only): size 36x34px, radius 4px, horizontal layout, padding 6 8 6 8px, gap 4px, align center/center, sizing W:fixed H:fixed | variants: Color: Accent/Accent neutral/Blue/Error/Orange/Purple/Success/Yellow
+- Button (tertiary): size 69x34px, horizontal layout, padding 0 12 0 12px, gap 8px, align center/center, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px] | variants: Color: Accent/Accent neutral/Blue/Error/Orange/Purple/Success/Yellow
+- Button (icon-only): size 36x34px, radius 9px, horizontal layout, padding 6 8 6 8px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #0A0B0D, stroke #0A0B0D 1px, effect Shadow XS | variants: Color: Accent/Accent neutral/Blue/Error/Orange/Purple/Success/Yellow
+- Button: size 69x34px, radius 9px, horizontal layout, padding 0 12 0 12px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #0A0B0D, stroke #0A0B0D 1px, effect Shadow XS, text [Instrument Sans Medium, 14px] | variants: Color: Accent/Accent neutral/Blue/Error/Orange/Purple/Success/Yellow
+- Button (primary, icon-only): size 36x34px, radius 9px, horizontal layout, padding 6 8 6 8px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #0A0B0D, effect Shadow S | variants: Color: Accent/Accent neutral/Blue/Error/Orange/Purple/Success/Yellow
+- Button (primary): size 69x34px, radius 9px, horizontal layout, padding 0 12 0 12px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #0A0B0D, effect Shadow S, text [Instrument Sans Medium, 14px] | variants: Color: Accent/Accent neutral/Blue/Green/Orange/Purple/Red/Yellow
+- Card (Image): size 480x160px, radius 15px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #EDF0F280, effect Overlay blur, text [Instrument Sans Medium, 14px, Text M, Text S, Instrument Sans SemiBold, 16px] | variants: Style variant: Elevated/Flat/Outlined; Horizontal: Off/On
+- Card: size 320x107px, radius 15px, horizontal layout, padding 16 16 16 16px, gap 16px, sizing W:fixed H:fixed, fill #EDF0F280, effect Overlay blur, text [Instrument Sans Medium, 14px, Text M, Text S, Instrument Sans SemiBold, 16px] | variants: Style variant: Elevated/Flat/Outlined; Horizontal: Off/On
+- CRUD Edit column ($): size 44x1232px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text M, Component text styles/Input field, Component text styles/Field label]
+- CRUD Editor aside ($): size 300x480px, fill #FFFFFF, stroke #03030314 1px, text [Text L, Text M, Component text styles/Input field, Component text styles/Field label, Instrument Sans Medium, 14px]
+- CRUD Edit dialog ($): size 800x330px, text [Instrument Sans Medium, 14px, Text M, Component text styles/Input field, Component text styles/Field label, Instrument Sans SemiBold, 16px]
+- CRUD Toolbar ($): size 800x61px, fill #FFFFFF, stroke #03030314 1px, text [Instrument Sans Medium, 14px]
+- CRUD ($): size 800x480px, stroke #03030314 1px, text [Instrument Sans Medium, 14px, Text M, Component text styles/Input field, Component text styles/Field label, Instrument Sans Regular, 14px]
+- Checkbox: size 24x24px | variants: State: Checked/Indeterminate/Unchecked
+- Checkbox with label: size 74x24px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px]
+- Checkbox group (horizontal): size 338x43px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px, Component text styles/Field label]
+- Checkbox group (vertical): size 112x91px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px, Component text styles/Field label]
+- Multi-Select Combo Box: size 192x58px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Text M, Instrument Sans Regular, 12px, Component text styles/Field label] | variants: State: Default/Disabled/Invalid/Opened/Read only
+- Combo Box: size 192x58px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Text M, Component text styles/Input field, Component text styles/Field label] | variants: State: Default/Disabled/Invalid/Opened/Read only
+- Multi-Select Overflow Chip: size 27x20px, horizontal layout, padding 0 0 0 0px, gap 1px, sizing W:fixed H:fixed, text [Instrument Sans Regular, 12px]
+- Multi-Select Chip: size 56x20px, radius 4px, horizontal layout, padding 2 5 2 5px, gap 2px, align min/center, sizing W:fixed H:fixed, fill #E9E9E9, text [Instrument Sans Regular, 12px]
+- Combo Box Overlay: size 192x136px, radius 9px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFFD9, stroke #03030314 0px, effect Overlay shadow + blur, text [Instrument Sans Medium, 14px]
+- Context Menu (2 levels): size 384x226px, fill #FFFFFF, text [Instrument Sans Medium, 14px]
+- Context Menu: size 194x136px, radius 9px, vertical layout, padding 4 4 4 4px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFFD9, stroke #03030314 0px, effect Overlay shadow + blur, text [Instrument Sans Medium, 14px]
+- Cookie Consent ($): size 880x66px, horizontal layout, padding 16 24 16 24px, gap 266px, align space_between/center, sizing W:fixed H:fixed, fill #13161B, text [Instrument Sans Medium, 14px, Text M]
+- Custom field examples/Date Range: size 336x58px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text XS, Text M, Component text styles/Input field, Component text styles/Field label]
+- Custom field examples/US address field: size 508x58px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text XS, Text M, Component text styles/Input field, Component text styles/Field label]
+- Custom field examples/Price field: size 336x58px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text XS, Text M, Component text styles/Input field, Component text styles/Field label]
+- Custom field examples/Phone number field: size 416x58px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text XS, Text M, Component text styles/Input field, Component text styles/Field label]
+- Custom field: size 336x58px, vertical layout, padding 0 0 0 0px, gap 4px, align max/min, sizing W:fixed H:fixed, text [Text XS, Text M, Component text styles/Input field, Component text styles/Field label]
+- Dashboard widget: size 260x260px, radius 15px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #EDF0F280, effect Overlay blur, text [Text S, Instrument Sans Medium, 14px] | variants: Style variant: Elevated/Flat/Outlined; State: Editing/Move mode/Normal
+- Date Picker: size 192x58px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Text M, Component text styles/Input field, Component text styles/Field label] | variants: State: Default/Disabled/Invalid/Opened/Read only
+- Date Picker Overlay / Focused day: size 36x36px, radius 9px, stroke #3266E4 2px
+- Date Picker Overlay / Selected day: size 36x36px, radius 9px, fill #3266E4, text [Text M]
+- Date Picker Overlay: size 315x504px, radius 9px, fill #FFFFFFD9, stroke #03030314 0px, effect Overlay shadow + blur, text [Text M, Text XS, Instrument Sans SemiBold, 14px, Text S, Instrument Sans Medium, 13px, Instrument Sans Medium, 14px]
+- Date Time Picker: size 386x58px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/max, sizing W:fixed H:fixed, text [Text M, Component text styles/Input field, Component text styles/Field label]
+- Confirm dialog: size 420x158px, text [Instrument Sans Medium, 14px, Text M, Instrument Sans SemiBold, 16px]
+- Dialog: size 540x360px, radius 15px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFFD9, stroke #03030314 0px, effect Overlay shadow + blur, text [Instrument Sans Medium, 14px, Instrument Sans SemiBold, 16px]
+- Parts/Header cell: size 71x32px, horizontal layout, padding 6 8 6 8px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Component text styles/Field label] | variants: Type: Text
+- Parts/Row background: size 110x32px, vertical layout, padding 15 0 15 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF00, stroke #03030314 1px | variants: Type: Even/Odd; Selected: Off/On; Row stripes: Off/On
+- Parts/Cell: size 44x32px, horizontal layout, padding 6 8 6 8px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Instrument Sans Regular, 14px] | variants: Type: Badges/Button/Checkbox/Text
+- Parts / Column header: size 55x32px, horizontal layout, padding 0 0 0 0px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Component text styles/Field label] | variants: Type: Ascending/Default/Descending/Enabled/Filter
+- Parts / Row background: size 110x792px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fill H:fixed | variants: Row height: Large/Normal; Row borders: Off/On; Row stripes: Off/On
+- Parts / Tree cell: size 194x32px, horizontal layout, padding 0 0 0 118px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Instrument Sans Regular, 14px] | variants: Level: 1/2/3/4; Expanded: Off/On
+- Column / Tree column: size 164x480px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Instrument Sans Regular, 14px, Component text styles/Field label] | variants: Row height: Large/Normal
+- Parts / Rich content: size 220x32px, horizontal layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Text XS, Instrument Sans Medium, 14px, Instrument Sans Regular, 12px] | variants: Row height: Large/Normal
+- Column / Rich content column: size 220x608px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Text XS, Instrument Sans Medium, 14px, Instrument Sans Regular, 12px, Component text styles/Field label] | variants: Row height: Large/Normal
+- Column / Badge column: size 55x960px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Text S, Component text styles/Field label] | variants: Row height: Large/Normal
+- Column / Button column: size 69x960px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px, Component text styles/Field label] | variants: Row height: Large/Normal
+- Column / Icon button column: size 44x832px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Component text styles/Field label] | variants: Row height: Large/Normal
+- Column / Icon column: size 28x844px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Component text styles/Field label] | variants: Row height: Large/Normal
+- Column / Checkbox column: size 74x960px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px, Component text styles/Field label] | variants: Row height: Large/Normal
+- Column / Numeric column: size 69x960px, vertical layout, padding 0 0 0 0px, gap 0px, align min/max, sizing W:fixed H:fixed, text [Instrument Sans Regular, 14px, Component text styles/Field label] | variants: Row height: Large/Normal
+- Column / Text column: size 66x960px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Instrument Sans Regular, 14px, Component text styles/Field label] | variants: Row height: Large/Normal
+- Parts / Selection row: size 1600x32px | variants: Selected: Off/On
+- Column / Selection column: size 24x1062px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed | variants: Row height: Large/Normal
+- Grid with cells: size 800x480px, radius 9px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFFD9, stroke #03030314 1px, text [Instrument Sans Regular, 14px, Component text styles/Field label]
+- Grid (Rich content): size 800x480px, fill #FFFFFFD9, stroke #03030314 1px, text [Instrument Sans Regular, 14px, Component text styles/Field label, Text XS, Instrument Sans Medium, 14px]
+- Grid (filter columns): size 800x480px, fill #FFFFFFD9, stroke #03030314 1px, text [Instrument Sans Regular, 14px, Text M, Component text styles/Input field, Component text styles/Field label]
+- Grid (tree): size 800x480px, fill #FFFFFFD9, stroke #03030314 1px, text [Instrument Sans Regular, 14px, Component text styles/Field label]
+- Grid: size 800x480px, fill #FFFFFFD9, stroke #03030314 1px, text [Instrument Sans Regular, 14px, Component text styles/Field label]
+- List Box: size 180x128px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px]
+- Login form: size 312x280px, vertical layout, padding 0 0 16 0px, gap 16px, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px, Text M, Component text styles/Input field, Component text styles/Field label, Instrument Sans SemiBold, 20px]
+- Login overlay: size 360x361px, radius 15px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFFD9, stroke #03030314 0px, effect Overlay shadow + blur, text [Instrument Sans Medium, 14px, Text M, Component text styles/Input field, Component text styles/Field label, Instrument Sans SemiBold, 20px, Instrument Sans SemiBold, 21px]
+- Map ($): size 800x600px, radius 15px, fill #ECEFF2, stroke #03030314 1px, text [Inter Regular, 12px] | variants: Map: City/County/World
+- Map/Cluster: size 30x30px, text [Instrument Sans Medium, 13px]
+- Map/Marker: size 24x36px, fill #FFFFFF
+- Master Detail Layout: size 600x400px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Text S] | variants: Detail rendering: Aside/Drawer/Stack; Show detail area: Off/On
+- Menu Bar: size 218x34px, horizontal layout, padding 0 0 0 0px, gap -1px, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px]
+- Menu Bar example: size 382x202px, text [Instrument Sans Medium, 14px]
+- Message List: size 400x240px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Text M, Text XS, Component text styles/Field label]
+- Message List + Input: size 400x284px, vertical layout, padding 0 0 0 0px, gap 10px, align max/min, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px, Text M, Component text styles/Input field, Component text styles/Field label, Text XS]
+- Message Input: size 400x34px, text [Instrument Sans Medium, 14px, Text M, Component text styles/Input field, Component text styles/Field label]
+- Message: size 400x80px, horizontal layout, padding 8 12 8 12px, gap 8px, sizing W:fixed H:fixed, text [Text M, Text XS, Component text styles/Field label]
+- Notification: size 360x68px, radius 15px, horizontal layout, padding 12 12 12 12px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFFD9, stroke #03030314 0px, effect Overlay shadow + blur, text [Instrument Sans Medium, 14px, Text M] | variants: Style: Default/Error/Info/Success/Warning
+- Popover: size 152x76px, radius 15px, vertical layout, padding 4 8 4 8px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFFD9, effect Overlay shadow + blur | variants: Target arrow: Bottom/Left/Off/Right/Top
+- Progress Bar: size 600x8px, text [Component text styles/Field label]
+- Progress Bar (indeterminate): size 600x8px, text [Component text styles/Field label]
+- Radio button: size 24x24px | variants: Checked: Off/On
+- Radio button with label: size 74x24px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px]
+- Radio button group (horizontal): size 338x43px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px, Component text styles/Field label]
+- Radio button group (vertical): size 112x91px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Instrument Sans Medium, 14px, Component text styles/Field label]
+- Rich text editor ($): size 640x356px, radius 9px, vertical layout, padding 1 1 1 1px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFFD9, stroke #0B0B0B2E 1px, text [Text M] | variants: Focused: Off/On
+- Side Nav Item: size 240x34px, radius 9px, horizontal layout, padding 7 8 7 8px, gap 12px, align min/center, sizing W:fixed H:fixed, text [Text S, Instrument Sans Medium, 14px] | variants: State: Current/Current / filled/Default/Hover
+- Nav bar: size 800x58px, horizontal layout, padding 12 8 12 8px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #ECEFF2, text [Text XL]
+- Side Navigation (labels): size 240x354px, vertical layout, padding 8 8 8 8px, gap 16px, sizing W:fixed H:fixed, text [Text S, Instrument Sans Medium, 14px, Component text styles/Field label]
+- Side Navigation (hierarchy): size 240x322px, vertical layout, padding 8 8 8 8px, gap 0px, sizing W:fixed H:fixed, text [Text S, Instrument Sans Medium, 14px]
+- Split Layout: size 400x3px | variants: Theme variant: Normal/Small
+- Tab: size 90x34px, radius 9px, horizontal layout, padding 7 10 7 10px, gap 6px, align center/center, sizing W:fixed H:fill, fill #FFFFFFD9, stroke #FFFFFFD9 1px, effect Shadow S, text [Text S, Instrument Sans Medium, 14px] | variants: Active: Off/On
+- Vertical tabs: size 160x222px, radius 13px, vertical layout, padding 4 4 4 4px, gap 10px, sizing W:fixed H:fixed, fill #D6D9DC80, text [Text S, Instrument Sans Medium, 14px]
+- Horizontal tabs: size 548x42px, radius 13px, vertical layout, padding 4 4 4 4px, gap 10px, align center/min, sizing W:fixed H:fixed, fill #D6D9DC80, text [Text S, Instrument Sans Medium, 14px]
+- Tab Sheet: size 480x300px, radius 15px, stroke #03030314 1px, text [Instrument Sans Medium, 14px, Text S]
+- Text Area: size 192x80px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Text M, Component text styles/Input field, Component text styles/Field label] | variants: State: Default/Disabled/Invalid/Read only
+- Password Field: size 192x58px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Text M, Component text styles/Input field, Component text styles/Field label] | variants: State: Default/Disabled/Invalid/Read only
+- Number Field: size 192x58px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Text M, Component text styles/Input field, Component text styles/Field label] | variants: State: Default/Disabled/Invalid/Read only
+- Text Field: size 192x58px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Text M, Component text styles/Input field, Component text styles/Field label] | variants: State: Default/Disabled/Invalid/Read only
+- Time Picker: size 192x58px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Text M, Component text styles/Input field, Component text styles/Field label] | variants: State: Default/Disabled/Invalid/Opened/Read only
+- Time Picker Overlay: size 205x260px, radius 9px, fill #FFFFFFD9, stroke #03030314 0px, effect Overlay shadow + blur, text [Instrument Sans Medium, 14px]
+- Tooltip: size 246x30px, radius 9px, horizontal layout, padding 5 8 5 8px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFFD9, stroke #03030314 0px, effect Overlay shadow + blur, text [Text S]
+- Upload (Upload): size 400x52px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Component text styles/Field label, Text S, Instrument Sans Medium, 14px, Text M]
+
+## Most-Used Styles
+- Shadow XS: 2119 uses
+- Text M: 1080 uses
+- Text S: 866 uses
+- Component text styles/Input field: 860 uses
+- Component text styles/Field label: 831 uses
+- Text XS: 228 uses
+- Overlay shadow + blur: 151 uses
+- Shadow S: 141 uses
+- Text L: 103 uses
+- Overlay blur: 49 uses
+- Text XL: 8 uses
+- Shadow M: 6 uses
+
+## Layout & Structure
+Screen: Introduction / Thumbnail
+- FRAME "Thumbnail", 1920x1080px, constraints left/top, fill #F5F8F9
+  - RECTANGLE "screencapture-vaadin-github-io-web-components-aura-html-2026", 2026x2318px, constraints center/top, fill image(hash: 6d485274c40164f19f635f44bcef404d40fdc26c)
+  - RECTANGLE "Rectangle 1", 1920x940px, constraints left/top, fill gradient_linear(#EDE7FF00 0% | #85A2DF78 47% | #3E79C2 100%)
+  - TEXT "Vaadin Design System", 1430x207px, constraints left/center, fill #FFFFFF, effect Shadow S, text [Inter Regular, 187.75px], [heading]
+  - TEXT "Aura theme", 917x188px, constraints left/center, fill #FFFFFF, effect Shadow S, text [Instrument Sans SemiBold, 172px], [heading]
+
+Screen: Introduction / Introduction
+- FRAME "Introduction", 800x1037px, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 800x296px, constraints left/top
+    - RECTANGLE "Rectangle 1", 800x296px, constraints scale/top, fill #ECEFF2
+    - TEXT "This file includes pixel-perfect representations of all Vaad", 704x131px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+    - TEXT "Introduction", 236x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+  - FRAME "Frame 18", 704x386px, vertical pad 0 0 0 0px gap 60px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 1", 493x143px, constraints left/top
+      - TEXT "Getting started", 204x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "If you are new to Figma, it’s recommended to take a look at ", 493x20px, constraints left/top, fill #0B0B0B, text [Text M]
+      - FRAME "Frame 16", 249x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 17", 217x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Figma for beginners tutorials", 217x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma documentation", 144x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+    - GROUP "Group 2", 704x183px, constraints left/top
+      - TEXT "Using as team library", 274x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "You can create UI designs using the Figma components directl", 704x60px, constraints left/top, fill #0B0B0B, text [Text M]
+      - FRAME "Frame 14", 229x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 15", 197x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Guide to libraries in Figma", 197x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma documentation", 144x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+
+Screen: Introduction / Other files
+- FRAME "Other files", 800x1037px, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 800x202px, constraints left/top
+    - RECTANGLE "Rectangle 1", 800x202px, constraints scale/top, fill #ECEFF2
+    - TEXT "Our additional resources streamline creating new designs and", 704x23px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+    - TEXT "Additional resources", 390x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+  - FRAME "content", 703.5x466px, vertical pad 0 0 0 0px gap 60px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 1", 703.5x183px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Vaadin Charts", 186x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Feature-rich, interactive charting library with a vast numbe", 348x60px, constraints left/top, fill #0B0B0B, text [Text M]
+      - FRAME "Frame 8", 152x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 9", 120x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Vaadin Charts", 107x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma Community", 120x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+      - RECTANGLE "image 7", 307.5x180px, constraints left/top, radius 4px, fill image(hash: d807a3698d9f50aa8873620be191b4e56ed9c243)
+    - GROUP "Group 2", 703.5x223px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Vaadin Icons", 167x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "The Vaadin Design System comes with Lumo Icons. If you requi", 348x100px, constraints left/top, fill #0B0B0B, text [Text M]
+      - FRAME "Frame 6", 152x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 7", 120x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Vaadin Icons", 97x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma Community", 120x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+      - RECTANGLE "image 6", 307.5x180px, constraints left/top, radius 4px, fill image(hash: 7c0fddc22410258551e5b37fb536b296438cf0d0)
+
+Screen: Introduction / Code generation
+- FRAME "Code generation", 800x1037px, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 800x202px, constraints left/top
+    - RECTANGLE "Rectangle 1", 800x202px, constraints scale/top, fill #ECEFF2
+    - TEXT "You can use Figma MCP with AI agent of your choice or do det", 704x46px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+    - TEXT "Code generation", 316x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+  - FRAME "content", 703.5x545px, vertical pad 0 0 0 0px gap 60px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 1", 703.5x302px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Vaadin skill for Figma MCP", 190x68px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Use the Vaadin specific agentic skill for best results with ", 348x80px, constraints left/top, fill #0B0B0B, text [Text M]
+      - FRAME "Frame 8", 240x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 9", 208x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Guide to Figma MCP server", 208x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma documentation", 144x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+      - FRAME "Frame 39", 187x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "GH logo", 16x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x23px, constraints scale/center, fill #000000
+        - FRAME "Frame 9", 155x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "figma-to-vaadin skill", 155x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "GitHub", 47x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+      - FRAME "Frame 38", 307.5x180px, constraints left/top, radius 4px, fill #1E9CEA
+        - RECTANGLE "image 13", 101x140px, constraints left/center, fill image(hash: 92ad3eed6b1401cb170fab2c1ea9df14875fc849)
+        - TEXT "Agent skill figma-to-vaadin", 147x44px, constraints left/center, fill #FFFFFFBF, effect Shadow S, text [Instrument Sans Regular, 16px]
+    - GROUP "Group 3", 703x183px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Vaadin Copilot", 194x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Generate Vaadin UI code by copy-pasting designs from Figma u", 348x60px, constraints left/top, fill #0B0B0B, text [Text M]
+      - FRAME "Frame 10", 154x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 11", 122x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Figma to Vaadin", 122x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma Community", 120x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+      - RECTANGLE "image 9", 307x173px, constraints left/top, radius 4px, fill image(hash: 433bec85bee16844cf3a788ac721a881410474c5)
+
+Screen: Introduction / Usage and customization
+- FRAME "Usage and customization", 800x1037px, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 800x202px, constraints left/top
+    - RECTANGLE "Rectangle 1", 800x202px, constraints scale/top, fill #ECEFF2
+    - TEXT "The file makes use of the latest Figma features, such as com", 704x40px, constraints left/top, fill #0B0B0B, text [Text M]
+    - TEXT "Usage and customization", 473x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+  - FRAME "Frame 13", 734x654.93px, vertical pad 0 0 0 0px gap 61px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 1", 704x249.48px, constraints left/top
+      - TEXT "Component properties", 303x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Properties provide an easy way to configure the components. ", 411x80px, constraints left/top, fill #0B0B0B, text [Text M]
+      - RECTANGLE "image 4", 239x249.48px, constraints left/top, fill image(hash: 8b96d9477f2e73155a660575ea96dccb81090ebb), stroke #03030314 1px
+      - FRAME "Frame 19", 261x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 20", 229x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Explore component properties", 229x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma documentation", 144x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+    - GROUP "Group 2", 704x344.45px, constraints left/top
+      - TEXT "Variables and styles", 261x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - FRAME "Frame 12", 411x293px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Variables in this file are aligned with the Lumo theme's CSS", 411x220px, constraints left/top, fill #0B0B0B, text [Text M]
+        - FRAME "Frame 5", 322x49px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 2", 176x49px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+            - FRAME "Frame 4", 144x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 11", 239x279px, constraints left/top, fill image(hash: 490401eb64eb6412f03d42b08c3cfb889c0a7898), stroke #03030314 1px
+  - RECTANGLE "image 12", 239x123px, constraints left/top, fill image(hash: 9db4056b6cf91d4f9d2d48a85189128cc95bbaea), stroke #03030314 1px
+
+Screen: Introduction / Contrast testing
+- SECTION "Contrast testing", 8640x2953px
+  - FRAME "Frame 21", 2080x1245px, constraints left/top, fill #ECEFF2
+    - FRAME "Frame 22", 282x126px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 29", 69x126px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button (primary)", 69x34px, horizontal pad 0 12 0 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #0A0B0D, effect Shadow S
+          - TEXT "Button", 45x20px, constraints left_right/top_bottom, fill #FFFFFF, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Button", 69x34px, horizontal pad 0 12 0 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #0A0B0D, stroke #0A0B0D 1px, effect Shadow XS
+          - TEXT "Button", 45x20px, constraints left_right/top_bottom, fill #2D2F30, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Button (tertiary)", 69x34px, horizontal pad 0 12 0 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Button", 45x20px, constraints left_right/top_bottom, fill #2D2F30, text [Instrument Sans Medium, 14px]
+      - FRAME "Frame 28", 36x126px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button (primary, icon-only)", 36x34px, horizontal pad 6 8 6 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #0A0B0D, effect Shadow S
+          - INSTANCE "Icon", 20x20px, constraints left/top
+            - VECTOR "Vector", 11.67x11.67px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Button (icon-only)", 36x34px, horizontal pad 6 8 6 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #0A0B0D, stroke #0A0B0D 1px, effect Shadow XS
+          - INSTANCE "Icon", 20x20px, constraints left/top
+            - VECTOR "Vector", 11.67x11.67px, constraints scale/scale, fill #2D2F30
+        - INSTANCE "Button (tertiary, icon-only)", 36x34px, horizontal pad 6 8 6 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Icon", 20x20px, constraints left/top
+            - VECTOR "Vector", 11.67x11.67px, constraints scale/scale, fill #2D2F30
+      - FRAME "Frame 30", 69x126px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button (primary)", 69x34px, horizontal pad 0 12 0 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #3266E4, effect Shadow S
+          - TEXT "Button", 45x20px, constraints left_right/top_bottom, fill #FFFFFF, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Button", 69x34px, horizontal pad 0 12 0 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #3266E4, stroke #3266E4 1px, effect Shadow XS
+          - TEXT "Button", 45x20px, constraints left_right/top_bottom, fill #2B59C8, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Button (tertiary)", 69x34px, horizontal pad 0 12 0 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Button", 45x20px, constraints left_right/top_bottom, fill #2B59C8, text [Instrument Sans Medium, 14px]
+      - FRAME "Frame 31", 36x126px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button (primary, icon-only)", 36x34px, horizontal pad 6 8 6 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #3266E4, effect Shadow S
+          - INSTANCE "Icon", 20x20px, constraints left/top
+            - VECTOR "Vector", 11.67x11.67px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Button (icon-only)", 36x34px, horizontal pad 6 8 6 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #3266E4, stroke #3266E4 1px, effect Shadow XS
+          - INSTANCE "Icon", 20x20px, constraints left/top
+            - VECTOR "Vector", 11.67x11.67px, constraints scale/scale, fill #2B59C8
+        - INSTANCE "Button (tertiary, icon-only)", 36x34px, horizontal pad 6 8 6 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icon", 20x20px, constraints left/top
+            - VECTOR "Vector", 11.67x11.67px, constraints scale/scale, fill #2B59C8
+    - FRAME "Frame 23", 320x407px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Text Area", 320x79px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Label", 320x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Field", 320x55px, horizontal pad 7 9 7 9px gap 8px sizing W:fill H:fill, constraints left/top, radius 9px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+          - TEXT "Value", 302x41px, constraints left/top, fill #0B0B0B, text [Component text styles/Input field]
+      - INSTANCE "Number Field", 320x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Label", 320x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Field", 320x34px, horizontal pad 0 9 0 9px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+          - SLOT "Prefix", 20x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Minus", 20x20px, constraints left/top
+          - TEXT "Value", 246x22px, constraints left/top, fill #0B0B0B, text [Component text styles/Input field]
+          - SLOT "Suffix", 20x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Plus", 20x20px, constraints left/top
+      - INSTANCE "Combo Box", 320x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Label", 320x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Field", 320x34px, horizontal pad 0 9 0 9px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+          - TEXT "Value", 278x22px, constraints left/top, fill #0B0B0B, text [Component text styles/Input field]
+          - SLOT "Suffix", 16x20px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dropdown", 16x16px, constraints left/top
+      - INSTANCE "Date Time Picker", 320x58px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Date Picker", 156x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 156x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+          - FRAME "Field", 156x34px, horizontal pad 0 9 0 9px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+            - TEXT "Value", 114x22px, constraints left/top, fill #0B0B0B, text [Component text styles/Input field]
+            - SLOT "Suffix", 16x20px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Time Picker", 156x34px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Field", 156x34px, horizontal pad 0 9 0 9px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+            - TEXT "Value", 110x22px, constraints left/top, fill #0B0B0B, text [Component text styles/Input field]
+            - SLOT "Suffix", 20x20px, horizontal pad 0 0 0 0px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Custom field examples/Date Range", 320x58px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Custom field", 320x58px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 320x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+          - FRAME "Fields", 320x34px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Date Picker", 152.5x34px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "separator", 7x20px, constraints left/top, fill #0B0B0BA6, text [Component text styles/Field label]
+            - INSTANCE "Date Picker", 152.5x34px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Frame 35", 320x328px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Text Field", 320x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Label", 320x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Field", 320x34px, horizontal pad 0 9 0 9px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+          - TEXT "Value", 302x22px, constraints left/top, fill #0B0B0B, text [Component text styles/Input field]
+      - INSTANCE "Text Field", 320x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Label", 320x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Field", 320x34px, horizontal pad 0 9 0 9px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px, stroke #0A0B0D 1px
+          - TEXT "Value", 302x22px, constraints left/top, fill #0B0B0B, text [Component text styles/Input field]
+      - INSTANCE "Text Field", 320x82px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Label", 320x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Field", 320x34px, horizontal pad 0 9 0 9px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px, fill #FFFFFFD9, stroke #A20519 1px, effect Shadow XS
+          - TEXT "Value", 302x22px, constraints left/top, fill #0B0B0B, text [Component text styles/Input field]
+        - FRAME "Error message", 320x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Warn", 20x20px, constraints left/top
+            - VECTOR "Vector", 18.35x16.68px, constraints scale/scale, fill #A20519
+          - TEXT "Error message", 296x20px, constraints left/top, fill #A20519, text [Text M]
+      - INSTANCE "Text Field", 320x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Label", 320x20px, constraints left/top, fill #0B0B0B54, text [Component text styles/Field label]
+        - FRAME "Field", 320x34px, horizontal pad 0 9 0 9px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px, fill #D6D9DC80
+          - TEXT "Value", 302x22px, constraints left/top, fill #0B0B0B54, text [Component text styles/Input field]
+    - FRAME "Frame 24", 320x91px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Checkbox group (vertical)", 148x91px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Label", 148x14px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Options", 112x73px, vertical pad 1 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Checkbox with label", 101x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints center/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - TEXT "Option one", 73x10px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+          - INSTANCE "Checkbox with label", 101x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - TEXT "Option one", 73x10px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+          - INSTANCE "Checkbox with label", 112x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - TEXT "Option one", 84x10px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+      - INSTANCE "Radio button group (vertical)", 148x91px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Label", 148x14px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Options", 112x73px, vertical pad 1 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Radio button with label", 101x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left_right/top
+            - INSTANCE "Radio button", 24x24px, constraints left/center
+            - TEXT "Option", 73x10px, constraints left/center, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+          - INSTANCE "Radio button with label", 101x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left_right/top
+            - INSTANCE "Radio button", 24x24px, constraints left/center
+            - TEXT "Option", 73x10px, constraints left/center, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+          - INSTANCE "Radio button with label", 112x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left_right/top
+            - INSTANCE "Radio button", 24x24px, constraints left/center
+            - TEXT "Option", 84x10px, constraints left/center, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+    - FRAME "Frame 25", 320x110px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Checkbox group (horizontal)", 338x43px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 338x14px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Options", 338x25px, horizontal pad 1 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Checkbox with label", 101x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints center/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - TEXT "Option one", 73x10px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+          - INSTANCE "Checkbox with label", 101x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - TEXT "Option one", 73x10px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+          - INSTANCE "Checkbox with label", 112x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - TEXT "Option one", 84x10px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+      - INSTANCE "Radio button group (horizontal)", 338x43px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 338x14px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - FRAME "Options", 338x25px, horizontal pad 1 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Radio button with label", 101x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/top
+            - INSTANCE "Radio button", 24x24px, constraints left/center
+            - TEXT "Option", 73x10px, constraints left/center, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+          - INSTANCE "Radio button with label", 101x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/top
+            - INSTANCE "Radio button", 24x24px, constraints left/center
+            - TEXT "Option", 73x10px, constraints left/center, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+          - INSTANCE "Radio button with label", 112x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/top
+            - INSTANCE "Radio button", 24x24px, constraints left/center
+            - TEXT "Option", 84x10px, constraints left/center, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+    - INSTANCE "Vertical tabs", 160x222px, vertical pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #D6D9DC80
+      - FRAME "Tabs", 152x214px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tab", 152x34px, horizontal pad 7 10 7 10px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px, fill #FFFFFFD9, stroke #FFFFFFD9 1px, effect Shadow S
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #2B59C8, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 152x36px, horizontal pad 8 10 8 10px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 152x36px, horizontal pad 8 10 8 10px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 152x36px, horizontal pad 8 10 8 10px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 152x36px, horizontal pad 8 10 8 10px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 152x36px, horizontal pad 8 10 8 10px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+    - INSTANCE "Horizontal tabs", 548x42px, vertical pad 4 4 4 4px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #D6D9DC80
+      - FRAME "Tabs", 540x34px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Tab", 90x34px, horizontal pad 7 10 7 10px gap 6px align center/center sizing W:fixed H:fixed, constraints center/bottom, radius 9px, fill #FFFFFFD9, stroke #FFFFFFD9 1px, effect Shadow S
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #2B59C8, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 90x34px, horizontal pad 8 10 8 10px gap 6px align center/center sizing W:fixed H:fixed, constraints center/bottom, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 90x34px, horizontal pad 8 10 8 10px gap 6px align center/center sizing W:fixed H:fixed, constraints center/bottom, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 90x34px, horizontal pad 8 10 8 10px gap 6px align center/center sizing W:fixed H:fixed, constraints center/bottom, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 90x34px, horizontal pad 8 10 8 10px gap 6px align center/center sizing W:fixed H:fixed, constraints center/bottom, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Tab", 90x34px, horizontal pad 8 10 8 10px gap 6px align center/center sizing W:fixed H:fill, constraints center/bottom, radius 9px
+          - TEXT "Vaadin tab", 70x20px, constraints left/top, fill #0B0B0BA6, text [Instrument Sans Medium, 14px]
+    - INSTANCE "Notification", 360x68px, horizontal pad 12 12 12 12px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #FFFFFFD9, stroke #03030314 0px, effect Overlay shadow + blur
+      - INSTANCE "Icon", 20x20px, constraints left/top
+        - VECTOR "Vector", 18.35x16.68px, constraints scale/scale, fill #0B0B0B
+      - FRAME "content", 231x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 231x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+        - TEXT "Value", 231x20px, constraints left/top, fill #0B0B0BA6, text [Text M]
+      - FRAME "footer", 69x44px, vertical pad 0 0 0 0px gap 4px align center/max sizing W:fixed H:fill, constraints left/top
+        - INSTANCE "Button", 69x34px, horizontal pad 0 12 0 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #0A0B0D, stroke #0A0B0D 1px, effect Shadow XS
+          - TEXT "Button", 45x20px, constraints left_right/top_bottom, fill #2D2F30, text [Instrument Sans Medium, 14px]
+    - INSTANCE "Grid with cells", 447x480px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 9px, fill #FFFFFFD9, stroke #03030314 1px
+      - FRAME "Selection column", 34x960px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Parts/Header cell", 16x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fixed H:fixed, constraints center/scale
+          - TEXT "header", 0x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #3266E4, effect Shadow XS
+            - INSTANCE "Checkmark", 16x16px, constraints scale/scale
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - INSTANCE "Parts/Cell", 34x32px, horizontal pad 4 5 4 5px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - INSTANCE "Checkbox", 24x24px, constraints left/top
+            - RECTANGLE "checkbox", 18x18px, constraints center/center, radius 5px, fill #FFFFFFD9, stroke #0A0B0D 1px, effect Shadow XS
+        - ... +5 more children
+      - FRAME "Column", 71x960px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Parts/Header cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fixed H:fixed, constraints center/scale
+          - TEXT "header", 55x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+          - TEXT "items", 28x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Regular, 14px]
+        - INSTANCE "Parts/Cell", 71x32px, horizontal pad 6 8 6 8px gap 10px align min/center sizing W:fill H:fixed, constraints scale/scale
+        - ... +5 more children
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Colors / Colors
+- FRAME "Colors", 1956x2700px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 1956x184px, constraints left/top
+    - RECTANGLE "Rectangle 1", 1956x184px, constraints scale/top, fill #ECEFF2
+    - FRAME "Component link", 141.74x26px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/top
+      - FRAME "Link icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.67x10.85px, constraints scale/scale, fill #2B59C8
+        - VECTOR "Vector", 11.6x10.85px, constraints scale/scale, fill #2B59C8
+      - TEXT "View documentation", 156x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+    - TEXT "Colors", 479.22x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+    - TEXT "Figma file contains color variables for all colors. You can ", 1721.28x26px, constraints left/top, fill #0B0B0B, text [Text M]
+    - TEXT "desctiption", 0x20px, constraints left/top, fill #0B0B0B, text [Text M]
+  - FRAME "Frame 5", 1956x2516px, vertical pad 60 48 80 48px gap 64px sizing W:fill H:fixed, constraints left/top
+    - GROUP "Color", 1596x120px, constraints left/top
+      - FRAME "Frame 6", 1032x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #ECEFF2
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #E9E9E9
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #E0E2E3
+          - TEXT "Name", 192x44px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFFFFF, stroke #0B0B0B2E 1px
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+      - TEXT "Background", 160x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Description", 400x20px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - GROUP "Color", 1860x120px, constraints left/top
+      - FRAME "Frame 6", 1296x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #D6D9DC80, stroke #0B0B0B2E 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #EDF0F280, stroke #0B0B0B2E 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #FFFFFFB2, stroke #0B0B0B2E 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #FFFFFFD9, stroke #0B0B0B2E 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #FFFFFFD9, stroke #0B0B0B2E 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #FFFFFFD9, stroke #0B0B0B2E 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+      - TEXT "Surfaces", 117x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "The surface color is used to create visual hierarchies in th", 400x60px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - GROUP "Color", 1596x120px, constraints left/top
+      - FRAME "colors", 1032x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #0B0B0B2E
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #03030314
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #0A0B0D
+          - TEXT "Description", 192x40px, constraints left/top, fill #0B0B0BA6, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #3266E4
+          - TEXT "Description", 192x40px, constraints left/top, fill #0B0B0BA6, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+      - TEXT "Border", 90x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Computed based on the background color properties, and autom", 400x40px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - GROUP "Color", 1596x120px, constraints left/top
+      - FRAME "colors", 1032x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #0B0B0B
+          - TEXT "Description", 192x20px, constraints left/top, fill #FFFFFF, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #0B0B0B
+          - TEXT "Description", 192x20px, constraints left/top, fill #FFFFFF, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #0B0B0BA6
+          - TEXT "Description", 192x20px, constraints left/top, fill #FFFFFF, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #0B0B0B54
+          - TEXT "Description", 192x20px, constraints left/top, fill #0B0B0BA6, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+      - TEXT "Text", 58x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Computed based on the background color properties, and autom", 400x40px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - LINE "Line", 1860x0px, constraints left/top, stroke #0B0B0B2E 1px
+    - FRAME "Frame 7", 1860x1184px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+      - GROUP "Color", 1332x120px, constraints left/top
+        - FRAME "colors", 768x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - COMPONENT "Color swatch", 240x120px, constraints left/top, radius 8px, fill #3266E4
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #2B59C8
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFFFFF, stroke #0B0B0B2E 1px
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #0B0B0B, text [Text L]
+        - TEXT "Accent color", 167x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+        - TEXT "Used to highlight certain parts of the UI, like some interac", 400x40px, constraints left/top, fill #0B0B0BA6, text [Text S]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #0A0B0D
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #2D2F30
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - TEXT "Neutral", 98x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+        - TEXT "Forms the basis of your theme, as it’s used for text and bor", 400x40px, constraints left/top, fill #0B0B0BA6, text [Text S]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #3266E4
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #2B59C8
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - TEXT "Blue", 59x34px, constraints left/center, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #DB373A
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #A20519
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - TEXT "Red", 52x34px, constraints left/center, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #009F34
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #006800
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - TEXT "Green", 82x34px, constraints left/center, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFDC00
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #9E6800
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - TEXT "Yellow", 86x34px, constraints left/center, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #DC5600
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #962000
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - TEXT "Orange", 99x34px, constraints left/center, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #7E55F0
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #5E36BE
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - TEXT "Purple", 87x34px, constraints left/center, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+    - LINE "Line", 1860x0px, constraints left/top, stroke #0B0B0B2E 1px
+    - GROUP "User", 1860x264px, constraints left/top
+      - FRAME "colors", 1296x264px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #3266E4
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #00D2CD
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #B3329D
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #87B2FF
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #008683
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FF7BE4
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #BE4600
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #A5C500
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #677D00
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FF8D44
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+      - TEXT "User color", 134x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "By default, there are 10 background colors that are used in ", 400x80px, constraints left/top, fill #0B0B0BA6, text [Text S]
+
+Screen: Colors / Colors
+- FRAME "Colors", 1956x2700px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #000000
+  - GROUP "Header", 1956x184px, constraints left/top
+    - RECTANGLE "Rectangle 1", 1956x184px, constraints scale/top, fill #13161B
+    - FRAME "Component link", 141.74x26px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/top
+      - FRAME "Link icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.67x10.85px, constraints scale/scale, fill #96BDFF
+        - VECTOR "Vector", 11.6x10.85px, constraints scale/scale, fill #96BDFF
+      - TEXT "View documentation", 156x26px, constraints left/top, fill #96BDFF, text [Inter Regular, 16px]
+    - TEXT "Colors", 479.22x49px, constraints left/top, fill #FFFFFF, text [Instrument Sans SemiBold, 40px], [heading]
+    - TEXT "Figma file contains color variables for all colors. You can ", 1721.28x26px, constraints left/top, fill #FFFFFF, text [Text M]
+    - TEXT "desctiption", 0x20px, constraints left/top, fill #FFFFFF, text [Text M]
+  - FRAME "Frame 5", 1956x2516px, vertical pad 60 48 80 48px gap 64px sizing W:fill H:fixed, constraints left/top
+    - GROUP "Color", 1596x120px, constraints left/top
+      - FRAME "Frame 6", 1032x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #13161B
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #202328
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #2A2D32
+          - TEXT "Name", 192x44px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #000000, stroke #C2C2C233 1px
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+      - TEXT "Background", 160x34px, constraints left/top, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Description", 400x20px, constraints left/top, fill #FFFFFFA6, text [Text S]
+    - GROUP "Color", 1860x120px, constraints left/top
+      - FRAME "Frame 6", 1296x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #0B0E1380, stroke #C2C2C233 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #13161B80, stroke #C2C2C233 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #1A1E23B2, stroke #C2C2C233 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #21252BB2, stroke #C2C2C233 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #292D3399, stroke #C2C2C233 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 196x120px, constraints left/top, radius 8px, fill #2E323899, stroke #C2C2C233 1px
+          - TEXT "Name", 148x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+      - TEXT "Surfaces", 117x34px, constraints left/top, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "The surface color is used to create visual hierarchies in th", 400x60px, constraints left/top, fill #FFFFFFA6, text [Text S]
+    - GROUP "Color", 1596x120px, constraints left/top
+      - FRAME "colors", 1032x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #C2C2C233
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #C2C2C21A
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFFFFF
+          - TEXT "Description", 192x40px, constraints left/top, fill #FFFFFFA6, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #3266E4
+          - TEXT "Description", 192x40px, constraints left/top, fill #FFFFFFA6, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+      - TEXT "Border", 90x34px, constraints left/top, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Computed based on the background color properties, and autom", 400x40px, constraints left/top, fill #FFFFFFA6, text [Text S]
+    - GROUP "Color", 1596x120px, constraints left/top
+      - FRAME "colors", 1032x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFFFFF
+          - TEXT "Description", 192x20px, constraints left/top, fill #000000, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFFFFF
+          - TEXT "Description", 192x20px, constraints left/top, fill #000000, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFFFFFA6
+          - TEXT "Description", 192x20px, constraints left/top, fill #000000, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFFFFF54
+          - TEXT "Description", 192x20px, constraints left/top, fill #FFFFFFA6, text [Text S]
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+      - TEXT "Text", 58x34px, constraints left/top, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Computed based on the background color properties, and autom", 400x40px, constraints left/top, fill #FFFFFFA6, text [Text S]
+    - LINE "Line", 1860x0px, constraints left/top, stroke #C2C2C233 1px
+    - FRAME "Frame 7", 1860x1184px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+      - GROUP "Color", 1332x120px, constraints left/top
+        - FRAME "colors", 768x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #3266E4
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #96BDFF
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #000000, stroke #C2C2C233 1px
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #FFFFFF, text [Text L]
+        - TEXT "Accent color", 167x34px, constraints left/top, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+        - TEXT "Used to highlight certain parts of the UI, like some interac", 400x40px, constraints left/top, fill #FFFFFFA6, text [Text S]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFFFFF
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FDFEFF
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - TEXT "Neutral", 98x34px, constraints left/top, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+        - TEXT "Forms the basis of your theme, as it’s used for text and bor", 400x40px, constraints left/top, fill #FFFFFFA6, text [Text S]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #3266E4
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #96BDFF
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - TEXT "Blue", 59x34px, constraints left/center, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #DB373A
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FF8981
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - TEXT "Red", 52x34px, constraints left/center, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #009F34
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #70DD7D
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - TEXT "Green", 82x34px, constraints left/center, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FFDC00
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #DFC006
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - TEXT "Yellow", 86x34px, constraints left/center, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #DC5600
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FF9A64
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - TEXT "Orange", 99x34px, constraints left/center, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - GROUP "Color", 1068x120px, constraints left/top
+        - FRAME "colors", 504x120px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #7E55F0
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+          - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #BEA3FF
+            - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - TEXT "Purple", 87x34px, constraints left/center, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+    - LINE "Line", 1860x0px, constraints left/top, stroke #C2C2C233 1px
+    - GROUP "User", 1860x264px, constraints left/top
+      - FRAME "colors", 1296x264px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #3266E4
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #00D2CD
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #B3329D
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #87B2FF
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #008683
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FF7BE4
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #BE4600
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #A5C500
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #677D00
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+        - INSTANCE "Color swatch", 240x120px, constraints left/top, radius 8px, fill #FF8D44
+          - TEXT "Name", 192x22px, constraints left_right/top, fill #000000, text [Text L]
+      - TEXT "User color", 134x34px, constraints left/top, fill #FFFFFF, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "By default, there are 10 background colors that are used in ", 400x60px, constraints left/top, fill #FFFFFFA6, text [Text S]
+
+Screen: Typography / Typography
+- FRAME "Typography", 800x1341px, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 800x210px, constraints left/top
+    - RECTANGLE "Rectangle 1", 800x210px, constraints scale/top, fill #ECEFF2
+    - TEXT "Aura defines a set of styles that you can use to apply consi", 704x40px, constraints left/top, fill #0B0B0B, text [Text M]
+    - TEXT "Typography", 226x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+    - FRAME "Component link", 180x26px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/top
+      - FRAME "Link icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.67x10.85px, constraints scale/scale, fill #2B59C8
+        - VECTOR "Vector", 11.6x10.85px, constraints scale/scale, fill #2B59C8
+      - TEXT "View documentation", 156x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+  - FRAME "Frame 1", 65x152px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Text XL", 65x26px, constraints left/top, fill #0B0B0B, text [Text XL]
+    - TEXT "Text L", 65x22px, constraints left/top, fill #0B0B0B, text [Text L]
+    - TEXT "Text M", 65x20px, constraints left/top, fill #0B0B0B, text [Text M]
+    - TEXT "Text S", 65x20px, constraints left/top, fill #0B0B0B, text [Text S]
+    - TEXT "Text XS", 65x16px, constraints left/top, fill #0B0B0B, text [Text XS]
+  - TEXT "Text styles", 141x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+  - FRAME "Frame 2", 66x52px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Field label", 66x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Field label]
+    - TEXT "Input field", 66x20px, constraints left/top, fill #0B0B0B, text [Component text styles/Input field]
+  - TEXT "Component specific text styles", 410x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+  - TEXT "Font family", 148x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+  - TEXT "Aura uses Instrument Sans by default. It is a free font avai", 704x120px, constraints left_right/top, fill #0B0B0B, text [Text M]
+  - TEXT "These text styles are intended to be used only in components", 704x20px, constraints left_right/top, fill #0B0B0B, text [Text M]
+
+Screen: Styles / Shadows
+- FRAME "Shadows", 800x1142px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 800x210px, constraints left/top
+    - RECTANGLE "Rectangle 1", 800x210px, constraints scale/top, fill #ECEFF2
+    - FRAME "Component link", 180x26px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/top
+      - FRAME "Link icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.67x10.85px, constraints scale/scale, fill #2B59C8
+        - VECTOR "Vector", 11.6x10.85px, constraints scale/scale, fill #2B59C8
+      - TEXT "View documentation", 156x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+    - TEXT "Shadows", 172x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+    - TEXT "Lumo includes different levels of elevation that are applied", 704x40px, constraints left/top, fill #0B0B0B, text [Text M]
+  - FRAME "Frame 5", 800x932px, vertical pad 60 48 80 48px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "A", 240x120px, constraints left/top, fill #2B59C8, text [Instrument Sans SemiBold, 96px], [heading]
+    - TEXT "A", 240x120px, constraints left/top, fill #2B59C8, text [Instrument Sans SemiBold, 96px], [heading]
+    - GROUP "XS", 704x120px, constraints left/top, radius 8px
+      - FRAME "Shadow", 240x120px, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow XS
+      - TEXT "Extra small", 147x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Elements closest to the application background, for example ", 400x20px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - GROUP "S", 704x120px, constraints left/top, radius 8px
+      - FRAME "Shadow", 240x120px, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow S
+      - TEXT "Small", 75x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Tooltips, etc.", 400x20px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - GROUP "M", 704x120px, constraints left/top, radius 8px
+      - FRAME "Shadow", 240x120px, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow M
+      - TEXT "Medium", 109x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Contextual overlays, for components such as Select and Menu ", 400x20px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - GROUP "L", 704x120px, constraints left/top, radius 8px
+      - FRAME "Shadow", 240x120px, constraints left/top, radius 8px, fill #FFFFFFD9, effect Overlay shadow + blur
+      - TEXT "Overlay shadow + blur", 287x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "-", 400x20px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - GROUP "XL", 704x120px, constraints left/top, radius 8px
+      - FRAME "Shadow", 240x120px, constraints left/top, radius 8px, fill #FFFFFFD9, effect Overlay blur
+      - TEXT "Overlay blur", 159x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "-", 400x20px, constraints left/top, fill #0B0B0BA6, text [Text S]
+
+Screen: Styles / Shapes
+- FRAME "Shapes", 800x806px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 800x210px, constraints left/top
+    - RECTANGLE "Rectangle 1", 800x210px, constraints scale/top, fill #ECEFF2
+    - FRAME "Component link", 180x26px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/top
+      - FRAME "Link icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.67x10.85px, constraints scale/scale, fill #2B59C8
+        - VECTOR "Vector", 11.6x10.85px, constraints scale/scale, fill #2B59C8
+      - TEXT "View documentation", 156x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+    - TEXT "Shapes", 140x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+    - TEXT "Lumo defines several border radius values. In Figma these bo", 704x20px, constraints left/top, fill #0B0B0B, text [Text M]
+  - FRAME "Frame 5", 800x596px, vertical pad 60 48 80 48px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "S", 704x120px, constraints left/top, radius 5px
+      - FRAME "Shadow", 240x120px, constraints left/top, radius 5px, fill #E9E9E9
+      - TEXT "Small", 75x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Checkboxes and other small elements that could turn into cir", 400x40px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - GROUP "M", 704x120px, constraints left/top, radius 9px
+      - FRAME "Shadow", 240x120px, constraints left/top, radius 9px, fill #E9E9E9
+      - TEXT "Medium", 109x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Buttons and input fields, and most other normal-sized UI ele", 400x20px, constraints left/top, fill #0B0B0BA6, text [Text S]
+    - GROUP "L", 704x120px, constraints left/top, radius 15px
+      - FRAME "Shadow", 240x120px, constraints left/top, radius 15px, fill #E9E9E9
+      - TEXT "Large", 76x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Dialogs, cards, and other larger container elements.", 400x20px, constraints left/top, fill #0B0B0BA6, text [Text S]
+
+Screen: Styles / Items
+- FRAME "Items", 800x806px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 800x318px, constraints left/top
+    - RECTANGLE "Rectangle 1", 800x318px, constraints scale/top, fill #ECEFF2
+    - TEXT "Items", 106x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+    - TEXT "These components are used as base for Combo Box Item & Selec", 704x160px, constraints left/top, fill #0B0B0B, text [Text M]
+  - FRAME "Frame 5", 800x488px, constraints left/top
+    - COMPONENT "Divider line", 180x9px, constraints left/top
+      - RECTANGLE "Divider", 136x1px, constraints left_right/center, fill #03030314
+    - COMPONENT_SET "Item (custom presentation)", 420x88px, horizontal pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Selected=Off", 180x48px, horizontal pad 6 8 6 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+        - FRAME "checkmark", 20x20px, constraints left/top
+        - FRAME "custom item", 144x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - SLOT "Prefix", 32x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatar", 32x32px, constraints left/top, radius 64px
+          - FRAME "item label", 104x36px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Item", 30x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+            - TEXT "Description", 59x16px, constraints left/top, fill #0B0B0BA6, text [Text XS]
+      - COMPONENT "Selected=On", 180x48px, horizontal pad 6 8 6 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+        - FRAME "checkmark", 20x20px, constraints left/top
+          - INSTANCE "Checkmark", 16x16px, constraints center/center
+            - VECTOR "Vector", 12.33x9px, constraints scale/center, fill #3266E4
+        - FRAME "custom item", 144x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - SLOT "Prefix", 32x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatar", 32x32px, constraints left/top, radius 64px
+          - FRAME "item label", 104x36px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Item", 30x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+            - TEXT "Description", 59x16px, constraints left/top, fill #0B0B0BA6, text [Text XS]
+    - COMPONENT_SET "Item (dropdown)", 420x72px, horizontal pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Selected=Off", 180x32px, horizontal pad 6 8 6 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+        - FRAME "checkmark", 20x20px, constraints left/top
+        - TEXT "Item", 120x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Angle right", 20x20px, constraints left/top
+          - VECTOR "Vector", 5.56x11.67px, constraints center/scale, fill #0B0B0B
+      - COMPONENT "Selected=On", 180x32px, horizontal pad 6 8 6 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+        - FRAME "checkmark", 20x20px, constraints left/top
+          - INSTANCE "Checkmark", 16x16px, constraints center/center
+            - VECTOR "Vector", 12.33x9px, constraints scale/center, fill #3266E4
+        - TEXT "Item", 120x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Angle right", 20x20px, constraints left/top
+          - VECTOR "Vector", 5.56x11.67px, constraints center/scale, fill #0B0B0B
+    - COMPONENT_SET "Item", 420x72px, horizontal pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Selected=Off", 180x32px, horizontal pad 6 8 6 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+        - FRAME "checkmark", 20x20px, constraints left/top
+        - TEXT "Item", 144x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+      - COMPONENT "Selected=On", 180x32px, horizontal pad 6 8 6 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px
+        - FRAME "checkmark", 20x20px, constraints left/top
+          - INSTANCE "Checkmark", 16x16px, constraints center/center
+            - VECTOR "Vector", 12.33x9px, constraints scale/center, fill #3266E4
+        - TEXT "Item", 144x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+
+Screen: Icons / Icons
+- FRAME "Icons", 800x1117px, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 800x947px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 1", 800x198px, constraints scale/top, fill #ECEFF2
+    - GROUP "Group 2", 704x183px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Vaadin Icons", 167x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Collection of 600+ unique icons designed for web application", 348x60px, constraints left/top, fill #0B0B0B, text [Text M]
+      - FRAME "Frame 6", 148.11x49px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 7", 120x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Vaadin Icons", 97x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma Community", 120x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+      - RECTANGLE "image 6", 308x180px, constraints left/top, radius 9px, fill image(hash: 7c0fddc22410258551e5b37fb536b296438cf0d0)
+    - GROUP "Group 3", 704x183px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Lucide Icons", 164x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Open-source icon library that provides 1600+ vector (svg) fi", 348x60px, constraints left/top, fill #0B0B0B, text [Text M]
+      - FRAME "Frame 7", 148x49px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 7", 120x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lucide Icons", 96x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma Community", 120x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+      - FRAME "Frame 8", 308x180px, constraints left/top, radius 9px, fill #FFFFFF, stroke #03030314 1px [decorative, ~8 shapes]
+    - GROUP "Group 4", 704x203px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Material Symbols", 228x34px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 28px], [heading]
+      - TEXT "Google’s newest icons consolidating over 2,500 glyphs in a s", 348x80px, constraints left/top, fill #0B0B0B, text [Text M]
+      - FRAME "Frame 7", 158x49px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Figma logo", 16x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 7", 130x49px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Material Symbols", 130x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+          - TEXT "Figma Community", 120x23px, constraints left/top, fill #0B0B0B, text [Inter Regular, 14px]
+      - FRAME "Frame 8", 308x180px, constraints left/top, radius 9px, fill #FFFFFF, stroke #03030314 1px
+        - RECTANGLE "image 7", 96x96px, constraints center/center, fill image(hash: 2055aa6c0ace137d35b129494b0996491f24323b)
+    - FRAME "Component link", 180x26px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/top
+      - FRAME "Link icon", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.67x10.85px, constraints scale/scale, fill #2B59C8
+        - VECTOR "Vector", 11.6x10.85px, constraints scale/scale, fill #2B59C8
+      - TEXT "View documentation", 156x26px, constraints left/top, fill #2B59C8, text [Inter Regular, 16px]
+    - TEXT "Icons", 101x49px, constraints left/top, fill #0B0B0B, text [Instrument Sans SemiBold, 40px], [heading]
+    - TEXT "These icons in this file are used in the Vaadin components. ", 704x40px, constraints left/top, fill #0B0B0B, text [Text M]
+
+Screen: Icons / 
+- SECTION, 252x782px, fill #ECEFF2
+  - FRAME "Frame 1", 140x573px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "[empty]", 20x20px, constraints left/top
+    - COMPONENT "Angle down", 20x20px, constraints left/top
+      - VECTOR "Vector", 11.67x6.67px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Angle left", 20x20px, constraints left/top
+      - VECTOR "Vector", 6.67x11.67px, constraints center/scale, fill #0B0B0B
+    - COMPONENT "Angle right", 20x20px, constraints left/top
+      - VECTOR "Vector", 6.67x11.67px, constraints center/scale, fill #0B0B0B
+    - COMPONENT "Angle up", 20x20px, constraints left/top
+      - VECTOR "Vector", 11.67x6.67px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Arrow down", 20x20px, constraints left/top
+      - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Arrow left", 20x20px, constraints left/top
+      - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Arrow right", 20x20px, constraints left/top
+      - VECTOR "Vector", 13.33x13.33px, constraints scale/center, fill #0B0B0B
+    - COMPONENT "Arrow up", 20x20px, constraints left/top
+      - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Calendar", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.67x18.33px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Checkmark", 20x20px, constraints left/top
+      - VECTOR "Vector", 15.42x11.25px, constraints scale/center, fill #0B0B0B
+    - COMPONENT "Clock", 20x20px, constraints left/top
+      - VECTOR "Vector", 18.33x18.33px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Cross", 20x20px, constraints left/top
+      - VECTOR "Vector", 11.67x11.67px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Drag", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 6.67x10.83px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Dropdown", 20x20px, constraints left/top
+      - VECTOR "Vector", 11.67x6.67px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Warn", 20x20px, constraints left/top
+      - VECTOR "Vector", 18.35x16.68px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Eye, disabled", 20x20px, constraints left/top
+      - VECTOR "Vector", 18.44x16.67px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Eye", 20x20px, constraints left/top
+      - VECTOR "Vector", 18.36x14.17px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Fullscreen", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.75x13.75px, constraints scale/scale, stroke #0B0B0B 1.5px
+    - COMPONENT "Link", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.24x18.22px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Menu", 20x20px, constraints left/top
+      - VECTOR "Vector", 15.42x10.42px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Minus", 20x20px, constraints left/top
+      - VECTOR "Vector", 13.33x1.67px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Pen", 20x20px, constraints left/top
+      - VECTOR "Vector", 18.33x18.33px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "paper-airplane", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.85x16.46px, constraints scale/scale, fill #0B0B0B
+    - COMPONENT "Photo", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, fill #0B0B0B
+    - ... +30 more children
+
+Screen: Accordion & Details / Accordion
+- FRAME "Accordion", 800x1257px, constraints left/top, fill #FFFFFF
+  - GROUP "Components", 614x647px, constraints left/top
+    - GROUP "Group 2", 614x592px, constraints left/top
+      - INSTANCE "Accordion", 264x192px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Details/Detail", 264x32px, horizontal pad 6 0 6 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+          - INSTANCE "Angle right", 16.67x16.67px, constraints left/top
+            - VECTOR "Vector", 5.56x9.72px, constraints center/scale, fill #0B0B0B
+          - TEXT "Summary", 243.33x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Details/Detail (open)", 264x64px, vertical pad 0 0 8 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top, radius 9px
+          - INSTANCE "Details/Detail", 264x32px, horizontal pad 6 0 6 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+            - INSTANCE "Angle down", 16.67x16.67px, constraints left/top
+            - TEXT "Summary", 243.33x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+          - SLOT "Slot", 264x20px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Content", 260x20px, constraints left/top, fill #0B0B0B, text [Text M]
+        - INSTANCE "Details/Detail", 264x32px, horizontal pad 6 0 6 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+          - INSTANCE "Angle right", 16.67x16.67px, constraints left/top
+            - VECTOR "Vector", 5.56x9.72px, constraints center/scale, fill #0B0B0B
+          - TEXT "Summary 4", 243.33x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Details/Detail", 264x32px, horizontal pad 6 0 6 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+          - INSTANCE "Angle right", 16.67x16.67px, constraints left/top
+            - VECTOR "Vector", 5.56x9.72px, constraints center/scale, fill #0B0B0B
+          - TEXT "Summary 5", 243.33x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+        - INSTANCE "Details/Detail", 264x32px, horizontal pad 6 0 6 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 9px
+          - INSTANCE "Angle right", 16.67x16.67px, constraints left/top
+            - VECTOR "Vector", 5.56x9.72px, constraints center/scale, fill #0B0B0B
+          - TEXT "Summary 5", 243.33x20px, constraints left/top, fill #0B0B0B, text [Instrument Sans Medium, 14px]
+      - INSTANCE "Accordion", 264x188px, vertical pad 0 0 0 0px gap -1px align min/center sizing W:fixed H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

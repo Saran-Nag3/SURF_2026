@@ -1,0 +1,1145 @@
+---
+name: genshin-impact-web-ui-design-community
+source_file: Genshin Impact Web UI Design (Community)
+source_page: All pages (2): Frames, components
+generated_at: 2026-07-25T09:54:38.888141+00:00
+---
+
+# Genshin Impact Web UI Design (Community) Design Guidelines
+
+## Source
+- Figma file: Genshin Impact Web UI Design (Community)
+- Figma page: All pages (2): Frames, components
+- Extracted at: 2026-07-25T09:54:38.888141+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #F4EBDB: 342 uses
+- #FFFFFF: 309 uses
+- #D9D9D933: 96 uses
+- #FCFCFC: 69 uses
+- #9AB929: 60 uses
+- #F7F7F733: 52 uses
+- #FFFFFF33: 41 uses
+- #D9DCD2: 27 uses
+- #9747FF: 22 uses
+- #EAEDE840: 22 uses
+- #151412: 18 uses
+- #414742: 18 uses
+- #D9D9D9: 18 uses
+- #F3E6D4: 18 uses
+- #FFFFFFEB: 18 uses
+- #F5ECDB: 16 uses
+- #F0EFEE: 15 uses
+- #0E362D: 14 uses
+- #E8EBE3A3: 14 uses
+- #FFFFFF40: 13 uses
+- #EBD7FB: 12 uses
+- #FFFFFF4D: 11 uses
+- #603915: 10 uses
+- #C3EEE0: 10 uses
+- #E1E0F8: 10 uses
+- #FCF8F8: 10 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Metropolis Medium, 28.61px: 165 uses
+- STSong STSong, 28px: 56 uses
+- Anonymous Pro Bold, 26px: 55 uses
+- Anonymous Pro Bold, 28px: 54 uses
+- Metropolis Medium, 28px: 53 uses
+- STSong STSong, 48px: 30 uses
+- Crimson Text SemiBold, 28px: 26 uses
+- Caveat Regular, 48px: 21 uses
+- Crimson Text BoldItalic, 42px: 18 uses
+- Bright DEMO Regular, 70px: 6 uses
+
+## Typography Hierarchy
+- 70px - Bright DEMO Regular, 70px (raw)
+- 48px - Caveat Regular, 48px (raw)
+- 48px - STSong STSong, 48px (raw)
+- 42px - Crimson Text BoldItalic, 42px (raw)
+- 28.61px - Metropolis Medium, 28.61px (raw)
+- 28px - Anonymous Pro Bold, 28px (raw)
+- 28px - Crimson Text SemiBold, 28px (raw)
+- 28px - Metropolis Medium, 28px (raw)
+- 28px - STSong STSong, 28px (raw)
+- 26px - Anonymous Pro Bold, 26px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Login_Nav
+- More_Button
+- Back_Button
+- Nav_Button
+- character 6
+- character 5
+- character 4
+- character 3
+- charcter 2
+- character 1
+- hovering_Frame
+- character_data_5
+- character_data_4
+- character_data_3
+- character_data_2
+- character_data_1
+- character_data_0
+- main conteny frame 2
+- slide bar_nav
+- nahida animation
+- animation
+
+## Component Specs
+- Login_Nav: size 134x52px, radius 32px, horizontal layout, padding 8 29 8 29px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #F3E6D4, stroke #F5ECDB 1px, text [STSong STSong, 28px] | variants: Property 1: Default/Variant2
+- More_Button: size 154x64px, radius 24px, horizontal layout, padding 13 20 13 20px, gap 6px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0], text [Metropolis Medium, 28px] | variants: Property 1: Default/Variant2
+- Back_Button: size 82x82px, fill #FFFFFF | variants: Property 1: Default/Variant2
+- Nav_Button: size 136x130px, radius 65.24px, horizontal layout, padding 1.33 1.33 1.33 1.33px, gap 6.66px, align min/center, sizing W:fixed H:fixed, fill #FFFFFFEB, effect [background_blur 36.2px, drop_shadow 8.5px offset 1 4 #E9EDEE] | variants: Property 1: Default/Variant2
+- character 6: size 529x311px, radius 52px, fill image(hash: 3b2300b01236bd41956d3386850a4ebe6bdc65f8), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC] | variants: Property 1: Default/Variant2
+- character 5: size 529x311px, radius 52px, fill image(hash: fedf56822741eeecf73a8a9caa26d6d7b4d78d39), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC] | variants: Property 1: Default/Variant2
+- character 4: size 529x311px, radius 52px, fill image(hash: 24af40fbfb764f3d831c56aabc7ea36ef94433a3), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC] | variants: Property 1: Default/Variant2
+- character 3: size 529x311px, radius 52px, fill image(hash: c231ec3ffb684afb29fbd54addb3e4a2237b837b), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC], text [Bright DEMO Regular, 70px] | variants: Property 1: Default/Variant2
+- charcter 2: size 529x311px, radius 52px, fill image(hash: 715dd0e684cd473d2dc96deeda8de28209df4a62), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC] | variants: Property 1: Default/Variant2
+- character 1: size 529x311px, radius 52px, fill image(hash: d8b67a1e1a0226291a1bfd6499551eaf05fe1afa), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC] | variants: Property 1: Default/Variant2
+- hovering_Frame : size 814x555px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed | variants: Property 1: Default/Variant2; character: 1/2/3/4/5/Default
+- character_data_5: size 711.48x911px, text [Metropolis Medium, 28.61px] | variants: Property 1: Variant2/default; character: o
+- character_data_4: size 711.48x911px, text [Metropolis Medium, 28.61px] | variants: Property 1: Variant2/default; character: o
+- character_data_3: size 711.48x911px, text [Metropolis Medium, 28.61px] | variants: Property 1: Variant2/default; character: o
+- character_data_2: size 711.48x911px, text [Metropolis Medium, 28.61px] | variants: Property 1: Variant2/default; character: o
+- character_data_1: size 711.48x911px, text [Metropolis Medium, 28.61px] | variants: Property 1: Variant2/default; character: o
+- character_data_0: size 711.48x911px, text [Metropolis Medium, 28.61px] | variants: Property 1: Variant2/default; character: o
+- main conteny frame 2: size 1920x1080px, fill #FFFFFF, text [Anonymous Pro Bold, 26px, Anonymous Pro Bold, 28px, Crimson Text BoldItalic, 42px] | variants: Property 1: Default/Variant2; character: 0/1/2/3/4/5
+- slide bar_nav: size 115.08x437px, radius 0/77.76/77.76/0px, vertical layout, padding 59.1 34.21 59.1 34.21px, gap 7.78px, align center/center, sizing W:fixed H:fixed, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px] | variants: Property 1: Default/Variant2
+- nahida animation: size 1772x1086px, fill #FFFFFF | variants: Property 1: Default/Variant2
+- animation: size 916x940px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed | variants: Property 1: Default/Variant2
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Frames / Desktop - 18
+- FRAME "Desktop - 18", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 1f5bbbf1d736d4359fc1ba005897aac21b418c1b), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 24", 856.37x144px, horizontal pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Clorinde", 478x144px, constraints left/top, fill #0D0545, text [Ocean Rush DEMO OceanRushDEMO, 95px], [heading]
+    - RECTANGLE "Glittering_Elixirs_Nahida 1", 119x132px, constraints left/top, fill image(hash: b508dcb690966c1e6cc78e0884a27a67eee5d091)
+  - FRAME "main frame", 1921x851px, constraints center/top
+    - FRAME "main conteny frame1", 1919x824px, constraints center/top
+      - INSTANCE "main conteny frame 2", 1920x1080px, constraints center/top, fill #FFFFFF
+        - FRAME "cards", 1289x1101px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Frame 26", 1155x672px, constraints left/top
+            - RECTANGLE "Nahida_Card 2", 552.04x1092px, constraints center/center, fill image(hash: 72aa47febf4a88655fe95097e69d8b9fe82d0e08)
+      - INSTANCE "character_data_5", 711.48x911px, constraints center/top
+        - RECTANGLE "Sapientia_Oromasdis_Shape 4", 455x455px, constraints center/top, fill image(hash: 1806b185bbb33b4dc779bc2a3d78a67b903419ee)
+        - RECTANGLE "Character_Nahida_Game 1", 14x23px, constraints center/top, fill image(hash: 41259b545e3d0e8df226ae4ae96a3d6b66e03d3b)
+      - INSTANCE "cards", 1249x672px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 26", 1155x672px, constraints left/top
+          - RECTANGLE "Nahida_Birthday_2023 1", 359x636px, constraints left/top, fill image(hash: 90ad8ecb4b05ba2c4a15757f63e071abc3bfaf5f)
+          - RECTANGLE "Glittering_Elixirs_Nahida_Wallpaper 1", 377x636px, constraints left/top, fill image(hash: 422baea32f8468653d28b8397038ed3bb8dc1a7a)
+          - RECTANGLE "Nahida_Character_Details_1 1", 377x713px, constraints left/top, radius 4px, fill image(hash: 1f5bbbf1d736d4359fc1ba005897aac21b418c1b)
+    - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+      - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 17
+- FRAME "Desktop - 17", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 8daca4b76449321a455587a6150ed3cd29409e02), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - TEXT "Clorinde", 925x174px, constraints left/top, fill #FCFCFC, text [Ocean Rush DEMO OceanRushDEMO, 115px], [heading]
+  - FRAME "content", 909x649px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 26px
+    - FRAME "Frame 16", 909x724px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top, radius 24px
+      - FRAME "about", 889x134px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "About", 889x145px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 869x125px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "Clorinde is a playable Ousia-aligned Electro character in Ge", 849x105px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 436x64px, vertical pad 0 0 0 0px gap 30px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 20", 436x64px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 167x61px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Electro", 29x29px, constraints left/top
+            - TEXT "Electro", 96x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+      - FRAME "official introduction", 889x240px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x240px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0CC]
+          - FRAME "Frame 23", 869x220px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x141px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x397px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x397px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x377px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x298px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x506px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x506px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x486px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x407px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x421px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x421px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x401px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x322px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+  - INSTANCE "nahida animation", 1320.65x808.32px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Nahida_Profile (2) 1", 1320.65x808.32px, constraints scale/scale, fill image(hash: f3b29292eb25882d6b643f1e27b25a352ac17209)
+  - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px, drop_shadow 25.5px offset 0 8 #F7F6F65E]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 16
+- FRAME "Desktop - 16", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: efe4de010c831dbb950104c0ac91c0b0c38d0668), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 5", 502.5x52px, horizontal pad 0 0 0 0px gap 112px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Home", 79x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "Search", 88x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "More", 68x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+    - FRAME "Frame 8", 502.5x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 16", 1656x724px, vertical pad 0 0 0 0px gap 75px sizing W:fixed H:fixed, constraints left/top, radius 24px
+    - FRAME "Frame 35", 642x235px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 13", 642x177px, vertical pad 0 0 0 0px gap 40px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 12", 642x177px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 622x157px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "Clorinde is a playable Ousia-aligned Electro character in Ge", 602x137px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 642x64px, horizontal pad 0 0 0 0px gap 30px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 437x64px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 168x61px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Electro", 29x29px, constraints left/top
+            - TEXT "Electro", 96x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+        - INSTANCE "More_Button", 154x64px, horizontal pad 13 20 13 20px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - TEXT "More", 70x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - INSTANCE "Icons", 38x38px, constraints left/top
+            - VECTOR "Icon", 9.5x19px, constraints scale/scale, stroke #FCFCFC 2.19px
+    - FRAME "characters", 1682x311px, horizontal pad 0 0 0 0px gap 72px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "character 1", 529x311px, constraints left/top, radius 52px, fill image(hash: d8b67a1e1a0226291a1bfd6499551eaf05fe1afa), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 6", 529x311px, constraints left/top, radius 52px, fill image(hash: 3b2300b01236bd41956d3386850a4ebe6bdc65f8), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "charcter 2", 529x311px, constraints left/top, radius 52px, fill image(hash: 715dd0e684cd473d2dc96deeda8de28209df4a62), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 3", 529x311px, constraints left/top, radius 52px, fill image(hash: c231ec3ffb684afb29fbd54addb3e4a2237b837b), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+        - TEXT "Kaedehara Kazuha", 342x88px, constraints left/top, text [Bright DEMO Regular, 70px], [heading]
+      - INSTANCE "character 4", 529x311px, constraints left/top, radius 52px, fill image(hash: 24af40fbfb764f3d831c56aabc7ea36ef94433a3), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+  - TEXT "Clorinde", 955x136px, constraints left/top, fill #FCFCFC, text [Ocean Rush DEMO OceanRushDEMO, 90px], [heading]
+  - INSTANCE "slide bar_nav", 115.08x437px, vertical pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/center, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "main frame", 814x555px, horizontal pad 0 0 0 0px gap -166px align min/max sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "hovering_Frame", 793x555px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, opacity 94%
+      - BOOLEAN_OPERATION "Subtract", 793x555px, constraints left/top, fill image(hash: 90ad8ecb4b05ba2c4a15757f63e071abc3bfaf5f), effect [background_blur 120.27px, inner_shadow 1.02px offset 1.19 1.7 #F1F5F2]
+  - GROUP "Electro", 112x112px, constraints left/top
+    - VECTOR "Vector", 112x112px, constraints scale/scale, fill #F2E4FD
+  - INSTANCE "Nav_Button", 126x120.44px, horizontal pad 1.23 1.23 1.23 1.23px gap 6.17px align min/center sizing W:fixed H:fixed, constraints left/top, radius 60.44px, fill #FFFFFFEB, effect [background_blur 33.54px, drop_shadow 7.88px offset 0.93 3.71 #E9EDEE], opacity 88%
+    - INSTANCE "Icons", 117.97x117.97px, constraints left/top
+      - VECTOR "Icon", 61.95x57.33px, constraints scale/scale, stroke #414742 3.61px
+
+Screen: Frames / Desktop - 15
+- FRAME "Desktop - 15", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: a3782940a86cc842718134ef89b15fc061a31d9b), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 24", 856.37x140px, horizontal pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Arlecchino", 739x140px, constraints left/top, fill #FCFCFC, text [Artifika Regular, 115px], [heading]
+    - RECTANGLE "Glittering_Elixirs_Nahida 1", 113x124px, constraints left/top, fill image(hash: ab170a8178f0f2c1e2edf60f7d14c08943c01871)
+  - FRAME "main frame", 1921x851px, constraints center/top
+    - FRAME "main conteny frame1", 1919x824px, constraints center/top
+      - INSTANCE "main conteny frame 2", 1920x1080px, constraints center/top, fill #FFFFFF
+        - FRAME "cards", 1289x1101px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Frame 26", 1155x672px, constraints left/top
+            - RECTANGLE "Nahida_Card 2", 552.04x1092px, constraints center/center, fill image(hash: 14bc7170e6f682c39403dc04100328965d8973c5)
+      - INSTANCE "character_data_4", 711.48x911px, constraints center/top
+        - RECTANGLE "Sapientia_Oromasdis_Shape 4", 455x455px, constraints center/top, fill image(hash: c7b2a745051ce21ee942600189b12f91fef2d964)
+        - RECTANGLE "Character_Nahida_Game 1", 14x23px, constraints center/top, fill image(hash: 459cbebcfb19b141e4ae6eb68dbeba81b7c70415)
+      - INSTANCE "cards", 1249x672px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 26", 1155x672px, constraints left/top
+          - RECTANGLE "Nahida_Birthday_2023 1", 359x636px, constraints left/top, fill image(hash: b3951111ebdf93d6791749e78c1949b1fc1c6a0b)
+          - RECTANGLE "Glittering_Elixirs_Nahida_Wallpaper 1", 377x636px, constraints left/top, fill image(hash: 14bc7170e6f682c39403dc04100328965d8973c5)
+          - RECTANGLE "Nahida_Character_Details_1 1", 377x713px, constraints left/top, radius 4px, fill image(hash: a8ce16a0a52fef285f28bf5b404ede0d0bbe6f22)
+    - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+      - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 14
+- FRAME "Desktop - 14", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 42603f7ac0f23bccb0d6fe4552deae9179f3b2a1), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - TEXT "Arlecchino", 925x140px, constraints left/top, fill #FCFCFC, text [Artifika Regular, 115px], [heading]
+  - FRAME "content", 909x693px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 26px
+    - FRAME "Frame 16", 909x724px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top, radius 24px
+      - FRAME "about", 889x134px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "About", 889x140px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 869x120px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "She is the Fourth of the Eleven Fatui Harbingers and the cur", 849x100px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 416x68.26px, vertical pad 0 0 0 0px gap 30px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 20", 416x68.26px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 147x68.26px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Pyro", 30.42x36.26px, constraints left/top
+            - TEXT "Pyro", 64x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+      - FRAME "official introduction", 889x212px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x212px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0CC]
+          - FRAME "Frame 23", 869x192px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x113px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x319px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x319px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x299px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x220px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x529px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, effect [background_blur 4px]
+        - FRAME "Frame 12", 889x529px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x509px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x430px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x370px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x370px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x350px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x271px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+  - INSTANCE "nahida animation", 1320.65x808.32px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Nahida_Profile (2) 1", 1320.65x808.32px, constraints scale/scale, fill image(hash: 280c635e2ee1f9b9926a62cac4a9fafc5f755c74)
+  - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px, drop_shadow 25.5px offset 0 8 #F7F6F65E]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 13
+- FRAME "Desktop - 13", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: a3782940a86cc842718134ef89b15fc061a31d9b), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1194x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 5", 597x52px, horizontal pad 0 0 0 0px gap 112px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Home", 79x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "Search", 88x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "More", 68x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+    - FRAME "Frame 8", 597x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 16", 1656x724px, vertical pad 0 0 0 0px gap 71px sizing W:fixed H:fixed, constraints left/top, radius 24px
+    - FRAME "Frame 35", 642x235px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 13", 642x176px, vertical pad 0 0 0 0px gap 40px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 12", 642x176px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 622x156px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "She is the Fourth of the Eleven Fatui Harbingers and the cur", 602x136px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 642x68.26px, horizontal pad 0 0 0 0px gap 30px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 437x68.26px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 168x68.26px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Pyro", 30.42x36.26px, constraints left/top
+            - TEXT "Pyro", 64x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+        - INSTANCE "More_Button", 154x64px, horizontal pad 13 20 13 20px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - TEXT "More", 70x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - INSTANCE "Icons", 38x38px, constraints left/top
+            - VECTOR "Icon", 9.5x19px, constraints scale/scale, stroke #FCFCFC 2.19px
+    - FRAME "characters", 1682x311px, horizontal pad 0 0 0 0px gap 72px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "character 1", 529x311px, constraints left/top, radius 52px, fill image(hash: d8b67a1e1a0226291a1bfd6499551eaf05fe1afa), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 6", 529x311px, constraints left/top, radius 52px, fill image(hash: 3b2300b01236bd41956d3386850a4ebe6bdc65f8), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "charcter 2", 529x311px, constraints left/top, radius 52px, fill image(hash: 715dd0e684cd473d2dc96deeda8de28209df4a62), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 3", 529x311px, constraints left/top, radius 52px, fill image(hash: c231ec3ffb684afb29fbd54addb3e4a2237b837b), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+        - TEXT "Kaedehara Kazuha", 342x88px, constraints left/top, text [Bright DEMO Regular, 70px], [heading]
+      - INSTANCE "character 5", 529x311px, constraints left/top, radius 52px, fill image(hash: fedf56822741eeecf73a8a9caa26d6d7b4d78d39), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+  - TEXT "Arlecchino", 955x122px, constraints left/top, fill #FCFCFC, text [Artifika Regular, 100px], [heading]
+  - INSTANCE "slide bar_nav", 115.08x437px, vertical pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/center, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "main frame", 814x555px, horizontal pad 0 0 0 0px gap -166px align min/max sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "hovering_Frame", 793x555px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, opacity 94%
+      - BOOLEAN_OPERATION "Subtract", 793x555px, constraints left/top, fill image(hash: 7962a5ba0e7a890f36b5a28ad6d83cbd6aa50f5f), effect [background_blur 120.27px, inner_shadow 1.02px offset 1.19 1.7 #F1F5F2]
+  - GROUP "Pyro", 85x107px, constraints left/top
+    - VECTOR "Vector", 85x107px, constraints scale/scale, fill #DEDDDF
+    - VECTOR "Vector", 27.43x24.39px, constraints scale/scale, fill #DEDDDF
+  - INSTANCE "Nav_Button", 126x120.44px, horizontal pad 1.23 1.23 1.23 1.23px gap 6.17px align min/center sizing W:fixed H:fixed, constraints left/top, radius 60.44px, fill #FFFFFFEB, effect [background_blur 33.54px, drop_shadow 7.88px offset 0.93 3.71 #E9EDEE], opacity 88%
+    - INSTANCE "Icons", 117.97x117.97px, constraints left/top
+      - VECTOR "Icon", 61.95x57.33px, constraints scale/scale, stroke #414742 3.61px
+
+Screen: Frames / Desktop - 12
+- FRAME "Desktop - 12", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: ed953ef2ff4e00514372c524399f896c0a0af7a9), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1168x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1168x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 24", 856.37x140px, horizontal pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Kaedehara Kazuha", 852x139px, constraints center/top, fill #B43C3A, text [Fontania FontaniaRegular, 105px], [heading]
+    - RECTANGLE "Glittering_Elixirs_Nahida 1", 127x140px, constraints left/top, fill image(hash: b1180f2418d75c64c604cff6dcd2a6c89b066342)
+  - FRAME "main frame", 1921x811px, constraints center/top
+    - FRAME "main conteny frame1", 1919x824px, constraints center/top
+      - INSTANCE "main conteny frame 2", 1920x1080px, constraints center/top, fill #FFFFFF
+        - FRAME "cards", 1289x1101px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Frame 26", 1155x672px, constraints left/top
+            - RECTANGLE "Nahida_Card 2", 552.04x1092px, constraints center/center, fill image(hash: eac228ba569c56cc3b7b2064228a4647ffe1bf62)
+      - INSTANCE "character_data_3", 711.48x911px, constraints center/top
+        - RECTANGLE "Sapientia_Oromasdis_Shape 4", 455x455px, constraints center/top, fill image(hash: 6090308ab8d633105bfbfa16139a82e006fd3f43)
+        - RECTANGLE "Character_Nahida_Game 1", 14x23px, constraints center/top, fill image(hash: 9ac60ceed3fd5e5e481f61e4a2bb11443f24400c)
+      - INSTANCE "cards", 1249x672px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 26", 1155x672px, constraints left/top
+          - RECTANGLE "Nahida_Birthday_2023 1", 359x636px, constraints left/top, fill image(hash: 759f7d41ea48e84b24d4c0f1899573f0923867a5)
+          - RECTANGLE "Glittering_Elixirs_Nahida_Wallpaper 1", 377x636px, constraints left/top, fill image(hash: a094386dac7504ddc5bc0ac6bda2d675eb890c1f)
+          - RECTANGLE "Nahida_Character_Details_1 1", 377x713px, constraints left/top, radius 4px, fill image(hash: 69e4bdef5669fcdfe513d07d6582bb19f5746407)
+    - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+      - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 11
+- FRAME "Desktop - 11", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 5c8664abb072e70f44fecee9ea75890200471b93), effect [layer_blur 56.5px]
+  - INSTANCE "nahida animation", 1514x927.04px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Nahida_Profile (2) 1", 1514x927.04px, constraints scale/scale, fill image(hash: 25828d8e15d3d138bd34ba5c5ba45f6e3df9955a)
+  - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px, drop_shadow 25.5px offset 0 8 #F7F6F65E]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - TEXT "Kaedehara Kazuha", 925x139px, constraints left/top, fill #FCFCFC, text [Fontania FontaniaRegular, 105px], [heading]
+  - FRAME "content", 909x697px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 26px
+    - FRAME "Frame 16", 909x724px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top, radius 24px
+      - FRAME "about", 889x134px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "About", 889x134px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 869x114px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "A wandering samurai of the once-famed Kaedehara Clan with an", 849x94px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 444x73px, vertical pad 0 0 0 0px gap 30px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 20", 444x73px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 175x73px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Anemo", 42x41px, constraints left/top [decorative, ~5 shapes]
+            - TEXT "Anemo", 98x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+      - FRAME "official introduction", 889x178px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x178px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0CC]
+          - FRAME "Frame 23", 869x158px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x79px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x295px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x295px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x275px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x196px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x471px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, effect [background_blur 4px]
+        - FRAME "Frame 12", 889x471px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x451px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x372px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x395px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x395px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x375px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x296px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 10
+- FRAME "Desktop - 10", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 07180009152a1e5caed0297f46d1821e2deb5ec1), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1194x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 5", 597x52px, horizontal pad 0 0 0 0px gap 112px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Home", 79x36px, constraints left/top, fill #1184D6, text [STSong STSong, 28px], [heading]
+      - TEXT "Search", 88x36px, constraints left/top, fill #1184D6, text [STSong STSong, 28px], [heading]
+      - TEXT "More", 68x36px, constraints left/top, fill #1184D6, text [STSong STSong, 28px], [heading]
+    - FRAME "Frame 8", 597x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #0762B7 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #0762B7, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 16", 1656x724px, vertical pad 0 0 0 0px gap 71px sizing W:fixed H:fixed, constraints left/top, radius 24px
+    - FRAME "Frame 35", 642x249px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 13", 642x152px, vertical pad 0 0 0 0px gap 40px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 12", 642x152px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 622x132px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "A wandering samurai of the once-famed Kaedehara Clan with an", 602x112px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 642x73px, horizontal pad 0 0 0 0px gap 30px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 455x73px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 186x73px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Anemo", 42x41px, constraints left/top [decorative, ~5 shapes]
+            - TEXT "Anemo", 98x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+        - INSTANCE "More_Button", 154x64px, horizontal pad 13 20 13 20px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - TEXT "More", 70x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - INSTANCE "Icons", 38x38px, constraints left/top
+            - VECTOR "Icon", 9.5x19px, constraints scale/scale, stroke #FCFCFC 2.19px
+    - FRAME "characters", 1682x311px, horizontal pad 0 0 0 0px gap 72px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "character 1", 529x311px, constraints left/top, radius 52px, fill image(hash: d8b67a1e1a0226291a1bfd6499551eaf05fe1afa), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 6", 529x311px, constraints left/top, radius 52px, fill image(hash: 3b2300b01236bd41956d3386850a4ebe6bdc65f8), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "charcter 2", 529x311px, constraints left/top, radius 52px, fill image(hash: 715dd0e684cd473d2dc96deeda8de28209df4a62), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 4", 529x311px, constraints left/top, radius 52px, fill image(hash: 24af40fbfb764f3d831c56aabc7ea36ef94433a3), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 5", 529x311px, constraints left/top, radius 52px, fill image(hash: fedf56822741eeecf73a8a9caa26d6d7b4d78d39), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+  - TEXT "Kaedehara Kazuha", 955x119px, constraints left/top, fill #FCFCFC, text [Fontania FontaniaRegular, 90px], [heading]
+  - INSTANCE "slide bar_nav", 115.08x437px, vertical pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/center, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "main frame", 814x555px, horizontal pad 0 0 0 0px gap -166px align min/max sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "hovering_Frame", 814x555px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, opacity 94%
+      - BOOLEAN_OPERATION "Subtract", 814x555px, constraints left/top, fill image(hash: 618b0d203d11ae8687da918d2d63eedb16f7c42f), effect [background_blur 120.27px, inner_shadow 1.02px offset 1.19 1.7 #F1F5F2]
+  - GROUP "Anemo", 90.8x88.64px, constraints scale/scale [decorative, ~5 shapes]
+  - INSTANCE "Nav_Button", 126x120.44px, horizontal pad 1.23 1.23 1.23 1.23px gap 6.17px align min/center sizing W:fixed H:fixed, constraints left/top, radius 60.44px, fill #FFFFFFEB, effect [background_blur 33.54px, drop_shadow 7.88px offset 0.93 3.71 #E9EDEE], opacity 88%
+    - INSTANCE "Icons", 117.97x117.97px, constraints left/top
+      - VECTOR "Icon", 61.95x57.33px, constraints scale/scale, stroke #414742 3.61px
+
+Screen: Frames / Desktop - 9
+- FRAME "Desktop - 9", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 322efa1d4026e1559f3fbab71f7bbaf4f0b19848), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1160x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1160x52px, horizontal pad 0 29 0 29px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 24", 856.37x121px, horizontal pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Zhongli", 402x121px, constraints left/top, fill #FCFCFC, text [MENTRA MENTRA, 75px], [heading]
+    - RECTANGLE "Glittering_Elixirs_Nahida 1", 99.48x109px, constraints left/top, fill image(hash: 71e87c7e6e73b18c9964d4dc70e9025edbef2f0e)
+  - FRAME "main frame", 1921x851px, constraints center/top
+    - FRAME "main conteny frame1", 1919x824px, constraints center/top
+      - INSTANCE "main conteny frame 2", 1920x1080px, constraints center/top, fill #FFFFFF
+        - FRAME "cards", 1289x1101px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Frame 26", 1155x672px, constraints left/top
+            - RECTANGLE "Nahida_Card 2", 552.04x1092px, constraints center/center, fill image(hash: 67d7843bc52f9293e6ca5ea6382a7ef0def57f71)
+      - INSTANCE "character_data_2", 711.48x911px, constraints center/top
+        - RECTANGLE "Sapientia_Oromasdis_Shape 4", 455x455px, constraints center/top, fill image(hash: be22ff27e78fc53899a9ef977f38bd8dd9cd5c33)
+        - RECTANGLE "Character_Nahida_Game 1", 14x23px, constraints center/top, fill image(hash: 24d0669aebd8426c860b62067aeb3b6e9143fa60)
+      - INSTANCE "cards", 1249x672px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 26", 1155x672px, constraints left/top
+          - RECTANGLE "Nahida_Birthday_2023 1", 359x636px, constraints left/top, fill image(hash: d3fc2571b5819b258b390dac58333d19b47e1023)
+          - RECTANGLE "Glittering_Elixirs_Nahida_Wallpaper 1", 377x636px, constraints left/top, fill image(hash: 6ae04ae6f3b9249fb8eba607b4be2f5fac6e93a2)
+          - RECTANGLE "Nahida_Character_Details_1 1", 377x713px, constraints left/top, radius 4px, fill image(hash: 3893ee38c90b346b167b1ff27e70cf3ef888920c)
+    - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+      - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 8
+- FRAME "Desktop - 8", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 155ccd03d4eb855e94f114349423f3510faee3a0), effect [layer_blur 56.5px]
+  - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px, drop_shadow 25.5px offset 0 8 #F7F6F65E]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - TEXT "Zhongli", 925x121px, constraints left/top, fill #FCFCFC, text [MENTRA MENTRA, 75px], [heading]
+  - FRAME "content", 909x714px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 26px
+    - FRAME "Frame 16", 909x724px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top, radius 24px
+      - FRAME "about", 889x134px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "About", 889x134px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 869x114px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "A consultant of the Wangsheng Funeral Parlor, he is later re", 849x94px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 412x68px, vertical pad 0 0 0 0px gap 30px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 20", 412x68px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 143x68px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Geo", 33.23x36px, constraints left/top
+            - TEXT "Geo", 56x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+      - FRAME "official introduction", 889x243px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x243px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0CC]
+          - FRAME "Frame 23", 869x223px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x144px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x356px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x356px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x336px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x257px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x397px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, effect [background_blur 4px]
+        - FRAME "Frame 12", 889x397px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x377px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x298px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x422px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x422px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x402px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x323px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+  - INSTANCE "nahida animation", 1447x886.02px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Nahida_Profile (2) 1", 1447x886.02px, constraints scale/scale, fill image(hash: db997ca84c60c8c7475ad04dc04bc0d62f12391a)
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 7
+- FRAME "Desktop - 7", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: cfdac71133566a051c17b6cf90f6325aab25078a), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1194x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 5", 597x52px, horizontal pad 0 0 0 0px gap 112px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Home", 79x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "Search", 88x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "More", 68x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+    - FRAME "Frame 8", 597x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #372A23 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #352927, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 16", 1656x724px, vertical pad 0 0 0 0px gap 70px sizing W:fixed H:fixed, constraints left/top, radius 24px
+    - FRAME "Frame 35", 642x301px, vertical pad 17 0 17 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 13", 642x183px, vertical pad 0 0 0 0px gap 40px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 12", 642x183px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 622x163px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "A consultant of the Wangsheng Funeral Parlor, he is later re", 602x143px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 642x68px, horizontal pad 0 0 0 0px gap 30px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 405x68px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 136x68px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Geo", 33.23x36px, constraints left/top
+            - TEXT "Geo", 56x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+        - INSTANCE "More_Button", 154x64px, horizontal pad 13 20 13 20px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - TEXT "More", 70x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - INSTANCE "Icons", 38x38px, constraints left/top
+            - VECTOR "Icon", 9.5x19px, constraints scale/scale, stroke #FCFCFC 2.19px
+    - FRAME "characters", 1682x311px, horizontal pad 0 0 0 0px gap 72px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "character 1", 529x311px, constraints left/top, radius 52px, fill image(hash: d8b67a1e1a0226291a1bfd6499551eaf05fe1afa), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 6", 529x311px, constraints left/top, radius 52px, fill image(hash: 3b2300b01236bd41956d3386850a4ebe6bdc65f8), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 3", 529x311px, constraints left/top, radius 52px, fill image(hash: c231ec3ffb684afb29fbd54addb3e4a2237b837b), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+        - TEXT "Kaedehara Kazuha", 342x88px, constraints left/top, text [Bright DEMO Regular, 70px], [heading]
+      - INSTANCE "character 4", 529x311px, constraints left/top, radius 52px, fill image(hash: 24af40fbfb764f3d831c56aabc7ea36ef94433a3), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 5", 529x311px, constraints left/top, radius 52px, fill image(hash: fedf56822741eeecf73a8a9caa26d6d7b4d78d39), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+  - TEXT "Zhongli", 386x113px, constraints left/top, fill #FCFCFC, text [MENTRA MENTRA, 70px], [heading]
+  - INSTANCE "slide bar_nav", 115.08x437px, vertical pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/center, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "main frame", 814x555px, horizontal pad 0 0 0 0px gap -166px align min/max sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "hovering_Frame", 814x555px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, opacity 94%
+      - BOOLEAN_OPERATION "Subtract", 814x555px, constraints left/top, fill image(hash: 712bfbabe4ed8448f74191485e6eed10808b97ae), effect [background_blur 120.27px, inner_shadow 1.02px offset 1.19 1.7 #F1F5F2]
+  - GROUP "Geo", 100x107.24px, constraints scale/scale
+    - VECTOR "Vector", 84.51x67.77px, constraints scale/scale, fill #E99A00
+    - VECTOR "Vector", 84.36x67.95px, constraints scale/scale, fill #E99A00
+  - INSTANCE "Nav_Button", 126x120.44px, horizontal pad 1.23 1.23 1.23 1.23px gap 6.17px align min/center sizing W:fixed H:fixed, constraints left/top, radius 60.44px, fill #FFFFFFEB, effect [background_blur 33.54px, drop_shadow 7.88px offset 0.93 3.71 #E9EDEE], opacity 88%
+    - INSTANCE "Icons", 117.97x117.97px, constraints left/top
+      - VECTOR "Icon", 61.95x57.33px, constraints scale/scale, stroke #414742 3.61px
+
+Screen: Frames / Desktop - 6
+- FRAME "Desktop - 6", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 0a6ccb29a710c6812198b253fd4350a6fc47ab93), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 24", 856.37x119px, horizontal pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Raiden Shogun", 791x119px, constraints left/top, fill #FCFCFC, text [Almendra SC Regular, 100px], [heading]
+    - RECTANGLE "Glittering_Elixirs_Nahida 1", 106x117px, constraints left/top, fill image(hash: 2462c7c601b465320a9715b320aee7852e89e2ed), opacity 90%
+  - FRAME "main frame", 1921x851px, constraints center/top
+    - FRAME "main conteny frame1", 1919x824px, constraints center/top
+      - INSTANCE "main conteny frame 2", 1920x1080px, constraints center/top, fill #FFFFFF
+        - FRAME "cards", 1289x1101px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Frame 26", 1155x672px, constraints left/top
+            - RECTANGLE "Nahida_Card 2", 552.04x1092px, constraints center/center, fill image(hash: b879aabd818a6c25e8279fbc3ea8ff2479ca0bc0)
+      - INSTANCE "character_data_1", 711.48x911px, constraints center/top
+        - RECTANGLE "Sapientia_Oromasdis_Shape 4", 455x455px, constraints center/top, fill image(hash: 6205dca53599c870a9938212c165d84cee71f3f6)
+        - RECTANGLE "Character_Nahida_Game 1", 14x23px, constraints center/top, fill image(hash: d0fd5e2281095a2d8ac98cd2686914ee29f8a429)
+      - INSTANCE "cards", 1249x672px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 26", 1155x672px, constraints left/top
+          - RECTANGLE "Nahida_Birthday_2023 1", 359x636px, constraints left/top, fill image(hash: 12af78a2a8f269b48f81eb00dac176758bf7a039)
+          - RECTANGLE "Glittering_Elixirs_Nahida_Wallpaper 1", 377x636px, constraints left/top, fill image(hash: eb48263be516c6affa4d92b9db9f3c96317971ec)
+          - RECTANGLE "Nahida_Character_Details_1 1", 377x713px, constraints left/top, radius 4px, fill image(hash: c31c5bd1c9c4f39f0ab566991a539dea2308cd8e)
+    - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+      - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 5
+- FRAME "Desktop - 5", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 74eaf4a39ef3236f6a7cfc0f8b77c7a27177b91e), effect [layer_blur 56.5px]
+  - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px, drop_shadow 25.5px offset 0 8 #F7F6F65E]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - TEXT "Raiden Shogun", 925x131px, constraints left/top, fill #FCFCFC, text [Almendra SC Regular, 110px], [heading]
+  - FRAME "content", 909x714px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 26px
+    - FRAME "Frame 16", 909x724px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top, radius 24px
+      - FRAME "about", 889x154px, vertical pad 0 0 0 0px gap 12px align min/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "About", 889x154px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 869x134px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "The Raiden Shogun is comprised of two beings in one body: Ei", 849x114px, constraints left/top, fill #FCFCFC, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 458x64px, vertical pad 0 0 0 0px gap 30px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 20", 458x64px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 189x61px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Electro", 29x29px, constraints left/top
+            - TEXT "Electro", 96x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+      - FRAME "official introduction", 889x294px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x294px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF66, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0CC]
+          - FRAME "Frame 23", 869x274px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x195px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x394px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x394px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF66, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x374px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x295px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x511px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x511px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x482px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x403px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x258px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x258px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF4D, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x238px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x159px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+  - INSTANCE "nahida animation", 1559x955.46px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Nahida_Profile (2) 1", 1559x955.46px, constraints scale/scale, fill image(hash: 9f0d09f278f37296cafdb8cb0c3eb7501370d40f)
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 4
+- FRAME "Desktop - 4", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 0a6ccb29a710c6812198b253fd4350a6fc47ab93), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1194x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 5", 597x52px, horizontal pad 0 0 0 0px gap 112px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Home", 79x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "Search", 88x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "More", 68x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+    - FRAME "Frame 8", 597x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 16", 1656x724px, vertical pad 27 0 27 0px gap 65px sizing W:fixed H:fixed, constraints left/top, radius 24px
+    - FRAME "Frame 35", 642x280px, vertical pad 0 0 0 0px gap 23px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 13", 642x193px, vertical pad 0 0 0 0px gap 40px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 12", 642x193px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 622x173px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "The Raiden Shogun is comprised of two beings in one body: Ei", 602x153px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 642x64px, horizontal pad 0 0 0 0px gap 30px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 458x64px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 189x61px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Electro", 29x29px, constraints left/top
+            - TEXT "Electro", 96x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+        - INSTANCE "More_Button", 154x64px, horizontal pad 13 20 13 20px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - TEXT "More", 70x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - INSTANCE "Icons", 38x38px, constraints left/top
+            - VECTOR "Icon", 9.5x19px, constraints scale/scale, stroke #FCFCFC 2.19px
+    - FRAME "characters", 1682x311px, horizontal pad 0 0 0 0px gap 72px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "character 6", 529x311px, constraints left/top, radius 52px, fill image(hash: 3b2300b01236bd41956d3386850a4ebe6bdc65f8), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "charcter 2", 529x311px, constraints left/top, radius 52px, fill image(hash: 715dd0e684cd473d2dc96deeda8de28209df4a62), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 3", 529x311px, constraints left/top, radius 52px, fill image(hash: c231ec3ffb684afb29fbd54addb3e4a2237b837b), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+        - TEXT "Kaedehara Kazuha", 342x88px, constraints left/top, text [Bright DEMO Regular, 70px], [heading]
+      - INSTANCE "character 4", 529x311px, constraints left/top, radius 52px, fill image(hash: 24af40fbfb764f3d831c56aabc7ea36ef94433a3), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 5", 529x311px, constraints left/top, radius 52px, fill image(hash: fedf56822741eeecf73a8a9caa26d6d7b4d78d39), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+  - TEXT "Raiden Shogun", 925x119px, constraints left/top, fill #FCFCFC, text [Almendra SC Regular, 100px], [heading]
+  - INSTANCE "slide bar_nav", 115.08x437px, vertical pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/center, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "main frame", 814x555px, horizontal pad 0 0 0 0px gap -166px align min/max sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Nav_Button", 126x120.44px, horizontal pad 1.23 1.23 1.23 1.23px gap 6.17px align min/center sizing W:fixed H:fixed, constraints left/top, radius 60.44px, fill #FFFFFFEB, effect [background_blur 33.54px, drop_shadow 7.88px offset 0.93 3.71 #E9EDEE], opacity 88%
+      - INSTANCE "Icons", 117.97x117.97px, constraints left/top
+        - VECTOR "Icon", 61.95x57.33px, constraints scale/scale, stroke #414742 3.61px
+    - INSTANCE "hovering_Frame", 814x555px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, opacity 94%
+      - BOOLEAN_OPERATION "Subtract", 814x555px, constraints left/top, fill image(hash: c31c5bd1c9c4f39f0ab566991a539dea2308cd8e), effect [background_blur 120.27px, inner_shadow 1.02px offset 1.19 1.7 #F1F5F2]
+  - GROUP "Electro", 112x112px, constraints left/top
+    - VECTOR "Vector", 112x112px, constraints scale/scale, fill #F2E4FD
+
+Screen: Frames / Desktop - 3
+- FRAME "Desktop - 3", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: c2fd73e0992eb29b4c572ce9ea295511e30907d5), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #345136 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #335036, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 24", 856.37x143px, horizontal pad 0 0 0 0px gap 24px align center/baseline sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Nahida", 569x102px, constraints left/top, fill #FCFCFC, text [Bright DEMO Regular, 161.86px], [heading]
+    - RECTANGLE "Glittering_Elixirs_Nahida 1", 124x136px, constraints left/top, fill image(hash: a178c0f63860488bff46adbd5144c5109f3439e8)
+  - FRAME "main frame", 1921x851px, constraints center/top
+    - FRAME "main conteny frame1", 1919x824px, constraints center/top
+      - INSTANCE "character_data_0", 711.48x911px, constraints left/top
+        - RECTANGLE "Sapientia_Oromasdis_Shape 4", 455x455px, constraints center/top, fill image(hash: 37ec9f3330dc658e472312436aee6cd5f70ec154)
+        - RECTANGLE "Character_Nahida_Game 1", 14x23px, constraints center/top, fill image(hash: e7a226686ce6c98b5d44aefcd763a79660f91ec6)
+      - INSTANCE "main conteny frame 2", 1920x1080px, constraints center/top, fill #FFFFFF
+        - FRAME "cards", 1289x1101px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Frame 26", 1155x672px, constraints left/top
+            - RECTANGLE "Nahida_Card 2", 552.04x1092px, constraints center/center, fill image(hash: 2cd18bbdf101eedadf2e38fba4931d0bb4bcc41d)
+      - INSTANCE "cards", 1249x672px, horizontal pad 0 0 0 0px gap 21px align center/center sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 26", 1155x672px, constraints left/top
+          - RECTANGLE "Nahida_Birthday_2023 1", 359x636px, constraints left/top, fill image(hash: 8ff54997a6ed7ead704e478e57d2a9f35d487a8b)
+          - RECTANGLE "Glittering_Elixirs_Nahida_Wallpaper 1", 377x636px, constraints left/top, fill image(hash: b698cd339fc706a5c38b5900559422ec66f4a9cd)
+          - RECTANGLE "Nahida_Character_Details_1 1", 377x713px, constraints left/top, radius 4px, fill image(hash: dda7d8beef45cf54772fc3247d370a6708f26176)
+    - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+      - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 2
+- FRAME "Desktop - 2", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: c2fd73e0992eb29b4c572ce9ea295511e30907d5), effect [layer_blur 56.5px]
+  - FRAME "Frame 4", 115.08x437px, horizontal pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px, drop_shadow 25.5px offset 0 8 #F7F6F65E]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 9", 1005x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 1005x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #355537 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #355537, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "content", 909x730px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 26px
+    - FRAME "Frame 16", 909x724px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top, radius 24px
+      - FRAME "about", 889x154px, vertical pad 0 0 0 0px gap 12px align min/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "About", 889x154px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "about text", 869x134px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+            - TEXT "Nahida playable Dendro character in Genshin Impact. As Lesse", 849x114px, constraints left/top, fill #FCFCFC, text [Metropolis Medium, 28px], [heading]
+      - FRAME "Frame 17", 458x64.62px, vertical pad 0 0 0 0px gap 30px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 20", 458x64.62px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 189x64.62px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - GROUP "Dendro", 39x32.62px, constraints left/top [decorative, ~4 shapes]
+            - TEXT "Dendro", 102x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+            - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top
+      - FRAME "official introduction", 889x326px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x326px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x306px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x227px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x492px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x492px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x472px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x393px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x534px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x534px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x514px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x435px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+      - FRAME "character story", 889x492px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 889x492px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fill, constraints left/top, radius 24px, fill #FFFFFF40, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - FRAME "Frame 23", 869x472px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fill, constraints left/top
+            - FRAME "about text", 434.5x59px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "about text", 869x393px, horizontal pad 0 10 0 10px gap 10px align center/min sizing W:fill H:fill, constraints left/top
+  - TEXT "Nahida", 909x112px, constraints left/top, fill #FCFCFC, text [Bright DEMO Regular, 178px], [heading]
+  - INSTANCE "nahida animation", 1660x1017.36px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Nahida_Profile (2) 1", 1660x1017.36px, constraints scale/scale, fill image(hash: fde42304c67a6011e10d742e1b53e121ec3bb22e)
+  - INSTANCE "Back_Button", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 82x82px, constraints scale/scale, radius 78px, fill #E8EBE3A3, effect [background_blur 19.9px, drop_shadow 2.4px offset 1 2 #FEFEFE40]
+      - VECTOR "Icon", 20.5x41px, constraints scale/scale, stroke #0E362D 3px
+
+Screen: Frames / Desktop - 1
+- FRAME "Desktop - 1", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Nahida-Kusanali 1", 2495x1480px, constraints left/top, fill image(hash: 3b2300b01236bd41956d3386850a4ebe6bdc65f8), effect [layer_blur 56.5px]
+  - FRAME "Frame 9", 1195x52px, horizontal pad 0 0 0 0px gap 204px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 5", 597.5x52px, horizontal pad 0 0 0 0px gap 112px align min/center sizing W:fill H:fill, constraints left/top
+      - TEXT "Home", 79x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "Search", 88x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+      - TEXT "More", 68x36px, constraints left/top, fill #FFFFFF, text [STSong STSong, 28px], [heading]
+    - FRAME "Frame 8", 597.5x52px, horizontal pad 0 0 0 0px gap 30px align max/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Login_Nav", 134x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Login", 76x36px, constraints left/top, fill #F0EFEE, text [STSong STSong, 28px], [heading]
+      - FRAME "Frame 7", 151x52px, horizontal pad 8 29 8 29px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F3E6D4, stroke #F5ECDB 1px
+        - TEXT "Sign in", 93x36px, constraints left/top, fill #151412, text [STSong STSong, 28px], [heading]
+  - FRAME "Genshin_Impact_logo (1) 1", 311x113px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 16", 1656x724px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top, radius 24px
+    - FRAME "Frame 13", 637x238px, vertical pad 0 0 0 0px gap 12px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 637x238px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+        - FRAME "about text", 617x218px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top
+          - TEXT "Nahida playable Dendro character in Genshin Impact. As Lesse", 597x198px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+    - FRAME "Frame 17", 642x64.62px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 20", 458x64.62px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 14", 189x64.62px, horizontal pad 16 20 16 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - GROUP "Dendro", 39x32.62px, constraints left/top [decorative, ~4 shapes]
+          - TEXT "Dendro", 102x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+        - FRAME "Frame 15", 257x64px, horizontal pad 18 20 18 20px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+          - TEXT "5 star", 77x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+          - INSTANCE "Icons", 20x20px, constraints left/top
+            - VECTOR "Icon", 14x13.41px, constraints scale/scale, fill #FCFCFC
+          - INSTANCE "Icons", 20x20px, constraints left/top
+            - VECTOR "Icon", 14x13.41px, constraints scale/scale, fill #FCFCFC
+          - INSTANCE "Icons", 20x20px, constraints left/top
+            - VECTOR "Icon", 14x13.41px, constraints scale/scale, fill #FCFCFC
+          - INSTANCE "Icons", 20x20px, constraints left/top
+            - VECTOR "Icon", 14x13.41px, constraints scale/scale, fill #FCFCFC
+          - INSTANCE "Icons", 20x20px, constraints left/top
+            - VECTOR "Icon", 14x13.41px, constraints scale/scale, fill #FCFCFC
+      - INSTANCE "More_Button", 154x64px, horizontal pad 13 20 13 20px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF33, effect [background_blur 4px, inner_shadow 0.8px offset 1.2 1.1 #F8FAF0]
+        - TEXT "More", 70x28px, constraints left/top, fill #FFFFFF, text [Metropolis Medium, 28px], [heading]
+        - INSTANCE "Icons", 38x38px, constraints left/top
+          - VECTOR "Icon", 9.5x19px, constraints scale/scale, stroke #FCFCFC 2.19px
+    - FRAME "characters", 1682x311px, horizontal pad 0 0 0 0px gap 72px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "character 1", 529x311px, constraints left/top, radius 52px, fill image(hash: d8b67a1e1a0226291a1bfd6499551eaf05fe1afa), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "charcter 2", 529x311px, constraints left/top, radius 52px, fill image(hash: 715dd0e684cd473d2dc96deeda8de28209df4a62), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 3", 529x311px, constraints left/top, radius 52px, fill image(hash: c231ec3ffb684afb29fbd54addb3e4a2237b837b), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+        - TEXT "Kaedehara Kazuha", 342x88px, constraints left/top, text [Bright DEMO Regular, 70px], [heading]
+      - INSTANCE "character 4", 529x311px, constraints left/top, radius 52px, fill image(hash: 24af40fbfb764f3d831c56aabc7ea36ef94433a3), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+      - INSTANCE "character 5", 529x311px, constraints left/top, radius 52px, fill image(hash: fedf56822741eeecf73a8a9caa26d6d7b4d78d39), effect [inner_shadow 0.9px offset 0.4 2.1 #FCFCFC]
+  - TEXT "Nahida", 637x112px, constraints left/top, fill #FCFCFC, text [Bright DEMO Regular, 178px], [heading]
+  - INSTANCE "slide bar_nav", 115.08x437px, vertical pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/center, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+    - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 40x40px, constraints left/top
+        - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+  - FRAME "main frame", 814x555px, horizontal pad 0 0 0 0px gap -166px align min/max sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "hovering_Frame", 814x555px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, opacity 94%
+      - BOOLEAN_OPERATION "Subtract", 814x555px, constraints left/top, fill image(hash: 3b2300b01236bd41956d3386850a4ebe6bdc65f8), effect [background_blur 120.27px, inner_shadow 1.02px offset 1.19 1.7 #F1F5F2]
+    - INSTANCE "Nav_Button", 126x120.44px, horizontal pad 1.23 1.23 1.23 1.23px gap 6.17px align min/center sizing W:fixed H:fixed, constraints left/top, radius 60.44px, fill #FFFFFFEB, effect [background_blur 33.54px, drop_shadow 7.88px offset 0.93 3.71 #E9EDEE], opacity 88%
+      - INSTANCE "Icons", 117.97x117.97px, constraints left/top
+        - VECTOR "Icon", 61.95x57.33px, constraints scale/scale, stroke #414742 3.61px
+  - GROUP "Dendro", 106x92px, constraints scale/scale [decorative, ~4 shapes]
+
+Screen: components / animation
+- INSTANCE "animation", 916x940px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - RECTANGLE "Character_Nahida_Full_Wish 1", 916x848px, constraints left/top, fill image(hash: fb142e0424d06fc93ce5a6eebd128129a573e533)
+
+Screen: components / Floting animation 2
+- FRAME "Floting animation 2", 1696x2977px, constraints left/top, fill #818181
+  - FRAME "Frame 1", 717x477px, constraints left/top, fill #D7D7D7
+    - COMPONENT_SET "slide bar_nav", 399.16x477px, horizontal pad 20 20 20 20px gap 129px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=Default", 115.08x437px, vertical pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+        - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 40x40px, constraints left/top
+            - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Icons", 40x40px, constraints left/top
+            - VECTOR "Icon", 28x28px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Icons", 40x40px, constraints left/top
+            - VECTOR "Icon", 26.62x28px, constraints scale/scale, fill #FFFFFF
+      - COMPONENT "Property 1=Variant2", 115.08x437px, vertical pad 59.1 34.21 59.1 34.21px gap 7.78px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/77.76/77.76/0px, fill #EAEDE840, effect [inner_shadow 0.78px offset 0 1.71 #F8F9F8C9, background_blur 22.08px]
+        - FRAME "icons", 46.65x318.81px, vertical pad 0 0 0 0px gap 87.87px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 40x40px, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

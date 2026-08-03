@@ -1,0 +1,3301 @@
+---
+name: thirdweb-design-system-community
+source_file: thirdweb Design System (Community)
+source_page: All pages (45): ⁂ · Getting Started, ❇︎ · Foundation [v0.1],      ↪ ❖ Colors,      ↪ ❖ Typography,      ↪ ❖ Icons,      ↪ ❖ Shadows,      ↪ ❖ Logo, ---, ❇︎ · Components [v1.0],      ↪ ❖ Accordion,      ↪ ❖ Alert,      ↪ ❖ Alert Dialog,      ↪ ❖ Avatar,      ↪ ❖ Aspect Ratio,      ↪ ❖ Badge,      ↪ ❖ Breadcrumb,      ↪ ❖ Button,      ↪ ❖ Calendar,      ↪ ❖ Card,      ↪ ❖ Carousel,      ↪ ❖ Checkbox,      ↪ ❖ Context Menu,      ↪ ❖ Dialog,      ↪ ❖ Drawer,      ↪ ❖ Dropdown Menu,      ↪ ❖ Hover Card,      ↪ ❖ Input,      ↪ ❖ Input OTP,      ↪ ❖ Pagination,      ↪ ❖ Popover,      ↪ ❖ Progress,      ↪ ❖ Radio,      ↪ ❖ Select,      ↪ ❖ Select Menu,      ↪ ❖ Sheet,      ↪ ❖ Slider,      ↪ ❖ Skeleton,      ↪ ❖ Switch,      ↪ ❖ Tabs,      ↪ ❖ Text Area,      ↪ ❖ Toast,      ↪ ❖ Toggle,      ↪ ❖ Tooltip, ---, ⊛ · Cover
+generated_at: 2026-07-25T09:21:12.979438+00:00
+---
+
+# thirdweb Design System (Community) Design Guidelines
+
+## Source
+- Figma file: thirdweb Design System (Community)
+- Figma page: All pages (45): ⁂ · Getting Started, ❇︎ · Foundation [v0.1],      ↪ ❖ Colors,      ↪ ❖ Typography,      ↪ ❖ Icons,      ↪ ❖ Shadows,      ↪ ❖ Logo, ---, ❇︎ · Components [v1.0],      ↪ ❖ Accordion,      ↪ ❖ Alert,      ↪ ❖ Alert Dialog,      ↪ ❖ Avatar,      ↪ ❖ Aspect Ratio,      ↪ ❖ Badge,      ↪ ❖ Breadcrumb,      ↪ ❖ Button,      ↪ ❖ Calendar,      ↪ ❖ Card,      ↪ ❖ Carousel,      ↪ ❖ Checkbox,      ↪ ❖ Context Menu,      ↪ ❖ Dialog,      ↪ ❖ Drawer,      ↪ ❖ Dropdown Menu,      ↪ ❖ Hover Card,      ↪ ❖ Input,      ↪ ❖ Input OTP,      ↪ ❖ Pagination,      ↪ ❖ Popover,      ↪ ❖ Progress,      ↪ ❖ Radio,      ↪ ❖ Select,      ↪ ❖ Select Menu,      ↪ ❖ Sheet,      ↪ ❖ Slider,      ↪ ❖ Skeleton,      ↪ ❖ Switch,      ↪ ❖ Tabs,      ↪ ❖ Text Area,      ↪ ❖ Toast,      ↪ ❖ Toggle,      ↪ ❖ Tooltip, ---, ⊛ · Cover
+- Extracted at: 2026-07-25T09:21:12.979438+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Gradients/thirdweb: [gradient_linear(#F213A4 0% | #E011A7 15% | #B20DAF 46% | #6806BB 88% | #5204BF 100%)]
+- Thirdweb Gradient: [gradient_linear(#F213A4 0% | #E011A7 15% | #B20DAF 46% | #6806BB 88% | #5204BF 100%)]
+- Superchain/Zora: [image(hash: 5849e3cb31e73e92377ccb08f829d13bcf67d856)]
+- Superchain/Base: [image(hash: 96bdfe52cdc39cb66d77c8b1d2d6123190ba1b35)]
+- Superchain/Optimism Mainnet: [image(hash: 55f67521b4752c65f26a180ec199daf19395393c)]
+- new infra gradien: [gradient_linear(#3F2DAF 0% | #917FFB 100%)]
+- new wallet gradient: [#7E28EE, gradient_linear(#2567FF 0% | #22A7FF 100%)]
+- contracts icon: none
+- light purple: [gradient_linear(#E5A1F5 0% | #E169FF 100%), #00000033]
+- new contracts gradient 2: [gradient_linear(#F4009F 0% | #F856C8 100%)]
+
+## Raw Colors (unstyled)
+- #F0F0F0: 392 uses
+- #D80027: 346 uses
+- #FFDA44: 262 uses
+- #0052B4: 211 uses
+- #FFFFFF: 117 uses
+- #000000: 104 uses
+- #9747FF: 103 uses
+- #6DA544: 98 uses
+- #338AF3: 71 uses
+- #496E2D: 60 uses
+- #A2001D: 49 uses
+- #0000000A: 45 uses
+- #D9D9D9: 27 uses
+- #FF9811: 25 uses
+- #EBA4D2CC: 19 uses
+- #ACABB1: 12 uses
+
+## Typography Tokens
+- sm/medium: Inter Medium (500), 14px / 20px, tracking 0px
+- sm/regular: Inter Regular (400), 14px / 20px, tracking 0px
+- xs/regular: Inter Regular (400), 12px / 16px, tracking 0px
+- 2xl/bold: Inter Bold (700), 30px / 36px, tracking 0px
+- xl/medium: Inter Medium (500), 24px / 32px, tracking 0px
+- xl/regular: Inter Regular (400), 24px / 32px, tracking 0px
+- 4xl/semibold: Inter SemiBold (600), 48px / 90.89%, tracking -0.72px
+- base/medium: Inter Medium (500), 16px / 24px, tracking 0px
+- lg/semibold: Inter SemiBold (600), 18px / 28px, tracking 0px
+- 3xl/semibold: Inter SemiBold (600), 36px / 40px, tracking 0px
+- base/regular: Inter Regular (400), 16px / 24px, tracking 0px
+- 5xl/semibold: Inter SemiBold (600), 60px / 90.89%, tracking -1.32px
+- sm/semibold: Inter SemiBold (600), 14px / 20px, tracking 0px
+- sm/link: Inter Medium (500), 14px / 20px, tracking 0px
+- xl/semibold: Inter SemiBold (600), 24px / 32px, tracking 0px
+- xs/medium: Inter Medium (500), 12px / 16px, tracking 0px
+- 8xl/link: Inter Medium (500), 128px / 90.89%, tracking -5.12px
+- 8xl/bold: Inter Bold (700), 128px / 90.89%, tracking -5.12px
+- 8xl/semibold: Inter SemiBold (600), 128px / 90.89%, tracking -5.12px
+- 8xl/medium: Inter Medium (500), 128px / 90.89%, tracking -5.12px
+- 8xl/regular: Inter Regular (400), 128px / 90.89%, tracking -5.12px
+- 7xl/link: Inter Medium (500), 96px / 90.89%, tracking -2.88px
+- 7xl/bold: Inter Bold (700), 96px / 90.89%, tracking -2.88px
+- 7xl/semibold: Inter SemiBold (600), 96px / 90.89%, tracking -2.88px
+- 7xl/medium: Inter Medium (500), 96px / 90.89%, tracking -2.88px
+- 7xl/regular: Inter Regular (400), 96px / 90.89%, tracking -2.88px
+- 6xl/link: Inter Medium (500), 72px / 90.89%, tracking -1.58px
+- 6xl/bold: Inter Bold (700), 72px / 90.89%, tracking -1.58px
+- 6xl/semibold: Inter SemiBold (600), 72px / 90.89%, tracking -1.58px
+- 6xl/medium: Inter Medium (500), 72px / 90.89%, tracking -1.58px
+- 6xl/regular: Inter Regular (400), 72px / 90.89%, tracking -1.58px
+- 5xl/link: Inter Medium (500), 60px / 90.89%, tracking -1.32px
+- 5xl/bold: Inter Bold (700), 60px / 90.89%, tracking -1.32px
+- 5xl/medium: Inter Medium (500), 60px / 90.89%, tracking -1.32px
+- 5xl/regular: Inter Regular (400), 60px / 90.89%, tracking -1.32px
+- 4xl/link: Inter Medium (500), 48px / 90.89%, tracking -0.72px
+- 4xl/bold: Inter Bold (700), 48px / 90.89%, tracking -0.72px
+- 4xl/medium: Inter Medium (500), 48px / 90.89%, tracking -0.72px
+- 4xl/regular: Inter Regular (400), 48px / 90.89%, tracking -0.72px
+- 3xl/link: Inter Medium (500), 36px / 40px, tracking 0px
+- 3xl/bold: Inter Bold (700), 36px / 40px, tracking 0px
+- 3xl/medium: Inter Medium (500), 36px / 40px, tracking 0px
+- 3xl/regular: Inter Regular (400), 36px / 40px, tracking 0px
+- 2xl/link: Inter Medium (500), 30px / 36px, tracking 0px
+- 2xl/semibold: Inter SemiBold (600), 30px / 36px, tracking 0px
+- 2xl/medium: Inter Medium (500), 30px / 36px, tracking 0px
+- 2xl/regular: Inter Regular (400), 30px / 36px, tracking 0px
+- xl/link: Inter Medium (500), 24px / 32px, tracking 0px
+- xl/bold: Inter Bold (700), 24px / 32px, tracking 0px
+- lg/link: Inter Medium (500), 18px / 28px, tracking 0px
+- lg/bold: Inter Bold (700), 18px / 28px, tracking 0px
+- lg/medium: Inter Medium (500), 18px / 28px, tracking 0px
+- lg/regular-spaced: Inter Regular (400), 18px / 32px, tracking 0px
+- lg/regular: Inter Regular (400), 18px / 28px, tracking 0px
+- base/link: Inter Medium (500), 16px / 24px, tracking 0px
+- base/bold: Inter Bold (700), 16px / 24px, tracking 0px
+- base/semibold: Inter SemiBold (600), 16px / 24px, tracking 0px
+- base/regular-spaced: Inter Regular (400), 16px / 28px, tracking 0px
+- sm/bold: Inter Bold (700), 14px / 20px, tracking 0px
+- sm/regular - spaced: Inter Regular (400), 14px / 24px, tracking 0px
+- xs/link: Inter Medium (500), 12px / 16px, tracking 0px
+- xs/bold: Inter Bold (700), 12px / 16px, tracking 0px
+- xs/semibold: Inter SemiBold (600), 12px / 16px, tracking 0px
+- xs/regular-spaced: Inter Regular (400), 12px / 20px, tracking 0px
+
+## Raw Typography (unstyled)
+- Merge One Regular, 6.05px: 6 uses
+- Inter Medium, 8px: 4 uses
+
+## Typography Hierarchy
+- 128px - 8xl/bold (Inter Bold)
+- 128px - 8xl/link (Inter Medium)
+- 128px - 8xl/medium (Inter Medium)
+- 128px - 8xl/regular (Inter Regular)
+- 128px - 8xl/semibold (Inter SemiBold)
+- 96px - 7xl/bold (Inter Bold)
+- 96px - 7xl/link (Inter Medium)
+- 96px - 7xl/medium (Inter Medium)
+- 96px - 7xl/regular (Inter Regular)
+- 96px - 7xl/semibold (Inter SemiBold)
+- 72px - 6xl/bold (Inter Bold)
+- 72px - 6xl/link (Inter Medium)
+- 72px - 6xl/medium (Inter Medium)
+- 72px - 6xl/regular (Inter Regular)
+- 72px - 6xl/semibold (Inter SemiBold)
+- 60px - 5xl/bold (Inter Bold)
+- 60px - 5xl/link (Inter Medium)
+- 60px - 5xl/medium (Inter Medium)
+- 60px - 5xl/regular (Inter Regular)
+- 60px - 5xl/semibold (Inter SemiBold)
+- 48px - 4xl/bold (Inter Bold)
+- 48px - 4xl/link (Inter Medium)
+- 48px - 4xl/medium (Inter Medium)
+- 48px - 4xl/regular (Inter Regular)
+- 48px - 4xl/semibold (Inter SemiBold)
+- 36px - 3xl/bold (Inter Bold)
+- 36px - 3xl/link (Inter Medium)
+- 36px - 3xl/medium (Inter Medium)
+- 36px - 3xl/regular (Inter Regular)
+- 36px - 3xl/semibold (Inter SemiBold)
+- 30px - 2xl/bold (Inter Bold)
+- 30px - 2xl/link (Inter Medium)
+- 30px - 2xl/medium (Inter Medium)
+- 30px - 2xl/regular (Inter Regular)
+- 30px - 2xl/semibold (Inter SemiBold)
+- 24px - xl/bold (Inter Bold)
+- 24px - xl/link (Inter Medium)
+- 24px - xl/medium (Inter Medium)
+- 24px - xl/regular (Inter Regular)
+- 24px - xl/semibold (Inter SemiBold)
+- 18px - lg/bold (Inter Bold)
+- 18px - lg/link (Inter Medium)
+- 18px - lg/medium (Inter Medium)
+- 18px - lg/regular (Inter Regular)
+- 18px - lg/regular-spaced (Inter Regular)
+- 18px - lg/semibold (Inter SemiBold)
+- 16px - base/bold (Inter Bold)
+- 16px - base/link (Inter Medium)
+- 16px - base/medium (Inter Medium)
+- 16px - base/regular (Inter Regular)
+- 16px - base/regular-spaced (Inter Regular)
+- 16px - base/semibold (Inter SemiBold)
+- 14px - sm/bold (Inter Bold)
+- 14px - sm/link (Inter Medium)
+- 14px - sm/medium (Inter Medium)
+- 14px - sm/regular (Inter Regular)
+- 14px - sm/regular - spaced (Inter Regular)
+- 14px - sm/semibold (Inter SemiBold)
+- 12px - xs/bold (Inter Bold)
+- 12px - xs/link (Inter Medium)
+- 12px - xs/medium (Inter Medium)
+- 12px - xs/regular (Inter Regular)
+- 12px - xs/regular-spaced (Inter Regular)
+- 12px - xs/semibold (Inter SemiBold)
+- 8px - Inter Medium, 8px (raw)
+- 6.05px - Merge One Regular, 6.05px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow/sm: [drop_shadow 2px offset 0 1 #0000000D]
+- Shadow/Inner: [inner_shadow 4px offset 0 2 #0000000F]
+- Shadow/3xl: [drop_shadow 50px offset 0 25 #00000040]
+- Shadow/2xl: [drop_shadow 4px offset 0 2 #0000000F, drop_shadow 6px offset 0 4 #0000001A]
+- Shadow/xl: [drop_shadow 4px offset 0 2 #0000000F, drop_shadow 6px offset 0 4 #0000001A]
+- Shadow/lg: [drop_shadow 4px offset 0 2 #0000000F, drop_shadow 6px offset 0 4 #0000001A]
+- Shadow/md: [drop_shadow 2px offset 0 1 #0000000F, drop_shadow 3px offset 0 1 #0000001A]
+- Shadow/xs: [drop_shadow 0px offset 0 0 #0000000D]
+
+## Grid Styles
+- Icon grid: rows count 1, section 34px, gutter 0px, align stretch + columns count 1, section 34px, gutter 0px, align stretch + ...
+
+## Component Families
+- _Color
+- Chain Icon
+- Flag Icon
+- Product Icon
+- Social Media Icon
+- Icon
+- li:zoom-out
+- li:zoom-in
+- li:zap
+- li:zap-off
+- li:youtube
+- li:x
+- li:x-square
+- li:x-octagon
+- li:x-circle
+- li:wrench
+- li:wrap-text
+- li:workflow
+- li:wine
+- li:wind
+- li:wifi
+- li:wifi-off
+- li:whole-word
+- li:wheat
+- li:wheat-off
+- li:webhook
+- li:webcam
+- li:waves
+- li:watch
+- li:warehouse
+- li:wand
+- li:wand-2
+- li:wallpaper
+- li:wallet
+- li:wallet-cards
+- li:wallet-2
+- li:vote
+- li:volume
+- li:volume-x
+- li:volume-2
+- li:volume-1
+- li:voicemail
+- li:view
+- li:videotape
+- li:video
+- li:video-off
+- li:vibrate
+- li:vibrate-off
+- li:venetian-mask
+- li:vegan
+- li:variable
+- li:utility-pole
+- li:utensils
+- li:utensils-crossed
+- li:users
+- li:users-2
+- li:user
+- li:user-x
+- li:user-x-2
+- li:user-square
+- li:user-square-2
+- li:user-plus
+- li:user-plus-2
+- li:user-minus
+- li:user-minus-2
+- li:user-cog
+- li:user-cog-2
+- li:user-circle
+- li:user-circle-2
+- li:user-check
+- li:user-check-2
+- li:user-2
+- li:usb
+- li:upload
+- li:upload-cloud
+- li:unplug
+- li:unlock
+- li:unlink
+- li:unlink-2
+- li:ungroup
+- li:unfold-vertical
+- li:unfold-horizontal
+- li:undo
+- li:undo-dot
+- li:undo-2
+- li:underline
+- li:umbrella
+- li:type
+- li:twitter
+- li:twitch
+- li:tv
+- li:tv-2
+- li:turtle
+- li:truck
+- li:trophy
+- li:triangle
+- li:triangle-right
+- li:trending-up
+- li:trending-down
+- li:trello
+- li:trees
+- li:tree-pine
+- li:tree-deciduous
+- li:trash
+- li:trash-2
+- li:tram-front
+- li:train-track
+- li:train-front
+- li:train-front-tunnel
+- li:traffic-cone
+- li:tractor
+- li:toy-brick
+- li:tower-control
+- li:touchpad
+- li:touchpad-off
+- li:tornado
+- li:toggle-right
+- li:toggle-left
+- li:timer
+- li:timer-reset
+- li:timer-off
+- li:ticket
+- li:thumbs-up
+- li:thumbs-down
+- li:thermometer
+- li:thermometer-sun
+- li:thermometer-snowflake
+- li:text
+- li:text-select
+- li:text-quote
+- li:text-cursor
+- li:text-cursor-input
+- li:test-tubes
+- li:test-tube
+- li:test-tube-2
+- li:terminal
+- li:terminal-square
+- li:tent
+- li:target
+- li:tally-5
+- li:tally-4
+- li:tally-3
+- li:tally-2
+- li:tally-1
+- li:tags
+- li:tag
+- li:tablets
+- li:tablet
+- li:tablet-smartphone
+- li:table
+- li:table-properties
+- li:table-2
+- li:syringe
+- li:swords
+- li:sword
+- li:switch-camera
+- li:swiss-franc
+- li:superscript
+- li:sunset
+- li:sunrise
+- li:sun
+- li:sun-snow
+- li:sun-moon
+- li:sun-medium
+- li:sun-dim
+- li:subtitles
+- li:subscript
+- li:strikethrough
+- li:stretch-vertical
+- li:stretch-horizontal
+- li:store
+- li:stop-circle
+- li:sticky-note
+- li:sticker
+- li:stethoscope
+- li:step-forward
+- li:step-back
+- li:star
+- li:star-off
+- li:star-half
+- li:stamp
+- li:squirrel
+- li:square
+- li:square-stack
+- li:square-slash
+- li:square-equal
+- li:square-dot
+- li:square-dashed-bottom
+- li:square-dashed-bottom-code
+- li:square-code
+- li:square-asterisk
+- li:sprout
+- li:spray-can
+- li:split
+- li:split-square-vertical
+- li:split-square-horizontal
+- li:spline
+- li:spell-check
+- li:spell-check-2
+- li:speaker
+- li:sparkles
+- li:sparkle
+- li:spade
+- li:space
+- li:soup
+- li:sofa
+- li:snowflake
+- li:snail
+- li:smile
+- li:smile-plus
+- li:smartphone
+- li:smartphone-nfc
+- li:smartphone-charging
+- li:sliders
+- li:sliders-horizontal
+- li:slice
+- li:slash
+- li:slack
+- li:skull
+- li:skip-forward
+- li:skip-back
+- li:siren
+- li:signal
+- li:signal-zero
+- li:signal-medium
+- li:signal-low
+- li:signal-high
+- li:sigma
+- li:sigma-square
+- li:shuffle
+- li:shrub
+- li:shrink
+- li:shower-head
+- li:shovel
+- li:shopping-cart
+- li:shopping-basket
+- li:shopping-bag
+- li:shirt
+- li:ship
+- li:ship-wheel
+- li:shield
+- li:shield-x
+- li:shield-question
+- li:shield-plus
+- li:shield-off
+- li:shield-minus
+- li:shield-half
+- li:shield-ellipsis
+- li:shield-check
+- li:shield-ban
+- li:shield-alert
+- li:shell
+- li:sheet
+- li:share
+- li:share-2
+- li:shapes
+- li:settings
+- li:settings-2
+- li:server
+- li:server-off
+- li:server-crash
+- li:server-cog
+- li:separator-vertical
+- li:separator-horizontal
+- li:send
+- li:send-to-back
+- li:send-horizontal
+- li:search
+- li:search-x
+- li:search-slash
+- li:search-code
+- li:search-check
+- li:scroll
+- li:scroll-text
+- li:screen-share
+- li:screen-share-off
+- li:scissors
+- li:scissors-square
+- li:scissors-square-dashed-bottom
+- li:scissors-line-dashed
+- li:school
+- li:school-2
+- li:scatter-chart
+- li:scan
+- li:scan-line
+- li:scan-face
+- li:scaling
+- li:scale
+- li:scale-3d
+- li:save
+- li:save-all
+- li:satellite
+- li:satellite-dish
+- li:sandwich
+- li:salad
+- li:sailboat
+- li:russian-ruble
+- li:ruler
+- li:rss
+- li:rows
+- li:router
+- li:rotate-cw
+- li:rotate-ccw
+- li:rotate-3d
+- li:roller-coaster
+- li:rocking-chair
+- li:rocket
+- li:rewind
+- li:reply
+- li:reply-all
+- li:replace
+- li:replace-all
+- li:repeat
+- li:repeat-2
+- li:repeat-1
+- li:remove-formatting
+- li:regex
+- li:refrigerator
+- li:refresh-cw
+- li:refresh-cw-off
+- li:refresh-ccw
+- li:refresh-ccw-dot
+- li:redo
+- li:redo-dot
+- li:redo-2
+- li:recycle
+- li:rectangle-vertical
+- li:rectangle-horizontal
+- li:receipt
+- li:ratio
+- li:rat
+- li:rainbow
+- li:rail-symbol
+- li:radio
+- li:radio-tower
+- li:radio-receiver
+- li:radiation
+- li:radar
+- li:rabbit
+- li:quote
+- li:qr-code
+- li:puzzle
+- li:projector
+- li:printer
+- li:presentation
+- li:power
+- li:power-off
+- li:pound-sterling
+- li:popsicle
+- li:popcorn
+- li:pointer
+- li:podcast
+- li:pocket
+- li:pocket-knife
+- li:plus
+- li:plus-square
+- li:plus-circle
+- li:plug
+- li:plug-zap
+- li:plug-zap-2
+- li:plug-2
+- li:play
+- li:play-square
+- li:play-circle
+- li:plane
+- li:plane-takeoff
+- li:plane-landing
+- li:pizza
+- li:pipette
+- li:pin
+- li:pin-off
+- li:pill
+- li:pilcrow
+- li:pilcrow-square
+- li:piggy-bank
+- li:pie-chart
+- li:picture-in-picture
+- li:picture-in-picture-2
+- li:pi
+- li:pi-square
+- li:phone
+- li:phone-outgoing
+- li:phone-off
+- li:phone-missed
+- li:phone-incoming
+- li:phone-forwarded
+- li:phone-call
+- li:person-standing
+- li:percent
+- li:percent-square
+- li:percent-diamond
+- li:percent-circle
+- li:pencil
+- li:pencil-ruler
+- li:pencil-line
+- li:pen
+- li:pen-tool
+- li:pen-square
+- li:pen-line
+- li:pc-case
+- li:paw-print
+- li:pause
+- li:pause-octagon
+- li:pause-circle
+- li:party-popper
+- li:parking-square
+- li:parking-square-off
+- li:parking-meter
+- li:parking-circle
+- li:parking-circle-off
+- li:parentheses
+- li:paperclip
+- li:panel-top
+- li:panel-top-open
+- li:panel-top-inactive
+- li:panel-top-close
+- li:panel-right
+- li:panel-right-open
+- li:panel-right-inactive
+- li:panel-right-close
+- li:panel-left
+- li:panel-left-open
+- li:panel-left-inactive
+- li:panel-left-close
+- li:panel-bottom
+- li:panel-bottom-open
+- li:panel-bottom-inactive
+- li:panel-bottom-close
+- li:palmtree
+- li:palette
+- li:paintbrush
+- li:paintbrush-2
+- li:paint-bucket
+- li:package
+- li:package-x
+- li:package-search
+- li:package-plus
+- li:package-open
+- li:package-minus
+- li:package-check
+- li:package-2
+- li:outdent
+- li:orbit
+- li:option
+- li:octagon
+- li:nut
+- li:nut-off
+- li:nfc
+- li:newspaper
+- li:network
+- li:navigation
+- li:navigation-off
+- li:navigation-2
+- li:navigation-2-off
+- li:music
+- li:music-4
+- li:music-3
+- li:music-2
+- li:move
+- li:move-vertical
+- li:move-up
+- li:move-up-right
+- li:move-up-left
+- li:move-right
+- li:move-left
+- li:move-horizontal
+- li:move-down
+- li:move-down-right
+- li:move-down-left
+- li:move-diagonal
+- li:move-diagonal-2
+- li:move-3d
+- li:mouse
+- li:mouse-pointer
+- li:mouse-pointer-square
+- li:mouse-pointer-square-dashed
+- li:mouse-pointer-click
+- li:mouse-pointer-2
+- li:mountain
+- li:mountain-snow
+- li:more-vertical
+- li:more-horizontal
+- li:moon
+- li:moon-star
+- li:monitor
+- li:monitor-x
+- li:monitor-up
+- li:monitor-stop
+- li:monitor-speaker
+- li:monitor-smartphone
+- li:monitor-play
+- li:monitor-pause
+- li:monitor-off
+- li:monitor-down
+- li:monitor-dot
+- li:monitor-check
+- li:minus
+- li:minus-square
+- li:minus-circle
+- li:minimize
+- li:minimize-2
+- li:milk
+- li:milk-off
+- li:milestone
+- li:microwave
+- li:microscope
+- li:mic
+- li:mic-off
+- li:mic-2
+- li:messages-square
+- li:message-square
+- li:message-square-plus
+- li:message-square-dashed
+- li:message-circle
+- li:merge
+- li:menu
+- li:menu-square
+- li:memory-stick
+- li:meh
+- li:megaphone
+- li:megaphone-off
+- li:medal
+- li:maximize
+- li:maximize-2
+- li:martini
+- li:map
+- li:map-pin
+- li:map-pin-off
+- li:mails
+- li:mailbox
+- li:mail
+- li:mail-x
+- li:mail-warning
+- li:mail-search
+- li:mail-question
+- li:mail-plus
+- li:mail-open
+- li:mail-minus
+- li:mail-check
+- li:magnet
+- li:m-square
+- li:luggage
+- li:lollipop
+- li:log-out
+- li:log-in
+- li:lock
+- li:locate
+- li:locate-off
+- li:locate-fixed
+- li:loader
+- li:loader-2
+- li:list
+- li:list-x
+- li:list-video
+- li:list-tree
+- li:list-todo
+- li:list-start
+- li:list-restart
+- li:list-plus
+- li:list-ordered
+- li:list-music
+- li:list-minus
+- li:list-filter
+- li:list-end
+- li:list-checks
+- li:linkedin
+- li:link
+- li:link-2
+- li:link-2-off
+- li:line-chart
+- li:lightbulb
+- li:lightbulb-off
+- li:ligature
+- li:life-buoy
+- li:library
+- li:leafy-green
+- li:leaf
+- li:layout
+- li:layout-template
+- li:layout-panel-top
+- li:layout-panel-left
+- li:layout-list
+- li:layout-grid
+- li:layout-dashboard
+- li:layers
+- li:laugh
+- li:lasso
+- li:lasso-select
+- li:laptop
+- li:laptop-2
+- li:languages
+- li:landmark
+- li:lamp
+- li:lamp-wall-up
+- li:lamp-wall-down
+- li:lamp-floor
+- li:lamp-desk
+- li:lamp-ceiling
+- li:keyboard
+- li:key
+- li:key-square
+- li:key-round
+- li:kanban
+- li:kanban-square
+- li:kanban-square-dashed
+- li:joystick
+- li:japanese-yen
+- li:iteration-cw
+- li:iteration-ccw
+- li:italic
+- li:instagram
+- li:info
+- li:infinity
+- li:indian-rupee
+- li:indent
+- li:inbox
+- li:import
+- li:image
+- li:image-plus
+- li:image-off
+- li:image-minus
+- li:ice-cream
+- li:ice-cream-2
+- li:hourglass
+- li:hotel
+- li:hop
+- li:hop-off
+- li:home
+- li:history
+- li:highlighter
+- li:hexagon
+- li:helping-hand
+- li:help-circle
+- li:heart
+- li:heart-pulse
+- li:heart-off
+- li:heart-handshake
+- li:heart-crack
+- li:headphones
+- li:heading
+- li:heading-6
+- li:heading-5
+- li:heading-4
+- li:heading-3
+- li:heading-2
+- li:heading-1
+- li:hdmi-port
+- li:haze
+- li:hash
+- li:hard-hat
+- li:hard-drive
+- li:hard-drive-upload
+- li:hard-drive-download
+- li:hand
+- li:hand-metal
+- li:hammer
+- li:group
+- li:grip
+- li:grip-vertical
+- li:grip-horizontal
+- li:grid-3x3
+- li:grid-2x2
+- li:grape
+- li:graduation-cap
+- li:grab
+- li:goal
+- li:globe
+- li:globe-2
+- li:glasses
+- li:glass-water
+- li:gitlab
+- li:github
+- li:git-pull-request
+- li:git-pull-request-draft
+- li:git-pull-request-closed
+- li:git-merge
+- li:git-fork
+- li:git-compare
+- li:git-commit
+- li:git-branch
+- li:git-branch-plus
+- li:gift
+- li:ghost
+- li:gem
+- li:gavel
+- li:gauge
+- li:gauge-circle
+- li:gantt-chart
+- li:gantt-chart-square
+- li:gamepad
+- li:gamepad-2
+- li:gallery-vertical
+- li:gallery-vertical-end
+- li:gallery-thumbnails
+- li:gallery-horizontal
+- li:gallery-horizontal-end
+- li:function-square
+- li:fuel
+- li:frown
+- li:framer
+- li:frame
+- li:forward
+- li:form-input
+- li:forklift
+- li:footprints
+- li:folders
+- li:folder
+- li:folder-x
+- li:folder-up
+- li:folder-tree
+- li:folder-sync
+- li:folder-symlink
+- li:folder-search
+- li:folder-search-2
+- li:folder-root
+- li:folder-plus
+- li:folder-output
+- li:folder-open
+- li:folder-open-dot
+- li:folder-minus
+- li:folder-lock
+- li:folder-key
+- li:folder-kanban
+- li:folder-input
+- li:folder-heart
+- li:folder-git
+- li:folder-git-2
+- li:folder-edit
+- li:folder-down
+- li:folder-dot
+- li:folder-cog
+- li:folder-closed
+- li:folder-clock
+- li:folder-check
+- li:folder-archive
+- li:fold-vertical
+- li:fold-horizontal
+- li:focus
+- li:flower
+- li:flower-2
+- li:flip-vertical
+- li:flip-vertical-2
+- li:flip-horizontal
+- li:flip-horizontal-2
+- li:flask-round
+- li:flask-conical
+- li:flask-conical-off
+- li:flashlight
+- li:flashlight-off
+- li:flame
+- li:flag
+- li:flag-triangle-right
+- li:flag-triangle-left
+- li:flag-off
+- li:fish
+- li:fish-symbol
+- li:fish-off
+- li:fingerprint
+- li:filter
+- li:filter-x
+- li:film
+- li:files
+- li:file
+- li:file-x
+- li:file-x-2
+- li:file-warning
+- li:file-volume
+- li:file-volume-2
+- li:file-video
+- li:file-video-2
+- li:file-up
+- li:file-type
+- li:file-type-2
+- li:file-text
+- li:file-terminal
+- li:file-symlink
+- li:file-stack
+- li:file-spreadsheet
+- li:file-signature
+- li:file-search
+- li:file-search-2
+- li:file-scan
+- li:file-question
+- li:file-plus
+- li:file-plus-2
+- li:file-pie-chart
+- li:file-output
+- li:file-minus
+- li:file-minus-2
+- li:file-lock
+- li:file-lock-2
+- li:file-line-chart
+- li:file-key
+- li:file-key-2
+- li:file-json
+- li:file-json-2
+- li:file-input
+- li:file-image
+- li:file-heart
+- li:file-edit
+- li:file-down
+- li:file-digit
+- li:file-diff
+- li:file-cog
+- li:file-code
+- li:file-code-2
+- li:file-clock
+- li:file-check
+- li:file-check-2
+- li:file-box
+- li:file-bar-chart
+- li:file-bar-chart-2
+- li:file-badge
+- li:file-badge-2
+- li:file-axis-3d
+- li:file-audio
+- li:file-audio-2
+- li:file-archive
+- li:figma
+- li:ferris-wheel
+- li:feather
+- li:fast-forward
+- li:fan
+- li:factory
+- li:facebook
+- li:eye
+- li:eye-off
+- li:external-link
+- li:expand
+- li:euro
+- li:eraser
+- li:equal
+- li:equal-not
+- li:egg
+- li:egg-off
+- li:egg-fried
+- li:ear
+- li:ear-off
+- li:dumbbell
+- li:drumstick
+- li:droplets
+- li:droplet
+- li:dribbble
+- li:download
+- li:download-cloud
+- li:dot
+- li:door-open
+- li:door-closed
+- li:donut
+- li:dollar-sign
+- li:dog
+- li:dna
+- li:dna-off
+- li:divide
+- li:divide-square
+- li:divide-circle
+- li:disc
+- li:disc-3
+- li:disc-2
+- li:diff
+- li:dices
+- li:dice-6
+- li:dice-5
+- li:dice-4
+- li:dice-3
+- li:dice-2
+- li:dice-1
+- li:diamond
+- li:dessert
+- li:delete
+- li:database
+- li:database-zap
+- li:database-backup
+- li:currency
+- li:cup-soda
+- li:crown
+- li:crosshair
+- li:cross
+- li:crop
+- li:croissant
+- li:credit-card
+- li:creative-commons
+- li:cpu
+- li:corner-up-right
+- li:corner-up-left
+- li:corner-right-up
+- li:corner-right-down
+- li:corner-left-up
+- li:corner-left-down
+- li:corner-down-right
+- li:corner-down-left
+- li:copyright
+- li:copyleft
+- li:copy
+- li:copy-x
+- li:copy-slash
+- li:copy-plus
+- li:copy-minus
+- li:copy-check
+- li:cookie
+- li:contrast
+- li:container
+- li:contact
+- li:contact-2
+- li:construction
+- li:concierge-bell
+- li:computer
+- li:component
+- li:compass
+- li:command
+- li:combine
+- li:columns
+- li:coins
+- li:cog
+- li:coffee
+- li:codesandbox
+- li:codepen
+- li:code
+- li:code-2
+- li:club
+- li:clover
+- li:cloudy
+- li:cloud
+- li:cloud-sun
+- li:cloud-sun-rain
+- li:cloud-snow
+- li:cloud-rain
+- li:cloud-rain-wind
+- li:cloud-off
+- li:cloud-moon
+- li:cloud-moon-rain
+- li:cloud-hail
+- li:cloud-fog
+- li:cloud-drizzle
+- li:cloud-cog
+- li:clock
+- li:clock-12
+- li:clock-11
+- li:clock-10
+- li:clock-9
+- li:clock-8
+- li:clock-7
+- li:clock-6
+- li:clock-5
+- li:clock-4
+- li:clock-3
+- li:clock-2
+- li:clock-1
+- li:clipboard
+- li:clipboard-x
+- li:clipboard-type
+- li:clipboard-signature
+- li:clipboard-paste
+- li:clipboard-list
+- li:clipboard-edit
+- li:clipboard-copy
+- li:clipboard-check
+- li:clapperboard
+- li:citrus
+- li:circuit-board
+- li:circle
+- li:circle-slash
+- li:circle-slash-2
+- li:circle-off
+- li:circle-equal
+- li:circle-ellipsis
+- li:circle-dot
+- li:circle-dot-dashed
+- li:circle-dollar-sign
+- li:circle-dashed
+- li:cigarette
+- li:cigarette-off
+- li:church
+- li:chrome
+- li:chevrons-up
+- li:chevrons-up-down
+- li:chevrons-right
+- li:chevrons-right-left
+- li:chevrons-left
+- li:chevrons-left-right
+- li:chevrons-down
+- li:chevrons-down-up
+- li:chevron-up
+- li:chevron-up-square
+- li:chevron-up-circle
+- li:chevron-right
+- li:chevron-right-square
+- li:chevron-right-circle
+- li:chevron-left
+- li:chevron-left-square
+- li:chevron-left-circle
+- li:chevron-last
+- li:chevron-first
+- li:chevron-down
+- li:chevron-down-square
+- li:chevron-down-circle
+- li:cherry
+- li:chef-hat
+- li:check
+- li:check-square
+
+## Component Specs
+- _Color: size 332x158px, radius 16px, stroke #FFFFFF29 1px
+- Chain Icon: size 20x20px, radius 9999px, fill #547FEF | variants: Chain: Arbitrum/Avalanche/Base/Ethereum/Optimism/Polygon/Treasure/ZK Sync/Zora
+- Flag Icon: size 24x24px, fill #FFFFFF | variants: Country: abkhazia/afghanistan/aland islands/albania/algeria/american samoa/andorra/angola/anguilla/antigua and barbuda/argentina/armenia/aruba/australia/austria/azerbaijan/azores islands/bahamas/bahrain/balearic islands/bangladesh/barbados/basque country/belarus/belgium/belize/benin/bermuda/bhutan/bolivia/bonaire/bosnia and herzegovina/botswana/brazil/british columbia/british indian ocean territory/british virgin islands/brunei/bulgaria/burkina faso/burundi/cambodia/cameroon/canada/canary islands/cape verde/cayman islands/central african republic/ceuta/chad/chile/china/cocos island/colombia/comoros/cook islands/corsica/costa rica/croatia/cuba/curacao/cyprus/czech republic/democratic republic of congo/denmark/djibouti/dominica/dominican republic/east timor/ecuador/egypt/el salvador/england/equatorial guinea/eritrea/estonia/ethiopia/european union/falkland islands/faroe islands/fiji/finland/france/french polynesia/gabon/galapagos islands/gambia/georgia/germany/ghana/gibraltar/greece/greenland/grenada/guam/guatemala/guernsey/guinea/guinea bissau/guyana/haiti/hawaii/honduras/hong kong/hungary/iceland/india/indonesia/iran/iraq/ireland/isle of man/israel/italy/ivory coast/jamaica/japan/jersey/jordan/kazakhstan/kenya/kiribati/kosovo/kuwait/kyrgyzstan/laos/latvia/lebanon/lesotho/liberia/libya/liechtenstein/lithuania/luxembourg/macao/madagascar/madeira/malawi/malaysia/maldives/mali/malta/marshall island/martinique/mauritania/mauritius/melilla/mexico/micronesia/moldova/monaco/mongolia/montenegro/montserrat/morocco/mozambique/myanmar/namibia/nato/nauru/nepal/netherlands/new zealand/nicaragua/niger/nigeria/niue/norfolk island/north korea/northern cyprus/northern marianas islands/norway/oman/orkney islands/ossetia/pakistan/palau/palestine/panama/papua new guinea/paraguay/peru/philippines/pitcairn islands/poland/portugal/puerto rico/qatar/rapa nui/republic of macedonia/republic of the congo/romania/russia/rwanda/saba island/sahrawi arab democratic republic/samoa/san marino/sao tome and prince/sardinia/saudi arabia/scotland/senegal/serbia/seychelles/sierra leone/singapore/sint eustatius/sint maarten/slovakia/slovenia/solomon islands/somalia/somaliland/south africa/south korea/south sudan/spain/sri lanka/st barts/st lucia/st vincent and the grenadines/sudan/suriname/swaziland/sweden/switzerland/syria/taiwan/tajikistan/tanzania/thailand/tibet/togo/tokelau/tonga/transnistria/trinidad and tobago/tunisia/turkey/turkmenistan/turks and caicos/tuvalu/uganda/ukraine/united arab emirates/united kingdom/united nations/united states/uruguay/uzbekistán/vanuatu/vatican city/venezuela/vietnam/virgin islands/wales/yemen/zambia/zimbabwe
+- Product Icon: size 24x24px, vertical layout, padding 2 2 2 2px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #000000 | variants: Icon: .NET/AA/Auth/Batch Metadata/Blockchain API/CLI/Chains/Claimable/Connect/Consumer Apps/Contracts/Converter/Creator Token/Dashboard/Defi/Deployment Tools/Docs/Edition/Edition Drop/Embedded Wallet/Engine/Exchange/Explore/Gaming/Guides/Icon/Insight/Marketplace/Minting/Modular Contracts/NFT Collection/NFT Drop/Open edition metadata/Open-source/Pay/React/Royalty/Seq Token/Sign In/Simulator/Smart Wallet/Solidity/Stamp/Templates/Token/Token Drop/Typescript/Unity/Unreal/Wallet
+- Social Media Icon: size 24x24px | variants: Media: Apple/Discord/Github/Google/Instagram/Linkedin/Telegram/Tiktok/X/Youtube
+- Icon: size 28x28px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Size: 12/16/20/24
+- li:zoom-out: size 24x24px, fill #FFFFFF
+- li:zoom-in: size 24x24px, fill #FFFFFF
+- li:zap: size 24x24px, fill #FFFFFF
+- li:zap-off: size 24x24px, fill #FFFFFF
+- li:youtube: size 24x24px, fill #FFFFFF
+- li:x: size 24x24px, fill #FFFFFF
+- li:x-square: size 24x24px, fill #FFFFFF
+- li:x-octagon: size 24x24px, fill #FFFFFF
+- li:x-circle: size 24x24px, fill #FFFFFF
+- li:wrench: size 24x24px, fill #FFFFFF
+- li:wrap-text: size 24x24px, fill #FFFFFF
+- li:workflow: size 24x24px, fill #FFFFFF
+- li:wine: size 24x24px, fill #FFFFFF
+- li:wind: size 24x24px, fill #FFFFFF
+- li:wifi: size 24x24px, fill #FFFFFF
+- li:wifi-off: size 24x24px, fill #FFFFFF
+- li:whole-word: size 24x24px, fill #FFFFFF
+- li:wheat: size 24x24px, fill #FFFFFF
+- li:wheat-off: size 24x24px, fill #FFFFFF
+- li:webhook: size 24x24px, fill #FFFFFF
+- li:webcam: size 24x24px, fill #FFFFFF
+- li:waves: size 24x24px, fill #FFFFFF
+- li:watch: size 24x24px, fill #FFFFFF
+- li:warehouse: size 24x24px, fill #FFFFFF
+- li:wand: size 24x24px, fill #FFFFFF
+- li:wand-2: size 24x24px, fill #FFFFFF
+- li:wallpaper: size 24x24px, fill #FFFFFF
+- li:wallet: size 24x24px, fill #FFFFFF
+- li:wallet-cards: size 24x24px, fill #FFFFFF
+- li:wallet-2: size 24x24px, fill #FFFFFF
+- li:vote: size 24x24px, fill #FFFFFF
+- li:volume: size 24x24px, fill #FFFFFF
+- li:volume-x: size 24x24px, fill #FFFFFF
+- li:volume-2: size 24x24px, fill #FFFFFF
+- li:volume-1: size 24x24px, fill #FFFFFF
+- li:voicemail: size 24x24px, fill #FFFFFF
+- li:view: size 24x24px, fill #FFFFFF
+- li:videotape: size 24x24px, fill #FFFFFF
+- li:video: size 24x24px, fill #FFFFFF
+- li:video-off: size 24x24px, fill #FFFFFF
+- li:vibrate: size 24x24px, fill #FFFFFF
+- li:vibrate-off: size 24x24px, fill #FFFFFF
+- li:venetian-mask: size 24x24px, fill #FFFFFF
+- li:vegan: size 24x24px, fill #FFFFFF
+- li:variable: size 24x24px, fill #FFFFFF
+- li:utility-pole: size 24x24px, fill #FFFFFF
+- li:utensils: size 24x24px, fill #FFFFFF
+- li:utensils-crossed: size 24x24px, fill #FFFFFF
+- li:users: size 24x24px, fill #FFFFFF
+- li:users-2: size 24x24px, fill #FFFFFF
+- li:user: size 24x24px, fill #FFFFFF
+- li:user-x: size 24x24px, fill #FFFFFF
+- li:user-x-2: size 24x24px, fill #FFFFFF
+- li:user-square: size 24x24px, fill #FFFFFF
+- li:user-square-2: size 24x24px, fill #FFFFFF
+- li:user-plus: size 24x24px, fill #FFFFFF
+- li:user-plus-2: size 24x24px, fill #FFFFFF
+- li:user-minus: size 24x24px, fill #FFFFFF
+- li:user-minus-2: size 24x24px, fill #FFFFFF
+- li:user-cog: size 24x24px, fill #FFFFFF
+- li:user-cog-2: size 24x24px, fill #FFFFFF
+- li:user-circle: size 24x24px, fill #FFFFFF
+- li:user-circle-2: size 24x24px, fill #FFFFFF
+- li:user-check: size 24x24px, fill #FFFFFF
+- li:user-check-2: size 24x24px, fill #FFFFFF
+- li:user-2: size 24x24px, fill #FFFFFF
+- li:usb: size 24x24px, fill #FFFFFF
+- li:upload: size 24x24px, fill #FFFFFF
+- li:upload-cloud: size 24x24px, fill #FFFFFF
+- li:unplug: size 24x24px, fill #FFFFFF
+- li:unlock: size 24x24px, fill #FFFFFF
+- li:unlink: size 24x24px, fill #FFFFFF
+- li:unlink-2: size 24x24px, fill #FFFFFF
+- li:ungroup: size 24x24px, fill #FFFFFF
+- li:unfold-vertical: size 24x24px, fill #FFFFFF
+- li:unfold-horizontal: size 24x24px, fill #FFFFFF
+- li:undo: size 24x24px, fill #FFFFFF
+- li:undo-dot: size 24x24px, fill #FFFFFF
+- li:undo-2: size 24x24px, fill #FFFFFF
+- li:underline: size 24x24px, fill #FFFFFF
+- li:umbrella: size 24x24px, fill #FFFFFF
+- li:type: size 24x24px, fill #FFFFFF
+- li:twitter: size 24x24px, fill #FFFFFF
+- li:twitch: size 24x24px, fill #FFFFFF
+- li:tv: size 24x24px, fill #FFFFFF
+- li:tv-2: size 24x24px, fill #FFFFFF
+- li:turtle: size 24x24px, fill #FFFFFF
+- li:truck: size 24x24px, fill #FFFFFF
+- li:trophy: size 24x24px, fill #FFFFFF
+- li:triangle: size 24x24px, fill #FFFFFF
+- li:triangle-right: size 24x24px, fill #FFFFFF
+- li:trending-up: size 24x24px, fill #FFFFFF
+- li:trending-down: size 24x24px, fill #FFFFFF
+- li:trello: size 24x24px, fill #FFFFFF
+- li:trees: size 24x24px, fill #FFFFFF
+- li:tree-pine: size 24x24px, fill #FFFFFF
+- li:tree-deciduous: size 24x24px, fill #FFFFFF
+- li:trash: size 24x24px, fill #FFFFFF
+- li:trash-2: size 24x24px, fill #FFFFFF
+- li:tram-front: size 24x24px, fill #FFFFFF
+- li:train-track: size 24x24px, fill #FFFFFF
+- li:train-front: size 24x24px, fill #FFFFFF
+- li:train-front-tunnel: size 24x24px, fill #FFFFFF
+- li:traffic-cone: size 24x24px, fill #FFFFFF
+- li:tractor: size 24x24px, fill #FFFFFF
+- li:toy-brick: size 24x24px, fill #FFFFFF
+- li:tower-control: size 24x24px, fill #FFFFFF
+- li:touchpad: size 24x24px, fill #FFFFFF
+- li:touchpad-off: size 24x24px, fill #FFFFFF
+- li:tornado: size 24x24px, fill #FFFFFF
+- li:toggle-right: size 24x24px, fill #FFFFFF
+- li:toggle-left: size 24x24px, fill #FFFFFF
+- li:timer: size 24x24px, fill #FFFFFF
+- li:timer-reset: size 24x24px, fill #FFFFFF
+- li:timer-off: size 24x24px, fill #FFFFFF
+- li:ticket: size 24x24px, fill #FFFFFF
+- li:thumbs-up: size 24x24px, fill #FFFFFF
+- li:thumbs-down: size 24x24px, fill #FFFFFF
+- li:thermometer: size 24x24px, fill #FFFFFF
+- li:thermometer-sun: size 24x24px, fill #FFFFFF
+- li:thermometer-snowflake: size 24x24px, fill #FFFFFF
+- li:text: size 24x24px, fill #FFFFFF
+- li:text-select: size 24x24px, fill #FFFFFF
+- li:text-quote: size 24x24px, fill #FFFFFF
+- li:text-cursor: size 24x24px, fill #FFFFFF
+- li:text-cursor-input: size 24x24px, fill #FFFFFF
+- li:test-tubes: size 24x24px, fill #FFFFFF
+- li:test-tube: size 24x24px, fill #FFFFFF
+- li:test-tube-2: size 24x24px, fill #FFFFFF
+- li:terminal: size 24x24px, fill #FFFFFF
+- li:terminal-square: size 24x24px, fill #FFFFFF
+- li:tent: size 24x24px, fill #FFFFFF
+- li:target: size 24x24px, fill #FFFFFF
+- li:tally-5: size 24x24px, fill #FFFFFF
+- li:tally-4: size 24x24px, fill #FFFFFF
+- li:tally-3: size 24x24px, fill #FFFFFF
+- li:tally-2: size 24x24px, fill #FFFFFF
+- li:tally-1: size 24x24px, fill #FFFFFF
+- li:tags: size 24x24px, fill #FFFFFF
+- li:tag: size 24x24px, fill #FFFFFF
+- li:tablets: size 24x24px, fill #FFFFFF
+- li:tablet: size 24x24px, fill #FFFFFF
+- li:tablet-smartphone: size 24x24px, fill #FFFFFF
+- li:table: size 24x24px, fill #FFFFFF
+- li:table-properties: size 24x24px, fill #FFFFFF
+- li:table-2: size 24x24px, fill #FFFFFF
+- li:syringe: size 24x24px, fill #FFFFFF
+- li:swords: size 24x24px, fill #FFFFFF
+- li:sword: size 24x24px, fill #FFFFFF
+- li:switch-camera: size 24x24px, fill #FFFFFF
+- li:swiss-franc: size 24x24px, fill #FFFFFF
+- li:superscript: size 24x24px, fill #FFFFFF
+- li:sunset: size 24x24px, fill #FFFFFF
+- li:sunrise: size 24x24px, fill #FFFFFF
+- li:sun: size 24x24px, fill #FFFFFF
+- li:sun-snow: size 24x24px, fill #FFFFFF
+- li:sun-moon: size 24x24px, fill #FFFFFF
+- li:sun-medium: size 24x24px, fill #FFFFFF
+- li:sun-dim: size 24x24px, fill #FFFFFF
+- li:subtitles: size 24x24px, fill #FFFFFF
+- li:subscript: size 24x24px, fill #FFFFFF
+- li:strikethrough: size 24x24px, fill #FFFFFF
+- li:stretch-vertical: size 24x24px, fill #FFFFFF
+- li:stretch-horizontal: size 24x24px, fill #FFFFFF
+- li:store: size 24x24px, fill #FFFFFF
+- li:stop-circle: size 24x24px, fill #FFFFFF
+- li:sticky-note: size 24x24px, fill #FFFFFF
+- li:sticker: size 24x24px, fill #FFFFFF
+- li:stethoscope: size 24x24px, fill #FFFFFF
+- li:step-forward: size 24x24px, fill #FFFFFF
+- li:step-back: size 24x24px, fill #FFFFFF
+- li:star: size 24x24px, fill #FFFFFF
+- li:star-off: size 24x24px, fill #FFFFFF
+- li:star-half: size 24x24px, fill #FFFFFF
+- li:stamp: size 24x24px, fill #FFFFFF
+- li:squirrel: size 24x24px, fill #FFFFFF
+- li:square: size 24x24px, fill #FFFFFF
+- li:square-stack: size 24x24px, fill #FFFFFF
+- li:square-slash: size 24x24px, fill #FFFFFF
+- li:square-equal: size 24x24px, fill #FFFFFF
+- li:square-dot: size 24x24px, fill #FFFFFF
+- li:square-dashed-bottom: size 24x24px, fill #FFFFFF
+- li:square-dashed-bottom-code: size 24x24px, fill #FFFFFF
+- li:square-code: size 24x24px, fill #FFFFFF
+- li:square-asterisk: size 24x24px, fill #FFFFFF
+- li:sprout: size 24x24px, fill #FFFFFF
+- li:spray-can: size 24x24px, fill #FFFFFF
+- li:split: size 24x24px, fill #FFFFFF
+- li:split-square-vertical: size 24x24px, fill #FFFFFF
+- li:split-square-horizontal: size 24x24px, fill #FFFFFF
+- li:spline: size 24x24px, fill #FFFFFF
+- li:spell-check: size 24x24px, fill #FFFFFF
+- li:spell-check-2: size 24x24px, fill #FFFFFF
+- li:speaker: size 24x24px, fill #FFFFFF
+- li:sparkles: size 24x24px, fill #FFFFFF
+- li:sparkle: size 24x24px, fill #FFFFFF
+- li:spade: size 24x24px, fill #FFFFFF
+- li:space: size 24x24px, fill #FFFFFF
+- li:soup: size 24x24px, fill #FFFFFF
+- li:sofa: size 24x24px, fill #FFFFFF
+- li:snowflake: size 24x24px, fill #FFFFFF
+- li:snail: size 24x24px, fill #FFFFFF
+- li:smile: size 24x24px, fill #FFFFFF
+- li:smile-plus: size 24x24px, fill #FFFFFF
+- li:smartphone: size 24x24px, fill #FFFFFF
+- li:smartphone-nfc: size 24x24px, fill #FFFFFF
+- li:smartphone-charging: size 24x24px, fill #FFFFFF
+- li:sliders: size 24x24px, fill #FFFFFF
+- li:sliders-horizontal: size 24x24px, fill #FFFFFF
+- li:slice: size 24x24px, fill #FFFFFF
+- li:slash: size 24x24px, fill #FFFFFF
+- li:slack: size 24x24px, fill #FFFFFF
+- li:skull: size 24x24px, fill #FFFFFF
+- li:skip-forward: size 24x24px, fill #FFFFFF
+- li:skip-back: size 24x24px, fill #FFFFFF
+- li:siren: size 24x24px, fill #FFFFFF
+- li:signal: size 24x24px, fill #FFFFFF
+- li:signal-zero: size 24x24px, fill #FFFFFF
+- li:signal-medium: size 24x24px, fill #FFFFFF
+- li:signal-low: size 24x24px, fill #FFFFFF
+- li:signal-high: size 24x24px, fill #FFFFFF
+- li:sigma: size 24x24px, fill #FFFFFF
+- li:sigma-square: size 24x24px, fill #FFFFFF
+- li:shuffle: size 24x24px, fill #FFFFFF
+- li:shrub: size 24x24px, fill #FFFFFF
+- li:shrink: size 24x24px, fill #FFFFFF
+- li:shower-head: size 24x24px, fill #FFFFFF
+- li:shovel: size 24x24px, fill #FFFFFF
+- li:shopping-cart: size 24x24px, fill #FFFFFF
+- li:shopping-basket: size 24x24px, fill #FFFFFF
+- li:shopping-bag: size 24x24px, fill #FFFFFF
+- li:shirt: size 24x24px, fill #FFFFFF
+- li:ship: size 24x24px, fill #FFFFFF
+- li:ship-wheel: size 24x24px, fill #FFFFFF
+- li:shield: size 24x24px, fill #FFFFFF
+- li:shield-x: size 24x24px, fill #FFFFFF
+- li:shield-question: size 24x24px, fill #FFFFFF
+- li:shield-plus: size 24x24px, fill #FFFFFF
+- li:shield-off: size 24x24px, fill #FFFFFF
+- li:shield-minus: size 24x24px, fill #FFFFFF
+- li:shield-half: size 24x24px, fill #FFFFFF
+- li:shield-ellipsis: size 24x24px, fill #FFFFFF
+- li:shield-check: size 24x24px, fill #FFFFFF
+- li:shield-ban: size 24x24px, fill #FFFFFF
+- li:shield-alert: size 24x24px, fill #FFFFFF
+- li:shell: size 24x24px, fill #FFFFFF
+- li:sheet: size 24x24px, fill #FFFFFF
+- li:share: size 24x24px, fill #FFFFFF
+- li:share-2: size 24x24px, fill #FFFFFF
+- li:shapes: size 24x24px, fill #FFFFFF
+- li:settings: size 24x24px, fill #FFFFFF
+- li:settings-2: size 24x24px, fill #FFFFFF
+- li:server: size 24x24px, fill #FFFFFF
+- li:server-off: size 24x24px, fill #FFFFFF
+- li:server-crash: size 24x24px, fill #FFFFFF
+- li:server-cog: size 24x24px, fill #FFFFFF
+- li:separator-vertical: size 24x24px, fill #FFFFFF
+- li:separator-horizontal: size 24x24px, fill #FFFFFF
+- li:send: size 24x24px, fill #FFFFFF
+- li:send-to-back: size 24x24px, fill #FFFFFF
+- li:send-horizontal: size 24x24px, fill #FFFFFF
+- li:search: size 24x24px, fill #FFFFFF
+- li:search-x: size 24x24px, fill #FFFFFF
+- li:search-slash: size 24x24px, fill #FFFFFF
+- li:search-code: size 24x24px, fill #FFFFFF
+- li:search-check: size 24x24px, fill #FFFFFF
+- li:scroll: size 24x24px, fill #FFFFFF
+- li:scroll-text: size 24x24px, fill #FFFFFF
+- li:screen-share: size 24x24px, fill #FFFFFF
+- li:screen-share-off: size 24x24px, fill #FFFFFF
+- li:scissors: size 24x24px, fill #FFFFFF
+- li:scissors-square: size 24x24px, fill #FFFFFF
+- li:scissors-square-dashed-bottom: size 24x24px, fill #FFFFFF
+- li:scissors-line-dashed: size 24x24px, fill #FFFFFF
+- li:school: size 24x24px, fill #FFFFFF
+- li:school-2: size 24x24px, fill #FFFFFF
+- li:scatter-chart: size 24x24px, fill #FFFFFF
+- li:scan: size 24x24px, fill #FFFFFF
+- li:scan-line: size 24x24px, fill #FFFFFF
+- li:scan-face: size 24x24px, fill #FFFFFF
+- li:scaling: size 24x24px, fill #FFFFFF
+- li:scale: size 24x24px, fill #FFFFFF
+- li:scale-3d: size 24x24px, fill #FFFFFF
+- li:save: size 24x24px, fill #FFFFFF
+- li:save-all: size 24x24px, fill #FFFFFF
+- li:satellite: size 24x24px, fill #FFFFFF
+- li:satellite-dish: size 24x24px, fill #FFFFFF
+- li:sandwich: size 24x24px, fill #FFFFFF
+- li:salad: size 24x24px, fill #FFFFFF
+- li:sailboat: size 24x24px, fill #FFFFFF
+- li:russian-ruble: size 24x24px, fill #FFFFFF
+- li:ruler: size 24x24px, fill #FFFFFF
+- li:rss: size 24x24px, fill #FFFFFF
+- li:rows: size 24x24px, fill #FFFFFF
+- li:router: size 24x24px, fill #FFFFFF
+- li:rotate-cw: size 24x24px, fill #FFFFFF
+- li:rotate-ccw: size 24x24px, fill #FFFFFF
+- li:rotate-3d: size 24x24px, fill #FFFFFF
+- li:roller-coaster: size 24x24px, fill #FFFFFF
+- li:rocking-chair: size 24x24px, fill #FFFFFF
+- li:rocket: size 24x24px, fill #FFFFFF
+- li:rewind: size 24x24px, fill #FFFFFF
+- li:reply: size 24x24px, fill #FFFFFF
+- li:reply-all: size 24x24px, fill #FFFFFF
+- li:replace: size 24x24px, fill #FFFFFF
+- li:replace-all: size 24x24px, fill #FFFFFF
+- li:repeat: size 24x24px, fill #FFFFFF
+- li:repeat-2: size 24x24px, fill #FFFFFF
+- li:repeat-1: size 24x24px, fill #FFFFFF
+- li:remove-formatting: size 24x24px, fill #FFFFFF
+- li:regex: size 24x24px, fill #FFFFFF
+- li:refrigerator: size 24x24px, fill #FFFFFF
+- li:refresh-cw: size 24x24px, fill #FFFFFF
+- li:refresh-cw-off: size 24x24px, fill #FFFFFF
+- li:refresh-ccw: size 24x24px, fill #FFFFFF
+- li:refresh-ccw-dot: size 24x24px, fill #FFFFFF
+- li:redo: size 24x24px, fill #FFFFFF
+- li:redo-dot: size 24x24px, fill #FFFFFF
+- li:redo-2: size 24x24px, fill #FFFFFF
+- li:recycle: size 24x24px, fill #FFFFFF
+- li:rectangle-vertical: size 24x24px, fill #FFFFFF
+- li:rectangle-horizontal: size 24x24px, fill #FFFFFF
+- li:receipt: size 24x24px, fill #FFFFFF
+- li:ratio: size 24x24px, fill #FFFFFF
+- li:rat: size 24x24px, fill #FFFFFF
+- li:rainbow: size 24x24px, fill #FFFFFF
+- li:rail-symbol: size 24x24px, fill #FFFFFF
+- li:radio: size 24x24px, fill #FFFFFF
+- li:radio-tower: size 24x24px, fill #FFFFFF
+- li:radio-receiver: size 24x24px, fill #FFFFFF
+- li:radiation: size 24x24px, fill #FFFFFF
+- li:radar: size 24x24px, fill #FFFFFF
+- li:rabbit: size 24x24px, fill #FFFFFF
+- li:quote: size 24x24px, fill #FFFFFF
+- li:qr-code: size 24x24px, fill #FFFFFF
+- li:puzzle: size 24x24px, fill #FFFFFF
+- li:projector: size 24x24px, fill #FFFFFF
+- li:printer: size 24x24px, fill #FFFFFF
+- li:presentation: size 24x24px, fill #FFFFFF
+- li:power: size 24x24px, fill #FFFFFF
+- li:power-off: size 24x24px, fill #FFFFFF
+- li:pound-sterling: size 24x24px, fill #FFFFFF
+- li:popsicle: size 24x24px, fill #FFFFFF
+- li:popcorn: size 24x24px, fill #FFFFFF
+- li:pointer: size 24x24px, fill #FFFFFF
+- li:podcast: size 24x24px, fill #FFFFFF
+- li:pocket: size 24x24px, fill #FFFFFF
+- li:pocket-knife: size 24x24px, fill #FFFFFF
+- li:plus: size 24x24px, fill #FFFFFF
+- li:plus-square: size 24x24px, fill #FFFFFF
+- li:plus-circle: size 24x24px, fill #FFFFFF
+- li:plug: size 24x24px, fill #FFFFFF
+- li:plug-zap: size 24x24px, fill #FFFFFF
+- li:plug-zap-2: size 24x24px, fill #FFFFFF
+- li:plug-2: size 24x24px, fill #FFFFFF
+- li:play: size 24x24px, fill #FFFFFF
+- li:play-square: size 24x24px, fill #FFFFFF
+- li:play-circle: size 24x24px, fill #FFFFFF
+- li:plane: size 24x24px, fill #FFFFFF
+- li:plane-takeoff: size 24x24px, fill #FFFFFF
+- li:plane-landing: size 24x24px, fill #FFFFFF
+- li:pizza: size 24x24px, fill #FFFFFF
+- li:pipette: size 24x24px, fill #FFFFFF
+- li:pin: size 24x24px, fill #FFFFFF
+- li:pin-off: size 24x24px, fill #FFFFFF
+- li:pill: size 24x24px, fill #FFFFFF
+- li:pilcrow: size 24x24px, fill #FFFFFF
+- li:pilcrow-square: size 24x24px, fill #FFFFFF
+- li:piggy-bank: size 24x24px, fill #FFFFFF
+- li:pie-chart: size 24x24px, fill #FFFFFF
+- li:picture-in-picture: size 24x24px, fill #FFFFFF
+- li:picture-in-picture-2: size 24x24px, fill #FFFFFF
+- li:pi: size 24x24px, fill #FFFFFF
+- li:pi-square: size 24x24px, fill #FFFFFF
+- li:phone: size 24x24px, fill #FFFFFF
+- li:phone-outgoing: size 24x24px, fill #FFFFFF
+- li:phone-off: size 24x24px, fill #FFFFFF
+- li:phone-missed: size 24x24px, fill #FFFFFF
+- li:phone-incoming: size 24x24px, fill #FFFFFF
+- li:phone-forwarded: size 24x24px, fill #FFFFFF
+- li:phone-call: size 24x24px, fill #FFFFFF
+- li:person-standing: size 24x24px, fill #FFFFFF
+- li:percent: size 24x24px, fill #FFFFFF
+- li:percent-square: size 24x24px, fill #FFFFFF
+- li:percent-diamond: size 24x24px, fill #FFFFFF
+- li:percent-circle: size 24x24px, fill #FFFFFF
+- li:pencil: size 24x24px, fill #FFFFFF
+- li:pencil-ruler: size 24x24px, fill #FFFFFF
+- li:pencil-line: size 24x24px, fill #FFFFFF
+- li:pen: size 24x24px, fill #FFFFFF
+- li:pen-tool: size 24x24px, fill #FFFFFF
+- li:pen-square: size 24x24px, fill #FFFFFF
+- li:pen-line: size 24x24px, fill #FFFFFF
+- li:pc-case: size 24x24px, fill #FFFFFF
+- li:paw-print: size 24x24px, fill #FFFFFF
+- li:pause: size 24x24px, fill #FFFFFF
+- li:pause-octagon: size 24x24px, fill #FFFFFF
+- li:pause-circle: size 24x24px, fill #FFFFFF
+- li:party-popper: size 24x24px, fill #FFFFFF
+- li:parking-square: size 24x24px, fill #FFFFFF
+- li:parking-square-off: size 24x24px, fill #FFFFFF
+- li:parking-meter: size 24x24px, fill #FFFFFF
+- li:parking-circle: size 24x24px, fill #FFFFFF
+- li:parking-circle-off: size 24x24px, fill #FFFFFF
+- li:parentheses: size 24x24px, fill #FFFFFF
+- li:paperclip: size 24x24px, fill #FFFFFF
+- li:panel-top: size 24x24px, fill #FFFFFF
+- li:panel-top-open: size 24x24px, fill #FFFFFF
+- li:panel-top-inactive: size 24x24px, fill #FFFFFF
+- li:panel-top-close: size 24x24px, fill #FFFFFF
+- li:panel-right: size 24x24px, fill #FFFFFF
+- li:panel-right-open: size 24x24px, fill #FFFFFF
+- li:panel-right-inactive: size 24x24px, fill #FFFFFF
+- li:panel-right-close: size 24x24px, fill #FFFFFF
+- li:panel-left: size 24x24px, fill #FFFFFF
+- li:panel-left-open: size 24x24px, fill #FFFFFF
+- li:panel-left-inactive: size 24x24px, fill #FFFFFF
+- li:panel-left-close: size 24x24px, fill #FFFFFF
+- li:panel-bottom: size 24x24px, fill #FFFFFF
+- li:panel-bottom-open: size 24x24px, fill #FFFFFF
+- li:panel-bottom-inactive: size 24x24px, fill #FFFFFF
+- li:panel-bottom-close: size 24x24px, fill #FFFFFF
+- li:palmtree: size 24x24px, fill #FFFFFF
+- li:palette: size 24x24px, fill #FFFFFF
+- li:paintbrush: size 24x24px, fill #FFFFFF
+- li:paintbrush-2: size 24x24px, fill #FFFFFF
+- li:paint-bucket: size 24x24px, fill #FFFFFF
+- li:package: size 24x24px, fill #FFFFFF
+- li:package-x: size 24x24px, fill #FFFFFF
+- li:package-search: size 24x24px, fill #FFFFFF
+- li:package-plus: size 24x24px, fill #FFFFFF
+- li:package-open: size 24x24px, fill #FFFFFF
+- li:package-minus: size 24x24px, fill #FFFFFF
+- li:package-check: size 24x24px, fill #FFFFFF
+- li:package-2: size 24x24px, fill #FFFFFF
+- li:outdent: size 24x24px, fill #FFFFFF
+- li:orbit: size 24x24px, fill #FFFFFF
+- li:option: size 24x24px, fill #FFFFFF
+- li:octagon: size 24x24px, fill #FFFFFF
+- li:nut: size 24x24px, fill #FFFFFF
+- li:nut-off: size 24x24px, fill #FFFFFF
+- li:nfc: size 24x24px, fill #FFFFFF
+- li:newspaper: size 24x24px, fill #FFFFFF
+- li:network: size 24x24px, fill #FFFFFF
+- li:navigation: size 24x24px, fill #FFFFFF
+- li:navigation-off: size 24x24px, fill #FFFFFF
+- li:navigation-2: size 24x24px, fill #FFFFFF
+- li:navigation-2-off: size 24x24px, fill #FFFFFF
+- li:music: size 24x24px, fill #FFFFFF
+- li:music-4: size 24x24px, fill #FFFFFF
+- li:music-3: size 24x24px, fill #FFFFFF
+- li:music-2: size 24x24px, fill #FFFFFF
+- li:move: size 24x24px, fill #FFFFFF
+- li:move-vertical: size 24x24px, fill #FFFFFF
+- li:move-up: size 24x24px, fill #FFFFFF
+- li:move-up-right: size 24x24px, fill #FFFFFF
+- li:move-up-left: size 24x24px, fill #FFFFFF
+- li:move-right: size 24x24px, fill #FFFFFF
+- li:move-left: size 24x24px, fill #FFFFFF
+- li:move-horizontal: size 24x24px, fill #FFFFFF
+- li:move-down: size 24x24px, fill #FFFFFF
+- li:move-down-right: size 24x24px, fill #FFFFFF
+- li:move-down-left: size 24x24px, fill #FFFFFF
+- li:move-diagonal: size 24x24px, fill #FFFFFF
+- li:move-diagonal-2: size 24x24px, fill #FFFFFF
+- li:move-3d: size 24x24px, fill #FFFFFF
+- li:mouse: size 24x24px, fill #FFFFFF
+- li:mouse-pointer: size 24x24px, fill #FFFFFF
+- li:mouse-pointer-square: size 24x24px, fill #FFFFFF
+- li:mouse-pointer-square-dashed: size 24x24px, fill #FFFFFF
+- li:mouse-pointer-click: size 24x24px, fill #FFFFFF
+- li:mouse-pointer-2: size 24x24px, fill #FFFFFF
+- li:mountain: size 24x24px, fill #FFFFFF
+- li:mountain-snow: size 24x24px, fill #FFFFFF
+- li:more-vertical: size 24x24px, fill #FFFFFF
+- li:more-horizontal: size 24x24px, fill #FFFFFF
+- li:moon: size 24x24px, fill #FFFFFF
+- li:moon-star: size 24x24px, fill #FFFFFF
+- li:monitor: size 24x24px, fill #FFFFFF
+- li:monitor-x: size 24x24px, fill #FFFFFF
+- li:monitor-up: size 24x24px, fill #FFFFFF
+- li:monitor-stop: size 24x24px, fill #FFFFFF
+- li:monitor-speaker: size 24x24px, fill #FFFFFF
+- li:monitor-smartphone: size 24x24px, fill #FFFFFF
+- li:monitor-play: size 24x24px, fill #FFFFFF
+- li:monitor-pause: size 24x24px, fill #FFFFFF
+- li:monitor-off: size 24x24px, fill #FFFFFF
+- li:monitor-down: size 24x24px, fill #FFFFFF
+- li:monitor-dot: size 24x24px, fill #FFFFFF
+- li:monitor-check: size 24x24px, fill #FFFFFF
+- li:minus: size 24x24px, fill #FFFFFF
+- li:minus-square: size 24x24px, fill #FFFFFF
+- li:minus-circle: size 24x24px, fill #FFFFFF
+- li:minimize: size 24x24px, fill #FFFFFF
+- li:minimize-2: size 24x24px, fill #FFFFFF
+- li:milk: size 24x24px, fill #FFFFFF
+- li:milk-off: size 24x24px, fill #FFFFFF
+- li:milestone: size 24x24px, fill #FFFFFF
+- li:microwave: size 24x24px, fill #FFFFFF
+- li:microscope: size 24x24px, fill #FFFFFF
+- li:mic: size 24x24px, fill #FFFFFF
+- li:mic-off: size 24x24px, fill #FFFFFF
+- li:mic-2: size 24x24px, fill #FFFFFF
+- li:messages-square: size 24x24px, fill #FFFFFF
+- li:message-square: size 24x24px, fill #FFFFFF
+- li:message-square-plus: size 24x24px, fill #FFFFFF
+- li:message-square-dashed: size 24x24px, fill #FFFFFF
+- li:message-circle: size 24x24px, fill #FFFFFF
+- li:merge: size 24x24px, fill #FFFFFF
+- li:menu: size 24x24px, fill #FFFFFF
+- li:menu-square: size 24x24px, fill #FFFFFF
+- li:memory-stick: size 24x24px, fill #FFFFFF
+- li:meh: size 24x24px, fill #FFFFFF
+- li:megaphone: size 24x24px, fill #FFFFFF
+- li:megaphone-off: size 24x24px, fill #FFFFFF
+- li:medal: size 24x24px, fill #FFFFFF
+- li:maximize: size 24x24px, fill #FFFFFF
+- li:maximize-2: size 24x24px, fill #FFFFFF
+- li:martini: size 24x24px, fill #FFFFFF
+- li:map: size 24x24px, fill #FFFFFF
+- li:map-pin: size 24x24px, fill #FFFFFF
+- li:map-pin-off: size 24x24px, fill #FFFFFF
+- li:mails: size 24x24px, fill #FFFFFF
+- li:mailbox: size 24x24px, fill #FFFFFF
+- li:mail: size 24x24px, fill #FFFFFF
+- li:mail-x: size 24x24px, fill #FFFFFF
+- li:mail-warning: size 24x24px, fill #FFFFFF
+- li:mail-search: size 24x24px, fill #FFFFFF
+- li:mail-question: size 24x24px, fill #FFFFFF
+- li:mail-plus: size 24x24px, fill #FFFFFF
+- li:mail-open: size 24x24px, fill #FFFFFF
+- li:mail-minus: size 24x24px, fill #FFFFFF
+- li:mail-check: size 24x24px, fill #FFFFFF
+- li:magnet: size 24x24px, fill #FFFFFF
+- li:m-square: size 24x24px, fill #FFFFFF
+- li:luggage: size 24x24px, fill #FFFFFF
+- li:lollipop: size 24x24px, fill #FFFFFF
+- li:log-out: size 24x24px, fill #FFFFFF
+- li:log-in: size 24x24px, fill #FFFFFF
+- li:lock: size 24x24px, fill #FFFFFF
+- li:locate: size 24x24px, fill #FFFFFF
+- li:locate-off: size 24x24px, fill #FFFFFF
+- li:locate-fixed: size 24x24px, fill #FFFFFF
+- li:loader: size 24x24px, fill #FFFFFF
+- li:loader-2: size 24x24px, fill #FFFFFF
+- li:list: size 24x24px, fill #FFFFFF
+- li:list-x: size 24x24px, fill #FFFFFF
+- li:list-video: size 24x24px, fill #FFFFFF
+- li:list-tree: size 24x24px, fill #FFFFFF
+- li:list-todo: size 24x24px, fill #FFFFFF
+- li:list-start: size 24x24px, fill #FFFFFF
+- li:list-restart: size 24x24px, fill #FFFFFF
+- li:list-plus: size 24x24px, fill #FFFFFF
+- li:list-ordered: size 24x24px, fill #FFFFFF
+- li:list-music: size 24x24px, fill #FFFFFF
+- li:list-minus: size 24x24px, fill #FFFFFF
+- li:list-filter: size 24x24px, fill #FFFFFF
+- li:list-end: size 24x24px, fill #FFFFFF
+- li:list-checks: size 24x24px, fill #FFFFFF
+- li:linkedin: size 24x24px, fill #FFFFFF
+- li:link: size 24x24px, fill #FFFFFF
+- li:link-2: size 24x24px, fill #FFFFFF
+- li:link-2-off: size 24x24px, fill #FFFFFF
+- li:line-chart: size 24x24px, fill #FFFFFF
+- li:lightbulb: size 24x24px, fill #FFFFFF
+- li:lightbulb-off: size 24x24px, fill #FFFFFF
+- li:ligature: size 24x24px, fill #FFFFFF
+- li:life-buoy: size 24x24px, fill #FFFFFF
+- li:library: size 24x24px, fill #FFFFFF
+- li:leafy-green: size 24x24px, fill #FFFFFF
+- li:leaf: size 24x24px, fill #FFFFFF
+- li:layout: size 24x24px, fill #FFFFFF
+- li:layout-template: size 24x24px, fill #FFFFFF
+- li:layout-panel-top: size 24x24px, fill #FFFFFF
+- li:layout-panel-left: size 24x24px, fill #FFFFFF
+- li:layout-list: size 24x24px, fill #FFFFFF
+- li:layout-grid: size 24x24px, fill #FFFFFF
+- li:layout-dashboard: size 24x24px, fill #FFFFFF
+- li:layers: size 24x24px, fill #FFFFFF
+- li:laugh: size 24x24px, fill #FFFFFF
+- li:lasso: size 24x24px, fill #FFFFFF
+- li:lasso-select: size 24x24px, fill #FFFFFF
+- li:laptop: size 24x24px, fill #FFFFFF
+- li:laptop-2: size 24x24px, fill #FFFFFF
+- li:languages: size 24x24px, fill #FFFFFF
+- li:landmark: size 24x24px, fill #FFFFFF
+- li:lamp: size 24x24px, fill #FFFFFF
+- li:lamp-wall-up: size 24x24px, fill #FFFFFF
+- li:lamp-wall-down: size 24x24px, fill #FFFFFF
+- li:lamp-floor: size 24x24px, fill #FFFFFF
+- li:lamp-desk: size 24x24px, fill #FFFFFF
+- li:lamp-ceiling: size 24x24px, fill #FFFFFF
+- li:keyboard: size 24x24px, fill #FFFFFF
+- li:key: size 24x24px, fill #FFFFFF
+- li:key-square: size 24x24px, fill #FFFFFF
+- li:key-round: size 24x24px, fill #FFFFFF
+- li:kanban: size 24x24px, fill #FFFFFF
+- li:kanban-square: size 24x24px, fill #FFFFFF
+- li:kanban-square-dashed: size 24x24px, fill #FFFFFF
+- li:joystick: size 24x24px, fill #FFFFFF
+- li:japanese-yen: size 24x24px, fill #FFFFFF
+- li:iteration-cw: size 24x24px, fill #FFFFFF
+- li:iteration-ccw: size 24x24px, fill #FFFFFF
+- li:italic: size 24x24px, fill #FFFFFF
+- li:instagram: size 24x24px, fill #FFFFFF
+- li:info: size 24x24px, fill #FFFFFF
+- li:infinity: size 24x24px, fill #FFFFFF
+- li:indian-rupee: size 24x24px, fill #FFFFFF
+- li:indent: size 24x24px, fill #FFFFFF
+- li:inbox: size 24x24px, fill #FFFFFF
+- li:import: size 24x24px, fill #FFFFFF
+- li:image: size 24x24px, fill #FFFFFF
+- li:image-plus: size 24x24px, fill #FFFFFF
+- li:image-off: size 24x24px, fill #FFFFFF
+- li:image-minus: size 24x24px, fill #FFFFFF
+- li:ice-cream: size 24x24px, fill #FFFFFF
+- li:ice-cream-2: size 24x24px, fill #FFFFFF
+- li:hourglass: size 24x24px, fill #FFFFFF
+- li:hotel: size 24x24px, fill #FFFFFF
+- li:hop: size 24x24px, fill #FFFFFF
+- li:hop-off: size 24x24px, fill #FFFFFF
+- li:home: size 24x24px, fill #FFFFFF
+- li:history: size 24x24px, fill #FFFFFF
+- li:highlighter: size 24x24px, fill #FFFFFF
+- li:hexagon: size 24x24px, fill #FFFFFF
+- li:helping-hand: size 24x24px, fill #FFFFFF
+- li:help-circle: size 24x24px, fill #FFFFFF
+- li:heart: size 24x24px, fill #FFFFFF
+- li:heart-pulse: size 24x24px, fill #FFFFFF
+- li:heart-off: size 24x24px, fill #FFFFFF
+- li:heart-handshake: size 24x24px, fill #FFFFFF
+- li:heart-crack: size 24x24px, fill #FFFFFF
+- li:headphones: size 24x24px, fill #FFFFFF
+- li:heading: size 24x24px, fill #FFFFFF
+- li:heading-6: size 24x24px, fill #FFFFFF
+- li:heading-5: size 24x24px, fill #FFFFFF
+- li:heading-4: size 24x24px, fill #FFFFFF
+- li:heading-3: size 24x24px, fill #FFFFFF
+- li:heading-2: size 24x24px, fill #FFFFFF
+- li:heading-1: size 24x24px, fill #FFFFFF
+- li:hdmi-port: size 24x24px, fill #FFFFFF
+- li:haze: size 24x24px, fill #FFFFFF
+- li:hash: size 24x24px, fill #FFFFFF
+- li:hard-hat: size 24x24px, fill #FFFFFF
+- li:hard-drive: size 24x24px, fill #FFFFFF
+- li:hard-drive-upload: size 24x24px, fill #FFFFFF
+- li:hard-drive-download: size 24x24px, fill #FFFFFF
+- li:hand: size 24x24px, fill #FFFFFF
+- li:hand-metal: size 24x24px, fill #FFFFFF
+- li:hammer: size 24x24px, fill #FFFFFF
+- li:group: size 24x24px, fill #FFFFFF
+- li:grip: size 24x24px, fill #FFFFFF
+- li:grip-vertical: size 24x24px, fill #FFFFFF
+- li:grip-horizontal: size 24x24px, fill #FFFFFF
+- li:grid-3x3: size 24x24px, fill #FFFFFF
+- li:grid-2x2: size 24x24px, fill #FFFFFF
+- li:grape: size 24x24px, fill #FFFFFF
+- li:graduation-cap: size 24x24px, fill #FFFFFF
+- li:grab: size 24x24px, fill #FFFFFF
+- li:goal: size 24x24px, fill #FFFFFF
+- li:globe: size 24x24px, fill #FFFFFF
+- li:globe-2: size 24x24px, fill #FFFFFF
+- li:glasses: size 24x24px, fill #FFFFFF
+- li:glass-water: size 24x24px, fill #FFFFFF
+- li:gitlab: size 24x24px, fill #FFFFFF
+- li:github: size 24x24px, fill #FFFFFF
+- li:git-pull-request: size 24x24px, fill #FFFFFF
+- li:git-pull-request-draft: size 24x24px, fill #FFFFFF
+- li:git-pull-request-closed: size 24x24px, fill #FFFFFF
+- li:git-merge: size 24x24px, fill #FFFFFF
+- li:git-fork: size 24x24px, fill #FFFFFF
+- li:git-compare: size 24x24px, fill #FFFFFF
+- li:git-commit: size 24x24px, fill #FFFFFF
+- li:git-branch: size 24x24px, fill #FFFFFF
+- li:git-branch-plus: size 24x24px, fill #FFFFFF
+- li:gift: size 24x24px, fill #FFFFFF
+- li:ghost: size 24x24px, fill #FFFFFF
+- li:gem: size 24x24px, fill #FFFFFF
+- li:gavel: size 24x24px, fill #FFFFFF
+- li:gauge: size 24x24px, fill #FFFFFF
+- li:gauge-circle: size 24x24px, fill #FFFFFF
+- li:gantt-chart: size 24x24px, fill #FFFFFF
+- li:gantt-chart-square: size 24x24px, fill #FFFFFF
+- li:gamepad: size 24x24px, fill #FFFFFF
+- li:gamepad-2: size 24x24px, fill #FFFFFF
+- li:gallery-vertical: size 24x24px, fill #FFFFFF
+- li:gallery-vertical-end: size 24x24px, fill #FFFFFF
+- li:gallery-thumbnails: size 24x24px, fill #FFFFFF
+- li:gallery-horizontal: size 24x24px, fill #FFFFFF
+- li:gallery-horizontal-end: size 24x24px, fill #FFFFFF
+- li:function-square: size 24x24px, fill #FFFFFF
+- li:fuel: size 24x24px, fill #FFFFFF
+- li:frown: size 24x24px, fill #FFFFFF
+- li:framer: size 24x24px, fill #FFFFFF
+- li:frame: size 24x24px, fill #FFFFFF
+- li:forward: size 24x24px, fill #FFFFFF
+- li:form-input: size 24x24px, fill #FFFFFF
+- li:forklift: size 24x24px, fill #FFFFFF
+- li:footprints: size 24x24px, fill #FFFFFF
+- li:folders: size 24x24px, fill #FFFFFF
+- li:folder: size 24x24px, fill #FFFFFF
+- li:folder-x: size 24x24px, fill #FFFFFF
+- li:folder-up: size 24x24px, fill #FFFFFF
+- li:folder-tree: size 24x24px, fill #FFFFFF
+- li:folder-sync: size 24x24px, fill #FFFFFF
+- li:folder-symlink: size 24x24px, fill #FFFFFF
+- li:folder-search: size 24x24px, fill #FFFFFF
+- li:folder-search-2: size 24x24px, fill #FFFFFF
+- li:folder-root: size 24x24px, fill #FFFFFF
+- li:folder-plus: size 24x24px, fill #FFFFFF
+- li:folder-output: size 24x24px, fill #FFFFFF
+- li:folder-open: size 24x24px, fill #FFFFFF
+- li:folder-open-dot: size 24x24px, fill #FFFFFF
+- li:folder-minus: size 24x24px, fill #FFFFFF
+- li:folder-lock: size 24x24px, fill #FFFFFF
+- li:folder-key: size 24x24px, fill #FFFFFF
+- li:folder-kanban: size 24x24px, fill #FFFFFF
+- li:folder-input: size 24x24px, fill #FFFFFF
+- li:folder-heart: size 24x24px, fill #FFFFFF
+- li:folder-git: size 24x24px, fill #FFFFFF
+- li:folder-git-2: size 24x24px, fill #FFFFFF
+- li:folder-edit: size 24x24px, fill #FFFFFF
+- li:folder-down: size 24x24px, fill #FFFFFF
+- li:folder-dot: size 24x24px, fill #FFFFFF
+- li:folder-cog: size 24x24px, fill #FFFFFF
+- li:folder-closed: size 24x24px, fill #FFFFFF
+- li:folder-clock: size 24x24px, fill #FFFFFF
+- li:folder-check: size 24x24px, fill #FFFFFF
+- li:folder-archive: size 24x24px, fill #FFFFFF
+- li:fold-vertical: size 24x24px, fill #FFFFFF
+- li:fold-horizontal: size 24x24px, fill #FFFFFF
+- li:focus: size 24x24px, fill #FFFFFF
+- li:flower: size 24x24px, fill #FFFFFF
+- li:flower-2: size 24x24px, fill #FFFFFF
+- li:flip-vertical: size 24x24px, fill #FFFFFF
+- li:flip-vertical-2: size 24x24px, fill #FFFFFF
+- li:flip-horizontal: size 24x24px, fill #FFFFFF
+- li:flip-horizontal-2: size 24x24px, fill #FFFFFF
+- li:flask-round: size 24x24px, fill #FFFFFF
+- li:flask-conical: size 24x24px, fill #FFFFFF
+- li:flask-conical-off: size 24x24px, fill #FFFFFF
+- li:flashlight: size 24x24px, fill #FFFFFF
+- li:flashlight-off: size 24x24px, fill #FFFFFF
+- li:flame: size 24x24px, fill #FFFFFF
+- li:flag: size 24x24px, fill #FFFFFF
+- li:flag-triangle-right: size 24x24px, fill #FFFFFF
+- li:flag-triangle-left: size 24x24px, fill #FFFFFF
+- li:flag-off: size 24x24px, fill #FFFFFF
+- li:fish: size 24x24px, fill #FFFFFF
+- li:fish-symbol: size 24x24px, fill #FFFFFF
+- li:fish-off: size 24x24px, fill #FFFFFF
+- li:fingerprint: size 24x24px, fill #FFFFFF
+- li:filter: size 24x24px, fill #FFFFFF
+- li:filter-x: size 24x24px, fill #FFFFFF
+- li:film: size 24x24px, fill #FFFFFF
+- li:files: size 24x24px, fill #FFFFFF
+- li:file: size 24x24px, fill #FFFFFF
+- li:file-x: size 24x24px, fill #FFFFFF
+- li:file-x-2: size 24x24px, fill #FFFFFF
+- li:file-warning: size 24x24px, fill #FFFFFF
+- li:file-volume: size 24x24px, fill #FFFFFF
+- li:file-volume-2: size 24x24px, fill #FFFFFF
+- li:file-video: size 24x24px, fill #FFFFFF
+- li:file-video-2: size 24x24px, fill #FFFFFF
+- li:file-up: size 24x24px, fill #FFFFFF
+- li:file-type: size 24x24px, fill #FFFFFF
+- li:file-type-2: size 24x24px, fill #FFFFFF
+- li:file-text: size 24x24px, fill #FFFFFF
+- li:file-terminal: size 24x24px, fill #FFFFFF
+- li:file-symlink: size 24x24px, fill #FFFFFF
+- li:file-stack: size 24x24px, fill #FFFFFF
+- li:file-spreadsheet: size 24x24px, fill #FFFFFF
+- li:file-signature: size 24x24px, fill #FFFFFF
+- li:file-search: size 24x24px, fill #FFFFFF
+- li:file-search-2: size 24x24px, fill #FFFFFF
+- li:file-scan: size 24x24px, fill #FFFFFF
+- li:file-question: size 24x24px, fill #FFFFFF
+- li:file-plus: size 24x24px, fill #FFFFFF
+- li:file-plus-2: size 24x24px, fill #FFFFFF
+- li:file-pie-chart: size 24x24px, fill #FFFFFF
+- li:file-output: size 24x24px, fill #FFFFFF
+- li:file-minus: size 24x24px, fill #FFFFFF
+- li:file-minus-2: size 24x24px, fill #FFFFFF
+- li:file-lock: size 24x24px, fill #FFFFFF
+- li:file-lock-2: size 24x24px, fill #FFFFFF
+- li:file-line-chart: size 24x24px, fill #FFFFFF
+- li:file-key: size 24x24px, fill #FFFFFF
+- li:file-key-2: size 24x24px, fill #FFFFFF
+- li:file-json: size 24x24px, fill #FFFFFF
+- li:file-json-2: size 24x24px, fill #FFFFFF
+- li:file-input: size 24x24px, fill #FFFFFF
+- li:file-image: size 24x24px, fill #FFFFFF
+- li:file-heart: size 24x24px, fill #FFFFFF
+- li:file-edit: size 24x24px, fill #FFFFFF
+- li:file-down: size 24x24px, fill #FFFFFF
+- li:file-digit: size 24x24px, fill #FFFFFF
+- li:file-diff: size 24x24px, fill #FFFFFF
+- li:file-cog: size 24x24px, fill #FFFFFF
+- li:file-code: size 24x24px, fill #FFFFFF
+- li:file-code-2: size 24x24px, fill #FFFFFF
+- li:file-clock: size 24x24px, fill #FFFFFF
+- li:file-check: size 24x24px, fill #FFFFFF
+- li:file-check-2: size 24x24px, fill #FFFFFF
+- li:file-box: size 24x24px, fill #FFFFFF
+- li:file-bar-chart: size 24x24px, fill #FFFFFF
+- li:file-bar-chart-2: size 24x24px, fill #FFFFFF
+- li:file-badge: size 24x24px, fill #FFFFFF
+- li:file-badge-2: size 24x24px, fill #FFFFFF
+- li:file-axis-3d: size 24x24px, fill #FFFFFF
+- li:file-audio: size 24x24px, fill #FFFFFF
+- li:file-audio-2: size 24x24px, fill #FFFFFF
+- li:file-archive: size 24x24px, fill #FFFFFF
+- li:figma: size 24x24px, fill #FFFFFF
+- li:ferris-wheel: size 24x24px, fill #FFFFFF
+- li:feather: size 24x24px, fill #FFFFFF
+- li:fast-forward: size 24x24px, fill #FFFFFF
+- li:fan: size 24x24px, fill #FFFFFF
+- li:factory: size 24x24px, fill #FFFFFF
+- li:facebook: size 24x24px, fill #FFFFFF
+- li:eye: size 24x24px, fill #FFFFFF
+- li:eye-off: size 24x24px, fill #FFFFFF
+- li:external-link: size 24x24px, fill #FFFFFF
+- li:expand: size 24x24px, fill #FFFFFF
+- li:euro: size 24x24px, fill #FFFFFF
+- li:eraser: size 24x24px, fill #FFFFFF
+- li:equal: size 24x24px, fill #FFFFFF
+- li:equal-not: size 24x24px, fill #FFFFFF
+- li:egg: size 24x24px, fill #FFFFFF
+- li:egg-off: size 24x24px, fill #FFFFFF
+- li:egg-fried: size 24x24px, fill #FFFFFF
+- li:ear: size 24x24px, fill #FFFFFF
+- li:ear-off: size 24x24px, fill #FFFFFF
+- li:dumbbell: size 24x24px, fill #FFFFFF
+- li:drumstick: size 24x24px, fill #FFFFFF
+- li:droplets: size 24x24px, fill #FFFFFF
+- li:droplet: size 24x24px, fill #FFFFFF
+- li:dribbble: size 24x24px, fill #FFFFFF
+- li:download: size 24x24px, fill #FFFFFF
+- li:download-cloud: size 24x24px, fill #FFFFFF
+- li:dot: size 24x24px, fill #FFFFFF
+- li:door-open: size 24x24px, fill #FFFFFF
+- li:door-closed: size 24x24px, fill #FFFFFF
+- li:donut: size 24x24px, fill #FFFFFF
+- li:dollar-sign: size 24x24px, fill #FFFFFF
+- li:dog: size 24x24px, fill #FFFFFF
+- li:dna: size 24x24px, fill #FFFFFF
+- li:dna-off: size 24x24px, fill #FFFFFF
+- li:divide: size 24x24px, fill #FFFFFF
+- li:divide-square: size 24x24px, fill #FFFFFF
+- li:divide-circle: size 24x24px, fill #FFFFFF
+- li:disc: size 24x24px, fill #FFFFFF
+- li:disc-3: size 24x24px, fill #FFFFFF
+- li:disc-2: size 24x24px, fill #FFFFFF
+- li:diff: size 24x24px, fill #FFFFFF
+- li:dices: size 24x24px, fill #FFFFFF
+- li:dice-6: size 24x24px, fill #FFFFFF
+- li:dice-5: size 24x24px, fill #FFFFFF
+- li:dice-4: size 24x24px, fill #FFFFFF
+- li:dice-3: size 24x24px, fill #FFFFFF
+- li:dice-2: size 24x24px, fill #FFFFFF
+- li:dice-1: size 24x24px, fill #FFFFFF
+- li:diamond: size 24x24px, fill #FFFFFF
+- li:dessert: size 24x24px, fill #FFFFFF
+- li:delete: size 24x24px, fill #FFFFFF
+- li:database: size 24x24px, fill #FFFFFF
+- li:database-zap: size 24x24px, fill #FFFFFF
+- li:database-backup: size 24x24px, fill #FFFFFF
+- li:currency: size 24x24px, fill #FFFFFF
+- li:cup-soda: size 24x24px, fill #FFFFFF
+- li:crown: size 24x24px, fill #FFFFFF
+- li:crosshair: size 24x24px, fill #FFFFFF
+- li:cross: size 24x24px, fill #FFFFFF
+- li:crop: size 24x24px, fill #FFFFFF
+- li:croissant: size 24x24px, fill #FFFFFF
+- li:credit-card: size 24x24px, fill #FFFFFF
+- li:creative-commons: size 24x24px, fill #FFFFFF
+- li:cpu: size 24x24px, fill #FFFFFF
+- li:corner-up-right: size 24x24px, fill #FFFFFF
+- li:corner-up-left: size 24x24px, fill #FFFFFF
+- li:corner-right-up: size 24x24px, fill #FFFFFF
+- li:corner-right-down: size 24x24px, fill #FFFFFF
+- li:corner-left-up: size 24x24px, fill #FFFFFF
+- li:corner-left-down: size 24x24px, fill #FFFFFF
+- li:corner-down-right: size 24x24px, fill #FFFFFF
+- li:corner-down-left: size 24x24px, fill #FFFFFF
+- li:copyright: size 24x24px, fill #FFFFFF
+- li:copyleft: size 24x24px, fill #FFFFFF
+- li:copy: size 24x24px, fill #FFFFFF
+- li:copy-x: size 24x24px, fill #FFFFFF
+- li:copy-slash: size 24x24px, fill #FFFFFF
+- li:copy-plus: size 24x24px, fill #FFFFFF
+- li:copy-minus: size 24x24px, fill #FFFFFF
+- li:copy-check: size 24x24px, fill #FFFFFF
+- li:cookie: size 24x24px, fill #FFFFFF
+- li:contrast: size 24x24px, fill #FFFFFF
+- li:container: size 24x24px, fill #FFFFFF
+- li:contact: size 24x24px, fill #FFFFFF
+- li:contact-2: size 24x24px, fill #FFFFFF
+- li:construction: size 24x24px, fill #FFFFFF
+- li:concierge-bell: size 24x24px, fill #FFFFFF
+- li:computer: size 24x24px, fill #FFFFFF
+- li:component: size 24x24px, fill #FFFFFF
+- li:compass: size 24x24px, fill #FFFFFF
+- li:command: size 24x24px, fill #FFFFFF
+- li:combine: size 24x24px, fill #FFFFFF
+- li:columns: size 24x24px, fill #FFFFFF
+- li:coins: size 24x24px, fill #FFFFFF
+- li:cog: size 24x24px, fill #FFFFFF
+- li:coffee: size 24x24px, fill #FFFFFF
+- li:codesandbox: size 24x24px, fill #FFFFFF
+- li:codepen: size 24x24px, fill #FFFFFF
+- li:code: size 24x24px, fill #FFFFFF
+- li:code-2: size 24x24px, fill #FFFFFF
+- li:club: size 24x24px, fill #FFFFFF
+- li:clover: size 24x24px, fill #FFFFFF
+- li:cloudy: size 24x24px, fill #FFFFFF
+- li:cloud: size 24x24px, fill #FFFFFF
+- li:cloud-sun: size 24x24px, fill #FFFFFF
+- li:cloud-sun-rain: size 24x24px, fill #FFFFFF
+- li:cloud-snow: size 24x24px, fill #FFFFFF
+- li:cloud-rain: size 24x24px, fill #FFFFFF
+- li:cloud-rain-wind: size 24x24px, fill #FFFFFF
+- li:cloud-off: size 24x24px, fill #FFFFFF
+- li:cloud-moon: size 24x24px, fill #FFFFFF
+- li:cloud-moon-rain: size 24x24px, fill #FFFFFF
+- li:cloud-hail: size 24x24px, fill #FFFFFF
+- li:cloud-fog: size 24x24px, fill #FFFFFF
+- li:cloud-drizzle: size 24x24px, fill #FFFFFF
+- li:cloud-cog: size 24x24px, fill #FFFFFF
+- li:clock: size 24x24px, fill #FFFFFF
+- li:clock-12: size 24x24px, fill #FFFFFF
+- li:clock-11: size 24x24px, fill #FFFFFF
+- li:clock-10: size 24x24px, fill #FFFFFF
+- li:clock-9: size 24x24px, fill #FFFFFF
+- li:clock-8: size 24x24px, fill #FFFFFF
+- li:clock-7: size 24x24px, fill #FFFFFF
+- li:clock-6: size 24x24px, fill #FFFFFF
+- li:clock-5: size 24x24px, fill #FFFFFF
+- li:clock-4: size 24x24px, fill #FFFFFF
+- li:clock-3: size 24x24px, fill #FFFFFF
+- li:clock-2: size 24x24px, fill #FFFFFF
+- li:clock-1: size 24x24px, fill #FFFFFF
+- li:clipboard: size 24x24px, fill #FFFFFF
+- li:clipboard-x: size 24x24px, fill #FFFFFF
+- li:clipboard-type: size 24x24px, fill #FFFFFF
+- li:clipboard-signature: size 24x24px, fill #FFFFFF
+- li:clipboard-paste: size 24x24px, fill #FFFFFF
+- li:clipboard-list: size 24x24px, fill #FFFFFF
+- li:clipboard-edit: size 24x24px, fill #FFFFFF
+- li:clipboard-copy: size 24x24px, fill #FFFFFF
+- li:clipboard-check: size 24x24px, fill #FFFFFF
+- li:clapperboard: size 24x24px, fill #FFFFFF
+- li:citrus: size 24x24px, fill #FFFFFF
+- li:circuit-board: size 24x24px, fill #FFFFFF
+- li:circle: size 24x24px, fill #FFFFFF
+- li:circle-slash: size 24x24px, fill #FFFFFF
+- li:circle-slash-2: size 24x24px, fill #FFFFFF
+- li:circle-off: size 24x24px, fill #FFFFFF
+- li:circle-equal: size 24x24px, fill #FFFFFF
+- li:circle-ellipsis: size 24x24px, fill #FFFFFF
+- li:circle-dot: size 24x24px, fill #FFFFFF
+- li:circle-dot-dashed: size 24x24px, fill #FFFFFF
+- li:circle-dollar-sign: size 24x24px, fill #FFFFFF
+- li:circle-dashed: size 24x24px, fill #FFFFFF
+- li:cigarette: size 24x24px, fill #FFFFFF
+- li:cigarette-off: size 24x24px, fill #FFFFFF
+- li:church: size 24x24px, fill #FFFFFF
+- li:chrome: size 24x24px, fill #FFFFFF
+- li:chevrons-up: size 24x24px, fill #FFFFFF
+- li:chevrons-up-down: size 24x24px, fill #FFFFFF
+- li:chevrons-right: size 24x24px, fill #FFFFFF
+- li:chevrons-right-left: size 24x24px, fill #FFFFFF
+- li:chevrons-left: size 24x24px, fill #FFFFFF
+- li:chevrons-left-right: size 24x24px, fill #FFFFFF
+- li:chevrons-down: size 24x24px, fill #FFFFFF
+- li:chevrons-down-up: size 24x24px, fill #FFFFFF
+- li:chevron-up: size 24x24px, fill #FFFFFF
+- li:chevron-up-square: size 24x24px, fill #FFFFFF
+- li:chevron-up-circle: size 24x24px, fill #FFFFFF
+- li:chevron-right: size 24x24px, fill #FFFFFF
+- li:chevron-right-square: size 24x24px, fill #FFFFFF
+- li:chevron-right-circle: size 24x24px, fill #FFFFFF
+- li:chevron-left: size 24x24px, fill #FFFFFF
+- li:chevron-left-square: size 24x24px, fill #FFFFFF
+- li:chevron-left-circle: size 24x24px, fill #FFFFFF
+- li:chevron-last: size 24x24px, fill #FFFFFF
+- li:chevron-first: size 24x24px, fill #FFFFFF
+- li:chevron-down: size 24x24px, fill #FFFFFF
+- li:chevron-down-square: size 24x24px, fill #FFFFFF
+- li:chevron-down-circle: size 24x24px, fill #FFFFFF
+- li:cherry: size 24x24px, fill #FFFFFF
+- li:chef-hat: size 24x24px, fill #FFFFFF
+- li:check: size 24x24px, fill #FFFFFF
+- li:check-square: size 24x24px, fill #FFFFFF
+
+## Most-Used Styles
+- sm/regular: 1129 uses
+- xl/medium: 703 uses
+- sm/medium: 450 uses
+- Shadow/sm: 225 uses
+- xs/regular: 151 uses
+- xl/regular: 75 uses
+- 4xl/semibold: 71 uses
+- Gradients/thirdweb: 69 uses
+- xs/medium: 54 uses
+- base/medium: 36 uses
+- 3xl/semibold: 33 uses
+- 5xl/semibold: 28 uses
+- xl/semibold: 26 uses
+- lg/regular-spaced: 20 uses
+- lg/semibold: 18 uses
+- new contracts gradient 2: 18 uses
+- new infra gradien: 13 uses
+- sm/semibold: 13 uses
+- light purple: 8 uses
+- new wallet gradient: 7 uses
+- 2xl/link: 4 uses
+- sm/link: 4 uses
+- base/regular: 3 uses
+- 2xl/bold: 2 uses
+- 2xl/medium: 2 uses
+- 2xl/regular: 2 uses
+- 2xl/semibold: 2 uses
+- 3xl/bold: 2 uses
+- 3xl/link: 2 uses
+- 3xl/medium: 2 uses
+- 3xl/regular: 2 uses
+- 4xl/bold: 2 uses
+- 4xl/link: 2 uses
+- 4xl/medium: 2 uses
+- 4xl/regular: 2 uses
+- 5xl/bold: 2 uses
+- 5xl/link: 2 uses
+- 5xl/medium: 2 uses
+- 5xl/regular: 2 uses
+- 6xl/bold: 2 uses
+- 6xl/link: 2 uses
+- 6xl/medium: 2 uses
+- 6xl/regular: 2 uses
+- 6xl/semibold: 2 uses
+- 7xl/bold: 2 uses
+- 7xl/link: 2 uses
+- 7xl/medium: 2 uses
+- 7xl/regular: 2 uses
+- 7xl/semibold: 2 uses
+- 8xl/bold: 2 uses
+- 8xl/link: 2 uses
+- 8xl/medium: 2 uses
+- 8xl/regular: 2 uses
+- 8xl/semibold: 2 uses
+- Shadow/2xl: 2 uses
+- Shadow/3xl: 2 uses
+- Shadow/Inner: 2 uses
+- Shadow/lg: 2 uses
+- Shadow/md: 2 uses
+- Shadow/xl: 2 uses
+- Shadow/xs: 2 uses
+- Thirdweb Gradient: 2 uses
+- base/bold: 2 uses
+- base/link: 2 uses
+- base/regular-spaced: 2 uses
+- base/semibold: 2 uses
+- contracts icon: 2 uses
+- lg/bold: 2 uses
+- lg/link: 2 uses
+- lg/medium: 2 uses
+- lg/regular: 2 uses
+- sm/bold: 2 uses
+- sm/regular - spaced: 2 uses
+- xl/bold: 2 uses
+- xl/link: 2 uses
+- xs/bold: 2 uses
+- xs/link: 2 uses
+- xs/regular-spaced: 2 uses
+- xs/semibold: 2 uses
+- Superchain/Base: 1 use
+- Superchain/Optimism Mainnet: 1 use
+- Superchain/Zora: 1 use
+
+## Layout & Structure
+Screen: ⁂ · Getting Started / Getting Started
+- FRAME "Getting Started", 980x9324.05px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #000000
+  - FRAME "Cover", 980x751px, constraints left/top, fill #000000
+    - FRAME "Line", 980x1px, constraints left/bottom, stroke gradient_linear(#40404000 0% | #404040 50% | #40404000 100%) 1px
+    - FRAME "Line", 980x1px, constraints left/bottom, stroke gradient_linear(#40404000 0% | #404040 50% | #40404000 100%) 1px
+    - FRAME "Line", 980x1px, constraints left/bottom, stroke gradient_linear(#40404000 0% | #404040 50% | #40404000 100%) 1px
+    - FRAME "Line", 1x560px, constraints left/top, stroke gradient_linear(#40404000 0% | #404040 50% | #40404000 100%) 1px
+    - FRAME "Line", 1x560px, constraints left/top, stroke gradient_linear(#40404000 0% | #404040 50% | #40404000 100%) 1px
+    - FRAME "Text Container", 323x152px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints center/bottom, fill #000000
+      - FRAME "Icon Container", 64x64px, horizontal pad 4 4 4 4px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #0A0A0A, stroke #262626 1px
+        - FRAME "Icon Container", 56x56px, horizontal pad 2 2 2 2px gap 10px align center/center sizing W:fill H:fill, constraints left/top, radius 8px, fill #171717, stroke #262626 1px
+          - FRAME "Icon Wrapper", 36x36px, horizontal pad 2.81 4.5 2.81 4.5px gap 5.62px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 27x29.57px, constraints left/top, radius 0/0/0/0px, stroke #FFFFFF 2.81px
+      - FRAME "Text + Logo", 323x72px, vertical pad 0 0 0 0px gap 20px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Main Text", 323x72px, constraints left/top, fill #FAFAFA, text [2xl/bold], [heading]
+    - FRAME "Message Container", 380x235px, vertical pad 0 0 0 0px gap 17px align min/max sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Default Message Size lg", 290x40px, vertical pad 0 0 0 0px gap 6px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Input", 312x40px, horizontal pad 10 0 10 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px
+          - INSTANCE "_Prefix & Suffix", 40x40px, horizontal pad 8 12 8 12px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #171717, stroke #262626 1px
+            - TEXT "Text", 38x20px, constraints left/top, fill #737373, text [sm/regular]
+          - FRAME "Text", 232x20px, horizontal pad 0 8 0 8px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Email", 172x20px, constraints left/top, fill #737373, text [sm/regular]
+          - INSTANCE "_Prefix & Suffix", 40x40px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #171717, stroke #262626 1px
+            - INSTANCE "Icon", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Default Message Size lg", 290x40px, vertical pad 0 0 0 0px gap 6px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Input", 290x40px, horizontal pad 10 8 10 8px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px
+          - INSTANCE "Icon", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "li:search", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Item", 222x20px, constraints left/top, fill #737373, text [sm/regular]
+          - INSTANCE "Icon", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "li:chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+      - FRAME "Buttons Container", 290x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Secondary Button with Text", 133x40px, horizontal pad 10 16 10 12px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, fill #0A0A0A, stroke #262626 1px
+          - INSTANCE "Icon", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "li:underline", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Create", 65x20px, constraints left/top, fill #FAFAFA, text [sm/medium]
+        - INSTANCE "Secondary Button with Icon", 40x40px, horizontal pad 10 10 10 10px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, fill #0A0A0A, stroke #262626 1px
+          - INSTANCE "Icon", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "li:shapes", 16x16px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Secondary Button with Text", 93x40px, horizontal pad 10 12 10 16px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, fill #0A0A0A, stroke #262626 1px
+          - TEXT "Create", 39x20px, constraints left/top, fill #FAFAFA, text [sm/medium]
+          - INSTANCE "Icon", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "li:share", 16x16px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Default Type", 290x64px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+        - TEXT "Event has been created!", 182x32px, constraints left/top, fill #FAFAFA, text [sm/medium]
+        - INSTANCE "Button", 60x32px, horizontal pad 6 12 6 12px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px
+          - TEXT "Create", 36x20px, constraints left/top, fill #FAFAFA, text [sm/medium]
+    - INSTANCE "Type with Select", 292x376px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+      - INSTANCE "Select", 276x40px, vertical pad 0 0 0 0px gap 6px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Input", 276x40px, horizontal pad 10 8 10 8px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px
+          - TEXT "Item", 234x20px, constraints left/top, fill #FAFAFA, text [sm/regular]
+          - INSTANCE "Icon", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "li:chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+      - FRAME "Calendar", 276x312px, vertical pad 12 12 12 12px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #262626 1px
+        - INSTANCE "_Header", 252x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Button", 32x32px, horizontal pad 6 6 6 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px
+            - INSTANCE "Icon", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "July 2024", 156x20px, constraints left/top, fill #FAFAFA, text [sm/medium]
+          - INSTANCE "Button", 32x32px, horizontal pad 6 6 6 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px
+            - INSTANCE "Icon", 20x20px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "_Calendar Rows", 252x244px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Days of the week", 252x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "_Day of the week", 36x24px, constraints left/top, radius 6px
+            - INSTANCE "_Day of the week", 36x24px, constraints left/top, radius 6px
+            - INSTANCE "_Day of the week", 36x24px, constraints left/top, radius 6px
+            - INSTANCE "_Day of the week", 36x24px, constraints left/top, radius 6px
+            - INSTANCE "_Day of the week", 36x24px, constraints left/top, radius 6px
+            - INSTANCE "_Day of the week", 36x24px, constraints left/top, radius 6px
+            - INSTANCE "_Day of the week", 36x24px, constraints left/top, radius 6px
+          - FRAME "Row 1", 252x36px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+          - FRAME "Row 2", 252x36px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+          - FRAME "Row 3", 252x36px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px, fill #2563EB
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+          - FRAME "Row 4", 252x36px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+          - FRAME "Row 5", 252x36px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+            - INSTANCE "_Day", 36x36px, constraints left/top, radius 6px
+    - INSTANCE "Default Type", 392x350px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+      - INSTANCE "_Card header", 348x106px, vertical pad 24 24 24 24px gap 6px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Create account", 344x32px, constraints left/top, fill #FAFAFA, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Create your account with one click.", 344x20px, constraints left/top, fill #737373, text [sm/regular]
+      - FRAME "Content", 348x180px, vertical pad 0 24 24 24px gap 24px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Input", 300x66px, vertical pad 0 0 0 0px gap 6px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Label + Tooltip", 300x20px, horizontal pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Label", 69x20px, constraints left/top, fill #FAFAFA, text [sm/medium]
+          - FRAME "Input", 300x40px, horizontal pad 10 0 10 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px
+            - FRAME "Text", 300x20px, horizontal pad 0 8 0 8px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Input", 300x66px, vertical pad 0 0 0 0px gap 6px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Label + Tooltip", 300x20px, horizontal pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Label", 36x20px, constraints left/top, fill #FAFAFA, text [sm/medium]
+          - FRAME "Input", 300x40px, horizontal pad 10 0 10 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px
+            - FRAME "Text", 300x20px, horizontal pad 0 8 0 8px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "_Card footer", 348x64px, vertical pad 0 24 24 24px gap 6px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Buttons", 300x40px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Button", 79x40px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0A0A0A, stroke #262626 1px
+            - TEXT "Create", 47x20px, constraints left/top, fill #FAFAFA, text [sm/medium]
+          - INSTANCE "Button", 77x40px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #2563EB
+            - TEXT "Create", 45x20px, constraints left/top, fill #FFFFFF, text [sm/medium]
+  - FRAME "Section 1", 980x313px, vertical pad 48 48 0 48px gap 48px align max/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 884x216px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Section Title", 884x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+      - TEXT "Section Description", 884x160px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+    - FRAME "Divider", 884x1px, constraints left/top, fill #262626
+  - FRAME "Section 2", 980x377px, vertical pad 48 48 0 48px gap 48px align max/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 884x280px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Section Title", 884x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+      - TEXT "Section Description", 884x224px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+    - FRAME "Divider", 884x1px, constraints left/top, fill #262626
+  - FRAME "Section 3", 980x1964.05px, vertical pad 48 48 0 48px gap 48px align max/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 884x1867.05px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Text", 884x184px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Section Title", 884x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - TEXT "Section Description", 884x128px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+      - FRAME "Text", 884x144px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Subsection Title", 884x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+        - TEXT "Subsection Description", 884x96px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+      - RECTANGLE "Variables", 884x692.14px, constraints left/top, radius 16px, fill image(hash: 1d9a3123fd1c75c0fa223adde7c17069529e1ad6), stroke #FFFFFF1F 1px
+      - FRAME "Text", 884x208px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Subsection Title", 884x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+        - TEXT "Subsection Description", 884x160px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+      - RECTANGLE "Variables", 884x542.91px, constraints left/top, radius 16px, fill image(hash: 96444c2ec3e78fd9f9346e642ed6b4b1a95a526e), stroke #FFFFFF1F 1px
+    - FRAME "Divider", 884x1px, constraints left/top, fill #262626
+  - FRAME "Section 4", 980x952px, vertical pad 48 48 48 48px gap 32px align max/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 884x184px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Section Title", 884x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+      - TEXT "Section Description", 884x128px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+    - FRAME "Image Container", 884x640px, constraints left/top, radius 16px, fill #1E1E1E, stroke #FFFFFF1F 1px
+      - RECTANGLE "CleanShot 2024-10-23 at 06.23.05@2x 1", 248x749px, constraints left/top, radius 12px, fill image(hash: 71d939000ad5570e33cb49199a92b0db3826cd94)
+      - RECTANGLE "CleanShot 2024-10-23 at 06.25.34@2x 1", 248x749px, constraints left/top, radius 12px, fill image(hash: 9d66201f6ff47d564b54edd6404a33559cfd3109)
+      - RECTANGLE "CleanShot 2024-10-23 at 06.23.36@2x 1", 248x745px, constraints left/top, radius 12px, fill image(hash: 2e0ff36a14c236d9721da8aa12a1efe294d955d4)
+  - FRAME "Section 5", 980x991px, vertical pad 48 48 0 48px gap 48px align max/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 884x200px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Section Title", 884x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+      - TEXT "Section Description", 884x96px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+      - TEXT "Link Text", 884x32px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+    - RECTANGLE "Variables", 884x646px, constraints left/top, radius 16px, fill image(hash: df858f66d11d141b5660e588969f607ff5f4f2dc), stroke #FFFFFF1F 1px
+    - FRAME "Divider", 884x1px, constraints left/top, fill #262626
+  - FRAME "Section 6", 980x1131px, vertical pad 48 48 0 48px gap 48px align max/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 884x168px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Section Title", 884x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+      - TEXT "Section Description", 884x64px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+      - TEXT "Link Text", 884x32px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+    - FRAME "Image Container", 884x818px, constraints left/top, radius 16px, fill #1E1E1E, stroke #FFFFFF1F 1px
+      - RECTANGLE "CleanShot 2024-10-23 at 06.40.19@2x 1", 886x818px, constraints left/top, fill image(hash: 465169e0ccf2151e69c2e2255179ed8b25e429ee)
+    - FRAME "Divider", 884x1px, constraints left/top, fill #262626
+  - FRAME "Section 7", 980x1014px, vertical pad 48 48 0 48px gap 32px align max/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 884x392px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Section Title", 884x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+      - TEXT "Section Description", 884x288px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+      - TEXT "Link Text", 884x32px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+    - FRAME "Image Container", 884x509px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 16px, fill #000000, stroke #FFFFFF1F 1px
+      - RECTANGLE "CleanShot 2024-10-23 at 06.36.04@2x 1", 884x509px, constraints left/top, radius 12px, fill image(hash: 8722aedb90846efd3254c023c18174a4e18cbb3a)
+    - FRAME "Divider", 884x1px, constraints left/top, fill #262626
+  - FRAME "Section 8", 980x1519px, vertical pad 48 48 0 48px gap 32px align max/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 884x344px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Section Title", 884x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+      - TEXT "Section Description", 884x288px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+    - FRAME "Image Container", 884x438px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 16px, fill #000000, stroke #FFFFFF1F 1px
+      - RECTANGLE "CleanShot 2024-11-13 at 15.44.05@2x 1", 884x438px, constraints left/top, fill image(hash: b2398ef647dd9b59098bcf921b1b2c25e5311c61)
+    - TEXT "Section Description", 884x96px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+    - FRAME "Image Container", 884x464px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 16px, fill #000000, stroke #FFFFFF1F 1px
+      - RECTANGLE "CleanShot 2024-11-13 at 15.44.42@2x 1", 884x464px, constraints left/top, fill image(hash: 6107b54d71ee91bb651ee6995c776b52f11b8f8f)
+    - FRAME "Divider", 884x1px, constraints left/top, fill #262626
+  - FRAME "Section 9", 980x312px, vertical pad 48 48 48 48px gap 32px align max/min sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 884x216px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Section Title", 884x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+      - TEXT "Link Text", 884x32px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+      - TEXT "Link Text", 884x32px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+      - TEXT "Link Text", 884x32px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+      - TEXT "Link Text", 884x32px, constraints left/top, fill #D4D4D4, text [lg/regular-spaced]
+
+Screen:      ↪ ❖ Colors / Colors
+- FRAME "Colors", 4620x3282px, vertical pad 64 64 64 64px gap 64px sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #000000, stroke #9747FF 1px
+  - FRAME "Header", 4492x101px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Colors", 4492x53px, constraints left/top, fill #FAFAFA, text [4xl/semibold], [heading]
+    - TEXT "A collection of Tailwind CSS colors.", 4492x32px, constraints left/top, fill #A3A3A3, text [xl/regular], [heading]
+  - FRAME "Divider", 4492x1px, constraints left/top, fill #262626
+  - FRAME "Content", 4492x2924px, vertical pad 96 96 96 96px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+    - FRAME "Colors", 4300x2732px, vertical pad 0 0 0 0px gap 128px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Basic", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 688x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FFFFFF, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #000000, stroke #FFFFFF29 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Background", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 688x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #000000, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #0A0A0A, stroke #FFFFFF29 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Neutral", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FAFAFA, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F5F5F5, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #E5E5E5, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #D4D4D4, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #A3A3A3, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #737373, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #525252, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #404040, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #262626, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #171717, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #0A0A0A, stroke #FFFFFF29 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Blue", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EFF6FF, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DBEAFE, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #BFDBFE, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #93C5FD, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #60A5FA, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #3B82F6, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #2563EB, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #1D4ED8, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #1E40AF, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #1E3A8A, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #172554, stroke #FFFFFF29 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Red", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FEF2F2, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FEE2E2, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FECACA, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FCA5A5, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F87171, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EF4444, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DC2626, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #B91C1C, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #991B1B, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #7F1D1D, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #450A0A, stroke #FFFFFF29 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Orange", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FFF7ED, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FFEDD5, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FED7AA, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FDBA74, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FB923C, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F97316, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EA580C, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #C2410C, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #9A3412, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #7C2D12, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #431407, stroke #FFFFFF29 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Green", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F0FDF4, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DCFCE7, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #BBF7D0, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #86EFAC, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #4ADE80, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #22C55E, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #16A34A, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #15803D, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #166534, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #14532D, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #052E16, stroke #FFFFFF29 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Cyan", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #ECFEFF, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #CFFAFE, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #A5F3FC, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #67E8F9, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #22D3EE, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #06B6D4, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #0891B2, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #0E7490, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #155E75, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #164E63, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #083344, stroke #FFFFFF29 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Violet", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F5F3FF, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EDE9FE, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DDD6FE, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #C4B5FD, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #A78BFA, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #8B5CF6, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #7C3AED, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #6D28D9, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #5B21B6, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #4C1D95, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #1E1B4B, stroke #FFFFFF29 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Pink", 360x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FDF2F8, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FCE7F3, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FBCFE8, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F9A8D4, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F472B6, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EC4899, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DB2777, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #BE185D, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #9D174D, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #831843, stroke #FFFFFF29 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #500724, stroke #FFFFFF29 1px
+
+Screen:      ↪ ❖ Colors / Colors
+- FRAME "Colors", 4620x3282px, vertical pad 64 64 64 64px gap 64px sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #FAFAFA, stroke #9747FF 1px
+  - FRAME "Header", 4492x101px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Colors", 4492x53px, constraints left/top, fill #0A0A0A, text [4xl/semibold], [heading]
+    - TEXT "A collection of Tailwind CSS colors.", 4492x32px, constraints left/top, fill #525252, text [xl/regular], [heading]
+  - FRAME "Divider", 4492x1px, constraints left/top, fill #E5E5E5
+  - FRAME "Content", 4492x2924px, vertical pad 96 96 96 96px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke #E5E5E5 1px, effect Shadow/sm
+    - FRAME "Colors", 4300x2732px, vertical pad 0 0 0 0px gap 128px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Basic", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 688x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FFFFFF, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #000000, stroke #00000029 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Background", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 688x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FAFAFA, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FFFFFF, stroke #00000029 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Neutral", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #0A0A0A, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #171717, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #262626, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #404040, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #525252, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #737373, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #A3A3A3, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #D4D4D4, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #E5E5E5, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F5F5F5, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FAFAFA, stroke #00000029 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Blue", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #172554, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #1E3A8A, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #1E40AF, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #1D4ED8, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #2563EB, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #3B82F6, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #60A5FA, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #93C5FD, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #BFDBFE, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DBEAFE, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EFF6FF, stroke #00000029 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Red", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #450A0A, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #7F1D1D, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #991B1B, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #B91C1C, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DC2626, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EF4444, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F87171, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FCA5A5, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FECACA, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FEE2E2, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FEF2F2, stroke #00000029 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Orange", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #431407, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #7C2D12, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #9A3412, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #C2410C, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EA580C, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F97316, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FB923C, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FDBA74, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FED7AA, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FFEDD5, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FFF7ED, stroke #00000029 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Green", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #052E16, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #14532D, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #166534, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #15803D, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #16A34A, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #22C55E, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #4ADE80, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #86EFAC, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #BBF7D0, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DCFCE7, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F0FDF4, stroke #00000029 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Cyan", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #083344, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #164E63, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #155E75, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #0E7490, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #0891B2, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #06B6D4, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #22D3EE, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #67E8F9, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #A5F3FC, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #CFFAFE, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #ECFEFF, stroke #00000029 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Violet", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #1E1B4B, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #4C1D95, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #5B21B6, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #6D28D9, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #7C3AED, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #8B5CF6, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #A78BFA, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #C4B5FD, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DDD6FE, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EDE9FE, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F5F3FF, stroke #00000029 1px
+      - FRAME "Row", 4300x158px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Pink", 360x40px, constraints left/top, fill #0A0A0A, text [3xl/semibold], [heading]
+        - FRAME "Colors", 3892x158px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #500724, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #831843, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #9D174D, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #BE185D, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #DB2777, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #EC4899, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F472B6, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #F9A8D4, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FBCFE8, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FCE7F3, stroke #00000029 1px
+          - INSTANCE "_Color", 332x158px, constraints left/top, radius 16px, fill #FDF2F8, stroke #00000029 1px
+
+Screen:      ↪ ❖ Colors / Components
+- SECTION "Components", 532x358px, fill #000000, stroke #9747FF 1px
+  - COMPONENT "_Color", 332x158px, constraints left/top, radius 16px, stroke #FFFFFF29 1px
+
+Screen:      ↪ ❖ Typography / Typography
+- FRAME "Typography", 3096x14845px, vertical pad 64 64 64 64px gap 64px sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #000000, stroke #9747FF 1px
+  - FRAME "Header", 2968x101px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Typography", 2968x53px, constraints left/top, fill #FAFAFA, text [4xl/semibold], [heading]
+    - TEXT "Styles for headings, paragraphs, lists. Follows Tailwind’s t", 2968x32px, constraints left/top, fill #A3A3A3, text [xl/regular], [heading]
+  - FRAME "Content", 2968x1250px, vertical pad 64 54 64 54px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+    - FRAME "item", 2860x1122px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2860x66px, constraints left/top, fill #FAFAFA, text [5xl/semibold], [heading]
+      - FRAME "Table", 2860x1008px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "400", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #FAFAFA, text [xs/regular]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular - spaced", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "400", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #FAFAFA, text [xs/regular-spaced]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "500", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #FAFAFA, text [xs/medium]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "600", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #FAFAFA, text [xs/semibold]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "700", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #FAFAFA, text [xs/bold]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "500", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #FAFAFA, text [xs/link]
+  - FRAME "Content", 2968x1250px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+    - FRAME "item", 2840x1122px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #FAFAFA, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x1008px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "400", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #FAFAFA, text [sm/regular]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular - spaced", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "400", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #FAFAFA, text [sm/regular - spaced]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "500", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #FAFAFA, text [sm/medium]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "600", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #FAFAFA, text [sm/semibold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "700", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #FAFAFA, text [sm/bold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "500", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #FAFAFA, text [sm/link]
+  - FRAME "Content", 2968x1250px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+    - FRAME "item", 2840x1122px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #FAFAFA, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x1008px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #FAFAFA, text [base/regular]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular - spaced", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #FAFAFA, text [base/regular-spaced]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #FAFAFA, text [base/medium]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #FAFAFA, text [base/semibold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #FAFAFA, text [base/bold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #FAFAFA, text [base/link]
+  - FRAME "Content", 2968x1250px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+    - FRAME "item", 2840x1122px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #FAFAFA, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x1008px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #FAFAFA, text [lg/regular]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular - spaced", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #FAFAFA, text [lg/regular-spaced]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #FAFAFA, text [lg/medium]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #FAFAFA, text [lg/semibold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #FAFAFA, text [lg/bold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #FAFAFA, text [lg/link]
+  - FRAME "Content", 2968x1106px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+    - FRAME "item", 2840x978px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #FAFAFA, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x864px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #FAFAFA, text [xl/regular], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #FAFAFA, text [xl/semibold], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #FAFAFA, text [xl/bold], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #FAFAFA, text [xl/link], [heading]
+  - FRAME "Content", 2968x1106px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+    - FRAME "item", 2840x978px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #FAFAFA, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x864px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "30px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "36px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x36px, constraints left/top, fill #FAFAFA, text [2xl/regular], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "30px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "36px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x36px, constraints left/top, fill #FAFAFA, text [2xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "30px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "36px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x36px, constraints left/top, fill #FAFAFA, text [2xl/semibold], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "30px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "36px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x36px, constraints left/top, fill #FAFAFA, text [2xl/link], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x36px, constraints left/top, fill #FAFAFA, text [2xl/link], [heading]
+  - FRAME "Content", 2968x1106px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #0A0A0A, stroke #262626 1px, effect Shadow/sm
+    - FRAME "item", 2840x978px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #FAFAFA, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x864px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #E5E5E5, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "36px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "40px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x40px, constraints left/top, fill #FAFAFA, text [3xl/regular], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "36px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "40px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x40px, constraints left/top, fill #FAFAFA, text [3xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "36px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "40px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "Preview", 480x40px, constraints left/top, fill #FAFAFA, text [3xl/semibold], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #262626 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "36px", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #FAFAFA, text [xl/medium], [heading]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen:      ↪ ❖ Typography / Typography
+- FRAME "Typography", 3096x14845px, vertical pad 64 64 64 64px gap 64px sizing W:fixed H:fixed, constraints center/top, radius 32px, fill #FAFAFA, stroke #9747FF 1px
+  - FRAME "Header", 2968x101px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Typography", 2968x53px, constraints left/top, fill #0A0A0A, text [4xl/semibold], [heading]
+    - TEXT "Styles for headings, paragraphs, lists. Follows Tailwind’s t", 2968x32px, constraints left/top, fill #525252, text [xl/regular], [heading]
+  - FRAME "Content", 2968x1250px, vertical pad 64 54 64 54px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #E5E5E5 1px, effect Shadow/sm
+    - FRAME "item", 2860x1122px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2860x66px, constraints left/top, fill #0A0A0A, text [5xl/semibold], [heading]
+      - FRAME "Table", 2860x1008px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "400", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #0A0A0A, text [xs/regular]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "regular - spaced", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "400", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #0A0A0A, text [xs/regular-spaced]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "500", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #0A0A0A, text [xs/medium]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "600", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #0A0A0A, text [xs/semibold]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "700", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #0A0A0A, text [xs/bold]
+        - FRAME "Row", 2860x144px, horizontal pad 56 0 56 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "12px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "500", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x16px, constraints left/top, fill #0A0A0A, text [xs/link]
+  - FRAME "Content", 2968x1250px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #E5E5E5 1px, effect Shadow/sm
+    - FRAME "item", 2840x1122px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #0A0A0A, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x1008px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "400", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #0A0A0A, text [sm/regular]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "regular - spaced", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "400", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #0A0A0A, text [sm/regular - spaced]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "500", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #0A0A0A, text [sm/medium]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "600", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #0A0A0A, text [sm/semibold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "700", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #0A0A0A, text [sm/bold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "14px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "500", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "20px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x20px, constraints left/top, fill #0A0A0A, text [sm/link]
+  - FRAME "Content", 2968x1250px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #E5E5E5 1px, effect Shadow/sm
+    - FRAME "item", 2840x1122px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #0A0A0A, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x1008px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #0A0A0A, text [base/regular]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "regular - spaced", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #0A0A0A, text [base/regular-spaced]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #0A0A0A, text [base/medium]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #0A0A0A, text [base/semibold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #0A0A0A, text [base/bold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "16px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x24px, constraints left/top, fill #0A0A0A, text [base/link]
+  - FRAME "Content", 2968x1250px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #E5E5E5 1px, effect Shadow/sm
+    - FRAME "item", 2840x1122px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #0A0A0A, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x1008px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #0A0A0A, text [lg/regular]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "regular - spaced", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #0A0A0A, text [lg/regular-spaced]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #0A0A0A, text [lg/medium]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #0A0A0A, text [lg/semibold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #0A0A0A, text [lg/bold]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "18px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "28px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x28px, constraints left/top, fill #0A0A0A, text [lg/link]
+  - FRAME "Content", 2968x1106px, vertical pad 64 64 64 64px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #E5E5E5 1px, effect Shadow/sm
+    - FRAME "item", 2840x978px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Heading", 2840x66px, constraints left/top, fill #0A0A0A, text [5xl/semibold], [heading]
+      - FRAME "Table", 2840x864px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Header", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "Name", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Size", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Weight", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Line Height", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #262626, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #0A0A0A, text [xl/regular], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "medium", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "semibold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #0A0A0A, text [xl/semibold], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+          - TEXT "bold", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "Preview", 480x32px, constraints left/top, fill #0A0A0A, text [xl/bold], [heading]
+        - FRAME "Row", 2840x144px, horizontal pad 0 0 0 0px gap 90px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "link", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "24px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "regular", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+          - TEXT "32px", 480x32px, constraints left/top, fill #0A0A0A, text [xl/medium], [heading]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

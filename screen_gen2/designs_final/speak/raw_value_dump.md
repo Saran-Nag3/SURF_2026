@@ -1,0 +1,1878 @@
+---
+name: speak-up-learning-education-english-app-ui-kit-community
+source_file: Speak Up- Learning education English app Ui kit (Community)
+source_page: All pages (7): 🙋🏻‍♀️ | Cover, 👩🏻‍💻 | Designers, ____________________________, 📐 | Style, UI, 💠| Components, 🧩| Icons
+generated_at: 2026-07-25T09:34:17.593704+00:00
+---
+
+# Speak Up- Learning education English app Ui kit (Community) Design Guidelines
+
+## Source
+- Figma file: Speak Up- Learning education English app Ui kit (Community)
+- Figma page: All pages (7): 🙋🏻‍♀️ | Cover, 👩🏻‍💻 | Designers, ____________________________, 📐 | Style, UI, 💠| Components, 🧩| Icons
+- Extracted at: 2026-07-25T09:34:17.593704+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- neutral/neutral100: [#FFFFFF]
+- neutral/neutral10: [#263038]
+- Base: none
+- neutral/neutral40: [#263038]
+- Black 100: [#263038]
+- secondary/secondary0: [#4D78DE]
+- Blue: [#5774CD]
+- White: [#FFFFFF]
+- overlayLight/overlayLight40: [#FFFFFF4D]
+- primary/primary0: [#FE9519]
+- neutralVariant/neutralVariant50: [#DFDEE4]
+- Base: [#22272F]
+- pink/Pink0: [#FF789A]
+- third/third0: [#49B1EB]
+- primary/primary40: [#FFDBA3]
+- error/error0: [#FF6838]
+- gradient/orange: none
+- neutralVariant/neutralVariant60: [#FFFFFF]
+- neutralVariant/neutralVariant10: [#332E52]
+- neutral/neutral70: [#FFFFFF]
+- Secondary color/orange: [#FE9519]
+- neutral/neutral0: [#000000]
+- SystemGreen / Light: [#34C759]
+- Color Dark / Yellow: [#FFD60A]
+- Color Light / Green: [#34C759]
+- Label Dark / Tertiary: [#EBEBF54D]
+- Label Dark / Primary: [#FFFFFF]
+- Label Light / Primary: [#000000]
+- System Bg Dark Base / Primary: [#000000]
+- State Success/green: [#06C270]
+- Main Color/blue: [#2563EB]
+- Neutral/white: [#FFFFFF]
+- Neutral/neutral 60: [#FFFFFF]
+- State Error/Red: [#E2222E]
+- neutral/neutral30: none
+- Neutral/neutral 10: [#263038]
+- Neutral/gray-BDBDBD: [#2563EB]
+- Main Color/Subtle: [#E3EDFF]
+- Neutral/black 00: [#2E2E2E]
+- Neutral/neutral30: none
+- Neutral/neutral 50: [#BEC1C4]
+- Neutral/neutral 40: [#A8ACAF]
+- Neutral/White: [#FFFFFF]
+- Neutral/black -0: [#1C1C1C]
+- Neutral/neutral 20: [#515960, #00000033]
+- primary/primary20: [#FFC05E]
+- neutral/neutral60: [#EAEBEC]
+- secondary/secondary20: [#83A1E8]
+- error/error20: [#FF9674]
+- third/third20: [#80C9F1]
+- neutralVariant/neutralVariant70: [#F8F8F9]
+- neutral/neutral50: none
+- Neutral/neutral 55: [#FFFFFF]
+- overlayDark/overlayDark40: [#2630384D]
+- overlayDark/overlayDark60: [#2630381A]
+- overlayDark/overlayDark20: [#26303899]
+- secondary/secondary60: [#DBE4F8]
+- overlayLight/overlayLight20: [#FFFFFF99]
+- secondary/secondary70: none
+- success/success0: none
+- error/error10: none
+- success/success20: none
+- yellow/yellow10: [#FBFF38]
+- overlayLight/overlayLight60: [#FFFFFF1A]
+- primary/primary: [#2563EB]
+- Neutral/neutral 70: [#FFFFFF]
+- State Error/02: [#FF5C5C]
+- Main Color/Lighter: [#99BBFF]
+- Neutral/gray-DFDFDF: [#DFDFDF]
+- Secondary: [#FF991F]
+- gradiant-secondary: none
+- Neutral/neutral 0: [#000000]
+- Neutral/gray-404040: [#404040]
+- Black 10: none
+- Neutral/Black3-4F4F4F: [#282828]
+- gradient/red: [gradient_linear(#FF8660 0% | #FD3D84 100%)]
+- success/success70: [#ECF9EF]
+- Secondary color/Lighter: [#FEC875]
+- State Error/03: [#FF8080]
+- State info/02: [#5B8DEF]
+- State info/03: [#9DBFF9]
+- State info/Blue: [#0063F7]
+- secondary/secondary40: [#B8C9F2]
+- neutral/neutral20: [#515960]
+- error/error60: [#FFE1D7]
+- success/success60: [#D8F1DF]
+- State Error/01: [#E53535]
+- overlayDark/overlayDark70: [#2630380D]
+- gradient/blue: [gradient_linear(#49B1EB 0% | #535AFF 100%)]
+- gradient/gradientRed: [gradient_linear(#FF8660 0% | #FD3D84 100%)]
+- gradient/gradientBlue: [gradient_linear(#49B1EB 0% | #535AFF 100%)]
+- overlayDark/overlayDark30: [#26303866]
+- State Warning/yeloow: [#FE9519]
+- RedGrad: [#F55C47, gradient_linear(#FFFFFF 0% | #FFFFFF00 100%)]
+- Primary: none
+- Gray1: [#BCBCBC]
+- Gray4: none
+- Dark: [#263238]
+- Border: [#FFFFFF]
+- Gray2: [#CFCFCF]
+- Gray3: [#E0E0E0]
+- State Success/01: [#05A660]
+- Neutral/Black1-0C0C0C: [#0C0C0C]
+- primary/primary60: [#FFEDD1]
+- primary/primary50: [#FFE4BA]
+- primary/primary30: [#FEC875]
+- primary/primary10: [#FEB647]
+- third/third60: [#DBEFFB]
+- third/third50: [#C9E8F9]
+- third/third40: [#B6E0F7]
+- third/third30: [#92D0F3]
+- third/third10: [#6DC1EF]
+- success/success50: [#C5EBCF]
+- success/success40: [#B1E3BF]
+- success/success30: [#8BD69F]
+- success/success10: [#64C87F]
+- neutralVariant/neutralVariant40: [#B6B4C1]
+- neutralVariant/neutralVariant30: [#77738B]
+- neutralVariant/neutralVariant20: [#494565]
+- neutralVariant/neutralVariant0: [#1C163E]
+- error/error70: [#FFF0EC]
+- error/error50: [#FFD2C4]
+- error/error40: [#FFC3AF]
+- error/error30: [#FFA488]
+- secondary/secondary50: [#CAD7F6]
+- secondary/secondary30: [#94AEEB]
+- secondary/secondary10: [#7193E5]
+- Blue: [#4C6ED7]
+- Fill/Black: [#000000]
+- Label/Primary: [#000000]
+- State Success/02: [#39D98A]
+- Orange: [#FEA419]
+- Red: [#FD521B]
+- Pink Light: [#FFD4DE]
+- Green: [#82A860]
+- Yellow: [#FFC849]
+- Light / Light 4: [#FAFAFC]
+- Light / Light 1: none
+- Dark / Dark 2: [#6B7588]
+- Light / Light 2: [#EBEBF0]
+- Primary / Main Color: [#3377FF]
+- Light / Light 3: [#F2F2F5]
+- Dark / Dark 1: [#3A3A3C]
+- Primary / Linear Subtle: [gradient_linear(#E3EDFF80 0% | #E3EDFF00 100%)]
+- Dark / Dark 4: [#C7C9D9]
+- Primary / Subtle: [#E3EDFF]
+- Primary / Linear Main Colors: none
+- Primary / Lighter: none
+- Blue / Blue 2: [#0063F7]
+- Green / Green 2: [#06C270]
+- Yellow / Yellow 2: [#FFCC00]
+- Red / Red 2: [#FF3B3B]
+- Red / Red 1: [#E53535]
+- Red / Red 3: [#FF5C5C]
+- Red / Red 4: [#FF8080]
+- Yellow / Yellow 1: [#E5B800]
+- Yellow / Yellow 3: [#FDDD48]
+- Yellow / Yellow 4: [#FDED72]
+- Blue / Blue 1: [#004FC4]
+- Green / Green 1: [#05A660]
+- Green / Green 3: [#39D98A]
+- Green / Green 4: [#57EBA1]
+
+## Raw Colors (unstyled)
+- #000000: 15576 uses
+- #FFFFFF: 1769 uses
+- #FFC5B8: 1148 uses
+- #F5F5F5: 832 uses
+- #33B6FF: 587 uses
+- #F7B386: 560 uses
+- #FE800F: 560 uses
+- #FFD0B6: 504 uses
+- #6995ED: 398 uses
+- #3460E4: 392 uses
+- #FD521B: 381 uses
+- #407BFF: 371 uses
+- #FEA419: 313 uses
+- #263238: 282 uses
+- #55C2FF: 232 uses
+- #7DD7FF: 232 uses
+- #EFA69E: 224 uses
+- #FF4B55: 176 uses
+- #5774CD: 175 uses
+- #61C6FF: 171 uses
+- #3446B9: 168 uses
+- #D7E5FF: 168 uses
+- #F9F9F9: 165 uses
+
+## Typography Tokens
+- Title/titleLg1: Nunito Bold (700), 20px / 28px, tracking 0px
+- Title Large Light: Nunito SemiBold (600), 20px / 95.31%, tracking 0px
+- Body/bodyLgBold: Nunito ExtraBold (800), 14px / 20px, tracking 0px
+- Title Small Bold: Nunito SemiBold (600), 16px / 109.97%, tracking 0px
+- Title bold: Nunito Bold (700), 16px / 109.97%, tracking 0px
+- Body/bodyLg: Nunito SemiBold (600), 14px / 20px, tracking 0px
+- Body Large semiBold: Nunito SemiBold (600), 14px / auto, tracking 0px
+- Title/titleSm: Nunito SemiBold (600), 16px / 24px, tracking 0px
+- Body Large: Nunito Regular (400), 14px / auto, tracking 0px
+- Title bold: Nunito Bold (700), 18px / 95.31%, tracking 0px
+- Body Small: Nunito Medium (500), 10px / 28px, tracking 0px
+- Body Medium: Nunito Medium (500), 12px / auto, tracking 0px
+- Body/bodyLgSm: Nunito Bold (700), 14px / 20px, tracking 0px
+- Title/titleMd: Nunito Medium (500), 18px / 26px, tracking 0px
+- Body bold: Nunito Bold (700), 20px / 95.31%, tracking 0px
+- Title/titleSm2Italic: Nunito SemiBoldItalic (600), 16px / 22px, tracking 0px
+- Title/titleSm2: Nunito SemiBold (600), 16px / 22px, tracking 0px
+- Body medium semibold: Nunito SemiBold (600), 12px / auto, tracking 0px
+- Body/bodyMd: Nunito SemiBold (600), 12px / 16px, tracking 0px
+- Body Medium Bold: Nunito Bold (700), 12px / auto, tracking 0px
+- Title Large semiBold: Nunito SemiBold (600), 20px / 95.31%, tracking 0px
+- Body Small Bold: Nunito SemiBold (600), 10px / 28px, tracking 0px
+- Body Large Bold: Nunito ExtraBold (800), 14px / auto, tracking 0px
+- Title bold: Nunito Bold (700), 14px / auto, tracking 0px
+- Body/bodyMdBold: Nunito Bold (700), 12px / 16px, tracking 0px
+- Title/titleLg2: Nunito SemiBold (600), 20px / 30px, tracking 0px
+- Title/titleLg1Md: Nunito Medium (500), 20px / 28px, tracking 0px
+- Title/titleSmBold: Nunito Bold (700), 16px / 24px, tracking 0px
+- Title/titleMdBold: Nunito Bold (700), 18px / 26px, tracking 0px
+- Heading medium extrabold: Nunito ExtraBold (800), 24px / 95.31%, tracking 0px
+- Heading Large: Nunito ExtraBold (800), 28px / 95.31%, tracking 0px
+- Heading Small Bold: Nunito Bold (700), 22px / 95.31%, tracking 0px
+- H3 Reg: Inter Regular (400), 12px / 22px, tracking 0px
+- H3 Med: Inter Regular (400), 12px / 22px, tracking 0px
+- Title Medium Light: Nunito Light (300), 18px / 95.31%, tracking 0px
+- Label / Extra Small: Mulish Regular (400), 10px / 119.52%, tracking 0.05px
+- Heading 4 24px: Inter Bold (700), 24px / 107.42%, tracking 0px
+- Label / Ekstra Large: Mulish SemiBold (600), 18px / 119.52%, tracking 0.04px
+- Display 1 48px: Inter ExtraLight (200), 48px / 107.42%, tracking 0px
+- Stylized / Lead Paragraph: Mulish Regular (400), 22px / 119.52%, tracking 0px
+- Body Large 20px / Semibold: Mulish SemiBold (600), 20px / 135.46%, tracking 0px
+- Body Normal 16px / Semibold: Mulish SemiBold (600), 16px / 135.46%, tracking 0px
+- Heading 3 28px: Inter Bold (700), 28px / 107.42%, tracking 0px
+
+## Raw Typography (unstyled)
+- Sora SemiBold, 15px: 146 uses
+- Nunito Bold, 20px: 32 uses
+- Nunito Medium, 16px: 27 uses
+- Poppins Medium, 13px: 25 uses
+- Sora ExtraBold, 100px: 21 uses
+- Nunito SemiBold, 20px: 19 uses
+- Poppins SemiBold, 10px: 15 uses
+- SF Pro Text Semibold, 15px: 15 uses
+- Nunito SemiBold, 16px: 14 uses
+- Nunito Bold, 24px: 13 uses
+- Nunito Bold, 14px: 11 uses
+- Nunito Bold, 28px: 10 uses
+- Nunito SemiBold, 14px: 10 uses
+- Poppins SemiBold, 13px: 10 uses
+- Inter SemiBold, 58px: 7 uses
+- Nunito ExtraBold, 64px: 7 uses
+- Inter Bold, 160px: 5 uses
+- Inter Bold, 64px: 5 uses
+- Nunito Bold, 12px: 5 uses
+- Poppins Medium, 16px: 5 uses
+- Sora ExtraBold, 28px: 5 uses
+- Lato Medium, 14px: 4 uses
+- Nunito SemiBold, 18px: 4 uses
+- Poppins Regular, 12px: 4 uses
+- Poppins SemiBold, 14px: 3 uses
+- Poppins SemiBold, 30px: 3 uses
+
+## Typography Hierarchy
+- 160px - Inter Bold, 160px (raw)
+- 100px - Sora ExtraBold, 100px (raw)
+- 64px - Inter Bold, 64px (raw)
+- 64px - Nunito ExtraBold, 64px (raw)
+- 58px - Inter SemiBold, 58px (raw)
+- 48px - Display 1 48px (Inter ExtraLight)
+- 30px - Poppins SemiBold, 30px (raw)
+- 28px - Heading 3 28px (Inter Bold)
+- 28px - Heading Large (Nunito ExtraBold)
+- 28px - Nunito Bold, 28px (raw)
+- 28px - Sora ExtraBold, 28px (raw)
+- 24px - Heading 4 24px (Inter Bold)
+- 24px - Heading medium extrabold (Nunito ExtraBold)
+- 24px - Nunito Bold, 24px (raw)
+- 22px - Heading Small Bold (Nunito Bold)
+- 22px - Stylized / Lead Paragraph (Mulish Regular)
+- 20px - Body Large 20px / Semibold (Mulish SemiBold)
+- 20px - Body bold (Nunito Bold)
+- 20px - Nunito Bold, 20px (raw)
+- 20px - Nunito SemiBold, 20px (raw)
+- 20px - Title Large Light (Nunito SemiBold)
+- 20px - Title Large semiBold (Nunito SemiBold)
+- 20px - Title/titleLg1 (Nunito Bold)
+- 20px - Title/titleLg1Md (Nunito Medium)
+- 20px - Title/titleLg2 (Nunito SemiBold)
+- 18px - Label / Ekstra Large (Mulish SemiBold)
+- 18px - Nunito SemiBold, 18px (raw)
+- 18px - Title Medium Light (Nunito Light)
+- 18px - Title bold (Nunito Bold)
+- 18px - Title/titleMd (Nunito Medium)
+- 18px - Title/titleMdBold (Nunito Bold)
+- 16px - Body Normal 16px / Semibold (Mulish SemiBold)
+- 16px - Nunito Medium, 16px (raw)
+- 16px - Nunito SemiBold, 16px (raw)
+- 16px - Poppins Medium, 16px (raw)
+- 16px - Title Small Bold (Nunito SemiBold)
+- 16px - Title bold (Nunito Bold)
+- 16px - Title/titleSm (Nunito SemiBold)
+- 16px - Title/titleSm2 (Nunito SemiBold)
+- 16px - Title/titleSm2Italic (Nunito SemiBoldItalic)
+- 16px - Title/titleSmBold (Nunito Bold)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 15px - Sora SemiBold, 15px (raw)
+- 14px - Body Large (Nunito Regular)
+- 14px - Body Large Bold (Nunito ExtraBold)
+- 14px - Body Large semiBold (Nunito SemiBold)
+- 14px - Body/bodyLg (Nunito SemiBold)
+- 14px - Body/bodyLgBold (Nunito ExtraBold)
+- 14px - Body/bodyLgSm (Nunito Bold)
+- 14px - Lato Medium, 14px (raw)
+- 14px - Nunito Bold, 14px (raw)
+- 14px - Nunito SemiBold, 14px (raw)
+- 14px - Poppins SemiBold, 14px (raw)
+- 14px - Title bold (Nunito Bold)
+- 13px - Poppins Medium, 13px (raw)
+- 13px - Poppins SemiBold, 13px (raw)
+- 12px - Body Medium (Nunito Medium)
+- 12px - Body Medium Bold (Nunito Bold)
+- 12px - Body medium semibold (Nunito SemiBold)
+- 12px - Body/bodyMd (Nunito SemiBold)
+- 12px - Body/bodyMdBold (Nunito Bold)
+- 12px - H3 Med (Inter Regular)
+- 12px - H3 Reg (Inter Regular)
+- 12px - Nunito Bold, 12px (raw)
+- 12px - Poppins Regular, 12px (raw)
+- 10px - Body Small (Nunito Medium)
+- 10px - Body Small Bold (Nunito SemiBold)
+- 10px - Label / Extra Small (Mulish Regular)
+- 10px - Poppins SemiBold, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- shadow0: [drop_shadow 30px offset 0 0 #2630381A]
+- shadow4: [drop_shadow 0px offset 0 1 #2630380A]
+- shadow2: [drop_shadow 4px offset 0 0 #2630381A]
+- shadow2.5: [drop_shadow 0px offset 0 1 #26303800]
+- shadow1: [drop_shadow 6px offset 0 0 #2630381A]
+- Shadow(WhiteBox): [drop_shadow 10px offset 0 5 #00000005]
+- BgBlur: [background_blur 20px]
+- shadow3: [drop_shadow 2px offset 0 2 #2630381A]
+
+## Grid Styles
+- Grid - Icon: grid 2px
+- SpeakUp Grid: columns count 4, section 68px, gutter 16px, align stretch
+
+## Component Families
+- Demo
+- Loaders
+- Status
+- Button
+- Essentials
+- topAppBar
+- you were incredible Brand new woman,ladies and gentleman
+- profile list
+- Question boxes
+- Component 93
+- iconButtons
+- navigationDrawer
+- chatMessagingButtons
+- chatMessagingBottomBarButton
+- dialogMessageSyllableWords
+- chatMessagingWords
+- chatMessagingActions
+- chatMessaging
+- text field
+- logo
+- Toggie
+- Buttons
+- Component 108
+- Component 106
+- Component 103
+- Component 101
+- Component 110
+- courses list
+- Action sheet
+- Avatar
+- progressBar
+- sliders
+- sliderControler
+- starRating
+- plusPlans
+- coursesButton
+- courseCards
+- Daily activity phone
+- overlay
+- chatMessagingBottomBar
+- ChatMessagingWallpapers
+- Travel
+- View
+- sliderLine
+- videoPlayer
+- Icons
+
+## Component Specs
+- Demo / Rectangle Background: size 36x36px, fill #FFFFFF
+- Demo / Stack Rectangle Background: size 42x42px, fill #FFFFFF
+- Demo / Circle Main Color: size 36x36px, fill #FFFFFF
+- Demo / Circle Subtle: size 36x36px, fill #FFFFFF
+- Loaders / Loader-typing: size 24x24px, fill #FFFFFF
+- Loaders / Loader-alt: size 24x24px, fill #FFFFFF
+- Loaders / Loader-circle: size 24x24px, fill #FFFFFF
+- Loaders / Loader-clock: size 24x24px, fill #FFFFFF
+- Loaders / Loader-line: size 24x24px, fill #FFFFFF
+- Status / Info: size 24x24px, fill #FFFFFF
+- Status / Auccess: size 24x24px, fill #FFFFFF
+- Status / Warning: size 24x24px, fill #FFFFFF
+- Status / Error: size 24x24px, fill #FFFFFF
+- Button / Small / States / Focus: size 36x36px, fill #FFFFFF
+- Button / Small / States / Hover: size 36x36px, fill #FFFFFF
+- Button / Small / States / Active: size 36x36px, fill #FFFFFF
+- Button / Small / States / Disabled: size 24x24px, fill #FFFFFF
+- Button / Small / States / Default: size 24x24px, fill #FFFFFF
+- Essentials / File-group: size 24x24px, fill #FFFFFF
+- Essentials / Dollar: size 24x24px, fill #FFFFFF
+- Essentials / Attachment: size 24x24px, fill #FFFFFF
+- Essentials / Accessibility: size 24x24px, fill #FFFFFF
+- Essentials / Zoom-in: size 24x24px, fill #FFFFFF
+- Essentials / Volume-down: size 24x24px, fill #FFFFFF
+- Essentials / Times: size 24x24px, fill #FFFFFF
+- Essentials / Trash: size 24x24px, fill #FFFFFF
+- Essentials / Thumbs-up: size 24x24px, fill #FFFFFF
+- Essentials / Tag: size 24x24px, fill #FFFFFF
+- Essentials / Shopping-bag: size 24x24px, fill #FFFFFF
+- Essentials / Resize-down: size 24x24px, fill #FFFFFF
+- Essentials / Shield: size 24x24px, fill #FFFFFF
+- Essentials / Slider: size 24x24px, fill #FFFFFF
+- Essentials / Storage: size 24x24px, fill #FFFFFF
+- Essentials / Settings: size 24x24px, fill #FFFFFF
+- Essentials / Phone-handset: size 24x24px, fill #FFFFFF
+- Essentials / Microphone: size 24x24px, fill #FFFFFF
+- Essentials / Layers: size 24x24px, fill #FFFFFF
+- Essentials / History: size 24x24px, fill #FFFFFF
+- Essentials / Indeterminate: size 24x24px, fill #FFFFFF
+- Essentials / Arrow: size 24x24px, fill #FFFFFF
+- Essentials / Download: size 24x24px, fill #FFFFFF
+- Essentials / Folder: size 24x24px, fill #FFFFFF
+- Essentials / Compass: size 24x24px, fill #FFFFFF
+- Essentials / Password-hide: size 24x24px, fill #FFFFFF
+- Essentials / Cloud: size 24x24px, fill #FFFFFF
+- Essentials / Rocket: size 24x24px, fill #FFFFFF
+- Essentials / Smartphone: size 24x24px, fill #FFFFFF
+- Essentials / Diamond: size 24x24px, fill #FFFFFF
+- Essentials / People: size 24x24px, fill #FFFFFF
+- Essentials / Geometry: size 24x24px, fill #FFFFFF
+- Essentials / Chart: size 24x24px, fill #FFFFFF
+- Essentials / Laptop: size 24x24px, fill #FFFFFF
+- Essentials / Pencil: size 24x24px, fill #FFFFFF
+- Essentials / Relationship: size 24x24px, fill #FFFFFF
+- Essentials / Message: size 24x24px, fill #FFFFFF
+- Essentials / Check: size 24x24px, fill #FFFFFF
+- Essentials / Direction: size 24x24px, fill #FFFFFF
+- Essentials / Arrow-right: size 24x24px, fill #FFFFFF
+- Essentials / Image: size 24x24px, fill #FFFFFF
+- Essentials / Wayfinding: size 24x24px
+- topAppBar: size 360x44px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, fill neutral/neutral100, text [Title Large Light, Body/bodyLgBold, Title Small Bold] | variants: container: avatar-titleAndSub-rightIcon/back-title/back-title-rightIcon/close-pogress-avatar/close-pogress-rightIcon/close-tilte-avatar/close-title/close-title-rightIcon/close-titleAndSub-rightIcon/container15
+- you were incredible Brand new woman,ladies and gentleman: size 288x60px, fill #FFFFFF, text [Nunito Bold, 20px] | variants: Dialog message: Default/right ok/wrong
+- profile list: size 360x40px, horizontal layout, padding 10 20 10 20px, gap 12px, align min/center, sizing W:fixed H:fixed, fill neutral/neutral100, stroke Neutral/neutral 60 1px, text [Body Large semiBold] | variants: Property 1: change password/delete account/help/learning language/logout/native language/privacy policy/start speakup plus/terms of service/username
+- Question boxes : size 320x48px, radius 16/16/0/0px, fill #FFFFFF, stroke Main Color/blue 2px, text [Body Large] | variants: Property 1: Q 1/Q1 Selected/Q2/Q2 Selected/Q3/Q3 Selected
+- Component 93: size 360x56px, horizontal layout, padding 8 8 0 8px, gap 0px, align center/center, sizing W:fixed H:fixed, fill Neutral/white, stroke Neutral/neutral 60 1px, text [Body Small] | variants: simple white: courses select/courses select simple white/home select/home select simple white/on select/on select simple white/search select/search select simple white/user select/user select simple white; black reduce: cources reduce whiet/cources simple whiet/courses reduce black/courses white reduce/home reduce whiet/home simple whiet/home simple whit/on select reduce black/on select reduce whiet/on select simple whiet/search reduce black/search reduce whiet/search simple whiet/search white reduce/user reduce whiet/user simple whiet/user white reduce/userreduce black; number of navigation: 1/10/11/12/13/14/15/16/17/18/19/20/6/8/9/course/home/me/review
+- iconButtons: size 44x44px, radius 50px, horizontal layout, padding 4 4 4 4px, gap 0px, align center/center, sizing W:fixed H:fixed, fill neutral/neutral100 | variants: Continer: Filled/Outline/Tonal/nonBg; Color: Neutral/error/primary/secondary/third; Size: Large/Medium/Small; Pressed: False/True; Disabled: False/True
+- navigationDrawer: size 360x800px, radius 24/24/0/0px, vertical layout, padding 30 0 30 0px, gap 0px, sizing W:fixed H:fixed, fill Neutral/white, stroke Neutral/neutral 55 1px, text [Body Medium, Body Large semiBold, Title/titleSm, Body/bodyLgBold, Body/bodyLg, Title bold] | variants: Property 1: Default/Plus
+- chatMessagingButtons: size 126x40px, radius 10px, horizontal layout, padding 10 16 10 16px, gap 8px, align center/center, sizing W:fixed H:fixed, fill overlayLight/overlayLight20, effect shadow4, text [Body Large semiBold] | variants: container: Default/blank/wrong; pressed: false/true; color: dark/light; icon: false/true
+- chatMessagingBottomBarButton: size 58x58px, radius 100px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: container: paus/play/voice; pressed: false/true; active: false/true; size: large/medium
+- dialogMessageSyllableWords: size 42x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Title bold] | variants: container: default/underline/wrong; underLine: dash/solid
+- chatMessagingWords: size 40x22px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Body Large semiBold] | variants: container: recive/sent; success: false/true; wrong: false/true; blank: false/filled/tonal/underline; hightlight: 1/2/false
+- chatMessagingActions: size 32x32px, radius 50px, horizontal layout, padding 6 6 6 6px, gap 0px, sizing W:fixed H:fixed, fill overlayLight/overlayLight40, text [Body/bodyLg] | variants: container: icon/iconLabel/label; pressed: false/true; light: false/true
+- chatMessaging: size 290x130px, vertical layout, padding 0 0 0 0px, gap 6px, align max/min, sizing W:fixed H:fixed, text [Title/titleSm, Body/bodyLg, Title/titleSm2, Body Large semiBold] | variants: container: receive/receivee/sent; size: small/wide; avatar: false/true; actions: false/true; arrow: false/true; Media: non; button: false/true; sentence: true
+- text field: size 320x74px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Body/bodyMd, Title/titleSm] | variants: Container: Line input 1/Line input 2/Notifications page/Outline input/Search/Search blue stroke/phoneNumber/verificationCode; Size: Large/Medium/small; Icon: False/True; Placeholder: False/True; Active: False/True; Error: False/True; Cancel: False/True; Disabled: False/True; Help: False/True
+- logo: size 188x55px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Poppins SemiBold, 30px] | variants: size: desktop/phone; color: dark blue/light purple/purple
+- Toggie: size 48x24px, radius 16px, fill Neutral/gray-DFDFDF, stroke Neutral/gray-DFDFDF 0.4px | variants: state: active/hover
+- Buttons (💠| Components): size 20x20px, radius 6px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill secondary/secondary0, stroke secondary/secondary0 2px | variants: container: chekbox/radioButton; pressd: false; active: false/true
+- Component 108: size 180x173px, radius 6px, fill Neutral/white, stroke #E0E0E0 1px, text [Body Small, Body Small Bold, Body Medium] | variants: courses: Hang out/Tourist trip
+- Component 106: size 320x160px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, text [Body Medium, Body Small] | variants: sugestes: in the cafe/in the office
+- Component 103: size 270x150px, radius 10px, fill #FECB17, effect [drop_shadow 12px offset 0 2 #00000024], text [Nunito Bold, 14px, Body Large Bold] | variants: User experience: Amanda roch/Tarkan orhan
+- Component 101: size 136.26x136.26px, text [Title Small Bold] | variants: time of exercises: 2h 15m/4h/6h 4m/8h
+- Component 110: size 320x126px, fill #FFFFFF, text [Body Small, Body Large semiBold] | variants: courses: Hang out/Health/Tourist trip/courses5/series
+- courses list: size 320x116px, radius 8px, vertical layout, padding 12 16 12 16px, gap 12px, align center/min, sizing W:fixed H:fixed, fill neutral/neutral100, stroke Secondary color/orange 2px, text [Body/bodyMd, Body/bodyLg, Body/bodyMdBold, Body Medium, Title bold] | variants: COURSES: Business/Business prees/Conversation/Conversation press/English stories/Practic/Practic press/Sport/The weather/The weather press/english story press/sport press
+- Buttons (💠| Components): size 44x44px, radius 8px, horizontal layout, padding 12 12 12 12px, gap 0px, align center/center, sizing W:fixed H:fixed, fill neutral/neutral100 | variants: Container: Filled button/Outlined button/Text button/Tonal button; Color: Primary/Secondary/error/neutral/third; Size: Large/Medium; Icon: False/True; Disabled: False/True; Pressed: False/True; onlyIcon: False/True; Loading: False/True
+- Action sheet: size 320x175px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Body Large semiBold, Body/bodyLg] | variants: Container: answer of queize/failed/loading/picture/quize/successful; Cancel: False/True/pic picture
+- Avatar: size 32x32px, radius 50px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Main Color/blue, text [Body/bodyLg] | variants: Container: imageAvtars/letterAvatars; PLUS: False/PLUS/PLUSE/SIMPLE/True; Size: Large/Medium/small
+- progressBar: size 74x74px, radius 10px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [Title/titleMd] | variants: container: circleProgress/roundProgress; overlay: false/true; step: 1/2/3/4/5
+- sliders: size 320x24px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: container: default; step: 1/2/3/4
+- sliderControler: size 24x24px, radius 500px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill neutral/neutral100, effect shadow1 | variants: container: Default; pressed: false/true; disabled: false
+- starRating: size 266x94px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/max, sizing W:fixed H:fixed | variants: container: five Star; rating: 0/5/1/5/2/5/3/5/4/5/5/5
+- plusPlans: size 320x76px, radius 10px, horizontal layout, padding 24 0 24 0px, gap 10px, align min/center, sizing W:fixed H:fixed, fill neutral/neutral100, stroke neutralVariant/neutralVariant60 2px, text [Title/titleLg1, Title/titleLg1Md, Title Small Bold] | variants: Mode: Default/Discount/Popular; Active: False/True
+- coursesButton: size 46x58px, radius 8px, vertical layout, padding 0 0 0 0px, gap 4px, align center/center, sizing W:fixed H:fixed, fill Secondary color/Lighter, text [Body/bodyMdBold] | variants: container: ads/adsLock/arrow/arrow blue/free; Prssed: false/true; loading: false/true
+- courseCards: size 320x125px, radius 8px, vertical layout, padding 12 16 12 16px, gap 12px, align center/min, sizing W:fixed H:fixed, fill neutral/neutral100, stroke #F3F3F5 2px, text [Body/bodyLg, Title/titleMdBold, Body Large semiBold, Body/bodyMdBold, Body Medium] | variants: Container: advertise/coming soon/free/gem/last activity/plus/skeleton loading/teacher/unlocked; type: course/lesson; pressed: False/fals/true; status: complete/not started/studying; images: false/true
+- Daily activity phone/Select: size 286x28px, horizontal layout, padding 0 0 0 0px, gap 16px, align center/center, sizing W:fixed H:fixed
+- overlay: size 360x800px
+- chatMessagingBottomBar/practiceKeyboard: size 360x68px, radius 20/20/0/0px, vertical layout, padding 10 10 10 10px, gap 16px, align max/max, sizing W:fixed H:fixed, text [Title/titleMd]
+- chatMessagingBottomBar/practiceText: size 360x68px, radius 20/20/0/0px, vertical layout, padding 10 10 10 10px, gap 16px, align max/max, sizing W:fixed H:fixed, text [Title/titleMd]
+- ChatMessagingWallpapers: size 128x222px, fill #EDEEF3
+- text field/Search/Large/True/True/False/False/False/False/False: size 200x48px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Body/bodyMd, Body Large semiBold]
+- Component 108/Reviews: size 360x67px, horizontal layout, padding 8 20 8 20px, gap 145px, align space_between/center, sizing W:fixed H:fixed, stroke Neutral/neutral 60 1px, text [Title Small Bold, Title bold]
+- Travel: size 68x102px, fill #FFFFFF, text [Body Medium]
+- View: size 320x32px, fill Secondary color/orange, text [Body Small Bold]
+- sliderLine: size 320x8px, radius 500px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill neutralVariant/neutralVariant60
+- videoPlayer: size 360x256px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect [drop_shadow 4px offset 0 4 #407BFF14], text [Title/titleSm]
+- Icons/Linear/hint: size 24x24px
+- Icons/Linear/next: size 24x24px
+- Icons/Linear/menu: size 24x24px
+- Icons/Linear/home: size 24x24px
+- Icons/Linear/openBook: size 24x24px
+- Icons/Linear/review: size 24x24px
+- Icons/Linear/user: size 24x24px
+- Icons/Linear/search: size 24x24px
+- Icons/Linear/mail: size 24x24px
+- Icons/Linear/help: size 24x24px
+- Icons/Linear/eye: size 24x24px
+- Icons/Linear/eyeSlash: size 24x24px
+- Icons/Linear/close: size 24x24px
+- Icons/Linear/arrowUp: size 24x24px
+- Icons/Linear/arrowRight: size 24x24px
+- Icons/Linear/arrowDown: size 24x24px
+- Icons/Linear/arrowLeft: size 24x24px
+- Icons/Linear/arrUp: size 24x24px
+- Icons/Linear/arrRight: size 24x24px
+- Icons/Linear/arrDown: size 24x24px
+- Icons/Linear/arrLeft: size 24x24px
+- Icons/Linear/plus: size 24x24px
+- Icons/Linear/image: size 24x24px
+- Icons/Linear/logout: size 24x24px
+- Icons/Linear/refresh: size 24x24px
+- Icons/Linear/repeat: size 24x24px
+- Icons/Linear/bold: size 24x24px
+- Icons/Linear/italic: size 24x24px
+- Icons/Linear/underline: size 24x24px
+- Icons/Linear/pickerLabel: size 24x24px
+- Icons/Linear/strike: size 24x24px
+- Icons/Linear/pickerLabelBg: size 24x24px
+- Icons/Linear/snail: size 24x24px
+- Icons/Linear/rotateLeft: size 24x24px
+- Icons/Linear/closeBook: size 24x24px
+- Icons/Linear/addNote: size 24x24px
+- Icons/Linear/pen: size 24x24px
+- Icons/Linear/golbalEdit: size 24x24px
+- Icons/Linear/trash: size 24x24px
+- Icons/Linear/inv: size 24x24px
+- Icons/Linear/2user: size 24x24px
+- Icons/Linear/teacher: size 24x24px
+- Icons/Linear/travel: size 24x24px
+- Icons/Linear/business: size 24x24px
+- Icons/Linear/play2: size 24x24px
+- Icons/Linear/play: size 24x24px
+- Icons/Linear/paus: size 24x24px
+- Icons/Linear/playSpeed: size 24x24px
+- Icons/Linear/userSaquare: size 24x24px
+- Icons/Linear/openBook2: size 24x24px
+- Icons/Linear/key: size 24x24px
+- Icons/Linear/bill: size 24x24px
+- Icons/Linear/Lock: size 24x24px
+- Icons/Linear/privacy: size 24x24px
+- Icons/Filled/document: size 24x24px
+- Icons/Filled/education: size 24x24px
+- Icons/Filled/politics: size 24x24px
+- Icons/Filled/history: size 24x24px
+- Icons/Filled/cinema: size 24x24px
+- Icons/Filled/travel: size 24x24px
+- Icons/Filled/humanities: size 24x24px
+- Icons/Filled/technology: size 24x24px
+- Icons/Filled/finance: size 24x24px
+- Icons/Filled/business: size 24x24px
+- Icons/Filled/science: size 24x24px
+- Icons/Filled/theatre: size 24x24px
+- Icons/Filled/music: size 24x24px
+- Icons/Filled/art: size 24x24px
+- Icons/Filled/sport: size 24x24px
+- Icons/Filled/health: size 24x24px
+- Icons/Filled/lifestyle: size 24x24px
+- Icons/Filled/video: size 24x24px
+- Icons/Large/bigGrayStar: size 94x94px
+- Icons/Large/bigStar: size 94x94px
+- Icons/Filled/tag: size 24x24px
+- Icons/Filled/megaphone: size 24x24px
+- Icons/Filled/notStarted: size 24x24px
+- Icons/Filled/refresh: size 24x24px
+- Icons/Filled/volumeHigh: size 24x24px
+- Icons/Filled/add: size 24x24px
+- Icons/Filled/help: size 24x24px
+- Icons/Filled/trash: size 24x24px
+- Icons/Filled/pen: size 24x24px
+- Icons/Filled/offline: size 24x24px
+- Icons/Filled/fail: size 24x24px
+- Icons/Linear/path: size 24x24px
+- Icons/Linear/info: size 24x24px
+- Icons/Filled/info: size 24x24px
+- Icons/Filled/apple: size 24x24px
+- Icons/Filled/sms: size 24x24px
+- Icons/Filled/grow: size 24x24px
+- Icons/Filled/hat: size 24x24px
+- Icons/Filled/tick: size 24x24px
+- Icons/Linear/volumeSlash: size 24x24px
+- Icons/Linear/volume: size 24x24px
+- Icons/Linear/tick2: size 24x24px
+- Icons/Linear/bug: size 24x24px
+- Icons/Linear/document: size 24x24px
+- Icons/Linear/feedBack: size 24x24px
+- Icons/Linear/failOutline: size 24x24px
+- Icons/Linear/star: size 24x24px
+- Icons/Linear/subtitleSlash: size 24x24px
+- Icons/Linear/subtitle: size 24x24px
+- Icons/Linear/global: size 24x24px
+- Icons/Linear/tickOutline: size 24x24px
+- Icons/Duotone/noAds: size 24x24px
+- Icons/Duotone/checkbox: size 24x24px
+- Icons/Duotone/discount: size 24x24px
+- Icons/Duotone/elementPlus: size 24x24px
+- Icons/Duotone/lock: size 24x24px
+- Icons/Duotone/unlock: size 24x24px
+- Icons/Color/gem: size 24x24px
+- Icons/Color/fire: size 24x24px
+- Icons/Color/starFilled: size 24x24px
+- Icons/Filled/clock: size 24x24px
+- Icons/Filled/paus: size 24x24px
+- Icons/Filled/play: size 24x24px
+- Icons/Filled/close: size 24x24px
+- Icons/Filled/upload: size 24x24px
+- Icons/Linear/forward: size 24x24px
+- Icons/Linear/message: size 24x24px
+- Icons/Linear/uploadImage: size 24x24px
+- Icons/Linear/upload: size 24x24px
+- Icons/Filled/youtube: size 24x24px
+- Icons/Filled/messages: size 24x24px
+- Icons/Filled/grammar: size 24x24px
+- Icons/Filled/book3: size 24x24px
+- Icons/Filled/gift: size 24x24px
+- Icons/Filled/send: size 24x24px
+- Icons/Linear/mic: size 24x24px
+- Icons/Linear/lampOn: size 24x24px
+- Icons/Linear/translate: size 24x24px
+- Icons/Linear/keyboard: size 24x24px
+- Icons/Filled/more: size 24x24px
+- Icons/Filled/microphone: size 24x24px
+- Icons/Filled/crown: size 24x24px
+- Icons/Color/google: size 24x24px
+- Icons/Color/ge: size 24x24px, fill #FFFFFF
+- Icons/Color/uk: size 24x24px, fill #FFFFFF
+- Icons/Color/plusLock: size 24x24px
+- Icons/Color/gemLock: size 24x24px
+- Icons/Color/br: size 24x24px, fill #FFFFFF
+- Icons/Color/usa: size 24x24px, fill #FFFFFF
+
+## Most-Used Styles
+- neutral/neutral10: 4776 uses
+- neutral/neutral100: 2175 uses
+- Neutral/neutral 20: 885 uses
+- Title/titleSm2: 714 uses
+- Base: 542 uses
+- Body Large semiBold: 500 uses
+- error/error0: 465 uses
+- Neutral/white: 407 uses
+- Neutral/black -0: 361 uses
+- neutral/neutral40: 350 uses
+- Body Small: 227 uses
+- Secondary color/orange: 225 uses
+- secondary/secondary0: 223 uses
+- neutralVariant/neutralVariant60: 210 uses
+- Main Color/blue: 208 uses
+- Body/bodyMd: 198 uses
+- primary/primary0: 191 uses
+- Body/bodyLgBold: 180 uses
+- Body Medium: 158 uses
+- Title/titleSm: 146 uses
+- Primary / Main Color: 141 uses
+- success/success0: 123 uses
+- Neutral/neutral30: 112 uses
+- Body/bodyLg: 109 uses
+- neutral/neutral50: 104 uses
+- Dark: 98 uses
+- Neutral/neutral 60: 94 uses
+- Title bold: 94 uses
+- Neutral/black 00: 93 uses
+- Dark / Dark 1: 91 uses
+- State Error/Red: 85 uses
+- Title Small Bold: 85 uses
+- Title/titleLg1: 79 uses
+- overlayLight/overlayLight60: 79 uses
+- neutral/neutral70: 78 uses
+- neutral/neutral0: 70 uses
+- neutralVariant/neutralVariant70: 70 uses
+- Body Medium Bold: 69 uses
+- Neutral/neutral 10: 69 uses
+- neutral/neutral30: 69 uses
+- Neutral/neutral 55: 65 uses
+- neutralVariant/neutralVariant50: 64 uses
+- third/third0: 62 uses
+- overlayDark/overlayDark60: 60 uses
+- Blue: 59 uses
+- neutralVariant/neutralVariant10: 57 uses
+- primary/primary40: 56 uses
+- shadow0: 53 uses
+- Color Light / Green: 51 uses
+- Light / Light 3: 51 uses
+- neutral/neutral60: 48 uses
+- Body Large: 45 uses
+- overlayLight/overlayLight40: 45 uses
+- Neutral/neutral 40: 42 uses
+- Title Large Light: 40 uses
+- Shadow(WhiteBox): 39 uses
+- Neutral/neutral 0: 38 uses
+- overlayDark/overlayDark20: 36 uses
+- Neutral/gray-404040: 35 uses
+- gradient/red: 34 uses
+- Body Large Bold: 33 uses
+- White: 33 uses
+- neutral/neutral20: 31 uses
+- primary/primary: 31 uses
+- Neutral/neutral 50: 29 uses
+- shadow4: 27 uses
+- Neutral/neutral 70: 26 uses
+- Gray1: 25 uses
+- secondary/secondary70: 25 uses
+- Black 100: 24 uses
+- Heading medium extrabold: 24 uses
+- Title Large semiBold: 24 uses
+- Fill/Black: 23 uses
+- Body medium semibold: 21 uses
+- Main Color/Subtle: 21 uses
+- Secondary: 21 uses
+- gradiant-secondary: 21 uses
+- Primary: 20 uses
+- Body Small Bold: 19 uses
+- Body/bodyMdBold: 19 uses
+- Body Normal 16px / Semibold: 17 uses
+- Light / Light 1: 17 uses
+- Secondary color/Lighter: 17 uses
+- State Error/03: 17 uses
+- State info/03: 17 uses
+- Body bold: 16 uses
+- gradient/gradientBlue: 16 uses
+- Gray4: 15 uses
+- secondary/secondary20: 15 uses
+- Title/titleMd: 14 uses
+- shadow2: 14 uses
+- shadow2.5: 14 uses
+- Black 10: 13 uses
+- Label/Primary: 12 uses
+- Title/titleMdBold: 12 uses
+- State Error/02: 11 uses
+- Title/titleLg1Md: 11 uses
+- Heading 3 28px: 10 uses
+- Neutral/Black1-0C0C0C: 10 uses
+- Neutral/Black3-4F4F4F: 10 uses
+- Primary / Linear Subtle: 10 uses
+- Body Large 20px / Semibold: 9 uses
+- Label / Ekstra Large: 9 uses
+- State Success/01: 9 uses
+- State Success/green: 9 uses
+- gradient/blue: 9 uses
+- Dark / Dark 2: 8 uses
+- Dark / Dark 4: 8 uses
+- Primary / Subtle: 8 uses
+- gradient/orange: 8 uses
+- Heading Small Bold: 7 uses
+- Light / Light 2: 7 uses
+- State info/02: 7 uses
+- overlayDark/overlayDark40: 7 uses
+- shadow1: 7 uses
+- Neutral/gray-BDBDBD: 6 uses
+- Neutral/gray-DFDFDF: 6 uses
+- error/error10: 6 uses
+- Border: 5 uses
+- Gray2: 5 uses
+- Gray3: 5 uses
+- Label / Extra Small: 5 uses
+- Light / Light 4: 5 uses
+- Neutral/White: 5 uses
+- State info/Blue: 5 uses
+- Heading Large: 4 uses
+- Main Color/Lighter: 4 uses
+- State Error/01: 4 uses
+- Title Medium Light: 4 uses
+- Yellow / Yellow 2: 4 uses
+- gradient/gradientRed: 4 uses
+- primary/primary20: 4 uses
+- secondary/secondary60: 4 uses
+- success/success70: 4 uses
+- third/third20: 4 uses
+- Blue / Blue 2: 3 uses
+- Green / Green 2: 3 uses
+- Pink Light: 3 uses
+- Primary / Lighter: 3 uses
+- Red / Red 2: 3 uses
+- Title/titleLg2: 3 uses
+- Title/titleSm2Italic: 3 uses
+- Title/titleSmBold: 3 uses
+- error/error20: 3 uses
+- primary/primary30: 3 uses
+- secondary/secondary40: 3 uses
+- success/success20: 3 uses
+- success/success60: 3 uses
+- Green: 2 uses
+- H3 Reg: 2 uses
+- Heading 4 24px: 2 uses
+- Red: 2 uses
+- State Success/02: 2 uses
+- State Warning/yeloow: 2 uses
+- Yellow: 2 uses
+- error/error60: 2 uses
+- overlayLight/overlayLight20: 2 uses
+- success/success10: 2 uses
+- success/success30: 2 uses
+- success/success40: 2 uses
+- success/success50: 2 uses
+- Blue / Blue 1: 1 use
+- Body/bodyLgSm: 1 use
+- Display 1 48px: 1 use
+- Green / Green 1: 1 use
+- Green / Green 3: 1 use
+- Green / Green 4: 1 use
+- H3 Med: 1 use
+- Orange: 1 use
+- Primary / Linear Main Colors: 1 use
+- Red / Red 1: 1 use
+- Red / Red 3: 1 use
+- Red / Red 4: 1 use
+- Stylized / Lead Paragraph: 1 use
+- Yellow / Yellow 1: 1 use
+- Yellow / Yellow 3: 1 use
+- Yellow / Yellow 4: 1 use
+- error/error30: 1 use
+- error/error40: 1 use
+- error/error50: 1 use
+- error/error70: 1 use
+- neutralVariant/neutralVariant0: 1 use
+- neutralVariant/neutralVariant20: 1 use
+- neutralVariant/neutralVariant30: 1 use
+- neutralVariant/neutralVariant40: 1 use
+- overlayDark/overlayDark30: 1 use
+- pink/Pink0: 1 use
+- primary/primary10: 1 use
+- primary/primary50: 1 use
+- primary/primary60: 1 use
+- secondary/secondary10: 1 use
+- secondary/secondary30: 1 use
+- secondary/secondary50: 1 use
+- shadow3: 1 use
+- third/third10: 1 use
+- third/third30: 1 use
+- third/third40: 1 use
+- third/third50: 1 use
+- third/third60: 1 use
+- yellow/yellow10: 1 use
+
+## Layout & Structure
+Screen: 🙋🏻‍♀️ | Cover / Thumbnail
+- FRAME "Thumbnail", 2390x1308px, constraints left/top, fill Main Color/blue
+  - VECTOR "Vector", 1248x1308px, constraints scale/scale, stroke gradient_radial(#FF9417 0% | #3BB7FF 69%) 1px, opacity 50%
+  - FRAME "Frame 1171275659", 500x538px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "logo", 500x454px, constraints left/top, radius 0/0/0/0px
+      - FRAME "app ui kit", 500x126px, vertical pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints center/top
+        - TEXT "App UI Kit", 371x75px, constraints left/top, fill Neutral/white, text [Inter Medium, 64px], [heading]
+        - TEXT "Learning english app", 296x39px, constraints left/top, fill Neutral/white, text [Inter Regular, 32px], [heading]
+      - FRAME "screen", 332x72px, constraints center/top, radius 16px, fill #FFFFFF, stroke Neutral/white 1px
+        - GROUP "Text", 263x62.25px, constraints center/center
+          - FRAME "Frame 1", 62.25x62.25px, horizontal pad 0 0 0 0px gap 31.13px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "figma", 62.25x62.25px, constraints left/top, fill #FFFFFF
+          - TEXT "+70 Screens", 207x42px, constraints center/center, fill Main Color/blue, text [Inter SemiBold, 36px], [heading]
+      - FRAME "speakup", 500x229px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "logo", 100x100px, constraints left/top, fill Neutral/white
+        - TEXT "SPEAK UP", 500x105px, constraints left/top, fill Neutral/white, text [Inter SemiBold, 86.47px], [heading]
+    - FRAME "Badge", 189x72px, horizontal pad 16 28 16 24px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill Neutral/white, stroke Neutral/white 1.5px
+      - FRAME "check-circle", 40x40px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 33.33x33.33px, constraints scale/scale, stroke Main Color/blue 3.33px
+      - TEXT "Text", 79x38px, constraints left/top, fill Main Color/blue, text [Inter SemiBold, 32px], [heading]
+  - GROUP "Group 1000003381", 3407.63x3932.7px, constraints left/top, radius 0/0/0/0px [decorative, ~12 shapes]
+
+Screen: 👩🏻‍💻 | Designers / Maya atay
+- FRAME "Maya atay", 658.28x500px, constraints left/top, fill Main Color/Subtle
+  - FRAME "Frame 26", 244x317px, constraints left/top, radius 16px, fill #FFFFFF
+    - FRAME "Frame 8", 208x36px, horizontal pad 8 0 8 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16/16/0/16px
+      - INSTANCE "mail", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.67x13.33px, constraints scale/scale, fill primary/primary
+      - TEXT "mayaatay98@gmail.com", 159x18px, constraints left/top, fill Neutral/gray-404040, text [Poppins Medium, 12px]
+    - FRAME "Frame 10", 208x36px, horizontal pad 8 0 8 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/16/16/16px
+      - INSTANCE "_Dribbble", 20x20px, constraints left/top, radius 6px, fill #FFFFFF
+        - GROUP "Group", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill primary/primary
+      - TEXT "@Maya Atay", 73x16px, constraints left/top, fill Neutral/gray-404040, text [Open Sans SemiBold, 12px]
+    - FRAME "Frame 6", 208x36px, horizontal pad 8 0 8 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16/0/16/16px
+      - INSTANCE "_Instagram", 20x20px, constraints left/top
+        - GROUP "Group", 19.99x20px, constraints scale/scale
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill primary/primary
+          - VECTOR "Vector", 10.27x10.28px, constraints scale/scale, fill primary/primary
+          - VECTOR "Vector", 2.4x2.4px, constraints scale/scale, fill primary/primary
+        - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill primary/primary
+      - TEXT "@theuix.maya", 84x16px, constraints left/top, fill Neutral/gray-404040, text [Open Sans SemiBold, 12px]
+    - FRAME "Frame 3", 237x47px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - TEXT "Maya atay", 237x25px, constraints left/top, fill Neutral/Black1-0C0C0C, text [Poppins Medium, 18px]
+      - TEXT "UI/UX designer", 237x22px, constraints left/top, fill Neutral/Black1-0C0C0C, text [Poppins Regular, 12px]
+    - VECTOR "Vector 1", 244x0px, constraints center/top, stroke Neutral/gray-DFDFDF 0.5px
+  - FRAME "Frame 27", 237x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+    - FRAME "Frame 8", 237x24px, horizontal pad 4 0 4 0px gap 4px align min/max sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "_Linkedin", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16x15.29px, constraints scale/scale, fill primary/primary
+      - TEXT "https://tr.linkedin.com/in/maya-atay-6b5391212", 217x13px, constraints left/top, fill primary/primary, text [Poppins Regular, 9px]
+  - FRAME "Frame 3", 223x74px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Maya atay", 195x34px, constraints left/top, fill Neutral/Black1-0C0C0C, text [Poppins SemiBold, 24px], [heading]
+    - TEXT "UI/UX designer", 223x40px, constraints left/top, fill Neutral/Black1-0C0C0C, text [Poppins Light, 22px]
+  - FRAME "Frame 20", 152x152px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 80px, stroke primary/primary 1.5px
+    - RECTANGLE "IMG_3386", 140x140px, constraints left/top, radius 80px, fill image(hash: e057eca7a1cc265c1fae2905a8b518462098bf07)
+  - TEXT "HELLO I’m", 93x36px, constraints left/top, fill primary/primary, text [Poppins Regular, 20px]
+  - TEXT ""I am a junior UI designer who launched an English language ", 295x102px, constraints left/top, fill Neutral/gray-404040, text [Poppins Regular, 12px]
+
+Screen: 👩🏻‍💻 | Designers / Parisa ahmad abadi
+- FRAME "Parisa ahmad abadi", 628x500px, constraints left/top, fill Main Color/Subtle
+  - FRAME "Frame 26", 244x317px, constraints left/top, radius 16px, fill #FFFFFF
+    - FRAME "Frame 3", 237x47px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/top
+      - TEXT "Parisa ahmad abadi", 237x25px, constraints left/top, fill Neutral/Black1-0C0C0C, text [Poppins Medium, 18px]
+      - TEXT "UI/UX designer", 237x22px, constraints left/top, fill Neutral/Black1-0C0C0C, text [Poppins Regular, 12px]
+    - VECTOR "Vector 1", 244x0px, constraints center/top, stroke Neutral/gray-DFDFDF 0.5px
+    - FRAME "Frame 4", 225x36px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16/16/0/16px
+      - INSTANCE "mail", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.67x13.33px, constraints scale/scale, fill primary/primary
+      - TEXT "parisaamadabadi412@gmail.com", 174x15px, constraints left/top, fill #000000, text [Poppins Medium, 10px]
+    - FRAME "Frame 7", 208x36px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/16/16/16px
+      - INSTANCE "_Dribbble", 20x20px, constraints left/top, radius 6px, fill #FFFFFF
+        - GROUP "Group", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill primary/primary
+      - TEXT "https://dribbble.com/parah1188", 178x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+    - FRAME "Frame 20", 208x36px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16/0/16/16px
+      - INSTANCE "_Instagram", 20x20px, constraints left/top
+        - GROUP "Group", 19.99x20px, constraints scale/scale
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill primary/primary
+          - VECTOR "Vector", 10.27x10.28px, constraints scale/scale, fill primary/primary
+          - VECTOR "Vector", 2.4x2.4px, constraints scale/scale, fill primary/primary
+        - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill primary/primary
+      - TEXT "pa_uiuxdesigner", 87x15px, constraints left/top, fill #000000, text [Poppins Medium, 10px]
+  - FRAME "Frame 28", 152x152px, horizontal pad 6 6 6 6px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 80px, stroke primary/primary 1px
+    - RECTANGLE "Rectangle 2", 140x140px, constraints left/top, radius 80px, fill image(hash: 5174184cf991b3562a92175198927af2096b4630)
+  - TEXT "HELLO I’m", 93x36px, constraints left/top, fill primary/primary, text [Poppins Regular, 20px]
+  - TEXT ""I am a junior UI designer who launched an English language ", 295x102px, constraints left/top, fill Neutral/gray-404040, text [Poppins Regular, 12px]
+  - FRAME "Frame 3", 272x96px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Parisa ahmad abadi", 252x32px, constraints left/top, fill Neutral/Black1-0C0C0C, text [Poppins SemiBold, 23px]
+    - TEXT "UI/UX designer", 159x40px, constraints left/top, fill Neutral/Black1-0C0C0C, text [Poppins Light, 22px]
+    - FRAME "Frame 8", 272x24px, horizontal pad 4 0 4 0px gap 4px align min/max sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "_Linkedin", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16x15.29px, constraints scale/scale, fill primary/primary
+      - TEXT "https://www.linkedin.com/in/parisa-ahmadi-33a245291", 252x13px, constraints left/top, fill primary/primary, text [Poppins Regular, 9px]
+
+Screen: 📐 | Style / Colors
+- FRAME "Colors", 1440x2892px, constraints left/top, fill Light / Light 4
+  - RECTANGLE "Background", 1170x2642px, constraints left/top, radius 12px, fill White, effect [drop_shadow 24px offset 4 8 #F2F2F5]
+  - GROUP "Header", 262x194px, constraints left/top, radius 0/0/0/0px
+    - TEXT "01", 189x194px, constraints left/top, fill Light / Light 2, text [Inter Bold, 160px], [heading]
+    - TEXT "Color", 173x77px, constraints left/top, fill Primary / Main Color, text [Inter Bold, 64px], [heading]
+  - GROUP "Footer", 1169x25.4px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Label", 82x25.4px, constraints left/top, fill Dark / Dark 2, text [Label / Extra Small]
+    - GROUP "Line Footer", 1069x8.47px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 25", 1069x0px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 27", 0x8.47px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 26", 0x8.47px, constraints left/top, stroke Light / Light 1 1px
+  - GROUP "Brand Colors", 1030x509px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Mian  Color", 1030x284px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 318", 1030x284px, constraints left/top, radius 8px, fill #2563EB
+      - TEXT "Main Color", 222x57px, constraints left/top, fill White, text [Nunito Bold, 44px], [heading]
+      - TEXT "HEX #2563EB", 132x34px, constraints left/top, fill White, text [Body Large 20px / Semibold]
+    - GROUP "Darker", 322x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 322x109px, constraints left/top, radius 8px, fill #3568D4
+      - TEXT "Darker", 92x36px, constraints left/top, fill White, text [Heading 3 28px], [heading]
+      - TEXT "HEX #2659BF", 105x27px, constraints left/top, fill White, text [Body Normal 16px / Semibold]
+    - GROUP "Lighter", 322x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 322x109px, constraints left/top, radius 8px, fill #99BBFF
+      - TEXT "Lighter", 98x36px, constraints left/top, fill White, text [Heading 3 28px], [heading]
+      - TEXT "HEX #99BBFF", 106x27px, constraints left/top, fill White, text [Body Normal 16px / Semibold]
+    - GROUP "Subtle", 322x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 322x109px, constraints left/top, radius 8px, fill #E3EDFF
+      - TEXT "Subtle", 90x36px, constraints left/top, fill Main Color/blue, text [Heading 3 28px], [heading]
+      - TEXT "HEX #E3EDFF", 105x27px, constraints left/top, fill Main Color/blue, text [Body Normal 16px / Semibold]
+    - GROUP "Subtittle", 1030x52px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 258x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+      - TEXT "Label", 146x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+  - GROUP "State Colors", 1030x263px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Success", 233.5x171px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 330", 67.17x46px, constraints left/top, radius 8px, fill Green / Green 4
+      - RECTANGLE "Rectangle 331", 67.17x46px, constraints left/top, radius 8px, fill Green / Green 3
+      - RECTANGLE "Rectangle 332", 67.17x46px, constraints left/top, radius 8px, fill Green / Green 1
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Green / Green 2
+      - TEXT "Success", 117x36px, constraints left/top, fill White, text [Heading 3 28px], [heading]
+      - TEXT "HEX #06C270", 106x27px, constraints left/top, fill White, text [Body Normal 16px / Semibold]
+    - GROUP "Info", 233.5x171px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 327", 67.17x46px, constraints left/top, radius 8px, fill #CADEFF
+      - RECTANGLE "Rectangle 328", 67.17x46px, constraints left/top, radius 8px, fill #9DBFF9
+      - RECTANGLE "Rectangle 329", 67.17x46px, constraints left/top, radius 8px, fill Blue / Blue 1
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill #5B8DEF
+      - TEXT "Info", 53x36px, constraints left/top, fill White, text [Heading 3 28px], [heading]
+      - TEXT "HEX #0063F7", 104x27px, constraints left/top, fill White, text [Body Normal 16px / Semibold]
+    - GROUP "Warning", 233.5x171px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 324", 67.17x46px, constraints left/top, radius 8px, fill Yellow / Yellow 4
+      - RECTANGLE "Rectangle 325", 67.17x46px, constraints left/top, radius 8px, fill Yellow / Yellow 3
+      - RECTANGLE "Rectangle 326", 67.17x46px, constraints left/top, radius 8px, fill Yellow / Yellow 1
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Yellow / Yellow 2
+      - TEXT "Warning", 116x36px, constraints left/top, fill White, text [Heading 3 28px], [heading]
+      - TEXT "HEX #FFCC00", 106x27px, constraints left/top, fill White, text [Body Normal 16px / Semibold]
+    - GROUP "Error", 233.5x171px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 323", 67.17x46px, constraints left/top, radius 8px, fill Red / Red 4
+      - RECTANGLE "Rectangle 323", 67.17x46px, constraints left/top, radius 8px, fill Red / Red 3
+      - RECTANGLE "Rectangle 323", 67.17x46px, constraints left/top, radius 8px, fill Red / Red 1
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill #E2222E
+      - TEXT "Error", 68x36px, constraints left/top, fill White, text [Heading 3 28px], [heading]
+      - TEXT "HEX #E2222E", 104x27px, constraints left/top, fill White, text [Body Normal 16px / Semibold]
+    - GROUP "Subtittle", 1030x52px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 540x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 259x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+      - TEXT "Label", 138x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+  - GROUP "Dark Colors", 1030x201px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Dark 4", 233.5x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Neutral/neutral30
+      - TEXT "neutral 30", 135x36px, constraints left/top, fill #FFFFFF, text [Nunito Bold, 28px], [heading]
+      - TEXT "HEX #7D8388", 106x27px, constraints left/top, fill White, text [Body Normal 16px / Semibold]
+    - GROUP "Dark 3", 233.5x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Neutral/neutral 20
+      - TEXT "neutra 20", 126x36px, constraints left/top, fill #FFFFFF, text [Nunito Bold, 28px], [heading]
+      - TEXT "HEX #515960", 104x27px, constraints left/top, fill White, text [Body Normal 16px / Semibold]
+    - GROUP "Dark 2", 233.5x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Neutral/neutral 10
+      - TEXT "neutral 10", 135x36px, constraints left/top, fill #FFFFFF, text [Nunito Bold, 28px], [heading]
+      - TEXT "HEX #6B7588", 105x27px, constraints left/top, fill White, text [Nunito SemiBold, 16px]
+    - GROUP "Dark 1", 233.5x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Neutral/neutral 0
+      - TEXT "neutral 0", 118x36px, constraints left/top, fill #FFFFFF, text [Nunito Bold, 28px], [heading]
+      - TEXT "HEX #3A3A3C", 110x27px, constraints left/top, fill White, text [Nunito SemiBold, 16px]
+    - GROUP "Subtittle", 1030x52px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 529x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 259x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+      - TEXT "Label", 163x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+  - GROUP "Light Colors", 1031x266px, constraints left/top, radius 8px
+    - GROUP "Light 4", 233.5x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Neutral/neutral 70, stroke Dark / Dark 4 1px
+      - TEXT "neutral 70", 135x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 28px], [heading]
+      - TEXT "HEX #F4F4F5", 103x27px, constraints left/top, fill Dark / Dark 1, text [Body Normal 16px / Semibold]
+    - GROUP "Light 5", 233.5x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Neutral/white, stroke Dark / Dark 4 1px
+      - TEXT "neutral 80", 135x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 28px], [heading]
+      - TEXT "HEX #FFFFFF", 101x27px, constraints left/top, fill Dark / Dark 1, text [Body Normal 16px / Semibold]
+    - GROUP "Light 3", 233.5x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Neutral/neutral 60, stroke Dark / Dark 4 1px
+      - TEXT "neutral 60", 135x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 28px], [heading]
+      - TEXT "HEX #EAEBEC", 108x27px, constraints left/top, fill Dark / Dark 1, text [Body Normal 16px / Semibold]
+    - GROUP "Light 2", 233.5x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Neutral/neutral 50, stroke Dark / Dark 4 1px
+      - TEXT "neutral 50", 135x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 28px], [heading]
+      - TEXT "HEX #BEC1C4", 108x27px, constraints left/top, fill Dark / Dark 1, text [Body Normal 16px / Semibold]
+    - GROUP "Light 1", 233.5x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 233.5x109px, constraints left/top, radius 8px, fill Neutral/neutral 40, stroke Dark / Dark 4 1px
+      - TEXT "neutral 40", 135x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 28px], [heading]
+      - TEXT "HEX #A8ACAF", 111x27px, constraints left/top, fill Dark / Dark 1, text [Body Normal 16px / Semibold]
+  - GROUP "Brand Colors", 1030x509px, constraints center/top, radius 0/0/0/0px
+    - GROUP "Mian  Color", 1030x284px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 318", 1030x284px, constraints left/top, radius 8px, fill #FE9519
+      - TEXT "Secondary Color", 338x57px, constraints left/top, fill Neutral/neutral 0, text [Nunito Bold, 44px], [heading]
+      - TEXT "HEX #FE9519", 129x34px, constraints left/top, fill Neutral/neutral 0, text [Body Large 20px / Semibold]
+    - GROUP "Darker", 322x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 322x109px, constraints left/top, radius 8px, fill #FEA419
+      - TEXT "Darker", 92x36px, constraints left/top, fill Neutral/white, text [Heading 3 28px], [heading]
+      - TEXT "HEX #FEA419", 106x27px, constraints left/top, fill Neutral/white, text [Body Normal 16px / Semibold]
+    - GROUP "Lighter", 322x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 322x109px, constraints left/top, radius 8px, fill #FEC875
+      - TEXT "Lighter", 98x36px, constraints left/top, fill Neutral/white, text [Heading 3 28px], [heading]
+      - TEXT "HEX #FEC875", 105x27px, constraints left/top, fill Neutral/white, text [Body Normal 16px / Semibold]
+    - GROUP "Subtle", 322x109px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 319", 322x109px, constraints left/top, radius 8px, fill #FFF6E8
+      - TEXT "Subtle", 90x36px, constraints left/top, fill Secondary color/orange, text [Heading 3 28px], [heading]
+      - TEXT "HEX #FFF6E8", 102x27px, constraints left/top, fill Secondary color/orange, text [Body Normal 16px / Semibold]
+    - GROUP "Subtittle", 1030x52px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 258x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+      - TEXT "Label", 166x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+  - FRAME "Frame 1000002623", 1030x172px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints center/top
+    - GROUP "State Colors", 1030x52px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Subtittle", 1030x52px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+        - RECTANGLE "Rectangle 322", 540x5px, constraints left/top, fill Light / Light 3
+        - RECTANGLE "Rectangle 322", 257.5x5px, constraints left/top, fill Light / Light 3
+        - RECTANGLE "Rectangle 322", 259x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+        - TEXT "Label", 138x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+    - FRAME "Pallete", 1030x80px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill image(hash: 5787ea5f2e93bf6924415918c60f5a8bbe12d894)
+      - FRAME "0", 373x80px, vertical pad 20 30 20 30px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill gradient/orange
+      - FRAME "83", 363x80px, vertical pad 20 30 20 30px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill gradient/blue
+      - FRAME "81", 280x80px, vertical pad 20 30 20 30px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill gradient/red
+
+Screen: 📐 | Style / Typography
+- FRAME "Typography", 1440x2562px, constraints left/top, fill Light / Light 4
+  - RECTANGLE "Background", 1170x2367px, constraints left/top, radius 12px, fill White, effect [drop_shadow 24px offset 4 8 #F2F2F5]
+  - GROUP "Header", 493x194px, constraints left/top, radius 0/0/0/0px
+    - TEXT "02", 211x194px, constraints left/top, fill Light / Light 2, text [Inter Bold, 160px], [heading]
+    - TEXT "Typography", 382x77px, constraints left/top, fill Primary / Main Color, text [Inter Bold, 64px], [heading]
+  - GROUP "Footer", 1169x15px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Label", 82x15px, constraints left/top, fill Dark / Dark 2, text [Label / Extra Small]
+    - GROUP "Line Footer", 1069x5px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 25", 1069x0px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 27", 0x5px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 26", 0x5px, constraints left/top, stroke Light / Light 1 1px
+  - GROUP "Typefaces", 1030x359px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Inter", 284x267px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 333", 284x267px, constraints left/top, radius 8px, fill Light / Light 3
+      - TEXT "nunito", 215x62px, constraints left/top, fill Dark / Dark 1, text [Nunito ExtraLight, 48px], [heading]
+      - TEXT "Google font", 215x33px, constraints left/top, fill Dark / Dark 4, text [Nunito Regular, 22px]
+      - TEXT "Extra Light", 215x35px, constraints left/top, fill Dark / Dark 2, text [Nunito Regular, 20px]
+      - TEXT "Bold", 215x35px, constraints left/top, fill Dark / Dark 2, text [Nunito Bold, 20px]
+    - GROUP "Lato", 284x267px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 333", 284x267px, constraints left/top, radius 8px, fill Dark / Dark 1
+      - TEXT "Nunito", 215x63px, constraints left/top, fill White, text [Nunito ExtraLight, 48px], [heading]
+      - TEXT "Google font", 215x33px, constraints left/top, fill Dark / Dark 2, text [Nunito Regular, 22px]
+      - TEXT "Regular", 215x35px, constraints left/top, fill Light / Light 2, text [Nunito Regular, 20px]
+      - TEXT "Semibold", 215x35px, constraints left/top, fill Light / Light 2, text [Nunito SemiBold, 20px]
+    - GROUP "Subtittle", 1030x50px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Label", 111x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+      - RECTANGLE "Rectangle 322", 343.33x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 343.33x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 344x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+  - GROUP "Subtitle", 1030x50px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Subtittle", 1030x50px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Label", 162x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+      - RECTANGLE "Rectangle 322", 343.33x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 343.33x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 346x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+  - GROUP "Row 1", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 334", 1030x70px, constraints left/top, radius 8px, fill White, stroke Light / Light 1 1px
+    - TEXT "Name", 56x34px, constraints left/top, fill Dark / Dark 1, text [Body Large 20px / Semibold]
+    - TEXT "Font weight", 112x34px, constraints left/top, fill Dark / Dark 1, text [Body Large 20px / Semibold]
+    - TEXT "Font size", 84x34px, constraints left/top, fill Dark / Dark 1, text [Body Large 20px / Semibold]
+    - TEXT "Line height", 102x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 2", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Heading Large", 195x36px, constraints left/top, fill neutral/neutral10, text [Heading Large], [heading]
+    - TEXT "extraBold", 132x36px, constraints left/top, fill neutral/neutral10, text [Heading Large], [heading]
+    - TEXT "28px", 66x36px, constraints left/top, fill Dark / Dark 1, text [Heading Large], [heading]
+    - TEXT "1.3 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 3", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Heading Medium", 193x31px, constraints left/top, fill neutral/neutral10, text [Heading medium extrabold], [heading]
+    - TEXT "extraBold", 113x31px, constraints left/top, fill neutral/neutral10, text [Heading medium extrabold], [heading]
+    - TEXT "24px", 57x31px, constraints left/top, fill Dark / Dark 1, text [Heading medium extrabold], [heading]
+    - TEXT "1.3 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 4", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Heading Small", 152x29px, constraints left/top, fill neutral/neutral10, text [Heading Small Bold], [heading]
+    - TEXT "Bold", 48x29px, constraints left/top, fill neutral/neutral10, text [Heading Small Bold], [heading]
+    - TEXT "22px", 52x29px, constraints left/top, fill Dark / Dark 1, text [Heading Small Bold], [heading]
+    - TEXT "1.3 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 5", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Title Large", 102x26px, constraints left/top, fill neutral/neutral10, text [Body bold]
+    - TEXT "Bold", 43x26px, constraints left/top, fill neutral/neutral10, text [Title Large semiBold], [heading]
+    - TEXT "20px", 47x26px, constraints left/top, fill Dark / Dark 1, text [Title Large semiBold], [heading]
+    - TEXT "1.3 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 6", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Title Large", 100x26px, constraints left/top, fill neutral/neutral10, text [Title Large Light], [heading]
+    - TEXT "Light", 47x28px, constraints left/top, fill neutral/neutral10, text [Nunito SemiBold, 20px]
+    - TEXT "20px", 47x26px, constraints left/top, fill Dark / Dark 1, text [Title Large Light], [heading]
+    - TEXT "1.3 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 7", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Title Medium", 112x23px, constraints left/top, fill neutral/neutral10, text [Title bold], [heading]
+    - TEXT "semiBold", 77x23px, constraints left/top, fill neutral/neutral10, text [Nunito SemiBold, 18px]
+    - TEXT "18px", 42x23px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 18px]
+    - TEXT "1.3 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 8", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Title Medium", 105x23px, constraints left/top, fill neutral/neutral10, text [Title Medium Light], [heading]
+    - TEXT "Light", 41x23px, constraints left/top, fill neutral/neutral10, text [Title Medium Light], [heading]
+    - TEXT "18px", 42x23px, constraints left/top, fill Dark / Dark 1, text [Title Medium Light], [heading]
+    - TEXT "1.3 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 9", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Title Small", 81x24px, constraints left/top, fill neutral/neutral10, text [Title Small Bold], [heading]
+    - TEXT "small", 40x24px, constraints left/top, fill Dark / Dark 1, text [Nunito Medium, 16px]
+    - TEXT "16px", 37x24px, constraints left/top, fill Dark / Dark 1, text [Nunito Medium, 16px]
+    - TEXT "1.3 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 10", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Title Small", 83x24px, constraints left/top, fill neutral/neutral10, text [Title bold], [heading]
+    - TEXT "Bold", 35x24px, constraints left/top, fill neutral/neutral10, text [Title Small Bold], [heading]
+    - TEXT "16px", 37x24px, constraints left/top, fill Dark / Dark 1, text [Title Small Bold], [heading]
+    - TEXT "1.5 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 11", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Body Large", 72x19px, constraints left/top, fill Dark / Dark 1, text [Body Large]
+    - TEXT "Large", 36x19px, constraints left/top, fill neutral/neutral10, text [Body Large]
+    - TEXT "14px", 33x19px, constraints left/top, fill Dark / Dark 1, text [Body Large]
+    - TEXT "1.7 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 12", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Body Large semiBold", 139x19px, constraints left/top, fill neutral/neutral10, text [Title bold], [heading]
+    - TEXT "Bold", 30x19px, constraints left/top, fill Dark / Dark 1, text [Body Large semiBold]
+    - TEXT "14px", 33x19px, constraints left/top, fill Dark / Dark 1, text [Body Large semiBold]
+    - TEXT "1.7 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 15", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Body Medium", 77x16px, constraints left/top, fill neutral/neutral10, text [Body Medium Bold]
+    - TEXT "bold", 26x16px, constraints left/top, fill Dark / Dark 1, text [Body Medium Bold]
+    - TEXT "12px", 28x16px, constraints left/top, fill Dark / Dark 1, text [Body Medium Bold]
+    - TEXT "1.7 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 13", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Body Large Bold", 111x19px, constraints left/top, fill neutral/neutral10, text [Body Large Bold]
+    - TEXT "bold", 30x19px, constraints left/top, fill Dark / Dark 1, text [Body Large Bold]
+    - TEXT "14px", 33x19px, constraints left/top, fill Dark / Dark 1, text [Body Large Bold]
+    - TEXT "1.7 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 16", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Body Small", 53x28px, constraints left/top, fill neutral/neutral10, text [Body Small]
+    - TEXT "Medium", 37x28px, constraints left/top, fill neutral/neutral10, text [Body Small]
+    - TEXT "10px", 24x28px, constraints left/top, fill Dark / Dark 1, text [Body Small]
+    - TEXT "1.7 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 14", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Body Small", 63x16px, constraints left/top, fill Dark / Dark 1, text [Body Medium]
+    - TEXT "Regular / Semibold", 104x16px, constraints left/top, fill Dark / Dark 1, text [Body Medium]
+    - TEXT "14px", 28x16px, constraints left/top, fill Dark / Dark 1, text [Body Medium]
+    - TEXT "1.7 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - GROUP "Row 17", 1030x70px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 335", 1030x70px, constraints left/top, radius 8px, fill Light / Light 3
+    - TEXT "Body Small Bold", 77x28px, constraints left/top, fill neutral/neutral10, text [Body Small Bold]
+    - TEXT "bold", 21x28px, constraints left/top, fill Dark / Dark 1, text [Body Small Bold]
+    - TEXT "10px", 24x28px, constraints left/top, fill Dark / Dark 1, text [Body Small Bold]
+    - TEXT "1.7 x font size", 127x34px, constraints left/top, fill Dark / Dark 1, text [Nunito SemiBold, 20px]
+  - FRAME "Frame 984", 365x267px, vertical pad 41 25 41 25px gap 43px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #2563EB 1px
+    - TEXT "Nunito", 128x63.92px, constraints left/top, fill Black 100, text [Nunito Bold, 40px], [heading]
+    - TEXT "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 012345", 317x86.85px, constraints left/top, fill Black 100, text [Title/titleMdBold], [heading]
+
+Screen: 📐 | Style / Iconography
+- FRAME "Iconography", 1440x1657px, constraints left/top, fill Light / Light 4
+  - RECTANGLE "Background", 1170x1417px, constraints left/top, radius 12px, fill White, effect [drop_shadow 24px offset 4 8 #F2F2F5]
+  - GROUP "Header", 552x194px, constraints left/top, radius 0/0/0/0px
+    - TEXT "03", 216x194px, constraints left/top, fill Light / Light 2, text [Inter Bold, 160px], [heading]
+    - TEXT "Border Radius", 440x77px, constraints left/top, fill #3377FF, text [Inter Bold, 64px], [heading]
+  - GROUP "Footer", 1169x15px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Label", 82x15px, constraints left/top, fill Dark / Dark 2, text [Label / Extra Small]
+    - GROUP "Line Footer", 1069x5px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 25", 1069x0px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 27", 0x5px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 26", 0x5px, constraints left/top, stroke Light / Light 1 1px
+  - GROUP "Icon Sets", 1030x562.58px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Essentials", 1030x216px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 352", 1030x216px, constraints left/top, radius 8px, fill Light / Light 3
+      - COMPONENT "Essentials / Wayfinding", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 15x22.5px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 7.5x3.75px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 7.5x3.75px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Image", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 7.5x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 7.5x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 7.5x12px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 12x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 21x19.5px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 0.75x0.75px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 11.98x6.17px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 13.5x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Arrow-right", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 20.25x18.9px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Direction", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 22.5x12px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 6.75x6.75px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Check", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 13x10px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Message", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 13.5x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 10.5x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Relationship", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 10.76x3.34px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 10.85x3.37px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 11.19x3.12px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 6x5.85px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 6x5.85px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 6x5.85px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 6x5.85px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Pencil", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 4.71x4.71px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 4.71x4.7px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 20.63x20.63px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Laptop", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 18x11.25px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 22.5x6.75px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 3x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Chart", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 9x9px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Geometry", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 9x9px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 9x9px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 10.5x9.75px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 9x10.5px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / People", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 9.72x2.67px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 10.5x10.5px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 19.5x9.75px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Diamond", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 21.67x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 21.67x18.75px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Smartphone", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 13.5x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 13.5x22.5px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Rocket", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 7.85x4.44px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 4.44x7.84px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 5.96x5.95px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 16.44x16.44px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Cloud", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 22x16px, constraints scale/scale, stroke Primary / Main Color 1.5px
+        - VECTOR "Vector", 3x0px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Essentials / Password-hide", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 6.15x6.17px, constraints scale/scale, fill Primary / Main Color
+        - VECTOR "Vector", 14.23x11.3px, constraints scale/scale, fill Primary / Main Color
+        - VECTOR "Vector", 20.13x18.33px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Essentials / Compass", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.77x11.77px, constraints scale/scale, fill Primary / Main Color
+        - VECTOR "Vector", 21.33x21.33px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Essentials / Folder", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18.67x17.33px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Essentials / Download", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18.67x1.33px, constraints scale/scale, fill Primary / Main Color
+        - VECTOR "Vector", 14.53x16.99px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Essentials / Arrow", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 14.02x7px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Essentials / Indeterminate", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector 1", 13.33x0px, constraints scale/scale, stroke Primary / Main Color 2px
+      - COMPONENT "Essentials / History", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 4.96x9.25px, constraints scale/scale, fill Primary / Main Color
+        - VECTOR "Vector", 21.34x21.33px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Essentials / Layers", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21.33x10.79px, constraints scale/scale, fill Primary / Main Color
+        - VECTOR "Vector", 21.36x6.06px, constraints scale/scale, fill Primary / Main Color
+        - VECTOR "Vector", 21.33x6.06px, constraints scale/scale, fill Primary / Main Color
+      - ... +19 more children
+    - GROUP "State", 233x183px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 357", 233x183px, constraints left/top, radius 8px, fill Light / Light 3
+      - COMPONENT "Button / Small / States / Default", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.77x11.77px, constraints scale/scale, fill Dark / Dark 1
+        - VECTOR "Vector", 21.33x21.33px, constraints scale/scale, fill Dark / Dark 1
+      - COMPONENT "Button / Small / States / Disabled", 24x24px, constraints left/top, fill #FFFFFF, opacity 40%
+        - VECTOR "Vector", 11.77x11.77px, constraints scale/scale, fill Dark / Dark 1
+        - VECTOR "Vector", 21.33x21.33px, constraints scale/scale, fill Dark / Dark 1
+      - COMPONENT "Button / Small / States / Active", 36x36px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 354", 36x36px, constraints left/top, radius 4px, fill Dark / Dark 4
+        - INSTANCE "Essentials / Compass", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11.77x11.77px, constraints scale/scale, fill Dark / Dark 1
+          - VECTOR "Vector", 21.33x21.33px, constraints scale/scale, fill Dark / Dark 1
+      - COMPONENT "Button / Small / States / Hover", 36x36px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 353", 36x36px, constraints left/top, radius 4px, fill Light / Light 1
+        - INSTANCE "Essentials / Compass", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11.77x11.77px, constraints scale/scale, fill Dark / Dark 1
+          - VECTOR "Vector", 21.33x21.33px, constraints scale/scale, fill Dark / Dark 1
+      - COMPONENT "Button / Small / States / Focus", 36x36px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 355", 36x36px, constraints left/top, radius 4px, fill Light / Light 3, stroke Primary / Subtle 1.5px
+        - RECTANGLE "Rectangle 356", 36x36px, constraints left/top, radius 4px, stroke Primary / Lighter 2px
+        - INSTANCE "Essentials / Compass", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11.77x11.77px, constraints scale/scale, fill Dark / Dark 1
+          - VECTOR "Vector", 21.33x21.33px, constraints scale/scale, fill Dark / Dark 1
+      - TEXT "States", 72x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+    - GROUP "Status", 233x183px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 357", 233x183px, constraints left/top, radius 8px, fill Light / Light 3
+      - COMPONENT "Status / Error", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 1.77x1.77px, constraints scale/scale, fill Red / Red 2
+        - VECTOR "Vector", 1.33x9.33px, constraints scale/scale, fill Red / Red 2
+        - VECTOR "Vector", 21.33x21.33px, constraints scale/scale, fill Red / Red 2
+      - COMPONENT "Status / Warning", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 1.77x1.77px, constraints scale/scale, fill Yellow / Yellow 2
+        - VECTOR "Vector", 1.33x9.33px, constraints scale/scale, fill Yellow / Yellow 2
+        - VECTOR "Vector", 22.84x21.33px, constraints scale/scale, fill Yellow / Yellow 2
+      - COMPONENT "Status / Auccess", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21.33x21.33px, constraints scale/scale, fill Green / Green 2
+        - VECTOR "Vector", 13.71x9.46px, constraints scale/scale, fill Green / Green 2
+      - COMPONENT "Status / Info", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 1.87x1.87px, constraints scale/scale, fill Blue / Blue 2
+        - VECTOR "Vector", 5.33x8.6px, constraints scale/scale, fill Blue / Blue 2
+        - VECTOR "Vector", 21.33x21.33px, constraints scale/scale, fill Blue / Blue 2
+      - TEXT "Status", 73x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+    - GROUP "Loaders", 233x183px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 357", 233x183px, constraints left/top, radius 8px, fill Light / Light 3
+      - TEXT "Loaders", 89x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+      - COMPONENT "Loaders / Loader-line", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Loaders / Loader-clock", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Loaders / Loader-circle", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.25x21px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Loaders / Loader-alt", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill Primary / Main Color
+      - COMPONENT "Loaders / Loader-typing", 24x24px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 4x4px, constraints left/top, fill Primary / Main Color
+        - ELLIPSE "Ellipse 30", 4x4px, constraints left/top, fill Primary / Main Color
+        - ELLIPSE "Ellipse 31", 6x6px, constraints left/top, fill Primary / Main Color
+    - GROUP "Demo", 234x183px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 357", 234x183px, constraints left/top, radius 8px, fill Light / Light 3
+      - TEXT "Demo", 67x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+      - COMPONENT "Demo / Circle Subtle", 36x36px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "base", 36x36px, constraints left/top, fill Primary / Subtle
+        - INSTANCE "Essentials / Check", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13x10px, constraints scale/scale, stroke Primary / Main Color 1.5px
+      - COMPONENT "Demo / Circle Main Color", 36x36px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 1", 36x36px, constraints left/top, fill Primary / Main Color
+        - INSTANCE "Essentials / Check", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13x10px, constraints scale/scale, stroke White 1.5px
+      - COMPONENT "Demo / Stack Rectangle Background", 42x42px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "base-back", 36x36px, constraints left/top, radius 6px, fill Primary / Subtle
+        - RECTANGLE "base-front", 36x36px, constraints left/top, radius 6px, fill Primary / Main Color
+        - INSTANCE "Essentials / Smartphone", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 13.5x0px, constraints scale/scale, stroke Primary / Lighter 1.5px
+          - VECTOR "Vector", 13.5x22.5px, constraints scale/scale, stroke White 1.5px
+      - COMPONENT "Demo / Rectangle Background", 36x36px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "base", 36x36px, constraints left/top, radius 6px, fill Primary / Subtle
+        - INSTANCE "Essentials / Direction", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 22.5x12px, constraints scale/scale, stroke Primary / Lighter 1.5px
+          - VECTOR "Vector", 6.75x6.75px, constraints scale/scale, stroke Primary / Main Color 1.5px
+    - GROUP "Subtittle", 1030x50px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Label", 102x31px, constraints left/top, fill Dark / Dark 1, text [Nunito Bold, 24px], [heading]
+      - RECTANGLE "Rectangle 322", 515x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 516x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+  - FRAME "Frame 1061", 900x206px, horizontal pad 0 0 0 0px gap 100px sizing W:fixed H:fixed, constraints center/top
+    - GROUP "Group 1016", 100x206px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 991", 100x100px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+      - TEXT "4px", 35x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+      - TEXT "br0", 32x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 20px]
+    - GROUP "Group 1015", 100x206px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 992", 100x100px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+      - TEXT "br10", 44x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 20px]
+      - TEXT "6px", 35x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+    - GROUP "Group 1014", 100x206px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 993", 100x100px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+      - TEXT "br20", 44x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 20px]
+      - TEXT "8px", 35x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+    - GROUP "Group 1013", 100x206px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 994", 100x100px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+      - TEXT "br30", 44x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 20px]
+      - TEXT "10px", 47x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+    - GROUP "Group 1012", 100x206px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 995", 100x100px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "br40", 44x38px, constraints left/top, fill neutral/neutral10, text [Nunito Bold, 20px]
+      - TEXT "50%", 43x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+
+Screen: 📐 | Style / Grid
+- FRAME "Grid", 1440x1346px, constraints left/top, fill Light / Light 4
+  - RECTANGLE "Background", 1170x1099px, constraints left/top, radius 12px, fill White, effect [drop_shadow 24px offset 4 8 #F2F2F5]
+  - GROUP "Header", 246x194px, constraints left/top, radius 0/0/0/0px
+    - TEXT "04", 219x194px, constraints left/top, fill Light / Light 2, text [Inter Bold, 160px], [heading]
+    - TEXT "Grid", 135x77px, constraints left/top, fill Primary / Main Color, text [Inter Bold, 64px], [heading]
+  - GROUP "Footer", 1169x15px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Label", 82x15px, constraints left/top, fill Dark / Dark 2, text [Label / Extra Small]
+    - GROUP "Line Footer", 1069x5px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 25", 1069x0px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 27", 0x5px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 26", 0x5px, constraints left/top, stroke Light / Light 1 1px
+  - GROUP "Mobile", 1030x441.88px, constraints left/top, radius 0/0/0/0px
+    - GROUP "grid-desktop-hd", 1030x351.88px, constraints left/top, radius 0/0/0/0px
+      - GROUP "desktop hd", 1030x351.88px, constraints left/top, radius 0/0/0/0px
+        - GROUP "grid-column", 630x351.79px, constraints left/top, radius 0/0/0/0px [decorative, ~12 shapes]
+        - RECTANGLE "Rectangle 358", 90x34px, constraints left/top, fill Primary / Subtle
+        - RECTANGLE "Rectangle 359", 67x34px, constraints left/top, fill Primary / Subtle
+        - RECTANGLE "Rectangle 360", 51x34px, constraints left/top, fill Primary / Subtle
+        - RECTANGLE "Rectangle 361", 63x34px, constraints left/top, fill Primary / Subtle
+        - TEXT "2 Column", 330x34px, constraints left/top, fill Primary / Main Color, text [Body Large 20px / Semibold]
+        - TEXT "Type Center", 330x34px, constraints left/top, fill Primary / Main Color, text [Body Large 20px / Semibold]
+        - TEXT "Gutter width 30px", 330x34px, constraints left/top, fill Primary / Main Color, text [Body Large 20px / Semibold]
+        - TEXT "Column width 130px", 330x34px, constraints left/top, fill Primary / Main Color, text [Body Large 20px / Semibold]
+        - TEXT "320 x 1024px", 330x33px, constraints left/top, fill Dark / Dark 4, text [Stylized / Lead Paragraph]
+        - TEXT "Mobile", 330x62px, constraints left/top, fill Dark / Dark 1, text [Display 1 48px], [heading]
+    - GROUP "Subtittle", 1030x50px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Label", 80x31px, constraints left/top, fill Dark / Dark 1, text [Heading 4 24px], [heading]
+      - RECTANGLE "Rectangle 322", 206x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 206x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 206x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 206x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 208x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+  - GROUP "Spacing", 1030x297px, constraints left/top, radius 0/0/0/0px
+    - GROUP "margin-padding", 1000x207px, constraints left/top, radius 1px
+      - GROUP "rectangle", 1000x168px, constraints left/top, radius 1px [decorative, ~18 shapes]
+      - GROUP "text", 934x27px, constraints left/top, radius 0/0/0/0px
+        - TEXT "8px", 32x27px, constraints left/top, fill Dark / Dark 1, text [Label / Ekstra Large]
+        - TEXT "16px", 43x27px, constraints left/top, fill Dark / Dark 1, text [Label / Ekstra Large]
+        - TEXT "24px", 43x27px, constraints left/top, fill Dark / Dark 1, text [Label / Ekstra Large]
+        - TEXT "32px", 43x27px, constraints left/top, fill Dark / Dark 1, text [Label / Ekstra Large]
+        - TEXT "40px", 43x27px, constraints left/top, fill Dark / Dark 1, text [Label / Ekstra Large]
+        - TEXT "64px", 43x27px, constraints left/top, fill Dark / Dark 1, text [Label / Ekstra Large]
+        - TEXT "80px", 43x27px, constraints left/top, fill Dark / Dark 1, text [Label / Ekstra Large]
+        - TEXT "96px", 43x27px, constraints left/top, fill Dark / Dark 1, text [Label / Ekstra Large]
+        - TEXT "120px", 54x27px, constraints left/top, fill Dark / Dark 1, text [Label / Ekstra Large]
+    - GROUP "Subtittle", 1030x50px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Label", 96x31px, constraints left/top, fill Dark / Dark 1, text [Heading 4 24px], [heading]
+      - RECTANGLE "Rectangle 322", 206x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 206x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 206x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 206x5px, constraints left/top, fill Light / Light 3
+      - RECTANGLE "Rectangle 322", 207x7px, constraints left/top, radius 4/4/0/0px, fill Primary / Main Color
+
+Screen: 📐 | Style / Box Shadows
+- FRAME "Box Shadows", 1440x688px, constraints left/top, fill Light / Light 4
+  - RECTANGLE "Background", 1239x446px, constraints center/top, radius 12px, fill White, effect [drop_shadow 24px offset 4 8 #F2F2F5]
+  - GROUP "Header", 400x194px, constraints left/top, radius 0/0/0/0px
+    - TEXT "05", 214x194px, constraints left/top, fill Light / Light 2, text [Inter Bold, 160px], [heading]
+    - TEXT "Shadows", 289x77px, constraints left/top, fill #3377FF, text [Inter Bold, 64px], [heading]
+  - GROUP "Footer", 1169x15px, constraints center/top, radius 0/0/0/0px
+    - TEXT "Label", 82x15px, constraints left/top, fill Dark / Dark 2, text [Label / Extra Small]
+    - GROUP "Line Footer", 1069x5px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 25", 1069x0px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 27", 0x5px, constraints left/top, stroke Light / Light 1 1px
+      - LINE "Line 26", 0x5px, constraints left/top, stroke Light / Light 1 1px
+  - RECTANGLE "Rectangle 495", 200x200px, constraints left/top, radius 10px, fill neutral/neutral100, effect shadow0
+  - RECTANGLE "Rectangle 496", 200x200px, constraints left/top, radius 10px, fill neutral/neutral100, effect shadow1
+  - RECTANGLE "Rectangle 497", 200x200px, constraints left/top, radius 10px, fill neutral/neutral100, effect shadow2
+  - RECTANGLE "Rectangle 498", 200x200px, constraints left/top, radius 10px, fill neutral/neutral100, effect shadow3
+  - RECTANGLE "Rectangle 499", 200x200px, constraints left/top, radius 10px, fill neutral/neutral100, effect shadow4
+  - GROUP "Group 1186", 1033x28px, constraints left/top, radius 0/0/0/0px
+    - TEXT "shadow0", 85x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+    - TEXT "shadow1", 85x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+    - TEXT "shadow2", 85x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+    - TEXT "shadow3", 85x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+    - TEXT "shadow4", 85x28px, constraints left/top, fill neutral/neutral10, text [Title/titleLg1], [heading]
+
+Screen: UI / Courses
+- FRAME "Courses", 360x800px, constraints left/top, radius 24px, fill #FFFFFF
+  - INSTANCE "topAppBar", 360x54px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints center/top, fill neutral/neutral100
+    - FRAME "Container", 360x54px, horizontal pad 0 8 8 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "leftSide", 344x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "iconButtons", 48x48px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px
+          - FRAME "container", 40x40px, horizontal pad 8 8 8 8px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 50px
+            - INSTANCE "Icons/Linear/close", 24x24px, constraints left/top
+        - TEXT "title", 296x24px, constraints left/top, fill neutral/neutral10, text [Title Small Bold], [heading]
+  - FRAME "Frame 1171275656", 360x763px, vertical pad 8 20 0 20px gap 10px align min/center sizing W:fixed H:fixed, constraints center/top
+    - INSTANCE "courses list", 320x116px, vertical pad 12 16 12 16px gap 12px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill neutral/neutral100, stroke Main Color/blue 2px
+      - ELLIPSE "Ellipse 222", 10x10px, constraints center/center, fill neutral/neutral70, opacity 0%
+      - FRAME "content", 288x60px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 8", 60x60px, constraints left/top, radius 8px, fill image(hash: 9bd0670ae6d17e400c713c0ae66b4bd123eec5e3)
+        - FRAME "descripition", 158x53px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "title-text", 158x19px, constraints scale/scale, fill Neutral/black -0, text [Title bold], [heading]
+          - TEXT "description-text", 158x32px, constraints scale/scale, fill neutral/neutral40, text [Body Medium]
+        - INSTANCE "coursesButton", 46x46px, vertical pad 7 0 7 0px gap 1px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Main Color/blue
+          - INSTANCE "Icons/Linear/arrRight", 26x26px, constraints left/top
+            - GROUP "arrow-right", 26x26px, constraints scale/scale
+      - FRAME "info", 288x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "courseTopics", 231x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "label-text", 57x20px, constraints left/top, fill neutral/neutral10, text [Body/bodyLg]
+        - INSTANCE "courseLabels", 52x20px, horizontal pad 2 4 2 4px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill neutral/neutral70
+          - TEXT "label-text", 17x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+          - TEXT "label-text", 6x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+          - TEXT "label-text", 17x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+    - INSTANCE "courses list", 320x116px, vertical pad 12 16 12 16px gap 12px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill neutral/neutral100, stroke #F3F3F5 2px
+      - ELLIPSE "Ellipse 222", 10x10px, constraints center/center, fill neutral/neutral70, opacity 0%
+      - FRAME "content", 288x60px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "img/academy/10", 60x60px, constraints left/top, radius 8px, fill image(hash: ad9115c55b26d7e95fe7dab29566cede2818c907)
+          - RECTANGLE "unsplash:7uSKXpksCKg", 60x60px, constraints scale/scale, fill image(hash: da363753e78c4f698015c9c983099940f6044e5c)
+        - FRAME "descripition", 158x53px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "title-text", 158x19px, constraints scale/scale, fill Neutral/black -0, text [Title bold], [heading]
+          - TEXT "description-text", 158x32px, constraints scale/scale, fill neutral/neutral40, text [Body Medium]
+        - INSTANCE "coursesButton", 46x58px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill success/success70
+          - INSTANCE "Icons/Filled/tag", 26x26px, constraints left/top
+            - GROUP "vuesax/bold/tag", 26x26px, constraints center/center [decorative, ~4 shapes]
+          - TEXT "label-text", 30x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMdBold]
+      - FRAME "info", 288x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "courseTopics", 231x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "label-text", 102x20px, constraints left/top, fill neutral/neutral10, text [Body/bodyLg]
+        - INSTANCE "courseLabels", 52x20px, horizontal pad 2 4 2 4px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill neutral/neutral70
+          - TEXT "label-text", 17x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+          - TEXT "label-text", 6x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+          - TEXT "label-text", 17x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+    - INSTANCE "courses list", 320x116px, vertical pad 12 16 12 16px gap 12px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill neutral/neutral100, stroke #F3F3F5 2px
+      - ELLIPSE "Ellipse 222", 10x10px, constraints center/center, fill neutral/neutral70, opacity 0%
+      - FRAME "content", 288x60px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 1006", 60x60px, constraints left/top, radius 8px, fill image(hash: 162f8bf8d73db576965b87a72181ab7bf4bb4c4b), effect [drop_shadow 5px offset 0 0 #00000040]
+        - FRAME "descripition", 158x53px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "title-text", 158x19px, constraints scale/scale, fill Neutral/black -0, text [Title bold], [heading]
+          - TEXT "description-text", 158x32px, constraints scale/scale, fill neutral/neutral40, text [Body Medium]
+        - INSTANCE "coursesButton", 46x46px, vertical pad 7 0 7 0px gap 1px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill neutralVariant/neutralVariant70
+          - INSTANCE "Icons/Linear/arrRight", 26x26px, constraints left/top
+            - GROUP "arrow-right", 26x26px, constraints scale/scale
+      - FRAME "info", 288x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "courseLabels", 186x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Icons/Filled/document", 18x18px, constraints left/top
+            - GROUP "vuesax/bold/document", 18x18px, constraints center/center
+          - TEXT "label-text", 57x20px, constraints left/top, fill neutral/neutral10, text [Body/bodyLg]
+        - INSTANCE "courseLabels", 97x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons/Filled/notStarted", 18x18px, constraints left/top
+            - GROUP "vuesax/bold/refresh-circle", 15x15px, constraints center/center
+          - TEXT "label-text", 73x20px, constraints left/top, fill neutral/neutral10, text [Body/bodyLg]
+    - INSTANCE "courses list", 320x116px, vertical pad 12 16 12 16px gap 12px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill neutral/neutral100, stroke Secondary color/orange 2px
+      - ELLIPSE "Ellipse 222", 10x10px, constraints center/center, fill neutral/neutral70, opacity 0%
+      - FRAME "content", 288x60px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "img/academy/10", 60x60px, constraints left/top, radius 8px, fill image(hash: cdd178c546ab907c0f3d47fae240e50e8bd5b97e)
+          - RECTANGLE "unsplash:7uSKXpksCKg", 60x60px, constraints scale/scale, radius 8px, fill image(hash: cdd178c546ab907c0f3d47fae240e50e8bd5b97e)
+        - FRAME "descripition", 158x53px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "title-text", 158x19px, constraints scale/scale, fill Neutral/black -0, text [Title bold], [heading]
+          - TEXT "description-text", 158x32px, constraints scale/scale, fill neutral/neutral40, text [Body Medium]
+        - INSTANCE "coursesButton", 46x58px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill State Error/03
+          - TEXT "label-text", 26x16px, constraints left/top, fill Neutral/white, text [Body/bodyMdBold]
+      - FRAME "info", 288x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "courseTopics", 231x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "label-text", 102x20px, constraints left/top, fill neutral/neutral10, text [Body/bodyLg]
+        - INSTANCE "courseLabels", 52x20px, horizontal pad 2 4 2 4px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill neutral/neutral70
+          - TEXT "label-text", 17x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+          - TEXT "label-text", 6x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+          - TEXT "label-text", 17x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+    - INSTANCE "courseCards", 320x125px, vertical pad 12 16 12 16px gap 12px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill neutral/neutral100, stroke #F3F3F5 2px
+      - ELLIPSE "Ellipse 222", 10x10px, constraints center/center, fill neutral/neutral70, opacity 0%
+      - FRAME "content", 288x69px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "courseImage", 60x60px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill neutralVariant/neutralVariant60
+          - INSTANCE "image-3", 28x28px, constraints left/top
+            - BOOLEAN_OPERATION "Tone", 22.33x18.67px, constraints left/top, fill neutral/neutral30, opacity 12%
+            - BOOLEAN_OPERATION "Icon", 24.83x24.83px, constraints left/top, fill neutral/neutral30
+        - FRAME "descripition", 158x69px, vertical pad 0 54 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "title-text", 104x19px, constraints scale/scale, fill neutral/neutral10, text [Body Large semiBold]
+          - TEXT "description-text", 104x48px, constraints scale/scale, fill neutral/neutral40, text [Body Medium]
+        - INSTANCE "coursesButton", 46x46px, vertical pad 7 0 7 0px gap 1px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill neutralVariant/neutralVariant70
+          - INSTANCE "Icons/Linear/arrRight", 26x26px, constraints left/top
+            - GROUP "arrow-right", 26x26px, constraints scale/scale
+      - FRAME "info", 288x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "courseTopics", 88x19px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons/Color/hat", 18x18px, constraints left/top
+            - GROUP "vuesax/bold/education", 18x18px, constraints center/center
+          - TEXT "label-text", 64x19px, constraints left/top, fill neutral/neutral10, text [Body Large semiBold]
+        - INSTANCE "courseLabels", 81x19px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons/Filled/notStarted", 18x18px, constraints left/top
+            - GROUP "vuesax/bold/refresh-circle", 15x15px, constraints center/center
+          - TEXT "label-text", 57x19px, constraints left/top, fill neutral/neutral10, text [Body Large semiBold]
+        - INSTANCE "timer", 90x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "timerLabelSmall", 18x20px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill neutral/neutral10
+            - TEXT "text-number", 9x20px, constraints left/top, fill neutral/neutral100, text [Body/bodyLg]
+          - INSTANCE "timerLabelSmall", 18x20px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill neutral/neutral10
+            - TEXT "text-number", 9x20px, constraints left/top, fill neutral/neutral100, text [Body/bodyLg]
+          - INSTANCE "timerSeparatorSmall", 8x20px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fill, constraints left/top
+            - ELLIPSE "Circle", 3x3px, constraints left/top, fill neutral/neutral10
+            - ELLIPSE "Circle", 3x3px, constraints left/top, fill neutral/neutral10
+          - INSTANCE "timerLabelSmall", 18x20px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill neutral/neutral10
+            - TEXT "text-number", 9x20px, constraints left/top, fill neutral/neutral100, text [Body/bodyLg]
+          - INSTANCE "timerLabelSmall", 18x20px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill neutral/neutral10
+            - TEXT "text-number", 9x20px, constraints left/top, fill neutral/neutral100, text [Body/bodyLg]
+          - INSTANCE "timerSeparatorSmall", 8x20px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fill, constraints left/top
+            - ELLIPSE "Circle", 3x3px, constraints left/top, fill neutral/neutral10
+            - ELLIPSE "Circle", 3x3px, constraints left/top, fill neutral/neutral10
+          - INSTANCE "timerLabelSmall", 18x20px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill neutral/neutral10
+            - TEXT "text-number", 9x20px, constraints left/top, fill neutral/neutral100, text [Body/bodyLg]
+          - INSTANCE "timerLabelSmall", 18x20px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill neutral/neutral10
+            - TEXT "text-number", 9x20px, constraints left/top, fill neutral/neutral100, text [Body/bodyLg]
+      - GROUP "comingSoonLabel", 74x71.72px, constraints scale/scale [decorative, ~13 shapes]
+    - INSTANCE "courses list", 320x116px, vertical pad 12 16 12 16px gap 12px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill neutral/neutral100, stroke Secondary color/orange 2px
+      - ELLIPSE "Ellipse 222", 10x10px, constraints center/center, fill neutral/neutral70, opacity 0%
+      - FRAME "content", 288x60px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "img/academy/10", 60x60px, constraints left/top, radius 8px, fill image(hash: cdd178c546ab907c0f3d47fae240e50e8bd5b97e)
+          - RECTANGLE "unsplash:7uSKXpksCKg", 60x60px, constraints scale/scale, radius 8px, fill image(hash: cdd178c546ab907c0f3d47fae240e50e8bd5b97e)
+        - FRAME "descripition", 158x53px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "title-text", 158x19px, constraints scale/scale, fill Neutral/black -0, text [Title bold], [heading]
+          - TEXT "description-text", 158x32px, constraints scale/scale, fill neutral/neutral40, text [Body Medium]
+        - INSTANCE "coursesButton", 46x58px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill State Error/03
+          - TEXT "label-text", 26x16px, constraints left/top, fill Neutral/white, text [Body/bodyMdBold]
+      - FRAME "info", 288x20px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "courseTopics", 231x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "label-text", 102x20px, constraints left/top, fill neutral/neutral10, text [Body/bodyLg]
+        - INSTANCE "courseLabels", 52x20px, horizontal pad 2 4 2 4px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill neutral/neutral70
+          - TEXT "label-text", 17x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+          - TEXT "label-text", 6x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+          - TEXT "label-text", 17x16px, constraints left/top, fill neutral/neutral10, text [Body/bodyMd]
+  - INSTANCE "Component 93", 360x56px, horizontal pad 8 8 0 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill Neutral/white, stroke Neutral/neutral 60 1px
+    - FRAME "Frame 1171275582", 83x56px, vertical pad 10 10 10 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons/Linear/home", 24x24px, constraints left/top
+        - GROUP "home", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 18.46x18.44px, constraints scale/scale, stroke Neutral/neutral 20 1.5px
+          - VECTOR "Vector", 0x2.77px, constraints scale/scale, stroke Neutral/neutral 20 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, stroke Neutral/neutral 20 1px, opacity 0%
+      - TEXT "Home", 28x28px, constraints left/top, fill Neutral/neutral 20, text [Body Small]
+    - FRAME "Frame 1171275584", 83x56px, vertical pad 10 10 10 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons/Linear/openBook", 24x24px, constraints left/top
+        - GROUP "book-saved", 24x24px, constraints scale/scale [decorative, ~9 shapes]
+      - TEXT "Courses", 37x28px, constraints left/top, fill Secondary color/orange, text [Body Small]
+    - FRAME "Frame 1171275586", 83x56px, vertical pad 10 10 10 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons/Linear/closeBook", 24x24px, constraints left/top
+        - GROUP "frontBook", 24x24px, constraints left/top [decorative, ~5 shapes]
+      - TEXT "Review", 34x28px, constraints left/top, fill Neutral/neutral 20, text [Body Small]
+    - FRAME "Frame 1171275583", 83x56px, vertical pad 10 10 10 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons/Linear/user", 24x24px, constraints left/top
+        - GROUP "user", 24x24px, constraints scale/scale [decorative, ~6 shapes]
+      - TEXT "Me", 14x28px, constraints left/top, fill Neutral/neutral 20, text [Body Small]
+  - INSTANCE "iPhone-status-bar(lower)", 360x32px, constraints left/bottom, radius 0/0/24/24px, fill #FFFFFF
+    - INSTANCE "Bar", 128.64x5px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Base", 129x5px, constraints left_right/top_bottom, radius 10px, fill neutral/neutral0
+  - INSTANCE "Bars/Status/Default", 360x44px, constraints center/top, fill #FFFFFF
+    - GROUP "Symbol", 63.74x11.5px, constraints left/top, radius 0/0/0/0px [decorative, ~15 shapes]
+    - INSTANCE "Time", 180x22px, constraints left/center
+      - TEXT "↳ Time", 32x18px, constraints left/center, fill Neutral/black -0, text [SF Pro Text Semibold, 15px]
+
+Screen: UI / practices Resault [successfully]
+- FRAME "practices Resault [successfully]", 360x800px, constraints left/top, radius 24px, fill #FFFFFF
+  - FRAME "bodyVertical", 360x602px, vertical pad 0 20 0 20px gap 30px align center/center sizing W:fixed H:fixed, constraints center/top
+    - INSTANCE "starRating", 266x94px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons/Large/bigStar", 32x32px, constraints left/top
+        - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+      - INSTANCE "Icons/Large/bigStar", 54x54px, constraints left/top
+        - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+      - INSTANCE "Icons/Large/bigStar", 94x94px, constraints left/top
+        - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+      - INSTANCE "Icons/Large/bigGrayStar", 54x54px, constraints left/top
+        - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+      - INSTANCE "Icons/Large/bigGrayStar", 32x32px, constraints left/top
+        - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+    - FRAME "Frame 1171275746", 320x185px, vertical pad 0 0 0 0px gap 30px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "description", 320x31px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "title-text", 320x31px, constraints left/top, fill neutral/neutral10, text [Heading medium extrabold], [heading]
+      - FRAME "resultRating", 320x48px, horizontal pad 10 0 10 0px gap 40px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "items", 100x28px, horizontal pad 0 0 0 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 500px
+          - INSTANCE "Icons/Filled/tick", 28x28px, constraints left/top
+            - GROUP "tick-circle", 28x28px, constraints scale/scale
+          - TEXT "100%", 55x26px, constraints left/top, fill neutral/neutral10, text [Body bold]
+        - FRAME "items", 100x28px, horizontal pad 0 0 0 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 500px
+          - INSTANCE "Icons/Color/starFilled", 28x28px, constraints left/top
+            - GROUP "star", 28x28px, constraints left/top
+          - TEXT "3", 12x26px, constraints left/top, fill neutral/neutral10, text [Body bold]
+      - FRAME "message", 212x46px, horizontal pad 8 24 8 24px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill neutralVariant/neutralVariant70
+        - TEXT "Great job, keep going", 136x19px, constraints left/top, fill neutral/neutral10, text [Body Large semiBold]
+        - TEXT "🥳", 20x30px, constraints left/top, fill #263238, text [Title/titleLg2], [heading]
+  - GROUP "effect", 309.42x133.81px, constraints center/top [decorative, ~10 shapes]
+  - INSTANCE "iPhone-status-bar(lower)", 360x32px, constraints center/top, fill neutral/neutral100
+    - INSTANCE "Bar", 128.64x5px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Base", 129x5px, constraints left_right/top_bottom, radius 10px, fill neutral/neutral0
+  - FRAME "stickyBottom", 360x64px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints center/top, fill neutral/neutral100
+    - INSTANCE "Buttons", 155x44px, horizontal pad 10 22 10 22px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #2563EB
+      - TEXT "label-text", 67x24px, constraints scale/scale, fill neutral/neutral100, text [Title bold], [heading]
+    - INSTANCE "Buttons", 155x44px, horizontal pad 10 22 10 22px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill neutralVariant/neutralVariant60
+      - TEXT "label-text", 55x24px, constraints scale/scale, fill neutral/neutral10, text [Title bold], [heading]
+  - INSTANCE "topAppBar", 360x54px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints center/top, fill neutral/neutral100
+    - FRAME "Container", 360x54px, horizontal pad 0 8 6 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "leftSide", 344x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "iconButtons", 48x48px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px
+          - FRAME "container", 40x40px, horizontal pad 8 8 8 8px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 50px
+            - INSTANCE "Icons/Linear/arrowLeft", 24x24px, constraints left/top
+        - TEXT "title", 296x26px, constraints left/top, fill neutral/neutral10, text [Title/titleMdBold], [heading]
+  - INSTANCE "iPhone-status-bar(upper)", 360x44px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Notch", 360x30px, constraints left_right/top
+    - FRAME "Status Icons", 69x14px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Network Signal / Light", 20x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Path", 3x8px, constraints scale/scale, fill #F9F9F9
+        - VECTOR "Path", 3x6px, constraints scale/scale, fill #F9F9F9
+        - VECTOR "Path", 3x4.5px, constraints scale/scale, fill #F9F9F9
+        - VECTOR "Empty Bar", 3x10px, constraints scale/scale, fill #3C3C432E
+        - VECTOR "Path", 3x8px, constraints scale/scale, fill #000000
+        - VECTOR "Path", 3x6px, constraints scale/scale, fill #000000
+        - VECTOR "Path", 3x4.5px, constraints scale/scale, fill #000000
+      - INSTANCE "WiFi Signal / Light", 16x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Path", 4.37x3.06px, constraints scale/scale, fill #000000
+        - VECTOR "Path", 9.32x3.31px, constraints scale/scale, fill #000000
+        - VECTOR "Path", 14.25x4.32px, constraints scale/scale, fill #000000
+      - INSTANCE "Battery / Light", 25x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "􀋦", 8x12px, constraints left/top, fill #000000
+        - VECTOR "Subtract", 23x12px, constraints left/top, fill #3C3C4399
+        - VECTOR "Rectangle 23", 1x4px, constraints left/top, radius 0/0/0/0px, fill #3C3C4399
+        - GROUP "Battery", 8.45x8px, constraints left/top
+          - VECTOR "50", 8.45x8px, constraints left/top, fill #34C759
+    - INSTANCE "Indicator", 6x6px, constraints right/top
+    - INSTANCE "Time / Light", 54x21px, constraints left/top, radius 20px
+      - FRAME "9:41", 33x15px, constraints center/center, fill #FFFFFF
+        - VECTOR "9:41", 28.43x11.09px, constraints center/center, fill #000000
+
+Screen: UI / practices Resault [failed]
+- FRAME "practices Resault [failed]", 360x800px, constraints left/top, radius 24px, fill #FFFFFF
+  - FRAME "bodyVertical", 360x602px, vertical pad 0 20 0 20px gap 30px align center/center sizing W:fixed H:fixed, constraints center/top
+    - FRAME "Frame 1171275772", 320x309px, vertical pad 0 0 0 0px gap 30px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "starRating", 266x94px, horizontal pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icons/Large/bigGrayStar", 32x32px, constraints left/top
+          - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+        - INSTANCE "Icons/Large/bigGrayStar", 54x54px, constraints left/top
+          - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+        - INSTANCE "Icons/Large/bigGrayStar", 94x94px, constraints left/top
+          - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+        - INSTANCE "Icons/Large/bigGrayStar", 54x54px, constraints left/top
+          - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+        - INSTANCE "Icons/Large/bigGrayStar", 32x32px, constraints left/top
+          - GROUP "group", 94x94px, constraints center/center [decorative, ~6 shapes]
+      - FRAME "description", 320x31px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "title-text", 320x31px, constraints left/top, fill neutral/neutral10, text [Heading medium extrabold], [heading]
+      - FRAME "resultRating", 320x48px, horizontal pad 10 0 10 0px gap 40px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "items", 100x28px, horizontal pad 0 0 0 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 500px
+          - INSTANCE "Icons/Filled/fail", 28x28px, constraints left/top
+            - GROUP "Fail", 28x28px, constraints left/top
+          - TEXT "20%", 43x26px, constraints left/top, fill neutral/neutral10, text [Body bold]
+        - FRAME "items", 100x28px, horizontal pad 0 0 0 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 500px
+          - INSTANCE "Icons/Color/starFilled", 28x28px, constraints left/top
+            - GROUP "star", 28x28px, constraints left/top
+          - TEXT "0", 12x26px, constraints left/top, fill neutral/neutral10, text [Body bold]
+      - FRAME "message", 240x46px, horizontal pad 8 24 8 24px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill neutralVariant/neutralVariant70
+        - TEXT "No problem, you can try again", 192x19px, constraints left/top, fill neutral/neutral10, text [Body Large semiBold]
+  - INSTANCE "iPhone-status-bar(lower)", 360x32px, constraints center/top, fill neutral/neutral100
+    - INSTANCE "Bar", 128.64x5px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Base", 129x5px, constraints left_right/top_bottom, radius 10px, fill neutral/neutral0
+  - FRAME "stickyBottom", 360x64px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints center/top, fill neutral/neutral100
+    - INSTANCE "Buttons", 155x44px, horizontal pad 10 22 10 22px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill error/error0
+      - TEXT "label-text", 41x24px, constraints scale/scale, fill neutral/neutral100, text [Title bold], [heading]
+    - INSTANCE "Buttons", 155x44px, horizontal pad 10 22 10 22px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill neutralVariant/neutralVariant60
+      - TEXT "label-text", 33x24px, constraints scale/scale, fill neutral/neutral10, text [Title bold], [heading]
+  - INSTANCE "topAppBar", 360x54px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints center/top, fill neutral/neutral100
+    - FRAME "Container", 360x54px, horizontal pad 0 8 6 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "leftSide", 344x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "iconButtons", 48x48px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px
+          - FRAME "container", 40x40px, horizontal pad 8 8 8 8px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 50px
+            - INSTANCE "Icons/Linear/arrowLeft", 24x24px, constraints left/top
+        - TEXT "title", 296x26px, constraints left/top, fill neutral/neutral10, text [Title/titleMdBold], [heading]
+  - INSTANCE "iPhone-status-bar(upper)", 360x44px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Notch", 360x30px, constraints left_right/top
+    - FRAME "Status Icons", 69x14px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Network Signal / Light", 20x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Path", 3x8px, constraints scale/scale, fill #F9F9F9
+        - VECTOR "Path", 3x6px, constraints scale/scale, fill #F9F9F9
+        - VECTOR "Path", 3x4.5px, constraints scale/scale, fill #F9F9F9
+        - VECTOR "Empty Bar", 3x10px, constraints scale/scale, fill #3C3C432E
+        - VECTOR "Path", 3x8px, constraints scale/scale, fill #000000
+        - VECTOR "Path", 3x6px, constraints scale/scale, fill #000000
+        - VECTOR "Path", 3x4.5px, constraints scale/scale, fill #000000
+      - INSTANCE "WiFi Signal / Light", 16x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "Path", 4.37x3.06px, constraints scale/scale, fill #000000
+        - VECTOR "Path", 9.32x3.31px, constraints scale/scale, fill #000000
+        - VECTOR "Path", 14.25x4.32px, constraints scale/scale, fill #000000
+      - INSTANCE "Battery / Light", 25x14px, constraints left/top, fill #FFFFFF
+        - VECTOR "􀋦", 8x12px, constraints left/top, fill #000000
+        - VECTOR "Subtract", 23x12px, constraints left/top, fill #3C3C4399
+        - VECTOR "Rectangle 23", 1x4px, constraints left/top, radius 0/0/0/0px, fill #3C3C4399
+        - GROUP "Battery", 8.45x8px, constraints left/top
+          - VECTOR "50", 8.45x8px, constraints left/top, fill #34C759
+    - INSTANCE "Indicator", 6x6px, constraints right/top
+    - INSTANCE "Time / Light", 54x21px, constraints left/top, radius 20px
+      - FRAME "9:41", 33x15px, constraints center/center, fill #FFFFFF
+        - VECTOR "9:41", 28.43x11.09px, constraints center/center, fill #000000
+
+Screen: UI / Frame Sign In, Create Account
+- FRAME "Frame Sign In, Create Account", 5736x140px, horizontal pad 7 25 7 16px gap 33px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill gradient/gradientBlue
+  - FRAME "Frame 1000003434", 139x108px, horizontal pad 19 36 19 36px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF
+    - TEXT "01", 67x70px, constraints left/top, fill #282932, text [Inter SemiBold, 58px], [heading]
+  - TEXT "Sign In, Create Account, Verify Code, New Password, Complete", 2545x83px, constraints left/top, fill #FFFFFF, text [Nunito ExtraBold, 64px], [heading]
+
+Screen: UI / Authentication with phone
+- FRAME "Authentication with phone", 360x800px, constraints left/top, radius 24px, fill #FFFFFF, effect Shadow(WhiteBox)
+  - FRAME "Vertical rows", 360x602px, vertical pad 20 20 20 20px gap 16px align center/center sizing W:fixed H:fixed, constraints left/center
+    - FRAME "Description", 320x84px, vertical pad 0 0 10 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "title-text", 320x26px, constraints left/top, fill Neutral/black 00, text [Body bold]
+      - TEXT "description-text", 320x38px, constraints left/top, fill Neutral/neutral30, text [Body Large semiBold]
+    - INSTANCE "text field", 300x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px
+      - FRAME "state-layer", 300x48px, horizontal pad 4 4 4 4px gap 0px align min/center sizing W:fill H:fixed, constraints scale/center, radius 10px, fill neutral/neutral100, stroke neutralVariant/neutralVariant60 2px
+        - FRAME "flag", 68x44px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

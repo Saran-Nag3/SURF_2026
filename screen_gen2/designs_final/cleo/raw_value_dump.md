@@ -1,0 +1,1599 @@
+---
+name: datting-app-shirlou-community
+source_file: Datting App Shirlou (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:26:21.902751+00:00
+---
+
+# Datting App Shirlou (Community) Design Guidelines
+
+## Source
+- Figma file: Datting App Shirlou (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:26:21.902751+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White / F4F3FC: [#000000]
+- Avatar user square / Orlando Diggs: [image(hash: 05be041b58b5e1fe37be4a6bb5a74f76d7c0f06d)]
+- Text / Primary 40 #000000: [#00000066]
+- White #FFFFFF: [#FFFFFF]
+- border #E8E6EA: [#FFFFFF]
+- Avatar user square / Drew Cano: [image(hash: 3bbe168eab287460eef89ff5351e750f87e0634b)]
+- Avatar user square / Natali Craig: [image(hash: d9ddce204792163ce745396135bdc5f320b012d7)]
+- Avatar user square / Candice Wu: [image(hash: 0728c923a00edf130deb71506d0756fc0d57a8b8)]
+- Avatar user square / Demi Wilkinson: [image(hash: 4e18492d9e016d792d3dfe93dd80d52dd96046ee)]
+- Avatar user square / Lana Steiner: [image(hash: 30d4a462ea7b6e1428ffcb7ed5d646ca522e5a23)]
+- Avatar user square / Phoenix Baker: [image(hash: 261d783da4147da7fea569d1940840845897657f)]
+- Avatar user square / Olivia Rhye: [image(hash: 67da9fddd372b1b5b44ffef41eed6ceb810ddf8a)]
+- gradient: [gradient_linear(#F2F6F7 0% | #DADADA 47% | #BCBCBC 100%), gradient_linear(#1DC23800 0% | #22C63D 100%), gradient_linear(#1DC23800 33% | #22C63D 100%)]
+
+## Raw Colors (unstyled)
+- #000000: 230 uses
+- #DADADA: 77 uses
+- #FFFFFF: 76 uses
+- #8F8F8F: 46 uses
+- #FD9DAA: 30 uses
+- #441D39: 22 uses
+- #B9363B: 21 uses
+- #F6F6F6: 20 uses
+- #69ABDF: 19 uses
+- #00000052: 11 uses
+- #C1735C: 11 uses
+- #EEE4D8: 11 uses
+- #2A5E70: 6 uses
+- #A5503C: 6 uses
+- #C4C4C4: 6 uses
+- #F0EFEB: 6 uses
+- #FFB69F: 6 uses
+- #00000087: 4 uses
+- #3A3B3D: 4 uses
+- #AF5D4E: 4 uses
+- #D6D6D6: 4 uses
+- #DEF4FF: 4 uses
+- #F49037: 4 uses
+- #FF7C59: 4 uses
+- #FF9988: 4 uses
+- #FFA242: 4 uses
+
+## Typography Tokens
+- H6 / 14 Regular: Sk-Modernist Regular (400), 14px / 125%, tracking 0px
+
+## Raw Typography (unstyled)
+- Roboto Medium, 12px: 37 uses
+- SeoulNamsan CEB CEB, 12px: 23 uses
+- Roboto Medium, 11px: 20 uses
+- Ubuntu Regular, 12px: 20 uses
+- Roboto Medium, 10px: 15 uses
+- Roboto Regular, 12px: 15 uses
+- SeoulNamsan CEB CEB, 13px: 10 uses
+- Poppins Medium, 12px: 9 uses
+- Roboto Regular, 10px: 6 uses
+- Roboto Regular, 8px: 6 uses
+- Syne Bold, 48px: 5 uses
+- Roboto Black, 12px: 3 uses
+- Roboto Bold, 12px: 3 uses
+
+## Typography Hierarchy
+- 48px - Syne Bold, 48px (raw)
+- 14px - H6 / 14 Regular (Sk-Modernist Regular)
+- 13px - SeoulNamsan CEB CEB, 13px (raw)
+- 12px - Poppins Medium, 12px (raw)
+- 12px - Roboto Black, 12px (raw)
+- 12px - Roboto Bold, 12px (raw)
+- 12px - Roboto Medium, 12px (raw)
+- 12px - Roboto Regular, 12px (raw)
+- 12px - SeoulNamsan CEB CEB, 12px (raw)
+- 12px - Ubuntu Regular, 12px (raw)
+- 11px - Roboto Medium, 11px (raw)
+- 10px - Roboto Medium, 10px (raw)
+- 10px - Roboto Regular, 10px (raw)
+- 8px - Roboto Regular, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- appstoreshadow: [drop_shadow 4px offset 0 3 #0000008C, inner_shadow 4px offset 0 -2 #5FA4EF, drop_shadow 2px offset 0 1 #00000040]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Component 3
+- Component 1
+
+## Component Specs
+- Component 3: size 71x71px, fill #FFFFFF, text [Syne Bold, 48px]
+- Component 1: size 82x82px, fill #FFFFFF, text [Syne Bold, 48px]
+
+## Most-Used Styles
+- White / F4F3FC: 11 uses
+- appstoreshadow: 3 uses
+- Avatar user square / Candice Wu: 2 uses
+- Avatar user square / Demi Wilkinson: 2 uses
+- Avatar user square / Drew Cano: 2 uses
+- Avatar user square / Lana Steiner: 2 uses
+- Avatar user square / Natali Craig: 2 uses
+- Avatar user square / Olivia Rhye: 2 uses
+- Avatar user square / Orlando Diggs: 2 uses
+- Avatar user square / Phoenix Baker: 2 uses
+- Text / Primary 40 #000000: 2 uses
+- H6 / 14 Regular: 1 use
+- White #FFFFFF: 1 use
+- border #E8E6EA: 1 use
+- gradient: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Tampilan
+- FRAME "Tampilan", 428x886px, constraints left/top, radius 40px, fill #F6F6F6
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 89", 82x82px, constraints scale/scale, radius 20px, fill #FEFEFE
+    - VECTOR "Union", 42.91x55.78px, constraints scale/scale, radius 0/0/0/0px, fill gradient_linear(#E86170 4% | #F35C73 18% | #439DF3 100%), effect [inner_shadow 1px offset 0 1.5 #00000073]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 90", 82x82px, constraints scale/scale, radius 20px, fill gradient_linear(#B872E7 0% | #BE71E5 0% | #7736B8 100%)
+    - GROUP "Group 38", 55.3x60.78px, constraints scale/scale, effect [inner_shadow 2px offset 0 2 #9833CB54, inner_shadow 0px offset 1 0 #7824C04D, inner_shadow 0px offset 0 1 #7824C0CC, inner_shadow 0px offset -1 0 #7824C04D] [decorative, ~8 shapes]
+  - INSTANCE "BigSurIcons", 82x84px, constraints left/top
+    - RECTANGLE "Rectangle 3", 82x82.09px, constraints scale/scale, radius 20px, fill gradient_linear(#F5342B 0% | #BE060E 100%)
+    - VECTOR "Rectangle 87", 56.92x56.43px, constraints scale/scale, stroke #FFFFFF 4px
+    - BOOLEAN_OPERATION "Subtract", 46.72x46.77px, constraints scale/scale, fill #F7FFFF
+    - RECTANGLE "Rectangle 88", 46.72x46.77px, constraints scale/scale, stroke gradient_linear(#EE2E27 0% | #C70E13 100%) 1.5px
+    - GROUP "lense", 42.91x42.95px, constraints scale/scale, effect [drop_shadow 8px offset 0 4 #000000] [decorative, ~14 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 89", 82x82px, constraints scale/scale, radius 20px, fill #FCFCF4
+    - GROUP "glow", 70.56x71.51px, constraints scale/scale, radius 16px, effect [layer_blur 4px], opacity 20% [decorative, ~8 shapes]
+    - GROUP "flower", 71.51x71.51px, constraints scale/scale, radius 16px [decorative, ~8 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - GROUP "Group 7", 82x82px, constraints scale/scale, radius 0/0/0/0px [decorative, ~5 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top, effect [inner_shadow 8px offset 0 2 #FFFFFF2B]
+    - RECTANGLE "Rectangle 5", 82x82px, constraints scale/scale, radius 20px, fill gradient_radial(#303030 39% | #131313 100%)
+    - RECTANGLE "Rectangle 77", 82x82px, constraints scale/scale, radius 20px, fill gradient_radial(#303030 39% | #131313 100%)
+    - RECTANGLE "Rectangle 72", 0.95x82px, constraints scale/scale, fill #3A3B3D
+    - RECTANGLE "Rectangle 75", 0.95x82px, constraints scale/scale, fill #3A3B3D
+    - RECTANGLE "Rectangle 73", 0.95x82px, constraints scale/scale, fill #3A3B3D
+    - RECTANGLE "Rectangle 74", 0.95x82px, constraints scale/scale, fill #3A3B3D
+    - VECTOR "Vector 30", 80.57x24.79px, constraints scale/scale, radius 1px, stroke #FFFFFF 1px
+    - RECTANGLE "Rectangle 70", 0.95x46.72px, constraints scale/scale, fill gradient_linear(#75B3EB 0% | #1074CF 100%)
+    - RECTANGLE "Rectangle 71", 0.95x24.79px, constraints scale/scale, fill gradient_linear(#1074CF 0% | #68B5FA 100%)
+    - ELLIPSE "Ellipse 25", 6.67x6.67px, constraints scale/scale, fill gradient_radial(#83CFEF 0% | #1A69B0 100%), effect [drop_shadow 4px offset 0 3 #000000CC]
+    - RECTANGLE "Rectangle 76", 82x82px, constraints scale/scale, radius 20px, fill gradient_radial(#00000000 62% | #0000004F 100%)
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - GROUP "Group 29", 82x82px, constraints scale/scale, radius 0/0/0/0px [decorative, ~21 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 3", 82x82px, constraints scale/scale, radius 20px, fill #F6F7F2
+    - GROUP "house", 59.12x55.3px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - GROUP "wrapper", 82x82px, constraints scale/scale, radius 0/0/0/0px [decorative, ~16 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 4", 82x82px, constraints scale/scale, radius 20px, fill gradient_linear(#BBBBB9 0% | #D7D9D8 100%)
+    - RECTANGLE "Rectangle 5", 41.95x61.02px, constraints scale/scale, radius 6px, fill gradient_linear(#3F4447 0% | #1F170C 98%), effect [drop_shadow 2px offset 0 2 #00000059, drop_shadow 4px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 7", 20.98x8.58px, constraints scale/scale, radius 6px, fill gradient_linear(#FFFFFF 0% | #ACAEA9 98%), effect [drop_shadow 2px offset 0 2 #00000059, drop_shadow 4px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 6", 34.33x14.84px, constraints scale/scale, radius 4px, fill #565A5B, effect [inner_shadow 1px offset 0 1 #00000087]
+    - ELLIPSE "Ellipse 10", 8.58x8.58px, constraints scale/scale, fill gradient_linear(#FFFFFF 0% | #ACAEA9 100%), effect [drop_shadow 3px offset 0 1 #000000BF]
+    - ELLIPSE "Ellipse 18", 8.58x8.58px, constraints scale/scale, fill gradient_linear(#FFFFFF 0% | #ACAEA9 100%), effect [drop_shadow 3px offset 0 1 #000000BF]
+    - ELLIPSE "Ellipse 17", 8.58x8.58px, constraints scale/scale, fill gradient_linear(#FFFFFF 0% | #ACAEA9 100%), effect [drop_shadow 3px offset 0 1 #000000BF]
+    - ELLIPSE "Ellipse 19", 8.58x8.58px, constraints scale/scale, fill gradient_linear(#FFFFFF 0% | #ACAEA9 100%), effect [drop_shadow 3px offset 0 1 #000000BF]
+    - ELLIPSE "Ellipse 12", 8.58x8.58px, constraints scale/scale, fill gradient_linear(#FFDAA4 0% | #FE8F0C 100%), effect [drop_shadow 3px offset 0 1 #000000BF]
+    - ELLIPSE "Ellipse 15", 8.58x8.58px, constraints scale/scale, fill gradient_linear(#FFDAA4 0% | #FE8F0C 100%), effect [drop_shadow 3px offset 0 1 #000000BF]
+    - ELLIPSE "Ellipse 16", 8.58x8.58px, constraints scale/scale, fill gradient_linear(#FFDAA4 0% | #FE8F0C 100%), effect [drop_shadow 3px offset 0 1 #000000BF]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - GROUP "Group 7", 82x82px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 82x82px, constraints scale/scale, radius 20px, fill #F0EFEB
+      - RECTANGLE "Rectangle 4", 82x82px, constraints scale/scale, radius 20px, fill #E0E0D4
+      - VECTOR "Vector 10", 60.55x80.09px, constraints scale/scale, fill #86E359
+      - VECTOR "Vector 11", 21.45x58.16px, constraints scale/scale, fill #FCC9D0
+      - RECTANGLE "Rectangle 18", 99.13x81.91px, constraints scale/scale, fill gradient_linear(#FFEF87 0% | #F9E03E 14% | #FBB837 100%), effect [drop_shadow 7px offset 0 4 #00000026, inner_shadow 4px offset 0 0 #C09C10]
+      - VECTOR "Ellipse 5 (Stroke)", 42.91x42.91px, constraints scale/scale, fill #F1F5E7, effect [drop_shadow 8px offset 0 5 #00000042, drop_shadow 4px offset 0 1 #00000026, inner_shadow 4px offset 0 -1 #00000029]
+      - GROUP "Group 32", 28.6x93.44px, constraints left/top [decorative, ~4 shapes]
+      - GROUP "badge", 30.51x22.88px, constraints scale/scale
+        - VECTOR "Ellipse 7", 30.51x22.88px, constraints scale/scale, fill #0E73A9, stroke #3A7C7AC4 1px
+        - TEXT "280", 20.02x12.4px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Bold, 11px]
+        - VECTOR "Ellipse 9", 30.51x5.72px, constraints scale/scale, fill #A9373F
+        - VECTOR "Ellipse 8", 30.51x22.88px, constraints scale/scale, stroke #FFFFFF 1px
+        - VECTOR "Vector 12", 29.56x0px, constraints scale/scale, stroke #FFFFFF 1px
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 5", 82x82px, constraints scale/scale, radius 20px, fill gradient_linear(#17B2EB 0% | #1565D8 100%)
+    - GROUP "A", 59.12x53.7px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 5", 82x82px, constraints scale/scale, radius 20px, fill #262626, stroke #000000 8px
+    - RECTANGLE "Rectangle 6", 82x82px, constraints scale/scale, radius 20px, stroke gradient_linear(#F1F2F2 0% | #888886 100%) 2px
+    - BOOLEAN_OPERATION "Union", 23.84x16.69px, constraints left/top, fill #FFFFFF
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 5", 82x82px, constraints scale/scale, radius 20px, fill gradient_radial(#303030 39% | #131313 100%)
+    - GROUP "wrapper", 77.23x66.74px, constraints scale/scale [decorative, ~43 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 6", 82x82px, constraints scale/scale, radius 20px, fill gradient_linear(#273832 15% | #0D1313 100%)
+    - GROUP "logo", 60.07x47.67px, constraints scale/scale
+      - TEXT "tv", 33.37x47.67px, constraints scale/scale, fill #F5F5F3, text [SF Pro Display Medium, 42px], [heading]
+      - VECTOR "path4", 25.74x31.47px, constraints scale/scale, fill #F5F5F3
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - GROUP "wrapper", 82x82px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 4", 82x82px, constraints scale/scale, radius 20px, fill gradient_linear(#D4D4D4 0% | #FFFFFF 100%)
+    - ELLIPSE "Ellipse 1", 70.56x70.56px, constraints scale/scale, fill gradient_linear(#25B5F8 0% | #3570B6 100%), effect [inner_shadow 5px offset 0 2 #0000005E, drop_shadow 0px offset 0 1 #FFFFFF87]
+    - ELLIPSE "Ellipse 2", 71.03x71.03px, constraints scale/scale, stroke #FFFFFF 3px
+    - ELLIPSE "Ellipse 3", 76.28x76.28px, constraints scale/scale, stroke #FFFFFF 6px
+    - GROUP "needle", 48.15x41.48px, constraints scale/scale, effect [drop_shadow 4px offset 0 2 #000000BD] [decorative, ~6 shapes]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 4", 82x82px, constraints scale/scale, radius 20px, fill gradient_linear(#12BA2D 0% | #5FF278 100%)
+    - GROUP "camera", 55.3x36.23px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 19", 41x36.23px, constraints scale/scale, radius 9px, fill gradient_linear(#F2F6F7 0% | #DADADA 47% | #BCBCBC 100%), effect [inner_shadow 4px offset 0 -1 #FFFFFF8C, drop_shadow 5px offset 0 2 #00000024, drop_shadow 11px offset 0 9 #00000057, drop_shadow 6px offset 0 2 #00000040]
+      - RECTANGLE "Rectangle 21", 35.28x28.6px, constraints scale/scale, radius 6px, fill #F2F6F7, effect [inner_shadow 8px offset 0 -5 #0000008C], opacity 40%
+      - VECTOR "Rectangle 20", 13.35x36.23px, constraints scale/scale, radius 0/0/0/0px, fill gradient_linear(#F2F6F7 0% | #DADADA 47% | #BCBCBC 100%), effect [inner_shadow 3px offset 0 -1 #FFFFFF8C, drop_shadow 6px offset 0 7 #00000040, drop_shadow 3px offset 0 4 #00000040]
+  - INSTANCE "BigSurIcons", 82x82px, constraints left/top
+    - RECTANGLE "Rectangle 4", 82x82px, constraints scale/scale, radius 20px, fill gradient_linear(#12BA2D 0% | #5FF278 100%)
+    - GROUP "bubble", 60.07x54.13px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Union", 60.07x54.13px, constraints scale/scale, fill gradient, effect [inner_shadow 4px offset 0 -1 #FFFFFF8C, drop_shadow 5px offset 0 2 #00000024, drop_shadow 11px offset 0 9 #00000057, drop_shadow 6px offset 0 2 #00000040]
+      - RECTANGLE "Rectangle 21", 50.53x41.95px, constraints scale/scale, radius 22px, fill #F2F6F7, effect [inner_shadow 8px offset 0 -5 #0000008C], opacity 40%
+      - RECTANGLE "Rectangle 22", 19.07x22.88px, constraints scale/scale, radius 22px, fill #F2F6F7, effect [inner_shadow 8px offset 0 -5 #0000008C, layer_blur 14px], opacity 60%
+  - RECTANGLE "2", 134x5px, constraints center/bottom, fill #000000
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - COMPONENT "Component 1", 82x82px, constraints left/top, fill #FFFFFF
+    - INSTANCE "BigSurIcons", 82x82px, constraints scale/scale
+      - RECTANGLE "Rectangle 90", 82x82px, constraints scale/scale, radius 20px, fill #D53EDE
+      - GROUP "Group 38", constraints scale/scale, radius 0/0/0/0px, effect [inner_shadow 2px offset 0 2 #9833CB54, inner_shadow 0px offset 1 0 #7824C04D, inner_shadow 0px offset 0 1 #7824C0CC, inner_shadow 0px offset -1 0 #7824C04D] [decorative, ~8 shapes]
+    - INSTANCE "Component 4", 71x71px, constraints scale/scale, fill #FFFFFF
+      - ELLIPSE "Ellipse 38", 71x71px, constraints scale/scale, fill #000000
+      - TEXT "S", 32x53px, constraints scale/scale, fill #FFFFFF, text [Syne Bold, 48px], [heading]
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - TEXT "Notes", 46x15px, constraints left/top, fill #8F8F8F, text [Ubuntu Regular, 12px]
+  - TEXT "Recording", 63x15px, constraints left/top, fill #8F8F8F, text [Ubuntu Regular, 12px]
+  - ... +18 more children
+
+Screen: Page 1 / Tampilan
+- FRAME "Tampilan", 428x886px, constraints left/top, radius 40px, fill #FFFFFF
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - COMPONENT "Component 3", 71x71px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 38", 71x71px, constraints scale/scale, fill #000000
+    - TEXT "S", 32x53px, constraints scale/scale, fill #FFFFFF, text [Syne Bold, 48px], [heading]
+  - TEXT "Shirlou", 152x38px, constraints left/top, fill #000000, text [Syne Bold, 40px], [heading]
+  - RECTANGLE "2", 134x5px, constraints center/bottom, fill #000000
+
+Screen: Page 1 / Dasboard
+- FRAME "Dasboard", 428x886px, constraints left/top, radius 40px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "Group", 22.29x22.29px, constraints scale/scale [decorative, ~7 shapes]
+  - TEXT "Tidak ada teman yang berpesta", 161x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Let’s be friends", 78x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Busy", 26x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Atlets", 31x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Nothing", 41x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Single", 32x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Single", 32x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Modeling", 49x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Olivia", 29x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Soul Game", 56x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Voice Game", 62x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Party Chat", 54x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Ericksen", 44x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Gerrady", 41x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Silviana", 40x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Jesica", 34x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Aulia", 26x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Monica", 39x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - ... +28 more children
+
+Screen: Page 1 / Dasboard
+- FRAME "Dasboard", 428x886px, constraints left/top, radius 40px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "Group 536", 369x272px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Lisa posted an update", 133.34x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - TEXT "1 day ago", 49.3x12px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+    - ELLIPSE "Ellipse 7", 30x26.77px, constraints left/top, fill image(hash: 402026986df1a7349034de9475d5031bf8e80842)
+    - RECTANGLE "Rectangle 10", 368.64x204px, constraints left/top, radius 16px, fill image(hash: 62a9cafa6210fc6e4b30fa49107f92b1da664320)
+    - TEXT "Love myself", 60.51x12px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+  - GROUP "Group 13", 368.64x639px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Ricard posted an update", 146.78x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - TEXT "12 h ago", 43.7x12px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+    - ELLIPSE "Ellipse 7", 30x26.77px, constraints left/top, fill image(hash: 4f9d26b6ea019fe0adf742f6666cbea4438509e3)
+    - RECTANGLE "Rectangle 10", 368.64x204px, constraints left/top, radius 16px, fill image(hash: 391995970574f9860a3730eecfe91421ad8e3d19)
+    - TEXT "Enjoy Vactions........", 97.48x12px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+    - TEXT "Love", 29.13x14px, constraints left/top, fill #000000AB, text [Roboto Regular, 12px]
+    - TEXT "Love", 29.13x14px, constraints left/top, fill #000000AB, text [Roboto Regular, 12px]
+    - TEXT "Comment", 59.39x14px, constraints left/top, fill #000000A8, text [Roboto Regular, 12px]
+    - TEXT "Comment", 59.39x14px, constraints left/top, fill #000000A8, text [Roboto Regular, 12px]
+    - TEXT "Share", 34.73x14px, constraints left/top, fill #000000A6, text [Roboto Regular, 12px]
+    - TEXT "Share", 34.73x14px, constraints left/top, fill #000000A6, text [Roboto Regular, 12px]
+  - TEXT "11", 15x13px, constraints left/top, fill #000000, text [Roboto Medium, 11px]
+  - TEXT "11", 15x13px, constraints left/top, fill #000000, text [Roboto Medium, 11px]
+  - TEXT "20", 14x13px, constraints left/top, fill #000000, text [Roboto Medium, 11px]
+  - TEXT "20", 14x13px, constraints left/top, fill #000000, text [Roboto Medium, 11px]
+  - TEXT "5", 8x13px, constraints left/top, fill #000000, text [Roboto Medium, 11px]
+  - TEXT "5", 8x13px, constraints left/top, fill #000000, text [Roboto Medium, 11px]
+  - GROUP "Group 537", 331x59px, constraints left/top
+    - ELLIPSE "Ellipse 8", 34x34px, constraints left/top, fill image(hash: 402026986df1a7349034de9475d5031bf8e80842)
+    - ELLIPSE "Ellipse 2", 42x42px, constraints left/top, fill image(hash: 4f9d26b6ea019fe0adf742f6666cbea4438509e3), stroke #FFFFFF 2px
+    - ELLIPSE "Ellipse 4", 42x42px, constraints left/top, fill image(hash: 1b093b15b8f7bb8f3e603cb7498adfe91b001d0c), stroke #FFFFFF 2px
+    - ELLIPSE "Ellipse 5", 42x42px, constraints left/top, fill image(hash: fd9361238848380ef10da2768eef37e578f8b56f), stroke #FFFFFF 2px
+    - ELLIPSE "Ellipse 6", 42x42px, constraints left/top, fill image(hash: c235a95f34f44a4070f30e55d7f240e308073411), stroke #FFFFFF 2px
+    - TEXT "Ricard", 23x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "Stroy", 19x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "Lisa", 15x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "Liam", 18x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "Chris", 19x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "Manish", 26x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - ELLIPSE "Ellipse 39", 42x42px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+    - TEXT "+", 15x25px, constraints left/top, fill #000000, text [Roboto ExtraLight, 24px], [heading]
+  - INSTANCE "vuesax/outline/user-square", 24x24px, constraints scale/scale, fill #FFFFFF
+    - GROUP "vuesax/outline/user-square", 24x24px, constraints left/top [decorative, ~4 shapes]
+  - FRAME "Interface Home 3 by Streamlinehq", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "Group", 22.29x22.29px, constraints scale/scale
+      - VECTOR "Vector", 22.29x11.14px, constraints scale/scale, stroke #000000 1.71px
+      - VECTOR "Vector", 15.43x8.57px, constraints scale/scale, stroke #000000 1.71px
+  - GROUP "Group", 22.29x22.29px, constraints scale/scale [decorative, ~4 shapes]
+  - GROUP "Iconly/Light-Outline/Edit-Square", 24x24px, constraints scale/scale
+    - GROUP "Edit-Square", 24x24px, constraints scale/scale
+      - VECTOR "Combined-Shape", 24x24px, constraints scale/scale, fill #000000
+  - GROUP "Iconly/Light-Outline/Discovery", 24x24px, constraints scale/scale
+    - GROUP "Discovery", 24x24px, constraints scale/scale
+      - VECTOR "Combined-Shape", 24x24px, constraints scale/scale, fill #000000
+  - RECTANGLE "2", 134x5px, constraints center/bottom, fill #000000
+
+Screen: Page 1 / Dasboard
+- FRAME "Dasboard", 428x886px, constraints left/top, radius 40px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - TEXT "Let’s be friends?", 83x14px, constraints scale/scale, fill #8F8F8F, text [Roboto Medium, 12px]
+  - TEXT "Hi", 12x14px, constraints scale/scale, fill #8F8F8F, text [Roboto Medium, 12px]
+  - TEXT "What your name?", 89x14px, constraints scale/scale, fill #8F8F8F, text [Roboto Medium, 12px]
+  - TEXT "How are you?", 70x14px, constraints scale/scale, fill #8F8F8F, text [Roboto Medium, 12px]
+  - TEXT "Are you okey?", 72x14px, constraints scale/scale, fill #8F8F8F, text [Roboto Medium, 12px]
+  - TEXT "Haha I’m good", 75x14px, constraints scale/scale, fill #8F8F8F, text [Roboto Medium, 12px]
+  - TEXT "Okey", 26x14px, constraints scale/scale, fill #8F8F8F, text [Roboto Medium, 12px]
+  - TEXT "Olivia", 29x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Ericksen", 44x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Gerrady", 41x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Silviana", 40x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Jesica", 34x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Aulia", 26x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "Monica", 39x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - RECTANGLE "Image", 34x34px, constraints left/top, radius 90px, fill Avatar user square / Olivia Rhye
+  - GROUP "Group", 4x8px, constraints scale/scale
+    - VECTOR "Vector", 4x4.31px, constraints scale/scale, stroke #69ABDF 1.71px
+    - VECTOR "Vector", 0x3.69px, constraints scale/scale, stroke #69ABDF 1.71px
+    - VECTOR "Vector", 2.29x0px, constraints scale/scale, stroke #69ABDF 1.71px
+  - ... +28 more children
+
+Screen: Page 1 / Dasboard
+- FRAME "Dasboard", 428x886px, constraints left/top, radius 40px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "Group 544", 428x704px, constraints left/top, radius 40px
+    - RECTANGLE "Rectangle 548", 428x704px, constraints left/top, radius 40px, fill #D9D9D9A6
+  - RECTANGLE "Image", 120x120px, constraints left/top, radius 90px, fill Avatar user square / Orlando Diggs
+  - RECTANGLE "Image", 33x32px, constraints left/top, radius 90px, fill Avatar user square / Orlando Diggs
+  - TEXT "7", 7x14px, constraints scale/scale, fill #000000, text [Roboto Black, 12px]
+  - TEXT "20", 14x14px, constraints scale/scale, fill #000000, text [Roboto Black, 12px]
+  - TEXT "1.1k", 24x14px, constraints scale/scale, fill #000000, text [Roboto Black, 12px]
+  - TEXT "Bergabung Agustus 2021", 130x14px, constraints scale/scale, fill #00000087, text [Roboto Medium, 12px]
+  - TEXT "Mengikuti", 52x14px, constraints scale/scale, fill #00000087, text [Roboto Medium, 12px]
+  - TEXT "Pengikut", 46x14px, constraints scale/scale, fill #00000087, text [Roboto Medium, 12px]
+  - TEXT "Dikunjungi", 55x14px, constraints scale/scale, fill #00000087, text [Roboto Medium, 12px]
+  - TEXT "Kevin Sanjaya", 84x16px, constraints scale/scale, fill #000000, text [Roboto Bold, 14px]
+  - TEXT "22", 12x9px, constraints scale/scale, fill #000000, text [Roboto Medium, 10px]
+  - GROUP "Group", 4x8px, constraints scale/scale
+    - VECTOR "Vector", 4x4.31px, constraints scale/scale, stroke #69ABDF 1.71px
+    - VECTOR "Vector", 0x3.69px, constraints scale/scale, stroke #69ABDF 1.71px
+    - VECTOR "Vector", 2.29x0px, constraints scale/scale, stroke #69ABDF 1.71px
+  - GROUP "Group 545", 344x58px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 549", 344x58px, constraints left/top, radius 15px, fill #C4C4C4
+    - TEXT "Healing", 49.3x18px, constraints left/top, fill #000000, text [Poppins Bold, 12px]
+    - TEXT "Musik", 33.22x18px, constraints left/top, fill #000000, text [Poppins Light, 12px]
+    - TEXT "Pengikut 50", 70.73x18px, constraints left/top, fill #000000, text [Poppins Light, 12px]
+    - RECTANGLE "image 2", 61.08x50.43px, constraints left/top, fill image(hash: 223b1b552dfcec83fc7ed57f3fba69bc74135a2a)
+  - GROUP "Group 536", 348.93x290.37px, constraints left/top, radius 16px
+    - TEXT "Kevin Sanjaya posted an update", 175x13px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - TEXT "1 day ago", 46.66x11.46px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+    - RECTANGLE "Rectangle 10", 348.93x194.85px, constraints left/top, radius 16px, fill image(hash: 62a9cafa6210fc6e4b30fa49107f92b1da664320)
+    - TEXT "Love myself", 57.27x11.46px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+    - TEXT "Love", 27.57x13.37px, constraints left/top, fill #000000AD, text [Roboto Regular, 12px]
+    - TEXT "Comment", 56.21x13.37px, constraints left/top, fill #0000009E, text [Roboto Regular, 12px]
+    - TEXT "Share", 32.88x13.37px, constraints left/top, fill #000000AB, text [Roboto Regular, 12px]
+  - TEXT "20", 13x12px, constraints left/top, fill #000000, text [Roboto Medium, 11px]
+  - TEXT "20", 13x12px, constraints left/top, fill #000000, text [Roboto Medium, 11px]
+  - TEXT "5", 7x12px, constraints left/top, fill #000000, text [Roboto Medium, 11px]
+
+Screen: Page 1 / Dasboard
+- FRAME "Dasboard", 428x886px, constraints left/top, radius 40px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 542", 370x193px, constraints left/top, fill #D9D9D963
+  - RECTANGLE "Rectangle 543", 151x141px, constraints left/top, fill #D9D9D952
+  - VECTOR "Combined-Shape", 24x17px, constraints scale/scale, fill #000000
+  - GROUP "Iconly/Light-Outline/Image", 24.73x25.29px, constraints scale/scale
+    - GROUP "Image", 24.73x25.29px, constraints scale/scale
+      - VECTOR "Combined-Shape", 24.73x25.29px, constraints scale/scale, fill #000000
+  - GROUP "Iconly/Light-Outline/Video", 31.55x25px, constraints scale/scale
+    - GROUP "Video", 31.55x25px, constraints scale/scale
+      - VECTOR "Combined-Shape", 31.55x25px, constraints scale/scale, fill #000000
+  - GROUP "Voice", 20x25px, constraints scale/scale
+    - VECTOR "Combined-Shape", 20x25px, constraints scale/scale, fill #000000
+  - GROUP "Iconly/Light-Outline/Folder", 31.49x25px, constraints scale/scale
+    - GROUP "Folder", 31.49x25px, constraints scale/scale
+      - VECTOR "Combined-Shape", 31.49x25px, constraints scale/scale, fill #000000
+  - TEXT "Apa yang anda pikirkan?", 140x10px, constraints scale/scale, fill #00000052, text [Roboto Medium, 11px]
+  - TEXT "1/500", 31x10px, constraints scale/scale, fill #00000052, text [Roboto Medium, 11px]
+  - GROUP "Arrow---Right-2", 6x10px, constraints scale/scale
+    - VECTOR "Stroke-1", 6x10px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Group 538", 84x25px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 544", 84x25px, constraints left/top, radius 10px, fill #000000CF
+    - TEXT "public", 37x15px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 12px]
+    - GROUP "Group", 15x13px, constraints scale/scale
+      - VECTOR "Vector", 15x13px, constraints scale/scale, stroke #FFFFFF 1.71px
+      - VECTOR "Vector", 8.05x7.11px, constraints scale/scale, stroke #FFFFFF 1.71px
+      - VECTOR "Vector", 9.26x8.03px, constraints scale/scale, stroke #FFFFFF 1.71px
+  - GROUP "Group 539", 53x25px, constraints left/top, radius 10px
+    - RECTANGLE "Rectangle 544", 53x25px, constraints left/top, radius 10px, fill #000000D1
+    - TEXT "Kirim", 32x15px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 12px]
+  - GROUP "Group", 22.29x22.29px, constraints scale/scale
+    - VECTOR "Vector", 0x22.29px, constraints scale/scale, stroke #00000078 1.71px
+    - VECTOR "Vector", 22.29x0px, constraints scale/scale, stroke #00000078 1.71px
+
+Screen: Page 1 / Dasboard
+- FRAME "Dasboard", 428x886px, constraints left/top, radius 40px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 542", 370x193px, constraints left/top, fill #D9D9D963
+  - GROUP "Group 540", 428x424px, constraints left/top, radius 40px
+    - RECTANGLE "Rectangle 543", 428x424px, constraints left/top, radius 40px, fill #F0EFEB
+  - VECTOR "Combined-Shape", 24x17px, constraints scale/scale, fill #000000
+  - TEXT "Apa yang anda pikirkan?", 140x10px, constraints scale/scale, fill #00000052, text [Roboto Medium, 11px]
+  - TEXT "1/500", 31x10px, constraints scale/scale, fill #00000052, text [Roboto Medium, 11px]
+  - GROUP "Group 539", 53x25px, constraints left/top, radius 10px
+    - RECTANGLE "Rectangle 544", 53x25px, constraints left/top, radius 10px, fill #000000D1
+    - TEXT "Kirim", 32x15px, constraints scale/scale, fill #FFFFFF, text [Poppins Medium, 12px]
+  - RECTANGLE "Rectangle 544", 151x126px, constraints left/top, fill #D9D9D952
+  - GROUP "Group", 22.29x22.29px, constraints scale/scale
+    - VECTOR "Vector", 0x22.29px, constraints scale/scale, stroke #00000080 1.71px
+    - VECTOR "Vector", 22.29x0px, constraints scale/scale, stroke #00000080 1.71px
+  - TEXT "Siapa yang dapat melihat unggahan ini?", 203x14px, constraints scale/scale, fill #000000, text [Roboto Medium, 12px]
+  - VECTOR "Line 1", 23x0px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Login
+- FRAME "Login", 428x886px, constraints left/top, radius 40px, fill #FFFFFF
+  - TEXT "Shirlou", 127x20px, constraints left/top, fill #000000, text [DM Sans Bold, 32px], [heading]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - INSTANCE "Component 4", 71x71px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 38", 71x71px, constraints scale/scale, fill #000000
+    - TEXT "S", 32x53px, constraints scale/scale, fill #FFFFFF, text [Syne Bold, 48px], [heading]
+  - TEXT "Dengen mendaftar, anda menunjukan bahwa anda telah membaca d", 336x35px, constraints left/top, fill #8F8F8F, text [SeoulNamsan CEB CEB, 12px]
+  - TEXT "atau", 30x14px, constraints left/top, fill #8F8F8F, text [SeoulNamsan CEB CEB, 12px]
+  - TEXT "Masuk dengan", 84x12px, constraints left/top, fill #8F8F8F, text [SeoulNamsan CEB CEB, 12px]
+  - TEXT "ebijakan Privasi", 130x35px, constraints left/top, fill #5FA4EF, text [SeoulNamsan CEB CEB, 12px]
+  - RECTANGLE "2", 134x5px, constraints center/bottom, fill #000000
+  - GROUP "Group 535", 24x22.64px, constraints left/top
+    - VECTOR "Vector", 24x22.64px, constraints scale/scale, fill #242525
+    - VECTOR "Ellipse 1", 8x8px, constraints left/top, fill #18978F
+
+Screen: Page 1 / Login
+- FRAME "Login", 428x886px, constraints left/top, radius 40px, fill #000000BF
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - FRAME "Interface User Add by Streamlinehq", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - GROUP "Group 533", 375x752px, constraints left/top, radius 20px
+    - RECTANGLE "Rectangle 532", 375x752px, constraints left/top, radius 20px, fill #FFFFFF
+  - INSTANCE "Component 4", 71x71px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 38", 71x71px, constraints scale/scale, fill #000000
+    - TEXT "S", 32x53px, constraints scale/scale, fill #FFFFFF, text [Syne Bold, 48px], [heading]
+  - TEXT "Tambah akun lain", 88x15px, constraints left/top, fill #000000, text [SeoulNamsan CEB CEB, 12px]
+  - TEXT "Pilih akun untuk melanjutkan ke Shirlou", 174x42px, constraints left/top, fill #000000, text [SeoulNamsan CEB CEB, 13px]
+  - GROUP "Group 529", 189x46px, constraints left/top, radius 999px
+    - TEXT "kevinsanjaya21@gmail.com", 137x12px, constraints left/top, fill #8F8F8F, text [SeoulNamsan CEB CEB, 12px]
+    - TEXT "Kevin Sanjaya", 71x12px, constraints left/top, fill #000000, text [SeoulNamsan CEB CEB, 12px]
+    - INSTANCE "Avatar", 46x46px, constraints left/top, radius 999px, fill #FFFFFF
+      - INSTANCE "Background", 46x46px, constraints scale/scale, fill #FFFFFF
+        - ELLIPSE "Ellipse 1", 46x46px, constraints scale/scale, fill #DEF4FF
+      - INSTANCE "face34", 55.2x55.2px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group 519", 43.74x45.35px, constraints left/top [decorative, ~24 shapes]
+  - TEXT "Untuk melanjutkan, Google akan membagikan nama, alamat email", 302x61px, constraints left/top, fill #8F8F8F, text [SeoulNamsan CEB CEB, 12px]
+  - GROUP "Group 530", 190x46px, constraints left/top, radius 999px
+    - TEXT "kevinsanjaya21@gmail.com", 137x12px, constraints left/top, fill #8F8F8F, text [SeoulNamsan CEB CEB, 12px]
+    - TEXT "Kevin Sanjaya", 71x12px, constraints left/top, fill #000000, text [SeoulNamsan CEB CEB, 12px]
+    - INSTANCE "Avatar", 46x46px, constraints left/top, radius 999px, fill #FFFFFF
+      - INSTANCE "Background", 46x46px, constraints scale/scale, fill #FFFFFF
+        - ELLIPSE "Ellipse 1", 46x46px, constraints scale/scale, fill #DEF4FF
+      - INSTANCE "face5", 55.2x55.2px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group 486", 43.74x44.05px, constraints left/top [decorative, ~29 shapes]
+  - GROUP "Group 531", 191x46px, constraints left/top
+    - TEXT "kevinsanjaya21@gmail.com", 137x12px, constraints left/top, fill #8F8F8F, text [SeoulNamsan CEB CEB, 12px]
+    - TEXT "Kevin Sanjaya", 71x12px, constraints left/top, fill #000000, text [SeoulNamsan CEB CEB, 12px]
+    - FRAME "Frame 2982", 46x46px, horizontal pad 0 0 0 0px gap 120px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 46x46px, constraints left/top, radius 999px, fill #FFFFFF
+        - INSTANCE "Background", 46x46px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 1", 46x46px, constraints scale/scale, fill #DEF4FF
+        - INSTANCE "face30", 55.2x55.2px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group 514", 43.74x42.59px, constraints left/top [decorative, ~22 shapes]
+  - GROUP "Group 532", 188x46px, constraints left/top, radius 999px
+    - TEXT "kevinsanjaya21@gmail.com", 137x12px, constraints left/top, fill #8F8F8F, text [SeoulNamsan CEB CEB, 12px]
+    - TEXT "Kevin Sanjaya", 71x12px, constraints left/top, fill #000000, text [SeoulNamsan CEB CEB, 12px]
+    - INSTANCE "Avatar", 46x46px, constraints left/top, radius 999px, fill #FFFFFF
+      - INSTANCE "Background", 46x46px, constraints scale/scale, fill #FFFFFF
+        - ELLIPSE "Ellipse 1", 46x46px, constraints scale/scale, fill #DEF4FF
+      - INSTANCE "face19", 55.2x55.2px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group 502", 43.74x47.61px, constraints left/top [decorative, ~26 shapes]
+  - FRAME "Interface User Add by Streamlinehq", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - VECTOR "Vector", 300x0px, constraints scale/scale, stroke #8F8F8F 1.71px
+  - VECTOR "Vector", 300x0px, constraints scale/scale, stroke #8F8F8F 1.71px
+  - VECTOR "Vector", 300x0px, constraints scale/scale, stroke #8F8F8F 1.71px
+  - VECTOR "Vector", 300x0px, constraints scale/scale, stroke #8F8F8F 1.71px
+  - VECTOR "Vector", 300x0px, constraints scale/scale, stroke #8F8F8F 1.71px
+  - RECTANGLE "2", 134x5px, constraints center/bottom, fill #FFFFFF
+
+Screen: Page 1 / Login
+- FRAME "Login", 428x886px, constraints left/top, radius 40px, fill #FFFFFF
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - TEXT "Shirlou meminta akses ke :", 144x17px, constraints left/top, fill #000000, text [SeoulNamsan CEB CEB, 13px]
+  - TEXT "m.facebook.com", 95x13px, constraints left/top, fill #000000, text [SeoulNamsan CEB CEB, 13px]
+  - TEXT "nama dan poto profil dari alamat email Anda.", 264x14px, constraints left/top, fill #00000094, text [SeoulNamsan CEB CEB, 13px]
+  - TEXT "ini tidak mengizinkan aplikasi mengirim ke Facebook", 286x14px, constraints left/top, fill #00000094, text [SeoulNamsan CEB CEB, 13px]
+  - INSTANCE "Component 4", 71x71px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 38", 71x71px, constraints scale/scale, fill #000000
+    - TEXT "S", 32x53px, constraints scale/scale, fill #FFFFFF, text [Syne Bold, 48px], [heading]
+  - RECTANGLE "Rectangle 535", 359x47px, constraints left/top, fill #15548D
+  - RECTANGLE "Rectangle 536", 359x47px, constraints left/top, fill #C4C4C4
+  - TEXT "Lanjutkan sebagai Kevin", 131x13px, constraints left/top, fill #FFFFFF, text [SeoulNamsan CEB CEB, 13px]
+  - TEXT "Batal", 131x13px, constraints left/top, fill #000000B0, text [SeoulNamsan CEB CEB, 13px]
+  - TEXT "Edit Akses", 69x13px, constraints left/top, fill #69ABDF, text [SeoulNamsan CEB CEB, 13px]
+  - TEXT "Dengan melanjutkan, shirlou akan menerima akses berkelanjuta", 355x61px, constraints left/top, fill #8F8F8F, text [SeoulNamsan CEB CEB, 12px]
+  - RECTANGLE "3", 134x5px, constraints center/bottom, fill #000000
+  - GROUP "Group", 4x18px, constraints scale/scale
+    - VECTOR "Vector", 4x4.15px, constraints scale/scale, stroke #000000 1.71px
+    - VECTOR "Vector", 4x4.15px, constraints scale/scale, stroke #000000 1.71px
+    - VECTOR "Vector", 4x4.15px, constraints scale/scale, stroke #000000 1.71px
+  - GROUP "Iconly/Light-Outline/Edit-Square", 12x12px, constraints scale/scale
+    - GROUP "Edit-Square", 12x12px, constraints scale/scale
+      - VECTOR "Combined-Shape", 12x12px, constraints scale/scale, fill #69ABDF
+
+Screen: Page 1 / Group 378
+- GROUP "Group 378", 273x50px, constraints left/top, radius 0/0/0/0px
+  - GROUP "Group 376", 273x50px, constraints left/top, radius 30px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 531", 273x50px, constraints left/top, radius 30px, fill #8F8F8F
+    - TEXT "Facebook", 73x18px, constraints left/top, fill #FFFFFF, text [Ubuntu Bold, 16px]
+  - GROUP "Computer Logo Facebook 2 by Streamlinehq", 24x24px, constraints left/top
+    - RECTANGLE "Computer Logo Facebook 2 by Streamlinehq", 24x24px, constraints left/top, fill image(hash: 7f34684f98c200d978265bb20b12c89c4300c656)
+
+Screen: Page 1 / Group 379
+- GROUP "Group 379", 273x50px, constraints left/top, radius 0/0/0/0px
+  - GROUP "Group 377", 273x50px, constraints left/top, radius 30px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 531", 273x50px, constraints left/top, radius 30px, fill #8F8F8F
+    - TEXT "Google", 55x18px, constraints left/top, fill #FFFFFF, text [Ubuntu Bold, 16px]
+  - GROUP "Computer Logo Google by Streamlinehq", 24x24px, constraints left/top
+    - RECTANGLE "Computer Logo Google by Streamlinehq", 24x24px, constraints left/top, fill image(hash: 42a2008f9ab708455dd8999583097deb49b478e1)
+
+Screen: Page 1 / Group 534
+- GROUP "Group 534", 428x92px, constraints left/top
+  - RECTANGLE "Rectangle 534", 428x46px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 538", 428x46px, constraints left/top, fill #1566B0
+  - TEXT "Mode data", 72x17px, constraints left/top, fill #FFFFFF, text [SeoulNamsan CEB CEB, 13px]
+  - TEXT "Login dengan Facebook", 160x17px, constraints left/top, fill #FFFFFF, text [SeoulNamsan CEB CEB, 15px]
+  - RECTANGLE "Rectangle 537", 108x26px, constraints left/top, fill #000000, stroke #FFFFFF 1px
+  - TEXT "Buka Hanya Teks", 89x13px, constraints left/top, fill #FFFFFF, text [SeoulNamsan CEB CEB, 13px]
+
+Screen: Page 1 / Interface Lock by Streamlinehq
+- GROUP "Interface Lock by Streamlinehq", 16x16px, constraints left/top
+  - RECTANGLE "Interface Lock by Streamlinehq", 16x16px, constraints left/top, fill image(hash: de7a2198a40593677e8b560c3b2a87987fb28393)
+
+Screen: Page 1 / Interface Delete 1 by Streamlinehq
+- GROUP "Interface Delete 1 by Streamlinehq", 14x14px, constraints left/top
+  - RECTANGLE "Interface Delete 1 by Streamlinehq", 14x14px, constraints left/top, fill image(hash: 8df0bd23bc10b740e26785e1720bd98c2894f8dc)
+
+Screen: Page 1 / Share by Streamlinehq
+- GROUP "Share by Streamlinehq", 16x16px, constraints left/top
+  - RECTANGLE "Share by Streamlinehq", 16x16px, constraints left/top, fill image(hash: 804c2f3c56afaf4e1aed1e8a2e58bba16d4990d8)
+
+Screen: Page 1 / Group 541
+- GROUP "Group 541", 362x95px, constraints left/top, radius 0/0/0/0px
+  - RECTANGLE "Rectangle 547", 362x95px, constraints left/top, radius 20px, fill #FFFFFF
+  - TEXT "orang yang saling mengikiti di Shilou dapat melihat", 214x36px, constraints scale/scale, fill #8F8F8F, text [Poppins Medium, 12px]
+  - TEXT "Teman", 42x18px, constraints scale/scale, fill #000000, text [Poppins Medium, 12px]
+  - GROUP "Interface User Single by Streamlinehq", 30x30px, constraints left/top
+    - RECTANGLE "Interface User Single by Streamlinehq", 30x30px, constraints left/top, fill image(hash: b4f560abacae19b79e9567cb56bee7a99c8eb2f5)
+
+Screen: Page 1 / Group 543
+- GROUP "Group 543", 362x72px, constraints left/top, radius 0/0/0/0px
+  - RECTANGLE "Rectangle 546", 362x72px, constraints left/top, radius 20px, fill #FFFFFF
+  - TEXT "Semua orang di Shirlou", 136x18px, constraints scale/scale, fill #8F8F8F, text [Poppins Medium, 12px]
+  - TEXT "Pribadi", 41x18px, constraints scale/scale, fill #000000, text [Poppins Medium, 12px]
+  - GROUP "Interface Lock by Streamlinehq", 30x30px, constraints left/top
+    - RECTANGLE "Interface Lock by Streamlinehq", 30x30px, constraints left/top, fill image(hash: 88cdae0786e7023eeb523a4591b540dd0e3d95c8)
+
+Screen: Page 1 / Group 542
+- GROUP "Group 542", 362x72px, constraints left/top, radius 0/0/0/0px
+  - RECTANGLE "Rectangle 545", 362x72px, constraints left/top, radius 20px, fill #FFFFFF
+  - TEXT "Semua orang di Shirlou", 136x18px, constraints scale/scale, fill #8F8F8F, text [Poppins Medium, 12px]
+  - TEXT "Public", 36x18px, constraints scale/scale, fill #000000, text [Poppins Medium, 12px]
+  - GROUP "Travel Map Earth 1 by Streamlinehq", 30x30px, constraints left/top
+    - RECTANGLE "Travel Map Earth 1 by Streamlinehq", 30x30px, constraints left/top, fill image(hash: 12b81eaa4ae9b10b2f1ada0ddda1f145dfa77065)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
+
+
+---
+
+---
+name: login-app-kirainn-delivery-community
+source_file: Login APP Kirainn Delivery (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:26:25.784225+00:00
+---
+
+# Login APP Kirainn Delivery (Community) Design Guidelines
+
+## Source
+- Figma file: Login APP Kirainn Delivery (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:26:25.784225+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 197 uses
+- #FFFFFF: 54 uses
+- #F8A13B: 31 uses
+- #D9D9D9: 16 uses
+- #F8F8F8: 14 uses
+- #F3F2F2: 9 uses
+- #F6F6F6: 7 uses
+- #3E3E3E: 6 uses
+- #C8C8C8: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Bold, 20px: 44 uses
+- Inter Light, 14px: 22 uses
+- Inter Bold, 14px: 20 uses
+- Inter Bold, 24px: 20 uses
+- Inter Light, 20px: 19 uses
+- Inter Regular, 20px: 18 uses
+- Inter Bold, 16px: 16 uses
+- Inter Bold, 32px: 3 uses
+- Inter Bold, 36px: 3 uses
+- Inter Medium, 30px: 3 uses
+- Inter SemiBold, 26px: 3 uses
+
+## Typography Hierarchy
+- 36px - Inter Bold, 36px (raw)
+- 32px - Inter Bold, 32px (raw)
+- 30px - Inter Medium, 30px (raw)
+- 26px - Inter SemiBold, 26px (raw)
+- 24px - Inter Bold, 24px (raw)
+- 20px - Inter Bold, 20px (raw)
+- 20px - Inter Light, 20px (raw)
+- 20px - Inter Regular, 20px (raw)
+- 16px - Inter Bold, 16px (raw)
+- 14px - Inter Bold, 14px (raw)
+- 14px - Inter Light, 14px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / iPhone 14 Pro - 1
+- FRAME "iPhone 14 Pro - 1", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - FRAME "Frame 1", 406x323px, constraints left/top
+    - RECTANGLE "Young man ordering food online", 406x323px, constraints left/top, fill image(hash: 0cd0ed2f108e8c0f947a0488f8c8ffaed5a77791)
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "Make Your Order", 300x43px, constraints left/top, fill #F8A13B, text [Inter Bold, 36px], [heading]
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Wi-Fi", 96x96px, constraints left/top, fill image(hash: 8c071d203889838992027a7f804503ff7c05cbab)
+  - VECTOR "Line 4", 389.01x0px, constraints left/top, stroke #E3DACF 10px
+  - VECTOR "Line 5", 200x0px, constraints left/top, stroke #F8A13B 10px
+  - TEXT "Put anything you want into cart and confirm your order succe", 389x49px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Skip", 54x28px, constraints left/top, fill #F8A13B, text [Inter Bold, 24px], [heading]
+  - TEXT "Next", 58x28px, constraints left/top, fill #F8A13B, text [Inter Bold, 24px], [heading]
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+
+Screen: Page 1 / iPhone 14 Pro - 7
+- FRAME "iPhone 14 Pro - 7", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Wi-Fi", 96x96px, constraints left/top, fill image(hash: 8c071d203889838992027a7f804503ff7c05cbab)
+  - RECTANGLE "Rectangle 6", 484x806px, constraints left/top, fill #FAFAFA
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+  - GROUP "Keyboard Arrow Left", 30x30px, constraints left/top
+    - RECTANGLE "Keyboard Arrow Left", 30x30px, constraints left/top, fill image(hash: 0230bc3cf4a1e0d1c95fc34a7fae67ddef9d11dc)
+  - RECTANGLE "Rectangle 6", 352x47px, constraints left/top, radius 20px, fill #F0F0F0
+  - TEXT "Search", 69x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Noodle Rice", 115x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Bread Eggs", 113x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Bread Chery", 124x25px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Pizza", 69x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Beep Steak", 115x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "$ 11,30", 57x20px, constraints left/top, fill #000000, text [Inter Light, 14px]
+  - TEXT "$ 11,30", 57x20px, constraints left/top, fill #000000, text [Inter Light, 14px]
+  - TEXT "$ 11,30", 57x20px, constraints left/top, fill #000000, text [Inter Light, 14px]
+  - TEXT "$ 11,30", 57x20px, constraints left/top, fill #000000, text [Inter Light, 14px]
+  - TEXT "$ 11,30", 57x20px, constraints left/top, fill #000000, text [Inter Light, 14px]
+  - RECTANGLE "Rectangle", 80x80px, constraints left/top, radius 50px, fill image(hash: df3215521276a031b4a3b11c4ccd305971067491)
+  - RECTANGLE "Rectangle", 80x80px, constraints left/top, radius 50px, fill image(hash: dff189c4ab0ef4643938bb907509ef9e1cfc87a0)
+  - RECTANGLE "Rectangle", 80x80px, constraints left/top, radius 50px, fill image(hash: 3916791abf544062978160f999777af68bec74c5)
+  - RECTANGLE "Rectangle", 80x80px, constraints left/top, radius 50px, fill image(hash: c1a7e905f0f0602195807808c070a47915d2a74a)
+  - RECTANGLE "Rectangle", 80x80px, constraints left/top, radius 50px, fill image(hash: 28a5759f6584be903109301dd7f0686d858ff92a)
+
+Screen: Page 1 / iPhone 14 Pro - 8
+- FRAME "iPhone 14 Pro - 8", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Rectangle 6", 484x816px, constraints left/top, fill #F3F2F2
+  - RECTANGLE "Rectangle 6", 484x47px, constraints left/top, radius 20px, fill #F4F4F4
+  - TEXT "Search", 80x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Categories", 157x32px, constraints left/top, fill #000000, text [Inter SemiBold, 26px], [heading]
+  - TEXT "See all", 88x27px, constraints left/top, fill #F8A13B, text [Inter ExtraBold, 24px], [heading]
+  - FRAME "Magnifying Glass", 24x21px, constraints left/top, fill #FFFFFF
+    - GROUP "magnifying-glass--glass-search-magnifying", 24x21px, constraints scale/scale
+      - VECTOR "Vector", 20.31x17.77px, constraints scale/scale, stroke #3E3E3E 1.71px
+      - VECTOR "Vector_2", 6.46x5.65px, constraints scale/scale, stroke #3E3E3E 1.71px
+  - RECTANGLE "Rectangle 7", 214x240px, constraints left/top, radius 10px, fill #FFFFFF
+  - RECTANGLE "Rectangle 8", 214x240px, constraints left/top, radius 10px, fill #FFFFFF
+  - VECTOR "Rectangle 9", 494x88px, constraints left/top, radius 10px, fill #E8E8E8
+  - RECTANGLE "lettering order online", 165x97px, constraints left/top, fill image(hash: 723b917a0471d16f5ae15725c10d76ae7a4bb2dc)
+  - ELLIPSE "Ellipse 1", 22x22px, constraints left/top, fill #F8A13B
+  - ELLIPSE "Ellipse 2", 22x22px, constraints left/top, fill #C8C8C8
+  - ELLIPSE "Ellipse 3", 22x22px, constraints left/top, fill #C8C8C8
+  - ELLIPSE "Ellipse 4", 22x22px, constraints left/top, fill #C8C8C8
+  - ELLIPSE "Ellipse 5", 22x22px, constraints left/top, fill #C8C8C8
+  - RECTANGLE "bread", 100x100px, constraints left/top, fill image(hash: dff8cfe68b15ec0167e74d90cbbeaf2f27fa9876)
+  - RECTANGLE "slice of pizza", 100x100px, constraints left/top, fill image(hash: 8fe6f2ca2cf91751ff8ea3ed1a089bcedceb99ba)
+  - RECTANGLE "salad bowl", 100x100px, constraints left/top, fill image(hash: a11cda0b9a8d093fc97f9572fb0250c832396c39)
+  - TEXT "Chocholate Ice", 150x26px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Green Shack", 134x20px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Bread", 57x22px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Fizza", 57x22px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Soup", 57x22px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - ... +13 more children
+
+Screen: Page 1 / iPhone 14 Pro - 9
+- FRAME "iPhone 14 Pro - 9", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Rectangle 6", 484x790px, constraints left/top, fill #F3F2F2
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+  - RECTANGLE "Left", 50x50px, constraints left/top, fill image(hash: 71fbde9e83631b7c873644c41822c92510c65306)
+  - TEXT "Categories", 157x32px, constraints left/top, fill #000000, text [Inter SemiBold, 26px], [heading]
+  - GROUP "Group 10", 443x493px, constraints left/top [decorative, ~9 shapes]
+  - RECTANGLE "Bag of groceries", 70x70px, constraints left/top, fill image(hash: 44f2fa5914087db4503f9f3afe5814eb56583a87)
+  - RECTANGLE "carrot", 70x70px, constraints left/top, fill image(hash: 83c8ce27d98f1df0217ef1864412cfe5f14f6f06)
+  - RECTANGLE "croissant", 70x70px, constraints left/top, fill image(hash: e7b6e23f17e1f03194040fbcf5b98ac8af25e8fd)
+  - RECTANGLE "Fast food combo", 70x70px, constraints left/top, fill image(hash: 3b3f7da709fbdb5b07704fd507a6086a3e977ce2)
+  - TEXT "Vegatable", 107x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Fruit", 57x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Bevarage", 98x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Household", 107x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Edible Oil", 107x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Grocery", 88x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Bakery", 88x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Instant Food", 123x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Personal Care", 145x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+
+Screen: Page 1 / iPhone 14 Pro - 10
+- FRAME "iPhone 14 Pro - 10", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Rectangle 6", 484x790px, constraints left/top, fill #F3F2F2
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+  - RECTANGLE "Left", 50x50px, constraints left/top, fill image(hash: 71fbde9e83631b7c873644c41822c92510c65306)
+  - TEXT "Categories", 157x32px, constraints left/top, fill #000000, text [Inter SemiBold, 26px], [heading]
+  - RECTANGLE "Rectangle 10", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 13", 210x227px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 16", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 11", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 14", 210x227px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 17", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Bag of groceries", 106x107px, constraints left/top, radius 90px, fill image(hash: f4eb861d18b0c27cfe462c8ec927e2ae7809c133)
+  - RECTANGLE "carrot", 106x106px, constraints left/top, radius 90px, fill image(hash: 04b1d082491662301f6e0f3683821bbd5ea41ca4)
+  - RECTANGLE "croissant", 106x106px, constraints left/top, radius 90px, fill image(hash: 9053e79c3fe1079c030d6adaff3c667e370f5a46)
+  - RECTANGLE "Fast food combo", 106x106px, constraints left/top, radius 90px, fill image(hash: c53d554197f5b83ed2e9ecc90ac4a17bbbaa9ec8)
+  - RECTANGLE "Fast food combo", 106x106px, constraints left/top, radius 90px, fill image(hash: f93a1d39ef3c864f934dde7a31f9dcff7b3a77f5)
+  - RECTANGLE "Fast food combo", 106x106px, constraints left/top, radius 90px, fill image(hash: 25743c2ff22a49e801d4dd8cd1a78fdc03711bb1)
+  - TEXT "Red Chocholate", 162x30px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Potato Chips", 128x30px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Energy drinks", 136x21px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Breakfast Sandwich", 198x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Ranch dreesing", 157x25px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Burger King", 116x21px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - GROUP "Group 9", 30x30px, constraints left/top
+    - ELLIPSE "Ellipse 6", 30x30px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Love", 21x21px, constraints left/top, fill image(hash: 79416c8ef94ff4909298319518e0bfee80ce7559)
+  - ... +17 more children
+
+Screen: Page 1 / iPhone 14 Pro - 12
+- FRAME "iPhone 14 Pro - 12", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Rectangle 6", 484x790px, constraints left/top, fill #F3F2F2
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+  - RECTANGLE "Left", 50x50px, constraints left/top, fill image(hash: 71fbde9e83631b7c873644c41822c92510c65306)
+  - TEXT "Red Chocholate Cake", 263x27px, constraints left/top, fill #000000, text [Inter Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 10", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 13", 210x227px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 16", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 11", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 14", 210x227px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 17", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Bag of groceries", 106x107px, constraints left/top, radius 90px, fill image(hash: f4eb861d18b0c27cfe462c8ec927e2ae7809c133)
+  - RECTANGLE "carrot", 106x106px, constraints left/top, radius 90px, fill image(hash: 04b1d082491662301f6e0f3683821bbd5ea41ca4)
+  - RECTANGLE "croissant", 106x106px, constraints left/top, radius 90px, fill image(hash: 9053e79c3fe1079c030d6adaff3c667e370f5a46)
+  - RECTANGLE "Fast food combo", 106x106px, constraints left/top, radius 90px, fill image(hash: c53d554197f5b83ed2e9ecc90ac4a17bbbaa9ec8)
+  - RECTANGLE "Fast food combo", 106x106px, constraints left/top, radius 90px, fill image(hash: f93a1d39ef3c864f934dde7a31f9dcff7b3a77f5)
+  - RECTANGLE "Fast food combo", 106x106px, constraints left/top, radius 90px, fill image(hash: 25743c2ff22a49e801d4dd8cd1a78fdc03711bb1)
+  - TEXT "Red Chocholate", 162x30px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Potato Chips", 128x30px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Energy drinks", 136x21px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Breakfast Sandwich", 198x27px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Ranch dreesing", 157x25px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Burger King", 116x21px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - GROUP "Group 9", 30x30px, constraints left/top
+    - ELLIPSE "Ellipse 6", 30x30px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Love", 21x21px, constraints left/top, fill image(hash: 79416c8ef94ff4909298319518e0bfee80ce7559)
+  - ... +17 more children
+
+Screen: Page 1 / iPhone 14 Pro - 13
+- FRAME "iPhone 14 Pro - 13", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Rectangle 6", 484x790px, constraints left/top, fill #F3F2F2
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+  - RECTANGLE "Left", 50x50px, constraints left/top, fill image(hash: 71fbde9e83631b7c873644c41822c92510c65306)
+  - TEXT "Shopping Cart", 189x27px, constraints left/top, fill #000000, text [Inter Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 10", 440x198px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "carrot", 178x162px, constraints left/top, fill image(hash: 04b1d082491662301f6e0f3683821bbd5ea41ca4)
+  - TEXT "Red Chocholate", 162x30px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Sub - Total", 162x30px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Delivery - Fee", 162x30px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Total - Price", 162x30px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "$ 20,30", 81x22px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "$ 101,30", 92x22px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "$ 9,30", 81x22px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "$ 110,60", 103x19px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "1", 15x36px, constraints left/top, fill #000000, text [Inter Medium, 30px], [heading]
+  - RECTANGLE "Trash", 41x30px, constraints left/top, fill image(hash: 1440939b6d12a67906384e76d4b17a3ef3870e8d)
+  - RECTANGLE "Rectangle 4", 421x60px, constraints left/top, radius 20px, fill #F8A13B
+  - TEXT "Check Out", 133x32px, constraints left/top, fill #FFFFFF, text [Inter Bold, 24px], [heading]
+  - ELLIPSE "Ellipse 7", 20x20px, constraints left/top, fill #F8A13B
+  - TEXT "1", 7x17px, constraints left/top, fill #000000, text [Inter Bold, 14px]
+
+Screen: Page 1 / iPhone 14 Pro - 15
+- FRAME "iPhone 14 Pro - 15", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Rectangle 6", 484x790px, constraints left/top, fill #F3F2F2
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+  - RECTANGLE "Left", 50x50px, constraints left/top, fill image(hash: 71fbde9e83631b7c873644c41822c92510c65306)
+  - TEXT "Shipping Adresss", 219x38px, constraints left/top, fill #000000, text [Inter Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 10", 444x64px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 4", 421x60px, constraints left/top, radius 20px, fill #F8A13B
+  - TEXT "Make a Payment", 211x46px, constraints left/top, fill #FFFFFF, text [Inter Bold, 24px], [heading]
+  - ELLIPSE "Ellipse 7", 20x20px, constraints left/top, fill #F8A13B
+  - TEXT "1", 7x17px, constraints left/top, fill #000000, text [Inter Bold, 14px]
+  - RECTANGLE "Rectangle 19", 408x71px, constraints left/top, fill #F8F8F8
+  - RECTANGLE "Rectangle 23", 408x71px, constraints left/top, fill #F8F8F8
+  - RECTANGLE "Rectangle 24", 214x71px, constraints left/top, fill #F8F8F8
+  - RECTANGLE "Rectangle 25", 171x71px, constraints left/top, fill #F8F8F8
+  - RECTANGLE "Rectangle 20", 96x95px, constraints left/top, fill #F8F8F8
+  - RECTANGLE "Rectangle 21", 95x95px, constraints left/top, fill #F8F8F8
+  - RECTANGLE "Rectangle 22", 96x95px, constraints left/top, fill #F8F8F8
+  - ELLIPSE "Ellipse 8", 30x30px, constraints left/top, fill #FF961A99
+  - VECTOR "Ellipse 9", 30x30px, constraints left/top, fill #F8A13B
+  - VECTOR "Line 9", 285x0px, constraints left/top, stroke #000000 3px
+  - TEXT "Kirainn", 92x22px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Paypal", 58x22px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - TEXT "Credit Card", 87x15px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+  - TEXT "Apple pay", 99x29px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - ... +3 more children
+
+Screen: Page 1 / iPhone 14 Pro - 16
+- FRAME "iPhone 14 Pro - 16", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Rectangle 6", 484x790px, constraints left/top, fill #F3F2F2
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+  - RECTANGLE "Left", 50x50px, constraints left/top, fill image(hash: 71fbde9e83631b7c873644c41822c92510c65306)
+  - TEXT "Shipping Adresss", 219x38px, constraints left/top, fill #000000, text [Inter Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 10", 444x64px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 4", 421x60px, constraints left/top, radius 20px, fill #F8A13B
+  - TEXT "Make a Payment", 211x46px, constraints left/top, fill #FFFFFF, text [Inter Bold, 24px], [heading]
+  - ELLIPSE "Ellipse 7", 20x20px, constraints left/top, fill #F8A13B
+  - TEXT "1", 7x17px, constraints left/top, fill #000000, text [Inter Bold, 14px]
+  - RECTANGLE "Rectangle 19", 408x71px, constraints left/top, fill #F8F8F8
+  - RECTANGLE "Rectangle 23", 408x71px, constraints left/top, fill #F8F8F8
+  - RECTANGLE "Rectangle 24", 214x71px, constraints left/top, fill #F8F8F8
+  - RECTANGLE "Rectangle 25", 171x71px, constraints left/top, fill #F8F8F8
+  - ELLIPSE "Ellipse 8", 30x30px, constraints left/top, fill #FF961A99
+  - VECTOR "Ellipse 9", 30x30px, constraints left/top, fill #F8A13B
+  - VECTOR "Line 9", 285x0px, constraints left/top, stroke #000000 3px
+  - TEXT "Nama On The Card", 197x22px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Card Number", 204x22px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Month/Year", 124x22px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "CVV", 66x22px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - RECTANGLE "Done", 21x21px, constraints left/top, fill image(hash: b76443c4a8d500aa7a454658cc8a263041759f62)
+  - RECTANGLE "Done", 21x21px, constraints left/top, fill image(hash: b76443c4a8d500aa7a454658cc8a263041759f62)
+  - RECTANGLE "Rectangle 20", 96x95px, constraints left/top, fill #F8F8F8
+  - ... +8 more children
+
+Screen: Page 1 / iPhone 14 Pro - 14
+- FRAME "iPhone 14 Pro - 14", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Rectangle 6", 484x790px, constraints left/top, fill #F3F2F2
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+  - RECTANGLE "Left", 50x50px, constraints left/top, fill image(hash: 71fbde9e83631b7c873644c41822c92510c65306)
+  - TEXT "Shopping Cart", 189x27px, constraints left/top, fill #000000, text [Inter Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 10", 440x198px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 11", 440x198px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "carrot", 178x162px, constraints left/top, fill image(hash: 04b1d082491662301f6e0f3683821bbd5ea41ca4)
+  - TEXT "Red Chocholate", 162x30px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Red Chocholate", 162x30px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Sub - Total", 162x30px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Delivery - Fee", 162x30px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Total - Price", 162x30px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "$ 20,30", 81x22px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "$ 20,30", 81x22px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "$ 101,30", 92x22px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "$ 9,30", 81x22px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "$ 110,60", 103x19px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "1", 15x36px, constraints left/top, fill #000000, text [Inter Medium, 30px], [heading]
+  - TEXT "2", 19x36px, constraints left/top, fill #000000, text [Inter Medium, 30px], [heading]
+  - RECTANGLE "Trash", 41x30px, constraints left/top, fill image(hash: 1440939b6d12a67906384e76d4b17a3ef3870e8d)
+  - RECTANGLE "Trash", 41x30px, constraints left/top, fill image(hash: 1440939b6d12a67906384e76d4b17a3ef3870e8d)
+  - RECTANGLE "Rectangle 4", 421x60px, constraints left/top, radius 20px, fill #F8A13B
+  - TEXT "Check Out", 133x32px, constraints left/top, fill #FFFFFF, text [Inter Bold, 24px], [heading]
+  - ... +8 more children
+
+Screen: Page 1 / iPhone 14 Pro - 11
+- FRAME "iPhone 14 Pro - 11", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Rectangle 6", 484x790px, constraints left/top, fill #F3F2F2
+  - RECTANGLE "Left", 50x50px, constraints left/top, fill image(hash: 71fbde9e83631b7c873644c41822c92510c65306)
+  - TEXT "Red Chocholate Cake", 272x32px, constraints left/top, fill #000000, text [Inter Bold, 24px], [heading]
+  - TEXT "Red Chocholate", 201x40px, constraints left/top, fill #000000, text [Inter Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 16", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 17", 210x226px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "croissant", 106x106px, constraints left/top, radius 90px, fill image(hash: 9053e79c3fe1079c030d6adaff3c667e370f5a46)
+  - RECTANGLE "Fast food combo", 106x106px, constraints left/top, radius 90px, fill image(hash: c53d554197f5b83ed2e9ecc90ac4a17bbbaa9ec8)
+  - TEXT "Ranch dreesing", 157x25px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Burger King", 116x21px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - GROUP "Group 9", 30x30px, constraints left/top
+    - ELLIPSE "Ellipse 6", 30x30px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Love", 21x21px, constraints left/top, fill image(hash: 79416c8ef94ff4909298319518e0bfee80ce7559)
+  - GROUP "Group 10", 30x30px, constraints left/top
+    - ELLIPSE "Ellipse 6", 30x30px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Love", 21x21px, constraints left/top, fill image(hash: 79416c8ef94ff4909298319518e0bfee80ce7559)
+  - TEXT "$ 11,30", 57x20px, constraints left/top, fill #000000, text [Inter Light, 14px]
+  - TEXT "$ 11,30", 57x20px, constraints left/top, fill #000000, text [Inter Light, 14px]
+  - TEXT "$ 20,30", 57x20px, constraints left/top, fill #000000, text [Inter Bold, 14px]
+  - TEXT "$ 20,30", 57x20px, constraints left/top, fill #000000, text [Inter Bold, 14px]
+  - RECTANGLE "Rectangle", 403x318px, constraints left/top, fill image(hash: 04b1d082491662301f6e0f3683821bbd5ea41ca4)
+  - TEXT "Lorem Ipsum is simply dummy text of the printing and typeset", 401x122px, constraints left/top, fill #000000, text [Inter ExtraLight, 17px]
+  - TEXT "1", 12x30px, constraints left/top, fill #000000, text [Inter ExtraLight, 28px], [heading]
+  - TEXT "$ 11,30", 57x20px, constraints left/top, fill #000000, text [Inter Light, 14px]
+  - TEXT "$ 20,30", 81x23px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - RECTANGLE "Rectangle 4", 218x43px, constraints left/top, radius 20px, fill #F8A13B
+  - TEXT "Add to Cart", 142x21px, constraints left/top, fill #FFFFFF, text [Inter Bold, 20px]
+  - ... +3 more children
+
+Screen: Page 1 / iPhone 14 Pro - 5
+- FRAME "iPhone 14 Pro - 5", 484x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - FRAME "Frame 1", 406x323px, constraints left/top
+    - RECTANGLE "Young man ordering food online", 406x323px, constraints left/top, fill image(hash: 0cd0ed2f108e8c0f947a0488f8c8ffaed5a77791)
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "Make Your Order", 300x43px, constraints left/top, fill #F8A13B, text [Inter Bold, 36px], [heading]
+  - TEXT "1.48 PM", 63x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - RECTANGLE "Wi-Fi", 96x96px, constraints left/top, fill image(hash: 8c071d203889838992027a7f804503ff7c05cbab)
+  - VECTOR "Line 4", 389.01x0px, constraints left/top, stroke #E3DACF 10px
+  - VECTOR "Line 5", 200x0px, constraints left/top, stroke #F8A13B 10px
+  - TEXT "Put anything you want into cart and confirm your order succe", 389x49px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Skip", 54x28px, constraints left/top, fill #F8A13B, text [Inter Bold, 24px], [heading]
+  - TEXT "Next", 58x28px, constraints left/top, fill #F8A13B, text [Inter Bold, 24px], [heading]
+  - VECTOR "Line 6", 173x0px, constraints left/top, stroke #000000 10px
+
+Screen: Page 1 / iPhone 14 Pro - 2
+- FRAME "iPhone 14 Pro - 2", 475x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - GROUP "Group 7", 440x310px, constraints left/top
+    - RECTANGLE "Order delivered to the location", 440x310px, constraints left/top, fill image(hash: b5a57b0b14a1aff05b5f6a3c8167c4b3efca5330)
+  - VECTOR "Line 4", 389.01x0px, constraints left/top, stroke #F8A13B 10px
+  - VECTOR "Line 5", 173x0px, constraints left/top, stroke #000000 10px
+  - RECTANGLE "Rectangle 4", 118x38px, constraints left/top, radius 20px, fill #000000
+  - TEXT "Recieve Your Order", 342x50px, constraints left/top, fill #F8A13B, text [Inter Bold, 36px], [heading]
+  - TEXT "Congratulation! Your order will be at your door fast as we c", 389x49px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Skip", 54x28px, constraints left/top, fill #F8A13B, text [Inter Bold, 24px], [heading]
+  - TEXT "Get Started", 136x40px, constraints left/top, fill #F8A13B, text [Inter Bold, 24px], [heading]
+
+Screen: Page 1 / iPhone 14 Pro - 3
+- FRAME "iPhone 14 Pro - 3", 475x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - TEXT "Creat an Account", 278x46px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - TEXT "Login", 61x25px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - RECTANGLE "Rectangle 1", 421x60px, constraints left/top, radius 5px, fill #F6F6F6
+  - RECTANGLE "Rectangle 2", 421x60px, constraints left/top, radius 5px, fill #F6F6F6
+  - RECTANGLE "Rectangle 4", 421x60px, constraints left/top, radius 20px, fill #F8A13B
+  - RECTANGLE "Rectangle 3", 421x60px, constraints left/top, radius 5px, fill #F6F6F6
+  - RECTANGLE "Rectangle", 475x430px, constraints left/top, fill image(hash: b81cc52b7342e46cfdde823d5f78be395f8e9ab9)
+  - TEXT "Quickly creat account", 213x26px, constraints left/top, fill #000000, text [Inter ExtraLight, 18px]
+  - TEXT "Already have an account ?", 258x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Phone Number", 147x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Email Andress", 147x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Password", 98x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - VECTOR "Line 5", 173x0px, constraints left/top, stroke #000000 10px
+  - TEXT "Sign Up", 93x31px, constraints left/top, fill #FFFFFF, text [Inter Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+
+Screen: Page 1 / iPhone 14 Pro - 6
+- FRAME "iPhone 14 Pro - 6", 475x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - TEXT "Welcome to Kirainn Store", 419x36px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - TEXT "Login", 61x25px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - RECTANGLE "Rectangle 2", 421x60px, constraints left/top, radius 5px, fill #F6F6F6
+  - RECTANGLE "Rectangle 4", 421x60px, constraints left/top, radius 20px, fill #F8A13B
+  - RECTANGLE "Rectangle 3", 421x60px, constraints left/top, radius 5px, fill #F6F6F6
+  - RECTANGLE "Rectangle", 475x430px, constraints left/top, fill image(hash: ea13f83a9b9e13fc69ca7a18ec1b6de7a73e90bd)
+  - TEXT "Welcome to our grocery store! Find fresh, quality products f", 362x61px, constraints left/top, fill #000000, text [Inter ExtraLight, 17px]
+  - TEXT "Already have an account ?", 258x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - VECTOR "Line 5", 173x0px, constraints left/top, stroke #000000 10px
+  - TEXT "Create an Account", 227x29px, constraints left/top, fill #FFFFFF, text [Inter Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+  - GROUP "Google", 27x27px, constraints left/top
+    - RECTANGLE "Google", 27x27px, constraints left/top, fill image(hash: 8f822ef0cead858823583a83a68334b137add0e4)
+  - GROUP "Social Media Facebook", 27x27px, constraints left/top
+    - RECTANGLE "Social Media Facebook", 27x27px, constraints left/top, fill image(hash: 3d93569335ebc8fd4c1693d4f196be5a2393ca6b)
+  - TEXT "Continue with Google", 241x31px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+  - TEXT "Continue with Facebook", 241x31px, constraints left/top, fill #000000, text [Inter Regular, 20px]
+
+Screen: Page 1 / iPhone 14 Pro - 4
+- FRAME "iPhone 14 Pro - 4", 475x941px, constraints left/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle", 475x430px, constraints left/top, fill image(hash: 1032601bafaffea987dbb171ba78e02947f94765)
+  - TEXT "Creat an Account", 278x46px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - TEXT "Sign up", 82x26px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Forget Passsword ?", 193x24px, constraints left/top, fill #F8A13B, text [Inter Bold, 20px]
+  - RECTANGLE "Rectangle 2", 421x60px, constraints left/top, radius 5px, fill #F6F6F6
+  - RECTANGLE "Rectangle 4", 421x60px, constraints left/top, radius 20px, fill #F8A13B
+  - RECTANGLE "Rectangle 3", 421x60px, constraints left/top, radius 5px, fill #F6F6F6
+  - TEXT "Quickly creat account", 213x26px, constraints left/top, fill #000000, text [Inter ExtraLight, 18px]
+  - TEXT "Don’t have an account ?", 233x27px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Email Andress", 147x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "Password", 98x26px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - VECTOR "Line 5", 173x0px, constraints left/top, stroke #000000 10px
+  - TEXT "Login", 69x31px, constraints left/top, fill #FFFFFF, text [Inter Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 5", 118x38px, constraints left/top, radius 20px, fill #000000
+
+Screen: Page 1 / Wi-Fi
+- RECTANGLE "Wi-Fi", 96x96px, constraints left/top, fill image(hash: 8c071d203889838992027a7f804503ff7c05cbab)
+
+Screen: Page 1 / Delete 1
+- FRAME "Delete 1", 24x24px, constraints left/top, fill #FFFFFF
+  - GROUP "delete-1--remove-add-button-buttons-delete-cross-x-mathemati", 21x21px, constraints scale/scale
+    - VECTOR "Vector", 21x21px, constraints scale/scale, stroke #3E3E3E 1.71px
+    - VECTOR "Vector_2", 21x21px, constraints scale/scale, stroke #3E3E3E 1.71px
+
+Screen: Page 1 / Magnifying Glass
+- FRAME "Magnifying Glass", 21x21px, constraints left/top, fill #FFFFFF
+  - GROUP "magnifying-glass--glass-search-magnifying", 21x21px, constraints scale/scale
+    - VECTOR "Vector", 17.77x17.77px, constraints scale/scale, stroke #3E3E3E 1.71px
+    - VECTOR "Vector_2", 5.65x5.65px, constraints scale/scale, stroke #3E3E3E 1.71px
+
+Screen: Page 1 / Girl choosing food in online shop
+- RECTANGLE "Girl choosing food in online shop", 284x264px, constraints left/top, fill image(hash: d40d93d70864cba6a69ae8638a9559c5a4e315e1)
+
+Screen: Page 1 / Group 8
+- GROUP "Group 8", 30x30px, constraints left/top
+  - ELLIPSE "Ellipse 6", 30x30px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Love", 21x21px, constraints left/top, fill image(hash: 79416c8ef94ff4909298319518e0bfee80ce7559)
+
+Screen: Page 1 / Group 9
+- GROUP "Group 9", 30x30px, constraints left/top
+  - ELLIPSE "Ellipse 6", 30x30px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Love", 21x21px, constraints left/top, fill image(hash: 79416c8ef94ff4909298319518e0bfee80ce7559)
+
+Screen: Page 1 / chocolate drink with ice cream
+- RECTANGLE "chocolate drink with ice cream", 76x122px, constraints left/top, fill image(hash: 17245702b3ddc30d8f42b6cb17d2954b1f042c69)
+
+Screen: Page 1 / matcha drink with red straw
+- RECTANGLE "matcha drink with red straw", 78x122px, constraints left/top, fill image(hash: dbfd9d439e02de1d8499e72861177d767a3f76ae)
+
+Screen: Page 1 / Fruits and vegetables harvest
+- RECTANGLE "Fruits and vegetables harvest", 70x70px, constraints left/top, fill image(hash: ae545b2d3ebea598a2a3fdf82cc823b9b23500a1)
+
+Screen: Page 1 / drip coffee
+- RECTANGLE "drip coffee", 70x70px, constraints left/top, fill image(hash: 1c6e2c2e796bd74e08c4d375b51ee3a0194b6ee5)
+
+Screen: Page 1 / oil diluent
+- RECTANGLE "oil diluent", 70x70px, constraints left/top, fill image(hash: d061cfdb098832c600300e08507175b789664205)
+
+Screen: Page 1 / hand putting a dish in the dishwasher
+- RECTANGLE "hand putting a dish in the dishwasher", 70x70px, constraints left/top, fill image(hash: 74df594e7ba0a9e0eff7d0499094bf419c692dcd)
+
+Screen: Page 1 / Personal Data Protection
+- RECTANGLE "Personal Data Protection", 70x70px, constraints left/top, fill image(hash: 658d03b9a9626bda98efc6949e9198afe1c5c8d1)
+
+Screen: Page 1 / Minus
+- RECTANGLE "Minus", 30x30px, constraints left/top, fill image(hash: 62fff5cf2a809be29a1efcb760a04f8d8d2eb586)
+
+Screen: Page 1 / Plus
+- RECTANGLE "Plus", 30x30px, constraints left/top, fill image(hash: aeb64c2c5d41e9d6d464f37df31a93e4e18c3cd5)
+
+Screen: Page 1 / Done
+- RECTANGLE "Done", 21x21px, constraints left/top, fill image(hash: b76443c4a8d500aa7a454658cc8a263041759f62)
+
+Screen: Page 1 / Done
+- RECTANGLE "Done", 21x21px, constraints left/top, fill image(hash: b76443c4a8d500aa7a454658cc8a263041759f62)
+
+Screen: Page 1 / Credit Card
+- RECTANGLE "Credit Card", 40x40px, constraints left/top, fill image(hash: 9e81e2a9ac7cd614f353d7f43a1830254a39828f)
+
+Screen: Page 1 / PayPal
+- RECTANGLE "PayPal", 40x40px, constraints left/top, fill image(hash: aa646a919a676047047bae0db7cdb76a771bcd30)
+
+Screen: Page 1 / Apple Pay
+- RECTANGLE "Apple Pay", 40x40px, constraints left/top, fill image(hash: cea87aaacc6bbb3ac38582b89e553135d0a98476)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
+
+
+---
+
+---
+name: insuling-app-community
+source_file: Insuling app (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:26:30.053646+00:00
+---
+
+# Insuling app (Community) Design Guidelines
+
+## Source
+- Figma file: Insuling app (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:26:30.053646+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White / F4F3FC: [#000000]
+- Focused State - Bright Blue: none
+- Focused State - Transparent Light Blue: none
+- Focused State - Bright Yellow: none
+- Focused State - Transparent Yellow: none
+- Icon Int Buts - Gray HOVER Overlay: [#7A7A7A24]
+- Icon Int Buts - Gray PRESS FOCUS OVERLAY: [#7A7A7A42]
+- #959595 - Mid Grey 2: [#959595]
+- #D4D4D4 - Light Grey: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #000000: 120 uses
+- #DADADA: 119 uses
+- #FFFFFF: 87 uses
+- #49494999: 6 uses
+- #A5A5A5: 6 uses
+- #E7D106: 6 uses
+- #686B6F: 4 uses
+- #E0DFDF: 4 uses
+- #070606: 3 uses
+- #494949: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Light, 16px: 18 uses
+- Roboto ExtraBold, 32px: 10 uses
+- Roboto Bold, 24px: 9 uses
+- Roboto Regular, 20px: 9 uses
+- Roboto Regular, 14px: 8 uses
+- Roboto ExtraBold, 20px: 6 uses
+- Roboto Light, 20px: 6 uses
+- Roboto Black, 36px: 3 uses
+- Roboto ExtraLight, 20px: 3 uses
+- Roboto Medium, 14px: 3 uses
+
+## Typography Hierarchy
+- 36px - Roboto Black, 36px (raw)
+- 32px - Roboto ExtraBold, 32px (raw)
+- 24px - Roboto Bold, 24px (raw)
+- 20px - Roboto ExtraBold, 20px (raw)
+- 20px - Roboto ExtraLight, 20px (raw)
+- 20px - Roboto Light, 20px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 16px - Roboto Light, 16px (raw)
+- 14px - Roboto Medium, 14px (raw)
+- 14px - Roboto Regular, 14px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- White / F4F3FC: 17 uses
+- #959595 - Mid Grey 2: 4 uses
+- #D4D4D4 - Light Grey: 4 uses
+- Focused State - Bright Blue: 4 uses
+- Focused State - Bright Yellow: 4 uses
+- Focused State - Transparent Light Blue: 4 uses
+- Focused State - Transparent Yellow: 4 uses
+
+## Layout & Structure
+Screen: Page 1 / iPhone 14 Pro - 1
+- FRAME "iPhone 14 Pro - 1", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "Cari wisata", 120x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Rekomendasi", 88x16px, constraints left/top, fill #000000, text [Roboto Bold, 14px]
+  - TEXT "Lihat semua", 79x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - INSTANCE "Search Field/No label/Default", 376x36px, constraints left/top, radius 20px, fill #FFFFFF
+    - RECTANGLE "field", 376x36px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #D4D4D4 - Light Grey 1px
+    - TEXT "Search...", 55x17px, constraints left/center, fill #959595 - Mid Grey 2, text [Roboto Regular, 14px]
+    - INSTANCE "Icons/✶ Primary/magnify", 34x34px, constraints left/top, fill #FFFFFF
+      - VECTOR "Icon Artwork", 17x17px, constraints center/center, fill #686B6F
+  - RECTANGLE "Mesjid Al-Kamil 1", 375x226px, constraints left/top, radius 20px, fill image(hash: 9bfc189a58dd4f1cc7b8cf1fb833315cf33a2c48)
+  - RECTANGLE "Alun Alun Sumedang 2", 382x226px, constraints left/top, radius 25px, fill image(hash: c09267583d1eeefe64af8cecba5d5d6bec0de006)
+  - TEXT "Alun-Alun Sumedang", 150x16px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 15px]
+  - RECTANGLE "Location", 37x19px, constraints left/top, fill image(hash: 1b77fd8058bb6db3374fc0e9570efe067274e7b4)
+  - TEXT "Jatigede", 64x16px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 15px]
+  - RECTANGLE "Location", 37x19px, constraints left/top, fill image(hash: 1b77fd8058bb6db3374fc0e9570efe067274e7b4)
+  - TEXT "Monumen Lingga", 158x23px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 20px]
+  - TEXT "Mesjid Al-Kamil", 158x23px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 20px]
+  - RECTANGLE "Tanjung Duriat 1", 373x226px, constraints right/top, radius 20px, fill image(hash: ffc56417e9b2b7e61aca49777f780cb085a2193c)
+  - RECTANGLE "Rectangle 4", 449x78px, constraints left/top, radius 30px, fill #E0DFDF
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - RECTANGLE "Home Page", 35x35px, constraints left/top, fill image(hash: 0ad070e040fc01c53065119bcaf32b57f2d1b6d3)
+  - RECTANGLE "Info", 35x35px, constraints left/top, fill image(hash: cba189ec47d42973cc42cc7e403c374ce9d3662a)
+  - RECTANGLE "Compass", 35x35px, constraints left/top, fill image(hash: 9bb906a848d99f22b0f62a0a8d0159e8379e5175)
+  - TEXT "Bendaungan Jatigede", 211x23px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 20px]
+
+Screen: Page 1 / iPhone 14 Pro - 3
+- FRAME "iPhone 14 Pro - 3", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "Rekomendasi", 88x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - TEXT "Lihat semua", 79x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - RECTANGLE "tahu-sumedang 1", 383x226px, constraints left/top, radius 20px, fill image(hash: 570063ec427191b3c558496e36f9a3058ae01c94)
+  - RECTANGLE "Alun Alun Sumedang 2", 382x226px, constraints left/top, radius 25px, fill image(hash: 0dd80084b60325c7b5fa1a28050b10618f1c0755)
+  - TEXT "Soot Bongko", 119x23px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 20px]
+  - TEXT "Tahu Sumedang", 158x23px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 20px]
+  - RECTANGLE "Oncom 1", 383x226px, constraints left/top, radius 20px, fill image(hash: ca90f810350a82a62be6b1a71132ee41c0286fa3)
+  - FRAME "Frame 6", 469x98px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 4", 449x78px, constraints left/top, radius 30px, fill #E0DFDF
+  - INSTANCE "Search Field/No label/Default", 381x36px, constraints left/top, radius 20px, fill #FFFFFF
+    - RECTANGLE "field", 381x36px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #D4D4D4 - Light Grey 1px
+    - TEXT "Search...", 55x17px, constraints left/center, fill #959595 - Mid Grey 2, text [Roboto Regular, 14px]
+    - INSTANCE "Icons/✶ Primary/magnify", 34x34px, constraints left/top, fill #FFFFFF
+      - VECTOR "Icon Artwork", 17x17px, constraints center/center, fill #686B6F
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - TEXT "Cari kuliner", 124x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - RECTANGLE "Home Page", 35x35px, constraints left/top, fill image(hash: 0ad070e040fc01c53065119bcaf32b57f2d1b6d3)
+  - RECTANGLE "Info", 35x35px, constraints left/top, fill image(hash: cba189ec47d42973cc42cc7e403c374ce9d3662a)
+  - RECTANGLE "Compass", 30x30px, constraints left/top, fill image(hash: e5446b154d2353db933df4ec700993b50f5d9b9e)
+  - TEXT "Oncom", 65x23px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 20px]
+
+Screen: Page 1 / iPhone 14 Pro - 9
+- FRAME "iPhone 14 Pro - 9", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "Rekomendasi", 88x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - TEXT "Rekomendasi", 88x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - TEXT "Lihat semua", 79x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - TEXT "Lihat semua", 79x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - RECTANGLE "tahu-sumedang 1", 155x100px, constraints left/top, radius 15px, fill image(hash: 570063ec427191b3c558496e36f9a3058ae01c94)
+  - RECTANGLE "Alun Alun Sumedang 2", 155x100px, constraints left/top, radius 15px, fill image(hash: 0dd80084b60325c7b5fa1a28050b10618f1c0755)
+  - RECTANGLE "Oncom 1", 155x100px, constraints left/top, radius 15px, fill image(hash: ca90f810350a82a62be6b1a71132ee41c0286fa3)
+  - RECTANGLE "Rectangle 4", 449x78px, constraints left/top, radius 30px, fill #E0DFDF
+  - TEXT "Wisata", 62x23px, constraints left/top, fill #000000, text [Roboto Bold, 20px]
+  - TEXT "Kuliner", 64x23px, constraints left/top, fill #000000, text [Roboto Bold, 20px]
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - RECTANGLE "Mesjid Al-Kamil 3", 155x100px, constraints left/top, radius 15px, fill image(hash: 9bfc189a58dd4f1cc7b8cf1fb833315cf33a2c48)
+  - RECTANGLE "Tanjung Duriat 2", 155x100px, constraints right/top, radius 15px, fill image(hash: ffc56417e9b2b7e61aca49777f780cb085a2193c)
+  - LINE "Line 4", 438x0px, constraints left/top, stroke #C5C5C5 1px
+  - INSTANCE "Search Field/No label/Default", 381x36px, constraints left/top, radius 20px, fill #FFFFFF
+    - RECTANGLE "field", 381x36px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #D4D4D4 - Light Grey 1px
+    - TEXT "Search...", 55x17px, constraints left/center, fill #959595 - Mid Grey 2, text [Roboto Regular, 14px]
+    - INSTANCE "Icons/✶ Primary/magnify", 34x34px, constraints left/top, fill #FFFFFF
+      - VECTOR "Icon Artwork", 17x17px, constraints center/center, fill #686B6F
+  - TEXT "Kuliner", 77x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Wisata", 74x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Apa yang kamu cari?", 225x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - INSTANCE "Search Field/No label/Default", 381x36px, constraints left/top, radius 20px, fill #FFFFFF
+    - RECTANGLE "field", 381x36px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #D4D4D4 - Light Grey 1px
+    - TEXT "Search...", 55x17px, constraints left/center, fill #959595 - Mid Grey 2, text [Roboto Regular, 14px]
+    - INSTANCE "Icons/✶ Primary/magnify", 34x34px, constraints left/top, fill #FFFFFF
+      - VECTOR "Icon Artwork", 17x17px, constraints center/center, fill #686B6F
+  - RECTANGLE "Food", 683x455px, constraints left/top, fill image(hash: d9784ec22a05c2fb5e0f55f26f74f03977070766)
+  - RECTANGLE "Nature", 177x129px, constraints left/top, fill image(hash: 1aac1c02679d8da8e1eeb8123c154a17acaf5eea)
+  - RECTANGLE "Food", 197x129px, constraints left/top, fill image(hash: 3d70edaf9f1c62a269fd066e28f0c48f265fe468)
+  - RECTANGLE "Info", 35x35px, constraints left/top, fill image(hash: cba189ec47d42973cc42cc7e403c374ce9d3662a)
+  - ... +2 more children
+
+Screen: Page 1 / Alun Alun Sumedang 3
+- RECTANGLE "Alun Alun Sumedang 3", 155x99px, constraints left/top, radius 15px, fill image(hash: c09267583d1eeefe64af8cecba5d5d6bec0de006)
+
+Screen: Page 1 / iPhone 14 Pro - 5
+- FRAME "iPhone 14 Pro - 5", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - GROUP "Group 28", 42x8px, constraints left/top
+    - ELLIPSE "Ellipse 4", 8x8px, constraints center/center, fill #494949
+    - ELLIPSE "Ellipse 5", 8x8px, constraints center/center, fill #49494999
+    - ELLIPSE "Ellipse 6", 8x8px, constraints center/center, fill #49494999
+  - RECTANGLE "Next page", 44x52px, constraints left/top, fill image(hash: b32a8164f65b429da5fc68a13744d6a41af54022)
+  - RECTANGLE "Insuling (1) 1", 339x176px, constraints left/top, fill image(hash: 3e0e71a65b07d8ad9d747cef320164de3674f147)
+
+Screen: Page 1 / iPhone 14 Pro - 14
+- FRAME "iPhone 14 Pro - 14", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - RECTANGLE "Insuling (1) 1", 339x176px, constraints left/top, fill image(hash: 3e0e71a65b07d8ad9d747cef320164de3674f147)
+  - TEXT "Tentang Aplikasi", 243x38px, constraints left/top, fill #000000, text [Roboto ExtraBold, 32px], [heading]
+  - TEXT "Insuling adalah aplikasi yang memberikan informasi tentang o", 371x168px, constraints left/top, fill #070606, text [Roboto Light, 20px]
+  - RECTANGLE "Rectangle 4", 438x78px, constraints left/top, radius 30px, fill #E0DFDF
+  - RECTANGLE "Compass", 34x35px, constraints left/top, fill image(hash: 9bb906a848d99f22b0f62a0a8d0159e8379e5175)
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - RECTANGLE "Home Page", 34x35px, constraints left/top, fill image(hash: 34c116fe599588da33c22b906e27e4faa0f7f0bf)
+  - RECTANGLE "Circled I", 34x35px, constraints left/top, fill image(hash: 8172dea0bf7231205350b12c0a46ee6f4112501a)
+
+Screen: Page 1 / iPhone 14 Pro - 8
+- FRAME "iPhone 14 Pro - 8", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - FRAME "Frame 5", 245x47px, vertical pad 10 99 10 99px gap 10px align center/center sizing W:fixed H:fixed, constraints center/center, radius 20px, fill #000000, effect [drop_shadow 10px offset 0 4 #00000040]
+    - TEXT "Masuk", 43x16px, constraints center/center, fill #FFFFFF, text [Roboto Black, 14px]
+  - RECTANGLE "questions blue", 405x422px, constraints left/top, fill image(hash: 7db8c8d7104e61a83b2a06df2610446a8dc77170)
+  - GROUP "Group 3", 438x102px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Temukan tempat dan kuliner populer yang ada di sumedang", 438x47px, constraints center/center, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "Rekomendasi", 268x55px, constraints center/center, fill #000000, text [Roboto Black, 36px], [heading]
+
+Screen: Page 1 / iPhone 14 Pro - 7
+- FRAME "iPhone 14 Pro - 7", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "Group 27", 42x8px, constraints left/top
+    - ELLIPSE "Ellipse 4", 8x8px, constraints center/center, fill #49494999
+    - ELLIPSE "Ellipse 5", 8x8px, constraints center/center, fill #49494999
+    - ELLIPSE "Ellipse 6", 8x8px, constraints center/center, fill #494949
+  - RECTANGLE "Go Back", 44x54px, constraints left/top, fill image(hash: 0a627f0adcf499bed915fc8e288c6c3ebb0df9ef)
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - RECTANGLE "Girl cooking a salad but dreaming about meat", 438x419px, constraints left/top, fill image(hash: fd2a3332099e38dd073f59257caf879fffc0e533)
+  - GROUP "Group 3", 302x79px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Jelajahi kuliner khas Sumedang", 302x24px, constraints center/center, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "Berburu Kuliner", 268x55px, constraints center/center, fill #000000, text [Roboto Black, 36px], [heading]
+
+Screen: Page 1 / iPhone 14 Pro - 6
+- FRAME "iPhone 14 Pro - 6", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "Group 29", 42x8px, constraints left/top
+    - ELLIPSE "Ellipse 4", 8x8px, constraints center/center, fill #49494999
+    - ELLIPSE "Ellipse 5", 8x8px, constraints center/center, fill #494949
+    - ELLIPSE "Ellipse 6", 8x8px, constraints center/center, fill #49494999
+  - GROUP "Group 3", 438x115px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Temukan destinasi wisata menarik yang ada di Sumedang", 438x60px, constraints center/center, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "Liburan yuk!", 210x55.18px, constraints center/center, fill #000000, text [Roboto Black, 36px], [heading]
+  - RECTANGLE "Go Back", 44x54px, constraints left/top, fill image(hash: 0a627f0adcf499bed915fc8e288c6c3ebb0df9ef)
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - RECTANGLE "Country picnic in the garden", 438x422px, constraints left/top, fill image(hash: c1b2b91c55b4306d71fdd7b781aa590a95dbe42f)
+
+Screen: Page 1 / iPhone 14 Pro - 2
+- FRAME "iPhone 14 Pro - 2", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "Monumen Lingga merupakan bangunan unik yang dibangun pada za", 371x197px, constraints left/top, fill #070606, text [Roboto Light, 20px]
+  - RECTANGLE "Rectangle 2", 371x58px, constraints left/top, radius 20px, fill #EFDE47
+  - TEXT "Simpan destinasi", 187x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Deskripsi", 112x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - LINE "Line 1", 438x0.03px, constraints left/top, stroke #A5A5A5 1px
+  - RECTANGLE "Rectangle 3", 438x39px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "Tentang", 63x16px, constraints left/top, fill #E7D106, effect [inner_shadow 4px offset 0 4 #00000040], text [Roboto Light, 16px]
+  - TEXT "Video", 43x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Poto", 35x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - RECTANGLE "Alun Alun Sumedang 1", 873x501px, constraints left/top, fill image(hash: c09267583d1eeefe64af8cecba5d5d6bec0de006)
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - TEXT "Monumen Lingga", 267x38px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 32px], [heading]
+  - RECTANGLE "Go Back", 40x40px, constraints left/top, fill image(hash: 4e5c77d17463985c7cda0b138a6b16d9bceaad73)
+  - GROUP "Group 26", 40x40px, constraints left/top
+    - ELLIPSE "Ellipse 1", 40x40px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Bookmark", 25x25.64px, constraints left/top, fill image(hash: d5140ae4646895deea533a22cc660e53843aed8e)
+
+Screen: Page 1 / iPhone 14 Pro - 11
+- FRAME "iPhone 14 Pro - 11", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - LINE "Line 1", 438x0.03px, constraints left/top, stroke #A5A5A5 1px
+  - RECTANGLE "Rectangle 3", 438x39px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "Tentang", 63x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Video", 43x16px, constraints left/top, fill #E7D106, effect [inner_shadow 4px offset 0 4 #00000040], text [Roboto Light, 16px]
+  - TEXT "Poto", 35x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - RECTANGLE "Alun Alun Sumedang 1", 873x501px, constraints left/top, fill image(hash: c09267583d1eeefe64af8cecba5d5d6bec0de006)
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - TEXT "Monumen Lingga", 267x38px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 32px], [heading]
+  - GROUP "Group 25", 258x37px, constraints left/top
+    - TEXT "Alun-Alun Sumedang", 209x16px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 20px]
+    - RECTANGLE "Location", 50x37px, constraints left/top, fill image(hash: 1b77fd8058bb6db3374fc0e9570efe067274e7b4)
+  - RECTANGLE "Go Back", 40x40px, constraints left/top, fill image(hash: 4e5c77d17463985c7cda0b138a6b16d9bceaad73)
+  - RECTANGLE "tugu lingga 1 1", 360x204px, constraints left/top, fill image(hash: 16d0629496f4bbefdcb018b90f480eecb4508b94)
+  - GROUP "Group 30", 60x60px, constraints left/top
+    - ELLIPSE "Ellipse 7", 60x60px, constraints center/center, fill #FFFFFF33, stroke #000000 1px
+    - REGULAR_POLYGON "Polygon 1", 28x30px, constraints left/top, fill #080707
+
+Screen: Page 1 / iPhone 14 Pro - 10
+- FRAME "iPhone 14 Pro - 10", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - LINE "Line 1", 438x0.03px, constraints left/top, stroke #A5A5A5 1px
+  - RECTANGLE "Rectangle 3", 438x39px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "Tentang", 63x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Video", 43x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Poto", 35x16px, constraints left/top, fill #E7D106, effect [inner_shadow 4px offset 0 4 #00000040], text [Roboto Light, 16px]
+  - RECTANGLE "Alun Alun Sumedang 1", 873x501px, constraints left/top, fill image(hash: c09267583d1eeefe64af8cecba5d5d6bec0de006)
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - TEXT "Monumen Lingga", 267x38px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 32px], [heading]
+  - GROUP "Group 25", 258x37px, constraints left/top
+    - TEXT "Alun-Alun Sumedang", 209x16px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 20px]
+    - RECTANGLE "Location", 50x37px, constraints left/top, fill image(hash: 1b77fd8058bb6db3374fc0e9570efe067274e7b4)
+  - RECTANGLE "tugu lingga 4 1", 187x147px, constraints left/top, fill image(hash: 5f77619d4968e74843fed74305b45dd68e6965ec)
+  - RECTANGLE "tugu lingga 3 1", 187x147px, constraints left/top, fill image(hash: dfeed7c44d0d11d238801a6a64153e6da45ba9ba)
+  - RECTANGLE "tugu lingga 2 1", 187x147px, constraints left/top, fill image(hash: 37a23aa5ca3c62dc140d58273b72f57fa577fbae)
+  - RECTANGLE "tugu lingga 1 1", 187x147px, constraints left/top, fill image(hash: 16d0629496f4bbefdcb018b90f480eecb4508b94)
+  - RECTANGLE "Go Back", 40x40px, constraints left/top, fill image(hash: 4e5c77d17463985c7cda0b138a6b16d9bceaad73)
+
+Screen: Page 1 / iPhone 14 Pro - 4
+- FRAME "iPhone 14 Pro - 4", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - TEXT "Tahu adalah makanan yang berasal dari Tiongkok; dikenal deng", 371x197px, constraints left/top, fill #070606, text [Roboto Light, 20px]
+  - RECTANGLE "Rectangle 2", 371x58px, constraints left/top, radius 20px, fill #EFDE47
+  - TEXT "Simpan kuliner", 162x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Deskripsi", 112x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - LINE "Line 1", 438x0.03px, constraints left/top, stroke #A5A5A5 1px
+  - TEXT "Tentang", 63x16px, constraints left/top, fill #E7D106, effect [inner_shadow 4px offset 0 4 #00000040], text [Roboto Light, 16px]
+  - TEXT "Video", 43x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Poto", 35x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Monumen Lingga", 270x38px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 32px], [heading]
+  - RECTANGLE "tahu-sumedang 2", 449x466px, constraints left/top, radius 20px, fill image(hash: 570063ec427191b3c558496e36f9a3058ae01c94)
+  - GROUP "Group 26", 40x40px, constraints left/top
+    - ELLIPSE "Ellipse 1", 40x40px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Bookmark", 25x25.64px, constraints left/top, fill image(hash: d5140ae4646895deea533a22cc660e53843aed8e)
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - TEXT "Tahu Sumedang", 270x38px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 32px], [heading]
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - RECTANGLE "Go Back", 40x40px, constraints left/top, fill image(hash: 4e5c77d17463985c7cda0b138a6b16d9bceaad73)
+  - GROUP "Group 25", 155x37px, constraints left/top
+    - TEXT "Sumedang", 106x24px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 20px]
+    - RECTANGLE "Location", 50x37px, constraints left/top, fill image(hash: 1b77fd8058bb6db3374fc0e9570efe067274e7b4)
+
+Screen: Page 1 / iPhone 14 Pro - 13
+- FRAME "iPhone 14 Pro - 13", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - LINE "Line 1", 438x0.03px, constraints left/top, stroke #A5A5A5 1px
+  - TEXT "Tentang", 63x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Video", 43x16px, constraints left/top, fill #E7D106, effect [inner_shadow 4px offset 0 4 #00000040], text [Roboto Light, 16px]
+  - TEXT "Poto", 35x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Monumen Lingga", 270x38px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 32px], [heading]
+  - RECTANGLE "tahu-sumedang 2", 449x466px, constraints left/top, radius 20px, fill image(hash: 570063ec427191b3c558496e36f9a3058ae01c94)
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - TEXT "Tahu Sumedang", 270x38px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 32px], [heading]
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - RECTANGLE "Go Back", 40x40px, constraints left/top, fill image(hash: 4e5c77d17463985c7cda0b138a6b16d9bceaad73)
+  - GROUP "Group 25", 258x37px, constraints left/top
+    - TEXT "Alun-Alun Sumedang", 209x16px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 20px]
+    - RECTANGLE "Location", 50x37px, constraints left/top, fill image(hash: 1b77fd8058bb6db3374fc0e9570efe067274e7b4)
+  - RECTANGLE "image 1", 362x206px, constraints left/top, fill image(hash: ed1091a798e586b51028157894988861413bdb82)
+  - GROUP "Group 30", 60x60px, constraints left/top
+    - ELLIPSE "Ellipse 7", 60x60px, constraints center/center, fill #FFFFFF33, stroke #000000 1px
+    - REGULAR_POLYGON "Polygon 1", 28x30px, constraints left/top, fill #080707
+
+Screen: Page 1 / iPhone 14 Pro - 12
+- FRAME "iPhone 14 Pro - 12", 438x924px, constraints left/top, radius 30px, fill #FFFFFF
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - LINE "Line 1", 438x0.03px, constraints left/top, stroke #A5A5A5 1px
+  - TEXT "Tentang", 63x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Video", 43x16px, constraints left/top, fill #000000, text [Roboto Light, 16px]
+  - TEXT "Monumen Lingga", 270x38px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 32px], [heading]
+  - RECTANGLE "tahu-sumedang 2", 449x466px, constraints left/top, radius 20px, fill image(hash: 570063ec427191b3c558496e36f9a3058ae01c94)
+  - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+  - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - TEXT "Tahu Sumedang", 270x38px, constraints left/top, fill #FFFFFF, text [Roboto ExtraBold, 32px], [heading]
+  - RECTANGLE "tahuuu3 1", 189x143px, constraints left/top, fill image(hash: f8d00e6db69dd9f52c816cddf77e39df2240a85a)
+  - RECTANGLE "tahuuu4 2", 187x146px, constraints left/top, fill image(hash: de3a65c545235021c26843bac296a03bbfeeeb02)
+  - RECTANGLE "tahuuu 5", 187x143px, constraints left/top, fill image(hash: e1e3e1a3d1ecf6bec3b48a26bf5d71719f40cc0d)
+  - RECTANGLE "tahuuu3 2", 189x143px, constraints left/top, fill image(hash: f8d00e6db69dd9f52c816cddf77e39df2240a85a)
+  - TEXT "Poto", 35x16px, constraints left/top, fill #E7D106, effect [inner_shadow 4px offset 0 4 #00000040], text [Roboto Light, 16px]
+  - RECTANGLE "tahuuu 6", 187x143px, constraints left/top, fill image(hash: e1e3e1a3d1ecf6bec3b48a26bf5d71719f40cc0d)
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #000000 7px
+  - RECTANGLE "Go Back", 40x40px, constraints left/top, fill image(hash: 4e5c77d17463985c7cda0b138a6b16d9bceaad73)
+  - GROUP "Group 25", 156x37px, constraints left/top
+    - TEXT "Sumedang", 107x16px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 20px]
+    - RECTANGLE "Location", 50x37px, constraints left/top, fill image(hash: 1b77fd8058bb6db3374fc0e9570efe067274e7b4)
+
+Screen: Page 1 / tahuuu2 1
+- RECTANGLE "tahuuu2 1", 190x143px, constraints left/top, fill image(hash: 2c4b59d30a96011b63dc7464c7252b4c0fffe217)
+
+Screen: Page 1 / tahuuu2 2
+- RECTANGLE "tahuuu2 2", 190x143px, constraints left/top, fill image(hash: 2c4b59d30a96011b63dc7464c7252b4c0fffe217)
+
+Screen: Page 1 / Group 25
+- GROUP "Group 25", 258x37px, constraints left/top
+  - TEXT "Alun-Alun Sumedang", 209x16px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 20px]
+  - RECTANGLE "Location", 50x37px, constraints left/top, fill image(hash: 1b77fd8058bb6db3374fc0e9570efe067274e7b4)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

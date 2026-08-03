@@ -1,0 +1,103 @@
+---
+name: grindr-app-enhancement-community
+source_file: GRINDR APP ENHANCEMENT (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:24:29.762496+00:00
+---
+
+# GRINDR APP ENHANCEMENT (Community) Design Guidelines
+
+## Source
+- Figma file: GRINDR APP ENHANCEMENT (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:24:29.762496+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Preto 54%: [#0000008A]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 4 uses
+- #000000: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- No significant unstyled fonts found (or all text is already captured as styles).
+
+## Typography Hierarchy
+- No text styles or fonts found to rank.
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Preto 54%: 2 uses
+
+## Layout & Structure
+Screen: Page 1 / REMAKE
+- FRAME "REMAKE", 375x667px, constraints left/top, fill #504C4C
+  - FRAME "Frame 3", 277x755px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+  - FRAME "Frame 2", 301x34px, constraints left/top, fill #DBD316, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "LOGIN", 56x25px, constraints left/top, fill #252525, text [M PLUS 2 Bold, 17px]
+  - TEXT "FORGOT PASSWORD?", 141x19px, constraints left/top, fill #F8F3F3, text [M PLUS 2 Regular, 13px]
+  - TEXT "Grindr will NEVER post anything to your social media channel", 339x16px, constraints left/top, fill #F8F3F3, text [M PLUS 2 Bold, 11px]
+  - RECTANGLE "61fae24195e6ca00047b4f0e 1", 100x100px, constraints left/top, fill image(hash: 7172ec64cbc0dccda954b86a973d3e9ececf9861)
+  - RECTANGLE "NicePng_grindr-logo-png_3263491 (1) 1", 71x22px, constraints left/top, fill image(hash: a6a9583ad3876b47c477181996a2a056a91611e6)
+  - LINE "Line 2", 142x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 3", 142x0px, constraints left/top, stroke #000000 1px
+  - TEXT "USER NAME", 119x40px, constraints left/top, fill #FFFFFF, text [Istok Web Regular, 12px]
+  - TEXT "Continue with", 119x40px, constraints left/top, fill #FFFFFF, text [Gotu Regular, 14px]
+  - TEXT "USER PASSWORD", 119x40px, constraints left/top, fill #FFFFFF, text [Istok Web Regular, 12px]
+  - INSTANCE "Facebook", 48x48px, constraints left/top, fill #FFFFFF
+    - VECTOR "Container", 48x48px, constraints scale/scale, fill gradient_linear(#0062E0 0% | #19AFFF 100%)
+    - VECTOR "Vector", 20.67x38.67px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Google", 48x48px, constraints left/top, fill #FFFFFF
+    - GROUP "Group", 34x34px, constraints scale/scale [decorative, ~5 shapes]
+  - INSTANCE "Telegram", 48x48px, constraints left/top, fill gradient_linear(#37AEE2 0% | #1E96C8 100%)
+    - VECTOR "Vector", 22x23.75px, constraints scale/scale, fill #C8DAEA
+    - VECTOR "Vector", 5.5x7.65px, constraints scale/scale, fill #A9C9DD
+    - VECTOR "Vector", 32.62x27.36px, constraints scale/scale, fill gradient_linear(#EFF7FC 0% | #FFFFFF 100%)
+  - LINE "Line 4", 298x1px, constraints left/top, stroke #8D8787 1px
+  - LINE "Line 5", 344x0.01px, constraints left/top, stroke #E7CB6A 1px
+  - TEXT "Unique ID", 75x23px, constraints left/top, fill #808080, text [M PLUS 2 Regular, 16px]
+  - INSTANCE "filled/social/person", 24x24px, constraints left/top, radius 10px
+    - VECTOR "Vector", 16x16px, constraints scale/scale, fill Preto 54%
+  - INSTANCE "filled/action/visibility-off", 24x24px, constraints left/top, radius 10px
+    - VECTOR "Vector", 21.99x19px, constraints scale/scale, fill Preto 54%
+
+Screen: Page 1 / Rectangle 1
+- RECTANGLE "Rectangle 1", 218x36px, constraints left/top, radius 5px, stroke #FFFBFB 1px
+
+Screen: Page 1 / image 1
+- RECTANGLE "image 1", 397x667px, constraints left/top, fill image(hash: d3d2422521db3b1f25db6f72838d52ca9cbc8aae)
+
+Screen: Page 1 / ORIGINAL
+- TEXT "ORIGINAL", 80x23px, constraints left/top, fill #000000, text [M PLUS 2 Regular, 16px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

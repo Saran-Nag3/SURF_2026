@@ -1,0 +1,1484 @@
+---
+name: the-blue-box-design-system-from-tiffany-co-unofficial-community
+source_file: The Blue Box Design System from Tiffany & Co. (Unofficial) (Community)
+source_page: All pages (5): Cover, Introduction, Style, Components, Assets
+generated_at: 2026-07-25T09:45:18.992880+00:00
+---
+
+# The Blue Box Design System from Tiffany & Co. (Unofficial) (Community) Design Guidelines
+
+## Source
+- Figma file: The Blue Box Design System from Tiffany & Co. (Unofficial) (Community)
+- Figma page: All pages (5): Cover, Introduction, Style, Components, Assets
+- Extracted at: 2026-07-25T09:45:18.992880+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Turquoise: [#81D8D0]
+- White: [#FFFFFF]
+- Black: [#000000]
+- Charcoal: none
+- Light Gray: [#FBF9FC]
+- Powder Blue: [#FFFFFF]
+- Dark Turquoise: [#81D8D0]
+- Charcoal: [#767676]
+- Red: [#E31F26]
+
+## Raw Colors (unstyled)
+- #9747FF: 45 uses
+- #000000: 32 uses
+- #D9D9D9: 18 uses
+- #444444: 13 uses
+- #020202: 9 uses
+- #FFFFFF: 8 uses
+
+## Typography Tokens
+- Inter/Heading/Large: Inter Bold (700), 32px / 42px, tracking 0px
+- Inter/Navigation/Breadcrumbs: Inter Regular (400), 8px / 13px, tracking 0px
+- Inter/Links/Button: Inter Medium (500), 16px / 21px, tracking 0px
+- Inter/Paragraph/Body Light 14: Inter Light (300), 14px / 24px, tracking 0px
+- Inter/Title/Small: Inter Medium (500), 24px / 34px, tracking 0px
+- Inter/Title/Extra Tiny: Inter Medium (500), 14px / 24px, tracking 0px
+- Inter/Paragraph/Body Light 12: Inter Light (300), 12px / 22px, tracking 0px
+- Inter/Title/Extra Small: Inter Medium (500), 20px / 30px, tracking 0px
+- Inter/Paragraph/Body 12: Inter Regular (400), 12px / 22px, tracking 0.12px
+- Inter/Paragraph/Body 14: Inter Regular (400), 14px / 24px, tracking 0.14px
+- Inter/Title/Tiny: Inter Medium (500), 16px / 26px, tracking 0px
+- Inter/Links/Button Hover: Inter SemiBold (600), 16px / 21px, tracking 0px
+- Inter/Paragraph/Body 16: Inter Regular (400), 16px / 26px, tracking 0.16px
+- Inter Body/Large (Regular Weight): Inter Regular (400), 14px / 18px, tracking 0px
+- Inter/Heading/Extra Small: Inter Bold (700), 20px / 30px, tracking 0px
+- Abhaya Libre/Paragraph/Body 24: Abhaya Libre Regular (400), 24px / 34px, tracking 0.24px
+- Inter/Heading/Extra Large: Inter Bold (700), 36px / 46px, tracking 0px
+- Inter/Title/Large: Inter Medium (500), 32px / 42px, tracking 0px
+- Inter/Links/Label: Inter Bold (700), 16px / 21px, tracking 1px
+- Inter/Navigation/Nav: Inter Medium (500), 14px / 19px, tracking 0px
+- Inter/Navigation/Nav Hover: Inter SemiBold (600), 14px / 19px, tracking 0px
+- Abhaya Libre/Paragraph/Body 12: Abhaya Libre Regular (400), 12px / 22px, tracking 0.12px
+- Abhaya Libre/Paragraph/Body 14: Abhaya Libre Regular (400), 14px / 24px, tracking 0.14px
+- Abhaya Libre/Paragraph/Body 16: Abhaya Libre Regular (400), 16px / 26px, tracking 0.16px
+- Abhaya Libre/Paragraph/Body 18: Abhaya Libre Regular (400), 18px / 28px, tracking 0.18px
+- Inter/Paragraph/Body 18: Inter Regular (400), 18px / 28px, tracking 0.18px
+- Abhaya Libre/Paragraph/Body 20: Abhaya Libre Regular (400), 20px / 30px, tracking 0.2px
+- Inter/Paragraph/Body 20: Inter Regular (400), 20px / 30px, tracking 0.2px
+- Inter/Paragraph/Body 24: Inter Regular (400), 24px / 34px, tracking 0.24px
+- Abhaya Libre/Paragraph/Body 28: Abhaya Libre Regular (400), 28px / 38px, tracking 0.28px
+- Inter/Paragraph/Body 28: Inter Regular (400), 28px / 38px, tracking 0.28px
+- Abhaya Libre/Paragraph/Body 32: Abhaya Libre Regular (400), 32px / 42px, tracking 0.32px
+- Inter/Paragraph/Body 32: Inter Regular (400), 32px / 42px, tracking 0.32px
+- Inter/Title/Medium: Inter Medium (500), 28px / 38px, tracking 0px
+- Inter/Title/Extra Large: Inter Medium (500), 36px / 46px, tracking 0px
+- Abhaya Libre/Heading/Extra Small: Abhaya Libre Bold (700), 20px / 30px, tracking 0px
+- Abhaya Libre/Heading/Small: Abhaya Libre Bold (700), 24px / 34px, tracking 0px
+- Inter/Heading/Small: Inter Bold (700), 24px / 34px, tracking 0px
+- Abhaya Libre/Heading/Medium: Abhaya Libre Bold (700), 28px / 38px, tracking 0px
+- Inter/Heading/Medium: Inter Bold (700), 28px / 38px, tracking 0px
+- Abhaya Libre/Heading/Large: Abhaya Libre Bold (700), 32px / 42px, tracking 0px
+- Abhaya Libre/Heading/Extra Large: Abhaya Libre Bold (700), 36px / 46px, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 12px: 51 uses
+- Inter Medium, 16px: 50 uses
+- Abhaya Libre Regular, 6px: 44 uses
+- Abhaya Libre Bold, 36px: 20 uses
+- Inter SemiBold, 22px: 20 uses
+- Abhaya Libre Regular, 4px: 18 uses
+- Abhaya Libre Regular, 5px: 18 uses
+- Inter Regular, 10px: 17 uses
+- Inter Bold, 36px: 15 uses
+- Inter Regular, 14px: 15 uses
+- Inter Bold, 14px: 14 uses
+- Inter SemiBold, 16px: 14 uses
+- Abhaya Libre Regular, 8px: 13 uses
+- Inter Medium, 18px: 6 uses
+- Abhaya Libre Regular, 7px: 4 uses
+- Inter SemiBold, 18px: 4 uses
+- Inter SemiBold, 20px: 4 uses
+
+## Typography Hierarchy
+- 36px - Abhaya Libre Bold, 36px (raw)
+- 36px - Abhaya Libre/Heading/Extra Large (Abhaya Libre Bold)
+- 36px - Inter Bold, 36px (raw)
+- 36px - Inter/Heading/Extra Large (Inter Bold)
+- 36px - Inter/Title/Extra Large (Inter Medium)
+- 32px - Abhaya Libre/Heading/Large (Abhaya Libre Bold)
+- 32px - Abhaya Libre/Paragraph/Body 32 (Abhaya Libre Regular)
+- 32px - Inter/Heading/Large (Inter Bold)
+- 32px - Inter/Paragraph/Body 32 (Inter Regular)
+- 32px - Inter/Title/Large (Inter Medium)
+- 28px - Abhaya Libre/Heading/Medium (Abhaya Libre Bold)
+- 28px - Abhaya Libre/Paragraph/Body 28 (Abhaya Libre Regular)
+- 28px - Inter/Heading/Medium (Inter Bold)
+- 28px - Inter/Paragraph/Body 28 (Inter Regular)
+- 28px - Inter/Title/Medium (Inter Medium)
+- 24px - Abhaya Libre/Heading/Small (Abhaya Libre Bold)
+- 24px - Abhaya Libre/Paragraph/Body 24 (Abhaya Libre Regular)
+- 24px - Inter/Heading/Small (Inter Bold)
+- 24px - Inter/Paragraph/Body 24 (Inter Regular)
+- 24px - Inter/Title/Small (Inter Medium)
+- 22px - Inter SemiBold, 22px (raw)
+- 20px - Abhaya Libre/Heading/Extra Small (Abhaya Libre Bold)
+- 20px - Abhaya Libre/Paragraph/Body 20 (Abhaya Libre Regular)
+- 20px - Inter SemiBold, 20px (raw)
+- 20px - Inter/Heading/Extra Small (Inter Bold)
+- 20px - Inter/Paragraph/Body 20 (Inter Regular)
+- 20px - Inter/Title/Extra Small (Inter Medium)
+- 18px - Abhaya Libre/Paragraph/Body 18 (Abhaya Libre Regular)
+- 18px - Inter Medium, 18px (raw)
+- 18px - Inter SemiBold, 18px (raw)
+- 18px - Inter/Paragraph/Body 18 (Inter Regular)
+- 16px - Abhaya Libre/Paragraph/Body 16 (Abhaya Libre Regular)
+- 16px - Inter Medium, 16px (raw)
+- 16px - Inter SemiBold, 16px (raw)
+- 16px - Inter/Links/Button (Inter Medium)
+- 16px - Inter/Links/Button Hover (Inter SemiBold)
+- 16px - Inter/Links/Label (Inter Bold)
+- 16px - Inter/Paragraph/Body 16 (Inter Regular)
+- 16px - Inter/Title/Tiny (Inter Medium)
+- 14px - Abhaya Libre/Paragraph/Body 14 (Abhaya Libre Regular)
+- 14px - Inter Body/Large (Regular Weight) (Inter Regular)
+- 14px - Inter Bold, 14px (raw)
+- 14px - Inter Regular, 14px (raw)
+- 14px - Inter/Navigation/Nav (Inter Medium)
+- 14px - Inter/Navigation/Nav Hover (Inter SemiBold)
+- 14px - Inter/Paragraph/Body 14 (Inter Regular)
+- 14px - Inter/Paragraph/Body Light 14 (Inter Light)
+- 14px - Inter/Title/Extra Tiny (Inter Medium)
+- 12px - Abhaya Libre/Paragraph/Body 12 (Abhaya Libre Regular)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Inter/Paragraph/Body 12 (Inter Regular)
+- 12px - Inter/Paragraph/Body Light 12 (Inter Light)
+- 10px - Inter Regular, 10px (raw)
+- 8px - Abhaya Libre Regular, 8px (raw)
+- 8px - Inter/Navigation/Breadcrumbs (Inter Regular)
+- 7px - Abhaya Libre Regular, 7px (raw)
+- 6px - Abhaya Libre Regular, 6px (raw)
+- 5px - Abhaya Libre Regular, 5px (raw)
+- 4px - Abhaya Libre Regular, 4px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Empty Banner
+- Top Banner
+- Text Links
+- Add to Bag Button
+- Call to Action Button
+- Short Collapsible Section
+- Long Collapsible Section
+- Single Select Dropdown
+- Multi Select Dropdown
+- Basic Details Form
+- Payment Form
+- Personal Information Form
+- Sign In Form
+- Footer
+- Breadcrumbs
+- Jewelery Pairing Banner
+- Category Card
+- Short Image banner with Title & Decription
+- Banner with Content Card on Right
+- Banner with Content Card on Left
+- FAQ Block
+- Tiffany Experience Block
+- Story Block
+- Product Block
+- Left Arrow Button
+- Right Arrow Button
+- Service Card
+- Jewelery Shopping Card
+- Product Card v2
+- Product Card v1
+- Story Card
+- Product Carousel
+- General Carousel
+- Short Collapsible Section Set
+- Single Select Option
+- Multi Select Option
+- Sorting and Filtering
+- Newsletter Form
+- Data protection
+- Order Contact Information
+- Main Navigation
+- Product Tag
+- Action
+- Informative
+- Divider
+- Navigation
+- Toggle
+- Communication
+- Home page Video Image 1
+- ImageSection-NoTitle
+- Wide Banner Image 3
+- Wide Banner Image 2
+- Wide Banner Image 1
+- Wide Product Image
+- Banner Image 6
+- Discover For More 4
+- Discover For More 3
+- Discover For More 2
+- Discover For More 1
+- Story Image 8
+- Story Image 7
+- Story Image 6
+- Story Image 5
+- Story Image 4
+- Story Image 3
+- Banner Image 4
+- Story Image 2
+- Banner Image 3
+- Story Image 1
+- Shop by Catorigies Footer Image 10
+- Shop by Catorigies Footer Image 5
+- Shop by Catorigies Footer Image 9
+- Shop by Catorigies Footer Image 4
+- Shop by Catorigies Footer Image 6
+- Shop by Catorigies Footer Image 1
+- Shop by Catorigies Footer Image 7
+- Shop by Catorigies Footer Image 2
+- Shop by Catorigies Footer Image 8
+- Shop by Catorigies Footer Image 3
+- Product Detail Image 11
+- Product Detail Image 10
+- Product Detail Image 9
+- Product Detail Image 8
+- Product Detail Image 5
+- Product Detail Image 7
+- Product Detail Image 6
+- Product Detail Image 12
+- Product Detail Image 4
+- Product Detail Image 3
+- Product Detail Image 2
+- Product Detail Image 1
+- Tiffany Story Image 3
+- Tiffany Story Image 2
+- Tiffany Story Image 1
+- The Tiffany Icons Image Set 4
+- The Tiffany Icons Image Set 3
+- The Tiffany Icons Image Set 2
+- The Tiffany Icons Image Set
+- Shop by Category Image Set 4
+- Shop by Category Image Set 3
+- Shop by Category Image Set 2
+- Shop by Category Image Set 1
+- Social Media
+- Tiffany Logo
+
+## Component Specs
+- Empty Banner: size 1440x550px, fill White | variants: Height: Short/Tall
+- Top Banner: size 1440x58px, vertical layout, padding 18 20 18 20px, gap 10px, sizing W:fixed H:fixed, fill Turquoise, text [Inter/Paragraph/Body 12] | variants: Banner Type: Message 1/Message 2
+- Text Links: size 127x25px, horizontal layout, padding 2 2 2 2px, gap 8px, align center/center, sizing W:fixed H:fixed, fill White, stroke Turquoise 0px, text [Inter/Links/Button] | variants: State: Default/Hover
+- Add to Bag Button: size 267x49px, horizontal layout, padding 12 20 12 20px, gap 44px, align center/center, sizing W:fixed H:fixed, fill Black, stroke Black 1px, text [Inter/Links/Button] | variants: State: Clicked/Hover/Initial; Size: Small
+- Call to Action Button: size 151x41px, horizontal layout, padding 8 12 8 12px, gap 12px, align center/center, sizing W:fixed H:fixed, fill White, stroke Black 1px, text [Inter/Links/Button] | variants: State: Clicked/Hover/Initial; Size: Large/Medium/Small; Icon-Position: Left/Right; Type: Primary/Secondary; Background: White
+- Short Collapsible Section: size 535x95px, vertical layout, padding 10 8 10 8px, gap 12px, sizing W:fixed H:fixed, fill White, text [Inter/Paragraph/Body Light 14, Inter SemiBold, 16px] | variants: State: Closed/Opened
+- Long Collapsible Section: size 1340x74px, fill White, text [Inter SemiBold, 16px] | variants: State: Closed/Open
+- Single Select Dropdown: size 172x32px, vertical layout, padding 8 8 8 8px, gap 10px, align min/center, sizing W:fixed H:fixed, fill White, text [Inter Regular, 12px] | variants: State: Closed/Opened
+- Multi Select Dropdown: size 120x38px, vertical layout, padding 8 8 8 8px, gap 10px, align min/center, sizing W:fixed H:fixed, fill White, text [Inter Regular, 12px] | variants: State: Closed/Opened
+- Basic Details Form: size 391x679px, vertical layout, padding 0 0 0 0px, gap 28px, sizing W:fixed H:fixed, text [Inter Body/Large (Regular Weight)] | variants: Basic Details Form: Error State/Normal State
+- Payment Form: size 391x232px, text [Inter/Paragraph/Body 14, Inter Body/Large (Regular Weight)] | variants: Payment Form: Error State/Normal State
+- Personal Information Form: size 391x426px, fill #FFFFFF, text [Inter/Paragraph/Body 14, Inter Body/Large (Regular Weight)] | variants: Personal Information: Error State/Normal State
+- Sign In Form: size 391x271px, vertical layout, padding 0 0 0 0px, gap 28px, sizing W:fixed H:fixed, text [Inter/Links/Button, Inter Body/Large (Regular Weight), Inter/Paragraph/Body 14] | variants: State: Error State/Normal State
+- Footer: size 1440x537px, fill White, text [Inter/Links/Button, Inter Regular, 14px, Inter Body/Large (Regular Weight), Inter/Paragraph/Body 14, Inter/Heading/Extra Small, Inter/Title/Tiny, Inter/Paragraph/Body 12, Inter Regular, 8px] | variants: Property 1: Default
+- Breadcrumbs: size 461x23px, vertical layout, padding 5 20 5 20px, gap 10px, sizing W:fixed H:fixed, fill White, text [Inter/Navigation/Breadcrumbs]
+- Jewelery Pairing Banner: size 1440x682px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill White, text [Inter Regular, 14px, Inter Medium, 16px]
+- Category Card: size 601x416px, vertical layout, padding 0 0 0 0px, gap 20px, align center/center, sizing W:fixed H:fixed, fill White, text [Inter/Links/Button, Inter Medium, 16px]
+- Short Image banner with Title & Decription: size 1440x583px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill Light Gray, text [Inter/Paragraph/Body Light 14, Inter/Title/Small]
+- Banner with Content Card on Right: size 1440x505px, fill White, text [Inter/Title/Extra Tiny, Inter/Paragraph/Body Light 12, Inter/Title/Extra Small]
+- Banner with Content Card on Left: size 1440x499px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill Light Gray, text [Inter/Links/Button, Inter/Paragraph/Body Light 12, Inter/Title/Extra Small]
+- FAQ Block: size 1440x490px, text [Inter/Paragraph/Body Light 14, Inter SemiBold, 16px, Inter/Title/Small]
+- Tiffany Experience Block: size 1440x349px, fill Light Gray, text [Inter/Links/Button, Inter/Paragraph/Body 14, Inter/Title/Extra Tiny, Inter/Title/Small]
+- Story Block: size 1230x672px, text [Inter/Links/Button, Inter/Paragraph/Body Light 14, Inter Medium, 18px]
+- Product Block: size 1342x248px, text [Inter/Links/Button, Inter/Paragraph/Body 14, Inter/Title/Tiny, Abhaya Libre Regular, 6px, Abhaya Libre Regular, 8px]
+- Left Arrow Button: size 54x54px, horizontal layout, padding 19 22 19 22px, gap 10px, sizing W:fixed H:fixed, fill Turquoise
+- Right Arrow Button: size 54x54px, horizontal layout, padding 19 22 19 22px, gap 10px, sizing W:fixed H:fixed, fill Turquoise
+- Service Card: size 280x195px, vertical layout, padding 12 12 12 12px, gap 14px, align center/center, sizing W:fixed H:fixed, fill White, text [Inter/Links/Button, Inter/Paragraph/Body 14, Inter/Title/Extra Tiny]
+- Jewelery Shopping Card: size 490x306.34px, vertical layout, padding 20 12 20 12px, gap 0px, align center/min, sizing W:fixed H:fixed, fill White, text [Inter Regular, 14px, Inter SemiBold, 14px, Inter Medium, 16px, Abhaya Libre Regular, 4px, Abhaya Libre Regular, 6px, Abhaya Libre Regular, 5px, Abhaya Libre Regular, 14px, Abhaya Libre Bold, 32px, Inter Regular, 12px]
+- Product Card v2: size 310x509px, vertical layout, padding 0 0 0 0px, gap 0px, align min/max, sizing W:fixed H:fixed, fill White, text [Inter/Links/Button, Inter/Paragraph/Body 14, Inter/Title/Tiny, Abhaya Libre Regular, 6px, Abhaya Libre Regular, 8px]
+- Product Card v1: size 328x386px, vertical layout, padding 12 12 12 12px, gap 14px, sizing W:fixed H:fixed, fill White, text [Abhaya Libre Regular, 4px, Abhaya Libre Regular, 6px, Abhaya Libre Regular, 5px, Inter Regular, 14px, Inter Medium, 16px]
+- Story Card: size 386x657px, vertical layout, padding 20 19 20 19px, gap 16px, sizing W:fixed H:fixed, fill White, stroke Charcoal 1px, text [Inter/Links/Button, Inter/Paragraph/Body Light 14, Inter Medium, 18px]
+- Product Carousel: size 1342x386px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill White, text [Abhaya Libre Regular, 4px, Abhaya Libre Regular, 6px, Abhaya Libre Regular, 5px, Inter Regular, 14px, Inter Medium, 16px]
+- General Carousel: size 1340x571px, vertical layout, padding 16 0 28 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill White, text [Inter/Links/Button, Inter/Paragraph/Body 14, Inter/Title/Tiny, Abhaya Libre Regular, 6px, Abhaya Libre Regular, 8px]
+- Short Collapsible Section Set: size 535x395px, vertical layout, padding 0 0 0 0px, gap -20px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke Powder Blue 1px, text [Inter/Paragraph/Body Light 14, Inter SemiBold, 16px]
+- Single Select Option: size 54x16px, fill #FFFFFF, text [Inter/Paragraph/Body 12]
+- Multi Select Option: size 54x16px, text [Inter/Paragraph/Body 12]
+- Sorting and Filtering: size 1440x72px, vertical layout, padding 20 20 20 20px, gap 10px, sizing W:fixed H:fixed, fill White, text [Inter Regular, 12px, Inter/Paragraph/Body 12]
+- Newsletter Form: size 383x275px, vertical layout, padding 24 24 24 24px, gap 7px, sizing W:fixed H:fixed, fill #FFFFFF, text [Inter/Links/Button, Inter Regular, 14px, Inter Body/Large (Regular Weight), Inter/Paragraph/Body 14, Inter/Heading/Extra Small]
+- Data protection: size 668x184px, fill #FFFFFF, text [Inter/Paragraph/Body 16, Inter Body/Large (Regular Weight)]
+- Order Contact Information: size 481x501px, fill White, text [Inter Body/Large (Regular Weight), Inter/Paragraph/Body 16, Inter Regular, 14px, Abhaya Libre/Paragraph/Body 24]
+- Main Navigation: size 1440x200px, fill White, text [Inter/Links/Button, Abhaya Libre Regular, 4px, Abhaya Libre Regular, 6px, Abhaya Libre Regular, 5px, Inter/Paragraph/Body 12]
+- Product Tag: size 66x30px, horizontal layout, padding 4 7 4 7px, gap 10px, align center/center, sizing W:fixed H:fixed, fill White, stroke Light Gray 1px, text [Inter/Paragraph/Body 12]
+- Action/Radio Button: size 16x16px | variants: State: Checked/Unchecked; Size: Large/Medium/Small
+- Informative/Gift Box: size 16x19.56px | variants: Style: Fille/Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Divider/Line: size 122x0px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF | variants: Color: Black/Blue
+- Navigation/Left Circle Arrow Filled: size 12x12px | variants: Size: Large/Medium/Small/Tiny
+- Navigation/Right Circle Arrow Filled: size 12x12px | variants: Size: Large/Medium/Small/Tiny
+- Navigation/Down Triangle Arrow Filled: size 12x6.55px, fill #FFFFFF | variants: Size: Large/Medium/Small/Tiny
+- Navigation/Up Triangle Arrow Filled: size 12x6.55px, fill #FFFFFF | variants: Size: Large/Medium/SMall/Tiny
+- Navigation/Down Arrow: size 12x6.55px, fill #FFFFFF | variants: Size: Large/Medium/Small/Tiny
+- Navigation/Scroll to top: size 12x10px, fill #FFFFFF | variants: Size: Large/Medium/Small/Tiny
+- Navigation/Up Arrow: size 12x6.55px, fill #FFFFFF | variants: Size: Large/Medium/Small/Tiny
+- Navigation/Right Arrow: size 12x12px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF | variants: Size: Large/Medium/Small/Tiny
+- Navigation/Left Arrow: size 12x12px, horizontal layout, padding 0 3 0 3px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF | variants: Size: Large/Medium/Small/Tiny
+- Toggle/Pagination Indicators: size 16x6.67px | variants: Size: Large/Medium/Small
+- Navigation/Close: size 12x12px | variants: Size: Large/Medium/Small/Tiny
+- Navigation/Hamburger Menu: size 16x12px | variants: Size: Large/Medium/Small
+- Informative/Delivery Truck: size 12x12px | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Action/Shopping: size 12x15.5px, fill #FFFFFF | variants: Size: Large/Medium/Small/Tiny; Style: Filled/Outlined
+- Informative/Building: size 12x12px | variants: Fill: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Action/Check: size 12x8.57px, fill #FFFFFF | variants: Color: Black/Brand; Size: Large/Medium/Small/Tiny
+- Action/Bookmark: size 12x12px | variants: Fill: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Informative/Size: size 12x5.85px, fill #FFFFFF | variants: Fill: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Informative/Track Order: size 12x16.66px | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Action/Repair: size 12x11.78px | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Communication/Messages: size 12x11.7px | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Communication/Phone (Assets): size 12x20.87px, fill #FFFFFF | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Communication/Letter: size 12x9.02px, fill #FFFFFF | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Communication/Whatsapp: size 12x12px | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Communication/Phone (Assets): size 12x12.1px, fill #FFFFFF | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Toggle/Minimize: size 16.97x16.97px | variants: Size: Large/Medium/Small/Tiny
+- Toggle/Expand : size 16.97x16.97px | variants: Size: Large/Medium/Small/Tiny
+- Action/Checkbox: size 16x16px | variants: State: Checked/Unchecked; Size: Large/Medium/Small
+- Informative/Diamond Ring: size 12x14.75px | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Informative/Price: size 12x12.16px, text [Inter Regular, 7px] | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Action/Custom Heart: size 12x13.76px, text [Abhaya Libre Regular, 4px, Abhaya Libre Regular, 6px, Abhaya Libre Regular, 5px] | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Informative/Diamond: size 12x9.6px | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Informative/Love Letter: size 12x11.84px | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Action/User: size 12x15.03px | variants: Style: Filled/Outlined; Size: Large/Medium/Small/Tiny
+- Action/Calendar: size 12x12.2px | variants: Style: Filled/Outlined/Tiny; Size: Large/Medium/Small/Tiny
+- Action/Bell: size 12x11.19px | variants: Size: Large/Medium/Small/Tiny; Style: Filled/Outlined
+- Navigation/Location: size 12x16.5px | variants: Size: Large/Medium/Small/Tiny; Style: Filled/Outlined
+- Action/Search: size 12x12.37px, fill #FFFFFF | variants: Size: Large/Medium/Small/Tiny; Style: Filled/Outlined
+- Home page Video Image 1: size 1440x806.4px
+- ImageSection-NoTitle: size 751x235px, fill #FFFFFF
+- Wide Banner Image 3: size 670x212px, fill #FFFFFF
+- Wide Banner Image 2: size 670x212px, fill #FFFFFF
+- Wide Banner Image 1: size 670x213px, fill #FFFFFF
+- Wide Product Image: size 715x307px, fill #FFFFFF
+- Banner Image 6: size 670x288px, fill #FFFFFF
+- Discover For More 4: size 164x149px, fill #FFFFFF
+- Discover For More 3: size 165x149px, fill #FFFFFF
+- Discover For More 2: size 165x149px, fill #FFFFFF
+- Discover For More 1: size 165x149px, fill #FFFFFF
+- Story Image 8: size 221x200px, fill #FFFFFF
+- Story Image 7: size 221x200px, fill #FFFFFF
+- Story Image 6: size 221x200px, fill #FFFFFF
+- Story Image 5: size 244x276px, fill #FFFFFF
+- Story Image 4: size 244x276px, fill #FFFFFF
+- Story Image 3: size 528x335px, fill #FFFFFF
+- Banner Image 4: size 723x305px, fill #FFFFFF
+- Story Image 2: size 333x301px, fill #FFFFFF
+- Banner Image 3: size 674x305px, fill #FFFFFF
+- Story Image 1: size 333x301px, fill #FFFFFF
+- Shop by Catorigies Footer Image 10: size 89x81px, fill #FFFFFF
+- Shop by Catorigies Footer Image 5: size 89x81px, fill #FFFFFF
+- Shop by Catorigies Footer Image 9: size 90x81px, fill #FFFFFF
+- Shop by Catorigies Footer Image 4: size 90x81px, fill #FFFFFF
+- Shop by Catorigies Footer Image 6: size 90x81px, fill #FFFFFF
+- Shop by Catorigies Footer Image 1: size 90x81px, fill #FFFFFF
+- Shop by Catorigies Footer Image 7: size 89x81px, fill #FFFFFF
+- Shop by Catorigies Footer Image 2: size 89x81px, fill #FFFFFF
+- Shop by Catorigies Footer Image 8: size 89x81px, fill #FFFFFF
+- Shop by Catorigies Footer Image 3: size 89x81px, fill #FFFFFF
+- Product Detail Image 11: size 164x149px, fill #FFFFFF
+- Product Detail Image 10: size 165x149px, fill #FFFFFF
+- Product Detail Image 9: size 165x149px, fill #FFFFFF
+- Product Detail Image 8: size 165x149px, fill #FFFFFF
+- Product Detail Image 5: size 292x265px, fill #FFFFFF
+- Product Detail Image 7: size 292x264px, fill #FFFFFF
+- Product Detail Image 6: size 293x264px, fill #FFFFFF
+- Product Detail Image 12: size 293x264px, fill #FFFFFF
+- Product Detail Image 4: size 292x265px, fill #FFFFFF
+- Product Detail Image 3: size 293x265px, fill #FFFFFF
+- Product Detail Image 2: size 292x265px, fill #FFFFFF
+- Product Detail Image 1: size 292x265px, fill #FFFFFF
+- Tiffany Story Image 3: size 164x186px, fill #FFFFFF
+- Tiffany Story Image 2: size 164x186px, fill #FFFFFF
+- Tiffany Story Image 1: size 165x186px, fill #FFFFFF
+- The Tiffany Icons Image Set 4: size 221x200px, fill #FFFFFF
+- The Tiffany Icons Image Set 3: size 221x200px, fill #FFFFFF
+- The Tiffany Icons Image Set 2: size 221x200px, fill #FFFFFF
+- The Tiffany Icons Image Set: size 221x200px, fill #FFFFFF
+- Shop by Category Image Set 4: size 165x149px, fill #FFFFFF
+- Shop by Category Image Set 3: size 164x149px, fill #FFFFFF
+- Shop by Category Image Set 2: size 165x149px, fill #FFFFFF
+- Shop by Category Image Set 1: size 165x149px, fill #FFFFFF
+- Social Media/YouTube: size 19.69x16px, fill #FFFFFF
+- Social Media/Twitter: size 17x16px, fill #FFFFFF
+- Social Media/Pintrest: size 16x16px, fill #FFFFFF
+- Social Media/Facebook: size 16x16px, fill #FFFFFF
+- Social Media/Instagram: size 16x16px, fill #FFFFFF
+- Tiffany Logo: size 500x60.68px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill White
+
+## Most-Used Styles
+- Black: 2221 uses
+- White: 473 uses
+- Turquoise: 322 uses
+- Inter/Paragraph/Body 14: 132 uses
+- Inter/Links/Button: 93 uses
+- Charcoal: 76 uses
+- Inter/Paragraph/Body 12: 63 uses
+- Red: 55 uses
+- Inter Body/Large (Regular Weight): 50 uses
+- Inter/Title/Tiny: 39 uses
+- Light Gray: 38 uses
+- Inter/Links/Button Hover: 36 uses
+- Inter/Paragraph/Body Light 14: 19 uses
+- Powder Blue: 14 uses
+- Dark Turquoise: 10 uses
+- Inter/Navigation/Breadcrumbs: 10 uses
+- Inter/Paragraph/Body 16: 9 uses
+- Inter/Title/Large: 9 uses
+- Inter/Title/Extra Tiny: 7 uses
+- Inter/Heading/Extra Small: 6 uses
+- Inter/Heading/Large: 6 uses
+- Inter/Heading/Extra Large: 4 uses
+- Inter/Title/Small: 4 uses
+- Abhaya Libre/Heading/Medium: 3 uses
+- Inter/Paragraph/Body Light 12: 3 uses
+- Inter/Title/Extra Small: 3 uses
+- Abhaya Libre/Paragraph/Body 24: 2 uses
+- Abhaya Libre/Heading/Extra Large: 1 use
+- Abhaya Libre/Heading/Extra Small: 1 use
+- Abhaya Libre/Heading/Large: 1 use
+- Abhaya Libre/Heading/Small: 1 use
+- Abhaya Libre/Paragraph/Body 12: 1 use
+- Abhaya Libre/Paragraph/Body 14: 1 use
+- Abhaya Libre/Paragraph/Body 16: 1 use
+- Abhaya Libre/Paragraph/Body 18: 1 use
+- Abhaya Libre/Paragraph/Body 20: 1 use
+- Abhaya Libre/Paragraph/Body 28: 1 use
+- Abhaya Libre/Paragraph/Body 32: 1 use
+- Inter/Heading/Medium: 1 use
+- Inter/Heading/Small: 1 use
+- Inter/Links/Label: 1 use
+- Inter/Navigation/Nav: 1 use
+- Inter/Navigation/Nav Hover: 1 use
+- Inter/Paragraph/Body 18: 1 use
+- Inter/Paragraph/Body 20: 1 use
+- Inter/Paragraph/Body 24: 1 use
+- Inter/Paragraph/Body 28: 1 use
+- Inter/Paragraph/Body 32: 1 use
+- Inter/Title/Extra Large: 1 use
+- Inter/Title/Medium: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 356x218px, constraints left/top, fill Dark Turquoise
+  - RECTANGLE "Rectangle 8", 356x218px, constraints left/top, fill Dark Turquoise, effect [inner_shadow 106.7px offset 0 4 #00000080, drop_shadow 36px offset 0 0 #00000080]
+  - TEXT "Design System", 150x12px, constraints center/scale, fill Black, text [Inter ExtraLight, 10px]
+  - TEXT "The Blue Box", 195x42px, constraints scale/scale, fill Black, effect [drop_shadow 5px offset 2 2 #00000040], text [Abhaya Libre Bold, 36px], [heading]
+  - INSTANCE "Tiffany Logo", 84x10px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints center/scale
+    - RECTANGLE "image 1", 84x10px, constraints left/top, fill image(hash: 25fe44bf9ef55fc7b5a2b26baddea7784fb06d14)
+  - VECTOR "Vector 60", 35x35.69px, constraints left/top, stroke #008E9F 4.5px, effect [inner_shadow 4px offset 0 0 #000000B2]
+
+Screen: Introduction / Introduction
+- FRAME "Introduction", 551x884px, constraints left/top, fill White
+  - RECTANGLE "Rectangle 40", 551x49px, constraints left/top, fill Turquoise
+  - TEXT "The Blue Box", 152x38px, constraints left/top, fill Black, text [Abhaya Libre/Heading/Medium], [heading]
+  - RECTANGLE "Rectangle 41", 551x49px, constraints left/top, fill Turquoise
+  - TEXT "Values", 78x38px, constraints center/top, fill Black, text [Abhaya Libre/Heading/Medium], [heading]
+  - TEXT "Evoking the elegance and sophistication of Tiffany & Co., Th", 474x130px, constraints left/top, fill Black, text [Inter/Paragraph/Body 16]
+  - TEXT "At Tiffany & Co., our distinctive branding, reminiscent of o", 477x78px, constraints left/top, fill Black, text [Inter/Paragraph/Body 16]
+  - TEXT "At Tiffany & Co., inclusivity isn't just a concept; it's our", 477x130px, constraints left/top, fill Black, text [Inter/Paragraph/Body 16]
+  - TEXT "Inclusive Experiences", 214x30px, constraints left/top, fill Black, text [Inter/Heading/Extra Small], [heading]
+  - TEXT "Unique Branding", 163x30px, constraints left/top, fill Black, text [Inter/Heading/Extra Small], [heading]
+  - TEXT "At Tiffany & Co., our website design embodies a commitment t", 477x104px, constraints left/top, fill Black, text [Inter Regular, 16px]
+  - TEXT "Consistency", 124x30px, constraints left/top, fill Black, text [Inter/Heading/Extra Small], [heading]
+
+Screen: Style / Typography
+- FRAME "Typography", 1600x4266px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill White
+  - GROUP "Group 1", 1600x72px, constraints left/top
+    - RECTANGLE "Rectangle 1", 1600x72px, constraints left/top, fill Turquoise
+    - TEXT "Body Small Label", 181x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - FRAME "Frame 2", 1600x112px, horizontal pad 36 100 36 100px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Light Gray
+    - TEXT "Body Small Label", 99x40px, constraints left/top, fill Black, text [Inter Bold, 36px], [heading]
+  - FRAME "Frame 3", 800x112px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 280x40px, constraints left/top, fill Black, text [Inter Bold, 36px], [heading]
+  - FRAME "Frame 38", 800x112px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 302x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - FRAME "Frame 4", 1600x112px, horizontal pad 36 100 36 100px gap 250px align min/center sizing W:fixed H:fixed, constraints left/top, fill Light Gray
+    - TEXT "Body Small Label", 148x40px, constraints left/top, fill Black, text [Inter Bold, 36px], [heading]
+  - FRAME "Frame 5", 800x138px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 381x46px, constraints left/top, fill Black, text [Inter/Heading/Extra Large], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 39", 800x138px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 323x46px, constraints left/top, fill Black, text [Abhaya Libre/Heading/Extra Large], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 6", 800x134px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 249x42px, constraints left/top, fill Black, text [Inter/Heading/Large], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 40", 800x134px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 209x42px, constraints left/top, fill Black, text [Abhaya Libre/Heading/Large], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 7", 800x130px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 252x38px, constraints left/top, fill Black, text [Inter/Heading/Medium], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 41", 800x130px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 214x38px, constraints left/top, fill Black, text [Abhaya Libre/Heading/Medium], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 8", 800x126px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 186x34px, constraints left/top, fill Black, text [Inter/Heading/Small], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 42", 800x126px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 159x34px, constraints left/top, fill Black, text [Abhaya Libre/Heading/Small], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 9", 800x122px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 210x30px, constraints left/top, fill Black, text [Inter/Heading/Extra Small], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 43", 800x122px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 181x30px, constraints left/top, fill Black, text [Abhaya Libre/Heading/Extra Small], [heading]
+    - TEXT "Body Small Label", 96x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 10", 1600x112px, horizontal pad 36 100 36 100px gap 250px align min/center sizing W:fixed H:fixed, constraints left/top, fill Light Gray
+    - TEXT "Body Small Label", 80x40px, constraints left/top, fill Black, text [Inter Bold, 36px], [heading]
+  - FRAME "Frame 11", 1600x138px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 308x46px, constraints left/top, fill Black, text [Inter/Title/Extra Large], [heading]
+    - TEXT "Body Small Label", 117x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 12", 1600x134px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 187x42px, constraints left/top, fill Black, text [Inter/Title/Large], [heading]
+    - TEXT "Body Small Label", 116x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 13", 1600x130px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 195x38px, constraints left/top, fill Black, text [Inter/Title/Medium], [heading]
+    - TEXT "Body Small Label", 116x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 14", 1600x126px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 137x34px, constraints left/top, fill Black, text [Inter/Title/Small], [heading]
+    - TEXT "Body Small Label", 116x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 15", 1600x122px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 169x30px, constraints left/top, fill Black, text [Inter/Title/Extra Small], [heading]
+    - TEXT "Body Small Label", 116x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 16", 1600x118px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 83x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+    - TEXT "Body Small Label", 114x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 60", 1600x116px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 111x24px, constraints left/top, fill Black, text [Inter/Title/Extra Tiny], [heading]
+    - TEXT "Body Small Label", 114x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - FRAME "Frame 17", 1600x112px, horizontal pad 36 100 36 100px gap 250px align min/center sizing W:fixed H:fixed, constraints left/top, fill Light Gray
+    - TEXT "Body Small Label", 182x40px, constraints left/top, fill Black, text [Inter Bold, 36px], [heading]
+  - FRAME "Frame 18", 800x134px, vertical pad 36 100 36 100px gap 5px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+    - TEXT "Body Small Label", 129x42px, constraints left/top, fill Black, text [Inter/Paragraph/Body 32], [heading]
+    - TEXT "Body Small Label", 114x15px, constraints left/top, fill Black, text [Inter Regular, 12px]
+  - ... +26 more children
+
+Screen: Style / Colors
+- FRAME "Colors", 1190x1419px, constraints left/top, fill Light Gray
+  - RECTANGLE "Rectangle 1", 1440x72px, constraints left/top, fill Turquoise
+  - TEXT "Body Small Label", 98x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - GROUP "Group 4", 200x259px, constraints left/top
+    - ELLIPSE "Ellipse 7", 200x200px, constraints left/top, fill Charcoal, stroke Charcoal 1px
+    - TEXT "Charcoal", 137x42px, constraints left/top, fill Black, text [Inter/Title/Large], [heading]
+  - GROUP "Group 5", 200x259px, constraints left/top
+    - ELLIPSE "Ellipse 8", 200x200px, constraints left/top, fill Black
+    - TEXT "Black", 84x42px, constraints left/top, fill Black, text [Inter/Title/Large], [heading]
+  - GROUP "Group 2", 200x259px, constraints left/top
+    - ELLIPSE "Ellipse 1", 200x200px, constraints left/top, fill White, stroke Charcoal 1px
+    - TEXT "White", 89x42px, constraints left/top, fill Black, text [Inter/Title/Large], [heading]
+  - GROUP "Group 3", 200x259px, constraints left/top
+    - ELLIPSE "Ellipse 2", 200x200px, constraints left/top, fill Light Gray, stroke Charcoal 1px
+    - TEXT "Light Gray", 158x42px, constraints left/top, fill Black, text [Inter/Title/Large], [heading]
+  - GROUP "Group 10", 200x259px, constraints left/top
+    - ELLIPSE "Ellipse 10", 200x200px, constraints left/top, fill Red, stroke Charcoal 1px
+    - TEXT "Red", 60x42px, constraints left/top, fill Black, text [Inter/Title/Large], [heading]
+  - GROUP "Group 6", 200x259px, constraints left/top
+    - ELLIPSE "Ellipse 3", 200x200px, constraints left/top, fill Powder Blue, stroke Charcoal 1px
+    - TEXT "Powder Blue", 192x42px, constraints left/top, fill Black, text [Inter/Title/Large], [heading]
+  - GROUP "Group 7", 200x259px, constraints left/top
+    - ELLIPSE "Ellipse 4", 200x200px, constraints left/top, fill Turquoise, stroke Charcoal 1px
+    - TEXT "Turquoise", 152x42px, constraints left/top, fill Black, text [Inter/Title/Large], [heading]
+  - GROUP "Group 8", 231x259px, constraints left/top
+    - ELLIPSE "Ellipse 9", 200x200px, constraints left/top, fill Dark Turquoise, stroke Charcoal 1px
+    - TEXT "Dark Turquoise", 231x42px, constraints left/top, fill Black, text [Inter/Title/Large], [heading]
+  - TEXT "Body Small Label", 263x46px, constraints left/top, fill Black, text [Inter/Heading/Extra Large], [heading]
+  - TEXT "Body Small Label", 274x46px, constraints left/top, fill Black, text [Inter/Heading/Extra Large], [heading]
+  - TEXT "Body Small Label", 88x46px, constraints left/top, fill Black, text [Inter/Heading/Extra Large], [heading]
+
+Screen: Components / Tag
+- FRAME "Tag", 372x223px, constraints left/top, fill #444444
+  - RECTANGLE "Rectangle 1", 372x72px, constraints left/top, fill Turquoise
+  - TEXT "Body Small Label", 55x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - COMPONENT "Product Tag", 66x30px, horizontal pad 4 7 4 7px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Light Gray 1px
+    - TEXT "Last Few", 52x22px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+
+Screen: Components / Navigation Bar
+- FRAME "Navigation Bar", 1910x6168px, constraints left/top, fill #444444
+  - RECTANGLE "Rectangle 1", 1910x72px, constraints left/top, fill Turquoise
+  - TEXT "Body Small Label", 223x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - COMPONENT "Main Navigation", 1440x200px, constraints left/top, fill White
+    - RECTANGLE "Rectangle 39", 1440x121px, constraints center/top, fill White
+    - INSTANCE "Top Banner", 1440x58px, vertical pad 18 20 18 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Turquoise
+      - FRAME "Frame 16", 1400x22px, horizontal pad 0 0 0 0px gap 531px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Arrow Icons/Left Arrow", 10x18.4px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 28", 10x18.4px, constraints scale/scale, radius 0/0/0/0px, stroke Black 0.8px
+        - TEXT "Enjoy complimentary shipping and returns on all orders. Shop", 385x22px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Arrow Icons/Right Arrow", 10x18.26px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 27", 10x18.26px, constraints scale/scale, radius 0/0/0/0px, stroke Black 0.8px
+    - INSTANCE ".Main Nav Top", 1440x43px, constraints left/top, fill White
+      - FRAME "Frame 16", 173x17px, horizontal pad 0 0 0 0px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Action/Search", 12x12.37px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 41", 9.05x9.23px, constraints scale/scale, fill White, stroke Black 1px
+          - LINE "Line 10", 4.25x4.25px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Navigation/Location", 12x16.5px, constraints left/top
+          - VECTOR "Vector 43", 12x16.5px, constraints scale/scale, fill White, stroke Black 1px
+          - VECTOR "Vector 42", 4.85x5.08px, constraints scale/scale, fill White, stroke Black 1px
+        - FRAME "Frame 15", 89x17px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Action/Bell", 16x14.92px, constraints left/top
+            - GROUP "Group 3", 16x14.92px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+          - TEXT "Contact Us", 65x17px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+      - INSTANCE "Tiffany Logo", 190x23px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints center/top, fill White
+        - RECTANGLE "image 1", 190x23px, constraints left/top, fill image(hash: 25fe44bf9ef55fc7b5a2b26baddea7784fb06d14)
+      - FRAME "Frame 17", 271x22px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 15", 145x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Action/Calendar", 12x12.2px, constraints left/top
+            - GROUP "Group 19", 12x12.2px, constraints scale/scale [decorative, ~5 shapes]
+          - TEXT "Book an Appointment", 125x22px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Action/User", 12x15.03px, constraints left/top
+          - VECTOR "Vector 44", 12x5.95px, constraints scale/scale, stroke Black 1px
+          - ELLIPSE "Ellipse 25", 7.57x7.57px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Action/Custom Heart", 12x13.76px, constraints left/top
+          - VECTOR "Vector 45", 12x11.21px, constraints scale/scale, stroke Black 1px
+          - VECTOR "Vector 46", 5.4x2.46px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Action/Shopping", 12x15.5px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Main Navigation/Shopping Bag/Style5", 12x15.5px, constraints scale/scale
+            - RECTANGLE "Rectangle 34", 12x11.23px, constraints scale/scale, stroke Black 1px
+            - RECTANGLE "Rectangle 35", 12x11.23px, constraints scale/scale, stroke Black 1px
+            - VECTOR "Vector 47", 6.31x5.34px, constraints scale/scale, stroke Black 1px
+    - INSTANCE ".Main Nav Bottom", 1440x79px, vertical pad 25 162 25 162px gap 10px sizing W:fixed H:fixed, constraints center/top, fill White
+      - FRAME "Frame 54", 1115x29px, horizontal pad 0 0 0 0px gap 45px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Call to Action Button", 88x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 64x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 60x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 180x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 156x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 152x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 131x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 107x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 103x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 186x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 162x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 158x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 106x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 82x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 78x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 72x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 48x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 44x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 82x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 58x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 54x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+  - INSTANCE "Main Navigation Stories", 1440x200px, constraints left/top, fill White
+    - RECTANGLE "Rectangle 39", 1440x121px, constraints center/top, fill White
+    - INSTANCE "Top Banner", 1440x58px, vertical pad 18 20 18 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Turquoise
+      - FRAME "Frame 16", 1400x22px, horizontal pad 0 0 0 0px gap 531px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Arrow Icons/Left Arrow", 10x18.4px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 28", 10x18.4px, constraints scale/scale, radius 0/0/0/0px, stroke Black 0.8px
+        - TEXT "Enjoy complimentary shipping and returns on all orders. Shop", 385x22px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Arrow Icons/Right Arrow", 10x18.26px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 27", 10x18.26px, constraints scale/scale, radius 0/0/0/0px, stroke Black 0.8px
+    - INSTANCE ".Main Nav Top", 1440x43px, constraints left/top, fill White
+      - FRAME "Frame 16", 173x17px, horizontal pad 0 0 0 0px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Action/Search", 12x12.37px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 41", 9.05x9.23px, constraints scale/scale, fill White, stroke Black 1px
+          - LINE "Line 10", 4.25x4.25px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Navigation/Location", 12x16.5px, constraints left/top
+          - VECTOR "Vector 43", 12x16.5px, constraints scale/scale, fill White, stroke Black 1px
+          - VECTOR "Vector 42", 4.85x5.08px, constraints scale/scale, fill White, stroke Black 1px
+        - FRAME "Frame 15", 89x17px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Action/Bell", 16x14.92px, constraints left/top
+            - GROUP "Group 3", 16x14.92px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+          - TEXT "Contact Us", 65x17px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+      - INSTANCE "Tiffany Logo", 190x23px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints center/top, fill White
+        - RECTANGLE "image 1", 190x23px, constraints left/top, fill image(hash: 25fe44bf9ef55fc7b5a2b26baddea7784fb06d14)
+      - FRAME "Frame 17", 271x22px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 15", 145x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Action/Calendar", 12x12.2px, constraints left/top
+            - GROUP "Group 19", 12x12.2px, constraints scale/scale [decorative, ~5 shapes]
+          - TEXT "Book an Appointment", 125x22px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Action/User", 12x15.03px, constraints left/top
+          - VECTOR "Vector 44", 12x5.95px, constraints scale/scale, stroke Black 1px
+          - ELLIPSE "Ellipse 25", 7.57x7.57px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Action/Custom Heart", 12x13.76px, constraints left/top
+          - VECTOR "Vector 45", 12x11.21px, constraints scale/scale, stroke Black 1px
+          - VECTOR "Vector 46", 5.4x2.46px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Action/Shopping", 12x15.5px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Main Navigation/Shopping Bag/Style5", 12x15.5px, constraints scale/scale
+            - RECTANGLE "Rectangle 34", 12x11.23px, constraints scale/scale, stroke Black 1px
+            - RECTANGLE "Rectangle 35", 12x11.23px, constraints scale/scale, stroke Black 1px
+            - VECTOR "Vector 47", 6.31x5.34px, constraints scale/scale, stroke Black 1px
+    - INSTANCE ".Main Nav Bottom", 1440x79px, constraints center/top, fill White
+      - RECTANGLE "BG", 1440x500px, constraints center/top, fill White
+      - FRAME "Frame 54", 1116x29px, horizontal pad 0 0 0 0px gap 45px sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "Call to Action Button", 88x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 64x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 60x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 180x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 156x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 152x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 131x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 107x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 103x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 186x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 162x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 158x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 106x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 82x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 78x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 72x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 48x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 44x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 83x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 59x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 1px
+            - TEXT "Call to Action", 55x21px, constraints left/top, fill Black, text [Inter/Links/Button Hover]
+      - FRAME "Frame 59", 1201x406px, horizontal pad 0 0 30 0px gap 100px sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 55", 229x362px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Now Trending", 107x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+          - TEXT "Bird on a Rock", 97x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Blue Book: Out of the Blue", 177x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "The Landmark", 97x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Discover Tiffany Lock", 146x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Table by Tiffany", 108x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "The Return-to Tiffany® x Beyonce Collection", 229x48px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - INSTANCE "Call to Action Button", 139x28px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+            - FRAME "Icon", 139x28px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+        - FRAME "Frame 57", 211x358px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "The House of Tiffany & Co.", 205x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+          - TEXT "The World of Tiffany", 138x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "High Jewelry", 88x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "The Tiffany Diamond", 141x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Tiffany & Sports", 109x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Jewelry Design and Innovation Workshop", 207x48px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Sustainability", 91x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Our Diamond Traceability Story", 211x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+        - FRAME "Frame 58", 561x376px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 8", 561x284px, constraints left/top
+            - RECTANGLE "Rectangle 1", 561x284px, constraints left/top, fill White
+            - RECTANGLE "image 1", 561x292px, constraints left/top, fill image(hash: e2fc6e90024f701956403c7f5f1e181cdb3b276b)
+          - TEXT "A House Icon: The Jean Schlumberger by Tiffany Bird on a Roc", 426x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - INSTANCE "Call to Action Button", 124x28px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+            - FRAME "Icon", 124x28px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+  - INSTANCE "Main Navigation Men's", 1440x200px, constraints left/top, fill White
+    - RECTANGLE "Rectangle 39", 1440x121px, constraints center/top, fill White
+    - INSTANCE "Top Banner", 1440x58px, vertical pad 18 20 18 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Turquoise
+      - FRAME "Frame 16", 1400x22px, horizontal pad 0 0 0 0px gap 531px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Arrow Icons/Left Arrow", 10x18.4px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 28", 10x18.4px, constraints scale/scale, radius 0/0/0/0px, stroke Black 0.8px
+        - TEXT "Enjoy complimentary shipping and returns on all orders. Shop", 385x22px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Arrow Icons/Right Arrow", 10x18.26px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 27", 10x18.26px, constraints scale/scale, radius 0/0/0/0px, stroke Black 0.8px
+    - INSTANCE ".Main Nav Top", 1440x43px, constraints left/top, fill White
+      - FRAME "Frame 16", 173x17px, horizontal pad 0 0 0 0px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Action/Search", 12x12.37px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 41", 9.05x9.23px, constraints scale/scale, fill White, stroke Black 1px
+          - LINE "Line 10", 4.25x4.25px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Navigation/Location", 12x16.5px, constraints left/top
+          - VECTOR "Vector 43", 12x16.5px, constraints scale/scale, fill White, stroke Black 1px
+          - VECTOR "Vector 42", 4.85x5.08px, constraints scale/scale, fill White, stroke Black 1px
+        - FRAME "Frame 15", 89x17px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Action/Bell", 16x14.92px, constraints left/top
+            - GROUP "Group 3", 16x14.92px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+          - TEXT "Contact Us", 65x17px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+      - INSTANCE "Tiffany Logo", 190x23px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints center/top, fill White
+        - RECTANGLE "image 1", 190x23px, constraints left/top, fill image(hash: 25fe44bf9ef55fc7b5a2b26baddea7784fb06d14)
+      - FRAME "Frame 17", 271x22px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 15", 145x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Action/Calendar", 12x12.2px, constraints left/top
+            - GROUP "Group 19", 12x12.2px, constraints scale/scale [decorative, ~5 shapes]
+          - TEXT "Book an Appointment", 125x22px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Action/User", 12x15.03px, constraints left/top
+          - VECTOR "Vector 44", 12x5.95px, constraints scale/scale, stroke Black 1px
+          - ELLIPSE "Ellipse 25", 7.57x7.57px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Action/Custom Heart", 12x13.76px, constraints left/top
+          - VECTOR "Vector 45", 12x11.21px, constraints scale/scale, stroke Black 1px
+          - VECTOR "Vector 46", 5.4x2.46px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Action/Shopping", 12x15.5px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Main Navigation/Shopping Bag/Style5", 12x15.5px, constraints scale/scale
+            - RECTANGLE "Rectangle 34", 12x11.23px, constraints scale/scale, stroke Black 1px
+            - RECTANGLE "Rectangle 35", 12x11.23px, constraints scale/scale, stroke Black 1px
+            - VECTOR "Vector 47", 6.31x5.34px, constraints scale/scale, stroke Black 1px
+    - INSTANCE ".Main Nav Bottom", 1440x79px, constraints center/top, fill White
+      - RECTANGLE "BG", 1440x506px, constraints center/top, fill White
+      - FRAME "Frame 54", 1116x29px, horizontal pad 0 0 0 0px gap 45px sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "Call to Action Button", 88x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 64x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 60x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 180x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 156x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 152x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 131x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 107x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 103x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 186x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 162x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 158x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 106x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 82x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 78x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 73x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 49x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 1px
+            - TEXT "Call to Action", 45x21px, constraints left/top, fill Black, text [Inter/Links/Button Hover]
+        - INSTANCE "Call to Action Button", 82x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 58x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 54x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+      - FRAME "Frame 59", 1094x412px, horizontal pad 0 0 30 0px gap 100px sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 55", 151x382px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Shop By Category", 139x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+          - TEXT "Necklaces & Pendants", 151x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Bracelets", 64x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Rings", 37x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Accessories", 82x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Watches", 58x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Bar & Drinkware", 108x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Games & Novelties", 127x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - INSTANCE "Call to Action Button", 147x28px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+            - FRAME "Icon", 147x28px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+        - FRAME "Frame 57", 182x226px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Discover", 67x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+          - TEXT "Gifts for Him", 86x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Men’s Engagement Rings", 168x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "Tiffany & Sports", 109x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - TEXT "the Modern Man’s Guide to Wearing Jewelry", 182x48px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+        - FRAME "Frame 9", 561x376px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 8", 561x284px, constraints left/top
+            - RECTANGLE "Rectangle 1", 561x284px, constraints left/top, fill White
+            - RECTANGLE "image 1", 561x292px, constraints left/top, fill image(hash: 3d48f11053619444a46ca612119e89697beb7775)
+            - RECTANGLE "image 4", 575x300px, constraints left/top, fill image(hash: d3082e1b4e35d6f60b9d4e87c709d42ac192e942)
+          - TEXT "For the Modern Man", 137x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+          - INSTANCE "Call to Action Button", 170x28px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+            - FRAME "Icon", 170x28px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+  - INSTANCE "Main Navigation Fragrance", 1440x200px, constraints left/top, fill White
+    - RECTANGLE "Rectangle 39", 1440x121px, constraints center/top, fill White
+    - INSTANCE "Top Banner", 1440x58px, vertical pad 18 20 18 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Turquoise
+      - FRAME "Frame 16", 1400x22px, horizontal pad 0 0 0 0px gap 531px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Arrow Icons/Left Arrow", 10x18.4px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 28", 10x18.4px, constraints scale/scale, radius 0/0/0/0px, stroke Black 0.8px
+        - TEXT "Enjoy complimentary shipping and returns on all orders. Shop", 385x22px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Arrow Icons/Right Arrow", 10x18.26px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 27", 10x18.26px, constraints scale/scale, radius 0/0/0/0px, stroke Black 0.8px
+    - INSTANCE ".Main Nav Top", 1440x43px, constraints left/top, fill White
+      - FRAME "Frame 16", 173x17px, horizontal pad 0 0 0 0px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Action/Search", 12x12.37px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 41", 9.05x9.23px, constraints scale/scale, fill White, stroke Black 1px
+          - LINE "Line 10", 4.25x4.25px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Navigation/Location", 12x16.5px, constraints left/top
+          - VECTOR "Vector 43", 12x16.5px, constraints scale/scale, fill White, stroke Black 1px
+          - VECTOR "Vector 42", 4.85x5.08px, constraints scale/scale, fill White, stroke Black 1px
+        - FRAME "Frame 15", 89x17px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Action/Bell", 16x14.92px, constraints left/top
+            - GROUP "Group 3", 16x14.92px, constraints scale/scale, radius 0/0/0/0px [decorative, ~4 shapes]
+          - TEXT "Contact Us", 65x17px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+      - INSTANCE "Tiffany Logo", 190x23px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints center/top, fill White
+        - RECTANGLE "image 1", 190x23px, constraints left/top, fill image(hash: 25fe44bf9ef55fc7b5a2b26baddea7784fb06d14)
+      - FRAME "Frame 17", 271x22px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 15", 145x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Action/Calendar", 12x12.2px, constraints left/top
+            - GROUP "Group 19", 12x12.2px, constraints scale/scale [decorative, ~5 shapes]
+          - TEXT "Book an Appointment", 125x22px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Action/User", 12x15.03px, constraints left/top
+          - VECTOR "Vector 44", 12x5.95px, constraints scale/scale, stroke Black 1px
+          - ELLIPSE "Ellipse 25", 7.57x7.57px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Action/Custom Heart", 12x13.76px, constraints left/top
+          - VECTOR "Vector 45", 12x11.21px, constraints scale/scale, stroke Black 1px
+          - VECTOR "Vector 46", 5.4x2.46px, constraints scale/scale, stroke Black 1px
+        - INSTANCE "Action/Shopping", 12x15.5px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Main Navigation/Shopping Bag/Style5", 12x15.5px, constraints scale/scale
+            - RECTANGLE "Rectangle 34", 12x11.23px, constraints scale/scale, stroke Black 1px
+            - RECTANGLE "Rectangle 35", 12x11.23px, constraints scale/scale, stroke Black 1px
+            - VECTOR "Vector 47", 6.31x5.34px, constraints scale/scale, stroke Black 1px
+    - INSTANCE ".Main Nav Bottom", 1440x79px, constraints center/top, fill White
+      - RECTANGLE "BG", 1440x502px, constraints center/top, fill White
+      - FRAME "Frame 54", 1116x29px, horizontal pad 0 0 0 0px gap 45px sizing W:fixed H:fixed, constraints center/top
+        - INSTANCE "Call to Action Button", 88x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 64x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 60x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 180x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 156x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 152x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 131x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 107x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 103x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 186x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 162x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+            - TEXT "Call to Action", 158x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+        - INSTANCE "Call to Action Button", 107x29px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+          - FRAME "Icon", 83x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 1px
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Components / Footer
+- FRAME "Footer", 1644x883px, constraints left/top, fill #444444
+  - RECTANGLE "Rectangle 1", 1644x72px, constraints left/top, fill Turquoise
+  - TEXT "Body Small Label", 99x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - COMPONENT_SET "Footer", 1480x610px, constraints left/top, radius 5px, stroke White 1px
+    - COMPONENT "Property 1=Default", 1440x537px, constraints left_right/top, fill White
+      - RECTANGLE "div.footer__line-1", 1440x32px, constraints left_right/top, stroke Turquoise 8px
+      - TEXT "Article → Article → Label → Client Care", 100x24px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+      - TEXT "Article → Article → Label → Our Company", 123x24px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+      - TEXT "Article → Article → Label → Related Tiffany Sites", 192x24px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+      - GROUP "Group 14", 718.76x342.91px, constraints left/top
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Conta", 83x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Track", 133x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Produ", 171x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Book ", 163x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Frequ", 209x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → tiffany-footer-flyout → Bu", 142x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → tiffany-footer-flyout → Bu", 181x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Gift ", 79x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Button - aria-siteid → Web", 156x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - FRAME "Frame 60", 169.76x342.91px, vertical pad 0 0 0 0px gap 22px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Article → Article → List → Item → Link - aria-siteid → World", 98.03x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+          - TEXT "Article → Article → List → Item → Link - aria-siteid → Susta", 79.03x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+          - TEXT "Article → Article → List → Item → tiffany-footer-flyout → Bu", 169.76x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+          - TEXT "Article → Article → List → Item → Link - aria-siteid → Calif", 106.04x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+          - TEXT "Article → Article → List → Item → Link - aria-siteid → Tiffa", 93.78x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+          - TEXT "Article → Article → List → Item → Link - aria-siteid → Websi", 95.26x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+          - TEXT "Article → Article → List → Item → tiffany-footer-flyout → Bu", 156.89x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+          - TEXT "Article → Article → List → Item → Link - aria-siteid → Do No", 143.11x30.95px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+          - TEXT "Article → Article → List → Item → Link - aria-siteid → Opt-O", 126.37x30.96px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Weddi", 143.62x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Busin", 168x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Tiffa", 122.26x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → The T", 174.76x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Tiffa", 96.53x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+        - TEXT "Article → Article → List → Item → Link - aria-siteid → Site ", 58.12x15px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+      - TEXT "Symbol", 8.2x9px, constraints left/top, fill Black, text [Inter Regular, 8px]
+      - TEXT "Button → Label → Change Location: United States", 135x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+      - TEXT "© T&CO. 2024", 93.65x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body 12]
+      - FRAME "Frame 19", 282x30px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Social Media/Instagram", 30x30px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Social Media/Instagram", 30x30px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 30x30px, constraints scale/scale, fill Black
+        - INSTANCE "Social Media/Facebook", 30x30px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Social Media/Facebook", 30x30px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 30x30px, constraints scale/scale, fill Black
+        - INSTANCE "Social Media/Pintrest", 30x30px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Social Media/Pintrest", 30x30px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 30x30px, constraints scale/scale, fill Black
+        - INSTANCE "Social Media/Twitter", 30.81x29px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Social Media/Twitter", 30.81x29px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 30.81x29px, constraints scale/scale, fill Black
+        - INSTANCE "Social Media/YouTube", 30x24.37px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Social Media/YouTube", 30x24.37px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 30x24.37px, constraints scale/scale, fill Black
+      - INSTANCE ".Sort Dropdown", 117x26px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Designers & Collections", 105x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+        - GROUP "Group 13", 7x3.82px, constraints left/top, radius 0.1px
+          - VECTOR "Vector 33", 7x3.82px, constraints left/top, radius 0.1px, fill Black, stroke Black 1px
+      - INSTANCE "Newsletter Form", 383x275px, vertical pad 24 24 24 24px gap 7px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 74", 335x227px, vertical pad 0 0 0 0px gap 25px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 74", 335x153px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 74", 335x90px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 68", 316.5x47px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Call to Action Button", 96x49px, horizontal pad 12 16 12 16px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 1px
+            - FRAME "Icon", 64x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+
+Screen: Components / Forms
+- FRAME "Forms", 1440x3099px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 1440x72px, constraints left/top, fill Turquoise
+  - TEXT "Body Small Label", 95x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - COMPONENT "Order Contact Information", 481x501px, constraints left/top, fill White
+    - INSTANCE "city", 323x31.5px, constraints left/top
+      - INSTANCE "Breadcrumb Title", 270x34px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Breadcrumb Title - Inter Regular 10px", 270x34px, constraints left/top, fill Black, text [Abhaya Libre/Paragraph/Body 24], [heading]
+    - VECTOR "Vector 30", 316.5x0px, constraints left/top, stroke Black 1px
+    - VECTOR "Vector 33", 316.5x0px, constraints left/top, stroke Black 1px
+    - FRAME "Breadcrumb Title", 115x28px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "watermelon131418@gmail.com", 208x24px, constraints left/top, fill Charcoal, text [Inter Regular, 14px]
+    - RECTANGLE "Rectangle 6", 20x20px, constraints left/top, radius 3px, stroke Charcoal 1px
+    - RECTANGLE "Rectangle 7", 20x20px, constraints left/top, radius 3px, stroke Charcoal 1px
+    - RECTANGLE "Rectangle 8", 20x20px, constraints left/top, radius 3px, stroke Charcoal 1px
+    - TEXT "Yes, I would like to receive SMS notification about the stat", 449x208px, constraints left/top, fill Black, text [Inter/Paragraph/Body 16]
+    - TEXT "Create an account to save your information", 449x26px, constraints left/top, fill Black, text [Inter/Paragraph/Body 16]
+    - TEXT "Sign up to receive our exclusive emails", 449x26px, constraints left/top, fill Black, text [Inter/Paragraph/Body 16]
+    - TEXT "Email", 36x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+    - TEXT "Mobile Phone Number", 147x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+  - COMPONENT_SET "Sign In Form", 431x589px, constraints left/top, radius 5px, fill White, stroke #9747FF 1px
+    - COMPONENT "State=Normal State", 391x271px, vertical pad 0 0 0 0px gap 28px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 67", 391x73px, constraints left/top
+        - FRAME "Paragraph 2", 96x18px, constraints left/top
+          - TEXT "Email", 36x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 1", 391x45px, constraints left/top, stroke Charcoal 1px
+        - TEXT "watermelon131418@gmail.com", 208x24px, constraints scale/scale, fill Charcoal, text [Inter/Paragraph/Body 14]
+      - GROUP "Group 66", 391x73px, constraints left/top
+        - FRAME "Paragraph 3", 79x18px, constraints left/top
+          - TEXT "Password", 65x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 2", 391x45px, constraints left/top, stroke Charcoal 1px
+      - INSTANCE "Call to Action Button", 88x49px, horizontal pad 12 16 12 16px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill Black, stroke White 1px
+        - FRAME "Icon", 56x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+          - TEXT "Call to Action", 52x21px, constraints left/top, fill White, text [Inter/Links/Button]
+    - COMPONENT "State=Error State", 391x247px, constraints left/top
+      - GROUP "Group 67", 391x73px, constraints left/top
+        - FRAME "Paragraph 2", 96x18px, constraints left/top
+          - TEXT "Email", 36x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - TEXT "watermelon131418@gmail.com", 208x24px, constraints scale/scale, fill Charcoal, text [Inter/Paragraph/Body 14]
+        - RECTANGLE "Rectangle 1", 391x45px, constraints left/top, stroke Red 1px
+      - GROUP "Group 66", 391x73px, constraints left/top
+        - FRAME "Paragraph 3", 79x18px, constraints left/top
+          - TEXT "Password", 65x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 2", 391x45px, constraints left/top, stroke Red 1px
+      - TEXT "Invalid Email Adress", 94x18px, constraints left/top, fill Red, text [Inter Regular, 10px]
+      - TEXT "Invalid Pass word - Maintain 6-10 character combine with let", 300x18px, constraints left/top, fill Red, text [Inter Regular, 10px]
+      - INSTANCE "Call to Action Button", 88x49px, horizontal pad 12 16 12 16px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill Black, stroke White 1px
+        - FRAME "Icon", 56x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+          - TEXT "Call to Action", 52x21px, constraints left/top, fill White, text [Inter/Links/Button]
+  - COMPONENT_SET "Personal Information Form", 434x979px, constraints left/top, radius 5px, fill White, stroke #9747FF 1px
+    - COMPONENT "Personal Information=Normal State", 391x426px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Personal Information", 391x426px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Personal Information", 391x426px, constraints scale/scale
+          - INSTANCE "Paragraph 1", 136x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 136x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 2", 77x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 77x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 3", 76x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 76x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 4", 100x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 100x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 5", 99x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 99x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 6", 95x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 95x18px, constraints left/top, fill Light Gray, text [Inter Body/Large (Regular Weight)]
+          - RECTANGLE "Rectangle 1", 391x45px, constraints left/top, stroke Charcoal 1px
+          - RECTANGLE "Rectangle 2", 391x45px, constraints left/top, stroke Charcoal 1px
+          - RECTANGLE "Rectangle 3", 391x45px, constraints left/top, stroke Charcoal 1px
+          - RECTANGLE "Rectangle 5", 77x45px, constraints left/top, fill Light Gray
+          - INSTANCE "Paragraph 7", 16x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 16x18px, constraints left/top, fill Charcoal, text [Inter Body/Large (Regular Weight)]
+          - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Charcoal 1px
+          - REGULAR_POLYGON "Polygon 1", 9x7px, constraints left/top, fill Charcoal
+          - GROUP "🦆 icon "United States"", 19x14.25px, constraints left/top [decorative, ~11 shapes]
+        - TEXT "123@gmail.com", 208x24px, constraints scale/scale, fill Charcoal, text [Inter/Paragraph/Body 14]
+    - COMPONENT "Personal Information=Error State", 391x444px, constraints left/top
+      - INSTANCE "Personal Information", 391x426px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Personal Information", 391x426px, constraints scale/scale
+          - INSTANCE "Paragraph 1", 136x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 136x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 2", 77x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 77x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 3", 76x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 76x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 4", 100x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 100x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 5", 99x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 99x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 6", 0x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 0x18px, constraints left/top, fill Charcoal, text [Inter Body/Large (Regular Weight)]
+          - RECTANGLE "Rectangle 1", 391x45px, constraints left/top, stroke Red 1px
+          - RECTANGLE "Rectangle 2", 391x45px, constraints left/top, stroke Red 1px
+          - RECTANGLE "Rectangle 3", 391x45px, constraints left/top, stroke Red 1px
+          - RECTANGLE "Rectangle 5", 77x45px, constraints left/top, fill Light Gray
+          - INSTANCE "Paragraph 7", 16x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 16x18px, constraints left/top, fill Charcoal, text [Inter Body/Large (Regular Weight)]
+          - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Red 1px
+          - REGULAR_POLYGON "Polygon 1", 9x7px, constraints left/top, fill Charcoal
+          - GROUP "🦆 icon "United States"", 19x14.25px, constraints left/top [decorative, ~11 shapes]
+        - TEXT "123@gmail.com", 208x24px, constraints scale/scale, fill Charcoal, text [Inter Regular, 14px]
+      - TEXT "Enter valid email", 78x18px, constraints scale/scale, fill Red, text [Inter Regular, 10px]
+      - TEXT "Please enter a valid number", 131x18px, constraints scale/scale, fill Red, text [Inter Regular, 10px]
+      - TEXT "This Field is required", 98x18px, constraints scale/scale, fill Red, text [Inter Regular, 10px]
+      - TEXT "This Field is required", 98x18px, constraints scale/scale, fill Red, text [Inter Regular, 10px]
+  - COMPONENT_SET "Payment Form", 431x606px, constraints left/top, radius 5px, fill White, stroke #9747FF 1px
+    - COMPONENT "Payment Form=Normal State", 391x232px, constraints left/top
+      - INSTANCE "Personal Information", 391x232px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Personal Information", 391x232px, constraints scale/scale
+          - INSTANCE "Paragraph 1", 114x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 114x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 2", 114x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 114x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 3", 77x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paragraph 1 - Inter Regular 14px", 77x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - INSTANCE "Paragraph 4", 100x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 391x45px, constraints left/top, stroke Charcoal 1px
+          - RECTANGLE "Rectangle 2", 391x45px, constraints left/top, stroke Charcoal 1px
+          - GROUP "🦆 icon "United States"", constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+      - TEXT "MM/YY", 59x24px, constraints scale/scale, fill Charcoal, text [Inter/Paragraph/Body 14]
+    - COMPONENT "Payment Form=Error State", 391x254px, constraints left/top
+      - TEXT "MM/YY", 59x24px, constraints scale/scale, fill Charcoal, text [Inter/Paragraph/Body 14]
+      - GROUP "Group 73", 391x254px, constraints scale/scale
+        - INSTANCE "Personal Information", 391x254px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Personal Information", 391x254px, constraints scale/scale
+            - INSTANCE "Paragraph 1", 114x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Paragraph 2", 114x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Paragraph 3", 77x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Paragraph 4", 100x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 1", 391x45px, constraints left/top, stroke Red 1px
+            - RECTANGLE "Rectangle 2", 391x45px, constraints left/top, stroke Red 1px
+            - GROUP "🦆 icon "United States"", constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+      - TEXT "Invalid Gift Card", 76x18px, constraints scale/scale, fill Red, text [Inter Regular, 10px]
+      - TEXT "Invalid Gift Card", 76x18px, constraints scale/scale, fill Red, text [Inter Regular, 10px]
+  - COMPONENT_SET "Basic Details Form", 431x1514px, constraints left/top, radius 5px, fill White, stroke #9747FF 1px
+    - COMPONENT "Basic Details Form=Normal State", 391x679px, vertical pad 0 0 0 0px gap 28px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 67", 391x73px, constraints left/top
+        - FRAME "Paragraph 2", 96x18px, constraints left/top
+          - TEXT "Paragraph 1 - Inter Regular 14px", 96x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 1", 391x45px, constraints left/top, stroke Charcoal 1px
+      - GROUP "Group 66", 391x73px, constraints left/top
+        - FRAME "Paragraph 3", 79x18px, constraints left/top
+          - TEXT "Paragraph 1 - Inter Regular 14px", 79x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 2", 391x45px, constraints left/top, stroke Charcoal 1px
+      - GROUP "Group 65", 391x73px, constraints left/top
+        - FRAME "Paragraph 4", 78x18px, constraints left/top
+          - TEXT "Paragraph 1 - Inter Regular 14px", 78x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 3", 391x45px, constraints left/top, stroke Charcoal 1px
+      - GROUP "Group 64", 391x73px, constraints left/top
+        - FRAME "Paragraph 5", 66x18px, constraints left/top
+          - TEXT "Paragraph 1 - Inter Regular 14px", 66x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Charcoal 1px
+      - GROUP "Group 68", 391x73px, constraints left/top
+        - FRAME "Paragraph 5", 66x18px, constraints left/top
+          - TEXT "Zip Code", 60x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Charcoal 1px
+      - GROUP "Group 69", 391x73px, constraints left/top
+        - FRAME "Paragraph 5", 66x18px, constraints left/top
+          - TEXT "City", 27x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Charcoal 1px
+      - GROUP "Group 70", 391x73px, constraints left/top
+        - FRAME "Paragraph 5", 66x18px, constraints left/top
+          - TEXT "State", 36x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Charcoal 1px
+    - COMPONENT "Basic Details Form=Error State", 391x679px, constraints left/top
+      - GROUP "Group 67", 391x73px, constraints left/top
+        - FRAME "Paragraph 2", 96x18px, constraints left/top
+          - TEXT "Paragraph 1 - Inter Regular 14px", 96x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - FRAME "Paragraph 3", 96x18px, constraints left/top
+          - TEXT "Title (optional)", 96x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 1", 391x45px, constraints left/top, stroke Red 1px
+      - FRAME "Paragraph 4", 96x18px, constraints left/top
+        - TEXT "Error Title (optional)", 95x18px, constraints left/top, fill Red, text [Inter Regular, 10px]
+      - GROUP "Group 66", 391x73px, constraints left/top
+        - FRAME "Paragraph 3", 79x18px, constraints left/top
+          - TEXT "Paragraph 1 - Inter Regular 14px", 79x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 2", 391x45px, constraints left/top, stroke Red 1px
+      - GROUP "Group 65", 391x73px, constraints left/top
+        - FRAME "Paragraph 4", 78x18px, constraints left/top
+          - TEXT "Paragraph 1 - Inter Regular 14px", 78x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 3", 391x45px, constraints left/top, stroke Red 1px
+      - GROUP "Group 64", 391x73px, constraints left/top
+        - FRAME "Paragraph 5", 66x18px, constraints left/top
+          - TEXT "Paragraph 1 - Inter Regular 14px", 66x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Charcoal 1px
+      - GROUP "Group 68", 391x73px, constraints left/top
+        - FRAME "Paragraph 5", 66x18px, constraints left/top
+          - TEXT "Zip Code", 60x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Charcoal 1px
+      - GROUP "Group 69", 391x73px, constraints left/top
+        - FRAME "Paragraph 5", 66x18px, constraints left/top
+          - TEXT "City", 27x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Charcoal 1px
+      - GROUP "Group 70", 391x73px, constraints left/top
+        - FRAME "Paragraph 5", 66x18px, constraints left/top
+          - TEXT "State", 36x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+        - RECTANGLE "Rectangle 4", 391x45px, constraints left/top, stroke Charcoal 1px
+      - TEXT "Error First Name", 78x18px, constraints left/top, fill Red, text [Inter Regular, 10px]
+      - TEXT "Error Last Name", 77x18px, constraints left/top, fill Red, text [Inter Regular, 10px]
+      - TEXT "Error Address", 65x18px, constraints left/top, fill Red, text [Inter Regular, 10px]
+      - TEXT "Error Zip Code", 69x18px, constraints left/top, fill Red, text [Inter Regular, 10px]
+      - TEXT "Error City Address", 87x18px, constraints left/top, fill Red, text [Inter Regular, 10px]
+      - TEXT "Error State", 51x18px, constraints left/top, fill Red, text [Inter Regular, 10px]
+  - COMPONENT "Data protection", 668x184px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Data protection", 668x184px, constraints scale/scale
+      - INSTANCE "Paragraph 4", 146x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Paragraph 1 - Inter Regular 14px", 146x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+      - TEXT "By checking this box, you acknowledge that you consent to th", 637x130px, constraints left/top, fill Black, text [Inter/Paragraph/Body 16]
+      - RECTANGLE "Rectangle 6", 20x20px, constraints left/top, radius 3px, stroke Charcoal 1px
+  - COMPONENT "Newsletter Form", 383x275px, vertical pad 24 24 24 24px gap 7px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 74", 335x227px, vertical pad 0 0 0 0px gap 25px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 74", 335x153px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 74", 335x90px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Latest from Tiffany", 186x30px, constraints left/top, fill Black, text [Inter/Heading/Extra Small], [heading]
+          - TEXT "Be the first to know about exciting new designs, special eve", 335x48px, constraints left/top, fill Black, text [Inter/Paragraph/Body 14]
+        - FRAME "Frame 68", 316.5x47px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Paragraph 2", 80.04x18px, constraints left/top
+            - TEXT "Email", 36x18px, constraints left/top, fill Black, text [Inter Body/Large (Regular Weight)]
+          - FRAME "Frame 74", 316.5x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "watermelon131418@gmail.com", 208x24px, constraints left/top, fill Charcoal, text [Inter Regular, 14px]
+            - VECTOR "Vector 33", 316.5x0px, constraints left/top, stroke Black 1px
+      - INSTANCE "Call to Action Button", 96x49px, horizontal pad 12 16 12 16px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 1px
+        - FRAME "Icon", 64x25px, horizontal pad 2 2 2 2px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Turquoise 0px
+          - TEXT "Call to Action", 60x21px, constraints left/top, fill Black, text [Inter/Links/Button]
+
+Screen: Components / Filtering and Sorting
+- FRAME "Filtering and Sorting", 1606x344px, constraints left/top, fill #444444
+  - RECTANGLE "Rectangle 1", 1606x72px, constraints left/top, fill Turquoise
+  - TEXT "Body Small Label", 313x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - COMPONENT "Sorting and Filtering", 1440x72px, vertical pad 20 20 20 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill White
+    - FRAME "Frame 14", 1400x32px, horizontal pad 0 0 0 0px gap 50px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 14", 584x32px, constraints left/top
+        - TEXT "Filter By:", 51x22px, constraints left/top, fill Charcoal, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Multi Select Dropdown", 175x38px, vertical pad 8 8 8 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill White
+          - FRAME "Frame 21", 159x22px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 159x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Multi Select Dropdown", 91x38px, vertical pad 8 8 8 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill White
+          - FRAME "Frame 21", 75x22px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 75x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Multi Select Dropdown", 104x38px, vertical pad 8 8 8 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill White
+          - FRAME "Frame 21", 88x22px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 88x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Multi Select Dropdown", 74x38px, vertical pad 8 8 8 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill White
+          - FRAME "Frame 21", 58x22px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 17", 58x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 15", 224x32px, constraints left/top
+        - TEXT "Sort By:", 47x22px, constraints left/top, fill Charcoal, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Single Select Dropdown", 172x32px, vertical pad 8 8 8 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill White
+          - FRAME "Frame 21", 150x16px, constraints left/top
+            - FRAME "Frame 17", 135x16px, constraints left/top
+            - INSTANCE "Arrow Icons", 14x7px, constraints left/top, fill #FFFFFF
+
+Screen: Components / Dropdown
+- FRAME "Dropdown", 480x472px, constraints left/top, fill #444444
+  - RECTANGLE "Rectangle 40", 159x50px, constraints left/top, fill Light Gray
+  - RECTANGLE "Rectangle 1", 1440x72px, constraints left/top, fill Turquoise
+  - TEXT "Body Small Label", 159x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - COMPONENT_SET "Multi Select Dropdown", 144x208px, constraints left/top, radius 5px, stroke White 1px
+    - COMPONENT "State=Closed", 120x38px, vertical pad 8 8 8 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill White
+      - FRAME "Frame 21", 106x22px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 17", 106x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Jewelry Types", 84x22px, constraints left/top, fill Black, text [Inter Regular, 12px]
+          - INSTANCE "Arrow Icons", 14x7px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector 60", 14x7px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+    - COMPONENT "State=Opened", 120x134px, vertical pad 8 8 8 8px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+      - FRAME "Frame 21", 105x118px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 32", 105x22px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 17", 84x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Jewelry Types", 84x22px, constraints left/top, fill Black, text [Inter Regular, 12px]
+          - INSTANCE "Arrow Icons", 14x7px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector 33", 14x7px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+        - INSTANCE "Multi Select Option", 54x16px, constraints left/top
+          - INSTANCE "Action/Checkbox", 12x12px, constraints scale/scale
+            - RECTANGLE "Rectangle 39", 12x12px, constraints scale/scale, fill Turquoise, stroke Black 1px
+            - VECTOR "Vector", 6.23x4.85px, constraints scale/scale, fill Black
+          - TEXT "Test 1", 32x22px, constraints scale/scale, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Multi Select Option", 54x16px, constraints left/top
+          - INSTANCE "Action/Checkbox", 12x12px, constraints scale/scale
+            - RECTANGLE "Rectangle 39", 12x12px, constraints scale/scale, fill Turquoise, stroke Black 1px
+            - VECTOR "Vector", 6.23x4.85px, constraints scale/scale, fill Black
+          - TEXT "Test 1", 55x22px, constraints scale/scale, fill Black, text [Inter/Paragraph/Body 12]
+        - INSTANCE "Multi Select Option", 54x16px, constraints left/top
+          - INSTANCE "Action/Checkbox", 12x12px, constraints scale/scale
+            - RECTANGLE "Rectangle 39", 12x12px, constraints scale/scale, fill Turquoise, stroke Black 1px
+          - TEXT "Test 1", 60x22px, constraints scale/scale, fill Black, text [Inter/Paragraph/Body 12]
+  - COMPONENT_SET "Single Select Dropdown", 205x208px, constraints left/top, radius 5px, stroke White 1px
+    - COMPONENT "State=Closed", 172x32px, vertical pad 8 8 8 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill White
+      - FRAME "Frame 21", 150x16px, constraints left/top
+        - FRAME "Frame 17", 135x16px, constraints left/top
+          - TEXT "Recommendations", 107x22px, constraints left/top, fill Black, text [Inter Regular, 12px]
+        - INSTANCE "Arrow Icons", 14x7px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 60", 14x7px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+    - COMPONENT "State=Opened", 172x110px, vertical pad 8 8 8 8px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill White
+      - FRAME "Frame 21", 156x16px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 32", 156x16px, constraints left/top
+          - FRAME "Frame 17", 82x16px, constraints left/top
+            - TEXT "Recommendations", 132x22px, constraints left/top, fill Black, text [Inter Regular, 12px]
+          - INSTANCE "Arrow Icons", 14x7px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector 33", 14x7px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+      - INSTANCE "Single Select Option", 54x16px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Multi Select Option", 54x16px, constraints scale/scale
+          - INSTANCE "Action/Radio Button", 12x12px, constraints scale/scale
+            - ELLIPSE "Ellipse 25", 12x12px, constraints scale/scale, fill Turquoise
+            - ELLIPSE "Ellipse 28", 10.5x10.5px, constraints scale/scale, fill White
+            - ELLIPSE "Ellipse 29", 6x6px, constraints scale/scale, fill Turquoise
+          - TEXT "Test 1", 107x22px, constraints scale/scale, fill Black, text [Inter/Paragraph/Body 12]
+      - INSTANCE "Single Select Option", 54x16px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Multi Select Option", 54x16px, constraints scale/scale
+          - INSTANCE "Action/Radio Button", 12x12px, constraints scale/scale
+            - ELLIPSE "Ellipse 26", 12x12px, constraints scale/scale, fill White, stroke Turquoise 1px
+          - TEXT "Test 1", 102x22px, constraints scale/scale, fill Black, text [Inter/Paragraph/Body 12]
+      - INSTANCE "Single Select Option", 54x16px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Multi Select Option", 54x16px, constraints scale/scale
+          - INSTANCE "Action/Radio Button", 12x12px, constraints scale/scale
+            - ELLIPSE "Ellipse 26", 12x12px, constraints scale/scale, fill White, stroke Turquoise 1px
+          - TEXT "Test 1", 102x22px, constraints scale/scale, fill Black, text [Inter/Paragraph/Body 12]
+  - COMPONENT "Multi Select Option", 54x16px, constraints left/top
+    - INSTANCE "Action/Checkbox", 12x12px, constraints scale/scale
+      - RECTANGLE "Rectangle 39", 12x12px, constraints scale/scale, fill Turquoise, stroke Black 1px
+    - TEXT "Test 1", 34x22px, constraints scale/scale, fill Black, text [Inter/Paragraph/Body 12]
+  - COMPONENT "Single Select Option", 54x16px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Multi Select Option", 54x16px, constraints scale/scale
+      - INSTANCE "Action/Radio Button", 12x12px, constraints scale/scale
+        - ELLIPSE "Ellipse 26", 12x12px, constraints scale/scale, fill White, stroke Turquoise 1px
+      - TEXT "Test 1", 34x22px, constraints scale/scale, fill Black, text [Inter/Paragraph/Body 12]
+
+Screen: Components / Collapsible Sections
+- FRAME "Collapsible Sections", 1440x918px, constraints left/top, fill #444444
+  - RECTANGLE "Rectangle 1", 1440x72px, constraints left/top, fill Turquoise
+  - TEXT "Body Small Label", 303x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - COMPONENT_SET "Long Collapsible Section", 1390x255px, constraints left/top, radius 5px, stroke White 1px
+    - COMPONENT "State=Closed", 1340x74px, constraints left/top, fill White
+      - INSTANCE "Shapes/Line", 1340x6px, vertical pad 3 0 3 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 20", 1340x0px, constraints left/top, stroke Black 1px
+      - FRAME "Frame 32", 1340x73px, constraints left/top
+        - FRAME "Frame 32", 1260x50px, constraints left/top
+          - FRAME "Frame 6", 227x20px, constraints left/top
+            - TEXT "How do I care for my jewelry?", 227x20px, constraints left/top, fill Black, text [Inter SemiBold, 16px]
+          - INSTANCE "Main Navigation/Expand", 50x50px, horizontal pad 9 9 9 9px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 12", 45.25x45.25px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "Shapes/Line", 1340x6px, vertical pad 3 0 3 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 20", 1340x0px, constraints left/top, stroke Black 1px
+    - COMPONENT "State=Open", 1340x123px, constraints left/top, fill White
+      - INSTANCE "Shapes/Line", 1340x8px, vertical pad 3 0 3 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 20", 1340x0px, constraints left/top, stroke Black 1px
+      - FRAME "Frame 32", 1340x110px, constraints left/top
+        - FRAME "Frame 32", 1260x89px, constraints left/top
+          - FRAME "Frame 6", 227x20px, constraints left/top
+            - TEXT "How do I care for my jewelry?", 227x20px, constraints left/top, fill Black, text [Inter SemiBold, 16px]
+          - INSTANCE "Main Navigation/Expand", 50x50px, horizontal pad 9 9 9 9px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 12", 45.25x45.25px, constraints left/top, radius 0/0/0/0px
+          - TEXT "The House is the first luxury jeweler to receive SBTi approv", 824x52px, constraints left/top, fill Black, text [Inter/Paragraph/Body 16]
+      - INSTANCE "Shapes/Line", 1340x8px, vertical pad 3 0 3 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 20", 1340x0px, constraints left/top, stroke Black 1px
+  - COMPONENT_SET "Short Collapsible Section", 575x322px, constraints left/top, radius 5px, stroke White 1px
+    - COMPONENT "State=Closed", 535x95px, vertical pad 10 8 10 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill White
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+      - FRAME "Frame 40", 519x51px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 40", 476x51px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Complimentary Shipping & Returns", 271x20px, constraints left/top, fill Black, text [Inter SemiBold, 16px]
+          - TEXT "The House is the first luxury jeweler to receive SBTi approv", 476x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body Light 14]
+        - INSTANCE "Arrow Icons/Down Filled", 16x8.73px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 60", 16x8.73px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+    - COMPONENT "State=Opened", 535x143px, vertical pad 10 8 10 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill White
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+      - FRAME "Frame 40", 519x99px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 40", 476x99px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Complimentary Shipping & Returns", 271x20px, constraints left/top, fill Black, text [Inter SemiBold, 16px]
+          - TEXT "The House is the first luxury jeweler to receive SBTi approv", 476x72px, constraints left/top, fill Black, text [Inter/Paragraph/Body Light 14]
+        - INSTANCE "Arrow Icons/Up Filled", 16x8.73px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 33", 16x8.73px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+  - COMPONENT "Short Collapsible Section Set", 535x395px, vertical pad 0 0 0 0px gap -20px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke Powder Blue 1px
+    - INSTANCE "Short Collapsible Section", 535x95px, vertical pad 10 8 10 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill Powder Blue
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+      - FRAME "Frame 40", 519x51px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 40", 476x51px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Complimentary Shipping & Returns", 271x20px, constraints left/top, fill Black, text [Inter SemiBold, 16px]
+          - TEXT "The House is the first luxury jeweler to receive SBTi approv", 476x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body Light 14]
+        - INSTANCE "Arrow Icons/Down Filled", 16x8.73px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 60", 16x8.73px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+    - INSTANCE "Short Collapsible Section", 535x95px, vertical pad 10 8 10 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill Powder Blue
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+      - FRAME "Frame 40", 519x51px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 40", 476x51px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Complimentary Shipping & Returns", 271x20px, constraints left/top, fill Black, text [Inter SemiBold, 16px]
+          - TEXT "The House is the first luxury jeweler to receive SBTi approv", 476x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body Light 14]
+        - INSTANCE "Arrow Icons/Down Filled", 16x8.73px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 60", 16x8.73px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+    - INSTANCE "Short Collapsible Section", 535x95px, vertical pad 10 8 10 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill Powder Blue
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+      - FRAME "Frame 40", 519x51px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 40", 476x51px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Complimentary Shipping & Returns", 271x20px, constraints left/top, fill Black, text [Inter SemiBold, 16px]
+          - TEXT "The House is the first luxury jeweler to receive SBTi approv", 476x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body Light 14]
+        - INSTANCE "Arrow Icons/Down Filled", 16x8.73px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 60", 16x8.73px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+    - INSTANCE "Short Collapsible Section", 535x95px, vertical pad 10 8 10 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill Powder Blue
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+      - FRAME "Frame 40", 519x51px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 40", 476x51px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Complimentary Shipping & Returns", 271x20px, constraints left/top, fill Black, text [Inter SemiBold, 16px]
+          - TEXT "The House is the first luxury jeweler to receive SBTi approv", 476x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body Light 14]
+        - INSTANCE "Arrow Icons/Down Filled", 16x8.73px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 60", 16x8.73px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+    - INSTANCE "Short Collapsible Section", 535x95px, vertical pad 10 8 10 8px gap 12px sizing W:fixed H:fill, constraints left/top, fill Powder Blue
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+      - FRAME "Frame 40", 519x51px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 40", 476x51px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Complimentary Shipping & Returns", 271x20px, constraints left/top, fill Black, text [Inter SemiBold, 16px]
+          - TEXT "The House is the first luxury jeweler to receive SBTi approv", 476x24px, constraints left/top, fill Black, text [Inter/Paragraph/Body Light 14]
+        - INSTANCE "Arrow Icons/Down Filled", 16x8.73px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 60", 16x8.73px, constraints scale/scale, radius 1px, fill Black, stroke Black 1px
+      - INSTANCE "Divider/Line", 519x0px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Shapes/Black Horizontal Line", 519x0px, constraints left/top, fill #FFFFFF
+          - LINE "Line 1", 519x0px, constraints scale/scale, stroke Black 1px
+
+Screen: Components / Carousel
+- FRAME "Carousel", 1684x1415px, constraints left/top, fill #444444
+  - RECTANGLE "Rectangle 1", 1684x72px, constraints left/top, fill Turquoise
+  - TEXT "Body Small Label", 133x40px, constraints left/top, fill Black, text [Abhaya Libre Bold, 36px], [heading]
+  - COMPONENT "General Carousel", 1340x571px, vertical pad 16 0 28 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill White
+    - GROUP "Group 33", 1340x509px, constraints left/top
+      - INSTANCE "Product Card v2", 315.89x509px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top, fill White
+        - INSTANCE "The Tiffany Icons Image Set 2", 315.89x316px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "image 11", 315.89x316px, constraints scale/scale, fill image(hash: 8c1d6ddf13f2232738f656a7c2ee73a42f9c5c7e)
+        - FRAME "Frame 13", 315.89x193px, vertical pad 16 16 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke White 1px
+          - FRAME "Frame 13", 283.89x108px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Tiffany Leads Luxury Jewelers in", 283.89x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+            - FRAME "Frame 59", 283.89x72px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 59", 151x41px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Call to Action Button", 151x41px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+      - INSTANCE "Product Card v2", 315.89x509px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top, fill White
+        - INSTANCE "The Tiffany Icons Image Set", 315.89x316px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "image 10", 315.89x316px, constraints scale/scale, fill image(hash: c1521fe327e020472e8a02b976c824a35a44dd2d)
+        - FRAME "Frame 13", 315.89x193px, vertical pad 16 16 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke White 1px
+          - FRAME "Frame 13", 283.89x108px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Tiffany Leads Luxury Jewelers in", 283.89x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+            - FRAME "Frame 59", 283.89x72px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 59", 151x41px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Call to Action Button", 151x41px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+      - INSTANCE "Product Card v2", 315.89x509px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top, fill White
+        - INSTANCE "The Tiffany Icons Image Set 3", 315.89x316px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "image 12", 315.89x316px, constraints scale/scale, fill image(hash: 53d4361f48e017c90a4505225922159abf90854a)
+        - FRAME "Frame 13", 315.89x193px, vertical pad 16 16 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke White 1px
+          - FRAME "Frame 13", 283.89x108px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Tiffany Leads Luxury Jewelers in", 283.89x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+            - FRAME "Frame 59", 283.89x72px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 59", 151x41px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Call to Action Button", 151x41px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+      - INSTANCE "Product Card v2", 315.89x509px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top, fill White
+        - INSTANCE "The Tiffany Icons Image Set 4", 315.89x316px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "image 13", 315.89x316px, constraints scale/scale, fill image(hash: b353cb8bf2bb3b9107a9f391a54e741801ea5994)
+        - FRAME "Frame 13", 315.89x193px, vertical pad 16 16 16 16px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke White 1px
+          - FRAME "Frame 13", 283.89x108px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Tiffany Leads Luxury Jewelers in", 283.89x26px, constraints left/top, fill Black, text [Inter/Title/Tiny], [heading]
+            - FRAME "Frame 59", 283.89x72px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 59", 151x41px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Call to Action Button", 151x41px, horizontal pad 8 12 8 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Black 0px
+    - INSTANCE "Main Navigation/Dot Pages", 24x10px, constraints left/top
+      - ELLIPSE "Ellipse 23", 10x10px, constraints scale/scale, fill Charcoal
+      - ELLIPSE "Ellipse 24", 10x10px, constraints scale/scale, stroke Charcoal 1px
+    - INSTANCE "Right Arrow Button", 54x54px, horizontal pad 19 22 19 22px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Turquoise
+      - INSTANCE "Arrow Icons/Right", 8.76x16px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Arrow Icons/Right Arrow", 8.76x16px, constraints scale/scale, fill #FFFFFF
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

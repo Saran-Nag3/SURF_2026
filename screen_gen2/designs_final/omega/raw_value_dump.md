@@ -1,0 +1,278 @@
+---
+name: ui-mobile-app-by-omega-community
+source_file: UI mobile app / by Omega (Community)
+source_page: All pages (2): Cover, Mobile app
+generated_at: 2026-07-25T09:33:51.235024+00:00
+---
+
+# UI mobile app / by Omega (Community) Design Guidelines
+
+## Source
+- Figma file: UI mobile app / by Omega (Community)
+- Figma page: All pages (2): Cover, Mobile app
+- Extracted at: 2026-07-25T09:33:51.235024+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Обводка: none
+- Градиент: [gradient_linear(#20204D 0% | #1D1D55 100%)]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 54 uses
+- #B9B2C4: 28 uses
+- #9491AE: 15 uses
+- #E42BC9: 7 uses
+- #2680B8: 4 uses
+- #000040: 3 uses
+- #00F0FF: 3 uses
+- #00FF38: 3 uses
+- #4200FF: 3 uses
+- #49BAFF: 3 uses
+- #EB001B: 3 uses
+- #F79E1B: 3 uses
+- #FA00FF: 3 uses
+- #FF5F00: 3 uses
+- #FFFFFF80: 3 uses
+- #FFFFFFB2: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Rubik Regular, 16px: 31 uses
+- Rubik Medium, 18px: 16 uses
+- Rubik Medium, 32px: 3 uses
+
+## Typography Hierarchy
+- 32px - Rubik Medium, 32px (raw)
+- 18px - Rubik Medium, 18px (raw)
+- 16px - Rubik Regular, 16px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Обводка: 27 uses
+- Градиент: 23 uses
+
+## Layout & Structure
+Screen: Cover / Plugin / file cover - 1
+- FRAME "Plugin / file cover - 1", 1920x960px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "cover 1", 1920x960px, constraints left/top, fill image(hash: 831d13d404afa01973a0a6815a47076b1f75b267)
+
+Screen: Mobile app / Home
+- FRAME "Home", 428x926px, constraints left/top, radius 60px, fill #000040
+  - FRAME "Transaction details", 368x294px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Text", 368x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Transaction details", 310x24px, constraints left/top, fill #FFFFFF, text [Rubik SemiBold, 20px]
+      - TEXT "View All", 58x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+    - FRAME "Transaction", 368x250px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Dribbble", 368x55px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Logo", 55x55px, constraints left/top, fill image(hash: a6b84312816977385029a6eb14b698bcbc2abbe9), stroke #000000 1px
+        - FRAME "Text", 298x44px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 13", 298x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Dribbble", 218x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+            - TEXT "-$102,24", 80x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+          - FRAME "Frame 14", 298x19px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "13 jan 22", 238x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+            - TEXT "3:24 PM", 60x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - FRAME "Amazon", 368x55px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Logo", 55x55px, constraints left/top, fill image(hash: 3092dc561521fadf2ac841bcd7b81679c0ccf86d)
+        - FRAME "Text", 298x44px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 13", 298x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Amazon Shopping", 227x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+            - TEXT "-$32.24", 71x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+          - FRAME "Frame 14", 298x19px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "12 jan 22", 238x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+            - TEXT "2:35 PM", 60x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - FRAME "YouTube", 368x55px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Logo", 55x55px, constraints left/top, fill image(hash: 03087547bd9d3820cdc1516f63fc6a1e4a8b52a0)
+        - FRAME "Text", 298x44px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 13", 298x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "YouTube TV", 254x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+            - TEXT "-$20", 44x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+          - FRAME "Frame 14", 298x19px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "9 jan 22", 240x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+            - TEXT "6:10 PM", 58x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - FRAME "Paypal", 368x55px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Logo", 55x55px, constraints left/top, fill image(hash: f46413bcc0e9afbf7dacfcdba7882ea73daf4ea6)
+        - FRAME "Text", 298x44px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 13", 298x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Paypal", 254x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+            - TEXT "-$80", 44x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+          - FRAME "Frame 14", 298x19px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "7 jan 22", 238x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+            - TEXT "7:00 PM", 60x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+  - FRAME "Functions", 368x105px, horizontal pad 0 0 0 0px gap 18px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Analyze", 80x105px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Analyze", 80x80px, constraints left/top, radius 40px [decorative, ~7 shapes]
+      - TEXT "Analyze", 59x19px, constraints left/top, fill #FFFFFF, text [Rubik Regular, 16px]
+    - FRAME "Calendar", 80x105px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Calendar", 80x80px, constraints left/top, radius 40px [decorative, ~7 shapes]
+      - TEXT "Calendar", 67x19px, constraints left/top, fill #FFFFFF, text [Rubik Regular, 16px]
+    - FRAME "Document", 80x105px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Document", 80x80px, constraints left/top, radius 40px [decorative, ~8 shapes]
+      - TEXT "Document", 78x19px, constraints left/top, fill #FFFFFF, text [Rubik Regular, 16px]
+    - FRAME "Collect", 80x105px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Collect", 80x80px, constraints left/top, radius 40px [decorative, ~7 shapes]
+      - TEXT "Collect", 52x19px, constraints left/top, fill #FFFFFF, text [Rubik Regular, 16px]
+  - FRAME "Card", 368x230px, constraints left/top, radius 40px
+    - RECTANGLE "Rectangle 2", 368x230px, constraints left/top, radius 40px, fill Градиент, stroke Обводка 2px
+    - RECTANGLE "Rectangle 4", 368x230px, constraints left/top, radius 40px, fill Градиент, stroke Обводка 2px
+    - REGULAR_POLYGON "Polygon 2", 580.2x580.2px, constraints left/top, radius 60px, fill #781CFF
+    - REGULAR_POLYGON "Polygon 1", 632.48x632.48px, constraints left/top, radius 60px, fill #D41E7F
+    - RECTANGLE "Rectangle 3", 368x230px, constraints left/top, radius 40px, fill gradient_linear(#20204D 0% | #1D1D55 100%), effect [background_blur 90px]
+    - RECTANGLE "Noise", 369x369px, constraints left/top, fill image(hash: 7a3db4b25df4765ca22c67f83ff7d529aad92943), opacity 20%
+    - RECTANGLE "Rectangle 6", 368x230px, constraints left/top, radius 40px, fill gradient_linear(#20204D 0% | #1D1D55 100%)
+    - RECTANGLE "Rectangle 5", 368x230px, constraints left/top, radius 40px, stroke Обводка 3px, opacity 50%
+    - TEXT "$1.924,35", 151x38px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 32px], [heading]
+    - FRAME "Card", 156x41px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "5489 7654 3210 7894", 156x19px, constraints left/top, fill #FFFFFF, text [Rubik Light, 16px]
+      - TEXT "04/24", 34x14px, constraints left/top, fill #FFFFFFB2, text [Rubik Light, 12px]
+    - GROUP "Mastercard", 41.98x27.3px, constraints left/top [decorative, ~4 shapes]
+    - VECTOR "Vector", 22.33x40px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF80
+  - FRAME "Avatar + Text", 368x60px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Text", 308x55px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Hello,", 84x36px, constraints left/top, fill #FFFFFF, text [Rubik Bold, 30px], [heading]
+      - TEXT "Bryce Turner", 96x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+    - ELLIPSE "Avatar", 60x60px, constraints left/top, fill image(hash: 9bf0cf6b8c6954fd49b734b510d4395cbf1f54bc)
+  - FRAME "Tab bar", 388x66px, constraints left/top, fill #FFFFFF [decorative, ~15 shapes]
+
+Screen: Mobile app / Analyze
+- FRAME "Analyze", 428x926px, constraints left/top, radius 60px, fill #000040
+  - FRAME "Back", 368x28px, horizontal pad 0 0 0 0px gap 109px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "icon", 28x28px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.38x22.75px, constraints scale/scale, stroke #FFFFFF 3px
+    - TEXT "Analyze", 94x28px, constraints left/top, fill #FFFFFF, text [Rubik SemiBold, 24px], [heading]
+  - FRAME "Filter", 98x19px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Oct - Feb", 70x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+    - FRAME "icon", 18x18px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14.63x7.31px, constraints scale/scale, stroke #B9B2C4 3px
+  - FRAME "Schedule", 368x234.5px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 29", 368x195.5px, constraints left/top, fill #FFFFFF
+      - GROUP "Schedule", 368x195.5px, constraints left/top [decorative, ~4 shapes]
+      - GROUP "Pointer", 10x10px, constraints left/top [decorative, ~4 shapes]
+      - GROUP "Meaning", 66x30px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 309", 66x30px, constraints left/top, radius 10px, fill #E42BC9
+        - RECTANGLE "Rectangle 310", 66x30px, constraints left/top, radius 10px, fill #E42BC9
+        - TEXT "$ 4 600", 51x14px, constraints left/top, fill #FFFFFF, text [Rubik Regular, 14px]
+        - RECTANGLE "Rectangle 311", 66x30px, constraints left/top, radius 10px, stroke #FFFFFF 2px
+        - RECTANGLE "Rectangle", 369x369px, constraints left/top, fill image(hash: 7a3db4b25df4765ca22c67f83ff7d529aad92943), opacity 20%
+    - FRAME "Dates", 368x19px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Oct", 30x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - TEXT "Nov", 30x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - TEXT "Dec", 30x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - TEXT "Jan", 30x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - TEXT "Feb", 30x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+  - FRAME "Transaction details", 368x294px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Text", 368x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Transaction details", 310x24px, constraints left/top, fill #FFFFFF, text [Rubik SemiBold, 20px]
+      - TEXT "View All", 58x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+    - FRAME "Transaction", 368x250px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Dribbble", 368x55px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Logo", 55x55px, constraints left/top, fill image(hash: a6b84312816977385029a6eb14b698bcbc2abbe9), stroke #000000 1px
+        - FRAME "Text", 298x44px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 13", 298x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Dribbble", 218x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+            - TEXT "-$102,24", 80x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+          - FRAME "Frame 14", 298x19px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "13 jan 22", 238x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+            - TEXT "3:24 PM", 60x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - FRAME "Amazon", 368x55px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Logo", 55x55px, constraints left/top, fill image(hash: 3092dc561521fadf2ac841bcd7b81679c0ccf86d)
+        - FRAME "Text", 298x44px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 13", 298x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Amazon Shopping", 227x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+            - TEXT "-$32.24", 71x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+          - FRAME "Frame 14", 298x19px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "12 jan 22", 238x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+            - TEXT "2:35 PM", 60x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - FRAME "YouTube", 368x55px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Logo", 55x55px, constraints left/top, fill image(hash: 03087547bd9d3820cdc1516f63fc6a1e4a8b52a0)
+        - FRAME "Text", 298x44px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 13", 298x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "YouTube TV", 254x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+            - TEXT "-$20", 44x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+          - FRAME "Frame 14", 298x19px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "9 jan 22", 240x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+            - TEXT "6:10 PM", 58x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+      - FRAME "Paypal", 368x55px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Logo", 55x55px, constraints left/top, fill image(hash: f46413bcc0e9afbf7dacfcdba7882ea73daf4ea6)
+        - FRAME "Text", 298x44px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 13", 298x21px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Paypal", 254x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+            - TEXT "-$80", 44x21px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 18px]
+          - FRAME "Frame 14", 298x19px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "7 jan 22", 238x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+            - TEXT "7:00 PM", 60x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+  - FRAME "Total balance", 151x65px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Total balance", 99x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+    - TEXT "$1.924,35", 151x38px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 32px], [heading]
+  - FRAME "Tab bar", 388x66px, constraints left/top, fill #FFFFFF [decorative, ~15 shapes]
+
+Screen: Mobile app / Bank Cards
+- FRAME "Bank Cards", 428x926px, constraints left/top, radius 60px, fill #000040
+  - FRAME "Avatar + Text", 368x60px, horizontal pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Text", 308x36px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Bank Cards", 170x36px, constraints left/top, fill #FFFFFF, text [Rubik Bold, 30px], [heading]
+    - ELLIPSE "Avatar", 60x60px, constraints left/top, fill image(hash: 9bf0cf6b8c6954fd49b734b510d4395cbf1f54bc)
+  - FRAME "Total balance", 151x65px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Balance", 60x19px, constraints left/top, fill #B9B2C4, text [Rubik Regular, 16px]
+    - TEXT "$1.924,35", 151x38px, constraints left/top, fill #FFFFFF, text [Rubik Medium, 32px], [heading]
+  - FRAME "Cards", 601x468px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Card", 292.5x468px, constraints left/top, radius 50.87px
+      - RECTANGLE "Rectangle 2", 292.5x468px, constraints left/top, radius 50.87px, fill Градиент, stroke Обводка 2.54px
+      - RECTANGLE "Rectangle 4", 292.5x468px, constraints left/top, radius 50.87px, fill Градиент, stroke Обводка 2.54px
+      - REGULAR_POLYGON "Polygon 2", 737.86x737.86px, constraints left/top, radius 76.3px, fill #781CFF
+      - REGULAR_POLYGON "Polygon 1", 804.35x804.35px, constraints left/top, radius 76.3px, fill #D41E7F
+      - RECTANGLE "Rectangle 3", 292.5x468px, constraints left/top, radius 50.87px, fill gradient_linear(#20204D 0% | #1D1D55 100%), effect [background_blur 114.46px]
+      - RECTANGLE "Noise", 469.27x469.27px, constraints left/top, fill image(hash: 7a3db4b25df4765ca22c67f83ff7d529aad92943), opacity 20%
+      - RECTANGLE "Rectangle 6", 292.5x468px, constraints left/top, radius 50.87px, fill gradient_linear(#20204D 0% | #1D1D55 100%)
+      - RECTANGLE "Rectangle 5", 292.5x468px, constraints left/top, radius 50.87px, stroke Обводка 3.82px, opacity 50%
+      - FRAME "Card", 52.17x199px, vertical pad 0 0 0 0px gap 10.17px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "5489 7654 3210 7894", 24x199px, constraints left/top, fill #FFFFFF, text [Rubik Light, 20.35px]
+        - TEXT "04/24", 18x43px, constraints left/top, fill #FFFFFFB2, text [Rubik Light, 15.26px]
+      - GROUP "Mastercard", 34.72x53.39px, constraints left/top [decorative, ~4 shapes]
+      - VECTOR "Vector", 50.87x28.39px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF80
+    - FRAME "Card", 292.5x468px, constraints left/top, radius 50.87px
+      - RECTANGLE "Rectangle 2", 292.5x468px, constraints left/top, radius 50.87px, fill Градиент, stroke Обводка 2.54px
+      - RECTANGLE "Rectangle 4", 292.5x468px, constraints left/top, radius 50.87px, fill Градиент, stroke Обводка 2.54px
+      - REGULAR_POLYGON "Polygon 2", 737.86x737.86px, constraints left/top, radius 76.3px, fill #1CFF5B
+      - REGULAR_POLYGON "Polygon 1", 804.35x804.35px, constraints left/top, radius 76.3px, fill #1ED4CA
+      - RECTANGLE "Rectangle 3", 292.5x468px, constraints left/top, radius 50.87px, fill gradient_linear(#20204D 0% | #1D1D55 100%), effect [background_blur 114.46px]
+      - RECTANGLE "Noise", 469.27x469.27px, constraints left/top, fill image(hash: 7a3db4b25df4765ca22c67f83ff7d529aad92943), opacity 20%
+      - RECTANGLE "Rectangle 6", 292.5x468px, constraints left/top, radius 50.87px, fill gradient_linear(#20204D 0% | #1D1D55 100%)
+      - RECTANGLE "Rectangle 5", 292.5x468px, constraints left/top, radius 50.87px, stroke Обводка 3.82px, opacity 50%
+      - FRAME "Card", 52.17x201px, vertical pad 0 0 0 0px gap 10.17px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "4523 4785 3200 1234", 24x201px, constraints left/top, fill #FFFFFF, text [Rubik Light, 20.35px]
+        - TEXT "06/26", 18x43px, constraints left/top, fill #FFFFFFB2, text [Rubik Light, 15.26px]
+      - GROUP "Mastercard", 34.72x53.39px, constraints left/top [decorative, ~4 shapes]
+      - VECTOR "Vector", 50.87x28.39px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF80
+  - FRAME "Frame 30", 54x10px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - FRAME "Tab bar", 388x66px, constraints left/top, fill #FFFFFF [decorative, ~15 shapes]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

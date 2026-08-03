@@ -1,0 +1,1157 @@
+---
+name: youtube-mobile-app-uikit-community
+source_file: Youtube Mobile App UIKit (Community)
+source_page: All pages (3): Cover, Design, Component
+generated_at: 2026-07-25T09:13:16.014619+00:00
+---
+
+# Youtube Mobile App UIKit (Community) Design Guidelines
+
+## Source
+- Figma file: Youtube Mobile App UIKit (Community)
+- Figma page: All pages (3): Cover, Design, Component
+- Extracted at: 2026-07-25T09:13:16.014619+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Primary Color/ White: [#FFFFFF]
+- Black Dark Color/1: [#3B3B3B]
+- Primary Color/ Black: [#0A0A0A]
+- Primary Color/ Red: [#FF0000]
+- Black Dark Color/5: [#ECECEC]
+- Black Dark Color/2: [#6C6C6C]
+- Black Dark Color/4: [#ECECEC]
+- Red Dark Color/1: [#350000]
+- Red Light Color/4: [#FFCACA]
+- Red Dark Color/2: [#680000]
+- Red Light Color/3: [#FF9797]
+- Red Dark Color/3: [#9A0000]
+- Red Light Color/2: [#FF6565]
+- Red Dark Color/4: [#CD0000]
+- Red Light Color/1: [#FF3232]
+- Black Dark Color/3: [#9D9D9D]
+
+## Raw Colors (unstyled)
+- #000000: 285 uses
+- #FFFFFF: 231 uses
+- #C4C4C4: 124 uses
+- #030303: 32 uses
+- #00000052: 30 uses
+- #0A0A0A66: 26 uses
+- #7B61FF: 13 uses
+- #FFFFFF8F: 7 uses
+- #00000033: 6 uses
+- #000000A3: 6 uses
+- #075FDE: 5 uses
+- #000000B2: 4 uses
+- #0D0D0D: 4 uses
+- #FF0000: 4 uses
+- #FFFFFF52: 4 uses
+- #FFFFFF80: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Regular, 12px: 148 uses
+- Roboto Medium, 12px: 62 uses
+- Roboto Medium, 14px: 44 uses
+- Roboto Regular, 14px: 36 uses
+- Roboto Regular, 8px: 27 uses
+- Roboto Medium, 16px: 18 uses
+- Roboto Medium, 6.42px: 18 uses
+- Roboto Medium, 7.7px: 18 uses
+- Roboto Medium, 8px: 18 uses
+- Roboto Medium, 10px: 16 uses
+- Roboto Regular, 16px: 16 uses
+- Roboto Regular, 10px: 14 uses
+- Roboto Bold, 16px: 4 uses
+- Roboto Medium, 10.27px: 3 uses
+- Roboto Medium, 24px: 3 uses
+- Roboto Regular, 6.42px: 3 uses
+
+## Typography Hierarchy
+- 24px - Roboto Medium, 24px (raw)
+- 16px - Roboto Bold, 16px (raw)
+- 16px - Roboto Medium, 16px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 14px - Roboto Medium, 14px (raw)
+- 14px - Roboto Regular, 14px (raw)
+- 12px - Roboto Medium, 12px (raw)
+- 12px - Roboto Regular, 12px (raw)
+- 10.27px - Roboto Medium, 10.27px (raw)
+- 10px - Roboto Medium, 10px (raw)
+- 10px - Roboto Regular, 10px (raw)
+- 8px - Roboto Medium, 8px (raw)
+- 8px - Roboto Regular, 8px (raw)
+- 7.7px - Roboto Medium, 7.7px (raw)
+- 6.42px - Roboto Medium, 6.42px (raw)
+- 6.42px - Roboto Regular, 6.42px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Component 14
+- Component 13
+- Component 12
+- History
+- Camera
+- Component 4
+- Component 2
+- Component 1
+- Frame
+- Logo
+- icons
+
+## Component Specs
+- Component 14: size 32x32px | variants: Property 1: OFF/ON
+- Component 13: size 38x24px, fill #FFFFFF | variants: Property 1: OFF/ON
+- Component 12: size 132x32px, radius 8px, horizontal layout, padding 8 16 8 16px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Black Dark Color/5, text [Roboto Medium, 14px] | variants: Property 1: OFF/ON
+- History: size 51x19px, fill #FFFFFF, text [Roboto Regular, 16px] | variants: Property 1: Default
+- Camera: size 32x32px | variants: Property 1: OFF/ON
+- Component 4: size 38x30px, radius 24px, vertical layout, padding 8 12 8 12px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Black Dark Color/5, stroke Black Dark Color/4 1px, text [Roboto Regular, 12px] | variants: Property 1: OFF/ON
+- Component 2: size 30x26px, fill #FFFFFF | variants: Property 1: OFF/ON
+- Component 1: size 24x24px, fill #FFFFFF | variants: Property 1: OFF/ON
+- Frame: size 24x24px, fill #FFFFFF | variants: Property 1: OFF/ON
+- Logo: size 44x31.06px, fill #FFFFFF | variants: Property 1: OFF/ON
+- icons: size 24x24px, fill #FFFFFF | variants: Property 1: 1/10/11/12/13/14/15/16/17/18/19/2/20/21/22/23/24/25/26/27/28/29/3/30/31/32/33/34/35/36/37/38/39/4/40/41/42/43/44/45/46/47/48/49/5/50/51/52/53/54/55/6/7/8/9
+
+## Most-Used Styles
+- Primary Color/ Black: 201 uses
+- Primary Color/ White: 114 uses
+- Black Dark Color/2: 113 uses
+- Primary Color/ Red: 61 uses
+- Black Dark Color/4: 46 uses
+- Black Dark Color/5: 46 uses
+- Black Dark Color/1: 14 uses
+- Black Dark Color/3: 8 uses
+- Red Dark Color/1: 1 use
+- Red Dark Color/2: 1 use
+- Red Dark Color/3: 1 use
+- Red Dark Color/4: 1 use
+- Red Light Color/1: 1 use
+- Red Light Color/2: 1 use
+- Red Light Color/3: 1 use
+- Red Light Color/4: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1920x960px, constraints left/top, fill #F9F9F9
+  - INSTANCE "Logo", 597x421px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 3", 542.73x382.73px, constraints left/top
+      - FRAME "Frame 2", 542.73x382.73px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 542.73x382.73px, constraints scale/scale, fill #FF0000
+      - VECTOR "Vector", 158.03x175.42px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector 2", 2239.27x2287.33px, constraints left/top, stroke Black Dark Color/4 2px
+  - INSTANCE "Logo", 423x298px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 3", 384.55x270.91px, constraints left/top
+      - FRAME "Frame 2", 384.55x270.91px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 384.55x270.91px, constraints scale/scale, fill #FF0000, effect [inner_shadow 168px offset 0 4 #600000]
+      - VECTOR "Vector", 111.97x124.17px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 36px offset 0 16 #00000040]
+  - RECTANGLE "Rectangle 21", 262x566px, constraints left/top, radius 12px, fill image(hash: 8c36bbf4c35f5e02a2a79becb7ce1bf53209e302), stroke #FFFFFF8F 8px
+  - VECTOR "Vector 1", 1463.83x1413.77px, constraints left/top, stroke #FF0000 2px
+  - RECTANGLE "Rectangle 18", 263x567px, constraints left/top, radius 12px, fill image(hash: b1e4a3709e2836f6c2a42b0ac09938d11c4cc4a4), stroke #FFFFFF8F 8px
+  - RECTANGLE "Rectangle 22", 263x566px, constraints left/top, radius 12px, fill image(hash: 73e8f9e15b30d1471b40b45b8087da2050f91bde), stroke #FFFFFF8F 8px
+  - RECTANGLE "Rectangle 23", 263x567px, constraints left/top, radius 12px, fill image(hash: 23839aacf43c5412e35a817aa7de0f8de66a496e), stroke #FFFFFF8F 8px
+  - RECTANGLE "Rectangle 20", 263x567px, constraints left/top, radius 12px, fill image(hash: f6561a51b39c03c92eecd5722c8db955aa825c18), stroke #FFFFFF8F 8px
+  - RECTANGLE "Shadow", 262x567px, constraints left/top, radius 12px, fill #C1C3C5, effect [layer_blur 236.99px], opacity 70%
+  - RECTANGLE "Rectangle 17", 262x596px, constraints left/top, radius 12px, fill image(hash: 57a607a82f687fe1117876c8b4c2794051fff2cd), stroke #FFFFFF8F 8px
+  - RECTANGLE "Shadow", 262x567px, constraints left/top, radius 12px, fill #DADCDF, effect [layer_blur 236.99px], opacity 70%
+  - RECTANGLE "Rectangle 19", 263x566px, constraints left/top, radius 12px, fill image(hash: c833aec9269964b5e9c2ccdfe64db7e55f97385c), stroke #FFFFFF8F 8px
+  - FRAME "Frame 9", 288x388px, vertical pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 8", 288x167px, vertical pad 0 0 0 0px gap 25px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Logo", 288x65px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "image 19", 288x65px, constraints scale/scale, fill image(hash: 4d89a00a7848f66e9291878806f3c838dcee4b1a)
+      - TEXT "UI kit", 153x77px, constraints left/top, fill Primary Color/ Red, text [Roboto Bold, 64px], [heading]
+    - FRAME "Frame 7", 199x141px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Include The YT Files", 181x23px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 20px]
+      - FRAME "Frame 6", 199x100px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 3", 133x28px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "CheckCircle", 16x16px, constraints left/top
+            - VECTOR "Vector", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 13x13px, constraints scale/scale, fill Primary Color/ Red
+          - TEXT "Prototype", 105x28px, constraints left/top, fill Black Dark Color/1, text [Roboto Medium, 24px], [heading]
+        - FRAME "Frame 4", 199x28px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "CheckCircle", 16x16px, constraints left/top
+            - VECTOR "Vector", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 13x13px, constraints scale/scale, fill Primary Color/ Red
+          - TEXT "Layer organized", 171x28px, constraints left/top, fill Black Dark Color/1, text [Roboto Medium, 24px], [heading]
+        - FRAME "Frame 5", 154x28px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "CheckCircle", 16x16px, constraints left/top
+            - VECTOR "Vector", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 13x13px, constraints scale/scale, fill Primary Color/ Red
+          - TEXT "Component", 126x28px, constraints left/top, fill Black Dark Color/1, text [Roboto Medium, 24px], [heading]
+  - ELLIPSE "Ellipse 1", 41x41px, constraints left/top, fill #C4C4C42E
+  - ELLIPSE "Ellipse 2", 15x15px, constraints left/top, fill #C4C4C42E
+
+Screen: Design / Home 2
+- FRAME "Home 2", 360x800px, constraints left/top, fill Black Dark Color/5
+  - FRAME "Frame 25", 360x720px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 24", 360x949.14px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 9", 360x303px, vertical pad 0 0 20 0px gap 14px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 8", 336x54px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 312x54px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: bf9cb295a778f67b5c859a9108c1494aa79a20cf)
+            - FRAME "Frame 6", 264x54px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+      - FRAME "Frame 18", 360x327.14px, vertical pad 14 10 20 12px gap 14px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 16", 102x29.14px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 24x29.14px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "pngaaa 1", 20.57x25.71px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+          - FRAME "Frame 15", 70x19px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Storts", 44x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+            - TEXT "Beta", 22x12px, constraints left/top, fill Black Dark Color/3, text [Roboto Regular, 10px]
+        - FRAME "Frame 17", 348x250px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Story", 150x250px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 9", 150x250px, constraints left/top, fill #C4C4C4
+            - FRAME "Frame 13", 134x226px, vertical pad 0 0 0 0px gap 137px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Story", 150x250px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 9", 150x250px, constraints left/top, fill #C4C4C4
+            - FRAME "Frame 13", 134x226px, vertical pad 0 0 0 0px gap 137px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Story", 150x250px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 9", 150x250px, constraints left/top, fill #C4C4C4
+            - FRAME "Frame 13", 134x226px, vertical pad 0 0 0 0px gap 137px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Story", 150x250px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 9", 150x250px, constraints left/top, fill #C4C4C4
+            - FRAME "Frame 13", 134x226px, vertical pad 0 0 0 0px gap 137px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Story", 150x250px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 9", 150x250px, constraints left/top, fill #C4C4C4
+            - FRAME "Frame 13", 134x226px, vertical pad 0 0 0 0px gap 137px align min/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Story", 150x250px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle 9", 150x250px, constraints left/top, fill #C4C4C4
+            - FRAME "Frame 13", 134x226px, vertical pad 0 0 0 0px gap 137px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 19", 360x303px, vertical pad 0 0 20 0px gap 14px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 8", 336x54px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 312x54px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 8f760af1fc2848f95adfef7468267813bca835c5)
+            - FRAME "Frame 6", 264x54px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+    - FRAME "Frame 20", 360x303px, vertical pad 0 0 20 0px gap 14px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+      - FRAME "Frame 8", 336x54px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 312x54px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 451bcfc632e0054cf8a9850d86e71f225e2e7533)
+          - FRAME "Frame 6", 264x54px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "The Beauty of Existence - Heart Touching Nasheed", 264x32px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Frame 21", 360x303px, vertical pad 0 0 20 0px gap 14px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+      - FRAME "Frame 8", 336x54px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 312x54px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: d283badf259528ef3d4b76f5da77129efa4e1564)
+          - FRAME "Frame 6", 264x54px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "The Beauty of Existence - Heart Touching Nasheed", 264x32px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Frame 22", 360x303px, vertical pad 0 0 20 0px gap 14px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+      - FRAME "Frame 8", 336x54px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 312x54px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 1aedb1dda6f264083e0a6fbd4bba966bc3f73ac5)
+          - FRAME "Frame 6", 264x54px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "The Beauty of Existence - Heart Touching Nasheed", 264x32px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Frame 23", 360x303px, vertical pad 0 0 20 0px gap 14px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+      - FRAME "Frame 8", 336x54px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 312x54px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 32374b9040f715ab77e54213ebe0232aa3fee964)
+          - FRAME "Frame 6", 264x54px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "The Beauty of Existence - Heart Touching Nasheed", 264x32px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+  - FRAME "Frame 11", 360x56px, horizontal pad 10 12 10 12px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 10", 179x42px, horizontal pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 33x39px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 16x18px, constraints scale/scale
+            - VECTOR "Vector", 16x18px, constraints scale/scale, fill #030303
+        - TEXT "Home", 33x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - FRAME "Frame 2", 36x41px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Component 2", 30x26px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 3", 27.18x24.84px, constraints left/top, radius 0/0/0/0px
+            - BOOLEAN_OPERATION "Union", 27.18x24.84px, constraints left/top, fill #000000
+            - REGULAR_POLYGON "Polygon 1", 10.58x10.27px, constraints scale/scale, radius 0.5px, fill #000000
+        - TEXT "Shorts", 36x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - INSTANCE "Component 3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 2", 35x35px, constraints left/top
+          - VECTOR "Ellipse 1 (Stroke)", 35x35px, constraints scale/scale, fill #030303
+          - GROUP "Group 1", 21x21px, constraints left/top
+            - VECTOR "Line 1 (Stroke)", 21x2.62px, constraints scale/scale, fill #000000
+            - VECTOR "Line 2 (Stroke)", 2.62x21px, constraints scale/scale, fill #000000
+    - FRAME "Frame 3", 67x44px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Frame", 28x28px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 23.33x21px, constraints scale/scale
+          - VECTOR "Vector", 23.33x21px, constraints scale/scale, fill #030303
+      - TEXT "Subscription", 67x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - FRAME "Frame 4", 37x44px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Frame", 28x28px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 21x21px, constraints scale/scale
+          - VECTOR "Vector", 21x21px, constraints scale/scale, fill #030303
+      - TEXT "Library", 37x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - FRAME "Frame 23", 360x48.01px, vertical pad 10 10 10 12px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 20", 338x28px, horizontal pad 2 2 2 2px gap 107px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Logo", 90x20px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "image 19", 90x20px, constraints scale/scale, fill image(hash: 4d89a00a7848f66e9291878806f3c838dcee4b1a)
+      - FRAME "Frame 19", 132x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~7 shapes]
+    - LINE "Line 4", 0.01x0px, constraints left/top, stroke Black Dark Color/4 0.5px
+    - FRAME "Frame 22", 338x0.01px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Component 5", 89x32px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Black Dark Color/5
+        - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 13.33x13.33px, constraints scale/scale
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #030303
+        - TEXT "All", 47x16px, constraints left/top, fill #000000, text [Roboto Medium, 14px]
+      - LINE "Line 3", 0x20px, constraints left/top, stroke Black Dark Color/4 1px
+      - FRAME "Frame 21", 231x34px, horizontal pad 2 2 2 2px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Component 4", 38x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/1, stroke Black Dark Color/2 1px
+          - TEXT "All", 14x14px, constraints left/top, fill Primary Color/ White, text [Roboto Regular, 12px]
+        - INSTANCE "Component 5", 56x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+          - TEXT "All", 32x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+        - INSTANCE "Component 6", 57x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+          - TEXT "All", 33x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+        - INSTANCE "Component 7", 66x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+          - TEXT "All", 42x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+        - INSTANCE "Component 8", 56x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+          - TEXT "All", 32x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+        - INSTANCE "Component 9", 63x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+          - TEXT "All", 39x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+        - INSTANCE "Component 10", 68x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+          - TEXT "All", 44x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+        - INSTANCE "Component 11", 74x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+          - TEXT "All", 50x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+
+Screen: Design / View
+- FRAME "View", 360x800px, constraints left/top, fill Black Dark Color/5
+  - FRAME "Frame 21", 360x46px, horizontal pad 8 8 8 16px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Component 4", 38x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/1, stroke Black Dark Color/2 1px
+      - TEXT "All", 14x14px, constraints left/top, fill Primary Color/ White, text [Roboto Regular, 12px]
+    - INSTANCE "Component 5", 56x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 32x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 6", 57x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 33x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 7", 66x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 42x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 8", 56x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 32x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 9", 63x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 39x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 10", 68x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 44x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 11", 74x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 50x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - FRAME "Frame 105", 360x328px, vertical pad 16 0 8 0px gap 28px align min/center sizing W:fixed H:fixed, constraints left/top, fill Primary Color/ White
+    - FRAME "Frame 88", 336x93px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 87", 308x93px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "সীরাহ | রাসূলের ﷺ দেহের বর্ননা, নবুওয়াত ও রিসালাত লাভ, জিব্", 308x57px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 16px]
+        - TEXT "3,627 views • Premiered Jul 1, 2021 #shirat @Hzmohummad(s) #", 308x28px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+      - GROUP "CaretDown", 20x20px, constraints left/top
+        - VECTOR "Vector", 20x20px, constraints scale/scale
+        - VECTOR "Vector", 12.5x6.25px, constraints scale/scale, stroke Primary Color/ Black 1.5px
+    - FRAME "Frame 104", 360x183px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 94", 310x42px, horizontal pad 0 0 0 0px gap 36px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 89", 31x42px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 18x17px, constraints scale/scale
+          - TEXT "25.6K", 31x14px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 12px]
+        - FRAME "Frame 90", 24x42px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 18x17px, constraints scale/scale
+          - TEXT "65", 14x14px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 12px]
+        - FRAME "Frame 91", 31x42px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x18px, constraints scale/scale
+          - TEXT "Share", 31x14px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 12px]
+        - FRAME "Frame 92", 54x42px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Download", 54x14px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 12px]
+        - FRAME "Frame 93", 26x42px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 20x10px, constraints scale/scale
+          - TEXT "Save", 26x14px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 12px]
+      - LINE "Line 10", 360x0px, constraints left/top, stroke Black Dark Color/4 0.5px
+      - FRAME "Frame 98", 336.1x37px, horizontal pad 0 0 0 0px gap 84px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 97", 159x37px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 95", 36x36px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 12", 36x36px, constraints left/top, fill image(hash: aca993c14e7aed7670bc25a3651f41d7e847a68b)
+          - FRAME "Frame 96", 107x37px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Voice of Books", 107x19px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 16px]
+            - TEXT "289K subscibe", 79x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Regular, 12px]
+        - INSTANCE "Component 12", 106.1x32px, horizontal pad 8 16 8 16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Primary Color/ White
+          - TEXT "SUBSCRIBE", 74x16px, constraints left/top, fill Primary Color/ Red, text [Roboto Medium, 14px]
+          - FRAME "bx:bxs-bell-ring", 0.1x0.1px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 0.09x0.08px, constraints scale/scale, fill Primary Color/ Red
+      - LINE "Line 11", 360x0px, constraints left/top, stroke Black Dark Color/4 0.5px
+      - FRAME "Frame 103", 336x56px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 101", 336x16px, horizontal pad 0 0 0 0px gap 244px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Comments 149", 82x14px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 12px]
+          - FRAME "Frame 100", 10x16px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - FRAME "Frame 102", 331x28px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 99", 20x20px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 13", 20x20px, constraints left/top, fill #347A50
+            - TEXT "a", 7x9px, constraints left/top, fill #8ED4AA, text [Roboto Regular, 14px]
+          - TEXT "জাযাকাল্লাহ ভাইয়া আপনার এই মেহনত আল্লাহ কবুল করুক সম্ভব হলে ", 298x28px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 12px]
+  - FRAME "Frame 86", 360x230px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 24", 360x230px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 6", 316x0px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 8", 316x0px, constraints left/top, stroke #FFFFFF80 2px
+      - LINE "Line 9", 169x0px, constraints left/top, stroke Primary Color/ Red 2px
+    - FRAME "Frame 51", 36x16px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #000000B2
+      - TEXT "7:54", 20x12px, constraints left/top, fill Primary Color/ White, text [Roboto Medium, 10px]
+  - FRAME "Frame 110", 360x242px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+        - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: d50b1df49e786d169df7b31bb4ee970f60737c7c)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Frame 18", 360x204.1px, vertical pad 8 12 8 12px gap 8.98px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 16", 65.45x18.7px, horizontal pad 0 0 0 0px gap 5.13px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 14", 15.4x18.7px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 13.2x16.5px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+        - FRAME "Frame 15", 44.92x12.19px, horizontal pad 0 0 0 0px gap 2.57px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Storts", 28.23x12.19px, constraints left/top, fill #000000, text [Roboto Medium, 10.27px]
+          - TEXT "Beta", 14.12x7.7px, constraints left/top, fill Black Dark Color/3, text [Roboto Regular, 6.42px]
+      - FRAME "Frame 17", 348x160.42px, horizontal pad 0 0 0 0px gap 7.7px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 106", 360x492px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+            - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+          - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+        - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 03630c2b66d8713e55ec05d8ae6ed1fdfb0e39eb)
+            - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+      - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+            - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+          - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+        - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: f983ab84a4fbca35b96b7037134a15b54657bf7e)
+            - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+      - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+            - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+          - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+        - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 32374b9040f715ab77e54213ebe0232aa3fee964)
+            - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+      - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+            - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+          - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+        - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 0046ba01c982bdd8e8e39265c654b40a2e85ebbd)
+            - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+
+Screen: Design / OFF
+- FRAME "OFF", 360x230px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 24", 360x230px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Rectangle 25", 360x230px, constraints left/top, fill #C4C4C4
+  - GROUP "Group 6", 316x0px, constraints left/top, radius 0/0/0/0px
+    - LINE "Line 8", 316x0px, constraints left/top, stroke #FFFFFF80 2px
+    - LINE "Line 9", 169x0px, constraints left/top, stroke Primary Color/ Red 2px
+  - FRAME "Frame 51", 36x16px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #000000B2
+    - TEXT "7:54", 20x12px, constraints left/top, fill Primary Color/ White, text [Roboto Medium, 10px]
+  - FRAME "Frame 109", 327.67x24px, horizontal pad 0 0 0 0px gap 156px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "CaretDown", 20x20px, constraints left/top
+      - VECTOR "Vector", 20x20px, constraints scale/scale
+      - VECTOR "Vector", 12.5x6.25px, constraints scale/scale, stroke Primary Color/ White 1.5px
+    - FRAME "Frame 108", 151.67x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Component 13", 31.67x20px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 26", 26.67x10px, constraints scale/scale, radius 29px, fill #FFFFFF52
+        - FRAME "ant-design:play-circle-filled", 0.08x0.08px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "Rectangle 26", 0.04x0.04px, constraints scale/scale, fill Primary Color/ Black
+          - VECTOR "Vector", 0.07x0.07px, constraints scale/scale, fill #FFFFFF
+        - FRAME "eva:pause-circle-fill", 20x20px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "Rectangle 27", 9.17x9.17px, constraints scale/scale, fill Primary Color/ White
+          - VECTOR "Vector", 17.5x17.5px, constraints scale/scale, fill Black Dark Color/1
+      - FRAME "Frame 71", 24x20px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+      - FRAME "Frame 107", 24x20px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 7", 20x16px, constraints left/top
+          - VECTOR "Rectangle 28 (Stroke)", 20x16px, constraints center/center, fill Primary Color/ White
+          - VECTOR "CC", 13x8px, constraints center/center, fill Primary Color/ White
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 3x15px, constraints scale/scale
+          - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ White
+  - INSTANCE "Component 14", 36x36px, constraints left/top
+    - VECTOR "Vector", 36x36px, constraints scale/scale
+    - VECTOR "Vector", 24.75x29.25px, constraints scale/scale, fill Primary Color/ White
+
+Screen: Design / ON
+- FRAME "ON", 360x230px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 24", 360x230px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Rectangle 25", 360x230px, constraints left/top, fill #C4C4C4
+  - GROUP "Group 6", 316x0px, constraints left/top, radius 0/0/0/0px
+    - LINE "Line 8", 316x0px, constraints left/top, stroke #FFFFFF80 2px
+    - LINE "Line 9", 169x0px, constraints left/top, stroke Primary Color/ Red 2px
+  - FRAME "Frame 51", 36x16px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #000000B2
+    - TEXT "7:54", 20x12px, constraints left/top, fill Primary Color/ White, text [Roboto Medium, 10px]
+  - FRAME "Frame 109", 327.67x24px, horizontal pad 0 0 0 0px gap 156px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "CaretDown", 20x20px, constraints left/top
+      - VECTOR "Vector", 20x20px, constraints scale/scale
+      - VECTOR "Vector", 12.5x6.25px, constraints scale/scale, stroke Primary Color/ White 1.5px
+    - FRAME "Frame 108", 151.67x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Component 13", 31.67x20px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 26", 26.67x10px, constraints scale/scale, radius 29px, fill #FFFFFF52
+        - FRAME "ant-design:play-circle-filled", 0.08x0.08px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "Rectangle 26", 0.04x0.04px, constraints scale/scale, fill Primary Color/ Black
+          - VECTOR "Vector", 0.07x0.07px, constraints scale/scale, fill #FFFFFF
+        - FRAME "eva:pause-circle-fill", 20x20px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "Rectangle 27", 9.17x9.17px, constraints scale/scale, fill Primary Color/ White
+          - VECTOR "Vector", 17.5x17.5px, constraints scale/scale, fill Black Dark Color/1
+      - FRAME "Frame 71", 24x20px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+      - FRAME "Frame 107", 24x20px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 7", 20x16px, constraints left/top
+          - VECTOR "Rectangle 28 (Stroke)", 20x16px, constraints center/center, fill Primary Color/ White
+          - VECTOR "CC", 13x8px, constraints center/center, fill Primary Color/ White
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 3x15px, constraints scale/scale
+          - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ White
+  - INSTANCE "Component 14", 36x36px, constraints left/top
+    - VECTOR "Vector", 36x36px, constraints scale/scale
+    - VECTOR "Vector", 24.75x27px, constraints scale/scale, fill Primary Color/ White
+
+Screen: Design / View
+- FRAME "View", 360x800px, constraints left/top, fill Black Dark Color/5
+  - FRAME "Frame 21", 360x46px, horizontal pad 8 8 8 16px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Component 4", 38x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/1, stroke Black Dark Color/2 1px
+      - TEXT "All", 14x14px, constraints left/top, fill Primary Color/ White, text [Roboto Regular, 12px]
+    - INSTANCE "Component 5", 56x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 32x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 6", 57x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 33x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 7", 66x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 42x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 8", 56x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 32x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 9", 63x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 39x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 10", 68x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 44x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Component 11", 74x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+      - TEXT "All", 50x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - FRAME "Frame 105", 360x317px, vertical pad 16 0 8 0px gap 28px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, opacity 0%
+    - FRAME "Frame 88", 336x93px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 87", 308x93px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "সীরাহ | রাসূলের ﷺ দেহের বর্ননা, নবুওয়াত ও রিসালাত লাভ, জিব্", 308x57px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 16px]
+        - TEXT "3,627 views • Premiered Jul 1, 2021 #shirat @Hzmohummad(s) #", 308x28px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+      - GROUP "CaretDown", 20x20px, constraints left/top
+        - VECTOR "Vector", 20x20px, constraints scale/scale
+        - VECTOR "Vector", 12.5x6.25px, constraints scale/scale, stroke #000000 1.5px
+    - FRAME "Frame 104", 360x172px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 94", 289x40px, horizontal pad 0 0 0 0px gap 36px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 89", 26x40px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 18x17px, constraints scale/scale
+          - TEXT "25.6K", 26x12px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+        - FRAME "Frame 90", 24x40px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 18x17px, constraints scale/scale
+          - TEXT "65", 12x12px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+        - FRAME "Frame 91", 26x40px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 20x18px, constraints scale/scale
+          - TEXT "Share", 26x12px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+        - FRAME "Frame 92", 45x40px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Download", 45x12px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+        - FRAME "Frame 93", 24x40px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 20x10px, constraints scale/scale
+          - TEXT "Save", 22x12px, constraints left/top, fill #000000, text [Roboto Regular, 10px]
+      - LINE "Line 10", 360x0px, constraints left/top, stroke Black Dark Color/4 0.5px
+      - FRAME "Frame 98", 336.1x36px, horizontal pad 0 0 0 0px gap 84px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 97", 146x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 95", 36x36px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 12", 36x36px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 96", 94x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Voice of Books", 94x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 14px]
+            - TEXT "289K subscibe", 66x12px, constraints left/top, fill Black Dark Color/2, text [Roboto Regular, 10px]
+        - INSTANCE "Component 12", 106.1x32px, horizontal pad 8 16 8 16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Primary Color/ White
+          - TEXT "SUBSCRIBE", 74x16px, constraints left/top, fill Primary Color/ Red, text [Roboto Medium, 14px]
+          - FRAME "bx:bxs-bell-ring", 0.1x0.1px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 0.09x0.08px, constraints scale/scale, fill Primary Color/ Red
+      - LINE "Line 11", 360x0px, constraints left/top, stroke Black Dark Color/4 0.5px
+      - FRAME "Frame 103", 336x48px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 101", 336x16px, horizontal pad 0 0 0 0px gap 244px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Comments 149", 82x14px, constraints left/top, fill Primary Color/ Black, text [Roboto Regular, 12px]
+          - FRAME "Frame 100", 10x16px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - FRAME "Frame 102", 331x20px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 99", 20x20px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 13", 20x20px, constraints left/top, fill #347A50
+            - TEXT "a", 7x9px, constraints left/top, fill #8ED4AA, text [Roboto Regular, 14px]
+          - TEXT "জাযাকাল্লাহ ভাইয়া আপনার এই মেহনত আল্লাহ কবুল করুক সম্ভব হলে ", 298x18px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+  - FRAME "Frame 86", 360x230px, constraints left/top, fill image(hash: 27b9bad340770f781c7f197ccbdb190ab289d897)
+    - RECTANGLE "Rectangle 24", 360x230px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 6", 316x0px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 8", 316x0px, constraints left/top, stroke #FFFFFF80 2px
+      - LINE "Line 9", 169x0px, constraints left/top, stroke Primary Color/ Red 2px
+    - FRAME "Frame 51", 36x16px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #000000B2
+      - TEXT "7:54", 20x12px, constraints left/top, fill Primary Color/ White, text [Roboto Medium, 10px]
+  - FRAME "Frame 110", 360x524px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+        - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: b093b4f487f4243192df8654fe980c4f4f55b1ac)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Frame 18", 360x204.1px, vertical pad 8 12 8 12px gap 8.98px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 16", 65.45x18.7px, horizontal pad 0 0 0 0px gap 5.13px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 14", 15.4x18.7px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 13.2x16.5px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+        - FRAME "Frame 15", 44.92x12.19px, horizontal pad 0 0 0 0px gap 2.57px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Storts", 28.23x12.19px, constraints left/top, fill #000000, text [Roboto Medium, 10.27px]
+          - TEXT "Beta", 14.12x7.7px, constraints left/top, fill Black Dark Color/3, text [Roboto Regular, 6.42px]
+      - FRAME "Frame 17", 348x160.42px, horizontal pad 0 0 0 0px gap 7.7px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story", 96.25x160.42px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 96.25x160.42px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 13", 85.98x145.02px, vertical pad 0 0 0 0px gap 87.91px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 15.4x15.4px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 12", 85.98x41.71px, vertical pad 0 0 0 0px gap 5.13px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 106", 360x492px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+            - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+          - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+        - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 7f6728a27b7102cc9900de67f82d2e0a7d2ec696)
+            - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+      - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+            - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+          - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+        - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 95951514c9f5f0ea361df69ba735e384f0e0dea8)
+            - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+      - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+            - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+          - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+        - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: b162403fb519e39d21e0779a3c5d25f50a35e578)
+            - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+      - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+          - FRAME "Frame 51", 32x13px, horizontal pad 2 8 2 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+            - TEXT "0:54", 16x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+          - LINE "Line 7", 54x0px, constraints left/top, stroke Primary Color/ Red 2px
+        - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 0da48f48217726cd1ea2309493e1aee27c46eb49)
+            - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 3x15px, constraints scale/scale
+
+Screen: Design / Subscription
+- FRAME "Subscription", 360x800px, constraints left/top, fill Black Dark Color/5
+  - FRAME "Frame 53", 360x547px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 51x14px, horizontal pad 2 4 2 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 8x10px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+          - TEXT "SHORTS", 31x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 89d8f90861fade7f77d583330b49efe63af25a03)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 51x14px, horizontal pad 2 4 2 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 8x10px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+          - TEXT "SHORTS", 31x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 6e358d611dc4d76319d6cc8a353f0c67c2bdf4e6)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 51x14px, horizontal pad 2 4 2 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 8x10px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+          - TEXT "SHORTS", 31x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: d5a7ae850d87a026699f4f08e275f4617fc5eed2)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 51x14px, horizontal pad 2 4 2 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 8x10px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+          - TEXT "SHORTS", 31x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: dac67a820d98d9f277ab24383351bcf4cca0848a)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+  - FRAME "Frame 11", 360x56px, horizontal pad 10 12 10 12px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 10", 187x42px, horizontal pad 0 0 0 0px gap 38px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 33x39px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 16x18px, constraints scale/scale
+            - VECTOR "Vector", 16x18px, constraints scale/scale, fill #000000
+        - TEXT "Home", 33x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - FRAME "Frame 2", 36x41px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Component 2", 30x26px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 3", 27.18x24.84px, constraints left/top, radius 0/0/0/0px
+            - BOOLEAN_OPERATION "Union", 27.18x24.84px, constraints left/top, fill #000000
+            - REGULAR_POLYGON "Polygon 1", 10.58x10.27px, constraints scale/scale, radius 0.5px, fill #000000
+        - TEXT "Shorts", 36x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - INSTANCE "Component 3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 2", 35x35px, constraints left/top
+          - VECTOR "Ellipse 1 (Stroke)", 35x35px, constraints scale/scale, fill #030303
+          - GROUP "Group 1", 21x21px, constraints left/top
+            - VECTOR "Line 1 (Stroke)", 21x2.62px, constraints scale/scale, fill #000000
+            - VECTOR "Line 2 (Stroke)", 2.62x21px, constraints scale/scale, fill #000000
+    - FRAME "Frame 3", 67x44px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Frame", 28x28px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 23.33x21px, constraints scale/scale
+          - VECTOR "Vector", 23.33x21px, constraints scale/scale, fill #000000
+      - TEXT "Subscription", 67x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - FRAME "Frame 4", 37x44px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Frame", 28x28px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 21x21px, constraints scale/scale
+          - VECTOR "Vector", 21x21px, constraints scale/scale, fill #030303
+      - TEXT "Library", 37x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - FRAME "Frame 23", 360x221px, vertical pad 10 10 10 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 20", 334x40px, horizontal pad 8 2 8 2px gap 107px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Logo", 90x20px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "image 19", 90x20px, constraints scale/scale, fill image(hash: 4d89a00a7848f66e9291878806f3c838dcee4b1a)
+      - FRAME "Frame 19", 132x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~7 shapes]
+    - LINE "Line 4", 334x1px, constraints left/top, stroke Black Dark Color/4 0.5px
+    - FRAME "Frame 50", 344x92px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 46", 70x92px, constraints left/top
+        - FRAME "Frame 45", 56x56px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 7", 56x56px, constraints left/top, fill image(hash: 5ed789fc1a9edefa8e1fef4d1d37e2bb82208620)
+          - ELLIPSE "Ellipse 8", 12x12px, constraints left/top, fill #075FDE, stroke #FFFFFF 1px
+        - TEXT "Like Nastya", 62x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Regular, 12px]
+      - FRAME "Frame 47", 70x92px, constraints left/top
+        - FRAME "Frame 45", 56x56px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 7", 56x56px, constraints left/top, fill image(hash: 30b1612ca844d851f33dbc86e2e1b1a558d05f1f)
+          - ELLIPSE "Ellipse 8", 12x12px, constraints left/top, fill #075FDE, stroke #FFFFFF 1px
+        - TEXT "Bassera", 62x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Regular, 12px]
+      - FRAME "Frame 48", 70x92px, constraints left/top
+        - FRAME "Frame 45", 56x56px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 7", 56x56px, constraints left/top, fill image(hash: 8649b57f1f921ffe66f4088d202707dba69b7504)
+          - ELLIPSE "Ellipse 8", 12x12px, constraints left/top, fill #075FDE, stroke #FFFFFF 1px
+        - TEXT "Alor Path", 62x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Regular, 12px]
+      - FRAME "Frame 49", 70x92px, constraints left/top
+        - FRAME "Frame 45", 56x56px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 7", 56x56px, constraints left/top, fill image(hash: 00d0e47e77daec40d3be8f21744d54bdd8070e49)
+          - ELLIPSE "Ellipse 8", 12x12px, constraints left/top, fill #075FDE, stroke #FFFFFF 1px
+        - TEXT "Rain Drop..", 62x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Regular, 12px]
+      - FRAME "Frame 45", 56x56px, constraints left/top, fill #FFFFFF
+        - TEXT "All", 19x19px, constraints left/top, fill #075FDE, text [Roboto Medium, 16px]
+    - LINE "Line 5", 334x2px, constraints left/top, stroke Black Dark Color/4 0.5px
+    - FRAME "Frame 21", 362x34px, constraints left/top
+      - INSTANCE "Component 4", 38x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/1, stroke Black Dark Color/2 1px
+        - TEXT "All", 14x14px, constraints left/top, fill Primary Color/ White, text [Roboto Regular, 12px]
+      - INSTANCE "Component 5", 57x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+        - TEXT "All", 33x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - INSTANCE "Component 6", 84x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+        - TEXT "All", 60x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - INSTANCE "Component 7", 91x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+        - TEXT "All", 67x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - INSTANCE "Component 8", 122x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+        - TEXT "All", 98x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - INSTANCE "Component 9", 88x30px, vertical pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill Black Dark Color/5, stroke Black Dark Color/4 1px
+        - TEXT "All", 64x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+
+Screen: Design / Subscription
+- FRAME "Subscription", 360x800px, constraints left/top, fill Black Dark Color/5
+  - FRAME "Frame 53", 360x720px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 51x14px, horizontal pad 2 4 2 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 8x10px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+          - TEXT "SHORTS", 31x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: b106779eadbe0bcffa30e3e1fc3fd005dddb9bd4)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 51x14px, horizontal pad 2 4 2 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 8x10px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+          - TEXT "SHORTS", 31x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 505023315d14e9f19a3ac43e28074ad9bcf5f58f)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 51x14px, horizontal pad 2 4 2 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 8x10px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+          - TEXT "SHORTS", 31x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: dd20499c93b7400b35983147d849268bea5d77e6)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Content", 360x289px, vertical pad 0 0 20 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 52", 360x215px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 360x215px, constraints left/top, fill #C4C4C4
+        - FRAME "Frame 51", 51x14px, horizontal pad 2 4 2 4px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - RECTANGLE "pngaaa 1", 8x10px, constraints scale/scale, fill image(hash: c51271539e28c46dbf10d02cf38d537f66e298da)
+          - TEXT "SHORTS", 31x9px, constraints left/top, fill #000000, text [Roboto Medium, 8px]
+      - FRAME "Frame 8", 336x38px, horizontal pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 309x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 4", 36x36px, constraints left/top, fill image(hash: 130f700603dd6cc72bd4efcded7dbaff4356bb4b)
+          - FRAME "Frame 6", 264x38px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heart Touching Nasheed #Shorts", 264x16px, constraints left/top, fill Primary Color/ Black, text [Roboto Medium, 14px]
+            - TEXT "19,210,251 viewsJul • 1, 2016", 261x14px, constraints left/top, fill Black Dark Color/2, text [Roboto Medium, 12px]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 3x15px, constraints scale/scale
+            - VECTOR "Vector", 3x15px, constraints scale/scale, fill Primary Color/ Black
+  - FRAME "Frame 11", 360x56px, horizontal pad 10 12 10 12px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 10", 187x42px, horizontal pad 0 0 0 0px gap 38px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 33x39px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 16x18px, constraints scale/scale
+            - VECTOR "Vector", 16x18px, constraints scale/scale, fill #000000
+        - TEXT "Home", 33x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - FRAME "Frame 2", 36x41px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Component 2", 30x26px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 3", 27.18x24.84px, constraints left/top, radius 0/0/0/0px
+            - BOOLEAN_OPERATION "Union", 27.18x24.84px, constraints left/top, fill #000000
+            - REGULAR_POLYGON "Polygon 1", 10.58x10.27px, constraints scale/scale, radius 0.5px, fill #000000
+        - TEXT "Shorts", 36x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - INSTANCE "Component 3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 2", 35x35px, constraints left/top
+          - VECTOR "Ellipse 1 (Stroke)", 35x35px, constraints scale/scale, fill #030303
+          - GROUP "Group 1", 21x21px, constraints left/top
+            - VECTOR "Line 1 (Stroke)", 21x2.62px, constraints scale/scale, fill #000000
+            - VECTOR "Line 2 (Stroke)", 2.62x21px, constraints scale/scale, fill #000000
+    - FRAME "Frame 3", 67x44px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Frame", 28x28px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 23.33x21px, constraints scale/scale
+          - VECTOR "Vector", 23.33x21px, constraints scale/scale, fill #000000
+      - TEXT "Subscription", 67x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - FRAME "Frame 4", 37x44px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Frame", 28x28px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 21x21px, constraints scale/scale
+          - VECTOR "Vector", 21x21px, constraints scale/scale, fill #030303
+      - TEXT "Library", 37x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - FRAME "Frame 23", 360x48px, vertical pad 6 10 10 12px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 20", 336x34px, horizontal pad 8 2 2 2px gap 107px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Logo", 90x20px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "image 19", 90x20px, constraints scale/scale, fill image(hash: 4d89a00a7848f66e9291878806f3c838dcee4b1a)
+      - FRAME "Frame 19", 132x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~7 shapes]
+
+Screen: Design / Libray
+- FRAME "Libray", 360x800px, constraints left/top, fill Black Dark Color/5
+  - FRAME "Frame 11", 360x56px, horizontal pad 10 12 10 12px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 10", 187x42px, horizontal pad 0 0 0 0px gap 38px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 33x39px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 16x18px, constraints scale/scale
+            - VECTOR "Vector", 16x18px, constraints scale/scale, fill #000000
+        - TEXT "Home", 33x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - FRAME "Frame 2", 36x41px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Component 2", 30x26px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 3", 27.18x24.84px, constraints left/top, radius 0/0/0/0px
+            - BOOLEAN_OPERATION "Union", 27.18x24.84px, constraints left/top, fill #000000
+            - REGULAR_POLYGON "Polygon 1", 10.58x10.27px, constraints scale/scale, radius 0.5px, fill #000000
+        - TEXT "Shorts", 36x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+      - INSTANCE "Component 3", 42x42px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 2", 35x35px, constraints left/top
+          - VECTOR "Ellipse 1 (Stroke)", 35x35px, constraints scale/scale, fill #030303
+          - GROUP "Group 1", 21x21px, constraints left/top
+            - VECTOR "Line 1 (Stroke)", 21x2.62px, constraints scale/scale, fill #000000
+            - VECTOR "Line 2 (Stroke)", 2.62x21px, constraints scale/scale, fill #000000
+    - FRAME "Frame 3", 67x44px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Frame", 28x28px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 23.33x21px, constraints scale/scale
+          - VECTOR "Vector", 23.33x21px, constraints scale/scale, fill #030303
+      - TEXT "Subscription", 67x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - FRAME "Frame 4", 37x44px, vertical pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Frame", 28x28px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 21x21px, constraints scale/scale
+          - VECTOR "Vector", 21x21px, constraints scale/scale, fill #000000
+      - TEXT "Library", 37x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - FRAME "Frame 23", 360x48px, vertical pad 6 10 10 12px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 20", 336x34px, horizontal pad 8 2 2 2px gap 107px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Logo", 90x20px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "image 19", 90x20px, constraints scale/scale, fill image(hash: 4d89a00a7848f66e9291878806f3c838dcee4b1a)
+      - FRAME "Frame 19", 132x24px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~7 shapes]
+  - FRAME "Frame 55", 360x208.68px, vertical pad 12 0 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Recent", 50x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - FRAME "History", 352x161.68px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Content", 156x161.68px, vertical pad 4 4 8 4px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 148x88.39px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 148x88.39px, constraints left/top, fill #C4C4C4
+          - RECTANGLE "Rectangle 20", 148x4px, constraints left/top, fill Primary Color/ Red
+          - FRAME "Frame 54", 28x14px, horizontal pad 1 4 1 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #000000A3
+            - TEXT "0:50", 20x12px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 10px]
+        - FRAME "Frame 8", 132x49.29px, horizontal pad 0 0 0 0px gap 1.23px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 127.03x49.29px, horizontal pad 0 0 0 0px gap 4.93px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 108.53x49.29px, vertical pad 0 0 0 0px gap 3.29px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 2x10px, constraints scale/scale
+      - FRAME "Content", 156x161.68px, vertical pad 4 4 8 4px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 148x88.39px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 148x88.39px, constraints left/top, fill #C4C4C4
+          - RECTANGLE "Rectangle 20", 148x4px, constraints left/top, fill Primary Color/ Red
+          - FRAME "Frame 54", 28x14px, horizontal pad 1 4 1 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #000000A3
+            - TEXT "0:50", 20x12px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 10px]
+        - FRAME "Frame 8", 132x49.29px, horizontal pad 0 0 0 0px gap 1.23px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 127.03x49.29px, horizontal pad 0 0 0 0px gap 4.93px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 108.53x49.29px, vertical pad 0 0 0 0px gap 3.29px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 2x10px, constraints scale/scale
+      - FRAME "Content", 156x161.68px, vertical pad 4 4 8 4px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 148x88.39px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 148x88.39px, constraints left/top, fill #C4C4C4
+          - RECTANGLE "Rectangle 20", 148x4px, constraints left/top, fill Primary Color/ Red
+          - FRAME "Frame 54", 28x14px, horizontal pad 1 4 1 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #000000A3
+            - TEXT "0:50", 20x12px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 10px]
+        - FRAME "Frame 8", 132x49.29px, horizontal pad 0 0 0 0px gap 1.23px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 127.03x49.29px, horizontal pad 0 0 0 0px gap 4.93px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 108.53x49.29px, vertical pad 0 0 0 0px gap 3.29px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 2x10px, constraints scale/scale
+      - FRAME "Content", 156x161.68px, vertical pad 4 4 8 4px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 148x88.39px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 148x88.39px, constraints left/top, fill #C4C4C4
+          - RECTANGLE "Rectangle 20", 148x4px, constraints left/top, fill Primary Color/ Red
+          - FRAME "Frame 54", 28x14px, horizontal pad 1 4 1 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #000000A3
+            - TEXT "0:50", 20x12px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 10px]
+        - FRAME "Frame 8", 132x49.29px, horizontal pad 0 0 0 0px gap 1.23px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 127.03x49.29px, horizontal pad 0 0 0 0px gap 4.93px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 108.53x49.29px, vertical pad 0 0 0 0px gap 3.29px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 2x10px, constraints scale/scale
+      - FRAME "Content", 156x161.68px, vertical pad 4 4 8 4px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 148x88.39px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 148x88.39px, constraints left/top, fill #C4C4C4
+          - RECTANGLE "Rectangle 20", 148x4px, constraints left/top, fill Primary Color/ Red
+          - FRAME "Frame 54", 28x14px, horizontal pad 1 4 1 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #000000A3
+            - TEXT "0:50", 20x12px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 10px]
+        - FRAME "Frame 8", 132x49.29px, horizontal pad 0 0 0 0px gap 1.23px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 127.03x49.29px, horizontal pad 0 0 0 0px gap 4.93px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 108.53x49.29px, vertical pad 0 0 0 0px gap 3.29px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 2x10px, constraints scale/scale
+      - FRAME "Content", 156x161.68px, vertical pad 4 4 8 4px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 52", 148x88.39px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 148x88.39px, constraints left/top, fill #C4C4C4
+          - RECTANGLE "Rectangle 20", 148x4px, constraints left/top, fill Primary Color/ Red
+          - FRAME "Frame 54", 28x14px, horizontal pad 1 4 1 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #000000A3
+            - TEXT "0:50", 20x12px, constraints left/top, fill #FFFFFF, text [Roboto Regular, 10px]
+        - FRAME "Frame 8", 132x49.29px, horizontal pad 0 0 0 0px gap 1.23px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 127.03x49.29px, horizontal pad 0 0 0 0px gap 4.93px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 108.53x49.29px, vertical pad 0 0 0 0px gap 3.29px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 2x10px, constraints scale/scale
+  - FRAME "Frame 64", 360x286px, vertical pad 20 12 20 12px gap 20px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 56", 106x32px, horizontal pad 4 4 4 6px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20.04x20px, constraints scale/scale
+          - VECTOR "Vector", 20.04x20px, constraints scale/scale, fill #000000
+      - INSTANCE "History", 51x19px, constraints left/top, fill #FFFFFF
+        - TEXT "History", 51x19px, constraints scale/scale, fill #000000, text [Roboto Regular, 16px]
+    - FRAME "Frame 57", 138x32px, horizontal pad 4 4 4 4px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 18x18px, constraints scale/scale
+          - VECTOR "Vector", 18x18px, constraints scale/scale, fill #000000
+      - INSTANCE "History", 86x19px, constraints left/top, fill #FFFFFF
+        - TEXT "History", 83x19px, constraints scale/scale, fill #000000, text [Roboto Regular, 16px]
+    - FRAME "Frame 62", 336x35px, horizontal pad 0 0 0 0px gap 184px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 61", 128x35px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 28x24.89px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - FRAME "Frame 59", 80x35px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Downloads", 80x19px, constraints scale/scale, fill Primary Color/ Black, text [Roboto Regular, 16px]
+          - TEXT "67 videos", 52x14px, constraints scale/scale, fill Black Dark Color/2, text [Roboto Regular, 12px]
+      - GROUP "CheckCircle", 24x24px, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill Primary Color/ Black
+    - FRAME "Frame 63", 138x32px, horizontal pad 4 4 4 4px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "FilmStrip", 24x24px, constraints left/top [decorative, ~10 shapes]
+      - INSTANCE "History", 86x19px, constraints left/top, fill #FFFFFF
+        - TEXT "History", 88x19px, constraints scale/scale, fill #000000, text [Roboto Regular, 16px]
+    - FRAME "Frame 60", 157x35px, horizontal pad 0 0 0 6px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20x20px, constraints scale/scale
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #000000
+      - FRAME "Frame 59", 107x35px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "History", 81x19px, constraints scale/scale, fill #000000, text [Roboto Regular, 16px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

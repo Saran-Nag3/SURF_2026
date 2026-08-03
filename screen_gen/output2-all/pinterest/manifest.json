@@ -1,0 +1,48 @@
+{
+  "company": "pinterest",
+  "source": "/Users/sarannagubandi/downloads/awesome/pinterest.md",
+  "platform": "android",
+  "device": "Galaxy S23",
+  "viewport_px": [
+    360,
+    780
+  ],
+  "output_px": [
+    1080,
+    2340
+  ],
+  "paradigm_detected": "web marketing/search experience with a componentized design system, inferred from the sticky desktop nav, hero/feature cards, search masonry pages, and explicitly noted lack of captured mobile app screens.",
+  "self_check": "All five screens are translated into single-column Android layouts with app UI starting at the top, touch-only controls, no desktop/web residue, and the warm cream surfaces, Pin Sans typography, 16/32/pill radii, masonry pins, and reserved red accent preserved.",
+  "screens": [
+    {
+      "name": "Home",
+      "kind": "HOME FEED",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "Saved boards",
+      "kind": "LIBRARY LIST",
+      "png": "screen_2_library-list.png",
+      "html": "screen_2_library-list.html"
+    },
+    {
+      "name": "Search",
+      "kind": "SEARCH BROWSE",
+      "png": "screen_3_search-browse.png",
+      "html": "screen_3_search-browse.html"
+    },
+    {
+      "name": "Settings",
+      "kind": "SETTINGS",
+      "png": "screen_4_settings.png",
+      "html": "screen_4_settings.html"
+    },
+    {
+      "name": "Create board",
+      "kind": "CREATE FORM",
+      "png": "screen_5_create-form.png",
+      "html": "screen_5_create-form.html"
+    }
+  ]
+}

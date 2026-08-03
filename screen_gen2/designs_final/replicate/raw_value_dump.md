@@ -1,0 +1,342 @@
+---
+name: piggyvest-replicate-web-and-mobile-design-community
+source_file: PiggyVest Replicate Web and Mobile Design (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:55:29.909082+00:00
+---
+
+# PiggyVest Replicate Web and Mobile Design (Community) Design Guidelines
+
+## Source
+- Figma file: PiggyVest Replicate Web and Mobile Design (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:55:29.909082+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Label Color/Light/Primary: [#000000]
+- Label Color/Dark/Primary: [#FFFFFF]
+- System Background/Dark Elevated/Primary: [#1C1C1E]
+- Main: [#0C1825]
+- White: [#FFFFFF]
+- Green: none
+- Part colors (Blue): [#C1E1FB]
+- Blue: none
+
+## Raw Colors (unstyled)
+- #464F59: 66 uses
+- #000000: 24 uses
+- #0C1825: 23 uses
+- #F6EEFD: 22 uses
+- #00000000: 17 uses
+- #F9F9F9: 16 uses
+- #FFFFFF: 10 uses
+- #BBBBBB: 9 uses
+- #287AF2: 8 uses
+- #DFDFDF: 8 uses
+- #DADADA: 7 uses
+- #0D60D8: 6 uses
+- #003399: 4 uses
+- #00D3FF: 4 uses
+- #00EE76: 4 uses
+- #61B3FE: 4 uses
+- #B3B0B0: 4 uses
+- #D9D9D9: 4 uses
+- #E0EFFF: 4 uses
+- #E3F5FF: 4 uses
+- #E4FFF1: 4 uses
+- #E5288E: 4 uses
+- #F43249: 4 uses
+- #FDE7F5: 4 uses
+- #FFD900: 4 uses
+
+## Typography Tokens
+- Body/Bold: SF Pro Text Semibold (600), 17px / 22px, tracking -0.41px
+
+## Raw Typography (unstyled)
+- DM Sans Regular, 18px: 21 uses
+- DM Sans Regular, 13px: 14 uses
+- DM Sans Regular, 12px: 13 uses
+- DM Sans Regular, 15px: 12 uses
+- DM Sans Regular, 10.28px: 8 uses
+- DM Sans Medium, 15px: 7 uses
+- U8 Bold, 50px: 6 uses
+- DM Sans Bold, 15px: 4 uses
+- U8 Bold, 25px: 4 uses
+- U8 Regular, 17.13px: 4 uses
+- U8 Regular, 25px: 4 uses
+- DM Sans Medium, 13px: 3 uses
+- U8 Regular, 15px: 3 uses
+- U8 Regular, 20px: 3 uses
+
+## Typography Hierarchy
+- 50px - U8 Bold, 50px (raw)
+- 25px - U8 Bold, 25px (raw)
+- 25px - U8 Regular, 25px (raw)
+- 20px - U8 Regular, 20px (raw)
+- 18px - DM Sans Regular, 18px (raw)
+- 17.13px - U8 Regular, 17.13px (raw)
+- 17px - Body/Bold (SF Pro Text Semibold)
+- 15px - DM Sans Bold, 15px (raw)
+- 15px - DM Sans Medium, 15px (raw)
+- 15px - DM Sans Regular, 15px (raw)
+- 15px - U8 Regular, 15px (raw)
+- 13px - DM Sans Medium, 13px (raw)
+- 13px - DM Sans Regular, 13px (raw)
+- 12px - DM Sans Regular, 12px (raw)
+- 10.28px - DM Sans Regular, 10.28px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Main: 53 uses
+- Part colors (Blue): 28 uses
+- White: 18 uses
+- Green: 12 uses
+- Blue: 8 uses
+- Label Color/Light/Primary: 4 uses
+- System Background/Dark Elevated/Primary: 2 uses
+- Body/Bold: 1 use
+- Label Color/Dark/Primary: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Desktop - 1
+- FRAME "Desktop - 1", 1440x5322px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 19", 137x40px, horizontal pad 0 0 0 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "ant-design:facebook-filled", 40x40px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 31.25x31.25px, constraints scale/scale, fill #000000
+    - FRAME "ant-design:twitter-square-filled", 40x40px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 31.25x31.25px, constraints scale/scale, fill #000000
+    - FRAME "fa6-brands:square-instagram", 35x40px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 35x35px, constraints scale/scale, fill #000000
+  - RECTANGLE "Rectangle 1", 366x934px, constraints left/top, fill #F8F9FA
+  - TEXT "PiggyVest helps over 4 million customers achieve their finan", 524x46px, constraints left/top, fill #464F59, text [DM Sans Regular, 18px]
+  - TEXT "PiggyVest uses the highest level of Internet Security and it", 779x46px, constraints left/top, fill #464F59, text [DM Sans Regular, 18px]
+  - TEXT "Invest securely and confidently on the go. Grow your money c", 563x69px, constraints left/top, fill #464F59, text [DM Sans Regular, 18px]
+  - TEXT "Earn 5%-15% when you save with any of these PiggyVest plans.", 307x46px, constraints left/top, fill #464F59, text [DM Sans Regular, 18px]
+  - FRAME "Frame 5", 153x51px, constraints left/top, radius 12px, stroke #BBBBBB 1px
+    - FRAME "ic:round-apple", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.96x22.5px, constraints scale/scale, fill #000000
+    - TEXT "Get on iPhone", 98x20px, constraints left/top, fill #000000, text [DM Sans Regular, 15px]
+  - FRAME "Frame 12", 153x51px, constraints left/top, radius 12px, stroke #BBBBBB 1px
+    - FRAME "ic:round-apple", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.96x22.5px, constraints scale/scale, fill #000000
+    - TEXT "Get on iPhone", 98x20px, constraints left/top, fill #000000, text [DM Sans Regular, 15px]
+  - FRAME "Frame 6", 160x51px, constraints left/top, radius 12px, stroke #BBBBBB 1px
+    - TEXT "Get on Android", 106x20px, constraints left/top, fill #000000, text [DM Sans Regular, 15px]
+    - FRAME "logos:google-play-icon", 18.69x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Frame 13", 160x51px, constraints left/top, radius 12px, stroke #BBBBBB 1px
+    - TEXT "Get on Android", 106x20px, constraints left/top, fill #000000, text [DM Sans Regular, 15px]
+    - FRAME "logos:google-play-icon", 18.69x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Frame 4", 180x57px, horizontal pad 10 14 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Main
+    - TEXT "Create Free Account", 151x20px, constraints left/top, fill White, text [DM Sans Bold, 15px]
+  - FRAME "Frame 11", 180x57px, horizontal pad 10 14 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Main
+    - TEXT "Create Free Account", 151x20px, constraints left/top, fill White, text [DM Sans Bold, 15px]
+  - FRAME "Frame 8", 142x55px, horizontal pad 10 14 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Main
+    - TEXT "Start Saving", 88x20px, constraints left/top, fill White, text [DM Sans Bold, 15px]
+  - TEXT "The Better Way To Save & Invest.", 546x212px, constraints left/top, fill Main, text [U8 Bold, 70px], [heading]
+  - TEXT "Your security is our priority", 643x75px, constraints left/top, fill #0C1825, text [U8 Bold, 50px], [heading]
+  - TEXT "4 ways to build your savings", 365x150px, constraints left/top, fill #0C1825, text [U8 Bold, 50px], [heading]
+  - TEXT "Access Investment opportunities", 433x150px, constraints left/top, fill #0C1825, text [U8 Bold, 50px], [heading]
+  - TEXT "4 Million + customers", 501x75px, constraints left/top, fill #0C1825, text [U8 Bold, 50px], [heading]
+  - RECTANGLE "Rectangle 2", 413x658px, constraints left/top, radius 20px, stroke #0F1B28 3px
+  - RECTANGLE "headerImg 1", 416x584px, constraints left/top, fill image(hash: cfca001ad15bc5a6e13784b117be5d150cc05c65)
+  - GROUP "Group 3", 140x51.43px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 14.29px offset 2.14 2.86 #7D57571A]
+    - RECTANGLE "Rectangle 3", 140x51.43px, constraints left/top, radius 7.14px, fill White
+    - GROUP "Group 1", 67.14x4.2px, constraints left/top, radius 5.25px
+      - RECTANGLE "Rectangle 4", 67.14x4.2px, constraints left/top, radius 5.25px, fill #DFDFDF
+      - RECTANGLE "Rectangle 5", 32.87x4.2px, constraints left/top, radius 5.25px, fill #10B259
+    - TEXT "My Rent", 42x14px, constraints left/top, fill Main, text [DM Sans Medium, 10.71px]
+    - RECTANGLE "Rectangle 6", 29.29x27.86px, constraints left/top, radius 7.14px, fill #DFDFDF
+    - GROUP "Group 2", 14.29x14.29px, constraints left/top
+      - ELLIPSE "Ellipse 1", 14.29x14.29px, constraints left/top, stroke Green 1.43px
+      - ELLIPSE "Ellipse 2", 10.71x10.71px, constraints left/top, stroke Green 1.43px
+      - ELLIPSE "Ellipse 3", 7.14x7.14px, constraints left/top, stroke Green 1.43px
+  - GROUP "Group 4", 167.22x61.43px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 17.06px offset 2.56 3.41 #7D57571A]
+    - RECTANGLE "Rectangle 3", 167.22x61.43px, constraints left/top, radius 8.53px, fill White
+    - GROUP "Group 1", 80.2x5.26px, constraints left/top, radius 6.27px
+      - RECTANGLE "Rectangle 4", 80.2x5.01px, constraints left/top, radius 6.27px, fill #DFDFDF
+      - RECTANGLE "Rectangle 5", 63x5px, constraints left/top, radius 6.27px, fill Blue
+    - TEXT "Investify", 52x17px, constraints left/top, fill Main, text [DM Sans Medium, 12.8px]
+    - RECTANGLE "Rectangle 6", 34.98x33.27px, constraints left/top, radius 8.53px, fill #DFDFDF
+    - GROUP "Group 2", 17.06x17.06px, constraints left/top
+      - ELLIPSE "Ellipse 1", 17.06x17.06px, constraints left/top, stroke Blue 1.71px
+      - ELLIPSE "Ellipse 2", 12.8x12.8px, constraints left/top, stroke Blue 1.71px
+      - ELLIPSE "Ellipse 3", 8.53x8.53px, constraints left/top, stroke Blue 1.71px
+  - GROUP "Group 5", 44x125px, constraints left/top [decorative, ~10 shapes]
+  - GROUP "Group 14", 44x125px, constraints left/top [decorative, ~10 shapes]
+  - GROUP "Group 6", 50x50px, constraints left/top
+    - ELLIPSE "Ellipse 14", 50x50px, constraints left/top, fill #F5DEEC
+    - ELLIPSE "Ellipse 15", 16.67x16.67px, constraints left/top, fill #FFFFFF
+  - ... +69 more children
+
+Screen: Page 1 / Frame 22
+- FRAME "Frame 22", 291x93px, horizontal pad 10 82 10 82px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #000000
+  - TEXT "Web", 127x73px, constraints left/top, fill #FFFFFF, text [Inter Regular, 60px], [heading]
+
+Screen: Page 1 / Frame 23
+- FRAME "Frame 23", 354x93px, horizontal pad 10 82 10 82px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #000000
+  - TEXT "Mobile", 190x73px, constraints left/top, fill #FFFFFF, text [Inter Regular, 60px], [heading]
+
+Screen: Page 1 / iPhone 13 Pro Max - 1
+- FRAME "iPhone 13 Pro Max - 1", 428x5978px, constraints left/top, fill #FFFFFF
+  - TEXT "The Better Way To Save & Invest.", 312x120px, constraints left/top, fill Main, text [U8 Bold, 40px], [heading]
+  - TEXT "PiggyVest helps over 4 million customers achieve their finan", 315x51px, constraints left/top, fill #464F59, text [DM Sans Regular, 13px]
+  - FRAME "Frame 20", 143x42px, horizontal pad 7.94 11.12 7.94 7.94px gap 7.94px align center/center sizing W:fixed H:fixed, constraints left/top, radius 7.94px, fill Main
+    - TEXT "Create Free Account", 120x16px, constraints left/top, fill White, text [DM Sans Bold, 11.92px]
+  - FRAME "Frame 22", 117x34.36px, horizontal pad 6.5 9.1 6.5 6.5px gap 6.5px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6.5px, fill Main
+    - TEXT "Create Free Account", 98x13px, constraints left/top, fill White, text [DM Sans Bold, 9.75px]
+  - FRAME "Frame 20", 110x32px, constraints left/top, radius 8.63px, stroke #BBBBBB 0.72px
+    - FRAME "ic:round-apple", 21.57x21.57px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.63x16.18px, constraints scale/scale, fill #000000
+    - TEXT "Get on iPhone", 71x14px, constraints left/top, fill #000000, text [DM Sans Regular, 10.78px]
+  - FRAME "Frame 21", 110x32px, constraints left/top, radius 8.02px, stroke #BBBBBB 0.67px
+    - TEXT "Get on Android", 71x13px, constraints left/top, fill #000000, text [DM Sans Regular, 10.03px]
+    - FRAME "logos:google-play-icon", 12.5x13.38px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Frame 23", 110x32px, constraints left/top, radius 8.63px, stroke #BBBBBB 0.72px
+    - FRAME "ic:round-apple", 21.57x21.57px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.63x16.18px, constraints scale/scale, fill #000000
+    - TEXT "Get on iPhone", 71x14px, constraints left/top, fill #000000, text [DM Sans Regular, 10.78px]
+  - FRAME "Frame 24", 110x32px, constraints left/top, radius 8.02px, stroke #BBBBBB 0.67px
+    - TEXT "Get on Android", 71x13px, constraints left/top, fill #000000, text [DM Sans Regular, 10.03px]
+    - FRAME "logos:google-play-icon", 12.5x13.38px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - GROUP "Group 21", 348x396.01px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 24", 248.56x396.01px, constraints left/top, radius 12.04px, stroke #0F1B28 1.81px
+    - RECTANGLE "headerImg 2", 250.37x351.48px, constraints left/top, fill image(hash: cfca001ad15bc5a6e13784b117be5d150cc05c65)
+    - GROUP "Group 17", 84.26x30.95px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 8.6px offset 1.29 1.72 #7D57571A]
+      - RECTANGLE "Rectangle 3", 84.26x30.95px, constraints left/top, radius 4.3px, fill White
+      - GROUP "Group 1", 40.41x2.53px, constraints left/top, radius 3.16px
+        - RECTANGLE "Rectangle 4", 40.41x2.53px, constraints left/top, radius 3.16px, fill #DFDFDF
+        - RECTANGLE "Rectangle 5", 19.78x2.53px, constraints left/top, radius 3.16px, fill #10B259
+      - TEXT "My Rent", 25x8px, constraints left/top, fill Main, text [DM Sans Medium, 6.45px]
+      - RECTANGLE "Rectangle 6", 17.63x16.77px, constraints left/top, radius 4.3px, fill #DFDFDF
+      - GROUP "Group 2", 8.6x8.6px, constraints left/top
+        - ELLIPSE "Ellipse 1", 8.6x8.6px, constraints left/top, stroke Green 0.86px
+        - ELLIPSE "Ellipse 2", 6.45x6.45px, constraints left/top, stroke Green 0.86px
+        - ELLIPSE "Ellipse 3", 4.3x4.3px, constraints left/top, stroke Green 0.86px
+    - GROUP "Group 18", 100.64x36.97px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 10.27px offset 1.54 2.05 #7D57571A]
+      - RECTANGLE "Rectangle 3", 100.64x36.97px, constraints left/top, radius 5.13px, fill White
+      - GROUP "Group 1", 48.27x3.16px, constraints left/top, radius 3.77px
+        - RECTANGLE "Rectangle 4", 48.27x3.02px, constraints left/top, radius 3.77px, fill #DFDFDF
+        - RECTANGLE "Rectangle 5", 37.92x3.01px, constraints left/top, radius 3.77px, fill Blue
+      - TEXT "Investify", 31x10px, constraints left/top, fill Main, text [DM Sans Medium, 7.7px]
+      - RECTANGLE "Rectangle 6", 21.05x20.03px, constraints left/top, radius 5.13px, fill #DFDFDF
+      - GROUP "Group 2", 10.27x10.27px, constraints left/top
+        - ELLIPSE "Ellipse 1", 10.27x10.27px, constraints left/top, stroke Blue 1.03px
+        - ELLIPSE "Ellipse 2", 7.7x7.7px, constraints left/top, stroke Blue 1.03px
+        - ELLIPSE "Ellipse 3", 5.13x5.13px, constraints left/top, stroke Blue 1.03px
+    - GROUP "Group 19", 26.48x75.23px, constraints left/top [decorative, ~10 shapes]
+    - GROUP "Group 20", 30.09x30.09px, constraints left/top
+      - ELLIPSE "Ellipse 14", 30.09x30.09px, constraints left/top, fill #F5DEEC
+      - ELLIPSE "Ellipse 15", 10.03x10.03px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 20", 36.89x36.71px, constraints left/top [decorative, ~4 shapes]
+  - FRAME "Frame 20", 72.13x85px, constraints left/top
+    - GROUP "Group 8", 72.13x85px, constraints left/top
+      - VECTOR "Vector", 72.13x85px, constraints scale/scale, fill #287AF2
+      - VECTOR "Vector", 45.08x53.12px, constraints scale/scale, fill #1F5FBC
+  - TEXT "Your security is our priority", 322x38px, constraints left/top, fill #0C1825, text [U8 Bold, 25px], [heading]
+  - TEXT "PiggyVest uses the highest level of Internet Security and it", 337x68px, constraints left/top, fill #464F59, text [DM Sans Regular, 13px]
+  - TEXT "4 ways to build your savings", 183x76px, constraints left/top, fill #0C1825, text [U8 Bold, 25px], [heading]
+  - TEXT "Earn 5%-15% when you save with any of these PiggyVest plans.", 222x34px, constraints left/top, fill #464F59, text [DM Sans Regular, 13px]
+  - GROUP "Group 23", 278.22x270px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 24", 278.22x270px, constraints left/top, radius 13.71px, fill #F9F9F9
+    - TEXT "Automated Saving", 145x26px, constraints left/top, fill #0C1825, text [U8 Regular, 17.13px]
+    - TEXT "Build a dedicated savings faster on your terms automatically", 178x26px, constraints left/top, fill #464F59, text [DM Sans Regular, 10.28px]
+    - TEXT "Piggybank", 49x13px, constraints left/top, fill #464F59, text [DM Sans Regular, 10.28px]
+    - GROUP "Group 22", 28.78x28.78px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Rectangle 25", 28.78x28.78px, constraints left/top, radius 0/0/0/0px, fill #E0EFFF
+      - FRAME "Shield Done", 13.71x13.71px, constraints left/top, fill #00000000
+        - GROUP "Iconly/Light-Outline/Shield-Done", 9.69x11.62px, constraints scale/scale
+          - GROUP "Shield-Done", 9.69x11.62px, constraints scale/scale
+            - VECTOR "Combined-Shape", 9.69x11.62px, constraints scale/scale, fill #003399
+    - GROUP "Group 17", 19.87x19.87px, constraints left/top
+      - ELLIPSE "Ellipse 16", 19.87x19.87px, constraints left/top, fill #E0EFFF
+      - FRAME "Arrow - Right", 13.71x13.71px, constraints left/top, fill #00000000
+        - GROUP "Iconly/Light-Outline/Arrow---Right", 9.42x7.74px, constraints scale/scale
+          - GROUP "Arrow---Right", 9.42x7.74px, constraints scale/scale
+            - VECTOR "Combined-Shape", 9.42x7.74px, constraints scale/scale, fill #003399
+  - GROUP "Group 25", 278.22x270px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 24", 278.22x270px, constraints left/top, radius 13.71px, fill #F9F9F9
+    - TEXT "Fixed Saving", 99x26px, constraints left/top, fill #0C1825, text [U8 Regular, 17.13px]
+    - TEXT "Lock money away for a fixed duration with no access to it un", 193x39px, constraints left/top, fill #464F59, text [DM Sans Regular, 10.28px]
+    - TEXT "Safelock", 40x13px, constraints left/top, fill #464F59, text [DM Sans Regular, 10.28px]
+    - GROUP "Group 17", 19.87x19.87px, constraints left/top
+      - ELLIPSE "Ellipse 16", 19.87x19.87px, constraints left/top, fill #E3F5FF
+      - FRAME "Arrow - Right", 13.71x13.71px, constraints left/top, fill #00000000
+        - GROUP "Iconly/Light-Outline/Arrow---Right", 9.42x7.74px, constraints scale/scale
+          - GROUP "Arrow---Right", 9.42x7.74px, constraints scale/scale
+            - VECTOR "Combined-Shape", 9.42x7.74px, constraints scale/scale, fill #61B3FE
+    - GROUP "Group 24", 28.78x28.78px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Rectangle 25", 28.78x28.78px, constraints left/top, radius 0/0/0/0px, fill #E3F5FF
+      - FRAME "Lock", 13.71x13.71px, constraints left/top, fill #00000000
+        - GROUP "Iconly/Light-Outline/Lock", 9.55x11.42px, constraints scale/scale
+          - GROUP "Lock", 9.55x11.42px, constraints scale/scale
+            - VECTOR "Combined-Shape", 9.55x11.42px, constraints scale/scale, fill #61B3FE
+  - GROUP "Group 27", 278.22x270px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 24", 278.22x270px, constraints left/top, radius 13.71px, fill #F9F9F9
+    - TEXT "Goal-oriented Savings", 177x26px, constraints left/top, fill #0C1825, text [U8 Regular, 17.13px]
+    - TEXT "Reach all your savings goal faster Save towards multiple goa", 170x39px, constraints left/top, fill #464F59, text [DM Sans Regular, 10.28px]
+    - TEXT "Target Savings", 68x13px, constraints left/top, fill #464F59, text [DM Sans Regular, 10.28px]
+    - GROUP "Group 17", 19.87x19.87px, constraints left/top
+      - ELLIPSE "Ellipse 16", 19.87x19.87px, constraints left/top, fill #E4FFF1
+      - FRAME "Arrow - Right", 13.71x13.71px, constraints left/top, fill #00000000
+        - GROUP "Iconly/Light-Outline/Arrow---Right", 9.42x7.74px, constraints scale/scale
+          - GROUP "Arrow---Right", 9.42x7.74px, constraints scale/scale
+            - VECTOR "Combined-Shape", 9.42x7.74px, constraints scale/scale, fill #38C075
+    - GROUP "Group 26", 28.78x28.78px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 29", 278.22x270px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 24", 278.22x270px, constraints left/top, radius 13.71px, fill #F9F9F9
+    - TEXT "Flexible Savings", 125x26px, constraints left/top, fill #0C1825, text [U8 Regular, 17.13px]
+    - TEXT "Save, Transfer, Withdraw, Manage and organize your money for", 192x26px, constraints left/top, fill #464F59, text [DM Sans Regular, 10.28px]
+    - TEXT "Flex Naira", 46x13px, constraints left/top, fill #464F59, text [DM Sans Regular, 10.28px]
+    - GROUP "Group 17", 19.87x19.87px, constraints left/top
+      - ELLIPSE "Ellipse 16", 19.87x19.87px, constraints left/top, fill #FDE7F5
+      - FRAME "Arrow - Right", 13.71x13.71px, constraints left/top, fill #00000000
+        - GROUP "Iconly/Light-Outline/Arrow---Right", 9.42x7.74px, constraints scale/scale
+          - GROUP "Arrow---Right", 9.42x7.74px, constraints scale/scale
+            - VECTOR "Combined-Shape", 9.42x7.74px, constraints scale/scale, fill #E5288E
+    - GROUP "Group 28", 28.78x28.78px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Rectangle 25", 28.78x28.78px, constraints left/top, radius 0/0/0/0px, fill #FDE7F5
+      - FRAME "bx:film", 13.71x13.71px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 10.28x10.28px, constraints scale/scale, fill #E5288E
+  - GROUP "Group 30", 273.25x321px, constraints left/top, radius 0/0/0/0px [decorative, ~13 shapes]
+  - FRAME "Frame 20", 160x36px, horizontal pad 9 19 9 19px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #F7F0FF
+    - TEXT "Up to 25% Returns", 122x18px, constraints left/top, fill #7913E5, text [DM Sans Medium, 14px]
+  - TEXT "Access Investment opportunities", 217x76px, constraints left/top, fill #0C1825, text [U8 Bold, 25px], [heading]
+  - TEXT "Invest securely and confidently on the go.Grow your money co", 311x51px, constraints left/top, fill #464F59, text [DM Sans Regular, 13px]
+  - GROUP "Group 32", 202x17px, constraints left/top
+    - TEXT "Learn more about investments", 189x17px, constraints left/top, fill #287AF2, text [DM Sans Medium, 13px]
+    - FRAME "Arrow - Right 4", 15x15px, constraints left/top, fill #00000000
+      - GROUP "Iconly/Light-Outline/Arrow---Right-2", 5.31x9.69px, constraints scale/scale
+        - GROUP "Arrow---Right-2", 5.31x9.69px, constraints scale/scale
+          - VECTOR "Stroke-1", 5.31x9.69px, constraints scale/scale, fill #287AF2
+  - RECTANGLE "Rectangle 24", 428x357px, constraints left/top, fill #0D60D8
+  - TEXT "Meet the saver of the month", 346x106px, constraints left/top, fill White, text [U8 Bold, 35px], [heading]
+  - ... +29 more children
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,1205 @@
+---
+name: linear-design-system-community
+source_file: Linear Design System (Community)
+source_page: All pages (3): Cover, UI/Components, Playground
+generated_at: 2026-07-25T09:19:57.190383+00:00
+---
+
+# Linear Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Linear Design System (Community)
+- Figma page: All pages (3): Cover, UI/Components, Playground
+- Extracted at: 2026-07-25T09:19:57.190383+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #959699: 211 uses
+- #D9D9D9: 59 uses
+- #999A9D: 54 uses
+- #FFFFFF: 49 uses
+- #939496: 46 uses
+- #9747FF: 32 uses
+- #5E5E5F: 23 uses
+- #FFFFFF1A: 21 uses
+- #404040: 20 uses
+- #96979A: 18 uses
+- #9A9BA2: 18 uses
+- #303031: 12 uses
+- #1D1F24: 11 uses
+- #E2E3E5: 11 uses
+- #954F4F: 10 uses
+- #E3E4E7: 10 uses
+- #E4E4EC: 10 uses
+- #0F1011: 8 uses
+- #2A2C31: 8 uses
+- #FEFEFF: 7 uses
+- #27292E: 6 uses
+- #2E2F3B: 6 uses
+- #5E69D1: 6 uses
+- #D8D8D8: 6 uses
+- #E0E0E0: 6 uses
+- #F2BE00: 6 uses
+- #23262C: 5 uses
+- #26272B: 5 uses
+- #313339: 5 uses
+- #6C77E5: 5 uses
+- #E3E4E6: 5 uses
+- #121314: 4 uses
+- #1B1B1B: 4 uses
+- #2C2E34: 4 uses
+- #BEC2C8: 4 uses
+- #E2E2E2: 4 uses
+- #E3E4E8: 4 uses
+
+## Typography Tokens
+- Label/L3/Medium: Inter Medium (500), 13px / auto, tracking 0px
+- Label/L4/Medium: Inter Medium (500), 12px / auto, tracking 0px
+- Label/L4/Regular: Inter Regular (400), 12px / auto, tracking 0px
+- Label/L3/Regular: Inter Regular (400), 13px / auto, tracking 0px
+- Label/L5/Medium: Inter Medium (500), 11px / auto, tracking 0px
+- Label/L5/Regular: Inter Regular (400), 11px / auto, tracking 0px
+- Heading/H1: Inter Medium (500), 24px / 32px, tracking -0.16px
+- Label/L2/Medium: Inter Medium (500), 15px / auto, tracking 0px
+- Label/L1/Medium: Inter Medium (500), 18px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 11px: 479 uses
+- Inter Regular, 13px: 127 uses
+- Inter Regular, 12px: 111 uses
+- Inter Medium, 11px: 42 uses
+- Inter Regular, 62.59px: 29 uses
+- Inter Medium, 13px: 28 uses
+- Inter Medium, 67.81px: 28 uses
+- Inter SemiBold, 13px: 22 uses
+- Inter Medium, 62.59px: 20 uses
+- Inter Regular, 8px: 20 uses
+- Inter Regular, 57.37px: 17 uses
+- Inter Medium, 12px: 10 uses
+- Inter Regular, 67.81px: 10 uses
+
+## Typography Hierarchy
+- 67.81px - Inter Medium, 67.81px (raw)
+- 67.81px - Inter Regular, 67.81px (raw)
+- 62.59px - Inter Medium, 62.59px (raw)
+- 62.59px - Inter Regular, 62.59px (raw)
+- 57.37px - Inter Regular, 57.37px (raw)
+- 24px - Heading/H1 (Inter Medium)
+- 18px - Label/L1/Medium (Inter Medium)
+- 15px - Label/L2/Medium (Inter Medium)
+- 13px - Inter Medium, 13px (raw)
+- 13px - Inter Regular, 13px (raw)
+- 13px - Inter SemiBold, 13px (raw)
+- 13px - Label/L3/Medium (Inter Medium)
+- 13px - Label/L3/Regular (Inter Regular)
+- 12px - Inter Medium, 12px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Label/L4/Medium (Inter Medium)
+- 12px - Label/L4/Regular (Inter Regular)
+- 11px - Inter Medium, 11px (raw)
+- 11px - Inter Regular, 11px (raw)
+- 11px - Label/L5/Medium (Inter Medium)
+- 11px - Label/L5/Regular (Inter Regular)
+- 8px - Inter Regular, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Tabs button: [drop_shadow 1px offset 0 1 #0000001A, drop_shadow 4px offset 0 4 #0000000D]
+- Drop down menu: [drop_shadow 1px offset 0 1 #00000029, drop_shadow 5px offset 0 2 #00000029, drop_shadow 8px offset 0 3 #00000029]
+- Overlay-Shadow: [drop_shadow 1px offset 0 1 #00000029, drop_shadow 5px offset 0 2 #00000029, drop_shadow 8px offset 0 3 #00000029]
+- Secondary butotn: [drop_shadow 1px offset 0 1 #0000001A, drop_shadow 4px offset 0 4 #0000000D]
+- Primary Button: [drop_shadow 1px offset 0 1 #0000001A, drop_shadow 4px offset 0 4 #0000000D]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Outer container
+- Buttons
+- Issues frame
+- Toggle
+- Button
+- Icon
+- Workspace
+- Nav bar
+- Action pills
+- Nav bar- icons
+- Icons
+- Vectors
+- Action list SVG
+- Drop down container 3
+- Drop down container 2
+- Dropdown frame
+- Drop down container 1
+- Logo
+- Nav bar menu
+
+## Component Specs
+- Outer container: size 200x95px, radius 5px, vertical layout, padding 4 4 4 4px, gap 2px, sizing W:fixed H:fixed, fill #1D1F24, stroke #2A2C31 1px, text [Inter Regular, 8px, Label/L5/Medium, Label/L5/Regular, Inter Regular, 13px, Label/L4/Regular] | variants: State: Dark/Default/Light/Magic blue
+- Buttons (UI/Components): size 217x29px, radius 5px, horizontal layout, padding 4 4 4 4px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Inter Regular, 8px, Label/L5/Medium, Label/L5/Regular, Inter Regular, 13px, Label/L4/Regular] | variants: Property 1: Default/Variant2
+- Issues frame: size 1156x44px, horizontal layout, padding 8 30 8 30px, gap 18px, align space_between/center, sizing W:fixed H:fixed, fill #0F1011, stroke #25262B 1px, text [Label/L4/Regular, Inter Regular, 12px, Label/L4/Medium, Label/L3/Regular] | variants: Property 1: Default/Variant2
+- Toggle: size 30x20px, radius 20px, horizontal layout, padding 3 3 3 3px, gap 10px, align max/center, sizing W:fixed H:fixed, fill #5E69D1 | variants: Active: No/Yes
+- Buttons (UI/Components): size 142x32px, radius 6px, horizontal layout, padding 8 10 8 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #121314, text [Inter Regular, 8px, Label/L5/Medium, Label/L5/Regular, Inter Regular, 13px] | variants: Hover: No/Yes
+- Button/Secondary/Medium: size 96x23px, radius 5px, horizontal layout, padding 4 8 4 8px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #23262C, stroke #313339 1px, effect Secondary butotn, text [Label/L4/Medium] | variants: Hover: No/Yes
+- Button/Secondary/Large: size 116x32.5px, radius 5px, horizontal layout, padding 8.25 14.5 8.25 14.5px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #23262C, stroke #313339 1px, effect Secondary butotn, text [Label/L3/Medium] | variants: Hover: No/Yes
+- Icon: size 20x28px, radius 4px, horizontal layout, padding 4 2 4 2px, gap 0px, align center/center, sizing W:fixed H:fixed, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A] | variants: Property 1: Add user/Variant2
+- Workspace: size 91x28px, radius 4px, horizontal layout, padding 4 4 4 4px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Inter SemiBold, 13px] | variants: Hover: Yes/no
+- Nav bar: size 28x28px, radius 10px, horizontal layout, padding 6 6 6 6px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #1A1C1F, stroke #26272B 1px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A] | variants: Hover: No/Yes
+- Nav bar/Menu: size 247x28px, radius 4px, horizontal layout, padding 4 2 4 6px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Inter Regular, 11px, Label/L3/Medium] | variants: Hover: No/Yes
+- Action pills (UI/Components): size 171x28px, radius 48px, horizontal layout, padding 6.5 9 6.5 8px, gap 5px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF00, stroke #2A2C31 1px, text [Inter Regular, 12px] | variants: Property 1: Default/Variant3
+- Button/Tabs: size 88x23px, radius 5px, horizontal layout, padding 4 8 4 8px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #1D1F24, stroke #2A2C31 1px, effect Tabs button, text [Label/L4/Regular] | variants: Property 1: Secondary/Variant2
+- Button/Primary/Medium: size 85x23px, radius 5px, horizontal layout, padding 4 8 4 8px, gap 7px, align center/center, sizing W:fixed H:fixed, fill #5E69D1, stroke #6C77E5 1px, effect Primary Button, text [Label/L4/Medium] | variants: Hover: No/Yes
+- Button/Primary/Large: size 103x32px, radius 5px, horizontal layout, padding 8 14 8 14px, gap 7px, align center/center, sizing W:fixed H:fixed, fill #5E69D1, stroke #6C77E5 1px, effect Primary Button, text [Label/L3/Medium] | variants: Hover: No/Yes
+- Nav bar- icons (UI/Components): size 16x16px | variants: Type: Add/Cycles/Edit/Inbox/Invite people/Issues/Link GitHub/My Account/My issues/Projects/Roadmaps/Search/Teams/Views
+- Icons (UI/Components): size 16x16px | variants: Type: Add user/Close/Display/Fav/Filter/High Priority/Low Priority/Medium Priority/Menu/No Priority/Notification
+- Vectors: size 18x18px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: Type: Personal/Templates
+- Action list SVG (UI/Components): size 12x12px, radius 50px, stroke #F2BE00 1.5px | variants: Property 1: Backlog/Canceled/Done/Todo/in progress
+- Drop down container 3: size 247x380px, vertical layout, padding 0 0 0 0px, gap 2px, sizing W:fixed H:fixed, text [Inter Regular, 11px, Label/L3/Medium, Label/L4/Medium] | variants: Expand: No/Yes
+- Drop down container 2: size 247x176px, vertical layout, padding 0 0 0 0px, gap 2px, sizing W:fixed H:fixed, text [Inter Regular, 11px, Label/L3/Medium] | variants: Expand: No/Yes
+- Dropdown frame/icon: size 247x26px, radius 4px, horizontal layout, padding 4 4 4 4px, gap 10px, sizing W:fixed H:fixed, text [Label/L3/Medium] | variants: Open: No/Yes; Hover: No/Yes
+- Dropdown frame/No icon: size 247x24px, radius 4px, horizontal layout, padding 4 4 4 4px, gap 0px, sizing W:fixed H:fixed, text [Label/L4/Medium] | variants: Open: No/Yes; Hover: No/Yes
+- Drop down container 1: size 247x114px, vertical layout, padding 0 0 0 0px, gap 2px, sizing W:fixed H:fixed, text [Inter Regular, 11px, Label/L3/Medium, Label/L4/Medium] | variants: Expand: No/Yes
+- Logo: size 67x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #090909, text [Inter SemiBold, 13px]
+- Nav bar menu: size 247x28px, radius 4px, horizontal layout, padding 4 2 4 6px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Inter Regular, 11px, Label/L3/Medium] | variants: Hover: No/Yes
+- Action pills (Playground): size 171x27px, radius 48px, horizontal layout, padding 6 9 6 8px, gap 5px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF00, stroke #2A2C31 1px, text [Inter Regular, 12px] | variants: Property 1: Default/Variant3
+- Button/Secondary: size 88x23px, radius 5px, horizontal layout, padding 4 8 4 8px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #1D1F24, stroke #2A2C31 1px, effect Tabs button, text [Label/L4/Regular] | variants: Property 1: Secondary/Variant2
+- Button/Primary: size 103x32px, radius 5px, horizontal layout, padding 86 14 86 14px, gap 7px, align center/center, sizing W:fixed H:fixed, fill #5E69D1, stroke #6C77E5 1px, effect Primary Button, text [Inter Medium, 13px] | variants: Hover: No/Yes
+- Nav bar- icons (Playground): size 16x16px | variants: Type: Add/Cycles/Edit/Inbox/Invite people/Issues/Link GitHub/My issues/Projects/Roadmaps/Search/Teams/Views
+- Icons (Playground): size 16x16px | variants: Type: Add user/Display/Fav/Filter/High Priority/Low Priority/Medium Priority/Menu/No Priority/Notification
+- Action list SVG (Playground): size 14x14px, radius 50px, stroke #F2BE00 1.5px | variants: Property 1: Back log/Canceled/Done/Todo/in progress
+
+## Most-Used Styles
+- Label/L3/Medium: 529 uses
+- Label/L4/Medium: 210 uses
+- Label/L4/Regular: 163 uses
+- Label/L5/Medium: 152 uses
+- Label/L3/Regular: 94 uses
+- Label/L5/Regular: 76 uses
+- Tabs button: 18 uses
+- Primary Button: 11 uses
+- Secondary butotn: 9 uses
+- Label/L1/Medium: 8 uses
+- Label/L2/Medium: 6 uses
+- Drop down menu: 5 uses
+- Heading/H1: 5 uses
+- Overlay-Shadow: 4 uses
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 3840x2158px, constraints left/top, radius 20px, fill gradient_angular(#0F1011 0% | #2B2D37 25% | #0F1011 44%), stroke #333348 10px
+  - FRAME "Frame 1", 1879x495.79px, vertical pad 0 0 0 0px gap 55px align center/min sizing W:fixed H:fixed, constraints center/top
+    - FRAME "Frame 512919151", 627.79x177.79px, horizontal pad 0 0 0 0px gap 17px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "linear-app-icon 1", 177.79x177.79px, constraints left/top, fill image(hash: 2f3eab897c53e47591480b29d8e4f900e00bd9f6)
+      - TEXT "Linear", 433x174px, constraints left/top, fill gradient_linear(#FBFBFB 0% | #747474 100%), text [Inter SemiBold, 144.04px], [heading]
+    - FRAME "Frame 512919150", 1879x263px, vertical pad 0 0 0 0px gap 36px align max/min sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Design System", 859x145px, constraints left/top, fill #FFFFFF, text [Inter Medium, 120px], [heading]
+      - TEXT "Meet the new standard for modern software development.", 1879x82px, constraints left/top, fill #FFFFFFB2, text [Inter Regular, 68px], [heading]
+  - FRAME "Frame 512919149", 1186x910px, vertical pad 0 0 0 0px gap 70px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Light,Dark and Blue themes Colour Variables Text Styles Comp", 1186x910px, constraints left/top, fill #FFFFFF, text [Inter Medium, 80px], [heading]
+  - FRAME "Page -1", 7510.77x5054.12px, constraints left/top, radius 20px, fill #090909, stroke gradient_linear(#676A78 0% | #1A1B1F 15%) 7.22px
+    - FRAME "Nav bar", 1434.35x5054.12px, vertical pad 93.88 73.02 93.88 73.02px gap 104.32px sizing W:fixed H:fixed, constraints left/top, fill #090909
+      - FRAME "Top container", 1288.31x146.04px, horizontal pad 0 0 0 0px gap 276.44px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Workspace", 475.22x146.04px, horizontal pad 20.86 20.86 20.86 20.86px gap 41.73px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px
+          - INSTANCE "Logo", 350.04x104.32px, horizontal pad 0 0 0 0px gap 41.73px align min/center sizing W:fixed H:fixed, constraints left/top, fill #090909
+            - RECTANGLE "linear-app-icon 1", 104.32x104.32px, constraints left/top, fill image(hash: 2f3eab897c53e47591480b29d8e4f900e00bd9f6)
+            - TEXT "Linear", 204x68px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 67.81px], [heading]
+          - FRAME "SVG", 41.73x41.73px, constraints left/top
+            - VECTOR "Vector", 38.52x22.7px, constraints scale/scale, fill #939496
+        - FRAME "Icons container", 333.81x146.04px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Nav bar", 146.04x146.04px, horizontal pad 31.29 31.29 31.29 31.29px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 52.16px, effect [drop_shadow 20.86px offset 0 10.43 #0000000A, drop_shadow 10.43px offset 0 5.22 #0000000A]
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints center/center
+          - INSTANCE "Nav bar", 146.04x146.04px, horizontal pad 31.29 31.29 31.29 31.29px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 52.16px, fill #1A1C1F, stroke #26272B 5.22px, effect [drop_shadow 20.86px offset 0 10.43 #0000000A, drop_shadow 10.43px offset 0 5.22 #0000000A]
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints center/center
+      - FRAME "Menu container main", 1288.31x4318.69px, vertical pad 0 0 0 0px gap 93.88px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Menu container 1", 1288.31x458.99px, vertical pad 0 0 0 0px gap 10.43px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints left/top
+            - TEXT "Inbox", 926.22x82px, constraints left/top, fill #E2E3E5, text [Inter Medium, 67.81px], [heading]
+            - FRAME "div.sc-PlNur", 132.59x104.32px, vertical pad 15.65 31.29 15.65 31.29px gap 0px sizing W:fixed H:fill, constraints left/top, radius 20.86px, fill #151619
+          - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints left/top
+            - TEXT "Inbox", 1110.97x82px, constraints left/top, fill #E2E3E5, text [Inter Medium, 67.81px], [heading]
+          - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints left/top
+            - TEXT "Inbox", 1110.97x82px, constraints left/top, fill #E2E3E5, text [Inter Medium, 67.81px], [heading]
+        - FRAME "Drop down master container", 1288.31x3765.82px, vertical pad 0 0 0 0px gap 52.16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Drop down container 1", 1288.31x594.6px, vertical pad 0 0 0 0px gap 10.43px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 1288.31x125.18px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px sizing W:fill H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fill H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fill H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fill H:fixed, constraints left/top, radius 20.86px
+          - INSTANCE "Drop down container 1", 1288.31x438.13px, vertical pad 0 0 0 0px gap 10.43px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 1288.31x125.18px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px sizing W:fill H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fill H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fill H:fixed, constraints left/top, radius 20.86px
+          - INSTANCE "Drop down container 3", 1288.31x1982.01px, vertical pad 0 0 0 0px gap 10.43px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 1288.31x125.18px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px sizing W:fill H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Drop down container 6", 1288.31x917.98px, vertical pad 0 0 0 0px gap 10.43px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Drop down container 5", 1288.31x917.98px, vertical pad 0 0 0 0px gap 10.43px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Drop down container 5", 1288.31x594.6px, vertical pad 0 0 0 0px gap 10.43px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 1288.31x125.18px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px sizing W:fill H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fill H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fill H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Nav bar/Menu", 1288.31x146.04px, horizontal pad 20.86 10.43 20.86 31.29px gap 52.16px align min/center sizing W:fill H:fixed, constraints left/top, radius 20.86px
+    - FRAME "Main Body container", 6071.2x5054.12px, horizontal pad 41.73 41.73 41.73 0px gap 52.16px sizing W:fixed H:fixed, constraints left_right/top_bottom
+      - FRAME "Body container", 6029.48x4240.45px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 20.86px, fill #0F1011, stroke #25262B 5.22px
+        - FRAME "Frame 6", 6029.48x208.63px, horizontal pad 31.29 125.18 31.29 156.47px gap 161.69px align space_between/center sizing W:fill H:fixed, constraints left/top, stroke #1A1B20 5.22px
+          - INSTANCE "Dropdown frame/icon", 401.62x93.88px, horizontal pad 0 0 0 0px gap 20.86px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px
+            - INSTANCE "Vectors", 93.88x93.88px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Text wrap", 370.32x83.45px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icons framer", 401.62x146.04px, horizontal pad 0 0 0 0px gap 41.73px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon", 125.18x146.04px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px, effect [drop_shadow 20.86px offset 0 10.43 #0000000A, drop_shadow 10.43px offset 0 5.22 #0000000A]
+            - FRAME "Divider frame", 67.81x83.45px, vertical pad 0 31.29 0 31.29px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon", 125.18x146.04px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px, effect [drop_shadow 20.86px offset 0 10.43 #0000000A, drop_shadow 10.43px offset 0 5.22 #0000000A]
+        - FRAME "Frame 7", 6029.48x232.47px, horizontal pad 57.37 125.18 57.37 156.47px gap 161.69px align space_between/min sizing W:fill H:fixed, constraints left/top, stroke #1A1B20 5.22px
+          - FRAME "Filter container", 266.75x83.45px, horizontal pad 0 0 0 0px gap 31.29px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 83.45x83.45px, constraints left/top
+            - TEXT "Filter", 152x76px, constraints left/top, fill #E2E3E5, text [Inter Medium, 62.59px], [heading]
+          - INSTANCE "Button/Tabs", 375.54x119.96px, horizontal pad 20.86 31.29 20.86 31.29px gap 20.86px align center/center sizing W:fixed H:fixed, constraints left/top, radius 26.08px, fill #1D1F24, stroke #2A2C31 5.22px, effect [drop_shadow 5.22px offset 0 5.22 #0000001A, drop_shadow 20.86px offset 0 20.86 #0000000D]
+            - INSTANCE "Icons", 73.02x73.02px, constraints left/top
+            - TEXT "Canceled", 215x76px, constraints left/top, fill #E3E4E6, text [Inter Regular, 62.59px], [heading]
+        - FRAME "Frame 8", 6029.48x187.77px, horizontal pad 20.86 125.18 20.86 156.47px gap 161.69px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 5.22px
+          - FRAME "Filter container", 552.34x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 73.02x73.02px, constraints left/top, radius 260.79px, stroke #F2BE00 7.82px
+            - TEXT "In Progress", 337x76px, constraints left/top, fill #E2E3E5, text [Inter Medium, 62.59px], [heading]
+            - TEXT "2", 38x76px, constraints left/top, fill #939496, text [Inter Regular, 62.59px], [heading]
+          - INSTANCE "Nav bar", 146.04x146.04px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px, effect [drop_shadow 20.86px offset 0 10.43 #0000000A, drop_shadow 10.43px offset 0 5.22 #0000000A]
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints center/center
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 1503.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 1039.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1252.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 871.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 1408.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 944.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1252.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 871.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 9", 6029.48x187.77px, horizontal pad 20.86 125.18 20.86 156.47px gap 161.69px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 5.22px
+          - FRAME "Filter container", 366.34x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 73.02x73.02px, constraints left/top, radius 260.79px, stroke #E2E2E2 7.82px
+            - TEXT "Todo", 151x76px, constraints left/top, fill #E2E3E5, text [Inter Medium, 62.59px], [heading]
+            - TEXT "2", 38x76px, constraints left/top, fill #939496, text [Inter Regular, 62.59px], [heading]
+          - INSTANCE "Nav bar", 146.04x146.04px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px, effect [drop_shadow 20.86px offset 0 10.43 #0000000A, drop_shadow 10.43px offset 0 5.22 #0000000A]
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints center/center
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 2139.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 1675.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1252.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 871.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 1608.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 1144.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1036.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 655.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10", 6029.48x187.77px, horizontal pad 20.86 125.18 20.86 156.47px gap 161.69px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 5.22px
+          - FRAME "Filter container", 454.34x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 73.02x73.02px, constraints left/top, radius 260.79px, stroke #BEC2C8 7.82px
+            - TEXT "Backlog", 239x76px, constraints left/top, fill #E2E3E5, text [Inter Medium, 62.59px], [heading]
+            - TEXT "2", 38x76px, constraints left/top, fill #939496, text [Inter Regular, 62.59px], [heading]
+          - INSTANCE "Nav bar", 146.04x146.04px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px, effect [drop_shadow 20.86px offset 0 10.43 #0000000A, drop_shadow 10.43px offset 0 5.22 #0000000A]
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints center/center
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 1624.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 1160.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1252.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 871.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 1300.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 836.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1036.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 655.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 6029.48x187.77px, horizontal pad 20.86 125.18 20.86 156.47px gap 161.69px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 5.22px
+          - FRAME "Filter container", 373.34x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 73.02x73.02px, constraints left/top, radius 260.79px, fill #5E6AD2
+            - TEXT "Done", 158x76px, constraints left/top, fill #E2E3E5, text [Inter Medium, 62.59px], [heading]
+            - TEXT "2", 38x76px, constraints left/top, fill #939496, text [Inter Regular, 62.59px], [heading]
+          - INSTANCE "Nav bar", 146.04x146.04px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px, effect [drop_shadow 20.86px offset 0 10.43 #0000000A, drop_shadow 10.43px offset 0 5.22 #0000000A]
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints center/center
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 1660.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 1196.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1036.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 655.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 1903.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 1439.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1068.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 687.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 6029.48x187.77px, horizontal pad 20.86 125.18 20.86 156.47px gap 161.69px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 5.22px
+          - FRAME "Filter container", 498.34x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 73.02x73.02px, constraints left/top, radius 260.79px, fill #95A2B3
+            - TEXT "Canceled", 283x76px, constraints left/top, fill #E2E3E5, text [Inter Medium, 62.59px], [heading]
+            - TEXT "2", 38x76px, constraints left/top, fill #939496, text [Inter Regular, 62.59px], [heading]
+          - INSTANCE "Nav bar", 146.04x146.04px, horizontal pad 20.86 20.86 20.86 20.86px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20.86px, effect [drop_shadow 20.86px offset 0 10.43 #0000000A, drop_shadow 10.43px offset 0 5.22 #0000000A]
+            - INSTANCE "Nav bar- icons", 83.45x83.45px, constraints center/center
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 1492.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 1028.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1252.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 871.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 6029.48x229.5px, horizontal pad 41.73 156.47 41.73 156.47px gap 93.88px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #0F1011, stroke #25262B 5.22px
+          - FRAME "Right container", 1505.39x117.73px, horizontal pad 0 0 0 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 412.05x83.45px, horizontal pad 0 0 0 0px gap 41.73px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 1041.18x117.73px, horizontal pad 20.86 0 20.86 0px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 1252.52x146.04px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 871.77x143.81px, horizontal pad 33.9 46.94 33.9 41.73px gap 26.08px align min/center sizing W:fixed H:fixed, constraints left/top, radius 250.36px, fill #FFFFFF00, stroke #2A2C31 5.22px
+            - FRAME "Frame 10", 224.28x76px, horizontal pad 0 0 0 0px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 156.47x146.04px, horizontal pad 0 0 0 52.16px gap 52.16px align max/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Action pills", 665.36x117.73px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/bottom, radius 20.86px, fill #1A1C1F, stroke #2A2C31 5.22px
+      - FRAME "Text frame", 221.45x117.73px, horizontal pad 20.86 41.73 20.86 41.73px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #090909, stroke #25262B 5.22px
+        - TEXT "Dark", 138x76px, constraints left/top, fill #959699, text [Inter Regular, 62.59px], [heading]
+      - FRAME "Text frame", 231.45x117.73px, horizontal pad 20.86 41.73 20.86 41.73px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Light", 148x76px, constraints left/top, fill #959699, text [Inter Regular, 62.59px], [heading]
+      - FRAME "Text frame", 212.45x117.73px, horizontal pad 20.86 41.73 20.86 41.73px gap 52.16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Blue", 129x76px, constraints left/top, fill #959699, text [Inter Regular, 62.59px], [heading]
+
+Screen: UI/Components / Components
+- SECTION "Components", 1398x1778px, fill #404040, stroke #FFFFFF1A 1px
+  - COMPONENT_SET "Drop down container 1", 287x288px, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Expand=Yes", 247x114px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+        - TEXT "Workspace", 65x15px, constraints left/top, fill #939496, text [Label/L4/Medium]
+        - FRAME "Img", 16x16px, constraints left/top
+          - VECTOR "Vector", 5.18x4.34px, constraints scale/scale, fill #939496
+      - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+          - GROUP "Group 1", 14x14px, constraints left/top
+            - VECTOR "Vector", 14x8.42px, constraints scale/scale, fill #939496
+            - VECTOR "Vector", 13.99x4.34px, constraints scale/scale, fill #939496
+            - VECTOR "Vector", 13.99x4.25px, constraints scale/scale, fill #939496
+        - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+      - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+          - FRAME "Frame", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 14x14.19px, constraints scale/scale, fill #939496
+        - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+      - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+          - FRAME "Frame", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 5x5px, constraints scale/scale, fill #939496
+            - VECTOR "Vector", 14x14px, constraints scale/scale, fill #939496
+        - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+    - COMPONENT "Expand=No", 247x24px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+        - TEXT "Workspace", 65x15px, constraints left/top, fill #939496, text [Label/L4/Medium]
+        - FRAME "Img", 16x16px, constraints left/top
+          - VECTOR "Vector", 4.34x5.18px, constraints scale/scale, fill #939496
+  - COMPONENT_SET "Dropdown frame/No icon", 287x175px, vertical pad 20 20 20 20px gap 13px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Open=Yes, Hover=No", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Workspace", 65x15px, constraints left/top, fill #939496, text [Label/L4/Medium]
+      - FRAME "Img", 16x16px, constraints left/top
+        - VECTOR "Vector", 5.18x4.34px, constraints scale/scale, fill #939496
+    - COMPONENT "Open=Yes, Hover=Yes", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1A1C1F
+      - TEXT "Workspace", 65x15px, constraints left/top, fill #939496, text [Label/L4/Medium]
+      - FRAME "Img", 16x16px, constraints left/top
+        - VECTOR "Vector", 5.18x4.34px, constraints scale/scale, fill #939496
+    - COMPONENT "Open=No, Hover=No", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Workspace", 65x15px, constraints left/top, fill #939496, text [Label/L4/Medium]
+      - FRAME "Img", 16x16px, constraints left/top
+        - VECTOR "Vector", 4.34x5.18px, constraints scale/scale, fill #939496
+    - COMPONENT "Open=No, Hover=Yes", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1A1C1F
+      - TEXT "Workspace", 65x15px, constraints left/top, fill #939496, text [Label/L4/Medium]
+      - FRAME "Img", 16x16px, constraints left/top
+        - VECTOR "Vector", 4.34x5.18px, constraints scale/scale, fill #939496
+  - COMPONENT_SET "Dropdown frame/icon", 287x183px, vertical pad 20 20 20 20px gap 13px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Open=Yes, Hover=No", 247x26px, horizontal pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - INSTANCE "Vectors", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.sc-eMkmGk", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 4px, fill #5C84FE2E
+          - FRAME "Img", 14x14px, constraints center/center, opacity 90%
+            - VECTOR "Vector", 12.25x12.25px, constraints scale/scale, fill #5D85FF
+      - FRAME "Text wrap", 71x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Personal", 55x16px, constraints left/top, fill #FFFFFF, text [Label/L3/Medium]
+        - FRAME "Img", 16x16px, constraints left/top
+          - VECTOR "Vector", 5.18x4.34px, constraints scale/scale, fill #939496
+    - COMPONENT "Open=Yes, Hover=Yes", 247x26px, horizontal pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1A1C1F
+      - INSTANCE "Vectors", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.sc-eMkmGk", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 4px, fill #5C84FE2E
+          - FRAME "Img", 14x14px, constraints center/center, opacity 90%
+            - VECTOR "Vector", 12.25x12.25px, constraints scale/scale, fill #5D85FF
+      - FRAME "Text wrap", 71x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Personal", 55x16px, constraints left/top, fill #FFFFFF, text [Label/L3/Medium]
+        - FRAME "Img", 16x16px, constraints left/top
+          - VECTOR "Vector", 5.18x4.34px, constraints scale/scale, fill #939496
+    - COMPONENT "Open=No, Hover=No", 247x26px, horizontal pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - INSTANCE "Vectors", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.sc-eMkmGk", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 4px, fill #5C84FE2E
+          - FRAME "Img", 14x14px, constraints center/center, opacity 90%
+            - VECTOR "Vector", 12.25x12.25px, constraints scale/scale, fill #5D85FF
+      - FRAME "Text wrap", 71x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Personal", 55x16px, constraints left/top, fill #FFFFFF, text [Label/L3/Medium]
+        - FRAME "Img", 16x16px, constraints left/top
+          - VECTOR "Vector", 4.34x5.18px, constraints scale/scale, fill #939496
+    - COMPONENT "Open=No, Hover=Yes", 247x26px, horizontal pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1A1C1F
+      - INSTANCE "Vectors", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.sc-eMkmGk", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 4px, fill #5C84FE2E
+          - FRAME "Img", 14x14px, constraints center/center, opacity 90%
+            - VECTOR "Vector", 12.25x12.25px, constraints scale/scale, fill #5D85FF
+      - FRAME "Text wrap", 71x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Personal", 55x16px, constraints left/top, fill #FFFFFF, text [Label/L3/Medium]
+        - FRAME "Img", 16x16px, constraints left/top
+          - VECTOR "Vector", 4.34x5.18px, constraints scale/scale, fill #939496
+  - COMPONENT_SET "Drop down container 2", 287x262px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Expand=Yes", 247x176px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown frame/icon", 247x26px, horizontal pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Vectors", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.sc-eMkmGk", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 4px, fill #5C84FE2E
+            - FRAME "Img", 14x14px, constraints center/center, opacity 90%
+        - FRAME "Text wrap", 71x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Personal", 55x16px, constraints left/top, fill #FFFFFF, text [Label/L3/Medium]
+          - FRAME "Img", 16x16px, constraints left/top
+            - VECTOR "Vector", 5.18x4.34px, constraints scale/scale, fill #939496
+      - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+          - FRAME "Frame", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 12x12px, constraints scale/scale, fill #939496
+        - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+      - FRAME "Inner container", 247x58px, horizontal pad 0 0 0 6px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 4", 15x58px, constraints left/top
+          - RECTANGLE "::after", 1x55px, constraints center/center, radius 0.5px, fill #25262B
+        - FRAME "Menu container", 226x58px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Nav bar/Menu", 226x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - TEXT "Inbox", 218x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+          - INSTANCE "Nav bar/Menu", 226x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - TEXT "Inbox", 218x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+      - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+          - FRAME "Frame", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 12x12px, constraints scale/scale, fill #939496
+        - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+      - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+          - GROUP "Group 1", 14x14px, constraints left/top
+            - VECTOR "Vector", 14x8.42px, constraints scale/scale, fill #939496
+            - VECTOR "Vector", 13.99x4.34px, constraints scale/scale, fill #939496
+            - VECTOR "Vector", 13.99x4.25px, constraints scale/scale, fill #939496
+        - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+    - COMPONENT "Expand=No", 247x26px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown frame/icon", 247x26px, horizontal pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Vectors", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.sc-eMkmGk", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 4px, fill #5C84FE2E
+            - FRAME "Img", 14x14px, constraints center/center, opacity 90%
+        - FRAME "Text wrap", 71x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Personal", 55x16px, constraints left/top, fill #FFFFFF, text [Label/L3/Medium]
+          - FRAME "Img", 16x16px, constraints left/top
+            - VECTOR "Vector", 4.34x5.18px, constraints scale/scale, fill #939496
+  - COMPONENT_SET "Drop down container 3", 287x464px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Expand=Yes", 247x380px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+        - TEXT "Workspace", 65x15px, constraints left/top, fill #939496, text [Label/L4/Medium]
+        - FRAME "Img", 16x16px, constraints left/top
+          - VECTOR "Vector", 5.18x4.34px, constraints scale/scale, fill #939496
+      - INSTANCE "Drop down container 6", 247x176px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Dropdown frame/icon", 247x26px, horizontal pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Vectors", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "div.sc-eMkmGk", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 4px, fill #5C84FE2E
+          - FRAME "Text wrap", 71x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Personal", 55x16px, constraints left/top, fill #FFFFFF, text [Label/L3/Medium]
+            - FRAME "Img", 16x16px, constraints left/top
+        - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - FRAME "Frame", 16x16px, constraints scale/scale
+          - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+        - FRAME "Inner container", 247x58px, horizontal pad 0 0 0 6px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 4", 15x58px, constraints left/top
+            - RECTANGLE "::after", 1x55px, constraints center/center, radius 0.5px, fill #25262B
+          - FRAME "Menu container", 226x58px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Nav bar/Menu", 226x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 226x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - FRAME "Frame", 16x16px, constraints scale/scale
+          - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+        - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - GROUP "Group 1", 14x14px, constraints left/top
+          - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+      - INSTANCE "Drop down container 5", 247x176px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Dropdown frame/icon", 247x26px, horizontal pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Vectors", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #EC45E62E
+            - FRAME "Img", 14x14px, constraints center/center, opacity 90%
+          - FRAME "Text wrap", 81x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Personal", 65x16px, constraints left/top, fill #FFFFFF, text [Label/L3/Medium]
+            - FRAME "Img", 16x16px, constraints left/top
+        - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - FRAME "Frame", 16x16px, constraints scale/scale
+          - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+        - FRAME "Inner container", 247x58px, horizontal pad 0 0 0 6px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 4", 15x58px, constraints left/top
+            - RECTANGLE "::after", 1x55px, constraints center/center, radius 0.5px, fill #25262B
+          - FRAME "Menu container", 226x58px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Nav bar/Menu", 226x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 226x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+        - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - FRAME "Frame", 16x16px, constraints scale/scale
+          - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+        - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - GROUP "Group 1", 14x14px, constraints left/top
+          - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+    - COMPONENT "Expand=No", 247x24px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+        - TEXT "Workspace", 65x15px, constraints left/top, fill #939496, text [Label/L4/Medium]
+        - FRAME "Img", 16x16px, constraints left/top
+          - VECTOR "Vector", 4.34x5.18px, constraints scale/scale, fill #939496
+  - COMPONENT_SET "Action list SVG", 160x52px, horizontal pad 20 20 20 20px gap 15px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Property 1=in progress", 12x12px, constraints left/top, radius 50px, stroke #F2BE00 1.5px
+      - FRAME "Mask frame", 4x8px, constraints left_right/top_bottom
+        - FRAME "Cirlcle", 8x8px, constraints scale/scale, radius 100px, fill #F2BE00
+    - COMPONENT "Property 1=Done", 12x12px, constraints left/top, radius 50px, fill #5E6AD2
+      - VECTOR "Vector", 7.4x5.7px, constraints left_right/top_bottom, fill #090909
+    - COMPONENT "Property 1=Backlog", 12x12px, constraints left/top, radius 50px, stroke #BEC2C8 1.5px
+    - COMPONENT "Property 1=Todo", 12x12px, constraints left/top, radius 50px, stroke #E2E2E2 1.5px
+    - COMPONENT "Property 1=Canceled", 12x12px, constraints left/top, radius 50px, fill #95A2B3
+      - VECTOR "Vector", 5x5px, constraints scale/scale, fill #090909
+  - COMPONENT_SET "Vectors", 100x58px, horizontal pad 20 20 20 20px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Type=Personal", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "div.sc-eMkmGk", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 4px, fill #5C84FE2E
+        - FRAME "Img", 14x14px, constraints center/center, opacity 90%
+          - VECTOR "Vector", 12.25x12.25px, constraints scale/scale, fill #5D85FF
+    - COMPONENT "Type=Templates", 18x18px, horizontal pad 2 2 2 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #EC45E62E
+      - FRAME "Img", 14x14px, constraints center/center, opacity 90%
+        - VECTOR "Vector", 11.38x11.38px, constraints scale/scale, fill #ED46E7
+  - COMPONENT_SET "Icons", 412x58px, horizontal pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Type=Filter", 16x16px, constraints left/top
+      - VECTOR "Vector", 14x10px, constraints scale/scale, fill #959699
+    - COMPONENT "Type=No Priority", 16x16px, constraints left/top
+      - VECTOR "Vector", 3x1.5px, constraints scale/scale, fill #959699, opacity 90%
+      - VECTOR "Vector", 3x1.5px, constraints scale/scale, fill #959699, opacity 90%
+      - VECTOR "Vector", 3x1.5px, constraints scale/scale, fill #959699, opacity 90%
+    - COMPONENT "Type=Display", 16x16px, constraints left/top
+      - VECTOR "Vector", 14x12.75px, constraints scale/scale, fill #959699
+    - COMPONENT "Type=High Priority", 16x16px, constraints left/top
+      - VECTOR "Vector", 3x6px, constraints scale/scale, fill #959699
+      - VECTOR "Vector", 3x9px, constraints scale/scale, fill #959699
+      - VECTOR "Vector", 3x12px, constraints scale/scale, fill #959699
+    - COMPONENT "Type=Fav", 14x14px, constraints left/top
+      - VECTOR "Vector", 12.25x12.25px, constraints scale/scale, fill #58595B
+    - COMPONENT "Type=Medium Priority", 16x16px, constraints left/top
+      - VECTOR "Vector", 3x6px, constraints scale/scale, fill #959699
+      - VECTOR "Vector", 3x9px, constraints scale/scale, fill #959699
+      - VECTOR "Vector", 3x12px, constraints scale/scale, fill #58595B
+    - COMPONENT "Type=Low Priority", 16x16px, constraints left/top
+      - VECTOR "Vector", 3x6px, constraints scale/scale, fill #959699
+      - VECTOR "Vector", 3x9px, constraints scale/scale, fill #58595B
+      - VECTOR "Vector", 3x12px, constraints scale/scale, fill #58595B
+    - COMPONENT "Type=Add user", 18x18px, constraints left/top
+      - VECTOR "Vector", 4.5x5.06px, constraints scale/scale, fill #58595B
+      - VECTOR "Vector", 7.49x4.19px, constraints scale/scale, fill #58595B
+      - VECTOR "Vector", 15.75x15.75px, constraints scale/scale, fill #58595B
+    - COMPONENT "Type=Notification", 16x16px, constraints left/top
+      - VECTOR "Vector", 12x14.01px, constraints scale/scale, fill #959699
+    - COMPONENT "Type=Menu", 16x16px, constraints left/top
+      - VECTOR "Vector", 14x12px, constraints scale/scale, fill #959699
+      - VECTOR "Vector", 1.5x10px, constraints scale/scale, fill #959699
+      - VECTOR "Vector", 0x10px, constraints scale/scale, fill #959699
+    - COMPONENT "Type=Close", 12x12px, constraints left/top
+      - VECTOR "Vector", 7.87x7.87px, constraints scale/scale, fill #999A9D
+  - COMPONENT_SET "Nav bar- icons", 524x56px, horizontal pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Type=Inbox", 16x16px, constraints left/top
+      - FRAME "Frame", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 14x14px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=My issues", 16x16px, constraints left/top
+      - FRAME "Frame", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 14x14px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Views", 16x16px, constraints left/top
+      - GROUP "Group 1", 14x14px, constraints left/top
+        - VECTOR "Vector", 14x8.42px, constraints scale/scale, fill #939496
+        - VECTOR "Vector", 13.99x4.34px, constraints scale/scale, fill #939496
+        - VECTOR "Vector", 13.99x4.25px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Roadmaps", 16x16px, constraints left/top
+      - FRAME "Frame", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 14x14.19px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Teams", 16x16px, constraints left/top
+      - FRAME "Frame", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 5x5px, constraints scale/scale, fill #939496
+        - VECTOR "Vector", 14x14px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Issues", 16x16px, constraints left/top
+      - FRAME "Frame", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 12x12px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Projects", 16x16px, constraints left/top
+      - FRAME "Frame", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 12x12px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Invite people", 16x16px, constraints left/top
+      - FRAME "Frame", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 9.5x9.5px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Cycles", 16x16px, constraints left/top
+      - FRAME "Frame", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 14x13.83px, constraints scale/scale, fill #939496
+        - VECTOR "Vector", 4.73x5.31px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Link GitHub", 16x16px, constraints left/top
+      - FRAME "Frame", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 14x14px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Search", 16x16px, constraints left/top
+      - VECTOR "Vector", 14x14px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Edit", 16x16px, constraints left/top
+      - VECTOR "Vector", 14x14px, constraints scale/scale, fill #939496
+      - VECTOR "Vector", 9x9px, constraints scale/scale, fill #939496
+    - COMPONENT "Type=Add", 16x16px, constraints left/top
+      - VECTOR "Vector", 9.5x9.5px, constraints scale/scale, fill #999A9D
+    - COMPONENT "Type=My Account", 16x16px, constraints left/top
+      - VECTOR "Vector", 4x4.5px, constraints scale/scale, fill #939496
+      - VECTOR "Vector", 14x14px, constraints scale/scale, fill #939496
+  - COMPONENT_SET "Button/Primary/Large", 143x124px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Hover=No", 103x32px, horizontal pad 8 14 8 14px gap 7px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #5E69D1, stroke #6C77E5 1px, effect Primary Button
+      - TEXT "Add domain", 75x16px, constraints center/top, fill #FEFEFF, text [Label/L3/Medium]
+    - COMPONENT "Hover=Yes", 103x32px, horizontal pad 8 14 8 14px gap 7px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #6A76EB, stroke #6C77E5 1px, effect Primary Button
+      - TEXT "Add domain", 75x16px, constraints center/top, fill #FEFEFF, text [Label/L3/Medium]
+  - COMPONENT_SET "Button/Primary/Medium", 125x106px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Hover=No", 85x23px, horizontal pad 4 8 4 8px gap 7px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #5E69D1, stroke #6C77E5 1px, effect Primary Button
+      - TEXT "Add domain", 69x15px, constraints center/top, fill #FEFEFF, text [Label/L4/Medium]
+    - COMPONENT "Hover=Yes", 85x23px, horizontal pad 4 8 4 8px gap 7px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #6A76EB, stroke #6C77E5 1px, effect Primary Button
+      - TEXT "Add domain", 69x15px, constraints center/top, fill #FEFEFF, text [Label/L4/Medium]
+  - COMPONENT_SET "Button/Tabs", 128x106px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #090909, stroke #9747FF 1px
+    - COMPONENT "Property 1=Secondary", 88x23px, horizontal pad 4 8 4 8px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #1D1F24, stroke #2A2C31 1px, effect Tabs button
+      - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, fill #95A2B3
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: UI/Components / Dark
+- SECTION "Dark", 2033x1401px, fill #404040, stroke #FFFFFF1A 1px
+  - FRAME "Page -1", 1440x969px, constraints left/top, fill #090909
+    - FRAME "Nav bar", 275x969px, vertical pad 21 14 21 14px gap 20px sizing W:fixed H:fixed, constraints left/top, fill #090909
+      - FRAME "Top container", 247x28px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 84x18px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button - Close settings", 84x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top_bottom, radius 2px
+            - FRAME "Img", 16x16px, constraints left/center
+            - FRAME "span.sc-iBdnpw", 60x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Menu container main", 247x144px, vertical pad 0 0 0 0px gap 18px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Drop down container 6", 247x144px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 7px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - TEXT "My Account", 69x15px, constraints left/top, fill #939496, text [Label/L4/Medium]
+          - FRAME "Drop down container 6", 247x118px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Inner container", 247x118px, horizontal pad 0 0 0 6px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Main Body container", 1164x969px, horizontal pad 8 8 8 0px gap 10px sizing W:fixed H:fixed, constraints left_right/top_bottom
+      - FRAME "Body container", 1156x813px, vertical pad 44 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #0F1011, stroke #25262B 1px
+        - FRAME "Inner container", 640x604px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 640x79px, vertical pad 0 0 24 0px gap 7px align center/min sizing W:fill H:fixed, constraints left/top, stroke #25262B 1px
+            - TEXT "Preferences", 137x32px, constraints left/top, fill #FFFFFF, text [Heading/H1], [heading]
+            - TEXT "Manage your preferences", 160x16px, constraints left/top, fill #939496, text [Label/L3/Medium]
+          - FRAME "Main inner container", 640x150px, vertical pad 48 0 24 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, stroke #25262B 1px
+            - FRAME "span.sc-iBdnpw", 640x22px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Outer container", 640x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Main inner container", 640x88px, vertical pad 24 0 24 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, stroke #25262B 1px
+            - FRAME "Outer container", 640x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Main inner container", 640x166px, vertical pad 64 0 24 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, stroke #25262B 1px
+            - FRAME "span.sc-iBdnpw", 640x22px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Outer container", 640x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+
+Screen: UI/Components / Light
+- SECTION "Light", 2033x1401px, fill #404040, stroke #FFFFFF1A 1px
+  - FRAME "Page -1", 1440x969px, constraints left/top, fill #ECECEC
+    - FRAME "Nav bar", 275x969px, vertical pad 21 14 21 14px gap 20px sizing W:fixed H:fixed, constraints left/top, fill #ECECEC
+      - FRAME "Top container", 247x28px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 84x18px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button - Close settings", 84x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top_bottom, radius 2px
+            - FRAME "Img", 16x16px, constraints left/center
+            - FRAME "span.sc-iBdnpw", 60x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Menu container main", 247x144px, vertical pad 0 0 0 0px gap 18px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Drop down container 6", 247x144px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 7px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - TEXT "My Account", 69x15px, constraints left/top, fill #575859, text [Label/L4/Medium]
+          - FRAME "Drop down container 6", 247x118px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Inner container", 247x118px, horizontal pad 0 0 0 6px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Main Body container", 1164x969px, horizontal pad 8 8 8 0px gap 10px sizing W:fixed H:fixed, constraints left_right/top_bottom
+      - FRAME "Body container", 1156x813px, vertical pad 44 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FBFBFB, stroke #DCDCDC 1px
+        - FRAME "Inner container", 640x604px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 640x79px, vertical pad 0 0 24 0px gap 7px align center/min sizing W:fill H:fixed, constraints left/top, stroke #DCDCDC 1px
+            - TEXT "Preferences", 137x32px, constraints left/top, fill #1A1A1A, text [Heading/H1], [heading]
+            - TEXT "Manage your preferences", 160x16px, constraints left/top, fill #575859, text [Label/L3/Medium]
+          - FRAME "Main inner container", 640x150px, vertical pad 48 0 24 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, stroke #DCDCDC 1px
+            - FRAME "span.sc-iBdnpw", 640x22px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Outer container", 640x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Main inner container", 640x88px, vertical pad 24 0 24 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, stroke #DCDCDC 1px
+            - FRAME "Outer container", 640x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Main inner container", 640x166px, vertical pad 64 0 24 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, stroke #DCDCDC 1px
+            - FRAME "span.sc-iBdnpw", 640x22px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Outer container", 640x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+
+Screen: UI/Components / Magic Blue
+- SECTION "Magic Blue", 2033x1401px, fill #404040, stroke #FFFFFF1A 1px
+  - FRAME "Page -1", 1440x969px, constraints left/top, fill #15161D
+    - FRAME "Nav bar", 275x969px, vertical pad 21 14 21 14px gap 20px sizing W:fixed H:fixed, constraints left/top, fill #15161D
+      - FRAME "Top container", 247x28px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Button", 84x18px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button - Close settings", 84x18px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fill, constraints left/top_bottom, radius 2px
+            - FRAME "Img", 16x16px, constraints left/center
+            - FRAME "span.sc-iBdnpw", 60x18px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Menu container main", 247x144px, vertical pad 0 0 0 0px gap 18px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Drop down container 6", 247x144px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 7px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - TEXT "My Account", 69x15px, constraints left/top, fill #97989E, text [Label/L4/Medium]
+          - FRAME "Drop down container 6", 247x118px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Inner container", 247x118px, horizontal pad 0 0 0 6px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Main Body container", 1164x969px, horizontal pad 8 8 8 0px gap 10px sizing W:fixed H:fixed, constraints left_right/top_bottom
+      - FRAME "Body container", 1156x813px, vertical pad 44 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #191A22, stroke #292B38 1px
+        - FRAME "Inner container", 640x604px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 640x79px, vertical pad 0 0 24 0px gap 7px align center/min sizing W:fill H:fixed, constraints left/top, stroke #292B38 1px
+            - TEXT "Preferences", 137x32px, constraints left/top, fill #FFFFFF, text [Heading/H1], [heading]
+            - TEXT "Manage your preferences", 160x16px, constraints left/top, fill #97989E, text [Label/L3/Medium]
+          - FRAME "Main inner container", 640x150px, vertical pad 48 0 24 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, stroke #292B38 1px
+            - FRAME "span.sc-iBdnpw", 640x22px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Outer container", 640x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Main inner container", 640x88px, vertical pad 24 0 24 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, stroke #292B38 1px
+            - FRAME "Outer container", 640x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Main inner container", 640x166px, vertical pad 64 0 24 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, stroke #292B38 1px
+            - FRAME "span.sc-iBdnpw", 640x22px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Outer container", 640x40px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+
+Screen: UI/Components / Dark
+- SECTION "Dark", 2079x1169px, fill #404040, stroke #FFFFFF1A 1px
+  - FRAME "Page -1", 1440x969px, constraints left/top, fill #090909
+    - FRAME "Nav bar", 275x969px, vertical pad 18 14 18 14px gap 20px sizing W:fixed H:fixed, constraints left/top, fill #090909
+      - FRAME "Top container", 247x28px, horizontal pad 0 0 0 0px gap 53px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Workspace", 91x28px, horizontal pad 4 4 4 4px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Logo", 67x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #090909
+            - RECTANGLE "linear-app-icon 1", 20x20px, constraints left/top, fill image(hash: 2f3eab897c53e47591480b29d8e4f900e00bd9f6)
+            - TEXT "Linear", 39x13px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 13px]
+          - FRAME "SVG", 8x8px, constraints left/top
+            - VECTOR "Vector", 7.38x4.35px, constraints scale/scale, fill #939496
+        - FRAME "Icons container", 64x28px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 6 6 6 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 6 6 6 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #1A1C1F, stroke #26272B 1px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+      - FRAME "Menu container main", 247x288px, vertical pad 0 0 0 0px gap 18px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Menu container 1", 247x88px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - TEXT "Inbox", 177x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+            - FRAME "div.sc-PlNur", 26x20px, vertical pad 3 6 3 6px gap 0px sizing W:fixed H:fill, constraints left/top, radius 4px, fill #151619
+          - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+          - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - TEXT "Inbox", 213x16px, constraints left/top, fill #E2E3E5, text [Label/L3/Medium]
+        - FRAME "Drop down master container", 247x182px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Drop down container 1", 247x24px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Drop down container 1", 247x24px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Drop down container 3", 247x380px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Drop down container 6", 247x176px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Drop down container 5", 247x176px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Drop down container 5", 247x24px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+    - FRAME "Main Body container", 1164x969px, horizontal pad 8 8 8 0px gap 10px sizing W:fixed H:fixed, constraints left_right/top_bottom
+      - FRAME "Body container", 1156x813px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #0F1011, stroke #25262B 1px
+        - FRAME "Frame 6", 1156x40px, horizontal pad 6 24 6 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, stroke #1A1B20 1px
+          - INSTANCE "Dropdown frame/icon", 77x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Vectors", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Text wrap", 71x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icons framer", 77x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon", 24x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - FRAME "Divider frame", 13x16px, vertical pad 0 6 0 6px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon", 24x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+        - FRAME "Frame 7", 1156x45px, horizontal pad 11 24 11 30px gap 31px align space_between/min sizing W:fill H:fixed, constraints left/top, stroke #1A1B20 1px
+          - FRAME "Filter container", 52x16px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top
+            - TEXT "Filter", 30x15px, constraints left/top, fill #E2E3E5, text [Label/L4/Medium]
+          - INSTANCE "Button/Tabs", 72x23px, horizontal pad 4 6 4 6px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #1D1F24, stroke #2A2C31 1px, effect Tabs button
+            - INSTANCE "Icons", 14x14px, constraints left/top
+            - TEXT "Canceled", 42x15px, constraints left/top, fill #E3E4E6, text [Label/L4/Regular]
+        - FRAME "Frame 8", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 1px
+          - FRAME "Filter container", 107x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, stroke #F2BE00 1.5px
+            - TEXT "In Progress", 65x15px, constraints left/top, fill #E2E3E5, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #939496, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 289x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 200x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 270x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 181x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 9", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 1px
+          - FRAME "Filter container", 71x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, stroke #E2E2E2 1.5px
+            - TEXT "Todo", 29x15px, constraints left/top, fill #E2E3E5, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #939496, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 411x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 322x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 309x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 220x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 199x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 126x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 1px
+          - FRAME "Filter container", 88x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, stroke #BEC2C8 1.5px
+            - TEXT "Backlog", 46x15px, constraints left/top, fill #E2E3E5, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #939496, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 312x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 223x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 250x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 161x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 199x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 126x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 1px
+          - FRAME "Filter container", 73x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, fill #5E6AD2
+            - TEXT "Done", 31x15px, constraints left/top, fill #E2E3E5, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #939496, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 319x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 230x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 199x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 126x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 365x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 276x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 205x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 132x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #16171A, stroke #1A1B20 1px
+          - FRAME "Filter container", 97x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, fill #95A2B3
+            - TEXT "Canceled", 55x15px, constraints left/top, fill #E2E3E5, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #939496, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 287x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 198x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #0F1011, stroke #25262B 1px
+          - FRAME "Right container", 289x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 200x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #2A2C31 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Action pills", 129x23px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/bottom, radius 4px, fill #1A1C1F, stroke #2A2C31 1px
+      - FRAME "Text frame", 43x23px, horizontal pad 4 8 4 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #090909, stroke #25262B 1px
+        - TEXT "Dark", 27x15px, constraints left/top, fill #959699, text [Inter Regular, 12px]
+      - FRAME "Text frame", 45x23px, horizontal pad 4 8 4 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Light", 29x15px, constraints left/top, fill #959699, text [Inter Regular, 12px]
+      - FRAME "Text frame", 41x23px, horizontal pad 4 8 4 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Blue", 25x15px, constraints left/top, fill #959699, text [Inter Regular, 12px]
+  - FRAME "Drop down container", 225x232px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #121314, stroke #2C2E34 1px, effect Drop down menu
+    - FRAME "Menu button Container", 225x40px, vertical pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #2C2E34 1px
+      - INSTANCE "Buttons", 217x32px, horizontal pad 8 10 8 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #121314
+        - TEXT "Workspace settings", 74x16px, constraints left/top, fill #E3E4E7, text [Inter Regular, 13px]
+        - FRAME "Shortcut frame", 52x13px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "G", 9x13px, constraints left/top, fill #96979A, text [Label/L5/Medium]
+          - TEXT "Then", 27x13px, constraints left/top, fill #96979A, text [Label/L5/Regular]
+          - TEXT "S", 8x13px, constraints left/top, fill #96979A, text [Label/L5/Medium]
+    - FRAME "Menu button Container", 225x76px, vertical pad 6 4 6 4px gap 0px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Buttons", 217x32px, horizontal pad 8 10 8 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #121314
+        - TEXT "Workspace settings", 122x16px, constraints left/top, fill #E3E4E7, text [Inter Regular, 13px]
+      - INSTANCE "Buttons", 217x32px, horizontal pad 8 10 8 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #121314
+        - TEXT "Workspace settings", 174x16px, constraints left/top, fill #E3E4E7, text [Inter Regular, 13px]
+    - FRAME "Menu button Container", 225x44px, vertical pad 6 4 6 4px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #2C2E34 1px
+      - INSTANCE "Buttons", 217x32px, horizontal pad 8 10 8 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #121314
+        - TEXT "Workspace settings", 142x16px, constraints left/top, fill #E3E4E7, text [Inter Regular, 13px]
+    - FRAME "Menu button Container", 225x72px, vertical pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Buttons", 217x32px, horizontal pad 8 10 8 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #121314
+        - TEXT "Workspace settings", 113x16px, constraints left/top, fill #E3E4E7, text [Inter Regular, 13px]
+        - FRAME "Shortcut frame", 55x13px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "G", 9x13px, constraints left/top, fill #96979A, text [Label/L5/Medium]
+          - TEXT "Then", 27x13px, constraints left/top, fill #96979A, text [Label/L5/Regular]
+          - TEXT "S", 11x13px, constraints left/top, fill #96979A, text [Label/L5/Medium]
+        - TEXT "▶", 8x10px, constraints left/top, fill #96979A, text [Inter Regular, 8px]
+      - INSTANCE "Buttons", 217x32px, horizontal pad 8 10 8 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #121314
+        - TEXT "Workspace settings", 44x16px, constraints left/top, fill #E3E4E7, text [Inter Regular, 13px]
+        - TEXT "▶", 23x10px, constraints left/top, fill #96979A, text [Inter Regular, 8px]
+  - FRAME "Overlay", 384x101.5px, horizontal pad 12 12 12 12px gap 8px sizing W:fixed H:fixed, constraints left_right/top, radius 6px, fill #16171A, stroke #313338 1px, effect Overlay-Shadow
+    - FRAME "div.sc-beySPh", 16x16px, horizontal pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Img", 16x16px, constraints center/top
+        - VECTOR "Vector", 14x14px, constraints scale/scale, fill #999A9D
+    - FRAME "div.sc-beySPh", 335x77.5px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "div.sc-beySPh", 335x15.5px, horizontal pad 0 0 0 0px gap 187.4px align space_between/min sizing W:fill H:fixed, constraints left_right/top
+        - FRAME "span.sc-iBdnpw", 136x15.5px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left/top_bottom
+          - TEXT "Open in desktop app?", 136x15.5px, constraints left/top, fill #FFFFFF, text [Inter Medium, 13px]
+        - FRAME "div.sc-beySPh", 12x15.5px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top_bottom
+          - FRAME "div.sc-beySPh", 12x15.5px, horizontal pad 0 0 3.5 0px gap 0px sizing W:fixed H:fixed, constraints left/center
+            - FRAME "Button → Img", 12x12px, constraints left/top
+      - FRAME "div.sc-beySPh", 335x56px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left_right/top
+        - FRAME "span.sc-iBdnpw", 335x16px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left_right/top
+          - TEXT "It looks like you have the desktop app installed", 287x16px, constraints left/top, fill #999A9D, text [Inter Regular, 13px]
+        - FRAME "div.sc-beySPh", 335x24px, constraints left/top
+          - FRAME "Label:margin", 171.48x16px, vertical pad 0 0 0 42.75px gap 0px align min/max sizing W:fixed H:fixed, constraints right/top
+            - FRAME "Label", 129x16px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/top
+          - INSTANCE "Button/Primary/Medium", 85x23px, horizontal pad 4 8 4 8px gap 7px align center/center sizing W:fixed H:fixed, constraints left/center, radius 5px, fill #5E69D1, stroke #6C77E5 1px, effect Primary Button
+            - TEXT "Add domain", 69x15px, constraints center/top, fill #FEFEFF, text [Label/L4/Medium]
+          - INSTANCE "Button/Secondary/Medium", 61x23px, horizontal pad 4 8 4 8px gap 0px align center/center sizing W:fixed H:fixed, constraints left/center, radius 5px, fill #23262C, stroke #313339 1px, effect Secondary butotn
+            - TEXT "Start free trial", 45x15px, constraints center/top, fill #E3E4E8, text [Label/L4/Medium]
+
+Screen: UI/Components / Light
+- SECTION "Light", 2110x1169px, fill #404040, stroke #FFFFFF1A 1px
+  - FRAME "Page -1", 1440x969px, constraints left/top, fill #ECECEC
+    - FRAME "Nav bar", 275x969px, vertical pad 18 14 18 14px gap 20px sizing W:fixed H:fixed, constraints left/top, fill #ECECEC
+      - FRAME "Top container", 247x28px, horizontal pad 0 0 0 0px gap 53px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Workspace", 91x28px, horizontal pad 4 4 4 4px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Logo", 67x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #ECECEC
+            - RECTANGLE "linear-app-icon 1", 20x20px, constraints left/top, fill image(hash: 2f3eab897c53e47591480b29d8e4f900e00bd9f6)
+            - TEXT "Linear", 39x13px, constraints left/top, fill #1A1A1A, text [Inter SemiBold, 13px]
+          - FRAME "SVG", 8x8px, constraints left/top
+            - VECTOR "Vector", 7.38x4.35px, constraints scale/scale, fill #939496
+        - FRAME "Icons container", 64x28px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 6 6 6 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 6 6 6 6px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #DEDEDE, stroke #C6C6C6 1px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+      - FRAME "Menu container main", 247x828px, vertical pad 0 0 0 0px gap 18px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Menu container 1", 247x88px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - TEXT "Inbox", 177x16px, constraints left/top, fill #2D2D2E, text [Label/L3/Medium]
+            - FRAME "div.sc-PlNur", 26x20px, vertical pad 3 6 3 6px gap 0px sizing W:fixed H:fill, constraints left/top, radius 4px, fill #DEDEE0
+          - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - TEXT "Inbox", 213x16px, constraints left/top, fill #2D2D2E, text [Label/L3/Medium]
+          - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar- icons", 16x16px, constraints left/top
+            - TEXT "Inbox", 213x16px, constraints left/top, fill #2D2D2E, text [Label/L3/Medium]
+        - FRAME "Drop down master container", 247x722px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Drop down container 1", 247x114px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Drop down container 1", 247x84px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+          - INSTANCE "Drop down container 3", 247x380px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Drop down container 6", 247x176px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Drop down container 5", 247x176px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Drop down container 5", 247x114px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Dropdown frame/No icon", 247x24px, horizontal pad 4 4 4 4px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Nav bar/Menu", 247x28px, horizontal pad 4 2 4 6px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 4px
+    - FRAME "Main Body container", 1164x969px, horizontal pad 8 8 8 0px gap 10px sizing W:fixed H:fixed, constraints left_right/top_bottom
+      - FRAME "Body container", 1156x813px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FBFBFB, stroke #DCDCDC 1px
+        - FRAME "Frame 6", 1156x40px, horizontal pad 6 24 6 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, stroke #E7E7E7 1px
+          - INSTANCE "Dropdown frame/icon", 77x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "Vectors", 18x18px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Text wrap", 71x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icons framer", 77x28px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon", 24x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - FRAME "Divider frame", 13x16px, vertical pad 0 6 0 6px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icon", 24x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+        - FRAME "Frame 7", 1156x45px, horizontal pad 11 24 11 30px gap 31px align space_between/min sizing W:fill H:fixed, constraints left/top, stroke #E7E7E7 1px
+          - FRAME "Filter container", 52x16px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top
+            - TEXT "Filter", 30x15px, constraints left/top, fill #2D2D2E, text [Label/L4/Medium]
+          - INSTANCE "Button/Tabs", 72x23px, horizontal pad 4 6 4 6px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #D4D4D4 1px, effect Tabs button
+            - INSTANCE "Icons", 14x14px, constraints left/top
+            - TEXT "Canceled", 42x15px, constraints left/top, fill #2F2F31, text [Label/L4/Regular]
+        - FRAME "Frame 8", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #ECECEC, stroke #E7E7E7 1px
+          - FRAME "Filter container", 107x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, stroke #F2BE00 1.5px
+            - TEXT "In Progress", 65x15px, constraints left/top, fill #2D2D2E, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #575859, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 289x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 200x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 270x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 181x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 9", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #ECECEC, stroke #E7E7E7 1px
+          - FRAME "Filter container", 71x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, stroke #B8B8B8 1.5px
+            - TEXT "Todo", 29x15px, constraints left/top, fill #2D2D2E, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #575859, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 411x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 322x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 309x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 220x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 199x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 126x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #ECECEC, stroke #E7E7E7 1px
+          - FRAME "Filter container", 88x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, stroke #95999F 1.5px
+            - TEXT "Backlog", 46x15px, constraints left/top, fill #2D2D2E, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #575859, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 312x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 223x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 250x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 161x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 199x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 126x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #ECECEC, stroke #E7E7E7 1px
+          - FRAME "Filter container", 73x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, fill #5E6AD2
+            - TEXT "Done", 31x15px, constraints left/top, fill #2D2D2E, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #575859, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 319x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 230x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 199x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 126x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 365x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 276x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 205x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 132x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 12", 1156x36px, horizontal pad 4 24 4 30px gap 31px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #ECECEC, stroke #E7E7E7 1px
+          - FRAME "Filter container", 97x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action list SVG", 14x14px, constraints left/top, radius 50px, fill #6E7B8B
+            - TEXT "Canceled", 55x15px, constraints left/top, fill #2D2D2E, text [Label/L4/Medium]
+            - TEXT "2", 8x15px, constraints left/top, fill #575859, text [Label/L4/Regular]
+          - INSTANCE "Nav bar", 28x28px, horizontal pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, effect [drop_shadow 4px offset 0 2 #0000000A, drop_shadow 2px offset 0 1 #0000000A]
+            - INSTANCE "Nav bar- icons", 16x16px, constraints center/center
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 287x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 198x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Issues frame", 1156x44px, horizontal pad 8 30 8 30px gap 18px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FBFBFB, stroke #DCDCDC 1px
+          - FRAME "Right container", 289x23px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Status Container", 79x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Filter container", 200x23px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 240x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Action pills", 167x28px, horizontal pad 6.5 9 6.5 8px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF00, stroke #D4D4D4 1px
+            - FRAME "Frame 10", 43x15px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11", 30x28px, horizontal pad 0 0 0 10px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Action pills", 129x23px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/bottom, radius 4px, fill #FFFFFF, stroke #D4D4D4 1px
+      - FRAME "Text frame", 43x23px, horizontal pad 4 8 4 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #DCDCDC 1px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

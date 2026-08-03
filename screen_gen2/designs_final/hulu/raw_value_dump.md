@@ -1,0 +1,217 @@
+---
+name: hulu-ul-screens-community
+source_file: Hulu Ul Screens (Community)
+source_page:   UIKit
+generated_at: 2026-07-25T09:25:33.852892+00:00
+---
+
+# Hulu Ul Screens (Community) Design Guidelines
+
+## Source
+- Figma file: Hulu Ul Screens (Community)
+- Figma page:   UIKit
+- Extracted at: 2026-07-25T09:25:33.852892+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 28 uses
+- #FEFFFF: 20 uses
+- #969696: 16 uses
+- #FEFEFE: 12 uses
+- #959595: 10 uses
+- #FDFFFF: 10 uses
+- #000000: 9 uses
+- #F7FCFC: 9 uses
+- #979797: 7 uses
+- #FAFDFD: 7 uses
+- #F7F7F7: 6 uses
+- #F9FDFE: 6 uses
+- #FBFEFE: 6 uses
+- #FCFEFE: 6 uses
+- #FDFEFE: 6 uses
+- #1F1736: 5 uses
+- #F8FCFD: 5 uses
+- #F9FEFE: 5 uses
+- #4499F8: 4 uses
+- #9C9C9C: 4 uses
+- #B0B4B6: 4 uses
+- #EFEFEF: 4 uses
+- #F9FDFD: 4 uses
+- #FAFCFC: 4 uses
+- #FAFDFE: 4 uses
+- #FBFFFF: 4 uses
+- #060A11: 3 uses
+- #9F9F9F: 3 uses
+- #B6BDC2: 3 uses
+- #EDF1F2: 3 uses
+- #F2F2F2: 3 uses
+- #F6FBFC: 3 uses
+- #F7FBFB: 3 uses
+- #F9F9F9: 3 uses
+- #F9FCFC: 3 uses
+- #F9FCFD: 3 uses
+- #FBFDFD: 3 uses
+- #FDFDFD: 3 uses
+- #FDFEFF: 3 uses
+- #FEFEFF: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Regular, 11.67px: 73 uses
+- Inter Regular, 11.33px: 44 uses
+- Inter Regular, 12px: 24 uses
+- Inter Regular, 16px: 23 uses
+- Inter Regular, 7.33px: 22 uses
+- Inter Regular, 12.33px: 20 uses
+- Inter Regular, 7.67px: 20 uses
+- Inter Regular, 11px: 19 uses
+- Inter Regular, 13.67px: 19 uses
+- Inter Regular, 14px: 18 uses
+- Inter Regular, 13.33px: 11 uses
+- Inter Regular, 8px: 11 uses
+- Inter Regular, 10.67px: 9 uses
+- Inter Regular, 10.33px: 8 uses
+- Inter Regular, 15.33px: 7 uses
+- Inter Regular, 13px: 6 uses
+- Manrope SemiBold, 24px: 6 uses
+- Inter Regular, 12.67px: 5 uses
+- Inter Regular, 14.33px: 5 uses
+- Inter Regular, 14.67px: 5 uses
+- Inter Regular, 8.67px: 5 uses
+- Inter Regular, 10px: 3 uses
+- Inter Regular, 15.67px: 3 uses
+- Inter Regular, 17px: 3 uses
+- Inter Regular, 21.33px: 3 uses
+
+## Typography Hierarchy
+- 24px - Manrope SemiBold, 24px (raw)
+- 21.33px - Inter Regular, 21.33px (raw)
+- 17px - Inter Regular, 17px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 15.67px - Inter Regular, 15.67px (raw)
+- 15.33px - Inter Regular, 15.33px (raw)
+- 14.67px - Inter Regular, 14.67px (raw)
+- 14.33px - Inter Regular, 14.33px (raw)
+- 14px - Inter Regular, 14px (raw)
+- 13.67px - Inter Regular, 13.67px (raw)
+- 13.33px - Inter Regular, 13.33px (raw)
+- 13px - Inter Regular, 13px (raw)
+- 12.67px - Inter Regular, 12.67px (raw)
+- 12.33px - Inter Regular, 12.33px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 11.67px - Inter Regular, 11.67px (raw)
+- 11.33px - Inter Regular, 11.33px (raw)
+- 11px - Inter Regular, 11px (raw)
+- 10.67px - Inter Regular, 10.67px (raw)
+- 10.33px - Inter Regular, 10.33px (raw)
+- 10px - Inter Regular, 10px (raw)
+- 8.67px - Inter Regular, 8.67px (raw)
+- 8px - Inter Regular, 8px (raw)
+- 7.67px - Inter Regular, 7.67px (raw)
+- 7.33px - Inter Regular, 7.33px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen:   UIKit / Intro
+- FRAME "Intro", 1333x2127px, vertical pad 160 160 160 160px gap 88px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 6", 1013x140px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "img_v3_02k9_c90e6fc8-9338-4f74-a86a-197804e4da7g 1", 140x140px, constraints left/top, fill image(hash: a9af280a876ddd0647a3f3771db2435d6d1511db)
+    - TEXT "UXarts Screenshot to Design Component", 833x136px, constraints left/top, fill #4499F8, text [Manrope ExtraBold, 50px], [heading]
+  - FRAME "Frame 3", 1013x299px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "What can you do with Screenshot to Design Component?", 1013x110px, constraints left/top, fill #4499F8, text [Manrope ExtraBold, 40px], [heading]
+    - TEXT "Screenshot to Design Component enables users to upload scree", 1013x165px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+  - FRAME "Frame 2", 1013x352px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Screenshot to Design Component Capabilities", 1013x55px, constraints left/top, fill #4499F8, text [Manrope ExtraBold, 40px], [heading]
+    - FRAME "Frame 1", 1013x273px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Accurate Component Detection: Reliably identifies and segmen", 1013x66px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+      - TEXT "Editable Figma Files: Outputs high-quality, editable layers ", 1013x66px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+      - TEXT "Structure Recognition: Understands hierarchy and relationshi", 1013x66px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+      - TEXT "Al-Powered Insights: Extracts clean, reusable components, re", 1013x33px, constraints left/top, fill #1F1736, text [Manrope SemiBold, 24px], [heading]
+  - FRAME "Frame 4", 348x104px, horizontal pad 31 66 31 66px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #4499F8
+    - TEXT "Download Now", 215x41px, constraints left/top, fill #FFFFFF, text [Manrope Bold, 30px], [heading]
+
+Screen:   UIKit / Before generation (Image)
+- FRAME "Before generation (Image)", 5220x2127px, vertical pad 160 160 160 160px gap 120px sizing W:fixed H:fixed, constraints left/top, fill #393939, stroke #696969 1px
+  - TEXT "Before generation (Image)", 1002x97px, constraints left/top, fill #FFFFFF, text [Inter Medium, 80px], [heading]
+  - FRAME "Frame 7", 4900x1624px, horizontal pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+
+Screen:   UIKit / After generation (Figma design)
+- FRAME "After generation (Figma design)", 6810x2124px, vertical pad 160 160 160 160px gap 120px sizing W:fixed H:fixed, constraints left/top, fill #2A2A2A, stroke #72C572 1px
+  - TEXT "After generation (Figma design)", 1219x97px, constraints left/top, fill #FFFFFF, text [Inter Medium, 80px], [heading]
+  - FRAME "Frame 17", 6490x1587px, horizontal pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 13", 2650x976px, vertical pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 2650x84px, horizontal pad 0 0 16 0px gap 120px sizing W:fill H:fixed, constraints left/top, stroke #F8F8F8 1px
+        - FRAME "Frame 10", 2650x68px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Generated Design", 341x48px, constraints left/top, fill #FFFFFF, text [Inter Regular, 40px], [heading]
+      - FRAME "Frame 20", 2650x812px, horizontal pad 0 0 0 0px gap 80px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 22", 2650x812px, horizontal pad 0 0 0 0px gap 80px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 375x812px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "document_1_0:0", 375x812px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 375x812px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "document_2_0:0", 375x812px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 375x812px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "document_3_0:0", 375x812px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 375x812px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "document_4_0:0", 375x812px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 375x812px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "document_5_0:0", 375x812px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 375x812px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "document_6_0:0", 375x812px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 16", 3760x1587px, vertical pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11", 3760x64px, horizontal pad 0 0 16 0px gap 120px sizing W:fill H:fixed, constraints left/top, stroke #F8F8F8 1px
+        - TEXT "Generated UI Components", 504x48px, constraints left/top, fill #FFFFFF, text [Inter Regular, 40px], [heading]
+      - FRAME "Frame 23", 3760x1443px, horizontal pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 1440x443px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CONTAINER", 720x443px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "TEXT", 117x17px, constraints left/top, fill #F7F7F7, text [Inter Regular, 14px]
+            - FRAME "BASIC_COMPONENT1", 720x406px, vertical pad 84 84 84 84px gap 84px sizing W:fixed H:fixed, constraints left/top, fill #F7F7F7
+          - FRAME "CONTAINER", 720x443px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "TEXT", 106x17px, constraints left/top, fill #EFEFEF, text [Inter Regular, 14px]
+            - FRAME "BASIC_COMPONENT0", 720x406px, vertical pad 84 84 84 84px gap 84px sizing W:fixed H:fixed, constraints left/top, fill #EFEFEF
+        - FRAME "Frame", 1440x1443px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CONTAINER", 720x1443px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "TEXT", 139x17px, constraints left/top, fill #F7F7F7, text [Inter Regular, 14px]
+            - FRAME "FEATURE_COMPONENTS1", 720x1406px, vertical pad 84 84 84 84px gap 84px sizing W:fixed H:fixed, constraints left/top, fill #F7F7F7
+          - FRAME "CONTAINER", 720x1443px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "TEXT", 106x17px, constraints left/top, fill #EFEFEF, text [Inter Regular, 14px]
+            - FRAME "FEATURE_COMPONENTS0", 720x1406px, vertical pad 84 84 84 84px gap 84px sizing W:fixed H:fixed, constraints left/top, fill #EFEFEF
+        - FRAME "Frame", 720x330.67px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "CONTAINER", 720x330.67px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "TEXT", 62x17px, constraints left/top, fill #F7F7F7, text [Inter Regular, 14px]
+            - FRAME "RESOURCE1", 720x293.67px, vertical pad 84 84 84 84px gap 84px sizing W:fixed H:fixed, constraints left/top, fill #F7F7F7
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

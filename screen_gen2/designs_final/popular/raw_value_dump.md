@@ -1,0 +1,1120 @@
+---
+name: popular-app-website-mockups-community
+source_file: Popular App & Website Mockups (Community)
+source_page: All pages (3): 🖥 Mockups, 🖼 Thumbnail, 🤨 About
+generated_at: 2026-07-25T09:34:37.020131+00:00
+---
+
+# Popular App & Website Mockups (Community) Design Guidelines
+
+## Source
+- Figma file: Popular App & Website Mockups (Community)
+- Figma page: All pages (3): 🖥 Mockups, 🖼 Thumbnail, 🤨 About
+- Extracted at: 2026-07-25T09:34:37.020131+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- gray/500: [#E5E5E5]
+- gray/900: none
+- gray/800: [#656D79]
+- primary/white: none
+- dark/100: [#D7D8DB]
+
+## Raw Colors (unstyled)
+- #333333: 174 uses
+- #FFFFFF: 75 uses
+- #222222: 42 uses
+- #E5E5E5: 34 uses
+- #D5D5D5: 30 uses
+- #18A0FB: 20 uses
+- #000000: 16 uses
+- #606060: 14 uses
+- #CDC3CE: 12 uses
+- #EAEAEA: 8 uses
+- #3A123E: 7 uses
+- #8394EA: 7 uses
+- #F58B4F: 7 uses
+- #B3B3B3: 6 uses
+- #F9F9FA: 5 uses
+- #3D3F44: 4 uses
+- #636565: 4 uses
+- #78786A: 4 uses
+- #BC3755: 4 uses
+- #BCBDBD: 4 uses
+- #D3D3D3: 4 uses
+- #F9F9FF: 4 uses
+- #2C2C2C: 3 uses
+- #2E2E28: 3 uses
+- #4C2851: 3 uses
+- #505A8A: 3 uses
+- #616061: 3 uses
+- #62C453: 3 uses
+- #EC6A5F: 3 uses
+- #F5BF4F: 3 uses
+
+## Typography Tokens
+- medium/3xl: Inter Medium (500), 30px / 123.94%, tracking 0px
+- website heading/Heading 1: Inter Black (900), 64px / 99.15%, tracking -1.92px
+- medium/lg: Inter Medium (500), 18px / 123.94%, tracking 0px
+- regular/lg: Inter Regular (400), 18px / 123.94%, tracking 0px
+- medium/2xl: Inter Medium (500), 24px / 123.94%, tracking 0px
+- medium/sm: Inter Medium (500), 14px / 123.94%, tracking 0px
+- semibold/base: Inter SemiBold (600), 16px / 123.94%, tracking 0px
+- semibold/4xl: Inter SemiBold (600), 36px / 123.94%, tracking 0px
+- semibold/xl: Inter SemiBold (600), 20px / 123.94%, tracking 0px
+- semibold/3xl: Inter SemiBold (600), 30px / 123.94%, tracking 0px
+- semibold/sm: Inter SemiBold (600), 14px / 123.94%, tracking 0px
+- medium/xl: Inter Medium (500), 20px / 123.94%, tracking 0px
+- regular/base: Inter Regular (400), 16px / 123.94%, tracking 0px
+- semibold/lg: Inter SemiBold (600), 18px / 123.94%, tracking 0px
+
+## Raw Typography (unstyled)
+- Poppins Regular, 16px: 6 uses
+- SF Pro Rounded Medium, 16px: 4 uses
+- Helvetica Neue Bold, 36px: 3 uses
+
+## Typography Hierarchy
+- 64px - website heading/Heading 1 (Inter Black)
+- 36px - Helvetica Neue Bold, 36px (raw)
+- 36px - semibold/4xl (Inter SemiBold)
+- 30px - medium/3xl (Inter Medium)
+- 30px - semibold/3xl (Inter SemiBold)
+- 24px - medium/2xl (Inter Medium)
+- 20px - medium/xl (Inter Medium)
+- 20px - semibold/xl (Inter SemiBold)
+- 18px - medium/lg (Inter Medium)
+- 18px - regular/lg (Inter Regular)
+- 18px - semibold/lg (Inter SemiBold)
+- 16px - Poppins Regular, 16px (raw)
+- 16px - SF Pro Rounded Medium, 16px (raw)
+- 16px - regular/base (Inter Regular)
+- 16px - semibold/base (Inter SemiBold)
+- 14px - medium/sm (Inter Medium)
+- 14px - semibold/sm (Inter SemiBold)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Gentle Backdrop: [drop_shadow 32px offset 0 8 #00000026]
+- Sketch Shadow (Prod): [drop_shadow 0px offset 0 0 #0000000F, drop_shadow 36px offset 0 10 #00000029]
+- dropshadow/md: [drop_shadow 6px offset 0 4 #0000001A, drop_shadow 4px offset 0 2 #0000000F]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Frogma - layers
+- Terminal
+- Oops!
+- Magicsheet
+- Lamp sign in
+- Brekt Sign In
+- Brekt Reports
+- Frogma logo
+- Frogma
+- Whack app
+- Exponential app
+
+## Component Specs
+- Frogma - layers: size 1600x900px, radius 16px, fill #E5E5E5, stroke gray/500 1px, text [Inter ExtraBold, 144px, medium/lg, regular/lg, medium/2xl]
+- Terminal: size 1600x900px, radius 16px, fill #171717
+- Oops!: size 1600x900px, radius 16px, fill #FFFFFF, stroke #EAEAEA 1px, text [Helvetica Neue HelveticaNeue, 24px, Helvetica Neue Bold, 36px]
+- Magicsheet: size 1600x900px, fill #EBF2FE, stroke #EAEAEA 1px, text [SF Pro Rounded Medium, 16px, SF Pro Rounded Semibold, 48px, SF Pro Rounded Medium, 17.5px, SF Pro Rounded Semibold, 36px]
+- Lamp sign in: size 1600x900px, radius 16px, fill #FFFFFF, stroke #EAEAEA 1px, text [Poppins Regular, 16px, Poppins Medium, 48px, Poppins Medium, 36px]
+- Brekt Sign In: size 1600x900px, radius 16px, fill #FFFFFF, stroke #EAEAEA 1px, text [medium/sm, semibold/base, semibold/4xl, semibold/xl, Helvetica Neue Bold, 36px]
+- Brekt Reports: size 1600x900px, radius 16px, fill #F9F9F9, stroke #EAEAEA 1px, text [semibold/base, Inter Medium, 12px, medium/sm, semibold/3xl, semibold/sm, semibold/xl, Helvetica Neue Bold, 36px]
+- Frogma logo: size 1600x900px, radius 16px, fill #E5E5E5, stroke gray/500 1px, text [regular/lg, medium/lg, medium/2xl]
+- Frogma: size 1600x900px, radius 16px, fill #E5E5E5, stroke gray/500 1px, text [Inter SemiBold, 64px, Inter ExtraBold, 144px, medium/lg, regular/lg, medium/2xl]
+- Whack app: size 1600x900px, radius 16px, fill #FFFFFF, stroke #68516B 1px, text [medium/xl, medium/lg, regular/base, semibold/lg, semibold/xl, Inter SemiBold, 15px, Inter ExtraBold, 18px, Inter ExtraBold, 20px, semibold/3xl]
+- Exponential app: size 1600x900px, radius 16px, fill #FFFFFF, stroke #3D3F44 1px, text [medium/3xl]
+
+## Most-Used Styles
+- dark/100: 86 uses
+- medium/lg: 62 uses
+- gray/900: 35 uses
+- medium/3xl: 26 uses
+- semibold/lg: 17 uses
+- semibold/base: 15 uses
+- semibold/xl: 9 uses
+- medium/sm: 8 uses
+- semibold/3xl: 8 uses
+- regular/lg: 7 uses
+- medium/2xl: 6 uses
+- gray/500: 3 uses
+- regular/base: 3 uses
+- semibold/sm: 3 uses
+- Sketch Shadow (Prod): 2 uses
+- dropshadow/md: 2 uses
+- Gentle Backdrop: 1 use
+- gray/800: 1 use
+- medium/xl: 1 use
+- primary/white: 1 use
+- semibold/4xl: 1 use
+- website heading/Heading 1: 1 use
+
+## Layout & Structure
+Screen: 🖥 Mockups / Exponential app
+- COMPONENT "Exponential app", 1600x900px, constraints left/top, radius 16px, fill #FFFFFF, stroke #3D3F44 1px
+  - RECTANGLE "Main bg", 1282x900px, constraints left/top, fill #1F2023
+  - RECTANGLE "Sidebar bg", 318x900px, constraints left/top, fill #1F2023, stroke #3D3F44 1px
+  - FRAME "Window controls", 64x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - ELLIPSE "Ellipse 1", 16x16px, constraints left/top, fill #EC6A5F
+    - ELLIPSE "Ellipse 2", 16x16px, constraints left/top, fill #F5BF4F
+    - ELLIPSE "Ellipse 3", 16x16px, constraints left/top, fill #62C453
+  - FRAME "Menu", 275x328px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "New issue", 275x70px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 6", 275x70px, constraints left/top, radius 8px, fill #27282B, stroke #3D3F44 1px
+      - FRAME "Frame 3", 204x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/plus", 40x40px, constraints left/top, radius 4px
+          - VECTOR "Shape", 1.67x23.33px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Shape", 23.33x1.67px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 40x40px, constraints scale/scale
+        - TEXT "New issue", 148x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+    - FRAME "Inbox", 275x70px, constraints left/top, fill #FFFFFF, opacity 50%
+      - FRAME "Frame 3", 135x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/send", 40x40px, constraints left/top
+          - VECTOR "Shape", 31.67x31.67px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 40x40px, constraints scale/scale
+        - TEXT "Inbox", 79x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+    - FRAME "My issues", 275x70px, constraints left/top, fill #FFFFFF, opacity 50%
+      - FRAME "Frame 3", 200x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/sqaure cam", 40x40px, constraints left/top
+          - VECTOR "Vector", 36x36px, constraints scale/scale, stroke dark/100 2px
+        - TEXT "My issues", 144x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+    - FRAME "Views", 275x70px, constraints left/top, fill #FFFFFF, opacity 50%
+      - FRAME "Frame 3", 143x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/eye", 40x40px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 36.67x26.67px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Oval", 10x10px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 40x40px, constraints scale/scale
+        - TEXT "Views", 87x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+  - FRAME "Help", 275x70px, constraints left/top, fill #FFFFFF, opacity 50%
+    - FRAME "Frame 3", 131x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Tella icons/Base/Help", 40x40px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Help!", 75x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+  - FRAME "Main content", 1282x616px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Status", 1282x77px, horizontal pad 16 32 16 32px gap 183px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 5", 221x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, opacity 50%
+        - INSTANCE "Tella icons/Base/eye", 40x40px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 36.67x26.67px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Oval", 10x10px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 40x40px, constraints scale/scale
+        - TEXT "Refinement", 165x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+      - INSTANCE "Tella icons/Base/more", 32x32px, constraints left/top, opacity 50%
+        - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+        - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+        - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+        - VECTOR "Size", 32x32px, constraints scale/scale
+    - FRAME "Issue header", 1282x77px, horizontal pad 16 32 16 32px gap 183px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #27282B, stroke #3D3F44 1px
+      - FRAME "Frame 5", 164x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 2", 32x32px, constraints left/top, stroke #F58B4F 4px
+        - TEXT "Planned", 116x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+      - INSTANCE "Tella icons/Base/plus", 40x40px, constraints left/top, radius 4px, opacity 50%
+        - VECTOR "Shape", 1.67x23.33px, constraints scale/scale, stroke dark/100 2px
+        - VECTOR "Shape", 23.33x1.67px, constraints scale/scale, stroke dark/100 2px
+        - VECTOR "Size", 40x40px, constraints scale/scale
+    - FRAME "Issue", 1282x77px, horizontal pad 16 32 16 32px gap 183px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 5", 800x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/more", 32x32px, constraints left/top, opacity 50%
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "TELLA-1214", 174x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+        - ELLIPSE "Ellipse 2", 32x32px, constraints left/top, stroke #F58B4F 4px
+        - TEXT "Fix up that bug mate", 295x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+        - INSTANCE "Tella icons/Base/chevron-right", 32x32px, constraints left/top, fill #FFFFFF, opacity 50%
+          - VECTOR "Shape", 8x16px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "Big project", 155x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+      - ELLIPSE "Ellipse 4", 32x32px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+    - FRAME "Issue", 1282x77px, horizontal pad 16 32 16 32px gap 183px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 5", 952x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/more", 32x32px, constraints left/top, opacity 50%
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "TELLA-1215", 173x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+        - ELLIPSE "Ellipse 2", 32x32px, constraints left/top, stroke #F58B4F 4px
+        - TEXT "Product led viral growth wedge", 448x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+        - INSTANCE "Tella icons/Base/chevron-right", 32x32px, constraints left/top, fill #FFFFFF, opacity 50%
+          - VECTOR "Shape", 8x16px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "Big project", 155x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+      - ELLIPSE "Ellipse 4", 32x32px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+    - FRAME "Issue", 1282x77px, horizontal pad 16 32 16 32px gap 183px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 5", 786x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/more", 32x32px, constraints left/top, opacity 50%
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "TELLA-1216", 174x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+        - ELLIPSE "Ellipse 2", 32x32px, constraints left/top, stroke #F58B4F 4px
+        - TEXT "Add crypto support", 281x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+        - INSTANCE "Tella icons/Base/chevron-right", 32x32px, constraints left/top, fill #FFFFFF, opacity 50%
+          - VECTOR "Shape", 8x16px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "Big project", 155x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+      - ELLIPSE "Ellipse 4", 32x32px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+    - FRAME "Issue", 1282x77px, horizontal pad 16 32 16 32px gap 183px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 5", 866x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/more", 32x32px, constraints left/top, opacity 50%
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "TELLA-1217", 172x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+        - ELLIPSE "Ellipse 2", 32x32px, constraints left/top, stroke #F58B4F 4px
+        - TEXT "Deep learning integration", 363x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+        - INSTANCE "Tella icons/Base/chevron-right", 32x32px, constraints left/top, fill #FFFFFF, opacity 50%
+          - VECTOR "Shape", 8x16px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "Big project", 155x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+      - ELLIPSE "Ellipse 4", 32x32px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+    - FRAME "Issue", 1282x77px, horizontal pad 16 32 16 32px gap 183px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 5", 727x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/more", 32x32px, constraints left/top, opacity 50%
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "TELLA-1218", 174x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+        - ELLIPSE "Ellipse 2", 32x32px, constraints left/top, stroke #F58B4F 4px
+        - TEXT "Mobile app????", 222x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+        - INSTANCE "Tella icons/Base/chevron-right", 32x32px, constraints left/top, fill #FFFFFF, opacity 50%
+          - VECTOR "Shape", 8x16px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "Big project", 155x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+      - ELLIPSE "Ellipse 4", 32x32px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+    - FRAME "Issue", 1282x77px, horizontal pad 16 32 16 32px gap 183px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 5", 838x45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/more", 32x32px, constraints left/top, opacity 50%
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Oval", 5.33x5.33px, constraints scale/scale, fill dark/100, stroke dark/100 1px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "TELLA-1219", 174x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+        - ELLIPSE "Ellipse 2", 32x32px, constraints left/top, stroke #F58B4F 4px
+        - TEXT "U forgot about this bug", 333x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading]
+        - INSTANCE "Tella icons/Base/chevron-right", 32x32px, constraints left/top, fill #FFFFFF, opacity 50%
+          - VECTOR "Shape", 8x16px, constraints scale/scale, stroke dark/100 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+        - TEXT "Big project", 155x45px, constraints left/top, fill dark/100, text [medium/3xl], [heading], opacity 50%
+      - ELLIPSE "Ellipse 4", 32x32px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+  - FRAME "Account options", 318x77px, horizontal pad 16 32 16 32px gap 211px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Logo", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 32x32px, constraints scale/scale, fill #8278FA
+      - GROUP "Group", 9.97x9.97px, constraints scale/scale, effect [drop_shadow 12px offset 0 0.5 #00000033]
+        - VECTOR "Vector", 9.97x9.97px, constraints scale/scale, fill #F9F9FF
+      - GROUP "Group", 9.93x9.93px, constraints scale/scale, effect [drop_shadow 12px offset 0 0.5 #00000033]
+        - VECTOR "Vector", 9.93x9.93px, constraints scale/scale, fill #F9F9FF
+      - GROUP "Group", 9.93x9.93px, constraints scale/scale, effect [drop_shadow 12px offset 0 0.5 #00000033]
+        - VECTOR "Vector", 9.93x9.93px, constraints scale/scale, fill #F9F9FF
+      - GROUP "Group", 9.97x9.97px, constraints scale/scale, effect [drop_shadow 12px offset 0 0.5 #00000033]
+        - VECTOR "Vector", 9.97x9.97px, constraints scale/scale, fill #F9F9FF
+    - ELLIPSE "Avatar", 32x32px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+
+Screen: 🖥 Mockups / Whack app
+- COMPONENT "Whack app", 1600x900px, constraints left/top, radius 16px, fill #FFFFFF, stroke #68516B 1px
+  - FRAME "Sidebar", 318x900px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Sidebar bg", 318x900px, constraints scale/scale, fill #3A123E, stroke #4C2851 1px
+    - FRAME "Acount list holder", 86x823px, constraints left/top, fill #FFFFFF, stroke #4C2851 1px
+      - FRAME "Account list", 48x368px, constraints left/top, fill #FFFFFF
+        - FRAME "Account", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 8", 48x48px, constraints left/top, radius 8px, fill #4149FF, stroke #FFFFFF 6px
+          - TEXT "📀", 30x45px, constraints left/top, fill #000000, text [semibold/3xl], [heading]
+        - FRAME "Account", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 48x48px, constraints left/top, radius 8px, fill #FFFFFF
+          - TEXT "📉", 30x45px, constraints left/top, fill #000000, text [semibold/3xl], [heading]
+        - FRAME "Account", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 10", 48x48px, constraints left/top, radius 8px, fill #DE6837
+          - TEXT "Z", 20x45px, constraints left/top, fill #FFFFFF, text [semibold/3xl], [heading]
+        - FRAME "Account", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 11", 48x48px, constraints left/top, radius 8px, fill #70D99D
+          - TEXT "☃︎", 30x45px, constraints left/top, fill #000000, text [semibold/3xl], [heading]
+        - FRAME "New account", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 12", 48x48px, constraints left/top, radius 8px, fill #70D99D
+          - INSTANCE "Tella icons/Base/plus", 23.43x23.43px, constraints scale/scale, radius 4px
+            - VECTOR "Shape", 0.98x13.67px, constraints scale/scale, stroke #FFFFFF 2px
+            - VECTOR "Shape", 13.67x0.98px, constraints scale/scale, stroke #FFFFFF 2px
+            - VECTOR "Size", 23.43x23.43px, constraints scale/scale
+    - FRAME "Message list", 232x376px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 30", 232x73px, horizontal pad 16 16 16 16px gap 36px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "My Startup", 110x30px, constraints left/top, fill #FFFFFF, text [Inter ExtraBold, 20px]
+        - FRAME "Frame 28", 41x41px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 5", 41x41px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Tella icons/Base/edit", 23.43x23.43px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Shape", 14.64x14.64px, constraints scale/scale, stroke #3A123E 2px
+            - VECTOR "Shape", 17.57x0.98px, constraints scale/scale, stroke #3A123E 2px
+            - VECTOR "Size", 23.43x23.43px, constraints scale/scale
+      - FRAME "Channels", 232x154px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Channel title", 232x43px, horizontal pad 8 16 8 16px gap 23px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tella icons/Base/chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Shape", 10x5px, constraints scale/scale, stroke #CDC3CE 2px
+            - VECTOR "Size", 20x20px, constraints scale/scale
+          - TEXT "Channels", 82x27px, constraints left/top, fill #CDC3CE, text [semibold/lg]
+        - FRAME "Channel", 232x29px, horizontal pad 1 16 1 32px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 49", 124x27px, constraints left/top, fill #FFFFFF
+            - TEXT "#", 12x27px, constraints left/top, fill #FFFFFF, text [Inter ExtraBold, 18px]
+            - TEXT "chat", 40x27px, constraints left/top, fill #FFFFFF, text [Inter ExtraBold, 18px]
+          - FRAME "Frame 45", 28x27px, vertical pad 2 9 2 9px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #BC3755, stroke #3A123E 4px
+            - TEXT "3", 10x23px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 15px]
+        - FRAME "Channel", 232x29px, horizontal pad 1 16 1 32px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "#", 12x27px, constraints left/top, fill #CDC3CE, text [semibold/lg]
+          - TEXT "support", 69x27px, constraints left/top, fill #CDC3CE, text [semibold/lg]
+        - FRAME "Channel", 232x29px, horizontal pad 1 16 1 32px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "#", 12x27px, constraints left/top, fill #CDC3CE, text [semibold/lg]
+          - TEXT "memes", 64x27px, constraints left/top, fill #CDC3CE, text [semibold/lg]
+      - FRAME "DMs", 232x117px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "DMs title", 232x43px, horizontal pad 8 16 8 16px gap 23px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tella icons/Base/chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Shape", 10x5px, constraints scale/scale, stroke #CDC3CE 2px
+            - VECTOR "Size", 20x20px, constraints scale/scale
+          - TEXT "DMs", 40x27px, constraints left/top, fill #CDC3CE, text [semibold/lg]
+        - FRAME "Chat", 232x29px, horizontal pad 1 16 1 32px gap 23px align min/center sizing W:fill H:fixed, constraints left/top, fill #2E629E
+          - RECTANGLE "Rectangle 11", 24x24px, constraints left/top, radius 4px, fill image(hash: b211666f477ca19530c9759f56d4d8ca8f7ba684)
+          - TEXT "Michiel", 63x27px, constraints left/top, fill #FFFFFF, text [semibold/lg]
+        - FRAME "Chat", 232x29px, horizontal pad 1 16 1 32px gap 23px align min/center sizing W:fill H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 11", 24x24px, constraints left/top, radius 4px, fill image(hash: c53a82bd9ab089bf1ad37ec3ddb47cbd9a033b93)
+          - TEXT "Ozan", 46x27px, constraints left/top, fill #CDC3CE, text [semibold/lg]
+    - FRAME "Header", 318x77px, constraints left/top, fill #301034, stroke #4C2851 1px
+      - FRAME "Window controls", 64x16px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 1", 16x16px, constraints left/top, fill #EC6A5F
+        - ELLIPSE "Ellipse 2", 16x16px, constraints left/top, fill #F5BF4F
+        - ELLIPSE "Ellipse 3", 16x16px, constraints left/top, fill #62C453
+    - FRAME "Notification badge", 41x31px, vertical pad 2 9 2 9px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #BC3755, stroke #3A123E 4px
+      - TEXT "32", 23x27px, constraints left/top, fill #FFFFFF, text [semibold/lg]
+    - FRAME "Notification badge", 42x31px, vertical pad 2 9 2 9px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #BC3755, stroke #3A123E 4px
+      - TEXT "99", 24x27px, constraints left/top, fill #FFFFFF, text [semibold/lg]
+    - FRAME "Notification badge", 42x31px, vertical pad 2 9 2 9px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #BC3755, stroke #3A123E 4px
+      - TEXT "40", 24x27px, constraints left/top, fill #FFFFFF, text [semibold/lg]
+    - ELLIPSE "Notification dot", 12x12px, constraints scale/scale, fill #FFFFFF, stroke #2E629E 3px
+  - FRAME "Main", 1282x900px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Main bg", 1282x900px, constraints scale/scale, fill #FFFFFF
+    - FRAME "Search", 1282x77px, horizontal pad 16 32 16 32px gap 183px align space_between/center sizing W:fixed H:fixed, constraints scale/scale, fill #301034
+      - FRAME "Frame 5", 711x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 40", 711x32px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 711x32px, constraints scale/scale, radius 8px, fill #583E5C
+          - FRAME "Frame 26", 104x27px, horizontal pad 0 0 0 0px gap 23px align min/center sizing W:fixed H:fixed, constraints center/center
+            - INSTANCE "Tella icons/Base/Search", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Search", 61x27px, constraints left/top, fill #CDC3CE, text [semibold/lg]
+      - RECTANGLE "Avatar", 32x32px, constraints left/top, radius 4px, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+    - FRAME "Messages", 1282x412px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Message", 1282x72px, horizontal pad 16 24 16 24px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top, stroke #E2E2E2 1px
+        - FRAME "Frame 44", 126x40px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 11", 40x40px, constraints scale/scale, radius 8px, fill image(hash: b211666f477ca19530c9759f56d4d8ca8f7ba684)
+          - TEXT "Michiel", 70x30px, constraints scale/scale, fill #000000, text [semibold/xl]
+          - ELLIPSE "Ellipse 6", 20x20px, constraints scale/scale, fill #34785C, stroke #FFFFFF 4px
+        - FRAME "phone 1", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 19.89x19.93px, constraints scale/scale, stroke #606060 2px
+      - FRAME "Message", 1282x125px, horizontal pad 16 24 16 24px gap 16px sizing W:fixed H:fixed, constraints left/top, stroke #E2E2E2 1px
+        - RECTANGLE "Rectangle 11", 56x56px, constraints scale/scale, radius 8px, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+        - FRAME "Frame 41", 1162x93px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 42", 137x27px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Grant", 49x27px, constraints scale/scale, fill #000000, text [semibold/lg]
+            - TEXT "01:46 AM", 72x24px, constraints scale/scale, fill #616061, text [regular/base]
+          - TEXT "yo", 1104x27px, constraints scale/scale, fill gray/900, text [medium/lg]
+          - FRAME "Frame 50", 34x31px, vertical pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F8F8F8
+            - TEXT "👀", 18x27px, constraints left/top, fill #000000, text [semibold/lg]
+      - FRAME "Message", 1282x125px, horizontal pad 16 24 16 24px gap 16px sizing W:fixed H:fixed, constraints left/top, stroke #E2E2E2 1px
+        - RECTANGLE "Rectangle 11", 56x56px, constraints scale/scale, radius 8px, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+        - FRAME "Frame 41", 1162x93px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 42", 139x27px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Grant", 49x27px, constraints scale/scale, fill #000000, text [semibold/lg]
+            - TEXT "02:20 AM", 74x24px, constraints scale/scale, fill #616061, text [regular/base]
+          - TEXT "hey", 1104x27px, constraints scale/scale, fill gray/900, text [medium/lg]
+          - FRAME "Frame 50", 34x31px, vertical pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F8F8F8
+            - TEXT "🔔", 18x27px, constraints left/top, fill #000000, text [semibold/lg]
+      - FRAME "Message", 1282x90px, horizontal pad 16 24 16 24px gap 16px sizing W:fixed H:fixed, constraints left/top, stroke #E2E2E2 1px
+        - RECTANGLE "Rectangle 11", 56x56px, constraints scale/scale, radius 8px, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+        - FRAME "Frame 41", 1162x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 42", 139x27px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Grant", 49x27px, constraints scale/scale, fill #000000, text [semibold/lg]
+            - TEXT "02:24 AM", 74x24px, constraints scale/scale, fill #616061, text [regular/base]
+          - TEXT "yo qq", 1104x27px, constraints scale/scale, fill gray/900, text [medium/lg]
+    - FRAME "Message composer", 1283x186px, vertical pad 24 24 24 24px gap 10px sizing W:fixed H:fixed, constraints left/bottom, fill #FFFFFF
+      - FRAME "Frame 38", 1235x138px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #BBBABB 1px, effect dropshadow/md
+        - FRAME "Frame 36", 1235x62px, horizontal pad 16 16 16 16px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - TEXT "u up?", 52x30px, constraints scale/scale, fill #000000, text [medium/xl]
+        - FRAME "Frame 39", 1235x68px, horizontal pad 16 16 16 16px gap 935px align space_between/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 37", 200x32px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Tella icons/Base/plus", 32x32px, constraints left/top, radius 32px, fill #F2F2F2
+            - INSTANCE "Tella icons/Base/video", 32x32px, constraints left/top
+            - INSTANCE "Tella icons/Base/mic", 32x32px, constraints left/top
+            - INSTANCE "Tella icons/Base/Reaction", 32x32px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 38", 60x36px, constraints right/top, radius 8px, fill #34785C
+            - INSTANCE "Tella icons/Base/send", 32x32px, constraints left/top
+
+Screen: 🖥 Mockups / Frogma
+- COMPONENT "Frogma", 1600x900px, constraints left/top, radius 16px, fill #E5E5E5, stroke gray/500 1px
+  - FRAME "Header", 1600x80px, constraints left/top, fill #2C2C2C
+    - FRAME "Frame 62", 480x80px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 62", 80x80px, constraints center/center, fill #FFFFFF
+        - RECTANGLE "image 1", 32x32px, constraints left/top, fill image(hash: 7120add798b1a9ac3396f3790e33408ae98a49fa)
+      - FRAME "Frame 58", 80x80px, constraints center/center, fill #18A0FB
+        - FRAME "Tella icons/Base/send", 32x32px, constraints left/top
+          - VECTOR "Shape", 25.33x25.33px, constraints scale/scale, stroke #FFFFFF 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+      - FRAME "Frame 56", 80x80px, constraints center/center, fill #FFFFFF
+        - ELLIPSE "Ellipse 7", 32x32px, constraints left/top, stroke #D5D5D5 2px
+      - FRAME "Frame 59", 80x80px, constraints center/center, fill #FFFFFF
+        - INSTANCE "Tella icons/Base/edit", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 20x20px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Shape", 24x1.33px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+      - FRAME "Frame 60", 80x80px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Tella icons/Base/text", 32x32px, constraints left/top
+          - VECTOR "Shape", 21.33x4px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Shape", 8x1.33px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Shape", 1.33x21.33px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+      - FRAME "Frame 61", 80x80px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "Frame 65", 268x40px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+      - FRAME "Frame 63", 100x40px, constraints left/top, radius 8px, fill #18A0FB
+        - TEXT "Share", 50x27px, constraints center/center, fill #FFFFFF, text [medium/lg]
+      - FRAME "Frame 64", 80x40px, constraints left/top, radius 8px, fill #18A0FB
+        - TEXT "100%", 47x27px, constraints center/center, fill #FFFFFF, text [medium/lg]
+    - FRAME "Frame 66", 330x36px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Frogma Tutorials", 193x36px, constraints center/center, fill #FFFFFF, text [medium/2xl], [heading], opacity 50%
+      - LINE "Line 5", 12x20.78px, constraints left/top, stroke #FFFFFF 2px, opacity 50%
+      - TEXT "Website", 93x36px, constraints center/center, fill #FFFFFF, text [medium/2xl], [heading]
+  - FRAME "Sidebar left", 240x820px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 71", 240x612px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 70", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Layers", 58x27px, constraints center/center, fill #333333, text [medium/lg]
+        - TEXT "Assets", 59x27px, constraints center/center, fill #B3B3B3, text [medium/lg]
+      - LINE "Line 6", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 69", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Pages", 53x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - FRAME "Frame 67", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/check", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "Memes", 63x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 71", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/check", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 13.33x9.17px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "UI design", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 72", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/check", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "UI design", 81x27px, constraints center/center, fill #333333, text [medium/lg], opacity 0%
+      - LINE "Line 7", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 68", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 78", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 73", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 76", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 74", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 75", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 77", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #DAEBF7
+        - INSTANCE "Tella icons/Base/text", 20x20px, constraints left/top
+          - VECTOR "Shape", 13.33x2.5px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 5x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 0.83x13.33px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "Fire Station", 99x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 78", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Tella icons/Base/text", 20x20px, constraints left/top
+          - VECTOR "Shape", 13.33x2.5px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 5x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 0.83x13.33px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "We stop your ap...", 155x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 75", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 74", 80x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 76", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 73", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+  - FRAME "Sidebar right", 240x820px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 71", 240x510px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 70", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Design", 60x27px, constraints center/center, fill #333333, text [medium/lg]
+        - TEXT "Prototype", 85x27px, constraints center/center, fill #B3B3B3, text [medium/lg]
+      - LINE "Line 6", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 69", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 38x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/Overview", 20x20px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 289", 8x8px, constraints left/top, radius 1px, stroke gray/900 2px
+          - RECTANGLE "Rectangle 291", 8x8px, constraints left/top, radius 1px, stroke gray/900 2px
+          - RECTANGLE "Rectangle 290", 8x8px, constraints left/top, radius 1px, stroke gray/900 2px
+          - RECTANGLE "Rectangle 292", 8x8px, constraints left/top, radius 1px, stroke gray/900 2px
+      - FRAME "Frame 67", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Comic Sans", 101x27px, constraints center/center, fill #333333, text [regular/lg]
+      - FRAME "Frame 78", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Regular", 65x27px, constraints center/center, fill #333333, text [regular/lg]
+      - FRAME "Frame 77", 240x51px, horizontal pad 12 16 12 16px gap 23px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/align-left", 20x20px, constraints left/top, radius 2px, fill #E6E6E6
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Rectangle-path", 20x20px, constraints scale/scale
+        - INSTANCE "Tella icons/Base/align-center", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 10x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 10x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Rectangle-path", 20x20px, constraints scale/scale
+        - INSTANCE "Tella icons/Base/align-right", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Rectangle-path", 20x20px, constraints scale/scale
+      - LINE "Line 8", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 79", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Fill", 24x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - FRAME "Frame 71", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 293", 20x20px, constraints left/top, fill #000000
+        - TEXT "000000", 68x27px, constraints center/center, fill #333333, text [regular/lg]
+      - LINE "Line 9", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 80", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - TEXT "Stroke", 56x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - LINE "Line 10", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 81", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - TEXT "Effects", 61x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - LINE "Line 11", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 82", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - TEXT "Export", 57x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - LINE "Line 7", 240x0px, constraints left/top, stroke #E5E5E5 1px
+  - FRAME "Frame 83", 751x216px, constraints left/top, fill #FFFFFF, stroke #18A0FB 2px
+    - TEXT "Design 101", 724x216px, constraints left/top, fill #000000, text [Inter ExtraBold, 144px], [heading]
+    - LINE "Line 12", 751x0px, constraints scale/bottom, stroke #18A0FB 2px
+    - RECTANGLE "Rectangle 294", 12x12px, constraints right/top, fill #FFFFFF, stroke #18A0FB 2px
+    - RECTANGLE "Rectangle 295", 12x12px, constraints right/bottom, fill #FFFFFF, stroke #18A0FB 2px
+    - RECTANGLE "Rectangle 296", 12x12px, constraints left/bottom, fill #FFFFFF, stroke #18A0FB 2px
+    - RECTANGLE "Rectangle 297", 12x12px, constraints left/top, fill #FFFFFF, stroke #18A0FB 2px
+  - TEXT "How to design your first app in less than 30 mins!", 708x192px, constraints left/top, fill #000000, text [Inter SemiBold, 64px], [heading]
+
+Screen: 🖥 Mockups / Frogma logo
+- COMPONENT "Frogma logo", 1600x900px, constraints left/top, radius 16px, fill #E5E5E5, stroke gray/500 1px
+  - FRAME "Header", 1600x80px, constraints left/top, fill #2C2C2C
+    - FRAME "Frame 62", 480x80px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 62", 80x80px, constraints center/center, fill #FFFFFF
+        - RECTANGLE "image 1", 32x32px, constraints left/top, fill image(hash: 7120add798b1a9ac3396f3790e33408ae98a49fa)
+      - FRAME "Frame 58", 80x80px, constraints center/center, fill #18A0FB
+        - FRAME "Tella icons/Base/send", 32x32px, constraints left/top
+          - VECTOR "Shape", 25.33x25.33px, constraints scale/scale, stroke #FFFFFF 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+      - FRAME "Frame 56", 80x80px, constraints center/center, fill #FFFFFF
+        - ELLIPSE "Ellipse 7", 32x32px, constraints left/top, stroke #D5D5D5 2px
+      - FRAME "Frame 59", 80x80px, constraints center/center, fill #FFFFFF
+        - INSTANCE "Tella icons/Base/edit", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 20x20px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Shape", 24x1.33px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+      - FRAME "Frame 60", 80x80px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Tella icons/Base/text", 32x32px, constraints left/top
+          - VECTOR "Shape", 21.33x4px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Shape", 8x1.33px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Shape", 1.33x21.33px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+      - FRAME "Frame 61", 80x80px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "Frame 65", 268x40px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+      - FRAME "Frame 63", 100x40px, constraints left/top, radius 8px, fill #18A0FB
+        - TEXT "Share", 50x27px, constraints center/center, fill #FFFFFF, text [medium/lg]
+      - FRAME "Frame 64", 80x40px, constraints left/top, radius 8px, fill #18A0FB
+        - TEXT "100%", 47x27px, constraints center/center, fill #FFFFFF, text [medium/lg]
+    - FRAME "Frame 66", 344x36px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Frogma How-to’s", 196x36px, constraints center/center, fill #FFFFFF, text [medium/2xl], [heading], opacity 50%
+      - LINE "Line 5", 12x20.78px, constraints left/top, stroke #FFFFFF 2px, opacity 50%
+      - TEXT "DIY Logo", 104x36px, constraints center/center, fill #FFFFFF, text [medium/2xl], [heading]
+  - FRAME "Sidebar left", 240x820px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 71", 240x510px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 70", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Layers", 58x27px, constraints center/center, fill #333333, text [medium/lg]
+        - TEXT "Assets", 59x27px, constraints center/center, fill #B3B3B3, text [medium/lg]
+      - LINE "Line 6", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 69", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Pages", 53x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - FRAME "Frame 67", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/check", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "Memes", 63x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 71", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/check", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 13.33x9.17px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "UI design", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 72", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/check", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "UI design", 81x27px, constraints center/center, fill #333333, text [medium/lg], opacity 0%
+      - LINE "Line 7", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 68", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 78", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 73", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 76", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 74", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "🔥 logo", 61x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 75", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 74", 80x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 76", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 73", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+  - FRAME "Sidebar right", 240x820px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 71", 240x153px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 70", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Design", 60x27px, constraints center/center, fill #333333, text [medium/lg]
+        - TEXT "Prototype", 85x27px, constraints center/center, fill #B3B3B3, text [medium/lg]
+      - LINE "Line 6", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - LINE "Line 8", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 79", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Background", 104x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - FRAME "Frame 71", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 293", 20x20px, constraints left/top, fill #E5E5E5
+        - TEXT "E5E5E5", 66x27px, constraints center/center, fill #333333, text [regular/lg]
+      - LINE "Line 9", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - LINE "Line 10", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - LINE "Line 11", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - LINE "Line 7", 240x0px, constraints left/top, stroke #E5E5E5 1px
+  - ELLIPSE "Designnnn", 494x494px, constraints left/top, fill #00000033, effect [layer_blur 32px]
+  - FRAME "Designnnnnnn", 581.23x581.23px, constraints left/top, radius 494px, fill #FFFFFF [decorative, ~4 shapes]
+
+Screen: 🖥 Mockups / Brekt Reports
+- COMPONENT "Brekt Reports", 1600x900px, constraints left/top, radius 16px, fill #F9F9F9, stroke #EAEAEA 1px
+  - FRAME "Sidebar", 300x820px, constraints left/top, fill #FFFFFF, stroke #F0F0F0 1px
+    - FRAME "Frame 93", 300x396px, vertical pad 24 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 88", 300x62px, horizontal pad 16 32 16 32px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - INSTANCE "Tella icons/Base/Home", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 21x23.33px, constraints scale/scale, stroke #222222 2px
+          - VECTOR "Shape", 7x11.67px, constraints scale/scale, stroke #222222 2px
+          - VECTOR "Size", 28x28px, constraints scale/scale
+        - TEXT "Home", 57x30px, constraints left/top, fill #222222, text [semibold/xl]
+      - FRAME "Frame 89", 300x62px, horizontal pad 16 32 16 32px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - FRAME "dollar-sign 1", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 0x25.67px, constraints scale/scale, stroke #222222 2px
+          - VECTOR "Vector", 14x16.33px, constraints scale/scale, stroke #222222 2px
+        - TEXT "Cash", 50x30px, constraints left/top, fill #222222, text [semibold/xl]
+      - FRAME "Frame 90", 300x62px, horizontal pad 16 32 16 32px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - INSTANCE "Tella icons/Base/slides", 28x28px, constraints left/top
+          - VECTOR "Rectangle-path", 23.33x16.33px, constraints scale/scale, radius 2px, stroke #222222 2px
+          - VECTOR "Size", 28x28px, constraints scale/scale
+          - LINE "Line 1", 16.33x0px, constraints scale/scale, stroke #222222 2px
+          - LINE "Line 2", 8.17x0px, constraints scale/scale, stroke #222222 2px
+        - TEXT "Card", 47x30px, constraints left/top, fill #222222, text [semibold/xl]
+      - FRAME "Frame 91", 300x62px, horizontal pad 16 32 16 32px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - FRAME "inbox 1", 28x28px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 23.33x3.5px, constraints scale/scale, stroke #222222 2px
+          - VECTOR "Vector", 23.33x18.67px, constraints scale/scale, stroke #222222 2px
+        - TEXT "Expenses", 94x30px, constraints left/top, fill #222222, text [semibold/xl]
+      - FRAME "Frame 92", 300x62px, horizontal pad 16 32 16 32px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/trend up", 28x28px, constraints left/top
+          - VECTOR "Shape", 25.67x14px, constraints scale/scale, stroke #222222 2px
+          - VECTOR "Shape", 7x7px, constraints scale/scale, stroke #222222 2px
+          - VECTOR "Size", 28x28px, constraints scale/scale
+        - TEXT "Reports", 77x30px, constraints left/top, fill #222222, text [semibold/xl]
+      - FRAME "Frame 93", 300x62px, horizontal pad 16 32 16 32px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - INSTANCE "Tella icons/Base/cam only", 28x28px, constraints left/top
+          - VECTOR "Shape", 18.67x7px, constraints scale/scale, stroke #222222 2px
+          - VECTOR "Oval", 9.33x9.33px, constraints scale/scale, stroke #222222 2px
+          - VECTOR "Size", 28x28px, constraints scale/scale
+        - TEXT "Team", 53x30px, constraints left/top, fill #222222, text [semibold/xl]
+  - TEXT "Title", 115x45px, constraints left/top, fill #222222, text [semibold/3xl], [heading]
+  - FRAME "Header", 1600x80px, constraints left/top, fill #FFFFFF, stroke #F0F0F0 1px
+    - FRAME "Frame 87", 138.96x54px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 2", 43.96x43.96px, constraints left/top, fill image(hash: 81734562e317e9a9c0512333fe523c2542ff4e9b)
+      - TEXT "Brekt", 87x54px, constraints left/top, fill #222222, text [Helvetica Neue Bold, 36px], [heading]
+    - TEXT "Support", 79x30px, constraints left/top, fill #222222, text [semibold/xl]
+  - FRAME "Report content", 1204x519px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 298", 1204x519px, constraints left/top, radius 16px, fill #FFFFFF, stroke #EAEAEA 2px
+    - FRAME "Frame 97", 284x473px, vertical pad 40 40 40 40px gap 40px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 94", 190x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "SPEND", 48x21px, constraints left/top, fill #636565, text [semibold/sm]
+        - TEXT "$500,000.07", 190x45px, constraints left/top, fill #222222, text [semibold/3xl], [heading]
+      - LINE "Line 7", 204x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 95", 156x103px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "TREND", 48x21px, constraints left/top, fill #636565, text [semibold/sm]
+        - TEXT "120% up", 123x45px, constraints left/top, fill #222222, text [semibold/3xl], [heading]
+        - TEXT "Letting it rip this month", 156x21px, constraints left/top, fill #636565, text [medium/sm]
+      - LINE "Line 8", 204x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 96", 200x90px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "LIMIT", 38x21px, constraints left/top, fill #636565, text [semibold/sm]
+        - TEXT "99%", 65x45px, constraints left/top, fill #222222, text [semibold/3xl], [heading]
+        - FRAME "Frame 99", 200x8px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 299", 200x8px, constraints left/top, radius 8px, fill #ECEFED
+          - RECTANGLE "Rectangle 300", 189x8px, constraints left/top, radius 8px, fill #505A8A
+    - TEXT "$1,000,000", 79x22px, constraints left/top, fill #BCBDBD, text [medium/sm]
+    - TEXT "$500,000", 68x22px, constraints left/top, fill #BCBDBD, text [medium/sm]
+    - TEXT "$750,000", 67x23px, constraints left/top, fill #BCBDBD, text [medium/sm]
+    - LINE "Line 14", 788x0px, constraints left/top, stroke #F9F9FA 2px
+    - TEXT "$250,000", 68x23px, constraints left/top, fill #BCBDBD, text [medium/sm]
+    - LINE "Line 15", 788x0px, constraints left/top, stroke #F9F9FA 2px
+    - LINE "Line 16", 788x0px, constraints left/top, stroke #F9F9FA 2px
+    - LINE "Line 17", 788x0px, constraints left/top, stroke #F9F9FA 2px
+    - LINE "Line 18", 788x0px, constraints left/top, stroke #F9F9FA 2px
+    - VECTOR "Vector 1", 788.5x369px, constraints left/top, stroke #E7E6E7 4px
+    - VECTOR "Vector 2", 388x220.28px, constraints left/top, stroke #8394EA 4px
+    - LINE "Line 13", 0x420px, constraints left/top, stroke #E7E6E7 2px
+    - ELLIPSE "Ellipse 8", 20x20px, constraints left/top, fill #505A8A, stroke #FFFFFF 4px
+  - FRAME "Frame 98", 118x61px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #505A8A, effect dropshadow/md
+    - TEXT "This time last month you were doing ok...", 110x45px, constraints left/top, fill #FFFFFF, text [Inter Medium, 12px]
+  - FRAME "Secondary reports", 1204x200px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 109", 590x200px, vertical pad 24 0 24 0px gap 20px sizing W:fill H:fixed, constraints left/top, radius 16px, fill #FFFFFF, stroke #EAEAEA 2px
+      - FRAME "Frame 100", 590x24px, horizontal pad 0 24 0 24px gap 100px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Who’s spending all the money?", 239x24px, constraints left/top, fill #222222, text [semibold/base]
+        - INSTANCE "Tella icons/Base/List", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 10.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 10.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 10.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - LINE "Line 8", 590x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 102", 590x24px, horizontal pad 0 24 0 24px gap 100px align space_between/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - TEXT "Name", 45x24px, constraints left/top, fill #222222, text [semibold/base]
+        - TEXT "Spend", 92x24px, constraints left/top, fill #222222, text [semibold/base]
+      - LINE "Line 19", 590x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 105", 590x24px, horizontal pad 0 24 0 24px gap 100px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 107", 102x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 106", 24x24px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 9", 24x24px, constraints left/top, fill #222222
+            - TEXT "S", 11x24px, constraints left/top, fill #FFFFFF, text [semibold/base]
+          - TEXT "Steve J.", 62x24px, constraints left/top, fill #222222, text [semibold/base]
+        - TEXT "$90,288.40", 92x24px, constraints left/top, fill #222222, text [semibold/base]
+    - FRAME "Frame 109", 590x200px, vertical pad 24 0 24 0px gap 20px sizing W:fill H:fixed, constraints left/top, radius 16px, fill #FFFFFF, stroke #EAEAEA 2px
+      - FRAME "Frame 100", 590x24px, horizontal pad 0 24 0 24px gap 100px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Where’s it all going?", 154x24px, constraints left/top, fill #222222, text [semibold/base]
+        - INSTANCE "Tella icons/Base/List", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 10.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 10.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 10.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Shape", 0.83x0.83px, constraints scale/scale, stroke gray/900 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - LINE "Line 8", 590x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 102", 590x24px, horizontal pad 0 24 0 24px gap 100px align space_between/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - TEXT "Name", 45x24px, constraints left/top, fill #222222, text [semibold/base]
+        - TEXT "Spend", 92x24px, constraints left/top, fill #222222, text [semibold/base]
+      - LINE "Line 19", 590x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 105", 590x24px, horizontal pad 0 24 0 24px gap 100px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 107", 245x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "Tella icons/Base/repeat", 20x20px, constraints left/top
+            - VECTOR "Shape", 3.33x5px, constraints scale/scale, stroke gray/900 2px
+            - VECTOR "Shape", 11.67x4.17px, constraints scale/scale, stroke gray/900 2px
+            - VECTOR "Shape", 3.33x5px, constraints scale/scale, stroke gray/900 2px
+            - VECTOR "Shape", 11.67x4.17px, constraints scale/scale, stroke gray/900 2px
+            - VECTOR "Size", 15x15px, constraints scale/scale
+          - TEXT "Endless Software Subs Co.", 209x24px, constraints left/top, fill #222222, text [semibold/base]
+        - TEXT "$60,037.22", 89x24px, constraints left/top, fill #222222, text [semibold/base]
+
+Screen: 🖥 Mockups / Brekt Sign In
+- COMPONENT "Brekt Sign In", 1600x900px, constraints left/top, radius 16px, fill #FFFFFF, stroke #EAEAEA 1px
+  - FRAME "Header", 1599.96x118px, horizontal pad 32 64 32 64px gap 1340px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #F0F0F0 1px
+    - FRAME "Frame 87", 138.96x54px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 2", 43.96x43.96px, constraints left/top, fill image(hash: 81734562e317e9a9c0512333fe523c2542ff4e9b)
+      - TEXT "Brekt", 87x54px, constraints left/top, fill #222222, text [Helvetica Neue Bold, 36px], [heading]
+    - TEXT "Sign up", 73x30px, constraints left/top, fill #8394EA, text [semibold/xl]
+  - FRAME "Sign in form", 359x462px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Welcome back", 255x54px, constraints left/top, fill #222222, text [semibold/4xl], [heading]
+    - FRAME "Frame 117", 359x112px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Password", 76x24px, constraints left/top, fill #222222, text [semibold/base]
+      - FRAME "Frame 115", 359x72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 301", 359x72px, constraints scale/scale, radius 8px, stroke #B1B1B1 2px
+        - INSTANCE "Tella icons/Base/eye", 32x32px, constraints right/center, fill #FFFFFF
+          - VECTOR "Shape", 29.33x21.33px, constraints scale/scale, stroke #D3D3D3 2px
+          - VECTOR "Oval", 8x8px, constraints scale/scale, stroke #D3D3D3 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+    - TEXT "Forgot your password?", 178x24px, constraints left/top, fill #8394EA, text [semibold/base]
+    - FRAME "Frame 113", 359x72px, horizontal pad 24 24 24 24px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #8394EA
+      - TEXT "Sign in", 53x24px, constraints left/top, fill #FFFFFF, text [semibold/base]
+    - FRAME "Frame 114", 359x72px, horizontal pad 24 24 24 24px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #EAD983
+      - TEXT "Sign up", 59x24px, constraints left/top, fill #8394EA, text [semibold/base]
+  - FRAME "Footer", 556x21px, horizontal pad 0 0 0 0px gap 80px align center/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Copyright © 2022 Brekt Inc.", 189x21px, constraints left/top, fill #222222, text [medium/sm]
+    - TEXT "Terms of Service", 113x21px, constraints left/top, fill #8394EA, text [medium/sm]
+    - TEXT "Privacy Policy", 94x21px, constraints left/top, fill #8394EA, text [medium/sm]
+
+Screen: 🖥 Mockups / Lamp sign in
+- COMPONENT "Lamp sign in", 1600x900px, constraints left/top, radius 16px, fill #FFFFFF, stroke #EAEAEA 1px
+  - FRAME "Header", 1599.96x118px, constraints left/top, fill #F4F3EF, stroke #F0F0F0 1px
+    - FRAME "Frame 87", 130x54px, constraints left/top
+      - TEXT "lamp", 92x54px, constraints left/top, fill #2E2E28, text [Poppins Medium, 36px], [heading]
+      - RECTANGLE "image 2", 50.84x50.84px, constraints left/top, fill image(hash: 5e9ea86bda3787a30d2c7ed6aad61edda599e9bc)
+  - FRAME "Sign in form", 640x600px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Welcome back!", 378x72px, constraints left/top, fill #222222, text [Poppins Medium, 48px], [heading]
+    - TEXT "Sign in with SSO", 131x24px, constraints left/top, fill #78786A, text [Poppins Regular, 16px]
+    - FRAME "Frame 113", 640x72px, horizontal pad 24 24 24 24px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #5383EC 1px
+      - TEXT "Sign in with SSO", 126x24px, constraints left/top, fill #5383EC, text [Poppins Regular, 16px]
+    - FRAME "Frame 124", 640x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "or", 17x24px, constraints left/top, fill #78786A, text [Poppins Regular, 16px]
+      - LINE "Line 20", 607x0px, constraints left/top, stroke #E8E8DD 1px
+    - FRAME "Frame 117", 640x72px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 115", 640x72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 301", 640x72px, constraints scale/scale, radius 8px, stroke #D3D3D3 2px
+        - TEXT "Email address", 113x24px, constraints left/top, fill #78786A, text [Poppins Regular, 16px]
+    - FRAME "Frame 118", 640x72px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 115", 640x72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 301", 640x72px, constraints scale/scale, radius 8px, stroke #D3D3D3 2px
+        - TEXT "Password", 77x24px, constraints left/top, fill #78786A, text [Poppins Regular, 16px]
+    - FRAME "Frame 114", 320x72px, horizontal pad 24 24 24 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #EAD983, stroke #000000 1px
+      - TEXT "Sign in to Lamp", 123x24px, constraints left/top, fill #2E2E28, text [Poppins Regular, 16px]
+
+Screen: 🖥 Mockups / Magicsheet
+- COMPONENT "Magicsheet", 1600x900px, constraints left/top, fill #EBF2FE, stroke #EAEAEA 1px
+  - FRAME "Sign in form", 640x526px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Title", 253x54px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 2", 50x50px, constraints left/top, fill image(hash: ef7a96dc40c805461f5e9840bfe486718d1100c9)
+      - FRAME "Frame 130", 187x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "magicsheet", 187x36px, constraints left/top, fill #2E2E28, text [SF Pro Rounded Semibold, 36px], [heading]
+        - TEXT "the magical spreadsheet", 186x18px, constraints left/top, fill #8E93A0, text [SF Pro Rounded Medium, 17.5px]
+    - TEXT "Request access", 336x72px, constraints left/top, fill #222222, text [SF Pro Rounded Semibold, 48px], [heading]
+    - TEXT "Enter your info plz 😚", 142x24px, constraints left/top, fill #8E93A0, text [SF Pro Rounded Medium, 16px]
+    - FRAME "Input", 640x72px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FAFFE9, effect [drop_shadow 0px offset 0 0 #8CAB1C0F, drop_shadow 36px offset 0 10 #8CAB1C29]
+      - FRAME "Frame 115", 640x72px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 301", 640x72px, constraints scale/scale, radius 200px, stroke #BADA47 2px
+        - TEXT "Email address", 96x24px, constraints left/top, fill #8CAB1C, text [SF Pro Rounded Medium, 16px]
+    - FRAME "Input", 640x72px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #FFFFFF, effect [drop_shadow 0px offset 0 0 #5BAD810F, drop_shadow 36px offset 0 10 #5BAD8129]
+      - FRAME "Frame 115", 640x72px, constraints left/top, radius 100px, fill #F2FFF8
+        - RECTANGLE "Rectangle 301", 640x72px, constraints scale/scale, radius 200px, stroke #B5E2CA 2px
+        - TEXT "Twitter handle", 98x24px, constraints left/top, fill #5BAD81, text [SF Pro Rounded Medium, 16px]
+    - FRAME "Button", 320x72px, horizontal pad 24 24 24 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 200px, fill #203E8D, effect [drop_shadow 0px offset 0 0 #203E8D0F, drop_shadow 36px offset 0 10 #203E8D29]
+      - TEXT "Request access", 110x24px, constraints left/top, fill #FFFFFF, text [SF Pro Rounded Medium, 16px]
+
+Screen: 🖥 Mockups / Oops!
+- COMPONENT "Oops!", 1600x900px, constraints left/top, radius 16px, fill #FFFFFF, stroke #EAEAEA 1px
+  - FRAME "Oops content", 482x200px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "image 3", 78x78px, constraints left/top, fill image(hash: da33f61f7f910cd111957bcc28baf232ad126319)
+    - TEXT "Oops! Something went wrong.", 482x54px, constraints left/top, fill gray/900, text [Helvetica Neue Bold, 36px], [heading]
+    - TEXT "We’re working on it.", 213x36px, constraints left/top, fill gray/800, text [Helvetica Neue HelveticaNeue, 24px], [heading]
+
+Screen: 🖥 Mockups / Terminal
+- COMPONENT "Terminal", 1600x900px, constraints left/top, radius 16px, fill #171717
+  - FRAME "Header", 1600x40px, constraints scale/scale, fill #DBDBDB, stroke #929292 2px [decorative, ~4 shapes]
+  - VECTOR "Text", 993.64x97.46px, constraints scale/scale, fill #7CD870
+
+Screen: 🖥 Mockups / Frogma - layers
+- COMPONENT "Frogma - layers", 1600x900px, constraints left/top, radius 16px, fill #E5E5E5, stroke gray/500 1px
+  - FRAME "Header", 1600x80px, constraints left/top, fill #2C2C2C
+    - FRAME "Frame 62", 480x80px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 62", 80x80px, constraints center/center, fill #FFFFFF
+        - RECTANGLE "image 1", 32x32px, constraints left/top, fill image(hash: 7120add798b1a9ac3396f3790e33408ae98a49fa)
+      - FRAME "Frame 58", 80x80px, constraints center/center, fill #18A0FB
+        - FRAME "Tella icons/Base/send", 32x32px, constraints left/top
+          - VECTOR "Shape", 25.33x25.33px, constraints scale/scale, stroke #FFFFFF 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+      - FRAME "Frame 56", 80x80px, constraints center/center, fill #FFFFFF
+        - ELLIPSE "Ellipse 7", 32x32px, constraints left/top, stroke #D5D5D5 2px
+      - FRAME "Frame 59", 80x80px, constraints center/center, fill #FFFFFF
+        - INSTANCE "Tella icons/Base/edit", 32x32px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 20x20px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Shape", 24x1.33px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+      - FRAME "Frame 60", 80x80px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Tella icons/Base/text", 32x32px, constraints left/top
+          - VECTOR "Shape", 21.33x4px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Shape", 8x1.33px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Shape", 1.33x21.33px, constraints scale/scale, stroke #D5D5D5 2px
+          - VECTOR "Size", 32x32px, constraints scale/scale
+      - FRAME "Frame 61", 80x80px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "Frame 65", 268x40px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 4", 40x40px, constraints left/top, fill image(hash: 915256cff80a0fd1888262f86ec97607ee0ebb68)
+      - FRAME "Frame 63", 100x40px, constraints left/top, radius 8px, fill #18A0FB
+        - TEXT "Share", 50x27px, constraints center/center, fill #FFFFFF, text [medium/lg]
+      - FRAME "Frame 64", 80x40px, constraints left/top, radius 8px, fill #18A0FB
+        - TEXT "100%", 47x27px, constraints center/center, fill #FFFFFF, text [medium/lg]
+    - FRAME "Frame 66", 422x36px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Frogma Tutorials", 193x36px, constraints center/center, fill #FFFFFF, text [medium/2xl], [heading], opacity 50%
+      - LINE "Line 5", 12x20.78px, constraints left/top, stroke #FFFFFF 2px, opacity 50%
+      - TEXT "Example project", 185x36px, constraints center/center, fill #FFFFFF, text [medium/2xl], [heading]
+  - FRAME "Sidebar left", 240x820px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 71", 240x561px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 70", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Layers", 58x27px, constraints center/center, fill #333333, text [medium/lg]
+        - TEXT "Assets", 59x27px, constraints center/center, fill #B3B3B3, text [medium/lg]
+      - LINE "Line 6", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 69", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Pages", 53x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - FRAME "Frame 67", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/check", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "Memes", 63x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 71", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/check", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 13.33x9.17px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "UI design", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 72", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/check", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "UI design", 81x27px, constraints center/center, fill #333333, text [medium/lg], opacity 0%
+      - LINE "Line 7", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 68", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 78", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 73", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 76", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 74", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 75", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 77", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #DAEBF7
+        - INSTANCE "Tella icons/Base/text", 20x20px, constraints left/top
+          - VECTOR "Shape", 13.33x2.5px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 5x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 0.83x13.33px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+        - TEXT "Reordering layers.", 156x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 75", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 74", 80x27px, constraints center/center, fill #333333, text [medium/lg]
+      - FRAME "Frame 76", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 55", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - TEXT "Frame 73", 81x27px, constraints center/center, fill #333333, text [medium/lg]
+  - FRAME "Sidebar right", 240x820px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 71", 240x510px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 70", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Design", 60x27px, constraints center/center, fill #333333, text [medium/lg]
+        - TEXT "Prototype", 85x27px, constraints center/center, fill #B3B3B3, text [medium/lg]
+      - LINE "Line 6", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 69", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 38x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/Overview", 20x20px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 289", 8x8px, constraints left/top, radius 1px, stroke gray/900 2px
+          - RECTANGLE "Rectangle 291", 8x8px, constraints left/top, radius 1px, stroke gray/900 2px
+          - RECTANGLE "Rectangle 290", 8x8px, constraints left/top, radius 1px, stroke gray/900 2px
+          - RECTANGLE "Rectangle 292", 8x8px, constraints left/top, radius 1px, stroke gray/900 2px
+      - FRAME "Frame 67", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Comic Sans", 101x27px, constraints center/center, fill #333333, text [regular/lg]
+      - FRAME "Frame 78", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Regular", 65x27px, constraints center/center, fill #333333, text [regular/lg]
+      - FRAME "Frame 77", 240x51px, horizontal pad 12 16 12 16px gap 23px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Tella icons/Base/align-left", 20x20px, constraints left/top, radius 2px, fill #E6E6E6
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Rectangle-path", 20x20px, constraints scale/scale
+        - INSTANCE "Tella icons/Base/align-center", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 10x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 10x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Rectangle-path", 20x20px, constraints scale/scale
+        - INSTANCE "Tella icons/Base/align-right", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 15x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Rectangle-path", 20x20px, constraints scale/scale
+      - LINE "Line 8", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 79", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Fill", 24x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - FRAME "Frame 71", 240x51px, horizontal pad 12 16 12 16px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 293", 20x20px, constraints left/top, fill #000000
+        - TEXT "000000", 68x27px, constraints center/center, fill #333333, text [regular/lg]
+      - LINE "Line 9", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 80", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - TEXT "Stroke", 56x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - LINE "Line 10", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 81", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - TEXT "Effects", 61x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - LINE "Line 11", 240x0px, constraints left/top, stroke #E5E5E5 1px
+      - FRAME "Frame 82", 240x51px, horizontal pad 12 16 12 16px gap 23px align space_between/center sizing W:fill H:fixed, constraints left/top, opacity 50%
+        - TEXT "Export", 57x27px, constraints center/center, fill #333333, text [medium/lg]
+        - INSTANCE "Tella icons/Base/plus", 20x20px, constraints left/top, radius 4px
+          - VECTOR "Shape", 0.83x11.67px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Shape", 11.67x0.83px, constraints scale/scale, stroke #333333 2px
+          - VECTOR "Size", 20x20px, constraints scale/scale
+      - LINE "Line 7", 240x0px, constraints left/top, stroke #E5E5E5 1px
+  - FRAME "Content", 767x432px, constraints left/top, fill #FFFFFF, stroke #18A0FB 2px
+    - TEXT "Reordering layers.", 739x432px, constraints left/top, fill #000000, text [Inter ExtraBold, 144px], [heading]
+    - LINE "Line 12", 751x0px, constraints scale/bottom, stroke #18A0FB 2px
+    - LINE "Line 13", 751x0px, constraints scale/bottom, stroke #18A0FB 2px
+    - RECTANGLE "Rectangle 294", 12x12px, constraints right/top, fill #FFFFFF, stroke #18A0FB 2px
+    - RECTANGLE "Rectangle 295", 12x12px, constraints right/bottom, fill #FFFFFF, stroke #18A0FB 2px
+    - RECTANGLE "Rectangle 296", 12x12px, constraints left/bottom, fill #FFFFFF, stroke #18A0FB 2px
+    - RECTANGLE "Rectangle 297", 12x12px, constraints left/top, fill #FFFFFF, stroke #18A0FB 2px
+
+Screen: 🖼 Thumbnail / Thumb
+- FRAME "Thumb", 1600x960px, constraints left/top, fill #1F5ABC
+  - RECTANGLE "image 2", 1024.36x623.32px, constraints left/top, fill image(hash: 2ffc2090c9e48873d74232c123b59e0bc98c5e5e), effect Sketch Shadow (Prod)
+  - RECTANGLE "image 1", 1024.31x622.57px, constraints left/top, fill image(hash: 006989d5f1cf8296ed8763b5450cfb998c201740), effect Sketch Shadow (Prod)
+  - FRAME "Frame 2", 990x175px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Popular Website & App Mockups", 990x77px, constraints left/top, fill #FFFFFF, text [website heading/Heading 1], [heading], opacity 90%
+    - TEXT "Free to use in your designs, content, or websites. Use as-is", 733x90px, constraints left/top, fill #FFFFFF, text [medium/3xl], [heading], opacity 70%
+
+Screen: 🤨 About / About
+- FRAME "About", 911x682px, vertical pad 100 100 100 100px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 60px, fill #111111, effect Gentle Backdrop
+  - FRAME "Frame 2", 711x482px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "What’s this all about?", 711x45px, constraints left/top, fill #FFFFFF, text [Inter Bold, 30px], [heading]
+    - TEXT "I made a bunch of (fun) fake mockups of popular websites and", 711x405px, constraints left/top, fill #BBBBBB, text [Inter Medium, 30px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

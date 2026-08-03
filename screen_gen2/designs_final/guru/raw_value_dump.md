@@ -1,0 +1,4572 @@
+---
+name: product-refund-selection-ui-for-amazon-flipkart-meesho-and-other-e-commerce-web-and-applications-community
+source_file: Product Refund Selection UI  for Amazon, Flipkart, Meesho, and other E-Commerce web and applications (Community)
+source_page: All pages (2): Return Request Design , Thumbnail
+generated_at: 2026-07-25T09:27:00.775945+00:00
+---
+
+# Product Refund Selection UI  for Amazon, Flipkart, Meesho, and other E-Commerce web and applications (Community) Design Guidelines
+
+## Source
+- Figma file: Product Refund Selection UI  for Amazon, Flipkart, Meesho, and other E-Commerce web and applications (Community)
+- Figma page: All pages (2): Return Request Design , Thumbnail
+- Extracted at: 2026-07-25T09:27:00.775945+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- dark: [#0D0543]
+- brand_gradient: [gradient_linear(#00FBFF 0% | #10DCE8 100% | #09C9E3 100%)]
+- secondary: [#EB24BF]
+- Avatar user square/Olivia Rhye (color background): [#CFCBDC, image(hash: 27a8497d5cb712a39a846f3d49443b8283852dca)]
+
+## Raw Colors (unstyled)
+- #CFCBDC: 33 uses
+- #FFFFFF: 10 uses
+- #000000: 3 uses
+
+## Typography Tokens
+- Text md/Regular: Inter Regular (400), 16px / 24px, tracking 0px
+- Text md/Medium: Inter Medium (500), 16px / 24px, tracking 0px
+- Text sm/Regular: Inter Regular (400), 14px / 20px, tracking 0px
+- Text sm/Medium: Inter Medium (500), 14px / 20px, tracking 0px
+- Text xs/Medium: Inter Medium (500), 12px / 18px, tracking 0px
+- Text md/Semibold: Inter SemiBold (600), 16px / 24px, tracking 0px
+- Text xl/Semibold: Inter SemiBold (600), 20px / 30px, tracking 0px
+- Text sm/Semibold: Inter SemiBold (600), 14px / 20px, tracking 0px
+- Display 2xl/Bold: Inter Bold (700), 72px / 90px, tracking -1.44px
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 14px: 16 uses
+- Young Serif Regular, 32px: 4 uses
+
+## Typography Hierarchy
+- 72px - Display 2xl/Bold (Inter Bold)
+- 32px - Young Serif Regular, 32px (raw)
+- 20px - Text xl/Semibold (Inter SemiBold)
+- 16px - Text md/Medium (Inter Medium)
+- 16px - Text md/Regular (Inter Regular)
+- 16px - Text md/Semibold (Inter SemiBold)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - Text sm/Medium (Inter Medium)
+- 14px - Text sm/Regular (Inter Regular)
+- 14px - Text sm/Semibold (Inter SemiBold)
+- 12px - Text xs/Medium (Inter Medium)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Drop Shadow/600: [drop_shadow 32px offset 0 16 #0C0C0D66]
+- Shadows/shadow-xs: [drop_shadow 2px offset 0 1 #1018280D]
+
+## Grid Styles
+- Grid tablet: columns count 6, section 90.67px, gutter 32px, align stretch + columns count 2, section 32px, gutter 704px, align center + ...
+- Grid desktop: columns count 12, section 65.83px, gutter 32px, align stretch + columns count 2, section 32px, gutter 1216px, align center + ...
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Text sm/Regular: 148 uses
+- Shadows/shadow-xs: 146 uses
+- Text sm/Semibold: 92 uses
+- Text md/Regular: 90 uses
+- Text sm/Medium: 90 uses
+- Text md/Medium: 77 uses
+- Text xs/Medium: 39 uses
+- Text xl/Semibold: 24 uses
+- Display 2xl/Bold: 16 uses
+- Text md/Semibold: 8 uses
+- brand_gradient: 8 uses
+- Avatar user square/Olivia Rhye (color background): 3 uses
+- secondary: 2 uses
+- Drop Shadow/600: 1 use
+- dark: 1 use
+
+## Layout & Structure
+Screen: Return Request Design  / Desktop
+- FRAME "Desktop", 1366x450px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 946x72px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 946x72px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 718x2px, constraints left_right/top, fill #FFFFFF
+        - RECTANGLE "Line", 256x2px, constraints left_right/top, stroke #EAECF0 1px
+        - RECTANGLE "Line", 256x2px, constraints left_right/top, stroke #EAECF0 1px
+        - RECTANGLE "Line", 257x2px, constraints left_right/top, stroke #EAECF0 1px
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9
+          - INSTANCE "coins-hand", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9
+          - INSTANCE "file-check-02", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14.17x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4255", 855x96px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4254", 855x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "$content-text-color", 855x24px, constraints left/top, fill #101828, text [Text md/Medium]
+      - TEXT "$content-text-color", 855x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 152x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+
+Screen: Return Request Design  / Desktop
+- FRAME "Desktop", 1366x714px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 946x72px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 946x72px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 718x2px, constraints left_right/top, fill #FFFFFF
+        - RECTANGLE "Line", 771x1px, constraints left_right/top, stroke #EAECF0 1px
+        - RECTANGLE "Line", 256x2px, constraints left_right/top, stroke #EAECF0 1px
+        - RECTANGLE "Line", 218x2px, constraints left_right/top, stroke #EAECF0 1px
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9
+          - INSTANCE "coins-hand", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "file-check-02", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14.17x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 2px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4256", 855x364px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4254", 855x324px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "$content-text-color", 855x24px, constraints left/top, fill #101828, text [Text md/Medium]
+      - FRAME "Frame 4272", 855x292px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 4259", 855x116px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px
+          - FRAME "Frame 4257", 855x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Table header cell", 598x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 8/0/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header cell", 118x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header cell", 139x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/8/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+          - FRAME "Frame 4263", 855x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 4264", 598x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4271", 855x144px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 8", 855x24px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 4273", 855x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 4256", 855x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "$content-text-color", 288x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - FRAME "Checkbox group", 559x24px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 4258", 855x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "$content-text-color", 254x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - FRAME "Checkbox group", 593x24px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 4259", 855x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "$content-text-color", 255x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - FRAME "Checkbox group", 592x24px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+    - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 55x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+
+Screen: Return Request Design  / Desktop
+- FRAME "Desktop", 1366x738px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 946x72px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 946x72px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 718x2px, constraints left_right/top, fill #FFFFFF [decorative, ~4 shapes]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "coins-hand", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "file-check-02", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14.17x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4255", 855x388px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4270", 855x24px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - TEXT "$content-text-color", 855x24px, constraints left/top, fill #101828, text [Text md/Medium]
+    - FRAME "Frame 4271", 855x340px, vertical pad 0 0 0 0px gap 24px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Checkbox group", 855x276px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Checkbox group item", 855x84px, horizontal pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #7F56D9 2px
+          - FRAME "Content", 823x52px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Input", 20x22px, horizontal pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Text and supporting text", 791x52px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Checkbox group item", 855x84px, horizontal pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #EAECF0 1px
+          - FRAME "Content", 823x52px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Input", 20x22px, horizontal pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Text and supporting text", 791x52px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Checkbox group item", 855x84px, horizontal pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #EAECF0 1px
+          - FRAME "Content", 823x52px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Input", 20x22px, horizontal pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Text and supporting text", 791x52px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4233", 855x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 59x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 32x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: Return Request Design  / Desktop
+- FRAME "Desktop", 1366x642px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 946x72px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 946x72px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 718x2px, constraints left_right/top, fill #FFFFFF [decorative, ~4 shapes]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "coins-hand", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "file-check-02", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14.17x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4255", 855x292px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4270", 855x24px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - TEXT "$content-text-color", 855x24px, constraints left/top, fill #101828, text [Text md/Medium]
+    - FRAME "Frame 4256", 855x244px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4256", 855x244px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Checkbox group", 855x180px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Checkbox group item", 855x84px, horizontal pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #7F56D9 2px
+            - FRAME "Content", 823x52px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Checkbox group item", 855x84px, horizontal pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D0D5DD 1px
+            - FRAME "Content", 823x52px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 4233", 171x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 91x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 64x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: Return Request Design  / Desktop
+- FRAME "Desktop", 1366x930px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 946x72px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 946x72px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 718x2px, constraints left_right/top, fill #FFFFFF [decorative, ~4 shapes]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "coins-hand", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "file-check-02", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14.17x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4255", 855x580px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "$content-text-color", 855x24px, constraints left/top, fill #101828, text [Text md/Medium]
+    - FRAME "Frame 4256", 855x540px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4259", 855x476px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px
+        - FRAME "Frame 4257", 855x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 68x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 530x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 46x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 118x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 82x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 139x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/8/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 71x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4263", 855x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4264", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4258", 855x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4265", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4259", 855x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4266", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4260", 855x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4267", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4261", 855x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4268", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4262", 855x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4269", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 4233", 171x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 91x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 63x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 59x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 64x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 32x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: Return Request Design  / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x950px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 751x92px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 751x92px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 523x2px, constraints left_right/top, fill #FFFFFF [decorative, ~4 shapes]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x92px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "coins-hand", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 137.4x40px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x40px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "file-check-02", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14.17x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4255", 704x580px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "$content-text-color", 704x24px, constraints left/top, fill #101828, text [Text md/Medium]
+    - FRAME "Frame 4256", 704x540px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4259", 704x476px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px
+        - FRAME "Frame 4257", 704x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 68x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 379x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 46x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 118x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 82x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 139x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/8/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 71x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4263", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4264", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4258", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4265", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4259", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4266", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4260", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4267", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4261", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4268", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4262", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4269", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 4233", 171x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 91x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 59x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 64x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 32x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: Return Request Design  / Tablet Landscape1024px
+- FRAME "Tablet Landscape1024px", 1024x950px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 751x92px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 751x92px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 523x2px, constraints left_right/top, fill #FFFFFF [decorative, ~4 shapes]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x92px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "coins-hand", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 137.4x40px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x40px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "file-check-02", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14.17x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4255", 704x580px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "$content-text-color", 704x24px, constraints left/top, fill #101828, text [Text md/Medium]
+    - FRAME "Frame 4256", 704x540px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4259", 704x476px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px
+        - FRAME "Frame 4257", 704x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 68x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 379x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 46x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 118x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 82x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 139x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/8/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 71x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4263", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4264", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4258", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4265", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4259", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4266", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4260", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4267", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4261", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4268", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4262", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4269", 379x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table cell", 319x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 4233", 171x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 91x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 59x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 64x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 32x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: Return Request Design  / Mobile 360px
+- FRAME "Mobile 360px", 360x1090px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 328x304px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 328x304px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 100x2px, constraints left_right/top, fill #FFFFFF
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "shopping-bag-01", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, opacity 60%
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "flip-backward", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, opacity 60%
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "truck-01", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, opacity 60%
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "coins-hand", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, opacity 60%
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "file-check-02", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4256", 328x580px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "$content-text-color", 328x24px, constraints left/top, fill #101828, text [Text md/Medium]
+    - FRAME "Frame 4256", 328x540px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4260", 328x476px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px
+        - FRAME "Frame 4257", 328x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 68x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 1x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 46x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 530x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 82x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Table header cell", 139x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/8/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header", 71x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4263", 328x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4264", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4258", 328x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4265", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4259", 328x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4266", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4260", 328x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4267", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4261", 328x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4268", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - FRAME "Frame 4262", 328x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 68x72px, horizontal pad 16 24 16 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 4269", 530x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Table cell", 60x72px, horizontal pad 16 6 16 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table cell", 470x72px, horizontal pad 16 8 16 8px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 70x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 4233", 328x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 156x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 59x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 156x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 32x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: Return Request Design  / Mobile 360px
+- FRAME "Mobile 360px", 360x1462px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 328x304px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 328x304px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 100x2px, constraints left_right/top, fill #FFFFFF
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+            - INSTANCE "shopping-bag-01", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "flip-backward", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, opacity 60%
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "truck-01", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, opacity 60%
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "coins-hand", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, opacity 60%
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "file-check-02", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4257", 328x952px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4270", 328x76px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - TEXT "$content-text-color", 328x24px, constraints left/top, fill #101828, text [Text md/Medium]
+      - TEXT "$content-text-color", 328x48px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 4256", 328x852px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4272", 328x788px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 4259", 328x116px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px
+          - FRAME "Frame 4257", 328x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Table header cell", 447x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header cell", 118x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header cell", 139x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/8/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+          - FRAME "Frame 4263", 328x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 4264", 447x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4271", 328x640px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 8", 328x272px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - TEXT "$content-text-color", 328x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - FRAME "Checkbox group", 328x232px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 4256", 328x320px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - TEXT "$content-text-color", 328x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - FRAME "Checkbox group", 328x256px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4273", 328x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 156x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 59x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 156x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 32x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: Return Request Design  / Mobile 360px
+- FRAME "Mobile 360px", 360x826px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 328x304px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 328x304px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 100x2px, constraints left_right/top, fill #FFFFFF
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+            - INSTANCE "shopping-bag-01", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+            - INSTANCE "flip-backward", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "truck-01", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, opacity 60%
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "coins-hand", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 328x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, opacity 60%
+        - FRAME "Connector wrap", 48x48px, vertical pad 0 0 4 0px gap 4px align min/center sizing W:fixed H:fill, constraints left/top, fill #FFFFFF
+          - INSTANCE "Featured icon", 48x48px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - INSTANCE "file-check-02", 24x24px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Connector", 2x1px, constraints left/center, radius 2px, fill #EAECF0
+        - FRAME "Text and supporting text", 268x28px, vertical pad 4 0 4 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 268x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+      - RECTANGLE "Line", 2x16px, constraints left/top, stroke #EAECF0 1px
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4257", 328x316px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4270", 328x244px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "$content-text-color", 328x48px, constraints left/top, fill #101828, text [Text md/Medium]
+      - FRAME "Checkbox group", 328x180px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Checkbox group item", 328x84px, horizontal pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #7F56D9 2px
+          - FRAME "Content", 296x52px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Input", 20x22px, horizontal pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Text and supporting text", 264x52px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Checkbox group item", 328x84px, horizontal pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D0D5DD 1px
+          - FRAME "Content", 296x52px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Input", 20x22px, horizontal pad 2 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Text and supporting text", 264x52px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Frame 4256", 328x40px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4273", 328x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 156x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 59x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 156x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 32x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: Return Request Design  / Desktop
+- FRAME "Desktop", 1366x910px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 946x72px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 946x72px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 718x2px, constraints left_right/top, fill #FFFFFF [decorative, ~4 shapes]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "coins-hand", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 176.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "file-check-02", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14.17x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 176.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 176.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4255", 855x584px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4270", 855x52px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - TEXT "$content-text-color", 855x24px, constraints left/top, fill #101828, text [Text md/Medium]
+      - TEXT "$content-text-color", 855x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 4256", 855x508px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4272", 855x444px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 4259", 855x116px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px
+          - FRAME "Frame 4257", 855x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Table header cell", 598x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 8/0/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header cell", 118x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header cell", 139x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/8/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+          - FRAME "Frame 4263", 855x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 4264", 598x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4271", 855x296px, horizontal pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 8", 403.5x248px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - TEXT "$content-text-color", 403.5x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - FRAME "Checkbox group", 403.5x208px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 4256", 403.5x296px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - TEXT "$content-text-color", 403.5x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - FRAME "Checkbox group", 403.5x232px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4233", 171x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 91x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 59x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 64x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 32x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: Return Request Design  / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x910px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 751x92px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 751x92px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 523x2px, constraints left_right/top, fill #FFFFFF [decorative, ~4 shapes]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x92px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "coins-hand", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Content", 137.4x40px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x40px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "file-check-02", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 14.17x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, opacity 60%
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - TEXT "$content-text-color", 183x30px, constraints left/top, fill #101828, text [Text xl/Semibold]
+  - FRAME "Frame 4255", 704x608px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4270", 704x52px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - TEXT "$content-text-color", 704x24px, constraints left/top, fill #101828, text [Text md/Medium]
+      - TEXT "$content-text-color", 704x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 4256", 704x532px, vertical pad 0 0 0 0px gap 24px align center/max sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4272", 704x468px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 4259", 704x116px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px
+          - FRAME "Frame 4257", 704x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Table header cell", 447x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 8/0/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header cell", 118x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+            - INSTANCE "Table header cell", 139x44px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/8/0/0px, fill #F9FAFB, stroke #EAECF0 1px
+          - FRAME "Frame 4263", 704x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 4264", 447x72px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Table cell", 118x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Table cell", 139x72px, horizontal pad 16 24 16 24px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4271", 704x320px, horizontal pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 8", 328x272px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - TEXT "$content-text-color", 328x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - FRAME "Checkbox group", 328x232px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 4256", 328x320px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - TEXT "$content-text-color", 328x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - FRAME "Checkbox group", 328x256px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 4233", 171x40px, horizontal pad 0 0 0 0px gap 16px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 91x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 59x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 64x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 32x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: Return Request Design  / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x662px, constraints left/top, fill #FFFFFF
+  - FRAME "Progress steps / Progress icons centered", 751x92px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "Content", 751x92px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Lines", 523x2px, constraints left_right/top, fill #FFFFFF [decorative, ~4 shapes]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+          - INSTANCE "shopping-bag-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, fill #7F56D9, effect Shadows/shadow-xs
+          - INSTANCE "flip-backward", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10.83px, constraints scale/scale, stroke #FFFFFF 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Medium]
+      - INSTANCE "_Step base", 137.4x72px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Featured icon", 40x40px, constraints left/top, radius 9999px, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - INSTANCE "truck-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x13.33px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+        - FRAME "Content", 137.4x20px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 137.4x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "_Step base", 137.4x92px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
+
+
+---
+
+---
+name: authentication-ui-kit-80-screens-sign-in-sign-up-otp-login-forgot-password-etc-community
+source_file: Authentication UI Kit – 80+ screens Sign In, Sign Up, OTP Login, Forgot Password, etc., (Community)
+source_page: All pages (8): ➡️ - Sign In, ⬅️ - Sign Up, 📱- Login with mobile number, 🔢- Enter OTP, 🔓 - Unlock your session, 😢 - Forgot your password, ⬅️ - Sign Out, Thumbnail
+generated_at: 2026-07-25T09:27:05.818899+00:00
+---
+
+# Authentication UI Kit – 80+ screens Sign In, Sign Up, OTP Login, Forgot Password, etc., (Community) Design Guidelines
+
+## Source
+- Figma file: Authentication UI Kit – 80+ screens Sign In, Sign Up, OTP Login, Forgot Password, etc., (Community)
+- Figma page: All pages (8): ➡️ - Sign In, ⬅️ - Sign Up, 📱- Login with mobile number, 🔢- Enter OTP, 🔓 - Unlock your session, 😢 - Forgot your password, ⬅️ - Sign Out, Thumbnail
+- Extracted at: 2026-07-25T09:27:05.818899+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- dark: [#0D0543]
+- brand_gradient: [gradient_linear(#00FBFF 0% | #10DCE8 100% | #09C9E3 100%)]
+- secondary: [#EB24BF]
+- Gradient/Brand/800 -> 600 (45deg): [gradient_linear(#53389E 0% | #7F56D9 100%)]
+
+## Raw Colors (unstyled)
+- #000000: 91 uses
+- #0052B4: 24 uses
+- #1877F2: 24 uses
+- #34A853: 24 uses
+- #4285F4: 24 uses
+- #EA4335: 24 uses
+- #F0F0F0: 24 uses
+- #FBBC04: 24 uses
+- #6DA544: 12 uses
+- #FF9811: 12 uses
+- #FFFFFF: 12 uses
+
+## Typography Tokens
+- Text md/Regular: Inter Regular (400), 16px / 24px, tracking 0px
+- Text xl/Bold: Inter Bold (700), 20px / 30px, tracking 0px
+- Display sm/Bold: Inter Bold (700), 30px / 38px, tracking 0px
+- Text sm/Regular: Inter Regular (400), 14px / 20px, tracking 0px
+- Display xs/Bold: Inter Bold (700), 24px / 32px, tracking 0px
+- Display lg/Bold: Inter Bold (700), 48px / 60px, tracking -0.96px
+- Text sm/Medium: Inter Medium (500), 14px / 20px, tracking 0px
+- Display sm/Regular: Inter Regular (400), 30px / 38px, tracking 0px
+- Text md/Medium: Inter Medium (500), 16px / 24px, tracking 0px
+- Text md/Semibold: Inter SemiBold (600), 16px / 24px, tracking 0px
+- Display xs/Semibold: Inter SemiBold (600), 24px / 32px, tracking 0px
+- Text xl/Semibold: Inter SemiBold (600), 20px / 30px, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 16px: 204 uses
+- Inter Bold, 96px: 84 uses
+- Inter SemiBold, 24px: 60 uses
+- Inter SemiBold, 14px: 12 uses
+- Inter Bold, 128px: 7 uses
+- Young Serif Regular, 32px: 5 uses
+
+## Typography Hierarchy
+- 128px - Inter Bold, 128px (raw)
+- 96px - Inter Bold, 96px (raw)
+- 48px - Display lg/Bold (Inter Bold)
+- 32px - Young Serif Regular, 32px (raw)
+- 30px - Display sm/Bold (Inter Bold)
+- 30px - Display sm/Regular (Inter Regular)
+- 24px - Display xs/Bold (Inter Bold)
+- 24px - Display xs/Semibold (Inter SemiBold)
+- 24px - Inter SemiBold, 24px (raw)
+- 20px - Text xl/Bold (Inter Bold)
+- 20px - Text xl/Semibold (Inter SemiBold)
+- 16px - Inter SemiBold, 16px (raw)
+- 16px - Text md/Medium (Inter Medium)
+- 16px - Text md/Regular (Inter Regular)
+- 16px - Text md/Semibold (Inter SemiBold)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - Text sm/Medium (Inter Medium)
+- 14px - Text sm/Regular (Inter Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadows/shadow-lg: [drop_shadow 6px offset 0 4 #10182808, drop_shadow 16px offset 0 12 #10182814]
+- Shadows/shadow-xs: [drop_shadow 2px offset 0 1 #1018280D]
+
+## Grid Styles
+- Grid tablet: columns count 6, section 133.33px, gutter 32px, align stretch + columns count 2, section 32px, gutter 704px, align center + ...
+- Grid desktop: columns count 12, section 65.83px, gutter 32px, align stretch + columns count 2, section 32px, gutter 1216px, align center + ...
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Text md/Regular: 380 uses
+- Shadows/shadow-xs: 300 uses
+- Text sm/Regular: 112 uses
+- Display sm/Bold: 84 uses
+- Gradient/Brand/800 -> 600 (45deg): 84 uses
+- Text sm/Medium: 84 uses
+- Text md/Semibold: 68 uses
+- Text md/Medium: 48 uses
+- Display sm/Regular: 36 uses
+- Display lg/Bold: 21 uses
+- Shadows/shadow-lg: 21 uses
+- brand_gradient: 16 uses
+- Text xl/Bold: 12 uses
+- Display xs/Semibold: 9 uses
+- Display xs/Bold: 7 uses
+- Text xl/Semibold: 3 uses
+- secondary: 2 uses
+- dark: 1 use
+
+## Layout & Structure
+Screen: ➡️ - Sign In / Sign In
+- FRAME "Sign In", 1366x768px, horizontal pad 54 405 54 405px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 10968", 556x618px, vertical pad 24 24 24 24px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #F9FAFB, stroke #EAECF0 1px, effect Shadows/shadow-lg
+    - FRAME "Frame 10966", 508x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 508x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 508x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 508x32px, constraints left/top, fill #344054, text [Display xs/Semibold], [heading]
+        - TEXT "Enter your login details to sign in", 508x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 508x420px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 508x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 508x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 508x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 508x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 508x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 508x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 508x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 508x24px, constraints left/top
+          - FRAME "Frame 10958", 508x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 508x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 508x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 183.5x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 183.5x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 508x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 246x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 246x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Sign In
+- FRAME "Sign In", 1366x768px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+  - RECTANGLE "Rectangle 3091", 683x768px, constraints left/top, fill image(hash: e3165028f518498b4fa58b70776b92df12264814)
+  - FRAME "Frame 10967", 683x768px, vertical pad 24 80 24 80px gap 24px align center/center sizing W:fill H:fill, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 523x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 523x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 523x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 523x32px, constraints left/top, fill #344054, text [Display xs/Semibold], [heading]
+        - TEXT "Enter your login details to sign in", 523x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 523x420px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 523x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 523x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 523x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 523x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 523x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 523x24px, constraints left/top
+          - FRAME "Frame 10958", 523x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 523x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 523x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 191x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 191x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 523x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 253.5x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 253.5x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Sign In
+- FRAME "Sign In", 1366x768px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 10952", 683x768px, vertical pad 212 40 212 40px gap 10px sizing W:fixed H:fill, constraints left/top, fill #F2F4F7
+    - FRAME "Frame 10975", 603x400px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10968", 603x180px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Discover a world of possibilities tailored just for you.", 603x180px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+      - FRAME "Frame 10974", 603x148px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10970", 603x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Gain access to powerful tools and resources designed to enha", 571x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10971", 603x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Be the first to know about new features, updates, and specia", 571x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10972", 603x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Connect with other users and share insights, tips, and exper", 571x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10973", 603x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "We prioritize your security and privacy with industry-leadin", 571x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+      - FRAME "Frame 10958", 603x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Have questions? Visit our", 192x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+        - TEXT "or reach out to our", 141x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+  - FRAME "Frame 10967", 683x768px, vertical pad 24 80 24 80px gap 24px align center/center sizing W:fill H:fill, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 523x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10965", 523x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 523x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 523x32px, constraints left/top, fill #344054, text [Display xs/Semibold], [heading]
+        - TEXT "Enter your login details to sign in", 523x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 523x420px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 523x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 523x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 523x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 523x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 523x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 523x24px, constraints left/top
+          - FRAME "Frame 10958", 523x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 523x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 523x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 191x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 191x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 523x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 253.5x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 253.5x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Sign In
+- FRAME "Sign In", 768x1002px, vertical pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+  - RECTANGLE "Rectangle 3091", 768x336px, constraints left/top, fill image(hash: e3165028f518498b4fa58b70776b92df12264814)
+  - FRAME "Frame 10967", 768x634px, vertical pad 32 120 32 120px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 528x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10965", 528x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 528x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 528x32px, constraints left/top, fill #344054, text [Display xs/Semibold], [heading]
+        - TEXT "Enter your login details to sign in", 528x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 528x420px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 528x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 528x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 528x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 528x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 528x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 528x24px, constraints left/top
+          - FRAME "Frame 10958", 528x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 528x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 528x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 193.5x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 193.5x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 528x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 256x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 256x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Sign In
+- FRAME "Sign In", 768x1130px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints scale/center, fill #FFFFFF
+  - FRAME "Frame 10952", 768x496px, vertical pad 48 32 48 32px gap 10px sizing W:fill H:fixed, constraints left/top, fill #F2F4F7
+    - FRAME "Frame 10975", 704x400px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10968", 704x180px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Discover a world of possibilities tailored just for you.", 704x180px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+      - FRAME "Frame 10974", 704x148px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10970", 704x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Gain access to powerful tools and resources designed to enha", 672x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10971", 704x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Be the first to know about new features, updates, and specia", 672x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10972", 704x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Connect with other users and share insights, tips, and exper", 672x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10973", 704x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "We prioritize your security and privacy with industry-leadin", 672x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+      - FRAME "Frame 10958", 603x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Have questions? Visit our", 192x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+        - TEXT "or reach out to our", 141x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+  - FRAME "Frame 10967", 768x634px, vertical pad 32 120 32 120px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 528x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10965", 528x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 528x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 528x32px, constraints left/top, fill #344054, text [Display xs/Semibold], [heading]
+        - TEXT "Enter your login details to sign in", 528x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 528x420px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 528x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 528x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 528x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 528x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 528x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 528x24px, constraints left/top
+          - FRAME "Frame 10958", 528x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 528x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 528x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 193.5x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 193.5x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 528x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 256x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 256x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Sign In
+- FRAME "Sign In", 1024x768px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+  - RECTANGLE "Rectangle 3091", 512x768px, constraints left/top, fill image(hash: e3165028f518498b4fa58b70776b92df12264814)
+  - FRAME "Frame 10967", 512x768px, vertical pad 24 48 24 48px gap 24px align center/center sizing W:fixed H:fill, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 416x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10965", 416x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 416x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 416x32px, constraints left/top, fill #344054, text [Display xs/Semibold], [heading]
+        - TEXT "Enter your login details to sign in", 416x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 416x420px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 416x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 416x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 416x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 416x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 416x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 416x24px, constraints left/top
+          - FRAME "Frame 10958", 416x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 416x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 416x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 137.5x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 137.5x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 416x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 200x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 200x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Sign In
+- FRAME "Sign In", 1024x768px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 10952", 512x768px, vertical pad 48 32 48 32px gap 10px align center/min sizing W:fill H:fill, constraints left/top, fill #F2F4F7
+    - FRAME "Frame 10975", 448x548px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10968", 448x240px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Discover a world of possibilities tailored just for you.", 448x240px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+      - FRAME "Frame 10974", 448x208px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10970", 448x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Gain access to powerful tools and resources designed to enha", 416x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10971", 448x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Be the first to know about new features, updates, and specia", 416x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10972", 448x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Connect with other users and share insights, tips, and exper", 416x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10973", 448x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "We prioritize your security and privacy with industry-leadin", 416x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+      - FRAME "Frame 10958", 448x52px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Have questions? Visit our", 192x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+        - TEXT "or reach out to our", 141x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+  - FRAME "Frame 10967", 512x768px, vertical pad 24 48 24 48px gap 24px align center/center sizing W:fixed H:fill, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 416x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10965", 416x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 416x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 416x32px, constraints left/top, fill #344054, text [Display xs/Semibold], [heading]
+        - TEXT "Enter your login details to sign in", 416x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 416x420px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 416x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 416x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 416x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 416x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 416x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 416x24px, constraints left/top
+          - FRAME "Frame 10958", 416x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 416x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 416x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 137.5x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 137.5x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 416x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 200x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 200x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Sign In
+- FRAME "Sign In", 360x930px, vertical pad 0 0 32 0px gap 32px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+  - RECTANGLE "Rectangle 3091", 360x256px, constraints left/top, fill image(hash: e3165028f518498b4fa58b70776b92df12264814)
+  - FRAME "Frame 10967", 360x610px, vertical pad 0 16 0 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 328x112px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10965", 328x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 328x58px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 328x30px, constraints left/top, fill #344054, text [Text xl/Semibold]
+        - TEXT "Enter your login details to sign in", 328x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 328x480px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 328x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 328x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 328x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 328x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 328x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 328x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 328x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 328x24px, constraints left/top
+          - FRAME "Frame 10958", 328x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 328x144px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 328x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 93.5x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 93.5x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 328x104px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 328x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 328x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Sign In
+- FRAME "Sign In", 360x1154px, vertical pad 0 0 32 0px gap 32px align min/center sizing W:fixed H:fixed, constraints scale/center, fill #FFFFFF
+  - FRAME "Frame 10952", 360x480px, horizontal pad 32 16 32 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill #F2F4F7
+    - FRAME "Frame 10975", 328x416px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10968", 328x96px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Discover a world of possibilities tailored just for you.", 328x96px, constraints left/top, fill #101828, text [Display xs/Bold], [heading]
+      - FRAME "Frame 10974", 328x296px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10970", 328x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Gain access to powerful tools and resources designed to enha", 296x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10971", 328x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Be the first to know about new features, updates, and specia", 296x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10973", 328x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Connect with other users and share insights, tips, and exper", 296x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10972", 328x60px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "We prioritize your security and privacy with industry-leadin", 296x60px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10958", 328x52px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Have questions? Visit our", 192x24px, constraints left/top, fill #344054, text [Text md/Regular]
+          - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+          - TEXT "or reach out to our", 141x24px, constraints left/top, fill #344054, text [Text md/Regular]
+          - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+  - FRAME "Frame 10967", 360x610px, vertical pad 0 16 0 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 328x112px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10965", 328x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 328x58px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 328x30px, constraints left/top, fill #344054, text [Text xl/Semibold]
+        - TEXT "Enter your login details to sign in", 328x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 328x480px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 328x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 328x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 328x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 328x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 328x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 328x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 328x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 328x24px, constraints left/top
+          - FRAME "Frame 10958", 328x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 328x144px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 328x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 93.5x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 93.5x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 328x104px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 328x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 328x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Tablet Landscape
+- FRAME "Tablet Landscape", 1024x768px, vertical pad 75 196 75 196px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 10967", 632x618px, vertical pad 24 24 24 24px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #F9FAFB, stroke #EAECF0 1px, effect Shadows/shadow-lg
+    - FRAME "Frame 10966", 584x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10965", 584x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 584x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 584x32px, constraints left/top, fill #344054, text [Display xs/Semibold], [heading]
+        - TEXT "Enter your login details to sign in", 584x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 584x420px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 584x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 584x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 584x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 584x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 584x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 584x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 584x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 584x24px, constraints left/top
+          - FRAME "Frame 10958", 584x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 584x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 584x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 221.5x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 221.5x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 584x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 284x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 284x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Mobile
+- FRAME "Mobile", 360x704px, horizontal pad 56 16 32 16px gap 10px align center/min sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 10967", 328x616px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 328x112px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 328x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 328x58px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 328x30px, constraints left/top, fill #344054, text [Text xl/Semibold]
+        - TEXT "Enter your login details to sign in", 328x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 328x480px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 328x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 328x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 328x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 328x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 328x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 328x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 328x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 328x24px, constraints left/top
+          - FRAME "Frame 10958", 328x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 328x144px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 328x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 93.5x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 93.5x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 328x104px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 328x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 328x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Tablet Potrait
+- FRAME "Tablet Potrait", 768x1024px, horizontal pad 96 123 96 123px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+  - FRAME "Frame 10967", 455x618px, vertical pad 24 24 24 24px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #F9FAFB, stroke #EAECF0 1px, effect Shadows/shadow-lg
+    - FRAME "Frame 10966", 407x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10965", 407x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 407x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign in", 407x32px, constraints left/top, fill #344054, text [Display xs/Semibold], [heading]
+        - TEXT "Enter your login details to sign in", 407x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 407x420px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 407x320px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 407x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 407x196px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 407x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 407x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 407x24px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 407x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 11114", 407x24px, constraints left/top
+          - FRAME "Frame 10958", 407x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Don’t have an account yet?", 205x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10962", 407x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10960", 407x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 133x0px, constraints left/top, stroke #EAECF0 1px
+          - TEXT "Or continue with", 125x24px, constraints left/top, fill #475467, text [Text md/Regular]
+          - VECTOR "Vector 3", 133x0px, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 10961", 407x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Social button", 195.5x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 149x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+          - INSTANCE "Social button", 195.5x44px, horizontal pad 10 16 10 16px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social icon", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 170x24px, constraints left/top, fill #344054, text [Text md/Semibold]
+
+Screen: ➡️ - Sign In / Sign In
+- TEXT "Sign In", 410x155px, constraints left/top, fill #000000, text [Inter Bold, 128px], [heading]
+
+Screen: ➡️ - Sign In / Desktop 1366px
+- TEXT "Desktop 1366px", 742x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Desktop 1366px
+- TEXT "Desktop 1366px", 742x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Desktop 1366px
+- TEXT "Desktop 1366px", 742x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Tablet 768px
+- TEXT "Tablet 768px", 593x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Tablet 768px
+- TEXT "Tablet 768px", 593x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Tablet 768px
+- TEXT "Tablet 768px", 593x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Tablet 1024px
+- TEXT "Tablet 1024px", 645x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Tablet 1024px
+- TEXT "Tablet 1024px", 645x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Tablet 1024px
+- TEXT "Tablet 1024px", 645x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Mobile 360px
+- TEXT "Mobile 360px", 626x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Mobile 360px
+- TEXT "Mobile 360px", 626x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ➡️ - Sign In / Mobile 360px
+- TEXT "Mobile 360px", 626x116px, constraints left/top, fill #000000, text [Inter Bold, 96px], [heading]
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 1366x820px, horizontal pad 54 405 54 405px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 10967", 556x712px, vertical pad 24 24 24 24px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #F9FAFB, stroke #EAECF0 1px, effect Shadows/shadow-lg
+    - FRAME "Frame 10966", 508x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 508x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 508x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 508x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 508x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10963", 508x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 508x514px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 508x358px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 508x282px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 508x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 508x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 508x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 508x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 508x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10962", 508x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10960", 508x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - VECTOR "Vector 1", 188.5x0px, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Or sign up with", 115x24px, constraints left/top, fill #475467, text [Text md/Regular]
+            - VECTOR "Vector 3", 188.5x0px, constraints left/top, stroke #EAECF0 1px
+          - FRAME "Frame 10961", 508x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Social button", 115x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 115x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 115x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 115x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - GROUP "Group 11114", 508x24px, constraints left/top
+          - FRAME "Frame 10958", 508x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Already have an account yet?", 223x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 1366x768px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 3091", 683x768px, constraints left/top, fill image(hash: e3165028f518498b4fa58b70776b92df12264814)
+  - FRAME "Frame 10967", 683x768px, vertical pad 24 80 24 80px gap 24px align center/center sizing W:fill H:fill, constraints left/top, radius 16px
+    - FRAME "Frame 10966", 523x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 523x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 523x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 523x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 523x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10967", 523x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 523x514px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 523x358px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 523x282px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 523x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 523x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10962", 523x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10960", 523x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - VECTOR "Vector 1", 196x0px, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Or sign up with", 115x24px, constraints left/top, fill #475467, text [Text md/Regular]
+            - VECTOR "Vector 3", 196x0px, constraints left/top, stroke #EAECF0 1px
+          - FRAME "Frame 10961", 523x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Social button", 118.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 118.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 118.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 118.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - GROUP "Group 11114", 523x24px, constraints left/top
+          - FRAME "Frame 10958", 523x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Already have an account yet?", 223x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 1366x824px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 10952", 683x824px, vertical pad 212 40 212 40px gap 10px sizing W:fixed H:fill, constraints left/top, fill #F2F4F7
+    - FRAME "Frame 10975", 603x400px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10968", 603x180px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Discover a world of possibilities tailored just for you.", 603x180px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+      - FRAME "Frame 10974", 603x148px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10970", 603x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Gain access to powerful tools and resources designed to enha", 571x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10971", 603x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Be the first to know about new features, updates, and specia", 571x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10972", 603x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Connect with other users and share insights, tips, and exper", 571x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10973", 603x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "We prioritize your security and privacy with industry-leadin", 571x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+      - FRAME "Frame 10958", 603x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Have questions? Visit our", 192x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 93x24px, constraints left/top, fill #6941C6, text [Inter SemiBold, 16px]
+        - TEXT "or reach out to our", 141x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 110x24px, constraints left/top, fill #6941C6, text [Inter SemiBold, 16px]
+  - FRAME "Frame 10967", 683x824px, vertical pad 24 80 24 80px gap 24px align center/center sizing W:fill H:fill, constraints left/top, radius 16px
+    - FRAME "Frame 10968", 523x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 523x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 523x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 523x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 523x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10967", 523x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 523x514px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 523x358px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 523x282px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 523x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 523x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 523x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10962", 523x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10960", 523x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - VECTOR "Vector 1", 196x0px, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Or sign up with", 115x24px, constraints left/top, fill #475467, text [Text md/Regular]
+            - VECTOR "Vector 3", 196x0px, constraints left/top, stroke #EAECF0 1px
+          - FRAME "Frame 10961", 523x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Social button", 118.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 118.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 118.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 118.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - GROUP "Group 11114", 523x24px, constraints left/top
+          - FRAME "Frame 10958", 523x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Already have an account yet?", 223x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 768x1024px, horizontal pad 96 123 96 123px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 10967", 455x712px, vertical pad 24 24 24 24px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #F9FAFB, stroke #EAECF0 1px, effect Shadows/shadow-lg
+    - FRAME "Frame 10967", 407x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 407x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 407x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 407x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 407x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10968", 407x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 407x514px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 407x358px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 407x282px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 407x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 407x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 407x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 407x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 407x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10962", 407x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10960", 407x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - VECTOR "Vector 1", 138x0px, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Or sign up with", 115x24px, constraints left/top, fill #475467, text [Text md/Regular]
+            - VECTOR "Vector 3", 138x0px, constraints left/top, stroke #EAECF0 1px
+          - FRAME "Frame 10961", 407x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Social button", 89.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 89.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 89.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 89.75x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - GROUP "Group 11114", 407x24px, constraints left/top
+          - FRAME "Frame 10958", 407x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Already have an account yet?", 223x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 768x1096px, vertical pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 3091", 768x336px, constraints left/top, fill image(hash: e3165028f518498b4fa58b70776b92df12264814)
+  - FRAME "Frame 10967", 768x728px, vertical pad 32 120 32 120px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, radius 16px
+    - FRAME "Frame 10967", 528x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 528x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 528x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 528x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 528x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10968", 528x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 528x514px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 528x358px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 528x282px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 528x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 528x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10962", 528x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10960", 528x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - VECTOR "Vector 1", 198.5x0px, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Or sign up with", 115x24px, constraints left/top, fill #475467, text [Text md/Regular]
+            - VECTOR "Vector 3", 198.5x0px, constraints left/top, stroke #EAECF0 1px
+          - FRAME "Frame 10961", 528x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Social button", 120x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 120x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 120x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 120x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - GROUP "Group 11114", 528x24px, constraints left/top
+          - FRAME "Frame 10958", 528x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Already have an account yet?", 223x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 768x1256px, vertical pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 10952", 768x496px, vertical pad 48 32 48 32px gap 10px sizing W:fill H:fixed, constraints left/top, fill #F2F4F7
+    - FRAME "Frame 10975", 704x400px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10968", 704x180px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Discover a world of possibilities tailored just for you.", 704x180px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+      - FRAME "Frame 10974", 704x148px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10970", 704x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Gain access to powerful tools and resources designed to enha", 672x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10971", 704x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Be the first to know about new features, updates, and specia", 672x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10972", 704x20px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Connect with other users and share insights, tips, and exper", 672x20px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10973", 704x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "We prioritize your security and privacy with industry-leadin", 672x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+      - FRAME "Frame 10958", 603x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Have questions? Visit our", 192x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 93x24px, constraints left/top, fill #6941C6, text [Inter SemiBold, 16px]
+        - TEXT "or reach out to our", 141x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 110x24px, constraints left/top, fill #6941C6, text [Inter SemiBold, 16px]
+  - FRAME "Frame 10967", 768x728px, vertical pad 32 120 32 120px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, radius 16px
+    - FRAME "Frame 10967", 528x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 528x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 528x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 528x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 528x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10968", 528x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 528x514px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 528x358px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 528x282px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 528x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 528x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 528x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10962", 528x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10960", 528x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - VECTOR "Vector 1", 198.5x0px, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Or sign up with", 115x24px, constraints left/top, fill #475467, text [Text md/Regular]
+            - VECTOR "Vector 3", 198.5x0px, constraints left/top, stroke #EAECF0 1px
+          - FRAME "Frame 10961", 528x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Social button", 120x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 120x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 120x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 120x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - GROUP "Group 11114", 528x24px, constraints left/top
+          - FRAME "Frame 10958", 528x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Already have an account yet?", 223x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 1024x862px, vertical pad 75 196 75 196px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 10967", 632x712px, vertical pad 24 24 24 24px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #F9FAFB, stroke #EAECF0 1px, effect Shadows/shadow-lg
+    - FRAME "Frame 10967", 584x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 584x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 584x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 584x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 584x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10968", 584x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 584x514px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 584x358px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 584x282px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 584x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 584x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 584x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 584x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 584x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10962", 584x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10960", 584x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - VECTOR "Vector 1", 226.5x0px, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Or sign up with", 115x24px, constraints left/top, fill #475467, text [Text md/Regular]
+            - VECTOR "Vector 3", 226.5x0px, constraints left/top, stroke #EAECF0 1px
+          - FRAME "Frame 10961", 584x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Social button", 134x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 134x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 134x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 134x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - GROUP "Group 11114", 584x24px, constraints left/top
+          - FRAME "Frame 10958", 584x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Already have an account yet?", 223x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 1024x768px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 3091", 512x768px, constraints left/top, fill image(hash: e3165028f518498b4fa58b70776b92df12264814)
+  - FRAME "Frame 10967", 512x768px, vertical pad 24 48 24 48px gap 24px align center/center sizing W:fixed H:fill, constraints left/top, radius 16px
+    - FRAME "Frame 10967", 416x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 416x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 416x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 416x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 416x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10968", 416x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 416x514px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 416x358px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 416x282px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 416x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 416x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10962", 416x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10960", 416x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - VECTOR "Vector 1", 142.5x0px, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Or sign up with", 115x24px, constraints left/top, fill #475467, text [Text md/Regular]
+            - VECTOR "Vector 3", 142.5x0px, constraints left/top, stroke #EAECF0 1px
+          - FRAME "Frame 10961", 416x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Social button", 92x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 92x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 92x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 92x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - GROUP "Group 11114", 416x24px, constraints left/top
+          - FRAME "Frame 10958", 416x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Already have an account yet?", 223x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 1024x768px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 10952", 512x768px, vertical pad 48 32 48 32px gap 10px align center/min sizing W:fill H:fill, constraints left/top, fill #F2F4F7
+    - FRAME "Frame 10975", 448x548px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10968", 448x240px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Discover a world of possibilities tailored just for you.", 448x240px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+      - FRAME "Frame 10974", 448x208px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10970", 448x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Gain access to powerful tools and resources designed to enha", 416x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10971", 448x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Be the first to know about new features, updates, and specia", 416x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10972", 448x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "Connect with other users and share insights, tips, and exper", 416x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+        - FRAME "Frame 10973", 448x40px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check-circle", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x16.67px, constraints scale/scale, stroke #53389E 2px
+          - TEXT "We prioritize your security and privacy with industry-leadin", 416x40px, constraints left/top, fill #101828, text [Text sm/Regular]
+      - FRAME "Frame 10958", 448x52px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Have questions? Visit our", 192x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 93x24px, constraints left/top, fill #6941C6, text [Inter SemiBold, 16px]
+        - TEXT "or reach out to our", 141x24px, constraints left/top, fill #344054, text [Text md/Regular]
+        - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 110x24px, constraints left/top, fill #6941C6, text [Inter SemiBold, 16px]
+  - FRAME "Frame 10967", 512x768px, vertical pad 24 48 24 48px gap 24px align center/center sizing W:fixed H:fill, constraints left/top, radius 16px
+    - FRAME "Frame 10967", 416x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 416x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 416x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 416x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 416x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10968", 416x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10959", 416x514px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 10957", 416x358px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10955", 416x282px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Input field", 416x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 10956", 416x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 416x44px, horizontal pad 10 16 10 16px gap 6px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 93x24px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 10962", 416x84px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 10960", 416x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - VECTOR "Vector 1", 142.5x0px, constraints left/top, stroke #EAECF0 1px
+            - TEXT "Or sign up with", 115x24px, constraints left/top, fill #475467, text [Text md/Regular]
+            - VECTOR "Vector 3", 142.5x0px, constraints left/top, stroke #EAECF0 1px
+          - FRAME "Frame 10961", 416x44px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Social button", 92x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 92x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 92x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "Social button", 92x44px, horizontal pad 10 10 10 10px gap 12px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - GROUP "Group 11114", 416x24px, constraints left/top
+          - FRAME "Frame 10958", 416x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Already have an account yet?", 223x24px, constraints left/top, fill #344054, text [Text md/Regular]
+            - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: ⬅️ - Sign Up / Sign Up
+- FRAME "Sign Up", 360x752px, horizontal pad 56 16 32 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 10968", 360x664px, vertical pad 0 16 0 16px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top, radius 16px
+    - FRAME "Frame 10967", 328x126px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10966", 328x38px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Vector", 30x30px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 148x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+      - FRAME "Frame 10964", 328x64px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Sign up", 328x32px, constraints left/top, fill #344054, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Enter your details to sign up", 328x24px, constraints left/top, fill #475467, text [Text md/Regular]
+    - FRAME "Frame 10968", 328x514px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
+
+
+---
+
+---
+name: 30-listing-windows-ui-kit-community
+source_file: 30+ Listing Windows UI Kit (Community)
+source_page: All pages (2): Listing Designs, Thumbnail
+generated_at: 2026-07-25T09:27:10.372483+00:00
+---
+
+# 30+ Listing Windows UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: 30+ Listing Windows UI Kit (Community)
+- Figma page: All pages (2): Listing Designs, Thumbnail
+- Extracted at: 2026-07-25T09:27:10.372483+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Gray (light mode)/300: none
+- Avatar user square/Eva Bond: [image(hash: 15220022fbea47ed04086633786cca0bc01724c1)]
+- Avatar user square/Noah Pierre: [image(hash: 9db1554181076b041b1cf9242305bfcaee69bfcd)]
+- Avatar user square/Koray Okumus: [image(hash: 77a9edfa71c91ceea35404fad93269cc9bbfb793)]
+- Avatar user square/Natali Craig (color background): [#E9DCBB, image(hash: 849919887d6d30684dc984b9502cc7bf0c0ab101)]
+- Avatar user square/Lana Steiner: [image(hash: c0c334cee5fbc16128c53b3e124223eadc75099f)]
+- Avatar user square/Olivia Rhye: [image(hash: 6c1fe88a3b9e8dfddf4a065581b04df49638ca9c)]
+- Avatar user square/Kelly Williams: [image(hash: 4698602007aba8a6e47195610879235458cb4f8d)]
+- Avatar user square/Kate Morrison: [image(hash: f0f42f865a8094397461d8436c04a1cabef06e6b)]
+- Avatar user square/Ethan Campbell: [image(hash: 3af16b04a6bfc547c20e8cc778459badfc87efa5)]
+- green/100: [#DCFCE7]
+- green/600: [#16A34A]
+- dark: [#0D0543]
+- brand_gradient: [gradient_linear(#00FBFF 0% | #10DCE8 100% | #09C9E3 100%)]
+- secondary: [#EB24BF]
+- Avatar user square/Nikolas Gibbons: [image(hash: 886a12f0878eeffa20b5135d83ddf52be6f71652)]
+- Avatar user square/Freya Browning: [image(hash: dc3d2a79db5c8f6de4b05b2a1a027f8043537124)]
+- Avatar user square/Priya Shepard: [image(hash: ce8362402db9ae1f3163f9fc5d7bf667a75f968a)]
+- Avatar user square/Zaid Schwartz: [image(hash: 8ab6d3a41132adfe255e41723ecd70c6269a61e0)]
+- Avatar user square/Pippa Wilkinson: [image(hash: 226805bb6ea8d991911932c7f0652a82de5dec89)]
+- Avatar user square/Katherine Moss: [image(hash: 02cd5856f0dc1654364c928a93d82bb1f20a23ae)]
+- Avatar user square/Alec Whitten: [image(hash: 360ca51b253e78d7baca50444fa3da16b92acfed)]
+- Avatar user square/Natali Craig: [image(hash: 356b1a1ad49f22bb3eab7abd87aa20ddff2084bb)]
+- Avatar user square/Drew Cano: [image(hash: be87b6e91f16a09d8f8c559b52dce483203206ab)]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 62 uses
+- #FFFFFF00: 60 uses
+- #9D9C9B: 35 uses
+- #3770C3: 14 uses
+- #3D9298: 14 uses
+- #7719AA: 14 uses
+- #2B593D: 7 uses
+- #3D8A58: 7 uses
+- #4EA7AF: 7 uses
+- #508FD6: 7 uses
+- #54AD7D: 7 uses
+- #69C997: 7 uses
+- #6BB3EC: 7 uses
+- #9332BF: 7 uses
+- #AE4BD5: 7 uses
+- #C25B33: 7 uses
+- #E48762: 7 uses
+- #F9D4C4: 7 uses
+
+## Typography Tokens
+- Text sm/Medium: Inter Medium (500), 14px / 20px, tracking 0px
+- Text sm/Regular: Inter Regular (400), 14px / 20px, tracking 0px
+- Text xl/Bold: Inter Bold (700), 20px / 30px, tracking 0px
+- Text md/Medium: Inter Medium (500), 16px / 24px, tracking 0px
+- Text xs/Regular: Inter Regular (400), 12px / 18px, tracking 0px
+- Text md/Regular: Inter Regular (400), 16px / 24px, tracking 0px
+- Text-X Small/Bold: Inter SemiBold (600), 12px / 18px, tracking 0px
+- Text md/Bold: Inter Bold (700), 16px / 24px, tracking 0px
+- Text md/Semibold: Inter SemiBold (600), 16px / 24px, tracking 0px
+- Text xs/Medium: Inter Medium (500), 12px / 18px, tracking 0px
+- Text lg/Bold: Inter Bold (700), 18px / 28px, tracking 0px
+- Display 2xl/Bold: Inter Bold (700), 72px / 90px, tracking -1.44px
+
+## Raw Typography (unstyled)
+- Inter Bold, 128px: 9 uses
+- Young Serif Regular, 32px: 4 uses
+
+## Typography Hierarchy
+- 128px - Inter Bold, 128px (raw)
+- 72px - Display 2xl/Bold (Inter Bold)
+- 32px - Young Serif Regular, 32px (raw)
+- 20px - Text xl/Bold (Inter Bold)
+- 18px - Text lg/Bold (Inter Bold)
+- 16px - Text md/Bold (Inter Bold)
+- 16px - Text md/Medium (Inter Medium)
+- 16px - Text md/Regular (Inter Regular)
+- 16px - Text md/Semibold (Inter SemiBold)
+- 14px - Text sm/Medium (Inter Medium)
+- 14px - Text sm/Regular (Inter Regular)
+- 12px - Text xs/Medium (Inter Medium)
+- 12px - Text xs/Regular (Inter Regular)
+- 12px - Text-X Small/Bold (Inter SemiBold)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadows/shadow-xs: [drop_shadow 2px offset 0 1 #1018280D]
+
+## Grid Styles
+- Grid desktop: columns count 12, section 65.83px, gutter 32px, align stretch + columns count 2, section 32px, gutter 1216px, align center + ...
+- Grid mobile: columns count 4, section 70px, gutter 16px, align stretch + rows count 1, section 56px, gutter 20px, align min + ...
+- Grid tablet: columns count 6, section 87.67px, gutter 32px, align stretch + columns count 2, section 32px, gutter 704px, align center + ...
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Text sm/Regular: 352 uses
+- Text sm/Medium: 206 uses
+- Text xs/Regular: 120 uses
+- Text md/Medium: 97 uses
+- Text md/Regular: 64 uses
+- Shadows/shadow-xs: 53 uses
+- Text xl/Bold: 41 uses
+- Gray (light mode)/300: 35 uses
+- Text md/Bold: 18 uses
+- Text-X Small/Bold: 18 uses
+- Text md/Semibold: 16 uses
+- Avatar user square/Eva Bond: 10 uses
+- Avatar user square/Olivia Rhye: 10 uses
+- Text xs/Medium: 10 uses
+- brand_gradient: 8 uses
+- Avatar user square/Ethan Campbell: 6 uses
+- Avatar user square/Kate Morrison: 6 uses
+- Avatar user square/Kelly Williams: 6 uses
+- Avatar user square/Koray Okumus: 6 uses
+- Avatar user square/Lana Steiner: 6 uses
+- Avatar user square/Natali Craig (color background): 6 uses
+- Avatar user square/Noah Pierre: 6 uses
+- Text lg/Bold: 6 uses
+- green/100: 6 uses
+- green/600: 6 uses
+- Avatar user square/Alec Whitten: 4 uses
+- Avatar user square/Drew Cano: 4 uses
+- Avatar user square/Katherine Moss: 4 uses
+- Avatar user square/Natali Craig: 4 uses
+- Display 2xl/Bold: 4 uses
+- Avatar user square/Freya Browning: 3 uses
+- Avatar user square/Nikolas Gibbons: 3 uses
+- Avatar user square/Pippa Wilkinson: 3 uses
+- Avatar user square/Priya Shepard: 3 uses
+- Avatar user square/Zaid Schwartz: 3 uses
+- secondary: 2 uses
+- dark: 1 use
+
+## Layout & Structure
+Screen: Listing Designs / Desktop 1366px
+- FRAME "Desktop 1366px", 1366x778px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078043", 424x634px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Select your country code", 424x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 1984078042", 424x588px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Input field", 424x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984078041", 424x528px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078010", 424x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image 43", 36x36px, constraints scale/scale, fill image(hash: e8a64e4b24478c7f651580173d4052f9db166338)
+          - FRAME "Frame 1984077987", 372x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 372x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078011", 424x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 9111b3362fad5a449d4dc5ebcd4e4643b2a117d6)
+          - FRAME "Frame 1984077987", 372x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 372x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078012", 424x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: b2b833db9fabb0ee4cd09851ecb3244d223b3426)
+          - FRAME "Frame 1984077987", 372x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 372x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078013", 424x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 7eefdaa4fa5b9264942740dadafac5d9ed3622a5)
+          - FRAME "Frame 1984077987", 372x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 372x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078014", 424x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 07720ba5ad5d5d76cd5d13941b7cc3824c033e27)
+          - FRAME "Frame 1984077987", 372x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 372x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078016", 424x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 6a7dfe9079f207b084a7a6087ecc9f4ef3e45bbc)
+          - FRAME "Frame 1984077987", 372x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 372x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078015", 424x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 01e9653d690ee66243f16f1d7b1f5312c583c612)
+          - FRAME "Frame 1984077987", 372x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 372x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078017", 424x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: b8c90d4066e0054b9176b36f4303e59ad32566b2)
+          - FRAME "Frame 1984077987", 372x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 372x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+
+Screen: Listing Designs / Desktop 1366px
+- FRAME "Desktop 1366px", 1366x598px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078043", 424x454px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Notifications", 424x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 3466433", 424x416px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984077865", 424x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Ethan Campbell
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "_Avatar online indicator", 10x10px, constraints right/bottom, radius 9999px, fill #17B26A, stroke #FFFFFF 1.5px
+        - FRAME "Frame 1984077860", 348x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 348x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 324x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077869", 424x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill #F2F4F7
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - TEXT "Text", 40x24px, constraints center/center, fill #667085, text [Text md/Semibold]
+        - FRAME "Frame 1984077860", 348x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 348x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 324x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077868", 424x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Kate Morrison
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "Verified tick", 14x14px, constraints right/bottom, fill #FFFFFF
+        - FRAME "Frame 1984077860", 348x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 348x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 324x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077870", 424x80px, horizontal pad 8 0 8 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill #F2F4F7
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - TEXT "Text", 40x24px, constraints center/center, fill #667085, text [Text md/Semibold]
+        - FRAME "Frame 1984077860", 348x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 348x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 324x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077871", 424x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Kelly Williams
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "_Avatar online indicator", 10x10px, constraints right/bottom, radius 9999px, fill #17B26A, stroke #FFFFFF 1.5px
+        - FRAME "Frame 1984077860", 348x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 348x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 324x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+
+Screen: Listing Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x778px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078043", 458x634px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Select your country code", 458x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 1984078042", 458x588px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Input field", 458x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984078041", 458x528px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078010", 458x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image 43", 36x36px, constraints scale/scale, fill image(hash: e8a64e4b24478c7f651580173d4052f9db166338)
+          - FRAME "Frame 1984077987", 406x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 406x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078011", 458x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 9111b3362fad5a449d4dc5ebcd4e4643b2a117d6)
+          - FRAME "Frame 1984077987", 406x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 406x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078012", 458x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: b2b833db9fabb0ee4cd09851ecb3244d223b3426)
+          - FRAME "Frame 1984077987", 406x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 406x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078013", 458x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 7eefdaa4fa5b9264942740dadafac5d9ed3622a5)
+          - FRAME "Frame 1984077987", 406x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 406x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078014", 458x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 07720ba5ad5d5d76cd5d13941b7cc3824c033e27)
+          - FRAME "Frame 1984077987", 406x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 406x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078016", 458x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 6a7dfe9079f207b084a7a6087ecc9f4ef3e45bbc)
+          - FRAME "Frame 1984077987", 406x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 406x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078015", 458x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 01e9653d690ee66243f16f1d7b1f5312c583c612)
+          - FRAME "Frame 1984077987", 406x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 406x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078017", 458x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: b8c90d4066e0054b9176b36f4303e59ad32566b2)
+          - FRAME "Frame 1984077987", 406x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 406x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+
+Screen: Listing Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x598px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078043", 458x454px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Notifications", 458x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 3466433", 458x416px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984077865", 458x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Ethan Campbell
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "_Avatar online indicator", 10x10px, constraints right/bottom, radius 9999px, fill #17B26A, stroke #FFFFFF 1.5px
+        - FRAME "Frame 1984077860", 382x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 382x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 358x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077869", 458x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill #F2F4F7
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - TEXT "Text", 40x24px, constraints center/center, fill #667085, text [Text md/Semibold]
+        - FRAME "Frame 1984077860", 382x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 382x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 358x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077868", 458x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Kate Morrison
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "Verified tick", 14x14px, constraints right/bottom, fill #FFFFFF
+        - FRAME "Frame 1984077860", 382x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 382x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 358x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077870", 458x80px, horizontal pad 8 0 8 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill #F2F4F7
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - TEXT "Text", 40x24px, constraints center/center, fill #667085, text [Text md/Semibold]
+        - FRAME "Frame 1984077860", 382x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 382x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 358x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077871", 458x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Kelly Williams
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "_Avatar online indicator", 10x10px, constraints right/bottom, radius 9999px, fill #17B26A, stroke #FFFFFF 1.5px
+        - FRAME "Frame 1984077860", 382x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 382x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 358x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+
+Screen: Listing Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x724px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077985", 458x580px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Chats", 458x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 4", 458x534px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Input field", 458x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 28", 458x466px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 26", 458x66px, horizontal pad 0 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Drew Cano
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 398x50px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 398x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466408", 398x22px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 458x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Olivia Rhye
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 398x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 398x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466408", 398x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 28", 458x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Natali Craig
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 398x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 398x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466410", 398x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 32", 458x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Eva Bond
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 398x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 398x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466408", 398x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 29", 458x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Alec Whitten
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 398x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 398x24px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466410", 398x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 27", 458x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Katherine Moss
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 398x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 398x24px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466410", 398x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+
+Screen: Listing Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x782px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077985", 458x638px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Notifications", 458x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 28", 458x592px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 35", 458x112px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #ABEFC6
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "user-circle", 28x28px, constraints scale/scale
+            - VECTOR "Icon", 23.33x23.33px, constraints scale/scale, stroke #067647 2px
+        - FRAME "Frame 1", 386x96px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 386x48px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Update: New Features Added to Your Account!", 326x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Just now", 60x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "Exciting news! We've rolled out new features to enhance your", 386x40px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 36", 458x88px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #FEDF89
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "currency-dollar", 28x28px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Icon", 14x23.33px, constraints scale/scale, radius 4px, stroke #B54708 2px
+        - FRAME "Frame 1", 386x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 386x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Friendly Tip: Optimize Your Workspace", 308x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "7 hours ago", 78x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "Just a heads-up that your rent payment is due soon. Please m", 386x40px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 33", 458x132px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #FECDCA
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "file-lock-03", 28x28px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Icon", 18.67x23.33px, constraints scale/scale, radius 0/0/0/0px, stroke #B42318 2px
+        - FRAME "Frame 1", 386x116px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 386x48px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "System Notification: Security Check Scheduled", 320x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Yesterday", 66x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "For your safety, a system security check is planned for Thur", 386x60px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 37", 458x88px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #D9D6FE
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "clock-fast-forward", 28x28px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Icon", 22.98x21px, constraints scale/scale, stroke #5925DC 2px
+        - FRAME "Frame 1", 386x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 386x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Quick Reminder: Weekly Goal Check-In", 339x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "20 Sep", 47x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "Take a moment to review your goals for this week. You're doi", 386x40px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 38", 458x108px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #FEDF89
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "video-recorder", 28x28px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Icon", 23.33x16.33px, constraints scale/scale, radius 0/0/0/0px, stroke #B54708 2px
+        - FRAME "Frame 1", 386x92px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 386x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Heads Up: Free Webinar Tomorrow", 339x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "20 Sep", 47x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "Join us for a live webinar on Artificial Intelligence! Don’t", 386x60px, constraints left/top, fill #475467, text [Text sm/Regular]
+
+Screen: Listing Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x1102px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077975", 458x958px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 3466430", 458x30px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Task management", 458x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 28", 458x904px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 41", 458x172px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 306x140px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 306x112px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Plan new layout for Q1 landing pages in Figma", 306x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Develop a layout strategy for upcoming Q1 campaign pages to ", 306x60px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 306x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "06 November 2024", 129x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Pippa Wilkinson
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+      - FRAME "Frame 45", 458x152px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 306x120px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 306x92px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Craft and automate customer surveys in SurveyMonkey", 306x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Design monthly surveys to gather feedback and improve custom", 306x40px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 306x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "09 November 2024", 129x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Zaid Schwartz
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+      - FRAME "Frame 46", 458x172px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 306x140px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 306x112px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Schedule a brainstorming session in Zoom", 306x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Organize a virtual team session to ideate on new product fea", 306x60px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 306x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "10 November 2024", 127x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Priya Shepard
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+      - FRAME "Frame 43", 458x172px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 306x140px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 306x112px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Create product mockups for presentation in Canva", 306x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Develop high-quality mockups for an upcoming product showcas", 306x60px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 306x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "11 November 2024", 124x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Freya Browning
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+      - FRAME "Frame 44", 458x172px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 306x140px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 306x112px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Compile research findings in Google Docs", 306x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Summarize research insights for the new project and make it ", 306x60px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 306x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "12 November 2024", 126x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Nikolas Gibbons
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+
+Screen: Listing Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x510px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077976", 458x366px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 1984078048", 458x318px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984078019", 458x54px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Add custom fields", 458x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+        - TEXT "Increase the amount of data that you collect re-order the fi", 458x20px, constraints left/top, fill #344054, text [Text sm/Regular]
+      - FRAME "Frame 1984078047", 458x248px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078021", 458x40px, horizontal pad 0 16 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "user-03", 18x18px, constraints left/top
+          - TEXT "Full Name", 66x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+        - FRAME "Frame 1984078022", 458x40px, horizontal pad 0 16 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "mail-01", 18x18px, constraints left/top, fill #FFFFFF
+          - TEXT "Email Address", 95x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+        - FRAME "Frame 1984078025", 458x40px, horizontal pad 0 12 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "phone", 18x18px, constraints left/top, fill #FFFFFF
+          - TEXT "Phone Number", 100x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+        - FRAME "Frame 1984078023", 458x40px, horizontal pad 0 12 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "calendar", 18x18px, constraints left/top, fill #FFFFFF
+          - TEXT "Date of Birth", 85x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+        - FRAME "Frame 1984078024", 458x40px, horizontal pad 0 12 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "marker-pin-03", 18x18px, constraints left/top, fill #FFFFFF
+          - TEXT "Address", 56x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+    - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "plus", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 11.67x11.67px, constraints scale/scale, stroke #6941C6 1.67px
+      - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+
+Screen: Listing Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x574px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078050", 458x430px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "My files", 458x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 1984078049", 458x400px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984078028", 458x80px, vertical pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 1984078027", 458x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "ppt", 40x40px, constraints left/top [decorative, ~5 shapes]
+          - FRAME "Frame 1", 504x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 504x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 40", 458x80px, horizontal pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "xlsx", 40x40px, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 1", 402x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 402x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Inventory_Tracking_Sheet_August.xlsx", 402x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+          - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_Breadcrumb button base", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 12x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1984078029", 458x80px, horizontal pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "onenote", 40x40px, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 1", 402x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 402x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Brainstorming_Session_Notes_2024.txt", 402x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+          - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_Breadcrumb button base", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 12x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1984078030", 458x80px, horizontal pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "form", 40x40px, constraints left/top [decorative, ~5 shapes]
+        - FRAME "Frame 1", 402x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 402x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Feedback_Form_Event_September_2024", 402x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+          - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_Breadcrumb button base", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 12x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1984078031", 458x80px, horizontal pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "docx", 40x40px, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 1", 402x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 402x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Team_Policies_and_Procedures.docx", 402x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+          - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_Breadcrumb button base", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 12x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: Listing Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x778px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078043", 630x634px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Select your country code", 630x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 1984078042", 630x588px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Input field", 630x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984078041", 630x528px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078010", 630x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image 43", 36x36px, constraints scale/scale, fill image(hash: e8a64e4b24478c7f651580173d4052f9db166338)
+          - FRAME "Frame 1984077987", 578x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 578x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078011", 630x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 9111b3362fad5a449d4dc5ebcd4e4643b2a117d6)
+          - FRAME "Frame 1984077987", 578x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 578x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078012", 630x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: b2b833db9fabb0ee4cd09851ecb3244d223b3426)
+          - FRAME "Frame 1984077987", 578x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 578x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078013", 630x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 7eefdaa4fa5b9264942740dadafac5d9ed3622a5)
+          - FRAME "Frame 1984077987", 578x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 578x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078014", 630x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 07720ba5ad5d5d76cd5d13941b7cc3824c033e27)
+          - FRAME "Frame 1984077987", 578x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 578x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078016", 630x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 6a7dfe9079f207b084a7a6087ecc9f4ef3e45bbc)
+          - FRAME "Frame 1984077987", 578x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 578x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078015", 630x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 01e9653d690ee66243f16f1d7b1f5312c583c612)
+          - FRAME "Frame 1984077987", 578x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 578x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078017", 630x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: b8c90d4066e0054b9176b36f4303e59ad32566b2)
+          - FRAME "Frame 1984077987", 578x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 578x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+
+Screen: Listing Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x598px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078043", 630x454px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Notifications", 630x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 3466433", 630x416px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984077865", 630x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Ethan Campbell
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "_Avatar online indicator", 10x10px, constraints right/bottom, radius 9999px, fill #17B26A, stroke #FFFFFF 1.5px
+        - FRAME "Frame 1984077860", 554x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 554x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 530x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077869", 630x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill #F2F4F7
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - TEXT "Text", 40x24px, constraints center/center, fill #667085, text [Text md/Semibold]
+        - FRAME "Frame 1984077860", 554x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 554x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 530x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077868", 630x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Kate Morrison
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "Verified tick", 14x14px, constraints right/bottom, fill #FFFFFF
+        - FRAME "Frame 1984077860", 554x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 554x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 530x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077870", 630x80px, horizontal pad 8 0 8 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill #F2F4F7
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - TEXT "Text", 40x24px, constraints center/center, fill #667085, text [Text md/Semibold]
+        - FRAME "Frame 1984077860", 554x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 554x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 530x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 1984077871", 630x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Kelly Williams
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "_Avatar online indicator", 10x10px, constraints right/bottom, radius 9999px, fill #17B26A, stroke #FFFFFF 1.5px
+        - FRAME "Frame 1984077860", 554x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 554x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 530x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078045", 36x52px, horizontal pad 8 0 8 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+
+Screen: Listing Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x724px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077985", 630x580px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Chats", 630x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 4", 630x534px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Input field", 630x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 28", 630x466px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 26", 630x66px, horizontal pad 0 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Drew Cano
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 570x50px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 570x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466408", 570x22px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 630x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Olivia Rhye
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 570x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 570x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466408", 570x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 28", 630x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Natali Craig
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 570x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 570x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466410", 570x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 32", 630x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Eva Bond
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 570x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 570x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466408", 570x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 29", 630x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Alec Whitten
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 570x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 570x24px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466410", 570x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 27", 630x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Katherine Moss
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 570x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 570x24px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466410", 570x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+
+Screen: Listing Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x694px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077985", 630x550px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Notifications", 630x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 28", 630x504px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 35", 630x88px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #ABEFC6
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "user-circle", 28x28px, constraints scale/scale
+            - VECTOR "Icon", 23.33x23.33px, constraints scale/scale, stroke #067647 2px
+        - FRAME "Frame 1", 558x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 558x24px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "Update: New Features Added to Your Account!", 498x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Just now", 60x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "Exciting news! We've rolled out new features to enhance your", 558x40px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 36", 630x88px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #FEDF89
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "currency-dollar", 28x28px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Icon", 14x23.33px, constraints scale/scale, radius 4px, stroke #B54708 2px
+        - FRAME "Frame 1", 558x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 558x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Friendly Tip: Optimize Your Workspace", 480x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "7 hours ago", 78x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "Just a heads-up that your rent payment is due soon. Please m", 558x40px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 33", 630x88px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #FECDCA
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "file-lock-03", 28x28px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Icon", 18.67x23.33px, constraints scale/scale, radius 0/0/0/0px, stroke #B42318 2px
+        - FRAME "Frame 1", 558x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 558x24px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - TEXT "System Notification: Security Check Scheduled", 492x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Yesterday", 66x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "For your safety, a system security check is planned for Thur", 558x40px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 37", 630x88px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #D9D6FE
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "clock-fast-forward", 28x28px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Icon", 22.98x21px, constraints scale/scale, stroke #5925DC 2px
+        - FRAME "Frame 1", 558x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 558x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Quick Reminder: Weekly Goal Check-In", 511x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "20 Sep", 47x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "Take a moment to review your goals for this week. You're doi", 558x40px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 38", 630x88px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #FEDF89
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "video-recorder", 28x28px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Icon", 23.33x16.33px, constraints scale/scale, radius 0/0/0/0px, stroke #B54708 2px
+        - FRAME "Frame 1", 558x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 558x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Heads Up: Free Webinar Tomorrow", 511x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "20 Sep", 47x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "Join us for a live webinar on Artificial Intelligence! Don’t", 558x40px, constraints left/top, fill #475467, text [Text sm/Regular]
+
+Screen: Listing Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x902px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077975", 630x758px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 3466430", 630x30px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Task management", 630x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 28", 630x704px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 41", 630x128px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 478x96px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 478x68px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Plan new layout for Q1 landing pages in Figma", 478x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Develop a layout strategy for upcoming Q1 campaign pages to ", 478x40px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 478x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "06 November 2024", 129x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Pippa Wilkinson
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+      - FRAME "Frame 45", 630x128px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 478x96px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 478x68px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Craft and automate customer surveys in SurveyMonkey", 478x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Design monthly surveys to gather feedback and improve custom", 478x40px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 478x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "09 November 2024", 129x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Zaid Schwartz
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+      - FRAME "Frame 46", 630x128px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 478x96px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 478x68px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Schedule a brainstorming session in Zoom", 478x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Organize a virtual team session to ideate on new product fea", 478x40px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 478x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "10 November 2024", 127x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Priya Shepard
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+      - FRAME "Frame 43", 630x128px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 478x96px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 478x68px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Create product mockups for presentation in Canva", 478x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Develop high-quality mockups for an upcoming product showcas", 478x40px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 478x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "11 November 2024", 124x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Freya Browning
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+      - FRAME "Frame 44", 630x128px, horizontal pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F9FAFB, stroke #EAECF0 1px
+        - FRAME "Frame 1984077821", 48x48px, constraints left/top, radius 8px, fill #F9FAFB
+        - FRAME "Frame 1", 478x96px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 1984078046", 478x68px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Compile research findings in Google Docs", 478x24px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Summarize research insights for the new project and make it ", 478x40px, constraints left/top, fill #344054, text [Text sm/Regular]
+          - FRAME "Frame 1984078018", 478x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "12 November 2024", 126x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+        - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Nikolas Gibbons
+          - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+
+Screen: Listing Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x510px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077976", 630x366px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 1984078048", 630x318px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984078019", 630x54px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Add custom fields", 630x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+        - TEXT "Increase the amount of data that you collect re-order the fi", 630x20px, constraints left/top, fill #344054, text [Text sm/Regular]
+      - FRAME "Frame 1984078047", 630x248px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078021", 630x40px, horizontal pad 0 16 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "user-03", 18x18px, constraints left/top
+          - TEXT "Full Name", 66x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+        - FRAME "Frame 1984078022", 630x40px, horizontal pad 0 16 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "mail-01", 18x18px, constraints left/top, fill #FFFFFF
+          - TEXT "Email Address", 95x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+        - FRAME "Frame 1984078025", 630x40px, horizontal pad 0 12 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "phone", 18x18px, constraints left/top, fill #FFFFFF
+          - TEXT "Phone Number", 100x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+        - FRAME "Frame 1984078023", 630x40px, horizontal pad 0 12 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "calendar", 18x18px, constraints left/top, fill #FFFFFF
+          - TEXT "Date of Birth", 85x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+        - FRAME "Frame 1984078024", 630x40px, horizontal pad 0 12 0 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+          - FRAME "Frame 1984078020", 48x18px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu-01", 18x18px, constraints left/top, fill #FFFFFF
+            - INSTANCE "marker-pin-03", 18x18px, constraints left/top, fill #FFFFFF
+          - TEXT "Address", 56x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+    - INSTANCE "Buttons/Button", 145x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "plus", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 11.67x11.67px, constraints scale/scale, stroke #6941C6 1.67px
+      - TEXT "Text", 89x24px, constraints left/top, fill #6941C6, text [Text md/Semibold]
+
+Screen: Listing Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x574px, horizontal pad 72 24 72 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078050", 630x430px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "My files", 630x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 1984078049", 630x400px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984078028", 630x80px, vertical pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "Frame 1984078027", 630x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "ppt", 40x40px, constraints left/top [decorative, ~5 shapes]
+          - FRAME "Frame 1", 504x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 504x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 40", 630x80px, horizontal pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "xlsx", 40x40px, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 1", 574x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 574x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Inventory_Tracking_Sheet_August.xlsx", 574x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+          - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_Breadcrumb button base", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 12x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1984078029", 630x80px, horizontal pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "onenote", 40x40px, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 1", 574x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 574x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Brainstorming_Session_Notes_2024.txt", 574x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+          - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_Breadcrumb button base", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 12x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1984078030", 630x80px, horizontal pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "form", 40x40px, constraints left/top [decorative, ~5 shapes]
+        - FRAME "Frame 1", 574x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 574x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Feedback_Form_Event_September_2024", 574x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+          - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_Breadcrumb button base", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 12x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1984078031", 630x80px, horizontal pad 16 0 16 0px gap 16px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "docx", 40x40px, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 1", 574x48px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 574x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Team_Policies_and_Procedures.docx", 574x20px, constraints left/top, fill #101828, text [Text sm/Medium]
+          - INSTANCE "Breadcrumbs", 264x20px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "_Breadcrumb button base", 20x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 12x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-right", 16x16px, constraints left/top, fill #FFFFFF
+            - INSTANCE "_Breadcrumb button base", 56x20px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: Listing Designs / Mobile 360px
+- FRAME "Mobile 360px", 360x778px, horizontal pad 72 16 72 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078043", 328x634px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Select your country code", 328x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 1984078042", 328x588px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Input field", 328x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984078041", 328x528px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078010", 328x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image 43", 36x36px, constraints scale/scale, fill image(hash: e8a64e4b24478c7f651580173d4052f9db166338)
+          - FRAME "Frame 1984077987", 276x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 276x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078011", 328x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 9111b3362fad5a449d4dc5ebcd4e4643b2a117d6)
+          - FRAME "Frame 1984077987", 276x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 276x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078012", 328x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: b2b833db9fabb0ee4cd09851ecb3244d223b3426)
+          - FRAME "Frame 1984077987", 276x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 276x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078013", 328x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 7eefdaa4fa5b9264942740dadafac5d9ed3622a5)
+          - FRAME "Frame 1984077987", 276x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 276x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078014", 328x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 07720ba5ad5d5d76cd5d13941b7cc3824c033e27)
+          - FRAME "Frame 1984077987", 276x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 276x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078016", 328x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 6a7dfe9079f207b084a7a6087ecc9f4ef3e45bbc)
+          - FRAME "Frame 1984077987", 276x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 276x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078015", 328x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: 01e9653d690ee66243f16f1d7b1f5312c583c612)
+          - FRAME "Frame 1984077987", 276x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 276x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1984078017", 328x52px, horizontal pad 8 0 8 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - RECTANGLE "image", 36x36px, constraints scale/scale, fill image(hash: b8c90d4066e0054b9176b36f4303e59ad32566b2)
+          - FRAME "Frame 1984077987", 276x20px, vertical pad 0 0 0 0px gap 2px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1984077986", 276x20px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fill H:fixed, constraints left/top
+
+Screen: Listing Designs / Mobile 360px
+- FRAME "Mobile 360px", 360x610px, horizontal pad 72 16 72 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984078043", 328x466px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Notifications", 328x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 3466433", 328x428px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984077865", 328x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Ethan Campbell
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "_Avatar online indicator", 10x10px, constraints right/bottom, radius 9999px, fill #17B26A, stroke #FFFFFF 1.5px
+        - FRAME "Frame 1984077860", 288x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 288x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 264x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984077869", 328x76px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill #F2F4F7
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - TEXT "Text", 40x24px, constraints center/center, fill #667085, text [Text md/Semibold]
+        - FRAME "Frame 1984077860", 288x60px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 288x60px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 264x44px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984077868", 328x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Kate Morrison
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "Verified tick", 14x14px, constraints right/bottom, fill #FFFFFF
+        - FRAME "Frame 1984077860", 288x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 288x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 264x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984077870", 328x96px, horizontal pad 8 0 8 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill #F2F4F7
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - TEXT "Text", 40x24px, constraints center/center, fill #667085, text [Text md/Semibold]
+        - FRAME "Frame 1984077860", 288x80px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 288x80px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 264x64px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1984077871", 328x80px, horizontal pad 8 0 8 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - FRAME "_Data Cell", 40x56px, vertical pad 8 0 8 0px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF00, stroke #EAECF0 0px
+          - INSTANCE "Avatar", 40x40px, constraints left/top, radius 9999px, fill Avatar user square/Kelly Williams
+            - FRAME "Contrast border", 40x40px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+            - INSTANCE "_Avatar online indicator", 10x10px, constraints right/bottom, radius 9999px, fill #17B26A, stroke #FFFFFF 1.5px
+        - FRAME "Frame 1984077860", 288x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - FRAME "_Data Cell", 288x64px, vertical pad 8 12 8 12px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, fill #FFFFFF00
+            - FRAME "Placeholder", 264x48px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fill H:fixed, constraints left/top
+
+Screen: Listing Designs / Mobile 360px
+- FRAME "Mobile 360px", 360x724px, horizontal pad 72 16 72 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077985", 328x580px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Chats", 328x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 4", 328x534px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Input field", 328x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 28", 328x466px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 26", 328x66px, horizontal pad 0 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Drew Cano
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 268x50px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 268x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466408", 268x22px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 328x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Olivia Rhye
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 268x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 268x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466408", 268x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 28", 328x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Natali Craig
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 268x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 268x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466410", 268x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 32", 328x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Eva Bond
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 268x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 268x24px, horizontal pad 0 0 0 0px gap 4px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466408", 268x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 29", 328x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Alec Whitten
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 268x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 268x24px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466410", 268x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 27", 328x80px, horizontal pad 16 0 16 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+          - INSTANCE "Avatar", 48x48px, constraints left/top, radius 9999px, fill Avatar user square/Katherine Moss
+            - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 9999px, stroke #00000014 0.75px
+          - FRAME "Frame 1", 268x48px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466409", 268x24px, horizontal pad 0 0 0 0px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 3466410", 268x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+
+Screen: Listing Designs / Mobile 360px
+- FRAME "Mobile 360px", 360x1094px, horizontal pad 72 16 72 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1984077985", 328x950px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Notifications", 328x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 28", 328x904px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 35", 328x156px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #ABEFC6
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+          - INSTANCE "user-circle", 28x28px, constraints scale/scale
+            - VECTOR "Icon", 23.33x23.33px, constraints scale/scale, stroke #067647 2px
+        - FRAME "Frame 1", 256x140px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 3466409", 256x72px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Update: New Features Added to Your Account!", 256x48px, constraints left/top, fill #101828, text [Text md/Medium]
+            - TEXT "Just now", 60x20px, constraints left/top, fill #475467, text [Text sm/Regular]
+          - TEXT "Exciting news! We've rolled out new features to enhance your", 256x60px, constraints left/top, fill #475467, text [Text sm/Regular]
+      - FRAME "Frame 36", 328x176px, horizontal pad 0 0 16 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #EAECF0 1px
+        - INSTANCE "Avatar", 48x48px, constraints left/top, radius 8px, fill #FEDF89
+          - FRAME "Contrast border", 48x48px, constraints left_right/top_bottom, radius 8px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
+
+
+---
+
+---
+name: 50-responsive-hero-section-website-ui-kit-community
+source_file: 50+ Responsive Hero Section Website UI Kit (Community)
+source_page: All pages (3): 💠 - Hero Section Components, 🎨 - Hero Section Designs, Thumbnail
+generated_at: 2026-07-25T09:27:18.374389+00:00
+---
+
+# 50+ Responsive Hero Section Website UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: 50+ Responsive Hero Section Website UI Kit (Community)
+- Figma page: All pages (3): 💠 - Hero Section Components, 🎨 - Hero Section Designs, Thumbnail
+- Extracted at: 2026-07-25T09:27:18.374389+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- dark: [#0D0543]
+- Neutral/800: [#170F49]
+- Neutral/100: [#FFFFFF]
+- Brand/700: none
+- brand_gradient: [gradient_linear(#00FBFF 0% | #10DCE8 100% | #09C9E3 100%)]
+- secondary: [#EB24BF]
+- Gradient/Brand/800 -> 600 (45deg): [gradient_linear(#53389E 0% | #7F56D9 100%)]
+
+## Raw Colors (unstyled)
+- #CC1F27: 198 uses
+- #4285F4: 46 uses
+- #EA4335: 46 uses
+- #34A853: 28 uses
+- #FF0000: 22 uses
+- #1877F2: 18 uses
+- #4353FF: 18 uses
+- #9147FF: 18 uses
+- #FBBC05: 18 uses
+- #101828: 16 uses
+- #FFFFFF: 13 uses
+- #000000: 12 uses
+- #05A6F0: 10 uses
+- #80BC06: 10 uses
+- #F25325: 10 uses
+- #FBBC04: 10 uses
+- #FEBA08: 10 uses
+
+## Typography Tokens
+- Text lg/Medium: Inter Medium (500), 18px / 28px, tracking 0px
+- Text sm/Regular: Inter Regular (400), 14px / 20px, tracking 0px
+- Text md/Regular: Inter Regular (400), 16px / 24px, tracking 0px
+- Text sm/Medium: Inter Medium (500), 14px / 20px, tracking 0px
+- Text xl/Regular: Inter Regular (400), 20px / 30px, tracking 0px
+- Text-xl/Normal: Inter Regular (400), 20px / 28px, tracking 0px
+- Display lg/Bold: Inter Bold (700), 48px / 60px, tracking -0.96px
+- Display xl/Bold: Inter Bold (700), 60px / 72px, tracking -1.2px
+- Display 2xl/Bold: Inter Bold (700), 72px / 90px, tracking -1.44px
+- Text md/Semibold: Inter SemiBold (600), 16px / 24px, tracking 0px
+- Display xs/Semibold: Inter SemiBold (600), 24px / 32px, tracking 0px
+- Text xl/Bold: Inter Bold (700), 20px / 30px, tracking 0px
+- Display md/Semibold: Inter SemiBold (600), 36px / 44px, tracking -0.72px
+- Text sm/Semibold: Inter SemiBold (600), 14px / 20px, tracking 0px
+- Display sm/Bold: Inter Bold (700), 30px / 38px, tracking 0px
+- Text lg/Semibold: Inter SemiBold (600), 18px / 28px, tracking 0px
+- Display lg/Semibold: Inter SemiBold (600), 48px / 60px, tracking -0.96px
+- Text lg/Regular: Inter Regular (400), 18px / 28px, tracking 0px
+- Display md/Bold: Inter Bold (700), 36px / 44px, tracking -0.72px
+- Text xl/Semibold: Inter SemiBold (600), 20px / 30px, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 14px: 19 uses
+- Inter SemiBold, 36px: 7 uses
+- Inter SemiBold, 16px: 5 uses
+- Young Serif Regular, 32px: 4 uses
+
+## Typography Hierarchy
+- 72px - Display 2xl/Bold (Inter Bold)
+- 60px - Display xl/Bold (Inter Bold)
+- 48px - Display lg/Bold (Inter Bold)
+- 48px - Display lg/Semibold (Inter SemiBold)
+- 36px - Display md/Bold (Inter Bold)
+- 36px - Display md/Semibold (Inter SemiBold)
+- 36px - Inter SemiBold, 36px (raw)
+- 32px - Young Serif Regular, 32px (raw)
+- 30px - Display sm/Bold (Inter Bold)
+- 24px - Display xs/Semibold (Inter SemiBold)
+- 20px - Text xl/Bold (Inter Bold)
+- 20px - Text xl/Regular (Inter Regular)
+- 20px - Text xl/Semibold (Inter SemiBold)
+- 20px - Text-xl/Normal (Inter Regular)
+- 18px - Text lg/Medium (Inter Medium)
+- 18px - Text lg/Regular (Inter Regular)
+- 18px - Text lg/Semibold (Inter SemiBold)
+- 16px - Inter SemiBold, 16px (raw)
+- 16px - Text md/Regular (Inter Regular)
+- 16px - Text md/Semibold (Inter SemiBold)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - Text sm/Medium (Inter Medium)
+- 14px - Text sm/Regular (Inter Regular)
+- 14px - Text sm/Semibold (Inter SemiBold)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadows/shadow-xs: [drop_shadow 2px offset 0 1 #1018280D]
+- Shadows/Portfolio mockup shadows/shadow-main-centre-md: [drop_shadow 150px offset 0 75 #34405424]
+- Shadows/shadow-3xl: [drop_shadow 64px offset 0 32 #10182824]
+- Backdrop blurs/backdrop-blur-sm: [background_blur 8px]
+- Shadows/shadow-lg: [drop_shadow 6px offset 0 4 #10182808, drop_shadow 16px offset 0 12 #10182814]
+
+## Grid Styles
+- Grid tablet: columns count 6, section 76px, gutter 32px, align stretch + columns count 2, section 32px, gutter 704px, align center + ...
+- Grid desktop: columns count 12, section 8.67px, gutter 32px, align stretch + columns count 2, section 32px, gutter 1216px, align center + ...
+- Grid mobile: columns count 4, section 70px, gutter 16px, align stretch + rows count 1, section 56px, gutter 20px, align min + ...
+
+## Component Families
+- Hero Section
+
+## Component Specs
+- Hero Section: size 1366x533.48px, vertical layout, padding 0 43 40 43px, gap 64px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Text lg/Medium, Text sm/Semibold, Text xl/Regular, Display md/Semibold, Text xl/Bold] | variants: Device: Desktop 1366px/Mobile 360px/Tablet Landscape 1024px/Tablet Potrait 768px; Hero Section Type: Background image with CTA buttons/Default Hero Section/Email sign-up with video/Hero section with carousel slider/Hero section with search bar/Illustration with email sign-up/Informational CTA with app screenshot/Phone mockup with app download/Search bar with datepicker/Sign-up form with CTA/Video embed with CTA/Video full screen with CTA/Visual Image with Content Boxes
+
+## Most-Used Styles
+- Text sm/Semibold: 620 uses
+- Shadows/shadow-xs: 337 uses
+- Gradient/Brand/800 -> 600 (45deg): 104 uses
+- Text xl/Bold: 104 uses
+- Text md/Regular: 84 uses
+- Text md/Semibold: 84 uses
+- Text xl/Regular: 71 uses
+- Display xs/Semibold: 56 uses
+- Text lg/Regular: 44 uses
+- Display md/Semibold: 42 uses
+- Text sm/Medium: 40 uses
+- Neutral/100: 36 uses
+- Neutral/800: 36 uses
+- Text sm/Regular: 34 uses
+- Text lg/Semibold: 28 uses
+- Display lg/Bold: 20 uses
+- Text lg/Medium: 20 uses
+- Brand/700: 17 uses
+- Text-xl/Normal: 14 uses
+- Display 2xl/Bold: 13 uses
+- Display xl/Bold: 13 uses
+- Backdrop blurs/backdrop-blur-sm: 12 uses
+- Display sm/Bold: 10 uses
+- Shadows/Portfolio mockup shadows/shadow-main-centre-md: 10 uses
+- Shadows/shadow-3xl: 9 uses
+- Display lg/Semibold: 8 uses
+- Shadows/shadow-lg: 8 uses
+- Text xl/Semibold: 8 uses
+- brand_gradient: 8 uses
+- Display md/Bold: 2 uses
+- secondary: 2 uses
+- dark: 1 use
+
+## Layout & Structure
+Screen: 💠 - Hero Section Components / Hero Section
+- COMPONENT_SET "Hero Section", 4486x23078px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Device=Desktop 1366px, Hero Section Type=Search bar with dat", 1366x480px, constraints left/top, fill image(hash: 4db8892883eef456f9a846df7f71c68181b3e68d)
+    - FRAME "Frame 7", 1366x64px, horizontal pad 12 43 12 43px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+      - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+      - FRAME "Frame 2", 565x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 95x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 136x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 112x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 71x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 67x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+        - INSTANCE "Buttons/Button", 167x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 119x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 115x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 70x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Text padding", 42x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 137x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 109x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+    - FRAME "Frame 10995", 826x110px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Find your next stay", 826x72px, constraints left/top, fill #FFFFFF, text [Display xl/Bold], [heading]
+      - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 826x30px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+    - FRAME "Frame 23", 1280x84px, horizontal pad 20 24 20 24px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-3xl
+      - INSTANCE "Input field", 554x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 554x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 554x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 526x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Date picker dropdown", 220x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 220x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+          - FRAME "Text padding", 97x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 93x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+      - INSTANCE "Date picker dropdown", 220x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 220x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+          - FRAME "Text padding", 108x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 104x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+      - INSTANCE "Dropdown", 134x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 78x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 40x40px, horizontal pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - INSTANCE "search-sm", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x15px, constraints scale/scale, stroke #FFFFFF 1.67px
+  - COMPONENT "Device=Tablet Potrait 768px, Hero Section Type=Search bar wi", 768x500px, constraints left/top, fill image(hash: 4db8892883eef456f9a846df7f71c68181b3e68d)
+    - FRAME "Frame 7", 768x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+      - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+      - FRAME "Frame 2", 307x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 95x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 136x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 112x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 13.33x1.67px, constraints scale/scale, stroke #344054 1.67px
+      - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 70x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Text padding", 42x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 137x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 109x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+    - FRAME "Frame 10995", 704x140px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Find your next stay", 704x72px, constraints left/top, fill #FFFFFF, text [Display xl/Bold], [heading]
+      - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 704x60px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+    - FRAME "Frame 23", 704x140px, vertical pad 20 24 20 24px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-3xl
+      - INSTANCE "Input field", 656x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 656x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 656x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 628x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10996", 656x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Date picker dropdown", 217x40px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 217x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - FRAME "Text padding", 97x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Date picker dropdown", 217x40px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 217x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - FRAME "Text padding", 108x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Dropdown", 134x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Buttons/Button", 40x40px, horizontal pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - INSTANCE "search-sm", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x15px, constraints scale/scale, stroke #FFFFFF 1.67px
+  - COMPONENT "Device=Tablet Landscape 1024px, Hero Section Type=Search bar", 1024x416px, constraints left/top, fill image(hash: 4db8892883eef456f9a846df7f71c68181b3e68d)
+    - FRAME "Frame 7", 1024x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+      - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+      - FRAME "Frame 2", 565x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 95x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 136x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 112x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 71x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 67x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+        - INSTANCE "Buttons/Button", 167x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 119x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 115x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 70x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Text padding", 42x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 137x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 109x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+    - FRAME "Frame 10995", 826x110px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Find your next stay", 826x72px, constraints left/top, fill #FFFFFF, text [Display xl/Bold], [heading]
+      - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 826x30px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+    - FRAME "Frame 23", 960x84px, horizontal pad 20 24 20 24px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-3xl
+      - INSTANCE "Input field", 234x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 234x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 234x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 206x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Date picker dropdown", 220x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 220x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+          - FRAME "Text padding", 97x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 93x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+      - INSTANCE "Date picker dropdown", 220x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 220x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+          - FRAME "Text padding", 108x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 104x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+      - INSTANCE "Dropdown", 134x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 78x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 40x40px, horizontal pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - INSTANCE "search-sm", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x15px, constraints scale/scale, stroke #FFFFFF 1.67px
+  - COMPONENT "Device=Mobile 360px, Hero Section Type=Search bar with datep", 360x602px, constraints left/top, fill image(hash: 4db8892883eef456f9a846df7f71c68181b3e68d)
+    - FRAME "Frame 7", 360x60px, horizontal pad 12 16 12 16px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+      - FRAME "Frame 10967", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+      - FRAME "Frame 2", 36x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - INSTANCE "menu-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x10px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 10995", 328x130px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Find your next stay", 328x38px, constraints left/top, fill #FFFFFF, text [Display sm/Bold], [heading]
+      - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 328x84px, constraints left/top, fill #FFFFFF, text [Text lg/Regular]
+    - FRAME "Frame 23", 328x308px, vertical pad 20 16 20 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-3xl
+      - INSTANCE "Input field", 296x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Input with label", 296x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Input", 296x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 10996", 296x208px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Date picker dropdown", 296x40px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 296x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - FRAME "Text padding", 97x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Date picker dropdown", 296x40px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 296x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - FRAME "Text padding", 108x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Dropdown", 296x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 296x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "users-01", 20x20px, constraints left/top, fill #FFFFFF
+            - FRAME "Text padding", 220x20px, horizontal pad 0 2 0 2px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Buttons/Button", 296x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - INSTANCE "search-sm", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x15px, constraints scale/scale, stroke #FFFFFF 1.67px
+          - FRAME "Text padding", 52x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 48x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - COMPONENT "Device=Desktop 1366px, Hero Section Type=Background image wi", 1366x480px, constraints left/top, fill image(hash: c0f3a474611bfb5c6f5e8aaf94eaba9bc90c33e1)
+    - FRAME "Frame 7", 1366x64px, horizontal pad 12 43 12 43px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+      - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+      - FRAME "Frame 2", 565x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 95x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 136x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 112x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 71x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 67x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+        - INSTANCE "Buttons/Button", 167x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 119x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 115x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 70x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Text padding", 42x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 137x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 109x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+    - FRAME "Frame 10997", 826x168px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10995", 826x98px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Find your next stay", 826x60px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+        - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 826x30px, constraints left/top, fill #101828, text [Text xl/Regular]
+      - FRAME "Frame 3", 262x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 137x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 109x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 109x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Text padding", 81x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 77x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - COMPONENT "Device=Tablet Potrait 768px, Hero Section Type=Background im", 768x394px, constraints left/top, fill image(hash: c0f3a474611bfb5c6f5e8aaf94eaba9bc90c33e1)
+    - FRAME "Frame 7", 768x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+      - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+      - FRAME "Frame 2", 307x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 95x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 136x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 112x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 13.33x1.67px, constraints scale/scale, stroke #344054 1.67px
+      - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 70x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Text padding", 42x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 137x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 109x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+    - FRAME "Frame 10997", 704x198px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10995", 704x128px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Find your next stay", 704x60px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+        - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 704x60px, constraints left/top, fill #101828, text [Text xl/Regular]
+      - FRAME "Frame 3", 262x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 137x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 109x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 109x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Text padding", 81x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 77x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+  - COMPONENT "Device=Tablet Landscape 1024px, Hero Section Type=Background", 1024x416px, constraints left/top, fill image(hash: c0f3a474611bfb5c6f5e8aaf94eaba9bc90c33e1)
+    - FRAME "Frame 7", 1024x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+      - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+        - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+      - FRAME "Frame 2", 565x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 95x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 136x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 112x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 119x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 71x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 67x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+        - INSTANCE "Buttons/Button", 167x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+          - FRAME "Text padding", 119x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 115x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 70x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+          - FRAME "Text padding", 42x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "Buttons/Button", 137x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 109x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+  - ... +27 more children
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: 🎨 - Hero Section Designs / Search bar with datepicker
+- TEXT "Search bar with datepicker", 911x90px, constraints left/top, fill #101828, text [Display 2xl/Bold], [heading]
+
+Screen: 🎨 - Hero Section Designs / Background image with CTA buttons
+- TEXT "Background image with CTA buttons", 1241x90px, constraints left/top, fill #101828, text [Display 2xl/Bold], [heading]
+
+Screen: 🎨 - Hero Section Designs / Desktop 1366px
+- FRAME "Desktop 1366px", 1366x480px, constraints left/top, fill image(hash: 4db8892883eef456f9a846df7f71c68181b3e68d)
+  - FRAME "Frame 7", 1366x64px, horizontal pad 12 43 12 43px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 565x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 67x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 115x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 10995", 826x110px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Find your next stay", 826x72px, constraints left/top, fill #FFFFFF, text [Display xl/Bold], [heading]
+    - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 826x30px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+  - FRAME "Frame 23", 1280x84px, horizontal pad 20 24 20 24px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-3xl
+    - INSTANCE "Input field", 554x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "map-01", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 498x24px, constraints left/top, fill #667085, text [Text md/Regular]
+    - INSTANCE "Date picker dropdown", 220x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 93x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+    - INSTANCE "Date picker dropdown", 220x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 104x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+    - INSTANCE "Dropdown", 134x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 78x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+    - INSTANCE "Buttons/Button", 40x40px, horizontal pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+      - INSTANCE "search-sm", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 15x15px, constraints scale/scale, stroke #FFFFFF 1.67px
+
+Screen: 🎨 - Hero Section Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x500px, constraints left/top, fill image(hash: 4db8892883eef456f9a846df7f71c68181b3e68d)
+  - FRAME "Frame 7", 768x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 307x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 13.33x1.67px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 10995", 704x140px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Find your next stay", 704x72px, constraints left/top, fill #FFFFFF, text [Display xl/Bold], [heading]
+    - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 704x60px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+  - FRAME "Frame 23", 704x140px, vertical pad 20 24 20 24px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-3xl
+    - INSTANCE "Input field", 656x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "map-01", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 600x24px, constraints left/top, fill #667085, text [Text md/Regular]
+    - FRAME "Frame 10996", 656x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Date picker dropdown", 217x40px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 93x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+      - INSTANCE "Date picker dropdown", 217x40px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 104x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+      - INSTANCE "Dropdown", 134x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 78x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 40x40px, horizontal pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - INSTANCE "search-sm", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x15px, constraints scale/scale, stroke #FFFFFF 1.67px
+
+Screen: 🎨 - Hero Section Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x416px, constraints left/top, fill image(hash: 4db8892883eef456f9a846df7f71c68181b3e68d)
+  - FRAME "Frame 7", 1024x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 565x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 67x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 115x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 10995", 826x110px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Find your next stay", 826x72px, constraints left/top, fill #FFFFFF, text [Display xl/Bold], [heading]
+    - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 826x30px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+  - FRAME "Frame 23", 960x84px, horizontal pad 20 24 20 24px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-3xl
+    - INSTANCE "Input field", 234x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "map-01", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 178x24px, constraints left/top, fill #667085, text [Text md/Regular]
+    - INSTANCE "Date picker dropdown", 220x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 93x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+    - INSTANCE "Date picker dropdown", 220x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 104x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+    - INSTANCE "Dropdown", 134x40px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 78x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+    - INSTANCE "Buttons/Button", 40x40px, horizontal pad 10 10 10 10px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+      - INSTANCE "search-sm", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Icon", 15x15px, constraints scale/scale, stroke #FFFFFF 1.67px
+
+Screen: 🎨 - Hero Section Designs / Mobile 360px
+- FRAME "Mobile 360px", 360x602px, constraints left/top, fill image(hash: 4db8892883eef456f9a846df7f71c68181b3e68d)
+  - FRAME "Frame 7", 360x60px, horizontal pad 12 16 12 16px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+    - FRAME "Frame 10967", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 36x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "menu-01", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x10px, constraints scale/scale, stroke #344054 1.67px
+  - FRAME "Frame 10995", 328x130px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Find your next stay", 328x38px, constraints left/top, fill #FFFFFF, text [Display sm/Bold], [heading]
+    - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 328x84px, constraints left/top, fill #FFFFFF, text [Text lg/Regular]
+  - FRAME "Frame 23", 328x308px, vertical pad 20 16 20 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #EAECF0 1px, effect Shadows/shadow-3xl
+    - INSTANCE "Input field", 296x44px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Input with label", 320x70px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Input", 320x44px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - FRAME "Content", 268x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "map-01", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 240x24px, constraints left/top, fill #667085, text [Text md/Regular]
+    - FRAME "Frame 10996", 296x208px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Date picker dropdown", 296x40px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 93x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+      - INSTANCE "Date picker dropdown", 296x40px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 134x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints right/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - INSTANCE "calendar", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 15x16.67px, constraints scale/scale, stroke #344054 1.67px
+          - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 104x20px, constraints left/top, fill #667085, text [Text sm/Semibold]
+      - INSTANCE "Dropdown", 296x40px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Buttons/Button", 296x40px, horizontal pad 10 14 10 14px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+          - INSTANCE "users-01", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 16.67x15px, constraints scale/scale, radius 0/0/0/0px, stroke #344054 1.67px
+          - FRAME "Text padding", 220x20px, horizontal pad 0 2 0 2px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 78x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+          - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 296x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - INSTANCE "search-sm", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x15px, constraints scale/scale, stroke #FFFFFF 1.67px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 48x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+
+Screen: 🎨 - Hero Section Designs / Desktop 1366px
+- FRAME "Desktop 1366px", 1366x480px, constraints left/top, fill image(hash: c0f3a474611bfb5c6f5e8aaf94eaba9bc90c33e1)
+  - FRAME "Frame 7", 1366x64px, horizontal pad 12 43 12 43px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 565x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 67x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 115x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 10997", 826x168px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 10995", 826x98px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Find your next stay", 826x60px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+      - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 826x30px, constraints left/top, fill #101828, text [Text xl/Regular]
+    - FRAME "Frame 3", 262x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 77x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+
+Screen: 🎨 - Hero Section Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x394px, constraints left/top, fill image(hash: c0f3a474611bfb5c6f5e8aaf94eaba9bc90c33e1)
+  - FRAME "Frame 7", 768x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 307x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 13.33x1.67px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 10997", 704x198px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 10995", 704x128px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Find your next stay", 704x60px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+      - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 704x60px, constraints left/top, fill #101828, text [Text xl/Regular]
+    - FRAME "Frame 3", 262x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 77x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+
+Screen: 🎨 - Hero Section Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x416px, constraints left/top, fill image(hash: c0f3a474611bfb5c6f5e8aaf94eaba9bc90c33e1)
+  - FRAME "Frame 7", 1024x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 565x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 91x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 108x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 67x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 115x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 10997", 826x168px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 10995", 826x98px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Find your next stay", 826x60px, constraints left/top, fill #101828, text [Display lg/Bold], [heading]
+      - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 826x30px, constraints left/top, fill #101828, text [Text xl/Regular]
+    - FRAME "Frame 3", 262x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 77x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+
+Screen: 🎨 - Hero Section Designs / Mobile 360px
+- FRAME "Mobile 360px", 360x475px, constraints left/top, fill image(hash: c0f3a474611bfb5c6f5e8aaf94eaba9bc90c33e1)
+  - FRAME "Frame 7", 360x60px, horizontal pad 12 16 12 16px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB
+    - FRAME "Frame 10967", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 36x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "menu-01", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x10px, constraints scale/scale, stroke #344054 1.67px
+  - FRAME "Frame 10995", 328x130px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Find your next stay", 328x38px, constraints left/top, fill #101828, text [Display sm/Bold], [heading]
+    - TEXT "Search low prices on hotels, stays, homes, flights, activiti", 328x84px, constraints left/top, fill #101828, text [Text lg/Regular]
+  - FRAME "Frame 3", 262x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+      - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+    - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+      - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 77x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+
+Screen: 🎨 - Hero Section Designs / Desktop 1366px
+- FRAME "Desktop 1366px", 1366x678px, vertical pad 0 43 40 43px gap 64px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 7", 1366x64px, horizontal pad 12 43 12 43px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 525x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 86x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 121x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 55x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 31x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 185x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 67x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 29", 688x278px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Alert", 607x44px, horizontal pad 12 16 12 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D0D5DD 1px
+      - FRAME "Content", 575x20px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Text and supporting text", 457x20px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Text wrap", 457x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 457x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - FRAME "Actions", 106x20px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 96x20px, horizontal pad 0 0 0 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 80x20px, constraints left/top, fill #6941C6, text [Text sm/Semibold]
+            - INSTANCE "arrow-right", 20x20px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 22", 688x210px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 15", 688x210px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 13", 688x146px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Discover Next-Level Travel Experiences", 688x44px, constraints left/top, fill #FFFFFF, text [Display md/Semibold], [heading]
+          - TEXT "Effortlessly plan your dream getaway with our all-in-one pla", 688x90px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+        - FRAME "Frame 3", 226x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "play", 20x20px, constraints left/top, fill #FFFFFF
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: 🎨 - Hero Section Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x552px, vertical pad 0 32 40 32px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 30", 768x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 347x36px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 86x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 121x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 13.33x1.67px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 185x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 67x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 31", 688x278px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Alert", 607x44px, horizontal pad 12 16 12 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D0D5DD 1px
+      - FRAME "Content", 575x20px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Text and supporting text", 457x20px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Text wrap", 457x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 457x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - FRAME "Actions", 106x20px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 96x20px, horizontal pad 0 0 0 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 80x20px, constraints left/top, fill #6941C6, text [Text sm/Semibold]
+            - INSTANCE "arrow-right", 20x20px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 22", 688x210px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 15", 688x210px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 13", 688x146px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Discover Next-Level Travel Experiences", 688x44px, constraints left/top, fill #FFFFFF, text [Display md/Semibold], [heading]
+          - TEXT "Effortlessly plan your dream getaway with our all-in-one pla", 688x90px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+        - FRAME "Frame 3", 226x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "play", 20x20px, constraints left/top, fill #FFFFFF
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: 🎨 - Hero Section Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x552px, vertical pad 0 32 40 32px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 30", 1024x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 10967", 525x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 86x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 121x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 55x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 31x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 185x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 67x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 31", 688x278px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Alert", 607x44px, horizontal pad 12 16 12 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D0D5DD 1px
+      - FRAME "Content", 575x20px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Text and supporting text", 457x20px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Text wrap", 457x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text", 457x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - FRAME "Actions", 106x20px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 96x20px, horizontal pad 0 0 0 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 80x20px, constraints left/top, fill #6941C6, text [Text sm/Semibold]
+            - INSTANCE "arrow-right", 20x20px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 22", 688x210px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 15", 688x210px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 13", 688x146px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Discover Next-Level Travel Experiences", 688x44px, constraints left/top, fill #FFFFFF, text [Display md/Semibold], [heading]
+          - TEXT "Effortlessly plan your dream getaway with our all-in-one pla", 688x90px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+        - FRAME "Frame 3", 226x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "play", 20x20px, constraints left/top, fill #FFFFFF
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: 🎨 - Hero Section Designs / Mobile 360px
+- FRAME "Mobile 360px", 360x742px, vertical pad 0 16 40 16px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 7", 360x60px, horizontal pad 12 16 12 16px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+    - FRAME "Frame 10967", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 36x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "menu-01", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 15x10px, constraints scale/scale, stroke #344054 1.67px
+  - FRAME "Frame 30", 328x602px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fill H:fixed, constraints left/top
+    - INSTANCE "Alert", 328x104px, vertical pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+      - FRAME "Content", 311x96px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Text and supporting text", 311x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 296x40px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - FRAME "Actions", 168x20px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 78x20px, horizontal pad 0 0 0 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 80x20px, constraints left/top, fill #6941C6, text [Text sm/Semibold]
+            - INSTANCE "arrow-right", 20x20px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 22", 328x474px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 15", 328x474px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 13", 328x354px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Discover Next-Level Travel Experiences", 328x132px, constraints left/top, fill #FFFFFF, text [Display md/Semibold], [heading]
+          - TEXT "Effortlessly plan your dream getaway with our all-in-one pla", 328x210px, constraints left/top, fill #FFFFFF, text [Text xl/Regular]
+        - FRAME "Frame 3", 328x96px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 328x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 328x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - INSTANCE "play", 20x20px, constraints left/top, fill #FFFFFF
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+
+Screen: 🎨 - Hero Section Designs / Video embed with CTA
+- TEXT "Video embed with CTA", 777x90px, constraints left/top, fill #101828, text [Display 2xl/Bold], [heading]
+
+Screen: 🎨 - Hero Section Designs / Video full screen with CTA
+- TEXT "Video full screen with CTA", 895x90px, constraints left/top, fill #101828, text [Display 2xl/Bold], [heading]
+
+Screen: 🎨 - Hero Section Designs / Informational CTA with app screenshot
+- TEXT "Informational CTA with app screenshot", 1322x90px, constraints left/top, fill #101828, text [Display 2xl/Bold], [heading]
+
+Screen: 🎨 - Hero Section Designs / Desktop 1366px
+- FRAME "Desktop 1366px", 1366x730px, vertical pad 0 43 40 43px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 7", 1366x64px, horizontal pad 12 43 12 43px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 467x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 62x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 60x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 48x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 65x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 223x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 29", 688x586px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 22", 688x586px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 15", 688x180px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 13", 688x116px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Tech for a Greener Tomorrow", 688x44px, constraints left/top, fill #344054, text [Display md/Semibold], [heading]
+          - TEXT "Driving sustainable growth with cutting-edge green technolog", 688x60px, constraints left/top, fill #475467, text [Text xl/Regular]
+        - FRAME "Frame 3", 221x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "💓Youtube Widget by FeatPaper", 686x358px, constraints left/top, radius 12px
+        - RECTANGLE "👉Put You Own Image👈", 686x358px, constraints left/top, radius 12px, fill image(hash: 7820c0f37d56c4027f1c83a209f5edb893cd2317)
+        - WIDGET "Key Component"
+          - FRAME "Frame", 160x160px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8/8/8/8px, effect [drop_shadow 2px offset 0 0 #00000033]
+            - FRAME "Frame", 80x80px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+
+Screen: 🎨 - Hero Section Designs / Tablet Potrait 768px
+- FRAME "Tablet Potrait 768px", 768x730px, vertical pad 0 32 40 32px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 7", 768x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 338x36px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 62x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 60x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 48x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 36x36px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "dots-horizontal", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 13.33x1.67px, constraints scale/scale, stroke #344054 1.67px
+    - FRAME "Frame 3", 219x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 30", 704x586px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 22", 704x586px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 15", 704x180px, vertical pad 0 0 0 0px gap 24px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 13", 704x116px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Tech for a Greener Tomorrow", 704x44px, constraints left/top, fill #344054, text [Display md/Semibold], [heading]
+          - TEXT "Driving sustainable growth with cutting-edge green technolog", 688x60px, constraints left/top, fill #475467, text [Text xl/Regular]
+        - FRAME "Frame 3", 221x40px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #D0D5DD 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+            - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "💓Youtube Widget by FeatPaper", 704x358px, constraints left/top, radius 12px
+        - RECTANGLE "👉Put You Own Image👈", 704x358px, constraints left/top, radius 12px, fill image(hash: 7820c0f37d56c4027f1c83a209f5edb893cd2317)
+        - WIDGET "Key Component"
+
+Screen: 🎨 - Hero Section Designs / Tablet Landscape 1024px
+- FRAME "Tablet Landscape 1024px", 1024x730px, vertical pad 0 32 40 32px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 7", 1024x64px, horizontal pad 12 32 12 32px gap 169px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F9FAFB, stroke #EAECF0 1px
+    - FRAME "Frame 10966", 131x30px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Gradient/Brand/800 -> 600 (45deg)
+      - TEXT "Shiftwave", 99x30px, constraints left/top, fill #101828, text [Text xl/Bold]
+    - FRAME "Frame 2", 395x36px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 62x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 60x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+        - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Icon", 10x5px, constraints scale/scale, stroke #344054 1.67px
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 48x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 154x36px, horizontal pad 8 12 8 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 65x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+    - FRAME "Frame 3", 219x40px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 38x20px, constraints left/top, fill #344054, text [Text sm/Semibold]
+      - INSTANCE "Buttons/Button", 158x40px, horizontal pad 10 14 10 14px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #7F56D9, stroke #7F56D9 1px, effect Shadows/shadow-xs
+        - FRAME "Text padding", 82x20px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text", 105x20px, constraints left/top, fill #FFFFFF, text [Text sm/Semibold]
+  - FRAME "Frame 30", 884x586px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 22", 884x586px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fill H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

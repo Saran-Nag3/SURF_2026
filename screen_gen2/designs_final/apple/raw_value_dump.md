@@ -1,0 +1,996 @@
+---
+name: apple-intelligence-ui-kit-community
+source_file: Apple Intelligence UI KIT (Community)
+source_page: All pages (3): Thumbnail, Templates, Components
+generated_at: 2026-07-25T09:08:19.506985+00:00
+---
+
+# Apple Intelligence UI KIT (Community) Design Guidelines
+
+## Source
+- Figma file: Apple Intelligence UI KIT (Community)
+- Figma page: All pages (3): Thumbnail, Templates, Components
+- Extracted at: 2026-07-25T09:08:19.506985+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- AppleIntelligenceColor: none
+- Style: none
+- Labels/Primary: [#000000]
+- Labels/Tertiary: [#3C3C434D]
+- Grays/Black: [#000000]
+- Labels/Primary - Dark: [#FFFFFF]
+- Colors/Red: [#FF3B30]
+- Materials/Thin - Dark: [#252525B2, #9C9C9C]
+- Labels/Vibrant Secondary - Dark: [#7F7F7F80, #C2C2C2]
+- Grays/White: [#FFFFFF]
+- Materials/Ultrathin: [#BFBFBF70, #0D0D0D]
+- _Template/Component Fill: [#8080804D]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 344 uses
+- #000000: 151 uses
+- #FCFCFEB2: 84 uses
+- #FFFFFF99: 31 uses
+- #FFFFFFD9: 16 uses
+- #1B1F2F5C: 12 uses
+- #ABB0BAB2: 12 uses
+- #EBF0F780: 12 uses
+- #ABB0BA99: 11 uses
+- #9747FF: 10 uses
+- #03AAF6: 8 uses
+- #C2C2C2: 8 uses
+- #ED75FA: 8 uses
+- #F62B6A: 8 uses
+- #FFFFFF05: 8 uses
+- #FFFFFF1A: 8 uses
+- #262626: 7 uses
+- #FF3A2F: 7 uses
+- #FFFFFF33: 7 uses
+- #00000080: 6 uses
+- #0000009E: 6 uses
+- #414141: 6 uses
+- #7C7C7C: 6 uses
+
+## Typography Tokens
+- Callout/Regular: SF Pro Regular (400), 16px / 21px, tracking -0.31px
+- Body/Regular: SF Pro Regular (400), 17px / 22px, tracking -0.43px
+- Subheadline/Regular: SF Pro Regular (400), 15px / 20px, tracking -0.23px
+- Subheadline/Emphasized: SF Pro Semibold (590), 15px / 20px, tracking -0.23px
+- Caption1/Regular: SF Pro Regular (400), 12px / 16px, tracking 0px
+- Body/Emphasized: SF Pro Semibold (590), 13px / 16px, tracking 0px
+- Headline/Regular: SF Pro Bold (700), 13px / 16px, tracking 0px
+
+## Raw Typography (unstyled)
+- SF Pro Regular, 16px: 145 uses
+- SF Pro Regular, 12px: 102 uses
+- SF Pro Regular, 25px: 78 uses
+- SF Pro Regular, 17px: 35 uses
+- SF Pro Regular, 31px: 27 uses
+- SF Pro Medium, 12px: 18 uses
+- SF Pro Regular, 19.5px: 8 uses
+- SF Pro Bold, 11.5px: 7 uses
+- SF Pro Light, 37.5px: 7 uses
+- SF Pro Regular, 19px: 7 uses
+- SF Pro Regular, 21px: 7 uses
+- SF Pro Regular, 20px: 6 uses
+- SF Pro Regular, 22px: 5 uses
+- SF Pro Regular, 13px: 4 uses
+- SF Pro Regular, 16.3px: 3 uses
+- SF Pro Regular, 27px: 3 uses
+- SF Pro Semibold, 17px: 3 uses
+
+## Typography Hierarchy
+- 37.5px - SF Pro Light, 37.5px (raw)
+- 31px - SF Pro Regular, 31px (raw)
+- 27px - SF Pro Regular, 27px (raw)
+- 25px - SF Pro Regular, 25px (raw)
+- 22px - SF Pro Regular, 22px (raw)
+- 21px - SF Pro Regular, 21px (raw)
+- 20px - SF Pro Regular, 20px (raw)
+- 19.5px - SF Pro Regular, 19.5px (raw)
+- 19px - SF Pro Regular, 19px (raw)
+- 17px - Body/Regular (SF Pro Regular)
+- 17px - SF Pro Regular, 17px (raw)
+- 17px - SF Pro Semibold, 17px (raw)
+- 16.3px - SF Pro Regular, 16.3px (raw)
+- 16px - Callout/Regular (SF Pro Regular)
+- 16px - SF Pro Regular, 16px (raw)
+- 15px - Subheadline/Emphasized (SF Pro Semibold)
+- 15px - Subheadline/Regular (SF Pro Regular)
+- 13px - Body/Emphasized (SF Pro Semibold)
+- 13px - Headline/Regular (SF Pro Bold)
+- 13px - SF Pro Regular, 13px (raw)
+- 12px - Caption1/Regular (SF Pro Regular)
+- 12px - SF Pro Medium, 12px (raw)
+- 12px - SF Pro Regular, 12px (raw)
+- 11.5px - SF Pro Bold, 11.5px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Component 1
+- SiriAnimationShakyPhone15ProMax
+- SiriAnimationiPhone15ProMax
+- SiriAnimationShakyPhone15Pro
+- SiriAnimationiPhone15Pro
+- SiriAnimationiPadPro11"
+- SiriAnimationShaky 14"
+- SiriAnimationShaky 16"
+- SiriAnimationShaky 21"
+- AI_icon_black
+- AI_icon_white
+- AI_158x158_icon
+- AI_210x210_icon
+- AI_360x360_icon_gradient
+- AI_360x360_icon
+- Vector_black
+- Vector_white
+- Siri_158x158_icon
+- Siri_210x210_icon
+- Siri_360x360_icon_gradient
+- Siri_360x360_icon
+
+## Component Specs
+- Component 1: size 422x374px, fill #FFFFFF, text [SF Pro Regular, 17px, SF Pro Regular, 27px, SF Pro Regular, 25px, SF Pro Regular, 20px, Callout/Regular, Body/Regular] | variants: Property 1: Default/Variant2
+- SiriAnimationShakyPhone15ProMax: size 430x932px | variants: Property 1: End/Start/Step1/Step2/TaptoStart
+- SiriAnimationiPhone15ProMax: size 430x932px | variants: Property 1: End/Start/Step1/Step2/TaptoStart
+- SiriAnimationShakyPhone15Pro: size 393x852px | variants: Property 1: End/Start/Step1/Step2/TaptoStart
+- SiriAnimationiPhone15Pro: size 393x852px | variants: Property 1: End/Start/Step1/Step2/TaptoStart
+- SiriAnimationiPadPro11": size 834x1194px | variants: Property 1: End/Start/Step1/Step2/TaptoStart
+- SiriAnimationShaky 14": size 1512x982px | variants: Property 1: End/Start/Step1/Step2
+- SiriAnimationShaky 16": size 1728x1117px | variants: Property 1: End/Start/Step1/Step2
+- SiriAnimationShaky 21": size 2246x1266px | variants: Property 1: End/Start/Step1/Step2
+- AI_icon_black: size 105x103px, fill #FFFFFF
+- AI_icon_white: size 105x103px, fill #FFFFFF
+- AI_158x158_icon: size 158x158px
+- AI_210x210_icon: size 210x210px
+- AI_360x360_icon_gradient: size 360x352px
+- AI_360x360_icon: size 360x360px
+- Vector_black: size 137.76x137.71px, fill #FFFFFF
+- Vector_white: size 137.76x137.71px, fill #FFFFFF
+- Siri_158x158_icon: size 158x158px
+- Siri_210x210_icon: size 210x210px
+- Siri_360x360_icon_gradient: size 313.88x313.76px
+- Siri_360x360_icon: size 360x360px
+
+## Most-Used Styles
+- Colors/Red: 145 uses
+- Labels/Primary - Dark: 64 uses
+- Labels/Primary: 59 uses
+- Body/Emphasized: 45 uses
+- Style: 32 uses
+- Labels/Tertiary: 27 uses
+- Body/Regular: 12 uses
+- Callout/Regular: 12 uses
+- Materials/Thin - Dark: 9 uses
+- AppleIntelligenceColor: 4 uses
+- Labels/Vibrant Secondary - Dark: 4 uses
+- Materials/Ultrathin: 4 uses
+- Subheadline/Emphasized: 4 uses
+- Subheadline/Regular: 4 uses
+- Headline/Regular: 3 uses
+- Caption1/Regular: 2 uses
+- Grays/White: 2 uses
+- Grays/Black: 1 use
+- _Template/Component Fill: 1 use
+
+## Layout & Structure
+Screen: Thumbnail / Thumbnail
+- FRAME "Thumbnail", 1512x982px, constraints left/top, fill #FFFFFF
+  - TEXT "Apple Intelligence Siri Animation UI KIT", 1386x298px, constraints left/top, fill gradient_linear(#69BFF9 0% | #B96AF3 35% | #E9685E 58% | #F2AC3E 100%), text [SF Pro Display Semibold, 125px], [heading]
+  - RECTANGLE "Unbenannt 1", 1282x914px, constraints left/top, fill image(hash: 043a3dc9b0ec058cd6349e62a5acc67c3aa7d414)
+  - RECTANGLE "maxresdefault 1", 1473x831px, constraints center/center, fill image(hash: a35d1edaef3e17a7a36a79698e8f6ae5d920d659)
+
+Screen: Templates / Mac
+- SECTION "Mac", 8435x2281px
+  - SECTION "MacBook Pro 16"", 2352x2281px, fill #FFFFFF33
+    - FRAME "MacBook Pro 16" - Siri Speaking Animation", 2170x1430px, constraints left/top
+      - RECTANGLE "MacBook Pro 16" - 5th Gen - Silver", 2170x1430px, constraints scale/scale, fill image(hash: a996931111256b2a1c9c7a4471967b735c86908c)
+      - FRAME "MacBook Pro 16" - Siri Speaking Animation", 1728x1117px, constraints left/top, fill #FFFFFF
+        - FRAME "Desktop Template", 1728x1117px, constraints scale/scale, fill #FFFFFF
+          - FRAME "Desktop Wallpaper", 1728x1117px, constraints scale/scale, fill image(hash: bfb2dadd805691ed891580ac4c81ac69df0be5c8)
+          - FRAME "Menu Bar", 1728x24px, constraints left_right/top, fill #0000002E, effect [background_blur 50px]
+            - FRAME "Group - Leading", 569x24px, horizontal pad 0 4 0 4px gap -4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame - Trailing", 286x24px, horizontal pad 0 0 0 0px gap -4px align max/center sizing W:fixed H:fixed, constraints right/top
+        - INSTANCE "SiriAnimationShaky", 1728x1117px, constraints left/top
+          - RECTANGLE "Blur S", 1728x1117px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 4px, effect [layer_blur 2px]
+          - RECTANGLE "Blur M", 1728x1117px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7.5px, effect [layer_blur 4px]
+          - RECTANGLE "Blur L", 1728x1117px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10.5px, effect [layer_blur 10px]
+          - VECTOR "Blur XL", 1728x1117px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 15px, effect [layer_blur 20px]
+        - FRAME "Dock", 1244x70px, constraints center/bottom, fill #FFFFFF
+          - FRAME "Dock Background", 1244x70px, constraints scale/scale
+            - RECTANGLE "Dock", 1244x65px, constraints left_right/top_bottom, radius 16px, fill #4A4A4A63, stroke #1A1A1A 1px, effect [background_blur 30px, drop_shadow 0px offset 0 0 #00000033]
+          - FRAME "Group 3", 154x60px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+          - FRAME "Separator", 22x65px, constraints center/center
+            - RECTANGLE "Separator", 1x45.7px, constraints scale/scale, radius 1px, fill #414141
+          - FRAME "Group 2", 154x60px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+          - FRAME "Separator", 22x65px, constraints center/center
+            - RECTANGLE "Separator", 1x45.7px, constraints scale/scale, radius 1px, fill #414141
+          - FRAME "Group 1", 882x60px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+  - SECTION "MacBook Pro 14"", 2352x2281px, fill #FFFFFF33
+    - FRAME "MacBook Pro 14" - Siri Speaking Animation", 1972x1282px, constraints left/top
+      - RECTANGLE "MacBook Pro 14" - 5th Gen - Silver", 1972x1282px, constraints scale/scale, fill image(hash: d9dd8fc51ee4eeeedfb678c1a0fe3bd54952cef8)
+      - FRAME "MacBook Pro 14" - Siri Speaking Animation", 1512x982px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Desktop Template", 1512x982px, constraints scale/scale, fill #FFFFFF
+          - FRAME "Desktop Wallpaper", 1512x982px, constraints scale/scale, fill image(hash: bfb2dadd805691ed891580ac4c81ac69df0be5c8)
+          - FRAME "Menu Bar", 1512x24px, constraints left_right/top, fill #0000002E, effect [background_blur 50px]
+            - FRAME "Group - Leading", 569x24px, horizontal pad 0 4 0 4px gap -4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame - Trailing", 286x24px, horizontal pad 0 0 0 0px gap -4px align max/center sizing W:fixed H:fixed, constraints right/top
+        - INSTANCE "SiriAnimationShaky 14"", 1512x982px, constraints center/center
+          - RECTANGLE "Blur S", 1512x982px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 4px, effect [layer_blur 2px]
+          - RECTANGLE "Blur M", 1512x982px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7.5px, effect [layer_blur 4px]
+          - RECTANGLE "Blur L", 1512x982px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10.5px, effect [layer_blur 10px]
+          - VECTOR "Blur XL", 1512x982px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 15px, effect [layer_blur 20px]
+        - FRAME "Dock", 1244x70px, constraints center/bottom, fill #FFFFFF
+          - FRAME "Dock Background", 1244x70px, constraints scale/scale
+            - RECTANGLE "Dock", 1244x65px, constraints left_right/top_bottom, radius 16px, fill #4A4A4A63, stroke #1A1A1A 1px, effect [background_blur 30px, drop_shadow 0px offset 0 0 #00000033]
+          - FRAME "Group 3", 154x60px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+          - FRAME "Separator", 22x65px, constraints center/center
+            - RECTANGLE "Separator", 1x45.7px, constraints scale/scale, radius 1px, fill #414141
+          - FRAME "Group 2", 154x60px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+          - FRAME "Separator", 22x65px, constraints center/center
+            - RECTANGLE "Separator", 1x45.7px, constraints scale/scale, radius 1px, fill #414141
+          - FRAME "Group 1", 882x60px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+  - SECTION "iMac 21"", 3651x2281px, fill #FFFFFF33
+    - FRAME "iMac 21" - Siri Speaking Animation", 2380x2020px, constraints left/top
+      - RECTANGLE "iMac 24" - Silver", 2380x2020px, constraints scale/scale, fill image(hash: 4e9a2dcf8e388be07e822c4b30e857a07e21137d)
+      - FRAME "iMac 21" - Siri Speaking Animation", 2246x1266px, constraints left/top, radius 2px, fill #FFFFFF
+        - FRAME "Desktop Template", 2246x1266px, constraints scale/scale, fill #FFFFFF
+          - FRAME "Desktop Wallpaper", 2246x1266px, constraints scale/scale, fill image(hash: bfb2dadd805691ed891580ac4c81ac69df0be5c8)
+          - FRAME "Menu Bar", 2246x24px, constraints left_right/top, fill #0000002E, effect [background_blur 50px]
+            - FRAME "Group - Leading", 569x24px, horizontal pad 0 4 0 4px gap -4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame - Trailing", 286x24px, horizontal pad 0 0 0 0px gap -4px align max/center sizing W:fixed H:fixed, constraints right/top
+        - INSTANCE "SiriAnimationShaky 21"", 2246x1266px, constraints center/center
+          - RECTANGLE "Blur S", 2246x1266px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 4px, effect [layer_blur 2px]
+          - RECTANGLE "Blur M", 2246x1266px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7.5px, effect [layer_blur 4px]
+          - RECTANGLE "Blur L", 2246x1266px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10.5px, effect [layer_blur 10px]
+          - VECTOR "Blur XL", 2246x1266px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 15px, effect [layer_blur 20px]
+        - FRAME "Dock", 1244x70px, constraints center/bottom, fill #FFFFFF
+          - FRAME "Dock Background", 1244x70px, constraints scale/scale
+            - RECTANGLE "Dock", 1244x65px, constraints left_right/top_bottom, radius 16px, fill #4A4A4A63, stroke #1A1A1A 1px, effect [background_blur 30px, drop_shadow 0px offset 0 0 #00000033]
+          - FRAME "Group 3", 154x60px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+          - FRAME "Separator", 22x65px, constraints center/center
+            - RECTANGLE "Separator", 1x45.7px, constraints scale/scale, radius 1px, fill #414141
+          - FRAME "Group 2", 154x60px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+            - INSTANCE "App Icon", 50x60px, constraints left/top
+          - FRAME "Separator", 22x65px, constraints center/center
+            - RECTANGLE "Separator", 1x45.7px, constraints scale/scale, radius 1px, fill #414141
+          - FRAME "Group 1", 882x60px, horizontal pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+            - FRAME "App Icon", 50x60px, constraints left/top
+
+Screen: Templates / iPhone
+- SECTION "iPhone", 4756x2281px
+  - SECTION "iPhone 15 Pro", 2352x2281px, fill #FFFFFF33
+    - FRAME "iPhone 15 Pro - Siri Speaking Animation", 440x895px, constraints left/top
+      - FRAME "Screen iPhone 15 Pro", 393x858.72px, constraints scale/scale, radius 60px, fill #FFFFFF
+        - FRAME "Home Screen - iPhone", 393x858.72px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints center/scale, radius 60px, fill image(hash: 3b959f6c58b93322a0bfb8841436cb89d3fd3701)
+          - FRAME "Status Bar", 393x54px, horizontal pad 0 0 0 0px gap 112px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Time", 138x54px, constraints left/top
+            - FRAME "Levels", 143x54px, constraints left/top [decorative, ~5 shapes]
+          - FRAME "App Icons", 393x622.72px, constraints left/top
+            - FRAME "Row 2", 331x79px, constraints left/top
+            - FRAME "Row 1", 331x79px, constraints left/top
+          - FRAME "Search Field", 79x30px, horizontal pad 7 11 7 11px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill Materials/Ultrathin, effect [background_blur 50px]
+            - TEXT "Search", 57x16px, constraints left/top, fill Labels/Primary - Dark, text [Caption1/Regular]
+          - FRAME "Dock", 393x122px, horizontal pad 12 11 12 11px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 41px
+            - FRAME "Background", 371x98px, horizontal pad 19 0 19 0px gap 30px align center/center sizing W:fill H:fill, constraints left/top, radius 41px, fill Materials/Ultrathin, effect [background_blur 50px]
+        - INSTANCE "Siri Animation", 393x852px, constraints left/top
+          - RECTANGLE "Blur S", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 2px, effect [layer_blur 2px]
+          - RECTANGLE "Blur M", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 5px, effect [layer_blur 4px]
+          - RECTANGLE "Blur L", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 7px, effect [layer_blur 10px]
+          - RECTANGLE "Blur XL", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 10px, effect [layer_blur 20px]
+      - RECTANGLE "Device Mockup Iphone 15 Pro", 440x894px, constraints center/center, fill image(hash: 87933cc2e154431ae17476a29de92d45dc41c8c6)
+    - FRAME "iPhone 15 Pro - Siri Speaking Animation", 440x895px, constraints left/top
+      - FRAME "iPhone 14 & 15 Pro - 3", 401x857px, constraints center/center, radius 60px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Lock Screen", 401x857px, constraints left_right/top_bottom, radius 5px, fill _Template/Component Fill, stroke #9747FF 1px
+          - FRAME "Wallpaper", 401x857px, constraints scale/scale, fill image(hash: 3b959f6c58b93322a0bfb8841436cb89d3fd3701)
+          - FRAME "Home Indicator", 401x34px, constraints left_right/bottom
+            - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill Grays/White
+          - FRAME "iOS Mini Tip - Symbol - No Action Button", 278x99px, vertical pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints center/top, effect [drop_shadow 30px offset 0 10 #0000004D, background_blur 80px]
+            - FRAME "Content", 278x86px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF57
+            - VECTOR "Path", 47x13px, constraints left/top, fill #FFFFFF57
+          - VECTOR "Time", 171.21x72.9px, constraints center/top, fill #906A69, effect [background_blur 40px]
+          - FRAME "WallpaperOverlay", 401x257.5px, constraints scale/scale, fill image(hash: 94453a7c6c92f7e2ac4c02dbc554b9f183d066b2), opacity 70%
+          - TEXT "Date", 215x26px, constraints center/top, fill #906A698C, effect [background_blur 40px], text [SF Pro Medium, 22px]
+          - RECTANGLE "Swipe down indicator", 48x2.33px, constraints right/top, radius 1.17px, fill #FFFFFF, effect [background_blur 29.9px], opacity 35%
+          - FRAME "Status Bar", 401x53px, constraints left_right/top [decorative, ~12 shapes]
+          - FRAME "Keyboard - iPhone", 394x336px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [background_blur 100px, drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Accessory Bar", 394x45px, horizontal pad 3 0 3 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, effect [drop_shadow 4px offset 0 4 #00000040]
+            - RECTANGLE "Spacer", 394x5px, constraints left/top, fill #FFFF00, opacity 60%
+            - FRAME "Keyboard Layouts", 394x204px, constraints left/top
+            - FRAME "Emoji and Mic", 394x58px, horizontal pad 17 20 0 20px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Home Indicator", 393x21px, constraints center/bottom
+          - FRAME "Blur1", 422x25px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 30/30/0/0px, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [layer_blur 9px]
+          - FRAME "Blur2", 422x25px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 30/30/0/0px, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [layer_blur 25px]
+          - FRAME "Typ Field Siri", 373x40px, constraints left/top, radius 23px, fill #DDDDDD, stroke #FFFFFF1A 2px, effect [background_blur 4px, inner_shadow 4px offset 0 2 #FF9C26, inner_shadow 4px offset 0 1 #65BDEB, drop_shadow 4px offset 0 4 #00000040]
+            - TEXT "Placeholder Label", 71x22px, constraints left/center, fill #C2C2C2, text [SF Pro Regular, 17px]
+            - VECTOR "Vector", 25x25px, constraints left/top, radius 0/0/0/0px, stroke AppleIntelligenceColor 2.5px, effect [drop_shadow 5px offset 0 1 #00000080]
+          - FRAME "Recommendation2", 210x40px, constraints left/top, radius 23px, fill gradient_linear(#FF9C26 0% | #F14575 100%), stroke #FFFFFF1A 1px, effect [background_blur 4px, inner_shadow 4px offset 0 2 #FF9C26, inner_shadow 4px offset 0 1 #65BDEB, drop_shadow 4px offset 0 4 #00000040]
+            - INSTANCE "Icon", 25x25px, constraints center/top, radius 15px
+            - TEXT "Placeholder Label", 156x22px, constraints left/top, fill #C2C2C2, text [SF Pro Regular, 17px]
+          - FRAME "Recommendation1", 210x40px, constraints left/top, radius 23px, fill gradient_linear(#FF9C26 0% | #F14575 100%), stroke #FFFFFF1A 1px, effect [background_blur 4px, inner_shadow 4px offset 0 2 #FF9C26, inner_shadow 4px offset 0 1 #65BDEB, drop_shadow 4px offset 0 4 #00000040]
+            - INSTANCE "Icon", 25x25px, constraints center/top, radius 15px
+            - TEXT "Placeholder Label", 159x22px, constraints left/top, fill #C2C2C2, text [SF Pro Regular, 17px]
+      - RECTANGLE "Device Mockup Iphone 15 Pro", 440x894px, constraints center/center, fill image(hash: 87933cc2e154431ae17476a29de92d45dc41c8c6)
+  - SECTION "iPhone 15 Pro Max", 2352x2281px, fill #FFFFFF33
+    - FRAME "iPhone 15 Pro Max - Siri Speaking Animation", 477x974px, constraints left/top
+      - FRAME "Screen iPhone 15 Pro", 430x932px, constraints scale/scale, radius 60px
+        - FRAME "Home Screen - iPhone", 430x932px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints center/scale, radius 60px, fill image(hash: 3b959f6c58b93322a0bfb8841436cb89d3fd3701)
+          - FRAME "Status Bar", 393x54px, horizontal pad 0 0 0 0px gap 112px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Time", 138x54px, constraints left/top
+            - FRAME "Levels", 143x54px, constraints left/top [decorative, ~5 shapes]
+          - FRAME "App Icons", 430x696px, constraints left/top
+            - FRAME "Row 2", 367x79px, horizontal pad 0 15 0 15px gap 30px align space_between/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Row 1", 367x79px, horizontal pad 0 15 0 15px gap 30px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Search Field", 79x30px, horizontal pad 7 11 7 11px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill Materials/Ultrathin, effect [background_blur 50px]
+            - TEXT "Search", 57x16px, constraints left/top, fill Labels/Primary - Dark, text [Caption1/Regular]
+          - FRAME "Dock", 430x122px, horizontal pad 12 11 12 11px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 41px
+            - FRAME "Background", 408x98px, horizontal pad 19 0 19 0px gap 30px align center/center sizing W:fill H:fill, constraints left/top, radius 41px, fill Materials/Ultrathin, effect [background_blur 50px]
+        - INSTANCE "SiriAnimationShakyPhone15ProMax", 430x932px, constraints left/top
+          - RECTANGLE "Blur S", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 2px, effect [layer_blur 2px]
+          - RECTANGLE "Blur M", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 5px, effect [layer_blur 4px]
+          - RECTANGLE "Blur L", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7px, effect [layer_blur 10px]
+          - VECTOR "Blur XL", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10px, effect [layer_blur 20px]
+      - RECTANGLE "Device Mockup Iphone 15 Pro", 477x974px, constraints center/center, fill image(hash: 87933cc2e154431ae17476a29de92d45dc41c8c6)
+
+Screen: Templates / iPad
+- SECTION "iPad", 6665x2281px
+  - SECTION "iPad Pro 12.9", 3282x2281px, fill #FFFFFF33
+    - FRAME "iPad Pro 12.9", 2890x1566px, horizontal pad 100 100 100 100px gap 300px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Device Bezels/iPad/iPad Pro 12.9 - Space Gray - Portrait", 1024x1366px, constraints left/top, fill #808080
+        - RECTANGLE "iPad Pro 12.9 - Space Gray - Portrait", 1145x1480px, constraints scale/scale, fill image(hash: 365071c45237aa20ce1d0566e8bb34ec70b85890)
+        - FRAME "HomeScreenStart", 1024x1366px, constraints scale/scale, radius 16px, fill image(hash: 6de5128f513c91cf14e74d29d0fe652e613e69f0)
+          - FRAME "Wallpaper", 1024x1366px, constraints left_right/top_bottom, fill image(hash: 45ffe43278966dd558f56bbe6338ae61d29a0d0d)
+          - FRAME "Dock", 574x94px, horizontal pad 17 26 17 26px gap 17px sizing W:fixed H:fixed, constraints center/top, radius 31px, fill Materials/Thin - Dark, effect [background_blur 50px]
+            - INSTANCE "Dock - App 1", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dock - App 2", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dock - App 3", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dock - App 4", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dock - App 5", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Dock - App 6", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Dock - App 7", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "App Layout", 1024x1167px, constraints center/center
+            - FRAME "App Icons", 956x469px, vertical pad 0 50 0 50px gap 51px align space_between/min sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Status Bar", 1024x24px, horizontal pad 0 17 0 17px gap 966px align space_between/center sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Left", 95x18px, horizontal pad 2 0 2 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Right", 102.05x24px, horizontal pad 5 0 5 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Device Bezels/iPad/iPad Pro 12.9 - Space Gray - Landscape", 1366x1024px, constraints left/top, fill #808080
+        - RECTANGLE "iPad Pro 12.9 - Space Gray - Landscape", 1480x1145px, constraints scale/scale, fill image(hash: 75f3f92d20cabf7495b10a5e660b8ee7c2ca5654)
+        - FRAME "HomeScreenStart", 1366x1024px, constraints scale/scale, radius 16px
+          - FRAME "Home Screen - iPad", 1366x1024px, constraints scale/scale, fill image(hash: 6de5128f513c91cf14e74d29d0fe652e613e69f0)
+            - FRAME "Wallpaper", 1366x1024px, constraints left_right/top_bottom, fill image(hash: 45ffe43278966dd558f56bbe6338ae61d29a0d0d)
+            - FRAME "App Layout", 1210x834px, constraints center/center
+  - SECTION "iPad Pro 11", 3282x4676px, fill #FFFFFF33
+    - FRAME "iPad Pro 11", 2440x1339px, constraints center/center
+      - FRAME "Device Bezels/iPad/iPad Pro 11 - Space Gray - Portrait", 834x1194px, constraints left/top, fill #808080
+        - RECTANGLE "iPad Pro 11 - Space Gray - Portrait", 945x1305px, constraints scale/scale, fill image(hash: 16760588f4a3138ff17a62fc0b1e96cb15510274)
+      - FRAME "Device Bezels/iPad/iPad Pro 11 - Space Gray - Landscape", 1194x834px, constraints left/top
+        - RECTANGLE "iPad Pro 11 - Space Gray - Landscape", 1305x945px, constraints scale/scale, fill image(hash: b7f520ec5916d45be9ca0fb6e071fc160cfe6a25)
+      - FRAME "HomeScreenStart", 1197x835px, constraints left/top, radius 16px
+        - INSTANCE "SiriAnimation", 1194x834px, constraints left/top
+          - FRAME "Double Click to Start Indicator", 151x60px, horizontal pad 0 0 0 0px gap 9px align max/center sizing W:fixed H:fixed, constraints left/center
+            - RECTANGLE "Button Indicator", 9x60px, constraints left/top, radius 5/0/0/5px, fill #FFFFFF
+            - TEXT "Double Click to Start", 133x46px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 19px]
+        - FRAME "Home Screen - iPad", 1197x835px, constraints scale/scale, fill image(hash: 6de5128f513c91cf14e74d29d0fe652e613e69f0)
+          - FRAME "Wallpaper", 1197x835px, constraints left_right/top_bottom, fill image(hash: 45ffe43278966dd558f56bbe6338ae61d29a0d0d)
+          - FRAME "App Layout", 1210x834px, constraints center/center
+            - FRAME "Dock", 574x94px, horizontal pad 17 26 17 26px gap 17px sizing W:fixed H:fixed, constraints center/top, radius 31px, fill Materials/Thin - Dark, effect [background_blur 50px]
+            - FRAME "App Icons", 955x339px, vertical pad 0 0 0 0px gap 51px sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Status Bar", 1194x24px, horizontal pad 0 17 0 17px gap 966px align space_between/center sizing W:fixed H:fixed, constraints left_right/top
+        - INSTANCE "SiriAnimationiPadPro11"", 1194x834px, constraints center/center, radius 16px
+          - RECTANGLE "Blur S", 1194x834px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 2px, effect [layer_blur 2px]
+          - RECTANGLE "Blur M", 1194x834px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 5px, effect [layer_blur 4px]
+          - RECTANGLE "Blur L", 1194x834px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7px, effect [layer_blur 10px]
+          - RECTANGLE "Blur XL", 1194x834px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10px, effect [layer_blur 20px]
+      - FRAME "HomeScreenStart", 834x1194px, constraints left/top, radius 16px, fill image(hash: 6de5128f513c91cf14e74d29d0fe652e613e69f0)
+        - FRAME "Wallpaper", 834x1194px, constraints left_right/top_bottom, fill image(hash: 45ffe43278966dd558f56bbe6338ae61d29a0d0d)
+        - FRAME "Dock", 574x94px, horizontal pad 17 26 17 26px gap 17px sizing W:fixed H:fixed, constraints center/top, radius 31px, fill Materials/Thin - Dark, effect [background_blur 50px]
+          - INSTANCE "Dock - App 1", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 60x60px, constraints left/top
+          - INSTANCE "Dock - App 2", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 60x60px, constraints left/top
+          - INSTANCE "Dock - App 3", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 60x60px, constraints left/top
+          - INSTANCE "Dock - App 4", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 60x60px, constraints left/top
+          - INSTANCE "Dock - App 5", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 60x60px, constraints left/top
+          - INSTANCE "Dock - App 6", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 60x60px, constraints left/top
+          - FRAME "Dock - App 7", 60x60px, vertical pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 60x60px, constraints left/top
+        - FRAME "App Layout", 791x834px, constraints center/center
+          - FRAME "App Icons", 751x469px, vertical pad 0 0 0 0px gap 51px sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Row 1", 751x79px, horizontal pad 0 0 0 0px gap 119px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row 2", 751x79px, horizontal pad 0 0 0 0px gap 119px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row 3", 751x79px, horizontal pad 0 0 0 0px gap 119px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row 4", 60x79px, horizontal pad 0 0 0 0px gap 119px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Status Bar", 825x24px, horizontal pad 0 17 0 17px gap 966px align space_between/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Left", 95x18px, horizontal pad 2 0 2 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Time", 26x14px, constraints left/top, fill Labels/Primary - Dark, text [SF Pro Medium, 12px]
+            - TEXT "Date", 61x14px, constraints left/top, fill Labels/Primary - Dark, text [SF Pro Medium, 12px]
+          - FRAME "Right", 102.05x24px, horizontal pad 5 0 5 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Combined Shape", 16.5x10px, constraints scale/scale, fill Labels/Primary - Dark, stroke #979797 0px
+            - VECTOR "Combined Shape", 14.05x10px, constraints scale/scale, fill Labels/Primary - Dark
+            - TEXT "100%", 33x14px, constraints left/top, fill Labels/Primary - Dark, text [SF Pro Medium, 12px]
+            - GROUP "Battery Icon", 26.5x12px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+        - INSTANCE "SiriAnimationiPadPro11"", 834x1194px, constraints left/top, radius 16px
+          - RECTANGLE "Blur S", 834x1194px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 2px, effect [layer_blur 2px]
+          - RECTANGLE "Blur M", 834x1194px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 5px, effect [layer_blur 4px]
+          - RECTANGLE "Blur L", 834x1194px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7px, effect [layer_blur 10px]
+          - RECTANGLE "Blur XL", 834x1194px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10px, effect [layer_blur 20px]
+    - FRAME "iPad Pro 13", 2440x1339px, constraints center/center
+      - FRAME "Device Bezels/iPad/iPad Pro 11 - Space Gray - Portrait", 834x1194px, constraints left/top, fill #808080
+        - RECTANGLE "iPad Pro 11 - Space Gray - Portrait", 945x1305px, constraints scale/scale, fill image(hash: 16760588f4a3138ff17a62fc0b1e96cb15510274)
+      - FRAME "Device Bezels/iPad/iPad Pro 11 - Space Gray - Landscape", 1194x834px, constraints left/top
+        - RECTANGLE "iPad Pro 11 - Space Gray - Landscape", 1305x945px, constraints scale/scale, fill image(hash: b7f520ec5916d45be9ca0fb6e071fc160cfe6a25)
+      - FRAME "HomeScreenTypToSiri", 1194x834px, constraints left/top, radius 16px
+        - TEXT "Date", 215x26px, constraints center/top, fill #FFFFFF, text [SF Pro Medium, 22px]
+        - BOOLEAN_OPERATION "Time", 171.21x72.9px, constraints center/scale, fill #FFFFFF
+        - FRAME "Home Indicator", 400x19.5px, constraints center/bottom
+          - RECTANGLE "Home Indicator", 315x5.5px, constraints center/bottom, radius 100px, fill Grays/White
+        - FRAME "Status Bar", 1194x24px, horizontal pad 0 17 0 17px gap 966px align space_between/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Left", 95x18px, horizontal pad 2 0 2 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Time", 26x14px, constraints left/top, fill Labels/Primary - Dark, text [SF Pro Medium, 12px]
+            - TEXT "Date", 61x14px, constraints left/top, fill Labels/Primary - Dark, text [SF Pro Medium, 12px]
+          - FRAME "Right", 102.05x24px, horizontal pad 5 0 5 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Combined Shape", 16.5x10px, constraints scale/scale, fill Labels/Primary - Dark, stroke #979797 0px
+            - VECTOR "Combined Shape", 14.05x10px, constraints scale/scale, fill Labels/Primary - Dark
+            - TEXT "100%", 33x14px, constraints left/top, fill Labels/Primary - Dark, text [SF Pro Medium, 12px]
+            - GROUP "Battery Icon", 26.5x12px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+        - INSTANCE "Notification - List", 594x320px, vertical pad 0 8 8 8px gap 8px sizing W:fixed H:fixed, constraints center/top
+          - INSTANCE "Notification - Collapsed", 578x66px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24px
+            - FRAME "Notification", 578x66px, horizontal pad 14 14 12 14px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24px, fill Materials/Thin - Dark, effect [background_blur 150px]
+          - INSTANCE "Notification - Collapsed", 578x66px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24px
+            - FRAME "Notification", 578x66px, horizontal pad 14 14 12 14px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24px, fill Materials/Thin - Dark, effect [background_blur 150px]
+          - INSTANCE "Notification - Collapsed", 578x74px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Notification", 578x66px, horizontal pad 14 14 12 14px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24px, fill Materials/Thin - Dark, effect [background_blur 150px]
+            - FRAME "Background Notification 2", 578x8px, constraints left/top
+          - INSTANCE "Notification - Collapsed", 578x82px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Notification", 578x66px, horizontal pad 14 14 12 14px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24px, fill Materials/Thin - Dark, effect [background_blur 150px]
+            - FRAME "Background Notification 2", 578x8px, constraints left/top
+            - FRAME "Background Notification 3", 578x8px, constraints left/top
+        - INSTANCE "SiriAnimation", 1194x834px, constraints left/top
+          - FRAME "Double Click to Start Indicator", 151x60px, horizontal pad 0 0 0 0px gap 9px align max/center sizing W:fixed H:fixed, constraints left/center
+            - RECTANGLE "Button Indicator", 9x60px, constraints left/top, radius 5/0/0/5px, fill #FFFFFF
+            - TEXT "Double Click to Start", 133x46px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 19px]
+        - FRAME "Home Screen - iPad", 1194x834px, constraints scale/scale, fill image(hash: 6de5128f513c91cf14e74d29d0fe652e613e69f0)
+          - FRAME "Wallpaper", 1194x834px, constraints left_right/top_bottom, fill image(hash: 45ffe43278966dd558f56bbe6338ae61d29a0d0d)
+          - FRAME "App Layout", 1210x834px, constraints center/center
+            - FRAME "Dock", 574x94px, horizontal pad 17 26 17 26px gap 17px sizing W:fixed H:fixed, constraints center/top, radius 31px, fill Materials/Thin - Dark, effect [background_blur 50px]
+            - FRAME "App Icons", 955x339px, vertical pad 0 0 0 0px gap 51px sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Status Bar", 1194x24px, horizontal pad 0 17 0 17px gap 966px align space_between/center sizing W:fixed H:fixed, constraints left_right/top
+            - FRAME "Keyboard - iPad", 1194x428px, constraints left/top, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [background_blur 100px, drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Blur1", 1255x25px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints center/top, radius 30/30/0/0px, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [layer_blur 9px]
+            - FRAME "Blur2", 1240x25px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints center/top, radius 30/30/0/0px, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [layer_blur 25px]
+            - FRAME "Typ Field Siri", 770x40px, constraints center/top, radius 23px, fill #DDDDDD, stroke #FFFFFF1A 2px, effect [background_blur 4px, inner_shadow 4px offset 0 2 #FF9C26, inner_shadow 4px offset 0 1 #65BDEB, drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Recommendation2", 210x40px, constraints left/top, radius 23px, fill gradient_linear(#FF9C26 0% | #F14575 100%), stroke #FFFFFF1A 1px, effect [background_blur 30px, inner_shadow 4px offset 0 2 #FF9C26, inner_shadow 4px offset 0 1 #65BDEB, drop_shadow 4px offset 0 4 #00000040]
+            - FRAME "Recommendation1", 210x40px, constraints left/top, radius 23px, fill gradient_linear(#FF9C26 0% | #F14575 100%), stroke #FFFFFF1A 1px, effect [background_blur 30px, inner_shadow 4px offset 0 2 #FF9C26, inner_shadow 4px offset 0 1 #65BDEB, drop_shadow 4px offset 0 4 #00000040]
+
+Screen: Components / Mac
+- SECTION "Mac", 6534x5972px, stroke #F5F5F5 5px
+  - SECTION "iMac 21"", 2286x5404px
+    - COMPONENT_SET "SiriAnimationShaky 21"", 2286x5404px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=Start", 2246x1266px, constraints left/top
+        - RECTANGLE "Blur S", 2246x1266px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 2246x1266px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 2246x1266px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 2246x1266px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 15px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=End", 2246x1266px, constraints left/top
+        - RECTANGLE "Blur S", 2246x1266px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 2246x1266px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 2246x1266px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 2246x1266px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 15px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step1", 2246x1266px, constraints left/top
+        - RECTANGLE "Blur S", 2246x1266px, constraints left/top, stroke Style 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 2246x1266px, constraints left/top, stroke Style 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 2246x1266px, constraints left/top, stroke Style 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 2246x1266px, constraints left/top, stroke Style 15px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step2", 2246x1266px, constraints left/top
+        - RECTANGLE "Blur S", 2246x1266px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 2246x1266px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 2246x1266px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 2246x1266px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 15px, effect [layer_blur 20px]
+  - SECTION "MacBook Pro 16"", 1768x4832px
+    - COMPONENT_SET "SiriAnimationShaky 16"", 1768x4832px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=Start", 1728x1117px, constraints left/top
+        - RECTANGLE "Blur S", 1728x1117px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 1728x1117px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 1728x1117px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 1728x1117px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 15px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=End", 1728x1117px, constraints left/top
+        - RECTANGLE "Blur S", 1728x1117px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 1728x1117px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 1728x1117px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 1728x1117px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 15px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step1", 1728x1117px, constraints left/top
+        - RECTANGLE "Blur S", 1728x1117px, constraints left/top, stroke Style 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 1728x1117px, constraints left/top, stroke Style 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 1728x1117px, constraints left/top, stroke Style 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 1728x1117px, constraints left/top, stroke Style 15px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step2", 1728x1117px, constraints left/top
+        - RECTANGLE "Blur S", 1728x1117px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 1728x1117px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 1728x1117px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 1728x1117px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 15px, effect [layer_blur 20px]
+  - SECTION "MacBook Pro 14"", 1532x4677px
+    - COMPONENT_SET "SiriAnimationShaky 14"", 1532x4677px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=Start", 1512x982px, constraints left/top
+        - RECTANGLE "Blur S", 1512x982px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 1512x982px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 1512x982px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 1512x982px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 15px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=End", 1512x982px, constraints left/top
+        - RECTANGLE "Blur S", 1512x982px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 1512x982px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 1512x982px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 1512x982px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 15px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step1", 1512x982px, constraints left/top
+        - RECTANGLE "Blur S", 1512x982px, constraints left/top, stroke Style 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 1512x982px, constraints left/top, stroke Style 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 1512x982px, constraints left/top, stroke Style 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 1512x982px, constraints left/top, stroke Style 15px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step2", 1512x982px, constraints left/top
+        - RECTANGLE "Blur S", 1512x982px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 4px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 1512x982px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 7.5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 1512x982px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 10.5px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 1512x982px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 15px, effect [layer_blur 20px]
+
+Screen: Components / Logos - Icons - Symbol
+- SECTION "Logos - Icons - Symbol", 6534x2573px, stroke #F5F5F5 5px
+  - SECTION "Siri", 1920x2215px [decorative, ~22 shapes]
+  - SECTION "Marketing Material", 2844x1287px
+    - GROUP "Siri", 1457.88x360px, constraints left/top
+      - COMPONENT "Siri_360x360_icon", 360x360px, constraints left/top
+        - RECTANGLE "Rectangle 3", 360x360px, constraints scale/scale, radius 80px, fill gradient_linear(#F79B1C 0% | #DB7FFB 100%)
+        - GROUP "Mask group", 360x360px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+      - COMPONENT "Siri_360x360_icon_gradient", 313.88x313.76px, constraints left/top
+        - GROUP "Mask group", 313.88x313.76px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+      - COMPONENT "Siri_210x210_icon", 210x210px, constraints left/top
+        - RECTANGLE "Rectangle 3", 210x210px, constraints scale/scale, radius 60px, fill gradient_linear(#F79B1C 0% | #DB7FFB 100%)
+        - GROUP "Mask group", 210x210px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+      - COMPONENT "Siri_158x158_icon", 158x158px, constraints left/top
+        - RECTANGLE "Rectangle 3", 158x158px, constraints scale/scale, radius 40px, fill gradient_linear(#F79B1C 0% | #DB7FFB 100%)
+        - GROUP "Mask group", 158x158px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+      - COMPONENT "Vector_white", 137.76x137.71px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector_white", 137.76x137.71px, constraints scale/scale, fill #FFFFFF
+      - COMPONENT "Vector_black", 137.76x137.71px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector_black", 137.76x137.71px, constraints scale/scale, fill #000000
+    - GROUP "AI", 1438x360px, constraints left/top
+      - COMPONENT "AI_360x360_icon", 360x360px, constraints left/top
+        - RECTANGLE "Rectangle 3", 360x360px, constraints scale/scale, radius 80px, fill gradient_linear(#F79B1C 0% | #DB7FFB 100%)
+        - GROUP "Mask group", 360x360px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+      - COMPONENT "AI_360x360_icon_gradient", 360x352px, constraints left/top
+        - GROUP "Mask group", 360x352px, constraints scale/scale, radius 0/0/0/0px [decorative, ~6 shapes]
+      - COMPONENT "AI_210x210_icon", 210x210px, constraints left/top
+        - RECTANGLE "Rectangle 3", 210x210px, constraints scale/scale, radius 60px, fill gradient_linear(#F79B1C 0% | #DB7FFB 100%)
+        - GROUP "Mask group", 210x210px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+      - COMPONENT "AI_158x158_icon", 158x158px, constraints left/top
+        - RECTANGLE "Rectangle 3", 158x158px, constraints scale/scale, radius 40px, fill gradient_linear(#F79B1C 0% | #DB7FFB 100%)
+        - GROUP "Mask group", 158x158px, constraints scale/scale, radius 0/0/0/0px [decorative, ~7 shapes]
+      - COMPONENT "AI_icon_white", 105x103px, constraints left/top, fill #FFFFFF
+        - VECTOR "icon", 105x103px, constraints scale/scale, fill #FFFFFF
+      - COMPONENT "AI_icon_black", 105x103px, constraints left/top, fill #FFFFFF
+        - VECTOR "icon", 105x103px, constraints scale/scale, fill #000000
+    - GROUP "SDK", 828x360px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 8", 210x210px, constraints left/top, radius 60px
+        - RECTANGLE "Rectangle 7", 210x210px, constraints left/top, radius 60px, fill gradient_linear(#5BBFF6 0% | #7F6AF2 28% | #B651D7 49% | #E83E54 67% | #ED8939 100%)
+        - TEXT "SDK", 210x168px, constraints left/top, fill #FFFFFF, text [Open Sans OpenSans, 80px], [heading]
+      - GROUP "Group 7", 360x360px, constraints left/top, radius 80px
+        - RECTANGLE "Rectangle 6", 360x360px, constraints left/top, radius 80px, fill gradient_linear(#5BBFF6 0% | #7F6AF2 28% | #B651D7 49% | #E83E54 67% | #ED8939 100%)
+        - TEXT "SDK", 360x168px, constraints left/top, fill #FFFFFF, text [Open Sans OpenSans, 146px], [heading]
+      - GROUP "Group 9", 158x158px, constraints left/top, radius 40px
+        - RECTANGLE "Rectangle 8", 158x158px, constraints left/top, radius 40px, fill gradient_linear(#5BBFF6 0% | #7F6AF2 28% | #B651D7 49% | #E83E54 67% | #ED8939 100%)
+        - TEXT "SDK", 158x158px, constraints left/top, fill #FFFFFF, text [Open Sans OpenSans, 60px], [heading]
+
+Screen: Components / iPad
+- SECTION "iPad", 6534x5972px, stroke #F5F5F5 5px
+  - SECTION "iPad Pro 11"", 4666x1682px
+    - COMPONENT_SET "SiriAnimationiPadPro11"", 4666x1284px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=Start", 834x1194px, constraints left/top
+        - RECTANGLE "Blur S", 834x1194px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 834x1194px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 834x1194px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 834x1194px, constraints left/top, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=End", 834x1194px, constraints left/top
+        - RECTANGLE "Blur S", 834x1194px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 834x1194px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 834x1194px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 834x1194px, constraints left/top, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step1", 834x1194px, constraints left/top
+        - RECTANGLE "Blur S", 834x1194px, constraints left/top, stroke Style 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 834x1194px, constraints left/top, stroke Style 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 834x1194px, constraints left/top, stroke Style 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 834x1194px, constraints left/top, stroke Style 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step2", 834x1194px, constraints left/top
+        - RECTANGLE "Blur S", 834x1194px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 834x1194px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 834x1194px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 834x1194px, constraints left/top, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=TaptoStart", 834x1194px, constraints left/top
+        - FRAME "Double Click to Start Indicator", 60x151px, horizontal pad 0 0 0 0px gap 9px align max/center sizing W:fixed H:fixed, constraints left/center
+          - RECTANGLE "Button Indicator", 60x9px, constraints left/top, radius 5/0/0/5px, fill #FFFFFF
+          - TEXT "Double Click to Start", 46x133px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 19px]
+
+Screen: Components / iPhone
+- SECTION "iPhone", 5491x2822px, stroke #F5F5F5 5px
+  - SECTION "iPhone 15 Pro", 2392x2254px
+    - COMPONENT_SET "SiriAnimationiPhone15Pro", 2349x892px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=Start", 393x852px, constraints left/top
+        - RECTANGLE "Blur S", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=End", 393x852px, constraints left/top
+        - RECTANGLE "Blur S", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step1", 393x852px, constraints left/top
+        - RECTANGLE "Blur S", 393x852px, constraints left/top, radius 60px, stroke Style 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 393x852px, constraints left/top, radius 60px, stroke Style 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 393x852px, constraints left/top, radius 60px, stroke Style 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 393x852px, constraints left/top, radius 60px, stroke Style 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step2", 393x852px, constraints left/top
+        - RECTANGLE "Blur S", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=TaptoStart", 393x852px, constraints left/top
+        - FRAME "Double Click to Start Indicator", 151x100.67px, horizontal pad 0 0 0 0px gap 9px align max/center sizing W:fixed H:fixed, constraints right/center
+          - TEXT "Double Click to Start", 133x46px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 19px]
+          - RECTANGLE "Button Indicator", 9x100.67px, constraints left/top, radius 5/0/0/5px, fill #FFFFFF
+    - COMPONENT_SET "SiriAnimationShakyPhone15Pro", 2349x892px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=Start", 393x852px, constraints left/top
+        - RECTANGLE "Blur S", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=End", 393x852px, constraints left/top
+        - RECTANGLE "Blur S", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 7px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step1", 393x852px, constraints left/top
+        - RECTANGLE "Blur S", 393x852px, constraints left/top, radius 60px, stroke Style 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 393x852px, constraints left/top, radius 60px, stroke Style 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 393x852px, constraints left/top, radius 60px, stroke Style 7px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 393x852px, constraints left/top, radius 60px, stroke Style 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step2", 393x852px, constraints left/top
+        - RECTANGLE "Blur S", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 7px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 393x852px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=TaptoStart", 393x852px, constraints left/top
+        - FRAME "Double Click to Start Indicator", 151x100.67px, horizontal pad 0 0 0 0px gap 9px align max/center sizing W:fixed H:fixed, constraints right/center
+          - TEXT "Double Click to Start", 133x46px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 19px]
+          - RECTANGLE "Button Indicator", 9x100.67px, constraints left/top, radius 5/0/0/5px, fill #FFFFFF
+  - SECTION "iPhone 15 Pro Max", 2392x2254px
+    - COMPONENT_SET "SiriAnimationiPhone15ProMax", 2392x963px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=Start", 430x932px, constraints left/top
+        - RECTANGLE "Blur S", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=End", 430x932px, constraints left/top
+        - RECTANGLE "Blur S", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step1", 430x932px, constraints left/top
+        - RECTANGLE "Blur S", 430x932px, constraints left/top, radius 60px, stroke Style 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 430x932px, constraints left/top, radius 60px, stroke Style 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 430x932px, constraints left/top, radius 60px, stroke Style 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 430x932px, constraints left/top, radius 60px, stroke Style 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step2", 430x932px, constraints left/top
+        - RECTANGLE "Blur S", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 7px, effect [layer_blur 10px]
+        - RECTANGLE "Blur XL", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=TaptoStart", 430x932px, constraints left/top
+        - FRAME "Double Click to Start Indicator", 151x100.67px, horizontal pad 0 0 0 0px gap 9px align max/center sizing W:fixed H:fixed, constraints right/center
+          - TEXT "Double Click to Start", 133x46px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 19px]
+          - RECTANGLE "Button Indicator", 9x100.67px, constraints left/top, radius 5/0/0/5px, fill #FFFFFF
+    - COMPONENT_SET "SiriAnimationShakyPhone15ProMax", 2392x980px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=Start", 430x932px, constraints left/top
+        - RECTANGLE "Blur S", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 7px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#BC82F3 17% | #F5B9EA 24% | #8D99FF 35% | #AA6EEE 58% | #FF6778 70% | #FFBA71 81% | #C686FF 92%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=End", 430x932px, constraints left/top
+        - RECTANGLE "Blur S", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 7px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #FFBA71 19% | #FF6778 30% | #AA6EEE 42% | #8D99FF 64% | #F5B9EA 76% | #BC82F3 83%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step1", 430x932px, constraints left/top
+        - RECTANGLE "Blur S", 430x932px, constraints left/top, radius 60px, stroke Style 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 430x932px, constraints left/top, radius 60px, stroke Style 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 430x932px, constraints left/top, radius 60px, stroke Style 7px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 430x932px, constraints left/top, radius 60px, stroke Style 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=Step2", 430x932px, constraints left/top
+        - RECTANGLE "Blur S", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 2px, effect [layer_blur 2px]
+        - RECTANGLE "Blur M", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 5px, effect [layer_blur 4px]
+        - RECTANGLE "Blur L", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 7px, effect [layer_blur 10px]
+        - VECTOR "Blur XL", 430x932px, constraints left/top, radius 60px, stroke gradient_angular(#C686FF 8% | #F5B9EA 16% | #FFBA71 29% | #AA6EEE 32% | #FF6778 41% | #BC82F3 57% | #8D99FF 75%) 10px, effect [layer_blur 20px]
+      - COMPONENT "Property 1=TaptoStart", 430x932px, constraints left/top
+        - FRAME "Double Click to Start Indicator", 151x100.67px, horizontal pad 0 0 0 0px gap 9px align max/center sizing W:fixed H:fixed, constraints right/center
+          - TEXT "Double Click to Start", 133x46px, constraints left/top, fill #FFFFFF, text [SF Pro Regular, 19px]
+          - RECTANGLE "Button Indicator", 9x100.67px, constraints left/top, radius 5/0/0/5px, fill #FFFFFF
+
+Screen: Components / Component 1
+- COMPONENT_SET "Component 1", 462x808px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Default", 422x374px, constraints left/top, fill #FFFFFF
+    - FRAME "Keyboard - iPhone", 393x336px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints scale/scale, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [background_blur 100px, drop_shadow 4px offset 0 4 #00000040]
+      - FRAME "Accessory Bar", 393x45px, horizontal pad 3 0 3 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Autocorrection", 374x39px, horizontal pad 0 1 0 1px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Autocomplete Suggestion", 118x39px, constraints left/top, radius 17px
+            - TEXT "“The”", 118x39px, constraints scale/scale, fill #000000, text [Body/Regular]
+          - FRAME "Separator (Clear)", 5x25px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Separator", 1x25px, constraints left/top, fill #000000, opacity 0%
+          - FRAME "Autocomplete Suggestion", 118x39px, constraints left/top, radius 4.6px
+            - TEXT "the", 118x39px, constraints scale/scale, fill #000000, text [Body/Regular]
+          - FRAME "Separator", 5x25px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Separator", 1x25px, constraints left/top, fill #000000, opacity 10%
+          - FRAME "Autocomplete Suggestion", 118x39px, constraints left/top, radius 4.6px
+            - TEXT "to", 118x39px, constraints scale/scale, fill #000000, text [Body/Regular]
+      - RECTANGLE "Spacer", 393x5px, constraints left/top, fill #FFFF00, opacity 60%
+      - FRAME "Keyboard Layouts", 393x204px, constraints left/top
+        - FRAME "Row 4", 191x42px, constraints scale/bottom
+          - INSTANCE "Space", 191x42px, constraints scale/top, radius 4.6px, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - FRAME ".", 33.17x42px, constraints scale/bottom, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - FRAME "Space", 151.79x42px, constraints scale/bottom, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - FRAME "Return", 92x42px, constraints scale/bottom, radius 4.6px, fill #ABB0BAB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "Q", 92x42px, constraints left_right/center, fill #000000, text [Callout/Regular]
+        - FRAME "Keyboard Switch", 92x42px, constraints scale/bottom, radius 4.6px, fill #ABB0BAB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "ABC", 92x42px, constraints left_right/center, fill #000000, text [Callout/Regular]
+        - FRAME "Row 3", 269x42px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints scale/bottom
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+        - FRAME "Delete Key", 44x42px, constraints scale/bottom, radius 4.6px, fill #ABB0BAB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "Delete", 26x28px, constraints center/center, fill #000000, text [SF Pro Regular, 20px]
+        - FRAME "Shift Key", 44x42px, constraints scale/bottom, radius 4.6px, fill #ABB0BAB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "􀆝", 25x28px, constraints center/center, fill #000000, text [SF Pro Regular, 20px]
+        - FRAME "Row 2", 347x42px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints scale/bottom
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+        - FRAME "Row 1", 387x42px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints scale/bottom
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - FRAME "Emoji and Mic", 393x58px, horizontal pad 17 20 0 20px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Emoji", 26.92x26.92px, constraints left/top, fill #0000009E
+        - TEXT "Mike", 27x32px, constraints left/top, fill #0000009E, text [SF Pro Regular, 27px], [heading]
+      - FRAME "Home Indicator", 393x21px, constraints center/bottom
+        - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill #000000
+    - FRAME "Blur1", 422x25px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints scale/scale, radius 30/30/0/0px, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [layer_blur 9px]
+    - FRAME "Blur2", 422x25px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints scale/scale, radius 30/30/0/0px, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [layer_blur 25px]
+    - FRAME "Typ Field Siri", 373x40px, constraints scale/scale, radius 23px, fill #DDDDDD, stroke #FFFFFF1A 2px, effect [background_blur 4px, inner_shadow 4px offset 0 2 #FF9C26, inner_shadow 4px offset 0 1 #65BDEB, drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "Placeholder Label", 71x22px, constraints left/center, fill #C2C2C2, text [SF Pro Regular, 17px]
+      - VECTOR "Vector", 25x25px, constraints left/top, radius 0/0/0/0px, stroke AppleIntelligenceColor 2.5px, effect [drop_shadow 5px offset 0 1 #00000080]
+  - COMPONENT "Property 1=Variant2", 422x374px, constraints left/top, fill #FFFFFF
+    - FRAME "Keyboard - iPhone", 393x336px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints scale/scale, fill gradient_linear(#FF9C26 0% | #F14575 100%), effect [background_blur 100px, drop_shadow 4px offset 0 4 #00000040]
+      - FRAME "Accessory Bar", 393x45px, horizontal pad 3 0 3 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Autocorrection", 374x39px, horizontal pad 0 1 0 1px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Autocomplete Suggestion", 118x39px, constraints left/top, radius 17px
+            - TEXT "“The”", 118x39px, constraints scale/scale, fill #000000, text [Body/Regular]
+          - FRAME "Separator (Clear)", 5x25px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Separator", 1x25px, constraints left/top, fill #000000, opacity 0%
+          - FRAME "Autocomplete Suggestion", 118x39px, constraints left/top, radius 4.6px
+            - TEXT "the", 118x39px, constraints scale/scale, fill #000000, text [Body/Regular]
+          - FRAME "Separator", 5x25px, horizontal pad 0 2 0 2px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Separator", 1x25px, constraints left/top, fill #000000, opacity 10%
+          - FRAME "Autocomplete Suggestion", 118x39px, constraints left/top, radius 4.6px
+            - TEXT "to", 118x39px, constraints scale/scale, fill #000000, text [Body/Regular]
+      - RECTANGLE "Spacer", 393x5px, constraints left/top, fill #FFFF00, opacity 60%
+      - FRAME "Keyboard Layouts", 393x204px, constraints left/top
+        - FRAME "Row 4", 191x42px, constraints scale/bottom
+          - INSTANCE "Space", 191x42px, constraints scale/top, radius 4.6px, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - FRAME ".", 33.17x42px, constraints scale/bottom, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - FRAME "Space", 151.79x42px, constraints scale/bottom, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - FRAME "Return", 92x42px, constraints scale/bottom, radius 4.6px, fill #ABB0BAB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "Q", 92x42px, constraints left_right/center, fill #000000, text [Callout/Regular]
+        - FRAME "Keyboard Switch", 92x42px, constraints scale/bottom, radius 4.6px, fill #ABB0BAB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "ABC", 92x42px, constraints left_right/center, fill #000000, text [Callout/Regular]
+        - FRAME "Row 3", 269x42px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints scale/bottom
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.29x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+        - FRAME "Delete Key", 44x42px, constraints scale/bottom, radius 4.6px, fill #ABB0BAB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "Delete", 26x28px, constraints center/center, fill #000000, text [SF Pro Regular, 20px]
+        - FRAME "Shift Key", 44x42px, constraints scale/bottom, radius 4.6px, fill #ABB0BAB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "􀆝", 25x28px, constraints center/center, fill #000000, text [SF Pro Regular, 20px]
+        - FRAME "Row 2", 347x42px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints scale/bottom
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.22x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+        - FRAME "Row 1", 387x42px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints scale/bottom
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+          - INSTANCE "Key", 33.3x42px, constraints left/top, radius 4.6px, fill #FCFCFEB2, effect [drop_shadow 0px offset 0 1 #898A8D]
+            - TEXT "Q", 33x48px, constraints left_right/center, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - FRAME "Emoji and Mic", 393x58px, horizontal pad 17 20 0 20px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - VECTOR "Emoji", 26.92x26.92px, constraints left/top, fill #0000009E
+        - TEXT "Mike", 27x32px, constraints left/top, fill #0000009E, text [SF Pro Regular, 27px], [heading]
+      - FRAME "Home Indicator", 393x21px, constraints center/bottom
+        - RECTANGLE "Home Indicator", 139x5px, constraints center/bottom, radius 100px, fill #000000
+    - FRAME "Blur1", 422x25px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints scale/scale, radius 30/30/0/0px, fill gradient_linear(#65BDEB 0% | #F14575 100%), effect [layer_blur 9px]
+    - FRAME "Blur2", 422x25px, vertical pad 3 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints scale/scale, radius 30/30/0/0px, fill gradient_linear(#65BDEB4D 0% | #F14575 100%), stroke #000000 1px, effect [layer_blur 25px]
+    - FRAME "Typ Field Siri", 373x40px, constraints scale/scale, radius 23px, fill #DDDDDD, stroke #FFFFFF1A 2px, effect [background_blur 4px, inner_shadow 4px offset 0 2 #FF9C26, inner_shadow 4px offset 0 1 #65BDEB, drop_shadow 4px offset 0 4 #00000040]
+      - TEXT "Placeholder Label", 71x22px, constraints left/center, fill #C2C2C2, text [SF Pro Regular, 17px]
+      - VECTOR "Vector", 25x25px, constraints left/top, radius 0/0/0/0px, stroke AppleIntelligenceColor 2.5px, effect [drop_shadow 5px offset 0 1 #00000080]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,3233 @@
+---
+name: snow-fox-design-system-community
+source_file: Snow Fox Design System (Community)
+source_page: All pages (6): Thumbnail, Dark Components, Style Guide, --------WIP---------, Light Components, Assets
+generated_at: 2026-07-02T20:55:35.819453+00:00
+---
+
+# Snow Fox Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Snow Fox Design System (Community)
+- Figma page: All pages (6): Thumbnail, Dark Components, Style Guide, --------WIP---------, Light Components, Assets
+- Extracted at: 2026-07-02T20:55:35.819453+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- white: [#FFFFFF]
+- gray/100: [#858585]
+- green/transparent: [#63DEC733]
+- red/500: [#FB4646]
+- red/100: [#FDAAAA]
+- green/400: [#78E3CF]
+- green/500: [#63DEC7]
+- green/gradient: [gradient_linear(#63DEC7 0% | #3F9393 100%)]
+- Black: [#000000]
+- yellow/1000: [#BE8A04]
+- yellow/900: [#D79C05]
+- yellow/800: [#F0AE05]
+- yellow/700: [#FABA14]
+- yellow/600: [#FAC12D]
+- yellow/100: [#FDE6AA]
+- yellow/200: [#FDDF91]
+- yellow/300: [#FCD778]
+- yellow/400: [#FBD05F]
+- yellow/500: [#FBC846]
+- blue/transparent: [#4689FB33]
+- blue/1000: [#0448BE]
+- blue/900: [#0552D7]
+- blue/800: [#055BF0]
+- blue/700: [#1469FA]
+- blue/600: [#2D79FA]
+- blue/100: [#AAC9FD]
+- blue/200: [#91B9FD]
+- blue/300: [#79A9FC]
+- blue/400: [#5F99FB]
+- blue/500: [#4689FB]
+- gray/transparent: [#52525233]
+- gray/200: [#787878]
+- gray/300: [#6B6B6B]
+- gray/400: [#5E5E5E]
+- gray/1000: [#121212]
+- gray/900: [#1F1F1F]
+- gray/800: [#2B2B2B]
+- gray/700: [#383838]
+- gray/600: [#454545]
+- gray/500: [#525252]
+- light-gray/500: [#CCCCCC]
+- light-gray/600: [#E6E6E6]
+- red/1000: [#BE0404]
+- red/900: [#D70404]
+- red/800: [#F00505]
+- red/700: [#FA1414]
+- red/600: [#FB2D2D]
+- red/200: [#FD9191]
+- red/300: [#FC7878]
+- red/400: [#FC5F5F]
+- green/1000: [#22A088]
+- green/900: [#26B59A]
+- green/800: [#2BCAAC]
+- green/700: [#39D5B8]
+- green/600: [#4EDAC0]
+- green/100: [#B7F0E5]
+- green/200: [#A2EBDE]
+- green/300: [#8DE7D6]
+
+## Raw Colors (unstyled)
+- #121212: 4734 uses
+- #DBF0F0: 1130 uses
+- #222222: 222 uses
+- #3F9393: 173 uses
+- #737373: 137 uses
+- #98999A: 71 uses
+- #CECECE: 67 uses
+- #9747FF: 44 uses
+
+## Typography Tokens
+- SUBTITLE: PP Pangram Sans Extrabold (800), 28px / auto, tracking 0px
+- body: PP Pangram Sans Semibold (600), 16px / auto, tracking 0px
+- h5: PP Pangram Sans Bold (700), 18px / auto, tracking 0px
+- body/sm: PP Pangram Sans Semibold (600), 14px / auto, tracking 0px
+- body/xs-bold: PP Pangram Sans Semibold (600), 12px / auto, tracking 0px
+- sm-bold: PP Pangram Sans Bold (700), 14px / auto, tracking 0px
+- body/regular: PP Pangram Sans Regular (400), 16px / auto, tracking 0px
+- TITLE: PP Pangram Sans Extrabold (800), 200px / auto, tracking 0px
+- h6: PP Pangram Sans Extrabold (800), 16px / 32px, tracking 0px
+- body/xs: PP Pangram Sans Regular (400), 12px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 12px: 217 uses
+- Inter Regular, 9px: 114 uses
+- Inter Regular, 15px: 15 uses
+- Open Sans Bold, 12px: 12 uses
+- Open Sans Bold, 20px: 8 uses
+- Open Sans SemiBold, 9px: 8 uses
+- PP Pangram Sans Semibold, 7px: 6 uses
+- Inter Medium, 14px: 5 uses
+- Open Sans Bold, 16px: 4 uses
+- Inter Regular, 30px: 3 uses
+- PP Migra Extrabold, 120px: 3 uses
+
+## Typography Hierarchy
+- 200px - TITLE (PP Pangram Sans Extrabold)
+- 120px - PP Migra Extrabold, 120px (raw)
+- 30px - Inter Regular, 30px (raw)
+- 28px - SUBTITLE (PP Pangram Sans Extrabold)
+- 20px - Open Sans Bold, 20px (raw)
+- 18px - h5 (PP Pangram Sans Bold)
+- 16px - Open Sans Bold, 16px (raw)
+- 16px - body (PP Pangram Sans Semibold)
+- 16px - body/regular (PP Pangram Sans Regular)
+- 16px - h6 (PP Pangram Sans Extrabold)
+- 15px - Inter Regular, 15px (raw)
+- 14px - Inter Medium, 14px (raw)
+- 14px - body/sm (PP Pangram Sans Semibold)
+- 14px - sm-bold (PP Pangram Sans Bold)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Open Sans Bold, 12px (raw)
+- 12px - body/xs (PP Pangram Sans Regular)
+- 12px - body/xs-bold (PP Pangram Sans Semibold)
+- 9px - Inter Regular, 9px (raw)
+- 9px - Open Sans SemiBold, 9px (raw)
+- 7px - PP Pangram Sans Semibold, 7px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- shadow-red: [drop_shadow 4px offset 0 0 #FB4242]
+- shadow: [drop_shadow 4px offset 0 0 #39D5B8]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Table
+- DateInput
+- Calendar
+- Card
+- Indicator
+- Badge
+- Menu
+- MenuButton
+- Notification
+- Affix
+- Pagination
+- Slider
+- RadioGroup
+- Toggle
+- Checkbox
+- MultiSelect
+- Select
+- TextArea
+- NumberInput
+- PasswordInput
+- TextInput
+- Button
+- RTE
+- Datagrid
+- Tabs
+- KBD
+- TooltipButton
+- Code
+- Progress
+- SkeletonSample
+- Loader
+- Highlight
+- Accordion
+- MultiSelectMenu
+- SelectMenu
+- StrengthMeter
+- secure-window
+- no-access-window
+- finger-print-window
+- brightness
+- brightness-window
+- favourite-window
+- pause-window
+- upload-data-window
+- download-data-window
+- check-window
+- warning-window
+- reload-window
+- error-window
+- select-window
+- locked-window
+- search-window
+- energy-usage-window
+- app-window
+- rook
+- bishop
+- potion
+- spades
+- archery-match
+- pokeball
+- nintendo-switch
+- augmented-reality
+- no-smoking-circled
+- motorcycle
+- podcast
+- wifi-error
+- private-wifi
+- perspective-view
+- orthogonal-view
+- xray-view
+- 3d-select-solid
+- 3d-select-face
+- 3d-select-edge
+- three-points-circle
+- two-points-circle
+- one-point-circle
+- 3d-select-point
+- delivery-truck
+- package-lock
+- packages
+- package
+- delivery
+- truck-length
+- truck
+- search-engine
+- new-tab
+- thumbs-down
+- thumbs-up
+- consumable
+- scan-barcode
+- barcode
+- ip-address
+- pc-no-entry
+- pc-check
+- pc-warning
+- pc-firewall
+- wash
+- dishwasher
+- washing-machine
+- emoji-puzzled
+- puzzle
+- kanban-board
+- axes
+- internet
+- globe
+- www
+- quote
+- quote-message
+- open-book
+- restart
+- media-video-folder
+- media-image-folder
+- card-wallet
+- wallet
+- apple-wallet
+- piggy-bank
+- bank
+- snapchat
+- parking
+- hand-brake
+- on-rounded
+- off-rounded
+- 360-view
+- fx-rounded
+- hat
+- beach-bag-big
+- beach-bag
+- golf
+- health-shield
+- stroller
+- hospital-sign
+- pharmacy-circled-cross
+- pharmacy-squared-cross
+- pin
+- input-search
+- cursor-pointer
+- bin-half
+- bin-full
+- bin
+- grid-remove
+- grid-add
+- grid-minus
+- shield-alt
+- shield-question
+- shield-upload
+- shield-download
+- shield-eye
+- shield-search
+- shield-minus
+- shield-add
+- shield-broken
+- shield-loading
+- shield-check
+- shield-cross
+- shield-alert
+- bin-minus
+- bin-add
+- shield
+- historic-shield
+- navigator-alt
+- navigator
+- user-circle-alt
+- user-square-alt
+- octagon
+- settings-profiles
+- flare
+- twitter-verified-badge
+- verified-badge
+- heptagon
+- minus-hexagon
+- male
+- female
+- add-hexagon
+- hexagon-alt
+- hexagon
+- pentagon
+- priority-down
+- priority-up
+- scan-qr-code
+- qr-code
+- high-priority
+- rhombus
+- copyright
+- trademark
+- circle
+- weight-alt
+- weight
+- key-alt-remove
+- key-alt-minus
+- key-alt-plus
+- key-alt
+- key-alt-back
+- remove-media-video
+- remove-media-image
+- add-media-video
+- add-media-image
+- media-video-list
+- media-image-list
+- media-video
+- media-image
+- square
+- triangle
+- flower
+- palette
+- corner-top-left
+- corner-top-right
+- corner-bottom-right
+- corner-bottom-left
+- panorama-enlarge
+- panorama-reduce
+- mac-dock
+- import
+- metro
+- light-bulb-on
+- light-bulb-off
+- light-bulb
+- arrow-separate-vertical
+- arrow-separate
+- arrow-union-vertical
+- arrow-union
+- fast-arrow-down-box
+- fast-arrow-up-box
+- fast-arrow-left-box
+- cpu-warning
+- cpu
+- enlarge-round-arrow
+- left-round-arrow
+- right-round-arrow
+- fast-arrow-right-box
+- fast-bottom-circle
+- fast-top-circle
+- fast-left-circle
+- fast-right-circle
+- tower-warning
+- tower-check
+- tower-no-access
+- tower
+- translate
+- battery-50
+- battery-full
+- battery-75
+- battery-25
+- battery-warning
+- no-battery
+- mac-os-window
+- web-window-energy-consumption
+- web-window-close
+- multi-mac-os-window
+- multi-window
+- web-window
+- ev-rounded
+- ev-charge-alt
+- ev-plug-error
+- ev-plug-charging
+- ev-plug
+- ev-charge
+- ev-station
+- battery-charging
+- battery-empty
+- remove-selection
+- add-selection
+- 2x2-cell
+- remove-user
+- add-user
+- group
+- shopping-code-error
+- shopping-code-check
+- shopping-code
+- user-bag
+- user-cart
+- verified-user
+- user
+- planet-alt
+- moon-sat
+- planet-sat
+- planet
+- bicycle
+- nav-arrow-down
+- nav-arrow-left
+- nav-arrow-right
+- nav-arrow-up
+- de-compress
+- control-slider
+- accessibility-sign
+- accessibility-tech
+- half-cookie
+- cookie
+- safari
+- linux
+- apple-mac
+- windows
+- system-shut
+- system-restart
+- mac-control-key
+- mac-option-key
+- calculator
+- ios-settings
+- accessibility
+- finder
+- terminal-simple
+- terminal-outline
+- compress
+- camera
+- backward-15-seconds
+- forward-15-seconds
+- compact-disc
+- view-structure-up
+- view-structure-down
+- view-grid
+- album-open
+- album-list
+- music-1-add
+- music-1
+- snow
+- fog
+- thunderstorm
+- rain
+- snow-flake
+- wind
+- heavy-rain
+- cloud-sunny
+- cloud
+- sun-light
+- tram
+- train-outline
+- airplane-off
+- airplane
+- bus-stop
+- bus-outline
+- settings
+- rotate-camera-left
+- rotate-camera-right
+- maps-arrow-diagonal
+- maps-turn-back
+- maps-go-straight
+- maps-turn-left
+- maps-turn-right
+- maps-arrow-issue
+- maps-arrow
+- video-camera-off
+- video-camera
+- mouse-button-right
+- mouse-button-left
+- mouse-scroll-wheel
+- pc-mouse
+- switch-on-outline
+- switch-off-outline
+- layout-right
+- layout-left
+- heart
+- view-columns-3
+- view-columns-2
+- repeat-once
+- repeat
+- shuffle
+- calendar
+- playlist-play
+- arrow-down
+- arrow-up
+- long-arrow-up-left
+- long-arrow-up-right
+- long-arrow-right-up
+- long-arrow-left-up
+- long-arrow-left-down
+- long-arrow-right-down
+- long-arrow-down-left
+- long-arrow-down-right
+- arrow-right
+- arrow-left
+- people-rounded
+- instagram
+- album
+- album-carousel
+- divide-selection-2
+- divide-selection-1
+- selection
+- maximize
+- playlist
+- telegram-circled
+- telegram
+- pocket
+- facebook-squared
+- linkedin
+- twitter
+- facebook
+- medium
+- dribbble
+- google-circled
+- google
+- suggestion
+- remove-pin-alt
+- minus-pin-alt
+- add-pin-alt
+- pin-alt
+- gas
+- soap
+- type
+- dash-flag
+- white-flag
+- historic-shield-alt
+- sidebar-collapse
+- sidebar-expand
+- down-round-arrow
+- up-round-arrow
+- reduce-round-arrow
+- battery-indicator
+- file-not-found
+- table-rows
+- log-denied
+- log-in
+- log-out
+- table-2-columns
+- fx
+- hd
+- hd-display
+- hdr
+- gps
+- table
+- more-vert
+- more-horiz
+- link
+- arrow-right-circled
+- arrow-left-circled
+- arrow-up-circled
+- arrow-down-circled
+- triangle-flag-circle
+- lifebelt
+- flash-off
+- auto-flash
+- flash
+- tiktok
+- rss-feed-squared
+- rss-feed
+- youtube
+- timer-off
+- alarm
+- music-2-add
+- music-2
+- more-vert-circled-outline
+- more-horiz-circled-outline
+- map-issue
+- map
+- gas-tank-drop
+- gas-tank
+- airplane-helix-45deg
+- airplane-helix
+- airplane-rotation
+- car-outline
+- position
+- eject
+- triangle-flag-full
+- triangle-flag
+- page-flip
+- password-error
+- security-pass
+- input-field
+- password-cursor
+- password-pass
+- no-lock
+- lock-key
+- lock
+- half-moon
+- activity
+- pause-outline
+- language
+- gift
+- notes
+- skip-next-outline
+- skip-prev-outline
+- rewind-outline
+- forward-outline
+- play-outline
+- reduce
+- collapse
+- enlarge
+- expand
+- profile-circled
+- timer
+- clock-outline
+- playlist-add
+- open-vpn
+- google-home
+- glass-half
+- glass-half-alt
+- pizza-slice
+- apple-half-alt
+- apple-half
+- apple
+- donate
+- healthcare
+- home-hospital
+- air-conditioner
+- home-simple-door
+- home-simple
+- home-alt-slim-horiz
+- home-alt-slim
+- glass-empty
+- home-user
+- bbq
+- cracked-egg
+- egg
+- chocolate
+- home-alt
+- github-outline
+- fingerprint-circled-error
+- fingerprint-circled-ok
+- face-id
+- user-scan
+- voice-scan
+- voice-circled
+- voice-squared
+- voice-phone
+- fingerprint-phone
+- scanning
+- iris-scan
+- fingerprint-scan
+- fingerprint-squared
+- voice-circled-lock
+- fingerprint-circled-lock
+- fingerprint-circled
+- fingerprint
+- voice-error
+- voice-ok
+- voice
+- domotic-issue
+- home
+- orange-slice-alt
+- orange-slice
+- orange-half
+- box
+- git-branch
+- git-merge
+- git-commit
+- no-coin
+- coin
+- lamp
+- drawer
+- closet
+- box-iso
+- fridge
+- drag-hand-gesture
+- reminder-hand-gesture
+- one-finger-select-hand-gesture
+- swipe-right-gesture
+- swipe-left-gesture
+- swipe-down-gesture
+- swipe-two-fingers-left-gesture
+- swipe-two-fingers-right-gesture
+- swipe-two-fingers-down-gesture
+- swipe-two-fingers-up-gesture
+- swipe-up-gesture
+- single-tap-gesture
+- peace-hand
+- spock-hand-gesture
+- open-select-hand-gesture
+- github
+- gitlab-full
+- frame-alt
+- airplay
+- frame-alt-empty
+- missing-font
+- chat-bubble-check
+- short-pants
+- short-pants-alt
+- pants-alt
+- pants
+- network-left
+- network-right
+- network-alt
+- network
+- transition-bottom
+- transition-top
+- transition-left
+- transition-right
+- remove-keyframes
+- add-keyframes
+- keyframes
+- keyframes-couple
+- linear
+- ease-out-control-point
+- ease-out
+- ease-in-control-point
+- ease-in
+- ease-in-out
+- ease-curve-control-points
+- keyframe-align-vertical
+- keyframe-align-horizontal
+- keyframe-align-center
+- keyframe-position
+- remove-keyframe-alt
+- add-keyframe-alt
+- keyframe
+- remove-keyframe
+- add-keyframe
+- move-down
+- move-up
+- move-left
+- move-right
+- bounce-left
+- bounce-right
+- church-alt
+- cart-alt
+- remove-from-cart
+- add-to-cart
+- simple-cart
+- oxygen
+- carbon
+- nitrogen
+- bonfire
+- fire-flame
+- fluorine
+- hydrogen
+- test-tube
+- atom
+- round-flask
+- flask
+- magnet-energy
+- magnet
+- cart
+- bag
+- shopping-bag-alt
+- shopping-bag-issue
+- shopping-bag-check
+- shopping-bag-arrow-up
+- shopping-bag-arrow-down
+- shopping-bag-remove
+- shopping-bag-add
+- shopping-bag
+- small-shop-alt
+- small-shop
+- shop-alt
+- shop
+- church
+- hospital
+- basketball-alt
+- basketball
+- printing-page
+- printer-alt
+- printer
+- refresh-circular
+- eye-alt
+- eye-close
+- tunnel
+- garage
+- farm
+- oil-industry
+- industry
+- city
+- building
+- union-alt
+- union-horiz-alt
+- creative-commons
+- remove-square
+- minus-square
+- add-square
+- cut
+- scissor-alt
+- cut-alt
+- scissor
+- page-edit
+- page-search
+- doc-star-alt
+- doc-search-alt
+- page-star
+- doc-star
+- area-search
+- doc-search
+- zoom-out
+- zoom-in
+- chat-lines
+- chat-remove
+- chat-add
+- bubble-star
+- bubble-upload
+- bubble-search
+- bubble-download
+- bubble-income
+- bubble-outcome
+- bubble-warning
+- bubble-error
+- remove-database-script
+- add-database-script
+- database-script
+- database-star
+- database-backup
+- database-monitor
+- database-stats
+- database-export
+- database-restore
+- database-settings
+- db-search
+- db-warning
+- db-error
+- db-check
+- db
+- cloud-book-alt
+- crop-rotate-br
+- crop-rotate-tl
+- crop-rotate-bl
+- crop-rotate-tr
+- ruler-combine
+- server-connection
+- align-top-box
+- align-bottom-box
+- align-right-box
+- text-size
+- search-font
+- text
+- border-left
+- border-right
+- border-top
+- border-bottom
+- border-inner
+- scale-frame-reduce
+- scale-frame-enlarge
+- border-out
+- iconoir
+- figma
+- asana
+- google-docs
+- trello
+- align-left-box
+- position-align
+- border-bl
+- border-br
+- border-tr
+- border-tl
+- center-align
+- combine
+- intersect-alt
+- substract
+- exclude
+- intersect
+- union
+- horiz-distribution-right
+- horiz-distribution-left
+- wrap-text
+- line-space
+- move-ruler
+- ruler-remove
+- ruler-add
+- ruler
+- expand-lines
+- compress-lines
+- phone-delete
+- phone-remove
+- phone-add
+- phone-income
+- phone-disabled
+- phone-outcome
+- multiple-pages
+- multiple-pages-delete
+- multiple-pages-remove
+- multiple-pages-add
+- multiple-pages-empty
+- archive
+- frame-tool
+- undo
+- undo-action
+- redo-action
+- undo-circle
+- redo-circle
+- redo
+- question-mark-circle
+- chat-bubble-translate
+- chat-bubble-question
+- headset-issue
+- headset-charge
+- headset
+- headset-help
+- multi-bubble
+- chat-bubble-empty
+- chat-bubble-warning
+- chat-bubble-error
+- chat-bubble
+- bookmark-empty
+- handbag
+- large-suitcase
+- eye-off
+- smartphone-device
+- sandals
+- scarf
+- collage-frame
+- upload-square-outline
+- upload
+- attachment
+- phone-paused
+- hesa-warning-outline
+- message-alert
+- message-text
+- message
+- phone
+- edit
+- edit-pencil
+- cable-rounded
+- wifi-rounded
+- antenna-signal-rounded
+- bluetooth-rounded
+- bluetooth
+- warning-triangle-outline
+- warning-circled-outline
+- precision-tool
+- emoji-think-left
+- emoji-think-right
+- emoji-quite
+- emoji-sing-left
+- emoji-sing-left-note
+- emoji-sing-right
+- emoji-surprise-alt
+- emoji-surprise
+- emoji-talking-angry
+- emoji-talking-happy
+- emoji-ball
+- tennis-ball-alt
+- tennis-ball
+- emoji-really
+- emoji-satisfied
+- emoji-look-bottom
+- emoji-look-top
+- emoji-look-left
+- emoji-look-right
+- emoji-blink-left
+- emoji-blink-right
+- emoji-sad
+- emoji
+- unity 7
+- unity
+- code
+- no-smoking
+- smoking
+- mask-square
+- copy
+- umbrella-full
+- antenna-signal
+- antenna-off
+- antenna
+- color-picker
+- color-picker-empty
+- add-lens
+- plug-type-g
+- plug-type-l
+- plug-type-c
+- plug-type-a
+- lens
+- color-filter
+- stat-down
+- stat-up
+- graph-down
+- graph-up
+- eye-empty
+- wristwatch
+- hourglass
+- movie
+- page
+- remove-page
+- droplet-half
+- google-drive-warning
+- google-drive-check
+- google-drive-sync
+- google-drive
+- google-one
+- cloud-check
+- cloud-desync
+- cloud-sync
+- cloud-error
+- cloud-download
+- cloud-upload
+- prohibition
+- trash
+- cinema-old
+- check-circled-outline
+- double-check
+- check
+- glasses
+- text-alt
+- report-columns
+- stats-report
+- settings-cloud
+- stats-square-down
+- pound
+- yen
+- euro
+- receive-dollars
+- receive-yens
+- receive-pounds
+- receive-euros
+- send-yens
+- send-pounds
+- send-euros
+- send-dollars
+- dollar
+- yen-square
+- euro-square
+- money-square
+- stats-square-up
+- font-size
+- gym
+- refresh-double
+- refresh
+- wifi-off
+- wifi-issue
+- wifi-signal-none
+- wifi
+- tv-issue
+- apple-imac-2021-side
+- computer
+- bookmark-circled
+- laptop-charging
+- laptop-issue
+- laptop-fix
+- laptop
+- 4k-display
+- modern-tv-4k
+- mail-opened
+- sound-high
+- dashboard-dots
+- dashboard-speed
+- dashboard
+- sound-low
+- mic-mute
+- data-transfer-warning
+- data-transfer-down
+- data-transfer-up
+- data-transfer-check
+- data-transfer-both
+- mic-warning
+- mic-check
+- mic-remove
+- mic-add
+- mic-speaking
+- mic
+- sound-off
+- sound-min
+- bell-off
+- facetime
+- app-notification
+- bell-notification
+- bell
+- mail
+- lot-of-cash
+- cash
+- credit-card-2
+- no-credit-card
+- credit-card
+- question-mark
+- bold
+- filter-alt
+- filter
+- label-outline
+- remove-folder
+- add-folder
+- folder-alert
+- folder
+- reports
+- percentage-square
+- sea-and-sun
+- trophy
+- medal
+- 1st-medal
+- leaderboard-star
+- leaderboard
+- trekking
+- skateboarding
+- skateboard
+- Fishing
+- bowling-ball
+- waist
+- math-book
+- bookmark-book
+- book-stack
+- locked-book
+- favourite-book
+- book
+- yoga
+- boxing-glove
+- stretching
+- treadmill
+- running
+- cycling
+- walking
+- rings
+- archery
+- arrow-archery
+- football-ball
+- football
+- swimming
+- sea-waves
+- soccer-ball
+- percentage-round
+- percentage
+- usb
+- electronics-chip
+- codepen
+- code-brackets-square
+- code-brackets
+- apple-swift
+- electronics-transistor
+- server
+- hard-drive
+- apple-imac-2021
+
+## Component Specs
+- Table: size 716x171px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [body, h5] | variants: Variant: Default/Striped; HasFooter: false/true
+- DateInput (Dark Components): size 170x74px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body] | variants: Variant: Default/Filled
+- DateInput (Dark Components): size 320x74px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body] | variants: Variant: CalendarOpen/Default; Filled: false/true; Range: false/true
+- Calendar (Dark Components): size 232x244px, radius 4px, vertical layout, padding 4 4 4 4px, gap 8px, align center/center, sizing W:fixed H:fixed, fill gray/700, text [body/sm, body/xs-bold, sm-bold] | variants: Variants: Default/Disabled/Hovered/Range/Selected
+- Card (Dark Components): size 340x346px, radius 4px, vertical layout, padding 20 20 20 20px, gap 32px, sizing W:fixed H:fixed, fill gray/900, text [body, Open Sans Bold, 28px] | variants: Variant: Default/HorizontalCard/VerticalCard; NoBackground: false/true
+- Indicator: size 64x64px, radius 4px, fill image(hash: f0a3376169c4da5e78338d8bb6dc30ecc0564f18), text [Open Sans SemiBold, 9px] | variants: Position: bottom-left/bottom-right/top-left/top-right
+- Badge (Dark Components): size 88x24px, radius 12px, horizontal layout, padding 4 20 4 20px, gap 10px, sizing W:fixed H:fixed, fill gray/100, text [sm-bold] | variants: Variant: Danger/Default/Success/Warning
+- Menu (Dark Components): size 160x220px, radius 4px, vertical layout, padding 12 12 12 12px, gap 12px, sizing W:fixed H:fixed, fill gray/700, text [body/xs-bold, Open Sans Bold, 12px] | variants: Variant: Default/Hovered
+- MenuButton (Dark Components): size 32x32px, radius 4px, horizontal layout, padding 4 4 4 4px, gap 10px, sizing W:fixed H:fixed, fill gray/700 | variants: Variant: Default/Open
+- Notification: size 421x86px, fill #FFFFFF, text [body/regular, h6] | variants: Variant: Error/Info
+- Affix (Dark Components): size 164x48px, radius 4px, horizontal layout, padding 12 20 12 20px, gap 12px, align min/center, sizing W:fixed H:fixed, fill green/500, text [body] | variants: Variant: Collapsed/Default
+- Pagination: size 366x42px, horizontal layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, text [body] | variants: Variant: Default/FirstPage/LastPage/WithEdges
+- Slider: size 240x70px, vertical layout, padding 0 0 0 0px, gap 20px, sizing W:fixed H:fixed, text [body/xs-bold, body] | variants: Property 1: Default/Disabled
+- RadioGroup: size 333x134px, vertical layout, padding 0 0 0 0px, gap 20px, sizing W:fixed H:fixed, text [body/sm, body] | variants: Variant: Default/Selected
+- Toggle (Dark Components): size 58x32px, radius 20px, fill gray/700 | variants: Variant: Checked/Default
+- Checkbox: size 290x28px, horizontal layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed, text [body] | variants: Variant: Checked/Default
+- MultiSelect (Dark Components): size 374x74px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body] | variants: Variants: Default/Error/Filled; Value1: Javascript; Value2: Python
+- Select (Dark Components): size 200x74px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body] | variants: Variant: Default/Error/Filled
+- TextArea: size 300x130px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body] | variants: Variant: Default/Error/Focused/Variant4; Disabled: false
+- NumberInput (Dark Components): size 300x74px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body] | variants: Variant: Default/Error/NoControls/Variant5; Disabled: false/true
+- PasswordInput (Dark Components): size 300x118px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body/xs, body] | variants: Variant: Default/Error/Visible; StrengthMeterOpen: false/true; Disabled: false/true
+- TextInput (Dark Components): size 300x74px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body] | variants: State: Default/Disabled/Error/Focused; Radius: Default/lg/md/xl; IconPosition: end/false/start
+- Button (Dark Components): size 102x48px, radius 4px, horizontal layout, padding 12 24 12 24px, gap 12px, align min/center, sizing W:fixed H:fixed, fill green/500, text [body] | variants: Variant: Filled/Gradient/Outline/Text; Radius: lg/md/sm/xl; Uppercase: false/true; Disabled: false/true; Loading: false/true; HasIcon: false/true; IsHovered: false/true; Focused: false/true
+- RTE: size 1068x381px, vertical layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed, text [PP Pangram Sans Medium, 16px, h5, PP Pangram Sans Semibold, 7px]
+- Datagrid: size 1199x635px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Inter Medium, 14px, body, h5]
+- Tabs: size 323x34px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [body]
+- KBD: size 176x26px, horizontal layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [body]
+- TooltipButton: size 165x48px, radius 4px, fill green/500, text [body/sm, body]
+- Code: size 408x154px, horizontal layout, padding 20 20 20 20px, gap 48px, sizing W:fixed H:fixed, fill gray/700, text [body]
+- Progress: size 178x8px, fill #FFFFFF
+- SkeletonSample: size 178x164px, vertical layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed
+- Loader: size 40x40.24px, radius 4px, horizontal layout, padding 8 8 8 8px, gap 10px, align center/center, sizing W:fixed H:fixed, fill gray/700
+- Highlight: size 548x36px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill green/transparent, text [body]
+- Accordion: size 416x241px, vertical layout, padding 0 0 0 0px, gap 20px, sizing W:fixed H:fixed, text [body/regular, Open Sans Bold, 16px, h5]
+- MultiSelectMenu: size 374x156px, radius 4px, vertical layout, padding 4 4 4 4px, gap 4px, sizing W:fixed H:fixed, fill gray/700, text [body]
+- SelectMenu: size 200x118px, radius 4px, vertical layout, padding 4 4 4 4px, gap 4px, sizing W:fixed H:fixed, fill gray/700, text [body]
+- StrengthMeter: size 211x156px, radius 4px, vertical layout, padding 12 12 12 12px, gap 16px, sizing W:fixed H:fixed, fill gray/700, text [body/xs]
+- secure-window: size 24x24px, fill gray/800
+- no-access-window: size 24x24px, fill gray/800
+- finger-print-window: size 24x24px, fill gray/800
+- brightness: size 24x24px, fill gray/800
+- brightness-window: size 24x24px, fill gray/800
+- favourite-window: size 24x24px, fill gray/800
+- pause-window: size 24x24px, fill gray/800
+- upload-data-window: size 24x24px, fill gray/800
+- download-data-window: size 24x24px, fill gray/800
+- check-window: size 24x24px, fill gray/800
+- warning-window: size 24x24px, fill gray/800
+- reload-window: size 24x24px, fill gray/800
+- error-window: size 24x24px, fill gray/800
+- select-window: size 24x24px, fill gray/800
+- locked-window: size 24x24px, fill gray/800
+- search-window: size 24x24px, fill gray/800
+- energy-usage-window: size 24x24px, fill gray/800
+- app-window: size 24x24px, fill gray/800
+- rook: size 24x24px, fill gray/800
+- bishop: size 24x24px, fill gray/800
+- potion: size 24x24px, fill gray/800
+- spades: size 24x24px, fill gray/800
+- archery-match: size 24x24px, fill gray/800
+- pokeball: size 24x24px, fill gray/800
+- nintendo-switch: size 24x24px, fill gray/800
+- augmented-reality: size 24x24px, fill gray/800
+- no-smoking-circled: size 24x24px, fill gray/800
+- motorcycle: size 24x24px, fill gray/800
+- podcast: size 24x24px, fill gray/800
+- wifi-error: size 24x24px, fill gray/800
+- private-wifi: size 24x24px, fill gray/800
+- perspective-view: size 24x24px, fill gray/800
+- orthogonal-view: size 24x24px, fill gray/800
+- xray-view: size 24x24px, fill gray/800
+- 3d-select-solid: size 24x24px, fill gray/800
+- 3d-select-face: size 24x24px, fill gray/800
+- 3d-select-edge: size 24x24px, fill gray/800
+- three-points-circle: size 24x24px, fill gray/800
+- two-points-circle: size 24x24px, fill gray/800
+- one-point-circle: size 24x24px, fill gray/800
+- 3d-select-point: size 24x24px, fill gray/800
+- delivery-truck: size 24x24px, fill gray/800
+- package-lock: size 24x24px, fill gray/800
+- packages: size 24x24px, fill gray/800
+- package: size 24x24px, fill gray/800
+- delivery: size 24x24px, fill gray/800
+- truck-length: size 24x24px, fill gray/800
+- truck: size 24x24px, fill gray/800
+- search-engine: size 24x24px, fill gray/800
+- new-tab: size 24x24px, fill gray/800
+- thumbs-down: size 24x24px, fill gray/800
+- thumbs-up: size 24x24px, fill gray/800
+- consumable: size 24x24px, fill gray/800
+- scan-barcode: size 24x24px, fill gray/800
+- barcode: size 24x24px, fill gray/800
+- ip-address: size 24x24px, fill gray/800
+- pc-no-entry: size 24x24px, fill gray/800
+- pc-check: size 24x24px, fill gray/800
+- pc-warning: size 24x24px, fill gray/800
+- pc-firewall: size 24x24px, fill gray/800
+- wash: size 24x24px, fill gray/800
+- dishwasher: size 24x24px, fill gray/800
+- washing-machine: size 24x24px, fill gray/800
+- emoji-puzzled: size 24x24px, fill gray/800
+- puzzle: size 24x24px, fill gray/800
+- kanban-board: size 24x24px, fill gray/800
+- axes: size 24x24px, fill gray/800
+- internet: size 24x24px, fill gray/800
+- globe: size 24x24px, fill gray/800
+- www: size 24x24px, fill gray/800
+- quote: size 24x24px, fill gray/800
+- quote-message: size 24x24px, fill gray/800
+- open-book: size 24x24px, fill gray/800
+- restart: size 24x24px, fill gray/800
+- media-video-folder: size 24x24px, fill gray/800
+- media-image-folder: size 24x24px, fill gray/800
+- card-wallet: size 24x24px, fill gray/800
+- wallet: size 24x24px, fill gray/800
+- apple-wallet: size 24x24px, fill gray/800
+- piggy-bank: size 24x24px, fill gray/800
+- bank: size 24x24px, fill gray/800
+- snapchat: size 24x24px, fill gray/800
+- parking: size 24x24px, fill gray/800
+- hand-brake: size 24x24px, fill gray/800
+- on-rounded: size 24x24px, fill gray/800
+- off-rounded: size 24x24px, fill gray/800
+- 360-view: size 24x24px, fill gray/800
+- fx-rounded: size 24x24px, fill gray/800
+- hat: size 24x24px, fill gray/800
+- beach-bag-big: size 24x24px, fill gray/800
+- beach-bag: size 24x24px, fill gray/800
+- golf: size 24x24px, fill gray/800
+- health-shield: size 24x24px, fill gray/800
+- stroller: size 24x24px, fill gray/800
+- hospital-sign: size 24x24px, fill gray/800
+- pharmacy-circled-cross: size 24x24px, fill gray/800
+- pharmacy-squared-cross: size 24x24px, fill gray/800
+- pin: size 24x24px, fill gray/800
+- input-search: size 24x24px, fill gray/800
+- cursor-pointer: size 24x24px, fill gray/800
+- bin-half: size 24x24px, fill gray/800
+- bin-full: size 24x24px, fill gray/800
+- bin: size 24x24px, fill gray/800
+- grid-remove: size 24x24px, fill gray/800
+- grid-add: size 24x24px, fill gray/800
+- grid-minus: size 24x24px, fill gray/800
+- shield-alt: size 24x24px, fill gray/800
+- shield-question: size 24x24px, fill gray/800
+- shield-upload: size 24x24px, fill gray/800
+- shield-download: size 24x24px, fill gray/800
+- shield-eye: size 24x24px, fill gray/800
+- shield-search: size 24x24px, fill gray/800
+- shield-minus: size 24x24px, fill gray/800
+- shield-add: size 24x24px, fill gray/800
+- shield-broken: size 24x24px, fill gray/800
+- shield-loading: size 24x24px, fill gray/800
+- shield-check: size 24x24px, fill gray/800
+- shield-cross: size 24x24px, fill gray/800
+- shield-alert: size 24x24px, fill gray/800
+- bin-minus: size 24x24px, fill gray/800
+- bin-add: size 24x24px, fill gray/800
+- shield: size 24x24px, fill gray/800
+- historic-shield: size 24x24px, fill gray/800
+- navigator-alt: size 24x24px, fill gray/800
+- navigator: size 24x24px, fill gray/800
+- user-circle-alt: size 24x24px, fill gray/800
+- user-square-alt: size 24x24px, fill gray/800
+- octagon: size 24x24px, fill gray/800
+- settings-profiles: size 24x24px, fill gray/800
+- flare: size 24x24px, fill gray/800
+- twitter-verified-badge: size 24x24px, fill gray/800
+- verified-badge: size 24x24px, fill gray/800
+- heptagon: size 24x24px, fill gray/800
+- minus-hexagon: size 24x24px, fill gray/800
+- male: size 24x24px, fill gray/800
+- female: size 24x24px, fill gray/800
+- add-hexagon: size 24x24px, fill gray/800
+- hexagon-alt: size 24x24px, fill gray/800
+- hexagon: size 24x24px, fill gray/800
+- pentagon: size 24x24px, fill gray/800
+- priority-down: size 24x24px, fill gray/800
+- priority-up: size 24x24px, fill gray/800
+- scan-qr-code: size 24x24px, fill gray/800
+- qr-code: size 24x24px, fill gray/800
+- high-priority: size 24x24px, fill gray/800
+- rhombus: size 24x24px, fill gray/800
+- copyright: size 24x24px, fill gray/800
+- trademark: size 24x24px, fill gray/800
+- circle: size 24x24px, fill gray/800
+- weight-alt: size 24x24px, fill gray/800
+- weight: size 24x24px, fill gray/800
+- key-alt-remove: size 24x24px, fill gray/800
+- key-alt-minus: size 24x24px, fill gray/800
+- key-alt-plus: size 24x24px, fill gray/800
+- key-alt: size 24x24px, fill gray/800
+- key-alt-back: size 24x24px, fill gray/800
+- remove-media-video: size 24x24px, fill gray/800
+- remove-media-image: size 24x24px, fill gray/800
+- add-media-video: size 24x24px, fill gray/800
+- add-media-image: size 24x24px, fill gray/800
+- media-video-list: size 24x24px, fill gray/800
+- media-image-list: size 24x24px, fill gray/800
+- media-video: size 24x24px, fill gray/800
+- media-image: size 24x24px, fill gray/800
+- square: size 24x24px, fill gray/800
+- triangle: size 24x24px, fill gray/800
+- flower: size 24x24px, fill gray/800
+- palette: size 24x24px, fill gray/800
+- corner-top-left: size 24x24px, fill gray/800
+- corner-top-right: size 24x24px, fill gray/800
+- corner-bottom-right: size 24x24px, fill gray/800
+- corner-bottom-left: size 24x24px, fill gray/800
+- panorama-enlarge: size 24x24px, fill gray/800
+- panorama-reduce: size 24x24px, fill gray/800
+- mac-dock: size 24x24px, fill gray/800
+- import: size 24x24px, fill gray/800
+- metro: size 24x24px, fill gray/800
+- light-bulb-on: size 24x24px, fill gray/800
+- light-bulb-off: size 24x24px, fill gray/800
+- light-bulb: size 24x24px, fill gray/800
+- arrow-separate-vertical: size 24x24px
+- arrow-separate: size 24x24px, fill gray/800
+- arrow-union-vertical: size 24x24px, fill gray/800
+- arrow-union: size 24x24px, fill gray/800
+- fast-arrow-down-box: size 24x24px, fill gray/800
+- fast-arrow-up-box: size 24x24px, fill gray/800
+- fast-arrow-left-box: size 24x24px, fill gray/800
+- cpu-warning: size 24x24px, fill gray/800
+- cpu: size 24x24px, fill gray/800
+- enlarge-round-arrow: size 24x24px, fill gray/800
+- left-round-arrow: size 24x24px, fill gray/800
+- right-round-arrow: size 24x24px, fill gray/800
+- fast-arrow-right-box: size 24x24px, fill gray/800
+- fast-bottom-circle: size 24x24px, fill gray/800
+- fast-top-circle: size 24x24px, fill gray/800
+- fast-left-circle: size 24x24px, fill gray/800
+- fast-right-circle: size 24x24px, fill gray/800
+- tower-warning: size 24x24px, fill gray/800
+- tower-check: size 24x24px, fill gray/800
+- tower-no-access: size 24x24px, fill gray/800
+- tower: size 24x24px, fill gray/800
+- translate: size 24x24px, fill gray/800
+- battery-50: size 24x24px, fill gray/800
+- battery-full: size 24x24px, fill gray/800
+- battery-75: size 24x24px, fill gray/800
+- battery-25: size 24x24px, fill gray/800
+- battery-warning: size 24x24px, fill gray/800
+- no-battery: size 24x24px, fill gray/800
+- mac-os-window: size 24x24px, fill gray/800
+- web-window-energy-consumption: size 24x24px, fill gray/800
+- web-window-close: size 24x24px, fill gray/800
+- multi-mac-os-window: size 24x24px, fill gray/800
+- multi-window: size 24x24px, fill gray/800
+- web-window: size 24x24px, fill gray/800
+- ev-rounded: size 24x24px, fill gray/800
+- ev-charge-alt: size 24x24px, fill gray/800
+- ev-plug-error: size 24x24px, fill gray/800
+- ev-plug-charging: size 24x24px, fill gray/800
+- ev-plug: size 24x24px, fill gray/800
+- ev-charge: size 24x24px, fill gray/800
+- ev-station: size 24x24px, fill gray/800
+- battery-charging: size 24x24px, fill gray/800
+- battery-empty: size 24x24px, fill gray/800
+- remove-selection: size 24x24px, fill gray/800
+- add-selection: size 24x24px, fill gray/800
+- 2x2-cell: size 24x24px, fill gray/800
+- remove-user: size 24x24px, fill gray/800
+- add-user: size 24x24px, fill gray/800
+- group: size 24x24px, fill gray/800
+- shopping-code-error: size 24x24px, fill gray/800
+- shopping-code-check: size 24x24px, fill gray/800
+- shopping-code: size 24x24px, fill gray/800
+- user-bag: size 24x24px, fill gray/800
+- user-cart: size 24x24px, fill gray/800
+- verified-user: size 24x24px, fill gray/800
+- user: size 24x24px, fill gray/800
+- planet-alt: size 24x24px, fill gray/800
+- moon-sat: size 24x24px, fill gray/800
+- planet-sat: size 24x24px, fill gray/800
+- planet: size 24x24px, fill gray/800
+- bicycle: size 24x24px, fill gray/800
+- nav-arrow-down: size 24x24px, fill gray/800
+- nav-arrow-left: size 24x24px
+- nav-arrow-right: size 24x24px
+- nav-arrow-up: size 24x24px, fill gray/800
+- de-compress: size 24x24px, fill gray/800
+- control-slider: size 24x24px, fill gray/800
+- accessibility-sign: size 24x24px, fill gray/800
+- accessibility-tech: size 24x24px, fill gray/800
+- half-cookie: size 24x24px, fill gray/800
+- cookie: size 24x24px, fill gray/800
+- safari: size 24x24px, fill gray/800
+- linux: size 24x24px, fill gray/800
+- apple-mac: size 24x24px, fill gray/800
+- windows: size 24x24px, fill gray/800
+- system-shut: size 24x24px, fill gray/800
+- system-restart: size 24x24px, fill gray/800
+- mac-control-key: size 24x24px, fill gray/800
+- mac-option-key: size 24x24px, fill gray/800
+- calculator: size 24x24px, fill gray/800
+- ios-settings: size 24x24px, fill gray/800
+- accessibility: size 24x24px, fill gray/800
+- finder: size 24x24px, fill gray/800
+- terminal-simple: size 24x24px, fill gray/800
+- terminal-outline: size 24x24px, fill gray/800
+- compress: size 24x24px, fill gray/800
+- camera: size 24x24px, fill gray/800
+- backward-15-seconds: size 24x24px, fill gray/800
+- forward-15-seconds: size 24x24px, fill gray/800
+- compact-disc: size 24x24px, fill gray/800
+- view-structure-up: size 24x24px, fill gray/800
+- view-structure-down: size 24x24px, fill gray/800
+- view-grid: size 24x24px, fill gray/800
+- album-open: size 24x24px, fill gray/800
+- album-list: size 24x24px, fill gray/800
+- music-1-add: size 24x24px, fill gray/800
+- music-1: size 24x24px, fill gray/800
+- snow: size 24x24px, fill gray/800
+- fog: size 24x24px, fill gray/800
+- thunderstorm: size 24x24px, fill gray/800
+- rain: size 24x24px, fill gray/800
+- snow-flake: size 24x24px, fill gray/800
+- wind: size 24x24px, fill gray/800
+- heavy-rain: size 24x24px, fill gray/800
+- cloud-sunny: size 24x24px, fill gray/800
+- cloud: size 24x24px, fill gray/800
+- sun-light: size 24x24px, fill gray/800
+- tram: size 24x24px, fill gray/800
+- train-outline: size 24x24px, fill gray/800
+- airplane-off: size 24x24px, fill gray/800
+- airplane: size 24x24px, fill gray/800
+- bus-stop: size 24x24px, fill gray/800
+- bus-outline: size 24x24px, fill gray/800
+- settings: size 24x24px, fill gray/800
+- rotate-camera-left: size 24x24px, fill gray/800
+- rotate-camera-right: size 24x24px, fill gray/800
+- maps-arrow-diagonal: size 24x24px, fill gray/800
+- maps-turn-back: size 24x24px, fill gray/800
+- maps-go-straight: size 24x24px, fill gray/800
+- maps-turn-left: size 24x24px, fill gray/800
+- maps-turn-right: size 24x24px, fill gray/800
+- maps-arrow-issue: size 24x24px, fill gray/800
+- maps-arrow: size 24x24px, fill gray/800
+- video-camera-off: size 24x24px, fill gray/800
+- video-camera: size 24x24px, fill gray/800
+- mouse-button-right: size 24x24px, fill gray/800
+- mouse-button-left: size 24x24px, fill gray/800
+- mouse-scroll-wheel: size 24x24px, fill gray/800
+- pc-mouse: size 24x24px, fill gray/800
+- switch-on-outline: size 24x24px, fill gray/800
+- switch-off-outline: size 24x24px, fill gray/800
+- layout-right: size 24x24px, fill gray/800
+- layout-left: size 24x24px, fill gray/800
+- heart: size 24x24px, fill gray/800
+- view-columns-3: size 24x24px, fill gray/800
+- view-columns-2: size 24x24px, fill gray/800
+- repeat-once: size 24x24px, fill gray/800
+- repeat: size 24x24px, fill gray/800
+- shuffle: size 24x24px, fill gray/800
+- calendar: size 24x24px
+- playlist-play: size 24x24px, fill gray/800
+- arrow-down: size 24x24px, fill gray/800
+- arrow-up: size 24x24px, fill gray/800
+- long-arrow-up-left: size 24x24px, fill gray/800
+- long-arrow-up-right: size 24x24px, fill gray/800
+- long-arrow-right-up: size 24x24px, fill gray/800
+- long-arrow-left-up: size 24x24px, fill gray/800
+- long-arrow-left-down: size 24x24px, fill gray/800
+- long-arrow-right-down: size 24x24px, fill gray/800
+- long-arrow-down-left: size 24x24px, fill gray/800
+- long-arrow-down-right: size 24x24px, fill gray/800
+- arrow-right: size 24x24px, fill gray/800
+- arrow-left: size 24x24px, fill gray/800
+- people-rounded: size 24x24px, fill gray/800
+- instagram: size 24x24px, fill gray/800
+- album: size 24x24px, fill gray/800
+- album-carousel: size 24x24px, fill gray/800
+- divide-selection-2: size 24x24px, fill gray/800
+- divide-selection-1: size 24x24px, fill gray/800
+- selection: size 24x24px, fill gray/800
+- maximize: size 24x24px, fill gray/800
+- playlist: size 24x24px, fill gray/800
+- telegram-circled: size 24x24px, fill gray/800
+- telegram: size 24x24px, fill gray/800
+- pocket: size 24x24px, fill gray/800
+- facebook-squared: size 24x24px, fill gray/800
+- linkedin: size 24x24px, fill gray/800
+- twitter: size 24x24px, fill gray/800
+- facebook: size 24x24px, fill gray/800
+- medium: size 24x24px, fill gray/800
+- dribbble: size 24x24px, fill gray/800
+- google-circled: size 24x24px, fill gray/800
+- google: size 24x24px, fill gray/800
+- suggestion: size 24x24px, fill gray/800
+- remove-pin-alt: size 24x24px, fill gray/800
+- minus-pin-alt: size 24x24px, fill gray/800
+- add-pin-alt: size 24x24px, fill gray/800
+- pin-alt: size 24x24px, fill gray/800
+- gas: size 24x24px, fill gray/800
+- soap: size 24x24px, fill gray/800
+- type: size 24x24px, fill gray/800
+- dash-flag: size 24x24px, fill gray/800
+- white-flag: size 24x24px, fill gray/800
+- historic-shield-alt: size 24x24px, fill gray/800
+- sidebar-collapse: size 24x24px, fill gray/800
+- sidebar-expand: size 24x24px, fill gray/800
+- down-round-arrow: size 24x24px, fill gray/800
+- up-round-arrow: size 24x24px, fill gray/800
+- reduce-round-arrow: size 24x24px, fill gray/800
+- battery-indicator: size 24x24px, fill gray/800
+- file-not-found: size 24x24px, fill gray/800
+- table-rows: size 24x24px, fill gray/800
+- log-denied: size 24x24px, fill gray/800
+- log-in: size 24x24px, fill gray/800
+- log-out: size 24x24px, fill gray/800
+- table-2-columns: size 24x24px, fill gray/800
+- fx: size 24x24px, fill gray/800
+- hd: size 24x24px, fill gray/800
+- hd-display: size 24x24px, fill gray/800
+- hdr: size 24x24px, fill gray/800
+- gps: size 24x24px, fill gray/800
+- table: size 24x24px, fill gray/800
+- more-vert: size 24x24px, fill gray/800
+- more-horiz: size 24x24px
+- link: size 24x24px, fill gray/800
+- arrow-right-circled: size 24x24px, fill gray/800
+- arrow-left-circled: size 24x24px, fill gray/800
+- arrow-up-circled: size 24x24px, fill gray/800
+- arrow-down-circled: size 24x24px, fill gray/800
+- triangle-flag-circle: size 24x24px, fill gray/800
+- lifebelt: size 24x24px, fill gray/800
+- flash-off: size 24x24px, fill gray/800
+- auto-flash: size 24x24px, fill gray/800
+- flash: size 24x24px, fill gray/800
+- tiktok: size 24x24px, fill gray/800
+- rss-feed-squared: size 24x24px, fill gray/800
+- rss-feed: size 24x24px, fill gray/800
+- youtube: size 24x24px, fill gray/800
+- timer-off: size 24x24px, fill gray/800
+- alarm: size 24x24px, fill gray/800
+- music-2-add: size 24x24px, fill gray/800
+- music-2: size 24x24px, fill gray/800
+- more-vert-circled-outline: size 24x24px, fill gray/800
+- more-horiz-circled-outline: size 24x24px, fill gray/800
+- map-issue: size 24x24px, fill gray/800
+- map: size 24x24px, fill gray/800
+- gas-tank-drop: size 24x24px, fill gray/800
+- gas-tank: size 24x24px, fill gray/800
+- airplane-helix-45deg: size 24x24px, fill gray/800
+- airplane-helix: size 24x24px, fill gray/800
+- airplane-rotation: size 24x24px, fill gray/800
+- car-outline: size 24x24px, fill gray/800
+- position: size 24x24px, fill gray/800
+- eject: size 24x24px, fill gray/800
+- triangle-flag-full: size 24x24px, fill gray/800
+- triangle-flag: size 24x24px, fill gray/800
+- page-flip: size 24x24px, fill gray/800
+- password-error: size 24x24px, fill gray/800
+- security-pass: size 24x24px, fill gray/800
+- input-field: size 24x24px, fill gray/800
+- password-cursor: size 24x24px, fill gray/800
+- password-pass: size 24x24px, fill gray/800
+- no-lock: size 24x24px, fill gray/800
+- lock-key: size 24x24px, fill gray/800
+- lock (Dark Components): size 24x24px, fill gray/800
+- half-moon: size 24x24px, fill gray/800
+- activity: size 24x24px, fill gray/800
+- pause-outline: size 24x24px, fill gray/800
+- language: size 24x24px, fill gray/800
+- gift: size 24x24px, fill gray/800
+- notes: size 24x24px, fill gray/800
+- skip-next-outline: size 24x24px, fill gray/800
+- skip-prev-outline: size 24x24px, fill gray/800
+- rewind-outline: size 24x24px, fill gray/800
+- forward-outline: size 24x24px, fill gray/800
+- play-outline: size 24x24px, fill gray/800
+- reduce: size 24x24px, fill gray/800
+- collapse: size 24x24px, fill gray/800
+- enlarge: size 24x24px, fill gray/800
+- expand: size 24x24px, fill gray/800
+- profile-circled: size 24x24px, fill gray/800
+- timer: size 24x24px, fill gray/800
+- clock-outline: size 24x24px, fill gray/800
+- playlist-add: size 24x24px, fill gray/800
+- open-vpn: size 24x24px, fill gray/800
+- google-home: size 24x24px, fill gray/800
+- glass-half: size 24x24px, fill gray/800
+- glass-half-alt: size 24x24px, fill gray/800
+- pizza-slice: size 24x24px, fill gray/800
+- apple-half-alt: size 24x24px, fill gray/800
+- apple-half: size 24x24px, fill gray/800
+- apple: size 24x24px, fill gray/800
+- donate: size 24x24px, fill gray/800
+- healthcare: size 24x24px, fill gray/800
+- home-hospital: size 24x24px, fill gray/800
+- air-conditioner: size 24x24px, fill gray/800
+- home-simple-door: size 24x24px, fill gray/800
+- home-simple: size 24x24px, fill gray/800
+- home-alt-slim-horiz: size 24x24px, fill gray/800
+- home-alt-slim: size 24x24px, fill gray/800
+- glass-empty: size 24x24px, fill gray/800
+- home-user: size 24x24px, fill gray/800
+- bbq: size 24x24px, fill gray/800
+- cracked-egg: size 24x24px, fill gray/800
+- egg: size 24x24px, fill gray/800
+- chocolate: size 24x24px, fill gray/800
+- home-alt: size 24x24px, fill gray/800
+- github-outline: size 24x24px, fill gray/800
+- fingerprint-circled-error: size 24x24px, fill gray/800
+- fingerprint-circled-ok: size 24x24px, fill gray/800
+- face-id: size 24x24px, fill gray/800
+- user-scan: size 24x24px, fill gray/800
+- voice-scan: size 24x24px, fill gray/800
+- voice-circled: size 24x24px, fill gray/800
+- voice-squared: size 24x24px, fill gray/800
+- voice-phone: size 24x24px, fill gray/800
+- fingerprint-phone: size 24x24px, fill gray/800
+- scanning: size 24x24px, fill gray/800
+- iris-scan: size 24x24px, fill gray/800
+- fingerprint-scan: size 24x24px, fill gray/800
+- fingerprint-squared: size 24x24px, fill gray/800
+- voice-circled-lock: size 24x24px, fill gray/800
+- fingerprint-circled-lock: size 24x24px, fill gray/800
+- fingerprint-circled: size 24x24px, fill gray/800
+- fingerprint: size 24x24px, fill gray/800
+- voice-error: size 24x24px, fill gray/800
+- voice-ok: size 24x24px, fill gray/800
+- voice: size 24x24px, fill gray/800
+- domotic-issue: size 24x24px, fill gray/800
+- home: size 24x24px, fill gray/800
+- orange-slice-alt: size 24x24px, fill gray/800
+- orange-slice: size 24x24px, fill gray/800
+- orange-half: size 24x24px, fill gray/800
+- box: size 24x24px, fill gray/800
+- git-branch: size 24x24px, fill gray/800
+- git-merge: size 24x24px, fill gray/800
+- git-commit: size 24x24px, fill gray/800
+- no-coin: size 24x24px, fill gray/800
+- coin: size 24x24px, fill gray/800
+- lamp: size 24x24px, fill gray/800
+- drawer: size 24x24px, fill gray/800
+- closet: size 24x24px, fill gray/800
+- box-iso: size 24x24px, fill gray/800
+- fridge: size 24x24px, fill gray/800
+- drag-hand-gesture: size 24x24px, fill gray/800
+- reminder-hand-gesture: size 24x24px, fill gray/800
+- one-finger-select-hand-gesture: size 24x24px, fill gray/800
+- swipe-right-gesture: size 24x24px, fill gray/800
+- swipe-left-gesture: size 24x24px, fill gray/800
+- swipe-down-gesture: size 24x24px, fill gray/800
+- swipe-two-fingers-left-gesture: size 24x24px, fill gray/800
+- swipe-two-fingers-right-gesture: size 24x24px, fill gray/800
+- swipe-two-fingers-down-gesture: size 24x24px, fill gray/800
+- swipe-two-fingers-up-gesture: size 24x24px, fill gray/800
+- swipe-up-gesture: size 24x24px, fill gray/800
+- single-tap-gesture: size 24x24px, fill gray/800
+- peace-hand: size 24x24px, fill gray/800
+- spock-hand-gesture: size 24x24px, fill gray/800
+- open-select-hand-gesture: size 24x24px, fill gray/800
+- github: size 24x24px, fill gray/800
+- gitlab-full: size 24x24px, fill gray/800
+- frame-alt: size 24x24px, fill gray/800
+- airplay: size 24x24px, fill gray/800
+- frame-alt-empty: size 24x24px, fill gray/800
+- missing-font: size 24x24px, fill gray/800
+- chat-bubble-check: size 24x24px, fill gray/800
+- short-pants: size 24x24px, fill gray/800
+- short-pants-alt: size 24x24px, fill gray/800
+- pants-alt: size 24x24px, fill gray/800
+- pants: size 24x24px, fill gray/800
+- network-left: size 24x24px, fill gray/800
+- network-right: size 24x24px, fill gray/800
+- network-alt: size 24x24px, fill gray/800
+- network: size 24x24px, fill gray/800
+- transition-bottom: size 24x24px, fill gray/800
+- transition-top: size 24x24px, fill gray/800
+- transition-left: size 24x24px, fill gray/800
+- transition-right: size 24x24px, fill gray/800
+- remove-keyframes: size 24x24px, fill gray/800
+- add-keyframes: size 24x24px, fill gray/800
+- keyframes: size 24x24px, fill gray/800
+- keyframes-couple: size 24x24px, fill gray/800
+- linear: size 24x24px, fill gray/800
+- ease-out-control-point: size 24x24px, fill gray/800
+- ease-out: size 24x24px, fill gray/800
+- ease-in-control-point: size 24x24px, fill gray/800
+- ease-in: size 24x24px, fill gray/800
+- ease-in-out: size 24x24px, fill gray/800
+- ease-curve-control-points: size 24x24px, fill gray/800
+- keyframe-align-vertical: size 24x24px, fill gray/800
+- keyframe-align-horizontal: size 24x24px, fill gray/800
+- keyframe-align-center: size 24x24px, fill gray/800
+- keyframe-position: size 24x24px, fill gray/800
+- remove-keyframe-alt: size 24x24px, fill gray/800
+- add-keyframe-alt: size 24x24px, fill gray/800
+- keyframe: size 24x24px, fill gray/800
+- remove-keyframe: size 24x24px, fill gray/800
+- add-keyframe: size 24x24px, fill gray/800
+- move-down: size 24x24px, fill gray/800
+- move-up: size 24x24px, fill gray/800
+- move-left: size 24x24px, fill gray/800
+- move-right: size 24x24px, fill gray/800
+- bounce-left: size 24x24px, fill gray/800
+- bounce-right: size 24x24px, fill gray/800
+- church-alt: size 24x24px, fill gray/800
+- cart-alt: size 24x24px, fill gray/800
+- remove-from-cart: size 24x24px, fill gray/800
+- add-to-cart: size 24x24px, fill gray/800
+- simple-cart: size 24x24px, fill gray/800
+- oxygen: size 24x24px, fill gray/800
+- carbon: size 24x24px, fill gray/800
+- nitrogen: size 24x24px, fill gray/800
+- bonfire: size 24x24px, fill gray/800
+- fire-flame: size 24x24px, fill gray/800
+- fluorine: size 24x24px, fill gray/800
+- hydrogen: size 24x24px, fill gray/800
+- test-tube: size 24x24px, fill gray/800
+- atom: size 24x24px, fill gray/800
+- round-flask: size 24x24px, fill gray/800
+- flask: size 24x24px, fill gray/800
+- magnet-energy: size 24x24px, fill gray/800
+- magnet: size 24x24px, fill gray/800
+- cart (Dark Components): size 24x24px, fill gray/800
+- bag: size 24x24px, fill gray/800
+- shopping-bag-alt: size 24x24px, fill gray/800
+- shopping-bag-issue: size 24x24px, fill gray/800
+- shopping-bag-check: size 24x24px, fill gray/800
+- shopping-bag-arrow-up: size 24x24px, fill gray/800
+- shopping-bag-arrow-down: size 24x24px, fill gray/800
+- shopping-bag-remove: size 24x24px, fill gray/800
+- shopping-bag-add: size 24x24px, fill gray/800
+- shopping-bag: size 24x24px, fill gray/800
+- small-shop-alt: size 24x24px, fill gray/800
+- small-shop: size 24x24px, fill gray/800
+- shop-alt: size 24x24px, fill gray/800
+- shop: size 24x24px, fill gray/800
+- church: size 24x24px, fill gray/800
+- hospital: size 24x24px, fill gray/800
+- basketball-alt: size 24x24px, fill gray/800
+- basketball: size 24x24px, fill gray/800
+- printing-page: size 24x24px, fill gray/800
+- printer-alt: size 24x24px, fill gray/800
+- printer: size 24x24px, fill gray/800
+- refresh-circular: size 24x24px, fill gray/800
+- eye-alt: size 24x24px, fill gray/800
+- eye-close: size 24x24px, fill gray/800
+- tunnel: size 24x24px, fill gray/800
+- garage: size 24x24px, fill gray/800
+- farm: size 24x24px, fill gray/800
+- oil-industry: size 24x24px, fill gray/800
+- industry: size 24x24px, fill gray/800
+- city: size 24x24px, fill gray/800
+- building: size 24x24px, fill gray/800
+- union-alt: size 24x24px, fill gray/800
+- union-horiz-alt: size 24x24px, fill gray/800
+- creative-commons: size 24x24px, fill gray/800
+- remove-square: size 24x24px, fill gray/800
+- minus-square: size 24x24px, fill gray/800
+- add-square: size 24x24px, fill gray/800
+- cut: size 24x24px, fill gray/800
+- scissor-alt: size 24x24px, fill gray/800
+- cut-alt: size 24x24px, fill gray/800
+- scissor: size 24x24px, fill gray/800
+- page-edit: size 24x24px, fill gray/800
+- page-search: size 24x24px, fill gray/800
+- doc-star-alt: size 24x24px, fill gray/800
+- doc-search-alt: size 24x24px, fill gray/800
+- page-star: size 24x24px, fill gray/800
+- doc-star: size 24x24px, fill gray/800
+- area-search: size 24x24px, fill gray/800
+- doc-search: size 24x24px, fill gray/800
+- zoom-out: size 24x24px, fill gray/800
+- zoom-in: size 24x24px, fill gray/800
+- chat-lines: size 24x24px, fill gray/800
+- chat-remove: size 24x24px, fill gray/800
+- chat-add: size 24x24px, fill gray/800
+- bubble-star: size 24x24px, fill gray/800
+- bubble-upload: size 24x24px, fill gray/800
+- bubble-search: size 24x24px, fill gray/800
+- bubble-download: size 24x24px, fill gray/800
+- bubble-income: size 24x24px, fill gray/800
+- bubble-outcome: size 24x24px, fill gray/800
+- bubble-warning: size 24x24px, fill gray/800
+- bubble-error: size 24x24px, fill gray/800
+- remove-database-script: size 24x24px, fill gray/800
+- add-database-script: size 24x24px, fill gray/800
+- database-script: size 24x24px, fill gray/800
+- database-star: size 24x24px, fill gray/800
+- database-backup: size 24x24px, fill gray/800
+- database-monitor: size 24x24px, fill gray/800
+- database-stats: size 24x24px, fill gray/800
+- database-export: size 24x24px, fill gray/800
+- database-restore: size 24x24px, fill gray/800
+- database-settings: size 24x24px, fill gray/800
+- db-search: size 24x24px, fill gray/800
+- db-warning: size 24x24px, fill gray/800
+- db-error: size 24x24px, fill gray/800
+- db-check: size 24x24px, fill gray/800
+- db: size 24x24px, fill gray/800
+- cloud-book-alt: size 24x24px, fill gray/800
+- crop-rotate-br: size 24x24px, fill gray/800
+- crop-rotate-tl: size 24x24px, fill gray/800
+- crop-rotate-bl: size 24x24px, fill gray/800
+- crop-rotate-tr: size 24x24px, fill gray/800
+- ruler-combine: size 24x24px, fill gray/800
+- server-connection: size 24x24px, fill gray/800
+- align-top-box: size 24x24px, fill gray/800
+- align-bottom-box: size 24x24px, fill gray/800
+- align-right-box: size 24x24px, fill gray/800
+- text-size: size 24x24px, fill gray/800
+- search-font: size 24x24px, fill gray/800
+- text: size 24x24px, fill gray/800
+- border-left: size 24x24px, fill gray/800
+- border-right: size 24x24px, fill gray/800
+- border-top: size 24x24px, fill gray/800
+- border-bottom: size 24x24px, fill gray/800
+- border-inner: size 24x24px, fill gray/800
+- scale-frame-reduce: size 24x24px, fill gray/800
+- scale-frame-enlarge: size 24x24px, fill gray/800
+- border-out: size 24x24px, fill gray/800
+- iconoir: size 24x24px, fill gray/800
+- figma: size 24x24px, fill gray/800
+- asana: size 24x24px, fill gray/800
+- google-docs: size 24x24px, fill gray/800
+- trello: size 24x24px, fill gray/800
+- align-left-box: size 24x24px, fill gray/800
+- position-align: size 24x24px, fill gray/800
+- border-bl: size 24x24px, fill gray/800
+- border-br: size 24x24px, fill gray/800
+- border-tr: size 24x24px, fill gray/800
+- border-tl: size 24x24px, fill gray/800
+- center-align: size 24x24px, fill gray/800
+- combine: size 24x24px, fill gray/800
+- intersect-alt: size 24x24px, fill gray/800
+- substract: size 24x24px, fill gray/800
+- exclude: size 24x24px, fill gray/800
+- intersect: size 24x24px, fill gray/800
+- union: size 24x24px, fill gray/800
+- horiz-distribution-right: size 24x24px, fill gray/800
+- horiz-distribution-left: size 24x24px, fill gray/800
+- wrap-text: size 24x24px, fill gray/800
+- line-space: size 24x24px, fill gray/800
+- move-ruler: size 24x24px, fill gray/800
+- ruler-remove: size 24x24px, fill gray/800
+- ruler-add: size 24x24px, fill gray/800
+- ruler: size 24x24px, fill gray/800
+- expand-lines: size 24x24px, fill gray/800
+- compress-lines: size 24x24px, fill gray/800
+- phone-delete: size 24x24px, fill gray/800
+- phone-remove: size 24x24px, fill gray/800
+- phone-add: size 24x24px, fill gray/800
+- phone-income: size 24x24px, fill gray/800
+- phone-disabled: size 24x24px, fill gray/800
+- phone-outcome: size 24x24px, fill gray/800
+- multiple-pages: size 24x24px, fill gray/800
+- multiple-pages-delete: size 24x24px, fill gray/800
+- multiple-pages-remove: size 24x24px, fill gray/800
+- multiple-pages-add: size 24x24px, fill gray/800
+- multiple-pages-empty: size 24x24px, fill gray/800
+- archive: size 24x24px, fill gray/800
+- frame-tool: size 24x24px, fill gray/800
+- undo: size 24x24px, fill gray/800
+- undo-action: size 24x24px, fill gray/800
+- redo-action: size 24x24px, fill gray/800
+- undo-circle: size 24x24px, fill gray/800
+- redo-circle: size 24x24px, fill gray/800
+- redo: size 24x24px, fill gray/800
+- question-mark-circle: size 24x24px, fill gray/800
+- chat-bubble-translate: size 24x24px, fill gray/800
+- chat-bubble-question: size 24x24px, fill gray/800
+- headset-issue: size 24x24px, fill gray/800
+- headset-charge: size 24x24px, fill gray/800
+- headset: size 24x24px, fill gray/800
+- headset-help: size 24x24px, fill gray/800
+- multi-bubble: size 24x24px, fill gray/800
+- chat-bubble-empty: size 24x24px, fill gray/800
+- chat-bubble-warning: size 24x24px, fill gray/800
+- chat-bubble-error: size 24x24px, fill gray/800
+- chat-bubble: size 24x24px, fill gray/800
+- bookmark-empty: size 24x24px, fill gray/800
+- handbag: size 24x24px, fill gray/800
+- large-suitcase: size 24x24px, fill gray/800
+- eye-off: size 24x24px, fill gray/800
+- smartphone-device: size 24x24px, fill gray/800
+- sandals: size 24x24px, fill gray/800
+- scarf: size 24x24px, fill gray/800
+- collage-frame: size 24x24px, fill gray/800
+- upload-square-outline: size 24x24px, fill gray/800
+- upload: size 24x24px, fill gray/800
+- attachment: size 24x24px, fill gray/800
+- phone-paused: size 24x24px, fill gray/800
+- hesa-warning-outline: size 24x24px, fill gray/800
+- message-alert: size 24x24px, fill gray/800
+- message-text: size 24x24px, fill gray/800
+- message: size 24x24px, fill gray/800
+- phone: size 24x24px, fill gray/800
+- edit: size 24x24px, fill gray/800
+- edit-pencil: size 24x24px, fill gray/800
+- cable-rounded: size 24x24px, fill gray/800
+- wifi-rounded: size 24x24px, fill gray/800
+- antenna-signal-rounded: size 24x24px, fill gray/800
+- bluetooth-rounded: size 24x24px, fill gray/800
+- bluetooth: size 24x24px, fill gray/800
+- warning-triangle-outline: size 24x24px, fill gray/800
+- warning-circled-outline: size 24x24px, fill gray/800
+- precision-tool: size 24x24px, fill gray/800
+- emoji-think-left: size 24x24px, fill gray/800
+- emoji-think-right: size 24x24px, fill gray/800
+- emoji-quite: size 24x24px, fill gray/800
+- emoji-sing-left: size 24x24px, fill gray/800
+- emoji-sing-left-note: size 24x24px, fill gray/800
+- emoji-sing-right: size 24x24px, fill gray/800
+- emoji-surprise-alt: size 24x24px, fill gray/800
+- emoji-surprise: size 24x24px, fill gray/800
+- emoji-talking-angry: size 24x24px, fill gray/800
+- emoji-talking-happy: size 24x24px, fill gray/800
+- emoji-ball: size 24x24px, fill gray/800
+- tennis-ball-alt: size 24x24px, fill gray/800
+- tennis-ball: size 24x24px, fill gray/800
+- emoji-really: size 24x24px, fill gray/800
+- emoji-satisfied: size 24x24px, fill gray/800
+- emoji-look-bottom: size 24x24px, fill gray/800
+- emoji-look-top: size 24x24px, fill gray/800
+- emoji-look-left: size 24x24px, fill gray/800
+- emoji-look-right: size 24x24px, fill gray/800
+- emoji-blink-left: size 24x24px, fill gray/800
+- emoji-blink-right: size 24x24px, fill gray/800
+- emoji-sad: size 24x24px, fill gray/800
+- emoji: size 24x24px, fill gray/800
+- unity 7: size 24x24px, fill gray/800
+- unity: size 24x24px, fill gray/800
+- code: size 24x24px, fill gray/800
+- no-smoking: size 24x24px, fill gray/800
+- smoking: size 24x24px, fill gray/800
+- mask-square: size 24x24px, fill gray/800
+- copy: size 24x24px
+- umbrella-full: size 24x24px, fill gray/800
+- antenna-signal: size 24x24px, fill gray/800
+- antenna-off: size 24x24px, fill gray/800
+- antenna: size 24x24px, fill gray/800
+- color-picker: size 24x24px, fill gray/800
+- color-picker-empty: size 24x24px, fill gray/800
+- add-lens: size 24x24px, fill gray/800
+- plug-type-g: size 24x24px, fill gray/800
+- plug-type-l: size 24x24px, fill gray/800
+- plug-type-c: size 24x24px, fill gray/800
+- plug-type-a: size 24x24px, fill gray/800
+- lens: size 24x24px, fill gray/800
+- color-filter: size 24x24px, fill gray/800
+- stat-down: size 24x24px, fill gray/800
+- stat-up: size 24x24px, fill gray/800
+- graph-down: size 24x24px, fill gray/800
+- graph-up: size 24x24px, fill gray/800
+- eye-empty: size 24x24px, fill gray/800
+- wristwatch: size 24x24px, fill gray/800
+- hourglass: size 24x24px, fill gray/800
+- movie: size 24x24px, fill gray/800
+- page: size 24x24px, fill gray/800
+- remove-page: size 24x24px, fill gray/800
+- droplet-half: size 24x24px, fill gray/800
+- google-drive-warning: size 24x24px, fill gray/800
+- google-drive-check: size 24x24px, fill gray/800
+- google-drive-sync: size 24x24px, fill gray/800
+- google-drive: size 24x24px, fill gray/800
+- google-one: size 24x24px, fill gray/800
+- cloud-check: size 24x24px, fill gray/800
+- cloud-desync: size 24x24px, fill gray/800
+- cloud-sync: size 24x24px, fill gray/800
+- cloud-error: size 24x24px, fill gray/800
+- cloud-download: size 24x24px, fill gray/800
+- cloud-upload: size 24x24px, fill gray/800
+- prohibition: size 24x24px, fill gray/800
+- trash: size 24x24px, fill gray/800
+- cinema-old: size 24x24px, fill gray/800
+- check-circled-outline: size 24x24px, fill gray/800
+- double-check: size 24x24px, fill gray/800
+- check (Dark Components): size 24x24px, fill gray/800
+- glasses: size 24x24px, fill gray/800
+- text-alt: size 24x24px, fill gray/800
+- report-columns: size 24x24px, fill gray/800
+- stats-report: size 24x24px, fill gray/800
+- settings-cloud: size 24x24px, fill gray/800
+- stats-square-down: size 24x24px, fill gray/800
+- pound: size 24x24px, fill gray/800
+- yen: size 24x24px, fill gray/800
+- euro: size 24x24px, fill gray/800
+- receive-dollars: size 24x24px, fill gray/800
+- receive-yens: size 24x24px, fill gray/800
+- receive-pounds: size 24x24px, fill gray/800
+- receive-euros: size 24x24px, fill gray/800
+- send-yens: size 24x24px, fill gray/800
+- send-pounds: size 24x24px, fill gray/800
+- send-euros: size 24x24px, fill gray/800
+- send-dollars: size 24x24px, fill gray/800
+- dollar: size 24x24px, fill gray/800
+- yen-square: size 24x24px, fill gray/800
+- euro-square: size 24x24px, fill gray/800
+- money-square: size 24x24px, fill gray/800
+- stats-square-up: size 24x24px, fill gray/800
+- font-size: size 24x24px, fill gray/800
+- gym: size 24x24px, fill gray/800
+- refresh-double: size 24x24px, fill gray/800
+- refresh: size 24x24px, fill gray/800
+- wifi-off: size 24x24px, fill gray/800
+- wifi-issue: size 24x24px, fill gray/800
+- wifi-signal-none: size 24x24px, fill gray/800
+- wifi: size 24x24px, fill gray/800
+- tv-issue: size 24x24px, fill gray/800
+- apple-imac-2021-side: size 24x24px, fill gray/800
+- computer: size 24x24px, fill gray/800
+- bookmark-circled: size 24x24px, fill gray/800
+- laptop-charging: size 24x24px, fill gray/800
+- laptop-issue: size 24x24px, fill gray/800
+- laptop-fix: size 24x24px, fill gray/800
+- laptop: size 24x24px, fill gray/800
+- 4k-display: size 24x24px, fill gray/800
+- modern-tv-4k: size 24x24px, fill gray/800
+- mail-opened: size 24x24px, fill gray/800
+- sound-high: size 24x24px, fill gray/800
+- dashboard-dots: size 24x24px, fill gray/800
+- dashboard-speed: size 24x24px, fill gray/800
+- dashboard: size 24x24px, fill gray/800
+- sound-low: size 24x24px, fill gray/800
+- mic-mute: size 24x24px, fill gray/800
+- data-transfer-warning: size 24x24px, fill gray/800
+- data-transfer-down: size 24x24px, fill gray/800
+- data-transfer-up: size 24x24px, fill gray/800
+- data-transfer-check: size 24x24px, fill gray/800
+- data-transfer-both: size 24x24px, fill gray/800
+- mic-warning: size 24x24px, fill gray/800
+- mic-check: size 24x24px, fill gray/800
+- mic-remove: size 24x24px, fill gray/800
+- mic-add: size 24x24px, fill gray/800
+- mic-speaking: size 24x24px, fill gray/800
+- mic: size 24x24px, fill gray/800
+- sound-off: size 24x24px, fill gray/800
+- sound-min: size 24x24px, fill gray/800
+- bell-off: size 24x24px, fill gray/800
+- facetime: size 24x24px, fill gray/800
+- app-notification: size 24x24px, fill gray/800
+- bell-notification: size 24x24px, fill gray/800
+- bell: size 24x24px, fill gray/800
+- mail: size 24x24px
+- lot-of-cash: size 24x24px, fill gray/800
+- cash: size 24x24px, fill gray/800
+- credit-card-2: size 24x24px, fill gray/800
+- no-credit-card: size 24x24px, fill gray/800
+- credit-card: size 24x24px, fill gray/800
+- question-mark: size 24x24px, fill gray/800
+- bold: size 24x24px, fill gray/800
+- filter-alt: size 24x24px, fill gray/800
+- filter: size 24x24px
+- label-outline: size 24x24px, fill gray/800
+- remove-folder: size 24x24px, fill gray/800
+- add-folder: size 24x24px, fill gray/800
+- folder-alert: size 24x24px, fill gray/800
+- folder: size 24x24px, fill gray/800
+- reports: size 24x24px, fill gray/800
+- percentage-square: size 24x24px, fill gray/800
+- sea-and-sun: size 24x24px, fill gray/800
+- trophy: size 24x24px, fill gray/800
+- medal: size 24x24px, fill gray/800
+- 1st-medal: size 24x24px, fill gray/800
+- leaderboard-star: size 24x24px, fill gray/800
+- leaderboard: size 24x24px, fill gray/800
+- trekking: size 24x24px, fill gray/800
+- skateboarding: size 24x24px, fill gray/800
+- skateboard: size 24x24px, fill gray/800
+- Fishing: size 24x24px, fill gray/800
+- bowling-ball: size 24x24px, fill gray/800
+- waist: size 24x24px, fill gray/800
+- math-book: size 24x24px, fill gray/800
+- bookmark-book: size 24x24px, fill gray/800
+- book-stack: size 24x24px, fill gray/800
+- locked-book: size 24x24px, fill gray/800
+- favourite-book: size 24x24px, fill gray/800
+- book: size 24x24px, fill gray/800
+- yoga: size 24x24px, fill gray/800
+- boxing-glove: size 24x24px, fill gray/800
+- stretching: size 24x24px, fill gray/800
+- treadmill: size 24x24px, fill gray/800
+- running: size 24x24px, fill gray/800
+- cycling: size 24x24px, fill gray/800
+- walking: size 24x24px, fill gray/800
+- rings: size 24x24px, fill gray/800
+- archery: size 24x24px, fill gray/800
+- arrow-archery: size 24x24px, fill gray/800
+- football-ball: size 24x24px, fill gray/800
+- football: size 24x24px, fill gray/800
+- swimming: size 24x24px, fill gray/800
+- sea-waves: size 24x24px, fill gray/800
+- soccer-ball: size 24x24px, fill gray/800
+- percentage-round: size 24x24px, fill gray/800
+- percentage: size 24x24px, fill gray/800
+- usb: size 24x24px, fill gray/800
+- electronics-chip: size 24x24px, fill gray/800
+- codepen: size 24x24px, fill gray/800
+- code-brackets-square: size 24x24px, fill gray/800
+- code-brackets: size 24x24px, fill gray/800
+- apple-swift: size 24x24px, fill gray/800
+- electronics-transistor: size 24x24px, fill gray/800
+- server: size 24x24px, fill gray/800
+- hard-drive: size 24x24px, fill gray/800
+
+## Most-Used Styles
+- white: 5071 uses
+- gray/800: 1103 uses
+- body: 429 uses
+- body/xs-bold: 414 uses
+- gray/400: 193 uses
+- red/500: 162 uses
+- gray/700: 161 uses
+- sm-bold: 113 uses
+- green/500: 103 uses
+- gray/100: 92 uses
+- body/sm: 84 uses
+- SUBTITLE: 69 uses
+- gray/1000: 65 uses
+- gray/900: 41 uses
+- body/xs: 37 uses
+- h5: 29 uses
+- green/transparent: 23 uses
+- body/regular: 18 uses
+- TITLE: 14 uses
+- red/100: 11 uses
+- shadow-red: 7 uses
+- h6: 5 uses
+- Black: 4 uses
+- green/400: 4 uses
+- green/600: 4 uses
+- green/200: 3 uses
+- green/700: 3 uses
+- green/gradient: 3 uses
+- light-gray/500: 3 uses
+- shadow: 3 uses
+- yellow/400: 3 uses
+- yellow/900: 3 uses
+- blue/100: 2 uses
+- blue/1000: 2 uses
+- blue/200: 2 uses
+- blue/300: 2 uses
+- blue/400: 2 uses
+- blue/500: 2 uses
+- blue/600: 2 uses
+- blue/700: 2 uses
+- blue/800: 2 uses
+- blue/900: 2 uses
+- blue/transparent: 2 uses
+- gray/200: 2 uses
+- gray/500: 2 uses
+- gray/600: 2 uses
+- gray/transparent: 2 uses
+- green/100: 2 uses
+- green/1000: 2 uses
+- green/300: 2 uses
+- green/800: 2 uses
+- green/900: 2 uses
+- light-gray/600: 2 uses
+- red/1000: 2 uses
+- red/200: 2 uses
+- red/300: 2 uses
+- red/400: 2 uses
+- red/600: 2 uses
+- red/700: 2 uses
+- red/800: 2 uses
+- red/900: 2 uses
+- yellow/100: 2 uses
+- yellow/1000: 2 uses
+- yellow/200: 2 uses
+- yellow/300: 2 uses
+- yellow/500: 2 uses
+- yellow/600: 2 uses
+- yellow/700: 2 uses
+- yellow/800: 2 uses
+- gray/300: 1 use
+
+## Layout & Structure
+Screen: Thumbnail / Thumbnail
+- FRAME "Thumbnail", 1600x960px, constraints left/top, fill #262727
+  - RECTANGLE "pattern (1) 1", 1600x960px, constraints left/top, fill image(hash: c99713f2c76367c5af0ea7dcc8afeb0263976b98)
+  - TEXT "SNOW FOX", 994.81x203.49px, constraints left/top, fill #FFFFFF, text [PP Migra Extrabold, 180px], [heading]
+  - FRAME "Frame 1", 609.62x108px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "logos:figma", 72x108px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - TEXT "Figma Design System", 513.62x64.43px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 48px], [heading]
+  - FRAME "Frame 3", 764.62x190.43px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Soon Mitosis-powered JS library", 764.62x64.43px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 48px], [heading]
+    - FRAME "Frame 2", 444x102px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~13 shapes]
+
+Screen: Dark Components / Icons
+- FRAME "Icons", 3713x5168.24px, vertical pad 40 40 40 40px gap 40px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - FRAME "Frame 83", 332x24.24px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "loading", 24x24.24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale, fill white
+      - FRAME "Frame", 23.76x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 23.76x23.76px, constraints scale/scale, fill white
+        - VECTOR "Vector", 14.01x9.17px, constraints scale/scale, fill white
+      - VECTOR "Vector", 14.15x9.26px, constraints scale/scale, fill green/500
+    - COMPONENT "cart", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 3x3px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 3x3px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Ellipse 2", 20x13px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Ellipse 3", 17.5x4px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "lock", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12x16px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "emoji-sing-right-note", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Ellipse", 4x6px, constraints scale/scale, radius 0/0/0/0px, fill white, stroke white 1.5px
+      - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 19.95x20px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "close", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 10.49x10.49px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "check", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14x10px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "arrow", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "share", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 6x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 6x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 6x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 7x4px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 7x4px, constraints scale/scale, stroke white 1.5px
+  - FRAME "Frame 8", 3633x5024px, constraints left/top
+    - COMPONENT "3d-center-box", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 18x20px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 17x4.72px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 16.97x4.72px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 0x9px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 0x2.5px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+    - COMPONENT "3d-three-pts-box", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 18x20px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 16.97x4.72px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 0x9px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+    - COMPONENT "3d-pt-box", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 18x20px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 16.97x4.72px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 0x9px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+    - COMPONENT "3d-add-hole", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 8x8px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 18x20px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 16.97x2.72px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 0x5px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+    - COMPONENT "open-new-window", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 9x9px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 18x18px, constraints scale/scale, radius 2px, stroke white 1.5px
+    - COMPONENT "paste-clipboard", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 16x18px, constraints scale/scale, radius 2px, stroke white 1.5px
+      - VECTOR "Vector", 8x6px, constraints scale/scale, radius 0/0/0/0px, stroke white 1.5px
+    - COMPONENT "clipboard-check", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 8x18px, constraints scale/scale, radius 2px, stroke white 1.5px
+      - VECTOR "Vector", 4.5x11px, constraints scale/scale, radius 2px, stroke white 1.5px
+      - VECTOR "Vector", 8x6px, constraints scale/scale, radius 0/0/0/0px, stroke white 1.5px
+      - VECTOR "Vector", 7x7px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "3d-rect-corner-to-corner", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 18x18px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "3d-rect-from-center", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 18x18px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "spiral", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 16x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 16x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 16x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 1x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 1x2px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 1x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 1x2px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "sigma-function", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 16x3px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 16x3px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 8x16px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "3d-bridge", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 3x0px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 4x16px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 3x0px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+    - COMPONENT "sphere", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 20x20px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 6x20px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "3d-arc", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 20x10px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "3d-arc-center-pt", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 19.17x10px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 10x0px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "3d-ellipse", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 16x20px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "3d-ellipse-three-pts", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 8x0px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 0x20px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 13x18px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 1.2x1.39px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "3d-rect-three-pts", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 18x18px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 4x4px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 0x2px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 0x2px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 2x0px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 2x0px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 2x2px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "cylinder", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 16x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 16x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 0x14px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 0x14px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+    - COMPONENT "compass", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector 21", 12.73x12.73px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 20x20px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "dialpad", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "gamepad", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector 21", 22.14x15.17px, constraints scale/scale, radius 2px, stroke white 1.5px
+      - VECTOR "Vector", 0.01x0.01px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 0.01x0.01px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 0.01x0.01px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 0.01x0.01px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector 12", 0x3px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector 22", 3x0px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "playstation-gamepad", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector 21", 22.14x15.17px, constraints scale/scale, radius 2px, stroke white 1.5px
+      - VECTOR "Vector 22", 8x4px, constraints scale/scale, radius 2px, stroke white 1.5px
+      - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "stackoverflow", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector 12", 14x6px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector 13", 8x0px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector 14", 7.83x1.66px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector 15", 7.25x3.38px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector 16", 6.13x5.14px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector 17", 4.93x6.3px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "pinterest", 24x24px, constraints scale/scale, fill gray/800
+      - VECTOR "Vector", 10.99x10.5px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector 13", 3x11.5px, constraints scale/scale, stroke white 1.5px
+      - VECTOR "Vector", 20x20px, constraints scale/scale, stroke white 1.5px
+    - ... +1058 more children
+
+Screen: Dark Components / Buttons
+- FRAME "Buttons", 258x1320px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "BUTTONS", 132x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Button", 178x1176px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Filled, Radius=sm, Uppercase=false, Disabled=false, ", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+      - TEXT "Submit", 54x18px, constraints left/top, fill gray/1000, text [body]
+    - COMPONENT "Variant=Filled, Radius=sm, Uppercase=false, Disabled=false, ", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/600
+      - TEXT "Submit", 54x18px, constraints left/top, fill gray/1000, text [body]
+    - COMPONENT "Variant=Filled, Radius=sm, Uppercase=false, Disabled=false, ", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/700, stroke #26606E 1px, effect shadow
+      - TEXT "Submit", 54x18px, constraints left/top, fill gray/1000, text [body]
+    - COMPONENT "Variant=Filled, Radius=sm, Uppercase=false, Disabled=true, L", 138x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400
+      - FRAME "Frame", 24x24.24px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Submit", 54x18px, constraints left/top, fill gray/1000, text [body]
+    - COMPONENT "Variant=Gradient, Radius=sm, Uppercase=false, Disabled=false", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/gradient
+      - TEXT "Submit", 54x18px, constraints left/top, fill gray/1000, text [body]
+    - COMPONENT "Variant=Text, Radius=sm, Uppercase=false, Disabled=false, Lo", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Submit", 54x18px, constraints left/top, fill green/500, text [body]
+    - COMPONENT "Variant=Filled, Radius=sm, Uppercase=false, Disabled=true, L", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400
+      - TEXT "Submit", 54x18px, constraints left/top, fill gray/1000, text [body]
+    - COMPONENT "Variant=Filled, Radius=sm, Uppercase=true, Disabled=false, L", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+      - TEXT "Submit", 54x18px, constraints left/top, fill gray/1000, text [body]
+    - COMPONENT "Variant=Filled, Radius=sm, Uppercase=false, Disabled=false, ", 138x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+      - INSTANCE "cart", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 3x3px, constraints scale/scale, fill gray/1000, stroke gray/1000 1.5px
+        - VECTOR "Vector", 3x3px, constraints scale/scale, fill gray/1000, stroke gray/1000 1.5px
+        - VECTOR "Ellipse 2", 20x13px, constraints scale/scale, stroke gray/1000 1.5px
+        - VECTOR "Ellipse 3", 17.5x4px, constraints scale/scale, stroke gray/1000 1.5px
+      - TEXT "Submit", 54x18px, constraints left/top, fill gray/1000, text [body]
+    - COMPONENT "Variant=Outline, Radius=sm, Uppercase=false, Disabled=false,", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke green/500 1px
+      - TEXT "Submit", 54x18px, constraints left/top, fill green/500, text [body]
+    - COMPONENT "Variant=Outline, Radius=sm, Uppercase=false, Disabled=true, ", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #525252CC, stroke gray/800 1px
+      - TEXT "Submit", 54x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "Variant=Outline, Radius=sm, Uppercase=false, Disabled=false,", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/transparent, stroke green/500 1px
+      - TEXT "Submit", 54x18px, constraints left/top, fill green/500, text [body]
+    - COMPONENT "Variant=Outline, Radius=sm, Uppercase=false, Disabled=false,", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/transparent, stroke green/500 1px, effect shadow
+      - TEXT "Submit", 54x18px, constraints left/top, fill green/500, text [body]
+    - COMPONENT "Variant=Outline, Radius=sm, Uppercase=false, Disabled=false,", 138x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke green/500 1px
+      - INSTANCE "cart", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 3x3px, constraints scale/scale, fill green/500, stroke green/500 1.5px
+        - VECTOR "Vector", 3x3px, constraints scale/scale, fill green/500, stroke green/500 1.5px
+        - VECTOR "Ellipse 2", 20x13px, constraints scale/scale, stroke green/500 1.5px
+        - VECTOR "Ellipse 3", 17.5x4px, constraints scale/scale, stroke green/500 1.5px
+      - TEXT "Submit", 54x18px, constraints left/top, fill green/500, text [body]
+    - COMPONENT "Variant=Outline, Radius=md, Uppercase=false, Disabled=false,", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke green/500 1px
+      - TEXT "Submit", 54x18px, constraints left/top, fill green/500, text [body]
+    - COMPONENT "Variant=Outline, Radius=lg, Uppercase=false, Disabled=false,", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke green/500 1px
+      - TEXT "Submit", 54x18px, constraints left/top, fill green/500, text [body]
+    - COMPONENT "Variant=Outline, Radius=xl, Uppercase=false, Disabled=false,", 102x48px, horizontal pad 12 24 12 24px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke green/500 1px
+      - TEXT "Submit", 54x18px, constraints left/top, fill green/500, text [body]
+
+Screen: Dark Components / TextInputs
+- FRAME "TextInputs", 420x1242px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "TEXT INPUTS", 177x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "TextInput", 340x1098px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default, Radius=Default, IconPosition=false", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "awesome@snowfox.art", 180x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "State=Focused, Radius=Default, IconPosition=false", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke green/500 1px, effect shadow
+        - TEXT "awesome@snowfox.art", 180x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "State=Error, Radius=Default, IconPosition=false", 300x96px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke red/500 1px, effect shadow-red
+        - TEXT "bad_email", 86x18px, constraints left/top, fill red/500, text [body]
+      - TEXT "Invalid email.", 76x14px, constraints left/top, fill red/500, text [body/xs-bold]
+    - COMPONENT "State=Disabled, Radius=Default, IconPosition=false", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400, stroke gray/400 1px
+        - TEXT "awesome@snowfox.art", 180x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "State=Default, Radius=md, IconPosition=false", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill gray/700, stroke gray/400 1px
+        - TEXT "awesome@snowfox.art", 180x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "State=Default, Radius=lg, IconPosition=false", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill gray/700, stroke gray/400 1px
+        - TEXT "awesome@snowfox.art", 180x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "State=Default, Radius=xl, IconPosition=false", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill gray/700, stroke gray/400 1px
+        - TEXT "awesome@snowfox.art", 180x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "State=Default, Radius=Default, IconPosition=start", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - INSTANCE "emoji-sing-right-note", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Ellipse", 4x6px, constraints scale/scale, radius 0/0/0/0px, fill white, stroke white 1.5px
+          - VECTOR "Vector", 4x4px, constraints scale/scale, fill white, stroke white 1.5px
+          - VECTOR "Vector", 19.95x20px, constraints scale/scale, fill white, stroke white 1.5px
+          - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+          - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+        - TEXT "awesome@snowfox.art", 180x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "State=Focused, Radius=Default, IconPosition=start", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke green/500 1px
+        - INSTANCE "emoji-sing-right-note", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Ellipse", 4x6px, constraints scale/scale, radius 0/0/0/0px, fill green/500, stroke green/500 1.5px
+          - VECTOR "Vector", 4x4px, constraints scale/scale, fill green/500, stroke green/500 1.5px
+          - VECTOR "Vector", 19.95x20px, constraints scale/scale, fill green/500, stroke green/500 1.5px
+          - VECTOR "Vector", 1x1px, constraints scale/scale, fill green/500, stroke green/500 1.5px
+          - VECTOR "Vector", 1x1px, constraints scale/scale, fill green/500, stroke green/500 1.5px
+        - TEXT "awesome@snowfox.art", 180x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "State=Error, Radius=Default, IconPosition=start", 300x96px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke red/500 1px, effect shadow-red
+        - INSTANCE "emoji-sing-right-note", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Ellipse", 4x6px, constraints scale/scale, radius 0/0/0/0px, fill red/500, stroke red/500 1.5px
+          - VECTOR "Vector", 4x4px, constraints scale/scale, fill red/500, stroke red/500 1.5px
+          - VECTOR "Vector", 19.95x20px, constraints scale/scale, fill red/500, stroke red/500 1.5px
+          - VECTOR "Vector", 1x1px, constraints scale/scale, fill red/500, stroke red/500 1.5px
+          - VECTOR "Vector", 1x1px, constraints scale/scale, fill red/500, stroke red/500 1.5px
+        - TEXT "bad_email", 86x18px, constraints left/top, fill red/500, text [body]
+      - TEXT "Invalid email.", 76x14px, constraints left/top, fill red/500, text [body/xs-bold]
+    - COMPONENT "State=Default, Radius=Default, IconPosition=end", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "E-mail", 50x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "awesome@snowfox.art", 180x18px, constraints left/top, fill gray/100, text [body]
+        - INSTANCE "loading", 24x24.24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x24px, constraints scale/scale, fill white
+          - FRAME "Frame", 23.76x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 23.76x23.76px, constraints scale/scale, fill white
+            - VECTOR "Vector", 14.01x9.17px, constraints scale/scale, fill white
+          - VECTOR "Vector", 14.15x9.26px, constraints scale/scale, fill green/500
+
+Screen: Dark Components / PasswordInputs
+- FRAME "PasswordInputs", 420x1347px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "PASSWORD INPUTS", 266x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "PasswordInput", 340x1015px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default, StrengthMeterOpen=false, Disabled=false", 300x118px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Password", 75x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Enter password", 118x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+          - VECTOR "Vector", 18x12px, constraints scale/scale, stroke white 1.5px
+      - TEXT "Password must include at least one letter, number and specia", 300x36px, constraints left/top, fill white, text [body/xs]
+    - COMPONENT "Variant=Visible, StrengthMeterOpen=false, Disabled=false", 300x118px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Password", 75x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Enter password", 118x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Password must include at least one letter, number and specia", 300x36px, constraints left/top, fill white, text [body/xs]
+    - COMPONENT "Variant=Error, StrengthMeterOpen=false, Disabled=false", 300x118px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Password", 75x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke red/500 1px, effect shadow-red
+        - TEXT "Enter password", 118x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 4x4px, constraints scale/scale, stroke red/500 1.5px
+          - VECTOR "Vector", 18x12px, constraints scale/scale, stroke red/500 1.5px
+      - TEXT "Password must include at least one letter, number and specia", 300x36px, constraints left/top, fill red/500, text [body/xs]
+    - COMPONENT "Variant=Default, StrengthMeterOpen=false, Disabled=true", 300x118px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Password", 75x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400
+        - TEXT "Enter password", 118x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+          - VECTOR "Vector", 18x12px, constraints scale/scale, stroke white 1.5px
+      - TEXT "Password must include at least one letter, number and specia", 300x36px, constraints left/top, fill white, text [body/xs]
+    - COMPONENT "Variant=Default, StrengthMeterOpen=false, Disabled=false", 300x118px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Password", 75x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - FRAME "Frame 22", 154x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "lock", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12x16px, constraints scale/scale, stroke white 1.5px
+          - TEXT "Enter password", 118x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+          - VECTOR "Vector", 18x12px, constraints scale/scale, stroke white 1.5px
+      - TEXT "Password must include at least one letter, number and specia", 300x36px, constraints left/top, fill white, text [body/xs]
+    - COMPONENT "Variant=Default, StrengthMeterOpen=true, Disabled=false", 300x246px, constraints left/top
+      - TEXT "Password", 75x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Enter password", 118x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+          - VECTOR "Vector", 18x12px, constraints scale/scale, stroke white 1.5px
+      - TEXT "Password must include at least one letter, number and specia", 300x36px, constraints left/top, fill white, text [body/xs]
+      - INSTANCE "StrengthMeter", 211x156px, vertical pad 12 12 12 12px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame 20", 187x4px, horizontal pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18", 50x4px, constraints left/top, fill red/500
+          - FRAME "Frame 19", 138x4px, constraints left/top, fill gray/400
+        - FRAME "Frame 21", 182x112px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 13", 182x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Includes at least 6 characters", 162x14px, constraints left/top, fill green/500, text [body/xs]
+          - FRAME "Frame 14", 113x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Includes number", 93x14px, constraints left/top, fill red/500, text [body/xs]
+          - FRAME "Frame 15", 156x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Includes lowercase letter", 136x14px, constraints left/top, fill red/500, text [body/xs]
+          - FRAME "Frame 16", 160x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Includes uppercase letter", 140x14px, constraints left/top, fill red/500, text [body/xs]
+          - FRAME "Frame 17", 152x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "Includes special symbol", 132x14px, constraints left/top, fill red/500, text [body/xs]
+  - COMPONENT "StrengthMeter", 211x156px, vertical pad 12 12 12 12px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+    - FRAME "Frame 20", 187x4px, horizontal pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 18", 50x4px, constraints left/top, fill red/500
+      - FRAME "Frame 19", 138x4px, constraints left/top, fill gray/400
+    - FRAME "Frame 21", 182x112px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 13", 182x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 9.33x6.67px, constraints scale/scale, stroke green/500 1.5px
+        - TEXT "Includes at least 6 characters", 162x14px, constraints left/top, fill green/500, text [body/xs]
+      - FRAME "Frame 14", 113x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6.99x6.99px, constraints scale/scale, stroke red/500 1.5px
+        - TEXT "Includes number", 93x14px, constraints left/top, fill red/500, text [body/xs]
+      - FRAME "Frame 15", 156x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6.99x6.99px, constraints scale/scale, stroke red/500 1.5px
+        - TEXT "Includes lowercase letter", 136x14px, constraints left/top, fill red/500, text [body/xs]
+      - FRAME "Frame 16", 160x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6.99x6.99px, constraints scale/scale, stroke red/500 1.5px
+        - TEXT "Includes uppercase letter", 140x14px, constraints left/top, fill red/500, text [body/xs]
+      - FRAME "Frame 17", 152x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6.99x6.99px, constraints scale/scale, stroke red/500 1.5px
+        - TEXT "Includes special symbol", 132x14px, constraints left/top, fill red/500, text [body/xs]
+
+Screen: Dark Components / NumberInputs
+- FRAME "NumberInputs", 420x772px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "NUMBER INPUTS", 227x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "NumberInput", 340x628px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default, Disabled=false", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Age", 31x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 0 0 0 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Enter your age", 111x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame 27", 24x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "Variant=Default, Disabled=true", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Age", 31x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 0 0 0 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400, stroke gray/400 1px
+        - TEXT "Enter your age", 111x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame 27", 24x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "Variant=Variant5, Disabled=false", 300x96px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Age", 31x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 0 0 0 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Enter your age", 111x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame 27", 24x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - TEXT "From 0 to 99 years old.", 126x14px, constraints left/top, fill white, text [body/xs]
+    - COMPONENT "Variant=Default, Disabled=false", 300x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Age", 31x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 0 0 0 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - FRAME "Frame 28", 147x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "emoji-sing-right-note", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Ellipse", 4x6px, constraints scale/scale, radius 0/0/0/0px, fill white, stroke white 1.5px
+            - VECTOR "Vector", 4x4px, constraints scale/scale, stroke white 1.5px
+            - VECTOR "Vector", 19.95x20px, constraints scale/scale, stroke white 1.5px
+            - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+            - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+          - TEXT "Enter your age", 111x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame 27", 24x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "Variant=Error, Disabled=false", 300x96px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Age", 31x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x48px, horizontal pad 0 0 0 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke red/500 1px, effect shadow-red
+        - FRAME "Frame 28", 52x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "emoji-sing-right-note", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Ellipse", 4x6px, constraints scale/scale, radius 0/0/0/0px, fill red/500, stroke red/500 1.5px
+            - VECTOR "Vector", 4x4px, constraints scale/scale, stroke red/500 1.5px
+            - VECTOR "Vector", 19.95x20px, constraints scale/scale, stroke red/500 1.5px
+            - VECTOR "Vector", 1x1px, constraints scale/scale, fill red/500, stroke red/500 1.5px
+            - VECTOR "Vector", 1x1px, constraints scale/scale, fill red/500, stroke red/500 1.5px
+          - TEXT "17", 16x18px, constraints left/top, fill red/500, text [body]
+        - FRAME "Frame 27", 24x48px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~4 shapes]
+      - TEXT "From 0 to 99 years old.", 126x14px, constraints left/top, fill red/500, text [body/xs]
+    - COMPONENT "Variant=NoControls, Disabled=false", 151x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Age", 31x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 151x48px, horizontal pad 20 20 20 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Enter your age", 111x18px, constraints left/top, fill gray/100, text [body]
+
+Screen: Dark Components / TextAreas
+- FRAME "TextAreas", 420x786px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "TEXT AREAS", 167x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "TextArea", 340x642px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default, Disabled=false", 300x130px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Description", 86x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x104px, horizontal pad 12 20 12 20px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Enter a lengthy description", 204x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "Variant=Variant4, Disabled=false", 300x130px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Description", 86x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x104px, horizontal pad 12 20 12 20px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400, stroke gray/400 1px
+        - TEXT "Enter a lengthy description", 204x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "Variant=Focused, Disabled=false", 300x130px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Description", 86x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x104px, horizontal pad 12 20 12 20px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke green/500 1px
+        - TEXT "Enter a lengthy description", 204x18px, constraints left/top, fill gray/100, text [body]
+    - COMPONENT "Variant=Error, Disabled=false", 300x152px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Description", 86x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 300x104px, horizontal pad 12 20 12 20px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke red/500 1px, effect shadow-red
+        - TEXT "Enter a lengthy description", 204x18px, constraints left/top, fill gray/100, text [body]
+      - TEXT "Invalid description.", 108x14px, constraints left/top, fill red/500, text [body/xs-bold]
+
+Screen: Dark Components / Selects
+- FRAME "Selects", 320x838px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "SELECT", 99x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Select", 240x544px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default", 200x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Sort by", 54x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 200x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Select item", 83x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "Variant=Filled", 200x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Sort by", 54x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 200x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Price", 38x18px, constraints left/top, fill white, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "Variant=Default", 200x200px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Sort by", 54x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 200x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Price", 38x18px, constraints left/top, fill white, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+      - INSTANCE "SelectMenu", 200x118px, vertical pad 4 4 4 4px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame 32", 192x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+          - TEXT "Price", 38x18px, constraints left/top, fill white, text [body]
+        - FRAME "Frame 33", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - TEXT "Quantity", 68x18px, constraints left/top, fill white, text [body]
+        - FRAME "Frame 34", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - TEXT "Date added", 92x18px, constraints left/top, fill white, text [body]
+    - COMPONENT "Variant=Error", 200x96px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Sort by", 54x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 200x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke red/500 1px, effect shadow-red
+        - TEXT "Select item", 83x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke red/500 1.5px
+      - TEXT "Pick at least one item.", 124x14px, constraints left/top, fill red/500, text [body/xs-bold]
+  - COMPONENT "SelectMenu", 200x118px, vertical pad 4 4 4 4px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+    - FRAME "Frame 32", 192x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+      - TEXT "Price", 38x18px, constraints left/top, fill white, text [body]
+    - FRAME "Frame 33", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Quantity", 68x18px, constraints left/top, fill white, text [body]
+    - FRAME "Frame 34", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Date added", 92x18px, constraints left/top, fill white, text [body]
+
+Screen: Dark Components / MultiSelects
+- FRAME "MultiSelects", 494x914px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "MULTISELECT", 181x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "MultiSelect", 414x582px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variants=Default, Value1=Javascript, Value2=Python", 374x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "What are your favorite programming languages?", 373x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 374x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - TEXT "Select items", 91x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "Variants=Filled, Value1=Javascript, Value2=Python", 374x74px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "What are your favorite programming languages?", 373x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 374x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - FRAME "Frame 31", 217x32px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 29", 113x32px, horizontal pad 6 8 6 8px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+            - TEXT "Javascript", 69x16px, constraints left/top, fill gray/1000, text [body/sm]
+            - INSTANCE "close", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 30", 92x32px, horizontal pad 6 8 6 8px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+            - TEXT "Python", 48x16px, constraints left/top, fill gray/1000, text [body/sm]
+            - INSTANCE "close", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "Variants=Filled, Value1=Javascript, Value2=Python", 374x238px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "What are your favorite programming languages?", 373x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 374x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke gray/400 1px
+        - FRAME "Frame 31", 217x32px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 29", 113x32px, horizontal pad 6 8 6 8px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+            - TEXT "Javascript", 69x16px, constraints left/top, fill gray/1000, text [body/sm]
+            - INSTANCE "close", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 30", 92x32px, horizontal pad 6 8 6 8px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+            - TEXT "Python", 48x16px, constraints left/top, fill gray/1000, text [body/sm]
+            - INSTANCE "close", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+      - INSTANCE "MultiSelectMenu", 374x156px, vertical pad 4 4 4 4px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame 36", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - TEXT "Rust", 34x18px, constraints left/top, fill white, text [body]
+        - FRAME "Frame 37", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - TEXT "Java", 37x18px, constraints left/top, fill white, text [body]
+        - FRAME "Frame 34", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - TEXT "C#", 22x18px, constraints left/top, fill white, text [body]
+        - FRAME "Frame 35", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - TEXT "C++", 27x18px, constraints left/top, fill white, text [body]
+    - COMPONENT "Variants=Error, Value1=Javascript, Value2=Python", 374x96px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "What are your favorite programming languages?", 373x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 9", 374x48px, horizontal pad 12 20 12 20px gap 12px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700, stroke red/500 1px, effect shadow-red
+        - TEXT "Select items", 91x18px, constraints left/top, fill gray/100, text [body]
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x6px, constraints scale/scale, stroke red/500 1.5px
+      - TEXT "Pick at least one item.", 124x14px, constraints left/top, fill red/500, text [body/xs-bold]
+  - COMPONENT "MultiSelectMenu", 374x156px, vertical pad 4 4 4 4px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+    - FRAME "Frame 36", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Rust", 34x18px, constraints left/top, fill white, text [body]
+    - FRAME "Frame 37", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Java", 37x18px, constraints left/top, fill white, text [body]
+    - FRAME "Frame 34", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "C#", 22x18px, constraints left/top, fill white, text [body]
+    - FRAME "Frame 35", 104x34px, horizontal pad 8 8 8 8px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "C++", 27x18px, constraints left/top, fill white, text [body]
+
+Screen: Dark Components / Checkbox
+- FRAME "Checkbox", 410x308px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "CHECKBOX", 151x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Checkbox", 330x164px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default", 290x28px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 47", 28x28px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+      - TEXT "I agree to give away my freedom", 250x18px, constraints left/top, fill white, text [body]
+    - COMPONENT "Variant=Checked", 290x28px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 47", 28x28px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+        - FRAME "Frame", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 11.67x8.33px, constraints scale/scale, stroke gray/1000 1.5px
+      - TEXT "I agree to give away my freedom", 250x18px, constraints left/top, fill white, text [body]
+    - COMPONENT "Variant=Checked", 290x28px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 47", 28x28px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+        - INSTANCE "emoji-sing-right-note", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Ellipse", 3.33x5px, constraints scale/scale, radius 0/0/0/0px, fill gray/1000, stroke gray/1000 1.5px
+          - VECTOR "Vector", 3.33x3.33px, constraints scale/scale, stroke gray/1000 1.5px
+          - VECTOR "Vector", 16.63x16.67px, constraints scale/scale, stroke gray/1000 1.5px
+          - VECTOR "Vector", 0.83x0.83px, constraints scale/scale, fill gray/1000, stroke gray/1000 1.5px
+          - VECTOR "Vector", 0.83x0.83px, constraints scale/scale, fill gray/1000, stroke gray/1000 1.5px
+      - TEXT "I agree to give away my freedom", 250x18px, constraints left/top, fill white, text [body]
+
+Screen: Dark Components / Checkbox
+- FRAME "Checkbox", 195x268px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "TOGGLE", 115x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Toggle", 98x124px, vertical pad 20 20 20 20px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default", 58x32px, constraints left/top, radius 20px, fill gray/700
+      - FRAME "Frame 105", 24x24px, constraints left/top, radius 60px, fill white
+    - COMPONENT "Variant=Checked", 58x32px, constraints left/top, radius 20px, fill green/500
+      - FRAME "Frame 105", 24x24px, constraints left/top, radius 60px, fill white
+
+Screen: Dark Components / RadioGroup
+- FRAME "RadioGroup", 453x472px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "RADIO GROUP", 199x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "RadioGroup", 373x328px, vertical pad 20 20 20 20px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default", 333x134px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Select your favorite programming language", 333x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 48", 105x96px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Checkbox", 105x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 47", 24x24px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill gray/700
+          - TEXT "Javascript", 69x16px, constraints left/top, fill white, text [body/sm]
+        - FRAME "Checkbox", 84x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 47", 24x24px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill gray/700
+          - TEXT "Python", 48x16px, constraints left/top, fill white, text [body/sm]
+        - FRAME "Checkbox", 68x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 47", 24x24px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill gray/700
+          - TEXT "Java", 32x16px, constraints left/top, fill white, text [body/sm]
+    - COMPONENT "Variant=Selected", 333x134px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Select your favorite programming language", 333x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 48", 105x96px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Checkbox", 105x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 47", 24x24px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill gray/700
+          - TEXT "Javascript", 69x16px, constraints left/top, fill white, text [body/sm]
+        - FRAME "Checkbox", 84x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 47", 24x24px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill gray/700
+          - TEXT "Python", 48x16px, constraints left/top, fill white, text [body/sm]
+        - FRAME "Checkbox", 68x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 51", 24x24px, constraints left/top
+            - FRAME "Frame 47", 24x24px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill gray/700
+            - FRAME "Frame 48", 16x16px, horizontal pad 6 6 6 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill green/500
+          - TEXT "Java", 32x16px, constraints left/top, fill white, text [body/sm]
+
+Screen: Dark Components / Selects
+- FRAME "Selects", 360x344px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "SLIDER", 95x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Slider", 280x200px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 240x70px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Slippage percentage", 161x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 53", 240x32px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 49", 240x6px, constraints left/top, radius 4px, fill gray/400
+          - FRAME "Frame 54", 52x6px, constraints left/top, radius 4px, fill green/500
+          - FRAME "Frame 51", 4x8px, constraints left/top, radius 4px, fill green/500
+          - FRAME "Frame 52", 4x8px, constraints left/top, radius 4px, fill green/500
+          - FRAME "Frame 53", 4x8px, constraints left/top, radius 4px, fill green/500
+          - FRAME "Frame 50", 24x24px, constraints left/top, radius 4px, fill green/500, stroke #26606E 2px
+        - FRAME "Frame 52", 240x14px, horizontal pad 0 40 0 40px gap 20px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "20%", 27x14px, constraints left/top, fill white, text [body/xs-bold]
+          - TEXT "50%", 27x14px, constraints left/top, fill white, text [body/xs-bold]
+          - TEXT "80%", 27x14px, constraints left/top, fill white, text [body/xs-bold]
+    - COMPONENT "Property 1=Disabled", 240x70px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Slippage percentage", 161x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 53", 240x32px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 49", 240x6px, constraints left/top, radius 4px, fill gray/400
+          - FRAME "Frame 54", 52x6px, constraints left/top, radius 4px, fill gray/100
+          - FRAME "Frame 51", 4x8px, constraints left/top, radius 4px, fill white
+          - FRAME "Frame 52", 4x8px, constraints left/top, radius 4px, fill white
+          - FRAME "Frame 53", 4x8px, constraints left/top, radius 4px, fill white
+        - FRAME "Frame 52", 240x14px, horizontal pad 0 40 0 40px gap 20px align space_between/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "20%", 27x14px, constraints left/top, fill white, text [body/xs-bold]
+          - TEXT "50%", 27x14px, constraints left/top, fill white, text [body/xs-bold]
+          - TEXT "80%", 27x14px, constraints left/top, fill white, text [body/xs-bold]
+
+Screen: Dark Components / Pagination
+- FRAME "Pagination", 594x412px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "PAGINATION", 175x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Pagination", 514x268px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default", 366x42px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 38", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 40", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "1", 8x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 41", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "2", 9x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 42", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "...", 13x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 43", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "5", 10x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 44", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "6", 10x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 39", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "Variant=FirstPage", 366x42px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 38", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke gray/400 1.5px
+      - FRAME "Frame 40", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+        - TEXT "1", 8x18px, constraints left/top, fill gray/1000, text [body]
+      - FRAME "Frame 41", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "2", 9x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 42", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "...", 13x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 43", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "5", 10x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 44", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "6", 10x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 39", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke white 1.5px
+    - COMPONENT "Variant=LastPage", 366x42px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 38", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 45", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "1", 8x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 41", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "2", 9x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 42", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "...", 13x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 43", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "5", 10x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 44", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+        - TEXT "6", 10x18px, constraints left/top, fill gray/1000, text [body]
+      - FRAME "Frame 39", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke gray/400 1.5px
+    - COMPONENT "Variant=WithEdges", 474x42px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 38", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 3.5x7px, constraints scale/scale, stroke white 1.5px
+          - VECTOR "Vector", 3.5x7px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 45", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 40", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "1", 8x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 41", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "2", 9x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 42", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "...", 13x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 43", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "5", 10x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 44", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "6", 10x18px, constraints left/top, fill white, text [body]
+      - FRAME "Frame 39", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 46", 42x42px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 3.5x7px, constraints scale/scale, stroke white 1.5px
+          - VECTOR "Vector", 3.5x7px, constraints scale/scale, stroke white 1.5px
+
+Screen: Dark Components / Accordion
+- FRAME "Accordion", 496x385px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "ACCORDION", 169x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT "Accordion", 416x241px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 62", 416x77px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 61", 380x77px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "What is this design?", 174x21px, constraints left/top, fill white, text [h5], [heading]
+        - TEXT "It’s the simplest, barebone implementation I could come with", 374x36px, constraints left/top, fill white, text [body/regular]
+    - LINE "Line 3", 416x0px, constraints left/top, stroke gray/400 2px
+    - FRAME "Frame 63", 172x24px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 61", 136x22px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Why is it so ugly?", 136x22px, constraints left/top, fill white, text [Open Sans Bold, 16px]
+    - LINE "Line 4", 416x0px, constraints left/top, stroke gray/400 2px
+    - FRAME "Frame 64", 380x60px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "arrow", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 12x6px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 61", 408x60px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "You really made this?", 172x22px, constraints left/top, fill white, text [Open Sans Bold, 16px]
+        - TEXT "Yep, yep, yeeeep.", 408x18px, constraints left/top, fill white, text [body/regular]
+
+Screen: Dark Components / Affix
+- FRAME "Affix", 284x300px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "AFFIX", 80x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Affix", 204x156px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Collapsed", 52x48px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 54px, fill green/500
+      - INSTANCE "mail", 24x24px, constraints left/top
+        - VECTOR "Vector", 10x3.5px, constraints scale/scale, stroke gray/1000 1.5px
+        - VECTOR "Vector", 20x14px, constraints scale/scale, radius 2px, stroke gray/1000 1.5px
+    - COMPONENT "Variant=Default", 164x48px, horizontal pad 12 20 12 20px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+      - INSTANCE "mail", 24x24px, constraints left/top
+        - VECTOR "Vector", 10x3.5px, constraints scale/scale, stroke gray/1000 1.5px
+        - VECTOR "Vector", 20x14px, constraints scale/scale, radius 2px, stroke gray/1000 1.5px
+      - TEXT "Contact me", 88x18px, constraints left/top, fill gray/1000, text [body]
+
+Screen: Dark Components / Highlight
+- FRAME "Highlight", 628x180px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "HIGHLIGHT", 156x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT "Highlight", 548x36px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill green/transparent
+    - TEXT "Tweet about this post and it will show up here! Or, click he", 548x36px, constraints left/top, fill green/400, text [body]
+
+Screen: Dark Components / Highlight
+- FRAME "Highlight", 541x482px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "NOTIFICATIONS", 213x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Notification", 461x338px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Info", 421x86px, constraints left/top, fill #FFFFFF
+      - FRAME "Notification", 421x84px, horizontal pad 12 12 12 12px gap 20px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame 96", 354x60px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Success notification", 155x32px, constraints left/top, fill white, text [h6], [heading]
+          - TEXT "This is default notification with title and body", 354x26px, constraints left/top, fill white, text [body/regular]
+        - INSTANCE "close", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10.49x10.49px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 66", 16x16px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill green/500
+    - COMPONENT "Variant=Error", 421x86px, constraints left/top, fill #FFFFFF
+      - FRAME "Notification", 421x84px, horizontal pad 12 12 12 12px gap 20px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame 96", 354x60px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Error notification", 131x32px, constraints left/top, fill white, text [h6], [heading]
+          - TEXT "This is default notification with title and body", 354x26px, constraints left/top, fill white, text [body/regular]
+        - INSTANCE "close", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10.49x10.49px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 66", 16x16px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill red/500
+    - COMPONENT "Variant=Info", 421x86px, constraints left/top, fill #FFFFFF
+      - FRAME "Notification", 421x84px, horizontal pad 12 12 12 12px gap 20px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame 96", 354x60px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Info notification", 124x32px, constraints left/top, fill white, text [h6], [heading]
+          - TEXT "This is default notification with title and body", 354x26px, constraints left/top, fill white, text [body/regular]
+        - INSTANCE "close", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 10.49x10.49px, constraints scale/scale, stroke white 1.5px
+      - FRAME "Frame 66", 16x16px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #6394DE
+
+Screen: Dark Components / Loader
+- FRAME "Loader", 193x184.24px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "LOADER", 113x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT "Loader", 40x40.24px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+    - FRAME "Frame", 24x24.24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale, fill gray/900
+      - VECTOR "Vector", 14.15x9.26px, constraints scale/scale, fill green/500
+
+Screen: Dark Components / Skeletons
+- FRAME "Skeletons", 258x308px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "SKELETONS", 158x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT "SkeletonSample", 178x164px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 99", 178x108px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "RoundSkeleton", 48x48px, constraints left/top, fill gray/400
+      - FRAME "TextSkeleton", 178x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Row", 178x8px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400
+        - FRAME "Row", 178x8px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400
+        - FRAME "Row", 146x8px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400
+    - FRAME "Frame 100", 178x32px, horizontal pad 0 0 0 0px gap 32px align space_between/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "RectangleSkeleton", 80x32px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400
+      - FRAME "Loader", 32x32px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400
+
+Screen: Dark Components / Progress
+- FRAME "Progress", 258x152px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "PROGRESS", 149x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT "Progress", 178x8px, constraints left/top, fill #FFFFFF
+    - FRAME "Row", 178x8px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/400
+    - FRAME "Row", 78x8px, horizontal pad 8 8 8 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill green/500
+
+Screen: Dark Components / Code
+- FRAME "Code", 488x298px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "CODE", 77x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT "Code", 408x154px, horizontal pad 20 20 20 20px gap 48px sizing W:fixed H:fixed, constraints left/top, fill gray/700
+    - FRAME "Frame 103", 296x114px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "import { Button } from “@snowfox/core”", 296x18px, constraints left/top, fill white, text [body]
+      - TEXT "Text", 0x18px, constraints left/top, fill white, text [body]
+      - TEXT "const Demo = () => { return <Button> Foo </Button> }", 241x54px, constraints left/top, fill white, text [body]
+    - INSTANCE "copy", 24x24px, constraints left/top
+      - VECTOR "Vector", 11x11px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+      - VECTOR "Vector", 11x11px, constraints scale/scale, radius 0.6px, stroke white 1.5px
+
+Screen: Dark Components / Menu
+- FRAME "Menu", 280x1063px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "MENU", 82x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "MenuButton", 197x355px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default", 32x32px, horizontal pad 4 4 4 4px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+      - INSTANCE "more-horiz", 24x24px, constraints left/top
+        - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+        - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+        - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+    - COMPONENT "Variant=Open", 32x32px, constraints left/top, radius 4px, fill gray/700
+      - INSTANCE "more-horiz", 24x24px, constraints left/top
+        - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+        - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+        - VECTOR "Vector", 1x1px, constraints scale/scale, fill white, stroke white 1.5px
+      - INSTANCE "Menu", 160x220px, vertical pad 12 12 12 12px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - FRAME "Frame 88", 73x100px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Features", 53x16px, constraints left/top, fill gray/100, text [Open Sans Bold, 12px]
+          - FRAME "Frame 87", 73x72px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 85", 52x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 86", 73x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 84", 71x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 4", 136x0px, constraints left/top, stroke gray/400 1px
+        - FRAME "Frame 89", 130x72px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Danger zone", 75x16px, constraints left/top, fill gray/100, text [Open Sans Bold, 12px]
+          - FRAME "Frame 87", 130x44px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 85", 92x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 86", 130x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+  - COMPONENT_SET "Menu", 200x532px, vertical pad 20 20 20 20px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default", 160x220px, vertical pad 12 12 12 12px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+      - FRAME "Frame 88", 73x100px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Features", 53x16px, constraints left/top, fill gray/100, text [Open Sans Bold, 12px]
+        - FRAME "Frame 87", 73x72px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 85", 52x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "chat-bubble", 16x16px, constraints left/top, fill gray/800
+            - TEXT "Chat", 28x14px, constraints left/top, fill white, text [body/xs-bold]
+          - FRAME "Frame 86", 73x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "search", 16x16px, constraints left/top, fill gray/800
+            - TEXT "Discover", 49x14px, constraints left/top, fill white, text [body/xs-bold]
+          - FRAME "Frame 84", 71x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "settings", 16x16px, constraints left/top, fill gray/800
+            - TEXT "Settings", 47x14px, constraints left/top, fill white, text [body/xs-bold]
+      - LINE "Line 4", 136x0px, constraints left/top, stroke gray/400 1px
+      - FRAME "Frame 89", 130x72px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Danger zone", 75x16px, constraints left/top, fill gray/100, text [Open Sans Bold, 12px]
+        - FRAME "Frame 87", 130x44px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 85", 92x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "stats-report", 16x16px, constraints left/top, fill gray/800
+            - TEXT "Export data", 68x14px, constraints left/top, fill white, text [body/xs-bold]
+          - FRAME "Frame 86", 130x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "trash", 16x16px, constraints left/top, fill gray/800
+            - TEXT "Delete my account", 106x14px, constraints left/top, fill red/500, text [body/xs-bold]
+    - COMPONENT "Variant=Hovered", 160x252px, vertical pad 12 6 12 6px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+      - FRAME "Frame 88", 140x118px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 93", 69x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Features", 53x16px, constraints left/top, fill gray/100, text [Open Sans Bold, 12px]
+        - FRAME "Frame 87", 148x96px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 85", 148x32px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+            - INSTANCE "chat-bubble", 16x16px, constraints left/top
+            - TEXT "Chat", 28x14px, constraints left/top, fill white, text [body/xs-bold]
+          - FRAME "Frame 86", 148x32px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "search", 16x16px, constraints left/top, fill gray/800
+            - TEXT "Discover", 49x14px, constraints left/top, fill white, text [body/xs-bold]
+          - FRAME "Frame 84", 148x32px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "settings", 16x16px, constraints left/top, fill gray/800
+            - TEXT "Settings", 47x14px, constraints left/top, fill white, text [body/xs-bold]
+      - LINE "Line 4", 148x0px, constraints left/top, stroke gray/400 1px
+      - FRAME "Frame 89", 148x86px, vertical pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 94", 91x16px, horizontal pad 0 8 0 8px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Danger zone", 75x16px, constraints left/top, fill gray/100, text [Open Sans Bold, 12px]
+        - FRAME "Frame 87", 148x64px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 85", 148x32px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "stats-report", 16x16px, constraints left/top, fill gray/800
+            - TEXT "Export data", 68x14px, constraints left/top, fill white, text [body/xs-bold]
+          - FRAME "Frame 86", 148x32px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "trash", 16x16px, constraints left/top, fill gray/800
+            - TEXT "Delete my account", 106x14px, constraints left/top, fill red/500, text [body/xs-bold]
+
+Screen: Dark Components / Popover
+- FRAME "Popover", 245x309px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "POPOVER", 136x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - FRAME "PopoverButton", 165x48px, constraints left/top, radius 4px, fill green/500
+    - INSTANCE "mail", 24x24px, constraints left/top
+      - VECTOR "Vector", 10x3.5px, constraints scale/scale, stroke gray/1000 1.5px
+      - VECTOR "Vector", 20x14px, constraints scale/scale, radius 2px, stroke gray/1000 1.5px
+    - TEXT "Contact me", 88x18px, constraints left/top, fill gray/1000, text [body]
+    - INSTANCE "Popover", 208x46px, vertical pad 0 0 0 0px gap -6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - REGULAR_POLYGON "Polygon 1", 24x24px, constraints left/top, fill gray/700
+      - FRAME "Menu", 208x28px, vertical pad 12 12 12 12px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "We are sorry, the e-mail cannot be sent.", 184x4px, constraints left/top, fill white, text [body/sm]
+
+Screen: Dark Components / Tooltip
+- FRAME "Tooltip", 245x309px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "TOOLTIP", 118x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT "TooltipButton", 165x48px, constraints left/top, radius 4px, fill green/500
+    - INSTANCE "mail", 24x24px, constraints left/top
+      - VECTOR "Vector", 10x3.5px, constraints scale/scale, stroke gray/1000 1.5px
+      - VECTOR "Vector", 20x14px, constraints scale/scale, radius 2px, stroke gray/1000 1.5px
+    - TEXT "Contact me", 88x18px, constraints left/top, fill gray/1000, text [body]
+    - FRAME "Popover", 79x50px, vertical pad 0 0 0 0px gap -6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - REGULAR_POLYGON "Polygon 1", 16x16px, constraints left/top, fill gray/700
+      - FRAME "Menu", 79x40px, vertical pad 12 12 12 12px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill gray/700
+        - TEXT "Click me", 55x16px, constraints left/top, fill white, text [body/sm]
+
+Screen: Dark Components / Badges
+- FRAME "Badges", 208x352px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "BADGES", 113x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Badge", 128x208px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Variant=Default", 88x24px, horizontal pad 4 20 4 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill gray/100
+      - TEXT "BADGE", 48x16px, constraints left/top, fill light-gray/500, text [sm-bold]
+    - COMPONENT "Variant=Danger", 88x24px, horizontal pad 4 20 4 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill red/500
+      - TEXT "BADGE", 48x16px, constraints left/top, fill red/100, text [sm-bold]
+    - COMPONENT "Variant=Success", 88x24px, horizontal pad 4 20 4 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill green/600
+      - TEXT "BADGE", 48x16px, constraints left/top, fill green/200, text [sm-bold]
+    - COMPONENT "Variant=Warning", 88x24px, horizontal pad 4 20 4 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill yellow/900
+      - TEXT "BADGE", 48x16px, constraints left/top, fill yellow/400, text [sm-bold]
+
+Screen: Dark Components / Badges
+- FRAME "Badges", 232x500px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, fill gray/900
+  - TEXT "INDICATOR", 152x32px, constraints left/top, fill white, text [SUBTITLE], [heading]
+  - COMPONENT_SET "Indicator", 104x356px, vertical pad 20 20 20 20px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Position=top-right", 64x64px, constraints left/top, radius 4px, fill image(hash: f0a3376169c4da5e78338d8bb6dc30ecc0564f18)
+      - FRAME "Frame 66", 27x16px, vertical pad 2 4 2 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill green/500
+        - TEXT "Alex", 19x12px, constraints left/top, fill gray/1000, text [Open Sans SemiBold, 9px]
+    - COMPONENT "Position=top-left", 64x64px, constraints left/top, radius 4px, fill image(hash: f0a3376169c4da5e78338d8bb6dc30ecc0564f18)
+      - FRAME "Frame 66", 27x16px, vertical pad 2 4 2 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill green/500
+        - TEXT "Alex", 19x12px, constraints left/top, fill gray/1000, text [Open Sans SemiBold, 9px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

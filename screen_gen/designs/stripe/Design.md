@@ -1,0 +1,1370 @@
+---
+name: stripe-connect-embedded-components-ui-toolkit-community
+source_file: Stripe Connect Embedded Components – UI Toolkit (Community)
+source_page: All pages (15): Cover, Getting started, Change log, ---, Examples, All components,     ↪︎ Onboarding and compliance,     ↪︎ Payments,     ↪︎ Payouts,     ↪︎ Capital,     ↪︎ Tax,     ↪︎ Treasury and issuing,     ↪︎ Reporting, ---, 🔒 Components
+generated_at: 2026-07-02T20:56:37.925508+00:00
+---
+
+# Stripe Connect Embedded Components – UI Toolkit (Community) Design Guidelines
+
+## Source
+- Figma file: Stripe Connect Embedded Components – UI Toolkit (Community)
+- Figma page: All pages (15): Cover, Getting started, Change log, ---, Examples, All components,     ↪︎ Onboarding and compliance,     ↪︎ Payments,     ↪︎ Payouts,     ↪︎ Capital,     ↪︎ Tax,     ↪︎ Treasury and issuing,     ↪︎ Reporting, ---, 🔒 Components
+- Extracted at: 2026-07-02T20:56:37.925508+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Info/400: none
+- Text & Icons/Primary: [#30313D]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 509 uses
+- #000000: 107 uses
+- #F6F9FC: 106 uses
+- #444444: 74 uses
+- #E25950: 70 uses
+- #9747FF: 57 uses
+- #F0F0F0: 38 uses
+- #EAEEF3: 36 uses
+- #717171: 31 uses
+- #27AE6014: 29 uses
+- #F5F6F8: 28 uses
+- #0000000D: 26 uses
+- #58A942: 26 uses
+- #61C454: 26 uses
+- #737373: 26 uses
+- #9E9E9E: 26 uses
+- #BFBFBF: 26 uses
+- #CE5347: 26 uses
+- #D6A243: 26 uses
+- #EE6A5F: 26 uses
+- #F5BD4F: 26 uses
+- #3C42571F: 24 uses
+- #675DFF: 22 uses
+- #F0EFFF: 22 uses
+- #D8DEE4: 21 uses
+- #23840233: 20 uses
+- #DADADA: 20 uses
+- #FCD669: 20 uses
+- #43458B: 18 uses
+- #E259501A: 18 uses
+- #27AE60: 16 uses
+- #3C4043: 16 uses
+- #00579F: 14 uses
+- #333333: 14 uses
+- #0000001A: 12 uses
+- #211E1E: 12 uses
+- #857AFE: 12 uses
+- #99A5B8: 12 uses
+- #117ACA: 10 uses
+- #DB0011: 10 uses
+
+## Typography Tokens
+- Label/Small: SF Pro Regular (400), 12px / 16px, tracking 0px
+- Label/Medium: SF Pro Regular (400), 14px / 20px, tracking 0px
+- Label/Medium emphasized: SF Pro Semibold (590), 14px / 20px, tracking 0px
+- Label/labelSmFontSize Subdued: SF Pro Text Regular (400), 12px / 16px, tracking -0.02px
+- Body/Small: SF Pro Regular (400), 14px / 20px, tracking 0px
+- Label/Small: SF Pro Text Regular (400), 12px / 16px, tracking 0px
+- Body/Small: SF Pro Text Regular (400), 14px / 20px, tracking -0.15px
+- Body/Small emphasized: SF Pro Semibold (590), 14px / 20px, tracking 0px
+- Heading/XSmall: SF Pro Bold (700), 12px / 20px, tracking 0px
+- Heading/Small: SF Pro Bold (700), 16px / 24px, tracking 0px
+- Heading/XLarge: SF Pro Bold (700), 28px / 36px, tracking 0.42px
+- Heading/Medium: SF Pro Bold (700), 20px / 28px, tracking 0px
+- Label/Small emphasized: SF Pro Semibold (590), 12px / 16px, tracking 0px
+- Heading/Large: SF Pro Bold (700), 24px / 32px, tracking 0.36px
+- Label/labelMdFontSize Subdued: SF Pro Text Regular (400), 14px / 20px, tracking -0.15px
+- Label/labelMdFontSize: SF Pro Text Semibold (600), 14px / 20px, tracking -0.15px
+- Body/Medium emphasized: SF Pro Semibold (590), 16px / 24px, tracking 0px
+- Body/Medium: SF Pro Regular (400), 16px / 24px, tracking 0px
+- Label/Medium emphasized: SF Pro Text Semibold (600), 14px / 20px, tracking -0.15px
+
+## Raw Typography (unstyled)
+- SF Pro Regular, 14px: 160 uses
+- Inter SemiBold, 18px: 127 uses
+- SF Pro Semibold, 14px: 108 uses
+- SF Pro Text Regular, 14px: 64 uses
+- SF Pro Semibold, 12px: 61 uses
+- Inter Regular, 24px: 58 uses
+- Inter SemiBold, 16px: 58 uses
+- Inter Bold, 20px: 47 uses
+- Inter Bold, 48px: 34 uses
+- Inter Bold, 24px: 32 uses
+- Inter SemiBold, 32px: 28 uses
+- Inter Regular, 16px: 27 uses
+- SF Pro Text Regular, 13px: 26 uses
+- Inter Regular, 28px: 25 uses
+- Inter SemiBold, 14px: 24 uses
+- SF Pro Bold, 12px: 24 uses
+- Inter SemiBold, 22px: 22 uses
+- Inter Bold, 28px: 19 uses
+- Inter SemiBold, 24px: 18 uses
+- Inter Regular, 32px: 14 uses
+- Inter Regular, 20px: 12 uses
+- Sohne Kraftig, 12px: 12 uses
+- Inter Bold, 64px: 11 uses
+- Inter Regular, 14px: 10 uses
+- Inter Medium, 32px: 9 uses
+- Inter Regular, 15px: 9 uses
+- Menlo Regular, 11px: 8 uses
+- Inter Medium, 16px: 6 uses
+- Sohne Buch, 15px: 6 uses
+
+## Typography Hierarchy
+- 64px - Inter Bold, 64px (raw)
+- 48px - Inter Bold, 48px (raw)
+- 32px - Inter Medium, 32px (raw)
+- 32px - Inter Regular, 32px (raw)
+- 32px - Inter SemiBold, 32px (raw)
+- 28px - Heading/XLarge (SF Pro Bold)
+- 28px - Inter Bold, 28px (raw)
+- 28px - Inter Regular, 28px (raw)
+- 24px - Heading/Large (SF Pro Bold)
+- 24px - Inter Bold, 24px (raw)
+- 24px - Inter Regular, 24px (raw)
+- 24px - Inter SemiBold, 24px (raw)
+- 22px - Inter SemiBold, 22px (raw)
+- 20px - Heading/Medium (SF Pro Bold)
+- 20px - Inter Bold, 20px (raw)
+- 20px - Inter Regular, 20px (raw)
+- 18px - Inter SemiBold, 18px (raw)
+- 16px - Body/Medium (SF Pro Regular)
+- 16px - Body/Medium emphasized (SF Pro Semibold)
+- 16px - Heading/Small (SF Pro Bold)
+- 16px - Inter Medium, 16px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 16px - Inter SemiBold, 16px (raw)
+- 15px - Inter Regular, 15px (raw)
+- 15px - Sohne Buch, 15px (raw)
+- 14px - Body/Small (SF Pro Regular)
+- 14px - Body/Small (SF Pro Text Regular)
+- 14px - Body/Small emphasized (SF Pro Semibold)
+- 14px - Inter Regular, 14px (raw)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - Label/Medium (SF Pro Regular)
+- 14px - Label/Medium emphasized (SF Pro Semibold)
+- 14px - Label/Medium emphasized (SF Pro Text Semibold)
+- 14px - Label/labelMdFontSize (SF Pro Text Semibold)
+- 14px - Label/labelMdFontSize Subdued (SF Pro Text Regular)
+- 14px - SF Pro Regular, 14px (raw)
+- 14px - SF Pro Semibold, 14px (raw)
+- 14px - SF Pro Text Regular, 14px (raw)
+- 13px - SF Pro Text Regular, 13px (raw)
+- 12px - Heading/XSmall (SF Pro Bold)
+- 12px - Label/Small (SF Pro Regular)
+- 12px - Label/Small (SF Pro Text Regular)
+- 12px - Label/Small emphasized (SF Pro Semibold)
+- 12px - Label/labelSmFontSize Subdued (SF Pro Text Regular)
+- 12px - SF Pro Bold, 12px (raw)
+- 12px - SF Pro Semibold, 12px (raw)
+- 12px - Sohne Kraftig, 12px (raw)
+- 11px - Menlo Regular, 11px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- _top-shadow/neutral/light/default: [drop_shadow 1px offset 0 1 #21252C29]
+- _top-shadow/form-accent/light/default: [drop_shadow 1px offset 0 1 #0A215629]
+- _top-shadow/neutral/dark/default: [drop_shadow 0px offset 0 -1 #3E444F]
+- Shadow/Medium: [drop_shadow 6px offset 0 3 #0000001F, drop_shadow 14px offset 0 7 #30313D14]
+- Shadow/Small: [drop_shadow 1px offset 0 1 #0000001F, drop_shadow 5px offset 0 2 #30313D14]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Embedded onboarding form
+- Notification banner
+- Progress ring
+- Footer
+- Account management
+- Edit business details
+- Risk intervention
+- _Notification
+- Onboarding Header
+- Payments
+- Disputes for a payment
+- Disputes list
+- Dispute details
+- Payment method icon
+- Disputed payment details
+- Payment details
+- Payment method settings
+- Payment method row
+- Payment method details
+- Send refund
+- Export
+- Payouts
+- Multi-currency
+- Balances
+- Instant payouts banner
+- Payout details
+- Balance Details
+- Pay out funds
+- Capital financing
+- Capital financing promotion
+- Capital financing application
+- Make payment
+- Tax settings
+- Tax registrations
+- Issuing card
+- Move money
+- Issuing cards list
+- Financial account
+- Transaction details
+- Financial account transactions
+- Documents
+- Timeline event
+- Toggle
+- Filter
+- Tab
+- Badge
+- Link
+- Button
+- Checkbox
+- Radio
+- Help text
+- Text input
+- Dialog
+- Card icon
+- warningCircle
+- check
+- arrowUpRight
+- cancel
+- more
+- arrowUpDown
+- chevronDown
+- chevronRight
+- info
+- Navigation
+- nav-item
+- Filters
+- Tabs
+- Address
+- Select
+- Legal name
+- Label
+- Replace
+- transfer
+- payout
+- payment
+- Component Border
+
+## Component Specs
+- Embedded onboarding form: size 500x464px, vertical layout, padding 4 4 4 4px, gap 40px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label/Small, Label/Medium emphasized, Body/Small, Body/Small emphasized, Body/Medium, Heading/XLarge] | variants: Step: Business details/Business type/Payout account/Personal details/Public details/Review and submit
+- Notification banner: size 832x161px, radius 4px, vertical layout, padding 16 20 16 20px, gap 16px, sizing W:fill H:fixed, fill #FFFFFF, stroke #E5E7EB 1px, text [Label/Medium emphasized, Body/Small, Body/Medium emphasized, Label/Small, Heading/Small] | variants: Size: Desktop/Mobile
+- Progress ring: size 20x20px | variants: Complete: 25%/50%/75%
+- Footer: size 400x94px, vertical layout, padding 0 0 0 0px, gap 16px, align min/center, sizing W:fixed H:fixed, text [Label/Small, Label/Medium emphasized, Body/Small] | variants: Beakpoint: Small/XSmall; Powered by Stripe: false/true
+- Account management: size 832x692px, vertical layout, padding 4 4 4 4px, gap 24px, sizing W:fill H:fixed, fill #FFFFFF, text [Body/Small, Label/Medium, Body/Small emphasized, Heading/Small]
+- Edit business details: size 496x871px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Small, Label/Medium emphasized, Body/Small, Body/Small emphasized, Heading/Medium]
+- Risk intervention: size 496x517px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [SF Pro Semibold, 14px, Label/labelSmFontSize Subdued, Label/Small, Label/Medium emphasized, Body/Small, Heading/Medium]
+- _Notification: size 538x109px, vertical layout, padding 0 0 0 0px, gap 16px, align center/min, sizing W:fill H:fixed, text [Label/Medium emphasized, Body/Small, Body/Medium emphasized, Label/Small]
+- Onboarding Header: size 400x128px, vertical layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [Body/Medium, Heading/XLarge, Label/Small, Body/Small emphasized]
+- Payments: size 832x552px, vertical layout, padding 8 8 8 8px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Label/Medium, Label/labelMdFontSize Subdued, Heading/XSmall, Label/Small] | variants: Tab: All/Disputes; Size: Desktop/Mobile
+- Disputes for a payment: size 600x260px, vertical layout, padding 4 4 4 4px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Label/Medium, SF Pro Semibold, 14px, Body/Small, Body/Small emphasized, Label/Small] | variants: Type: Multiple disputes/Single dispute
+- Disputes list: size 832x500px, vertical layout, padding 8 8 8 8px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Label/Medium, Label/labelMdFontSize Subdued, Heading/XSmall, Label/Small] | variants: Size: Desktop/Mobile
+- Dispute details: size 560x20px, radius 8px, vertical layout, padding 0 0 0 0px, gap 12px, sizing W:fill H:fixed, fill #FFFFFF, text [Label/Small, Body/Small emphasized] | variants: Status: Dispute lost/Dispute won/Due/Review; Open: false/true
+- Payment method icon: size 32x32px, fill #D8DEE4 | variants: Icon: Affirm/Afterpay / Clearpay/Apple Pay/Bancontact/Cards/Google Pay/Klarna/Link/Sofort/iDEAL
+- Disputed payment details: size 496x1251px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Small, Label/Medium, Label/Medium emphasized, Heading/Small, Body/Small, SF Pro Semibold, 14px, Body/Small emphasized, Heading/XLarge] | variants: Step: 0 – Details/1 – Tell us about the dispute/2 – Additional details/3 – Collect evidence
+- Payment details: size 496x774px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Small, Label/Medium, Label/Medium emphasized, Heading/Small, Body/Small, Heading/XLarge] | variants: Type: Disputed/Success
+- Payment method settings: size 946x924px, vertical layout, padding 8 8 8 8px, gap 24px, sizing W:fill H:fixed, fill #FFFFFF, text [Label/Small, Body/Small, Body/Small emphasized, Heading/Medium]
+- Payment method row: size 663x58px, horizontal layout, padding 8 8 8 8px, gap 20px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E5E7EB 1px, text [Label/Small, Body/Small, Body/Small emphasized]
+- Payment method details: size 496x342px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [SF Pro Semibold, 14px, Body/Small, Heading/XSmall, Label/Small, Body/Small emphasized]
+- Send refund: size 496x477px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Medium emphasized, Body/Small, Label/Small, Body/Small emphasized, Heading/Medium]
+- Export: size 496x641px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Medium emphasized, Label/Medium, Body/Small, Label/Small, Body/Small emphasized, Label/labelSmFontSize Subdued, Heading/Medium]
+- Payouts (    ↪︎ Payouts): size 800x640px, vertical layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Label/Medium, Label/labelMdFontSize Subdued, Heading/XSmall, Label/Small, Body/Medium emphasized, Body/Small, Heading/Large] | variants: Size: Desktop/Mobile
+- Multi-currency: size 800x136px, vertical layout, padding 8 8 8 8px, gap 16px, sizing W:fill H:fixed, fill #FFFFFF, text [Label/Small, Label/Medium emphasized, Body/Medium emphasized, Body/Small, Heading/Large] | variants: Size: Desktop/Mobile
+- Balances: size 800x136px, vertical layout, padding 8 8 8 8px, gap 16px, sizing W:fill H:fixed, fill #FFFFFF, text [Body/Medium emphasized, Body/Small, Label/Medium emphasized, Label/Small, Heading/Large] | variants: Size: Desktop/Mobile
+- Payouts (    ↪︎ Payouts): size 800x492px, vertical layout, padding 8 8 8 8px, gap 12px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Label/Medium, Label/labelMdFontSize Subdued, Heading/XSmall, Label/Small] | variants: State: Empty/No filter match/Normal; Size: Desktop/Mobile
+- Instant payouts banner: size 800x76px, horizontal layout, padding 4 4 4 4px, gap 20px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Body/Small, Heading/Small] | variants: Size: Desktop/Mobile
+- Payout details: size 496x877px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Medium emphasized, Body/Small, Body/Small emphasized, Heading/Small, Label/Medium, Heading/XSmall, Label/Small, Heading/XLarge] | variants: Payout type: Automatic/Manual
+- Balance Details: size 496x658px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Medium emphasized, Label/Medium, Body/Small emphasized, Body/Small, Heading/Medium]
+- Pay out funds: size 496x502px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Medium emphasized, Body/Small, Label/Small, Body/Small emphasized, Heading/Medium]
+- Capital financing: size 800x336px, vertical layout, padding 4 4 4 4px, gap 24px, sizing W:fixed H:fixed, fill #FFFFFF, text [SF Pro Text Regular, 14px, Label/Medium, Body/Small, Heading/Medium, Label/Small, Body/Small emphasized, Label/Medium emphasized] | variants: Status: Fully paid off/In progress/In review
+- Capital financing promotion: size 800x84px, horizontal layout, padding 4 4 4 4px, gap 24px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Body/Small, Heading/Medium, Label/Small] | variants: Layout: Banner/Full (Large)/Full (Medium)
+- Capital financing application: size 496x653px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Medium emphasized, Label/Small, Body/Medium emphasized, Label/Medium, Body/Small, Heading/XLarge, Body/Small emphasized, Heading/Medium] | variants: Step: 1 – Select amount/2 – Review personal details/3 – Summary; Type: Dialog/Inline
+- Make payment: size 496x540px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Medium emphasized, Body/Small, Heading/Small, Label/labelMdFontSize, Label/labelSmFontSize Subdued, Label/Small, Body/Small emphasized, Heading/Medium] | variants: Step: 1 – Amount/2 – Review
+- Tax settings: size 832x272px, vertical layout, padding 8 8 8 8px, gap 24px, sizing W:fill H:fixed, fill #FFFFFF, text [Label/Medium, Label/Medium emphasized, Body/Small emphasized, Heading/Small, Body/Small]
+- Tax registrations: size 832x508px, vertical layout, padding 8 8 8 8px, gap 16px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Label/Medium, Heading/XSmall, Label/Small]
+- Issuing card: size 450x675px, vertical layout, padding 12 12 12 12px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Body/Small, Body/Small emphasized, Label/Small] | variants: View: Details/Transactions
+- Move money / Transfer money: size 496x220px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Small, Body/Small emphasized, Heading/Medium] | variants: Step: Step 0 – Start/Step 1 – Transfer details/Step 2 – Review
+- Move money / Send money: size 496x220px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Small, Body/Small emphasized, Heading/Medium] | variants: Step: Step 0 – Start/Step 1 – Payment details/Step 2 – Review
+- Issuing cards list: size 1037x552px, vertical layout, padding 8 8 8 8px, gap 16px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Label/Medium, Heading/XSmall, Label/Small]
+- Financial account: size 960x108px, vertical layout, padding 8 8 8 8px, gap 16px, sizing W:fill H:fixed, fill #FFFFFF, text [Label/Medium, Label/Medium emphasized, Heading/Large]
+- Transaction details: size 496x545px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [Label/Small, Label/Medium, Label/Medium emphasized, Heading/Small, Body/Small, Heading/XLarge]
+- Financial account transactions: size 1037x248px, vertical layout, padding 8 8 8 8px, gap 16px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, text [Label/labelMdFontSize Subdued, Label/Medium emphasized, Heading/XSmall, Label/Medium, Label/Small]
+- Documents: size 832x456px, vertical layout, padding 8 8 8 8px, gap 16px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, text [Label/Medium emphasized, Label/Medium, Heading/XSmall]
+- Timeline event: size 482x56px, horizontal layout, padding 0 0 0 0px, gap 16px, sizing W:fill H:fixed, text [Label/Small, Label/Medium, Label/Medium emphasized] | variants: Position: End/Middle/Start
+- Toggle: size 259x85px, radius 4px, horizontal layout, padding 16 16 16 16px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #0085FF 1px, text [Label/Small, Label/Medium emphasized] | variants: Selected: False/True
+- Filter: size 61x28px, radius 4px, horizontal layout, padding 4 8 4 8px, gap 0px, align center/center, sizing W:fixed H:fixed, stroke #E5E7EB 1px, text [Label/Medium emphasized] | variants: State: Active/Inactive
+- Tab: size 41x36px, horizontal layout, padding 8 8 8 8px, gap 0px, align center/center, sizing W:fixed H:fixed, text [Label/Medium emphasized] | variants: Active: False/True
+- Badge: size 49x18px, radius 4px, horizontal layout, padding 1 6 1 6px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #E4ECEC, stroke #CBD5D6 1px, text [Label/Small] | variants: Type: Danger/Neutral/Success/Warning
+- Link: size 92x20px, horizontal layout, padding 0 0 0 0px, gap 6px, align center/center, sizing W:fixed H:fixed, text [Label/Medium] | variants: Type: Primary/Secondary
+- Button: size 63x28px, radius 4px, horizontal layout, padding 4 8 4 8px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #0085FF, stroke #0085FF 1px, text [Label/Medium emphasized] | variants: Type: Primary/Secondary; State: Default/Disabled
+- Checkbox: size 240x20px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Label/labelSmFontSize Subdued, Label/Small, Label/Medium emphasized] | variants: Checked: No/Yes
+- Radio: size 240x20px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Label/labelSmFontSize Subdued, Label/Small, Label/Medium emphasized] | variants: Checked: No/Yes
+- Help text: size 420x44px, vertical layout, padding 4 0 0 0px, gap 4px, sizing W:fill H:fixed, text [Body/Small] | variants: Type: Statement/Text
+- Text input: size 420x52px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fill H:fixed, text [Body/Small, Label/Small, Label/Medium emphasized] | variants: Type: DOB/Phone/Text/Text area
+- Dialog: size 656x231px, vertical layout, padding 40 80 40 80px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #C5C5C5B2, text [SF Pro Bold, 16px] | variants: Size: Desktop/Mobile
+- Card icon: size 32x32px, fill #00579F | variants: Card: AMEX/Mastercard/UnionPay/Visa
+- warningCircle: size 16x16px | variants: Optical size: 12 (xsmall)/16 (small)
+- check: size 16x16px | variants: Optical size: 12 (xsmall)/16 (small)/8 (xxsmall)
+- arrowUpRight: size 16x16px | variants: Optical size: 12 (xsmall)/16 (small)
+- cancel: size 16x16px | variants: Optical size: 12 (xsmall)/16 (small)/8 (xxsmall)
+- more: size 16x16px | variants: Optical size: 12 (xsmall)/16 (small)
+- arrowUpDown: size 16x16px | variants: Optical size: 12 (xsmall)/16 (small)
+- chevronDown: size 16x16px | variants: Optical size: 12 (xsmall)/16 (small)/8 (xxsmall)
+- chevronRight: size 16x16px | variants: Optical size: 12 (xsmall)/16 (small)/8 (xxsmall)
+- info: size 16x16px | variants: Optical size: 12 (xsmall)/16 (small)
+- Navigation: size 233x823px, vertical layout, padding 24 12 24 12px, gap 32px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E5E7EB 1px, text [Inter SemiBold, 18px, Inter Bold, 24px] | variants: Selected: Home/Payments/Payouts/Settings
+- nav-item: size 185x44px, radius 6px, horizontal layout, padding 12 12 12 12px, gap 12px, align min/center, sizing W:fixed H:fixed, text [Inter SemiBold, 18px] | variants: Selected: false/true; Item: Finances/Home/My account/Payments/Payouts/Pets
+- Filters: size 333x28px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Label/Medium emphasized]
+- Tabs: size 364x36px, horizontal layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, stroke #E5E7EB 1px, text [Label/Medium emphasized]
+- Address: size 420x212px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Body/Small, Label/Small, Body/Small emphasized, Label/Medium emphasized]
+- Select: size 420x52px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Body/Small, Label/Small, Body/Small emphasized, Label/Medium emphasized]
+- Legal name: size 420x84px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Body/Small, Label/Small, Label/Medium emphasized]
+- Label: size 420x36px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Label/Small, Label/Medium emphasized]
+- Replace: size 338x151px, radius 8px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/Medium, text [SF Pro Bold, 16px]
+- transfer: size 16x16px
+- payout: size 16x16px
+- payment: size 16x16px, fill #FFFFFF
+- Component Border: size 332x160px, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+
+## Most-Used Styles
+- Label/Medium emphasized: 982 uses
+- Body/Small: 978 uses
+- Label/Small: 662 uses
+- Label/Medium: 608 uses
+- Body/Small emphasized: 230 uses
+- Label/labelMdFontSize Subdued: 148 uses
+- Heading/XSmall: 92 uses
+- Body/Medium emphasized: 91 uses
+- Shadow/Medium: 90 uses
+- Label/labelSmFontSize Subdued: 83 uses
+- Heading/Small: 82 uses
+- Heading/Medium: 60 uses
+- Heading/XLarge: 48 uses
+- Label/Small emphasized: 39 uses
+- Shadow/Small: 24 uses
+- Body/Medium: 15 uses
+- Heading/Large: 15 uses
+- _top-shadow/neutral/light/default: 12 uses
+- Label/labelMdFontSize: 6 uses
+- _top-shadow/form-accent/light/default: 6 uses
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1920x1080px, constraints left/top, fill #F6F8FA
+  - FRAME "Text", 997x475px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Embedded Components", 997x300px, constraints left/top, fill gradient_linear(#625AFA 13% | #13DCD1 100%), text [Sohne Halbfett, 150px], [heading]
+    - TEXT "UI toolkit", 997x127px, constraints left/top, fill gradient_linear(#625AFA 0% | #13DCD1 100%), text [Sohne Kraftig, 100px], [heading]
+  - FRAME "Frame 48096229", 773x84.04px, horizontal pad 0 0 0 0px gap 60px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Stripe Logo", 200x84.04px, constraints left/top [decorative, ~7 shapes]
+    - TEXT "Updated November 25, 2025", 513x51px, constraints left/top, fill #717171, text [Sohne Buch, 40px], [heading]
+  - FRAME "embedded outline", 773x779px, constraints left/top, radius 12px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 8px
+  - RECTANGLE "Image", 1229x774px, constraints left/top, fill image(hash: 32583a6daf5b3f63c1fd384ee9240a505ea0f550), effect [drop_shadow 18.03px offset 0 6.01 #0000001F, drop_shadow 42.07px offset 0 18.03 #30313D14, drop_shadow 120.21px offset 0 60.1 #30313D14]
+
+Screen: Getting started / :::
+- FRAME ":::", 1240x1432px, vertical pad 120 120 120 120px gap 80px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #0000001A 1px
+  - FRAME "Text", 1000x309px, vertical pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Getting started", 1000x77px, constraints left/top, fill #444444, text [Inter Bold, 64px], [heading]
+    - TEXT "If you have feedback, requests, or want to submit a bug repo", 1000x192px, constraints left/top, fill #444444, text [Inter Regular, 28px], [heading]
+  - FRAME "Theming", 1000x803px, vertical pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 1000x182px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Set your theme", 1000x44px, constraints left/top, fill #444444, text [Inter Bold, 36px], [heading]
+      - TEXT "Embedded components can be customized to match your brand. I", 1000x126px, constraints left/top, fill #444444, text [Inter Regular, 28px], [heading]
+    - FRAME "Variables diagram", 1000x581px, constraints left/top, radius 32px, fill #F8F8F8 [decorative, ~4 shapes]
+
+Screen: Change log / :::
+- FRAME ":::", 1240x1913px, vertical pad 120 120 120 120px gap 100px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #0000001A 1px
+  - TEXT "Change log", 1000x77px, constraints left/top, fill #444444, text [Inter Bold, 64px], [heading]
+  - FRAME "Rows", 1000x1496px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Row", 1000x100px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "November 25, 2025", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Bug fixes", 691x36px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x208px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "August 12, 2025", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Added mobile component support to: Payments Payouts Notifica", 691x144px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x280px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "August 11, 2025", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Reorganized components to be consistent with Stripe Docs Upd", 691x216px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x100px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "May 5, 2025", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Updated Balances component and Balance details modal", 691x36px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x172px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "April 15, 2025", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Added Filters as a new UI component Updated Balances embedde", 691x108px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x100px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "February 25, 2025", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Added progress ring to Account onboarding component", 691x36px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x100px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "January 27, 2025", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Updated Account management embedded component", 691x36px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x100px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "January 2, 2025", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Added Capital Financing embedded components", 691x36px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x100px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "November 21, 2024", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Bug fixes", 691x36px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x136px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "November 14, 2024", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "Fixed resizing bug on Account onboarding embedded component", 691x72px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+    - FRAME "Row", 1000x100px, horizontal pad 32 0 32 0px gap 24px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+      - TEXT "November 13, 2024", 285x29px, constraints left/top, fill #0085FF, text [Inter SemiBold, 24px], [heading]
+      - TEXT "First upload of UI toolkit", 691x36px, constraints left/top, fill #444444, text [Inter Regular, 24px], [heading]
+
+Screen: Examples / Tax
+- FRAME "Tax", 2270x1140px, horizontal pad 120 120 120 120px gap 100px align min/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #0000001A 1px
+  - FRAME "Header", 650x900px, vertical pad 0 0 0 0px gap 24px align space_between/min sizing W:fixed H:fill, constraints left/top
+    - FRAME "Text", 650x173px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Tax", 650x77px, constraints left/top, fill #444444, text [Inter Bold, 64px], [heading]
+      - TEXT "Users can set up Stripe Tax and manage tax registrations.", 650x84px, constraints left/top, fill #717171, text [Inter Regular, 28px], [heading]
+    - FRAME "Text", 650x144px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Components used: Tax settings -> Tax registrations ->", 650x144px, constraints left/top, fill #444444, text [Inter Medium, 32px], [heading]
+  - FRAME "Settings", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x36px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "My account", 621x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+          - FRAME "Sub-nav", 338x36px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item", 85x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 109x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 48x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Item", 84x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Container", 983x340px, vertical pad 16 16 16 16px gap 12px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Tax settings", 121x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Tax settings", 951x272px, vertical pad 8 8 8 8px gap 24px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x272px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Business details", 935x116px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Public details", 935x116px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 983x576px, vertical pad 16 16 16 16px gap 12px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Tax registrations", 165x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Tax registrations", 951x508px, vertical pad 8 8 8 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x508px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Actions", 935x36px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+
+Screen: Examples / Documents
+- FRAME "Documents", 2270x1140px, horizontal pad 120 120 120 120px gap 100px align min/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #0000001A 1px
+  - FRAME "Header", 650x900px, vertical pad 0 0 0 0px gap 24px align space_between/min sizing W:fixed H:fill, constraints left/top
+    - FRAME "Text", 650x173px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Documents", 650x77px, constraints left/top, fill #444444, text [Inter Bold, 64px], [heading]
+      - TEXT "Users can view and download documents relevant to their acco", 650x84px, constraints left/top, fill #717171, text [Inter Regular, 28px], [heading]
+    - FRAME "Text", 650x96px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Components used: Documents ->", 650x96px, constraints left/top, fill #444444, text [Inter Medium, 32px], [heading]
+  - FRAME "Settings", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x36px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "My account", 621x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+          - FRAME "Sub-nav", 338x36px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item", 85x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 109x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Item", 48x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 84x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Container", 983x512px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Documents", 113x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Documents", 951x456px, vertical pad 8 8 8 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x456px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+
+Screen: Examples / Account management
+- FRAME "Account management", 2270x1140px, horizontal pad 120 120 120 120px gap 100px align min/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #0000001A 1px
+  - FRAME "Header", 650x900px, vertical pad 0 0 0 0px gap 24px align space_between/min sizing W:fixed H:fill, constraints left/top
+    - FRAME "Text", 650x250px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Manage account details", 650x154px, constraints left/top, fill #444444, text [Inter Bold, 64px], [heading]
+      - TEXT "Users can view their account details and manage or update in", 650x84px, constraints left/top, fill #717171, text [Inter Regular, 28px], [heading]
+    - FRAME "Text", 650x96px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Components used: Account management ->", 650x96px, constraints left/top, fill #444444, text [Inter Medium, 32px], [heading]
+  - FRAME "Settings", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x36px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "My account", 621x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+          - FRAME "Sub-nav", 338x36px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item", 85x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Item", 109x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 48x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 84x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Details", 983x116px, vertical pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - FRAME "Frame 48097382", 951x24px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Details", 910x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+            - TEXT "link-text", 29x18px, constraints left/top, fill #27AE60, text [Inter SemiBold, 15px]
+          - FRAME "Frame 74", 951x44px, horizontal pad 0 0 0 0px gap 50px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 74", 182x42px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 73", 207x42px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Account settings", 983x658px, vertical pad 16 16 16 16px gap 12px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+          - FRAME "Header", 951x46px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Account settings", 951x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+            - TEXT "Manage your Stripe settings here.", 951x18px, constraints left/top, fill #717171, text [Inter Regular, 15px]
+          - INSTANCE "Account management", 951x568px, vertical pad 4 4 4 4px gap 24px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x568px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Business details", 943x228px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Public details", 943x152px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Management", 943x256px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+
+Screen: Examples / Payment method settings
+- FRAME "Payment method settings", 3650x1140px, horizontal pad 120 120 120 120px gap 100px align min/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #0000001A 1px
+  - FRAME "Header", 650x900px, vertical pad 0 0 0 0px gap 24px align space_between/min sizing W:fixed H:fill, constraints left/top
+    - FRAME "Text", 650x250px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Manage payment methods", 650x154px, constraints left/top, fill #444444, text [Inter Bold, 64px], [heading]
+      - TEXT "Users can view and manage their accepted payment methods.", 650x84px, constraints left/top, fill #717171, text [Inter Regular, 28px], [heading]
+    - FRAME "Text", 650x96px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Components used: Account management ->", 650x96px, constraints left/top, fill #444444, text [Inter Medium, 32px], [heading]
+  - FRAME "Settings", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px align max/min sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x36px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "My account", 621x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+          - FRAME "Sub-nav", 338x36px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item", 85x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Item", 109x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 48x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 84x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Details", 983x116px, vertical pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - FRAME "Frame 48097382", 951x24px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Details", 910x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+            - TEXT "link-text", 29x18px, constraints left/top, fill #27AE60, text [Inter SemiBold, 15px]
+          - FRAME "Frame 74", 951x44px, horizontal pad 0 0 0 0px gap 50px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 74", 182x42px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 73", 207x42px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Account management", 983x658px, vertical pad 16 16 16 16px gap 12px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+          - FRAME "Header", 951x46px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Account settings", 951x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+            - TEXT "Manage your Stripe settings here.", 951x18px, constraints left/top, fill #717171, text [Inter Regular, 15px]
+          - INSTANCE "Account management", 951x568px, vertical pad 4 4 4 4px gap 24px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x568px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Business details", 943x228px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Public details", 943x152px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Management", 943x256px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Payment method settings", 983x672px, vertical pad 16 16 16 16px gap 12px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+          - FRAME "Header", 951x24px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Payment method settings", 951x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payment method settings", 951x866px, vertical pad 8 8 8 8px gap 24px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Border", 951x866px, constraints left_right/top_bottom, stroke #533AFD 1.5px
+            - FRAME "Section", 930x122px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Section", 930x238px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Section", 930x238px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+  - FRAME "Settings", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px align max/min sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x36px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "My account", 621x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+          - FRAME "Sub-nav", 338x36px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item", 85x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Item", 109x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 48x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - FRAME "Item", 84x36px, horizontal pad 12 10 12 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - FRAME "Details", 983x116px, vertical pad 16 16 16 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - FRAME "Frame 48097382", 951x24px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Details", 910x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+            - TEXT "link-text", 29x18px, constraints left/top, fill #27AE60, text [Inter SemiBold, 15px]
+          - FRAME "Frame 74", 951x44px, horizontal pad 0 0 0 0px gap 50px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 74", 182x42px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 73", 207x42px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Account management", 983x658px, vertical pad 16 16 16 16px gap 12px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+          - FRAME "Header", 951x46px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Account settings", 951x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+            - TEXT "Manage your Stripe settings here.", 951x18px, constraints left/top, fill #717171, text [Inter Regular, 15px]
+          - INSTANCE "Account management", 951x568px, vertical pad 4 4 4 4px gap 24px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x568px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Business details", 943x228px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Public details", 943x152px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Management", 943x256px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Payment method settings", 983x672px, vertical pad 16 16 16 16px gap 12px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+          - FRAME "Header", 951x24px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Payment method settings", 951x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payment method settings", 951x866px, vertical pad 8 8 8 8px gap 24px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Border", 951x866px, constraints left_right/top_bottom, stroke #533AFD 1.5px
+            - FRAME "Section", 930x122px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Section", 930x238px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Section", 930x238px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Dialog", 1280x848px, vertical pad 40 80 40 80px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #C5C5C5B2
+        - INSTANCE "Component Border", 1280x848px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+        - INSTANCE "Payment method details", 496x342px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow/Medium
+          - FRAME "Header", 496x82px, vertical pad 20 20 20 20px gap 8px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Title row", 456x42px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Content", 496x260px, vertical pad 20 20 20 20px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Paragraph", 456x64px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 1", 456x0px, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Paragraph", 456x68px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Buttons", 456x28px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+
+Screen: Examples / Payouts
+- FRAME "Payouts", 6410x1140px, horizontal pad 120 120 120 120px gap 100px align min/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #0000001A 1px
+  - FRAME "Header", 650x900px, vertical pad 0 0 0 0px gap 24px align space_between/min sizing W:fixed H:fill, constraints left/top
+    - FRAME "Text", 650x173px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Payouts", 650x77px, constraints left/top, fill #444444, text [Inter Bold, 64px], [heading]
+      - TEXT "Users can view payout information and perform payouts.", 650x84px, constraints left/top, fill #717171, text [Inter Regular, 28px], [heading]
+    - FRAME "Text", 650x192px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Components used: Payouts -> Balances -> Payouts list ->", 650x192px, constraints left/top, fill #444444, text [Inter Medium, 32px], [heading]
+  - FRAME "Payouts", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payouts", 111x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Container", 983x168px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - INSTANCE "Balances", 951x136px, vertical pad 8 8 8 8px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x136px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Row", 935x60px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 935x44px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 983x548px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Recent payouts", 153x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payouts", 951x492px, vertical pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x492px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Actions", 935x28px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+  - FRAME "Payouts", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payouts", 111x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Container", 983x168px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - INSTANCE "Balances", 951x136px, vertical pad 8 8 8 8px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x136px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Row", 935x60px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 935x44px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 983x548px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Recent payouts", 153x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payouts", 951x492px, vertical pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x492px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Actions", 935x28px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Dialog", 1280x848px, vertical pad 40 80 40 80px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #C5C5C5B2
+        - INSTANCE "Component Border", 1280x848px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+        - INSTANCE "Pay out funds", 496x151px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow/Medium
+          - FRAME "Header", 496x68px, vertical pad 20 20 20 20px gap 8px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Title row", 456x28px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Content", 496x434px, vertical pad 20 20 20 20px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Toggle container", 456x101px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Detail row", 456x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Divider", 456x1px, horizontal pad 10 0 10 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - INSTANCE "Select", 456x52px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Text input", 456x52px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Detail row", 456x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Button", 456x28px, horizontal pad 4 8 4 8px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 4px, fill #27AE60, stroke #27AE60 1px
+  - FRAME "Payouts", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payouts", 111x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Container", 983x168px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - INSTANCE "Balances", 951x136px, vertical pad 8 8 8 8px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x136px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Row", 935x60px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 935x44px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 983x548px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Recent payouts", 153x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payouts", 951x492px, vertical pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x492px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Actions", 935x28px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Dialog", 1280x848px, vertical pad 40 80 40 80px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #C5C5C5B2
+        - INSTANCE "Component Border", 1280x848px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+        - INSTANCE "Balance Details", 496x658px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow/Medium
+          - FRAME "Header", 496x68px, vertical pad 20 20 20 20px gap 8px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Title row", 456x28px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Content", 496x590px, vertical pad 20 20 20 20px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Section", 456x312px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px
+            - FRAME "Divider", 456x1px, horizontal pad 10 0 10 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Section", 456x100px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px
+            - FRAME "Divider", 456x1px, horizontal pad 10 0 10 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Section", 456x56px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top, radius 8px
+  - FRAME "Payouts", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payouts", 111x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Container", 983x168px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - INSTANCE "Balances", 951x136px, vertical pad 8 8 8 8px gap 16px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x136px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Row", 935x60px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 935x44px, horizontal pad 0 0 0 0px gap 40px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Container", 983x548px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Recent payouts", 153x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payouts", 951x492px, vertical pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x492px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Actions", 935x28px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Dialog", 1280x848px, vertical pad 40 80 40 80px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #C5C5C5B2
+        - INSTANCE "Component Border", 1280x848px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+        - INSTANCE "Payout details", 496x877px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow/Medium
+          - FRAME "Header", 496x108px, vertical pad 20 20 20 20px gap 12px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Title row", 456x36px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Completed Wednesday, October 2", 456x20px, constraints left/top, fill #717171, text [Body/Small]
+          - FRAME "Content", 496x769px, vertical pad 20 20 20 20px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Details", 456x220px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Divider", 456x1px, horizontal pad 10 0 10 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Details", 456x248px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Details", 456x200px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+
+Screen: Examples / Payments / Dispute
+- FRAME "Payments / Dispute", 7790x1140px, horizontal pad 120 120 120 120px gap 100px align min/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #0000001A 1px
+  - FRAME "Header", 650x900px, vertical pad 0 0 0 0px gap 24px align space_between/min sizing W:fixed H:fill, constraints left/top
+    - FRAME "Text", 650x257px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Payments / Dispute", 650x77px, constraints left/top, fill #444444, text [Inter Bold, 64px], [heading]
+      - TEXT "Users can view and manage disputes. The embedded component a", 650x168px, constraints left/top, fill #717171, text [Inter Regular, 28px], [heading]
+    - FRAME "Text", 650x144px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Components used: Payments -> Payment details ->", 650x144px, constraints left/top, fill #444444, text [Inter Medium, 32px], [heading]
+  - FRAME "Payments", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payments", 983x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Frame 48097492", 983x81px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/12 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/3 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - FRAME "Container", 983x564px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Recent payments", 171x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payments", 951x508px, vertical pad 8 8 8 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x508px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Actions", 935x36px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Actions", 935x28px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+  - FRAME "Payments / Payment details", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payments", 983x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Frame 48097492", 983x81px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/12 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/3 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - FRAME "Container", 983x564px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Recent payments", 171x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payments", 951x508px, vertical pad 8 8 8 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x508px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Actions", 935x36px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Actions", 935x28px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Dialog", 1280x848px, vertical pad 40 80 40 80px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #C5C5C5B2
+        - INSTANCE "Component Border", 1280x848px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+        - INSTANCE "Payment details / Disputes", 496x151px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow/Medium
+          - FRAME "Header", 496x108px, vertical pad 20 20 20 20px gap 12px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Title row", 456x36px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "From poodle@stripe.com", 456x20px, constraints left/top, fill #717171, text [Body/Small]
+          - FRAME "Content", 496x1143px, vertical pad 20 20 20 20px gap 20px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Disputes for a payment", 456x324px, vertical pad 16 16 16 16px gap 10px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Divider", 456x1px, horizontal pad 10 0 10 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Details", 456x224px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Divider", 456x1px, horizontal pad 10 0 10 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Details", 456x196px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Divider", 456x1px, horizontal pad 10 0 10 0px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Timeline", 456x236px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+  - FRAME "Payments / Payment details", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payments", 983x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Frame 48097492", 983x81px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/12 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/3 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - FRAME "Container", 983x564px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Recent payments", 171x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payments", 951x508px, vertical pad 8 8 8 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x508px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Actions", 935x36px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Actions", 935x28px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Dialog", 1280x848px, vertical pad 40 80 40 80px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #C5C5C5B2
+        - INSTANCE "Component Border", 1280x848px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+        - INSTANCE "Payment details / Disputes", 496x151px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow/Medium
+          - FRAME "Header", 496x148px, vertical pad 20 20 20 20px gap 4px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Title row", 456x32px, horizontal pad 0 0 8 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title", 456x28px, constraints left/top, fill #444444, text [Heading/Medium], [heading]
+            - TEXT "Description", 456x40px, constraints left/top, fill #717171, text [Body/Small]
+          - FRAME "Content", 496x705px, vertical pad 20 20 20 20px gap 24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Reason", 456x188px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Details", 456x365px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Buttons", 456x64px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+  - FRAME "Payments / Payment details", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payments", 983x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Frame 48097492", 983x81px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/12 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/3 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - FRAME "Container", 983x564px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+          - TEXT "Recent payments", 171x24px, constraints left/top, fill #444444, text [Inter Bold, 20px]
+          - INSTANCE "Payments", 951x508px, vertical pad 8 8 8 8px gap 16px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "Component Border", 951x508px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+            - FRAME "Actions", 935x36px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Actions", 935x28px, horizontal pad 0 0 0 0px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Table container", 935x396px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Footer", 935x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Dialog", 1280x848px, vertical pad 40 80 40 80px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #C5C5C5B2
+        - INSTANCE "Component Border", 1280x848px, constraints left_right/top_bottom, radius 4px, fill gradient_linear(#9966FF 0% | #11EFE3 100%), stroke gradient_linear(#9966FF 0% | #48C8C1 100%) 2px
+        - INSTANCE "Payment details / Disputes", 496x151px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, effect Shadow/Medium
+          - FRAME "Header", 496x148px, vertical pad 20 20 20 20px gap 4px sizing W:fill H:fixed, constraints left/top, stroke #E5E7EB 1px
+            - FRAME "Title row", 456x32px, horizontal pad 0 0 8 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title", 456x28px, constraints left/top, fill #444444, text [Heading/Medium], [heading]
+            - TEXT "Description", 456x40px, constraints left/top, fill #717171, text [Body/Small]
+          - FRAME "Content", 496x516px, vertical pad 20 20 20 20px gap 24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Customer details", 456x388px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Buttons", 456x64px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+  - FRAME "Payments / Payment details", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payments", 983x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Frame 48097492", 983x81px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/12 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+            - FRAME "_Internal / Marks / [Base] Lines/3 months/Low/2", 150x49px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+        - FRAME "Container", 983x564px, vertical pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #E5E7EB 1px
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Examples / Payments / Refund
+- FRAME "Payments / Refund", 5030x1140px, horizontal pad 120 120 120 120px gap 100px align min/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #0000001A 1px
+  - FRAME "Header", 650x900px, vertical pad 0 0 0 0px gap 24px align space_between/min sizing W:fixed H:fill, constraints left/top
+    - FRAME "Text", 650x131px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Payments / Refund", 650x77px, constraints left/top, fill #444444, text [Inter Bold, 64px], [heading]
+      - TEXT "Users can view payments and perform refunds.", 650x42px, constraints left/top, fill #717171, text [Inter Regular, 28px], [heading]
+    - FRAME "Text", 650x144px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Components used: Payments -> Payment details ->", 650x144px, constraints left/top, fill #444444, text [Inter Medium, 32px], [heading]
+  - FRAME "Payments", 1280x900px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 12px, stroke #E5E7EB 1px, effect Shadow/Medium
+    - FRAME "Browser chrome", 1280x52px, horizontal pad 12 16 12 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+      - FRAME "Close", 52x12px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #EE6A5F, stroke #CE5347 0.5px, effect [inner_shadow 6px offset 0 0 #EC6D62]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #F5BD4F, stroke #D6A243 0.5px, effect [inner_shadow 6px offset 0 0 #F5C451]
+        - ELLIPSE "Icon – Close", 12x12px, constraints left/top, fill #61C454, stroke #58A942 0.5px, effect [inner_shadow 6px offset 0 0 #68CC58]
+      - FRAME "Buttons", 66x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆉", 8.12x14.42px, constraints left/top, fill #737373
+        - FRAME "Button", 33x28px, constraints left/top, radius 6px, fill #0000000D
+          - VECTOR "􀆊", 8.12x14.43px, constraints left/top, fill #BFBFBF
+      - FRAME "Address input", 508x28px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints center/top, radius 6px, fill #0000000D
+        - VECTOR "Lock", 7.83x11.43px, constraints left/top, fill #9E9E9E
+        - TEXT "furever.dev", 69x16px, constraints left/top, fill #444444, text [SF Pro Text Regular, 13px]
+    - FRAME "Browser content", 1280x848px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top, fill image(hash: 86180ff6715b6d15bca0f62c3fa651b1490fb5a0)
+      - INSTANCE "Navigation", 233x848px, vertical pad 24 12 24 12px gap 32px sizing W:fixed H:fill, constraints left/top, fill #FFFFFF, stroke #E5E7EB 1px
+        - FRAME "Logo", 146x32px, horizontal pad 0 6 0 6px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "image 2", 32x32px, constraints left/top, fill image(hash: 167fa2ba0d5ffa90b0acd797c66fceda79a6d8cd)
+          - TEXT "Furever", 90x17px, constraints left/top, fill #444444, text [Inter Bold, 24px], [heading]
+        - FRAME "Nav container", 209x252px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Home", 52x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+            - TEXT "Pets", 39x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill #27AE6014
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "Payments", 87x13px, constraints left/top, fill #27AE60, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+            - TEXT "Payouts", 70x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+          - INSTANCE "nav-item", 209x44px, horizontal pad 12 12 12 12px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px
+            - FRAME "Icon", 20x20px, constraints left/top, fill #FFFFFF
+            - TEXT "My account", 102x13px, constraints left/top, fill #444444, text [Inter SemiBold, 18px]
+      - FRAME "Page content", 1047x848px, vertical pad 32 32 32 32px gap 24px sizing W:fill H:fill, constraints left/top
+        - FRAME "Page header", 983x34px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Payments", 983x34px, constraints left/top, fill #444444, text [Inter Bold, 28px], [heading]
+        - FRAME "Frame 48097492", 983x81px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Small insights module", 479.5x81px, horizontal pad 16 16 16 16px gap 4px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #E5E7EB 1px
+            - FRAME "Frame 48097348", 293.5x49px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

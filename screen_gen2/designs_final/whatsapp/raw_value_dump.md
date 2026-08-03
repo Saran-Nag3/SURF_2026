@@ -1,0 +1,1152 @@
+---
+name: whatsapp-ui-screens-community
+source_file: WhatsApp UI Screens (Community)
+source_page: All pages (3): WhatsApp, ---, High-Quality Resources for UI Designers
+generated_at: 2026-07-25T09:08:16.903493+00:00
+---
+
+# WhatsApp UI Screens (Community) Design Guidelines
+
+## Source
+- Figma file: WhatsApp UI Screens (Community)
+- Figma page: All pages (3): WhatsApp, ---, High-Quality Resources for UI Designers
+- Extracted at: 2026-07-25T09:08:16.903493+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White: [#FFFFFF]
+- Gray 50: [#808080]
+- Gray 90: [#000000]
+- Gray 5: none
+- Gray 70: [#4D4D4D]
+- Yellow: [#FFA800]
+- Green: [#67CE00]
+- Orange: [#FF5E00]
+
+## Raw Colors (unstyled)
+- #979797: 314 uses
+- #FFFFFF: 271 uses
+- #000000: 235 uses
+- #007AFF: 150 uses
+- #455154: 133 uses
+- #8E8E93: 132 uses
+- #545458A6: 120 uses
+- #3497F9: 111 uses
+- #3C3C434A: 86 uses
+- #060606: 77 uses
+- #3C3C434D: 63 uses
+- #00000066: 53 uses
+- #FFFFFF4D: 42 uses
+- #D8D8D8: 39 uses
+- #3E5155: 38 uses
+- #ABABAB: 38 uses
+- #FCFCFE: 38 uses
+- #F6F6F6: 32 uses
+- #A85757: 30 uses
+- #00000040: 26 uses
+- #3C3C4399: 24 uses
+- #FF3B30: 21 uses
+- #DCF7C5: 20 uses
+- #171717: 19 uses
+- #D1D1D6: 18 uses
+- #EFEFF4: 17 uses
+- #50555C: 15 uses
+- #A06A6A: 15 uses
+- #C6C6C8: 15 uses
+- #00000033: 14 uses
+- #9F9EA2: 12 uses
+
+## Typography Tokens
+- Crimson Text/Regular/22: Crimson Text Regular (400), 22px / 28px, tracking -0.22px
+- Public Sans/ExtraBold/12: Public Sans ExtraBold (800), 12px / 16px, tracking -0.12px
+- Public Sans/Regular/14: Public Sans Regular (400), 14px / 20px, tracking -0.14px
+- Public Sans/ExtraBold/48: Public Sans ExtraBold (800), 48px / 56px, tracking -0.48px
+- Crimson Text/Regular/28: Crimson Text Regular (400), 28px / 32px, tracking -0.28px
+
+## Raw Typography (unstyled)
+- SF Pro Text Regular, 16px: 127 uses
+- SF Pro Text Regular, 14px: 113 uses
+- SF Pro Text Medium, 10px: 60 uses
+- SF Pro Text Regular, 11px: 52 uses
+- SF Pro Text Semibold, 16px: 32 uses
+- SF Pro Text Regular, 22.5px: 27 uses
+- SF Pro Text Regular, 17px: 24 uses
+- SF Pro Text Semibold, 15px: 20 uses
+- SF Pro Text Semibold, 17px: 18 uses
+- SF Pro Text Regular, 12px: 17 uses
+- SF Pro Display Regular, 20px: 13 uses
+- Public Sans Regular, 18px: 10 uses
+- SF Pro Display Regular, 25px: 10 uses
+- SF Pro Text Bold, 10px: 9 uses
+- Public Sans ExtraBold, 24px: 8 uses
+- SF Pro Text Medium, 13px: 4 uses
+- SF Pro Text Semibold, 19px: 3 uses
+
+## Typography Hierarchy
+- 48px - Public Sans/ExtraBold/48 (Public Sans ExtraBold)
+- 28px - Crimson Text/Regular/28 (Crimson Text Regular)
+- 25px - SF Pro Display Regular, 25px (raw)
+- 24px - Public Sans ExtraBold, 24px (raw)
+- 22.5px - SF Pro Text Regular, 22.5px (raw)
+- 22px - Crimson Text/Regular/22 (Crimson Text Regular)
+- 20px - SF Pro Display Regular, 20px (raw)
+- 19px - SF Pro Text Semibold, 19px (raw)
+- 18px - Public Sans Regular, 18px (raw)
+- 17px - SF Pro Text Regular, 17px (raw)
+- 17px - SF Pro Text Semibold, 17px (raw)
+- 16px - SF Pro Text Regular, 16px (raw)
+- 16px - SF Pro Text Semibold, 16px (raw)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 14px - Public Sans/Regular/14 (Public Sans Regular)
+- 14px - SF Pro Text Regular, 14px (raw)
+- 13px - SF Pro Text Medium, 13px (raw)
+- 12px - Public Sans/ExtraBold/12 (Public Sans ExtraBold)
+- 12px - SF Pro Text Regular, 12px (raw)
+- 11px - SF Pro Text Regular, 11px (raw)
+- 10px - SF Pro Text Bold, 10px (raw)
+- 10px - SF Pro Text Medium, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Gray 90: 13 uses
+- White: 12 uses
+- Gray 70: 9 uses
+- Crimson Text/Regular/22: 8 uses
+- Gray 50: 5 uses
+- Public Sans/ExtraBold/12: 5 uses
+- Yellow: 3 uses
+- Green: 2 uses
+- Crimson Text/Regular/28: 1 use
+- Gray 5: 1 use
+- Orange: 1 use
+- Public Sans/ExtraBold/48: 1 use
+- Public Sans/Regular/14: 1 use
+
+## Layout & Structure
+Screen: WhatsApp / Classic Theme
+- GROUP "Classic Theme", 1525x61.5px, constraints left/top
+  - VECTOR "Line 2", 1525x1px, constraints scale/scale, stroke #00000033 2px
+  - TEXT "Title1", 221x31px, constraints scale/center, fill #0000004D, text [Inter SemiBold, 31px], [heading]
+
+Screen: WhatsApp / App
+- GROUP "App", 461x424.95px, constraints left/top
+  - GROUP "Icon", 247.6x247.59px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+  - TEXT "WhatsApp UI", 461x87px, constraints scale/center, fill #3B3B3B, text [Inter Bold, 72px], [heading]
+  - TEXT "Title1", 165x31px, constraints scale/center, fill #0000004D, text [Inter SemiBold, 31px], [heading]
+
+Screen: WhatsApp / WhatsApp Chats Edit
+- FRAME "WhatsApp Chats Edit", 375x812px, constraints scale/scale, fill #EFEFF4
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: 387ca4942fc3950a30517d15533459ef9feb5b9f)
+    - TEXT "Kieron Dotson", 108x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Ok, have a good trip", 220x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "7/29/19", 49x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - GROUP "Select Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 20.5x20.5px, constraints scale/scale, stroke #3C3C4399 1.5px, opacity 42%
+  - FRAME "Chat", 379x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: f887f67b2de99f90fe3015016cceb7ffc0d9f7f4)
+    - TEXT "Maisy Humphrey", 128x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - FRAME "Message", 260x42px, constraints scale/scale, fill #FFFFFF
+      - TEXT "process faster, look", 260x42px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+      - TEXT "Welcome, to make des", 220x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+      - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - TEXT "8/20/19", 51x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Select Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 20.5x20.5px, constraints scale/scale, stroke #3C3C4399 1.5px, opacity 42%
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: 295c97d71fa72d8d7942512985499d585e42fa53)
+    - TEXT "Tabitha Potter", 107x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Actually I wanted to", 240x42px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "8/25/19", 50x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Select Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 20.5x20.5px, constraints scale/scale, stroke #3C3C4399 1.5px, opacity 42%
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: fe10b423a179f6612bd6b395294a31af333e0bb6)
+    - TEXT "Martha Craig", 99x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Photo", 39x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Photo Icon", 14x11px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+    - TEXT "10/28/19", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Select Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 20.5x20.5px, constraints scale/scale, stroke #3C3C4399 1.5px, opacity 42%
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: 9491a0bd9f49e97c567d926a47eea03dd4ae0658)
+    - TEXT "Maximillian Jacobson", 163x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Bro, I have a good i", 220x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "10/30/19", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - GROUP "Select Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 20.5x20.5px, constraints scale/scale, stroke #3C3C4399 1.5px, opacity 42%
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: d4c17ff918583bf15a6bdc083bcee64acc58ed55)
+    - TEXT "Karen Castillo", 105x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "0:14", 29x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "11/15/19", 53x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Voice Record", 9x15px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 9x14.3px, constraints scale/scale, fill #60BB58
+    - GROUP "Select Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 20.5x20.5px, constraints scale/scale, stroke #3C3C4399 1.5px, opacity 42%
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: 387ca4942fc3950a30517d15533459ef9feb5b9f)
+    - TEXT "Andrew Parker", 112x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "What kind of strateg", 220x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "11/16/19", 53x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - GROUP "Select Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 20.5x20.5px, constraints scale/scale, stroke #3C3C4399 1.5px, opacity 42%
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: d93f9ad804eab2cfd2bf9ca9e8f5e542e1fbdb51)
+    - TEXT "Martin Randolph", 126x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Yes, 2pm is awesome", 220x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "11/19/19", 53x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - GROUP "Select Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 20.5x20.5px, constraints scale/scale, stroke #3C3C4399 1.5px, opacity 42%
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - FRAME "Chat Actions", 375x83px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x83px, constraints scale/scale, fill #F6F6F6, effect [drop_shadow 0px offset 0 -0.33 #A6A6AA]
+    - TEXT "Archive", 58x20px, constraints scale/center, fill #C7C7CC, text [SF Pro Text Regular, 17px]
+    - TEXT "Delete", 50x20px, constraints scale/center, fill #C7C7CC, text [SF Pro Text Regular, 17px]
+    - TEXT "Read All", 63x20px, constraints scale/center, fill #C7C7CC, text [SF Pro Text Regular, 17px]
+  - FRAME "Navigation Bar", 375x140px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x140px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Chats", 92x41px, constraints scale/center, fill #000000, text [SF Pro Display Bold, 34px], [heading]
+    - TEXT "Done", 43x22px, constraints scale/center, fill #007AFF, text [SF Pro Text Semibold, 17px]
+  - FRAME "Actions", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x44px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 0px offset 0 0.33 #3C3C434A]
+    - TEXT "Broadcast Lists", 118x20px, constraints scale/center, fill #C7C7CC, text [SF Pro Text Regular, 17px]
+    - TEXT "New Group", 87x20px, constraints scale/center, fill #C7C7CC, text [SF Pro Text Regular, 17px]
+  - FRAME "Bars / Status Bar / iPhone X", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x44px, constraints scale/scale, fill #F7F7F7
+    - GROUP "Battery", 25x11px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+    - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #060606
+    - BOOLEAN_OPERATION "Mobile Signal", 17x10.67px, constraints right/top, fill #060606
+    - FRAME "Time Style", 54x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "9:41", 54x18px, constraints left_right/center, fill #171717, text [SF Pro Text Semibold, 15px]
+  - FRAME "Bars / Home Indicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x34px, constraints scale/scale, fill #F7F7F7
+    - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill #060606
+
+Screen: WhatsApp / WhatsApp Chat
+- FRAME "WhatsApp Chat", 375x812px, constraints scale/scale, fill #EFEFF4
+  - RECTANGLE "Rectangle", 375x724px, constraints left/top, fill image(hash: 351acdb5ea7901e17f7cb0d61068f0f1d8f1f95d)
+  - GROUP "Message", 235x34px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shadow", 233x33px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 235x34px, constraints scale/scale, radius 8px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "Japan looks amazing!", 157x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "10:10", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 162.46x34.06px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shadow", 160x33.06px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 162.46x34px, constraints scale/scale, radius 0/0/0/0px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "Good bye!", 75x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "17:47", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 236x34px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shadow", 234x33px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 236x34px, constraints scale/scale, radius 8px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "I will write from Ja", 158x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "17:47", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 213x34px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shadow", 211x33px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 213x34px, constraints scale/scale, radius 8px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "I think top two are:", 135x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "11:50", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 171x34px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shape", 169x33px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 171x34px, constraints scale/scale, radius 0/0/0/0px, fill #FAFAFA
+    - TEXT "Do you like it?", 101x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "11:45", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 165x67px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shape", 163x66px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 165x67px, constraints scale/scale, radius 0/0/0/0px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "10:15", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - FRAME "File", 151x41px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle", 151x41px, constraints scale/scale, radius 6px, fill #7676801F
+      - GROUP "File Icon", 22x27px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+      - TEXT "IMG_0481", 73x19px, constraints scale/center, fill #000000B2, text [SF Pro Text Regular, 16px]
+    - FRAME "File Info", 68x13px, constraints scale/scale, fill #FFFFFF
+      - TEXT "png", 21x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+      - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill #00000033
+      - FRAME "File Size", 37x13px, constraints scale/scale, fill #FFFFFF
+        - TEXT "2.8", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+        - TEXT "MB", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 156x67px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shadow", 154x66px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Rectangle", 156x67px, constraints scale/scale, radius 8px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "10:15", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - FRAME "File", 150x41px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Rectangle", 150x41px, constraints scale/scale, radius 6px, fill #7676801F
+      - GROUP "File Icon", 22x27px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+      - TEXT "IMG_0475", 74x19px, constraints scale/center, fill #000000B2, text [SF Pro Text Regular, 16px]
+    - FRAME "File Info", 68x13px, constraints scale/scale, fill #FFFFFF
+      - TEXT "png", 21x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+      - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill #00000033
+      - FRAME "File Size", 37x13px, constraints scale/scale, fill #FFFFFF
+        - TEXT "2.4", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+        - TEXT "MB", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 165x67px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shape", 163x66px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 165x67px, constraints scale/scale, radius 0/0/0/0px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "11:51", 28x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - FRAME "File", 151x41px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle", 151x41px, constraints scale/scale, radius 6px, fill #7676801F
+      - GROUP "File Icon", 22x27px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+      - TEXT "IMG_0484", 76x19px, constraints scale/center, fill #000000B2, text [SF Pro Text Regular, 16px]
+    - FRAME "File Info", 68x13px, constraints scale/scale, fill #FFFFFF
+      - TEXT "png", 21x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+      - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill #00000033
+      - FRAME "File Size", 37x13px, constraints scale/scale, fill #FFFFFF
+        - TEXT "2.6", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+        - TEXT "MB", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 156x67px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shadow", 154x66px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Rectangle", 156x67px, constraints scale/scale, radius 8px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "11:51", 28x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - FRAME "File", 150x41px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Rectangle", 150x41px, constraints scale/scale, radius 6px, fill #7676801F
+      - GROUP "File Icon", 22x27px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+      - TEXT "IMG_0483", 76x19px, constraints scale/center, fill #000000B2, text [SF Pro Text Regular, 16px]
+    - FRAME "File Info", 68x13px, constraints scale/scale, fill #FFFFFF
+      - TEXT "png", 21x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+      - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill #00000033
+      - FRAME "File Size", 37x13px, constraints scale/scale, fill #FFFFFF
+        - TEXT "2.8", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+        - TEXT "MB", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 234x50px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shape", 232x49px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 234x50px, constraints scale/scale, radius 0/0/0/0px, fill #FAFAFA
+    - TEXT "Do you know what tim", 210x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "11:40", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 255x50px, constraints left/top, radius 8px
+    - VECTOR "Shadow", 253x49px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 255x50px, constraints scale/scale, radius 8px, fill #FAFAFA
+    - TEXT "What is the most pop", 240x38px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "11:45", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+  - GROUP "Message", 262.46x34px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Shadow", 260x33px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 262.46x34px, constraints scale/scale, radius 0/0/0/0px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "It’s morning in Toky", 150x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "😎", 16x16px, constraints scale/center, fill #000000, text [Roboto Regular, 16px]
+    - TEXT "11:43", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+  - FRAME "Date", 100x21px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 100x21px, constraints scale/scale, radius 8px, fill #DDDDE9, effect [drop_shadow 0px offset 0 -0.4 #EEEEF4, drop_shadow 0px offset 0 0.4 #62626233]
+    - TEXT "Fri, Jul 26", 59x14px, constraints scale/center, fill #3C3C43, text [SF Pro Text Semibold, 12px]
+  - FRAME "Message", 187x34px, constraints left/top, fill #FFFFFF
+    - VECTOR "Shadow", 185x33px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+    - VECTOR "Shape", 187x34px, constraints scale/scale, radius 8px, fill #DCF7C5
+    - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+    - TEXT "Good morning!", 109x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "10:10", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+  - FRAME "Contact Actions", 375x88px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x88px, constraints scale/scale, fill #F6F6F6, effect [drop_shadow 0px offset 0 0.33 #A6A6AA]
+    - GROUP "Call", 21x21px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 21x21px, constraints scale/scale, fill #007AFF
+    - GROUP "Video Call", 25x16px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - GROUP "Back", 12x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 11.84x21px, constraints scale/scale, fill #007AFF
+    - VECTOR "Oval", 36x36px, constraints scale/scale, fill image(hash: fe10b423a179f6612bd6b395294a31af333e0bb6)
+    - TEXT "Martha Craig", 100x19px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "tap here for contact", 137x16px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 12px]
+  - GROUP "Send Message", 375x80px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~16 shapes]
+  - FRAME "Bars / Status Bar / iPhone X", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x44px, constraints scale/scale, fill #F7F7F7
+    - GROUP "Battery", 25x11px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+    - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #060606
+    - BOOLEAN_OPERATION "Mobile Signal", 17x10.67px, constraints right/top, fill #060606
+    - FRAME "Time Style", 54x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "9:41", 54x18px, constraints left_right/center, fill #171717, text [SF Pro Text Semibold, 15px]
+  - FRAME "Bars / Home Indicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x34px, constraints scale/scale, fill #F7F7F7
+    - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill #060606
+
+Screen: WhatsApp / WhatsApp Status
+- FRAME "WhatsApp Status", 375x812px, constraints scale/scale, fill #EFEFF4
+  - GROUP "My Status", 375x76px, constraints left/top
+    - RECTANGLE "Rectangle", 375x76px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 0px offset 0 -0.33 #3C3C434A, drop_shadow 0px offset 0 0.33 #3C3C434A]
+    - GROUP "Actions", 88x36px, constraints left/top, fill #FFFFFF [decorative, ~10 shapes]
+    - VECTOR "Oval 2", 58x58px, constraints scale/scale, fill image(hash: 7b517fd1166e1c96bb4d606ab3bc83385540dadb)
+    - TEXT "Add to my status", 110x16px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "My Status", 77x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - GROUP "Add New Photo", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 20x20px, constraints scale/scale, fill #007AFF
+      - VECTOR "Path", 12x12px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Tip", 375x43px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x43px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 0px offset 0 -0.33 #3C3C434A, drop_shadow 0px offset 0 0.33 #3C3C434A]
+    - TEXT "No recent updates to", 242x16px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+  - FRAME "Navigation Bar", 375x88px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x88px, constraints scale/scale, fill #F6F6F6, effect [drop_shadow 0px offset 0 0.33 #A6A6AA]
+    - TEXT "Privacy", 57x22px, constraints scale/center, fill #007AFF, text [SF Pro Text Regular, 17px]
+    - TEXT "Status", 53x22px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 17px]
+  - FRAME "Bars / Status Bar / iPhone X", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x44px, constraints scale/scale, fill #F7F7F7
+    - GROUP "Battery", 25x11px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+    - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #060606
+    - BOOLEAN_OPERATION "Mobile Signal", 17x10.67px, constraints right/top, fill #060606
+    - FRAME "Time Style", 54x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "9:41", 54x18px, constraints left_right/center, fill #171717, text [SF Pro Text Semibold, 15px]
+  - GROUP "Tab Bar", 375x83px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x83px, constraints left/top, fill #F6F6F6, effect [drop_shadow 0px offset 0 -0.33 #A6A6AA]
+    - FRAME "Tab 5", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - TEXT "Settings", 41x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+      - GROUP "Icon", 25x25px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+    - FRAME "Tab 4", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - BOOLEAN_OPERATION "Shape", 31x20.78px, constraints scale/scale, fill #979797
+      - TEXT "Chats", 29x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+    - FRAME "Tab 3", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - TEXT "Camera", 38x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+      - GROUP "Icon", 26x22px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - FRAME "Tab 2", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - GROUP "Icon", 23x24px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 22.76x22.76px, constraints scale/scale, fill #545458A6
+      - TEXT "Calls", 25x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+    - FRAME "Tab 1", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - GROUP "Icon", 26x26px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+      - TEXT "Status", 32x12px, constraints scale/center, fill #007AFF, text [SF Pro Text Medium, 10px]
+  - FRAME "Bars / Home Indicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x34px, constraints scale/scale, fill #F7F7F7
+    - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill #060606
+
+Screen: WhatsApp / WhatsApp Calls Edit
+- FRAME "WhatsApp Calls Edit", 375x812px, constraints scale/scale, fill #EFEFF4
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: 5497474a85840582fe2715d5382fb881c91e3f70)
+    - TEXT "Jamie Franco", 98x19px, constraints scale/center, fill #FF3B30, text [SF Pro Text Regular, 16px]
+    - TEXT "missed", 46x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "8/20/19", 50x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: f887f67b2de99f90fe3015016cceb7ffc0d9f7f4)
+    - TEXT "Maisy Humphrey", 122x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "outgoing", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "8/22/19", 50x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: fe10b423a179f6612bd6b395294a31af333e0bb6)
+    - TEXT "Martha Craig", 95x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "outgoing", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "9/6/19", 42x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: fe10b423a179f6612bd6b395294a31af333e0bb6)
+    - TEXT "Martha Craig", 95x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "incoming", 59x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "9/10/19", 48x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: 5497474a85840582fe2715d5382fb881c91e3f70)
+    - TEXT "Jamie Franco", 98x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "incoming", 59x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "9/10/19", 48x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: a677a41f027410390877dbe19c213b2e6ee60b75)
+    - TEXT "Kieron Dotson", 103x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "outgoing", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "9/15/19", 48x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: a677a41f027410390877dbe19c213b2e6ee60b75)
+    - TEXT "Kieron Dotson", 103x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "outgoing", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "9/16/19", 48x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: 9c54bfee48f1801e657b098f5792c61365f65c75)
+    - TEXT "Zack John", 76x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "incoming", 59x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "9/24/19", 50x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: d4c17ff918583bf15a6bdc083bcee64acc58ed55)
+    - TEXT "Karen Castillo", 100x19px, constraints scale/center, fill #FF3B30, text [SF Pro Text Regular, 16px]
+    - TEXT "missed", 46x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "9/30/19", 51x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: a677a41f027410390877dbe19c213b2e6ee60b75)
+    - TEXT "Kieron Dotson", 103x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "outgoing", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "10/8/19", 48x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: d4c17ff918583bf15a6bdc083bcee64acc58ed55)
+    - TEXT "Karen Castillo", 100x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "outgoing", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "10/11/19", 52x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Call", 375x56px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x56px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 40x40px, constraints scale/scale, fill image(hash: d93f9ad804eab2cfd2bf9ca9e8f5e542e1fbdb51)
+    - TEXT "Martin Randolph", 120x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - TEXT "outgoing", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "10/13/19", 55x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Call Icon", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 13.65x13.65px, constraints scale/scale, fill #9F9EA2
+    - GROUP "Remove Icon", 21x21px, constraints left/top, fill #FFFFFF
+      - VECTOR "Oval", 21x21px, constraints scale/scale, fill #FF3B30
+      - VECTOR "Shape", 11x1.5px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 307x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - FRAME "Navigation Bar", 375x88px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x88px, constraints scale/scale, fill #F6F6F6, effect [drop_shadow 0px offset 0 0.33 #A6A6AA]
+    - TEXT "Done", 43x22px, constraints scale/center, fill #007AFF, text [SF Pro Text Semibold, 17px]
+    - TEXT "Clear", 41x22px, constraints scale/center, fill #007AFF, text [SF Pro Text Regular, 17px]
+    - GROUP "Tabs", 151x28px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 151x28px, constraints scale/scale, radius 8px, stroke #007AFF 1px, opacity 76%
+      - FRAME "Tab 2", 76x28px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 76x28px, constraints scale/scale, radius 8/0/0/8px, fill #007AFF
+        - TEXT "Missed", 44x16px, constraints scale/center, fill #007AFF, text [SF Pro Text Medium, 13px]
+      - FRAME "Tab 1", 76x28px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 76x28px, constraints scale/scale, radius 8/0/0/8px, fill #007AFF
+        - TEXT "All", 16x16px, constraints scale/center, fill #FFFFFF, text [SF Pro Text Medium, 13px]
+  - GROUP "Tab Bar", 375x83px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x83px, constraints left/top, fill #F6F6F6, effect [drop_shadow 0px offset 0 -0.33 #A6A6AA]
+    - FRAME "Tab 5", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - TEXT "Settings", 41x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+      - GROUP "Icon", 25x25px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+    - FRAME "Tab 4", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - BOOLEAN_OPERATION "Shape", 31x20.78px, constraints scale/scale, fill #979797
+      - TEXT "Chats", 29x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+    - FRAME "Tab 3", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - TEXT "Camera", 38x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+      - GROUP "Icon", 26x22px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - FRAME "Tab 2", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - GROUP "Icon", 22x22px, constraints left/top, fill #FFFFFF
+        - VECTOR "Path", 21.99x21.88px, constraints scale/scale, fill #007AFF
+      - TEXT "Calls", 25x12px, constraints scale/center, fill #007AFF, text [SF Pro Text Medium, 10px]
+    - FRAME "Tab 1", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - GROUP "Icon", 26x26px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+      - TEXT "Status", 32x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+  - ... +2 more children
+
+Screen: WhatsApp / WhatsApp Starred Messages
+- FRAME "WhatsApp Starred Messages", 375x812px, constraints scale/scale, fill #EFEFF4
+  - FRAME "Navigation Bar", 375x88px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x88px, constraints scale/scale, fill #F6F6F6, effect [drop_shadow 0px offset 0 0.33 #A6A6AA]
+    - FRAME "Back", 81x22px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Settings", 64x22px, constraints scale/center, fill #007AFF, text [SF Pro Text Regular, 17px]
+      - VECTOR "Shape", 11.84x21px, constraints scale/scale, fill #007AFF
+    - TEXT "Starred Messages", 146x22px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 17px]
+  - FRAME "Bars / Status Bar / iPhone X", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x44px, constraints scale/scale, fill #F7F7F7
+    - GROUP "Battery", 25x11px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+    - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #060606
+    - BOOLEAN_OPERATION "Mobile Signal", 17x10.67px, constraints right/top, fill #060606
+    - FRAME "Time Style", 54x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "9:41", 54x18px, constraints left_right/center, fill #171717, text [SF Pro Text Semibold, 15px]
+  - FRAME "Bars / Home Indicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x34px, constraints scale/scale, fill #F7F7F7
+    - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill #060606
+  - FRAME "Tip", 327x230px, constraints left/top, fill #FFFFFF
+    - VECTOR "Oval", 132x132px, constraints scale/scale, fill image(hash: 35177d93c74be6bccd48720ae47360dd9a1b821d), stroke #636366 0.5px, effect [drop_shadow 4px offset 0 2 #00000033]
+    - TEXT "Tap and hold on any", 327x42px, constraints scale/scale, fill #3C3C4399, text [SF Pro Text Regular, 14px]
+    - TEXT "No Starred Messages", 163x21px, constraints scale/center, fill #3C3C4399, text [SF Pro Text Semibold, 16px]
+
+Screen: WhatsApp / WhatsApp Chats
+- FRAME "WhatsApp Chats", 375x812px, constraints scale/scale, fill #EFEFF4
+  - GROUP "Swipe Action", 148x74px, constraints left/top, fill #FFFFFF
+    - FRAME "Archive", 74x74px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 74x74px, constraints scale/scale, fill #3E70A7
+      - TEXT "Archive", 49x17px, constraints scale/center, fill #FFFFFF, text [SF Pro Text Regular, 14px]
+      - GROUP "Archive Icon", 21x21px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "More", 74x74px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 74x74px, constraints scale/scale, fill #C6C6CC
+      - TEXT "More", 34x17px, constraints scale/center, fill #FFFFFF, text [SF Pro Text Regular, 14px]
+      - GROUP "More Icon", 25x6px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: 9491a0bd9f49e97c567d926a47eea03dd4ae0658)
+    - TEXT "Maximillian Jacobson", 163x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Bro, I have a good i", 240x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "10/30/19", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: 387ca4942fc3950a30517d15533459ef9feb5b9f)
+    - TEXT "Andrew Parker", 112x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "What kind of strateg", 240x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "11/16/19", 53x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: 387ca4942fc3950a30517d15533459ef9feb5b9f)
+    - TEXT "Kieron Dotson", 108x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Ok, have a good trip", 240x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "7/29/19", 49x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: 295c97d71fa72d8d7942512985499d585e42fa53)
+    - TEXT "Tabitha Potter", 107x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Actually I wanted to", 260x42px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "8/25/19", 50x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: f887f67b2de99f90fe3015016cceb7ffc0d9f7f4)
+    - TEXT "Maisy Humphrey", 128x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - FRAME "Message", 261x42px, constraints scale/scale, fill #FFFFFF
+      - TEXT "faster, look at Pixs", 260x42px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+      - TEXT "Welcome, to make des", 240x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+      - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - TEXT "8/20/19", 51x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: fe10b423a179f6612bd6b395294a31af333e0bb6)
+    - TEXT "Martha Craig", 99x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Photo", 39x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Photo Icon", 14x11px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+    - TEXT "10/28/19", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: d93f9ad804eab2cfd2bf9ca9e8f5e542e1fbdb51)
+    - TEXT "Martin Randolph", 126x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Yes, 2pm is awesome", 240x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "11/19/19", 53x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: d4c17ff918583bf15a6bdc083bcee64acc58ed55)
+    - TEXT "Karen Castillo", 105x21px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "0:14", 29x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "11/15/19", 53x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Voice Record", 9x15px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 9x14.3px, constraints scale/scale, fill #60BB58
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - FRAME "Chat", 375x74px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x74px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Oval", 52x52px, constraints scale/scale, fill image(hash: 1f61ca60cbc85c23d3705e0ea9b22359ff9489cc)
+    - TEXT "Joshua Lawrence", 133x19px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+    - TEXT "Do you like WhatsApp", 240x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - TEXT "10/20/19", 57x17px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 14px]
+    - GROUP "Read", 17x11px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Shape", 16.84x10.23px, constraints scale/scale, fill #3497F9
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - VECTOR "Seperator", 296x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - FRAME "Actions", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x44px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 0px offset 0 0.33 #3C3C434A]
+    - TEXT "Broadcast Lists", 118x20px, constraints scale/center, fill #007AFF, text [SF Pro Text Regular, 17px]
+    - TEXT "New Group", 87x20px, constraints scale/center, fill #007AFF, text [SF Pro Text Regular, 17px]
+  - FRAME "Navigation Bar", 375x88px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x88px, constraints scale/scale, fill #F6F6F6, effect [drop_shadow 0px offset 0 0.33 #A6A6AA]
+    - TEXT "Edit", 30x22px, constraints scale/center, fill #007AFF, text [SF Pro Text Regular, 17px]
+    - TEXT "Chats", 48x22px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 17px]
+    - GROUP "Edit Icon", 23x23px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - GROUP "Tab Bar", 375x83px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x83px, constraints left/top, fill #F6F6F6, effect [drop_shadow 0px offset 0 -0.33 #A6A6AA]
+    - FRAME "Tab 5", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - TEXT "Settings", 41x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+      - GROUP "Icon", 25x25px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+    - FRAME "Tab 4", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - BOOLEAN_OPERATION "Shape", 31x20.94px, constraints scale/scale, fill #007AFF
+      - TEXT "Chats", 29x12px, constraints scale/center, fill #007AFF, text [SF Pro Text Medium, 10px]
+    - FRAME "Tab 3", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - TEXT "Camera", 38x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+      - GROUP "Icon", 26x22px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - FRAME "Tab 2", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - GROUP "Icon", 23x24px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 22.76x22.76px, constraints scale/scale, fill #545458A6
+      - TEXT "Calls", 25x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+    - FRAME "Tab 1", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - GROUP "Icon", 26x26px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+      - TEXT "Status", 32x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+  - FRAME "Bars / Status Bar / iPhone X", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x44px, constraints scale/scale, fill #F7F7F7
+    - GROUP "Battery", 25x11px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+    - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #060606
+    - BOOLEAN_OPERATION "Mobile Signal", 17x10.67px, constraints right/top, fill #060606
+    - FRAME "Time Style", 54x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "9:41", 54x18px, constraints left_right/center, fill #171717, text [SF Pro Text Semibold, 15px]
+  - FRAME "Bars / Home Indicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x34px, constraints scale/scale, fill #F7F7F7
+    - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill #060606
+
+Screen: WhatsApp / WhatsApp Add Modal
+- FRAME "WhatsApp Add Modal", 375x812px, constraints scale/scale, fill #EFEFF4
+  - GROUP "Chat", 375x812px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x724px, constraints left/top, fill image(hash: 351acdb5ea7901e17f7cb0d61068f0f1d8f1f95d)
+    - GROUP "Message", 235x34px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shadow", 233x33px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 235x34px, constraints scale/scale, radius 8px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "Japan looks amazing!", 157x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "10:10", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 162.46x34.06px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shadow", 160x33.06px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 162.46x34px, constraints scale/scale, radius 0/0/0/0px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "Good bye!", 75x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "17:47", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 236x34px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shadow", 234x33px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 236x34px, constraints scale/scale, radius 8px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "I will write from Ja", 158x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "17:47", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 213x34px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shadow", 211x33px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 213x34px, constraints scale/scale, radius 8px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "I think top two are:", 135x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "11:50", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 171x34px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shape", 169x33px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 171x34px, constraints scale/scale, radius 0/0/0/0px, fill #FAFAFA
+      - TEXT "Do you like it?", 101x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "11:45", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 165x67px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shape", 163x66px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 165x67px, constraints scale/scale, radius 0/0/0/0px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "10:15", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+      - FRAME "File", 151x41px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 151x41px, constraints scale/scale, radius 6px, fill #7676801F
+        - GROUP "File Icon", 22x27px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+        - TEXT "IMG_0481", 73x19px, constraints scale/center, fill #000000B2, text [SF Pro Text Regular, 16px]
+      - FRAME "File Info", 68x13px, constraints scale/scale, fill #FFFFFF
+        - TEXT "png", 21x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill #00000033
+        - FRAME "File Size", 37x13px, constraints scale/scale, fill #FFFFFF
+          - TEXT "2.8", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+          - TEXT "MB", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 156x67px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shadow", 154x66px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Rectangle", 156x67px, constraints scale/scale, radius 8px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "10:15", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+      - FRAME "File", 150x41px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 150x41px, constraints scale/scale, radius 6px, fill #7676801F
+        - GROUP "File Icon", 22x27px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+        - TEXT "IMG_0475", 74x19px, constraints scale/center, fill #000000B2, text [SF Pro Text Regular, 16px]
+      - FRAME "File Info", 68x13px, constraints scale/scale, fill #FFFFFF
+        - TEXT "png", 21x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill #00000033
+        - FRAME "File Size", 37x13px, constraints scale/scale, fill #FFFFFF
+          - TEXT "2.4", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+          - TEXT "MB", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 165x67px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shape", 163x66px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 165x67px, constraints scale/scale, radius 0/0/0/0px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "11:51", 28x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+      - FRAME "File", 151x41px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 151x41px, constraints scale/scale, radius 6px, fill #7676801F
+        - GROUP "File Icon", 22x27px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+        - TEXT "IMG_0484", 76x19px, constraints scale/center, fill #000000B2, text [SF Pro Text Regular, 16px]
+      - FRAME "File Info", 68x13px, constraints scale/scale, fill #FFFFFF
+        - TEXT "png", 21x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill #00000033
+        - FRAME "File Size", 37x13px, constraints scale/scale, fill #FFFFFF
+          - TEXT "2.6", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+          - TEXT "MB", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 156x67px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shadow", 154x66px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Rectangle", 156x67px, constraints scale/scale, radius 8px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "11:51", 28x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+      - FRAME "File", 150x41px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 150x41px, constraints scale/scale, radius 6px, fill #7676801F
+        - GROUP "File Icon", 22x27px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+        - TEXT "IMG_0483", 76x19px, constraints scale/center, fill #000000B2, text [SF Pro Text Regular, 16px]
+      - FRAME "File Info", 68x13px, constraints scale/scale, fill #FFFFFF
+        - TEXT "png", 21x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill #00000033
+        - FRAME "File Size", 37x13px, constraints scale/scale, fill #FFFFFF
+          - TEXT "2.8", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+          - TEXT "MB", 17x13px, constraints scale/center, fill #00000066, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 234x50px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shape", 232x49px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 234x50px, constraints scale/scale, radius 0/0/0/0px, fill #FAFAFA
+      - TEXT "Do you know what tim", 210x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "11:40", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 255x50px, constraints left/top, radius 8px
+      - VECTOR "Shadow", 253x49px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 255x50px, constraints scale/scale, radius 8px, fill #FAFAFA
+      - TEXT "What is the most pop", 240x38px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "11:45", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - GROUP "Message", 262.46x34px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Shadow", 260x33px, constraints scale/scale, radius 0/0/0/0px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 262.46x34px, constraints scale/scale, radius 0/0/0/0px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "It’s morning in Toky", 150x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "😎", 16x16px, constraints scale/center, fill #000000, text [Roboto Regular, 16px]
+      - TEXT "11:43", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - FRAME "Date", 100x21px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 100x21px, constraints scale/scale, radius 8px, fill #DDDDE9, effect [drop_shadow 0px offset 0 -0.4 #EEEEF4, drop_shadow 0px offset 0 0.4 #62626233]
+      - TEXT "Fri, Jul 26", 59x14px, constraints scale/center, fill #3C3C43, text [SF Pro Text Semibold, 12px]
+    - FRAME "Message", 187x34px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shadow", 185x33px, constraints scale/scale, radius 8px, fill #00000066, effect [layer_blur 1.63px]
+      - VECTOR "Shape", 187x34px, constraints scale/scale, radius 8px, fill #DCF7C5
+      - GROUP "Read", 13.5x8px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 13.5x8px, constraints scale/scale, fill #3497F9
+      - TEXT "Good morning!", 109x19px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+      - TEXT "10:10", 30x13px, constraints scale/center, fill #00000040, text [SF Pro Text Regular, 11px]
+    - FRAME "Contact Actions", 375x88px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x88px, constraints scale/scale, fill #F6F6F6, effect [drop_shadow 0px offset 0 0.33 #A6A6AA]
+      - GROUP "Call", 21x21px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 21x21px, constraints scale/scale, fill #007AFF
+      - GROUP "Video Call", 24.5x15.5px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - GROUP "Back", 11.84x21px, constraints left/top, fill #FFFFFF
+        - VECTOR "Shape", 11.84x21px, constraints scale/scale, fill #007AFF
+      - VECTOR "Oval", 36x36px, constraints scale/scale, fill image(hash: fe10b423a179f6612bd6b395294a31af333e0bb6)
+      - TEXT "Martha Craig", 100x19px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 16px]
+      - TEXT "tap here for contact", 137x16px, constraints scale/center, fill #8E8E93, text [SF Pro Text Regular, 12px]
+    - GROUP "Send Message", 375x80px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~16 shapes]
+  - VECTOR "Overlay", 375x812px, constraints left/top, fill #00000066
+  - GROUP "Action Sheet", 355x350px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - FRAME "Cancel Button", 355x57px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle Copy 11", 355x57px, constraints scale/scale, radius 14px, fill #FFFFFF
+      - TEXT "Cancel", 62x24px, constraints scale/center, fill #007AFF, text [SF Pro Text Semibold, 19px]
+    - GROUP "Actions", 355x285.5px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Mask", 355x285px, constraints left/top, radius 15px, fill #ECECED
+      - RECTANGLE "Mask", 355x285px, constraints left/top, radius 15px, fill #ECECED
+      - FRAME "Tab 5", 355x57px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 355x57px, constraints scale/scale
+        - GROUP "Icon", 22x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - TEXT "Camera", 68x24px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 20px]
+      - FRAME "Tab 4", 355x57px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 355x57px, constraints scale/scale
+        - TEXT "Photo & Video Librar", 188x24px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 20px]
+        - GROUP "Icon", 24x20px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+      - FRAME "Tab 3", 355x57px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 355x57px, constraints scale/scale
+        - TEXT "Document", 91x24px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 20px]
+        - GROUP "Icon", 17x23px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - FRAME "Tab 2", 355x57px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 355x57px, constraints scale/scale
+        - TEXT "Location", 75x24px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 20px]
+        - GROUP "Icon", 19x26px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - FRAME "Tab 1", 355x57px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 355x57px, constraints scale/scale
+        - TEXT "Contact", 69x24px, constraints scale/center, fill #000000, text [SF Pro Display Regular, 20px]
+        - GROUP "Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Shape", 23.5x23.5px, constraints scale/scale, fill #007AFF
+      - VECTOR "Seperator", 355x1px, constraints left/top, stroke #C6C6C8 0.33px
+      - VECTOR "Seperator", 355x1px, constraints left/top, stroke #C6C6C8 0.33px
+      - VECTOR "Seperator", 355x1px, constraints left/top, stroke #C6C6C8 0.33px
+      - VECTOR "Seperator", 355x1px, constraints left/top, stroke #C6C6C8 0.33px
+      - VECTOR "Seperator", 355x1px, constraints left/top, stroke #C6C6C8 0.33px
+  - FRAME "Bars / Status Bar / iPhone X", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x44px, constraints scale/scale, fill #F7F7F7
+    - GROUP "Battery", 25x11px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+    - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #060606
+    - BOOLEAN_OPERATION "Mobile Signal", 17x10.67px, constraints right/top, fill #060606
+    - FRAME "Time Style", 54x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "9:41", 54x18px, constraints left_right/center, fill #171717, text [SF Pro Text Semibold, 15px]
+  - FRAME "Bars / Home Indicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x34px, constraints scale/scale, fill #F7F7F7
+    - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill #060606
+
+Screen: WhatsApp / WhatsApp Camera
+- FRAME "WhatsApp Camera", 375x812px, constraints scale/scale, fill #000000
+  - GROUP "Camera View", 375x666px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+  - GROUP "Gallery Icon", 33x27px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - GROUP "Change Camera", 35x30px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - GROUP "Take Photo", 69x69px, constraints left/top, fill #FFFFFF
+    - BOOLEAN_OPERATION "Oval", 69x69px, constraints left/top, fill #FFFFFF, stroke #00000033 1px
+  - GROUP "Recent Images Swipe", 37x5px, constraints left/top, fill #FFFFFF
+    - VECTOR "Shape", 37x5px, constraints left/top, fill #FFFFFF, stroke #00000033 1px
+  - GROUP "Top Bar", 375x73px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+  - FRAME "Tip", 375x73px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x73px, constraints scale/scale, fill #000000
+    - TEXT "Hold for video, tap", 167x16px, constraints scale/center, fill #FFFFFF, text [SF Pro Text Medium, 12px]
+  - FRAME "Bars / Home Indicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x34px, constraints scale/scale, fill #F7F7F7
+    - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+
+Screen: WhatsApp / WhatsApp Settings
+- FRAME "WhatsApp Settings", 375x812px, constraints scale/scale, fill #EFEFF4
+  - TEXT "WhatsApp from Facebo", 147x18px, constraints left/top, fill #8E8E93, text [SF Pro Text Regular, 12px]
+  - FRAME "Name", 375x76px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x76px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 0px offset 0 0.33 #3C3C434A]
+    - VECTOR "Oval", 58x58px, constraints scale/scale, fill image(hash: 7b517fd1166e1c96bb4d606ab3bc83385540dadb)
+    - TEXT "Sabohiddin", 104x24px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 20px]
+    - TEXT "Digital goodies desi", 232x20px, constraints scale/center, fill #3C3C4399, text [SF Pro Text Regular, 16px]
+    - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+  - GROUP "Rows", 375x94px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x94px, constraints left/top, fill #FFFFFF, effect [drop_shadow 0px offset 0 -0.33 #3C3C434A, drop_shadow 0px offset 0 0.33 #3C3C434A]
+    - FRAME "Row", 375x47px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x47px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+        - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+      - GROUP "Icon", 29x29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 29x29px, constraints scale/scale, radius 6px, fill #FBB500
+        - VECTOR "Star", 19x19px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "Starred Messages", 132x22px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - FRAME "Row", 375x47px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x47px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+        - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+      - GROUP "Icon", 29x29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "WhatsApp Web/Desktop", 178x22px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - VECTOR "Seperator", 316x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - GROUP "Rows", 375x94px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x94px, constraints left/top, fill #FFFFFF, effect [drop_shadow 0px offset 0 -0.33 #3C3C434A, drop_shadow 0px offset 0 0.33 #3C3C434A]
+    - FRAME "Row", 375x47px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x47px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+        - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+      - GROUP "Icon", 29x29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Help", 34x22px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - FRAME "Row", 375x47px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x47px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+        - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+      - GROUP "Icon", 29x29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Tell a Friend", 88x22px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - VECTOR "Seperator", 316x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - GROUP "Rows", 375x188px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x188px, constraints left/top, fill #FFFFFF, effect [drop_shadow 0px offset 0 -0.33 #3C3C434A, drop_shadow 0px offset 0 0.33 #3C3C434A]
+    - FRAME "Row", 375x47px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x47px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+        - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+      - GROUP "Icon", 29x29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Account", 61x22px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - FRAME "Row", 375x47px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x47px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+        - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+      - GROUP "Icon", 29x29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+      - TEXT "Chats", 43x22px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - FRAME "Row", 375x47px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x47px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+        - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+      - GROUP "Icon", 29x29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Data and Storage Usa", 177x22px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - FRAME "Row", 375x47px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x47px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+        - VECTOR "Shape", 7x12px, constraints scale/scale, fill #3C3C434D
+      - GROUP "Icon", 29x29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Notifications", 92x22px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 16px]
+    - VECTOR "Seperator", 316x1px, constraints left/top, stroke #3C3C434A 0.33px
+    - VECTOR "Seperator", 316x1px, constraints left/top, stroke #3C3C434A 0.33px
+    - VECTOR "Seperator", 316x1px, constraints left/top, stroke #3C3C434A 0.33px
+  - FRAME "Navigation Bar", 375x88px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x88px, constraints scale/scale, fill #F6F6F6, effect [drop_shadow 0px offset 0 0.33 #A6A6AA]
+    - TEXT "Settings", 68x22px, constraints scale/center, fill #000000, text [SF Pro Text Semibold, 17px]
+  - GROUP "Tab Bar", 375x83px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x83px, constraints left/top, fill #F6F6F6, effect [drop_shadow 0px offset 0 -0.33 #A6A6AA]
+    - FRAME "Tab 5", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - TEXT "Settings", 41x12px, constraints scale/center, fill #007AFF, text [SF Pro Text Medium, 10px]
+      - GROUP "Icon", 25x25px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+    - FRAME "Tab 4", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - BOOLEAN_OPERATION "Shape", 31x20.78px, constraints scale/scale, fill #979797
+      - TEXT "Chats", 29x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+    - FRAME "Tab 3", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - TEXT "Camera", 38x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+      - GROUP "Icon", 26x22px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - FRAME "Tab 2", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - GROUP "Icon", 23x24px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Shape", 22.76x22.76px, constraints scale/scale, fill #545458A6
+      - TEXT "Calls", 25x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+    - FRAME "Tab 1", 75x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 75x49px, constraints scale/scale, fill #F9F9F9F0
+      - GROUP "Icon", 26x26px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+      - TEXT "Status", 32x12px, constraints scale/center, fill #545458A6, text [SF Pro Text Medium, 10px]
+  - FRAME "Bars / Home Indicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x34px, constraints scale/scale, fill #F7F7F7
+    - RECTANGLE "Line", 134x5px, constraints center/bottom, radius 100px, fill #060606
+  - FRAME "Bars / Status Bar / iPhone X", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "⬛ Background", 375x44px, constraints scale/scale, fill #F7F7F7
+    - GROUP "Battery", 25x11px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+    - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #060606
+    - BOOLEAN_OPERATION "Mobile Signal", 17x10.67px, constraints right/top, fill #060606
+    - FRAME "Time Style", 54x18px, constraints scale/scale, fill #FFFFFF
+      - TEXT "9:41", 54x18px, constraints left_right/center, fill #171717, text [SF Pro Text Semibold, 15px]
+
+Screen: WhatsApp / WhatsApp Account
+- FRAME "WhatsApp Account", 375x812px, constraints scale/scale, fill #EFEFF4
+  - GROUP "Rows", 375x188px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle", 375x188px, constraints left/top, fill #FFFFFF, effect [drop_shadow 0px offset 0 -0.33 #3C3C434A, drop_shadow 0px offset 0 0.33 #3C3C434A]
+    - FRAME "Row", 375x47px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x47px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow Right", 7x12px, constraints left/top, fill #FFFFFF
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

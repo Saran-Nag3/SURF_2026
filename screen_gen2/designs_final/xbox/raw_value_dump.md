@@ -1,0 +1,106 @@
+---
+name: xbox-app-community
+source_file: Xbox App (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:23:41.956773+00:00
+---
+
+# Xbox App (Community) Design Guidelines
+
+## Source
+- Figma file: Xbox App (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:23:41.956773+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 14 uses
+- #08AD2C: 7 uses
+- #171717: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Ropa Sans Regular, 20px: 5 uses
+- Ropa Sans Regular, 15px: 3 uses
+
+## Typography Hierarchy
+- 20px - Ropa Sans Regular, 20px (raw)
+- 15px - Ropa Sans Regular, 15px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / Xbox Home
+- FRAME "Xbox Home", 375x812px, constraints left/top, radius 20px, fill #000000
+  - TEXT "Discover And Power Your Dreams", 231x64px, constraints left/top, fill #FFFFFF, text [Ropa Sans Regular, 30px], [heading]
+  - RECTANGLE "Rectangle 1", 300x200px, constraints left/top, radius 15px, fill #171717, effect [drop_shadow 10px offset 4 4 #00000040]
+  - RECTANGLE "Rectangle 2", 180x180px, constraints left/top, radius 15px, fill #171717
+  - RECTANGLE "Rectangle 3", 180x180px, constraints left/top, radius 15px, fill #171717
+  - TEXT "Latest picks", 135x32px, constraints left/top, fill #FFFFFF, text [Ropa Sans Regular, 30px], [heading]
+  - RECTANGLE "joshua-oluwagbemiga-UCFDB6O48d0-unsplash-removebg-preview 1", 198x200px, constraints left/top, fill image(hash: 7799c75fe7c6bdaad04aca52955900ae90cbaf41)
+  - TEXT "Xbox Series X", 101x21px, constraints left/top, fill #FFFFFF, text [Ropa Sans Regular, 20px]
+  - TEXT "Xbox Controller", 117x21px, constraints left/top, fill #FFFFFF, text [Ropa Sans Regular, 20px]
+  - TEXT "Xbox Controller", 117x21px, constraints left/top, fill #FFFFFF, text [Ropa Sans Regular, 20px]
+  - TEXT "The fastest, most powerful Xbox ever", 110x32px, constraints left/top, fill #979797, text [Ropa Sans Regular, 15px]
+  - TEXT "$389", 43x26px, constraints left/top, fill #08AD2C, text [Ropa Sans Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 4", 100x25px, constraints left/top, radius 10px, fill #08AD2C
+  - TEXT "Buy Now", 37x12px, constraints left/top, fill #FFFFFF, text [Ropa Sans Regular, 11px]
+  - RECTANGLE "alex-motoc-0POwK6iAiRQ-unsplash-removebg-preview 1", 183x187px, constraints left/top, fill image(hash: 41ba23380f49f87617775ca83bb2ec06e72949de)
+  - RECTANGLE "sean-stone-dkb3wApu5XQ-unsplash__1_-removebg-preview 1", 185x189px, constraints left/top, fill image(hash: 6321fdbdbb93283e6f2982bc252ada1cec1dd270)
+  - TEXT "$389", 27x16px, constraints left/top, fill #08AD2C, text [Ropa Sans Regular, 15px]
+  - TEXT "$389", 27x16px, constraints left/top, fill #08AD2C, text [Ropa Sans Regular, 15px]
+  - FRAME "fi-rr-search 1", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 30.02x30.02px, constraints scale/scale, fill #FFFFFF
+  - LINE "Line 1", 27x0px, constraints left/top, stroke #FFFFFF 2px
+  - LINE "Line 2", 27x0px, constraints left/top, stroke #FFFFFF 2px
+  - LINE "Line 3", 19x0px, constraints left/top, stroke #FFFFFF 2px
+  - FRAME "fi-rr-add 1", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 30x30px, constraints scale/scale, fill #FFFFFF
+
+Screen: Page 1 / Buy Now
+- FRAME "Buy Now", 375x812px, constraints left/top, radius 20px, fill #000000
+  - TEXT "$389", 63x38px, constraints left/top, fill #08AD2C, text [Ropa Sans Regular, 35px], [heading]
+  - TEXT "Xbox One Wireless White Controlled with Bluetooth", 196x42px, constraints left/top, fill #979797, text [Ropa Sans Regular, 20px]
+  - TEXT "Read Now...", 89x21px, constraints left/top, fill #08AD2C, text [Ropa Sans Regular, 20px]
+  - RECTANGLE "Rectangle 5", 220x52px, constraints left/top, radius 10px, fill #08AD2C
+  - TEXT "Buy Now", 84x27px, constraints left/top, fill #FFFFFF, text [Ropa Sans Regular, 25px], [heading]
+  - TEXT "Xbox Controller", 204x38px, constraints left/top, fill #FFFFFF, text [Ropa Sans Regular, 35px], [heading]
+  - VECTOR "Vector", 20x17.13px, constraints scale/scale, fill #FFFFFF
+
+Screen: Page 1 / Xbox_Controller-removebg-preview 1
+- RECTANGLE "Xbox_Controller-removebg-preview 1", 425x399px, constraints left/top, fill image(hash: 4770dcb0b39816ae6a43845d517481ef5fa9fc48)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

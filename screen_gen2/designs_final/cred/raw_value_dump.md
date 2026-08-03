@@ -1,0 +1,1681 @@
+---
+name: cred-s-neopop-ui-kit-unofficial-community
+source_file: CRED's neoPOP  UI kit (unofficial) (Community)
+source_page: All pages (11): 🖼️ Thumbnail, 👋 About, 📋 Changelog,  , 🌟 Pikaicons.com 🌟,  , 🎨 Color, 🆎 Typography, 📐 Grid system,  , ❇️ Components
+generated_at: 2026-07-25T09:33:25.455869+00:00
+---
+
+# CRED's neoPOP  UI kit (unofficial) (Community) Design Guidelines
+
+## Source
+- Figma file: CRED's neoPOP  UI kit (unofficial) (Community)
+- Figma page: All pages (11): 🖼️ Thumbnail, 👋 About, 📋 Changelog,  , 🌟 Pikaicons.com 🌟,  , 🎨 Color, 🆎 Typography, 📐 Grid system,  , ❇️ Components
+- Extracted at: 2026-07-25T09:33:25.455869+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Base Colors/pop black/500: [#0D0D0D]
+- Base Colors/pop white/200: [#E0E0E0]
+- Base Colors/pop white/500: [#FFFFFF]
+- Base Colors/pop black/300: none
+- More Colors/win yellow (DISCONTINUED)/400: [#FFF066]
+- Semantic Colors/success/400: [#1FC87F]
+- Base Colors/pop black/200: [#FFFFFF]
+- Base Colors/pop white/300: [#EFEFEF]
+- Base Colors/pop black/100: [#8A8A8A]
+- More Colors/pak green/500: [#3BFFAD]
+- Base Colors/pop white/100: [#D2D2D2]
+- Semantic Colors/success/500: [#06C270]
+- Base Colors/pop white/400: [#FBFBFB]
+- More Colors/manna/500: [#FFCB45]
+- Base Colors/pop white/100/100-90: [#FFFFFFE5]
+- Base Colors/pop black/500/500: [#0D0D0D]
+- base color/pop white/pop white 500: none
+- Base Colors/pop white/100/100: none
+- Base Colors/pop black/400/400: [#121212]
+- Base Colors/pop black/500/500-90: [#0D0D0DE5]
+- Base Colors/pop black/200/200: [#3D3D3D]
+- Base Colors/pop white/100/100-30: [#FFFFFF4D]
+- More Colors/win yellow/500: [#FFEB34]
+- More Colors/win yellow/600: [#CDB900]
+- Base Colors/pop white/100/100-50: [#FFFFFF80]
+- Base Colors/pop white/100/100-70: none
+- Base Colors/pop black/400: [#121212]
+- More Colors/neo pacha/500: [#E5FE40]
+- More Colors/poli purple/500: [#6A35FF]
+- More Colors/manna/600: [#FFECA8]
+- Semantic Colors/success/300: [#4FE3A3]
+- state color/success/success 500: [#06C270]
+- state color/success/success 400: [#0D0D0D]
+- base color/pop black/pop black 500: [#0D0D0D]
+- Semantic Colors/warning/500: [#F08D32]
+- Semantic Colors/info/300: [#3F6FD9]
+- More Colors/manna/800: [#4D3D15]
+- Semantic Colors/info/500: [#144CC7]
+- Semantic Colors/info/400: [#2C5ECD]
+- More Colors/pak green/200: [#C4FFE6]
+- More Colors/neo pacha/400: [#EDFE79]
+- more colors/win yellow 400: [#FFF066]
+- Semantic Colors/success/200: [#83E0B8]
+- Semantic Colors/success/100: [#E6F9F1]
+- Semantic Colors/info/200: [#89A5E3]
+- Semantic Colors/info/100: [#C2D0F2]
+- Semantic Colors/warning/400: [#F29947]
+- Semantic Colors/warning/300: [#F5AC6A]
+- Semantic Colors/warning/200: [#F8C699]
+- Semantic Colors/warning/100: [#FBDDC2]
+- Semantic Colors/error/500: [#EE4D37]
+- Semantic Colors/error/400: [#F05E4B]
+- Semantic Colors/error/300: [#F47564]
+- Semantic Colors/error/200: [#F6A69B]
+- Semantic Colors/error/100: [#FCE2DD]
+- More Colors/win yellow (DISCONTINUED)/500: [#FFEB34]
+- More Colors/pak green/800: [#124D34]
+- More Colors/pak green/700: [#1E8057]
+- More Colors/pak green/600: [#29B379]
+- More Colors/pak green/400: [#76FFC6]
+- More Colors/pak green/300: [#9DFFD6]
+- More Colors/pak green/100: [#DDFFF1]
+- More Colors/yoyo/800: [#33134D]
+- More Colors/yoyo/700: [#552080]
+- More Colors/yoyo/600: [#772CB3]
+- More Colors/yoyo/500: [#AA3FFF]
+- More Colors/yoyo/400: [#C379FF]
+- More Colors/yoyo/300: [#D59FFF]
+- More Colors/yoyo/200: [#E5C5FF]
+- More Colors/yoyo/100: [#F4E5FF]
+- More Colors/neo pacha/800: [#454C13]
+- More Colors/neo pacha/700: [#727F20]
+- More Colors/neo pacha/600: [#A0B22D]
+- More Colors/neo pacha/300: [#F7FFC6]
+- More Colors/neo pacha/200: [#F7FFC6]
+- More Colors/neo pacha/100: [#FBFFE6]
+- More Colors/manna/700: [#806623]
+- More Colors/manna/400: [#FFDB7D]
+- More Colors/manna/300: [#FFE5A2]
+- More Colors/manna/200: [#FFEFC7]
+- More Colors/manna/100: [#FFF8E5]
+- More Colors/pink pong/800: [#4D1421]
+- More Colors/pink pong/700: [#802138]
+- More Colors/pink pong/600: [#B32E4E]
+- More Colors/pink pong/500: [#FF426F]
+- More Colors/pink pong/400: [#FF7B9A]
+- More Colors/pink pong/300: [#FFA0B7]
+- More Colors/pink pong/200: [#FFC6D4]
+- More Colors/pink pong/100: [#FFE1E9]
+- More Colors/rss/800: [#4D2914]
+- More Colors/rss/700: [#804322]
+- More Colors/rss/600: [#B35F30]
+- More Colors/rss/500: [#FF8744]
+- More Colors/rss/400: [#FFAB7C]
+- More Colors/rss/300: [#FFC3A2]
+- More Colors/rss/200: [#FFDBC7]
+- More Colors/rss/100: [#FFEFE6]
+- More Colors/poli purple/800: [#20104D]
+- More Colors/poli purple/700: [#351A80]
+- More Colors/poli purple/600: [#4A25B3]
+- More Colors/poli purple/400: [#9772FF]
+- More Colors/poli purple/300: [#B49AFF]
+- More Colors/poli purple/200: [#D2C2FF]
+- More Colors/poli purple/100: [#E8DFFF]
+- .PikaDark: none
+
+## Raw Colors (unstyled)
+- #000000: 431 uses
+- #FFFFFF: 269 uses
+- #D9D9D9: 183 uses
+- #FFFFFFE5: 132 uses
+- #FFFFFF1A: 125 uses
+- #C4C4C4: 123 uses
+- #EFEFEF80: 84 uses
+- #FFFFFFB2: 64 uses
+- #D8D1FF: 43 uses
+- #FF00F5: 38 uses
+- #FFFFFF80: 37 uses
+- #161616: 34 uses
+- #FF426F33: 34 uses
+- #0D0D0D: 27 uses
+- #FFCB45: 22 uses
+- #00000000: 20 uses
+- #020203: 20 uses
+- #E5FE40: 19 uses
+- #3A3938: 18 uses
+- #1E8057: 16 uses
+- #0D0D0DB2: 13 uses
+- #FF426F: 13 uses
+- #004C8F: 12 uses
+- #FF00001A: 12 uses
+- #FFFFFF4D: 12 uses
+- #0D0D0D1A: 11 uses
+- #3D3D3DB2: 11 uses
+- #D75304: 11 uses
+
+## Typography Tokens
+- Caps/SemiBold/10: Gilroy SemiBold (600), 10px / 13px, tracking 2px
+- Heading/Bold/13: Gilroy Bold (700), 13px / 16px, tracking 0.2px
+- Body/Medium/11: Gilroy Medium (500), 11px / 17px, tracking 0.2px
+- Heading/Bold/14: Gilroy Bold (700), 14px / 18px, tracking 0.2px
+- Body/Medium/14: Gilroy Medium (500), 14px / 21px, tracking 0.2px
+- Caps/Bold/12: Gilroy Bold (700), 12px / 15px, tracking 2px
+- Heading/SemiBold/13: Gilroy SemiBold (600), 13px / 16px, tracking 0.2px
+- Body/Medium/12: Gilroy Medium (500), 12px / 18px, tracking 0.2px
+- Serif-Heading/Bold/24: PP Cirka Bold (700), 24px / 29px, tracking 0.2px
+- Heading/SemiBold/14: Gilroy SemiBold (600), 14px / 18px, tracking 0.2px
+- Button/13-16 Bold: Gilroy Bold (700), 13px / 16px, tracking 0.2px
+- Heading/Bold/20: Gilroy Bold (700), 20px / 25px, tracking 0.2px
+- Heading/Bold/16: Gilroy Bold (700), 16px / 20px, tracking 0.2px
+- Serif-Heading/Bold/22: PP Cirka Bold (700), 22px / 28px, tracking 0.2px
+- Serif-Heading/Bold/20: PP Cirka Bold (700), 20px / 25px, tracking 0px
+- Serif-Heading/Bold/18: PP Cirka Bold (700), 18px / 23px, tracking 0px
+- Heading/ExtraBold/44: Gilroy ExtraBold (800), 44px / 55px, tracking 0.2px
+- Heading/ExtraBold/22: Gilroy ExtraBold (800), 22px / 28px, tracking 0.2px
+- Heading/ExtraBold/20: Gilroy ExtraBold (800), 20px / 25px, tracking 0.2px
+- Heading/ExtraBold/18: Gilroy ExtraBold (800), 18px / 23px, tracking 0.2px
+- Heading/ExtraBold/16: Gilroy ExtraBold (800), 16px / 20px, tracking 0.2px
+- Heading/ExtraBold/15: Gilroy ExtraBold (800), 15px / 19px, tracking 0.2px
+- Heading/ExtraBold/14: Gilroy ExtraBold (800), 14px / 18px, tracking 0.2px
+- Heading/ExtraBold/13: Gilroy ExtraBold (800), 13px / 16px, tracking 0.2px
+- Heading/Bold/22: Gilroy Bold (700), 22px / 28px, tracking 0.2px
+- Heading/Bold/18: Gilroy Bold (700), 18px / 23px, tracking 0.2px
+- Heading/SemiBold/22: Gilroy SemiBold (600), 22px / 28px, tracking 0.2px
+- Heading/SemiBold/20: Gilroy SemiBold (600), 20px / 25px, tracking 0.2px
+- Heading/SemiBold/18: Gilroy SemiBold (600), 18px / 23px, tracking 0.2px
+- Heading/SemiBold/16: Gilroy SemiBold (600), 16px / 20px, tracking 0.2px
+- Caps/ExtraBold/12: Gilroy ExtraBold (800), 12px / 15px, tracking 2px
+- Caps/ExtraBold/10: Gilroy ExtraBold (800), 10px / 13px, tracking 2px
+- Caps/Bold/10: Gilroy Bold (700), 10px / 13px, tracking 2px
+- Caps/SemiBold/12: Gilroy SemiBold (600), 12px / 15px, tracking 2px
+- Body/Medium/16: Gilroy Medium (500), 16px / 24px, tracking 0.2px
+- Body/Medium/15: Gilroy Medium (500), 15px / 23px, tracking 0.2px
+- Body/Medium/13: Gilroy Medium (500), 12px / 20px, tracking 0.2px
+- Body/Regular/16: Gilroy Regular (400), 16px / 24px, tracking 0.2px
+- Body/Regular/15: Gilroy Regular (400), 15px / 23px, tracking 0.2px
+- Body/Regular/14: Gilroy Regular (400), 14px / 21px, tracking 0.2px
+- Body/Regular/13: Gilroy Regular (400), 12px / 20px, tracking 0.2px
+- Body/Regular/12: Gilroy Regular (400), 12px / 18px, tracking 0.2px
+- Body/Regular/11: Gilroy Regular (400), 11px / 17px, tracking 0.2px
+
+## Raw Typography (unstyled)
+- IBM Plex Mono Medium, 13px: 167 uses
+- Gilroy SemiBold, 14px: 104 uses
+- IBM Plex Mono Bold, 16px: 64 uses
+- Gilroy Bold, 12px: 48 uses
+- Gilroy Medium, 14px: 30 uses
+- Gilroy Medium, 12px: 22 uses
+- IBM Plex Mono Medium, 24px: 18 uses
+- IBM Plex Mono Regular, 10px: 13 uses
+- Gilroy SemiBold, 10px: 11 uses
+- IBM Plex Mono Regular, 13px: 9 uses
+- Gilroy Bold, 13px: 8 uses
+- Gilroy Bold, 10px: 7 uses
+- Gilroy Bold, 8px: 7 uses
+- Gilroy Medium, 11px: 5 uses
+- IBM Plex Mono Medium, 14px: 5 uses
+- Gilroy Bold, 16px: 4 uses
+- IBM Plex Mono Regular, 14px: 4 uses
+- Gilroy Bold, 18px: 3 uses
+- Gilroy Regular, 12px: 3 uses
+- IBM Plex Mono Medium, 12px: 3 uses
+
+## Typography Hierarchy
+- 44px - Heading/ExtraBold/44 (Gilroy ExtraBold)
+- 24px - IBM Plex Mono Medium, 24px (raw)
+- 24px - Serif-Heading/Bold/24 (PP Cirka Bold)
+- 22px - Heading/Bold/22 (Gilroy Bold)
+- 22px - Heading/ExtraBold/22 (Gilroy ExtraBold)
+- 22px - Heading/SemiBold/22 (Gilroy SemiBold)
+- 22px - Serif-Heading/Bold/22 (PP Cirka Bold)
+- 20px - Heading/Bold/20 (Gilroy Bold)
+- 20px - Heading/ExtraBold/20 (Gilroy ExtraBold)
+- 20px - Heading/SemiBold/20 (Gilroy SemiBold)
+- 20px - Serif-Heading/Bold/20 (PP Cirka Bold)
+- 18px - Gilroy Bold, 18px (raw)
+- 18px - Heading/Bold/18 (Gilroy Bold)
+- 18px - Heading/ExtraBold/18 (Gilroy ExtraBold)
+- 18px - Heading/SemiBold/18 (Gilroy SemiBold)
+- 18px - Serif-Heading/Bold/18 (PP Cirka Bold)
+- 16px - Body/Medium/16 (Gilroy Medium)
+- 16px - Body/Regular/16 (Gilroy Regular)
+- 16px - Gilroy Bold, 16px (raw)
+- 16px - Heading/Bold/16 (Gilroy Bold)
+- 16px - Heading/ExtraBold/16 (Gilroy ExtraBold)
+- 16px - Heading/SemiBold/16 (Gilroy SemiBold)
+- 16px - IBM Plex Mono Bold, 16px (raw)
+- 15px - Body/Medium/15 (Gilroy Medium)
+- 15px - Body/Regular/15 (Gilroy Regular)
+- 15px - Heading/ExtraBold/15 (Gilroy ExtraBold)
+- 14px - Body/Medium/14 (Gilroy Medium)
+- 14px - Body/Regular/14 (Gilroy Regular)
+- 14px - Gilroy Medium, 14px (raw)
+- 14px - Gilroy SemiBold, 14px (raw)
+- 14px - Heading/Bold/14 (Gilroy Bold)
+- 14px - Heading/ExtraBold/14 (Gilroy ExtraBold)
+- 14px - Heading/SemiBold/14 (Gilroy SemiBold)
+- 14px - IBM Plex Mono Medium, 14px (raw)
+- 14px - IBM Plex Mono Regular, 14px (raw)
+- 13px - Button/13-16 Bold (Gilroy Bold)
+- 13px - Gilroy Bold, 13px (raw)
+- 13px - Heading/Bold/13 (Gilroy Bold)
+- 13px - Heading/ExtraBold/13 (Gilroy ExtraBold)
+- 13px - Heading/SemiBold/13 (Gilroy SemiBold)
+- 13px - IBM Plex Mono Medium, 13px (raw)
+- 13px - IBM Plex Mono Regular, 13px (raw)
+- 12px - Body/Medium/12 (Gilroy Medium)
+- 12px - Body/Medium/13 (Gilroy Medium)
+- 12px - Body/Regular/12 (Gilroy Regular)
+- 12px - Body/Regular/13 (Gilroy Regular)
+- 12px - Caps/Bold/12 (Gilroy Bold)
+- 12px - Caps/ExtraBold/12 (Gilroy ExtraBold)
+- 12px - Caps/SemiBold/12 (Gilroy SemiBold)
+- 12px - Gilroy Bold, 12px (raw)
+- 12px - Gilroy Medium, 12px (raw)
+- 12px - Gilroy Regular, 12px (raw)
+- 12px - IBM Plex Mono Medium, 12px (raw)
+- 11px - Body/Medium/11 (Gilroy Medium)
+- 11px - Body/Regular/11 (Gilroy Regular)
+- 11px - Gilroy Medium, 11px (raw)
+- 10px - Caps/Bold/10 (Gilroy Bold)
+- 10px - Caps/ExtraBold/10 (Gilroy ExtraBold)
+- 10px - Caps/SemiBold/10 (Gilroy SemiBold)
+- 10px - Gilroy Bold, 10px (raw)
+- 10px - Gilroy SemiBold, 10px (raw)
+- 10px - IBM Plex Mono Regular, 10px (raw)
+- 8px - Gilroy Bold, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- Mobile Grid 12px: columns count 12, section 18px, gutter 10px, align min
+
+## Component Families
+- Cred Logo
+- Nav bar
+- Tab
+- White loading animation
+- Arrow
+- Small arrow
+- Nav Arrow
+- Dark loading animation
+- 2.5 Button
+- Button - Main
+- Switch
+- Component 3
+- Component 8
+- Search bar
+- Exlusive offer
+- On spotlight card
+- Active booster cards
+- Component 1
+- Spotlight offer card
+- Brand logos
+- Tap and Answer - no of participants
+- option CTA
+- Card Bar
+- Backgrounds
+- Bill cards
+- Bill status tags
+- Transaction cell logo
+- Credit card statement
+- Credit cards
+- shine color icons
+- Credit score detail imapct
+- Credit score update CTA
+- Credit Insights card
+- credit score bureau logo
+- Explore CRED
+- Icon_B&W
+- Icon
+- Back CTA
+- offer card
+- trending offer card
+- Predict & win
+- Group buy Product card
+- Cred Curated Card
+- Coin ledger cell
+- transfer status Icon
+- Successfull payment
+- Recent Tranaction card
+- Transaction Cell
+- Credit card status
+- Cred card payment Bottom sheet
+- payment Bottom sheet
+- Success payment state
+- Profile settings Bottom sheet
+- headphone
+- Settings
+- Info
+- Location
+- Payment
+- CRED protect
+- Traction history
+- Briefcase
+- User
+- Frame 11178
+- Frame 11968
+- Profile avatar
+- Credit Score Change Indicator
+- Credit Score detail Indicator
+- Credit score card
+- Credi score check
+- Refer & earn
+- ruppe notes
+- error
+- coin gift box
+- No Vouchers
+- Error
+- system error
+
+## Component Specs
+- Cred Logo/ Symbol: size 100x100px, fill #FFFFFF | variants: Property 1: Default
+- Nav bar: size 360x77px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, stroke gradient_linear(#00000000 0% | #FFFFFF 24% | #FFFFFF 76% | #FFFFFF00 100%) 1px, text [Body/Medium/11] | variants: Active: Home/cards/more/pay/rewards/shop
+- Tab: size 60x77px, vertical layout, padding 20 16 16 16px, gap 0px, align min/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11] | variants: Icon: Home/Pay/cards/more/rewards/shop; Active: No/Yes
+- White loading animation: size 36x16px, fill #FFFFFF | variants: Property 1: Default
+- Arrow/chevron: size 12x8px, fill #FFFFFF | variants: state: down arrow ⬇️/up arrow ⬆️
+- Small arrow: size 12x8px, fill #FFFFFF | variants: Small Arrow: Left ⬅️/Right ➡️
+- Arrow/Button arrow: size 20x8px, fill #FFFFFF | variants: Button Arrow: Left ⬅️/Right ➡️
+- Nav Arrow: size 31.5x12px, fill #FFFFFF | variants: Nav Arrow: Left ⬅️/Right ➡️
+- Dark loading animation: size 36x16px, fill #FFFFFF | variants: Property 1: Default
+- 2.5 Button: size 193x48px, horizontal layout, padding 18 18 18 18px, gap 10px, align center/center, sizing W:fixed H:fixed, fill More Colors/win yellow/500, text [Heading/Bold/14] | variants: Color: Black ⚫/Yellow 🟡
+- Button - Main: size 112x40px, horizontal layout, padding 12 20 12 20px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Heading/Bold/13] | variants: Color: Black ⚫/White ⚪; Type: Flat/Shadow/Stroked; Size: Default/Small; State: Default/Disabled/Loading/Pressed
+- Switch: size 39x20px, horizontal layout, padding 1 1 1 1px, gap 1px, align min/center, sizing W:fixed H:fixed, stroke Base Colors/pop white/500 1px | variants: mode: off/on
+- Component 3: size 100x12px, radius 22px, stroke Base Colors/pop black/500 1px | variants: Property 1: no/yes
+- Component 8: size 371x391px, vertical layout, padding 30 30 30 30px, gap 30px, align center/min, sizing W:fixed H:fixed, fill Base Colors/pop white/500 | variants: Property 1: Default/Double Decker
+- Search bar: size 350x40px, horizontal layout, padding 12 12 12 12px, gap 8px, sizing W:fixed H:fixed, fill Base Colors/pop black/400, stroke #FFFFFF4D 1px, text [Heading/Bold/13] | variants: Color: Black ⚫/White ⚪
+- Exlusive offer: size 168x217px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Heading/SemiBold/13, Caps/Bold/12] | variants: Type: Big/Small
+- On spotlight card: size 292x202px, fill #6A5B34, text [Body/Medium/11, Caps/SemiBold/10, Heading/SemiBold/14, Button/13-16 Bold, Gilroy SemiBold, 10px] | variants: Property 1: Green/Variant 1
+- Active booster cards: size 155x224px, radius 999/999/0/0px, fill #3351FF1A, stroke #3351FF 1px, text [Gilroy Bold, 10px, Body/Medium/14, Heading/SemiBold/14, Gilroy Medium, 14px] | variants: Property 1: Blue Beaut 🔵/Green 🟢/Macha 🟩/Pink gorg 🔴/Pinkish 🟥/Sky Blue 🟦
+- Component 1 (❇️ Components): size 95x95px, fill Base Colors/pop white/500 | variants: brand card: 1mg/bookmyshow/makemytrip/myntra/zee5
+- Component 1 (❇️ Components): size 70x122px, vertical layout, padding 0 0 0 0px, gap 10px, align center/min, sizing W:fixed H:fixed, text [Body/Medium/11] | variants: Property 1: Frame 11179/Frame 11180/Frame 11181/Frame 11182/Frame 11183/Frame 11197/Frame 11198
+- Spotlight offer card: size 288x485px, fill image(hash: ccd87965fdd6ddd1a77ee31441b59627415c1686), text [Heading/Bold/13, Body/Medium/14, Heading/Bold/20] | variants: Property 1: Default
+- Brand logos: size 48x48px, radius 99px, fill #037CD5 | variants: Brands: Ajio/Flipkart/H&M/Headspace/Levi's/Myntra/Swiggy/Uber/bookmyshow/samsung/tatacliq/zomato
+- Tap and Answer - no of participants: size 202x24px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Body/Medium/12] | variants: Property 1: Participants/tap to answer
+- option CTA: size 205x33px, horizontal layout, padding 8 8 8 8px, gap 10px, align space_between/center, sizing W:fixed H:fixed, fill #89A5E3, stroke Base Colors/pop black/500 1px, text [Body/Medium/11] | variants: Arrow active: false/true
+- Card Bar: size 170x29px, horizontal layout, padding 6 10 6 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #29B379, text [Body/Medium/11] | variants: state: Timer/cashback
+- Backgrounds: size 95x85.5px, fill #FFFFFF | variants: Color: Brown/Cyan/Green/Pink/Purple/Red/Yellow
+- Bill cards: size 225x290px, vertical layout, padding 30 16 20 16px, gap 0px, sizing W:fixed H:fixed, fill #B43F28, text [Gilroy Bold, 12px, Heading/Bold/16, Caps/SemiBold/10, Heading/SemiBold/14] | variants: Card: Airtel Xstream/Icici bank/Jio postpaid/Tata AIA
+- Bill status tags: size 160x21px, horizontal layout, padding 4 10 4 10px, gap 8px, sizing W:fixed H:fixed, fill Semantic Colors/success/500, text [Caps/SemiBold/10] | variants: status: Overdue 🔴/Payment Successful/status3
+- Transaction cell logo: size 42x42px, fill Base Colors/pop white/500, stroke #8A8A8A4D 0.4px | variants: Logo: Netflix/amazon/zomato
+- Credit card statement: size 350x69px, horizontal layout, padding 16 16 16 16px, gap 4px, align space_between/min, sizing W:fixed H:fixed, fill Base Colors/pop black/500, stroke Base Colors/pop black/100 0.4px, text [Body/Medium/12, Caps/Bold/12] | variants: Statement status: Available credit/Statement highlights/Statement summary
+- Component 1 (❇️ Components): size 351x200px, text [Heading/Bold/13, Heading/Bold/20, Body/Medium/11, Caps/SemiBold/10, Heading/SemiBold/13] | variants: Bill pay state: Due/Fully paid/Pay now
+- Credit cards: size 351x200px, radius 5px, fill #393838, text [Heading/SemiBold/13, Caps/SemiBold/10, Heading/Bold/13] | variants: Company: AXIS/HDFC/ICICI/Kotak/SBI
+- Component 1 (❇️ Components): size 336x75px, horizontal layout, padding 16 0 16 0px, gap 16px, sizing W:fixed H:fixed, fill Base Colors/pop white/500, text [Gilroy Medium, 12px, Gilroy Medium, 14px] | variants: Property 1: about cell/manage CRED protect cell/manage account cell/manage addresses cell/payment settings cell/support cell/transaction history cell
+- shine color icons: size 22x22px, fill #FFFFFF | variants: Icon: Balance/CRED coin/Voucher/gem
+- Credit score detail imapct: size 163x200px, vertical layout, padding 30 20 30 20px, gap 30px, sizing W:fixed H:fixed, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px, text [Gilroy Medium, 12px, Gilroy SemiBold, 14px, Gilroy Regular, 12px] | variants: Property 1: New account/On time/Utilization
+- Credit score update CTA: size 161x44px, horizontal layout, padding 14 20 14 20px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, stroke Base Colors/pop white/500 1px, text [Gilroy Bold, 13px] | variants: Property 1: refresh available/update score in days
+- Credit Insights card: size 195x246px, vertical layout, padding 35 20 35 20px, gap 24px, sizing W:fixed H:fixed, fill Base Colors/pop black/300, text [Gilroy Medium, 12px, Gilroy Bold, 16px] | variants: Card: Keep old cards active/On time payments/be vigilant
+- credit score bureau logo: size 60.81x12px, fill #FFFFFF | variants: score by: Crif/Equifax/Experian logo
+- Cred Logo/ Full: size 298x100px, fill #FFFFFF
+- Explore CRED/List/Master: size 326x74px, horizontal layout, padding 0 0 0 0px, gap 20px, align min/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Caps/SemiBold/10, Heading/Bold/13]
+- Explore CRED/Grid/electricity bill: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/utility & all bills: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/mobile recharge: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/vouchers: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/education fees: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/house rent: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/credit card bills: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/refer & earn: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/coins: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/rewards: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Explore CRED/Grid/bank accounts: size 74x118px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Base Colors/pop black/500, text [Body/Medium/11]
+- Icon_B&W/Payment history: size 40x40px, fill #FFFFFF
+- Icon_B&W/support: size 40x40px, fill #FFFFFF
+- Icon_B&W/cash icon: size 40x40px, fill #FFFFFF
+- Icon_B&W/travel bag: size 40x40px, fill #FFFFFF
+- Icon_B&W/shoping bag: size 40x40px
+- Icon_B&W/utility and all bills: size 40x40px, fill #FFFFFF
+- Icon_B&W/electricity bill: size 40x40px
+- Icon_B&W/book icon: size 40x40px
+- Icon_B&W/credit score: size 40x40px, fill #FFFFFF
+- Icon_B&W/house rent: size 40x40px
+- Icon_B&W/credit card bills: size 40x40px
+- Icon_B&W/vouchers: size 40x40px
+- Icon_B&W/CRED coin: size 40x40px, fill #FFFFFF
+- Icon_B&W/refer and earn: size 40x40px, fill #FFFFFF
+- Icon_B&W/reward: size 40x40px, fill #FFFFFF
+- Icon_B&W/Frame 10150: size 40x40px
+- Icon_B&W/CRED Cash: size 40x40px, fill #FFFFFF
+- Icon_B&W/Bank: size 40x40px, fill #FFFFFF
+- Icon/loan repayment: size 74x142px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Gilroy Medium, 11px]
+- Icon/insurance premium: size 74x142px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Gilroy Medium, 11px]
+- Icon/fastag recharge: size 74x142px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Gilroy Medium, 11px]
+- Icon/municipal tax: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Gilroy Medium, 11px]
+- Icon/water: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Gilroy Medium, 11px]
+- Icon/piped gas: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/LPG cylinder: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/electricity: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/cable TV: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/landline: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/broadband: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/DTH: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/mobile prepaid: size 74x142px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/mobile postpaid: size 74x142px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/maintenance: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/college fees: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/security deposit: size 74x142px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/tution fees: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/token: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/brokerage: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Icon/house rental: size 74x125px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/11]
+- Back CTA: size 85.5x16px, horizontal layout, padding 0 0 0 0px, gap 20px, align min/center, sizing W:fixed H:fixed, text [Gilroy SemiBold, 14px]
+- offer card: size 350x350px, vertical layout, padding 30 24 30 24px, gap 0px, align max/min, sizing W:fixed H:fixed, fill #4623B0, text [Heading/Bold/13, Body/Medium/12, Serif-Heading/Bold/24]
+- trending offer card: size 341x95px, horizontal layout, padding 0 0 0 0px, gap 23px, align min/center, sizing W:fixed H:fixed, text [Body/Medium/11, Body/Medium/12, Caps/Bold/12]
+- Predict & win/Green: size 238x270px, vertical layout, padding 30 16 16 20px, gap 26px, align space_between/center, sizing W:fixed H:fixed, fill #29B379, text [Body/Medium/12, Body/Medium/11, Heading/Bold/14]
+- Predict & win/Yellow: size 238x270px, vertical layout, padding 30 16 16 20px, gap 26px, align space_between/center, sizing W:fixed H:fixed, fill #FECC45, text [Body/Medium/12, Body/Medium/11, Heading/Bold/14]
+- Predict & win/Pink: size 238x270px, vertical layout, padding 30 16 16 20px, gap 26px, align space_between/center, sizing W:fixed H:fixed, fill #D59FFF, text [Body/Medium/12, Body/Medium/11, Heading/Bold/14]
+- Predict & win/Peach: size 238x270px, vertical layout, padding 30 16 16 20px, gap 26px, align space_between/center, sizing W:fixed H:fixed, fill #F6A69B, text [Body/Medium/12, Body/Medium/11, Heading/Bold/14]
+- Group buy Product card/Variant 5: size 170x345px, vertical layout, padding 0 0 0 0px, gap 14px, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Heading/Bold/13, Heading/SemiBold/14, Heading/Bold/14, Body/Medium/12, Body/Medium/11]
+- Group buy Product card/Variant 4: size 170x345px, vertical layout, padding 0 0 0 0px, gap 14px, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Heading/Bold/13, Heading/SemiBold/14, Heading/Bold/14, Body/Medium/12, Body/Medium/11]
+- Group buy Product card/Variant 6: size 170x345px, vertical layout, padding 0 0 0 0px, gap 14px, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Heading/Bold/13, Heading/SemiBold/14, Heading/Bold/14, Body/Medium/12, Body/Medium/11]
+- Cred Curated Card/food & beverages: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Cred Curated Card/games & stationery: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Cred Curated Card/fashion accessories: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Cred Curated Card/audio: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Cred Curated Card/grooming & wellness: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Cred Curated Card/appliances: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Cred Curated Card/home decor: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Cred Curated Card/electronic accessories: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Cred Curated Card/sleep solutions: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Cred Curated Card/apparel: size 95x119px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Heading/Bold/14]
+- Coin ledger cell: size 350x40px, horizontal layout, padding 0 0 0 0px, gap 4px, align space_between/min, sizing W:fixed H:fixed, text [Caps/SemiBold/10, Body/Medium/12, Heading/SemiBold/14]
+- transfer status Icon/Pay: size 28.47x28.47px, horizontal layout, padding 3 3 3 3px, gap 8px, sizing W:fixed H:fixed, stroke #FFFFFF1A 0.4px
+- transfer status Icon/Recieved: size 28.47x28.47px, horizontal layout, padding 3 3 3 3px, gap 8px, sizing W:fixed H:fixed, stroke #FFFFFF1A 0.4px
+- Successfull payment: size 347x169px, vertical layout, padding 20 20 20 20px, gap 40px, align min/center, sizing W:fixed H:fixed, fill Semantic Colors/success/500, text [Gilroy Bold, 12px, Caps/SemiBold/10, Caps/Bold/12, Heading/Bold/16]
+- Recent Tranaction card: size 350x345px, vertical layout, padding 0 0 0 0px, gap 20px, sizing W:fixed H:fixed, text [Heading/Bold/13, Gilroy SemiBold, 14px, Body/Medium/12, Body/Medium/14, Gilroy Bold, 12px]
+- Transaction Cell: size 310x42px, horizontal layout, padding 0 0 0 0px, gap 137px, align space_between/center, sizing W:fixed H:fixed, fill Base Colors/pop white/500, text [Gilroy SemiBold, 14px, Body/Medium/12, Body/Medium/14]
+- Credit card status: size 350x333px, vertical layout, padding 0 0 0 0px, gap 40px, sizing W:fixed H:fixed, text [Body/Medium/12, Gilroy SemiBold, 14px, Caps/Bold/12, Gilroy Bold, 8px, Heading/Bold/13]
+- Cred card payment Bottom sheet: size 371x397px, vertical layout, padding 30 30 30 30px, gap 30px, align center/min, sizing W:fixed H:fixed, fill Base Colors/pop white/500, text [Heading/Bold/13, Heading/Bold/20, Caps/SemiBold/10, Body/Medium/12, Heading/Bold/16]
+- payment Bottom sheet: size 371x406px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, text [Heading/Bold/13, Heading/Bold/20, Caps/SemiBold/10, Heading/Bold/16, Body/Medium/12, Body/Medium/11, Caps/Bold/12]
+- Success payment state: size 350x216px, vertical layout, padding 24 20 35 20px, gap 40px, align min/center, sizing W:fixed H:fixed, fill Base Colors/pop white/500, text [Gilroy SemiBold, 10px, Heading/Bold/13, Body/Medium/12, Caps/SemiBold/10, Heading/Bold/20]
+- Profile settings Bottom sheet: size 371x621px, vertical layout, padding 30 30 30 30px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Base Colors/pop white/500, text [Gilroy Medium, 12px, Gilroy Medium, 14px]
+- headphone: size 20x20px, fill Base Colors/pop white/500
+- Settings: size 20x20px, fill Base Colors/pop white/500
+- Info: size 20x20px, fill Base Colors/pop white/500
+- Location: size 20x20px, fill Base Colors/pop white/500
+- Payment: size 20x20px, fill Base Colors/pop white/500
+- CRED protect: size 20x20px, fill Base Colors/pop white/500
+- Traction history: size 20x20px, fill Base Colors/pop white/500
+- Briefcase: size 20x20px, fill Base Colors/pop white/500
+- User: size 20x20px, fill Base Colors/pop white/500
+- Frame 11178: size 125x107px, vertical layout, padding 15 15 15 15px, gap 18px, sizing W:fixed H:fixed, fill #E0E0E01A, text [Body/Medium/11, Heading/Bold/13]
+- Frame 11968: size 294x26px, horizontal layout, padding 0 0 0 0px, gap 20px, sizing W:fixed H:fixed, text [Gilroy Bold, 13px]
+- Profile avatar: size 155x226px, vertical layout, padding 0 0 0 0px, gap 20px, sizing W:fixed H:fixed, text [Gilroy SemiBold, 14px, Gilroy Bold, 20px, Gilroy Bold, 12px]
+- Credit Score Change Indicator: size 156x177.5px, vertical layout, padding 0 0 0 0px, gap -4px, align min/center, sizing W:fixed H:fixed, text [Gilroy SemiBold, 16px, Gilroy SemiBold, 14px, Gilroy ExtraBold, 26px]
+- Credit Score detail Indicator: size 214x252.5px, vertical layout, padding 0 0 0 0px, gap 14px, align min/center, sizing W:fixed H:fixed, text [Gilroy Bold, 13px, Gilroy Medium, 12px, Gilroy Medium, 14px, Gilroy Bold, 8px, Gilroy Bold, 24px]
+- Credit score card: size 355x248.5px, vertical layout, padding 0 0 0 0px, gap -0.5px, sizing W:fixed H:fixed, text [Gilroy Bold, 12px, Gilroy Bold, 13px, Gilroy Medium, 12px, Gilroy SemiBold, 14px, Gilroy Bold, 10px, Gilroy Bold, 8px, Gilroy Bold, 16px]
+- Credi score check: size 305x108px, horizontal layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, text [Body/Medium/11, Heading/SemiBold/14]
+- Refer & earn: size 305x90px, horizontal layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, text [Body/Medium/11, Heading/SemiBold/14]
+- ruppe notes: size 85x85px, fill #FFFFFF
+- error: size 126.92x100px, fill #FFFFFF
+- coin gift box: size 60x60px, fill #FFFFFF
+- No Vouchers: size 125x150px, fill #FFFFFF
+- Error: size 202x201px, fill #FFFFFF
+- system error: size 122x102px, fill #FFFFFF
+
+## Most-Used Styles
+- Base Colors/pop white/500: 2056 uses
+- Base Colors/pop black/500: 926 uses
+- Base Colors/pop black/100: 377 uses
+- Base Colors/pop black/200: 377 uses
+- Base Colors/pop white/200: 202 uses
+- Base Colors/pop white/100: 198 uses
+- Body/Medium/11: 137 uses
+- .PikaDark: 100 uses
+- Semantic Colors/success/500: 92 uses
+- More Colors/win yellow (DISCONTINUED)/400: 67 uses
+- Heading/Bold/13: 65 uses
+- Caps/SemiBold/10: 64 uses
+- Base Colors/pop black/300: 59 uses
+- Semantic Colors/success/400: 50 uses
+- Base Colors/pop white/100/100-90: 42 uses
+- Body/Medium/12: 33 uses
+- Base Colors/pop black/400: 30 uses
+- More Colors/pak green/500: 29 uses
+- Heading/Bold/14: 21 uses
+- Base Colors/pop white/300: 19 uses
+- Heading/SemiBold/14: 19 uses
+- More Colors/manna/500: 19 uses
+- Body/Medium/14: 15 uses
+- Base Colors/pop white/100/100: 14 uses
+- Base Colors/pop white/100/100-70: 14 uses
+- base color/pop white/pop white 500: 14 uses
+- Heading/SemiBold/13: 13 uses
+- Heading/Bold/20: 10 uses
+- Semantic Colors/info/300: 10 uses
+- Caps/Bold/12: 9 uses
+- Base Colors/pop black/500/500: 8 uses
+- Heading/Bold/16: 8 uses
+- More Colors/neo pacha/400: 8 uses
+- More Colors/manna/600: 7 uses
+- Semantic Colors/warning/500: 7 uses
+- More Colors/win yellow/500: 6 uses
+- More Colors/win yellow/600: 6 uses
+- Semantic Colors/info/500: 6 uses
+- More Colors/neo pacha/500: 5 uses
+- Semantic Colors/success/300: 5 uses
+- Base Colors/pop white/100/100-50: 4 uses
+- More Colors/poli purple/500: 4 uses
+- Base Colors/pop black/200/200: 3 uses
+- Base Colors/pop black/400/400: 3 uses
+- Base Colors/pop black/500/500-90: 3 uses
+- Base Colors/pop white/400: 3 uses
+- More Colors/manna/800: 3 uses
+- More Colors/win yellow (DISCONTINUED)/500: 3 uses
+- base color/pop black/pop black 500: 3 uses
+- Base Colors/pop white/100/100-30: 2 uses
+- Button/13-16 Bold: 2 uses
+- More Colors/pak green/200: 2 uses
+- More Colors/pink pong/500: 2 uses
+- Semantic Colors/info/400: 2 uses
+- Serif-Heading/Bold/24: 2 uses
+- Body/Medium/13: 1 use
+- Body/Medium/15: 1 use
+- Body/Medium/16: 1 use
+- Body/Regular/11: 1 use
+- Body/Regular/12: 1 use
+- Body/Regular/13: 1 use
+- Body/Regular/14: 1 use
+- Body/Regular/15: 1 use
+- Body/Regular/16: 1 use
+- Caps/Bold/10: 1 use
+- Caps/ExtraBold/10: 1 use
+- Caps/ExtraBold/12: 1 use
+- Caps/SemiBold/12: 1 use
+- Heading/Bold/18: 1 use
+- Heading/Bold/22: 1 use
+- Heading/ExtraBold/13: 1 use
+- Heading/ExtraBold/14: 1 use
+- Heading/ExtraBold/15: 1 use
+- Heading/ExtraBold/16: 1 use
+- Heading/ExtraBold/18: 1 use
+- Heading/ExtraBold/20: 1 use
+- Heading/ExtraBold/22: 1 use
+- Heading/ExtraBold/44: 1 use
+- Heading/SemiBold/16: 1 use
+- Heading/SemiBold/18: 1 use
+- Heading/SemiBold/20: 1 use
+- Heading/SemiBold/22: 1 use
+- More Colors/manna/100: 1 use
+- More Colors/manna/200: 1 use
+- More Colors/manna/300: 1 use
+- More Colors/manna/400: 1 use
+- More Colors/manna/700: 1 use
+- More Colors/neo pacha/100: 1 use
+- More Colors/neo pacha/200: 1 use
+- More Colors/neo pacha/300: 1 use
+- More Colors/neo pacha/600: 1 use
+- More Colors/neo pacha/700: 1 use
+- More Colors/neo pacha/800: 1 use
+- More Colors/pak green/100: 1 use
+- More Colors/pak green/300: 1 use
+- More Colors/pak green/400: 1 use
+- More Colors/pak green/600: 1 use
+- More Colors/pak green/700: 1 use
+- More Colors/pak green/800: 1 use
+- More Colors/pink pong/100: 1 use
+- More Colors/pink pong/200: 1 use
+- More Colors/pink pong/300: 1 use
+- More Colors/pink pong/400: 1 use
+- More Colors/pink pong/600: 1 use
+- More Colors/pink pong/700: 1 use
+- More Colors/pink pong/800: 1 use
+- More Colors/poli purple/100: 1 use
+- More Colors/poli purple/200: 1 use
+- More Colors/poli purple/300: 1 use
+- More Colors/poli purple/400: 1 use
+- More Colors/poli purple/600: 1 use
+- More Colors/poli purple/700: 1 use
+- More Colors/poli purple/800: 1 use
+- More Colors/rss/100: 1 use
+- More Colors/rss/200: 1 use
+- More Colors/rss/300: 1 use
+- More Colors/rss/400: 1 use
+- More Colors/rss/500: 1 use
+- More Colors/rss/600: 1 use
+- More Colors/rss/700: 1 use
+- More Colors/rss/800: 1 use
+- More Colors/yoyo/100: 1 use
+- More Colors/yoyo/200: 1 use
+- More Colors/yoyo/300: 1 use
+- More Colors/yoyo/400: 1 use
+- More Colors/yoyo/500: 1 use
+- More Colors/yoyo/600: 1 use
+- More Colors/yoyo/700: 1 use
+- More Colors/yoyo/800: 1 use
+- Semantic Colors/error/100: 1 use
+- Semantic Colors/error/200: 1 use
+- Semantic Colors/error/300: 1 use
+- Semantic Colors/error/400: 1 use
+- Semantic Colors/error/500: 1 use
+- Semantic Colors/info/100: 1 use
+- Semantic Colors/info/200: 1 use
+- Semantic Colors/success/100: 1 use
+- Semantic Colors/success/200: 1 use
+- Semantic Colors/warning/100: 1 use
+- Semantic Colors/warning/200: 1 use
+- Semantic Colors/warning/300: 1 use
+- Semantic Colors/warning/400: 1 use
+- Serif-Heading/Bold/18: 1 use
+- Serif-Heading/Bold/20: 1 use
+- Serif-Heading/Bold/22: 1 use
+- more colors/win yellow 400: 1 use
+- state color/success/success 400: 1 use
+- state color/success/success 500: 1 use
+
+## Layout & Structure
+Screen: 🖼️ Thumbnail / Thumbnail
+- FRAME "Thumbnail", 1920x960px, constraints left/top, fill #6A35FF
+  - BOOLEAN_OPERATION "Union", 836x908px, constraints left/top, fill #FFFFFF1A
+  - BOOLEAN_OPERATION "Union", 836x908px, constraints left/top, fill #FFFFFF1A
+  - BOOLEAN_OPERATION "Union", 366x369.18px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 954.83x872.69px, constraints left/top, stroke #000000 2px
+  - TEXT "neoPOP", 780x210px, constraints left/top, fill More Colors/neo pacha/500, stroke Base Colors/pop black/500 4px, text [Gilroy ExtraBold, 210px], [heading]
+  - VECTOR "Vector", 116x182px, constraints scale/scale, fill #FFFFFF, stroke Base Colors/pop black/500 2px
+  - RECTANGLE "Rectangle 2", 25.11x25.11px, constraints left/top, fill More Colors/win yellow (DISCONTINUED)/400, stroke #000000 2px
+  - RECTANGLE "Rectangle 3", 52x52px, constraints left/top, fill More Colors/win yellow (DISCONTINUED)/400
+  - VECTOR "Vector", 100x130px, constraints scale/scale, fill More Colors/pink pong/500, stroke #000000 1px
+  - GROUP "Group 11567", 45.53x43.5px, constraints left/top
+    - VECTOR "Vector", 33.63x23.97px, constraints scale/scale, fill #3CBF77, stroke #000000 0.8px
+    - VECTOR "Vector", 34.66x21.74px, constraints scale/scale, fill #FFFFFF, stroke #000000 0.8px
+    - VECTOR "Vector", 22.77x41.3px, constraints scale/scale, fill #4FE3A3, stroke #000000 0.8px
+  - GROUP "Group 11572", 45.53x43.5px, constraints left/top
+    - VECTOR "Vector", 33.63x23.97px, constraints scale/scale, fill Semantic Colors/info/500, stroke #000000 0.8px
+    - VECTOR "Vector", 34.66x21.74px, constraints scale/scale, fill #FFFFFF, stroke #000000 0.8px
+    - VECTOR "Vector", 22.77x41.3px, constraints scale/scale, fill Semantic Colors/info/300, stroke #000000 0.8px
+  - GROUP "Group 11568", 67.62x67.67px, constraints left/top
+    - VECTOR "Vector", 67.58x67.67px, constraints scale/scale, fill More Colors/manna/600, stroke #000000 0.8px
+    - VECTOR "Vector", 63.64x55.93px, constraints scale/scale, fill More Colors/manna/500, stroke #000000 0.8px
+    - VECTOR "Vector", 17.68x12.36px, constraints scale/scale, fill #FFFFFF, stroke #000000 0.8px
+  - BOOLEAN_OPERATION "Union", 1981.51x1981.51px, constraints left/top, fill #000000
+  - VECTOR "Vector", 576.64x575.15px, constraints scale/scale, fill More Colors/manna/500, stroke #0D0D0D 2px
+  - FRAME "Frame", 298x100px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - VECTOR "Star 1", 97.46x97.46px, constraints left/top, radius 0/0/0/0px, fill Base Colors/pop black/400
+  - VECTOR "Star 2", 54.29x54.29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - VECTOR "Star 3", 54.29x54.29px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - REGULAR_POLYGON "Polygon 1", 121.28x121.28px, constraints left/top, stroke #000000 2px
+  - REGULAR_POLYGON "Polygon 2", 88.37x88.37px, constraints left/top, stroke #FFFFFF 2px
+  - ELLIPSE "Ellipse 1", 142x142px, constraints left/top, stroke #000000 2px
+  - ELLIPSE "Ellipse 11", 142x142px, constraints left/top, stroke #FFFFFF 2px
+  - VECTOR "Vector", 83.96x84.68px, constraints scale/scale, fill #7595FF
+  - VECTOR "Vector", 55.23x55.7px, constraints scale/scale, fill #FF426F
+  - VECTOR "Vector", 83.96x84.68px, constraints scale/scale, fill #FF784B
+  - ... +40 more children
+
+Screen: 👋 About / About me
+- FRAME "About me", 961x714px, vertical pad 45 48 45 48px gap 24px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/200
+  - FRAME "Frame 2", 865x64px, horizontal pad 0 0 0 0px gap 532px align space_between/center sizing W:fill H:fixed, constraints left/top
+    - TEXT "About →", 82x29px, constraints left/top, fill Base Colors/pop black/200, text [PP Cirka Bold, 24px], [heading]
+    - FRAME "Frame 1", 235x64px, horizontal pad 0 14 0 0px gap 25px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "untitled2 1", 64x64px, constraints left/top, radius 1px, fill image(hash: 1fb4e94fbeb755b1a0f287fcca5890a4601e5ec5)
+      - TEXT "Ashish Kashyap Designer at WALL more about me ↗️", 132x63px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Medium, 14px]
+  - TEXT "Hey everyone, I'm Ashish, a multidisciplinary designer who i", 865x483px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Medium, 14px]
+  - FRAME "Frame 3", 621x29px, horizontal pad 4 6 4 6px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #EE4D37
+    - TEXT "NOTE: This is an unofficail UI kit of CREDs system and made ", 609x21px, constraints left/top, fill #FFFFFF, text [Gilroy Medium, 14px]
+
+Screen: 📋 Changelog / Changelog
+- FRAME "Changelog", 668x603px, vertical pad 48 48 48 48px gap 32px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500
+  - TEXT "Changelog", 103x29px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+  - FRAME "Frame 1", 597x172px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Wed, 6 July", 82x16px, constraints left/top, fill #FFFFFF80, text [IBM Plex Mono Medium, 12px]
+    - TEXT "v1.2 Update - Aligned with official GitHub repo added two ne", 597x144px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 14px]
+  - LINE "Line 1", 572x0px, constraints left/top, stroke #FFFFFF1A 1px
+  - FRAME "Frame 3", 537x100px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Tue, 14 June", 89x16px, constraints left/top, fill #FFFFFF80, text [IBM Plex Mono Medium, 12px]
+    - TEXT "v1.1 Update added KOTAK BANK credit card fixed some bugs in ", 537x72px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 14px]
+  - LINE "Line 2", 572x0px, constraints left/top, stroke #FFFFFF1A 1px
+  - FRAME "Frame 2", 126x46px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Mon, 13 June", 89x16px, constraints left/top, fill #FFFFFF80, text [IBM Plex Mono Medium, 12px]
+    - TEXT "v1.0 Release 🎉", 126x18px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 14px]
+
+Screen:   / This is a divider. Wait!! you don’t suppose to come here.
+- TEXT "This is a divider. Wait!! you don’t suppose to come here.", 333x75px, constraints left/top, fill #FFFFFF, text [Gilroy Bold, 18px]
+
+Screen: 🌟 Pikaicons.com 🌟 / 
+- FRAME "", 960x480px, constraints left/top, radius 16px, fill #FFFFFF, effect [inner_shadow 3px offset 0 2 #FFFFFFA8, drop_shadow 0px offset 0 0 #0000000A, drop_shadow 4px offset 0 2 #00000029, drop_shadow 1px offset 0 1 #0000001F]
+  - GROUP "BG", 696x416px, constraints left/top, opacity 24% [decorative, ~100 shapes]
+  - RECTANGLE "mask", 960x480px, constraints left/top, fill gradient_radial(#FCFCFC00 66% | #FCFCFC 100%)
+  - FRAME "Logo", 185x185px, constraints center/top, radius 24px, fill #FDFDFD, effect [inner_shadow 18px offset 0 0 #00000005, inner_shadow 1px offset 0 1 #0000001F, inner_shadow 4px offset 0 2 #0000000A, drop_shadow 3px offset 0 8 #0000000A, drop_shadow 2px offset 0 6 #0000000F, drop_shadow 1px offset 0 5 #00000014, drop_shadow 4px offset 0 0 #00000005, drop_shadow 0px offset 0 0 #FFFFFF]
+    - VECTOR "Vector", 357x278px, constraints scale/scale, radius 0/0/0/0px, stroke gradient_linear(#000000 0% | #00000000 100%) 2.86px
+    - GROUP "Group 1", 100.74x125.63px, constraints scale/scale, radius 1.16px
+      - VECTOR "Vector", 100.74x125.59px, constraints scale/scale, radius 1.16px, fill gradient_linear(#DBC5FF 0% | #B897FF 26% | #7856DB 69% | #603FBE 85% | #2D1572 100%), effect [drop_shadow 38.62px offset 0 21.52 #422A870A, drop_shadow 45.42px offset 0 21.52 #422A8724, drop_shadow 19.31px offset 0 13.7 #2C137324, drop_shadow 13.23px offset 0 7.43 #8053FF4A, drop_shadow 21.1px offset 0 7.15 #531E9600, inner_shadow 19.17px offset 0 7.04 #D6C9F8, inner_shadow 4.3px offset -0.39 3.13 #FFFFFF4D, inner_shadow 3.58px offset 0.36 0.36 #E9E1FF, inner_shadow 45.06px offset 0 -16.43 #20056A36, inner_shadow 24.65px offset 0 -27 #99089C1C, inner_shadow 7.04px offset 0 -7.04 #8000FF1F]
+      - VECTOR "Vector", 100.74x125.59px, constraints scale/scale, radius 1.16px, stroke gradient_linear(#FFFFFF 0% | #FFFFFF00 100%) 0.39px, effect [layer_blur 0.72px]
+  - GROUP "Pikaicons", 460x76px, constraints center/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 1", 460x76px, constraints center/top, fill #FDFDFD96, effect [layer_blur 28px]
+    - VECTOR "Pikaicons", 289x51.38px, constraints center/top, radius 0.95px, fill gradient_linear(#AC8FFF 0% | #8E66FF 50% | #5F27FF 100%), effect [drop_shadow 1px offset 0 1 #00000040]
+  - GROUP "100 free icons", 240x37px, constraints center/top
+    - ELLIPSE "Ellipse 2", 240x37px, constraints center/top, fill #FDFDFD, effect [layer_blur 28px]
+    - TEXT "100 FREE icons", 193x30px, constraints center/top, fill gradient_linear(#AC8FFF 0% | #8E66FF 50% | #5F27FF 100%), effect [drop_shadow 1px offset 0 1 #00000040], text [Plus Jakarta Sans ExtraBold, 24px], [heading]
+
+Screen: 🌟 Pikaicons.com 🌟 / Pikaicons.com
+- TEXT "Pikaicons.com", 193x30px, constraints left/top, fill #FFFFFF, text [Plus Jakarta Sans ExtraBold, 24px], [heading]
+
+Screen:   / This is a divider. Wait!! you don’t suppose to come here.
+- TEXT "This is a divider. Wait!! you don’t suppose to come here.", 333x75px, constraints left/top, fill #FFFFFF, text [Gilroy Bold, 18px]
+
+Screen: 🎨 Color / pop black
+- FRAME "pop black", 898x425px, horizontal pad 120 120 120 120px gap 64px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 18", 658x185px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Base Colors / pop black", 336x24px, constraints left/top, fill #0D0D0DB2, text [IBM Plex Mono Medium, 24px], [heading]
+    - FRAME "Solid", 658x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "100", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #0D0D0D1A 1px
+        - FRAME "pop black/100", 90x57px, constraints center/center, fill Base Colors/pop black/100
+        - TEXT "100", 24x16px, constraints center/center, fill Base Colors/pop black/100, text [Gilroy SemiBold, 14px]
+      - FRAME "200", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #0D0D0D1A 1px
+        - FRAME "pop black/200", 90x57px, constraints center/center, fill Base Colors/pop black/200
+        - TEXT "200", 26x16px, constraints center/center, fill Base Colors/pop black/100, text [Gilroy SemiBold, 14px]
+      - FRAME "300", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #0D0D0D1A 1px
+        - FRAME "pop black/300", 90x57px, constraints center/center, fill Base Colors/pop black/300
+        - TEXT "300", 26x16px, constraints center/center, fill Base Colors/pop black/100, text [Gilroy SemiBold, 14px]
+      - FRAME "400", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #0D0D0D1A 1px
+        - FRAME "pop black/400", 90x57px, constraints center/center, fill Base Colors/pop black/400
+        - TEXT "400", 27x16px, constraints center/center, fill Base Colors/pop black/100, text [Gilroy SemiBold, 14px]
+      - FRAME "500", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #0D0D0D1A 1px
+        - FRAME "pop black/500", 90x57px, constraints center/center, fill Base Colors/pop black/500
+        - TEXT "500", 26x16px, constraints center/center, fill Base Colors/pop black/100, text [Gilroy SemiBold, 14px]
+
+Screen: 🎨 Color / pop white
+- FRAME "pop white", 898x425px, horizontal pad 120 120 120 120px gap 64px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke #FFFFFF1A 1px
+  - FRAME "Frame 22", 658x185px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Base Colors / pop white", 336x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+    - FRAME "Solid", 658x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+        - FRAME "pop white/200", 90x57px, constraints center/center, fill Base Colors/pop white/100
+        - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+      - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+        - FRAME "pop white/200", 90x57px, constraints center/center, fill Base Colors/pop white/200
+        - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+      - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+        - FRAME "pop white/300", 90x57px, constraints center/center, fill Base Colors/pop white/300
+        - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+      - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+        - FRAME "pop white/400", 90x57px, constraints center/center, fill Base Colors/pop white/400
+        - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+      - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+        - FRAME "pop white/500", 90x57px, constraints center/center, fill Base Colors/pop white/500
+        - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+
+Screen: 🎨 Color / More colors
+- FRAME "More colors", 1312x2120px, horizontal pad 120 120 120 120px gap 64px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke #FFFFFF1A 1px
+  - FRAME "Frame 22", 1072x1880px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "More colors /", 190x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+    - FRAME "Frame 25", 1072x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "poli purple", 161x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Frame 31", 1072x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "poli purple/100", 90x57px, constraints center/center, fill More Colors/poli purple/100
+            - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "poli purple/200", 90x57px, constraints center/center, fill More Colors/poli purple/200
+            - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "poli purple/300", 90x57px, constraints center/center, fill More Colors/poli purple/300
+            - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "poli purple/400", 90x57px, constraints center/center, fill More Colors/poli purple/400
+            - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "poli purple/500", 90x57px, constraints center/center, fill More Colors/poli purple/500
+            - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "poli purple/600", 90x57px, constraints center/center, fill More Colors/poli purple/600
+            - TEXT "600", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "poli purple/700", 90x57px, constraints center/center, fill More Colors/poli purple/700
+            - TEXT "700", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "poli purple/800", 90x57px, constraints center/center, fill More Colors/poli purple/800
+            - TEXT "800", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - FRAME "Frame 23", 1072x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "ORANGE SUNSHINE", 219x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 1072x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "rss/100", 90x57px, constraints center/center, fill More Colors/rss/100, stroke #FFFFFF1A 1px
+          - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "rss/200", 90x57px, constraints center/center, fill More Colors/rss/200
+          - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "rss/300", 90x57px, constraints center/center, fill More Colors/rss/300, stroke #FFFFFF1A 1px
+          - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "rss/400", 90x57px, constraints center/center, fill More Colors/rss/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "rss/500", 90x57px, constraints center/center, fill More Colors/rss/500, stroke #FFFFFF1A 1px
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 6", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "rss/600", 90x57px, constraints center/center, fill More Colors/rss/600
+          - TEXT "600", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 7", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "rss/700", 90x57px, constraints center/center, fill More Colors/rss/700
+          - TEXT "700", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 8", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "rss/800", 90x57px, constraints center/center, fill More Colors/rss/800
+          - TEXT "800", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - FRAME "Frame 30", 1072x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "pink pong", 132x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 1072x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pink pong/100", 90x57px, constraints center/center, fill More Colors/pink pong/100, stroke #FFFFFF1A 1px
+          - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pink pong/200", 90x57px, constraints center/center, fill More Colors/pink pong/200
+          - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pink pong/300", 90x57px, constraints center/center, fill More Colors/pink pong/300, stroke #FFFFFF1A 1px
+          - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pink pong/400", 90x57px, constraints center/center, fill More Colors/pink pong/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pink pong/500", 90x57px, constraints center/center, fill More Colors/pink pong/500, stroke #FFFFFF1A 1px
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 6", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pink pong/600", 90x57px, constraints center/center, fill More Colors/pink pong/600
+          - TEXT "600", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 7", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pink pong/700", 90x57px, constraints center/center, fill More Colors/pink pong/700
+          - TEXT "700", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 8", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pink pong/800", 90x57px, constraints center/center, fill More Colors/pink pong/800
+          - TEXT "800", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - FRAME "Frame 27", 1072x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "manna", 73x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 1072x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "manna/100", 90x57px, constraints center/center, fill More Colors/manna/100
+          - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "manna/200", 90x57px, constraints center/center, fill More Colors/manna/200
+          - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "manna/300", 90x57px, constraints center/center, fill More Colors/manna/300
+          - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 6", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "manna/400", 90x57px, constraints center/center, fill More Colors/manna/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "manna/500", 90x57px, constraints center/center, fill More Colors/manna/500
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "manna/600", 90x57px, constraints center/center, fill More Colors/manna/600
+          - TEXT "600", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 7", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "manna/700", 90x57px, constraints center/center, fill More Colors/manna/700
+          - TEXT "700", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 8", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "manna/800", 90x57px, constraints center/center, fill More Colors/manna/800
+          - TEXT "800", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - FRAME "Frame 28", 1072x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "neo pacha", 132x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 1072x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "neo pacha/100", 90x57px, constraints center/center, fill More Colors/neo pacha/100
+          - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 8", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "neo pacha/200", 90x57px, constraints center/center, fill More Colors/neo pacha/200
+          - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 7", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "neo pacha/300", 90x57px, constraints center/center, fill More Colors/neo pacha/300
+          - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "neo pacha/400", 90x57px, constraints center/center, fill More Colors/neo pacha/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "neo pacha/500", 90x57px, constraints center/center, fill More Colors/neo pacha/500
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "neo pacha/600", 90x57px, constraints center/center, fill More Colors/neo pacha/600
+          - TEXT "600", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "neo pacha/600", 90x57px, constraints center/center, fill More Colors/neo pacha/700
+          - TEXT "700", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 6", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "neo pacha/800", 90x57px, constraints center/center, fill More Colors/neo pacha/800
+          - TEXT "800", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - FRAME "Frame 31", 1072x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "yoyo", 59x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 1072x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "yoyo/100", 90x57px, constraints center/center, fill More Colors/yoyo/100
+          - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "yoyo/200", 90x57px, constraints center/center, fill More Colors/yoyo/200
+          - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "yoyo/300", 90x57px, constraints center/center, fill More Colors/yoyo/300
+          - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "yoyo/400", 90x57px, constraints center/center, fill More Colors/yoyo/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "yoyo/500", 90x57px, constraints center/center, fill More Colors/yoyo/500
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 6", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "yoyo/600", 90x57px, constraints center/center, fill More Colors/yoyo/600
+          - TEXT "600", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 7", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "yoyo/700", 90x57px, constraints center/center, fill More Colors/yoyo/700
+          - TEXT "700", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 8", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "yoyo/800", 90x57px, constraints center/center, fill More Colors/yoyo/800
+          - TEXT "800", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - FRAME "Frame 24", 1072x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "park green", 146x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 1072x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pak green/100", 90x57px, constraints center/center, fill More Colors/pak green/100
+          - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pak green/200", 90x57px, constraints center/center, fill More Colors/pak green/200
+          - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pak green/300", 90x57px, constraints center/center, fill More Colors/pak green/300
+          - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pak green/400", 90x57px, constraints center/center, fill More Colors/pak green/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pak green/500", 90x57px, constraints center/center, fill More Colors/pak green/500
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 6", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pak green/600", 90x57px, constraints center/center, fill More Colors/pak green/600
+          - TEXT "600", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 7", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pak green/700", 90x57px, constraints center/center, fill More Colors/pak green/700
+          - TEXT "700", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 8", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "pak green/800", 90x57px, constraints center/center, fill More Colors/pak green/800
+          - TEXT "800", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - LINE "Line 1", 1072x0px, constraints left/top, stroke #FFFFFF 1px
+    - FRAME "Frame 29", 382x209px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "DISCONTINUED", 175x24px, constraints left/top, fill #EE4D37, text [IBM Plex Mono Medium, 24px], [heading]
+      - TEXT "win yellow", 146x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 382x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "win yellow/400", 90x57px, constraints center/center, fill More Colors/win yellow (DISCONTINUED)/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "win yellow/500", 90x57px, constraints center/center, fill More Colors/win yellow (DISCONTINUED)/500
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "win yellow/500", 90x57px, constraints center/center, fill More Colors/win yellow (DISCONTINUED)/500
+          - TEXT "600", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+
+Screen: 🎨 Color / Semantic colors
+- FRAME "Semantic colors", 898x1132px, horizontal pad 120 120 120 120px gap 64px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke #FFFFFF1A 1px
+  - FRAME "Frame 22", 658x892px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Semantic colors /", 248x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+    - FRAME "Frame 23", 658x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Error", 73x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Frame 30", 658x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "error/100", 90x57px, constraints center/center, fill Semantic Colors/error/100
+            - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "error/200", 90x57px, constraints center/center, fill Semantic Colors/error/200
+            - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "error/300", 90x57px, constraints center/center, fill Semantic Colors/error/300
+            - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "error/400", 90x57px, constraints center/center, fill Semantic Colors/error/400
+            - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Solid", 106x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+            - FRAME "error/500", 90x57px, constraints center/center, fill Semantic Colors/error/500
+            - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - FRAME "Frame 24", 658x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Warning", 102x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 658x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "warning/100", 90x57px, constraints center/center, fill Semantic Colors/warning/100
+          - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "warning/200", 90x57px, constraints center/center, fill Semantic Colors/warning/200
+          - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "warning/300", 90x57px, constraints center/center, fill Semantic Colors/warning/300
+          - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "warning/400", 90x57px, constraints center/center, fill Semantic Colors/warning/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "warning/500", 90x57px, constraints center/center, fill Semantic Colors/warning/500
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - FRAME "Frame 25", 658x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Info", 59x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 658x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "info/100", 90x57px, constraints center/center, fill Semantic Colors/info/100
+          - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 7", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "info/100", 90x57px, constraints center/center, fill Semantic Colors/info/200
+          - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "info/300", 90x57px, constraints center/center, fill Semantic Colors/info/300
+          - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "info/400", 90x57px, constraints center/center, fill Semantic Colors/info/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 6", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "info/500", 90x57px, constraints center/center, fill Semantic Colors/info/500
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+    - FRAME "Frame 26", 658x153px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "success", 102x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+      - FRAME "Solid", 658x97px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "success/100", 90x57px, constraints center/center, fill Semantic Colors/success/100
+          - TEXT "100", 24x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 4", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "success/200", 90x57px, constraints center/center, fill Semantic Colors/success/200
+          - TEXT "200", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 5", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "success/300", 90x57px, constraints center/center, fill Semantic Colors/success/300
+          - TEXT "300", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 2", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "success/400", 90x57px, constraints center/center, fill Semantic Colors/success/400
+          - TEXT "400", 27x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 3", 106x97px, vertical pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF1A 1px
+          - FRAME "success/500", 90x57px, constraints center/center, fill Semantic Colors/success/500
+          - TEXT "500", 26x16px, constraints center/center, fill #EFEFEF80, text [Gilroy SemiBold, 14px]
+
+Screen: 🆎 Typography / Typography
+- FRAME "Typography", 1724x806px, vertical pad 120 120 120 120px gap 64px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500
+  - TEXT "Typography", 146x24px, constraints left/top, fill #FFFFFF, text [IBM Plex Mono Medium, 24px], [heading], opacity 40%
+  - FRAME "Frame 11576", 1484x478px, horizontal pad 0 0 0 0px gap 289px align center/min sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 11569", 765x478px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11577", 765x56px, horizontal pad 10 10 10 10px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Gilroy", 98x36px, constraints left/top, fill #FFFFFF, text [Gilroy SemiBold, 36px], [heading]
+        - TEXT "Link ->", 60x14px, constraints left/top, fill #FFFFFFB2, text [IBM Plex Mono Regular, 14px]
+      - TEXT "Desc", 473x14px, constraints left/top, fill #FFFFFFB2, text [IBM Plex Mono Regular, 14px]
+      - FRAME "Frame 11561", 765x344px, horizontal pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/center
+        - FRAME "Frame 11559", 142x247px, vertical pad 8 8 8 8px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke #FFFFFF1A 1px
+          - TEXT "Body", 25x10px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Regular, 10px]
+          - LINE "Line 43", 126x0px, constraints left/top, stroke Base Colors/pop black/300 1px
+          - FRAME "Frame 11581", 126x189px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11579", 50x189px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 43", 0x189px, constraints left/top, stroke Base Colors/pop black/300 1px
+            - FRAME "Frame 11580", 44x189px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11566", 235x120px, vertical pad 8 8 8 8px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke #FFFFFF1A 1px
+          - TEXT "Caps", 25x10px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Regular, 10px]
+          - LINE "Line 43", 219x0px, constraints left/top, stroke Base Colors/pop black/300 1px
+          - FRAME "Frame 11581", 219x62px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11579", 56x62px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 43", 0x62px, constraints left/top, stroke Base Colors/pop black/300 1px
+            - FRAME "Frame 11580", 37x62px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 44", 0x62px, constraints left/top, stroke Base Colors/pop black/300 1px
+            - FRAME "Frame 11581", 62x62px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11567", 324x344px, vertical pad 8 8 8 8px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke #FFFFFF1A 1px
+          - TEXT "Heading", 44x10px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Regular, 10px]
+          - LINE "Line 43", 308x0px, constraints left/top, stroke Base Colors/pop black/300 1px
+          - FRAME "Frame 11581", 308x286px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11579", 60x196px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 43", 0x286px, constraints left/top, stroke Base Colors/pop black/300 1px
+            - FRAME "Frame 11580", 60x196px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 44", 0x286px, constraints left/top, stroke Base Colors/pop black/300 1px
+            - FRAME "Frame 11581", 124x286px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 11568", 430x351px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11578", 430x36px, horizontal pad 0 0 0 0px gap 32px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Cirka", 79x36px, constraints left/top, fill #FFFFFF, text [PP Cirka Bold, 36px], [heading]
+        - TEXT "Link ->", 60x14px, constraints left/top, fill #FFFFFFB2, text [IBM Plex Mono Regular, 14px]
+      - TEXT "for page heading for extra emphasis and aesthetics", 430x14px, constraints left/top, fill #FFFFFFB2, text [IBM Plex Mono Regular, 14px]
+      - FRAME "Frame 11565", 97x237px, vertical pad 8 8 8 8px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke #FFFFFF1A 1px
+        - TEXT "Serif-Heading", 81x10px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Regular, 10px]
+        - LINE "Line 43", 81x0px, constraints left/top, stroke Base Colors/pop black/300 1px
+        - TEXT "/Bold", 31x10px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Regular, 10px]
+        - TEXT "Cirka-heading/Bold/18", 40x23px, constraints left/top, fill #FFFFFF, text [Serif-Heading/Bold/18], [heading]
+        - TEXT "Cirka-heading/Bold/20", 51x25px, constraints left/top, fill #FFFFFF, text [Serif-Heading/Bold/20], [heading]
+        - TEXT "Cirka-heading/Bold/22", 56x28px, constraints left/top, fill #FFFFFF, text [Serif-Heading/Bold/22], [heading]
+        - TEXT "Cirka-heading/Bold/24", 61x29px, constraints left/top, fill #FFFFFF, text [Serif-Heading/Bold/24], [heading]
+  - FRAME "Pattern holder", 1724x915px, constraints left_right/center, fill #FFFFFF [decorative, ~146 shapes]
+
+Screen: 📐 Grid system / 12 px Grid
+- FRAME "12 px Grid", 371x812px, constraints left/top, fill Base Colors/pop black/500
+  - FRAME "grid", 326x812px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left_right/top_bottom [decorative, ~12 shapes]
+
+Screen: 📐 Grid system / Vector 371
+- VECTOR "Vector 371", 30x67.5px, constraints center/center, fill #FFFFFF, stroke #FFFFFF 1px
+
+Screen: 📐 Grid system / Vector 372
+- VECTOR "Vector 372", 15x68px, constraints center/center, fill #FFFFFF, stroke #FFFFFF 1px
+
+Screen: 📐 Grid system / 30px
+- TEXT "30px", 35x23px, constraints center/center, fill #FFFFFF, text [IBM Plex Mono Medium, 14px]
+
+Screen: 📐 Grid system / 15px
+- TEXT "15px", 35x23px, constraints center/center, fill #FFFFFF, text [IBM Plex Mono Medium, 14px]
+
+Screen:   / This is a divider. Wait!! you don’t suppose to come here.
+- TEXT "This is a divider. Wait!! you don’t suppose to come here.", 333x75px, constraints left/top, fill #FFFFFF, text [Gilroy Bold, 18px]
+
+Screen: ❇️ Components / Component Playground
+- FRAME "Component Playground", 279x314px, constraints left/top, fill Base Colors/pop black/500
+  - INSTANCE "Component 2", 351x200px, constraints right/center
+    - INSTANCE "Credit cards", 351x200px, constraints left/top, radius 5px, fill #B43F28
+      - VECTOR "Vector 8", 349.2x150.19px, constraints left/top, stroke #FFFFFFB2 22px
+      - VECTOR "Vector 7", 350.36x157.5px, constraints left/top, stroke #A72B1B 22px
+      - FRAME "Frame 11158", 165.64x33px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "14/18", 116x16px, constraints left/top, fill Base Colors/pop white/500, text [Heading/Bold/13], [heading]
+        - FRAME "Frame 11149", 165.64x13px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Visa logo", 24.64x8px, constraints left/top, fill #FFFFFF
+            - VECTOR "path3789", 24.61x7.98px, constraints scale/scale, fill Base Colors/pop white/500
+          - TEXT "14/18", 133x13px, constraints left/top, fill Base Colors/pop white/500, text [Caps/SemiBold/10]
+      - GROUP "layer1", 80.69x16px, constraints scale/scale [decorative, ~14 shapes]
+      - TEXT "14/18", 96x16px, constraints left/top, fill Base Colors/pop white/100, text [Heading/SemiBold/13], [heading]
+      - FRAME "Frame 11152", 40x30px, constraints left/top, radius 6px, fill gradient_linear(#CACED2 0% | #FFFFFF 49% | #C7CBCF 100%), effect [inner_shadow 0px offset 0.5 0.5 #292627, inner_shadow 0px offset -0.5 -0.5 #29262770] [decorative, ~7 shapes]
+    - FRAME "Frame 11203", 175x200px, vertical pad 20 20 20 20px gap 8px align space_between/min sizing W:fixed H:fixed, constraints center/top, fill Base Colors/pop white/500
+      - FRAME "Frame 11205", 110x83px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Bill status tags", 110x21px, horizontal pad 4 10 4 10px gap 8px sizing W:fixed H:fixed, constraints left/top, fill Semantic Colors/warning/500
+          - TEXT "DUE In 3 days", 90x13px, constraints left/top, fill Base Colors/pop white/500, text [Caps/SemiBold/10]
+        - FRAME "Frame 11204", 100x46px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "total due", 48x17px, constraints left/top, fill Base Colors/pop black/100, text [Body/Medium/11]
+          - TEXT "₹22,323.68", 100x25px, constraints left/top, fill Base Colors/pop black/500, text [Heading/Bold/20], [heading]
+      - INSTANCE "Button - Main", 135x48px, horizontal pad 16 20 16 20px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, fill Base Colors/pop black/500
+        - TEXT "Label", 52x16px, constraints left/top, fill Base Colors/pop white/500, text [Heading/Bold/13], [heading]
+
+Screen: ❇️ Components / Illustrations
+- FRAME "Illustrations", 748.92x821px, horizontal pad 120 120 120 120px gap 120px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500
+  - FRAME "Frame 11244", 508.92x581px, horizontal pad 0 0 0 0px gap 180px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 11242", 202x581px, vertical pad 0 0 0 0px gap 64px align min/center sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT "system error", 122x102px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 45.31x45.18px, constraints scale/scale, fill #FF784B, stroke #0D0D0D 0.5px
+        - VECTOR "Vector", 74.66x68.13px, constraints scale/scale, fill Base Colors/pop white/500, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 59.75x44.06px, constraints scale/scale, fill Base Colors/pop black/500, stroke Base Colors/pop black/500 0.5px
+        - GROUP "Group", 26.06x40.83px, constraints scale/scale
+          - VECTOR "Vector", 26.06x40.83px, constraints scale/scale, fill Base Colors/pop white/500
+        - VECTOR "Vector", 78.42x29.34px, constraints scale/scale, fill #FF784B, stroke #0D0D0D 0.5px
+        - VECTOR "Vector", 62.92x20.39px, constraints scale/scale, fill #FF784B, stroke #0D0D0D 0.5px
+        - VECTOR "Vector", 28.49x79.81px, constraints scale/scale, fill #9772FF, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 15.38x32.09px, constraints scale/scale, fill #9772FF, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 52.1x7.38px, constraints scale/scale, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 6.67x4.12px, constraints scale/scale, fill #9772FF, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 6.67x4.13px, constraints scale/scale, fill #9772FF, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 59.75x44.06px, constraints scale/scale, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 17.34x9.83px, constraints scale/scale, fill Base Colors/pop white/500, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 12.53x7.1px, constraints scale/scale, fill Base Colors/pop white/500, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 23.57x22.75px, constraints scale/scale, fill #FFDF0D, stroke #0D0D0D 0.5px
+        - VECTOR "Vector", 2.46x2.38px, constraints scale/scale, fill Base Colors/pop black/500, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 3.36x6.98px, constraints scale/scale, fill Base Colors/pop black/500, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 23.57x22.75px, constraints scale/scale, stroke #020203 0.5px
+        - VECTOR "Vector", 107.05x40.45px, constraints scale/scale, fill #FFDF0D, stroke #0D0D0D 0.5px
+        - VECTOR "Vector", 20.19x3.77px, constraints scale/scale, fill Base Colors/pop black/500, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 20.21x20.29px, constraints scale/scale, fill #9772FF, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 4.84x4.85px, constraints scale/scale, fill Base Colors/pop white/500, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 7.55x16.23px, constraints scale/scale, fill Base Colors/pop black/500, stroke Base Colors/pop black/500 0.5px
+        - VECTOR "Vector", 16.75x18.13px, constraints scale/scale, fill #FFDF0D, stroke #0D0D0D 0.5px
+        - VECTOR "Vector", 12.73x7.68px, constraints scale/scale, fill Base Colors/pop white/500, stroke Base Colors/pop black/500 0.5px
+        - ... +2 more children
+      - COMPONENT "Error", 202x201px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 200x200px, constraints scale/scale, fill #0D0D0D, stroke #6B40E2 0.4px
+        - VECTOR "Vector", 158x158px, constraints scale/scale, fill #0D0D0D, stroke #6B40E2 0.4px
+        - VECTOR "Vector", 155.25x136.59px, constraints scale/scale, fill #FFDB7D, stroke #020203 0.4px
+        - GROUP "Group", 124.21x98.82px, constraints scale/scale
+          - VECTOR "Vector", 124.21x98.82px, constraints scale/scale, fill Base Colors/pop white/500
+        - VECTOR "Vector", 155.23x136.6px, constraints scale/scale, stroke #020203 0.4px
+        - VECTOR "Vector", 162.88x13.33px, constraints scale/scale, fill #FFCB45, stroke #020203 0.4px
+        - VECTOR "Vector", 80.89x144.09px, constraints scale/scale, fill #FFCB45, stroke #020203 0.4px
+        - VECTOR "Vector", 15.38x48.46px, constraints scale/scale, fill Base Colors/pop black/500, stroke Base Colors/pop black/500 0.4px
+        - VECTOR "Vector", 14.19x14.61px, constraints scale/scale, fill Base Colors/pop black/500, stroke Base Colors/pop black/500 0.4px
+        - VECTOR "Vector", 36x36px, constraints scale/scale, fill Base Colors/pop white/500
+        - VECTOR "Vector", 25x25px, constraints scale/scale, fill Base Colors/pop white/500
+        - VECTOR "Vector", 16.82x11.98px, constraints scale/scale, fill #3CBF77, stroke Base Colors/pop black/500 0.4px
+        - VECTOR "Vector", 17.33x10.87px, constraints scale/scale, fill Base Colors/pop white/500, stroke Base Colors/pop black/500 0.4px
+        - VECTOR "Vector", 11.38x20.65px, constraints scale/scale, fill #4FE3A3, stroke Base Colors/pop black/500 0.4px
+        - VECTOR "Vector", 19.67x25.94px, constraints scale/scale, fill Base Colors/pop black/500, stroke Base Colors/pop black/500 0.4px
+        - VECTOR "Vector", 33.79x33.83px, constraints scale/scale, fill #3CBF77, stroke Base Colors/pop black/500 0.4px
+        - VECTOR "Vector", 31.82x27.97px, constraints scale/scale, fill #4FE2A3, stroke Base Colors/pop black/500 0.4px
+        - VECTOR "Vector", 8.84x6.18px, constraints scale/scale, fill Base Colors/pop white/500, stroke Base Colors/pop black/500 0.4px
+      - COMPONENT "No Vouchers", 125x150px, constraints left/top, fill #FFFFFF
+        - GROUP "Cont", 121x146px, constraints left/top [decorative, ~71 shapes]
+    - FRAME "Frame 11243", 126.92x373px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT "coin gift box", 60x60px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 11243", 60x60px, constraints scale/scale [decorative, ~25 shapes]
+      - COMPONENT "error", 126.92x100px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 88.26x86.54px, constraints scale/scale, fill #FF784B, stroke Base Colors/pop black/500 0.3px
+        - VECTOR "Vector", 83.6x82.01px, constraints scale/scale, fill Base Colors/pop black/500
+        - VECTOR "Vector", 84.17x82.59px, constraints scale/scale, fill Base Colors/pop black/500
+        - VECTOR "Vector", 90.77x88.45px, constraints scale/scale, fill #FFDF0D, stroke Base Colors/pop black/500 0.3px
+        - GROUP "Group 11564", 90.77x88.45px, constraints left/top [decorative, ~8 shapes]
+        - GROUP "Group 11563", 53.38x54.11px, constraints left/top [decorative, ~5 shapes]
+      - COMPONENT "ruppe notes", 85x85px, constraints left/top, fill #FFFFFF
+        - GROUP "mask0_776_984", 85x85px, constraints scale/scale
+          - VECTOR "Vector", 85x85px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 97.59x97.59px, constraints scale/scale [decorative, ~11 shapes]
+
+Screen: ❇️ Components / Profile Extended section
+- FRAME "Profile Extended section", 793x4492.5px, vertical pad 120 120 120 120px gap 120px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500
+  - FRAME "Frame 11932", 487x314px, vertical pad 0 0 0 0px gap 43px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Profile other options", 210x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - FRAME "Frame 11943", 487x241px, horizontal pad 0 0 0 0px gap 43px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11942", 305x241px, vertical pad 0 0 0 0px gap 43px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Refer & earn", 305x90px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 11904", 86x66px, constraints left/top, fill #FFFFFF [decorative, ~20 shapes]
+          - FRAME "Frame 11920", 203x90px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "refer & earn", 203x18px, constraints left/top, fill Base Colors/pop white/200, text [Heading/SemiBold/14], [heading]
+            - TEXT "assured cashback for bringing friends to CRED", 203x34px, constraints left/top, fill Base Colors/pop black/100, text [Body/Medium/11]
+            - FRAME "Frame 11921", 58x18px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Credi score check", 305x108px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 11923", 86x66px, constraints left/top, fill #FFFFFF [decorative, ~13 shapes]
+          - FRAME "Frame 11920", 203x108px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "your equifax credit score is 775", 203x36px, constraints left/top, fill Base Colors/pop white/200, text [Heading/SemiBold/14], [heading]
+            - TEXT "refresh your credit report to get insights and track your cr", 203x34px, constraints left/top, fill Base Colors/pop black/100, text [Body/Medium/11]
+            - FRAME "Frame 11921", 63x18px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11938", 139x199px, vertical pad 0 0 0 0px gap 234px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Refer & earn", 98x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+        - TEXT "Credi score check", 139x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+  - VECTOR "Line 15", 553x0px, constraints left/top, stroke #FFFFFF80 1px
+  - FRAME "Frame 11933", 271x215px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "credit score bureau logo", 240x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - TEXT "Variants: Equifax, Crif, Experian", 271x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - FRAME "Frame 11944", 206.81x112px, horizontal pad 0 0 0 0px gap 44px align min/center sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT_SET "credit score bureau logo", 100.81x112px, vertical pad 20 20 20 20px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, stroke #FF00F5 2px
+        - COMPONENT "score by=Equifax", 60.81x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 9.93x8.97px, constraints scale/scale, fill Base Colors/pop black/100
+          - VECTOR "Vector", 12.67x11.36px, constraints scale/scale, fill Base Colors/pop black/100
+          - VECTOR "Vector", 5.03x7.97px, constraints scale/scale, fill Base Colors/pop black/100
+          - VECTOR "Vector", 8.88x7.97px, constraints scale/scale, fill Base Colors/pop black/100
+          - VECTOR "Vector", 10.25x8.33px, constraints scale/scale, fill Base Colors/pop black/100
+          - VECTOR "Vector", 21.18x7.97px, constraints scale/scale, fill Base Colors/pop black/100
+        - COMPONENT "score by=Crif", 36.53x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Livello_1", 36.53x12px, constraints scale/scale [decorative, ~10 shapes]
+        - COMPONENT "score by=Experian logo", 49.46x16px, constraints left/top
+          - GROUP "g135", 49.46x16px, constraints scale/scale [decorative, ~16 shapes]
+      - FRAME "Frame 11638", 62x90px, vertical pad 0 0 0 0px gap 234px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Equifax", 57x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+        - TEXT "Crif", 33x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+        - TEXT "Experian", 66x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+  - FRAME "Frame 11934", 369x426.5px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Credit Score Card", 170x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - TEXT "Component Props - Boolean-Show/hide: Credit score refresh Te", 369x100px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - COMPONENT "Credit score card", 355x248.5px, vertical pad 0 0 0 0px gap -0.5px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11912", 355x207px, horizontal pad 30 30 30 24px gap 38px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/400, stroke Base Colors/pop black/200 0.5px
+        - FRAME "Frame 11916", 301x147px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 11911", 94x127.5px, vertical pad 0 0 0 0px gap -4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11911", 90x90px, constraints left/top, radius 999px, fill Base Colors/pop black/500, stroke Base Colors/pop black/200 0.4px
+            - FRAME "Frame 11910", 94x41.5px, vertical pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 11913", 167x147px, vertical pad 12 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 11915", 167x79px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Button - Main", 100x32px, horizontal pad 8 14 8 14px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke Base Colors/pop white/500 1px
+      - FRAME "Frame 11919", 355x42px, horizontal pad 12 0 12 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, fill Base Colors/pop black/300, stroke Base Colors/pop black/200 0.5px
+        - FRAME "Frame 11918", 18x18px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, fill Semantic Colors/success/500
+          - VECTOR "replay", 7.72x9.01px, constraints scale/scale, fill Base Colors/pop white/500
+        - TEXT "credit score refresh available", 255x16px, constraints left/top, fill Base Colors/pop white/500, text [Gilroy Bold, 12px]
+  - FRAME "Frame 11938", 500x948px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Credit Score detail Indicator", 290x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - TEXT "Component Props - Variant: On time payments, Keep old cards ", 500x50px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - FRAME "Frame 11944", 451x820px, horizontal pad 0 0 0 0px gap 44px align max/center sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT_SET "Credit Insights card", 235x820px, vertical pad 20 20 20 20px gap 21px sizing W:fixed H:fixed, constraints left/top, stroke #FF00F5 2px
+        - COMPONENT "Card=On time payments", 195x246px, vertical pad 35 20 35 20px gap 24px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/300
+          - FRAME "Frame", 195x156px, constraints center/top, fill #FFFFFF, opacity 10%
+            - VECTOR "Vector", 948.01x958.31px, constraints scale/scale, fill gradient_linear(#FFFFFF 0% | #FFFFFF00 100%)
+          - FRAME "Frame 11892", 50x50px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #2A2A2A [decorative, ~6 shapes]
+          - FRAME "Frame 11917", 155x102px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "on time payments", 155x20px, constraints left/top, fill Base Colors/pop white/500, text [Gilroy Bold, 16px]
+            - TEXT "ensure you make all payments before the due date to improve ", 155x72px, constraints left/top, fill Base Colors/pop black/100, text [Gilroy Medium, 12px]
+        - COMPONENT "Card=Keep old cards active", 195x246px, vertical pad 35 20 35 20px gap 24px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/300
+          - FRAME "Frame", 195x156px, constraints center/top, fill #FFFFFF, opacity 10%
+            - VECTOR "Vector", 948.01x958.31px, constraints scale/scale, fill gradient_linear(#FFFFFF 0% | #FFFFFF00 100%)
+          - FRAME "Frame 11892", 50x50px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #2A2A2A [decorative, ~4 shapes]
+          - FRAME "Frame 11917", 155x104px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "keep old cards active", 155x40px, constraints left/top, fill Base Colors/pop white/500, text [Gilroy Bold, 16px]
+            - TEXT "total age of your credit activity boosts your credit score", 155x54px, constraints left/top, fill Base Colors/pop black/100, text [Gilroy Medium, 12px]
+        - COMPONENT "Card=be vigilant", 195x246px, vertical pad 35 20 35 20px gap 24px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/300
+          - FRAME "Frame", 195x156px, constraints center/top, fill #FFFFFF, opacity 10%
+            - VECTOR "Vector", 948.01x958.31px, constraints scale/scale, fill gradient_linear(#FFFFFF 0% | #FFFFFF00 100%)
+          - FRAME "Frame 11892", 50x50px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #2A2A2A
+            - GROUP "Group 11895", 18.71x17.9px, constraints left/top
+          - FRAME "Frame 11917", 155x102px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "be vigilant", 155x20px, constraints left/top, fill Base Colors/pop white/500, text [Gilroy Bold, 16px]
+            - TEXT "check credit report regularly and report inaccuracies to the", 155x72px, constraints left/top, fill Base Colors/pop black/100, text [Gilroy Medium, 12px]
+      - FRAME "Frame 11638", 172x601px, vertical pad 0 0 0 0px gap 234px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "on time payments", 131x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+        - TEXT "keep old cards active", 172x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+        - TEXT "be vigilant", 90x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+  - VECTOR "Line 14", 553x0px, constraints left/top, stroke #FFFFFF80 1px
+  - FRAME "Frame 11935", 487x272px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Credit score update CTA", 230x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - TEXT "Component Props - Variants: Refresh available, update score ", 402x50px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - FRAME "Frame 11944", 487x144px, horizontal pad 0 0 0 0px gap 44px align max/center sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT_SET "Credit score update CTA", 254x144px, vertical pad 20 20 20 20px gap 16px sizing W:fixed H:fixed, constraints left/top, stroke #FF00F5 2px
+        - COMPONENT "Property 1=refresh available", 161x44px, horizontal pad 14 20 14 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke Base Colors/pop white/500 1px
+          - FRAME "Frame 11918", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, fill Semantic Colors/success/500
+            - VECTOR "replay", 7.72x9.01px, constraints scale/scale, fill Base Colors/pop white/500
+          - TEXT "Label", 95x16px, constraints left/top, fill Base Colors/pop white/500, text [Gilroy Bold, 13px]
+        - COMPONENT "Property 1=update score in days", 214x44px, horizontal pad 14 20 14 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke Base Colors/pop white/500 1px
+          - FRAME "Frame 11918", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, fill Semantic Colors/success/500
+            - VECTOR "replay", 7.72x9.01px, constraints scale/scale, fill Base Colors/pop white/500
+          - TEXT "Label", 148x16px, constraints left/top, fill Base Colors/pop white/500, text [Gilroy Bold, 13px]
+      - FRAME "Frame 11638", 189x83px, vertical pad 0 0 0 0px gap 234px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Refresh available", 139x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+        - TEXT "be update score in days", 189x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+  - FRAME "Frame 11936", 336x405.5px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Credit Score detail Indicator", 290x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - TEXT "Component Props - Text: Date Nested Component: Credit score ", 336x75px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - COMPONENT "Credit Score detail Indicator", 214x252.5px, vertical pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11925", 137x162.5px, vertical pad 0 0 0 0px gap -5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11911", 137x137px, constraints left/top, radius 999px, fill Base Colors/pop black/500, stroke Base Colors/pop black/200 1px
+          - FRAME "Frame 11906", 80x80px, constraints center/center, radius 75px, fill Base Colors/pop black/300
+            - FRAME "Frame 11930", 38x39px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 58", 120.58x120.58px, constraints center/center, fill More Colors/neo pacha/400
+          - ELLIPSE "Ellipse 57", 7.55x7.55px, constraints right/center, fill More Colors/neo pacha/400
+        - FRAME "Frame 11909", 137x30.5px, horizontal pad 0 0 0 0px gap 60px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 11907", 26x30.5px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 58", 1.5x1.5px, constraints left/top, fill Base Colors/pop black/200
+            - TEXT "300", 26x21px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Medium, 14px]
+          - FRAME "Frame 11908", 26x30.5px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - ELLIPSE "Ellipse 58", 1.5x1.5px, constraints left/top, fill Base Colors/pop black/200
+            - TEXT "900", 26x21px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Medium, 14px]
+      - FRAME "Frame 11926", 161x18px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "last updated on", 94x18px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Medium, 12px]
+        - TEXT "06 May ‘22", 63x18px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Medium, 12px]
+      - INSTANCE "Credit score update CTA", 214x44px, horizontal pad 14 20 14 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500, stroke Base Colors/pop white/500 1px
+        - FRAME "Frame 11918", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, fill Semantic Colors/success/500
+          - VECTOR "replay", 7.72x9.01px, constraints scale/scale, fill Base Colors/pop white/500
+        - TEXT "Label", 148x16px, constraints left/top, fill Base Colors/pop white/500, text [Gilroy Bold, 13px]
+  - FRAME "Frame 11939", 290x231.5px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Credit Score detail Indicator", 290x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - COMPONENT "Credit Score Change Indicator", 156x177.5px, vertical pad 0 0 0 0px gap -4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11911", 152x152px, constraints left/top, radius 999px, fill Base Colors/pop white/500, stroke Base Colors/pop white/200 1px
+        - FRAME "Frame 11906", 90x90px, horizontal pad 21 25 21 25px gap 10px sizing W:fixed H:fixed, constraints center/center, radius 75px, fill Base Colors/pop white/300
+          - FRAME "Frame 11931", 41x49px, vertical pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "753", 41x25px, constraints center/center, fill Base Colors/pop black/500, text [Gilroy ExtraBold, 26px], [heading]
+            - FRAME "Frame 11927", 30.16x10px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 57", 7.55x7.55px, constraints center/center, fill Base Colors/pop black/500
+        - ELLIPSE "Ellipse 56", 133.12x133.12px, constraints center/center, fill More Colors/neo pacha/400
+      - FRAME "Frame 11909", 156x29.5px, horizontal pad 0 0 0 0px gap 100px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 11907", 26x25.5px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 58", 1.5x1.5px, constraints left/top, fill Base Colors/pop black/500
+          - TEXT "300", 26x16px, constraints left/top, fill Base Colors/pop black/500, text [Gilroy SemiBold, 14px]
+        - FRAME "Frame 11908", 30x29.5px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 58", 1.5x1.5px, constraints left/top, fill Base Colors/pop black/500
+          - TEXT "900", 30x20px, constraints left/top, fill Base Colors/pop black/500, text [Gilroy SemiBold, 16px]
+  - FRAME "Frame 11951", 553x360px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Credit Score detail Indicator", 290x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - TEXT "Component Props - Variant: Ontime, Utilization, New account", 336x50px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - COMPONENT_SET "Credit score detail imapct", 553x232px, horizontal pad 16 16 16 16px gap 16px align min/max sizing W:fixed H:fixed, constraints left/top, stroke #FF00F5 2px
+      - COMPONENT "Property 1=On time", 163x200px, vertical pad 30 20 30 20px gap 30px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+        - FRAME "Frame 11934", 20x20px, constraints left/top
+          - GROUP "Group 11899", 20x20px, constraints left/top
+            - ELLIPSE "Ellipse 62", 20x20px, constraints left/top, stroke Base Colors/pop black/200 1px
+            - VECTOR "Vector 367", 3.97x12.16px, constraints left/top, stroke Base Colors/pop black/200 1px
+        - FRAME "Frame 11938", 123x90px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "payments made on time has styaed at", 123x36px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Regular, 12px]
+          - FRAME "Frame 11937", 70x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "100.00%", 56x16px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy SemiBold, 14px]
+            - ELLIPSE "Ellipse 63", 6x6px, constraints left/top, fill Semantic Colors/success/300
+          - TEXT "high impact", 123x18px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Medium, 12px]
+      - COMPONENT "Property 1=Utilization", 163x200px, vertical pad 30 20 30 20px gap 30px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+        - FRAME "Frame 11935", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+        - FRAME "Frame 11938", 123x90px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "your credit utilization has increased by", 123x36px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Regular, 12px]
+          - FRAME "Frame 11937", 59x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "29.86%", 45x16px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy SemiBold, 14px]
+            - ELLIPSE "Ellipse 63", 6x6px, constraints left/top, fill #EE4D37
+          - TEXT "high impact", 120.99x18px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Medium, 12px]
+      - COMPONENT "Property 1=New account", 163x200px, vertical pad 30 20 30 20px gap 30px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+        - FRAME "Frame 11939", 20x20px, constraints left/top, fill #000000 [decorative, ~6 shapes]
+        - FRAME "Frame 11938", 123x90px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "no new accounts were made", 123x36px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Regular, 12px]
+          - FRAME "Frame 11937", 23x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "0", 9x16px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy SemiBold, 14px]
+            - ELLIPSE "Ellipse 63", 6x6px, constraints left/top, fill Semantic Colors/success/300
+          - TEXT "low impact", 120.99x18px, constraints left/top, fill Base Colors/pop black/200, text [Gilroy Medium, 12px]
+
+Screen: ❇️ Components / Profile section
+- FRAME "Profile section", 670x4294.01px, vertical pad 120 120 120 120px gap 120px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop black/500
+  - FRAME "Frame 11664", 155x280px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Profile avatar", 140x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - COMPONENT "Profile avatar", 155x226px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11621", 155x155px, constraints left/top, radius 98px, fill Base Colors/pop black/500, stroke #FFFFFFB2 1px
+        - RECTANGLE "ic_profile_fallback 1", 90x90px, constraints center/center, radius 45px, fill image(hash: b57f0c4bb6958b7d4e34b8132c3dae3886d7d8f1)
+        - ELLIPSE "Ellipse 47", 110x110px, constraints left/top, stroke #FFFFFFB2 1px
+        - GROUP "Linked Path Group", 85.58x142.25px, constraints left/top, radius 0/0/0/0px
+          - TEXT "[Copy] Joined in may 2022 •", 7.26x16.11px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 12.15x17.25px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 8.28x16.48px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 14.65x18.26px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 14.45x17.27px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 17.26x18px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 13.84x13px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 15.12x12.93px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 18.36x15.82px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 15.89x9.04px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 18.11x13.96px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 16.83x10.57px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 16.46x8.96px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 16.28x5.74px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 17.31x11.16px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 17.88x13.9px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 17.25x14.52px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 16.73x15.69px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 13.21x13.65px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 13.86x15.64px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+        - GROUP "Linked Path Group", 82.98x140.97px, constraints left/top, radius 0/0/0/0px
+          - TEXT "[Copy] Joined in may 2022 •", 7.06x16.03px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 12.43x17.4px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 8.56x16.47px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 14.86x18.3px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 14.64x17.21px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 17.38x17.92px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 14.01x12.81px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 15.25x12.72px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 18.36x15.63px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 15.96x8.77px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 18x13.7px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 16.68x10.27px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 16.59x9.26px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 16.28x6.05px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 17.36x11.43px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 17.89x14.12px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 17.19x14.71px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 16.63x15.84px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 13.02x13.82px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+          - TEXT "[Copy] Joined in may 2022 •", 13.67x15.76px, constraints left/top, fill #FFFFFFB2, text [Gilroy Bold, 12px]
+        - FRAME "Frame 11622", 36x36px, horizontal pad 8 8 8 8px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 999px, fill Base Colors/pop black/300, stroke #3D3D3DE5 0.4px
+          - INSTANCE "edit icon", 20x20px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 18x19px, constraints scale/scale, fill Base Colors/pop white/500
+      - FRAME "Frame 11623", 147x51px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Ashish Kashyap", 147x25px, constraints left/top, fill Base Colors/pop white/500, text [Gilroy Bold, 20px]
+        - TEXT "+91 914977889", 94x16px, constraints left/top, fill #FFFFFFB2, text [Gilroy SemiBold, 14px]
+  - FRAME "Frame 11953", 240x246.01px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Cred coins, gem, voucher", 240x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - FRAME "Frame 11950", 183x192.01px, horizontal pad 0 0 0 0px gap 55px align min/center sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT_SET "shine color icons", 54x192.01px, vertical pad 16 16 16 16px gap 24px sizing W:fixed H:fixed, constraints left/top, stroke #FF00F5 2px
+        - COMPONENT "Icon=CRED coin", 22x22px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 11567", 27.01x27.01px, constraints left/top [decorative, ~6 shapes]
+        - COMPONENT "Icon=gem", 22x22px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 11150", 20.67x22px, constraints left/top [decorative, ~7 shapes]
+        - COMPONENT "Icon=Voucher", 22x22px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 11569", 19.85x22px, constraints left/top, radius 0/0/0/0px [decorative, ~21 shapes]
+        - COMPONENT "Icon=Balance", 22x22px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 11570", 23.13x25.76px, constraints left/top [decorative, ~6 shapes]
+      - FRAME "Frame 11949", 74x170px, vertical pad 0 0 0 0px gap 31px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Cred Coin", 74x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+        - TEXT "Gem", 25x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+        - TEXT "Voucher", 57x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+        - TEXT "Balance", 57x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+  - FRAME "Frame 11954", 430x229px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Treasury bar", 120x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - TEXT "Component Props - Text: Cred coin, gem, balance, voucher Boo", 430x125px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - COMPONENT "Frame 11968", 294x26px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11174", 83x26px, horizontal pad 5 10 5 22px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #FFFFFF1A
+        - TEXT "1,34,435", 51x16px, constraints left/top, fill base color/pop white/pop white 500, text [Gilroy Bold, 13px]
+        - INSTANCE "shine color icons", 22x22px, constraints left/center, fill #FFFFFF
+          - GROUP "Group 11567", 27.01x27.01px, constraints left/top [decorative, ~6 shapes]
+      - FRAME "Frame 11161", 40x26px, horizontal pad 5 10 5 22px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #FFFFFF1A
+        - TEXT "4", 8x16px, constraints left/top, fill base color/pop white/pop white 500, text [Gilroy Bold, 13px]
+        - INSTANCE "shine color icons", 22x22px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 11150", 20.67x22px, constraints left/top [decorative, ~7 shapes]
+      - FRAME "Frame 11177", 72x26px, horizontal pad 5 10 5 22px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #FFFFFF1A
+        - TEXT "Amount", 40x16px, constraints left/top, fill base color/pop white/pop white 500, text [Gilroy Bold, 13px]
+        - INSTANCE "shine color icons", 22x22px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 11570", 23.13x25.76px, constraints left/top [decorative, ~6 shapes]
+      - FRAME "Frame 11176", 39x26px, horizontal pad 5 10 5 22px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #FFFFFF1A
+        - TEXT "2", 7x16px, constraints left/top, fill base color/pop white/pop white 500, text [Gilroy Bold, 13px]
+        - INSTANCE "shine color icons", 22x22px, constraints left/center, fill #FFFFFF
+          - GROUP "Group 11569", 19.85x22px, constraints left/top, radius 0/0/0/0px [decorative, ~21 shapes]
+  - FRAME "Frame 11952", 430x310px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Cred coins, gem, voucher", 240x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - TEXT "Component Props - Text: Cred coin, gem, balance, voucher Tex", 430x125px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - COMPONENT "Frame 11178", 125x107px, vertical pad 15 15 15 15px gap 18px sizing W:fixed H:fixed, constraints left/top, fill #E0E0E01A
+      - INSTANCE "shine color icons", 22x22px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 11567", 27.01x27.01px, constraints left/top [decorative, ~6 shapes]
+      - FRAME "Frame 11180", 95x37px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "1,57,015", 45x16px, constraints left/top, fill Base Colors/pop white/500, text [Heading/Bold/13], [heading]
+        - FRAME "Frame 11179", 95x17px, horizontal pad 0 0 0 0px gap 15px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "CRED coins", 60x17px, constraints left/top, fill #FFFFFF80, text [Body/Medium/11]
+          - GROUP "Group 8120", 12.07x7.56px, constraints scale/scale
+            - VECTOR "Vector 53", 11.33x0px, constraints scale/scale, stroke Base Colors/pop white/500 1.5px
+            - VECTOR "Ellipse 89", 3.78x3.78px, constraints scale/scale, stroke Base Colors/pop white/500 1.5px
+            - VECTOR "Ellipse 90", 3.78x3.78px, constraints scale/scale, stroke Base Colors/pop white/500 1.5px
+  - VECTOR "Line 14", 430x0px, constraints left/top, stroke #FFFFFF80 1px
+  - FRAME "Frame 11661", 270x338px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Settings bottom sheet Icons", 270x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - FRAME "Frame 11660", 167x284px, vertical pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 11651", 69x20px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "User", 20x20px, constraints left/top, fill Base Colors/pop white/500
+          - GROUP "Group 11882", 14x14.2px, constraints left/top
+            - ELLIPSE "Ellipse 47", 7.5x7.5px, constraints left/top, stroke Base Colors/pop black/500 0.5px
+            - VECTOR "Ellipse 48", 14x7px, constraints left/top, stroke Base Colors/pop black/500 0.5px
+        - TEXT "User", 33x17px, constraints left/top, fill Base Colors/pop white/500, text [IBM Plex Mono Regular, 13px]
+      - FRAME "Frame 11652", 110x20px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Briefcase", 20x20px, constraints left/top, fill Base Colors/pop white/500
+          - GROUP "Group 11883", 16x13.32px, constraints left/top [decorative, ~4 shapes]
+        - TEXT "Briefcase", 74x17px, constraints left/top, fill Base Colors/pop white/500, text [IBM Plex Mono Regular, 13px]
+      - FRAME "Frame 11653", 167x20px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Traction history", 20x20px, constraints left/top, fill Base Colors/pop white/500
+          - GROUP "Group 11884", 12.59x12.51px, constraints left/top [decorative, ~6 shapes]
+        - TEXT "Traction history", 131x17px, constraints left/top, fill Base Colors/pop white/500, text [IBM Plex Mono Regular, 13px]
+      - FRAME "Frame 11654", 134x20px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "CRED protect", 20x20px, constraints left/top, fill Base Colors/pop white/500
+          - GROUP "Group 11886", 11.07x12.69px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+        - TEXT "CRED protect", 98x17px, constraints left/top, fill Base Colors/pop white/500, text [IBM Plex Mono Regular, 13px]
+      - FRAME "Frame 11655", 93x20px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Payment", 20x20px, constraints left/top, fill Base Colors/pop white/500
+          - GROUP "Group 11887", 11.5x11.5px, constraints left/top
+            - RECTANGLE "Rectangle 2607", 11.5x11.5px, constraints left/top, stroke Base Colors/pop black/500 0.5px
+            - VECTOR "Rectangle 2608", 6.33x6.33px, constraints left/top, stroke Base Colors/pop black/500 0.5px
+            - VECTOR "Rectangle 2609", 3.31x3.31px, constraints left/top, stroke Base Colors/pop black/500 0.5px
+          - GROUP "Group 11888", 11.5x11.5px, constraints left/top
+            - RECTANGLE "Rectangle 2607", 11.5x11.5px, constraints left/top, stroke Base Colors/pop black/500 0.5px
+            - VECTOR "Rectangle 2608", 6.33x6.33px, constraints left/top, stroke Base Colors/pop black/500 0.5px
+            - VECTOR "Rectangle 2609", 3.31x3.31px, constraints left/top, stroke Base Colors/pop black/500 0.5px
+        - TEXT "Payment", 57x17px, constraints left/top, fill Base Colors/pop white/500, text [IBM Plex Mono Regular, 13px]
+      - FRAME "Frame 11656", 102x20px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Location", 20x20px, constraints left/top, fill Base Colors/pop white/500
+          - GROUP "Group 11890", 14.64x14.64px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 2610", 14.64x14.64px, constraints left/top, radius 99/99/99/3px, stroke Base Colors/pop black/500 0.5px
+            - RECTANGLE "Rectangle 2611", 7.07x7.07px, constraints left/top, radius 99px, stroke Base Colors/pop black/500 0.5px
+        - TEXT "Location", 66x17px, constraints left/top, fill Base Colors/pop white/500, text [IBM Plex Mono Regular, 13px]
+      - FRAME "Frame 11657", 69x20px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Info", 20x20px, constraints left/top, fill Base Colors/pop white/500
+          - VECTOR "Vector", 13.56x13.56px, constraints scale/scale, stroke Base Colors/pop black/500 0.5px
+          - VECTOR "Vector", 1.8x4.87px, constraints scale/scale, stroke Base Colors/pop black/500 0.5px
+          - VECTOR "Vector", 1.8x1.76px, constraints scale/scale, stroke Base Colors/pop black/500 0.5px
+        - TEXT "Info", 33x17px, constraints left/top, fill Base Colors/pop white/500, text [IBM Plex Mono Regular, 13px]
+      - FRAME "Frame 11658", 102x20px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "Settings", 20x20px, constraints left/top, fill Base Colors/pop white/500
+          - VECTOR "Union", 16x16px, constraints center/center, stroke Base Colors/pop black/500 0.5px
+          - ELLIPSE "Ellipse 47", 6.69x6.69px, constraints center/center, stroke Base Colors/pop black/500 0.5px
+        - TEXT "Settings", 66x17px, constraints left/top, fill Base Colors/pop white/500, text [IBM Plex Mono Regular, 13px]
+      - FRAME "Frame 11659", 110x20px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - COMPONENT "headphone", 20x20px, constraints left/top, fill Base Colors/pop white/500
+          - GROUP "Group 11892", 12.22x12.28px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+        - TEXT "Headphone", 74x17px, constraints left/top, fill Base Colors/pop white/500, text [IBM Plex Mono Regular, 13px]
+  - FRAME "Frame 11662", 430x893px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Settings bottom sheet cell", 260x30px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Bold, 16px]
+    - TEXT "Atom - Nested Component", 189x25px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - TEXT "Component Props - Variants: Transaction history, manage CRED", 430x125px, constraints left/top, fill #FFFFFFE5, text [IBM Plex Mono Medium, 13px]
+    - COMPONENT_SET "Component 1", 368x641px, vertical pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, stroke #FF00F5 2px
+      - COMPONENT "Property 1=transaction history cell", 336x75px, horizontal pad 16 0 16 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500
+        - FRAME "Frame 11623", 28x28px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+          - INSTANCE "User", 20x20px, constraints left/top, fill Base Colors/pop white/500
+            - GROUP "Group 11882", 14x14.2px, constraints left/top
+        - FRAME "Frame 11624", 256x43px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "lable", 256x21px, constraints left/top, fill Base Colors/pop black/500, text [Gilroy Medium, 14px]
+          - TEXT "desc", 256x18px, constraints left/top, fill Base Colors/pop black/100, text [Gilroy Medium, 12px]
+        - INSTANCE "Arrow/Button arrow", 20x8px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x8px, constraints scale/scale, stroke Base Colors/pop black/500 1.5px
+        - LINE "Line 12", 336x0px, constraints left/bottom, stroke Base Colors/pop white/300 0.8px
+      - COMPONENT "Property 1=manage CRED protect cell", 336x75px, horizontal pad 16 0 16 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500
+        - FRAME "Frame 11623", 28x28px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+          - INSTANCE "CRED protect", 20x20px, constraints left/top, fill Base Colors/pop white/500
+            - GROUP "Group 11886", 11.07x12.69px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+        - FRAME "Frame 11624", 256x43px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "lable", 256x21px, constraints left/top, fill Base Colors/pop black/500, text [Gilroy Medium, 14px]
+          - TEXT "desc", 256x18px, constraints left/top, fill Base Colors/pop black/100, text [Gilroy Medium, 12px]
+        - INSTANCE "Arrow/Button arrow", 20x8px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x8px, constraints scale/scale, stroke Base Colors/pop black/500 1.5px
+        - LINE "Line 12", 336x0px, constraints left/bottom, stroke Base Colors/pop white/300 0.8px
+      - COMPONENT "Property 1=manage account cell", 336x93px, horizontal pad 16 0 16 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500
+        - FRAME "Frame 11623", 28x28px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+          - INSTANCE "Settings", 20x20px, constraints left/top, fill Base Colors/pop white/500
+            - VECTOR "Union", 16x16px, constraints center/center, stroke Base Colors/pop black/500 0.5px
+            - ELLIPSE "Ellipse 47", 6.69x6.69px, constraints center/center, stroke Base Colors/pop black/500 0.5px
+        - FRAME "Frame 11624", 256x61px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "lable", 256x21px, constraints left/top, fill Base Colors/pop black/500, text [Gilroy Medium, 14px]
+          - TEXT "desc", 256x36px, constraints left/top, fill Base Colors/pop black/100, text [Gilroy Medium, 12px]
+        - INSTANCE "Arrow/Button arrow", 20x8px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x8px, constraints scale/scale, stroke Base Colors/pop black/500 1.5px
+        - LINE "Line 12", 336x0px, constraints left/bottom, stroke Base Colors/pop white/300 0.8px
+      - COMPONENT "Property 1=payment settings cell", 336x75px, horizontal pad 16 0 16 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500
+        - FRAME "Frame 11623", 28x28px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+          - INSTANCE "Payment", 20x20px, constraints left/top, fill Base Colors/pop white/500
+            - GROUP "Group 11887", 11.5x11.5px, constraints left/top
+            - GROUP "Group 11888", 11.5x11.5px, constraints left/top
+        - FRAME "Frame 11624", 256x43px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "lable", 256x21px, constraints left/top, fill Base Colors/pop black/500, text [Gilroy Medium, 14px]
+          - TEXT "desc", 256x18px, constraints left/top, fill Base Colors/pop black/100, text [Gilroy Medium, 12px]
+        - INSTANCE "Arrow/Button arrow", 20x8px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x8px, constraints scale/scale, stroke Base Colors/pop black/500 1.5px
+        - LINE "Line 12", 336x0px, constraints left/bottom, stroke Base Colors/pop white/300 0.8px
+      - COMPONENT "Property 1=manage addresses cell", 336x75px, horizontal pad 16 0 16 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500
+        - FRAME "Frame 11623", 28x28px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+          - INSTANCE "Location", 20x20px, constraints left/top, fill Base Colors/pop white/500
+            - GROUP "Group 11890", 14.64x14.64px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Frame 11624", 256x43px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "lable", 256x21px, constraints left/top, fill Base Colors/pop black/500, text [Gilroy Medium, 14px]
+          - TEXT "desc", 256x18px, constraints left/top, fill Base Colors/pop black/100, text [Gilroy Medium, 12px]
+        - INSTANCE "Arrow/Button arrow", 20x8px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x8px, constraints scale/scale, stroke Base Colors/pop black/500 1.5px
+        - LINE "Line 12", 336x0px, constraints left/bottom, stroke Base Colors/pop white/300 0.8px
+      - COMPONENT "Property 1=support cell", 336x60px, horizontal pad 16 0 16 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500
+        - FRAME "Frame 11623", 28x28px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+          - INSTANCE "headphone", 20x20px, constraints left/top, fill Base Colors/pop white/500
+            - GROUP "Group 11892", 12.22x12.28px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+        - FRAME "Frame 11624", 256x21px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+          - TEXT "lable", 256x21px, constraints left/top, fill Base Colors/pop black/500, text [Gilroy Medium, 14px]
+        - INSTANCE "Arrow/Button arrow", 20x8px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 20x8px, constraints scale/scale, stroke Base Colors/pop black/500 1.5px
+        - LINE "Line 12", 336x0px, constraints left/bottom, stroke Base Colors/pop white/300 0.8px
+      - COMPONENT "Property 1=about cell", 336x60px, horizontal pad 16 0 16 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500
+        - FRAME "Frame 11623", 28x28px, horizontal pad 4 4 4 4px gap 8px sizing W:fixed H:fixed, constraints left/top, fill Base Colors/pop white/500, stroke Base Colors/pop white/100 0.5px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

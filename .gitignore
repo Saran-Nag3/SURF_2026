@@ -1,0 +1,31 @@
+# Ignore everything by default
+*
+
+# ...but let git descend into all directories
+!*/
+
+# Keep code/source files (at any depth)
+!*.py
+!*.ts
+!*.js
+!*.mjs
+!*.jsx
+!*.html
+!*.css
+!*.md
+!*.json
+!*.yaml
+!*.yml
+!*.toml
+!*.sh
+!*.txt
+!.gitignore
+
+# Re-ignore junk, secrets, and known data
+.env
+.DS_Store
+node_modules/
+__pycache__/
+enrich_cache.json
+export_cache.json
+.vision_cache_gpt/

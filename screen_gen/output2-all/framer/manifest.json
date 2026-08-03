@@ -1,0 +1,42 @@
+{
+  "company": "framer",
+  "source": "/Users/sarannagubandi/downloads/awesome/framer.md",
+  "platform": "ios",
+  "device": "iPhone 15 Pro Max",
+  "viewport_px": [
+    430,
+    932
+  ],
+  "output_px": [
+    1290,
+    2796
+  ],
+  "paradigm_detected": "marketing site \u2014 the spec describes a desktop dark-canvas promotional site with top nav, pricing grids, template cards, spotlight panels, and FAQ/footer patterns rather than a mobile product UI.",
+  "self_check": "Each screen is translated into a single-column iPhone layout with no device chrome drawn, touch-only controls, no desktop/web residue, and the black canvas, white pill CTAs, blue selection, dark surfaces, rounded cards, and GT Walsheim/Inter typography intent preserved.",
+  "screens": [
+    {
+      "name": "Home",
+      "kind": "HOME FEED",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "Empty drafts",
+      "kind": "EMPTY STATE",
+      "png": "screen_2_empty-state.png",
+      "html": "screen_2_empty-state.html"
+    },
+    {
+      "name": "Template detail",
+      "kind": "ITEM DETAIL",
+      "png": "screen_3_item-detail.png",
+      "html": "screen_3_item-detail.html"
+    },
+    {
+      "name": "Create project",
+      "kind": "CREATE FORM",
+      "png": "screen_4_create-form.png",
+      "html": "screen_4_create-form.html"
+    }
+  ]
+}

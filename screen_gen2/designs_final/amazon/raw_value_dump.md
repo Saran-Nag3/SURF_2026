@@ -1,0 +1,1165 @@
+---
+name: amazon-mobile-app-community
+source_file: Amazon Mobile App (Community)
+source_page: All pages (4): Poster, Amazon Workspace, Prototyping, Resources
+generated_at: 2026-07-25T09:20:04.057868+00:00
+---
+
+# Amazon Mobile App (Community) Design Guidelines
+
+## Source
+- Figma file: Amazon Mobile App (Community)
+- Figma page: All pages (4): Poster, Amazon Workspace, Prototyping, Resources
+- Extracted at: 2026-07-25T09:20:04.057868+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- pistachio green: [#D9E7CB]
+- #CDCDCD: [#CDCDCD]
+- #666666: [#CDCDCD]
+- 111: [#111111]
+- white: [#FFFFFF]
+- Light/Mono/Mine Shaft: [#333333]
+- Dark/Secondary/Malibu: [#7ABAFF]
+- Light/Secondary/Pacific: [#2B9FEE]
+- Dark/Primary/Danube: [#629FE0]
+- Light/Primary/Navy: [#0C5E96]
+- Dark/Mono/Rolling Stone: [#7C848C]
+- Dark/Primary/Regent: [#91B7DF]
+- Dark/Mono/Shark: [#1B1F21]
+- Dark/Mono/Cadet: [#AFBAC7]
+- Light/Mono/Dove Gray: [#737373]
+- Dark/Mono/Ghost: [#C7D0D9]
+- Dark/Mono/Grey Chateau: [#9BA5B0]
+- Light/Mono/Dull: [#888888]
+- Light/Mono/Gallery: [#EEEEEE]
+- Dark/Mono/Abbey: [#555B61]
+- Light/Mono/Silver: [#BBBBBB]
+- Ink Dark: [#171B1E]
+- #77B6EA: [#FFFFFF]
+- iOS/Keyboard Background: [#C5C9D0E5]
+- iOS/Key Label: [#000000]
+- iOS/Key Background Dim: [#AEB3BE]
+- iOS/Key Background Highlight: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 1017 uses
+- #111111: 803 uses
+- #DADADA: 504 uses
+- #D9E7CB: 81 uses
+- #BBBBBB: 67 uses
+- #000000: 66 uses
+- #333333: 28 uses
+- #CDCDCD: 28 uses
+- #404040: 14 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Medium, 14px: 917 uses
+- Roboto Regular, 14px: 742 uses
+- Roboto Regular, 16px: 260 uses
+- Roboto SemiBold, 16px: 233 uses
+- Roboto Medium, 20px: 87 uses
+- Roboto Medium, 16px: 82 uses
+- Poppins Medium, 20px: 77 uses
+- Roboto Regular, 23px: 52 uses
+- Roboto Regular, 12px: 21 uses
+- Roboto Medium, 8px: 15 uses
+
+## Typography Hierarchy
+- 23px - Roboto Regular, 23px (raw)
+- 20px - Poppins Medium, 20px (raw)
+- 20px - Roboto Medium, 20px (raw)
+- 16px - Roboto Medium, 16px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 16px - Roboto SemiBold, 16px (raw)
+- 14px - Roboto Medium, 14px (raw)
+- 14px - Roboto Regular, 14px (raw)
+- 12px - Roboto Regular, 12px (raw)
+- 8px - Roboto Medium, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- iOS/Background Blur: [background_blur 54px]
+
+## Grid Styles
+- iOS/Alphabet 20 Column: columns count 20, section 12.65px, gutter 6px, align stretch
+
+## Component Families
+- SliderBox
+- Small (Icon) Buttons (two states)
+- Back Bar
+- Top App Bar with Cart counter
+- Top App Bar
+- Top App Bar with brand name
+- Only Search Bar
+- target search
+- Black Button
+- White Button
+- Transparent Button
+- status bar
+
+## Component Specs
+- SliderBox: size 256x296px, fill #FFFFFF | variants: Property 1: Variant1/Variant2/Variant3/Variant4/Variant5
+- Small (Icon) Buttons (two states): size 12x12px, fill #FFFFFF | variants: Kind: Back arrow/Close mini/Close mini outline/Close outline/Close round/Close tag/Close-BIG/Close-BIG-Inverted/Close-small/Close-thick/Double arrow/Meatballs/Single arrow; Theme: Dark/Light; State: Default/Hover
+- Back Bar (Resources): size 375x64px, horizontal layout, padding 8 48 8 3px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Roboto Medium, 20px]
+- Small (Icon) Buttons (two states)/Close-thick/Light/Default: size 14x14px, fill #FFFFFF
+- Back Bar (Resources): size 375x64px, horizontal layout, padding 8 16 8 16px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF
+- Top App Bar with Cart counter: size 375x64px, horizontal layout, padding 8 0 8 0px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Roboto Medium, 8px, Roboto Regular, 14px]
+- Top App Bar: size 375x64px, horizontal layout, padding 8 0 8 0px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Roboto Regular, 14px]
+- Top App Bar with brand name: size 375x64px, horizontal layout, padding 8 0 8 0px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Open Sans Regular, 24px]
+- Only Search Bar: size 375x64px, horizontal layout, padding 8 0 8 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Roboto Regular, 14px]
+- target search: size 48x48px, radius 5px, fill #D9E7CB
+- Black Button: size 128x40px, radius 100px, horizontal layout, padding 8 24 8 24px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #111111, text [Roboto Medium, 20px]
+- White Button: size 128x40px, radius 100px, horizontal layout, padding 8 24 8 24px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #111111 2px, text [Roboto Medium, 20px]
+- Transparent Button: size 128x40px, radius 100px, horizontal layout, padding 8 24 8 24px, gap 0px, align center/center, sizing W:fixed H:fixed, stroke #111111 2px, text [Roboto Medium, 20px]
+- status bar: size 375x32px, horizontal layout, padding 8 16 8 16px, gap 175px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Roboto Regular, 14px]
+
+## Most-Used Styles
+- 111: 1508 uses
+- #666666: 950 uses
+- pistachio green: 511 uses
+- white: 488 uses
+- #CDCDCD: 250 uses
+- iOS/Key Label: 74 uses
+- #77B6EA: 56 uses
+- iOS/Key Background Highlight: 56 uses
+- Light/Primary/Navy: 11 uses
+- Light/Mono/Dull: 6 uses
+- Light/Mono/Mine Shaft: 6 uses
+- Light/Secondary/Pacific: 6 uses
+- iOS/Key Background Dim: 6 uses
+- Dark/Mono/Shark: 5 uses
+- Dark/Mono/Ghost: 4 uses
+- Dark/Secondary/Malibu: 4 uses
+- Dark/Mono/Grey Chateau: 3 uses
+- Dark/Mono/Rolling Stone: 3 uses
+- Dark/Primary/Regent: 3 uses
+- Ink Dark: 3 uses
+- Dark/Mono/Abbey: 2 uses
+- Dark/Primary/Danube: 2 uses
+- Light/Mono/Gallery: 2 uses
+- Light/Mono/Silver: 2 uses
+- iOS/Background Blur: 2 uses
+- iOS/Keyboard Background: 2 uses
+- Dark/Mono/Cadet: 1 use
+- Light/Mono/Dove Gray: 1 use
+
+## Layout & Structure
+Screen: Poster / Amazon
+- FRAME "Amazon", 1920x960px, constraints left/top, fill #000000
+  - FRAME "Inner Frame", 1600x640px, constraints center/center
+    - FRAME "Home", 425x856px, constraints center/center
+      - RECTANGLE "Rectangle", 419x856px, constraints left_right/top_bottom, radius 62px, fill #1A1A1A, stroke gradient_linear(#FFFFFF99 0% | #FFFFFF4D 100%) 1px, effect [inner_shadow 8px offset 0 0 #FFFFFFE5]
+      - RECTANGLE "Rectangle", 411x848px, constraints left_right/top_bottom, radius 58px, fill #000000
+      - RECTANGLE "Rectangle", 3x30px, constraints left/top, radius 1/0/0/1px, fill #333333, effect [inner_shadow 2px offset 1 0 #FFFFFF80]
+      - RECTANGLE "Rectangle", 3x62px, constraints left/top, radius 1/0/0/1px, fill #333333, effect [inner_shadow 2px offset 1 0 #FFFFFF80]
+      - RECTANGLE "Rectangle", 3x62px, constraints left/top, radius 1/0/0/1px, fill #333333, effect [inner_shadow 2px offset 1 0 #FFFFFF80]
+      - RECTANGLE "Rectangle", 3x100px, constraints right/top, radius 0/1/1/0px, fill #333333, effect [inner_shadow 2px offset -1 0 #FFFFFF80]
+      - FRAME "Home", 375x812px, constraints left_right/top_bottom, radius 40px, fill #FFFFFF
+        - FRAME "Big Banners", 375x181.12px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints center/top [decorative, ~8 shapes]
+        - FRAME "Discount", 343x80px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Product colors", 343x80px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 12", 80x80px, constraints left/top
+            - GROUP "Group 13", 80x80px, constraints left/top
+            - GROUP "Group 14", 80x80px, constraints left/top
+            - GROUP "Group 15", 80x80px, constraints left/top
+            - GROUP "Group 16", 80x80px, constraints left/top
+            - GROUP "Group 17", 80x80px, constraints left/top
+            - GROUP "Group 18", 80x80px, constraints left/top
+        - RECTANGLE "Rectangle 10", 375x8px, constraints center/top, fill #CDCDCD
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 20px]
+        - FRAME "Category List", 344x1140px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Frame 10", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 11", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 12", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 13", 344x228px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x228px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x228px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Small Banners", 375x67.31px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints center/top [decorative, ~4 shapes]
+        - RECTANGLE "Rectangle 11", 375x8px, constraints center/top, fill #CDCDCD
+        - RECTANGLE "Rectangle 13", 375x8px, constraints center/top, fill #CDCDCD
+        - RECTANGLE "Rectangle 14", 375x8px, constraints center/top, fill #CDCDCD
+        - RECTANGLE "Rectangle 12", 375x8px, constraints center/top, fill #CDCDCD
+        - FRAME "Discount", 375x80px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Product colors", 343x80px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 12", 80x80px, constraints left/top
+            - GROUP "Group 13", 80x80px, constraints left/top
+            - GROUP "Group 14", 80x80px, constraints left/top
+            - GROUP "Group 15", 80x80px, constraints left/top
+            - GROUP "Group 16", 80x80px, constraints left/top
+            - GROUP "Group 17", 80x80px, constraints left/top
+            - GROUP "Group 18", 80x80px, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 20px]
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 20px]
+        - FRAME "Sub Category List", 344x1124px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints center/top
+          - FRAME "Frame 10", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 11", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 12", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 13", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Product two in a row", 344x1328px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints center/top, fill white
+          - FRAME "two in a row card", 344x432px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+          - FRAME "two in a row card", 344x432px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+          - FRAME "two in a row card", 344x432px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - INSTANCE "Only Search Bar", 375x64px, horizontal pad 8 0 8 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+          - FRAME "Search Bar", 343x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #CDCDCD 1px
+            - FRAME "placeholder text", 203x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+        - INSTANCE "Top App Bar with brand name", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+          - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+            - FRAME "menu icon", 24x24px, constraints center/center
+          - FRAME "brand", 263x33px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "app name", 90x33px, constraints left/top, fill #111111, text [Open Sans Regular, 24px], [heading]
+          - FRAME "target cart", 48x48px, constraints left/top, fill #FFFFFF
+            - FRAME "cart icon", 24x24px, constraints center/center
+        - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+          - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+    - FRAME "Product Detail", 425x856px, constraints center/center
+      - RECTANGLE "Rectangle", 419x856px, constraints left_right/top_bottom, radius 62px, fill #1A1A1A, stroke gradient_linear(#FFFFFF99 0% | #FFFFFF4D 100%) 1px, effect [inner_shadow 8px offset 0 0 #FFFFFFE5]
+      - RECTANGLE "Rectangle", 411x848px, constraints left_right/top_bottom, radius 58px, fill #000000
+      - RECTANGLE "Rectangle", 3x30px, constraints left/top, radius 1/0/0/1px, fill #333333, effect [inner_shadow 2px offset 1 0 #FFFFFF80]
+      - RECTANGLE "Rectangle", 3x62px, constraints left/top, radius 1/0/0/1px, fill #333333, effect [inner_shadow 2px offset 1 0 #FFFFFF80]
+      - RECTANGLE "Rectangle", 3x62px, constraints left/top, radius 1/0/0/1px, fill #333333, effect [inner_shadow 2px offset 1 0 #FFFFFF80]
+      - RECTANGLE "Rectangle", 3x100px, constraints right/top, radius 0/1/1/0px, fill #333333, effect [inner_shadow 2px offset -1 0 #FFFFFF80]
+      - FRAME "Product Detail", 375x812px, constraints left_right/top_bottom, radius 40px, fill #FFFFFF
+        - FRAME "Image Box", 375x494px, constraints left/top, fill pistachio green [decorative, ~6 shapes]
+        - FRAME "Product Detail Card", 375x912px, constraints left/top, radius 30/30/0/0px, fill #FFFFFF
+          - FRAME "Details", 375x877px, vertical pad 32 16 32 16px gap 16px align center/min sizing W:fixed H:fixed, constraints center/top
+            - FRAME "Price and Discount", 343x32px, horizontal pad 0 0 0 0px gap 61px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Product Name", 343x38px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Color Box", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Size Chart", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Description Box", 343x206px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Related products", 343x315px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Black Button", 150x40.97px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fixed H:fixed, constraints center/top, radius 100px, fill #111111
+          - TEXT "Log In", 102x23px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 20px]
+        - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+          - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+        - INSTANCE "Top App Bar", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+          - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+            - FRAME "menu icon", 24x24px, constraints center/center
+          - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #77B6EA 1px
+            - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+          - FRAME "target cart", 48x48px, constraints left/top, fill #FFFFFF
+            - FRAME "cart icon", 24x24px, constraints center/center
+        - INSTANCE "Back Bar", 375x64px, horizontal pad 8 48 8 3px gap 0px align center/center sizing W:fixed H:fixed, constraints center/top, fill pistachio green
+          - FRAME "backArrow", 48x48px, constraints left/top, fill pistachio green
+            - FRAME "bi:arrow-left", 24x24px, constraints center/center
+          - FRAME "target back arrow", 276x19px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill pistachio green
+            - TEXT "Cart", 276x19px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+    - FRAME "Product list two", 425x856px, constraints center/center
+      - RECTANGLE "Rectangle", 419x856px, constraints left_right/top_bottom, radius 62px, fill #1A1A1A, stroke gradient_linear(#FFFFFF99 0% | #FFFFFF4D 100%) 1px, effect [inner_shadow 8px offset 0 0 #FFFFFFE5]
+      - RECTANGLE "Rectangle", 411x848px, constraints left_right/top_bottom, radius 58px, fill #000000
+      - RECTANGLE "Rectangle", 3x30px, constraints left/top, radius 1/0/0/1px, fill #333333, effect [inner_shadow 2px offset 1 0 #FFFFFF80]
+      - RECTANGLE "Rectangle", 3x62px, constraints left/top, radius 1/0/0/1px, fill #333333, effect [inner_shadow 2px offset 1 0 #FFFFFF80]
+      - RECTANGLE "Rectangle", 3x62px, constraints left/top, radius 1/0/0/1px, fill #333333, effect [inner_shadow 2px offset 1 0 #FFFFFF80]
+      - RECTANGLE "Rectangle", 3x100px, constraints right/top, radius 0/1/1/0px, fill #333333, effect [inner_shadow 2px offset -1 0 #FFFFFF80]
+      - FRAME "Product list two", 375x812px, constraints left_right/top_bottom, radius 40px, fill #FFFFFF
+        - FRAME "Product two in a row", 344x1328px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill white
+          - FRAME "two in a row card", 344x432px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+          - FRAME "two in a row card", 344x432px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+          - FRAME "two in a row card", 344x432px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+          - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+        - INSTANCE "Top App Bar", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+          - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+            - FRAME "menu icon", 24x24px, constraints center/center
+          - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #77B6EA 1px
+            - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+          - FRAME "target cart", 48x48px, constraints left/top, fill #FFFFFF
+            - FRAME "cart icon", 24x24px, constraints center/center
+
+Screen: Amazon Workspace / Search Key Double
+- FRAME "Search Key Double", 375x1532px, constraints left/top, fill #FFFFFF
+  - FRAME "Product two in a row", 344x1328px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints center/top, fill white
+    - FRAME "two in a row card", 344x432px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+          - RECTANGLE "Image Box", 132x132px, constraints left/top, fill image(hash: ce3b393879f35767b872d11c63e8776a8ebcc12d)
+        - FRAME "Detail Frame", 164x268px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Description", 132x188px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fill H:fixed, constraints center/center
+            - TEXT "Product name", 132x57px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+            - FRAME "price and cut price", 92x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50% off", 48x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Get it by Tomorrow, May 26", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Free Delivery Available", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+          - INSTANCE "Black Button", 132x32px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #111111
+            - TEXT "Log In", 84x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+      - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+          - RECTANGLE "Image Box", 132x132px, constraints left/top, fill image(hash: a527a9a1295fa53678c2fff254cbfd67608f6a8f)
+        - FRAME "Detail Frame", 164x268px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Description", 132x188px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fill H:fixed, constraints center/center
+            - TEXT "Product name", 132x57px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+            - FRAME "price and cut price", 105x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50% off", 48x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Get it by Tomorrow, May 26", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Free Delivery Available", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+          - INSTANCE "Black Button", 132x32px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #111111
+            - TEXT "Log In", 84x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+    - FRAME "two in a row card", 344x432px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+          - RECTANGLE "Image Box", 132x132px, constraints left/top, fill image(hash: 3a343e857883af53a12109c3c9192bc588501618)
+        - FRAME "Detail Frame", 164x268px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Description", 132x188px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fill H:fixed, constraints center/center
+            - TEXT "Product name", 132x57px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+            - FRAME "price and cut price", 92x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50% off", 48x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Get it by Tomorrow, May 26", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Free Delivery Available", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+          - INSTANCE "Black Button", 132x32px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #111111
+            - TEXT "Log In", 84x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+      - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+          - RECTANGLE "Image Box", 132x132px, constraints left/top, fill image(hash: 57515623dc1077a478b5c10392aea569de4b974b)
+        - FRAME "Detail Frame", 164x268px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Description", 132x188px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fill H:fixed, constraints center/center
+            - TEXT "Product name", 132x57px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+            - FRAME "price and cut price", 92x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50% off", 48x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Get it by Tomorrow, May 26", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Free Delivery Available", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+          - INSTANCE "Black Button", 132x32px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #111111
+            - TEXT "Log In", 84x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+    - FRAME "two in a row card", 344x432px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+          - RECTANGLE "Image Box", 132x132px, constraints left/top, fill image(hash: 288aec7319e4f34fe1030d375e6671777a1e3ae1)
+        - FRAME "Detail Frame", 164x268px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Description", 132x188px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fill H:fixed, constraints center/center
+            - TEXT "Product name", 132x57px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+            - FRAME "price and cut price", 92x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50% off", 48x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Get it by Tomorrow, May 26", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Free Delivery Available", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+          - INSTANCE "Black Button", 132x32px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #111111
+            - TEXT "Log In", 84x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+      - FRAME "Product Card", 164x432px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+        - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+          - RECTANGLE "Image Box", 132x132px, constraints left/top, fill image(hash: 60ec2005559a6fce7b7aaca59359377964a912bf)
+        - FRAME "Detail Frame", 164x268px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Description", 132x188px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fill H:fixed, constraints center/center
+            - TEXT "Product name", 132x57px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+            - FRAME "price and cut price", 105x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "50% off", 48x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Get it by Tomorrow, May 26", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+            - TEXT "Free Delivery Available", 132x32px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+          - INSTANCE "Black Button", 132x32px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 100px, fill #111111
+            - TEXT "Log In", 84x16px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 14px]
+  - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+    - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - INSTANCE "Top App Bar", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "menu icon", 24x24px, constraints center/center
+        - VECTOR "Vector", 13.72x9.14px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #77B6EA 1px
+      - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 32x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+      - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+        - FRAME "search icon", 24x24px, constraints center/center
+          - GROUP "Group", 16.08x16px, constraints scale/scale
+            - VECTOR "Vector", 11.43x11.43px, constraints scale/scale, stroke #111111 1.5px
+            - VECTOR "Vector", 6.37x6.29px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "target cart", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "cart icon", 24x24px, constraints center/center
+        - GROUP "Group", 17.14x14.29px, constraints scale/scale
+          - VECTOR "Vector", 17.14x10.29px, constraints scale/scale, stroke #111111 1.5px
+          - GROUP "Group", 11.43x2.29px, constraints scale/scale
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+
+Screen: Amazon Workspace / Specific Category
+- FRAME "Specific Category", 375x1473px, constraints left/top, fill #FFFFFF
+  - FRAME "Brand Name", 375x131px, vertical pad 0 16 0 16px gap 32px align center/min sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 20px]
+    - FRAME "Product colors", 343x80px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~10 shapes]
+  - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 20px]
+  - FRAME "Big Banners", 375x181.12px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints center/top [decorative, ~8 shapes]
+  - FRAME "Small Banners", 375x67.31px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints center/top [decorative, ~4 shapes]
+  - RECTANGLE "Rectangle 9", 375x8px, constraints center/top, fill #CDCDCD
+  - RECTANGLE "Rectangle 10", 375x8px, constraints center/top, fill #CDCDCD
+  - FRAME "Sub Category List", 344x668px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints center/top
+    - FRAME "Frame 10", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 888a30715392d34510457604b5278a5907de125d), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Boy’s Clothing", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 54631c0827f97f53e2aca63a8fd22763a40f643d), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Girl’s Clothing", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 11", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 816e0b874d8e38ae48d68a2d6b4162a641b86e47), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Baby Clothing", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 105c3d7c70f908d688483020bee4f000992fa0b8), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Footwear", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 12", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 1d6bf202ce7d2137e6721ff8b7bd9bcc80512266), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Watches", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 9fc5c383c2c6273b0c3c49647cf045f68feb2dd7), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Backpacks", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+  - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+    - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - INSTANCE "Top App Bar", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "menu icon", 24x24px, constraints center/center
+        - VECTOR "Vector", 13.72x9.14px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #77B6EA 1px
+      - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 83x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+      - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+        - FRAME "search icon", 24x24px, constraints center/center
+          - GROUP "Group", 16.08x16px, constraints scale/scale
+            - VECTOR "Vector", 11.43x11.43px, constraints scale/scale, stroke #111111 1.5px
+            - VECTOR "Vector", 6.37x6.29px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "target cart", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "cart icon", 24x24px, constraints center/center
+        - GROUP "Group", 17.14x14.29px, constraints scale/scale
+          - VECTOR "Vector", 17.14x10.29px, constraints scale/scale, stroke #111111 1.5px
+          - GROUP "Group", 11.43x2.29px, constraints scale/scale
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+
+Screen: Amazon Workspace / General Product Category
+- FRAME "General Product Category", 375x3025px, constraints left/top, fill #FFFFFF
+  - TEXT "Shop by Category", 158x23px, constraints center/top, fill 111, text [Roboto Medium, 20px]
+  - FRAME "Category List", 344x2768px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints center/top
+    - FRAME "Frame 10", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 888a30715392d34510457604b5278a5907de125d), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Women’s Fashion", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 54631c0827f97f53e2aca63a8fd22763a40f643d), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Men’s Fashion", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 11", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 816e0b874d8e38ae48d68a2d6b4162a641b86e47), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "kid’s Fashion", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 105c3d7c70f908d688483020bee4f000992fa0b8), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Beauty & Luxury", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 12", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 1d6bf202ce7d2137e6721ff8b7bd9bcc80512266), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Home & kitchen", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 9fc5c383c2c6273b0c3c49647cf045f68feb2dd7), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Grocery & Gourmet", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 13", 344x228px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x228px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 6033448ad015c8a2e5061ed4f29d620e0fd41aa5), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x64px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Personal health, gromming & wellness", 164x32px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x228px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 28944607e0b68caf5e4b6d3c759ae180f5450c97), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x64px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Bags, Wallets & Luggage", 164x32px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 14", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 2c0213679a121ace69c84c74b0f2b0d59f04c4e2), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Health & Household", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 5e423558c65aa23d5f745e9f755b380364d596b7), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Toys & Games", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 15", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: 9dcb7df3b6e42e15345e1d51fac9852a987eccfd), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Baby Products", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill image(hash: d738d3bbf6670f8923a9e8a6d24076aaa637c18b), effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Pet Supplies", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 16", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Sports & Fitness", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Furniture", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 17", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Home & Electronics", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Daily Essentials", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 18", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Car, Motorbike", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "TVs, Appliances", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 19", 344x228px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x228px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x64px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Industrial & Scientific Supplies", 164x32px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x228px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x64px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Computers & Accessories", 164x32px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 20", 344x228px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x228px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x64px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Electronics & Accessories", 164x32px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x228px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x64px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Mobiles & Accessories", 164x32px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "Frame 21", 344x212px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Books", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Category Card", 164x212px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Image", 164x164px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+        - FRAME "Category", 164x48px, horizontal pad 16 0 16 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/20/20px, fill white, effect [drop_shadow 4px offset 0 4 #00000040]
+          - TEXT "Video Games", 164x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+  - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+    - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - INSTANCE "Top App Bar", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "menu icon", 24x24px, constraints center/center
+        - VECTOR "Vector", 13.72x9.14px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #77B6EA 1px
+      - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 43x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+      - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+        - FRAME "search icon", 24x24px, constraints center/center
+          - GROUP "Group", 16.08x16px, constraints scale/scale
+            - VECTOR "Vector", 11.43x11.43px, constraints scale/scale, stroke #111111 1.5px
+            - VECTOR "Vector", 6.37x6.29px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "target cart", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "cart icon", 24x24px, constraints center/center
+        - GROUP "Group", 17.14x14.29px, constraints scale/scale
+          - VECTOR "Vector", 17.14x10.29px, constraints scale/scale, stroke #111111 1.5px
+          - GROUP "Group", 11.43x2.29px, constraints scale/scale
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+
+Screen: Amazon Workspace / Product Detail
+- FRAME "Product Detail", 375x1482px, constraints left/top, fill #FFFFFF
+  - FRAME "Image Box", 375x494px, constraints left/top, fill pistachio green [decorative, ~6 shapes]
+  - FRAME "Product Detail Card", 375x912px, constraints left/top, radius 30/30/0/0px, fill #FFFFFF
+    - FRAME "Details", 375x877px, vertical pad 32 16 32 16px gap 16px align center/min sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Price and Discount", 343x32px, horizontal pad 0 0 0 0px gap 61px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "price and cut price", 202x21px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "₹998", 41x21px, constraints left/top, fill 111, text [Roboto SemiBold, 18px]
+          - TEXT "₹2,495", 48x19px, constraints left/top, fill #666666, text [Roboto Regular, 16px]
+        - INSTANCE "Black Button", 80x32px, horizontal pad 8 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill pistachio green
+          - TEXT "Log In", 80x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Product Name", 343x38px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Product name", 343x38px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Color Box", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Product colors", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~11 shapes]
+      - FRAME "Size Chart", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Sizes", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 2", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill 111
+            - TEXT "Product name", 16x19px, constraints left/top, fill white, text [Roboto Medium, 14px]
+          - GROUP "Group 3", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 4", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 5", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 6", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 7", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 8", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 9", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 10", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 11", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Description Box", 343x206px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Desc Title", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - TEXT "Product description", 343x171px, constraints left/top, fill 111, text [Roboto Regular, 14px]
+      - FRAME "Related products", 343x315px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Related products", 122x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - FRAME "Related Products", 343x280px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+  - INSTANCE "Black Button", 150x40.97px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fixed H:fixed, constraints center/scale, radius 100px, fill #111111
+    - TEXT "Log In", 102x23px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 20px]
+  - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+    - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - INSTANCE "Top App Bar", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "menu icon", 24x24px, constraints center/center
+        - VECTOR "Vector", 13.72x9.14px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #77B6EA 1px
+      - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 43x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+      - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+        - FRAME "search icon", 24x24px, constraints center/center
+          - GROUP "Group", 16.08x16px, constraints scale/scale
+            - VECTOR "Vector", 11.43x11.43px, constraints scale/scale, stroke #111111 1.5px
+            - VECTOR "Vector", 6.37x6.29px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "target cart", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "cart icon", 24x24px, constraints center/center
+        - GROUP "Group", 17.14x14.29px, constraints scale/scale
+          - VECTOR "Vector", 17.14x10.29px, constraints scale/scale, stroke #111111 1.5px
+          - GROUP "Group", 11.43x2.29px, constraints scale/scale
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+  - INSTANCE "Back Bar", 375x64px, horizontal pad 8 48 8 3px gap 0px align center/center sizing W:fixed H:fixed, constraints center/top, fill pistachio green
+    - FRAME "backArrow", 48x48px, constraints left/top, fill pistachio green
+      - FRAME "bi:arrow-left", 24x24px, constraints center/center
+        - VECTOR "Vector", 21x13.5px, constraints scale/scale, fill #111111
+    - FRAME "target back arrow", 276x19px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill pistachio green
+      - TEXT "Cart", 276x19px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+
+Screen: Amazon Workspace / First Message
+- FRAME "First Message", 375x1482px, constraints left/top, fill #FFFFFF
+  - FRAME "Image Box", 375x494px, constraints left/top, fill pistachio green [decorative, ~6 shapes]
+  - INSTANCE "Back Bar", 375x64px, horizontal pad 8 0 8 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill pistachio green
+    - FRAME "target back arrow", 375x48px, horizontal pad 12 16 12 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill pistachio green
+      - FRAME "bi:arrow-left", 24x24px, constraints center/center
+        - VECTOR "Vector", 21x13.5px, constraints scale/scale, fill #111111
+  - FRAME "Product Detail Card", 375x912px, constraints left/top, radius 30/30/0/0px, fill #FFFFFF
+    - FRAME "Details", 375x877px, vertical pad 32 16 32 16px gap 16px align center/min sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Price and Discount", 343x32px, horizontal pad 0 0 0 0px gap 61px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "price and cut price", 202x21px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "₹998", 41x21px, constraints left/top, fill 111, text [Roboto SemiBold, 18px]
+          - TEXT "₹2,495", 48x19px, constraints left/top, fill #666666, text [Roboto Regular, 16px]
+        - INSTANCE "Black Button", 80x32px, horizontal pad 8 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill pistachio green
+          - TEXT "Log In", 80x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Product Name", 343x38px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Product name", 232x38px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Color Box", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Product colors", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~11 shapes]
+      - FRAME "Size Chart", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Sizes", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 2", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill 111
+            - TEXT "Product name", 16x19px, constraints left/top, fill white, text [Roboto Medium, 14px]
+          - GROUP "Group 3", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 4", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 5", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 6", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 7", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 8", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 9", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 10", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 11", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Description Box", 343x206px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Desc Title", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - TEXT "Product description", 343x171px, constraints left/top, fill 111, text [Roboto Regular, 14px]
+      - FRAME "Related products", 343x315px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Related products", 122x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - FRAME "Related Products", 343x280px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+  - INSTANCE "Black Button", 150x40.97px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fixed H:fixed, constraints center/scale, radius 100px, fill #111111
+    - TEXT "Log In", 102x23px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 20px]
+  - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+    - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - INSTANCE "Top App Bar", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "menu icon", 24x24px, constraints center/center
+        - VECTOR "Vector", 13.72x9.14px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #CDCDCD 1px
+      - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 43x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+      - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+        - FRAME "search icon", 24x24px, constraints center/center
+          - GROUP "Group", 16.08x16px, constraints scale/scale
+            - VECTOR "Vector", 11.43x11.43px, constraints scale/scale, stroke #111111 1.5px
+            - VECTOR "Vector", 6.37x6.29px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "target cart", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "cart icon", 24x24px, constraints center/center
+        - GROUP "Group", 17.14x14.29px, constraints scale/scale
+          - VECTOR "Vector", 17.14x10.29px, constraints scale/scale, stroke #111111 1.5px
+          - GROUP "Group", 11.43x2.29px, constraints scale/scale
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+  - FRAME "gray screen", 375x1482px, constraints center/center, fill #00000080
+    - FRAME "Message Chip", 193x40px, horizontal pad 8 24 8 16px gap 8px align center/center sizing W:fixed H:fixed, constraints center/center, radius 10px, fill 111
+      - FRAME "check", 24x24px, constraints left/top
+        - VECTOR "Vector", 17.5x13.41px, constraints scale/scale, fill white
+      - TEXT "Added to cart", 121x23px, constraints left/top, fill white, text [Roboto Medium, 20px]
+
+Screen: Amazon Workspace / Second Message
+- FRAME "Second Message", 375x1482px, constraints left/top, fill #FFFFFF
+  - FRAME "Image Box", 375x494px, constraints left/top, fill pistachio green [decorative, ~6 shapes]
+  - INSTANCE "Back Bar", 375x64px, horizontal pad 8 0 8 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill pistachio green
+    - FRAME "target back arrow", 375x48px, horizontal pad 12 16 12 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill pistachio green
+      - FRAME "bi:arrow-left", 24x24px, constraints center/center
+        - VECTOR "Vector", 21x13.5px, constraints scale/scale, fill #111111
+  - FRAME "Product Detail Card", 375x912px, constraints left/top, radius 30/30/0/0px, fill #FFFFFF
+    - FRAME "Details", 375x877px, vertical pad 32 16 32 16px gap 16px align center/min sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Price and Discount", 343x32px, horizontal pad 0 0 0 0px gap 61px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "price and cut price", 202x21px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "₹998", 41x21px, constraints left/top, fill 111, text [Roboto SemiBold, 18px]
+          - TEXT "₹2,495", 48x19px, constraints left/top, fill #666666, text [Roboto Regular, 16px]
+        - INSTANCE "Black Button", 80x32px, horizontal pad 8 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill pistachio green
+          - TEXT "Log In", 80x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Product Name", 343x38px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Product name", 232x38px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Color Box", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Product colors", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~11 shapes]
+      - FRAME "Size Chart", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Sizes", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 2", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill 111
+            - TEXT "Product name", 16x19px, constraints left/top, fill white, text [Roboto Medium, 14px]
+          - GROUP "Group 3", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 4", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 5", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 6", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 7", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 8", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 9", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 10", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 11", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Description Box", 343x206px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Desc Title", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - TEXT "Product description", 343x171px, constraints left/top, fill 111, text [Roboto Regular, 14px]
+      - FRAME "Related products", 343x315px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Related products", 122x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - FRAME "Related Products", 343x280px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+  - INSTANCE "Black Button", 150x40.97px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fixed H:fixed, constraints center/scale, radius 100px, fill #111111
+    - TEXT "Log In", 102x23px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 20px]
+  - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+    - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - INSTANCE "Top App Bar", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "menu icon", 24x24px, constraints center/center
+        - VECTOR "Vector", 13.72x9.14px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #CDCDCD 1px
+      - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 43x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+      - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+        - FRAME "search icon", 24x24px, constraints center/center
+          - GROUP "Group", 16.08x16px, constraints scale/scale
+            - VECTOR "Vector", 11.43x11.43px, constraints scale/scale, stroke #111111 1.5px
+            - VECTOR "Vector", 6.37x6.29px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "target cart", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "cart icon", 24x24px, constraints center/center
+        - GROUP "Group", 17.14x14.29px, constraints scale/scale
+          - VECTOR "Vector", 17.14x10.29px, constraints scale/scale, stroke #111111 1.5px
+          - GROUP "Group", 11.43x2.29px, constraints scale/scale
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+  - FRAME "gray screen", 375x1482px, constraints center/center, fill #00000080
+    - FRAME "Message Chip", 193x40px, horizontal pad 8 24 8 16px gap 8px align center/center sizing W:fixed H:fixed, constraints center/center, radius 10px, fill 111
+      - FRAME "check", 24x24px, constraints left/top
+        - VECTOR "Vector", 17.5x13.41px, constraints scale/scale, fill white
+      - TEXT "Added to cart", 121x23px, constraints left/top, fill white, text [Roboto Medium, 20px]
+
+Screen: Amazon Workspace / First Product Added
+- FRAME "First Product Added", 375x1482px, constraints left/top, fill #FFFFFF
+  - FRAME "Image Box", 375x494px, constraints left/top, fill pistachio green [decorative, ~6 shapes]
+  - FRAME "Product Detail Card", 375x912px, constraints left/top, radius 30/30/0/0px, fill #FFFFFF
+    - FRAME "Details", 375x877px, vertical pad 32 16 32 16px gap 16px align center/min sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Price and Discount", 343x32px, horizontal pad 0 0 0 0px gap 61px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "price and cut price", 202x21px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "₹998", 41x21px, constraints left/top, fill 111, text [Roboto SemiBold, 18px]
+          - TEXT "₹2,495", 48x19px, constraints left/top, fill #666666, text [Roboto Regular, 16px]
+        - INSTANCE "Black Button", 80x32px, horizontal pad 8 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill pistachio green
+          - TEXT "Log In", 80x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Product Name", 343x38px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Product name", 232x38px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Color Box", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Product colors", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~11 shapes]
+      - FRAME "Size Chart", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Sizes", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 2", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill 111
+            - TEXT "Product name", 16x19px, constraints left/top, fill white, text [Roboto Medium, 14px]
+          - GROUP "Group 3", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 4", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 5", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 6", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 7", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 8", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 9", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 10", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 11", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Description Box", 343x206px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Desc Title", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - TEXT "Product description", 343x171px, constraints left/top, fill 111, text [Roboto Regular, 14px]
+      - FRAME "Related products", 343x315px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Related products", 122x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - FRAME "Related Products", 343x280px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+  - INSTANCE "Black Button", 150x40.97px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fixed H:fixed, constraints center/scale, radius 100px, fill #111111
+    - TEXT "Log In", 102x23px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 20px]
+  - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+    - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - INSTANCE "Top App Bar with Cart counter", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "menu icon", 24x24px, constraints center/center
+        - VECTOR "Vector", 13.72x9.14px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #CDCDCD 1px
+      - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 43x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+      - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+        - FRAME "search icon", 24x24px, constraints center/center
+          - GROUP "Group", 16.08x16px, constraints scale/scale
+            - VECTOR "Vector", 11.43x11.43px, constraints scale/scale, stroke #111111 1.5px
+            - VECTOR "Vector", 6.37x6.29px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "cart counter", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "cart counter", 24x24px, constraints center/center
+        - GROUP "Group", 17.14x14.29px, constraints scale/scale
+          - VECTOR "Vector", 17.14x10.29px, constraints scale/scale, stroke #111111 1.5px
+          - GROUP "Group", 11.43x2.29px, constraints scale/scale
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+        - FRAME "counter", 12x12px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 11", 12x12px, constraints scale/scale, fill #111111
+          - TEXT "1", 5x9px, constraints scale/scale, fill #FFFFFF, text [Roboto Medium, 8px]
+  - INSTANCE "Back Bar", 375x64px, horizontal pad 8 48 8 3px gap 0px align center/center sizing W:fixed H:fixed, constraints center/top, fill pistachio green
+    - FRAME "backArrow", 48x48px, constraints left/top, fill pistachio green
+      - FRAME "bi:arrow-left", 24x24px, constraints center/center
+        - VECTOR "Vector", 21x13.5px, constraints scale/scale, fill #111111
+    - FRAME "target back arrow", 276x19px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill pistachio green
+      - TEXT "Cart", 276x19px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+
+Screen: Amazon Workspace / Second Product Added
+- FRAME "Second Product Added", 375x1482px, constraints left/top, fill #FFFFFF
+  - FRAME "Image Box", 375x494px, constraints left/top, fill pistachio green [decorative, ~6 shapes]
+  - FRAME "Product Detail Card", 375x912px, constraints left/top, radius 30/30/0/0px, fill #FFFFFF
+    - FRAME "Details", 375x877px, vertical pad 32 16 32 16px gap 16px align center/min sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Price and Discount", 343x32px, horizontal pad 0 0 0 0px gap 61px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "price and cut price", 202x21px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "₹998", 41x21px, constraints left/top, fill 111, text [Roboto SemiBold, 18px]
+          - TEXT "₹2,495", 48x19px, constraints left/top, fill #666666, text [Roboto Regular, 16px]
+        - INSTANCE "Black Button", 80x32px, horizontal pad 8 0 8 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill pistachio green
+          - TEXT "Log In", 80x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Product Name", 343x38px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Product name", 232x38px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+      - FRAME "Color Box", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Product colors", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~11 shapes]
+      - FRAME "Size Chart", 343x71px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Product name", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - FRAME "Sizes", 343x36px, horizontal pad 0 16 0 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 2", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill 111
+            - TEXT "Product name", 16x19px, constraints left/top, fill white, text [Roboto Medium, 14px]
+          - GROUP "Group 3", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 4", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 5", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 6", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 7", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 8", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 9", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 10", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+          - GROUP "Group 11", 36x36px, constraints left/top, radius 5px
+            - RECTANGLE "Rectangle 7", 36x36px, constraints left/top, radius 5px, fill white, stroke 111 1px
+            - TEXT "Product name", 16x19px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+      - FRAME "Description Box", 343x206px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Desc Title", 343x19px, constraints left/top, fill 111, text [Roboto Medium, 16px]
+        - TEXT "Product description", 343x171px, constraints left/top, fill 111, text [Roboto Regular, 14px]
+      - FRAME "Related products", 343x315px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Related products", 122x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+        - FRAME "Related Products", 343x280px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+          - FRAME "Product Card", 164x280px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center
+            - FRAME "Image Frame", 164x164px, vertical pad 61 16 61 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 5/5/0/0px, fill pistachio green
+            - FRAME "Detail Frame", 164x116px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/0/5/5px, fill #FFFFFF, stroke pistachio green 1px
+  - INSTANCE "Black Button", 150x40.97px, horizontal pad 8 24 8 24px gap 0px align center/center sizing W:fixed H:fixed, constraints center/scale, radius 100px, fill #111111
+    - TEXT "Log In", 102x23px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 20px]
+  - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill white
+    - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - INSTANCE "Top App Bar with Cart counter", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "menu icon", 24x24px, constraints center/center
+        - VECTOR "Vector", 13.72x9.14px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #CDCDCD 1px
+      - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 43x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+      - FRAME "target search", 48x48px, horizontal pad 12 12 12 12px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top, radius 0/5/5/0px, fill #D9E7CB
+        - FRAME "search icon", 24x24px, constraints center/center
+          - GROUP "Group", 16.08x16px, constraints scale/scale
+            - VECTOR "Vector", 11.43x11.43px, constraints scale/scale, stroke #111111 1.5px
+            - VECTOR "Vector", 6.37x6.29px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "cart counter", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "cart counter", 24x24px, constraints center/center
+        - GROUP "Group", 17.14x14.29px, constraints scale/scale
+          - VECTOR "Vector", 17.14x10.29px, constraints scale/scale, stroke #111111 1.5px
+          - GROUP "Group", 11.43x2.29px, constraints scale/scale
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+            - VECTOR "Vector", 2.29x2.29px, constraints scale/scale, fill #111111
+        - FRAME "counter", 12x12px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 11", 12x12px, constraints scale/scale, fill #111111
+          - TEXT "1", 5x9px, constraints scale/scale, fill #FFFFFF, text [Roboto Medium, 8px]
+  - INSTANCE "Back Bar", 375x64px, horizontal pad 8 48 8 3px gap 0px align center/center sizing W:fixed H:fixed, constraints center/top, fill pistachio green
+    - FRAME "backArrow", 48x48px, constraints left/top, fill pistachio green
+      - FRAME "bi:arrow-left", 24x24px, constraints center/center
+        - VECTOR "Vector", 21x13.5px, constraints scale/scale, fill #111111
+    - FRAME "target back arrow", 276x19px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill pistachio green
+      - TEXT "Cart", 276x19px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+
+Screen: Amazon Workspace / ImgNormalZoom 1
+- FRAME "ImgNormalZoom 1", 375x812px, constraints left/top, fill #FFFFFF
+  - FRAME "Multiple Images", 375x100px, constraints left/top, fill #FFFFFF, stroke #CDCDCD 2px [decorative, ~5 shapes]
+  - RECTANGLE "ImageBox", 343x343px, constraints center/top, fill image(hash: ce3b393879f35767b872d11c63e8776a8ebcc12d)
+  - INSTANCE "status bar", 375x48px, horizontal pad 16 16 16 16px gap 175px align space_between/center sizing W:fixed H:fixed, constraints center/center, fill white
+    - FRAME "time", 84x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "time", 28x16px, constraints left/top, fill 111, text [Roboto Medium, 14px]
+    - FRAME "notification icons", 84x11.33px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top [decorative, ~12 shapes]
+  - INSTANCE "Top App Bar", 375x64px, horizontal pad 8 0 8 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+    - FRAME "target menu", 48x48px, constraints left/top, fill #FFFFFF
+      - FRAME "menu icon", 24x24px, constraints center/center
+        - VECTOR "Vector", 13.72x9.14px, constraints scale/scale, stroke #111111 1.5px
+    - FRAME "Search Bar", 263x48px, horizontal pad 0 0 0 0px gap 92px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #77B6EA 1px
+      - FRAME "placeholder text", 123x16px, horizontal pad 0 16 0 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 43x16px, constraints left/top, fill #666666, text [Roboto Regular, 14px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

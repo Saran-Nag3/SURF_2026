@@ -1,0 +1,363 @@
+---
+name: make-simple-app-community
+source_file: Make Simple app (Community)
+source_page: All pages (2): cover, prototype
+generated_at: 2026-07-25T09:24:01.959615+00:00
+---
+
+# Make Simple app (Community) Design Guidelines
+
+## Source
+- Figma file: Make Simple app (Community)
+- Figma page: All pages (2): cover, prototype
+- Extracted at: 2026-07-25T09:24:01.959615+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Primery Color: [#1C1C1E]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 120 uses
+- #FFFFFF33: 60 uses
+- #000000: 20 uses
+- #FFFFFFCC: 19 uses
+- #D9D9D9: 4 uses
+- #965128: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Apple SD Gothic Neo Thin, 25.83px: 60 uses
+- Big Shoulders Display Medium, 14px: 37 uses
+- Big Shoulders Display Bold, 14px: 30 uses
+- Big Shoulders Display Medium, 20px: 5 uses
+- Big Shoulders Display Medium, 24px: 5 uses
+- Big Shoulders Display Medium, 40px: 3 uses
+
+## Typography Hierarchy
+- 40px - Big Shoulders Display Medium, 40px (raw)
+- 25.83px - Apple SD Gothic Neo Thin, 25.83px (raw)
+- 24px - Big Shoulders Display Medium, 24px (raw)
+- 20px - Big Shoulders Display Medium, 20px (raw)
+- 14px - Big Shoulders Display Bold, 14px (raw)
+- 14px - Big Shoulders Display Medium, 14px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- log in button
+- Sign up button
+- nav
+- photo button
+- save button
+- discart button
+
+## Component Specs
+- log in button (prototype): size 96x28px, text [Big Shoulders Display Medium, 14px]
+- Sign up button: size 96x28px, text [Big Shoulders Display Medium, 14px]
+- log in button (prototype): size 96x28px, text [Big Shoulders Display Medium, 20px]
+- nav (prototype): size 345x51px, text [Big Shoulders Display Medium, 28.92px]
+- photo button: size 162x28px
+- nav (prototype): size 345x51px, text [Big Shoulders Display Medium, 24px, Big Shoulders Display Medium, 28.92px]
+- save button: size 72x72px
+- discart button: size 72x72px
+
+## Most-Used Styles
+- Primery Color: 3 uses
+
+## Layout & Structure
+Screen: cover / Desktop - 1
+- FRAME "Desktop - 1", 1440x1024px, constraints left/top, radius 40px, fill #000000
+  - RECTANGLE "foundation melting 1", 1787.3x1834.39px, constraints left/top, fill image(hash: 77bedd3e70859708d475ec434218ba29c618a923)
+  - GROUP "iPhone 13 Pro", 792.25x957.75px, constraints left/top [decorative, ~11 shapes]
+
+Screen: prototype / my account
+- FRAME "my account", 430x932px, constraints left/top, radius 40px, fill #000000
+  - TEXT "Get help FAQ Contact Us", 52x51px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+  - INSTANCE "log in button", 96x28px, constraints left/top
+    - RECTANGLE "Rectangle 1", 162x28px, constraints left/top, radius 40px, fill #FFFFFF, stroke #FFFFFF 2px
+    - TEXT "Log in", 120x35px, constraints left/top, fill #000000, text [Big Shoulders Display Medium, 20px]
+  - FRAME "password field", 350x35px, constraints left/top
+    - TEXT "New password", 71x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+    - RECTANGLE "Rectangle 3", 350x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - FRAME "eye.fill", 28x28px, constraints scale/scale
+      - VECTOR "eye.fill", 23.91x15.07px, constraints scale/scale, fill #FFFFFFCC
+  - FRAME "confirm password field", 350x35px, constraints left/top
+    - TEXT "Confirm password", 88x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+    - RECTANGLE "Rectangle 3", 350x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - FRAME "eye.fill", 28x28px, constraints scale/scale
+      - VECTOR "eye.fill", 23.91x15.07px, constraints scale/scale, fill #FFFFFFCC
+  - TEXT "Change password", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+  - FRAME "password field", 350x35px, constraints left/top
+    - TEXT "*********************", 90x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+    - RECTANGLE "Rectangle 3", 350x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - FRAME "eye.fill", 28x28px, constraints scale/scale
+      - VECTOR "eye.fill", 23.91x15.07px, constraints scale/scale, fill #FFFFFFCC
+  - FRAME "email field", 350x28px, constraints left/top
+    - RECTANGLE "Rectangle 3", 350x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "example@gmail.com", 99x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+  - TEXT "My details", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+  - TEXT "logo", 143x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 40px], [heading]
+
+Screen: prototype / saved matches
+- FRAME "saved matches", 430x932px, constraints left/top, radius 40px, fill #000000
+  - INSTANCE "HomeIndicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - GROUP "Group 3", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 4", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 5", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 6", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 7", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 8", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 9", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 10", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 11", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 12", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 13", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 14", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 15", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - GROUP "Group 16", 165x87.62px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 5", 163x80px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 121x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - TEXT "ADELE FOUNDATION", 121x16px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Bold, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - INSTANCE "nav", 345x51px, constraints left/top
+    - FRAME "nav", 345x51px, constraints left/top
+      - FRAME "person.fill", 34x34px, constraints scale/scale
+        - VECTOR "person.fill", 18.04x19.3px, constraints scale/scale, fill #FFFFFF
+      - FRAME "chevron.left", 28x28px, constraints scale/scale
+        - VECTOR "chevron.left", 8.97x15.59px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Best match", 126x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 24px], [heading]
+
+Screen: prototype / best match
+- FRAME "best match", 430x932px, constraints left/top, radius 40px, fill #000000
+  - INSTANCE "HomeIndicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - COMPONENT "discart button", 72x72px, constraints left/top
+    - GROUP "Group 1", 72x72px, constraints left/top
+      - ELLIPSE "Ellipse 2", 72x72px, constraints left/top, fill #FFFFFF
+      - FRAME "trash.fill", 28x28px, constraints scale/scale
+        - VECTOR "trash.fill", 17.37x19.66px, constraints scale/scale, fill Primery Color
+  - COMPONENT "save button", 72x72px, constraints left/top
+    - GROUP "Group 2", 72x72px, constraints left/top
+      - ELLIPSE "Ellipse 2", 72x72px, constraints left/top, fill #FFFFFF
+      - FRAME "heart.fill", 28x28px, constraints scale/scale
+        - VECTOR "heart.fill", 17.79x16.47px, constraints scale/scale, fill Primery Color
+  - GROUP "results", 352x505px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 350x505px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - RECTANGLE "art-hauntington-0wRXAXqIp58-unsplash 1", 352x505px, constraints left/top, radius 43.97px, fill image(hash: 0bf53c21e80f904c3d9ccaf7e323ae63e45edf1a)
+  - FRAME "best match", 164x80px, constraints left/top
+    - GROUP "point", 66x187px, constraints left/top
+      - LINE "Line 1", 47.18x163.78px, constraints left/top, stroke #FFFFFF 1px
+      - ELLIPSE "Ellipse 1", 30x27.23px, constraints left/top, fill #E7C1AC, stroke #FFFFFF 1px
+    - RECTANGLE "Rectangle 5", 164x80px, constraints left/top, radius 40px, fill #000000, stroke #FFFFFF 2px
+    - TEXT "MAC STUDIO FIX NC41", 72x64px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - RECTANGLE "mac_foundation-removebg-preview 1", 68x87.62px, constraints left/top, fill image(hash: 224edb06496f7cc47f494f3847f952614dacb2fd)
+  - FRAME "tips", 164x92.25px, constraints left/top
+    - BOOLEAN_OPERATION "Union", 164x92.25px, constraints left/top, fill #000000, stroke #FFFFFF 2px
+    - TEXT "Apply it with face moisturiser for a glowing look", 161x34px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+  - COMPONENT "nav", 345x51px, constraints left/top
+    - FRAME "nav", 345x51px, constraints left/top
+      - FRAME "person.fill", 34x34px, constraints scale/scale
+        - VECTOR "person.fill", 18.04x19.3px, constraints scale/scale, fill #FFFFFF
+      - FRAME "chevron.left", 28x28px, constraints scale/scale
+        - VECTOR "chevron.left", 8.97x15.59px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Best match", 94x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 24px], [heading]
+
+Screen: prototype / find your shade
+- FRAME "find your shade", 430x932px, constraints left/top, radius 40px, fill #000000
+  - INSTANCE "HomeIndicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - INSTANCE "upload button", 96x28px, constraints left/top
+    - RECTANGLE "Rectangle 1", 162x28px, constraints left/top, radius 40px, fill #FFFFFF, stroke #FFFFFF 2px
+    - TEXT "Log in", 92x35px, constraints left/top, fill #000000, text [Big Shoulders Display Medium, 20px]
+  - COMPONENT "photo button", 162x28px, constraints left/top
+    - RECTANGLE "Rectangle 1", 162x28px, constraints left/top, radius 40px, fill #FFFFFF, stroke #FFFFFF 2px
+    - VECTOR "camera.fill", 21.74x16.99px, constraints scale/scale, fill Primery Color
+  - TEXT "OR", 16x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 20px]
+  - FRAME "coverage selector", 226x28px, constraints left/top
+    - RECTANGLE "Rectangle 3", 226x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "Coverage", 44x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - REGULAR_POLYGON "Polygon 1", 12.06x8.09px, constraints left/top, fill #D9D9D9
+  - FRAME "tone selector", 226x28px, constraints left/top
+    - RECTANGLE "Rectangle 3", 226x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "Tone", 22x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - REGULAR_POLYGON "Polygon 1", 12.06x8.09px, constraints left/top, fill #D9D9D9
+  - FRAME "categorie selector", 226x28px, constraints left/top
+    - RECTANGLE "Rectangle 3", 226x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "Categorie", 47x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - REGULAR_POLYGON "Polygon 1", 12.06x8.09px, constraints left/top, fill #D9D9D9
+  - FRAME "brand selector", 226x28px, constraints left/top
+    - RECTANGLE "Rectangle 3", 226x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "Brand", 28x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - REGULAR_POLYGON "Polygon 1", 12.06x8.09px, constraints left/top, fill #D9D9D9
+  - FRAME "find your shade", 350x194px, constraints left/top
+    - GROUP "find your shade", 350x194px, constraints left/top, radius 40px
+      - RECTANGLE "Rectangle 4", 350x194px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - RECTANGLE "foundation_shade-removebg-preview 1", 489x194px, constraints left/top, fill image(hash: 5a3e74932d41e4dbf65396b9929be70869501978)
+    - TEXT "Find your shade", 132x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 24px], [heading]
+  - COMPONENT "nav", 345x51px, constraints left/top
+    - GROUP "NAV", 345x51px, constraints left/top
+      - TEXT "logo", 60x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 28.92px], [heading]
+      - FRAME "person.fill", 34x34px, constraints scale/scale
+        - VECTOR "person.fill", 18.04x19.3px, constraints scale/scale, fill #FFFFFF
+
+Screen: prototype / selection
+- FRAME "selection", 430x932px, constraints left/top, radius 40px, fill #000000
+  - GROUP "NAV", 345x51px, constraints left/top
+    - TEXT "logo", 60x51px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 28.92px], [heading]
+    - FRAME "person.fill", 34x34px, constraints scale/scale
+      - VECTOR "person.fill", 18.04x19.3px, constraints scale/scale, fill #FFFFFF
+  - FRAME "frame selection", 350x547px, constraints left/top
+    - GROUP "selection field", 350x547px, constraints left/top, radius 40px
+      - RECTANGLE "Rectangle 4", 350x547px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+      - RECTANGLE "hadis-safari-A7rkoSFjrG0-unsplash 1", 350x547px, constraints left/top, radius 40px, fill image(hash: 6777c10d6ec1e756017c5b72d4af2c2800353024)
+    - FRAME "find your shade button", 160x26px, constraints left/top
+      - RECTANGLE "Rectangle 1", 160x26px, constraints left/top, radius 40px, fill #965128, stroke #FFFFFF 2px
+      - TEXT "Saved matches", 74x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+    - FRAME "find your shade button", 160x26px, constraints left/top
+      - RECTANGLE "Rectangle 1", 160x26px, constraints left/top, radius 40px, fill #965128, stroke #FFFFFF 2px
+      - TEXT "Find your shade", 77x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+  - INSTANCE "HomeIndicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+
+Screen: prototype / sign up
+- FRAME "sign up", 430x932px, constraints left/top, radius 40px, fill #000000
+  - GROUP "log in field", 350x508px, constraints left/top
+    - INSTANCE "log in button", 96x28px, constraints left/top
+      - RECTANGLE "Rectangle 1", 162x28px, constraints left/top, radius 40px, fill #FFFFFF, stroke #FFFFFF 2px
+      - TEXT "Log in", 52x35px, constraints left/top, fill #000000, text [Big Shoulders Display Medium, 20px]
+    - INSTANCE "icon/facebook", 48x48px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 40x40px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "icon/instagram", 48x48px, constraints left/top, fill #FFFFFF
+      - VECTOR "vector", 36x36px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "vector", 21.2x20.86px, constraints scale/scale, fill #FFFFFF
+    - TEXT "OR", 19x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 24px], [heading]
+    - FRAME "password field", 350x35px, constraints left/top
+      - TEXT "Password", 46x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+      - RECTANGLE "Rectangle 3", 350x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+      - FRAME "eye.fill", 28x28px, constraints scale/scale
+        - VECTOR "eye.fill", 23.91x15.07px, constraints scale/scale, fill #FFFFFFCC
+    - FRAME "confirm password field", 350x35px, constraints left/top
+      - TEXT "Confirm password", 88x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+      - RECTANGLE "Rectangle 3", 350x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+      - FRAME "eye.fill", 28x28px, constraints scale/scale
+        - VECTOR "eye.fill", 23.91x15.07px, constraints scale/scale, fill #FFFFFFCC
+    - FRAME "email field", 350x28px, constraints left/top
+      - RECTANGLE "Rectangle 3", 350x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+      - TEXT "E-mail or username", 97x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+  - INSTANCE "Sign up button", 96x28px, constraints left/top
+    - RECTANGLE "Rectangle 2", 96x28px, constraints left/top, radius 40px, fill #965128, stroke #FFFFFF 2px
+    - TEXT "Sign up", 37x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+  - INSTANCE "log in button", 96x28px, constraints left/top
+    - RECTANGLE "Rectangle 1", 96x28px, constraints left/top, radius 40px, fill #965128, stroke #FFFFFF 2px
+    - TEXT "Log in", 30x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+  - TEXT "logo", 83x70px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 40px], [heading]
+
+Screen: prototype / log in
+- FRAME "log in", 430x932px, constraints left/top, radius 40px, fill #000000
+  - GROUP "log in field", 350x508px, constraints left/top
+    - COMPONENT "log in button", 96x28px, constraints left/top
+      - RECTANGLE "Rectangle 1", 162x28px, constraints left/top, radius 40px, fill #FFFFFF, stroke #FFFFFF 2px
+      - TEXT "Log in", 42x35px, constraints left/top, fill #000000, text [Big Shoulders Display Medium, 20px]
+    - INSTANCE "icon/facebook", 48x48px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 40x40px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "icon/instagram", 48x48px, constraints left/top, fill #FFFFFF
+      - VECTOR "vector", 36x36px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "vector", 21.2x20.86px, constraints scale/scale, fill #FFFFFF
+    - TEXT "OR", 19x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 24px], [heading]
+    - TEXT "Forgot password", 81x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+    - FRAME "password field", 350x35px, constraints left/top
+      - TEXT "Password", 46x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+      - RECTANGLE "Rectangle 3", 350x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+      - FRAME "eye.fill", 28x28px, constraints scale/scale
+        - VECTOR "eye.fill", 23.91x15.07px, constraints scale/scale, fill #FFFFFFCC
+    - FRAME "email field", 350x28px, constraints left/top
+      - RECTANGLE "Rectangle 3", 350x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+      - TEXT "E-mail or username", 97x35px, constraints left/top, fill #FFFFFFCC, text [Big Shoulders Display Medium, 14px]
+  - COMPONENT "Sign up button", 96x28px, constraints left/top
+    - RECTANGLE "Rectangle 2", 96x28px, constraints left/top, radius 40px, fill #D9D9D9, stroke #FFFFFF 2px
+    - TEXT "Sign up", 37x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+  - COMPONENT "log in button", 96x28px, constraints left/top
+    - RECTANGLE "Rectangle 1", 96x28px, constraints left/top, radius 40px, fill #965128, stroke #FFFFFF 2px
+    - TEXT "Log in", 30x35px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 14px]
+  - TEXT "logo", 83x70px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 40px], [heading]
+
+Screen: prototype / splash
+- FRAME "splash", 430x932px, constraints left/top, radius 40px, fill #000000
+  - RECTANGLE "foundation melting 1", 527.66x932px, constraints left/top, fill image(hash: 77bedd3e70859708d475ec434218ba29c618a923)
+  - TEXT "MAKE SIMPLE", 166x140px, constraints left/top, fill #FFFFFF, text [Big Shoulders Display Medium, 80px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

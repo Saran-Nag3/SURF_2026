@@ -1,0 +1,374 @@
+---
+name: harvest-management-app-ui-community
+source_file: Harvest Management App UI (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:22:22.453219+00:00
+---
+
+# Harvest Management App UI (Community) Design Guidelines
+
+## Source
+- Figma file: Harvest Management App UI (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:22:22.453219+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #263238: 88 uses
+- #E0E0E0: 41 uses
+- #1A1A1A: 36 uses
+- #1B1B1B: 33 uses
+- #EBEBEB: 28 uses
+- #455A64: 27 uses
+- #000000: 23 uses
+- #FFFFFF: 20 uses
+- #FF725E: 18 uses
+- #FAFAFA: 14 uses
+- #F5F5F5: 12 uses
+- #02B153: 10 uses
+- #FFC532: 8 uses
+- #141414: 7 uses
+- #814842: 7 uses
+- #02B153BA: 6 uses
+- #0E0E0E: 6 uses
+- #191919: 6 uses
+- #AB645B: 6 uses
+- #FDFDFD: 6 uses
+- #FF9A6C: 6 uses
+- #D9D9D9: 5 uses
+- #353535: 4 uses
+- #8ADDB7: 4 uses
+- #DCEBE4: 3 uses
+- #FFBF9D: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Poppins Medium, 14px: 10 uses
+- Poppins Medium, 16px: 10 uses
+- Poppins Regular, 12px: 8 uses
+- Poppins Regular, 14px: 8 uses
+
+## Typography Hierarchy
+- 16px - Poppins Medium, 16px (raw)
+- 14px - Poppins Medium, 14px (raw)
+- 14px - Poppins Regular, 14px (raw)
+- 12px - Poppins Regular, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- minus-circle-outline
+- plus-circle-outline
+- star
+- chevron-left-outline
+- chevron-right-outline
+- gift-outline
+- shopping-cart-outline
+- briefcase-outline
+- person-outline
+- home-outline
+- minimize-outline
+- battery-outline
+- wifi-outline
+- bar-chart-2-outline
+
+## Component Specs
+- minus-circle-outline: size 16x16px, fill #FFFFFF
+- plus-circle-outline: size 16x16px, fill #FFFFFF
+- star: size 16x16px, fill #FFFFFF
+- chevron-left-outline: size 24x24px, fill #FFFFFF
+- chevron-right-outline: size 24x24px, fill #FFFFFF
+- gift-outline: size 24x24px, fill #FFFFFF
+- shopping-cart-outline: size 24x24px, fill #FFFFFF
+- briefcase-outline: size 24x24px, fill #FFFFFF
+- person-outline: size 24x24px, fill #FFFFFF
+- home-outline: size 24x24px, fill #FFFFFF
+- minimize-outline: size 16x16px, fill #FFFFFF
+- battery-outline: size 16x16px, fill #FFFFFF
+- wifi-outline: size 16x16px, fill #FFFFFF
+- bar-chart-2-outline: size 16x16px, fill #FFFFFF
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / Harvest Management App UI
+- FRAME "Harvest Management App UI", 1777x1105px, constraints left/top, fill #60B38D
+  - FRAME "Home Page", 360x800px, constraints left/top, radius 16px, fill #FFFFFF
+    - FRAME "Frame 6", 328x18px, constraints left/top
+      - TEXT "9:30", 25x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+      - COMPONENT "bar-chart-2-outline", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale [decorative, ~4 shapes]
+      - COMPONENT "wifi-outline", 16x16px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale [decorative, ~5 shapes]
+      - COMPONENT "battery-outline", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale
+          - GROUP "battery", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill #1A1A1A, opacity 0%
+            - VECTOR "Vector", 10.67x8px, constraints scale/scale, fill #1A1A1A
+            - VECTOR "Vector", 1.33x4px, constraints scale/scale, fill #1A1A1A
+    - GROUP "Group 1", 115x44px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Hi Smith", 67x24px, constraints left/top, fill #000000, text [Poppins Medium, 16px]
+      - TEXT "Enjoy your services", 115x18px, constraints left/top, fill #585858, text [Poppins Regular, 12px]
+    - FRAME "Search Bar", 328x32px, constraints left/top
+      - RECTANGLE "Rectangle 1", 328x32px, constraints left/top, radius 30px, fill #FFFFFF, stroke #C2BDBD 1px
+      - TEXT "Search", 43x18px, constraints left/top, fill #575757, text [Poppins Regular, 12px]
+      - COMPONENT "minimize-outline", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale
+          - GROUP "minimize", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill #919191, opacity 0%
+            - VECTOR "Vector", 12x12px, constraints scale/scale, fill #919191
+    - FRAME "Banner", 328x142px, constraints center/top, radius 16px
+      - RECTANGLE "Rectangle 2", 328x142px, constraints left/top, radius 16px, fill #EDFCF5
+      - TEXT "Get free support from our customer services", 121x30px, constraints left/top, fill #545454, text [Poppins Regular, 10px]
+      - TEXT "Free Consultation", 142x24px, constraints left/top, fill #0B5E38, text [Poppins Medium, 16px]
+      - FRAME "Call Now Button", 89x30px, constraints left/top
+        - RECTANGLE "Rectangle 3", 89x30px, constraints left/top, radius 10px, fill #8ADDB7
+        - TEXT "Call Now", 57x20px, constraints left/top, fill #353535, text [Poppins Regular, 13px]
+      - GROUP "consultative-sales/pana", 133x82px, constraints left/top [decorative, ~271 shapes]
+    - GROUP "Featured Product", 328x24px, constraints left/top, radius 0/0/0/0px
+      - TEXT "See all", 40x18px, constraints left/top, fill #12653F, text [Poppins Regular, 12px]
+      - TEXT "Featured Product", 139x24px, constraints left/top, fill #000000, text [Poppins Medium, 16px]
+    - FRAME "Rice Seed", 155x201px, constraints left/top, radius 16px, stroke #02B153 1px
+      - TEXT "Rice Seed", 68x21px, constraints center/top, fill #141414, text [Poppins Regular, 14px]
+      - TEXT "$14/kg", 48x21px, constraints center/top, fill #0E0E0E, text [Poppins Medium, 14px]
+      - FRAME "Add to cart button", 99x27px, constraints center/top
+        - RECTANGLE "Rectangle 5", 99x27px, constraints left/top, radius 10px, fill #8ADDB7
+        - TEXT "Add to Cart", 81x21px, constraints center/top, fill #353535, text [Poppins Regular, 14px]
+      - RECTANGLE "Rectangle 4", 155x101px, constraints left/top, radius 16/16/0/0px, fill #D9D9D9
+    - FRAME "Lemon Tree", 155x201px, constraints left/top, radius 16px, stroke #0CA958 1px
+      - RECTANGLE "Rectangle 4", 155x101px, constraints center/top, radius 16/16/0/0px, fill #D9D9D9
+      - TEXT "Lemon Tree", 81x21px, constraints center/top, fill #141414, text [Poppins Regular, 14px]
+      - TEXT "$15/kg", 48x21px, constraints center/top, fill #0E0E0E, text [Poppins Medium, 14px]
+      - FRAME "Add to cart button", 99x27px, constraints center/top
+        - RECTANGLE "Rectangle 5", 99x27px, constraints left/top, radius 10px, fill #8ADDB7
+        - TEXT "Add to Cart", 81x21px, constraints center/top, fill #353535, text [Poppins Regular, 14px]
+    - FRAME "Weat Seed", 155x201px, constraints left/top, radius 16px, stroke #02B153 1px
+      - TEXT "Weat Seed", 76x21px, constraints center/top, fill #141414, text [Poppins Regular, 14px]
+      - TEXT "$14/kg", 48x21px, constraints center/top, fill #0E0E0E, text [Poppins Medium, 14px]
+      - FRAME "Add to cart button", 99x27px, constraints center/top
+        - RECTANGLE "Rectangle 5", 99x27px, constraints left/top, radius 10px, fill #02B052
+        - TEXT "Add to Cart", 81x21px, constraints center/top, fill #FAFAFA, text [Poppins Regular, 14px]
+      - RECTANGLE "Rectangle 4", 155x101px, constraints left/top, radius 16/16/0/0px, fill #D9D9D9
+    - FRAME "Cherry Tree", 155x201px, constraints left/top, radius 16px, stroke #0CA958 1px
+      - RECTANGLE "Rectangle 4", 155x101px, constraints center/top, radius 16/16/0/0px, fill #D9D9D9
+      - TEXT "Cherry Tree", 81x21px, constraints center/top, fill #141414, text [Poppins Regular, 14px]
+      - TEXT "$15/kg", 48x21px, constraints center/top, fill #0E0E0E, text [Poppins Medium, 14px]
+      - FRAME "Add to cart button", 99x27px, constraints center/top
+        - RECTANGLE "Rectangle 5", 99x27px, constraints left/top, radius 10px, fill #02B052
+        - TEXT "Add to Cart", 81x21px, constraints center/top, fill #FAFAFA, text [Poppins Regular, 14px]
+    - FRAME "Footer", 360x65px, constraints left/top, fill #DCEBE4
+      - COMPONENT "home-outline", 24x24px, constraints left/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "home", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #02B153, opacity 0%
+            - VECTOR "Vector", 18x20px, constraints scale/scale, fill #02B153
+      - COMPONENT "person-outline", 24x24px, constraints left/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "person", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1B1B1B, opacity 0%
+            - VECTOR "Vector", 8x8px, constraints scale/scale, fill #1B1B1B
+            - VECTOR "Vector", 14x8px, constraints scale/scale, fill #1B1B1B
+      - COMPONENT "briefcase-outline", 24x24px, constraints scale/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "briefcase", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1B1B1B, opacity 0%
+            - VECTOR "Vector", 20x18px, constraints scale/scale, fill #1B1B1B
+      - COMPONENT "shopping-cart-outline", 24x24px, constraints scale/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale [decorative, ~4 shapes]
+      - COMPONENT "gift-outline", 24x24px, constraints left/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "gift", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1B1B1B, opacity 0%
+            - VECTOR "Vector", 18.02x18px, constraints scale/scale, fill #1B1B1B
+  - FRAME "Product Details Page", 360x800px, constraints left/top, radius 16px, fill #FFFFFF
+    - FRAME "Header Icon & Time", 328x18px, constraints left/top
+      - TEXT "9:30", 25x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+      - INSTANCE "bar-chart-2-outline", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale [decorative, ~4 shapes]
+      - INSTANCE "wifi-outline", 16x16px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale [decorative, ~5 shapes]
+      - INSTANCE "battery-outline", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale
+          - GROUP "battery", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill #1A1A1A, opacity 0%
+            - VECTOR "Vector", 10.67x8px, constraints scale/scale, fill #1A1A1A
+            - VECTOR "Vector", 1.33x4px, constraints scale/scale, fill #1A1A1A
+    - FRAME "Rice Seed Image", 328x314px, constraints center/top, radius 16px, stroke #02B153 1px
+      - RECTANGLE "Rice Seeds 1", 240x220px, constraints center/center, fill image(hash: 587bf469b96e06cdca9d89120b6390f18cc36723)
+    - TEXT "$14/kg", 55x24px, constraints center/top, fill #0E0E0E, text [Poppins Medium, 16px]
+    - FRAME "Add to Cart", 328x34px, constraints left/top
+      - RECTANGLE "Rectangle 5", 328x34px, constraints left/top, radius 10px, fill #8ADDB7
+      - TEXT "Add to Cart", 92x24px, constraints center/top, fill #353535, text [Poppins Regular, 16px]
+    - FRAME "Footer", 360x65px, constraints left/top, fill #DCEBE4
+      - INSTANCE "home-outline", 24x24px, constraints left/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "home", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #02B153, opacity 0%
+            - VECTOR "Vector", 18x20px, constraints scale/scale, fill #02B153
+      - INSTANCE "person-outline", 24x24px, constraints left/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "person", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1B1B1B, opacity 0%
+            - VECTOR "Vector", 8x8px, constraints scale/scale, fill #1B1B1B
+            - VECTOR "Vector", 14x8px, constraints scale/scale, fill #1B1B1B
+      - INSTANCE "briefcase-outline", 24x24px, constraints scale/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "briefcase", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1B1B1B, opacity 0%
+            - VECTOR "Vector", 20x18px, constraints scale/scale, fill #1B1B1B
+      - INSTANCE "shopping-cart-outline", 24x24px, constraints scale/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale [decorative, ~4 shapes]
+      - INSTANCE "gift-outline", 24x24px, constraints left/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "gift", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1B1B1B, opacity 0%
+            - VECTOR "Vector", 18.02x18px, constraints scale/scale, fill #1B1B1B
+    - FRAME "Product Details & Icon", 328x24px, constraints left/top
+      - TEXT "Product Details", 122x24px, constraints center/top, fill #000000, text [Poppins Medium, 16px]
+      - COMPONENT "chevron-right-outline", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "chevron-right", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #000000, opacity 0%
+            - VECTOR "Vector", 5.99x10.02px, constraints scale/scale, fill #000000
+      - COMPONENT "chevron-left-outline", 24x24px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "chevron-left", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #000000, opacity 0%
+            - VECTOR "Vector", 6x10px, constraints scale/scale, fill #000000
+    - FRAME "Product Name,Rating & Stock", 105x68px, constraints left/top
+      - TEXT "Rice Seed", 79x24px, constraints center/top, fill #141414, text [Poppins Medium, 16px]
+      - TEXT "Available in stock", 105x18px, constraints center/top, fill #4F5F01, text [Poppins Regular, 12px]
+      - GROUP "Rating Icon", 79x16px, constraints left/top
+        - COMPONENT "star", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Layer 2", 16x16px, constraints scale/scale
+            - GROUP "star", 16x16px, constraints scale/scale
+        - INSTANCE "star", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Layer 2", 16x16px, constraints scale/scale
+            - GROUP "star", 16x16px, constraints scale/scale
+        - INSTANCE "star", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Layer 2", 16x16px, constraints scale/scale
+            - GROUP "star", 16x16px, constraints scale/scale
+        - INSTANCE "star", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Layer 2", 16x16px, constraints scale/scale
+            - GROUP "star", 16x16px, constraints scale/scale
+    - FRAME "Quantity", 327x30px, constraints left/top
+      - TEXT "Quantity", 70x24px, constraints center/top, fill #141414, text [Poppins Medium, 16px]
+      - FRAME "Icon & Quantity", 113x30px, constraints left/top
+        - TEXT "1kg", 19x18px, constraints center/top, fill #0E0E0E, text [Poppins Medium, 12px]
+        - RECTANGLE "Rectangle 6", 113x30px, constraints left/top, radius 10px, stroke #02B153 1px
+        - COMPONENT "plus-circle-outline", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Layer 2", 16x16px, constraints scale/scale
+            - GROUP "plus-circle", 16x16px, constraints scale/scale
+        - COMPONENT "minus-circle-outline", 16x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Layer 2", 16x16px, constraints scale/scale
+            - GROUP "minus-circle", 16x16px, constraints scale/scale
+    - GROUP "Product Details", 328x91px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Product Details", 122x24px, constraints center/top, fill #141414, text [Poppins Medium, 16px]
+      - TEXT "Our premium Rice Seeds embody the promise of a bo untiful ha", 328x57px, constraints center/top, fill #797979, text [Poppins Regular, 12px]
+  - FRAME "Shop Page", 360x800px, constraints left/top, radius 16px, fill #FFFFFF
+    - FRAME "Header Icon & Time", 328x18px, constraints left/top
+      - TEXT "9:30", 25x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+      - INSTANCE "bar-chart-2-outline", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale [decorative, ~4 shapes]
+      - INSTANCE "wifi-outline", 16x16px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale [decorative, ~5 shapes]
+      - INSTANCE "battery-outline", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "Layer 2", 16x16px, constraints scale/scale
+          - GROUP "battery", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 16x16px, constraints scale/scale, fill #1A1A1A, opacity 0%
+            - VECTOR "Vector", 10.67x8px, constraints scale/scale, fill #1A1A1A
+            - VECTOR "Vector", 1.33x4px, constraints scale/scale, fill #1A1A1A
+    - FRAME "Footer", 360x65px, constraints left/top, fill #DCEBE4
+      - INSTANCE "home-outline", 24x24px, constraints left/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "home", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1B1B1B, opacity 0%
+            - VECTOR "Vector", 18x20px, constraints scale/scale, fill #1B1B1B
+      - INSTANCE "person-outline", 24x24px, constraints left/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "person", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1B1B1B, opacity 0%
+            - VECTOR "Vector", 8x8px, constraints scale/scale, fill #1B1B1B
+            - VECTOR "Vector", 14x8px, constraints scale/scale, fill #1B1B1B
+      - INSTANCE "briefcase-outline", 24x24px, constraints scale/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "briefcase", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #02B153, opacity 0%
+            - VECTOR "Vector", 20x18px, constraints scale/scale, fill #02B153
+      - INSTANCE "shopping-cart-outline", 24x24px, constraints scale/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale [decorative, ~4 shapes]
+      - INSTANCE "gift-outline", 24x24px, constraints left/center, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "gift", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #1B1B1B, opacity 0%
+            - VECTOR "Vector", 18.02x18px, constraints scale/scale, fill #1B1B1B
+    - FRAME "Product Details & Icon", 328x24px, constraints left/top
+      - TEXT "Shop", 42x24px, constraints center/center, fill #000000, text [Poppins Medium, 16px]
+      - INSTANCE "chevron-right-outline", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "chevron-right", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #000000, opacity 0%
+            - VECTOR "Vector", 5.99x10.02px, constraints scale/scale, fill #000000
+      - INSTANCE "chevron-left-outline", 24x24px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Layer 2", 24x24px, constraints scale/scale
+          - GROUP "chevron-left", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill #000000, opacity 0%
+            - VECTOR "Vector", 6x10px, constraints scale/scale, fill #000000
+    - GROUP "SEEDS", 154x192px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 7", 154x192px, constraints left/top, radius 10px, fill image(hash: 6a983d8c3030299da94c4c36817cb119e47132fc)
+      - GROUP "SEEDS", 120x40px, constraints left/top, radius 5px
+        - RECTANGLE "Rectangle 13", 120x40px, constraints left/top, radius 5px, fill #02B153BA
+        - TEXT "SEEDS", 42x21px, constraints left/top, fill #FDFDFD, text [Poppins Medium, 14px]
+    - GROUP "SEEDING", 154x192px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 10", 154x192px, constraints left/top, radius 10px, fill #D9D9D9
+      - GROUP "SEEDING", 120x40px, constraints left/top, radius 5px
+        - RECTANGLE "Rectangle 14", 120x40px, constraints left/top, radius 5px, fill #02B153BA
+        - TEXT "SEEDING", 58x21px, constraints left/top, fill #FDFDFD, text [Poppins Medium, 14px]
+    - GROUP "FERTILIZER", 154x192px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 8", 154x192px, constraints left/top, radius 10px, fill image(hash: b6e144a4dfdc8c0c50013ac8d396a01cd8fb4573)
+      - GROUP "FERTILIZER", 120x40px, constraints left/top, radius 5px
+        - RECTANGLE "Rectangle 15", 120x40px, constraints left/top, radius 5px, fill #02B153BA
+        - TEXT "FERTILIZER", 69x21px, constraints left/top, fill #FDFDFD, text [Poppins Medium, 14px]
+    - GROUP "HIRE WORKER", 154x192px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 12", 154x192px, constraints left/top, radius 10px, fill image(hash: fedf7ac3f9fbf88dae2d7088af03e79c85c7d231)
+      - GROUP "HIRE WORKER", 120x40px, constraints left/top, radius 5px
+        - RECTANGLE "Rectangle 15", 120x40px, constraints left/top, radius 5px, fill #02B153BA
+        - TEXT "HIRE WORKER", 93x21px, constraints left/top, fill #FDFDFD, text [Poppins Medium, 14px]
+    - GROUP "DISEASE & SOLUTION", 154x192px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 9", 154x192px, constraints left/top, radius 10px, fill image(hash: d11c6e639884dc69abed9d1ae825ff6f81e276d2)
+      - GROUP "DISEASE & SOLUTION", 146x40px, constraints left/top, radius 5px
+        - RECTANGLE "Rectangle 15", 146x40px, constraints left/top, radius 5px, fill #02B153BA
+        - TEXT "Text", 0x24px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 16px]
+        - TEXT "DISEASE & SOLUTION", 142x22px, constraints left/top, fill #FDFDFD, text [Poppins Medium, 14px]
+    - GROUP "PROTECTING CROP", 154x192px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 11", 154x192px, constraints left/top, radius 10px, fill image(hash: da4eb593a7755eebc0c7e7602f96903d22f2fe36)
+      - GROUP "PROTECTING CROP", 140x40px, constraints left/top, radius 5px
+        - RECTANGLE "Rectangle 15", 140x40px, constraints left/top, radius 5px, fill #02B153BA
+        - TEXT "PROTECTING CROP", 130x18px, constraints left/top, fill #FDFDFD, text [Poppins Medium, 14px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

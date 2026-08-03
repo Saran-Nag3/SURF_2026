@@ -1,0 +1,1157 @@
+---
+name: shopping-app-lo-fidelity-wireframe-community
+source_file: Shopping app - lo fidelity / Wireframe (Community)
+source_page: All pages (4): Cover, Deisgn / Lo fidelity,  Prototype / Lo fidelity, Components
+generated_at: 2026-07-25T09:33:12.195005+00:00
+---
+
+# Shopping app - lo fidelity / Wireframe (Community) Design Guidelines
+
+## Source
+- Figma file: Shopping app - lo fidelity / Wireframe (Community)
+- Figma page: All pages (4): Cover, Deisgn / Lo fidelity,  Prototype / Lo fidelity, Components
+- Extracted at: 2026-07-25T09:33:12.195005+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Primary: [#667080]
+- Dark/Label/Primary: [#FFFFFF]
+- Secondary Deep: none
+- White: [#FFFFFF]
+- Secondary: [#EEF1F4]
+- Primary Deep: [#393F48]
+- Light/Label/Primary: [#000000]
+- Primary: none
+- Black: [#000000]
+- Gray / Dark: [#ABABAB]
+- Primary black: [#181D27]
+
+## Raw Colors (unstyled)
+- #000000: 329 uses
+- #FFFFFF: 168 uses
+- #201A25: 116 uses
+- #00000099: 56 uses
+- #F8F8F8: 36 uses
+- #262525: 28 uses
+- #0E1514: 16 uses
+- #FFFFFF66: 14 uses
+- #181D27: 12 uses
+- #ABABAB: 10 uses
+- #00000066: 8 uses
+- #667080: 4 uses
+
+## Typography Tokens
+- H2: Roboto Medium (500), 18px / auto, tracking 0px
+- H3: Mulish SemiBold (600), 12px / auto, tracking 0px
+- H1: Mulish SemiBold (600), 35px / 50px, tracking 0px
+
+## Raw Typography (unstyled)
+- Mulish SemiBold, 14px: 128 uses
+- Mulish Light, 14px: 71 uses
+- Mulish SemiBold, 16px: 60 uses
+- Mulish SemiBold, 12px: 58 uses
+- Roboto Medium, 20px: 41 uses
+- Helvetica Helvetica, 15px: 38 uses
+- Mulish Bold, 20px: 33 uses
+- Roboto Medium, 16px: 25 uses
+- Mulish SemiBold, 20px: 23 uses
+- Mulish Light, 16px: 22 uses
+- Roboto Black, 18px: 14 uses
+- Roboto Medium, 18px: 14 uses
+- Mulish Bold, 14px: 12 uses
+- Mulish Light, 20px: 5 uses
+- Roboto Bold, 15px: 4 uses
+- Roboto Medium, 24px: 4 uses
+
+## Typography Hierarchy
+- 35px - H1 (Mulish SemiBold)
+- 24px - Roboto Medium, 24px (raw)
+- 20px - Mulish Bold, 20px (raw)
+- 20px - Mulish Light, 20px (raw)
+- 20px - Mulish SemiBold, 20px (raw)
+- 20px - Roboto Medium, 20px (raw)
+- 18px - H2 (Roboto Medium)
+- 18px - Roboto Black, 18px (raw)
+- 18px - Roboto Medium, 18px (raw)
+- 16px - Mulish Light, 16px (raw)
+- 16px - Mulish SemiBold, 16px (raw)
+- 16px - Roboto Medium, 16px (raw)
+- 15px - Helvetica Helvetica, 15px (raw)
+- 15px - Roboto Bold, 15px (raw)
+- 14px - Mulish Bold, 14px (raw)
+- 14px - Mulish Light, 14px (raw)
+- 14px - Mulish SemiBold, 14px (raw)
+- 12px - H3 (Mulish SemiBold)
+- 12px - Mulish SemiBold, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- screen - dropShadow: [drop_shadow 104px offset 0 20 #0000001A]
+- onboarding - icon - dropShadow: [drop_shadow 40px offset 0 40 #0000001A]
+- img - draopShadow: [drop_shadow 35px offset 0 20 #0000000D]
+
+## Grid Styles
+- app - 4 colunmns - layour: columns count 5, section 60px, gutter 20px, align stretch
+
+## Component Families
+- Nav
+- Dark Bar
+- Icons right
+- Icons delete
+- Icons add
+- Icons cart
+- Light Bar
+- Image placeholder
+- Icons left
+- Icons arrow right
+- Icon menu
+- Account
+
+## Component Specs
+- Nav: size 428x93px, radius 50px, vertical layout, padding 20 0 20 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- Dark Bar: size 375x44px, text [Helvetica Helvetica, 15px]
+- Icons right: size 24x24px
+- Icons delete: size 68.09x144px, radius 15px, fill Secondary Deep
+- Icons add: size 66x66px, horizontal layout, padding 0 0 0 0px, gap 15px, align min/center, sizing W:fixed H:fixed
+- Icons cart: size 102x30px, horizontal layout, padding 0 0 0 0px, gap 15px, align min/center, sizing W:fixed H:fixed, text [Roboto Medium, 20px]
+- Light Bar: size 392.82x44px, text [Helvetica Helvetica, 15px]
+- Image placeholder: size 300x183px, fill Secondary, stroke Primary 3px
+- Icons left: size 34x34px
+- Icons arrow right: size 30x30px
+- Icon menu: size 20.95x20.18px
+- Account: size 35x35px, fill #FFFFFF
+
+## Most-Used Styles
+- Primary: 813 uses
+- Secondary: 475 uses
+- Secondary Deep: 259 uses
+- Light/Label/Primary: 222 uses
+- Primary Deep: 188 uses
+- White: 182 uses
+- img - draopShadow: 84 uses
+- H3: 74 uses
+- onboarding - icon - dropShadow: 50 uses
+- screen - dropShadow: 41 uses
+- Black: 27 uses
+- Dark/Label/Primary: 6 uses
+- H2: 5 uses
+- H1: 3 uses
+- Gray / Dark: 2 uses
+- Primary black: 2 uses
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1920x1130px, constraints left/top, radius 20px, fill gradient_radial(#DFDFDF 0% | #DFDFDF 0% | #FFFFFF00 100%)
+  - FRAME "Onboarding", 428x926px, constraints left/top, radius 50px, fill #FFFFFF, effect screen - dropShadow
+    - INSTANCE "Image placeholder", 428x926px, constraints left/top, fill Secondary
+      - FRAME "Icons", 24x24px, constraints center/center
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+    - FRAME "onboarding", 339x297.93px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "onboarding_text", 339x183px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Lorem ipsum dolor sit, consectetur", 321x95px, constraints center/center, fill Black, text [H1], [heading]
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin adipiscing", 339x68px, constraints center/center, fill Black, text [Mulish Light, 20px]
+      - GROUP "onboarding_btn", 250x66.93px, constraints left/top, radius 50px
+        - RECTANGLE "Rectangle", 250x66.93px, constraints left/top, radius 50px, fill Primary, effect onboarding - icon - dropShadow
+        - TEXT "Start", 55x21px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+  - FRAME "Home Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+    - FRAME "stores", 761.38x198.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Discover Stores", 148x50px, constraints left/top, fill #262525, text [Mulish Bold, 20px]
+      - FRAME "store_card", 761.38x143.71px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "store_img", 374.19x143.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 374.19x108.71px, constraints left/top, radius 18.31px, fill White
+            - FRAME "Icons", 24x24px, constraints center/center
+          - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin", 358x30px, constraints left/top, fill #000000, text [Mulish Light, 16px]
+        - FRAME "store_img", 374.19x143.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 374.19x108.71px, constraints left/top, radius 18.31px, fill White
+            - FRAME "Icons", 24x24px, constraints center/center
+          - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin", 358x30px, constraints left/top, fill #000000, text [Mulish Light, 16px]
+    - FRAME "arrival", 631.2x403.59px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "New Arrivals", 124x50px, constraints left/top, fill #262525, text [Mulish Bold, 20px]
+      - FRAME "arrvial_card", 631.2x353.59px, horizontal pad 0 0 0 0px gap 27px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "arrvial_img", 302.1x353.59px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Image placeholder", 302.1x353.59px, constraints left/top, radius 18.31px, fill White
+            - FRAME "Icons", 24x24px, constraints center/center
+          - RECTANGLE "arrival card", 302.1x353.59px, constraints left/top, radius 18.31px, fill #FFFFFF66
+          - FRAME "arrival_text", 180x58px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem ipsum dolor", 180x21px, constraints left/top, fill #262525, text [Roboto Medium, 18px]
+            - TEXT "$15.18", 58x21px, constraints left/top, fill Primary, text [Roboto Black, 18px]
+          - GROUP "fav_icon", 38.91x38.91px, constraints left/top
+            - ELLIPSE "Ellipse", 38.91x38.91px, constraints scale/scale, fill Primary
+            - FRAME "icon", 27.46x27.46px, constraints left/top
+        - FRAME "arrvial_img", 302.1x353.59px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Image placeholder", 302.1x353.59px, constraints left/top, radius 18.31px, fill White
+            - FRAME "Icons", 24x24px, constraints center/center
+          - RECTANGLE "arrival card", 302.1x353.59px, constraints left/top, radius 18.31px, fill #FFFFFF66
+          - FRAME "arrival_text", 180x58px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem ipsum dolor", 180x21px, constraints left/top, fill #262525, text [Roboto Medium, 18px]
+            - TEXT "$15.18", 58x21px, constraints left/top, fill Primary, text [Roboto Black, 18px]
+          - GROUP "fav_icon", 38.91x38.91px, constraints left/top
+            - ELLIPSE "Ellipse", 38.91x38.91px, constraints scale/scale, fill Primary
+            - FRAME "icon", 27.46x27.46px, constraints left/top
+    - FRAME "news", 1176.02x207.91px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "News & Community", 187x50px, constraints left/top, fill Black, text [Mulish Bold, 20px]
+      - FRAME "news_card", 1176.02x157.91px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Image placeholder", 383.34x157.91px, constraints left/top, radius 18.31px, fill Secondary, effect onboarding - icon - dropShadow
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - INSTANCE "Image placeholder", 383.34x157.91px, constraints left/top, radius 18.31px, fill Secondary, effect onboarding - icon - dropShadow
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - INSTANCE "Image placeholder", 383.34x157.91px, constraints left/top, radius 18.31px, fill Secondary, effect onboarding - icon - dropShadow
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+    - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "side_nav", 26.92x23.5px, constraints left/top, radius 33px
+        - RECTANGLE "Rectangle03", 26.92x3.17px, constraints left/top, radius 33px, fill Primary
+        - RECTANGLE "Rectangle02", 26.92x3.17px, constraints left/top, radius 33px, fill Primary
+        - RECTANGLE "Rectangle01", 16.89x3.17px, constraints left/top, radius 33px, fill Primary
+      - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+        - VECTOR "Vector", 35x35px, constraints scale/scale
+    - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+  - FRAME "Shoppingbag Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+    - FRAME "shoppingcart", 375x651px, vertical pad 0 0 0 0px gap 25px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+        - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+            - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+      - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+        - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+            - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+      - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+        - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+            - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+      - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+        - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+            - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+    - FRAME "price", 428x137.22px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "price_bg", 428x215px, constraints left/top, radius 30px, fill Primary
+      - FRAME "price_card", 377x62px, horizontal pad 0 0 0 0px gap 128px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "price", 54x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Total", 32x17px, constraints left/top, fill Secondary, text [Mulish Light, 14px]
+          - TEXT "$ 100", 54x23px, constraints left/top, fill #FFFFFF, text [Mulish SemiBold, 20px]
+        - FRAME "checkout_btn", 195x62px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle", 195x62px, constraints right/top, radius 30px, fill Primary Deep
+          - TEXT "CHECK OUT", 87x19px, constraints center/center, fill White, text [Roboto Medium, 16px]
+    - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons left", 34x34px, constraints left/top
+        - VECTOR "Vector", 8.5x17px, constraints scale/scale, stroke Primary 3.17px
+      - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+        - VECTOR "Vector", 35x35px, constraints scale/scale
+    - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+
+Screen: Deisgn / Lo fidelity / Account Screen /  Signin
+- FRAME "Account Screen /  Signin", 428x926px, constraints left/top, radius 50px, fill #FFFFFF, effect screen - dropShadow
+  - INSTANCE "Image placeholder", 428x926px, constraints left/top, fill Secondary
+  - FRAME "account_signin", 380x306px, vertical pad 0 0 0 0px gap 25px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Account", 169x169px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 140.83x140.83px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 169x169px, constraints scale/scale
+    - FRAME "signin_btn", 250x65px, horizontal pad 22 93 22 93px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 50px, fill Primary, effect img - draopShadow
+      - TEXT "SIGN in", 64x21px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+    - TEXT "Create new account", 183x22px, constraints center/center, fill Black, effect onboarding - icon - dropShadow, text [Mulish Light, 20px]
+  - FRAME "account_top", 369x34px, horizontal pad 0 0 0 0px gap 273px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons left", 34x34px, constraints left/top
+      - VECTOR "Vector", 8.5x17px, constraints scale/scale, stroke Primary 3.17px
+    - TEXT "Profile", 62x19px, constraints left/top, fill Black, text [Mulish Bold, 20px]
+
+Screen: Deisgn / Lo fidelity / Account Screen
+- FRAME "Account Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "account", 379x540px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Account", 111x111px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 92.5x92.5px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 111x111px, constraints scale/scale
+    - GROUP "account_info", 209x39px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Lorem ipsum", 97x18px, constraints left/top, fill Primary black, text [Mulish SemiBold, 16px]
+      - TEXT "Lorem ipsum dolor@gmail.com", 209x15px, constraints left/top, fill Gray / Dark, text [H3], [heading]
+    - FRAME "account_card", 379x200px, vertical pad 15 20 15 20px gap 25px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill White
+      - FRAME "account_text", 343x40px, horizontal pad 0 0 0 0px gap 25px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse", 40x40px, constraints left/top, fill Secondary
+        - FRAME "accout_text", 156x38px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum", 85x18px, constraints left/top, fill #181D27, text [Mulish SemiBold, 14px]
+          - TEXT "Lorem ipsum dolor sit amet,", 156x15px, constraints left/top, fill #ABABAB, text [H3], [heading]
+        - INSTANCE "Icons right", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke Secondary Deep 2px
+      - FRAME "account_text", 343x40px, horizontal pad 0 0 0 0px gap 25px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse", 40x40px, constraints left/top, fill Secondary
+        - FRAME "accout_text", 156x38px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum", 85x18px, constraints left/top, fill #181D27, text [Mulish SemiBold, 14px]
+          - TEXT "Lorem ipsum dolor sit amet,", 156x15px, constraints left/top, fill #ABABAB, text [H3], [heading]
+        - INSTANCE "Icons right", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke Secondary Deep 2px
+      - FRAME "account_text", 343x40px, horizontal pad 0 0 0 0px gap 25px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse", 40x40px, constraints left/top, fill Secondary
+        - FRAME "accout_text", 156x38px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum", 85x18px, constraints left/top, fill #181D27, text [Mulish SemiBold, 14px]
+          - TEXT "Lorem ipsum dolor sit amet,", 156x15px, constraints left/top, fill #ABABAB, text [H3], [heading]
+        - INSTANCE "Icons right", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke Secondary Deep 2px
+    - FRAME "account_text", 357x15px, constraints left/top, fill #FFFFFF
+      - TEXT "More", 29x15px, constraints left/top, fill #181D27, text [H3], [heading], opacity 80%
+    - FRAME "account_card", 379x135px, vertical pad 15 20 15 20px gap 25px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill White
+      - FRAME "account_text", 343x40px, horizontal pad 0 0 0 0px gap 25px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse", 40x40px, constraints left/top, fill Secondary
+        - FRAME "accout_text", 156x38px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum", 85x18px, constraints left/top, fill #181D27, text [Mulish SemiBold, 14px]
+          - TEXT "Lorem ipsum dolor sit amet,", 156x15px, constraints left/top, fill #ABABAB, text [H3], [heading]
+        - INSTANCE "Icons right", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke Secondary Deep 2px
+      - FRAME "account_text", 343x40px, horizontal pad 0 0 0 0px gap 25px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse", 40x40px, constraints left/top, fill Secondary
+        - FRAME "accout_text", 156x38px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum", 85x18px, constraints left/top, fill #181D27, text [Mulish SemiBold, 14px]
+          - TEXT "Lorem ipsum dolor sit amet,", 156x15px, constraints left/top, fill #ABABAB, text [H3], [heading]
+        - INSTANCE "Icons right", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 6x12px, constraints scale/scale, stroke Secondary Deep 2px
+  - FRAME "account_top", 369x34px, horizontal pad 0 0 0 0px gap 273px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons left", 34x34px, constraints left/top
+      - VECTOR "Vector", 8.5x17px, constraints scale/scale, stroke Primary 3.17px
+    - TEXT "Profile", 62x19px, constraints left/top, fill Black, text [Mulish Bold, 20px]
+  - FRAME "logout_btn", 194x61px, horizontal pad 21 64 21 64px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 30px, fill Primary
+    - TEXT "LOG OUT", 66x19px, constraints center/center, fill White, text [Roboto Medium, 16px]
+
+Screen: Deisgn / Lo fidelity / Shoppingbag Screen / Delete
+- FRAME "Shoppingbag Screen / Delete", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "shoppingcart", 375x651px, constraints left/top
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+            - GROUP "fav_icon", 25x25px, constraints left/top
+        - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - VECTOR "Vector", 13x2.17px, constraints scale/scale, fill Primary Deep
+          - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+          - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+            - GROUP "fav_icon", 25x25px, constraints left/top
+        - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - VECTOR "Vector", 13x2.17px, constraints scale/scale, fill Primary Deep
+          - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+          - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+            - GROUP "fav_icon", 25x25px, constraints left/top
+        - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - VECTOR "Vector", 13x2.17px, constraints scale/scale, fill Primary Deep
+          - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+          - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+            - GROUP "fav_icon", 25x25px, constraints left/top
+        - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - VECTOR "Vector", 13x2.17px, constraints scale/scale, fill Primary Deep
+          - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+          - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons delete", 65x144px, constraints left/top, radius 15px, fill Secondary Deep
+      - FRAME "delete_icon", 18x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18x20px, constraints scale/scale, fill #FFFFFF, stroke White 0.5px
+        - VECTOR "Vector", 1.29x9.33px, constraints scale/scale, fill #FFFFFF, stroke White 0.5px
+        - VECTOR "Vector", 1.29x9.33px, constraints scale/scale, fill #FFFFFF, stroke White 0.5px
+  - FRAME "price", 428x137.22px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "price_bg", 428x214px, constraints left/top, radius 30/30/50/50px, fill Primary
+    - FRAME "price_card", 377x62px, horizontal pad 0 0 0 0px gap 128px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "price", 54x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Total", 32x17px, constraints left/top, fill Secondary, text [Mulish Light, 14px]
+        - TEXT "$ 100", 54x23px, constraints left/top, fill #FFFFFF, text [Mulish SemiBold, 20px]
+      - FRAME "checkout_btn", 195x62px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 195x62px, constraints right/top, radius 30px, fill Primary Deep
+        - TEXT "CHECK OUT", 87x19px, constraints center/center, fill White, text [Roboto Medium, 16px]
+  - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons left", 34x34px, constraints left/top
+      - VECTOR "Vector", 8.5x17px, constraints scale/scale, stroke Primary 3.17px
+    - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 35x35px, constraints scale/scale
+  - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+
+Screen: Deisgn / Lo fidelity / Shoppingbag Screen
+- FRAME "Shoppingbag Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "shoppingcart", 375x651px, vertical pad 0 0 0 0px gap 25px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+            - GROUP "fav_icon", 25x25px, constraints left/top
+        - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - VECTOR "Vector", 13x2.17px, constraints scale/scale, fill Primary Deep
+          - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+          - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+            - GROUP "fav_icon", 25x25px, constraints left/top
+        - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - VECTOR "Vector", 13x2.17px, constraints scale/scale, fill Primary Deep
+          - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+          - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+            - GROUP "fav_icon", 25x25px, constraints left/top
+        - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - VECTOR "Vector", 13x2.17px, constraints scale/scale, fill Primary Deep
+          - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+          - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 336x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x106px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+            - GROUP "fav_icon", 25x25px, constraints left/top
+        - INSTANCE "Icons cart", 102x30px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "plus", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - VECTOR "Vector", 13x2.17px, constraints scale/scale, fill Primary Deep
+          - TEXT "1", 12x23px, constraints left/top, fill Secondary Deep, text [Roboto Medium, 20px]
+          - FRAME "add", 30x30px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Secondary
+            - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+  - FRAME "price", 428x137.22px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "price_bg", 428x215px, constraints left/top, radius 30px, fill Primary
+    - FRAME "price_card", 377x62px, horizontal pad 0 0 0 0px gap 128px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "price", 54x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Total", 32x17px, constraints left/top, fill Secondary, text [Mulish Light, 14px]
+        - TEXT "$ 100", 54x23px, constraints left/top, fill #FFFFFF, text [Mulish SemiBold, 20px]
+      - FRAME "checkout_btn", 195x62px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 195x62px, constraints right/top, radius 30px, fill Primary Deep
+        - TEXT "CHECK OUT", 87x19px, constraints center/center, fill White, text [Roboto Medium, 16px]
+  - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons left", 34x34px, constraints left/top
+      - VECTOR "Vector", 8.5x17px, constraints scale/scale, stroke Primary 3.17px
+    - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 35x35px, constraints scale/scale
+  - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+
+Screen: Deisgn / Lo fidelity / Wishlist Screen / Delete
+- FRAME "Wishlist Screen / Delete", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "shoppingcart", 375x323px, constraints left/top
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 196x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x71px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+      - INSTANCE "Icons add", 66x66px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "add", 66x66px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary
+          - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 26x4px, constraints scale/scale, fill Primary Deep
+            - VECTOR "Vector", 4x26px, constraints scale/scale, fill Primary Deep
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 196x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x71px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+      - INSTANCE "Icons add", 66x66px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "add", 66x66px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary
+          - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 26x4px, constraints scale/scale, fill Primary Deep
+            - VECTOR "Vector", 4x26px, constraints scale/scale, fill Primary Deep
+    - INSTANCE "Icons delete", 68.09x144px, constraints left/top, radius 15px, fill Secondary Deep
+      - FRAME "delete_icon", 18x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18x20px, constraints scale/scale, fill #FFFFFF, stroke White 0.5px
+        - VECTOR "Vector", 1.29x9.33px, constraints scale/scale, fill #FFFFFF, stroke White 0.5px
+        - VECTOR "Vector", 1.29x9.33px, constraints scale/scale, fill #FFFFFF, stroke White 0.5px
+  - FRAME "price", 428x137.22px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "price_bg", 428x213px, constraints left/top, radius 30/30/50/50px, fill Primary
+    - FRAME "price_card", 377x62px, horizontal pad 0 0 0 0px gap 128px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "price", 54x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Total", 32x17px, constraints left/top, fill Secondary, text [Mulish Light, 14px]
+        - TEXT "$ 100", 54x23px, constraints left/top, fill #FFFFFF, text [Mulish SemiBold, 20px]
+      - FRAME "add_btn", 195x62px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 195x62px, constraints right/top, radius 30px, fill Primary Deep
+        - TEXT "ADD TO BAG", 92x19px, constraints center/center, fill White, text [Roboto Medium, 16px]
+  - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons left", 34x34px, constraints left/top
+      - VECTOR "Vector", 8.5x17px, constraints scale/scale, stroke Primary 3.17px
+    - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 35x35px, constraints scale/scale
+  - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+
+Screen: Deisgn / Lo fidelity / Wishlist Screen
+- FRAME "Wishlist Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "shoppingcart", 375x328px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 196x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x71px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+      - INSTANCE "Icons add", 66x66px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "add", 66x66px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary
+          - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 26x4px, constraints scale/scale, fill Primary Deep
+            - VECTOR "Vector", 4x26px, constraints scale/scale, fill Primary Deep
+    - FRAME "cart_card", 375x144px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "cart_bg", 374.75x144px, constraints left/top, radius 20px, fill White, effect img - draopShadow
+      - FRAME "cart", 196x106px, horizontal pad 0 0 0 0px gap 38px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "cart_layout", 196x106px, horizontal pad 0 0 0 0px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 106x106px, constraints left/top, radius 15px, fill Secondary, opacity 50%
+            - FRAME "Icons", 24x24px, constraints center/center
+          - FRAME "cart_text", 72x71px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lorem", 47x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 16px]
+            - TEXT "$225.00", 47x15px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 12px]
+            - TEXT "Size: US 7", 66x18px, constraints left/top, fill #201A25, text [Mulish SemiBold, 14px]
+      - INSTANCE "Icons add", 66x66px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "add", 66x66px, horizontal pad 13 13 13 13px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary
+          - FRAME "add_icon", 13x13px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 26x4px, constraints scale/scale, fill Primary Deep
+            - VECTOR "Vector", 4x26px, constraints scale/scale, fill Primary Deep
+  - FRAME "price", 428x137.22px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "price_bg", 428x215px, constraints left/top, radius 30px, fill Primary
+    - FRAME "price_card", 377x62px, horizontal pad 0 0 0 0px gap 128px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "price", 54x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Total", 32x17px, constraints left/top, fill Secondary, text [Mulish Light, 14px]
+        - TEXT "$ 100", 54x23px, constraints left/top, fill #FFFFFF, text [Mulish SemiBold, 20px]
+      - FRAME "add_btn", 195x62px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 195x62px, constraints right/top, radius 30px, fill Primary Deep
+        - TEXT "ADD TO BAG", 92x19px, constraints center/center, fill White, text [Roboto Medium, 16px]
+  - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons left", 34x34px, constraints left/top
+      - VECTOR "Vector", 8.5x17px, constraints scale/scale, stroke Primary 3.17px
+    - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 35x35px, constraints scale/scale
+  - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+
+Screen: Deisgn / Lo fidelity / Product Screen / Pop-up
+- FRAME "Product Screen / Pop-up", 428x856.22px, constraints left/top, fill #FFFFFF
+  - VECTOR "bg", 428x768.96px, constraints left/top, radius 50px, fill White
+  - FRAME "color_card", 288x53px, vertical pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Color", 35x18px, constraints left/top, fill #0E1514, text [Mulish Bold, 14px]
+    - FRAME "color_option", 288x20px, horizontal pad 0 0 0 0px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+  - FRAME "size_card", 288.47x154.02px, vertical pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Size", 28x18px, constraints left/top, fill #0E1514, text [Mulish Bold, 14px]
+    - FRAME "size_option", 288.47x30.34px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "size", 63.43x30.34px, horizontal pad 7.67 17.26 7.67 19.18px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 39.31px, stroke Primary 1px
+        - TEXT "US 6", 27x15px, constraints left/top, fill Primary, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+    - FRAME "size_option", 288.47x30.34px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "size", 63.43x30.34px, horizontal pad 7.67 17.26 7.67 19.18px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 39.31px, stroke Secondary Deep 1px
+        - TEXT "US 6", 27x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+    - FRAME "size_option", 288.47x30.34px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "size", 63.43x30.34px, horizontal pad 7.67 17.26 7.67 19.18px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 39.31px, stroke Secondary Deep 1px
+        - TEXT "US 6", 27x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+  - FRAME "price", 428x137.22px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "price_bg", 428x137.22px, constraints left/top, radius 30px, fill Primary
+    - FRAME "price_card", 377x62px, horizontal pad 0 0 0 0px gap 128px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "price", 54x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Price", 32x17px, constraints left/top, fill Secondary, text [Mulish Light, 14px]
+        - TEXT "$ 100", 54x23px, constraints left/top, fill #FFFFFF, text [Mulish SemiBold, 20px]
+      - FRAME "add_btn", 195x62px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 195x62px, constraints right/top, radius 30px, fill Primary Deep
+        - TEXT "Add to Bag", 92x19px, constraints center/center, fill White, text [Roboto Medium, 16px]
+  - FRAME "pickup", 410.37x98px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "pickup_bg", 410.37x98px, constraints left/top, radius 13px, fill Secondary
+    - FRAME "pickup_card", 363x60px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "instock", 99x18px, horizontal pad 0 0 0 0px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "In-stock", 72.46x18px, constraints left/top, fill #0E1514, text [Roboto Bold, 15px]
+        - FRAME "pickup_icon", 15.1x14.38px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 7.97x5.99px, constraints left/top, radius 5px, stroke Primary 1px
+          - ELLIPSE "Ellipse", 15.1x14.38px, constraints left/top, stroke Primary 1px
+      - FRAME "pickup_layout", 363x34px, horizontal pad 0 0 0 0px gap 170px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "pickup_text", 162.78x34px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Pick up in store is available!", 162.78x15px, constraints left/top, fill #0E1514, text [H3], [heading]
+          - TEXT "Lorem ipsu sit amet", 116.57x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+        - INSTANCE "Icons arrow right", 30x30px, constraints left/top
+          - VECTOR "Vector", 25x25px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 5x10px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 10x0px, constraints scale/scale, stroke Primary 2px
+  - FRAME "product_text", 363.39x99px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Lorem ipsum", 158x28px, constraints left/top, fill Primary Deep, text [Roboto Medium, 24px], [heading]
+    - TEXT "Lorem ipsum dolor sit", 121x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+    - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mas", 363.39x36px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 14px]
+  - FRAME "product", 381x361.47px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Image placeholder", 349.01x361.47px, constraints left/top, radius 50px, fill Secondary, opacity 70%
+      - FRAME "Icons", 24x24px, constraints center/center
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+    - ELLIPSE "Ellipse", 381x74px, constraints left/top, stroke gradient_linear(#FFFFFF 0% | #EEF1F4 12% | #667080 100%) 2px
+    - GROUP "fav_icon", 38.91x38.91px, constraints left/top
+      - ELLIPSE "Ellipse", 38.91x38.91px, constraints scale/scale, fill Secondary
+      - FRAME "icon", 27.46x27.46px, constraints left/top
+        - VECTOR "shape", 20.6x18.31px, constraints scale/scale, radius 0/0/0/0px, fill Secondary Deep, stroke #FFFFFF 2.06px
+
+Screen: Deisgn / Lo fidelity / Product Screen
+- FRAME "Product Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "shop", 380x878px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "shop_search", 376x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "search_bar", 376x49px, constraints left/top, radius 15px, fill Secondary
+      - VECTOR "search_icon", 20x20px, constraints scale/scale, fill #00000099
+      - TEXT "Search", 51x30px, constraints left/top, fill #00000066, text [Mulish Light, 16px]
+    - FRAME "shop_nav", 376x50px, horizontal pad 0 0 0 0px gap 40px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Popular", 75x50px, constraints left/top, fill Black, text [Mulish Bold, 20px]
+      - INSTANCE "Icon menu", 20.95x20.18px, constraints left/top
+        - VECTOR "Vector", 15.71x0px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 15.71x0px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 15.71x0px, constraints scale/scale, stroke Primary 2px
+    - FRAME "shop_card", 380x233px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "shop_card_right", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect onboarding - icon - dropShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+      - FRAME "shop_card_left", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect onboarding - icon - dropShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+    - FRAME "shop_card", 380x233px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "shop_card_right", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect onboarding - icon - dropShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+      - FRAME "shop_card_left", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect onboarding - icon - dropShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+    - FRAME "shop_card", 380x233px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "shop_card_right", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect onboarding - icon - dropShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+      - FRAME "shop_card_left", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect onboarding - icon - dropShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+  - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons left", 34x34px, constraints left/top
+      - VECTOR "Vector", 8.5x17px, constraints scale/scale, stroke Primary 3.17px
+    - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 35x35px, constraints scale/scale
+  - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+  - RECTANGLE "cover", 428x926px, constraints left/top, radius 50px, fill Primary, opacity 70%
+  - VECTOR "bg", 428x768.96px, constraints left/top, radius 50px, fill White
+  - FRAME "color_card", 288x53px, vertical pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Color", 35x18px, constraints left/top, fill #0E1514, text [Mulish Bold, 14px]
+    - FRAME "color_option", 288x20px, horizontal pad 0 0 0 0px gap 30px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+  - FRAME "size_card", 288.47x154.02px, vertical pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Size", 28x18px, constraints left/top, fill #0E1514, text [Mulish Bold, 14px]
+    - FRAME "size_option", 288.47x30.34px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "size", 63.43x30.34px, horizontal pad 7.67 17.26 7.67 19.18px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 39.31px, stroke Primary 1px
+        - TEXT "US 6", 27x15px, constraints left/top, fill Primary, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+    - FRAME "size_option", 288.47x30.34px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "size", 63.43x30.34px, horizontal pad 7.67 17.26 7.67 19.18px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 39.31px, stroke Secondary Deep 1px
+        - TEXT "US 6", 27x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+    - FRAME "size_option", 288.47x30.34px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "size", 63.43x30.34px, horizontal pad 7.67 17.26 7.67 19.18px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 39.31px, stroke Secondary Deep 1px
+        - TEXT "US 6", 27x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+      - FRAME "size", 60.01x30.34px, horizontal pad 7.67 11.51 7.67 11.51px gap 9.59px sizing W:fixed H:fixed, constraints left/top, radius 61.36px, stroke Secondary Deep 1px
+        - TEXT "US 6.5", 37x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+  - FRAME "price", 428x137.22px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "price_bg", 428x137.22px, constraints left/top, radius 30px, fill Primary
+    - FRAME "price_card", 377x62px, horizontal pad 0 0 0 0px gap 128px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "price", 54x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Price", 32x17px, constraints left/top, fill Secondary, text [Mulish Light, 14px]
+        - TEXT "$ 100", 54x23px, constraints left/top, fill #FFFFFF, text [Mulish SemiBold, 20px]
+      - FRAME "add_btn", 195x62px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 195x62px, constraints right/top, radius 30px, fill Primary Deep
+        - TEXT "Add to Bag", 92x19px, constraints center/center, fill White, text [Roboto Medium, 16px]
+  - FRAME "pickup", 410.37x98px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "pickup_bg", 410.37x98px, constraints left/top, radius 13px, fill Secondary
+    - FRAME "pickup_card", 363x60px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "instock", 99x18px, horizontal pad 0 0 0 0px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "In-stock", 72.46x18px, constraints left/top, fill #0E1514, text [Roboto Bold, 15px]
+        - FRAME "pickup_icon", 15.1x14.38px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 7.97x5.99px, constraints left/top, radius 5px, stroke Primary 1px
+          - ELLIPSE "Ellipse", 15.1x14.38px, constraints left/top, stroke Primary 1px
+      - FRAME "pickup_layout", 363x34px, horizontal pad 0 0 0 0px gap 170px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "pickup_text", 162.78x34px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Pick up in store is available!", 162.78x15px, constraints left/top, fill #0E1514, text [H3], [heading]
+          - TEXT "Lorem ipsu sit amet", 116.57x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+        - INSTANCE "Icons arrow right", 30x30px, constraints left/top
+          - VECTOR "Vector", 25x25px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 5x10px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 10x0px, constraints scale/scale, stroke Primary 2px
+  - FRAME "product_text", 363.39x99px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Lorem ipsum", 158x28px, constraints left/top, fill Primary Deep, text [Roboto Medium, 24px], [heading]
+    - TEXT "Lorem ipsum dolor sit", 121x15px, constraints left/top, fill Secondary Deep, text [H3], [heading]
+    - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mas", 363.39x36px, constraints left/top, fill Secondary Deep, text [Mulish SemiBold, 14px]
+  - FRAME "product", 381x361.47px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Image placeholder", 349.01x361.47px, constraints left/top, radius 50px, fill Secondary, opacity 70%
+      - FRAME "Icons", 24x24px, constraints center/center
+        - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+    - ELLIPSE "Ellipse", 381x74px, constraints left/top, stroke gradient_linear(#FFFFFF 0% | #EEF1F4 12% | #667080 100%) 2px
+    - GROUP "fav_icon", 38.91x38.91px, constraints left/top
+      - ELLIPSE "Ellipse", 38.91x38.91px, constraints scale/scale, fill Secondary
+      - FRAME "icon", 27.46x27.46px, constraints left/top
+        - VECTOR "shape", 20.6x18.31px, constraints scale/scale, radius 0/0/0/0px, fill Secondary Deep, stroke #FFFFFF 2.06px
+
+Screen: Deisgn / Lo fidelity / Shop Screen
+- FRAME "Shop Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "shop", 380x878px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "shop_search", 376x49px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "search_bar", 376x49px, constraints left/top, radius 15px, fill Secondary
+      - VECTOR "search_icon", 20x20px, constraints scale/scale, fill #00000099
+      - TEXT "Search", 51x30px, constraints left/top, fill #00000066, text [Mulish Light, 16px]
+    - FRAME "shop_nav", 376x50px, horizontal pad 0 0 0 0px gap 40px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Popular", 75x50px, constraints left/top, fill Black, text [Mulish Bold, 20px]
+      - INSTANCE "Icon menu", 20.95x20.18px, constraints left/top
+        - VECTOR "Vector", 15.71x0px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 15.71x0px, constraints scale/scale, stroke Primary 2px
+        - VECTOR "Vector", 15.71x0px, constraints scale/scale, stroke Primary 2px
+    - FRAME "shop_card", 380x233px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "shop_card_right", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect img - draopShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+      - FRAME "shop_card_left", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect img - draopShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+    - FRAME "shop_card", 380x233px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "shop_card_right", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect img - draopShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+      - FRAME "shop_card_left", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect img - draopShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+    - FRAME "shop_card", 380x233px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "shop_card_right", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect onboarding - icon - dropShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+      - FRAME "shop_card_left", 182x233px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "shop_img", 182x182px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Image placeholder", 182x182px, constraints left/top, radius 18.31px, fill White, effect onboarding - icon - dropShadow
+            - FRAME "Icons", 24x24px, constraints center/center
+        - FRAME "shop_text", 117x41px, vertical pad 0 0 0 5px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$239.80", 54x18px, constraints left/top, fill #000000, text [Mulish SemiBold, 14px]
+          - TEXT "Nike Air Max 90", 160x18px, constraints scale/scale, fill #00000099, text [Mulish Light, 14px]
+  - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons left", 34x34px, constraints left/top
+      - VECTOR "Vector", 8.5x17px, constraints scale/scale, stroke Primary 3.17px
+    - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 35x35px, constraints scale/scale
+  - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+
+Screen: Deisgn / Lo fidelity / Home Screen
+- FRAME "Home Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "stores", 761.38x198.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Discover Stores", 148x50px, constraints left/top, fill #262525, text [Mulish Bold, 20px]
+    - FRAME "store_card", 761.38x143.71px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "store_img", 374.19x143.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Image placeholder", 374.19x108.71px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin", 358x30px, constraints left/top, fill #000000, text [Mulish Light, 16px]
+      - FRAME "store_img", 374.19x143.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Image placeholder", 374.19x108.71px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin", 358x30px, constraints left/top, fill #000000, text [Mulish Light, 16px]
+  - FRAME "arrival", 631.2x403.59px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "New Arrivals", 124x50px, constraints left/top, fill #262525, text [Mulish Bold, 20px]
+    - FRAME "arrvial_card", 631.2x353.59px, horizontal pad 0 0 0 0px gap 27px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "arrvial_img", 302.1x353.59px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Image placeholder", 302.1x353.59px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - RECTANGLE "arrival card", 302.1x353.59px, constraints left/top, radius 18.31px, fill #FFFFFF66
+        - FRAME "arrival_text", 180x58px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum dolor", 180x21px, constraints left/top, fill #262525, text [Roboto Medium, 18px]
+          - TEXT "$15.18", 58x21px, constraints left/top, fill Primary, text [Roboto Black, 18px]
+        - GROUP "fav_icon", 38.91x38.91px, constraints left/top
+          - ELLIPSE "Ellipse", 38.91x38.91px, constraints scale/scale, fill Primary
+          - FRAME "icon", 27.46x27.46px, constraints left/top
+            - VECTOR "shape", 20.6x18.31px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, stroke #FFFFFF 2.06px
+      - FRAME "arrvial_img", 302.1x353.59px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Image placeholder", 302.1x353.59px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - RECTANGLE "arrival card", 302.1x353.59px, constraints left/top, radius 18.31px, fill #FFFFFF66
+        - FRAME "arrival_text", 180x58px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum dolor", 180x21px, constraints left/top, fill #262525, text [Roboto Medium, 18px]
+          - TEXT "$15.18", 58x21px, constraints left/top, fill Primary, text [Roboto Black, 18px]
+        - GROUP "fav_icon", 38.91x38.91px, constraints left/top
+          - ELLIPSE "Ellipse", 38.91x38.91px, constraints scale/scale, fill Primary
+          - FRAME "icon", 27.46x27.46px, constraints left/top
+            - VECTOR "shape", 20.6x18.31px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, stroke #FFFFFF 2.06px
+  - FRAME "news", 1176.02x207.91px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "News & Community", 187x50px, constraints left/top, fill Black, text [Mulish Bold, 20px]
+    - FRAME "news_card", 1176.02x157.91px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Image placeholder", 383.34x157.91px, constraints left/top, radius 18.31px, fill Secondary, effect onboarding - icon - dropShadow
+        - FRAME "Icons", 24x24px, constraints center/center
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+      - INSTANCE "Image placeholder", 383.34x157.91px, constraints left/top, radius 18.31px, fill Secondary, effect onboarding - icon - dropShadow
+        - FRAME "Icons", 24x24px, constraints center/center
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+      - INSTANCE "Image placeholder", 383.34x157.91px, constraints left/top, radius 18.31px, fill Secondary, effect onboarding - icon - dropShadow
+        - FRAME "Icons", 24x24px, constraints center/center
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+  - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "side_nav", 26.92x23.5px, constraints left/top, radius 33px
+      - RECTANGLE "Rectangle03", 26.92x3.17px, constraints left/top, radius 33px, fill Primary
+      - RECTANGLE "Rectangle02", 26.92x3.17px, constraints left/top, radius 33px, fill Primary
+      - RECTANGLE "Rectangle01", 16.89x3.17px, constraints left/top, radius 33px, fill Primary
+    - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 35x35px, constraints scale/scale
+  - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+
+Screen: Deisgn / Lo fidelity / Onboarding
+- FRAME "Onboarding", 428x926px, constraints left/top, radius 50px, fill #FFFFFF, effect screen - dropShadow
+  - INSTANCE "Image placeholder", 428x926px, constraints left/top, fill Secondary
+    - FRAME "Icons", 24x24px, constraints center/center
+      - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+      - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+      - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+  - FRAME "onboarding", 339x297.93px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "onboarding_text", 339x183px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem ipsum dolor sit, consectetur", 321x95px, constraints center/center, fill Black, text [H1], [heading]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin adipiscing", 339x68px, constraints center/center, fill Black, text [Mulish Light, 20px]
+    - GROUP "onboarding_btn", 250x66.93px, constraints left/top, radius 50px
+      - RECTANGLE "Rectangle", 250x66.93px, constraints left/top, radius 50px, fill Primary, effect onboarding - icon - dropShadow
+      - TEXT "Start", 55x21px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+
+Screen:  Prototype / Lo fidelity / Onboarding
+- FRAME "Onboarding", 428x926px, constraints left/top, radius 50px, fill #FFFFFF, effect screen - dropShadow
+  - INSTANCE "Image placeholder", 428x926px, constraints left/top, fill Secondary
+    - FRAME "Icons", 24x24px, constraints center/center
+      - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+      - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+      - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+  - FRAME "onboarding", 339x297.93px, vertical pad 0 0 0 0px gap 48px align center/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "onboarding_text", 339x183px, vertical pad 0 0 0 0px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem ipsum dolor sit, consectetur", 321x95px, constraints center/center, fill Black, text [H1], [heading]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin adipiscing", 339x68px, constraints center/center, fill Black, text [Mulish Light, 20px]
+    - GROUP "onboarding_btn", 250x66.93px, constraints left/top, radius 50px
+      - RECTANGLE "Rectangle", 250x66.93px, constraints left/top, radius 50px, fill Primary, effect onboarding - icon - dropShadow
+      - TEXT "Start", 55x21px, constraints left/top, fill #FFFFFF, text [H2], [heading]
+
+Screen:  Prototype / Lo fidelity / Home Screen
+- FRAME "Home Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "stores", 761.38x198.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Discover Stores", 148x50px, constraints left/top, fill #262525, text [Mulish Bold, 20px]
+    - FRAME "store_card", 761.38x143.71px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "store_img", 374.19x143.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Image placeholder", 374.19x108.71px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin", 358x30px, constraints left/top, fill #000000, text [Mulish Light, 16px]
+      - FRAME "store_img", 374.19x143.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Image placeholder", 374.19x108.71px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin", 358x30px, constraints left/top, fill #000000, text [Mulish Light, 16px]
+  - FRAME "arrival", 631.2x403.59px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "New Arrivals", 124x50px, constraints left/top, fill #262525, text [Mulish Bold, 20px]
+    - FRAME "arrvial_card", 631.2x353.59px, horizontal pad 0 0 0 0px gap 27px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "arrvial_img", 302.1x353.59px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Image placeholder", 302.1x353.59px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - RECTANGLE "arrival card", 302.1x353.59px, constraints left/top, radius 18.31px, fill #FFFFFF66
+        - FRAME "arrival_text", 180x58px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum dolor", 180x21px, constraints left/top, fill #262525, text [Roboto Medium, 18px]
+          - TEXT "$15.18", 58x21px, constraints left/top, fill Primary, text [Roboto Black, 18px]
+        - GROUP "fav_icon", 38.91x38.91px, constraints left/top
+          - ELLIPSE "Ellipse", 38.91x38.91px, constraints scale/scale, fill Primary
+          - FRAME "icon", 27.46x27.46px, constraints left/top
+            - VECTOR "shape", 20.6x18.31px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, stroke #FFFFFF 2.06px
+      - FRAME "arrvial_img", 302.1x353.59px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Image placeholder", 302.1x353.59px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - RECTANGLE "arrival card", 302.1x353.59px, constraints left/top, radius 18.31px, fill #FFFFFF66
+        - FRAME "arrival_text", 180x58px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum dolor", 180x21px, constraints left/top, fill #262525, text [Roboto Medium, 18px]
+          - TEXT "$15.18", 58x21px, constraints left/top, fill Primary, text [Roboto Black, 18px]
+        - GROUP "fav_icon", 38.91x38.91px, constraints left/top
+          - ELLIPSE "Ellipse", 38.91x38.91px, constraints scale/scale, fill Primary
+          - FRAME "icon", 27.46x27.46px, constraints left/top
+            - VECTOR "shape", 20.6x18.31px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, stroke #FFFFFF 2.06px
+  - FRAME "news", 1176.02x207.91px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "News & Community", 187x50px, constraints left/top, fill Black, text [Mulish Bold, 20px]
+    - FRAME "news_card", 1176.02x157.91px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Image placeholder", 383.34x157.91px, constraints left/top, radius 18.31px, fill Secondary, effect onboarding - icon - dropShadow
+        - FRAME "Icons", 24x24px, constraints center/center
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+      - INSTANCE "Image placeholder", 383.34x157.91px, constraints left/top, radius 18.31px, fill Secondary, effect onboarding - icon - dropShadow
+        - FRAME "Icons", 24x24px, constraints center/center
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+      - INSTANCE "Image placeholder", 383.34x157.91px, constraints left/top, radius 18.31px, fill Secondary, effect onboarding - icon - dropShadow
+        - FRAME "Icons", 24x24px, constraints center/center
+          - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+          - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+  - FRAME "top_nav", 428x35px, horizontal pad 0 24 0 24px gap 366px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "side_nav", 26.92x23.5px, constraints left/top, radius 33px
+      - RECTANGLE "Rectangle03", 26.92x3.17px, constraints left/top, radius 33px, fill Primary
+      - RECTANGLE "Rectangle02", 26.92x3.17px, constraints left/top, radius 33px, fill Primary
+      - RECTANGLE "Rectangle01", 16.89x3.17px, constraints left/top, radius 33px, fill Primary
+    - INSTANCE "Account", 35x35px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 29.17x29.17px, constraints scale/scale, fill Primary
+      - VECTOR "Vector", 35x35px, constraints scale/scale
+  - FRAME "nav", 428x93px, vertical pad 20 0 20 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF [decorative, ~14 shapes]
+
+Screen:  Prototype / Lo fidelity / Home Screen
+- FRAME "Home Screen", 428x926px, constraints left/top, radius 50px, fill #F8F8F8, effect screen - dropShadow
+  - FRAME "stores", 761.38x198.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Discover Stores", 148x50px, constraints left/top, fill #262525, text [Mulish Bold, 20px]
+    - FRAME "store_card", 761.38x143.71px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "store_img", 374.19x143.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Image placeholder", 374.19x108.71px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin", 358x30px, constraints left/top, fill #000000, text [Mulish Light, 16px]
+      - FRAME "store_img", 374.19x143.71px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Image placeholder", 374.19x108.71px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscin", 358x30px, constraints left/top, fill #000000, text [Mulish Light, 16px]
+  - FRAME "arrival", 631.2x403.59px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "New Arrivals", 124x50px, constraints left/top, fill #262525, text [Mulish Bold, 20px]
+    - FRAME "arrvial_card", 631.2x353.59px, horizontal pad 0 0 0 0px gap 27px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "arrvial_img", 302.1x353.59px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Image placeholder", 302.1x353.59px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 3x3px, constraints scale/scale, stroke Primary 2px
+            - VECTOR "Vector", 16x11px, constraints scale/scale, stroke Primary 2px
+        - RECTANGLE "arrival card", 302.1x353.59px, constraints left/top, radius 18.31px, fill #FFFFFF66
+        - FRAME "arrival_text", 180x58px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lorem ipsum dolor", 180x21px, constraints left/top, fill #262525, text [Roboto Medium, 18px]
+          - TEXT "$15.18", 58x21px, constraints left/top, fill Primary, text [Roboto Black, 18px]
+        - GROUP "fav_icon", 38.91x38.91px, constraints left/top
+          - ELLIPSE "Ellipse", 38.91x38.91px, constraints scale/scale, fill Primary
+          - FRAME "icon", 27.46x27.46px, constraints left/top
+            - VECTOR "shape", 20.6x18.31px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, stroke #FFFFFF 2.06px
+      - FRAME "arrvial_img", 302.1x353.59px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Image placeholder", 302.1x353.59px, constraints left/top, radius 18.31px, fill White
+          - FRAME "Icons", 24x24px, constraints center/center
+            - VECTOR "Vector", 18x18px, constraints scale/scale, stroke Primary 2px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

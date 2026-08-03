@@ -1,0 +1,1166 @@
+---
+name: expedia-ui-kit-community
+source_file: expedia-UI-Kit (Community)
+source_page: All pages (2): cover, design-files
+generated_at: 2026-07-02T20:56:49.446906+00:00
+---
+
+# expedia-UI-Kit (Community) Design Guidelines
+
+## Source
+- Figma file: expedia-UI-Kit (Community)
+- Figma page: All pages (2): cover, design-files
+- Extracted at: 2026-07-02T20:56:49.446906+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Gray 1: [#333333]
+- links-colors: [#4F67C9]
+- outline-gray: [#7B7D85]
+- body-text-color: [#525467]
+- title-text-color: [#161C35]
+- Gray 4: [#BDBDBD]
+- Label Color/Light/Primary: [#000000]
+- System Background/Light/Primary: [#FFFFFF]
+- Gray 5: none
+- Gray 3: [#828282]
+- black-100: [#000000]
+- Gray 6: [#F2F2F2]
+
+## Raw Colors (unstyled)
+- #000000: 274 uses
+- #FFFFFF: 182 uses
+- #444558: 105 uses
+- #D9D9D9: 87 uses
+- #F5E070: 43 uses
+- #7B7D85: 24 uses
+- #787981: 23 uses
+- #416D65: 21 uses
+- #4761C8: 20 uses
+- #F3F2F0: 16 uses
+- #00000040: 15 uses
+- #ABB0BC: 15 uses
+- #1B1D38: 13 uses
+- #363A50: 12 uses
+- #DCDCDA: 12 uses
+- #091853: 11 uses
+- #424141: 11 uses
+- #50555C: 10 uses
+- #E5E5E4: 10 uses
+- #B7B6B8: 8 uses
+- #D6D6D6: 8 uses
+- #161C34: 6 uses
+- #383A4D: 6 uses
+- #525161: 6 uses
+- #EFECE9: 6 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- SF Pro Display Regular, 21.21px: 130 uses
+- Inter Regular, 14px: 97 uses
+- Inter Medium, 14px: 60 uses
+- Inter Bold, 12px: 41 uses
+- Inter Regular, 12px: 35 uses
+- Inter Medium, 13px: 32 uses
+- Inter Medium, 12px: 22 uses
+- Inter SemiBold, 14px: 22 uses
+- Inter SemiBold, 16px: 18 uses
+- Inter Medium, 11px: 15 uses
+- SF Pro Text Regular, 15.43px: 15 uses
+- Inter Bold, 14px: 14 uses
+- Inter Medium, 10px: 12 uses
+- Inter Bold, 24px: 9 uses
+- Inter Medium, 15px: 9 uses
+- Inter SemiBold, 22px: 9 uses
+- Gothic A1 Black, 28px: 8 uses
+- Inter Medium, 9.6px: 8 uses
+- Inter Bold, 8.23px: 7 uses
+- Inter Bold, 16px: 6 uses
+- Inter Medium, 24px: 5 uses
+- Gothic A1 Black, 19.2px: 4 uses
+- Inter Bold, 18px: 4 uses
+- Inter Medium, 6.86px: 4 uses
+- Inter Medium, 8.91px: 4 uses
+- Inter Regular, 24px: 4 uses
+
+## Typography Hierarchy
+- 28px - Gothic A1 Black, 28px (raw)
+- 24px - Inter Bold, 24px (raw)
+- 24px - Inter Medium, 24px (raw)
+- 24px - Inter Regular, 24px (raw)
+- 22px - Inter SemiBold, 22px (raw)
+- 21.21px - SF Pro Display Regular, 21.21px (raw)
+- 19.2px - Gothic A1 Black, 19.2px (raw)
+- 18px - Inter Bold, 18px (raw)
+- 16px - Inter Bold, 16px (raw)
+- 16px - Inter SemiBold, 16px (raw)
+- 15.43px - SF Pro Text Regular, 15.43px (raw)
+- 15px - Inter Medium, 15px (raw)
+- 14px - Inter Bold, 14px (raw)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Inter Regular, 14px (raw)
+- 14px - Inter SemiBold, 14px (raw)
+- 13px - Inter Medium, 13px (raw)
+- 12px - Inter Bold, 12px (raw)
+- 12px - Inter Medium, 12px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 11px - Inter Medium, 11px (raw)
+- 10px - Inter Medium, 10px (raw)
+- 9.6px - Inter Medium, 9.6px (raw)
+- 8.91px - Inter Medium, 8.91px (raw)
+- 8.23px - Inter Bold, 8.23px (raw)
+- 6.86px - Inter Medium, 6.86px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- text-filed
+- top-notch
+- AlphabeticKeyboard
+- button
+- safe-area
+
+## Component Specs
+- text-filed: size 328x49px, text [Inter Medium, 13px]
+- top-notch: size 341x17px, horizontal layout, padding 0 0 0 0px, gap 254px, align min/center, sizing W:fixed H:fixed, text [Inter Bold, 12px]
+- AlphabeticKeyboard: size 376x302px, fill #D1D3D9, effect [background_blur 104.83px], text [SF Pro Text Regular, 15.43px, SF Pro Display Regular, 21.21px]
+- button: size 328x48px, text [Inter SemiBold, 16px]
+- safe-area: size 376x12px
+
+## Most-Used Styles
+- Label Color/Light/Primary: 160 uses
+- System Background/Light/Primary: 140 uses
+- links-colors: 127 uses
+- body-text-color: 104 uses
+- title-text-color: 97 uses
+- outline-gray: 47 uses
+- Gray 1: 33 uses
+- Gray 4: 4 uses
+- Gray 5: 2 uses
+- Gray 3: 1 use
+- Gray 6: 1 use
+- black-100: 1 use
+
+## Layout & Structure
+Screen: cover / Cover
+- FRAME "Cover", 1920x960px, constraints left/top, fill #000000
+  - VECTOR "Rectangle 64", 2317x2141px, constraints left/top, fill #1B1D38
+  - GROUP "Group 1358", 1697x1025px, constraints left/top, radius 0/0/0/0px [decorative, ~11 shapes]
+  - GROUP "Group 1356", 626x30px, constraints left/top, opacity 20%
+    - RECTANGLE "Rectangle 66", 626x10px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Rectangle 67", 626x10px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 1355", 626x30px, constraints left/top, opacity 20%
+    - RECTANGLE "Rectangle 68", 626x10px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Rectangle 69", 626x10px, constraints left/top, fill #D9D9D9
+  - TEXT "DEsign - UI Kit", 237x41px, constraints left/top, fill #FFFFFF, text [Uber Move Medium, 34px], [heading]
+  - FRAME "expedia-seeklogo.com 1", 838x233.05px, constraints left/top, fill #FFFFFF [decorative, ~20 shapes]
+  - FRAME "onboarding-screen-1", 257.81x556.76px, constraints left/top, fill #FFFFFF
+    - INSTANCE "top-notch", 233.61x11.66px, horizontal pad 0 0 0 0px gap 174.16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "8:23", 19x10px, constraints left/top, fill #000000, text [Inter Bold, 8.23px]
+      - FRAME "Frame 6", 40.45x11.66px, horizontal pad 0 0 0 0px gap 6.17px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 4", 8.23x8.23px, constraints left/top, fill #000000
+        - REGULAR_POLYGON "Polygon 1", 11.66x11.66px, constraints left/top, fill #000000
+        - ELLIPSE "Ellipse 1", 8.23x8.23px, constraints left/top, fill #000000
+    - TEXT "Get started", 53x12px, constraints left/top, fill #4962C7, text [Inter SemiBold, 9.6px]
+    - GROUP "illustration", 165.93x197.47px, constraints left/top, radius 0/0/0/0px
+      - GROUP "illustration", 165.93x197.47px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+      - RECTANGLE "Rectangle 33", 120.68x25.37px, constraints left/top, radius 5.49px, fill #FFFFFF
+      - RECTANGLE "Rectangle 34", 76.79x6.17px, constraints left/top, radius 2.74px, fill #EFECE9
+      - RECTANGLE "Rectangle 35", 58.97x6.17px, constraints left/top, radius 2.74px, fill #EFECE9
+      - GROUP "Group 2", 16.45x16.46px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 36", 16.35x16.35px, constraints left/top, radius 21.94px, fill #1B1D38
+        - VECTOR "path44", 15.68x9.46px, constraints scale/scale, fill #F5E070
+        - VECTOR "path46", 16.28x10.95px, constraints scale/scale, fill #F5E070
+      - GROUP "Group 6", 150.18x63.08px, constraints left/top, effect [drop_shadow 2.74px offset 0 2.74 #0000001F]
+        - BOOLEAN_OPERATION "Union", 146.05x63.08px, constraints left/top, fill gradient_linear(#B6C2EE 0% | #9FAEE9 100%), effect [drop_shadow 10.97px offset 0 2.74 #00000014]
+        - FRAME "Frame 8", 140.58x48px, horizontal pad 0 0 0 0px gap 5.49px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "+", 10x21px, constraints left/top, fill #000000, text [Gothic A1 SemiBold, 16.46px]
+          - FRAME "Frame 7", 103.61x48px, horizontal pad 0 0 0 0px gap 6.17px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 3", 24.68x32.91px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 4", 39.5x48px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 5", 27.08x32.91px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Pts", 16x12px, constraints left/top, fill #000000, text [Gothic A1 Bold, 9.6px]
+    - TEXT "More rewarding travel", 179x23px, constraints left/top, fill #363A50, text [Poppins Bold, 15.08px]
+    - TEXT "Save instantly on thousands of hotels with Member Proces and", 200.21x36px, constraints left/top, fill #383A4D, text [Inter Regular, 9.6px]
+    - INSTANCE "safe-area", 257.81x8.23px, constraints left/top
+      - RECTANGLE "Rectangle 26", 91.88x3.43px, constraints left/top, radius 10.97px, fill Gray 1
+  - FRAME "signin-options", 257.81x556.76px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "backdrop", 257.81x556.76px, constraints left/top, fill #00000040
+    - VECTOR "Rectangle 43", 257.81x516.99px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - INSTANCE "safe-area", 257.81x8.23px, constraints left/top
+      - RECTANGLE "Rectangle 26", 91.88x3.43px, constraints left/top, radius 10.97px, fill Gray 1
+    - INSTANCE "top-notch", 233.61x11.66px, horizontal pad 0 0 0 0px gap 174.16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "8:23", 19x10px, constraints left/top, fill #000000, text [Inter Bold, 8.23px]
+      - FRAME "Frame 6", 40.45x11.66px, horizontal pad 0 0 0 0px gap 6.17px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 4", 8.23x8.23px, constraints left/top, fill #000000
+        - REGULAR_POLYGON "Polygon 1", 11.66x11.66px, constraints left/top, fill #000000
+        - ELLIPSE "Ellipse 1", 8.23x8.23px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 44", 257.81x0.69px, constraints left/top, fill #D6D6D6
+    - RECTANGLE "Multiply", 16.46x16.46px, constraints left/top, fill image(hash: 179403d870c4d062c4c4b07b858a444f50e0290b)
+    - TEXT "Sign in", 50x18px, constraints left/top, fill #161C34, text [Inter SemiBold, 15.08px]
+    - TEXT "Book your entire trip in one place, with free acess to Membe", 224.21x25px, constraints left/top, fill body-text-color, text [Inter Medium, 8.91px]
+    - FRAME "Frame 11", 161.82x13px, horizontal pad 0 0 0 0px gap 3.43px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Don’t have an account?", 104.91x13px, constraints left/top, fill body-text-color, text [Inter Medium, 8.91px]
+      - TEXT "Create one", 53.48x13px, constraints left/top, fill links-colors, text [Inter Medium, 8.91px]
+    - FRAME "Frame 10", 224.21x106.96px, vertical pad 0 0 0 0px gap 8.23px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 7", 224.21x30.17px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 51", 224.21x30.17px, constraints left/top, radius 5.49px, stroke #DCDCDA 0.69px
+        - FRAME "Frame 9", 162.5x13px, horizontal pad 0 0 0 0px gap 38.4px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "apple-logo 1", 12.34x12.34px, constraints left/top, fill image(hash: a669bb818abf638d4b14347baf79d8c45d671cfe)
+          - TEXT "Continue with Apple", 111.76x13px, constraints left/top, fill links-colors, text [Inter Medium, 10.29px]
+      - GROUP "Group 8", 224.21x30.17px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 51", 224.21x30.17px, constraints left/top, radius 5.49px, stroke #DCDCDA 0.69px
+        - FRAME "Frame 9", 165.14x13px, horizontal pad 0 0 0 0px gap 28.8px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "facebook", 12.34x12.34px, constraints left/top, fill image(hash: ef9b88a726de6c2beb2b71ee5b8d660200359259)
+          - TEXT "Continue with Facebook", 124x13px, constraints left/top, fill links-colors, text [Inter Medium, 10.29px]
+      - GROUP "Group 9", 224.21x30.17px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 51", 224.21x30.17px, constraints left/top, radius 5.49px, stroke #DCDCDA 0.69px
+        - FRAME "Frame 9", 157.02x13px, horizontal pad 0 0 0 0px gap 32.91px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "search", 12.34x12.34px, constraints left/top, fill image(hash: 9358a632fe765206d076c18af39c815b3d7dc61f)
+          - TEXT "Continue with Google", 111.76x13px, constraints left/top, fill links-colors, text [Inter Medium, 10.29px]
+    - INSTANCE "text-filed", 224.9x33.6px, constraints left/top
+      - TEXT "Email address", 62x13px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 8.91px]
+      - RECTANGLE "Rectangle 47", 224.9x33.6px, constraints scale/scale, radius 5.49px, stroke #787981 0.69px
+  - FRAME "onboarding-screen-1", 257.81x556.76px, constraints left/top, fill #FFFFFF
+    - INSTANCE "top-notch", 233.61x11.66px, horizontal pad 0 0 0 0px gap 174.16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "8:23", 19x10px, constraints left/top, fill #000000, text [Inter Bold, 8.23px]
+      - FRAME "Frame 6", 40.45x11.66px, horizontal pad 0 0 0 0px gap 6.17px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 4", 8.23x8.23px, constraints left/top, fill #000000
+        - REGULAR_POLYGON "Polygon 1", 11.66x11.66px, constraints left/top, fill #000000
+        - ELLIPSE "Ellipse 1", 8.23x8.23px, constraints left/top, fill #000000
+    - TEXT "Skip", 21x12px, constraints left/top, fill #4962C7, text [Inter SemiBold, 9.6px]
+    - TEXT "Search for somewhere new", 159.76x46px, constraints left/top, fill #363A50, text [Poppins Bold, 15.08px]
+    - TEXT "Give us an idea of what you’re searching for to explore pers", 200.21x24px, constraints left/top, fill #383A4D, text [Inter Regular, 9.6px]
+    - INSTANCE "safe-area", 257.81x8.23px, constraints left/top
+      - RECTANGLE "Rectangle 26", 91.88x3.43px, constraints left/top, radius 10.97px, fill Gray 1
+    - GROUP "Group 13", 179.64x197.47px, constraints left/top, radius 0/0/0/0px
+      - GROUP "illustration", 165.93x197.47px, constraints left/top, radius 21.94px
+        - RECTANGLE "Rectangle 27", 165.93x197.47px, constraints left/top, radius 21.94px, fill #F3F2F0
+        - RECTANGLE "Rectangle 30", 165.93x197.47px, constraints left/top, radius 21.94px, fill #F3F2F0
+        - RECTANGLE "Rectangle 28", 165.93x197.47px, constraints left/top, radius 21.94px, fill #F3F2F0
+      - GROUP "Group 12", 179.64x37.03px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - ELLIPSE "Ellipse 2", 56.22x56.22px, constraints left/top, fill gradient_linear(#B6C2EE 0% | #9FAEE9 100%), effect [drop_shadow 10.97px offset 0 2.74 #00000014]
+      - ELLIPSE "Ellipse 3", 32.23x32.23px, constraints left/top, fill gradient_linear(#475FC7 0% | #3950AB 100%)
+      - BOOLEAN_OPERATION "Union", 115.19x31.54px, constraints left/top, fill gradient_linear(#475FC7 0% | #3950AB 100%)
+      - BOOLEAN_OPERATION "Union", 115.19x31.54px, constraints left/top, fill #FFFFFF, effect [drop_shadow 2.74px offset 0 2.74 #00000040]
+      - TEXT "What are you looking for?", 105x10px, constraints left/top, fill #3D4257, text [Inter Medium, 8.23px]
+      - TEXT "Family beach vacation", 92x10px, constraints left/top, fill #FFFFFF, text [Inter Medium, 8.23px]
+      - VECTOR "Vector", 13.71x17.14px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 24", 17.14x5.49px, horizontal pad 0 0 0 0px gap 6.17px sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 5", 5.49x5.49px, constraints left/top, fill #363A50
+      - ELLIPSE "Ellipse 4", 5.49x5.49px, constraints left/top, fill #7F7F7F
+    - GROUP "Group 14", 222.16x32.91px, constraints left/top, radius 5.49px
+      - RECTANGLE "Rectangle 61", 222.16x32.91px, constraints left/top, radius 5.49px, stroke #D4D4D2 0.69px
+      - TEXT "Next", 23x12px, constraints left/top, fill links-colors, text [Inter Bold, 9.6px]
+  - FRAME "onboarding-screen-2", 257.81x556.76px, constraints left/top, fill #FFFFFF
+    - INSTANCE "top-notch", 233.61x11.66px, horizontal pad 0 0 0 0px gap 174.16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "8:23", 19x10px, constraints left/top, fill #000000, text [Inter Bold, 8.23px]
+      - FRAME "Frame 6", 40.45x11.66px, horizontal pad 0 0 0 0px gap 6.17px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 4", 8.23x8.23px, constraints left/top, fill #000000
+        - REGULAR_POLYGON "Polygon 1", 11.66x11.66px, constraints left/top, fill #000000
+        - ELLIPSE "Ellipse 1", 8.23x8.23px, constraints left/top, fill #000000
+    - TEXT "Know the best time to buy", 159.76x46px, constraints left/top, fill #363A50, text [Poppins Bold, 15.08px]
+    - TEXT "Track flights and get notified when prices change for your t", 200.21x24px, constraints left/top, fill #383A4D, text [Inter Regular, 9.6px]
+    - INSTANCE "safe-area", 257.81x8.23px, constraints left/top
+      - RECTANGLE "Rectangle 26", 91.88x3.43px, constraints left/top, radius 10.97px, fill Gray 1
+    - FRAME "Frame 24", 17.14x5.49px, horizontal pad 0 0 0 0px gap 6.17px sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 5", 5.49x5.49px, constraints left/top, fill #363A50
+      - ELLIPSE "Ellipse 4", 5.49x5.49px, constraints left/top, fill #7F7F7F
+    - GROUP "Group 14", 222.16x32.91px, constraints left/top, radius 5.49px
+      - RECTANGLE "Rectangle 61", 222.16x32.91px, constraints left/top, radius 5.49px, stroke #D4D4D2 0.69px
+      - TEXT "Let’s go", 37x12px, constraints left/top, fill links-colors, text [Inter Bold, 9.6px]
+    - GROUP "Group 13", 165.93x197.47px, constraints left/top, radius 0/0/0/0px
+      - GROUP "illustration", 165.93x197.47px, constraints left/top, radius 0/0/0/0px [decorative, ~17 shapes]
+      - TEXT "$238", 25x12px, constraints left/top, fill #FFFFFF, text [Inter Medium, 9.6px]
+  - FRAME "notification-access", 257.81x556.76px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "backdrop", 257.81x556.76px, constraints left/top, fill #00000040
+    - VECTOR "Rectangle 43", 257.81x516.99px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - TEXT "Stay in the know", 159.76x18px, constraints left/top, fill #363A50, text [Inter Bold, 15.08px]
+    - TEXT "Get important travel updates, check in reminders, and flight", 200.21x38px, constraints left/top, fill #676A79, text [Inter Medium, 9.6px]
+    - TEXT "Not now", 46x13px, constraints left/top, fill links-colors, text [Inter SemiBold, 10.97px]
+    - INSTANCE "top-notch", 233.61x11.66px, horizontal pad 0 0 0 0px gap 174.16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "8:23", 19x10px, constraints left/top, fill #000000, text [Inter Bold, 8.23px]
+      - FRAME "Frame 6", 40.45x11.66px, horizontal pad 0 0 0 0px gap 6.17px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 4", 8.23x8.23px, constraints left/top, fill #000000
+        - REGULAR_POLYGON "Polygon 1", 11.66x11.66px, constraints left/top, fill #000000
+        - ELLIPSE "Ellipse 1", 8.23x8.23px, constraints left/top, fill #000000
+    - INSTANCE "safe-area", 257.81x8.23px, constraints left/top
+      - RECTANGLE "Rectangle 26", 91.88x3.43px, constraints left/top, radius 10.97px, fill Gray 1
+    - FRAME "Close", 16.46x16.46px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11.94x11.94px, constraints scale/scale, fill #000000
+    - INSTANCE "button", 224.9x32.91px, constraints left/top
+      - RECTANGLE "Rectangle 52", 224.9x32.91px, constraints scale/scale, radius 5.49px, fill links-colors
+      - TEXT "Continue", 103x13px, constraints center/scale, fill #FFFFFF, text [Inter SemiBold, 10.97px]
+    - VECTOR "Rectangle 69", 159.76x173.47px, constraints left/top, radius 0/0/0/0px, fill #94949C
+    - RECTANGLE "Rectangle 71", 24.68x4.8px, constraints left/top, radius 2.74px, fill #FFFFFF
+    - RECTANGLE "Rectangle 70", 135.08x128.22px, constraints left/top, fill #D5D4D2
+    - GROUP "Group 16", 215.99x52.8px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 72", 215.99x52.8px, constraints left/top, radius 8.23px, fill #FFFFFF, effect [drop_shadow 10.97px offset 0 2.74 #0000001A]
+      - TEXT "now", 17x13px, constraints left/top, fill #525161, text [Inter Medium, 8.23px]
+      - GROUP "Group 15", 164x25.34px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Departure gate", 62x13px, constraints left/top, fill #525161, text [Inter Bold, 8.23px]
+        - TEXT "Your flight to SFO will board from Gate 15", 164x13px, constraints left/top, fill #525161, text [Inter Regular, 8.23px]
+      - FRAME "expedia-seeklogo.com 1", 29.59x8.23px, constraints left/top, fill #FFFFFF [decorative, ~20 shapes]
+  - FRAME "home", 257.81x556.76px, constraints left/top, fill #FFFFFF
+    - INSTANCE "top-notch", 233.61x11.66px, horizontal pad 0 0 0 0px gap 174.16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "8:23", 19x10px, constraints left/top, fill #000000, text [Inter Bold, 8.23px]
+      - FRAME "Frame 6", 40.45x11.66px, horizontal pad 0 0 0 0px gap 6.17px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 4", 8.23x8.23px, constraints left/top, fill #000000
+        - REGULAR_POLYGON "Polygon 1", 11.66x11.66px, constraints left/top, fill #000000
+        - ELLIPSE "Ellipse 1", 8.23x8.23px, constraints left/top, fill #000000
+    - FRAME "expedia-seeklogo.com 1", 76.11x21.17px, constraints left/top, fill #FFFFFF [decorative, ~20 shapes]
+    - RECTANGLE "Rectangle 73", 257.81x0.69px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Rectangle 74", 257.81x0.69px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Rectangle 75", 257.81x0.69px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Rectangle 76", 257.81x0.69px, constraints left/top, fill #D9D9D9
+    - RECTANGLE "Rectangle 77", 0.69x103.54px, constraints left/top, fill #D9D9D9
+    - TEXT "Stays", 27x12px, constraints left/top, fill body-text-color, text [Inter Medium, 9.6px]
+    - TEXT "Cars", 22x12px, constraints left/top, fill body-text-color, text [Inter Medium, 9.6px]
+    - TEXT "Cruises", 36x12px, constraints left/top, fill body-text-color, text [Inter Medium, 9.6px]
+    - TEXT "Packages", 46x12px, constraints left/top, fill body-text-color, text [Inter Medium, 9.6px]
+    - TEXT "Things to do", 60x12px, constraints left/top, fill body-text-color, text [Inter Medium, 9.6px]
+    - TEXT "Flights", 32x12px, constraints left/top, fill body-text-color, text [Inter Medium, 9.6px]
+    - RECTANGLE "Rectangle 78", 257.81x189.93px, constraints left/top, fill image(hash: 58fb93ad08ce5f64398e52ce8252c37aaf68fb76)
+    - RECTANGLE "Rectangle 79", 224.9x113.14px, constraints left/top, radius 5.49px, fill image(hash: 82b79a8902c481a34a481f7fca894e1cc0ba3455)
+    - TEXT "Ideas for your next trip", 143x15px, constraints left/top, fill #000000, text [Inter Bold, 12.34px]
+    - TEXT "Save instantly with Expedia rewards", 155x44px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16.46px]
+    - TEXT "You can enjoy access to perks like Member Prices, saving an ", 229.7x30px, constraints left/top, fill #FFFFFF, text [Inter Regular, 8.23px]
+    - RECTANGLE "Rectangle 80", 257.81x59.65px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 25", 20x28.57px, vertical pad 0 0 0 0px gap 4.11px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Home", 16.46x16.46px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.46x16.46px, constraints scale/scale
+        - VECTOR "Vector", 13.71x11.66px, constraints scale/scale, fill links-colors
+      - TEXT "Home", 20x8px, constraints left/top, fill links-colors, text [Inter Medium, 6.86px]
+    - FRAME "Frame 26", 24x28.57px, vertical pad 0 0 0 0px gap 4.11px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Search", 16.46x16.46px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.46x16.46px, constraints scale/scale
+        - VECTOR "Vector", 11.99x11.99px, constraints scale/scale, fill body-text-color
+      - TEXT "Search", 24x8px, constraints left/top, fill body-text-color, text [Inter Medium, 6.86px]
+    - FRAME "Frame 27", 17x28.57px, vertical pad 0 0 0 0px gap 4.11px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Work", 16.46x16.46px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.46x16.46px, constraints scale/scale
+        - VECTOR "Vector", 13.71x13.03px, constraints scale/scale, fill body-text-color
+      - TEXT "Trips", 17x8px, constraints left/top, fill body-text-color, text [Inter Medium, 6.86px]
+    - FRAME "Frame 28", 29x28.57px, vertical pad 0 0 0 0px gap 4.11px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Account circle", 16.46x16.46px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16.46x16.46px, constraints scale/scale
+        - VECTOR "Vector", 13.71x13.71px, constraints scale/scale, fill body-text-color
+      - TEXT "Account", 29x8px, constraints left/top, fill body-text-color, text [Inter Medium, 6.86px]
+    - INSTANCE "safe-area", 257.81x8.23px, constraints left/top
+      - RECTANGLE "Rectangle 26", 91.88x3.43px, constraints left/top, radius 10.97px, fill Gray 1
+    - ELLIPSE "Ellipse 6", 32.91x32.91px, constraints left/top, fill #FFFFFF, effect [drop_shadow 2.74px offset 0 2.74 #00000040]
+    - ... +8 more children
+
+Screen: cover / home
+- FRAME "home", 376x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - GROUP "Group 17", 328x541px, constraints left/top, radius 16px
+    - RECTANGLE "Rectangle 78", 327.05x263px, constraints left/top, radius 16px, fill image(hash: b479f448c9df20bb12d9f2cc95589628bdf1bcf0)
+    - RECTANGLE "Rectangle 81", 327.05x263px, constraints left/top, radius 16px, fill image(hash: 0e995a17fcb9d3efa81990e73526ab1a2c86f894)
+    - TEXT "Save instantly with Expedia rewards", 248x64px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "Save instantly with Expedia rewards", 248x64px, constraints left/top, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "You can enjoy access to perks like Member Prices, saving an ", 298.53x45px, constraints left/top, fill #FFFFFF, text [Inter Regular, 12px]
+  - RECTANGLE "Rectangle 83", 376x93px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 73", 376x1px, constraints left/top, fill #D9D9D9
+  - FRAME "expedia-seeklogo.com 1", 111x30.87px, constraints left/top, fill #FFFFFF [decorative, ~20 shapes]
+  - TEXT "You can enjoy access to perks like Member Prices, saving an ", 301x45px, constraints left/top, fill #FFFFFF, text [Inter Regular, 12px]
+  - RECTANGLE "Rectangle 80", 376x87px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 25", 29x42px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Home", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 20x17px, constraints scale/scale, fill links-colors
+    - TEXT "Home", 29x12px, constraints left/top, fill links-colors, text [Inter Medium, 10px]
+  - FRAME "Frame 26", 35x42px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Search", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 17.49x17.49px, constraints scale/scale, fill body-text-color
+    - TEXT "Search", 35x12px, constraints left/top, fill body-text-color, text [Inter Medium, 10px]
+  - FRAME "Frame 27", 25x42px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Work", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 20x19px, constraints scale/scale, fill body-text-color
+    - TEXT "Trips", 25x12px, constraints left/top, fill body-text-color, text [Inter Medium, 10px]
+  - FRAME "Frame 28", 42x42px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Account circle", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 20x20px, constraints scale/scale, fill body-text-color
+    - TEXT "Account", 42x12px, constraints left/top, fill body-text-color, text [Inter Medium, 10px]
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - RECTANGLE "Rectangle 82", 320x75px, constraints left/top, radius 16px, stroke Gray 5 1px
+  - FRAME "Frame 31", 210x52px, vertical pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Save $30 on your next hotel when you refer a friend", 210x30px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - TEXT "Terms Apply", 73x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - ELLIPSE "Ellipse 6", 48x48px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Chat bubble", 18x18px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18x18px, constraints scale/scale
+    - VECTOR "Vector", 15x15px, constraints scale/scale, fill links-colors
+  - GROUP "Group 19", 56.13x51.8px, constraints left/top
+    - BOOLEAN_OPERATION "Subtract", 51.8x51.8px, constraints left/top, fill #5D86E6
+    - GROUP "Mask group", 51.8x51.8px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 18", 37.37x37.22px, constraints left/top
+      - BOOLEAN_OPERATION "Subtract", 37.37x37.22px, constraints left/top, fill #F4D766
+      - TEXT "%", 23.21x23.43px, constraints left/top, fill title-text-color, text [Inter Bold, 15.96px]
+
+Screen: design-files / splash-screen
+- FRAME "splash-screen", 376x812px, constraints left/top, fill #1B1D38
+  - FRAME "expedia-seeklogo.com 1", 234x65.08px, constraints left/top, fill #FFFFFF [decorative, ~20 shapes]
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 6
+
+Screen: design-files / safe-area
+- COMPONENT "safe-area", 376x12px, constraints left/top
+  - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill black-100
+
+Screen: design-files / Group 1
+- GROUP "Group 1", 807x112px, constraints left/top
+  - RECTANGLE "Rectangle 1", 807x112px, constraints left/top, fill #D9D9D9
+  - TEXT "EXPEDIA", 224x61px, constraints left/top, fill #000000, text [Inter Bold, 50px], [heading]
+
+Screen: design-files / Rectangle 2
+- RECTANGLE "Rectangle 2", 24x62px, constraints left/top, fill #A8A8A8
+
+Screen: design-files / Rectangle 3
+- RECTANGLE "Rectangle 3", 24x31px, constraints left/top, fill #A8A8A8
+
+Screen: design-files / onboarding-screen-1
+- FRAME "onboarding-screen-1", 376x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - TEXT "Get started", 78x17px, constraints left/top, fill #4962C7, text [Inter SemiBold, 14px]
+  - GROUP "illustration", 242x288px, constraints left/top, radius 0/0/0/0px
+    - GROUP "illustration", 242x288px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+    - RECTANGLE "Rectangle 33", 176x37px, constraints left/top, radius 8px, fill #FFFFFF
+    - RECTANGLE "Rectangle 34", 112x9px, constraints left/top, radius 4px, fill #EFECE9
+    - RECTANGLE "Rectangle 35", 86x9px, constraints left/top, radius 4px, fill #EFECE9
+    - GROUP "Group 2", 23.99x24px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 36", 23.84x23.84px, constraints left/top, radius 32px, fill #1B1D38
+      - VECTOR "path44", 22.87x13.8px, constraints scale/scale, fill #F5E070
+      - VECTOR "path46", 23.74x15.97px, constraints scale/scale, fill #F5E070
+    - GROUP "Group 6", 213x92px, constraints left/top, effect [drop_shadow 4px offset 0 4 #0000001F]
+      - BOOLEAN_OPERATION "Union", 213x92px, constraints left/top, fill gradient_linear(#B6C2EE 0% | #9FAEE9 100%), effect [drop_shadow 16px offset 0 4 #00000014]
+      - FRAME "Frame 8", 186x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "+", 14x30px, constraints left/top, fill #000000, text [Gothic A1 SemiBold, 24px], [heading]
+        - FRAME "Frame 7", 133x48px, horizontal pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 3", 36x48px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Rectangle 38", 36x23px, constraints left/top, radius 0/0/0/0px, fill #4761C8
+            - VECTOR "Rectangle 39", 36x23px, constraints left/top, radius 0/0/0/0px, fill #4761C8
+            - GROUP "Group 4", 36x23px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 5", 36x23px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 4", 39.5x48px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Rectangle 38", 36x23px, constraints left/top, radius 0/0/0/0px, fill #4761C8
+            - VECTOR "Rectangle 39", 35x23px, constraints left/top, radius 0/0/0/0px, fill #364EA9
+            - GROUP "Group 4", 39.5x44.5px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 5", 36x23px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 5", 39.5x48px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Rectangle 38", 36x23px, constraints left/top, radius 0/0/0/0px, fill #4761C8
+            - VECTOR "Rectangle 39", 35x23px, constraints left/top, radius 0/0/0/0px, fill #4560C9
+            - GROUP "Group 4", 39.5x44.5px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 5", 36x23px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Pts", 23x18px, constraints left/top, fill #000000, text [Gothic A1 Bold, 14px]
+  - TEXT "More rewarding travel", 260x33px, constraints left/top, fill #363A50, text [Poppins Bold, 22px]
+  - TEXT "Save instantly on thousands of hotels with Member Proces and", 292x51px, constraints left/top, fill #383A4D, text [Inter Regular, 14px]
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+
+Screen: design-files / onboarding-screen-1
+- FRAME "onboarding-screen-1", 376x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - TEXT "Skip", 30x17px, constraints left/top, fill #4962C7, text [Inter SemiBold, 14px]
+  - TEXT "Search for somewhere new", 233x66px, constraints left/top, fill #363A50, text [Poppins Bold, 22px]
+  - TEXT "Give us an idea of what you’re searching for to explore pers", 292x34px, constraints left/top, fill #383A4D, text [Inter Regular, 14px]
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - GROUP "Group 13", 262x288px, constraints left/top, radius 0/0/0/0px
+    - GROUP "illustration", 242x288px, constraints left/top, radius 32px
+      - RECTANGLE "Rectangle 27", 242x288px, constraints left/top, radius 32px, fill #F3F2F0
+      - RECTANGLE "Rectangle 30", 242x288px, constraints left/top, radius 32px, fill #F3F2F0
+      - RECTANGLE "Rectangle 28", 242x288px, constraints left/top, radius 32px, fill #F3F2F0
+    - GROUP "Group 12", 262x54px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - ELLIPSE "Ellipse 2", 82x82px, constraints left/top, fill gradient_linear(#B6C2EE 0% | #9FAEE9 100%), effect [drop_shadow 16px offset 0 4 #00000014]
+    - ELLIPSE "Ellipse 3", 47x47px, constraints left/top, fill gradient_linear(#475FC7 0% | #3950AB 100%)
+    - BOOLEAN_OPERATION "Union", 168x46px, constraints left/top, fill gradient_linear(#475FC7 0% | #3950AB 100%)
+    - BOOLEAN_OPERATION "Union", 168x46px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "What are you looking for?", 152x15px, constraints left/top, fill #3D4257, text [Inter Medium, 12px]
+    - TEXT "Family beach vacation", 133x15px, constraints left/top, fill #FFFFFF, text [Inter Medium, 12px]
+    - VECTOR "Vector", 20x25px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 24", 25x8px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+    - ELLIPSE "Ellipse 5", 8x8px, constraints left/top, fill #363A50
+    - ELLIPSE "Ellipse 4", 8x8px, constraints left/top, fill #7F7F7F
+  - GROUP "Group 14", 324x48px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 61", 324x48px, constraints left/top, radius 8px, stroke #D4D4D2 1px
+    - TEXT "Next", 33x17px, constraints left/top, fill links-colors, text [Inter Bold, 14px]
+
+Screen: design-files / onboarding-screen-2
+- FRAME "onboarding-screen-2", 376x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - TEXT "Know the best time to buy", 233x66px, constraints left/top, fill #363A50, text [Poppins Bold, 22px]
+  - TEXT "Track flights and get notified when prices change for your t", 292x34px, constraints left/top, fill #383A4D, text [Inter Regular, 14px]
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - FRAME "Frame 24", 25x8px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+    - ELLIPSE "Ellipse 5", 8x8px, constraints left/top, fill #363A50
+    - ELLIPSE "Ellipse 4", 8x8px, constraints left/top, fill #7F7F7F
+  - GROUP "Group 14", 324x48px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 61", 324x48px, constraints left/top, radius 8px, stroke #D4D4D2 1px
+    - TEXT "Let’s go", 54x17px, constraints left/top, fill links-colors, text [Inter Bold, 14px]
+  - GROUP "Group 13", 242x288px, constraints left/top, radius 0/0/0/0px
+    - GROUP "illustration", 242x288px, constraints left/top, radius 0/0/0/0px [decorative, ~17 shapes]
+    - TEXT "$238", 37x17px, constraints left/top, fill #FFFFFF, text [Inter Medium, 14px]
+
+Screen: design-files / terms-condition
+- FRAME "terms-condition", 376x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - RECTANGLE "Rectangle 73", 376x1px, constraints left/top, fill #D9D9D9
+  - FRAME "Frame 29", 328x30.87px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top [decorative, ~26 shapes]
+  - TEXT "Privacy Statement", 168x32px, constraints left/top, fill title-text-color, text [Inter Bold, 18px]
+  - TEXT "Privacy Statement Summary", 260x32px, constraints left/top, fill title-text-color, text [Inter Bold, 18px]
+  - TEXT "Last updated: December 14, 2022", 335x17px, constraints left/top, fill #000000, text [Inter Regular, 14px]
+  - TEXT "Welcome to the Expedia.com.ph website (the "Website"). This ", 335x312px, constraints left/top, fill body-text-color, text [Inter Regular, 14px]
+  - TEXT "As a condition of your use of this Website, you warrant that", 335x264px, constraints left/top, fill body-text-color, text [Inter Regular, 14px]
+
+Screen: design-files / signin-options
+- FRAME "signin-options", 376x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "backdrop", 376x812px, constraints left/top, fill #00000040
+  - VECTOR "Rectangle 43", 376x754px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 44", 376x1px, constraints left/top, fill #D6D6D6
+  - RECTANGLE "Multiply", 24x24px, constraints left/top, fill image(hash: 179403d870c4d062c4c4b07b858a444f50e0290b)
+  - TEXT "Sign in", 72x27px, constraints left/top, fill #161C34, text [Inter SemiBold, 22px]
+  - TEXT "Book your entire trip in one place, with free acess to Membe", 327x36px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+  - FRAME "Frame 11", 236x18px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Don’t have an account?", 153x18px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+    - TEXT "Create one", 78x18px, constraints left/top, fill links-colors, text [Inter Medium, 13px]
+  - FRAME "Frame 10", 327x156px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 7", 327x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 51", 327x44px, constraints left/top, radius 8px, stroke #DCDCDA 1px
+      - FRAME "Frame 9", 237x18px, horizontal pad 0 0 0 0px gap 56px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "apple-logo 1", 18x18px, constraints left/top, fill image(hash: a669bb818abf638d4b14347baf79d8c45d671cfe)
+        - TEXT "Continue with Apple", 163x18px, constraints left/top, fill links-colors, text [Inter Medium, 15px]
+    - GROUP "Group 8", 327x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 51", 327x44px, constraints left/top, radius 8px, stroke #DCDCDA 1px
+      - FRAME "Frame 9", 241x18px, horizontal pad 0 0 0 0px gap 42px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "facebook", 18x18px, constraints left/top, fill image(hash: ef9b88a726de6c2beb2b71ee5b8d660200359259)
+        - TEXT "Continue with Facebook", 181x18px, constraints left/top, fill links-colors, text [Inter Medium, 15px]
+    - GROUP "Group 9", 327x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 51", 327x44px, constraints left/top, radius 8px, stroke #DCDCDA 1px
+      - FRAME "Frame 9", 229x18px, horizontal pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "search", 18x18px, constraints left/top, fill image(hash: 9358a632fe765206d076c18af39c815b3d7dc61f)
+        - TEXT "Continue with Google", 163x18px, constraints left/top, fill links-colors, text [Inter Medium, 15px]
+  - INSTANCE "text-filed", 328x49px, constraints left/top
+    - TEXT "Email address", 90x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 13px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+
+Screen: design-files / search-property
+- FRAME "search-property", 376x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "backdrop", 376x812px, constraints left/top, fill #00000040
+  - VECTOR "Rectangle 43", 376x754px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 44", 376x1px, constraints left/top, fill #D6D6D6
+  - TEXT "Search by property name", 190x21px, constraints left/top, fill title-text-color, text [Inter SemiBold, 15px]
+  - FRAME "Close", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.41x17.41px, constraints scale/scale, fill links-colors
+  - TEXT "Done", 32x15px, constraints left/top, fill links-colors, text [Inter SemiBold, 12px]
+  - FRAME "text-filed", 328x49px, constraints left/top
+    - TEXT "Enter property name", 113x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+    - TEXT "|", 5x18px, constraints scale/scale, fill links-colors, text [Inter Medium, 14px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke links-colors 1px
+    - FRAME "Search", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 17.49x17.49px, constraints scale/scale, fill links-colors
+  - INSTANCE "AlphabeticKeyboard", 376x302px, constraints left/top, fill #D1D3D9, effect [background_blur 104.83px]
+    - FRAME "Keys", 370.22x144.62px, constraints left_right/top, fill #FFFFFF
+      - FRAME "Top Row", 370.22x40.49px, constraints left_right/top, fill #FFFFFF
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+      - FRAME "Middle Row", 333.58x40.49px, constraints left_right/top, fill #FFFFFF
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 32.78x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 32.78x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 33x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 30.85x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 30.85x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 31x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 32.78x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 32.78x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 33x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+      - FRAME "Bottom Row", 370.22x40.49px, constraints left_right/top, fill #FFFFFF
+        - FRAME "Keys", 258.38x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 32.78x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 32.78x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 33x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 30.85x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 30.85x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 31x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 32.78x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 32.78x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 33x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 32x28px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 40.49x40.49px, constraints left/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 40.49x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - VECTOR "Shift Active", 18.32x15.71px, constraints center/center, fill Label Color/Light/Primary
+        - INSTANCE "_Key", 40.49x40.49px, constraints right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 40.49x40.49px, constraints scale/scale, radius 4.43px, fill #ABB0BC, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - VECTOR "Union", 22.17x16.39px, constraints center/center, fill Label Color/Light/Primary
+    - FRAME "Bottom Row", 370.22x40.49px, horizontal pad 0 0 0 0px gap 5.78px sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "_Key", 87.73x40.49px, constraints left/top, fill #FFFFFF
+        - INSTANCE "_KeyContainer", 87.73x40.49px, constraints scale/scale, radius 4.43px, fill #ABB0BC, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+        - TEXT "Letter", 88x21px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Text Regular, 15.43px]
+      - INSTANCE "_Key", 183.18x40.49px, constraints center/top, fill #FFFFFF
+        - INSTANCE "_KeyContainer", 183.18x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+        - TEXT "Letter", 183x21px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Text Regular, 15.43px]
+      - INSTANCE "_Key", 87.73x40.49px, constraints left/top, fill #FFFFFF
+        - INSTANCE "_KeyContainer", 87.73x40.49px, constraints scale/scale, radius 4.43px, fill #ABB0BC, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+        - TEXT "Letter", 88x21px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Text Regular, 15.43px]
+    - FRAME "Emoji & Dictation", 316.23x26.99px, horizontal pad 0 0 0 0px gap 22.17px align space_between/min sizing W:fixed H:fixed, constraints left_right/top
+      - VECTOR "Icon / Emoji", 26.03x26.03px, constraints scale/scale, fill #50555C
+      - VECTOR "Icon / Dictation", 18.32x26.99px, constraints left/top, fill #50555C
+    - INSTANCE "HomeIndicator", 375.04x32.78px, constraints left_right/bottom, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 129.19x4.82px, constraints center/bottom, radius 96.41px, fill Label Color/Light/Primary
+
+Screen: design-files / signup-options
+- FRAME "signup-options", 376x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "backdrop", 376x812px, constraints left/top, fill #00000040
+  - VECTOR "Rectangle 43", 376x754px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 44", 376x1px, constraints left/top, fill #D6D6D6
+  - RECTANGLE "Multiply", 24x24px, constraints left/top, fill image(hash: 179403d870c4d062c4c4b07b858a444f50e0290b)
+  - TEXT "Create an account", 196x27px, constraints left/top, fill #161C34, text [Inter SemiBold, 22px]
+  - TEXT "Book your entire trip in one place, with free acess to Membe", 327x36px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+  - FRAME "Frame 11", 236x18px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Don’t have an account?", 153x18px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+    - TEXT "Create one", 78x18px, constraints left/top, fill links-colors, text [Inter Medium, 13px]
+  - FRAME "Frame 10", 327x156px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 7", 327x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 51", 327x44px, constraints left/top, radius 8px, stroke #DCDCDA 1px
+      - FRAME "Frame 9", 237x18px, horizontal pad 0 0 0 0px gap 56px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "apple-logo 1", 18x18px, constraints left/top, fill image(hash: a669bb818abf638d4b14347baf79d8c45d671cfe)
+        - TEXT "Continue with Apple", 163x18px, constraints left/top, fill links-colors, text [Inter Medium, 15px]
+    - GROUP "Group 8", 327x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 51", 327x44px, constraints left/top, radius 8px, stroke #DCDCDA 1px
+      - FRAME "Frame 9", 241x18px, horizontal pad 0 0 0 0px gap 42px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "facebook", 18x18px, constraints left/top, fill image(hash: ef9b88a726de6c2beb2b71ee5b8d660200359259)
+        - TEXT "Continue with Facebook", 181x18px, constraints left/top, fill links-colors, text [Inter Medium, 15px]
+    - GROUP "Group 9", 327x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 51", 327x44px, constraints left/top, radius 8px, stroke #DCDCDA 1px
+      - FRAME "Frame 9", 229x18px, horizontal pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "search", 18x18px, constraints left/top, fill image(hash: 9358a632fe765206d076c18af39c815b3d7dc61f)
+        - TEXT "Continue with Google", 163x18px, constraints left/top, fill links-colors, text [Inter Medium, 15px]
+  - INSTANCE "text-filed", 328x49px, constraints left/top
+    - TEXT "Email address", 90x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 13px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+
+Screen: design-files / signup-options
+- FRAME "signup-options", 376x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "backdrop", 376x812px, constraints left/top, fill #00000040
+  - VECTOR "Rectangle 43", 376x754px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 44", 376x1px, constraints left/top, fill #D6D6D6
+  - RECTANGLE "Multiply", 24x24px, constraints left/top, fill image(hash: 179403d870c4d062c4c4b07b858a444f50e0290b)
+  - TEXT "Create an account", 196x27px, constraints left/top, fill #161C34, text [Inter SemiBold, 22px]
+  - TEXT "Book your entire trip in one place, with free acess to Membe", 327x36px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+  - FRAME "Frame 11", 164x18px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Have an account?", 115x18px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+    - TEXT "Sign in", 44x18px, constraints left/top, fill links-colors, text [Inter Medium, 13px]
+  - FRAME "Frame 10", 327x156px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 7", 327x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 51", 327x44px, constraints left/top, radius 8px, stroke #DCDCDA 1px
+      - FRAME "Frame 9", 237x18px, horizontal pad 0 0 0 0px gap 56px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "apple-logo 1", 18x18px, constraints left/top, fill image(hash: a669bb818abf638d4b14347baf79d8c45d671cfe)
+        - TEXT "Continue with Apple", 163x18px, constraints left/top, fill links-colors, text [Inter Medium, 15px]
+    - GROUP "Group 8", 327x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 51", 327x44px, constraints left/top, radius 8px, stroke #DCDCDA 1px
+      - FRAME "Frame 9", 241x18px, horizontal pad 0 0 0 0px gap 42px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "facebook", 18x18px, constraints left/top, fill image(hash: ef9b88a726de6c2beb2b71ee5b8d660200359259)
+        - TEXT "Continue with Facebook", 181x18px, constraints left/top, fill links-colors, text [Inter Medium, 15px]
+    - GROUP "Group 9", 327x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 51", 327x44px, constraints left/top, radius 8px, stroke #DCDCDA 1px
+      - FRAME "Frame 9", 229x18px, horizontal pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "search", 18x18px, constraints left/top, fill image(hash: 9358a632fe765206d076c18af39c815b3d7dc61f)
+        - TEXT "Continue with Google", 163x18px, constraints left/top, fill links-colors, text [Inter Medium, 15px]
+  - FRAME "text-filed", 328x49px, constraints left/top
+    - TEXT "Email address", 76x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+    - TEXT "John.mobbin1@gmail.com", 182x18px, constraints scale/scale, fill title-text-color, text [Inter Medium, 14px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+    - TEXT "|", 6x18px, constraints scale/scale, fill links-colors, text [Inter Medium, 16px]
+  - COMPONENT "button", 328x48px, constraints left/top
+    - RECTANGLE "Rectangle 52", 328x48px, constraints scale/scale, radius 8px, fill links-colors
+    - TEXT "Continue", 73x18px, constraints center/scale, fill #FFFFFF, text [Inter SemiBold, 16px]
+  - COMPONENT "AlphabeticKeyboard", 376x302px, constraints left/top, fill #D1D3D9, effect [background_blur 104.83px]
+    - FRAME "Keys", 370.22x144.62px, constraints left_right/top, fill #FFFFFF
+      - FRAME "Top Row", 370.22x40.49px, constraints left_right/top, fill #FFFFFF
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+      - FRAME "Middle Row", 333.58x40.49px, constraints left_right/top, fill #FFFFFF
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 32.78x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 32.78x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 33x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 30.85x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 30.85x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 31x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 32.78x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 32.78x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 33x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+      - FRAME "Bottom Row", 370.22x40.49px, constraints left_right/top, fill #FFFFFF
+        - FRAME "Keys", 258.38x40.49px, constraints left_right/top, fill #FFFFFF
+          - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 32.78x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 32.78x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 33x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 30.85x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 30.85x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 31x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 32.78x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 32.78x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 33x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+          - INSTANCE "_Key", 31.82x40.49px, constraints left_right/top, fill #FFFFFF
+            - INSTANCE "_KeyContainer", 31.82x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+            - TEXT "Letter", 32x27px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Display Regular, 21.21px]
+        - INSTANCE "_Key", 40.49x40.49px, constraints left/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 40.49x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - VECTOR "Shift Active", 18.32x15.71px, constraints center/center, fill Label Color/Light/Primary
+        - INSTANCE "_Key", 40.49x40.49px, constraints right/top, fill #FFFFFF
+          - INSTANCE "_KeyContainer", 40.49x40.49px, constraints scale/scale, radius 4.43px, fill #ABB0BC, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+          - VECTOR "Union", 22.17x16.39px, constraints center/center, fill Label Color/Light/Primary
+    - FRAME "Bottom Row", 370.22x40.49px, horizontal pad 0 0 0 0px gap 5.78px sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "_Key", 87.73x40.49px, constraints left/top, fill #FFFFFF
+        - INSTANCE "_KeyContainer", 87.73x40.49px, constraints scale/scale, radius 4.43px, fill #ABB0BC, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+        - TEXT "Letter", 88x21px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Text Regular, 15.43px]
+      - INSTANCE "_Key", 183.18x40.49px, constraints center/top, fill #FFFFFF
+        - INSTANCE "_KeyContainer", 183.18x40.49px, constraints scale/scale, radius 4.43px, fill System Background/Light/Primary, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+        - TEXT "Letter", 183x21px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Text Regular, 15.43px]
+      - INSTANCE "_Key", 87.73x40.49px, constraints left/top, fill #FFFFFF
+        - INSTANCE "_KeyContainer", 87.73x40.49px, constraints scale/scale, radius 4.43px, fill #ABB0BC, effect [drop_shadow 0px offset 0 0.96 #0000004D]
+        - TEXT "Letter", 88x21px, constraints left_right/center, fill Label Color/Light/Primary, text [SF Pro Text Regular, 15.43px]
+    - FRAME "Emoji & Dictation", 316.23x26.99px, horizontal pad 0 0 0 0px gap 22.17px align space_between/min sizing W:fixed H:fixed, constraints left_right/top
+      - VECTOR "Icon / Emoji", 26.03x26.03px, constraints scale/scale, fill #50555C
+      - VECTOR "Icon / Dictation", 18.32x26.99px, constraints left/top, fill #50555C
+    - INSTANCE "HomeIndicator", 375.04x32.78px, constraints left_right/bottom, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 129.19x4.82px, constraints center/bottom, radius 96.41px, fill Label Color/Light/Primary
+
+Screen: design-files / signup-options
+- FRAME "signup-options", 376x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "backdrop", 376x812px, constraints left/top, fill #00000040
+  - VECTOR "Rectangle 43", 376x754px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 44", 376x1px, constraints left/top, fill #D6D6D6
+  - RECTANGLE "Multiply", 24x24px, constraints left/top, fill image(hash: 179403d870c4d062c4c4b07b858a444f50e0290b)
+  - TEXT "Create an account", 196x27px, constraints left/top, fill #161C34, text [Inter SemiBold, 22px]
+  - FRAME "text-filed", 328x49px, constraints left/top
+    - TEXT "Email address", 76x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+    - TEXT "John.mobbin1@gmail.com", 182x18px, constraints scale/scale, fill title-text-color, text [Inter Medium, 14px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+    - TEXT "|", 6x18px, constraints scale/scale, fill links-colors, text [Inter Medium, 16px]
+  - INSTANCE "button", 328x48px, constraints left/top
+    - RECTANGLE "Rectangle 52", 328x48px, constraints scale/scale, radius 8px, fill links-colors
+    - TEXT "Continue", 124x18px, constraints center/scale, fill #FFFFFF, text [Inter SemiBold, 16px]
+  - FRAME "Frame 12", 297x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "By continuing, you agree to the Expedia", 257x18px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+    - FRAME "Frame 13", 297x18px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Terms and conditions, Privacy Statement", 269x18px, constraints left/top, fill links-colors, text [Inter Medium, 13px]
+      - TEXT "and", 24x18px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+    - TEXT "Expedia Rewards Terms and Conditions.", 260x18px, constraints left/top, fill links-colors, text [Inter Medium, 13px]
+  - FRAME "Frame 14", 329x54px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 53", 16x16px, constraints left/top, radius 2px, stroke #72747F 2px
+    - FRAME "Frame 13", 305x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Receive travel deals, special offers and other information f", 305x54px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - INSTANCE "text-filed", 328x49px, constraints left/top
+    - TEXT "Email address", 68x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 13px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+  - INSTANCE "text-filed", 328x49px, constraints left/top
+    - TEXT "Email address", 67x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 13px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+  - FRAME "text-filed", 328x49px, constraints left/top
+    - TEXT "Email address", 63x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 13px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+    - FRAME "Remove red eye", 18x18px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale
+      - VECTOR "Vector", 16.5x11.25px, constraints scale/scale, fill #353A4E
+
+Screen: design-files / signup-options
+- FRAME "signup-options", 376x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "backdrop", 376x812px, constraints left/top, fill #00000040
+  - VECTOR "Rectangle 43", 376x754px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - TEXT "Password must include:", 142x18px, constraints left/top, fill #000000, text [Inter Medium, 12px]
+  - FRAME "text-filed", 328x49px, constraints left/top
+    - TEXT "First name", 58x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+    - TEXT "John", 34x18px, constraints scale/scale, fill title-text-color, text [Inter Medium, 14px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+  - FRAME "text-filed", 328x49px, constraints left/top
+    - TEXT "Last name", 57x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+    - TEXT "Mobbin", 52x18px, constraints scale/scale, fill title-text-color, text [Inter Medium, 14px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+  - FRAME "text-filed", 328x49px, constraints left/top
+    - TEXT "Password", 53x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+    - FRAME "Remove red eye", 18x18px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale
+      - VECTOR "Vector", 16.5x11.25px, constraints scale/scale, fill #353A4E
+  - FRAME "Keyboard arrow left", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 24x24px, constraints scale/scale
+    - VECTOR "Vector", 9.88x16px, constraints scale/scale, fill links-colors
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 44", 376x1px, constraints left/top, fill #D6D6D6
+  - TEXT "Create an account", 196x27px, constraints left/top, fill #161C34, text [Inter SemiBold, 22px]
+  - FRAME "text-filed", 328x49px, constraints left/top
+    - TEXT "Email address", 76x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+    - TEXT "John.mobbin1@gmail.com", 182x18px, constraints scale/scale, fill title-text-color, text [Inter Medium, 14px]
+    - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+    - TEXT "|", 6x18px, constraints scale/scale, fill links-colors, text [Inter Medium, 16px]
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - FRAME "Frame 16", 327x34px, vertical pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 15", 327x18px, horizontal pad 0 0 0 0px gap 170px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Password Strength", 114x18px, constraints left/top, fill #545667, text [Inter Medium, 12px]
+      - TEXT "Strong", 43x18px, constraints left/top, fill #000000, text [Inter Medium, 13px]
+    - RECTANGLE "Rectangle 54", 326x8px, constraints left/top, radius 8px, fill #416D65
+  - FRAME "Frame 17", 148x18px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Check circle", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x16px, constraints scale/scale
+      - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #416D65
+    - TEXT "At least 8 characters", 124x18px, constraints left/top, fill #416D65, text [Inter Medium, 12px]
+  - FRAME "Frame 18", 198x18px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Check circle", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x16px, constraints scale/scale
+      - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #416D65
+    - TEXT "Capital and lowercase letters", 174x18px, constraints left/top, fill #416D65, text [Inter Medium, 12px]
+  - FRAME "Frame 19", 234x18px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Check circle", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x16px, constraints scale/scale
+      - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #416D65
+    - TEXT "A special character ~ #@$%&!*_?^-", 210x18px, constraints left/top, fill #416D65, text [Inter Medium, 12px]
+  - FRAME "Frame 20", 82x18px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Check circle", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x16px, constraints scale/scale
+      - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #416D65
+    - TEXT "A number", 58x18px, constraints left/top, fill #416D65, text [Inter Medium, 12px]
+  - GROUP "Group 10", 325x60px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 56", 325x60px, constraints left/top, radius 8px, fill #FFFFFF, stroke #D7D8D5 1px
+    - FRAME "Frame 21", 298x36px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Info outline", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #000000
+      - TEXT "Avoid using spaces, your name, email, or passwords you have ", 262x36px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+  - FRAME "Frame 14", 329x54px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 53", 16x16px, constraints left/top, radius 2px, stroke #72747F 2px
+    - FRAME "Frame 13", 305x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Receive travel deals, special offers and other information f", 305x54px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+
+Screen: design-files / signup-options
+- FRAME "signup-options", 376x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "backdrop", 376x812px, constraints left/top, fill #00000040
+  - VECTOR "Rectangle 43", 376x754px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - GROUP "Group 11", 329x517px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Password must include:", 142x18px, constraints left/top, fill #000000, text [Inter Medium, 12px]
+    - FRAME "text-filed", 328x49px, constraints left/top
+      - TEXT "First name", 58x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+      - TEXT "John", 34x18px, constraints scale/scale, fill title-text-color, text [Inter Medium, 14px]
+      - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+    - FRAME "text-filed", 328x49px, constraints left/top
+      - TEXT "Last name", 57x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+      - TEXT "Mobbin", 52x18px, constraints scale/scale, fill title-text-color, text [Inter Medium, 14px]
+      - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+    - FRAME "text-filed", 328x49px, constraints left/top
+      - TEXT "Password", 53x18px, constraints scale/scale, fill #7B7D85, text [Inter Medium, 11px]
+      - RECTANGLE "Rectangle 47", 328x49px, constraints scale/scale, radius 8px, stroke #787981 1px
+      - FRAME "Remove red eye", 18x18px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 18x18px, constraints scale/scale
+        - VECTOR "Vector", 16.5x11.25px, constraints scale/scale, fill #353A4E
+    - FRAME "Frame 16", 327x34px, vertical pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 15", 327x18px, horizontal pad 0 0 0 0px gap 170px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Password Strength", 114x18px, constraints left/top, fill #545667, text [Inter Medium, 12px]
+        - TEXT "Strong", 43x18px, constraints left/top, fill #000000, text [Inter Medium, 13px]
+      - RECTANGLE "Rectangle 54", 326x8px, constraints left/top, radius 8px, fill #416D65
+    - FRAME "Frame 17", 148x18px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Check circle", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #416D65
+      - TEXT "At least 8 characters", 124x18px, constraints left/top, fill #416D65, text [Inter Medium, 12px]
+    - FRAME "Frame 18", 198x18px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Check circle", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #416D65
+      - TEXT "Capital and lowercase letters", 174x18px, constraints left/top, fill #416D65, text [Inter Medium, 12px]
+    - FRAME "Frame 19", 234x18px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Check circle", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #416D65
+      - TEXT "A special character ~ #@$%&!*_?^-", 210x18px, constraints left/top, fill #416D65, text [Inter Medium, 12px]
+    - FRAME "Frame 20", 82x18px, horizontal pad 0 0 0 0px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Check circle", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16x16px, constraints scale/scale
+        - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #416D65
+      - TEXT "A number", 58x18px, constraints left/top, fill #416D65, text [Inter Medium, 12px]
+    - GROUP "Group 10", 325x60px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 325x60px, constraints left/top, radius 8px, fill #FFFFFF, stroke #D7D8D5 1px
+      - FRAME "Frame 21", 298x36px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Info outline", 24x24px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 20x20px, constraints scale/scale, fill #000000
+        - TEXT "Avoid using spaces, your name, email, or passwords you have ", 262x36px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+    - FRAME "Frame 14", 329x54px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 53", 16x16px, constraints left/top, radius 2px, stroke #72747F 2px
+      - FRAME "Frame 13", 305x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Receive travel deals, special offers and other information f", 305x54px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+  - VECTOR "Rectangle 57", 376x52px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - FRAME "Keyboard arrow left", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 24x24px, constraints scale/scale
+    - VECTOR "Vector", 9.88x16px, constraints scale/scale, fill links-colors
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 44", 376x1px, constraints left/top, fill #D6D6D6
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - INSTANCE "button", 328x48px, constraints left/top
+    - RECTANGLE "Rectangle 52", 328x48px, constraints scale/scale, radius 8px, fill links-colors
+    - TEXT "Continue", 124x18px, constraints center/scale, fill #FFFFFF, text [Inter SemiBold, 16px]
+  - FRAME "Frame 12", 297x54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "By continuing, you agree to the Expedia", 257x18px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+    - FRAME "Frame 13", 297x18px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Terms and conditions, Privacy Statement", 269x18px, constraints left/top, fill links-colors, text [Inter Medium, 13px]
+      - TEXT "and", 24x18px, constraints left/top, fill body-text-color, text [Inter Medium, 13px]
+    - TEXT "Expedia Rewards Terms and Conditions.", 260x18px, constraints left/top, fill links-colors, text [Inter Medium, 13px]
+
+Screen: design-files / Success
+- FRAME "Success", 376x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "backdrop", 376x812px, constraints left/top, fill #00000040
+  - VECTOR "Rectangle 43", 376x754px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - FRAME "Frame 23", 221x100px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 22", 81x58px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Check", 32x32px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 32x32px, constraints scale/scale
+        - VECTOR "Vector", 23.45x17.88px, constraints scale/scale, fill #000000
+      - TEXT "Success!", 81x18px, constraints left/top, fill #000000, text [Inter Medium, 18px]
+    - TEXT "Your account has been created.", 221x18px, constraints left/top, fill outline-gray, text [Inter Medium, 14px]
+
+Screen: design-files / search
+- FRAME "search", 376x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "backdrop", 376x812px, constraints left/top, fill #00000040
+  - VECTOR "Rectangle 43", 376x754px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "top-notch", 341x17px, horizontal pad 0 0 0 0px gap 254px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "8:23", 28x15px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+    - FRAME "Frame 6", 59x17px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 12x12px, constraints left/top, fill #000000
+      - REGULAR_POLYGON "Polygon 1", 17x17px, constraints left/top, fill #000000
+      - ELLIPSE "Ellipse 1", 12x12px, constraints left/top, fill #000000
+  - INSTANCE "safe-area", 376x12px, constraints left/top
+    - RECTANGLE "Rectangle 26", 134x5px, constraints left/top, radius 16px, fill Gray 1
+  - FRAME "Frame 23", 283x92px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 22", 48x48px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Search", 48x48px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 48x48px, constraints scale/scale
+        - VECTOR "Vector", 34.98x34.98px, constraints scale/scale, fill body-text-color
+    - TEXT "Serach by destination, accommodations, or landmark", 283x36px, constraints left/top, fill outline-gray, text [Inter Medium, 14px]
+  - FRAME "Close", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.41x17.41px, constraints scale/scale, fill #000000
+  - RECTANGLE "Rectangle 73", 376x1px, constraints left/top, fill #D9D9D9
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,261 @@
+---
+name: apple-tv-ui-kit-community
+source_file: Apple TV+ UI Kit (Community)
+source_page: All pages (3): ⭐ Cover, 📃 Copyright Disclaimer, ◈ APPLE TV+
+generated_at: 2026-07-25T09:38:33.727860+00:00
+---
+
+# Apple TV+ UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Apple TV+ UI Kit (Community)
+- Figma page: All pages (3): ⭐ Cover, 📃 Copyright Disclaimer, ◈ APPLE TV+
+- Extracted at: 2026-07-25T09:38:33.727860+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Dark / Backgrounds / 1.Primary: [#000000]
+- Dark / Labels / 1.Primary: [#FFFFFF]
+- Dark / Backgrounds / 3.Tretiary: [#2C2C2E]
+- Dark / Labels / 2.Secondary [60%]: [#EBEBF599]
+- Dark / Labels / 4.Quarternary [18%]: [#EBEBF52E]
+- Dark / Grays / Gray 5: [#2C2C2E]
+- Dark / Grays / Gray 6: [#1C1C1D]
+- Light / Backgrounds / 1.Primary: [#FFFFFF]
+- Light / Labels / 1.Primary: [#000000]
+- Light / Separators / Non-Opaque: [#3C3C4361]
+- Light / Tints / Blue: [#007AFF]
+- Light / Overlays / Thick [92%]: [#F5F5F5EB]
+- Light/Basic/Grayed: [#979798]
+- Light / Separators / Opaque: [#C6C6C8]
+- Light / Labels / 2.Secondary [60%]: [#3C3C4399]
+- Light / Fills / 3.Tretiary [24%]: [#7676801F]
+- Dark / Separators / Non-Opaque: [#646468CC]
+- Light / Grays / Gray 6: [#F2F2F7]
+- Light / Grays / Gray 1: [#8E8E93]
+- Default/Gray/Light/2: [#AEAEB2]
+- White: [#FFFFFF]
+- Dark/Overlays/Regular [78%]: [#313335C7]
+- Dark / Tints / Blue: [#0A84FF]
+- Dark / Overlays / Thick [92%]: [#222222EB]
+- Dark/Basic/Grayed: [#757575]
+- Dark / Grays / Gray 4: [#3A3A3C]
+- Dark / Fills / 3.Tretiary [24%]: [#6F72783D]
+- Dark / Grays / Gray 1: [#8E8E93]
+
+## Raw Colors (unstyled)
+- #000000: 14 uses
+
+## Typography Tokens
+- Titles / Title 3 [20]: SF Pro Display Regular (400), 20px / 24px, tracking 0.38px
+- Titles / Title 1 [28] • 𝗕: SF Pro Display Bold (700), 28px / auto, tracking 0.36px
+- Captions / Caption 2 [11]: SF Pro Text Regular (400), 11px / 12px, tracking 0.07px
+- Titles / Title 2 [22]: SF Pro Display Regular (400), 22px / 22px, tracking 0.5px
+- Body / Body [17]: SF Pro Text Regular (400), 17px / 22px, tracking -0.41px
+- Captions / Caption 3 [10]: SF Pro Text Medium (500), 10px / 12px, tracking 0.07px
+- Captions / Caption 1 [12]: SF Pro Text Regular (400), 12px / 16px, tracking 0px
+- Captions / Caption 1 [12] • 𝖲𝖡: SF Pro Text Medium (500), 12px / 16px, tracking 0px
+- SubHL / Subheadline [15]: SF Pro Text Regular (400), 15px / 20px, tracking -0.24px
+- Headlines / Headline [17] • 𝖲𝖡: SF Pro Text Semibold (600), 17px / 22px, tracking -0.41px
+- Titles / Title 3 [20] • 𝖲𝖡: SF Pro Display Semibold (600), 20px / 24px, tracking 0.38px
+- Callouts / Callout [16]: SF Pro Text Regular (400), 16px / 21px, tracking -0.32px
+- Footnotes / Footnote [13]: SF Pro Text Regular (400), 13px / 16px, tracking -0.08px
+- Titles / Title 2 [22] • 𝗕: SF Pro Display Bold (700), 22px / 28px, tracking 0.35px
+- SubHL / Subheadline [15] • 𝖲𝖡: SF Pro Text Semibold (600), 15px / 20px, tracking -0.24px
+- Captions / Caption 2 [11] • 𝖲𝖡 • 𝐼: SF Pro Text SemiboldItalic (600), 11px / 13px, tracking 0.06px
+- Big Titles / Large Title [34] • 𝗕: SF Pro Display Bold (700), 34px / 41px, tracking 0.37px
+- Captions / Caption 2 [11] • 𝖲𝖡: SF Pro Text Semibold (600), 11px / 13px, tracking 0px
+- Rubrics / Rubric 2 [13] • 𝖲𝖡: SF Pro Text Semibold (600), 13px / 18px, tracking -0.07px
+
+## Raw Typography (unstyled)
+- SF Pro Display Regular, 24px: 104 uses
+- SF Pro Text Semibold, 11px: 102 uses
+- SF Pro Display Regular, 27.5px: 48 uses
+- SF Pro Text Regular, 13px: 34 uses
+- SF Pro Display Bold, 22px: 30 uses
+- SF Pro Text Regular, 17px: 25 uses
+- SF Pro Text Bold, 9px: 20 uses
+- SF Pro Text Semibold, 16px: 16 uses
+- SF Pro Display Regular, 25px: 10 uses
+- SF Pro Display Semibold, 17px: 8 uses
+- SF Pro Display Bold, 24px: 6 uses
+- SF Pro Display Semibold, 20px: 4 uses
+- SF Pro Text Medium, 11px: 4 uses
+- SF Pro Text Regular, 15px: 4 uses
+- SF Pro Text Regular, 9px: 4 uses
+
+## Typography Hierarchy
+- 34px - Big Titles / Large Title [34] • 𝗕 (SF Pro Display Bold)
+- 28px - Titles / Title 1 [28] • 𝗕 (SF Pro Display Bold)
+- 27.5px - SF Pro Display Regular, 27.5px (raw)
+- 25px - SF Pro Display Regular, 25px (raw)
+- 24px - SF Pro Display Bold, 24px (raw)
+- 24px - SF Pro Display Regular, 24px (raw)
+- 22px - SF Pro Display Bold, 22px (raw)
+- 22px - Titles / Title 2 [22] (SF Pro Display Regular)
+- 22px - Titles / Title 2 [22] • 𝗕 (SF Pro Display Bold)
+- 20px - SF Pro Display Semibold, 20px (raw)
+- 20px - Titles / Title 3 [20] (SF Pro Display Regular)
+- 20px - Titles / Title 3 [20] • 𝖲𝖡 (SF Pro Display Semibold)
+- 17px - Body / Body [17] (SF Pro Text Regular)
+- 17px - Headlines / Headline [17] • 𝖲𝖡 (SF Pro Text Semibold)
+- 17px - SF Pro Display Semibold, 17px (raw)
+- 17px - SF Pro Text Regular, 17px (raw)
+- 16px - Callouts / Callout [16] (SF Pro Text Regular)
+- 16px - SF Pro Text Semibold, 16px (raw)
+- 15px - SF Pro Text Regular, 15px (raw)
+- 15px - SubHL / Subheadline [15] (SF Pro Text Regular)
+- 15px - SubHL / Subheadline [15] • 𝖲𝖡 (SF Pro Text Semibold)
+- 13px - Footnotes / Footnote [13] (SF Pro Text Regular)
+- 13px - Rubrics / Rubric 2 [13] • 𝖲𝖡 (SF Pro Text Semibold)
+- 13px - SF Pro Text Regular, 13px (raw)
+- 12px - Captions / Caption 1 [12] (SF Pro Text Regular)
+- 12px - Captions / Caption 1 [12] • 𝖲𝖡 (SF Pro Text Medium)
+- 11px - Captions / Caption 2 [11] (SF Pro Text Regular)
+- 11px - Captions / Caption 2 [11] • 𝖲𝖡 (SF Pro Text Semibold)
+- 11px - Captions / Caption 2 [11] • 𝖲𝖡 • 𝐼 (SF Pro Text SemiboldItalic)
+- 11px - SF Pro Text Medium, 11px (raw)
+- 11px - SF Pro Text Semibold, 11px (raw)
+- 10px - Captions / Caption 3 [10] (SF Pro Text Medium)
+- 9px - SF Pro Text Bold, 9px (raw)
+- 9px - SF Pro Text Regular, 9px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Overlays / Medium Blur: [background_blur 30px]
+- Shadows / Tiny Shadow: [drop_shadow 8px offset 0 2 #0000001F]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Dark / Labels / 1.Primary: 326 uses
+- Light / Labels / 1.Primary: 187 uses
+- Dark / Labels / 2.Secondary [60%]: 137 uses
+- Body / Body [17]: 130 uses
+- Light / Labels / 2.Secondary [60%]: 97 uses
+- Light / Tints / Blue: 94 uses
+- Dark / Tints / Blue: 91 uses
+- Shadows / Tiny Shadow: 84 uses
+- Captions / Caption 3 [10]: 56 uses
+- Light/Basic/Grayed: 56 uses
+- SubHL / Subheadline [15]: 38 uses
+- Dark / Separators / Non-Opaque: 36 uses
+- Overlays / Medium Blur: 32 uses
+- Dark/Basic/Grayed: 28 uses
+- Light / Separators / Non-Opaque: 27 uses
+- Titles / Title 2 [22]: 21 uses
+- Dark / Backgrounds / 1.Primary: 18 uses
+- Light / Backgrounds / 1.Primary: 18 uses
+- Footnotes / Footnote [13]: 14 uses
+- Titles / Title 3 [20]: 11 uses
+- Captions / Caption 1 [12]: 10 uses
+- Captions / Caption 1 [12] • 𝖲𝖡: 10 uses
+- White: 10 uses
+- Big Titles / Large Title [34] • 𝗕: 8 uses
+- Headlines / Headline [17] • 𝖲𝖡: 8 uses
+- Callouts / Callout [16]: 7 uses
+- Dark / Overlays / Thick [92%]: 7 uses
+- Light / Overlays / Thick [92%]: 7 uses
+- Light / Separators / Opaque: 7 uses
+- Captions / Caption 2 [11]: 4 uses
+- Captions / Caption 2 [11] • 𝖲𝖡: 4 uses
+- Dark / Grays / Gray 5: 4 uses
+- Dark / Labels / 4.Quarternary [18%]: 4 uses
+- Dark/Overlays/Regular [78%]: 4 uses
+- Light / Fills / 3.Tretiary [24%]: 4 uses
+- Captions / Caption 2 [11] • 𝖲𝖡 • 𝐼: 2 uses
+- Dark / Grays / Gray 1: 2 uses
+- Dark / Grays / Gray 4: 2 uses
+- Dark / Grays / Gray 6: 2 uses
+- Default/Gray/Light/2: 2 uses
+- Light / Grays / Gray 1: 2 uses
+- Light / Grays / Gray 6: 2 uses
+- Rubrics / Rubric 2 [13] • 𝖲𝖡: 2 uses
+- SubHL / Subheadline [15] • 𝖲𝖡: 2 uses
+- Titles / Title 1 [28] • 𝗕: 2 uses
+- Titles / Title 2 [22] • 𝗕: 2 uses
+- Dark / Backgrounds / 3.Tretiary: 1 use
+- Dark / Fills / 3.Tretiary [24%]: 1 use
+- Titles / Title 3 [20] • 𝖲𝖡: 1 use
+
+## Layout & Structure
+Screen: ⭐ Cover / Preview
+- FRAME "Preview", 1600x1200px, constraints left/top, fill image(hash: b77ff074a54fe48f3c9cd5f88dc2ea2fbd046c01), stroke #FFFFFF 5px
+  - RECTANGLE "Rectangle 95", 10.08x10.08px, constraints left/top, radius 107.06px, fill gradient_linear(#FFFFFF 0% | #F2F0F9 100%)
+  - GROUP "Group 599", 1494.48x1709.28px, constraints left/top [decorative, ~8 shapes]
+  - FRAME "Frame 1444", 123x123px, constraints left/top, radius 40px, fill #FFFFFF [decorative, ~5 shapes]
+
+Screen: 📃 Copyright Disclaimer / Disclaimer
+- FRAME "Disclaimer", 936x1265.5px, vertical pad 60 60 60 60px gap 24px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 13", 816x73.5px, vertical pad 0 0 0 0px gap 18px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Licensing Agreement", 816x55px, constraints left/top, fill #000000, text [SF Pro Display Bold, 44px], [heading]
+    - RECTANGLE "Divider", 816x0.5px, constraints left/top, fill #000000
+  - TEXT "By purchasing UI Kit Templates Created by UIxDC Designs you ", 816x120px, constraints left/top, fill #000000, text [SF Pro Text Regular, 17px]
+  - TEXT "A product is defined as one of the following:", 816x34px, constraints left/top, fill #000000, text [SF Pro Display Bold, 24px], [heading]
+  - TEXT "For an Item that is a template, the product is a customized ", 816x48px, constraints left/top, fill #000000, text [SF Pro Text Regular, 17px]
+  - TEXT "You ARE allowed to:", 816x34px, constraints left/top, fill #000000, text [SF Pro Display Bold, 24px], [heading]
+  - TEXT "✅ You may publish the item in your team library within your ", 816x264px, constraints left/top, fill #000000, text [SF Pro Text Regular, 17px]
+  - TEXT "You are NOT allowed to:", 816x34px, constraints left/top, fill #000000, text [SF Pro Display Bold, 24px], [heading]
+  - TEXT "⛔️ You can't share the item link into the web or distribute ", 816x216px, constraints left/top, fill #000000, text [SF Pro Text Regular, 17px]
+  - TEXT "Other license terms:", 816x34px, constraints left/top, fill #000000, text [SF Pro Display Bold, 24px], [heading]
+  - TEXT "You are not required to attribute or link to UIxDC designs i", 816x72px, constraints left/top, fill #000000, text [SF Pro Text Regular, 17px]
+
+Screen: ◈ APPLE TV+ / Screens
+- FRAME "Screens", 3920x3762px, vertical pad 80 80 80 80px gap 80px sizing W:fixed H:fixed, constraints left/top, fill #000000
+  - FRAME "Dark Mode", 3760x1761px, horizontal pad 100 100 100 100px gap 100px sizing W:fixed H:fixed, constraints left/top, fill #1C1C1E
+    - FRAME "Travel & Places", 3560x1561px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, effect [drop_shadow 12px offset 0 4 #0000000F]
+      - FRAME "Header", 3560x448px, vertical pad 80 80 80 80px gap 100px sizing W:fill H:fixed, constraints left/top, fill #000000
+        - FRAME "Breadcrumbs", 401.64x24px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "content", 95x24px, constraints left/top, fill White, text [SF Pro Display Semibold, 20px]
+          - FRAME "Arrow", 16.64x24px, vertical pad 6 0 5 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "arrow.right", 16.64x13px, constraints left/top
+          - TEXT "ios Apple TV (Dark Mode)", 266x24px, constraints left/top, fill White, text [SF Pro Display Semibold, 20px]
+        - FRAME "Title & Description", 3400x164px, constraints left/top
+          - FRAME "Title and Description", 936x164px, vertical pad 0 0 0 0px gap 12px align max/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "iOS Apple TV (Dark Mode)", 746x76px, constraints left/top, fill White, text [SF Pro Display Bold, 64px], [heading]
+            - TEXT "This set of customizable screens reflects the iOS Apple TV (", 1031x76px, constraints left/top, fill White, text [SF Pro Display Regular, 32px], [heading]
+      - FRAME "Body", 3560x1113px, vertical pad 80 80 100 80px gap 60px sizing W:fixed H:fixed, constraints left/top, fill #3C3C3E
+        - TEXT "✦ Ios Apple TV (Dark Mode)", 364x29px, constraints left/top, fill Default/Gray/Light/2, text [SF Pro Display Bold, 24px], [heading]
+        - FRAME "Frame 120", 3400x844px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 370", 3400x844px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 369", 3400x844px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+  - FRAME "Light Mode", 3760x1761px, horizontal pad 100 100 100 100px gap 100px sizing W:fixed H:fixed, constraints left/top, fill #1C1C1E
+    - FRAME "Travel & Places", 3560x1561px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, effect [drop_shadow 12px offset 0 4 #0000000F]
+      - FRAME "Header", 3560x448px, vertical pad 80 80 80 80px gap 100px sizing W:fill H:fixed, constraints left/top, fill #000000
+        - FRAME "Breadcrumbs", 401.64x24px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "content", 95x24px, constraints left/top, fill White, text [SF Pro Display Semibold, 20px]
+          - FRAME "Arrow", 16.64x24px, vertical pad 6 0 5 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "arrow.right", 16.64x13px, constraints left/top
+          - TEXT "ios Apple TV (Dark Mode)", 266x24px, constraints left/top, fill White, text [SF Pro Display Semibold, 20px]
+        - FRAME "Title & Description", 3400x164px, constraints left/top
+          - FRAME "Title and Description", 936x164px, vertical pad 0 0 0 0px gap 12px align max/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "iOS Apple TV (Light Mode)", 756x76px, constraints left/top, fill White, text [SF Pro Display Bold, 64px], [heading]
+            - TEXT "This set of customizable screens reflects the iOS Apple TV (", 1031x76px, constraints left/top, fill White, text [SF Pro Display Regular, 32px], [heading]
+      - FRAME "Body", 3560x1113px, vertical pad 80 80 100 80px gap 60px sizing W:fixed H:fixed, constraints left/top, fill #3C3C3E
+        - TEXT "✦ Ios Apple TV (Light Mode)", 370x29px, constraints left/top, fill Default/Gray/Light/2, text [SF Pro Display Bold, 24px], [heading]
+        - FRAME "Frame 120", 3400x844px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 370", 3400x844px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 369", 3400x844px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

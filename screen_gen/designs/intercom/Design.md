@@ -1,0 +1,1204 @@
+---
+name: intercom-ui-kit-community
+source_file: Intercom UI Kit (Community)
+source_page: All pages (4): 🌈  Thumbnail, 💬  UI, 📦  Components, 💛  Support
+generated_at: 2026-07-02T20:48:29.028293+00:00
+---
+
+# Intercom UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Intercom UI Kit (Community)
+- Figma page: All pages (4): 🌈  Thumbnail, 💬  UI, 📦  Components, 💛  Support
+- Extracted at: 2026-07-02T20:48:29.028293+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Black: [#000000]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 168 uses
+- #000000: 126 uses
+- #F2F2F2: 21 uses
+- #00000024: 18 uses
+- #FFC421: 17 uses
+- #FFF4D0: 17 uses
+- #F5F5F5: 12 uses
+- #F8F8F8: 12 uses
+- #585858: 11 uses
+- #EBEBEB: 11 uses
+- #9747FF: 10 uses
+- #3047EC: 7 uses
+- #E5EEFF: 7 uses
+- #9AA0A6: 6 uses
+- #C1C1C1: 6 uses
+- #B8B8B8: 3 uses
+
+## Typography Tokens
+- tile/body-large: Inter Regular (400), 16px / 115.68%, tracking 0px
+- tile/title: Inter SemiBold (600), 16px / 115.68%, tracking 0px
+- tile/body-secundary-large: Inter Regular (400), 16px / 123.94%, tracking 0px
+- tile/body-secundary-normal: Inter Regular (400), 15px / 99.15%, tracking 0px
+- header/title: Inter SemiBold (600), 18px / 18px, tracking 0px
+- header/hero: Inter SemiBold (600), 34px / 99.15%, tracking 0px
+- header/subtitle: Inter Regular (400), 14px / 18px, tracking 0px
+- chat/message-stamp: Inter Regular (400), 13px / 99.15%, tracking 0px
+- chat/operator-body: Inter Regular (400), 15px / 115.68%, tracking 0px
+- chat/customer-body: Inter Regular (400), 15px / 115.68%, tracking 0px
+- chat/operator-quick-reply: Inter Regular (400), 15px / 20px, tracking 0px
+- tile/body-normal: Inter Regular (400), 15px / 115.68%, tracking 0px
+- header/ai-label: Inter SemiBold (600), 15px / 111.55%, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 15px: 116 uses
+- Font Awesome 6 Pro Light, 16px: 49 uses
+- Font Awesome 6 Pro Solid, 14px: 46 uses
+- Font Awesome 6 Pro Light, 22px: 33 uses
+- Inter SemiBold, 15px: 28 uses
+- Font Awesome 6 Sharp Regular, 18px: 19 uses
+- Font Awesome 6 Pro Light, 23px: 18 uses
+- Font Awesome 6 Pro Regular, 30px: 18 uses
+- Inter SemiBold, 14px: 14 uses
+- Font Awesome 6 Sharp Solid, 20px: 13 uses
+- Inter Bold, 42px: 13 uses
+- Font Awesome 6 Pro Solid, 22px: 11 uses
+- Inter SemiBold, 20px: 7 uses
+- SF Pro Display Semibold, 14px: 7 uses
+- Font Awesome 6 Pro Light, 30px: 6 uses
+- Font Awesome 6 Pro Regular, 12px: 6 uses
+- Font Awesome 6 Pro Regular, 14px: 6 uses
+- Font Awesome 6 Pro Regular, 24px: 6 uses
+- Font Awesome 6 Pro Solid, 12px: 6 uses
+- Font Awesome 6 Pro Solid, 23px: 6 uses
+- Inter Bold, 10px: 6 uses
+- Inter Medium, 16px: 6 uses
+- Inter Regular, 17.73px: 6 uses
+- Inter Regular, 18px: 6 uses
+- Inter Regular, 34px: 6 uses
+- Inter SemiBold, 12px: 6 uses
+- Inter Regular, 20px: 5 uses
+- Font Awesome 6 Pro Light, 14px: 4 uses
+- Font Awesome 6 Pro Solid, 16px: 4 uses
+- Inter SemiBold, 16px: 4 uses
+- Font Awesome 6 Pro Light, 18.91px: 3 uses
+- Suisse Int'l Regular, 52px: 3 uses
+
+## Typography Hierarchy
+- 52px - Suisse Int'l Regular, 52px (raw)
+- 42px - Inter Bold, 42px (raw)
+- 34px - Inter Regular, 34px (raw)
+- 34px - header/hero (Inter SemiBold)
+- 30px - Font Awesome 6 Pro Light, 30px (raw)
+- 30px - Font Awesome 6 Pro Regular, 30px (raw)
+- 24px - Font Awesome 6 Pro Regular, 24px (raw)
+- 23px - Font Awesome 6 Pro Light, 23px (raw)
+- 23px - Font Awesome 6 Pro Solid, 23px (raw)
+- 22px - Font Awesome 6 Pro Light, 22px (raw)
+- 22px - Font Awesome 6 Pro Solid, 22px (raw)
+- 20px - Font Awesome 6 Sharp Solid, 20px (raw)
+- 20px - Inter Regular, 20px (raw)
+- 20px - Inter SemiBold, 20px (raw)
+- 18.91px - Font Awesome 6 Pro Light, 18.91px (raw)
+- 18px - Font Awesome 6 Sharp Regular, 18px (raw)
+- 18px - Inter Regular, 18px (raw)
+- 18px - header/title (Inter SemiBold)
+- 17.73px - Inter Regular, 17.73px (raw)
+- 16px - Font Awesome 6 Pro Light, 16px (raw)
+- 16px - Font Awesome 6 Pro Solid, 16px (raw)
+- 16px - Inter Medium, 16px (raw)
+- 16px - Inter SemiBold, 16px (raw)
+- 16px - tile/body-large (Inter Regular)
+- 16px - tile/body-secundary-large (Inter Regular)
+- 16px - tile/title (Inter SemiBold)
+- 15px - Inter Regular, 15px (raw)
+- 15px - Inter SemiBold, 15px (raw)
+- 15px - chat/customer-body (Inter Regular)
+- 15px - chat/operator-body (Inter Regular)
+- 15px - chat/operator-quick-reply (Inter Regular)
+- 15px - header/ai-label (Inter SemiBold)
+- 15px - tile/body-normal (Inter Regular)
+- 15px - tile/body-secundary-normal (Inter Regular)
+- 14px - Font Awesome 6 Pro Light, 14px (raw)
+- 14px - Font Awesome 6 Pro Regular, 14px (raw)
+- 14px - Font Awesome 6 Pro Solid, 14px (raw)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - SF Pro Display Semibold, 14px (raw)
+- 14px - header/subtitle (Inter Regular)
+- 13px - chat/message-stamp (Inter Regular)
+- 12px - Font Awesome 6 Pro Regular, 12px (raw)
+- 12px - Font Awesome 6 Pro Solid, 12px (raw)
+- 12px - Inter SemiBold, 12px (raw)
+- 10px - Inter Bold, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- 24: [drop_shadow 48px offset 0 24 #00000033, drop_shadow 6px offset 0 3 #0000001A]
+- shadows/shadow-menu: [drop_shadow 70px offset 0 0 #0000000D]
+- shadows/shadow-card: [drop_shadow 15px offset 2 2 #0000001A]
+- shadows/shadow-widget: [drop_shadow 80px offset 5 14 #1A1A1A1F, drop_shadow 40px offset 10 10 #00000014]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Reply
+- Nav
+- Tile
+- Chrome
+- iOS Home Indicator
+- iOS Status Bar
+- Header
+- AI Label
+- Avatars
+- Trigger
+- chip-news
+
+## Component Specs
+- Reply: size 423x66px, vertical layout, padding 20 20 20 20px, gap 30px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Font Awesome 6 Pro Light, 16px, Inter Regular, 15px] | variants: Property: 1 icon/2 icons/3 icons/Send; Device: Desktop/Mobile
+- Nav: size 423x90px, vertical layout, padding 18 20 18 20px, gap 206px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu, text [Inter Regular, 15px, Font Awesome 6 Pro Light, 23px, Inter SemiBold, 15px, Font Awesome 6 Pro Solid, 23px] | variants: Property 1: Help/Home/Messages/News; Notification: No/Yes
+- Tile: size 460x122.43px, radius 10px, horizontal layout, padding 22 24 22 24px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card, text [Font Awesome 6 Pro Solid, 14px, tile/body-secundary-normal, Inter Regular, 15px, tile/title] | variants: Property 1: Article/Help/News/Recent message/Send message
+- Chrome: size 390x58px, vertical layout, padding 12 12 12 12px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Font Awesome 6 Pro Regular, 14px, Inter Medium, 16px, Font Awesome 6 Pro Solid, 12px, Font Awesome 6 Pro Regular, 12px] | variants: Property 1: Bottom/Top
+- iOS Home Indicator: size 390x30.21px | variants: Property 1: Dark/Light
+- iOS Status Bar: size 390x44px, horizontal layout, padding 0 24 0 24px, gap 233px, align space_between/center, sizing W:fixed H:fixed, text [SF Pro Display Semibold, 14px] | variants: Property 1: Dark/Light
+- Header: size 423x80px, horizontal layout, padding 20 20 20 20px, gap 30px, align min/center, sizing W:fixed H:fixed, fill #3047EC, text [Font Awesome 6 Sharp Regular, 18px, header/subtitle, Font Awesome 6 Pro Light, 14px, header/title] | variants: Property 1: AI Bot + stamp/Company/Company + stamp/Expanded 1/Home 1/Home 2/Operator + stamp/Title/Title+search/Variant9
+- AI Label: size 19x19px, radius 6px, vertical layout, padding 6 4 6 4px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Inter Bold, 10px] | variants: Property 1: Dark/Light
+- Avatars: size 32x32px, vertical layout, padding 0 0 0 0px, gap 10px, align max/min, sizing W:fixed H:fixed, text [Font Awesome 6 Sharp Solid, 20px] | variants: Property 1: AI header/AI last message/AI previous messages/Company/Person 1/Person 2/Person 3
+- Trigger: size 60x60px, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029] | variants: Property 1: Collapse/Logo
+- chip-news: size 74x27px, radius 20px, horizontal layout, padding 3 8 3 8px, gap 10px, sizing W:fixed H:fixed, fill #E5EEFF, text [Inter Regular, 15px]
+
+## Most-Used Styles
+- chat/operator-quick-reply: 30 uses
+- shadows/shadow-menu: 20 uses
+- chat/operator-body: 19 uses
+- shadows/shadow-card: 18 uses
+- shadows/shadow-widget: 17 uses
+- header/title: 15 uses
+- tile/body-large: 15 uses
+- tile/title: 15 uses
+- Black: 14 uses
+- chat/customer-body: 14 uses
+- header/subtitle: 13 uses
+- header/hero: 12 uses
+- chat/message-stamp: 11 uses
+- tile/body-secundary-normal: 8 uses
+- header/ai-label: 2 uses
+- 24: 1 use
+- tile/body-normal: 1 use
+- tile/body-secundary-large: 1 use
+
+## Layout & Structure
+Screen: 🌈  Thumbnail / Thumbnail
+- FRAME "Thumbnail", 1920x1080px, constraints left/top, fill image(hash: 70d2a397f38e4422c3ae27e4cbc0dc81a6333e74)
+  - ELLIPSE "Ellipse 92", 1878x1636px, constraints scale/center, fill #FFFFFF, effect [layer_blur 200px]
+  - FRAME "Intercom", 500x854.61px, vertical pad 0 0 0 0px gap 28.37px align max/max sizing W:fixed H:fixed, constraints left/center
+    - FRAME "Intercom", 500x854.61px, vertical pad 0 0 0 0px gap 23.64px align max/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Intercom Widget", 500x760.05px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 21.28px, effect [drop_shadow 94.56px offset 5.91 16.55 #1A1A1A1F, drop_shadow 47.28px offset 11.82 11.82 #00000014]
+        - INSTANCE "Header", 500x96.01px, horizontal pad 23.64 23.64 23.64 23.64px gap 35.46px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+          - TEXT "", 14x22px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 21.28px]
+          - FRAME "Widget Header", 291.12x48.73px, horizontal pad 0 0 0 0px gap 16.55px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Avatars", 141.84x47.28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 31285", 132.73x48.73px, vertical pad 0 0 0 0px gap 4.73px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Conversation frame", 500x584.61px, constraints left/top, fill #FFFFFF
+          - FRAME "💬 Conversation [move me]", 452.72x351.48px, vertical pad 0 0 0 0px gap 18.91px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Operator", 452.72x62.83px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "User", 189.92x87.92px, vertical pad 0 0 0 0px gap 7.09px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Operator", 452.72x162.92px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Quick replies", 445.63x116.56px, vertical pad 0 0 0 0px gap 11.82px align max/max sizing W:fixed H:fixed, constraints right/bottom
+            - FRAME "Frame 31288", 222.1x52.37px, vertical pad 0 0 0 0px gap 11.82px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 197.1x52.37px, horizontal pad 14.18 16.55 14.18 16.55px gap 11.82px align max/center sizing W:fixed H:fixed, constraints left/top, radius 7.09px, fill #E5EEFF
+        - FRAME "Line", 500x1.42px, vertical pad 0 0 0 0px gap 11.82px sizing W:fill H:fixed, constraints left/top, fill #EBEBEB
+        - INSTANCE "Reply", 500x78.01px, vertical pad 23.64 23.64 23.64 23.64px gap 35.46px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 31282", 452.72x30.73px, horizontal pad 0 0 4.73 0px gap 169.03px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Type a reply...", 117x24px, constraints left/top, fill #737376, text [Inter Regular, 17.73px]
+            - FRAME "Frame 31283", 86.37x26px, horizontal pad 0 0 0 0px gap 14.18px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Trigger", 70.92x70.92px, constraints left/top, radius 118.2px, fill #3047EC, effect [drop_shadow 7.09px offset 0 1.18 #0000000F, drop_shadow 37.83px offset 0 2.36 #00000029]
+        - VECTOR "", 25.04x14.41px, constraints center/center, fill #FFFFFF
+  - FRAME "Container", 674x840px, vertical pad 0 0 0 0px gap 120px align space_between/min sizing W:fixed H:fixed, constraints left/center
+    - FRAME "Container", 674x494px, vertical pad 0 0 0 0px gap 64px sizing W:fill H:fixed, constraints left/top
+      - RECTANGLE "Logo", 150x150px, constraints left/top, radius 40px, fill image(hash: 9d7e81f81ab9c016dacb1c7d8c7df1152e2560e6), effect [drop_shadow 40px offset 0 6.67 #0000001A]
+      - FRAME "Title Container", 596x280px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Title", 596x280px, constraints left/top, fill #0D0D0D, text [SF Pro Medium, 140px], [heading]
+      - RECTANGLE "images 1", 115x116.8px, constraints left/top, radius 17.97px, fill image(hash: 9d7e81f81ab9c016dacb1c7d8c7df1152e2560e6)
+    - FRAME "Description Container", 674x190.86px, vertical pad 0 0 0 0px gap 30.86px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Community File Container", 378x80px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "figma-2 1", 80x80px, constraints left/top, fill image(hash: 1c5bef305a3572a5ac4d767603d86c33d21ac278), effect [drop_shadow 3.08px offset 0 1.54 #1018280D]
+        - TEXT "Community File Text", 266x58px, constraints left/top, fill #0D0D0D, text [Suisse Int'l Regular, 52px], [heading]
+      - FRAME "Footer Container", 674x80px, vertical pad 0 0 0 0px gap 30.86px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Footer Content", 674x80px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Heart Icon", 80x80px, horizontal pad 0 0 0 0px gap 11.11px align center/center sizing W:fixed H:fixed, constraints left/top, radius 19.31px, fill image(hash: 70d2a397f38e4422c3ae27e4cbc0dc81a6333e74)
+            - VECTOR "Vector", 43.08x43.08px, constraints left/top, fill #FFFFFF
+          - TEXT "Footer Text", 562x58px, constraints left/top, fill #0D0D0D, text [Suisse Int'l Regular, 52px], [heading]
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - FRAME "Intercom", 423x767px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x687px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x220.79px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - FRAME "Frame 31287", 383x180.79px, vertical pad 0 0 0 0px gap 26px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 383x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+            - TEXT "Customer Service", 371x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+          - FRAME "Avatars", 188.37x62.79px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatars", 62.79x62.79px, vertical pad 0 0 0 0px gap 19.62px align max/min sizing W:fixed H:fixed, constraints left/top, radius 196.22px, stroke #3047EC 4.71px
+            - INSTANCE "Avatars", 62.79x62.79px, vertical pad 0 0 0 0px gap 19.62px align max/min sizing W:fixed H:fixed, constraints left/top, radius 196.22px, stroke #3047EC 4.71px
+            - INSTANCE "Avatars", 62.79x62.79px, vertical pad 0 0 0 0px gap 19.62px align max/min sizing W:fixed H:fixed, constraints left/top, radius 196.22px, stroke #3047EC 4.71px
+          - FRAME "Frame 31289", 267x48px, vertical pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "We typically reply in a few minutes", 267x18px, constraints left/top, fill #F8F8F8, text [Inter SemiBold, 16px]
+            - TEXT "Please ask your question.", 169x18px, constraints left/top, fill #F8F8F8, text [header/subtitle], [heading], opacity 80%
+      - FRAME "Conversation frame", 423x465.01px, constraints left/top, fill #FFFFFF
+        - FRAME "💬 Conversation [move me]", 383x74px, vertical pad 0 0 0 0px gap 16px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Operator", 383x74px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x74px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Quick replies", 377x98px, horizontal pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints right/bottom
+          - FRAME "Frame 31288", 138x44px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 138x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - FRAME "Frame 353", 156x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Application status", 128x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+          - FRAME "Frame 31289", 141x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Become a client", 113x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+          - FRAME "Frame 31290", 69x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Other", 41x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+      - FRAME "Line", 423x1.2px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #EBEBEB
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+  - TEXT "Title", 658x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - FRAME "Intercom", 423x723px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x643px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x80px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+        - FRAME "Widget Header", 246x40px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Avatars", 120x40px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+            - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+            - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+          - FRAME "Frame 31285", 112x40px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Bothrs", 58x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+            - FRAME "Frame 31286", 112x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Conversation frame", 423x495.8px, constraints left/top, fill #FFFFFF
+        - FRAME "💬 Conversation [move me]", 383x298px, vertical pad 0 0 0 0px gap 16px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Operator", 383x53px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x53px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "User", 161x75px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 161x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+            - TEXT "2m ago. Seen", 85x16px, constraints left/top, fill #737376, text [chat/message-stamp]
+          - FRAME "Opertor", 383x138px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x138px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Quick replies", 377x98px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints right/bottom
+          - FRAME "Frame 31288", 188x44px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 188x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - FRAME "Frame 353", 167x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Another quick reply", 139x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+      - FRAME "Line", 423x1.2px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EBEBEB
+      - INSTANCE "Reply", 423x66px, vertical pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 31282", 383x26px, horizontal pad 0 0 4 0px gap 143px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Type a reply...", 99x20px, constraints left/top, fill #737376, text [Inter Regular, 15px]
+          - FRAME "Frame 31283", 72x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Chips Text", 18x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 16x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 14x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+  - TEXT "Title", 482x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+
+Screen: 💬  UI / UI Intro
+- FRAME "UI Intro", 1440x1024px, constraints left/top, fill #F5F5F5
+  - FRAME "Frame 358", 178x383.69px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 353", 149.19x60.74px, horizontal pad 16.37 19.1 16.37 19.1px gap 13.64px align max/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Auto-layout", 111x28px, constraints scale/scale, fill #585858, text [Inter Regular, 20px]
+    - FRAME "Frame 354", 125.19x60.74px, horizontal pad 16.37 19.1 16.37 19.1px gap 13.64px align max/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Variables", 87x28px, constraints scale/scale, fill #585858, text [Inter Regular, 20px]
+    - FRAME "Frame 355", 140.19x60.74px, horizontal pad 16.37 19.1 16.37 19.1px gap 13.64px align max/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Max-width", 102x28px, constraints scale/scale, fill #585858, text [Inter Regular, 20px]
+    - FRAME "Frame 357", 115.19x60.74px, horizontal pad 16.37 19.1 16.37 19.1px gap 13.64px align max/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Variants", 77x28px, constraints scale/scale, fill #585858, text [Inter Regular, 20px]
+    - FRAME "Frame 356", 177.19x60.74px, horizontal pad 16.37 19.1 16.37 19.1px gap 13.64px align max/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Font Awesome", 139x28px, constraints scale/scale, fill #585858, text [Inter Regular, 20px]
+  - TEXT "Title", 149x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+  - FRAME "Intercom", 423x723px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints center/bottom
+    - FRAME "Intercom Widget", 423x643px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x80px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+        - FRAME "Widget Header", 246x40px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Avatars", 120x40px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+            - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+            - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+          - FRAME "Frame 31285", 112x40px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Bothrs", 58x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+            - FRAME "Frame 31286", 112x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Conversation frame", 423x495.8px, constraints left/top, fill #FFFFFF
+        - FRAME "💬 Conversation [move me]", 383x298px, vertical pad 0 0 0 0px gap 16px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Operator", 383x53px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x53px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "User", 161x75px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 161x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+            - TEXT "2m ago. Seen", 85x16px, constraints left/top, fill #737376, text [chat/message-stamp]
+          - FRAME "Operator", 383x138px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x138px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Quick replies", 377x98px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints right/bottom
+          - FRAME "Frame 31288", 188x44px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 188x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - FRAME "Frame 353", 167x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Another quick reply", 139x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+      - FRAME "Line", 423x1.2px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EBEBEB
+      - INSTANCE "Reply", 423x66px, vertical pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 31282", 383x26px, horizontal pad 0 0 4 0px gap 143px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Type a reply...", 99x20px, constraints left/top, fill #737376, text [Inter Regular, 15px]
+          - FRAME "Frame 31283", 72x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Chips Text", 18x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 16x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 14x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+  - FRAME "Frame 31297", 319x695px, vertical pad 0 0 0 0px gap 20px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Note", 319x123px, vertical pad 24 24 24 24px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Title", 271x75px, constraints left/top, fill #585858, text [Inter Regular, 18px]
+      - TEXT "Chips Text", 22x16px, constraints left/top, fill #585858, text [Font Awesome 6 Pro Light, 16px]
+    - FRAME "Note", 319x148px, vertical pad 24 24 24 24px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Title", 271x100px, constraints left/top, fill #585858, text [Inter Regular, 18px]
+    - FRAME "Note", 319x123px, vertical pad 24 24 24 24px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Title", 271x75px, constraints left/top, fill #585858, text [Inter Regular, 18px]
+    - FRAME "Note", 319x148px, vertical pad 24 24 24 24px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Title", 271x100px, constraints left/top, fill #585858, text [Inter Regular, 18px]
+    - FRAME "Note", 296x73px, vertical pad 24 24 24 24px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+      - TEXT "Title", 248x25px, constraints left/top, fill #585858, text [Inter Medium, 18px]
+  - TEXT "Title", 149x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - FRAME "Intercom", 423x723px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x643px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x80px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+        - INSTANCE "Widget Header", 143x40px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Avatars", 40x40px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+          - FRAME "Frame 31285", 89x40px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Bothrs", 68x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+            - FRAME "Frame 31286", 89x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 8", 9x9px, constraints left/top, fill #95CF48, stroke #3047EC 2px
+      - FRAME "Conversation frame", 423x495.8px, constraints left/top, fill #FFFFFF
+        - FRAME "💬 Conversation [move me]", 383x505px, vertical pad 0 0 0 0px gap 16px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Operator", 383x53px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x53px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "User", 254x53px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 254x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+          - FRAME "User", 251x53px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 251x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+          - FRAME "Operator", 383x74px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x74px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Operator", 383x117px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x117px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "User", 230x75px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 230x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+            - TEXT "Just now・Not seen yet", 147x16px, constraints left/top, fill #737376, text [chat/message-stamp]
+      - FRAME "Line", 423x1.2px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EBEBEB
+      - INSTANCE "Reply", 423x66px, vertical pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 31282", 383x26px, horizontal pad 0 0 4 0px gap 143px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Type a reply...", 99x20px, constraints left/top, fill #737376, text [Inter Regular, 15px]
+          - FRAME "Frame 31283", 72x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Chips Text", 18x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 16x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 14x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+  - TEXT "Title", 451x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+
+Screen: 💬  UI / Mobile
+- FRAME "Mobile", 390x844px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "iOS Status Bar", 390x44px, horizontal pad 0 24 0 24px gap 233px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "↳ Time", 29x17px, constraints left/top, fill #000000, text [SF Pro Display Semibold, 14px]
+    - FRAME "Stack", 66.6x12px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~13 shapes]
+  - INSTANCE "Chrome", 390x58px, vertical pad 12 12 12 12px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 31290", 366x36px, horizontal pad 8 16 8 16px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 50px, fill #E8EAED
+      - TEXT "Chips Text", 11x12px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 12px], opacity 0%
+      - FRAME "Frame 31291", 107x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Chips Text", 11x12px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Solid, 12px]
+        - TEXT "bothrs.com", 88x19px, constraints left/top, fill #202124, text [Inter Medium, 16px]
+      - TEXT "Chips Text", 13x14px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 14px]
+  - FRAME "Intercom Widget", 390x662px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left/top, effect shadows/shadow-widget
+    - INSTANCE "Header", 390x80px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+      - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+      - INSTANCE "Widget Header", 143x40px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Avatars", 40x40px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+            - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: f9a3cce27c8b31fea0307cb8db88b1362af9db1c)
+        - FRAME "Frame 31285", 89x40px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Bothrs", 68x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+          - FRAME "Frame 31286", 89x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "A few minutes", 89x18px, constraints left/top, fill #F8F8F8, text [header/subtitle], [heading]
+      - ELLIPSE "Ellipse 8", 9x9px, constraints left/top, fill #95CF48, stroke #3047EC 2px
+      - TEXT "", 135x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+    - FRAME "Conversation frame", 390x514.8px, constraints left/top, fill #FFFFFF
+      - FRAME "💬 Conversation [move me]", 349x505px, vertical pad 0 0 0 0px gap 16px align max/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Operator", 349x53px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31289", 349x53px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatars", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 31290", 232x53px, vertical pad 0 0 0 0px gap 7px align max/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "User", 254x53px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 353", 254x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+            - TEXT "I’m sorry bot, but you’re wrong", 216x21px, constraints left/scale, fill #FFFFFF, text [chat/customer-body]
+        - FRAME "User", 251x53px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 353", 251x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+            - TEXT "Can I talk to someone please?", 213x21px, constraints left/scale, fill #FFFFFF, text [chat/customer-body]
+        - FRAME "Operator", 349x74px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31289", 349x74px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31291", 32x32px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 31290", 296x74px, vertical pad 0 0 0 0px gap 6px align max/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Operator", 349x117px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31289", 349x117px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31291", 32x55px, vertical pad 0 0 23 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 31290", 183x117px, vertical pad 0 0 0 0px gap 6px align max/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "User", 230x75px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 353", 230x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+            - TEXT "Oh finally a human, wohoo!", 192x21px, constraints left/scale, fill #FFFFFF, text [chat/customer-body]
+          - TEXT "Just now・Not seen yet", 147x16px, constraints left/top, fill #737376, text [chat/message-stamp]
+    - FRAME "Line", 390x1.2px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EBEBEB
+    - INSTANCE "Reply", 390x66px, vertical pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #FAFAFA
+      - FRAME "Frame 31282", 350x26px, horizontal pad 0 0 4 0px gap 143px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Type a reply...", 99x20px, constraints left/top, fill #737376, text [Inter Regular, 15px]
+        - FRAME "Frame 31283", 72x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Chips Text", 18x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+          - TEXT "Chips Text", 16x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+          - TEXT "Chips Text", 14x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+  - INSTANCE "Chrome", 390x80px, horizontal pad 0 22 30 22px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #C1C1C1 1px
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - FRAME "Frame 31293", 36x36px, vertical pad 4 6 4 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #E8EAED
+      - TEXT "Chips Text", 21x24px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 24px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Light, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+  - INSTANCE "iOS Home Indicator", 390x33.97px, constraints scale/scale
+    - RECTANGLE "Rounded rectangle", 134x5px, constraints center/bottom, radius 100px, fill #000000
+
+Screen: 💬  UI / Mobile
+- FRAME "Mobile", 390x844px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "iOS Status Bar", 390x44px, horizontal pad 0 24 0 24px gap 233px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "↳ Time", 29x17px, constraints left/top, fill #000000, text [SF Pro Display Semibold, 14px]
+    - FRAME "Stack", 66.6x12px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~13 shapes]
+  - INSTANCE "Chrome", 390x58px, vertical pad 12 12 12 12px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 31290", 366x36px, horizontal pad 8 16 8 16px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 50px, fill #E8EAED
+      - TEXT "Chips Text", 11x12px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 12px], opacity 0%
+      - FRAME "Frame 31291", 107x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Chips Text", 11x12px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Solid, 12px]
+        - TEXT "bothrs.com", 88x19px, constraints left/top, fill #202124, text [Inter Medium, 16px]
+      - TEXT "Chips Text", 13x14px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 14px]
+  - GROUP "Group 1", 390x662px, constraints left/top
+    - FRAME "Intercom Widget", 390x662px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, effect shadows/shadow-widget
+      - INSTANCE "Header", 390x220.79px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+        - FRAME "Frame 31287", 350x180.79px, vertical pad 0 0 0 0px gap 26px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 350x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+            - TEXT "Customer Service", 324x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+            - TEXT "", 14x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+          - FRAME "Avatars", 188.37x62.79px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatars", 62.79x62.79px, vertical pad 0 0 0 0px gap 19.62px align max/min sizing W:fixed H:fixed, constraints left/top, radius 196.22px, stroke #3047EC 4.71px
+            - INSTANCE "Avatars", 62.79x62.79px, vertical pad 0 0 0 0px gap 19.62px align max/min sizing W:fixed H:fixed, constraints left/top, radius 196.22px, stroke #3047EC 4.71px
+            - INSTANCE "Avatars", 62.79x62.79px, vertical pad 0 0 0 0px gap 19.62px align max/min sizing W:fixed H:fixed, constraints left/top, radius 196.22px, stroke #3047EC 4.71px
+          - FRAME "Frame 31289", 267x48px, vertical pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "We typically reply in a few minutes", 267x18px, constraints left/top, fill #F8F8F8, text [Inter SemiBold, 16px]
+            - TEXT "Please ask your question.", 169x18px, constraints left/top, fill #F8F8F8, text [header/subtitle], [heading], opacity 80%
+      - FRAME "Conversation frame", 390x374.01px, constraints left/top, fill #FFFFFF
+        - FRAME "💬 Conversation [move me]", 349x74px, vertical pad 0 0 0 0px gap 16px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Operator", 349x74px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 349x74px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Quick replies", 349x98px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints right/bottom
+          - FRAME "Frame 31288", 132x44px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 132x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - FRAME "Frame 353", 266x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "I’d like to learn more about Bothrs", 238x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+      - FRAME "Line", 390x1.2px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EBEBEB
+      - INSTANCE "Reply", 390x66px, vertical pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #FAFAFA
+        - FRAME "Frame 31282", 350x26px, horizontal pad 0 0 4 0px gap 143px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Type a reply...", 99x20px, constraints left/top, fill #737376, text [Inter Regular, 15px]
+          - FRAME "Frame 31283", 72x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Chips Text", 18x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 16x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 14x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+  - INSTANCE "Chrome", 390x80px, horizontal pad 0 22 30 22px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #C1C1C1 1px
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - FRAME "Frame 31293", 36x36px, vertical pad 4 6 4 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #E8EAED
+      - TEXT "Chips Text", 21x24px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 24px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Light, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+  - INSTANCE "iOS Home Indicator", 390x33.97px, constraints scale/scale
+    - RECTANGLE "Rounded rectangle", 134x5px, constraints center/bottom, radius 100px, fill #000000
+
+Screen: 💬  UI / Mobile
+- FRAME "Mobile", 390x844px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "iOS Status Bar", 390x44px, horizontal pad 0 24 0 24px gap 233px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "↳ Time", 29x17px, constraints left/top, fill #000000, text [SF Pro Display Semibold, 14px]
+    - FRAME "Stack", 66.6x12px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~13 shapes]
+  - INSTANCE "Chrome", 390x58px, vertical pad 12 12 12 12px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 31290", 366x36px, horizontal pad 8 16 8 16px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 50px, fill #E8EAED
+      - TEXT "Chips Text", 11x12px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 12px], opacity 0%
+      - FRAME "Frame 31291", 107x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Chips Text", 11x12px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Solid, 12px]
+        - TEXT "bothrs.com", 88x19px, constraints left/top, fill #202124, text [Inter Medium, 16px]
+      - TEXT "Chips Text", 13x14px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 14px]
+  - FRAME "Intercom Widget", 390x662px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left/top, effect shadows/shadow-widget
+    - INSTANCE "Header", 390x74px, horizontal pad 28 20 28 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+      - FRAME "Frame 31287", 350x18px, vertical pad 0 0 0 0px gap 26px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 31288", 350x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title", 334x18px, constraints left/top, fill #F8F8F8, text [Inter SemiBold, 20px]
+          - TEXT "", 16x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+    - FRAME "Line", 390x1.2px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EBEBEB
+    - FRAME "Frame", 390x497.8px, vertical pad 20 20 20 20px gap 12px align space_between/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+      - FRAME "Messages", 350x211.3px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Message", 350x62.43px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31303", 350x46.43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31305", 48.88x46.43px, constraints left/top
+            - FRAME "Frame 31304", 272.12x45px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Icon", 9x19px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 14px]
+          - LINE "Line 2", 350x0px, constraints left/top, stroke #F2F2F2 1.2px
+        - FRAME "Message", 350x62.43px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31303", 350x46.43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31305", 48.88x46.43px, constraints left/top
+            - FRAME "Frame 31304", 272.12x45px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Icon", 9x19px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 14px]
+          - LINE "Line 2", 350x0px, constraints left/top, stroke #F2F2F2 1.2px
+        - FRAME "Message", 350x62.43px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31303", 350x46.43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31305", 48.88x46.43px, constraints left/top
+            - FRAME "Frame 31304", 272.12x45px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Icon", 9x19px, constraints left/top, fill #FF3944, text [Font Awesome 6 Pro Solid, 14px]
+          - LINE "Line 2", 350x0px, constraints left/top, stroke #F2F2F2 1.2px
+      - FRAME "Buttin", 207x45px, horizontal pad 12 20 12 20px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #3047EC, effect shadows/shadow-menu
+        - TEXT "Send us a message", 141x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 15px]
+        - TEXT "Icon", 14x19px, constraints left/top, fill #FFFFFF, text [Font Awesome 6 Pro Solid, 14px]
+    - INSTANCE "Nav", 390x89px, vertical pad 18 20 18 20px gap 206px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu
+      - FRAME "Frame 31299", 350x53px, horizontal pad 0 14 0 14px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "1", 42x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Icon", 25x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+          - TEXT "Home", 42x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+        - FRAME "2", 75x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Icon", 22x30px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 22px]
+          - TEXT "Messages", 75x21px, constraints left/top, fill #3047EC, text [Inter SemiBold, 15px]
+          - FRAME "Notification", 16x16px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #FF3944, stroke #FFFFFF 1.2px
+            - TEXT "Icon", 6x9px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+        - FRAME "3", 33x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+          - TEXT "Help", 33x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+        - FRAME "4", 41x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+          - TEXT "News", 41x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+  - INSTANCE "Chrome", 390x80px, horizontal pad 0 22 30 22px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #C1C1C1 1px
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - FRAME "Frame 31293", 36x36px, vertical pad 4 6 4 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #E8EAED
+      - TEXT "Chips Text", 21x24px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 24px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Light, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+  - INSTANCE "iOS Home Indicator", 390x33.97px, constraints scale/scale
+    - RECTANGLE "Rounded rectangle", 134x5px, constraints center/bottom, radius 100px, fill #000000
+
+Screen: 💬  UI / Mobile
+- FRAME "Mobile", 390x844px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "iOS Status Bar", 390x44px, horizontal pad 0 24 0 24px gap 233px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "↳ Time", 29x17px, constraints left/top, fill #000000, text [SF Pro Display Semibold, 14px]
+    - FRAME "Stack", 66.6x12px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~13 shapes]
+  - INSTANCE "Chrome", 390x58px, vertical pad 12 12 12 12px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 31290", 366x36px, horizontal pad 8 16 8 16px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 50px, fill #E8EAED
+      - TEXT "Chips Text", 11x12px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 12px], opacity 0%
+      - FRAME "Frame 31291", 107x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Chips Text", 11x12px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Solid, 12px]
+        - TEXT "bothrs.com", 88x19px, constraints left/top, fill #202124, text [Inter Medium, 16px]
+      - TEXT "Chips Text", 13x14px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 14px]
+  - FRAME "Intercom Widget", 390x662px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left/top, effect shadows/shadow-widget
+    - INSTANCE "Header", 390x244.83px, horizontal pad 30 32 22 32px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+      - FRAME "Frame 31287", 326x192.83px, vertical pad 0 0 0 0px gap 70px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 31288", 326x40.83px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Avatars", 122.49x40.83px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatars", 40.83x40.83px, vertical pad 0 0 0 0px gap 12.76px align max/min sizing W:fixed H:fixed, constraints left/top, radius 127.59px, stroke #3047EC 3.06px
+            - INSTANCE "Avatars", 40.83x40.83px, vertical pad 0 0 0 0px gap 12.76px align max/min sizing W:fixed H:fixed, constraints left/top, radius 127.59px, stroke #3047EC 3.06px
+            - INSTANCE "Avatars", 40.83x40.83px, vertical pad 0 0 0 0px gap 12.76px align max/min sizing W:fixed H:fixed, constraints left/top, radius 127.59px, stroke #3047EC 3.06px
+          - TEXT "", 203.51x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+        - FRAME "Frame 31289", 326x82px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Hi there", 130x41px, constraints left/top, fill #F8F8F8, text [header/hero], [heading], opacity 70%
+          - TEXT "👋", 34x41px, constraints left/top, fill #F8F8F8, text [Inter Regular, 34px], [heading]
+          - TEXT "How can we help?", 297x41px, constraints left/top, fill #F8F8F8, text [header/hero], [heading]
+    - FRAME "Messages", 390x327.17px, vertical pad 0 20 0 20px gap 206px sizing W:fill H:fill, constraints left/top, fill gradient_linear(#3047EC 0% | #FFFFFF 100%)
+      - FRAME "Frame", 350x445.43px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Recent message", 350x121.43px, horizontal pad 22 24 22 24px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+          - FRAME "Frame 31302", 302x77.43px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Recent message", 302x21px, constraints left/top, fill #000000, text [Inter SemiBold, 15px]
+            - FRAME "Frame 31303", 302x46.43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Send us a message", 350x89px, horizontal pad 22 24 22 24px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+          - FRAME "Frame 31301", 278x45px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Send us a message", 278x21px, constraints left/top, fill #000000, text [Inter SemiBold, 15px]
+            - TEXT "We typically reply in a few minutes", 278x18px, constraints left/top, fill #737376, text [Inter Regular, 15px]
+          - TEXT "Icon", 14x19px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 14px]
+        - FRAME "Send us a message", 350x211px, horizontal pad 10 10 20 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+          - FRAME "Frame 31301", 330x181px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31310", 330x41px, horizontal pad 10 12 10 12px gap 10px sizing W:fill H:fixed, constraints left/top, radius 6px, fill #F2F2F2
+            - FRAME "Frame 31309", 330x130px, vertical pad 0 12 0 12px gap 18px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Quick replies", 350x98px, horizontal pad 0 0 0 0px gap 10px align max/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 31288", 138x44px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 353", 138x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Payment status", 110x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+        - FRAME "Frame 353", 156x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - TEXT "Application status", 128x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+        - FRAME "Frame 31289", 141x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - TEXT "Become a client", 113x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+        - FRAME "Frame 31290", 69x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - TEXT "Other", 41x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+    - INSTANCE "Nav", 390x90px, vertical pad 18 20 18 20px gap 206px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu
+      - FRAME "Frame 31299", 350x54px, horizontal pad 0 14 0 14px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "1", 43x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Icon", 26x31px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 23px]
+          - TEXT "Home", 43x21px, constraints left/top, fill #3047EC, text [Inter SemiBold, 15px]
+        - FRAME "2", 72x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+          - TEXT "Messages", 72x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+        - FRAME "3", 33x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+          - TEXT "Help", 33x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+        - FRAME "4", 41x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+          - TEXT "News", 41x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+  - INSTANCE "Chrome", 390x80px, horizontal pad 0 22 30 22px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #C1C1C1 1px
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - FRAME "Frame 31293", 36x36px, vertical pad 4 6 4 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #E8EAED
+      - TEXT "Chips Text", 21x24px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 24px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Light, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+  - INSTANCE "iOS Home Indicator", 390x33.97px, constraints scale/scale
+    - RECTANGLE "Rounded rectangle", 134x5px, constraints center/bottom, radius 100px, fill #000000
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - TEXT "Title", 223x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+  - FRAME "Intercom", 423x804px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x724px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x81px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+        - FRAME "Widget Header", 94x41px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Avatars", 32x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatars", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, stroke #3047EC 2.4px
+          - FRAME "Frame 31285", 48x41px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Fin", 27x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+            - FRAME "Frame 31286", 48x19px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Conversation frame", 423x575.8px, constraints left/top, fill #FFFFFF
+        - FRAME "💬 Conversation [move me]", 383x581px, vertical pad 0 0 0 0px gap 16px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31288", 383x53px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x53px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "User", 298x74px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 298x74px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+          - FRAME "Frame 31287", 383x263px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x263px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "User", 271.54x74px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 271.54x74px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+          - FRAME "Frame 31289", 383x53px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31289", 383x53px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Line", 423x1.2px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EBEBEB
+      - INSTANCE "Reply", 423x66px, vertical pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 31282", 383x26px, horizontal pad 0 0 4 0px gap 143px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Type a reply...", 99x20px, constraints left/top, fill #737376, text [Inter Regular, 15px]
+          - FRAME "Frame 31283", 72x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Chips Text", 18x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 16x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+            - TEXT "Chips Text", 14x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - TEXT "Title", 271x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+  - FRAME "Intercom", 423x789px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x709px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x244.83px, horizontal pad 30 32 22 32px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - FRAME "Frame 31287", 359x192.83px, vertical pad 0 0 0 0px gap 70px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 359x40.83px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Avatars", 122.49x40.83px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31289", 359x82px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Hi there", 180x41px, constraints left/top, fill #F8F8F8, text [header/hero], [heading], opacity 70%
+            - TEXT "👋", 34x41px, constraints left/top, fill #F8F8F8, text [Inter Regular, 34px], [heading]
+            - TEXT "How can we help?", 297x41px, constraints left/top, fill #F8F8F8, text [header/hero], [heading]
+      - FRAME "Messages", 423x374.17px, vertical pad 0 20 0 20px gap 206px sizing W:fill H:fill, constraints left/top, fill gradient_linear(#3047EC 0% | #FFFFFF 100%)
+        - FRAME "Frame 31298", 383x224.43px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tile", 383x122.43px, horizontal pad 22 24 22 24px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "Frame 31302", 335x78.43px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tile", 383x90px, horizontal pad 22 24 22 24px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "Frame 31301", 311x46px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Icon", 14x19px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 14px]
+        - FRAME "Quick replies", 383x98px, horizontal pad 0 0 0 0px gap 10px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 138x44px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 138x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - FRAME "Frame 353", 156x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Application status", 128x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+          - FRAME "Frame 31289", 141x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Become a client", 113x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+          - FRAME "Frame 31290", 69x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Other", 41x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+      - INSTANCE "Nav", 423x90px, vertical pad 18 70 18 70px gap 206px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu
+        - FRAME "Frame 31299", 283x54px, horizontal pad 0 14 0 14px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "1", 43x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 26x31px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 23px]
+            - TEXT "Home", 43x21px, constraints left/top, fill #3047EC, text [Inter SemiBold, 15px]
+          - FRAME "2", 72x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+            - TEXT "Messages", 72x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - TEXT "Title", 397x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+  - TEXT "Title", 574x42px, constraints left/top, fill Black, text [Inter Regular, 30px], [heading]
+  - FRAME "Intercom", 500x789px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 500x709px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 500x244.83px, horizontal pad 30 32 22 32px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - FRAME "Frame 31287", 436x192.83px, vertical pad 0 0 0 0px gap 70px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 436x40.83px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Avatars", 122.49x40.83px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31289", 436x82px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Hi there", 130x41px, constraints left/top, fill #F8F8F8, text [header/hero], [heading], opacity 70%
+            - TEXT "👋", 34x41px, constraints left/top, fill #F8F8F8, text [Inter Regular, 34px], [heading]
+            - TEXT "How can we help?", 297x41px, constraints left/top, fill #F8F8F8, text [header/hero], [heading]
+      - FRAME "Messages", 500x374.17px, vertical pad 0 20 0 20px gap 206px sizing W:fill H:fill, constraints left/top, fill gradient_linear(#3047EC 0% | #FFFFFF 100%)
+        - FRAME "Frame", 460x470.43px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tile", 460x122.43px, horizontal pad 22 24 22 24px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "Frame 31302", 412x78.43px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tile", 460x90px, horizontal pad 22 24 22 24px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "Frame 31301", 388x46px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Icon", 14x19px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 14px]
+          - INSTANCE "Tile", 460x234px, horizontal pad 10 10 20 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "Frame 31301", 440x204px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Quick replies", 460x98px, horizontal pad 0 0 0 0px gap 10px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 138x44px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 138x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - FRAME "Frame 353", 156x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Application status", 128x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+          - FRAME "Frame 31289", 141x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Become a client", 113x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+          - FRAME "Frame 31290", 69x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Other", 41x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+      - INSTANCE "Nav", 500x90px, vertical pad 18 20 18 20px gap 206px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu
+        - FRAME "Frame 31299", 460x54px, horizontal pad 0 14 0 14px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "1", 43x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 26x31px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 23px]
+            - TEXT "Home", 43x21px, constraints left/top, fill #3047EC, text [Inter SemiBold, 15px]
+          - FRAME "2", 72x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+            - TEXT "Messages", 72x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "3", 33x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+            - TEXT "Help", 33x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "4", 41x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+            - TEXT "News", 41x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - TEXT "Title", 409x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+  - FRAME "Intercom", 423x789px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x709px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x244.83px, horizontal pad 30 32 22 32px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - FRAME "Frame 31287", 359x192.83px, vertical pad 0 0 0 0px gap 70px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 359x40.83px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatars", 34x34px, vertical pad 0 0 0 0px gap 10.62px align max/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Avatars", 122.49x40.83px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31289", 359x82px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Hi there", 130x41px, constraints left/top, fill #F8F8F8, text [header/hero], [heading], opacity 70%
+            - TEXT "👋", 34x41px, constraints left/top, fill #F8F8F8, text [Inter Regular, 34px], [heading]
+            - TEXT "How can we help?", 297x41px, constraints left/top, fill #F8F8F8, text [header/hero], [heading]
+      - FRAME "Messages", 423x374.17px, vertical pad 0 20 0 20px gap 206px sizing W:fill H:fill, constraints left/top, fill gradient_linear(#3047EC 0% | #FFFFFF 100%)
+        - FRAME "Frame", 383x470.43px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tile", 383x122.43px, horizontal pad 22 24 22 24px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "Frame 31302", 335x78.43px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tile", 383x90px, horizontal pad 22 24 22 24px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "Frame 31301", 311x46px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Icon", 14x19px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 14px]
+          - INSTANCE "Tile", 383x234px, horizontal pad 10 10 20 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "Frame 31301", 363x204px, vertical pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Quick replies", 383x98px, horizontal pad 0 0 0 0px gap 10px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 138x44px, vertical pad 0 0 0 0px gap 10px align max/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 353", 138x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+          - FRAME "Frame 353", 156x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Application status", 128x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+          - FRAME "Frame 31289", 141x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Become a client", 113x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+          - FRAME "Frame 31290", 69x44px, horizontal pad 12 14 12 14px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #E5EEFF
+            - TEXT "Other", 41x20px, constraints left/scale, fill #013499, text [chat/operator-quick-reply]
+      - INSTANCE "Nav", 423x90px, vertical pad 18 20 18 20px gap 206px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu
+        - FRAME "Frame 31299", 383x54px, horizontal pad 0 14 0 14px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "1", 43x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 26x31px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 23px]
+            - TEXT "Home", 43x21px, constraints left/top, fill #3047EC, text [Inter SemiBold, 15px]
+          - FRAME "2", 72x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+            - TEXT "Messages", 72x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "3", 33x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+            - TEXT "Help", 33x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "4", 41x54px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 23x31px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 23px]
+            - TEXT "News", 41x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - TEXT "Title", 661x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+  - FRAME "Intercom", 423x789px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x709px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x74px, horizontal pad 28 20 28 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - FRAME "Frame 31287", 383x18px, vertical pad 0 0 0 0px gap 26px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 383x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title", 383x18px, constraints left/top, fill #F8F8F8, text [Inter SemiBold, 20px]
+      - FRAME "Frame", 423x546px, vertical pad 20 20 20 20px gap 12px align space_between/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+        - FRAME "Messages", 383x211.3px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Message", 383x62.43px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x46.43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+          - FRAME "Message", 383x62.43px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x46.43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+          - FRAME "Message", 383x62.43px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x46.43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+        - FRAME "Buttin", 207x45px, horizontal pad 12 20 12 20px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #3047EC, effect shadows/shadow-menu
+          - TEXT "Send us a message", 141x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 15px]
+          - TEXT "Icon", 14x19px, constraints left/top, fill #FFFFFF, text [Font Awesome 6 Pro Solid, 14px]
+      - INSTANCE "Nav", 423x89px, vertical pad 18 20 18 20px gap 206px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu
+        - FRAME "Frame 31299", 383x53px, horizontal pad 0 14 0 14px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "1", 42x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 25x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "Home", 42x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "2", 75x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 22px]
+            - TEXT "Messages", 75x21px, constraints left/top, fill #3047EC, text [Inter SemiBold, 15px]
+            - FRAME "Notification", 16x16px, vertical pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #FF3944, stroke #FFFFFF 1.2px
+          - FRAME "3", 33x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "Help", 33x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "4", 41x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "News", 41x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - TEXT "Title", 95x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+  - FRAME "Intercom", 423x789px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x709px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x128px, vertical pad 28 12 12 12px gap 24px align center/min sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - FRAME "Frame 31287", 399x18px, vertical pad 0 0 0 0px gap 26px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 399x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Help", 399x18px, constraints left/top, fill #F8F8F8, text [Inter SemiBold, 20px]
+        - FRAME "Reply", 399x46px, horizontal pad 12 20 12 20px gap 30px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+          - TEXT "Search for help", 108x20px, constraints left/top, fill #737376, text [Inter Regular, 15px]
+          - TEXT "Chips Text", 16x22px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 16px]
+      - FRAME "Frame", 423x58px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 31314", 423x58px, horizontal pad 20 20 20 20px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, stroke #F2F2F2 1px
+          - TEXT "18 collections", 383x18px, constraints left/top, fill #000000, text [header/title], [heading]
+      - FRAME "Frame", 423x434px, vertical pad 20 20 20 20px gap 16px align min/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+        - FRAME "Messages", 383x88px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Message", 383x88px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x72px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+        - FRAME "Messages", 383x109px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Message", 383x109px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x93px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+        - FRAME "Messages", 383x109px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Message", 383x109px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x93px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+        - FRAME "Messages", 383x88px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Message", 383x88px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x72px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+        - FRAME "Messages", 383x88px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Message", 383x88px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x72px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+        - FRAME "Messages", 383x0px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Message", 383x0px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Gradient", 423x60px, constraints left/top, fill gradient_linear(#FFFFFF00 0% | #FFFFFF 100%)
+      - INSTANCE "Nav", 423x89px, vertical pad 18 20 18 20px gap 206px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu
+        - FRAME "Frame 31299", 383x53px, horizontal pad 0 14 0 14px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "1", 42x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 25x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "Home", 42x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "2", 72x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "Messages", 72x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "3", 34x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 22px]
+            - TEXT "Help", 34x21px, constraints left/top, fill #3047EC, text [Inter SemiBold, 15px]
+          - FRAME "4", 41x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "News", 41x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - TEXT "Title", 211x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+  - FRAME "Intercom", 423x789px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x709px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x74px, horizontal pad 28 20 28 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - FRAME "Frame 31287", 383x18px, vertical pad 0 0 0 0px gap 26px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 383x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title", 383x18px, constraints left/top, fill #F8F8F8, text [Inter SemiBold, 20px]
+      - FRAME "Frame", 423x546px, vertical pad 20 20 20 20px gap 12px align space_between/center sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+        - FRAME "Messages", 383x136.87px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Message", 383x62.43px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x46.43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+          - FRAME "Message", 383x62.43px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x46.43px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+            - LINE "Line 2", 383x0px, constraints left/top, stroke #F2F2F2 1.2px
+        - FRAME "Buttin", 207x45px, horizontal pad 12 20 12 20px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #3047EC, effect shadows/shadow-menu
+          - TEXT "Send us a message", 141x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 15px]
+          - TEXT "Icon", 14x19px, constraints left/top, fill #FFFFFF, text [Font Awesome 6 Pro Solid, 14px]
+      - INSTANCE "Nav", 423x89px, vertical pad 18 20 18 20px gap 206px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu
+        - FRAME "Frame 31299", 383x53px, horizontal pad 0 14 0 14px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "1", 42x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 25x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "Home", 42x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "2", 75x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 22px]
+            - TEXT "Messages", 75x21px, constraints left/top, fill #3047EC, text [Inter SemiBold, 15px]
+          - FRAME "3", 33x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "Help", 33x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "4", 41x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "News", 41x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+
+Screen: 💬  UI / Desktop
+- FRAME "Desktop", 1440x1024px, constraints left/top, fill #F5F5F5
+  - TEXT "Title", 116x59px, constraints left/top, fill Black, text [Inter Bold, 42px], [heading]
+  - FRAME "Intercom", 423x789px, vertical pad 0 0 0 0px gap 20px align max/max sizing W:fixed H:fixed, constraints right/bottom
+    - FRAME "Intercom Widget", 423x709px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 18px, effect shadows/shadow-widget
+      - INSTANCE "Header", 423x74px, horizontal pad 28 20 28 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #3047EC
+        - FRAME "Frame 31287", 383x18px, vertical pad 0 0 0 0px gap 26px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31288", 383x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title", 383x18px, constraints left/top, fill #F8F8F8, text [Inter SemiBold, 20px]
+      - FRAME "Messages", 423x546px, vertical pad 20 20 20 20px gap 206px sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 31298", 383x853.39px, vertical pad 0 0 0 0px gap 18px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Subheader", 383x44px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31303", 383x44px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tile", 383x386.69px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "image", 383x208.91px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "text container", 383x177.78px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Tile", 383x386.69px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 10px, fill #FFFFFF, stroke #00000024 1px, effect shadows/shadow-card
+            - FRAME "image", 383x208.91px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "text container", 383x177.78px, vertical pad 20 20 20 20px gap 10px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Nav", 423x89px, vertical pad 18 20 18 20px gap 206px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #F2F2F2 1px, effect shadows/shadow-menu
+        - FRAME "Frame 31299", 383x53px, horizontal pad 0 14 0 14px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "1", 42x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 25x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "Home", 42x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "2", 72x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "Messages", 72x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "3", 33x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Light, 22px]
+            - TEXT "Help", 33x21px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+          - FRAME "4", 41x53px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Icon", 22x30px, constraints left/top, fill #3047EC, text [Font Awesome 6 Pro Solid, 22px]
+            - TEXT "News", 41x21px, constraints left/top, fill #3047EC, text [Inter SemiBold, 15px]
+    - INSTANCE "Trigger", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+      - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+
+Screen: 💬  UI / Mobile
+- FRAME "Mobile", 390x1044px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "iOS Status Bar", 390x44px, horizontal pad 0 24 0 24px gap 233px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "↳ Time", 29x17px, constraints left/top, fill #000000, text [SF Pro Display Semibold, 14px]
+    - FRAME "Stack", 66.6x12px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~13 shapes]
+  - INSTANCE "Chrome", 390x58px, vertical pad 12 12 12 12px gap 10px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 31290", 366x36px, horizontal pad 8 16 8 16px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 50px, fill #E8EAED
+      - TEXT "Chips Text", 11x12px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 12px], opacity 0%
+      - FRAME "Frame 31291", 107x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Chips Text", 11x12px, constraints left/top, fill #000000, text [Font Awesome 6 Pro Solid, 12px]
+        - TEXT "bothrs.com", 88x19px, constraints left/top, fill #202124, text [Inter Medium, 16px]
+      - TEXT "Chips Text", 13x14px, constraints left/top, fill #9AA0A6, text [Font Awesome 6 Pro Regular, 14px]
+  - FRAME "Intercom Widget", 390x862px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fill, constraints left/top, effect shadows/shadow-widget
+    - INSTANCE "Header", 390x80px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+      - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+      - INSTANCE "Widget Header", 143x40px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Avatars", 40x40px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+            - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: f9a3cce27c8b31fea0307cb8db88b1362af9db1c)
+        - FRAME "Frame 31285", 89x40px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Bothrs", 68x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+          - FRAME "Frame 31286", 89x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "A few minutes", 89x18px, constraints left/top, fill #F8F8F8, text [header/subtitle], [heading]
+      - ELLIPSE "Ellipse 8", 9x9px, constraints left/top, fill #95CF48, stroke #3047EC 2px
+      - TEXT "", 135x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+    - FRAME "Conversation frame", 390x714.8px, constraints left/top, fill #FFFFFF
+      - FRAME "💬 Conversation [move me]", 351x631px, vertical pad 0 0 0 0px gap 16px align max/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Operator", 351x53px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31289", 351x53px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatars", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 31290", 232x53px, vertical pad 0 0 0 0px gap 7px align max/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "User", 161x53px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 353", 161x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+            - TEXT "My order is late...", 123x21px, constraints left/scale, fill #FFFFFF, text [chat/customer-body]
+        - FRAME "User", 256x53px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 353", 256x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+            - TEXT "I’m waiting like since forever 🤨", 218x21px, constraints left/scale, fill #FFFFFF, text [chat/customer-body]
+        - FRAME "Operator", 351x158px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31289", 351x158px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31291", 32x32px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 31290", 296x158px, vertical pad 0 0 0 0px gap 6px align max/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "User", 110x75px, vertical pad 0 0 0 0px gap 6px align max/max sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 353", 110x53px, horizontal pad 16 19 16 19px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #3047EC
+            - TEXT "Ok thanks", 72x21px, constraints left/scale, fill #FFFFFF, text [chat/customer-body]
+          - TEXT "3m ago・Seen", 91x16px, constraints left/top, fill #737376, text [chat/message-stamp]
+        - FRAME "Operator", 351x159px, vertical pad 0 0 0 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 31289", 351x159px, horizontal pad 0 0 0 0px gap 10px align min/max sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 31291", 32x55px, vertical pad 0 0 23 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 31290", 296x159px, vertical pad 0 0 0 0px gap 6px align max/min sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Line", 390x1.2px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EBEBEB
+    - INSTANCE "Reply", 390x66px, vertical pad 20 20 20 20px gap 30px align min/center sizing W:fill H:fixed, constraints left/top, fill #FAFAFA
+      - FRAME "Frame 31282", 350x26px, horizontal pad 0 0 4 0px gap 143px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Type a reply...", 99x20px, constraints left/top, fill #737376, text [Inter Regular, 15px]
+        - FRAME "Frame 31283", 72x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Chips Text", 18x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+          - TEXT "Chips Text", 16x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+          - TEXT "Chips Text", 14x22px, constraints left/top, fill #8F9195, text [Font Awesome 6 Pro Light, 16px]
+  - INSTANCE "Chrome", 390x80px, horizontal pad 0 22 30 22px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #C1C1C1 1px
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+    - FRAME "Frame 31293", 36x36px, vertical pad 4 6 4 6px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #E8EAED
+      - TEXT "Chips Text", 21x24px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 24px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Light, 30px], [heading]
+    - TEXT "Chips Text", 27x30px, constraints left/top, fill #80858A, text [Font Awesome 6 Pro Regular, 30px], [heading]
+  - INSTANCE "iOS Home Indicator", 390x42.02px, constraints scale/scale
+    - RECTANGLE "Rounded rectangle", 134x5px, constraints center/bottom, radius 100px, fill #000000
+
+Screen: 📦  Components / Trigger
+- COMPONENT_SET "Trigger", 100x200px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Collapse", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+    - VECTOR "", 21.19x12.19px, constraints center/center, fill #FFFFFF
+  - COMPONENT "Property 1=Logo", 60x60px, constraints left/top, radius 100px, fill #3047EC, effect [drop_shadow 6px offset 0 1 #0000000F, drop_shadow 32px offset 0 2 #00000029]
+    - GROUP "Icon", 28.06x30.97px, constraints scale/scale
+      - VECTOR "Vector", 28.06x30.97px, constraints scale/scale, fill #FFFFFF
+
+Screen: 📦  Components / Avatars
+- COMPONENT_SET "Avatars", 73x390px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Company", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 31284", 32x32px, constraints left/top
+      - ELLIPSE "Ellipse 7", 32x32px, constraints left/top, fill #FFF4D0
+      - TEXT "", 15.09x22.27px, constraints scale/scale, fill #FFC421, text [Font Awesome 6 Sharp Solid, 20px]
+  - COMPONENT "Property 1=AI last message", 33.66x33.66px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Intercom Logo", 33.66x33.66px, constraints left/top, fill #000000
+  - COMPONENT "Property 1=AI previous messages", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Intercom Logo", 32x32px, constraints left/top, fill #B8B8B8
+  - COMPONENT "Property 1=AI header", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top
+    - VECTOR "Intercom Logo", 32x32px, constraints left/top, fill #FFFFFF
+  - COMPONENT "Property 1=Person 1", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, radius 100px
+    - ELLIPSE "Ellipse 6", 32x32px, constraints left/top, fill image(hash: f9a3cce27c8b31fea0307cb8db88b1362af9db1c)
+  - COMPONENT "Property 1=Person 2", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, radius 100px
+    - ELLIPSE "Ellipse 6", 32x32px, constraints left/top, fill image(hash: 59b1fdef78a58bc709e7893c3f37ab34499a627e)
+  - COMPONENT "Property 1=Person 3", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, radius 100px
+    - ELLIPSE "Ellipse 6", 32x32px, constraints left/top, fill image(hash: 2a6ffd5095fc01df008a8326ad1a141bc573fef9)
+
+Screen: 📦  Components / AI Label
+- COMPONENT_SET "AI Label", 59x98px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Dark", 19x19px, vertical pad 6 4 6 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF
+    - TEXT "AI", 11x7px, constraints left/top, fill #3047EC, text [Inter Bold, 10px]
+  - COMPONENT "Property 1=Light", 19x19px, vertical pad 6 4 6 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #737373
+    - TEXT "AI", 11x7px, constraints left/top, fill #F8F8F8, text [Inter Bold, 10px]
+
+Screen: 📦  Components / Header
+- COMPONENT_SET "Header", 463x1534px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Company + stamp", 423x80px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+    - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+    - FRAME "Widget Header", 246x40px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Avatars", 120x40px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+          - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: 59b1fdef78a58bc709e7893c3f37ab34499a627e)
+        - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+          - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: f9a3cce27c8b31fea0307cb8db88b1362af9db1c)
+        - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+          - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: 2a6ffd5095fc01df008a8326ad1a141bc573fef9)
+      - FRAME "Frame 31285", 112x40px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Bothrs", 58x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+        - FRAME "Frame 31286", 112x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "", 14x14px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Pro Light, 14px]
+          - TEXT "A few minutes", 94x18px, constraints left/top, fill #F8F8F8, text [header/subtitle], [heading]
+  - COMPONENT "Property 1=Operator + stamp", 423x80px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+    - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+    - INSTANCE "Widget Header", 143x40px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Avatars", 40x40px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatars", 40x40px, vertical pad 0 0 0 0px gap 12.5px align max/min sizing W:fixed H:fixed, constraints left/top, radius 125px, stroke #3047EC 3px
+          - ELLIPSE "Ellipse 6", 40x40px, constraints left/top, fill image(hash: f9a3cce27c8b31fea0307cb8db88b1362af9db1c)
+      - FRAME "Frame 31285", 89x40px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Bothrs", 68x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+        - FRAME "Frame 31286", 89x18px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "A few minutes", 89x18px, constraints left/top, fill #F8F8F8, text [header/subtitle], [heading]
+    - ELLIPSE "Ellipse 8", 9x9px, constraints left/top, fill #95CF48, stroke #3047EC 2px
+  - COMPONENT "Property 1=AI Bot + stamp", 423x81px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+    - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+    - FRAME "Widget Header", 94x41px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Avatars", 32x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatars", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, stroke #3047EC 2.4px
+          - VECTOR "Intercom Logo", 32x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 31285", 48x41px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Fin", 27x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+        - FRAME "Frame 31286", 48x19px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31286", 48x19px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "AI Label", 19x19px, vertical pad 6 4 6 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF
+            - TEXT "Bot", 23x18px, constraints left/top, fill #F8F8F8, text [header/subtitle], [heading]
+  - COMPONENT "Property 1=Variant9", 423x81px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+    - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+    - FRAME "Widget Header", 94x41px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Avatars", 32x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatars", 32x32px, vertical pad 0 0 0 0px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, stroke #3047EC 2.4px
+          - VECTOR "Intercom Logo", 32x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 31285", 48x41px, vertical pad 0 0 0 0px gap 4px align center/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Fin", 27x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+        - FRAME "Frame 31286", 48x19px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 31286", 48x19px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "AI Label", 19x19px, vertical pad 6 4 6 4px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF
+            - TEXT "Bot", 23x18px, constraints left/top, fill #F8F8F8, text [header/subtitle], [heading]
+  - COMPONENT "Property 1=Expanded 1", 423x220.79px, horizontal pad 20 20 20 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+    - FRAME "Frame 31287", 383x180.79px, vertical pad 0 0 0 0px gap 26px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 31288", 383x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "", 12x18px, constraints left/top, fill #F8F8F8, text [Font Awesome 6 Sharp Regular, 18px]
+        - TEXT "Customer Service", 371x18px, constraints left/top, fill #F8F8F8, text [header/title], [heading]
+      - FRAME "Avatars", 188.37x62.79px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatars", 62.79x62.79px, vertical pad 0 0 0 0px gap 19.62px align max/min sizing W:fixed H:fixed, constraints left/top, radius 196.22px, stroke #3047EC 4.71px
+          - ELLIPSE "Ellipse 6", 62.79x62.79px, constraints left/top, fill image(hash: 59b1fdef78a58bc709e7893c3f37ab34499a627e)
+        - INSTANCE "Avatars", 62.79x62.79px, vertical pad 0 0 0 0px gap 19.62px align max/min sizing W:fixed H:fixed, constraints left/top, radius 196.22px, stroke #3047EC 4.71px
+          - ELLIPSE "Ellipse 6", 62.79x62.79px, constraints left/top, fill image(hash: f9a3cce27c8b31fea0307cb8db88b1362af9db1c)
+        - INSTANCE "Avatars", 62.79x62.79px, vertical pad 0 0 0 0px gap 19.62px align max/min sizing W:fixed H:fixed, constraints left/top, radius 196.22px, stroke #3047EC 4.71px
+          - ELLIPSE "Ellipse 6", 62.79x62.79px, constraints left/top, fill image(hash: 2a6ffd5095fc01df008a8326ad1a141bc573fef9)
+      - FRAME "Frame 31289", 267x48px, vertical pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "We typically reply in a few minutes", 267x18px, constraints left/top, fill #F8F8F8, text [Inter SemiBold, 16px]
+        - TEXT "Please ask your question.", 169x18px, constraints left/top, fill #F8F8F8, text [header/subtitle], [heading], opacity 80%
+  - COMPONENT "Property 1=Title", 423x74px, horizontal pad 28 20 28 20px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+    - FRAME "Frame 31287", 383x18px, vertical pad 0 0 0 0px gap 26px align center/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 31288", 383x18px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Title", 383x18px, constraints left/top, fill #F8F8F8, text [Inter SemiBold, 20px]
+  - COMPONENT "Property 1=Title+search", 423x128px, vertical pad 28 12 12 12px gap 24px align center/min sizing W:fixed H:fixed, constraints left/top, fill #3047EC
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,755 @@
+---
+name: paystack-fintech-website-landing-page-community
+source_file: Paystack Fintech Website Landing Page (Community)
+source_page: All pages (2): Cover, Landing Page
+generated_at: 2026-07-25T09:53:34.948526+00:00
+---
+
+# Paystack Fintech Website Landing Page (Community) Design Guidelines
+
+## Source
+- Figma file: Paystack Fintech Website Landing Page (Community)
+- Figma page: All pages (2): Cover, Landing Page
+- Extracted at: 2026-07-25T09:53:34.948526+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #011B33: 1011 uses
+- #BDDEF4: 231 uses
+- #FFFFFF: 207 uses
+- #011B33E5: 171 uses
+- #DCF6FF: 105 uses
+- #F6FCFF: 99 uses
+- #3BB75E: 84 uses
+- #9FFFB3: 60 uses
+- #F1FEF4: 39 uses
+- #000000: 27 uses
+- #CBF1D1: 27 uses
+- #0BA4DB: 21 uses
+- #3D5E69: 21 uses
+- #00E1FF: 18 uses
+- #051C32: 18 uses
+- #F0F2F3: 18 uses
+- #EAF6FC: 13 uses
+- #CAF1FC: 12 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Regular, 16px: 77 uses
+- Roboto Regular, 2.41px: 77 uses
+- Roboto Regular, 6.37px: 77 uses
+- Roboto Medium, 16px: 19 uses
+- Roboto Medium, 2.41px: 19 uses
+- Roboto Medium, 6.37px: 19 uses
+- Roboto Regular, 19px: 17 uses
+- Roboto Regular, 2.86px: 17 uses
+- Roboto Regular, 7.56px: 17 uses
+- Roboto Medium, 18px: 15 uses
+- Roboto Medium, 2.71px: 15 uses
+- Roboto Medium, 7.16px: 15 uses
+- Roboto Medium, 15px: 12 uses
+- Roboto Medium, 2.25px: 12 uses
+- Roboto Medium, 5.97px: 12 uses
+- Roboto Regular, 20px: 12 uses
+- Roboto ExtraBold, 14.33px: 11 uses
+- Roboto ExtraBold, 36px: 11 uses
+- Roboto ExtraBold, 5.41px: 11 uses
+- Roboto Regular, 3.01px: 10 uses
+- Roboto Regular, 7.96px: 10 uses
+- Roboto ExtraBold, 17.91px: 6 uses
+- Roboto ExtraBold, 45px: 6 uses
+- Roboto ExtraBold, 6.76px: 6 uses
+- Roboto SemiBold, 24px: 6 uses
+- Roboto SemiBold, 3.61px: 6 uses
+- Roboto SemiBold, 9.55px: 6 uses
+- Roboto Regular, 1.95px: 4 uses
+- Roboto Regular, 13px: 4 uses
+- Roboto Regular, 5.17px: 4 uses
+- Roboto ExtraBold, 13.93px: 3 uses
+- Roboto ExtraBold, 35px: 3 uses
+- Roboto ExtraBold, 5.26px: 3 uses
+- Roboto Regular, 18px: 3 uses
+- Roboto Regular, 2.71px: 3 uses
+- Roboto Regular, 7.16px: 3 uses
+
+## Typography Hierarchy
+- 45px - Roboto ExtraBold, 45px (raw)
+- 36px - Roboto ExtraBold, 36px (raw)
+- 35px - Roboto ExtraBold, 35px (raw)
+- 24px - Roboto SemiBold, 24px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 19px - Roboto Regular, 19px (raw)
+- 18px - Roboto Medium, 18px (raw)
+- 18px - Roboto Regular, 18px (raw)
+- 17.91px - Roboto ExtraBold, 17.91px (raw)
+- 16px - Roboto Medium, 16px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 15px - Roboto Medium, 15px (raw)
+- 14.33px - Roboto ExtraBold, 14.33px (raw)
+- 13.93px - Roboto ExtraBold, 13.93px (raw)
+- 13px - Roboto Regular, 13px (raw)
+- 9.55px - Roboto SemiBold, 9.55px (raw)
+- 7.96px - Roboto Regular, 7.96px (raw)
+- 7.56px - Roboto Regular, 7.56px (raw)
+- 7.16px - Roboto Medium, 7.16px (raw)
+- 7.16px - Roboto Regular, 7.16px (raw)
+- 6.76px - Roboto ExtraBold, 6.76px (raw)
+- 6.37px - Roboto Medium, 6.37px (raw)
+- 6.37px - Roboto Regular, 6.37px (raw)
+- 5.97px - Roboto Medium, 5.97px (raw)
+- 5.41px - Roboto ExtraBold, 5.41px (raw)
+- 5.26px - Roboto ExtraBold, 5.26px (raw)
+- 5.17px - Roboto Regular, 5.17px (raw)
+- 3.61px - Roboto SemiBold, 3.61px (raw)
+- 3.01px - Roboto Regular, 3.01px (raw)
+- 2.86px - Roboto Regular, 2.86px (raw)
+- 2.71px - Roboto Medium, 2.71px (raw)
+- 2.71px - Roboto Regular, 2.71px (raw)
+- 2.41px - Roboto Medium, 2.41px (raw)
+- 2.41px - Roboto Regular, 2.41px (raw)
+- 2.25px - Roboto Medium, 2.25px (raw)
+- 1.95px - Roboto Regular, 1.95px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Cover / Frame 3
+- FRAME "Frame 3", 1352x999px, constraints left/top, fill #EAF6FC, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "paystack", 623.66x1201.72px, constraints left/top, fill #FFFFFF
+    - FRAME "section#hero", 309.68x195.48px, constraints left/top, fill #F1FEF4
+      - FRAME "div#js-homepage-animation", 309.68x195.48px, constraints left_right/top_bottom [decorative, ~46 shapes]
+      - FRAME "div#js-hero", 309.68x195.48px, constraints left/top
+        - FRAME "div.c-hero__body", 111.9x123.82px, vertical pad 36.08 0 27.06 0px gap 4.21px sizing W:fixed H:fixed, constraints left_right/bottom
+          - FRAME "div.c-hero__heading", 88.65x51.65px, constraints left/top
+            - FRAME "h1.u-animate", 86.09x42.4px, vertical pad 0 2.56 0.09 0px gap -0.06px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p.u-text-summary", 83.57x34.69px, vertical pad 0 11.42 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-hero__cta", 83.55x32.96px, horizontal pad 0 28.44 0 0px gap 3.65px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "a.c-button--lg", 36.01x18.13px, horizontal pad 0 6.42 0 4.81px gap 0px sizing W:fixed H:fixed, constraints left/center, radius 0.75px, fill #3BB75E
+            - FRAME "span.c-button__text", 18.7x11.02px, constraints left/top
+        - FRAME "div.l-container", 180.72x64.47px, constraints center/top
+          - FRAME "div.c-hero__logos", 111.56x42.89px, constraints left/center
+            - TEXT "Trusted by over 200,000 businesses", 33.65x13.95px, constraints left/top, fill #011B33, text [Roboto Medium, 2.1px]
+            - FRAME "Dominos-Plain.svg", 19.95x9.85px, horizontal pad 0 0.01 0 0.01px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~12 shapes]
+            - FRAME "MTN-Plain.svg", 11.04x7.07px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~5 shapes]
+            - FRAME "Bolt-Stack-Blue_200304_153027.svg", 8.1x6.15px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~5 shapes]
+            - FRAME "Axa-mansard-_-Plain.svg", 23.92x11.09px, horizontal pad 0 0.01 0 0.01px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~21 shapes]
+          - FRAME "div#js-hero-video-summary", 66.86x27.49px, constraints left/center
+            - FRAME "p", 60.84x25.9px, vertical pad 0 0 0.09 7.23px gap -0.06px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "button.c-button", 6.59x6.59px, constraints left/top, radius 2.63px, fill #0BA4DB
+    - FRAME "div.l-container", 289.79x413.99px, constraints center/top
+      - FRAME "div.c-section-header__body", 96.04x42.14px, constraints left_right/top
+        - TEXT "Simple, easy payments", 70.21x27.74px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 6.76px]
+        - TEXT "Building a business is hard. Getting paid shouldn't be.", 71.3x24.84px, constraints left/top, fill #011B33, text [Roboto Regular, 3.01px]
+      - FRAME "div.c-feature", 207.99x165.14px, constraints left/top
+        - RECTANGLE "Collect-Payments-for-Multiple-Channels-1.1.gif", 115.13x128.63px, constraints left/center, radius 0.6px, fill image(hash: 9fe5f310e1621ba85b814f08dd7a2428024a4f5b)
+        - FRAME "div.c-feature__right", 119.57x141.69px, vertical pad 0 5.94 3.61 5.94px gap 12.03px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "div.c-feature__body", 92.39x87.37px, vertical pad 0 0 0 0px gap 4.51px sizing W:fixed H:fixed, constraints left_right/top
+            - FRAME "div.c-feature__text", 83.59x59.18px, vertical pad 0 0 0 0px gap 2.7px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "div.c-feature__benefits", 79.2x46.27px, horizontal pad 0 0 0 0px gap 3.01px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-feature__body", 82.93x58.24px, constraints left_right/top
+            - FRAME "div.c-feature__text", 81.54x52.62px, vertical pad 0 0 0 0px gap 2.71px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "svg", 3.77x3.77px, constraints left/top
+            - FRAME "span.c-button__text", 49.4x20.6px, constraints left/top
+      - FRAME "div.c-feature", 199.98x139.47px, constraints left/top
+        - FRAME "div.c-feature__body", 98.39x107.77px, constraints center/center
+          - FRAME "div.c-feature__text", 86.68x68.63px, vertical pad 0 0 0 0px gap 2.71px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "h3", 78.49x42.4px, vertical pad 0 17.74 0.03 0px gap -0.12px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p", 79.17x46.05px, vertical pad 0 4.21 0.08 0px gap -0.08px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "ul.u-list", 73.83x48.04px, vertical pad 0 0 0.75 0px gap 0.75px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "li", 67.86x29.36px, vertical pad 0.75 5.11 0.75 3.01px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "li", 66.83x25.6px, horizontal pad 0.75 40.28 0.75 3.01px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "li", 66.4x25.46px, horizontal pad 0.75 13.83 0.75 3.01px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "li", 66.38x25.46px, horizontal pad 0.75 30.81 0.75 3.01px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "svg", 3.77x3.77px, constraints left/top
+            - FRAME "Frame", 3.77x3.77px, constraints center/top
+          - FRAME "span.c-button__text", 27.77x13.85px, constraints left/top
+            - RECTANGLE "pseudo", 26.2x8.82px, constraints left/top, fill #EAF8EE
+            - TEXT "Paystack API Quickstart", 26.72x10.41px, constraints left/top, fill #3BB75E, text [Roboto Medium, 2.41px]
+        - RECTANGLE "Robust-Suite-of-APIs-Opt.png", 106.22x100.07px, constraints left/center, radius 0.6px, fill image(hash: 26807a6f1deb549aab85c1d47fd706591e1a77f1)
+      - FRAME "div.c-feature__right", 113.95x123.14px, vertical pad 5.79 5.94 8.8 5.94px gap 10.22px sizing W:fixed H:fixed, constraints center/top
+        - FRAME "div.c-feature__text", 83.78x59.24px, vertical pad 0 0 0 0px gap 2.7px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "h3", 78.53x42.41px, vertical pad 0 12.78 0.03 0px gap -0.12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Protect yourself and your", 60.32x24.85px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 5.26px]
+            - TEXT "customers with advanced", 62.23x25.45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 5.41px]
+            - TEXT "fraud detection", 38.36x18px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 5.41px]
+          - FRAME "p", 76.72x36.8px, vertical pad 0 5.71 0.08 0px gap -0.08px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paystack’s combination of automated and manual fraud", 68.31x25.62px, constraints left/top, fill #011B33, text [Roboto Regular, 2.86px]
+            - TEXT "systems protect you from fraudulent transactions and", 65.45x24.73px, constraints left/top, fill #011B33, text [Roboto Regular, 2.86px]
+            - TEXT "associated chargeback claims.", 38.72x16.39px, constraints left/top, fill #011B33, text [Roboto Regular, 2.86px]
+        - FRAME "div.c-feature__text", 83.67x59.21px, vertical pad 0 0 0 0px gap 2.71px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "h3", 78.28x42.34px, vertical pad 0 10.52 0.03 0px gap -0.12px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Detailed reporting for", 52.68x22.47px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 5.41px]
+            - TEXT "accounting, reconciliation,", 64.13x26.04px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 5.41px]
+            - TEXT "and audits", 26.9x14.43px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 5.41px]
+          - FRAME "p", 76.68x36.79px, vertical pad 0 7.67 0.08 0px gap -0.08px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Understand your customers’ purchase patterns and do", 66.4x25.03px, constraints left/top, fill #011B33, text [Roboto Regular, 2.86px]
+            - TEXT "easy reconciliations with a robust data Dashboard and", 66.4x25.03px, constraints left/top, fill #011B33, text [Roboto Regular, 2.86px]
+            - TEXT "easy exports.", 17.72x9.84px, constraints left/top, fill #011B33, text [Roboto Regular, 2.86px]
+    - FRAME "section.l-section", 316.7x217.98px, constraints left/top, fill #EAF6FC
+      - RECTANGLE "pseudo", 316.7x217.98px, constraints left/top, fill image(hash: d2ca41e02614c2a0d1b856fae02e6578126e1a82), opacity 6%
+      - FRAME "div.l-container", 205.69x144.48px, constraints center/top
+        - FRAME "div.c-section-header__body", 99.8x54.2px, constraints left_right/top
+          - FRAME "h2", 96.67x44.15px, constraints left/top
+            - TEXT "Trusted by 200,000+", 62.81x25.43px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 6.76px]
+            - TEXT "businesses", 34.2x16.5px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 6.46px]
+          - FRAME "p.u-text-summary", 94.52x37.27px, constraints left/top
+            - TEXT "Thousands of organizations of all sizes trust Paystack to gr", 87.93x30.03px, constraints left/top, fill #011B33, text [Roboto Regular, 3.01px]
+            - TEXT "business.", 13.21x6.71px, constraints left/top, fill #011B33, text [Roboto Regular, 3.01px]
+        - FRAME "div.u-flex", 190.89x110.33px, constraints left/top
+          - FRAME "div.c-card", 72.4x73.36px, vertical pad 5.86 4.96 7.37 4.96px gap 4.51px sizing W:fixed H:fixed, constraints left/top_bottom, radius 0.9px, fill #FFFFFF, stroke #F0F2F3 0.15px, effect [drop_shadow 0.9px offset 0 0.15 #00000005]
+            - FRAME "For-International-Businesses_180823_165939.svg", 20.34x16.71px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~29 shapes]
+            - FRAME "div.c-card__body", 54.06x41.99px, constraints left/top
+          - FRAME "div.c-card", 72.4x73.36px, vertical pad 5.86 4.96 7.37 4.96px gap 4.51px sizing W:fixed H:fixed, constraints left/top_bottom, radius 0.9px, fill #FFFFFF, stroke #F0F2F3 0.15px, effect [drop_shadow 0.9px offset 0 0.15 #00000005]
+            - FRAME "For-Entrepreneurs_180823_165709.svg", 22.02x17.23px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~47 shapes]
+            - FRAME "div.c-card__body", 54.06x41.99px, constraints left/top
+          - FRAME "div.c-card", 72.4x73.36px, vertical pad 5.86 4.96 7.37 4.96px gap 4.51px sizing W:fixed H:fixed, constraints left/top_bottom, radius 0.9px, fill #FFFFFF, stroke #F0F2F3 0.15px, effect [drop_shadow 0.9px offset 0 0.15 #00000005]
+            - FRAME "For-Large-Corporations_180823_165502.svg", 21.92x17.2px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~153 shapes]
+            - FRAME "div.c-card__body", 54.06x41.99px, constraints left/top
+    - FRAME "div.l-container", 202.02x132.72px, constraints center/top
+      - FRAME "div.c-section-header__body", 99.8x54.2px, constraints left_right/top
+        - FRAME "h2", 96.67x44.15px, constraints left/top
+          - TEXT "Powering growth for amazing", 87.96x33.28px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 6.76px]
+          - TEXT "businesses", 34.2x16.5px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 6.46px]
+        - FRAME "p.u-text-summary", 94.52x37.27px, constraints left/top
+          - TEXT "Paystack is a growth engine for a new generation of innovati", 83.73x28.72px, constraints left/top, fill #011B33, text [Roboto Regular, 3.01px]
+          - TEXT "forward-looking organizations operating in Africa.", 66.12x23.22px, constraints left/top, fill #011B33, text [Roboto Regular, 3.01px]
+      - FRAME "div.c-logo-row", 177.82x68.44px, constraints left/top [decorative, ~90 shapes]
+      - FRAME "div.c-logo-row", 177.82x68.44px, constraints left/top [decorative, ~36 shapes]
+      - FRAME "div.c-logo-row", 177.82x68.44px, constraints left/top [decorative, ~41 shapes]
+    - FRAME "section.l-section", 316.84x218.44px, constraints left/top, fill #F9FBFC
+      - RECTANGLE "pseudo", 316.84x218.44px, constraints left/top, fill image(hash: 24946dc1c3ccd4368953a5b204eba0374976b8b6), opacity 10%
+      - FRAME "div.l-container", 204.49x140.64px, constraints center/top
+        - FRAME "div.c-section-header__body", 99.8x54.2px, constraints left_right/top
+          - FRAME "h2", 96.67x44.15px, constraints left/top
+            - TEXT "Backed by strong global", 72.79x28.54px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 6.76px]
+            - TEXT "partners", 27.13x14.29px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 6.76px]
+          - FRAME "p.u-text-summary", 94.52x37.27px, constraints left/top
+            - TEXT "Paystack is backed by notable investors as well as some of t", 88.93x30.34px, constraints left/top, fill #011B33, text [Roboto Regular, 3.01px]
+            - TEXT "payments companies on the planet.", 48.07x17.59px, constraints left/top, fill #011B33, text [Roboto Regular, 3.01px]
+        - FRAME "div.u-flex", 189.69x106.49px, constraints left/top
+          - FRAME "div.c-card", 72.22x69.83px, constraints left/top_bottom, radius 0.9px, fill #FFFFFF, stroke #F0F2F3 0.15px, effect [drop_shadow 0.9px offset 0 0.15 #00000005]
+            - RECTANGLE "Stripe.png", 10.97x7.05px, constraints left/center, fill image(hash: 657b638de52af365bf741b912a2e1b855e79d424)
+            - FRAME "div.c-card__body", 57.58x49.26px, vertical pad 4.66 0 0 0px gap 8.24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-card", 72.22x69.83px, constraints left/top_bottom, radius 0.9px, fill #FFFFFF, stroke #F0F2F3 0.15px, effect [drop_shadow 0.9px offset 0 0.15 #00000005]
+            - RECTANGLE "Visa-_-Color.png", 13.82x7.94px, constraints left/center, fill image(hash: 1e6d4cc11ccda84e7edbe0a5c8e268b8b9bcc21c)
+            - FRAME "div.c-card__body", 58.04x49.45px, vertical pad 4.66 0 0 0px gap 6.31px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-card", 72.22x69.83px, constraints left/top_bottom, radius 0.9px, fill #FFFFFF, stroke #F0F2F3 0.15px, effect [drop_shadow 0.9px offset 0 0.15 #00000005]
+            - RECTANGLE "ycombinator-logo.png", 5.27x5.27px, constraints left/center, fill image(hash: 1109714296829d5875cc545a91f95d6e3a6bf9ee)
+            - FRAME "div.c-card__body", 57.6x49.27px, vertical pad 4.66 0 0 0px gap 8.24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "section.l-section", 296.46x153.12px, constraints left/top
+      - RECTANGLE "pseudo", 293.41x143.36px, constraints left/top, fill image(hash: 351af415dffff0988a383a3ed5cd541ad089e601), opacity 20%
+      - FRAME "div.c-signup", 185.34x92.54px, constraints left/top
+        - FRAME "div.c-signup__left", 93.62x50.97px, constraints left_right/top
+          - TEXT "Try Paystack Now", 23.91x10.05px, constraints left/top, fill #011B33, text [Roboto Regular, 3.01px]
+          - FRAME "div.u-animate", 91.38x43.8px, constraints left/top
+            - FRAME "h2", 90.93x42.36px, constraints left/top
+        - FRAME "div.c-signup__cta", 36.62x18.32px, horizontal pad 0 0.64 0 0px gap 0px sizing W:fixed H:fixed, constraints right/center
+          - FRAME "a.c-button--lg", 36.01x18.13px, horizontal pad 0 6.42 0 4.81px gap 0px sizing W:fixed H:fixed, constraints left/center, radius 0.75px, fill #3BB75E
+            - TEXT "Create a free account", 25.29x14.79px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 2.41px]
+    - FRAME "div.l-container", 218.91x186.85px, constraints center/top
+      - FRAME "div.c-footer__row", 194.09x120.6px, constraints left/top
+        - FRAME "div.c-footer__column", 65.14x81.28px, vertical pad 0 2.41 18.33 2.41px gap 2.86px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-footer__group", 43.24x25.83px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Why Paystack", 17.42x8.88px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "ul.c-footer-list", 41.64x20.69px, vertical pad 0 16.84 0.09 0px gap 0.84px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "ul.c-footer-list", 44.89x30.04px, vertical pad 0 10.22 0.09 0px gap 0.84px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "For Entrepreneurs", 20.28x9.78px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "For Corporates", 16.47x8.58px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "For International Companies", 30.78x13.05px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "For Startups", 14.56x7.99px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+          - FRAME "ul.c-footer-list", 43.58x25.47px, vertical pad 0 27.36 0.09 0px gap 0.84px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "For Fintechs", 14.56x7.99px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "For Schools", 13.6x7.69px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "For Betting", 12.65x7.39px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+        - FRAME "div.c-footer__column", 65.23x81.54px, vertical pad 0 2.41 3.01 2.41px gap 2.86px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-footer__group", 45.18x30.6px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Pricing", 9.78x6.5px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "ul.c-footer-list", 43.58x25.46px, vertical pad 0 27.36 0.09 0px gap 0.84px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-footer__group", 41.73x21.18px, vertical pad 0 26.76 0.09 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Customers", 14.56x7.99px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - TEXT "Testimonials", 14.56x7.99px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+          - FRAME "div.c-footer__group", 49.07x44.33px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Learn", 7.87x5.9px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "ul.c-footer-list", 47.47x39.19px, vertical pad 0 23.9 0.09 0px gap 0.84px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-footer__column", 65.35x81.42px, vertical pad 0 2.41 12.5 2.41px gap 2.86px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-footer__group", 46.33x35.13px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Developers", 14.56x7.99px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "ul.c-footer-list", 44.73x29.99px, vertical pad 0 24.05 0.09 0px gap 0.84px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-footer__group", 41.68x21.16px, vertical pad 0 25.7 0.09 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Community", 14.56x7.99px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - TEXT "Nigeria Logos", 15.51x8.29px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+          - FRAME "div.c-footer__group", 45.36x30.66px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Support", 10.74x6.8px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "ul.c-footer-list", 43.76x25.52px, vertical pad 0 19.54 0.09 0px gap 0.84px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-footer__group", 49.45x44.45px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "About", 8.83x6.2px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+          - FRAME "ul.c-footer-list", 47.85x39.31px, vertical pad 0 23.3 0.09 0px gap 0.84px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Company", 11.69x7.1px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "Subscribe", 11.69x7.1px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "Compliance", 13.6x7.69px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "Careers", 9.78x6.5px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "Media Kit", 11.69x7.1px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+            - TEXT "Privacy & Terms", 18.37x9.18px, constraints left/top, fill #011B33E5, text [Roboto Regular, 2.41px]
+      - FRAME "div.c-footer__row", 191.41x112.02px, constraints left/top, stroke #F0F2F3D9 0.15px
+        - FRAME "div.c-footer__column", 59.32x64.74px, vertical pad 0 2.41 40.28 2.41px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Contact", 10.74x6.8px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+          - FRAME "ul.c-footer-list", 41.12x19.72px, vertical pad 0 0 0 0px gap 0.99px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "hello@paystack.com", 23.15x10.67px, constraints left/top, fill #0BA4DB, text [Roboto Regular, 2.41px]
+            - FRAME "ul.c-footer-list", 39.64x14.96px, horizontal pad 0 13.53 0 0px gap 3.01px sizing W:fixed H:fixed, constraints left/top [decorative, ~15 shapes]
+        - FRAME "div.c-footer__column", 59.81x65.53px, vertical pad 0 2.41 3.84 2.41px gap 7.06px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-country", 45.63x33.36px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Lagos", 8.83x6.2px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "ul.c-footer-list", 44.03x28.22px, vertical pad 0 0 0.09 0px gap 0.75px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-country", 45.22x32.46px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Accra", 7.87x5.9px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "li.c-footer-list__item", 43.62x27.32px, vertical pad 0 11.72 0.09 0px gap -0.06px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-footer__column", 60.44x65.72px, vertical pad 0 2.41 4.75 2.41px gap 7.06px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-country", 45.99x32.69px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "San Francisco", 18.37x9.18px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "li.c-footer-list__item", 44.39x27.56px, vertical pad 0 16.53 0.09 0px gap -0.06px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-country", 45.7x32.61px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Dubai", 7.87x5.9px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "li.c-footer-list__item", 44.1x27.47px, vertical pad 0 13.23 0.09 0px gap -0.06px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-footer__column", 59.95x65.65px, vertical pad 0 2.41 0.9 2.41px gap 7.06px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-country", 46.59x36.27px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Cape Town", 14.56x7.99px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "li.c-footer-list__item", 44.99x31.14px, vertical pad 0 15.93 0.09 0px gap -0.06px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-country", 45.47x32.53px, vertical pad 0 0 0 0px gap 1.38px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Johannesburg", 18.37x9.18px, constraints left/top, fill #011B33, text [Roboto Medium, 2.71px]
+            - FRAME "li.c-footer-list__item", 43.87x27.39px, vertical pad 0 19.99 0.09 0px gap -0.06px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "div.c-nav", 280.16x100.89px, constraints left_right/top, fill #F1FEF4F2
+      - FRAME "div.c-nav--left", 75.52x34.18px, horizontal pad 6.31 0 0 0px gap 3.61px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "svg", 18.68x8.68px, constraints left/top
+          - FRAME "Frame", 18.68x8.68px, constraints center/top
+            - GROUP "Group", 18.66x8.67px, constraints scale/scale
+        - FRAME "ul.c-nav-menu", 52.49x21.56px, constraints left/center
+          - FRAME "a", 16.97x7.82px, constraints left/center
+            - TEXT "Why Paystack", 14.26x7.03px, constraints left/top, fill #011B33, text [Roboto Medium, 2.25px]
+            - RECTANGLE "span.u-icon-arrow", 1.33x0.93px, constraints left/center, stroke #011B33 0.6px
+          - TEXT "Customers", 11.39x6.14px, constraints left/top, fill #011B33, text [Roboto Medium, 2.25px]
+          - TEXT "Pricing", 7.58x4.95px, constraints left/top, fill #011B33, text [Roboto Medium, 2.25px]
+          - FRAME "a", 8.76x5.26px, constraints left/center
+            - TEXT "Learn", 6.62x4.65px, constraints left/top, fill #011B33, text [Roboto Medium, 2.25px]
+            - RECTANGLE "span.u-icon-arrow", 1.33x0.93px, constraints left/center, stroke #011B33 0.6px
+      - FRAME "ul.c-nav-menu", 71.68x27.55px, constraints left/center
+        - FRAME "a", 14.47x7.04px, constraints left/center
+          - TEXT "Developers", 12.35x6.44px, constraints left/top, fill #011B33, text [Roboto Medium, 2.25px]
+          - RECTANGLE "span.u-icon-arrow", 1.33x0.93px, constraints left/center, stroke #011B33 0.6px
+        - FRAME "a", 11.29x6.05px, constraints left/center
+          - TEXT "Support", 8.53x5.25px, constraints left/top, fill #011B33, text [Roboto Medium, 2.25px]
+          - RECTANGLE "span.u-icon-arrow", 1.33x0.93px, constraints left/center, stroke #011B33 0.6px
+        - TEXT "Login", 6.62x4.65px, constraints left/top, fill #011B33, text [Roboto Medium, 2.25px]
+        - FRAME "a.c-button", 27.41x13.73px, constraints left/center, radius 0.75px, fill #3BB75E
+          - TEXT "Create free account", 21.15x8.54px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 2.25px]
+        - FRAME "span.u-flag-icon", 2.97x2.87px, constraints left/top, radius 0.6px
+          - FRAME "ng.svg", 2.83x2.44px, constraints center/center
+            - GROUP "Group", 2.83x2.44px, constraints scale/scale
+  - TEXT "#ReCreate", 94x23px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+  - TEXT "@duncanoluwaseun", 180x23px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+  - FRAME "Frame", 414.87x74px, constraints center/top
+    - GROUP "Group", 414.47x73.86px, constraints scale/scale
+      - VECTOR "Vector", 65.89x65.5px, constraints scale/scale, fill #00C3F7
+      - VECTOR "Vector", 323.25x73.86px, constraints scale/scale, fill #011B33
+  - FRAME "paystack", 1651.07x3181.41px, constraints left/top, fill #FFFFFF, effect [drop_shadow 60px offset -103 186 #00000029]
+    - FRAME "section#hero", 819.83x517.51px, constraints left/top, fill #F1FEF4
+      - FRAME "div#js-homepage-animation", 819.83x517.51px, constraints left_right/top_bottom [decorative, ~46 shapes]
+      - FRAME "div#js-hero", 819.83x517.51px, constraints left/top
+        - FRAME "div.c-hero__body", 294.43x326.22px, vertical pad 95.51 0 71.63 0px gap 11.14px sizing W:fixed H:fixed, constraints left_right/bottom
+          - FRAME "div.c-hero__heading", 234.68x136.73px, constraints left/top
+            - FRAME "h1.u-animate", 226.38x110.34px, vertical pad 0 6.76 0.24 0px gap -0.16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p.u-text-summary", 220.26x89.41px, vertical pad 0 30.24 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-hero__cta", 219.37x85.69px, horizontal pad 0 75.29 0 0px gap 9.65px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "a.c-button--lg", 93.52x46.41px, horizontal pad 0 16.99 0 12.73px gap 0px sizing W:fixed H:fixed, constraints left/center, radius 1.99px, fill #3BB75E
+            - FRAME "span.c-button__text", 49.51x29.17px, constraints left/top
+        - FRAME "div.l-container", 478.44x170.69px, constraints center/top
+          - FRAME "div.c-hero__logos", 295.34x113.55px, constraints left/center
+            - TEXT "Trusted by over 200,000 businesses", 88.6x35.4px, constraints left/top, fill #011B33, text [Roboto Medium, 5.57px]
+            - FRAME "Dominos-Plain.svg", 52.82x26.08px, horizontal pad 0 0.02 0 0.02px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~12 shapes]
+            - FRAME "MTN-Plain.svg", 29.22x18.71px, horizontal pad 0 0.01 0 0.01px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~5 shapes]
+            - FRAME "Bolt-Stack-Blue_200304_153027.svg", 21.44x16.29px, horizontal pad 0 0.01 0 0.01px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~5 shapes]
+            - FRAME "Axa-mansard-_-Plain.svg", 63.32x29.35px, horizontal pad 0 0.02 0 0.02px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~21 shapes]
+          - FRAME "div#js-hero-video-summary", 177.01x72.79px, constraints left/center
+            - FRAME "p", 160.4x69.07px, vertical pad 0 0 0.24 19.14px gap -0.16px align min/max sizing W:fixed H:fixed, constraints left/top
+            - FRAME "button.c-button", 17.44x17.44px, constraints left/top, radius 6.96px, fill #0BA4DB
+    - FRAME "div.l-container", 767.17x1095.99px, constraints center/top
+      - FRAME "div.c-section-header__body", 254.26x111.57px, constraints left_right/top
+        - TEXT "Simple, easy payments", 185.88x73.43px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 17.91px]
+        - TEXT "Building a business is hard. Getting paid shouldn't be.", 188.77x65.76px, constraints left/top, fill #011B33, text [Roboto Regular, 7.96px]
+      - FRAME "div.c-feature", 550.63x437.19px, constraints left/top
+        - RECTANGLE "Collect-Payments-for-Multiple-Channels-1.1.gif", 304.79x340.54px, constraints left/center, radius 1.59px, fill image(hash: 9fe5f310e1621ba85b814f08dd7a2428024a4f5b)
+        - FRAME "div.c-feature__right", 313.79x367.64px, vertical pad 0 15.72 9.55 15.72px gap 31.84px sizing W:fixed H:fixed, constraints center/top
+          - FRAME "div.c-feature__body", 241.84x223.84px, vertical pad 0 0 0 0px gap 11.94px sizing W:fixed H:fixed, constraints left_right/top
+            - FRAME "div.c-feature__text", 219.25x151.47px, vertical pad 0 0 0 0px gap 7.16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "div.c-feature__benefits", 208.96x120.24px, horizontal pad 0 0 0 0px gap 7.96px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-feature__body", 219.56x154.19px, constraints left_right/top
+            - FRAME "div.c-feature__text", 214.03x134.61px, vertical pad 0 0 0 0px gap 7.16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "svg", 9.97x9.97px, constraints left/top
+            - FRAME "span.c-button__text", 130.78x54.53px, constraints left/top
+      - FRAME "div.c-feature", 529.43x369.24px, constraints left/top
+        - FRAME "div.c-feature__body", 260.47x285.32px, constraints center/center
+          - FRAME "div.c-feature__text", 225.85x173.87px, vertical pad 0 0 0 0px gap 7.17px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "h3", 205.84x110.26px, vertical pad 0 46.96 0.08 0px gap -0.33px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p", 207.8x116.03px, vertical pad 0 11.14 0.2 0px gap -0.2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "ul.u-list", 193.46x124.02px, vertical pad 0 0 1.99 0px gap 1.99px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "li", 178.48x76.36px, vertical pad 1.99 13.53 1.99 7.96px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "li", 175.62x66.85px, horizontal pad 1.99 106.65 1.99 7.96px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "li", 175.58x66.83px, horizontal pad 1.99 36.61 1.99 7.96px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "li", 175.55x66.82px, horizontal pad 1.99 81.58 1.99 7.96px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "svg", 9.97x9.97px, constraints left/top
+            - FRAME "Frame", 9.97x9.97px, constraints center/top
+          - FRAME "span.c-button__text", 73.51x36.65px, constraints left/top
+            - RECTANGLE "pseudo", 69.36x23.36px, constraints left/top, fill #EAF8EE
+            - TEXT "Paystack API Quickstart", 70.74x27.56px, constraints left/top, fill #3BB75E, text [Roboto Medium, 6.37px]
+        - RECTANGLE "Robust-Suite-of-APIs-Opt.png", 281.2x264.93px, constraints left/center, radius 1.59px, fill image(hash: 26807a6f1deb549aab85c1d47fd706591e1a77f1)
+      - FRAME "div.c-feature__right", 297.25x315.47px, vertical pad 15.33 15.72 23.3 15.72px gap 27.06px sizing W:fixed H:fixed, constraints center/top
+        - FRAME "div.c-feature__text", 218.8x151.33px, vertical pad 0 0 0 0px gap 7.16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "h3", 205.71x110.23px, vertical pad 0 33.82 0.08 0px gap -0.32px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Protect yourself and your", 157.14x64.54px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 13.93px]
+            - TEXT "customers with advanced", 162.87x66.33px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 14.33px]
+            - TEXT "fraud detection", 99.87x46.67px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 14.33px]
+          - FRAME "p", 200.75x93.49px, vertical pad 0 15.12 0.2 0px gap -0.2px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paystack’s combination of automated and manual fraud", 179.22x66.26px, constraints left/top, fill #011B33, text [Roboto Regular, 7.56px]
+            - TEXT "systems protect you from fraudulent transactions and", 172.54x64.18px, constraints left/top, fill #011B33, text [Roboto Regular, 7.56px]
+            - TEXT "associated chargeback claims.", 100.94x41.84px, constraints left/top, fill #011B33, text [Roboto Regular, 7.56px]
+        - FRAME "div.c-feature__text", 218.96x151.38px, vertical pad 0 0 0 0px gap 7.16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "h3", 205.74x110.24px, vertical pad 0 27.86 0.07 0px gap -0.32px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Detailed reporting for", 138.05x58.59px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 14.33px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Landing Page / paystack
+- FRAME "paystack", 1920x7775.75px, constraints left/top, fill #FFFFFF
+  - FRAME "section#hero", 1920x763.19px, constraints left/top, fill #F1FEF4
+    - FRAME "div#js-homepage-animation", 1920x763.19px, constraints left_right/top_bottom [decorative, ~46 shapes]
+    - FRAME "div#js-hero", 1920x763.19px, constraints left/top
+      - FRAME "div.c-hero__body", 560x683.19px, vertical pad 240 0 180 0px gap 28px sizing W:fixed H:fixed, constraints left_right/bottom
+        - FRAME "div.c-hero__heading", 560x185.19px, constraints left/top
+          - FRAME "h1.u-animate", 560x116.19px, vertical pad 0 17 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Modern online and offline", 543x58px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 47px], [heading]
+            - TEXT "payments for Africa", 430x58px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 48px], [heading]
+          - FRAME "p.u-text-summary", 560x60px, vertical pad 0 76 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Paystack helps businesses in Africa get paid by anyone,", 484x30px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+            - TEXT "anywhere in the world", 190x30px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+        - FRAME "div.c-hero__cta", 560x50px, horizontal pad 0 189.19 0 0px gap 24.25px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "a.c-button--lg", 228.7x50px, horizontal pad 0 42.7 0 32px gap 0px sizing W:fixed H:fixed, constraints left/center, radius 5px, fill #3BB75E
+            - TEXT "Create a free account", 154x50px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 16px]
+          - FRAME "span.c-button__text", 117.86x40px, constraints left/top
+            - RECTANGLE "pseudo", 117.86x5px, constraints left/top, fill #EAF8EE
+            - TEXT "or Contact Sales", 118.06x15px, constraints left/top, fill #3BB75E, text [Roboto Medium, 15px]
+      - FRAME "div.l-container", 1240x62.39px, constraints center/top
+        - FRAME "div.c-hero__logos", 758x62.39px, constraints left/center
+          - TEXT "Trusted by over 200,000 businesses", 226x23px, constraints left/top, fill #011B33, text [Roboto Medium, 14px]
+          - FRAME "Dominos-Plain.svg", 130.31x27.98px, horizontal pad 0 0.04 0 0.04px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~12 shapes]
+          - FRAME "MTN-Plain.svg", 68.2x27.98px, horizontal pad 0 0.02 0 0.02px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~5 shapes]
+          - FRAME "Bolt-Stack-Blue_200304_153027.svg", 47.72x27.98px, horizontal pad 0 0.02 0 0.02px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~5 shapes]
+          - FRAME "Axa-mansard-_-Plain.svg", 157.95x27.98px, horizontal pad 0 0.05 0 0.05px gap 0px sizing W:fixed H:fixed, constraints center/center [decorative, ~21 shapes]
+        - FRAME "div#js-hero-video-summary", 450x51.19px, constraints left/center
+          - FRAME "p", 405.09x52.19px, vertical pad 0 0 0.6 48.09px gap -0.41px align min/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Watch MTN Chief Transformation Officer, Olubayo", 357x26px, constraints left/top, fill #011B33, text [Roboto Medium, 16px]
+            - TEXT "Adekanmbi, discuss working with Paystack", 309x26px, constraints left/top, fill #011B33, text [Roboto Medium, 16px]
+          - FRAME "button.c-button", 35x35px, constraints left/top, radius 17.5px, fill #0BA4DB
+            - FRAME "svg", 10x13px, constraints center/center
+  - FRAME "div.l-container", 1240x2498.2px, constraints center/top
+    - FRAME "div.c-section-header__body", 640x94px, constraints left_right/top
+      - TEXT "Simple, easy payments", 475.28x45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 45px], [heading]
+      - TEXT "Building a business is hard. Getting paid shouldn't be.", 490.68x20px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+    - FRAME "div.c-feature", 1208x773.94px, constraints left/top
+      - RECTANGLE "Collect-Payments-for-Multiple-Channels-1.1.gif", 579x715.78px, constraints left/center, radius 4px, fill image(hash: 9fe5f310e1621ba85b814f08dd7a2428024a4f5b)
+      - FRAME "div.c-feature__right", 579x774.94px, vertical pad 0 39.5 24 39.5px gap 80px sizing W:fixed H:fixed, constraints center/top
+        - FRAME "div.c-feature__body", 500x421.06px, vertical pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left_right/top
+          - FRAME "div.c-feature__text", 500x235.06px, vertical pad 0 0 0 0px gap 17.99px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "h3", 500x130.57px, vertical pad 0 97 0.19 0px gap -0.81px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p", 500x86.5px, vertical pad 0 35 0.5 0px gap -0.5px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "div.c-feature__benefits", 500x156px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "ul.u-list", 240x156px, vertical pad 0 0 5 0px gap 5px sizing W:fill H:fixed, constraints left/top
+            - FRAME "ul.u-list", 240x156px, vertical pad 0 0 5 0px gap 5px sizing W:fill H:fixed, constraints left/top
+        - FRAME "div.c-feature__body", 500x249.88px, constraints left_right/top
+          - FRAME "div.c-feature__text", 500x191.88px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "h3", 500x87.38px, vertical pad 0 83 0.19 0px gap -0.81px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p", 500x86.5px, vertical pad 0 77 0.5 0px gap -0.5px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "svg", 20x20px, constraints left/top
+            - FRAME "Frame", 20x20px, constraints center/top
+          - FRAME "span.c-button__text", 331.8x40px, constraints left/top
+            - RECTANGLE "pseudo", 331.8x5px, constraints left/top, fill #EAF8EE
+            - TEXT "Find out how we achieve high success rates", 332x16px, constraints left/top, fill #3BB75E, text [Roboto Medium, 16px]
+    - FRAME "div.c-feature", 1208x595.06px, constraints left/top
+      - FRAME "div.c-feature__body", 500x595.06px, constraints center/center
+        - FRAME "div.c-feature__text", 500x292.06px, vertical pad 0 0 0 0px gap 18.01px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "h3", 500x130.55px, vertical pad 0 118 0.19 0px gap -0.82px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Build custom payments", 382x44px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 36px], [heading]
+            - TEXT "experiences with well-", 355x44px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 35px], [heading]
+            - TEXT "documented APIs", 289x44px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 36px], [heading]
+          - FRAME "p", 500x143.5px, vertical pad 0 28 0.5 0px gap -0.5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Developers love our thorough, well-documented APIs", 435x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+            - TEXT "that let you to build everything from simple weekend", 430x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+            - TEXT "projects, to complex financial products serving hundreds", 467x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+            - TEXT "of thousands of customers. If you can imagine it, you can", 472x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+            - TEXT "build it with Paystack.", 180x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+        - FRAME "ul.u-list", 450x180px, vertical pad 0 0 5 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "li", 450x58px, vertical pad 5 34 5 20px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "pseudo", 40x35px, constraints left/top, radius 6px, fill #F1FEF4
+            - TEXT "Collect one-time and recurring payments from your app", 396x24px, constraints left/top, fill #011B33, text [Roboto Medium, 16px]
+            - TEXT "or website", 75x24px, constraints left/top, fill #011B33, text [Roboto Medium, 16px]
+            - FRAME "pseudo", 12x12px, constraints left/top
+          - FRAME "li", 450x34px, horizontal pad 5 268 5 20px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "pseudo", 40x35px, constraints left/top, radius 6px, fill #F1FEF4
+            - TEXT "Make instant transfers", 162x24px, constraints left/top, fill #011B33, text [Roboto Medium, 16px]
+            - FRAME "pseudo", 12x12px, constraints left/top
+          - FRAME "li", 450x34px, horizontal pad 5 92 5 20px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "pseudo", 40x35px, constraints left/top, radius 6px, fill #F1FEF4
+            - TEXT "Retrieve all your transaction and customer data", 338x24px, constraints left/top, fill #011B33, text [Roboto Medium, 16px]
+            - FRAME "pseudo", 12x12px, constraints left/top
+          - FRAME "li", 450x34px, horizontal pad 5 205 5 20px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "pseudo", 40x35px, constraints left/top, radius 6px, fill #F1FEF4
+            - TEXT "Verify the identity of customers", 225x24px, constraints left/top, fill #011B33, text [Roboto Medium, 16px]
+            - FRAME "pseudo", 12x12px, constraints left/top
+        - FRAME "svg", 20x20px, constraints left/top
+          - FRAME "Frame", 20x20px, constraints center/top
+            - VECTOR "Vector", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 17.46x17.46px, constraints scale/scale, stroke #3BB75E 1.46px
+            - VECTOR "Vector", 3.54x7.07px, constraints scale/scale, stroke #3BB75E 1.4px
+        - FRAME "span.c-button__text", 181.03x40px, constraints left/top
+          - RECTANGLE "pseudo", 181.03x5px, constraints left/top, fill #EAF8EE
+          - TEXT "Paystack API Quickstart", 181.23x16px, constraints left/top, fill #3BB75E, text [Roboto Medium, 16px]
+      - RECTANGLE "Robust-Suite-of-APIs-Opt.png", 579x516.75px, constraints left/center, radius 4px, fill image(hash: 26807a6f1deb549aab85c1d47fd706591e1a77f1)
+    - FRAME "div.c-feature__right", 579x635.2px, vertical pad 38.53 39.5 58.55 39.5px gap 68px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "div.c-feature__text", 500x235.06px, vertical pad 0 0 0 0px gap 17.99px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "h3", 500x130.57px, vertical pad 0 85 0.19 0px gap -0.81px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Protect yourself and your", 400x44px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 35px], [heading]
+          - TEXT "customers with advanced", 415x44px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 36px], [heading]
+          - TEXT "fraud detection", 248x44px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 36px], [heading]
+        - FRAME "p", 500x86.5px, vertical pad 0 38 0.5 0px gap -0.5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Paystack’s combination of automated and manual fraud", 462x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+          - TEXT "systems protect you from fraudulent transactions and", 444x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+          - TEXT "associated chargeback claims.", 257x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+      - FRAME "div.c-feature__text", 500x235.06px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "h3", 500x130.56px, vertical pad 0 70 0.18 0px gap -0.81px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Detailed reporting for", 349x44px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 36px], [heading]
+          - TEXT "accounting, reconciliation,", 430x44px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 36px], [heading]
+          - TEXT "and audits", 169x44px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 36px], [heading]
+        - FRAME "p", 500x86.5px, vertical pad 0 51 0.5 0px gap -0.5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Understand your customers’ purchase patterns and do", 449x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+          - TEXT "easy reconciliations with a robust data Dashboard and", 448x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+          - TEXT "easy exports.", 111x29px, constraints left/top, fill #011B33, text [Roboto Regular, 19px]
+  - FRAME "section.l-section", 1920x919.97px, constraints left/top, fill #EAF6FC
+    - RECTANGLE "pseudo", 1920x919.97px, constraints left/top, fill image(hash: d2ca41e02614c2a0d1b856fae02e6578126e1a82), opacity 6%
+    - FRAME "div.l-container", 1240x619.97px, constraints center/top
+      - FRAME "div.c-section-header__body", 640x178px, constraints left_right/top
+        - FRAME "h2", 640x108px, constraints left/top
+          - TEXT "Trusted by 200,000+", 423.68x45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 45px], [heading]
+          - TEXT "businesses", 224.31x45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 43px], [heading]
+        - FRAME "p.u-text-summary", 640x60px, constraints left/top
+          - TEXT "Thousands of organizations of all sizes trust Paystack to gr", 606.56x20px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+          - TEXT "business.", 85.79x20px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+      - FRAME "div.u-flex", 1208x391.97px, constraints left/top
+        - FRAME "div.c-card", 382.25x391.97px, vertical pad 39 33 49 33px gap 30.02px sizing W:fixed H:fixed, constraints left/top_bottom, radius 6px, fill #FFFFFF, stroke #F0F2F3 1px, effect [drop_shadow 6px offset 0 1 #00000005]
+          - FRAME "For-International-Businesses_180823_165939.svg", 116.81x79.98px, horizontal pad 0 0.01 0 0.01px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~29 shapes]
+          - FRAME "div.c-card__body", 316.25x193.97px, constraints left/top
+            - FRAME "h4.u-h4-bolder", 316.25x68.19px, vertical pad 0 165.25 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p", 316.25x52.19px, vertical pad 0 32.25 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "a.c-button", 108.81x40px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/center, radius 5px
+        - FRAME "div.c-card", 382.25x391.97px, vertical pad 39 33 49 33px gap 30.02px sizing W:fixed H:fixed, constraints left/top_bottom, radius 6px, fill #FFFFFF, stroke #F0F2F3 1px, effect [drop_shadow 6px offset 0 1 #00000005]
+          - FRAME "For-Entrepreneurs_180823_165709.svg", 128.48x79.98px, horizontal pad 0 0.01 0 0.01px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~47 shapes]
+          - FRAME "div.c-card__body", 316.25x193.97px, constraints left/top
+            - FRAME "h4.u-h4-bolder", 316.25x68.19px, vertical pad 0 164.25 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p", 316.25x77.77px, vertical pad 0 25.25 0.59 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "a.c-button", 108.81x40px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/center, radius 5px
+        - FRAME "div.c-card", 382.25x391.97px, vertical pad 39 33 49 33px gap 30.02px sizing W:fixed H:fixed, constraints left/top_bottom, radius 6px, fill #FFFFFF, stroke #F0F2F3 1px, effect [drop_shadow 6px offset 0 1 #00000005]
+          - FRAME "For-Large-Corporations_180823_165502.svg", 127.83x79.98px, horizontal pad 0 0.01 0 0.01px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~153 shapes]
+          - FRAME "div.c-card__body", 316.25x193.97px, constraints left/top
+            - FRAME "h4.u-h4-bolder", 316.25x68.19px, vertical pad 0 99.25 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p", 316.25x77.77px, vertical pad 0 27.25 0.59 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "a.c-button", 108.81x40px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/center, radius 5px
+  - FRAME "div.l-container", 1240x538px, constraints center/top
+    - FRAME "div.c-section-header__body", 640x178px, constraints left_right/top
+      - FRAME "h2", 640x108px, constraints left/top
+        - TEXT "Powering growth for amazing", 598.98x45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 45px], [heading]
+        - TEXT "businesses", 224.31x45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 43px], [heading]
+      - FRAME "p.u-text-summary", 640x60px, constraints left/top
+        - TEXT "Paystack is a growth engine for a new generation of innovati", 577.25x20px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+        - TEXT "forward-looking organizations operating in Africa.", 454.58x20px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+    - FRAME "div.c-logo-row", 1208x100px, constraints left/top [decorative, ~90 shapes]
+    - FRAME "div.c-logo-row", 1208x100px, constraints left/top [decorative, ~36 shapes]
+    - FRAME "div.c-logo-row", 1208x100px, constraints left/top [decorative, ~41 shapes]
+  - FRAME "section.l-section", 1920x923.17px, constraints left/top, fill #F9FBFC
+    - RECTANGLE "pseudo", 1920x923.17px, constraints left/top, fill image(hash: 24946dc1c3ccd4368953a5b204eba0374976b8b6), opacity 10%
+    - FRAME "div.l-container", 1240x593.17px, constraints center/top
+      - FRAME "div.c-section-header__body", 640x178px, constraints left_right/top
+        - FRAME "h2", 640x108px, constraints left/top
+          - TEXT "Backed by strong global", 493.23x45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 45px], [heading]
+          - TEXT "partners", 175.03x45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 45px], [heading]
+        - FRAME "p.u-text-summary", 640x60px, constraints left/top
+          - TEXT "Paystack is backed by notable investors as well as some of t", 613.51x20px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+          - TEXT "payments companies on the planet.", 328.76x20px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+      - FRAME "div.u-flex", 1208x365.17px, constraints left/top
+        - FRAME "div.c-card", 389.33x365.17px, constraints left/top_bottom, radius 6px, fill #FFFFFF, stroke #F0F2F3 1px, effect [drop_shadow 6px offset 0 1 #00000005]
+          - RECTANGLE "Stripe.png", 67.73x27.98px, constraints left/center, fill image(hash: 657b638de52af365bf741b912a2e1b855e79d424)
+          - FRAME "div.c-card__body", 323.33x239.17px, vertical pad 31 0 0 0px gap 54.8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p.c-testimonial__text", 323.33x103.37px, vertical pad 0 19.33 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "div.c-testimonial__author", 323.33x50px, horizontal pad 0 133 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-card", 389.33x365.17px, constraints left/top_bottom, radius 6px, fill #FFFFFF, stroke #F0F2F3 1px, effect [drop_shadow 6px offset 0 1 #00000005]
+          - RECTANGLE "Visa-_-Color.png", 87.58x27.98px, constraints left/center, fill image(hash: 1e6d4cc11ccda84e7edbe0a5c8e268b8b9bcc21c)
+          - FRAME "div.c-card__body", 323.33x239.67px, vertical pad 31 0 0 0px gap 42px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p.c-testimonial__text", 323.33x103.37px, vertical pad 0 16.33 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "div.c-testimonial__author", 323.33x63.3px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-card", 389.33x365.17px, constraints left/top_bottom, radius 6px, fill #FFFFFF, stroke #F0F2F3 1px, effect [drop_shadow 6px offset 0 1 #00000005]
+          - RECTANGLE "ycombinator-logo.png", 28x28px, constraints left/center, fill image(hash: 1109714296829d5875cc545a91f95d6e3a6bf9ee)
+          - FRAME "div.c-card__body", 323.33x239.17px, vertical pad 31 0 0 0px gap 54.8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "p.c-testimonial__text", 323.33x103.37px, vertical pad 0 45.33 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "div.c-testimonial__author", 323.33x50px, horizontal pad 0 93.27 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+  - FRAME "section.l-section", 1920x468px, constraints left/top
+    - RECTANGLE "pseudo", 1920x400px, constraints left/top, fill image(hash: 351af415dffff0988a383a3ed5cd541ad089e601), opacity 20%
+    - FRAME "div.c-signup", 1208x268px, constraints left/top
+      - FRAME "div.c-signup__left", 600x168px, constraints left_right/top
+        - TEXT "Try Paystack Now", 160.39x20px, constraints left/top, fill #011B33, text [Roboto Regular, 20px]
+        - FRAME "div.u-animate", 600x118px, constraints left/top
+          - FRAME "h2", 600x108px, constraints left/top
+            - TEXT "Start accepting payments in", 583.59x45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 45px], [heading]
+            - TEXT "just 30 minutes", 315.43x45px, constraints left/top, fill #011B33, text [Roboto ExtraBold, 44px], [heading]
+      - FRAME "div.c-signup__cta", 232.95x50px, horizontal pad 0 4.25 0 0px gap 0px sizing W:fixed H:fixed, constraints right/center
+        - FRAME "a.c-button--lg", 228.7x50px, horizontal pad 0 42.7 0 32px gap 0px sizing W:fixed H:fixed, constraints left/center, radius 5px, fill #3BB75E
+          - TEXT "Create a free account", 154x50px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 16px]
+  - FRAME "div.l-container", 1240x915.22px, constraints center/top
+    - FRAME "div.c-footer__row", 1208x463.5px, constraints left/top
+      - FRAME "div.c-footer__column", 302x464.5px, vertical pad 0 16 121.96 16px gap 19px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-footer__group", 270x93.38px, vertical pad 0 0 0 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Why Paystack", 113x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "ul.c-footer-list", 270x58.19px, vertical pad 0 112 0.6 0px gap 5.59px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Why Choose Paystack", 158x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Success rates", 105x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+        - FRAME "ul.c-footer-list", 270x121.37px, vertical pad 0 68 0.6 0px gap 5.59px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "For Entrepreneurs", 127x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "For Corporates", 107x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "For International Companies", 202x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "For Startups", 88x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+        - FRAME "ul.c-footer-list", 270x89.79px, vertical pad 0 182 0.59 0px gap 5.6px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "For Fintechs", 88x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "For Schools", 85x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "For Betting", 78x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+      - FRAME "div.c-footer__column", 302x464.5px, vertical pad 0 16 20 16px gap 19px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-footer__group", 270x124.97px, vertical pad 0 0 0.01 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Pricing", 57x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "ul.c-footer-list", 270x89.77px, vertical pad 0 182 0.59 0px gap 5.59px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Nigeria", 51x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Ghana", 46x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "South Africa", 88x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+        - FRAME "div.c-footer__group", 270x61.78px, vertical pad 0 178 0.59 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Customers", 88x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - TEXT "Testimonials", 92x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+        - FRAME "div.c-footer__group", 270x219.75px, vertical pad 0 0 0.02 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Learn", 46x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "ul.c-footer-list", 270x184.54px, vertical pad 0 159 0.59 0px gap 5.59px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Blog", 32x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Guides", 50x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Video Tutorials", 107x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Decode Fintech", 111x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Commerce", 79x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Terminal", 63x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+      - FRAME "div.c-footer__column", 302x464.49px, vertical pad 0 16 83.18 16px gap 19px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-footer__group", 270x156.56px, vertical pad 0 0 0 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Developers", 90x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "ul.c-footer-list", 270x121.37px, vertical pad 0 160 0.6 0px gap 5.59px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Overview", 65x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Documentation", 110x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Integrations", 86x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Status Page", 86x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+        - FRAME "div.c-footer__group", 270x61.78px, vertical pad 0 171 0.59 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Community", 93x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - TEXT "Nigeria Logos", 99x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+        - FRAME "div.c-footer__group", 270x124.97px, vertical pad 0 0 0 0px gap 9.18px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Support", 65x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "ul.c-footer-list", 270x89.79px, vertical pad 0 130 0.59 0px gap 5.6px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Help Desk", 73x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Contact Us", 79x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Why was I debited?", 140x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+      - FRAME "div.c-footer__group", 270x219.75px, vertical pad 0 0 0.02 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "About", 49x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+        - FRAME "ul.c-footer-list", 270x184.54px, vertical pad 0 155 0.59 0px gap 5.59px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Company", 68x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "Subscribe", 71x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "Compliance", 85x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "Careers", 56x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "Media Kit", 68x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+          - TEXT "Privacy & Terms", 115x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+    - FRAME "div.c-footer__row", 1208x403.72px, constraints left/top, stroke #F0F2F3D9 1px
+      - FRAME "div.c-footer__column", 302x355.72px, vertical pad 0 16 267.94 16px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Contact", 64x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+        - FRAME "ul.c-footer-list", 270x52.59px, vertical pad 0 0 0 0px gap 6.59px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "hello@paystack.com", 149x26px, constraints left/top, fill #0BA4DB, text [Roboto Regular, 16px]
+          - FRAME "ul.c-footer-list", 270x20px, horizontal pad 0 90 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top [decorative, ~15 shapes]
+      - FRAME "div.c-footer__column", 302x355.72px, vertical pad 0 16 25.57 16px gap 46.99px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-country", 270x144.57px, vertical pad 0 0 0 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Lagos", 50x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "ul.c-footer-list", 270x109.38px, vertical pad 0 0 0.6 0px gap 5.01px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "li.c-footer-list__item", 270x77.77px, vertical pad 0 79 0.59 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "+234 163 16160", 109x26px, constraints left/top, fill #0BA4DB, text [Roboto Regular, 15px]
+        - FRAME "div.c-country", 270x138.59px, vertical pad 0 0 0 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Accra", 47x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "li.c-footer-list__item", 270x103.4px, vertical pad 0 78 0.6 0px gap -0.4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "AfricaWorks,", 91x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "35 Patrice Lumumba Road,", 192x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Airport Residential Area,", 172x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Accra, Ghana", 95x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+      - FRAME "div.c-footer__column", 302x355.72px, vertical pad 0 16 31.57 16px gap 47px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-country", 270x138.56px, vertical pad 0 0 0 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "San Francisco", 114x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "li.c-footer-list__item", 270x103.37px, vertical pad 0 110 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "354 Oyster Point Blvd.,", 160x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "South San Francisco,", 149x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "CA 94080", 70x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "United States", 96x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+        - FRAME "div.c-country", 270x138.59px, vertical pad 0 0 0 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Dubai", 47x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "li.c-footer-list__item", 270x103.4px, vertical pad 0 88 0.6 0px gap -0.4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Office 215,", 76x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Building 3,", 74x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Dubai Internet City, Dubai,", 182x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "United Arab Emirates", 150x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+      - FRAME "div.c-footer__column", 302x355.72px, vertical pad 0 16 6 16px gap 47px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "div.c-country", 270x164.16px, vertical pad 0 0 0.01 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Cape Town", 89x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "li.c-footer-list__item", 270x128.96px, vertical pad 0 106 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Wework (1st Floor),", 130x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 15px]
+            - TEXT "80 Strand Street,", 118x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Cape Town City Centre,", 164x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "Cape Town, 8001,", 126x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+            - TEXT "South Africa", 88x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+        - FRAME "div.c-country", 270x138.56px, vertical pad 0 0 0 0px gap 9.19px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Johannesburg", 116x26px, constraints left/top, fill #011B33, text [Roboto Medium, 18px]
+          - FRAME "li.c-footer-list__item", 270x103.37px, vertical pad 0 133 0.6 0px gap -0.41px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "45 Kingfisher Drive,", 137x26px, constraints left/top, fill #011B33E5, text [Roboto Regular, 16px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

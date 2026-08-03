@@ -1,0 +1,136 @@
+---
+name: plaid-pattern-mobile-desktop-community
+source_file: Plaid Pattern • 📱 Mobile • 🖥️  Desktop (Community)
+source_page: All pages (3): 🖼️ Cover, 🧇 Paid Pattern, 📬 Contact Card
+generated_at: 2026-07-25T09:55:01.528491+00:00
+---
+
+# Plaid Pattern • 📱 Mobile • 🖥️  Desktop (Community) Design Guidelines
+
+## Source
+- Figma file: Plaid Pattern • 📱 Mobile • 🖥️  Desktop (Community)
+- Figma page: All pages (3): 🖼️ Cover, 🧇 Paid Pattern, 📬 Contact Card
+- Extracted at: 2026-07-25T09:55:01.528491+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Blue 500: [#4285F4]
+- Grey • White: [#FFFFFF]
+- Grey • Black: [#000000]
+- Pink 500: [#F439A0]
+- white: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #000000: 92 uses
+- #FFFFFF: 6 uses
+- #0E0F11: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Mark Pro Bold, 20px: 6 uses
+
+## Typography Hierarchy
+- 20px - Mark Pro Bold, 20px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- 5: [drop_shadow 4px offset 0 4 #3C40434D, drop_shadow 12px offset 0 8 #3C404326]
+- Elevation Light/1: [drop_shadow 3px offset 0 1 #3C404326, drop_shadow 2px offset 0 1 #3C40434D]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Cover Backgrounds
+
+## Component Specs
+- Cover Backgrounds / Plaid Pattern: size 960x480px, fill #EE2020
+
+## Most-Used Styles
+- Grey • White: 33 uses
+- 5: 15 uses
+- Elevation Light/1: 3 uses
+- Blue 500: 2 uses
+- Grey • Black: 2 uses
+- white: 2 uses
+- Pink 500: 1 use
+
+## Layout & Structure
+Screen: 🖼️ Cover / Cover
+- FRAME "Cover", 1667x834px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Cover Backgrounds / Plaid Pattern", 1667x834px, constraints left/top, fill #EE2020
+    - VECTOR "Vector", 833.5x834px, constraints scale/scale, fill #0E0F11
+    - VECTOR "Vector", 833.5x834px, constraints scale/scale, fill #0E0F11
+  - GROUP "Box Shape", 1200x424px, constraints left/top [decorative, ~9 shapes]
+  - TEXT "Title", 975x152px, constraints left/bottom, fill white, text [Mark Pro Bold, 152px], [heading]
+  - TEXT "Subtitle", 700x64px, constraints left/bottom, fill white, text [Mark Pro Bold, 64px], [heading]
+
+Screen: 🧇 Paid Pattern / Cover Backgrounds / Plaid Pattern
+- COMPONENT "Cover Backgrounds / Plaid Pattern", 960x480px, constraints left/top, fill #EE2020
+  - VECTOR "Vector", 480x480px, constraints scale/scale, fill #0E0F11
+  - VECTOR "Vector", 480x480px, constraints scale/scale, fill #0E0F11
+
+Screen: 📬 Contact Card / Guinea Pig
+- VECTOR "Guinea Pig", 100x70px, constraints scale/scale, fill Pink 500
+
+Screen: 📬 Contact Card / 📬 Contact Card
+- FRAME "📬 Contact Card", 1920x960px, constraints left/top, fill Blue 500
+  - INSTANCE "Cover Backgrounds / Plaid Pattern", 1920x960px, constraints left/top, fill Blue 500, opacity 80%
+    - VECTOR "Vector", 960x960px, constraints scale/scale, fill Grey • Black
+    - VECTOR "Vector", 960x960px, constraints scale/scale, fill Grey • Black
+  - FRAME "Mii Door", 259x392px, constraints left/top, fill #FFFFFF [decorative, ~91 shapes]
+  - FRAME "devonv.com + logo", 219x72px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect 5
+    - INSTANCE "DV", 72x72px, constraints left/top, effect Elevation Light/1
+      - BOOLEAN_OPERATION "Combined Shape", 25.53x43.5px, constraints scale/scale, fill Grey • White
+      - BOOLEAN_OPERATION "Union", 71.28x51.56px, constraints scale/scale, fill Grey • White
+    - TEXT "devonv.com", 127x24px, constraints left/top, fill Grey • White, text [Lato Regular, 24px], [heading]
+  - FRAME "Design //", 281x55px, horizontal pad 7 0 7 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect 5
+    - RECTANGLE "Pirate Flag Emoji", 40x40px, constraints left/top, fill image(hash: 14aa25cc2498ee176626824ab23cd533c88405f1)
+    - TEXT "URL", 138x41px, constraints left/top, fill Grey • White, text [Mark Pro Black, 32px], [heading]
+  - FRAME "Photography //", 281x55px, horizontal pad 7 0 7 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect 5
+    - RECTANGLE "Camera Emoji", 40x40px, constraints left/top, fill image(hash: 941a8352aa2a2bcbb67a7474d27cd93900d8ccca)
+    - TEXT "URL", 231x41px, constraints left/top, fill Grey • White, text [Mark Pro Black, 32px], [heading]
+  - GROUP "Icons", 649.08x115px, constraints left/top
+    - INSTANCE "launch_24px", 40x40px, constraints left/top, fill #FFFFFF, effect 5
+      - VECTOR "ic_launch_24px", 30x30px, constraints scale/scale, fill Grey • White
+    - INSTANCE "launch_24px", 40x40px, constraints left/top, fill #FFFFFF, effect 5
+      - VECTOR "ic_launch_24px", 30x30px, constraints scale/scale, fill Grey • White
+    - FRAME "Instagram Icon", 40x40px, constraints left/top, fill #FFFFFF, effect 5
+      - GROUP "Group", 34.99x34.99px, constraints scale/scale
+        - VECTOR "Vector", 18.06x18.06px, constraints scale/scale, fill Grey • White
+        - VECTOR "Vector", 4.09x4.09px, constraints scale/scale, fill Grey • White
+        - VECTOR "Vector", 34.99x34.99px, constraints scale/scale, fill Grey • White
+    - FRAME "Linkedin Icon / text", 40x40px, constraints left/top, fill #FFFFFF, effect 5
+      - BOOLEAN_OPERATION "Union", 23.42x23.33px, constraints left/top, fill Grey • White
+    - VECTOR "Reddit Icon", 35.08x30px, constraints scale/scale, fill Grey • White, effect 5
+    - FRAME "Dribbble Icon", 32x32px, constraints left/top, fill #FFFFFF, effect 5
+      - VECTOR "Vector", 32x32px, constraints scale/scale
+      - VECTOR "Vector", 26.67x26.67px, constraints scale/scale, fill Grey • White
+  - FRAME "Master Title", 1200x294px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect Elevation Light/1
+    - TEXT "📱 Mobile • & 🖥️ Desktop", 1200x64px, constraints center/scale, fill Grey • White, text [Mark Pro Bold, 48px], [heading]
+    - TEXT "Devon Veillette", 1200x144px, constraints left/top, fill Grey • White, text [Mark Pro Heavy, 110px], [heading]
+    - TEXT "Product Design • Web Design • Branding • Illustrations", 1005x46px, constraints left/top, fill Grey • White, effect Elevation Light/1, text [Mark Pro MarkPro, 36px], [heading]
+  - TEXT "devonv.co", 96x25px, constraints left/top, fill Grey • White, effect 5, text [Mark Pro Bold, 20px]
+  - TEXT "instagram.com/devonv__", 242x25px, constraints left/top, fill Grey • White, effect 5, text [Mark Pro Bold, 20px]
+  - TEXT "/r/devonvphotography", 218x25px, constraints left/top, fill Grey • White, effect 5, text [Mark Pro Bold, 20px]
+  - TEXT "devonv.com", 114x25px, constraints left/top, fill Grey • White, effect 5, text [Mark Pro Bold, 20px]
+  - TEXT "linkedin.com/in/devonveillette", 292x25px, constraints left/top, fill Grey • White, effect 5, text [Mark Pro Bold, 20px]
+  - TEXT "dribbble.com/devonveillette", 270x25px, constraints left/top, fill Grey • White, effect 5, text [Mark Pro Bold, 20px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

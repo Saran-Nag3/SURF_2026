@@ -1,0 +1,784 @@
+---
+name: webflow-starter-ui-kit-community
+source_file: Webflow Starter UI Kit (Community)
+source_page: All pages (2): Elements & Layouts, 📔 Cover
+generated_at: 2026-07-02T20:48:17.283406+00:00
+---
+
+# Webflow Starter UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Webflow Starter UI Kit (Community)
+- Figma page: All pages (2): Elements & Layouts, 📔 Cover
+- Extracted at: 2026-07-02T20:48:17.283406+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- State Blue: [#435AF6]
+- White: [#FFFFFF]
+- Base / Gray: [#000000]
+- Base/ Blue: [#3898EC]
+- Base / White: [#FFFFFF]
+- Base / Gray 2: [#FFFFFF]
+- Base / Gray 3: [#9E9E9E]
+- Base / Browser Blue: [#0921EA]
+- Base / Gray 1: [#E0E0E0]
+- Base / Error Background: [#FFDEDE]
+- Base / Error: [#EA374C]
+- background/24 (white): none
+- black/100%: none
+
+## Raw Colors (unstyled)
+- #000000: 38 uses
+- #C4C4C4: 33 uses
+- #FFFFFF: 18 uses
+- #003087: 11 uses
+- #009CDE: 11 uses
+- #1E3650: 11 uses
+- #4B5A6A: 11 uses
+- #C4C4C400: 11 uses
+- #C2C2C2: 9 uses
+- #7B61FF: 5 uses
+- #ABABAB: 5 uses
+- #E0E0E0: 5 uses
+- #F3F3F3: 5 uses
+- #1479FB: 3 uses
+- #4285F4: 3 uses
+
+## Typography Tokens
+- Base / Paragraph: Arial ArialMT (400), 14px / 20px, tracking 0px
+- Heading 2: Arial BoldMT (700), 32px / 36px, tracking 0px
+- Base / Field Placeholder: Arial ArialMT (400), 14px / 20px, tracking 0px
+- Heading 1: Arial BoldMT (700), 38px / 44px, tracking 0px
+- Heading 6: Arial BoldMT (700), 12px / 18px, tracking 0px
+- Heading 5: Arial BoldMT (700), 14px / 20px, tracking 0px
+- Heading 4: Arial BoldMT (700), 18px / 24px, tracking 0px
+- Heading 3: Arial BoldMT (700), 24px / 30px, tracking 0px
+- Base / Field Label: Arial BoldMT (700), 14px / 20px, tracking 0px
+- Base / Paragraph Italic: Arial ItalicMT (400), 14px / 20px, tracking 0px
+- Base / Paragraph Bold: Arial BoldMT (700), 14px / 20px, tracking 0px
+- Base / Checkbox Radio Label: Arial ArialMT (400), 14px / 20px, tracking 0px
+
+## Raw Typography (unstyled)
+- Arial ArialMT, 14px: 25 uses
+- Arial BoldMT, 14px: 3 uses
+
+## Typography Hierarchy
+- 38px - Heading 1 (Arial BoldMT)
+- 32px - Heading 2 (Arial BoldMT)
+- 24px - Heading 3 (Arial BoldMT)
+- 18px - Heading 4 (Arial BoldMT)
+- 14px - Arial ArialMT, 14px (raw)
+- 14px - Arial BoldMT, 14px (raw)
+- 14px - Base / Checkbox Radio Label (Arial ArialMT)
+- 14px - Base / Field Label (Arial BoldMT)
+- 14px - Base / Field Placeholder (Arial ArialMT)
+- 14px - Base / Paragraph (Arial ArialMT)
+- 14px - Base / Paragraph Bold (Arial BoldMT)
+- 14px - Base / Paragraph Italic (Arial ItalicMT)
+- 14px - Heading 5 (Arial BoldMT)
+- 12px - Heading 6 (Arial BoldMT)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- Columns / Mobile Landscape: columns count 2, section 254px, gutter 20px, align stretch
+- Columns / Mobile: columns count 2, section 130px, gutter 20px, align stretch
+- Columns / Tablet: columns count 12, section 42.33px, gutter 20px, align stretch
+- Columns / Desktop: columns count 12, section 60px, gutter 20px, align stretch
+
+## Component Families
+- Upload field
+- reCAPTCHA
+- Radio
+- Checkbox
+- Tab
+- 404 Page
+- Error Page
+- Search result
+- Search results
+- List
+- List Item
+- Block Quote
+- Rich Text
+- Add to Cart
+- Button
+- Form
+- Form Block
+- Textarea
+- Select Field
+- Text Field
+- Slide Dot
+- Background Video
+- Dropdown
+- Logo
+- Navbar
+- Nav
+- Tabs
+- Map
+- Search
+- Footer
+- Contact Form
+- Subscribe Form
+- Call to Action
+- Gallery
+- Feature Section
+- Main Content
+- Cards Section
+- Hero Overlay
+- Hero
+- Sticky Nav
+
+## Component Specs
+- Upload field: size 270x38px, horizontal layout, padding 0 0 0 0px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Base / Checkbox Radio Label] | variants: Property 1: Upload/Uploaded/Uploading; Error: False/True
+- reCAPTCHA: size 302x76px, fill #FFFFFF, text [Arial ArialMT, 14px, Base / Paragraph] | variants: Checked: False/True
+- Radio: size 90x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Base / Checkbox Radio Label] | variants: Selected: False/True
+- Checkbox: size 90x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Base / Checkbox Radio Label] | variants: Selected: False/True
+- Tab: size 83x38px, horizontal layout, padding 9 30 9 30px, gap 0px, sizing W:fixed H:fixed, fill Base / Gray 2, stroke #979797 0px, text [Base / Paragraph] | variants: State: Active/Inactive
+- 404 Page: size 1098x307px, vertical layout, padding 80 79 80 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Base / Paragraph, Heading 2]
+- Error Page: size 1098x388px, vertical layout, padding 80 79 80 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Arial ArialMT, 14px, Base / Field Placeholder, Heading 2]
+- Search result: size 940x88px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Base / Paragraph, Arial ArialMT, 14px]
+- Search results: size 940x464px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [Base / Paragraph, Arial ArialMT, 14px, Base / Field Placeholder, Heading 1]
+- List / Ordered: size 351x116px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [Base / Paragraph]
+- List / Unordered: size 351x116px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [Base / Paragraph]
+- List Item / Unordered: size 404x20px, horizontal layout, padding 0 0 0 0px, gap 13px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Base / Paragraph]
+- List Item / Ordered: size 404x20px, horizontal layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Base / Paragraph]
+- Block Quote: size 884x40px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Arial ArialMT, 18px]
+- Rich Text: size 579x344px, fill #FFFFFF, text [Heading 4, Heading 2, Base / Paragraph]
+- Add to Cart  / Out of Stock: size 191x40px, vertical layout, padding 10 10 10 10px, gap 0px, sizing W:fixed H:fixed, fill Base / Gray 1, text [Base / Paragraph]
+- Add to Cart  / Error: size 376x350px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Base / Paragraph, Arial ArialMT, 14px, Base / Field Label]
+- Add to Cart  / Default: size 101x158px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Arial ArialMT, 14px, Base / Paragraph, Base / Field Label]
+- Button / PayPal / Default: size 352x55px, radius 4px, fill #FFC439
+- Button / PayPal / Card: size 352x55px, radius 4px, fill #2C2E2F, text [Arial BoldMT, 18px]
+- Form / PayPal: size 338x162px, vertical layout, padding 0 0 0 0px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Arial ItalicMT, 11px, Arial BoldMT, 18px]
+- Button / Pay with browser: size 222x38px, radius 3px, fill Base / Gray, text [Arial ArialMT, 14px]
+- Button / Apple Pay: size 222.72x38px, radius 3px, vertical layout, padding 9 87 9 87px, gap 10px, align min/center, sizing W:fixed H:fixed, fill Base / Gray
+- Button / Rounded: size 222x38px, radius 3px, vertical layout, padding 9 15 9 15px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Base/ Blue, text [Arial ArialMT, 14px]
+- Button / Cart: size 109x38px, horizontal layout, padding 9 15 9 15px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Base/ Blue, text [Arial ArialMT, 11px, Arial ArialMT, 14px]
+- Button / Default: size 71x38px, horizontal layout, padding 9 15 9 15px, gap 10px, align min/center, sizing W:fixed H:fixed, fill Base/ Blue, text [Arial ArialMT, 14px]
+- Form Block: size 400x186px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Arial ArialMT, 14px, Base / Field Placeholder, Base / Field Label]
+- Textarea: size 270x63px, fill Base / White, stroke Base / Gray 2 1px, text [Base / Field Placeholder]
+- Select Field: size 270x38px, fill #F3F3F3, stroke Base / Gray 2 1px, text [Base / Checkbox Radio Label]
+- Text Field: size 271x38px, fill Base / White, stroke Base / Gray 2 1px, text [Base / Field Placeholder]
+- Slide Dot / Inactive: size 14x14px, fill #FFFFFF
+- Slide Dot / Active: size 14x14px, fill #FFFFFF
+- Background Video: size 606x290px, fill #2E2E2E
+- Dropdown / Menu Visible: size 120x180px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Base / Paragraph, Base / Checkbox Radio Label]
+- Dropdown / Menu Hidden: size 120x60px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Base / Paragraph, Base / Checkbox Radio Label]
+- Logo: size 54x38px
+- Navbar: size 606x60px, fill Base / Gray 1, text [Base / Paragraph]
+- Nav / Nav Link: size 78x28.27px, horizontal layout, padding 20 20 20 20px, gap 0px, align min/center, sizing W:fixed H:fixed, stroke #979797 0px, text [Base / Paragraph]
+- Dropdown / Link: size 120x40px, vertical layout, padding 10 20 10 20px, gap 10px, sizing W:fixed H:fixed, fill Base / Gray 1, stroke #979797 0px, text [Base / Paragraph]
+- Tabs: size 585x108px, fill #FFFFFF, text [Base / Paragraph]
+- Map: size 585x255px, fill image(hash: 61a03f9e4cb8218efa49bb6ca5e66b3d62c74fd7)
+- Search: size 271x84px, fill #FFFFFF, text [Base / Field Placeholder, Arial ArialMT, 14px]
+- Footer: size 1098x308px, vertical layout, padding 40 79 40 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Base / Paragraph, Arial BoldMT, 14px]
+- Contact Form: size 1098x600px, vertical layout, padding 80 79 80 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Arial ArialMT, 14px, Base / Field Placeholder, Base / Field Label, Base / Paragraph Italic, Base / Paragraph, Heading 2]
+- Subscribe Form: size 1098x322px, vertical layout, padding 80 79 80 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Arial ArialMT, 14px, Base / Field Placeholder, Base / Field Label, Base / Paragraph, Heading 2]
+- Call to Action: size 1098x286px, vertical layout, padding 80 79 80 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Arial ArialMT, 14px, Base / Paragraph, Heading 2]
+- Gallery: size 1098x728px, vertical layout, padding 80 79 80 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Base / Paragraph, Heading 2]
+- Feature Section: size 1098x617px, vertical layout, padding 80 79 80 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Base / Paragraph, Heading 2]
+- Main Content: size 940x1128px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [Arial ArialMT, 18px, Base / Paragraph, Heading 5, Heading 4, Heading 3, Heading 2]
+- Cards Section: size 1098x736px, vertical layout, padding 80 79 80 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Base / Paragraph, Heading 3, Heading 2]
+- Hero Overlay: size 1098x557px, fill image(hash: 1a53cd005f0ddf88536269b44ec858b7259d31a0), text [Arial ArialMT, 14px, Base / Paragraph, Heading 1]
+- Hero: size 1098x617px, vertical layout, padding 80 79 80 79px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Arial ArialMT, 14px, Base / Paragraph, Heading 1]
+- Sticky Nav: size 1100x100px, fill Base / Gray 1, text [Arial ArialMT, 14px, Base / Paragraph]
+
+## Most-Used Styles
+- Base / Gray: 129 uses
+- Base / Paragraph: 102 uses
+- Base / White: 50 uses
+- Base/ Blue: 26 uses
+- Base / Gray 2: 24 uses
+- Base / Gray 1: 19 uses
+- Base / Checkbox Radio Label: 14 uses
+- Base / Field Label: 12 uses
+- Heading 1: 12 uses
+- Base / Field Placeholder: 11 uses
+- Base / Gray 3: 11 uses
+- Heading 2: 11 uses
+- Base / Browser Blue: 5 uses
+- Heading 3: 5 uses
+- Base / Error Background: 4 uses
+- Heading 4: 4 uses
+- black/100%: 3 uses
+- Base / Paragraph Italic: 2 uses
+- Heading 5: 2 uses
+- White: 2 uses
+- Base / Error: 1 use
+- Base / Paragraph Bold: 1 use
+- Heading 6: 1 use
+- State Blue: 1 use
+
+## Layout & Structure
+Screen: Elements & Layouts / 03 - Default Layouts
+- FRAME "03 - Default Layouts", 1440x1239px, constraints left/top, fill #FFFFFF
+  - TEXT "Page Title", 303x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+  - RECTANGLE "Column", 460x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 300x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 220x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 220x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 220x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 300x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 140x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 380x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 220x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 220x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 700x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 700x80px, constraints left/top, fill #C4C4C4
+  - RECTANGLE "Column", 220x80px, constraints left/top, fill #C4C4C4
+  - ... +8 more children
+
+Screen: Elements & Layouts / 01 - Grids
+- FRAME "01 - Grids", 1440x3448px, constraints left/top, fill #FFFFFF
+  - TEXT "Page Title", 100x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+  - LINE "Line 1", 1200x0px, constraints left/top, stroke Base/ Blue 4px
+  - FRAME "Desktop 992 and above", 1440x1024px, constraints scale/top, fill #FFFFFF
+  - FRAME "Tablet 991 and Below", 990x1024px, constraints scale/top, fill #FFFFFF
+  - FRAME "Mobile between 479 and 240", 320x585px, constraints scale/top, fill #FFFFFF
+  - FRAME "Mobile Landscape between 767 and 480", 568x299px, constraints scale/top, fill #FFFFFF
+
+Screen: Elements & Layouts / 02 - Prebuild Layouts
+- FRAME "02 - Prebuild Layouts", 1440x7022px, constraints left/top, fill #FFFFFF
+  - TEXT "Page Title", 298x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+  - LINE "Line 1", 1200x0px, constraints left/top, stroke Base/ Blue 4px
+  - COMPONENT "Sticky Nav", 1100x100px, constraints left/top, fill Base / Gray 1
+    - GROUP "Container", 939.63x38px, constraints left/top
+      - INSTANCE "Nav Logo Link", 53.96x38px, constraints left/top
+        - VECTOR "Default Image Icon", 48x36px, constraints center/center, fill #C2C2C2
+      - FRAME "Nav Menu", 279x38px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints right/top
+        - INSTANCE "Nav / Nav Link", 96x60px, horizontal pad 20 20 20 20px gap 0px align min/center sizing W:fixed H:fixed, constraints right/top, stroke #979797 0px
+          - TEXT "Text", 56x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+        - INSTANCE "Nav / Nav Link", 83x60px, horizontal pad 20 20 20 20px gap 0px align min/center sizing W:fixed H:fixed, constraints right/top, stroke #979797 0px
+          - TEXT "Text", 43x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+        - INSTANCE "Button / Default", 100x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+          - TEXT "Button Text", 70x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "Hero", 1098x617px, vertical pad 80 79 80 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x457px, constraints left/top
+      - FRAME "Cards Grid Container", 937x459px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints right/center, fill #FFFFFF
+        - FRAME "Div Block", 458x230px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Section Title", 458x44px, constraints left/top, fill Base / Gray, text [Heading 1], [heading]
+          - TEXT "Paragraph", 458x40px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - TEXT "Paragraph", 458x60px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - INSTANCE "Button / Default", 100x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+            - TEXT "Button Text", 70x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+        - FRAME "Cards Image Mask", 459x459px, constraints center/center, fill Base / Gray 1
+          - VECTOR "Default Image Icon", 48x36px, constraints center/center, fill #C2C2C2
+  - COMPONENT "Hero Overlay", 1098x557px, constraints left/top, fill image(hash: 1a53cd005f0ddf88536269b44ec858b7259d31a0)
+    - FRAME "Container", 940x174px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints center/center
+      - TEXT "Section Title", 940x44px, constraints left/top, fill Base / White, text [Heading 1], [heading]
+      - TEXT "Paragraph", 940x60px, constraints left/top, fill Base / White, text [Base / Paragraph]
+      - INSTANCE "Button / Default", 97x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+        - TEXT "Button text", 67x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "Cards Section", 1098x736px, vertical pad 80 79 80 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x576px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Section Title", 940x36px, constraints left/top, fill Base / Gray, text [Heading 2], [heading]
+      - TEXT "Paragraph", 940x60px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+      - TEXT "Paragraph", 940x40px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+      - FRAME "Cards Grid Container", 938x392px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Div Block", 286x392px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cards Image Mask", 286x286px, constraints center/center, fill Base / Gray 1
+            - VECTOR "Default Image Icon", 48x36px, constraints center/center, fill #C2C2C2
+          - TEXT "Paragraph", 300x30px, constraints left/top, fill Base / Gray, text [Heading 3], [heading]
+          - TEXT "Paragraph", 286x60px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+        - FRAME "Div Block", 286x392px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cards Image Mask", 286x286px, constraints center/center, fill Base / Gray 1
+            - VECTOR "Default Image Icon", 48x36px, constraints center/center, fill #C2C2C2
+          - TEXT "Paragraph", 300x30px, constraints left/top, fill Base / Gray, text [Heading 3], [heading]
+          - TEXT "Paragraph", 286x60px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+        - FRAME "Div Block", 286x392px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Cards Image Mask", 286x286px, constraints center/center, fill Base / Gray 1
+            - VECTOR "Default Image Icon", 48x36px, constraints center/center, fill #C2C2C2
+          - TEXT "Paragraph", 300x30px, constraints left/top, fill Base / Gray, text [Heading 3], [heading]
+          - TEXT "Paragraph", 286x60px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "Main Content", 940x1128px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Section Title", 940x36px, constraints left/top, fill Base / Gray, text [Heading 2], [heading]
+    - TEXT "Paragraph", 940x40px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+    - TEXT "Section Title", 940x30px, constraints left/top, fill Base / Gray, text [Heading 3], [heading]
+    - TEXT "Paragraph", 940x40px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+    - TEXT "Paragraph", 940x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "List / Ordered", 728x68px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "List Item / Ordered", 404x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Number", 28x20px, constraints scale/scale, fill #1E3650, text [Base / Paragraph]
+        - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+      - INSTANCE "List Item / Ordered", 588x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Number", 28x20px, constraints scale/scale, fill #1E3650, text [Base / Paragraph]
+        - TEXT "Text", 550x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+      - INSTANCE "List Item / Ordered", 631x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Number", 28x20px, constraints scale/scale, fill #1E3650, text [Base / Paragraph]
+        - TEXT "Text", 593x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - TEXT "Section Title", 940x24px, constraints left/top, fill Base / Gray, text [Heading 4], [heading]
+    - FRAME "Player", 940x528px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rich Text YouTube", 940x528px, constraints left/top, fill image(hash: dbc038f51ecd9cc31a2940ade7e32c44ddf8680e)
+    - TEXT "Section Title", 940x20px, constraints left/top, fill Base / Gray, text [Heading 5], [heading]
+    - INSTANCE "List / Unordered", 728x44px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "List Item / Unordered", 812x20px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Left Spacer", 8x16px, constraints scale/scale, fill #C4C4C400
+        - ELLIPSE "Bullet", 4x4px, constraints scale/scale, fill #4B5A6A
+        - TEXT "Text", 774x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+      - INSTANCE "List Item / Unordered", 830x20px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Left Spacer", 8x16px, constraints scale/scale, fill #C4C4C400
+        - ELLIPSE "Bullet", 4x4px, constraints scale/scale, fill #4B5A6A
+        - TEXT "Text", 792x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - TEXT "Paragraph", 940x40px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "Block Quote", 884x62px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Line", 4x62px, constraints scale/scale, fill #C4C4C4
+      - FRAME "Frame 1", 880x62px, horizontal pad 9 20 9 20px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Headings, paragraphs, blockquotes, figures, images, and figu", 840x44px, constraints scale/scale, fill Base / Gray, text [Arial ArialMT, 18px]
+  - COMPONENT "Feature Section", 1098x617px, vertical pad 80 79 80 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x457px, constraints left/top
+      - FRAME "Cards Grid Container", 937x459px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints right/center, fill #FFFFFF
+        - FRAME "Cards Image Mask", 459x459px, constraints center/center, fill Base / Gray 1
+          - VECTOR "Default Image Icon", 48x36px, constraints center/center, fill #C2C2C2
+        - FRAME "Div Block", 458x188px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Section Title", 458x36px, constraints left/top, fill Base / Gray, text [Heading 2], [heading]
+          - TEXT "Paragraph", 458x60px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - TEXT "Paragraph", 458x60px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "Gallery", 1098x728px, vertical pad 80 79 80 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x568px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Section Title", 940x36px, constraints left/top, fill Base / Gray, text [Heading 2], [heading]
+      - TEXT "Paragraph", 940x40px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+      - GROUP "Image Grid", 938.88x460px, constraints left/top
+        - FRAME "Cards Image Mask", 220x220px, constraints center/center, fill #E0E0E0
+        - FRAME "Cards Image Mask", 220x220px, constraints center/center, fill #E0E0E0
+        - FRAME "Cards Image Mask", 220x220px, constraints center/center, fill #E0E0E0
+        - FRAME "Cards Image Mask", 220x220px, constraints center/center, fill #E0E0E0
+        - FRAME "Cards Image Mask", 459x459px, constraints center/center, fill #E0E0E0
+  - COMPONENT "Call to Action", 1098x286px, vertical pad 80 79 80 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x126px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Section Title", 940x36px, constraints left/top, fill Base / Gray, text [Heading 2], [heading]
+      - TEXT "Paragraph", 940x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+      - INSTANCE "Button / Default", 83x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+        - TEXT "Convert!", 53x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "Subscribe Form", 1098x322px, vertical pad 80 79 80 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x162px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Section Title", 940x36px, constraints left/top, fill Base / Gray, text [Heading 2], [heading]
+      - TEXT "Paragraph", 940x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+      - GROUP "Form Block", 342x74px, constraints left/top
+        - TEXT "Field Label", 43x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+        - FRAME "Subscribe Form", 342x38px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Text Field", 249x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+            - TEXT "Text", 251x20px, constraints left/scale, fill Base / Gray 3, text [Base / Field Placeholder]
+          - INSTANCE "Button / Default", 93x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+            - TEXT "Subscribe", 63x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "Contact Form", 1098x600px, vertical pad 80 79 80 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x440px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Section Title", 940x36px, constraints left/top, fill Base / Gray, text [Heading 2], [heading]
+      - TEXT "Paragraph", 940x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+      - TEXT "Paragraph", 940x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph Italic]
+      - FRAME "Cards Grid Container", 936x140px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints right/center, fill #FFFFFF
+        - FRAME "Div Block", 458x140px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Field Label", 458x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+          - INSTANCE "Text Field", 456x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+            - TEXT "Text", 251x20px, constraints left/scale, fill Base / Gray 3, text [Base / Field Placeholder]
+          - TEXT "Field Label", 458x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+          - INSTANCE "Text Field", 456x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+            - TEXT "Text", 251x20px, constraints left/scale, fill Base / Gray 3, text [Base / Field Placeholder]
+        - FRAME "Div Block", 458x140px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Field Label", 458x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+          - INSTANCE "Text Field", 456x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+            - TEXT "Text", 251x20px, constraints left/scale, fill Base / Gray 3, text [Base / Field Placeholder]
+          - TEXT "Field Label", 458x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+          - INSTANCE "Text Field", 456x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+            - TEXT "Text", 251x20px, constraints left/scale, fill Base / Gray 3, text [Base / Field Placeholder]
+      - TEXT "Field Label", 458x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+      - INSTANCE "Textarea", 937x70px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+        - TEXT "Placeholder Text", 250x20px, constraints left/top, fill Base / Gray 3, text [Base / Field Placeholder]
+        - VECTOR "Expand", 6.5x6.5px, constraints right/bottom, stroke #666666 1px
+      - INSTANCE "Button / Default", 74x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+        - TEXT "Submit", 44x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "Footer", 1098x308px, vertical pad 40 79 40 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x228px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Footer Container", 938x168px, horizontal pad 0 0 0 0px gap 146px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Footer Logo Link", 140x38px, constraints left/top
+          - VECTOR "Default Image Icon", 48x36px, constraints center/center, fill #C2C2C2
+        - FRAME "Div Block", 120x168px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Heading", 103x28px, constraints left/top, fill Base / Gray, text [Arial BoldMT, 14px]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+        - FRAME "Div Block", 120x84px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Heading", 103x28px, constraints left/top, fill Base / Gray, text [Arial BoldMT, 14px]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+        - FRAME "Div Block", 120x112px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Heading", 103x28px, constraints left/top, fill Base / Gray, text [Arial BoldMT, 14px]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+          - TEXT "Footer Link", 120x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+      - TEXT "Text Box", 940x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+
+Screen: Elements & Layouts / 07 - Components
+- FRAME "07 - Components", 1440x1983px, constraints left/top, fill #FFFFFF
+  - TEXT "Page Title", 233x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+  - LINE "Line 1", 1200x0px, constraints left/top, stroke Base/ Blue 4px
+  - COMPONENT "Search", 271x84px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Button / Default", 75x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+      - TEXT "Search", 45x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+    - INSTANCE "Text Field", 271x38px, constraints scale/scale, fill Base / White, stroke Base / Gray 2 1px
+      - TEXT "Search...", 251x20px, constraints left/scale, fill Base / Gray 3, text [Base / Field Placeholder]
+  - COMPONENT "Map", 585x255px, constraints left/top, fill image(hash: 61a03f9e4cb8218efa49bb6ca5e66b3d62c74fd7)
+  - COMPONENT "Tabs", 585x108px, constraints left/top, fill #FFFFFF
+    - FRAME "Tabs Menu", 249x38px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Tab", 83x38px, horizontal pad 9 30 9 30px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Base / Gray 2, stroke #979797 0px
+        - TEXT "Tab Title 1", 23x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+      - INSTANCE "Tab", 83x38px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Tab", 83x38px, horizontal pad 9 30 9 30px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill Base / Gray 1, stroke #979797 0px
+          - TEXT "Tab Title 1", 23x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+      - INSTANCE "Tab", 83x38px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Tab", 83x38px, horizontal pad 9 30 9 30px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill Base / Gray 1, stroke #979797 0px
+          - TEXT "Tab Title 1", 23x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - GROUP "Tabs Content", 585x70px, constraints scale/scale
+      - GROUP "Tab Pane", 585x70px, constraints left/top
+        - RECTANGLE "Background", 585x70px, constraints scale/scale, fill Base / White, stroke Base / Gray 2 1px
+  - COMPONENT "Dropdown / Link", 120x40px, vertical pad 10 20 10 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Base / Gray 1, stroke #979797 0px
+    - TEXT "Text", 26x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "Nav / Nav Link", 78x28.27px, horizontal pad 20 20 20 20px gap 0px align min/center sizing W:fixed H:fixed, constraints scale/scale, stroke #979797 0px
+    - TEXT "Text", 38x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "Navbar", 606x60px, constraints left/top, fill Base / Gray 1
+    - INSTANCE "Brand", 75x60px, constraints left/top
+      - VECTOR "Default Image Icon", 48x36px, constraints center/center, fill #C2C2C2
+    - FRAME "Nav Menu", 244x60px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Nav / Nav Link", 78x60px, horizontal pad 20 20 20 20px gap 0px align min/center sizing W:fixed H:fixed, constraints right/top, stroke #979797 0px
+        - TEXT "Text", 38x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+      - INSTANCE "Nav / Nav Link", 77x60px, horizontal pad 20 20 20 20px gap 0px align min/center sizing W:fixed H:fixed, constraints right/top, stroke #979797 0px
+        - TEXT "Text", 37x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+      - INSTANCE "Nav / Nav Link", 89x60px, horizontal pad 20 20 20 20px gap 0px align min/center sizing W:fixed H:fixed, constraints right/top, stroke #979797 0px
+        - TEXT "Text", 49x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "Logo", 54x38px, constraints left/top
+    - VECTOR "Default Image Icon", 48x36px, constraints center/center, fill #C2C2C2
+  - COMPONENT "Dropdown / Menu Hidden", 120x60px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Dropdown Toggle", 120x60px, horizontal pad 20 20 20 20px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text Block", 64x20px, constraints scale/top, fill Base / Gray, text [Base / Checkbox Radio Label]
+      - VECTOR "Icon", 8x4px, constraints right/top, stroke black/100% 2px
+  - COMPONENT "Dropdown / Menu Visible", 120x180px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Dropdown / Menu Hidden", 120x180px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale
+      - FRAME "Dropdown Toggle", 120x60px, horizontal pad 20 20 20 20px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text Block", 64x20px, constraints scale/top, fill Base / Gray, text [Base / Checkbox Radio Label]
+        - VECTOR "Icon", 8x4px, constraints right/top, stroke black/100% 2px
+      - FRAME "Dropdown List", 120x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Dropdown / Link", 120x40px, vertical pad 10 20 10 20px gap 10px sizing W:fixed H:fixed, constraints scale/scale, fill Base / Gray 1, stroke #979797 0px
+          - TEXT "Text", 38x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+        - INSTANCE "Dropdown / Link", 120x40px, vertical pad 10 20 10 20px gap 10px sizing W:fixed H:fixed, constraints scale/scale, fill Base / Gray 1, stroke #979797 0px
+          - TEXT "Text", 38x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+        - INSTANCE "Dropdown / Link", 120x40px, vertical pad 10 20 10 20px gap 10px sizing W:fixed H:fixed, constraints scale/scale, fill Base / Gray 1, stroke #979797 0px
+          - TEXT "Text", 38x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "Background Video", 606x290px, constraints left/top, fill #2E2E2E
+    - VECTOR "Icon", 194.87x93.7px, constraints scale/scale, fill #000000
+  - FRAME "Slider", 606x255px, constraints left/top, fill Base / Gray 1
+    - FRAME "Slide Nav", 585x40px, constraints center/bottom
+      - FRAME "Slide Dot Layout", 36x14px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+        - INSTANCE "Slide Dot / Active", 14x14px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Slide Dot / Active", 14x14px, constraints scale/scale, fill Base / White
+        - INSTANCE "Slide Dot / Inactive", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Slide Dot / Active", 14x14px, constraints scale/scale, fill #FFFFFF
+            - ELLIPSE "Slide Dot / Active", 14x14px, constraints scale/scale, fill Base / White, opacity 40%
+    - FRAME "Right Arrow", 80x255px, constraints right/center
+      - VECTOR "Icon", 16x33px, constraints right/top, stroke Base / White 4px
+    - FRAME "Left Arrow", 80x255px, constraints left/center
+      - VECTOR "Icon", 16x33px, constraints right/top, stroke Base / White 4px
+  - COMPONENT "Slide Dot / Active", 14x14px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Slide Dot / Active", 14x14px, constraints scale/scale, fill Base / White
+  - COMPONENT "Slide Dot / Inactive", 14x14px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Slide Dot / Active", 14x14px, constraints scale/scale, fill #FFFFFF
+      - ELLIPSE "Slide Dot / Active", 14x14px, constraints scale/scale, fill Base / White, opacity 40%
+  - COMPONENT_SET "Tab", 231x70px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "State=Active", 83x38px, horizontal pad 9 30 9 30px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Base / Gray 2, stroke #979797 0px
+      - TEXT "Tab Title 1", 23x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - COMPONENT "State=Inactive", 83x38px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "Tab", 83x38px, horizontal pad 9 30 9 30px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill Base / Gray 1, stroke #979797 0px
+        - TEXT "Tab Title 1", 23x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+
+Screen: Elements & Layouts / 06 - Forms
+- FRAME "06 - Forms", 1440x1239px, constraints left/top, fill #FFFFFF
+  - TEXT "Page Title", 117x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+  - LINE "Line 1", 1200x0px, constraints left/top, stroke Base/ Blue 4px
+  - TEXT "Field Label", 74x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+  - COMPONENT "Text Field", 271x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+    - TEXT "Placeholder Text", 251x20px, constraints left/scale, fill Base / Gray 3, text [Base / Field Placeholder]
+  - COMPONENT "Select Field", 270x38px, constraints left/top, fill #F3F3F3, stroke Base / Gray 2 1px
+    - TEXT "Text", 232.53x20px, constraints scale/top, fill Base / Gray, text [Base / Checkbox Radio Label]
+    - VECTOR "Arrow", 8x4px, constraints right/top, stroke black/100% 2px
+  - COMPONENT "Textarea", 270x63px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+    - TEXT "Placeholder Text", 250x20px, constraints left/top, fill Base / Gray 3, text [Base / Field Placeholder]
+    - VECTOR "Expand", 6.5x6.5px, constraints right/bottom, stroke #666666 1px
+  - COMPONENT "Form Block", 400x186px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Name", 39x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+    - INSTANCE "Text Field", 400x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+    - TEXT "Email Address", 97x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+    - INSTANCE "Text Field", 400x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+    - INSTANCE "Button / Default", 74x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+      - TEXT "Submit", 44x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "Button / Default", 71x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+    - TEXT "Button", 41x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT_SET "Checkbox", 238x52px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Selected=False", 90x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - GROUP "Checkbox", 13x13px, constraints left/top, radius 2px
+        - RECTANGLE "Checkbox", 13x13px, constraints scale/scale, radius 2px, fill #0074FA, stroke #0000008A 1px
+      - TEXT "Field Label", 69x20px, constraints scale/scale, fill Base / Gray, text [Base / Checkbox Radio Label]
+    - COMPONENT "Selected=True", 90x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "Checkbox", 90x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - GROUP "Checkbox", 13x13px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Checkbox", 13x13px, constraints scale/scale, radius 2px, fill #1479FB, stroke #0000008A 1px
+          - VECTOR "Check", 7.8x6.64px, constraints scale/scale, stroke Base / White 2px
+        - TEXT "Field Label", 69x20px, constraints scale/scale, fill Base / Gray, text [Base / Checkbox Radio Label]
+  - COMPONENT_SET "Radio", 238x52px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Selected=False", 90x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - GROUP "Radio", 13x13px, constraints left/top, radius 2px
+        - ELLIPSE "Outline", 13x13px, constraints left/top, stroke #0000008A 1px
+      - TEXT "Field Label", 69x20px, constraints scale/scale, fill Base / Gray, text [Base / Checkbox Radio Label]
+    - COMPONENT "Selected=True", 90x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "Radio", 90x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - GROUP "Radio", 13x13px, constraints left/top, radius 2px
+          - ELLIPSE "Outline", 13x13px, constraints left/top, stroke #1479FB 1px
+          - ELLIPSE "Solid", 7x7px, constraints left/top, fill #1479FB
+        - TEXT "Field Label", 69x20px, constraints scale/scale, fill Base / Gray, text [Base / Checkbox Radio Label]
+  - COMPONENT_SET "reCAPTCHA", 657x108px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Checked=False", 302x76px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Background", 302x76px, constraints scale/scale, fill Base / White, stroke #ABABAB 1px
+      - RECTANGLE "Checkbox", 26x26px, constraints left/top, fill Base / White, stroke #ABABAB 1px
+      - TEXT "I’m not a robot", 90x20px, constraints left/top, fill #000000, text [Base / Paragraph]
+      - GROUP "reCAPTCHA", 78x57px, constraints left/top
+        - TEXT "reCAPTCHA", 78x20px, constraints right/top, fill #4D4D4D, text [Arial ArialMT, 14px]
+        - GROUP "Logo", 32.08x32.08px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+    - COMPONENT "Checked=True", 302x76px, constraints left/top, fill #FFFFFF
+      - INSTANCE "reCAPTCHA", 302x76px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Background", 302x76px, constraints scale/scale, fill Base / White, stroke #ABABAB 1px
+        - VECTOR "Check", 32x21.5px, constraints left/top, stroke #649E41 3px
+        - TEXT "I’m not a robot", 90x20px, constraints left/top, fill #000000, text [Base / Paragraph]
+        - GROUP "reCAPTCHA", 78x57px, constraints left/top
+          - TEXT "reCAPTCHA", 78x20px, constraints right/top, fill #4D4D4D, text [Arial ArialMT, 14px]
+          - GROUP "Logo", 32.08x32.08px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - COMPONENT_SET "Upload field", 675.41x171px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Property 1=Upload, Error=False", 270x38px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Upload Button", 132x38px, horizontal pad 9 16 9 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F3F3F3, stroke Base / Gray 2 1px
+        - VECTOR "Vector", 21x14px, constraints scale/scale, fill #000000
+        - TEXT "Text", 71x20px, constraints scale/top, fill Base / Gray, text [Base / Checkbox Radio Label]
+      - TEXT "Help text", 122x20px, constraints scale/scale, fill Base / Gray, text [Base / Checkbox Radio Label]
+    - COMPONENT "Property 1=Uploading, Error=False", 134x38px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Upload Button", 134x38px, horizontal pad 9 16 9 16px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #F3F3F3, stroke Base / Gray 2 1px
+        - GROUP "Icon", 19x19px, constraints left/top
+          - ELLIPSE "Ellipse 1", 19x19px, constraints left/top, stroke Base / Gray 2 2px
+          - VECTOR "Ellipse 2", 10x9px, constraints left/top, stroke #000000 2px
+        - TEXT "Text", 75x20px, constraints scale/top, fill Base / Gray, text [Base / Checkbox Radio Label]
+    - COMPONENT "Property 1=Uploaded, Error=False", 175.41x38px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Upload Button", 175.41x38px, horizontal pad 9 16 9 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F3F3F3, stroke Base / Gray 2 1px
+        - TEXT "Text", 116x20px, constraints scale/top, fill Base / Gray, text [Base / Checkbox Radio Label]
+        - VECTOR "Icon", 11.41x11.41px, constraints scale/scale, fill #000000
+    - COMPONENT "Property 1=Upload, Error=True", 270x66px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "Upload field", 270x38px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Upload Button", 132x38px, horizontal pad 9 16 9 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F3F3F3, stroke Base / Gray 2 1px
+          - VECTOR "Vector", 21x14px, constraints scale/scale, fill #000000
+          - TEXT "Text", 71x20px, constraints scale/top, fill Base / Gray, text [Base / Checkbox Radio Label]
+        - TEXT "Help text", 122x20px, constraints scale/scale, fill Base / Gray, text [Base / Checkbox Radio Label]
+      - TEXT "Error text", 253x20px, constraints scale/scale, fill Base / Error, text [Base / Checkbox Radio Label]
+
+Screen: Elements & Layouts / 05 - Ecommerce
+- FRAME "05 - Ecommerce", 1440x1127px, constraints left/top, fill #FFFFFF
+  - TEXT "Page Title", 216x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+  - LINE "Line 1", 1200x0px, constraints left/top, stroke Base/ Blue 4px
+  - COMPONENT "Button / Cart", 109x38px, horizontal pad 9 15 9 15px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+    - VECTOR "Icon", 17x17px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Text Block", 27x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+    - FRAME "Cart Quantity", 19x20px, horizontal pad 0 6 0 6px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill Base / White
+      - TEXT "Number", 7x20px, constraints scale/scale, fill Base/ Blue, text [Arial ArialMT, 11px]
+  - COMPONENT "Button / Rounded", 222x38px, vertical pad 9 15 9 15px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Base/ Blue
+    - TEXT "Text Block", 75x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "Button / Apple Pay", 222.72x38px, vertical pad 9 87 9 87px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill Base / Gray
+    - VECTOR "Vector", 48.72x20px, constraints scale/scale, fill Base / White
+  - COMPONENT "Button / Pay with browser", 222x38px, constraints left/top, radius 3px, fill Base / Gray
+    - FRAME "Icons & Text", 155.46x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+      - GROUP "Icon", 15.46x16px, constraints scale/scale [decorative, ~6 shapes]
+      - GROUP "Square Icon", 14x14px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "Text Block", 110x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "Form / PayPal", 338x162px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Button / PayPal / Default", 338x55px, constraints left/top, radius 4px, fill #FFC439
+      - FRAME "Icons & Text", 117.61x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center [decorative, ~9 shapes]
+    - INSTANCE "Button / PayPal / Card", 338x55px, constraints left/top, radius 4px, fill #2C2E2F
+      - FRAME "Icons & Text", 202.5x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+        - VECTOR "Icon", 22.5x17.5px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Text Block", 172x20px, constraints scale/scale, fill Base / White, text [Arial BoldMT, 18px]
+    - GROUP "Power by", 121.84x20px, constraints left/top
+      - GROUP "Logo", 60.17x16px, constraints left/top [decorative, ~6 shapes]
+      - TEXT "Powered by", 59x20px, constraints left/top, fill Base / Gray, text [Arial ItalicMT, 11px]
+  - COMPONENT "Button / PayPal / Card", 352x55px, constraints left/top, radius 4px, fill #2C2E2F
+    - FRAME "Icons & Text", 202.5x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+      - VECTOR "Icon", 22.5x17.5px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Text Block", 172x20px, constraints scale/scale, fill Base / White, text [Arial BoldMT, 18px]
+  - COMPONENT "Button / PayPal / Default", 352x55px, constraints left/top, radius 4px, fill #FFC439
+    - FRAME "Icons & Text", 117.61x24px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center [decorative, ~9 shapes]
+  - COMPONENT "Add to Cart  / Default", 101x158px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Quantity", 57x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+    - INSTANCE "Text Field", 74x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+      - TEXT "1", 251x20px, constraints left/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "Button / Default", 101x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+      - TEXT "Add to Cart", 71x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+    - INSTANCE "Button / Default", 87x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+      - TEXT "Buy Now", 57x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "Add to Cart  / Error", 376x350px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Quantity", 57x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+    - INSTANCE "Text Field", 74x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+      - TEXT "1", 251x20px, constraints left/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "Button / Default", 101x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+      - TEXT "Add to Cart", 71x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+    - INSTANCE "Button / Default", 87x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+      - TEXT "Buy Now", 57x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+    - FRAME "Message / Quantity not available", 191x40px, vertical pad 10 10 10 10px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Base / Error Background
+      - TEXT "This product is out of stock.", 171x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+    - FRAME "Message / Add to cart error", 373x40px, vertical pad 10 10 10 10px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Base / Error Background
+      - TEXT "Something went wrong when adding this item to the cart.", 353x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+    - FRAME "Message / Buy now error", 376x40px, vertical pad 10 10 10 10px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Base / Error Background
+      - TEXT "Something went wrong when trying to purchase this item.", 356x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+    - FRAME "Message / Checkout disabled", 225x40px, vertical pad 10 10 10 10px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Base / Error Background
+      - TEXT "Checkout is disabled on this site.", 205x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "Add to Cart  / Out of Stock", 191x40px, vertical pad 10 10 10 10px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Base / Gray 1
+    - TEXT "This product is out of stock.", 171x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+
+Screen: Elements & Layouts / 04 - Typography
+- FRAME "04 - Typography", 1440x1776px, constraints left/top, fill #FFFFFF
+  - TEXT "Page Title", 215x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+  - LINE "Line 1", 1200x0px, constraints left/top, stroke Base/ Blue 4px
+  - TEXT "Text Link", 56x20px, constraints left/top, fill Base / Browser Blue, text [Arial ArialMT, 14px]
+  - TEXT "Paragraph Text Bold", 136x20px, constraints left/top, fill #000000, text [Base / Paragraph Bold]
+  - TEXT "Paragraph Text", 95x20px, constraints left/top, fill #000000, text [Base / Paragraph]
+  - TEXT "Paragraph Text", 96x20px, constraints left/top, fill #000000, text [Base / Paragraph Italic]
+  - TEXT "Field Label", 74x20px, constraints left/top, fill Base / Gray, text [Base / Field Label]
+  - TEXT "Heading 1", 182x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+  - TEXT "Heading 2", 154x36px, constraints left/top, fill #000000, text [Heading 2], [heading]
+  - COMPONENT "Rich Text", 579x344px, constraints left/top, fill #FFFFFF
+    - TEXT "The rich text element allows you to create and format headin", 579x60px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - TEXT "A rich text element can be used with static or dynamic conte", 579x60px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - TEXT "Headings, paragraphs, blockquotes, figures, images, and figu", 579x60px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - TEXT "What’s a Rich Text element?", 579x36px, constraints scale/scale, fill #000000, text [Heading 2], [heading]
+    - TEXT "Static and dynamic content editing", 579x24px, constraints scale/scale, fill #000000, text [Heading 4], [heading]
+    - TEXT "How to customize formatting for each rich text", 579x24px, constraints scale/scale, fill #000000, text [Heading 4], [heading]
+  - TEXT "Heading 3", 115x30px, constraints left/top, fill #000000, text [Heading 3], [heading]
+  - TEXT "Heading 4", 87x24px, constraints left/top, fill #000000, text [Heading 4], [heading]
+  - TEXT "Heading 5", 67x20px, constraints left/top, fill #000000, text [Heading 5], [heading]
+  - TEXT "Heading 6", 58x18px, constraints left/top, fill #000000, text [Heading 6], [heading]
+  - COMPONENT "Block Quote", 884x40px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Line", 4x40px, constraints scale/scale, fill #C4C4C4
+    - FRAME "Frame 1", 880x40px, horizontal pad 9 20 9 20px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Block Quote", 840x22px, constraints scale/scale, fill Base / Gray, text [Arial ArialMT, 18px]
+  - COMPONENT "List Item / Ordered", 404x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Number", 28x20px, constraints scale/scale, fill #1E3650, text [Base / Paragraph]
+    - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "List Item / Unordered", 404x20px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Left Spacer", 8x16px, constraints scale/scale, fill #C4C4C400
+    - ELLIPSE "Bullet", 4x4px, constraints scale/scale, fill #4B5A6A
+    - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "List / Unordered", 351x116px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "List Item / Unordered", 404x20px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Left Spacer", 8x16px, constraints scale/scale, fill #C4C4C400
+      - ELLIPSE "Bullet", 4x4px, constraints scale/scale, fill #4B5A6A
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "List Item / Unordered", 404x20px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Left Spacer", 8x16px, constraints scale/scale, fill #C4C4C400
+      - ELLIPSE "Bullet", 4x4px, constraints scale/scale, fill #4B5A6A
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "List Item / Unordered", 404x20px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Left Spacer", 8x16px, constraints scale/scale, fill #C4C4C400
+      - ELLIPSE "Bullet", 4x4px, constraints scale/scale, fill #4B5A6A
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "List Item / Unordered", 404x20px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Left Spacer", 8x16px, constraints scale/scale, fill #C4C4C400
+      - ELLIPSE "Bullet", 4x4px, constraints scale/scale, fill #4B5A6A
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "List Item / Unordered", 404x20px, horizontal pad 0 0 0 0px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Left Spacer", 8x16px, constraints scale/scale, fill #C4C4C400
+      - ELLIPSE "Bullet", 4x4px, constraints scale/scale, fill #4B5A6A
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+  - COMPONENT "List / Ordered", 351x116px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "List Item / Ordered", 404x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Number", 28x20px, constraints scale/scale, fill #1E3650, text [Base / Paragraph]
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "List Item / Ordered", 404x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Number", 28x20px, constraints scale/scale, fill #1E3650, text [Base / Paragraph]
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "List Item / Ordered", 404x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Number", 28x20px, constraints scale/scale, fill #1E3650, text [Base / Paragraph]
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "List Item / Ordered", 404x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Number", 28x20px, constraints scale/scale, fill #1E3650, text [Base / Paragraph]
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+    - INSTANCE "List Item / Ordered", 404x20px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Number", 28x20px, constraints scale/scale, fill #1E3650, text [Base / Paragraph]
+      - TEXT "Text", 366x20px, constraints scale/scale, fill Base / Gray, text [Base / Paragraph]
+
+Screen: Elements & Layouts / 08 - Misc. Pages
+- FRAME "08 - Misc. Pages", 1440x1829px, constraints left/top, fill #FFFFFF
+  - TEXT "Page Title", 208x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+  - LINE "Line 1", 1200x0px, constraints left/top, stroke Base/ Blue 4px
+  - COMPONENT "Search results", 940x464px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Search results", 263x44px, constraints left/top, fill #000000, text [Heading 1], [heading]
+    - INSTANCE "Text Field", 940x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+      - TEXT "Search...", 251x20px, constraints left/scale, fill Base / Gray 3, text [Base / Field Placeholder]
+    - INSTANCE "Button / Default", 75x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+      - TEXT "Search", 45x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+    - INSTANCE "Search result", 940x88px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Title link", 940x20px, constraints left/top, fill Base / Browser Blue, text [Arial ArialMT, 14px]
+      - TEXT "URL", 940x20px, constraints left/top, fill #000000, text [Base / Paragraph]
+      - TEXT "Exerpt", 940x40px, constraints left/top, fill #000000, text [Base / Paragraph]
+    - INSTANCE "Search result", 940x88px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Title link", 940x20px, constraints left/top, fill Base / Browser Blue, text [Arial ArialMT, 14px]
+      - TEXT "URL", 940x20px, constraints left/top, fill #000000, text [Base / Paragraph]
+      - TEXT "Exerpt", 940x40px, constraints left/top, fill #000000, text [Base / Paragraph]
+    - INSTANCE "Search result", 940x88px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Title link", 940x20px, constraints left/top, fill Base / Browser Blue, text [Arial ArialMT, 14px]
+      - TEXT "URL", 940x20px, constraints left/top, fill #000000, text [Base / Paragraph]
+      - TEXT "Exerpt", 940x40px, constraints left/top, fill #000000, text [Base / Paragraph]
+  - COMPONENT "Search result", 940x88px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Title link", 940x20px, constraints left/top, fill Base / Browser Blue, text [Arial ArialMT, 14px]
+    - TEXT "URL", 940x20px, constraints left/top, fill #000000, text [Base / Paragraph]
+    - TEXT "Exerpt", 940x40px, constraints left/top, fill #000000, text [Base / Paragraph]
+  - COMPONENT "Error Page", 1098x388px, vertical pad 80 79 80 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x228px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Lock", 48x68px, constraints scale/scale, fill #333333
+      - TEXT "Section Title", 940x36px, constraints left/top, fill Base / Gray, text [Heading 2], [heading]
+      - INSTANCE "Text Field", 271x38px, constraints left/top, fill Base / White, stroke Base / Gray 2 1px
+        - TEXT "Enter your passwrod", 251x20px, constraints left/scale, fill Base / Gray 3, text [Base / Field Placeholder]
+      - INSTANCE "Button / Default", 74x38px, horizontal pad 9 15 9 15px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/ Blue
+        - TEXT "Submit", 44x20px, constraints scale/scale, fill Base / White, text [Arial ArialMT, 14px]
+  - COMPONENT "404 Page", 1098x307px, vertical pad 80 79 80 79px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Container", 940x147px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "404 icon", 47x59px, constraints scale/scale, fill #333333
+      - TEXT "Section Title", 940x36px, constraints left/top, fill Base / Gray, text [Heading 2], [heading]
+      - TEXT "Paragraph", 940x20px, constraints left/top, fill Base / Gray, text [Base / Paragraph]
+
+Screen: 📔 Cover / Cover
+- FRAME "Cover", 1440x900px, constraints left/top, fill State Blue
+  - FRAME "logo-webflow_white", 216.59x55.45px, constraints left/top, fill #FFFFFF
+    - VECTOR "logo-webflow_white", 216.59x54.73px, constraints scale/scale, fill White
+  - RECTANGLE "Group 1", 2291.93x1577.04px, constraints left/top, fill image(hash: c81636c10cee33d84689c361dc29838a8ccd9a57), opacity 40%
+  - TEXT "h1 large heading", 847x130px, constraints left/top, fill White, text [Arial BoldMT, 138.44px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

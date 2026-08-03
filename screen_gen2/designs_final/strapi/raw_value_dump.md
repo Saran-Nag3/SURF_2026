@@ -1,0 +1,1928 @@
+---
+name: strapi-ui-kit-community
+source_file: Strapi - UI Kit 🧩 (Community)
+source_page: All pages (4): --- UI Kit ---, 🎨 Design tokens, 🧱 Components, 🖼 Pages
+generated_at: 2026-07-25T09:33:05.684810+00:00
+---
+
+# Strapi - UI Kit 🧩 (Community) Design Guidelines
+
+## Source
+- Figma file: Strapi - UI Kit 🧩 (Community)
+- Figma page: All pages (4): --- UI Kit ---, 🎨 Design tokens, 🧱 Components, 🖼 Pages
+- Extracted at: 2026-07-25T09:33:05.684810+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Light mode/Neutral150: [#FFFFFF]
+- Light mode/Alternative500: [#AC73E6]
+- Light mode/Neutral0: [#FFFFFF]
+- Light mode/Alternative100: [#F6ECFC]
+- Light mode/Neutral600: [#666687]
+- Light mode/Neutral800: [#32324D]
+- Light mode/Neutral500: [#8E8EA9]
+- Light mode/Primary700: [#271FE0]
+- Light mode/Primary600: [#4945FF]
+- Light mode/Neutral200: [#FFFFFF]
+- Light mode/Neutral100: [#F6F6F9]
+- Neutral800: [#32324D]
+- Primary600: [#4945FF]
+- Neutral0: [#FFFFFF]
+- Neutral500: [#8E8EA9]
+- Neutral150: [#FFFFFF]
+- Neutral600: [#666687]
+- Primary100: [#F0F0FF]
+- Light mode/Neutral900: [#212134]
+- Carbon 900: [#212134]
+- FFF white: [#FFFFFF]
+- Neutral 800: [#32324D]
+- Light mode/Neutral200: none
+- Light mode/Warning500: [#F29D41]
+- Light mode/Primary100: [#F0F0FF]
+- Light mode/Primary200: [#F0F0FF]
+- green / 500: [#328048]
+- blue/100: [#DAD9FF]
+- blue/500: [#4945FF]
+- blue / 400: [#7673FF]
+- Dark mode/Neutral100: [#181826]
+- Dark mode/Primary600: [#7B79FF]
+- Dark mode/Neutral0: [#212134]
+- Dark mode/Neutral500: [#C0C0CF]
+- Dark mode/Neutral150: [#212134]
+- Dark mode/Neutral600: [#A5A5BA]
+- Dark mode/Neutral200: [#212134]
+- Dark mode/Neutral800: [#FFFFFF]
+- Light mode/Secondary500: [#66B7F1]
+- Light mode/Secondary100: [#EAF5FF]
+- Light mode/Neutral0.light: [#FFFFFF]
+- Light mode/Neutral300.light: [#FFFFFF]
+- Light mode/Neutral600.light: [#666687]
+- Light mode/Neutral100.light: [#F6F6F9]
+- Light mode/Neutral500.light: [#8E8EA9]
+- Light mode/Neutral700.light: [#4A4A6A]
+- Light mode/Neutral150.light: [#FFFFFF]
+- Light mode/Neutral700: [#4A4A6A]
+- Light mode/Neutral300: [#FFFFFF]
+- Neutral100: [#F6F6F9]
+- Light mode/Danger600: [#D02B20]
+- Light mode/Success600: [#328048]
+- Neutral700: [#4A4A6A]
+- Light mode/Alternative600: [#9736E8]
+- Light mode/Warning600: [#D9822F]
+- Light mode/Warning100: [#FDF4DC]
+- Dark mode/Danger600: [#EE5E52]
+- Dark mode/Success600: [#5CB176]
+- Dark mode/Neutral900: [#FFFFFF]
+- Dark mode/Neutral700: [#EAEAEF]
+- Dark mode/Alternative600: [#AC73E6]
+- Dark mode/Alternative100: [#181826]
+- Dark mode/Secondary500: [#66B7F1]
+- Dark mode/Secondary100: [#181826]
+- Dark mode/Warning600: [#F29D41]
+- Dark mode/Warning100: [#181826]
+- Dark mode/Primary100: [#181826]
+- Primary200: [#FFFFFF]
+- Primary700: [#271FE0]
+- Light mode/Danger100: [#FCECEA]
+- Light mode/Danger200: [#FCECEA]
+- Light mode/Warning200: [#FDF4DC]
+- Light mode/Secondary600: [#0C75AF]
+- Light mode/Secondary200: [#EAF5FF]
+- Light mode/Success100: [#EAFBE7]
+- Light mode/Success200: [#EAFBE7]
+- Success600: [#328048]
+- Danger600: [#D02B20]
+- Neutral200: [#DCDCE4]
+- Light mode/Neutral900.light: [#212134]
+- Light mode/Danger500: [#EE5E52]
+- Light mode/Success500: [#5CB176]
+- Neutral400: [#A5A5BA]
+- Neutral300: [#FFFFFF]
+- Neutral900: [#212134]
+- Carbon 500: [#8E8EA9]
+- Carbon 0: [#FFFFFF]
+- Dark mode/Danger100: [#181826]
+- Dark mode/Danger200: [#181826]
+- Dark mode/Primary200: [#181826]
+- Dark mode/Secondary200: [#181826]
+- Light mode/Secondary700: [#006096]
+- Dark mode/Secondary600: [#66B7F1]
+- Dark mode/Primary700: [#7B79FF]
+- Light mode/Success700: [#2F6846]
+- Light mode/Primary500: none
+- Light mode/Neutral400: [#A5A5BA]
+- Light mode/Alternative200: [#F6ECFC]
+- Light mode/Alternative700: [#8312D1]
+- Light mode/Danger700: [#B72B1A]
+- Light mode/Warning700: [#BE5D01]
+- Dark mode/ButtonPrimary500: [#7B79FF]
+- Dark mode/ButtonPrimary600: [#4945FF]
+- Dark mode/ButtonNeutral0: [#FFFFFF]
+- Dark mode/Neutral300: [#666687]
+- Dark mode/Neutral400: [#A5A5BA]
+- Dark mode/Primary500: [#4945FF]
+- Dark mode/Success100: [#181826]
+- Dark mode/Success200: [#4A4A6A]
+- Dark mode/Danger500: [#EE5E52]
+- Dark mode/Success500: [#5CB176]
+- Dark mode/Danger700: [#EE5E52]
+- Dark mode/Success700: [#C6F0C2]
+- Dark mode/Warning200: [#4A4A6A]
+- Dark mode/Warning500: [#F29D41]
+- Dark mode/Alternative200: [#4A4A6A]
+- Dark mode/Alternative500: [#AC73E6]
+- Dark mode/Alternative700: [#E0C1F4]
+- Dark mode/Secondary700: [#B8E1FF]
+- Dark mode/Warning700: [#FAE7B9]
+- Dark mode/Neutral1000: [#FFFFFF]
+- Light mode/ButtonPrimary600: [#4945FF]
+- Light mode/ButtonPrimary500: [#7B79FF]
+- Light mode/ButtonNeutral0: [#FFFFFF]
+- Light mode/Neutral1000: [#181826]
+
+## Raw Colors (unstyled)
+- #E6E6E6: 6400 uses
+- #FFFFFF: 310 uses
+- #8E8EA9: 180 uses
+- #B3B5B9: 104 uses
+- #979797: 90 uses
+- #D8D8D8: 90 uses
+- #22075E: 76 uses
+- #212134: 62 uses
+- #000000: 60 uses
+- #449AFF: 60 uses
+- #7B79FF: 54 uses
+- #1A2532: 49 uses
+- #C4C4C4: 42 uses
+
+## Typography Tokens
+- Omega (Regular) - Body: SF Pro Text Regular (400), 14px / 20px, tracking 0px
+- Pi - Small text: SF Pro Text Regular (400), 12px / 16px, tracking 0px
+- Pi (Bold) - Small button text: SF Pro Text Bold (700), 12px / 16px, tracking 0px
+- Sigma - Table Label: SF Pro Text Bold (700), 11px / 16px, tracking 0px
+- H1 - Alpha (α): SF Pro Display Bold (700), 32px / 40px, tracking 0px
+- Subtitle - Epsilon (ε): SF Pro Text Regular (400), 16px / 24px, tracking 0px
+- Omega (Bold) - Button text: SF Pro Text Bold (700), 14px / 16px, tracking 0px
+- Small button text - Pi (π): SF Pro Text Bold (700), 12px / 16px, tracking 0px
+- Omega (Semibold) - Body Highlight: SF Pro Text Semibold (600), 14px / 20px, tracking 0px
+- H2 - Beta (ß): SF Pro Display Bold (700), 18px / 22px, tracking 0px
+- Delta - H3: SF Pro Display Medium (500), 16px / 20px, tracking 0px
+- Button text - Omega (Ω): SF Pro Text Bold (700), 14px / 16px, tracking 0px
+- Alpha - H1: SF Pro Display Bold (700), 32px / 40px, tracking 0px
+- Epsilon - Subtitle: SF Pro Text Regular (400), 16px / 24px, tracking 0px
+- Body - Omega (Ω): SF Pro Text Regular (400), 14px / 20px, tracking 0px
+- Table Label - Sigma (Σ, σ): SF Pro Text Bold (700), 11px / 16px, tracking 0px
+- Small text - Pi (π): SF Pro Text Regular (400), 12px / 16px, tracking 0px
+- Beta - H2: SF Pro Display Bold (600), 18px / 22px, tracking 0px
+- Small text: SF Pro Text Regular (400), 12px / 16px, tracking 0px
+- Body Highlight - Omega (Ω): SF Pro Text Semibold (600), 14px / 20px, tracking 0px
+
+## Raw Typography (unstyled)
+- SF Pro Text Regular, 15.1px: 51 uses
+- SF Pro Text Regular, 6.92px: 43 uses
+- SF Pro Text Bold, 6.92px: 41 uses
+- SF Pro Text Bold, 10px: 36 uses
+- SF Pro Text Bold, 20px: 34 uses
+- SF Pro Display Medium, 16px: 30 uses
+- SF Pro Text Regular, 14px: 23 uses
+- SF Pro Text Regular, 8.94px: 20 uses
+- SF Pro Text Regular, 12px: 16 uses
+- SF Pro Text Bold, 11px: 15 uses
+- SF Pro Text Bold, 15.05px: 15 uses
+- SF Pro Text Regular, 10.43px: 14 uses
+- SF Pro Text Bold, 12px: 10 uses
+- Lato Bold, 10px: 9 uses
+- Material Icons Regular, 19px: 9 uses
+- SF Pro Text Regular, 7.67px: 9 uses
+- SF Pro Text Bold, 200px: 8 uses
+- SF Pro Text Bold, 6.34px: 7 uses
+- Lato Bold, 60px: 6 uses
+- SF Pro Text Regular, 17.61px: 6 uses
+- SF Pro Text Bold, 15.1px: 5 uses
+
+## Typography Hierarchy
+- 200px - SF Pro Text Bold, 200px (raw)
+- 60px - Lato Bold, 60px (raw)
+- 32px - Alpha - H1 (SF Pro Display Bold)
+- 32px - H1 - Alpha (α) (SF Pro Display Bold)
+- 20px - SF Pro Text Bold, 20px (raw)
+- 19px - Material Icons Regular, 19px (raw)
+- 18px - Beta - H2 (SF Pro Display Bold)
+- 18px - H2 - Beta (ß) (SF Pro Display Bold)
+- 17.61px - SF Pro Text Regular, 17.61px (raw)
+- 16px - Delta - H3 (SF Pro Display Medium)
+- 16px - Epsilon - Subtitle (SF Pro Text Regular)
+- 16px - SF Pro Display Medium, 16px (raw)
+- 16px - Subtitle - Epsilon (ε) (SF Pro Text Regular)
+- 15.1px - SF Pro Text Bold, 15.1px (raw)
+- 15.1px - SF Pro Text Regular, 15.1px (raw)
+- 15.05px - SF Pro Text Bold, 15.05px (raw)
+- 14px - Body - Omega (Ω) (SF Pro Text Regular)
+- 14px - Body Highlight - Omega (Ω) (SF Pro Text Semibold)
+- 14px - Button text - Omega (Ω) (SF Pro Text Bold)
+- 14px - Omega (Bold) - Button text (SF Pro Text Bold)
+- 14px - Omega (Regular) - Body (SF Pro Text Regular)
+- 14px - Omega (Semibold) - Body Highlight (SF Pro Text Semibold)
+- 14px - SF Pro Text Regular, 14px (raw)
+- 12px - Pi (Bold) - Small button text (SF Pro Text Bold)
+- 12px - Pi - Small text (SF Pro Text Regular)
+- 12px - SF Pro Text Bold, 12px (raw)
+- 12px - SF Pro Text Regular, 12px (raw)
+- 12px - Small button text - Pi (π) (SF Pro Text Bold)
+- 12px - Small text (SF Pro Text Regular)
+- 12px - Small text - Pi (π) (SF Pro Text Regular)
+- 11px - SF Pro Text Bold, 11px (raw)
+- 11px - Sigma - Table Label (SF Pro Text Bold)
+- 11px - Table Label - Sigma (Σ, σ) (SF Pro Text Bold)
+- 10.43px - SF Pro Text Regular, 10.43px (raw)
+- 10px - Lato Bold, 10px (raw)
+- 10px - SF Pro Text Bold, 10px (raw)
+- 8.94px - SF Pro Text Regular, 8.94px (raw)
+- 7.67px - SF Pro Text Regular, 7.67px (raw)
+- 6.92px - SF Pro Text Bold, 6.92px (raw)
+- 6.92px - SF Pro Text Regular, 6.92px (raw)
+- 6.34px - SF Pro Text Bold, 6.34px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Light mode/Table shadow: [drop_shadow 4px offset 0 1 #2121341A]
+- Light mode/Filter shadow: [drop_shadow 4px offset 0 1 #2121341A]
+- Table shadow: [drop_shadow 4px offset 0 1 #2121341A]
+- Light mode/Popup Shadow: [drop_shadow 15px offset 0 2 #2121341A]
+- Popup Shadow: [drop_shadow 15px offset 0 2 #2121341A]
+- Filter shadow: [drop_shadow 4px offset 0 1 #2121341A]
+- Light mode/focus: [inner_shadow 0px offset 2 0 #271FE0, inner_shadow 0px offset 0 2 #271FE0, inner_shadow 0px offset -2 0 #271FE0, inner_shadow 0px offset 0 -2 #271FE0]
+- dribbble shadow: [drop_shadow 42px offset 0 4 #7A78B61A]
+
+## Grid Styles
+- grid/8px (default): grid 8px
+
+## Component Families
+- Google
+- BitBucket
+- GitLab
+- CTBFields
+- Link
+- Landscape
+- Files
+- Gift
+- EmptyData
+- Question
+- Collapse
+- Grid
+- Command
+- IndentDecrease
+- IndentIncrease
+- Loader
+- Alien
+- Gate
+- Archive
+- Attachment
+- Briefcase
+- Brush
+- ChartBubble
+- Car
+- Cast
+- Cloud
+- Monitor
+- Cup
+- Cursor
+- Dashboard
+- Database
+- Discuss
+- ChartCircle
+- QuoteClosed
+- Move
+- EmotionHappy
+- EmotionUnhappy
+- Equalizer
+- Folder
+- Book
+- HandHeart
+- Hashtag
+- Headphone
+- Heart
+- House
+- Lightbulb
+- Magic
+- PinMap
+- Message
+- Microphone
+- Moon
+- Music
+- Bell
+- PaintBrush
+- Paint
+- Phone
+- ChartPie
+- Plane
+- PriceTag
+- Pin
+- Rotate
+- Restaurant
+- Rocket
+- Scissors
+- Seed
+- PaperPlane
+- Server
+- Slideshow
+- Stack
+- Star
+- Doctor
+- Store
+- Train
+- Sun
+- Shirt
+- ThumbDown
+- ThumbUp
+- Television
+- CloudUpload
+- Crown
+- VolumeMute
+- VolumeUp
+- Walk
+- Wheelchair
+- Strapi
+- ChevronUp
+- ChevronDown
+- Envelop
+- EmptyPermissions
+- EmptyDocuments
+- EmptyPictures
+- Globe
+- Key
+- dots
+- More
+- Expand
+- Quote
+- Picture
+- Code
+- NumberList
+- BulletList
+- StrikeThrough
+- Underline
+- Bold
+- Italic
+- ManyToMany
+- ManyWays
+- ManyToOne
+- OneToMany
+- OneToOne
+- OneWay
+- Dot
+- GraphQL
+- Lock
+- ArrowUp
+- ArrowDown
+- Spinner
+- PicturePlus
+- EyeStriked
+- Clock
+- Refresh
+- Pencil
+- Plus
+- CrossCircle
+- PlusCircle
+- Drag
+- Calendar
+- MinusOutlined
+- Eye
+- MenuBurger
+- Exit
+- Duplicate
+- Cog
+- Crop
+- Cross
+- ArrowLeft
+- ArrowRight
+- Play
+- Check
+- Download
+- Upload
+- Layer
+- Information
+- ShoppingCart
+- Puzzle
+- Shield
+- Layout
+- Write
+- Minus
+- CheckCircle
+- ExclamationMarkCircle
+- Facebook
+- Discourse
+- Twitter
+- Reddit
+- Discord
+- Medium
+- Github
+- GlassesSquare
+- FeatherSquare
+- PlaySquare
+- CodeSquare
+- InformationSquare
+- ExternalLink
+- Mail
+- User
+- Connector
+- Typhoon
+- Feather
+- Apps
+- Search
+- ONHOLDCarretDown
+- Filter
+- ChevronLeft
+- Earth
+- EarthStriked
+- Trash
+- ChevronRight
+- Component 10
+- Plugins.settings.line
+- Accordion
+- PopOver
+- ProgressBar
+- status - dot
+- Status
+- Avatar
+- Menu
+- Tag
+- Badge
+- Toggle
+- Switch
+- TimePicker
+- DatePicker
+- Header
+- Input
+- Button
+- EmptyState
+- Tabs
+- Pagination
+- Breadcrumb
+- card
+- Card
+- SearchBar
+- Sidebar
+- Alert
+- Table
+- Modal
+- DialogModal
+- Bulk Select
+- Radio
+- Checkbox
+- _row
+- Divider
+- DateTime.Picker
+- SubNavigation
+- MainNavigation
+- Field
+- pages
+- SideBar
+- Overlay
+- bottom popup
+- Content
+- PopUp.Header
+
+## Component Specs
+- Google: size 24x24px, fill #FFFFFF | variants: style: color/white
+- BitBucket: size 24x24px, fill #FFFFFF | variants: style: color/white
+- GitLab: size 24x24px | variants: style: colors/white
+- CTBFields: size 32x24px, text [Pi (Bold) - Small button text] | variants: type: Boolean/CollectionType/Component/Date/DynamicZone/Email/Enumeration/JSON/Media/Number/Password/Relation/RichText/SingleType/Text/UID
+- Link: size 24x24px | variants: Property 1: Link/Link_small
+- Landscape: size 24x24px | variants: Property 1: Landscape/Landscape_small
+- Files: size 24x32px | variants: type: File/FileError/FilePDF
+- Gift: size 24x24px
+- EmptyData: size 216x120px
+- Question: size 24x24px, fill #FFFFFF
+- Collapse: size 21.91x21.91px
+- Grid: size 24x24px
+- Command: size 24x24px, fill #FFFFFF
+- IndentDecrease: size 24x24px, fill #FFFFFF
+- IndentIncrease: size 24x24px, fill #FFFFFF
+- Loader: size 24x24px
+- Alien: size 24x24px
+- Gate: size 24x24px
+- Archive: size 24x24px
+- Attachment: size 24x24px
+- Briefcase: size 24x24px
+- Brush: size 24x24px
+- ChartBubble: size 24x24px
+- Car: size 24x24px
+- Cast: size 24x24px
+- Cloud: size 24x24px
+- Monitor: size 24x24px
+- Cup: size 24x24px
+- Cursor: size 24x24px
+- Dashboard: size 24x24px
+- Database: size 24x24px
+- Discuss: size 24x24px
+- ChartCircle: size 24x24px
+- QuoteClosed: size 24x24px
+- Move: size 24x24px
+- EmotionHappy: size 24x24px
+- EmotionUnhappy: size 24x24px
+- Equalizer: size 24x24px
+- Folder: size 24x24px
+- Book: size 24x24px
+- HandHeart: size 24x24px
+- Hashtag: size 24x24px
+- Headphone: size 24x24px
+- Heart: size 24x24px
+- House: size 24x24px
+- Lightbulb: size 24x24px
+- Magic: size 24x24px
+- PinMap: size 24x24px
+- Message: size 24x24px
+- Microphone: size 24x24px
+- Moon: size 24x24px
+- Music: size 24x24px
+- Bell: size 24x24px
+- PaintBrush: size 24x24px
+- Paint: size 24x24px
+- Phone: size 24x24px
+- ChartPie: size 24x24px
+- Plane: size 24x24px
+- PriceTag: size 24x24px
+- Pin: size 24x24px
+- Rotate: size 24x24px
+- Restaurant: size 24x24px
+- Rocket: size 24x24px
+- Scissors: size 24x24px
+- Seed: size 24x24px
+- PaperPlane: size 24x24px
+- Server: size 24x24px
+- Slideshow: size 24x24px
+- Stack: size 24x24px
+- Star: size 24x24px
+- Doctor: size 24x24px
+- Store: size 24x24px
+- Train: size 24x24px
+- Sun: size 24x24px
+- Shirt: size 24x24px
+- ThumbDown: size 24x24px
+- ThumbUp: size 24x24px
+- Television: size 24x24px
+- CloudUpload: size 24x24px
+- Crown: size 24x24px
+- VolumeMute: size 24x24px
+- VolumeUp: size 24x24px
+- Walk: size 24x24px
+- Wheelchair: size 24x24px
+- Strapi: size 24x24px
+- ChevronUp: size 17x10px, fill #FFFFFF
+- ChevronDown: size 17x10px, fill #FFFFFF
+- Envelop: size 24x24px, fill #FFFFFF
+- EmptyPermissions: size 192x120px, fill #FFFFFF
+- EmptyDocuments: size 216x120px, fill #FFFFFF
+- EmptyPictures: size 216x120px, fill #FFFFFF
+- Globe: size 24x24px, fill #FFFFFF
+- Key: size 24x24px, fill #FFFFFF
+- dots: size 24x24px
+- More: size 24x24px
+- Expand: size 22x22px
+- Quote: size 24x24px, fill #FFFFFF
+- Picture: size 24x24px, fill #FFFFFF
+- Code: size 24x24px
+- NumberList: size 24x24px, fill #FFFFFF
+- BulletList: size 24x24px
+- StrikeThrough: size 24x24px, fill #FFFFFF
+- Underline: size 24x24px
+- Bold: size 24x24px, fill #FFFFFF
+- Italic: size 24x24px, fill #FFFFFF
+- ManyToMany: size 24x24px, fill #FFFFFF
+- ManyWays: size 24x24px, fill #FFFFFF
+- ManyToOne: size 24x24px, fill #FFFFFF
+- OneToMany: size 24x24px, fill #FFFFFF
+- OneToOne: size 24x24px, fill #FFFFFF
+- OneWay: size 24x24px, fill #FFFFFF
+- Dot: size 4x4px
+- GraphQL: size 24x24px, fill #FFFFFF
+- Lock: size 24x24px, fill #FFFFFF
+- ArrowUp: size 24x24px, fill #FFFFFF
+- ArrowDown: size 24x24px, fill #FFFFFF
+- Spinner: size 40x40px, fill #FFFFFF
+- PicturePlus: size 23.95x19.8px
+- EyeStriked: size 24x24px, fill #FFFFFF
+- Clock: size 24x24px
+- Refresh: size 24x24px
+- Pencil: size 24x24px
+- Plus: size 24x24px, fill #FFFFFF
+- CrossCircle: size 24x24px
+- PlusCircle: size 24x24px
+- Drag: size 24x24px
+- Calendar: size 24x24px, fill #FFFFFF
+- MinusOutlined: size 24x24px, fill #FFFFFF
+- Eye: size 24x24px
+- MenuBurger: size 24x24px, fill #FFFFFF
+- Exit: size 24x24px
+- Duplicate: size 24x24px
+- Cog: size 24x24px
+- Crop: size 24x24px
+- Cross: size 24x24px
+- ArrowLeft: size 24x24px
+- ArrowRight: size 24x24px
+- Play: size 24x24px
+- Check: size 24x24px
+- Download: size 24x24px
+- Upload: size 24x24px
+- Layer: size 24x24px
+- Information: size 24x24px
+- ShoppingCart: size 24x24px, fill #FFFFFF
+- Puzzle: size 24x24px, fill #FFFFFF
+- Shield: size 24x24px, fill #FFFFFF
+- Layout: size 24x24px
+- Write: size 24x24px, fill #FFFFFF
+- Minus: size 24x24px
+- CheckCircle: size 24x24px
+- ExclamationMarkCircle: size 24x24px
+- Facebook: size 24x24px, fill #FFFFFF
+- Discourse: size 24x24px, fill #FFFFFF
+- Twitter: size 24x24px, fill #FFFFFF
+- Reddit: size 24x24px, fill #FFFFFF
+- Discord: size 24x24px, fill #FFFFFF
+- Medium: size 24x24px, fill #FFFFFF
+- Github: size 24x24px, fill #FFFFFF
+- GlassesSquare: size 32x32px, radius 4px, fill Light mode/Alternative500
+- FeatherSquare: size 32x32px, radius 4px, fill Light mode/Alternative600
+- PlaySquare: size 32x32px, radius 4px, fill Light mode/Secondary500
+- CodeSquare: size 32x32px, radius 4px, fill Light mode/Warning600
+- InformationSquare: size 32x32px, radius 4px, fill Light mode/Primary600
+- ExternalLink: size 24x24px, fill #FFFFFF
+- Mail: size 24x24px
+- User: size 24x24px
+- Connector: size 24x24px
+- Typhoon: size 24x24px
+- Feather: size 24x24px
+- Apps: size 24x24px
+- Search: size 24x24px
+- ONHOLDCarretDown: size 24x24px
+- Filter: size 24x24px, fill #FFFFFF
+- ChevronLeft: size 9.88x16px, fill #FFFFFF
+- Earth: size 20x20px
+- EarthStriked: size 21x21px, fill #FFFFFF
+- Trash: size 24x24px
+- ChevronRight: size 9.88x16px, fill #FFFFFF
+- Component 10: size 16x16px, fill #FFFFFF, text [Lato Bold, 10px]
+- Plugins.settings.line: size 974x88px, fill #FFFFFF, text [Omega (Regular) - Body, Delta - H3] | variants: state: Active/Collapsed; style: A/A/B/B
+- Accordion / Icon: size 24x24px | variants: state: collapse/collapse_hover/expand/expand_hover
+- Accordion: size 633x68px, fill #FFFFFF, text [Pi - Small text, Pi (Bold) - Small button text, Omega (Semibold) - Body Highlight] | variants: Property 1: Default Head/Default middle/Disable Head/Disable Middle/Selected Head/Selected Head - Icon/Selected Middle/Solo - Icon/Table - active/Table - grey/Table - white
+- PopOver: size 251x80px, radius 4px, vertical layout, padding 4 4 4 4px, gap 0px, align center/center, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral150 0.5px, effect Light mode/Table shadow, text [Omega (Regular) - Body] | variants: items: 2/3/4/5/6/7; type: Default/Loading/Scroll
+- PopOver / Row: size 242x36px, horizontal layout, padding 8 16 8 16px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [Omega (Regular) - Body] | variants: type: Checkbox/Checkbox (2nd level)/Checkbox + Collapsed/Checkbox + Expanded/Danger + Icon/Default/Icon/Status; state: Active/Default/Hover
+- ProgressBar: size 78x4px, fill #FFFFFF | variants: Size: Large/Small; Cancel: No/Yes
+- status - dot: size 16x16px | variants: status: Draft/Neutral/Published/Updating
+- Status / Simple: size 85x28px, radius 4px, horizontal layout, padding 4 8 4 8px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Light mode/Success100, stroke Light mode/Success200 1px, text [Omega (Semibold) - Body Highlight] | variants: status: Blue - Draft/Green - Published/updated
+- Status: size 228x52px, radius 4px, horizontal layout, padding 16 16 16 16px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Light mode/Success100, stroke Light mode/Success200 1px, text [Omega (Regular) - Body] | variants: status: Blue - Draft/Green - Published/Neutral status/Purple - Updated
+- Avatar: size 40x40px, radius 4px, fill Light mode/Neutral0 | variants: Property 1: Picture/Placeholder
+- Menu: size 71x16px, horizontal layout, padding 0 0 0 0px, gap 4px, align center/center, sizing W:fixed H:fixed, text [Omega (Bold) - Button text] | variants: State: Default/Open; Size: M/S
+- Tag: size 112x32px, radius 4px, horizontal layout, padding 8 12 8 12px, gap 8px, align center/center, sizing W:fixed H:fixed, fill Light mode/Primary100, stroke Light mode/Primary200 1px, text [Pi (Bold) - Small button text] | variants: State: Default/Hover
+- Badge: size 34x16px, radius 2px, horizontal layout, padding 0 2 0 2px, gap 0px, align center/center, sizing W:fixed H:fixed, fill Light mode/Neutral150, stroke #979797 0px, text [Sigma - Table Label] | variants: Property 1: Active/Default; Size: M/S
+- Toggle: size 128x40px, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px, text [Pi (Bold) - Small button text] | variants: Property 1: Disable/False/True
+- Toggle / Complex: size 128x80px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Pi (Bold) - Small button text] | variants: State: False/Null/True
+- Toggle / Simple: size 128x80px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Pi (Bold) - Small button text] | variants: State: Disabled/False/Null/True
+- Switch / Complex: size 107x24px, fill #FFFFFF, text [Pi - Small text] | variants: State: False/True
+- Switch / Simple: size 40x24px | variants: State: False/True
+- TimePicker: size 142x77px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Pi - Small text, Omega (Regular) - Body, Pi (Bold) - Small button text] | variants: Property 1: Completed/Disabled/Empty/Error/Selected
+- DatePicker: size 268x77px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Pi - Small text, Omega (Regular) - Body, Pi (Bold) - Small button text] | variants: Property 1: Completed/Completing/Disabled/Empty/Error/Selected
+- Header / Sticky: size 983x64px, fill Light mode/Neutral0, text [Omega (Bold) - Button text, Small text - Pi (π), H2 - Beta (ß)] | variants: Property 1: sticky; Property 2: first level/second level
+- Header: size 984x136px, fill Light mode/Neutral100, text [Pi (Bold) - Small button text, H1 - Alpha (α), Subtitle - Epsilon (ε), Omega (Bold) - Button text] | variants: Property 1: breadcrumbs/default; Property 2: 1st level/1st level (2 buttons)/2nd level
+- Input / JSON field: size 633x273px, fill #FFFFFF, text [SF Pro Text Regular, 10px, Pi (Bold) - Small button text] | variants: Property 1: Default/Error
+- Input / NumberInput: size 243x80px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Omega (Regular) - Body, Pi (Bold) - Small button text] | variants: Property 1: Disable/Variant2/Variant4/Variant5/number
+- Input / Select / Tags: size 243x80px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Pi (Bold) - Small button text] | variants: state: Completing/Default (completed)/Disable/Empty/Error/Open
+- Input / Select / Complex: size 243x80px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Omega (Regular) - Body, Pi (Bold) - Small button text] | variants: state: Completed with erase/Default (completed)/Disable/Draft/Publish/Draft/Publish disable/Empty/Error/Open
+- Input / Select / Simple: size 243x80px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Omega (Regular) - Body, Pi (Bold) - Small button text] | variants: state: Disabled/Empty/Error/Focus/default (completed)
+- Input / TextArea: size 243x120px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Omega (Regular) - Body, Pi (Bold) - Small button text] | variants: state: Completed/Disable/Empty/Error/Selected
+- Input / TextInput / Complex: size 270x77px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Omega (Regular) - Body, Pi (Bold) - Small button text] | variants: state: Completed/Completing/Disabled/Empty/Error/NoPermissions/Password/Prefix/Selected
+- Input / TextInput / Simple: size 243x80px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Omega (Regular) - Body, Pi (Bold) - Small button text] | variants: state: active/default/disabled/empty/error
+- Button / Cog: size 40x32px, radius 4px, horizontal layout, padding 10 14 10 14px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral150 1px | variants: Property 1: Default/Hover
+- Button / IconButton: size 32x32px, radius 4px, horizontal layout, padding 10 10 10 10px, gap 8px, align center/center, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px | variants: state: active/default/disabled/focus/hover/load
+- Button / Content: size 70x16px, horizontal layout, padding 0 0 0 0px, gap 8px, align center/center, sizing W:fixed H:fixed, text [Omega (Bold) - Button text] | variants: content: all/icon/icon text/text/text icon
+- Button / Link: size 40x16px, radius 4px, horizontal layout, padding 0 8 0 8px, gap 8px, align center/center, sizing W:fixed H:fixed, text [Pi - Small text] | variants: state: active/default/disabled/focus/hover/load; size: L/S
+- Button / Danger: size 58x32px, radius 4px, horizontal layout, padding 8 16 8 16px, gap 8px, align center/center, sizing W:fixed H:fixed, fill Light mode/Danger600, text [Pi (Bold) - Small button text] | variants: type: dark/light; state: active/default/disabled/focus/hover/load; size: L/M/S
+- Button / Success: size 58x32px, radius 4px, horizontal layout, padding 8 16 8 16px, gap 8px, align center/center, sizing W:fixed H:fixed, fill Light mode/Success600, text [Pi (Bold) - Small button text] | variants: type: dark/light; state: active/default/disabled/focus/hover/load; size: L/M/S
+- Button / Tertiary: size 62x36px, radius 4px, horizontal layout, padding 10 16 10 16px, gap 8px, align center/center, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px, text [Omega (Bold) - Button text] | variants: size: L/M/S; state: active/default/disabled/focus/hover/load
+- Button / Secondary: size 62x36px, radius 4px, horizontal layout, padding 10 16 10 16px, gap 8px, align center/center, sizing W:fixed H:fixed, fill Light mode/Primary100, stroke Light mode/Primary200 1px, text [Omega (Bold) - Button text] | variants: size: L/M/S; state: active/default/disabled/focus/hover/load
+- Button / Primary: size 62x36px, radius 4px, horizontal layout, padding 10 16 10 16px, gap 8px, align center/center, sizing W:fixed H:fixed, fill Light mode/Primary600, text [Omega (Bold) - Button text] | variants: size: L/M/S; state: active/default/disabled/focus/hover/load
+- EmptyState: size 256x184px, text [Delta - H3, Omega (Bold) - Button text] | variants: Property 1: Data illustration/Doc illustration/Image illustration/Permission illustration
+- Tabs / Modal: size 62x48px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Sigma - Table Label] | variants: State: Default/Select/disabled; Error: No/Yes; Badge: No/Yes
+- Tabs / Single: size 256x54px, fill Light mode/Neutral100, text [Omega (Bold) - Button text] | variants: State: Active/Default
+- Pagination / EntriesPerPage: size 162.21x32px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Pi - Small text, Pi (Bold) - Small button text] | variants: state: Default/Disabled/Hover/Open
+- Pagination / BaseLabel: size 160x32px, fill #FFFFFF, text [Pi - Small text] | variants: case: Start
+- Pagination / Complex: size 81x32px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Pi - Small text] | variants: orientation: Next/Previous; state: Default/Disabled/Hover
+- Pagination / BaseNumber: size 32x32px, vertical layout, padding 8 8 8 8px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Pi - Small text] | variants: state: Active/Default/Hover
+- Pagination / BaseArrow: size 32x32px, fill #FFFFFF | variants: state: Default/Disabled/Hover
+- Pagination / Simple: size 236x32px, horizontal layout, padding 0 0 0 0px, gap 2px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Pi - Small text, Pi (Bold) - Small button text] | variants: case: End/Single page/Start
+- Breadcrumb: size 115x16px, horizontal layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, text [Pi (Bold) - Small button text, SF Pro Text Regular, 12px, Pi - Small text] | variants: type: 2 crumbs/3 crumbs/4+ crumbs
+- card: size 200x199px, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px | variants: style: default/shadow
+- Card / Small: size 179x139px, text [Pi - Small text, Pi (Bold) - Small button text, Sigma - Table Label] | variants: Property 1: Default/Downloading/Error/Hover
+- Card: size 303x235px, text [Sigma - Table Label, Pi - Small text, Omega (Semibold) - Body Highlight] | variants: Property 1: Default/Error/Hover/PDF
+- SearchBar: size 241x32px, fill #FFFFFF, text [Pi - Small text] | variants: state: Collapsed/Completed/Disable/Focus/Open
+- Sidebar / InformationBox: size 275x176px, radius 4px, vertical layout, padding 16 16 16 16px, gap 16px, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral150 1px, effect Light mode/Table shadow, text [Pi - Small text, Pi (Bold) - Small button text, Sigma - Table Label] | variants: Type: Default (no features)/RW + i18n/i18n
+- Alert: size 497x60px, radius 4px, fill Light mode/Primary100, stroke Light mode/Primary200 1px, effect Light mode/Popup Shadow, text [Omega (Regular) - Body] | variants: Type: Alert.info.withTitle/Danger/Information/Success/Warning; Size: Large/Small; Link: No/Yes
+- Table / List: size 1024x540px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, effect Light mode/Table shadow, text [Omega (Semibold) - Body Highlight, Omega (Regular) - Body, Sigma - Table Label] | variants: Property 1: Content Manager/Delete (CM)
+- Table / Row: size 1024x48px, fill Light mode/Neutral0, text [Omega (Semibold) - Body Highlight, Omega (Regular) - Body] | variants: Location: Content Manager/Content-Type Builder/Settings - Internationalization; Details: Hover/No/with Internationalization
+- Table / Header: size 1024x56px, radius 4/4/0/0px, fill Light mode/Neutral0, text [Sigma - Table Label] | variants: Location: Content Manager/Content-Type Builder/Settings - Internationalization; Details: Delete/No/with Internationalization
+- Modal / SubHeader: size 800x72px, fill Light mode/Neutral0, text [Sigma - Table Label, Beta - H2] | variants: Location: Content-Types Builder/Media Library; Type: SubHeader/Tabs (Advanced Settings)/Tabs (Basic Settings)/Tabs (From Computer)/Tabs + Button; State: 1 Error/2 Errors/Browse/Default/Selected
+- Modal / Footer: size 832x68px, radius 0/0/4/4px, fill Light mode/Neutral100, text [Omega (Bold) - Button text] | variants: type: 1 button/2 buttons
+- Modal / Header: size 829x64px, radius 4/4/0/0px, fill Light mode/Neutral100, text [Omega (Bold) - Button text] | variants: type: Backbutton+breadcrumb/Breadcrumb/Content-Type Builder/Title Simple/Title+Backbutton
+- DialogModal: size 412x270px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, effect Light mode/Popup Shadow, text [Omega (Bold) - Button text, Omega (Regular) - Body, Beta - H2] | variants: Property 1: Info/Success/Warning
+- Bulk Select: size 36x32px, radius 4px, horizontal layout, padding 6 8 6 8px, gap 10px, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px | variants: state: Default/Disabled/select
+- Radio / Label: size 57x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Omega (Regular) - Body] | variants: state: default/select
+- Checkbox / Label: size 57x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Omega (Regular) - Body] | variants: state: checked/default/hover
+- Radio / Box: size 329x88px, radius 4px, horizontal layout, padding 24 24 24 24px, gap 16px, align min/center, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px, text [Pi - Small text, Omega (Bold) - Button text] | variants: state: default/select
+- Checkbox / Simple: size 20x20px, fill #FFFFFF | variants: state: Intermediate/Intermediate & disabled/empty/empty & disabled/focus/selected/selected & disabled
+- Radio / Simple: size 20x20px, fill #FFFFFF | variants: state: Disabled/Empty/Focus/selected
+- PopOver / BaseSubHeader: size 224x40px, text [Pi - Small text, Pi (Bold) - Small button text]
+- PopOver / Filter: size 208x240px, radius 4px, vertical layout, padding 12 12 12 12px, gap 4px, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral150 0.5px, effect [drop_shadow 4px offset 0 1 #1A1A431A], text [Omega (Bold) - Button text, Omega (Regular) - Body]
+- PopOver / Configure the view: size 224x300px, fill #FFFFFF, text [Pi - Small text, Pi (Bold) - Small button text]
+- PopOver / BaseContainer: size 200x200px, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral150 0.5px, effect Light mode/Table shadow
+- _row / header / col: size 42x16px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Sigma - Table Label]
+- Menu / Badge: size 66x16px, horizontal layout, padding 0 0 0 0px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Omega (Regular) - Body, Sigma - Table Label]
+- Divider: size 200x1px, fill Light mode/Neutral150
+- DateTime.Picker: size 302x77px, horizontal layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Pi - Small text, Omega (Regular) - Body, Pi (Bold) - Small button text]
+- SubNavigation / Settings: size 232x881px, fill Light mode/Neutral100, text [Omega (Regular) - Body, Sigma - Table Label, H2 - Beta (ß)]
+- SubNavigation / Content Manager / Search: size 232x881px, text [Small text - Pi (π), Sigma - Table Label, Omega (Regular) - Body]
+- SubNavigation / Content Manager: size 232x881px, text [Omega (Semibold) - Body Highlight, Sigma - Table Label, Omega (Regular) - Body, H2 - Beta (ß), Small text - Pi (π)]
+- SubNavigation / Content-Type Builder: size 232x881px, fill Light mode/Neutral100, text [Small text - Pi (π), Omega (Regular) - Body, Omega (Semibold) - Body Highlight, Sigma - Table Label, H2 - Beta (ß), Body Highlight - Omega (Ω), Body - Omega (Ω)]
+- MainNavigation / Collapsed: size 86x880px, fill Light mode/Neutral100, text [Small button text - Pi (π)]
+- MainNavigation / Expanded: size 269x881px, fill Light mode/Neutral100, text [Body - Omega (Ω), Table Label - Sigma (Σ, σ), Small text - Pi (π), Button text - Omega (Ω), Body Highlight - Omega (Ω), Small button text - Pi (π)]
+- Field / MediumSize: size 243x40px, radius 4px, horizontal layout, padding 10 12 10 16px, gap 8px, align space_between/center, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px, text [Omega (Regular) - Body]
+- Input / BaseBadge: size 108x40px, radius 4px, horizontal layout, padding 10 16 10 16px, gap 4px, align center/center, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px, text [Omega (Regular) - Body]
+- Input / BaseInput: size 108x40px, radius 4px, horizontal layout, padding 10 16 10 16px, gap 8px, align center/center, sizing W:fixed H:fixed, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px, text [Omega (Regular) - Body]
+- Input / BaseLabel: size 243x16px, text [Pi - Small text, Pi (Bold) - Small button text]
+- Tabs / BaseModalTabs: size 132x48px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Sigma - Table Label]
+- Tabs: size 1025x71px, text [Omega (Bold) - Button text]
+- pages: size 59x30px, radius 4px, horizontal layout, padding 10 12 10 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke Light mode/Neutral150 1px, effect Light mode/Filter shadow, text [Pi (Bold) - Small button text]
+- SideBar / Example: size 227x580px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [Pi (Bold) - Small button text, Pi - Small text, Omega (Regular) - Body, Sigma - Table Label]
+- Table / Footer: size 1025x4px, fill #FFFFFF
+- Overlay: size 1440x881px, fill #FFFFFF
+- bottom popup: size 412x68px, fill Light mode/Neutral0, text [Omega (Bold) - Button text]
+- Content: size 412x132px, vertical layout, padding 40 40 40 40px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Light mode/Neutral0, text [Omega (Regular) - Body]
+- PopUp.Header: size 412x70px, fill Light mode/Neutral0, text [Beta - H2]
+- Checkbox / Label + Description: size 211x40px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [Pi - Small text, Omega (Regular) - Body]
+
+## Most-Used Styles
+- Light mode/Neutral0: 2088 uses
+- Light mode/Neutral600: 1787 uses
+- Light mode/Neutral800: 1480 uses
+- Light mode/Neutral500: 1359 uses
+- Light mode/Neutral100: 977 uses
+- Omega (Regular) - Body: 966 uses
+- Light mode/Neutral200: 645 uses
+- Sigma - Table Label: 632 uses
+- Pi (Bold) - Small button text: 620 uses
+- Pi - Small text: 569 uses
+- Light mode/Primary600: 563 uses
+- Neutral500: 528 uses
+- Light mode/Neutral150: 474 uses
+- Neutral600: 416 uses
+- Light mode/Neutral900: 385 uses
+- Light mode/Neutral300: 330 uses
+- Neutral0: 312 uses
+- Neutral800: 287 uses
+- Omega (Bold) - Button text: 269 uses
+- Primary600: 235 uses
+- Omega (Semibold) - Body Highlight: 188 uses
+- Neutral150: 183 uses
+- Light mode/Primary100: 173 uses
+- Carbon 900: 148 uses
+- Light mode/Neutral700: 138 uses
+- Neutral900: 136 uses
+- Light mode/Primary200: 126 uses
+- Light mode/Danger600: 122 uses
+- Light mode/Primary700: 121 uses
+- Neutral100: 106 uses
+- Light mode/Neutral400: 97 uses
+- Dark mode/Neutral0: 94 uses
+- Dark mode/Neutral500: 81 uses
+- Light mode/Primary500: 72 uses
+- Alpha - H1: 67 uses
+- Small button text - Pi (π): 67 uses
+- Light mode/Success600: 66 uses
+- Light mode/Success200: 64 uses
+- Light mode/Table shadow: 64 uses
+- Dark mode/Neutral600: 61 uses
+- Light mode/Success100: 61 uses
+- Neutral200: 58 uses
+- Body - Omega (Ω): 57 uses
+- Light mode/Success700: 53 uses
+- Dark mode/Neutral800: 51 uses
+- Epsilon - Subtitle: 45 uses
+- Delta - H3: 44 uses
+- FFF white: 43 uses
+- Primary100: 42 uses
+- Table shadow: 42 uses
+- H1 - Alpha (α): 38 uses
+- Light mode/Warning600: 38 uses
+- Body Highlight - Omega (Ω): 34 uses
+- Dark mode/Neutral150: 34 uses
+- Primary200: 34 uses
+- H2 - Beta (ß): 33 uses
+- Small text - Pi (π): 32 uses
+- Beta - H2: 31 uses
+- Dark mode/Primary600: 30 uses
+- Subtitle - Epsilon (ε): 30 uses
+- Light mode/Popup Shadow: 29 uses
+- Light mode/Danger200: 26 uses
+- Dark mode/Neutral100: 25 uses
+- Light mode/Danger100: 25 uses
+- Dark mode/Neutral200: 24 uses
+- Button text - Omega (Ω): 23 uses
+- Light mode/Secondary100: 22 uses
+- Light mode/focus: 22 uses
+- Light mode/Danger700: 21 uses
+- Neutral 800: 18 uses
+- blue/500: 18 uses
+- Neutral700: 17 uses
+- Carbon 0: 16 uses
+- Neutral300: 15 uses
+- Light mode/Filter shadow: 14 uses
+- Light mode/Secondary200: 14 uses
+- Light mode/Danger500: 12 uses
+- Light mode/Secondary600: 12 uses
+- Light mode/Secondary700: 12 uses
+- Light mode/Success500: 12 uses
+- Table Label - Sigma (Σ, σ): 12 uses
+- Light mode/Alternative600: 11 uses
+- Light mode/Secondary500: 11 uses
+- Light mode/Warning100: 11 uses
+- Light mode/Warning500: 11 uses
+- Dark mode/Neutral900: 9 uses
+- Light mode/Alternative100: 9 uses
+- Light mode/Warning200: 9 uses
+- blue / 400: 9 uses
+- blue/100: 9 uses
+- green / 500: 9 uses
+- Carbon 500: 8 uses
+- Light mode/Neutral0.light: 8 uses
+- Light mode/Neutral900.light: 8 uses
+- Dark mode/Primary100: 7 uses
+- Dark mode/Neutral700: 6 uses
+- Light mode/Alternative200: 6 uses
+- Light mode/Neutral150.light: 6 uses
+- Light mode/Neutral300.light: 6 uses
+- Light mode/Neutral600.light: 6 uses
+- Light mode/Warning700: 6 uses
+- Light mode/Alternative500: 5 uses
+- Dark mode/Danger600: 4 uses
+- Dark mode/Primary200: 4 uses
+- Light mode/Alternative700: 4 uses
+- Neutral400: 4 uses
+- Primary700: 4 uses
+- Success600: 4 uses
+- Dark mode/Secondary100: 3 uses
+- Filter shadow: 3 uses
+- dribbble shadow: 3 uses
+- Danger600: 2 uses
+- Dark mode/Alternative100: 2 uses
+- Dark mode/Alternative600: 2 uses
+- Dark mode/Danger100: 2 uses
+- Dark mode/Danger200: 2 uses
+- Dark mode/Primary700: 2 uses
+- Dark mode/Secondary200: 2 uses
+- Dark mode/Secondary500: 2 uses
+- Dark mode/Secondary600: 2 uses
+- Dark mode/Success600: 2 uses
+- Dark mode/Warning100: 2 uses
+- Dark mode/Warning600: 2 uses
+- Dark mode/Alternative200: 1 use
+- Dark mode/Alternative500: 1 use
+- Dark mode/Alternative700: 1 use
+- Dark mode/ButtonNeutral0: 1 use
+- Dark mode/ButtonPrimary500: 1 use
+- Dark mode/ButtonPrimary600: 1 use
+- Dark mode/Danger500: 1 use
+- Dark mode/Danger700: 1 use
+- Dark mode/Neutral1000: 1 use
+- Dark mode/Neutral300: 1 use
+- Dark mode/Neutral400: 1 use
+- Dark mode/Primary500: 1 use
+- Dark mode/Secondary700: 1 use
+- Dark mode/Success100: 1 use
+- Dark mode/Success200: 1 use
+- Dark mode/Success500: 1 use
+- Dark mode/Success700: 1 use
+- Dark mode/Warning200: 1 use
+- Dark mode/Warning500: 1 use
+- Dark mode/Warning700: 1 use
+- Light mode/ButtonNeutral0: 1 use
+- Light mode/ButtonPrimary500: 1 use
+- Light mode/ButtonPrimary600: 1 use
+- Light mode/Neutral1000: 1 use
+- Popup Shadow: 1 use
+- Small text: 1 use
+
+## Layout & Structure
+Screen: --- UI Kit --- / Cover
+- FRAME "Cover", 1649x905px, constraints left/top, fill #FFFFFF
+  - FRAME "Type Scale", 949.79x1623.01px, constraints right/bottom, fill #FFFFFF, effect [drop_shadow 22px offset 0 2 #4A4A6A26], opacity 60%
+    - INSTANCE "Type scale", 372.71x210.25px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 129.42x65.2px, constraints scale/scale, fill Neutral800, text [SF Pro Display Bold, 20.44px]
+    - INSTANCE "Component 2", 372.71x210.25px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 125.93x54.77px, constraints scale/scale, fill Neutral800, text [SF Pro Display Bold, 11.5px]
+    - INSTANCE "Component 3", 372.71x210.25px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 125.29x52.87px, constraints scale/scale, fill Neutral800, text [SF Pro Display Medium, 10.22px]
+      - TEXT "Family : SF Pro Text Weight : Bold Size : 16px Letter spacin", 144.01x108.82px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 7.67px]
+      - TEXT "Header 3", 76.83x36.65px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+    - INSTANCE "Component 10", 372.71x210.25px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 126.24x55.72px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.22px]
+      - TEXT "Family : SF pro text Weight : regular Size : 16px Letter spa", 144.01x108.82px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 7.67px]
+      - TEXT "Subtitle", 76.83x36.65px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+    - INSTANCE "Component 4", 369.87x201.77px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 125.29x52.87px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Family : SF Pro Text Weight : Regular Size : 14px Letter spa", 148.77x123.05px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 7.67px]
+      - TEXT "Body", 76.83x36.65px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+    - TEXT "Base font", 46.86x24.29px, constraints left/top, fill Light mode/Primary600, text [SF Pro Text Bold, 7.03px]
+    - INSTANCE "Component 5", 369.87x201.77px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 125.29x52.87px, constraints scale/scale, fill Neutral800, text [SF Pro Text Semibold, 8.94px]
+      - TEXT "Family : SF Pro Text Weight : Semibold Size : 14px Letter sp", 148.77x123.05px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 7.67px]
+      - TEXT "Body Highlight", 76.83x36.65px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+    - INSTANCE "Component 6", 372.71x210.25px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 124.66x50.97px, constraints scale/scale, fill Neutral800, text [SF Pro Text Bold, 8.94px]
+      - TEXT "Family : SF Pro Text Weight : Bold Size : 14px Letter spacin", 148.77x123.05px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 7.67px]
+      - TEXT "Buttons text", 76.83x36.65px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+    - INSTANCE "Component 7", 372.71x210.25px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 124.66x50.97px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 7.67px]
+      - TEXT "Family : SF Pro Text Weight : regular Size : 12px Letter spa", 148.77x123.05px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 7.67px]
+      - TEXT "Small text", 76.83x36.65px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+    - INSTANCE "Component 8", 372.71x210.25px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 124.66x50.97px, constraints scale/scale, fill Neutral800, text [SF Pro Text Bold, 7.67px]
+      - TEXT "Family : SF Pro Text Weight : Bold Size : 12px Letter spacin", 148.77x123.05px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 7.67px]
+      - TEXT "Small buttons text", 76.83x36.65px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+    - INSTANCE "Component 9", 372.71x210.25px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 124.66x50.97px, constraints scale/scale, fill Neutral800, text [SF Pro Text Bold, 7.03px]
+      - TEXT "Family : SF Pro Text Weight : Bold Style : Uppercase Size : ", 148.77x123.05px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 7.67px]
+      - TEXT "Table label", 76.83x36.65px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+    - INSTANCE "Group 257", 479.1x216.26px, constraints left/top
+      - GROUP "logo", 117.98x50.24px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Strapi Logo", 54.06x28.85px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+        - TEXT "DESIGN SYSTEM", 61.33x27.26px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 6.39px]
+  - FRAME "Colors base", 584.61x606.53px, constraints left/bottom, fill #FFFFFF, effect [drop_shadow 10.76px offset 0 1.43 #4A4A6A26], opacity 70%
+    - INSTANCE "Group 257", 443.11x183.64px, constraints left/top
+  - INSTANCE "Background", 1650x905px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Calendar", 462.26x532.92px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, effect dribbble shadow
+    - INSTANCE "DatePicker.field", 462.26x532.92px, constraints left/top, fill #FFFFFF
+      - INSTANCE "DatePicker.field", 350.48x198.85px, vertical pad 0 0 0 0px gap 12.58px sizing W:fixed H:fixed, constraints scale/scale
+        - FRAME "Frame 741", 350.48x198.85px, vertical pad 0 0 0 0px gap 5.03px sizing W:fill H:fixed, constraints center/center
+          - FRAME "Frame 739", 326.13x126.07px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 734", 110.64x54.71px, horizontal pad 0 0 0 0px gap 7.55px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Details", 168.65x73.38px, constraints right/scale, fill Light mode/Primary700, text [SF Pro Text Regular, 15.1px]
+          - FRAME "Frame 740", 335.71x154.71px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "r", 335.71x154.71px, constraints scale/scale, radius 5.03px, fill Light mode/Neutral0, stroke Light mode/Primary600 1.26px
+            - INSTANCE "Clear.field 🚫Deprecated", 25.48x25.48px, constraints right/top, fill #FFFFFF
+            - TEXT "--/--/--", 73.68x46.55px, constraints left/scale, fill Light mode/Neutral800, text [SF Pro Text Regular, 17.61px]
+            - INSTANCE "Calendar", 25.48x25.48px, constraints left/top, fill #FFFFFF
+          - TEXT "Description line", 324.94x122.5px, constraints center/scale, fill Light mode/Neutral500, text [SF Pro Text Regular, 15.1px]
+      - GROUP "Group 775", 436.71x456.56px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Group 774", 436.71x456.56px, constraints scale/scale, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 1014", 436.71x456.56px, constraints scale/scale, radius 5.03px, fill Light mode/Neutral0
+          - INSTANCE "Rectangle 1015", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Neutral200, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1016", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1017", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1018", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1019", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1020", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1021", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Neutral200, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1022", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1023", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1024", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1025", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1026", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Neutral200, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1027", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Neutral200, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1028", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1029", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, radius 5.03px, fill Light mode/Primary100
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Primary600, text [SF Pro Text Bold, 15.1px]
+          - INSTANCE "Rectangle 1030", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1031", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1032", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Neutral200, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1033", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Neutral200, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1034", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1035", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1036", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1037", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral600, text [SF Pro Text Regular, 15.1px]
+          - INSTANCE "Rectangle 1038", 50.95x50.95px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Rectangle 710", 50.95x50.95px, constraints scale/scale, fill Light mode/Neutral0
+            - TEXT "1", 50.95x50.95px, constraints scale/scale, fill Neutral200, text [SF Pro Text Regular, 15.1px]
+          - ... +27 more children
+  - FRAME "Frame 744", 377.21x357.89px, vertical pad 0 0 0 0px gap 5.03px sizing W:fixed H:fixed, constraints left/top, effect [drop_shadow 45.3px offset 0 4.31 #7A78B61A]
+    - FRAME "Frame 742", 296.31x116.09px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 733", 137.63x63px, horizontal pad 0 0 0 0px gap 7.55px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Dropdown tags", 116.15x55.82px, constraints left/scale, fill Neutral800, text [SF Pro Text Bold, 15.1px]
+        - INSTANCE "Alert.info.icon *deprecated", 19.11x19.11px, constraints left/top
+          - VECTOR "icon", 19.11x19.11px, constraints scale/scale, fill Neutral300
+      - TEXT "Details", 168.65x73.38px, constraints right/scale, fill Light mode/Primary700, text [SF Pro Text Regular, 15.1px]
+    - FRAME "Frame 743", 305.89x144.73px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "r", 305.89x144.73px, constraints scale/scale, radius 5.03px, fill Neutral0, stroke Light mode/Primary600 1.26px
+      - INSTANCE "Filter Dropdown Icon", 25.48x25.48px, constraints right/scale, fill #FFFFFF
+        - INSTANCE "ONHOLDCarretDown", 9.55x7.43px, constraints scale/scale
+          - VECTOR "Filter Dropdown Icon", 5.17x3.14px, constraints scale/scale, fill Light mode/Neutral400
+      - TEXT "Select", 58.09x40.63px, constraints left/scale, fill Neutral300, text [SF Pro Text Regular, 17.61px]
+      - INSTANCE "Tag", 117.03x73.8px, horizontal pad 8 12 8 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/scale, radius 4px, fill Light mode/Primary100, stroke Light mode/Primary200 1px
+        - TEXT "text", 52.18x35.15px, constraints center/center, fill Light mode/Primary600, text [SF Pro Text Bold, 15.1px]
+        - RECTANGLE "divider", 5.19x12.33px, constraints left/top, fill Light mode/Primary200
+        - INSTANCE "icon", 12.74x12.74px, constraints left/top
+          - VECTOR "Cross", 10.62x10.62px, constraints scale/scale, fill Light mode/Primary600
+      - INSTANCE "Tag", 121.77x75.38px, horizontal pad 8 12 8 12px gap 8px align center/center sizing W:fixed H:fixed, constraints left/scale, radius 4px, fill Light mode/Primary100, stroke Light mode/Primary200 1px
+        - TEXT "text", 56.92x36.73px, constraints center/center, fill Light mode/Primary600, text [SF Pro Text Bold, 15.1px]
+        - RECTANGLE "divider", 5.19x12.33px, constraints left/top, fill Light mode/Primary200
+        - INSTANCE "icon", 12.74x12.74px, constraints left/top
+          - VECTOR "Cross", 10.62x10.62px, constraints scale/scale, fill Light mode/Primary600
+      - INSTANCE "Clear.field 🚫Deprecated", 25.48x25.48px, constraints right/scale, fill #FFFFFF
+        - INSTANCE "close.alert.icon 🚫Deprecated", 16.98x16.98px, constraints scale/scale
+          - VECTOR "close.alert.icon", 16.98x16.98px, constraints scale/scale, fill Light mode/Neutral400
+    - INSTANCE "PopOver", 351.66x281.53px, vertical pad 4 4 4 4px gap 0px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral150 0.5px, effect Light mode/Table shadow
+      - INSTANCE "PopOver / Row", 295.01x137.56px, horizontal pad 10.06 20.13 10.06 20.13px gap 0px align min/center sizing W:fill H:fixed, constraints center/scale, fill #FFFFFF
+        - TEXT "text", 250.45x105.69px, constraints left/top, fill Light mode/Neutral800, text [SF Pro Text Regular, 17.61px]
+      - INSTANCE "PopOver / Row", 295.01x137.56px, horizontal pad 10.06 20.13 10.06 20.13px gap 0px sizing W:fill H:fixed, constraints center/scale, radius 5.03px, fill Light mode/Primary100
+        - TEXT "text", 250.45x105.69px, constraints left/top, fill Light mode/Neutral800, text [SF Pro Text Regular, 17.61px]
+      - INSTANCE "PopOver / Row", 295.01x137.56px, horizontal pad 10.06 20.13 10.06 20.13px gap 0px align min/center sizing W:fill H:fixed, constraints center/scale, fill #FFFFFF
+        - TEXT "text", 250.45x105.69px, constraints left/top, fill Light mode/Neutral800, text [SF Pro Text Regular, 17.61px]
+      - INSTANCE "PopOver / Row", 295.01x137.56px, horizontal pad 10.06 20.13 10.06 20.13px gap 0px align min/center sizing W:fill H:fixed, constraints center/scale, fill #FFFFFF
+        - TEXT "text", 250.45x105.69px, constraints left/top, fill Light mode/Neutral800, text [SF Pro Text Regular, 17.61px]
+  - FRAME "Colors base", 834.14x865.42px, constraints left/bottom, fill #FFFFFF, effect dribbble shadow, opacity 70%
+    - TEXT "Neutral", 35.72x19.72px, constraints left/top, fill #666687, text [SF Pro Text Bold, 6.34px]
+    - TEXT "Primary", 34.63x19.35px, constraints left/top, fill #666687, text [SF Pro Text Bold, 6.34px]
+    - TEXT "Warning", 36.27x19.9px, constraints left/top, fill #666687, text [SF Pro Text Bold, 6.34px]
+    - TEXT "SECONDARY", 46.1x23.19px, constraints left/top, fill #666687, text [SF Pro Text Bold, 6.34px]
+    - TEXT "ALTERNATIVE", 50.48x24.65px, constraints left/top, fill #666687, text [SF Pro Text Bold, 6.34px]
+    - TEXT "SUCCESS", 35.72x19.72px, constraints left/top, fill #666687, text [SF Pro Text Bold, 6.34px]
+    - TEXT "DANGER", 31.89x18.44px, constraints left/top, fill #666687, text [SF Pro Text Bold, 6.34px]
+    - INSTANCE "Group 257", 632.25x262.02px, constraints left/top
+      - RECTANGLE "bg", 632.25x262.02px, constraints scale/scale, fill Light mode/Neutral100
+      - TEXT "COLOR SYSTEM", 104.96x46.91px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 11.53px]
+      - GROUP "logo", 106.5x45.34px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Strapi Logo", 48.77x26.03px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+        - TEXT "DESIGN SYSTEM", 55.33x24.41px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 5.76px]
+    - INSTANCE "Color scale", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Neutral900
+      - TEXT "Hello Admin!", 43x22.81px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 29.73x18.37px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 268", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Primary700
+      - TEXT "Hello Admin!", 43.95x23.13px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 30.67x18.69px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 283", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Warning700
+      - TEXT "Hello Admin!", 45.85x23.76px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 32.57x19.32px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 288", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Secondary700
+      - TEXT "Hello Admin!", 53.43x26.3px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 32.57x19.32px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 293", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Alternative700
+      - TEXT "Hello Admin!", 54.38x26.62px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 32.57x19.32px, constraints scale/scale, fill #666687, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 294", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Alternative600
+      - TEXT "Hello Admin!", 55.33x26.93px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 30.67x18.69px, constraints scale/scale, fill #666687, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 295", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Alternative500
+      - TEXT "Hello Admin!", 55.33x26.93px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 32.57x19.32px, constraints scale/scale, fill #666687, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 296", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Alternative200
+      - TEXT "Hello Admin!", 55.33x26.93px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 31.62x19px, constraints scale/scale, fill #666687, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 297", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Alternative100
+      - TEXT "Hello Admin!", 54.38x26.62px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 32.57x19.32px, constraints scale/scale, fill #666687, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 289", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Secondary600
+      - TEXT "Hello Admin!", 54.38x26.62px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 32.57x19.32px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 290", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Secondary500
+      - TEXT "Hello Admin!", 54.38x26.62px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 30.67x18.69px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 291", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Secondary200
+      - TEXT "Hello Admin!", 54.38x26.62px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 30.67x18.69px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 292", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Secondary100
+      - TEXT "Hello Admin!", 53.43x26.3px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 30.67x18.69px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 284", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Warning600
+      - TEXT "Hello Admin!", 45.85x23.76px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 31.62x19px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 285", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Warning500
+      - TEXT "Hello Admin!", 45.85x23.76px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 31.62x19px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 286", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Warning200
+      - TEXT "Hello Admin!", 45.85x23.76px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 31.62x19px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - INSTANCE "Group 287", 96.59x56.59px, constraints left/top
+      - RECTANGLE "Rectangle 446", 36.47x36.47px, constraints scale/scale, radius 2.31px, fill Light mode/Warning100
+      - TEXT "Hello Admin!", 44.9x23.44px, constraints scale/scale, fill Neutral900, text [SF Pro Text Bold, 6.92px]
+      - TEXT "Hello Admin!", 33.52x19.64px, constraints scale/scale, fill Neutral600, text [SF Pro Text Regular, 6.92px]
+    - ... +27 more children
+  - FRAME "Type Scale", 1107.93x1893.25px, constraints right/bottom, fill #FFFFFF, effect dribbble shadow, opacity 60%
+    - INSTANCE "Type scale", 434.77x245.26px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 150.86x75.74px, constraints scale/scale, fill Neutral800, text [SF Pro Display Bold, 23.85px]
+      - TEXT "Family : SF Pro Display Weight : Bold Size : 32px Letter spa", 168x126.95px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "name", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - INSTANCE "Component 2", 434.77x245.26px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 146.74x63.41px, constraints scale/scale, fill Neutral800, text [SF Pro Display Bold, 13.41px]
+      - TEXT "Family : SF Pro Display Weight : Bold Size : 18px Letter spa", 168x126.95px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Header 2", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - INSTANCE "Component 3", 434.77x245.26px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 146.1x61.52px, constraints scale/scale, fill Neutral800, text [SF Pro Display Medium, 11.92px]
+      - TEXT "Family : SF Pro Text Weight : Bold Size : 16px Letter spacin", 168x126.95px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Header 3", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - INSTANCE "Component 10", 434.77x245.26px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 147.05x64.36px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 11.92px]
+      - TEXT "Family : SF pro text Weight : regular Size : 16px Letter spa", 168x126.95px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Subtitle", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - INSTANCE "Component 4", 431.46x235.36px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 146.1x61.52px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+      - TEXT "Family : SF Pro Text Weight : Regular Size : 14px Letter spa", 173.71x144.02px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Body", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - TEXT "Base font", 54.67x28.33px, constraints left/top, fill Light mode/Primary600, text [SF Pro Text Bold, 8.2px]
+    - INSTANCE "Component 5", 431.46x235.36px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 146.1x61.52px, constraints scale/scale, fill Neutral800, text [SF Pro Text Semibold, 10.43px]
+      - TEXT "Family : SF Pro Text Weight : Semibold Size : 14px Letter sp", 173.71x144.02px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Body Highlight", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - INSTANCE "Component 6", 434.77x245.26px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 145.15x58.67px, constraints scale/scale, fill Neutral800, text [SF Pro Text Bold, 10.43px]
+      - TEXT "Family : SF Pro Text Weight : Bold Size : 14px Letter spacin", 173.71x144.02px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Buttons text", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - INSTANCE "Component 7", 434.77x245.26px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 145.15x58.67px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Family : SF Pro Text Weight : regular Size : 12px Letter spa", 173.71x144.02px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Small text", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - INSTANCE "Component 8", 434.77x245.26px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 145.15x58.67px, constraints scale/scale, fill Neutral800, text [SF Pro Text Bold, 8.94px]
+      - TEXT "Family : SF Pro Text Weight : Bold Size : 12px Letter spacin", 173.71x144.02px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Small buttons text", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - INSTANCE "Component 9", 434.77x245.26px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 145.15x58.67px, constraints scale/scale, fill Neutral800, text [SF Pro Text Bold, 8.2px]
+      - TEXT "Family : SF Pro Text Weight : Bold Style : Uppercase Size : ", 173.71x144.02px, constraints scale/top, fill Neutral600, text [SF Pro Text Regular, 8.94px]
+      - TEXT "Table label", 89.56x42.6px, constraints scale/scale, fill Neutral800, text [SF Pro Text Regular, 10.43px]
+    - TEXT "Type scale", 68.1x36.59px, constraints left/top, fill Neutral800, text [SF Pro Display Bold, 13.41px]
+    - TEXT "Aa", 142.67x147.22px, constraints left/top, fill Light mode/Neutral900, text [SF Pro Text Bold, 78.99px], [heading]
+    - TEXT "AaBbCcDdEeFfGgHhIiJj KkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz 012345", 208.35x144.4px, constraints left/top, fill Light mode/Neutral700, text [SF Pro Text Regular, 16.41px]
+    - TEXT "Font family : SF Pro Text SF Pro Display", 147.97x70.85px, constraints left/top, fill Light mode/Neutral700, text [SF Pro Text Regular, 10.43px]
+    - INSTANCE "Group 257", 558.87x252.26px, constraints left/top
+      - RECTANGLE "bg", 558.87x252.26px, constraints scale/scale, fill Light mode/Neutral100
+      - TEXT "title", 107.18x51.02px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 14.9px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: 🎨 Design tokens / Typography
+- FRAME "Typography", 756x1898px, constraints scale/scale, fill Light mode/Neutral0
+  - INSTANCE "Type scale", 562x159px, constraints left/top, fill #FFFFFF
+    - TEXT "sample", 200x40px, constraints scale/scale, fill Light mode/Neutral800, text [Alpha - H1], [heading]
+    - TEXT "Family : SF Pro Display Weight : Bold Size : 32px Letter spa", 200x112px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+    - TEXT "name", 120x40px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+  - GROUP "fonts", 168x104px, constraints left/top
+    - RECTANGLE "Rectangle 497", 168x104px, constraints scale/scale, fill Light mode/Neutral100
+    - TEXT "Apple: Lucida Grande Windows: Segoe UI Linux: Cantarell", 143x60px, constraints scale/top, fill Light mode/Neutral700, text [Omega (Regular) - Body]
+    - TEXT "System Fonts", 94x20px, constraints scale/top, fill Light mode/Neutral700, text [Omega (Semibold) - Body Highlight]
+  - GROUP "weights", 212x115px, constraints left/top, radius 4px
+    - RECTANGLE "Rectangle 498", 212x115px, constraints scale/scale, radius 4px, fill Light mode/Neutral100, stroke Light mode/Neutral150 0.5px
+    - TEXT "Regular: 400 Semi-bold: 500 Bold: 600", 170.59x66.35px, constraints scale/top, fill Light mode/Neutral600, text [Omega (Regular) - Body]
+    - TEXT "Font Weights", 150.72x22.12px, constraints scale/top, fill Light mode/Neutral800, text [Omega (Semibold) - Body Highlight]
+  - INSTANCE "Component 2", 562x159px, constraints left/top, fill #FFFFFF
+    - TEXT "sample", 200x22px, constraints scale/scale, fill Light mode/Neutral800, text [Beta - H2], [heading]
+    - TEXT "Family : SF Pro Display Weight : Bold Size : 18px Letter spa", 200x112px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+    - TEXT "Header 2", 120x40px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+  - INSTANCE "Component 3", 562x159px, constraints left/top, fill #FFFFFF
+    - TEXT "sample", 200x20px, constraints scale/scale, fill Light mode/Neutral800, text [Delta - H3], [heading]
+    - TEXT "Family : SF Pro Text Weight : Bold Size : 16px Letter spacin", 200x112px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+    - TEXT "Header 3", 120x40px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+  - INSTANCE "Component 10", 562x159px, constraints left/top, fill #FFFFFF
+    - TEXT "sample", 200x24px, constraints scale/scale, fill Light mode/Neutral600, text [Epsilon - Subtitle], [heading]
+    - TEXT "Family : SF pro text Weight : regular Size : 16px Letter spa", 200x112px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+    - TEXT "Subtitle", 120x40px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+  - GROUP "Group 336", 562x161px, constraints left/top
+    - INSTANCE "Component 4", 562x161px, constraints left/top, fill #FFFFFF
+      - TEXT "sample", 200x20px, constraints scale/scale, fill Light mode/Neutral800, text [SF Pro Text Regular, 14px]
+      - TEXT "Family : SF Pro Text Weight : Regular Size : 14px Letter spa", 200x112px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+      - TEXT "Body", 120x40px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+    - TEXT "Base font", 64x16px, constraints left/top, fill Light mode/Primary600, text [Sigma - Table Label]
+  - INSTANCE "Component 5", 562x145px, constraints left/top, fill #FFFFFF
+    - TEXT "sample", 200x20px, constraints scale/scale, fill Light mode/Neutral800, text [Omega (Semibold) - Body Highlight]
+    - TEXT "Family : SF Pro Text Weight : Semibold Size : 14px Letter sp", 200x40px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+    - TEXT "Body Highlight", 120x60px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+  - INSTANCE "Component 6", 562x129px, constraints left/top, fill #FFFFFF
+    - TEXT "sample", 200x16px, constraints scale/scale, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+    - TEXT "Family : SF Pro Text Weight : Bold Size : 14px Letter spacin", 200x40px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+    - TEXT "Buttons text", 120x80px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+  - INSTANCE "Component 7", 562x156px, constraints left/top, fill #FFFFFF
+    - TEXT "sample", 200x16px, constraints scale/scale, fill Light mode/Neutral800, text [Pi - Small text]
+    - TEXT "Family : SF Pro Text Weight : regular Size : 12px Letter spa", 200x64px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+    - TEXT "Small text", 120x60px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+  - INSTANCE "Component 8", 562x154px, constraints left/top, fill #FFFFFF
+    - TEXT "sample", 200x16px, constraints scale/scale, fill Light mode/Neutral800, text [Pi (Bold) - Small button text]
+    - TEXT "Family : SF Pro Text Weight : Bold Size : 12px Letter spacin", 200x64px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+    - TEXT "Small buttons text", 120x40px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+  - INSTANCE "Component 9", 562x159px, constraints left/top, fill #FFFFFF
+    - TEXT "sample", 200x16px, constraints scale/scale, fill Light mode/Neutral800, text [Sigma - Table Label]
+    - TEXT "Family : SF Pro Text Weight : Bold Style : Uppercase Size : ", 200x88px, constraints scale/top, fill Neutral600, text [Pi - Small text]
+    - TEXT "Table label", 120x40px, constraints scale/scale, fill Neutral800, text [Omega (Regular) - Body]
+  - INSTANCE "Group 257", 756x104px, constraints left/top
+    - RECTANGLE "bg", 756x104px, constraints scale/scale, fill Light mode/Neutral100
+    - TEXT "title", 144x24px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 20px]
+    - GROUP "logo", 187x20px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Strapi Logo", 82.55x20px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+      - TEXT "DESIGN SYSTEM", 96x12px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 10px]
+  - RECTANGLE "image 40", 386x115px, constraints left/top, fill image(hash: 29a84889345a182795fbd8f6907d77e255b35616)
+
+Screen: 🎨 Design tokens / Grid system
+- FRAME "Grid system", 756x1609px, constraints scale/scale, fill Light mode/Neutral0
+  - TEXT "Baseline", 70x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+  - TEXT "4px baseline", 254x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+  - GROUP "Group 329", 348x297px, constraints left/top, radius 0/0/0/0px
+    - TEXT "The Strapi type stack specifies 14px/0.875rem for the base f", 341x160px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+    - TEXT "This baseline convention naturally flows on to the rest of t", 348x140px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+  - GROUP "Group 335", 572x167px, constraints left/top
+    - GROUP "Group 334", 572x141px, constraints left/top
+      - RECTANGLE "image 8", 572x141px, constraints left/top, fill image(hash: c85c7c48ea534bf6beb58b15dedeada6387f1ccf)
+      - INSTANCE "Component 17", 16x16px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 16x16px, constraints scale/scale, fill Light mode/Primary600
+        - TEXT "3", 6x12px, constraints scale/scale, fill Light mode/Neutral0, text [Lato Bold, 10px]
+      - INSTANCE "Component 18", 16x16px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 16x16px, constraints scale/scale, fill Light mode/Primary600
+        - TEXT "2", 6x12px, constraints scale/scale, fill Light mode/Neutral0, text [Lato Bold, 10px]
+      - INSTANCE "Component 19", 16x16px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 16x16px, constraints scale/scale, fill Light mode/Primary600
+        - TEXT "1", 6x12px, constraints scale/scale, fill Light mode/Neutral0, text [Lato Bold, 10px]
+    - TEXT "Simple navigation", 286x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+  - BOOLEAN_OPERATION "Union", 189x28px, constraints left/top, fill #EA6F6F29, stroke #979797 0px
+  - BOOLEAN_OPERATION "Union", 189x28px, constraints left/top, fill #EA6F6F29, stroke #979797 0px
+  - BOOLEAN_OPERATION "Union", 189x28px, constraints left/top, fill #EA6F6F29, stroke #979797 0px
+  - BOOLEAN_OPERATION "Union", 189x28px, constraints left/top, fill #EA6F6F29, stroke #979797 0px
+  - BOOLEAN_OPERATION "Union", 189x28px, constraints left/top, fill #EA6F6F29, stroke #979797 0px
+  - BOOLEAN_OPERATION "Union", 189x28px, constraints left/top, fill #EA6F6F29, stroke #979797 0px
+  - GROUP "Group 330", 535x176px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Spacing system", 131x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+    - TEXT "Linear: y = x + 8", 254x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+    - TEXT "Best practices 🔸 Use multiples of 8px when defining measurem", 535x102px, constraints left/top, fill Light mode/Neutral800, text [Lato Regular, 12px]
+  - INSTANCE "Upload", 100.09x36px, horizontal pad 10 16 10 16px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Light mode/Primary600
+    - INSTANCE "Upload", 10.09x12px, constraints left/top
+      - BOOLEAN_OPERATION "icon", 8.4x11.89px, constraints scale/scale, fill Light mode/Neutral0
+    - TEXT "Upload assets", 50x16px, constraints scale/center, fill Light mode/Neutral0, text [Omega (Bold) - Button text]
+  - INSTANCE "Configure", 164x32px, horizontal pad 10 16 10 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Light mode/Primary100, stroke Light mode/Primary200 1px
+    - INSTANCE "Layer", 10x10px, constraints left/top
+      - VECTOR "icon", 10x10px, constraints scale/scale, fill Light mode/Primary600, stroke #979797 0px
+    - TEXT "Upload assets", 114x16px, constraints scale/center, fill Light mode/Primary700, text [Pi (Bold) - Small button text]
+  - INSTANCE "Filters.button.base", 85x28px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Light mode/Neutral0, stroke #E7E9ED 0px, effect Light mode/Filter shadow
+    - INSTANCE "Filter", 10x10px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "icon", 10x8.33px, constraints scale/scale, fill Light mode/Neutral800
+    - TEXT "Upload assets", 39x16px, constraints scale/center, fill Light mode/Neutral800, text [Pi (Bold) - Small button text]
+  - INSTANCE "Group 257", 756x104px, constraints left/top
+    - RECTANGLE "bg", 756x104px, constraints scale/scale, fill Light mode/Neutral100
+    - TEXT "GRID SYSTEM", 160x24px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 20px]
+    - GROUP "logo", 187x20px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Strapi Logo", 82.55x20px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+      - TEXT "DESIGN SYSTEM", 96x12px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 10px]
+  - GROUP "Group 331", 536x274px, constraints left/top
+    - TEXT "Responsive Grid", 134x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+    - TEXT "12 columns", 254x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+    - TEXT "A 12 columns responsive grid is applied to the entire interf", 535x84px, constraints left/top, fill Light mode/Neutral800, text [SF Pro Text Regular, 14px]
+    - GROUP "Group 324", 312x75px, constraints left/top
+      - TEXT "Margin : 56px Gutters : 20px Columns : 12", 286x75px, constraints left/top, fill Light mode/Neutral800, text [SF Pro Text Regular, 12px]
+      - COMPONENT "Component 10", 16x16px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 16x16px, constraints scale/scale, fill Light mode/Primary600
+        - TEXT "1", 6x12px, constraints scale/scale, fill Light mode/Neutral0, text [Lato Bold, 10px]
+      - INSTANCE "Component 11", 16x16px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 16x16px, constraints scale/scale, fill Light mode/Primary600
+        - TEXT "2", 6x12px, constraints scale/scale, fill Light mode/Neutral0, text [Lato Bold, 10px]
+      - INSTANCE "Component 13", 16x16px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 16x16px, constraints scale/scale, fill Light mode/Primary600
+        - TEXT "3", 6x12px, constraints scale/scale, fill Light mode/Neutral0, text [Lato Bold, 10px]
+  - GROUP "Group 333", 574x167px, constraints left/top
+    - TEXT "Double navigation", 286x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+    - GROUP "Group 332", 573x141px, constraints left/top
+      - RECTANGLE "image 7", 573x141px, constraints left/top, fill image(hash: c59f5f9561d8030b6457ae3a37fc4e141f0a9781)
+      - INSTANCE "Component 16", 16x16px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 16x16px, constraints scale/scale, fill Light mode/Primary600
+        - TEXT "3", 6x12px, constraints scale/scale, fill Light mode/Neutral0, text [Lato Bold, 10px]
+      - INSTANCE "Component 15", 16x16px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 16x16px, constraints scale/scale, fill Light mode/Primary600
+        - TEXT "2", 6x12px, constraints scale/scale, fill Light mode/Neutral0, text [Lato Bold, 10px]
+      - INSTANCE "Component 14", 16x16px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 29", 16x16px, constraints scale/scale, fill Light mode/Primary600
+        - TEXT "1", 6x12px, constraints scale/scale, fill Light mode/Neutral0, text [Lato Bold, 10px]
+
+Screen: 🎨 Design tokens / Iconography
+- FRAME "Iconography", 756x2542px, constraints scale/scale, fill Light mode/Neutral0
+  - TEXT "Main navigation", 112x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "Sub navigation", 105x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "Action icons", 87x16px, constraints left/top, fill Light mode/Neutral900, text [Omega (Bold) - Button text]
+  - TEXT "Alert icons", 77x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "Relations", 66x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "Fields icons", 84x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "WYSIWYG icons", 114x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "CTB icons", 71x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "File icons", 67x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "Iconography Illustrations", 177x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "Plugins icons", 94x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - TEXT "Global icons", 87x16px, constraints left/top, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+  - INSTANCE "Group 257", 756x104px, constraints left/top
+    - RECTANGLE "bg", 756x104px, constraints scale/scale, fill Light mode/Neutral100
+    - TEXT "ICONOGRAPHY", 176x24px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 20px]
+    - GROUP "logo", 187x20px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Strapi Logo", 82.55x20px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+      - TEXT "DESIGN SYSTEM", 96x12px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 10px]
+  - RECTANGLE "Rectangle 447", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 496", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 449", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 451", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 491", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 453", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 487", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 454", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 455", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 488", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - RECTANGLE "Rectangle 461", 24x24px, constraints left/top, fill Light mode/Neutral0, stroke Light mode/Neutral200 2px
+  - COMPONENT "ChevronRight", 9.88x16px, constraints left/top, fill #FFFFFF
+    - VECTOR "Back.filter", 9.88x16px, constraints scale/scale, fill Light mode/Neutral800
+  - ... +253 more children
+
+Screen: 🎨 Design tokens / Radius & shadows
+- FRAME "Radius & shadows", 756x1262px, constraints scale/scale, fill Light mode/Neutral0
+  - INSTANCE "Group 257", 756x104px, constraints left/top
+    - RECTANGLE "bg", 756x104px, constraints scale/scale, fill Light mode/Neutral100
+    - TEXT "RADIUS & SHADOWS", 242x24px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 20px]
+    - GROUP "logo", 187x20px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Strapi Logo", 82.55x20px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+      - TEXT "DESIGN SYSTEM", 96x12px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 10px]
+  - TEXT "Hello Admin!", 115x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+  - TEXT "Hello Admin!", 115x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+  - TEXT "Hello Admin!", 118x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+  - TEXT "Hello Admin!", 88x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+  - TEXT "Hello Admin!", 87x16px, constraints left/top, fill Light mode/Neutral700, text [Pi - Small text]
+  - GROUP "Group 258", 213x114px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 494", 213x114px, constraints left/top, fill Light mode/Neutral100, stroke Light mode/Neutral200 2.89px
+    - GROUP "Group 325", 134.25x82.25px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Rectangle 495", 134x82px, constraints left/top, radius 0/0/0/0px, fill Light mode/Primary600
+      - ELLIPSE "Ellipse 28", 38.97x38.97px, constraints left/top, fill Light mode/Primary700, stroke Light mode/Neutral200 1.44px
+      - TEXT "Hello Admin!", 38.97x24.53px, constraints left/top, fill Light mode/Neutral0, text [Lato Bold, 20.2px]
+  - TEXT "In order to optimize global consistency, all elements with a", 341x160px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+  - GROUP "Group 327", 214x248px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 494", 214x248px, constraints left/top, fill Light mode/Neutral100, stroke Light mode/Neutral200 2.89px
+    - GROUP "Group 328", 81.67x161px, constraints left/top, radius 4px
+      - INSTANCE "Button / IconButton", 33.08x32px, horizontal pad 10 10 10 10px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px
+        - INSTANCE "icon", 12x12px, constraints scale/scale
+          - BOOLEAN_OPERATION "icon", 12x10px, constraints scale/scale, fill Light mode/Neutral500
+      - FRAME "Filters", 81.67x125px, horizontal pad 10 14 10 14px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Light mode/Neutral0, effect Light mode/Filter shadow
+  - GROUP "Group 326", 326x183px, constraints left/top, radius 0/0/0/0px
+    - TEXT "We use the drop shadows on different cases: - On Containers ", 326x120px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+    - TEXT "We have 3 types of shadows: Table, Popup, Filter.", 326x60px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+  - RECTANGLE "Rectangle 586", 756x462px, constraints left/top, fill Light mode/Neutral100
+  - TEXT "In addition to the drop shadow we add a thin border: 1px out", 326x234px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+  - TEXT "Hello Admin!", 212x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+  - TEXT "Hello Admin!", 87x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+  - TEXT "Hello Admin!", 39x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+  - RECTANGLE "Rectangle 587", 209x202px, constraints left/top, radius 4px, fill Light mode/Neutral0, effect Light mode/Table shadow
+
+Screen: 🎨 Design tokens / Spacing system
+- FRAME "Spacing system", 756x622px, constraints scale/scale, fill Light mode/Neutral0
+  - RECTANGLE "11", 64x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "10", 56x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "9", 48x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "8", 40x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "7", 32x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "6", 24x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "5", 20x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "4", 16x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "3", 12x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "2", 8x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "1", 4x8px, constraints left/top, fill Light mode/Neutral500
+  - TEXT "1 :", 13x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "4px", 22x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "2 :", 15x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "8px", 21x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "3 :", 15x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "12px", 27x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "4 :", 15x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "16px", 27x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "5 :", 15x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "20px", 29x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "6 :", 15x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "24px", 29x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "7 :", 14x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "32px", 29x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - ... +11 more children
+
+Screen: 🎨 Design tokens / Sizes
+- FRAME "Sizes", 756x395px, constraints scale/scale, fill Light mode/Neutral0
+  - RECTANGLE "8", 40x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "65", 36x8px, constraints left/top, fill Light mode/Neutral500
+  - RECTANGLE "7", 32x8px, constraints left/top, fill Light mode/Neutral500
+  - TEXT "S:", 13x16px, constraints left/top, fill Light mode/Neutral800, text [Pi (Bold) - Small button text]
+  - TEXT "M:", 16x16px, constraints left/top, fill Light mode/Neutral800, text [Pi (Bold) - Small button text]
+  - TEXT "L:", 12x16px, constraints left/top, fill Light mode/Neutral800, text [Pi (Bold) - Small button text]
+  - TEXT "32px (32/16rem)", 95x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "36px (36/16rem)", 96x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - TEXT "40px (40/16rem)", 96x16px, constraints left/top, fill Light mode/Neutral800, text [Pi - Small text]
+  - INSTANCE "Group 257", 756x104px, constraints left/top
+    - RECTANGLE "bg", 756x104px, constraints scale/scale, fill Light mode/Neutral100
+    - TEXT "GRID SYSTEM", 68x24px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 20px]
+    - GROUP "logo", 187x20px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Strapi Logo", 82.55x20px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+      - TEXT "DESIGN SYSTEM", 96x12px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 10px]
+  - TEXT "Scale", 46x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+  - TEXT "4px to 8px scale", 254x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+
+Screen: 🎨 Design tokens / Colors
+- FRAME "Colors", 1317x2325px, constraints scale/scale, fill Light mode/Neutral0
+  - INSTANCE "Group 257", 1317x104px, constraints left/top
+    - RECTANGLE "bg", 1317x104px, constraints scale/scale, fill Light mode/Neutral100
+    - TEXT "COLOR SYSTEM", 184x24px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 20px]
+    - GROUP "logo", 187x20px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Strapi Logo", 82.55x20px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+      - TEXT "DESIGN SYSTEM", 96x12px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 10px]
+  - GROUP "Group 1074", 1074x768px, constraints left/top
+    - TEXT "Neutral", 54x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "Primary", 52x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "Warning", 55x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "SECONDARY", 71x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "ALTERNATIVE", 77x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "SUCCESS", 54x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "DANGER", 48x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "PRIMARY BUTTON", 103x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - INSTANCE "Color scale", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Neutral900
+      - TEXT "Hello Admin!", 73x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 49x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Color scale", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Neutral1000
+      - TEXT "Hello Admin!", 79x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 50x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 268", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Primary700
+      - TEXT "Hello Admin!", 75x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 49x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 283", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Warning700
+      - TEXT "Hello Admin!", 77x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 52x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 288", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Secondary700
+      - TEXT "Hello Admin!", 92x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 54x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 293", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Alternative700
+      - TEXT "Hello Admin!", 94x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 50x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 294", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Alternative600
+      - TEXT "Hello Admin!", 95x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 52x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 295", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Alternative500
+      - TEXT "Hello Admin!", 95x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 53x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 296", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Alternative200
+      - TEXT "Hello Admin!", 94x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 51x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 297", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Alternative100
+      - TEXT "Hello Admin!", 93x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 54x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 289", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Secondary600
+      - TEXT "Hello Admin!", 93x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 53x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 290", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Secondary500
+      - TEXT "Hello Admin!", 93x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 50x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 291", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Secondary200
+      - TEXT "Hello Admin!", 92x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 50x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 292", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Secondary100
+      - TEXT "Hello Admin!", 91x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 51x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 284", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Warning600
+      - TEXT "Hello Admin!", 78x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 54x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 285", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Warning500
+      - TEXT "Hello Admin!", 78x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 52x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 286", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Light mode/Warning200
+      - TEXT "Hello Admin!", 78x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 52x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - ... +28 more children
+  - GROUP "Group 1075", 856x768px, constraints left/top
+    - TEXT "Neutral", 54x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "Primary", 52x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "Warning", 55x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "SECONDARY", 71x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "ALTERNATIVE", 77x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "SUCCESS", 54x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - TEXT "DANGER", 48x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+    - INSTANCE "Color scale", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Neutral900, stroke Light mode/Neutral200 1px
+      - TEXT "Hello Admin!", 73x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 49x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Color scale", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Neutral1000, stroke Light mode/Neutral200 1px
+      - TEXT "Hello Admin!", 79x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 49x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 268", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Primary700
+      - TEXT "Hello Admin!", 75x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 51x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 283", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Warning700
+      - TEXT "Hello Admin!", 77x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 52x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 288", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Secondary700
+      - TEXT "Hello Admin!", 92x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 50x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 293", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Alternative700
+      - TEXT "Hello Admin!", 94x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 51x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 294", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Alternative600
+      - TEXT "Hello Admin!", 95x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 53x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 295", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Alternative500
+      - TEXT "Hello Admin!", 95x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 53x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 296", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Alternative200
+      - TEXT "Hello Admin!", 94x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 55x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 297", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Alternative100
+      - TEXT "Hello Admin!", 93x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 50x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 289", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Secondary600
+      - TEXT "Hello Admin!", 93x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 51x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 290", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Secondary500
+      - TEXT "Hello Admin!", 93x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 51x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 291", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Secondary200
+      - TEXT "Hello Admin!", 92x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 55x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 292", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Secondary100
+      - TEXT "Hello Admin!", 91x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 50x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 284", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Warning600
+      - TEXT "Hello Admin!", 78x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 52x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 285", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Warning500
+      - TEXT "Hello Admin!", 78x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 52x16px, constraints scale/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 286", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Warning200
+      - TEXT "Hello Admin!", 78x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 55x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - INSTANCE "Group 287", 160x50px, constraints left/top
+      - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/Warning100
+      - TEXT "Hello Admin!", 76x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+      - TEXT "Hello Admin!", 50x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+    - ... +24 more children
+  - GROUP "Group 323", 691x93px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Use of a color system of 12 tones on the grey scale (from ne", 691x49px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+    - TEXT "All these tones have a logical gap between each other, to en", 678.44x40px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+  - TEXT "Hello Admin!", 92x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+  - TEXT "Colors - Light mode", 161x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+  - TEXT "Colors - Dark mode", 158x22px, constraints left/top, fill Light mode/Neutral800, text [Beta - H2], [heading]
+  - TEXT "Most common color scale", 254x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+  - TEXT "Most common color scale", 254x16px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+  - TEXT "PRIMARY BUTTON", 103x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+  - INSTANCE "Group 325", 160x50px, constraints left/top
+    - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/ButtonNeutral0, stroke Light mode/Neutral200 1px
+    - TEXT "Hello Admin!", 94x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+    - TEXT "Hello Admin!", 49x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+  - INSTANCE "Group 326", 160x50px, constraints left/top
+    - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/ButtonPrimary600
+    - TEXT "Hello Admin!", 113x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+    - TEXT "Hello Admin!", 52x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+  - INSTANCE "Group 1076", 160x50px, constraints left/top
+    - RECTANGLE "Rectangle 446", 50x50px, constraints scale/scale, radius 4px, fill Dark mode/ButtonPrimary500
+    - TEXT "Hello Admin!", 113x16px, constraints scale/scale, fill Neutral900, text [Pi (Bold) - Small button text]
+    - TEXT "Hello Admin!", 51x16px, constraints scale/scale, fill Neutral600, text [Pi - Small text]
+  - TEXT "This scale doesn’t pass accessibility contrast checks. Use s", 189x47px, constraints left/top, fill Light mode/Neutral600, text [Pi - Small text]
+
+Screen: 🎨 Design tokens / Main & Sub Navigations - Condensed
+- FRAME "Main & Sub Navigations - Condensed", 1440x356px, constraints scale/scale, fill Light mode/Neutral100
+  - INSTANCE "Main navigation", 73x916px, constraints left/top
+    - INSTANCE "Main Navigation", 73x916px, constraints scale/scale, fill Light mode/Neutral100
+      - GROUP "Background", 73x916px, constraints left/top
+        - RECTANGLE "Navigation background", 72x916px, constraints left/top, fill Light mode/Neutral200
+        - RECTANGLE "Separation bar", 1x916px, constraints left/top, fill Light mode/Neutral200, opacity 70%
+  - TEXT "Main Navigation", 22x132px, constraints left/top, fill Light mode/Neutral700, text [Beta - H2], [heading]
+  - INSTANCE "Secondary navigation", 230x916px, constraints left/top
+    - RECTANGLE "Rectangle 483", 229x916px, constraints scale/scale, fill Light mode/Neutral100
+    - GROUP "Group 219", 230x916px, constraints scale/scale
+      - RECTANGLE "Rectangle 387", 1x916px, constraints scale/scale, fill Light mode/Neutral200, opacity 70%
+      - INSTANCE "Dropdown.line", 230x32px, constraints scale/scale
+        - RECTANGLE "Rectangle 482", 230x32px, constraints scale/scale, fill Light mode/Neutral0, opacity 0%
+        - INSTANCE "ONHOLDCarretDown", 7x4px, constraints scale/scale
+          - VECTOR "Filter Dropdown Icon", 4.08x1.33px, constraints scale/scale, fill Light mode/Neutral700
+        - TEXT "Categories", 140x16px, constraints scale/scale, fill Light mode/Neutral700, text [Omega (Semibold) - Body Highlight]
+        - RECTANGLE "Rectangle 552", 1x32px, constraints scale/scale, fill Light mode/Neutral200, opacity 70%
+  - TEXT "Secondary Navigation", 22x185px, constraints left/top, fill Light mode/Neutral700, text [Beta - H2], [heading]
+  - FRAME "Grid-1440px", 1137x567.24px, constraints scale/scale, fill Light mode/Neutral100
+
+Screen: 🎨 Design tokens / Main & Sub Navigations - Extended
+- FRAME "Main & Sub Navigations - Extended", 1440x356px, constraints scale/scale, fill Light mode/Neutral100
+  - INSTANCE "Secondary navigation", 230x916px, constraints left/top
+    - RECTANGLE "Rectangle 483", 229x916px, constraints scale/scale, fill Light mode/Neutral100
+    - GROUP "Group 219", 230x916px, constraints scale/scale
+      - RECTANGLE "Rectangle 387", 1x916px, constraints scale/scale, fill Light mode/Neutral200, opacity 70%
+      - INSTANCE "Dropdown.line", 230x32px, constraints scale/scale
+        - RECTANGLE "Rectangle 482", 230x32px, constraints scale/scale, fill Light mode/Neutral0, opacity 0%
+        - INSTANCE "ONHOLDCarretDown", 7x4px, constraints scale/scale
+          - VECTOR "Filter Dropdown Icon", 4.08x1.33px, constraints scale/scale, fill Light mode/Neutral700
+        - TEXT "Categories", 140x16px, constraints scale/scale, fill Light mode/Neutral700, text [Omega (Semibold) - Body Highlight]
+        - RECTANGLE "Rectangle 552", 1x32px, constraints scale/scale, fill Light mode/Neutral200, opacity 70%
+  - TEXT "Secondary Navigation", 22x185px, constraints left/top, fill Light mode/Neutral700, text [Beta - H2], [heading]
+  - FRAME "Grid-1440px", 1004x568px, constraints scale/scale, fill Light mode/Neutral100 [decorative, ~164 shapes]
+  - FRAME "Main navigation", 206x916px, constraints left/top
+    - FRAME "Main Navigation", 206x916px, constraints scale/scale, fill Light mode/Neutral100
+      - GROUP "Background", 230x916px, constraints left/top
+        - RECTANGLE "Navigation background", 230x916px, constraints left/top, fill Light mode/Neutral200
+        - RECTANGLE "Separation bar", 1x916px, constraints left/top, fill Light mode/Neutral200, opacity 70%
+  - TEXT "Main Navigation", 22x132px, constraints left/top, fill Light mode/Neutral700, text [Beta - H2], [heading]
+
+Screen: 🎨 Design tokens / Main Navigation - Extended
+- FRAME "Main Navigation - Extended", 1440x356px, constraints scale/scale, fill Light mode/Neutral100
+  - FRAME "Main navigation", 206x916px, constraints left/top
+    - FRAME "Main Navigation", 206x916px, constraints scale/scale, fill Light mode/Neutral100
+      - GROUP "Background", 230x916px, constraints left/top
+        - RECTANGLE "Navigation background", 230x916px, constraints left/top, fill Light mode/Neutral200
+        - RECTANGLE "Separation bar", 1x916px, constraints left/top, fill Light mode/Neutral200, opacity 70%
+  - TEXT "Main Navigation", 22x132px, constraints left/top, fill Light mode/Neutral700, text [Beta - H2], [heading]
+  - FRAME "Grid-1440px", 1234x568px, constraints scale/scale, fill Light mode/Neutral100
+
+Screen: 🎨 Design tokens / Main Navigation - Condensed
+- FRAME "Main Navigation - Condensed", 1440x356px, constraints scale/scale, fill Light mode/Neutral100
+  - INSTANCE "Main navigation", 73x916px, constraints left/top
+    - INSTANCE "Main Navigation", 73x916px, constraints scale/scale, fill Light mode/Neutral100
+      - GROUP "Background", 73x916px, constraints left/top
+        - RECTANGLE "Navigation background", 72x916px, constraints left/top, fill Light mode/Neutral200
+        - RECTANGLE "Separation bar", 1x916px, constraints left/top, fill Light mode/Neutral200, opacity 70%
+  - TEXT "Main Navigation", 22x132px, constraints left/top, fill Light mode/Neutral700, text [Beta - H2], [heading]
+  - FRAME "Grid-1440px", 1367x568px, constraints scale/scale, fill Light mode/Neutral100 [decorative, ~129 shapes]
+
+Screen: 🧱 Components / Checkbox & Radio
+- FRAME "Checkbox & Radio", 1623x1515px, constraints scale/scale, fill Light mode/Neutral0
+  - TEXT "Checkbox", 148x40px, constraints left/top, fill Light mode/Neutral900, text [Alpha - H1], [heading]
+  - TEXT "Radio", 84x40px, constraints left/top, fill Light mode/Neutral900, text [Alpha - H1], [heading]
+  - TEXT "WITH LABEL", 69x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+  - TEXT "WITH LABEL", 69x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+  - TEXT "simple", 42x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+  - TEXT "BUlk select", 77x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+  - TEXT "simple", 42x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+  - TEXT "WITH LabEL & descRIPTION", 160x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+  - TEXT "WITH LabEL & TOGGLE", 129x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+  - TEXT "Radio box", 63x16px, constraints left/top, fill Light mode/Neutral600, text [Sigma - Table Label]
+  - FRAME "checkbox / label", 76x20px, constraints scale/top, fill #FFFFFF
+    - FRAME "Frame 976", 75x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "checkbox", 20x20px, constraints left/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+      - TEXT "label", 29x20px, constraints left/scale, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+      - INSTANCE "ONHOLDCarretDown", 10x10px, constraints scale/scale
+        - VECTOR "Filter Dropdown Icon", 5.83x3.33px, constraints scale/scale, fill Light mode/Neutral600
+  - COMPONENT_SET "Radio / Simple", 60x204px, constraints left/top, radius 5px, stroke Light mode/Primary500 1px
+    - COMPONENT "state=Empty", 20x20px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 31px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+    - COMPONENT "state=Focus", 20x20px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "outline", 24x24px, constraints scale/scale, fill Light mode/Neutral0, stroke Light mode/Primary600 2px
+      - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 31px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+    - COMPONENT "state=selected", 20x20px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 31px, fill Light mode/Neutral0, stroke Light mode/Primary600 1px
+      - ELLIPSE "Ellipse 33", 12x12px, constraints scale/scale, fill Light mode/Primary600
+    - COMPONENT "state=Disabled", 20x20px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 31px, fill Light mode/Neutral200, stroke Light mode/Neutral300 1px
+  - COMPONENT_SET "Checkbox / Simple", 60x375px, constraints left/top, radius 5px, stroke Light mode/Primary500 1px
+    - COMPONENT "state=empty", 20x20px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+    - COMPONENT "state=focus", 20x20px, constraints left/top
+      - RECTANGLE "outline", 24x24px, constraints scale/scale, radius 4px, fill Light mode/Neutral0, stroke Light mode/Primary600 2px
+      - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+    - COMPONENT "state=selected", 20x20px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Primary600
+      - INSTANCE "Check", 10x10px, constraints scale/scale
+        - VECTOR "icon", 10x7.57px, constraints scale/scale, radius 0/0/0/0px, fill Light mode/Neutral0
+    - COMPONENT "state=Intermediate", 20x20px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Primary600
+      - INSTANCE "Minus", 10x10px, constraints scale/scale
+        - RECTANGLE "Selected checkbox", 10x2.08px, constraints scale/scale, radius 0.2px, fill Light mode/Neutral0
+    - COMPONENT "state=empty & disabled", 20x20px, constraints left/top, radius 4px, fill Light mode/Neutral200, stroke Light mode/Neutral300 1px
+      - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Neutral200, stroke Light mode/Neutral300 1px
+    - COMPONENT "state=selected & disabled", 20x20px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Checkbox / Simple", 20x20px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Neutral200, stroke Light mode/Neutral300 1px
+        - INSTANCE "Check", 10x10px, constraints scale/scale
+          - VECTOR "icon", 10x7.57px, constraints scale/scale, radius 0/0/0/0px, fill Light mode/Neutral600
+    - COMPONENT "state=Intermediate & disabled", 20x20px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Checkbox / Simple", 20x20px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Neutral200, stroke Light mode/Neutral300 1px
+        - RECTANGLE "Selected checkbox", 10x2px, constraints scale/scale, fill Light mode/Neutral600
+  - COMPONENT_SET "Radio / Box", 388x256px, constraints left/top, radius 5px, stroke Light mode/Primary500 1px
+    - COMPONENT "state=default", 329x88px, horizontal pad 24 24 24 24px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px
+      - INSTANCE "Radio / Simple", 20x20px, constraints left/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 31px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+      - FRAME "texts", 245x40px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+        - TEXT "title", 245x18px, constraints left/scale, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+        - TEXT "description", 245x16px, constraints left/scale, fill Light mode/Neutral600, text [Pi - Small text]
+    - COMPONENT "state=select", 329x88px, horizontal pad 24 24 24 24px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Light mode/Primary100, stroke Light mode/Primary200 1px
+      - INSTANCE "Radio / Simple", 20x20px, constraints left/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 31px, fill Light mode/Primary100, stroke Light mode/Primary600 1px
+        - ELLIPSE "Ellipse 33", 12x12px, constraints scale/scale, fill Light mode/Primary600
+      - FRAME "texts", 245x40px, vertical pad 0 0 0 0px gap 6px sizing W:fill H:fixed, constraints left/top
+        - TEXT "title", 245x18px, constraints left/scale, fill Light mode/Primary600, text [Omega (Bold) - Button text]
+        - TEXT "description", 245x16px, constraints left/scale, fill Light mode/Primary600, text [Pi - Small text]
+  - COMPONENT "Checkbox / Label + Description", 211x40px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Checkbox / Label", 64x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - INSTANCE "checkbox", 20x20px, constraints left/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+      - TEXT "label", 36x20px, constraints left/scale, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+    - TEXT "description", 211x16px, constraints center/scale, fill Light mode/Neutral600, text [Pi - Small text]
+  - COMPONENT_SET "Checkbox / Label", 190x147px, constraints left/top, radius 5px, stroke Light mode/Primary500 1px
+    - COMPONENT "state=default", 57x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "checkbox", 20x20px, constraints left/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+      - TEXT "label", 29x20px, constraints left/scale, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+    - COMPONENT "state=checked", 57x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "checkbox", 20x20px, constraints left/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Primary600
+        - INSTANCE "Check", 10x10px, constraints scale/scale
+          - VECTOR "icon", 10x7.57px, constraints scale/scale, radius 0/0/0/0px, fill Light mode/Neutral0
+      - TEXT "label", 29x20px, constraints left/scale, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+    - COMPONENT "state=hover", 77x36px, horizontal pad 8 12 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Light mode/Primary100
+      - INSTANCE "checkbox", 20x20px, constraints left/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+      - TEXT "label", 29x20px, constraints left/scale, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+  - COMPONENT_SET "Radio / Label", 190x111px, constraints left/top, radius 5px, stroke Light mode/Primary500 1px
+    - COMPONENT "state=default", 57x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "radio", 20x20px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 31px, fill Light mode/Neutral0, stroke Light mode/Neutral300 1px
+      - TEXT "label", 29x20px, constraints scale/scale, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+    - COMPONENT "state=select", 57x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "radio", 20x20px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Checkbox.empty", 20x20px, constraints scale/scale, radius 31px, fill Light mode/Neutral0, stroke Light mode/Primary600 1px
+        - ELLIPSE "Ellipse 33", 12x12px, constraints scale/scale, fill Light mode/Primary600
+      - TEXT "label", 29x20px, constraints scale/scale, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+  - INSTANCE "Group 257", 1623x104px, constraints left/top
+    - RECTANGLE "bg", 1623x104px, constraints scale/scale, fill Light mode/Neutral100
+    - TEXT "GRID SYSTEM", 237x24px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 20px]
+    - GROUP "logo", 187x20px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Strapi Logo", 82.55x20px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+      - TEXT "DESIGN SYSTEM", 96x12px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 10px]
+  - TEXT "EMPTY", 40x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - TEXT "EMPTY", 40x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - TEXT "FOCUS", 40x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - TEXT "FOCUS", 40x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - TEXT "SELECTED", 58x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - TEXT "SELECTED", 58x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - TEXT "INTERMEDIATE", 84x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - ... +8 more children
+
+Screen: 🧱 Components / Dialog modals
+- FRAME "Dialog modals", 1643x1375px, constraints scale/scale, fill Light mode/Neutral0
+  - TEXT "Dialog Modal", 190x40px, constraints left/top, fill Light mode/Neutral900, text [Alpha - H1], [heading]
+  - INSTANCE "Group 257", 1643x104px, constraints left/top
+    - RECTANGLE "bg", 1643x104px, constraints scale/scale, fill Light mode/Neutral100
+    - TEXT "GRID SYSTEM", 197x24px, constraints left/scale, fill Light mode/Neutral600, text [SF Pro Text Bold, 20px]
+    - GROUP "logo", 187x20px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Strapi Logo", 82.55x20px, constraints left/top, radius 0/0/0/0px [decorative, ~9 shapes]
+      - TEXT "DESIGN SYSTEM", 96x12px, constraints right/scale, fill Light mode/Neutral400, text [SF Pro Text Bold, 10px]
+  - TEXT "Warning", 55x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - TEXT "Base components", 115x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - TEXT "Info/success", 86x16px, constraints left/top, fill Neutral600, text [Sigma - Table Label]
+  - COMPONENT_SET "DialogModal", 452x600px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke Light mode/Primary500 1px
+    - COMPONENT "Property 1=Warning", 412x270px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, effect Light mode/Popup Shadow
+      - INSTANCE "PopUp.Header", 412x70px, constraints left/top, fill Light mode/Neutral0
+        - TEXT "Confirmation", 108x22px, constraints center/center, fill Light mode/Neutral800, text [Beta - H2], [heading]
+        - INSTANCE "Divider", 412x1px, constraints scale/bottom, fill Light mode/Neutral150
+      - INSTANCE "Content", 412x132px, vertical pad 40 40 40 40px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill Light mode/Neutral0
+        - VECTOR "Vector", 24x24px, constraints left/top, fill Light mode/Danger600
+        - TEXT "Are you sure you wan", 332x20px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+      - INSTANCE "bottom popup", 412x68px, constraints left/top, fill Light mode/Neutral0
+        - INSTANCE "Button / Tertiary", 186x36px, horizontal pad 10 16 10 16px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/top, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px
+          - INSTANCE "Button / Content", 49x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 49x16px, constraints scale/scale, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+        - INSTANCE "Button / Danger", 186x36px, horizontal pad 10 16 10 16px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 4px, fill Light mode/Danger100, stroke Light mode/Danger200 1px
+          - INSTANCE "Button / Content", 77x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "icon", 12x12px, constraints scale/scale
+            - TEXT "text", 57x16px, constraints scale/scale, fill Light mode/Danger600, text [Omega (Bold) - Button text]
+        - INSTANCE "Divider", 412x1px, constraints scale/top, fill Light mode/Neutral150
+    - COMPONENT "Property 1=Info/Success", 412x270px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px, effect Light mode/Popup Shadow
+      - INSTANCE "PopUp.Header", 412x70px, constraints left/top, fill Light mode/Neutral0
+        - TEXT "Confirmation", 108x22px, constraints center/center, fill Light mode/Neutral800, text [Beta - H2], [heading]
+        - INSTANCE "Divider", 412x1px, constraints scale/bottom, fill Light mode/Neutral150
+      - INSTANCE "Content", 412x132px, vertical pad 40 40 40 40px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill Light mode/Neutral0
+        - VECTOR "Vector", 24x24px, constraints left/top, fill Light mode/Danger600
+        - TEXT "Are you sure you wan", 332x20px, constraints left/top, fill Light mode/Neutral800, text [Omega (Regular) - Body]
+      - INSTANCE "bottom popup", 412x68px, constraints left/top, fill Light mode/Neutral0
+        - INSTANCE "Button / Tertiary", 186x36px, horizontal pad 10 16 10 16px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/top, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px
+          - INSTANCE "Button / Content", 49x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "text", 49x16px, constraints scale/scale, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+        - INSTANCE "Button / Secondary", 186x36px, horizontal pad 10 16 10 16px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 4px, fill Light mode/Primary100, stroke Light mode/Primary200 1px
+          - INSTANCE "Button / Content", 135x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "icon", 12x12px, constraints scale/scale
+            - TEXT "text", 115x16px, constraints scale/scale, fill Light mode/Primary600, text [Omega (Bold) - Button text]
+        - INSTANCE "Divider", 412x1px, constraints scale/top, fill Light mode/Neutral150
+  - GROUP "Group 985", 517x492px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 1126", 517x492px, constraints left/top, radius 10px, fill Light mode/Neutral150
+    - COMPONENT "PopUp.Header", 412x70px, constraints left/top, fill Light mode/Neutral0
+      - TEXT "Confirmation", 108x22px, constraints center/center, fill Light mode/Neutral800, text [Beta - H2], [heading]
+      - INSTANCE "Divider", 412x1px, constraints scale/bottom, fill Light mode/Neutral150
+    - COMPONENT "Content", 412x132px, vertical pad 40 40 40 40px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Light mode/Neutral0
+      - VECTOR "Vector", 24x24px, constraints left/top, fill Light mode/Danger600
+      - TEXT "Are you sure you wan", 332x20px, constraints left/top, fill Light mode/Danger600, text [Omega (Regular) - Body]
+    - COMPONENT "bottom popup", 412x68px, constraints scale/scale, fill Light mode/Neutral0
+      - INSTANCE "Button / Tertiary", 186x36px, horizontal pad 10 16 10 16px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/top, radius 4px, fill Light mode/Neutral0, stroke Light mode/Neutral200 1px
+        - INSTANCE "Button / Content", 49x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "text", 49x16px, constraints scale/scale, fill Light mode/Neutral800, text [Omega (Bold) - Button text]
+      - INSTANCE "Button / Danger", 186x36px, horizontal pad 10 16 10 16px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 4px, fill Light mode/Danger100, stroke Light mode/Danger200 1px
+        - INSTANCE "Button / Content", 77x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "icon", 12x12px, constraints scale/scale
+            - VECTOR "Delete icon", 10x12px, constraints scale/scale, radius 0/0/0/0px, fill Light mode/Danger600
+          - TEXT "text", 57x16px, constraints scale/scale, fill Light mode/Danger600, text [Omega (Bold) - Button text]
+      - INSTANCE "Divider", 412x1px, constraints scale/top, fill Light mode/Neutral150
+  - TEXT "Find the related documentation here", 275x24px, constraints left/top, fill Light mode/Neutral600, text [Epsilon - Subtitle], [heading]
+
+Screen: 🧱 Components / Modals
+- FRAME "Modals", 2006x2330px, constraints scale/scale, fill Light mode/Neutral0
+  - TEXT "Modal - Header", 225x40px, constraints left/top, fill Light mode/Neutral900, text [Alpha - H1], [heading]
+  - TEXT "Modal - Footer", 212x40px, constraints left/top, fill Light mode/Neutral900, text [Alpha - H1], [heading]
+  - TEXT "Modal - Overlay", 230x40px, constraints left/top, fill Light mode/Neutral900, text [Alpha - H1], [heading]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

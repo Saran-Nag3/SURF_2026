@@ -1,0 +1,1362 @@
+---
+name: onlyfans-v1-0-app-community
+source_file: OnlyFans v1.0 社交类app 自制版 (Community)
+source_page: All pages (5): 封面, 主页面详情页及信息聊天页面, 更新中 个人中心/发布/认证, Icon, 其他
+generated_at: 2026-07-25T09:20:10.525862+00:00
+---
+
+# OnlyFans v1.0 社交类app 自制版 (Community) Design Guidelines
+
+## Source
+- Figma file: OnlyFans v1.0 社交类app 自制版 (Community)
+- Figma page: All pages (5): 封面, 主页面详情页及信息聊天页面, 更新中 个人中心/发布/认证, Icon, 其他
+- Extracted at: 2026-07-25T09:20:10.525862+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- logo 色 辅: [#0071CE]
+- 主色 文字 浅灰: [#979797]
+- logo 色 主: [#4EACE9]
+- 主色 文字 黑: [#323232]
+- 主色 文字 白: [#FFFFFF]
+- 主色 文字 灰: [#707070]
+- 输入框: [#F6F7F9]
+- 状态 常规: [#6DE18C]
+- 状态 错误&提示: [#ED6054]
+- 图标状态 默认: [#8A96A3]
+- 线条 灰: [#F0F0F0]
+- Label Color/Light/Primary: [#000000]
+- System Materials/Background/Ultrathin/Dark (Add Blur): [#0000001A]
+- 线条 灰: [#323232]
+- Dark/100%: none
+- tint/iconGray/light: [#F8F8F8]
+- Label Color / Dark / Primary: [#FFFFFF]
+- Label Color / Light / Primary: [#000000]
+- cool-gray/900: none
+- 状态 禁用: [#DADADA]
+- Light Colors/White - Light: [#FFFFFF]
+- Light Colors/Light gray - Light: [#EFEFEF]
+
+## Raw Colors (unstyled)
+- #000000: 1344 uses
+- #FFFFFF: 820 uses
+- #DADADA: 233 uses
+- #FCFCFE: 224 uses
+- #D9D9D9: 133 uses
+- #F2F3F5: 128 uses
+- #50555C: 120 uses
+- #9747FF: 94 uses
+- #00579F: 84 uses
+- #F6F7F9: 83 uses
+- #EEEFF1: 57 uses
+- #010101: 53 uses
+- #00000033: 36 uses
+- #8A96A3: 32 uses
+- #4EACE9: 30 uses
+- #434343: 28 uses
+- #ADB3BC: 24 uses
+- #F7F7F7: 23 uses
+- #0071CE: 22 uses
+- #979797: 21 uses
+- #EBF3FA: 21 uses
+- #FAA61A: 21 uses
+
+## Typography Tokens
+- 14px - Body 4: Helvetica Neue HelveticaNeue (400), 14px / 22px, tracking -0.03px
+- 16px - H&B 3m: Helvetica Neue Medium (500), 16px / 27px, tracking 0px
+- 16px - H&B 3: Helvetica Neue HelveticaNeue (400), 16px / 27px, tracking 0px
+- 12px - Body 5: Helvetica Neue HelveticaNeue (400), 12px / 20px, tracking 0px
+- 15px - Body: Helvetica Neue HelveticaNeue (400), 15px / 27px, tracking 0px
+- Default/Bold/Body: SF Pro Text Semibold (600), 17px / 22px, tracking -0.41px
+- 18px - Heading m: Helvetica Neue Medium (500), 18px / 30px, tracking 0px
+- 10px - Body 7: Helvetica Neue HelveticaNeue (400), 10px / 14px, tracking 0px
+- 12px - Body 6: Helvetica Neue HelveticaNeue (400), 12px / 16px, tracking 0px
+- 14px - Body 4m: Helvetica Neue Medium (500), 14px / 22px, tracking 0px
+- 12px - Body 5m: Helvetica Neue Medium (500), 12px / 20px, tracking 0px
+- 15px - Body m: Helvetica Neue Medium (500), 15px / 27px, tracking 0px
+- 24px - Heading 1: Helvetica Neue HelveticaNeue (400), 24px / 35px, tracking 0px
+
+## Raw Typography (unstyled)
+- SF Pro Text Regular, 22.5px: 243 uses
+- SF Pro Text Regular, 16px: 36 uses
+- Helvetica Neue HelveticaNeue, 16px: 28 uses
+- Helvetica Neue Medium, 18px: 15 uses
+- Helvetica Neue Medium, 40px: 8 uses
+- Helvetica Neue HelveticaNeue, 36px: 6 uses
+- Helvetica Neue Medium, 10px: 6 uses
+- Helvetica Neue HelveticaNeue, 15px: 3 uses
+- Helvetica Neue Medium, 14px: 3 uses
+- Helvetica Neue Medium, 16px: 3 uses
+- Helvetica Neue Medium, 20px: 3 uses
+- Plus Jakarta Sans Bold, 20px: 3 uses
+
+## Typography Hierarchy
+- 40px - Helvetica Neue Medium, 40px (raw)
+- 36px - Helvetica Neue HelveticaNeue, 36px (raw)
+- 24px - 24px - Heading 1 (Helvetica Neue HelveticaNeue)
+- 22.5px - SF Pro Text Regular, 22.5px (raw)
+- 20px - Helvetica Neue Medium, 20px (raw)
+- 20px - Plus Jakarta Sans Bold, 20px (raw)
+- 18px - 18px - Heading m (Helvetica Neue Medium)
+- 18px - Helvetica Neue Medium, 18px (raw)
+- 17px - Default/Bold/Body (SF Pro Text Semibold)
+- 16px - 16px - H&B 3 (Helvetica Neue HelveticaNeue)
+- 16px - 16px - H&B 3m (Helvetica Neue Medium)
+- 16px - Helvetica Neue HelveticaNeue, 16px (raw)
+- 16px - Helvetica Neue Medium, 16px (raw)
+- 16px - SF Pro Text Regular, 16px (raw)
+- 15px - 15px - Body (Helvetica Neue HelveticaNeue)
+- 15px - 15px - Body m (Helvetica Neue Medium)
+- 15px - Helvetica Neue HelveticaNeue, 15px (raw)
+- 14px - 14px - Body 4 (Helvetica Neue HelveticaNeue)
+- 14px - 14px - Body 4m (Helvetica Neue Medium)
+- 14px - Helvetica Neue Medium, 14px (raw)
+- 12px - 12px - Body 5 (Helvetica Neue HelveticaNeue)
+- 12px - 12px - Body 5m (Helvetica Neue Medium)
+- 12px - 12px - Body 6 (Helvetica Neue HelveticaNeue)
+- 10px - 10px - Body 7 (Helvetica Neue HelveticaNeue)
+- 10px - Helvetica Neue Medium, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- System Materials/Unltra Thin (Match with BG): [background_blur 81.55px]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Frame 94
+- Frame 92
+- 。。。
+- 官方拷来的 Icons
+- Icons
+- 更多
+- 图片
+- 收藏
+- 喜欢
+- 提醒
+- 个人中心
+- 创建
+- 搜索
+- 信息
+- 主菜单
+- Promotions
+- Likes
+- Bookmark
+- Subscriptions
+- Comments
+- star
+- share
+- comments
+- At
+- Share
+- ChatsCircle
+- Gear
+- Medal
+- File
+- MusicNotes
+- Notepad
+- BellSlash
+- CalendarBlank
+- Camera
+- Check_All
+- Copy
+- Trash_Full
+- 上传
+- 功能
+- 关闭
+- more
+- send
+- sound
+- sound 1
+- $
+- 添加
+- Gif
+- image
+- 观众
+- 促销
+- 订阅
+- 评论列表
+- 喜欢列表
+- 用户头像
+- 消息系统
+- 评论
+- 文章评论功能区
+- 视频评论功能区
+- 聊天
+- 导航
+- 状态
+- Searchbar
+- statusBar
+- homeIndicator
+- 聊天图片
+- 消息记录
+- 资料卡昵称
+- 缩小视频-竖屏
+- 小视频资料卡
+- Cardname
+- Card
+- Status
+- card
+- information card
+- ID
+- 1.Element DM
+- 支付按钮
+- 支付方式
+- 金融标识
+- 弹窗页展示
+- 主页面显示
+- 登陆选项
+- 登陆按钮
+- 转账区
+- Input
+- keyboard
+- Nothing posted yet 1
+
+## Component Specs
+- Frame 94: size 230x66px, radius 6/6/6/0px, horizontal layout, padding 6 12 6 12px, gap 10px, sizing W:fixed H:fixed, fill #F2F3F5, text [Helvetica Neue HelveticaNeue, 16px]
+- Frame 92: size 231x66px, radius 6/6/6/0px, horizontal layout, padding 6 12 6 12px, gap 10px, sizing W:fixed H:fixed, fill #F2F3F5, text [Helvetica Neue HelveticaNeue, 16px]
+- 。。。: size 108x8px, fill #FFFFFF
+- 官方拷来的 Icons: size 24x24px | variants: Property 1: Google - Color/Icon-emoji/Instagram - Color/TikTok - Color/Twitter - Color/Twitter - Light/Variant55/basic/gauge 1/gif/icon-add/icon-add-bank/icon-alert/icon-bookmark-lg/icon-card/icon-close/icon-comment/icon-discount/icon-done/icon-edit/icon-eye/icon-funds/icon-instagram-social/icon-language/icon-lg-following/icon-lists/icon-lists-lg/icon-loading/icon-logout/icon-menu-more/icon-more/icon-mute/icon-plus/icon-poll/icon-price/icon-price-free/icon-quiz/icon-renew/icon-settings/icon-sort/icon-support/icon-theme-dark/icon-tiktok-social/icon-twitter-social/icon-unfollow/icon-verified/icon-wrong/link/live/share/star/star 1/标记/群组
+- Icons: size 24x24px, fill #FFFFFF | variants: Property 1: icon-arrow-down/icon-arrow-left/icon-arrow-right/icon-arrow-up
+- 更多: size 45x8px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed | variants: Property 1: Default/Variant2
+- 图片/视频: size 16x16px, fill #FFFFFF | variants: Property 1: icon-media/icon-video
+- 收藏: size 24x24px, fill #FFFFFF | variants: Property 1: icon-bookmark; Property 2: off/on
+- 喜欢: size 24x24px, fill #FFFFFF | variants: Property 1: icon-like/icon-liked; Property 2: off/on
+- 提醒: size 24x24px, fill #FFFFFF | variants: Property 1: notifications; Property 2: +/r
+- 个人中心: size 24x24px, fill #FFFFFF | variants: Property 1: account; Property 2: off/on
+- 创建: size 40x30px, fill #FFFFFF | variants: Property 1: button/button 选中; Property 2: off/on
+- 搜索: size 24x24px, fill #FFFFFF | variants: Property 1: icon-search; Property 2: off/on
+- 信息: size 24x24px, fill #FFFFFF | variants: Property 1: icon-messages; Property 2: l/off/on
+- 主菜单: size 24x24px, fill #FFFFFF | variants: Property 1: icon-home; Property 2: off/on
+- Promotions: size 60x60px, fill #FFFFFF
+- Likes: size 60x60px, fill #FFFFFF, text [12px - Body 6]
+- Bookmark: size 60x60px, fill #FFFFFF
+- Subscriptions: size 60x60px, fill #FFFFFF
+- Comments: size 60x60px, fill #FFFFFF
+- star: size 24x24px, fill #FFFFFF
+- share: size 24x24px
+- comments: size 24x24px
+-  At : size 24x24px, fill #FFFFFF
+-  Share : size 24x24px, fill #FFFFFF
+- ChatsCircle : size 24x24px, fill #FFFFFF
+-  Gear : size 24x24px, fill #FFFFFF
+- Medal : size 24x24px, fill #FFFFFF
+- File : size 24x24px, fill #FFFFFF
+- MusicNotes : size 24x24px, fill #FFFFFF
+- Notepad : size 24x24px, fill #FFFFFF
+- BellSlash : size 24x24px, fill #FFFFFF
+- CalendarBlank : size 24x24px, fill #FFFFFF
+- Camera : size 24x24px, fill #FFFFFF
+- Check_All: size 24x24px, fill #FFFFFF
+- Copy: size 24x24px, fill #FFFFFF
+- Trash_Full: size 24x24px, fill #FFFFFF
+- 上传: size 24x24px, fill #FFFFFF
+- 功能: size 24x24px, fill #FFFFFF
+- 关闭: size 24x24px, fill #FFFFFF
+- more (Icon): size 24x24px, fill #FFFFFF
+- send: size 24x24px, fill #FFFFFF
+- sound: size 24x24px, fill #FFFFFF
+- sound 1: size 24x24px, fill #FFFFFF
+- $: size 24x24px, horizontal layout, padding 2 2 2 2px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- 添加: size 24x24px, fill #FFFFFF
+- Gif: size 24x24px, fill #FFFFFF
+- image: size 24x24px
+- 观众: size 343x50px, fill #FFFFFF, text [14px - Body 4, 16px - H&B 3m, 16px - H&B 3] | variants: Property 1: 1/2/3/4/5
+- 促销: size 343x50px, fill #FFFFFF, text [14px - Body 4, 16px - H&B 3] | variants: Property 1: Default/Variant2
+- 订阅: size 343x50px, fill #FFFFFF, text [14px - Body 4, 16px - H&B 3m, 16px - H&B 3] | variants: Property 1: Default/Variant2/Variant3/Variant4/Variant5
+- 评论列表: size 343x128px, text [14px - Body 4, 12px - Body 5, 16px - H&B 3] | variants: Property 1: Default/Variant2
+- 喜欢列表: size 343x50px, text [12px - Body 5, 14px - Body 4, 16px - H&B 3] | variants: Property 1: 三天前时间/个人 三天前/个人 年份/个人 最近/多人/多人2/年份时间/最近时间
+- 用户头像: size 100x100px, fill #FFFFFF | variants: 尺寸: 100/50/62/76/80; 状态: 在线/离线; 动态: 动态/无动态
+- 消息系统: size 337x53px, horizontal layout, padding 0 0 0 0px, gap 6px, sizing W:fixed H:fixed, text [14px - Body 4, 12px - Body 5, 16px - H&B 3m] | variants: Property 1: 屏蔽/文字/有图/置顶/群组/群组 常规/群组 置顶
+- 评论: size 343x108px, vertical layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed, text [12px - Body 5, 14px - Body 4] | variants: Property 1: Variant4/评论1/评论2/评论3
+- 文章评论功能区: size 375x56px, fill #FFFFFF, stroke 线条 灰 1px, text [15px - Body, 14px - Body 4] | variants: Property 1: 个什百/千位/点击评论
+- 视频评论功能区: size 375x56px, fill #010101, text [14px - Body 4] | variants: Property 1: 小视频常规/白色/直播常规
+- 聊天: size 375x56px, vertical layout, padding 0 0 0 0px, gap 1px, sizing W:fixed H:fixed | variants: Property 1: +/发送图片/同时/常规/输入时
+- 导航 (其他): size 375x88px, text [Default/Bold/Body] | variants: Property 1: Bar; Property 2: 播放; Property 3: 底部/顶部
+- 状态: size 375x100px, fill #FFFFFF, stroke 线条 灰 1px, text [14px - Body 4, Helvetica Neue Medium, 18px, Default/Bold/Body] | variants: Property 1: not online/online
+- 导航 (其他): size 375x75px | variants: Property 1: 浅色/深色; Property 2: 个人/个人 默认/主页/信息/创建/搜索
+- Searchbar: size 343x39px, radius 6px, horizontal layout, padding 6 121 6 16px, gap 6px, align min/center, sizing W:fixed H:fixed, fill #F4F4F4, stroke 线条 灰 1px, text [15px - Body] | variants: Property 1: after/before
+- statusBar: size 375x44px, fill #FFFFFF, text [Default/Bold/Body] | variants: Property 1: StatusBar; Property 2: iPhone 13; Property 3: On Dark/On Light
+- homeIndicator: size 375x34px, fill #FFFFFF | variants: Property 1: Home Indicator; Property 2: iPhone 13; Property 3: On Dark/On Light
+- 聊天图片: size 235.8x160px, radius 6/6/0/6px, vertical layout, padding 5 6 5 6px, gap 10px, sizing W:fixed H:fixed, fill #F2F3F5 | variants: Property 1: 1/2/3/4/5/更多/视频
+- 消息记录: size 343x89px, radius 8px, fill #FFFFFF, text [14px - Body 4] | variants: Property 1: 有图片/没有图片
+- 资料卡昵称: size 179x52px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [14px - Body 4, 18px - Heading m] | variants: Property 1: 不显示在线/在线
+- 缩小视频-竖屏: size 120x260px | variants: Property 1: 缩小视频-横屏/缩小视频-竖屏; Property 2: 播放中/暂停
+- 小视频资料卡: size 133x36px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [10px - Body 7, 12px - Body 6] | variants: Property 1: not online/online/直播类/直播类2/聊天在线
+- Cardname: size 96x50px, fill #FFFFFF, text [14px - Body 4, 16px - H&B 3m] | variants: Property 1: Certified/Not certified
+- Card: size 180x76px, fill #FFFFFF, text [14px - Body 4, 16px - H&B 3m] | variants: Property 1: Certified/Not certified
+- Status: size 76x76px, fill #FFFFFF | variants: 状态: free not online/free online/not online/online
+- card: size 375x210px, fill #FFFFFF | variants: 分类: 单项锁定/深色 图片类型/深色 视频类型1/深色 视频类型2/聊天/购买解锁/锁定/锁定图片/长图/长图短视频/长视频; Property 2: card; Property 3: 全部/图片/录像/横纵视频/视频/选中
+- information card: size 375x478px, text [16px - H&B 3, 14px - Body 4, Helvetica Neue Medium, 14px, 14px - Body 4m] | variants: Property 1: 3/单独解锁/图片/禁止/视频/锁定免费/长方形图/长方形视频
+- ID: size 98x50px, text [14px - Body 4, 16px - H&B 3] | variants: Property 1: name; Property 2: Certified/Non-certified; Property 3: day/hour/off/on
+- 1.Element DM: size 51x31px | variants: Property 1: Switch; Property 2: OFF/ON
+- 支付按钮: size 296x44px, text [14px - Body 4m] | variants: Property 1: 完成/滑动中/滑动按钮
+- 支付方式: size 296.33x44px, radius 8px, vertical layout, padding 11 12 11 12px, gap 10px, sizing W:fixed H:fixed, fill #D9D9D9, stroke 线条 灰 1px, text [14px - Body 4m, 12px - Body 5m] | variants: Property 1: PAYPAL/VISA/Variant6/Variant7/gapy/下拉/下拉2
+- 金融标识: size 23.33x16px, fill #FFFFFF | variants: Property 1: GooglePay/PayPal/Visa
+- 弹窗页展示: size 303x46px, text [12px - Body 5m] | variants: Property 1: 弹窗展示; Property 2: 半年/季费/年费/月费
+- 主页面显示: size 343x46px, text [14px - Body 4m] | variants: 类型: 已订阅金额/未订阅金额/未订阅金额2
+- 登陆选项: size 16x16px | variants: Property 1: Remember me/checkbox; Property 2: off/on
+- 登陆按钮: size 327x46px, text [16px - H&B 3] | variants: 类型: sign in/sign up; 状态: off/on
+- 转账区: size 315x77px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [14px - Body 4, Helvetica Neue Medium, 40px] | variants: Property 1: 可支付/常规/错误
+- Input: size 327x35px | variants: Property 1: email/name/password; Property 2: error/focus/off/on
+- keyboard: size 375x335px, fill #D1D5DB, effect [background_blur 108.73px], text [SF Pro Text Regular, 22.5px, SF Pro Text Regular, 16px] | variants: mode: dark/light
+- 喜欢列表/多人: size 40x44px, fill #FFFFFF
+- 喜欢列表/Frame 128: size 50x50px, radius 100px, fill #FFFFFF, text [12px - Body 5]
+- Nothing posted yet 1: size 303x148px, fill #FFFFFF
+- 支付方式/媒体标识: size 292x32px, horizontal layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, text [14px - Body 4]
+- more (其他): size 217x150px, radius 8px, fill #FFFFFF, effect [drop_shadow 64px offset 0 8 #0000001A], text [16px - H&B 3]
+
+## Most-Used Styles
+- 主色 文字 黑: 1141 uses
+- 主色 文字 白: 831 uses
+- 14px - Body 4: 564 uses
+- 主色 文字 浅灰: 444 uses
+- logo 色 主: 343 uses
+- 14px - Body 4m: 320 uses
+- 图标状态 默认: 299 uses
+- 线条 灰: 281 uses
+- 主色 文字 灰: 218 uses
+- Label Color/Light/Primary: 196 uses
+- 16px - H&B 3: 191 uses
+- 16px - H&B 3m: 112 uses
+- 12px - Body 5: 79 uses
+- 状态 常规: 75 uses
+- Default/Bold/Body: 74 uses
+- 15px - Body: 69 uses
+- 12px - Body 5m: 44 uses
+- 状态 错误&提示: 42 uses
+- 输入框: 28 uses
+- 状态 禁用: 24 uses
+- 12px - Body 6: 22 uses
+- 18px - Heading m: 16 uses
+- logo 色 辅: 16 uses
+- Label Color / Light / Primary: 8 uses
+- 10px - Body 7: 7 uses
+- System Materials/Background/Ultrathin/Dark (Add Blur): 7 uses
+- System Materials/Unltra Thin (Match with BG): 7 uses
+- Dark/100%: 6 uses
+- 15px - Body m: 5 uses
+- 24px - Heading 1: 5 uses
+- Light Colors/Light gray - Light: 5 uses
+- Light Colors/White - Light: 5 uses
+- Label Color / Dark / Primary: 1 use
+- cool-gray/900: 1 use
+- tint/iconGray/light: 1 use
+
+## Layout & Structure
+Screen: 封面 / post - 1
+- FRAME "post - 1", 1200x675px, constraints left/top, fill #2C2C2C
+  - FRAME "Frame 2", 608x232px, constraints left/top, radius 30px, fill #F4F4F4
+    - GROUP "wenzi", 562.12x150px, constraints left/top
+      - TEXT "Making a little better, but not so kid-friendly.", 562.12x150px, constraints left/top, fill #000000, text [Plus Jakarta Sans SemiBold, 40px], [heading]
+      - FRAME "OnlyFans_logo 4", 192x33px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+    - VECTOR "Vector 2", 113x96px, constraints left/top, fill #FCD346
+  - FRAME "Frame 3", 255x192px, constraints left/top, radius 30px, fill #F4F4F4
+    - RECTANGLE "Mockup_副本 1", 193x294px, constraints left/top, fill image(hash: 31e49cb4d3526fbaf3de07070d8216320b3011ae)
+  - FRAME "Frame 4", 255x192px, constraints left/top, radius 30px, fill #F4F4F4
+    - VECTOR "10001 2", 97x97px, constraints left/top, fill gradient_linear(#00AEEF 0% | #0094EA 80%)
+    - FRAME "Frame 94", 96x97px, constraints left/top, radius 12.72px, fill #FFFFFF
+      - VECTOR "path8", 46.25x46.73px, constraints scale/scale, fill #FFC600B6
+      - VECTOR "path10", 46.25x46.73px, constraints scale/scale, fill #0071CE
+  - FRAME "Frame 9", 356x192px, constraints left/top, radius 30px, fill #F4F4F4
+    - FRAME "37", 356x251px, constraints left/top, fill image(hash: 86e4790b35d470be34483b97da2721a6f803951a)
+  - FRAME "Frame 10", 242x192px, constraints left/top, radius 30px, fill #F4F4F4
+    - TEXT "A simple, yet effective video player", 226x50px, constraints left/top, fill #000000, text [Plus Jakarta Sans Bold, 20px]
+    - RECTANGLE "WX20230603-132248@2x 1", 220x118px, constraints left/top, fill image(hash: b04c2a1d63a253312e4f86fc137526022e115a5b)
+  - FRAME "Frame 8", 255x192px, constraints left/top, radius 30px, fill #F4F4F4
+    - FRAME "42", 313x220px, constraints left/top, fill image(hash: f590cc13f0ce8e8f6f921fe09cb29d2d6214c95e)
+  - FRAME "Frame 11", 608x192px, constraints left/top, radius 30px, fill #F4F4F4
+    - GROUP "Group 77725644", 720.42x232.09px, constraints left/top [decorative, ~7 shapes]
+    - TEXT "Any time is the time to achieve.", 262.34x20.92px, constraints left/top, fill #000000, text [Plus Jakarta Sans SemiBold, 16px]
+  - FRAME "Frame 7", 255x232px, constraints left/top, radius 30px, fill #F4F4F4 [decorative, ~4 shapes]
+  - FRAME "Frame 5", 255x130px, constraints left/top, radius 30px, fill #0071CE
+    - RECTANGLE "Scene 14 3", 340x179px, constraints left/top, fill image(hash: 2a9e5490afe4a69c435b345d23d19f35bba64c36)
+  - FRAME "Frame 6", 255x294px, constraints left/top, radius 30px, fill #FCD346
+    - RECTANGLE "Mockup 1", 487x262px, constraints left/top, fill image(hash: a664834ea40081372597d53ef0cb33cbc6534ea6)
+
+Screen: 主页面详情页及信息聊天页面 / 消息&Message/查看图片/大图
+- FRAME "消息&Message/查看图片/大图", 375x812px, constraints left/top, radius 30px, fill #000000
+  - RECTANGLE "Rectangle 1922", 375x812px, constraints left/top, fill image(hash: 42d079ec1469755e58ee037ba8371d4b99a4b428)
+  - INSTANCE "statusBar", 375x44px, constraints left/top, fill #00000080
+    - INSTANCE "StatusBar / iPhone 13/black", 375x44px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "StatusBar / iPhone 13/dark", 375x44px, constraints scale/scale, fill #333333
+        - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+          - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+            - TEXT "9:41", 54x20px, constraints left/top, fill #FFFFFF, text [Default/Bold/Body]
+        - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - FRAME "头部", 375x50px, constraints left/top, fill #00000080
+    - FRAME "Frame 87", 144x27px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Jeneva G Taylor", 118x27px, constraints left/top, fill 主色 文字 白, text [16px - H&B 3m]
+      - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18.33x17.55px, constraints scale/scale, fill 主色 文字 白
+    - FRAME "Frame 111", 109x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "2023/02/23 14:09", 99x20px, constraints left/top, fill #FFFFFF, text [12px - Body 5]
+      - INSTANCE "Icons", 10x10px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 3.58x5.98px, constraints scale/scale, fill 主色 文字 白
+    - INSTANCE "功能", 24x24px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 18x18px, constraints left/top, fill 主色 文字 白
+    - INSTANCE "x", 24x24px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 11.81x11.75px, constraints left/top, fill 主色 文字 白
+  - INSTANCE "homeIndicator", 375x34px, constraints left/top, fill #00000080
+    - RECTANGLE "Rectangle 24", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF, stroke #979797 0px
+  - FRAME "状态", 375x56px, constraints left/top, fill #00000080
+    - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 9x4.5px, constraints scale/scale, stroke 主色 文字 白 1.5px
+      - VECTOR "Vector", 0x12px, constraints scale/scale, stroke 主色 文字 白 1.5px
+      - VECTOR "Vector 778", 18x6px, constraints left/top, radius 2px, stroke 主色 文字 白 1.5px
+    - INSTANCE "Icons", 24x24px, constraints left/top
+      - VECTOR "Icon", 18x18px, constraints scale/scale, stroke logo 色 主 1.5px
+    - INSTANCE "Trash_Full", 24x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Interface / Trash_Full", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 0x7px, constraints scale/scale, stroke 主色 文字 白 1.5px
+        - VECTOR "Vector", 0x7px, constraints scale/scale, stroke 主色 文字 白 1.5px
+        - VECTOR "Vector", 12x15px, constraints scale/scale, stroke 主色 文字 白 1.5px
+        - VECTOR "Vector", 16x0px, constraints scale/scale, stroke 主色 文字 白 1.5px
+        - VECTOR "Vector", 8x3px, constraints scale/scale, stroke 主色 文字 白 1.5px
+  - FRAME "Frame 5", 47.17x230px, vertical pad 0 8.58 0 8.58px gap 20px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "care", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill gradient_linear(#F28A2D 0% | #FDE86F 100%)
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill gradient_radial(#F28A2D00 0% | #F0842357 100%)
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill gradient_radial(#F28A2D80 0% | #F28A2D00 100%)
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill gradient_radial(#F28A2D80 0% | #F28A2D00 100%)
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill gradient_radial(#D45F0026 0% | #F28A2D00 100%)
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill gradient_radial(#D45F0026 0% | #D45F0000 100%)
+      - VECTOR "Vector", 6.41x1.73px, constraints scale/scale, fill gradient_linear(#482314 0% | #9A4111 100%)
+      - VECTOR "Vector", 3.94x4.53px, constraints scale/scale, fill gradient_radial(#3B446B 0% | #202340 69%)
+      - VECTOR "Vector", 1.2x1.29px, constraints scale/scale, fill #4E506A
+      - VECTOR "Vector", 4.12x4.53px, constraints scale/scale, fill gradient_radial(#3B446B 0% | #202340 69%)
+      - VECTOR "Vector", 1.09x1.36px, constraints scale/scale, fill #4E506A
+      - VECTOR "Vector", 6.6x2.52px, constraints scale/scale, fill gradient_radial(#E38200 0% | #CD6700 100%)
+      - VECTOR "Vector", 6.63x2.59px, constraints scale/scale, fill gradient_radial(#E38200 0% | #CD6700 100%)
+      - VECTOR "Vector", 18.22x17.09px, constraints scale/scale, fill gradient_linear(#F34462 0% | #CC0820 100%)
+      - VECTOR "Vector", 18.22x17.09px, constraints scale/scale, fill gradient_radial(#FF7091B2 0% | #FE6D8E00 100%)
+      - VECTOR "Vector", 18.22x17.09px, constraints scale/scale, fill gradient_radial(#FF7091B2 0% | #FE6D8E00 100%)
+      - VECTOR "Vector", 18.22x17.09px, constraints scale/scale, fill gradient_radial(#9C0600 0% | #9C060000 100%)
+      - VECTOR "Vector", 18.22x17.09px, constraints scale/scale, fill gradient_radial(#9C060080 0% | #9C060000 100%)
+      - VECTOR "Vector", 18.22x17.09px, constraints scale/scale, fill gradient_radial(#9C060080 0% | #9C060000 100%)
+      - VECTOR "Vector", 18.22x17.09px, constraints scale/scale, fill gradient_radial(#9C0600 0% | #9C060000 100%)
+      - GROUP "u", 30x30px, constraints scale/scale
+        - VECTOR "Vector", 30x30px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 12.79x10.2px, constraints scale/scale, fill gradient_radial(#EDA83A 0% | #FFDC5E 100%)
+      - VECTOR "Vector", 15.27x13.67px, constraints scale/scale, fill gradient_radial(#EDA83A 0% | #FFDC5E 100%)
+    - INSTANCE "haha", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill gradient_linear(#FEEA70 0% | #F69B30 100%)
+      - VECTOR "Vector", 18.75x13.12px, constraints scale/scale, fill gradient_linear(#472315 0% | #8B3A0E 100%)
+      - VECTOR "Vector", 12.99x5.62px, constraints scale/scale, fill gradient_linear(#FC607C 0% | #D91F3A 100%)
+      - VECTOR "Vector", 18.75x5.62px, constraints scale/scale, fill #2A3755
+    - INSTANCE "wow", 30x30px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 30x30px, constraints scale/scale [decorative, ~7 shapes]
+    - INSTANCE "like", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill gradient_linear(#18AFFF 0% | #0062DF 100%)
+      - VECTOR "Vector", 17.81x16.88px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "love", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill gradient_linear(#FF6680 0% | #E61739 100%)
+      - VECTOR "Vector", 18.75x16.41px, constraints scale/scale, fill #FFFFFF
+
+Screen: 主页面详情页及信息聊天页面 / 历史图片&视频/查看图片
+- FRAME "历史图片&视频/查看图片", 375x812px, constraints left/top, radius 30px, fill #000000
+  - RECTANGLE "Rectangle 1922", 375x812px, constraints left/top, fill image(hash: 42d079ec1469755e58ee037ba8371d4b99a4b428)
+  - INSTANCE "statusBar", 375x44px, constraints left/top, fill #00000080
+    - INSTANCE "StatusBar / iPhone 13/black", 375x44px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "StatusBar / iPhone 13/dark", 375x44px, constraints scale/scale, fill #333333
+        - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+          - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+            - TEXT "9:41", 54x20px, constraints left/top, fill #FFFFFF, text [Default/Bold/Body]
+        - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - FRAME "头部", 375x50px, constraints left/top, fill #00000080
+    - FRAME "Frame 87", 144x27px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Jeneva G Taylor", 118x27px, constraints left/top, fill 主色 文字 白, text [16px - H&B 3m]
+      - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18.33x17.55px, constraints scale/scale, fill 主色 文字 白
+    - FRAME "Frame 111", 109x20px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "2023/02/23 14:09", 99x20px, constraints left/top, fill #FFFFFF, text [12px - Body 5]
+      - INSTANCE "Icons", 10x10px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 3.58x5.98px, constraints scale/scale, fill 主色 文字 白
+    - INSTANCE "x", 24x24px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 11.81x11.75px, constraints left/top, fill 主色 文字 白
+  - INSTANCE "homeIndicator", 375x34px, constraints left/top, fill #00000080
+    - RECTANGLE "Rectangle 24", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF, stroke #979797 0px
+  - FRAME "状态", 375x56px, constraints left/top, fill #00000080
+    - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 9x4.5px, constraints scale/scale, stroke 主色 文字 白 1.5px
+      - VECTOR "Vector", 0x12px, constraints scale/scale, stroke 主色 文字 白 1.5px
+      - VECTOR "Vector 778", 18x6px, constraints left/top, radius 2px, stroke 主色 文字 白 1.5px
+    - INSTANCE "Trash_Full", 24x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Interface / Trash_Full", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 0x7px, constraints scale/scale, stroke 主色 文字 白 1.5px
+        - VECTOR "Vector", 0x7px, constraints scale/scale, stroke 主色 文字 白 1.5px
+        - VECTOR "Vector", 12x15px, constraints scale/scale, stroke 主色 文字 白 1.5px
+        - VECTOR "Vector", 16x0px, constraints scale/scale, stroke 主色 文字 白 1.5px
+        - VECTOR "Vector", 8x3px, constraints scale/scale, stroke 主色 文字 白 1.5px
+  - RECTANGLE "Rectangle 1924", 57x24px, constraints left/top, radius 12px, fill #00000080
+  - TEXT "2 / 5", 31x27px, constraints left/top, fill #FFFFFF, text [15px - Body m]
+
+Screen: 主页面详情页及信息聊天页面 / 首页
+- FRAME "首页", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "Body1", 375x50px, constraints left/top
+    - FRAME "OnlyFans_logo 1", 140x25px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+    - INSTANCE "提醒", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 18.82x18px, constraints scale/scale, fill 主色 文字 黑
+      - ELLIPSE "Ellipse 15", 9x9px, constraints scale/scale, fill logo 色 主, stroke #FFFFFF 1.5px
+  - INSTANCE "image", 62x95px, vertical pad 0 0 0 0px gap 11px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 5", 62x62px, constraints left/top
+      - ELLIPSE "Ellipse 18", 62x62px, constraints left/top, fill image(hash: 98993b510e0d85b41be3af167256029184627ad4)
+      - ELLIPSE "Ellipse 19", 20x20px, constraints left/top, fill 状态 常规, stroke #FFFFFF 2px
+    - TEXT "You", 24x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - INSTANCE "image2", 69.98x97.98px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 2", 69.98x69.98px, constraints left/top [decorative, ~4 shapes]
+    - TEXT "saika_ka...", 66x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - INSTANCE "image3", 69.96x97.96px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 3", 69.96x69.96px, constraints left/top [decorative, ~4 shapes]
+    - TEXT "leeesove...", 67x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - INSTANCE "image4", 70x98px, constraints left/top
+    - GROUP "Group 1", 69.98x69.98px, constraints left/top [decorative, ~4 shapes]
+    - TEXT "saaik_", 40x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+    - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14.67x14.04px, constraints scale/scale, fill 主色 文字 黑
+  - INSTANCE "image5", 69.98x97.98px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 4", 69.98x69.98px, constraints left/top [decorative, ~4 shapes]
+    - TEXT "honkonh", 55x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - LINE "Line 26", 375x0px, constraints left/top, stroke #F0F0F0 1px
+  - FRAME "Frame 61", 375x942px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "information card", 375x444px, constraints left/top
+      - LINE "Line 26", 375x0px, constraints left/top, stroke 线条 灰 1px
+      - GROUP "图片", 62x46.75px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 浅灰, opacity 50%
+        - INSTANCE "图片/视频", 16x14.86px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 12x11.15px, constraints scale/scale, fill 主色 文字 白
+        - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - FRAME "Frame 57", 375x246px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "card", 375x210px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "P1", 375x210px, constraints scale/scale, fill image(hash: 95b4bce9eb8ecdba3a95639bd9e0fb8da8a6b456)
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - GROUP "图片", 62x26px, constraints scale/scale, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 灰, opacity 50%
+            - INSTANCE "图片/视频", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+        - GROUP "Group 12", 343x24px, constraints left/top
+          - FRAME "Frame 16", 48x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "3K", 18x22px, constraints left/top, fill 图标状态 默认, text [14px - Body 4m]
+          - FRAME "Frame 17", 67x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "喜欢", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "14.4K", 37x22px, constraints left/top, fill 图标状态 默认, text [14px - Body 4m]
+          - FRAME "$", 87x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 24x24px, constraints scale/scale, fill #FFFFFF
+            - TEXT "$500 TIP", 57x22px, constraints left/top, fill 图标状态 默认, text [14px - Body 4m]
+          - INSTANCE "收藏", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x19px, constraints scale/scale, fill 图标状态 默认
+      - FRAME "Frame 58", 343x170px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "ID", 343x50px, horizontal pad 0 0 0 0px gap 75px align center/min sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "ID", 149x50px, constraints left/top
+            - FRAME "Frame 73", 125x50px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 7", 119x24px, horizontal pad 0 0 0 0px gap 12px align space_between/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "13 hours ago", 82x22px, constraints left/top, fill 主色 文字 浅灰, text [14px - Body 4]
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - TEXT "New year celebration No.1 🎉 Hit likes 💙 to all my posts to w", 343x108px, constraints left/top, fill 主色 文字 黑, text [16px - H&B 3]
+    - INSTANCE "information card", 375x478px, constraints left/top
+      - LINE "Line 26", 375x0px, constraints left/top, stroke 线条 灰 1px
+      - GROUP "图片", 62x26px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 灰, opacity 50%
+        - INSTANCE "图片/视频", 16x16px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, fill 主色 文字 白
+        - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - FRAME "Frame 55", 375x280px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "card", 375x210px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "P1", 375x210px, constraints scale/scale, fill image(hash: 95b4bce9eb8ecdba3a95639bd9e0fb8da8a6b456)
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - GROUP "图片", 62x26px, constraints scale/scale, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 灰, opacity 50%
+            - INSTANCE "图片/视频", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+        - FRAME "Frame 54", 343x58px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 12", 343x24px, horizontal pad 0 0 0 0px gap 137px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "图标", 182x24px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "收藏", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "文字", 261x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "14.4K Likes", 74x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+            - ELLIPSE "Ellipse 23", 4x4px, constraints left/top, fill 主色 文字 灰
+            - TEXT "3K Comments", 90x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+            - ELLIPSE "Ellipse 24", 4x4px, constraints left/top, fill 主色 文字 灰
+            - TEXT "$500 TIP", 57x22px, constraints left/top, fill 主色 文字 黑, text [Helvetica Neue Medium, 14px]
+      - FRAME "Frame 59", 343x170px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "ID", 343x50px, horizontal pad 0 0 0 0px gap 75px align center/min sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "ID", 149x50px, constraints left/top
+            - FRAME "Frame 73", 125x50px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 7", 119x24px, horizontal pad 0 0 0 0px gap 12px align space_between/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "13 hours ago", 82x22px, constraints left/top, fill 主色 文字 浅灰, text [14px - Body 4]
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - TEXT "New year celebration No.1 🎉 Hit likes 💙 to all my posts to w", 343x108px, constraints left/top, fill 主色 文字 黑, text [16px - H&B 3]
+  - INSTANCE "statusBar", 375x44px, constraints left/top, fill #FFFFFF
+    - INSTANCE "StatusBar / iPhone 13", 375x44px, constraints scale/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill #010101, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - INSTANCE "导航", 375x75px, constraints left/top
+    - RECTANGLE "Rectangle 1", 375x75px, constraints scale/scale, fill gradient_linear(#FFFFFF4D 0% | #FFFFFF4D 100%), effect [background_blur 50px]
+    - FRAME "菜单", 312x32px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints scale/scale
+      - INSTANCE "主菜单", 32x32px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "主菜单", 32x32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 26x23.99px, constraints scale/scale, fill logo 色 主
+        - VECTOR "Vector 2", 18x20.67px, constraints scale/scale, stroke #000000 1px
+      - INSTANCE "搜索", 32x32px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill 主色 文字 灰
+      - INSTANCE "创建", 40x30px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 10", 40x30px, constraints scale/scale, radius 8px, fill logo 色 主
+        - INSTANCE "Icons", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, fill 主色 文字 白
+      - INSTANCE "信息", 32x32px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 22.67x25.33px, constraints scale/scale, fill 主色 文字 灰
+      - INSTANCE "个人中心", 32x32px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 26", 32x32px, constraints scale/scale, fill image(hash: 61bed28ab486792b198ea968661cf3d8aa79c486)
+  - INSTANCE "homeIndicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 24", 134x5px, constraints center/bottom, radius 100px, fill #000000, stroke #979797 0px
+
+Screen: 主页面详情页及信息聊天页面 / 首页 初始状态
+- FRAME "首页 初始状态", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "Body1", 375x50px, constraints left/top
+    - FRAME "OnlyFans_logo 1", 140x25px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+    - INSTANCE "提醒", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 18.82x18px, constraints scale/scale, fill 主色 文字 黑
+      - ELLIPSE "Ellipse 15", 9x9px, constraints scale/scale, fill logo 色 主, stroke #FFFFFF 1.5px
+  - INSTANCE "image", 62x95px, vertical pad 0 0 0 0px gap 11px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 5", 62x62px, constraints left/top
+      - ELLIPSE "Ellipse 18", 62x62px, constraints left/top, fill image(hash: 98993b510e0d85b41be3af167256029184627ad4)
+      - ELLIPSE "Ellipse 19", 20x20px, constraints left/top, fill 状态 常规, stroke #FFFFFF 2px
+    - TEXT "You", 24x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - INSTANCE "image5", 62x95px, vertical pad 0 0 0 0px gap 11px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 5", 62x62px, constraints left/top
+      - ELLIPSE "Ellipse 18", 62x62px, constraints left/top, fill 线条 灰, stroke #FFFFFF 1px
+      - INSTANCE "+", 30x30px, constraints left/top, fill #FFFFFF
+        - VECTOR "02", 1.88x20px, constraints left/top, radius 12.5px, fill 主色 文字 黑
+        - VECTOR "01", 20x1.88px, constraints left/top, radius 12.5px, fill 主色 文字 黑
+    - TEXT "Add Friends", 26x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - LINE "Line 26", 375x0px, constraints left/top, stroke 线条 灰 1px
+  - FRAME "Frame 61", 375x942px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "information card", 375x444px, constraints left/top
+      - LINE "Line 26", 375x0px, constraints left/top, stroke 线条 灰 1px
+      - GROUP "图片", 62x46.75px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 浅灰, opacity 50%
+        - INSTANCE "图片/视频", 16x14.86px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 12x11.15px, constraints scale/scale, fill 主色 文字 白
+        - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - FRAME "Frame 57", 375x246px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "card", 375x210px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "P1", 375x210px, constraints scale/scale, fill image(hash: 95b4bce9eb8ecdba3a95639bd9e0fb8da8a6b456)
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - GROUP "图片", 62x26px, constraints scale/scale, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 灰, opacity 50%
+            - INSTANCE "图片/视频", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+        - GROUP "Group 12", 343x24px, constraints left/top
+          - FRAME "Frame 16", 48x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "3K", 18x22px, constraints left/top, fill 图标状态 默认, text [14px - Body 4m]
+          - FRAME "Frame 17", 67x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "喜欢", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "14.4K", 37x22px, constraints left/top, fill 图标状态 默认, text [14px - Body 4m]
+          - FRAME "$", 87x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 24x24px, constraints scale/scale, fill #FFFFFF
+            - TEXT "$500 TIP", 57x22px, constraints left/top, fill 图标状态 默认, text [14px - Body 4m]
+          - INSTANCE "收藏", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x19px, constraints scale/scale, fill 图标状态 默认
+      - FRAME "Frame 58", 343x170px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "ID", 343x50px, horizontal pad 0 0 0 0px gap 75px align center/min sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "ID", 149x50px, constraints left/top
+            - FRAME "Frame 73", 125x50px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 7", 119x24px, horizontal pad 0 0 0 0px gap 12px align space_between/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "13 hours ago", 82x22px, constraints left/top, fill 主色 文字 浅灰, text [14px - Body 4]
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - TEXT "New year celebration No.1 🎉 Hit likes 💙 to all my posts to w", 343x108px, constraints left/top, fill 主色 文字 黑, text [16px - H&B 3]
+    - INSTANCE "information card", 375x478px, constraints left/top
+      - LINE "Line 26", 375x0px, constraints left/top, stroke 线条 灰 1px
+      - GROUP "图片", 62x26px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 灰, opacity 50%
+        - INSTANCE "图片/视频", 16x16px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, fill 主色 文字 白
+        - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - FRAME "Frame 55", 375x280px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "card", 375x210px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "P1", 375x210px, constraints scale/scale, fill image(hash: 95b4bce9eb8ecdba3a95639bd9e0fb8da8a6b456)
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - GROUP "图片", 62x26px, constraints scale/scale, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 灰, opacity 50%
+            - INSTANCE "图片/视频", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+        - FRAME "Frame 54", 343x58px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 12", 343x24px, horizontal pad 0 0 0 0px gap 137px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "图标", 182x24px, horizontal pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "收藏", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "文字", 261x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "14.4K Likes", 74x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+            - ELLIPSE "Ellipse 23", 4x4px, constraints left/top, fill 主色 文字 灰
+            - TEXT "3K Comments", 90x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+            - ELLIPSE "Ellipse 24", 4x4px, constraints left/top, fill 主色 文字 灰
+            - TEXT "$500 TIP", 57x22px, constraints left/top, fill 主色 文字 黑, text [Helvetica Neue Medium, 14px]
+      - FRAME "Frame 59", 343x170px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "ID", 343x50px, horizontal pad 0 0 0 0px gap 75px align center/min sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "ID", 149x50px, constraints left/top
+            - FRAME "Frame 73", 125x50px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 7", 119x24px, horizontal pad 0 0 0 0px gap 12px align space_between/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "13 hours ago", 82x22px, constraints left/top, fill 主色 文字 浅灰, text [14px - Body 4]
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - TEXT "New year celebration No.1 🎉 Hit likes 💙 to all my posts to w", 343x108px, constraints left/top, fill 主色 文字 黑, text [16px - H&B 3]
+  - INSTANCE "statusBar", 375x44px, constraints left/top, fill #FFFFFF
+    - INSTANCE "StatusBar / iPhone 13", 375x44px, constraints scale/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill #010101, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - INSTANCE "导航", 375x75px, constraints left/top
+    - RECTANGLE "Rectangle 1", 375x75px, constraints scale/scale, fill gradient_linear(#FFFFFF4D 0% | #FFFFFF4D 100%), effect [background_blur 50px]
+    - FRAME "菜单", 312x32px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints scale/scale
+      - INSTANCE "主菜单", 32x32px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "主菜单", 32x32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 26x23.99px, constraints scale/scale, fill logo 色 主
+        - VECTOR "Vector 2", 18x20.67px, constraints scale/scale, stroke #000000 1px
+      - INSTANCE "搜索", 32x32px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill 主色 文字 灰
+      - INSTANCE "创建", 40x30px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 10", 40x30px, constraints scale/scale, radius 8px, fill logo 色 主
+        - INSTANCE "Icons", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, fill 主色 文字 白
+      - INSTANCE "信息", 32x32px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 22.67x25.33px, constraints scale/scale, fill 主色 文字 灰
+      - INSTANCE "个人中心", 32x32px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 26", 32x32px, constraints scale/scale, fill image(hash: 61bed28ab486792b198ea968661cf3d8aa79c486)
+  - INSTANCE "homeIndicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 24", 134x5px, constraints center/bottom, radius 100px, fill #000000, stroke #979797 0px
+
+Screen: 主页面详情页及信息聊天页面 / 首页打开
+- FRAME "首页打开", 375x1316px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "Body1", 375x50px, constraints left/top
+    - FRAME "OnlyFans_logo 1", 140x25px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+    - INSTANCE "提醒", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 18.82x18px, constraints scale/scale, fill 主色 文字 黑
+      - ELLIPSE "Ellipse 15", 9x9px, constraints scale/scale, fill logo 色 主, stroke #FFFFFF 1.5px
+  - INSTANCE "image", 62x95px, vertical pad 0 0 0 0px gap 11px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 5", 62x62px, constraints left/top
+      - ELLIPSE "Ellipse 18", 62x62px, constraints left/top, fill image(hash: 98993b510e0d85b41be3af167256029184627ad4)
+      - ELLIPSE "Ellipse 19", 20x20px, constraints left/top, fill 状态 常规, stroke #FFFFFF 2px
+    - TEXT "You", 24x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - INSTANCE "image2", 69.98x97.98px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 2", 69.98x69.98px, constraints left/top [decorative, ~4 shapes]
+    - TEXT "saika_ka...", 66x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - INSTANCE "image3", 69.96x97.96px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 3", 69.96x69.96px, constraints left/top [decorative, ~4 shapes]
+    - TEXT "leeesove...", 67x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - INSTANCE "image4", 70x98px, constraints left/top
+    - GROUP "Group 1", 69.98x69.98px, constraints left/top [decorative, ~4 shapes]
+    - TEXT "saaik_", 40x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+    - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 14.67x14.04px, constraints scale/scale, fill 主色 文字 黑
+  - INSTANCE "image5", 69.98x97.98px, vertical pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 4", 69.98x69.98px, constraints left/top [decorative, ~4 shapes]
+    - TEXT "honkonh", 55x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+  - LINE "Line 26", 375x0px, constraints left/top, stroke 线条 灰 1px
+  - FRAME "Frame 60", 375x1332px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "information card", 375x444px, constraints left/top
+      - LINE "Line 26", 375x0px, constraints left/top, stroke 线条 灰 1px
+      - GROUP "图片", 62x46.75px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 浅灰, opacity 50%
+        - INSTANCE "图片/视频", 16x14.86px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 12x11.15px, constraints scale/scale, fill 主色 文字 白
+        - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - FRAME "Frame 57", 375x246px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "card", 375x210px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "P1", 375x210px, constraints scale/scale, fill image(hash: 95b4bce9eb8ecdba3a95639bd9e0fb8da8a6b456)
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 8.58x14.34px, constraints scale/scale, fill 主色 文字 白
+          - GROUP "图片", 62x26px, constraints scale/scale, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 9", 62x26px, constraints left/top, radius 4px, fill 主色 文字 灰, opacity 50%
+            - INSTANCE "图片/视频", 16x16px, constraints left/top, fill #FFFFFF
+            - TEXT "1/6", 21x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+        - GROUP "Group 12", 343x24px, constraints left/top
+          - FRAME "Frame 16", 48x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "3K", 18x22px, constraints left/top, fill 图标状态 默认, text [14px - Body 4m]
+          - FRAME "Frame 17", 67x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "喜欢", 24x24px, constraints left/top, fill #FFFFFF
+            - TEXT "14.4K", 37x22px, constraints left/top, fill 图标状态 默认, text [14px - Body 4m]
+          - FRAME "$", 87x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 24x24px, constraints scale/scale, fill #FFFFFF
+            - TEXT "$500 TIP", 57x22px, constraints left/top, fill 图标状态 默认, text [14px - Body 4m]
+          - INSTANCE "收藏", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icons/icon-bookmark/on", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector 1", 12.5x15.5px, constraints scale/scale, fill logo 色 主, stroke #000000 1px
+      - FRAME "Frame 58", 343x170px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "ID", 343x50px, horizontal pad 0 0 0 0px gap 75px align center/min sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "ID", 149x50px, constraints left/top
+            - FRAME "Frame 73", 125x50px, constraints left/top
+            - INSTANCE "Icons", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 7", 119x24px, horizontal pad 0 0 0 0px gap 12px align space_between/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "13 hours ago", 82x22px, constraints left/top, fill 主色 文字 浅灰, text [14px - Body 4]
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - TEXT "New year celebration No.1 🎉 Hit likes 💙 to all my posts to w", 343x108px, constraints left/top, fill 主色 文字 黑, text [16px - H&B 3]
+    - INSTANCE "information card", 375x424px, constraints left/top
+      - FRAME "Frame 11", 343x116px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "ID", 343x50px, horizontal pad 0 0 0 0px gap 75px align center/min sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "ID", 149x50px, constraints left/top
+            - FRAME "Frame 6", 125x50px, horizontal pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 119x24px, horizontal pad 0 0 0 0px gap 12px align max/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Yesterday", 61x22px, constraints left/top, fill 主色 文字 浅灰, text [14px - Body 4]
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - TEXT "New year celebration No.1 🎉 Let's play games together onlyfa", 343x54px, constraints left/top, fill 主色 文字 黑, text [16px - H&B 3]
+      - LINE "Line 26", 375x0px, constraints left/top, stroke 线条 灰 1px
+      - FRAME "Frame 56", 375x280px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "card", 375x210px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "P1", 375x210px, constraints scale/scale, fill image(hash: 9af3a14e38bbbad549eb8a518027e71a7d7641da)
+          - GROUP "Group 6", 64x64px, constraints scale/scale
+            - ELLIPSE "Ellipse 25", 64x64px, constraints left/top, fill 主色 文字 黑, effect [drop_shadow 4px offset 0 4 #00000040], opacity 50%
+            - REGULAR_POLYGON "Polygon 1", 33x33px, constraints left/top, fill 主色 文字 白
+        - FRAME "Frame 53", 343x58px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 11", 343x24px, constraints left/top
+            - INSTANCE "喜欢", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - FRAME "$", 94x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "收藏", 24x24px, constraints left/top, fill #FFFFFF
+          - TEXT "14.4K Likes", 74x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+    - INSTANCE "information card", 375x424px, constraints left/top
+      - FRAME "Frame 11", 343x116px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "ID", 343x50px, horizontal pad 0 0 0 0px gap 75px align center/min sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "ID", 149x50px, constraints left/top
+            - FRAME "Frame 6", 140x50px, horizontal pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 119x24px, horizontal pad 0 0 0 0px gap 12px align max/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Yesterday", 61x22px, constraints left/top, fill 主色 文字 浅灰, text [14px - Body 4]
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - TEXT "New year celebration No.1 🎉 Let's play games together onlyfa", 343x54px, constraints left/top, fill 主色 文字 黑, text [16px - H&B 3]
+      - LINE "Line 26", 375x0px, constraints left/top, stroke 线条 灰 1px
+      - FRAME "Frame 56", 375x280px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "card", 375x210px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "P1", 375x210px, constraints scale/scale, fill image(hash: 9af3a14e38bbbad549eb8a518027e71a7d7641da)
+          - GROUP "Group 6", 64x64px, constraints scale/scale
+            - ELLIPSE "Ellipse 25", 64x64px, constraints left/top, fill 主色 文字 黑, effect [drop_shadow 4px offset 0 4 #00000040], opacity 50%
+            - REGULAR_POLYGON "Polygon 1", 33x33px, constraints left/top, fill 主色 文字 白
+        - FRAME "Frame 53", 343x58px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 11", 343x24px, constraints left/top
+            - INSTANCE "喜欢", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+            - FRAME "$", 94x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "收藏", 24x24px, constraints left/top, fill #FFFFFF
+          - TEXT "14.4K Likes", 74x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+  - INSTANCE "statusBar", 375x44px, constraints left/top, fill #FFFFFF
+    - INSTANCE "StatusBar / iPhone 13", 375x44px, constraints scale/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill #010101, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - INSTANCE "导航", 375x75px, constraints left/top
+    - RECTANGLE "Rectangle 1", 375x75px, constraints scale/scale, fill gradient_linear(#FFFFFF4D 0% | #FFFFFF4D 100%), effect [background_blur 50px]
+    - FRAME "菜单", 312x32px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints scale/scale
+      - INSTANCE "主菜单", 32x32px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "主菜单", 32x32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 26x23.99px, constraints scale/scale, fill logo 色 主
+        - VECTOR "Vector 2", 18x20.67px, constraints scale/scale, stroke #000000 1px
+      - INSTANCE "搜索", 32x32px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill 主色 文字 灰
+      - INSTANCE "创建", 40x30px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 10", 40x30px, constraints scale/scale, radius 8px, fill logo 色 主
+        - INSTANCE "Icons", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, fill 主色 文字 白
+      - INSTANCE "信息", 32x32px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 22.67x25.33px, constraints scale/scale, fill 主色 文字 灰
+      - INSTANCE "个人中心", 32x32px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 26", 32x32px, constraints scale/scale, fill image(hash: 61bed28ab486792b198ea968661cf3d8aa79c486)
+  - INSTANCE "homeIndicator", 375x34px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 24", 134x5px, constraints center/bottom, radius 100px, fill #000000, stroke #979797 0px
+
+Screen: 主页面详情页及信息聊天页面 / LOGIN
+- FRAME "LOGIN", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "OnlyFans_logo 1", 235x42px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+  - TEXT "Sign up to support your favorite creators", 272x70px, constraints left/top, fill 主色 文字 黑, text [24px - Heading 1], [heading]
+  - GROUP "Body", 328x499px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Swich", 327x40px, constraints left/top, radius 5px
+      - RECTANGLE "Rectangle 4", 327x40px, constraints left/top, radius 5px, fill Light Colors/Light gray - Light, stroke #000000 1px
+      - RECTANGLE "Rectangle 7", 164x36px, constraints left/top, radius 5px, fill Light Colors/White - Light, stroke #000000 1px, effect [drop_shadow 4px offset 1 1 #0000001A]
+      - TEXT "Log in", 39x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+      - TEXT "Register", 52x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+    - TEXT "Forgot password?", 114x22px, constraints left/top, fill 主色 文字 灰, text [14px - Body 4]
+    - GROUP "Button 2", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #1DA1F2
+      - TEXT "SIGN IN WITH TWITTER", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - INSTANCE "Icons", 24x24px, constraints left/bottom, fill #FFFFFF
+        - VECTOR "Vector", 24x19.5px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Button 3", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #4285F4
+      - TEXT "SIGN IN WITH GOOGLE", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - RECTANGLE "Rectangle 8", 50x40px, constraints left/top, radius 60/0/0/60px, fill #FFFFFF
+      - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.53x11.27px, constraints scale/scale, fill #4285F4
+        - VECTOR "Vector", 18.68x9.7px, constraints scale/scale, fill #34A853
+        - VECTOR "Vector", 5.26x10.78px, constraints scale/scale, fill #FBBC04
+        - VECTOR "Vector", 18.75x9.71px, constraints scale/scale, fill #EA4335
+    - INSTANCE "登陆按钮", 327x46px, constraints left/top
+      - RECTANGLE "Rectangle 3", 327x46px, constraints scale/scale, radius 100px, fill 线条 灰, stroke 线条 灰 1px
+      - TEXT "SIGN IN", 59x27px, constraints scale/scale, fill 主色 文字 白, text [16px - H&B 3]
+    - INSTANCE "登陆选项", 115x22px, constraints left/top, fill #FFFFFF
+      - TEXT "Remember me", 93x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+      - INSTANCE "登陆选项", 16x16px, constraints scale/scale
+        - RECTANGLE "Rectangle 6", 16x16px, constraints scale/scale, radius 2px, stroke 线条 灰 1px
+    - INSTANCE "Input", 327x35px, constraints left/top
+      - LINE "Line 25", 327x0px, constraints scale/scale, stroke 线条 灰 1px
+      - TEXT "Password", 71x27px, constraints scale/scale, fill 主色 文字 灰, text [16px - H&B 3]
+      - INSTANCE "Icons", 20x20px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 19.17x15px, constraints scale/scale, fill 图标状态 默认
+    - INSTANCE "Input", 327x35px, constraints left/top
+      - LINE "Line 21", 327x0px, constraints scale/scale, stroke 线条 灰 1px
+      - TEXT "Email", 40x27px, constraints scale/scale, fill 主色 文字 灰, text [16px - H&B 3]
+  - FRAME "Frame 2", 233x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "©2023 Onlyfans · Help · Language", 215x22px, constraints left/top, fill 主色 文字 灰, text [14px - Body 4]
+    - INSTANCE "地球", 14x14px, constraints scale/scale
+      - VECTOR "Icon", 10.5x10.5px, constraints scale/scale, stroke logo 色 主 1px
+
+Screen: 主页面详情页及信息聊天页面 / LOGIN
+- FRAME "LOGIN", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "OnlyFans_logo 1", 213x38px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+
+Screen: 主页面详情页及信息聊天页面 / LOGIN/filling
+- FRAME "LOGIN/filling", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "OnlyFans_logo 1", 235x42px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+  - TEXT "Sign up to support your favorite creators", 272x70px, constraints left/top, fill 主色 文字 黑, text [24px - Heading 1], [heading]
+  - GROUP "Body", 328x499px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Swich", 327x40px, constraints left/top, radius 5px
+      - RECTANGLE "Rectangle 4", 327x40px, constraints left/top, radius 5px, fill Light Colors/Light gray - Light, stroke #000000 1px
+      - RECTANGLE "Rectangle 7", 164x36px, constraints left/top, radius 5px, fill Light Colors/White - Light, stroke #000000 1px, effect [drop_shadow 4px offset 1 1 #0000001A]
+      - TEXT "Log in", 39x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+      - TEXT "Register", 52x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+    - TEXT "Forgot password?", 114x22px, constraints left/top, fill 主色 文字 灰, text [14px - Body 4]
+    - GROUP "Button 2", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #1DA1F2
+      - TEXT "SIGN IN WITH TWITTER", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - INSTANCE "Icons", 24x24px, constraints left/bottom, fill #FFFFFF
+        - VECTOR "Vector", 24x19.5px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Button 3", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #4285F4
+      - TEXT "SIGN IN WITH GOOGLE", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - RECTANGLE "Rectangle 8", 50x40px, constraints left/top, radius 60/0/0/60px, fill #FFFFFF
+      - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.53x11.27px, constraints scale/scale, fill #4285F4
+        - VECTOR "Vector", 18.68x9.7px, constraints scale/scale, fill #34A853
+        - VECTOR "Vector", 5.26x10.78px, constraints scale/scale, fill #FBBC04
+        - VECTOR "Vector", 18.75x9.71px, constraints scale/scale, fill #EA4335
+    - INSTANCE "登陆按钮", 327x46px, constraints left/top
+      - RECTANGLE "Rectangle 3", 327x46px, constraints scale/scale, radius 100px, fill logo 色 主, stroke logo 色 主 1px
+      - TEXT "SIGN IN", 59x27px, constraints scale/scale, fill 主色 文字 白, text [16px - H&B 3]
+    - INSTANCE "登陆选项", 115x22px, constraints left/top, fill #FFFFFF
+      - TEXT "Remember me", 93x22px, constraints scale/scale, fill 主色 文字 黑, text [14px - Body 4]
+      - INSTANCE "登陆选项", 16x16px, constraints scale/scale
+        - RECTANGLE "Rectangle 6", 16x16px, constraints scale/scale, radius 2px, fill logo 色 主, stroke logo 色 主 1px
+        - VECTOR "Vector", 8.49x5.66px, constraints scale/scale, stroke 主色 文字 白 1px
+    - INSTANCE "Input", 327x35px, constraints left/top
+      - LINE "Line 25", 327x0px, constraints scale/scale, stroke logo 色 主 1px
+      - FRAME "Frame 3", 96x17px, constraints scale/scale, fill #FFFFFF
+      - GROUP "password", 96x6px, constraints scale/scale [decorative, ~10 shapes]
+      - INSTANCE "Icons", 20x20px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 19.17x15px, constraints scale/scale, fill 图标状态 默认
+    - INSTANCE "Input", 327x35px, constraints left/top
+      - LINE "Line 21", 327x0px, constraints scale/scale, stroke logo 色 主 1px
+      - TEXT "hkdforhh@gmail.com", 151x27px, constraints scale/scale, fill 主色 文字 黑, text [16px - H&B 3]
+  - FRAME "Frame 2", 233x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "©2023 Onlyfans · Help · Language", 215x22px, constraints left/top, fill 主色 文字 灰, text [14px - Body 4]
+    - INSTANCE "地球", 14x14px, constraints scale/scale
+      - VECTOR "Icon", 10.5x10.5px, constraints scale/scale, stroke logo 色 主 1px
+
+Screen: 主页面详情页及信息聊天页面 / Register
+- FRAME "Register", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "OnlyFans_logo 1", 235x42px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+  - TEXT "Sign up to support your favorite creators", 272x70px, constraints left/top, fill 主色 文字 黑, text [24px - Heading 1], [heading]
+  - GROUP "Body", 327x499px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Swich", 327x229px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4", 327x40px, constraints left/top, radius 5px, fill Light Colors/Light gray - Light
+      - RECTANGLE "Rectangle 7", 164x36px, constraints left/top, radius 5px, fill Light Colors/White - Light, effect [drop_shadow 4px offset 1 1 #0000001A]
+      - TEXT "Log in", 39x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+      - TEXT "Register", 52x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+      - INSTANCE "Input", 327x35px, constraints left/top
+        - LINE "Line 25", 327x0px, constraints scale/scale, stroke 线条 灰 1px
+        - TEXT "Password", 71x27px, constraints scale/scale, fill 主色 文字 灰, text [16px - H&B 3]
+        - INSTANCE "Icons", 20x20px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 19.17x15px, constraints scale/scale, fill 图标状态 默认
+      - INSTANCE "Input", 327x35px, constraints left/top
+        - LINE "Line 21", 327x0px, constraints scale/scale, stroke 线条 灰 1px
+        - TEXT "Email", 40x27px, constraints scale/scale, fill 主色 文字 灰, text [16px - H&B 3]
+      - INSTANCE "Input", 327x35px, constraints left/top
+        - LINE "Line 21", 327x0px, constraints scale/scale, stroke 线条 灰 1px
+        - TEXT "Name", 43x27px, constraints scale/scale, fill 主色 文字 灰, text [16px - H&B 3]
+    - TEXT "By signing up you agree to our Terms of Service and Privacy ", 327x40px, constraints left/top, fill 主色 文字 黑, text [12px - Body 5]
+    - INSTANCE "登陆按钮", 327x46px, constraints left/top
+      - RECTANGLE "Rectangle 3", 327x46px, constraints scale/scale, radius 100px, fill 线条 灰, stroke 线条 灰 1px
+      - TEXT "SIGN UP", 65x27px, constraints scale/scale, fill 主色 文字 白, text [16px - H&B 3]
+    - GROUP "Button 2", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #1DA1F2
+      - TEXT "SIGN IN WITH TWITTER", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - INSTANCE "Icons", 24x24px, constraints left/bottom, fill #FFFFFF
+        - VECTOR "Vector", 24x19.5px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Button 3", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #4285F4
+      - TEXT "SIGN IN WITH GOOGLE", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - RECTANGLE "Rectangle 8", 50x40px, constraints left/top, radius 60/0/0/60px, fill #FFFFFF
+      - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.53x11.27px, constraints scale/scale, fill #4285F4
+        - VECTOR "Vector", 18.68x9.7px, constraints scale/scale, fill #34A853
+        - VECTOR "Vector", 5.26x10.78px, constraints scale/scale, fill #FBBC04
+        - VECTOR "Vector", 18.75x9.71px, constraints scale/scale, fill #EA4335
+  - FRAME "Frame 2", 233x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "©2023 Onlyfans · Help · Language", 215x22px, constraints left/top, fill 主色 文字 灰, text [14px - Body 4]
+    - INSTANCE "地球", 14x14px, constraints scale/scale
+      - VECTOR "Icon", 10.5x10.5px, constraints scale/scale, stroke logo 色 主 1px
+
+Screen: 主页面详情页及信息聊天页面 / Register/filling
+- FRAME "Register/filling", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "OnlyFans_logo 1", 235x42px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+  - TEXT "Sign up to support your favorite creators", 272x70px, constraints left/top, fill 主色 文字 黑, text [24px - Heading 1], [heading]
+  - GROUP "Body", 327x499px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Swich", 327x229px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4", 327x40px, constraints left/top, radius 5px, fill Light Colors/Light gray - Light
+      - RECTANGLE "Rectangle 7", 164x36px, constraints left/top, radius 5px, fill Light Colors/White - Light, effect [drop_shadow 4px offset 1 1 #0000001A]
+      - TEXT "Log in", 39x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+      - TEXT "Register", 52x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+      - INSTANCE "Input", 327x35px, constraints left/top
+        - LINE "Line 25", 327x0px, constraints scale/scale, stroke logo 色 主 1px
+        - FRAME "Frame 3", 96x17px, constraints scale/scale, fill #FFFFFF
+        - GROUP "password", 96x6px, constraints scale/scale [decorative, ~10 shapes]
+        - INSTANCE "Icons", 20x20px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 19.17x15px, constraints scale/scale, fill 图标状态 默认
+      - INSTANCE "Input", 327x35px, constraints left/top
+        - LINE "Line 21", 327x0px, constraints scale/scale, stroke logo 色 主 1px
+        - TEXT "hkdforhh@gmail.com", 151x27px, constraints scale/scale, fill 主色 文字 黑, text [16px - H&B 3]
+      - INSTANCE "Input", 327x35px, constraints left/top
+        - LINE "Line 21", 327x0px, constraints scale/scale, stroke logo 色 主 1px
+        - TEXT "Arlene A Hansen", 120x27px, constraints scale/scale, fill 主色 文字 黑, text [16px - H&B 3]
+    - TEXT "By signing up you agree to our Terms of Service and Privacy ", 327x40px, constraints left/top, fill 主色 文字 黑, text [12px - Body 5]
+    - INSTANCE "登陆按钮", 327x46px, constraints left/top
+      - RECTANGLE "Rectangle 3", 327x46px, constraints scale/scale, radius 100px, fill logo 色 主, stroke logo 色 主 1px
+      - TEXT "SIGN UP", 65x27px, constraints scale/scale, fill 主色 文字 白, text [16px - H&B 3]
+    - GROUP "Button 2", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #1DA1F2
+      - TEXT "SIGN IN WITH TWITTER", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - INSTANCE "Icons", 24x24px, constraints left/bottom, fill #FFFFFF
+        - VECTOR "Vector", 24x19.5px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Button 3", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #4285F4
+      - TEXT "SIGN IN WITH GOOGLE", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - RECTANGLE "Rectangle 8", 50x40px, constraints left/top, radius 60/0/0/60px, fill #FFFFFF
+      - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.53x11.27px, constraints scale/scale, fill #4285F4
+        - VECTOR "Vector", 18.68x9.7px, constraints scale/scale, fill #34A853
+        - VECTOR "Vector", 5.26x10.78px, constraints scale/scale, fill #FBBC04
+        - VECTOR "Vector", 18.75x9.71px, constraints scale/scale, fill #EA4335
+  - FRAME "Frame 2", 233x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "©2023 Onlyfans · Help · Language", 215x22px, constraints left/top, fill 主色 文字 灰, text [14px - Body 4]
+    - INSTANCE "地球", 14x14px, constraints scale/scale
+      - VECTOR "Icon", 10.5x10.5px, constraints scale/scale, stroke logo 色 主 1px
+
+Screen: 主页面详情页及信息聊天页面 / Register/wrong
+- FRAME "Register/wrong", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - FRAME "OnlyFans_logo 1", 235x42px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+  - TEXT "Sign up to support your favorite creators", 272x70px, constraints left/top, fill 主色 文字 黑, text [24px - Heading 1], [heading]
+  - GROUP "Body", 327x499px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Swich", 327x229px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4", 327x40px, constraints left/top, radius 5px, fill Light Colors/Light gray - Light
+      - RECTANGLE "Rectangle 7", 164x36px, constraints left/top, radius 5px, fill Light Colors/White - Light, effect [drop_shadow 4px offset 1 1 #0000001A]
+      - TEXT "Log in", 39x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+      - TEXT "Register", 52x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+      - INSTANCE "Input", 327x35px, constraints left/top
+        - GROUP "password", 96x6px, constraints scale/scale [decorative, ~10 shapes]
+        - TEXT "The password must contain at least 1 number, at least 1 lowe", 327x32px, constraints left/top, fill 状态 错误&提示, text [12px - Body 6]
+        - GROUP "body", 331x35px, constraints left/top
+          - LINE "Line 25", 327x0px, constraints scale/scale, stroke 状态 错误&提示 1px
+          - FRAME "Frame 3", 96x17px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "Icons", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 19.32x17px, constraints scale/scale, stroke 状态 错误&提示 2px
+            - VECTOR "Vector", 0.1x0.1px, constraints scale/scale, stroke 状态 错误&提示 1.5px
+            - VECTOR "Vector", 0x4px, constraints scale/scale, stroke 状态 错误&提示 1.5px
+          - INSTANCE "Icons", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 19.17x15px, constraints scale/scale, fill 图标状态 默认
+      - INSTANCE "Input", 327x35px, constraints left/top
+        - LINE "Line 21", 327x0px, constraints scale/scale, stroke logo 色 主 1px
+        - TEXT "hkdforhh@gmail.com", 151x27px, constraints scale/scale, fill 主色 文字 黑, text [16px - H&B 3]
+      - INSTANCE "Input", 327x35px, constraints left/top
+        - LINE "Line 21", 327x0px, constraints scale/scale, stroke logo 色 主 1px
+        - TEXT "Arlene A Hansen", 120x27px, constraints scale/scale, fill 主色 文字 黑, text [16px - H&B 3]
+    - TEXT "By signing up you agree to our Terms of Service and Privacy ", 327x40px, constraints left/top, fill 主色 文字 黑, text [12px - Body 5]
+    - INSTANCE "登陆按钮", 327x46px, constraints left/top
+      - RECTANGLE "Rectangle 3", 327x46px, constraints scale/scale, radius 100px, fill logo 色 主, stroke logo 色 主 1px
+      - TEXT "SIGN UP", 65x27px, constraints scale/scale, fill 主色 文字 白, text [16px - H&B 3]
+    - GROUP "Button 2", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #1DA1F2
+      - TEXT "SIGN IN WITH TWITTER", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - INSTANCE "Icons", 24x24px, constraints left/bottom, fill #FFFFFF
+        - VECTOR "Vector", 24x19.5px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Button 3", 327x46px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 327x46px, constraints left/top, radius 100px, fill #4285F4
+      - TEXT "SIGN IN WITH GOOGLE", 152x22px, constraints left/top, fill 主色 文字 白, text [14px - Body 4]
+      - RECTANGLE "Rectangle 8", 50x40px, constraints left/top, radius 60/0/0/60px, fill #FFFFFF
+      - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.53x11.27px, constraints scale/scale, fill #4285F4
+        - VECTOR "Vector", 18.68x9.7px, constraints scale/scale, fill #34A853
+        - VECTOR "Vector", 5.26x10.78px, constraints scale/scale, fill #FBBC04
+        - VECTOR "Vector", 18.75x9.71px, constraints scale/scale, fill #EA4335
+  - FRAME "Frame 2", 233x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "©2023 Onlyfans · Help · Language", 215x22px, constraints left/top, fill 主色 文字 灰, text [14px - Body 4]
+    - INSTANCE "地球", 14x14px, constraints scale/scale
+      - VECTOR "Icon", 10.5x10.5px, constraints scale/scale, stroke logo 色 主 1px
+
+Screen: 主页面详情页及信息聊天页面 / 发现
+- FRAME "发现", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - INSTANCE "statusBar", 375x44px, constraints left/top, fill #FFFFFF
+    - INSTANCE "StatusBar / iPhone 13", 375x44px, constraints scale/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill #010101, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - FRAME "搜索", 375x50px, constraints left/top
+    - INSTANCE "Searchbar", 343x39px, horizontal pad 6 121 6 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #F4F4F4, stroke 线条 灰 1px
+      - INSTANCE "搜索", 24x24px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Vector", 18x18px, constraints scale/scale, fill 图标状态 默认
+      - TEXT "Search Posts", 182x27px, constraints left/top, fill 图标状态 默认, text [15px - Body]
+  - FRAME "card", 343x324px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "card1", 343x100px, constraints left/top
+      - GROUP "背景", 343x100px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 27", 343x100px, constraints left/top, radius 6px, fill image(hash: 95b4bce9eb8ecdba3a95639bd9e0fb8da8a6b456)
+        - RECTANGLE "Rectangle 30", 343x66px, constraints left/top, radius 0/0/6/6px, fill gradient_linear(#00000080 0% | #000000 100%), opacity 40%
+      - INSTANCE "Card", 180x76px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Status", 76x76px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 27", 76x76px, constraints scale/scale, fill image(hash: 7eb63dba9478cc5d6e81a0a28f53e9b0d719980e), stroke #FFFFFF 2px
+          - ELLIPSE "Ellipse 28", 10x10px, constraints scale/scale, fill 状态 常规, stroke 主色 文字 白 2px
+          - RECTANGLE "Rectangle 29", 32x18px, constraints left/top, radius 2px, fill 主色 文字 黑, opacity 50%
+          - TEXT "Free", 21x14px, constraints scale/scale, fill 主色 文字 白, text [Helvetica Neue Medium, 10px]
+        - INSTANCE "Cardname", 120x50px, constraints scale/scale
+          - FRAME "Frame 15", 119x50px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 119x27px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "@jamesjcall", 73x22px, constraints scale/scale, fill 主色 文字 白, text [14px - Body 4]
+    - FRAME "card4", 343x100px, constraints left/top
+      - GROUP "背景", 343x100px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 27", 343x100px, constraints left/top, radius 6px, fill image(hash: 9af3a14e38bbbad549eb8a518027e71a7d7641da)
+        - RECTANGLE "Rectangle 30", 343x66px, constraints left/top, radius 0/0/6/6px, fill gradient_linear(#00000080 0% | #000000 100%), opacity 40%
+      - INSTANCE "Card", 180x76px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Status", 76x76px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 27", 76x76px, constraints scale/scale, fill image(hash: 28f329d8d569fce0f8530405d75202c568cef0d4), stroke #FFFFFF 2px
+          - ELLIPSE "Ellipse 28", 10x10px, constraints scale/scale, fill 状态 常规, stroke 主色 文字 白 2px
+          - RECTANGLE "Rectangle 29", 32x18px, constraints left/top, radius 2px, fill 主色 文字 黑, opacity 50%
+          - TEXT "Free", 21x14px, constraints scale/scale, fill 主色 文字 白, text [Helvetica Neue Medium, 10px]
+        - INSTANCE "Cardname", 120x50px, constraints scale/scale
+          - FRAME "Frame 15", 126x50px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 126x27px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "@jamesjcall", 81x22px, constraints scale/scale, fill 主色 文字 白, text [14px - Body 4]
+    - FRAME "card2", 343x100px, constraints left/top
+      - GROUP "背景", 343x100px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 27", 343x100px, constraints left/top, radius 6px, fill image(hash: ce06a9a8cd12f3b08b87735cd61e43ff818a40c9)
+        - RECTANGLE "Rectangle 30", 343x66px, constraints left/top, radius 0/0/6/6px, fill gradient_linear(#00000080 0% | #000000 100%), opacity 40%
+      - INSTANCE "Card", 180x76px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Status", 76x76px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 27", 76x76px, constraints scale/scale, fill image(hash: 387ac0f64b1903ac77b826f267bbbfe371377da3), stroke #FFFFFF 2px
+          - RECTANGLE "Rectangle 29", 32x18px, constraints left/top, radius 2px, fill 主色 文字 黑, opacity 50%
+          - TEXT "Free", 21x14px, constraints scale/scale, fill 主色 文字 白, text [Helvetica Neue Medium, 10px]
+        - INSTANCE "Cardname", 96x50px, constraints scale/scale, fill #FFFFFF
+          - FRAME "Frame 13", 118x50px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "James J Call", 118x27px, constraints scale/scale, fill 主色 文字 白, text [16px - H&B 3m]
+            - TEXT "@jamesjcall", 91x22px, constraints scale/scale, fill 主色 文字 白, text [14px - Body 4]
+  - FRAME "Suggestions", 343x27px, constraints left/top
+    - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18x18px, constraints scale/scale, fill 主色 文字 黑
+    - INSTANCE "Icons", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16x16.01px, constraints scale/scale, fill 图标状态 默认
+    - TEXT "Suggestions", 92x27px, constraints left/top, fill 主色 文字 黑, text [Helvetica Neue Medium, 16px]
+    - INSTANCE "排行", 24x24px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 17.5x16.75px, constraints left/top, fill gradient_linear(#4EACE9 0% | #2B62FB 100%)
+  - COMPONENT "。。。", 108x8px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 29", 8x8px, constraints scale/scale, fill 图标状态 默认
+    - ELLIPSE "Ellipse 30", 8x8px, constraints scale/scale, fill 线条 灰
+    - ELLIPSE "Ellipse 31", 8x8px, constraints scale/scale, fill 线条 灰
+    - ELLIPSE "Ellipse 32", 8x8px, constraints scale/scale, fill 线条 灰
+    - ELLIPSE "Ellipse 33", 8x8px, constraints scale/scale, fill 线条 灰
+    - ELLIPSE "Ellipse 34", 8x8px, constraints scale/scale, fill 线条 灰
+  - FRAME "live", 436x183px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Live", 345x27px, constraints left/top
+      - TEXT "Live", 31x27px, constraints left/top, fill 主色 文字 黑, text [Helvetica Neue Medium, 16px]
+      - INSTANCE "直播", 24x24px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 13.5x16px, constraints left/top, fill gradient_linear(#4EACE9 0% | #2C65FA 100%)
+    - FRAME "live body", 436x140px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "live m", 100x140px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 33", 100x140px, constraints scale/scale, radius 6px, fill image(hash: 95b4bce9eb8ecdba3a95639bd9e0fb8da8a6b456)
+        - INSTANCE "live s", 82x20px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 35", 20x20px, constraints scale/scale, fill image(hash: 486e2871a65c4072da497aee1bc61b8081bfb73b)
+          - TEXT "Carl C M...", 58x16px, constraints scale/scale, fill 主色 文字 白, text [12px - Body 6]
+      - INSTANCE "live m", 100x140px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 33", 100x140px, constraints scale/scale, radius 6px, fill image(hash: 9af3a14e38bbbad549eb8a518027e71a7d7641da)
+        - INSTANCE "live s", 82x20px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 35", 20x20px, constraints scale/scale, fill image(hash: 486e2871a65c4072da497aee1bc61b8081bfb73b)
+          - TEXT "Carl C M...", 58x16px, constraints scale/scale, fill 主色 文字 白, text [12px - Body 6]
+      - INSTANCE "live m", 100x140px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 33", 100x140px, constraints scale/scale, radius 6px, fill image(hash: ce06a9a8cd12f3b08b87735cd61e43ff818a40c9)
+        - INSTANCE "live s", 82x20px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 35", 20x20px, constraints scale/scale, fill image(hash: 3f16acabf42dbab07ac7002f3428f90210da277d)
+          - TEXT "Carl C M...", 58x16px, constraints scale/scale, fill 主色 文字 白, text [12px - Body 6]
+      - INSTANCE "live m", 100x140px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 33", 100x140px, constraints scale/scale, radius 6px, fill image(hash: 95b4bce9eb8ecdba3a95639bd9e0fb8da8a6b456)
+        - INSTANCE "live s", 82x20px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Ellipse 35", 20x20px, constraints scale/scale, fill image(hash: 486e2871a65c4072da497aee1bc61b8081bfb73b)
+          - TEXT "Carl C M...", 58x16px, constraints scale/scale, fill 主色 文字 白, text [12px - Body 6]
+  - INSTANCE "导航", 375x75px, constraints left/top, fill #FFFFFF
+    - INSTANCE "导航", 375x75px, constraints scale/scale
+      - RECTANGLE "Rectangle 1", 375x75px, constraints scale/scale, fill gradient_linear(#FFFFFF4D 0% | #FFFFFF4D 100%), effect [background_blur 50px]
+      - FRAME "菜单", 312x32px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - INSTANCE "主菜单", 32x32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 26x23.99px, constraints scale/scale, fill 主色 文字 灰
+        - INSTANCE "搜索", 32x32px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "搜索", 32x32px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill logo 色 主
+        - INSTANCE "创建", 40x30px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 10", 40x30px, constraints scale/scale, radius 8px, fill logo 色 主
+          - INSTANCE "Icons", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 12x12px, constraints scale/scale, fill 主色 文字 白
+        - INSTANCE "信息", 32x32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 22.67x25.33px, constraints scale/scale, fill 主色 文字 灰
+        - INSTANCE "个人中心", 32x32px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 26", 32x32px, constraints scale/scale, fill image(hash: 61bed28ab486792b198ea968661cf3d8aa79c486)
+
+Screen: 主页面详情页及信息聊天页面 / 搜索
+- FRAME "搜索", 375x812px, constraints left/top, radius 30px, fill #FFFFFF
+  - INSTANCE "statusBar", 375x44px, constraints left/top, fill #FFFFFF
+    - INSTANCE "StatusBar / iPhone 13", 375x44px, constraints scale/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill #010101, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - FRAME "搜索", 375x50px, constraints left/top
+    - INSTANCE "Searchbar", 343x39px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Searchbar", 283x39px, horizontal pad 6 121 6 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #F0F3F5, stroke 线条 灰 1px
+        - INSTANCE "搜索", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 18x18px, constraints scale/scale, fill 图标状态 默认
+        - TEXT "Search Posts", 182x27px, constraints left/top, fill 图标状态 默认, text [15px - Body]
+      - TEXT "Cancel", 44x22px, constraints left/top, fill 主色 文字 黑, text [14px - Body 4]
+    - LINE "Line 29", 0x20px, constraints left/top, stroke 状态 禁用 1px
+  - TEXT "Recent Search", 109x27px, constraints left/top, fill 主色 文字 黑, text [16px - H&B 3m]
+  - INSTANCE "导航", 375x75px, constraints left/top, fill #FFFFFF
+    - INSTANCE "导航", 375x75px, constraints scale/scale
+      - RECTANGLE "Rectangle 1", 375x75px, constraints scale/scale, fill gradient_linear(#FFFFFF4D 0% | #FFFFFF4D 100%), effect [background_blur 50px]
+      - FRAME "菜单", 312x32px, horizontal pad 0 0 0 0px gap 36px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - INSTANCE "主菜单", 32x32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 26x23.99px, constraints scale/scale, fill 主色 文字 灰
+        - INSTANCE "搜索", 32x32px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "搜索", 32x32px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale, fill logo 色 主
+        - INSTANCE "创建", 40x30px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 10", 40x30px, constraints scale/scale, radius 8px, fill logo 色 主
+          - INSTANCE "Icons", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 12x12px, constraints scale/scale, fill 主色 文字 白
+        - INSTANCE "信息", 32x32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 22.67x25.33px, constraints scale/scale, fill 主色 文字 灰
+        - INSTANCE "个人中心", 32x32px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 26", 32x32px, constraints scale/scale, fill image(hash: 61bed28ab486792b198ea968661cf3d8aa79c486)
+  - INSTANCE "keyboard", 375x335px, constraints left/top, fill #D1D5DB, effect [background_blur 108.73px]
+    - FRAME "Home Indicator", 375x34px, constraints left_right/bottom, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill Label Color / Light / Primary
+    - GROUP "Keys", 369x259px, constraints center/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Dictation", 15x25px, constraints scale/scale, fill #50555C
+      - BOOLEAN_OPERATION "Emoji", 27x27px, constraints scale/scale, fill #50555C
+      - FRAME "Return", 88x42px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 88x42px, constraints left_right/top_bottom, radius 4.6px, fill #ADB3BC, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 88x21px, constraints left_right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - FRAME "Space", 182x42px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 182x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 182x21px, constraints left_right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - FRAME "123", 87x42px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 87x42px, constraints left_right/top_bottom, radius 4.6px, fill #ADB3BC, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 87x21px, constraints left_right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - GROUP "Delete", 42x42px, constraints scale/scale, fill #FFFFFF [decorative, ~10 shapes]
+      - GROUP "Shift", 42x42px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Key Light", 42x42px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "Rectangle", 42x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "Symbol", 0x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+        - VECTOR "Shift", 18.88x16.46px, constraints scale/scale, fill #000000
+      - FRAME "M", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 20x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "N", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "B", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "V", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "C", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "X", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "Z", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "L", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "K", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "J", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "H", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "G", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "F", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "D", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "S", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "A", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "P", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "O", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 18x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - ... +8 more children
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

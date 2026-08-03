@@ -1,0 +1,254 @@
+---
+name: opensea-mobile-design-community
+source_file: OpenSea Mobile Design (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:29:46.031136+00:00
+---
+
+# OpenSea Mobile Design (Community) Design Guidelines
+
+## Source
+- Figma file: OpenSea Mobile Design (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:29:46.031136+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #111315: 27 uses
+- #FFFFFF: 24 uses
+- #98A2B3: 15 uses
+- #11131514: 10 uses
+- #11131566: 10 uses
+- #2081E2: 10 uses
+- #000000: 7 uses
+- #11131580: 3 uses
+- #2234CF: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Archivo Medium, 18px: 25 uses
+- Archivo Regular, 16px: 15 uses
+- Archivo SemiBold, 24px: 5 uses
+
+## Typography Hierarchy
+- 24px - Archivo SemiBold, 24px (raw)
+- 18px - Archivo Medium, 18px (raw)
+- 16px - Archivo Regular, 16px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- splash
+
+## Component Specs
+- splash: size 428x926px
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / Home
+- FRAME "Home", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "1 1", 366x184px, constraints left/top, fill image(hash: c75883cacdacb028ed4f58a1a8637901d8580fde), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "9f8113bbed895f5c8a946cd7305a50fc 1", 108x133px, constraints left/top, fill image(hash: a8a452a43b3310a99f52a416802c4a60b97f36ad)
+  - RECTANGLE "Rectangle 1", 428x72px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040], opacity 50%
+  - RECTANGLE "OpenSea-Full-Logo (dark) 1", 207x47px, constraints left/top, fill image(hash: d3a9f0760b59a84bc69bd4c639c4a9d3ec5b5482)
+  - RECTANGLE "menu_FILL0_wght400_GRAD0_opsz48 1", 35x41px, constraints left/top, fill image(hash: 160e5c0cc56b2e41378098e3f538908441a6bbc8)
+  - FRAME "search_FILL0_wght400_GRAD0_opsz48 1", 37x38px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 29x27px, constraints scale/scale, fill #000000
+  - TEXT "Discover, Collect, and Sell extraordinary NFTs", 320x126px, constraints left/top, fill #000000, text [Poppins SemiBold, 28px], [heading]
+  - TEXT "OpenSea is the World’s First and Largest NFT Marketplace", 346x54px, constraints left/top, fill #353840, text [Poppins SemiBold, 18px]
+  - TEXT "Notable Drops", 135x26px, constraints left/top, fill #000000, text [Poppins SemiBold, 18px]
+  - RECTANGLE "image 1", 108x133px, constraints left/top, fill image(hash: 592a9db275e96865f5855810b555aff9f114223d)
+  - RECTANGLE "image 2", 108x133px, constraints left/top, fill image(hash: 5fc529c5d693cb48d9f5e79ebc46703f5d2510de)
+  - FRAME "Button", 336x58px, constraints left/top
+    - GROUP "Outline", 351x72px, constraints left/top, radius 100px
+      - RECTANGLE "Rectangle 18", 347.81x69.52px, constraints left/top, radius 100px, fill #2081E2, stroke #FFFFFF 1px
+      - RECTANGLE "Rectangle 19", 347.81x69.52px, constraints left/top, radius 100px
+    - FRAME "Content", 150x22px, horizontal pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Iconly/Light-Outline/Plus", 14x14px, constraints scale/scale
+        - GROUP "Plus", 14x14px, constraints scale/scale
+          - VECTOR "Combined-Shape", 14x14px, constraints scale/scale, fill #2081E2
+      - TEXT "Create NFT", 115x24px, constraints left/top, fill #FFFFFF, text [Montserrat SemiBold, 20px]
+  - TEXT "Trending in all categories", 271x52px, constraints left/top, fill #000000, text [Montserrat SemiBold, 18px]
+
+Screen: Page 1 / Search
+- FRAME "Search", 428x1524px, constraints left/top, fill #FFFFFF
+  - TEXT "Search", 86x36px, constraints left/top, fill #111315, text [Poppins SemiBold, 24px], [heading]
+  - TEXT "Top Search", 125x26px, constraints left/top, fill #111315, text [Archivo SemiBold, 24px], [heading]
+  - TEXT "Trending", 98x26px, constraints left/top, fill #111315, text [Archivo SemiBold, 24px], [heading]
+  - FRAME "search", 396x54px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #98A2B3 1px
+    - FRAME "icon", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 20.31x20.31px, constraints scale/scale, fill #98A2B3
+    - TEXT "Search collections or users", 219x20px, constraints left/top, fill #98A2B3, text [Archivo Medium, 18px]
+  - FRAME "collection", 412x563px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Collection", 396x563px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+      - RECTANGLE "Rectangle 1", 380x400px, constraints left/top, radius 8px, fill image(hash: f780cc78ec3b59b2b4815121b23aa134b4a60218)
+      - FRAME "Profile", 204x64px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 1", 64x64px, constraints left/top, fill image(hash: 28b1de9871aa53a6cd419bf7bdf3193b788ce888)
+        - TEXT "John Raymond", 87x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+      - FRAME "Timer", 124x54px, horizontal pad 16 16 16 16px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #2081E2, effect [drop_shadow 4px offset 0 4 #00000040]
+        - TEXT "Place Bid", 83x27px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 18px]
+      - GROUP "Price", 78x41px, constraints left/top, radius 0/0/0/0px
+        - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+        - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+    - INSTANCE "Collection", 396x563px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+      - RECTANGLE "Rectangle 1", 380x400px, constraints left/top, radius 8px, fill #D9D9D9
+      - FRAME "Profile", 204x64px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - ELLIPSE "Ellipse 1", 64x64px, constraints left/top, fill #D9D9D9
+        - TEXT "John Raymond", 124x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+      - FRAME "Timer", 121x40px, horizontal pad 16 16 16 16px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F1F1F1
+        - TEXT "2d:5h:10m", 89x20px, constraints left/top, fill #2234CF, text [Archivo Medium, 18px]
+      - FRAME "Timer", 124x54px, horizontal pad 16 16 16 16px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #2234CF
+        - TEXT "Place Bid", 77x20px, constraints left/top, fill #FFFFFF, text [Archivo Medium, 18px]
+      - GROUP "Price", 78x41px, constraints left/top, radius 0/0/0/0px
+        - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+        - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 4x18px, constraints scale/scale, fill #111315
+  - FRAME "collection", 190x271px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+    - RECTANGLE "img", 176x202px, constraints left/top, radius 8px, fill image(hash: 3970554587cc37ca2231cf8ee901ff776a9c66b1)
+    - GROUP "Price", 78x39px, constraints left/top, radius 0/0/0/0px
+      - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+      - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+  - FRAME "collection", 190x271px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+    - RECTANGLE "img", 176x202px, constraints left/top, radius 8px, fill image(hash: cd5f7f6d3f02d48538542710f040d635bbba298b)
+    - GROUP "Price", 78x39px, constraints left/top, radius 0/0/0/0px
+      - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+      - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+  - FRAME "collection", 190x271px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+    - RECTANGLE "img", 176x202px, constraints left/top, radius 8px, fill image(hash: add83cc2881cf1c41e54561ab09cd81ea061ef5a)
+    - GROUP "Price", 78x39px, constraints left/top, radius 0/0/0/0px
+      - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+      - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+  - FRAME "collection", 190x271px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+    - RECTANGLE "img", 176x202px, constraints left/top, radius 8px, fill image(hash: 9b084d30ee0bc2114e87ebfbc24797d6986096ee)
+    - GROUP "Price", 78x39px, constraints left/top, radius 0/0/0/0px
+      - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+      - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+  - RECTANGLE "Rectangle 5", 428x72px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040], opacity 50%
+  - RECTANGLE "OpenSea-Full-Logo (dark) 5", 207x47px, constraints left/top, fill image(hash: d3a9f0760b59a84bc69bd4c639c4a9d3ec5b5482)
+  - RECTANGLE "menu_FILL0_wght400_GRAD0_opsz48 5", 35x41px, constraints left/top, fill image(hash: 160e5c0cc56b2e41378098e3f538908441a6bbc8)
+  - VECTOR "Vector", 29x27px, constraints scale/scale, fill #000000
+
+Screen: Page 1 / Collection
+- FRAME "Collection", 428x1098px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "img", 396x119px, constraints left/top, radius 8px, fill image(hash: c9685a58546f03a6c05d08f19d9d48ef570abb6b)
+  - FRAME "Profile", 135x112px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - ELLIPSE "Ellipse 1", 64x64px, constraints left/top, fill image(hash: 1c6e31c34df7e106d03c4d8de37182374baf90c5)
+    - TEXT "Bored Ape Yacht", 135x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+    - TEXT "A fine artist", 91x20px, constraints left/top, fill #11131580, text [Archivo Medium, 18px]
+  - FRAME "text", 87x46px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "6.4K", 52x26px, constraints left/top, fill #111315, text [Archivo SemiBold, 24px], [heading]
+    - TEXT "Followers", 79x20px, constraints left/top, fill #11131580, text [Archivo Medium, 18px]
+  - FRAME "text", 87x46px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "606.2K", 80x26px, constraints left/top, fill #111315, text [Archivo SemiBold, 24px], [heading]
+    - TEXT "Total Volume", 105x20px, constraints left/top, fill #11131580, text [Archivo Medium, 18px]
+  - FRAME "Button", 190x54px, horizontal pad 16 16 16 16px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #2081E2, stroke #2081E2 1px
+    - TEXT "Follow", 57x27px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 18px]
+  - FRAME "Collections", 396x594px, constraints left/top, fill #FFFFFF
+    - TEXT "Collections", 126x26px, constraints left/top, fill #111315, text [Archivo SemiBold, 24px], [heading]
+    - FRAME "collection", 190x271px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+      - RECTANGLE "img", 176x202px, constraints left/top, radius 8px, fill image(hash: 6c87d1f5591b95b7920c0be7271d731b3de933a9)
+      - GROUP "Price", 78x39px, constraints left/top, radius 0/0/0/0px
+        - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+        - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+    - FRAME "collection", 190x271px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+      - RECTANGLE "img", 176x202px, constraints left/top, radius 8px, fill image(hash: 26250617490b5c36c1be8344f7847086e8975945)
+      - GROUP "Price", 78x39px, constraints left/top, radius 0/0/0/0px
+        - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+        - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+    - FRAME "collection", 190x271px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+      - RECTANGLE "img", 176x202px, constraints left/top, radius 8px, fill image(hash: 5b056701461783c651089ed1fc7f6166517c6927)
+      - GROUP "Price", 78x39px, constraints left/top, radius 0/0/0/0px
+        - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+        - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+    - FRAME "collection", 190x271px, constraints left/top, radius 8px, fill #FFFFFF, stroke #11131514 1px
+      - RECTANGLE "img", 176x202px, constraints left/top, radius 8px, fill image(hash: cdfd7c253f0c3b901f7068fdc7f6215185f640cc)
+      - GROUP "Price", 78x39px, constraints left/top, radius 0/0/0/0px
+        - TEXT "current bid", 76x17px, constraints left/top, fill #11131566, text [Archivo Regular, 16px]
+        - TEXT "0.08 ETH", 78x20px, constraints left/top, fill #111315, text [Archivo Medium, 18px]
+  - RECTANGLE "Rectangle 5", 428x72px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040], opacity 50%
+  - RECTANGLE "OpenSea-Full-Logo (dark) 5", 207x47px, constraints left/top, fill image(hash: d3a9f0760b59a84bc69bd4c639c4a9d3ec5b5482)
+  - RECTANGLE "menu_FILL0_wght400_GRAD0_opsz48 5", 35x41px, constraints left/top, fill image(hash: 160e5c0cc56b2e41378098e3f538908441a6bbc8)
+  - VECTOR "Vector", 29x27px, constraints scale/scale, fill #000000
+
+Screen: Page 1 / Create NFT
+- FRAME "Create NFT", 428x1104px, constraints left/top, fill #FFFFFF
+  - TEXT "Create NFT", 134x36px, constraints left/top, fill #111315, text [Poppins SemiBold, 24px], [heading]
+  - FRAME "option", 396x187px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Photo/Video", 89x17px, constraints left/top, fill #111315, text [Archivo Regular, 16px]
+    - FRAME "input", 396x162px, horizontal pad 16 16 16 16px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #98A2B3 1px
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #98A2B3
+      - TEXT "Upload Photo/Video", 164x20px, constraints left/top, fill #98A2B3, text [Archivo Medium, 18px]
+  - FRAME "option", 396x79px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Name", 44x17px, constraints left/top, fill #111315, text [Archivo Regular, 16px]
+    - FRAME "input", 396x54px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #98A2B3 1px
+      - TEXT "Splashray..", 90x20px, constraints left/top, fill #98A2B3, text [Archivo Medium, 18px]
+  - FRAME "option", 396x144px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Bio", 24x17px, constraints left/top, fill #111315, text [Archivo Regular, 16px]
+    - FRAME "input", 396x119px, horizontal pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #98A2B3 1px
+      - TEXT "Let people know about your work, creativity & inspiration ab", 342x40px, constraints left/top, fill #98A2B3, text [Archivo Medium, 18px]
+  - FRAME "option", 396x79px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Duration", 62x17px, constraints left/top, fill #111315, text [Archivo Regular, 16px]
+    - FRAME "input", 396x54px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #98A2B3 1px
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #98A2B3
+      - TEXT "Select time", 91x20px, constraints left/top, fill #98A2B3, text [Archivo Medium, 18px]
+  - FRAME "option", 396x79px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Price", 37x17px, constraints left/top, fill #111315, text [Archivo Regular, 16px]
+    - FRAME "input", 396x54px, horizontal pad 16 16 16 16px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #98A2B3 1px
+      - TEXT "Enter ETH amount", 150x20px, constraints left/top, fill #98A2B3, text [Archivo Medium, 18px]
+  - RECTANGLE "Rectangle 6", 428x72px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040], opacity 50%
+  - RECTANGLE "OpenSea-Full-Logo (dark) 6", 207x47px, constraints left/top, fill image(hash: d3a9f0760b59a84bc69bd4c639c4a9d3ec5b5482)
+  - RECTANGLE "menu_FILL0_wght400_GRAD0_opsz48 6", 35x41px, constraints left/top, fill image(hash: 160e5c0cc56b2e41378098e3f538908441a6bbc8)
+  - VECTOR "Vector", 29x27px, constraints scale/scale, fill #000000
+  - FRAME "Button", 336x58px, constraints left/top
+    - GROUP "Outline", 351x72px, constraints left/top, radius 100px
+      - RECTANGLE "Rectangle 18", 347.81x69.52px, constraints left/top, radius 100px, fill #2081E2, stroke #FFFFFF 1px
+      - RECTANGLE "Rectangle 19", 347.81x69.52px, constraints left/top, radius 100px
+    - FRAME "Content", 150x22px, horizontal pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Post For Sale", 129x30px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 20px]
+      - GROUP "Iconly/Light-Outline/Plus", 14x14px, constraints scale/scale
+        - GROUP "Plus", 14x14px, constraints scale/scale
+          - VECTOR "Combined-Shape", 14x14px, constraints scale/scale, fill #2081E2
+
+Screen: Page 1 / Splash
+- FRAME "Splash", 428x926px, constraints left/top, fill #FFFFFF
+  - COMPONENT "splash", 428x926px, constraints left/top
+    - VECTOR "Rectangle 1", 1360x2778px, constraints left/top, fill #2081E2
+    - FRAME "OpenSea-Full-Logo (dark) 1", 350x109px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+    - VECTOR "Vector", 77.67x77.67px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 14.33x16.33px, constraints scale/scale, fill #2081E2
+    - VECTOR "Vector", 48x42.67px, constraints scale/scale, fill #2081E2
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

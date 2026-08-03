@@ -1,0 +1,292 @@
+---
+name: website-exploration-community
+source_file: Website Exploration (Community)
+source_page: All pages (2): Cover, Content
+generated_at: 2026-07-25T09:46:07.465701+00:00
+---
+
+# Website Exploration (Community) Design Guidelines
+
+## Source
+- Figma file: Website Exploration (Community)
+- Figma page: All pages (2): Cover, Content
+- Extracted at: 2026-07-25T09:46:07.465701+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 106 uses
+- #FFFFFF: 22 uses
+- #E0604E: 10 uses
+- #EFEFED: 6 uses
+- #F1F0EE: 6 uses
+- #C4C4C4: 4 uses
+- #CBCBCB: 4 uses
+- #1C1A1C: 3 uses
+- #FFFFFF1A: 3 uses
+- #FFFFFF33: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Museo Sans 700, 16px: 23 uses
+- Museo Sans 700, 14px: 15 uses
+- Museo Sans 500, 14px: 8 uses
+- Noto Serif SC ExtraLight, 14px: 6 uses
+- Noto Serif SC ExtraLight, 40px: 6 uses
+- Real Text Pro Book, 14px: 6 uses
+- Museo Sans 100, 20px: 5 uses
+- Noto Serif SC ExtraLight, 16px: 5 uses
+
+## Typography Hierarchy
+- 40px - Noto Serif SC ExtraLight, 40px (raw)
+- 20px - Museo Sans 100, 20px (raw)
+- 16px - Museo Sans 700, 16px (raw)
+- 16px - Noto Serif SC ExtraLight, 16px (raw)
+- 14px - Museo Sans 500, 14px (raw)
+- 14px - Museo Sans 700, 14px (raw)
+- 14px - Noto Serif SC ExtraLight, 14px (raw)
+- 14px - Real Text Pro Book, 14px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Cover / 3
+- FRAME "3", 1440x908px, constraints left/top, fill #F1F0EE
+  - RECTANGLE "image 2", 1661x932px, constraints left/top, fill image(hash: d159f281f91651a62617fdb68fd8f75c06cf6b22)
+  - GROUP "Group", 1444x962px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 44px offset 0 4 #00000040]
+  - GROUP "Group 3", 588x868px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Rectangle", 588x868px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 54px offset -10 44 #00000040]
+    - GROUP "Group 2", 72.35x27px, constraints left/top
+      - TEXT "Solutions", 62x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+      - VECTOR "Line", 6x6px, constraints left/top, stroke #000000 1px
+    - TEXT "Turning your content into an experience", 344x155px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 40px], [heading]
+    - TEXT "Create Journeys A content platform helping tourism and lifes", 344x127px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 16px]
+    - GROUP "Group 4", 6x6px, constraints left/top
+      - VECTOR "Vector", 6x6px, constraints left/top, stroke #000000 1px
+      - VECTOR "Vector 2", 3x3.5px, constraints left/top, stroke #000000 1px
+    - TEXT "Simple Routing", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Currate Places with a few clicks", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Add photos", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 80x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - GROUP "Group 4", 313x253px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse", 24x24px, constraints left/top, fill #FFFFFF33, effect [drop_shadow 34px offset 0 34 #0A0A0A]
+    - VECTOR "Rectangle", 310x222px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 44px offset 0 24 #000000A6]
+    - RECTANGLE "Rectangle 2", 310x60px, constraints left/top, fill #1C1A1C
+    - VECTOR "Rectangle 2.1", 135x40px, constraints left/top, radius 5px, fill #E0604E
+    - TEXT "Save", 135x12px, constraints left/top, fill #FFFFFF, text [Museo Sans 500, 14px]
+    - TEXT "Cancel", 136x12px, constraints left/top, fill #000000, text [Museo Sans 500, 14px]
+    - TEXT "287km, 4.5h", 248x53px, constraints left/top, fill #000000, text [Museo Sans 100, 20px]
+    - TEXT "Add Routes", 86x12px, constraints left/top, fill #FFFFFF, text [Museo Sans 700, 16px]
+    - LINE "Line 2", 313x0px, constraints left/top, stroke #000000 1px, opacity 5%
+    - ELLIPSE "Ellipse", 16x16px, constraints left/top, fill #FFFFFF1A, stroke #FFFFFF 2px, effect [drop_shadow 34px offset 0 34 #0A0A0A]
+  - GROUP "Group 5", 270x10px, constraints left/top, opacity 40%
+    - ELLIPSE "Ellipse", 10x10px, constraints left/top, stroke #000000 1px
+    - ELLIPSE "Ellipse", 10x10px, constraints left/top, stroke #000000 1px
+    - LINE "Line 2", 250x0px, constraints left/top, stroke #000000 1px
+  - RECTANGLE "Rectangle", 18x14px, constraints left/top, fill #FFFFFF
+  - VECTOR "Subtract", 13x10px, constraints left/top, fill #000000
+  - TEXT "Sign up", 50x27px, constraints left/top, fill #E0604E, text [Museo Sans 700, 14px]
+  - TEXT "Login", 38x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+  - VECTOR "logotravel", 52.82x26px, constraints left/top, fill #000000
+
+Screen: Content / 1
+- FRAME "1", 1440x908px, constraints left/top, fill #F1F0EE
+  - RECTANGLE "image", 1440x960px, constraints left/top, fill image(hash: 36fe260584f4c7851af8ba95abaf29c467e5e006)
+  - RECTANGLE "image 2", 1456x972px, constraints left/top, fill image(hash: 893f4114ad7b04e7d1a6542476c17b1ffb94379f)
+  - RECTANGLE "image 3", 1729x1208px, constraints left/top, fill image(hash: b35d7d859dbf8f88443533bb11c3407b03430be8)
+  - GROUP "Group", 1444x962px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 44px offset 0 4 #00000040]
+  - GROUP "Group 3", 588x868px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Rectangle", 588x868px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 54px offset -10 44 #00000040]
+    - VECTOR "logotravel", 52.82x26px, constraints left/top, fill #000000
+    - TEXT "Turning your content into an experience", 344x155px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 40px], [heading]
+    - TEXT "Currate Places with a few clicks A content platform helping ", 344x127px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 16px]
+    - GROUP "Group 4", 6x6px, constraints left/top
+      - VECTOR "Vector", 6x6px, constraints left/top, stroke #000000 1px
+      - VECTOR "Vector 2", 3x3.5px, constraints left/top, stroke #000000 1px
+    - TEXT "Simple Routing", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Add photos", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Create Journeys", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 40x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - GROUP "Group 4", 313x253px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse", 24x24px, constraints left/top, fill #FFFFFF33, effect [drop_shadow 34px offset 0 34 #0A0A0A]
+    - VECTOR "Rectangle", 310x222px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 44px offset 0 24 #000000A6]
+    - RECTANGLE "Rectangle 2", 310x60px, constraints left/top, fill #1C1A1C
+    - VECTOR "Rectangle 2.1", 135x40px, constraints left/top, radius 5px, fill #E0604E
+    - TEXT "Save", 135x12px, constraints left/top, fill #FFFFFF, text [Museo Sans 500, 14px]
+    - TEXT "Cancel", 136x12px, constraints left/top, fill #000000, text [Museo Sans 500, 14px]
+    - TEXT "Speicherstadt, Hamburg, Germany", 248x48px, constraints left/top, fill #000000, text [Museo Sans 100, 20px]
+    - TEXT "Add Place", 75x12px, constraints left/top, fill #FFFFFF, text [Museo Sans 700, 16px]
+    - LINE "Line 2", 313x0px, constraints left/top, stroke #000000 1px, opacity 5%
+    - ELLIPSE "Ellipse", 16x16px, constraints left/top, fill #FFFFFF1A, stroke #FFFFFF 2px, effect [drop_shadow 34px offset 0 34 #0A0A0A]
+  - TEXT "Solutions", 62x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+  - VECTOR "Line", 6x6px, constraints left/top, stroke #000000 1px
+  - TEXT "Sign up", 50x27px, constraints left/top, fill #E0604E, text [Museo Sans 700, 14px]
+  - TEXT "Login", 38x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+
+Screen: Content / 2
+- FRAME "2", 1440x908px, constraints left/top, fill #F1F0EE
+  - RECTANGLE "image", 1440x960px, constraints left/top, fill image(hash: 72aa7b4d80c658f3502f7262ca8b619855eb84b6)
+  - BOOLEAN_OPERATION "Subtract", 1440x911px, constraints left/top, fill #000000, opacity 15%
+  - GROUP "Group", 1444x962px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 44px offset 0 4 #00000040]
+  - GROUP "Group 3", 588x868px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Rectangle", 588x868px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 54px offset -10 44 #00000040]
+    - TEXT "Turning your content into an experience", 344x155px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 40px], [heading]
+    - TEXT "Add photos A content platform helping tourism and lifestyle ", 344x127px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 16px]
+    - GROUP "Group 4", 6x6px, constraints left/top
+      - VECTOR "Vector", 6x6px, constraints left/top, stroke #000000 1px
+      - VECTOR "Vector 2", 3x3.5px, constraints left/top, stroke #000000 1px
+    - TEXT "Simple Routing", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Currate Places with a few clicks", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Create Journeys", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+  - BOOLEAN_OPERATION "Subtract", 310x411px, constraints left/top, fill #FFFFFF, effect [drop_shadow 44px offset 0 24 #000000A6]
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 80x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - GROUP "Group 4", 290x40px, constraints left/top, radius 5px
+    - VECTOR "Rectangle 2.2", 135x40px, constraints left/top, radius 5px, fill #E0604E
+    - TEXT "Save", 135x12px, constraints left/top, fill #FFFFFF, text [Museo Sans 500, 14px]
+    - TEXT "Cancel", 136x12px, constraints left/top, fill #000000, text [Museo Sans 500, 14px]
+  - TEXT "Solutions", 62x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+  - VECTOR "Line", 6x6px, constraints left/top, stroke #000000 1px
+  - TEXT "Sign up", 50x27px, constraints left/top, fill #E0604E, text [Museo Sans 700, 14px]
+  - TEXT "Login", 38x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+  - VECTOR "logotravel", 52.82x26px, constraints left/top, fill #000000
+
+Screen: Content / 3
+- FRAME "3", 1440x908px, constraints left/top, fill #F1F0EE
+  - RECTANGLE "image 2", 1661x932px, constraints left/top, fill image(hash: d159f281f91651a62617fdb68fd8f75c06cf6b22)
+  - GROUP "Group", 1444x962px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 44px offset 0 4 #00000040]
+  - GROUP "Group 3", 588x868px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Rectangle", 588x868px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 54px offset -10 44 #00000040]
+    - GROUP "Group 2", 72.35x27px, constraints left/top
+      - TEXT "Solutions", 62x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+      - VECTOR "Line", 6x6px, constraints left/top, stroke #000000 1px
+    - TEXT "Turning your content into an experience", 344x155px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 40px], [heading]
+    - TEXT "Create Journeys A content platform helping tourism and lifes", 344x127px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 16px]
+    - GROUP "Group 4", 6x6px, constraints left/top
+      - VECTOR "Vector", 6x6px, constraints left/top, stroke #000000 1px
+      - VECTOR "Vector 2", 3x3.5px, constraints left/top, stroke #000000 1px
+    - TEXT "Simple Routing", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Currate Places with a few clicks", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Add photos", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 80x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - GROUP "Group 4", 313x253px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse", 24x24px, constraints left/top, fill #FFFFFF33, effect [drop_shadow 34px offset 0 34 #0A0A0A]
+    - VECTOR "Rectangle", 310x222px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 44px offset 0 24 #000000A6]
+    - RECTANGLE "Rectangle 2", 310x60px, constraints left/top, fill #1C1A1C
+    - VECTOR "Rectangle 2.1", 135x40px, constraints left/top, radius 5px, fill #E0604E
+    - TEXT "Save", 135x12px, constraints left/top, fill #FFFFFF, text [Museo Sans 500, 14px]
+    - TEXT "Cancel", 136x12px, constraints left/top, fill #000000, text [Museo Sans 500, 14px]
+    - TEXT "287km, 4.5h", 248x53px, constraints left/top, fill #000000, text [Museo Sans 100, 20px]
+    - TEXT "Add Routes", 86x12px, constraints left/top, fill #FFFFFF, text [Museo Sans 700, 16px]
+    - LINE "Line 2", 313x0px, constraints left/top, stroke #000000 1px, opacity 5%
+    - ELLIPSE "Ellipse", 16x16px, constraints left/top, fill #FFFFFF1A, stroke #FFFFFF 2px, effect [drop_shadow 34px offset 0 34 #0A0A0A]
+  - GROUP "Group 5", 270x10px, constraints left/top, opacity 40%
+    - ELLIPSE "Ellipse", 10x10px, constraints left/top, stroke #000000 1px
+    - ELLIPSE "Ellipse", 10x10px, constraints left/top, stroke #000000 1px
+    - LINE "Line 2", 250x0px, constraints left/top, stroke #000000 1px
+  - RECTANGLE "Rectangle", 18x14px, constraints left/top, fill #FFFFFF
+  - VECTOR "Subtract", 13x10px, constraints left/top, fill #000000
+  - TEXT "Sign up", 50x27px, constraints left/top, fill #E0604E, text [Museo Sans 700, 14px]
+  - TEXT "Login", 38x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+  - VECTOR "logotravel", 52.82x26px, constraints left/top, fill #000000
+
+Screen: Content / 4
+- FRAME "4", 1440x908px, constraints left/top, fill #F1F0EE
+  - RECTANGLE "image", 1440x1031px, constraints left/top, fill image(hash: dab11bc0e3594d9c1d1b18ed7d3e44c10370a5d9)
+  - GROUP "Group", 1444x962px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 44px offset 0 4 #00000040]
+  - GROUP "Group 3", 588x868px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Rectangle", 588x868px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 54px offset -10 44 #00000040]
+    - TEXT "Turning your content into an experience", 344x155px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 40px], [heading]
+    - TEXT "Create Journeys A content platform helping tourism and lifes", 344x127px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 16px]
+    - TEXT "Simple Routing", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Currate Places with a few clicks", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+    - TEXT "Add photos", 344x24px, constraints left/top, fill #000000, text [Museo Sans 700, 16px], opacity 20%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 80x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - LINE "Line", 344x0px, constraints left/top, stroke #000000 1px, opacity 10%
+  - GROUP "Group 4", 6x6px, constraints left/top
+    - VECTOR "Vector", 6x6px, constraints left/top, stroke #000000 1px
+    - VECTOR "Vector 2", 3x3.5px, constraints left/top, stroke #000000 1px
+  - TEXT "Solutions", 62x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+  - VECTOR "Line", 6x6px, constraints left/top, stroke #000000 1px
+  - TEXT "Sign up", 50x27px, constraints left/top, fill #E0604E, text [Museo Sans 700, 14px]
+  - TEXT "Login", 38x27px, constraints left/top, fill #000000, text [Museo Sans 700, 14px]
+  - VECTOR "logotravel", 52.82x26px, constraints left/top, fill #000000
+
+Screen: Content / 5
+- FRAME "5", 1440x908px, constraints left/top, fill #F1F0EE
+  - RECTANGLE "image 2", 1661x932px, constraints left/top, fill image(hash: d159f281f91651a62617fdb68fd8f75c06cf6b22)
+  - GROUP "Group", 1444x962px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 44px offset 0 4 #00000040]
+  - GROUP "Group 3", 1440x908px, constraints left/top
+    - VECTOR "Rectangle", 1440x908px, constraints left/top, fill #FFFFFF, effect [drop_shadow 54px offset -10 44 #00000040]
+    - GROUP "Group 2", 1230x250.54px, constraints left/top
+      - TEXT "Solutions", 64x33.73px, constraints left/top, fill #E0604E, text [Real Text Pro Book, 14px]
+      - LINE "Line", 1075x0px, constraints left/top, stroke #000000 1px, opacity 10%
+      - TEXT "Blog", 30x39.98px, constraints left/top, fill #292929, text [Real Text Pro Book, 14px]
+      - TEXT "Contact", 54x39.98px, constraints left/top, fill #292929, text [Real Text Pro Book, 14px]
+      - TEXT "Sign up", 50x39.98px, constraints left/top, fill #000000, text [Real Text Pro Book, 14px]
+      - TEXT "Login", 37x33.73px, constraints left/top, fill #000000, text [Real Text Pro Book, 14px]
+      - RECTANGLE "image", 119x26.59px, constraints scale/scale, fill image(hash: 1ca4685b34ca22125304c1d42e23e6e82168ff27)
+  - TEXT "Turning your content into an experience", 344x155px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 40px], [heading]
+  - GROUP "Group 4", 589x450px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 5", 466x466px, constraints left/top
+    - RECTANGLE "Rectangle", 466x466px, constraints left/top, fill #CBCBCB, effect [drop_shadow 74px offset 20 24 #00000030]
+    - RECTANGLE "Rectangle", 466x466px, constraints left/top, fill #CBCBCB, effect [drop_shadow 34px offset 20 24 #00000017]
+    - RECTANGLE "image 3", 497.8x330.79px, constraints left/top, fill image(hash: 4636f625bbe3a6288c885cc3be58ef5add12c4b4)
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipis cing elit. Nu", 344x507.17px, constraints left/top, fill #000000, text [Noto Serif SC ExtraLight, 14px]
+  - TEXT "Create Journeys", 123x24px, constraints left/top, fill #000000, text [Real Text Pro Book, 16px]
+  - GROUP "Group 6", 214.26x268.26px, constraints left/top
+    - RECTANGLE "Rectangle 2.1", 214.26x268.26px, constraints left/top, fill #C4C4C4
+    - RECTANGLE "Rectangle 2.2", 214.26x268.26px, constraints left/top, fill #C4C4C4
+    - RECTANGLE "image 2.1", 371.14x241px, constraints left/top, fill image(hash: 7f2846ac2cc16dd2682c7dd2f5524213e7386448)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

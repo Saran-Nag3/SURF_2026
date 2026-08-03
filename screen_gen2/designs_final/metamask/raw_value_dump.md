@@ -1,0 +1,574 @@
+---
+name: metamask-browser-for-ios-community
+source_file: Metamask Browser for iOS (Community)
+source_page: All pages (2): Cover, Components
+generated_at: 2026-07-25T09:28:15.729446+00:00
+---
+
+# Metamask Browser for iOS (Community) Design Guidelines
+
+## Source
+- Figma file: Metamask Browser for iOS (Community)
+- Figma page: All pages (2): Cover, Components
+- Extracted at: 2026-07-25T09:28:15.729446+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Surface [day]/Default: [#FFFFFF]
+- OnSurface [day] / Primary: [#252733]
+- Primary [day] / Default: [#2B32EA]
+
+## Raw Colors (unstyled)
+- #D9D9D9: 155 uses
+- #242629: 117 uses
+- #FFFFFF: 112 uses
+- #000000: 85 uses
+- #367BCF: 39 uses
+- #BCC0C4: 29 uses
+- #5B5D66: 18 uses
+- #25282D: 16 uses
+- #545960: 16 uses
+- #66BFA0: 14 uses
+- #F6F6F9: 8 uses
+- #181818: 6 uses
+- #FFFFFF99: 6 uses
+- #FFFFFFCC: 6 uses
+- #F5F6F8: 5 uses
+- #1F35FC: 4 uses
+- #2E7CF6: 4 uses
+- #53A451: 4 uses
+
+## Typography Tokens
+- Caption 1 Bold: Inter Bold (700), 12px / 16px, tracking 0px
+- Caption 1 Regular: Inter Regular (400), 12px / 16px, tracking 0px
+
+## Raw Typography (unstyled)
+- Euclid Circular B SemiBold, 13px: 23 uses
+- Euclid Circular B Regular, 12px: 16 uses
+- Euclid Circular B SemiBold, 16.5px: 13 uses
+- Euclid Circular B Regular, 10px: 10 uses
+- Euclid Circular B Regular, 13px: 8 uses
+- Euclid Circular B Regular, 15.23px: 7 uses
+- Euclid Circular B Regular, 22px: 7 uses
+- SF Pro Text Semibold, 14px: 7 uses
+- Euclid Circular B Regular, 15px: 5 uses
+- Euclid Circular B SemiBold, 36px: 5 uses
+- Roboto Regular, 11px: 5 uses
+- SF Pro Text Regular, 21px: 5 uses
+- Euclid Circular B Regular, 12.69px: 4 uses
+- Euclid Circular B Regular, 27.92px: 4 uses
+- Euclid Circular B SemiBold, 12px: 4 uses
+- Euclid Circular B SemiBold, 48px: 4 uses
+- Inter Bold, 14px: 4 uses
+- Euclid Circular B Bold, 21px: 3 uses
+- Euclid Circular B Regular, 16.5px: 3 uses
+- Euclid Circular B Regular, 24px: 3 uses
+- Euclid Circular B SemiBold, 14px: 3 uses
+- Euclid Circular B SemiBold, 16px: 3 uses
+
+## Typography Hierarchy
+- 48px - Euclid Circular B SemiBold, 48px (raw)
+- 36px - Euclid Circular B SemiBold, 36px (raw)
+- 27.92px - Euclid Circular B Regular, 27.92px (raw)
+- 24px - Euclid Circular B Regular, 24px (raw)
+- 22px - Euclid Circular B Regular, 22px (raw)
+- 21px - Euclid Circular B Bold, 21px (raw)
+- 21px - SF Pro Text Regular, 21px (raw)
+- 16.5px - Euclid Circular B Regular, 16.5px (raw)
+- 16.5px - Euclid Circular B SemiBold, 16.5px (raw)
+- 16px - Euclid Circular B SemiBold, 16px (raw)
+- 15.23px - Euclid Circular B Regular, 15.23px (raw)
+- 15px - Euclid Circular B Regular, 15px (raw)
+- 14px - Euclid Circular B SemiBold, 14px (raw)
+- 14px - Inter Bold, 14px (raw)
+- 14px - SF Pro Text Semibold, 14px (raw)
+- 13px - Euclid Circular B Regular, 13px (raw)
+- 13px - Euclid Circular B SemiBold, 13px (raw)
+- 12.69px - Euclid Circular B Regular, 12.69px (raw)
+- 12px - Caption 1 Bold (Inter Bold)
+- 12px - Caption 1 Regular (Inter Regular)
+- 12px - Euclid Circular B Regular, 12px (raw)
+- 12px - Euclid Circular B SemiBold, 12px (raw)
+- 11px - Roboto Regular, 11px (raw)
+- 10px - Euclid Circular B Regular, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Level 3: [drop_shadow 8px offset 0 4 #60617029, drop_shadow 2px offset 0 0 #28293D0A]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Modal
+- Status label
+- Matamask
+- Metamask
+
+## Component Specs
+- Modal / Confirm: size 375x702px, radius 20/20/0/0px, fill #FFFFFF, text [Euclid Circular B Regular, 22px, Euclid Circular B SemiBold, 13px, Euclid Circular B Regular, 10px, Euclid Circular B Regular, 9.68px, Euclid Circular B Regular, 41.64px, Euclid Circular B Regular, 24.29px, Euclid Circular B Regular, 13px, Euclid Circular B SemiBold, 16px, Euclid Circular B SemiBold, 11px, Euclid Circular B Regular, 12px, Euclid Circular B SemiBold, 12px]
+- Modal / Connect to website: size 375x410px, radius 20/20/0/0px, fill #FFFFFF, text [Euclid Circular B Regular, 13px, Euclid Circular B SemiBold, 16px, Euclid Circular B Regular, 22px, Euclid Circular B SemiBold, 13px, Euclid Circular B Regular, 10px, Euclid Circular B Bold, 21px, Euclid Circular B Regular, 12px]
+- Modal / Switch network: size 375x410px, radius 20/20/0/0px, fill #FFFFFF, text [Euclid Circular B Regular, 22px, Euclid Circular B SemiBold, 13px, Euclid Circular B Regular, 10px, Euclid Circular B Bold, 21px, Euclid Circular B Regular, 12px, Euclid Circular B Regular, 11px]
+- Status label / Transaction submitted: size 343x73px, radius 8px, fill #3D3D3D, text [Euclid Circular B Regular, 12px, Euclid Circular B SemiBold, 14px]
+- Status label / Transaction complete: size 343x73px, radius 8px, fill #3D3D3D, text [Euclid Circular B Regular, 12px, Euclid Circular B SemiBold, 14px]
+- Matamask / Tab bar: size 375x72px, fill #FFFFFF, text [Euclid Circular B Regular, 15px]
+- Metamask / Navigation bar: size 375x80px, fill #FFFFFF, text [Roboto Regular, 11px, SF Pro Text Semibold, 14px, Euclid Circular B Regular, 13px, Euclid Circular B Regular, 10px]
+
+## Most-Used Styles
+- OnSurface [day] / Primary: 20 uses
+- Caption 1 Bold: 12 uses
+- Caption 1 Regular: 12 uses
+- Level 3: 4 uses
+- Primary [day] / Default: 4 uses
+- Surface [day]/Default: 4 uses
+
+## Layout & Structure
+Screen: Cover / Plugin / file cover - 1
+- FRAME "Plugin / file cover - 1", 1920x960px, constraints left/top, fill #131631
+  - RECTANGLE "MetaMask-Logo 1", 1142x641px, constraints left/top, fill image(hash: a904a5f6f78b97e909cda8a9e5bbfa261806a344)
+  - FRAME "Frame 1149", 613x434px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Metamask browser for iOS", 578x162px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 64px], [heading]
+    - FRAME "Frame 1148", 613x208px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Navigation bar, tab bar and modal views from Matamask iOS ap", 613x92px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 36px], [heading], opacity 60%
+      - TEXT "For your web3 high-fidelity app prototypes", 613x92px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 36px], [heading], opacity 60%
+  - INSTANCE "Modal / Connect to website", 672.4x688.66px, constraints left/top, radius 25.39/25.39/0/0px, fill #FFFFFF
+    - FRAME "btn / switch network", 200.5x148px, horizontal pad 15.23 38.08 15.23 38.08px gap 12.69px align center/center sizing W:fixed H:fixed, constraints left/top, radius 27.92px, fill #367BCF
+      - TEXT "Switch Network", 118.75x80.69px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 16.5px]
+    - FRAME "btn / cancel", 200.5x148px, horizontal pad 15.23 38.08 15.23 38.08px gap 12.69px align center/center sizing W:fixed H:fixed, constraints left/top, radius 27.92px, stroke #545960 1.27px
+      - TEXT "Cancel", 59x46.19px, constraints left/top, fill #545960, text [Euclid Circular B SemiBold, 16.5px]
+    - TEXT "description", 384.04x255.21px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 15.23px]
+    - TEXT "title", 370.54x231.83px, constraints center/top, fill #242629, text [Euclid Circular B Bold, 26.65px], [heading]
+    - FRAME "label / current network", 66.16x47.43px, horizontal pad 0 0 0 0px gap 3.81px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 3", 8.67x8.67px, constraints left/top, fill #66BFA0
+      - TEXT "Ethereum", 57.36x42.36px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 12.69px]
+    - FRAME "website", 113.99x77.94px, horizontal pad 0 0 0 0px gap 6.35px align center/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 15.14x16.07px, constraints left/top, fill #242629
+      - TEXT "mydapp.com", 99.7x69.69px, constraints left/top, fill #242629, text [Euclid Circular B SemiBold, 16.5px]
+    - FRAME "logo", 93.63x93.63px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 11", 93.63x93.63px, constraints left/top, fill #F6F6F9
+      - TEXT "Y", 33.95x39.81px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 27.92px], [heading]
+    - FRAME "Frame 43", 409.53x289.2px, horizontal pad 20.31 17.77 20.31 20.31px gap 7.62px align min/center sizing W:fixed H:fixed, constraints left/top, radius 12.69px, stroke #BCC0C4 1.27px
+      - ELLIPSE "Ellipse 12", 69.35x69.35px, constraints left/top, fill image(hash: e5623a49b58bd150ab89773f25756fe14302d251)
+      - FRAME "Frame 42", 243.47x167.7px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Account 1 (0xggGg...4422)", 232.97x149.52px, constraints left/top, fill #25282D, text [Euclid Circular B SemiBold, 20.31px]
+        - TEXT "Balance: $951.35 (1.004 ETH)", 197.56x126.19px, constraints left/top, fill #25282D, text [Euclid Circular B Regular, 16.5px]
+    - FRAME "home indicator light on dark", 433.78x275.36px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 150.47x90.54px, constraints center/bottom, radius 126.93px, fill #000000
+  - INSTANCE "Modal / Switch network", 672.4x688.66px, constraints left/top, radius 25.39/25.39/0/0px, fill #FFFFFF
+    - FRAME "btn / switch network", 200.5x148px, horizontal pad 15.23 38.08 15.23 38.08px gap 12.69px align center/center sizing W:fixed H:fixed, constraints left/top, radius 27.92px, fill #367BCF
+      - TEXT "Switch Network", 118.75x80.69px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 16.5px]
+    - FRAME "btn / cancel", 200.5x148px, horizontal pad 15.23 38.08 15.23 38.08px gap 12.69px align center/center sizing W:fixed H:fixed, constraints left/top, radius 27.92px, stroke #545960 1.27px
+      - TEXT "Cancel", 59x46.19px, constraints left/top, fill #545960, text [Euclid Circular B SemiBold, 16.5px]
+    - FRAME "label / network to switch", 110.12x85.7px, horizontal pad 10.15 12.69 10.15 12.69px gap 11.42px align center/center sizing W:fixed H:fixed, constraints center/top, radius 19.04px, stroke #BCC0C4 1.27px
+      - ELLIPSE "Ellipse 10", 20.81x20.81px, constraints left/top, fill #D6D9DB
+      - TEXT "Polygon", 54.9x42.09px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 13.96px]
+    - TEXT "description", 374.54x238.76px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 15.23px]
+    - TEXT "title", 385.54x257.81px, constraints center/top, fill #242629, text [Euclid Circular B Bold, 26.65px], [heading]
+    - FRAME "label / current network", 66.16x47.43px, horizontal pad 0 0 0 0px gap 3.81px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 3", 8.67x8.67px, constraints left/top, fill #66BFA0
+      - TEXT "Ethereum", 57.36x42.36px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 12.69px]
+    - FRAME "website", 113.99x77.94px, horizontal pad 0 0 0 0px gap 6.35px align center/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 15.14x16.07px, constraints left/top, fill #242629
+      - TEXT "mydapp.com", 99.7x69.69px, constraints left/top, fill #242629, text [Euclid Circular B SemiBold, 16.5px]
+    - FRAME "logo", 93.63x93.63px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 11", 93.63x93.63px, constraints left/top, fill #F6F6F9
+      - TEXT "Y", 33.95x39.81px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 27.92px], [heading]
+    - FRAME "home indicator light on dark", 433.78x275.36px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 150.47x90.54px, constraints center/bottom, radius 126.93px, fill #000000
+  - INSTANCE "Metamask / Navigation bar", 462.97x325.92px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 26", 138.81x89.38px, horizontal pad 0 0 0 0px gap 3.81px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 3", 8.67x8.67px, constraints left/top, fill #66BFA0
+      - TEXT "Ethereum Main Network", 132.71x85.86px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 12.69px]
+    - RECTANGLE "Rectangle 11", 22.15x14.26px, constraints left/top, radius 2.54px, fill #367BCF
+    - RECTANGLE "Rectangle 12", 22.15x14.26px, constraints left/top, radius 2.54px, fill #367BCF
+    - RECTANGLE "Rectangle 13", 22.15x14.26px, constraints left/top, radius 2.54px, fill #367BCF
+    - ELLIPSE "Ellipse 4", 45.08x45.08px, constraints left/top, fill image(hash: e5623a49b58bd150ab89773f25756fe14302d251)
+    - FRAME "Frame 25", 113.99x77.94px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+      - TEXT "mydapp.com", 99.7x69.69px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 16.5px]
+      - BOOLEAN_OPERATION "Union", 15.14x16.07px, constraints left/top, fill #242629
+    - RECTANGLE "line", 412.84x239.08px, constraints left/top, fill #D9D9D9
+    - INSTANCE "statusbar/iPhone X light background deeplink", 440.13x286.35px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Battery", 33.93x27.9px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+      - BOOLEAN_OPERATION "Wifi", 23.75x21.75px, constraints right/top, fill #000000
+      - BOOLEAN_OPERATION "Cellular", 25.46x22.51px, constraints right/top, fill #000000
+      - TEXT "Time", 43.41x37.19px, constraints left/center, fill #000000, text [SF Pro Text Semibold, 17.77px]
+      - TEXT "Deeplink", 42.64x33.86px, constraints left/top, fill #000000, text [Roboto Regular, 13.96px]
+      - VECTOR "backlink", 13.87x13.87px, constraints left/top, radius 0.63px, fill #000000
+  - INSTANCE "Matamask / Tab bar", 457.9x317.13px, constraints left/top, fill #FFFFFF
+    - BOOLEAN_OPERATION "Union", 15.19x17.49px, constraints left/top, fill #BCC0C4
+    - BOOLEAN_OPERATION "Union", 15.19x17.49px, constraints left/top, fill #BCC0C4
+    - BOOLEAN_OPERATION "Union", 31.13x31.13px, constraints left/top, fill #242629
+    - BOOLEAN_OPERATION "Subtract", 39.88x39.88px, constraints left/top, fill #242629
+    - TEXT "1", 18.06x24.28px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 19.04px]
+    - BOOLEAN_OPERATION "Union", 16.19x11.55px, constraints left/top, fill #242629
+    - GROUP "Group 1", 34.36x34.13px, constraints left/top [decorative, ~4 shapes]
+    - RECTANGLE "line", 412.84x239.08px, constraints left/top, fill #D9D9D9
+    - INSTANCE "home indicator light on dark", 433.78x275.36px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 150.47x90.54px, constraints center/bottom, radius 126.93px, fill #000000
+  - INSTANCE "Modal / Confirm", 857.71x1009.63px, constraints left/top, radius 25.39/25.39/0/0px, fill #FFFFFF
+    - FRAME "home indicator light on dark", 433.78x275.36px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 150.47x90.54px, constraints center/bottom, radius 126.93px, fill #000000
+    - FRAME "Confirm", 200.5x148px, horizontal pad 15.23 38.08 15.23 38.08px gap 12.69px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 27.92px, fill #367BCF
+      - TEXT "Confirm", 66.79x50.69px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 16.5px]
+    - FRAME "Reject", 200.5x148px, horizontal pad 15.23 38.08 15.23 38.08px gap 12.69px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 27.92px, stroke #545960 1.27px
+      - TEXT "Reject", 54.67x43.69px, constraints left/top, fill #545960, text [Euclid Circular B SemiBold, 16.5px]
+    - TEXT "V", 34.82x40.31px, constraints center/top, fill #FFFFFF, text [Euclid Circular B Regular, 27.92px], [heading]
+    - FRAME "gas fee", 451.42x361.75px, constraints left/top, radius 12.69px, fill #FFFFFF, stroke #BCC0C4 1.27px
+      - TEXT "0.0000647 ETH", 115.29x78.69px, constraints left/top, fill #000000, text [Euclid Circular B SemiBold, 16.5px]
+      - TEXT "Total", 44.27x37.69px, constraints left/top, fill #000000, text [Euclid Circular B SemiBold, 16.5px]
+      - RECTANGLE "line", 329.3x190.85px, constraints left/top, fill #D9D9D9
+      - FRAME "max fee", 149.86x97.49px, horizontal pad 0 0 0 0px gap 2.54px align max/center sizing W:fixed H:fixed, constraints right/top
+        - TEXT "Max fee:", 64.06x47.95px, constraints left/top, fill #5B5D66, text [Euclid Circular B SemiBold, 15.23px]
+        - FRAME "amount", 93.1x64.72px, horizontal pad 0 0 0 0px gap 2.54px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0.000108", 65.79x48.95px, constraints left/top, fill #5B5D66, text [Euclid Circular B Regular, 15.23px]
+          - TEXT "ETH", 34.61x30.95px, constraints left/top, fill #5B5D66, text [Euclid Circular B Regular, 15.23px]
+      - FRAME "max fee", 178.44x113.99px, horizontal pad 0 0 0 0px gap 2.54px align max/center sizing W:fixed H:fixed, constraints right/top
+        - TEXT "Max amount:", 92.64x64.45px, constraints left/top, fill #5B5D66, text [Euclid Circular B SemiBold, 15.23px]
+        - FRAME "amount", 93.1x64.72px, horizontal pad 0 0 0 0px gap 2.54px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0.000108", 65.79x48.95px, constraints left/top, fill #5B5D66, text [Euclid Circular B Regular, 15.23px]
+          - TEXT "ETH", 34.61x30.95px, constraints left/top, fill #5B5D66, text [Euclid Circular B Regular, 15.23px]
+      - TEXT "Likely in < 30 seconds", 141.14x92.45px, constraints left/top, fill #53A451, text [Euclid Circular B Regular, 15.23px]
+      - FRAME "amount", 115.69x79.39px, vertical pad 0 0 0 0px gap 1.27px align min/max sizing W:fixed H:fixed, constraints right/top
+        - TEXT "0.0000647 ETH", 113.79x76.09px, constraints left/top, fill #367BCF, text [Euclid Circular B SemiBold, 16.5px]
+        - RECTANGLE "Rectangle 1919", 106.06x62.7px, constraints left/top, fill #367BCF
+      - FRAME "estimated gas fee", 149.1x98.21px, horizontal pad 0 0 0 0px gap 6.35px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Estimated gas fee", 132.61x88.69px, constraints left/top, fill #000000, text [Euclid Circular B SemiBold, 16.5px]
+        - BOOLEAN_OPERATION "icn / info", 17.34x17.34px, constraints left/top, fill #BCC0C4
+    - TEXT "View Data", 69.62x50.59px, constraints left/top, fill #367BCF, text [Euclid Circular B SemiBold, 13.96px]
+    - FRAME "Account", 409.53x289.2px, horizontal pad 20.31 17.77 20.31 20.31px gap 7.62px align min/center sizing W:fixed H:fixed, constraints left/top, radius 12.69px, stroke #BCC0C4 1.27px
+      - ELLIPSE "wallet-img", 69.35x69.35px, constraints left/top, fill image(hash: e5623a49b58bd150ab89773f25756fe14302d251)
+      - FRAME "account and balance", 239.14x165.2px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Account 1 (0xgh30...4563)", 228.64x147.02px, constraints left/top, fill #25282D, text [Euclid Circular B SemiBold, 20.31px]
+        - TEXT "Balance: $951.35 (1.004 ETH)", 197.56x126.19px, constraints left/top, fill #25282D, text [Euclid Circular B Regular, 16.5px]
+    - TEXT "$0", 49.18x49.18px, constraints center/top, fill #25282D, text [Euclid Circular B Regular, 30.83px], [heading]
+    - TEXT "0 ETH", 156.94x125.83px, constraints center/top, fill #000000, text [Euclid Circular B Regular, 52.85px], [heading]
+    - FRAME "label / method", 119x83.8px, horizontal pad 5.08 10.15 5.08 10.15px gap 12.69px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12.69px, stroke #858B95 1.27px
+      - TEXT "Unknown Method", 96.33x64.86px, constraints left/top, fill #25282D, text [Euclid Circular B Regular, 12.29px]
+    - FRAME "label / current network", 66.16x47.43px, horizontal pad 0 0 0 0px gap 3.81px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 3", 8.67x8.67px, constraints left/top, fill #66BFA0
+      - TEXT "Ethereum", 57.36x42.36px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 12.69px]
+    - FRAME "site title", 113.99x77.94px, horizontal pad 0 0 0 0px gap 6.35px align center/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Union", 15.14x16.07px, constraints left/top, fill #242629
+      - TEXT "mydapp.com", 99.7x69.69px, constraints left/top, fill #242629, text [Euclid Circular B SemiBold, 16.5px]
+    - FRAME "logo", 93.63x93.63px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse 11", 93.63x93.63px, constraints left/top, fill #F6F6F9
+      - TEXT "Y", 33.95x39.81px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 27.92px], [heading]
+
+Screen: Components / Components
+- FRAME "Components", 2810x3036px, vertical pad 64 80 200 80px gap 64px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1146", 375x449px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "About", 143x61px, constraints left/top, fill #000000, text [Euclid Circular B SemiBold, 48px], [heading]
+    - FRAME "Frame 1145", 375x324px, vertical pad 0 0 0 0px gap 36px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Components below has been constructed by ANDRXS with a purpo", 375x192px, constraints left/top, fill #000000, text [Euclid Circular B Regular, 24px], [heading]
+      - TEXT "It’s not official Metamask design file, but it looks very si", 375x96px, constraints left/top, fill #000000, text [Euclid Circular B Regular, 24px], [heading]
+  - FRAME "Frame 1144", 2131x941px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Components", 293x61px, constraints left/top, fill #000000, text [Euclid Circular B SemiBold, 48px], [heading]
+    - FRAME "Frame 1143", 2131x816px, horizontal pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Bars", 375x330px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Title", 375x50px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Bars", 76x46px, constraints left/top, fill #181818, text [Euclid Circular B SemiBold, 36px], [heading]
+          - RECTANGLE "line", 375x2px, constraints left/top, fill #181818
+        - COMPONENT "Metamask / Navigation bar", 375x80px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 26", 119x13px, horizontal pad 0 0 0 0px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 3", 5x5px, constraints left/top, fill #66BFA0
+            - TEXT "Ethereum Main Network", 114x13px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 10px]
+          - RECTANGLE "Rectangle 11", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - RECTANGLE "Rectangle 12", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - RECTANGLE "Rectangle 13", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - ELLIPSE "Ellipse 4", 26x26px, constraints left/top, fill image(hash: e5623a49b58bd150ab89773f25756fe14302d251)
+          - FRAME "Frame 25", 94x16px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+            - TEXT "mydapp.com", 81x16px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 13px]
+            - BOOLEAN_OPERATION "Union", 8x10px, constraints left/top, fill #242629
+          - RECTANGLE "line", 375x1px, constraints left/top, fill #D9D9D9
+          - INSTANCE "statusbar/iPhone X light background deeplink", 375x44px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+            - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+            - BOOLEAN_OPERATION "Cellular", 17x10.67px, constraints right/top, fill #000000
+            - TEXT "Time", 30x17px, constraints left/center, fill #000000, text [SF Pro Text Semibold, 14px]
+            - TEXT "Deeplink", 32x13px, constraints left/top, fill #000000, text [Roboto Regular, 11px]
+            - VECTOR "backlink", 8x8px, constraints left/top, radius 0.5px, fill #000000
+        - COMPONENT "Matamask / Tab bar", 375x72px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 6.95x11.9px, constraints left/top, fill #BCC0C4
+          - BOOLEAN_OPERATION "Union", 6.95x11.9px, constraints left/top, fill #BCC0C4
+          - BOOLEAN_OPERATION "Union", 17.95x17.95px, constraints left/top, fill #242629
+          - BOOLEAN_OPERATION "Subtract", 23x23px, constraints left/top, fill #242629
+          - TEXT "1", 5x19px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 15px]
+          - BOOLEAN_OPERATION "Union", 13x3px, constraints left/top, fill #242629
+          - GROUP "Group 1", 20x19.5px, constraints left/top [decorative, ~4 shapes]
+          - RECTANGLE "line", 375x1px, constraints left/top, fill #D9D9D9
+          - INSTANCE "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000
+      - FRAME "Labels", 375x324px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Title", 375x50px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Labels", 111x46px, constraints left/top, fill #181818, text [Euclid Circular B SemiBold, 36px], [heading]
+          - RECTANGLE "line", 375x2px, constraints left/top, fill #181818
+        - COMPONENT "Status label / Transaction complete", 343x73px, constraints left/top, radius 8px, fill #3D3D3D
+          - TEXT "Transaction #2 Complete!", 173x18px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 14px]
+          - TEXT "Tap to view this transaction", 154x15px, constraints left/top, fill #FFFFFF, text [Euclid Circular B Regular, 12px]
+          - VECTOR "Vector 2", 23.5x16.5px, constraints left/top, stroke #53A451 3px
+        - COMPONENT "Status label / Transaction submitted", 343x73px, constraints left/top, radius 8px, fill #3D3D3D
+          - TEXT "Transaction submitted", 150x18px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 14px]
+          - TEXT "Waiting for confirmation", 138x15px, constraints left/top, fill #FFFFFF, text [Euclid Circular B Regular, 12px]
+          - FRAME "loader", 36x36px, constraints left/top, fill #FFFFFF [decorative, ~8 shapes]
+      - FRAME "Modals", 1221x816px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Title", 1221x50px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Modals", 124x46px, constraints left/top, fill #181818, text [Euclid Circular B SemiBold, 36px], [heading]
+          - RECTANGLE "line", 1221x2px, constraints left/top, fill #181818
+        - FRAME "Modals", 1221x702px, horizontal pad 0 0 0 0px gap 48px align min/max sizing W:fixed H:fixed, constraints left/top
+          - COMPONENT "Modal / Switch network", 375x410px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF
+            - FRAME "btn / switch network", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #367BCF
+            - FRAME "btn / cancel", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, stroke #545960 1px
+            - FRAME "label / network to switch", 83x30px, horizontal pad 8 10 8 10px gap 9px align center/center sizing W:fixed H:fixed, constraints center/top, radius 15px, stroke #BCC0C4 1px
+            - TEXT "description", 323x30px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 12px]
+            - TEXT "title", 323x48px, constraints center/top, fill #242629, text [Euclid Circular B Bold, 21px]
+            - FRAME "label / current network", 53x13px, horizontal pad 0 0 0 0px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "website", 94x16px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+            - FRAME "logo", 54x54px, constraints left/top, fill #FFFFFF
+            - FRAME "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+          - COMPONENT "Modal / Connect to website", 375x410px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF
+            - FRAME "btn / switch network", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #367BCF
+            - FRAME "btn / cancel", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, stroke #545960 1px
+            - TEXT "description", 323x45px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 12px]
+            - TEXT "title", 323x24px, constraints center/top, fill #242629, text [Euclid Circular B Bold, 21px]
+            - FRAME "label / current network", 53x13px, horizontal pad 0 0 0 0px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "website", 94x16px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+            - FRAME "logo", 54x54px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 43", 331x72px, horizontal pad 16 14 16 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #BCC0C4 1px
+            - FRAME "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+          - COMPONENT "Modal / Confirm", 375x702px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF
+            - FRAME "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+            - FRAME "Confirm", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 22px, fill #367BCF
+            - FRAME "Reject", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 22px, stroke #545960 1px
+            - TEXT "V", 16x28px, constraints center/top, fill #FFFFFF, text [Euclid Circular B Regular, 22px]
+            - FRAME "gas fee", 331x138px, constraints left/top, radius 10px, fill #FFFFFF, stroke #BCC0C4 1px
+            - TEXT "View Data", 55x14px, constraints left/top, fill #367BCF, text [Euclid Circular B SemiBold, 11px]
+            - FRAME "Account", 331x72px, horizontal pad 16 14 16 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #BCC0C4 1px
+            - TEXT "$0", 28x28px, constraints center/top, fill #25282D, text [Euclid Circular B Regular, 24.29px], [heading]
+            - TEXT "0 ETH", 115x48px, constraints center/top, fill #000000, text [Euclid Circular B Regular, 41.64px], [heading]
+            - FRAME "label / method", 97x20px, horizontal pad 4 8 4 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #858B95 1px
+            - FRAME "label / current network", 53x13px, horizontal pad 0 0 0 0px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "site title", 94x16px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+            - FRAME "logo", 54x54px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 1149", 2650x937px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 1146", 218x61px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Examples", 218x61px, constraints left/top, fill #000000, text [Euclid Circular B SemiBold, 48px], [heading]
+    - FRAME "Frame 1148", 2650x812px, horizontal pad 0 0 0 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "AppStore / Light Mode / Metamask", 375x812px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "IMG_3220 1", 375x811.54px, constraints left/top, fill image(hash: a937d7aeb0a093995949c4fdad259795d75b29f5)
+      - FRAME "Webpage", 375x812px, constraints left/top, fill #F5F6F8
+        - FRAME "Frame 1141", 258x409px, constraints left/top, radius 8px, fill Surface [day]/Default, effect Level 3
+          - FRAME "button / default", 226x34px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #1F35FC
+            - FRAME "Frame 1142", 18x18px, constraints left/top [decorative, ~6 shapes]
+            - TEXT "title", 112x18px, constraints center/top, fill #FFFFFF, text [Inter Bold, 14px]
+          - RECTANGLE "Rectangle 1918", 226x226px, constraints left/top, radius 8px, fill image(hash: 4f431e565d5786cf4c54d5822b279be3d0ed9ba3)
+          - FRAME "Frame 1140", 226x56px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 1136", 50x56px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1137", 121x56px, vertical pad 0 0 0 0px gap 4px align min/max sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Safari iPhone X/searchbar light onload", 375x94px, constraints left/top, fill #FFFFFF
+          - INSTANCE "backgrounds/nav bar - light", 375x94px, constraints left_right/top_bottom
+            - VECTOR "Background", 375x94px, constraints left_right/top_bottom, fill #F9F9F9F0, effect [background_blur 20px, drop_shadow 0px offset 0 0.5 #0000004D]
+          - INSTANCE "safari input/search light", 355x36px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "input search", 355x36px, constraints scale/scale, radius 10px, fill #7676801F
+            - TEXT "􀅈", 18x21px, constraints right/center, fill #000000, text [SF Compact Display Regular, 18px]
+            - TEXT "􀅐", 23x21px, constraints left/center, fill #000000, text [SF Compact Display Regular, 18px]
+            - FRAME "domain", 116x19px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints center/top
+          - INSTANCE "statusbar/iPhone X light background", 375x44px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+            - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+            - BOOLEAN_OPERATION "Cellular", 17x10.67px, constraints right/top, fill #000000
+            - TEXT "Time", 30x17px, constraints left/center, fill #000000, text [SF Pro Text Semibold, 14px]
+        - INSTANCE "safari iPhone X/toolbar light", 375x83px, constraints scale/scale
+          - INSTANCE "backgrounds/tab bar - light", 375x83px, constraints left_right/top_bottom
+            - VECTOR "Background", 375x83px, constraints left_right/top_bottom, fill #F9F9F9F0, effect [background_blur 20px, drop_shadow 0px offset 0 -0.5 #0000004D]
+          - INSTANCE "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000
+          - INSTANCE "safari iPhone 8/toolbar light", 375x44px, constraints scale/scale
+            - TEXT "Symbol", 44x44px, constraints left_right/top_bottom, fill #2E7CF6, text [SF Pro Text Regular, 21px]
+            - TEXT "Symbol", 44x44px, constraints left_right/top_bottom, fill #2E7CF6, text [SF Pro Text Regular, 21px]
+            - TEXT "Symbol", 44x44px, constraints left_right/top_bottom, fill #2E7CF6, text [SF Pro Text Regular, 21px]
+            - TEXT "Symbol", 44x44px, constraints left_right/top_bottom, fill #CECECE, text [SF Pro Text Regular, 21px]
+            - TEXT "Symbol", 44x44px, constraints left_right/top_bottom, fill #2E7CF6, text [SF Pro Text Regular, 21px]
+      - FRAME "Webpage", 375x812px, constraints left/top, fill #F5F6F8
+        - INSTANCE "Metamask / Navigation bar", 375x80px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 26", 119x13px, horizontal pad 0 0 0 0px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 3", 5x5px, constraints left/top, fill #66BFA0
+            - TEXT "Ethereum Main Network", 114x13px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 10px]
+          - RECTANGLE "Rectangle 11", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - RECTANGLE "Rectangle 12", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - RECTANGLE "Rectangle 13", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - ELLIPSE "Ellipse 4", 26x26px, constraints left/top, fill image(hash: e5623a49b58bd150ab89773f25756fe14302d251)
+          - FRAME "Frame 25", 94x16px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+            - TEXT "mydapp.com", 81x16px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 13px]
+            - BOOLEAN_OPERATION "Union", 8x10px, constraints left/top, fill #242629
+          - RECTANGLE "line", 375x1px, constraints left/top, fill #D9D9D9
+          - INSTANCE "statusbar/iPhone X light background deeplink", 375x44px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+            - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+            - BOOLEAN_OPERATION "Cellular", 17x10.67px, constraints right/top, fill #000000
+            - TEXT "Time", 30x17px, constraints left/center, fill #000000, text [SF Pro Text Semibold, 14px]
+            - TEXT "Deeplink", 32x13px, constraints left/top, fill #000000, text [Roboto Regular, 11px]
+            - VECTOR "backlink", 8x8px, constraints left/top, radius 0.5px, fill #000000
+        - INSTANCE "Matamask / Tab bar", 375x72px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 6.95x11.9px, constraints left/top, fill #BCC0C4
+          - BOOLEAN_OPERATION "Union", 6.95x11.9px, constraints left/top, fill #BCC0C4
+          - BOOLEAN_OPERATION "Union", 17.95x17.95px, constraints left/top, fill #242629
+          - BOOLEAN_OPERATION "Subtract", 23x23px, constraints left/top, fill #242629
+          - TEXT "1", 5x19px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 15px]
+          - BOOLEAN_OPERATION "Union", 13x3px, constraints left/top, fill #242629
+          - GROUP "Group 1", 20x19.5px, constraints left/top [decorative, ~4 shapes]
+          - RECTANGLE "line", 375x1px, constraints left/top, fill #D9D9D9
+          - INSTANCE "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000
+        - FRAME "Frame 1141", 258x409px, constraints left/top, radius 8px, fill Surface [day]/Default, effect Level 3
+          - FRAME "button / default", 226x34px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #1F35FC
+            - FRAME "Frame 1142", 18x18px, constraints left/top [decorative, ~6 shapes]
+            - TEXT "title", 56x18px, constraints center/top, fill #FFFFFF, text [Inter Bold, 14px]
+          - RECTANGLE "Rectangle 1918", 226x226px, constraints left/top, radius 8px, fill image(hash: 4f431e565d5786cf4c54d5822b279be3d0ed9ba3)
+          - FRAME "Frame 1140", 226x56px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 1136", 50x56px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1137", 121x56px, vertical pad 0 0 0 0px gap 4px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Webpage", 375x812px, constraints left/top, fill #F5F6F8
+        - INSTANCE "Metamask / Navigation bar", 375x80px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 26", 119x13px, horizontal pad 0 0 0 0px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 3", 5x5px, constraints left/top, fill #66BFA0
+            - TEXT "Ethereum Main Network", 114x13px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 10px]
+          - RECTANGLE "Rectangle 11", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - RECTANGLE "Rectangle 12", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - RECTANGLE "Rectangle 13", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - ELLIPSE "Ellipse 4", 26x26px, constraints left/top, fill image(hash: e5623a49b58bd150ab89773f25756fe14302d251)
+          - FRAME "Frame 25", 94x16px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+            - TEXT "mydapp.com", 81x16px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 13px]
+            - BOOLEAN_OPERATION "Union", 8x10px, constraints left/top, fill #242629
+          - RECTANGLE "line", 375x1px, constraints left/top, fill #D9D9D9
+          - INSTANCE "statusbar/iPhone X light background deeplink", 375x44px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+            - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+            - BOOLEAN_OPERATION "Cellular", 17x10.67px, constraints right/top, fill #000000
+            - TEXT "Time", 30x17px, constraints left/center, fill #000000, text [SF Pro Text Semibold, 14px]
+            - TEXT "Deeplink", 32x13px, constraints left/top, fill #000000, text [Roboto Regular, 11px]
+            - VECTOR "backlink", 8x8px, constraints left/top, radius 0.5px, fill #000000
+        - INSTANCE "Matamask / Tab bar", 375x72px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 6.95x11.9px, constraints left/top, fill #BCC0C4
+          - BOOLEAN_OPERATION "Union", 6.95x11.9px, constraints left/top, fill #BCC0C4
+          - BOOLEAN_OPERATION "Union", 17.95x17.95px, constraints left/top, fill #242629
+          - BOOLEAN_OPERATION "Subtract", 23x23px, constraints left/top, fill #242629
+          - TEXT "1", 5x19px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 15px]
+          - BOOLEAN_OPERATION "Union", 13x3px, constraints left/top, fill #242629
+          - GROUP "Group 1", 20x19.5px, constraints left/top [decorative, ~4 shapes]
+          - RECTANGLE "line", 375x1px, constraints left/top, fill #D9D9D9
+          - INSTANCE "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000
+        - FRAME "Frame 1141", 258x409px, constraints left/top, radius 8px, fill Surface [day]/Default, effect Level 3
+          - FRAME "button / default", 226x34px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 15px, fill #1F35FC
+            - FRAME "Frame 1142", 18x18px, constraints left/top [decorative, ~6 shapes]
+            - TEXT "title", 56x18px, constraints center/top, fill #FFFFFF, text [Inter Bold, 14px]
+          - RECTANGLE "Rectangle 1918", 226x226px, constraints left/top, radius 8px, fill image(hash: 4f431e565d5786cf4c54d5822b279be3d0ed9ba3)
+          - FRAME "Frame 1140", 226x56px, constraints left/top, fill #FFFFFF
+            - FRAME "Frame 1136", 50x56px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1137", 121x56px, vertical pad 0 0 0 0px gap 4px align min/max sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Shadow", 375x813px, constraints left/top, fill #000000, opacity 70%
+        - INSTANCE "Modal / Switch network", 375x410px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF
+          - FRAME "btn / switch network", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill #367BCF
+            - TEXT "Switch Network", 98x16px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 13px]
+          - FRAME "btn / cancel", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22px, stroke #545960 1px
+            - TEXT "Cancel", 44x16px, constraints left/top, fill #545960, text [Euclid Circular B SemiBold, 13px]
+          - FRAME "label / network to switch", 83x30px, horizontal pad 8 10 8 10px gap 9px align center/center sizing W:fixed H:fixed, constraints center/top, radius 15px, stroke #BCC0C4 1px
+            - ELLIPSE "Ellipse 10", 12x12px, constraints left/top, fill #D6D9DB
+            - TEXT "Polygon", 42x14px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 11px]
+          - TEXT "description", 323x30px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 12px]
+          - TEXT "title", 323x48px, constraints center/top, fill #242629, text [Euclid Circular B Bold, 21px]
+          - FRAME "label / current network", 53x13px, horizontal pad 0 0 0 0px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 3", 5x5px, constraints left/top, fill #66BFA0
+            - TEXT "Ethereum", 45x13px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 10px]
+          - FRAME "website", 94x16px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 8x10px, constraints left/top, fill #242629
+            - TEXT "mydapp.com", 81x16px, constraints left/top, fill #242629, text [Euclid Circular B SemiBold, 13px]
+          - FRAME "logo", 54x54px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 11", 54x54px, constraints left/top, fill #F6F6F9
+            - TEXT "Y", 15x28px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 22px]
+          - FRAME "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000
+      - FRAME "Webpage", 375x812px, constraints left/top, fill #F5F6F8
+        - INSTANCE "Metamask / Navigation bar", 375x80px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 26", 119x13px, horizontal pad 0 0 0 0px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 3", 5x5px, constraints left/top, fill #66BFA0
+            - TEXT "Ethereum Main Network", 114x13px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 10px]
+          - RECTANGLE "Rectangle 11", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - RECTANGLE "Rectangle 12", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - RECTANGLE "Rectangle 13", 19x2px, constraints left/top, radius 2px, fill #367BCF
+          - ELLIPSE "Ellipse 4", 26x26px, constraints left/top, fill image(hash: e5623a49b58bd150ab89773f25756fe14302d251)
+          - FRAME "Frame 25", 94x16px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+            - TEXT "mydapp.com", 81x16px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 13px]
+            - BOOLEAN_OPERATION "Union", 8x10px, constraints left/top, fill #242629
+          - RECTANGLE "line", 375x1px, constraints left/top, fill #D9D9D9
+          - INSTANCE "statusbar/iPhone X light background deeplink", 375x44px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+            - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+            - BOOLEAN_OPERATION "Cellular", 17x10.67px, constraints right/top, fill #000000
+            - TEXT "Time", 30x17px, constraints left/center, fill #000000, text [SF Pro Text Semibold, 14px]
+            - TEXT "Deeplink", 32x13px, constraints left/top, fill #000000, text [Roboto Regular, 11px]
+            - VECTOR "backlink", 8x8px, constraints left/top, radius 0.5px, fill #000000
+        - INSTANCE "Matamask / Tab bar", 375x72px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Union", 6.95x11.9px, constraints left/top, fill #BCC0C4
+          - BOOLEAN_OPERATION "Union", 6.95x11.9px, constraints left/top, fill #BCC0C4
+          - BOOLEAN_OPERATION "Union", 17.95x17.95px, constraints left/top, fill #242629
+          - BOOLEAN_OPERATION "Subtract", 23x23px, constraints left/top, fill #242629
+          - TEXT "1", 5x19px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 15px]
+          - BOOLEAN_OPERATION "Union", 13x3px, constraints left/top, fill #242629
+          - GROUP "Group 1", 20x19.5px, constraints left/top [decorative, ~4 shapes]
+          - RECTANGLE "line", 375x1px, constraints left/top, fill #D9D9D9
+          - INSTANCE "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000
+        - RECTANGLE "Shadow", 375x813px, constraints left/top, fill #000000, opacity 70%
+        - INSTANCE "Modal / Confirm", 375x702px, constraints left/top, radius 20/20/0/0px, fill #FFFFFF
+          - FRAME "home indicator light on dark", 375x34px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000
+          - FRAME "Confirm", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 22px, fill #367BCF
+            - TEXT "Confirm", 51x16px, constraints left/top, fill #FFFFFF, text [Euclid Circular B SemiBold, 13px]
+          - FRAME "Reject", 157x44px, horizontal pad 12 30 12 30px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 22px, stroke #545960 1px
+            - TEXT "Reject", 40x16px, constraints left/top, fill #545960, text [Euclid Circular B SemiBold, 13px]
+          - TEXT "V", 16x28px, constraints center/top, fill #FFFFFF, text [Euclid Circular B Regular, 22px]
+          - FRAME "gas fee", 331x138px, constraints left/top, radius 10px, fill #FFFFFF, stroke #BCC0C4 1px
+            - TEXT "0.0000647 ETH", 95x16px, constraints left/top, fill #000000, text [Euclid Circular B SemiBold, 13px]
+            - TEXT "Total", 31x16px, constraints left/top, fill #000000, text [Euclid Circular B SemiBold, 13px]
+            - RECTANGLE "line", 299x1px, constraints left/top, fill #D9D9D9
+            - FRAME "max fee", 128x15px, horizontal pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints right/top
+            - FRAME "max fee", 154x15px, horizontal pad 0 0 0 0px gap 2px align max/center sizing W:fixed H:fixed, constraints right/top
+            - TEXT "Likely in < 30 seconds", 120x15px, constraints left/top, fill #53A451, text [Euclid Circular B Regular, 12px]
+            - FRAME "amount", 95x17px, vertical pad 0 0 0 0px gap 1px align min/max sizing W:fixed H:fixed, constraints right/top
+            - FRAME "estimated gas fee", 126x16px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "View Data", 55x14px, constraints left/top, fill #367BCF, text [Euclid Circular B SemiBold, 11px]
+          - FRAME "Account", 331x72px, horizontal pad 16 14 16 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #BCC0C4 1px
+            - ELLIPSE "wallet-img", 40x40px, constraints left/top, fill image(hash: e5623a49b58bd150ab89773f25756fe14302d251)
+            - FRAME "account and balance", 196x36px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "$0", 28x28px, constraints center/top, fill #25282D, text [Euclid Circular B Regular, 24.29px], [heading]
+          - TEXT "0 ETH", 115x48px, constraints center/top, fill #000000, text [Euclid Circular B Regular, 41.64px], [heading]
+          - FRAME "label / method", 97x20px, horizontal pad 4 8 4 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, stroke #858B95 1px
+            - TEXT "Unknown Method", 81x12px, constraints left/top, fill #25282D, text [Euclid Circular B Regular, 9.68px]
+          - FRAME "label / current network", 53x13px, horizontal pad 0 0 0 0px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 3", 5x5px, constraints left/top, fill #66BFA0
+            - TEXT "Ethereum", 45x13px, constraints left/top, fill #242629, text [Euclid Circular B Regular, 10px]
+          - FRAME "site title", 94x16px, horizontal pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints center/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 8x10px, constraints left/top, fill #242629
+            - TEXT "mydapp.com", 81x16px, constraints left/top, fill #242629, text [Euclid Circular B SemiBold, 13px]
+          - FRAME "logo", 54x54px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 11", 54x54px, constraints left/top, fill #F6F6F9
+            - TEXT "Y", 15x28px, constraints center/top, fill #242629, text [Euclid Circular B Regular, 22px]
+      - FRAME "Webpage", 375x812px, constraints left/top, fill #F5F6F8
+  ... this screen truncated at the 300-node per-screen limit.
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

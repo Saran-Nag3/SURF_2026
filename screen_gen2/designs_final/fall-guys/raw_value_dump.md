@@ -1,0 +1,1137 @@
+---
+name: fall-guys-mobile-ui-social-media-community
+source_file: Fall Guys-Mobile UI+social media (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:54:53.355655+00:00
+---
+
+# Fall Guys-Mobile UI+social media (Community) Design Guidelines
+
+## Source
+- Figma file: Fall Guys-Mobile UI+social media (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:54:53.355655+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 763 uses
+- #FFFFFF: 346 uses
+- #D9D9D900: 157 uses
+- #D9D9D9: 133 uses
+- #D1D1D1: 121 uses
+- #358672: 120 uses
+- #00000066: 70 uses
+- #D3F9D8: 56 uses
+- #E7E7E7: 42 uses
+- #A1A1A1: 40 uses
+- #9AC3B8: 38 uses
+- #BDBDBD: 36 uses
+- #36ADF8: 26 uses
+- #31574F: 18 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Kantumruy Regular, 13px: 51 uses
+- Roboto Regular, 20px: 48 uses
+- Roboto Regular, 32px: 39 uses
+- Roboto Regular, 14px: 36 uses
+- Roboto Regular, 24px: 36 uses
+- Inter Regular, 16px: 33 uses
+- Roboto Regular, 16px: 27 uses
+- Inter Bold, 16px: 22 uses
+- Inter Regular, 20px: 22 uses
+- Roboto Bold, 32px: 22 uses
+- Roboto Bold, 24px: 21 uses
+- Roboto Bold, 48px: 20 uses
+- Roboto Regular, 48px: 18 uses
+- Inter Bold, 32px: 15 uses
+- Inter Bold, 14px: 12 uses
+- Inter Regular, 13px: 12 uses
+- Inter Bold, 64px: 10 uses
+- Roboto Bold, 15px: 9 uses
+- Roboto Bold, 36px: 8 uses
+- Inter Bold, 36px: 5 uses
+- Roboto Regular, 40px: 5 uses
+- Inter Bold, 20px: 4 uses
+- Inter ExtraBold, 280px: 4 uses
+- Kantumruy Bold, 24px: 4 uses
+- Roboto Bold, 16px: 4 uses
+- Inter Bold, 24px: 3 uses
+- Roboto Bold, 64px: 3 uses
+- Roboto Bold, 96px: 3 uses
+- Roboto Regular, 15px: 3 uses
+- Rockwell Bold, 24px: 3 uses
+- Rockwell Rockwell, 48px: 3 uses
+- Rowdies Bold, 48px: 3 uses
+
+## Typography Hierarchy
+- 280px - Inter ExtraBold, 280px (raw)
+- 96px - Roboto Bold, 96px (raw)
+- 64px - Inter Bold, 64px (raw)
+- 64px - Roboto Bold, 64px (raw)
+- 48px - Roboto Bold, 48px (raw)
+- 48px - Roboto Regular, 48px (raw)
+- 48px - Rockwell Rockwell, 48px (raw)
+- 48px - Rowdies Bold, 48px (raw)
+- 40px - Roboto Regular, 40px (raw)
+- 36px - Inter Bold, 36px (raw)
+- 36px - Roboto Bold, 36px (raw)
+- 32px - Inter Bold, 32px (raw)
+- 32px - Roboto Bold, 32px (raw)
+- 32px - Roboto Regular, 32px (raw)
+- 24px - Inter Bold, 24px (raw)
+- 24px - Kantumruy Bold, 24px (raw)
+- 24px - Roboto Bold, 24px (raw)
+- 24px - Roboto Regular, 24px (raw)
+- 24px - Rockwell Bold, 24px (raw)
+- 20px - Inter Bold, 20px (raw)
+- 20px - Inter Regular, 20px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 16px - Inter Bold, 16px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 16px - Roboto Bold, 16px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 15px - Roboto Bold, 15px (raw)
+- 15px - Roboto Regular, 15px (raw)
+- 14px - Inter Bold, 14px (raw)
+- 14px - Roboto Regular, 14px (raw)
+- 13px - Inter Regular, 13px (raw)
+- 13px - Kantumruy Regular, 13px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / Rectangle 6667489
+- VECTOR "Rectangle 6667489", 7853.06x5154px, constraints left/top, fill #160E52
+
+Screen: Page 1 / Fall Guys-mobile UI
+- TEXT "Fall Guys-mobile UI", 2681x678px, constraints left/top, fill #85D5A5, text [Inter ExtraBold, 280px], [heading]
+
+Screen: Page 1 / zadatak 00
+- FRAME "zadatak 00", 1440x1024px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 2", 1652x1379px, constraints left/top, fill #A6A5A5
+  - RECTANGLE "Rectangle 3", 1074x2459px, constraints left/top, fill image(hash: 850d794b03cf9d4afa3ecf6dc2a4a6a609b74d22)
+  - TEXT "“Just do it” tvoj izbor = vrhunske performanse", 765x192px, constraints left/top, fill #03A5A1, text [Inter Regular, 64px], [heading]
+  - TEXT "Uskoro u prodaji", 467.64x182.89px, constraints right/center, fill #E5E5E5, text [Arial BoldMT, 48px], [heading]
+  - RECTANGLE "Rectangle 4", 665x182px, constraints left/top, radius 30px, fill #00D1CB4D
+  - TEXT "Prezime", 153x23px, constraints left/top, fill #007D7A, text [Inter Bold, 20px]
+  - RECTANGLE "Rectangle 5", 225x36px, constraints left/top, radius 15px, fill #FFFFFF, stroke #007D7A 3px
+  - RECTANGLE "Rectangle 6", 225x36px, constraints left/top, radius 15px, fill #FFFFFF, stroke #007D7A 3px
+  - RECTANGLE "Rectangle 7", 113x36px, constraints left/top, radius 15px, fill #007D7A
+  - TEXT "SUBMIT", 133x36px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 16px]
+  - TEXT "Prijavi se, saznaj, budi br. 1!", 430x38px, constraints left/center, fill #007D7A, text [Inter Bold, 24px], [heading]
+  - TEXT "Ime", 153x19px, constraints left/top, fill #007D7A, text [Inter Bold, 20px]
+  - TEXT "Nike definiše eleganciju i stil u sportskoj obući. Trendeset", 633x142px, constraints left/top, fill #000000, text [Roboto Regular, 30px], [heading]
+  - RECTANGLE "Rectangle 8", 94x13px, constraints left/top, radius 30px, fill #C4C4C4
+
+Screen: Page 1 / Početna
+- FRAME "Početna", 393x852px, constraints left/top, fill image(hash: 7207f8b28f2362ca7e038ffdc9584bf3f5d06177)
+  - ELLIPSE "Ellipse 3", 263x263px, constraints left/top, fill image(hash: cdc727a90ff047fe614fb2dc2f6006244513ff14), stroke #358672 8px
+  - TEXT "Miloš Petrović", 293x67px, constraints left/top, fill #358672, text [Rockwell Rockwell, 48px], [heading]
+  - TEXT "FITNESS INSTRUCTOR", 275x34px, constraints left/top, fill #358672, text [Rockwell Bold, 24px], [heading]
+  - ELLIPSE "Ellipse 7", 46x46px, constraints left/top, fill #358672
+  - RECTANGLE "Rectangle 27", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 28", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 29", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - GROUP "Group 1", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Društvene mreže
+- FRAME "Društvene mreže", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 15", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Društvene mreže", 300x83px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 38px], [heading]
+  - TEXT "Ukoliko želite da budete u toku i ispratite moj rad, zaprati", 345x94px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 19", 85x85px, constraints left/top, radius 15px, fill image(hash: 397f1027506d5dfa24000807716a7b9ea3b27807), stroke #3C5C92 1px
+  - RECTANGLE "Rectangle 20", 85x85px, constraints left/top, radius 15px, fill image(hash: 481c24f350af2ded4ca89ac05cd760cdcf3f41b7), stroke #985A94 1px
+  - RECTANGLE "Rectangle 21", 85x85px, constraints left/top, radius 15px, fill image(hash: df7dca17661484414cb3c0e683cdf9f85c29fe92), stroke #81C7E8 1px
+  - RECTANGLE "Rectangle 22", 85x85px, constraints left/top, radius 15px, fill image(hash: 6f089ce70e8c91e7dfcf5a932edc327b7eaea88c), stroke #000000 1px
+  - TEXT "Takodje me možete pronaći radnim danima u fitness centru Sup", 331x84px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - ELLIPSE "Ellipse 10", 46x46px, constraints left/top, fill #358672
+  - RECTANGLE "Rectangle 36", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 37", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 38", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - GROUP "Group 7", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 14", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Freebies
+- FRAME "Freebies", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 15", 394x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Freebies", 348x65px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Takođe ću vam u nastavku ostaviti neke od osnovnih programa ", 345x178px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 24", 288x73px, constraints left/top, radius 15px, fill #9AC3B86B, stroke #358672 3px
+  - RECTANGLE "Rectangle 25", 288x73px, constraints left/top, radius 15px, fill #9AC3B86B, stroke #358672 3px
+  - TEXT "Trening", 247x39px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - TEXT "Ishrana", 247x39px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 26", 267.9x152.41px, constraints left/top, radius 64px, fill image(hash: 46ec0b563d3b478697955b045ff5259185cd5d85)
+  - ELLIPSE "Ellipse 9", 46x46px, constraints left/top, fill #358672
+  - RECTANGLE "Rectangle 33", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 34", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 35", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - GROUP "Group 6", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 13", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Projekti
+- FRAME "Projekti", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 14", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Projekti", 355x66px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Navešću samo neke od projekata i radionica u kojima sam učes", 345x112px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - TEXT "FitLife Challenge - Godišnji fitness Event Body Transformati", 345x196px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - ELLIPSE "Ellipse 11", 46x46px, constraints left/top, fill #358672
+  - RECTANGLE "Rectangle 39", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 40", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 41", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 42", 328x195px, constraints left/top, radius 10px, fill image(hash: a3d397ef74302970fd0a4bc69ad33e8525852da6), stroke #358672 3px
+  - GROUP "Group 8", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 15", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Preporuke
+- FRAME "Preporuke", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 13", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Preporuke", 265x56px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - FRAME "Frame 1", 314x122px, constraints left/top, radius 20px, fill #9AC3B83B, stroke #31574F 3px
+    - TEXT "NEMANJA", 88x21px, constraints left/top, fill #31574F, text [Roboto Bold, 15px]
+    - TEXT "Miloš je veoma stručan i neverovatan trener koji svakodnevno", 283x66px, constraints left/top, fill #31574F, text [Roboto Regular, 16px]
+  - FRAME "Frame 2", 314x122px, constraints left/top, radius 20px, fill #9AC3B83B, stroke #31574F 3px
+    - TEXT "MILOŠ", 82x18px, constraints left/top, fill #31574F, text [Roboto Bold, 15px]
+    - TEXT "Profesionalnost i stručnost koju Miloš pruža kroz svoje tren", 286x57px, constraints left/top, fill #31574F, text [Roboto Regular, 16px]
+  - FRAME "Frame 1", 314x122px, constraints left/top, radius 20px, fill #9AC3B83B, stroke #31574F 3px
+    - TEXT "SAŠA", 77x15px, constraints left/top, fill #31574F, text [Roboto Bold, 15px]
+    - TEXT "Očekujte nikad bolju formu kada je treniranje sa Milošem u p", 285x68px, constraints left/top, fill #31574F, text [Roboto Regular, 15px]
+  - ELLIPSE "Ellipse 4", 85x85px, constraints left/top, fill image(hash: 73b8430b52c1b00c5a6a5ed6c3ca9b5b4bb2444a), stroke #358672 2px
+  - ELLIPSE "Ellipse 5", 85x85px, constraints left/top, fill image(hash: 6ad94294c55df532bfa0627db73fad8068b403e3), stroke #358672 2px
+  - ELLIPSE "Ellipse 6", 85x85px, constraints left/top, fill image(hash: e3fe6b7f36591d20249d3e2fd3962a39010347e6), stroke #358672 2px
+  - ELLIPSE "Ellipse 10", 46x46px, constraints left/top, fill #358672
+  - RECTANGLE "Rectangle 36", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 37", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 38", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - GROUP "Group 4", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 11", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Usluge
+- FRAME "Usluge", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 10", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Usluge", 398x56px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Personalni trening programi", 393x28px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - TEXT "Prilagođeni programi vežbanja za pojedince sa različitim cil", 345x140px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - TEXT "Grupni trening", 393x32px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - TEXT "Dinamični i motivacioni grupni treninzi, prilagođeni svim fi", 345x84px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 12", 280x145px, constraints left/top, fill image(hash: 02fa36620310fdba056b1bf5bcb8f1ea029c4302)
+  - TEXT "Nutricionističko savetovanje", 393x28px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - TEXT "Individualni pristup prehrani kako bi se postigla ravnoteža ", 345x128px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - TEXT "Online podrška za korisnike.", 393x28px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - ELLIPSE "Ellipse 9", 46x46px, constraints left/top, fill #358672
+  - RECTANGLE "Rectangle 33", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 34", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 35", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - GROUP "Group 3", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 10", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / O meni
+- FRAME "O meni", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 9", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "O meni", 222x56px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Ja sam Miloš Petrović, fitnes instruktor sa višegodišnjim is", 359x239px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - TEXT "Diplomirao sam kineziologiju sa posebnim fokusom na telesnu ", 361x279px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 11", 393x175px, constraints left/top, fill gradient_linear(#FFFFFF00 0% | #9AC3B8 100%)
+  - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+  - RECTANGLE "Rectangle 30", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 31", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 32", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - GROUP "Group 2", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 9", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Kontakt
+- FRAME "Kontakt", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 15", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Kontakt", 348x65px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Ime i Prezime", 328x23px, constraints left/top, fill #358672, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 16", 342x32px, constraints left/top, radius 20px, fill #9AC3B86B
+  - TEXT "Email", 328x23px, constraints left/top, fill #358672, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 17", 342x32px, constraints left/top, radius 20px, fill #9AC3B86B
+  - TEXT "Poruka", 328x23px, constraints left/top, fill #358672, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 18", 342x97px, constraints left/top, radius 20px, fill #9AC3B86B
+  - TEXT "Kontaktirajte me ukoliko želite saradnju.", 345x112px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - ELLIPSE "Ellipse 10", 46x46px, constraints left/top, fill #358672
+  - RECTANGLE "Rectangle 36", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 37", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - RECTANGLE "Rectangle 38", 26x5px, constraints left/top, radius 10px, fill #9AC3B8
+  - GROUP "Group 12", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+  - RECTANGLE "Rectangle 6667159", 142x31px, constraints left/top, radius 25px, fill #358672
+  - TEXT "POŠALJI", 89x15px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 16px]
+
+Screen: Page 1 / Burger
+- FRAME "Burger", 393x852px, constraints left/top, fill #E7F1EE
+  - TEXT "O meni", 145x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Usluge", 145x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Preporuke", 171x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Projekti", 171x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Freebies", 171x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Kontakt", 171x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Društvene mreže", 171x76px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - GROUP "Group 16", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 47", 26.16x26.16px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 48", 25.46x26.84px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Arrow 21
+- VECTOR "Arrow 21", 90x0px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 25
+- VECTOR "Arrow 25", 90x0.39px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 18
+- VECTOR "Arrow 18", 90x0px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 19
+- VECTOR "Arrow 19", 90x0px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 20
+- VECTOR "Arrow 20", 2191.5x370.5px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / BurgerW
+- FRAME "BurgerW", 393x852px, constraints left/top, fill #FFFFFF
+  - TEXT "O meni", 145x30px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+  - TEXT "Usluge", 145x30px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+  - TEXT "Preporuke", 171x30px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+  - TEXT "Projekti", 171x30px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+  - TEXT "Freebies", 171x30px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+  - TEXT "Kontakt", 171x30px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+  - TEXT "Društvene mreže", 171x76px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+  - GROUP "Group 16", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 47", 26.16x26.16px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 48", 25.46x26.84px, constraints left/top, radius 10px, fill #FFFFFF
+
+Screen: Page 1 / Arrow 26
+- VECTOR "Arrow 26", 1093.26x1650.08px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 46
+- VECTOR "Arrow 46", 314x78px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 27
+- VECTOR "Arrow 27", 1143.5x213.5px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 28
+- VECTOR "Arrow 28", 581.5x382px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 34
+- VECTOR "Arrow 34", 290x58px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 35
+- VECTOR "Arrow 35", 290x58px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 36
+- VECTOR "Arrow 36", 290x57.6px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 37
+- VECTOR "Arrow 37", 290x46px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 38
+- VECTOR "Arrow 38", 290x46px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 39
+- VECTOR "Arrow 39", 1880.55x1938.5px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Početna
+- FRAME "Početna", 393x852px, constraints left/top, fill image(hash: 7207f8b28f2362ca7e038ffdc9584bf3f5d06177)
+  - ELLIPSE "Ellipse 3", 263x263px, constraints left/top, fill image(hash: cdc727a90ff047fe614fb2dc2f6006244513ff14), stroke #358672 8px
+  - TEXT "Miloš Petrović", 293x67px, constraints left/top, fill #358672, text [Rockwell Rockwell, 48px], [heading]
+  - TEXT "FITNESS INSTRUCTOR", 275x34px, constraints left/top, fill #358672, text [Rockwell Bold, 24px], [heading]
+  - GROUP "Group 61077", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 1", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Društvene mreže
+- FRAME "Društvene mreže", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 15", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Društvene mreže", 371x68px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Ukoliko želite da budete u toku i ispratite moj rad, zaprati", 345x94px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 19", 85x85px, constraints left/top, radius 15px, fill image(hash: 397f1027506d5dfa24000807716a7b9ea3b27807), stroke #3C5C92 1px
+  - RECTANGLE "Rectangle 20", 85x85px, constraints left/top, radius 15px, fill image(hash: 481c24f350af2ded4ca89ac05cd760cdcf3f41b7), stroke #985A94 1px
+  - RECTANGLE "Rectangle 21", 85x85px, constraints left/top, radius 15px, fill image(hash: df7dca17661484414cb3c0e683cdf9f85c29fe92), stroke #81C7E8 1px
+  - RECTANGLE "Rectangle 22", 85x85px, constraints left/top, radius 15px, fill image(hash: 6f089ce70e8c91e7dfcf5a932edc327b7eaea88c), stroke #000000 1px
+  - TEXT "Takodje me možete pronaći radnim danima u fitness centru Sup", 331x84px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 61083", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 7", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 14", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Freebies
+- FRAME "Freebies", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 15", 394x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Freebies", 348x65px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Takođe ću vam u nastavku ostaviti neke od osnovnih programa ", 345x178px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 24", 288x73px, constraints left/top, radius 15px, fill #9AC3B86B, stroke #358672 3px
+  - RECTANGLE "Rectangle 25", 288x73px, constraints left/top, radius 15px, fill #9AC3B86B, stroke #358672 3px
+  - TEXT "Trening", 247x39px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - TEXT "Ishrana", 247x39px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 26", 267.9x152.41px, constraints left/top, radius 64px, fill image(hash: 46ec0b563d3b478697955b045ff5259185cd5d85)
+  - GROUP "Group 61082", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 6", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 13", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Projekti
+- FRAME "Projekti", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 14", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Projekti", 355x66px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Navešću samo neke od projekata i radionica u kojima sam učes", 345x112px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - TEXT "FitLife Challenge - Godišnji fitness Event Body Transformati", 345x196px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - GROUP "Group 61084", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - RECTANGLE "Rectangle 42", 328x195px, constraints left/top, radius 10px, fill image(hash: a3d397ef74302970fd0a4bc69ad33e8525852da6), stroke #358672 3px
+  - GROUP "Group 8", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 15", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Preporuke
+- FRAME "Preporuke", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 13", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Preporuke", 265x56px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - FRAME "Frame 1", 314x122px, constraints left/top, radius 20px, fill #9AC3B83B, stroke #31574F 3px
+    - TEXT "NEMANJA", 88x21px, constraints left/top, fill #31574F, text [Roboto Bold, 15px]
+    - TEXT "Miloš je veoma stručan i neverovatan trener koji svakodnevno", 283x66px, constraints left/top, fill #31574F, text [Roboto Regular, 16px]
+  - FRAME "Frame 2", 314x122px, constraints left/top, radius 20px, fill #9AC3B83B, stroke #31574F 3px
+  - TEXT "MILOŠ", 82x18px, constraints left/top, fill #31574F, text [Roboto Bold, 15px]
+  - TEXT "Profesionalnost i stručnost koju Miloš pruža kroz svoje tren", 286x57px, constraints left/top, fill #31574F, text [Roboto Regular, 16px]
+  - FRAME "Frame 1", 314x122px, constraints left/top, radius 20px, fill #9AC3B83B, stroke #31574F 3px
+  - TEXT "SAŠA", 77x15px, constraints left/top, fill #31574F, text [Roboto Bold, 15px]
+  - TEXT "Očekujte nikad bolju formu kada je treniranje sa Milošem u p", 285x68px, constraints left/top, fill #31574F, text [Roboto Regular, 15px]
+  - ELLIPSE "Ellipse 4", 85x85px, constraints left/top, fill image(hash: 73b8430b52c1b00c5a6a5ed6c3ca9b5b4bb2444a), stroke #358672 2px
+  - ELLIPSE "Ellipse 5", 85x85px, constraints left/top, fill image(hash: 6ad94294c55df532bfa0627db73fad8068b403e3), stroke #358672 2px
+  - ELLIPSE "Ellipse 6", 85x85px, constraints left/top, fill image(hash: e3fe6b7f36591d20249d3e2fd3962a39010347e6), stroke #358672 2px
+  - GROUP "Group 61080", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 4", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 11", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Usluge
+- FRAME "Usluge", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 10", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Usluge", 398x56px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Personalni trening programi", 393x28px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - TEXT "Prilagođeni programi vežbanja za pojedince sa različitim cil", 345x140px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - TEXT "Grupni trening", 393x32px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - TEXT "Dinamični i motivacioni grupni treninzi, prilagođeni svim fi", 345x84px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 12", 280x145px, constraints left/top, fill image(hash: 02fa36620310fdba056b1bf5bcb8f1ea029c4302)
+  - TEXT "Nutricionističko savetovanje", 393x28px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - TEXT "Individualni pristup prehrani kako bi se postigla ravnoteža ", 345x128px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - TEXT "Online podrška za korisnike.", 393x28px, constraints left/top, fill #358672, text [Roboto Bold, 24px], [heading]
+  - GROUP "Group 61079", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 3", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 10", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / O meni
+- FRAME "O meni", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 9", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "O meni", 222x56px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Ja sam Miloš Petrović, fitnes instruktor sa višegodišnjim is", 359x239px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - TEXT "Diplomirao sam kineziologiju sa posebnim fokusom na telesnu ", 361x279px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 11", 393x175px, constraints left/top, fill gradient_linear(#FFFFFF00 0% | #9AC3B8 100%)
+  - GROUP "Group 61078", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 2", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #D9D9D9
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #D9D9D9
+  - GROUP "Group 9", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / Kontakt
+- FRAME "Kontakt", 393x852px, constraints left/top, fill #FFFFFF
+  - VECTOR "Rectangle 15", 393x138px, constraints left/top, fill #9AC3B8
+  - TEXT "Kontakt", 348x65px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Ime i Prezime", 328x23px, constraints left/top, fill #358672, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 16", 342x32px, constraints left/top, radius 20px, fill #9AC3B86B
+  - TEXT "Email", 328x23px, constraints left/top, fill #358672, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 17", 342x32px, constraints left/top, radius 20px, fill #9AC3B86B
+  - TEXT "Poruka", 328x23px, constraints left/top, fill #358672, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 18", 342x97px, constraints left/top, radius 20px, fill #9AC3B86B
+  - TEXT "Kontaktirajte me ukoliko želite saradnju.", 345x112px, constraints left/top, fill #358672, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 61081", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 12", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #D9D9D9
+  - RECTANGLE "Rectangle 6667159", 142x31px, constraints left/top, radius 25px, fill #358672
+  - TEXT "POŠALJI", 89x15px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 16px]
+
+Screen: Page 1 / Burger
+- FRAME "Burger", 393x852px, constraints left/top, fill #E7F1EE
+  - TEXT "O meni", 145x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Usluge", 145x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Preporuke", 171x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Projekti", 171x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Freebies", 171x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Kontakt", 171x30px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - TEXT "Društvene mreže", 171x76px, constraints left/top, fill #358672, text [Roboto Bold, 32px], [heading]
+  - GROUP "Group 16", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #358672
+    - RECTANGLE "Rectangle 47", 26.16x26.16px, constraints left/top, radius 10px, fill #D9D9D9
+    - RECTANGLE "Rectangle 48", 25.46x26.84px, constraints left/top, radius 10px, fill #D9D9D9
+
+Screen: Page 1 / PočetnaW
+- FRAME "PočetnaW", 393x852px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 3", 263x263px, constraints left/top, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a), stroke #000000 8px
+  - TEXT "Miloš Petrović", 293x67px, constraints left/top, fill #000000, text [Rockwell Rockwell, 48px], [heading]
+  - TEXT "FITNESS INSTRUCTOR", 275x34px, constraints left/top, fill #000000, text [Rockwell Bold, 24px], [heading]
+  - GROUP "Group 61077", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 1", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #FFFFFF
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #FFFFFF
+
+Screen: Page 1 / Arrow 15
+- VECTOR "Arrow 15", 90x0px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / O meniW
+- FRAME "O meniW", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 9", 393x138px, constraints left/top, fill #BEBEBE
+  - TEXT "O meni", 222x56px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Ja sam Miloš Petrović, fitnes instruktor sa višegodišnjim is", 359x239px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "Diplomirao sam kineziologiju sa posebnim fokusom na telesnu ", 361x279px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 61078", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 2", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #FFFFFF
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #FFFFFF
+  - GROUP "Group 9", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #FFFFFF
+
+Screen: Page 1 / UslugeW
+- FRAME "UslugeW", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 10", 393x138px, constraints left/top, fill #BEBEBE
+  - TEXT "Usluge", 398x56px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Personalni trening programi", 393x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Prilagođeni programi vežbanja za pojedince sa različitim cil", 345x140px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "Grupni trening", 393x32px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Dinamični i motivacioni grupni treninzi, prilagođeni svim fi", 345x84px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 12", 280x145px, constraints left/top, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a)
+  - TEXT "Nutricionističko savetovanje", 393x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Individualni pristup prehrani kako bi se postigla ravnoteža ", 345x128px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "Online podrška za korisnike.", 393x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - GROUP "Group 61079", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 3", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #FFFFFF
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #FFFFFF
+  - GROUP "Group 10", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #FFFFFF
+
+Screen: Page 1 / PreporukeW
+- FRAME "PreporukeW", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 13", 393x138px, constraints left/top, fill #BEBEBE
+  - TEXT "Preporuke", 265x56px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - FRAME "Frame 1", 314x122px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 3px
+    - TEXT "NEMANJA", 88x21px, constraints left/top, fill #000000, text [Roboto Bold, 15px]
+    - TEXT "Miloš je veoma stručan i neverovatan trener koji svakodnevno", 283x66px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+  - FRAME "Frame 2", 314x122px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 3px
+  - TEXT "MILOŠ", 82x18px, constraints left/top, fill #000000, text [Roboto Bold, 15px]
+  - TEXT "Profesionalnost i stručnost koju Miloš pruža kroz svoje tren", 286x57px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+  - FRAME "Frame 1", 314x122px, constraints left/top, radius 20px, fill #FFFFFF, stroke #000000 3px
+  - TEXT "SAŠA", 77x15px, constraints left/top, fill #000000, text [Roboto Bold, 15px]
+  - TEXT "Očekujte nikad bolju formu kada je treniranje sa Milošem u p", 285x68px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+  - ELLIPSE "Ellipse 4", 85x85px, constraints left/top, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a), stroke #000000 2px
+  - ELLIPSE "Ellipse 5", 85x85px, constraints left/top, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a), stroke #000000 2px
+  - ELLIPSE "Ellipse 6", 85x85px, constraints left/top, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a), stroke #000000 2px
+  - GROUP "Group 61080", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 4", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #FFFFFF
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #FFFFFF
+  - GROUP "Group 11", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #FFFFFF
+
+Screen: Page 1 / ProjektiW
+- FRAME "ProjektiW", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 14", 393x138px, constraints left/top, fill #BEBEBE
+  - TEXT "Projekti", 355x66px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Navešću samo neke od projekata i radionica u kojima sam učes", 345x112px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "FitLife Challenge - Godišnji fitness Event Body Transformati", 345x196px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - GROUP "Group 61084", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - RECTANGLE "Rectangle 42", 328x195px, constraints left/top, radius 10px, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a), stroke #000000 3px
+  - GROUP "Group 8", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #FFFFFF
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #FFFFFF
+  - GROUP "Group 15", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #FFFFFF
+
+Screen: Page 1 / Društvene mrežeW
+- FRAME "Društvene mrežeW", 393x852px, constraints left/top, fill #FFFFFF
+  - VECTOR "Rectangle 15", 393x138px, constraints left/top, fill #BEBEBE
+  - TEXT "Društvene mreže", 382x66px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Ukoliko želite da budete u toku i ispratite moj rad, zaprati", 345x94px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 19", 85x85px, constraints left/top, radius 15px, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a), stroke #000000 1px
+  - RECTANGLE "Rectangle 20", 85x85px, constraints left/top, radius 15px, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a), stroke #000000 1px
+  - RECTANGLE "Rectangle 21", 85x85px, constraints left/top, radius 15px, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a), stroke #000000 1px
+  - RECTANGLE "Rectangle 22", 85x85px, constraints left/top, radius 15px, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a), stroke #000000 1px
+  - TEXT "Takodje me možete pronaći radnim danima u fitness centru Sup", 331x84px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 61083", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 7", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #FFFFFF
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #FFFFFF
+  - GROUP "Group 14", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #FFFFFF
+
+Screen: Page 1 / FreebiesW
+- FRAME "FreebiesW", 393x852px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 15", 394x138px, constraints left/top, fill #BEBEBE
+  - TEXT "Freebies", 348x65px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Takođe ću vam u nastavku ostaviti neke od osnovnih programa ", 345x178px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - RECTANGLE "Rectangle 24", 288x73px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 3px
+  - RECTANGLE "Rectangle 25", 288x73px, constraints left/top, radius 15px, fill #FFFFFF, stroke #000000 3px
+  - TEXT "Trening", 247x39px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Ishrana", 247x39px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 26", 267.9x152.41px, constraints left/top, radius 64px, fill image(hash: 1674a75af4953bac96d8e8a4fe35c3922f55c38a)
+  - GROUP "Group 61082", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 6", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 8", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 43", 20.61x18.2px, constraints left/top, radius 10px, fill #FFFFFF
+    - VECTOR "Rectangle 44", 21.81x16.38px, constraints left/top, radius 10px, fill #FFFFFF
+  - GROUP "Group 13", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #FFFFFF
+
+Screen: Page 1 / KontaktW
+- FRAME "KontaktW", 393x852px, constraints left/top, fill #FFFFFF
+  - VECTOR "Rectangle 15", 393x138px, constraints left/top, fill #BEBEBE
+  - TEXT "Kontakt", 348x65px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 48px], [heading]
+  - TEXT "Ime i Prezime", 328x23px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 16", 342x32px, constraints left/top, radius 20px, fill #C0C0C06B
+  - TEXT "Email", 328x23px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 17", 342x32px, constraints left/top, radius 20px, fill #C0C0C06B
+  - TEXT "Poruka", 328x23px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 18", 342x97px, constraints left/top, radius 20px, fill #C0C0C06B
+  - TEXT "Kontaktirajte me ukoliko želite saradnju.", 345x112px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - GROUP "Group 61081", 46x46px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 12", 46x46px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill #000000
+    - RECTANGLE "Rectangle 45", 23.07x16.74px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 46", 23.31x16.29px, constraints left/top, radius 10px, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667159", 142x31px, constraints left/top, radius 25px, fill #000000
+  - TEXT "POŠALJI", 89x15px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 16px]
+
+Screen: Page 1 / ZADATAK 00
+- TEXT "ZADATAK 00", 1165x126px, constraints left/top, fill #000000, text [Roboto Bold, 96px], [heading]
+
+Screen: Page 1 / ZADATAK 01 - PORTFOLIO
+- TEXT "ZADATAK 01 - PORTFOLIO", 1424x113px, constraints left/top, fill #000000, text [Roboto Bold, 96px], [heading]
+
+Screen: Page 1 / ZADATAK 02 - WIREFRAMING
+- TEXT "ZADATAK 02 - WIREFRAMING", 2618x154px, constraints left/top, fill #000000, text [Roboto Bold, 96px], [heading]
+
+Screen: Page 1 / Arrow 47
+- VECTOR "Arrow 47", 90x0px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Line 75
+- VECTOR "Line 75", 0.5x170px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Line 76
+- VECTOR "Line 76", 0.5x170px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Line 77
+- VECTOR "Line 77", 0.51x87px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Line 78
+- VECTOR "Line 78", 0.51x87px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Line 79
+- VECTOR "Line 79", 0.51x87px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 48
+- VECTOR "Arrow 48", 1648.5x197.5px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 49
+- VECTOR "Arrow 49", 2164.5x191.5px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 50
+- VECTOR "Arrow 50", 1084x316.5px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 51
+- VECTOR "Arrow 51", 1594x253px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 52
+- VECTOR "Arrow 52", 2118.5x199.5px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 29
+- VECTOR "Arrow 29", 2214x823.99px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Line 80
+- VECTOR "Line 80", 0.5x170px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Burger
+- FRAME "Burger", 255x83px, constraints left/top, fill #DDDDDD
+  - TEXT "BURGER", 248x48px, constraints left/top, fill #000000, text [Roboto Bold, 36px], [heading]
+
+Screen: Page 1 / Početna
+- FRAME "Početna", 256x83px, constraints left/top, fill #DDDDDD
+  - TEXT "POČETNA", 248x48px, constraints left/top, fill #000000, text [Roboto Bold, 36px], [heading]
+
+Screen: Page 1 / Arrow 55
+- VECTOR "Arrow 55", 268x0px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 56
+- VECTOR "Arrow 56", 268.46x3.95px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+
+Screen: Page 1 / O meni
+- FRAME "O meni", 255x83px, constraints left/top, fill #DDDDDD
+  - TEXT "O meni", 248x48px, constraints left/top, fill #000000, text [Roboto Bold, 36px], [heading]
+
+Screen: Page 1 / Usluge
+- FRAME "Usluge", 256x83px, constraints left/top, fill #DDDDDD
+  - TEXT "Usluge", 248x48px, constraints left/top, fill #000000, text [Roboto Bold, 36px], [heading]
+  - VECTOR "Arrow 59", 74x1.01px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Projekti
+- FRAME "Projekti", 256x83px, constraints left/top, fill #DDDDDD
+  - TEXT "PROJEKTI", 248x48px, constraints left/top, fill #000000, text [Roboto Bold, 36px], [heading]
+
+Screen: Page 1 / Društvene mreže
+- FRAME "Društvene mreže", 256x83px, constraints left/top, fill #DDDDDD
+  - TEXT "DRUŠTVENE MREŽE", 248x48px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+
+Screen: Page 1 / Preporuke
+- FRAME "Preporuke", 255x83px, constraints left/top, fill #DDDDDD
+  - TEXT "PREPORUKE", 248x48px, constraints left/top, fill #000000, text [Roboto Bold, 36px], [heading]
+
+Screen: Page 1 / Arrow 57
+- VECTOR "Arrow 57", 325.03x261.95px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 58
+- VECTOR "Arrow 58", 73.64x205.5px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 60
+- VECTOR "Arrow 60", 272.1x217.04px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 61
+- VECTOR "Arrow 61", 110.48x22.17px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 64
+- VECTOR "Arrow 64", 90.17x2.25px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 65
+- VECTOR "Arrow 65", 228.12x227.82px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 66
+- VECTOR "Arrow 66", 1.07x92.04px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 67
+- VECTOR "Arrow 67", 2.01x90.97px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Freebies
+- FRAME "Freebies", 256x83px, constraints left/top, fill #DDDDDD
+  - TEXT "FREEBIES", 248x48px, constraints left/top, fill #000000, text [Roboto Bold, 36px], [heading]
+
+Screen: Page 1 / Kontakt
+- FRAME "Kontakt", 256x83px, constraints left/top, fill #DDDDDD
+  - TEXT "KONTAKT", 248x48px, constraints left/top, fill #000000, text [Roboto Bold, 36px], [heading]
+
+Screen: Page 1 / Arrow 68
+- VECTOR "Arrow 68", 508.05x115.13px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 70
+- VECTOR "Arrow 70", 94.09x1.11px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 71
+- VECTOR "Arrow 71", 223.79x157.05px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 72
+- VECTOR "Arrow 72", 18.55x206.25px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 73
+- VECTOR "Arrow 73", 138.46x38.98px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 74
+- VECTOR "Arrow 74", 114.16x37.95px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 75
+- VECTOR "Arrow 75", 111.05x37.62px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 76
+- VECTOR "Arrow 76", 28.34x116.84px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 77
+- VECTOR "Arrow 77", 28.28x124.19px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 78
+- VECTOR "Arrow 78", 563.75x68.68px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 79
+- VECTOR "Arrow 79", 370.13x198.5px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 80
+- VECTOR "Arrow 80", 133.51x29.83px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 81
+- VECTOR "Arrow 81", 138.17x31.37px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 82
+- VECTOR "Arrow 82", 77.24x205.46px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 83
+- VECTOR "Arrow 83", 229.7x226.34px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 84
+- VECTOR "Arrow 84", 437.82x199.45px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 85
+- VECTOR "Arrow 85", 560.05x52.69px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 86
+- VECTOR "Arrow 86", 517.23x118.57px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 87
+- VECTOR "Arrow 87", 16.63x206.39px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Arrow 88
+- VECTOR "Arrow 88", 221.04x161.41px, constraints left/top, stroke #000000 3px
+
+Screen: Page 1 / Home
+- FRAME "Home", 1920x1080px, constraints left/top, fill image(hash: 2f86dd2a1b95e8bc4b821f0d71eee80550a3b1ff)
+  - RECTANGLE "Rectangle 6667234", 458x152px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667236", 432x474px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667238", 198x101px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667257", 104x74px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667258", 86x66px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667259", 82x61px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667260", 88x57px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667261", 93x61px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Seasons yeetings
+- FRAME "Seasons yeetings", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667160", 1920x1080px, constraints left/top, fill image(hash: 87086e12b53126f3a1a0292ab9c82dbdfda6d31a)
+  - RECTANGLE "Rectangle 6667177", 77x52px, constraints left/top, radius 15px, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667178", 77x52px, constraints left/top, radius 15px, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667179", 77x52px, constraints left/top, radius 15px, fill #D9D9D900, stroke #00000000 3px
+  - RECTANGLE "Rectangle 6667180", 77x52px, constraints left/top, radius 15px, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667181", 77x52px, constraints left/top, radius 15px, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667182", 77x52px, constraints left/top, radius 15px, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667183", 113x69px, constraints left/top, radius 15px, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667184", 1287x738px, constraints left/top, fill #D9D9D900
+  - FRAME "Frame 13", 629x74px, constraints left/top
+  - RECTANGLE "Rectangle 6667251", 181x113px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667256", 94x71px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667262", 85x62px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667263", 88x61px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667264", 85x58px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667265", 94x59px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Outfits
+- FRAME "Outfits", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667161", 1920x1080px, constraints left/top, fill image(hash: 756ce651d4620d7a1f264c68f93245525963a033)
+  - RECTANGLE "Rectangle 6667252", 188x124px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667256", 94x71px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667266", 86x58px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667267", 82x55px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667268", 86x58px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667269", 85x55px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Creative
+- FRAME "Creative", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667162", 1920x1080px, constraints left/top, fill image(hash: 2c7fda080a6e917dfd13228189241aa7c8e535f8)
+  - RECTANGLE "Rectangle 6667253", 200x118px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667256", 94x71px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667270", 88x57px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667271", 81x58px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667272", 86x54px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667273", 82x54px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Fame pass
+- FRAME "Fame pass", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667163", 1920x1080px, constraints left/top, fill image(hash: 4c5eb1ac4949c51473b20ad30d0a0b2e309e935e)
+  - RECTANGLE "Rectangle 6667254", 190x113px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667256", 94x71px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667274", 81x54px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667275", 87x56px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667276", 88x58px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667277", 87x56px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Featured
+- FRAME "Featured", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667164", 1920x1080px, constraints left/top, fill image(hash: bb280ce386b215fc96a1cf94ecaef2128c709fe3)
+  - RECTANGLE "Rectangle 6667255", 190x124px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667256", 94x71px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667278", 84x54px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667279", 87x54px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667280", 84x58px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667281", 86x59px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Challenges
+- FRAME "Challenges", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667165", 1920x1080px, constraints left/top, fill image(hash: 7ed49cbe2f71aa5e1e5014ad0d19c5cf5da6d15a)
+  - RECTANGLE "Rectangle 6667237", 267x98px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667288", 256x117px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Settings
+- FRAME "Settings", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667166", 1920x1080px, constraints left/top, fill image(hash: 43dd781e270da709640fb11b387b22cdda088564)
+  - RECTANGLE "Rectangle 6667239", 281x131px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667245", 419x409px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667246", 334x374px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667247", 355x318px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667248", 358x355px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667249", 320x287px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667250", 335x316px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667282", 319x287px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Audio settings
+- FRAME "Audio settings", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667167", 1920x1080px, constraints left/top, fill image(hash: 6de60395494f88fcbd9976c45dc2baad9867661e)
+  - RECTANGLE "Rectangle 6667240", 319x112px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Options
+- FRAME "Options", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667168", 1920x1080px, constraints left/top, fill image(hash: 6856552326cb275a32eb3aa3bd19c51691a61b72)
+  - RECTANGLE "Rectangle 6667241", 281x112px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Controller
+- FRAME "Controller", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667169", 1920x1080px, constraints left/top, fill image(hash: 94f7878e832182207748534c21d9d7852e4d9781)
+  - RECTANGLE "Rectangle 6667242", 494x198px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Keyboard
+- FRAME "Keyboard", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667170", 1920x1080px, constraints left/top, fill image(hash: e9c721382e864e5e70f66ab0258c289bf2a2aca1)
+  - RECTANGLE "Rectangle 6667243", 331x106px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Profile
+- FRAME "Profile", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667171", 1920x1080px, constraints left/top, fill image(hash: 906e82d7d263108d4f475ff7b4ea1aaab8de6404)
+  - RECTANGLE "Rectangle 6667244", 305x147px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / How to play
+- FRAME "How to play", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667172", 1920x1080px, constraints left/top, fill image(hash: e70f1b4aa23dc1f9176c517f8ebab70919ecd15e)
+
+Screen: Page 1 / Loading game
+- FRAME "Loading game", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667173", 1920x1080px, constraints left/top, fill image(hash: 25e3fb0be2458002454aaa9e1505cb5f9c098d46)
+
+Screen: Page 1 / Game selection
+- FRAME "Game selection", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667174", 1920x1080px, constraints left/top, fill image(hash: 69f28f57358d19a89c89989ef94a3485ad900b4b)
+  - RECTANGLE "Rectangle 6667235", 298x408px, constraints left/top, fill #D9D9D900
+  - RECTANGLE "Rectangle 6667286", 230x104px, constraints left/top, fill #D9D9D900
+
+Screen: Page 1 / Gameplay
+- FRAME "Gameplay", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667175", 1920x1080px, constraints left/top, fill image(hash: a2c236554bf84232c4903f8c2cb6f0d67351bede)
+
+Screen: Page 1 / Seasons yeetingsW
+- FRAME "Seasons yeetingsW", 1920x1080px, constraints left/top, fill #FFFFFF
+  - LINE "Line 81", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - LINE "Line 82", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - GROUP "Group 61085", 1920x1080px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 6667176", 1920x1080px, constraints left/top, fill #E7E7E7
+    - GROUP "Group 61086", 536x52px, constraints left/top, radius 15px
+      - RECTANGLE "Rectangle 6667177", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+      - RECTANGLE "Rectangle 6667178", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+      - RECTANGLE "Rectangle 6667179", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+      - RECTANGLE "Rectangle 6667180", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+      - RECTANGLE "Rectangle 6667181", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+      - RECTANGLE "Rectangle 6667182", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+      - TEXT "CREATIVE", 82x22px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - TEXT "FEATURED", 80x22px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+  - LINE "Line 83", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - LINE "Line 84", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - RECTANGLE "Rectangle 6667183", 113x69px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+  - RECTANGLE "Rectangle 6667184", 1287x738px, constraints left/top, fill #D1D1D1
+  - FRAME "Frame 3", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 4", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 5", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 6", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 7", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 8", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 9", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 10", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 11", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 12", 602x82px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 14", 134x121px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 15", 134x121px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 16", 134x121px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 17", 134x121px, constraints left/top, radius 15px, fill #A1A1A1
+  - FRAME "Frame 18", 134x121px, constraints left/top, radius 15px, fill #A1A1A1
+  - TEXT "HOME", 57x17px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+  - TEXT "SY", 29x21px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+  - TEXT "OUTFITS", 82x22px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+  - ... +2 more children
+
+Screen: Page 1 / OutfitsW
+- FRAME "OutfitsW", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667176", 1920x1080px, constraints left/top, fill #E7E7E7
+  - LINE "Line 81", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - LINE "Line 82", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - GROUP "Group 61086", 535x52px, constraints left/top, radius 15px
+    - RECTANGLE "Rectangle 6667177", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667178", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667179", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667180", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667181", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667182", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - TEXT "HOME", 57x17px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "SY", 29x21px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "OUTFITS", 82x22px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - TEXT "CREATIVE", 82x22px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - TEXT "FP", 32x17px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "FEATURED", 80x22px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+  - RECTANGLE "Rectangle 6667183", 113x69px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+  - RECTANGLE "Rectangle 6667185", 321x410px, constraints left/top, radius 15px, fill #D1D1D1
+  - RECTANGLE "Rectangle 6667186", 321x410px, constraints left/top, radius 15px, fill #D1D1D1
+  - RECTANGLE "Rectangle 6667185", 321x410px, constraints left/top, radius 15px, fill #D1D1D1
+  - TEXT "OUTFITS", 168x42px, constraints left/top, fill #000000, text [Roboto Regular, 40px], [heading]
+  - TEXT "THEATRICS", 237x42px, constraints left/top, fill #000000, text [Roboto Regular, 40px], [heading]
+  - TEXT "INTERFACE", 237x42px, constraints left/top, fill #000000, text [Roboto Regular, 40px], [heading]
+  - TEXT "SETTINGS", 125x22px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+
+Screen: Page 1 / CreativeW
+- FRAME "CreativeW", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667176", 1920x1080px, constraints left/top, fill #E7E7E7
+  - LINE "Line 81", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - LINE "Line 82", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - GROUP "Group 61086", 536x52px, constraints left/top, radius 15px
+    - RECTANGLE "Rectangle 6667177", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667178", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667179", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667180", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667181", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667182", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - TEXT "HOME", 57x17px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "SY", 29x21px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "OUTFITS", 82x22px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - TEXT "CREATIVE", 82x22px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - TEXT "FP", 32x17px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+    - TEXT "FEATURED", 80x22px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+  - RECTANGLE "Rectangle 6667183", 113x69px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+  - FRAME "Frame 19", 308x422px, constraints left/top, radius 15px, fill #D1D1D1
+    - TEXT "CREATE NEW", 151x26px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - FRAME "Frame 20", 308x422px, constraints left/top, radius 15px, fill #D1D1D1
+    - TEXT "LOAD", 151x26px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "SETTINGS", 125x22px, constraints left/top, fill #000000, text [Roboto Regular, 20px]
+
+Screen: Page 1 / Fame passW
+- FRAME "Fame passW", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6667176", 1920x1080px, constraints left/top, fill #E7E7E7
+  - LINE "Line 81", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - LINE "Line 82", 1920x1080px, constraints left/top, stroke #00000066 1px
+  - GROUP "Group 61086", 536x52px, constraints left/top, radius 15px
+    - RECTANGLE "Rectangle 6667177", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667178", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667179", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667180", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+    - RECTANGLE "Rectangle 6667181", 77x52px, constraints left/top, radius 15px, fill #D1D1D1, stroke #000000 2px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

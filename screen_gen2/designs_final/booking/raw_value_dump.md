@@ -1,0 +1,977 @@
+---
+name: booking-app-community
+source_file: Booking App (Community)
+source_page: All pages (2): App, Cover
+generated_at: 2026-07-25T09:13:36.098115+00:00
+---
+
+# Booking App (Community) Design Guidelines
+
+## Source
+- Figma file: Booking App (Community)
+- Figma page: All pages (2): App, Cover
+- Extracted at: 2026-07-25T09:13:36.098115+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Gray Icon: [#A3A3A3]
+- Blue: [#007AFF]
+- Gray Text: [#777777]
+- Headlines: [#000000]
+- Colors | Basic / Light: [#FFFFFF]
+- Black: [#000000]
+- Tik Tok Dark: [#161722]
+- Gray/03: [#BDBDBD]
+- White: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #000000: 191 uses
+- #FFFFFF: 132 uses
+- #CCCCCC: 76 uses
+- #3865E0: 73 uses
+- #007AFF: 38 uses
+- #FFFFFF5C: 25 uses
+- #FF9500: 24 uses
+- #FF8D23: 18 uses
+- #86878B: 17 uses
+- #003473: 16 uses
+- #ABB9CD: 12 uses
+- #2E3543: 11 uses
+- #0000005C: 10 uses
+- #DADADA: 10 uses
+- #777777: 9 uses
+- #7B61FF: 7 uses
+- #C4C4C4: 7 uses
+- #D9D5D2: 6 uses
+- #FFFFFFE5: 6 uses
+- #9597A1: 5 uses
+- #F0F0F0: 5 uses
+- #F0F0F1: 4 uses
+- #FCB131: 4 uses
+
+## Typography Tokens
+- Secondary/not active: Open Sans OpenSans (400), 17px / 22px, tracking -0.41px
+- Title/ 1: Poppins SemiBold (600), 25px / 28px, tracking 0px
+- Secondary / active: Open Sans SemiBold (600), 17px / 22px, tracking -0.41px
+- Title/2: Poppins SemiBold (600), 22px / 28px, tracking 0.35px
+- Button : Open Sans Bold (700), 16px / 22px, tracking -0.41px
+
+## Raw Typography (unstyled)
+- Inter Medium, 14px: 65 uses
+- Open Sans SemiBold, 14px: 26 uses
+- Open Sans OpenSans, 18px: 23 uses
+- Open Sans OpenSans, 15px: 20 uses
+- Inter Regular, 14px: 13 uses
+- Open Sans OpenSans, 17px: 10 uses
+- Open Sans SemiBold, 15px: 10 uses
+- Open Sans OpenSans, 13px: 8 uses
+- Open Sans SemiBold, 16px: 6 uses
+- Open Sans Bold, 16px: 4 uses
+- Open Sans OpenSans, 12px: 3 uses
+- Open Sans SemiBold, 17px: 3 uses
+- Open Sans SemiBold, 22px: 3 uses
+- Roboto Bold, 14px: 3 uses
+
+## Typography Hierarchy
+- 25px - Title/ 1 (Poppins SemiBold)
+- 22px - Open Sans SemiBold, 22px (raw)
+- 22px - Title/2 (Poppins SemiBold)
+- 18px - Open Sans OpenSans, 18px (raw)
+- 17px - Open Sans OpenSans, 17px (raw)
+- 17px - Open Sans SemiBold, 17px (raw)
+- 17px - Secondary / active (Open Sans SemiBold)
+- 17px - Secondary/not active (Open Sans OpenSans)
+- 16px - Button  (Open Sans Bold)
+- 16px - Open Sans Bold, 16px (raw)
+- 16px - Open Sans SemiBold, 16px (raw)
+- 15px - Open Sans OpenSans, 15px (raw)
+- 15px - Open Sans SemiBold, 15px (raw)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Inter Regular, 14px (raw)
+- 14px - Open Sans SemiBold, 14px (raw)
+- 14px - Roboto Bold, 14px (raw)
+- 13px - Open Sans OpenSans, 13px (raw)
+- 12px - Open Sans OpenSans, 12px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Purchase
+- Boxes
+- Buttons
+- Navigation
+- Group 706
+- Hotel Card
+
+## Component Specs
+- Purchase: size 343x255px, text [Open Sans OpenSans, 18px] | variants: Property 1: Credit card/Group/face id
+- Boxes: size 130x35px, radius 5px, horizontal layout, padding 6 10 6 10px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #FFFFFF 1px, text [Open Sans SemiBold, 14px] | variants: Property 1: Box_city/Box_data/Box_main/Box_man/auto_l_#/auto_l_a/auto_l_data
+- Buttons: size 345x50px, fill #FFFFFF, text [Open Sans Bold, 16px] | variants: Property 1: Button_blue/Button_orange
+- Navigation: size 375x70px | variants: Property 1: Tab Bar_Main/Tab Bar_Notification/Tab Bar_Profile/Tab Bar_Search
+- Group 706: size 345x167px, text [Open Sans Bold, 16px, Open Sans SemiBold, 16px, Secondary/not active, Title/ 1]
+- Hotel Card: size 343x216px, fill #FFFFFF, text [Open Sans OpenSans, 12px, Open Sans SemiBold, 22px, Open Sans OpenSans, 15px, Open Sans OpenSans, 18px, Open Sans OpenSans, 13px]
+
+## Most-Used Styles
+- Headlines: 64 uses
+- Gray Icon: 25 uses
+- Blue: 22 uses
+- Gray Text: 16 uses
+- Black: 14 uses
+- Title/2: 12 uses
+- Tik Tok Dark: 11 uses
+- Secondary / active: 4 uses
+- Title/ 1: 4 uses
+- White: 4 uses
+- Colors | Basic / Light: 3 uses
+- Secondary/not active: 3 uses
+- Gray/03: 2 uses
+- Button : 1 use
+
+## Layout & Structure
+Screen: App / Checkout / Payment / Credit card
+- FRAME "Checkout / Payment / Credit card", 375x812px, constraints left/top, radius 15px, fill #FFFFFF
+  - TEXT "↳ Headline", 343x28px, constraints left/top, fill Headlines, text [Title/2], [heading]
+  - INSTANCE "Purchase", 343x255px, constraints left/top
+    - TEXT "CVV/CVC", 84.92x19.62px, constraints scale/scale, fill Gray Text, text [Open Sans OpenSans, 18px]
+    - RECTANGLE "Rectangle 3.4", 75x43.59px, constraints scale/scale, radius 5px, stroke #CCCCCC 1px
+    - FRAME "Text Input", 343x74.1px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Card number", 154.41x19.62px, constraints scale/scale, fill Gray Text, text [Open Sans OpenSans, 18px]
+      - RECTANGLE "Rectangle 3", 343x43.59px, constraints scale/scale, radius 5px, stroke #CCCCCC 1px
+      - TEXT "4255 XXXX XXXX 9321", 206.24x19.62px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+      - FRAME "cash+checkout+credit+mastercard+icon-1320162631073161905_0", 50x50px, constraints scale/scale, fill #FFFFFF [decorative, ~23 shapes]
+    - FRAME "Date Input", 166.54x74.1px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Expiration date", 154.41x19.62px, constraints scale/scale, fill Gray Text, text [Open Sans OpenSans, 18px]
+      - RECTANGLE "Rectangle 3.1", 81.61x43.59px, constraints scale/scale, radius 5px, stroke #CCCCCC 1px
+      - RECTANGLE "Rectangle 3.3", 81.61x43.59px, constraints scale/scale, radius 5px, stroke #CCCCCC 1px
+      - TEXT "09", 26.47x19.62px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+      - TEXT "20", 25.37x19.62px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+      - GROUP "Group", 17.79x8.72px, constraints scale/scale
+        - VECTOR "Vector", 17.79x8.72px, constraints scale/scale, fill #CCCCCC
+      - GROUP "Group", 17.79x8.72px, constraints scale/scale
+        - VECTOR "Vector", 17.79x8.72px, constraints scale/scale, fill #CCCCCC
+    - TEXT "922", 36.4x19.62px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+    - GROUP "Text Input", 343x74.1px, constraints scale/scale, radius 5px
+      - TEXT "Card holder name", 238.23x19.62px, constraints scale/scale, fill Gray Text, text [Open Sans OpenSans, 18px]
+      - RECTANGLE "Rectangle 3.2", 343x43.59px, constraints scale/scale, radius 5px, stroke #CCCCCC 1px
+      - TEXT "GAROLD PAIN", 316x20px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+  - INSTANCE "Buttons", 345x50px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Button", 345x50px, constraints scale/scale, radius 5px, fill #007AFF
+    - FRAME "Label", 311x48px, constraints scale/scale, fill #FFFFFF
+      - TEXT "↳ Label", 139x22px, constraints center/center, fill Colors | Basic / Light, text [Open Sans SemiBold, 17px]
+  - FRAME "Purchase", 375x62px, constraints left/top, fill #E5F2FF
+    - FRAME "Backgrounds / White", 375x62px, constraints scale/scale, fill #FFFFFF [decorative, ~13 shapes]
+    - FRAME "Controls Small / Arrow / Fw", 32x32px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Arrow", 13x8px, constraints center/center, fill #007AFF
+    - GROUP "Container", 145x44px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - GROUP "Muted", 145x20px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, opacity 48%
+        - TEXT "↳ Subtitle", 145x20px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 15px]
+      - TEXT "↳ Title", 83x22px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 17px]
+  - FRAME "Purchase", 375x62px, constraints left/top, fill #FFFFFF
+    - FRAME "Backgrounds / White", 375x62px, constraints scale/scale, fill #FFFFFF [decorative, ~11 shapes]
+    - FRAME "Controls Small / Arrow / Fw", 32x32px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Arrow", 8x13px, constraints center/center, fill #CCCCCC
+    - GROUP "Container", 240x44px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - GROUP "Muted", 240x20px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, opacity 48%
+        - TEXT "↳ Subtitle", 240x20px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 15px]
+      - TEXT "↳ Title", 55x22px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 17px]
+  - GROUP "Top", 375x105px, constraints left/top
+    - RECTANGLE "Rectangle 244", 375x105px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 701", 54x22px, constraints left/top
+      - VECTOR "Arrow", 12x20.5px, constraints left/center, fill #007AFF
+      - TEXT "↳ Label", 36x22px, constraints left/center, fill #007AFF, text [Open Sans OpenSans, 17px]
+    - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44.13px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 54x18px, constraints left/center, fill #000000, text [Open Sans SemiBold, 15px]
+      - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+      - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+
+Screen: App / Main/Choose data
+- FRAME "Main/Choose data", 375x812px, constraints left/top, radius 15px, fill #FFFFFF
+  - RECTANGLE "Background", 375x707px, constraints left_right/top, fill #F0F0F1
+  - GROUP "Days of Week", 299x17px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Mo", 22.75x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+    - TEXT "Tu", 18.42x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+    - TEXT "We", 22.75x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+    - TEXT "Th", 19.5x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+    - TEXT "Fr", 15.17x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+    - TEXT "Sa", 18.42x17px, constraints center/top, fill #FF1F1F, text [Inter Regular, 14px]
+    - TEXT "Su", 19.5x17px, constraints center/top, fill #FF1F1F, text [Inter Regular, 14px]
+  - GROUP "data", 339x310px, constraints left/top, radius 5px
+    - RECTANGLE "Rectangle 213", 339x310px, constraints left/top, radius 5px, fill #FFFFFF
+    - RECTANGLE "Rectangle 182", 35x35px, constraints left/top, radius 5px, fill #3865E0
+    - RECTANGLE "Rectangle 214", 35x35px, constraints left/top, radius 5px, fill #3865E0
+    - RECTANGLE "Rectangle 215", 223x39px, constraints left/top, radius 5px, fill #3865E0, opacity 20%
+    - RECTANGLE "Rectangle 216", 315x39px, constraints left/top, radius 5px, fill #3865E0, opacity 20%
+    - RECTANGLE "Rectangle 217", 224x39px, constraints left/top, radius 5px, fill #3865E0, opacity 20%
+    - GROUP "Calendar", 315x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Calendar/Row 01", 175x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "1", 35x35px, constraints left/top, fill Black, text [Inter Medium, 14px]
+        - TEXT "2", 35x35px, constraints left/top, fill Black, text [Inter Medium, 14px]
+        - TEXT "3", 35x35px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+        - TEXT "4", 35x35px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+      - GROUP "Calendar/Row 02", 315x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "5", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "6", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "7", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "8", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "9", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "10", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "11", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+      - GROUP "Calendar/Row 03", 315x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "12", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "13", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "14", 35x35px, constraints left/top, fill White, text [Inter Medium, 14px]
+        - TEXT "15", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "16", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "17", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "18", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+      - GROUP "Calendar/Row 04", 315x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "19", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "20", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "21", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "22", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "23", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "24", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "25", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+      - GROUP "Calendar/Row 05", 267x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "26", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "27", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "28", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "29", 35x35px, constraints left/top, fill Blue, text [Inter Medium, 14px]
+        - TEXT "30", 35x35px, constraints left/top, fill White, text [Inter Medium, 14px]
+        - TEXT "31", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+    - TEXT "June", 57x28px, constraints left/top, fill Headlines, text [Title/2], [heading]
+    - TEXT "Whole month", 84x17px, constraints left/top, fill #3865E0, text [Roboto Bold, 14px]
+  - GROUP "data", 339x359px, constraints left/top, radius 5px
+    - RECTANGLE "Rectangle 213", 339x359px, constraints left/top, radius 5px, fill #FFFFFF
+    - GROUP "Calendar", 315x270px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Calendar/Row 01", 175x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "1", 35x35px, constraints left/top, fill Black, text [Inter Medium, 14px]
+        - TEXT "2", 35x35px, constraints left/top, fill Black, text [Inter Medium, 14px]
+        - TEXT "3", 35x35px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+        - TEXT "1", 35x35px, constraints left/top, fill #000000, text [Inter Medium, 14px]
+      - GROUP "Calendar/Row 02", 315x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "2", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "3", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "4", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "5", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "6", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "7", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "8", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+      - GROUP "Calendar/Row 03", 315x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "9", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "10", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "11", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "12", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "13", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "14", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "15", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+      - GROUP "Calendar/Row 04", 315x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "16", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "17", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "18", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "19", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "20", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "21", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "22", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+      - GROUP "Calendar/Row 05", 315x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "23", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "24", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "25", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "26", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "27", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "28", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "29", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+      - GROUP "Calendar/Row 6", 81x35px, constraints left/top, radius 0/0/0/0px
+        - TEXT "30", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+        - TEXT "31", 35x35px, constraints left/top, fill Headlines, text [Inter Medium, 14px]
+    - TEXT "August", 83x28px, constraints left/top, fill Headlines, text [Title/2], [heading]
+    - TEXT "Whole month", 84x17px, constraints left/top, fill #3865E0, text [Roboto Bold, 14px]
+  - GROUP "Buttom", 375x144px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 11", 375x144px, constraints left/top, radius 10/10/0/0px, fill #FFFFFF
+    - TEXT "↳ Title", 150x22px, constraints left_right/center, fill #000000, text [Open Sans OpenSans, 17px]
+    - GROUP "Group 691", 41x24px, constraints left/top, radius 40px
+      - RECTANGLE "Rectangle 2.2", 34x18px, constraints left/bottom, radius 40px, fill #CCCCCC
+      - RECTANGLE "Rectangle 2.2", 24x24px, constraints left/bottom, radius 40px, fill #EEEEEE, effect [drop_shadow 0.3px offset 0 0 #0000008F]
+    - INSTANCE "Buttons", 345x50px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Button", 345x50px, constraints scale/scale, radius 5px, fill #007AFF
+      - FRAME "Label", 311x48px, constraints scale/scale, fill #FFFFFF
+        - TEXT "↳ Label", 65x22px, constraints center/center, fill Colors | Basic / Light, text [Open Sans SemiBold, 17px]
+  - GROUP "Top", 375x105px, constraints left/top
+    - RECTANGLE "Rectangle 244", 375x105px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 701", 54x22px, constraints left/top
+      - VECTOR "Arrow", 12x20.5px, constraints left/center, fill #007AFF
+      - TEXT "↳ Label", 36x22px, constraints left/center, fill #007AFF, text [Open Sans OpenSans, 17px]
+    - FRAME "Segmented Control/Left", 173x33px, constraints left_right/top, fill #FFFFFF
+      - VECTOR "BG", 173x33px, constraints scale/scale, radius 2px, fill #9597A1, opacity 10%
+      - VECTOR "BG", 86x30.8px, constraints left_right/scale, radius 5px, fill White
+      - TEXT "Year", 26x15px, constraints center/center, fill Gray/03, text [Inter Medium, 12px]
+      - TEXT "Month", 38x15px, constraints center/center, fill Blue, text [Inter SemiBold, 12px]
+    - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44.13px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 54x18px, constraints left/center, fill #000000, text [Open Sans SemiBold, 15px]
+      - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+      - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+
+Screen: App / Main
+- FRAME "Main", 375x812px, constraints left/top, radius 15px, fill #FFFFFF
+  - GROUP "Group 677", 343x211px, constraints left/top, radius 0/0/0/0px [decorative, ~7 shapes]
+  - RECTANGLE "Rectangle 4", 375x443px, constraints left/top, fill gradient_linear(#124A9A 0% | #3865E0 100%)
+  - TEXT "Title", 246x56px, constraints left/top, fill #FFFFFF, text [Title/ 1], [heading]
+  - INSTANCE "Navigation", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, stroke #CCCCCC 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #CCCCCC 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #CCCCCC
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #CCCCCC
+  - GROUP "Arrow", 47x17px, constraints left/top
+    - TEXT "Open", 33x17px, constraints left/top, fill #3865E0, text [Roboto Regular, 14px]
+    - VECTOR "Arrow", 8x13px, constraints scale/scale, fill #3865E0
+  - TEXT "↳ Headline", 173x28px, constraints left/top, fill #000000, text [Title/2], [heading]
+  - GROUP "Card", 342x50px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Arrow", 8x13px, constraints scale/scale, fill #CCCCCC
+    - RECTANGLE "Rectangle 308", 50x50px, constraints left/top, radius 5px, fill image(hash: b88b47135d8c3176b8b284ffa8f8a5a7dd01b485)
+    - TEXT "San Francisco", 115x25px, constraints scale/scale, fill #0A191E, text [Open Sans OpenSans, 18px]
+    - TEXT "19 - 29 august, 1 passenger", 164x18px, constraints scale/scale, fill #000000E5, text [Open Sans OpenSans, 13px]
+  - TEXT "↳ Headline", 188x28px, constraints left/top, fill #000000, text [Title/2], [heading]
+  - INSTANCE "Boxes", 130x35px, horizontal pad 6 10 6 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #FFFFFF 1px
+    - VECTOR "Vector", 18x20px, constraints scale/scale, fill #777777
+    - TEXT "Choose Data", 82x22px, constraints left/top, fill Gray Text, text [Open Sans SemiBold, 14px], opacity 40%
+  - INSTANCE "Boxes", 56x35px, horizontal pad 6 10 6 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #FFFFFF 1px
+    - GROUP "Group 686", 18x20px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector", 18x9.05px, constraints scale/scale, radius 0/0/0/0px, fill #777777
+      - VECTOR "Vector", 9x8.89px, constraints scale/scale, fill #777777
+    - TEXT "1", 8x22px, constraints left/top, fill Gray Text, text [Open Sans SemiBold, 14px]
+  - INSTANCE "Boxes", 60x35px, horizontal pad 6 10 6 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #FFFFFF 1px
+    - TEXT "Filters", 40x22px, constraints left/top, fill Headlines, text [Open Sans SemiBold, 14px]
+  - INSTANCE "Boxes", 345x100px, constraints left/top
+    - RECTANGLE "Rectangle 5", 345x100px, constraints scale/scale, radius 5px, fill #FFFFFF
+    - VECTOR "Vector 1", 312.2x0px, constraints scale/scale, stroke #000000 0.4px, opacity 20%
+    - TEXT "Text", 190.03x21.15px, constraints scale/scale, fill Gray Text, text [Open Sans SemiBold, 14px], opacity 40%
+    - TEXT "Text", 190.03x21.15px, constraints scale/scale, fill Gray Text, text [Open Sans SemiBold, 14px], opacity 40%
+  - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x18px, constraints left/center, fill #FFFFFF, text [Open Sans SemiBold, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+    - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+
+Screen: App / Main
+- FRAME "Main", 375x812px, constraints left/top, radius 15px, fill #FFFFFF
+  - RECTANGLE "Image_1", 118x112px, constraints scale/scale, radius 5px, fill image(hash: 365b08bfa3767989aecbbe0b83eda0959ae7b335)
+  - RECTANGLE "Image_2", 118x112px, constraints scale/scale, radius 5px, fill image(hash: a3b346dddc01cca6b99cd105f87a114cfe1a600a)
+  - RECTANGLE "Image_3", 118x112px, constraints scale/scale, radius 5px, fill image(hash: 1dbf59323fc72789d78fea9dd10c64a0b60237b1)
+  - INSTANCE "Navigation", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, stroke #CCCCCC 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #CCCCCC 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #CCCCCC
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #CCCCCC
+  - GROUP "Group 677", 343x211px, constraints left/top, radius 0/0/0/0px [decorative, ~7 shapes]
+  - GROUP "Arrow", 47x17px, constraints left/top
+    - TEXT "Open", 33x17px, constraints left/top, fill #3865E0, text [Roboto Regular, 14px]
+    - VECTOR "Arrow", 8x13px, constraints scale/scale, fill #3865E0
+  - TEXT "↳ Headline", 173x28px, constraints left/top, fill #000000, text [Title/2], [heading]
+  - GROUP "Card", 342x50px, constraints left/top, radius 0/0/0/0px
+    - VECTOR "Arrow", 8x13px, constraints scale/scale, fill #CCCCCC
+    - RECTANGLE "Rectangle 308", 50x50px, constraints left/top, radius 5px, fill image(hash: b88b47135d8c3176b8b284ffa8f8a5a7dd01b485)
+    - TEXT "San Francisco", 115x25px, constraints scale/scale, fill #0A191E, text [Open Sans OpenSans, 18px]
+    - TEXT "19 - 29 august, 1 passenger", 164x18px, constraints scale/scale, fill #000000E5, text [Open Sans OpenSans, 13px]
+  - TEXT "↳ Headline", 188x28px, constraints left/top, fill #000000, text [Title/2], [heading]
+  - RECTANGLE "Rectangle 4", 375x256px, constraints left/top, fill #F0F0F1
+  - INSTANCE "Boxes", 203x35px, horizontal pad 6 10 6 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #FFFFFF 1px
+    - VECTOR "Vector", 18x20px, constraints scale/scale, fill #777777
+    - TEXT "Choose Data", 155x22px, constraints left/top, fill Blue, text [Open Sans SemiBold, 14px]
+  - INSTANCE "Boxes", 56x35px, horizontal pad 6 10 6 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #FFFFFF 1px
+    - GROUP "Group 686", 18x20px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector", 18x9.05px, constraints scale/scale, radius 0/0/0/0px, fill #777777
+      - VECTOR "Vector", 9x8.89px, constraints scale/scale, fill #777777
+    - TEXT "1", 8x22px, constraints left/top, fill Headlines, text [Open Sans SemiBold, 14px]
+  - INSTANCE "Boxes", 60x35px, horizontal pad 6 10 6 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #FFFFFF 1px
+    - TEXT "Filters", 40x22px, constraints left/top, fill Headlines, text [Open Sans SemiBold, 14px]
+  - INSTANCE "Boxes", 345x100px, constraints left/top
+    - RECTANGLE "Rectangle 5", 345x100px, constraints scale/scale, radius 5px, fill #FFFFFF
+    - VECTOR "Vector 1", 312.2x0px, constraints scale/scale, stroke #000000 0.4px, opacity 20%
+    - TEXT "Text", 190.03x21.15px, constraints scale/scale, fill Headlines, text [Open Sans SemiBold, 14px]
+    - TEXT "Text", 190.03x21.15px, constraints scale/scale, fill Headlines, text [Open Sans SemiBold, 14px]
+  - FRAME "compare_arrows", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 14x20px, constraints scale/scale, fill #000000
+  - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x18px, constraints left/center, fill #000000, text [Open Sans SemiBold, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+    - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+
+Screen: App / Search / Feed
+- FRAME "Search / Feed", 375x812px, constraints left/top, radius 15px, fill #F0F0F1
+  - COMPONENT "Hotel Card", 343x216px, constraints left/top, fill #FFFFFF
+    - GROUP "Media / Rounded r=6", 343x216px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "▪︎ Bitmap", 343x216px, constraints scale/scale, radius 6px, fill image(hash: ea22e86bcc08b70f3ea5b48a0b563f82b2d1c4ee)
+      - RECTANGLE "▪︎ Bitmap", 343x216px, constraints scale/scale, radius 6px, fill image(hash: 41653c67f71a4afd9908e7ba54705f01409eba85)
+      - VECTOR "Scrim", 343x216px, constraints scale/scale, fill #000000, opacity 0%
+    - FRAME "_Glyphs / Nav & Toolbar / Like", 30.72x30px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 21x19.5px, constraints center/center, fill #FFFFFF
+    - TEXT "↳ Subtitle", 106.48x18px, constraints scale/scale, fill #FFFFFFE5, text [Open Sans OpenSans, 13px]
+    - TEXT "↳ Subtitle", 65.53x18px, constraints scale/scale, fill #FFFFFFE5, text [Open Sans OpenSans, 13px]
+    - TEXT "↳ Title", 101x22px, constraints scale/scale, fill #FFFFFF, text [Open Sans OpenSans, 18px]
+    - GROUP "Rating", 311.3x20px, constraints scale/scale
+      - TEXT "(84) on Yelp", 245.73x20px, constraints scale/scale, fill #CCCCCC, text [Open Sans OpenSans, 15px]
+      - GROUP "Rating", 61.5x12px, constraints scale/scale, fill #FFFFFF [decorative, ~15 shapes]
+    - RECTANGLE "Rectangle 220", 112.63x45px, constraints scale/scale, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 221", 28x45px, constraints scale/scale, radius 0/10/10/0px, fill #F8F8F8
+    - VECTOR "Arrow", 6.14x9px, constraints scale/scale, fill #000000
+    - TEXT "356 $", 73x20px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 22px]
+    - TEXT "for 6 days", 53x20px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 12px]
+  - INSTANCE "Hotel Card", 343x216px, constraints left/top, fill #FFFFFF
+    - GROUP "Media / Rounded r=6", 343x216px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "▪︎ Bitmap", 343x216px, constraints scale/scale, radius 6px, fill image(hash: 2bc5e737f2535afd62648c4f3cec7fe4ffb2068a)
+      - RECTANGLE "▪︎ Bitmap", 343x216px, constraints scale/scale, radius 6px, fill image(hash: 41653c67f71a4afd9908e7ba54705f01409eba85)
+      - VECTOR "Scrim", 343x216px, constraints scale/scale, fill #000000, opacity 0%
+    - FRAME "_Glyphs / Nav & Toolbar / Like", 30.72x30px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 21x19.5px, constraints center/center, fill #FFFFFF
+    - TEXT "↳ Subtitle", 106.48x18px, constraints scale/scale, fill #FFFFFFE5, text [Open Sans OpenSans, 13px]
+    - TEXT "↳ Subtitle", 72x18px, constraints scale/scale, fill #FFFFFFE5, text [Open Sans OpenSans, 13px]
+    - TEXT "↳ Title", 100x22px, constraints scale/scale, fill #FFFFFF, text [Open Sans OpenSans, 18px]
+    - GROUP "Rating", 311.3x20px, constraints scale/scale
+      - TEXT "(84) on Yelp", 245.73x20px, constraints scale/scale, fill #CCCCCC, text [Open Sans OpenSans, 15px]
+      - GROUP "Rating", 61.5x12px, constraints scale/scale, fill #FFFFFF [decorative, ~15 shapes]
+    - RECTANGLE "Rectangle 220", 112.63x45px, constraints scale/scale, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 221", 28x45px, constraints scale/scale, radius 0/10/10/0px, fill #F8F8F8
+    - VECTOR "Arrow", 6.14x9px, constraints scale/scale, fill #000000
+    - TEXT "356 $", 73x20px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 22px]
+    - TEXT "for 6 days", 60x20px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 12px]
+  - INSTANCE "Hotel Card", 343x216px, constraints left/top, fill #FFFFFF
+    - GROUP "Media / Rounded r=6", 343x216px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "▪︎ Bitmap", 343x216px, constraints scale/scale, radius 6px, fill image(hash: c1adcaa16e27812cf4faefff24c62aa0da2b6cd1)
+      - RECTANGLE "▪︎ Bitmap", 343x216px, constraints scale/scale, radius 6px, fill image(hash: 41653c67f71a4afd9908e7ba54705f01409eba85)
+      - VECTOR "Scrim", 343x216px, constraints scale/scale, fill #000000, opacity 0%
+    - FRAME "_Glyphs / Nav & Toolbar / Like", 30.72x30px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 21x19.5px, constraints center/center, fill #FFFFFF
+    - TEXT "↳ Subtitle", 106.48x18px, constraints scale/scale, fill #FFFFFFE5, text [Open Sans OpenSans, 13px]
+    - TEXT "↳ Subtitle", 65.53x18px, constraints scale/scale, fill #FFFFFFE5, text [Open Sans OpenSans, 13px]
+    - TEXT "↳ Title", 101x22px, constraints scale/scale, fill #FFFFFF, text [Open Sans OpenSans, 18px]
+    - GROUP "Rating", 311.3x20px, constraints scale/scale
+      - TEXT "(84) on Yelp", 245.73x20px, constraints scale/scale, fill #CCCCCC, text [Open Sans OpenSans, 15px]
+      - GROUP "Rating", 61.5x12px, constraints scale/scale, fill #FFFFFF [decorative, ~15 shapes]
+    - RECTANGLE "Rectangle 220", 112.63x45px, constraints scale/scale, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 221", 28x45px, constraints scale/scale, radius 0/10/10/0px, fill #F8F8F8
+    - VECTOR "Arrow", 6.14x9px, constraints scale/scale, fill #000000
+    - TEXT "356 $", 73x20px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 22px]
+    - TEXT "for 6 days", 53x20px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 12px]
+  - INSTANCE "Navigation", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, stroke #CCCCCC 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #CCCCCC 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #CCCCCC
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #CCCCCC
+  - FRAME "Segmented Control/Left", 173x33px, constraints left_right/top, radius 10px, fill #FFFFFF
+    - VECTOR "BG", 173x33px, constraints scale/scale, radius 2px, fill #9597A1, opacity 10%
+    - VECTOR "BG", 86x30.8px, constraints left_right/scale, radius 5px, fill White
+    - TEXT "Map", 26x15px, constraints center/center, fill Gray/03, text [Inter Medium, 12px]
+    - TEXT "City", 24x15px, constraints center/center, fill Blue, text [Inter SemiBold, 12px]
+  - GROUP "Infographics", 343x90px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Button", 343x90px, constraints scale/bottom, radius 5px, fill #FFFFFF
+    - TEXT "Price", 42x22px, constraints left/top, fill #000000, text [Secondary / active]
+    - TEXT "300$ - 1500$", 100x22px, constraints left/top, fill #000000, text [Open Sans OpenSans, 17px], opacity 20%
+    - GROUP "Group 696", 306.14x30px, constraints left/top, radius 0/0/0/0px, opacity 70% [decorative, ~23 shapes]
+    - VECTOR "Vector 7", 317x0px, constraints left/top, stroke #007AFF 1px
+    - ELLIPSE "Ellipse 4", 7x7px, constraints left/top, fill #FFFFFF, stroke #007AFF 1px
+    - ELLIPSE "Ellipse 5", 7x7px, constraints left/top, fill #FFFFFF, stroke #007AFF 1px
+    - VECTOR "Vector 8", 318x36px, constraints left/top, fill #007AFF, stroke #007AFF 1px, opacity 20%
+  - FRAME "Search / Bar", 343x36px, constraints scale/scale
+    - RECTANGLE "Rectangle 2", 343x36px, constraints scale/scale, radius 2px, fill #9597A1, opacity 10%
+    - FRAME "Icon / Search", 18x18px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #9597A1 1.2px
+      - VECTOR "Vector", 3.26x3.26px, constraints scale/scale, stroke #9597A1 1.2px
+    - TEXT "Canada", 49x22px, constraints left/top, fill #CCCCCC, text [Open Sans SemiBold, 14px]
+  - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x18px, constraints left/center, fill #FFFFFF, text [Open Sans SemiBold, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+    - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+  - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x18px, constraints left/center, fill Headlines, text [Open Sans SemiBold, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+    - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+
+Screen: App / Search
+- FRAME "Search", 375x812px, constraints left/top, radius 15px, fill gradient_linear(#09448A 0% | #3865E0 100%)
+  - GROUP "Group 703", 193x72px, constraints left/top
+    - TEXT "Title", 193x25px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 16px]
+    - RECTANGLE "Logo", 190x32px, constraints left/top, fill image(hash: 4d9be55fa400b760d8adb4bef294e0c3b4358e58)
+  - INSTANCE "Navigation", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, stroke #CCCCCC 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #CCCCCC 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #CCCCCC
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #CCCCCC
+  - INSTANCE "Buttons", 345x50px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Button", 345x50px, constraints scale/scale, radius 5px, fill #FF8D23
+    - TEXT "↳ Label", 86x22px, constraints scale/scale, fill #FFFFFF, text [Button ]
+  - INSTANCE "Boxes", 345x50px, constraints left/top
+    - GROUP "Button", 345x50px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - RECTANGLE "Button", 345x50px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - TEXT "↳ Label", 46x22px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 14px]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 14x20px, constraints scale/scale, radius 3px, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF [decorative, ~6 shapes]
+  - INSTANCE "Boxes", 345x100px, constraints left/top
+    - GROUP "Button", 345x100px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - RECTANGLE "Button", 345x100px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - TEXT "↳ Label", 106x22px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 14px]
+      - TEXT "↳ Label", 122x22px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 14px]
+    - VECTOR "Divider", 316x0.5px, constraints scale/scale, fill #000000, opacity 20%
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 20x22px, constraints left/top
+        - VECTOR "Vector", 20x22px, constraints scale/scale, fill #3865E0
+      - RECTANGLE "Rectangle 218", 5x5px, constraints left/top, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 20x22px, constraints scale/scale, fill #3865E0
+      - RECTANGLE "Rectangle 219", 5x5px, constraints scale/scale, fill #3865E0
+  - INSTANCE "Boxes", 345x50px, constraints left/top
+    - GROUP "Button", 345x50px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - RECTANGLE "Button", 345x50px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - TEXT "↳ Label", 77x22px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 14px]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #3865E0
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #3865E0
+    - VECTOR "Arrow", 13x8px, constraints scale/scale, fill #CCCCCC
+  - VECTOR "Vector 2", 804.96x336px, constraints left/top, stroke #FFFFFF1F 3.77px, opacity 50%
+  - VECTOR "Vector", 31.24x31.24px, constraints scale/scale, fill #2B5DB5
+  - VECTOR "Vector 3", 700.75x863.48px, constraints left/top, stroke #FFFFFF1F 3.77px, opacity 50%
+  - VECTOR "Vector 4", 871.66x596.84px, constraints left/top, stroke #FFFFFF1F 3.77px, opacity 50%
+  - VECTOR "Vector", 41.7x41.7px, constraints scale/scale, fill #446EE2
+  - VECTOR "Vector", 40.15x40.15px, constraints scale/scale, fill #446EE2
+  - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - TEXT "↳ Time", 54x18px, constraints left/center, fill #FFFFFF, text [Open Sans SemiBold, 15px]
+    - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+    - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+
+Screen: App / Notification
+- FRAME "Notification", 375x812px, constraints left/top, radius 15px, fill #F0F2F5
+  - INSTANCE "Navigation", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20.44px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, fill #3865E0, stroke #3865E0 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #3865E0 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #CCCCCC
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #CCCCCC
+  - GROUP "Group 7", 188x161px, constraints left/top, radius 0/0/0/0px
+    - TEXT "There’s nothing here", 188x28px, constraints left/top, fill #000000, text [Poppins SemiBold, 18px]
+    - VECTOR "Ellipse 2", 77.59x87.46px, constraints left/top, fill #3865E0, stroke #FFFFFF 3.5px
+    - ELLIPSE "Ellipse 3", 3.53x3.53px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 4", 3.53x3.53px, constraints left/top, fill #FFFFFF
+    - TEXT "?", 15.26x14.62px, constraints left/top, fill #FF8D23, text [Roboto Bold, 12.7px]
+    - TEXT "?", 13.53x27.67px, constraints left/top, fill #FF8D23, text [Roboto Bold, 22.57px]
+    - TEXT "?", 29.97x37.36px, constraints left/top, fill #FF8D23, text [Roboto Bold, 29.62px], [heading]
+    - VECTOR "Vector 4", 9x0px, constraints left/top, fill #3865E0, stroke #FFFFFF 2.5px
+    - VECTOR "Vector", 37.85x38.5px, constraints scale/scale, radius 0/0/0/0px, fill #3865E0, stroke #FF8D23 4px
+  - GROUP "Top", 375x105px, constraints left/top
+    - RECTANGLE "Rectangle 244", 375x105px, constraints left/top, fill #FFFFFF
+    - TEXT "↳ Headline", 135x28px, constraints left/top, fill Headlines, text [Title/2], [heading]
+    - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 54x18px, constraints left/center, fill #000000, text [Open Sans SemiBold, 15px]
+      - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+      - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+
+Screen: App / Notification
+- FRAME "Notification", 375x812px, constraints left/top, radius 15px, fill #F0F2F5
+  - INSTANCE "Navigation", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20.44px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, fill #3865E0, stroke #3865E0 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #3865E0 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #CCCCCC
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #CCCCCC
+  - TEXT "Name", 215x28px, constraints left/top, fill #000000, text [Title/2], [heading]
+  - GROUP "NY-LON", 67x17px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Days of Week", 67x17px, constraints left/top, radius 0/0/0/0px, opacity 50%
+      - TEXT "NY", 20x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+      - TEXT "•", 8x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+      - TEXT "LON", 29x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+  - TEXT "Name", 263x28px, constraints left/top, fill #000000, text [Title/2], [heading]
+  - GROUP "LED-TLL", 70x17px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Days of Week", 70x17px, constraints left/top, radius 0/0/0/0px, opacity 50%
+      - TEXT "LED", 27x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+      - TEXT "•", 8x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+      - TEXT "TLL", 25x17px, constraints center/top, fill #2E3543, text [Inter Regular, 14px]
+  - INSTANCE "Group 708", 345x167px, constraints left/top
+    - VECTOR "Rectangle 5", 345x152px, constraints scale/scale, radius 5px, fill #FFFFFF
+    - TEXT "452 USD", 104x28px, constraints scale/scale, fill Blue, text [Title/ 1], [heading]
+    - TEXT "20 Aug - 4 Sep • 1 passenger", 212x22px, constraints scale/scale, fill Gray Icon, text [Secondary/not active]
+    - VECTOR "Vector 2", 312.2x0px, constraints scale/scale, stroke #000000 0.4px, opacity 20%
+    - VECTOR "Vector 3", 0.17x30px, constraints scale/scale, stroke #000000 0.4px, opacity 20%
+    - TEXT "↳ Label", 59x24px, constraints scale/scale, fill #ABB9CD, text [Open Sans SemiBold, 16px]
+    - TEXT "↳ Label", 48x24px, constraints scale/scale, fill #ABB9CD, text [Open Sans SemiBold, 16px]
+    - FRAME "Frame 1", 90x30px, horizontal pad 5 5 5 5px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 39px, fill #7B61FF
+      - TEXT "Best price", 76x22px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 16px]
+    - FRAME "settings", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 18.67x19.2px, constraints scale/scale, fill #ABB9CD
+    - FRAME "delete", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 14x18px, constraints scale/scale, fill #ABB9CD
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+  - INSTANCE "Group 709", 345x167px, constraints left/top
+    - VECTOR "Rectangle 5", 345x152px, constraints scale/scale, radius 5px, fill #FFFFFF
+    - TEXT "452 USD", 111x28px, constraints scale/scale, fill Blue, text [Title/ 1], [heading]
+    - TEXT "20 Aug - 4 Sep • 1 passenger", 212x22px, constraints scale/scale, fill Gray Icon, text [Secondary/not active]
+    - VECTOR "Vector 2", 312.2x0px, constraints scale/scale, stroke #000000 0.4px, opacity 20%
+    - VECTOR "Vector 3", 0.17x30px, constraints scale/scale, stroke #000000 0.4px, opacity 20%
+    - TEXT "↳ Label", 59x24px, constraints scale/scale, fill #ABB9CD, text [Open Sans SemiBold, 16px]
+    - TEXT "↳ Label", 48x24px, constraints scale/scale, fill #ABB9CD, text [Open Sans SemiBold, 16px]
+    - FRAME "Frame 1", 90x30px, horizontal pad 5 5 5 5px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 39px, fill #7B61FF
+      - TEXT "Best price", 76x22px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 16px]
+    - FRAME "settings", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 18.67x19.2px, constraints scale/scale, fill #ABB9CD
+    - FRAME "delete", 24x24px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 14x18px, constraints scale/scale, fill #ABB9CD
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+  - GROUP "Top", 375x105px, constraints left/top
+    - RECTANGLE "Rectangle 244", 375x105px, constraints left/top, fill #FFFFFF
+    - TEXT "↳ Headline", 135x28px, constraints left/top, fill Headlines, text [Title/2], [heading]
+    - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 54x18px, constraints left/center, fill #000000, text [Open Sans SemiBold, 15px]
+      - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+      - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+
+Screen: App / Profile
+- FRAME "Profile", 375x1166px, constraints left/top, radius 15px, fill #F0F0F1
+  - VECTOR "Rectangle 244", 375x365px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Navigation", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, stroke #CCCCCC 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #CCCCCC 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #3865E0
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #3865E0
+  - GROUP "Name", 331x58px, constraints left/top
+    - VECTOR "Arrow", 8x13px, constraints left/top, fill #007AFF
+    - ELLIPSE "Ellipse 6", 58x58px, constraints left/top, fill #CCCCCC
+    - GROUP "Muted", 150x20px, constraints scale/center, radius 0/0/0/0px, fill #FFFFFF, opacity 48%
+      - TEXT "↳ Subtitle", 150x20px, constraints left/top, fill #000000, text [Open Sans OpenSans, 15px]
+    - TEXT "↳ Title", 120x22px, constraints left/top, fill #000000, text [Open Sans OpenSans, 17px]
+  - GROUP "Pc", 37x55px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+  - GROUP "D", 222x20px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, opacity 48%
+    - TEXT "↳ Subtitle", 222x20px, constraints left/top, fill #000000, text [Open Sans OpenSans, 15px]
+  - TEXT "Name", 120x22px, constraints left/top, fill #000000, text [Open Sans OpenSans, 17px]
+  - FRAME "B", 133x25px, horizontal pad 4 10 4 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #007AFF
+    - TEXT "All documents", 113x17px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 14px]
+  - GROUP "Other", 330x104px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Background", 330x52px, constraints left/top, radius 0/0/5/5px, fill #FFFFFF
+    - RECTANGLE "Background", 330x52px, constraints left/top, radius 0/0/5/5px, fill #FFFFFF
+    - RECTANGLE "Background", 330x52px, constraints left/top, radius 0/0/5/5px, fill #FFFFFF
+    - RECTANGLE "Background", 330x52px, constraints left/top, radius 0/0/5/5px, fill #FFFFFF
+    - TEXT "Rate us", 52x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - TEXT "Aviacompanies", 106x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+  - GROUP "Settings", 330x356px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Background", 330x96px, constraints left/top, radius 5/5/0/0px, fill #FFFFFF
+    - TEXT "Manage my account", 141x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - VECTOR "Account Stroke Icon", 14x16px, constraints left/top, fill #86878B
+    - RECTANGLE "Background", 330x52px, constraints left/top, fill #FFFFFF
+    - TEXT "Privacy and safety", 126x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - VECTOR "Lock Stroke Icon", 14.5x17.5px, constraints left/top, fill #86878B
+    - RECTANGLE "Background", 330x52px, constraints left/top, fill #FFFFFF
+    - TEXT "Registration", 85x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - VECTOR "Camera Stroke Icon", 19.25x14.5px, constraints left/top, radius 0/0/0/0px, fill #86878B
+    - RECTANGLE "Background", 330x52px, constraints left/top, fill #FFFFFF
+    - TEXT "Balance", 56x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - VECTOR "Wallet Stroke Icon", 16.25x16px, constraints left/top, fill #86878B
+    - RECTANGLE "Background", 330x52px, constraints left/top, fill #FFFFFF
+    - TEXT "Links", 36x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - VECTOR "Share Icon", 17.59x15.58px, constraints left/top, radius 0/0/0/0px, fill #86878B
+    - RECTANGLE "Background", 330x52px, constraints left/top, radius 0/0/5/5px, fill #FFFFFF
+    - TEXT "Codes", 44x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - VECTOR "QR Code Icon", 15.5x15.5px, constraints left/top, fill #86878B
+    - TEXT "↳ Headline", 63x22px, constraints left/top, fill Headlines, text [Secondary / active]
+  - GROUP "Advises", 330x148px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Background", 330x96px, constraints left/top, radius 5/5/0/0px, fill #FFFFFF
+    - TEXT "My Tickets", 74x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - RECTANGLE "Background", 330x52px, constraints left/top, radius 0/0/5/5px, fill #FFFFFF
+    - TEXT "Support", 57x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+    - VECTOR "Left Arrow Icon", 5.79x10.5px, constraints left/top, fill #86878B
+    - TEXT "↳ Headline", 60x22px, constraints left/top, fill Headlines, text [Secondary / active]
+  - TEXT "2.20.21", 51x20px, constraints left/top, fill Tik Tok Dark, text [Open Sans OpenSans, 15px]
+  - GROUP "Top", 375x225px, constraints left/top
+    - TEXT "↳ Headline", 135x28px, constraints left/top, fill Headlines, text [Title/2], [heading]
+    - TEXT "↳ Headline", 118x22px, constraints left/top, fill Headlines, text [Secondary / active]
+    - INSTANCE "• iPhone XS / Bars / Status / Default", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Action", 54x18px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "↳ Time", 54x18px, constraints left/center, fill #000000, text [Open Sans SemiBold, 15px]
+      - GROUP "Container", 67x11.5px, constraints right/center, radius 0/0/0/0px, fill #FFFFFF [decorative, ~15 shapes]
+      - VECTOR "Notch", 219x30px, constraints center/top, radius 0/0/0/0px, fill Black
+
+Screen: App / Navigation
+- COMPONENT_SET "Navigation", 415x374px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Property 1=Tab Bar_Main", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, stroke #CCCCCC 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #CCCCCC 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #CCCCCC
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #CCCCCC
+  - COMPONENT "Property 1=Tab Bar_Notification", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20.44px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, fill #3865E0, stroke #3865E0 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #3865E0 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #CCCCCC
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #CCCCCC
+  - COMPONENT "Property 1=Tab Bar_Profile", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, stroke #CCCCCC 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #CCCCCC 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #3865E0
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #3865E0
+  - COMPONENT "Property 1=Tab Bar_Search", 375x70px, constraints left/top
+    - RECTANGLE "Rectangle 11", 375x70px, constraints scale/scale, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 3px offset 2 -2 #54575C0D]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - BOOLEAN_OPERATION "Icon", 19.91x20.75px, constraints scale/scale, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #CCCCCC
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 688", 18x20px, constraints left/top
+        - VECTOR "Vector", 18x15px, constraints scale/scale, stroke #CCCCCC 2px
+        - VECTOR "Vector", 3.46x1px, constraints scale/scale, stroke #CCCCCC 2px
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #CCCCCC
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #CCCCCC
+
+Screen: App / Buttons
+- COMPONENT_SET "Buttons", 385x160px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Property 1=Button_orange", 345x50px, constraints left_right/center, fill #FFFFFF
+    - RECTANGLE "Button", 345x50px, constraints scale/scale, radius 5px, fill #FF8D23
+    - TEXT "↳ Label", 78x22px, constraints scale/scale, fill #FFFFFF, text [Open Sans Bold, 16px]
+  - COMPONENT "Property 1=Button_blue", 345x50px, constraints left_right/center, fill #FFFFFF
+    - RECTANGLE "Button", 345x50px, constraints scale/scale, radius 5px, fill #007AFF
+    - FRAME "Label", 311x48px, constraints scale/scale, fill #FFFFFF
+      - TEXT "↳ Label", 60x22px, constraints center/center, fill Colors | Basic / Light, text [Open Sans SemiBold, 17px]
+
+Screen: App / Boxes
+- COMPONENT_SET "Boxes", 385x475px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Property 1=auto_l_data", 130x35px, horizontal pad 6 10 6 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #FFFFFF 1px
+    - VECTOR "Vector", 18x20px, constraints scale/scale, fill #777777
+    - TEXT "Choose Data", 82x22px, constraints left/top, fill Gray Text, text [Open Sans SemiBold, 14px], opacity 40%
+  - COMPONENT "Property 1=auto_l_#", 56x35px, horizontal pad 6 10 6 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #FFFFFF 1px
+    - GROUP "Group 686", 18x20px, constraints left/top, radius 0/0/0/0px
+      - VECTOR "Vector", 18x9.05px, constraints scale/scale, radius 0/0/0/0px, fill #777777
+      - VECTOR "Vector", 9x8.89px, constraints scale/scale, fill #777777
+    - TEXT "1", 8x22px, constraints left/top, fill Gray Text, text [Open Sans SemiBold, 14px]
+  - COMPONENT "Property 1=auto_l_a", 60x35px, horizontal pad 6 10 6 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, stroke #FFFFFF 1px
+    - TEXT "Filters", 40x22px, constraints left/top, fill Gray Text, text [Open Sans SemiBold, 14px]
+  - COMPONENT "Property 1=Box_main", 345x100px, constraints left/top
+    - RECTANGLE "Rectangle 5", 345x100px, constraints scale/scale, radius 5px, fill #FFFFFF
+    - VECTOR "Vector 1", 312.2x0px, constraints scale/scale, stroke #000000 0.4px, opacity 20%
+    - TEXT "Text", 190.03x21.15px, constraints scale/scale, fill Headlines, text [Open Sans SemiBold, 14px]
+    - TEXT "Text", 190.03x21.15px, constraints scale/scale, fill Gray Text, text [Open Sans SemiBold, 14px], opacity 40%
+  - COMPONENT "Property 1=Box_man", 345x50px, constraints left/top
+    - GROUP "Button", 345x50px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - RECTANGLE "Button", 345x50px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - TEXT "↳ Label", 40x22px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 14px]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 19.38x21px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 19.38x9.5px, constraints scale/scale, radius 0/0/0/0px, fill #3865E0
+        - VECTOR "Vector", 9.69x9.33px, constraints scale/scale, fill #3865E0
+    - VECTOR "Arrow", 13x8px, constraints scale/scale, fill #C7C7CC
+  - COMPONENT "Property 1=Box_data", 345x100px, constraints left/top
+    - GROUP "Button", 345x100px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - RECTANGLE "Button", 345x100px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - TEXT "↳ Label", 106x22px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 14px]
+      - TEXT "↳ Label", 121x22px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 14px]
+    - VECTOR "Divider", 316x0.5px, constraints scale/scale, fill #000000, opacity 20%
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 686", 20x22px, constraints left/top
+        - VECTOR "Vector", 20x22px, constraints scale/scale, fill #3865E0
+      - RECTANGLE "Rectangle 218", 5x5px, constraints left/top, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 20x22px, constraints scale/scale, fill #3865E0
+      - RECTANGLE "Rectangle 219", 5x5px, constraints scale/scale, fill #3865E0
+  - COMPONENT "Property 1=Box_city", 345x50px, constraints left/top
+    - GROUP "Button", 345x50px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - RECTANGLE "Button", 345x50px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - TEXT "↳ Label", 34x22px, constraints scale/scale, fill #000000, text [Open Sans SemiBold, 14px]
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 14x20px, constraints scale/scale, radius 3px, fill #3865E0
+    - FRAME "_Glyphs / Tab Bar / Search", 30x28px, constraints scale/scale, fill #FFFFFF [decorative, ~6 shapes]
+
+Screen: App / Purchase
+- COMPONENT_SET "Purchase", 415x469px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Property 1=Group", 343x255px, constraints left/top
+    - TEXT "CVV/CVC", 84.92x19.62px, constraints scale/scale, fill Gray Text, text [Open Sans OpenSans, 18px]
+    - RECTANGLE "Rectangle 3.4", 75x43.59px, constraints scale/scale, radius 5px, stroke #C4C4C4 1px
+    - FRAME "Text Input", 343x74.1px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Card number", 154.41x19.62px, constraints scale/scale, fill Gray Text, text [Open Sans OpenSans, 18px]
+      - RECTANGLE "Rectangle 3", 343x43.59px, constraints scale/scale, radius 5px, stroke #C4C4C4 1px
+      - TEXT "4255 XXXX XXXX 9321", 206.24x19.62px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+      - FRAME "cash+checkout+credit+mastercard+icon-1320162631073161905_0", 50x50px, constraints scale/scale, fill #FFFFFF [decorative, ~23 shapes]
+    - FRAME "Date Input", 166.54x74.1px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Expiration date", 154.41x19.62px, constraints scale/scale, fill Gray Text, text [Open Sans OpenSans, 18px]
+      - RECTANGLE "Rectangle 3.1", 81.61x43.59px, constraints scale/scale, radius 5px, stroke #C4C4C4 1px
+      - RECTANGLE "Rectangle 3.3", 81.61x43.59px, constraints scale/scale, radius 5px, stroke #C4C4C4 1px
+      - TEXT "09", 26.47x19.62px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+      - TEXT "20", 25.37x19.62px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+      - GROUP "Group", 17.79x8.72px, constraints scale/scale
+        - VECTOR "Vector", 17.79x8.72px, constraints scale/scale, fill #C4C4C4
+      - GROUP "Group", 17.79x8.72px, constraints scale/scale
+        - VECTOR "Vector", 17.79x8.72px, constraints scale/scale, fill #C4C4C4
+    - TEXT "922", 36.4x19.62px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+    - GROUP "Text Input", 343x74.1px, constraints scale/scale, radius 5px
+      - TEXT "Card holder name", 238.23x19.62px, constraints scale/scale, fill Gray Text, text [Open Sans OpenSans, 18px]
+      - RECTANGLE "Rectangle 3.2", 343x43.59px, constraints scale/scale, radius 5px, stroke #C4C4C4 1px
+      - TEXT "GAROLD PAIN", 316x20px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 18px]
+  - COMPONENT "Property 1=Credit card", 375x62px, constraints left_right/top, fill #FFFFFF
+    - FRAME "Backgrounds / White", 375x62px, constraints scale/scale, fill #FFFFFF [decorative, ~13 shapes]
+    - FRAME "Controls Small / Arrow / Fw", 32x32px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Arrow", 13x8px, constraints center/center, fill Blue
+    - GROUP "Container", 145x44px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - GROUP "Muted", 145x20px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, opacity 48%
+        - TEXT "↳ Subtitle", 145x20px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 15px]
+      - TEXT "↳ Title", 83x22px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 17px]
+  - COMPONENT "Property 1=face id", 375x62px, constraints left_right/top, fill #FFFFFF
+    - FRAME "Backgrounds / White", 375x62px, constraints scale/scale, fill #FFFFFF [decorative, ~11 shapes]
+    - FRAME "Controls Small / Arrow / Fw", 32x32px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Arrow", 8x13px, constraints center/center, fill #C7C7CC
+    - GROUP "Container", 240x44px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - GROUP "Muted", 240x20px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, opacity 48%
+        - TEXT "↳ Subtitle", 240x20px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 15px]
+      - TEXT "↳ Title", 55x22px, constraints scale/scale, fill #000000, text [Open Sans OpenSans, 17px]
+
+Screen: App / Group 706
+- COMPONENT "Group 706", 345x167px, constraints left/top
+  - VECTOR "Rectangle 5", 345x152px, constraints scale/scale, radius 5px, fill #FFFFFF
+  - TEXT "452 USD", 104x28px, constraints scale/scale, fill Blue, text [Title/ 1], [heading]
+  - TEXT "20 Aug - 4 Sep • 1 passenger", 212x22px, constraints scale/scale, fill Gray Icon, text [Secondary/not active]
+  - VECTOR "Vector 2", 312.2x0px, constraints scale/scale, stroke #000000 0.4px, opacity 20%
+  - VECTOR "Vector 3", 0.17x30px, constraints scale/scale, stroke #000000 0.4px, opacity 20%
+  - TEXT "↳ Label", 59x24px, constraints scale/scale, fill #ABB9CD, text [Open Sans SemiBold, 16px]
+  - TEXT "↳ Label", 48x24px, constraints scale/scale, fill #ABB9CD, text [Open Sans SemiBold, 16px]
+  - FRAME "Frame 1", 90x30px, horizontal pad 5 5 5 5px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 39px, fill #7B61FF
+    - TEXT "Best price", 76x22px, constraints left/top, fill #FFFFFF, text [Open Sans Bold, 16px]
+  - FRAME "settings", 24x24px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 24x24px, constraints scale/scale
+    - VECTOR "Vector", 18.67x19.2px, constraints scale/scale, fill #ABB9CD
+  - FRAME "delete", 24x24px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 14x18px, constraints scale/scale, fill #ABB9CD
+    - VECTOR "Vector", 24x24px, constraints scale/scale
+
+Screen: Cover / Frame 2
+- FRAME "Frame 2", 1920x960px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector 2", 1707x712.52px, constraints left/top, stroke gradient_linear(#000000 0% | #00000000 100%) 8px, opacity 50%
+  - ELLIPSE "Ellipse 1", 208x208px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 199.25x154.1px, constraints scale/scale, fill #3865E0
+  - GROUP "Group 2", 1785.19x2048.85px, constraints left/top, radius 16px [decorative, ~5 shapes]
+  - GROUP "Group 3", 949x362px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Booking app", 949x206px, constraints left/top, fill #000000, text [SF Pro Display Bold, 150px], [heading]
+    - TEXT "@ Murlococtan", 392.86x31.29px, constraints left/top, fill #3865E0, text [Gotham Bold, 52.15px], [heading]
+    - TEXT "UI for any product", 646.65x99.08px, constraints left/top, fill #18181899, text [SF Pro Display Medium, 83.44px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

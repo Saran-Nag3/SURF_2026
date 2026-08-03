@@ -1,0 +1,981 @@
+---
+name: trainerz-anima-high-fidelity-prototype-demo-community
+source_file: Trainerz - Anima High-fidelity Prototype Demo (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:08:31.602055+00:00
+---
+
+# Trainerz - Anima High-fidelity Prototype Demo (Community) Design Guidelines
+
+## Source
+- Figma file: Trainerz - Anima High-fidelity Prototype Demo (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:08:31.602055+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 203 uses
+- #FFFFFF: 127 uses
+- #084C37: 96 uses
+- #2F6FC6: 72 uses
+- #1D4835: 65 uses
+- #D8D8D8: 59 uses
+- #979797: 47 uses
+- #CBCBCB: 42 uses
+- #FF5656: 21 uses
+- #2A2928: 14 uses
+- #FFC2C2: 10 uses
+- #F9F9F9: 4 uses
+
+## Typography Tokens
+- Feature Caveat: Caveat Bold (700), 21px / 21px, tracking 0px
+
+## Raw Typography (unstyled)
+- Lato Regular, 16px: 32 uses
+- Lato Regular, 14px: 26 uses
+- Mulish Regular, 12px: 23 uses
+- Lato Regular, 12px: 21 uses
+- Castoro Regular, 16px: 16 uses
+- Lato Light, 16px: 16 uses
+- Lato Light, 18px: 15 uses
+- Mulish Regular, 8px: 14 uses
+- Lato Regular, 13px: 9 uses
+- Lato Regular, 18px: 9 uses
+- Mulish Regular, 26px: 9 uses
+- Castoro Regular, 18px: 7 uses
+- Lato Regular, 23px: 4 uses
+- Castoro Regular, 24px: 3 uses
+- Castoro Regular, 40px: 3 uses
+
+## Typography Hierarchy
+- 40px - Castoro Regular, 40px (raw)
+- 26px - Mulish Regular, 26px (raw)
+- 24px - Castoro Regular, 24px (raw)
+- 23px - Lato Regular, 23px (raw)
+- 21px - Feature Caveat (Caveat Bold)
+- 18px - Castoro Regular, 18px (raw)
+- 18px - Lato Light, 18px (raw)
+- 18px - Lato Regular, 18px (raw)
+- 16px - Castoro Regular, 16px (raw)
+- 16px - Lato Light, 16px (raw)
+- 16px - Lato Regular, 16px (raw)
+- 14px - Lato Regular, 14px (raw)
+- 13px - Lato Regular, 13px (raw)
+- 12px - Lato Regular, 12px (raw)
+- 12px - Mulish Regular, 12px (raw)
+- 8px - Mulish Regular, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Feature dot
+
+## Component Specs
+- Feature dot: size 43x43px
+
+## Most-Used Styles
+- Feature Caveat: 11 uses
+
+## Layout & Structure
+Screen: Page 1 / Mobile sidebar menu
+- FRAME "Mobile sidebar menu", 375x378px, constraints left/top, fill #FFFFFF
+  - FRAME "Side bar menu (Mobile)", 375x256px, constraints left/top
+    - RECTANGLE "bg", 375x256px, constraints scale/scale, fill #084C37, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F12]
+    - TEXT "Settings", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Light, 18px]
+    - TEXT "Calendar", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Light, 18px]
+    - TEXT "Classes", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Light, 18px]
+    - TEXT "Home", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Light, 18px]
+    - GROUP "X symbol", 17x17px, constraints left/top, fill #FFFFFF
+      - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+      - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+
+Screen: Page 1 / Mobile Profile Menu
+- FRAME "Mobile Profile Menu", 375x497px, constraints left/top, fill #FFFFFF
+  - FRAME "Profile menu (Mobile)", 375x448px, constraints right/top
+    - RECTANGLE "bg", 375x448px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F12]
+    - TEXT "Log out", 158x20px, constraints scale/scale, fill #000000, text [Lato Light, 18px]
+    - VECTOR "Path 2", 315x1px, constraints scale/scale, fill #D8D8D8, stroke #2A2928 1px, opacity 20%
+    - TEXT "Feedback", 158x20px, constraints scale/scale, fill #000000, text [Lato Light, 18px]
+    - TEXT "Support", 158x20px, constraints scale/scale, fill #000000, text [Lato Light, 18px]
+    - TEXT "Messages", 158x20px, constraints scale/scale, fill #000000, text [Lato Light, 18px]
+    - TEXT "Profile notification", 158x20px, constraints scale/scale, fill #000000, text [Lato Light, 18px]
+    - VECTOR "Path 1", 315x1px, constraints scale/scale, fill #D8D8D8, stroke #2A2928 1px, opacity 20%
+    - TEXT "Subtitle", 158x20px, constraints scale/scale, fill #084C37, text [Lato Regular, 16px]
+    - TEXT "Title", 160x24px, constraints scale/scale, fill #000000, text [Castoro Regular, 18px]
+    - GROUP "Profile picture", 70x70px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Mask", 70x70px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+      - ELLIPSE "Mask", 70x70px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+      - RECTANGLE "Picture", 84x126px, constraints scale/scale, fill image(hash: 23ca862876ac8bd5a04b19960c4cea30308b70a6)
+    - GROUP "X symbol", 17x17px, constraints left/top, fill #FFFFFF
+      - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #2A2928 1px
+      - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #2A2928 1px
+
+Screen: Page 1 / Mobile - Video
+- FRAME "Mobile - Video", 375x1075px, constraints scale/scale
+  - RECTANGLE "bg", 375x1075px, constraints left_right/top_bottom, fill #000000, stroke #979797 0px, opacity 80%
+  - FRAME "Video card (Mobile)", 335x282px, constraints center/center, fill #FFFFFF
+    - RECTANGLE "bg", 335x282px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - FRAME "Empty heart icon (video card)", 31x31px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "Full heart icon", 31x31px, constraints scale/scale, fill #FFFFFF, opacity 1%
+      - GROUP "Full heart icon", 31x31px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 31x31px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+        - VECTOR "Path", 25.83x23.52px, constraints scale/scale, fill #084C37
+        - VECTOR "Path", 22.25x19.61px, constraints scale/scale, fill #084C37
+    - TEXT "Subtitle", 173x24px, constraints scale/center, fill #000000, text [Lato Regular, 12px], opacity 50%
+    - TEXT "Title", 164x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+    - GROUP "Video", 325x202.76px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - GROUP "X symbol", 17x17px, constraints left/top, fill #FFFFFF
+      - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+      - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+
+Screen: Page 1 / Mobile - Dashboard
+- FRAME "Mobile - Dashboard", 375x2495px, constraints scale/scale, fill #F9F9F9
+  - GROUP "Invite a Friend", 335x591px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 12", 335x414px, constraints center/center, radius 5px, fill #FFFFFF, effect [drop_shadow 10px offset 0 4 #0000000D]
+    - FRAME "Invite Form", 304x253px, constraints center/center, fill #FFFFFF
+      - FRAME "Text form (Name) - Desktop", 304x44px, constraints scale/scale
+        - RECTANGLE "Rectangle", 304x44px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #2A2928 1px
+        - TEXT "Name", 273.75x24px, constraints scale/center, fill #000000, text [Lato Light, 16px]
+      - TEXT "Name", 101x24px, constraints scale/center, fill #000000, text [Castoro Regular, 16px]
+      - FRAME "Text form (Email) - Desktop", 304x44px, constraints scale/scale
+        - RECTANGLE "Rectangle", 304x44px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #2A2928 1px
+        - TEXT "Email", 272.24x24px, constraints scale/center, fill #000000, text [Lato Light, 16px]
+      - TEXT "Email address", 159x24px, constraints scale/center, fill #000000, text [Castoro Regular, 16px]
+      - FRAME "CTA", 111x44px, constraints scale/scale
+        - RECTANGLE "CTA bg", 111x44px, constraints scale/scale, radius 5px, fill #1D4835, stroke #2A2928 0px
+        - TEXT "Sign up", 78x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 16px]
+    - TEXT "Start your free trial", 157x34px, constraints center/center, fill #000000, text [Castoro Regular, 24px], [heading]
+    - VECTOR "image", 335x187px, constraints center/center, radius 5px, fill image(hash: e2776736c5ddf4e81fcc1c5b8413ca85e862a487)
+  - FRAME "Weekly Activity tab (Mobile)", 335x250px, constraints center/center
+    - RECTANGLE "bg", 335x250px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - FRAME "Graph parameters 2", 205x15px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Last week", 76.96x14px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+      - RECTANGLE "Rectangle 2", 15x15px, constraints scale/scale, radius 1.45px, fill #2F6FC6, stroke #979797 0px, opacity 40%
+      - TEXT "This week", 56x14px, constraints scale/center, fill #000000, text [Mulish Regular, 12px], opacity 50%
+      - RECTANGLE "Rectangle 1", 15x15px, constraints scale/scale, radius 1.45px, fill #2F6FC6, stroke #979797 0px
+    - GROUP "Graph parameters 1", 305x110.02px, constraints left/top, fill #FFFFFF
+      - GROUP "Graph days", 303.99x24px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "Sat", 25.17x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+        - TEXT "Fri", 25.17x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+        - TEXT "Thu", 25.17x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+        - TEXT "Wed", 33x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+        - TEXT "Tue", 25.17x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+        - TEXT "Mon", 25.17x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+        - TEXT "Sun", 25.17x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+      - GROUP "Graph lines", 305x74.95px, constraints left/top, fill #FFFFFF [decorative, ~12 shapes]
+      - VECTOR "Graph line 2", 302.99x47.31px, constraints scale/scale, stroke #2F6FC6 2px, opacity 40%
+      - VECTOR "Graph line 1", 302.99x52.34px, constraints scale/scale, stroke #2F6FC6 2px
+      - ELLIPSE "Graph point 2", 8x8px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px, opacity 40%
+      - ELLIPSE "Graph point 1", 8x8px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 0px
+      - VECTOR "Graph gradient", 303.99x67.44px, constraints scale/scale, fill gradient_linear(#2F6FC6 0% | #2F6FC600 100%), stroke #2F6FC6 0px, opacity 20%
+    - TEXT "Title", 126x24px, constraints scale/center, fill #000000, text [Lato Regular, 18px]
+  - FRAME "Target tab (Mobile)", 335x329px, constraints center/center
+    - RECTANGLE "bg", 335x329px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - FRAME "Destination 3", 267x74px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Man 3", 34.33x48.89px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - GROUP "Group 25", 218x10px, constraints left/top, radius 7px
+        - RECTANGLE "Progress bar", 218x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px, opacity 20%
+        - RECTANGLE "Progress bar - full", 116x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px
+      - TEXT "Classes", 46x14px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+      - TEXT "2/4", 39x24px, constraints scale/center, fill #000000, text [Mulish Regular, 26px], [heading]
+      - TEXT "Title", 134x24px, constraints scale/center, fill #000000, text [Lato Regular, 18px]
+    - FRAME "Destination 2", 270x74px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Man 2", 34.35x51.29px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - GROUP "Group 24", 219x10px, constraints left/top, radius 7px
+        - RECTANGLE "Progress bar", 218x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px, opacity 20%
+        - RECTANGLE "Progress bar - full", 81x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px
+      - TEXT "km", 19x14px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+      - TEXT "2.5", 38x24px, constraints scale/center, fill #000000, text [Mulish Regular, 26px], [heading]
+      - TEXT "Title", 113x24px, constraints scale/center, fill #000000, text [Lato Regular, 18px]
+    - FRAME "Destination 1", 219x76px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group 23", 219x10px, constraints left/top, radius 7px
+        - RECTANGLE "Progress bar", 184x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px, opacity 20%
+        - RECTANGLE "Progress bar - full", 129x10px, constraints scale/scale, radius 7px, fill #1D4835, stroke #979797 0px
+      - TEXT "Steps", 34x14px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+      - TEXT "1225", 63x24px, constraints scale/center, fill #000000, text [Mulish Regular, 26px], [heading]
+      - TEXT "Title", 94x24px, constraints scale/center, fill #000000, text [Lato Regular, 18px]
+    - GROUP "Man 1", 34.18x53.83px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Recent Classes", 368x377px, constraints center/center, fill #FFFFFF
+    - RECTANGLE "bg", 338x336px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - FRAME "Empty heart icon", 29.15x36px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "Full heart icon", 29.15x29.18px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Full heart icon", 29.15x29.18px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 29.15x29.18px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+        - VECTOR "Path", 24.29x22.14px, constraints scale/scale, fill #084C37
+        - VECTOR "Path", 20.92x18.46px, constraints scale/scale, fill #084C37
+    - TEXT "Subtitle", 207.03x24px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+    - TEXT "Title", 169.39x24px, constraints scale/center, fill #000000, text [Lato Regular, 18px]
+    - FRAME "Class card 9 big", 315x197px, constraints scale/scale, fill #FFFFFF [decorative, ~7 shapes]
+    - TEXT "Classes", 201x24px, constraints center/center, fill #000000, text [Castoro Regular, 16px]
+  - FRAME "My profile tab (Mobile)", 335x430px, constraints center/center
+    - RECTANGLE "bg", 335x430px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - GROUP "Trainers section", 275x153.1px, constraints left/top, fill #FFFFFF
+      - TEXT "Title", 206x24px, constraints scale/top, fill #000000, text [Castoro Regular, 18px]
+      - FRAME "Trainer 3 (Mobile)", 275x38px, constraints scale/top
+        - FRAME "Empty check box", 20x20px, constraints scale/scale
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "Kickboxing", 158x18px, constraints scale/scale, fill #000000, text [Lato Regular, 13px], opacity 40%
+        - TEXT "Jonathan Van Ness", 169x18px, constraints scale/scale, fill #000000, text [Lato Regular, 14px]
+        - FRAME "Avatar 3", 35x35px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Avatar 3", 35x35px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - RECTANGLE "Photo", 59x40px, constraints scale/scale, fill image(hash: d5967f8f11d576e57f4da11ae8c72cc7cf44291b)
+      - FRAME "Trainer 1 (Mobile)", 275x38px, constraints scale/top
+        - FRAME "Empty check box", 20x20px, constraints scale/scale
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - TEXT "Kickboxing", 158x18px, constraints scale/scale, fill #000000, text [Lato Regular, 13px], opacity 40%
+        - TEXT "Jonathan Van Ness", 169x18px, constraints scale/scale, fill #000000, text [Lato Regular, 14px]
+        - FRAME "Avatar 1", 35x35px, constraints scale/scale
+          - GROUP "Avatar 1", 35x35px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - RECTANGLE "Photo", 59x41px, constraints scale/scale, fill image(hash: 40cfa9d3e1c2d01d1ec4acaf8b7c36890632111e)
+    - FRAME "My profile section (Tablet,Mobile)", 131.58x173px, constraints scale/top
+      - FRAME "Weight", 56.65x33.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Path 2", 56.29x0.8px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 0.8px, opacity 20%
+        - TEXT "kg", 11x10px, constraints scale/center, fill #1D4835, text [Lato Regular, 9.75px]
+        - TEXT "55", 26.19x22px, constraints scale/center, fill #1D4835, text [Lato Regular, 18.27px]
+        - VECTOR "Path 1", 56.29x0.8px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 0.8px, opacity 20%
+      - FRAME "Hight", 56.65x33.5px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Path 2", 56.29x0.8px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 0.8px, opacity 20%
+        - TEXT "cm", 13x10px, constraints scale/center, fill #1D4835, text [Lato Regular, 9.65px]
+        - TEXT "165", 33x22px, constraints scale/center, fill #1D4835, text [Lato Regular, 18.49px]
+        - VECTOR "Path 1", 56.29x0.8px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 0.8px, opacity 20%
+      - TEXT "Andrea Baker", 128.65x19px, constraints scale/scale, fill #000000, text [Castoro Regular, 14.01px]
+      - VECTOR "Progress", 96.49x96.49px, constraints scale/scale, stroke #084C37 2.41px
+      - GROUP "Profile picture", 80.41x80.41px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Mask", 80.41x80.41px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+        - ELLIPSE "Mask", 80.41x80.41px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+        - RECTANGLE "Photo", 96.49x144.74px, constraints scale/scale, fill image(hash: 23ca862876ac8bd5a04b19960c4cea30308b70a6)
+    - TEXT "Title", 206x24px, constraints scale/top, fill #000000, text [Castoro Regular, 18px]
+  - FRAME "Welcome tab (Mobile)", 335x233px, constraints center/center
+    - RECTANGLE "bg", 335x196px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - TEXT "Subtitle", 268x84px, constraints scale/center, fill #000000, text [Lato Light, 18px]
+    - TEXT "Title", 197x50px, constraints scale/center, fill #000000, text [Castoro Regular, 40px], [heading]
+    - TEXT "Dashboard", 201x24px, constraints center/center, fill #000000, text [Castoro Regular, 16px]
+  - FRAME "Top bar (Mobile)", 375x64px, constraints left_right/top [decorative, ~10 shapes]
+
+Screen: Page 1 / Tablet  - Side bar menu
+- FRAME "Tablet  - Side bar menu", 768x399px, constraints left/top, fill #FFFFFF
+  - FRAME "Side bar menu (Tablet)", 290x244px, constraints left/top
+    - GROUP "Side bar menu (Tablet)", 290x244px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "bg", 290x244px, constraints scale/scale, radius 5px, fill #084C37, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F12]
+      - TEXT "Settings", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Light, 18px]
+      - TEXT "Calendar", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Light, 18px]
+      - TEXT "Classes", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Light, 18px]
+      - TEXT "Home", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Light, 18px]
+      - GROUP "X symbol", 17x17px, constraints left/top, fill #FFFFFF
+        - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+        - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+
+Screen: Page 1 / Tablet - Profile Menu
+- FRAME "Tablet - Profile Menu", 768x560px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Click out- Overlay", 768x560px, constraints left/top, fill #C4C4C400
+  - FRAME "Profile menu (Tablet)", 290x471px, constraints right/top
+    - RECTANGLE "bg", 290x471px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 30px offset 0 2 #1F1F1F1C]
+    - TEXT "Log out", 158x24px, constraints scale/scale, fill #000000, text [Lato Light, 16px]
+    - VECTOR "Path 2", 230x1px, constraints scale/scale, fill #D8D8D8, stroke #2A2928 1px, opacity 20%
+    - TEXT "Feedback", 158x24px, constraints scale/scale, fill #000000, text [Lato Light, 16px]
+    - TEXT "Support", 158x24px, constraints scale/scale, fill #000000, text [Lato Light, 16px]
+    - TEXT "Messages", 158x24px, constraints scale/scale, fill #000000, text [Lato Light, 16px]
+    - TEXT "Profile notification", 158x24px, constraints scale/scale, fill #000000, text [Lato Light, 16px]
+    - VECTOR "Path 1", 230x1px, constraints scale/scale, fill #D8D8D8, stroke #2A2928 1px, opacity 20%
+    - TEXT "Subtitle", 158x24px, constraints scale/scale, fill #084C37, text [Lato Regular, 16px]
+    - TEXT "Title", 160x26px, constraints scale/scale, fill #000000, text [Castoro Regular, 18px]
+    - GROUP "Menu - profile picture", 80x80px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Mask", 80x80px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+      - ELLIPSE "Mask", 80x80px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+      - RECTANGLE "Photo", 96x144px, constraints scale/scale, fill image(hash: 23ca862876ac8bd5a04b19960c4cea30308b70a6)
+
+Screen: Page 1 / Tablet 768 - Video
+- FRAME "Tablet 768 - Video", 768x1299px, constraints scale/scale
+  - FRAME "Top bar (Tablet)", 768x64px, constraints left_right/top
+  - RECTANGLE "bg", 768x1299px, constraints left_right/top_bottom, fill #000000, stroke #979797 0px, opacity 80%
+  - FRAME "Video card (Tablet)", 546x414px, constraints center/center
+    - FRAME "Video card", 546x414px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "bg", 546x414px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px
+      - FRAME "Empty heart icon (video card)", 31x31px, constraints scale/scale [decorative, ~4 shapes]
+      - FRAME "Full heart icon", 31x31px, constraints scale/scale, fill #FFFFFF, opacity 1%
+        - GROUP "Full heart icon", 31x31px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle", 31x31px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+          - VECTOR "Path", 25.83x23.52px, constraints scale/scale, fill #084C37
+          - VECTOR "Path", 22.25x19.61px, constraints scale/scale, fill #084C37
+      - TEXT "Subtitle", 163x24px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+      - TEXT "Title", 98x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+      - RECTANGLE "Video", 536x334.62px, constraints scale/scale, fill image(hash: 2379e1f7736b78c99acc9495f4a81aee324216d3), stroke #979797 0px
+      - RECTANGLE "Rectangle", 546x346px, constraints scale/scale, radius 9px, fill #D8D8D8, stroke #FFFFFF 5px
+      - GROUP "X symbol", 17x17px, constraints left/top, fill #FFFFFF
+        - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+        - VECTOR "Path", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+
+Screen: Page 1 / Tablet - Dashboard
+- FRAME "Tablet - Dashboard", 768x2470px, constraints scale/scale, fill #F9F9F9
+  - GROUP "Invite a friend", 708x365px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Background", 708x365px, constraints center/center, radius 10px, fill #FFFFFF, effect [drop_shadow 10px offset 0 8 #0000000D]
+    - GROUP "Illustration", 356x187.87px, constraints left/top, radius 10px
+      - RECTANGLE "image", 356x187.87px, constraints center/center, radius 10px, fill image(hash: e2776736c5ddf4e81fcc1c5b8413ca85e862a487)
+    - FRAME "Invite Form", 304x253px, constraints center/center, fill #FFFFFF
+      - FRAME "Text form (Name) - Desktop", 304x44px, constraints scale/scale
+        - RECTANGLE "Rectangle", 304x44px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #2A2928 1px
+        - TEXT "Name", 273.75x24px, constraints scale/center, fill #000000, text [Lato Light, 16px]
+      - TEXT "Name", 101x24px, constraints scale/center, fill #000000, text [Castoro Regular, 16px]
+      - FRAME "Text form (Email) - Desktop", 304x44px, constraints scale/scale
+        - RECTANGLE "Rectangle", 304x44px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #2A2928 1px
+        - TEXT "Email", 272.24x24px, constraints scale/center, fill #000000, text [Lato Light, 16px]
+      - TEXT "Email address", 159x24px, constraints scale/center, fill #000000, text [Castoro Regular, 16px]
+      - FRAME "CTA", 111x44px, constraints scale/scale
+        - RECTANGLE "CTA bg", 111x44px, constraints scale/scale, radius 5px, fill #1D4835, stroke #2A2928 0px
+        - TEXT "Sign up", 78x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 16px]
+    - TEXT "Start your free trial", 157x34px, constraints center/center, fill #000000, text [Castoro Regular, 24px], [heading]
+  - FRAME "Weekly Activity tab (Tablet)", 501x268px, constraints center/center
+    - RECTANGLE "bg", 501x268px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - FRAME "Frame 1", 501x255px, constraints left/top
+      - FRAME "Graph parameters 2", 128.8x16px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Last week", 50.19x15px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+        - RECTANGLE "Rectangle 2", 8.52x9px, constraints scale/scale, radius 1px, fill #2F6FC6, stroke #979797 0px, opacity 40%
+        - TEXT "This week", 35.99x32px, constraints scale/center, fill #000000, text [Mulish Regular, 8px], opacity 50%
+        - RECTANGLE "Rectangle 1", 8.52x9px, constraints scale/scale, radius 1px, fill #2F6FC6, stroke #979797 0px
+      - GROUP "Graph parameters 1", 461.22x149.19px, constraints left/top, fill #FFFFFF
+        - GROUP "Graph km", 31.11x112px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - TEXT "20km", 31x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+          - TEXT "15km", 31x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+          - TEXT "10km", 28x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+          - TEXT "5km", 19.89x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+          - TEXT "0km", 19.89x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+        - GROUP "Graph days", 421.45x24px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - TEXT "Sat", 35.04x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Fri", 35.04x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Thu", 35.04x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Wed", 35.04x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Tue", 35.04x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Mon", 35.04x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Sun", 35.04x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+        - GROUP "Graph lines", 422.39x110.19px, constraints left/top, fill #FFFFFF [decorative, ~12 shapes]
+        - VECTOR "Graph gradient", 421.45x99px, constraints scale/scale, fill gradient_linear(#2F6FC6 0% | #2F6FC600 100%), stroke #2F6FC6 0px, opacity 20%
+        - VECTOR "Graph line 2", 419.55x69px, constraints scale/scale, stroke #2F6FC6 2px, opacity 40%
+        - VECTOR "Graph line 1", 419.55x76px, constraints scale/scale, stroke #2F6FC6 2px
+        - ELLIPSE "Graph point 2", 5.68x6px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px, opacity 40%
+        - ELLIPSE "Graph point 1", 5.68x6px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 0px
+      - TEXT "Title", 138x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+      - FRAME "Bubble 1", 46x96.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 1", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 33x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy 5", 2.72x49.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 1", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Bubble 2", 46x70.01px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 2", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 26x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy 4", 2.32x22.03px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 2", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Bubble 3", 46x93.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 3", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 33x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy 3", 2.72x49.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 3", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Bubble 4", 46x119.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 4", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 33x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy 2", 3.05x71.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 4", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Bubble 5", 46x145.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 5", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 33x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy", 3.43x97.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 5", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Group 6", 46x94.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 6", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 26x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6", 2.72x49.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 6", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+  - FRAME "Target tab (Tablet)", 708x170px, constraints center/center
+    - RECTANGLE "bg", 708x165px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - FRAME "Destination 3", 175x125px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Man 3", 28.61x40.74px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - GROUP "Group 22", 175x10px, constraints left/top, radius 7px
+        - RECTANGLE "Progress bar", 175x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px, opacity 20%
+        - RECTANGLE "Progress bar - full", 93x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px
+      - TEXT "Classes", 46x14px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+      - TEXT "2/4", 39x24px, constraints scale/center, fill #000000, text [Mulish Regular, 26px], [heading]
+      - TEXT "Title", 119x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Destination 2", 176x125px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Man 2", 28.62x42.74px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - GROUP "Group 21", 175x10px, constraints left/top, radius 7px
+        - RECTANGLE "Progress bar", 175x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px, opacity 20%
+        - RECTANGLE "Progress bar - full", 100x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px
+      - TEXT "km", 19x14px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+      - TEXT "2.5", 38x24px, constraints scale/center, fill #000000, text [Mulish Regular, 26px], [heading]
+      - TEXT "Title", 100x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Destination 1", 175x125px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Man 1", 25.84x40.69px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - GROUP "Group 20", 175x10px, constraints left/top, radius 7px
+        - RECTANGLE "Progress bar", 175x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px, opacity 20%
+        - RECTANGLE "Progress bar - full", 134x10px, constraints scale/scale, radius 7px, fill #1D4835, stroke #979797 0px
+      - TEXT "Steps", 34x14px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+      - TEXT "1225", 63x24px, constraints scale/center, fill #000000, text [Mulish Regular, 26px], [heading]
+      - TEXT "Title", 83x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+  - FRAME "Trainers tab (Tablet)", 296x357px, constraints center/center
+    - GROUP "Trainers card (Tablet)", 296x357px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "bg", 296x357px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+      - FRAME "Trainer 5 (Tablet)", 236x39px, constraints scale/scale
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+        - TEXT "Kickboxing", 158x18px, constraints scale/scale, fill #000000, text [Lato Regular, 13px], opacity 40%
+        - TEXT "Jonathan Van Ness", 169x18px, constraints scale/scale, fill #000000, text [Lato Regular, 14px]
+        - FRAME "Avatar 5", 35x35px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Avatar 5", 35x35px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px, opacity 50%
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - RECTANGLE "Photo", 87x58px, constraints scale/scale, fill image(hash: 76b2a20dbecb742e31ea169fd5df6ed09aecda8b)
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+          - GROUP "Full checkbox", 20x20px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #1D4835, stroke #1D4835 1px
+            - VECTOR "Path", 8.35x6px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+      - FRAME "Trainer 4 (Tablet)", 236x39px, constraints scale/scale
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+        - TEXT "Kickboxing", 158x18px, constraints scale/scale, fill #000000, text [Lato Regular, 13px], opacity 40%
+        - TEXT "Jonathan Van Ness", 169x18px, constraints scale/scale, fill #000000, text [Lato Regular, 14px]
+        - FRAME "Avatar 4", 35x35px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Avatar 4", 35x35px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - RECTANGLE "Photo", 59x39px, constraints scale/scale, fill image(hash: 249341e3e7c69ab1859f98536f98bd461b3f644d)
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+          - GROUP "Full checkbox", 20x20px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #1D4835, stroke #1D4835 1px
+            - VECTOR "Path", 8.35x6px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+      - FRAME "Trainer 3 (Tablet)", 236x39px, constraints scale/scale
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+        - TEXT "Kickboxing", 158x18px, constraints scale/scale, fill #000000, text [Lato Regular, 13px], opacity 40%
+        - TEXT "Jonathan Van Ness", 169x18px, constraints scale/scale, fill #000000, text [Lato Regular, 14px]
+        - FRAME "Avatar 3", 35x35px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Avatar 3", 35x35px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - RECTANGLE "Photo", 59x40px, constraints scale/scale, fill image(hash: d5967f8f11d576e57f4da11ae8c72cc7cf44291b)
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+          - GROUP "Full checkbox", 20x20px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #1D4835, stroke #1D4835 1px
+            - VECTOR "Path", 8.35x6px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+      - FRAME "Trainer 2 (Tablet)", 236x39px, constraints scale/scale
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+        - TEXT "Kickboxing", 158x18px, constraints scale/scale, fill #000000, text [Lato Regular, 13px], opacity 40%
+        - TEXT "Jonathan Van Ness", 169x18px, constraints scale/scale, fill #000000, text [Lato Regular, 14px]
+        - FRAME "Avatar 2", 35x35px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Avatar 2", 35x35px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - RECTANGLE "Photo", 95x63px, constraints scale/scale, fill image(hash: 228db37919e9ee7cbd95fba329265696cc5a6ee1)
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+          - GROUP "Full checkbox", 20x20px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #1D4835, stroke #1D4835 1px
+            - VECTOR "Path", 8.35x6px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+      - FRAME "Trainer 1 (Tablet)", 236x39px, constraints scale/scale
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+        - TEXT "Kickboxing", 158x18px, constraints scale/scale, fill #000000, text [Lato Regular, 13px], opacity 40%
+        - TEXT "Jonathan Van Ness", 169x18px, constraints scale/scale, fill #000000, text [Lato Regular, 14px]
+        - FRAME "Avatar 1", 35x35px, constraints scale/scale
+          - GROUP "Avatar 1", 35x35px, constraints left/top, fill #FFFFFF
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - ELLIPSE "Mask", 35x35px, constraints scale/scale, fill #979797, stroke #979797 0px
+            - RECTANGLE "Photo", 59x41px, constraints scale/scale, fill image(hash: 40cfa9d3e1c2d01d1ec4acaf8b7c36890632111e)
+        - FRAME "Empty checkbox", 20x20px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+          - GROUP "Full checkbox", 20x20px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 20x20px, constraints scale/scale, radius 5px, fill #1D4835, stroke #1D4835 1px
+            - VECTOR "Path", 8.35x6px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+      - GROUP "Search icon", 14.62x14.62px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Oval", 14.62x14.62px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px
+        - VECTOR "Path", 3.65x3.78px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px
+      - TEXT "Title", 206x24px, constraints scale/scale, fill #000000, text [Castoro Regular, 16px]
+  - FRAME "My profile tab (Tablet)", 382x357px, constraints center/center
+    - RECTANGLE "bg", 382x357px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - FRAME "My profile section (Tablet)", 165x225px, constraints scale/scale
+      - GROUP "Hight & Weight", 165x41px, constraints left/top, fill #FFFFFF
+        - FRAME "Weight", 70x41px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Path 2", 70x1px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+          - TEXT "kg", 13x12px, constraints scale/center, fill #1D4835, text [Lato Regular, 12px]
+          - TEXT "55", 27x27px, constraints scale/center, fill #1D4835, text [Lato Regular, 23px]
+          - VECTOR "Path 1", 70x1px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+        - FRAME "Hight", 70x41px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Path 2", 70x1px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+          - TEXT "cm", 16x12px, constraints scale/center, fill #1D4835, text [Lato Regular, 12px]
+          - TEXT "165", 41x27px, constraints scale/center, fill #1D4835, text [Lato Regular, 23px]
+          - VECTOR "Path 1", 70x1px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+      - TEXT "Title", 160x24px, constraints scale/scale, fill #000000, text [Castoro Regular, 18px]
+      - VECTOR "Progress", 120x120px, constraints scale/scale, stroke #084C37 3px
+      - GROUP "Profile picture", 100x100px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Mask", 100x100px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+        - ELLIPSE "Mask", 100x100px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+        - RECTANGLE "Photo", 120x180px, constraints scale/scale, fill image(hash: 23ca862876ac8bd5a04b19960c4cea30308b70a6)
+    - TEXT "Title", 206x24px, constraints scale/scale, fill #000000, text [Castoro Regular, 16px]
+  - FRAME "Weight update tab (Tablet)", 207x268px, constraints center/center
+    - RECTANGLE "bg", 207x268px, constraints scale/scale, radius 4.45px, fill #DCAFBB, stroke #979797 0px, effect [drop_shadow 9px offset 0 6 #1F1F1F0A]
+    - RECTANGLE "GIF", 182x182px, constraints scale/scale, fill image(hash: b291ba7eb86810a22d21850645ff9d07ecdf5c9e), stroke #979797 0px
+    - TEXT "Title", 104x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+  - FRAME "Welcome tab (Tablet)", 708x256px, constraints center/center
+    - GROUP "Illustration", 708x256px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Mask", 708x256px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+      - RECTANGLE "Mask", 708x256px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+      - RECTANGLE "Illustration", 399x256px, constraints scale/scale, fill image(hash: ae702efce33d36304c6a723a7e5f18dded3ed174)
+    - TEXT "Subtitle", 298x84px, constraints scale/center, fill #000000, text [Lato Light, 18px]
+    - TEXT "Title", 197x50px, constraints scale/center, fill #000000, text [Castoro Regular, 40px], [heading]
+    - TEXT "Dashboard", 201x24px, constraints center/center, fill #000000, text [Castoro Regular, 16px]
+  - FRAME "Top bar (Tablet)", 768x64px, constraints left_right/top [decorative, ~10 shapes]
+  - FRAME "Recent Classes", 708x667px, constraints center/center, fill #FFFFFF
+    - RECTANGLE "bg", 708x667px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - FRAME "Class card 4 big", 322x272px, constraints center/center
+      - FRAME "Class card", 342x292px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 322x271.06px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 4 #0000000D]
+        - FRAME "Empty heart icon", 29.8x29.8px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "Subtitle", 197x24px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+        - TEXT "Title", 226x24px, constraints scale/center, fill #000000, text [Lato Regular, 18px]
+        - FRAME "Class card 3 big", 322x200.89px, constraints scale/scale, fill #FFFFFF [decorative, ~7 shapes]
+        - FRAME "Full heart icon", 29.8x29.8px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Full heart icon", 29.8x29.8px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle", 29.8x29.8px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+            - VECTOR "Path", 24.83x22.61px, constraints scale/scale, fill #084C37
+            - VECTOR "Path", 21.38x18.85px, constraints scale/scale, fill #084C37
+      - FRAME "Select class hover", 322x201px, constraints scale/scale, fill #FFFFFF, opacity 1%
+        - BOOLEAN_OPERATION "Combined Shape", 322x200.89px, constraints scale/scale, fill #000000, stroke #979797 0px, opacity 80%
+        - TEXT "Select class", 151.87x19.22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 16px]
+        - GROUP "Menu", 19.22x3.84px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Oval", 3.84x3.84px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval Copy", 3.84x3.84px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval Copy 2", 3.84x3.84px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+    - FRAME "Class card 6 big", 322x272px, constraints center/center
+      - FRAME "Class card", 342x292px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 322x271.06px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 4 #0000000D]
+        - FRAME "Empty heart icon", 29.8x29.8px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "Subtitle", 192x24px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+        - TEXT "Title", 230x24px, constraints scale/center, fill #000000, text [Lato Regular, 18px]
+        - FRAME "Class card 6 big", 322x200.89px, constraints scale/scale, fill #FFFFFF [decorative, ~7 shapes]
+        - FRAME "Full heart icon", 29.8x29.8px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Full heart icon", 29.8x29.8px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle", 29.8x29.8px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+            - VECTOR "Path", 24.83x22.61px, constraints scale/scale, fill #084C37
+            - VECTOR "Path", 21.38x18.85px, constraints scale/scale, fill #084C37
+      - FRAME "Select class hover", 322x200.89px, constraints scale/scale, fill #FFFFFF, opacity 1%
+        - BOOLEAN_OPERATION "Combined Shape", 322x200.89px, constraints scale/scale, fill #000000, stroke #979797 0px, opacity 80%
+        - TEXT "Select class", 151.87x19.22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 16px]
+        - GROUP "Menu", 19.22x3.84px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Oval", 3.84x3.84px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval Copy", 3.84x3.84px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval Copy 2", 3.84x3.84px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+    - FRAME "Class card 5 big", 322x272px, constraints center/center
+      - FRAME "Class card", 342x292px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 322x271.06px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 4 #0000000D]
+        - FRAME "Empty heart icon", 29.8x29.8px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "Subtitle", 190x24px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+        - TEXT "Title", 208x24px, constraints scale/center, fill #000000, text [Lato Regular, 18px]
+        - FRAME "Class card 4 big", 322x200.89px, constraints scale/scale, fill #FFFFFF [decorative, ~11 shapes]
+        - FRAME "Full heart icon", 29.8x29.8px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Full heart icon", 29.8x29.8px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle", 29.8x29.8px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+            - VECTOR "Path", 24.83x22.61px, constraints scale/scale, fill #084C37
+            - VECTOR "Path", 21.38x18.85px, constraints scale/scale, fill #084C37
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Page 1 / Desktop - Profile Menu
+- FRAME "Desktop - Profile Menu", 1280x874px, constraints left/top, fill #FFFFFF
+  - GROUP "Profile menu", 290x471px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "bg", 290x471px, constraints right/top, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 16px offset 0 3 #1F1F1F21]
+    - TEXT "Log out", 158x24px, constraints right/top, fill #000000, text [Lato Light, 16px]
+    - VECTOR "Path 2", 230x1px, constraints right/top, fill #D8D8D8, stroke #2A2928 1px, opacity 20%
+    - TEXT "Feedback", 158x24px, constraints right/top, fill #000000, text [Lato Light, 16px]
+    - TEXT "Support", 158x24px, constraints right/top, fill #000000, text [Lato Light, 16px]
+    - TEXT "Messages", 158x24px, constraints right/top, fill #000000, text [Lato Light, 16px]
+    - TEXT "Profile notification", 158x24px, constraints right/top, fill #000000, text [Lato Light, 16px]
+    - VECTOR "Subtitle", 230x1px, constraints right/top, fill #D8D8D8, stroke #2A2928 1px, opacity 20%
+    - TEXT "Title", 158x24px, constraints right/top, fill #084C37, text [Lato Regular, 16px]
+    - TEXT "Andrea Baker", 160x26px, constraints right/top, fill #000000, text [Castoro Regular, 18px]
+    - GROUP "Menu - profile picture", 80x80px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Mask", 80x80px, constraints right/top, fill #D8D8D8, stroke #979797 0px
+      - ELLIPSE "Mask", 80x80px, constraints right/top, fill #D8D8D8, stroke #979797 0px
+      - RECTANGLE "Photo", 96x144px, constraints right/top, fill image(hash: 23ca862876ac8bd5a04b19960c4cea30308b70a6)
+
+Screen: Page 1 / Desktop - Video
+- FRAME "Desktop - Video", 1280x914px, constraints scale/scale
+  - VECTOR "bg", 1280x914px, constraints left_right/top_bottom, fill #000000, stroke #979797 0px, opacity 80%
+  - FRAME "Video card (Desktop)", 546x414px, constraints center/center
+    - RECTANGLE "bg", 546x414px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px
+    - FRAME "Empty heart icon (Video card)", 31x31px, constraints scale/scale [decorative, ~4 shapes]
+    - FRAME "Full heart icon", 31x31px, constraints scale/scale, fill #FFFFFF, opacity 1%
+      - GROUP "Full heart icon", 31x31px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 31x31px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+        - VECTOR "Path", 25.83x23.52px, constraints scale/scale, fill #084C37
+        - VECTOR "Path", 22.25x19.61px, constraints scale/scale, fill #084C37
+    - TEXT "Subtitle", 163x24px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+    - TEXT "Title", 98x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+    - RECTANGLE "Video", 536x334.62px, constraints scale/scale, fill image(hash: 15149cdece2a99793b1344f28b6b71e8b1096fda), stroke #979797 0px
+    - GROUP "X symbol", 17x17px, constraints left/top, fill #FFFFFF
+      - VECTOR "Path 5", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+      - VECTOR "Path 5", 17x17px, constraints scale/scale, fill #D8D8D8, stroke #FFFFFF 1px
+
+Screen: Page 1 / Desktop - Dashboard
+- FRAME "Desktop - Dashboard", 1280x2005px, constraints scale/scale, fill #F9F9F9
+  - GROUP "Invite a friend", 1120x384px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Background", 1120x384px, constraints center/center, radius 5px, fill #FFFFFF, effect [drop_shadow 10px offset 0 5 #0000000D]
+    - FRAME "Invite Form", 447x253px, constraints center/center, fill #FFFFFF
+      - FRAME "Text form (Name) - Desktop", 447x44px, constraints scale/scale
+        - RECTANGLE "Rectangle", 447x44px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #2A2928 1px
+        - TEXT "Name", 402.52x24px, constraints scale/center, fill #000000, text [Lato Light, 16px]
+      - TEXT "Name", 101x24px, constraints scale/center, fill #000000, text [Castoro Regular, 16px]
+      - FRAME "Text form (Email) - Desktop", 447x44px, constraints scale/scale
+        - RECTANGLE "Rectangle", 447x44px, constraints scale/scale, radius 5px, fill #D8D8D8, stroke #2A2928 1px
+        - TEXT "Email", 400.3x24px, constraints scale/center, fill #000000, text [Lato Light, 16px]
+      - TEXT "Email address", 159x24px, constraints scale/center, fill #000000, text [Castoro Regular, 16px]
+      - FRAME "CTA", 111x44px, constraints scale/scale
+        - RECTANGLE "CTA bg", 111x44px, constraints scale/scale, radius 5px, fill #1D4835, stroke #2A2928 0px
+        - TEXT "Sign up", 78x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 16px]
+    - TEXT "Start your free trial", 157x34px, constraints center/center, fill #000000, text [Castoro Regular, 24px], [heading]
+  - FRAME "Recent Classes", 1120x538px, constraints center/center, fill #FFFFFF
+    - RECTANGLE "bg", 1120x538px, constraints center/center, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - FRAME "Class card 3", 253x217px, constraints center/center
+      - FRAME "Class card", 273x237px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 253x217px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 4 #0000000D]
+        - FRAME "Empty heart icon", 31x31px, constraints scale/scale [decorative, ~4 shapes]
+        - FRAME "Full heart icon", 31x31px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Full heart icon", 31x31px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle", 31x31px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+            - VECTOR "Path", 25.83x23.52px, constraints scale/scale, fill #084C37
+            - VECTOR "Path", 22.25x19.61px, constraints scale/scale, fill #084C37
+        - TEXT "Subtitle", 142x24px, constraints scale/center, fill #000000, text [Lato Regular, 12px], opacity 50%
+        - TEXT "Title", 86x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+        - FRAME "Class picture 2", 253x144px, constraints scale/scale, fill #FFFFFF [decorative, ~7 shapes]
+      - FRAME "Select class hover", 258x144px, constraints left/top, fill #FFFFFF, opacity 1%
+        - BOOLEAN_OPERATION "Hover bg", 258x144px, constraints scale/scale, fill #000000, stroke #979797 0px, opacity 80%
+        - TEXT "Select class", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 16px]
+        - GROUP "Menu", 20x4px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Oval 3", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval 2", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval 1", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+    - FRAME "Class card 2", 248x217px, constraints center/center
+      - FRAME "Class card", 268x237px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 248x217px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 4 #0000000D]
+        - FRAME "Empty heart icon", 31x31px, constraints scale/scale [decorative, ~4 shapes]
+        - FRAME "Full heart icon", 31x31px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Full heart icon", 32.25x31px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle", 32.25x31px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+            - VECTOR "Path", 26.88x23.52px, constraints scale/scale, fill #084C37
+            - VECTOR "Path", 23.14x19.61px, constraints scale/scale, fill #084C37
+        - TEXT "Subtitle", 139x24px, constraints scale/center, fill #000000, text [Lato Regular, 12px], opacity 50%
+        - TEXT "Title", 121x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+        - FRAME "Class picture", 248x144px, constraints scale/scale [decorative, ~7 shapes]
+      - FRAME "Select class hover", 248x144px, constraints left/top, fill #FFFFFF, opacity 1%
+        - BOOLEAN_OPERATION "Hover bg", 248x144px, constraints scale/scale, fill #000000, stroke #979797 0px, opacity 80%
+        - TEXT "Select class", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 16px]
+        - GROUP "Menu", 20x4px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Oval 3", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval 2", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval 1", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+    - FRAME "Class Card 7", 248x217px, constraints center/center, fill #FFFFFF
+      - FRAME "Class card", 268x237px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 248x217px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 4 #0000000D]
+        - FRAME "Empty heart icon", 31x31px, constraints scale/scale [decorative, ~4 shapes]
+        - FRAME "Full heart icon", 31x31px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Full heart icon", 31x31px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle", 31x31px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+            - VECTOR "Path", 25.83x23.52px, constraints scale/scale, fill #084C37
+            - VECTOR "Path", 22.25x19.61px, constraints scale/scale, fill #084C37
+        - TEXT "Subtitle", 166x24px, constraints scale/center, fill #000000, text [Lato Regular, 12px], opacity 50%
+        - TEXT "Title", 166x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+        - FRAME "Class picture 6", 248x144px, constraints scale/scale, fill #FFFFFF [decorative, ~7 shapes]
+      - FRAME "Select class hover", 248x144px, constraints left/top, fill #FFFFFF, opacity 1%
+        - BOOLEAN_OPERATION "Hover bg", 248x144px, constraints scale/scale, fill #000000, stroke #979797 0px, opacity 80%
+        - TEXT "Select class", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 16px]
+        - GROUP "Menu", 20x4px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Oval 3", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval 2", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval 1", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+    - FRAME "Class card 5", 248x217px, constraints center/center
+      - FRAME "Class card", 268x237px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 248x217px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 4 #0000000D]
+        - FRAME "Empty heart icon", 31x31px, constraints scale/scale [decorative, ~4 shapes]
+        - FRAME "Full heart icon", 31x31px, constraints scale/scale, fill #FFFFFF, opacity 1%
+          - GROUP "Full heart icon", 32.25x31px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "Rectangle", 32.25x31px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+            - VECTOR "Path", 26.88x23.52px, constraints scale/scale, fill #084C37
+            - VECTOR "Path", 23.14x19.61px, constraints scale/scale, fill #084C37
+        - TEXT "Subtitle", 163x24px, constraints scale/center, fill #000000, text [Lato Regular, 12px], opacity 50%
+        - TEXT "Title", 163x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+        - FRAME "Class picture 4", 248x144px, constraints scale/scale, fill #FFFFFF [decorative, ~8 shapes]
+      - FRAME "Select class hover", 248x144px, constraints left/top, fill #FFFFFF, opacity 1%
+        - BOOLEAN_OPERATION "Hover bg", 248x144px, constraints scale/scale, fill #000000, stroke #979797 0px, opacity 80%
+        - TEXT "Select class", 158x20px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 16px]
+        - GROUP "Menu", 20x4px, constraints scale/scale, fill #FFFFFF
+          - ELLIPSE "Oval 3", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval 2", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+          - ELLIPSE "Oval 1", 4x4px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+    - FRAME "Video card (Desktop)", 534x475px, constraints center/center, radius 10px, fill #FFFFFF
+      - VECTOR "bg", 514x455px, constraints scale/scale, radius 10px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #0000000D]
+      - FRAME "Empty heart icon (Video card)", 31x31px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "Subtitle", 170x24px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+      - TEXT "Title", 98x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+      - FRAME "Full heart icon", 31x31px, constraints scale/scale, fill #FFFFFF, opacity 1%
+        - GROUP "Full heart icon", 31x31px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle", 31x31px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+          - VECTOR "Path", 25.83x23.52px, constraints scale/scale, fill #084C37
+          - VECTOR "Path", 22.25x19.61px, constraints scale/scale, fill #084C37
+      - RECTANGLE "Video", 504x381px, constraints scale/scale, radius 10/10/0/0px, fill image(hash: 15149cdece2a99793b1344f28b6b71e8b1096fda), stroke #979797 0px
+    - FRAME "Frame 6", 55x44px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Feature dot", 43x43px, constraints left/top
+        - ELLIPSE "Ellipse 2", 43x43px, constraints scale/scale, fill #FFC2C2
+        - ELLIPSE "Ellipse 1", 11x11px, constraints scale/scale, fill #FF5656
+      - TEXT "<3", 59.78x21.6px, constraints left/top, fill #FF5656, text [Feature Caveat], opacity 0%
+    - TEXT "More Classes", 111x24px, constraints center/center, fill #000000, text [Castoro Regular, 16px]
+    - TEXT "Recent Classes", 201x24px, constraints center/center, fill #000000, text [Castoro Regular, 16px]
+    - FRAME "Frame 5", 201.93x44px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Feature dot", 43x43px, constraints left/top
+        - ELLIPSE "Ellipse 2", 43x43px, constraints scale/scale, fill #FFC2C2
+        - ELLIPSE "Ellipse 1", 11x11px, constraints scale/scale, fill #FF5656
+      - TEXT "Autoplaying videos", 172.12x22.72px, constraints left/top, fill #FF5656, text [Feature Caveat], opacity 0%
+    - FRAME "Frame 6", 232.95x44px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Feature dot", 43x43px, constraints left/top
+        - ELLIPSE "Ellipse 2", 43x43px, constraints scale/scale, fill #FFC2C2
+        - ELLIPSE "Ellipse 1", 11x11px, constraints scale/scale, fill #FF5656
+      - TEXT "Click for fullscreen overlay", 232.95x23.33px, constraints left/top, fill #FF5656, text [Feature Caveat], opacity 0%
+  - FRAME "Frame 6", 169.74x44px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Feature dot", 43x43px, constraints left/top
+      - ELLIPSE "Ellipse 2", 43x43px, constraints scale/scale, fill #FFC2C2
+      - ELLIPSE "Ellipse 1", 11x11px, constraints scale/scale, fill #FF5656
+    - TEXT "Real live text field", 169.74x22.7px, constraints left/top, fill #FF5656, text [Feature Caveat], opacity 0%
+  - FRAME "My profile tab (Desktop)", 276x475px, constraints center/center
+    - GROUP "My profile card (Desktop)", 276x475px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "bg", 276x475px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+      - GROUP "Recommended trainers", 236.47x143px, constraints left/top, fill #FFFFFF
+        - FRAME "Trainer 2 (Desktop)", 236x40px, constraints scale/scale
+          - FRAME "Empty checkbox", 20x20px, constraints scale/scale
+            - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+          - TEXT "Kickboxing", 158x18px, constraints scale/scale, fill #000000, text [Lato Regular, 13px], opacity 40%
+          - TEXT "Jonathan Van Ness", 169x18px, constraints scale/scale, fill #000000, text [Lato Regular, 14px]
+          - FRAME "Avatar 2", 35x35px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Avatar 2", 35x35px, constraints left/top, fill #FFFFFF
+          - FRAME "Empty checkbox", 20x20px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - GROUP "Full checkbox", 20x20px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - FRAME "Trainer 1 (Desktop)", 236x40px, constraints scale/scale
+          - FRAME "Empty checkbox", 20x20px, constraints scale/scale
+            - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+          - TEXT "Kickboxing", 158x18px, constraints scale/scale, fill #000000, text [Lato Regular, 13px], opacity 40%
+          - TEXT "Jonathan Van Ness", 169x18px, constraints scale/scale, fill #000000, text [Lato Regular, 14px]
+          - FRAME "Avatar 1", 35x35px, constraints scale/scale
+            - GROUP "Avatar 1", 35x35px, constraints left/top, fill #FFFFFF
+          - FRAME "Empty checkbox", 20x20px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Empty checkbox", 20x20px, constraints left/top, radius 5px, fill #FFFFFF
+            - GROUP "Full checkbox", 20x20px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "Search icon", 14.65x14.65px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Oval", 14.65x14.65px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px
+          - VECTOR "Path", 3.44x3.58px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px
+        - TEXT "Recommended trainers", 180.76x24px, constraints scale/scale, fill #000000, text [Castoro Regular, 16px]
+      - FRAME "My profile", 165x225px, constraints scale/scale
+        - GROUP "Hight & Weight", 165x41px, constraints left/top, fill #FFFFFF
+          - FRAME "Weight", 70x41px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Path 2", 70x1px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+            - TEXT "kg", 13x12px, constraints scale/center, fill #1D4835, text [Lato Regular, 12px]
+            - TEXT "55", 27x27px, constraints scale/center, fill #1D4835, text [Lato Regular, 23px]
+            - VECTOR "Path 1", 70x1px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+          - FRAME "Hight", 70x41px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Path 2", 70x1px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+            - TEXT "cm", 16x12px, constraints scale/center, fill #1D4835, text [Lato Regular, 12px]
+            - TEXT "165", 41x27px, constraints scale/center, fill #1D4835, text [Lato Regular, 23px]
+            - VECTOR "Path 1", 70x1px, constraints scale/scale, fill #D8D8D8, stroke #1D4835 1px, opacity 20%
+        - TEXT "Title", 160x24px, constraints scale/scale, fill #000000, text [Castoro Regular, 18px]
+        - GROUP "Profile picture", 120x120px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - TEXT "Title", 206x24px, constraints scale/scale, fill #000000, text [Castoro Regular, 16px]
+  - FRAME "Weight update tab", 245x255px, constraints center/center
+    - RECTANGLE "bg", 245x255px, constraints scale/scale, radius 5px, fill #DCAFBB, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - RECTANGLE "GIF", 182x182px, constraints scale/scale, fill image(hash: 8dcb43d2bafbaf59a5886fe4f88120bfd17a3e89), stroke #979797 0px
+    - TEXT "Title", 104x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+  - FRAME "Weekly Activity tab (Desktop)", 529x255px, constraints center/center
+    - FRAME "Frame 1", 529x255px, constraints left/top
+      - RECTANGLE "bg", 532x255px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+      - FRAME "Graph parameters 2", 136x16px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Last week", 53x15px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+        - RECTANGLE "Rectangle 2", 9x9px, constraints scale/scale, radius 1px, fill #2F6FC6, stroke #979797 0px, opacity 40%
+        - TEXT "This week", 38x16px, constraints scale/center, fill #000000, text [Mulish Regular, 8px], opacity 50%
+        - RECTANGLE "Rectangle 1", 9x9px, constraints scale/scale, radius 1px, fill #2F6FC6, stroke #979797 0px
+      - GROUP "Graph parameters 1", 487x149.19px, constraints left/top, fill #FFFFFF
+        - GROUP "Graph km", 21x112px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - TEXT "20km", 21x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+          - TEXT "15km", 21x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+          - TEXT "10km", 21x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+          - TEXT "5km", 21x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+          - TEXT "0km", 21x16px, constraints scale/scale, fill #000000, text [Mulish Regular, 8px], opacity 50%
+        - GROUP "Graph days", 445x24px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - TEXT "Sat", 37x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Fri", 37x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Thu", 37x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Wed", 37x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Tue", 37x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Mon", 37x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+          - TEXT "Sun", 37x24px, constraints scale/scale, fill #000000, text [Mulish Regular, 12px], opacity 50%
+        - GROUP "Graph lines", 446x110.19px, constraints left/top, fill #FFFFFF [decorative, ~12 shapes]
+        - VECTOR "Graph gradient", 445x99px, constraints scale/scale, fill gradient_linear(#2F6FC6 0% | #2F6FC600 100%), stroke #2F6FC6 0px, opacity 20%
+        - VECTOR "Graph line 2", 443x69px, constraints scale/scale, stroke #2F6FC6 2px, opacity 40%
+        - VECTOR "Graph line 1", 443x76px, constraints scale/scale, stroke #2F6FC6 2px
+        - ELLIPSE "Graph point 2", 6x6px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px, opacity 40%
+        - ELLIPSE "Graph point 1", 6x6px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 0px
+      - TEXT "Title", 112x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+      - FRAME "Bubble 1", 46x96.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 1", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 33x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy 5", 2.72x49.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 1", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Bubble 2", 46x70.01px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 2", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 26x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy 4", 2.32x22.03px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 2", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Bubble 3", 46x93.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 3", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 33x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy 3", 2.72x49.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 3", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Bubble 4", 46x119.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 4", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 33x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy 2", 3.05x71.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 4", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Bubble 5", 46x145.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 5", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 33x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6 Copy", 3.43x97.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 5", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Group 6", 46x94.51px, constraints left/top, fill #FFFFFF, opacity 1%
+        - FRAME "Bubble 6", 46x31px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 46x31px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Rectangle", 46x25px, constraints scale/scale, radius 5px, fill #2F6FC6, stroke #979797 0px
+            - VECTOR "Triangle", 18x9px, constraints scale/scale, fill #2F6FC6, stroke #979797 0px
+          - TEXT "Title", 26x24px, constraints scale/center, fill #FFFFFF, text [Lato Regular, 12px]
+        - VECTOR "Path 6", 2.72x49.02px, constraints scale/scale, fill #2F6FC6, stroke #2F6FC6 2px
+        - ELLIPSE "Oval 6", 11x11px, constraints scale/scale, fill #2F6FC6, stroke #FFFFFF 2px
+      - FRAME "Frame 5", 231.06x44px, constraints left/top, fill #FFFFFF
+        - INSTANCE "Feature dot", 43x43px, constraints left/top
+          - ELLIPSE "Ellipse 2", 43x43px, constraints scale/scale, fill #FFC2C2
+          - ELLIPSE "Ellipse 1", 11x11px, constraints scale/scale, fill #FF5656
+        - TEXT "Try hovering over the lines", 231.06x23.31px, constraints left/top, fill #FF5656, text [Feature Caveat], opacity 0%
+  - FRAME "Frame 5", 201.93x44px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Feature dot", 43x43px, constraints left/top
+      - ELLIPSE "Ellipse 2", 43x43px, constraints scale/scale, fill #FFC2C2
+      - ELLIPSE "Ellipse 1", 11x11px, constraints scale/scale, fill #FF5656
+    - TEXT "Embed Gif? Yes please", 201.93x23.02px, constraints left/top, fill #FF5656, text [Feature Caveat], opacity 0%
+  - FRAME "Targets", 804x190px, constraints center/center, radius 5px, fill #FFFFFF, effect [drop_shadow 10px offset 0 4 #0000000D]
+    - FRAME "Workout Classes tab", 248x190px, constraints center/center
+      - RECTANGLE "bg", 248x190px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px
+      - GROUP "Man 3", 28.61x40.74px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+      - GROUP "Group 19", 208x10px, constraints left/top, radius 7px
+        - RECTANGLE "Progress bar", 208x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px, opacity 20%
+        - RECTANGLE "Progress bar - full", 108x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px
+      - FRAME "Classes", 93x24px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Classes", 46x14px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+        - TEXT "2/4", 39x24px, constraints scale/center, fill #000000, text [Mulish Regular, 26px], [heading]
+      - TEXT "Title", 119x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Weekly Target tab", 248x190px, constraints center/center
+      - RECTANGLE "bg", 248x190px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px
+      - GROUP "Man 2", 28.62x42.52px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - GROUP "Group 18", 208x9.95px, constraints left/top, radius 7px
+        - RECTANGLE "Progress bar", 208x9.95px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px, opacity 20%
+        - RECTANGLE "Progress bar - full", 93x9.95px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px
+      - FRAME "Km", 65x23.87px, constraints scale/scale, fill #FFFFFF
+        - TEXT "km", 19x14px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+        - TEXT "2.5", 38x24px, constraints scale/center, fill #000000, text [Mulish Regular, 26px], [heading]
+      - TEXT "Title", 100x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Daily Target tab", 248x190px, constraints center/center
+      - RECTANGLE "bg", 248x190px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px
+      - GROUP "Man 1", 25.84x40.69px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+      - GROUP "Group 17", 208x10px, constraints left/top, radius 7px
+        - RECTANGLE "Progress bar", 208x10px, constraints scale/scale, radius 7px, fill #084C37, stroke #979797 0px, opacity 20%
+        - RECTANGLE "Progress bar - full", 162x10px, constraints scale/scale, radius 7px, fill #1D4835, stroke #979797 0px
+      - FRAME "Steps", 105x24px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Steps Copy", 34x14px, constraints scale/center, fill #000000, text [Lato Regular, 14px], opacity 50%
+        - TEXT "1225", 63x24px, constraints scale/center, fill #000000, text [Mulish Regular, 26px], [heading]
+      - TEXT "Title", 83x24px, constraints scale/center, fill #000000, text [Lato Regular, 16px]
+  - FRAME "Welcome tab (Desktop)", 1120x247px, constraints center/center
+    - RECTANGLE "bg", 1120x247px, constraints scale/scale, radius 5px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 10px offset 0 5 #1F1F1F0A]
+    - TEXT "Subtitle", 450x70px, constraints scale/center, fill #000000, text [Lato Light, 22px]
+    - TEXT "Title", 197x50px, constraints scale/center, fill #000000, text [Castoro Regular, 40px], [heading]
+    - RECTANGLE "image", 450x176px, constraints center/center, radius 10px, fill image(hash: e2776736c5ddf4e81fcc1c5b8413ca85e862a487)
+  - RECTANGLE "illustration 2", 438x217px, constraints scale/scale, fill image(hash: 69288af2ac130d9e9322829ade5cd6ae8e29b53a)
+  - TEXT "Dashboard", 201x24px, constraints center/center, fill #000000, text [Castoro Regular, 22px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Page 1 / Instructions
+- GROUP "Instructions", 2213.45x686.97px, constraints left/top
+  - TEXT "1. Run the Anima plugin 2. Select this frame 3. Click “Previ", 1999x516px, constraints left/top, fill #FF4E4E, text [Caveat Bold, 120px], [heading]
+  - BOOLEAN_OPERATION "Union", 190.55x429.54px, constraints left/top, fill #FF4E4E
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,2100 @@
+---
+name: coachhub-personal-coach-hiring-mobile-app-ui-kit-community
+source_file: CoachHub - Personal Coach Hiring Mobile App Ui Kit (Community)
+source_page: All pages (7): Thumbnail, Main Design (Light Mode), Main Design (Dark Mode), Stye Guide, Components, Icons, Design Editing Instraction
+generated_at: 2026-07-25T09:42:07.363884+00:00
+---
+
+# CoachHub - Personal Coach Hiring Mobile App Ui Kit (Community) Design Guidelines
+
+## Source
+- Figma file: CoachHub - Personal Coach Hiring Mobile App Ui Kit (Community)
+- Figma page: All pages (7): Thumbnail, Main Design (Light Mode), Main Design (Dark Mode), Stye Guide, Components, Icons, Design Editing Instraction
+- Extracted at: 2026-07-25T09:42:07.363884+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Flight Booking App (Light Mode)/Font 01: [#192031]
+- Personal Coach (Light)/Base 01: [#8576D0]
+- Flight Booking App (Light Mode)/White: [#FFFFFF]
+- Flight Booking App (Light Mode)/Font 02: [#656871]
+- Taxi/Font 01: [#2C2C29]
+- Base / 900 - Primary: [#151E28]
+- Task Management/Title font: [#0E1725]
+- Font 02: [#71767D]
+- Font 01: [#0E1725]
+- Banking/White: [#FFFFFF]
+- BG 2: [#F3F3F3]
+- Text 1: [#323B4B]
+- Text 4: [#B0B7C3]
+- Personal Coach (Light)/White: [#FFFFFF]
+- Personal Coach (Light)/Dark BG: [#0A0F23]
+
+## Raw Colors (unstyled)
+- #292D32: 5974 uses
+- #17191C: 380 uses
+- #000000: 307 uses
+- #FFFFFF: 146 uses
+- #E6EAEE: 126 uses
+
+## Typography Tokens
+- B4: General Sans Medium (500), 12px / 103.7%, tracking 0px
+- B3: General Sans Medium (500), 16px / 118.52%, tracking 0px
+- B2: General Sans Medium (500), 18px / 88.89%, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 10.28px: 92 uses
+- Product Sans Bold, 16px: 62 uses
+- Product Sans Bold, 32px: 62 uses
+- Inter SemiBold, 8px: 60 uses
+- General Sans Medium, 28px: 11 uses
+- General Sans Medium, 24px: 10 uses
+- Inter Medium, 16.01px: 6 uses
+- Inter SemiBold, 27.43px: 6 uses
+- Outfit Medium, 16px: 6 uses
+- General Sans Medium, 16px: 5 uses
+- Inter Bold, 36px: 5 uses
+- Inter Regular, 12px: 5 uses
+- General Sans Regular, 24px: 4 uses
+- Inter Bold, 22.43px: 4 uses
+- Inter Medium, 12.01px: 4 uses
+- Inter Medium, 18.01px: 4 uses
+- Inter SemiBold, 11.21px: 4 uses
+- Outfit Medium, 12px: 4 uses
+- Outfit Medium, 18px: 4 uses
+- Poppins Regular, 16px: 4 uses
+- General Sans Medium, 12px: 3 uses
+- General Sans Medium, 18px: 3 uses
+- General Sans Semibold, 20px: 3 uses
+- Inter Medium, 24.02px: 3 uses
+- Inter SemiBold, 20.02px: 3 uses
+- Inter SemiBold, 24.02px: 3 uses
+- Outfit SemiBold, 20px: 3 uses
+
+## Typography Hierarchy
+- 36px - Inter Bold, 36px (raw)
+- 32px - Product Sans Bold, 32px (raw)
+- 28px - General Sans Medium, 28px (raw)
+- 27.43px - Inter SemiBold, 27.43px (raw)
+- 24.02px - Inter Medium, 24.02px (raw)
+- 24.02px - Inter SemiBold, 24.02px (raw)
+- 24px - General Sans Medium, 24px (raw)
+- 24px - General Sans Regular, 24px (raw)
+- 22.43px - Inter Bold, 22.43px (raw)
+- 20.02px - Inter SemiBold, 20.02px (raw)
+- 20px - General Sans Semibold, 20px (raw)
+- 20px - Outfit SemiBold, 20px (raw)
+- 18.01px - Inter Medium, 18.01px (raw)
+- 18px - B2 (General Sans Medium)
+- 18px - General Sans Medium, 18px (raw)
+- 18px - Outfit Medium, 18px (raw)
+- 16.01px - Inter Medium, 16.01px (raw)
+- 16px - B3 (General Sans Medium)
+- 16px - General Sans Medium, 16px (raw)
+- 16px - Outfit Medium, 16px (raw)
+- 16px - Poppins Regular, 16px (raw)
+- 16px - Product Sans Bold, 16px (raw)
+- 12.01px - Inter Medium, 12.01px (raw)
+- 12px - B4 (General Sans Medium)
+- 12px - General Sans Medium, 12px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Outfit Medium, 12px (raw)
+- 11.21px - Inter SemiBold, 11.21px (raw)
+- 10.28px - Inter SemiBold, 10.28px (raw)
+- 8px - Inter SemiBold, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow: [drop_shadow 48px offset 0 4 #00000005]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- vuesax
+- document-normal
+
+## Component Specs
+- vuesax/bold/search-favorite: size 24x24px, fill #FFFFFF
+- vuesax/bold/search-zoom-out: size 24x24px, fill #FFFFFF
+- vuesax/bold/search-zoom-in: size 24x24px, fill #FFFFFF
+- vuesax/bold/search-normal: size 24x24px, fill #FFFFFF
+- vuesax/bold/search-status: size 24x24px, fill #FFFFFF
+- vuesax/bold/woman: size 24x24px, fill #FFFFFF
+- vuesax/bold/man: size 24x24px, fill #FFFFFF
+- vuesax/bold/sagittarius: size 24x24px, fill #FFFFFF
+- vuesax/bold/gemini-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/gemini: size 24x24px, fill #FFFFFF
+- vuesax/bold/aquarius: size 24x24px, fill #FFFFFF
+- vuesax/bold/3d-rotate: size 24x24px, fill #FFFFFF
+- vuesax/bold/3d-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/truck-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/truck-time: size 24x24px, fill #FFFFFF
+- vuesax/bold/truck-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/truck-fast: size 24x24px, fill #FFFFFF
+- vuesax/bold/truck: size 24x24px, fill #FFFFFF
+- vuesax/bold/box-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/box: size 24x24px, fill #FFFFFF
+- vuesax/bold/box-time: size 24x24px, fill #FFFFFF
+- vuesax/bold/box-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/box-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/box-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/convert-3d-cube: size 24x24px, fill #FFFFFF
+- vuesax/bold/3d-cube-scan: size 24x24px, fill #FFFFFF
+- vuesax/bold/building: size 24x24px, fill #FFFFFF
+- vuesax/bold/hospital: size 24x24px, fill #FFFFFF
+- vuesax/bold/buliding: size 24x24px, fill #FFFFFF
+- vuesax/bold/building-4: size 24x24px, fill #FFFFFF
+- vuesax/bold/building-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/buildings-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/bank: size 24x24px, fill #FFFFFF
+- vuesax/bold/buildings: size 24x24px, fill #FFFFFF
+- vuesax/bold/house-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/house: size 24x24px, fill #FFFFFF
+- vuesax/bold/courthouse: size 24x24px, fill #FFFFFF
+- vuesax/bold/maximize: size 24x24px, fill #FFFFFF
+- vuesax/bold/convertshape-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/format-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/rotate-right: size 24x24px, fill #FFFFFF
+- vuesax/bold/maximize-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/element-equal: size 24x24px, fill #FFFFFF
+- vuesax/bold/rotate-left: size 24x24px, fill #FFFFFF
+- vuesax/bold/crop: size 24x24px, fill #FFFFFF
+- vuesax/bold/align-right: size 24x24px, fill #FFFFFF
+- vuesax/bold/align-vertically: size 24x24px, fill #FFFFFF
+- vuesax/bold/maximize-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/align-bottom: size 24x24px, fill #FFFFFF
+- vuesax/bold/3square: size 24x24px, fill #FFFFFF
+- vuesax/bold/frame: size 24x24px, fill #FFFFFF
+- vuesax/bold/kanban: size 24x24px, fill #FFFFFF
+- vuesax/bold/maximize-4: size 24x24px, fill #FFFFFF
+- vuesax/bold/convertshape: size 24x24px, fill #FFFFFF
+- vuesax/bold/format-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/align-left: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-1: size 24x24px, fill #FFFFFF
+- vuesax/bold/align-horizontally: size 24x24px, fill #FFFFFF
+- vuesax/bold/element-plus: size 24x24px, fill #FFFFFF
+- vuesax/bold/element-4: size 24x24px, fill #FFFFFF
+- vuesax/bold/element-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/element-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-8: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-7: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-6: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-5: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/row-horizontal: size 24x24px, fill #FFFFFF
+- vuesax/bold/row-vertical: size 24x24px, fill #FFFFFF
+- vuesax/bold/slider-horizontal: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-9: size 24x24px, fill #FFFFFF
+- vuesax/bold/slider-vertical: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-4: size 24x24px, fill #FFFFFF
+- vuesax/bold/fatrows: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-lock: size 24x24px, fill #FFFFFF
+- vuesax/bold/grid-eraser: size 24x24px, fill #FFFFFF
+- vuesax/bold/graph: size 24x24px, fill #FFFFFF
+- vuesax/bold/activity: size 24x24px, fill #FFFFFF
+- vuesax/bold/home-hashtag: size 24x24px, fill #FFFFFF
+- vuesax/bold/home-trend-down: size 24x24px, fill #FFFFFF
+- vuesax/bold/trend-down: size 24x24px, fill #FFFFFF
+- vuesax/bold/chart: size 24x24px, fill #FFFFFF
+- vuesax/bold/chart-fail: size 24x24px, fill #FFFFFF
+- vuesax/bold/chart-success: size 24x24px, fill #FFFFFF
+- vuesax/bold/chart-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/health: size 24x24px, fill #FFFFFF
+- vuesax/bold/home-trend-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/personalcard: size 24x24px, fill #FFFFFF
+- vuesax/bold/status-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/hashtag: size 24x24px, fill #FFFFFF
+- vuesax/bold/trend-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/favorite-chart: size 24x24px, fill #FFFFFF
+- vuesax/bold/presention-chart: size 24x24px, fill #FFFFFF
+- vuesax/bold/diagram: size 24x24px, fill #FFFFFF
+- vuesax/bold/calculator: size 24x24px, fill #FFFFFF
+- vuesax/bold/gift: size 24x24px, fill #FFFFFF
+- vuesax/bold/teacher: size 24x24px, fill #FFFFFF
+- vuesax/bold/note-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/note: size 24x24px, fill #FFFFFF
+- vuesax/bold/clipboard: size 24x24px, fill #FFFFFF
+- vuesax/bold/bookmark-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/book: size 24x24px, fill #FFFFFF
+- vuesax/bold/award: size 24x24px, fill #FFFFFF
+- vuesax/bold/bookmark: size 24x24px, fill #FFFFFF
+- vuesax/bold/brifecase-cross: size 24x24px, fill #FFFFFF
+- vuesax/bold/brifecase-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/brifecase-timer: size 24x24px, fill #FFFFFF
+- vuesax/bold/briefcase: size 24x24px, fill #FFFFFF
+- vuesax/bold/airplane-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/car: size 24x24px, fill #FFFFFF
+- vuesax/bold/airplane: size 24x24px, fill #FFFFFF
+- vuesax/bold/gas-station: size 24x24px, fill #FFFFFF
+- vuesax/bold/ship: size 24x24px, fill #FFFFFF
+- vuesax/bold/driving: size 24x24px, fill #FFFFFF
+- vuesax/bold/smart-car: size 24x24px, fill #FFFFFF
+- vuesax/bold/bus: size 24x24px, fill #FFFFFF
+- vuesax/bold/shop: size 24x24px, fill #FFFFFF
+- vuesax/bold/bag-timer: size 24x24px, fill #FFFFFF
+- vuesax/bold/bag-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/shop-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/bag-cross: size 24x24px, fill #FFFFFF
+- vuesax/bold/bag: size 24x24px, fill #FFFFFF
+- vuesax/bold/bag-tick-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/bag-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/bag-happy: size 24x24px, fill #FFFFFF
+- vuesax/bold/barcode: size 24x24px, fill #FFFFFF
+- vuesax/bold/shop-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/shopping-bag: size 24x24px, fill #FFFFFF
+- vuesax/bold/shopping-cart: size 24x24px, fill #FFFFFF
+- vuesax/bold/call-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/call: size 24x24px, fill #FFFFFF
+- vuesax/bold/call-calling: size 24x24px, fill #FFFFFF
+- vuesax/bold/call-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/call-received: size 24x24px, fill #FFFFFF
+- vuesax/bold/call-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/call-outgoing: size 24x24px, fill #FFFFFF
+- vuesax/bold/call-incoming: size 24x24px, fill #FFFFFF
+- vuesax/bold/call-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/route-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/picture-frame: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow: size 24x24px, fill #FFFFFF
+- vuesax/bold/routing-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/routing: size 24x24px, fill #FFFFFF
+- vuesax/bold/map: size 24x24px, fill #FFFFFF
+- vuesax/bold/gps-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/gps: size 24x24px, fill #FFFFFF
+- vuesax/bold/direct-right: size 24x24px, fill #FFFFFF
+- vuesax/bold/direct-left: size 24x24px, fill #FFFFFF
+- vuesax/bold/direct-down: size 24x24px, fill #FFFFFF
+- vuesax/bold/direct-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/global: size 24x24px, fill #FFFFFF
+- vuesax/bold/global-refresh: size 24x24px, fill #FFFFFF
+- vuesax/bold/global-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/global-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/radar-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/radar: size 24x24px, fill #FFFFFF
+- vuesax/bold/location-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/discover: size 24x24px, fill #FFFFFF
+- vuesax/bold/location-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/location-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/location-cross: size 24x24px, fill #FFFFFF
+- vuesax/bold/location-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/tag-cross: size 24x24px, fill #FFFFFF
+- vuesax/bold/close-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/emoji-normal: size 24x24px, fill #FFFFFF
+- vuesax/bold/flash-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/flag: size 24x24px, fill #FFFFFF
+- vuesax/bold/emoji-happy: size 24x24px, fill #FFFFFF
+- vuesax/bold/crown: size 24x24px, fill #FFFFFF
+- vuesax/bold/share: size 24x24px, fill #FFFFFF
+- vuesax/bold/slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/coffee: size 24x24px, fill #FFFFFF
+- vuesax/bold/cup: size 24x24px, fill #FFFFFF
+- vuesax/bold/archive: size 24x24px, fill #FFFFFF
+- vuesax/bold/emoji-sad: size 24x24px, fill #FFFFFF
+- vuesax/bold/instagram: size 24x24px, fill #FFFFFF
+- vuesax/bold/glass: size 24x24px, fill #FFFFFF
+- vuesax/bold/3dcube: size 24x24px, fill #FFFFFF
+- vuesax/bold/pet: size 24x24px, fill #FFFFFF
+- vuesax/bold/chrome: size 24x24px, fill #FFFFFF
+- vuesax/bold/autobrightness: size 24x24px, fill #FFFFFF
+- vuesax/bold/reserve: size 24x24px, fill #FFFFFF
+- vuesax/bold/filter-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/weight: size 24x24px, fill #FFFFFF
+- vuesax/bold/filter: size 24x24px, fill #FFFFFF
+- vuesax/bold/happyemoji: size 24x24px, fill #FFFFFF
+- vuesax/bold/computing: size 24x24px, fill #FFFFFF
+- vuesax/bold/sticker: size 24x24px, fill #FFFFFF
+- vuesax/bold/triangle: size 24x24px, fill #FFFFFF
+- vuesax/bold/sound: size 24x24px, fill #FFFFFF
+- vuesax/bold/information: size 24x24px, fill #FFFFFF
+- vuesax/bold/verify: size 24x24px, fill #FFFFFF
+- vuesax/bold/trash: size 24x24px, fill #FFFFFF
+- vuesax/bold/battery-empty: size 24x24px, fill #FFFFFF
+- vuesax/bold/battery-2/3full: size 24x24px, fill #FFFFFF
+- vuesax/bold/battery-full: size 24x24px, fill #FFFFFF
+- vuesax/bold/more-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/flash-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/send-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/info-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/battery-charging: size 24x24px, fill #FFFFFF
+- vuesax/bold/minus-cirlce: size 24x24px, fill #FFFFFF
+- vuesax/bold/add: size 24x24px, fill #FFFFFF
+- vuesax/bold/flag-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/danger: size 24x24px, fill #FFFFFF
+- vuesax/bold/add-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/battery-disable: size 24x24px, fill #FFFFFF
+- vuesax/bold/home: size 24x24px, fill #FFFFFF
+- vuesax/bold/tick-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/cake: size 24x24px, fill #FFFFFF
+- vuesax/bold/more-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/home-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/close-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/tick-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/minus-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/send: size 24x24px, fill #FFFFFF
+- vuesax/bold/sort: size 24x24px, fill #FFFFFF
+- vuesax/bold/flash: size 24x24px, fill #FFFFFF
+- vuesax/bold/menu: size 24x24px, fill #FFFFFF
+- vuesax/bold/add-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/safe-home: size 24x24px, fill #FFFFFF
+- vuesax/bold/home-wifi: size 24x24px, fill #FFFFFF
+- vuesax/bold/smart-home: size 24x24px, fill #FFFFFF
+- vuesax/bold/filter-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/filter-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/filter-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/filter-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/filter-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/signpost: size 24x24px, fill #FFFFFF
+- vuesax/bold/broom: size 24x24px, fill #FFFFFF
+- vuesax/bold/warning-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/forbidden-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/forbidden: size 24x24px, fill #FFFFFF
+- vuesax/bold/mouse: size 24x24px, fill #FFFFFF
+- vuesax/bold/mouse-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/mouse-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/ranking: size 24x24px, fill #FFFFFF
+- vuesax/bold/ghost: size 24x24px, fill #FFFFFF
+- vuesax/bold/milk: size 24x24px, fill #FFFFFF
+- vuesax/bold/tag-right: size 24x24px, fill #FFFFFF
+- vuesax/bold/mirror: size 24x24px, fill #FFFFFF
+- vuesax/bold/bubble: size 24x24px, fill #FFFFFF
+- vuesax/bold/tree: size 24x24px, fill #FFFFFF
+- vuesax/bold/lamp: size 24x24px, fill #FFFFFF
+- vuesax/bold/judge: size 24x24px, fill #FFFFFF
+- vuesax/bold/level: size 24x24px, fill #FFFFFF
+- vuesax/bold/diamonds: size 24x24px, fill #FFFFFF
+- vuesax/bold/speedometer: size 24x24px, fill #FFFFFF
+- vuesax/bold/wifi: size 24x24px, fill #FFFFFF
+- vuesax/bold/trush-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/box-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/wifi-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/status: size 24x24px, fill #FFFFFF
+- vuesax/bold/slider: size 24x24px, fill #FFFFFF
+- vuesax/bold/story: size 24x24px, fill #FFFFFF
+- vuesax/bold/cd: size 24x24px, fill #FFFFFF
+- vuesax/bold/grammerly: size 24x24px, fill #FFFFFF
+- vuesax/bold/brush: size 24x24px, fill #FFFFFF
+- vuesax/bold/lifebuoy: size 24x24px, fill #FFFFFF
+- vuesax/bold/path-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/magicpen: size 24x24px, fill #FFFFFF
+- vuesax/bold/layer: size 24x24px, fill #FFFFFF
+- vuesax/bold/copy-success: size 24x24px, fill #FFFFFF
+- vuesax/bold/colorfilter: size 24x24px, fill #FFFFFF
+- vuesax/bold/copy: size 24x24px, fill #FFFFFF
+- vuesax/bold/size: size 24x24px, fill #FFFFFF
+- vuesax/bold/blend: size 24x24px, fill #FFFFFF
+- vuesax/bold/mask: size 24x24px, fill #FFFFFF
+- vuesax/bold/blend-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/shapes: size 24x24px, fill #FFFFFF
+- vuesax/bold/ruler&pen: size 24x24px, fill #FFFFFF
+- vuesax/bold/path: size 24x24px, fill #FFFFFF
+- vuesax/bold/ruler: size 24x24px, fill #FFFFFF
+- vuesax/bold/additem: size 24x24px, fill #FFFFFF
+- vuesax/bold/paintbucket: size 24x24px, fill #FFFFFF
+- vuesax/bold/designtools: size 24x24px, fill #FFFFFF
+- vuesax/bold/bucket: size 24x24px, fill #FFFFFF
+- vuesax/bold/backward-item: size 24x24px, fill #FFFFFF
+- vuesax/bold/forward-item: size 24x24px, fill #FFFFFF
+- vuesax/bold/component: size 24x24px, fill #FFFFFF
+- vuesax/bold/main-component: size 24x24px, fill #FFFFFF
+- vuesax/bold/recovery-convert: size 24x24px, fill #FFFFFF
+- vuesax/bold/colors-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/blur: size 24x24px, fill #FFFFFF
+- vuesax/bold/eraser: size 24x24px, fill #FFFFFF
+- vuesax/bold/omega-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/omega-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/path-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/scissor: size 24x24px, fill #FFFFFF
+- vuesax/bold/color-swatch: size 24x24px, fill #FFFFFF
+- vuesax/bold/bucket-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/bucket-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/pen-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/pen-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/pen-close: size 24x24px, fill #FFFFFF
+- vuesax/bold/pen-tool-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/pen-tool: size 24x24px, fill #FFFFFF
+- vuesax/bold/bezier: size 24x24px, fill #FFFFFF
+- vuesax/bold/ram: size 24x24px, fill #FFFFFF
+- vuesax/bold/game: size 24x24px, fill #FFFFFF
+- vuesax/bold/speaker: size 24x24px, fill #FFFFFF
+- vuesax/bold/monitor-recorder: size 24x24px, fill #FFFFFF
+- vuesax/bold/airpod: size 24x24px, fill #FFFFFF
+- vuesax/bold/monitor-mobbile: size 24x24px, fill #FFFFFF
+- vuesax/bold/printer-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/monitor: size 24x24px, fill #FFFFFF
+- vuesax/bold/cpu-setting: size 24x24px, fill #FFFFFF
+- vuesax/bold/printer: size 24x24px, fill #FFFFFF
+- vuesax/bold/cpu: size 24x24px, fill #FFFFFF
+- vuesax/bold/headphone: size 24x24px, fill #FFFFFF
+- vuesax/bold/cpu-charge: size 24x24px, fill #FFFFFF
+- vuesax/bold/simcard-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/simcard: size 24x24px, fill #FFFFFF
+- vuesax/bold/mobile: size 24x24px, fill #FFFFFF
+- vuesax/bold/keyboard: size 24x24px, fill #FFFFFF
+- vuesax/bold/ram-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/clock: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-change: size 24x24px, fill #FFFFFF
+- vuesax/bold/bluetooth-rectangle: size 24x24px, fill #FFFFFF
+- vuesax/bold/bluetooth-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/bluetooth-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/bluetooth: size 24x24px, fill #FFFFFF
+- vuesax/bold/watch-status: size 24x24px, fill #FFFFFF
+- vuesax/bold/watch: size 24x24px, fill #FFFFFF
+- vuesax/bold/gameboy: size 24x24px, fill #FFFFFF
+- vuesax/bold/airdrop: size 24x24px, fill #FFFFFF
+- vuesax/bold/keyboard-open: size 24x24px, fill #FFFFFF
+- vuesax/bold/microscope: size 24x24px, fill #FFFFFF
+- vuesax/bold/mirroring-screen: size 24x24px, fill #FFFFFF
+- vuesax/bold/electricity: size 24x24px, fill #FFFFFF
+- vuesax/bold/folder-connection: size 24x24px, fill #FFFFFF
+- vuesax/bold/headphones: size 24x24px, fill #FFFFFF
+- vuesax/bold/airpods: size 24x24px, fill #FFFFFF
+- vuesax/bold/devices: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-play: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-connection: size 24x24px, fill #FFFFFF
+- vuesax/bold/external-drive: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/driver-refresh: size 24x24px, fill #FFFFFF
+- vuesax/bold/driver-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/driver: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-favorite: size 24x24px, fill #FFFFFF
+- vuesax/bold/message: size 24x24px, fill #FFFFFF
+- vuesax/bold/direct-send: size 24x24px, fill #FFFFFF
+- vuesax/bold/direct: size 24x24px, fill #FFFFFF
+- vuesax/bold/direct-notification: size 24x24px, fill #FFFFFF
+- vuesax/bold/directbox-send: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-text: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-notif: size 24x24px, fill #FFFFFF
+- vuesax/bold/direct-normal: size 24x24px, fill #FFFFFF
+- vuesax/bold/directbox-notif: size 24x24px, fill #FFFFFF
+- vuesax/bold/direct-inbox: size 24x24px, fill #FFFFFF
+- vuesax/bold/directbox-default: size 24x24px, fill #FFFFFF
+- vuesax/bold/directbox-receive: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/messages: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-time: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/sms-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/sms-star: size 24x24px, fill #FFFFFF
+- vuesax/bold/sms-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/sms-notification: size 24x24px, fill #FFFFFF
+- vuesax/bold/sms-tracking: size 24x24px, fill #FFFFFF
+- vuesax/bold/sms: size 24x24px, fill #FFFFFF
+- vuesax/bold/messages-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/messages-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/device-message: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/star-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/like: size 24x24px, fill #FFFFFF
+- vuesax/bold/heart: size 24x24px, fill #FFFFFF
+- vuesax/bold/dislike: size 24x24px, fill #FFFFFF
+- vuesax/bold/heart-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/unlimited: size 24x24px, fill #FFFFFF
+- vuesax/bold/medal: size 24x24px, fill #FFFFFF
+- vuesax/bold/lovely: size 24x24px, fill #FFFFFF
+- vuesax/bold/medal-star: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-question: size 24x24px, fill #FFFFFF
+- vuesax/bold/like-shapes: size 24x24px, fill #FFFFFF
+- vuesax/bold/24-support: size 24x24px, fill #FFFFFF
+- vuesax/bold/like-tag: size 24x24px, fill #FFFFFF
+- vuesax/bold/like-dislike: size 24x24px, fill #FFFFFF
+- vuesax/bold/smileys: size 24x24px, fill #FFFFFF
+- vuesax/bold/heart-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/heart-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/heart-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/heart-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/heart-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/heart-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/magic-star: size 24x24px, fill #FFFFFF
+- vuesax/bold/star: size 24x24px, fill #FFFFFF
+- vuesax/bold/kyber-network-(knc): size 24x24px, fill #FFFFFF
+- vuesax/bold/nem-(xem): size 24x24px, fill #FFFFFF
+- vuesax/bold/vuesax: size 24x24px, fill #FFFFFF
+- vuesax/bold/paypal: size 24x24px, fill #FFFFFF
+- vuesax/bold/python: size 24x24px, fill #FFFFFF
+- vuesax/bold/dropbox: size 24x24px, fill #FFFFFF
+- vuesax/bold/facebook: size 24x24px, fill #FFFFFF
+- vuesax/bold/ui8: size 24x24px, fill #FFFFFF
+- vuesax/bold/vibe-(vibe): size 24x24px, fill #FFFFFF
+- vuesax/bold/blogger: size 24x24px, fill #FFFFFF
+- vuesax/bold/celo-(celo): size 24x24px, fill #FFFFFF
+- vuesax/bold/hex-(hex): size 24x24px, fill #FFFFFF
+- vuesax/bold/avalanche-(avax): size 24x24px, fill #FFFFFF
+- vuesax/bold/hedera-hashgraph-(hbar): size 24x24px, fill #FFFFFF
+- vuesax/bold/eos-(eos): size 24x24px, fill #FFFFFF
+- vuesax/bold/trontron-(trx): size 24x24px, fill #FFFFFF
+- vuesax/bold/ethereum-(eth): size 24x24px, fill #FFFFFF
+- vuesax/bold/zoom: size 24x24px, fill #FFFFFF
+- vuesax/bold/icon: size 24x24px, fill #FFFFFF
+- vuesax/bold/google: size 24x24px, fill #FFFFFF
+- vuesax/bold/illustrator: size 24x24px, fill #FFFFFF
+- vuesax/bold/photoshop: size 24x24px, fill #FFFFFF
+- vuesax/bold/xd: size 24x24px, fill #FFFFFF
+- vuesax/bold/spotify: size 24x24px, fill #FFFFFF
+- vuesax/bold/xiaomi: size 24x24px, fill #FFFFFF
+- vuesax/bold/figma: size 24x24px, fill #FFFFFF
+- vuesax/bold/trello: size 24x24px, fill #FFFFFF
+- vuesax/bold/bootsrap: size 24x24px, fill #FFFFFF
+- vuesax/bold/snapchat: size 24x24px, fill #FFFFFF
+- vuesax/bold/apple: size 24x24px, fill #FFFFFF
+- vuesax/bold/dent-(dent): size 24x24px, fill #FFFFFF
+- vuesax/bold/wanchain-(wan): size 24x24px, fill #FFFFFF
+- vuesax/bold/nebulas-(nas): size 24x24px, fill #FFFFFF
+- vuesax/bold/tenx-(pay): size 24x24px, fill #FFFFFF
+- vuesax/bold/zel-(zel): size 24x24px, fill #FFFFFF
+- vuesax/bold/emercoin-(emc): size 24x24px, fill #FFFFFF
+- vuesax/bold/ocean-protocol-(ocean): size 24x24px, fill #FFFFFF
+- vuesax/bold/iost-(iost): size 24x24px, fill #FFFFFF
+- vuesax/bold/stacks-(stx): size 24x24px, fill #FFFFFF
+- vuesax/bold/celsius-(cel)-: size 24x24px, fill #FFFFFF
+- vuesax/bold/polygon-(matic): size 24x24px, fill #FFFFFF
+- vuesax/bold/the-graph-(grt): size 24x24px, fill #FFFFFF
+- vuesax/bold/litecoin(ltc): size 24x24px, fill #FFFFFF
+- vuesax/bold/theta-(theta): size 24x24px, fill #FFFFFF
+- vuesax/bold/dai-(dai): size 24x24px, fill #FFFFFF
+- vuesax/bold/enjin-coin-(enj): size 24x24px, fill #FFFFFF
+- vuesax/bold/aave-(aave): size 24x24px, fill #FFFFFF
+- vuesax/bold/usd-coin-(usdc): size 24x24px, fill #FFFFFF
+- vuesax/bold/maker-(mkr): size 24x24px, fill #FFFFFF
+- vuesax/bold/tether-(usdt): size 24x24px, fill #FFFFFF
+- vuesax/bold/windows: size 24x24px, fill #FFFFFF
+- vuesax/bold/whatsapp: size 24x24px, fill #FFFFFF
+- vuesax/bold/youtube: size 24x24px, fill #FFFFFF
+- vuesax/bold/android: size 24x24px, fill #FFFFFF
+- vuesax/bold/js: size 24x24px, fill #FFFFFF
+- vuesax/bold/slack: size 24x24px, fill #FFFFFF
+- vuesax/bold/html-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/java-script: size 24x24px, fill #FFFFFF
+- vuesax/bold/html-5: size 24x24px, fill #FFFFFF
+- vuesax/bold/autonio-(niox): size 24x24px, fill #FFFFFF
+- vuesax/bold/twitch: size 24x24px, fill #FFFFFF
+- vuesax/bold/polyswarm-(nct): size 24x24px, fill #FFFFFF
+- vuesax/bold/google-play: size 24x24px, fill #FFFFFF
+- vuesax/bold/educare-(ekt): size 24x24px, fill #FFFFFF
+- vuesax/bold/wing-(wing): size 24x24px, fill #FFFFFF
+- vuesax/bold/messenger: size 24x24px, fill #FFFFFF
+- vuesax/bold/civic-(cvc): size 24x24px, fill #FFFFFF
+- vuesax/bold/dribbble: size 24x24px, fill #FFFFFF
+- vuesax/bold/bitcoin-(btc): size 24x24px, fill #FFFFFF
+- vuesax/bold/nexo-(nexo): size 24x24px, fill #FFFFFF
+- vuesax/bold/dash-(dash): size 24x24px, fill #FFFFFF
+- vuesax/bold/stellar-(xlm): size 24x24px, fill #FFFFFF
+- vuesax/bold/velas-(vlx): size 24x24px, fill #FFFFFF
+- vuesax/bold/polkadot-(dot): size 24x24px, fill #FFFFFF
+- vuesax/bold/monero-(xmr): size 24x24px, fill #FFFFFF
+- vuesax/bold/okb-(okb): size 24x24px, fill #FFFFFF
+- vuesax/bold/be: size 24x24px, fill #FFFFFF
+- vuesax/bold/augur-(rep): size 24x24px, fill #FFFFFF
+- vuesax/bold/huobi-token-(ht): size 24x24px, fill #FFFFFF
+- vuesax/bold/framer: size 24x24px, fill #FFFFFF
+- vuesax/bold/ankr-(ankr): size 24x24px, fill #FFFFFF
+- vuesax/bold/xrp-(xrp): size 24x24px, fill #FFFFFF
+- vuesax/bold/quant-(qnt): size 24x24px, fill #FFFFFF
+- vuesax/bold/ftx-token-(ftt): size 24x24px, fill #FFFFFF
+- vuesax/bold/solana-(sol): size 24x24px, fill #FFFFFF
+- vuesax/bold/harmony-(one): size 24x24px, fill #FFFFFF
+- vuesax/bold/chainlink-(link): size 24x24px, fill #FFFFFF
+- vuesax/bold/siacoin-(sc): size 24x24px, fill #FFFFFF
+- vuesax/bold/binance-usd-(busd): size 24x24px, fill #FFFFFF
+- vuesax/bold/icon-(icx): size 24x24px, fill #FFFFFF
+- vuesax/bold/ontology-(ont): size 24x24px, fill #FFFFFF
+- vuesax/bold/cardano-(ada): size 24x24px, fill #FFFFFF
+- vuesax/bold/ethereum-classic-(etc): size 24x24px, fill #FFFFFF
+- vuesax/bold/decred-(dcr): size 24x24px, fill #FFFFFF
+- vuesax/bold/binance-coin-(bnb): size 24x24px, fill #FFFFFF
+- vuesax/bold/thorchain-(rune): size 24x24px, fill #FFFFFF
+- vuesax/bold/timer: size 24x24px, fill #FFFFFF
+- vuesax/bold/timer-pause: size 24x24px, fill #FFFFFF
+- vuesax/bold/calendar: size 24x24px, fill #FFFFFF
+- vuesax/bold/timer-start: size 24x24px, fill #FFFFFF
+- vuesax/bold/calendar-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/calendar-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/calendar-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/calendar-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/calendar-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/calendar-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/calendar-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/security-time: size 24x24px, fill #FFFFFF
+- vuesax/bold/archive-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/archive-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/archive-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/archive-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/book-saved: size 24x24px, fill #FFFFFF
+- vuesax/bold/save-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/save-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/save-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/save-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/book-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/toggle-off-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/setting-5: size 24x24px, fill #FFFFFF
+- vuesax/bold/setting-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/setting-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/toggle-off: size 24x24px, fill #FFFFFF
+- vuesax/bold/toggle-on: size 24x24px, fill #FFFFFF
+- vuesax/bold/setting: size 24x24px, fill #FFFFFF
+- vuesax/bold/more-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/setting-4: size 24x24px, fill #FFFFFF
+- vuesax/bold/toggle-on-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/more: size 24x24px, fill #FFFFFF
+- vuesax/bold/category-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/category: size 24x24px, fill #FFFFFF
+- vuesax/bold/candle-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/settings: size 24x24px, fill #FFFFFF
+- vuesax/bold/candle: size 24x24px, fill #FFFFFF
+- vuesax/bold/sidebar-left: size 24x24px, fill #FFFFFF
+- vuesax/bold/code: size 24x24px, fill #FFFFFF
+- vuesax/bold/scroll: size 24x24px, fill #FFFFFF
+- vuesax/bold/sidebar-right: size 24x24px, fill #FFFFFF
+- vuesax/bold/hashtag-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/hashtag-down: size 24x24px, fill #FFFFFF
+- vuesax/bold/sidebar-bottom: size 24x24px, fill #FFFFFF
+- vuesax/bold/sidebar-top: size 24x24px, fill #FFFFFF
+- vuesax/bold/mobile-programming: size 24x24px, fill #FFFFFF
+- vuesax/bold/message-programming: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-code-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/programming-arrows: size 24x24px, fill #FFFFFF
+- vuesax/bold/hierarchy-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/code-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/data: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-code: size 24x24px, fill #FFFFFF
+- vuesax/bold/data-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/hierarchy-square-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/hierarchy-square-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/hierarchy-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/command-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/hierarchy-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/hierarchy: size 24x24px, fill #FFFFFF
+- vuesax/bold/programming-arrow: size 24x24px, fill #FFFFFF
+- vuesax/bold/command: size 24x24px, fill #FFFFFF
+- vuesax/bold/notification-favorite: size 24x24px, fill #FFFFFF
+- vuesax/bold/lamp-on: size 24x24px, fill #FFFFFF
+- vuesax/bold/notification: size 24x24px, fill #FFFFFF
+- vuesax/bold/notification-status: size 24x24px, fill #FFFFFF
+- vuesax/bold/lamp-charge: size 24x24px, fill #FFFFFF
+- vuesax/bold/notification-bing: size 24x24px, fill #FFFFFF
+- vuesax/bold/lamp-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-download: size 24x24px, fill #FFFFFF
+- vuesax/bold/clipboard-import: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-like: size 24x24px, fill #FFFFFF
+- vuesax/bold/clipboard-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/clipboard-export: size 24x24px, fill #FFFFFF
+- vuesax/bold/clipboard-text: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-sketch: size 24x24px, fill #FFFFFF
+- vuesax/bold/edit-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-cloud: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-text: size 24x24px, fill #FFFFFF
+- vuesax/bold/document: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-normal: size 24x24px, fill #FFFFFF
+- vuesax/bold/edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/clipboard-close: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-previous: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-copy: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-upload: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-favorite: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-forward: size 24x24px, fill #FFFFFF
+- vuesax/bold/note-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/stickynote: size 24x24px, fill #FFFFFF
+- vuesax/bold/task: size 24x24px, fill #FFFFFF
+- vuesax/bold/note-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/menu-board: size 24x24px, fill #FFFFFF
+- vuesax/bold/note-favorite: size 24x24px, fill #FFFFFF
+- vuesax/bold/note-text: size 24x24px, fill #FFFFFF
+- vuesax/bold/archive-book: size 24x24px, fill #FFFFFF
+- vuesax/bold/document-filter: size 24x24px, fill #FFFFFF
+- vuesax/bold/bill: size 24x24px, fill #FFFFFF
+- vuesax/bold/creative-commons: size 24x24px, fill #FFFFFF
+- vuesax/bold/task-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/copyright: size 24x24px, fill #FFFFFF
+- vuesax/bold/scanning: size 24x24px, fill #FFFFFF
+- vuesax/bold/security: size 24x24px, fill #FFFFFF
+- vuesax/bold/security-safe: size 24x24px, fill #FFFFFF
+- vuesax/bold/alarm: size 24x24px, fill #FFFFFF
+- vuesax/bold/lock-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/lock: size 24x24px, fill #FFFFFF
+- vuesax/bold/security-user: size 24x24px, fill #FFFFFF
+- vuesax/bold/scanner: size 24x24px, fill #FFFFFF
+- vuesax/bold/finger-cricle: size 24x24px, fill #FFFFFF
+- vuesax/bold/finger-scan: size 24x24px, fill #FFFFFF
+- vuesax/bold/scan-barcode: size 24x24px, fill #FFFFFF
+- vuesax/bold/scan: size 24x24px, fill #FFFFFF
+- vuesax/bold/lock-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/unlock: size 24x24px, fill #FFFFFF
+- vuesax/bold/check: size 24x24px, fill #FFFFFF
+- vuesax/bold/key-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/key: size 24x24px, fill #FFFFFF
+- vuesax/bold/password-check: size 24x24px, fill #FFFFFF
+- vuesax/bold/shield-security: size 24x24px, fill #FFFFFF
+- vuesax/bold/shield-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/shield-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/shield-cross: size 24x24px, fill #FFFFFF
+- vuesax/bold/shield-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/eye-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/eye: size 24x24px, fill #FFFFFF
+- vuesax/bold/bitcoin-refresh: size 24x24px, fill #FFFFFF
+- vuesax/bold/bitcoin-convert: size 24x24px, fill #FFFFFF
+- vuesax/bold/bitcoin-card: size 24x24px, fill #FFFFFF
+- vuesax/bold/buy-crypto: size 24x24px, fill #FFFFFF
+- vuesax/bold/trade: size 24x24px, fill #FFFFFF
+- vuesax/bold/card-coin: size 24x24px, fill #FFFFFF
+- vuesax/bold/folder-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/folder-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/folder-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/folder-cross: size 24x24px, fill #FFFFFF
+- vuesax/bold/folder-open: size 24x24px, fill #FFFFFF
+- vuesax/bold/folder-favorite: size 24x24px, fill #FFFFFF
+- vuesax/bold/folder: size 24x24px, fill #FFFFFF
+- vuesax/bold/folder-cloud: size 24x24px, fill #FFFFFF
+- vuesax/bold/profile-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/profile-2user: size 24x24px, fill #FFFFFF
+- vuesax/bold/profile-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/profile-delete: size 24x24px, fill #FFFFFF
+- vuesax/bold/profile-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/profile-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/people: size 24x24px, fill #FFFFFF
+- vuesax/bold/tag-user: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-tag: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/user: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-cirlce-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/user-octagon: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-lightning: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-snow: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-sunny: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-cross: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-drizzle: size 24x24px, fill #FFFFFF
+- vuesax/bold/sun: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-plus: size 24x24px, fill #FFFFFF
+- vuesax/bold/moon: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-notif: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/sun-fog: size 24x24px, fill #FFFFFF
+- vuesax/bold/cloud-fog: size 24x24px, fill #FFFFFF
+- vuesax/bold/wind-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/wind: size 24x24px, fill #FFFFFF
+- vuesax/bold/drop: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-circle-down: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-right: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-square-left: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-swap: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-left: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-square-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-bottom: size 24x24px, fill #FFFFFF
+- vuesax/bold/convert: size 24x24px, fill #FFFFFF
+- vuesax/bold/logout: size 24x24px, fill #FFFFFF
+- vuesax/bold/import: size 24x24px, fill #FFFFFF
+- vuesax/bold/export: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-down: size 24x24px, fill #FFFFFF
+- vuesax/bold/login: size 24x24px, fill #FFFFFF
+- vuesax/bold/refresh: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-square-right: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-square-down: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-circle-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/refresh-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-swap-horizontal: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-circle-right: size 24x24px, fill #FFFFFF
+- vuesax/bold/redo: size 24x24px, fill #FFFFFF
+- vuesax/bold/undo: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-circle-left: size 24x24px, fill #FFFFFF
+- vuesax/bold/refresh-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/repeat-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/repeat: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrange-circle-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrange-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/receive-square-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/send-sqaure-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/send-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/refresh-square-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/refresh-left-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/refresh-right-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/forward-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/receive-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/back-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrange-square-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrange-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/arrow-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/received: size 24x24px, fill #FFFFFF
+- vuesax/bold/pause-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/play-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/subtitle: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-horizontal: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-vertical: size 24x24px, fill #FFFFFF
+- vuesax/bold/image: size 24x24px, fill #FFFFFF
+- vuesax/bold/camera: size 24x24px, fill #FFFFFF
+- vuesax/bold/camera-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/microphone-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/volume-cross: size 24x24px, fill #FFFFFF
+- vuesax/bold/microphone: size 24x24px, fill #FFFFFF
+- vuesax/bold/stop-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/record-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/pause: size 24x24px, fill #FFFFFF
+- vuesax/bold/gallery-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/gallery-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/record: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-play: size 24x24px, fill #FFFFFF
+- vuesax/bold/music: size 24x24px, fill #FFFFFF
+- vuesax/bold/screenmirroring: size 24x24px, fill #FFFFFF
+- vuesax/bold/stop: size 24x24px, fill #FFFFFF
+- vuesax/bold/musicnote: size 24x24px, fill #FFFFFF
+- vuesax/bold/play: size 24x24px, fill #FFFFFF
+- vuesax/bold/gallery-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/gallery-export: size 24x24px, fill #FFFFFF
+- vuesax/bold/gallery-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/gallery-import: size 24x24px, fill #FFFFFF
+- vuesax/bold/gallery-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/volume-mute: size 24x24px, fill #FFFFFF
+- vuesax/bold/gallery-favorite: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/gallery: size 24x24px, fill #FFFFFF
+- vuesax/bold/volume-high: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/volume-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/video: size 24x24px, fill #FFFFFF
+- vuesax/bold/volume-low: size 24x24px, fill #FFFFFF
+- vuesax/bold/volume-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/microphone-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/maximize-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/voice-cricle: size 24x24px, fill #FFFFFF
+- vuesax/bold/voice-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-octagon: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-time: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/video-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/mini-music-sqaure: size 24x24px, fill #FFFFFF
+- vuesax/bold/note-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/audio-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-library-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/shuffle: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-playlist: size 24x24px, fill #FFFFFF
+- vuesax/bold/forward-10-seconds: size 24x24px, fill #FFFFFF
+- vuesax/bold/repeate-one: size 24x24px, fill #FFFFFF
+- vuesax/bold/repeate-music: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-square-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-square-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-square-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-dashboard: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-filter: size 24x24px, fill #FFFFFF
+- vuesax/bold/forward-15-seconds: size 24x24px, fill #FFFFFF
+- vuesax/bold/forward-5-seconds: size 24x24px, fill #FFFFFF
+- vuesax/bold/backward-10-seconds: size 24x24px, fill #FFFFFF
+- vuesax/bold/backward-15-seconds: size 24x24px, fill #FFFFFF
+- vuesax/bold/backward-5-seconds: size 24x24px, fill #FFFFFF
+- vuesax/bold/play-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/play-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/play-cricle: size 24x24px, fill #FFFFFF
+- vuesax/bold/music-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/radio: size 24x24px, fill #FFFFFF
+- vuesax/bold/next: size 24x24px, fill #FFFFFF
+- vuesax/bold/previous: size 24x24px, fill #FFFFFF
+- vuesax/bold/forward: size 24x24px, fill #FFFFFF
+- vuesax/bold/backward: size 24x24px, fill #FFFFFF
+- vuesax/bold/text: size 24x24px, fill #FFFFFF
+- vuesax/bold/text-italic: size 24x24px, fill #FFFFFF
+- vuesax/bold/paperclip: size 24x24px, fill #FFFFFF
+- vuesax/bold/firstline: size 24x24px, fill #FFFFFF
+- vuesax/bold/paperclip-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/text-underline: size 24x24px, fill #FFFFFF
+- vuesax/bold/text-block: size 24x24px, fill #FFFFFF
+- vuesax/bold/link-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/smallcaps: size 24x24px, fill #FFFFFF
+- vuesax/bold/text-bold: size 24x24px, fill #FFFFFF
+- vuesax/bold/textalign-justifyleft: size 24x24px, fill #FFFFFF
+- vuesax/bold/textalign-justifycenter: size 24x24px, fill #FFFFFF
+- vuesax/bold/link: size 24x24px, fill #FFFFFF
+- vuesax/bold/textalign-right: size 24x24px, fill #FFFFFF
+- vuesax/bold/pharagraphspacing: size 24x24px, fill #FFFFFF
+- vuesax/bold/textalign-justifyright: size 24x24px, fill #FFFFFF
+- vuesax/bold/textalign-left: size 24x24px, fill #FFFFFF
+- vuesax/bold/textalign-center: size 24x24px, fill #FFFFFF
+- vuesax/bold/language-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/language-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/translate: size 24x24px, fill #FFFFFF
+- vuesax/bold/link-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/link-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/quote-up-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/quote-down-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/quote-down-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/quote-up-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/quote-down: size 24x24px, fill #FFFFFF
+- vuesax/bold/quote-up: size 24x24px, fill #FFFFFF
+- vuesax/bold/attach-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/attach-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/ticket-discount: size 24x24px, fill #FFFFFF
+- vuesax/bold/math: size 24x24px, fill #FFFFFF
+- vuesax/bold/ticket-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/dollar-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/ticket-star: size 24x24px, fill #FFFFFF
+- vuesax/bold/ticket-expired: size 24x24px, fill #FFFFFF
+- vuesax/bold/ticket: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-disscount: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/wallet-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/card-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/tag-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/card-slash: size 24x24px, fill #FFFFFF
+- vuesax/bold/card: size 24x24px, fill #FFFFFF
+- vuesax/bold/card-receive: size 24x24px, fill #FFFFFF
+- vuesax/bold/wallet-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/card-send: size 24x24px, fill #FFFFFF
+- vuesax/bold/card-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/coin: size 24x24px, fill #FFFFFF
+- vuesax/bold/tag: size 24x24px, fill #FFFFFF
+- vuesax/bold/card-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/dollar-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/card-pos: size 24x24px, fill #FFFFFF
+- vuesax/bold/card-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/wallet: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-send: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-recive: size 24x24px, fill #FFFFFF
+- vuesax/bold/security-card: size 24x24px, fill #FFFFFF
+- vuesax/bold/strongbox: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-text: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-time: size 24x24px, fill #FFFFFF
+- vuesax/bold/wallet-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-change: size 24x24px, fill #FFFFFF
+- vuesax/bold/wallet-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-forbidden: size 24x24px, fill #FFFFFF
+- vuesax/bold/cards: size 24x24px, fill #FFFFFF
+- vuesax/bold/wallet-money: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/wallet-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/discount-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/convert-card: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/discount-shape: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-edit: size 24x24px, fill #FFFFFF
+- vuesax/bold/moneys: size 24x24px, fill #FFFFFF
+- vuesax/bold/chart-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/percentage-circle: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-4: size 24x24px, fill #FFFFFF
+- vuesax/bold/percentage-square: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-3: size 24x24px, fill #FFFFFF
+- vuesax/bold/empty-wallet-change: size 24x24px, fill #FFFFFF
+- vuesax/bold/money-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/transaction-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/empty-wallet-time: size 24x24px, fill #FFFFFF
+- vuesax/bold/money: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/empty-wallet-tick: size 24x24px, fill #FFFFFF
+- vuesax/bold/strongbox-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/wallet-search: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-minus: size 24x24px, fill #FFFFFF
+- vuesax/bold/empty-wallet-add: size 24x24px, fill #FFFFFF
+- vuesax/bold/empty-wallet-remove: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-discount: size 24x24px, fill #FFFFFF
+- vuesax/bold/wallet-check: size 24x24px, fill #FFFFFF
+- vuesax/bold/empty-wallet: size 24x24px, fill #FFFFFF
+- vuesax/bold/receipt-item: size 24x24px, fill #FFFFFF
+- vuesax/linear/airplane-square: size 24x24px, fill #FFFFFF
+- vuesax/linear/car: size 24x24px, fill #FFFFFF
+- vuesax/linear/airplane: size 24x24px, fill #FFFFFF
+- vuesax/linear/gas-station: size 24x24px, fill #FFFFFF
+- vuesax/linear/ship: size 24x24px, fill #FFFFFF
+- vuesax/linear/driving: size 24x24px, fill #FFFFFF
+- vuesax/linear/bus: size 24x24px, fill #FFFFFF
+- vuesax/linear/smart-car: size 24x24px, fill #FFFFFF
+- vuesax/linear/dribbble: size 24x24px, fill #FFFFFF
+- vuesax/linear/vuesax: size 24x24px, fill #FFFFFF
+- vuesax/linear/nexo-(nexo): size 24x24px, fill #FFFFFF
+- vuesax/linear/python: size 24x24px, fill #FFFFFF
+- vuesax/linear/frame: size 24x24px, fill #FFFFFF
+- vuesax/linear/google: size 24x24px, fill #FFFFFF
+- vuesax/linear/google-play: size 24x24px, fill #FFFFFF
+- vuesax/linear/figma: size 24x24px, fill #FFFFFF
+- vuesax/linear/messenger: size 24x24px, fill #FFFFFF
+- vuesax/linear/be: size 24x24px, fill #FFFFFF
+- vuesax/linear/xiaomi: size 24x24px, fill #FFFFFF
+- vuesax/linear/framer: size 24x24px, fill #FFFFFF
+- vuesax/linear/blogger: size 24x24px, fill #FFFFFF
+- vuesax/linear/paypal: size 24x24px, fill #FFFFFF
+- vuesax/linear/spotify: size 24x24px, fill #FFFFFF
+- vuesax/linear/xd: size 24x24px, fill #FFFFFF
+- vuesax/linear/photoshop: size 24x24px, fill #FFFFFF
+- vuesax/linear/trello: size 24x24px, fill #FFFFFF
+- vuesax/linear/illustrator: size 24x24px, fill #FFFFFF
+- vuesax/linear/windows: size 24x24px, fill #FFFFFF
+- vuesax/linear/whatsapp: size 24x24px, fill #FFFFFF
+- vuesax/linear/youtube: size 24x24px, fill #FFFFFF
+- vuesax/linear/android: size 24x24px, fill #FFFFFF
+- vuesax/linear/triangle: size 24x24px, fill #FFFFFF
+- vuesax/linear/bootsrap: size 24x24px, fill #FFFFFF
+- vuesax/linear/js: size 24x24px, fill #FFFFFF
+- vuesax/linear/dropbox: size 24x24px, fill #FFFFFF
+- vuesax/linear/facebook: size 24x24px, fill #FFFFFF
+- vuesax/linear/snapchat: size 24x24px, fill #FFFFFF
+- vuesax/linear/slack: size 24x24px, fill #FFFFFF
+- vuesax/linear/ui8: size 24x24px, fill #FFFFFF
+- vuesax/linear/apple: size 24x24px, fill #FFFFFF
+- vuesax/linear/java-script: size 24x24px, fill #FFFFFF
+- vuesax/linear/html-3: size 24x24px, fill #FFFFFF
+- vuesax/linear/html-5: size 24x24px, fill #FFFFFF
+- vuesax/linear/autonio-(niox): size 24x24px, fill #FFFFFF
+- vuesax/linear/emercoin-(emc): size 24x24px, fill #FFFFFF
+- vuesax/linear/vibe-(vibe): size 24x24px, fill #FFFFFF
+- vuesax/linear/polyswarm-(nct): size 24x24px, fill #FFFFFF
+- vuesax/linear/educare-(ekt): size 24x24px, fill #FFFFFF
+- vuesax/linear/zel-(zel): size 24x24px, fill #FFFFFF
+- vuesax/linear/tenx-(pay): size 24x24px, fill #FFFFFF
+- vuesax/linear/nebulas-(nas): size 24x24px, fill #FFFFFF
+- vuesax/linear/wing-(wing): size 24x24px, fill #FFFFFF
+- vuesax/linear/wanchain-(wan): size 24x24px, fill #FFFFFF
+- vuesax/linear/civic-(cvc): size 24x24px, fill #FFFFFF
+- vuesax/linear/dent-(dent): size 24x24px, fill #FFFFFF
+- vuesax/linear/augur-(rep): size 24x24px, fill #FFFFFF
+- vuesax/linear/ontology-(ont): size 24x24px, fill #FFFFFF
+- vuesax/linear/the-graph-(grt): size 24x24px, fill #FFFFFF
+- vuesax/linear/celsius-(cel)-: size 24x24px, fill #FFFFFF
+- vuesax/linear/enjin-coin-(enj): size 24x24px, fill #FFFFFF
+- vuesax/linear/dash-(dash): size 24x24px, fill #FFFFFF
+- vuesax/linear/maker-(mkr): size 24x24px, fill #FFFFFF
+- vuesax/linear/dai-(dai): size 24x24px, fill #FFFFFF
+- vuesax/linear/ankr-(ankr): size 24x24px, fill #FFFFFF
+- vuesax/linear/hedera-hashgraph-(hbar): size 24x24px, fill #FFFFFF
+- vuesax/linear/quant-(qnt): size 24x24px, fill #FFFFFF
+- vuesax/linear/decred-(dcr): size 24x24px, fill #FFFFFF
+- vuesax/linear/kyber-network-(knc): size 24x24px, fill #FFFFFF
+- vuesax/linear/avalanche-(avax): size 24x24px, fill #FFFFFF
+- vuesax/linear/harmony-(one): size 24x24px, fill #FFFFFF
+- vuesax/linear/aave-(aave): size 24x24px, fill #FFFFFF
+- vuesax/linear/ocean-protocol-(ocean): size 24x24px, fill #FFFFFF
+- vuesax/linear/theta-(theta): size 24x24px, fill #FFFFFF
+- vuesax/linear/siacoin-(sc): size 24x24px, fill #FFFFFF
+- vuesax/linear/nem-(xem): size 24x24px, fill #FFFFFF
+- vuesax/linear/iost-(iost): size 24x24px, fill #FFFFFF
+- vuesax/linear/usd-coin-(usdc): size 24x24px, fill #FFFFFF
+- vuesax/linear/twitch: size 24x24px, fill #FFFFFF
+- vuesax/linear/bitcoin-(btc): size 24x24px, fill #FFFFFF
+- vuesax/linear/polkadot-(dot): size 24x24px, fill #FFFFFF
+- vuesax/linear/monero-(xmr): size 24x24px, fill #FFFFFF
+- vuesax/linear/okb-(okb): size 24x24px, fill #FFFFFF
+- vuesax/linear/ethereum-classic-(etc): size 24x24px, fill #FFFFFF
+- vuesax/linear/thorchain-(rune): size 24x24px, fill #FFFFFF
+- vuesax/linear/huobi-token-(ht): size 24x24px, fill #FFFFFF
+- vuesax/linear/trontron-(trx): size 24x24px, fill #FFFFFF
+- vuesax/linear/xrp-(xrp): size 24x24px, fill #FFFFFF
+- vuesax/linear/eos-(eos): size 24x24px, fill #FFFFFF
+- vuesax/linear/chainlink-(link): size 24x24px, fill #FFFFFF
+- vuesax/linear/binance-usd-(busd): size 24x24px, fill #FFFFFF
+- vuesax/linear/celo-(celo): size 24x24px, fill #FFFFFF
+- vuesax/linear/litecoin(ltc): size 24x24px, fill #FFFFFF
+- vuesax/linear/stacks-(stx): size 24x24px, fill #FFFFFF
+- vuesax/linear/cardano-(ada): size 24x24px, fill #FFFFFF
+- vuesax/linear/velas-(vlx): size 24x24px, fill #FFFFFF
+- vuesax/linear/icon-(icx): size 24x24px, fill #FFFFFF
+- vuesax/linear/tether-(usdt): size 24x24px, fill #FFFFFF
+- vuesax/linear/hex-(hex): size 24x24px, fill #FFFFFF
+- vuesax/linear/stellar-(xlm): size 24x24px, fill #FFFFFF
+- vuesax/linear/binance-coin-(bnb): size 24x24px, fill #FFFFFF
+- vuesax/linear/solana-(sol): size 24x24px, fill #FFFFFF
+- vuesax/linear/polygon-(matic): size 24x24px, fill #FFFFFF
+- vuesax/linear/zoom: size 24x24px, fill #FFFFFF
+- vuesax/linear/ethereum-(eth): size 24x24px, fill #FFFFFF
+- vuesax/linear/ftx-token-(ftt): size 24x24px, fill #FFFFFF
+
+## Most-Used Styles
+- Personal Coach (Light)/Dark BG: 96 uses
+- Flight Booking App (Light Mode)/Font 01: 86 uses
+- Font 01: 65 uses
+- Shadow: 62 uses
+- Text 1: 26 uses
+- Flight Booking App (Light Mode)/Font 02: 17 uses
+- Font 02: 15 uses
+- BG 2: 9 uses
+- Task Management/Title font: 9 uses
+- Flight Booking App (Light Mode)/White: 6 uses
+- Personal Coach (Light)/White: 4 uses
+- Text 4: 4 uses
+- Personal Coach (Light)/Base 01: 3 uses
+- B2: 1 use
+- B3: 1 use
+- B4: 1 use
+- Banking/White: 1 use
+- Base / 900 - Primary: 1 use
+- Taxi/Font 01: 1 use
+
+## Layout & Structure
+Screen: Thumbnail / Figma Community Thumbnail
+- FRAME "Figma Community Thumbnail", 1714x960px, constraints left/top, fill #DDD9F2
+  - GROUP "Group 36230", 1055x1878px, constraints left/top, radius 21.97px [decorative, ~12 shapes]
+  - FRAME "Frame 377", 406.14x84.54px, horizontal pad 0 0 0 0px gap 18.29px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 36222", 84.57x84.57px, horizontal pad 10.29 10.29 10.29 10.29px gap 4.57px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22.86px, fill gradient_linear(#FFFFFF 0% | #FFFFFF4D 100%), stroke gradient_linear(#FFFFFF4D 0% | #FFFFFF 100%) 1.14px, effect [inner_shadow 4.57px offset 0 -4.57 #FFFFFF4D] [decorative, ~5 shapes]
+    - FRAME "Frame 376", 304x84.57px, horizontal pad 10.29 10.29 10.29 10.29px gap 4.57px align center/center sizing W:fixed H:fixed, constraints left/top, radius 22.86px, fill gradient_linear(#FFFFFF 0% | #FFFFFF4D 100%), stroke gradient_linear(#FFFFFF4D 0% | #FFFFFF 100%) 1.14px, effect [inner_shadow 4.57px offset 0 -4.57 #FFFFFF4D]
+      - TEXT "102 Screens", 238x30px, constraints left/top, fill #0E1725, text [Inter SemiBold, 41.14px], [heading]
+  - FRAME "Content", 450.63x186.22px, horizontal pad 50.29 50.29 50.29 50.29px gap 4.57px align center/center sizing W:fixed H:fixed, constraints left/top, radius 27.43px, fill gradient_linear(#FFFFFF 0% | #FFFFFF4D 100%), stroke gradient_linear(#FFFFFF4D 0% | #FFFFFF 100%) 1.14px, effect [inner_shadow 4.57px offset 0 -4.57 #FFFFFF4D]
+    - TEXT "Personal Coach Hiring Mobile App", 401x96px, constraints left/top, fill #0E1725, text [Inter Bold, 45px], [heading]
+  - FRAME "Frame 1171278217", 385x82px, horizontal pad 0 0 0 0px gap 23px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Thumbnail", 82x82px, constraints left/top, radius 15.94px, fill #FFFFFFB2
+      - FRAME "Logo", 52.28x52.28px, constraints center/center, fill #FFFFFF
+        - VECTOR "Vector", 50.14x50.64px, constraints scale/scale, fill #8576D0
+    - TEXT "CoachHub", 280x40px, constraints left/top, fill #0E1725, text [Inter SemiBold, 54.86px], [heading]
+  - FRAME "Frame 1171276567", 486x361.02px, vertical pad 0 0 0 0px gap 22.86px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 361", 238.29x41.14px, horizontal pad 0 0 0 0px gap 9.14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top
+          - GROUP "tick-square", 41.14x41.14px, constraints left/top
+            - VECTOR "Vector", 34.27x34.29px, constraints scale/scale, fill #0E1725
+            - VECTOR "Vector", 41.14x41.14px, constraints scale/scale, opacity 0%
+      - TEXT "100% Editable", 188x28px, constraints left/top, fill #0E1725, text [Inter SemiBold, 27.43px], [heading]
+    - FRAME "Frame 364", 284.29x41.14px, horizontal pad 0 0 0 0px gap 9.14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top
+          - GROUP "tick-square", 41.14x41.14px, constraints left/top
+            - VECTOR "Vector", 34.27x34.29px, constraints scale/scale, fill #0E1725
+            - VECTOR "Vector", 41.14x41.14px, constraints scale/scale, opacity 0%
+      - TEXT "Well Documented", 234x28px, constraints left/top, fill #0E1725, text [Inter SemiBold, 27.43px], [heading]
+    - FRAME "Frame 364", 324.29x41.14px, horizontal pad 0 0 0 0px gap 9.14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top
+          - GROUP "tick-square", 41.14x41.14px, constraints left/top
+            - VECTOR "Vector", 34.27x34.29px, constraints scale/scale, fill #0E1725
+            - VECTOR "Vector", 41.14x41.14px, constraints scale/scale, opacity 0%
+      - TEXT "102 Prebuilt Screens", 274x20px, constraints left/top, fill #0E1725, text [Inter SemiBold, 27.43px], [heading]
+    - FRAME "Frame 365", 375.29x41.14px, horizontal pad 0 0 0 0px gap 9.14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top
+          - GROUP "tick-square", 41.14x41.14px, constraints left/top
+            - VECTOR "Vector", 34.27x34.29px, constraints scale/scale, fill #0E1725
+            - VECTOR "Vector", 41.14x41.14px, constraints scale/scale, opacity 0%
+      - TEXT "Clean & Organized Layer", 325x28px, constraints left/top, fill #0E1725, text [Inter SemiBold, 27.43px], [heading]
+    - FRAME "Frame 363", 395.29x41.14px, horizontal pad 0 0 0 0px gap 9.14px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top
+          - GROUP "tick-square", 41.14x41.14px, constraints left/top
+            - VECTOR "Vector", 34.27x34.29px, constraints scale/scale, fill #0E1725
+            - VECTOR "Vector", 41.14x41.14px, constraints scale/scale, opacity 0%
+      - TEXT "Pixel Perfect Components", 345x28px, constraints left/top, fill #0E1725, text [Inter SemiBold, 27.43px], [heading]
+    - FRAME "Frame 362", 486.86x41.14px, horizontal pad 0 0 0 0px gap 9.14px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/tick-square", 41.14x41.14px, constraints left/top
+          - GROUP "tick-square", 41.14x41.14px, constraints left/top
+            - VECTOR "Vector", 34.27x34.29px, constraints scale/scale, fill #0E1725
+            - VECTOR "Vector", 41.14x41.14px, constraints scale/scale, opacity 0%
+      - TEXT "Fully Customizable & Responsive", 437x28px, constraints left/top, fill #0E1725, text [Inter SemiBold, 27.43px], [heading]
+
+Screen: Main Design (Light Mode) / CoachHub – Personal Coach Hiring Mobile App UI Design (Light Mode)
+- SECTION "CoachHub – Personal Coach Hiring Mobile App UI Design (Light", 4095x11649px, fill #FFFFFF, stroke #0000001A 1px
+  - SECTION "Notification Flow", 970x972px, fill #D7D7E4, stroke #0000001A 1px
+    - FRAME "51. Notification Setting", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Dark BG
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: 1aee328c33bcf29cec107a3b1c54c7b4a9174bf3)
+    - FRAME "50. Notification", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Dark BG
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: 6b74ae135890f593582a42d2e96f0d96f48b1015)
+  - SECTION "Settings Flow", 4015x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~9 shapes]
+  - SECTION "Profile Flow", 3145x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~7 shapes]
+  - SECTION "To-Do List Flow", 3145x1021px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~7 shapes]
+  - SECTION "Coach Flow", 970x972px, fill #D7D7E4, stroke #0000001A 1px
+    - FRAME "26. Coach Details", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Dark BG
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: 6636579272927c54beaaa2962fec1171fd649673)
+    - FRAME "25. Coach", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Dark BG
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: b013660666a30ed5631e3a9f0fab1a217d141b75)
+  - SECTION "Chat Flow", 1840x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~4 shapes]
+  - SECTION "Home Flow", 4015x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~9 shapes]
+  - SECTION "Sign In Flow", 2275x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~5 shapes]
+  - SECTION "Sign Up Flow", 1840x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~4 shapes]
+  - SECTION "Splash and Onboarding", 970x972px, fill #D7D7E4, stroke #0000001A 1px
+    - FRAME "02. Onboarding", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/White
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: c4715066ac7fc79634f73b76433759c2bd671a03)
+    - FRAME "01. Splash", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Base 01
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: 83226850b28f90807a7e4766822d99707771e427)
+
+Screen: Main Design (Dark Mode) / TrainHub – Personal Trainer Hiring Mobile App UI Design (Dark Mode)
+- SECTION "TrainHub – Personal Trainer Hiring Mobile App UI Design (Dar", 4095x11649px, fill #FFFFFF, stroke #0000001A 1px
+  - SECTION "Notification Flow", 970x972px, fill #D7D7E4, stroke #0000001A 1px
+    - FRAME "51. Notification Setting", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Dark BG
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: 41d5059f6537d7622f49f2b7ecae192c4d724b60)
+    - FRAME "50. Notification", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Dark BG
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: cf7ec847bff705701e66778389bffe70a27500cf)
+  - SECTION "Settings Flow", 4015x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~9 shapes]
+  - SECTION "Profile Flow", 3145x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~7 shapes]
+  - SECTION "To-Do List Flow", 3145x1021px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~7 shapes]
+  - SECTION "Coach Flow", 970x972px, fill #D7D7E4, stroke #0000001A 1px
+    - FRAME "26. Coach Details", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Dark BG
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: 58d6b4c7379a01ebe90d401beb70a333851e4228)
+    - FRAME "25. Coach", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Dark BG
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: f7a52cd6aaa01e81ffd5705d7b32b100ba6e5b8e)
+  - SECTION "Chat Flow", 1840x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~4 shapes]
+  - SECTION "Home Flow", 4015x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~9 shapes]
+  - SECTION "Sign In Flow", 2275x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~5 shapes]
+  - SECTION "Sign Up Flow", 1840x972px, fill #D7D7E4, stroke #0000001A 1px [decorative, ~4 shapes]
+  - SECTION "Splash and Onboarding", 970x972px, fill #D7D7E4, stroke #0000001A 1px
+    - FRAME "02. Onboarding", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/White
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: 5814d7befef88407350cc38edf62e568f6971a20)
+    - FRAME "01. Splash", 375x812px, constraints left/top, radius 32px, fill Personal Coach (Light)/Base 01
+      - RECTANGLE "Rectangle 42037", 375x812px, constraints center/center, fill image(hash: a4085529647199f0c70fbf6a83fbf4c56a89a568)
+
+Screen: Stye Guide / Stye Guide
+- SECTION "Stye Guide", 1680x1512px, fill #C7C7C7, stroke #0000001A 1px
+  - FRAME "Color", 672x1352px, constraints left/top, radius 16px, fill #FFFFFF, effect [drop_shadow 220px offset -16 0 #00000026]
+    - GROUP "Group 1171275480", 672x1352px, constraints center/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4161", 672x1352px, constraints left/top, radius 16px, fill Font 01
+      - RECTANGLE "Rectangle 4160", 672x1324px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 416", 579.41x1174.71px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 415", 579.41x598.65px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - GROUP "Primary Palette", 362x62.78px, constraints left/top, radius 0/0/0/0px
+            - TEXT "The style guide provides to change stylistic for your design", 362x15px, constraints left/top, fill Font 02, text [Inter Regular, 12px]
+            - TEXT "Move Colors", 221x44px, constraints left/top, fill Font 01, text [Inter Bold, 36px], [heading]
+          - RECTANGLE "Rectangle 10", 579.41x0.93px, constraints left/top, radius 2.34px, fill BG 2
+          - FRAME "Frame 414", 579.41x486.93px, vertical pad 0 0 0 0px gap 36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 408", 579.41x138.31px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 409", 579.41x138.31px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 410", 579.41x138.31px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 413", 579.41x240.03px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - GROUP "Typography Colors", 210x52.78px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Heading & Body", 86x14px, constraints left/top, fill Text 4, text [Inter SemiBold, 11.21px]
+            - TEXT "Typography Colors", 210x27px, constraints left/top, fill Text 1, text [Inter Bold, 22.43px]
+          - RECTANGLE "Rectangle 11", 579.41x0.93px, constraints left/top, radius 2.34px, fill BG 2
+          - FRAME "Frame 410", 579.41x138.31px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fill H:fixed, constraints left/top
+            - GROUP "Text 1", 134.11x138.31px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Text 2", 134.11x138.31px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Text 3", 134.11x138.31px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Text 4", 134.11x138.31px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Frame 412", 579.41x240.03px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - GROUP "Background Colors", 210x52.78px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Background Colors", 104x14px, constraints left/top, fill Text 4, text [Inter SemiBold, 11.21px]
+            - TEXT "Background Colors", 210x27px, constraints left/top, fill Text 1, text [Inter Bold, 22.43px]
+          - RECTANGLE "Rectangle 11", 579.41x0.93px, constraints left/top, radius 2.34px, fill BG 2
+          - FRAME "Frame 411", 579.41x138.31px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fill H:fixed, constraints left/top
+            - GROUP "BG 1", 134.11x138.31px, constraints left/top, radius 0/0/0/0px
+            - GROUP "BG 2", 134.11x138.31px, constraints left/top, radius 0/0/0/0px
+            - GROUP "BG 3", 134.11x138.31px, constraints left/top, radius 0/0/0/0px
+            - GROUP "BG 4", 134.11x138.31px, constraints left/top, radius 0/0/0/0px
+    - FRAME "Color Plate", 672x1352px, constraints left/top, radius 16px, fill #FFFFFF
+      - GROUP "Group 1171275480", 672x1352px, constraints center/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 4161", 672x1352px, constraints left/top, radius 16px, fill Flight Booking App (Light Mode)/Font 01
+        - RECTANGLE "Rectangle 4160", 672x1324px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 416", 579.41x1174.71px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 415", 579.41x598.65px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+            - GROUP "Primary Palette", 362x62.78px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 10", 579.41x0.93px, constraints left/top, radius 2.34px, fill BG 2
+            - FRAME "Frame 414", 579.41x486.93px, vertical pad 0 0 0 0px gap 36px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 413", 579.41x240.03px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+            - GROUP "Typography Colors", 210x52.78px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 11", 579.41x0.93px, constraints left/top, radius 2.34px, fill BG 2
+            - FRAME "Frame 410", 579.41x138.31px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 412", 579.41x240.03px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+            - GROUP "Background Colors", 210x52.78px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 11", 579.41x0.93px, constraints left/top, radius 2.34px, fill BG 2
+            - FRAME "Frame 411", 579.41x138.31px, horizontal pad 0 0 0 0px gap 14px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Color Plate", 672x1352px, constraints left/top, radius 16px, fill #FFFFFF
+        - GROUP "Group 1171275480", 672x1352px, constraints center/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 4161", 672x1352px, constraints left/top, radius 16px, fill Flight Booking App (Light Mode)/Font 01
+          - RECTANGLE "Rectangle 4160", 672x1324px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 416", 579.41x1194.71px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 415", 579.41x250.03px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 416", 579.41x424.34px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 417", 579.41x424.34px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+  - FRAME "Typography", 788x1330px, constraints left/top, radius 19.01px, fill #FFFFFF, effect [drop_shadow 220px offset -16 0 #00000026]
+    - RECTANGLE "Rectangle 4161", 788.59x1330px, constraints left/top, radius 18.01px, fill Font 01
+    - RECTANGLE "Rectangle 4160", 788.59x1297.98px, constraints left/top, fill Banking/White
+    - GROUP "Group 1171275481", 788.59x1161.82px, constraints left/top
+      - FRAME "Frame 393", 611.46x91.03px, vertical pad 0 0 0 0px gap 40.03px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Typography", 611.46x36px, constraints left/top, fill Font 01, text [Inter Bold, 50.04px], [heading]
+        - TEXT "The style guide provides to change stylistic for your design", 611.46x15px, constraints left/top, fill Font 02, text [Inter Medium, 20.02px]
+      - LINE "Line 110", 788.59x0px, constraints left/top, stroke Font 02 1px, opacity 30%
+      - FRAME "Frame 396", 686.52x131.03px, horizontal pad 0 0 0 0px gap 48.04px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 394", 140.11x131.03px, vertical pad 0 0 0 0px gap 34.03px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Inter", 140.11x17px, constraints left/top, fill Task Management/Title font, text [Inter Medium, 24.02px], [heading]
+          - TEXT "Aa", 140.11x80px, constraints left/top, fill Task Management/Title font, text [Inter Medium, 110.08px], [heading]
+        - LINE "Line 111", 0x119.09px, constraints left/top, stroke Font 02 1px, opacity 30%
+        - FRAME "Frame 395", 450.34x99.04px, vertical pad 0 0 0 0px gap 24.02px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "ABCDEFGHIJKLMNOPQRSTUVWXYZ", 481x17px, constraints left/top, fill Font 01, text [Inter SemiBold, 24.02px], [heading]
+          - TEXT "abcdefghijklmnopqrstuvwxyz", 450.34x17px, constraints left/top, fill Font 01, text [Inter SemiBold, 24.02px], [heading]
+          - TEXT "0123456789", 450.34x17px, constraints left/top, fill Font 01, text [Inter SemiBold, 24.02px], [heading]
+      - FRAME "Frame 419", 644.48x305.14px, vertical pad 0 0 0 0px gap 32.02px sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Body", 157x30px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Font size", 157x30px, constraints left/top, fill Task Management/Title font, text [Inter SemiBold, 36.03px], [heading]
+        - FRAME "Frame 406", 644.48x243.12px, horizontal pad 0 0 0 0px gap 120.09px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 404", 262.2x243.12px, vertical pad 0 0 0 0px gap 32.02px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Heading desktop text size", 262.2x12px, constraints left/top, fill Font 02, text [Inter Medium, 16.01px]
+            - FRAME "Frame 403", 262.2x199.1px, vertical pad 0 0 0 0px gap 32.02px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 405", 262.2x181.1px, vertical pad 0 0 0 0px gap 32.02px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Body text size", 262.2x12px, constraints left/top, fill Font 02, text [Inter Medium, 16.01px]
+            - FRAME "Frame 403", 262.2x137.07px, vertical pad 0 0 0 0px gap 32.02px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 423", 660.5x371.23px, vertical pad 0 0 0 0px gap 40.03px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Body", 660.5x26px, constraints left/top, fill Task Management/Title font, text [Inter Bold, 36.03px], [heading]
+        - FRAME "Frame 422", 660.5x305.2px, vertical pad 0 0 0 0px gap 44.03px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 420", 660.5x79.05px, vertical pad 0 0 0 0px gap 20.02px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Body text view 18 regular", 660.5x15px, constraints left/top, fill Task Management/Title font, text [Inter SemiBold, 20.02px]
+            - TEXT "Lorem Ipsum has been the industry's standard dummy text ever", 660.5x44.03px, constraints left/top, fill Font 02, text [Inter Regular, 18.01px]
+          - FRAME "Frame 421", 660.5x69.04px, vertical pad 0 0 0 0px gap 20.02px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Body text view 16 regular", 660.5x15px, constraints left/top, fill Task Management/Title font, text [Inter SemiBold, 20.02px]
+            - TEXT "Lorem Ipsum has been the industry's standard dummy text ever", 660.5x34.03px, constraints left/top, fill Font 02, text [Inter Regular, 16.01px]
+          - FRAME "Frame 422", 660.5x69.04px, vertical pad 0 0 0 0px gap 20.02px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Body text view 14 regular", 660.5x15px, constraints left/top, fill Task Management/Title font, text [Inter SemiBold, 20.02px]
+            - TEXT "Lorem Ipsum has been the industry's standard dummy text ever", 660.5x34.03px, constraints left/top, fill Font 02, text [Inter Regular, 14.01px]
+    - FRAME "Typography", 788x1329px, constraints left/top, radius 19px, fill Flight Booking App (Light Mode)/White
+      - RECTANGLE "Rectangle 4161", 788x1329px, constraints left/top, radius 18px, fill Flight Booking App (Light Mode)/Font 01
+      - RECTANGLE "Rectangle 4160", 788x1297px, constraints left/top, fill Flight Booking App (Light Mode)/White
+      - GROUP "Group 1171275481", 788x1158px, constraints left/top
+        - FRAME "Frame 393", 611x90px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Typography", 611x36px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Bold, 50px], [heading]
+          - TEXT "The style guide provides to change stylistic for your design", 611x14px, constraints left/top, fill Flight Booking App (Light Mode)/Font 02, text [General Sans Medium, 20px]
+        - LINE "Line 110", 788x0px, constraints left/top, stroke Flight Booking App (Light Mode)/Font 02 1px, opacity 30%
+        - FRAME "Frame 396", 670x129px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 394", 140x129px, vertical pad 0 0 0 0px gap 34px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "General Sans", 136x16px, constraints left/top, fill Task Management/Title font, text [General Sans Medium, 22px]
+            - TEXT "Aa", 140x79px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 110px], [heading]
+          - LINE "Line 111", 0x119px, constraints left/top, stroke Flight Booking App (Light Mode)/Font 02 1px, opacity 30%
+          - FRAME "Frame 395", 450x97px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "ABCDEFGHIJKLMNOPQRSTUVWXYZ", 431x15px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Semibold, 21px]
+            - TEXT "abcdefghijklmnopqrstuvwxyz", 450x17px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Semibold, 24px], [heading]
+            - TEXT "0123456789", 450x17px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Semibold, 24px], [heading]
+        - FRAME "Frame 419", 644x302px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Body", 154x29px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Font size", 154x29px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Semibold, 36px], [heading]
+          - FRAME "Frame 406", 644x241px, horizontal pad 0 0 0 0px gap 120px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 404", 262x241px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 405", 262x186px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 423", 660x368px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Body", 660x26px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Bold, 36px], [heading]
+          - FRAME "Frame 422", 660x302px, vertical pad 0 0 0 0px gap 44px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 420", 660x78px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 421", 660x68px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 422", 660x68px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Typography", 788x1329px, constraints left/top, radius 19px, fill Flight Booking App (Light Mode)/White
+        - RECTANGLE "Rectangle 4161", 788x1329px, constraints left/top, radius 18px, fill Flight Booking App (Light Mode)/Font 01
+        - RECTANGLE "Rectangle 4160", 788x1297px, constraints left/top, fill Flight Booking App (Light Mode)/White
+        - GROUP "Group 1171275481", 788x1157px, constraints left/top
+          - FRAME "Frame 393", 611x89px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Typography", 611x35px, constraints left/top, fill #192031, text [Outfit Bold, 50px], [heading]
+            - TEXT "The style guide provides to change stylistic for your design", 611x14px, constraints left/top, fill Flight Booking App (Light Mode)/Font 02, text [Outfit Medium, 20px]
+          - LINE "Line 110", 788x0px, constraints left/top, stroke Flight Booking App (Light Mode)/Font 02 1px, opacity 30%
+          - FRAME "Frame 396", 670x126px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 394", 140x126px, vertical pad 0 0 0 0px gap 34px align min/center sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 111", 0x119px, constraints left/top, stroke Flight Booking App (Light Mode)/Font 02 1px, opacity 30%
+            - FRAME "Frame 395", 450x97px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 419", 644x301px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Body", 143x29px, constraints left/top, radius 0/0/0/0px
+            - FRAME "Frame 406", 644x240px, horizontal pad 0 0 0 0px gap 120px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 423", 660x367px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Body", 660x25px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [Outfit Bold, 36px], [heading]
+            - FRAME "Frame 422", 660x302px, vertical pad 0 0 0 0px gap 44px sizing W:fill H:fixed, constraints left/top
+
+Screen: Components / Component
+- SECTION "Component", 7664x5231px, fill #C7C7C7, stroke #0000001A 1px
+  - RECTANGLE "Card 1", 4096x2783px, constraints left/top, fill image(hash: be6807fd5b171aba516b87b2da7b52bb9dc0f25b)
+  - RECTANGLE "Functinality 1", 2984x2128px, constraints left/top, fill image(hash: 6cb6021b84f040181b522164e0e631d798494f90)
+  - RECTANGLE "Frame 1171278212 1", 3248x1820px, constraints left/top, fill image(hash: cc6175418e94efede17667a43f938b441f1c94d0)
+  - RECTANGLE "Frame 1171278212 2", 1756x2436px, constraints left/top, fill image(hash: b3b10642ee8d9b5425110242e524c8b812cfdfe8)
+
+Screen: Icons / Icon: Line
+- SECTION "Icon: Line", 8223x2724px, fill #C7C7C7, stroke #0000001A 1px
+  - FRAME "Money", 880x756px, constraints left/top, radius 24px, fill #FFFFFF, effect Shadow
+    - FRAME "Styles", 664x56px, constraints left/top
+      - LINE "Line", 664x0px, constraints scale/scale, stroke #E6EAEE 1px
+      - FRAME "Frame 2", 178x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tittle", 100x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 32px], [heading]
+        - LINE "Line 1", 0x21px, constraints left/top, stroke #E6EAEE 1px
+        - TEXT "Tittle", 46x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 16px]
+    - COMPONENT "vuesax/linear/wallet-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/wallet-add", 24x24px, constraints scale/scale [decorative, ~7 shapes]
+    - COMPONENT "vuesax/linear/empty-wallet", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/empty-wallet", 24x24px, constraints scale/scale [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/wallet-check", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/wallet-check", 24x24px, constraints scale/scale [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/receipt-item", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/receipt-item", 24x24px, constraints scale/scale [decorative, ~7 shapes]
+    - COMPONENT "vuesax/linear/receipt-discount", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/receipt-discount", 24x24px, constraints scale/scale [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/empty-wallet-remove", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/empty-wallet-remove", 24x24px, constraints scale/scale [decorative, ~8 shapes]
+    - COMPONENT "vuesax/linear/empty-wallet-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/empty-wallet-add", 24x24px, constraints scale/scale [decorative, ~8 shapes]
+    - COMPONENT "vuesax/linear/receipt-minus", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/receipt-minus", 24x24px, constraints scale/scale [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/wallet-search", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/wallet-search", 24x24px, constraints scale/scale [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/strongbox-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/strongbox-2", 24x24px, constraints scale/scale [decorative, ~7 shapes]
+    - COMPONENT "vuesax/linear/empty-wallet-tick", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/empty-wallet-tick", 24x24px, constraints scale/scale [decorative, ~7 shapes]
+    - COMPONENT "vuesax/linear/receipt-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/receipt-add", 24x24px, constraints scale/scale [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/money", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/money", 24x24px, constraints scale/scale [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/empty-wallet-time", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/empty-wallet-time", 24x24px, constraints scale/scale [decorative, ~7 shapes]
+    - COMPONENT "vuesax/linear/transaction-minus", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/transaction-minus", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 17x20px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 5.5x0px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/money-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/money-2", 24x24px, constraints scale/scale [decorative, ~7 shapes]
+    - COMPONENT "vuesax/linear/empty-wallet-change", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/empty-wallet-change", 24x24px, constraints scale/scale [decorative, ~9 shapes]
+    - COMPONENT "vuesax/linear/money-3", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/money-3", 24x24px, constraints scale/scale [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/percentage-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/percentage-square", 24x24px, constraints scale/scale [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/money-4", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/money-4", 24x24px, constraints scale/scale [decorative, ~7 shapes]
+    - COMPONENT "vuesax/linear/group", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/group", 24x24px, constraints scale/scale [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/chart-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/chart-square", 24x24px, constraints scale/scale [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/moneys", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/moneys", 24x24px, constraints scale/scale [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/coin", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/coin", 24x24px, constraints scale/scale [decorative, ~4 shapes]
+    - ... +54 more children
+  - FRAME "Type, Paragraph, Character", 880x503px, constraints left/top, radius 24px, fill #FFFFFF, effect Shadow
+    - FRAME "Styles", 664x56px, constraints left/top
+      - LINE "Line", 664x0px, constraints scale/scale, stroke #E6EAEE 1px
+      - FRAME "Frame 2", 480x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tittle", 402x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 32px], [heading]
+        - LINE "Line 1", 0x21px, constraints left/top, stroke #E6EAEE 1px
+        - TEXT "Tittle", 46x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 16px]
+    - COMPONENT "vuesax/linear/eraser", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/eraser", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/attach-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/attach-square", 24x24px, constraints left/top
+        - GROUP "attach-square", 24x24px, constraints scale/scale
+          - GROUP "Group", 10.26x9.64px, constraints scale/scale
+            - VECTOR "Vector", 10.26x9.64px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 20x20px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/attach-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/attach-circle", 24x24px, constraints left/top
+        - GROUP "attach-circle", 24x24px, constraints scale/scale
+          - GROUP "Group", 10.26x9.64px, constraints scale/scale
+            - VECTOR "Vector", 10.26x9.64px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 20x20px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/quote-up", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/quote-up", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/quote-down", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/quote-down", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/quote-up-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/quote-up-square", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/quote-down-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/quote-down-square", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/quote-down-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/quote-down-circle", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/quote-up-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/quote-up-circle", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/link", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/link", 24x24px, constraints left/top
+        - GROUP "link", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 16x11px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 16x11px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/link-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/link-square", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/link-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/link-circle", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/translate", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/translate", 24x24px, constraints left/top [decorative, ~11 shapes]
+    - COMPONENT "vuesax/linear/language-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/language-square", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/language-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/language-circle", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/textalign-justifyleft", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/textalign-justifyleft", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/link", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/link", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/firstline", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/firstline", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/link", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/link", 24x24px, constraints left/top
+        - GROUP "link", 24x24px, constraints left/top
+          - VECTOR "Vector", 11.5x11.5px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/text-block", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/text-block", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/text-italic", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/text-italic", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/pharagraphspacing", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/pharagraphspacing", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/maximize", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/maximize", 24x24px, constraints left/top [decorative, ~8 shapes]
+    - COMPONENT "vuesax/linear/text", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/text", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - ... +11 more children
+  - FRAME "Arrow", 880x625px, constraints left/top, radius 24px, fill #FFFFFF, effect Shadow
+    - FRAME "Styles", 664x56px, constraints left/top
+      - LINE "Line", 664x0px, constraints scale/scale, stroke #E6EAEE 1px
+      - FRAME "Frame 2", 170x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tittle", 92x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 32px], [heading]
+        - LINE "Line 1", 0x21px, constraints left/top, stroke #E6EAEE 1px
+        - TEXT "Tittle", 46x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 16px]
+    - COMPONENT "vuesax/linear/received", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/received", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/send", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/send", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/arrow-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrow-2", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/arrow-3", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrow-3", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/arrange-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrange-square", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/arrange-square-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrange-square-2", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/back-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/back-square", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/receive-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/receive-square", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/forward-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/forward-square", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/refresh-right-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/refresh-right-square", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/refresh-left-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/refresh-left-square", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/refresh-square-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/refresh-square-2", 24x24px, constraints left/top
+        - GROUP "refresh-square-2", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 20x20px, constraints scale/scale, stroke #292D32 1.5px
+          - GROUP "Group", 11x11px, constraints scale/scale
+            - VECTOR "Vector", 11x11px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/send-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/send-square", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/send-sqaure-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/send-sqaure-2", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/receive-square-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/receive-square-2", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/arrange-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrange-circle", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/arrange-circle-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrange-circle-2", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/repeat", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/repeat", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/repeat-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/repeat-circle", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/refresh-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/refresh-circle", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/arrow-square-down", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrow-square-down", 24x24px, constraints left/top
+        - GROUP "arrow-square-down", 24x24px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 7.06x3.52px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/arrow-left", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrow-left", 24x24px, constraints left/top
+        - GROUP "arrow-left", 24x24px, constraints left/top
+          - VECTOR "Vector", 6.07x12.14px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 16.83x0px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/arrow-square-up", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrow-square-up", 24x24px, constraints left/top
+        - GROUP "arrow-square-up", 24x24px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 7.06x3.52px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/arrow-square-left", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/arrow-square-left", 24x24px, constraints left/top
+        - GROUP "arrow-square-left", 24x24px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 3.52x7.06px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - ... +41 more children
+  - FRAME "Weather", 880x373px, constraints left/top, radius 24px, fill #FFFFFF, effect Shadow
+    - FRAME "Styles", 664x56px, constraints left/top
+      - LINE "Line", 664x0px, constraints scale/scale, stroke #E6EAEE 1px
+      - FRAME "Frame 2", 204x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tittle", 126x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 32px], [heading]
+        - LINE "Line 1", 0x21px, constraints left/top, stroke #E6EAEE 1px
+        - TEXT "Tittle", 46x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 16px]
+    - COMPONENT "vuesax/linear/flash", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/flash", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/drop", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/drop", 24x24px, constraints left/top
+        - GROUP "drop", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 16.2x20px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/wind", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/wind", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/wind-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/wind-2", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/cloud-fog", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud-fog", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/sun-fog", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/sun-fog", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/sun", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/sun", 24x24px, constraints left/top [decorative, ~14 shapes]
+    - COMPONENT "vuesax/linear/moon", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/moon", 24x24px, constraints left/top
+        - GROUP "moon", 24x24px, constraints left/top
+          - VECTOR "Vector", 19.37x20.01px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/cloud-cross", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud-cross", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/cloud-plus", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud-plus", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/cloud-minus", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud-minus", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/cloud-sunny", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud-sunny", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/cloud-drizzle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud-drizzle", 24x24px, constraints left/top [decorative, ~8 shapes]
+    - COMPONENT "vuesax/linear/cloud-lightning", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud-lightning", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/cloud-notif", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud-notif", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/cloud-snow", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud-snow", 24x24px, constraints left/top [decorative, ~7 shapes]
+    - COMPONENT "vuesax/linear/sun", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/sun", 24x24px, constraints left/top
+        - GROUP "sun", 24x24px, constraints left/top
+          - VECTOR "Vector", 13x13px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 20x20px, constraints scale/scale, stroke #292D32 2px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/cloud", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/cloud", 24x24px, constraints left/top
+        - GROUP "cloud", 24x24px, constraints left/top
+          - VECTOR "Vector", 19.95x16.12px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 1.67x0.41px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+  - FRAME "Users", 880x373px, constraints left/top, radius 24px, fill #FFFFFF, effect Shadow
+    - FRAME "Styles", 664x56px, constraints left/top
+      - LINE "Line", 664x0px, constraints scale/scale, stroke #E6EAEE 1px
+      - FRAME "Frame 2", 161x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tittle", 83x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 32px], [heading]
+        - LINE "Line 1", 0x21px, constraints left/top, stroke #E6EAEE 1px
+        - TEXT "Tittle", 46x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 16px]
+    - COMPONENT "vuesax/linear/tag-user", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/tag-user", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/people", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/people", 24x24px, constraints left/top [decorative, ~7 shapes]
+    - COMPONENT "vuesax/linear/user", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user", 24x24px, constraints left/top
+        - GROUP "user", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 10x10px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 17.18x7px, constraints scale/scale, stroke #292D32 1.5px
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/linear/user-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user-add", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/user-remove", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user-remove", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/linear/user-tick", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user-tick", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/user-minus", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user-minus", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/user-tag", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user-tag", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/user-search", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user-search", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/user-edit", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user-edit", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/linear/user-octagon", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user-octagon", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/linear/user-cirlce-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/linear/user-cirlce-add", 24x24px, constraints left/top [decorative, ~7 shapes]
+  - ... +7 more children
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Icons / Icon: Bold
+- SECTION "Icon: Bold", 8223x2725px, fill #C7C7C7, stroke #0000001A 1px
+  - FRAME "Money", 880x756px, constraints left/top, radius 24px, fill #FFFFFF, effect Shadow
+    - FRAME "Styles", 664x56px, constraints left/top
+      - LINE "Line", 664x0px, constraints scale/scale, stroke #E6EAEE 1px
+      - FRAME "Frame 2", 165x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tittle", 100x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 32px], [heading]
+        - LINE "Line 1", 0x21px, constraints left/top, stroke #E6EAEE 1px
+        - TEXT "Tittle", 33x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 16px]
+    - COMPONENT "vuesax/bold/wallet-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/wallet-add", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/receipt-item", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/receipt-item", 24x24px, constraints left/top
+        - GROUP "receipt-item", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 16x20.58px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 6x9px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/empty-wallet", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/empty-wallet", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/bold/wallet-check", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/wallet-check", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/receipt-discount", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/receipt-discount", 24x24px, constraints left/top
+        - GROUP "receipt-discount", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 16x20.58px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 6x9px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/empty-wallet-remove", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/empty-wallet-remove", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/empty-wallet-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/empty-wallet-add", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/receipt-minus", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/receipt-minus", 24x24px, constraints left/top
+        - GROUP "receipt-minus", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 16x20.58px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 6x9px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/wallet-search", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/wallet-search", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/strongbox-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/strongbox-2", 24x24px, constraints left/top
+        - GROUP "strongbox-2", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/empty-wallet-tick", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/empty-wallet-tick", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/receipt-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/receipt-add", 24x24px, constraints left/top
+        - GROUP "receipt-add", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 6x9px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 16x20.58px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/money", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/money", 24x24px, constraints left/top
+        - GROUP "money", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/empty-wallet-time", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/empty-wallet-time", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/transaction-minus", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/transaction-minus", 24x24px, constraints left/top
+        - GROUP "transaction-minus", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 16.99x19.98px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/money-2", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/money-2", 24x24px, constraints left/top
+        - GROUP "money-2", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 6x6px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/empty-wallet-change", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/empty-wallet-change", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/money-3", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/money-3", 24x24px, constraints left/top
+        - GROUP "money-3", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/percentage-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/percentage-square", 24x24px, constraints left/top
+        - GROUP "percentage-square", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/money-4", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/money-4", 24x24px, constraints left/top
+        - GROUP "money-4", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/percentage-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/percentage-circle", 24x24px, constraints left/top
+        - GROUP "percentage-circle", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/chart-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/chart-square", 24x24px, constraints left/top
+        - GROUP "chart-square", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/moneys", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/moneys", 24x24px, constraints left/top
+        - GROUP "moneys", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 17.59x13.95px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 16.48x12.85px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/receipt-edit", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/receipt-edit", 24x24px, constraints left/top
+        - GROUP "receipt-edit", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 16.99x19.98px, constraints scale/scale, fill #292D32
+    - ... +54 more children
+  - FRAME "Type, Paragraph, Character", 880x503px, constraints left/top, radius 24px, fill #FFFFFF, effect Shadow
+    - GROUP "Styles", 664x56px, constraints left/top
+      - LINE "Line", 664x0px, constraints scale/scale, stroke #E6EAEE 1px
+      - FRAME "Frame 2", 467x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tittle", 402x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 32px], [heading]
+        - LINE "Line 1", 0x21px, constraints left/top, stroke #E6EAEE 1px
+        - TEXT "Tittle", 33x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 16px]
+    - COMPONENT "vuesax/bold/eraser", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/eraser", 24x24px, constraints left/top
+        - GROUP "eraser", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/attach-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/attach-square", 24x24px, constraints left/top
+        - GROUP "attach-square", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/attach-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/attach-circle", 24x24px, constraints left/top
+        - GROUP "attach-circle", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #292D32, opacity 93%
+    - COMPONENT "vuesax/bold/quote-up", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/quote-up", 24x24px, constraints left/top
+        - GROUP "quote-up", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 9.18x17.61px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 9.18x17.62px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/quote-down", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/quote-down", 24x24px, constraints left/top
+        - GROUP "quote-down", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 9.18x17.62px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 9.19x17.62px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/quote-up-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/quote-up-square", 24x24px, constraints left/top
+        - GROUP "quote-up-square", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/quote-down-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/quote-down-square", 24x24px, constraints left/top
+        - GROUP "quote-down-square", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/quote-down-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/quote-down-circle", 24x24px, constraints left/top
+        - GROUP "quote-down-circle", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/quote-up-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/quote-up-circle", 24x24px, constraints left/top
+        - GROUP "quote-up-circle", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/link", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/link", 24x24px, constraints left/top
+        - GROUP "link", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 17.5x12.5px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 17.51x12.5px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/link-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/link-square", 24x24px, constraints left/top
+        - GROUP "link-square", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/link-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/link-circle", 24x24px, constraints left/top
+        - GROUP "link-circle", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/translate", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/translate", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/bold/language-square", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/language-square", 24x24px, constraints left/top
+        - GROUP "language-square", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/language-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/language-circle", 24x24px, constraints left/top
+        - GROUP "language-circle", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/textalign-center", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/textalign-center", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/textalign-left", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/textalign-left", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/textalign-justifyright", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/textalign-justifyright", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/bold/link", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/link", 24x24px, constraints left/top
+        - GROUP "link", 24x24px, constraints left/top
+          - VECTOR "Vector", 13.17x13.17px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 13.17x13.17px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+    - COMPONENT "vuesax/bold/pharagraphspacing", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/pharagraphspacing", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/bold/textalign-right", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/textalign-right", 24x24px, constraints left/top [decorative, ~7 shapes]
+    - COMPONENT "vuesax/bold/link", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/link", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/bold/textalign-justifycenter", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/textalign-justifycenter", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/textalign-justifyleft", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/textalign-justifyleft", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - ... +11 more children
+  - FRAME "Video, Audio, Image", 880x756px, constraints left/top, radius 24px, fill #FFFFFF, effect Shadow
+    - FRAME "Styles", 664x56px, constraints left/top
+      - LINE "Line", 664x0px, constraints scale/scale, stroke #E6EAEE 1px
+      - FRAME "Frame 2", 357x28px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Tittle", 292x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 32px], [heading]
+        - LINE "Line 1", 0x21px, constraints left/top, stroke #E6EAEE 1px
+        - TEXT "Tittle", 33x28px, constraints left/top, fill #292D32, text [Product Sans Bold, 16px]
+    - COMPONENT "vuesax/bold/scissor", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/scissor", 24x24px, constraints left/top
+        - GROUP "scissor", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.99x20px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/backward", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/backward", 24x24px, constraints left/top
+        - GROUP "backward", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 9.76x11.23px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 10.24x11.23px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/forward", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/forward", 24x24px, constraints left/top
+        - GROUP "forward", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 9.76x11.23px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 10.24x11.23px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/previous", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/previous", 24x24px, constraints left/top
+        - GROUP "previous", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 13.4x14.68px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 1.5x13.86px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/next", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/next", 24x24px, constraints left/top
+        - GROUP "next", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 13.41x14.68px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 1.5x13.86px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/radio", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/radio", 24x24px, constraints left/top
+        - GROUP "radio", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 1.5x3.8px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 20x17px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/music-circle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/music-circle", 24x24px, constraints left/top [decorative, ~7 shapes]
+    - COMPONENT "vuesax/bold/play-cricle", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/play-cricle", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/bold/play-remove", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/play-remove", 24x24px, constraints left/top
+        - GROUP "play-remove", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 8x8px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 20x19.99px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/play-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/play-add", 24x24px, constraints left/top
+        - GROUP "play-add", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 20x19.99px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 8x8px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/backward-5-seconds", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/backward-5-seconds", 24x24px, constraints left/top
+        - GROUP "backward-5-seconds", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 5.32x6.85px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 19.28x21.49px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/backward-15-seconds", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/backward-15-seconds", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/bold/backward-10-seconds", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/backward-10-seconds", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/bold/forward-5-seconds", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/forward-5-seconds", 24x24px, constraints left/top
+        - GROUP "forward-5-seconds", 24x24px, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints scale/scale, opacity 0%
+          - VECTOR "Vector", 19.27x21.5px, constraints scale/scale, fill #292D32
+          - VECTOR "Vector", 5.32x6.85px, constraints scale/scale, fill #292D32
+    - COMPONENT "vuesax/bold/forward-15-seconds", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/forward-15-seconds", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/bold/music-filter", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/music-filter", 24x24px, constraints left/top [decorative, ~6 shapes]
+    - COMPONENT "vuesax/bold/music-dashboard", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/music-dashboard", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/music-square-remove", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/music-square-remove", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/music-square-add", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/music-square-add", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/music-square-search", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/music-square-search", 24x24px, constraints left/top [decorative, ~5 shapes]
+    - COMPONENT "vuesax/bold/repeate-music", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "vuesax/bold/repeate-music", 24x24px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "vuesax/bold/repeate-one", 24x24px, constraints left/top, fill #FFFFFF
+    - ... +57 more children
+  - ... +7 more children
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Design Editing Instraction / Design Editing Instraction
+- SECTION "Design Editing Instraction", 4030x1002px, fill #C7C7C7, stroke #0000001A 1px
+  - FRAME "06", 595x842px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 5", 444x185px, constraints center/center, radius 0/0/0/0px
+      - TEXT "Thank you!", 344x46px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Semibold, 64px], [heading]
+      - TEXT "If you have any question about our service, we will be happy", 444x92px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 28px], [heading]
+  - FRAME "05", 595x842px, constraints left/top, fill #FFFFFF
+    - TEXT "First: Select a text layer to change text in Figma Template.", 379x79px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 24px], [heading]
+    - GROUP "Group 2", 499x53px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 7", 499x53px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Change Text In Template", 322x40px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 28px], [heading]
+        - TEXT "04", 33x45px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 28px], [heading]
+      - LINE "Line 1", 499x0px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, stroke Flight Booking App (Light Mode)/Font 01 1px
+    - TEXT "Second: Double click on ‘’T’’ from Text Layer that you selec", 474x77px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Regular, 24px], [heading]
+    - GROUP "Group 1171275896", 514x246px, constraints center/top, radius 0/0/0/0px
+      - RECTANGLE "image 624", 165x246px, constraints left/top, fill image(hash: edbc35d1a1527f6e6a57c7af017d4db980517300)
+      - RECTANGLE "image 623", 362x246px, constraints left/top, fill image(hash: 1829845c2718159c0dc9fe02db2090e0e191d7b7)
+      - GROUP "Group 1171275895", 163x35px, constraints left/top, radius 8px
+        - RECTANGLE "Rectangle 5", 150x29px, constraints left/top, radius 8px, stroke #FD6F3D 1.5px
+        - TEXT "2", 9x11px, constraints left/top, fill #FD6F3D, text [Poppins Regular, 16px]
+      - TEXT "1", 8x11px, constraints left/top, fill #FD6F3D, text [Poppins Regular, 16px]
+      - RECTANGLE "Rectangle 4148", 78x17px, constraints left/top, radius 2px, stroke #FD6F3D 1px
+  - FRAME "04", 595x842px, constraints left/top, fill #FFFFFF
+    - TEXT "First: Select an image layer to change the image in Figma Te", 499x77px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Regular, 24px], [heading]
+    - TEXT "Second: Press Ctrl + Shift + K and select a image and drop i", 408x77px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Regular, 24px], [heading]
+    - GROUP "Group 2", 499x53px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 7", 499x45px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Change Image In Template", 346x20px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 28px], [heading]
+        - TEXT "03", 33x45px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 28px], [heading]
+      - LINE "Line 1", 499x0px, constraints left/top, stroke Flight Booking App (Light Mode)/Font 01 1px
+    - GROUP "Group 1171275896", 514x246px, constraints center/top, radius 0/0/0/0px
+      - RECTANGLE "image 624", 165x246px, constraints left/top, fill image(hash: edbc35d1a1527f6e6a57c7af017d4db980517300)
+      - RECTANGLE "image 623", 362x246px, constraints left/top, fill image(hash: 1829845c2718159c0dc9fe02db2090e0e191d7b7)
+      - GROUP "Group 1171275895", 116x103px, constraints left/top, radius 8px
+        - RECTANGLE "Rectangle 5", 104x99px, constraints left/top, radius 8px, stroke #FD6F3D 1.5px
+        - TEXT "2", 9x11px, constraints left/top, fill #FD6F3D, text [Poppins Regular, 16px]
+      - TEXT "1", 8x11px, constraints left/top, fill #FD6F3D, text [Poppins Regular, 16px]
+      - RECTANGLE "Rectangle 4148", 50x17px, constraints left/top, radius 2px, stroke #FD6F3D 1px
+  - FRAME "03", 595x842px, constraints left/top, fill Flight Booking App (Light Mode)/White
+    - TEXT "Each Figma file in this template is organized with auto layo", 499x110px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Regular, 24px], [heading]
+    - GROUP "Group 2", 499x53px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 7", 499x45px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Layer Structure", 202x20px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 28px], [heading]
+        - TEXT "02", 32x45px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 28px], [heading]
+      - LINE "Line 1", 499x0px, constraints left/top, stroke Flight Booking App (Light Mode)/Font 01 1px
+    - GROUP "Group 1171275894", 466x468px, constraints center/top [decorative, ~5 shapes]
+  - FRAME "02", 595x842px, constraints left/top, fill Flight Booking App (Light Mode)/White
+    - GROUP "Group 2", 499x53px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 7", 499x45px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Page number", 172x20px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 28px], [heading]
+        - TEXT "01", 32x45px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [Inter Medium, 28px], [heading]
+      - LINE "Line 1", 499x0px, constraints left/top, stroke Flight Booking App (Light Mode)/Font 01 1px
+    - GROUP "Group 3", 499x35px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Fonts & Images", 199x20px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [General Sans Medium, 28px], [heading]
+      - LINE "Line 1", 499x0px, constraints left/top, stroke Flight Booking App (Light Mode)/Font 01 1px
+    - TEXT "102 Pages", 109x17px, constraints left/top, fill Flight Booking App (Light Mode)/Font 02, text [General Sans Medium, 24px], [heading]
+    - TEXT "Preview images are taken from Freepik.", 435x17px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [Poppins Medium, 24px], [heading]
+    - TEXT "Font Outfit", 123x17px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [Inter Medium, 24px], [heading]
+    - TEXT "Please share this item if you like it, don’t forget to leave", 441x48px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [Inter Medium, 24px], [heading]
+  - FRAME "01", 595x842px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 2", 380x204px, vertical pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints center/center
+      - FRAME "Frame 1", 355x80px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Logo", 80x80px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 76.73x77.5px, constraints scale/scale, fill Personal Coach (Light)/Base 01
+        - TEXT "App Name", 255x38px, constraints left/top, fill Flight Booking App (Light Mode)/Font 01, text [Outfit SemiBold, 54px], [heading]
+      - GROUP "Group 52353", 380x76px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Personal Coach Hiring Mobile App Ui Kit", 380x76px, constraints center/top, fill Flight Booking App (Light Mode)/Font 01, text [Outfit SemiBold, 38px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

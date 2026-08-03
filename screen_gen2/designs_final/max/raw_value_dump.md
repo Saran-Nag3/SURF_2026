@@ -1,0 +1,1138 @@
+---
+name: apple-landing-page-ui-iphone-16-pro-iphone-16-watch-ultra-2-series-10-airpods-max-design-community
+source_file: Apple Landing Page UI - iPhone 16 Pro, iPhone 16, Watch Ultra 2, Series 10, Airpods Max Design (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:08:38.093964+00:00
+---
+
+# Apple Landing Page UI - iPhone 16 Pro, iPhone 16, Watch Ultra 2, Series 10, Airpods Max Design (Community) Design Guidelines
+
+## Source
+- Figma file: Apple Landing Page UI - iPhone 16 Pro, iPhone 16, Watch Ultra 2, Series 10, Airpods Max Design (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:08:38.093964+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White-100: [#FFFFFF]
+- Black-10: [#0000001A]
+- Black 8: [#000000CC]
+- Black-8 : [#000000CC]
+- Special / Black 1: [#0000001A]
+- Gray/300: none
+
+## Raw Colors (unstyled)
+- #000000: 3333 uses
+- #86868B: 945 uses
+- #1D1D1F: 737 uses
+- #FFFFFF: 579 uses
+- #F5F5F7: 467 uses
+- #000000B8: 389 uses
+- #0000008F: 381 uses
+- #6E6E73: 277 uses
+- #FFFFFFCC: 187 uses
+- #333333: 172 uses
+- #EAECF0: 166 uses
+- #F2F4F7: 135 uses
+- #000000E0: 117 uses
+- #0066CC: 106 uses
+- #FFFFFF8F: 102 uses
+- #8243EA: 100 uses
+- #D9D9D9: 90 uses
+- #333336: 65 uses
+- #000000CC: 64 uses
+- #1F1F1F1F: 54 uses
+- #0000000D: 51 uses
+- #EBD9FF: 50 uses
+- #F2EBFF: 50 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Regular, 11.8px: 799 uses
+- Inter SemiBold, 18.9px: 681 uses
+- Inter Regular, 12.2px: 477 uses
+- Inter SemiBold, 17.4px: 442 uses
+- Inter SemiBold, 17.1px: 396 uses
+- Inter Regular, 16.9px: 231 uses
+- Inter SemiBold, 25px: 151 uses
+- Inter SemiBold, 14.1px: 125 uses
+- Poppins Regular, 10.46px: 122 uses
+- Inter SemiBold, 21.6px: 101 uses
+- Inter Regular, 13.9px: 99 uses
+- Inter Regular, 17.1px: 82 uses
+- Inter SemiBold, 12.2px: 82 uses
+- Inter SemiBold, 25.3px: 57 uses
+- Inter SemiBold, 71.1px: 48 uses
+- Poppins Regular, 11px: 44 uses
+- Inter SemiBold, 72px: 40 uses
+- Inter SemiBold, 18.5px: 36 uses
+- Inter SemiBold, 13.02px: 31 uses
+- Inter SemiBold, 50.6px: 31 uses
+- Poppins Regular, 12px: 29 uses
+- Inter SemiBold, 36.1px: 28 uses
+- Poppins Regular, 13.08px: 25 uses
+
+## Typography Hierarchy
+- 72px - Inter SemiBold, 72px (raw)
+- 71.1px - Inter SemiBold, 71.1px (raw)
+- 50.6px - Inter SemiBold, 50.6px (raw)
+- 36.1px - Inter SemiBold, 36.1px (raw)
+- 25.3px - Inter SemiBold, 25.3px (raw)
+- 25px - Inter SemiBold, 25px (raw)
+- 21.6px - Inter SemiBold, 21.6px (raw)
+- 18.9px - Inter SemiBold, 18.9px (raw)
+- 18.5px - Inter SemiBold, 18.5px (raw)
+- 17.4px - Inter SemiBold, 17.4px (raw)
+- 17.1px - Inter Regular, 17.1px (raw)
+- 17.1px - Inter SemiBold, 17.1px (raw)
+- 16.9px - Inter Regular, 16.9px (raw)
+- 14.1px - Inter SemiBold, 14.1px (raw)
+- 13.9px - Inter Regular, 13.9px (raw)
+- 13.08px - Poppins Regular, 13.08px (raw)
+- 13.02px - Inter SemiBold, 13.02px (raw)
+- 12.2px - Inter Regular, 12.2px (raw)
+- 12.2px - Inter SemiBold, 12.2px (raw)
+- 12px - Poppins Regular, 12px (raw)
+- 11.8px - Inter Regular, 11.8px (raw)
+- 11px - Poppins Regular, 11px (raw)
+- 10.46px - Poppins Regular, 10.46px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- Icon 16×16: columns count 1, section 16px, gutter 0px, align center + rows count 1, section 16px, gutter 0px, align center
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Black-8 : 55 uses
+- Gray/300: 44 uses
+- Black-10: 7 uses
+- Black 8: 6 uses
+- White-100: 6 uses
+- Special / Black 1: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Apple Landing Page Design
+- SECTION "Apple Landing Page Design", 1825x10765.1px, fill #404040, stroke #0000001A 1px
+  - FRAME "Screen", 1425x10267.1px, constraints left/top, fill #000000
+    - FRAME "Body [page-overview]", 1425x10267.1px, constraints left/top, fill #000000
+      - FRAME "H1 [visuallyhidden]", 1x1px, constraints left/top
+        - TEXT "Apple", 94x50px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 33.5px], [heading]
+      - FRAME "Footer [ac-globalfooter]", 1425x970.07px, constraints left/top, fill #F5F5F7
+        - FRAME "Div [ac-gf-content]", 1024x970.07px, constraints left/top
+          - FRAME "Section [ac-gf-footer]", 980x126px, constraints left/top
+            - FRAME "Div [ac-gf-footer-legal]", 980x26px, constraints left/top
+            - FRAME "Link [ac-gf-footer-locale-link]", 75.18x16px, constraints left/top
+            - FRAME "Div [ac-gf-footer-shop]", 980x36px, constraints left/top, stroke #00000029 0px
+          - FRAME "Nav [ac-gf-directory]", 980x459.91px, horizontal pad 20 26.5 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 9082.78 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 8954.81 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column-section]", 196x323.13px, vertical pad 0 20 8903.62 0px gap 9.59px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 9133.97 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 9006 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "H2 [ac-gf-label]", 1x1px, vertical pad 0 0 8781 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Apple", 32x16px, constraints left/top, fill #000000E0, text [Inter Regular, 11.8px]
+            - TEXT "Footer", 36x16px, constraints left/top, fill #000000E0, text [Inter Regular, 11.8px]
+          - FRAME "Section [ac-gf-sosumi]", 980x384.16px, vertical pad 17 0 8483.44 0px gap -0.01px sizing W:fixed H:fixed, constraints left/top, stroke #00000029 0px
+            - FRAME "Item [footnote-1]", 980x41.6px, vertical pad 0 0 8798 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "List", 980x313.57px, vertical pad 0 17 8791.59 17px gap -0.01px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Main [main]", 1425x9297px, vertical pad 38 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section-hero]", 1425x941px, constraints left/top
+          - FRAME "Div [section-content]", 1425x884px, constraints left/top
+            - FRAME "Div [copy-wrapper]", 924x188px, constraints left/top
+            - FRAME "Div [animation-wrapper]", 1425x884px, constraints left/top
+        - FRAME "Section [section-iphone-16-pro]", 1425x1045px, constraints left/top, fill #000000
+          - FRAME "Div [content-wrapper]", 1440x815px, constraints left/top
+            - FRAME "Video [iphone-16-pro]", 1440x970px, constraints left/top, fill image(hash: 0f81e46072947fe59bce8753edbba5c1cebbbdfe)
+            - FRAME "Div [content-bottom]", 808x277px, constraints left/top, opacity 66%
+            - GROUP "Div [content-top]", 659x321px, constraints left/top
+        - FRAME "Section [section-iphone-16]", 1425x1000px, constraints left/top, fill gradient_linear(#0C1247 0% | #30337D 18% | #505DAD 33% | #7D8ED1 49% | #AEBCE6 73% | #FAFAFC 100%)
+          - FRAME "Div [copy-wrapper]", 986x810px, constraints left/top
+            - FRAME "Image", 986x286px, constraints left/top, fill image(hash: 47f9b49bc2cec425ecb49bb1168c24e6383b2207)
+            - FRAME "Div [content-bottom]", 698x277px, constraints left/top, opacity 81%
+            - GROUP "Div [content-top]", 628x175px, constraints left/top
+        - FRAME "Section [section-series-10]", 1425x1015px, constraints left/top, fill #FFFFFF
+          - FRAME "Div [section-content]", 1425x932px, constraints left/top
+            - FRAME "Video [apple-watch-series-10]", 1440x444px, constraints left/top, fill image(hash: 6b0b5c757dfa5e90ee5f999bbf4eb0f509553d6b)
+            - FRAME "Div [copy-wrapper]", 640x385px, constraints left/top
+        - FRAME "Section [section-ultra-2]", 1425x1220px, constraints left/top, fill #000000
+          - FRAME "Div [section-content]", 1425x1137px, constraints left/top
+            - FRAME "Video [apple-watch-ultra-2]", 1440x652px, constraints left/top, fill image(hash: 9a04f4dd7035af3862e94547413484ab9c0de2ef)
+            - FRAME "Div [copy-wrapper]", 618x385px, constraints left/top
+        - FRAME "Section [section-airpods-4]", 1425x940px, constraints left/top, fill #000000
+          - FRAME "Div [section-content]", 1425x940px, constraints left/top
+            - FRAME "Div [copy-wrapper]", 485x432px, constraints left/top
+            - GROUP "Div [animation-wrapper]", 1440x940px, constraints left/top, radius 0/0/0/0px
+        - FRAME "Section [section-airpods-pro-2]", 1425x1144px, constraints left/top, fill #000000
+          - FRAME "Div [section-content]", 1425x1144px, constraints left/top
+            - FRAME "Div [copy-wrapper]", 584x340px, constraints left/top
+            - FRAME "Div [animation-wrapper]", 1425x1144px, constraints left/top
+        - FRAME "Section [section-airpods-max]", 1425x1454px, constraints left/top, fill #FFFFFF
+          - FRAME "Div [copy-wrapper]", 804x1264px, constraints left/top
+            - FRAME "Image", 804x890px, constraints left/top, fill image(hash: 2b20f1a6957802b4da6e8092add6234aebba9d63)
+            - FRAME "Div [content-bottom]", 305.02x115px, constraints left/top
+            - GROUP "Div [content-top]", 488x171px, constraints left/top
+      - FRAME "Nav [globalnav]", 1425x44px, constraints left/top, fill #161617CC
+        - GROUP "List [globalnav-list]", 995.83x44px, constraints left/top
+          - FRAME "Div [globalnav-bag-wrapper]", 30x44px, constraints left/top
+            - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-bag-badge]", 13x13px, constraints left/top
+          - FRAME "Icon", 15x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 14.08x14.08px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text-container]", 44x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 44x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 67x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 67x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 77x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 77x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 65x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 65x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 43x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 43x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 34x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 34x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 35x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 35x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 38x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 38x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 24x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 24x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 23x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 23x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 30x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 30x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Link [globalnav-link]", 30x44px, constraints left/top
+            - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://www.apple.com/", 283x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+
+Screen: Page 1 / Apple Watch Series 10 Landing Page Inspiration
+- SECTION "Apple Watch Series 10 Landing Page Inspiration", 1825x31311.2px, fill #404040, stroke #0000001A 1px
+  - FRAME "Screen", 1425x30813.2px, constraints left/top, fill #FFFFFF
+    - FRAME "Body [page-overview]", 1425x30813.2px, constraints left/top, fill #FFFFFF
+      - FRAME "Footer [ac-globalfooter]", 1425x2317.91px, constraints left/top, fill #F5F5F7
+        - FRAME "Div [ac-gf-content]", 1024x2317.91px, constraints left/top
+          - FRAME "Section [ac-gf-footer]", 980x126px, constraints left/top
+            - FRAME "Div [ac-gf-footer-legal]", 980x26px, constraints left/top
+            - FRAME "Link [ac-gf-footer-locale-link]", 75.18x16px, constraints left/top
+            - FRAME "Div [ac-gf-footer-shop]", 980x36px, constraints left/top, stroke #00000029 0px
+          - FRAME "Nav [ac-gf-directory]", 980x439.91px, horizontal pad 0 26.5 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 29566.59 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 29438.62 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column-section]", 196x323.13px, vertical pad 0 20 29387.44 0px gap 9.59px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 29617.78 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 29489.81 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Nav [ac-gf-breadcrumbs]", 980x56px, constraints left/top
+            - FRAME "Div [ac-gf-breadcrumbs-path]", 980x22px, horizontal pad 0 81.27 0 25px gap 7px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Link [home]", 14x18px, vertical pad 0 0 29644.97 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "H2 [ac-gf-label]", 1x1px, vertical pad 0 0 27916.97 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Apple", 33x16px, constraints left/top, fill #000000E0, text [Inter Regular, 12.2px]
+            - TEXT "Footer", 37x16px, constraints left/top, fill #000000E0, text [Inter Regular, 12.2px]
+          - FRAME "Section [ac-gf-sosumi]", 980x1696px, constraints left/top, stroke #00000029 0px
+            - FRAME "List", 980x143.97px, constraints left/top
+            - FRAME "List", 980x1148.66px, vertical pad 0 17 28228.34 17px gap -0.01px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item [footnote-2]", 980x284.79px, constraints left/top
+            - FRAME "Item [footnote-1]", 980x89.6px, vertical pad 0 0 27933.97 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Main [main]", 1425x27836.97px, constraints left/top
+        - FRAME "Section [section]", 1425x801px, constraints left/top, fill #FAFAFC
+          - FRAME "Div [watch-index]", 1246.88x481px, vertical pad 0 0 26923.97 0px gap 53.5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Apple Watch", 310x60px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 50.6px], [heading]
+            - FRAME "Nav [index-groups]", 1246.88x368px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x940.6px, constraints left/top, fill #F5F5F7
+          - FRAME "Div [scroll-gallery-incentive]", 1425x430.6px, constraints left/top
+            - FRAME "List", 90x36px, horizontal pad 0 1209.94 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x376.6px, constraints left/top
+          - FRAME "Header [section-header]", 1246.88x200px, constraints left/top
+            - FRAME "Link [icon-wrapper]", 153x20px, constraints left/top
+            - FRAME "H2 [section-header-headline]", 670x120px, vertical pad 0 38.08 24051.38 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x2240px, constraints left/top, fill #F5F5F7
+          - GROUP "Div [viewport-content]", 1246.88x2140px, constraints left/top, radius 0/0/0/0px
+            - FRAME "Div [all-access-pass__background]", 349.75x56px, constraints left/top, radius 32px, fill #E8E8EDB2, effect [inner_shadow 1px offset 0 0 #0000001C]
+            - FRAME "Div [card]", 1246.88x1884px, constraints left/top, radius 28px, fill #FFFFFF
+            - FRAME "Header [section-header]", 1246.88x140px, constraints left/top
+        - FRAME "Section [section]", 1425x1226px, constraints left/top, fill #F5F5F7
+          - GROUP "Div [highlights-gallery]", 1425x826px, constraints left/top
+            - FRAME "Div [gallery]", 1425x710px, constraints left/top
+            - FRAME "Div [aap-media-card-gallery]", 262x56px, horizontal pad 0 389.5 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x21783.4px, constraints left/top
+          - FRAME "Section [section]", 1425x1046px, constraints left/top, fill #FFFFFF
+            - FRAME "Div [section-content]", 980x726px, constraints left/top
+          - FRAME "Section [section]", 1425x1675.19px, constraints left/top, fill #F5F5F7
+            - FRAME "Div [section-content]", 980x1355.19px, constraints left/top
+          - FRAME "Section [section]", 1425x2755px, vertical pad 0 0 17671.19 0px gap 140px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Div [section-hero-connectivity]", 1425x1567px, constraints left/top
+            - FRAME "Div [scroll-gallery-connectivity]", 1425x888px, constraints left/top
+          - FRAME "Section [section]", 1425x3644px, constraints left/top, fill #FFFFFF
+            - FRAME "Div [scroll-gallery-fitness]", 1425x846px, constraints left/top
+            - FRAME "Div [section-hero-container]", 1425x1015px, constraints left/top
+            - FRAME "Div [section-hero-fitness]", 1425x1483px, constraints left/top
+          - FRAME "Section [section]", 1425x3638px, constraints left/top, fill #FFFFFF
+            - FRAME "Div [scroll-gallery-health]", 1425x846px, constraints left/top
+            - FRAME "Div [section-content]", 980x881px, constraints left/top
+            - FRAME "Div [section-hero-health]", 1425x1451px, constraints left/top, fill #F5F5F7
+          - FRAME "Section [section]", 1425x2329px, vertical pad 0 0 8180.19 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #000000
+            - FRAME "Div [section-hero-container]", 1425x1310px, constraints left/top
+            - FRAME "Section [subsection]", 1425x1019px, constraints left/top, fill #000000
+          - FRAME "Section [section]", 1425x2413.19px, vertical pad 0 0 5767 0px gap -0px sizing W:fixed H:fixed, constraints left/top, fill #000000
+            - FRAME "Section [subsection]", 1425x1379.19px, constraints left/top
+            - FRAME "Section [subsection]", 1425x1034px, constraints left/top, fill #1D1D1F
+          - GROUP "Section [section]", 1425x4283px, constraints left/top
+            - FRAME "Section [subsection]", 1425x1074px, constraints left/top
+            - FRAME "Section [subsection]", 1425x3126px, constraints left/top
+            - FRAME "Section [subsection]", 1425x883px, constraints left/top
+        - FRAME "Section [section]", 1425x846px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [marquee]", 1425x326px, constraints left/top
+            - FRAME "Div [viewport-content]", 1246.88x288px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [media-container]", 1425x520px, constraints left/top
+            - FRAME "Image", 1440x520px, constraints left/top, fill image(hash: 7d566ac4af86a31dda3b82bdb50a02c8e4470e47)
+      - FRAME "Nav [ac-localnav]", 1425x52px, constraints left/top
+        - FRAME "Div [ac-ln-wrapper]", 1425x52px, constraints left/top
+          - FRAME "Div", 980x1px, constraints left/top, fill #00000029
+          - FRAME "Div [ac-ln-content]", 1024x52px, constraints left/top
+            - FRAME "Div [ac-ln-menu]", 385.72x41px, constraints left/top
+            - FRAME "Link", 212.75x24px, constraints left/top, opacity 88%
+      - GROUP "List [globalnav-list]", 995.83x44px, constraints left/top
+        - FRAME "Div [globalnav-bag-wrapper]", 30x44px, constraints left/top
+          - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12.94x14.91px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-bag-badge]", 13x13px, constraints left/top
+            - FRAME "Div", 13x13px, constraints left/top, radius 13px, fill #000000
+            - FRAME "Span [globalnav-bag-badge-separator]", 10x13px, constraints left/top, fill #000000
+            - FRAME "Div", 13x13px, constraints left/top, radius 13px, fill #000000
+            - FRAME "Span [globalnav-bag-badge-number]", 13x14.71px, constraints left/top
+        - FRAME "Icon", 15x44px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14.08x14.08px, constraints scale/scale, fill #000000CC
+        - FRAME "Span [globalnav-link-text-container]", 44x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 44x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 43.25x10.76px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Support", 46x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 67x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 67x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 65.98x9.05px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Accessories", 69x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 77x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 77x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 76.48x9.05px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Entertainment", 81x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 65x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 65x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 62.15x8.81px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "TV & Home", 64x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 43x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 43x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 42x9.05px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "AirPods", 44x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 34x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 34x44px, constraints left/top, fill #FFFFFF
+            - GROUP "en-US_globalnav_links_vision_image_large", 34x44px, constraints scale/scale
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Vision", 35x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 35x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 35x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 33.49x8.94px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Watch", 36x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 38x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 38x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 36.47x9.05px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "iPhone", 39x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 24x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 24x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 22.39x9.11px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "iPad", 25x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 23x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 23x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 21.97x8.57px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Mac", 25x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Span [globalnav-link-text-container]", 30x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 30x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 28.46x8.85px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Store", 31x12px, constraints left/top, fill #000000CC, text [Inter Regular, 12.2px]
+        - FRAME "Link [globalnav-link]", 30x44px, constraints left/top
+          - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12.97x15.94px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Apple", 48x21px, constraints left/top, fill #000000CC, text [Inter SemiBold, 17.4px]
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://www.apple.com/apple-watch-series-10/", 559x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+
+Screen: Page 1 / Apple iPhone 16 Pro Landing Page Inspiration
+- SECTION "Apple iPhone 16 Pro Landing Page Inspiration", 1825x48278.5px, fill #404040, stroke #0000001A 1px
+  - FRAME "Screen", 1425x47780.5px, constraints left/top, fill #000000
+    - FRAME "Body [page-overview]", 1425x47780.5px, constraints left/top, fill #000000
+      - FRAME "Footer [ac-globalfooter]", 1425x2628.34px, constraints left/top, fill #1D1D1F
+        - FRAME "Div [ac-gf-content]", 1024x2628.34px, constraints left/top
+          - FRAME "Section [ac-gf-footer]", 980x126px, constraints left/top
+            - FRAME "Div [ac-gf-footer-legal]", 980x26px, constraints left/top
+            - FRAME "Link [ac-gf-footer-locale-link]", 75.18x16px, constraints left/top
+            - FRAME "Div [ac-gf-footer-shop]", 980x36px, constraints left/top, stroke #FFFFFF3D 0px
+          - FRAME "Nav [ac-gf-directory]", 980x439.91px, horizontal pad 0 26.5 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 46692.17 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 46564.2 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column-section]", 196x323.13px, vertical pad 0 20 46513.02 0px gap 9.59px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 46743.36 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 46615.39 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Nav [ac-gf-breadcrumbs]", 980x56px, constraints left/top
+            - FRAME "Div [ac-gf-breadcrumbs-path]", 980x22px, horizontal pad 0 129.39 0 25px gap 7px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Link [home]", 14x18px, vertical pad 0 0 46770.55 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "H2 [ac-gf-label]", 1x1px, vertical pad 0 0 44732.11 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Apple", 32x16px, constraints left/top, fill #FFFFFFEB, text [Inter Regular, 11.8px]
+            - TEXT "Footer", 36x16px, constraints left/top, fill #FFFFFFEB, text [Inter Regular, 11.8px]
+          - FRAME "Section [ac-gf-sosumi]", 980x2006.44px, constraints left/top, stroke #FFFFFF3D 0px
+            - TEXT "DEATH STRANDING DIRECTOR'S CUT © 2024 Sony Interactive Enter", 877x16px, constraints left/top, fill #FFFFFF8F, text [Inter Regular, 11.8px]
+            - FRAME "List", 980x1846.25px, vertical pad 0 17 44822.7 17px gap -0.01px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item [footnote-1]", 980x105.6px, vertical pad 0 0 44749.11 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Main [main]", 1425x45152.1px, constraints left/top
+        - FRAME "Section [section]", 1425x801px, constraints left/top, fill #161617
+          - FRAME "Div [iphone-index]", 1246.88x481px, vertical pad 0 0 43739.11 0px gap 53.5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "iPhone", 168x60px, constraints left/top, fill #F5F5F7, text [Inter SemiBold, 50.6px], [heading]
+            - FRAME "Nav [index-groups]", 1246.88x368px, horizontal pad 0 0 0 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x2163px, constraints left/top, fill #1D1D1F
+          - GROUP "Div [viewport-content]", 1246.88x1903px, constraints left/top, radius 0/0/0/0px
+            - FRAME "Div [all-access-pass__background]", 303.15x56px, constraints left/top, radius 32px, fill #424245B2, effect [inner_shadow 1px offset 0 0 #E8E8ED1C]
+            - FRAME "Div [card]", 1246.88x1647px, constraints left/top, radius 28px, fill #000000
+            - FRAME "Header [section-header]", 1246.88x140px, constraints left/top
+        - FRAME "Section [section]", 1425x780.6px, constraints left/top, fill #1D1D1F
+          - FRAME "Div [gallery-incentive]", 1425x430.6px, constraints left/top
+            - FRAME "List", 90x36px, horizontal pad 0 1209.94 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x376.6px, constraints left/top
+          - FRAME "Header [section-header]", 1246.88x200px, constraints left/top
+            - FRAME "Link [icon-wrapper]", 108x20px, constraints left/top
+            - FRAME "H2 [section-header-headline]", 935.16x120px, vertical pad 0 406.19 41103.52 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x1084px, constraints left/top, fill #1D1D1F
+          - FRAME "Div [viewport-content]", 1246.88x924px, vertical pad 0 0 39295.52 0px gap 80.5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Significant others.", 444x60px, constraints left/top, fill #F5F5F7, text [Inter SemiBold, 50.6px], [heading]
+            - FRAME "Div [card]", 1246.88x784px, constraints left/top, radius 28px, fill #000000
+        - FRAME "Section [section]", 1425x36897.5px, constraints left/top
+          - FRAME "Div [viewport-content]", 1246.88x1997.78px, constraints left/top
+            - FRAME "Div [values-list]", 1246.88x1765.78px, vertical pad 0 0 37432.14 0px gap 128px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "H3 [values-headline]", 1039.06x168px, vertical pad 0 426.18 37601.73 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [viewport-content]", 1246.88x1784.22px, constraints left/top
+            - GROUP "Paragraph [ps-swatch-secondary]", 617x87px, constraints left/top
+            - FRAME "Div [row]", 1246.88x438px, constraints left/top
+            - FRAME "Div [row]", 1246.88x857.22px, constraints left/top
+            - FRAME "Paragraph [ps-swatch-secondary]", 727.35x58px, constraints left/top
+            - FRAME "H3 [ps-headline]", 1142.97x168px, constraints left/top
+            - FRAME "H2 [ps-eyebrow]", 1x1px, constraints left/top
+          - FRAME "Section [section]", 1425x2827px, constraints left/top, fill gradient_linear(#000000 0% | #000000 60% | #131313 80%)
+            - FRAME "Link [icon-wrapper]", 208x20px, constraints left/top
+            - FRAME "Div [gallery-ios-18]", 1425x816px, constraints left/top
+            - GROUP "Div [section-head]", 1425x1594px, constraints left/top
+          - FRAME "Section [section]", 1425x1804.55px, constraints left/top
+            - FRAME "Div [viewport-content]", 1246.88x1484.55px, constraints left/top
+          - FRAME "Section [section]", 1425x4013px, constraints left/top
+            - GROUP "Div [viewport-content]", 1440x3853px, constraints left/top, radius 0/0/0/0px
+          - FRAME "Section [section]", 1425x6505.77px, constraints left/top
+            - FRAME "Div [viewport-content]", 1246.88x3137.77px, constraints left/top
+            - FRAME "Div [styles-list]", 1425x1840px, constraints left/top
+            - FRAME "Div [filter-container]", 1037.5x252px, horizontal pad 0 0 0 0px gap -1037.5px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Section [section]", 1425x3628.34px, constraints left/top
+            - FRAME "Div [all-access-pass__background]", 282x56px, constraints left/top, radius 32px, fill #424245B2, effect [inner_shadow 1px offset 0 0 #E8E8ED1C]
+            - FRAME "Div [lens-area]", 1425x474px, constraints left/top
+            - FRAME "Div [camera-zoom-gallery]", 1037.5x945.86px, constraints left/top
+            - FRAME "Div [camera-system-hero]", 1425x1704.48px, constraints left/top
+          - FRAME "Section [section]", 1425x4573.86px, constraints left/top
+            - FRAME "Div [all-access-pass__background]", 259x56px, constraints left/top, radius 32px, fill #424245B2, effect [inner_shadow 1px offset 0 0 #E8E8ED1C]
+            - FRAME "Div [viewport-content]", 1246.88x2229.86px, vertical pad 0 0 13449.73 0px gap 160px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [video-audio-hero]", 1425x2000px, constraints left/top
+          - FRAME "Section [section]", 1425x2626px, constraints left/top
+            - FRAME "Div [gradient]", 1425x1174px, constraints left/top, fill gradient_linear(#000000 0% | #131313 100%)
+            - FRAME "Div [all-access-pass__background]", 323.05x56px, constraints left/top, radius 32px, fill #424245B2, effect [inner_shadow 1px offset 0 0 #E8E8ED1C]
+            - FRAME "Div [overflow-wrapper]", 1425x1180px, constraints left/top
+          - FRAME "Section [section]", 1425x3596px, vertical pad 160 0 4263 0px gap 112px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [section-apple-intelligence-hero]", 1425x1420px, vertical pad 0 0 5177 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [intelligence-gradient]", 1425x1904px, constraints left/top, fill gradient_linear(#000000 0% | #131313 50%)
+          - FRAME "Section [section]", 1425x2543px, constraints left/top
+            - FRAME "Div [gradient-wrapper]", 1425x1291px, constraints left/top, fill gradient_radial(#2C201A 0% | #000000 100%)
+            - FRAME "Div [header-image]", 1425x700px, constraints left/top
+            - FRAME "Div [filter-container]", 1037.5x168px, horizontal pad 0 0 0 0px gap -1037.5px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x1196px, constraints left/top
+          - GROUP "Div [real-time-viewer-base-xp-gallery]", 1425x796px, constraints left/top
+            - FRAME "Div [real-time-viewer-base-xp-gallery]", 1425x680px, horizontal pad 0 0 0 0px gap -1425px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [aap-product-viewer-fallback]", 236x58px, constraints left/top
+          - FRAME "H2 [section-header-headline]", 935.16x60px, constraints left/top, opacity 87%
+            - TEXT "Take a closer look.", 448x60px, constraints left/top, fill #F5F5F7, text [Inter SemiBold, 50.6px], [heading]
+        - FRAME "Section [section]", 1425x1226px, constraints left/top, fill #1D1D1F
+          - GROUP "Div [media-card-gallery]", 1425x907px, constraints left/top
+            - FRAME "Div [gallery]", 1425x710px, constraints left/top
+            - FRAME "Div [aap-media-card-gallery]", 286x56px, horizontal pad 0 353.5 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "H2 [section-header-headline]", 935.16x60px, constraints left/top, opacity 0%
+            - TEXT "Get the highlights.", 446x60px, constraints left/top, fill #F5F5F7, text [Inter SemiBold, 50.6px], [heading]
+        - FRAME "Section [section]", 1425x1042px, constraints left/top
+          - FRAME "Div [welcome-content]", 1425x1042px, constraints left/top
+            - FRAME "Image", 1440x864px, constraints left/top, fill image(hash: c5f1581ff3064409ccb5f87aba7b14a4b2602179)
+            - FRAME "Image", 693x346px, constraints left/top, fill image(hash: 677c0b7bcf68d6b90b3eb7a06c8d8a434cb9c36d)
+            - FRAME "Div [marquee]", 1425x32px, constraints left/top
+            - FRAME "Div [marquee]", 1425x178px, constraints left/top
+      - FRAME "Nav [ac-localnav]", 1425x52px, constraints left/top
+        - FRAME "Div [ac-ln-wrapper]", 1425x52px, constraints left/top
+          - FRAME "Div", 980x1px, constraints left/top, fill #FFFFFF3D
+          - FRAME "Div [ac-ln-content]", 1024x52px, constraints left/top
+            - FRAME "Div [ac-ln-menu]", 470.22x41px, constraints left/top
+            - FRAME "Link", 129.97x24px, constraints left/top, opacity 92%
+      - GROUP "List [globalnav-list]", 995.83x44px, constraints left/top
+        - FRAME "Div [globalnav-bag-wrapper]", 30x44px, constraints left/top
+          - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12.94x14.91px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-bag-badge]", 13x13px, constraints left/top
+            - FRAME "Div", 13x13px, constraints left/top, radius 13px, fill #FFFFFF
+            - FRAME "Span [globalnav-bag-badge-separator]", 10x13px, constraints left/top, fill #FFFFFF
+            - FRAME "Div", 13x13px, constraints left/top, radius 13px, fill #FFFFFF
+            - FRAME "Span [globalnav-bag-badge-number]", 13x14.71px, constraints left/top
+        - FRAME "Icon", 15x44px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14.08x14.08px, constraints scale/scale, fill #FFFFFFCC
+        - FRAME "Span [globalnav-link-text-container]", 44x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 44x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 43.25x10.76px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Support", 45x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 67x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 67x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 65.98x9.05px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Accessories", 67x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 77x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 77x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 76.48x9.05px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Entertainment", 78x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 65x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 65x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 62.15x8.81px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "TV & Home", 62x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 43x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 43x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 42x9.05px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "AirPods", 43x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 34x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 34x44px, constraints left/top, fill #FFFFFF
+            - GROUP "en-US_globalnav_links_vision_image_large", 34x44px, constraints scale/scale
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Vision", 34x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 35x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 35x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 33.49x8.94px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Watch", 35x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 38x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 38x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 36.47x9.05px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "iPhone", 38x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 24x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 24x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 22.39x9.11px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "iPad", 24x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 23x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 23x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 21.97x8.57px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Mac", 24x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 30x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 30x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 28.46x8.85px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Store", 30x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Link [globalnav-link]", 30x44px, constraints left/top
+          - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12.97x15.94px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Apple", 48x21px, constraints left/top, fill #FFFFFFCC, text [Inter SemiBold, 17.4px]
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://www.apple.com/iphone-16-pro/", 459x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+
+Screen: Page 1 / Apple Airpods Max Landing Page Inspiration
+- SECTION "Apple Airpods Max Landing Page Inspiration", 1825x17101.6px, fill #404040, stroke #0000001A 1px
+  - FRAME "Screen", 1425x16603.6px, constraints left/top, fill #FFFFFF
+    - FRAME "Body [page-overview]", 1425x16603.6px, constraints left/top, fill #FFFFFF
+      - FRAME "Footer [ac-globalfooter]", 1425x1630px, constraints left/top, fill #F5F5F7
+        - FRAME "Div [ac-gf-content]", 1024x1630px, constraints left/top
+          - FRAME "Section [ac-gf-footer]", 980x126px, constraints left/top
+            - FRAME "Div [ac-gf-footer-legal]", 980x26px, constraints left/top
+            - FRAME "Link [ac-gf-footer-locale-link]", 75.18x16px, constraints left/top
+            - FRAME "Div [ac-gf-footer-shop]", 980x36px, constraints left/top, stroke #00000029 0px
+          - FRAME "Nav [ac-gf-directory]", 980x439.91px, horizontal pad 0 26.5 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 15919.31 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 15791.34 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column-section]", 196x323.13px, vertical pad 0 20 15740.16 0px gap 9.59px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 15970.5 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 15842.53 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Nav [ac-gf-breadcrumbs]", 980x56px, constraints left/top
+            - FRAME "Div [ac-gf-breadcrumbs-path]", 980x22px, horizontal pad 0 136.22 0 25px gap 7px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Link [home]", 14x18px, vertical pad 0 0 15997.69 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "H2 [ac-gf-label]", 1x1px, vertical pad 0 0 14957.59 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Apple", 33x16px, constraints left/top, fill #000000E0, text [Inter Regular, 12.2px]
+            - TEXT "Footer", 37x16px, constraints left/top, fill #000000E0, text [Inter Regular, 12.2px]
+          - FRAME "Section [ac-gf-sosumi]", 980x1008.1px, constraints left/top, stroke #00000029 0px
+            - FRAME "Item", 980x83.2px, vertical pad 0 0 15870.5 0px gap 9.59px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item [footnote-1]", 980x201.6px, constraints left/top
+            - FRAME "List", 980x694.32px, vertical pad 0 17 14926.59 17px gap -0.01px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Main [main]", 1425x14973.6px, constraints left/top
+        - FRAME "Section [section]", 1425x680px, constraints left/top, fill #FAFAFC
+          - FRAME "Div [airpods-index]", 1246.88x360px, vertical pad 0 0 14206.59 0px gap 53.5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "AirPods Max", 308x60px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 50.6px], [heading]
+            - FRAME "Nav [index-groups]", 1246.88x247px, constraints left/top
+        - FRAME "Section [section]", 1425x2630px, constraints left/top, fill #F5F5F7
+          - GROUP "Div [viewport-content]", 1246.88x2370px, constraints left/top, radius 0/0/0/0px
+            - FRAME "Div [all-access-pass__background]", 310.97x56px, constraints left/top, radius 32px, fill #E8E8EDB2, effect [inner_shadow 1px offset 0 0 #0000001C]
+            - FRAME "Div [card]", 1246.88x2114px, constraints left/top, radius 28px, fill #FFFFFF
+            - FRAME "Header [section-header]", 1246.88x140px, constraints left/top
+        - FRAME "Section [section]", 1425x766.6px, constraints left/top, fill #F5F5F7
+          - FRAME "Div [scroll-gallery-incentive]", 1425x416.6px, constraints left/top
+            - FRAME "List", 90x36px, horizontal pad 0 1209.94 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x362.6px, constraints left/top
+          - FRAME "Header [section-header]", 1246.88x200px, constraints left/top
+            - FRAME "Link [icon-wrapper]", 115x20px, constraints left/top
+            - FRAME "H2 [icon-card-gallery-headline]", 935.16x120px, vertical pad 0 401.72 10997 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x7651px, vertical pad 0 0 2195 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Section [subsection]", 1425x2280px, constraints left/top, fill gradient_linear(#59798E 0% | #6B8DA8 70% | #000000 80%)
+            - FRAME "Div [hifi-sound-background-image-container]", 1425x2280px, constraints left/top
+            - FRAME "Div [viewport-content]", 1246.88x2280px, constraints left/top
+          - FRAME "Section [subsection]", 1425x2219px, constraints left/top, fill #F5F5F7
+            - GROUP "Div [viewport-content]", 1246.88x2059px, constraints left/top
+          - FRAME "Section [subsection]", 1425x1915px, constraints left/top
+            - FRAME "Div [viewport-content]", 1246.88x128px, constraints left/top
+            - FRAME "H2 [subsection-headline]", 1008x240px, constraints left/top
+            - FRAME "Picture [overview-product-stories-design-design-airpod-max-1", 1283x1283px, constraints left/top
+          - GROUP "Section [subsection]", 1425x1051px, constraints left/top
+            - FRAME "Div [scroll-gallery-ready-power]", 1425x813px, constraints left/top
+            - FRAME "H2 [subsection-headline]", 1246.88x168px, constraints left/top
+        - FRAME "Section [section]", 1425x1226px, constraints left/top
+          - GROUP "Div [media-card-gallery]", 1425x826px, constraints left/top
+            - FRAME "Div [gallery]", 1425x710px, constraints left/top
+            - FRAME "Div [aap-media-card-gallery]", 262x56px, horizontal pad 0 389.5 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "H2 [section-header-headline]", 935.16x60px, constraints left/top, opacity 19%
+            - TEXT "Get the highlights.", 450x60px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 50.6px], [heading]
+        - FRAME "Section [section]", 1425x1120px, constraints left/top
+          - GROUP "Div [bento-gallery-wrapper]", 1425x880px, constraints left/top
+            - FRAME "Div [bento-gallery-gallery-aap]", 1425x710px, constraints left/top
+            - FRAME "Div [aap-bento-gallery-aap]", 236x58px, constraints left/top
+          - FRAME "H2 [section-header-headline]", 935.16x60px, constraints left/top
+            - TEXT "Take a closer look.", 452x60px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 50.6px], [heading]
+        - FRAME "Section [section]", 1425x900px, vertical pad 0 0 0 0px gap -218px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [media-container]", 1425x900px, constraints left/top
+            - FRAME "Image", 1440x1440px, constraints left/top, fill image(hash: c9dfef343afd264261781e11cc9f80686d39d330)
+          - FRAME "Div [marquee]", 1425x218px, constraints left/top
+            - FRAME "Div [marquee-scrim]", 1425x218px, constraints left/top, fill #FFFFFF8F
+            - FRAME "Div [viewport-content]", 1246.88x137px, constraints left/top
+      - FRAME "Nav [ac-localnav]", 1425x52px, constraints left/top
+        - FRAME "Div [ac-ln-wrapper]", 1425x52px, constraints left/top
+          - FRAME "Div [ac-ln-background]", 1425x96px, constraints left/top, fill #FAFAFCCC
+            - FRAME "Div", 1425x1px, constraints left/top, fill #00000029
+          - FRAME "Div [ac-ln-content]", 1024x52px, constraints left/top
+            - FRAME "Div [ac-ln-menu]", 337.97x41px, constraints left/top
+            - FRAME "Link", 118.8x24px, constraints left/top, opacity 88%
+      - FRAME "Nav [globalnav]", 1425x44px, constraints left/top, fill #FAFAFC
+        - GROUP "List [globalnav-list]", 995.83x44px, constraints left/top
+          - FRAME "Div [globalnav-bag-wrapper]", 30x44px, constraints left/top
+            - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-bag-badge]", 13x13px, constraints left/top
+          - FRAME "Icon", 15x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 14.08x14.08px, constraints scale/scale, fill #000000CC
+          - FRAME "Span [globalnav-link-text-container]", 44x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 44x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 67x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 67x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 77x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 77x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 65x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 65x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 43x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 43x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 34x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 34x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 35x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 35x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 38x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 38x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 24x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 24x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 23x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 23x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Span [globalnav-link-text-container]", 30x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Icon", 30x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+          - FRAME "Link [globalnav-link]", 30x44px, constraints left/top
+            - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://www.apple.com/airpods-max/", 439x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+
+Screen: Page 1 / Apple Watch Ultra 2 Landing Page Inspiration
+- SECTION "Apple Watch Ultra 2 Landing Page Inspiration", 1825x32789.3px, fill #404040, stroke #0000001A 1px
+  - FRAME "Screen", 1425x32291.3px, constraints left/top, fill #000000
+    - FRAME "Body [page-overview]", 1425x32291.3px, constraints left/top, fill #000000
+      - FRAME "Footer [ac-globalfooter]", 1425x3000.62px, constraints left/top, fill #F5F5F7
+        - FRAME "Div [ac-gf-content]", 1024x3000.62px, constraints left/top
+          - FRAME "Section [ac-gf-footer]", 980x126px, constraints left/top
+            - FRAME "Div [ac-gf-footer-legal]", 980x26px, constraints left/top
+            - FRAME "Link [ac-gf-footer-locale-link]", 75.18x16px, constraints left/top
+            - FRAME "Div [ac-gf-footer-shop]", 980x36px, constraints left/top, stroke #00000029 0px
+          - FRAME "Nav [ac-gf-directory]", 980x439.91px, horizontal pad 0 26.5 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 31607.02 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 31479.05 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column-section]", 196x323.13px, vertical pad 0 20 31427.86 0px gap 9.59px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 31658.2 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 31530.23 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Nav [ac-gf-breadcrumbs]", 980x56px, constraints left/top
+            - FRAME "Div [ac-gf-breadcrumbs-path]", 980x22px, horizontal pad 0 94.66 0 25px gap 7px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Link [home]", 14x18px, vertical pad 0 0 31685.39 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Section [ac-gf-sosumi]", 980x2015.97px, vertical pad 17 0 29275.86 0px gap -0px sizing W:fixed H:fixed, constraints left/top, stroke #00000029 0px
+            - FRAME "List", 980x1609.41px, vertical pad 0 17 29622.42 17px gap -0.01px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "List", 980x377.57px, constraints left/top
+          - FRAME "H2 [ac-gf-label]", 1x1px, vertical pad 0 0 29274.67 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Apple", 32x16px, constraints left/top, fill #000000E0, text [Inter Regular, 11.8px]
+            - TEXT "Footer", 36x16px, constraints left/top, fill #000000E0, text [Inter Regular, 11.8px]
+          - FRAME "Div [ac-gf-buystrip-info]", 980x362.75px, horizontal pad 56 6.5 57 55.33px gap 110.67px sizing W:fixed H:fixed, constraints left/top, stroke #00000029 0px
+            - FRAME "Link [ac-gf-block]", 216x186.75px, constraints left/top
+            - FRAME "Link [ac-gf-block]", 216x249.75px, constraints left/top
+            - FRAME "Link [ac-gf-block]", 216x166.75px, constraints left/top
+      - GROUP "Main [main]", 1425x29194.67px, constraints left/top
+        - FRAME "Section [section]", 1425x3419.08px, constraints left/top, fill #FFFFFF
+          - FRAME "Div [section-wrapper]", 980x1928.08px, constraints left/top
+            - FRAME "Paragraph [typography-intro-elevated]", 980x25px, constraints left/top
+            - FRAME "Div [compare-table]", 980x1700.08px, constraints left/top
+            - TEXT "Which Apple Watch is right for you?", 742x52px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 43.3px], [heading]
+          - FRAME "Div [router]", 1350x555px, constraints left/top, fill #F5F5F7
+            - FRAME "Div [content-container]", 1350x410px, constraints left/top
+          - FRAME "Div [router]", 1350x601px, constraints left/top, fill #F5F5F7
+            - FRAME "Div [content-container]", 1350x556px, constraints left/top
+        - FRAME "Section [section]", 1425x3359px, constraints left/top
+          - GROUP "Div [section-content]", 985x2959px, constraints left/top
+            - FRAME "Div [section-subsection]", 980x529px, vertical pad 0 0 24813.59 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [section-subsection]", 980x500px, vertical pad 0 0 24182.59 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [section-subsection]", 980x821px, vertical pad 0 0 22880.59 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Image", 985x629px, constraints left/top, fill image(hash: 15821b17462816a7b4868ef2af7d84b144ff1b49)
+        - FRAME "Section [section]", 1425x2612px, vertical pad 0 0 18908.59 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [section-intro]", 1425x1440px, constraints left/top, fill gradient_linear(#111111 0% | #000000 100%)
+            - FRAME "Div [background-image-container]", 1425x1440px, constraints left/top
+          - FRAME "Div [health-gallery]", 1425x1172px, constraints left/top, fill #111111
+            - FRAME "List [paddlenav-wrapper]", 960x36px, horizontal pad 0 206.5 0 873px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x759px, constraints left/top
+            - FRAME "H3 [typography-gallery-intro]", 490x72px, vertical pad 0 94.78 21394.59 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x2072px, constraints left/top
+          - FRAME "Div [section-intro]", 1425x2162px, constraints left/top, fill #000000
+            - FRAME "Div [background-image-container]", 1425x2162px, constraints left/top
+        - FRAME "Section [section]", 1425x2666px, vertical pad 0 0 14116.59 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [section-intro]", 1425x1440px, constraints left/top, fill #161617
+            - FRAME "Div [background-image-container]", 1425x1440px, constraints left/top
+          - FRAME "Div [diving-gallery]", 1425x1226px, constraints left/top, fill #111111
+            - FRAME "List [paddlenav-wrapper]", 960x36px, horizontal pad 0 206.5 0 873px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x849px, constraints left/top
+            - FRAME "H3 [typography-gallery-intro]", 490x36px, constraints left/top
+        - FRAME "Section [section]", 1425x2555px, vertical pad 0 0 11672.59 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [section-intro]", 1425x1440px, constraints left/top, fill #161617
+            - FRAME "Div [background-image-container]", 1425x1440px, constraints left/top
+          - FRAME "Div [hiking-gallery]", 1425x1115px, constraints left/top, fill #111111
+            - FRAME "List [paddlenav-wrapper]", 960x36px, horizontal pad 0 206.5 0 873px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x738px, constraints left/top
+            - FRAME "H3 [typography-gallery-intro]", 490x36px, constraints left/top
+        - FRAME "Section [section]", 1425x2555px, vertical pad 0 0 9117.59 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [section-intro]", 1425x1440px, constraints left/top, fill #161617
+            - FRAME "Div [background-image-container]", 1425x1440px, constraints left/top
+          - FRAME "Div [swimming-gallery]", 1425x1115px, constraints left/top, fill #111111
+            - FRAME "List [paddlenav-wrapper]", 960x36px, horizontal pad 0 206.5 0 873px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x738px, constraints left/top
+            - FRAME "H3 [typography-gallery-intro]", 490x36px, constraints left/top
+        - FRAME "Section [section]", 1425x2576px, vertical pad 0 0 6520.59 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [section-intro]", 1425x1440px, constraints left/top, fill #161617
+            - FRAME "Div [background-image-container]", 1425x1440px, constraints left/top
+          - FRAME "Div [cycling-gallery]", 1425x1136px, constraints left/top, fill #111111
+            - FRAME "List [paddlenav-wrapper]", 960x36px, horizontal pad 0 206.5 0 873px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x759px, constraints left/top
+            - FRAME "H3 [typography-gallery-intro]", 490x36px, constraints left/top
+        - FRAME "Section [section]", 1425x2570px, vertical pad 0 0 3956.59 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [section-intro]", 1425x1440px, constraints left/top, fill gradient_linear(#111111 0% | #000000 100%)
+            - FRAME "Div [background-image-container]", 1425x1440px, constraints left/top
+          - FRAME "Div [running-gallery]", 1425x1130px, constraints left/top, fill #111111
+            - FRAME "List [paddlenav-wrapper]", 960x36px, horizontal pad 0 206.5 0 873px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x717px, constraints left/top
+            - FRAME "H3 [typography-gallery-intro]", 490x72px, vertical pad 0 18.38 6400.59 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x3137.59px, constraints left/top
+          - FRAME "Div [design-intro]", 1425x2777.59px, vertical pad 0 222.5 62 222.5px gap -40px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [section-content]", 980x974.6px, constraints left/top
+            - FRAME "Div [section-content]", 980x1843px, vertical pad 50 0 2421.59 0px gap 120px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x1649px, constraints left/top, fill gradient_linear(#0C0C0D 0% | #000000 30%)
+          - GROUP "Div [section-content]", 980x1378px, constraints left/top
+            - GROUP "Div [hero-copy-container]", 980x363px, constraints left/top
+            - FRAME "Div [inline-video-container]", 980x790px, constraints left/top
+            - FRAME "H1 [hero-logo-container]", 980x58px, constraints left/top
+      - FRAME "Div [ac-ln-content]", 1024x52px, constraints left/top
+        - FRAME "Div [ac-ln-menu]", 385.72x41px, constraints left/top
+          - FRAME "Link [ac-ln-button]", 75.75x24px, constraints left/top, radius 980px, fill #0071E3
+            - FRAME "Span [ac-ln-action-product]", 1x1px, constraints left/top
+            - TEXT "Pre-order", 53x16px, constraints left/top, fill #FFFFFF, text [Inter Regular, 11.8px]
+          - FRAME "Div [ac-ln-menustate-tray]", 285.97x40px, horizontal pad 18 752.72 0 24px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Span [ac-ln-menu-link]", 51.68x22px, vertical pad 0 0 58 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Link [ac-ln-menu-link]", 98.24x22px, constraints left/top, opacity 80%
+            - FRAME "Link [ac-ln-menu-link]", 64.07x22px, constraints left/top, opacity 80%
+        - FRAME "Link", 188.18x24px, constraints left/top, opacity 92%
+          - TEXT "Apple Watch Ultra 2", 186x24px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 18.9px]
+      - GROUP "List [globalnav-list]", 995.83x44px, constraints left/top
+        - FRAME "Div [globalnav-bag-wrapper]", 30x44px, constraints left/top
+          - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12.94x14.91px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-bag-badge]", 13x13px, constraints left/top
+            - FRAME "Div", 13x13px, constraints left/top, radius 13px, fill #FFFFFF
+            - FRAME "Span [globalnav-bag-badge-separator]", 10x13px, constraints left/top, fill #FFFFFF
+            - FRAME "Div", 13x13px, constraints left/top, radius 13px, fill #FFFFFF
+            - FRAME "Span [globalnav-bag-badge-number]", 13x14.71px, constraints left/top
+        - FRAME "Icon", 15x44px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 14.08x14.08px, constraints scale/scale, fill #FFFFFFCC
+        - FRAME "Span [globalnav-link-text-container]", 44x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 44x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 43.25x10.76px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Support", 45x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 67x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 67x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 65.98x9.05px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Accessories", 67x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 77x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 77x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 76.48x9.05px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Entertainment", 78x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 65x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 65x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 62.15x8.81px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "TV & Home", 62x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 43x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 43x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 42x9.05px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "AirPods", 43x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 34x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 34x44px, constraints left/top, fill #FFFFFF
+            - GROUP "en-US_globalnav_links_vision_image_large", 34x44px, constraints scale/scale
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Vision", 34x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 35x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 35x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 33.49x8.94px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Watch", 35x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 38x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 38x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 36.47x9.05px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "iPhone", 38x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 24x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 24x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 22.39x9.11px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "iPad", 24x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 23x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 23x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 21.97x8.57px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Mac", 24x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Span [globalnav-link-text-container]", 30x44px, vertical pad 0 0 0 0px gap -44px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Icon", 30x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 28.46x8.85px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Store", 30x12px, constraints left/top, fill #FFFFFFCC, text [Inter Regular, 11.8px]
+        - FRAME "Link [globalnav-link]", 30x44px, constraints left/top
+          - FRAME "Icon", 14x44px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 12.97x15.94px, constraints scale/scale, fill #FFFFFFCC
+          - FRAME "Span [globalnav-link-text]", 1x44px, constraints left/top
+            - TEXT "Apple", 47x21px, constraints left/top, fill #FFFFFFCC, text [Inter SemiBold, 17.1px]
+  - TEXT "Desktop - Light Mode - 1440x900", 668x48px, constraints left/top, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+  - TEXT "https://www.apple.com/apple-watch-ultra-2/", 528x30px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+
+Screen: Page 1 / Web to Figma
+- FRAME "Web to Figma", 5940x636px, horizontal pad 140 110 140 110px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #8746EB
+  - TEXT "✨ Imported with Web to Figma", 4564x356px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 296.9px], [heading]
+
+Screen: Page 1 / Chrome extension
+- FRAME "Chrome extension", 913.78x257.56px, horizontal pad 14.28 0 14.28 0px gap 42.83px align center/center sizing W:fixed H:fixed, constraints left/top, radius 214.17px, fill #007AEA, stroke #FFFFFF29 3.57px
+  - FRAME "Google_Chrome-Logo.wine 1", 112.31x114.22px, constraints left/top, radius 89.34px, fill #FFFFFF [decorative, ~43 shapes]
+  - TEXT "Get extension", 575x229px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 85.67px], [heading]
+
+Screen: Page 1 / FIgma Plugin
+- FRAME "FIgma Plugin", 913.78x257.56px, horizontal pad 14.28 0 14.28 0px gap 42.83px align center/center sizing W:fixed H:fixed, constraints left/top, radius 214.17px, fill #8746EB
+  - FRAME "Frame", 114.22x114.22px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+  - TEXT "Try in Figma", 480x229px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 85.67px], [heading]
+
+Screen: Page 1 / Web To Figma Plugin
+- FRAME "Web To Figma Plugin", 1920x960px, constraints left/top, fill #0B021C
+  - FRAME "Frame 1116606390", 1920x964.53px, constraints left/top
+    - FRAME "Frame 1116606378", 1920x964.53px, constraints left/top, radius 18.13px
+      - RECTANGLE "Rectangle 132", 1920x964.53px, constraints left/top, fill #0B021C
+      - INSTANCE "Background pattern", 3662.32x2746.74px, constraints left/top, opacity 13%
+        - FRAME "Mask", 2746.74x2746.74px, constraints center/top
+          - INSTANCE "_Background mask", 2746.74x2746.74px, constraints center/top, fill gradient_radial(#000000 0% | #00000000 95%)
+        - FRAME "Content", 3662.32x2746.74px, constraints center/top [decorative, ~44 shapes]
+      - ELLIPSE "Ellipse 35", 1450.42x1450.42px, constraints left/top, fill #8243EA66, effect [layer_blur 725.21px]
+      - GROUP "Group 17", 794.1x683.51px, constraints left/top [decorative, ~14 shapes]
+      - GROUP "Group 21", 794.11x703.46px, constraints right/top [decorative, ~15 shapes]
+      - ELLIPSE "Ellipse 37", 1450.42x1450.42px, constraints left/top, fill #8243EA33, effect [layer_blur 725.21px]
+      - GROUP "Group 24", 794.11x703.46px, constraints center/center [decorative, ~15 shapes]
+      - FRAME "Frame 1116606583", 787x793.52px, vertical pad 0 0 0 0px gap 36.26px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1116606582", 787x210px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Design inspirations,", 787x105px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 79.77px], [heading]
+          - TEXT "meet Figma", 453x105px, constraints left/top, fill #8746EB, text [Kodchasan Bold, 79.77px], [heading]
+        - FRAME "Frame 1116606389", 647.25x547.26px, vertical pad 0 0 0 0px gap 58.02px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 1116606388", 647.25x123px, vertical pad 0 0 0 0px gap 19.94px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Web to Figma is the most delightful way to save, organise, a", 647.25x123px, constraints left/top, fill #FFFFFFCC, text [Inter Light, 25.38px], [heading]
+          - FRAME "Frame 1116606387", 458.52x366.24px, vertical pad 0 0 0 0px gap 27.2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606382", 401.15x54.39px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606385", 415.52x50.77px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606386", 428.52x50.77px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606383", 446.52x50.76px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 1116606384", 458.52x50.77px, horizontal pad 0 0 0 0px gap 21.76px align min/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Ellipse 71", 258.61x221.19px, constraints left/top, fill #6831E1, effect [layer_blur 116.03px]
+      - FRAME "Frame 1116606584", 1026.35x940.96px, horizontal pad 0 0 0 0px gap -54.39px align min/max sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "Ellipse 71", 258.61x221.19px, constraints left/top, fill #6831E1, effect [layer_blur 116.03px]
+        - FRAME "Figma Plugin", 538.65x754.11px, vertical pad 0 0 0 0px gap 17.24px sizing W:fixed H:fixed, constraints left/top, radius 16.54px, fill White-100, stroke gradient_linear(#6F2DFF 0% | #FFFFFF 100%) 3.63px, effect [drop_shadow 97.29px offset 0 2.15 #4900C38A]
+          - FRAME "Frame 28", 751.74x61.64px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 751.74x60.14px, horizontal pad 6.01 12.03 6.01 24.06px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Divider", 751.74x1.5px, constraints left/top
+          - FRAME "Frame 29", 538.65x304.17px, vertical pad 0 17.24 0 17.24px gap 17.24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 7", 504.17x71.03px, vertical pad 0 0 0 0px gap 8.76px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Recent captures", 224.08x18px, constraints left/top, fill Black-8 , text [Inter SemiBold, 11.85px]
+            - FRAME "Frame 33", 1025.58x180.67px, horizontal pad 0 0 0 0px gap 17.24px sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "separator", 538.65x1.08px, constraints left/top, fill Special / Black 1
+          - RECTANGLE "image 45", 538.92x267.42px, constraints left/top, fill image(hash: d3f2c4fc71ad854217e7d1e66164b91e2435e755)
+        - FRAME "Figma Plugin", 542.1x940.96px, constraints left/top, radius 16.54px, fill White-100, stroke gradient_linear(#6F2DFF 0% | #FFFFFF 100%) 3.63px, effect [drop_shadow 97.29px offset 0 2.15 #4900C38A]
+          - FRAME "Frame 28", 751.74x68.9px, vertical pad 0 0 0 0px gap 7.25px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 751.74x60.14px, constraints left/top
+            - INSTANCE "Divider", 751.74x1.5px, constraints left/top
+          - INSTANCE "Divider", 751.74x1.5px, constraints left/top
+          - FRAME "Frame 1116606553", 542.1x3012.82px, vertical pad 0 0 0 0px gap 17.36px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 32", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606492", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606491", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 33", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606489", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 34", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606488", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606490", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606493", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606494", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606495", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606496", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606497", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606498", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606499", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 1116606500", 542.1x172.03px, horizontal pad 0 17.36 0 17.36px gap 17.36px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1116606586", 90.65x90.65px, constraints left/top
+          - ELLIPSE "Ellipse 72", 90.65x90.65px, constraints left/top, fill #6932E2, stroke gradient_linear(#6F2DFF 0% | #FFFFFF00 100%) 3.24px, effect [drop_shadow 86.87px offset 0 1.92 #4900C38A]
+          - FRAME "Frame", 43.51x43.51px, constraints center/center, fill #FFFFFF
+            - VECTOR "Vector", 36.26x30.82px, constraints scale/scale, stroke #FFFFFF 3.63px
+            - VECTOR "Vector", 36.26x0px, constraints scale/scale, stroke #FFFFFF 3.63px
+      - FRAME "Frame 1116606585", 78.17x82.81px, constraints left/top [decorative, ~7 shapes]
+      - ELLIPSE "Ellipse 48", 7.43x7.43px, constraints left/top, fill gradient_radial(#D6BDFF 0% | #7B2CFF 100%), effect [drop_shadow 5.44px offset 0 0 #FFFFFF61]
+  - FRAME "Frame 1116606586", 101.53x101.53px, constraints left/top [decorative, ~5 shapes]
+
+Screen: Page 1 / Group 26
+- GROUP "Group 26", 1970x1609.56px, constraints left/top, radius 0/0/0/0px
+  - FRAME "Chrome extension", 913.78x257.56px, horizontal pad 14.28 0 14.28 0px gap 42.83px align center/center sizing W:fixed H:fixed, constraints left/top, radius 214.17px, fill #007AEA, stroke #FFFFFF29 3.57px
+    - FRAME "Google_Chrome-Logo.wine 1", 112.31x114.22px, constraints left/top, radius 89.34px, fill #FFFFFF [decorative, ~43 shapes]
+    - TEXT "Get extension", 575x229px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 85.67px], [heading]
+  - FRAME "FIgma Plugin", 913.78x257.56px, horizontal pad 14.28 0 14.28 0px gap 42.83px align center/center sizing W:fixed H:fixed, constraints left/top, radius 214.17px, fill #8746EB
+    - FRAME "Frame", 114.22x114.22px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - TEXT "Try in Figma", 480x229px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 85.67px], [heading]
+  - FRAME "Thumbnail", 1920x1200px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 1116606391", 1920x1200px, constraints center/top, fill #0B021C
+      - VECTOR "Ellipse 71", 258.61x221.19px, constraints left/top, fill #6831E1, effect [layer_blur 116.03px]
+      - RECTANGLE "grid", 2595.01x1303.63px, constraints right/top, fill image(hash: f29563c2037c09846625eb90744f7ce82135d8b1)
+      - FRAME "Sparkles-2", 142.02x142.02px, constraints left/top [decorative, ~7 shapes]
+      - ELLIPSE "Glow-2", 1333.83x1333.83px, constraints left/top, fill #8243EA66, effect [layer_blur 666.92px]
+      - ELLIPSE "Glow-1", 1333.83x1333.83px, constraints left/top, fill #8243EA33, effect [layer_blur 666.92px]
+      - GROUP "Dots-3", 661.75x569.59px, constraints left/top [decorative, ~14 shapes]
+      - GROUP "Dots", 661.75x586.21px, constraints center/center [decorative, ~15 shapes]
+      - GROUP "Dots-2", 661.75x586.21px, constraints right/top [decorative, ~15 shapes]
+      - GROUP "Sparkles", 128.07x103.17px, constraints left/top [decorative, ~7 shapes]
+      - VECTOR "Blur", 0x240px, constraints left/top, stroke #9A5DFF63 28.59px, effect [layer_blur 33.36px]
+      - VECTOR "Vector 33", 547.86x0px, constraints left/top, stroke gradient_linear(#6102FF 0% | #8243EA00 100%) 7.12px
+      - VECTOR "Vector 34", 538.5x0px, constraints left/top, stroke gradient_linear(#6102FF 0% | #8243EA00 100%) 7.12px
+      - VECTOR "Vector 31", 2.01x243.5px, constraints left/top, stroke gradient_linear(#FFFFFF 3% | #6000FF 100%) 5.11px
+      - INSTANCE "Square", 129.29x129.29px, constraints center/top, fill #8243EA, effect [drop_shadow 4.4px offset 0 4.4 #00000040, drop_shadow 133.73px offset 0 3.47 #000000]
+        - TEXT "web", 82x53px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 40.4px], [heading]
+        - TEXT "f", 20x53px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 40.4px], [heading]
+        - TEXT "igma", 91x53px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 40.4px], [heading]
+        - VECTOR "Vector 1 (Stroke)", 23.6x28.28px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 2.02px
+      - FRAME "Frame 1116606397", 724x256.85px, vertical pad 0 0 0 0px gap 56.71px sizing W:fixed H:fixed, constraints center/top
+        - FRAME "Frame 1116606379", 724x256.85px, vertical pad 0 0 0 0px gap -7.15px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Landing page", 724x128px, constraints left/top, fill #8746EB, effect [drop_shadow 34px offset 0 4 #8151FF99], text [Kodchasan Bold, 106.41px], [heading]
+          - TEXT "Apple", 334x136px, constraints left/top, fill #FFFFFF, text [Kodchasan Bold, 113.41px], [heading]
+    - GROUP "Sparkles", 128.07x103.17px, constraints left/top [decorative, ~7 shapes]
+    - VECTOR "Vector 31", 2.01x243.5px, constraints left/top, stroke gradient_linear(#FFFFFF 3% | #6000FF 100%) 5.11px
+    - VECTOR "Blur", 2x152px, constraints left/top, stroke #9A5DFF63 28.59px, effect [layer_blur 33.36px]
+    - RECTANGLE "image", 1009.98x691.41px, constraints left/top, radius 19.61px, fill image(hash: 09c6d47d8f7c0ec11cfcae1b1bebd8e74aace3ef)
+    - RECTANGLE "image", 992.37x751.06px, constraints left/top, radius 19.61px, fill image(hash: a5c7aa32ee13fd76cde421adcd89f1ca474c6470)
+    - RECTANGLE "image", 1018.99x692.29px, constraints left/top, radius 19.61px, fill image(hash: 728b27331681ee5d630e913200dc48e7a5a79863)
+    - RECTANGLE "image", 958.61x622.07px, constraints left/top, radius 19.61px, fill image(hash: 5f98019b3877b25d15e6165a0f22c043dfbf7c7e)
+    - RECTANGLE "image", 981.16x641.11px, constraints left/top, radius 19.61px, fill image(hash: 68a5bb274840621d3b4381c7c75f2ea00786bcad)
+    - RECTANGLE "image", 1021.96x726.02px, constraints left/top, radius 19.61px, fill image(hash: 39b8c1090cebc381f336d42970c7aa859812532f)
+
+Screen: Page 1 / Apple iPhone 16 Landing Page Inspiration
+- SECTION "Apple iPhone 16 Landing Page Inspiration", 1825x45045.98px, fill #404040, stroke #0000001A 1px
+  - FRAME "Screen", 1425x44547.98px, constraints left/top, fill #FFFFFF
+    - FRAME "Body [page-overview]", 1425x44547.98px, constraints left/top, fill #FFFFFF
+      - FRAME "Footer [ac-globalfooter]", 1425x2561.16px, constraints left/top, fill #F5F5F7
+        - FRAME "Div [ac-gf-content]", 1024x2561.16px, constraints left/top
+          - FRAME "Section [ac-gf-footer]", 980x126px, constraints left/top
+            - FRAME "Div [ac-gf-footer-legal]", 980x26px, constraints left/top
+            - FRAME "Link [ac-gf-footer-locale-link]", 75.18x16px, constraints left/top
+            - FRAME "Div [ac-gf-footer-shop]", 980x36px, constraints left/top, stroke #00000029 0px
+          - FRAME "Nav [ac-gf-directory]", 980x439.91px, horizontal pad 0 26.5 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 43863.69 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 43735.72 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column-section]", 196x323.13px, vertical pad 0 20 43684.53 0px gap 9.59px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 43914.88 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [ac-gf-directory-column]", 196x439.91px, vertical pad 0 0 43786.91 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Nav [ac-gf-breadcrumbs]", 980x56px, constraints left/top
+            - FRAME "Div [ac-gf-breadcrumbs-path]", 980x22px, horizontal pad 0 151.39 0 25px gap 7px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Link [home]", 14x18px, vertical pad 0 0 43942.06 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "H2 [ac-gf-label]", 1x1px, vertical pad 0 0 41970.81 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Apple", 32x16px, constraints left/top, fill #000000E0, text [Inter Regular, 11.8px]
+            - TEXT "Footer", 36x16px, constraints left/top, fill #000000E0, text [Inter Regular, 11.8px]
+          - FRAME "Section [ac-gf-sosumi]", 980x1939.25px, constraints left/top, stroke #00000029 0px
+            - TEXT "Honor of Kings: World coming at a later date", 242x16px, constraints left/top, fill #0000008F, text [Inter Regular, 11.8px]
+            - FRAME "List", 980x1779.06px, vertical pad 0 17 41312.62 17px gap -0.01px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item [footnote-1]", 980x105.6px, vertical pad 0 0 41987.81 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Main [main]", 1425x41986.81px, constraints left/top
+        - FRAME "Section [section]", 1425x801px, constraints left/top, fill #FAFAFC
+          - FRAME "Div [iphone-index]", 1246.88x481px, vertical pad 0 0 40977.81 0px gap 53.5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "iPhone", 168x60px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 50.6px], [heading]
+            - FRAME "Nav [index-groups]", 1246.88x368px, horizontal pad 0 0 0 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x2126px, constraints left/top, fill #F5F5F7
+          - FRAME "Div [all-access-pass__background]", 303.15x56px, constraints left/top, radius 32px, fill #E8E8EDB2, effect [inner_shadow 1px offset 0 0 #0000001C]
+            - FRAME "Link [aap-base-link]", 303.15x56px, constraints left/top, radius 32px
+          - FRAME "Div [viewport-content]", 1246.88x1750px, vertical pad 0 0 37849.81 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Header [section-header]", 1246.88x140px, constraints left/top
+            - FRAME "Div [card]", 1246.88x1610px, constraints left/top, radius 28px, fill #FFFFFF
+        - FRAME "Section [section]", 1425x782.6px, constraints left/top, fill #F5F5F7
+          - FRAME "Div [scroll-gallery-incentive]", 1425x432.6px, constraints left/top
+            - FRAME "List", 90x36px, horizontal pad 0 1209.94 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [scroll-container]", 1425x378.6px, constraints left/top
+          - FRAME "Header [section-header]", 1246.88x200px, constraints left/top
+            - FRAME "Link [icon-wrapper]", 108x20px, constraints left/top
+            - FRAME "H2 [section-header-headline]", 935.16x120px, vertical pad 0 406.19 38377.22 0px gap -0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Section [section]", 1425x1244px, constraints left/top, fill #F5F5F7
+          - FRAME "Div [viewport-content]", 1246.88x924px, vertical pad 0 0 36409.22 0px gap 80.5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Significant others.", 444x60px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 50.6px], [heading]
+            - FRAME "Div [card]", 1246.88x784px, constraints left/top, radius 28px, fill #FFFFFF
+        - FRAME "Section [section]", 1425x33613.2px, constraints left/top
+          - FRAME "Div [viewport-content]", 1246.88x1977.78px, constraints left/top
+            - FRAME "Div [values-list]", 1246.88x1745.78px, vertical pad 0 0 34603.84 0px gap 128px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "H3 [values-headline]", 1039.06x168px, vertical pad 0 426.18 34773.44 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Section [section]", 1425x2130.31px, constraints left/top, fill #F5F5F7
+            - GROUP "Div [viewport-content]", 1350.78x1810.31px, constraints left/top
+          - FRAME "Section [section]", 1425x2423px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #F5F5F7 60%)
+            - GROUP "Link [icon-wrapper]", 224.34x23px, constraints left/top
+            - FRAME "Div [ios 18 gallery]", 1425x800px, constraints left/top
+            - FRAME "Div [section-head]", 1425x1368px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #C9DEE2 100%)
+          - FRAME "Section [section]", 1425x1403.39px, constraints left/top, fill gradient_linear(#D464AE33 0% | #D464AE00 20%)
+            - GROUP "Div [viewport-content]", 703.25x1219.89px, constraints left/top
+          - FRAME "Section [section]", 1425x3296.16px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #FFFFFF 20% | #F1F3FB 100%)
+            - FRAME "Div [viewport-content]", 1246.88x2976.16px, constraints left/top
+          - FRAME "Section [section]", 1425x1886.23px, constraints left/top, fill gradient_linear(#4E949F33 0% | #4E949F00 20%)
+            - FRAME "Div [viewport-content]", 1246.88x1566.23px, constraints left/top
+          - FRAME "Section [section]", 1425x6696.23px, constraints left/top
+            - GROUP "Div [viewport-content]", 1037.5x3084.23px, constraints left/top
+            - FRAME "Div [styles-list]", 1425x1840px, constraints left/top
+            - FRAME "Div [viewport-content]", 1246.88x336px, vertical pad 0 105.63 14881.11 103.75px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Section [section]", 1425x1973px, constraints left/top, fill #000000
+            - GROUP "Div [viewport-content]", 1440x1813px, constraints left/top, radius 0/0/0/0px
+          - FRAME "Section [section]", 1425x5419.11px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #FFFFFF 23% | #F6F5F5 100%)
+            - FRAME "Div [audio-mix-wrapper]", 1037.5x1171.09px, constraints left/top, radius 18px, fill #FFFFFF
+            - FRAME "Div [spatial-capture-copy]", 622.5x181px, vertical pad 0 0 13229.02 0px gap 42px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Image", 933.75x484.16px, constraints left/top, fill image(hash: 0c6ba5a9d42b5388f921ee73f9240a0c25853789)
+            - FRAME "Div [spatial-capture-headline]", 830x180px, vertical pad 0 0 12385.64 0px gap 0.5px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [zoom-gallery-outer]", 1425x869.49px, constraints left/top
+            - FRAME "Div [ultrawide-camera-copy]", 622.5x365px, constraints left/top
+            - FRAME "Div [row]", 1425x831.16px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #F2D0E6 100%)
+            - GROUP "Div [camera-section-welcome]", 830x466.5px, constraints left/top
+          - FRAME "Section [section]", 1425x2502px, constraints left/top, fill gradient_linear(#FFFFFF 0% | #FFFFFF 20% | #F1F3FB 80% | #F1F3FB 100%)
+            - FRAME "Div [scroll-gallery-camera-control]", 1425x688px, constraints left/top
+            - FRAME "Paragraph [body-copy]", 830x116px, constraints left/top
+            - FRAME "Div [camera-control-media-container]", 1425x900px, constraints left/top
+            - FRAME "Div [subsection-copy]", 1246.87x168px, vertical pad 0 248.06 7044 103.75px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Section [section]", 1425x3646px, vertical pad 160 0 2792 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [section-apple-intelligence-hero]", 1425x1518px, vertical pad 0 0 2532 0px gap 80px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [intelligence-inner]", 1425x1326px, constraints left/top, fill #F1F3FB
+            - FRAME "Div [background-alt]", 1425x642px, constraints left/top, fill gradient_linear(#F1F3FB 0% | #FFFFFF 80% | #FFFFFF 100%)
+        - FRAME "Section [section]", 1425x1196px, constraints left/top
+          - GROUP "Div [real-time-viewer-base-xp-gallery]", 1425x796px, constraints left/top
+            - FRAME "Div [real-time-viewer-base-xp-gallery]", 1425x680px, horizontal pad 0 0 0 0px gap -1425px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Div [aap-product-viewer-fallback]", 280x58px, constraints left/top
+          - FRAME "H2 [section-header-headline]", 935.16x60px, constraints left/top, opacity 78%
+            - TEXT "Take a closer look.", 448x60px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 50.6px], [heading]
+        - FRAME "Section [section]", 1425x1226px, constraints left/top
+          - GROUP "Div [media-card-gallery]", 1425x826px, constraints left/top
+            - FRAME "Div [gallery]", 1425x710px, constraints left/top
+            - FRAME "Div [aap-media-card-gallery]", 262x56px, horizontal pad 0 389.5 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "H2 [section-header-headline]", 935.16x60px, constraints left/top, opacity 90%
+            - TEXT "Get the highlights.", 446x60px, constraints left/top, fill #1D1D1F, text [Inter SemiBold, 50.6px], [heading]
+        - FRAME "Section [section]", 1425x900px, vertical pad 0 0 0 0px gap 25px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Div [media-container]", 1425x681px, constraints left/top
+            - FRAME "Div [gradient]", 1425x725px, constraints left/top, fill gradient_linear(#0C1247 0% | #28337D 28% | #505DAD 46% | #7D8ED1 60% | #AEBCE6 75% | #EFECFF 90% | #FFFFFF 100%)
+            - FRAME "Div [content-wrapper]", 1152x680px, constraints left/top
+          - FRAME "Div [marquee]", 1425x138px, constraints left/top
+            - FRAME "Div [marquee-detail]", 1246.88x138px, constraints left/top
+      - FRAME "Nav [ac-localnav]", 1425x52px, constraints left/top
+        - FRAME "Div [ac-ln-wrapper]", 1425x52px, constraints left/top
+          - FRAME "Div", 980x1px, constraints left/top, fill #00000029
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,90 @@
+---
+name: curve-crousel-prototype-community
+source_file: Curve crousel prototype (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:30:41.815140+00:00
+---
+
+# Curve crousel prototype (Community) Design Guidelines
+
+## Source
+- Figma file: Curve crousel prototype (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:30:41.815140+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 9 uses
+- #FFFFFF: 7 uses
+- #D7F1F8: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Lato Medium, 14px: 6 uses
+
+## Typography Hierarchy
+- 14px - Lato Medium, 14px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / iMac - 1
+- FRAME "iMac - 1", 1152x700px, constraints left/top, radius 20px, fill #D7F1F8, effect [drop_shadow 30px offset 20 20 #455E6466]
+  - RECTANGLE "Rectangle 1", 1152x85px, constraints left/top, fill #ACDFEB, stroke #B8B8B8 1px
+  - TEXT "SOLO", 37x17px, constraints left/top, fill #000000, text [Lato Medium, 14px]
+  - TEXT "FAMILY", 49x17px, constraints left/top, fill #000000, text [Lato Medium, 14px]
+  - TEXT "BEST", 34x17px, constraints left/top, fill #000000, text [Lato Medium, 14px]
+  - TEXT "PRICES", 47x17px, constraints left/top, fill #000000, text [Lato Medium, 14px]
+  - TEXT "Where ??", 59x17px, constraints left/top, fill #455E64, text [Lato Medium, 14px]
+  - TEXT "NOTIFICATIONS", 106x17px, constraints left/top, fill #000000, text [Lato Medium, 14px]
+  - VECTOR "Arrow 1", 25x0px, constraints left/top, stroke #455E64 2px
+  - FRAME "clarity:notification-outline-badged", 33x33px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 4.82x2.09px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 27.32x26.73px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 9.17x9.17px, constraints scale/scale, fill #000000
+  - FRAME "Frame 14", 1147x421px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 13", 3084x401px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 12", 3064x381px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 3044x361px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 10", 3024x341px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 9", 3004x321px, vertical pad 10 10 10 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+  - ELLIPSE "Ellipse 2", 1152x128px, constraints left/top, fill #D7F1F8
+  - ELLIPSE "Ellipse 1", 1152x128px, constraints left/top, fill #D7F1F8
+  - ELLIPSE "Ellipse 3", 62x62px, constraints left/top, fill #000000
+  - FRAME "Frame 16", 60x55px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "M", 28x35px, constraints left/top, fill #FFFFFF, text [Lato Medium, 29px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

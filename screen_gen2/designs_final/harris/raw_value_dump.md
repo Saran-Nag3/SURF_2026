@@ -1,0 +1,301 @@
+---
+name: are-na-design-system-community
+source_file: Are.na Design System (Community)
+source_page: All pages (2): Cover, Design System
+generated_at: 2026-07-25T09:27:23.478372+00:00
+---
+
+# Are.na Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Are.na Design System (Community)
+- Figma page: All pages (2): Cover, Design System
+- Extracted at: 2026-07-25T09:27:23.478372+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Medium Grey: [#C6C6C6]
+- White: [#FFFFFF]
+- Dark Grey: [#585858]
+- Black: none
+- Light Grey 2: [#F7F7F7]
+- Green: none
+- Purple: [#4B3D66]
+- Light Grey 1: none
+
+## Raw Colors (unstyled)
+- #000000: 36 uses
+- #6A6A6A: 6 uses
+- #E0DFDF: 6 uses
+- #585858: 5 uses
+- #C4C4C4: 4 uses
+- #C6C6C6: 4 uses
+- #CCCCCC: 4 uses
+- #FFFFFF: 4 uses
+- #7B61FF: 3 uses
+- #F7F7F7: 3 uses
+
+## Typography Tokens
+- Caption 2: Arial BoldMT (700), 24px / 38px, tracking 0px
+- Body Small: Arial ArialMT (400), 26px / 40px, tracking 0px
+- MMDS/Title: Work Sans SemiBold (600), 56px / auto, tracking -1.25px
+- Body Regular: Helvetica Helvetica (400), 32px / 46px, tracking 0px
+- Title 2: Arial BoldMT (700), 56px / 70px, tracking 0px
+
+## Raw Typography (unstyled)
+- Arial ArialMT, 24px: 14 uses
+- Arial BoldMT, 24px: 12 uses
+- Arial BoldMT, 28px: 10 uses
+- Helvetica Helvetica, 32px: 8 uses
+- Arial BoldMT, 56px: 7 uses
+- Arial BoldMT, 32px: 5 uses
+
+## Typography Hierarchy
+- 56px - Arial BoldMT, 56px (raw)
+- 56px - MMDS/Title (Work Sans SemiBold)
+- 56px - Title 2 (Arial BoldMT)
+- 32px - Arial BoldMT, 32px (raw)
+- 32px - Body Regular (Helvetica Helvetica)
+- 32px - Helvetica Helvetica, 32px (raw)
+- 28px - Arial BoldMT, 28px (raw)
+- 26px - Body Small (Arial ArialMT)
+- 24px - Arial ArialMT, 24px (raw)
+- 24px - Arial BoldMT, 24px (raw)
+- 24px - Caption 2 (Arial BoldMT)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Frame 16
+- Frame 18
+- Frame 13
+
+## Component Specs
+- Frame 16: size 738x58px, horizontal layout, padding 15 20 15 20px, gap 10px, sizing W:fixed H:fixed, fill White, stroke #CCCCCC 2px, text [Arial ArialMT, 24px] | variants: Property 1: Default/Variant2/Variant3/Variant5
+- Frame 18: size 730x114px, horizontal layout, padding 34 0 34 0px, gap 10px, sizing W:fixed H:fixed, stroke #4B3D66 4px, text [Helvetica Helvetica, 32px] | variants: Property 1: Default/Variant2/Variant3/Variant4
+- Frame 13: size 170x78px, radius 4px, horizontal layout, padding 20 39 20 39px, gap 10px, sizing W:fixed H:fixed, stroke Light Grey 1 4px, text [Arial BoldMT, 28px] | variants: Property 1: Connect Default/Connect Hover/Default/Explore/Hover/Rest State/Sign Up
+
+## Most-Used Styles
+- Dark Grey: 32 uses
+- Medium Grey: 22 uses
+- White: 14 uses
+- Body Small: 11 uses
+- Black: 4 uses
+- Caption 2: 4 uses
+- Light Grey 1: 4 uses
+- Green: 3 uses
+- Body Regular: 2 uses
+- Light Grey 2: 2 uses
+- Purple: 2 uses
+- MMDS/Title: 1 use
+- Title 2: 1 use
+
+## Layout & Structure
+Screen: Cover / Plugin / file cover - 1
+- FRAME "Plugin / file cover - 1", 1920x960px, constraints left/top, fill #FFFFFF
+  - TEXT "Are.na design system for Figma", 851x70px, constraints left/top, fill Dark Grey, text [Title 2], [heading]
+  - GROUP "Group 31", 202x35px, constraints left/top
+    - TEXT "made by", 88x35px, constraints left/top, fill #58585880, text [Helvetica Helvetica, 22px]
+    - VECTOR "haber", 99x30px, constraints left/top, fill #58585880
+  - VECTOR "image 13 (Traced)", 51x31px, constraints scale/scale, fill #585858
+
+Screen: Design System / Typography
+- FRAME "Typography", 1273x1990px, constraints left/top, fill White
+  - LINE "Line 11", 955x0px, constraints left/top, stroke #E0DFDF 1.5px
+  - TEXT "Text Styles", 375x66px, constraints left/top, fill #000000, text [Arial BoldMT, 56px], [heading]
+  - TEXT "Title 1 Try following a few channels", 890x78px, constraints left/top, fill Dark Grey, text [Helvetica Helvetica, 64px], [heading]
+  - TEXT "Title 2 Try following a few channels", 845x70px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 56px], [heading]
+  - TEXT "Caption 2 Try following a few channels", 442x38px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 24px], [heading]
+  - TEXT "Caption 3 Try following a few channels", 417x38px, constraints left/top, fill Dark Grey, text [Arial ArialMT, 24px], [heading]
+  - TEXT "H2 See more mood channels", 527x46px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 40px], [heading]
+  - TEXT "Caption 1 Try following a few channels", 498x38px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 28px], [heading]
+  - TEXT "H1 Try following a few channels", 696x62px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 48px], [heading]
+  - TEXT "H3 Try following a few channels", 474x46px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 32px], [heading]
+  - TEXT "Body Large Try following a few channels", 748x62px, constraints left/top, fill Dark Grey, text [Helvetica Helvetica, 48px], [heading]
+  - TEXT "Body Regular Try following a few channels", 567x46px, constraints left/top, fill Dark Grey, text [Helvetica Helvetica, 32px], [heading]
+  - TEXT "Body Small This channel appears in", 415x40px, constraints left/top, fill Dark Grey, text [Arial ArialMT, 26px], [heading]
+
+Screen: Design System / Buttons
+- FRAME "Buttons", 1273x3050px, constraints left/top, fill White
+  - LINE "Line 11", 955x0px, constraints left/top, stroke #E0DFDF 1.5px
+  - TEXT "Buttons", 375x66px, constraints left/top, fill #000000, text [Arial BoldMT, 56px], [heading]
+  - COMPONENT_SET "Frame 13", 558x717px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Property 1=Default", 170x78px, horizontal pad 20 39 20 39px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke Light Grey 1 4px
+      - TEXT "Follow", 92x38px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 28px], [heading]
+    - COMPONENT "Property 1=Hover", 170x78px, horizontal pad 20 39 20 39px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke Dark Grey 4px
+      - TEXT "Follow", 92x38px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 28px], [heading]
+    - COMPONENT "Property 1=Connect Default", 218x78px, horizontal pad 20 39 20 39px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke Light Grey 1 4px
+      - TEXT "Connect", 140x38px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 28px], [heading]
+    - COMPONENT "Property 1=Sign Up", 218x78px, horizontal pad 20 39 20 39px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke Light Grey 1 4px
+      - TEXT "Sign Up", 140x38px, constraints left/top, fill Black, text [Arial BoldMT, 28px], [heading]
+    - COMPONENT "Property 1=Explore", 218x78px, horizontal pad 20 39 20 39px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke Light Grey 1 4px
+      - TEXT "Explore", 140x38px, constraints left/top, fill Black, text [Arial BoldMT, 28px], [heading]
+    - COMPONENT "Property 1=Connect Hover", 218x78px, horizontal pad 20 39 20 39px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke Dark Grey 4px
+      - TEXT "Connect", 140x38px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 28px], [heading]
+    - COMPONENT "Property 1=Rest State", 454x78px, horizontal pad 20 39 20 39px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #000000 3px
+      - TEXT "See more mood channels", 376x38px, constraints left/top, fill Black, text [Arial BoldMT, 28px], [heading]
+  - FRAME "Frame 14", 106x51px, horizontal pad 7 10 7 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill gradient_radial(#FFFFFF 56% | #E5E5E5 100%), stroke #C6C6C6 2px
+    - TEXT "Mood", 86x37px, constraints left/top, fill #585858, text [Arial BoldMT, 32px], [heading]
+  - FRAME "Frame 19", 122x51px, horizontal pad 7 10 7 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill gradient_radial(#FFFFFF 56% | #E5E5E5 100%), stroke #C6C6C6 2px
+    - TEXT "Nature", 102x37px, constraints left/top, fill #585858, text [Arial BoldMT, 32px], [heading]
+  - FRAME "Frame 20", 99x51px, horizontal pad 7 10 7 10px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill gradient_radial(#FFFFFF 56% | #E5E5E5 100%), stroke #C6C6C6 2px
+    - TEXT "Food", 79x37px, constraints left/top, fill #585858, text [Arial BoldMT, 32px], [heading]
+  - COMPONENT_SET "Frame 18", 770x556px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Property 1=Default", 730x114px, horizontal pad 34 0 34 0px gap 10px sizing W:fixed H:fixed, constraints left/top, stroke #4B3D66 4px
+      - TEXT "Channel Name 1 block", 345x46px, constraints left/top, fill Purple, text [Helvetica Helvetica, 32px], [heading]
+    - COMPONENT "Property 1=Variant2", 730x114px, horizontal pad 34 0 34 0px gap 10px sizing W:fixed H:fixed, constraints left/top, stroke #4B3D664D 4px
+      - TEXT "Channel Name 203 blocks", 384x46px, constraints left/top, fill Purple, text [Helvetica Helvetica, 32px], [heading]
+    - COMPONENT "Property 1=Variant4", 730x114px, horizontal pad 34 0 34 0px gap 10px sizing W:fixed H:fixed, constraints left/top, stroke #16AC0F4D 4px
+      - TEXT "Channel Name 1 block", 345x46px, constraints left/top, fill Green, text [Helvetica Helvetica, 32px], [heading]
+    - COMPONENT "Property 1=Variant3", 730x114px, horizontal pad 34 0 34 0px gap 10px sizing W:fixed H:fixed, constraints left/top, stroke Green 4px
+      - TEXT "Channel Name 2 blocks", 357x46px, constraints left/top, fill Green, text [Helvetica Helvetica, 32px], [heading]
+  - COMPONENT_SET "Frame 16", 778x410px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Property 1=Default", 738x58px, horizontal pad 15 20 15 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill White, stroke #CCCCCC 2px
+      - TEXT "Type channel name", 718x28px, constraints left/top, fill #6A6A6A, text [Arial ArialMT, 24px], [heading]
+    - COMPONENT "Property 1=Variant2", 738x58px, horizontal pad 15 20 15 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Light Grey 2, stroke #CCCCCC 2px
+      - TEXT "User / Public Channel Name", 718x28px, constraints left/top, fill #6A6A6A, text [Arial ArialMT, 24px], [heading]
+    - COMPONENT "Property 1=Variant5", 738x58px, horizontal pad 15 20 15 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill White, stroke #2260C5 3px
+      - TEXT "Type channel name", 718x28px, constraints left/top, fill #6A6A6A, text [Arial ArialMT, 24px], [heading]
+    - COMPONENT "Property 1=Variant3", 738x58px, horizontal pad 15 20 15 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Light Grey 2, stroke #CCCCCC 2px
+      - TEXT "User / Private Channel Name", 718x28px, constraints left/top, fill #6A6A6A, text [Arial ArialMT, 24px], [heading]
+  - ELLIPSE "Ellipse 1", 88x88px, constraints left/top, stroke Dark Grey 3px
+  - ELLIPSE "Ellipse 2", 88x88px, constraints left/top, stroke Dark Grey 3px
+  - ELLIPSE "Ellipse 3", 40x40px, constraints left/top, fill Dark Grey, stroke Dark Grey 3px
+  - VECTOR "Vector 5", 53.5x36px, constraints left/top, stroke Dark Grey 7px
+  - RECTANGLE "Rectangle 78", 86x86px, constraints left/top, radius 15px, stroke Dark Grey 3px
+  - RECTANGLE "Rectangle 79", 86x86px, constraints left/top, radius 15px, stroke Dark Grey 3px
+
+Screen: Design System / Colour
+- FRAME "Colour", 1273x1898px, constraints left/top, fill White
+  - LINE "Line 11", 955x0px, constraints left/top, stroke #E0DFDF 1.5px
+  - TEXT "Colour Palette", 375x66px, constraints left/top, fill #000000, text [Arial BoldMT, 56px], [heading]
+  - TEXT "Greyscale", 375x66px, constraints left/top, fill #000000, text [Body Regular], [heading]
+  - TEXT "Colour", 375x66px, constraints left/top, fill #000000, text [Body Regular], [heading]
+  - RECTANGLE "Rectangle 49", 192x192px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 54", 192x192px, constraints left/top, fill #16AC0F
+  - RECTANGLE "Rectangle 66", 192x192px, constraints left/top, fill #16AC0F4D
+  - RECTANGLE "Rectangle 48", 192x192px, constraints left/top, fill #4B3D66
+  - RECTANGLE "Rectangle 65", 192x192px, constraints left/top, fill #4B3D664D
+  - RECTANGLE "Rectangle 63", 192x192px, constraints left/top, fill #B70204
+  - RECTANGLE "Rectangle 44", 192x192px, constraints left/top, fill #585858
+  - RECTANGLE "Rectangle 45", 192x192px, constraints left/top, fill #E7E7E4
+  - RECTANGLE "Rectangle 51", 192x192px, constraints left/top, fill #C6C6C6
+  - RECTANGLE "Rectangle 52", 192x192px, constraints left/top, fill #F7F7F7
+  - RECTANGLE "Rectangle 64", 192x192px, constraints left/top, fill #FFFFFF
+  - TEXT "16AC0F", 96x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+  - TEXT "4B3D66", 95x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+  - TEXT "B70204", 90x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+
+Screen: Design System / Cards
+- FRAME "Cards", 2731x1190px, constraints left/top, fill White
+  - LINE "Line 11", 955x0px, constraints left/top, stroke #E0DFDF 1.5px
+  - TEXT "Cards", 375x66px, constraints left/top, fill #000000, text [Arial BoldMT, 56px], [heading]
+  - RECTANGLE "Screen Shot 2021-07-16 at 1.56 2", 501x475px, constraints left/top, fill #F7F7F7
+  - RECTANGLE "Screen Shot 2021-07-16 at 1.56 3", 501x475px, constraints left/top, fill #F7F7F7
+  - RECTANGLE "Rectangle 70", 630x630px, constraints left/top, stroke Medium Grey 2px
+  - RECTANGLE "Rectangle 71", 630x630px, constraints left/top, stroke Medium Grey 2px
+  - GROUP "Group 5", 290x96px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 4", 290x96px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 2", 290x96px, constraints left/top, radius 3px
+        - RECTANGLE "Rectangle 69", 290x96px, constraints left/top, radius 3px, fill #FFFFFFE5
+      - TEXT "Connect", 121x38px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 30px], [heading]
+      - BOOLEAN_OPERATION "Union", 29.5x11.5px, constraints left/top, fill Dark Grey
+  - GROUP "Group 6", 290x96px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 4", 290x96px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 2", 290x96px, constraints left/top, radius 3px
+        - RECTANGLE "Rectangle 69", 290x96px, constraints left/top, radius 3px, fill #FFFFFF
+      - TEXT "Connect", 121x38px, constraints left/top, fill Dark Grey, text [Arial BoldMT, 30px], [heading]
+      - BOOLEAN_OPERATION "Union", 29.5x11.5px, constraints left/top, fill Dark Grey
+
+Screen: Design System / Icons
+- FRAME "Icons", 1273x912px, constraints left/top, fill White
+  - LINE "Line 11", 955x0px, constraints left/top, stroke #E0DFDF 1.5px
+  - TEXT "Icons", 375x66px, constraints left/top, fill #000000, text [Arial BoldMT, 56px], [heading]
+  - BOOLEAN_OPERATION "Union", 29.5x11.5px, constraints left/top, fill #000000, stroke #000000 1px
+  - VECTOR "Line 22", 70x70px, constraints left/top, stroke Dark Grey 4px
+  - VECTOR "Line 23", 30x30px, constraints left/top, stroke Black 4px
+  - GROUP "Group 7", 36x36px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 8", 78x80px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+  - GROUP "Group 9", 20x20px, constraints left/top
+    - VECTOR "Vector 6", 0x20px, constraints left/top, stroke #000000 4px
+    - VECTOR "Vector 7", 20x0px, constraints left/top, stroke #000000 4px
+  - GROUP "Group 10", 38x40px, constraints left/top, radius 2px
+    - RECTANGLE "Rectangle 81", 38x40px, constraints left/top, radius 2px, fill Medium Grey
+    - TEXT "0", 38x40px, constraints left/top, fill White, text [Arial BoldMT, 28px], [heading]
+
+Screen: Design System / Form fields
+- FRAME "Form fields", 1074x880px, constraints left/top, fill #FFFFFF
+  - LINE "Line 12", 420x0px, constraints left/top, stroke #E0DFDF 1.5px
+  - TEXT "Form fields", 375x66px, constraints left/top, fill #000000, text [MMDS/Title], [heading]
+  - TEXT "Rest state", 64x22px, constraints left/top, fill #000000, text [Arial ArialMT, 14px]
+  - TEXT "Active state", 73x22px, constraints left/top, fill #000000, text [Arial ArialMT, 14px]
+  - INSTANCE "Frame 21", 738x58px, horizontal pad 15 20 15 20px gap 10px sizing W:fixed H:fixed, constraints left/top, fill White, stroke #CCCCCC 2px
+    - TEXT "Type channel name", 718x28px, constraints left/top, fill #6A6A6A, text [Arial ArialMT, 24px], [heading]
+  - INSTANCE "Frame 16", 738x58px, horizontal pad 15 20 15 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill White, stroke #2260C5 3px
+    - TEXT "Type channel name", 718x28px, constraints left/top, fill #6A6A6A, text [Arial ArialMT, 24px], [heading]
+
+Screen: Design System / 000000
+- TEXT "000000", 192x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+
+Screen: Design System / 585858
+- TEXT "585858", 136x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+
+Screen: Design System / C6C6C6
+- TEXT "C6C6C6", 103x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+
+Screen: Design System / E7E7E4
+- TEXT "E7E7E4", 96x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+
+Screen: Design System / F7F7F7
+- TEXT "F7F7F7", 92x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+
+Screen: Design System / 30%
+- TEXT "30%", 53x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+
+Screen: Design System / 30%
+- TEXT "30%", 53x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+
+Screen: Design System / FFFFFF
+- TEXT "FFFFFF", 96x40px, constraints left/top, fill #000000, text [Body Small], [heading]
+
+Screen: Design System / Group 14
+- GROUP "Group 14", 630x700px, constraints left/top
+  - RECTANGLE "Rectangle 80", 630x630px, constraints left/top, stroke Medium Grey 2px
+  - RECTANGLE "Rectangle 77", 630x630px, constraints left/top, fill White, stroke Medium Grey 2px
+  - TEXT "image.jpg", 630x31px, constraints left/top, fill Medium Grey, text [Caption 2], [heading]
+
+Screen: Design System / Group 11
+- GROUP "Group 11", 630x742px, constraints left/top
+  - RECTANGLE "Rectangle 76", 630x630px, constraints left/top, fill White, stroke Medium Grey 2px
+  - TEXT "Added by Name Here 5 months ago", 630x73px, constraints left/top, fill Medium Grey, text [Caption 2], [heading]
+
+Screen: Design System / Group 12
+- GROUP "Group 12", 630x700px, constraints left/top
+  - RECTANGLE "Rectangle 78", 630x630px, constraints left/top, fill White, stroke Medium Grey 2px
+  - TEXT "image.jpg", 630x31px, constraints left/top, fill Medium Grey, text [Caption 2], [heading]
+
+Screen: Design System / Group 13
+- GROUP "Group 13", 630x700px, constraints left/top
+  - RECTANGLE "Rectangle 79", 630x630px, constraints left/top, fill White, stroke Medium Grey 2px
+  - TEXT "image.jpg", 630x31px, constraints left/top, fill Medium Grey, text [Caption 2], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

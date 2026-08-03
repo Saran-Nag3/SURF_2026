@@ -1,0 +1,36 @@
+{
+  "company": "intercom",
+  "source": "/Users/sarannagubandi/downloads/markdowns/intercom.md",
+  "platform": "android",
+  "device": "Galaxy A54",
+  "viewport_px": [
+    393,
+    873
+  ],
+  "output_px": [
+    1081,
+    2401
+  ],
+  "paradigm_detected": "component library / already-mobile, because the spec is a UI kit with mobile widget screens, headers, tiles, reply bars, and bottom navigation patterns already defined.",
+  "self_check": "All screens are single-column Android layouts with no system chrome drawn, touch-only controls, desktop/browser residue removed, and the blue/white/gray Inter-based brand tokens and rounded card patterns preserved.",
+  "screens": [
+    {
+      "name": "Home",
+      "kind": "HOME FEED",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "Browse",
+      "kind": "SEARCH BROWSE",
+      "png": "screen_2_search-browse.png",
+      "html": "screen_2_search-browse.html"
+    },
+    {
+      "name": "Profile",
+      "kind": "PROFILE",
+      "png": "screen_3_profile.png",
+      "html": "screen_3_profile.html"
+    }
+  ]
+}

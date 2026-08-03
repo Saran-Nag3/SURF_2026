@@ -1,0 +1,42 @@
+{
+  "company": "airbnb",
+  "source": "/Users/sarannagubandi/downloads/markdowns/airbnb.md",
+  "platform": "android",
+  "device": "Galaxy A54",
+  "viewport_px": [
+    393,
+    873
+  ],
+  "output_px": [
+    1081,
+    2401
+  ],
+  "paradigm_detected": "component library/design system, because the source is a token-and-component spec with isolated component pages and no real product flow.",
+  "self_check": "Single-column Android layouts only, no drawn system chrome, touch states only, no source-form-factor residue, and the spec\u2019s color and SF Pro type tokens are preserved.",
+  "screens": [
+    {
+      "name": "home_feed",
+      "kind": "home feed",
+      "png": "screen_1_home-feed.png",
+      "html": "screen_1_home-feed.html"
+    },
+    {
+      "name": "onboarding",
+      "kind": "onboarding/welcome",
+      "png": "screen_2_onboarding-welcome.png",
+      "html": "screen_2_onboarding-welcome.html"
+    },
+    {
+      "name": "search_browse",
+      "kind": "search/browse",
+      "png": "screen_3_search-browse.png",
+      "html": "screen_3_search-browse.html"
+    },
+    {
+      "name": "notifications",
+      "kind": "notifications/activity",
+      "png": "screen_4_notifications-activity.png",
+      "html": "screen_4_notifications-activity.html"
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+---
+name: rolex-watch-e-commerce-app-community
+source_file: Rolex Watch E-Commerce App (Community)
+source_page: All pages (3): Cover, Screens, Mockups
+generated_at: 2026-07-25T09:23:32.588091+00:00
+---
+
+# Rolex Watch E-Commerce App (Community) Design Guidelines
+
+## Source
+- Figma file: Rolex Watch E-Commerce App (Community)
+- Figma page: All pages (3): Cover, Screens, Mockups
+- Extracted at: 2026-07-25T09:23:32.588091+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- fl-gray-600: [#636F73]
+- fl-gray-1000: [#121515]
+- Screen Components: [#262C2D]
+- Device BG: [#121515]
+- Device Surround: [#3A4245]
+- Side Buttons: [#121515]
+- Greys/Slate 100: [#02060C]
+
+## Raw Colors (unstyled)
+- #000000: 93 uses
+- #AA7455: 41 uses
+- #FFFFFF: 38 uses
+- #282C3F: 29 uses
+- #ADADAD: 29 uses
+- #D9D9D9: 29 uses
+- #282C3F1A: 19 uses
+- #736E6E: 12 uses
+- #FF000000: 9 uses
+- #282C3F0D: 8 uses
+- #282C3F1F: 8 uses
+- #E0E2E9: 8 uses
+- #29679B: 7 uses
+- #F5F5F599: 6 uses
+- #FBFBF9: 6 uses
+- #006032: 5 uses
+- #F2F1F1: 4 uses
+- #F5F5F566: 4 uses
+- #FCFEFC: 4 uses
+- #00000099: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Open Sans SemiBold, 14px: 43 uses
+- Open Sans SemiBold, 18px: 22 uses
+- Open Sans Regular, 14px: 11 uses
+- SF Pro Text Semibold, 15px: 9 uses
+- Inter Bold, 32px: 8 uses
+- Open Sans Bold, 32px: 7 uses
+- Open Sans Bold, 14px: 5 uses
+- Open Sans Bold, 24px: 4 uses
+- Open Sans Regular, 28px: 3 uses
+- Roboto Regular, 48px: 3 uses
+
+## Typography Hierarchy
+- 48px - Roboto Regular, 48px (raw)
+- 32px - Inter Bold, 32px (raw)
+- 32px - Open Sans Bold, 32px (raw)
+- 28px - Open Sans Regular, 28px (raw)
+- 24px - Open Sans Bold, 24px (raw)
+- 18px - Open Sans SemiBold, 18px (raw)
+- 15px - SF Pro Text Semibold, 15px (raw)
+- 14px - Open Sans Bold, 14px (raw)
+- 14px - Open Sans Regular, 14px (raw)
+- 14px - Open Sans SemiBold, 14px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Drop Mobile: [drop_shadow 128px offset 0 0 #80808033]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Greys/Slate 100: 36 uses
+- Screen Components: 8 uses
+- fl-gray-1000: 8 uses
+- fl-gray-600: 8 uses
+- Drop Mobile: 6 uses
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1600x1200px, constraints left/top, fill #29679BE5
+  - RECTANGLE "Screen", 430x928.93px, constraints scale/scale, radius 42.67px, fill image(hash: 9c0e1232992875a8b7b9c661e5b59144e02af124), effect Drop Mobile
+  - RECTANGLE "Screen", 430x928.93px, constraints scale/scale, radius 42.67px, fill image(hash: a63dd5aa9083d57c5c417e8439fc436522df647a), effect Drop Mobile
+  - RECTANGLE "Key Screen", 430x931.3px, constraints scale/scale, radius 42.67px, fill image(hash: e096080a1ececc14e3a62334bb9268339e4ba97e), effect Drop Mobile
+  - RECTANGLE "Screen", 430x930.63px, constraints scale/scale, radius 42.67px, fill image(hash: 9c0e1232992875a8b7b9c661e5b59144e02af124), effect Drop Mobile
+  - RECTANGLE "Screen", 430x931.3px, constraints scale/scale, radius 42.67px, fill image(hash: c52b15726d8e0390cb53424c41bd3ad07bd0cca8), effect Drop Mobile
+  - RECTANGLE "Screen", 430x931.3px, constraints scale/scale, radius 42.67px, fill image(hash: 71bd916aff6ee335ebf21bc318608e0b6ae45c82), effect Drop Mobile
+
+Screen: Screens / Screen 1
+- FRAME "Screen 1", 360x800px, constraints left/top, fill #F2F1F1
+  - RECTANGLE "image 652", 277.91x400px, constraints center/top, fill image(hash: 4f618f7eb6ad80feb3e68e0b6b790f306756090f)
+  - GROUP "Back Icon", 32x32px, constraints left/top
+    - FRAME "Back", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "preorder close button", 28x28px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Oval 11", 28x28px, constraints left/top, fill #282C3F0D, stroke #282C3F1F 1px
+        - VECTOR "Path 5", 13.25x10.5px, constraints left/top, fill #D8D8D8, stroke #282C3F 1.5px
+  - GROUP "Share Icon", 32x32px, constraints left/top [decorative, ~4 shapes]
+  - RECTANGLE "Rectangle 1", 360x400px, constraints center/bottom, radius 30/30/0/0px, fill #FFFFFF, effect [drop_shadow 10px offset 0 -2 #0000001A]
+  - TEXT "Heading 1", 209x84px, constraints left/top, fill #282C3F, text [Open Sans Bold, 32px], [heading]
+  - TEXT "Headfing 3", 327x105px, constraints left/top, fill #000000, text [Open Sans Regular, 14px], opacity 70%
+  - GROUP "Blue Swatch", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 32x32px, constraints left/top, radius 8px, fill #29679B
+    - RECTANGLE "Rectangle 3", 40x40px, constraints left/top, radius 11px, stroke #AA7455 2px
+  - GROUP "Green Swatch", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 32x32px, constraints left/top, radius 8px, fill #006032
+    - RECTANGLE "Rectangle 3", 40x40px, constraints left/top, radius 11px, stroke #AA7455 2px
+  - GROUP "Buy Now CTA", 184x48px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 4", 184x48px, constraints left/top, radius 8px, fill #AA7455
+    - TEXT "Buy Now", 76x24px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+  - GROUP "Group 4", 90x45px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 8", 90x45px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Price", 90x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+      - TEXT "Price", 80x21px, constraints left/top, fill #D9D9D9, text [Open Sans SemiBold, 14px]
+  - RECTANGLE "Rectangle 5", 360x1px, constraints center/top, fill #282C3F1A
+  - GROUP "Status Bar", 360x32px, constraints left/top
+    - FRAME "Status Bar", 360x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Signal Signal Battery", 83.55x20px, horizontal pad 4 16 4 0px gap 5px sizing W:fixed H:fixed, constraints right/top
+        - VECTOR "Signal", 17.25x10.5px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+        - VECTOR "Wi–Fi", 15x10.5px, constraints scale/scale, fill Greys/Slate 100
+        - VECTOR "Vector", 25.3x12px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+      - FRAME "Time", 75x20px, horizontal pad 0 0 0 27px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "1:20", 32x20px, constraints scale/center, fill Greys/Slate 100, text [SF Pro Text Semibold, 15px]
+        - GROUP "Status Bar – Location", 16x16px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Bounds", 16x16px, constraints scale/scale
+  - GROUP "Group 3", 50x8px, constraints center/top, radius 0/0/0/0px [decorative, ~4 shapes]
+
+Screen: Screens / Screen 3
+- FRAME "Screen 3", 360x800px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 652", 80x115.15px, constraints center/top, fill image(hash: 4f618f7eb6ad80feb3e68e0b6b790f306756090f)
+  - GROUP "Back Icon", 32x32px, constraints left/top
+    - FRAME "Back", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "preorder close button", 28x28px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Oval 11", 28x28px, constraints left/top, fill #282C3F0D, stroke #282C3F1F 1px
+        - VECTOR "Path 5", 13.25x10.5px, constraints left/top, fill #D8D8D8, stroke #282C3F 1.5px
+  - RECTANGLE "Rectangle 1", 328x160px, constraints center/bottom, radius 16px, fill #F5F5F566, effect [drop_shadow 10px offset 0 0 #0000001A]
+  - TEXT "Heading 1", 209x84px, constraints left/top, fill #282C3F, text [Open Sans Bold, 32px], [heading]
+  - TEXT "Headfing 3", 69x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 6", 68x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 4", 111x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 7", 41x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 5", 67x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 9", 83x21px, constraints left/top, fill #000000, text [Open Sans Bold, 14px], opacity 70%
+  - TEXT "Headfing 10", 69x21px, constraints left/top, fill #000000, text [Open Sans Bold, 14px], opacity 70%
+  - TEXT "Headfing 8", 60x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - GROUP "Buy Now CTA", 328x48px, constraints center/top, radius 8px
+    - RECTANGLE "Rectangle 4", 328x48px, constraints left/top, radius 8px, fill #ADADAD
+    - TEXT "Proceed to Pay", 126x24px, constraints center/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+  - RECTANGLE "Rectangle 5", 360x1px, constraints center/top, fill #282C3F1A
+  - RECTANGLE "Rectangle 6", 296x1px, constraints center/top, fill #282C3F1A
+  - GROUP "Status Bar", 360x32px, constraints left/top
+    - FRAME "Status Bar", 360x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Signal Signal Battery", 83.55x20px, horizontal pad 4 16 4 0px gap 5px sizing W:fixed H:fixed, constraints right/top
+        - VECTOR "Signal", 17.25x10.5px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+        - VECTOR "Wi–Fi", 15x10.5px, constraints scale/scale, fill Greys/Slate 100
+        - VECTOR "Vector", 25.3x12px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+      - FRAME "Time", 75x20px, horizontal pad 0 0 0 27px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "1:20", 32x20px, constraints scale/center, fill Greys/Slate 100, text [SF Pro Text Semibold, 15px]
+        - GROUP "Status Bar – Location", 16x16px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Bounds", 16x16px, constraints scale/scale
+  - TEXT "Enjoy the fresh note", 31x21px, constraints left/top, fill #29679B, text [Open Sans SemiBold, 14px], opacity 70%
+  - RECTANGLE "Rectangle 7", 360x40px, constraints center/bottom, fill #F5F5F566, effect [drop_shadow 2px offset 0 1 #0000001A]
+  - GROUP "Add Address", 315x21px, constraints left/top
+    - GROUP "Location Icon", 20x20px, constraints left/top
+      - FRAME "Share", 20x20px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 2671", 20x20px, constraints left/top, radius 0/0/0/0px
+          - VECTOR "Rectangle 1073", 20x20px, constraints left/top, radius 0/0/0/0px, fill #AA7D6F
+          - ELLIPSE "Ellipse 6", 6x6px, constraints left/top, fill #FFFFFF
+    - TEXT "Item Name", 142x21px, constraints left/top, fill #AA7455, text [Open Sans SemiBold, 14px]
+    - GROUP "arrow", 8x11.11px, constraints left/top
+      - VECTOR "Line 1", 8x5.33px, constraints left/top, stroke #AA7455 1.5px
+      - VECTOR "Line 2", 8x5.33px, constraints left/top, stroke #AA7455 1.5px
+
+Screen: Screens / Screen 4
+- FRAME "Screen 4", 360x800px, constraints left/top, fill #F2F1F1
+  - RECTANGLE "image 652", 277.91x400px, constraints center/top, fill image(hash: 4f618f7eb6ad80feb3e68e0b6b790f306756090f)
+  - GROUP "Back Icon", 32x32px, constraints left/top
+    - FRAME "Back", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "preorder close button", 28x28px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Oval 11", 28x28px, constraints left/top, fill #282C3F0D, stroke #282C3F1F 1px
+        - VECTOR "Path 5", 13.25x10.5px, constraints left/top, fill #D8D8D8, stroke #282C3F 1.5px
+  - GROUP "Share Icon", 32x32px, constraints left/top [decorative, ~4 shapes]
+  - RECTANGLE "Rectangle 1", 360x400px, constraints center/bottom, radius 30/30/0/0px, fill #FFFFFF, effect [drop_shadow 10px offset 0 -2 #0000001A]
+  - TEXT "Heading 1", 312x42px, constraints left/top, fill #282C3F, text [Open Sans Bold, 32px], [heading]
+  - TEXT "Headfing 3", 307x147px, constraints left/top, fill #000000, text [Open Sans Regular, 14px], opacity 70%
+  - GROUP "Blue Swatch", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 32x32px, constraints left/top, radius 8px, fill #29679B
+    - RECTANGLE "Rectangle 3", 40x40px, constraints left/top, radius 11px, stroke #AA7455 2px
+  - GROUP "Green Swatch", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 32x32px, constraints left/top, radius 8px, fill #006032
+    - RECTANGLE "Rectangle 3", 40x40px, constraints left/top, radius 11px, stroke #AA7455 2px
+  - GROUP "Buy Now CTA", 184x48px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 4", 184x48px, constraints left/top, radius 8px, fill #AA7455
+    - TEXT "Buy Now", 76x24px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+  - GROUP "Group 4", 85x45px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 8", 85x45px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Price", 85x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+      - TEXT "Price", 80x21px, constraints left/top, fill #D9D9D9, text [Open Sans SemiBold, 14px]
+  - RECTANGLE "Rectangle 5", 360x1px, constraints center/top, fill #282C3F1A
+  - GROUP "Status Bar", 360x32px, constraints left/top
+    - FRAME "Status Bar", 360x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Signal Signal Battery", 83.55x20px, horizontal pad 4 16 4 0px gap 5px sizing W:fixed H:fixed, constraints right/top
+        - VECTOR "Signal", 17.25x10.5px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+        - VECTOR "Wi–Fi", 15x10.5px, constraints scale/scale, fill Greys/Slate 100
+        - VECTOR "Vector", 25.3x12px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+      - FRAME "Time", 75x20px, horizontal pad 0 0 0 27px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "1:20", 32x20px, constraints scale/center, fill Greys/Slate 100, text [SF Pro Text Semibold, 15px]
+        - GROUP "Status Bar – Location", 16x16px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Bounds", 16x16px, constraints scale/scale
+  - RECTANGLE "Overlays", 360x800px, constraints center/center, fill #00000099
+  - GROUP "Group 7", 360x500px, constraints center/bottom, radius 0/0/0/0px
+    - GROUP "Adress List", 360x500px, constraints center/bottom, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 8", 360x500px, constraints left/bottom, radius 30/30/0/0px, fill #FFFFFF
+      - TEXT "Item Name", 273x32px, constraints left/top, fill #282C3F, text [Open Sans Bold, 24px], [heading]
+      - GROUP "Group 5", 16x16px, constraints left/top
+        - ELLIPSE "Ellipse 5", 16x16px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+        - ELLIPSE "Ellipse 6", 10x10px, constraints left/top, fill #AA7455
+      - TEXT "Enjoy the fresh note", 288x63px, constraints left/top, fill #000000, text [Open Sans Regular, 14px], opacity 70%
+      - TEXT "Item Name", 123x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+      - GROUP "Group 6", 16x16px, constraints left/top
+        - ELLIPSE "Ellipse 5", 16x16px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+        - ELLIPSE "Ellipse 6", 10x10px, constraints left/top, fill #AA7455
+      - TEXT "Enjoy the fresh note", 263x63px, constraints left/top, fill #000000, text [Open Sans Regular, 14px], opacity 70%
+      - TEXT "Item Name", 94x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+      - TEXT "Item Name", 112x21px, constraints left/top, fill #AA7455, text [Open Sans SemiBold, 14px]
+      - RECTANGLE "Rectangle 4", 328x48px, constraints left/top, radius 8px, fill #AA7455
+      - TEXT "Done", 46x24px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+    - RECTANGLE "Rectangle 5", 328x1px, constraints center/top, fill #282C3F1A
+    - RECTANGLE "Rectangle 9", 328x1px, constraints center/top, fill #282C3F1A
+    - RECTANGLE "Rectangle 10", 328x1px, constraints center/top, fill #282C3F1A
+  - RECTANGLE "Rectangle 6", 328x1px, constraints center/top, fill #282C3F1A
+  - GROUP "Plus Logo", 10x10px, constraints left/top
+    - LINE "Line 3", 0x10px, constraints left/top, stroke #AA7455 1px
+    - VECTOR "Line 4", 10x0px, constraints left/top, stroke #AA7455 1px
+  - ELLIPSE "Ellipse 7", 10x10px, constraints left/top, fill #AA7455
+
+Screen: Screens / Screen 10
+- FRAME "Screen 10", 360x800px, constraints left/top, fill #F2F1F1
+  - RECTANGLE "image 652", 277.91x400px, constraints center/top, fill image(hash: 4f618f7eb6ad80feb3e68e0b6b790f306756090f)
+  - GROUP "Back Icon", 32x32px, constraints left/top
+    - FRAME "Back", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "preorder close button", 28x28px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Oval 11", 28x28px, constraints left/top, fill #282C3F0D, stroke #282C3F1F 1px
+        - VECTOR "Path 5", 13.25x10.5px, constraints left/top, fill #D8D8D8, stroke #282C3F 1.5px
+  - GROUP "Share Icon", 32x32px, constraints left/top [decorative, ~4 shapes]
+  - RECTANGLE "Rectangle 1", 360x400px, constraints center/bottom, radius 30/30/0/0px, fill #FFFFFF, effect [drop_shadow 10px offset 0 -2 #0000001A]
+  - TEXT "Heading 1", 312x42px, constraints left/top, fill #282C3F, text [Open Sans Bold, 32px], [heading]
+  - TEXT "Headfing 3", 307x147px, constraints left/top, fill #000000, text [Open Sans Regular, 14px], opacity 70%
+  - GROUP "Blue Swatch", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 32x32px, constraints left/top, radius 8px, fill #29679B
+    - RECTANGLE "Rectangle 3", 40x40px, constraints left/top, radius 11px, stroke #AA7455 2px
+  - GROUP "Green Swatch", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 32x32px, constraints left/top, radius 8px, fill #006032
+    - RECTANGLE "Rectangle 3", 40x40px, constraints left/top, radius 11px, stroke #AA7455 2px
+  - GROUP "Buy Now CTA", 184x48px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 4", 184x48px, constraints left/top, radius 8px, fill #AA7455
+    - TEXT "Buy Now", 76x24px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+  - GROUP "Group 4", 85x45px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 8", 85x45px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Price", 85x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+      - TEXT "Price", 80x21px, constraints left/top, fill #D9D9D9, text [Open Sans SemiBold, 14px]
+  - RECTANGLE "Rectangle 5", 360x1px, constraints center/top, fill #282C3F1A
+  - GROUP "Status Bar", 360x32px, constraints left/top
+    - FRAME "Status Bar", 360x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Signal Signal Battery", 83.55x20px, horizontal pad 4 16 4 0px gap 5px sizing W:fixed H:fixed, constraints right/top
+        - VECTOR "Signal", 17.25x10.5px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+        - VECTOR "Wi–Fi", 15x10.5px, constraints scale/scale, fill Greys/Slate 100
+        - VECTOR "Vector", 25.3x12px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+      - FRAME "Time", 75x20px, horizontal pad 0 0 0 27px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "1:20", 32x20px, constraints scale/center, fill Greys/Slate 100, text [SF Pro Text Semibold, 15px]
+        - GROUP "Status Bar – Location", 16x16px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Bounds", 16x16px, constraints scale/scale
+  - RECTANGLE "Overlays", 360x800px, constraints center/center, fill #00000099
+  - GROUP "Group 7", 360x500px, constraints center/bottom, radius 0/0/0/0px
+    - GROUP "Adress List", 360x500px, constraints center/bottom, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 8", 360x500px, constraints left/bottom, radius 30/30/0/0px, fill #FFFFFF
+      - TEXT "Item Name", 273x32px, constraints left/top, fill #282C3F, text [Open Sans Bold, 24px], [heading]
+      - GROUP "Group 5", 16x16px, constraints left/top
+        - ELLIPSE "Ellipse 5", 16x16px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+        - ELLIPSE "Ellipse 6", 10x10px, constraints left/top, fill #AA7455
+      - TEXT "Enjoy the fresh note", 288x63px, constraints left/top, fill #000000, text [Open Sans Regular, 14px], opacity 70%
+      - TEXT "Item Name", 123x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+      - GROUP "Group 6", 16x16px, constraints left/top
+        - ELLIPSE "Ellipse 5", 16x16px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+        - ELLIPSE "Ellipse 6", 10x10px, constraints left/top, fill #AA7455
+      - TEXT "Enjoy the fresh note", 263x63px, constraints left/top, fill #000000, text [Open Sans Regular, 14px], opacity 70%
+      - TEXT "Item Name", 94x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+      - TEXT "Item Name", 112x21px, constraints left/top, fill #AA7455, text [Open Sans SemiBold, 14px]
+      - RECTANGLE "Rectangle 4", 328x48px, constraints left/top, radius 8px, fill #AA7455
+      - TEXT "Done", 46x24px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+    - RECTANGLE "Rectangle 5", 328x1px, constraints center/top, fill #282C3F1A
+    - RECTANGLE "Rectangle 9", 328x1px, constraints center/top, fill #282C3F1A
+    - RECTANGLE "Rectangle 10", 328x1px, constraints center/top, fill #282C3F1A
+  - RECTANGLE "Rectangle 6", 328x1px, constraints center/top, fill #282C3F1A
+  - GROUP "Plus Logo", 10x10px, constraints left/top
+    - LINE "Line 3", 0x10px, constraints left/top, stroke #AA7455 1px
+    - VECTOR "Line 4", 10x0px, constraints left/top, stroke #AA7455 1px
+  - ELLIPSE "Ellipse 7", 10x10px, constraints left/top, fill #AA7455
+
+Screen: Screens / Screen 6
+- FRAME "Screen 6", 360x800px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 652", 80x115.15px, constraints center/top, fill image(hash: 4f618f7eb6ad80feb3e68e0b6b790f306756090f)
+  - GROUP "Back Icon", 32x32px, constraints left/top
+    - FRAME "Back", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "preorder close button", 28x28px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Oval 11", 28x28px, constraints left/top, fill #282C3F0D, stroke #282C3F1F 1px
+        - VECTOR "Path 5", 13.25x10.5px, constraints left/top, fill #D8D8D8, stroke #282C3F 1.5px
+  - RECTANGLE "Rectangle 1", 328x160px, constraints center/bottom, radius 16px, fill #F5F5F566, effect [drop_shadow 10px offset 0 0 #0000001A]
+  - RECTANGLE "Rectangle 7", 328x120px, constraints center/bottom, radius 16px, fill #F5F5F566, effect [drop_shadow 10px offset 0 0 #0000001A]
+  - TEXT "Heading 1", 209x84px, constraints left/top, fill #282C3F, text [Open Sans Bold, 32px], [heading]
+  - TEXT "Headfing 3", 69x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 6", 68x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 4", 111x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 7", 41x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 5", 67x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 9", 83x21px, constraints left/top, fill #000000, text [Open Sans Bold, 14px], opacity 70%
+  - TEXT "Headfing 10", 69x21px, constraints left/top, fill #000000, text [Open Sans Bold, 14px], opacity 70%
+  - TEXT "Headfing 8", 60x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - GROUP "Buy Now CTA", 328x48px, constraints center/top, radius 8px
+    - RECTANGLE "Rectangle 4", 328x48px, constraints left/top, radius 8px, fill #AA7455
+    - TEXT "Proceed to Pay", 126x24px, constraints center/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+  - RECTANGLE "Rectangle 5", 360x1px, constraints center/top, fill #282C3F1A
+  - RECTANGLE "Rectangle 6", 300x1px, constraints center/top, fill #282C3F1A
+  - GROUP "Status Bar", 360x32px, constraints left/top
+    - FRAME "Status Bar", 360x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Signal Signal Battery", 83.55x20px, horizontal pad 4 16 4 0px gap 5px sizing W:fixed H:fixed, constraints right/top
+        - VECTOR "Signal", 17.25x10.5px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+        - VECTOR "Wi–Fi", 15x10.5px, constraints scale/scale, fill Greys/Slate 100
+        - VECTOR "Vector", 25.3x12px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+      - FRAME "Time", 75x20px, horizontal pad 0 0 0 27px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "1:20", 32x20px, constraints scale/center, fill Greys/Slate 100, text [SF Pro Text Semibold, 15px]
+        - GROUP "Status Bar – Location", 16x16px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Bounds", 16x16px, constraints scale/scale
+  - TEXT "Enjoy the fresh note", 31x21px, constraints left/top, fill #29679B, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Item Name", 181x21px, constraints left/top, fill #000000, text [Open Sans Bold, 14px], opacity 70%
+  - TEXT "Enjoy the fresh note", 212x63px, constraints left/top, fill #00000099, text [Open Sans Regular, 14px], opacity 70%
+  - TEXT "Change", 51x21px, constraints left/top, fill #AA7455, text [Open Sans SemiBold, 14px], opacity 70%
+
+Screen: Screens / Screen 9
+- FRAME "Screen 9", 360x800px, constraints left/top, fill #FFFFFF
+  - GROUP "Buy Now CTA", 328x48px, constraints center/top, radius 8px
+    - RECTANGLE "Rectangle 4", 328x48px, constraints left/top, radius 8px, fill #AA7455
+    - TEXT "Track Order", 101x24px, constraints center/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+  - RECTANGLE "Rectangle 5", 360x1px, constraints center/top, fill #282C3F1A
+  - GROUP "Status Bar", 360x32px, constraints left/top
+    - FRAME "Status Bar", 360x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Signal Signal Battery", 83.55x20px, horizontal pad 4 16 4 0px gap 5px sizing W:fixed H:fixed, constraints right/top
+        - VECTOR "Signal", 17.25x10.5px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+        - VECTOR "Wi–Fi", 15x10.5px, constraints scale/scale, fill Greys/Slate 100
+        - VECTOR "Vector", 25.3x12px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+      - FRAME "Time", 75x20px, horizontal pad 0 0 0 27px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "1:20", 32x20px, constraints scale/center, fill Greys/Slate 100, text [SF Pro Text Semibold, 15px]
+        - GROUP "Status Bar – Location", 16x16px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Bounds", 16x16px, constraints scale/scale
+  - GROUP "Order Placed", 190x144px, constraints left/top
+    - TEXT "Item Name", 190x42px, constraints center/top, fill #282C3F, text [Open Sans Bold, 32px], [heading]
+    - RECTANGLE "—Pngtree—check mark icon design template_4085369 1", 104x104px, constraints center/top, fill image(hash: 292c2831162808021d4e422cc440f1646dc90389)
+
+Screen: Screens / Screen 7
+- FRAME "Screen 7", 360x800px, constraints left/top, fill #FFFFFF
+  - GROUP "Back Icon", 32x32px, constraints left/top
+    - FRAME "Back", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "preorder close button", 28x28px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Oval 11", 28x28px, constraints left/top, fill #282C3F0D, stroke #282C3F1F 1px
+        - VECTOR "Path 5", 13.25x10.5px, constraints left/top, fill #D8D8D8, stroke #282C3F 1.5px
+  - RECTANGLE "Rectangle 1", 328x32px, constraints center/bottom, fill #F5F5F599
+  - RECTANGLE "Rectangle 9", 328x32px, constraints center/bottom, fill #F5F5F599
+  - RECTANGLE "Rectangle 8", 328x32px, constraints center/bottom, fill #F5F5F599
+  - TEXT "Heading 1", 285x32px, constraints left/top, fill #282C3F, text [Open Sans Bold, 24px], [heading]
+  - TEXT "Headfing 3", 33x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 6", 42x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 11", 54x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - GROUP "Status Bar", 360x32px, constraints left/top
+    - FRAME "Status Bar", 360x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Signal Signal Battery", 83.55x20px, horizontal pad 4 16 4 0px gap 5px sizing W:fixed H:fixed, constraints right/top
+        - VECTOR "Signal", 17.25x10.5px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+        - VECTOR "Wi–Fi", 15x10.5px, constraints scale/scale, fill Greys/Slate 100
+        - VECTOR "Vector", 25.3x12px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+      - FRAME "Time", 75x20px, horizontal pad 0 0 0 27px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "1:20", 32x20px, constraints scale/center, fill Greys/Slate 100, text [SF Pro Text Semibold, 15px]
+        - GROUP "Status Bar – Location", 16x16px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Bounds", 16x16px, constraints scale/scale
+  - RECTANGLE "Rectangle 7", 328x1px, constraints center/top, fill #282C3F1A
+  - TEXT "Item Name", 103x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+  - GROUP "Mastercard", 40x24px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Mask", 40x24px, constraints left/top, radius 4px, fill #FBFBF9, stroke #E0E2E9 1px
+    - RECTANGLE "Mask", 40x24px, constraints left/top, radius 6px, fill #FBFBF9, stroke #E0E2E9 1px
+    - RECTANGLE "Bitmap", 34x20px, constraints left/top, fill image(hash: 0116cc64dfb4ea46de38fcff6d4afef83f76d4f0)
+  - GROUP "Amex", 40x24px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Mask", 40x24px, constraints left/top, radius 4px, fill #FBFBF9
+    - RECTANGLE "Bitmap", 40x26px, constraints left/top, fill image(hash: 95bc90eb461e8b0a35834d254fdf9318626ce488)
+  - GROUP "Visa", 40x24px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Mask", 40x24px, constraints left/top, radius 4px, fill #FCFEFC, stroke #E0E2E9 1px
+    - RECTANGLE "Mask", 40x24px, constraints left/top, radius 6px, fill #FCFEFC, stroke #E0E2E9 1px
+    - RECTANGLE "Bitmap", 37x19px, constraints left/top, fill image(hash: f5f0f0813ad98ab02868b1ae7c81eeeddd6e45d6)
+  - GROUP "40 dots", 28x4px, constraints left/top [decorative, ~4 shapes]
+  - TEXT "Headfing 12", 33x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 13", 42x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 14", 54x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - GROUP "40 dots", 28x4px, constraints left/top [decorative, ~4 shapes]
+  - TEXT "Headfing 15", 33x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 16", 42x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 17", 54x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - GROUP "40 dots", 28x4px, constraints left/top [decorative, ~4 shapes]
+  - TEXT "Item Name", 96x21px, constraints left/top, fill #AA7455, text [Open Sans SemiBold, 14px]
+  - GROUP "Plus Logo", 10x10px, constraints left/top
+    - LINE "Line 3", 0x10px, constraints left/top, stroke #AA7455 1px
+    - VECTOR "Line 4", 10x0px, constraints left/top, stroke #AA7455 1px
+
+Screen: Screens / Screen 8
+- FRAME "Screen 8", 360x800px, constraints left/top, fill #FFFFFF
+  - GROUP "Back Icon", 32x32px, constraints left/top
+    - FRAME "Back", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "preorder close button", 28x28px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Oval 11", 28x28px, constraints left/top, fill #282C3F0D, stroke #282C3F1F 1px
+        - VECTOR "Path 5", 13.25x10.5px, constraints left/top, fill #D8D8D8, stroke #282C3F 1.5px
+  - RECTANGLE "Rectangle 1", 328x72px, constraints center/bottom, fill #F5F5F599
+  - RECTANGLE "Rectangle 9", 328x32px, constraints center/bottom, fill #F5F5F599
+  - RECTANGLE "Rectangle 8", 328x32px, constraints center/bottom, fill #F5F5F599
+  - TEXT "Heading 1", 285x32px, constraints left/top, fill #282C3F, text [Open Sans Bold, 24px], [heading]
+  - GROUP "Status Bar", 360x32px, constraints left/top
+    - FRAME "Status Bar", 360x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Signal Signal Battery", 83.55x20px, horizontal pad 4 16 4 0px gap 5px sizing W:fixed H:fixed, constraints right/top
+        - VECTOR "Signal", 17.25x10.5px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+        - VECTOR "Wi–Fi", 15x10.5px, constraints scale/scale, fill Greys/Slate 100
+        - VECTOR "Vector", 25.3x12px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+      - FRAME "Time", 75x20px, horizontal pad 0 0 0 27px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "1:20", 32x20px, constraints scale/center, fill Greys/Slate 100, text [SF Pro Text Semibold, 15px]
+        - GROUP "Status Bar – Location", 16x16px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Bounds", 16x16px, constraints scale/scale
+  - RECTANGLE "Rectangle 7", 328x1px, constraints center/top, fill #282C3F1A
+  - TEXT "Item Name", 103x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+  - GROUP "Mastercard", 40x24px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Mask", 40x24px, constraints left/top, radius 4px, fill #FBFBF9, stroke #E0E2E9 1px
+    - RECTANGLE "Mask", 40x24px, constraints left/top, radius 6px, fill #FBFBF9, stroke #E0E2E9 1px
+    - RECTANGLE "Bitmap", 34x20px, constraints left/top, fill image(hash: 0116cc64dfb4ea46de38fcff6d4afef83f76d4f0)
+  - GROUP "Amex", 40x24px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Mask", 40x24px, constraints left/top, radius 4px, fill #FBFBF9
+    - RECTANGLE "Bitmap", 40x26px, constraints left/top, fill image(hash: 95bc90eb461e8b0a35834d254fdf9318626ce488)
+  - TEXT "Headfing 12", 33x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 13", 42x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 14", 54x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - GROUP "40 dots", 28x4px, constraints left/top [decorative, ~4 shapes]
+  - TEXT "Headfing 15", 33x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 16", 42x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+  - TEXT "Headfing 17", 54x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+  - GROUP "40 dots", 28x4px, constraints left/top [decorative, ~4 shapes]
+  - TEXT "Item Name", 96x21px, constraints left/top, fill #AA7455, text [Open Sans SemiBold, 14px]
+  - GROUP "Plus Logo", 10x10px, constraints left/top
+    - LINE "Line 3", 0x10px, constraints left/top, stroke #AA7455 1px
+    - VECTOR "Line 4", 10x0px, constraints left/top, stroke #AA7455 1px
+  - GROUP "Group 2672", 311x61px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Headfing 3", 33x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+    - TEXT "Headfing 6", 42x21px, constraints left/top, fill #736E6E, text [Open Sans SemiBold, 14px], opacity 70%
+    - TEXT "Headfing 11", 54x21px, constraints left/top, fill #000000, text [Open Sans SemiBold, 14px], opacity 70%
+    - GROUP "Visa", 40x24px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Mask", 40x24px, constraints left/top, radius 4px, fill #FCFEFC, stroke #E0E2E9 1px
+      - RECTANGLE "Mask", 40x24px, constraints left/top, radius 6px, fill #FCFEFC, stroke #E0E2E9 1px
+      - RECTANGLE "Bitmap", 37x19px, constraints left/top, fill image(hash: f5f0f0813ad98ab02868b1ae7c81eeeddd6e45d6)
+    - GROUP "40 dots", 28x4px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Pay", 296x32px, constraints left/top, radius 4px
+      - RECTANGLE "Rectangle 10", 296x32px, constraints center/bottom, radius 4px, fill #FFFFFF
+      - TEXT "Headfing 18", 27x21px, constraints left/top, fill #D9D9D9, text [Open Sans SemiBold, 14px], opacity 70%
+      - GROUP "Buy Now CTA", 104x32px, constraints left/top, radius 4px
+        - RECTANGLE "Rectangle 4", 104x32px, constraints left/top, radius 4px, fill #AA7455
+        - TEXT "Pay", 31.1x24px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+
+Screen: Screens / Screen 2
+- FRAME "Screen 2", 360x800px, constraints left/top, fill #F2F1F1
+  - GROUP "Back Icon", 32x32px, constraints left/top
+    - FRAME "Back", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "preorder close button", 28x28px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Oval 11", 28x28px, constraints left/top, fill #282C3F0D, stroke #282C3F1F 1px
+        - VECTOR "Path 5", 13.25x10.5px, constraints left/top, fill #D8D8D8, stroke #282C3F 1.5px
+  - GROUP "Share Icon", 32x32px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Status Bar", 360x32px, constraints left/top
+    - FRAME "Status Bar", 360x32px, constraints left/top, fill #FFFFFF
+      - FRAME "Signal Signal Battery", 83.55x20px, horizontal pad 4 16 4 0px gap 5px sizing W:fixed H:fixed, constraints right/top
+        - VECTOR "Signal", 17.25x10.5px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+        - VECTOR "Wi–Fi", 15x10.5px, constraints scale/scale, fill Greys/Slate 100
+        - VECTOR "Vector", 25.3x12px, constraints scale/scale, fill Greys/Slate 100, stroke #979797 0px
+      - FRAME "Time", 75x20px, horizontal pad 0 0 0 27px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "1:20", 32x20px, constraints scale/center, fill Greys/Slate 100, text [SF Pro Text Semibold, 15px]
+        - GROUP "Status Bar – Location", 16x16px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Bounds", 16x16px, constraints scale/scale
+  - RECTANGLE "Rectangle 6", 360x400px, constraints center/bottom, radius 30/30/0/0px, fill #FFFFFF, effect [drop_shadow 10px offset 0 -2 #0000001A]
+  - TEXT "Heading 1", 209x84px, constraints left/top, fill #282C3F, text [Open Sans Bold, 32px], [heading]
+  - TEXT "Headfing 3", 327x105px, constraints left/top, fill #000000, text [Open Sans Regular, 14px], opacity 70%
+  - GROUP "Blue Swatch", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 32x32px, constraints left/top, radius 8px, fill #29679B
+    - RECTANGLE "Rectangle 3", 40x40px, constraints left/top, radius 11px, stroke #AA7455 2px
+  - GROUP "Green Swatch", 40x40px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 32x32px, constraints left/top, radius 8px, fill #006032
+    - RECTANGLE "Rectangle 3", 40x40px, constraints left/top, radius 11px, stroke #AA7455 2px
+  - GROUP "Buy Now CTA", 184x48px, constraints left/top, radius 8px
+    - RECTANGLE "Rectangle 4", 184x48px, constraints left/top, radius 8px, fill #AA7455
+    - TEXT "Buy Now", 76x24px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+  - RECTANGLE "Rectangle 7", 360x1px, constraints center/top, fill #282C3F1A
+  - RECTANGLE "image 654", 277.55x400px, constraints center/top, fill image(hash: e245f1c74f652b99df0ce38c9c6a6e8f63494bd9)
+  - GROUP "Group 3", 50x8px, constraints center/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - GROUP "Group 4", 90x45px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 9", 90x45px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Price", 90x24px, constraints left/top, fill #282C3F, text [Open Sans SemiBold, 18px]
+      - TEXT "Price", 80x21px, constraints left/top, fill #D9D9D9, text [Open Sans SemiBold, 14px]
+
+Screen: Mockups / Desktop - 1
+- FRAME "Desktop - 1", 1056x4600px, constraints left/top, fill #FFFFFF
+  - TEXT "Rolex Watch Mobile APP", 818x82px, constraints center/top, fill #000000, text [Inter ExtraBold, 68px], [heading]
+  - GROUP "Group 4", 922x921px, constraints left/top
+    - GROUP "Group 3", 922x921px, constraints left/top
+      - GROUP "Group 1", 387x921px, constraints left/top
+        - INSTANCE "Devices / Samsung / Samsung Galaxy S20 5G", 387x858px, constraints left/top
+          - GROUP "S20", 391x858px, constraints left/top [device mockup, collapsed]
+          - GROUP "Screen", 370x822px, constraints left/top
+            - VECTOR "Screen Shape", 370x822px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Screen [CHANGE ME]", 370x822px, constraints scale/scale, fill image(hash: 087f1cc58037a7f5fa2313e75719e4e1ad5ac86b)
+          - INSTANCE "Camera", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Oval", 20x20px, constraints scale/scale, fill Screen Components
+            - VECTOR "Oval", 12.5x12.5px, constraints scale/scale, fill fl-gray-1000
+            - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill fl-gray-600, opacity 40%
+        - TEXT "Screen 1", 134x39px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+      - GROUP "Group 2", 387x921px, constraints left/top
+        - INSTANCE "Devices / Samsung / Samsung Galaxy S20 5G", 387x858px, constraints left/top
+          - GROUP "S20", 391x858px, constraints left/top [device mockup, collapsed]
+          - GROUP "Screen", 370x822px, constraints left/top
+            - VECTOR "Screen Shape", 370x822px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Screen [CHANGE ME]", 370x822px, constraints scale/scale, fill image(hash: f87d94c83bf2cd597e7991d0d36f401a9842f8cb)
+          - INSTANCE "Camera", 20x20px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Oval", 20x20px, constraints scale/scale, fill Screen Components
+            - VECTOR "Oval", 12.5x12.5px, constraints scale/scale, fill fl-gray-1000
+            - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill fl-gray-600, opacity 40%
+        - TEXT "Screen 2", 138x39px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - GROUP "Group 3", 387x921px, constraints left/top
+    - INSTANCE "Devices / Samsung / Samsung Galaxy S20 5G", 387x858px, constraints left/top
+      - GROUP "S20", 391x858px, constraints left/top [device mockup, collapsed]
+      - GROUP "Screen", 370x822px, constraints left/top
+        - VECTOR "Screen Shape", 370x822px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Screen [CHANGE ME]", 370x822px, constraints scale/scale, fill image(hash: a63dd5aa9083d57c5c417e8439fc436522df647a)
+      - INSTANCE "Camera", 20x20px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Oval", 20x20px, constraints scale/scale, fill Screen Components
+        - VECTOR "Oval", 12.5x12.5px, constraints scale/scale, fill fl-gray-1000
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill fl-gray-600, opacity 40%
+    - TEXT "Screen 3", 139x39px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - GROUP "Group 5", 387x915px, constraints left/top
+    - INSTANCE "Devices / Samsung / Samsung Galaxy S20 5G", 387x858px, constraints left/top
+      - GROUP "S20", 391x858px, constraints left/top [device mockup, collapsed]
+      - GROUP "Screen", 370x822px, constraints left/top
+        - VECTOR "Screen Shape", 370x822px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Screen [CHANGE ME]", 370x822px, constraints scale/scale, fill image(hash: 9c0e1232992875a8b7b9c661e5b59144e02af124)
+      - INSTANCE "Camera", 20x20px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Oval", 20x20px, constraints scale/scale, fill Screen Components
+        - VECTOR "Oval", 12.5x12.5px, constraints scale/scale, fill fl-gray-1000
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill fl-gray-600, opacity 40%
+    - TEXT "Screen 4", 140x39px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - GROUP "Group 6", 387x921px, constraints left/top
+    - INSTANCE "Devices / Samsung / Samsung Galaxy S20 5G", 387x858px, constraints left/top
+      - GROUP "S20", 391x858px, constraints left/top [device mockup, collapsed]
+      - GROUP "Screen", 370x822px, constraints left/top
+        - VECTOR "Screen Shape", 370x822px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Screen [CHANGE ME]", 370x822px, constraints scale/scale, fill image(hash: d9f40fd7abd78f8e6e82de09ba9f77ac9bb96538)
+      - INSTANCE "Camera", 20x20px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Oval", 20x20px, constraints scale/scale, fill Screen Components
+        - VECTOR "Oval", 12.5x12.5px, constraints scale/scale, fill fl-gray-1000
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill fl-gray-600, opacity 40%
+    - TEXT "Screen 5", 139x39px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - GROUP "Group 7", 387x921px, constraints left/top
+    - INSTANCE "Devices / Samsung / Samsung Galaxy S20 5G", 387x858px, constraints left/top
+      - GROUP "S20", 391x858px, constraints left/top [device mockup, collapsed]
+      - GROUP "Screen", 370x822px, constraints left/top
+        - VECTOR "Screen Shape", 370x822px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Screen [CHANGE ME]", 370x822px, constraints scale/scale, fill image(hash: 4083a8780dfcffa0e907d673fb259f1cd6c1d362)
+      - INSTANCE "Camera", 20x20px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Oval", 20x20px, constraints scale/scale, fill Screen Components
+        - VECTOR "Oval", 12.5x12.5px, constraints scale/scale, fill fl-gray-1000
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill fl-gray-600, opacity 40%
+    - TEXT "Screen 6", 139x39px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - GROUP "Group 8", 387x921px, constraints left/top
+    - INSTANCE "Devices / Samsung / Samsung Galaxy S20 5G", 387x858px, constraints left/top
+      - GROUP "S20", 391x858px, constraints left/top [device mockup, collapsed]
+      - GROUP "Screen", 370x822px, constraints left/top
+        - VECTOR "Screen Shape", 370x822px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Screen [CHANGE ME]", 370x822px, constraints scale/scale, fill image(hash: c52b15726d8e0390cb53424c41bd3ad07bd0cca8)
+      - INSTANCE "Camera", 20x20px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Oval", 20x20px, constraints scale/scale, fill Screen Components
+        - VECTOR "Oval", 12.5x12.5px, constraints scale/scale, fill fl-gray-1000
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill fl-gray-600, opacity 40%
+    - TEXT "Screen 7", 137x39px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - GROUP "Group 9", 387x921px, constraints left/top
+    - INSTANCE "Devices / Samsung / Samsung Galaxy S20 5G", 387x858px, constraints left/top
+      - GROUP "S20", 391x858px, constraints left/top [device mockup, collapsed]
+      - GROUP "Screen", 370x822px, constraints left/top
+        - VECTOR "Screen Shape", 370x822px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Screen [CHANGE ME]", 370x822px, constraints scale/scale, fill image(hash: 4f44de880072848c7f44ccc23ca30845693f3d30)
+      - INSTANCE "Camera", 20x20px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Oval", 20x20px, constraints scale/scale, fill Screen Components
+        - VECTOR "Oval", 12.5x12.5px, constraints scale/scale, fill fl-gray-1000
+        - VECTOR "Oval", 2.5x2.5px, constraints scale/scale, fill fl-gray-600, opacity 40%
+    - TEXT "Screen 8", 139x39px, constraints left/top, fill #000000, text [Inter Bold, 32px], [heading]
+  - TEXT "Heading 1", 151x44px, constraints left/top, fill #000000, text [Open Sans Regular, 32px], [heading]
+  - TEXT "32", 37x44px, constraints left/top, fill #000000, text [Open Sans Regular, 32px], [heading]
+  - TEXT "Heading 2", 113x33px, constraints left/top, fill #000000, text [Open Sans Regular, 24px], [heading]
+  - TEXT "24", 28x33px, constraints left/top, fill #000000, text [Open Sans Regular, 24px], [heading]
+  - TEXT "Heading 3", 85x25px, constraints left/top, fill #000000, text [Open Sans Regular, 18px]
+  - TEXT "Body", 34x19px, constraints left/top, fill #000000, text [Open Sans Regular, 14px]
+  - TEXT "18", 21x25px, constraints left/top, fill #000000, text [Open Sans Regular, 18px]
+  - TEXT "14", 17x19px, constraints left/top, fill #000000, text [Open Sans Regular, 14px]
+  - TEXT "Typography", 249x56px, constraints left/top, fill #000000, text [Roboto Regular, 48px], [heading]
+  - TEXT "Font - Open Sans", 334x54px, constraints left/top, fill #000000, text [Open Sans Bold, 40px], [heading]
+  - TEXT "Name", 70x33px, constraints left/top, fill #000000, text [Open Sans SemiBold, 24px], [heading]
+  - TEXT "Font Size", 104x33px, constraints left/top, fill #000000, text [Open Sans SemiBold, 24px], [heading]
+  - GROUP "Group 14", 408.17x369px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Color", 114x56px, constraints left/top, fill #000000, text [Roboto Regular, 48px], [heading]
+    - TEXT "CTA", 89x56px, constraints left/top, fill #000000, text [Roboto Regular, 48px], [heading]
+    - GROUP "Group 12", 408.17x114.49px, constraints left/top
+      - RECTANGLE "Rectangle 3", 124.17x61.96px, constraints scale/scale, fill #006032
+      - RECTANGLE "Rectangle 4", 124.17x61.96px, constraints scale/scale, fill #29679B
+      - RECTANGLE "Rectangle 5", 124.17x61.96px, constraints scale/scale, fill #AA7455
+      - TEXT "#29679B", 117x38px, constraints left/top, fill #000000, text [Open Sans Regular, 28px], [heading]
+      - TEXT "#006032", 115x38px, constraints left/top, fill #000000, text [Open Sans Regular, 28px], [heading]
+      - TEXT "#AA7455", 118x38px, constraints left/top, fill #000000, text [Open Sans Regular, 28px], [heading]
+    - GROUP "Group 10", 184x48px, constraints left/top, radius 8px
+      - RECTANGLE "Rectangle 4", 184x48px, constraints left/top, radius 8px, fill #AA7455
+      - TEXT "Buy Now", 76x24px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+    - GROUP "Group 11", 184x48px, constraints left/top, radius 8px
+      - VECTOR "Rectangle 4", 184x48px, constraints left/top, radius 8px, fill #ADADAD
+      - TEXT "Buy Now", 76x24px, constraints left/top, fill #FFFFFF, text [Open Sans SemiBold, 18px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

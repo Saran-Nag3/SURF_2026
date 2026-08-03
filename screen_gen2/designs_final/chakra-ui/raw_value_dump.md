@@ -1,0 +1,1942 @@
+---
+name: chakra-ui-unofficial-ui-kit-community
+source_file: Chakra UI unofficial UI kit (Community)
+source_page: All pages (60): Cover, —— NOTES ——, Please read, How to use Slots, How to use this file, Next steps, —— DESIGN SYSTEM ——, Border radius, Breakpoints, Colors, Icons, Shadows, Spacing, Typography, —— COMPONENTS ——, Accordion, Alert, Avatar, Badge, Breadcrumb, Button, Checkbox, Circular Progress, Close Button, Code, Drawer, Form Control, Icon Button, Input, Keyboard Key, Menu, Modal, Number Input, Pin Input, Popover, Progress, Radio, Range Slider, Select, Skeleton, Slider, Spinner, Stat, Switch, Table, Tabs, Tag, Textarea, Toast, Tooltip, —— PRO ——, Please read, Dividers, Features, Heroes, Navbars, Stats, —— MISCELLANEOUS ——, 🗑 Deprecated, 🧱 Internal
+generated_at: 2026-07-25T09:39:01.888919+00:00
+---
+
+# Chakra UI unofficial UI kit (Community) Design Guidelines
+
+## Source
+- Figma file: Chakra UI unofficial UI kit (Community)
+- Figma page: All pages (60): Cover, —— NOTES ——, Please read, How to use Slots, How to use this file, Next steps, —— DESIGN SYSTEM ——, Border radius, Breakpoints, Colors, Icons, Shadows, Spacing, Typography, —— COMPONENTS ——, Accordion, Alert, Avatar, Badge, Breadcrumb, Button, Checkbox, Circular Progress, Close Button, Code, Drawer, Form Control, Icon Button, Input, Keyboard Key, Menu, Modal, Number Input, Pin Input, Popover, Progress, Radio, Range Slider, Select, Skeleton, Slider, Spinner, Stat, Switch, Table, Tabs, Tag, Textarea, Toast, Tooltip, —— PRO ——, Please read, Dividers, Features, Heroes, Navbars, Stats, —— MISCELLANEOUS ——, 🗑 Deprecated, 🧱 Internal
+- Extracted at: 2026-07-25T09:39:01.888919+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Icon/Browser Controls/Light: [#3C4043]
+- Icon/URL Controls/Disabled/Light: [#BABCBE]
+- gray/200: [#FFFFFF]
+- gray/700: [#2D3748]
+- Interface / dark: [#51526A]
+- Interface / extra-dark: [#090B37]
+- Interface/white: [#FFFFFF]
+- Interface / Dark: [#FFFFFF]
+- Overlays / 200: none
+- purple/200: [#D6BCFA]
+- purple/600: [#D6BCFA]
+- white: [#FFFFFF]
+- black: [#000000]
+- gray/600: [#4A5568]
+- blue/500: [#3182CE]
+- gray/900: [#171923]
+- transparent: [#00000000]
+- gray/200: [#E2E8F0]
+- whiteAlpha/300: [#FFFFFF29]
+- Lime / dark: [#465B43]
+- Lime / default: [#AED4A7]
+- whiteAlpha/900: [#FFFFFFEB]
+- green/500: [#38A169]
+- blue/100: [#BEE3F8]
+- orange/100: [#FEEBC8]
+- orange/500: [#FEEBC8]
+- green/100: [#C6F6D5]
+- red/100: [#FED7D7]
+- red/500: [#FED7D7]
+- Neutral / Neutral 5: [#858C94]
+- blackAlpha/500: [#0000005C]
+- gray/300: [#FFFFFF]
+- gray/500: [#FFFFFF]
+- gray/100: [#EDF2F7]
+- gray/800: [#1A202C]
+- blue/600: [#2B6CB0]
+- blue/700: [#2C5282]
+- gray/50: [#F7FAFC]
+- gray/300: [#CBD5E0]
+- green/400: [#48BB78]
+- red/400: [#F56565]
+- gray/400: [#A0AEC0]
+- red/500: [#FFFFFF]
+- gray/500: [#718096]
+- blackAlpha/200: [#00000014]
+- blackAlpha/100: [#0000000F]
+- blue/50: [#EBF8FF]
+- purple/100: [#E9D8FD]
+- red/900: [#63171B]
+- blackAlpha/50: [#0000000A]
+- blackAlpha/900: [#000000EB]
+- blackAlpha/800: [#000000CC]
+- blackAlpha/700: [#000000A3]
+- blackAlpha/600: [#0000007A]
+- blackAlpha/400: [#0000003D]
+- blackAlpha/300: [#00000029]
+- whiteAlpha/800: [#FFFFFFCC]
+- whiteAlpha/700: [#FFFFFFA3]
+- whiteAlpha/600: [#FFFFFF7A]
+- whiteAlpha/500: [#FFFFFF5C]
+- whiteAlpha/400: [#FFFFFF3D]
+- whiteAlpha/200: [#FFFFFF14]
+- whiteAlpha/100: [#FFFFFF0F]
+- whiteAlpha/50: [#FFFFFF0A]
+- red/800: [#822727]
+- red/700: [#9B2C2C]
+- red/600: [#C53030]
+- red/300: [#FC8181]
+- red/200: [#FEB2B2]
+- red/50: [#FFF5F5]
+- orange/900: [#652B19]
+- orange/800: [#7B341E]
+- orange/700: [#9C4221]
+- orange/600: [#C05621]
+- orange/400: [#ED8936]
+- orange/300: [#F6AD55]
+- orange/200: [#FBD38D]
+- orange/50: [#FFFAF0]
+- yellow/900: [#5F370E]
+- yellow/800: [#744210]
+- yellow/700: [#975A16]
+- yellow/600: [#B7791F]
+- yellow/500: [#D69E2E]
+- yellow/400: [#ECC94B]
+- yellow/300: [#F6E05E]
+- yellow/200: [#FAF089]
+- yellow/100: [#FEFCBF]
+- yellow/50: [#FFFFF0]
+- green/900: [#1C4532]
+- green/800: [#22543D]
+- green/700: [#276749]
+- green/600: [#2F855A]
+- green/300: [#68D391]
+- green/200: [#9AE6B4]
+- green/50: [#F0FFF4]
+- teal/900: [#1D4044]
+- teal/800: [#234E52]
+- teal/700: [#285E61]
+- teal/600: [#2C7A7B]
+- teal/500: [#319795]
+- teal/400: [#38B2AC]
+- teal/300: [#4FD1C5]
+- teal/200: [#81E6D9]
+- teal/100: [#B2F5EA]
+- teal/50: [#E6FFFA]
+- blue/900: [#1A365D]
+- blue/800: [#2A4365]
+- blue/400: [#4299E1]
+- blue/300: [#63B3ED]
+- blue/200: [#90CDF4]
+- cyan/900: [#065666]
+- cyan/800: [#086F83]
+- cyan/700: [#0987A0]
+- cyan/600: [#00A3C4]
+- cyan/500: [#00B5D8]
+- cyan/400: [#0BC5EA]
+- cyan/300: [#76E4F7]
+- cyan/200: [#9DECF9]
+- cyan/100: [#C4F1F9]
+- cyan/50: [#EDFDFD]
+- purple/900: [#322659]
+- purple/800: [#44337A]
+- purple/700: [#553C9A]
+- purple/500: [#805AD5]
+- purple/400: [#9F7AEA]
+- purple/300: [#B794F4]
+- purple/50: [#FAF5FF]
+- pink/900: [#521B41]
+- pink/800: [#702459]
+- pink/700: [#97266D]
+- pink/600: [#B83280]
+- pink/500: [#D53F8C]
+- pink/400: [#ED64A6]
+- pink/300: [#F687B3]
+- pink/200: [#FBB6CE]
+- pink/100: [#FED7E2]
+- pink/50: [#FFF5F7]
+- linkedin/900: [#004471]
+- linkedin/800: [#005E93]
+- linkedin/700: [#0077B5]
+- linkedin/600: [#008CC9]
+- linkedin/500: [#00A0DC]
+- linkedin/400: [#34B3E4]
+- linkedin/300: [#68C7EC]
+- linkedin/200: [#9BDAF3]
+- linkedin/100: [#CFEDFB]
+- linkedin/50: [#E8F4F9]
+- facebook/900: [#1E355B]
+- facebook/800: [#223B67]
+- facebook/700: [#29487D]
+- facebook/600: [#314E89]
+- facebook/500: [#385898]
+- facebook/400: [#4267B2]
+- facebook/300: [#6482C0]
+- facebook/200: [#B7C2DA]
+- facebook/100: [#D9DEE9]
+- facebook/50: [#E8F4F9]
+- messenger/900: [#002C5C]
+- messenger/800: [#003C7E]
+- messenger/700: [#0052AC]
+- messenger/600: [#0063D1]
+- messenger/500: [#0078FF]
+- messenger/400: [#2E90FF]
+- messenger/300: [#7AB8FF]
+- messenger/200: [#A2CDFF]
+- messenger/100: [#B9DAFF]
+- messenger/50: [#D0E6FF]
+- whatsapp/900: [#001803]
+- whatsapp/800: [#01421C]
+- whatsapp/700: [#0C6C33]
+- whatsapp/600: [#179848]
+- whatsapp/500: [#22C35E]
+- whatsapp/400: [#3CDD78]
+- whatsapp/300: [#65E495]
+- whatsapp/200: [#90EDB3]
+- whatsapp/100: [#B9F5D0]
+- whatsapp/50: [#DFFEEC]
+- twitter/900: [#0D4D71]
+- twitter/800: [#136B9E]
+- twitter/700: [#1681BF]
+- twitter/600: [#1A94DA]
+- twitter/500: [#1DA1F2]
+- twitter/400: [#57BBF5]
+- twitter/300: [#83CDF7]
+- twitter/200: [#A8DCFA]
+- twitter/100: [#C8E9FB]
+- twitter/50: [#E5F4FD]
+- telegram/900: [#003F5E]
+- telegram/800: [#005885]
+- telegram/700: [#006BA1]
+- telegram/600: [#007AB8]
+- telegram/500: [#0088CC]
+- telegram/400: [#47A9DA]
+- telegram/300: [#7AC1E4]
+- telegram/200: [#A2D4EC]
+- telegram/100: [#C5E4F3]
+- telegram/50: [#E3F2F9]
+
+## Raw Colors (unstyled)
+- #090B37: 684 uses
+- #FFFFFF: 411 uses
+- #000000: 196 uses
+- #00000000: 125 uses
+- #F7F7FB: 98 uses
+- #FFFFFF4D: 51 uses
+- #9747FF: 47 uses
+- #51526A: 43 uses
+- #5F6368: 26 uses
+- #E2E8F000: 12 uses
+
+## Typography Tokens
+- text/sm/regular: Inter Regular (400), 14px / 123.94%, tracking 0px
+- Paragraphs/P2: Hind Regular (400), 26px / 93.69%, tracking 0px
+- Headings / H1: Source Sans Pro Bold (700), 64px / 87.51%, tracking -1.28px
+- Headings / H4: Source Sans Pro SemiBold (600), 26px / 95.47%, tracking -0.26px
+- Paragraphs/P4: Hind Regular (400), 18px / 93.69%, tracking 0px
+- text/lg/regular: Inter Regular (400), 18px / 123.94%, tracking 0px
+- text/2xl/regular: Inter Regular (400), 24px / 123.94%, tracking 0px
+- text/md/regular: Inter Regular (400), 16px / 123.94%, tracking 0px
+- text/lg/medium: Inter Medium (500), 18px / 123.94%, tracking 0px
+- text/xl/regular: Inter Regular (400), 20px / 123.94%, tracking 0px
+- pro/authentication/navbar-with-tabs/tab: Inter Medium (500), 16px / 20px, tracking 0px
+- misc/button/md/default: Inter SemiBold (600), 16px / 99.15%, tracking 0px
+- text/xl/medium: Inter Medium (500), 20px / 123.94%, tracking 0px
+- text/md/semibold: Inter SemiBold (600), 16px / 123.94%, tracking 0px
+- text/sm/medium: Inter Medium (500), 14px / 123.94%, tracking 0px
+- misc/button/lg/default: Inter SemiBold (600), 18px / 99.15%, tracking 0px
+- text/md/bold: Inter Bold (700), 16px / 123.94%, tracking 0px
+- misc/textarea/md: Inter Regular (400), 16px / 113.62%, tracking 0px
+- misc/textarea/lg: Inter Regular (400), 18px / 113.62%, tracking 0px
+- misc/textarea/sm: Inter Regular (400), 14px / 113.62%, tracking 0px
+- misc/textarea/xs: Inter Regular (400), 12px / 113.62%, tracking 0px
+- misc/tag/lg: Inter Medium (500), 16px / 99.15%, tracking 0px
+- misc/tag/md: Inter Medium (500), 14px / 99.15%, tracking 0px
+- misc/tag/sm: Inter Medium (500), 12px / 99.15%, tracking 0px
+- text/lg/semibold: Inter SemiBold (600), 18px / 123.94%, tracking 0px
+- text/sm/semibold: Inter SemiBold (600), 14px / 123.94%, tracking 0px
+- misc/th/lg: Inter Bold (700), 14px / 20px, tracking 0.7px
+- misc/tr/md: Inter Regular (400), 16px / 20px, tracking 0px
+- misc/th/sm: Inter Bold (700), 12px / 16px, tracking 0.6px
+- misc/tr/sm: Inter Regular (400), 14px / 16px, tracking 0px
+- text/2xl/semibold: Inter SemiBold (600), 24px / 123.94%, tracking 0px
+- text/xs/regular: Inter Regular (400), 12px / 123.94%, tracking 0px
+- text/xl/semibold: Inter SemiBold (600), 20px / 123.94%, tracking 0px
+- misc/button/xs/default: Inter SemiBold (600), 12px / 99.15%, tracking 0px
+- misc/menugroup: Inter SemiBold (600), 14px / 82.63%, tracking 0px
+- misc/kbd: Menlo Bold (700), 12px / 16px, tracking 0px
+- text/md/medium: Inter Medium (500), 16px / 123.94%, tracking 0px
+- misc/code: Menlo Regular (400), 14px / auto, tracking 0px
+- misc/circular-progress: Inter Regular (400), 11.52px / 123.94%, tracking 0px
+- misc/button/lg/underline: Inter SemiBold (600), 18px / 99.15%, tracking 0px
+- misc/button/md/underline: Inter SemiBold (600), 16px / 99.15%, tracking 0px
+- misc/button/sm/default: Inter SemiBold (600), 14px / 99.15%, tracking 0px
+- misc/button/sm/underline: Inter SemiBold (600), 14px / 99.15%, tracking 0px
+- misc/button/xs/underline: Inter SemiBold (600), 12px / 99.15%, tracking 0px
+- misc/badge: Inter Bold (700), 12px / auto, tracking 0px
+- misc/avatar: Inter Medium (500), 16px / 82.63%, tracking 0px
+- text/3xl/regular: Inter Regular (400), 30px / 123.94%, tracking 0px
+- text/4xl/regular: Inter Regular (400), 36px / 123.94%, tracking 0px
+- text/5xl/regular: Inter Regular (400), 48px / 123.94%, tracking 0px
+- text/6xl/regular: Inter Regular (400), 60px / 123.94%, tracking 0px
+- heading/xs/mobile: Inter Bold (700), 14px / 99.15%, tracking 0px
+- heading/xs/desktop: Inter Bold (700), 14px / 99.15%, tracking 0px
+- heading/sm/mobile: Inter Bold (700), 16px / 99.15%, tracking 0px
+- heading/sm/desktop: Inter Bold (700), 16px / 99.15%, tracking 0px
+- heading/md/mobile: Inter Bold (700), 20px / 99.15%, tracking 0px
+- heading/md/desktop: Inter Bold (700), 20px / 99.15%, tracking 0px
+- heading/lg/mobile: Inter Bold (700), 24px / 109.9%, tracking 0px
+- heading/lg/desktop: Inter Bold (700), 30px / 99.15%, tracking 0px
+- heading/xl/mobile: Inter Bold (700), 30px / 109.9%, tracking 0px
+- heading/xl/desktop: Inter Bold (700), 36px / 99.15%, tracking 0px
+- heading/2xl/mobile: Inter Bold (700), 36px / 99.15%, tracking 0px
+- heading/2xl/desktop: Inter Bold (700), 48px / 82.63%, tracking 0px
+- heading/3xl/mobile: Inter Bold (700), 48px / 82.63%, tracking 0px
+- heading/3xl/desktop: Inter Bold (700), 60px / 82.63%, tracking 0px
+- heading/4xl/mobile: Inter Bold (700), 60px / 82.63%, tracking 0px
+- heading/4xl/desktop: Inter Bold (700), 72px / 82.63%, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 14px: 183 uses
+- Inter SemiBold, 14px: 183 uses
+- Hind Regular, 18px: 10 uses
+- Hind Regular, 26px: 7 uses
+- Hind Regular, 8px: 6 uses
+- Roboto Regular, 12px: 6 uses
+- Inter Regular, 12px: 5 uses
+- Inter Medium, 16px: 4 uses
+- Inter Regular, 38.4px: 4 uses
+- Inter SemiBold, 60px: 4 uses
+- Roboto Regular, 14px: 4 uses
+- Inter Black, 72px: 3 uses
+- Inter Medium, 14px: 3 uses
+- Inter Regular, 16px: 3 uses
+
+## Typography Hierarchy
+- 72px - Inter Black, 72px (raw)
+- 72px - heading/4xl/desktop (Inter Bold)
+- 64px - Headings / H1 (Source Sans Pro Bold)
+- 60px - Inter SemiBold, 60px (raw)
+- 60px - heading/3xl/desktop (Inter Bold)
+- 60px - heading/4xl/mobile (Inter Bold)
+- 60px - text/6xl/regular (Inter Regular)
+- 48px - heading/2xl/desktop (Inter Bold)
+- 48px - heading/3xl/mobile (Inter Bold)
+- 48px - text/5xl/regular (Inter Regular)
+- 38.4px - Inter Regular, 38.4px (raw)
+- 36px - heading/2xl/mobile (Inter Bold)
+- 36px - heading/xl/desktop (Inter Bold)
+- 36px - text/4xl/regular (Inter Regular)
+- 30px - heading/lg/desktop (Inter Bold)
+- 30px - heading/xl/mobile (Inter Bold)
+- 30px - text/3xl/regular (Inter Regular)
+- 26px - Headings / H4 (Source Sans Pro SemiBold)
+- 26px - Hind Regular, 26px (raw)
+- 26px - Paragraphs/P2 (Hind Regular)
+- 24px - heading/lg/mobile (Inter Bold)
+- 24px - text/2xl/regular (Inter Regular)
+- 24px - text/2xl/semibold (Inter SemiBold)
+- 20px - heading/md/desktop (Inter Bold)
+- 20px - heading/md/mobile (Inter Bold)
+- 20px - text/xl/medium (Inter Medium)
+- 20px - text/xl/regular (Inter Regular)
+- 20px - text/xl/semibold (Inter SemiBold)
+- 18px - Hind Regular, 18px (raw)
+- 18px - Paragraphs/P4 (Hind Regular)
+- 18px - misc/button/lg/default (Inter SemiBold)
+- 18px - misc/button/lg/underline (Inter SemiBold)
+- 18px - misc/textarea/lg (Inter Regular)
+- 18px - text/lg/medium (Inter Medium)
+- 18px - text/lg/regular (Inter Regular)
+- 18px - text/lg/semibold (Inter SemiBold)
+- 16px - Inter Medium, 16px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 16px - heading/sm/desktop (Inter Bold)
+- 16px - heading/sm/mobile (Inter Bold)
+- 16px - misc/avatar (Inter Medium)
+- 16px - misc/button/md/default (Inter SemiBold)
+- 16px - misc/button/md/underline (Inter SemiBold)
+- 16px - misc/tag/lg (Inter Medium)
+- 16px - misc/textarea/md (Inter Regular)
+- 16px - misc/tr/md (Inter Regular)
+- 16px - pro/authentication/navbar-with-tabs/tab (Inter Medium)
+- 16px - text/md/bold (Inter Bold)
+- 16px - text/md/medium (Inter Medium)
+- 16px - text/md/regular (Inter Regular)
+- 16px - text/md/semibold (Inter SemiBold)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Inter Regular, 14px (raw)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - Roboto Regular, 14px (raw)
+- 14px - heading/xs/desktop (Inter Bold)
+- 14px - heading/xs/mobile (Inter Bold)
+- 14px - misc/button/sm/default (Inter SemiBold)
+- 14px - misc/button/sm/underline (Inter SemiBold)
+- 14px - misc/code (Menlo Regular)
+- 14px - misc/menugroup (Inter SemiBold)
+- 14px - misc/tag/md (Inter Medium)
+- 14px - misc/textarea/sm (Inter Regular)
+- 14px - misc/th/lg (Inter Bold)
+- 14px - misc/tr/sm (Inter Regular)
+- 14px - text/sm/medium (Inter Medium)
+- 14px - text/sm/regular (Inter Regular)
+- 14px - text/sm/semibold (Inter SemiBold)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Roboto Regular, 12px (raw)
+- 12px - misc/badge (Inter Bold)
+- 12px - misc/button/xs/default (Inter SemiBold)
+- 12px - misc/button/xs/underline (Inter SemiBold)
+- 12px - misc/kbd (Menlo Bold)
+- 12px - misc/tag/sm (Inter Medium)
+- 12px - misc/textarea/xs (Inter Regular)
+- 12px - misc/th/sm (Inter Bold)
+- 12px - text/xs/regular (Inter Regular)
+- 11.52px - misc/circular-progress (Inter Regular)
+- 8px - Hind Regular, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- shadows/base: [drop_shadow 2px offset 0 1 #0000000F, drop_shadow 3px offset 0 1 #0000001A]
+- shadows/dark-lg: [drop_shadow 40px offset 0 15 #00000066, drop_shadow 10px offset 0 5 #00000033, drop_shadow 0px offset 0 0 #0000001A]
+- right / 2px: [drop_shadow 0px offset 2 2 #090B37]
+- kbd-inner: [inner_shadow 0px offset 0 -2 #E2E8F0]
+- shadows/inner: [inner_shadow 4px offset 0 2 #0000000F]
+- shadows/outline: [drop_shadow 0px offset 0 0 #3F99E199]
+- shadows/2xl: [drop_shadow 50px offset 0 25 #00000040]
+- shadows/xl: [drop_shadow 10px offset 0 10 #0000000A, drop_shadow 25px offset 0 20 #0000001A]
+- shadows/lg: [drop_shadow 6px offset 0 4 #0000000D, drop_shadow 15px offset 0 10 #0000001A]
+- shadows/md: [drop_shadow 4px offset 0 2 #0000000F, drop_shadow 6px offset 0 4 #0000001A]
+- shadows/sm: [drop_shadow 2px offset 0 1 #0000000D]
+- shadows/xs: [drop_shadow 0px offset 0 0 #0000000D]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- .My Body
+- .My Component
+- Icon
+- AccordionItem
+- AccordionButton
+- Answer 2 Frame
+- Answer 1 Frame
+- Alert
+- .AlertIcon
+- AvatarGroup
+- Avatar
+- .Avatar
+- .AvatarBadge
+- Badge
+- Breadcrumb
+- Button
+- Checkbox
+- Circular Progress
+- Close Button
+- Code
+- Drawer
+- .Drawer Example Slot
+- FormControl
+- Icon Button
+- Input
+- Kbd
+- MenuItemOption
+- MenuItem
+- .Menu Prototype Example
+- Menu
+- MenuGroup
+- MenuDivider
+- Modal
+- .My ModalFooter
+- .My ModalBody
+- NumberInput
+- .Stepper
+- PinInput
+- Popover
+- .PopoverBody Prototype Example
+- Progress
+- Radio
+- Slider
+- Select
+- Skeleton with Slot
+- SkeletonCircle
+- Skeleton
+- .Skeleton Slot Example
+- Spinner
+- Stat
+- StatArrow-decrease
+- StatArrow-increase
+- Switch
+- Table (column)
+- TabList
+- .Tab
+- .TabList Prototype Example
+- .TabPanel-2
+- .TabPanel-1
+- Tabs
+- .TabPanel
+- Tag
+- .Textarea-prototype-resize
+- Toast
+- Tooltip
+- Divider with with text
+- Feature with three columns centred
+- .Feature
+- .Button-transparent
+- With image background
+- Navbars
+- .Logo
+- Stats with divider
+- .Stat
+- .Chrome
+- .Radii example
+- .Documentation
+- .Component Checklist
+- .Slot
+- .Shadow Group
+- .Color
+
+## Component Specs
+- .My Body: size 71x24px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Inter Regular, 16px]
+- .My Component: size 406x199px, radius 8px, vertical layout, padding 16 16 16 16px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [text/lg/regular, text/2xl/regular, heading/2xl/desktop]
+- Icon/MdIndeterminateCheckBox: size 16x16px, radius 4px
+- Icon/IoCheckbox: size 16x16px, radius 6px
+- Icon/WarningTwoIcon: size 16x16px, fill #FFFFFF
+- Icon/WarningIcon: size 16x16px, fill #FFFFFF
+- Icon/ViewOffIcon: size 16x16px, fill #FFFFFF
+- Icon/ViewIcon: size 16x16px, fill #FFFFFF
+- Icon/UpDownIcon: size 16x16px
+- Icon/UnlockIcon: size 16x16px, fill #FFFFFF
+- Icon/TriangleUpIcon: size 16x16px, fill #FFFFFF
+- Icon/TriangleDownIcon: size 16x16px, fill #FFFFFF
+- Icon/TimeIcon: size 16x16px, fill #FFFFFF
+- Icon/SunIcon: size 16x16px, fill #FFFFFF
+- Icon/StarIcon: size 16x16px, fill #FFFFFF
+- Icon/SpinnerIcon: size 16x16px, fill #FFFFFF
+- Icon/SmallCloseIcon: size 16x16px, fill #FFFFFF
+- Icon/SmallAddIcon: size 16x16px, fill #FFFFFF
+- Icon/SettingsIcon: size 16x16px, fill #FFFFFF
+- Icon/Search2Icon: size 16x16px, fill #FFFFFF
+- Icon/SearchIcon: size 16x16px, fill #FFFFFF
+- Icon/RepeatClockIcon: size 16x16px, fill #FFFFFF
+- Icon/RepeatIcon: size 16x16px, fill #FFFFFF
+- Icon/QuestionOutlineIcon: size 16x16px, fill #FFFFFF
+- Icon/QuestionIcon: size 16x16px, fill #FFFFFF
+- Icon/PlusSquareIcon: size 16x16px, fill #FFFFFF
+- Icon/PhoneIcon: size 16x16px, fill #FFFFFF
+- Icon/NotAllowedIcon: size 16x16px, fill #FFFFFF
+- Icon/MoonIcon: size 16x16px, fill #FFFFFF
+- Icon/MinusIcon: size 16x16px, fill #FFFFFF
+- Icon/LockIcon: size 16x16px, fill #FFFFFF
+- Icon/LinkIcon: size 16x16px, fill #FFFFFF
+- Icon/InfoOutlineIcon: size 16x16px, fill #FFFFFF
+- Icon/InfoIcon: size 16x16px, fill #FFFFFF
+- Icon/HamburgerIcon: size 16x16px, fill #FFFFFF
+- Icon/ExternalLinkIcon: size 16x16px, fill #FFFFFF
+- Icon/EmailIcon: size 16x16px, fill #FFFFFF
+- Icon/EditIcon: size 16x16px, fill #FFFFFF
+- Icon/DragHandleIcon: size 16x16px, fill #FFFFFF
+- Icon/DownloadIcon: size 16x16px, fill #FFFFFF
+- Icon/DeleteIcon: size 16x16px, fill #FFFFFF
+- Icon/CopyIcon: size 16x16px, fill #FFFFFF
+- Icon/CloseIcon: size 16x16px, fill #FFFFFF
+- Icon/ChevronUpIcon: size 16x16px, fill #FFFFFF
+- Icon/ChevronRightIcon: size 16x16px, fill #FFFFFF
+- Icon/ChevronLeftIcon: size 16x16px, fill #FFFFFF
+- Icon/ChevronDownIcon: size 16x16px, fill #FFFFFF
+- Icon/CheckCircleIcon: size 16x16px, fill #FFFFFF
+- Icon/CheckIcon: size 16x16px, fill #FFFFFF
+- Icon/ChatIcon: size 16x16px, fill #FFFFFF
+- Icon/CalendarIcon: size 16x16px, fill #FFFFFF
+- Icon/BellIcon: size 16x16px, fill #FFFFFF
+- Icon/AttachmentIcon: size 16x16px, fill #FFFFFF
+- Icon/AtSignIcon: size 16x16px, fill #FFFFFF
+- Icon/ArrowUpDownIcon: size 16x16px, fill #FFFFFF
+- Icon/ArrowUpIcon: size 16x16px, fill #FFFFFF
+- Icon/ArrowRightIcon: size 16x16px, fill #FFFFFF
+- Icon/ArrowLeftIcon: size 16x16px, fill #FFFFFF
+- Icon/ArrowForwardIcon: size 16x16px, fill #FFFFFF
+- Icon/ArrowDownIcon: size 16x16px, fill #FFFFFF
+- Icon/ArrowBackIcon: size 16x16px, fill #FFFFFF
+- Icon/AddIcon: size 16x16px, fill #FFFFFF
+- AccordionItem: size 319x40px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fill H:fixed, fill #FFFFFF, text [text/lg/regular, text/2xl/regular, text/md/regular] | variants: State: Closed/Opened
+- AccordionButton: size 257x40px, horizontal layout, padding 8 16 8 16px, gap 0px, align space_between/center, sizing W:fill H:fixed, text [text/md/regular] | variants: State: Default/Hover
+- Answer 2 Frame: size 87x256px, vertical layout, padding 8 8 8 8px, gap 8px, sizing W:fixed H:fixed, text [text/md/regular]
+- Answer 1 Frame: size 85x40px, vertical layout, padding 8 8 8 8px, gap 8px, sizing W:fixed H:fixed, text [text/md/regular]
+- Alert: size 597x48px, horizontal layout, padding 12 16 12 16px, gap 0px, align min/center, sizing W:fixed H:fixed, fill blue/100, text [text/md/regular, text/md/bold] | variants: status: error/info/loading/success/warning; variant: left-accent/solid/subtle/top-accent
+- .AlertIcon/Loading: size 20x20px, fill #FFFFFF
+- .AlertIcon/Error: size 20x20px, fill #FFFFFF
+- .AlertIcon/Success: size 20x20px, fill #FFFFFF
+- .AlertIcon/Warning: size 20x20px, fill #FFFFFF
+- .AlertIcon/Info: size 20x20px, fill #FFFFFF
+- AvatarGroup: size 352x128px, horizontal layout, padding 0 0 0 0px, gap -16px, sizing W:fixed H:fixed, text [misc/avatar] | variants: size: 2xl/2xs/lg/md/sm/xl/xs
+- Avatar: size 128x128px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed | variants: size: 2xl/2xs/lg/md/sm/xl/xs
+- .Avatar: size 128x128px, radius 9999px, fill gray/400 | variants: size: 2xl/2xs/lg/md/sm/xl/xs; Use: Image/Initials/Neither; showBorder: False/True
+- .AvatarBadge: size 64x64px, radius 9999px, fill green/500, stroke white 10px | variants: size: 2xl/2xs/lg/md/sm/xl/xs
+- Badge: size 40x15px, radius 2px, horizontal layout, padding 0 4 0 4px, gap 0px, sizing W:fixed H:fixed, fill gray/100, text [misc/badge] | variants: variant: outline/solid/subtle
+- Breadcrumb: size 73x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [text/md/regular] | variants: State: Default/Hover
+- Button: size 108x24px, radius 6px, horizontal layout, padding 0 8 0 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill gray/100, text [misc/button/xs/default] | variants: variant: ghost/link/outline/solid; State: Active/Default/Disabled/Hover; size: lg/md/sm/xs; colorScheme: blue/gray
+- Checkbox: size 56x21px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [text/sm/regular] | variants: size: lg/md/sm; Box: Checked/Empty/Indeterminate; State: Default/Disabled/Hover/Invalid
+- Circular Progress: size 48x48px, fill #FFFFFF, text [misc/circular-progress]
+- Close Button: size 24x24px, radius 6px | variants: State: Active/Default/Disabled/Disabled-Hover/Hover; size: lg/md/sm
+- Code: size 251x16px, radius 2px, horizontal layout, padding 0 3 0 3px, gap 8px, align center/center, sizing W:fixed H:fixed, fill gray/100, text [misc/code]
+- Drawer: size 320x130.33px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fill, fill white, text [text/lg/regular, text/2xl/regular, text/xl/semibold] | variants: placement: full/left or right/top or bottom; size: lg/md/n/a/sm/xl/xs
+- .Drawer Example Slot: size 127x72px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [text/md/regular]
+- FormControl: size 287x164px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [text/sm/regular, text/lg/regular, text/2xl/regular, text/md/medium] | variants: Property 1: Default/Disabled
+- Icon Button: size 24x24px, radius 6px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill gray/100 | variants: size: lg/md/sm/xs; variant: ghost/link/outline/solid/unstyled; isRound: False/True; State: Active/Default/Disabled/Hover
+- Input/Text/WithAddon: size 600x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [text/xs/regular] | variants: size: lg/md/sm/xs; Addon: Both/Left/Right
+- Input/Text/Basic: size 400x24px, radius 2px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, stroke gray/200 1px, text [text/xs/regular] | variants: size: lg/md/sm/xs; variant: filled/flushed/outline/unstyled; State: Default/Disabled/Focused/Hover/Invalid
+- Kbd: size 45x20px, radius 6px, horizontal layout, padding 2 4 2 4px, gap 10px, align center/center, sizing W:fixed H:fixed, fill gray/50, stroke gray/200 1px, effect kbd-inner, text [misc/kbd]
+- MenuItemOption: size 91x36px, horizontal layout, padding 6 12 6 12px, gap 0px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, text [text/md/regular] | variants: State: Default/Hover
+- MenuItem: size 222x36px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, text [text/md/regular] | variants: State: Default/Hover
+- .Menu Prototype Example: size 222x118px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, fill white, text [text/md/regular, misc/menugroup]
+- Menu: size 287x119px, radius 6px, vertical layout, padding 8 0 8 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill white, stroke gray/200 1px, text [text/lg/regular, text/2xl/regular]
+- MenuGroup: size 124x30px, vertical layout, padding 8 16 8 16px, gap 0px, align center/min, sizing W:fill H:fixed, text [misc/menugroup]
+- MenuDivider: size 124x16px, vertical layout, padding 8 0 8 0px, gap 0px, align center/center, sizing W:fill H:fixed, fill #FFFFFF
+- Modal: size 320x236px, radius 6px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill white, text [text/lg/regular, text/2xl/regular, text/xl/semibold] | variants: size: full/lg/md/sm/xl/xs
+- .My ModalFooter: size 141x66px, vertical layout, padding 24 24 24 24px, gap 24px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [text/xs/regular]
+- .My ModalBody: size 133x66px, vertical layout, padding 24 24 24 24px, gap 24px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [text/xs/regular]
+- NumberInput: size 400x24px, radius 2px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill white, stroke gray/200 1px, text [text/xs/regular] | variants: size: lg/md/sm/xs; variant: filled/flushed/outline/unstyled; State: Default/Disabled/Focused/Hover/Invalid
+- .Stepper: size 24x24px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, stroke gray/200 1px | variants: size: lg/md/sm/xs
+- PinInput: size 24x24px, radius 2px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, stroke gray/300 1px | variants: size: lg/md/sm/xs; variant: filled/flushed/outline/unstyled; State: Empty/Filled/Masked
+- Popover: size 320x206px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [text/lg/regular, text/2xl/regular, text/md/regular] | variants: placement: bottom/left/right/top
+- .PopoverBody Prototype Example: size 351x24px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [text/md/regular]
+- Progress: size 400x8px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill gray/100, text [Hind Regular, 8px] | variants: size: lg/md/sm/xs
+- Radio: size 56x21px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [text/sm/regular] | variants: size: lg/md/sm; state: Default/Disabled/Hover/Invalid; isChecked: false/true
+- Slider/Vertical (Range Slider): size 4x400px, radius 9999px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill gray/100
+- Slider/Horizontal (Range Slider): size 400x4px, radius 9999px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill gray/100
+- Select/Options/List: size 105x109px, radius 8px, vertical layout, padding 3 3 3 3px, gap 0px, align center/min, sizing W:fixed H:fixed, fill #F0F1F2, text [text/lg/regular, text/2xl/regular] | variants: Mode: Dark/Light
+- Select/Options/Item: size 98x27px, horizontal layout, padding 0 8 0 8px, gap 8px, align min/center, sizing W:fill H:fixed, text [text/lg/regular] | variants: State: Default/Hover
+- Input/Select: size 400x24px, radius 2px, horizontal layout, padding 0 0 0 8px, gap 0px, align min/center, sizing W:fixed H:fixed, fill white, stroke gray/200 1px, text [text/xs/regular] | variants: size: lg/md/sm/xs; variant: filled/flushed/outline/unstyled; State: Default/Disabled/Focused/Hover/Invalid
+- Select/Options/Items: size 98x81px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, text [text/lg/regular]
+- Skeleton with Slot: size 100x100px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF | variants: isLoading: False/True
+- SkeletonCircle: size 100x100px, radius 9999px, fill gray/400 | variants: Time: End/Start
+- Skeleton: size 100x100px, radius 2px, fill gray/400 | variants: Time: End/Start
+- .Skeleton Slot Example: size 372x52px, vertical layout, padding 8 8 8 8px, gap 8px, sizing W:fixed H:fixed, fill white, text [text/2xl/regular]
+- Slider/Vertical (Slider): size 8x400px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill gray/100, text [Hind Regular, 8px]
+- Slider/Horizontal (Slider): size 400x8px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill gray/100, text [Hind Regular, 8px]
+- Spinner/Animated/xl: size 48x48px, fill #FFFFFF | variants: state: 1/10/11/12/13/14/15/16/17/18/19/2/20/21/22/23/24/3/4/5/6/7/8/9
+- Spinner/Animated/lg: size 32x32px, fill #FFFFFF | variants: state: 1/10/11/12/13/14/15/16/17/18/19/2/20/21/22/23/24/3/4/5/6/7/8/9
+- Spinner/Animated/md: size 24x24px, fill #FFFFFF | variants: state: 1/10/11/12/13/14/15/16/17/18/19/2/20/21/22/23/24/3/4/5/6/7/8/9
+- Spinner/Animated/sm: size 16x16px, fill #FFFFFF | variants: state: 1/10/11/12/13/14/15/16/17/18/19/2/20/21/22/23/24/3/4/5/6/7/8/9
+- Spinner/Animated/xs: size 12x12px, fill #FFFFFF | variants: state: 1/10/11/12/13/14/15/16/17/18/19/2/20/21/22/23/24/3/4/5/6/7/8/9
+- Spinner/Static: size 12x12px, fill #FFFFFF | variants: size: lg/md/sm/xl/xs
+- Stat: size 141x86px, vertical layout, padding 0 0 8 0px, gap 0px, sizing W:fixed H:fixed, text [text/sm/regular, text/2xl/semibold, text/sm/medium]
+- StatArrow-decrease: size 14x14px, fill #FFFFFF
+- StatArrow-increase: size 14x14px, fill #FFFFFF
+- Switch: size 26x16px, radius 9999px, fill gray/300 | variants: Size: lg/md/sm; State: Default/Disabled; isChecked: False/True
+- Table (column): size 198x144px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [misc/th/sm, misc/tr/sm] | variants: size: lg/md/sm; variant: simple/striped/unstyled
+- TabList: size 233x42px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fill H:fixed, stroke gray/200 1px, text [text/md/regular] | variants: variant: enclosed/enclosed-colored/line/soft-rounded/solid-rounded
+- .Tab (Tabs): size 68x31px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [text/sm/regular] | variants: size: lg/md/sm; variant: enclosed/enclosed-colored/line/soft-rounded/solid-rounded; isSelected: false/true
+- .TabList Prototype Example: size 233x42px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [text/md/regular]
+- .TabPanel-2: size 16x16px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed
+- .TabPanel-1: size 16x16px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- Tabs: size 319x238px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [text/lg/regular, text/2xl/regular]
+- .TabPanel: size 131x135px, vertical layout, padding 16 16 16 16px, gap 8px, sizing W:fixed H:fixed, text [text/lg/regular, text/2xl/regular]
+- Tag: size 109x20px, radius 6px, horizontal layout, padding 0 8 0 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill gray/100, text [misc/tag/sm] | variants: size: lg/md/sm; variant: outline/solid/subtle
+- .Textarea-prototype-resize: size 400x80px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [misc/textarea/md] | variants: State: Original/Resized
+- Input/Text/Textarea: size 400x80px, radius 2px, horizontal layout, padding 8 16 8 16px, gap 0px, sizing W:fixed H:fixed, fill white, stroke gray/200 1px, text [misc/textarea/xs] | variants: size: lg/md/sm/xs; State: Default/Disabled/Focused/Hover/Invalid
+- Toast: size 403x72px, radius 6px, horizontal layout, padding 12 16 12 16px, gap 0px, sizing W:fixed H:fixed, fill red/100, text [text/md/regular, text/md/bold] | variants: status: error/info/success/warning; variant: left-accent/solid/subtle/top-accent
+- Tooltip: size 320x33px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [text/sm/medium] | variants: placement: bottom/left/right/top
+- Divider with with text: size 464x91px, horizontal layout, padding 32 32 32 32px, gap 8px, align center/center, sizing W:fill H:fixed, text [text/lg/medium]
+- Feature with three columns centred/Desktop: size 1037x804px, vertical layout, padding 96 32 96 32px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [text/md/regular, text/xl/medium, text/xl/regular, Inter SemiBold, 36px, text/md/semibold]
+- .Feature: size 303x178px, vertical layout, padding 0 0 0 0px, gap 20px, align min/center, sizing W:fixed H:fixed, text [text/md/regular, text/xl/medium]
+- .Button-transparent: size 172x48px, radius 9999px, horizontal layout, padding 0 24 0 24px, gap 8px, align center/center, sizing W:fixed H:fixed, fill transparent, text [misc/button/md/default] | variants: Property 1: Default/Hover
+- With image background/Desktop: size 1037x648px, vertical layout, padding 0 32 0 32px, gap 0px, align center/min, sizing W:fixed H:fixed, fill image(hash: 960afe6abffeb000822593c4fff86866daaec97f), text [misc/button/md/default, text/2xl/regular, Inter ExtraBold, 60px]
+- .Tab (Navbars): size 74x36px, vertical layout, padding 8 16 8 16px, gap 0px, align center/center, sizing W:fixed H:fixed, fill transparent, text [pro/authentication/navbar-with-tabs/tab] | variants: State: Active/Default
+- Navbars/Navbar with tabs/Desktop: size 1280x80px, horizontal layout, padding 20 32 20 32px, gap 40px, align min/center, sizing W:fixed H:fixed, stroke gray/200 1px, text [Inter Medium, 16px, pro/authentication/navbar-with-tabs/tab]
+- .Logo: size 482x89px, fill #FFFFFF
+- Stats with divider/Desktop: size 973x478px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill white, text [text/lg/medium, Inter SemiBold, 60px, text/xl/regular, Inter SemiBold, 36px]
+- .Stat: size 234x111px, vertical layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed, text [text/lg/medium, Inter SemiBold, 60px]
+- .Chrome: size 1440x80px, fill #FFFFFF, text [Roboto Regular, 12px, Roboto Regular, 14px]
+- .Radii example: size 80x80px, vertical layout, padding 8 8 8 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke gray/200 1px, effect shadows/base, text [text/sm/regular]
+- .Documentation: size 640x261px, radius 24px, vertical layout, padding 64 64 64 64px, gap 24px, sizing W:fixed H:fixed, fill #F7F7FB, effect shadows/dark-lg, text [Paragraphs/P2, Headings / H1]
+- .Component Checklist: size 640x825px, radius 24px, vertical layout, padding 64 64 64 64px, gap 16px, sizing W:fixed H:fixed, fill #F7F7FB, effect shadows/dark-lg, text [Headings / H4, Paragraphs/P4, Headings / H1]
+- .Slot: size 287x103px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill purple/200, stroke purple/600 4px, text [text/lg/regular, text/2xl/regular]
+- .Shadow Group: size 77x48px, radius 4px, horizontal layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed, fill white, text [text/md/regular]
+- .Color: size 240x48px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Inter Regular, 14px, Inter SemiBold, 14px]
+
+## Most-Used Styles
+- gray/700: 2062 uses
+- Interface / Dark: 1263 uses
+- white: 868 uses
+- Headings / H4: 817 uses
+- right / 2px: 817 uses
+- gray/200: 758 uses
+- Interface/white: 609 uses
+- Overlays / 200: 550 uses
+- transparent: 414 uses
+- blue/500: 392 uses
+- blue/600: 361 uses
+- text/md/regular: 275 uses
+- gray/300: 251 uses
+- text/sm/regular: 223 uses
+- Lime / dark: 216 uses
+- Lime / default: 216 uses
+- text/lg/regular: 203 uses
+- gray/500: 138 uses
+- purple/600: 136 uses
+- gray/400: 120 uses
+- gray/100: 112 uses
+- blackAlpha/500: 105 uses
+- shadows/dark-lg: 99 uses
+- Headings / H1: 98 uses
+- text/xs/regular: 89 uses
+- red/500: 71 uses
+- misc/tr/md: 61 uses
+- gray/600: 59 uses
+- Interface / dark: 55 uses
+- Interface / extra-dark: 55 uses
+- Paragraphs/P2: 51 uses
+- text/2xl/regular: 49 uses
+- Neutral / Neutral 5: 48 uses
+- purple/200: 46 uses
+- blue/700: 41 uses
+- text/md/bold: 38 uses
+- Paragraphs/P4: 36 uses
+- red/100: 36 uses
+- misc/button/lg/default: 35 uses
+- misc/button/md/default: 35 uses
+- misc/button/xs/default: 34 uses
+- misc/button/sm/default: 31 uses
+- misc/tr/sm: 31 uses
+- green/500: 29 uses
+- text/md/semibold: 26 uses
+- blue/100: 22 uses
+- black: 17 uses
+- text/xl/semibold: 16 uses
+- gray/50: 15 uses
+- misc/textarea/md: 15 uses
+- red/900: 15 uses
+- shadows/base: 15 uses
+- orange/500: 14 uses
+- gray/800: 13 uses
+- misc/th/sm: 13 uses
+- gray/900: 11 uses
+- misc/textarea/lg: 11 uses
+- misc/textarea/sm: 11 uses
+- misc/textarea/xs: 11 uses
+- pro/authentication/navbar-with-tabs/tab: 10 uses
+- blue/50: 9 uses
+- green/100: 7 uses
+- heading/4xl/desktop: 7 uses
+- misc/th/lg: 7 uses
+- orange/100: 7 uses
+- text/sm/medium: 7 uses
+- text/xl/medium: 7 uses
+- shadows/lg: 6 uses
+- whiteAlpha/900: 6 uses
+- blackAlpha/100: 5 uses
+- misc/avatar: 5 uses
+- text/lg/medium: 5 uses
+- text/lg/semibold: 5 uses
+- text/md/medium: 5 uses
+- text/sm/semibold: 5 uses
+- blackAlpha/200: 4 uses
+- heading/2xl/desktop: 4 uses
+- misc/badge: 4 uses
+- misc/menugroup: 4 uses
+- misc/tag/lg: 4 uses
+- misc/tag/md: 4 uses
+- misc/tag/sm: 4 uses
+- text/xl/regular: 4 uses
+- green/400: 3 uses
+- misc/button/lg/underline: 3 uses
+- misc/button/md/underline: 3 uses
+- misc/button/sm/underline: 3 uses
+- misc/button/xs/underline: 3 uses
+- Icon/Browser Controls/Light: 2 uses
+- Icon/URL Controls/Disabled/Light: 2 uses
+- blackAlpha/50: 2 uses
+- heading/2xl/mobile: 2 uses
+- heading/3xl/desktop: 2 uses
+- heading/3xl/mobile: 2 uses
+- heading/4xl/mobile: 2 uses
+- heading/lg/desktop: 2 uses
+- heading/lg/mobile: 2 uses
+- heading/md/desktop: 2 uses
+- heading/md/mobile: 2 uses
+- heading/sm/desktop: 2 uses
+- heading/sm/mobile: 2 uses
+- heading/xl/desktop: 2 uses
+- heading/xl/mobile: 2 uses
+- heading/xs/desktop: 2 uses
+- heading/xs/mobile: 2 uses
+- misc/circular-progress: 2 uses
+- misc/code: 2 uses
+- misc/kbd: 2 uses
+- purple/100: 2 uses
+- red/400: 2 uses
+- text/2xl/semibold: 2 uses
+- text/3xl/regular: 2 uses
+- text/4xl/regular: 2 uses
+- text/5xl/regular: 2 uses
+- text/6xl/regular: 2 uses
+- whiteAlpha/300: 2 uses
+- blackAlpha/300: 1 use
+- blackAlpha/400: 1 use
+- blackAlpha/600: 1 use
+- blackAlpha/700: 1 use
+- blackAlpha/800: 1 use
+- blackAlpha/900: 1 use
+- blue/200: 1 use
+- blue/300: 1 use
+- blue/400: 1 use
+- blue/800: 1 use
+- blue/900: 1 use
+- cyan/100: 1 use
+- cyan/200: 1 use
+- cyan/300: 1 use
+- cyan/400: 1 use
+- cyan/50: 1 use
+- cyan/500: 1 use
+- cyan/600: 1 use
+- cyan/700: 1 use
+- cyan/800: 1 use
+- cyan/900: 1 use
+- facebook/100: 1 use
+- facebook/200: 1 use
+- facebook/300: 1 use
+- facebook/400: 1 use
+- facebook/50: 1 use
+- facebook/500: 1 use
+- facebook/600: 1 use
+- facebook/700: 1 use
+- facebook/800: 1 use
+- facebook/900: 1 use
+- green/200: 1 use
+- green/300: 1 use
+- green/50: 1 use
+- green/600: 1 use
+- green/700: 1 use
+- green/800: 1 use
+- green/900: 1 use
+- kbd-inner: 1 use
+- linkedin/100: 1 use
+- linkedin/200: 1 use
+- linkedin/300: 1 use
+- linkedin/400: 1 use
+- linkedin/50: 1 use
+- linkedin/500: 1 use
+- linkedin/600: 1 use
+- linkedin/700: 1 use
+- linkedin/800: 1 use
+- linkedin/900: 1 use
+- messenger/100: 1 use
+- messenger/200: 1 use
+- messenger/300: 1 use
+- messenger/400: 1 use
+- messenger/50: 1 use
+- messenger/500: 1 use
+- messenger/600: 1 use
+- messenger/700: 1 use
+- messenger/800: 1 use
+- messenger/900: 1 use
+- orange/200: 1 use
+- orange/300: 1 use
+- orange/400: 1 use
+- orange/50: 1 use
+- orange/600: 1 use
+- orange/700: 1 use
+- orange/800: 1 use
+- orange/900: 1 use
+- pink/100: 1 use
+- pink/200: 1 use
+- pink/300: 1 use
+- pink/400: 1 use
+- pink/50: 1 use
+- pink/500: 1 use
+- pink/600: 1 use
+- pink/700: 1 use
+- pink/800: 1 use
+- pink/900: 1 use
+- purple/300: 1 use
+- purple/400: 1 use
+- purple/50: 1 use
+- purple/500: 1 use
+- purple/700: 1 use
+- purple/800: 1 use
+- purple/900: 1 use
+- red/200: 1 use
+- red/300: 1 use
+- red/50: 1 use
+- red/600: 1 use
+- red/700: 1 use
+- red/800: 1 use
+- shadows/2xl: 1 use
+- shadows/inner: 1 use
+- shadows/md: 1 use
+- shadows/outline: 1 use
+- shadows/sm: 1 use
+- shadows/xl: 1 use
+- shadows/xs: 1 use
+- teal/100: 1 use
+- teal/200: 1 use
+- teal/300: 1 use
+- teal/400: 1 use
+- teal/50: 1 use
+- teal/500: 1 use
+- teal/600: 1 use
+- teal/700: 1 use
+- teal/800: 1 use
+- teal/900: 1 use
+- telegram/100: 1 use
+- telegram/200: 1 use
+- telegram/300: 1 use
+- telegram/400: 1 use
+- telegram/50: 1 use
+- telegram/500: 1 use
+- telegram/600: 1 use
+- telegram/700: 1 use
+- telegram/800: 1 use
+- telegram/900: 1 use
+- twitter/100: 1 use
+- twitter/200: 1 use
+- twitter/300: 1 use
+- twitter/400: 1 use
+- twitter/50: 1 use
+- twitter/500: 1 use
+- twitter/600: 1 use
+- twitter/700: 1 use
+- twitter/800: 1 use
+- twitter/900: 1 use
+- whatsapp/100: 1 use
+- whatsapp/200: 1 use
+- whatsapp/300: 1 use
+- whatsapp/400: 1 use
+- whatsapp/50: 1 use
+- whatsapp/500: 1 use
+- whatsapp/600: 1 use
+- whatsapp/700: 1 use
+- whatsapp/800: 1 use
+- whatsapp/900: 1 use
+- whiteAlpha/100: 1 use
+- whiteAlpha/200: 1 use
+- whiteAlpha/400: 1 use
+- whiteAlpha/50: 1 use
+- whiteAlpha/500: 1 use
+- whiteAlpha/600: 1 use
+- whiteAlpha/700: 1 use
+- whiteAlpha/800: 1 use
+- yellow/100: 1 use
+- yellow/200: 1 use
+- yellow/300: 1 use
+- yellow/400: 1 use
+- yellow/50: 1 use
+- yellow/500: 1 use
+- yellow/600: 1 use
+- yellow/700: 1 use
+- yellow/800: 1 use
+- yellow/900: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1616x960px, constraints left/top, fill image(hash: 20911ff7374afc3eca24f11461ded5e0ebff6832)
+  - TEXT "(unofficial)", 646x155px, constraints left/top, fill #FFFFFF, text [Inter Regular, 128px], [heading]
+
+Screen: Please read / Please read
+- FRAME "Please read", 500x358px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - TEXT "This UI kit is under heavy development and likely to change.", 484x342px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+
+Screen: How to use Slots / How to use Slots
+- FRAME "How to use Slots", 1264x464px, horizontal pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - TEXT "Explanation", 400x432px, constraints left/top, fill gray/700, text [text/md/regular]
+  - TEXT "Tutorial", 400x432px, constraints left/top, fill gray/700, text [text/md/regular]
+  - TEXT "Tips", 400x240px, constraints left/top, fill gray/700, text [text/md/regular]
+
+Screen: How to use Slots / .My Component
+- COMPONENT ".My Component", 406x199px, vertical pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+  - TEXT ".My Component", 374x48px, constraints left/top, fill #000000, text [heading/2xl/desktop], [heading]
+  - INSTANCE ".Slot", 374x103px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, fill purple/200, stroke purple/600 4px
+    - TEXT "SLOT", 62x36px, constraints left/top, fill purple/600, text [text/2xl/regular], [heading]
+    - TEXT "Replace me", 99x27px, constraints left/top, fill purple/600, text [text/lg/regular]
+
+Screen: How to use Slots / .My Component
+- INSTANCE ".My Component", 406x120px, vertical pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+  - TEXT ".My Component", 374x48px, constraints left/top, fill #000000, text [heading/2xl/desktop], [heading]
+  - INSTANCE ".My Body", 374x24px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT ".My Body", 71x24px, constraints left/top, fill #000000, text [Inter Regular, 16px]
+
+Screen: How to use Slots / .My Body
+- COMPONENT ".My Body", 71x24px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - TEXT ".My Body", 71x24px, constraints left/top, fill #000000, text [Inter Regular, 16px]
+
+Screen: How to use this file / How to use this file
+- FRAME "How to use this file", 848x440px, horizontal pad 16 16 16 16px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - TEXT "New project", 400x240px, constraints left/top, fill gray/700, text [text/md/regular]
+  - TEXT "Existing project", 400x408px, constraints left/top, fill gray/700, text [text/md/regular]
+
+Screen: Next steps / .Documentation
+- INSTANCE ".Documentation", 640x534px, vertical pad 64 64 64 64px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #F7F7FB, effect shadows/dark-lg
+  - TEXT "Title", 512x70px, constraints left/top, fill Interface / extra-dark, text [Headings / H1], [heading]
+  - TEXT "Content", 512x312px, constraints left/top, fill Interface / dark, text [Paragraphs/P2], [heading]
+
+Screen: Next steps / .Documentation
+- INSTANCE ".Documentation", 640x339px, vertical pad 64 64 64 64px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #F7F7FB, effect shadows/dark-lg
+  - TEXT "Title", 512x70px, constraints left/top, fill Interface / extra-dark, text [Headings / H1], [heading]
+  - TEXT "Content", 512x117px, constraints left/top, fill Interface / dark, text [Paragraphs/P2], [heading]
+
+Screen: Border radius / Border radius
+- FRAME "Border radius", 496x208px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill white
+  - FRAME "Row", 464x80px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill white
+    - INSTANCE ".Radii example", 80x80px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke gray/200 1px, effect shadows/base
+      - TEXT "key", 21x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+      - TEXT "size", 63x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+    - INSTANCE ".Radii example", 80x80px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke gray/200 1px, effect shadows/base
+      - TEXT "key", 33x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+      - TEXT "size", 55x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+    - INSTANCE ".Radii example", 80x80px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 2px, fill #FFFFFF, stroke gray/200 1px, effect shadows/base
+      - TEXT "key", 20x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+      - TEXT "size", 60x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+    - INSTANCE ".Radii example", 80x80px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke gray/200 1px, effect shadows/base
+      - TEXT "key", 12x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+      - TEXT "size", 46x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+    - INSTANCE ".Radii example", 80x80px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke gray/200 1px, effect shadows/base
+      - TEXT "key", 33x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+      - TEXT "size", 35x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+  - FRAME "Row", 368x80px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill white
+    - INSTANCE ".Radii example", 80x80px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke gray/200 1px, effect shadows/base
+      - TEXT "key", 11x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+      - TEXT "size", 54x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+    - INSTANCE ".Radii example", 80x80px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #FFFFFF, stroke gray/200 1px, effect shadows/base
+      - TEXT "key", 20x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+      - TEXT "size", 32x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+    - INSTANCE ".Radii example", 80x80px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke gray/200 1px, effect shadows/base
+      - TEXT "key", 20x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+      - TEXT "size", 44x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+    - INSTANCE ".Radii example", 80x80px, vertical pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 9999px, fill #FFFFFF, stroke gray/200 1px, effect shadows/base
+      - TEXT "key", 20x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+      - TEXT "size", 51x21px, constraints left/top, fill gray/700, text [text/sm/regular]
+
+Screen: Border radius / .Component Checklist
+- INSTANCE ".Component Checklist", 640x825px, vertical pad 64 64 64 64px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #F7F7FB, effect shadows/dark-lg
+  - FRAME "Content", 512x697px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 512x105px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Name", 512x70px, constraints left/top, fill #090B37, text [Headings / H1], [heading]
+      - TEXT "Description", 512x27px, constraints left/top, fill #51526A, text [Hind Regular, 18px]
+    - FRAME "Items", 512x568px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 20px, stroke #090B37 2px
+      - INSTANCE "To Do Item", 512x71px, horizontal pad 20 24 20 24px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #090B37 2px
+        - TEXT "Text", 416x31px, constraints center/center, fill #090B37, text [Headings / H4], [heading]
+        - INSTANCE "Item", 24x24px, constraints right/center, fill #FFFFFF
+          - RECTANGLE "Rectangle 42", 24x24px, constraints scale/scale, radius 6px, fill Lime / default, stroke #090B37 2px, effect right / 2px
+          - VECTOR "Vector", 23x17px, constraints scale/scale, fill Lime / dark
+      - INSTANCE "To Do Item", 512x71px, horizontal pad 20 24 20 24px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #090B37 2px
+        - TEXT "Text", 416x31px, constraints center/center, fill #090B37, text [Headings / H4], [heading]
+        - INSTANCE "Item", 24x24px, constraints right/center, fill #FFFFFF
+          - RECTANGLE "Rectangle 42", 24x24px, constraints scale/scale, radius 6px, fill Lime / default, stroke #090B37 2px, effect right / 2px
+          - VECTOR "Vector", 23x17px, constraints scale/scale, fill Lime / dark
+      - INSTANCE "To Do Item", 512x71px, horizontal pad 20 24 20 24px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #090B37 2px
+        - TEXT "Text", 416x31px, constraints center/center, fill #090B37, text [Headings / H4], [heading]
+        - INSTANCE "Item", 24x24px, constraints right/center, fill #FFFFFF
+          - RECTANGLE "Rectangle 42", 24x24px, constraints scale/scale, radius 6px, fill Lime / default, stroke #090B37 2px, effect right / 2px
+          - VECTOR "Vector", 23x17px, constraints scale/scale, fill Lime / dark
+
+Screen: Breakpoints / sm
+- FRAME "sm", 480x100px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill white, effect shadows/lg
+  - TEXT "Info", 413x72px, constraints left/top, fill gray/700, text [heading/4xl/desktop], [heading]
+
+Screen: Breakpoints / md
+- FRAME "md", 768x100px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill white, effect shadows/lg
+  - TEXT "Info", 418x72px, constraints left/top, fill gray/700, text [heading/4xl/desktop], [heading]
+
+Screen: Breakpoints / lg
+- FRAME "lg", 992x100px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill white, effect shadows/lg
+  - TEXT "Info", 368x72px, constraints left/top, fill gray/700, text [heading/4xl/desktop], [heading]
+
+Screen: Breakpoints / xl
+- FRAME "xl", 1280x100px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill white, effect shadows/lg
+  - TEXT "Info", 368x72px, constraints left/top, fill gray/700, text [heading/4xl/desktop], [heading]
+
+Screen: Breakpoints / 2xl
+- FRAME "2xl", 1536x100px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill white, effect shadows/lg
+  - TEXT "Info", 411x72px, constraints left/top, fill gray/700, text [heading/4xl/desktop], [heading]
+
+Screen: Breakpoints / .Documentation
+- INSTANCE ".Documentation", 640x612px, vertical pad 64 64 64 64px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #F7F7FB, effect shadows/dark-lg
+  - TEXT "Title", 512x70px, constraints left/top, fill Interface / extra-dark, text [Headings / H1], [heading]
+  - TEXT "Content", 512x390px, constraints left/top, fill Interface / dark, text [Paragraphs/P2], [heading]
+
+Screen: Breakpoints / .Component Checklist
+- INSTANCE ".Component Checklist", 640x825px, vertical pad 64 64 64 64px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #F7F7FB, effect shadows/dark-lg
+  - FRAME "Content", 512x697px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Text", 512x105px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Name", 512x70px, constraints left/top, fill #090B37, text [Headings / H1], [heading]
+      - TEXT "Description", 512x27px, constraints left/top, fill #51526A, text [Hind Regular, 18px]
+    - FRAME "Items", 512x568px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 20px, stroke #090B37 2px
+      - INSTANCE "To Do Item", 512x71px, horizontal pad 20 24 20 24px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #090B37 2px
+        - TEXT "Text", 416x31px, constraints center/center, fill #090B37, text [Headings / H4], [heading]
+        - INSTANCE "Item", 24x24px, constraints right/center, fill #FFFFFF
+          - RECTANGLE "Rectangle 42", 24x24px, constraints scale/scale, radius 6px, fill Lime / default, stroke #090B37 2px, effect right / 2px
+          - VECTOR "Vector", 23x17px, constraints scale/scale, fill Lime / dark
+      - INSTANCE "To Do Item", 512x71px, horizontal pad 20 24 20 24px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #090B37 2px
+        - TEXT "Text", 416x31px, constraints center/center, fill #090B37, text [Headings / H4], [heading]
+        - INSTANCE "Item", 24x24px, constraints right/center, fill #FFFFFF
+          - RECTANGLE "Rectangle 42", 24x24px, constraints scale/scale, radius 6px, fill Lime / default, stroke #090B37 2px, effect right / 2px
+          - VECTOR "Vector", 23x17px, constraints scale/scale, fill Lime / dark
+      - INSTANCE "To Do Item", 512x71px, horizontal pad 20 24 20 24px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #090B37 2px
+        - TEXT "Text", 416x31px, constraints center/center, fill #090B37, text [Headings / H4], [heading]
+        - INSTANCE "Item", 24x24px, constraints right/center, fill #FFFFFF
+          - RECTANGLE "Rectangle 42", 24x24px, constraints scale/scale, radius 6px, fill Lime / default, stroke #090B37 2px, effect right / 2px
+          - VECTOR "Vector", 23x17px, constraints scale/scale, fill Lime / dark
+      - INSTANCE "To Do Item", 512x71px, horizontal pad 20 24 20 24px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, fill Interface/white, stroke Interface / Dark 2px
+        - TEXT "Text", 416x31px, constraints center/center, fill Interface / Dark, text [Headings / H4], [heading]
+        - INSTANCE "Item", 24x24px, constraints right/center, fill #FFFFFF
+          - RECTANGLE "Rectangle 42", 24x24px, constraints scale/scale, radius 6px, fill Lime / default, stroke Interface / Dark 2px, effect right / 2px
+          - VECTOR "Vector", 23x17px, constraints scale/scale, fill Lime / dark
+
+Screen: Colors / Telegram
+- FRAME "Telegram", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill telegram/50
+      - FRAME "Info", 85x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 85x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "telegram/100", 48x48px, constraints left/top, radius 6px, fill telegram/100
+      - FRAME "Info", 93x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 93x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "telegram/200", 48x48px, constraints left/top, radius 6px, fill telegram/200
+      - FRAME "Info", 94x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 94x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 65x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "telegram/300", 48x48px, constraints left/top, radius 6px, fill telegram/300
+      - FRAME "Info", 95x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 95x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "telegram/400", 48x48px, constraints left/top, radius 6px, fill telegram/400
+      - FRAME "Info", 95x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 95x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "telegram/500", 48x48px, constraints left/top, radius 6px, fill telegram/500
+      - FRAME "Info", 95x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 95x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "telegram/600", 48x48px, constraints left/top, radius 6px, fill telegram/600
+      - FRAME "Info", 95x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 95x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "telegram/700", 48x48px, constraints left/top, radius 6px, fill telegram/700
+      - FRAME "Info", 94x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 94x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "telegram/800", 48x48px, constraints left/top, radius 6px, fill telegram/800
+      - FRAME "Info", 95x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 95x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "telegram/900", 48x48px, constraints left/top, radius 6px, fill telegram/900
+      - FRAME "Info", 95x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 95x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Twitter
+- FRAME "Twitter", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill twitter/50
+      - FRAME "Info", 70x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 70x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "twitter/100", 48x48px, constraints left/top, radius 6px, fill twitter/100
+      - FRAME "Info", 78x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 78x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "twitter/200", 48x48px, constraints left/top, radius 6px, fill twitter/200
+      - FRAME "Info", 79x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 79x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "twitter/300", 48x48px, constraints left/top, radius 6px, fill twitter/300
+      - FRAME "Info", 80x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 80x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "twitter/400", 48x48px, constraints left/top, radius 6px, fill twitter/400
+      - FRAME "Info", 80x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 80x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "twitter/500", 48x48px, constraints left/top, radius 6px, fill twitter/500
+      - FRAME "Info", 80x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 80x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 58x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "twitter/600", 48x48px, constraints left/top, radius 6px, fill twitter/600
+      - FRAME "Info", 80x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 80x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "twitter/700", 48x48px, constraints left/top, radius 6px, fill twitter/700
+      - FRAME "Info", 79x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 79x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 57x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "twitter/800", 48x48px, constraints left/top, radius 6px, fill twitter/800
+      - FRAME "Info", 80x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 80x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "twitter/900", 48x48px, constraints left/top, radius 6px, fill twitter/900
+      - FRAME "Info", 80x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 80x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / WhatsApp
+- FRAME "WhatsApp", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill whatsapp/50
+      - FRAME "Info", 93x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 93x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 52x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "whatsapp/100", 48x48px, constraints left/top, radius 6px, fill whatsapp/100
+      - FRAME "Info", 101x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 101x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 58x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "whatsapp/200", 48x48px, constraints left/top, radius 6px, fill whatsapp/200
+      - FRAME "Info", 103x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 103x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "whatsapp/300", 48x48px, constraints left/top, radius 6px, fill whatsapp/300
+      - FRAME "Info", 103x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 103x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "whatsapp/400", 48x48px, constraints left/top, radius 6px, fill whatsapp/400
+      - FRAME "Info", 103x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 103x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "whatsapp/500", 48x48px, constraints left/top, radius 6px, fill whatsapp/500
+      - FRAME "Info", 103x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 103x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "whatsapp/600", 48x48px, constraints left/top, radius 6px, fill whatsapp/600
+      - FRAME "Info", 103x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 103x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "whatsapp/700", 48x48px, constraints left/top, radius 6px, fill whatsapp/700
+      - FRAME "Info", 102x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 102x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "whatsapp/800", 48x48px, constraints left/top, radius 6px, fill whatsapp/800
+      - FRAME "Info", 103x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 103x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 56x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "whatsapp/900", 48x48px, constraints left/top, radius 6px, fill whatsapp/900
+      - FRAME "Info", 103x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 103x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Messenger
+- FRAME "Messenger", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill messenger/50
+      - FRAME "Info", 98x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 98x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "messenger/100", 48x48px, constraints left/top, radius 6px, fill messenger/100
+      - FRAME "Info", 105x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 105x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "messenger/200", 48x48px, constraints left/top, radius 6px, fill messenger/200
+      - FRAME "Info", 107x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 107x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "messenger/300", 48x48px, constraints left/top, radius 6px, fill messenger/300
+      - FRAME "Info", 108x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 108x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "messenger/400", 48x48px, constraints left/top, radius 6px, fill messenger/400
+      - FRAME "Info", 108x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 108x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "messenger/500", 48x48px, constraints left/top, radius 6px, fill messenger/500
+      - FRAME "Info", 107x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 107x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "messenger/600", 48x48px, constraints left/top, radius 6px, fill messenger/600
+      - FRAME "Info", 108x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 108x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "messenger/700", 48x48px, constraints left/top, radius 6px, fill messenger/700
+      - FRAME "Info", 106x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 106x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "messenger/800", 48x48px, constraints left/top, radius 6px, fill messenger/800
+      - FRAME "Info", 107x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 107x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "messenger/900", 48x48px, constraints left/top, radius 6px, fill messenger/900
+      - FRAME "Info", 108x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 108x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Facebook
+- FRAME "Facebook", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill facebook/50
+      - FRAME "Info", 89x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 89x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "facebook/100", 48x48px, constraints left/top, radius 6px, fill facebook/100
+      - FRAME "Info", 96x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 96x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "facebook/200", 48x48px, constraints left/top, radius 6px, fill facebook/200
+      - FRAME "Info", 98x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 98x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "facebook/300", 48x48px, constraints left/top, radius 6px, fill facebook/300
+      - FRAME "Info", 98x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 98x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "facebook/400", 48x48px, constraints left/top, radius 6px, fill facebook/400
+      - FRAME "Info", 98x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 98x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "facebook/500", 48x48px, constraints left/top, radius 6px, fill facebook/500
+      - FRAME "Info", 98x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 98x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "facebook/600", 48x48px, constraints left/top, radius 6px, fill facebook/600
+      - FRAME "Info", 98x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 98x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "facebook/700", 48x48px, constraints left/top, radius 6px, fill facebook/700
+      - FRAME "Info", 97x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 97x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "facebook/800", 48x48px, constraints left/top, radius 6px, fill facebook/800
+      - FRAME "Info", 98x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 98x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "facebook/900", 48x48px, constraints left/top, radius 6px, fill facebook/900
+      - FRAME "Info", 98x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 98x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / LinkedIn
+- FRAME "LinkedIn", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill linkedin/50
+      - FRAME "Info", 79x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 79x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "linkedin/100", 48x48px, constraints left/top, radius 6px, fill linkedin/100
+      - FRAME "Info", 87x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 87x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "linkedin/200", 48x48px, constraints left/top, radius 6px, fill linkedin/200
+      - FRAME "Info", 89x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 89x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "linkedin/300", 48x48px, constraints left/top, radius 6px, fill linkedin/300
+      - FRAME "Info", 89x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 89x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "linkedin/400", 48x48px, constraints left/top, radius 6px, fill linkedin/400
+      - FRAME "Info", 89x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 89x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "linkedin/500", 48x48px, constraints left/top, radius 6px, fill linkedin/500
+      - FRAME "Info", 89x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 89x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 65x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "linkedin/600", 48x48px, constraints left/top, radius 6px, fill linkedin/600
+      - FRAME "Info", 89x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 89x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 65x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "linkedin/700", 48x48px, constraints left/top, radius 6px, fill linkedin/700
+      - FRAME "Info", 88x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 88x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "linkedin/800", 48x48px, constraints left/top, radius 6px, fill linkedin/800
+      - FRAME "Info", 89x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 89x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "linkedin/900", 48x48px, constraints left/top, radius 6px, fill linkedin/900
+      - FRAME "Info", 89x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 89x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Pink
+- FRAME "Pink", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/50
+      - FRAME "Info", 59x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 51x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/100
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 59x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/200
+      - FRAME "Info", 63x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/300
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/400
+      - FRAME "Info", 64x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/500
+      - FRAME "Info", 64x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/600
+      - FRAME "Info", 62x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/700
+      - FRAME "Info", 62x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 60x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/800
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill pink/900
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 57x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Purple
+- FRAME "Purple", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/50
+      - FRAME "Info", 66x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 66x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/100
+      - FRAME "Info", 73x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 73x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/200
+      - FRAME "Info", 75x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 75x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/300
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/400
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/500
+      - FRAME "Info", 75x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 75x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/600
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/700
+      - FRAME "Info", 74x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 74x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/800
+      - FRAME "Info", 75x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 75x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill purple/900
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Cyan
+- FRAME "Cyan", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/50
+      - FRAME "Info", 64x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 57x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/100
+      - FRAME "Info", 64x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 64x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/200
+      - FRAME "Info", 66x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 66x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/300
+      - FRAME "Info", 67x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 67x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/400
+      - FRAME "Info", 67x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 67x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/500
+      - FRAME "Info", 66x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 66x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/600
+      - FRAME "Info", 67x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 67x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/700
+      - FRAME "Info", 66x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 66x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/800
+      - FRAME "Info", 67x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 67x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill cyan/900
+      - FRAME "Info", 67x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 67x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Blue
+- FRAME "Blue", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/50
+      - FRAME "Info", 60x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 52x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/100
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 59x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/200
+      - FRAME "Info", 64x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/300
+      - FRAME "Info", 63x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/400
+      - FRAME "Info", 62x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 62x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/500
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/600
+      - FRAME "Info", 64x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/700
+      - FRAME "Info", 62x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 60x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/800
+      - FRAME "Info", 62x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill blue/900
+      - FRAME "Info", 62x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Teal
+- FRAME "Teal", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/50
+      - FRAME "Info", 59x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 50x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/100
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 57x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/200
+      - FRAME "Info", 60x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 59x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/300
+      - FRAME "Info", 62x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 60x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/400
+      - FRAME "Info", 64x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 60x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/500
+      - FRAME "Info", 60x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 60x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 58x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/600
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 60x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/700
+      - FRAME "Info", 59x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 59x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/800
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 60x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill teal/900
+      - FRAME "Info", 62x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 60x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Green
+- FRAME "Green", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/50
+      - FRAME "Info", 63x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 63x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/100
+      - FRAME "Info", 70x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 70x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/200
+      - FRAME "Info", 72x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 72x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/300
+      - FRAME "Info", 73x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 73x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/400
+      - FRAME "Info", 73x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 73x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/500
+      - FRAME "Info", 72x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 72x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/600
+      - FRAME "Info", 73x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 73x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/700
+      - FRAME "Info", 72x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 72x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/800
+      - FRAME "Info", 73x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 73x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill green/900
+      - FRAME "Info", 73x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 73x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Yellow
+- FRAME "Yellow", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/50
+      - FRAME "Info", 66x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 66x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/100
+      - FRAME "Info", 73x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 73x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/200
+      - FRAME "Info", 75x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 75x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/300
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/400
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 65x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/500
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/600
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 58x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/700
+      - FRAME "Info", 75x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 75x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 58x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/800
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 58x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill yellow/900
+      - FRAME "Info", 76x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 76x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Orange
+- FRAME "Orange", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/50
+      - FRAME "Info", 72x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 72x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/100
+      - FRAME "Info", 79x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 79x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/200
+      - FRAME "Info", 81x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 81x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/300
+      - FRAME "Info", 82x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 82x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/400
+      - FRAME "Info", 82x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 82x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/500
+      - FRAME "Info", 81x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 81x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 65x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/600
+      - FRAME "Info", 82x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 82x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/700
+      - FRAME "Info", 81x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 81x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/800
+      - FRAME "Info", 82x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 82x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill orange/900
+      - FRAME "Info", 82x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 82x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Red
+- FRAME "Red", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/50
+      - FRAME "Info", 59x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 48x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/100
+      - FRAME "Info", 62x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 55x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 62x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/200
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 57x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/300
+      - FRAME "Info", 58x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 58x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 58x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/400
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 58x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/500
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 58x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/600
+      - FRAME "Info", 63x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 58x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 63x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/700
+      - FRAME "Info", 64x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 57x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 64x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/800
+      - FRAME "Info", 59x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 58x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 59x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill red/900
+      - FRAME "Info", 58x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 58x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 57x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+
+Screen: Colors / Gray
+- FRAME "Gray", 1296x144px, vertical pad 16 16 16 16px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Row", 1264x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill gray/50
+      - FRAME "Info", 60x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 54x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill gray/100
+      - FRAME "Info", 61x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 61x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 61x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill gray/200
+      - FRAME "Info", 63x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Name", 63x21px, constraints left/top, fill gray/700, text [Inter SemiBold, 14px]
+        - TEXT "Hex", 60x21px, constraints left/top, fill gray/700, text [Inter Regular, 14px]
+    - INSTANCE ".Color", 240x48px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Color", 48x48px, constraints left/top, radius 6px, fill gray/300
+      - FRAME "Info", 64x42px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

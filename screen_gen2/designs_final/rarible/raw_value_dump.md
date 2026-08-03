@@ -1,0 +1,1362 @@
+---
+name: rarible-app-kit-community
+source_file: 📱 Rarible App Kit (Community)
+source_page: All pages (3): Screens, Components, Cover
+generated_at: 2026-07-25T09:44:11.974337+00:00
+---
+
+# 📱 Rarible App Kit (Community) Design Guidelines
+
+## Source
+- Figma file: 📱 Rarible App Kit (Community)
+- Figma page: All pages (3): Screens, Components, Cover
+- Extracted at: 2026-07-25T09:44:11.974337+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Light/Base Secondary: [#F2F2F7]
+- Light/Label Secondary: none
+- Light / Label: [#16161A]
+- Light/Label Tertiary: [#A2A2A3]
+- Light / Divider: [image(hash: b04cc5712a426687d161bb961ece94fcd488e4d7)]
+- Light / Base: [#FFFFFF]
+- Light/Base Inverse: [#16161A]
+- Light/Nav: [#D1D1D666]
+- Light/Label Inverse: [#FFFFFF]
+- Light/Success: [#2CB462]
+- Light/Error: [#FC5230]
+- Dark / Label: [#FFFFFF]
+- Dark/Label Trtiary: [#7F7F83]
+- Light/Fog: [#16161A66]
+- Dark/Label Inverse: [#16161A]
+- Light / Brand: [#FEDA03]
+- Day/Text/Text-invert: [#FFFFFF]
+- Dark/Base: [#1E1E24]
+- Light Primary: [#FFFFFF]
+- Light Ink: [#000000]
+- Dark/Nav: [#57576766]
+- Day/Base/Base-invert: [#FFFFFF]
+- Day/Text/Text-40: [#191C1F66]
+- Day/Text/Text-100: [#191C1F]
+- Dark/Divider: [#F8E8F7]
+- Light / Fill: [#16161A0A]
+- Dark / Base Inverse: [#FFFFFF]
+- Dark / Promo: [gradient_linear(#FF00B8 0% | #64A1FF 51% | #0066FF 100%)]
+- Dark/Error: [#FF6243]
+- Dark/Success: [#18C35C]
+- Dark / Brand: [#FEDA03]
+- Dark/Fullscreen: [#151619CC]
+- Dark/Fog: [#15161966]
+- Dark/Base Secondary: [#292930]
+- Dark/Fill: [#FFFFFF0F]
+- Dark/Label Secondary: [#A9A9AC]
+- Light / Promo: [gradient_linear(#FF00B8 0% | #64A1FF 51% | #0066FF 100%)]
+- Light/Fullscreen: [#16161ACC]
+
+## Raw Colors (unstyled)
+- #000000: 2126 uses
+- #FFFFFF: 1972 uses
+- #FCFFFF: 278 uses
+- #646464: 253 uses
+- #AEB3BE: 216 uses
+- #8A8A98CC: 214 uses
+- #DADADA: 195 uses
+- #484C4F: 126 uses
+- #50555C: 108 uses
+- #2CB4621F: 76 uses
+- #CED2D9B2: 55 uses
+- #121212: 51 uses
+- #FC52301F: 51 uses
+- #18C35C1F: 36 uses
+- #3F3F3F: 36 uses
+- #00000099: 32 uses
+
+## Typography Tokens
+- App/Header/Grotesque · Normal · 600: Inter SemiBold (600), 40px / 42px, tracking -0.6px
+- App/Caption 1/Grotesque · Normal · 500: Inter Medium (500), 13px / 16px, tracking 0.13px
+- App/Body 2/Grotesque · Normal · 600: Inter SemiBold (600), 16px / 22px, tracking 0px
+- App/Body 1/Grotesque · Normal · 600: Inter SemiBold (600), 20px / 26px, tracking 0px
+- App/Caption 1/Grotesque · Normal · 600: Inter SemiBold (600), 13px / 16px, tracking 0.13px
+- App/Caption 2/Grotesque · Normal · 500: Inter Medium (500), 11px / 14px, tracking 0.11px
+- App/Caption 2/Grotesque · Tight · 500: Inter Medium (500), 11px / 10px, tracking 0.11px
+- Default/Bold/Body: SF Pro Text Semibold (600), 17px / 22px, tracking -0.41px
+- App/Body 2/Grotesque · Tight · 600: Inter SemiBold (600), 16px / 16px, tracking 0px
+- App/Title 3/Grotesque · Normal · 600: Inter SemiBold (600), 24px / 27px, tracking 0px
+- App/Caption 1/Grotesque · Tight · 600: Inter SemiBold (600), 13px / 12px, tracking 0.13px
+- App/Caption 1/Grotesque · Tight · 500: Inter Medium (500), 13px / 12px, tracking 0.13px
+- App/Title 3/Grotesque · Normal · 500: Inter Medium (500), 24px / 27px, tracking 0px
+- App/Caption 2/Grotesque · Tight · 600: Inter SemiBold (600), 11px / 10px, tracking 0.11px
+- App/Body 2/Grotesque · Tight · 500: Inter Medium (500), 16px / 16px, tracking 0px
+- App/Body 1/Grotesque · Tight · 500: Inter Medium (500), 20px / 20px, tracking 0px
+- App/Body 1/Grotesque · Tight · 600: Inter SemiBold (600), 20px / 20px, tracking 0px
+- App/Title 3/Grotesque · Tight · 500: Inter Medium (500), 24px / 24px, tracking 0px
+- App/Title 3/Grotesque · Tight · 600: Inter SemiBold (600), 24px / 24px, tracking 0px
+- App/Title 2/Grotesque · Tight · 500: Inter Medium (500), 28px / 26px, tracking -0.06px
+- App/Title 2/Grotesque · Tight · 600: Inter SemiBold (600), 28px / 26px, tracking -0.06px
+- App/Title 1/Grotesque · Tight · 500: Inter Medium (500), 32px / 28px, tracking -0.16px
+- App/Title 1/Grotesque · Tight · 600: Inter SemiBold (600), 32px / 28px, tracking -0.16px
+- App/Header/Grotesque · Tight · 500: Inter Medium (500), 40px / 34px, tracking -0.6px
+- App/Header/Grotesque · Tight · 600: Inter SemiBold (600), 40px / 34px, tracking -0.6px
+- App/Caption 2/Grotesque · Normal · 600: Inter SemiBold (600), 11px / 14px, tracking 0.11px
+- App/Body 2/Grotesque · Normal · 500: Inter Medium (500), 16px / 22px, tracking 0px
+- App/Body 1/Grotesque · Normal · 500: Inter Medium (500), 20px / 26px, tracking 0px
+- App/Title 2/Grotesque · Normal · 500: Inter Medium (500), 28px / 31px, tracking -0.06px
+- App/Title 2/Grotesque · Normal · 600: Inter SemiBold (600), 28px / 31px, tracking -0.06px
+- App/Title 1/Grotesque · Normal · 500: Inter Medium (500), 32px / 35px, tracking -0.16px
+- App/Title 1/Grotesque · Normal · 600: Inter SemiBold (600), 32px / 35px, tracking -0.16px
+- App/Header/Grotesque · Normal · 500: Inter Medium (500), 40px / 42px, tracking -0.6px
+
+## Raw Typography (unstyled)
+- SF Pro Text Light, 24px: 1638 uses
+- Roboto Regular, 24px: 216 uses
+- SF Pro Text Regular, 16px: 189 uses
+- Inter SemiBold, 10px: 97 uses
+- SF Mono Regular, 10px: 57 uses
+- Roboto Regular, 30px: 26 uses
+- SF Pro Text Regular, 25px: 20 uses
+- SF Mono Semibold, 14px: 16 uses
+- SF Pro Text Bold, 10px: 16 uses
+- Roboto Regular, 20px: 12 uses
+- SF Mono Semibold, 10px: 12 uses
+
+## Typography Hierarchy
+- 40px - App/Header/Grotesque · Normal · 500 (Inter Medium)
+- 40px - App/Header/Grotesque · Normal · 600 (Inter SemiBold)
+- 40px - App/Header/Grotesque · Tight · 500 (Inter Medium)
+- 40px - App/Header/Grotesque · Tight · 600 (Inter SemiBold)
+- 32px - App/Title 1/Grotesque · Normal · 500 (Inter Medium)
+- 32px - App/Title 1/Grotesque · Normal · 600 (Inter SemiBold)
+- 32px - App/Title 1/Grotesque · Tight · 500 (Inter Medium)
+- 32px - App/Title 1/Grotesque · Tight · 600 (Inter SemiBold)
+- 30px - Roboto Regular, 30px (raw)
+- 28px - App/Title 2/Grotesque · Normal · 500 (Inter Medium)
+- 28px - App/Title 2/Grotesque · Normal · 600 (Inter SemiBold)
+- 28px - App/Title 2/Grotesque · Tight · 500 (Inter Medium)
+- 28px - App/Title 2/Grotesque · Tight · 600 (Inter SemiBold)
+- 25px - SF Pro Text Regular, 25px (raw)
+- 24px - App/Title 3/Grotesque · Normal · 500 (Inter Medium)
+- 24px - App/Title 3/Grotesque · Normal · 600 (Inter SemiBold)
+- 24px - App/Title 3/Grotesque · Tight · 500 (Inter Medium)
+- 24px - App/Title 3/Grotesque · Tight · 600 (Inter SemiBold)
+- 24px - Roboto Regular, 24px (raw)
+- 24px - SF Pro Text Light, 24px (raw)
+- 20px - App/Body 1/Grotesque · Normal · 500 (Inter Medium)
+- 20px - App/Body 1/Grotesque · Normal · 600 (Inter SemiBold)
+- 20px - App/Body 1/Grotesque · Tight · 500 (Inter Medium)
+- 20px - App/Body 1/Grotesque · Tight · 600 (Inter SemiBold)
+- 20px - Roboto Regular, 20px (raw)
+- 17px - Default/Bold/Body (SF Pro Text Semibold)
+- 16px - App/Body 2/Grotesque · Normal · 500 (Inter Medium)
+- 16px - App/Body 2/Grotesque · Normal · 600 (Inter SemiBold)
+- 16px - App/Body 2/Grotesque · Tight · 500 (Inter Medium)
+- 16px - App/Body 2/Grotesque · Tight · 600 (Inter SemiBold)
+- 16px - SF Pro Text Regular, 16px (raw)
+- 14px - SF Mono Semibold, 14px (raw)
+- 13px - App/Caption 1/Grotesque · Normal · 500 (Inter Medium)
+- 13px - App/Caption 1/Grotesque · Normal · 600 (Inter SemiBold)
+- 13px - App/Caption 1/Grotesque · Tight · 500 (Inter Medium)
+- 13px - App/Caption 1/Grotesque · Tight · 600 (Inter SemiBold)
+- 11px - App/Caption 2/Grotesque · Normal · 500 (Inter Medium)
+- 11px - App/Caption 2/Grotesque · Normal · 600 (Inter SemiBold)
+- 11px - App/Caption 2/Grotesque · Tight · 500 (Inter Medium)
+- 11px - App/Caption 2/Grotesque · Tight · 600 (Inter SemiBold)
+- 10px - Inter SemiBold, 10px (raw)
+- 10px - SF Mono Regular, 10px (raw)
+- 10px - SF Mono Semibold, 10px (raw)
+- 10px - SF Pro Text Bold, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Level 1: [drop_shadow 4px offset 0 3 #00000033]
+- Level 2: [drop_shadow 8px offset 0 1 #00000033, drop_shadow 3px offset 0 3 #0000001F]
+- Level 1: [drop_shadow 17px offset 0 5 #00000014, drop_shadow 7px offset 0 2 #00000026]
+- Level 3: [drop_shadow 5px offset 0 5 #00000033, drop_shadow 14px offset 0 3 #0000001F]
+- Level 4: [drop_shadow 15px offset 0 11 #00000033, drop_shadow 46px offset 0 9 #0000001F]
+- Level 3 (reversed): [drop_shadow 5px offset 0 -5 #00000033, drop_shadow 14px offset 0 -3 #0000001F]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Tab bar
+- Gallery
+- Collection
+- System
+- Item
+- Actions
+- Page title
+- 40x40
+- 24x24
+- 16x16
+
+## Component Specs
+- Tab bar: size 390x84px, horizontal layout, padding 13 16 0 16px, gap 24px, align center/min, sizing W:fixed H:fixed, fill #FFFFFFF2, effect [background_blur 40px, drop_shadow 0px offset 0 -0.3 #00000040] | variants: State: Tab1/Tab2/Tab3; Dark: False/True
+- Gallery: size 390x144px, horizontal layout, padding 0 0 0 16px, gap 12px, sizing W:fixed H:fixed, text [App/Caption 2/Grotesque · Normal · 500] | variants: Items: 1-2/2+/SeeAll
+- Collection: size 390x64px, vertical layout, padding 0 0 0 16px, gap 16px, align center/min, sizing W:fixed H:fixed, text [App/Caption 1/Grotesque · Normal · 600, App/Caption 2/Grotesque · Normal · 500, App/Caption 2/Grotesque · Tight · 500, App/Body 2/Grotesque · Normal · 600, Inter SemiBold, 10px] | variants: Size: L/S; State: Collapsed/Preview
+- System: size 390x44px, text [Default/Bold/Body] | variants: Android: False/True; Type: Home/KeysChar/KeysNum/Nav/Status; Dark: False/True
+- Item: size 48x48px, fill #FFFFFF | variants: Size: Bullet/L/S/Spot; Price: False/True; Video: False/True
+- Actions: size 264x154px, radius 16px, vertical layout, padding 4 0 6 0px, gap 0px, sizing W:fixed H:fixed, fill Light / Base, effect Level 2, text [App/Body 2/Grotesque · Normal · 600]
+- Item/Big/False/True/True: size 343x343px, fill #FFFFFF
+- Page title: size 374x56px, radius 24/24/0/0px, horizontal layout, padding 8 8 8 8px, gap 12px, align space_between/center, sizing W:fill H:fixed, fill Light / Base, effect Level 2, text [App/Body 2/Grotesque · Normal · 600]
+- 40x40 / Solana: size 40x40px, fill #FFFFFF
+- 40x40 / Tezos: size 40x40px, fill #FFFFFF
+- 40x40 / Polygon: size 40x40px, fill #FFFFFF
+- 40x40  / Flow: size 40x40px, fill #FFFFFF
+- 40x40 / Ethereum: size 40x40px, fill #FFFFFF
+- 24x24 / Profile: size 24x24px
+- 24x24 / Saved: size 24x24px
+- 24x24 / Explore: size 24x24px
+- 24x24 / Verified: size 24x24px, fill #FFFFFF
+- 24x24 / Close: size 24x24px
+- 24x24 / Checked: size 24x24px
+- 24x24 / Loader: size 24x24px
+- 24x24 / BrokenImage: size 24x24px
+- 24x24 / Pause: size 24x24px
+- 24x24 / Play: size 24x24px
+- 16x16 / Sudoswap: size 16x16px
+- 16x16 / Looksrare: size 16x16px
+- 16x16 / X2Y2: size 16x16px
+- 16x16 / Rarible: size 16x16px
+- 16x16 / Opensea: size 16x16px
+- 16x16 / Metamask: size 16x16px
+- 16x16 / Etherscan: size 16x16px
+- 16x16 / Telegram: size 16x16px
+- 16x16 / Instagram: size 16x16px
+- 16x16 / Twitter: size 16x16px
+- 16x16 / Discord: size 16x16px
+- 16x16 / Web: size 16x16px
+- 16x16 / Watched: size 16x16px
+- 16x16 / StartWatching: size 16x16px
+- 16x16 / Feedback: size 16x16px
+- 16x16 / Error: size 16x16px
+- 16x16 / Question: size 16x16px
+- 16x16 / Wallet: size 16x16px
+- 16x16 / Copy: size 16x16px
+- 16x16 / NoSound: size 16x16px
+- 16x16 / Sound: size 16x16px
+- 16x16 / Pause: size 16x16px
+- 16x16 / Play: size 16x16px
+- 16x16 / CornerDown: size 16x16px
+- 16x16 / Settings: size 16x16px
+- 16x16 / Share: size 16x16px
+- 16x16 / Verified: size 16x16px, fill #FFFFFF
+- 16x16 / Watch: size 16x16px
+- 16x16 / Search: size 16x16px
+- 16x16 / Collection: size 16x16px
+- 16x16 / StopNotifications: size 16x16px
+- 16x16 / Notifications: size 16x16px
+- 16x16 / Clear: size 16x16px
+- 16x16 / MinusFilled: size 16x16px
+- 16x16 / PlusFilled: size 16x16px
+- 16x16 / Minus: size 16x16px
+- 16x16 / Plus: size 16x16px
+- 16x16 / Close: size 16x16px
+- 16x16 / Checked: size 16x16px
+- 16x16 / Reload: size 16x16px
+- 16x16 / Scan: size 16x16px
+- 16x16 / CopyOutlined: size 16x16px
+- 16x16 / Fitscreen: size 16x16px
+- 16x16 / Fullscreen: size 16x16px
+- 16x16 / Edit: size 16x16px
+- 16x16 / Filter: size 16x16px
+- 16x16 / More: size 16x16px
+- 16x16 / ChevronLeft: size 16x16px
+- 16x16 / ChevronRight: size 16x16px
+- 16x16 / ChevronDown: size 16x16px
+- 16x16 / ChevronUp: size 16x16px
+- 16x16 / Down: size 16x16px
+- 16x16 / Up: size 16x16px
+
+## Most-Used Styles
+- Dark / Label: 897 uses
+- Light / Label: 894 uses
+- App/Body 2/Grotesque · Normal · 600: 480 uses
+- App/Caption 2/Grotesque · Tight · 500: 389 uses
+- Light/Label Secondary: 278 uses
+- App/Caption 2/Grotesque · Normal · 500: 271 uses
+- Light/Label Inverse: 248 uses
+- Dark/Label Secondary: 227 uses
+- Light/Error: 178 uses
+- Light / Divider: 170 uses
+- Light/Success: 162 uses
+- Light / Base: 160 uses
+- App/Caption 1/Grotesque · Normal · 500: 159 uses
+- App/Caption 1/Grotesque · Normal · 600: 156 uses
+- Light/Label Tertiary: 155 uses
+- Level 1: 102 uses
+- Dark/Label Inverse: 93 uses
+- Dark/Base: 92 uses
+- Light/Base Inverse: 88 uses
+- Dark/Divider: 85 uses
+- App/Body 1/Grotesque · Normal · 600: 76 uses
+- Dark/Label Trtiary: 70 uses
+- Level 2: 70 uses
+- Default/Bold/Body: 65 uses
+- Dark / Base Inverse: 58 uses
+- App/Body 2/Grotesque · Normal · 500: 43 uses
+- Light / Fill: 41 uses
+- Dark/Success: 40 uses
+- App/Caption 1/Grotesque · Tight · 600: 37 uses
+- Dark/Fill: 37 uses
+- App/Caption 1/Grotesque · Tight · 500: 35 uses
+- Dark/Nav: 35 uses
+- Light / Brand: 30 uses
+- App/Body 2/Grotesque · Tight · 600: 29 uses
+- Dark/Error: 22 uses
+- Light/Nav: 16 uses
+- App/Title 3/Grotesque · Normal · 500: 14 uses
+- App/Header/Grotesque · Normal · 600: 9 uses
+- App/Title 3/Grotesque · Normal · 600: 9 uses
+- Dark / Brand: 9 uses
+- Day/Text/Text-40: 9 uses
+- Light Primary: 9 uses
+- Dark/Fog: 6 uses
+- Level 3: 6 uses
+- Level 4: 6 uses
+- Light/Fog: 6 uses
+- Dark/Base Secondary: 4 uses
+- Day/Text/Text-invert: 4 uses
+- Light/Base Secondary: 4 uses
+- App/Title 2/Grotesque · Normal · 500: 3 uses
+- Day/Text/Text-100: 2 uses
+- App/Body 1/Grotesque · Normal · 500: 1 use
+- App/Body 1/Grotesque · Tight · 500: 1 use
+- App/Body 1/Grotesque · Tight · 600: 1 use
+- App/Body 2/Grotesque · Tight · 500: 1 use
+- App/Caption 2/Grotesque · Normal · 600: 1 use
+- App/Caption 2/Grotesque · Tight · 600: 1 use
+- App/Header/Grotesque · Normal · 500: 1 use
+- App/Header/Grotesque · Tight · 500: 1 use
+- App/Header/Grotesque · Tight · 600: 1 use
+- App/Title 1/Grotesque · Normal · 500: 1 use
+- App/Title 1/Grotesque · Normal · 600: 1 use
+- App/Title 1/Grotesque · Tight · 500: 1 use
+- App/Title 1/Grotesque · Tight · 600: 1 use
+- App/Title 2/Grotesque · Normal · 600: 1 use
+- App/Title 2/Grotesque · Tight · 500: 1 use
+- App/Title 2/Grotesque · Tight · 600: 1 use
+- App/Title 3/Grotesque · Tight · 500: 1 use
+- App/Title 3/Grotesque · Tight · 600: 1 use
+- Dark / Promo: 1 use
+- Dark/Fullscreen: 1 use
+- Day/Base/Base-invert: 1 use
+- Level 3 (reversed): 1 use
+- Light / Promo: 1 use
+- Light/Fullscreen: 1 use
+
+## Layout & Structure
+Screen: Screens / Empty state
+- FRAME "Empty state", 390x844px, constraints left/top, radius 6px, fill Dark/Base
+  - INSTANCE "System", 390x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000, effect Level 1
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px, fill Dark/Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Dark / Label
+        - FRAME "", 49x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 57x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Dark / Label
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Dark / Label
+  - FRAME "", 390x701px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 390x48px, horizontal pad 4 16 4 16px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Items", 54x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 218x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "", 174x40px, horizontal pad 0 10 0 16px gap 4px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Dark/Fill
+          - TEXT "Price: Low to High", 116x16px, constraints left/top, fill Dark / Label, text [App/Caption 1/Grotesque · Normal · 600]
+          - INSTANCE "16x16 / CornerDown", 16x16px, constraints left/top
+            - VECTOR "", 7.18x4.59px, constraints scale/scale, radius 1px, fill Dark / Label
+        - FRAME "Filter", 40x40px, constraints left/top, radius 14px, fill #FFFFFF
+          - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Dark/Fill, effect [background_blur 40px]
+            - INSTANCE "16x16 / Filter", 16x16px, constraints left/top
+          - FRAME "", 10x10px, constraints left/top, radius 16px, fill Dark/Error
+    - FRAME "", 390x92px, vertical pad 4 16 4 16px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "", 334x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "SegmentedPicker-option", 90x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Dark/Fill
+          - FRAME "", 58x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "✏️ Label", 38x16px, constraints left_right/center, fill Dark / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / Clear", 16x16px, constraints left/top
+        - FRAME "SegmentedPicker-option", 99x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Dark/Fill
+          - FRAME "", 67x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "✏️ Label", 47x16px, constraints left_right/center, fill Dark / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / Clear", 16x16px, constraints left/top
+        - FRAME "SegmentedPicker-option", 137x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Dark/Fill
+          - FRAME "", 105x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "✏️ Label", 85x16px, constraints left_right/center, fill Dark / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / Clear", 16x16px, constraints left/top
+      - FRAME "", 145x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "SegmentedPicker-option", 145x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Dark/Fill
+          - FRAME "", 113x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "✏️ Label", 93x16px, constraints left_right/center, fill Dark / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / Clear", 16x16px, constraints left/top
+    - FRAME "Empty", 390x443px, constraints left/top, fill #FFFFFF
+      - FRAME "", 248x248px, vertical pad 113 97 113 97px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, stroke #FFFFFF33 1px
+        - TEXT "Picture", 53x22px, constraints left/top, fill Dark/Label Secondary, text [Inter Light, 16px], opacity 50%
+      - FRAME "", 310x75px, vertical pad 0 16 0 16px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Nothing here", 278x27px, constraints left/top, fill Dark / Label, text [App/Title 3/Grotesque · Normal · 500], [heading]
+        - TEXT "Try using fewer filters or look  at similar collections", 280x44px, constraints left/top, fill Dark/Label Secondary, text [App/Body 2/Grotesque · Normal · 500]
+
+Screen: Screens / Empty state
+- FRAME "Empty state", 390x844px, constraints left/top, radius 6px, fill Light / Base
+  - INSTANCE "System", 390x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000, effect Level 1
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Light / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left_right/center, radius 24/24/0/0px, fill Light / Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Light / Label
+        - FRAME "", 49x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 57x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Light / Label
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+  - FRAME "", 390x701px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 390x48px, horizontal pad 4 16 4 16px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Items", 54x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 218x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "", 174x40px, horizontal pad 0 10 0 16px gap 4px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Light / Fill
+          - TEXT "Price: Low to High", 116x16px, constraints left/top, fill Light / Label, text [App/Caption 1/Grotesque · Normal · 600]
+          - INSTANCE "16x16 / CornerDown", 16x16px, constraints left/top
+            - VECTOR "", 7.18x4.59px, constraints scale/scale, radius 1px, fill Light / Label
+        - FRAME "Filter", 40x40px, constraints left/top, radius 14px, fill #FFFFFF
+          - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Light / Fill, effect [background_blur 40px]
+            - INSTANCE "16x16 / Filter", 16x16px, constraints left/top
+          - FRAME "", 10x10px, constraints left/top, radius 16px, fill Light/Error
+    - FRAME "", 390x92px, vertical pad 4 16 4 16px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "", 334x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "SegmentedPicker-option", 90x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Light / Fill
+          - FRAME "", 58x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "✏️ Label", 38x16px, constraints left_right/center, fill Light / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / Clear", 16x16px, constraints left/top
+        - FRAME "SegmentedPicker-option", 99x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Light / Fill
+          - FRAME "", 67x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "✏️ Label", 47x16px, constraints left_right/center, fill Light / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / Clear", 16x16px, constraints left/top
+        - FRAME "SegmentedPicker-option", 137x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Light / Fill
+          - FRAME "", 105x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "✏️ Label", 85x16px, constraints left_right/center, fill Light / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / Clear", 16x16px, constraints left/top
+      - FRAME "", 145x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "SegmentedPicker-option", 145x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Light / Fill
+          - FRAME "", 113x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "✏️ Label", 93x16px, constraints left_right/center, fill Light / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / Clear", 16x16px, constraints left/top
+    - FRAME "Empty", 390x443px, constraints left/top, fill #FFFFFF
+      - FRAME "", 248x248px, vertical pad 113 97 113 97px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, stroke #0000001F 1px
+        - TEXT "Picture", 53x22px, constraints left/top, fill Light/Label Secondary, text [Inter Light, 16px], opacity 50%
+      - FRAME "", 310x75px, vertical pad 0 16 0 16px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Nothing here", 278x27px, constraints left/top, fill Light / Label, text [App/Title 3/Grotesque · Normal · 500], [heading]
+        - TEXT "Try using fewer filters or look  at similar collections", 280x44px, constraints left/top, fill Light/Label Secondary, text [App/Body 2/Grotesque · Normal · 500]
+
+Screen: Screens / Empty state
+- FRAME "Empty state", 390x844px, constraints left/top, radius 6px, fill Dark/Base
+  - INSTANCE "System", 390x44px, constraints center/scale
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - GROUP "Search", 358x48px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Dark/Fill
+    - INSTANCE "16x16 / ChevronRight", 16x16px, constraints left/top
+      - VECTOR "", 6.89x11.63px, constraints center/center, fill Dark/Label Trtiary
+    - GROUP "brand", 32x32px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "", 32x32px, constraints left/top, radius 6px, fill #F8D718, effect [background_blur 80px]
+      - VECTOR "", 16x11.37px, constraints left/top, fill #16161A
+    - TEXT "Find NFTs", 77x22px, constraints left/top, fill Dark/Label Trtiary, text [App/Body 2/Grotesque · Normal · 500]
+  - FRAME "", 248x248px, vertical pad 113 97 113 97px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, stroke #FFFFFF33 1px
+    - TEXT "Picture", 53x22px, constraints left/top, fill Dark/Label Secondary, text [Inter Light, 16px], opacity 50%
+  - FRAME "", 317x81px, constraints left/top, fill #FFFFFF
+    - TEXT "Watch NFT collections, monitor prices and time your entry 􀋚", 284x81px, constraints left/top, fill #FCA9FC, text [App/Title 3/Grotesque · Normal · 500], [heading]
+    - INSTANCE "16x16 / Notifications", 24x24px, constraints left/top
+      - VECTOR "", 15.53x24px, constraints scale/scale, fill #FCA9FC
+  - INSTANCE "Tab bar", 390x84px, horizontal pad 13 16 0 16px gap 24px align center/min sizing W:fixed H:fixed, constraints left/top, fill #1E1E24F2, effect [background_blur 40px, drop_shadow 0px offset 0 -0.3 #FFFFFF40]
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Explore", 24x24px, constraints left/top
+        - VECTOR "", 20x20px, constraints scale/scale, fill Dark/Label Trtiary
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Saved", 24x24px, constraints left/top
+        - VECTOR "", 22x21px, constraints scale/scale, radius 0/0/0/0px, fill Dark / Label
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Profile", 24x24px, constraints left/top
+        - VECTOR "", 22x22px, constraints scale/scale, fill Dark/Label Trtiary
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Dark / Label
+
+Screen: Screens / Empty state
+- FRAME "Empty state", 390x844px, constraints left/top, radius 6px, fill Light / Base
+  - INSTANCE "System", 390x44px, constraints center/scale
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "9:41", 54x20px, constraints left/top, fill Light / Label, text [Default/Bold/Body]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - GROUP "Search", 358x48px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Light / Fill
+    - INSTANCE "16x16 / ChevronRight", 16x16px, constraints left/top
+      - VECTOR "", 6.89x11.63px, constraints center/center, fill Light/Label Tertiary
+    - GROUP "brand", 32x32px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "", 32x32px, constraints left/top, radius 6px, fill #F8D718, effect [background_blur 80px]
+      - VECTOR "", 16x11.37px, constraints left/top, fill #16161A
+    - TEXT "Find NFTs", 77x22px, constraints left/top, fill Light/Label Tertiary, text [App/Body 2/Grotesque · Normal · 500]
+  - FRAME "", 248x248px, vertical pad 113 97 113 97px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, stroke #0000001F 1px
+    - TEXT "Picture", 53x22px, constraints left/top, fill Light/Label Secondary, text [Inter Light, 16px], opacity 50%
+  - FRAME "", 317x81px, constraints left/top, fill #FFFFFF
+    - TEXT "Watch NFT collections, monitor prices and time your entry 􀋚", 284x81px, constraints left/top, fill #E778E7, text [App/Title 3/Grotesque · Normal · 500], [heading]
+    - INSTANCE "16x16 / Notifications", 24x24px, constraints left/top
+      - VECTOR "", 15.53x24px, constraints scale/scale, fill #E778E7
+  - INSTANCE "Tab bar", 390x84px, horizontal pad 13 16 0 16px gap 24px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFFF2, effect [background_blur 40px, drop_shadow 0px offset 0 -0.3 #00000040]
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Explore", 24x24px, constraints left/top
+        - VECTOR "", 20x20px, constraints scale/scale, fill Light/Label Tertiary
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Saved", 24x24px, constraints left/top
+        - VECTOR "", 22x21px, constraints scale/scale, radius 0/0/0/0px, fill Light / Label
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Profile", 24x24px, constraints left/top
+        - VECTOR "", 22x22px, constraints scale/scale, fill Light/Label Tertiary
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+
+Screen: Screens / Onboarding
+- FRAME "Onboarding", 390x844px, constraints left/top, radius 6px, fill Dark/Base
+  - INSTANCE "System", 390x44px, constraints center/scale
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+  - FRAME "", 358x694px, vertical pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Spotlight Control", 108x3px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints center/top
+      - RECTANGLE "Slide 1", 24x3px, constraints left/top, radius 2px, fill Dark/Divider
+      - RECTANGLE "Slide 2", 24x3px, constraints left/top, radius 2px, fill Dark/Divider
+      - RECTANGLE "Slide 3", 48x3px, constraints left/top, radius 2px, fill Dark / Label
+    - FRAME "", 248x248px, vertical pad 113 97 113 97px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, stroke #FFFFFF33 1px
+      - TEXT "Picture", 53x22px, constraints left/top, fill Dark/Label Secondary, text [Inter Light, 16px], opacity 50%
+    - FRAME "", 358x110px, vertical pad 0 8 48 8px gap 4px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Сonnect wallet  to track your portfolio", 350x62px, constraints left/top, fill Dark / Label, text [App/Title 2/Grotesque · Normal · 500], [heading]
+  - FRAME "", 358x48px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill Dark / Label
+    - TEXT "Get started", 89x22px, constraints left/top, fill Dark/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+
+Screen: Screens / Onboarding
+- FRAME "Onboarding", 390x844px, constraints left/top, radius 6px, fill Light / Base
+  - INSTANCE "System", 390x44px, constraints center/scale
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "9:41", 54x20px, constraints left/top, fill Light / Label, text [Default/Bold/Body]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+  - FRAME "", 358x694px, vertical pad 0 0 0 0px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Spotlight Control", 108x3px, horizontal pad 0 0 0 0px gap 6px sizing W:fixed H:fixed, constraints center/top
+      - RECTANGLE "Slide 1", 24x3px, constraints left/top, radius 2px, fill Light / Divider
+      - RECTANGLE "Slide 2", 24x3px, constraints left/top, radius 2px, fill Light / Divider
+      - RECTANGLE "Slide 3", 48x3px, constraints left/top, radius 2px, fill Light / Label
+    - FRAME "", 248x248px, vertical pad 113 97 113 97px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, stroke #0000001F 1px
+      - TEXT "Picture", 53x22px, constraints left/top, fill Light/Label Secondary, text [Inter Light, 16px], opacity 50%
+    - FRAME "", 358x110px, vertical pad 0 8 48 8px gap 4px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Сonnect wallet  to track your portfolio", 350x62px, constraints left/top, fill Light / Label, text [App/Title 2/Grotesque · Normal · 500], [heading]
+  - FRAME "", 358x48px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill Light / Label
+    - TEXT "Get started", 89x22px, constraints left/top, fill Light/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+
+Screen: Screens / Empty state
+- FRAME "Empty state", 390x844px, constraints left/top, radius 6px, fill Dark/Base
+  - INSTANCE "Tab bar", 390x84px, horizontal pad 13 16 0 16px gap 24px align center/min sizing W:fixed H:fixed, constraints left/top, fill #1E1E24F2, effect [background_blur 40px, drop_shadow 0px offset 0 -0.3 #FFFFFF40]
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Explore", 24x24px, constraints left/top
+        - VECTOR "", 20x20px, constraints scale/scale, fill Dark/Label Trtiary
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Saved", 24x24px, constraints left/top
+        - VECTOR "", 22x21px, constraints scale/scale, radius 0/0/0/0px, fill Dark/Label Trtiary
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Profile", 24x24px, constraints left/top
+        - VECTOR "", 22x22px, constraints scale/scale, fill Dark / Label
+  - FRAME "", 248x248px, vertical pad 113 97 113 97px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, stroke #FFFFFF33 1px
+    - TEXT "Picture", 53x22px, constraints left/top, fill Dark/Label Secondary, text [Inter Light, 16px], opacity 50%
+  - FRAME "", 358x48px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill Dark / Label
+    - TEXT "Enter address", 108x22px, constraints left/top, fill Dark/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+  - FRAME "", 280x80px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Add wallet  to track portfolio", 280x54px, constraints left/top, fill Dark / Label, text [App/Title 3/Grotesque · Normal · 500], [heading]
+    - TEXT "New to NFT? Read FAQ", 280x22px, constraints left/top, fill Dark/Label Secondary, text [App/Body 2/Grotesque · Normal · 500]
+  - INSTANCE "System", 390x44px, constraints left_right/top
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Dark / Label
+  - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints right/top, radius 40px, fill Dark/Base, effect [background_blur 40px]
+    - INSTANCE "16x16 / Settings", 16x16px, constraints left/top
+      - VECTOR "", 16x16px, constraints left/top, fill Dark / Label
+
+Screen: Screens / Empty state
+- FRAME "Empty state", 390x844px, constraints left/top, radius 6px, fill Light / Base
+  - INSTANCE "Tab bar", 390x84px, horizontal pad 13 16 0 16px gap 24px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFFF2, effect [background_blur 40px, drop_shadow 0px offset 0 -0.3 #00000040]
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Explore", 24x24px, constraints left/top
+        - VECTOR "", 20x20px, constraints scale/scale, fill Light/Label Tertiary
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Saved", 24x24px, constraints left/top
+        - VECTOR "", 22x21px, constraints scale/scale, radius 0/0/0/0px, fill Light/Label Tertiary
+    - FRAME "", 103.33x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "24x24 / Profile", 24x24px, constraints left/top
+        - VECTOR "", 22x22px, constraints scale/scale, fill Light / Label
+  - FRAME "", 248x248px, vertical pad 113 97 113 97px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 1000px, stroke #0000001F 1px
+    - TEXT "Picture", 53x22px, constraints left/top, fill Light/Label Secondary, text [Inter Light, 16px], opacity 50%
+  - FRAME "", 358x48px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill Light / Label
+    - TEXT "Enter address", 108x22px, constraints left/top, fill Light/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+  - FRAME "", 280x80px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Add wallet  to track portfolio", 280x54px, constraints left/top, fill Light / Label, text [App/Title 3/Grotesque · Normal · 500], [heading]
+    - TEXT "New to NFT? Read FAQ", 280x22px, constraints left/top, fill Light/Label Secondary, text [App/Body 2/Grotesque · Normal · 500]
+  - INSTANCE "System", 390x44px, constraints left_right/top
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "9:41", 54x20px, constraints left/top, fill Light / Label, text [Default/Bold/Body]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+  - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints right/top, radius 40px, fill Light / Base, effect [background_blur 40px]
+    - INSTANCE "16x16 / Settings", 16x16px, constraints left/top
+      - VECTOR "", 16x16px, constraints left/top, fill Light / Label
+
+Screen: Screens / Filters
+- FRAME "Filters", 390x840px, constraints left/top, radius 6px, fill Light / Base, effect Level 2
+  - INSTANCE "System", 390x100px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left_right/center, radius 24/24/0/0px, fill Light / Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Light / Label
+        - FRAME "", 49x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 49x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Light / Label
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+  - FRAME "", 390x600px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Owned", 69x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "Switch", 40x24px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 390x40px, horizontal pad 0 16 8 20px gap 272px align min/max sizing W:fill H:fixed, constraints left/top, fill Light / Base
+      - FRAME "", 37x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Traits", 37x16px, constraints left/top, fill Light/Label Tertiary, text [App/Caption 1/Grotesque · Normal · 600]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Accessories", 120x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Light / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 48x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Light / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Clothing", 83x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Light / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "DNA", 44x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 38x24px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "2", 10x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+          - VECTOR "", 8.48x14.31px, constraints center/center, fill Light / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Eye Color", 93x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Light / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Eyewear", 83x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Light / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Facial Feature", 135x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Light / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Hair", 40x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Light / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Helmet", 70x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Light / Label
+  - FRAME "", 358x100px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Button", 358x48px, constraints left/top, radius 14px
+      - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Light/Base Inverse
+      - TEXT "Apply", 46.97x22px, constraints left/top, fill Light/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+    - GROUP "Button", 358x48px, constraints left/top, radius 14px
+      - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Light / Base
+      - TEXT "Clear all", 124.47x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+
+Screen: Screens / Filters
+- FRAME "Filters", 390x840px, constraints left/top, radius 6px, fill Dark/Base, effect Level 2
+  - INSTANCE "System", 390x100px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px, fill Dark/Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Dark / Label
+        - FRAME "", 49x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 49x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Dark / Label
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Dark / Label
+  - FRAME "", 390x600px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Owned", 69x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "Switch", 40x24px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 390x40px, horizontal pad 0 16 8 20px gap 272px align min/max sizing W:fill H:fixed, constraints left/top, fill Dark/Base
+      - FRAME "", 37x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Traits", 37x16px, constraints left/top, fill Dark/Label Trtiary, text [App/Caption 1/Grotesque · Normal · 600]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Accessories", 120x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Dark / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 48x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Dark / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Clothing", 83x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Dark / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "DNA", 44x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 39x24px, horizontal pad 0 0 0 0px gap 4px align max/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "3", 11x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+          - VECTOR "", 8.48x14.31px, constraints center/center, fill Dark / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Eye Color", 93x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Dark / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Eyewear", 83x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Dark / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Facial Feature", 135x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Dark / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Hair", 40x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Dark / Label
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Helmet", 70x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - INSTANCE "24x24 / ChevronRight", 24x24px, constraints left/top
+        - VECTOR "", 8.48x14.31px, constraints center/center, fill Dark / Label
+  - FRAME "", 358x100px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Button", 358x48px, constraints left/top, radius 14px
+      - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Dark / Base Inverse
+      - TEXT "Apply", 46.97x22px, constraints left/top, fill Dark/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+    - GROUP "Button", 358x48px, constraints left/top, radius 14px
+      - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Dark/Base
+      - TEXT "Clear all", 124.47x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+
+Screen: Screens / Traits
+- FRAME "Traits", 390x840px, constraints left/top, radius 6px, fill Light / Base, effect Level 2
+  - INSTANCE "System", 390x100px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left_right/center, radius 24/24/0/0px, fill Light / Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Light / Label
+        - FRAME "", 49x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 44x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Light / Label
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+  - FRAME "", 390x440px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Human", 69x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 92x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9,722", 44x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "On", 40x24px, constraints right/top
+          - RECTANGLE "", 40x24px, constraints scale/scale, radius 12px, fill Light/Success
+          - RECTANGLE "", 20x20px, constraints scale/scale, radius 24px, fill Light / Base, effect Level 1
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Robot", 58x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 93x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "5,825", 45x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "On", 40x24px, constraints right/top
+          - RECTANGLE "", 40x24px, constraints scale/scale, radius 12px, fill Light/Success
+          - RECTANGLE "", 20x20px, constraints scale/scale, radius 24px, fill Light / Base, effect Level 1
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Angel", 57x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 91x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "1,698", 43x22px, constraints left/top, fill Light/Label Tertiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Demon", 69x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 90x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "1,697", 42x22px, constraints left/top, fill Light/Label Tertiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Reptile", 68x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 79x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "244", 31x22px, constraints left/top, fill Light/Label Tertiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Undead", 76x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 75x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "114", 27x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "On", 40x24px, constraints right/top
+          - RECTANGLE "", 40x24px, constraints scale/scale, radius 12px, fill Light/Success
+          - RECTANGLE "", 20x20px, constraints scale/scale, radius 24px, fill Light / Base, effect Level 1
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Murakami", 96x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 69x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "96", 21x22px, constraints left/top, fill Light/Label Tertiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Alien", 49x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 70x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "30", 22x22px, constraints left/top, fill Light/Label Tertiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "", 358x100px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Button", 358x48px, constraints left/top, radius 14px
+      - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Light/Base Inverse
+      - TEXT "Apply", 46.97x22px, constraints left/top, fill Light/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+    - GROUP "Button", 358x48px, constraints left/top, radius 14px
+      - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Light / Base
+      - TEXT "Clear all", 124.47x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+
+Screen: Screens / Traits
+- FRAME "Traits", 390x840px, constraints left/top, radius 6px, fill Dark/Base, effect Level 2
+  - INSTANCE "System", 390x100px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px, fill Dark/Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Dark / Label
+        - FRAME "", 49x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 44x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Dark / Label
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Dark / Label
+  - FRAME "", 390x440px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Human", 69x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 92x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9,722", 44x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "On", 40x24px, constraints right/top
+          - RECTANGLE "", 40x24px, constraints scale/scale, radius 12px, fill Dark/Success
+          - RECTANGLE "", 20x20px, constraints scale/scale, radius 24px, fill Dark / Base Inverse, effect Level 1
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Robot", 58x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 93x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "5,825", 45x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "On", 40x24px, constraints right/top
+          - RECTANGLE "", 40x24px, constraints scale/scale, radius 12px, fill Dark/Success
+          - RECTANGLE "", 20x20px, constraints scale/scale, radius 24px, fill Dark / Base Inverse, effect Level 1
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Angel", 57x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 91x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "1,698", 43x22px, constraints left/top, fill Dark/Label Trtiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Demon", 69x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 90x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "1,697", 42x22px, constraints left/top, fill Dark/Label Trtiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Reptile", 68x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 79x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "244", 31x22px, constraints left/top, fill Dark/Label Trtiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Undead", 76x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 75x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "114", 27x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "On", 40x24px, constraints right/top
+          - RECTANGLE "", 40x24px, constraints scale/scale, radius 12px, fill Dark/Success
+          - RECTANGLE "", 20x20px, constraints scale/scale, radius 24px, fill Dark / Base Inverse, effect Level 1
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Murakami", 96x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 69x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "96", 21x22px, constraints left/top, fill Dark/Label Trtiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "", 375x48px, horizontal pad 4 16 4 16px gap 240px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Alien", 49x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+      - FRAME "", 70x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - TEXT "30", 22x22px, constraints left/top, fill Dark/Label Trtiary, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "Switch", 40x24px, constraints right/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "", 358x100px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Button", 358x48px, constraints left/top, radius 14px
+      - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Dark / Base Inverse
+      - TEXT "Apply", 46.97x22px, constraints left/top, fill Dark/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+    - GROUP "Button", 358x48px, constraints left/top, radius 14px
+      - RECTANGLE "", 358x48px, constraints left/top, radius 14px, fill Dark/Base
+      - TEXT "Clear all", 124.47x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+
+Screen: Screens / Scroll
+- FRAME "Scroll", 390x844px, constraints left/top, radius 6px, fill Light / Base, effect Level 2
+  - FRAME "Grid", 390x884px, vertical pad 24 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 390x96px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "", 390x48px, horizontal pad 4 16 4 16px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Items", 54x26px, constraints left/top, fill Light / Label, text [App/Body 1/Grotesque · Normal · 600]
+        - FRAME "", 204x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "", 160x40px, horizontal pad 0 10 0 16px gap 4px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Light / Fill
+            - TEXT "Price: low to high", 110x16px, constraints left/top, fill Light / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / CornerDown", 16x16px, constraints left/top
+          - FRAME "Filter", 40x40px, constraints left/top, radius 14px, fill #FFFFFF
+            - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Light / Fill, effect [background_blur 40px]
+            - FRAME "", 10x10px, constraints left/top, radius 16px, fill Light/Error
+      - FRAME "", 390x48px, vertical pad 4 16 4 16px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "", 298x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "SegmentedPicker-option", 98x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Light / Fill
+            - FRAME "", 66x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "SegmentedPicker-option", 90x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Light / Fill
+            - FRAME "", 58x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "SegmentedPicker-option", 102x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Light / Fill
+            - FRAME "", 70x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 390x748px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Items", 390x211px, horizontal pad 0 16 0 16px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: fcd043f9806eda3f98268c8ab21cfe2220273175), stroke Light / Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: 7ff078b7163f1ff675b9aefea7926d444113d689), stroke Light / Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+      - FRAME "Items", 390x211px, horizontal pad 0 16 0 16px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: 2194613d4af0131dc9e7c2c790ab57003aa639ee), stroke Light / Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: 0327f58e2aa026b1788e70a971b63dbaf1313270), stroke Light / Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+      - FRAME "Items", 390x211px, horizontal pad 0 16 0 16px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: d39890af30d56ab2ea65c29f0d6010eeaf24bf20), stroke Light / Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: b621f4bcfbf146cd6b18b78d60f98a55dfac9da0), stroke Light / Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+  - INSTANCE "System", 390x100px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px, effect Level 1
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left_right/center, radius 24/24/0/0px, fill Light / Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Light / Label
+        - FRAME "", 75x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 57x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "Glyph", 16x16px, constraints left/top
+            - INSTANCE "16x16 / Verified", 14x14px, constraints left/top, fill #FFFFFF
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Light / Label
+  - FRAME "Actions", 390x98px, horizontal pad 8 8 42 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/bottom, fill Light/Nav, effect [background_blur 40px]
+    - FRAME "", 322x48px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 14px, fill Light / Label
+      - INSTANCE "16x16 / Rarible", 16x16px, constraints left/top
+        - VECTOR "", 16x16px, constraints left/top, fill Light / Base
+      - TEXT "Explore on marketplace", 182x22px, constraints left/top, fill Light/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+    - FRAME "", 48x48px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill Light / Label
+      - INSTANCE "16x16 / StartWatching", 16x16px, constraints left/top
+        - VECTOR "", 14x13px, constraints scale/scale, fill Light/Label Inverse
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+
+Screen: Screens / Scroll
+- FRAME "Scroll", 390x844px, constraints left/top, radius 6px, fill Dark/Base, effect Level 2
+  - FRAME "Grid", 390x884px, vertical pad 24 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 390x96px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "", 390x48px, horizontal pad 4 16 4 16px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Items", 54x26px, constraints left/top, fill Dark / Label, text [App/Body 1/Grotesque · Normal · 600]
+        - FRAME "", 204x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "", 160x40px, horizontal pad 0 10 0 16px gap 4px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Dark/Fill
+            - TEXT "Price: low to high", 110x16px, constraints left/top, fill Dark / Label, text [App/Caption 1/Grotesque · Normal · 600]
+            - INSTANCE "16x16 / CornerDown", 16x16px, constraints left/top
+          - FRAME "Filter", 40x40px, constraints left/top, radius 14px, fill #FFFFFF
+            - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Dark/Fill, effect [background_blur 40px]
+            - FRAME "", 10x10px, constraints left/top, radius 16px, fill Dark/Error
+      - FRAME "", 390x48px, vertical pad 4 16 4 16px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "", 298x40px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "SegmentedPicker-option", 98x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Dark/Fill
+            - FRAME "", 66x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "SegmentedPicker-option", 90x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Dark/Fill
+            - FRAME "", 58x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "SegmentedPicker-option", 102x40px, horizontal pad 0 16 0 16px gap 0px align center/center sizing W:fixed H:fixed, constraints center/center, radius 14px, fill Dark/Fill
+            - FRAME "", 70x16px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 390x748px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Items", 390x211px, horizontal pad 0 16 0 16px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: fcd043f9806eda3f98268c8ab21cfe2220273175), stroke Dark/Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: 7ff078b7163f1ff675b9aefea7926d444113d689), stroke Dark/Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+      - FRAME "Items", 390x211px, horizontal pad 0 16 0 16px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: 2194613d4af0131dc9e7c2c790ab57003aa639ee), stroke Dark/Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: 0327f58e2aa026b1788e70a971b63dbaf1313270), stroke Dark/Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+      - FRAME "Items", 390x211px, horizontal pad 0 16 0 16px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: d39890af30d56ab2ea65c29f0d6010eeaf24bf20), stroke Dark/Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+        - INSTANCE "Item", 171x211px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 16px
+          - FRAME "Item", 167x167px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "", 167x167px, constraints left_right/top_bottom, radius 12px, fill image(hash: b621f4bcfbf146cd6b18b78d60f98a55dfac9da0), stroke Dark/Divider 1px
+            - FRAME "MP", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/bottom, radius 100px, fill #8A8A98CC
+          - FRAME "", 167x40px, horizontal pad 8 4 4 4px gap 4px align space_between/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "", 119x28px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "", 16x16px, constraints left/top
+  - INSTANCE "System", 390x100px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px, effect Level 1
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px, fill Dark/Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Dark / Label
+        - FRAME "", 75x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 57x22px, constraints left/top, fill Dark / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "Glyph", 16x16px, constraints left/top
+            - INSTANCE "16x16 / Verified", 14x14px, constraints left/top, fill #FFFFFF
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Dark / Label
+  - FRAME "Actions", 390x98px, horizontal pad 8 8 42 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/bottom, fill Dark/Nav, effect [background_blur 40px]
+    - FRAME "", 322x48px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 14px, fill Dark / Label
+      - INSTANCE "16x16 / Rarible", 16x16px, constraints left/top
+        - VECTOR "", 16x16px, constraints left/top, fill Dark/Base
+      - TEXT "Explore on marketplace", 182x22px, constraints left/top, fill Dark/Label Inverse, text [App/Body 2/Grotesque · Normal · 600]
+    - FRAME "", 48x48px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill Dark / Label
+      - INSTANCE "16x16 / Watched", 16x16px, constraints left/top
+        - VECTOR "", 14x13px, constraints scale/scale, radius 0/0/0/0px, fill Dark/Label Inverse
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Dark / Label
+
+Screen: Screens / Activity
+- FRAME "Activity", 390x840px, constraints left/top, radius 6px, fill Light / Base, effect Level 2
+  - INSTANCE "System", 390x100px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left_right/center, radius 24/24/0/0px, fill Light / Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Light / Label
+        - FRAME "", 49x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 60x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Light / Label
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+  - FRAME "", 390x712px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 177x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: 76557d940f29e1a3fee26db9aadb462a1eca3391), stroke Light / Divider 1px
+        - FRAME "", 117x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #11302", 117x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 58x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Just now", 58x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 95x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "7.625 WETH", 95x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Purchase", 59x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 171x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: 8dd78cfa1acad2977f1fd5a06b4bba190d1e0f7b), stroke Light / Divider 1px
+        - FRAME "", 111x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #3557", 111x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 84x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "A minute ago", 84x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 82x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9.505 ETH", 82x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 180x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: ee8df709c9fbd7f54b8c8028bfb385353a45319f), stroke Light / Divider 1px
+        - FRAME "", 120x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #14886", 120x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 90x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "2 minutes ago", 90x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 82x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9.505 ETH", 82x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 180x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: 931c5b00cdd5afd7a9905ba091edd919471d912b), stroke Light / Divider 1px
+        - FRAME "", 120x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #19936", 120x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 90x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "5 minutes ago", 90x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 52x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "—", 16x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Delisted", 52x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 177x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: 5ba857434ea387e806195cbd55910dc0e8398fcd), stroke Light / Divider 1px
+        - FRAME "", 117x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #13139", 117x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 90x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "5 minutes ago", 90x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 96x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "10.0741 ETH", 96x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 175x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: 287172a851fa002c16a0e511c92701ba7195fc8b), stroke Light / Divider 1px
+        - FRAME "", 115x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #11051", 115x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 90x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "6 minutes ago", 90x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 82x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9.505 ETH", 82x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 176x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: c4a0acdea3e07fccf5695520610c36bdf1bc5dfd), stroke Light / Divider 1px
+        - FRAME "", 116x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #17241", 116x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 90x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "6 minutes ago", 90x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 82x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9.505 ETH", 82x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 163x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: 27e8d1461d35dd515f8fb5e99fc33a0d66fecde2), stroke Light / Divider 1px
+        - FRAME "", 103x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #604", 103x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 90x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "6 minutes ago", 90x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 82x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9.505 ETH", 82x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 180x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: 725a984fed7a6e57ec6e49c6c88746f6ec8ed1c9), stroke Light / Divider 1px
+        - FRAME "", 120x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #19504", 120x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 90x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "8 minutes ago", 90x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 82x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9.505 ETH", 82x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 179x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 12px, fill image(hash: a5985b83862a71642a71f27288b635e289f88d70), stroke Light / Divider 1px
+        - FRAME "", 119x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CloneX #18070", 119x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 97x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "14 minutes ago", 97x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 92x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9.4952 ETH", 92x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+
+Screen: Screens / Activity
+- FRAME "Activity", 390x840px, constraints left/top, radius 6px, fill Light / Base, effect Level 2
+  - INSTANCE "System", 390x100px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top, fill #000000
+    - INSTANCE "System", 390x44px, constraints center/scale
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "9:41", 54x20px, constraints left/top, fill Dark / Label, text [Default/Bold/Body]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+    - FRAME "Header", 390x56px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, radius 24/24/0/0px
+      - INSTANCE "Page title", 390x56px, horizontal pad 8 8 8 8px gap 12px align space_between/center sizing W:fill H:fixed, constraints left_right/center, radius 24/24/0/0px, fill Light / Base, effect Level 2
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / ChevronLeft", 16x16px, constraints left/top
+            - VECTOR "", 6.9x11.63px, constraints center/center, fill Light / Label
+        - FRAME "", 49x22px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 60x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - FRAME "", 40x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 40px, effect [background_blur 40px]
+          - INSTANCE "16x16 / Close", 16x16px, constraints left/top
+            - VECTOR "", 12x12px, constraints left/top, fill Light / Label
+  - INSTANCE "System", 390x34px, constraints left_right/bottom, fill #FFFFFF
+    - RECTANGLE "", 134x5px, constraints center/bottom, radius 100px, fill Light / Label
+  - FRAME "", 390x712px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 161x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, radius 100px, fill gradient_linear(#FA00FF 0% | #AB21FF 100%)
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 100px, fill image(hash: 1cd5d3e81d84447a39c84cbe3d82df11dcf9caca)
+        - FRAME "", 101x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0x05a...5151", 101x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 58x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Just now", 58x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 82x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "8.422 ETH", 82x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 161x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, radius 100px, fill gradient_linear(#FA00FF 0% | #AB21FF 100%)
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 100px, fill image(hash: 1cd5d3e81d84447a39c84cbe3d82df11dcf9caca)
+        - FRAME "", 101x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0x05a...5151", 101x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 84x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "A minute ago", 84x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 80x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "7.949 ETH", 80x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 161x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, radius 100px, fill gradient_linear(#FA00FF 0% | #AB21FF 100%)
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 100px, fill image(hash: 1cd5d3e81d84447a39c84cbe3d82df11dcf9caca)
+        - FRAME "", 101x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0x05a...5151", 101x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 75x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "8 hours ago", 75x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 79x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "8.051 ETH", 79x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 161x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, radius 100px, fill gradient_linear(#FA00FF 0% | #AB21FF 100%)
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 100px, fill image(hash: 1cd5d3e81d84447a39c84cbe3d82df11dcf9caca)
+        - FRAME "", 101x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0x05a...5151", 101x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 76x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "9 hours ago", 76x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 53x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "—", 16x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Unlisted", 53x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 161x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, radius 100px, fill gradient_linear(#FA00FF 0% | #AB21FF 100%)
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 100px, fill image(hash: 1cd5d3e81d84447a39c84cbe3d82df11dcf9caca)
+        - FRAME "", 101x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0x05a...5151", 101x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 82x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "15 hours ago", 82x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 82x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "8.422 ETH", 82x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 161x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, radius 100px, fill gradient_linear(#FA00FF 0% | #AB21FF 100%)
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 100px, fill image(hash: 1cd5d3e81d84447a39c84cbe3d82df11dcf9caca)
+        - FRAME "", 101x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0x05a...5151", 101x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 82x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "15 hours ago", 82x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+      - FRAME "", 80x38px, vertical pad 0 0 0 0px gap 0px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "7.949 ETH", 80x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+        - TEXT "Listed", 39x16px, constraints left/top, fill Light/Label Secondary, text [App/Caption 1/Grotesque · Normal · 500]
+    - FRAME "", 390x64px, horizontal pad 13 16 13 16px gap 272px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "", 161x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Item", 48x48px, constraints left/top, radius 100px, fill gradient_linear(#FA00FF 0% | #AB21FF 100%)
+          - RECTANGLE "", 48x48px, constraints scale/scale, radius 100px, fill image(hash: 1cd5d3e81d84447a39c84cbe3d82df11dcf9caca)
+        - FRAME "", 101x38px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0x05a...5151", 101x22px, constraints left/top, fill Light / Label, text [App/Body 2/Grotesque · Normal · 600]
+          - FRAME "", 82x16px, horizontal pad 0 0 0 0px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

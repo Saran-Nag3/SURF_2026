@@ -1,0 +1,1144 @@
+---
+name: tinder-app-community
+source_file: Tinder App (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:23:24.647423+00:00
+---
+
+# Tinder App (Community) Design Guidelines
+
+## Source
+- Figma file: Tinder App (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:23:24.647423+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Peach: none
+- Gradient: [gradient_linear(#FE3675 0% | #FF7854 100%)]
+- Black: [#000000]
+- Dark Grey: [#4A4A4A]
+- Medium Grey: [#939393]
+
+## Raw Colors (unstyled)
+- #939393: 2775 uses
+- #FFFFFF: 1958 uses
+- #4A4A4A: 1906 uses
+- #000000: 1057 uses
+- #D9D9D9: 757 uses
+- #FCFCFE: 372 uses
+- #F5F7FA: 341 uses
+- #4396F7: 243 uses
+- #EAEDF1: 166 uses
+- #EA5D6B: 164 uses
+- #C42936: 158 uses
+- #EEEFF1: 137 uses
+- #96E063: 132 uses
+- #D0CECD: 132 uses
+- #FE3675: 110 uses
+- #7D8490: 103 uses
+- #F2F2F6: 91 uses
+- #346CF2: 90 uses
+- #ECEFF2: 90 uses
+- #EFC54D: 88 uses
+- #488AF2: 81 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Gotham Medium, 12px: 509 uses
+- Gotham Book, 14px: 486 uses
+- Gotham Book, 10px: 422 uses
+- Gotham Medium, 16px: 409 uses
+- Gotham Book, 12px: 277 uses
+- Gotham Book, 16px: 257 uses
+- SF Pro Regular, 22px: 243 uses
+- Gotham Medium, 20px: 223 uses
+- Gotham Bold, 14px: 214 uses
+- Gotham Book, 13px: 193 uses
+- Gotham Medium, 14px: 170 uses
+- SF Pro Regular, 25px: 120 uses
+- SF Pro Bold, 10px: 108 uses
+- Gotham Book, 15px: 80 uses
+- Gotham Book, 18px: 78 uses
+- Gotham Medium, 22px: 78 uses
+- Gotham Medium, 18px: 60 uses
+- Gotham Medium, 11px: 45 uses
+- Gotham Bold, 26px: 42 uses
+- Gotham Book, 11px: 37 uses
+- SF Pro Regular, 16px: 36 uses
+- Gotham Book, 24px: 34 uses
+- Gotham Book, 33px: 34 uses
+- Gotham Bold, 18px: 29 uses
+- Gotham Medium, 10px: 29 uses
+- Gotham Medium, 32px: 27 uses
+- Gotham Medium, 26px: 25 uses
+- Gotham Medium, 34px: 23 uses
+
+## Typography Hierarchy
+- 34px - Gotham Medium, 34px (raw)
+- 33px - Gotham Book, 33px (raw)
+- 32px - Gotham Medium, 32px (raw)
+- 26px - Gotham Bold, 26px (raw)
+- 26px - Gotham Medium, 26px (raw)
+- 25px - SF Pro Regular, 25px (raw)
+- 24px - Gotham Book, 24px (raw)
+- 22px - Gotham Medium, 22px (raw)
+- 22px - SF Pro Regular, 22px (raw)
+- 20px - Gotham Medium, 20px (raw)
+- 18px - Gotham Bold, 18px (raw)
+- 18px - Gotham Book, 18px (raw)
+- 18px - Gotham Medium, 18px (raw)
+- 16px - Gotham Book, 16px (raw)
+- 16px - Gotham Medium, 16px (raw)
+- 16px - SF Pro Regular, 16px (raw)
+- 15px - Gotham Book, 15px (raw)
+- 14px - Gotham Bold, 14px (raw)
+- 14px - Gotham Book, 14px (raw)
+- 14px - Gotham Medium, 14px (raw)
+- 13px - Gotham Book, 13px (raw)
+- 12px - Gotham Book, 12px (raw)
+- 12px - Gotham Medium, 12px (raw)
+- 11px - Gotham Book, 11px (raw)
+- 11px - Gotham Medium, 11px (raw)
+- 10px - Gotham Book, 10px (raw)
+- 10px - Gotham Medium, 10px (raw)
+- 10px - SF Pro Bold, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Dark Grey: 20 uses
+- Peach: 4 uses
+- Black: 3 uses
+- Medium Grey: 3 uses
+- Gradient: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Splash Screen
+- FRAME "Splash Screen", 375x667px, constraints left/top, fill gradient_linear(#FF7854 0% | #FE3675 100%)
+  - GROUP "Group", 200.14x47.5px, constraints scale/scale
+    - VECTOR "Vector", 40.43x47.5px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 152.42x46.82px, constraints scale/scale, fill #FFFFFF
+
+Screen: Page 1 / Main Screen
+- FRAME "Main Screen", 375x667px, constraints left/top, fill gradient_linear(#FF7854 0% | #FE3675 100%)
+  - GROUP "Group", 160.06x37.99px, constraints scale/scale
+    - VECTOR "Vector", 32.33x37.99px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 121.9x37.44px, constraints scale/scale, fill #FFFFFF
+  - TEXT "By tapping “Create account” or “Sign in”, you agree to our T", 258x36px, constraints scale/scale, fill #FFFFFF, text [Gotham Rounded Book, 11px]
+  - GROUP "Group 1", 210x44px, constraints left/top, radius 62px
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill #FFFFFF
+    - TEXT "CREATE ACCOUNT", 119x11px, constraints scale/scale, fill #676767, text [Gotham Medium, 12px]
+  - GROUP "Group 2", 210x44px, constraints left/top, radius 62px
+    - GROUP "Group 26", 210x44px, constraints left/top, radius 62px
+      - RECTANGLE "Rectangle 2", 210x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+      - TEXT "SIGN IN", 51x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+  - TEXT "Trouble signing in?", 114x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+
+Screen: Page 1 / Sign in with number
+- FRAME "Sign in with number", 375x667px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "jonathan-borba-VX2nrLhq4h4-unsplash 1", 517x776px, constraints left/top, fill image(hash: 93e82411bc08935501c24d01d7430a8338580be0)
+  - RECTANGLE "Rectangle 202", 375x667px, constraints left/top, fill gradient_linear(#000000 0% | #00000000 100%)
+  - RECTANGLE "Rectangle 202", 375x667px, constraints left/top, fill gradient_linear(#0000004D 0% | #00000000 100%)
+  - VECTOR "Vector", 16x12px, constraints scale/scale, stroke #FFFFFF 2.5px
+  - GROUP "Group 664", 163x71px, constraints left/top
+    - GROUP "#000000ff", 134.38x39.73px, constraints scale/scale [decorative, ~7 shapes]
+    - TEXT "Connect Effortlessly", 163x15px, constraints left/top, fill #FFFFFF, text [Gotham Medium, 16px]
+  - GROUP "Group 665", 271x213.89px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 663", 271x169.89px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 1", 210x44px, constraints left/top, radius 62px
+        - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill #FFFFFF
+        - TEXT "CREATE ACCOUNT", 119x11px, constraints scale/scale, fill #676767, text [Gotham Medium, 12px]
+      - GROUP "Group 2", 210x44px, constraints left/top, radius 62px
+        - GROUP "Group 26", 210x44px, constraints left/top, radius 62px
+          - RECTANGLE "Rectangle 2", 210x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+          - TEXT "SIGN IN", 51x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+      - GROUP "Group 646", 271x39.89px, constraints left/top
+        - RECTANGLE "Rectangle", 132.57x39.89px, constraints scale/scale, fill image(hash: 1cb84354bab97f4ccb87c99b517c527173679c13)
+        - RECTANGLE "Layer 1 copy", 132.57x39.89px, constraints scale/scale, fill image(hash: e6036c1a9bbcf5ae9ea7be997f37ef99d134ab8c)
+    - TEXT "By tapping “Create account” or “Sign in”, you agree to out T", 260x34px, constraints left/top, fill #FFFFFF, text [Gotham Book, 11px]
+
+Screen: Page 1 / Main Screen2
+- FRAME "Main Screen2", 375x667px, constraints left/top, fill gradient_linear(#FF7854 0% | #FE3675 100%)
+  - GROUP "Group", 160.06x37.99px, constraints scale/scale
+    - VECTOR "Vector", 32.33x37.99px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 121.9x37.44px, constraints scale/scale, fill #FFFFFF
+  - TEXT "By tapping “Create account” or “Sign in”, you agree to our T", 258x36px, constraints scale/scale, fill #FFFFFF, text [Gotham Rounded Book, 11px]
+  - TEXT "Trouble signing in?", 114x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+  - GROUP "Group 306", 243x154px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 303", 243x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 243x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+      - TEXT "SIGN IN WITH APPLE", 130x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+      - VECTOR "Vector", 12x15px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group 304", 243x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 243x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+      - TEXT "SIGN IN WITH FACEBOOK", 160x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+      - VECTOR "Vector", 14x14px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group 305", 243x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 243x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+      - TEXT "SIGN IN WITH PHONE NUMBER", 192x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+      - VECTOR "Vector", 12x12px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 0.5px
+
+Screen: Page 1 / Apple sign in
+- FRAME "Apple sign in", 375x667px, constraints left/top, fill gradient_linear(#FF7854 0% | #FE3675 100%)
+  - GROUP "Group", 160.06x37.99px, constraints scale/scale
+    - VECTOR "Vector", 32.33x37.99px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 121.9x37.44px, constraints scale/scale, fill #FFFFFF
+  - TEXT "By tapping “Create account” or “Sign in”, you agree to our T", 258x36px, constraints scale/scale, fill #FFFFFF, text [Gotham Rounded Book, 11px]
+  - TEXT "Trouble signing in?", 114x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+  - GROUP "Group 3", 277x44px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 1", 277x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+    - TEXT "SIGN IN WITH APPLE", 130x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+    - VECTOR "Vector", 12x15px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Group 4", 277x44px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 2", 277x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+    - TEXT "SIGN IN WITH FACEBOOK", 160x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+    - VECTOR "Vector", 14x14px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Group 5", 277x44px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 3", 277x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+    - TEXT "SIGN IN WITH PHONE NUMBER", 192x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+    - VECTOR "Vector", 12x12px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 0.5px
+  - RECTANGLE "Rectangle 6", 375x667px, constraints left/top, fill #0F0A0A59
+  - GROUP "Group 13", 375x233px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 7", 375x233px, constraints left/top, fill #140F11C2, effect [background_blur 20px]
+    - TEXT "Apple ID", 71x15px, constraints left/top, fill #FFFFFF, text [Gotham Medium, 16px]
+    - TEXT "Cancel", 55x15px, constraints left/top, fill #5A91F7, text [Gotham Medium, 16px]
+    - GROUP "Group 11", 52x52px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 8", 52x52px, constraints left/top, radius 13px, fill gradient_linear(#FE3675 0% | #FF7854 100%)
+      - VECTOR "Vector", 30x34px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Create an account for Tinder - Dating & Meet People using yo", 244x42px, constraints scale/scale, fill #FFFFFF, text [Gotham Light Light, 11px]
+    - GROUP "Group 12", 71x24px, constraints left/top, radius 6px
+      - RECTANGLE "Rectangle 9", 71x24px, constraints left/top, radius 6px, fill #5A91F7
+      - TEXT "Continue", 55x11px, constraints left/top, fill #FFFFFF, text [Gotham Medium, 12px]
+
+Screen: Page 1 / Facebook sign in
+- FRAME "Facebook sign in", 375x667px, constraints left/top, fill gradient_linear(#FF7854 0% | #FE3675 100%)
+  - GROUP "Group", 160.06x37.99px, constraints scale/scale
+    - VECTOR "Vector", 32.33x37.99px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 121.9x37.44px, constraints scale/scale, fill #FFFFFF
+  - TEXT "By tapping “Create account” or “Sign in”, you agree to our T", 258x36px, constraints scale/scale, fill #FFFFFF, text [Gotham Rounded Book, 11px]
+  - TEXT "Trouble signing in?", 114x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 0.5px
+  - VECTOR "Rectangle 6", 375x667px, constraints left/top
+  - GROUP "Group 306", 243x154px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 303", 243x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 1", 243x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+      - TEXT "SIGN IN WITH APPLE", 130x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+      - VECTOR "Vector", 12x15px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group 304", 243x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 2", 243x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+      - TEXT "SIGN IN WITH FACEBOOK", 160x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+      - VECTOR "Vector", 14x14px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group 305", 243x44px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 3", 243x44px, constraints scale/scale, radius 62px, stroke #FFFFFF 1.2px
+      - TEXT "SIGN IN WITH PHONE NUMBER", 192x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+      - VECTOR "Vector", 12x12px, constraints scale/scale, fill #FFFFFF
+  - RECTANGLE "Rectangle 10", 375x667px, constraints left/top, fill #29292959
+  - GROUP "Group 308", 261x159px, constraints left/top, radius 21px
+    - GROUP "Group 307", 261x159px, constraints left/top, radius 21px
+      - RECTANGLE "Rectangle 11", 261x159px, constraints left/top, radius 21px, fill #493031, effect [background_blur 25px]
+      - LINE "Line 10", 261x0px, constraints left/top, stroke #91616B 0.5px
+      - LINE "Line 11", 0x37px, constraints left/top, stroke #91616B 0.5px
+    - GROUP "Group 14", 212x118px, constraints left/top, radius 0/0/0/0px
+      - TEXT "“Tinder” Wants to Use “facebook.com” to Sign In", 212x30px, constraints left/top, fill #FFFFFF, text [Gotham Medium, 16px]
+      - TEXT "This allows the app and website to share information about y", 204x26px, constraints left/top, fill #FFFFFF, text [Gotham Light Light, 12px]
+      - TEXT "Cancel", 55x15px, constraints left/top, fill #5A91F7, text [Gotham Medium, 16px]
+      - TEXT "Continue", 73x15px, constraints left/top, fill #5A91F7, text [Gotham Medium, 16px]
+
+Screen: Page 1 / Phone Number
+- FRAME "Phone Number", 375x667px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+  - GROUP "Group 6", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill gradient_linear(#FE3675 0% | #FF7854 100%)
+    - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - GROUP "Group 266", 279x141px, constraints left/top
+    - TEXT "US +1", 49x17px, constraints scale/scale, fill #939393, text [Gotham Book, 18px]
+    - TEXT "202-444-121", 109x17px, constraints scale/scale, fill #939393, text [Gotham Book, 18px]
+    - VECTOR "Vector 1", 8.5x4.5px, constraints scale/scale, fill #939393
+    - LINE "Line 1", 72x0px, constraints scale/scale, stroke #4A4A4A 1.5px
+    - LINE "Line 2", 191x0px, constraints scale/scale, stroke #4A4A4A 1.5px
+    - TEXT "We will send a text with a verification code. Message and da", 279x33px, constraints scale/scale, fill #939393, text [Gotham Light Light, 12px]
+    - TEXT "My number is", 229x33px, constraints left/top, fill #000000, text [Gotham Medium, 34px], [heading]
+
+Screen: Page 1 / Phone Number
+- FRAME "Phone Number", 375x667px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - GROUP "Group 660", 291x291px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 6", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill gradient_linear(#FE3675 0% | #FF7854 100%)
+      - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+    - GROUP "Group 591", 279x85px, constraints left/top
+      - GROUP "Group 266", 279x85px, constraints left/top
+        - TEXT "US +1", 49x17px, constraints scale/scale, fill #939393, text [Gotham Book, 18px]
+        - TEXT "202-444-121", 109x17px, constraints scale/scale, fill #939393, text [Gotham Book, 18px]
+        - VECTOR "Vector 1", 8.5x4.5px, constraints scale/scale, fill #939393
+        - LINE "Line 1", 72x0px, constraints scale/scale, stroke #4A4A4A 1.5px
+        - LINE "Line 2", 191x0px, constraints scale/scale, stroke #4A4A4A 1.5px
+        - TEXT "We will send a text with a verification code. Message and da", 279x33px, constraints scale/scale, fill #939393, text [Gotham Light Light, 12px]
+    - GROUP "Group 642", 193x21px, constraints left/top
+      - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+      - TEXT "Phone Number", 166x21px, constraints left/top, fill #000000, text [Gotham Medium, 22px]
+  - GROUP "Group 592", 375x0px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 588", 375x0px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 12", 375x0px, constraints left/top, stroke #D2D2D2 4px
+      - LINE "Line 13", 126x0px, constraints left/top, stroke #EA5D6B 4px
+
+Screen: Page 1 / Verification
+- FRAME "Verification", 375x667px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+  - GROUP "Group 265", 193x64px, constraints left/top, radius 0/0/0/0px
+    - TEXT "+1-202-444-121", 134x17px, constraints scale/scale, fill #939393, text [Gotham Book, 18px]
+    - TEXT "Resend", 52x13px, constraints scale/scale, fill #4A4A4A, text [Gotham Medium, 14px]
+    - TEXT "My code is", 182x33px, constraints left/top, fill #000000, text [Gotham Medium, 34px], [heading]
+  - GROUP "Group 7", 290x1px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - TEXT "From Messages", 93x13px, constraints left/top, fill #676767, text [Gotham Light Light, 12px]
+  - TEXT "714690", 51x15px, constraints left/top, fill #000000, text [Gotham Light Light, 14px]
+  - GROUP "Group 6", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill #FFFFFF
+    - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #898A8D80, text [Gotham Medium, 12px]
+
+Screen: Page 1 / Verification
+- FRAME "Verification", 375x667px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 265", 193x17px, constraints left/top, radius 0/0/0/0px
+    - TEXT "+1-202-444-121", 134x17px, constraints scale/scale, fill #939393, text [Gotham Book, 18px]
+    - TEXT "Resend", 52x13px, constraints scale/scale, fill #4A4A4A, text [Gotham Medium, 14px]
+  - GROUP "Group 7", 290x1px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - TEXT "From Messages", 93x13px, constraints left/top, fill #676767, text [Gotham Light Light, 12px]
+  - TEXT "714690", 51x15px, constraints left/top, fill #000000, text [Gotham Light Light, 14px]
+  - GROUP "Group 6", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill #FFFFFF
+    - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #898A8D80, text [Gotham Medium, 12px]
+  - GROUP "Group 643", 211x21px, constraints left/top
+    - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+    - TEXT "Verification code", 189x21px, constraints left/top, fill #000000, text [Gotham Medium, 22px]
+  - GROUP "Group 592", 375x0px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 588", 375x0px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 12", 375x0px, constraints left/top, stroke #D2D2D2 4px
+      - LINE "Line 13", 150x0px, constraints left/top, stroke #EA5D6B 4px
+
+Screen: Page 1 / Verification code
+- FRAME "Verification code", 375x667px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+  - GROUP "Group 7", 290x1px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - GROUP "Group 264", 274x133px, constraints left/top, radius 0/0/0/0px
+    - TEXT "+1-202-444-121", 134x17px, constraints scale/scale, fill #939393, text [Gotham Book, 18px]
+    - TEXT "Resend", 52x13px, constraints scale/scale, fill #4A4A4A, text [Gotham Medium, 14px]
+    - TEXT "My code is", 182x33px, constraints left/top, fill #000000, text [Gotham Medium, 34px], [heading]
+    - TEXT "7", 20x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+    - TEXT "1", 12x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+    - TEXT "4", 22x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+    - TEXT "6", 21x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+    - TEXT "9", 21x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+    - TEXT "0", 23x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+  - GROUP "Group 6", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill gradient_linear(#FE3675 0% | #FF7854 100%)
+    - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+
+Screen: Page 1 / Verification code
+- FRAME "Verification code", 375x667px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - GROUP "Group 644", 290x36px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 7", 290x1px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+    - GROUP "Group 264", 274x31px, constraints left/top, radius 0/0/0/0px
+      - TEXT "7", 20x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+      - TEXT "1", 12x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+      - TEXT "4", 22x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+      - TEXT "6", 21x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+      - TEXT "9", 21x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+      - TEXT "0", 23x31px, constraints left/top, fill #939393, text [Gotham Book, 32px], [heading]
+  - GROUP "Group 6", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill gradient_linear(#FE3675 0% | #FF7854 100%)
+    - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+  - GROUP "Group 643", 211x21px, constraints left/top
+    - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+    - TEXT "Verification code", 189x21px, constraints left/top, fill #000000, text [Gotham Medium, 22px]
+  - GROUP "Group 592", 375x0px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 588", 375x0px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 12", 375x0px, constraints left/top, stroke #D2D2D2 4px
+      - LINE "Line 13", 150x0px, constraints left/top, stroke #EA5D6B 4px
+
+Screen: Page 1 / Birthday
+- FRAME "Birthday", 375x667px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - LINE "Line 12", 375x0px, constraints left/top, stroke #D2D2D2 4px
+  - LINE "Line 13", 95x0px, constraints left/top, stroke #EA5D6B 4px
+  - GROUP "Group 271", 216x137px, constraints left/top, radius 0/0/0/0px
+    - TEXT "My Birthday is", 216x66px, constraints left/top, fill #000000, text [Gotham Medium, 34px], [heading]
+    - GROUP "Group 25", 198x17.66px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 24", 198x0.13px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+      - TEXT "D", 13.41x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "D", 13.41x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "/", 9.28x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "/", 9.28x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "M", 14.44x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "M", 14.44x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "Y", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "Y", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "Y", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "Y", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+    - TEXT "Your age will be public.", 138x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+  - GROUP "Group 269", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill #FFFFFF
+    - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #898A8D80, text [Gotham Medium, 12px]
+
+Screen: Page 1 / Birthday
+- FRAME "Birthday", 375x667px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - GROUP "Group 586", 375x0px, constraints left/top, radius 0/0/0/0px
+    - LINE "Line 12", 375x0px, constraints left/top, stroke #D2D2D2 4px
+    - LINE "Line 13", 95x0px, constraints left/top, stroke #EA5D6B 4px
+  - GROUP "Group 271", 198x115px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Birthday", 95x21px, constraints left/top, fill #000000, text [Gotham Medium, 22px]
+    - GROUP "Group 587", 198x40px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 25", 198x17.66px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 24", 198x0.13px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+        - TEXT "D", 13.41x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+        - TEXT "D", 13.41x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+        - TEXT "/", 9.28x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+        - TEXT "/", 9.28x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+        - TEXT "M", 14.44x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+        - TEXT "M", 14.44x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+        - TEXT "Y", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+        - TEXT "Y", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+        - TEXT "Y", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+        - TEXT "Y", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "Your age will be public.", 138x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+  - GROUP "Group 269", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill #FFFFFF
+    - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #898A8D80, text [Gotham Medium, 12px]
+
+Screen: Page 1 / Birthday2
+- FRAME "Birthday2", 375x667px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - LINE "Line 12", 375x0px, constraints left/top, stroke #D2D2D2 4px
+  - LINE "Line 13", 95x0px, constraints left/top, stroke #EA5D6B 4px
+  - GROUP "Group 272", 216x137px, constraints left/top, radius 0/0/0/0px
+    - TEXT "My Birthday is", 216x66px, constraints left/top, fill #000000, text [Gotham Medium, 34px], [heading]
+    - GROUP "Group 25", 198x17.66px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 24", 198x0.13px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+      - TEXT "0", 13.41x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "4", 13.41x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "/", 9.28x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "/", 9.28x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "0", 14.44x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "9", 14.44x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "1", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "9", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "9", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "0", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+    - TEXT "Your age will be public.", 138x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+  - GROUP "Group 273", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill gradient_linear(#FE3675 0% | #FF7854 100%)
+    - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+
+Screen: Page 1 / Birthday2
+- FRAME "Birthday2", 375x667px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 12x18px, constraints scale/scale, fill #939393, stroke #939393 0.5px
+  - GROUP "Group 9", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 4", 375x280px, constraints left/top, fill #CCCED3
+    - GROUP "Group 8", 366x198.33px, constraints left/top
+      - BOOLEAN_OPERATION "Delete", 22.99x17.24px, constraints center/center, fill #000000
+      - INSTANCE "0", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "9", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "8", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "7", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "6", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "5", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "4", 117.97x45.03px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x45.03px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "3", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "2", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+      - INSTANCE "1", 117.97x44.07px, constraints scale/scale
+        - VECTOR "Key Background", 117.97x44.07px, constraints scale/scale, radius 5px, fill #FCFCFE, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 123x12px, constraints left_right/bottom, fill #000000, text [SF Pro Bold, 10px]
+        - TEXT "Number", 123x30px, constraints left_right/bottom, fill #000000, text [SF Pro Regular, 25px], [heading]
+    - RECTANGLE "Rectangle 5", 140x4px, constraints left/top, radius 101px, fill #000000
+  - GROUP "Group 588", 375x0px, constraints left/top, radius 0/0/0/0px
+    - LINE "Line 12", 375x0px, constraints left/top, stroke #D2D2D2 4px
+    - LINE "Line 13", 95x0px, constraints left/top, stroke #EA5D6B 4px
+  - GROUP "Group 272", 198x40px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 25", 198x17.66px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 24", 198x0.13px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+      - TEXT "0", 13.41x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "4", 13.41x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "/", 9.28x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "/", 9.28x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "0", 14.44x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "9", 14.44x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "1", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "9", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "9", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+      - TEXT "0", 12.38x15.47px, constraints left/top, fill #939393, text [Gotham Medium, 16px]
+    - TEXT "Your age will be public.", 138x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+  - GROUP "Group 273", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill gradient_linear(#FE3675 0% | #FF7854 100%)
+    - TEXT "CONTINUE", 68x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+  - TEXT "Birthday", 95x21px, constraints left/top, fill #000000, text [Gotham Medium, 22px]
+
+Screen: Page 1 / Discovery
+- FRAME "Discovery", 375x667px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 924", 319x37px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 188", 319x37px, constraints left/top, radius 156px, fill #FFFFFF, effect [drop_shadow 10px offset 0 2 #00000026]
+    - VECTOR "Vector", 16x16px, constraints scale/scale, fill Dark Grey
+    - TEXT "Search...", 51x11px, constraints left/top, fill Dark Grey, text [Gotham Medium, 12px]
+  - GROUP "Group 923", 375x16px, constraints left/top
+    - LINE "Line 12", 375x0px, constraints left/top, stroke #D2D2D2 2px
+    - VECTOR "Line 13", 95x0px, constraints left/top, stroke #EA5D6B 2px
+    - TEXT "Recently Active", 95x11px, constraints left/top, fill Dark Grey, text [Gotham Medium, 12px]
+    - TEXT "For you", 47x11px, constraints left/top, fill Medium Grey, text [Gotham Medium, 12px]
+  - GROUP "Group 936", 135x140px, constraints left/top, radius 15px
+    - RECTANGLE "Rectangle 245", 135x140px, constraints left/top, radius 15px, fill #D9D9D9
+  - GROUP "Group 970", 280x140px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 931", 135x140px, constraints left/top, radius 15px
+      - RECTANGLE "Rectangle 245", 135x140px, constraints left/top, radius 15px, fill #D9D9D9
+    - GROUP "Group 930", 125x128.62px, constraints left/top
+      - GROUP "Group 929", 125x67px, constraints left/top
+        - TEXT "Petite, sweet, shy, caring", 125x11px, constraints left/top, fill #4A4A4A, text [Gotham Book, 10px]
+        - GROUP "Group 928", 100.11x36px, constraints left/top
+          - GROUP "Group 926", 100.11x15px, constraints left/top
+            - GROUP "Group 925", 78x15px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 12.11x11.1px, constraints scale/scale, fill #4396F7
+          - GROUP "Group 889", 77x11px, constraints left/top
+            - TEXT "Active Today", 65x11px, constraints left/top, fill #939393, text [Gotham Book, 10px]
+            - ELLIPSE "Ellipse 9", 7x7px, constraints left/top, fill #96E063
+      - GROUP "Group 927", 75.93x31.62px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 971", 280x140px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 932", 135x140px, constraints left/top, radius 15px
+      - RECTANGLE "Rectangle 245", 135x140px, constraints left/top, radius 15px, fill #D9D9D9
+    - GROUP "Group 933", 125x128.62px, constraints left/top
+      - GROUP "Group 929", 125x67px, constraints left/top
+        - TEXT "Petite, sweet, shy, caring", 125x11px, constraints left/top, fill #4A4A4A, text [Gotham Book, 10px]
+        - GROUP "Group 928", 100.11x36px, constraints left/top
+          - GROUP "Group 926", 100.11x15px, constraints left/top
+            - GROUP "Group 925", 78x15px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 12.11x11.1px, constraints scale/scale, fill #4396F7
+          - GROUP "Group 889", 77x11px, constraints left/top
+            - TEXT "Active Today", 65x11px, constraints left/top, fill #939393, text [Gotham Book, 10px]
+            - ELLIPSE "Ellipse 9", 7x7px, constraints left/top, fill #96E063
+      - GROUP "Group 927", 75.93x31.62px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 972", 280x140px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 934", 135x140px, constraints left/top, radius 15px
+      - RECTANGLE "Rectangle 245", 135x140px, constraints left/top, radius 15px, fill #D9D9D9
+    - GROUP "Group 935", 125x128.62px, constraints left/top
+      - GROUP "Group 929", 125x67px, constraints left/top
+        - TEXT "Petite, sweet, shy, caring", 125x11px, constraints left/top, fill #4A4A4A, text [Gotham Book, 10px]
+        - GROUP "Group 928", 100.11x36px, constraints left/top
+          - GROUP "Group 926", 100.11x15px, constraints left/top
+            - GROUP "Group 925", 78x15px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 12.11x11.1px, constraints scale/scale, fill #4396F7
+          - GROUP "Group 889", 77x11px, constraints left/top
+            - TEXT "Active Today", 65x11px, constraints left/top, fill #939393, text [Gotham Book, 10px]
+            - ELLIPSE "Ellipse 9", 7x7px, constraints left/top, fill #96E063
+      - GROUP "Group 927", 75.93x31.62px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 937", 125x128.62px, constraints left/top
+    - GROUP "Group 929", 125x67px, constraints left/top
+      - TEXT "Petite, sweet, shy, caring", 125x11px, constraints left/top, fill #4A4A4A, text [Gotham Book, 10px]
+      - GROUP "Group 928", 100.11x36px, constraints left/top
+        - GROUP "Group 926", 100.11x15px, constraints left/top
+          - GROUP "Group 925", 78x15px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Sophia,", 54x15px, constraints left/top, fill #4A4A4A, text [Gotham Bold, 14px]
+            - TEXT "24", 20x12px, constraints left/top, fill #FE3675, text [Gotham Book, 14px]
+          - VECTOR "Vector", 12.11x11.1px, constraints scale/scale, fill #4396F7
+        - GROUP "Group 889", 77x11px, constraints left/top
+          - TEXT "Active Today", 65x11px, constraints left/top, fill #939393, text [Gotham Book, 10px]
+          - ELLIPSE "Ellipse 9", 7x7px, constraints left/top, fill #96E063
+    - GROUP "Group 927", 75.93x31.62px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 948", 129x44px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 247", 129x44px, constraints left/top, radius 30px, fill Black, effect [drop_shadow 10px offset 0 0 #00000040]
+    - GROUP "Group 947", 67x14px, constraints left/top
+      - GROUP "Group 48", 17x14px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "Filters", 45x13px, constraints left/top, fill #FFFFFF, text [Gotham Medium, 14px]
+
+Screen: Page 1 / Discovery
+- FRAME "Discovery", 375x667px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 246", 375x622px, constraints left/top, radius 10/10/0/0px, fill #FFFFFF, effect [drop_shadow 10px offset 0 0 #00000026]
+  - GROUP "Group 924", 319x37px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 188", 319x37px, constraints left/top, radius 156px, fill #FFFFFF, effect [drop_shadow 10px offset 0 2 #00000026]
+    - VECTOR "Vector", 16x16px, constraints scale/scale, fill Dark Grey
+    - TEXT "Newport Beach, CA, United States", 207x11px, constraints left/top, fill Dark Grey, text [Gotham Medium, 12px]
+  - GROUP "Group 938", 318x19px, constraints left/top
+    - TEXT "Filters", 51x15px, constraints left/top, fill Dark Grey, text [Gotham Medium, 16px]
+    - GROUP "Group 827", 19x19px, constraints left/top
+      - ELLIPSE "Ellipse 1", 19x19px, constraints left/top, fill Black
+      - VECTOR "Vector", 7.89x7.89px, constraints scale/scale, fill #F5F7FA
+  - GROUP "Group 941", 319x57px, constraints left/top
+    - GROUP "Group 905", 47x31px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 940", 47x31px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Height", 47x13px, constraints left/top, fill #4A4A4A, text [Gotham Medium, 14px]
+        - TEXT "5’ 10”", 40x13px, constraints left/top, fill #EA5D6B, text [Gotham Medium, 14px]
+    - GROUP "Group 577", 319x16px, constraints left/top
+      - LINE "Line 14", 319x0px, constraints left/top, stroke #D2D2D2 3px
+      - LINE "Line 15", 196x0px, constraints left/top, stroke #EA5D6B 3px
+      - ELLIPSE "Ellipse 71", 16x16px, constraints left/top, fill #EA5D6B
+  - GROUP "Group 939", 319x39px, constraints left/top
+    - GROUP "Group 902", 313x13px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Age preference", 109x13px, constraints left/top, fill #4A4A4A, text [Gotham Medium, 14px]
+      - TEXT "22-40", 42x13px, constraints left/top, fill #939393, text [Gotham Book, 14px]
+    - GROUP "Group 903", 319x16px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 273", 210x44px, constraints left/top, radius 62px, effect [drop_shadow 13px offset 0 4 #00000040]
+    - RECTANGLE "Rectangle 1", 210x44px, constraints scale/scale, radius 62px, fill gradient_linear(#FE3675 0% | #FF7854 100%)
+    - TEXT "APPLY", 40x11px, constraints scale/scale, fill #FFFFFF, text [Gotham Medium, 12px]
+  - GROUP "Group 944", 299x117px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 942", 299x94px, constraints left/top, radius 2px
+      - TEXT "MIDDLE EASTERN", 111x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+      - TEXT "EAST ASIAN", 76x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+      - TEXT "SOUTH ASIAN", 87x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+      - TEXT "OTHER", 44x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+      - TEXT "AMERICAN INDIAN", 117x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+      - RECTANGLE "Rectangle 233", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+      - RECTANGLE "Rectangle 234", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+      - RECTANGLE "Rectangle 235", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+      - RECTANGLE "Rectangle 236", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+      - RECTANGLE "Rectangle 237", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+      - TEXT "BLACK AFRICAN DESCENT", 108x30px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+      - TEXT "PACIFIC ISLANDER", 116x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+      - TEXT "HISPANIC LATINO", 110x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+      - TEXT "WHITE CAUCASION", 122x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+      - RECTANGLE "Rectangle 237", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+      - RECTANGLE "Rectangle 238", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+      - RECTANGLE "Rectangle 239", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+      - RECTANGLE "Rectangle 240", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+    - GROUP "Group 943", 299x13px, constraints left/top
+      - TEXT "Ethnicity", 63x13px, constraints left/top, fill #4A4A4A, text [Gotham Medium, 14px]
+      - RECTANGLE "Rectangle 242", 10x2.5px, constraints left/top, fill #939393
+  - GROUP "Group 946", 299x96px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 915", 248x71px, constraints left/top, radius 2px
+      - GROUP "Group 913", 248x71px, constraints left/top, radius 2px
+        - TEXT "SLIM", 30x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+        - TEXT "AVERAGE", 61x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+        - TEXT "FIT", 20x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+        - TEXT "HEAVY", 43x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+        - RECTANGLE "Rectangle 238", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+        - RECTANGLE "Rectangle 239", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+        - RECTANGLE "Rectangle 240", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+        - RECTANGLE "Rectangle 241", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+        - TEXT "MASCULAR", 71x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+        - TEXT "CURVY", 44x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+        - TEXT "ATHELETIC", 69x11px, constraints scale/scale, fill #939393, text [Gotham Book, 12px]
+        - RECTANGLE "Rectangle 237", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+        - RECTANGLE "Rectangle 238", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+        - RECTANGLE "Rectangle 239", 10x10px, constraints left/top, radius 2px, stroke #939393 0.9px
+    - GROUP "Group 945", 299x15px, constraints left/top
+      - GROUP "Group 908", 87x15px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Body Type", 87x15px, constraints left/top, fill #4A4A4A, text [Gotham Medium, 16px]
+      - RECTANGLE "Rectangle 243", 10x2.5px, constraints left/top, fill #939393
+
+Screen: Page 1 / Profile
+- FRAME "Profile", 375x1713px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 931", 300x315px, constraints left/top, radius 15px
+    - RECTANGLE "Rectangle 245", 300x315px, constraints left/top, radius 15px, fill #D9D9D9
+  - GROUP "Group 949", 282x19px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 544", 76x19px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 192", 76x19px, constraints left/top, radius 15px, fill #57B89D
+      - GROUP "Group 543", 54x10px, constraints left/top
+        - VECTOR "Vector", 10x9px, constraints scale/scale, fill #F5F7FA
+        - TEXT "Verified", 39x10px, constraints left/top, fill #FFFFFF, text [Gotham Book, 10px]
+    - GROUP "Group 542", 67x19px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 192", 67x19px, constraints left/top, radius 15px, fill #57B89D
+      - GROUP "Group 406", 39x10px, constraints left/top
+        - TEXT "Today", 31x10px, constraints left/top, fill #FFFFFF, text [Gotham Book, 10px]
+        - ELLIPSE "Ellipse 9", 5.23x5.23px, constraints left/top, fill #96E063
+  - GROUP "Group 956", 145x59px, constraints left/top
+    - GROUP "Group 955", 145x37px, constraints left/top
+      - GROUP "Group 550", 145x16px, constraints left/top
+        - VECTOR "Vector", 18x16px, constraints scale/scale, fill #4396F7
+        - TEXT "Sophiabeauty6", 122x15px, constraints left/top, fill #4A4A4A, text [Gotham Medium, 16px]
+      - TEXT "Beauty Lies within", 111x11px, constraints left/top, fill #939393, text [Gotham Medium, 12px]
+    - GROUP "Group 954", 50x12px, constraints left/top
+      - TEXT "Today", 36x12px, constraints left/top, fill #939393, text [Gotham Book, 12px]
+      - ELLIPSE "Ellipse 9", 9x9px, constraints left/top, fill #96E063
+  - GROUP "Group 957", 320x75px, constraints left/top, radius 0/0/0/0px
+    - TEXT "About", 53x16px, constraints left/top, fill #4A4A4A, text [Gotham Medium, 16px]
+    - TEXT "I am honest, encouraging, sweet , and always pure. I'm passi", 320x54px, constraints left/top, fill Medium Grey, text [Gotham Book, 12px]
+  - GROUP "Group 966", 320x151px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 959", 320x15px, constraints left/top
+      - TEXT "Private Album", 115x15px, constraints left/top, fill #4A4A4A, text [Gotham Medium, 16px]
+      - GROUP "Group 958", 28x13px, constraints left/top
+        - VECTOR "Vector", 13x13px, constraints scale/scale, fill #4A4A4A
+        - TEXT "5", 10x12px, constraints left/top, fill #C7B182, text [Gotham Medium, 16px]
+    - GROUP "Group 965", 320x126px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 193", 320x126px, constraints left/top, radius 10px, fill #FFFFFF, effect [drop_shadow 10px offset 0 2 #00000026]
+      - GROUP "Group 964", 291x101px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 961", 291x57px, constraints left/top
+          - GROUP "Group 960", 170x15px, constraints left/top
+            - VECTOR "Vector", 12x15px, constraints scale/scale, fill #4A4A4A
+            - TEXT "Access Private Album", 153x12px, constraints left/top, fill #4A4A4A, text [Gotham Medium, 14px]
+          - TEXT "Sophiabeauty6 has 5 secret photos not visible to the public.", 291x32px, constraints left/top, fill #939393, text [Gotham Book, 12px]
+        - GROUP "Group 963", 291x34px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 194", 291x34px, constraints left/top, radius 10px, fill #C7B182
+          - GROUP "Group 962", 129x14px, constraints left/top
+            - TEXT "Request Access", 110x13px, constraints left/top, fill #FFFFFF, text [Gotham Book, 14px]
+            - VECTOR "Vector", 14x14px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Group 546", 300x44px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 28", 300x44px, constraints left/top, radius 62px, effect [drop_shadow 20px offset 0 4 #00000026]
+      - RECTANGLE "Rectangle 1", 300x44px, constraints scale/scale, radius 62px, fill #4390F2
+    - GROUP "Group 540", 112x15px, constraints left/top
+      - VECTOR "Vector", 16x15px, constraints scale/scale, fill #FFFFFF
+      - TEXT "Message Me", 86x13px, constraints left/top, fill #FFFFFF, text [Gotham Medium, 14px]
+  - GROUP "Group 975", 320x140px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 969", 320x15px, constraints left/top
+      - TEXT "Album", 54x15px, constraints left/top, fill #4A4A4A, text [Gotham Medium, 16px]
+      - GROUP "Group 968", 30x13px, constraints left/top
+        - VECTOR "Vector", 18x10px, constraints scale/scale, fill #4A4A4A
+        - TEXT "1", 7x13px, constraints left/top, fill #C42936, text [Gotham Medium, 16px]
+    - LINE "Line 49", 320x0px, constraints left/top, stroke #93939380 0.2px
+    - GROUP "Group 974", 108x105px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 931", 108x105px, constraints left/top, radius 15px
+        - RECTANGLE "Rectangle 245", 108x105px, constraints left/top, radius 15px, fill #D9D9D9
+      - GROUP "Group 565", 22x22px, constraints left/top
+        - ELLIPSE "Ellipse 70", 22x22px, constraints left/top, fill #00000080
+        - VECTOR "Vector", 12.57x12.57px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 192", 88x13px, constraints left/top, radius 12px, fill #57B89D
+      - GROUP "Group 973", 50x7px, constraints left/top
+        - VECTOR "Vector", 8x7px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Verification", 40x5px, constraints left/top, fill #FFFFFF, text [Gotham Book, 7px]
+  - GROUP "Group 981", 278x87px, constraints left/top, radius 62px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

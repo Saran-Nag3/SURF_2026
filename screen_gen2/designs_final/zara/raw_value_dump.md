@@ -1,0 +1,853 @@
+---
+name: todo-app-community
+source_file: Todo App (Community)
+source_page: All pages (2): Pages, Components
+generated_at: 2026-07-25T09:51:02.642893+00:00
+---
+
+# Todo App (Community) Design Guidelines
+
+## Source
+- Figma file: Todo App (Community)
+- Figma page: All pages (2): Pages, Components
+- Extracted at: 2026-07-25T09:51:02.642893+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Primary/Primary: none
+- Neutral/neutral15: [#5C5C5C]
+- Primary/Tints/Primary100: [#E1F2FE]
+- Neutral/neutral100: [#FFFFFF]
+- Primary/Shades/Primary100: [#0970BB]
+- Outlines/outline: [#1195F4]
+- Neutral/neutral20: none
+- Neutral/neutral50: [#D8D8D8]
+- Neutral/neutral10: [#3E3E3E]
+- Secondary/Secondary100: [#E1E3FE]
+- Neutral/neutral5: [#242424]
+- header: [#373A5B]
+- Primary/Tints/Primary80: [#B4DDFB]
+- Primary/Tints/Primary50: [#88CAFA]
+- Tertiary/Tertiary100: [#FBE1FE]
+- Tertiary/Tertiary50: [#F188FA]
+- Tertiary/Tertiary: [#E211F4]
+- Secondary/Secondary50: [#8891FA]
+- Secondary/Secondary0: [#1123F4]
+- Neutral/neutral0: [#000000]
+
+## Raw Colors (unstyled)
+- #D9D9D9: 112 uses
+- #FFFFFF: 31 uses
+- #9747FF: 18 uses
+- #1C1B1F: 17 uses
+- #7346F9: 3 uses
+
+## Typography Tokens
+- Label/large: Roboto Medium (500), 14px / 20px, tracking 0px
+- Body/medium: Roboto Regular (400), 14px / 20px, tracking 0px
+- Body/large: Roboto Regular (400), 16px / 24px, tracking 0px
+- Label/small: Roboto Medium (500), 11px / 16px, tracking 0px
+- Headline/medium: Roboto Regular (400), 28px / 36px, tracking 0px
+- Title/large: Roboto Regular (400), 22px / 28px, tracking 0px
+
+## Raw Typography (unstyled)
+- No significant unstyled fonts found (or all text is already captured as styles).
+
+## Typography Hierarchy
+- 28px - Headline/medium (Roboto Regular)
+- 22px - Title/large (Roboto Regular)
+- 16px - Body/large (Roboto Regular)
+- 14px - Body/medium (Roboto Regular)
+- 14px - Label/large (Roboto Medium)
+- 11px - Label/small (Roboto Medium)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Elevation/Light/2: [drop_shadow 5px offset 0 2 #0000004D]
+- Elevation/Light/1: [drop_shadow 22px offset 0 4 #0000004D]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- overlay-tasks
+- Frame 10
+- button
+- list-item
+- Group 1
+- Checkbox
+- schedule
+- calendar
+- automation
+- menu
+- performance
+- home
+- charts
+- top-bar
+- Primary
+- Tertiary
+- Shades
+- snack-bar
+- check
+- border_color
+- more_horiz
+- arrow_right
+- add
+- Nav-bar
+
+## Component Specs
+- overlay-tasks: size 375x158px, text [Body/medium, Body/large]
+- Frame 10: size 408x83px, radius 6px, horizontal layout, padding 22 1 22 1px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #9747FF, effect [drop_shadow 2px offset 0 2 #00000038], text [Inter Regular, 32px]
+- button (Components): size 111x40px, radius 20px, horizontal layout, padding 8 16 8 16px, gap 0px, align center/center, sizing W:fixed H:fixed, fill Primary/Tints/Primary100, text [Label/large] | variants: selected: no/yes
+- list-item: size 337x77px, vertical layout, padding 8 0 8 0px, gap 8px, align center/center, sizing W:fixed H:fixed, text [Body/medium, Body/large] | variants: checkbox: no/yes; leading: no/yes; left-icon: no/yes; with-supporting-text: no/yes
+- button (Components): size 133x44px, radius 20px, horizontal layout, padding 10 24 10 24px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Primary/Primary, text [Label/large] | variants: Configuration: Outlined/elevated/filled/plus/text; With-text: no/yes; With-icon: no/yes; State: disabled/enabled/hovered/pressed
+- Group 1: size 24x24px | variants: Selected: no/yes
+- Checkbox: size 24x24px, radius 4px, fill #FFFFFF | variants: Checked: no/yes
+- schedule: size 48x28px, radius 20px, horizontal layout, padding 0 12 0 12px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Secondary/Secondary100 | variants: Selected: no/yes
+- calendar: size 48x28px, radius 20px, horizontal layout, padding 0 12 0 12px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Secondary/Secondary100 | variants: Selected: no/yes
+- automation: size 48x28px, radius 20px, horizontal layout, padding 1 12 1 12px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Secondary/Secondary100 | variants: Selected: no/yes
+- menu: size 40x28px, radius 20px, horizontal layout, padding 2 8 2 8px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Secondary/Secondary100 | variants: hovered: no/yes
+- performance: size 48x28px, radius 20px, horizontal layout, padding 0 12 0 12px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Secondary/Secondary100 | variants: Selected: Default/no
+- home: size 48x28px, radius 20px, horizontal layout, padding 2 12 2 12px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Secondary/Secondary100 | variants: Selected: no/yes
+- charts: size 48x28px, radius 20px, horizontal layout, padding 0 12 0 12px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Secondary/Secondary100 | variants: Selected: no/yes
+- top-bar: size 327x60px, vertical layout, padding 8 16 8 16px, gap 0px, sizing W:fixed H:fixed, fill header, text [Headline/medium, Title/large] | variants: Size: big/small; home-page: no/yes
+- Primary (Components): size 96x30px, fill Primary/Shades/Primary100 | variants: Property 1: Default/Variant3/Variant4/Variant5/primary50
+- Tertiary: size 96x30px, fill #FFFFFF | variants: Property 1: Default/Variant2/Variant3
+- Shades: size 96x30px, fill Secondary/Secondary100 | variants: Property 1: Default
+- Primary (Components): size 96x30px | variants: Property 1: Primary/Surface1/Tertiary
+- snack-bar: size 394x60px, radius 5px, horizontal layout, padding 18 42 18 42px, gap 10px, sizing W:fixed H:fixed, fill Neutral/neutral15, text [Body/large]
+- check: size 24x24px
+- border_color: size 24x24px
+- more_horiz: size 24x24px
+- arrow_right: size 24x24px
+- add: size 24x24px
+- Nav-bar: size 297x60px, horizontal layout, padding 8 8 8 8px, gap 20px, align space_between/center, sizing W:fixed H:fixed, fill header, text [Label/small]
+
+## Most-Used Styles
+- Primary/Primary: 103 uses
+- Neutral/neutral15: 99 uses
+- Neutral/neutral100: 56 uses
+- Neutral/neutral50: 29 uses
+- Label/large: 27 uses
+- Body/large: 26 uses
+- Label/small: 20 uses
+- Outlines/outline: 20 uses
+- Neutral/neutral5: 19 uses
+- Body/medium: 17 uses
+- Secondary/Secondary100: 15 uses
+- header: 15 uses
+- Neutral/neutral10: 12 uses
+- Neutral/neutral20: 10 uses
+- Title/large: 7 uses
+- Elevation/Light/1: 6 uses
+- Primary/Shades/Primary100: 6 uses
+- Primary/Tints/Primary100: 6 uses
+- Headline/medium: 3 uses
+- Neutral/neutral0: 3 uses
+- Secondary/Secondary0: 3 uses
+- Elevation/Light/2: 2 uses
+- Tertiary/Tertiary: 2 uses
+- Primary/Tints/Primary50: 1 use
+- Primary/Tints/Primary80: 1 use
+- Secondary/Secondary50: 1 use
+- Tertiary/Tertiary100: 1 use
+- Tertiary/Tertiary50: 1 use
+
+## Layout & Structure
+Screen: Pages / Thumb
+- FRAME "Thumb", 1440x1024px, constraints left/top, fill gradient_linear(#FFFFFF57 0% | #7346F917 100%)
+  - FRAME "Frame 11", 641x503px, vertical pad 0 0 0 0px gap 72px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Efficiency at your fingertips!", 641x348px, constraints left/top, fill header, text [Inter SemiBold, 96px], [heading]
+    - COMPONENT "Frame 10", 408x83px, horizontal pad 22 1 22 1px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #9747FF, effect [drop_shadow 2px offset 0 2 #00000038]
+      - TEXT "download for free!", 277x39px, constraints left/top, fill #FFFFFF, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "home 1", 262.44x465.81px, constraints left/top, fill image(hash: 34b95ad47d9d8477b862e72e6c95dc8db931aac5)
+  - RECTANGLE "tasks 1", 262.44x465.81px, constraints left/top, fill image(hash: e32512faa5bacd3827864bf7fd1de2401eb09f43)
+  - RECTANGLE "tasks 2", 262.44x465.81px, constraints left/top, fill image(hash: e32512faa5bacd3827864bf7fd1de2401eb09f43)
+  - RECTANGLE "today-tasks 1", 266.39x448.82px, constraints left/top, fill image(hash: 03d012632c5f02ea3c143ce898326f7a28618401)
+  - RECTANGLE "edit 1", 263.43x464.81px, constraints left/top, fill image(hash: 1a22a04bdfe15c91f090f20820839f2cd5b0464e)
+  - RECTANGLE "automations 1", 262.44x465.81px, constraints left/top, fill image(hash: e87f99159b0271a52b40e8bb43d82574286a19b0)
+
+Screen: Pages / Frames
+- FRAME "Frames", 2400x2829px, constraints left/top, fill #D9D9D921
+  - FRAME "home", 375x667px, constraints left/top
+    - RECTANGLE "Rectangle 1", 375x667px, constraints left/top, fill Neutral/neutral100
+    - INSTANCE "top-bar", 375x149px, vertical pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left_right/top, fill header
+      - FRAME "first-row", 279x44px, horizontal pad 8 16 8 16px gap 91px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "left-icons", 43x28px, horizontal pad 0 0 0 0px gap 17px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 82x28px, constraints left/top, fill Neutral/neutral100, text [Title/large], [heading]
+        - FRAME "right-icons", 40x28px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "menu", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "mdi:dots-vertical", 24x24px, constraints left/top, fill #FFFFFF
+      - FRAME "big-title", 87x36px, horizontal pad 0 16 0 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Title", 65x36px, constraints left/top, fill Neutral/neutral100, text [Headline/medium], [heading]
+    - RECTANGLE "Rectangle 2", 375x556px, constraints left/top, radius 30/30/0/0px, fill Secondary/Secondary100, effect Elevation/Light/1
+    - FRAME "content", 375x168px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "list-item", 337x56px, vertical pad 8 0 8 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x40px, horizontal pad 8 0 8 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 133x24px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "left-icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 93x24px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "arrow_right", 24x24px, constraints left/top
+      - INSTANCE "list-item", 337x56px, vertical pad 8 0 8 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x40px, horizontal pad 8 0 8 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 133x24px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "left-icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 93x24px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "arrow_right", 24x24px, constraints left/top
+      - INSTANCE "list-item", 337x56px, vertical pad 8 0 8 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x40px, horizontal pad 8 0 8 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 133x24px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "left-icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 93x24px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "arrow_right", 24x24px, constraints left/top
+  - FRAME "tasks", 375x667px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Nav-bar", 375x60px, horizontal pad 8 8 8 8px gap 20px align space_between/center sizing W:fixed H:fixed, constraints left_right/bottom, fill header
+      - FRAME "Frame 1", 60x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "calendar", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "event", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event", 18x20px, constraints scale/scale, fill Neutral/neutral100
+        - TEXT "Today tasks", 60x16px, constraints left/top, fill Neutral/neutral100, text [Label/small]
+      - FRAME "Frame 2", 48x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "schedule", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+          - GROUP "overview", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "overview", 20x20px, constraints scale/scale, fill Neutral/neutral10
+        - TEXT "Tasks", 29x16px, constraints left/top, fill Neutral/neutral100, text [Label/small]
+      - FRAME "Frame 1", 64x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "automation", 48x28px, horizontal pad 1 12 1 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "event_repeat", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event_repeat", 21x22px, constraints scale/scale, fill Neutral/neutral100
+        - TEXT "Automations", 64x16px, constraints left/top, fill Neutral/neutral100, text [Label/small]
+      - FRAME "Frame 1", 65x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "charts", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "equalizer", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "equalizer", 16x16px, constraints scale/scale, fill Neutral/neutral100
+        - TEXT "Performance", 65x16px, constraints left/top, fill Neutral/neutral100, text [Label/small]
+    - INSTANCE "top-bar", 375x60px, vertical pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left_right/top, fill header
+      - FRAME "first-row", 343x44px, horizontal pad 8 16 8 16px gap 91px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "left-icons", 99x28px, horizontal pad 0 0 0 0px gap 17px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints left/top, fill Neutral/neutral100
+          - TEXT "Title", 58x28px, constraints left/top, fill Neutral/neutral100, text [Title/large], [heading]
+        - FRAME "right-icons", 88x28px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "home", 48x28px, horizontal pad 2 12 2 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "mi:home", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "menu", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "mdi:dots-vertical", 24x24px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 7", 375x245px, vertical pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "list-item", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 96x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "more_horiz", 24x24px, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+      - INSTANCE "list-item", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 96x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "more_horiz", 24x24px, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+      - INSTANCE "list-item", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 96x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "more_horiz", 24x24px, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+    - INSTANCE "list-item", 375x53px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/top, fill header
+      - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "left-contents", 136x53px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-icons", 24x24px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "left", 24x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "List item title", 33x24px, constraints left/top, fill Neutral/neutral50, text [Body/large]
+            - TEXT "Supporting text", 43x20px, constraints left/top, fill Neutral/neutral50, text [Body/medium]
+  - FRAME "today-tasks", 381x643px, constraints left/top, fill #FFFFFF
+    - INSTANCE "top-bar", 381x60px, vertical pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left_right/top, fill header
+      - FRAME "first-row", 349x44px, horizontal pad 8 16 8 16px gap 91px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "left-icons", 164x28px, horizontal pad 0 0 0 0px gap 17px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints left/top, fill Neutral/neutral100
+          - TEXT "Title", 123x28px, constraints left/top, fill Neutral/neutral100, text [Title/large], [heading]
+        - FRAME "right-icons", 88x28px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "home", 48x28px, horizontal pad 2 12 2 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "mi:home", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "menu", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "mdi:dots-vertical", 24x24px, constraints left/top, fill #FFFFFF
+    - FRAME "content", 381x241px, vertical pad 0 0 0 0px gap 5px align center/center sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "list-item", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 136x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+      - INSTANCE "list-item", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 136x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+      - INSTANCE "list-item", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 136x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+    - INSTANCE "Nav-bar", 381x60px, horizontal pad 8 8 8 8px gap 20px align space_between/max sizing W:fixed H:fixed, constraints left_right/bottom, fill header
+      - FRAME "Frame 1", 60x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "calendar", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+          - GROUP "event", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event", 18x20px, constraints scale/scale, fill Neutral/neutral10
+        - TEXT "Today tasks", 60x16px, constraints left/top, fill Neutral/neutral100, text [Label/small]
+      - FRAME "Frame 2", 48x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "schedule", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "overview", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "overview", 20x20px, constraints scale/scale, fill Neutral/neutral100
+        - TEXT "Tasks", 29x16px, constraints left/top, fill Neutral/neutral100, text [Label/small]
+      - FRAME "Frame 1", 64x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "automation", 48x28px, horizontal pad 1 12 1 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "event_repeat", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event_repeat", 21x22px, constraints scale/scale, fill Neutral/neutral100
+        - TEXT "Automations", 64x16px, constraints left/top, fill Neutral/neutral100, text [Label/small]
+      - FRAME "Frame 1", 65x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "charts", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "equalizer", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "equalizer", 16x16px, constraints scale/scale, fill Neutral/neutral100
+        - TEXT "Performance", 65x16px, constraints left/top, fill Neutral/neutral100, text [Label/small]
+  - FRAME "automations", 375x667px, constraints left/top, fill #FFFFFF
+    - INSTANCE "top-bar", 375x60px, vertical pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left_right/top, fill header
+      - FRAME "first-row", 343x44px, horizontal pad 8 16 8 16px gap 91px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "left-icons", 156x28px, horizontal pad 0 0 0 0px gap 17px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints left/top, fill Neutral/neutral50
+          - TEXT "Title", 115x28px, constraints left/top, fill Neutral/neutral50, text [Title/large], [heading]
+        - FRAME "right-icons", 88x28px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "home", 48x28px, horizontal pad 2 12 2 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "mi:home", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "menu", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "mdi:dots-vertical", 24x24px, constraints left/top, fill #FFFFFF
+    - INSTANCE "button", 43x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill Primary/Primary, effect Elevation/Light/1
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Neutral/neutral100
+    - FRAME "Frame 7", 375x231px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "list-item", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 96x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "arrow_right", 24x24px, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+      - INSTANCE "list-item", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 96x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "arrow_right", 24x24px, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+      - INSTANCE "list-item", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 96x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "arrow_right", 24x24px, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+    - INSTANCE "Nav-bar", 375x60px, horizontal pad 8 8 8 8px gap 20px align space_between/center sizing W:fixed H:fixed, constraints left_right/bottom, fill header
+      - FRAME "Frame 1", 60x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "calendar", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "event", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event", 18x20px, constraints scale/scale, fill Neutral/neutral50
+        - TEXT "Today tasks", 60x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+      - FRAME "Frame 2", 48x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "schedule", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "overview", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "overview", 20x20px, constraints scale/scale, fill Neutral/neutral50
+        - TEXT "Tasks", 29x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+      - FRAME "Frame 1", 64x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "automation", 48x28px, horizontal pad 1 12 1 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+          - GROUP "event_repeat", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event_repeat", 21x22px, constraints scale/scale, fill Neutral/neutral10
+        - TEXT "Automations", 64x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+      - FRAME "Frame 1", 65x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "charts", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "equalizer", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "equalizer", 16x16px, constraints scale/scale, fill Neutral/neutral50
+        - TEXT "Performance", 65x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+  - COMPONENT "overlay-tasks", 375x158px, constraints left/top
+    - RECTANGLE "Rectangle 4", 375x158px, constraints scale/scale, radius 30/30/0/0px, fill Secondary/Secondary100, effect Elevation/Light/2
+    - INSTANCE "List-item", 375x60px, constraints left/top
+      - FRAME "Content", 375x60px, horizontal pad 16 16 16 16px gap 0px align space_between/center sizing W:fixed H:fixed, constraints scale/scale, stroke Neutral/neutral15 1px
+        - FRAME "Frame 6", 80x28px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left", 48x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "calendar", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "Group 4", 28x24px, constraints left/top, radius 0/0/0/0px
+            - TEXT "list item title", 28x24px, constraints left/top, fill Neutral/neutral15, text [Body/large]
+        - GROUP "Group 5", 45x24px, constraints left/top
+          - FRAME "Frame 3", 45x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "material-symbols:arrow-right", 24x24px, constraints left/top, fill #FFFFFF
+    - INSTANCE "List-item", 377x60px, constraints left/top
+      - FRAME "Content", 377x60px, horizontal pad 16 16 16 16px gap 0px align space_between/center sizing W:fixed H:fixed, constraints scale/scale, stroke Neutral/neutral15 1px
+        - FRAME "Frame 6", 98x28px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left", 48x28px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "calendar", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "Group 4", 46x24px, constraints left/top, radius 0/0/0/0px
+            - TEXT "list item title", 46x24px, constraints left/top, fill Neutral/neutral15, text [Body/large]
+        - GROUP "Group 5", 45x24px, constraints left/top
+          - FRAME "Frame 3", 45x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "material-symbols:arrow-right", 24x24px, constraints left/top, fill #FFFFFF
+  - INSTANCE "snack-bar", 329x60px, horizontal pad 18 42 18 42px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Primary/Tints/Primary100
+    - TEXT "Message here", 59x24px, constraints left/top, fill header, text [Body/large]
+  - FRAME "automations/edit", 375x667px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Nav-bar", 375x60px, horizontal pad 8 8 8 8px gap 20px align space_between/center sizing W:fixed H:fixed, constraints left/bottom, fill header
+      - FRAME "Frame 1", 60x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "calendar", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "event", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event", 18x20px, constraints scale/scale, fill Neutral/neutral50
+        - TEXT "Today tasks", 60x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+      - FRAME "Frame 2", 48x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "schedule", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "overview", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "overview", 20x20px, constraints scale/scale, fill Neutral/neutral50
+        - TEXT "Tasks", 29x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+      - FRAME "Frame 1", 64x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "automation", 48x28px, horizontal pad 1 12 1 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+          - GROUP "event_repeat", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event_repeat", 21x22px, constraints scale/scale, fill Neutral/neutral5
+        - TEXT "Automations", 64x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+      - FRAME "Frame 1", 65x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "charts", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "equalizer", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "equalizer", 16x16px, constraints scale/scale, fill Neutral/neutral10
+        - TEXT "Performance", 65x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+    - INSTANCE "top-bar", 375x60px, vertical pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left_right/top, fill header
+      - FRAME "first-row", 343x44px, horizontal pad 8 16 8 16px gap 91px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "left-icons", 205x28px, horizontal pad 0 0 0 0px gap 17px align center/center sizing W:fixed H:fixed, constraints left/top
+          - VECTOR "Vector", 24x24px, constraints left/top, fill Neutral/neutral100
+          - TEXT "Title", 164x28px, constraints left/top, fill Neutral/neutral100, text [Title/large], [heading]
+        - FRAME "right-icons", 88x28px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "home", 48x28px, horizontal pad 2 12 2 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "mi:home", 24x24px, constraints left/top, fill #FFFFFF
+          - INSTANCE "menu", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - FRAME "mdi:dots-vertical", 24x24px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 7", 375x223px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left_right/top
+      - INSTANCE "list-item", 375x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 96x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 6", 24x24px, constraints left/top
+            - INSTANCE "border_color", 24x24px, constraints left/top
+        - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+      - FRAME "list-item", 375x138px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "first-row", 337x24px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-contents", 35x24px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "texts", 35x24px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 7", 337x82px, vertical pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 7", 337x40px, horizontal pad 0 8 0 8px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "button", 113x36px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Primary/Primary 1px
+            - INSTANCE "button", 113x36px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Primary/Primary 1px
+            - INSTANCE "button", 76x40px, horizontal pad 8 16 8 16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Tints/Primary100
+          - FRAME "Frame 8", 337x40px, horizontal pad 0 8 0 8px gap 2px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "button", 113x36px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Primary/Primary 1px
+            - INSTANCE "button", 113x36px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Primary/Primary 1px
+            - INSTANCE "button", 73x40px, horizontal pad 8 16 8 16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Tints/Primary100
+            - INSTANCE "button", 113x36px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Primary/Primary 1px
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Components / Colors
+- FRAME "Colors", 814x336px, constraints left/top, fill #FFFFFF
+  - COMPONENT_SET "Primary", 136x220px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Primary", 96x30px, constraints left/top
+      - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Primary/Primary
+    - COMPONENT "Property 1=Surface1", 96x30px, constraints left/top
+      - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Secondary/Secondary0
+    - COMPONENT "Property 1=Tertiary", 96x30px, constraints left/top
+      - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Tertiary/Tertiary
+  - COMPONENT_SET "Shades", 136x130px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Secondary", 96x30px, constraints left/top, fill Secondary/Secondary0
+      - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Secondary/Secondary0
+    - COMPONENT "on-secondary", 96x30px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Secondary/Secondary50
+    - COMPONENT "Property 1=Default", 96x30px, constraints left/top, fill Secondary/Secondary100
+      - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale
+  - COMPONENT_SET "Tertiary", 136x130px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Default", 96x30px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Tertiary/Tertiary
+    - COMPONENT "Property 1=Variant2", 96x30px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Tertiary/Tertiary50
+    - COMPONENT "Property 1=Variant3", 96x30px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Tertiary/Tertiary100
+  - COMPONENT_SET "Primary", 136x190px, vertical pad 20 20 20 20px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Variant4", 96x30px, constraints left/top, fill Primary/Shades/Primary100
+      - INSTANCE "Primary", 96x30px, constraints scale/scale
+        - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Primary/Shades/Primary100
+    - COMPONENT "Property 1=Default", 96x30px, constraints left/top, fill Primary/Shades/Primary100
+      - INSTANCE "Primary", 96x30px, constraints scale/scale
+        - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Primary/Primary
+    - COMPONENT "Property 1=primary50", 96x30px, constraints left/top
+      - INSTANCE "Primary", 96x30px, constraints scale/scale
+        - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Primary/Tints/Primary50
+    - COMPONENT "Property 1=Variant5", 96x30px, constraints left/top
+      - INSTANCE "Primary", 96x30px, constraints scale/scale
+        - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Primary/Tints/Primary80
+    - COMPONENT "Property 1=Variant3", 96x30px, constraints left/top
+      - INSTANCE "Primary", 96x30px, constraints scale/scale
+        - RECTANGLE "Rectangle 2", 96x30px, constraints scale/scale, fill Primary/Tints/Primary100
+
+Screen: Components / Bars
+- FRAME "Bars", 803x497px, constraints left/top, fill #FFFFFF
+  - FRAME "Light", 707x390px, constraints left_right/top
+    - COMPONENT_SET "top-bar", 354x335px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Size=small, home-page=no", 327x60px, vertical pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, fill header
+        - FRAME "first-row", 295x44px, horizontal pad 8 16 8 16px gap 91px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "left-icons", 84x28px, horizontal pad 0 0 0 0px gap 17px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 24x24px, constraints left/top, fill Neutral/neutral100
+            - TEXT "Title", 43x28px, constraints left/top, fill Neutral/neutral100, text [Title/large], [heading]
+          - FRAME "right-icons", 88x28px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "home", 48x28px, horizontal pad 2 12 2 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - INSTANCE "menu", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+      - COMPONENT "Size=big, home-page=yes", 311x96px, vertical pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "first-row", 279x44px, horizontal pad 8 16 8 16px gap 91px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "left-icons", 43x28px, horizontal pad 0 0 0 0px gap 17px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 43x28px, constraints left/top, fill Neutral/neutral5, text [Title/large], [heading]
+          - FRAME "right-icons", 40x28px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "menu", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+        - FRAME "big-title", 87x36px, horizontal pad 0 16 0 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 55x36px, constraints left/top, fill Neutral/neutral5, text [Headline/medium], [heading]
+      - COMPONENT "Size=big, home-page=no", 311x96px, vertical pad 8 16 8 16px gap 0px sizing W:fixed H:fixed, constraints left/top, fill header
+        - FRAME "first-row", 279x44px, horizontal pad 8 16 8 16px gap 91px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "left-icons", 24x24px, horizontal pad 0 0 0 0px gap 17px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 24x24px, constraints left/top, fill Neutral/neutral100
+          - FRAME "right-icons", 88x28px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "home", 48x28px, horizontal pad 2 12 2 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+            - INSTANCE "menu", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+        - FRAME "big-title", 87x36px, horizontal pad 0 16 0 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Title", 55x36px, constraints left/top, fill Neutral/neutral100, text [Headline/medium], [heading]
+    - COMPONENT "Nav-bar", 297x60px, horizontal pad 8 8 8 8px gap 20px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill header
+      - FRAME "Frame 1", 60x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "calendar", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "event", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event", 18x20px, constraints scale/scale, fill Neutral/neutral50
+        - TEXT "Today tasks", 60x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+      - FRAME "Frame 2", 48x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "schedule", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "overview", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "overview", 20x20px, constraints scale/scale, fill Neutral/neutral50
+        - TEXT "Tasks", 29x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+      - FRAME "Frame 1", 64x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "automation", 48x28px, horizontal pad 1 12 1 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+          - GROUP "event_repeat", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "event_repeat", 21x22px, constraints scale/scale, fill Neutral/neutral50
+        - TEXT "Automations", 64x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+      - FRAME "Frame 1", 65x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "charts", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+          - GROUP "equalizer", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+            - VECTOR "equalizer", 16x16px, constraints scale/scale, fill Neutral/neutral5
+        - TEXT "Performance", 65x16px, constraints left/top, fill Neutral/neutral50, text [Label/small]
+
+Screen: Components / Icons
+- FRAME "Icons", 713x262px, constraints left/top, fill #FFFFFF
+  - COMPONENT_SET "charts", 88x116px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=yes", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+      - GROUP "equalizer", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "equalizer", 16x16px, constraints scale/scale, fill Neutral/neutral5
+    - COMPONENT "Selected=no", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+      - GROUP "equalizer", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "equalizer", 16x16px, constraints scale/scale, fill Neutral/neutral10
+  - COMPONENT_SET "home", 88x116px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=yes", 48x28px, horizontal pad 2 12 2 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+      - FRAME "mi:home", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.95x19px, constraints scale/scale, fill Neutral/neutral5
+    - COMPONENT "Selected=no", 48x28px, horizontal pad 2 12 2 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+      - FRAME "mi:home", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.95x19px, constraints scale/scale, fill Neutral/neutral10
+  - COMPONENT_SET "performance", 88x116px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=Default", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+      - GROUP "energy_program_time_used", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "energy_program_time_used", 22x20px, constraints scale/scale, fill Neutral/neutral5
+    - COMPONENT "Selected=no", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+      - GROUP "energy_program_time_used", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "energy_program_time_used", 22x20px, constraints scale/scale, fill Neutral/neutral10
+  - COMPONENT_SET "menu", 80x116px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "hovered=yes", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+      - FRAME "mdi:dots-vertical", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 4x16px, constraints scale/scale, fill Neutral/neutral5
+    - COMPONENT "hovered=no", 40x28px, horizontal pad 2 8 2 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+      - FRAME "mdi:dots-vertical", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 4x16px, constraints scale/scale, fill Neutral/neutral5
+  - COMPONENT_SET "automation", 88x116px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=yes", 48x28px, horizontal pad 1 12 1 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+      - GROUP "event_repeat", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "event_repeat", 21x22px, constraints scale/scale, fill Neutral/neutral5
+    - COMPONENT "Selected=no", 48x28px, horizontal pad 1 12 1 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+      - GROUP "event_repeat", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "event_repeat", 21x22px, constraints scale/scale, fill Neutral/neutral10
+  - COMPONENT_SET "calendar", 88x116px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=yes", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+      - GROUP "event", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "event", 18x20px, constraints scale/scale, fill Neutral/neutral5
+    - COMPONENT "Selected=no", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+      - GROUP "event", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "event", 18x20px, constraints scale/scale, fill Neutral/neutral10
+  - COMPONENT_SET "schedule", 88x116px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=yes", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Secondary/Secondary100
+      - GROUP "overview", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "overview", 20x20px, constraints scale/scale, fill Neutral/neutral5
+    - COMPONENT "Selected=no", 48x28px, horizontal pad 0 12 0 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+      - GROUP "overview", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints left/top, fill #D9D9D9
+        - VECTOR "overview", 20x20px, constraints scale/scale, fill Neutral/neutral10
+  - COMPONENT "add", 24x24px, constraints left/top
+    - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+    - VECTOR "add", 14x14px, constraints scale/scale, fill #1C1B1F
+  - COMPONENT "arrow_right", 24x24px, constraints left/top
+    - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+    - VECTOR "arrow_right", 5x10px, constraints scale/scale, fill #1C1B1F
+  - COMPONENT "more_horiz", 24x24px, constraints left/top
+    - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+    - VECTOR "more_horiz", 16x4px, constraints scale/scale, fill #1C1B1F
+  - COMPONENT "border_color", 24x24px, constraints left/top
+    - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+    - VECTOR "border_color", 20x21.99px, constraints scale/scale, fill Neutral/neutral15
+  - COMPONENT "check", 24x24px, constraints left/top
+    - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+    - VECTOR "check", 16.3x12.02px, constraints scale/scale, fill #1C1B1F
+
+Screen: Components / Checkox & radio-buttons
+- FRAME "Checkox & radio-buttons", 242x133px, constraints left/top, fill #FFFFFF
+  - COMPONENT_SET "Checkbox", 64x88px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Checked=no", 24x24px, constraints left/top, radius 4px, fill #FFFFFF
+      - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 4px, stroke Primary/Primary 1px
+    - COMPONENT "Checked=yes", 24x24px, constraints left/top, radius 20px, fill #FFFFFF
+      - RECTANGLE "Rectangle 3", 24x24px, constraints left/top, radius 4px, fill Primary/Primary, stroke Primary/Primary 1px
+      - GROUP "tik", 21.85x16.3px, constraints left/top, radius 0/0/0/0px
+        - LINE "Line 1", 9.39x7.54px, constraints left/top, stroke Neutral/neutral100 3px
+        - LINE "Line 2", 12.46x16.3px, constraints left/top, stroke Neutral/neutral100 3px
+  - COMPONENT_SET "Group 1", 64x108px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Selected=yes", 24x24px, constraints left/top
+      - ELLIPSE "Ellipse 1", 24x24px, constraints scale/scale, stroke Primary/Primary 1px
+      - ELLIPSE "Ellipse 2", 16x16px, constraints scale/scale, fill Primary/Primary
+    - COMPONENT "Selected=no", 24x24px, constraints left/top
+      - ELLIPSE "Ellipse 1", 24x24px, constraints scale/scale, stroke Primary/Primary 1px
+
+Screen: Components / Snack-bar
+- FRAME "Snack-bar", 443x229px, constraints left/top, fill #FFFFFF
+  - COMPONENT "snack-bar", 394x60px, horizontal pad 18 42 18 42px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill Neutral/neutral15
+    - TEXT "Message here", 101x24px, constraints left/top, fill #FFFFFF, text [Body/large]
+
+Screen: Components / Buttons
+- FRAME "Buttons", 705x634px, constraints left/top, fill #FFFFFF
+  - COMPONENT_SET "button", 661x487px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Configuration=filled, With-text=yes, With-icon=yes, State=en", 133x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Primary
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Neutral/neutral100
+      - TEXT "label", 51x20px, constraints left/top, fill Neutral/neutral100, text [Label/large]
+    - COMPONENT "Configuration=filled, With-text=yes, With-icon=no, State=ena", 99x40px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Primary
+      - TEXT "label", 51x20px, constraints left/top, fill Neutral/neutral100, text [Label/large]
+    - COMPONENT "Configuration=filled, With-text=yes, With-icon=yes, State=di", 133x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Neutral/neutral50
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Neutral/neutral20
+      - TEXT "label", 51x20px, constraints left/top, fill Neutral/neutral20, text [Label/large]
+    - COMPONENT "Configuration=filled, With-text=yes, With-icon=no, State=dis", 99x40px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Neutral/neutral50
+      - TEXT "label", 51x20px, constraints left/top, fill Neutral/neutral20, text [Label/large]
+    - COMPONENT "Configuration=filled, With-text=yes, With-icon=yes, State=pr", 134x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Shades/Primary100
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Neutral/neutral100
+      - TEXT "label", 52x20px, constraints left/top, fill Neutral/neutral100, text [Label/large]
+    - COMPONENT "Configuration=filled, With-text=yes, With-icon=no, State=pre", 100x40px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Shades/Primary100
+      - TEXT "label", 52x20px, constraints left/top, fill Neutral/neutral100, text [Label/large]
+    - COMPONENT "Configuration=filled, With-text=yes, With-icon=yes, State=ho", 135x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Primary, effect Elevation/Light/1
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Neutral/neutral100
+      - TEXT "label", 53x20px, constraints left/top, fill Neutral/neutral100, text [Label/large]
+    - COMPONENT "Configuration=filled, With-text=yes, With-icon=no, State=hov", 101x40px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Primary, effect Elevation/Light/1
+      - TEXT "label", 53x20px, constraints left/top, fill Neutral/neutral100, text [Label/large]
+    - COMPONENT "Configuration=Outlined, With-text=yes, With-icon=yes, State=", 133x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Outlines/outline 1px
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Outlines/outline
+      - TEXT "label", 51x20px, constraints left/top, fill Outlines/outline, text [Label/large]
+    - COMPONENT "Configuration=Outlined, With-text=yes, With-icon=no, State=e", 99x40px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Outlines/outline 1px
+      - TEXT "label", 51x20px, constraints left/top, fill Outlines/outline, text [Label/large]
+    - COMPONENT "Configuration=Outlined, With-text=yes, With-icon=yes, State=", 135x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Outlines/outline 1px
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Outlines/outline
+      - TEXT "label", 53x20px, constraints left/top, fill Outlines/outline, text [Label/large]
+    - COMPONENT "Configuration=Outlined, With-text=yes, With-icon=no, State=h", 135x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Outlines/outline 1px
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Outlines/outline
+      - TEXT "label", 53x20px, constraints left/top, fill Outlines/outline, text [Label/large]
+    - COMPONENT "Configuration=Outlined, With-text=yes, With-icon=yes, State=", 134x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Outlines/outline 1px
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Outlines/outline
+      - TEXT "label", 52x20px, constraints left/top, fill Outlines/outline, text [Label/large]
+    - COMPONENT "Configuration=Outlined, With-text=yes, With-icon=yes, State=", 134x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Neutral/neutral20 1px
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Neutral/neutral20
+      - TEXT "label", 52x20px, constraints left/top, fill Neutral/neutral20, text [Label/large]
+    - COMPONENT "Configuration=Outlined, With-text=yes, With-icon=no, State=d", 100x40px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Neutral/neutral20 1px
+      - TEXT "label", 52x20px, constraints left/top, fill Neutral/neutral20, text [Label/large]
+    - COMPONENT "Configuration=Outlined, With-text=yes, With-icon=no, State=p", 100x40px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Outlines/outline 1px
+      - TEXT "label", 52x20px, constraints left/top, fill Outlines/outline, text [Label/large]
+    - COMPONENT "Configuration=text, With-text=yes, With-icon=yes, State=enab", 133x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Outlines/outline
+      - TEXT "label", 51x20px, constraints left/top, fill Outlines/outline, text [Label/large]
+    - COMPONENT "Configuration=elevated, With-text=yes, With-icon=yes, State=", 133x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Tints/Primary100, effect Elevation/Light/1
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Primary/Primary
+      - TEXT "label", 51x20px, constraints left/top, fill Primary/Primary, text [Label/large]
+    - COMPONENT "Configuration=plus, With-text=no, With-icon=yes, State=enabl", 43x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill Primary/Primary, effect Elevation/Light/1
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Neutral/neutral100
+    - COMPONENT "Configuration=plus, With-text=no, With-icon=yes, State=press", 43x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill Primary/Shades/Primary100
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Neutral/neutral100
+    - COMPONENT "Configuration=plus, With-text=no, With-icon=yes, State=hover", 43x44px, horizontal pad 10 24 10 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill Primary/Primary, effect Elevation/Light/2
+      - INSTANCE "add", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "add", 14x14px, constraints scale/scale, fill Neutral/neutral100
+
+Screen: Components / ListItems
+- FRAME "ListItems", 986x487px, constraints left/top, fill #FFFFFF
+  - COMPONENT_SET "list-item", 833x521px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "checkbox=no, leading=no, left-icon=no, with-supporting-text=", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "left-contents", 96x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "List item title", 93x24px, constraints left/top, fill Neutral/neutral15, text [Body/large]
+            - TEXT "Supporting text", 96x20px, constraints left/top, fill Neutral/neutral15, text [Body/medium]
+      - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+    - COMPONENT "checkbox=no, leading=yes, left-icon=no, with-supporting-text", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "left-contents", 96x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "List item title", 93x24px, constraints left/top, fill Neutral/neutral15, text [Body/large]
+            - TEXT "Supporting text", 96x20px, constraints left/top, fill Neutral/neutral15, text [Body/medium]
+        - GROUP "Group 6", 24x24px, constraints left/top
+          - INSTANCE "arrow_right", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+            - VECTOR "arrow_right", 5x10px, constraints scale/scale, fill Neutral/neutral15
+      - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+    - COMPONENT "checkbox=yes, leading=yes, left-icon=no, with-supporting-tex", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "left-contents", 136x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 24x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "List item title", 93x24px, constraints left/top, fill Neutral/neutral15, text [Body/large]
+            - TEXT "Supporting text", 96x20px, constraints left/top, fill Neutral/neutral15, text [Body/medium]
+        - GROUP "Group 6", 24x24px, constraints left/top
+          - INSTANCE "arrow_right", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+            - VECTOR "arrow_right", 5x10px, constraints scale/scale, fill Neutral/neutral15
+      - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+    - COMPONENT "checkbox=yes, leading=no, left-icon=no, with-supporting-text", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "left-contents", 136x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 6", 24x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "List item title", 93x24px, constraints left/top, fill Neutral/neutral15, text [Body/large]
+            - TEXT "Supporting text", 96x20px, constraints left/top, fill Neutral/neutral15, text [Body/medium]
+      - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+    - COMPONENT "checkbox=no, leading=yes, left-icon=yes, with-supporting-tex", 337x77px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "left-contents", 136x53px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "left", 24x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "List item title", 93x24px, constraints left/top, fill Neutral/neutral15, text [Body/large]
+            - TEXT "Supporting text", 96x20px, constraints left/top, fill Neutral/neutral15, text [Body/medium]
+        - GROUP "Group 6", 24x24px, constraints left/top
+          - INSTANCE "arrow_right", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+            - VECTOR "arrow_right", 5x10px, constraints scale/scale, fill Neutral/neutral15
+      - LINE "Line 3", 263.01x0px, constraints left/top, stroke Neutral/neutral15 1px
+    - COMPONENT "checkbox=no, leading=no, left-icon=yes, with-supporting-text", 337x69px, vertical pad 8 0 8 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "first-row", 337x53px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "left-contents", 136x53px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-icons", 24x24px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "left", 24x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "texts", 96x53px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "List item title", 93x24px, constraints left/top, fill Neutral/neutral15, text [Body/large]
+            - TEXT "Supporting text", 96x20px, constraints left/top, fill Neutral/neutral15, text [Body/medium]
+    - COMPONENT "checkbox=no, leading=yes, left-icon=yes, with-supporting-tex", 337x56px, vertical pad 8 0 8 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "first-row", 337x40px, horizontal pad 8 0 8 0px gap 48px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "left-contents", 133x24px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "left-icons", 24x24px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "left", 24x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "texts", 93x24px, vertical pad 0 0 0 0px gap 9px align center/min sizing W:fixed H:fixed, constraints left/top
+            - TEXT "List item title", 93x24px, constraints left/top, fill Neutral/neutral15, text [Body/large]
+        - GROUP "Group 6", 24x24px, constraints left/top
+          - INSTANCE "arrow_right", 24x24px, constraints left/top
+            - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+            - VECTOR "arrow_right", 5x10px, constraints scale/scale, fill Neutral/neutral15
+
+Screen: Components / chips
+- FRAME "chips", 542x530px, constraints left/top, fill #FFFFFF
+  - COMPONENT_SET "button", 177x148px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "selected=yes", 111x40px, horizontal pad 8 16 8 16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill Primary/Tints/Primary100
+      - INSTANCE "check", 24x24px, constraints left/top
+        - RECTANGLE "Bounding box", 24x24px, constraints scale/scale, fill #D9D9D9
+        - VECTOR "check", 16.3x12.02px, constraints scale/scale, fill Neutral/neutral15
+      - TEXT "label", 55x20px, constraints left/top, fill Neutral/neutral15, text [Label/large]
+    - COMPONENT "selected=no", 113x36px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, stroke Primary/Primary 1px
+      - TEXT "label", 81x20px, constraints left/top, fill Neutral/neutral15, text [Label/large]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

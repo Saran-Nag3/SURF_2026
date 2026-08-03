@@ -1,0 +1,1130 @@
+---
+name: table-ui-kit-rows-cols-community
+source_file: Table UI kit (rows, cols) (Community)
+source_page: All pages (2): Table components, Cover
+generated_at: 2026-07-25T09:34:30.051373+00:00
+---
+
+# Table UI kit (rows, cols) (Community) Design Guidelines
+
+## Source
+- Figma file: Table UI kit (rows, cols) (Community)
+- Figma page: All pages (2): Table components, Cover
+- Extracted at: 2026-07-25T09:34:30.051373+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- gray-500: [#AEBECD]
+- border-color: none
+- text-color-base: none
+- Avatars/person-1: [image(hash: feea335769f307716059fb05195ef41daea51170)]
+- Dark: [#141B34]
+
+## Raw Colors (unstyled)
+- #DF0C3D: 252 uses
+- #F6F7F9: 249 uses
+- #6F7C8E: 98 uses
+- #FFFFFF: 75 uses
+- #90909014: 44 uses
+- #B6C1CA: 44 uses
+- #A6B5C3: 43 uses
+- #DDE1E7: 43 uses
+- #DCE0E5: 30 uses
+- #DB6E00: 28 uses
+- #FFED9E: 28 uses
+- #00A81C: 16 uses
+- #9EFFB3: 16 uses
+- #3348FF14: 10 uses
+- #525E6F: 10 uses
+- #9747FF: 10 uses
+- #C57BFF: 8 uses
+
+## Typography Tokens
+- Text-style-base: Inter Regular (400), 15px / 115.68%, tracking 0px
+- Typography/text-sm: Inter Regular (400), 13px / auto, tracking 0px
+- Typography/text-base-500: Inter Medium (500), 15px / 115.68%, tracking 0px
+- Typography/text-base: Inter Regular (400), 15px / 115.68%, tracking 0px
+- Typography/text-h1: Inter SemiBold (600), 36px / 115.68%, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 48px: 5 uses
+- Inter Medium, 18px: 3 uses
+- Inter Medium, 20px: 3 uses
+- Inter Medium, 24px: 3 uses
+
+## Typography Hierarchy
+- 48px - Inter SemiBold, 48px (raw)
+- 36px - Typography/text-h1 (Inter SemiBold)
+- 24px - Inter Medium, 24px (raw)
+- 20px - Inter Medium, 20px (raw)
+- 18px - Inter Medium, 18px (raw)
+- 15px - Text-style-base (Inter Regular)
+- 15px - Typography/text-base (Inter Regular)
+- 15px - Typography/text-base-500 (Inter Medium)
+- 13px - Typography/text-sm (Inter Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- button-effect: [inner_shadow 0px offset 0 2 #FFFFFF29, inner_shadow 16px offset 0 8 #FFFFFF33]
+- Btn-effect: [inner_shadow 2px offset 0 -2 #3030301A, inner_shadow 12px offset 0 7 #FFFFFF14]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Column-table-lg
+- Button
+- Status
+- Avatar
+- Icons
+- _base-checkbox
+- _base-table-header
+- _base-table-cell-lg
+- _base-table-cell
+- Column-table
+- .Table-row
+
+## Component Specs
+- Column-table-lg: size 200x644px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Typography/text-sm, Text-style-base] | variants: Content: col-avatar+text/col-checkbox/col-controls/col-icon+text/col-status/col-text/col-text-right
+- Button: size 32x32px, radius 8px, horizontal layout, padding 8 6 8 6px, gap 6px, align center/center, sizing W:fixed H:fixed, fill #F6F7F9 | variants: Variant: btn-delete/btn-edit/btn-more/btn-view
+- Status: size 75x24px, radius 29px, horizontal layout, padding 4 12 4 12px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #FFED9E, text [Typography/text-sm] | variants: Status: complete/pending
+- Avatar: size 24x24px, radius 24px, fill #FFFFFF | variants: Variant: avatar-1/avatar-house/avatar-letter/avatar-pic
+- Icons: size 24x24px | variants: Variant: icon-file/icon-star/icon-star-fill/icon-user/icon-user-fill
+- _base-checkbox: size 24x24px, fill #FFFFFF | variants: Checked: off/on
+- _base-table-header: size 200x44px, horizontal layout, padding 8 8 8 8px, gap 4px, align min/center, sizing W:fixed H:fixed, fill #F6F7F9, stroke #DCE0E5 1px, text [Text-style-base] | variants: Variant: basic/check-all/empty/sortable
+- _base-table-cell-lg: size 200x60px, horizontal layout, padding 8 8 8 8px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke border-color 1px, text [Typography/text-sm, Text-style-base] | variants: Variant: cell-action/cell-badge/cell-checkbox/cell-expand-btn/cell-icon+text/cell-persona/cell-text/cell-text-right
+- _base-table-cell: size 200x44px, horizontal layout, padding 8 8 8 8px, gap 8px, align min/center, sizing W:fixed H:fixed, stroke border-color 1px, text [Text-style-base] | variants: Variant: cell-action/cell-badge/cell-checkbox/cell-expand-btn/cell-icon+text/cell-persona/cell-text/cell-text-right
+- Column-table: size 200x484px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, stroke border-color 1px, text [Text-style-base] | variants: Content: col-avatar+text/col-checkbox/col-controls/col-icon+text/col-status/col-text/col-text-right
+- .Table-row (Table components): size 846x60px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #DCE0E5 1px, text [Text-style-base, Typography/text-sm]
+- .Table-row (Table components): size 846x44px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #DCE0E5 1px, text [Text-style-base, Typography/text-sm, Typography/text-base-500]
+
+## Most-Used Styles
+- text-color-base: 826 uses
+- border-color: 375 uses
+- Text-style-base: 188 uses
+- Typography/text-sm: 97 uses
+- Typography/text-base: 22 uses
+- Typography/text-base-500: 20 uses
+- Btn-effect: 3 uses
+- Dark: 3 uses
+- Typography/text-h1: 2 uses
+- Avatars/person-1: 1 use
+- button-effect: 1 use
+- gray-500: 1 use
+
+## Layout & Structure
+Screen: Table components / Column-table
+- COMPONENT_SET "Column-table", 1434x585px, constraints left/top, radius 5px, fill #FFFFFF, stroke #9747FF 1px
+  - COMPONENT "Content=col-text", 200x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Content=col-text-right", 200x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align max/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Content=col-icon+text", 200x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Content=col-avatar+text", 200x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+      - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Content=col-status", 129x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "table-header", 129x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 113x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+        - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 92x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #9EFFB3
+        - TEXT "text", 68x16px, constraints left/top, fill #00A81C, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 92x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #9EFFB3
+        - TEXT "text", 68x16px, constraints left/top, fill #00A81C, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 92x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #9EFFB3
+        - TEXT "text", 68x16px, constraints left/top, fill #00A81C, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+        - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 92x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #9EFFB3
+        - TEXT "text", 68x16px, constraints left/top, fill #00A81C, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+        - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+        - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+        - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell", 129x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+        - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+  - COMPONENT "Content=col-controls", 200x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5.83x5.83px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 6.67x0px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x11.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x11.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 15x2.5px, constraints left/top
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5.83x5.83px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 6.67x0px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x11.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x11.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 15x2.5px, constraints left/top
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5.83x5.83px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 6.67x0px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x11.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x11.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 15x2.5px, constraints left/top
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5.83x5.83px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 6.67x0px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x11.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x11.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 15x2.5px, constraints left/top
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5.83x5.83px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 6.67x0px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x11.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x11.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 15x2.5px, constraints left/top
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5.83x5.83px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 6.67x0px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 16.67x11.67px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector", 16.67x11.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+            - VECTOR "Vector", 5x5px, constraints scale/scale, stroke text-color-base 1.5px
+      - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+        - FRAME "icon", 20x20px, constraints left/top
+          - GROUP "elements", 15x2.5px, constraints left/top
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+            - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Table components / Title/component
+- FRAME "Title/component", 1434x200px, constraints left/top, radius 16px, fill #9747FF
+  - TEXT "Finalui.com", 115x24px, constraints right/top, fill #FFFFFFCC, text [Inter Medium, 20px]
+  - GROUP "Group 6", 337x95.54px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Components", 147x29px, constraints left/center, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "Components", 337x58px, constraints left/center, fill #FFFFFF, text [Inter SemiBold, 48px], [heading]
+  - GROUP "icon", 96x96px, constraints left/center, radius 0/0/0/0px [decorative, ~6 shapes]
+
+Screen: Table components / Example
+- FRAME "Example", 2002x1400px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 4", 846x484px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke border-color 1px
+    - INSTANCE "Column-table", 44x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "_base-table-header", 44x44px, constraints left/top, fill #F6F7F9, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+          - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+          - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - GROUP "check", 20x20px, constraints center/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle", 20x20px, constraints left/top, radius 6px, fill #3348FF
+            - VECTOR "Path", 13x10px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - GROUP "check", 20x20px, constraints center/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle", 20x20px, constraints left/top, radius 6px, fill #3348FF
+            - VECTOR "Path", 13x10px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+          - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+          - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+          - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+          - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+          - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+          - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+      - INSTANCE "_base-table-cell", 44x44px, constraints left/top, stroke border-color 1px
+        - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+          - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+          - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+    - INSTANCE "Column-table", 274x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "table-header", 274x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke #DCE0E5 1px
+        - TEXT "Header", 69x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - FRAME "icon-up-down", 24x24px, constraints left/top
+          - VECTOR "Shape", 10x5px, constraints scale/scale, fill #6F7C8E
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+      - INSTANCE "_base-table-cell", 274x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+          - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+          - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+        - TEXT "User name", 226x21px, constraints left/top, fill text-color-base, text [Typography/text-base-500]
+    - INSTANCE "Column-table", 164x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "table-header", 164x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+        - TEXT "Header", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "Text cell", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "Column-table", 164x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "table-header", 164x44px, horizontal pad 8 8 8 8px gap 4px align max/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+        - TEXT "Header", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 164x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - TEXT "123456789", 148x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "Column-table", 200x484px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+        - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, fill #3348FF14, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "_base-table-cell", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+        - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+          - FRAME "icon", 20x20px, constraints left/top
+            - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+  - TEXT "Column based table", 347x50px, constraints center/top, fill text-color-base, text [Typography/text-h1], [heading]
+  - TEXT "Row based table", 288x50px, constraints center/top, fill text-color-base, text [Typography/text-h1], [heading]
+  - FRAME "Table", 847x644px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Column-table-lg", 309x644px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "table-header", 309x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+        - TEXT "Header", 293x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 143x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 143x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 147x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 147x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 145x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 145x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 141x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 141x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 146x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 146x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 140x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 140x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 141x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 141x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 151x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 151x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 163x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 163x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 309x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "file-01", 24x24px, constraints left/top
+          - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+        - FRAME "Frame 3", 147x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Typography/text-base]
+          - TEXT "Secondary info", 147x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "Column-table-lg", 129x644px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "table-header", 129x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+        - TEXT "Header", 113x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - INSTANCE "_base-table-cell-lg", 129x60px, horizontal pad 12 8 12 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+          - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 129x60px, horizontal pad 12 8 12 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+          - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 129x60px, horizontal pad 12 8 12 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Status", 92x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #9EFFB3
+          - TEXT "text", 68x16px, constraints left/top, fill #00A81C, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 129x60px, horizontal pad 12 8 12 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Status", 92x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #9EFFB3
+          - TEXT "text", 68x16px, constraints left/top, fill #00A81C, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 129x60px, horizontal pad 12 8 12 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Status", 92x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #9EFFB3
+          - TEXT "text", 68x16px, constraints left/top, fill #00A81C, text [Typography/text-sm]
+      - INSTANCE "_base-table-cell-lg", 129x60px, horizontal pad 12 8 12 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+        - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+          - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Table components / Title/example
+- INSTANCE "Title/example", 3260x200px, constraints left/top, radius 16px, fill #2A59FF
+  - GROUP "Group 6", 304x95.54px, constraints left/center, radius 0/0/0/0px
+    - TEXT "Use cases and Playground", 304x29px, constraints left/center, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "Examples", 225x58px, constraints left/center, fill #FFFFFF, text [Inter SemiBold, 48px], [heading]
+  - GROUP "icon", 96x96px, constraints left/center, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 12", 96x96px, constraints left/center, radius 12px, fill #4871FF
+    - VECTOR "Rectangle 13 (Stroke)", 54.06x54.06px, constraints left/center, fill #FFFFFF
+  - TEXT "Finalui.com", 115x24px, constraints right/top, fill #FFFFFF, text [Inter Medium, 20px]
+
+Screen: Table components / _base-table-cell
+- COMPONENT_SET "_base-table-cell", 1063x208px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Variant=cell-text", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - TEXT "Text cell", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Variant=cell-icon+text", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - INSTANCE "Icons", 24x24px, constraints left/top
+      - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - TEXT "Text cell", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Variant=cell-action", 200x44px, horizontal pad 4 8 4 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+      - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+    - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+      - FRAME "icon", 20x20px, constraints left/top
+        - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+          - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+          - VECTOR "Vector", 5.83x5.83px, constraints scale/scale, stroke text-color-base 1.5px
+          - VECTOR "Vector", 6.67x0px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+      - FRAME "icon", 20x20px, constraints left/top
+        - GROUP "elements", 16.67x11.67px, constraints left/top, radius 0/0/0/0px
+          - VECTOR "Vector", 16.67x11.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+          - VECTOR "Vector", 5x5px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+      - FRAME "icon", 20x20px, constraints left/top
+        - GROUP "elements", 15x2.5px, constraints left/top
+          - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+          - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+          - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+  - COMPONENT "Variant=cell-persona", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - INSTANCE "Avatar", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+      - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+      - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+    - TEXT "User name", 152x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Variant=cell-checkbox", 44x44px, constraints left/top, stroke border-color 1px
+    - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+      - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+  - COMPONENT "Variant=cell-expand-btn", 44x44px, constraints left/top, stroke border-color 1px
+    - FRAME "icon-up-down", 24x24px, constraints center/center
+      - VECTOR "Shape", 8x14px, constraints scale/scale, fill #6F7C8E
+  - COMPONENT "Variant=cell-badge", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+      - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+  - COMPONENT "Variant=cell-text-right", 200x44px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - TEXT "123456789", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+
+Screen: Table components / _base-table-cell-lg
+- COMPONENT_SET "_base-table-cell-lg", 1063x248px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Variant=cell-text", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+  - COMPONENT "Variant=cell-action", 200x60px, horizontal pad 12 8 12 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+      - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+    - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+      - FRAME "icon", 20x20px, constraints left/top
+        - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+          - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+          - VECTOR "Vector", 5.83x5.83px, constraints scale/scale, stroke text-color-base 1.5px
+          - VECTOR "Vector", 6.67x0px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+      - FRAME "icon", 20x20px, constraints left/top
+        - GROUP "elements", 16.67x11.67px, constraints left/top, radius 0/0/0/0px
+          - VECTOR "Vector", 16.67x11.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+          - VECTOR "Vector", 5x5px, constraints scale/scale, stroke text-color-base 1.5px
+    - INSTANCE "Button", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+      - FRAME "icon", 20x20px, constraints left/top
+        - GROUP "elements", 15x2.5px, constraints left/top
+          - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+          - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+          - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+  - COMPONENT "Variant=cell-checkbox", 44x60px, constraints left/top, stroke border-color 1px
+    - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+      - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+  - COMPONENT "Variant=cell-expand-btn", 44x60px, constraints left/top, stroke border-color 1px
+    - FRAME "icon-up-down", 24x24px, constraints center/center
+      - VECTOR "Shape", 8x14px, constraints scale/scale, fill #6F7C8E
+  - COMPONENT "Variant=cell-badge", 200x60px, horizontal pad 12 8 12 8px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - INSTANCE "Status", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+      - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+  - COMPONENT "Variant=cell-text-right", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Variant=cell-persona", 190x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - INSTANCE "Avatar", 32x32px, constraints left/top, radius 24px, fill #FFFFFF
+      - ELLIPSE "Ellipse 2", 32x32px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+      - VECTOR "Vector", 21.33x22.67px, constraints scale/scale, fill #A6B5C3
+    - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+  - COMPONENT "Variant=cell-icon+text", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top, stroke border-color 1px
+    - INSTANCE "Icons", 24x24px, constraints left/top
+      - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+      - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+
+Screen: Table components / _base-table-header
+- COMPONENT_SET "_base-table-header", 1063x105px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Variant=basic", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F9, stroke #DCE0E5 1px
+    - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Variant=sortable", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F9, stroke #DCE0E5 1px
+    - TEXT "Header", 52x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - FRAME "icon-up-down", 24x24px, constraints left/top
+      - VECTOR "Shape", 10x5px, constraints scale/scale, fill #6F7C8E
+  - COMPONENT "Variant=empty", 200x44px, horizontal pad 8 10 8 10px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F6F7F9, stroke #DCE0E5 1px
+  - COMPONENT "Variant=check-all", 44x44px, constraints left/top, fill #F6F7F9, stroke #DCE0E5 1px
+    - INSTANCE "_base-checkbox", 24x24px, constraints center/center, fill #FFFFFF
+      - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+      - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+
+Screen: Table components / Title/base
+- FRAME "Title/base", 1063x200px, constraints left/top, radius 16px, fill #D3B3FC
+  - GROUP "Group 6", 210x95.54px, constraints left/center, radius 0/0/0/0px
+    - TEXT "Atom components", 210x29px, constraints left/center, fill #FFFFFF, text [Inter Medium, 24px], [heading]
+    - TEXT "_Base", 137x58px, constraints left/center, fill #FFFFFF, text [Inter SemiBold, 48px], [heading]
+  - GROUP "icon", 96x96px, constraints left/center, radius 0/0/0/0px [decorative, ~6 shapes]
+  - TEXT "Finalui.com", 115x24px, constraints right/top, fill #FFFFFFCC, text [Inter Medium, 20px]
+
+Screen: Table components / _base-checkbox
+- COMPONENT_SET "_base-checkbox", 139x78px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Checked=on", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "check", 20x20px, constraints center/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle", 20x20px, constraints left/top, radius 6px, fill #3348FF
+      - VECTOR "Path", 13x10px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+  - COMPONENT "Checked=off", 24x24px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "bg", 20x20px, constraints left/top, radius 6px, fill #90909014
+    - VECTOR "Subtract", 20x20px, constraints left/top, fill #B6C1CA
+
+Screen: Table components / Icons
+- COMPONENT_SET "Icons", 267x78px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Variant=icon-user", 24x24px, constraints left/center
+    - GROUP "elements", 20x20px, constraints center/center
+      - VECTOR "Vector", 20x20px, constraints scale/scale, stroke text-color-base 1.5px
+      - VECTOR "Vector", 5.5x5.5px, constraints scale/scale, stroke text-color-base 1.5px
+      - VECTOR "Vector", 13x3.5px, constraints scale/scale, stroke text-color-base 1.5px
+  - COMPONENT "Variant=icon-user-fill", 24x24px, constraints left/center
+    - GROUP "elements", 21.5x21.5px, constraints center/center
+      - VECTOR "Vector", 21.5x21.5px, constraints scale/scale, fill text-color-base
+      - VECTOR "Vector", 7x7px, constraints scale/scale, fill text-color-base
+      - VECTOR "Vector", 15.22x8px, constraints scale/scale, fill text-color-base
+  - COMPONENT "Variant=icon-star", 24x24px, constraints left/top
+    - GROUP "elements", 20x20px, constraints left/top
+      - VECTOR "Vector", 20x20px, constraints scale/scale, stroke text-color-base 1.5px
+  - COMPONENT "Variant=icon-star-fill", 24x24px, constraints left/top
+    - GROUP "elements", 21.5x21.5px, constraints left/top
+      - VECTOR "Vector", 21.5x21.5px, constraints scale/scale, fill text-color-base
+  - COMPONENT "Variant=icon-file", 24x24px, constraints left/top
+    - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+
+Screen: Table components / Avatar
+- COMPONENT_SET "Avatar", 172x78px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Variant=avatar-1", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+    - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+    - VECTOR "Vector", 16x17px, constraints scale/scale, fill #A6B5C3
+  - COMPONENT "Variant=avatar-house", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+    - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #E1E5EA, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+    - FRAME "elements", 12x12px, constraints center/center [decorative, ~6 shapes]
+  - COMPONENT "Variant=avatar-letter", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+    - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill #4ADBE4, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+    - TEXT "A", 10x21px, constraints scale/scale, fill #FFFFFF, text [Inter Medium, 14px], opacity 80%
+  - COMPONENT "Variant=avatar-pic", 24x24px, constraints left/top, radius 24px, fill #FFFFFF
+    - ELLIPSE "Ellipse 2", 24x24px, constraints scale/scale, fill Avatars/person-1, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+
+Screen: Table components / Status
+- COMPONENT_SET "Status", 218x78px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Status=pending", 75x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #FFED9E
+    - TEXT "text", 51x16px, constraints left/top, fill #DB6E00, text [Typography/text-sm]
+  - COMPONENT "Status=complete", 92x24px, horizontal pad 4 12 4 12px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 29px, fill #9EFFB3
+    - TEXT "text", 68x16px, constraints left/top, fill #00A81C, text [Typography/text-sm]
+
+Screen: Table components / Button
+- COMPONENT_SET "Button", 192x72px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Variant=btn-delete", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+    - FRAME "icon", 20x20px, constraints left/top [decorative, ~4 shapes]
+  - COMPONENT "Variant=btn-edit", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+    - FRAME "icon", 20x20px, constraints left/top
+      - GROUP "elements", 16.67x16.67px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+        - VECTOR "Vector", 5.83x5.83px, constraints scale/scale, stroke text-color-base 1.5px
+        - VECTOR "Vector", 6.67x0px, constraints scale/scale, stroke text-color-base 1.5px
+  - COMPONENT "Variant=btn-view", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+    - FRAME "icon", 20x20px, constraints left/top
+      - GROUP "elements", 16.67x11.67px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Vector", 16.67x11.67px, constraints scale/scale, radius 0/0/0/0px, stroke text-color-base 1.5px
+        - VECTOR "Vector", 5x5px, constraints scale/scale, stroke text-color-base 1.5px
+  - COMPONENT "Variant=btn-more", 32x32px, horizontal pad 8 6 8 6px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #F6F7F9
+    - FRAME "icon", 20x20px, constraints left/top
+      - GROUP "elements", 15x2.5px, constraints left/top
+        - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+        - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+        - VECTOR "Vector", 2.5x2.5px, constraints scale/scale, stroke text-color-base 1.5px
+
+Screen: Table components / Column-table-lg
+- COMPONENT_SET "Column-table-lg", 1434x718px, constraints left/top, radius 5px, fill #FFFFFF, stroke #9747FF 1px
+  - COMPONENT "Content=col-text", 200x644px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "text", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - FRAME "Frame 3", 184x39px, vertical pad 0 0 0 0px gap 2px align center/min sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 184x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+  - COMPONENT "Content=col-text-right", 200x644px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 16 8 16 8px gap 8px align max/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - TEXT "Text cell lg", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+  - COMPONENT "Content=col-icon+text", 200x644px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - GROUP "elements", 17x20px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+  - COMPONENT "Content=col-avatar+text", 200x644px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "table-header", 200x44px, horizontal pad 8 8 8 8px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, fill #F6F7F9, stroke border-color 1px
+      - TEXT "Header", 184x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 32x32px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 32x32px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 21.33x22.67px, constraints scale/scale, fill #A6B5C3
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 32x32px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 32x32px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 21.33x22.67px, constraints scale/scale, fill #A6B5C3
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 32x32px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 32x32px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 21.33x22.67px, constraints scale/scale, fill #A6B5C3
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 32x32px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 32x32px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 21.33x22.67px, constraints scale/scale, fill #A6B5C3
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 32x32px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 32x32px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 21.33x22.67px, constraints scale/scale, fill #A6B5C3
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 32x32px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 32x32px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 21.33x22.67px, constraints scale/scale, fill #A6B5C3
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+        - TEXT "Secondary info", 93x16px, constraints left/top, fill #6F7C8E, text [Typography/text-sm]
+    - INSTANCE "_base-table-cell-lg", 200x60px, horizontal pad 8 8 8 8px gap 12px align min/center sizing W:fill H:fixed, constraints left/top, stroke border-color 1px
+      - INSTANCE "Avatar", 32x32px, constraints left/top, radius 24px, fill #FFFFFF
+        - ELLIPSE "Ellipse 2", 32x32px, constraints scale/scale, fill #DDE1E7, stroke #FFFFFF 1px, effect [drop_shadow 0px offset 0 0 #00000026]
+        - VECTOR "Vector", 21.33x22.67px, constraints scale/scale, fill #A6B5C3
+      - FRAME "Frame 3", 130x41px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text cell lg", 130x21px, constraints left/top, fill text-color-base, text [Text-style-base]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

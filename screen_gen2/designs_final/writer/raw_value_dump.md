@@ -1,0 +1,420 @@
+---
+name: writer-app-community
+source_file: Writer app (Community)
+source_page: All pages (2): hello, UI/UX
+generated_at: 2026-07-25T09:25:25.849464+00:00
+---
+
+# Writer app (Community) Design Guidelines
+
+## Source
+- Figma file: Writer app (Community)
+- Figma page: All pages (2): hello, UI/UX
+- Extracted at: 2026-07-25T09:25:25.849464+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 96 uses
+- #D9D9D9: 63 uses
+- #000000: 60 uses
+- #231F2099: 36 uses
+- #231F20B2: 20 uses
+- #00000080: 18 uses
+- #231F20CC: 12 uses
+- #516DFF: 12 uses
+- #00000066: 10 uses
+- #231F20: 9 uses
+- #00000033: 8 uses
+- #0000004D: 7 uses
+- #000000B2: 6 uses
+- #0378FFD9: 6 uses
+- #0000008C: 5 uses
+- #D9D9D933: 5 uses
+- #D9D9D94D: 5 uses
+- #00000099: 4 uses
+- #0076FFD9: 4 uses
+- #F1F1F1: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Poppins Regular, 12px: 23 uses
+- Poppins Medium, 12px: 17 uses
+- Poppins Regular, 10px: 16 uses
+- Poppins Light, 10px: 12 uses
+- Poppins Regular, 13px: 12 uses
+- Poppins Regular, 15px: 11 uses
+- Pompiere Regular, 50px: 7 uses
+- Pompiere Regular, 25px: 6 uses
+- Poppins Light, 12px: 6 uses
+- Poppins Medium, 20px: 5 uses
+- Poppins Bold, 20px: 3 uses
+
+## Typography Hierarchy
+- 50px - Pompiere Regular, 50px (raw)
+- 25px - Pompiere Regular, 25px (raw)
+- 20px - Poppins Bold, 20px (raw)
+- 20px - Poppins Medium, 20px (raw)
+- 15px - Poppins Regular, 15px (raw)
+- 13px - Poppins Regular, 13px (raw)
+- 12px - Poppins Light, 12px (raw)
+- 12px - Poppins Medium, 12px (raw)
+- 12px - Poppins Regular, 12px (raw)
+- 10px - Poppins Light, 10px (raw)
+- 10px - Poppins Regular, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: hello / Group 1
+- GROUP "Group 1", 1920x960px, constraints left/top
+  - FRAME "Plugin / file cover - 1", 1920x960px, constraints left/top, fill gradient_linear(#78A5D9 0% | #78A5D900 100%)
+    - GROUP "iPhone 13 Pro", 868x932.75px, constraints left/top [decorative, ~11 shapes]
+    - GROUP "logo", 519.85x135.77px, constraints left/top
+      - ELLIPSE "Ellipse 1", 71.55x71.55px, constraints left/top, fill #FF8719, stroke #FFFFFF 1.83px
+      - ELLIPSE "Ellipse 3", 44.03x44.03px, constraints left/top, fill #516DFF, stroke #FFFFFF 1.83px
+      - ELLIPSE "Ellipse 2", 99.07x100.91px, constraints left/top, fill #FF4545, stroke #FFFFFF 1.83px
+      - TEXT "YEPTY", 274x110px, constraints left/top, fill #FFFFFF, text [Pompiere Regular, 91.74px], [heading]
+    - TEXT "A PLACE FOR WRITERS.", 524.73x41px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 27.52px], [heading]
+
+Screen: UI/UX / profile
+- FRAME "profile", 390x844px, constraints left/top, radius 11px, fill #FFFFFF
+  - LINE "Line 2", 150x0px, constraints left/top, stroke #0000004D 4px
+  - GROUP "footer", 390x97px, constraints left/top [decorative, ~16 shapes]
+  - TEXT "Yepty.", 84x60px, constraints left/top, fill #000000, text [Pompiere Regular, 25px], [heading]
+  - GROUP "🦆 icon "close outline"", 30x30px, constraints left/top
+    - VECTOR "Vector", 30x30px, constraints scale/scale, fill #FFFFFF, opacity 0%
+    - VECTOR "Vector", 15.01x15.01px, constraints scale/scale, fill #231F20B2
+  - ELLIPSE "Ellipse 29", 90x90px, constraints left/top, fill #D9D9D9
+  - LINE "Line 4", 390x0px, constraints left/top, stroke #00000080 0.4px
+  - TEXT "Your Profile", 102x23px, constraints left/top, fill #000000, text [Poppins Regular, 15px]
+  - TEXT "David Watson", 123x23px, constraints left/top, fill #000000, text [Poppins Regular, 15px]
+  - TEXT "Hi, I’m David and usually I don’t like to read poetry but he", 372x50px, constraints left/top, fill #000000, text [Poppins Light, 12px]
+  - TEXT "Publish", 57x23px, constraints left/top, fill #000000, text [Poppins Light, 15px]
+  - TEXT "Connection", 94x23px, constraints left/top, fill #000000, text [Poppins Regular, 15px]
+  - TEXT "Level", 41x23px, constraints left/top, fill #000000, text [Poppins Regular, 15px]
+  - TEXT "04", 28x30px, constraints left/top, fill #000000, text [Poppins Bold, 20px]
+  - TEXT "50", 28x30px, constraints left/top, fill #000000, text [Poppins Bold, 20px]
+  - TEXT "02", 26x30px, constraints left/top, fill #000000, text [Poppins Bold, 20px]
+  - VECTOR "Vector", 25x20px, constraints scale/scale, fill #000000B2
+  - RECTANGLE "Rectangle 33", 165x145px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 35", 165x145px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 36", 165x145px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 34", 163x145px, constraints left/top, fill #D9D9D9
+  - TEXT "A fire in my Heart", 113x18px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "Rain of my EYES", 102x18px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "A first first Love", 99x18px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "A snowfall in JULY", 115x18px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pel", 151x75px, constraints left/top, fill #FFFFFF, text [Poppins Light, 10px]
+  - ... +3 more children
+
+Screen: UI/UX / community
+- FRAME "community", 390x844px, constraints left/top, radius 11px, fill #FFFFFF
+  - LINE "Line 2", 150x0px, constraints left/top, stroke #0000004D 4px
+  - GROUP "footer", 390x97px, constraints left/top [decorative, ~16 shapes]
+  - TEXT "Yepty.", 84x60px, constraints left/top, fill #000000, text [Pompiere Regular, 25px], [heading]
+  - GROUP "🦆 icon "close outline"", 30x30px, constraints left/top
+    - VECTOR "Vector", 30x30px, constraints scale/scale, fill #FFFFFF, opacity 0%
+    - VECTOR "Vector", 15.01x15.01px, constraints scale/scale, fill #231F20B2
+  - LINE "Line 3", 390x0px, constraints left/top, stroke #00000080 0.4px
+  - RECTANGLE "Rectangle 37", 165x145px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 39", 165x145px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 41", 179x129px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 42", 164x129px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 40", 349x145px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 38", 165x300px, constraints left/top, fill #D9D9D9
+  - TEXT "Friends Fornever", 108x18px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "My first Snowfall", 106x18px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "A dark shadow", 97x18px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "EMPTINESS", 99x16px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "A Road which leads nowhere", 210x18px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "A first second Love", 130x37px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 12px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pel", 151x75px, constraints left/top, fill #FFFFFF, text [Poppins Light, 10px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pel", 151x75px, constraints left/top, fill #FFFFFF, text [Poppins Light, 10px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pel", 163x75px, constraints left/top, fill #FFFFFF, text [Poppins Light, 10px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pel", 151x67px, constraints left/top, fill #FFFFFF, text [Poppins Light, 10px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pel", 319x75px, constraints left/top, fill #FFFFFF, text [Poppins Light, 10px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pel", 150x67px, constraints left/top, fill #FFFFFF, text [Poppins Light, 10px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pel", 150x67px, constraints left/top, fill #FFFFFF, text [Poppins Light, 10px]
+  - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pel", 150x67px, constraints left/top, fill #FFFFFF, text [Poppins Light, 10px]
+  - ... +2 more children
+
+Screen: UI/UX / post
+- FRAME "post", 390x844px, constraints left/top, radius 11px, fill #FFFFFF
+  - RECTANGLE "Rectangle 2", 390x205px, constraints left/top, fill #78A5D94D
+  - LINE "Line 1", 390x0px, constraints left/top, stroke #00000080 0.4px
+  - LINE "Line 2", 150x0px, constraints left/top, stroke #0000004D 4px
+  - GROUP "footer", 390x97px, constraints left/top [decorative, ~16 shapes]
+  - TEXT "Share your content with world !", 246x23px, constraints left/top, fill #000000, text [Poppins Regular, 15px]
+  - TEXT "Select a wallpaper for your story!", 271x23px, constraints left/top, fill #000000, text [Poppins Regular, 15px]
+  - RECTANGLE "Rectangle 14", 365x48px, constraints left/top, radius 11px, fill #F1F1F1
+  - RECTANGLE "Rectangle 15", 365x163px, constraints left/top, radius 5px, fill #F1F1F1
+  - TEXT "Title of your content", 176x21px, constraints left/top, fill #000000, text [Inter Medium, 17px], opacity 50%
+  - TEXT "Start writing your thoughts...", 320x92px, constraints left/top, fill #000000, text [Inter Medium, 13px], opacity 50%
+  - RECTANGLE "Rectangle 16", 364x90px, constraints left/top, radius 5px, fill #F1F1F1
+  - RECTANGLE "Rectangle 17", 365x158px, constraints left/top, radius 5px, fill #F1F1F1
+  - TEXT "Colors", 42x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+  - TEXT "Wallpapers", 74x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+  - ELLIPSE "Ellipse 20", 30x30px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 21", 30x30px, constraints left/top, fill #040404
+  - ELLIPSE "Ellipse 22", 30x30px, constraints left/top, fill #FF0000
+  - ELLIPSE "Ellipse 23", 30x30px, constraints left/top, fill #FF8A00
+  - ELLIPSE "Ellipse 24", 30x30px, constraints left/top, fill #FFD703
+  - ELLIPSE "Ellipse 25", 30x30px, constraints left/top, fill #33FF00
+  - ELLIPSE "Ellipse 26", 30x30px, constraints left/top, fill #00FFE0
+  - ELLIPSE "Ellipse 27", 30x30px, constraints left/top, fill #1C08FF
+  - ELLIPSE "Ellipse 28", 30x30px, constraints left/top, fill #FD0079
+  - FRAME "Frame 4", 351x110px, constraints left/top [decorative, ~12 shapes]
+  - RECTANGLE "Rectangle 32", 86x30px, constraints left/top, radius 5px, fill #516DFF, stroke #516DFF 0.4px
+  - ... +7 more children
+
+Screen: UI/UX / VC
+- FRAME "VC", 390x844px, constraints left/top, radius 11px, fill #FFFFFF
+  - LINE "Line 2", 150x0px, constraints left/top, stroke #0000004D 4px
+  - TEXT "Yepty.", 84x60px, constraints left/top, fill #000000, text [Pompiere Regular, 25px], [heading]
+  - GROUP "🦆 icon "close outline"", 30x30px, constraints left/top
+    - VECTOR "Vector", 30x30px, constraints scale/scale, fill #FFFFFF, opacity 0%
+    - VECTOR "Vector", 15.01x15.01px, constraints scale/scale, fill #231F20B2
+  - LINE "Line 5", 390x0px, constraints left/top, stroke #00000080 3px
+  - RECTANGLE "Rectangle 44", 390x318px, constraints left/top, fill gradient_linear(#B76122 0% | #B7612200 100%)
+  - RECTANGLE "Rectangle 43", 390x338px, constraints left/top, fill gradient_linear(#9E794C 0% | #FA8A0200 100%)
+  - ELLIPSE "Ellipse 30", 90x90px, constraints left/top, fill #D9D9D9
+  - ELLIPSE "Ellipse 31", 90x90px, constraints left/top, fill #D9D9D9
+
+Screen: UI/UX / messages
+- FRAME "messages", 390x844px, constraints left/top, radius 11px, fill #FFFFFF
+  - FRAME "Frame 2", 353x537px, constraints left/top
+    - GROUP "messages", 353x809px, constraints left/top
+      - GROUP "names1", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Prasanth Sharma", 106x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Seen 3h ago", 81x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names2", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Aman Sinha", 75x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Seen 4h ago", 82x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names3", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Rousellet Fox", 78x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Send 5h ago", 83x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names4", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Rusie Raby", 67x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Seen 3h ago", 81x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names 0", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Nixon Cameron", 94x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Seen 12h ago", 85x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names5", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Mady Maver", 75x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Seen 6h ago", 82x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names6", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Nikhil Mishra", 77x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Sent 3h ago", 78x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names7", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Mathew Perry", 83x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Sent 11h ago", 79x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names8", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Samy Dervis", 75x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Seen 3h ago", 81x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names9", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Wassy Watson", 90x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Seen 3h ago", 81x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names10", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Michal Mave", 77x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Seen 3h ago", 81x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+      - GROUP "names11", 353x50px, constraints left/top
+        - ELLIPSE "Ellipse 10", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Hope Dervis", 72x18px, constraints left/top, fill #000000, text [Poppins Medium, 12px]
+        - TEXT "Seen 3h ago", 81x20px, constraints left/top, fill #00000080, text [Poppins Regular, 13px]
+        - GROUP "🦆 icon "video outline"", 35x35.22px, constraints left/top
+          - VECTOR "Vector", 35x35.22px, constraints scale/scale, fill #FFFFFF, opacity 0%
+          - VECTOR "Vector", 29.18x20.54px, constraints scale/scale, fill #231F20CC
+    - ELLIPSE "Ellipse 11", 10x10px, constraints left/top, fill #14FE00
+    - ELLIPSE "Ellipse 12", 10x10px, constraints left/top, fill #33FE00
+    - ELLIPSE "Ellipse 13", 10x10px, constraints left/top, fill #33FE00
+  - RECTANGLE "Rectangle 2", 390x205px, constraints left/top, fill #78A5D94D
+  - LINE "Line 1", 390x0px, constraints left/top, stroke #00000080 0.4px
+  - TEXT "Yepty.", 84x60px, constraints left/top, fill #000000, text [Pompiere Regular, 25px], [heading]
+  - LINE "Line 2", 150x0px, constraints left/top, stroke #0000004D 4px
+  - GROUP "footer", 390x94px, constraints left/top [decorative, ~16 shapes]
+  - GROUP "🦆 icon "close outline"", 30x30px, constraints left/top
+    - VECTOR "Vector", 30x30px, constraints scale/scale, fill #FFFFFF, opacity 0%
+    - VECTOR "Vector", 15.01x15.01px, constraints scale/scale, fill #231F20B2
+  - FRAME "Frame 1", 387x75px, constraints left/top
+    - GROUP "Group 2", 572.37x64px, constraints left/top
+      - GROUP "your", 57x64px, constraints left/top
+        - ELLIPSE "Ellipse 2", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Your Story", 52x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+        - GROUP "🦆 icon "plus circle"", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #000000, opacity 0%
+          - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, fill #516DFF
+      - ELLIPSE "Ellipse 3", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Nancy", 37.56x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 4", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Joey", 37.56x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 5", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Rayan", 37.56x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 6", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Amanda", 49.37x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 7", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Ramsey", 49.37x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 8", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Aman", 71x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 9", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Akram", 49.37x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+  - RECTANGLE "Rectangle 1", 390x65px, constraints left/top, fill #FFFFFF
+  - GROUP "🦆 icon "search"", 25x25px, constraints left/top
+    - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF, opacity 0%
+    - VECTOR "Vector", 18.76x18.76px, constraints scale/scale, fill #231F20B2
+  - TEXT "Messages", 79x23px, constraints left/top, fill #000000, text [Poppins Medium, 15px]
+
+Screen: UI/UX / home page
+- FRAME "home page", 390x844px, constraints left/top, radius 11px, fill #FFFFFF
+  - RECTANGLE "Rectangle 2", 390x205px, constraints left/top, fill #78A5D94D
+  - GROUP "🦆 icon "plus square outline"", 25x25px, constraints left/top
+    - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF, opacity 0%
+  - GROUP "🦆 icon "search"", 22x22px, constraints left/top
+    - GROUP "Group", 22x22px, constraints scale/scale
+      - VECTOR "Vector", 22x22px, constraints scale/scale, fill #231F20B2
+      - VECTOR "Vector", 9.78x9.78px, constraints scale/scale, fill #231F20B2
+  - LINE "Line 1", 390x0px, constraints left/top, stroke #00000080 0.4px
+  - TEXT "Yepty.", 84x60px, constraints left/top, fill #000000, text [Pompiere Regular, 25px], [heading]
+  - GROUP "footer", 390x94px, constraints left/top [decorative, ~16 shapes]
+  - LINE "Line 2", 150x0px, constraints left/top, stroke #0000004D 4px
+  - FRAME "Frame 3", 390x585px, constraints left/top
+    - GROUP "posts", 390x1250px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 4", 390x189px, constraints left/top, fill #D9D9D933
+      - RECTANGLE "Rectangle 6", 390x189px, constraints left/top, fill #D9D9D933
+      - RECTANGLE "Rectangle 8", 390x189px, constraints left/top, fill #D9D9D933
+      - RECTANGLE "Rectangle 10", 390x189px, constraints left/top, fill #D9D9D933
+      - RECTANGLE "Rectangle 12", 390x189px, constraints left/top, fill #D9D9D933
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hab", 357x126px, constraints left/top, fill #FFFFFF, text [Poppins Light, 12px]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hab", 357x126px, constraints left/top, fill #FFFFFF, text [Poppins Light, 12px]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hab", 357x126px, constraints left/top, fill #FFFFFF, text [Poppins Light, 12px]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hab", 357x126px, constraints left/top, fill #FFFFFF, text [Poppins Light, 12px]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hab", 357x126px, constraints left/top, fill #FFFFFF, text [Poppins Light, 12px]
+      - TEXT "Night To Remeber.", 220x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+      - TEXT "Winter Nights.", 169x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+      - TEXT "Will I be good enough.", 270x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+      - TEXT "When I’m Alone.", 193x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+      - TEXT "Smile Dear.", 136x30px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 20px]
+      - ELLIPSE "Ellipse 15", 30x30px, constraints left/top, fill #D9D9D9
+      - ELLIPSE "Ellipse 16", 30x30px, constraints left/top, fill #D9D9D9
+      - ELLIPSE "Ellipse 17", 30x30px, constraints left/top, fill #D9D9D9
+      - ELLIPSE "Ellipse 18", 30x30px, constraints left/top, fill #D9D9D9
+      - ELLIPSE "Ellipse 19", 30x30px, constraints left/top, fill #D9D9D9
+      - TEXT "Shivam Dubey", 94x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+      - TEXT "Robert Johnes", 93x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+      - TEXT "Ross Stuart", 73x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+      - TEXT "Wendy Kraka", 85x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+      - TEXT "Robert Frost", 79x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+      - ... +20 more children
+  - GROUP "🦆 icon "search"", 25x25px, constraints left/top
+    - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF, opacity 0%
+    - VECTOR "Vector", 18.76x18.76px, constraints scale/scale, fill #231F20B2
+  - FRAME "Frame 1", 387x75px, constraints left/top
+    - GROUP "Group 2", 572.37x64px, constraints left/top
+      - GROUP "your", 57x64px, constraints left/top
+        - ELLIPSE "Ellipse 2", 50x50px, constraints left/top, fill #D9D9D9
+        - TEXT "Your Story", 52x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+        - GROUP "🦆 icon "plus circle"", 20x20px, constraints left/top
+          - VECTOR "Vector", 20x20px, constraints scale/scale, fill #000000, opacity 0%
+          - VECTOR "Vector", 16.67x16.67px, constraints scale/scale, fill #516DFF
+      - ELLIPSE "Ellipse 3", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Nancy", 37.56x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 4", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Joey", 37.56x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 5", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Rayan", 37.56x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 6", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Amanda", 49.37x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 7", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Ramsey", 49.37x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 8", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Aman", 71x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+      - ELLIPSE "Ellipse 9", 50x50px, constraints left/top, fill #D9D9D9
+      - TEXT "Akram", 49.37x13px, constraints left/top, fill #000000, text [Poppins Regular, 10px]
+
+Screen: UI/UX / Starting Page
+- FRAME "Starting Page", 390x844px, constraints left/top, radius 11px, fill #78A5D9
+  - GROUP "logo", 284x74px, constraints left/top
+    - ELLIPSE "Ellipse 1", 39x39px, constraints left/top, fill #FF8719, stroke #FFFFFF 1px
+    - ELLIPSE "Ellipse 3", 24x24px, constraints left/top, fill #516DFF, stroke #FFFFFF 1px
+    - ELLIPSE "Ellipse 2", 54x55px, constraints left/top, fill #FF4545, stroke #FFFFFF 1px
+    - TEXT "YEPTY", 150x60px, constraints left/top, fill #FFFFFF, text [Pompiere Regular, 50px], [heading]
+  - LINE "Line 3", 150x0px, constraints left/top, stroke #0000004D 4px
+  - TEXT "A PLACE FOR WRITERS.", 286x23px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 15px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

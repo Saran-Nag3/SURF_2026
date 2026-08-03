@@ -1,0 +1,14 @@
+{
+    "total_screens": 39,
+    "successful_screens": 39,
+    "failed_screens": 0,
+    "cache_hits": 0,
+    "cache_dir": "/Users/sarannagubandi/Desktop/SURF/screen_gen2/.screen_gen_cache",
+    "total_prompt_tokens": 1513266,
+    "total_completion_tokens": 183583,
+    "total_tokens": 1696849,
+    "total_generation_time_seconds": 913.49,
+    "provider": "azure",
+    "model": "gpt-5.4-mini",
+    "execution_time_seconds": 915.41
+}

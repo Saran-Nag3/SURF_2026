@@ -1,0 +1,913 @@
+---
+name: 64-mobile-device-mockup-component-clay-realistic-flat-vector-iphone-pixel-samsung-odw-community
+source_file: 64+ Mobile device mockup component! (Clay, Realistic, Flat, Vector, iPhone, Pixel, Samsung) | ODW (Community)
+source_page: Page 1
+generated_at: 2026-07-02T20:56:26.159110+00:00
+---
+
+# 64+ Mobile device mockup component! (Clay, Realistic, Flat, Vector, iPhone, Pixel, Samsung) | ODW (Community) Design Guidelines
+
+## Source
+- Figma file: 64+ Mobile device mockup component! (Clay, Realistic, Flat, Vector, iPhone, Pixel, Samsung) | ODW (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-02T20:56:26.159110+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- #4350FF: [#4350FF]
+- Base/White: none
+- Gray true / 300: [#D6D6D6]
+- Gray Cool/200: [#FFFFFF]
+- Gray Cool/600: [#475467]
+- Gray Cool/900: [#101828]
+- Gray Cool/50: [#F9FAFB]
+- Gray Cool/500: none
+- Gray Cool/700: [#344054]
+- Gray Cool/300: none
+- Gray Cool/400: none
+- Grays Extra/Gray warm/700: [#292929]
+- Gray true / 500: none
+- Yellow/300: [#FDE272]
+- Gray true / 800: [#292929]
+- Gray Cool/800: [#1D2939]
+- Orange/100: [#FDEAD7]
+- Orange/51 - FF822D: [#FF822D]
+- Neutral/1 - 1C1C1C: [#1C1C1C]
+- Yellow/106 - FCD53F: [#FCD53F]
+- Yellow/105 - F9C23C: [#F9C23C]
+- Neutral/2 - 212121: [#212121]
+- Gray Cool/100: [#F2F4F7]
+- Violet/500: [#F2F4F7]
+- Gray true / 200: [#E5E5E5]
+- Green / 600: [#099250]
+- Yellow / 500: [#EAAA08]
+
+## Raw Colors (unstyled)
+- #959FAE: 365 uses
+- #ED1C24: 348 uses
+- #F15A29: 334 uses
+- #9B8579: 284 uses
+- #657B9A26: 148 uses
+- #F4F7FA: 141 uses
+- #FFFFFF: 116 uses
+- #1C75BC: 82 uses
+- #27AAE1: 74 uses
+- #FFFFFF4D: 67 uses
+- #00A79D: 66 uses
+- #292929: 52 uses
+- #666666: 49 uses
+- #CCCCCC: 49 uses
+- #4350FF: 46 uses
+- #000000: 29 uses
+
+## Typography Tokens
+- Text xl/Regular: Inter Regular (400), 20px / 123.94%, tracking 0px
+- Text sm/Medium: Inter Medium (500), 14px / 115.68%, tracking 0px
+- Text md/Semibold: Inter SemiBold (600), 16px / 123.94%, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 3.08px: 49 uses
+- Suez One Regular, 60px: 35 uses
+- Suez One Regular, 30px: 20 uses
+- Rubik Regular, 38px: 17 uses
+- Inter Medium, 25px: 10 uses
+- Inter SemiBold, 24px: 10 uses
+- Rubik Regular, 40px: 7 uses
+- Inter Medium, 22px: 5 uses
+- Rubik Bold, 42px: 5 uses
+
+## Typography Hierarchy
+- 60px - Suez One Regular, 60px (raw)
+- 42px - Rubik Bold, 42px (raw)
+- 40px - Rubik Regular, 40px (raw)
+- 38px - Rubik Regular, 38px (raw)
+- 30px - Suez One Regular, 30px (raw)
+- 25px - Inter Medium, 25px (raw)
+- 24px - Inter SemiBold, 24px (raw)
+- 22px - Inter Medium, 22px (raw)
+- 20px - Text xl/Regular (Inter Regular)
+- 16px - Text md/Semibold (Inter SemiBold)
+- 14px - Text sm/Medium (Inter Medium)
+- 3.08px - Inter Regular, 3.08px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow/xs: [drop_shadow 2px offset 0 1 #1018280D]
+- Shadow/xl: [drop_shadow 8px offset 0 8 #10182808, drop_shadow 24px offset 0 20 #10182814]
+- Shadow/lg: [drop_shadow 6px offset 0 4 #10182808, drop_shadow 16px offset 0 12 #10182814]
+- Shadow/sm: [drop_shadow 2px offset 0 1 #1018280F, drop_shadow 3px offset 0 1 #1018281A]
+
+## Grid Styles
+- Grid: columns count 1, section 700px, gutter 0px, align center
+
+## Component Families
+- Phone Mockups
+- Shadows
+- Screen Content
+
+## Component Specs
+- Phone Mockups: size 1164x2044px | variants: Type: Clay High Detail/Clay Med Detail/Clay No detail/Google Pixel/Samsung Galaxy/Vector Iphone/Vector Samsung Galaxy/iPhone 14; Accent Color: False/True
+- Shadows: size 1164x2044px | variants: Type: 1/2/3/4
+- Screen Content: size 414x896px | variants: Show Splash: False/True
+
+## Most-Used Styles
+- Gray Cool/600: 38 uses
+- Gray Cool/400: 26 uses
+- Grays Extra/Gray warm/700: 22 uses
+- Gray true / 800: 20 uses
+- Base/White: 18 uses
+- Yellow/300: 17 uses
+- Gray Cool/200: 14 uses
+- Gray Cool/800: 11 uses
+- #4350FF: 10 uses
+- Orange/100: 10 uses
+- Shadow/xl: 10 uses
+- Text md/Semibold: 10 uses
+- Gray Cool/500: 8 uses
+- Gray true / 500: 8 uses
+- Gray Cool/100: 7 uses
+- Gray Cool/900: 5 uses
+- Gray Cool/300: 4 uses
+- Gray Cool/700: 4 uses
+- Gray Cool/50: 3 uses
+- Gray true / 300: 3 uses
+- Orange/51 - FF822D: 3 uses
+- Shadow/sm: 3 uses
+- Violet/500: 3 uses
+- Text sm/Medium: 2 uses
+- Text xl/Regular: 2 uses
+- Yellow/105 - F9C23C: 2 uses
+- Yellow/106 - FCD53F: 2 uses
+- Gray true / 200: 1 use
+- Green / 600: 1 use
+- Neutral/1 - 1C1C1C: 1 use
+- Neutral/2 - 212121: 1 use
+- Shadow/lg: 1 use
+- Shadow/xs: 1 use
+- Yellow / 500: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Cover
+- FRAME "Cover", 1825x960px, constraints left/top, radius 20px, fill #FFFFFF
+  - INSTANCE "Mobile Device Mockup Cover", 1825x960px, constraints center/center, radius 20px, fill #FFFFFF
+    - FRAME "Frame 1160444626", 805x751px, vertical pad 0 0 0 0px gap 70px sizing W:fixed H:fixed, constraints left/center
+      - FRAME "Frame 1160444629", 795x371px, vertical pad 0 0 0 0px gap 22px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Free", 142x58px, constraints left/top, fill Yellow / 500, text [Suez One Regular, 58px], [heading]
+        - TEXT "64+ Mobile device mockup component", 795x291px, constraints left/top, fill #292929, text [Suez One Regular, 100px], [heading]
+      - FRAME "Frame 1160444624", 805x184px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 1160444623", 527x48px, horizontal pad 0 0 0 0px gap 25px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "check", 48x48px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 32x22px, constraints scale/scale, stroke Gray Cool/400 6px
+          - TEXT "Vector & realistic variants", 454x40px, constraints left/top, fill #292929, text [Rubik Regular, 40px], [heading]
+        - FRAME "Frame 1160444622", 805x48px, horizontal pad 0 0 0 0px gap 25px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "check", 48x48px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 32x22px, constraints scale/scale, stroke Gray Cool/400 6px
+          - TEXT "Components for devices & shadows", 732x40px, constraints left/top, fill #292929, text [Rubik Regular, 40px], [heading]
+        - FRAME "Frame 1160444621", 365x48px, horizontal pad 0 0 0 0px gap 25px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "check", 48x48px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 32x22px, constraints scale/scale, stroke Gray Cool/400 6px
+          - TEXT "Completely free!", 292x40px, constraints left/top, fill #292929, text [Rubik Regular, 40px], [heading]
+      - INSTANCE "Built by", 805x56px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "ODW -- Logomark", 56x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~6 shapes]
+        - FRAME "Frame 1160444632", 512x40px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Built by", 136x40px, constraints left/top, fill #475467, text [Rubik Regular, 40px], [heading]
+          - TEXT "osborndesign.works", 360x40px, constraints left/top, fill #475467, text [Rubik Regular, 40px], [heading]
+    - FRAME "Frame 1160444627", 263.25x1066.7px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Gray true / 200, effect [drop_shadow 78px offset 0 16 #10182814]
+      - LINE "Line 91", 0x1022px, constraints left/top, stroke Gray Cool/500 1px
+      - FRAME "Frame 1160444620", 263.25x1066.7px, vertical pad 20 50 20 50px gap -40px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Phone Mockups", 163.25x286.68px, constraints left/top
+          - INSTANCE "Shadows", 163.25x286.68px, constraints scale/scale
+            - RECTANGLE "Shadow", 303.09x60.87px, constraints scale/scale, fill image(hash: 2a37e8aadead9ee45c0f89e2c5fd03dc2b9721fd), effect [layer_blur 0.28px]
+          - GROUP "1", 98.18x209.54px, constraints scale/scale
+            - RECTANGLE "Pix", 98.18x209.48px, constraints scale/scale, fill image(hash: ef213cefad10b7b221098d9575dce3c947a2a57d)
+            - GROUP "Mask group", 97.48x209.4px, constraints scale/scale
+            - RECTANGLE "Reflection", 98.18x209.48px, constraints scale/scale, fill image(hash: 983c9eea1fefd8819815fe9a847c6730897f479f)
+        - INSTANCE "Phone Mockups", 163.25x286.68px, constraints left/top
+          - INSTANCE "Shadows", 163.25x286.68px, constraints scale/scale
+            - RECTANGLE "Shadow", 234.5x14.87px, constraints scale/scale, fill image(hash: dc20d8870e52c471d03ad8ebb1120de536819a24), effect [layer_blur 0.28px]
+          - GROUP "Group 39", 98.18x199.58px, constraints left/top
+            - VECTOR "Change-Color", 98.01x199.43px, constraints scale/scale, fill Yellow/300
+            - GROUP "Group 38", 98.18x199.58px, constraints scale/scale
+        - INSTANCE "Phone Mockups", 163.25x286.68px, constraints left/top
+          - INSTANCE "Shadows", 163.25x286.68px, constraints scale/scale
+            - RECTANGLE "Shadow", 234.5x14.87px, constraints scale/scale, fill image(hash: dc20d8870e52c471d03ad8ebb1120de536819a24), effect [layer_blur 0.28px]
+          - RECTANGLE "iPhone-14-Pro", 98.18x199.38px, constraints scale/scale, fill image(hash: 2124c5f22e3bbf953c070e0183eb6c981e5757b0)
+          - GROUP "Mask group", 88.1x190.98px, constraints scale/scale
+            - VECTOR "Vector", 88.1x190.98px, constraints scale/scale, fill #000000
+            - INSTANCE "Screen Content", 88.39x191.3px, constraints scale/scale, fill #292929
+        - INSTANCE "Phone Mockups", 163.25x286.68px, constraints left/top
+          - INSTANCE "Shadows", 163.25x286.68px, constraints scale/scale
+            - RECTANGLE "Shadow", 234.5x14.87px, constraints scale/scale, fill image(hash: dc20d8870e52c471d03ad8ebb1120de536819a24), effect [layer_blur 0.28px]
+          - GROUP "Gal", 96.77x209.86px, constraints left/top
+            - GROUP "Object", 96.77x209.86px, constraints scale/scale [decorative, ~51 shapes]
+            - GROUP "Mockup", 91.62x203.14px, constraints scale/scale
+            - VECTOR "Border", 91.62x203.14px, constraints scale/scale, stroke #959FAE 0.33px
+    - FRAME "Phone Mockups", 944.38x1002.6px, constraints right/center
+      - GROUP "Group 1160444221", 562.61x816.2px, constraints left/top, radius 0/0/0/0px
+        - INSTANCE "Shadows", 562.61x816.2px, constraints scale/scale
+          - RECTANGLE "Shadow", 453.93x658.83px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 0.73px], opacity 70%
+        - GROUP "Phone", 355.3x564.59px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Object", 354.85x562.29px, constraints scale/scale [decorative, ~42 shapes]
+          - VECTOR "Mask", 322.11x533.31px, constraints scale/scale, fill #F4F7FA, stroke #959FAE 0.53px
+          - GROUP "Mask group", 322.11x533.31px, constraints scale/scale, effect [drop_shadow 1.28px offset 0 0.64 #1018280F, drop_shadow 1.93px offset 0 0.64 #1018281A]
+            - VECTOR "Vector", 322.11x533.31px, constraints scale/scale, fill #000000
+            - INSTANCE "Screen Content", 325x535.44px, constraints scale/scale
+          - VECTOR "Border", 322.11x533.31px, constraints scale/scale, stroke #959FAE 0.53px
+          - GROUP "Group 40", 79.42x93.07px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 3.85px offset 0 1.93 #1018280F, drop_shadow 7.7px offset 0 3.85 #1018281A]
+            - VECTOR "Rectangle 20995", 79.42x93.07px, constraints left/top, radius 0/0/0/0px, fill #FDE272
+            - TEXT "64x", 42.23x29.07px, constraints left/top, fill #292929, text [Suez One Regular, 21.67px]
+      - INSTANCE "Phone Mockups", 521.15x851.51px, constraints left/center
+        - INSTANCE "Shadows", 521.15x851.51px, constraints scale/scale
+          - RECTANGLE "Shadow", 422.69x691.1px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 0.81px], opacity 70%
+        - RECTANGLE "ip", 318.46x589.33px, constraints scale/scale, fill image(hash: 529d2cdf76259f4c5b003ecfdebf710391789822)
+        - VECTOR "iPhone-14-Pro", 314.02x588.82px, constraints scale/scale, fill Yellow/300
+        - GROUP "Mask group", 288.02x563.39px, constraints scale/scale
+          - VECTOR "Vector", 288.02x563.39px, constraints scale/scale, fill #000000
+          - INSTANCE "Screen Content", 288.92x564.37px, constraints scale/scale, fill #292929
+            - RECTANGLE "image 9", 288.92x564.37px, constraints scale/scale, fill image(hash: 02d68d9f65504aebc63f8f9dee6a272aa3b843ac)
+
+Screen: Page 1 / 5
+- FRAME "5", 2488x2615px, vertical pad 80 80 80 80px gap 110px sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #BBBBBB, stroke Gray Cool/400 10px
+  - TEXT "Directions:", 1876x200px, constraints left/top, fill #292929, text [Suez One Regular, 200px], [heading]
+  - RECTANGLE "image 10", 637x713px, constraints left/top, fill image(hash: 4d5dd567e8a303c34c06f13d15ffb626be5c1663)
+  - FRAME "Frame 1160444619", 1559x190px, horizontal pad 0 0 0 0px gap 50px align min/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Select any of the below examples and adjust the component se", 1311x190px, constraints left/top, fill Gray Cool/800, text [Rubik SemiBold, 68px], [heading]
+    - FRAME "Hand-drawn arrow", 198x138px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 225.43x140.42px, constraints scale/scale, stroke Yellow/300 13px
+  - FRAME "Frame 1160444618", 2328x1022px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 90px, fill Gray true / 300
+    - INSTANCE "Phone Mockups", 582x1022px, constraints left/top
+      - INSTANCE "Shadows", 582x1022px, constraints scale/scale
+        - RECTANGLE "Shadow", 472x829.5px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 1px], opacity 70%
+      - RECTANGLE "ip", 350x710.78px, constraints scale/scale, fill image(hash: 529d2cdf76259f4c5b003ecfdebf710391789822)
+      - VECTOR "iPhone-14-Pro", 344.5x710.5px, constraints scale/scale, fill Yellow/300
+      - GROUP "Mask group", 314.06x680.83px, constraints scale/scale
+        - VECTOR "Vector", 314.06x680.83px, constraints scale/scale, fill #000000
+        - INSTANCE "Screen Content", 315.11x681.98px, constraints scale/scale
+          - RECTANGLE "Rectangle 1162", 315.11x681.98px, constraints scale/scale, fill #4350FF
+          - FRAME "ODW -- Logomark", 95.9x60.13px, constraints scale/scale [decorative, ~4 shapes]
+    - LINE "Line 91", 0x1022px, constraints left/top, stroke #98A2B3 1px
+    - INSTANCE "Phone Mockups", 582x1022px, constraints left/top
+      - INSTANCE "Shadows", 582x1022px, constraints scale/scale
+        - RECTANGLE "Shadow", 836x53px, constraints scale/scale, fill image(hash: dc20d8870e52c471d03ad8ebb1120de536819a24), effect [layer_blur 1px]
+      - GROUP "1", 350x746.81px, constraints scale/scale
+        - RECTANGLE "Pix", 350x746.81px, constraints scale/scale, fill image(hash: ef213cefad10b7b221098d9575dce3c947a2a57d)
+        - GROUP "Mask group", 326.68x703.59px, constraints scale/scale
+          - VECTOR "Vector", 326.68x703.59px, constraints scale/scale, fill #000000
+          - INSTANCE "Screen Content", 327.49x703.58px, constraints scale/scale
+            - RECTANGLE "Rectangle 1162", 327.49x703.58px, constraints scale/scale, fill #4350FF
+            - FRAME "ODW -- Logomark", 99.67x62.03px, constraints scale/scale [decorative, ~4 shapes]
+        - RECTANGLE "Reflection", 350x746.81px, constraints scale/scale, fill image(hash: 983c9eea1fefd8819815fe9a847c6730897f479f)
+    - LINE "Line 92", 0x1022px, constraints left/top, stroke #98A2B3 1px
+    - INSTANCE "Phone Mockups", 582x1022px, constraints left/top
+      - INSTANCE "Shadows", 582x1022px, constraints scale/scale
+        - RECTANGLE "Shadow", 469.5x825px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 1px], opacity 70%
+      - GROUP "Gal", 345x748.16px, constraints left/top
+        - GROUP "Object", 345x748.16px, constraints scale/scale [decorative, ~51 shapes]
+        - GROUP "Mockup", 326.63x724.2px, constraints scale/scale
+          - VECTOR "Mask", 326.63x724.2px, constraints scale/scale, fill #F4F7FA, stroke #959FAE 1.19px
+          - GROUP "Mask group", 326.63x724.2px, constraints scale/scale
+            - VECTOR "Vector", 326.63x724.2px, constraints scale/scale, fill #000000
+            - INSTANCE "Screen Content", 338.64x726.58px, constraints scale/scale
+        - VECTOR "Border", 326.63x724.2px, constraints scale/scale, stroke #959FAE 1.19px
+    - LINE "Line 93", 0x1022px, constraints left/top, stroke #98A2B3 1px
+    - INSTANCE "Phone Mockups", 582x1022px, constraints left/top
+      - INSTANCE "Shadows", 582x1022px, constraints scale/scale
+        - RECTANGLE "Shadow", 1080.5x217px, constraints scale/scale, fill image(hash: 2a37e8aadead9ee45c0f89e2c5fd03dc2b9721fd), effect [layer_blur 1px]
+      - GROUP "Phone", 353.5x713.5px, constraints left/top
+        - GROUP "Object", 353.5x713.42px, constraints scale/scale [decorative, ~42 shapes]
+        - VECTOR "Color", 348x713.5px, constraints scale/scale, fill Yellow/300
+        - VECTOR "Mask", 314.34x680.78px, constraints scale/scale, fill #F4F7FA, stroke #959FAE 0.72px
+        - GROUP "Mask group", 314.34x680.78px, constraints scale/scale
+          - VECTOR "Vector", 314.34x680.78px, constraints scale/scale, fill #000000
+          - INSTANCE "Screen Content", 317.93x683.05px, constraints scale/scale
+            - RECTANGLE "Rectangle 1162", 317.93x683.05px, constraints scale/scale, fill #4350FF
+            - FRAME "ODW -- Logomark", 96.76x60.22px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Border", 314.34x680.78px, constraints scale/scale, stroke #959FAE 0.72px
+
+Screen: Page 1 / Examples!
+- TEXT "Examples!", 1876x190px, constraints left/top, fill #292929, text [Suez One Regular, 190px], [heading]
+
+Screen: Page 1 / Mockup Components:
+- TEXT "Mockup Components:", 2369.67x200px, constraints left/top, fill #292929, text [Suez One Regular, 200px], [heading]
+
+Screen: Page 1 / Screen Content
+- COMPONENT_SET "Screen Content", 978x996px, horizontal pad 50 50 50 50px gap 50px align min/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #BBBBBB, stroke Violet/500 10px
+  - COMPONENT "Show Splash=True", 414x896px, constraints left/top
+    - RECTANGLE "Rectangle 1162", 414x896px, constraints scale/scale, fill #4350FF
+    - FRAME "ODW -- Logomark", 126x79px, constraints scale/scale [decorative, ~4 shapes]
+  - COMPONENT "Show Splash=False", 414x896px, constraints left/top, fill #292929
+    - RECTANGLE "image 9", 414x896px, constraints scale/scale, fill image(hash: 02d68d9f65504aebc63f8f9dee6a272aa3b843ac)
+
+Screen: Page 1 / Shadows
+- COMPONENT_SET "Shadows", 4876x2144px, horizontal pad 50 50 50 50px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, radius 30px, fill #BBBBBB, stroke Violet/500 10px
+  - COMPONENT "Type=1", 1164x2044px, constraints left/top
+    - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+  - COMPONENT "Type=2", 1164x2044px, constraints left/top
+    - RECTANGLE "Shadow", 939x1650px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+  - COMPONENT "Type=3", 1164x2044px, constraints left/top
+    - RECTANGLE "Shadow", 1672x106px, constraints scale/scale, fill image(hash: dc20d8870e52c471d03ad8ebb1120de536819a24), effect [layer_blur 2px]
+  - COMPONENT "Type=4", 1164x2044px, constraints left/top
+    - RECTANGLE "Shadow", 2161x434px, constraints scale/scale, fill image(hash: 2a37e8aadead9ee45c0f89e2c5fd03dc2b9721fd), effect [layer_blur 2px]
+
+Screen: Page 1 / Phone Mockups
+- COMPONENT_SET "Phone Mockups", 9352x4128px, constraints left/top, radius 30px, fill Gray Cool/100, stroke Violet/500 10px
+  - COMPONENT "Type=iPhone 14, Accent Color=False", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - RECTANGLE "iPhone-14-Pro", 700x1421.56px, constraints scale/scale, fill image(hash: 2124c5f22e3bbf953c070e0183eb6c981e5757b0)
+    - GROUP "Mask group", 628.12x1361.67px, constraints scale/scale
+      - VECTOR "Vector", 628.12x1361.67px, constraints scale/scale, fill #000000
+      - INSTANCE "Screen Content", 630.23x1363.97px, constraints scale/scale
+        - RECTANGLE "Rectangle 1162", 630.23x1363.97px, constraints scale/scale, fill #4350FF
+        - FRAME "ODW -- Logomark", 191.81x120.26px, constraints scale/scale [decorative, ~4 shapes]
+  - COMPONENT "Type=iPhone 14, Accent Color=True", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - RECTANGLE "ip", 700x1421.56px, constraints scale/scale, fill image(hash: 529d2cdf76259f4c5b003ecfdebf710391789822)
+    - VECTOR "iPhone-14-Pro", 689x1421px, constraints scale/scale, fill Yellow/300
+    - GROUP "Mask group", 628.12x1361.67px, constraints scale/scale
+      - VECTOR "Vector", 628.12x1361.67px, constraints scale/scale, fill #000000
+      - INSTANCE "Screen Content", 630.23x1363.97px, constraints scale/scale
+        - RECTANGLE "Rectangle 1162", 630.23x1363.97px, constraints scale/scale, fill #4350FF
+        - FRAME "ODW -- Logomark", 191.81x120.26px, constraints scale/scale [decorative, ~4 shapes]
+  - COMPONENT "Type=Samsung Galaxy, Accent Color=False", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - RECTANGLE "Sams", 700x1496px, constraints scale/scale, fill image(hash: 69e9b49b696422dbf09d9a96e1a075a53f3c0f29)
+    - GROUP "Mask group", 663.93x1451.48px, constraints scale/scale
+      - VECTOR "Vector", 663.93x1451.48px, constraints scale/scale, fill #000000
+      - INSTANCE "Screen Content", 682.19x1454.07px, constraints scale/scale
+        - RECTANGLE "Rectangle 1162", 682.19x1454.07px, constraints scale/scale, fill #4350FF
+        - FRAME "ODW -- Logomark", 207.62x128.2px, constraints scale/scale [decorative, ~4 shapes]
+  - COMPONENT "Type=Samsung Galaxy, Accent Color=True", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - RECTANGLE "Sams", 700x1496px, constraints scale/scale, fill image(hash: 69e9b49b696422dbf09d9a96e1a075a53f3c0f29)
+    - VECTOR "C", 695x1496px, constraints scale/scale, fill Yellow/300
+    - GROUP "Mask group", 663.93x1451.48px, constraints scale/scale
+      - VECTOR "Vector", 663.93x1451.48px, constraints scale/scale, fill #000000
+      - INSTANCE "Screen Content", 682.19x1454.07px, constraints scale/scale
+        - RECTANGLE "Rectangle 1162", 682.19x1454.07px, constraints scale/scale, fill #4350FF
+        - FRAME "ODW -- Logomark", 207.62x128.2px, constraints scale/scale [decorative, ~4 shapes]
+  - COMPONENT "Type=Clay No detail, Accent Color=False", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - VECTOR "Change-Color", 698.79x1421.93px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Group 38", 700x1422.98px, constraints scale/scale
+      - GROUP "Mask group", 630.4x1354.97px, constraints scale/scale
+        - VECTOR "Vector", 630.4x1354.97px, constraints scale/scale, fill #000000
+        - INSTANCE "Screen Content", 631.3x1366.3px, constraints scale/scale
+          - RECTANGLE "Rectangle 1162", 631.3x1366.3px, constraints scale/scale, fill #4350FF
+          - FRAME "ODW -- Logomark", 192.14x120.47px, constraints scale/scale [decorative, ~4 shapes]
+      - VECTOR "Shadow", 700x1422.98px, constraints scale/scale, fill image(hash: 08a82fca9a22d58d3aab5d2df16d19131a4caf26)
+      - VECTOR "Reflection", 700x1422.98px, constraints scale/scale, fill image(hash: c8c28f987d091dff5bee28715563e44599f69a64), opacity 10%
+  - COMPONENT "Type=Clay No detail, Accent Color=True", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - GROUP "Group 39", 700x1422.98px, constraints left/top
+      - VECTOR "Change-Color", 698.79x1421.93px, constraints scale/scale, fill Yellow/300
+      - GROUP "Group 38", 700x1422.98px, constraints scale/scale
+        - GROUP "Mask group", 630.4x1354.97px, constraints scale/scale
+          - VECTOR "Vector", 630.4x1354.97px, constraints scale/scale, fill #000000
+          - INSTANCE "Screen Content", 631.3x1366.3px, constraints scale/scale
+            - RECTANGLE "Rectangle 1162", 631.3x1366.3px, constraints scale/scale, fill #4350FF
+            - FRAME "ODW -- Logomark", 192.14x120.47px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Shadow", 700x1422.98px, constraints scale/scale, fill image(hash: 08a82fca9a22d58d3aab5d2df16d19131a4caf26)
+        - VECTOR "Reflection", 700x1422.98px, constraints scale/scale, fill image(hash: c8c28f987d091dff5bee28715563e44599f69a64), opacity 20%
+  - COMPONENT "Type=Clay Med Detail, Accent Color=False", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - GROUP "Group", 700x1441.58px, constraints scale/scale
+      - VECTOR "Change-Color", 699.35x1440.91px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Mask group", 639.79x1382.22px, constraints scale/scale
+        - VECTOR "Vector", 639.79x1382.22px, constraints scale/scale, fill #000000
+        - INSTANCE "Screen Content", 639.92x1384.95px, constraints scale/scale
+          - RECTANGLE "Rectangle 1162", 639.92x1384.95px, constraints scale/scale, fill #4350FF
+          - FRAME "ODW -- Logomark", 194.76x122.11px, constraints scale/scale [decorative, ~4 shapes]
+      - RECTANGLE "Detail", 700x1441.58px, constraints scale/scale, fill image(hash: d556f43f595f8dbf4c4d9c1c103c554f152ebc21)
+      - RECTANGLE "Reflection", 700x1441.58px, constraints scale/scale, fill image(hash: 33b4a05653040be322d71e289943c1ba1eb17fc2), opacity 10%
+  - COMPONENT "Type=Clay Med Detail, Accent Color=True", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - GROUP "Group", 700x1441.58px, constraints scale/scale
+      - VECTOR "Change-Color", 699.35x1440.91px, constraints scale/scale, fill Yellow/300
+      - GROUP "Mask group", 639.79x1382.22px, constraints scale/scale
+        - VECTOR "Vector", 639.79x1382.22px, constraints scale/scale, fill #000000
+        - INSTANCE "Screen Content", 639.92x1384.95px, constraints scale/scale
+          - RECTANGLE "Rectangle 1162", 639.92x1384.95px, constraints scale/scale, fill #4350FF
+          - FRAME "ODW -- Logomark", 194.76x122.11px, constraints scale/scale [decorative, ~4 shapes]
+      - RECTANGLE "Detail", 700x1441.58px, constraints scale/scale, fill image(hash: d556f43f595f8dbf4c4d9c1c103c554f152ebc21)
+      - RECTANGLE "Reflection", 700x1441.58px, constraints scale/scale, fill image(hash: 33b4a05653040be322d71e289943c1ba1eb17fc2), opacity 10%
+  - COMPONENT "Type=Clay High Detail, Accent Color=False", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - VECTOR "Change-Color", 699.91x1416.24px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Mask group", 624.2x1350.77px, constraints scale/scale
+      - VECTOR "Vector", 624.2x1350.77px, constraints scale/scale, fill #000000
+      - INSTANCE "Screen Content", 627.39x1357.84px, constraints scale/scale
+        - RECTANGLE "Rectangle 1162", 627.39x1357.84px, constraints scale/scale, fill #4350FF
+        - FRAME "ODW -- Logomark", 190.95x119.72px, constraints scale/scale [decorative, ~4 shapes]
+    - RECTANGLE "Shadow", 700x1416.37px, constraints scale/scale, fill image(hash: 859b773a163539b457c2bb775dd28323cfc7b0bb)
+    - RECTANGLE "Reflection", 700x1416.37px, constraints scale/scale, fill image(hash: e51497fa24c195330dbc5c1439a2c44ea6808385)
+  - COMPONENT "Type=Clay High Detail, Accent Color=True", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - VECTOR "Change-Color", 699.91x1416.24px, constraints scale/scale, fill Yellow/300
+    - GROUP "Mask group", 624.2x1350.77px, constraints scale/scale
+      - VECTOR "Vector", 624.2x1350.77px, constraints scale/scale, fill #000000
+      - INSTANCE "Screen Content", 627.39x1357.84px, constraints scale/scale
+        - RECTANGLE "Rectangle 1162", 627.39x1357.84px, constraints scale/scale, fill #4350FF
+        - FRAME "ODW -- Logomark", 190.95x119.72px, constraints scale/scale [decorative, ~4 shapes]
+    - VECTOR "Shadow", 700x1416.37px, constraints scale/scale, fill image(hash: 859b773a163539b457c2bb775dd28323cfc7b0bb)
+    - VECTOR "Reflection", 700x1416.37px, constraints scale/scale, fill image(hash: e51497fa24c195330dbc5c1439a2c44ea6808385)
+  - COMPONENT "Type=Google Pixel, Accent Color=False", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - GROUP "1", 700x1493.61px, constraints scale/scale
+      - RECTANGLE "Pix", 700x1493.61px, constraints scale/scale, fill image(hash: ef213cefad10b7b221098d9575dce3c947a2a57d)
+      - GROUP "Mask group", 653.36x1407.18px, constraints scale/scale
+        - VECTOR "Vector", 653.36x1407.18px, constraints scale/scale, fill #000000
+        - INSTANCE "Screen Content", 654.97x1407.16px, constraints scale/scale
+          - RECTANGLE "Rectangle 1162", 654.97x1407.16px, constraints scale/scale, fill #4350FF
+          - FRAME "ODW -- Logomark", 199.34x124.07px, constraints scale/scale [decorative, ~4 shapes]
+      - RECTANGLE "Reflection", 700x1493.61px, constraints scale/scale, fill image(hash: 983c9eea1fefd8819815fe9a847c6730897f479f)
+  - COMPONENT "Type=Google Pixel, Accent Color=True", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - GROUP "1", 700x1494px, constraints scale/scale
+      - RECTANGLE "Pix", 700x1493.61px, constraints scale/scale, fill image(hash: ef213cefad10b7b221098d9575dce3c947a2a57d)
+      - GROUP "Mask group", 695x1493.01px, constraints scale/scale
+        - VECTOR "Color", 695x1493.01px, constraints scale/scale, fill Yellow/300
+        - VECTOR "Vector", 653.36x1407.18px, constraints scale/scale, fill #000000
+        - INSTANCE "Screen Content", 654.97x1407.16px, constraints scale/scale
+          - RECTANGLE "Rectangle 1162", 654.97x1407.16px, constraints scale/scale, fill #4350FF
+          - FRAME "ODW -- Logomark", 199.34x124.07px, constraints scale/scale [decorative, ~4 shapes]
+      - RECTANGLE "Reflection", 700x1493.61px, constraints scale/scale, fill image(hash: 983c9eea1fefd8819815fe9a847c6730897f479f)
+  - COMPONENT "Type=Vector Iphone, Accent Color=False", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - GROUP "Phone", 707x1426.84px, constraints left/top
+      - GROUP "Object", 707x1426.84px, constraints scale/scale [decorative, ~42 shapes]
+      - VECTOR "Mask", 628.69x1361.57px, constraints scale/scale, fill #F4F7FA, stroke #959FAE 1.44px
+      - GROUP "Mask group", 628.69x1361.57px, constraints scale/scale
+        - VECTOR "Vector", 628.69x1361.57px, constraints scale/scale, fill #000000
+        - INSTANCE "Screen Content", 635.86x1366.1px, constraints scale/scale
+          - RECTANGLE "Rectangle 1162", 635.86x1366.1px, constraints scale/scale, fill #4350FF
+          - FRAME "ODW -- Logomark", 193.52x120.45px, constraints scale/scale [decorative, ~4 shapes]
+      - VECTOR "Border", 628.69x1361.57px, constraints scale/scale, stroke #959FAE 1.44px
+  - COMPONENT "Type=Vector Iphone, Accent Color=True", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - GROUP "Phone", 707x1427px, constraints left/top
+      - GROUP "Object", 707x1426.84px, constraints scale/scale [decorative, ~42 shapes]
+      - VECTOR "Color", 696x1427px, constraints scale/scale, fill Yellow/300
+      - VECTOR "Mask", 628.69x1361.57px, constraints scale/scale, fill #F4F7FA, stroke #959FAE 1.44px
+      - GROUP "Mask group", 628.69x1361.57px, constraints scale/scale
+        - VECTOR "Vector", 628.69x1361.57px, constraints scale/scale, fill #000000
+        - INSTANCE "Screen Content", 635.86x1366.1px, constraints scale/scale
+          - RECTANGLE "Rectangle 1162", 635.86x1366.1px, constraints scale/scale, fill #4350FF
+          - FRAME "ODW -- Logomark", 193.52x120.45px, constraints scale/scale [decorative, ~4 shapes]
+      - VECTOR "Border", 628.69x1361.57px, constraints scale/scale, stroke #959FAE 1.44px
+  - COMPONENT "Type=Vector Samsung Galaxy, Accent Color=False", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - GROUP "Gal", 690x1496.32px, constraints left/top
+      - GROUP "Object", 690x1496.32px, constraints scale/scale [decorative, ~51 shapes]
+      - GROUP "Mockup", 653.27x1448.41px, constraints scale/scale
+        - VECTOR "Mask", 653.27x1448.41px, constraints scale/scale, fill #F4F7FA, stroke #959FAE 2.39px
+        - GROUP "Mask group", 653.27x1448.41px, constraints scale/scale
+          - VECTOR "Vector", 653.27x1448.41px, constraints scale/scale, fill #000000
+          - INSTANCE "Screen Content", 677.28x1453.16px, constraints scale/scale
+            - RECTANGLE "Rectangle 1162", 677.28x1453.16px, constraints scale/scale, fill #4350FF
+            - FRAME "ODW -- Logomark", 206.13x128.12px, constraints scale/scale [decorative, ~4 shapes]
+      - VECTOR "Border", 653.27x1448.41px, constraints scale/scale, stroke #959FAE 2.39px
+  - COMPONENT "Type=Vector Samsung Galaxy, Accent Color=True", 1164x2044px, constraints left/top
+    - INSTANCE "Shadows", 1164x2044px, constraints scale/scale
+      - RECTANGLE "Shadow", 944x1659px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 2px], opacity 70%
+    - GROUP "Phone", 691x1497.5px, constraints left/top
+      - GROUP "Object", 690x1496.32px, constraints scale/scale [decorative, ~51 shapes]
+      - VECTOR "Color", 688x1497.5px, constraints scale/scale, fill Yellow/300
+      - GROUP "Mockup", 653.27x1446.47px, constraints scale/scale
+        - VECTOR "Mask", 653.27x1446.47px, constraints scale/scale, fill #F4F7FA, stroke #959FAE 2.39px
+        - GROUP "Mask group", 653.27x1446.47px, constraints scale/scale
+          - VECTOR "Vector", 653.27x1446.47px, constraints scale/scale, fill #000000
+          - INSTANCE "Screen Content", 677.28x1451.22px, constraints scale/scale
+            - RECTANGLE "Rectangle 1162", 677.28x1451.22px, constraints scale/scale, fill #4350FF
+            - FRAME "ODW -- Logomark", 206.13x127.95px, constraints scale/scale [decorative, ~4 shapes]
+      - VECTOR "Border", 653.27x1448.41px, constraints scale/scale, stroke #959FAE 2.39px
+      - VECTOR "Dark", 31x31.04px, constraints scale/scale, fill #657B9A
+
+Screen: Page 1 / Mock up example
+- FRAME "Mock up example", 1440x800px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/White
+  - FRAME "Dropdown header navigation", 1440x80px, constraints left/top, stroke Gray Cool/200 1px
+    - FRAME "Header", 1440x80px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left_right/top
+      - FRAME "Container", 1280x44px, horizontal pad 0 32 0 32px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "ODW -- Logomark", 51.04x32px, constraints left/top [decorative, ~4 shapes]
+        - FRAME "Navigation", 454x24px, horizontal pad 0 0 0 80px gap 56px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 109x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 109x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+          - FRAME "Button", 72x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 48x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+            - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Button", 81x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 57x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+            - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "_Navigation actions", 250x44px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 83x44px, horizontal pad 10 18 10 18px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - TEXT "Text", 47x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+          - FRAME "Button", 155x44px, horizontal pad 10 48 10 48px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Gray Cool/50
+            - TEXT "Text", 59x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+  - FRAME "Section", 1440x720px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Section", 720x720px, horizontal pad 96 0 96 0px gap 64px align max/center sizing W:fill H:fill, constraints center/top
+      - FRAME "Container", 640x432px, horizontal pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Content", 576x432px, vertical pad 0 32 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Heading and supporting text", 544x324px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Heading and badge", 544x240px, vertical pad 0 0 0 0px gap 28px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Supporting text", 480x60px, constraints left/top, fill Gray Cool/600, text [Text xl/Regular]
+          - FRAME "Frame 1160444573", 207x60px, horizontal pad 16 46 16 46px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Gray Cool/100, effect Shadow/sm
+            - TEXT "Get Started", 115x28px, constraints left/top, fill Gray Cool/600, text [Rubik SemiBold, 20px]
+    - FRAME "Image", 720x720px, constraints center/top
+      - FRAME "Image", 720x720px, constraints left/top
+      - VECTOR "Rectangle 20994", 720x720px, constraints left/top, fill Gray Cool/100
+      - INSTANCE "Phone Mockups", 349.2x613.2px, constraints left/top
+        - INSTANCE "Shadows", 349.2x613.2px, constraints scale/scale
+          - RECTANGLE "Shadow", 501.6x31.8px, constraints scale/scale, fill image(hash: dc20d8870e52c471d03ad8ebb1120de536819a24), effect [layer_blur 0.6px]
+        - RECTANGLE "iPhone-14-Pro", 210x426.47px, constraints scale/scale, fill image(hash: 2124c5f22e3bbf953c070e0183eb6c981e5757b0)
+        - GROUP "Mask group", 188.44x408.5px, constraints scale/scale
+          - VECTOR "Vector", 188.44x408.5px, constraints scale/scale, fill #000000
+          - INSTANCE "Screen Content", 189.07x409.19px, constraints scale/scale, fill #292929
+            - RECTANGLE "image 9", 189.07x409.19px, constraints scale/scale, fill image(hash: 02d68d9f65504aebc63f8f9dee6a272aa3b843ac)
+
+Screen: Page 1 / Mock up example
+- FRAME "Mock up example", 1440x800px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill Base/White
+  - FRAME "Dropdown header navigation", 1440x80px, constraints left/top, stroke Gray Cool/200 1px
+    - FRAME "Header", 1440x80px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left_right/top
+      - FRAME "Container", 1280x44px, horizontal pad 0 32 0 32px gap 0px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "ODW -- Logomark", 51.04x32px, constraints left/top [decorative, ~4 shapes]
+        - FRAME "Navigation", 454x24px, horizontal pad 0 0 0 80px gap 56px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 109x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 109x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+          - FRAME "Button", 72x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 48x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+            - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+          - FRAME "Button", 81x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 57x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+            - INSTANCE "chevron-down", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "_Navigation actions", 250x44px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Button", 83x44px, horizontal pad 10 18 10 18px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+            - TEXT "Text", 47x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+          - FRAME "Button", 155x44px, horizontal pad 10 48 10 48px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Gray Cool/50
+            - TEXT "Text", 59x24px, constraints left/top, fill Gray Cool/600, text [Text md/Semibold]
+  - FRAME "Section", 1440x720px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "Section", 720x720px, horizontal pad 96 0 96 0px gap 64px align max/center sizing W:fill H:fill, constraints center/top
+      - FRAME "Container", 640x432px, horizontal pad 0 32 0 32px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Content", 576x432px, vertical pad 0 32 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Heading and supporting text", 544x324px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Heading and badge", 544x240px, vertical pad 0 0 0 0px gap 28px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Supporting text", 480x60px, constraints left/top, fill Gray Cool/600, text [Text xl/Regular]
+          - FRAME "Frame 1160444573", 207x60px, horizontal pad 16 46 16 46px gap 18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Gray Cool/100, effect Shadow/sm
+            - TEXT "Get Started", 115x28px, constraints left/top, fill Gray Cool/600, text [Rubik SemiBold, 20px]
+    - FRAME "Image", 720x720px, constraints center/top
+      - FRAME "Image", 720x720px, constraints left/top
+      - VECTOR "Rectangle 20994", 720x720px, constraints left/top, fill Gray Cool/100
+      - INSTANCE "Phone Mockups", 873x1533px, constraints left/top
+        - INSTANCE "Shadows", 873x1533px, constraints scale/scale, opacity 40%
+          - RECTANGLE "Shadow", 704.25x1237.5px, constraints scale/scale, fill image(hash: c29a77343b06e2069ac86f7cb5b15c604767e5ee), effect [layer_blur 1.5px], opacity 70%
+        - GROUP "Phone", 530.25x1070.13px, constraints left/top
+          - GROUP "Object", 530.25x1070.13px, constraints scale/scale [decorative, ~42 shapes]
+          - VECTOR "Mask", 471.52x1021.18px, constraints scale/scale, fill #F4F7FA, stroke #959FAE 1.08px
+          - GROUP "Mask group", 471.52x1021.18px, constraints scale/scale
+            - VECTOR "Vector", 471.52x1021.18px, constraints scale/scale, fill #000000
+            - INSTANCE "Screen Content", 476.89x1024.57px, constraints scale/scale, fill #292929
+          - VECTOR "Border", 471.52x1021.18px, constraints scale/scale, stroke #959FAE 1.08px
+
+Screen: Page 1 / Lines
+- GROUP "Lines", 19215x10379px, constraints left/top, radius 0/0/0/0px
+  - LINE "Line 90", 0x10379px, constraints left/top, stroke Gray Cool/400 10px
+  - LINE "Line 94", 19215x0px, constraints left/top, stroke Gray Cool/400 10px
+
+Screen: Page 1 / From us to you!
+- FRAME "From us to you!", 1825x4585px, vertical pad 0 0 0 0px gap 60px sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE "Chekout our apps", 1825x826px, vertical pad 80 220 80 220px gap 36px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #BBBBBB
+    - FRAME "Frame 1160444633", 1385x80px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Check out our other community resources:", 594x39px, constraints left/top, fill #292929, text [Rubik Medium, 30px], [heading]
+    - LINE "Line 103", 1385x0px, constraints left/top, stroke Gray Cool/600 1px, opacity 20%
+    - FRAME "Frame 1160445166", 876x143px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Frame 1160444982", 575x80px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Component Collector Logomark", 80x80px, constraints left/top, effect [drop_shadow 5px offset 0 2.5 #1018280F, drop_shadow 7.5px offset 0 2.5 #1018281A]
+          - VECTOR "Union", 80x52.9px, constraints scale/scale, fill #4350FF
+          - GROUP "Group 1160444243", 49.48x66.55px, constraints left/top [decorative, ~5 shapes]
+        - TEXT "Compressed PDF and Image Exporter Plugin", 447x59px, constraints left/top, fill #292929, text [Rubik Bold, 42px], [heading]
+      - TEXT "Browse expertly made components and paste directly into Figm", 876x39px, constraints left/top, fill #292929, text [Rubik Regular, 30px], [heading]
+    - LINE "Line 104", 1385x0px, constraints left/top, stroke Gray Cool/600 1px, opacity 20%
+    - FRAME "Frame 1160445167", 1385x143px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Frame 1160444979", 1044x80px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Create Compressed PDFs from Figma-ico", 80x80px, constraints left/top, radius 240px, fill Yellow/300, stroke #FFD21F 1px, effect [drop_shadow 5px offset 0 2.5 #1018280F, drop_shadow 7.5px offset 0 2.5 #1018281A]
+          - VECTOR "Vector", 21.37x15.13px, constraints scale/scale, fill Gray true / 800, stroke Gray true / 800 0.35px
+          - VECTOR "Vector", 71.33x71.33px, constraints scale/scale, fill Gray true / 800, stroke #FEEE9580 0.5px
+          - VECTOR "Ellipse 15 (Stroke)", 80x80px, constraints scale/scale, fill #F6EAB7
+        - TEXT "Compressed PDF and Image Exporter Plugin", 916x59px, constraints left/top, fill #292929, text [Rubik Bold, 42px], [heading]
+      - TEXT "Export smaller PDFs and images from Figma that are easier to", 1385x39px, constraints left/top, fill #292929, text [Rubik Regular, 30px], [heading]
+    - LINE "Line 100", 1385x0px, constraints left/top, stroke Gray Cool/600 1px, opacity 20%
+    - INSTANCE "Frame 1160444983", 435x80px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Design Battles Logo", 80x80px, constraints left/top, effect [drop_shadow 5px offset 0 2.5 #1018280F, drop_shadow 7.5px offset 0 2.5 #1018281A]
+        - VECTOR "Shape", 18.48x18.48px, constraints scale/scale, fill #FF822D
+        - VECTOR "Shape", 24.63x24.55px, constraints scale/scale, fill #292929
+        - VECTOR "Shape", 61.57x61.57px, constraints scale/scale, fill #533566
+        - VECTOR "Vector", 35.57x18.2px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group 1160444231", 27.44x23.6px, constraints right/top, radius 0.4px [decorative, ~4 shapes]
+      - TEXT "Compressed PDF and Image Exporter Plugin", 307x59px, constraints left/top, fill #292929, text [Rubik Bold, 42px], [heading]
+    - LINE "Line 105", 1385x0px, constraints left/top, stroke Gray Cool/600 1px, opacity 20%
+    - INSTANCE "Frame 1160444980", 955x80px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Mini Moodboard Generator Logo", 80x80px, constraints left/top, effect [drop_shadow 5px offset 0 2.5 #1018280F, drop_shadow 7.5px offset 0 2.5 #1018281A]
+        - ELLIPSE "Ellipse 19", 80x80px, constraints scale/scale, fill Base/White
+        - VECTOR "Vector", 52.73x61.92px, constraints scale/scale, fill #141414
+      - TEXT "Compressed PDF and Image Exporter Plugin", 827x59px, constraints left/top, fill #292929, text [Rubik Bold, 42px], [heading]
+    - LINE "Line 101", 1385x0px, constraints left/top, stroke Gray Cool/600 1px, opacity 20%
+    - INSTANCE "Frame 1160444981", 754x80px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Accessibility Simulator Logo", 80x80px, constraints left/top, radius 10px, effect [drop_shadow 5px offset 0 2.5 #1018280F, drop_shadow 7.5px offset 0 2.5 #1018281A]
+        - GROUP "Group 1160444224", 80x72.38px, constraints center/center [decorative, ~19 shapes]
+      - TEXT "Compressed PDF and Image Exporter Plugin", 626x59px, constraints left/top, fill #292929, text [Rubik Bold, 42px], [heading]
+  - INSTANCE "Component Collector Covers", 1825x640px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #BBBBBB
+    - FRAME "Frame 1160444952", 1825x382px, vertical pad 64 220 48 220px gap 36px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1160445163", 1385x120px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Component Collector Logomark", 120x120px, constraints left/top, effect Shadow/sm
+          - VECTOR "Union", 120x79.35px, constraints scale/scale, fill #4350FF
+          - GROUP "Group 1160444243", 74.22x99.82px, constraints left/top [decorative, ~5 shapes]
+      - FRAME "Frame 1160444638", 1385x114px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1160445164", 668x60px, horizontal pad 0 0 0 0px gap 12px align min/max sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Component Collector", 587x60px, constraints left/top, fill #292929, text [Suez One Regular, 60px], [heading]
+          - TEXT "BETA", 69x36px, constraints left/top, fill #292929, text [Rubik Bold, 24px], [heading]
+        - TEXT "Browse expertly made components and paste directly into Figm", 1385x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+    - FRAME "Frame 1160445162", 2686x507px, vertical pad 0 20 0 20px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "image 28", 2646x507px, constraints left/top, fill image(hash: 517d9f4b9ff559d375918cefcbe059ce48b576db)
+    - FRAME "Frame 1160445165", 365x93px, vertical pad 24 24 24 24px gap 10px sizing W:fixed H:fixed, constraints right/bottom, radius 16px, fill #FFFFFF, stroke Gray Cool/300 1px, effect Shadow/lg
+      - INSTANCE "Built by", 317x45px, horizontal pad 0 0 0 0px gap 21px align min/center sizing W:fixed H:fixed, constraints left/top
+        - BOOLEAN_OPERATION "Subtract", 44x44px, constraints left/top, fill Gray Cool/700
+        - FRAME "Frame 1160444632", 252x45px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Built by", 76x16px, constraints left/top, fill Gray Cool/700, text [Rubik Medium, 16px]
+          - TEXT "osborndesign.works", 252x28px, constraints left/top, fill Gray Cool/700, text [Rubik Regular, 28px], [heading]
+  - INSTANCE "Compressed PDF Exporter Covers", 1825x640px, vertical pad 0 220 0 220px gap 70px align center/min sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #BBBBBB
+    - FRAME "Frame 1160444630", 971x500px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1160444976", 971x304px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Create Compressed PDFs from Figma-ico", 120x120px, constraints left/top, radius 240px, fill Yellow/300, stroke #FFD21F 1px
+          - VECTOR "Vector", 32.06x22.7px, constraints scale/scale, fill Gray true / 800, stroke Gray true / 800 0.35px
+          - VECTOR "Vector", 106.99x106.99px, constraints scale/scale, fill Gray true / 800, stroke #FEEE9580 0.5px
+          - VECTOR "Ellipse 15 (Stroke)", 120x120px, constraints scale/scale, fill #F6EAB7
+        - TEXT "Compressed PDF and Image Exporter Plugin", 971x144px, constraints left/top, fill #292929, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444624", 971x92px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1160444623", 971x40px, horizontal pad 0 0 0 0px gap 25px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 26.67x18.33px, constraints scale/scale, stroke Gray Cool/400 6px
+          - TEXT "Create better image and PDF exports", 906x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+        - FRAME "Frame 1160444622", 797x40px, horizontal pad 0 0 0 0px gap 25px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "check", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 26.67x18.33px, constraints scale/scale, stroke Gray Cool/400 6px
+          - TEXT "Control quality and file size", 732x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+      - INSTANCE "Built by", 971x40px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Content", 40x40px, constraints scale/scale, radius 5px, opacity 50% [decorative, ~6 shapes]
+        - FRAME "Frame 1160444632", 483x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Built by", 129x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+          - TEXT "osborndesign.works", 342x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+    - FRAME "Frame 1160444590", 602x1059px, vertical pad 0 100 0 100px gap 40px align min/center sizing W:fixed H:fixed, constraints right/bottom, fill Gray true / 300, effect [drop_shadow 78px offset 0 16 #10182814]
+      - FRAME "Frame 1160444553", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "50MB", 200x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/500 4px
+        - TEXT "7MB", 113x60px, constraints left/top, fill Gray Cool/500, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444554", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "45MB", 150x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/400 4px
+        - TEXT "5MB", 113x60px, constraints left/top, fill #54C079, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444552", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "223MB", 150x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/400 4px
+        - TEXT "11MB", 113x60px, constraints left/top, fill #54C079, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444555", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "120MB", 150x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/400 4px
+        - TEXT "9MB", 113x60px, constraints left/top, fill #54C079, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444556", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "78MB", 150x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/400 4px
+        - TEXT "7MB", 113x60px, constraints left/top, fill #54C079, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444557", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "429MB", 150x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/400 4px
+        - TEXT "15MB", 113x60px, constraints left/top, fill #54C079, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444558", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "27MB", 150x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/400 4px
+        - TEXT "1MB", 113x60px, constraints left/top, fill #54C079, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444559", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "61MB", 150x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/400 4px
+        - TEXT "5MB", 113x60px, constraints left/top, fill #54C079, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444560", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "58MB", 150x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/400 4px
+        - TEXT "5MB", 113x60px, constraints left/top, fill #54C079, text [Suez One Regular, 60px], [heading]
+      - FRAME "Frame 1160444561", 402x60px, horizontal pad 0 0 0 0px gap 35px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "41MB", 150x60px, constraints left/top, fill #3CCB7F, text [Suez One Regular, 60px], [heading]
+        - INSTANCE "arrow-narrow-right", 50x26px, constraints left/top
+          - VECTOR "Icon", 32.67x12.5px, constraints scale/scale, stroke Gray Cool/400 4px
+        - TEXT "4MB", 113x60px, constraints left/top, fill #54C079, text [Suez One Regular, 60px], [heading]
+    - LINE "Line 91", 0x958.43px, constraints left/top, stroke Gray Cool/500 1px
+  - INSTANCE "Design Battles Covers", 1825x640px, constraints left/top, radius 20px, fill #BBBBBB
+    - FRAME "Cover", 1340x664px, vertical pad 80 0 80 220px gap 40px align center/min sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Design Battles Logo", 120x120px, constraints left/top
+        - VECTOR "Shape", 27.72x27.72px, constraints scale/scale, fill #FF822D
+        - VECTOR "Shape", 36.94x36.83px, constraints scale/scale, fill #292929
+        - VECTOR "Shape", 92.36x92.36px, constraints scale/scale, fill #533566
+        - VECTOR "Vector", 53.36x27.3px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group 1160444231", 41.16x35.39px, constraints right/top, radius 0.4px [decorative, ~4 shapes]
+      - TEXT "Design Battles", 1120x68px, constraints left/top, fill #292929, text [Suez One Regular, 68px], [heading]
+      - FRAME "Frame 1160444625", 1120x156px, vertical pad 0 0 0 0px gap 18px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1160444623", 1120x40px, horizontal pad 0 0 0 0px gap 25px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 26.67x18.33px, constraints scale/scale, stroke Gray Cool/400 6px
+          - TEXT "Ask thousands of designers: ‘Which option is better?’", 1055x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+        - FRAME "Frame 1160444624", 1120x40px, horizontal pad 0 0 0 0px gap 25px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 26.67x18.33px, constraints scale/scale, stroke Gray Cool/400 6px
+          - TEXT "Increase your rank by helping other designers.", 1055x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+        - FRAME "Frame 1160444625", 1120x40px, horizontal pad 0 0 0 0px gap 25px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "check", 40x40px, constraints left/top, fill #FFFFFF
+            - VECTOR "Icon", 26.67x18.33px, constraints scale/scale, stroke Gray Cool/400 6px
+          - TEXT "Instantly give & get design reviews directly in Figma", 1055x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+      - INSTANCE "Built by", 1120x40px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Content", 40x40px, constraints scale/scale, radius 5px, opacity 50% [decorative, ~6 shapes]
+        - FRAME "Frame 1160444632", 483x38px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Built by", 129x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+          - TEXT "osborndesign.works", 342x38px, constraints left/top, fill #292929, text [Rubik Regular, 38px], [heading]
+    - FRAME "Frame 1160444647", 697x640px, horizontal pad 30 0 30 0px gap 50px align min/max sizing W:fixed H:fixed, constraints right/top_bottom
+      - LINE "Line 91", 0x580px, constraints left/top, stroke Gray Cool/300 2px
+      - INSTANCE "Design battles art", 390x1140px, vertical pad 0 0 0 0px gap -20px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x25px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x25px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x25px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x25px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x25px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x25px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x25px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x25px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x50px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+        - INSTANCE "Avatar label group", 390x132px, vertical pad 21 21 21 33px gap 18px align center/min sizing W:fill H:fixed, constraints left/top, radius 24px, fill #FFFFFF, stroke Gray Cool/200 3px, effect Shadow/xl
+          - FRAME "Frame 1160445026", 336x90px, horizontal pad 0 0 0 0px gap 28px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Avatar", 72x90px, vertical pad 0 0 0 0px gap -18px align center/center sizing W:fixed H:fixed, constraints left/top, radius 600px
+            - TEXT "Supporting text", 236x25px, constraints left/top, fill Gray Cool/800, text [Inter Medium, 25px], [heading]
+  - INSTANCE "Mini Magic Moodboard Generator Covers", 1825x640px, constraints left/top, radius 20px, fill #BBBBBB
+    - FRAME "Frame 1160444956", 933.66x983.21px, vertical pad 0 0 0 0px gap 0px align max/min sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1160444957", 933.66x140.46px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Tai Chi Lime", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #3669D9 [decorative, ~7 shapes]
+          - TEXT "Tai Chi Lime", 18x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Kickboxing Setting Spray", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #635BFF [decorative, ~5 shapes]
+          - TEXT "Kickboxing Setting Spray", 37x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Hacksaw Turles", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #59BEF2 [decorative, ~5 shapes]
+          - TEXT "Hacksaw Turles", 23x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Tiencha Quickstep", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #28C5E0 [decorative, ~8 shapes]
+          - TEXT "Tiencha Quickstep", 28x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Quinoa Catherine", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #6F6BD9 [decorative, ~7 shapes]
+          - TEXT "Quinoa Catherine", 26x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Watermelon Quinoa", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #A3C4FF [decorative, ~6 shapes]
+          - TEXT "Watermelon Quinoa", 29x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Nigel Chimichangas", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #555FB9 [decorative, ~4 shapes]
+          - TEXT "Nigel Chimichangas", 29x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+      - FRAME "Frame 1160444958", 933.66x140.46px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Hand Saw Pizza", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #3254AD [decorative, ~7 shapes]
+          - TEXT "Hand Saw Pizza", 24x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Highlighter Jive", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #2E50A4 [decorative, ~7 shapes]
+          - TEXT "Highlighter Jive", 23x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Pineapple Rowing", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #634AAB [decorative, ~7 shapes]
+          - TEXT "Pineapple Rowing", 26x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "D.W. Mole", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #6928B1 [decorative, ~7 shapes]
+          - TEXT "D.W. Mole", 15x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Zumba D.W.", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #7031A1 [decorative, ~4 shapes]
+          - TEXT "Zumba D.W.", 18x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Queen Frieza Chalupas", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #903DB5 [decorative, ~7 shapes]
+          - TEXT "Queen Frieza Chalupas", 34x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Scrooge Calisthenics", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #AD4DD8 [decorative, ~7 shapes]
+          - TEXT "Scrooge Calisthenics", 31x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+      - FRAME "Frame 1160444959", 933.66x140.46px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Carnitas Bronzer", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #CE3AFF [decorative, ~6 shapes]
+          - TEXT "Carnitas Bronzer", 25x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Barre Launch", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #DF58A2
+            - ELLIPSE "Ellipse", 145.44x145.44px, constraints left/top, fill #E93DFA, effect [drop_shadow 0px offset 0 0 #00000000]
+            - REGULAR_POLYGON "Polygon", 43.35x43.35px, constraints left/top, radius 4.04px, fill #8C3EE6, effect [drop_shadow 0px offset 0 0 #00000000]
+            - REGULAR_POLYGON "Polygon", 70.28x70.28px, constraints left/top, radius 0.29px, fill #F39FFF, effect [drop_shadow 0px offset 0 0 #00000000]
+            - REGULAR_POLYGON "Polygon", 76.95x76.95px, constraints left/top, radius 0.27px, fill #7F65ED, effect [drop_shadow 0px offset 0 0 #00000000]
+            - LINE "Line", 29.6x116.33px, constraints left/top, stroke #D133B4 4.89px
+            - RECTANGLE "Rectangle", 84.13x84.13px, constraints left/top, radius 0.15px, fill #7E58E6, effect [drop_shadow 0px offset 0 0 #00000000]
+            - REGULAR_POLYGON "Polygon", 141.33x141.33px, constraints left/top, radius 0.01px, fill #E488CE, effect [drop_shadow 0px offset 0 0 #00000000]
+          - TEXT "Barre Launch", 20x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Broly Arthur", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #DF90A4 [decorative, ~6 shapes]
+          - TEXT "Broly Arthur", 18x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Uub Pasta", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #B597B4 [decorative, ~5 shapes]
+          - TEXT "Uub Pasta", 15x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Primer Swing", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #7B89FF [decorative, ~7 shapes]
+          - TEXT "Primer Swing", 20x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Garlic Jr. Eggplant Parmigiana", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #DF205E [decorative, ~6 shapes]
+          - TEXT "Garlic Jr. Eggplant Parmigiana", 44x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Chimichangas Chimichangas", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #FF9D4C [decorative, ~4 shapes]
+          - TEXT "Chimichangas Chimichangas", 42x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+      - FRAME "Frame 1160444960", 933.66x140.46px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Eyeshadow Powder", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #D0A263 [decorative, ~6 shapes]
+          - TEXT "Eyeshadow Powder", 29x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Blueberry Popping", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #FF8025 [decorative, ~6 shapes]
+          - TEXT "Blueberry Popping", 27x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Jaco Yoga", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #D9A9A0 [decorative, ~6 shapes]
+          - TEXT "Jaco Yoga", 16x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Chiles Rellenos Imperfect Cell", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #A3A853 [decorative, ~5 shapes]
+          - TEXT "Chiles Rellenos Imperfect Cell", 44x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Flautas Bruschetta", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #D3274C [decorative, ~4 shapes]
+          - TEXT "Flautas Bruschetta", 28x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Pineapple Minestrone", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #A53134 [decorative, ~6 shapes]
+          - TEXT "Pineapple Minestrone", 32x4px, constraints left/top, fill #666666, text [Inter Regular, 3.08px]
+        - FRAME "Chiles Rellenos Foxtrot", 133.38x140.46px, vertical pad 15.39 15.39 15.39 15.39px gap 3.08px align center/min sizing W:fixed H:fixed, constraints left/top, fill #CCCCCC, effect [drop_shadow 45.6px offset 0 22.8 #1018282E]
+          - FRAME "Frame", 102.6x102.6px, constraints left/top, fill #C13520 [decorative, ~6 shapes]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Page 1 / Button
+- FRAME "Button", 1440x138px, horizontal pad 36 58 36 58px gap 32px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #4350FF, stroke #4350FF 1px, effect Shadow/xs
+  - TEXT "Text", 774x66px, constraints left/top, fill Base/White, text [Inter Bold, 44px], [heading]
+  - TEXT "Text", 446x66px, constraints left/top, fill Base/White, text [Inter Bold, 44px], [heading]
+  - FRAME "arrow-up-left", 48x48px, constraints left/top, fill #FFFFFF
+    - VECTOR "Icon", 20x20px, constraints scale/scale, stroke Base/White 6px
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

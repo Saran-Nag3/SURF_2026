@@ -1,0 +1,12 @@
+{
+    "total_screens": 336,
+    "successful_screens": 336,
+    "failed_screens": 0,
+    "total_prompt_tokens": 12463267,
+    "total_completion_tokens": 1530362,
+    "total_tokens": 13993629,
+    "total_generation_time_seconds": 9470.15,
+    "provider": "azure",
+    "model": "gpt-5.4-mini",
+    "execution_time_seconds": 9521.14
+}

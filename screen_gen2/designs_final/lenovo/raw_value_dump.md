@@ -1,0 +1,1908 @@
+---
+name: cake-one-lenovo-design-system-community
+source_file: Cake - One Lenovo Design System (Community)
+source_page: All pages (44): About, Change log, ---, Color, Color tokens, Iconography, Language & grammar, Typography, ---, Accordion, Alert, Avatar, Badge, Breadcrumb, Button, Checkbox, Chip, Data Table, Date Picker, Dropdown, Link, Loading, Text Area, Text Field, Modal, Menu, Radio, Scrollbar, Search Bar, Segmented Control, Slider, Tab, Toggle, Tooltip, ---, AI Icon + Identity, AI Chat, AI Response, AI FAB, AI Text Field, AI Disclaimer, AI Placement, ---, ⛔️ Archive  (Do not use)
+generated_at: 2026-07-25T09:42:41.011136+00:00
+---
+
+# Cake - One Lenovo Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Cake - One Lenovo Design System (Community)
+- Figma page: All pages (44): About, Change log, ---, Color, Color tokens, Iconography, Language & grammar, Typography, ---, Accordion, Alert, Avatar, Badge, Breadcrumb, Button, Checkbox, Chip, Data Table, Date Picker, Dropdown, Link, Loading, Text Area, Text Field, Modal, Menu, Radio, Scrollbar, Search Bar, Segmented Control, Slider, Tab, Toggle, Tooltip, ---, AI Icon + Identity, AI Chat, AI Response, AI FAB, AI Text Field, AI Disclaimer, AI Placement, ---, ⛔️ Archive  (Do not use)
+- Extracted at: 2026-07-25T09:42:41.011136+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- brand/AI: [gradient_linear(#AD1A98 0% | #3768C7 100%)]
+- brand.purple_blue3: [gradient_linear(#7B136C 0% | #2A4F95 100%)]
+- neutral/50: [#FAFAFA]
+- brand.purple+blue_hot: [gradient_linear(#AD1A98 0% | #3768C7 100%)]
+- Linear: [gradient_linear(#9333EA 0% | #2563EB 100%)]
+- brand/signatureRed: [#E1251B]
+- common/black: [#000000]
+- common/white: [#FFFFFF]
+- rose/900: [#881337]
+- rose/800: [#9F1239]
+- rose/700: [#BE123C]
+- rose/600: [#E11D48]
+- rose/500: [#F43F5E]
+- rose/400: [#FB7185]
+- rose/300: [#FDA4AF]
+- rose/200: [#FECDD3]
+- rose/100: [#FFE4E6]
+- rose/50: [#FFF1F2]
+- pink/900: [#831843]
+- pink/800: [#9D174D]
+- pink/700: [#BE185D]
+- pink/600: [#DB2777]
+- pink/500: [#EC4899]
+- pink/400: [#F472B6]
+- pink/300: [#F9A8D4]
+- pink/200: [#FBCFE8]
+- pink/100: [#FCE7F3]
+- pink/50: [#FDF2F8]
+- fuchsia/900: [#701A75]
+- fuchsia/800: [#86198F]
+- fuchsia/700: [#A21CAF]
+- fuchsia/600: [#C026D3]
+- fuchsia/500: [#D946EF]
+- fuchsia/400: [#E879F9]
+- fuchsia/300: [#F0ABFC]
+- fuchsia/200: [#F5D0FE]
+- fuchsia/100: [#FAE8FF]
+- fuchsia/50: [#FDF4FF]
+- purple/900: [#581C87]
+- purple/800: [#6B21A8]
+- purple/700: [#7E22CE]
+- purple/600: [#9333EA]
+- purple/500: [#A855F7]
+- purple/400: [#C084FC]
+- purple/300: [#D8B4FE]
+- purple/200: [#E9D5FF]
+- purple/100: [#F3E8FF]
+- purple/50: [#FAF5FF]
+- violet/900: [#4C1D95]
+- violet/800: [#5B21B6]
+- violet/700: [#6D28D9]
+- violet/600: [#7C3AED]
+- violet/500: [#8B5CF6]
+- violet/400: [#A78BFA]
+- violet/300: [#C4B5FD]
+- violet/200: [#DDD6FE]
+- violet/100: [#EDE9FE]
+- violet/50: [#F5F3FF]
+- indigo/900: [#312E81]
+- indigo/800: [#3730A3]
+- indigo/700: [#4338CA]
+- indigo/600: [#4F46E5]
+- indigo/500: [#6366F1]
+- indigo/400: [#818CF8]
+- indigo/300: [#A5B4FC]
+- indigo/200: [#C7D2FE]
+- indigo/100: [#E0E7FF]
+- indigo/50: [#EEF2FF]
+- blue/900: [#1E3A8A]
+- blue/800: [#1E40AF]
+- blue/700: [#1D4ED8]
+- blue/600: [#2563EB]
+- blue/500: [#3B82F6]
+- blue/400: [#60A5FA]
+- blue/300: [#93C5FD]
+- blue/200: [#BFDBFE]
+- blue/100: [#DBEAFE]
+- blue/50: [#EFF6FF]
+- sky/900: [#0C4A6E]
+- sky/800: [#075985]
+- sky/700: [#0369A1]
+- sky/600: [#0284C7]
+- sky/500: [#0EA5E9]
+- sky/400: [#38BDF8]
+- sky/300: [#7DD3FC]
+- sky/200: [#BAE6FD]
+- sky/100: [#E0F2FE]
+- sky/50: [#F0F9FF]
+- cyan/900: [#164E63]
+- cyan/800: [#155E75]
+- cyan/700: [#0E7490]
+- cyan/600: [#0891B2]
+- cyan/500: [#06B6D4]
+- cyan/400: [#22D3EE]
+- cyan/300: [#67E8F9]
+- cyan/200: [#A5F3FC]
+- cyan/100: [#CFFAFE]
+- cyan/50: [#ECFEFF]
+- teal/900: [#134E4A]
+- teal/800: [#115E59]
+- teal/700: [#0F766E]
+- teal/600: [#0D9488]
+- teal/500: [#14B8A6]
+- teal/400: [#2DD4BF]
+- teal/300: [#5EEAD4]
+- teal/200: [#99F6E4]
+- teal/100: [#CCFBF1]
+- teal/50: [#F0FDFA]
+- emerald/900: [#064E3B]
+- emerald/800: [#065F46]
+- emerald/700: [#047857]
+- emerald/600: [#059669]
+- emerald/500: [#10B981]
+- emerald/400: [#34D399]
+- emerald/300: [#6EE7B7]
+- emerald/200: [#A7F3D0]
+- emerald/100: [#D1FAE5]
+- emerald/50: [#ECFDF5]
+- green/900: [#14532D]
+- green/800: [#166534]
+- green/700: [#15803D]
+- green/600: [#16A34A]
+- green/500: [#22C55E]
+- green/400: [#4ADE80]
+- green/300: [#86EFAC]
+- green/200: [#BBF7D0]
+- green/100: [#DCFCE7]
+- green/50: [#F0FDF4]
+- lime/900: [#365314]
+- lime/800: [#3F6212]
+- lime/700: [#4D7C0F]
+- lime/600: [#65A30D]
+- lime/500: [#84CC16]
+- lime/400: [#A3E635]
+- lime/300: [#BEF264]
+- lime/200: [#D9F99D]
+- lime/100: [#ECFCCB]
+- lime/50: [#F7FEE7]
+- yellow/900: [#713F12]
+- yellow/800: [#854D0E]
+- yellow/700: [#A16207]
+- yellow/600: [#CA8A04]
+- yellow/500: [#EAB308]
+- yellow/400: [#FACC15]
+- yellow/300: [#FDE047]
+- yellow/200: [#FEF08A]
+- yellow/100: [#FEF9C3]
+- yellow/50: [#FEFCE8]
+- amber/900: [#78350F]
+- amber/800: [#92400E]
+- amber/700: [#B45309]
+- amber/600: [#D97706]
+- amber/500: [#F59E0B]
+- amber/400: [#FBBF24]
+- amber/300: [#FCD34D]
+- amber/200: [#FDE68A]
+- amber/100: [#FEF3C7]
+- amber/50: [#FFFBEB]
+- orange/900: [#7C2D12]
+- orange/800: [#9A3412]
+- orange/700: [#C2410C]
+- orange/600: [#EA580C]
+- orange/500: [#F97316]
+- orange/400: [#FB923C]
+- orange/300: [#FDBA74]
+- orange/200: [#FED7AA]
+- orange/100: [#FFEDD5]
+- orange/50: [#FFF7ED]
+- red/900: [#7F1D1D]
+- red/800: [#991B1B]
+- red/700: [#B91C1C]
+- red/600: [#DC2626]
+- red/500: [#EF4444]
+- red/400: [#F87171]
+- red/300: [#FCA5A5]
+- red/200: [#FECACA]
+- red/100: [#FEE2E2]
+- red/50: [#FEF2F2]
+- stone/900: [#1C1917]
+- stone/800: [#292524]
+- stone/700: [#44403C]
+- stone/600: [#57534E]
+- stone/500: [#78716C]
+- stone/400: [#A8A29E]
+- stone/300: [#D6D3D1]
+- stone/200: [#E7E5E4]
+- stone/100: [#F5F5F4]
+- stone/50: [#FAFAF9]
+- neutral/900: [#171717]
+- neutral/800: [#262626]
+- neutral/700: [#404040]
+- neutral/600: [#525252]
+- neutral/500: [#737373]
+- neutral/400: [#A3A3A3]
+- neutral/300: [#D4D4D4]
+- neutral/200: [#E5E5E5]
+- neutral/100: [#F5F5F5]
+- zinc/900: [#18181B]
+- zinc/800: [#27272A]
+- zinc/700: [#3F3F46]
+- zinc/600: [#52525B]
+- zinc/500: [#71717A]
+- zinc/400: [#A1A1AA]
+- zinc/300: [#D4D4D8]
+- zinc/200: [#E4E4E7]
+- zinc/100: [#F4F4F5]
+- zinc/50: [#FAFAFA]
+- gray/900: [#111827]
+- gray/800: [#1F2937]
+- gray/700: [#374151]
+- gray/600: [#4B5563]
+- gray/500: [#6B7280]
+- gray/400: [#9CA3AF]
+- gray/300: [#D1D5DB]
+- gray/200: [#E5E7EB]
+- gray/100: [#F3F4F6]
+- gray/50: [#F9FAFB]
+- slate/900: [#0F172A]
+- slate/800: [#1E293B]
+- slate/700: [#334155]
+- slate/600: [#475569]
+- slate/500: [#64748B]
+- slate/400: [#94A3B8]
+- slate/300: [#CBD5E1]
+- slate/200: [#E2E8F0]
+- slate/100: [#F1F5F9]
+- slate/50: [#F8FAFC]
+- cake.light.a/Background/Paper: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #DADADA: 617 uses
+- #FFFFFF: 145 uses
+- #000000CC: 128 uses
+- #0000001A: 103 uses
+- #9747FF: 77 uses
+- #363B3E: 70 uses
+- #FFFFFFCC: 70 uses
+- #000000: 46 uses
+- #FFCCCC33: 24 uses
+- #171717: 17 uses
+- #72B9FF: 17 uses
+- #D9D9D9: 12 uses
+- #000100: 8 uses
+
+## Typography Tokens
+- SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14: Segoe UI Semibold (600), 14px / 20px, tracking 0px
+- SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16: Segoe UI Semibold (600), 16px / 22px, tracking 0px
+- SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12: Segoe UI Semibold (600), 12px / 16px, tracking 0px
+- SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16: Segoe UI SegoeUI (400), 16px / 22px, tracking 0px
+- SegoeUI Semibold / 32 - ms-fontSize-32 FontSizes.size32: Segoe UI Semibold (600), 32px / 40px, tracking 0px
+- SegoeUI Semibold / 42 - ms-fontSize-42 FontSizes.size42: Segoe UI Semibold (600), 42px / 52px, tracking 0px
+- SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14: Segoe UI SegoeUI (400), 14px / 20px, tracking 0px
+- SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20: Segoe UI Semibold (600), 20px / 28px, tracking 0px
+- SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12: Segoe UI SegoeUI (400), 12px / 16px, tracking 0px
+- SegoeUI Regular/10 - ms-fontSize-10 FontSizes.size10: Segoe UI SegoeUI (400), 10px / 12px, tracking 0px
+- SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18: Segoe UI Semibold (600), 18px / 24px, tracking 0px
+- cake.light/Typography/Subtitle 2: Roboto Medium (500), 14px / 133.97%, tracking 0.1px
+- SegoeUI Semibold / 28 - ms-fontSize-28 FontSizes.size28: Segoe UI Semibold (600), 28px / 36px, tracking 0px
+- segoe/Body2: Segoe UI SegoeUI (400), 14px / 107.51%, tracking 0.17px
+- Cake/segoe/Caption: Segoe UI SegoeUI (400), 12px / 124.8%, tracking 0.4px
+- segoe/Label1: Segoe UI Semibold (600), 16px / auto, tracking 0.15px
+- SegoeUI Semibold / 10 - ms-fontSize-10 FontSizes.size10: Segoe UI Semibold (600), 10px / 12px, tracking 0px
+- SegoeUI Regular/68 - ms-fontSize-68 FontSizes.size68: Segoe UI SegoeUI (400), 68px / 76px, tracking 0px
+- SegoeUI Regular / 42 - ms-fontSize-42 FontSizes.size42: Segoe UI SegoeUI (400), 42px / 52px, tracking 0px
+- SegoeUI Regular / 32 - ms-fontSize-32 FontSizes.size32: Segoe UI SegoeUI (400), 32px / 40px, tracking 0px
+- SegoeUI Regular / 28 - ms-fontSize-28 FontSizes.size28: Segoe UI SegoeUI (400), 28px / 36px, tracking 0px
+- SegoeUI Regular / 20 - ms-fontSize-20 FontSizes.size20: Segoe UI SegoeUI (400), 20px / 28px, tracking 0px
+- SegoeUI Regular / 18 - ms-fontSize-18 FontSizes.size18: Segoe UI SegoeUI (400), 18px / 24px, tracking 0px
+
+## Raw Typography (unstyled)
+- Segoe UI Semibold, 14px: 389 uses
+- Segoe UI Semibold, 16px: 301 uses
+- Segoe UI SegoeUI, 12px: 224 uses
+- Segoe UI Semibold, 12px: 46 uses
+- Segoe UI Semibold, 24px: 24 uses
+- Segoe UI SegoeUI, 16px: 11 uses
+
+## Typography Hierarchy
+- 68px - SegoeUI Regular/68 - ms-fontSize-68 FontSizes.size68 (Segoe UI SegoeUI)
+- 42px - SegoeUI Regular / 42 - ms-fontSize-42 FontSizes.size42 (Segoe UI SegoeUI)
+- 42px - SegoeUI Semibold / 42 - ms-fontSize-42 FontSizes.size42 (Segoe UI Semibold)
+- 32px - SegoeUI Regular / 32 - ms-fontSize-32 FontSizes.size32 (Segoe UI SegoeUI)
+- 32px - SegoeUI Semibold / 32 - ms-fontSize-32 FontSizes.size32 (Segoe UI Semibold)
+- 28px - SegoeUI Regular / 28 - ms-fontSize-28 FontSizes.size28 (Segoe UI SegoeUI)
+- 28px - SegoeUI Semibold / 28 - ms-fontSize-28 FontSizes.size28 (Segoe UI Semibold)
+- 24px - Segoe UI Semibold, 24px (raw)
+- 20px - SegoeUI Regular / 20 - ms-fontSize-20 FontSizes.size20 (Segoe UI SegoeUI)
+- 20px - SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20 (Segoe UI Semibold)
+- 18px - SegoeUI Regular / 18 - ms-fontSize-18 FontSizes.size18 (Segoe UI SegoeUI)
+- 18px - SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18 (Segoe UI Semibold)
+- 16px - Segoe UI SegoeUI, 16px (raw)
+- 16px - Segoe UI Semibold, 16px (raw)
+- 16px - SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16 (Segoe UI SegoeUI)
+- 16px - SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16 (Segoe UI Semibold)
+- 16px - segoe/Label1 (Segoe UI Semibold)
+- 14px - Segoe UI Semibold, 14px (raw)
+- 14px - SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14 (Segoe UI SegoeUI)
+- 14px - SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14 (Segoe UI Semibold)
+- 14px - cake.light/Typography/Subtitle 2 (Roboto Medium)
+- 14px - segoe/Body2 (Segoe UI SegoeUI)
+- 12px - Cake/segoe/Caption (Segoe UI SegoeUI)
+- 12px - Segoe UI SegoeUI, 12px (raw)
+- 12px - Segoe UI Semibold, 12px (raw)
+- 12px - SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12 (Segoe UI SegoeUI)
+- 12px - SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12 (Segoe UI Semibold)
+- 10px - SegoeUI Regular/10 - ms-fontSize-10 FontSizes.size10 (Segoe UI SegoeUI)
+- 10px - SegoeUI Semibold / 10 - ms-fontSize-10 FontSizes.size10 (Segoe UI Semibold)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Elevation Light/2: [drop_shadow 2px offset 0 1 #0000004D, drop_shadow 6px offset 0 2 #00000026]
+- Elevation Light/1: [drop_shadow 2px offset 0 1 #0000004D, drop_shadow 3px offset 0 1 #00000026]
+- Elevation Light/3: [drop_shadow 8px offset 0 4 #00000026, drop_shadow 3px offset 0 1 #0000004D]
+- Elevation Light/5: [drop_shadow 12px offset 0 8 #00000026, drop_shadow 4px offset 0 4 #0000004D]
+- Elevation Light/4: [drop_shadow 10px offset 0 6 #00000026, drop_shadow 3px offset 0 2 #0000004D]
+- cake.light/Elevation/Outlined Light: [drop_shadow 0px offset 0 0 #E0E0E0]
+- cake.light/Elevation/4: [drop_shadow 10px offset 0 1 #0000001F, drop_shadow 5px offset 0 4 #00000024, drop_shadow 4px offset 0 2 #00000033]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- .Chip component
+- Icon
+- Bullhorn
+- Tag
+- Creation
+- Sign out
+- Sign in
+- SettingsFilled
+- SettingsOutlined
+- Copy
+- Laptop
+- Sort
+- weather-night
+- weather-sunny
+- CheckFilled
+- battery-heart-variant
+- battery-low
+- battery-charging
+- battery-medium
+- battery-outline
+- shield-check
+- shield-alert
+- MoreVertOutlined
+- ArrowBackFilled
+- InfoOutlined
+- RefreshFilled
+- DeleteFilled
+- EditFilled
+- calendarEditOutlined
+- calendarClockFilled
+- HelpFilled
+- HelpOutlineFilled
+- TimeFilled
+- EventRepeatFilled
+- WidgetsFilled
+- WidgetsOutlined
+- BoltOutlined
+- NetworkWifiOutlined
+- TouchAppFilled
+- TouchAppOutlined
+- MonitorFilled
+- MusicNoteFilled
+- MusicNoteOutlined
+- KeyboardFilled
+- KeyboardOutlined
+- FiberSmartRecordFilled
+- FiberSmartRecordOutlined
+- PowerFilled
+- PowerOutlined
+- ComputerOutlined
+- PersonOutlined
+- NotificationsOutlined
+- DownloadFilled
+- SearchFilled
+- ExpandLessFilled
+- ExpandMoreFilled
+- ChevronLeftFilled
+- ChevronRightFilled
+- CloseFilled
+- OpeninNewFilled
+- .Components
+- Basic
+- Inline
+- Toast
+- Avatar
+- Counter
+- Dot
+- Breadcrumb
+- .parts
+- Toggle
+- Dropdown
+- Text
+- Toggle Group
+- .Toggle Group
+- .Columns
+- .Header Cells
+- .Data Cells
+- .Multiple
+- Range
+- Day
+- .Single
+- .Parts
+- .Year
+- Spinner
+- Text Area
+- Numeric w Dropdown
+- .parts-dd
+- Confirmation
+- parts.Radio
+- Scrollbar
+- Checkbox
+- Radio
+- Double
+- Horizontal
+- Vertical
+- Advanced
+- moto_ai_white
+- moto_ai_light
+- moto_ai_black
+- .parts_AI_Recommend Prompts
+- AI_chat
+- AI_chat_empty
+- .parts_AI_Empty
+- .parts_ai_chat_loading
+- .parts_overflow
+- .parts_pin
+- .parts_favorite
+- .parts_regeneration
+- .parts_regenerate_pagination_right
+- .parts_regenerate_pagination_left
+- .parts_regenerate_btn
+- .parts_feedback
+- .parts_feedback_btn
+- .parts_feedback_bad
+- .parts_feedback_good
+- user_responce
+- ai_responce_loading
+- ai_responce_plaintext
+- .parts_ai_chat_bubble
+- .parts_regenerate_counter
+- ai_fab_dark
+- ai_fab_light
+- ai_text_field
+- AI_disclaimer
+- .Split Button
+- .Month
+
+## Component Specs
+- .Chip component: size 200x192px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [Roboto Regular, 14px, Roboto Regular, 16px, Segoe UI SegoeUI, 12px, Segoe UI Semibold, 16px]
+- Icon/Wellness: size 24x24px
+- Icon/User-group-filled: size 24x24px, fill #FFFFFF
+- Icon/User-group: size 24x24px, fill #FFFFFF
+- Icon/Target: size 24x24px, fill #FFFFFF
+- Icon/Open Menu: size 24x24px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- Icon/Close Menu: size 24x24px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed
+- Bullhorn: size 24x24px, fill #FFFFFF
+- Tag: size 24x24px, fill #FFFFFF
+- Creation: size 24x24px, fill #FFFFFF
+- Sign out: size 24x24px, fill #FFFFFF
+- Sign in: size 24x24px, fill #FFFFFF
+- SettingsFilled: size 24x24px, fill #FFFFFF
+- SettingsOutlined: size 24x24px, fill #FFFFFF
+- Copy: size 24x24px, fill #FFFFFF
+- Laptop: size 24x24px
+- Sort: size 24x24px
+- weather-night: size 24x24px
+- weather-sunny: size 24x24px
+- CheckFilled: size 24x24px
+- battery-heart-variant: size 24x24px
+- battery-low: size 24x24px
+- battery-charging: size 24x24px
+- battery-medium: size 24x24px
+- battery-outline: size 24x24px
+- Icon/Sheild-check-outline: size 24x24px
+- shield-check: size 24x24px
+- shield-alert: size 24x24px
+- MoreVertOutlined: size 24x24px, fill #FFFFFF
+- ArrowBackFilled: size 24x24px
+- InfoOutlined: size 24x24px
+- RefreshFilled: size 24x24px
+- DeleteFilled: size 24x24px
+- EditFilled: size 24x24px
+- calendarEditOutlined: size 24x24px
+- calendarClockFilled: size 24x24px
+- HelpFilled: size 24x24px
+- HelpOutlineFilled: size 24x24px
+- TimeFilled: size 24x24px
+- EventRepeatFilled: size 24x24px
+- WidgetsFilled: size 24x24px
+- WidgetsOutlined: size 24x24px
+- BoltOutlined: size 24x24px
+- NetworkWifiOutlined: size 24x24px
+- TouchAppFilled: size 24x24px
+- TouchAppOutlined: size 24x24px
+- MonitorFilled: size 24x24px
+- MusicNoteFilled: size 24x24px
+- MusicNoteOutlined: size 24x24px
+- KeyboardFilled: size 24x24px
+- KeyboardOutlined: size 24x24px
+- FiberSmartRecordFilled: size 24x24px
+- FiberSmartRecordOutlined: size 24x24px
+- PowerFilled: size 24x24px
+- PowerOutlined: size 24x24px
+- ComputerOutlined: size 24x24px
+- PersonOutlined: size 24x24px
+- NotificationsOutlined: size 24x24px
+- DownloadFilled: size 24x24px
+- SearchFilled: size 24x24px
+- ExpandLessFilled: size 24x24px
+- ExpandMoreFilled: size 24x24px
+- ChevronLeftFilled: size 24x24px
+- ChevronRightFilled: size 24x24px
+- CloseFilled: size 24x24px
+- OpeninNewFilled: size 24x24px
+- .Components: size 480x64px, horizontal layout, padding 8 8 8 24px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #64748B 1px, text [SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: State: Enabled/Focused/Hovered; isExpanded: False/True
+- Basic (Accordion): size 480x256px, radius 8px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, stroke #64748B 1px, text [SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+- Inline/Simple: size 512x64px, radius 4px, vertical layout, padding 16 24 16 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill #F8FAFC, stroke #CBD5E1 2px, text [Segoe UI Semibold, 14px, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: Type: Error/Info/Success/Warning
+- Inline/Advanced: size 512x168px, radius 4px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill #F8FAFC, stroke #CBD5E1 2px, text [Segoe UI Semibold, 14px, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: Type: Error/Info/Success/Warning
+- Toast/Simple: size 512x64px, radius 4px, vertical layout, padding 16 24 16 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke #FFFFFF00 2px, effect Elevation Light/5, text [Segoe UI Semibold, 14px, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: Type: Error/Info/Success/Warn
+- Toast/Advanced: size 512x200px, radius 4px, vertical layout, padding 24 24 24 24px, gap 16px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke #FFFFFF00 2px, effect Elevation Light/5, text [SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12, Segoe UI Semibold, 14px, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: Type: Error/Info/Success/Warn
+- Avatar: size 40x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, stroke #64748B 2px | variants: Size: 32px/40px/48px/64px; Type: Icon/Image/Initials; State: Default/Focused
+- Counter: size 24x24px, radius 64px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #1D4ED8, stroke #FFFFFF 2px, text [SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12] | variants: Type: Info/Urgent; Double Digets: False/True
+- Dot: size 16x16px, radius 64px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #1D4ED8, stroke #FFFFFF 2px | variants: Type: Info/Urgent; Size: sml (16)/xs (12)
+- Breadcrumb: size 144x72px, horizontal layout, padding 0 0 0 0px, gap 16px, align min/center, sizing W:fixed H:fixed, text [SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18, Segoe UI Semibold, 14px] | variants: Pages: 2/3/4/5
+- .parts: size 36x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18] | variants: State: Default/Disabled/Focused/Hover/Pressed
+- Toggle/Secondary: size 100x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #64748B 2px, text [Segoe UI Semibold, 14px] | variants: State: Default/Disabled/Focused/Hover/Pressed
+- Toggle/Primary: size 100x40px, radius 100px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #1D4ED8, text [Segoe UI Semibold, 14px] | variants: State: Default/Disabled/Focused/Hover/Pressed
+- Dropdown/Secondary: size 118x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #E2E8F0, stroke #64748B 2px, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: Size: lrg (40)/med (32); State: Active/Disabled/Enabled/Focused/Hovered/Pressed
+- Icon/Loading: size 24x24px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed | variants: Size: lrg (40)/med (32)/sml (24)/xl (48)
+- Icon/Secondary: size 32x32px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed | variants: Size: lrg (40)/med (32)/sml (24)/xl (48); State: Disabled/Enabled/Focused/Hovered/Pressed
+- Icon/Primary: size 32x32px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed | variants: Size: lrg (40)/med (32)/sml (24)/xl (48); State: Disabled/Enabled/Focused/Hovered/Pressed
+- Text/Loading: size 106x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [Segoe UI Semibold, 16px] | variants: Size: lrg (40)/med (32)
+- Text/Secondary: size 82x40px, radius 100px, vertical layout, padding 0 16 0 16px, gap 0px, align center/center, sizing W:fixed H:fixed, text [Segoe UI Semibold, 16px] | variants: Size: lrg (40)/med (32); State: Disabled/Enabled/Focused/Hovered/Pressed
+- Text/Primary: size 82x40px, radius 100px, vertical layout, padding 0 16 0 16px, gap 0px, align center/center, sizing W:fixed H:fixed, text [Segoe UI Semibold, 16px] | variants: Size: lrg (40)/med (32); State: Disabled/Enabled/Focused/Hovered/Pressed
+- Basic/Loading: size 114x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #E5E7EB, stroke #64748B 2px, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: Size: lrg (40)/med (32)
+- Basic/Destructive: size 98x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #B91C1C, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: Size: lrg (40)/med (32); State: Disabled/Enabled/Focused/Hovered/Pressed
+- Basic/Secondary: size 98x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #E2E8F0, stroke #64748B 2px, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: Size: lrg (40)/med (32); State: Disabled/Enabled/Focused/Hovered/Pressed
+- Basic/Primary: size 98x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #1D4ED8, text [Segoe UI Semibold, 16px] | variants: Size: lrg (40)/med (32); State: Disabled/Enabled/Focused/Hovered/Pressed
+- Dropdown/Primary: size 118x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #1D4ED8, text [Segoe UI Semibold, 16px] | variants: Size: lrg (40)/med (32); State: Active/Disabled/Enabled/Focused/Hovered/Pressed
+- Toggle Group/Day: size 354x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Disabled/Enabled
+- Toggle Group/Advanced: size 453x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Disabled/Enabled
+- Toggle Group/AMPM: size 93x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: Selection: AM/None/PM; State: Disabled/Enabled
+- .Toggle Group/Parts: size 59x40px, radius 0/4/4/0px, vertical layout, padding 0 12 0 12px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #E2E8F0, stroke #CBD5E1 1px, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: state: Disabled/Enabled/Focused/Hovered/Pressed; location: left/middle/right; isActive: false/true
+- Basic (Checkbox): size 66x24px, horizontal layout, padding 0 4 0 4px, gap 8px, align min/center, sizing W:fixed H:fixed, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: state: Disabled/Enabled/Focused/Hovered/Pressed; isChecked: false/true; Indeterminate: false/true
+- Basic (Chip): size 82x32px, radius 100px, horizontal layout, padding 0 8 0 8px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FEF2F2, text [Segoe UI Semibold, 14px] | variants: Status: Error/Info/Success/Warning; Type: Icon Left/Icon Left + RIght/Icon None/Icon Only/Icon Right; Size: lrg/sml; Radius: Pill/Square
+- Basic (Data Table): size 1056x528px, radius 8px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #FFFFFF00 1px, effect [drop_shadow 1px offset 0 2 #00000033, drop_shadow 1px offset 0 1 #00000024, drop_shadow 3px offset 0 1 #0000001F], text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: Style: Default/Zebra
+- .Columns: size 160x528px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: Type: Checkbox/More/Number/Text/Text + Subtext; Style: Line/Zebra
+- .Header Cells: size 36x48px, horizontal layout, padding 10 8 10 8px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #F8FAFC, stroke #CBD5E1 1px, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: Type: Checkbox/Left Aligned/Placeholder/Right Aligned; Sort: Default/None/Off/On
+- .Data Cells: size 36x48px, horizontal layout, padding 10 8 10 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #CBD5E1 1px, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: Type: Checkbox/More/Number/Placeholder/Text/Text + Subtext
+- .Multiple: size 895x584px, radius 5px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, stroke #FFFFFF00 1px, effect Elevation Light/2, text [Segoe UI Semibold, 14px, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16, Segoe UI SegoeUI, 12px, SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12, SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18] | variants: State: Enabled/Hovered/Range Hovered/Range Selected/Selected
+- Range: size 592x64px, vertical layout, padding 0 0 0 0px, gap 8px, align min/max, sizing W:fixed H:fixed, fill #FFFFFF, text [Segoe UI Semibold, 14px, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16, Segoe UI SegoeUI, 12px, SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12, SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14] | variants: Open: False/True
+- Day: size 288x64px, vertical layout, padding 0 0 0 0px, gap 8px, align min/max, sizing W:fixed H:fixed, fill #FFFFFF, text [Segoe UI Semibold, 14px, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16, Segoe UI SegoeUI, 12px, SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12, SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14] | variants: Open: False/True
+- .Single: size 448x584px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #FFFFFF00 1px, effect Elevation Light/2, text [Segoe UI Semibold, 14px, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16, Segoe UI SegoeUI, 12px, SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12, SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18] | variants: Type: Enabled/Hovered/Selected
+- .Parts/Day: size 40x48px, vertical layout, padding 0 0 0 0px, gap 2px, align min/center, sizing W:fixed H:fixed, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: Type: Disabled/Enabled/Enabled Hover/Enabled Pressed/Selected/Selected Disabled/Selected Hovered/Selected Pressed
+- .Year: size 448x584px, radius 16px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #FFFFFF00 1px, effect Elevation Light/2, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16, Segoe UI SegoeUI, 12px, SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12, SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18]
+- Dropdown: size 228x64px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Active/Enabled/Hovered/Selected
+- Basic (Link): size 57x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Segoe UI SegoeUI, 16px] | variants: State: Diabled/Enabled/Hovered
+- Spinner: size 16x16px | variants: Phase: 1/2/3/4; Size: lrg (64)/sml (24)/xsml (16)
+- Text Area: size 320x124px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14, Roboto Bold, 16px] | variants: State: Active/Disabled/Enabled/Error/Focused/Hovered; Text filled: False/True
+- Numeric w Dropdown: size 128x40px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Disabled/Enabled/Error/Focus/Hover/Rest
+- .parts-dd: size 65x40px, horizontal layout, padding 0 8 0 12px, gap 4px, align max/center, sizing W:fixed H:fixed, fill #F8FAFC, stroke #64748B 1px, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Default/Focus/Hover/Press
+- Basic (Text Field): size 320x64px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Active/Disabled/Enabled/Error/Focused/Hovered/Success; Text Filled: False/True; has Dropdown: False
+- Confirmation: size 526x208px, radius 16px, vertical layout, padding 32 32 32 32px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #FFFFFF00 1px, effect Elevation Light/5, text [Segoe UI Semibold, 14px, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18] | variants: Status: Error/Info/Success/Warning
+- Basic (Modal): size 662x362px, radius 16px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #FFFFFF00 1px, effect Elevation Light/5, text [Segoe UI Semibold, 14px, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16, SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12, SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18]
+- Basic (Menu): size 180x216px, radius 8px, vertical layout, padding 8 0 8 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #FFFFFF00 1px, effect Elevation Light/3, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14] | variants: hasScroll: False/True
+- .Parts/Items: size 180x40px, radius 4px, horizontal layout, padding 0 24 0 24px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #EFF6FF, stroke #1D4ED8 3px, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Defaut/Disabled/Focused/Hover/Selected/Selected-Hover
+- parts.Radio: size 24x24px | variants: state: default/disabled/focus/hover; isSelected: False/True
+- Basic (Radio): size 66x24px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: state: Disabled/Enabled/Focused/Hovered; isSelected: False/True
+- Scrollbar: size 8x140px, vertical layout, padding 0 0 0 0px, gap 10px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF | variants: Mode: Full/Preview
+- .parts/scroll: size 2x72px, fill #FFFFFF | variants: Mode: Full/Preview
+- Basic (Search Bar): size 256x40px, radius 4px, vertical layout, padding 12 16 12 16px, gap 8px, align center/min, sizing W:fixed H:fixed, fill #F1F5F9, stroke #64748B 1px, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14] | variants: state: default/disabled/hover/rest/selected/typing; size: compact/full
+- Checkbox: size 106x48px, radius 4px, vertical layout, padding 16 24 16 16px, gap 8px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke #CBD5E1 2px, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Default/Disabled/Focus/Hover/Selected/Selected-Disabled/Selected-Focus/Selected-hover
+- Radio: size 106x48px, radius 4px, vertical layout, padding 16 24 16 16px, gap 8px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke #CBD5E1 2px, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Default/Disabled/Focus/Hover/Selected/Selected-Disabled/Selected-Focus/Selected-hover
+- Double: size 434x64px, vertical layout, padding 0 0 0 0px, gap 4px, align center/min, sizing W:fixed H:fixed, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Disabled/Enabled/Focused/Hovered/Pressed
+- Basic (Slider): size 336x64px, vertical layout, padding 0 0 0 0px, gap 4px, align center/min, sizing W:fixed H:fixed, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Disabled/Enabled/Focused/Hovered/Pressed
+- .parts/handle: size 48x48px | variants: State: Disabled/Enabled/Focused/Hovered/Pressed
+- .parts/counter: size 23x24px, radius 4px, vertical layout, padding 0 8 0 8px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #1D4ED8, stroke #FFFFFF00 1px, effect Elevation Light/1, text [SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12]
+- Horizontal: size 497x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: hasOverflow: False/True
+- .parts/horizontal: size 71x48px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: State: Default/Disabled/Focused/Hovered/Selected/Selected disabled/Selected focus/Selected hovered
+- .parts/vertical: size 200x48px, radius 4px, horizontal layout, padding 12 16 12 24px, gap 20px, align min/center, sizing W:fixed H:fixed, fill #EFF6FF, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: state: Disabled/Enabled/Focused/Hovered/Selected/Selected Disabled/Selected Focus/Selected hovered
+- Vertical: size 200x496px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14]
+- .parts/Toggle: size 40x24px | variants: state: Default/Disabled/Focused/Hovered/Pressed; isOn: False/True
+- Basic (Toggle): size 90x24px, horizontal layout, padding 0 0 0 0px, gap 16px, align min/center, sizing W:fixed H:fixed, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14] | variants: state: Disabled/Enabled/Focus/Hovered/Pressed; isOn: False/True
+- Basic (Tooltip): size 67x44px, radius 4px, horizontal layout, padding 12 12 12 12px, gap 0px, sizing W:fixed H:fixed, fill #0F172A, stroke #FFFFFF00 1px, effect Elevation Light/3, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+- Advanced: size 320x261px, vertical layout, padding 0 0 0 0px, gap -26px, align max/min, sizing W:fixed H:fixed, effect Elevation Light/4, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+- moto_ai_white: size 24x24px, fill #FFFFFF
+- moto_ai_light: size 24x24px, fill #FFFFFF
+- moto_ai_black: size 24x24px, fill #FFFFFF
+- .parts_AI_Recommend Prompts: size 192x62px, radius 4px, vertical layout, padding 15 16 15 16px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, stroke brand/AI 1.5px, text [SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12] | variants: state: disabled/focus/hover/rest
+- AI_chat: size 640x800px, vertical layout, padding 32 32 32 32px, gap 24px, align max/center, sizing W:fixed H:fixed, text [SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12, SegoeUI Regular/10 - ms-fontSize-10 FontSizes.size10, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12]
+- AI_chat_empty: size 640x800px, vertical layout, padding 32 32 32 32px, gap 128px, align max/center, sizing W:fixed H:fixed, text [SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12, SegoeUI Regular/10 - ms-fontSize-10 FontSizes.size10, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18]
+- .parts_AI_Empty: size 281x204px, vertical layout, padding 0 0 0 0px, gap 48px, align center/center, sizing W:fixed H:fixed, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14, SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18]
+- .parts_ai_chat_loading: size 64x48px, radius 8/8/8/0px, horizontal layout, padding 0 16 0 16px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px | variants: Property 1: Loading
+- .parts_overflow: size 32x24px, radius 4px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px | variants: state: disabled/focus/hover/rest
+- .parts_pin: size 32x24px, radius 4px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px | variants: state: disabled/focus/hover/rest; is_pinned: false/true
+- .parts_favorite: size 32x24px, radius 4px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px | variants: state: disabled/focus/hover/rest; is_favorited: false/true
+- .parts_regeneration: size 32x24px, radius 4px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px | variants: state: max/regeneration/rest
+- .parts_regenerate_pagination_right: size 32x24px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px | variants: state: disabled/focus/hover/rest
+- .parts_regenerate_pagination_left: size 32x24px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px | variants: state: disabled/focus/hover/rest
+- .parts_regenerate_btn: size 32x24px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF | variants: state: disabled/focus/hover/max/rest
+- .parts_feedback: size 64x24px, radius 4px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px | variants: state: bad/feedback provided/good/rest
+- .parts_feedback_btn: size 101x24px, horizontal layout, padding 6 12 6 12px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Segoe UI Semibold, 12px] | variants: state: disabled/focus/hover/rest
+- .parts_feedback_bad: size 32x24px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px | variants: selected: false/true; state: disabled/focus/hover/rest
+- .parts_feedback_good: size 32x24px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF | variants: selected: False/True; state: disabled/focus/hover/rest
+- user_responce: size 480x104px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+- ai_responce_loading: size 516x80px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed
+- ai_responce_plaintext: size 516x104px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+- .parts_ai_chat_bubble: size 480x72px, radius 4/4/4/0px, vertical layout, padding 16 16 16 16px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+- .parts_regenerate_counter: size 40x24px, horizontal layout, padding 6 8 6 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px, text [Segoe UI Semibold, 12px]
+- ai_fab_dark: size 48x48px
+- ai_fab_light: size 48x48px
+- ai_text_field: size 640x56px, radius 4px, horizontal layout, padding 8 12 8 16px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #F8FAFC, stroke #64748B 1px, text [SegoeUI Regular/10 - ms-fontSize-10 FontSizes.size10, SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14] | variants: state: disabled/focus/hover/rest/text entered
+- AI_disclaimer: size 371x16px, horizontal layout, padding 0 0 0 0px, gap 8px, align center/center, sizing W:fixed H:fixed, text [SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12]
+- .Split Button: size 138x40px, radius 100px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #1D4ED8, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16] | variants: State: Default/Disabled
+- .Month: size 448x584px, radius 16px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E2E8F0 1px, effect Elevation Light/2, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14, Segoe UI Semibold, 16px, SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16, Segoe UI SegoeUI, 12px, SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12]
+
+## Most-Used Styles
+- SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16: 3293 uses
+- SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14: 2316 uses
+- SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14: 1040 uses
+- SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12: 287 uses
+- SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18: 142 uses
+- SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20: 133 uses
+- SegoeUI Regular/12 - ms-fontSize-12 FontSizes.size12: 130 uses
+- brand.purple_blue3: 78 uses
+- Elevation Light/3: 76 uses
+- SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16: 56 uses
+- Elevation Light/5: 49 uses
+- Elevation Light/1: 38 uses
+- Elevation Light/2: 35 uses
+- brand/AI: 35 uses
+- SegoeUI Semibold / 42 - ms-fontSize-42 FontSizes.size42: 33 uses
+- SegoeUI Semibold / 32 - ms-fontSize-32 FontSizes.size32: 21 uses
+- cake.light/Elevation/Outlined Light: 8 uses
+- segoe/Body2: 7 uses
+- cake.light.a/Background/Paper: 6 uses
+- Elevation Light/4: 4 uses
+- SegoeUI Regular / 42 - ms-fontSize-42 FontSizes.size42: 4 uses
+- SegoeUI Regular/68 - ms-fontSize-68 FontSizes.size68: 4 uses
+- SegoeUI Semibold / 28 - ms-fontSize-28 FontSizes.size28: 3 uses
+- Linear: 2 uses
+- SegoeUI Regular / 32 - ms-fontSize-32 FontSizes.size32: 2 uses
+- neutral/50: 2 uses
+- segoe/Label1: 2 uses
+- SegoeUI Regular / 18 - ms-fontSize-18 FontSizes.size18: 1 use
+- SegoeUI Regular / 20 - ms-fontSize-20 FontSizes.size20: 1 use
+- SegoeUI Regular / 28 - ms-fontSize-28 FontSizes.size28: 1 use
+- SegoeUI Regular/10 - ms-fontSize-10 FontSizes.size10: 1 use
+- SegoeUI Semibold / 10 - ms-fontSize-10 FontSizes.size10: 1 use
+- amber/100: 1 use
+- amber/200: 1 use
+- amber/300: 1 use
+- amber/400: 1 use
+- amber/50: 1 use
+- amber/500: 1 use
+- amber/600: 1 use
+- amber/700: 1 use
+- amber/800: 1 use
+- amber/900: 1 use
+- blue/100: 1 use
+- blue/200: 1 use
+- blue/300: 1 use
+- blue/400: 1 use
+- blue/50: 1 use
+- blue/500: 1 use
+- blue/600: 1 use
+- blue/700: 1 use
+- blue/800: 1 use
+- blue/900: 1 use
+- brand.purple+blue_hot: 1 use
+- brand/signatureRed: 1 use
+- cake.light/Elevation/4: 1 use
+- common/black: 1 use
+- common/white: 1 use
+- cyan/100: 1 use
+- cyan/200: 1 use
+- cyan/300: 1 use
+- cyan/400: 1 use
+- cyan/50: 1 use
+- cyan/500: 1 use
+- cyan/600: 1 use
+- cyan/700: 1 use
+- cyan/800: 1 use
+- cyan/900: 1 use
+- emerald/100: 1 use
+- emerald/200: 1 use
+- emerald/300: 1 use
+- emerald/400: 1 use
+- emerald/50: 1 use
+- emerald/500: 1 use
+- emerald/600: 1 use
+- emerald/700: 1 use
+- emerald/800: 1 use
+- emerald/900: 1 use
+- fuchsia/100: 1 use
+- fuchsia/200: 1 use
+- fuchsia/300: 1 use
+- fuchsia/400: 1 use
+- fuchsia/50: 1 use
+- fuchsia/500: 1 use
+- fuchsia/600: 1 use
+- fuchsia/700: 1 use
+- fuchsia/800: 1 use
+- fuchsia/900: 1 use
+- gray/100: 1 use
+- gray/200: 1 use
+- gray/300: 1 use
+- gray/400: 1 use
+- gray/50: 1 use
+- gray/500: 1 use
+- gray/600: 1 use
+- gray/700: 1 use
+- gray/800: 1 use
+- gray/900: 1 use
+- green/100: 1 use
+- green/200: 1 use
+- green/300: 1 use
+- green/400: 1 use
+- green/50: 1 use
+- green/500: 1 use
+- green/600: 1 use
+- green/700: 1 use
+- green/800: 1 use
+- green/900: 1 use
+- indigo/100: 1 use
+- indigo/200: 1 use
+- indigo/300: 1 use
+- indigo/400: 1 use
+- indigo/50: 1 use
+- indigo/500: 1 use
+- indigo/600: 1 use
+- indigo/700: 1 use
+- indigo/800: 1 use
+- indigo/900: 1 use
+- lime/100: 1 use
+- lime/200: 1 use
+- lime/300: 1 use
+- lime/400: 1 use
+- lime/50: 1 use
+- lime/500: 1 use
+- lime/600: 1 use
+- lime/700: 1 use
+- lime/800: 1 use
+- lime/900: 1 use
+- neutral/100: 1 use
+- neutral/200: 1 use
+- neutral/300: 1 use
+- neutral/400: 1 use
+- neutral/500: 1 use
+- neutral/600: 1 use
+- neutral/700: 1 use
+- neutral/800: 1 use
+- neutral/900: 1 use
+- orange/100: 1 use
+- orange/200: 1 use
+- orange/300: 1 use
+- orange/400: 1 use
+- orange/50: 1 use
+- orange/500: 1 use
+- orange/600: 1 use
+- orange/700: 1 use
+- orange/800: 1 use
+- orange/900: 1 use
+- pink/100: 1 use
+- pink/200: 1 use
+- pink/300: 1 use
+- pink/400: 1 use
+- pink/50: 1 use
+- pink/500: 1 use
+- pink/600: 1 use
+- pink/700: 1 use
+- pink/800: 1 use
+- pink/900: 1 use
+- purple/100: 1 use
+- purple/200: 1 use
+- purple/300: 1 use
+- purple/400: 1 use
+- purple/50: 1 use
+- purple/500: 1 use
+- purple/600: 1 use
+- purple/700: 1 use
+- purple/800: 1 use
+- purple/900: 1 use
+- red/100: 1 use
+- red/200: 1 use
+- red/300: 1 use
+- red/400: 1 use
+- red/50: 1 use
+- red/500: 1 use
+- red/600: 1 use
+- red/700: 1 use
+- red/800: 1 use
+- red/900: 1 use
+- rose/100: 1 use
+- rose/200: 1 use
+- rose/300: 1 use
+- rose/400: 1 use
+- rose/50: 1 use
+- rose/500: 1 use
+- rose/600: 1 use
+- rose/700: 1 use
+- rose/800: 1 use
+- rose/900: 1 use
+- sky/100: 1 use
+- sky/200: 1 use
+- sky/300: 1 use
+- sky/400: 1 use
+- sky/50: 1 use
+- sky/500: 1 use
+- sky/600: 1 use
+- sky/700: 1 use
+- sky/800: 1 use
+- sky/900: 1 use
+- slate/100: 1 use
+- slate/200: 1 use
+- slate/300: 1 use
+- slate/400: 1 use
+- slate/50: 1 use
+- slate/500: 1 use
+- slate/600: 1 use
+- slate/700: 1 use
+- slate/800: 1 use
+- slate/900: 1 use
+- stone/100: 1 use
+- stone/200: 1 use
+- stone/300: 1 use
+- stone/400: 1 use
+- stone/50: 1 use
+- stone/500: 1 use
+- stone/600: 1 use
+- stone/700: 1 use
+- stone/800: 1 use
+- stone/900: 1 use
+- teal/100: 1 use
+- teal/200: 1 use
+- teal/300: 1 use
+- teal/400: 1 use
+- teal/50: 1 use
+- teal/500: 1 use
+- teal/600: 1 use
+- teal/700: 1 use
+- teal/800: 1 use
+- teal/900: 1 use
+- violet/100: 1 use
+- violet/200: 1 use
+- violet/300: 1 use
+- violet/400: 1 use
+- violet/50: 1 use
+- violet/500: 1 use
+- violet/600: 1 use
+- violet/700: 1 use
+- violet/800: 1 use
+- violet/900: 1 use
+- yellow/100: 1 use
+- yellow/200: 1 use
+- yellow/300: 1 use
+- yellow/400: 1 use
+- yellow/50: 1 use
+- yellow/500: 1 use
+- yellow/600: 1 use
+- yellow/700: 1 use
+- yellow/800: 1 use
+- yellow/900: 1 use
+- zinc/100: 1 use
+- zinc/200: 1 use
+- zinc/300: 1 use
+- zinc/400: 1 use
+- zinc/50: 1 use
+- zinc/500: 1 use
+- zinc/600: 1 use
+- zinc/700: 1 use
+- zinc/800: 1 use
+- zinc/900: 1 use
+
+## Layout & Structure
+Screen: About / Thumbnail
+- FRAME "Thumbnail", 1280x762px, constraints left/top, radius 12px, fill #FFFFFF
+  - FRAME "Frame 18380", 1024x284px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 18381", 1024x284px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 18379", 1024x284px, horizontal pad 0 0 0 0px gap 128px align center/max sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 18375", 1024x284px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 18377", 1024x284px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 18376", 1024x284px, vertical pad 0 0 0 0px gap 56px sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE "Lenovo Logo", 96x286.98px, constraints left/top
+    - VECTOR "Vector", 96x286.98px, constraints scale/scale, fill #E1251B
+    - GROUP "Group", 48.63x234.75px, constraints scale/scale [decorative, ~6 shapes]
+
+Screen: Change log / Change log
+- FRAME "Change log", 658x395px, horizontal pad 128 128 128 128px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF
+  - FRAME "Frame 1", 402x139px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fixed H:fixed, constraints left/top
+    - TEXT "1.4.6 Added Numeric Dropdown Component Added Cake AI to Cake", 402x139px, constraints left/top, fill #000000, text [Inter Bold, 12px]
+
+Screen: Color / Color.Core
+- FRAME "Color.Core", 2400x8102px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 32/32/16/16px
+  - INSTANCE "Page Header", 2400x332px, vertical pad 128 96 128 96px gap 120px sizing W:fill H:fixed, constraints left/top, radius 32/32/0/0px, fill #F8FAFC
+    - FRAME "Content", 560x76px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Page Header", 162x76px, constraints left/top, fill #0F172A, text [SegoeUI Regular/68 - ms-fontSize-68 FontSizes.size68], [heading]
+  - FRAME "primitives", 2400x7770px, vertical pad 128 128 128 128px gap 128px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "cake.primitives", 358x74px, constraints left/top, fill #0F172A, text [Segoe UI Light, 60px], [heading]
+    - FRAME "Frame 26", 2144x6864px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "slate", 2144x240px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "slate", 51x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 24px], [heading]
+        - FRAME "Swatches", 2144x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "gray", 2144x240px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "gray", 49x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 24px], [heading]
+        - FRAME "Swatches", 2144x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "zinc", 2144x240px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "zinc", 43x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 24px], [heading]
+        - FRAME "Swatches", 2144x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "neutral", 2144x240px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "neutral", 78x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 24px], [heading]
+        - FRAME "Swatches", 2144x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "stone", 2144x240px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "stone", 60x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 24px], [heading]
+        - FRAME "Swatches", 2144x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "red", 2144x240px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "red", 36x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 24px], [heading]
+        - FRAME "Swatches", 2144x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "orange", 2144x240px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "orange", 77x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 24px], [heading]
+        - FRAME "Swatches", 2144x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "amber", 2144x240px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "amber", 70x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 24px], [heading]
+        - FRAME "Swatches", 2144x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "yellow", 2144x240px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "yellow", 70x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 24px], [heading]
+        - FRAME "Swatches", 2144x192px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+            - FRAME "Frame 25", 200x56px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Chip component", 200x192px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "Color", 200x64px, constraints left/top, fill #F8FAFC
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Color tokens / Color.Tokens.Naming.Convention
+- FRAME "Color.Tokens.Naming.Convention", 961x1774px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 32/32/16/16px
+  - INSTANCE "Page Header", 961x308px, vertical pad 128 96 128 96px gap 120px sizing W:fill H:fixed, constraints left/top, radius 32/32/0/0px, fill #F8FAFC
+    - FRAME "Content", 560x52px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Page Header", 560x52px, constraints left/top, fill #0F172A, text [SegoeUI Regular / 42 - ms-fontSize-42 FontSizes.size42], [heading]
+  - FRAME "Page Content", 961x1466px, vertical pad 96 96 96 96px gap 64px sizing W:fill H:fixed, constraints left/top, radius 0/0/16/16px, fill #FFFFFF
+    - FRAME "Frame 1", 769x1274px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Token naming convention", 235x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+      - TEXT "When writing Figma Variables we remove the Category from the", 565x176px, constraints left/top, fill #000000, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+      - FRAME "Frame 110423690", 769x468px, horizontal pad 64 64 64 64px gap 64px sizing W:fixed H:fixed, constraints left/top, fill #F8FAFC
+        - TEXT "Category reference surface text icon border", 59x140px, constraints left/top, fill #000000, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+        - TEXT "Component button textButton inlineAlert item input toggle mo", 76x240px, constraints left/top, fill #000000, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+        - TEXT "Type primary primary-strong primary-stronger primary-weak pr", 127x340px, constraints left/top, fill #000000, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+        - TEXT "onSurface onInfo onSuccess onWarning onError onCard onCanvas", 70x200px, constraints left/top, fill #000000, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+        - TEXT "State rest hover press focus disabled", 53x140px, constraints left/top, fill #000000, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+      - TEXT "Below is our token naming convention.", 267x20px, constraints left/top, fill #000000, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+      - FRAME "Frame 110423691", 441x150px, horizontal pad 64 64 64 64px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F8FAFC
+        - TEXT "category-component-type-onSurface-state", 313x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - TEXT "For example if writing a new token for a button it might loo", 526x20px, constraints left/top, fill #000000, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+      - FRAME "Frame 110423692", 289x150px, horizontal pad 64 64 64 64px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F8FAFC
+        - TEXT "button-primary-hover", 161x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - FRAME "Frame 110423693", 376x150px, horizontal pad 64 64 64 64px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, fill #F8FAFC
+        - TEXT "iconButton-primary-onError-press", 248x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+
+Screen: Iconography / Iconography
+- FRAME "Iconography", 1072x2254px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 32/32/16/16px, fill #FFFFFF
+  - INSTANCE "Page Header", 1072x332px, vertical pad 128 96 128 96px gap 120px sizing W:fill H:fixed, constraints left/top, radius 32/32/0/0px, fill #F8FAFC
+    - FRAME "Content", 560x76px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Page Header", 378x76px, constraints left/top, fill #0F172A, text [SegoeUI Regular/68 - ms-fontSize-68 FontSizes.size68], [heading]
+  - FRAME "Logos", 1072x1922px, vertical pad 64 128 64 128px gap 64px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Our design system adopts the Material Design icon library to", 580x176px, constraints left/top, fill #334155, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+    - FRAME "Frame 17411", 580x136px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "System", 89x32px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Hardware", 89x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 20px]
+      - TEXT "These icons represent physical device functions, such as tho", 580x88px, constraints left/top, fill #334155, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+    - FRAME "Icon Container", 224x24px, horizontal pad 0 0 0 0px gap 76px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Lock", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x24px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Caps_Lock", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 6.09x6px, constraints scale/scale, fill #0F172A
+      - INSTANCE "HW/Num_Lock", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 2x6px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 16x20px, constraints scale/scale, fill #0F172A
+    - FRAME "Icon Container", 288x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Minimize", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x24px, constraints scale/scale [decorative, ~5 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Maximize", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x23.99px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Mouse", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 15x20px, constraints scale/scale
+          - VECTOR "Vector", 10x14px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 11x7.8px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Moto_Ai", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18.4x20.2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+    - FRAME "Icon", 640x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Headphones", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 17.94x18.01px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Headphones_Mic", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 18x22.01px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Phone", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.5x18.23px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Calculator", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 16x20px, constraints scale/scale [decorative, ~11 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Power", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 10x13.51px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 11x8.01px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Game_Controller", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 23.99x24px, constraints scale/scale
+        - GROUP "Group", 24x15.01px, constraints scale/scale [decorative, ~6 shapes]
+      - INSTANCE "HW/Camera", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - GROUP "Group", 18x18px, constraints scale/scale
+          - VECTOR "Vector", 9x9px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 18x18px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Camera_Off", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 23.9x24px, constraints scale/scale
+        - GROUP "Group", 23.93x14.99px, constraints scale/scale
+          - VECTOR "Vector", 7.5x7.5px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 14.99x14.99px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 7.91x7.91px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+    - FRAME "Icon Container", 552x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Task_Manager", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20x18px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Trackpad", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Trackpad_Off", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - GROUP "Group", 23.51x12px, constraints scale/scale
+          - VECTOR "Vector", 7.66x7.65px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 14x12px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Keyboard", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x14.01px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 12x2px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 4x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 4x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2.5x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2.5x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 23.99x24px, constraints scale/scale
+      - INSTANCE "HW/Smart_Star", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 19.99x19.22px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 4.38x5.8px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Star", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.99x19.22px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/User", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "icons", 24x24px, constraints scale/scale
+          - GROUP "Group", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 8x8px, constraints scale/scale, stroke #0F172A 2px
+            - VECTOR "Vector", 14x8px, constraints scale/scale, stroke #0F172A 2px
+            - VECTOR "Vector", 24x24px, constraints scale/scale
+        - GROUP "Expanded", 24x24px, constraints scale/scale
+          - GROUP "Group", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 16x17px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+            - VECTOR "Vector", 24x24px, constraints scale/scale
+    - FRAME "Icon Mute", 816x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Mic_Mute", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 22.04x16.94px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Mic", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - GROUP "Group", 12.94x16.93px, constraints scale/scale
+          - VECTOR "Vector", 12.94x10px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 7.04x11.83px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Volume_Down", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 16x16px, constraints scale/scale
+          - VECTOR "Vector", 10x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 4x8px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Volume_Off", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 19.96x16px, constraints scale/scale
+          - VECTOR "Vector", 7.92x7.91px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 10x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Volume_Settings", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 10x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 7.98x8px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Volume_Up", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 10x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 8x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 4x8px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Play_Pause", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20.1x16px, constraints scale/scale
+          - VECTOR "Vector", 2x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 2x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 11.99x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Rewind", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 16.01x16.01px, constraints scale/scale
+          - VECTOR "Vector", 2x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 11.99x16.01px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Fast_Forward", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 16.01x16px, constraints scale/scale
+          - VECTOR "Vector", 2x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 12x16px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Stop", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 18x18px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+    - FRAME "Icon Container", 728x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Wonder_Bar", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 4.5x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 4.5x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 16x20px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Wonder_Bar", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 4.5x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 4.5x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 16x20px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Screen_Extend", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.43x16.05px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Split_Screen", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 23.96x23.99px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Notebook", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.01x12px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Device_Collaboration", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 21.01x16.05px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Display", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.02x18.01px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Display_Roll", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20x18px, constraints scale/scale
+          - VECTOR "Vector", 20x12px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 7.42x13.99px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Display_Settings", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - GROUP "Group", 19x20px, constraints scale/scale
+          - VECTOR "Vector", 8x7.98px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 16x20px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+    - FRAME "Icon Container", 288x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Key_Brightness_Up", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 18.2x11px, constraints scale/scale [decorative, ~6 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Screen_Brightness_Up", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20x20px, constraints scale/scale [decorative, ~9 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Screen_Brightness_Down", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8x8px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - GROUP "Group", 2x14px, constraints scale/scale
+          - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2x2px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - GROUP "Group", 11.31x11.3px, constraints scale/scale
+          - VECTOR "Vector", 2.83x2.83px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+          - VECTOR "Vector", 2.83x2.83px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2.83x2.83px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+        - VECTOR "Vector", 2.83x2.83px, constraints scale/scale, fill #0F172A, stroke #0F172A 1px
+      - INSTANCE "HW/Key_Brightness_Up", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 23.96x13.5px, constraints scale/scale [decorative, ~6 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+    - FRAME "Icon", 288x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Airplane", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20.02px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/App_Add", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20x20px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/App_Search", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20x20px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Arrow", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x16px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+    - FRAME "Icon", 288x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Battery", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 17.01x10px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 2x6px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 7x4px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Bluetooth", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 11.85x20px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Reset", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 19.48x17.99px, constraints scale/scale, fill #0F172A
+      - INSTANCE "HW/Crop", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 5.5x5.5px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 5.5x5.5px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 5.52x5.5px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 8.99x9px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 23.98x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+    - FRAME "Icon Container", 288x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Settings", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20x20.01px, constraints scale/scale
+          - VECTOR "Vector", 8x8px, constraints scale/scale, fill #0F172A
+          - VECTOR "Vector", 20x20.01px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Search", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.97x19.96px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Fingerprint", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 18x20.6px, constraints scale/scale
+          - VECTOR "Vector", 18x19.95px, constraints scale/scale, fill #0F172A
+          - VECTOR "Vector", 13.99x16.63px, constraints scale/scale, fill #0F172A
+          - VECTOR "Vector", 5.99x11.49px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Dashboard", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20.02x13.56px, constraints scale/scale
+          - VECTOR "Vector", 20.02x13.56px, constraints scale/scale, fill #0F172A
+          - VECTOR "Vector", 7.7x5.86px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+    - FRAME "Icon Container", 200x24px, horizontal pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "HW/Notifications", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 15.94x20.01px, constraints scale/scale
+          - VECTOR "Vector", 4x2px, constraints scale/scale, fill #0F172A
+          - VECTOR "Vector", 15.94x17.01px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Globe", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #0F172A
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+      - INSTANCE "HW/Eye_Care", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20.01x10.74px, constraints scale/scale [decorative, ~4 shapes]
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+    - INSTANCE "HW/USB Charging Icon", 24x24px, constraints left/top
+      - GROUP "clip-path", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 24x24px, constraints scale/scale, fill #000000
+      - GROUP "24px", 24.03x24px, constraints scale/scale
+        - GROUP "AT/ICO/LE-Charging-USB---SS", 24.03x19.38px, constraints scale/center
+          - VECTOR "Combined-Shape", 24.03x19.38px, constraints scale/scale, fill #0F172A
+        - VECTOR "Rectangle 1312", 24x24px, constraints scale/scale
+    - FRAME "Frame 17410", 580x298px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 17394", 580x210px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Custom", 71x32px, constraints left/top, fill #0F172A, text [Segoe UI Semibold, 20px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Iconography / Depreciated Icons
+- FRAME "Depreciated Icons", 864x501px, vertical pad 24 24 24 24px gap 48px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "Inline/Simple", 816x64px, vertical pad 16 24 16 24px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #F8FAFC, stroke #CBD5E1 2px
+    - FRAME "Frame 71437", 464x32px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 71436", 464x32px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 71435", 464x32px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 71434", 464x32px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Icon + Title", 464x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 8", 4x64px, constraints left/top_bottom, radius 8/0/0/8px, fill #C2410C
+  - TEXT "The icons below are the older versions used for hardware-rel", 580x44px, constraints left/top, fill #334155, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+  - FRAME "Frame 24", 816x249px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Top Row", 57x25px, constraints left/top, fill #171717, text [Segoe UI Semibold, 14px]
+    - FRAME "Frame 71439", 816x200px, grid pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top [decorative, ~39 shapes]
+
+Screen: Language & grammar / Language & Grammer
+- FRAME "Language & Grammer", 757x2360px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 32/32/16/16px
+  - INSTANCE "Page Header", 757x308px, vertical pad 128 96 128 96px gap 120px sizing W:fill H:fixed, constraints left/top, radius 32/32/0/0px, fill #F8FAFC
+    - FRAME "Content", 560x52px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Page Header", 560x52px, constraints left/top, fill #0F172A, text [SegoeUI Regular / 42 - ms-fontSize-42 FontSizes.size42], [heading]
+  - FRAME "Page Content", 757x2052px, vertical pad 96 96 96 96px gap 64px sizing W:fill H:fixed, constraints left/top, radius 0/0/16/16px, fill #FFFFFF
+    - FRAME "Frame 1", 565x902px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Tone of voice", 121x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+      - TEXT "We are tech optimists: We believe in the power of technology", 565x858px, constraints left/top, fill #0F172A, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+    - FRAME "Frame 4", 565x214px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Capitalization", 125x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+      - TEXT "Sentence case should be used in all titles, headings, menu i", 565x44px, constraints left/top, fill #334155, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+      - FRAME "Frame 71331", 565x110px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 19", 270.5x110px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 71330", 270.5x110px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 71333", 270.5x110px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 20", 270.5x110px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 71330", 270.5x110px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 18", 270.5x52px, horizontal pad 16 16 16 16px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+            - INSTANCE "Inline/Advanced", 270.5x42px, vertical pad 8 24 10 24px gap 0px sizing W:fill H:fixed, constraints left/top, radius 4px, fill #F8FAFC, stroke #B91C1C 1px
+    - FRAME "Frame 2", 565x132px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Punctuation", 110x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+      - TEXT "Punctuation is consistent. Short strings such as headers do ", 565x88px, constraints left/top, fill #334155, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+    - FRAME "Frame 3", 565x420px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Body text", 87x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+      - FRAME "Frame 71332", 565x376px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Body text should be detailed but not overly technical. Be co", 565x154px, constraints left/top, fill #334155, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+        - FRAME "Frame 71331", 565x210px, horizontal pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 19", 214x150px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 71330", 214x150px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 20", 147x210px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 71330", 147x210px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 22", 156x210px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 71330", 156x210px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+
+Screen: Language & grammar / Feature descriptions
+- FRAME "Feature descriptions", 757x1766px, constraints left/top
+  - INSTANCE "Page Header", 757x308px, vertical pad 128 96 128 96px gap 120px sizing W:fixed H:fixed, constraints left/top, radius 32/32/0/0px, fill #F8FAFC
+    - FRAME "Content", 560x52px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Page Header", 560x52px, constraints left/top, fill #0F172A, text [SegoeUI Regular / 42 - ms-fontSize-42 FontSizes.size42], [heading]
+  - FRAME "Page Content", 757x1458px, vertical pad 96 96 96 96px gap 64px sizing W:fixed H:fixed, constraints left/top, radius 0/0/16/16px, fill #FFFFFF
+    - FRAME "Frame 1", 565x330px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Guidelines", 95x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+      - TEXT "Feature descriptions should be clear, concise, and to the po", 565x286px, constraints left/top, fill #334155, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+    - FRAME "Frame 5", 565x872px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Examples", 86x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+      - FRAME "Frame 71334", 565x204px, vertical pad 16 16 16 16px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #CBD5E1 1px
+        - INSTANCE "Checkbox + Body", 533x172px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px
+          - FRAME "Toggle/hasLabel", 533x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Label", 477x20px, constraints left/top, fill #0F172A, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14]
+            - INSTANCE "Toggle", 40x24px, constraints left/top
+          - FRAME "Frame 18334", 533x140px, horizontal pad 0 8 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mor", 525x140px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+      - FRAME "Frame 71335", 565x92px, vertical pad 16 16 16 16px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #CBD5E1 1px
+        - INSTANCE "Checkbox + Body", 533x60px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Toggle/hasLabel", 533x32px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 71414", 303.5x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Toggle", 40x24px, constraints left/top
+          - FRAME "Frame 18334", 533x20px, horizontal pad 0 8 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Enable this setting to help increase the lifespan of your ba", 525x20px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+      - FRAME "Frame 71336", 565x104px, vertical pad 16 16 16 16px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #CBD5E1 1px
+        - INSTANCE "Checkbox + Body", 533x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Toggle/hasLabel", 577x24px, horizontal pad 2 0 2 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Label", 533x20px, constraints left/top, fill #0F172A, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14]
+          - FRAME "Frame 18334", 577x40px, horizontal pad 0 8 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mor", 525x40px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+      - FRAME "Frame 71337", 565x124px, vertical pad 16 16 16 16px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #CBD5E1 1px
+        - INSTANCE "Checkbox + Body", 533x92px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Toggle/hasLabel", 533x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Label", 477x20px, constraints left/top, fill #0F172A, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14]
+            - INSTANCE "Toggle", 40x24px, constraints left/top
+          - FRAME "Frame 18334", 533x60px, horizontal pad 0 8 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mor", 525x60px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+      - FRAME "Frame 71338", 565x112px, vertical pad 16 16 16 16px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #CBD5E1 1px
+        - INSTANCE "Checkbox + Body", 533x80px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Toggle/hasLabel", 533x32px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 71414", 303.5x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Toggle", 40x24px, constraints left/top
+          - FRAME "Frame 18334", 533x40px, horizontal pad 0 8 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Enable this setting to help increase the lifespan of your ba", 525x40px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+      - FRAME "Frame 71339", 565x112px, vertical pad 16 16 16 16px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #CBD5E1 1px
+        - INSTANCE "Checkbox + Body", 533x80px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Toggle/hasLabel", 533x32px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 71414", 303.5x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Toggle", 40x24px, constraints left/top
+          - FRAME "Frame 18334", 533x40px, horizontal pad 0 8 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Enable this setting to help increase the lifespan of your ba", 525x40px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+
+Screen: Typography / Typography
+- FRAME "Typography", 1089.88x1981px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 32/32/16/16px, fill #FFFFFF
+  - INSTANCE "Page Header", 1089.88x332px, vertical pad 128 96 128 96px gap 120px sizing W:fill H:fixed, constraints left/top, radius 32/32/0/0px, fill #F8FAFC
+    - FRAME "Content", 355x76px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Page Header", 355x76px, constraints left/top, fill #0F172A, text [SegoeUI Regular/68 - ms-fontSize-68 FontSizes.size68], [heading]
+  - FRAME "Frame 17397", 1089.88x1649px, vertical pad 32 0 128 0px gap 128px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Type-regular", 1089.88x757px, vertical pad 0 64 0 64px gap 22px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Component-name", 960x24px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 17399", 961.88x711px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Component-name", 961.88x28px, constraints left/top, fill #717171, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+        - FRAME "Type-ramp", 961.88x659px, vertical pad 0 0 0 0px gap 23px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "10", 960x33px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 960x20px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+          - FRAME "12", 960x33px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 960x20px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+          - FRAME "14", 960x33px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 960x20px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+          - FRAME "16", 960x35px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 960x22px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+          - FRAME "18", 960x36px, vertical pad 0 0 0 0px gap 11px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 960x24px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+          - FRAME "20", 960x39px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 960x28px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+          - FRAME "28", 960x47px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 960x36px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+          - FRAME "32", 960x50px, vertical pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 960x40px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+          - FRAME "42", 960x61px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 960x52px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+          - FRAME "68", 961.88x85px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Type", 961.88x76px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+    - FRAME "Type-semibold", 1088x604px, vertical pad 0 64 0 64px gap 22px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Component-name", 960x24px, constraints left/top, fill #FFFFFF
+        - TEXT "Component-name", 960x28px, constraints scale/scale, fill #717171, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+      - FRAME "Type-ramp", 960x558px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "10", 960x33px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Type", 960x20px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Aa", 12x12px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 10 - ms-fontSize-10 FontSizes.size10]
+            - TEXT "FontSizes.size10", 100x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Metadata (Limited)", 118x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+          - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+        - FRAME "12", 960x33px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Type", 960x20px, constraints left/top, radius 0/0/0/0px
+            - TEXT "FontSizes.size12", 100x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Metadata", 60x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Aa", 15x16px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 12 - ms-fontSize-12 FontSizes.size12]
+          - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+        - FRAME "14", 960x33px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Type", 960x20px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Aa", 17x20px, constraints left/top, fill #0F172A, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "FontSizes.size14", 100x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Body Text", 60x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+          - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+        - FRAME "16", 960x35px, vertical pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Type", 960x22px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Aa", 20x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+            - TEXT "FontSizes.size16", 100x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Subject Title", 76x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+          - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+        - FRAME "18", 960x36px, vertical pad 0 0 0 0px gap 11px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Type", 960x24px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Aa", 22x24px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 18 - ms-fontSize-18 FontSizes.size18]
+            - TEXT "FontSizes.size18", 100x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Header", 45x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+          - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+        - FRAME "20", 960x39px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Type", 960x28px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Aa", 24x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+            - TEXT "FontSizes.size20", 100x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Pane Header", 79x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+          - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+        - FRAME "28", 960x47px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Type", 960x36px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Aa", 34x36px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 28 - ms-fontSize-28 FontSizes.size28], [heading]
+            - TEXT "FontSizes.size28", 100x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Page Title", 61x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+          - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+        - FRAME "32", 960x50px, vertical pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Type", 960x40px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Aa", 39x40px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 32 - ms-fontSize-32 FontSizes.size32], [heading]
+            - TEXT "FontSizes.size32", 100x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Greeting Title", 84x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+          - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+        - FRAME "42", 960x60px, vertical pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Type", 960x52px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Aa", 51x52px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 42 - ms-fontSize-42 FontSizes.size42], [heading]
+            - TEXT "FontSizes.size42", 100x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+            - TEXT "Hero Title", 61x20px, constraints left/top, fill #0F172A, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+          - RECTANGLE "Border", 960x1px, constraints left_right/bottom, fill #E2E8F0
+
+Screen: Accordion / .Components
+- COMPONENT_SET ".Components", 512x1017px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "State=Enabled, isExpanded=False", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+    - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+    - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+        - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+  - COMPONENT "State=Hovered, isExpanded=False", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #F1F5F9, stroke #64748B 1px
+    - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+    - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+        - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+  - COMPONENT "State=Focused, isExpanded=False", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #1D4ED8 3px
+    - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+    - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+        - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+  - COMPONENT "State=Enabled, isExpanded=True", 480x224px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+    - FRAME "Frame 71386", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+        - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+          - INSTANCE "ExpandLessFilled", 24x24px, constraints left/top
+            - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+    - FRAME "Frame 71387", 480x152px, vertical pad 0 24 24 24px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Subtitle", 432x20px, constraints left/top, fill #0F172A, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Int", 432x100px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+  - COMPONENT "State=Hovered, isExpanded=True", 480x224px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+    - FRAME "Frame 71386", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #F1F5F9
+      - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+        - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+          - INSTANCE "ExpandLessFilled", 24x24px, constraints left/top
+            - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+    - FRAME "Frame 71387", 480x152px, vertical pad 0 24 24 24px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Subtitle", 432x20px, constraints left/top, fill #0F172A, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Int", 432x100px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+  - COMPONENT "State=Focused, isExpanded=True", 480x224px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #E2E8F0 1px
+    - FRAME "Frame 71386", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #1D4ED8 1.5px
+      - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+        - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+          - INSTANCE "ExpandLessFilled", 24x24px, constraints left/top
+            - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+    - FRAME "Frame 71387", 480x152px, vertical pad 0 24 24 24px gap 8px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Subtitle", 432x20px, constraints left/top, fill #0F172A, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Int", 432x100px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+
+Screen: Accordion / Basic
+- COMPONENT "Basic", 480x256px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #64748B 1px
+  - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+    - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+    - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+        - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+  - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+    - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+    - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+        - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+  - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+    - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+    - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+        - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+  - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+    - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+    - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+      - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+        - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+          - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+
+Screen: Accordion / Accordion
+- FRAME "Accordion", 3779x284px, vertical pad 48 48 48 48px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #F8FAFC
+  - FRAME "Content", 560x188px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 71388", 194x52px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Accordion", 194x52px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 42 - ms-fontSize-42 FontSizes.size42], [heading]
+    - TEXT "The accordion component is designed to efficiently manage an", 560x88px, constraints left/top, fill #334155, text [SegoeUI Regular / 16 - ms-fontSize-16 FontSizes.size16]
+
+Screen: Accordion / Components
+- FRAME "Components", 512x92px, vertical pad 32 32 32 32px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #F8FAFC
+  - FRAME "Content", 448x28px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+    - TEXT "Components", 448x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+
+Screen: Accordion / Theme
+- FRAME "Theme", 1280x92px, vertical pad 32 32 32 32px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #F8FAFC
+  - FRAME "Content", 448x28px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Theme", 448x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+
+Screen: Accordion / Theme
+- FRAME "Theme", 1728x92px, vertical pad 32 32 32 32px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #F8FAFC
+  - FRAME "Content", 448x28px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Usage", 448x28px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 20 - ms-fontSize-20 FontSizes.size20]
+
+Screen: Accordion / light.a
+- SECTION "light.a", 640x576px, fill #F8FAFC, stroke #0000001A 1px
+  - INSTANCE "Basic", 480x416px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #64748B 1px
+    - INSTANCE ".Components", 480x224px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+      - FRAME "Frame 71386", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+        - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+          - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+            - INSTANCE "ExpandLessFilled", 24x24px, constraints left/top
+      - FRAME "Frame 71387", 480x152px, vertical pad 0 24 24 24px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Subtitle", 432x20px, constraints left/top, fill #0F172A, text [SegoeUI Semibold/14 - ms-fontSize-14 FontSizes.size14]
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Int", 432x100px, constraints left/top, fill #334155, text [SegoeUI Regular/14 - ms-fontSize-14 FontSizes.size14]
+    - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+      - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+        - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+          - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+            - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+    - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+      - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+        - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+          - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+            - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+    - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+      - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+        - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+          - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+            - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+
+Screen: Accordion / Usage - light.a
+- SECTION "Usage - light.a", 1728x576px, fill #F8FAFC, stroke #0000001A 1px
+  - INSTANCE "Basic", 480x256px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 8px, stroke #64748B 1px
+    - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+      - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+        - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+          - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+            - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+    - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+      - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+        - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+          - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+            - VECTOR "Vector", 12x7.41px, constraints scale/scale, fill #0F172A
+    - INSTANCE ".Components", 480x64px, horizontal pad 8 8 8 24px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #64748B 1px
+      - TEXT "Title", 392x22px, constraints left/top, fill #0F172A, text [SegoeUI Semibold / 16 - ms-fontSize-16 FontSizes.size16]
+      - INSTANCE "Icon/Secondary", 48x48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px
+        - FRAME "Container", 48x48px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints scale/scale, radius 48px
+          - INSTANCE "ExpandMoreFilled", 24x24px, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

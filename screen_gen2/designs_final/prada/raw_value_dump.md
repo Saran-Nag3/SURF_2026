@@ -1,0 +1,1147 @@
+---
+name: prada-ecommerce-website-and-mobile-app-community
+source_file: Prada-Ecommerce website and mobile app (Community)
+source_page: All pages (3): Mobile application, thumbnail, Website
+generated_at: 2026-07-25T09:33:45.824031+00:00
+---
+
+# Prada-Ecommerce website and mobile app (Community) Design Guidelines
+
+## Source
+- Figma file: Prada-Ecommerce website and mobile app (Community)
+- Figma page: All pages (3): Mobile application, thumbnail, Website
+- Extracted at: 2026-07-25T09:33:45.824031+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Neutral/Light: none
+- Neutral/Grey: [#9098B1]
+- Background/White: [#FFFFFF]
+- Primary/Red: [#FB7181]
+
+## Raw Colors (unstyled)
+- #272727: 1843 uses
+- #FFFFFF: 1234 uses
+- #848484: 819 uses
+- #002482: 375 uses
+- #000000: 334 uses
+- #C4C4C4: 292 uses
+- #0A8200: 132 uses
+- #223263: 67 uses
+- #EAEAEA: 60 uses
+- #EBF0FF: 60 uses
+- #0EB000: 56 uses
+- #9098B1: 47 uses
+- #F2C94C: 44 uses
+- #F0F0F0: 38 uses
+- #444E66: 30 uses
+
+## Typography Tokens
+- Button Text: Poppins Bold (700), 14px / 120%, tracking 0.5px
+- form text/normal: Poppins Regular (400), 12px / 120%, tracking 0.5px
+
+## Raw Typography (unstyled)
+- Libre Baskerville Regular, 18px: 1000 uses
+- SF Pro Display Regular, 14px: 493 uses
+- Libre Baskerville Bold, 24px: 376 uses
+- SF Pro Display Regular, 12px: 234 uses
+- Libre Baskerville Bold, 18px: 145 uses
+- Playfair Display Regular, 18px: 101 uses
+- SF Pro Display Medium, 20px: 79 uses
+- SF Pro Display Medium, 18px: 78 uses
+- Libre Baskerville Bold, 36px: 63 uses
+- SF Pro Display Regular, 18px: 56 uses
+- SF Pro Display Medium, 14px: 55 uses
+- SF Pro Display Bold, 14px: 53 uses
+- Libre Baskerville Regular, 24px: 50 uses
+- SF Pro Display Regular, 20px: 39 uses
+- SF Pro Display Bold, 18px: 28 uses
+- Playfair Display Bold, 24px: 26 uses
+- Libre Baskerville Bold, 48px: 23 uses
+- Poppins Regular, 18px: 23 uses
+- SF Pro Display Bold, 12px: 22 uses
+- SF Pro Display Bold, 36px: 22 uses
+
+## Typography Hierarchy
+- 48px - Libre Baskerville Bold, 48px (raw)
+- 36px - Libre Baskerville Bold, 36px (raw)
+- 36px - SF Pro Display Bold, 36px (raw)
+- 24px - Libre Baskerville Bold, 24px (raw)
+- 24px - Libre Baskerville Regular, 24px (raw)
+- 24px - Playfair Display Bold, 24px (raw)
+- 20px - SF Pro Display Medium, 20px (raw)
+- 20px - SF Pro Display Regular, 20px (raw)
+- 18px - Libre Baskerville Bold, 18px (raw)
+- 18px - Libre Baskerville Regular, 18px (raw)
+- 18px - Playfair Display Regular, 18px (raw)
+- 18px - Poppins Regular, 18px (raw)
+- 18px - SF Pro Display Bold, 18px (raw)
+- 18px - SF Pro Display Medium, 18px (raw)
+- 18px - SF Pro Display Regular, 18px (raw)
+- 14px - Button Text (Poppins Bold)
+- 14px - SF Pro Display Bold, 14px (raw)
+- 14px - SF Pro Display Medium, 14px (raw)
+- 14px - SF Pro Display Regular, 14px (raw)
+- 12px - SF Pro Display Bold, 12px (raw)
+- 12px - SF Pro Display Regular, 12px (raw)
+- 12px - form text/normal (Poppins Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Button Shadow: [drop_shadow 30px offset 0 10 #40BFFF3D]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Frame 266
+- Frame 265
+- Frame 256
+- Frame 254
+- Card Component
+- Frame 259
+- Frame 251
+- Deals of the day
+- Frame 132
+- Frame 138
+- Frame 125
+- Frame 98
+
+## Component Specs
+- Frame 266: size 414x38px, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+- Frame 265: size 414x65px, fill #FFFFFF
+- Frame 256: size 414x65px, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+- Frame 254: size 374x599px, fill #FFFFFF, text [SF Pro Display Regular, 14px, SF Pro Display Regular, 20px, SF Pro Display Medium, 20px]
+- Card Component: size 184x317.82px, radius 10px, fill #FFFFFF, text [SF Pro Display Regular, 12px, SF Pro Display Regular, 14px, SF Pro Display Medium, 14px]
+- Frame 259: size 216x294px, radius 10px, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+- Frame 251: size 373x366px, fill #FFFFFF, text [SF Pro Display Regular, 14px, SF Pro Display Bold, 36px, SF Pro Display Regular, 20px, SF Pro Display Regular, 18px, SF Pro Display Medium, 20px]
+- Deals of the day: size 179x251px, radius 10px, fill #FFFFFF, text [SF Pro Display Medium, 20px, SF Pro Display Regular, 14px]
+- Frame 132: size 469x747px, radius 10px, fill #FFFFFF, text [Libre Baskerville Bold, 36px, Libre Baskerville Bold, 24px]
+- Frame 138: size 172x48px, radius 10px, stroke #000000 2px, text [SF Pro Display Regular, 18px]
+- Frame 125: size 321x455px, radius 10px, fill #FFFFFF, text [SF Pro Display Regular, 18px, SF Pro Display Bold, 24px, SF Pro Display Bold, 18px, SF Pro Display Medium, 24px]
+- Frame 98: size 168x48px, radius 10px, fill #002482, stroke #004E49 1px, text [Libre Baskerville Regular, 18px]
+
+## Most-Used Styles
+- Neutral/Grey: 27 uses
+- Neutral/Light: 18 uses
+- Button Shadow: 9 uses
+- Background/White: 6 uses
+- Button Text: 5 uses
+- Primary/Red: 5 uses
+
+## Layout & Structure
+Screen: Mobile application / Home Page
+- FRAME "Home Page", 414x2670px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 47758", 419x89px, constraints left/top
+    - GROUP "Group 47751", 62x89px, constraints left/top
+      - TEXT "Men", 27x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 63", 62x62px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 47752", 62x89px, constraints left/top
+      - TEXT "Women", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 64", 62x62px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 47753", 62x89px, constraints left/top
+      - TEXT "Kids", 26x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 65", 62x62px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 47754", 81x89px, constraints left/top
+      - TEXT "Western wear", 81x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 66", 62x62px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 47755", 64x89px, constraints left/top
+      - TEXT "Categories", 64x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 62", 62x62px, constraints left/top, fill #E2EAFF
+      - VECTOR "Vector", 25x25px, constraints scale/scale, fill #002482
+  - GROUP "Group 47759", 414x344.67px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 401", 414x344.67px, constraints left/top, fill #272727
+    - INSTANCE "Explore CTA", 118x34px, constraints left/top, radius 10px, stroke #FFFFFF 2px
+      - TEXT "Explore", 56x21px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 18px]
+    - FRAME "Forever 21 Logo", 175x29px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 175x29px, constraints scale/scale
+        - GROUP "Group", 175x29px, constraints scale/scale
+          - VECTOR "Vector", 175x29px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Big Fashion Festival", 215x29px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 24px], [heading]
+    - TEXT "70% - 80% Off", 160x29px, constraints left/top, fill #FFFFFF, text [Libre Baskerville Bold, 24px], [heading]
+  - INSTANCE "Frame 127", 414x49px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 61", 35x35px, constraints left/top, fill #C4C4C4
+    - TEXT "Anna Doe", 95x22px, constraints left/top, fill #272727, text [Libre Baskerville Bold, 18px]
+    - FRAME "cil:search", 22x22px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20.63x20.6px, constraints scale/scale, fill #272727
+  - INSTANCE "Frame 127", 414x28px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47738", 45x20px, constraints left/top
+      - GROUP "Group 47740", 45x20px, constraints left/top
+        - FRAME "bi:wifi-2", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 13.44x9.82px, constraints scale/scale
+            - VECTOR "Vector", 13.44x9.82px, constraints scale/scale, fill #272727
+        - FRAME "bi:battery", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 20x10px, constraints scale/scale
+            - VECTOR "Vector", 20x10px, constraints scale/scale, fill #272727
+    - TEXT "10:34 AM", 58x15px, constraints left/top, fill #272727, text [Libre Baskerville Regular, 12px]
+  - GROUP "Group 47920", 444x336.33px, constraints left/top, radius 10px
+    - INSTANCE "Frame 259", 216x294px, constraints left/top, radius 10px, fill #FFFFFF
+      - GROUP "Group 47919", 216x288px, constraints left/top, radius 0/0/0/0px
+        - FRAME "H&M Logo undefined", 35x23px, constraints left/top, fill image(hash: de8fcc4460538ceea4382b95edd170f2ac631acf)
+          - GROUP "layer1", 35x23px, constraints scale/scale
+            - GROUP "g45263", 35x23px, constraints scale/scale
+        - TEXT "Min 30% Off", 108x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+        - RECTANGLE "Rectangle 402", 216x227px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+    - INSTANCE "Frame 260", 216x294px, constraints left/top, radius 10px, fill #FFFFFF
+      - GROUP "Group 47919", 216x288px, constraints left/top, radius 0/0/0/0px
+        - FRAME "H&M Logo undefined", 35x23px, constraints left/top, fill image(hash: de8fcc4460538ceea4382b95edd170f2ac631acf)
+          - GROUP "layer1", 35x23px, constraints scale/scale
+            - GROUP "g45263", 35x23px, constraints scale/scale
+        - TEXT "Min 30% Off", 108x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+        - RECTANGLE "Rectangle 402", 216x227px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+    - TEXT "Trending Offers", 134x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+  - GROUP "Group 47761", 376x559px, constraints left/top, radius 10px
+    - TEXT "Deals Of The Day", 154x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+    - INSTANCE "Deals of the day", 179x251px, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "Rectangle 403", 179x194px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+      - TEXT "Tops", 28x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "Under Rs. 799", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+    - INSTANCE "Frame 263", 179x251px, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "Rectangle 403", 179x194px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+      - TEXT "Tops", 28x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "Under Rs. 799", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+    - INSTANCE "Frame 262", 179x251px, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "Rectangle 403", 179x194px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+      - TEXT "Tops", 28x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "Under Rs. 799", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+    - INSTANCE "Frame 264", 179x251px, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "Rectangle 403", 179x194px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+      - TEXT "Tops", 28x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "Under Rs. 799", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+  - GROUP "Group 47762", 124x24px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Our Collection", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+  - GROUP "Group 47902", 101x3px, constraints left/top, radius 3px [decorative, ~5 shapes]
+  - INSTANCE "Frame 251", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 252", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 253", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 152", 414x48px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 72", 35x35px, constraints left/top, fill #C4C4C4
+    - TEXT "Anna Doe", 85x24px, constraints left/top, fill #000000, text [SF Pro Display Medium, 20px]
+    - FRAME "cil:search", 22x22px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20.63x20.6px, constraints scale/scale, fill #272727
+  - INSTANCE "Frame 265", 414x65px, constraints left/top, fill #FFFFFF
+    - FRAME "fluent:home-32-filled", 32x32px, constraints left/top, fill #002482
+      - GROUP "Group", 24x25.14px, constraints scale/scale
+        - VECTOR "Vector", 24x25.14px, constraints scale/scale, fill #002482
+    - FRAME "cil:search", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 30x29.96px, constraints scale/scale, fill #848484
+    - FRAME "bi:bag", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 28x32px, constraints scale/scale
+        - VECTOR "Vector", 28x32px, constraints scale/scale, fill #848484
+    - FRAME "ant-design:user-outlined", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 23.5x24.88px, constraints scale/scale, fill #848484
+    - FRAME "bytesize:heart", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 27.73x24.55px, constraints scale/scale
+        - VECTOR "Vector", 27.73x24.55px, constraints scale/scale, stroke #848484 2px
+  - INSTANCE "Frame 266", 414x38px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47921", 373x24px, constraints left/top
+      - TEXT "10 : 34 AM", 65x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+      - FRAME "ant-design:wifi-outlined", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.99x15.47px, constraints scale/scale, fill #000000
+      - FRAME "bi:battery", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x12px, constraints scale/scale
+          - VECTOR "Vector", 24x12px, constraints scale/scale, fill #000000
+
+Screen: Mobile application / Home Page
+- FRAME "Home Page", 414x2670px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 47758", 419x89px, constraints left/top
+    - GROUP "Group 47751", 62x89px, constraints left/top
+      - TEXT "Men", 27x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 63", 62x62px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 47752", 62x89px, constraints left/top
+      - TEXT "Women", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 64", 62x62px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 47753", 62x89px, constraints left/top
+      - TEXT "Kids", 26x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 65", 62x62px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 47754", 81x89px, constraints left/top
+      - TEXT "Western wear", 81x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 66", 62x62px, constraints left/top, fill #C4C4C4
+    - GROUP "Group 47755", 64x89px, constraints left/top
+      - TEXT "Categories", 64x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - ELLIPSE "Ellipse 62", 62x62px, constraints left/top, fill #E2EAFF
+      - VECTOR "Vector", 25x25px, constraints scale/scale, fill #002482
+  - GROUP "Group 47759", 414x344.67px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 401", 414x344.67px, constraints left/top, fill #272727
+    - INSTANCE "Explore CTA", 118x34px, constraints left/top, radius 10px, stroke #FFFFFF 2px
+      - TEXT "Explore", 56x21px, constraints scale/scale, fill #FFFFFF, text [SF Pro Display Regular, 18px]
+    - FRAME "Forever 21 Logo", 175x29px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 175x29px, constraints scale/scale
+        - GROUP "Group", 175x29px, constraints scale/scale
+          - VECTOR "Vector", 175x29px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Big Fashion Festival", 215x29px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 24px], [heading]
+    - TEXT "70% - 80% Off", 160x29px, constraints left/top, fill #FFFFFF, text [Libre Baskerville Bold, 24px], [heading]
+  - INSTANCE "Frame 127", 414x49px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 61", 35x35px, constraints left/top, fill #C4C4C4
+    - TEXT "Anna Doe", 95x22px, constraints left/top, fill #272727, text [Libre Baskerville Bold, 18px]
+    - FRAME "cil:search", 22x22px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20.63x20.6px, constraints scale/scale, fill #272727
+  - INSTANCE "Frame 127", 414x28px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47738", 45x20px, constraints left/top
+      - GROUP "Group 47740", 45x20px, constraints left/top
+        - FRAME "bi:wifi-2", 14x14px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 13.44x9.82px, constraints scale/scale
+            - VECTOR "Vector", 13.44x9.82px, constraints scale/scale, fill #272727
+        - FRAME "bi:battery", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 20x10px, constraints scale/scale
+            - VECTOR "Vector", 20x10px, constraints scale/scale, fill #272727
+    - TEXT "10:34 AM", 58x15px, constraints left/top, fill #272727, text [Libre Baskerville Regular, 12px]
+  - GROUP "Group 47920", 444x336.33px, constraints left/top, radius 10px
+    - INSTANCE "Frame 259", 216x294px, constraints left/top, radius 10px, fill #FFFFFF
+      - GROUP "Group 47919", 216x288px, constraints left/top, radius 0/0/0/0px
+        - FRAME "H&M Logo undefined", 35x23px, constraints left/top, fill image(hash: de8fcc4460538ceea4382b95edd170f2ac631acf)
+          - GROUP "layer1", 35x23px, constraints scale/scale
+            - GROUP "g45263", 35x23px, constraints scale/scale
+        - TEXT "Min 30% Off", 108x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+        - RECTANGLE "Rectangle 402", 216x227px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+    - INSTANCE "Frame 260", 216x294px, constraints left/top, radius 10px, fill #FFFFFF
+      - GROUP "Group 47919", 216x288px, constraints left/top, radius 0/0/0/0px
+        - FRAME "H&M Logo undefined", 35x23px, constraints left/top, fill image(hash: de8fcc4460538ceea4382b95edd170f2ac631acf)
+          - GROUP "layer1", 35x23px, constraints scale/scale
+            - GROUP "g45263", 35x23px, constraints scale/scale
+        - TEXT "Min 30% Off", 108x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+        - RECTANGLE "Rectangle 402", 216x227px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+    - TEXT "Trending Offers", 134x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+  - GROUP "Group 47761", 376x559px, constraints left/top, radius 10px
+    - TEXT "Deals Of The Day", 154x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+    - INSTANCE "Deals of the day", 179x251px, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "Rectangle 403", 179x194px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+      - TEXT "Tops", 28x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "Under Rs. 799", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+    - INSTANCE "Frame 263", 179x251px, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "Rectangle 403", 179x194px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+      - TEXT "Tops", 28x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "Under Rs. 799", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+    - INSTANCE "Frame 262", 179x251px, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "Rectangle 403", 179x194px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+      - TEXT "Tops", 28x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "Under Rs. 799", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+    - INSTANCE "Frame 264", 179x251px, constraints left/top, radius 10px, fill #FFFFFF
+      - RECTANGLE "Rectangle 403", 179x194px, constraints left/top, radius 10/10/0/0px, fill #C4C4C4
+      - TEXT "Tops", 28x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "Under Rs. 799", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+  - GROUP "Group 47762", 124x24px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Our Collection", 124x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+  - INSTANCE "Frame 152", 414x48px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse 72", 35x35px, constraints left/top, fill #C4C4C4
+    - TEXT "Anna Doe", 85x24px, constraints left/top, fill #000000, text [SF Pro Display Medium, 20px]
+    - FRAME "cil:search", 22x22px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20.63x20.6px, constraints scale/scale, fill #272727
+  - GROUP "Group 47902", 101x3px, constraints left/top, radius 3px [decorative, ~5 shapes]
+  - INSTANCE "Frame 251", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+  - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+    - GROUP "Group 47905", 104x17px, constraints left/top
+      - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+      - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 14.88x17px, constraints scale/scale
+          - VECTOR "Vector", 14.88x17px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "Frame 252", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+  - INSTANCE "Frame 253", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 265", 414x65px, constraints left/top, fill #FFFFFF
+    - FRAME "fluent:home-32-filled", 32x32px, constraints left/top, fill #002482
+      - GROUP "Group", 24x25.14px, constraints scale/scale
+        - VECTOR "Vector", 24x25.14px, constraints scale/scale, fill #002482
+    - FRAME "cil:search", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 30x29.96px, constraints scale/scale, fill #848484
+    - FRAME "bi:bag", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 28x32px, constraints scale/scale
+        - VECTOR "Vector", 28x32px, constraints scale/scale, fill #848484
+    - FRAME "ant-design:user-outlined", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 23.5x24.88px, constraints scale/scale, fill #848484
+    - FRAME "bytesize:heart", 32x32px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 27.73x24.55px, constraints scale/scale
+        - VECTOR "Vector", 27.73x24.55px, constraints scale/scale, stroke #848484 2px
+  - INSTANCE "Frame 266", 414x38px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47921", 373x24px, constraints left/top
+      - TEXT "10 : 34 AM", 65x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+      - FRAME "ant-design:wifi-outlined", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.99x15.47px, constraints scale/scale, fill #000000
+      - FRAME "bi:battery", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x12px, constraints scale/scale
+          - VECTOR "Vector", 24x12px, constraints scale/scale, fill #000000
+  - FRAME "bytesize:heart", 26x26px, constraints left/top, fill #FFFFFF
+    - GROUP "Group", 22.53x19.94px, constraints scale/scale
+      - VECTOR "Vector", 22.53x19.94px, constraints scale/scale, stroke #272727 1px
+  - FRAME "Frame 267", 140x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+    - GROUP "Group 47905", 93x17px, constraints left/top
+      - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+      - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 14.88x17px, constraints scale/scale
+          - VECTOR "Vector", 14.88x17px, constraints scale/scale, fill #FFFFFF
+  - FRAME "bytesize:heart", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "Group", 20.8x18.41px, constraints scale/scale
+      - VECTOR "Vector", 20.8x18.41px, constraints scale/scale, stroke #272727 1px
+
+Screen: Mobile application / Product page 1
+- FRAME "Product page 1", 414x1244px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 47815", 62x17px, constraints left/top
+    - TEXT "Sort By", 43x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+    - FRAME "chevron-down", 17x17px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 8.5x4.25px, constraints scale/scale, stroke #272727 2px
+  - TEXT "Filters", 36x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+  - FRAME "filter", 17x17px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 14.17x12.75px, constraints scale/scale, stroke #272727 1px
+  - INSTANCE "Frame 251", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 252", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 253", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 266", 414x38px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47921", 373x24px, constraints left/top
+      - TEXT "10 : 34 AM", 65x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+      - FRAME "ant-design:wifi-outlined", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.99x15.47px, constraints scale/scale, fill #000000
+      - FRAME "bi:battery", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x12px, constraints scale/scale
+          - VECTOR "Vector", 24x12px, constraints scale/scale, fill #000000
+  - INSTANCE "Frame 161", 414x65px, constraints left/top, fill #FFFFFF
+    - FRAME "arrow-left", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.67x0px, constraints scale/scale, stroke #000000 2px
+      - VECTOR "Vector", 9.33x18.67px, constraints scale/scale, stroke #000000 2px
+    - TEXT "Tops", 42x24px, constraints left/top, fill #000000, text [SF Pro Display Medium, 20px]
+    - GROUP "Group 47763", 112x24px, constraints left/top
+      - FRAME "cil:search", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 22.5x22.47px, constraints scale/scale, fill #272727
+      - FRAME "bi:bag", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 21x24px, constraints scale/scale
+          - VECTOR "Vector", 21x24px, constraints scale/scale, fill #272727
+      - FRAME "bytesize:heart", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20.8x18.41px, constraints scale/scale
+          - VECTOR "Vector", 20.8x18.41px, constraints scale/scale, stroke #272727 2px
+
+Screen: Mobile application / Product page 3
+- FRAME "Product page 3", 414x896px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 47815", 62x17px, constraints left/top
+    - TEXT "Sort By", 43x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+    - FRAME "chevron-down", 17x17px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 8.5x4.25px, constraints scale/scale, stroke #272727 2px
+  - TEXT "Filters", 36x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+  - FRAME "filter", 17x17px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 14.17x12.75px, constraints scale/scale, stroke #272727 1px
+  - INSTANCE "Frame 251", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 252", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 253", 373x366px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47903", 373x366px, constraints left/top, radius 10px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+      - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+      - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 404", 226x216px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 405", 137x103px, constraints left/top, radius 10px, fill #272727
+      - RECTANGLE "Rectangle 406", 137x103px, constraints left/top, radius 10px, fill #272727
+      - TEXT "+ 2", 53x43px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 36px], [heading]
+      - FRAME "Frame 141", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47904", 86x17px, constraints left/top
+          - TEXT "Wishlist", 47x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - FRAME "bytesize:heart", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.73x13.04px, constraints scale/scale
+      - FRAME "Frame 142", 180x38px, constraints left/top, radius 10px, fill #002482, stroke #002482 1px
+        - GROUP "Group 47905", 104x17px, constraints left/top
+          - TEXT "Add to Bag", 65x17px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 14px]
+          - FRAME "bi:bag", 17x17px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 14.88x17px, constraints scale/scale
+  - INSTANCE "Frame 266", 414x38px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47921", 373x24px, constraints left/top
+      - TEXT "10 : 34 AM", 65x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+      - FRAME "ant-design:wifi-outlined", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.99x15.47px, constraints scale/scale, fill #000000
+      - FRAME "bi:battery", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x12px, constraints scale/scale
+          - VECTOR "Vector", 24x12px, constraints scale/scale, fill #000000
+  - INSTANCE "Frame 161", 414x65px, constraints left/top, fill #FFFFFF
+    - FRAME "arrow-left", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.67x0px, constraints scale/scale, stroke #000000 2px
+      - VECTOR "Vector", 9.33x18.67px, constraints scale/scale, stroke #000000 2px
+    - TEXT "Tops", 42x24px, constraints left/top, fill #000000, text [SF Pro Display Medium, 20px]
+    - GROUP "Group 47763", 112x24px, constraints left/top
+      - FRAME "cil:search", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 22.5x22.47px, constraints scale/scale, fill #272727
+      - FRAME "bi:bag", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 21x24px, constraints scale/scale
+          - VECTOR "Vector", 21x24px, constraints scale/scale, fill #272727
+      - FRAME "bytesize:heart", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20.8x18.41px, constraints scale/scale
+          - VECTOR "Vector", 20.8x18.41px, constraints scale/scale, stroke #272727 2px
+
+Screen: Mobile application / Product page 2 (2 products)
+- FRAME "Product page 2 (2 products)", 414x896px, constraints left/top, fill #FFFFFF
+  - TEXT "Sort By", 43x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+  - FRAME "chevron-down", 17x17px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 8.5x4.25px, constraints scale/scale, stroke #272727 2px
+  - TEXT "Filters", 36x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+  - FRAME "filter", 17x17px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 14.17x12.75px, constraints scale/scale, stroke #272727 1px
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - GROUP "Group 47906", 49x24px, constraints left/top [decorative, ~4 shapes]
+  - INSTANCE "Frame 266", 414x38px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47921", 373x24px, constraints left/top
+      - TEXT "10 : 34 AM", 65x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+      - FRAME "ant-design:wifi-outlined", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.99x15.47px, constraints scale/scale, fill #000000
+      - FRAME "bi:battery", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x12px, constraints scale/scale
+          - VECTOR "Vector", 24x12px, constraints scale/scale, fill #000000
+  - INSTANCE "Frame 161", 414x65px, constraints left/top, fill #FFFFFF
+    - FRAME "arrow-left", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.67x0px, constraints scale/scale, stroke #000000 2px
+      - VECTOR "Vector", 9.33x18.67px, constraints scale/scale, stroke #000000 2px
+    - TEXT "Tops", 42x24px, constraints left/top, fill #000000, text [SF Pro Display Medium, 20px]
+    - GROUP "Group 47763", 112x24px, constraints left/top
+      - FRAME "cil:search", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 22.5x22.47px, constraints scale/scale, fill #272727
+      - FRAME "bi:bag", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 21x24px, constraints scale/scale
+          - VECTOR "Vector", 21x24px, constraints scale/scale, fill #272727
+      - FRAME "bytesize:heart", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20.8x18.41px, constraints scale/scale
+          - VECTOR "Vector", 20.8x18.41px, constraints scale/scale, stroke #272727 2px
+
+Screen: Mobile application / Product page 2 (2 products)
+- FRAME "Product page 2 (2 products)", 414x2762px, constraints left/top, fill #FFFFFF
+  - TEXT "Sort By", 43x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+  - FRAME "chevron-down", 17x17px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 8.5x4.25px, constraints scale/scale, stroke #272727 2px
+  - TEXT "Filters", 36x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+  - FRAME "filter", 17x17px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 14.17x12.75px, constraints scale/scale, stroke #272727 1px
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - GROUP "Group 47906", 49x24px, constraints left/top [decorative, ~4 shapes]
+  - FRAME "Product open 3", 414x2808px, constraints left/top, radius 10/10/0/0px, fill #FFFFFF
+    - GROUP "Group 47877", 375x2055px, constraints left/top, radius 0/0/0/0px
+      - LINE "Line 70", 373x0px, constraints left/top, stroke #C1C1C1 1px
+      - GROUP "Group 47796", 356x21px, constraints left/top
+        - TEXT "Product Details", 119x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+        - FRAME "chevron-down", 21x21px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 10.5x5.25px, constraints scale/scale, stroke #848484 2px
+      - LINE "Line 66", 373x0px, constraints left/top, stroke #EAEAEA 1px
+      - TEXT "Reflective design details Fabric: Body: 100% recycled polyes", 354x153px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+      - LINE "Line 67", 373x0px, constraints left/top, stroke #EAEAEA 1px
+      - LINE "Line 68", 373x0px, constraints left/top, stroke #EAEAEA 1px
+      - LINE "Line 69", 373x0px, constraints left/top, stroke #EAEAEA 1px
+      - GROUP "Group 47797", 356x21px, constraints left/top
+        - TEXT "Specification", 102x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+        - FRAME "chevron-down", 21x21px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 10.5x5.25px, constraints scale/scale, stroke #848484 2px
+      - GROUP "Group 47801", 356x21px, constraints left/top
+        - TEXT "Ratings & Reviews", 144x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+        - FRAME "chevron-down", 21x21px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 10.5x5.25px, constraints scale/scale, stroke #848484 2px
+      - GROUP "Group 47807", 356x21px, constraints left/top
+        - TEXT "How this was made", 151x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+        - FRAME "chevron-down", 21x21px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 10.5x5.25px, constraints scale/scale, stroke #848484 2px
+      - GROUP "Group 47808", 356x21px, constraints left/top
+        - TEXT "Manufacturing Information", 206x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+        - FRAME "chevron-down", 21x21px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 10.5x5.25px, constraints scale/scale, stroke #848484 2px
+      - GROUP "Group 47800", 373x268px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 47799", 158x268px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Sleeve Length", 84x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Print or Pattern Type", 118x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Length", 42x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Lining Fabric", 75x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Hemline", 49x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Long Sleeves", 79x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "Washed", 49x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "Regular", 45x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "Unlined", 46x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "Straight", 47x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - LINE "Line 3", 158x0px, constraints left/top, stroke #EAEAEA 1px
+          - LINE "Line 5", 158x0px, constraints left/top, stroke #EAEAEA 1px
+          - LINE "Line 7", 158x0px, constraints left/top, stroke #EAEAEA 1px
+          - LINE "Line 9", 158x0px, constraints left/top, stroke #EAEAEA 1px
+          - LINE "Line 11", 158x0px, constraints left/top, stroke #EAEAEA 1px
+        - GROUP "Group 47798", 158x268px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Type", 29x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Collor", 35x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Closure", 45x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Number of Pockets", 112x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Occasion", 56x17px, constraints scale/scale, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Denim Jacket", 80x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "Spread collor", 77x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "Button", 39x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "4", 9x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "Casual", 41x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - LINE "Line 4", 158x0px, constraints left/top, stroke #EAEAEA 1px
+          - LINE "Line 6", 158x0px, constraints left/top, stroke #EAEAEA 1px
+          - LINE "Line 8", 158x0px, constraints left/top, stroke #EAEAEA 1px
+          - LINE "Line 10", 158x0px, constraints left/top, stroke #EAEAEA 1px
+          - LINE "Line 12", 158x0px, constraints left/top, stroke #EAEAEA 1px
+      - GROUP "Group 47806", 374x543px, constraints left/top, radius 0/0/0/0px
+        - TEXT "35 Verified Buyers", 107x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+        - GROUP "Group 47802", 240x33px, constraints left/top
+          - TEXT "4.4", 43x33px, constraints left/top, fill #272727, text [SF Pro Display Medium, 28px], [heading]
+          - FRAME "star", 33x33px, constraints left/top, fill #002482
+            - VECTOR "Vector", 27.5x26.15px, constraints scale/scale, fill #272727
+          - FRAME "star", 33x33px, constraints left/top, fill #002482
+            - VECTOR "Vector", 27.5x26.15px, constraints scale/scale, fill #272727
+          - FRAME "star", 33x33px, constraints left/top, fill #002482
+            - VECTOR "Vector", 27.5x26.15px, constraints scale/scale, fill #272727
+          - FRAME "star", 33x33px, constraints left/top, fill #002482
+            - VECTOR "Vector", 27.5x26.15px, constraints scale/scale, fill #272727
+          - FRAME "star", 33x33px, constraints left/top, fill #002482
+            - VECTOR "Vector", 27.5x26.15px, constraints scale/scale, fill #272727, stroke #000000 1px
+        - GROUP "Group 47804", 374x211px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Runs small", 91x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+          - TEXT "Anna Doe", 58x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Read More", 64x17px, constraints left/top, fill #002482, text [SF Pro Display Regular, 14px]
+          - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sus", 372x52px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "20 September 2021", 118x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+          - GROUP "Group 47803", 126x17px, constraints left/top
+            - TEXT "2.3", 20x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 408", 95x91px, constraints left/top, radius 10px, fill #272727
+          - RECTANGLE "Rectangle 409", 95x91px, constraints left/top, radius 10px, fill #272727
+          - RECTANGLE "Rectangle 410", 95x91px, constraints left/top, radius 10px, fill #272727
+          - TEXT "+ 5", 40x33px, constraints left/top, fill #FFFFFF, text [SF Pro Display Regular, 28px], [heading]
+        - GROUP "Group 47805", 374x211px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Runs small", 91x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+          - TEXT "Anna Doe", 58x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Read More", 64x17px, constraints left/top, fill #002482, text [SF Pro Display Regular, 14px]
+          - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sus", 372x52px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "20 September 2021", 118x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+          - GROUP "Group 47803", 126x17px, constraints left/top
+            - TEXT "2.3", 20x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+            - FRAME "star", 17x17px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 408", 95x91px, constraints left/top, radius 10px, fill #272727
+          - RECTANGLE "Rectangle 409", 95x91px, constraints left/top, radius 10px, fill #272727
+        - TEXT "View More", 62x17px, constraints left/top, fill #002482, text [SF Pro Display Regular, 14px]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur", 373x156px, constraints scale/scale, fill #272727, text [Libre Baskerville Regular, 14px]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur", 373x156px, constraints scale/scale, fill #272727, text [Libre Baskerville Regular, 14px]
+      - GROUP "Group 47776", 196x81px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+        - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+        - GROUP "Group 47757", 196x24px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+          - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+          - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+      - GROUP "Group 47777", 278x87px, constraints left/top
+        - TEXT "Color", 42x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+        - TEXT "White", 30x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - INSTANCE "Group 47766", 42x42px, constraints left/top
+          - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #FFCFB5
+        - INSTANCE "Group 47767", 42x42px, constraints left/top
+          - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #96F9FF
+        - INSTANCE "Group 47768", 42x42px, constraints left/top
+          - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #FEC8FF
+        - INSTANCE "Group 47769", 42x42px, constraints left/top
+          - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, stroke #C1C1C1 1px, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #F5F5F5
+        - INSTANCE "Group 47770", 42x42px, constraints left/top
+          - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #FEFFC1
+      - GROUP "Group 47784", 374x70px, constraints left/top
+        - TEXT "Select Size", 86x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+        - TEXT "Select Size", 86x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+        - TEXT "Size Chart", 52x14px, constraints left/top, fill #002482, text [SF Pro Display Regular, 12px]
+        - TEXT "Size Chart", 52x14px, constraints left/top, fill #002482, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47771", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 0 #0000000D]
+          - TEXT "XS", 15x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47778", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - TEXT "XS", 15x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47772", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - TEXT "S", 8x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47779", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 0 #0000000D]
+          - TEXT "S", 8x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47773", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - TEXT "M", 10x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47780", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 0 #0000000D]
+          - TEXT "M", 10x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47774", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - TEXT "L", 7x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47781", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 0 #0000000D]
+          - TEXT "L", 7x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47775", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+          - TEXT "XL", 14x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+        - GROUP "Group 47782", 42x42px, constraints left/top
+          - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 0 #0000000D]
+          - TEXT "XL", 14x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - TEXT "Delivery Details", 120x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+      - GROUP "Group 47785", 231x17px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Enter Pincode", 82x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+        - TEXT "Check", 39x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - RECTANGLE "Rectangle 409", 276x46px, constraints left/top, radius 10px, fill #C4C4C4, stroke #848484 1px
+      - GROUP "Group 47790", 314x93px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Best Offers", 88x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+        - GROUP "Group 47787", 180x17px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Special offer get 25% off", 143x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "T&C", 27x17px, constraints scale/scale, fill #002482, text [SF Pro Display Regular, 14px]
+        - GROUP "Group 47789", 180x17px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Special offer get 25% off", 143x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "T&C", 27x17px, constraints scale/scale, fill #002482, text [SF Pro Display Regular, 14px]
+        - GROUP "Group 47788", 313x17px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Bank offer get 30% off on Axis Bank Credit card", 276x17px, constraints scale/scale, fill #272727, text [SF Pro Display Regular, 14px]
+          - TEXT "T&C", 27x17px, constraints scale/scale, fill #002482, text [SF Pro Display Regular, 14px]
+    - RECTANGLE "Rectangle 421", 414x570px, constraints left/top, fill #272727
+    - GROUP "Group 47843", 51x7px, constraints left/top [decorative, ~5 shapes]
+    - FRAME "ant-design:share-alt-outlined", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 16.88x18.38px, constraints scale/scale, fill #000000
+  - INSTANCE "Frame 266", 414x38px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 47921", 373x24px, constraints left/top
+      - TEXT "10 : 34 AM", 65x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+      - FRAME "ant-design:wifi-outlined", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20.99x15.47px, constraints scale/scale, fill #000000
+      - FRAME "bi:battery", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 24x12px, constraints scale/scale
+          - VECTOR "Vector", 24x12px, constraints scale/scale, fill #000000
+  - INSTANCE "Frame 161", 414x65px, constraints left/top, fill #FFFFFF
+    - FRAME "arrow-left", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.67x0px, constraints scale/scale, stroke #000000 2px
+      - VECTOR "Vector", 9.33x18.67px, constraints scale/scale, stroke #000000 2px
+    - TEXT "Tops", 42x24px, constraints left/top, fill #000000, text [SF Pro Display Medium, 20px]
+    - GROUP "Group 47763", 112x24px, constraints left/top
+      - FRAME "cil:search", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 22.5x22.47px, constraints scale/scale, fill #272727
+      - FRAME "bi:bag", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 21x24px, constraints scale/scale
+          - VECTOR "Vector", 21x24px, constraints scale/scale, fill #272727
+      - FRAME "bytesize:heart", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Group", 20.8x18.41px, constraints scale/scale
+          - VECTOR "Vector", 20.8x18.41px, constraints scale/scale, stroke #272727 2px
+
+Screen: Mobile application / Product page 2 (2 products)
+- FRAME "Product page 2 (2 products)", 414x1396px, constraints left/top, fill #FFFFFF
+  - TEXT "Sort By", 43x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+  - FRAME "chevron-down", 17x17px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 8.5x4.25px, constraints scale/scale, stroke #272727 2px
+  - TEXT "Filters", 36x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+  - FRAME "filter", 17x17px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 14.17x12.75px, constraints scale/scale, stroke #272727 1px
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - INSTANCE "Card Component", 184x317.82px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 418", 184x254px, constraints left/top, radius 10px, fill #272727
+    - TEXT "Womens White Shirt", 124x17px, constraints left/top, fill #272727, text [SF Pro Display Medium, 14px]
+    - TEXT "Brand Name", 63x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+    - GROUP "Group 47816", 156x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Rs. 999", 40x14px, constraints left/top, fill #848484, text [SF Pro Display Regular, 12px]
+      - TEXT "Rs. 799", 46x17px, constraints left/top, fill #272727, text [SF Pro Display Regular, 14px]
+      - TEXT "(20% Off)", 50x14px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 12px]
+  - GROUP "Group 47906", 49x24px, constraints left/top [decorative, ~4 shapes]
+  - FRAME "iPhone 11 Pro Max - 21", 414x1293px, constraints left/top, radius 10/10/0/0px, fill #FFFFFF
+    - RECTANGLE "Rectangle 421", 414x570px, constraints left/top, fill #272727
+    - FRAME "chevron-down", 32x32px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 16x8px, constraints scale/scale, stroke #272727 2px
+    - GROUP "Group 47776", 196x81px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Womens White Shirt", 176x24px, constraints left/top, fill #272727, text [SF Pro Display Medium, 20px]
+      - TEXT "Brand Name", 94x21px, constraints left/top, fill #272727, text [SF Pro Display Regular, 18px]
+      - GROUP "Group 47757", 196x24px, constraints left/top, radius 0/0/0/0px
+        - TEXT "Rs. 999", 46x17px, constraints left/top, fill #848484, text [SF Pro Display Regular, 14px]
+        - TEXT "Rs. 799", 65x24px, constraints left/top, fill #272727, text [SF Pro Display Regular, 20px]
+        - TEXT "(20% Off)", 58x17px, constraints left/top, fill #0EB000, text [SF Pro Display Regular, 14px]
+    - GROUP "Group 47777", 278x87px, constraints left/top
+      - TEXT "Color", 42x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+      - TEXT "White", 30x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - INSTANCE "Group 47766", 42x42px, constraints left/top
+        - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #FFCFB5
+      - INSTANCE "Group 47767", 42x42px, constraints left/top
+        - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #96F9FF
+      - INSTANCE "Group 47768", 42x42px, constraints left/top
+        - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #FEC8FF
+      - INSTANCE "Group 47769", 42x42px, constraints left/top
+        - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, stroke #C1C1C1 1px, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #F5F5F5
+      - INSTANCE "Group 47770", 42x42px, constraints left/top
+        - ELLIPSE "Ellipse 73", 42x42px, constraints scale/scale, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - ELLIPSE "Ellipse 74", 28x28px, constraints scale/scale, fill #FEFFC1
+    - GROUP "Group 47784", 374x70px, constraints left/top
+      - TEXT "Select Size", 86x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+      - TEXT "Select Size", 86x21px, constraints left/top, fill #272727, text [SF Pro Display Medium, 18px]
+      - TEXT "Size Chart", 52x14px, constraints left/top, fill #002482, text [SF Pro Display Regular, 12px]
+      - TEXT "Size Chart", 52x14px, constraints left/top, fill #002482, text [SF Pro Display Regular, 12px]
+      - GROUP "Group 47771", 42x42px, constraints left/top
+        - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 0 #0000000D]
+        - TEXT "XS", 15x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - GROUP "Group 47778", 42x42px, constraints left/top
+        - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - TEXT "XS", 15x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - GROUP "Group 47772", 42x42px, constraints left/top
+        - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - TEXT "S", 8x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - GROUP "Group 47779", 42x42px, constraints left/top
+        - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 0 #0000000D]
+        - TEXT "S", 8x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - GROUP "Group 47773", 42x42px, constraints left/top
+        - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - TEXT "M", 10x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - GROUP "Group 47780", 42x42px, constraints left/top
+        - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 0 #0000000D]
+        - TEXT "M", 10x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - GROUP "Group 47774", 42x42px, constraints left/top
+        - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - TEXT "L", 7x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - GROUP "Group 47781", 42x42px, constraints left/top
+        - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 20px offset 0 0 #0000000D]
+        - TEXT "L", 7x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+      - GROUP "Group 47775", 42x42px, constraints left/top
+        - RECTANGLE "Rectangle 408", 42x42px, constraints left/top, fill #FFFFFF, effect [drop_shadow 15px offset 0 0 #0000000D]
+        - TEXT "XL", 14x14px, constraints left/top, fill #272727, text [SF Pro Display Regular, 12px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,1293 @@
+---
+name: procreate-keyboard-wireframe-v-2-community
+source_file: Procreate Keyboard Wireframe V.2 (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:30:08.193225+00:00
+---
+
+# Procreate Keyboard Wireframe V.2 (Community) Design Guidelines
+
+## Source
+- Figma file: Procreate Keyboard Wireframe V.2 (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:30:08.193225+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 2052 uses
+- #00000000: 756 uses
+- #FBFBFB: 428 uses
+- #FBFBFB40: 374 uses
+- #FFBABA40: 208 uses
+- #D8BAFF40: 154 uses
+- #FFFFFF: 78 uses
+- #C4C4C4: 34 uses
+- #000000BD: 30 uses
+- #1B1B1B: 30 uses
+- #FD9F00: 30 uses
+- #AAAAAA: 24 uses
+- #242424: 23 uses
+- #1F1F1F: 22 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Medium, 24px: 39 uses
+- Roboto Regular, 20px: 30 uses
+- Roboto Medium, 35px: 14 uses
+- Roboto Medium, 30px: 5 uses
+- Roboto Medium, 13px: 4 uses
+- Roboto Medium, 19px: 4 uses
+- Roboto Regular, 24px: 4 uses
+
+## Typography Hierarchy
+- 35px - Roboto Medium, 35px (raw)
+- 30px - Roboto Medium, 30px (raw)
+- 24px - Roboto Medium, 24px (raw)
+- 24px - Roboto Regular, 24px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 19px - Roboto Medium, 19px (raw)
+- 13px - Roboto Medium, 13px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Unarchive
+- Archive
+- Picker
+
+## Component Specs
+- Unarchive: size 56x56px
+- Archive: size 57x57px
+- Picker: size 62x62px
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / iPad Pro 11" - 1
+- FRAME "iPad Pro 11" - 1", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 1", 1194x896px, constraints left/top, fill image(hash: 490b82497ce56267125a64e089254c0b07b0c506)
+  - ELLIPSE "Ellipse 1", 43x43px, constraints left/top, fill #C4C4C400
+
+Screen: Page 1 / iPad Pro 11" - 2
+- FRAME "iPad Pro 11" - 2", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 2", 1194x895px, constraints left/top, fill image(hash: ba1345642d89c50dea3169259543106a37d24bd1)
+  - ELLIPSE "Ellipse 2", 57x57px, constraints left/top, fill #C4C4C400
+  - ELLIPSE "Ellipse 1", 43x43px, constraints left/top, fill #C4C4C400
+
+Screen: Page 1 / iPad Pro 11" - 3
+- FRAME "iPad Pro 11" - 3", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 3", 1194x895px, constraints left/top, fill image(hash: 1ec07dbdabe179339b5fe6d5508b6fad81ded17d)
+  - ELLIPSE "Ellipse 3", 43x43px, constraints left/top, fill #C4C4C400
+  - RECTANGLE "Rectangle 111", 398x46px, constraints left/top, fill #C4C4C400
+
+Screen: Page 1 / iPad Pro 11" - 4
+- FRAME "iPad Pro 11" - 4", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 4", 1194x895px, constraints left/top, fill image(hash: c39bf9369b534cacf29386efd97fe9fac9d55f47)
+  - RECTANGLE "Rectangle 1", 331x56px, constraints left/top, radius 10px, fill #1B1B1B
+  - RECTANGLE "image 6", 32x38px, constraints left/top, fill image(hash: b624ee019c32b228e75c98c6583c56781293beca)
+  - TEXT "Keyboard", 150x45px, constraints left/top, fill #969696, text [Roboto Light, 14px]
+  - RECTANGLE "Rectangle 112", 323x55px, constraints left/top, fill #C4C4C400
+  - RECTANGLE "Rectangle 113", 84x38px, constraints left/top, fill #C4C4C400
+  - RECTANGLE "Rectangle 115", 504x72px, constraints left/top, radius 5px, fill #242424
+  - TEXT "Edit Keyboard Layouts", 253x60px, constraints left/top, fill #9C9C9C, text [Roboto Medium, 19px]
+
+Screen: Page 1 / iPad Pro 11" - 5
+- FRAME "iPad Pro 11" - 5", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 4", 1194x895px, constraints left/top, fill image(hash: c39bf9369b534cacf29386efd97fe9fac9d55f47)
+  - RECTANGLE "Rectangle 2", 339x72px, constraints left/top, radius 10px, fill #1B1B1B
+  - RECTANGLE "image 8", 1199x151px, constraints left/top, fill image(hash: 98e6bd2d17b45aeb80b827db040cbec56cffdd5c)
+  - RECTANGLE "image 6", 32x38px, constraints left/top, fill image(hash: b624ee019c32b228e75c98c6583c56781293beca)
+  - TEXT "Keyboard", 150x45px, constraints left/top, fill #FFFFFF, text [Roboto Light, 14px]
+  - RECTANGLE "Rectangle 1", 331x56px, constraints left/top, radius 10px, fill #0076FE
+  - RECTANGLE "Rectangle 110", 840x834px, constraints left/top, fill #1F1F1F
+  - RECTANGLE "Rectangle 115", 504x72px, constraints left/top, radius 5px, fill #242424
+  - RECTANGLE "Rectangle 117", 504x72px, constraints left/top, radius 5px, fill #242424
+  - RECTANGLE "Rectangle 118", 504x72px, constraints left/top, radius 5px, fill #242424
+  - TEXT "Edit Keyboard Layouts Drag and drop icons in a custom arragm", 253x60px, constraints left/top, fill #9C9C9C, text [Roboto Medium, 19px]
+  - TEXT "Keyboard Presets Select from a prexisting layout", 253x60px, constraints left/top, fill #9C9C9C, text [Roboto Medium, 19px]
+  - TEXT "Connect New Keyboards Set up new device connections", 253x60px, constraints left/top, fill #9C9C9C, text [Roboto Medium, 19px]
+  - TEXT "General", 186x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 110", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Done", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+
+Screen: Page 1 / Rectangle 126
+- RECTANGLE "Rectangle 126", 84x84px, constraints left/top, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+
+Screen: Page 1 / iPad Pro 11" - 8
+- FRAME "iPad Pro 11" - 8", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - TEXT "Keyboard Settings", 292x60px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 30px], [heading]
+  - TEXT "Edit Keyboard Layouts", 257x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - RECTANGLE "Rectangle 110", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Done", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - TEXT "Edit", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 111", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Clear", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - VECTOR "Vector (Stroke)", 25x50px, constraints left/top, fill #56565687
+  - VECTOR "Vector (Stroke)", 25x50px, constraints left/top, fill #56565687
+  - FRAME "Frame 4", 426x631px, constraints left/top [decorative, ~114 shapes]
+
+Screen: Page 1 / iPad Pro 11" - 13
+- FRAME "iPad Pro 11" - 13", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - RECTANGLE "Rectangle 112", 1194x834px, constraints left/top, fill #1F1F1F
+  - RECTANGLE "Rectangle 110", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Edit", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - TEXT "Keyboard Settings", 292x60px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 30px], [heading]
+  - TEXT "Edit Keyboard Layouts", 257x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Done", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - VECTOR "Vector (Stroke)", 25x50px, constraints left/top, fill #56565687
+  - VECTOR "Vector (Stroke)", 25x50px, constraints left/top, fill #56565687
+  - FRAME "Frame 4", 426x631px, constraints left/top [decorative, ~114 shapes]
+  - RECTANGLE "Rectangle 111", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Clear", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+
+Screen: Page 1 / iPad Pro 11" - 14
+- FRAME "iPad Pro 11" - 14", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 111", 1194x834px, constraints left/top, fill #1F1F1F
+  - RECTANGLE "Rectangle 113", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Clear", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 112", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Edit", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - TEXT "Keyboard Settings", 292x60px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 30px], [heading]
+  - TEXT "Edit Keyboard Layouts", 257x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Done", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - VECTOR "Vector (Stroke)", 25x50px, constraints left/top, fill #56565687
+  - VECTOR "Vector (Stroke)", 25x50px, constraints left/top, fill #56565687
+  - FRAME "Frame 4", 426x631px, constraints left/top [decorative, ~114 shapes]
+
+Screen: Page 1 / image 15
+- RECTANGLE "image 15", 426x631px, constraints left/top, fill image(hash: 835feb1fd1165206651d66420046578c05663738)
+
+Screen: Page 1 / iPad Pro 11" - 11
+- FRAME "iPad Pro 11" - 11", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - VECTOR "Rectangle 62", 547x834px, constraints left/top, fill #1B1B1B
+  - TEXT "Edit Keyboard layouts", 272x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Save", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 33", 465x687px, constraints left/top, radius 100/100/80/80px, fill #FBFBFB40, stroke #00000000 0px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Frame 2", 405x540px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 3", 547x755px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Copy", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 33", 68x68px, constraints scale/scale
+        - INSTANCE "Archive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Liquify", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 122", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 33.33x43.75px, constraints scale/scale, fill #000000
+    - INSTANCE "Toggle Perspective Guide", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 37", 57x57px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Blur", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 123", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 39", 55x55px, constraints scale/scale
+        - INSTANCE "li:egg", 55x55px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 39.18x50.42px, constraints scale/scale, fill #000000
+        - FRAME "li:egg", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 17.1x22px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Delete Layer", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 21", 42.67x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~5 shapes]
+    - INSTANCE "Paste", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 120", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 35", 68x68px, constraints scale/scale
+        - INSTANCE "Unarchive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Halftone", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 124", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 40", 62x56px, constraints scale/scale [decorative, ~8 shapes]
+    - INSTANCE "Create Text", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 125", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 41", 40.5x40.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 40.5x11.25px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 18x4.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 4.5x40.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Eye Dropper", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 28", 62x62px, constraints scale/scale
+        - INSTANCE "Picker", 62x62px, constraints scale/scale
+          - GROUP "Group 26", 54.03x54.03px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 64", 54.03x54.03px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+    - INSTANCE "Command", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 29", 38.33x38.33px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 38.33x38.33px, constraints scale/scale, fill #000000
+    - INSTANCE "Cut", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 119", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 31", 49x49px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Undo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 23", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Redo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 25", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Selection Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 13", 47x47px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 47x47px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 19.82x19.82px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Eraser", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 110", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 18", 58.78x58.67px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Swap Colors", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 114", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 8", 39.17x43.08px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Transform Tool", 85x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 88", 85x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 45.83x45.83px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Color Wheel", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 67x67px, constraints scale/scale, fill #FFFFFF, stroke #000000 0px
+    - INSTANCE "Paint Brush Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 17", 54.54x51.33px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Vector 73", 38.5x40.1px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+        - VECTOR "Rectangle 55", 22.46x19.25px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+    - INSTANCE "Layer Popover", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 15", 45.92x53.17px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 36.25x43.5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 32.38x39.63px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 16.92x16.92px, constraints scale/scale, fill #000000
+    - INSTANCE "Increase Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 7", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Decrease Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 8", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Fullscreen", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 45x45px, constraints scale/scale, radius 1px, stroke #000000 4px
+    - INSTANCE "Quickmenu", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 113", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 11", 50x50px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 50x50px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 50x5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 5x35px, constraints scale/scale, fill #000000
+  - VECTOR "Rectangle 110", 21x755px, constraints scale/scale, radius 20px, fill #E9E9E9
+  - VECTOR "Rectangle 111", 547x76px, constraints left/top, fill #1B1B1B
+  - VECTOR "Vector", 21x59px, constraints left/top, radius 0/0/0/0px, fill #000000
+  - TEXT "Shortcut icons", 259x54px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 35px], [heading]
+
+Screen: Page 1 / iPad Pro 11" - 17
+- FRAME "iPad Pro 11" - 17", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - VECTOR "Rectangle 62", 547x834px, constraints left/top, fill #1B1B1B
+  - TEXT "Edit Keyboard layouts", 272x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Save", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 33", 465x687px, constraints left/top, radius 100/100/80/80px, fill #FBFBFB40, stroke #00000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Frame 2", 405x540px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 3", 1194x755px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Liquify", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 122", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 33.33x43.75px, constraints scale/scale, fill #000000
+    - INSTANCE "Toggle Perspective Guide", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 37", 57x57px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Blur", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 123", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 39", 55x55px, constraints scale/scale
+        - INSTANCE "li:egg", 55x55px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 39.18x50.42px, constraints scale/scale, fill #000000
+        - FRAME "li:egg", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 17.1x22px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Delete Layer", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 21", 42.67x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~5 shapes]
+    - INSTANCE "Paste", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 120", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 35", 68x68px, constraints scale/scale
+        - INSTANCE "Unarchive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Halftone", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 124", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 40", 62x56px, constraints scale/scale [decorative, ~8 shapes]
+    - INSTANCE "Create Text", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 125", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 41", 40.5x40.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 40.5x11.25px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 18x4.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 4.5x40.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Eye Dropper", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 28", 62x62px, constraints scale/scale
+        - INSTANCE "Picker", 62x62px, constraints scale/scale
+          - GROUP "Group 26", 54.03x54.03px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 64", 54.03x54.03px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+    - INSTANCE "Command", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 29", 38.33x38.33px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 38.33x38.33px, constraints scale/scale, fill #000000
+    - INSTANCE "Cut", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 119", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 31", 49x49px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Undo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 23", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Redo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 25", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Selection Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 13", 47x47px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 47x47px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 19.82x19.82px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Eraser", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 110", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 18", 58.78x58.67px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Swap Colors", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 114", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 8", 39.17x43.08px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Transform Tool", 85x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 88", 85x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 45.83x45.83px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Color Wheel", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 67x67px, constraints scale/scale, fill #FFFFFF, stroke #000000 0px
+    - INSTANCE "Paint Brush Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 17", 54.54x51.33px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Vector 73", 38.5x40.1px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+        - VECTOR "Rectangle 55", 22.46x19.25px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+    - INSTANCE "Layer Popover", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 15", 45.92x53.17px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 36.25x43.5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 32.38x39.63px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 16.92x16.92px, constraints scale/scale, fill #000000
+    - INSTANCE "Increase Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 7", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Decrease Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 8", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Fullscreen", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 45x45px, constraints scale/scale, radius 1px, stroke #000000 4px
+    - INSTANCE "Quickmenu", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 113", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 11", 50x50px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 50x50px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 50x5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 5x35px, constraints scale/scale, fill #000000
+    - INSTANCE "Copy", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 33", 68x68px, constraints scale/scale
+        - INSTANCE "Archive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+  - VECTOR "Rectangle 110", 21x755px, constraints scale/scale, radius 20px, fill #E9E9E9
+  - VECTOR "Rectangle 111", 547x76px, constraints left/top, fill #1B1B1B
+  - VECTOR "Vector", 21x59px, constraints left/top, radius 0/0/0/0px, fill #000000
+  - TEXT "Shortcut icons", 259x54px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 35px], [heading]
+
+Screen: Page 1 / iPad Pro 11" - 18
+- FRAME "iPad Pro 11" - 18", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - VECTOR "Rectangle 62", 547x834px, constraints left/top, fill #1B1B1B
+  - TEXT "Edit Keyboard layouts", 272x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Save", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 33", 465x687px, constraints left/top, radius 100/100/80/80px, fill #FBFBFB40, stroke #00000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Frame 2", 405x540px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 3", 1194x755px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Liquify", 136.65x136.65px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 122", 136.65x136.65px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 61.66x63.74px, constraints scale/scale, fill #000000
+    - INSTANCE "Toggle Perspective Guide", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 37", 57x57px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Blur", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 123", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 39", 55x55px, constraints scale/scale
+        - INSTANCE "li:egg", 55x55px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 39.18x50.42px, constraints scale/scale, fill #000000
+        - FRAME "li:egg", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 17.1x22px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Delete Layer", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 21", 42.67x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~5 shapes]
+    - INSTANCE "Paste", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 120", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 35", 68x68px, constraints scale/scale
+        - INSTANCE "Unarchive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Halftone", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 124", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 40", 62x56px, constraints scale/scale [decorative, ~8 shapes]
+    - INSTANCE "Create Text", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 125", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 41", 40.5x40.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 40.5x11.25px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 18x4.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 4.5x40.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Eye Dropper", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 28", 62x62px, constraints scale/scale
+        - INSTANCE "Picker", 62x62px, constraints scale/scale
+          - GROUP "Group 26", 54.03x54.03px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 64", 54.03x54.03px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+    - INSTANCE "Command", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 29", 38.33x38.33px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 38.33x38.33px, constraints scale/scale, fill #000000
+    - INSTANCE "Cut", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 119", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 31", 49x49px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Undo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 23", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Redo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 25", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Selection Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 13", 47x47px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 47x47px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 19.82x19.82px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Eraser", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 110", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 18", 58.78x58.67px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Swap Colors", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 114", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 8", 39.17x43.08px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Transform Tool", 85x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 88", 85x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 45.83x45.83px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Color Wheel", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 67x67px, constraints scale/scale, fill #FFFFFF, stroke #000000 0px
+    - INSTANCE "Paint Brush Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 17", 54.54x51.33px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Vector 73", 38.5x40.1px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+        - VECTOR "Rectangle 55", 22.46x19.25px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+    - INSTANCE "Layer Popover", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 15", 45.92x53.17px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 36.25x43.5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 32.38x39.63px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 16.92x16.92px, constraints scale/scale, fill #000000
+    - INSTANCE "Increase Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 7", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Decrease Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 8", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Fullscreen", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 45x45px, constraints scale/scale, radius 1px, stroke #000000 4px
+    - INSTANCE "Quickmenu", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 113", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 11", 50x50px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 50x50px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 50x5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 5x35px, constraints scale/scale, fill #000000
+    - INSTANCE "Copy", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 33", 68x68px, constraints scale/scale
+        - INSTANCE "Archive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+  - VECTOR "Rectangle 110", 21x755px, constraints scale/scale, radius 20px, fill #E9E9E9
+  - VECTOR "Rectangle 111", 547x76px, constraints left/top, fill #1B1B1B
+  - VECTOR "Vector", 21x59px, constraints left/top, radius 0/0/0/0px, fill #000000
+  - TEXT "Shortcut icons", 259x54px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 35px], [heading]
+
+Screen: Page 1 / iPad Pro 11" - 19
+- FRAME "iPad Pro 11" - 19", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - VECTOR "Rectangle 62", 547x834px, constraints left/top, fill #1B1B1B
+  - TEXT "Edit Keyboard layouts", 272x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Save", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 33", 465x687px, constraints left/top, radius 100/100/80/80px, fill #FBFBFB40, stroke #00000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Frame 2", 405x540px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 3", 1194x755px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Toggle Perspective Guide", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 37", 57x57px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Blur", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 123", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 39", 55x55px, constraints scale/scale
+        - INSTANCE "li:egg", 55x55px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 39.18x50.42px, constraints scale/scale, fill #000000
+        - FRAME "li:egg", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 17.1x22px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Delete Layer", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 21", 42.67x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~5 shapes]
+    - INSTANCE "Paste", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 120", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 35", 68x68px, constraints scale/scale
+        - INSTANCE "Unarchive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Halftone", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 124", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 40", 62x56px, constraints scale/scale [decorative, ~8 shapes]
+    - INSTANCE "Create Text", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 125", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 41", 40.5x40.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 40.5x11.25px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 18x4.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 4.5x40.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Eye Dropper", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 28", 62x62px, constraints scale/scale
+        - INSTANCE "Picker", 62x62px, constraints scale/scale
+          - GROUP "Group 26", 54.03x54.03px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 64", 54.03x54.03px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+    - INSTANCE "Command", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 29", 38.33x38.33px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 38.33x38.33px, constraints scale/scale, fill #000000
+    - INSTANCE "Cut", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 119", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 31", 49x49px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Undo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 23", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Redo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 25", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Selection Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 13", 47x47px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 47x47px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 19.82x19.82px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Eraser", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 110", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 18", 58.78x58.67px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Swap Colors", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 114", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 8", 39.17x43.08px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Transform Tool", 85x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 88", 85x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 45.83x45.83px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Color Wheel", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 67x67px, constraints scale/scale, fill #FFFFFF, stroke #000000 0px
+    - INSTANCE "Paint Brush Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 17", 54.54x51.33px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Vector 73", 38.5x40.1px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+        - VECTOR "Rectangle 55", 22.46x19.25px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+    - INSTANCE "Layer Popover", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 15", 45.92x53.17px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 36.25x43.5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 32.38x39.63px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 16.92x16.92px, constraints scale/scale, fill #000000
+    - INSTANCE "Increase Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 7", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Decrease Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 8", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Fullscreen", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 45x45px, constraints scale/scale, radius 1px, stroke #000000 4px
+    - INSTANCE "Quickmenu", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 113", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 11", 50x50px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 50x50px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 50x5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 5x35px, constraints scale/scale, fill #000000
+    - INSTANCE "Copy", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 33", 68x68px, constraints scale/scale
+        - INSTANCE "Archive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Liquify", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 122", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 33.33x43.75px, constraints scale/scale, fill #000000
+  - VECTOR "Rectangle 110", 21x755px, constraints scale/scale, radius 20px, fill #E9E9E9
+  - VECTOR "Rectangle 111", 547x76px, constraints left/top, fill #1B1B1B
+  - VECTOR "Vector", 21x59px, constraints left/top, radius 0/0/0/0px, fill #000000
+  - TEXT "Shortcut icons", 259x54px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 35px], [heading]
+
+Screen: Page 1 / iPad Pro 11" - 23
+- FRAME "iPad Pro 11" - 23", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - VECTOR "Rectangle 62", 547x834px, constraints left/top, fill #1B1B1B
+  - TEXT "Edit Keyboard layouts", 272x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Save", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 33", 465x687px, constraints left/top, radius 100/100/80/80px, fill #FBFBFB40, stroke #00000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Frame 2", 405x540px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 3", 1194x755px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Toggle Perspective Guide", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 37", 57x57px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Blur", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 123", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 39", 55x55px, constraints scale/scale
+        - INSTANCE "li:egg", 55x55px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 39.18x50.42px, constraints scale/scale, fill #000000
+        - FRAME "li:egg", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 17.1x22px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Delete Layer", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 21", 42.67x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~5 shapes]
+    - INSTANCE "Paste", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 120", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 35", 68x68px, constraints scale/scale
+        - INSTANCE "Unarchive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Halftone", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 124", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 40", 62x56px, constraints scale/scale [decorative, ~8 shapes]
+    - INSTANCE "Create Text", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 125", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 41", 40.5x40.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 40.5x11.25px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 18x4.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 4.5x40.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Eye Dropper", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 28", 62x62px, constraints scale/scale
+        - INSTANCE "Picker", 62x62px, constraints scale/scale
+          - GROUP "Group 26", 54.03x54.03px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 64", 54.03x54.03px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+    - INSTANCE "Command", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 29", 38.33x38.33px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 38.33x38.33px, constraints scale/scale, fill #000000
+    - INSTANCE "Cut", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 119", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 31", 49x49px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Undo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 23", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Redo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 25", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Selection Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 13", 47x47px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 47x47px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 19.82x19.82px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Eraser", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 110", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 18", 58.78x58.67px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Swap Colors", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 114", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 8", 39.17x43.08px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Transform Tool", 85x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 88", 85x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 45.83x45.83px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Color Wheel", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 67x67px, constraints scale/scale, fill #FFFFFF, stroke #000000 0px
+    - INSTANCE "Paint Brush Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 17", 54.54x51.33px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Vector 73", 38.5x40.1px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+        - VECTOR "Rectangle 55", 22.46x19.25px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+    - INSTANCE "Layer Popover", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 15", 45.92x53.17px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 36.25x43.5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 32.38x39.63px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 16.92x16.92px, constraints scale/scale, fill #000000
+    - INSTANCE "Increase Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 7", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Decrease Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 8", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Fullscreen", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 45x45px, constraints scale/scale, radius 1px, stroke #000000 4px
+    - INSTANCE "Quickmenu", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 113", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 11", 50x50px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 50x50px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 50x5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 5x35px, constraints scale/scale, fill #000000
+    - INSTANCE "Copy", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 33", 68x68px, constraints scale/scale
+        - INSTANCE "Archive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Liquify", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 122", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 33.33x43.75px, constraints scale/scale, fill #000000
+  - VECTOR "Rectangle 110", 21x755px, constraints scale/scale, radius 20px, fill #E9E9E9
+  - VECTOR "Rectangle 111", 547x76px, constraints left/top, fill #1B1B1B
+  - VECTOR "Vector", 21x59px, constraints left/top, radius 0/0/0/0px, fill #000000
+  - TEXT "Shortcut icons", 259x54px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 35px], [heading]
+
+Screen: Page 1 / iPad Pro 11" - 25
+- FRAME "iPad Pro 11" - 25", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - VECTOR "Rectangle 62", 547x834px, constraints left/top, fill #1B1B1B
+  - TEXT "Edit Keyboard layouts", 272x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Save", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 33", 465x687px, constraints left/top, radius 100/100/80/80px, fill #FBFBFB40, stroke #00000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Frame 2", 405x540px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 3", 1194x755px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Toggle Perspective Guide", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 37", 57x57px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Blur", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 123", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 39", 55x55px, constraints scale/scale
+        - INSTANCE "li:egg", 55x55px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 39.18x50.42px, constraints scale/scale, fill #000000
+        - FRAME "li:egg", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 17.1x22px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Delete Layer", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 21", 42.67x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~5 shapes]
+    - INSTANCE "Paste", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 120", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 35", 68x68px, constraints scale/scale
+        - INSTANCE "Unarchive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Halftone", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 124", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 40", 62x56px, constraints scale/scale [decorative, ~8 shapes]
+    - INSTANCE "Create Text", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 125", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 41", 40.5x40.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 40.5x11.25px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 18x4.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 4.5x40.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Eye Dropper", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 28", 62x62px, constraints scale/scale
+        - INSTANCE "Picker", 62x62px, constraints scale/scale
+          - GROUP "Group 26", 54.03x54.03px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 64", 54.03x54.03px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+    - INSTANCE "Command", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 29", 38.33x38.33px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 38.33x38.33px, constraints scale/scale, fill #000000
+    - INSTANCE "Cut", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 119", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 31", 49x49px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Undo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 23", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Redo", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 25", 32.5x19.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 13x13px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 32.5x17.88px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Selection Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 13", 47x47px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 47x47px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 19.82x19.82px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Eraser", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 110", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 18", 58.78x58.67px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Swap Colors", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 114", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 8", 39.17x43.08px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Transform Tool", 85x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 88", 85x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 45.83x45.83px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Color Wheel", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 67x67px, constraints scale/scale, fill #FFFFFF, stroke #000000 0px
+    - INSTANCE "Paint Brush Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 17", 54.54x51.33px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Vector 73", 38.5x40.1px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+        - VECTOR "Rectangle 55", 22.46x19.25px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+    - INSTANCE "Layer Popover", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 15", 45.92x53.17px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 36.25x43.5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 32.38x39.63px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 16.92x16.92px, constraints scale/scale, fill #000000
+    - INSTANCE "Increase Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 7", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Decrease Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 8", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Fullscreen", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 45x45px, constraints scale/scale, radius 1px, stroke #000000 4px
+    - INSTANCE "Quickmenu", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 113", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 11", 50x50px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 50x50px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 50x5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 5x35px, constraints scale/scale, fill #000000
+    - INSTANCE "Copy", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 33", 68x68px, constraints scale/scale
+        - INSTANCE "Archive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Liquify", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 122", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 33.33x43.75px, constraints scale/scale, fill #000000
+  - VECTOR "Rectangle 110", 21x755px, constraints scale/scale, radius 20px, fill #E9E9E9
+  - VECTOR "Rectangle 111", 547x76px, constraints left/top, fill #1B1B1B
+  - VECTOR "Vector", 21x59px, constraints left/top, radius 0/0/0/0px, fill #000000
+  - TEXT "Shortcut icons", 259x54px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 35px], [heading]
+
+Screen: Page 1 / iPad Pro 11" - 26
+- FRAME "iPad Pro 11" - 26", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - VECTOR "Rectangle 62", 547x834px, constraints left/top, fill #1B1B1B
+  - TEXT "Edit Keyboard layouts", 272x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Save", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 33", 465x687px, constraints left/top, radius 100/100/80/80px, fill #FBFBFB40, stroke #00000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Frame 2", 405x540px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 3", 1194x755px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Toggle Perspective Guide", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 37", 57x57px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Blur", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 123", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 39", 55x55px, constraints scale/scale
+        - INSTANCE "li:egg", 55x55px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 39.18x50.42px, constraints scale/scale, fill #000000
+        - FRAME "li:egg", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 17.1x22px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Delete Layer", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 21", 42.67x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~5 shapes]
+    - INSTANCE "Paste", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 120", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 35", 68x68px, constraints scale/scale
+        - INSTANCE "Unarchive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Halftone", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 124", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 40", 62x56px, constraints scale/scale [decorative, ~8 shapes]
+    - INSTANCE "Create Text", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 125", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 41", 40.5x40.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 40.5x11.25px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 18x4.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 4.5x40.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Eye Dropper", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 28", 62x62px, constraints scale/scale
+        - INSTANCE "Picker", 62x62px, constraints scale/scale
+          - GROUP "Group 26", 54.03x54.03px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 64", 54.03x54.03px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+    - INSTANCE "Command", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 29", 38.33x38.33px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 38.33x38.33px, constraints scale/scale, fill #000000
+    - INSTANCE "Cut", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 119", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 31", 49x49px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Undo", 114.75x114.75px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 114.75x114.75px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 23", 37.9x33.14px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 17.76x17.76px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 37.08x31.73px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Redo", 114.75x114.75px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 114.75x114.75px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 25", 37.9x33.14px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 17.76x17.76px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 37.08x31.73px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Selection Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 118", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 13", 47x47px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 47x47px, constraints scale/scale, fill #000000, stroke #000000 2px
+        - VECTOR "Vector (Stroke)", 19.82x19.82px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Eraser", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 110", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 18", 58.78x58.67px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Swap Colors", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 114", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 8", 39.17x43.08px, constraints scale/scale [decorative, ~4 shapes]
+    - INSTANCE "Transform Tool", 85x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 88", 85x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 45.83x45.83px, constraints scale/scale, fill #000000, stroke #000000 2px
+    - INSTANCE "Color Wheel", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 115", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 67x67px, constraints scale/scale, fill #FFFFFF, stroke #000000 0px
+    - INSTANCE "Paint Brush Tool", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 17", 54.54x51.33px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Vector 73", 38.5x40.1px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+        - VECTOR "Rectangle 55", 22.46x19.25px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 4px
+    - INSTANCE "Layer Popover", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 15", 45.92x53.17px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 36.25x43.5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 32.38x39.63px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 16.92x16.92px, constraints scale/scale, fill #000000
+    - INSTANCE "Increase Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 7", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Decrease Brush Size", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 116", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector 8", 23x46px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Fullscreen", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 117", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector", 45x45px, constraints scale/scale, radius 1px, stroke #000000 4px
+    - INSTANCE "Quickmenu", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 113", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 11", 50x50px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 50x50px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 50x5px, constraints scale/scale, fill #000000
+        - VECTOR "Vector (Stroke)", 5x35px, constraints scale/scale, fill #000000
+    - INSTANCE "Copy", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 33", 68x68px, constraints scale/scale
+        - INSTANCE "Archive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Liquify", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 122", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - VECTOR "Vector (Stroke)", 33.33x43.75px, constraints scale/scale, fill #000000
+  - VECTOR "Rectangle 110", 21x755px, constraints scale/scale, radius 20px, fill #E9E9E9
+  - VECTOR "Rectangle 111", 547x76px, constraints left/top, fill #1B1B1B
+  - VECTOR "Vector", 21x59px, constraints left/top, radius 0/0/0/0px, fill #000000
+  - TEXT "Shortcut icons", 259x54px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 35px], [heading]
+
+Screen: Page 1 / iPad Pro 11" - 27
+- FRAME "iPad Pro 11" - 27", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 108", 1194x834px, constraints left/top, fill #1F1F1F
+  - VECTOR "Rectangle 62", 547x834px, constraints left/top, fill #1B1B1B
+  - TEXT "Edit Keyboard layouts", 272x41px, constraints left/top, fill #C4C4C4, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 109", 73x37px, constraints left/top, radius 10px, fill #FD9F00
+  - TEXT "Save", 52x28px, constraints left/top, fill #000000BD, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 63", 331x56px, constraints left/top, radius 10px, fill #242424
+  - TEXT "Aoiktye - Layout 1", 250x32px, constraints left/top, fill #AAAAAA, text [Roboto Medium, 24px], [heading]
+  - RECTANGLE "Rectangle 33", 465x687px, constraints left/top, radius 100/100/80/80px, fill #FBFBFB40, stroke #00000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Frame 2", 405x540px, constraints left/top, fill #FFFFFF [decorative, ~19 shapes]
+  - FRAME "Frame 3", 1194x755px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Toggle Perspective Guide", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 121", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 37", 57x57px, constraints scale/scale [decorative, ~5 shapes]
+    - INSTANCE "Blur", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 123", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 39", 55x55px, constraints scale/scale
+        - INSTANCE "li:egg", 55x55px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 39.18x50.42px, constraints scale/scale, fill #000000
+        - FRAME "li:egg", 24x24px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 17.1x22px, constraints scale/scale, fill #000000, stroke #000000 1px
+    - INSTANCE "Delete Layer", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 111", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 21", 42.67x48px, constraints scale/scale, radius 0/0/0/0px [decorative, ~5 shapes]
+    - INSTANCE "Paste", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 120", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 35", 68x68px, constraints scale/scale
+        - INSTANCE "Unarchive", 68x68px, constraints scale/scale
+          - VECTOR "Rectangle 108", 45.33x34px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 3px
+          - VECTOR "Rectangle 109", 45.33x11.33px, constraints scale/scale, stroke #000000 3px
+          - VECTOR "Vector 45", 14.17x17px, constraints scale/scale, radius 2px, stroke #000000 3px
+    - INSTANCE "Halftone", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 124", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 40", 62x56px, constraints scale/scale [decorative, ~8 shapes]
+    - INSTANCE "Create Text", 84x84px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 125", 84x84px, constraints scale/scale, radius 15px, fill #FBFBFB, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+      - GROUP "Group 41", 40.5x40.5px, constraints scale/scale
+        - VECTOR "Vector (Stroke)", 40.5x11.25px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 18x4.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+        - VECTOR "Vector (Stroke)", 4.5x40.5px, constraints scale/scale, fill #000000, stroke #000000 1px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
+
+
+---
+
+---
+name: procreate-keyboard-wireframe-community
+source_file: Procreate Keyboard Wireframe (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:30:10.076121+00:00
+---
+
+# Procreate Keyboard Wireframe (Community) Design Guidelines
+
+## Source
+- Figma file: Procreate Keyboard Wireframe (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:30:10.076121+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Black: [#000000]
+- White: [#FFFFFF]
+- Ultra Light Gray: [#000000, #FFFFFFF5]
+- Gray: [#000000, #FFFFFFF5]
+
+## Raw Colors (unstyled)
+- #C4C4C4: 91 uses
+- #000000: 43 uses
+- #B45E5E: 40 uses
+- #C8D4FF: 20 uses
+- #FFFFFF: 15 uses
+- #7784FC: 12 uses
+- #00000045: 6 uses
+- #C4C4C400: 6 uses
+- #676767: 4 uses
+- #343434: 3 uses
+- #F19A9A: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Regular, 18px: 12 uses
+- Roboto Regular, 36px: 9 uses
+- Roboto Regular, 24px: 8 uses
+
+## Typography Hierarchy
+- 36px - Roboto Regular, 36px (raw)
+- 24px - Roboto Regular, 24px (raw)
+- 18px - Roboto Regular, 18px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Checkbox
+- Reload 2
+- Update
+- Brush
+- Picker
+- Sliders
+- Settings 2
+- Add Layer 1
+- Delete 2
+- Arrow Up
+- Arrow Compress
+
+## Component Specs
+- Checkbox/Clear/On: size 24x24px, radius 4px, fill Ultra Light Gray, stroke Gray 2px
+- Reload 2: size 133x133px
+- Update: size 71x71px
+- Brush: size 71x71px
+- Picker: size 71x71px
+- Sliders: size 71x71px
+- Settings 2: size 71x71px
+- Add Layer 1: size 71x71px
+- Delete 2: size 71x71px
+- Arrow Up: size 71x71px
+- Arrow Compress: size 71x71px
+
+## Most-Used Styles
+- Gray: 17 uses
+- Ultra Light Gray: 17 uses
+- Black: 7 uses
+- White: 7 uses
+
+## Layout & Structure
+Screen: Page 1 / iPad Pro 11" - 1
+- FRAME "iPad Pro 11" - 1", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 1194x834px, constraints left/top, fill #343434
+  - TEXT "Wireless headphones", 505x54px, constraints left/top, fill #000000, text [Josefin Sans Regular, 36px], [heading]
+  - RECTANGLE "Rectangle 2", 558x404px, constraints left/top, radius 20px, fill #FFFFFF
+  - VECTOR "Vector 1", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 2", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 3", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 4", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 5", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - RECTANGLE "Rectangle 4", 558x50px, constraints left/top, radius 20px, fill #FFFFFF
+  - TEXT "BlueTooth", 163x42px, constraints left/top, fill #000000, text [Roboto Regular, 36px], [heading]
+  - RECTANGLE "Rectangle 5", 401x50px, constraints left/top, radius 20px, fill #FFFFFF
+  - RECTANGLE "Rectangle 7", 401x50px, constraints left/top, radius 20px, fill #FFFFFF
+  - TEXT "Settings", 132x42px, constraints left/top, fill #000000, text [Josefin Sans Regular, 36px], [heading]
+  - RECTANGLE "Rectangle 3", 401x633px, constraints left/top, radius 20px, fill #FFFFFF
+  - RECTANGLE "Rectangle 6", 86x40px, constraints left/top, radius 20px, fill #97FF9B
+  - ELLIPSE "Ellipse 1", 38x38px, constraints left/top, fill #C4C4C4
+  - TEXT "Procreate Keyboard", 505x54px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "Speakers", 505x54px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "Wireless headphones", 505x54px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "SRS-XB20", 505x54px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "KS18", 505x54px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "Apple Pencil", 505x54px, constraints left/top, fill #000000, text [Roboto Regular, 24px], [heading]
+  - TEXT "Not Connected", 134x52px, constraints left/top, fill #00000045, text [Roboto Regular, 18px]
+  - TEXT "Connected", 134x52px, constraints left/top, fill #00000045, text [Roboto Regular, 18px]
+  - TEXT "Not Connected", 134x52px, constraints left/top, fill #00000045, text [Roboto Regular, 18px]
+  - ... +25 more children
+
+Screen: Page 1 / iPad Pro 11" - 2
+- FRAME "iPad Pro 11" - 2", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 1194x834px, constraints left/top, fill #343434
+  - RECTANGLE "Rectangle 2", 558x669px, constraints left/top, radius 20px, fill #FFFFFF
+  - VECTOR "Vector 1", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 2", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 3", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 4", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 5", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 6", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 7", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 8", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 9", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 15", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 16", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 17", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 10", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 11", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 12", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - VECTOR "Vector 13", 558x0px, constraints left/top, stroke #C4C4C4 1px
+  - RECTANGLE "Rectangle 4", 558x50px, constraints left/top, radius 20px, fill #FFFFFF
+  - TEXT "Key Bindings", 206x42px, constraints left/top, fill #000000, text [Roboto Regular, 36px], [heading]
+  - RECTANGLE "Rectangle 7", 510x666px, constraints left/top, radius 20px, fill #676767
+  - RECTANGLE "Rectangle 8", 103x98px, constraints left/top, radius 20px, fill #C4C4C4
+  - RECTANGLE "Rectangle 9", 102x98px, constraints left/top, radius 20px, fill #C4C4C4
+  - RECTANGLE "Rectangle 10", 103x98px, constraints left/top, radius 20px, fill #C4C4C4
+  - RECTANGLE "Rectangle 11", 103x98px, constraints left/top, radius 20px, fill #C4C4C4
+  - ... +55 more children
+
+Screen: Page 1 / iPad Pro 11" - 3
+- FRAME "iPad Pro 11" - 3", 1194x834px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 28", 1194x834px, constraints left/top, fill #343434
+  - RECTANGLE "Rectangle 7", 322x421px, constraints left/top, radius 20px, fill #718BCE
+  - RECTANGLE "Rectangle 8", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 9", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 10", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 11", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 12", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 13", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 14", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 15", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 16", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 17", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 18", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 19", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 20", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 21", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 22", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 24", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 25", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 26", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 23", 65x62px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 27", 65x140px, constraints left/top, radius 20px, fill #C8D4FF
+  - RECTANGLE "Rectangle 29", 322x421px, constraints left/top, radius 20px, fill #676767
+  - RECTANGLE "Rectangle 30", 65x62px, constraints left/top, radius 20px, fill #C4C4C4
+  - RECTANGLE "Rectangle 31", 64x62px, constraints left/top, radius 20px, fill #C4C4C4
+  - ... +89 more children
+
+Screen: Page 1 / image 1
+- RECTANGLE "image 1", 1504x1128px, constraints left/top, fill image(hash: bb4df3c7763946d482fd4b2d320e9e48cc720211)
+
+Screen: Page 1 / image 2
+- RECTANGLE "image 2", 1819x1335px, constraints left/top, fill image(hash: 30205c59d5518750421be7809ad1de1262b88937)
+
+Screen: Page 1 / image 3
+- RECTANGLE "image 3", 1504x1128px, constraints left/top, fill image(hash: 24ad9b8448813633532f77a4572f79a0c11c1a79)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

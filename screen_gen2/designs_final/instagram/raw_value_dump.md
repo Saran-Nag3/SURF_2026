@@ -1,0 +1,1204 @@
+---
+name: instagram-ui-kit-1-0-community
+source_file: Instagram UI Kit 1.0 (Community)
+source_page: All pages (8): 🏷️ Cover, ⏰ Change log, 💕 Credits, ––––––––––––––––––––––, IG Post Templates, IG Stories Template, ––––––––––––––––––––––, ✨Master Components
+generated_at: 2026-07-25T09:08:14.389839+00:00
+---
+
+# Instagram UI Kit 1.0 (Community) Design Guidelines
+
+## Source
+- Figma file: Instagram UI Kit 1.0 (Community)
+- Figma page: All pages (8): 🏷️ Cover, ⏰ Change log, 💕 Credits, ––––––––––––––––––––––, IG Post Templates, IG Stories Template, ––––––––––––––––––––––, ✨Master Components
+- Extracted at: 2026-07-25T09:08:14.389839+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Solid/White: [#FFFFFF]
+- Gradients/Rainbow: [gradient_linear(#F1000F 0% | #FD8D32 19% | #F6CA5B 34% | #75C050 51% | #4498EB 66% | #3B47D7 82% | #921CBE 100%)]
+- Opacity/30% Opacity White: [#FFFFFF4D]
+- Gradients/IG Gradient: [gradient_linear(#D9D9D9 0% | #7300E4 0% | #E300A4 46% | #FFB763 100%)]
+- Shade / 700: [#2E3A59]
+- White: [#FFFFFF]
+- Label Color/Dark/Primary: [#FFFFFF]
+- N30 Silver: [#DFDFE8]
+- Solid/Black: [#000000]
+- Label Color/Light/Primary: [#000000]
+- Transparent/50% White: none
+- Gradient/IG Gradient: [gradient_linear(#D9D9D9 0% | #7300E4 0% | #E300A4 46% | #FFB763 100%)]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 959 uses
+- #000000: 731 uses
+- #C4C4C4: 145 uses
+- #6E6E6E: 97 uses
+- #DDDDDD: 84 uses
+- #D9D9D9: 60 uses
+- #DADADA: 36 uses
+- #FFFFFF66: 30 uses
+- #EFEFEF: 29 uses
+- #999999: 26 uses
+- #1FA1FF: 25 uses
+- #37A600: 24 uses
+- #8A0095: 24 uses
+- #FE0135: 24 uses
+- #EFEFEF33: 19 uses
+- #9747FF: 16 uses
+- #3897F0: 13 uses
+- #FF4963: 13 uses
+
+## Typography Tokens
+- Body/Bold: SF Pro Text Semibold (600), 17px / 22px, tracking -0.41px
+
+## Raw Typography (unstyled)
+- SF UI Display Bold, 13px: 72 uses
+- SF UI Display Regular, 14px: 65 uses
+- Abel Regular, 27px: 60 uses
+- SF Pro Text Regular, 12px: 42 uses
+- SF UI Display Regular, 11.5px: 35 uses
+- SF UI Display Regular, 13px: 35 uses
+- SF UI Display Bold, 14px: 33 uses
+- SF Pro Text Medium, 11px: 30 uses
+- SF UI Display Regular, 16px: 26 uses
+- SF Pro Display Bold, 14px: 24 uses
+- SF Pro Display Regular, 14px: 24 uses
+- SF UI Display Regular, 12px: 23 uses
+- Dosis Medium, 35px: 13 uses
+- SF Pro Text Regular, 14px: 12 uses
+- SF UI Display Bold, 12px: 11 uses
+- Dosis SemiBold, 18px: 10 uses
+- IBM Plex Mono SemiBold, 16px: 9 uses
+- Mohave Medium, 14px: 9 uses
+- Mohave Medium, 18px: 9 uses
+- Mohave Regular, 14px: 9 uses
+- SF Pro Display Semibold, 14px: 9 uses
+- SF Pro Text Semibold, 12px: 9 uses
+- SF UI Display Medium, 14px: 9 uses
+- SF UI Display Bold, 16px: 5 uses
+- SF UI Display Bold, 22px: 4 uses
+- SF UI Display Medium, 16px: 4 uses
+- SF UI Display Medium, 24px: 4 uses
+- SF UI Display Regular, 11px: 4 uses
+- SF UI Display Regular, 20px: 4 uses
+
+## Typography Hierarchy
+- 35px - Dosis Medium, 35px (raw)
+- 27px - Abel Regular, 27px (raw)
+- 24px - SF UI Display Medium, 24px (raw)
+- 22px - SF UI Display Bold, 22px (raw)
+- 20px - SF UI Display Regular, 20px (raw)
+- 18px - Dosis SemiBold, 18px (raw)
+- 18px - Mohave Medium, 18px (raw)
+- 17px - Body/Bold (SF Pro Text Semibold)
+- 16px - IBM Plex Mono SemiBold, 16px (raw)
+- 16px - SF UI Display Bold, 16px (raw)
+- 16px - SF UI Display Medium, 16px (raw)
+- 16px - SF UI Display Regular, 16px (raw)
+- 14px - Mohave Medium, 14px (raw)
+- 14px - Mohave Regular, 14px (raw)
+- 14px - SF Pro Display Bold, 14px (raw)
+- 14px - SF Pro Display Regular, 14px (raw)
+- 14px - SF Pro Display Semibold, 14px (raw)
+- 14px - SF Pro Text Regular, 14px (raw)
+- 14px - SF UI Display Bold, 14px (raw)
+- 14px - SF UI Display Medium, 14px (raw)
+- 14px - SF UI Display Regular, 14px (raw)
+- 13px - SF UI Display Bold, 13px (raw)
+- 13px - SF UI Display Regular, 13px (raw)
+- 12px - SF Pro Text Regular, 12px (raw)
+- 12px - SF Pro Text Semibold, 12px (raw)
+- 12px - SF UI Display Bold, 12px (raw)
+- 12px - SF UI Display Regular, 12px (raw)
+- 11.5px - SF UI Display Regular, 11.5px (raw)
+- 11px - SF Pro Text Medium, 11px (raw)
+- 11px - SF UI Display Regular, 11px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- [Helper] Frame Shadow: [drop_shadow 40px offset 0 4 #EEEEEE, drop_shadow 8px offset 0 4 #42474C0D, drop_shadow 0.5px offset 0 0 #42474C52]
+
+## Grid Styles
+- 360 2 column: columns count 2, section 12.5px, gutter 365px, align stretch
+
+## Component Families
+- Mention Widget
+- Countdown Widget
+- Slider Widget
+- emoji
+- IG slider
+- Question Widget
+- IG story user header
+- Carousel timer
+- User headers
+- Saved IG stories
+- User profile data
+- Tab navi bar
+- Story Tray
+- Post info
+- Icons
+- Navigation Bar
+- Avatar
+- Buttons
+- Quiz Widget
+- Question Poll Widget
+- IG Sponsored nav
+- IG message nav
+- Promo Banner
+
+## Component Specs
+- Mention Widget: size 183.76x45px, radius 8px, horizontal layout, padding 5 12 5 12px, gap 7px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Dosis Medium, 35px] | variants: Type: Hashtag/Location/Tag; Color: Default/Frost/Rainbow
+- Countdown Widget: size 245x142px, radius 12px, fill gradient_linear(#D610E8 0% | #00ACFF 100%), text [Abel Regular, 27px, SF Pro Text Medium, 11px, Dosis SemiBold, 18px] | variants: Color: Green gradient/Orange gradient/Pink gradient/Purple gradient/Solid black/Solid blue/Solid red/solid white
+- Slider Widget: size 240x223px, radius 12px, vertical layout, padding 25 25 25 25px, gap 18px, sizing W:fixed H:fixed, fill #FFFFFF, text [SF UI Display Medium, 18px] | variants: Color: Black/White; Text: No/Yes
+- emoji: size 35x35px, fill #FFFFFF | variants: Emoji type: 100/Clapping hands/Fear/Fire/Heart/LOL/Party Popper/Poop/Pray/Raised hands/Sad/Smile/Smile with hearts/Thumbs up/Wow
+- IG slider: size 190x35px, fill #FFFFFF | variants: IG slider: Slider-full/Slider-half/Slider-none
+- Question Widget: size 267x203px, fill #FFFFFF, text [SF UI Display Regular, 13px, SF UI Display Medium, 16px] | variants: Color: Black/White
+- IG story user header: size 390x40px, horizontal layout, padding 2 12 2 12px, gap 12px, align min/center, sizing W:fixed H:fixed, text [SF Pro Text Regular, 12px, SF Pro Text Semibold, 12px] | variants: Type: Default/Sponsored
+- Carousel timer: size 390x16.64px, fill #FFFFFF | variants: Carousel Timer: timer 1/timer 2/timer 3/timer 4/timer 5
+- User headers: size 390x50px, fill #FFFFFF, text [SF UI Display Bold, 12px] | variants: Kind: Default/Sponsored; Story Ring: no/yes; Dark mode: no/yes
+- Saved IG stories: size 390x86px, horizontal layout, padding 4 9 4 9px, gap 18px, sizing W:fixed H:fixed, fill #FFFFFF, text [SF Pro Text Regular, 12px] | variants: Dark mode: no/yes
+- User profile data: size 390x90px, horizontal layout, padding 0 12 0 12px, gap 60px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [SF Pro Display Regular, 14px, SF Pro Display Bold, 14px] | variants: Dark mode: no/yes
+- Tab navi bar: size 390x40px | variants: Type: 2 tabs/3 tabs
+- Story Tray: size 390x105.75px, horizontal layout, padding 8 8 0 8px, gap 12px, sizing W:fixed H:fixed, fill #FFFFFF, effect [drop_shadow 1px offset 0 2 #0000001A], text [SF UI Display Regular, 11.5px] | variants: Dark mode: no/yes
+- Post info: size 390x212px, vertical layout, padding 0 0 24 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [SF UI Display Regular, 12px, SF UI Display Regular, 16px, SF UI Display Regular, 14px, SF UI Display Bold, 13px] | variants: Type: Carousel/Default; Shop CTA: no/yes; Dark mode: no/yes
+- Icons: size 24x24px | variants: Name: Add/Arrow Down/Arrow Left/Arrow Right/Arrow Up/Bookmark/Burger Menu/Comment/Exit/Favorite/Grid/Home/Like/Like Heart/Mentions/Messenger/More/Notifications/Reels/Search/Share/Shop; State: default/selected/unselected; Dark: no/yes
+- Navigation Bar: size 390x40px, horizontal layout, padding 5 13 5 13px, gap 114px, align center/center, sizing W:fixed H:fixed, fill White | variants: Type: Home Bottom navigation/Home Top Navi bar/Sponsored User Profile Top Navi bar/Username top Navi bar; Dark mode: No/yes
+- Avatar: size 24x24px, radius 100px, fill #FFFFFF | variants: State: Feed Avatar/Story Avatar/default/default multi accounts/selected/selected multi accounts; Story Ring: off/on
+- Buttons: size 366x69px, fill #FFFFFF, text [SF UI Display Bold, 13px] | variants: Type: Edit profile/Follow/Following alt; Dark mode: no/yes
+- Quiz Widget/Black: size 250x301px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [SF Pro Text Regular, 14px, SF UI Display Medium, 14px, Dosis SemiBold, 16px]
+- Question Poll Widget/Black: size 230x239px, radius 12px, vertical layout, padding 0 0 16 0px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Mohave Regular, 14px, SF Pro Display Semibold, 14px, Dosis Medium, 14px]
+- IG Sponsored nav/Light button: size 390x69px, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+- IG message nav/Default: size 390x40px, horizontal layout, padding 0 12 0 12px, gap 16px, align center/center, sizing W:fixed H:fixed, text [SF Pro Text Regular, 16px]
+- Promo Banner: size 360x49px, radius 8px, horizontal layout, padding 8 8 8 8px, gap 12px, align center/center, sizing W:fixed H:fixed, fill #B8CCB5, effect [drop_shadow 16px offset 0 7 #00000026], text [SF Pro Text Regular, 12px, SF Pro Text Semibold, 12px]
+
+## Most-Used Styles
+- N30 Silver: 105 uses
+- White: 70 uses
+- Label Color/Dark/Primary: 21 uses
+- Label Color/Light/Primary: 20 uses
+- Solid/White: 20 uses
+- Body/Bold: 10 uses
+- Solid/Black: 6 uses
+- Gradients/IG Gradient: 5 uses
+- Gradients/Rainbow: 4 uses
+- Opacity/30% Opacity White: 4 uses
+- Shade / 700: 4 uses
+- Gradient/IG Gradient: 2 uses
+- Transparent/50% White: 1 use
+- [Helper] Frame Shadow: 1 use
+
+## Layout & Structure
+Screen: 🏷️ Cover / Cover Page for Figma Projects
+- FRAME "Cover Page for Figma Projects", 1920x960px, constraints left/top, fill Gradient/IG Gradient
+  - TEXT "Instagram UI Kit 1.0", 713x191px, constraints left/top, fill #FFFFFF, text [SF UI Display Bold, 80px], [heading]
+  - TEXT "IG post & Stories template", 471x39px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 32px], [heading]
+  - FRAME "Feed Post - Sponsored", 390x844px, constraints left/top, radius 12px, fill #DDDDDD
+    - INSTANCE "Post info", 390x252px, vertical pad 0 0 24 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - FRAME "Sponsor CTA", 390x40px, horizontal pad 8 12 8 12px gap 247px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #1FA1FF
+        - TEXT "CTA copy here", 94x17px, constraints left/center, fill #FFFFFF, text [SF UI Display Bold, 14px]
+        - INSTANCE "Icons", 24x24px, constraints left/top
+          - VECTOR "Vector 7", 14x14px, constraints scale/scale, stroke #FFFFFF 2px
+      - FRAME "Icons", 390x44px, constraints left/top, fill #FFFFFF
+        - FRAME "Left icons", 96x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/center
+          - INSTANCE "Icons", 24x24px, constraints left/top
+            - VECTOR "Vector", 22.5x20px, constraints scale/scale, fill #FE0135, stroke #FE0135 1.8px
+          - INSTANCE "Icons", 24x24px, constraints left/top
+            - BOOLEAN_OPERATION "Union", 22x22px, constraints left/top, stroke #000000 1.8px
+          - INSTANCE "Icons", 24x24px, constraints left/top
+            - VECTOR "Polygon 4", 28.15x29.25px, constraints scale/scale, radius 0.3px, stroke #000000 1.8px
+        - INSTANCE "Icons", 24x24px, constraints left/top
+          - VECTOR "Rectangle 1438", 18x22px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 1.8px
+        - FRAME "Carousel Dots", 56x8px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~5 shapes]
+      - FRAME "Text", 390x144px, vertical pad 0 12 0 12px gap 6px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "100 Likes", 61x17px, constraints left/top, fill #000000, text [SF UI Display Bold, 13px]
+        - TEXT "Username Lorem ipsum dolor sit amet, consectetur adipiscing ", 364x34px, constraints left/top, fill #000000, text [SF UI Display Regular, 14px]
+        - TEXT "View all 16 comments", 364x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+        - FRAME "Comment section", 365x38px, horizontal pad 6 0 6 0px gap 158px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Avatar + Text", 139x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Avatar", 24x24px, constraints left/top, radius 100px, fill #FFFFFF
+            - TEXT "Add a comment...", 107x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+          - FRAME "Reactions", 68x26px, horizontal pad 0 0 0 0px gap 14px align max/center sizing W:fixed H:fixed, constraints right/center
+            - TEXT "❤️", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+            - TEXT "🙌", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+            - FRAME "add reactions button", 12x12px, constraints left/top, radius 100px, fill #FFFFFF, stroke #6E6E6E 0.8px
+        - TEXT "30 minutes ago", 364x14px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 12px]
+    - INSTANCE "User headers", 390x50px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Icons", 24x24px, constraints right/center
+        - GROUP "icon/more", 14x3px, constraints left/top
+          - ELLIPSE "Ellipse 3", 3x3px, constraints right/center, fill #000000
+          - ELLIPSE "Ellipse 4", 3x3px, constraints right/center, fill #000000
+          - ELLIPSE "Ellipse 5", 3x3px, constraints right/center, fill #000000
+      - FRAME "Avatar info", 84x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/center
+        - INSTANCE "Avatar", 36x36px, constraints left/top
+          - FRAME "Avatar", 30.32x30.32px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+            - RECTANGLE "Replace Photo here", 32.43x43.17px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+        - FRAME "text", 40x14px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ruffles", 40x14px, constraints left/center, fill #000000, text [SF UI Display Bold, 12px]
+    - INSTANCE "Navigation Bar", 390x40px, horizontal pad 5 13 5 13px gap 114px align center/center sizing W:fixed H:fixed, constraints left/top, fill White
+      - FRAME "Logo dropdown", 128x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - VECTOR "IG logo", 104x30px, constraints left/center, fill #000000
+        - INSTANCE "Icons", 16x16px, constraints scale/scale
+          - VECTOR "Vector 7", 9.33x9.33px, constraints scale/scale, stroke #000000 1.5px
+      - FRAME "Icons", 120x24px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icons", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 22.5x20px, constraints scale/scale, stroke #000000 1.8px
+        - INSTANCE "Icons", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 22.01x22px, constraints scale/scale, fill #6E6E6E, stroke #000000 1.8px
+          - VECTOR "Vector", 13.75x6.42px, constraints scale/scale, fill #000000
+        - INSTANCE "Icons", 24x24px, constraints scale/scale
+          - RECTANGLE "Rectangle 1429", 20x20px, constraints scale/scale, radius 5px, stroke #000000 1.8px
+          - LINE "Line 21", 0x12px, constraints scale/scale, stroke #000000 1.8px
+          - LINE "Line 22", 12x0px, constraints scale/scale, stroke #000000 1.8px
+    - FRAME "Post/1:1", 390x390px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "032_AshleyMatt 1", 471x574px, constraints left/top, fill image(hash: e10d563c5c1442309bff8647f1c82eeb6612ba71)
+      - FRAME "Post - top details", 390x43px, constraints left_right/top
+        - FRAME "Carousel chip", 30x22px, horizontal pad 4 6 4 6px gap 10px sizing W:fixed H:fixed, constraints left/center, radius 12px, fill #00000099, effect [background_blur 6px]
+          - TEXT "3/5", 18x14px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 12px]
+      - FRAME "Post - bottom details", 390x43px, constraints left_right/bottom
+        - FRAME "Tags", 24x24px, constraints left/center, radius 100px, effect [background_blur 20px]
+          - ELLIPSE "Ellipse 81", 24x24px, constraints scale/scale, fill #00000080, effect [background_blur 4px]
+          - GROUP "Group 8", 11.79x12px, constraints left/top, radius 0/0/0/0px
+            - ELLIPSE "Ellipse 82", 6.32x6.32px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Rectangle 1443", 11.79x5.05px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+    - INSTANCE "Story Tray", 390x105.75px, horizontal pad 8 8 0 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 1px offset 0 2 #0000001A]
+      - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatar", 72x72px, constraints left/top
+          - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+            - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+          - FRAME "Button", 20x20px, constraints scale/scale [decorative, ~4 shapes]
+        - TEXT "Ruffles", 59.64x25.75px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 11.5px]
+      - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatar", 72x72px, constraints left/top
+          - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+            - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 5c0c8419f15b9472f1ee26bd0910024a435f0017)
+          - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+        - TEXT "sabanok...", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+      - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatar", 72x72px, constraints left/top
+          - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+            - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7d821e7425adf756c728d159ecd918163f1bf823)
+          - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+        - TEXT "blue_bouy", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+      - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatar", 72x72px, constraints left/top
+          - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+            - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: a250d585517bb607f6262acc3ccbf7be91a53aa0)
+          - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+        - TEXT "waggles", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+      - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Avatar", 72x72px, constraints left/top
+          - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+            - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7768f39628e8130d48cd115b029fa0cb022605b3)
+          - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+        - TEXT "steve.loves", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+    - INSTANCE "HomeIndicator", 390x34px, constraints center/bottom, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill Label Color/Light/Primary
+    - INSTANCE "StatusBar", 390x47px, constraints left/top, fill #FFFFFF
+      - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+        - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+          - TEXT "✏️ Time", 54x20px, constraints left/top, fill Label Color/Light/Primary, text [Body/Bold]
+      - GROUP "Right Side", 77.4x13px, constraints left/top, fill #FFFFFF
+        - INSTANCE "_StatusBar-battery", 27.4x13px, constraints center/top
+          - VECTOR "Outline", 25x13px, constraints center/center, radius 4px, stroke #000000 1px, opacity 35%
+          - VECTOR "Battery End", 1.4x4.22px, constraints center/center, fill #000000, opacity 40%
+          - VECTOR "Fill", 21x9px, constraints center/center, radius 2px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 17x11.83px, constraints scale/scale, fill Label Color/Light/Primary
+        - VECTOR "Icon / Mobile Signal", 18x12px, constraints center/top, fill Label Color/Light/Primary
+    - INSTANCE "Navigation Bar", 390x56px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - BOOLEAN_OPERATION "Exclude", 20x20px, constraints left/top, fill #000000, stroke #000000 1px
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - ELLIPSE "Ellipse 70", 18x18px, constraints scale/scale, stroke #000000 1.8px
+        - VECTOR "Line 23", 6x6px, constraints scale/scale, stroke #000000 1.8px
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - VECTOR "Polygon 1", 6.5x7.58px, constraints scale/scale, fill #000000
+        - VECTOR "Vector 13", 4x6px, constraints left/top, stroke #000000 1.8px
+        - VECTOR "Vector 14", 4x6px, constraints left/top, stroke #000000 1.8px
+        - RECTANGLE "Rectangle 1434", 22x22px, constraints scale/scale, radius 6px, stroke #000000 1.8px
+        - VECTOR "Vector 12", 20x0px, constraints left/top, stroke #000000 1.8px
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - GROUP "Group 4", 22x22px, constraints left/top, radius 0/0/0/0px
+          - VECTOR "Rectangle 1436", 22x17.6px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 1.8px
+          - VECTOR "Ellipse 71", 6.6x3.3px, constraints scale/scale, stroke #000000 1.8px
+          - VECTOR "Ellipse 72", 6.6x4.95px, constraints scale/scale, stroke #000000 1.8px
+      - INSTANCE "Avatar", 24x32px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Avatar", 24x24px, constraints left/top, radius 100px, fill #FFFFFF
+          - RECTANGLE "Replace Photo here", 34.23x45.57px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+        - ELLIPSE "Ellipse 75", 4x4px, constraints left/top, fill #FE0135
+      - LINE "Divider", 390x0px, constraints left_right/top, stroke #0000001A 1px
+  - INSTANCE "Slider Widget", 240x85px, vertical pad 25 25 25 25px gap 18px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #000000
+    - INSTANCE "IG slider", 190x35px, constraints left/top, fill #FFFFFF
+      - GROUP "Slide bar", 190x8px, constraints left/top, radius 20px
+        - RECTANGLE "Idle", 190x8px, constraints left/top, radius 20px, fill #FFFFFF66
+        - RECTANGLE "Range bar", 96x8px, constraints left/top, radius 20px, fill gradient_linear(#BB00B1 0% | #F1000F 100%)
+      - INSTANCE "emoji", 35x35px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "emoji/Smiling face with heart eyes", 35x35px, constraints scale/scale, fill image(hash: c558643fc5e76ed5a56bba886b047a09c16d8de8)
+  - INSTANCE "Countdown Widget", 245x142px, constraints left/top, radius 12px, fill gradient_linear(#70C050 0% | #00ACFF 100%)
+    - TEXT "countdown name", 143x23px, constraints left/top, fill #FFFFFF, text [Dosis SemiBold, 18px]
+    - FRAME "hours", 66x64px, constraints left/top, fill #FFFFFF
+      - TEXT "hours", 31x13px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 11px]
+      - RECTANGLE "Rectangle 1431", 27x46px, constraints left/top, radius 5px, fill #FFFFFF, opacity 80%
+      - RECTANGLE "Rectangle 1433", 27x46px, constraints left/top, radius 5px, fill #FFFFFF, opacity 80%
+      - GROUP ":", 3.5x12.5px, constraints left/top, radius 1px
+        - RECTANGLE "Rectangle 1434", 3.5x3.5px, constraints left/top, radius 1px, fill #FFFFFF
+        - RECTANGLE "Rectangle 1435", 3.5x3.5px, constraints left/top, radius 1px, fill #FFFFFF
+      - TEXT "0", 27x46px, constraints left/top, fill #37A600, stroke #37A600 0.2px, text [Abel Regular, 27px], [heading]
+      - TEXT "1", 27x46px, constraints left/top, fill #37A600, stroke #37A600 0.2px, text [Abel Regular, 27px], [heading]
+    - FRAME "minutes", 66x64px, constraints left/top, fill #FFFFFF
+      - TEXT "minutes", 43x13px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 11px]
+      - RECTANGLE "Rectangle 1431", 27x46px, constraints left/top, radius 5px, fill #FFFFFF, opacity 80%
+      - RECTANGLE "Rectangle 1433", 27x46px, constraints left/top, radius 5px, fill #FFFFFF, opacity 80%
+      - GROUP ":", 3.5x12.5px, constraints left/top, radius 1px
+        - RECTANGLE "Rectangle 1434", 3.5x3.5px, constraints left/top, radius 1px, fill #FFFFFF
+        - RECTANGLE "Rectangle 1435", 3.5x3.5px, constraints left/top, radius 1px, fill #FFFFFF
+      - TEXT "2", 27x46px, constraints left/top, fill #37A600, stroke #37A600 0.2px, text [Abel Regular, 27px], [heading]
+      - TEXT "3", 27x46px, constraints left/top, fill #37A600, stroke #37A600 0.2px, text [Abel Regular, 27px], [heading]
+    - FRAME "Seconds", 57x64px, constraints left/top, fill #FFFFFF
+      - TEXT "seconds", 45x13px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 11px]
+      - RECTANGLE "Rectangle 1431", 27x46px, constraints left/top, radius 5px, fill #FFFFFF, opacity 80%
+      - RECTANGLE "Rectangle 1433", 27x46px, constraints left/top, radius 5px, fill #FFFFFF, opacity 80%
+      - TEXT "4", 27x46px, constraints left/top, fill #37A600, stroke #37A600 0.2px, text [Abel Regular, 27px], [heading]
+      - TEXT "5", 27x46px, constraints left/top, fill #37A600, stroke #37A600 0.2px, text [Abel Regular, 27px], [heading]
+    - FRAME "icon/arrow circle right", 24x24px, constraints left/top, fill #FFFFFF, opacity 50%
+      - ELLIPSE "Ellipse 70", 20x20px, constraints scale/scale, stroke #FFFFFF 1.3px
+      - VECTOR "Vector 7", 9.9x9.9px, constraints scale/scale, stroke #FFFFFF 1.3px
+  - INSTANCE "Mention Widget", 169.5x45px, horizontal pad 5 12 5 12px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Opacity/30% Opacity White
+    - BOOLEAN_OPERATION "Union", 17.5x25.5px, constraints left/top, fill #FFFFFF
+    - TEXT "Mention", 125x35px, constraints left/top, fill #FFFFFF, text [Dosis Medium, 35px], [heading]
+  - INSTANCE "Promo Banner", 360x49px, horizontal pad 8 8 8 8px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #B8CCB5, effect [drop_shadow 16px offset 0 7 #00000026]
+    - FRAME "Img", 33x33px, constraints left/top, radius 4px, fill #000000
+      - RECTANGLE "Replace image here", 42x42px, constraints left/top, fill image(hash: c06a8e2e9d316b10ce2157afe9f56b28efde3bc7)
+    - FRAME "Promo copy", 271x31px, vertical pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Shop Now", 271x14px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 12px]
+      - TEXT "Go to www.websitehere.com", 271x14px, constraints left/top, fill #000000, text [SF Pro Text Regular, 12px]
+    - INSTANCE "Icons", 16x16px, constraints left/top
+      - VECTOR "Vector 7", 9.33x9.33px, constraints scale/scale, stroke #000000 2px
+  - INSTANCE "Quiz Widget/Black", 250x301px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Question", 250x65px, constraints left/top, fill #FFFFFF
+      - VECTOR "Rectangle 184", 250x65px, constraints left/top, radius 0/0/0/0px, fill #252526
+      - TEXT "Write your question here. Keep it short!", 228x40px, constraints left/top, fill #FFFFFF, text [Dosis SemiBold, 16px]
+    - FRAME "Choices", 250x236px, vertical pad 12 0 12 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/12/12px, fill #FFFFFF
+      - FRAME "B", 224x44px, horizontal pad 11 12 11 12px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF, stroke #D0D0D0 1px
+        - FRAME "C", 22x22px, constraints left/top, radius 100px, fill #FFFFFF, stroke #000000 1.5px
+          - TEXT "A", 10x20px, constraints center/center, fill #000000, text [SF UI Display Medium, 14px]
+        - TEXT "Answer 1", 170x20px, constraints left/top, fill #747474, text [SF Pro Text Regular, 14px]
+      - FRAME "B", 224x44px, horizontal pad 11 12 11 12px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF, stroke #D0D0D0 1px
+        - FRAME "C", 22x22px, constraints left/top, radius 100px, fill #FFFFFF, stroke #000000 1.5px
+          - TEXT "B", 9x20px, constraints center/center, fill #000000, text [SF UI Display Medium, 14px]
+        - TEXT "Answer 2", 170x20px, constraints left/top, fill #747474, text [SF Pro Text Regular, 14px]
+      - FRAME "C", 224x44px, horizontal pad 11 12 11 12px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF, stroke #D0D0D0 1px
+        - FRAME "C", 22x22px, constraints left/top, radius 100px, fill #FFFFFF, stroke #000000 1.5px
+          - TEXT "C", 10x20px, constraints center/center, fill #000000, text [SF UI Display Medium, 14px]
+        - TEXT "Answer 3", 170x20px, constraints left/top, fill #747474, text [SF Pro Text Regular, 14px]
+      - FRAME "Correct Answer", 224x44px, horizontal pad 11 12 11 12px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #00D047
+        - FRAME "Check", 22x22px, constraints left/top, radius 100px, fill #FFFFFF
+          - VECTOR "Vector 16", 9x6px, constraints center/center, stroke #00D047 1.8px
+        - TEXT "Correct", 170x20px, constraints left/top, fill Solid/White, text [SF Pro Text Regular, 14px]
+  - INSTANCE "Question Widget", 267x203px, constraints left/top, fill #FFFFFF
+    - BOOLEAN_OPERATION "Union", 253.47x192.14px, constraints left/top, fill #000000, stroke #000000 3px
+    - FRAME "Question answer", 225.73x117.1px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Edit, change and input copy here! Try your best to keep it t", 224.05x60px, constraints scale/scale, fill #FFFFFF, text [SF UI Display Medium, 16px]
+      - FRAME "Comment input", 225.73x37.1px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 182", 225.73x37.1px, constraints left/top, radius 7px, fill #404040
+        - TEXT "Type something....", 194x22px, constraints left/top, fill #ABABAB, text [SF UI Display Regular, 13px]
+    - INSTANCE "Avatar", 42x42px, constraints left/top, radius 100px, fill #FFFFFF
+      - RECTANGLE "Replace Photo here", 59.9x79.75px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+  - FRAME "Profile - new following", 390x844px, constraints left/top, radius 12px, fill #DDDDDD
+    - FRAME "Grid Photo view", 390x646.02px, constraints left/top, fill #FFFFFF, stroke #B4B4B4 1px [decorative, ~26 shapes]
+    - INSTANCE "Tab navi bar", 390x50px, constraints left_right/top, fill Solid/Black
+      - INSTANCE "Tab components", 130x40px, constraints left_right/bottom
+        - INSTANCE "Icons", 24x24px, constraints center/center
+          - VECTOR "Vector", 16.19x16px, constraints center/top, stroke #FFFFFF 1.8px
+        - RECTANGLE "Selected", 130x1px, constraints left_right/bottom, fill #FFFFFF
+      - INSTANCE "Tab components", 130x40px, constraints left_right/bottom, opacity 50%
+        - INSTANCE "Icons", 24x24px, constraints center/center
+          - VECTOR "Polygon 1", 6.5x7.58px, constraints scale/scale, fill #C4C4C4
+          - VECTOR "Vector 13", 4x6px, constraints left/top, stroke #C4C4C4 1.8px
+          - VECTOR "Vector 14", 4x6px, constraints left/top, stroke #C4C4C4 1.8px
+          - RECTANGLE "Rectangle 1434", 22x22px, constraints scale/scale, radius 6px, stroke #C4C4C4 1.8px
+          - VECTOR "Vector 12", 20x0px, constraints left/top, stroke #C4C4C4 1.8px
+      - INSTANCE "Tab components", 130x40px, constraints left_right/bottom, opacity 50%
+        - INSTANCE "Icons", 24x24px, constraints center/center
+          - BOOLEAN_OPERATION "Union", 22x21.87px, constraints left/top, stroke #C4C4C4 1.8px
+          - ELLIPSE "Ellipse 74", 8x8px, constraints left/top, stroke #C4C4C4 1.8px
+          - VECTOR "Vector 15", 14x4px, constraints left/top, radius 14px, stroke #C4C4C4 1.8px
+    - FRAME "Username and info", 390x234px, vertical pad 6 12 10 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - FRAME "User info", 366x89px, vertical pad 0 0 0 0px gap 3px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - TEXT "Username", 344x16px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 13px]
+        - TEXT "Category/Genre text", 344x16px, constraints left/top, fill #FFFFFF80, text [SF UI Display Bold, 13px]
+        - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed", 344x32px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 13px]
+        - TEXT "Link goes here", 344x16px, constraints left/top, fill #004C8B, text [SF UI Display Bold, 13px]
+      - FRAME "Followers", 366x36px, horizontal pad 0 0 4 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Avatars", 54x26px, constraints left/top
+          - FRAME "Avatar", 26x26px, constraints left/top, radius 100px, fill #DDDDDD, stroke #000000 1.5px
+            - RECTANGLE "Replace Photo here", 33x45px, constraints scale/scale, fill image(hash: a250d585517bb607f6262acc3ccbf7be91a53aa0)
+          - FRAME "Avatar", 26x26px, constraints left/top, radius 100px, fill #DDDDDD, stroke #000000 1.5px
+            - RECTANGLE "Replace Photo here", 35x47px, constraints left/top, fill image(hash: d1498caab2525cc395b7459d400d8da29570c3fb)
+          - FRAME "Avatar", 26x26px, constraints left/top, radius 100px, fill #DDDDDD, stroke #000000 1.5px
+            - RECTANGLE "Replace Photo here", 33x45px, constraints scale/scale, fill image(hash: 5c0c8419f15b9472f1ee26bd0910024a435f0017)
+        - TEXT "Followed by username, username and 100 others", 300x32px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 13px]
+      - INSTANCE "Buttons", 366x69px, constraints left/top, fill #FFFFFF
+        - FRAME "Button", 366x30px, horizontal pad 7 142 7 142px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #1FA1FF
+          - TEXT "Follow", 60x16px, constraints left/top, fill #FFFFFF, text [SF UI Display Bold, 13px]
+        - FRAME "Button", 105x30px, horizontal pad 7 142 7 142px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EFEFEF33
+          - TEXT "Message", 55x16px, constraints left/top, fill #FFFFFF, text [SF UI Display Bold, 13px]
+        - FRAME "Button", 106x30px, horizontal pad 7 142 7 142px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EFEFEF33
+          - TEXT "Subscribe", 62x16px, constraints left/top, fill #FFFFFF, text [SF UI Display Bold, 13px]
+        - FRAME "Button", 105x30px, horizontal pad 7 142 7 142px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EFEFEF33
+          - TEXT "Contact", 49x16px, constraints left/top, fill #FFFFFF, text [SF UI Display Bold, 13px]
+        - FRAME "Button", 32x30px, horizontal pad 7 7 7 7px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EFEFEF33 [decorative, ~4 shapes]
+    - INSTANCE "Promo Banner", 360x49px, horizontal pad 8 8 8 8px gap 12px align center/center sizing W:fixed H:fixed, constraints center/bottom, radius 8px, fill #B8CCB5, effect [drop_shadow 16px offset 0 7 #00000026]
+      - FRAME "Img", 33x33px, constraints left/top, radius 4px, fill #000000
+        - RECTANGLE "Replace image here", 42x42px, constraints left/top, fill image(hash: c06a8e2e9d316b10ce2157afe9f56b28efde3bc7)
+      - FRAME "Promo copy", 271x31px, vertical pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Shop Now", 271x14px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 12px]
+        - TEXT "Go to www.websitehere.com", 271x14px, constraints left/top, fill #000000, text [SF Pro Text Regular, 12px]
+      - INSTANCE "Icons", 16x16px, constraints left/top
+        - VECTOR "Vector 7", 9.33x9.33px, constraints scale/scale, stroke #000000 2px
+    - INSTANCE "Saved IG stories", 390x86px, horizontal pad 4 9 4 9px gap 18px sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - FRAME "IG Story 1", 60x78px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story Reels Image", 60x60px, constraints left/top
+          - ELLIPSE "Ellipse 80", 60x60px, constraints left/top, stroke #C4C4C4 1px
+          - FRAME "Replace image here", 52x52px, constraints left/top, radius 100px, fill #FFFFFF
+            - RECTANGLE "IMG", 55x55px, constraints left/top, fill image(hash: cbe51a4aa702b051b862317382f3eaf0a87edcd8)
+        - TEXT "Text here", 53x14px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 12px]
+      - FRAME "IG Story 2", 60x78px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story Reels Image", 60x60px, constraints left/top
+          - ELLIPSE "Ellipse 80", 60x60px, constraints left/top, stroke #C4C4C4 1px
+          - FRAME "Replace image here", 52x52px, constraints left/top, radius 100px, fill #FFFFFF
+            - RECTANGLE "IMG", 55x55px, constraints left/top, fill image(hash: 342d19bd4d3f8636738fb915399c4119f0305ae7)
+        - TEXT "Text here", 53x14px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 12px]
+      - FRAME "IG Story 3", 60x78px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story Reels Image", 60x60px, constraints left/top
+          - ELLIPSE "Ellipse 80", 60x60px, constraints left/top, stroke #C4C4C4 1px
+          - FRAME "Replace image here", 52x52px, constraints left/top, radius 100px, fill #FFFFFF
+            - RECTANGLE "IMG", 55x55px, constraints left/top, fill image(hash: 16adf6f680bb75489fe3df263fffa9ecbede7010)
+        - TEXT "Text here", 53x14px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 12px]
+      - FRAME "IG Story 4", 60x78px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story Reels Image", 60x60px, constraints left/top
+          - ELLIPSE "Ellipse 80", 60x60px, constraints left/top, stroke #C4C4C4 1px
+          - FRAME "Replace image here", 52x52px, constraints left/top, radius 100px, fill #FFFFFF
+            - RECTANGLE "IMG", 55x55px, constraints left/top, fill image(hash: 4eafa5877e673dbbf047459012ca20b048837b4a)
+        - TEXT "Text here", 53x14px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 12px]
+      - FRAME "IG Story 5", 60x78px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Story Reels Image", 60x60px, constraints left/top
+          - ELLIPSE "Ellipse 80", 60x60px, constraints left/top, stroke #C4C4C4 1px
+          - FRAME "Replace image here", 52x52px, constraints left/top, radius 100px, fill #FFFFFF
+            - RECTANGLE "IMG", 55x55px, constraints left/top, fill image(hash: e19acdf7a40b02ccccf41ce40cdf757fae329e81)
+        - TEXT "Text here", 53x14px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 12px]
+    - INSTANCE "User profile data", 390x90px, horizontal pad 0 12 0 12px gap 60px align min/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - INSTANCE "Avatar", 90x90px, constraints left/top
+        - FRAME "Avatar", 75.79x75.79px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: ⏰ Change log / Change log
+- FRAME "Change log", 811x858px, vertical pad 40 40 40 40px gap 32px sizing W:fixed H:fixed, constraints left/top, radius 24px, stroke Transparent/50% White 1px
+  - TEXT "Change log", 255x60px, constraints left/top, fill #FFFFFF, text [SF UI Display Medium, 50px], [heading]
+  - TEXT "12.04.22", 124x38px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 32px], [heading]
+  - FRAME "Frame 1", 665x130px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "IMG", 200x130px, constraints left/top, radius 12px, fill #FFFFFF
+      - RECTANGLE "Screenshot 2022-12-04 at 2.18 1", 295x196px, constraints left/top, fill image(hash: 17b4760b1d0ec5f4aa28f9aa87615423282c3871)
+    - FRAME "Text", 441x86px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Update UI components", 246x29px, constraints left/top, fill #FFFFFF, text [SF UI Display Medium, 24px], [heading]
+      - TEXT "Refined component UI elements and assets to reflect Instagra", 441x48px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 20px]
+  - FRAME "Frame 2", 512x130px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "IMG", 200x130px, constraints left/top, radius 12px, fill #D3D8DD
+      - RECTANGLE "Screenshot 2022-12-04 at 2.19 1", 183x122px, constraints left/top, fill image(hash: 3f629620cb6f2207d2af7c630d3f2e11575f4a0e)
+    - FRAME "Text", 288x86px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Added icon library", 193x29px, constraints left/top, fill #FFFFFF, text [SF UI Display Medium, 24px], [heading]
+      - TEXT "More icons have been added and created as variants!", 288x48px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 20px]
+  - FRAME "Frame 3", 731x130px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "IMG", 200x130px, constraints left/top, radius 12px, fill #D3D8DD
+      - RECTANGLE "Screenshot 2022-12-04 at 2.21 1", 152x207px, constraints left/top, fill image(hash: 88c8779d6e3603ab5f1447074a93033d8c39df86)
+    - FRAME "Text", 507x86px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "IG Stories Widgets", 197x29px, constraints left/top, fill #FFFFFF, text [SF UI Display Medium, 24px], [heading]
+      - TEXT "Widgets have slightly changed designs. Components altered to", 507x48px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 20px]
+  - FRAME "Frame 4", 731x130px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "IMG", 200x130px, constraints left/top, radius 12px, fill Gradient/IG Gradient
+      - RECTANGLE "1_1 Post share 1", 154x198px, constraints left/top, fill image(hash: 793bdc982ef175f9c192648224b15b6b35016d1f)
+      - RECTANGLE "Profile - Reel View 1", 158x204px, constraints left/top, fill image(hash: c609b83e9200ba9d661806454a363ea8c1b9b677)
+    - FRAME "Text", 507x62px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "IG UI Kit 2.0 ✨", 161x29px, constraints left/top, fill #FFFFFF, text [SF UI Display Medium, 24px], [heading]
+      - TEXT "Extended Kit available soon. Sign up for the waitlist here!", 507x24px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 20px]
+
+Screen: 💕 Credits / Credits
+- FRAME "Credits", 847x602px, vertical pad 40 40 40 40px gap 32px align center/min sizing W:fixed H:fixed, constraints left/top, radius 24px, fill #FFFFFF
+  - FRAME "Frame 1", 767x178px, constraints left/top
+    - TEXT "🎨️ Template designed and built by by Ashley Gaunt-Seo", 512x26px, constraints left/top, fill Solid/Black, text [Airbnb Cereal Book, 16px]
+    - TEXT "Thank you so much for choosing my template for your social m", 585x40px, constraints left/top, fill #00000080, text [IBM Plex Mono Medium, 14px]
+    - FRAME "Avatar", 120x120px, constraints left/top, radius 500px, fill #FFFFFF
+      - RECTANGLE "IMG_0566 1", 123.3x144.4px, constraints scale/scale, fill image(hash: 238fd1fd0cb825a5f348a5905c3abc1944bb9743)
+    - FRAME "Button", 198x48px, horizontal pad 12 18 12 18px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #E4E8EC, effect [drop_shadow 8px offset 0 4 #00000026]
+      - FRAME "App", 24x24px, constraints left/top, radius 100px, fill #FFD800, effect [Helper] Frame Shadow
+        - RECTANGLE "✏️ Icon", 24x24px, constraints scale/scale, fill image(hash: 76d40cc383f31640d140ee096f1f0770f9e0024a)
+      - TEXT "Buy Ashley Beer", 126x20px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 14px]
+  - TEXT "Credits 🎉 IG stories made possible by Airbnb! Stock photo do", 767x312px, constraints left/top, fill Solid/Black, text [Airbnb Cereal Book, 16px]
+
+Screen: IG Post Templates / Feed Post - 1:1 photo
+- FRAME "Feed Post - 1:1 photo", 390x844px, constraints left/top, fill #DDDDDD
+  - INSTANCE "User headers", 390x50px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 24x24px, constraints right/center
+      - GROUP "icon/more", 14x3px, constraints left/top
+        - ELLIPSE "Ellipse 3", 3x3px, constraints right/center, fill #000000
+        - ELLIPSE "Ellipse 4", 3x3px, constraints right/center, fill #000000
+        - ELLIPSE "Ellipse 5", 3x3px, constraints right/center, fill #000000
+    - FRAME "Avatar info", 98x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Avatar", 36x36px, constraints left/top
+        - FRAME "Avatar", 30.32x30.32px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 32.43x43.17px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+        - ELLIPSE "Story ring", 36x36px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 1.5px
+      - FRAME "text", 54x29px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Ruffles", 40x14px, constraints left/center, fill #000000, text [SF UI Display Bold, 12px]
+        - TEXT "Sponsored", 54x13px, constraints left/center, fill #000000, text [SF UI Display Regular, 11px]
+  - INSTANCE "Navigation Bar", 390x40px, horizontal pad 5 13 5 13px gap 114px align center/center sizing W:fixed H:fixed, constraints left/top, fill White
+    - FRAME "Logo dropdown", 128x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "IG logo", 104x30px, constraints left/center, fill #000000
+      - INSTANCE "Icons", 16x16px, constraints scale/scale
+        - VECTOR "Vector 7", 9.33x9.33px, constraints scale/scale, stroke #000000 1.5px
+    - FRAME "Icons", 120x24px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.5x20px, constraints scale/scale, stroke #000000 1.8px
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.01x22px, constraints scale/scale, fill #6E6E6E, stroke #000000 1.8px
+        - VECTOR "Vector", 13.75x6.42px, constraints scale/scale, fill #000000
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - RECTANGLE "Rectangle 1429", 20x20px, constraints scale/scale, radius 5px, stroke #000000 1.8px
+        - LINE "Line 21", 0x12px, constraints scale/scale, stroke #000000 1.8px
+        - LINE "Line 22", 12x0px, constraints scale/scale, stroke #000000 1.8px
+  - FRAME "Post/1:1", 390x390px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "032_AshleyMatt 1", 471x574px, constraints left/top, fill image(hash: e10d563c5c1442309bff8647f1c82eeb6612ba71)
+    - FRAME "Post - top details", 390x43px, constraints left_right/top
+    - FRAME "Post - bottom details", 390x43px, constraints left_right/bottom
+      - FRAME "Tags", 24x24px, constraints left/center, radius 100px, effect [background_blur 20px]
+        - ELLIPSE "Ellipse 81", 24x24px, constraints scale/scale, fill #00000080, effect [background_blur 4px]
+        - GROUP "Group 8", 11.79x12px, constraints left/top, radius 0/0/0/0px
+          - ELLIPSE "Ellipse 82", 6.32x6.32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Rectangle 1443", 11.79x5.05px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "Story Tray", 390x105.75px, horizontal pad 8 8 0 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 1px offset 0 2 #0000001A]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+        - FRAME "Button", 20x20px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "Ruffles", 59.64x25.75px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 5c0c8419f15b9472f1ee26bd0910024a435f0017)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "sabanok...", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7d821e7425adf756c728d159ecd918163f1bf823)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "blue_bouy", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: a250d585517bb607f6262acc3ccbf7be91a53aa0)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "waggles", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7768f39628e8130d48cd115b029fa0cb022605b3)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "steve.loves", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+  - INSTANCE "Post info", 390x212px, vertical pad 0 0 24 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Icons", 390x44px, constraints left/top, fill #FFFFFF
+      - FRAME "Left icons", 96x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/center
+        - INSTANCE "Icons", 24x24px, constraints left/top
+          - VECTOR "Vector", 22.5x20px, constraints scale/scale, fill #FE0135, stroke #FE0135 1.8px
+        - INSTANCE "Icons", 24x24px, constraints left/top
+          - BOOLEAN_OPERATION "Union", 22x22px, constraints left/top, stroke #000000 1.8px
+        - INSTANCE "Icons", 24x24px, constraints left/top
+          - VECTOR "Polygon 4", 28.15x29.25px, constraints scale/scale, radius 0.3px, stroke #000000 1.8px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - VECTOR "Rectangle 1438", 18x22px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 1.8px
+    - FRAME "Text", 390x144px, vertical pad 0 12 0 12px gap 6px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "100 Likes", 61x17px, constraints left/top, fill #000000, text [SF UI Display Bold, 13px]
+      - TEXT "Username Lorem ipsum dolor sit amet, consectetur adipiscing ", 364x34px, constraints left/top, fill #000000, text [SF UI Display Regular, 14px]
+      - TEXT "View all 16 comments", 364x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+      - FRAME "Comment section", 365x38px, horizontal pad 6 0 6 0px gap 158px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Avatar + Text", 139x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Avatar", 24x24px, constraints left/top, radius 100px, fill #FFFFFF
+            - RECTANGLE "Replace Photo here", 34.23x45.57px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+          - TEXT "Add a comment...", 107x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+        - FRAME "Reactions", 68x26px, horizontal pad 0 0 0 0px gap 14px align max/center sizing W:fixed H:fixed, constraints right/center
+          - TEXT "❤️", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+          - TEXT "🙌", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+          - FRAME "add reactions button", 12x12px, constraints left/top, radius 100px, fill #FFFFFF, stroke #6E6E6E 0.8px
+            - BOOLEAN_OPERATION "Union", 6x6px, constraints left/top, fill #6E6E6E
+      - TEXT "30 minutes ago", 364x14px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 12px]
+  - INSTANCE "HomeIndicator", 390x34px, constraints center/bottom, fill #FFFFFF
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill Label Color/Light/Primary
+  - INSTANCE "StatusBar", 390x47px, constraints left/top, fill #FFFFFF
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "✏️ Time", 54x20px, constraints left/top, fill Label Color/Light/Primary, text [Body/Bold]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_StatusBar-battery", 27.4x13px, constraints center/top
+        - VECTOR "Outline", 25x13px, constraints center/center, radius 4px, stroke #000000 1px, opacity 35%
+        - VECTOR "Battery End", 1.4x4.22px, constraints center/center, fill #000000, opacity 40%
+        - VECTOR "Fill", 21x9px, constraints center/center, radius 2px, fill #000000
+      - BOOLEAN_OPERATION "Wifi", 17x11.83px, constraints scale/scale, fill Label Color/Light/Primary
+      - VECTOR "Icon / Mobile Signal", 18x12px, constraints center/top, fill Label Color/Light/Primary
+  - INSTANCE "Navigation Bar", 390x56px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - BOOLEAN_OPERATION "Exclude", 20x20px, constraints left/top, fill #000000, stroke #000000 1px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - ELLIPSE "Ellipse 70", 18x18px, constraints scale/scale, stroke #000000 1.8px
+      - VECTOR "Line 23", 6x6px, constraints scale/scale, stroke #000000 1.8px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - VECTOR "Polygon 1", 6.5x7.58px, constraints scale/scale, fill #000000
+      - VECTOR "Vector 13", 4x6px, constraints left/top, stroke #000000 1.8px
+      - VECTOR "Vector 14", 4x6px, constraints left/top, stroke #000000 1.8px
+      - RECTANGLE "Rectangle 1434", 22x22px, constraints scale/scale, radius 6px, stroke #000000 1.8px
+      - VECTOR "Vector 12", 20x0px, constraints left/top, stroke #000000 1.8px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - GROUP "Group 4", 22x22px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Rectangle 1436", 22x17.6px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 1.8px
+        - VECTOR "Ellipse 71", 6.6x3.3px, constraints scale/scale, stroke #000000 1.8px
+        - VECTOR "Ellipse 72", 6.6x4.95px, constraints scale/scale, stroke #000000 1.8px
+    - INSTANCE "Avatar", 24x32px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Avatar", 24x24px, constraints left/top, radius 100px, fill #FFFFFF
+        - RECTANGLE "Replace Photo here", 34.23x45.57px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+      - ELLIPSE "Ellipse 75", 4x4px, constraints left/top, fill #FE0135
+    - LINE "Divider", 390x0px, constraints left_right/top, stroke #0000001A 1px
+
+Screen: IG Post Templates / Post/1:1
+- FRAME "Post/1:1", 390x390px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "032_AshleyMatt 1", 471x574px, constraints left/top, fill image(hash: e10d563c5c1442309bff8647f1c82eeb6612ba71)
+  - FRAME "Post - top details", 390x43px, constraints left_right/top
+    - FRAME "Carousel chip", 30x22px, horizontal pad 4 6 4 6px gap 10px sizing W:fixed H:fixed, constraints left/center, radius 12px, fill #00000099, effect [background_blur 6px]
+      - TEXT "3/5", 18x14px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 12px]
+  - FRAME "Post - bottom details", 390x43px, constraints left_right/bottom
+    - FRAME "Tags", 24x24px, constraints left/center, radius 100px, effect [background_blur 20px]
+      - ELLIPSE "Ellipse 81", 24x24px, constraints scale/scale, fill #00000080, effect [background_blur 4px]
+      - GROUP "Group 8", 11.79x12px, constraints left/top, radius 0/0/0/0px
+        - ELLIPSE "Ellipse 82", 6.32x6.32px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle 1443", 11.79x5.05px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+
+Screen: IG Post Templates / Feed Post - 1:1 photo
+- FRAME "Feed Post - 1:1 photo", 390x844px, constraints left/top, fill #DDDDDD
+  - INSTANCE "Navigation Bar", 390x40px, horizontal pad 5 13 5 13px gap 114px align center/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+    - FRAME "Logo dropdown", 128x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "IG logo", 104x30px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Icons", 16x16px, constraints scale/scale
+        - VECTOR "Vector 7", 9.33x9.33px, constraints scale/scale, stroke #FFFFFF 1.5px
+    - FRAME "Icons", 120x24px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.5x20px, constraints scale/scale, stroke #FFFFFF 1.8px
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.01x22px, constraints scale/scale, fill #6E6E6E, stroke #FFFFFF 1.8px
+        - VECTOR "Vector", 13.75x6.42px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - RECTANGLE "Rectangle 1429", 20x20px, constraints scale/scale, radius 5px, stroke #FFFFFF 1.8px
+        - LINE "Line 21", 0x12px, constraints scale/scale, stroke #FFFFFF 1.8px
+        - LINE "Line 22", 12x0px, constraints scale/scale, stroke #FFFFFF 1.8px
+  - FRAME "Post/1:1", 390x390px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "032_AshleyMatt 1", 471x574px, constraints left/top, fill image(hash: e10d563c5c1442309bff8647f1c82eeb6612ba71)
+    - FRAME "Post - top details", 390x43px, constraints left_right/top
+    - FRAME "Post - bottom details", 390x43px, constraints left_right/bottom
+      - FRAME "Tags", 24x24px, constraints left/center, radius 100px, effect [background_blur 20px]
+        - ELLIPSE "Ellipse 81", 24x24px, constraints scale/scale, fill #00000080, effect [background_blur 4px]
+        - GROUP "Group 8", 11.79x12px, constraints left/top, radius 0/0/0/0px
+          - ELLIPSE "Ellipse 82", 6.32x6.32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Rectangle 1443", 11.79x5.05px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "User headers", 390x50px, constraints left/top, fill #000000
+    - INSTANCE "Icons", 24x24px, constraints right/center
+      - GROUP "icon/more", 14x3px, constraints left/top
+        - ELLIPSE "Ellipse 3", 3x3px, constraints right/center, fill #FFFFFF
+        - ELLIPSE "Ellipse 4", 3x3px, constraints right/center, fill #FFFFFF
+        - ELLIPSE "Ellipse 5", 3x3px, constraints right/center, fill #FFFFFF
+    - FRAME "Avatar info", 98x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Avatar", 36x36px, constraints left/top
+        - FRAME "Avatar", 30.32x30.32px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 32.43x43.17px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+        - ELLIPSE "Story ring", 36x36px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 1.5px
+      - FRAME "text", 54x29px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Ruffles", 40x14px, constraints left/center, fill #FFFFFF, text [SF UI Display Bold, 12px]
+        - TEXT "Sponsored", 54x13px, constraints left/center, fill #FFFFFF, text [SF UI Display Regular, 11px]
+  - INSTANCE "Story Tray", 390x105.75px, horizontal pad 8 8 0 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill #000000, effect [drop_shadow 1px offset 0 2 #0000001A]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+        - FRAME "Button", 20x20px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "Ruffles", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 5c0c8419f15b9472f1ee26bd0910024a435f0017)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "sabanok...", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7d821e7425adf756c728d159ecd918163f1bf823)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "blue_bouy", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: a250d585517bb607f6262acc3ccbf7be91a53aa0)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "waggles", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7768f39628e8130d48cd115b029fa0cb022605b3)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "steve.loves", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+  - INSTANCE "Post info", 390x212px, vertical pad 0 0 24 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #000000
+    - FRAME "Icons", 390x44px, constraints left/top, fill #000000
+      - FRAME "Left icons", 96x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/center
+        - INSTANCE "Icons", 24x24px, constraints left/top, fill #000000
+          - VECTOR "Vector", 22.5x20px, constraints scale/scale, stroke #FFFFFF 1.8px
+        - INSTANCE "Icons", 24x24px, constraints left/top, fill #000000
+          - BOOLEAN_OPERATION "Union", 22x22px, constraints left/top, stroke #FFFFFF 1.8px
+        - INSTANCE "Icons", 24x24px, constraints left/top, fill #000000
+          - VECTOR "Polygon 4", 28.15x29.25px, constraints scale/scale, radius 0.3px, stroke #FFFFFF 1.8px
+      - INSTANCE "Icons", 24x24px, constraints left/top, fill #000000
+        - VECTOR "Rectangle 1438", 18x22px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.8px
+    - FRAME "Text", 390x144px, vertical pad 0 12 0 12px gap 6px sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - TEXT "100 Likes", 61x17px, constraints left/top, fill #FFFFFF, text [SF UI Display Bold, 13px]
+      - TEXT "Username Lorem ipsum dolor sit amet, consectetur adipiscing ", 364x34px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 14px]
+      - TEXT "View all 16 comments", 364x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+      - FRAME "Comment section", 365x38px, horizontal pad 6 0 6 0px gap 158px align min/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+        - FRAME "Avatar + Text", 139x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Avatar", 24x24px, constraints left/top, radius 100px, fill #000000
+            - RECTANGLE "Replace Photo here", 34.23x45.57px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+          - TEXT "Add a comment...", 107x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+        - FRAME "Reactions", 68x26px, horizontal pad 0 0 0 0px gap 14px align max/center sizing W:fixed H:fixed, constraints right/center
+          - TEXT "❤️", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+          - TEXT "🙌", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+          - FRAME "add reactions button", 12x12px, constraints left/top, radius 100px, fill #000000, stroke #6E6E6E 0.8px
+            - BOOLEAN_OPERATION "Union", 6x6px, constraints left/top, fill #6E6E6E
+      - TEXT "30 minutes ago", 364x14px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 12px]
+  - INSTANCE "HomeIndicator", 390x34px, constraints center/bottom, fill #000000
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - INSTANCE "StatusBar", 390x47px, constraints left/top, fill #000000
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "✏️ Time", 54x20px, constraints left/top, fill Label Color/Dark/Primary, text [Body/Bold]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_StatusBar-battery", 27.4x13px, constraints center/top
+        - VECTOR "Outline", 25x13px, constraints center/center, radius 4px, stroke #FFFFFF 1.06px, opacity 35%
+        - VECTOR "Battery End", 1.4x4.22px, constraints center/center, fill #FFFFFF, opacity 40%
+        - VECTOR "Fill", 15x9px, constraints center/center, radius 2px, fill #FFFFFF
+      - BOOLEAN_OPERATION "Wifi", 17x11.83px, constraints scale/scale, fill Label Color/Dark/Primary
+      - VECTOR "Icon / Mobile Signal", 18x12px, constraints center/top, fill Label Color/Dark/Primary
+  - INSTANCE "Navigation Bar", 390x56px, constraints left/top, fill #000000
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - BOOLEAN_OPERATION "Exclude", 20x20px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 1px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - ELLIPSE "Ellipse 70", 18x18px, constraints scale/scale, stroke #FFFFFF 1.8px
+      - VECTOR "Line 23", 6x6px, constraints scale/scale, stroke #FFFFFF 1.8px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - VECTOR "Polygon 1", 6.5x7.58px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector 13", 4x6px, constraints left/top, stroke #FFFFFF 1.8px
+      - VECTOR "Vector 14", 4x6px, constraints left/top, stroke #FFFFFF 1.8px
+      - RECTANGLE "Rectangle 1434", 22x22px, constraints scale/scale, radius 6px, stroke #FFFFFF 1.8px
+      - VECTOR "Vector 12", 20x0px, constraints left/top, stroke #FFFFFF 1.8px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - GROUP "Group 4", 22x22px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Rectangle 1436", 22x17.6px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.8px
+        - VECTOR "Ellipse 71", 6.6x3.3px, constraints scale/scale, stroke #FFFFFF 1.8px
+        - VECTOR "Ellipse 72", 6.6x4.95px, constraints scale/scale, stroke #FFFFFF 1.8px
+    - INSTANCE "Avatar", 24x32px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Avatar", 24x24px, constraints left/top, radius 100px, fill #FFFFFF
+        - RECTANGLE "Replace Photo here", 34.23x45.57px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+      - ELLIPSE "Ellipse 75", 4x4px, constraints left/top, fill #FE0135
+    - LINE "Divider", 390x0px, constraints left_right/top, stroke #FFFFFF1A 1px
+
+Screen: IG Post Templates / Feed Post - Sponsored
+- FRAME "Feed Post - Sponsored", 390x844px, constraints left/top, fill #DDDDDD
+  - INSTANCE "User headers", 390x50px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 24x24px, constraints right/center
+      - GROUP "icon/more", 14x3px, constraints left/top
+        - ELLIPSE "Ellipse 3", 3x3px, constraints right/center, fill #000000
+        - ELLIPSE "Ellipse 4", 3x3px, constraints right/center, fill #000000
+        - ELLIPSE "Ellipse 5", 3x3px, constraints right/center, fill #000000
+    - FRAME "Avatar info", 84x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Avatar", 36x36px, constraints left/top
+        - FRAME "Avatar", 30.32x30.32px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 32.43x43.17px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+      - FRAME "text", 40x14px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Ruffles", 40x14px, constraints left/center, fill #000000, text [SF UI Display Bold, 12px]
+  - INSTANCE "Navigation Bar", 390x40px, horizontal pad 5 13 5 13px gap 114px align center/center sizing W:fixed H:fixed, constraints left/top, fill White
+    - FRAME "Logo dropdown", 128x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "IG logo", 104x30px, constraints left/center, fill #000000
+      - INSTANCE "Icons", 16x16px, constraints scale/scale
+        - VECTOR "Vector 7", 9.33x9.33px, constraints scale/scale, stroke #000000 1.5px
+    - FRAME "Icons", 120x24px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.5x20px, constraints scale/scale, stroke #000000 1.8px
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.01x22px, constraints scale/scale, fill #6E6E6E, stroke #000000 1.8px
+        - VECTOR "Vector", 13.75x6.42px, constraints scale/scale, fill #000000
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - RECTANGLE "Rectangle 1429", 20x20px, constraints scale/scale, radius 5px, stroke #000000 1.8px
+        - LINE "Line 21", 0x12px, constraints scale/scale, stroke #000000 1.8px
+        - LINE "Line 22", 12x0px, constraints scale/scale, stroke #000000 1.8px
+  - FRAME "Post/1:1", 390x390px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "032_AshleyMatt 1", 471x574px, constraints left/top, fill image(hash: e10d563c5c1442309bff8647f1c82eeb6612ba71)
+    - FRAME "Post - top details", 390x43px, constraints left_right/top
+      - FRAME "Carousel chip", 30x22px, horizontal pad 4 6 4 6px gap 10px sizing W:fixed H:fixed, constraints left/center, radius 12px, fill #00000099, effect [background_blur 6px]
+        - TEXT "3/5", 18x14px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 12px]
+    - FRAME "Post - bottom details", 390x43px, constraints left_right/bottom
+      - FRAME "Tags", 24x24px, constraints left/center, radius 100px, effect [background_blur 20px]
+        - ELLIPSE "Ellipse 81", 24x24px, constraints scale/scale, fill #00000080, effect [background_blur 4px]
+        - GROUP "Group 8", 11.79x12px, constraints left/top, radius 0/0/0/0px
+          - ELLIPSE "Ellipse 82", 6.32x6.32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Rectangle 1443", 11.79x5.05px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "Story Tray", 390x105.75px, horizontal pad 8 8 0 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect [drop_shadow 1px offset 0 2 #0000001A]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+        - FRAME "Button", 20x20px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "Ruffles", 59.64x25.75px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 5c0c8419f15b9472f1ee26bd0910024a435f0017)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "sabanok...", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7d821e7425adf756c728d159ecd918163f1bf823)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "blue_bouy", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: a250d585517bb607f6262acc3ccbf7be91a53aa0)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "waggles", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7768f39628e8130d48cd115b029fa0cb022605b3)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "steve.loves", 59.64x25.75px, constraints left/top, fill #000000, text [SF UI Display Regular, 11.5px]
+  - INSTANCE "Post info", 390x252px, vertical pad 0 0 24 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Sponsor CTA", 390x40px, horizontal pad 8 12 8 12px gap 247px align min/center sizing W:fixed H:fixed, constraints left/top, fill #1FA1FF
+      - TEXT "CTA copy here", 94x17px, constraints left/center, fill #FFFFFF, text [SF UI Display Bold, 14px]
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - VECTOR "Vector 7", 14x14px, constraints scale/scale, stroke #FFFFFF 2px
+    - FRAME "Icons", 390x44px, constraints left/top, fill #FFFFFF
+      - FRAME "Left icons", 96x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/center
+        - INSTANCE "Icons", 24x24px, constraints left/top
+          - VECTOR "Vector", 22.5x20px, constraints scale/scale, stroke #000000 1.8px
+        - INSTANCE "Icons", 24x24px, constraints left/top
+          - BOOLEAN_OPERATION "Union", 22x22px, constraints left/top, stroke #000000 1.8px
+        - INSTANCE "Icons", 24x24px, constraints left/top
+          - VECTOR "Polygon 4", 28.15x29.25px, constraints scale/scale, radius 0.3px, stroke #000000 1.8px
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - VECTOR "Rectangle 1438", 18x22px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 1.8px
+    - FRAME "Text", 390x144px, vertical pad 0 12 0 12px gap 6px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "100 Likes", 61x17px, constraints left/top, fill #000000, text [SF UI Display Bold, 13px]
+      - TEXT "Username Lorem ipsum dolor sit amet, consectetur adipiscing ", 364x34px, constraints left/top, fill #000000, text [SF UI Display Regular, 14px]
+      - TEXT "View all 16 comments", 364x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+      - FRAME "Comment section", 365x38px, horizontal pad 6 0 6 0px gap 158px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Avatar + Text", 139x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Avatar", 24x24px, constraints left/top, radius 100px, fill #FFFFFF
+            - RECTANGLE "Replace Photo here", 34.23x45.57px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+          - TEXT "Add a comment...", 107x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+        - FRAME "Reactions", 68x26px, horizontal pad 0 0 0 0px gap 14px align max/center sizing W:fixed H:fixed, constraints right/center
+          - TEXT "❤️", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+          - TEXT "🙌", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+          - FRAME "add reactions button", 12x12px, constraints left/top, radius 100px, fill #FFFFFF, stroke #6E6E6E 0.8px
+            - BOOLEAN_OPERATION "Union", 6x6px, constraints left/top, fill #6E6E6E
+      - TEXT "30 minutes ago", 364x14px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 12px]
+  - INSTANCE "HomeIndicator", 390x34px, constraints center/bottom, fill #FFFFFF
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill Label Color/Light/Primary
+  - INSTANCE "StatusBar", 390x47px, constraints left/top, fill #FFFFFF
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "✏️ Time", 54x20px, constraints left/top, fill Label Color/Light/Primary, text [Body/Bold]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_StatusBar-battery", 27.4x13px, constraints center/top
+        - VECTOR "Outline", 25x13px, constraints center/center, radius 4px, stroke #000000 1px, opacity 35%
+        - VECTOR "Battery End", 1.4x4.22px, constraints center/center, fill #000000, opacity 40%
+        - VECTOR "Fill", 21x9px, constraints center/center, radius 2px, fill #000000
+      - BOOLEAN_OPERATION "Wifi", 17x11.83px, constraints scale/scale, fill Label Color/Light/Primary
+      - VECTOR "Icon / Mobile Signal", 18x12px, constraints center/top, fill Label Color/Light/Primary
+  - INSTANCE "Navigation Bar", 390x56px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - BOOLEAN_OPERATION "Exclude", 20x20px, constraints left/top, fill #000000, stroke #000000 1px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - ELLIPSE "Ellipse 70", 18x18px, constraints scale/scale, stroke #000000 1.8px
+      - VECTOR "Line 23", 6x6px, constraints scale/scale, stroke #000000 1.8px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - VECTOR "Polygon 1", 6.5x7.58px, constraints scale/scale, fill #000000
+      - VECTOR "Vector 13", 4x6px, constraints left/top, stroke #000000 1.8px
+      - VECTOR "Vector 14", 4x6px, constraints left/top, stroke #000000 1.8px
+      - RECTANGLE "Rectangle 1434", 22x22px, constraints scale/scale, radius 6px, stroke #000000 1.8px
+      - VECTOR "Vector 12", 20x0px, constraints left/top, stroke #000000 1.8px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - GROUP "Group 4", 22x22px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Rectangle 1436", 22x17.6px, constraints scale/scale, radius 0/0/0/0px, stroke #000000 1.8px
+        - VECTOR "Ellipse 71", 6.6x3.3px, constraints scale/scale, stroke #000000 1.8px
+        - VECTOR "Ellipse 72", 6.6x4.95px, constraints scale/scale, stroke #000000 1.8px
+    - INSTANCE "Avatar", 24x32px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Avatar", 24x24px, constraints left/top, radius 100px, fill #FFFFFF
+        - RECTANGLE "Replace Photo here", 34.23x45.57px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+      - ELLIPSE "Ellipse 75", 4x4px, constraints left/top, fill #FE0135
+    - LINE "Divider", 390x0px, constraints left_right/top, stroke #0000001A 1px
+
+Screen: IG Post Templates / Feed Post - Sponsored
+- FRAME "Feed Post - Sponsored", 390x844px, constraints left/top, fill #DDDDDD
+  - INSTANCE "User headers", 390x50px, constraints left/top, fill #000000
+    - INSTANCE "Icons", 24x24px, constraints right/center
+      - GROUP "icon/more", 14x3px, constraints left/top
+        - ELLIPSE "Ellipse 3", 3x3px, constraints right/center, fill #FFFFFF
+        - ELLIPSE "Ellipse 4", 3x3px, constraints right/center, fill #FFFFFF
+        - ELLIPSE "Ellipse 5", 3x3px, constraints right/center, fill #FFFFFF
+    - FRAME "Avatar info", 84x36px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/center
+      - INSTANCE "Avatar", 36x36px, constraints left/top
+        - FRAME "Avatar", 30.32x30.32px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 32.43x43.17px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+        - ELLIPSE "Story ring", 36x36px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 1.5px
+      - FRAME "text", 40x14px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Ruffles", 40x14px, constraints left/center, fill #FFFFFF, text [SF UI Display Bold, 12px]
+  - INSTANCE "Navigation Bar", 390x40px, horizontal pad 5 13 5 13px gap 114px align center/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+    - FRAME "Logo dropdown", 128x30px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "IG logo", 104x30px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Icons", 16x16px, constraints scale/scale
+        - VECTOR "Vector 7", 9.33x9.33px, constraints scale/scale, stroke #FFFFFF 1.5px
+    - FRAME "Icons", 120x24px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.5x20px, constraints scale/scale, stroke #FFFFFF 1.8px
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 22.01x22px, constraints scale/scale, fill #6E6E6E, stroke #FFFFFF 1.8px
+        - VECTOR "Vector", 13.75x6.42px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - RECTANGLE "Rectangle 1429", 20x20px, constraints scale/scale, radius 5px, stroke #FFFFFF 1.8px
+        - LINE "Line 21", 0x12px, constraints scale/scale, stroke #FFFFFF 1.8px
+        - LINE "Line 22", 12x0px, constraints scale/scale, stroke #FFFFFF 1.8px
+  - FRAME "Post/1:1", 390x390px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "032_AshleyMatt 1", 471x574px, constraints left/top, fill image(hash: e10d563c5c1442309bff8647f1c82eeb6612ba71)
+    - FRAME "Post - top details", 390x43px, constraints left_right/top
+      - FRAME "Carousel chip", 30x22px, horizontal pad 4 6 4 6px gap 10px sizing W:fixed H:fixed, constraints left/center, radius 12px, fill #00000099, effect [background_blur 6px]
+        - TEXT "3/5", 18x14px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 12px]
+    - FRAME "Post - bottom details", 390x43px, constraints left_right/bottom
+      - FRAME "Tags", 24x24px, constraints left/center, radius 100px, effect [background_blur 20px]
+        - ELLIPSE "Ellipse 81", 24x24px, constraints scale/scale, fill #00000080, effect [background_blur 4px]
+        - GROUP "Group 8", 11.79x12px, constraints left/top, radius 0/0/0/0px
+          - ELLIPSE "Ellipse 82", 6.32x6.32px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Rectangle 1443", 11.79x5.05px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+  - INSTANCE "Story Tray", 390x105.75px, horizontal pad 8 8 0 8px gap 12px sizing W:fixed H:fixed, constraints left/top, fill #000000, effect [drop_shadow 1px offset 0 2 #0000001A]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+        - FRAME "Button", 20x20px, constraints scale/scale [decorative, ~4 shapes]
+      - TEXT "Ruffles", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 5c0c8419f15b9472f1ee26bd0910024a435f0017)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "sabanok...", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7d821e7425adf756c728d159ecd918163f1bf823)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "blue_bouy", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: a250d585517bb607f6262acc3ccbf7be91a53aa0)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "waggles", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+    - FRAME "Story user", 72x97.75px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Avatar", 72x72px, constraints left/top
+        - FRAME "Avatar", 60.63x60.63px, constraints scale/scale, radius 100px, fill #000000, stroke #DDDDDD 0.5px
+          - RECTANGLE "Replace Photo here", 64.86x86.34px, constraints scale/scale, fill image(hash: 7768f39628e8130d48cd115b029fa0cb022605b3)
+        - ELLIPSE "Story ring", 72x72px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+      - TEXT "steve.loves", 59.64x25.75px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 11.5px]
+  - INSTANCE "Post info", 390x252px, vertical pad 0 0 24 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #000000
+    - FRAME "Sponsor CTA", 390x40px, horizontal pad 8 12 8 12px gap 247px align min/center sizing W:fixed H:fixed, constraints left/top, fill #1FA1FF
+      - TEXT "CTA copy here", 94x17px, constraints left/center, fill #FFFFFF, text [SF UI Display Bold, 14px]
+      - INSTANCE "Icons", 24x24px, constraints left/top
+        - VECTOR "Vector 7", 14x14px, constraints scale/scale, stroke #FFFFFF 2px
+    - FRAME "Icons", 390x44px, constraints left/top, fill #000000
+      - FRAME "Left icons", 96x24px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/center
+        - INSTANCE "Icons", 24x24px, constraints left/top, fill #000000
+          - VECTOR "Vector", 22.5x20px, constraints scale/scale, stroke #FFFFFF 1.8px
+        - INSTANCE "Icons", 24x24px, constraints left/top, fill #000000
+          - BOOLEAN_OPERATION "Union", 22x22px, constraints left/top, stroke #FFFFFF 1.8px
+        - INSTANCE "Icons", 24x24px, constraints left/top, fill #000000
+          - VECTOR "Polygon 4", 28.15x29.25px, constraints scale/scale, radius 0.3px, stroke #FFFFFF 1.8px
+      - INSTANCE "Icons", 24x24px, constraints left/top, fill #000000
+        - VECTOR "Rectangle 1438", 18x22px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.8px
+    - FRAME "Text", 390x144px, vertical pad 0 12 0 12px gap 6px sizing W:fixed H:fixed, constraints left/top, fill #000000
+      - TEXT "100 Likes", 61x17px, constraints left/top, fill #FFFFFF, text [SF UI Display Bold, 13px]
+      - TEXT "Username Lorem ipsum dolor sit amet, consectetur adipiscing ", 364x34px, constraints left/top, fill #FFFFFF, text [SF UI Display Regular, 14px]
+      - TEXT "View all 16 comments", 364x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+      - FRAME "Comment section", 365x38px, horizontal pad 6 0 6 0px gap 158px align min/center sizing W:fixed H:fixed, constraints left/top, fill #000000
+        - FRAME "Avatar + Text", 139x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Avatar", 24x24px, constraints left/top, radius 100px, fill #000000
+            - RECTANGLE "Replace Photo here", 34.23x45.57px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+          - TEXT "Add a comment...", 107x17px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 14px]
+        - FRAME "Reactions", 68x26px, horizontal pad 0 0 0 0px gap 14px align max/center sizing W:fixed H:fixed, constraints right/center
+          - TEXT "❤️", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+          - TEXT "🙌", 14x26px, constraints left/top, fill #999999, text [SF UI Display Regular, 16px]
+          - FRAME "add reactions button", 12x12px, constraints left/top, radius 100px, fill #000000, stroke #6E6E6E 0.8px
+            - BOOLEAN_OPERATION "Union", 6x6px, constraints left/top, fill #6E6E6E
+      - TEXT "30 minutes ago", 364x14px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 12px]
+  - INSTANCE "StatusBar", 390x47px, constraints left/top, fill #000000
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 24px, fill #FFFFFF
+      - INSTANCE "_StatusBar-time", 54x21px, constraints center/top, radius 24px
+        - TEXT "✏️ Time", 54x20px, constraints left/top, fill Label Color/Dark/Primary, text [Body/Bold]
+    - GROUP "Right Side", 77.4x13px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_StatusBar-battery", 27.4x13px, constraints center/top
+        - VECTOR "Outline", 25x13px, constraints center/center, radius 4px, stroke #FFFFFF 1.06px, opacity 35%
+        - VECTOR "Battery End", 1.4x4.22px, constraints center/center, fill #FFFFFF, opacity 40%
+        - VECTOR "Fill", 15x9px, constraints center/center, radius 2px, fill #FFFFFF
+      - BOOLEAN_OPERATION "Wifi", 17x11.83px, constraints scale/scale, fill Label Color/Dark/Primary
+      - VECTOR "Icon / Mobile Signal", 18x12px, constraints center/top, fill Label Color/Dark/Primary
+  - INSTANCE "HomeIndicator", 390x34px, constraints center/bottom, fill #000000
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - INSTANCE "Navigation Bar", 390x56px, constraints left/top, fill #000000
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - BOOLEAN_OPERATION "Exclude", 20x20px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 1px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - ELLIPSE "Ellipse 70", 18x18px, constraints scale/scale, stroke #FFFFFF 1.8px
+      - VECTOR "Line 23", 6x6px, constraints scale/scale, stroke #FFFFFF 1.8px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - VECTOR "Polygon 1", 6.5x7.58px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector 13", 4x6px, constraints left/top, stroke #FFFFFF 1.8px
+      - VECTOR "Vector 14", 4x6px, constraints left/top, stroke #FFFFFF 1.8px
+      - RECTANGLE "Rectangle 1434", 22x22px, constraints scale/scale, radius 6px, stroke #FFFFFF 1.8px
+      - VECTOR "Vector 12", 20x0px, constraints left/top, stroke #FFFFFF 1.8px
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - GROUP "Group 4", 22x22px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Rectangle 1436", 22x17.6px, constraints scale/scale, radius 0/0/0/0px, stroke #FFFFFF 1.8px
+        - VECTOR "Ellipse 71", 6.6x3.3px, constraints scale/scale, stroke #FFFFFF 1.8px
+        - VECTOR "Ellipse 72", 6.6x4.95px, constraints scale/scale, stroke #FFFFFF 1.8px
+    - INSTANCE "Avatar", 24x32px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Avatar", 24x24px, constraints left/top, radius 100px, fill #FFFFFF
+        - RECTANGLE "Replace Photo here", 34.23x45.57px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+      - ELLIPSE "Ellipse 75", 4x4px, constraints left/top, fill #FE0135
+    - LINE "Divider", 390x0px, constraints left_right/top, stroke #FFFFFF1A 1px
+
+Screen: IG Post Templates / Profile - new following
+- FRAME "Profile - new following", 390x844px, constraints left/top, fill #DDDDDD
+  - FRAME "Grid Photo view", 390x646.02px, constraints left/top, fill #FFFFFF, stroke #B4B4B4 1px [decorative, ~26 shapes]
+  - INSTANCE "Tab navi bar", 390x50px, constraints left_right/top, fill #FFFFFF
+    - INSTANCE "Tab components", 130x40px, constraints left_right/bottom
+      - INSTANCE "Icons", 24x24px, constraints center/center
+        - VECTOR "Vector", 16.19x16px, constraints center/top, stroke #000000 1.8px
+      - RECTANGLE "Selected", 130x1px, constraints left_right/bottom, fill #000000
+    - INSTANCE "Tab components", 130x40px, constraints left_right/bottom
+      - INSTANCE "Icons", 24x24px, constraints center/center
+        - VECTOR "Polygon 1", 6.5x7.58px, constraints scale/scale, fill #C4C4C4
+        - VECTOR "Vector 13", 4x6px, constraints left/top, stroke #C4C4C4 1.8px
+        - VECTOR "Vector 14", 4x6px, constraints left/top, stroke #C4C4C4 1.8px
+        - RECTANGLE "Rectangle 1434", 22x22px, constraints scale/scale, radius 6px, stroke #C4C4C4 1.8px
+        - VECTOR "Vector 12", 20x0px, constraints left/top, stroke #C4C4C4 1.8px
+    - INSTANCE "Tab components", 130x40px, constraints left_right/bottom
+      - INSTANCE "Icons", 24x24px, constraints center/center
+        - BOOLEAN_OPERATION "Union", 22x21.87px, constraints left/top, stroke #C4C4C4 1.8px
+        - ELLIPSE "Ellipse 74", 8x8px, constraints left/top, stroke #C4C4C4 1.8px
+        - VECTOR "Vector 15", 14x4px, constraints left/top, radius 14px, stroke #C4C4C4 1.8px
+  - FRAME "Username and info", 390x234px, vertical pad 6 12 10 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, fill White
+    - FRAME "User info", 366x89px, vertical pad 0 0 0 0px gap 3px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - TEXT "Username", 344x16px, constraints left/top, fill #000000, text [SF UI Display Bold, 13px]
+      - TEXT "Category/Genre text", 344x16px, constraints left/top, fill #6E6E6E, text [SF UI Display Regular, 13px]
+      - TEXT "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed", 344x32px, constraints left/top, fill #000000, text [SF UI Display Regular, 13px]
+      - TEXT "Link goes here", 344x16px, constraints left/top, fill #004C8B, text [SF UI Display Bold, 13px]
+    - FRAME "Followers", 366x36px, horizontal pad 0 0 4 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Avatars", 54x26px, constraints left/top
+        - FRAME "Avatar", 26x26px, constraints left/top, radius 100px, fill #DDDDDD, stroke #FFFFFF 1.5px
+          - RECTANGLE "Replace Photo here", 33x45px, constraints scale/scale, fill image(hash: a250d585517bb607f6262acc3ccbf7be91a53aa0)
+        - FRAME "Avatar", 26x26px, constraints left/top, radius 100px, fill #DDDDDD, stroke #FFFFFF 1.5px
+          - RECTANGLE "Replace Photo here", 35x47px, constraints left/top, fill image(hash: d1498caab2525cc395b7459d400d8da29570c3fb)
+        - FRAME "Avatar", 26x26px, constraints left/top, radius 100px, fill #DDDDDD, stroke #FFFFFF 1.5px
+          - RECTANGLE "Replace Photo here", 33x45px, constraints scale/scale, fill image(hash: 5c0c8419f15b9472f1ee26bd0910024a435f0017)
+      - TEXT "Followed by username, username and 100 others", 300x32px, constraints left/top, fill #000000, text [SF UI Display Regular, 13px]
+    - INSTANCE "Buttons", 366x69px, constraints left/top, fill #FFFFFF
+      - FRAME "Button", 366x30px, horizontal pad 7 142 7 142px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #1FA1FF
+        - TEXT "Follow", 60x16px, constraints left/top, fill #FFFFFF, text [SF UI Display Bold, 13px]
+      - FRAME "Button", 105x30px, horizontal pad 7 142 7 142px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EFEFEF
+        - TEXT "Message", 55x16px, constraints left/top, fill #000000, text [SF UI Display Bold, 13px]
+      - FRAME "Button", 106x30px, horizontal pad 7 142 7 142px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EFEFEF
+        - TEXT "Subscribe", 62x16px, constraints left/top, fill #000000, text [SF UI Display Bold, 13px]
+      - FRAME "Button", 105x30px, horizontal pad 7 142 7 142px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EFEFEF
+        - TEXT "Contact", 49x16px, constraints left/top, fill #000000, text [SF UI Display Bold, 13px]
+      - FRAME "Button", 32x30px, horizontal pad 7 7 7 7px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 3px, fill #EFEFEF [decorative, ~4 shapes]
+  - INSTANCE "Promo Banner", 360x49px, horizontal pad 8 8 8 8px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #B8CCB5, effect [drop_shadow 16px offset 0 7 #00000026]
+    - FRAME "Img", 33x33px, constraints left/top, radius 4px, fill #000000
+      - RECTANGLE "Replace image here", 42x42px, constraints left/top, fill image(hash: c06a8e2e9d316b10ce2157afe9f56b28efde3bc7)
+    - FRAME "Promo copy", 271x31px, vertical pad 0 0 0 0px gap 3px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Shop Now", 271x14px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 12px]
+      - TEXT "Go to www.websitehere.com", 271x14px, constraints left/top, fill #000000, text [SF Pro Text Regular, 12px]
+    - INSTANCE "Icons", 16x16px, constraints left/top
+      - VECTOR "Vector 7", 9.33x9.33px, constraints scale/scale, stroke #000000 2px
+  - INSTANCE "Navigation Bar", 390x40px, constraints left/top, fill White
+    - FRAME "Icons", 72x24px, horizontal pad 0 0 0 0px gap 24px align max/center sizing W:fixed H:fixed, constraints right/center
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - GROUP "Group 2", 21x17px, constraints left/top
+          - VECTOR "Vector 10", 11x17px, constraints scale/scale, stroke #000000 1.8px
+          - VECTOR "Vector 11", 11x17px, constraints scale/scale, stroke #000000 1.8px
+        - VECTOR "Ellipse 68", 6x2px, constraints scale/scale, fill #000000
+        - BOOLEAN_OPERATION "Subtract", 4x3px, constraints left/top, fill #000000
+      - INSTANCE "Icons", 24x24px, constraints scale/scale
+        - GROUP "icon/more", 14x3px, constraints left/top
+          - ELLIPSE "Ellipse 3", 3x3px, constraints right/center, fill #000000
+          - ELLIPSE "Ellipse 4", 3x3px, constraints right/center, fill #000000
+          - ELLIPSE "Ellipse 5", 3x3px, constraints right/center, fill #000000
+    - INSTANCE "Icons", 24x24px, constraints scale/scale
+      - VECTOR "Vector 7", 14x14px, constraints scale/scale, stroke #000000 2px
+    - FRAME "username with Verified badge", 95x19px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints center/center
+      - TEXT "username", 75x19px, constraints left_right/center, fill #000000, text [SF UI Display Bold, 16px]
+      - FRAME "Verified badge", 16x16px, constraints left/top
+        - STAR "Star 2", 19.79x19.79px, constraints left/top, radius 0.5px, fill #1FA1FF
+        - VECTOR "Vector 16", 6x4px, constraints left/top, stroke #FFFFFF 1px
+  - INSTANCE "User profile data", 390x90px, horizontal pad 0 12 0 12px gap 60px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Avatar", 90x90px, constraints left/top
+      - FRAME "Avatar", 75.79x75.79px, constraints scale/scale, radius 100px, fill #FFFFFF, stroke #DDDDDD 0.5px
+        - RECTANGLE "Replace Photo here", 81.07x107.93px, constraints scale/scale, fill image(hash: 260acb7f837eef41ed89178bb8849abaae20e34a)
+      - ELLIPSE "Story ring", 90x90px, constraints scale/scale, stroke gradient_linear(#C913B9 0% | #F9373F 50% | #FECD00 100%) 2.5px
+    - FRAME "Data", 197x35px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Posts", 37x35px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "1,234", 37x17px, constraints left/top, fill #000000, text [SF Pro Display Bold, 14px]
+        - TEXT "Posts", 33x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+      - FRAME "Followers", 56x35px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "5,678", 39x17px, constraints left/top, fill #000000, text [SF Pro Display Bold, 14px]
+        - TEXT "Followers", 56x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+      - FRAME "Following", 56x35px, vertical pad 0 0 0 0px gap 1px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9,101", 35x17px, constraints left/top, fill #000000, text [SF Pro Display Bold, 14px]
+        - TEXT "Following", 56x17px, constraints left/top, fill #000000, text [SF Pro Display Regular, 14px]
+  - INSTANCE "Saved IG stories", 390x86px, horizontal pad 4 9 4 9px gap 18px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "IG Story 1", 60x78px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Story Reels Image", 60x60px, constraints left/top
+        - ELLIPSE "Ellipse 80", 60x60px, constraints left/top, stroke #C4C4C4 1px
+        - FRAME "Replace image here", 52x52px, constraints left/top, radius 100px, fill #000000
+          - RECTANGLE "IMG", 55x55px, constraints left/top, fill image(hash: cbe51a4aa702b051b862317382f3eaf0a87edcd8)
+      - TEXT "Text here", 53x14px, constraints left/top, fill #000000, text [SF Pro Text Regular, 12px]
+    - FRAME "IG Story 2", 60x78px, vertical pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Story Reels Image", 60x60px, constraints left/top
+        - ELLIPSE "Ellipse 80", 60x60px, constraints left/top, stroke #C4C4C4 1px
+        - FRAME "Replace image here", 52x52px, constraints left/top, radius 100px, fill #000000
+          - RECTANGLE "IMG", 55x55px, constraints left/top, fill image(hash: 342d19bd4d3f8636738fb915399c4119f0305ae7)
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

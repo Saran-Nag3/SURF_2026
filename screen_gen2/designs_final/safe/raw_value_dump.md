@@ -1,0 +1,1193 @@
+---
+name: safe-spending-banking-app-community
+source_file: Safe Spending Banking App (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:21:45.991489+00:00
+---
+
+# Safe Spending Banking App (Community) Design Guidelines
+
+## Source
+- Figma file: Safe Spending Banking App (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:21:45.991489+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Background: [#F3F3F3]
+- White: [#FDFDFD]
+- Text: [#333333]
+- Blue: [#4CDFF3]
+- Accent: [#6F62FF]
+- Label Color / Dark / Primary: [#FFFFFF]
+- SystemOrange / Light: [#FF9500]
+- Carbon / Darkest: [#24262B]
+- Carbon Neutral/300: [#D6D9DD]
+- Pink: [#F60FCF]
+- Green: [#1FDE00]
+- Label Color / Light / Quarternary: [#3C3C432E]
+- Secondary Text: [#797979]
+- Label / Light / Primary: [#000000]
+- Danger: [#EA4C4C]
+- Fill Color / Light / Secondary: [#78788029]
+- Label Color / Light / Primary: [#000000]
+
+## Raw Colors (unstyled)
+- #000000: 234 uses
+- #FFFFFF: 85 uses
+- #DADADA: 70 uses
+- #33333326: 54 uses
+- #0000000D: 30 uses
+- #FDFDFD: 12 uses
+- #333333B2: 10 uses
+- #7B61FF: 8 uses
+- #FF0000: 8 uses
+- #FFE600: 8 uses
+- #3F3F3F: 4 uses
+- #F5F5F5: 4 uses
+- #8E8E93: 3 uses
+
+## Typography Tokens
+- Header 20: SF Pro Rounded Medium (500), 20px / auto, tracking 0.4px
+- Header 32: SF Pro Rounded Medium (500), 32px / auto, tracking 0px
+- Body 18: SF Pro Rounded Medium (500), 18px / auto, tracking 0.9px
+- Caption 16: SF Pro Rounded Medium (500), 16px / auto, tracking 0.16px
+- Header 48: SF Pro Rounded Medium (500), 48px / auto, tracking 0px
+- SF / Subheadline - Semibold: SF Pro Text Semibold (600), 15px / 20px, tracking -0.24px
+- Menu / Small Header: SF Pro Text Regular (400), 13px / 18px, tracking -0.08px
+- xSmall / Callout: SF Pro Text Regular (400), 13px / 18px, tracking -0.08px
+- Large (Default) / Subhead: SF Pro Text Regular (400), 15px / 20px, tracking -0.24px
+- Small / Headline: SF Pro Text Semibold (600), 15px / 20px, tracking -0.24px
+
+## Raw Typography (unstyled)
+- SF Pro Rounded Medium, 20px: 124 uses
+- SF Pro Text Medium, 18px: 38 uses
+- SF Pro Rounded Medium, 18px: 14 uses
+- SF Pro Text Semibold, 50px: 13 uses
+- SF Pro Rounded Medium, 16px: 12 uses
+- SF Pro Rounded Medium, 48px: 6 uses
+- SF Pro Rounded Medium, 30px: 5 uses
+- SF Pro Display Medium, 25px: 4 uses
+- SF Pro Display Regular, 25px: 4 uses
+- SF Pro Display Semibold, 25px: 4 uses
+
+## Typography Hierarchy
+- 50px - SF Pro Text Semibold, 50px (raw)
+- 48px - Header 48 (SF Pro Rounded Medium)
+- 48px - SF Pro Rounded Medium, 48px (raw)
+- 32px - Header 32 (SF Pro Rounded Medium)
+- 30px - SF Pro Rounded Medium, 30px (raw)
+- 25px - SF Pro Display Medium, 25px (raw)
+- 25px - SF Pro Display Regular, 25px (raw)
+- 25px - SF Pro Display Semibold, 25px (raw)
+- 20px - Header 20 (SF Pro Rounded Medium)
+- 20px - SF Pro Rounded Medium, 20px (raw)
+- 18px - Body 18 (SF Pro Rounded Medium)
+- 18px - SF Pro Rounded Medium, 18px (raw)
+- 18px - SF Pro Text Medium, 18px (raw)
+- 16px - Caption 16 (SF Pro Rounded Medium)
+- 16px - SF Pro Rounded Medium, 16px (raw)
+- 15px - Large (Default) / Subhead (SF Pro Text Regular)
+- 15px - SF / Subheadline - Semibold (SF Pro Text Semibold)
+- 15px - Small / Headline (SF Pro Text Semibold)
+- 13px - Menu / Small Header (SF Pro Text Regular)
+- 13px - xSmall / Callout (SF Pro Text Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Button Shadow: [drop_shadow 10px offset 0 4 #CFD7FF, drop_shadow 10px offset 0 4 #041F811A, drop_shadow 20px offset 0 4 #FFD0EF]
+- Micro Shadow: [drop_shadow 5px offset 0 3 #6363651A]
+- Bar Shadow: [drop_shadow 0px offset 0 1 #F1F1F1]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Cell
+- Shops Card
+- Button
+- Avatar
+- Switch
+- 􀎓
+- 􀑇
+- 􀅼
+- 􀍯
+- 􀊫
+- Switch card
+- Curtain
+- Slider card
+- Bars
+- Slider
+- BehindCurtain Bg
+
+## Component Specs
+- Cell / Transactions: size 375x92px, fill #FFFFFF, text [Body 18, Header 20] | variants: Pending: False/True
+- Cell / Shops: size 375x92px, fill Background, text [Header 20] | variants: Added: False/True
+- Shops Card: size 343x150px, text [Header 20] | variants: Filled: False/True
+- Button (Page 1): size 320x52px, text [Header 20] | variants: Type: Accent/Basic
+- Avatar: size 60x60px, radius 100px, fill #FFFFFF | variants: Shops: Amazon/Asos/Barnes&Noble/DoorDash/Ebay/Ikea/Lyft/McDonalds/Sandy/Sephora/Starbucks
+- Button (Page 1): size 29x29px | variants: Type: Back/Close/Forward
+- Button (Page 1): size 29x29px, effect Micro Shadow | variants: Added: False/True
+- Switch: size 51x31px, fill #FFFFFF | variants: Checked: Off/On
+- 􀎓: size 31x20px, fill #FFFFFF, text [SF Pro Display Regular, 25px]
+- 􀑇: size 17x19px, fill #FFFFFF, text [Caption 16]
+- 􀅼: size 18x19px, fill #FFFFFF, text [Caption 16]
+- 􀍯: size 23x19px, fill #FFFFFF, text [Caption 16]
+- Cell/Settings: size 375x92px, fill White, text [SF Pro Text Medium, 18px, SF Pro Display Regular, 25px, Header 20]
+- 􀊫: size 20x22px, fill #FFFFFF, text [SF Pro Rounded Regular, 17px]
+- Switch card: size 343x108px, fill #FFFFFF, text [Caption 16, Header 20]
+- Avatar/Barnes&Noble/Hero: size 108x108px, fill #FFFFFF
+- Button / Add: size 60x60px, fill #FFFFFF
+- Curtain: size 375x69.01px, radius 25/25/0/0px, fill White, effect [drop_shadow 0px offset 0 1 #F1F1F1], text [SF Pro Text Medium, 18px, Header 20]
+- Slider card: size 343x154px, text [Caption 16, Header 20, SF Pro Rounded Medium, 30px]
+- Bars / Search / Default: size 375x72px, fill White, effect Bar Shadow, text [Caption 16]
+- Slider / Light: size 344x44px
+- BehindCurtain Bg: size 375x812px, fill #FFFFFF
+
+## Most-Used Styles
+- Text: 187 uses
+- White: 168 uses
+- Background: 66 uses
+- Header 20: 49 uses
+- Micro Shadow: 23 uses
+- Pink: 21 uses
+- Secondary Text: 16 uses
+- Accent: 12 uses
+- Label Color / Dark / Primary: 11 uses
+- Caption 16: 10 uses
+- Carbon Neutral/300: 10 uses
+- SystemOrange / Light: 10 uses
+- Bar Shadow: 7 uses
+- Danger: 7 uses
+- Label Color / Light / Quarternary: 6 uses
+- Button Shadow: 5 uses
+- Body 18: 4 uses
+- Blue: 3 uses
+- Label / Light / Primary: 3 uses
+- Green: 2 uses
+- Header 48: 2 uses
+- Label Color / Light / Primary: 2 uses
+- Fill Color / Light / Secondary: 1 use
+- Header 32: 1 use
+- Large (Default) / Subhead: 1 use
+- Menu / Small Header: 1 use
+- SF / Subheadline - Semibold: 1 use
+- Small / Headline: 1 use
+- xSmall / Callout: 1 use
+
+## Layout & Structure
+Screen: Page 1 / iPhone 11 Pro / X - 106
+- FRAME "iPhone 11 Pro / X - 106", 375x812px, constraints center/center, radius 40px, fill White
+  - FRAME "Cell/False", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - FRAME "iPhone Environment", 375x812px, constraints left/top, opacity 0%
+    - GROUP "Group 1", 375x812px, constraints scale/scale
+      - FRAME "Bars / Status Bar / iPhone / Light", 375x44px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 15.33x11px, constraints right/top, fill #000000
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+        - FRAME "Time Style", 54x21px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Time", 54x20px, constraints scale/center, fill Label / Light / Primary, text [SF Pro Text Semibold, 15px]
+      - FRAME "Bars / Home Indicator / iPhone / Light - Portrait", 375x34px, constraints scale/scale, fill #FFFFFF, opacity 30%
+        - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000, stroke #979797 0px, opacity 30%
+  - GROUP "Group 1257", 322x190px, constraints left/top, radius 24px
+    - FRAME "Card", 322x190px, constraints scale/scale, radius 24px, fill #FDFDFD, effect [drop_shadow 10px offset 0 3 #04228E1A]
+      - TEXT "*6749", 63.16x24px, constraints scale/scale, fill Secondary Text, text [SF Pro Rounded Medium, 20px], opacity 50%
+      - TEXT "$441.00", 194x57px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 48px], [heading]
+      - GROUP "Group 1259", 50x30px, constraints scale/scale, radius 100px
+        - RECTANGLE "Rectangle 1", 30x30px, constraints scale/scale, radius 100px, fill #FF0000, opacity 60%
+        - RECTANGLE "Rectangle 7", 30x30px, constraints scale/scale, radius 100px, fill #FFE600, opacity 60%
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill #FFFFFF
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: f46c7f58a9460848d2f26dcb696bf74209ce3e31), stroke #33333326 0.5px
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 7dc625583c805cd749cc91c6eda101079caa6089), stroke #33333326 0.5px
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - TEXT "Today", 54x24px, constraints left/top, fill Text, text [SF Pro Rounded Medium, 20px], opacity 30%
+  - GROUP "Group 1258", 315x32px, constraints left/top, radius 100px
+    - RECTANGLE "Rectangle 63", 32x32px, constraints right/top, radius 100px, fill image(hash: a2558c8fe3cef242b8c26905fa88683eedf1bc69)
+    - TEXT "􀊫", 24x24px, constraints left/top, fill Text, text [SF Pro Rounded Medium, 20px]
+  - FRAME "Frame 1", 157x51px, constraints left/top, radius 100px, fill Background
+    - TEXT "Send", 75.76x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - FRAME "Frame 1", 151x51px, constraints left/top, radius 100px, fill Background
+    - TEXT "Add", 57.1x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 9399bbb07ee146664235170751abd8c3abb89375)
+
+Screen: Page 1 / iPhone 11 Pro / X - 107
+- FRAME "iPhone 11 Pro / X - 107", 375x812px, constraints center/center, radius 40px, fill White
+  - FRAME "Cell/False", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - GROUP "Group 1257", 322x190px, constraints left/top, radius 24px
+    - FRAME "Card", 322x190px, constraints scale/scale, radius 24px, fill #FDFDFD, effect [drop_shadow 10px offset 0 3 #04228E1A]
+      - TEXT "*6749", 63.16x24px, constraints scale/scale, fill Secondary Text, text [SF Pro Rounded Medium, 20px], opacity 50%
+      - TEXT "$441.00", 194x57px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 48px], [heading]
+      - GROUP "Group 1259", 50x30px, constraints scale/scale, radius 100px
+        - RECTANGLE "Rectangle 1", 30x30px, constraints scale/scale, radius 100px, fill #FF0000, opacity 60%
+        - RECTANGLE "Rectangle 7", 30x30px, constraints scale/scale, radius 100px, fill #FFE600, opacity 60%
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill #FFFFFF
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: f46c7f58a9460848d2f26dcb696bf74209ce3e31), stroke #33333326 0.5px
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 7dc625583c805cd749cc91c6eda101079caa6089), stroke #33333326 0.5px
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - TEXT "Today", 54x24px, constraints left/top, fill Text, text [SF Pro Rounded Medium, 20px], opacity 30%
+  - GROUP "Group 1258", 315x32px, constraints left/top, radius 100px
+    - RECTANGLE "Rectangle 63", 32x32px, constraints right/top, radius 100px, fill image(hash: a2558c8fe3cef242b8c26905fa88683eedf1bc69)
+    - TEXT "􀊫", 24x24px, constraints left/top, fill Text, text [SF Pro Rounded Medium, 20px]
+  - FRAME "Frame 1", 157x51px, constraints left/top, radius 100px, fill Background
+    - TEXT "Send", 75.76x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - FRAME "Frame 1", 151x51px, constraints left/top, radius 100px, fill Background
+    - TEXT "Add", 57.1x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 9399bbb07ee146664235170751abd8c3abb89375)
+  - INSTANCE "BehindCurtain Bg", 375x812px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1616", 375x812px, constraints scale/scale, fill #333333B2, opacity 70%
+  - GROUP "FullCurtain", 375x495px, constraints left/top
+    - RECTANGLE "Rectangle 1665", 375x495px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Component 2", 343x108px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1667", 343x108px, constraints scale/scale, radius 20px, fill Background
+    - INSTANCE "Switch", 51x31px, constraints right/center, fill #FFFFFF
+      - VECTOR "Background", 51x31px, constraints scale/scale, fill Pink
+      - VECTOR "Knob", 27x27px, constraints center/center, fill White, effect [drop_shadow 1px offset 0 3 #0000000F, drop_shadow 8px offset 0 3 #00000026]
+    - GROUP "Group 1244", 224x66px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 1242", 219.25x24px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "Purchase Review", 219.25x24px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "Purchases can be cancelled within the next 24 hours", 224x38px, constraints left/center, fill Secondary Text, text [SF Pro Rounded Medium, 16px]
+  - INSTANCE "Slider card", 343x154px, constraints left/top
+    - RECTANGLE "Rectangle 1666", 343x154px, constraints scale/scale, radius 20px, fill Background
+    - TEXT "$100", 78x36px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 30px], [heading]
+    - GROUP "Slider", 344x44px, constraints scale/scale
+      - INSTANCE "Slider / Light", 344x44px, constraints scale/scale
+        - RECTANGLE "Track", 296x5px, constraints left_right/center, radius 2px, fill Label Color / Light / Quarternary
+        - FRAME "Slider", 248x28px, constraints left_right/center
+          - RECTANGLE "Rounded Rect", 91x5px, constraints left_right/center, radius 2px, fill Pink
+          - VECTOR "Knob", 20x20px, constraints right/center, fill Pink, effect [drop_shadow 13px offset 0 6 #0000001F, drop_shadow 4px offset 0 0.5 #0000001F]
+    - TEXT "For purchases bigger than", 160x24px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - TEXT "0", 10x19px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 16px], opacity 50%
+    - TEXT "10 000", 52x19px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 16px], opacity 50%
+  - INSTANCE "Shops Card", 343x150px, constraints left/top
+    - RECTANGLE "Rectangle 1666", 343x150px, constraints scale/scale, radius 20px, fill Background
+    - GROUP "Group 1248", 295x108px, constraints left/top
+      - TEXT "From shops", 226x24px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Button / Add", 60x60px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 1609", 60x60px, constraints scale/scale, radius 100px, fill White, effect Button Shadow
+        - GROUP "Group 1202", 26.47x26.47px, constraints scale/scale, radius 10px
+          - RECTANGLE "Rectangle 1610", 3.53x26.47px, constraints scale/scale, radius 10px, fill Pink
+          - RECTANGLE "Rectangle 1611", 26.47x3.53px, constraints scale/scale, radius 10px, fill Pink
+  - INSTANCE "Curtain", 375x69px, constraints scale/scale, radius 25/25/0/0px, fill White, effect [drop_shadow 0px offset 0 1 #F1F1F1]
+    - TEXT "Add shops", 252x24px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+      - RECTANGLE "Circle", 29x28.73px, constraints scale/scale, radius 100px, fill Background
+      - GROUP "Cross", 10.61x10.51px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+    - INSTANCE "Button", 22x21.8px, constraints left/center, fill #FFFFFF
+      - TEXT "􀆉", 24.2x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+  - FRAME "iPhone Environment", 375x812px, constraints left/top, opacity 0% [decorative, ~19 shapes]
+
+Screen: Page 1 / iPhone 11 Pro / X - 113
+- FRAME "iPhone 11 Pro / X - 113", 375x812px, constraints center/center, radius 40px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1616", 375x812px, constraints scale/scale, fill #333333B2, opacity 70%
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White, effect Bar Shadow
+    - TEXT "Add shops", 252x24px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+      - RECTANGLE "Circle", 29x28.73px, constraints scale/scale, radius 100px, fill Background
+      - GROUP "Cross", 10.61x10.51px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+  - RECTANGLE "Rectangle 1675", 375x699px, constraints left/top, fill #FDFDFD
+  - FRAME "Cell/Settings", 375x92px, constraints scale/scale, fill White
+    - TEXT "Transactions", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - FRAME "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Button / Add", 60x60px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 1609", 60x60px, constraints scale/scale, radius 100px, fill White
+        - GROUP "Group 1202", 26.47x26.47px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill Green
+      - FRAME "Icon", 27x20px, constraints scale/scale, fill #FFFFFF
+        - TEXT "􀑇", 27x20px, constraints scale/scale, fill White, text [SF Pro Display Semibold, 25px], [heading]
+    - INSTANCE "Button", 22x22px, constraints left/top, fill #FFFFFF
+      - TEXT "􀆊", 22x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+  - FRAME "Cell/Settings", 375x92px, constraints scale/scale, fill White
+    - TEXT "Transactions", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - FRAME "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Button / Add", 60x60px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 1609", 60x60px, constraints scale/scale, radius 100px, fill White
+        - GROUP "Group 1202", 26.47x26.47px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill Accent
+      - FRAME "Icon", 27x20px, constraints scale/scale, fill #FFFFFF
+        - TEXT "􀉆", 27x20px, constraints scale/scale, fill White, text [SF Pro Display Semibold, 25px], [heading]
+    - INSTANCE "Button", 22x22px, constraints left/top, fill #FFFFFF
+      - TEXT "􀆊", 22x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+  - FRAME "Cell/False", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - FRAME "Cell/Settings", 375x92px, constraints scale/scale, fill White
+    - TEXT "Transactions", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - FRAME "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Button / Add", 60x60px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 1609", 60x60px, constraints scale/scale, radius 100px, fill White
+        - GROUP "Group 1202", 26.47x26.47px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill #0000000D
+      - FRAME "Icon", 27x20px, constraints scale/scale, fill #FFFFFF
+        - TEXT "􀉆", 27x20px, constraints scale/scale, fill Text, text [SF Pro Display Regular, 25px], [heading]
+    - INSTANCE "Button", 22x22px, constraints left/top, fill #FFFFFF
+      - TEXT "􀆊", 22x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+  - FRAME "Cell/Settings", 375x92px, constraints scale/scale, fill White
+    - TEXT "Transactions", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - FRAME "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Button / Add", 60x60px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 1609", 60x60px, constraints scale/scale, radius 100px, fill White
+        - GROUP "Group 1202", 26.47x26.47px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill Pink
+      - FRAME "Icon", 27x20px, constraints scale/scale, fill #FFFFFF
+        - TEXT "􀉆", 27x20px, constraints scale/scale, fill White, text [SF Pro Display Semibold, 25px], [heading]
+    - INSTANCE "Button", 22x22px, constraints left/top, fill #FFFFFF
+      - TEXT "􀆊", 22x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+  - GROUP "Group 1255", 188x158px, constraints left/top
+    - TEXT "Ali Michael", 188x38px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 32px], [heading]
+    - INSTANCE "Avatar/Barnes&Noble/Hero", 108x108px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 1673", 108x108px, constraints scale/scale, radius 100px, fill image(hash: a2558c8fe3cef242b8c26905fa88683eedf1bc69)
+  - FRAME "iPhone Environment", 375x812px, constraints left/top, opacity 0% [decorative, ~19 shapes]
+  - FRAME "Cell/Settings", 375x92px, constraints scale/scale, fill White
+    - TEXT "Transactions", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - FRAME "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Button / Add", 60x60px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 1609", 60x60px, constraints scale/scale, radius 100px, fill White
+        - GROUP "Group 1202", 26.47x26.47px, constraints scale/scale, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill Blue
+      - FRAME "Icon", 27x20px, constraints scale/scale, fill #FFFFFF
+        - TEXT "􀉆", 27x20px, constraints scale/scale, fill White, text [SF Pro Display Semibold, 25px], [heading]
+    - INSTANCE "Button", 22x22px, constraints left/top, fill #FFFFFF
+      - TEXT "􀆊", 22x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+
+Screen: Page 1 / iPhone 11 Pro / X - 114
+- FRAME "iPhone 11 Pro / X - 114", 375x812px, constraints left/top, radius 40px, fill #FFFFFF
+  - INSTANCE "BehindCurtain Bg", 375x812px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1616", 375x812px, constraints scale/scale, fill #333333B2, opacity 70%
+  - INSTANCE "Bars / Search / Default", 375x72px, constraints scale/scale, fill White, effect Bar Shadow
+    - FRAME "State", 343x36px, constraints scale/scale, radius 10px, fill Background
+      - FRAME "Search", 292x36px, constraints left_right/center, fill #FFFFFF
+        - FRAME "Muted", 280x22px, constraints left_right/center, fill #FFFFFF, opacity 40%
+          - TEXT "↳ Text", 280x19px, constraints scale/scale, fill Secondary Text, text [SF Pro Rounded Medium, 16px]
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White, effect Bar Shadow
+    - TEXT "Add shops", 252x24px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+      - RECTANGLE "Circle", 29x28.73px, constraints scale/scale, radius 100px, fill Background
+      - GROUP "Cross", 10.61x10.51px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+    - INSTANCE "Button", 22x21.8px, constraints left/center, fill #FFFFFF
+      - TEXT "􀆉", 24.2x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+  - FRAME "Cell/False", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 20cc34ab4cd5142c94625915abbc08c0a618fc0b), stroke #33333326 0.5px
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 22bf8ef6bda8656e9e8490248db8ea041285799f), stroke #33333326 0.5px
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 5e992281df79bfc4e8cb2761a6cadeadfc53d9ef), stroke #33333326 0.5px
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 929f107e8e8861a1794a9e8733ae9d34212edcdc), stroke #33333326 0.5px
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: e81acfd48fedd7c45ffef5ce84ad4fff45630b04), stroke #33333326 0.5px
+  - FRAME "iPhone Environment", 375x812px, constraints left/top, opacity 0% [decorative, ~19 shapes]
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: afcb87ffc4b88ac1549cd184838a54eb39e6e452), stroke #33333326 0.5px
+
+Screen: Page 1 / iPhone 11 Pro / X - 115
+- FRAME "iPhone 11 Pro / X - 115", 375x812px, constraints left/top, radius 40px, fill #FFFFFF
+  - INSTANCE "BehindCurtain Bg", 375x812px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1616", 375x812px, constraints scale/scale, fill #333333B2, opacity 70%
+  - INSTANCE "Bars / Search / Default", 375x72px, constraints scale/scale, fill White, effect Bar Shadow
+    - FRAME "State", 343x36px, constraints scale/scale, radius 10px, fill Background
+      - FRAME "Search", 292x36px, constraints left_right/center, fill #FFFFFF
+        - FRAME "Muted", 280x22px, constraints left_right/center, fill #FFFFFF, opacity 40%
+          - TEXT "↳ Text", 280x19px, constraints scale/scale, fill Secondary Text, text [SF Pro Rounded Medium, 16px]
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White, effect Bar Shadow
+    - TEXT "Add shops", 252x24px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+      - RECTANGLE "Circle", 29x28.73px, constraints scale/scale, radius 100px, fill Background
+      - GROUP "Cross", 10.61x10.51px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+    - INSTANCE "Button", 22x21.8px, constraints left/center, fill #FFFFFF
+      - TEXT "􀆉", 24.2x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+  - FRAME "Cell/False", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill White
+    - INSTANCE "Button", 29x29px, constraints right/center
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill Danger
+      - GROUP "Cross", 10.61x10.61px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+        - RECTANGLE "Rectangle 1663", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 20cc34ab4cd5142c94625915abbc08c0a618fc0b), stroke #33333326 0.5px
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill White
+    - INSTANCE "Button", 29x29px, constraints right/center
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill Danger
+      - GROUP "Cross", 10.61x10.61px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+        - RECTANGLE "Rectangle 1663", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 22bf8ef6bda8656e9e8490248db8ea041285799f), stroke #33333326 0.5px
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill White
+    - INSTANCE "Button", 29x29px, constraints right/center
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill Danger
+      - GROUP "Cross", 10.61x10.61px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+        - RECTANGLE "Rectangle 1663", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill White
+    - INSTANCE "Button", 29x29px, constraints right/center
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill Danger
+      - GROUP "Cross", 10.61x10.61px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+        - RECTANGLE "Rectangle 1663", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 5e992281df79bfc4e8cb2761a6cadeadfc53d9ef), stroke #33333326 0.5px
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 929f107e8e8861a1794a9e8733ae9d34212edcdc), stroke #33333326 0.5px
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill #FFFFFF
+    - FRAME "Cell/False", 375x92px, constraints scale/scale, fill White
+      - INSTANCE "Button", 29x29px, constraints right/center
+        - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill Danger
+        - GROUP "Cross", 10.61x10.61px, constraints left/top, radius 100px
+          - RECTANGLE "Rectangle 1662", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+          - RECTANGLE "Rectangle 1663", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+      - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [Header 20], [heading]
+      - INSTANCE "Avatar", 60x60px, constraints left/center, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: e81acfd48fedd7c45ffef5ce84ad4fff45630b04), stroke #33333326 0.5px
+  - INSTANCE "Cell / Shops", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: e81acfd48fedd7c45ffef5ce84ad4fff45630b04), stroke #33333326 0.5px
+  - FRAME "iPhone Environment", 375x812px, constraints left/top, opacity 0% [decorative, ~19 shapes]
+
+Screen: Page 1 / iPhone 11 Pro / X - 117
+- FRAME "iPhone 11 Pro / X - 117", 375x812px, constraints left/top, radius 40px, fill White
+  - FRAME "Cell/False", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - GROUP "Group 1257", 322x190px, constraints left/top, radius 24px
+    - FRAME "Card", 322x190px, constraints scale/scale, radius 24px, fill #FDFDFD, effect [drop_shadow 10px offset 0 3 #04228E1A]
+      - TEXT "*6749", 63.16x24px, constraints scale/scale, fill Secondary Text, text [SF Pro Rounded Medium, 20px], opacity 50%
+      - TEXT "$441.00", 194x57px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 48px], [heading]
+      - GROUP "Group 1259", 50x30px, constraints scale/scale, radius 100px
+        - RECTANGLE "Rectangle 1", 30x30px, constraints scale/scale, radius 100px, fill #FF0000, opacity 60%
+        - RECTANGLE "Rectangle 7", 30x30px, constraints scale/scale, radius 100px, fill #FFE600, opacity 60%
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill #FFFFFF
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: f46c7f58a9460848d2f26dcb696bf74209ce3e31), stroke #33333326 0.5px
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 7dc625583c805cd749cc91c6eda101079caa6089), stroke #33333326 0.5px
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - TEXT "Today", 54x24px, constraints left/top, fill Text, text [SF Pro Rounded Medium, 20px], opacity 30%
+  - GROUP "Group 1258", 315x32px, constraints left/top, radius 100px
+    - RECTANGLE "Rectangle 63", 32x32px, constraints right/top, radius 100px, fill image(hash: a2558c8fe3cef242b8c26905fa88683eedf1bc69)
+    - TEXT "􀊫", 24x24px, constraints left/top, fill Text, text [SF Pro Rounded Medium, 20px]
+  - FRAME "Frame 1", 157x51px, constraints left/top, radius 100px, fill Background
+    - TEXT "Send", 75.76x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - FRAME "Frame 1", 151x51px, constraints left/top, radius 100px, fill Background
+    - TEXT "Add", 57.1x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 9399bbb07ee146664235170751abd8c3abb89375)
+  - INSTANCE "BehindCurtain Bg", 375x812px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1616", 375x812px, constraints scale/scale, fill #333333B2, opacity 70%
+  - GROUP "FullCurtain", 375x495px, constraints left/top
+    - RECTANGLE "Rectangle 1665", 375x495px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Component 2", 343x108px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1667", 343x108px, constraints scale/scale, radius 20px, fill Background
+    - INSTANCE "Switch", 51x31px, constraints right/center, fill #FFFFFF
+      - VECTOR "Background", 51x31px, constraints scale/scale, fill Pink
+      - VECTOR "Knob", 27x27px, constraints center/center, fill White, effect [drop_shadow 1px offset 0 3 #0000000F, drop_shadow 8px offset 0 3 #00000026]
+    - GROUP "Group 1244", 224x66px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "Group 1242", 219.25x24px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "Purchase Review", 219.25x24px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "Purchases can be cancelled within the next 24 hours", 224x38px, constraints left/center, fill Secondary Text, text [SF Pro Rounded Medium, 16px]
+  - INSTANCE "Slider card", 343x154px, constraints left/top
+    - RECTANGLE "Rectangle 1666", 343x154px, constraints scale/scale, radius 20px, fill Background
+    - TEXT "$100", 78x36px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 30px], [heading]
+    - GROUP "Slider", 344x44px, constraints scale/scale
+      - INSTANCE "Slider / Light", 344x44px, constraints scale/scale
+        - RECTANGLE "Track", 296x5px, constraints left_right/center, radius 2px, fill Label Color / Light / Quarternary
+        - FRAME "Slider", 248x28px, constraints left_right/center
+          - RECTANGLE "Rounded Rect", 91x5px, constraints left_right/center, radius 2px, fill Pink
+          - VECTOR "Knob", 20x20px, constraints right/center, fill Pink, effect [drop_shadow 13px offset 0 6 #0000001F, drop_shadow 4px offset 0 0.5 #0000001F]
+    - TEXT "For purchases bigger than", 160x24px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - TEXT "0", 10x19px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 16px], opacity 50%
+    - TEXT "10 000", 52x19px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 16px], opacity 50%
+  - INSTANCE "Shops Card", 343x150px, constraints left/top
+    - RECTANGLE "Rectangle 1666", 343x150px, constraints scale/scale, radius 20px, fill Background
+    - TEXT "From shops", 226x23.37px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 5e992281df79bfc4e8cb2761a6cadeadfc53d9ef), stroke #33333326 0.5px
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 20cc34ab4cd5142c94625915abbc08c0a618fc0b), stroke #33333326 0.5px
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 929f107e8e8861a1794a9e8733ae9d34212edcdc), stroke #33333326 0.5px
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: afcb87ffc4b88ac1549cd184838a54eb39e6e452), stroke #33333326 0.5px
+  - INSTANCE "Curtain", 375x69px, constraints scale/scale, radius 25/25/0/0px, fill White, effect [drop_shadow 0px offset 0 1 #F1F1F1]
+    - TEXT "Add shops", 252x24px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+      - RECTANGLE "Circle", 29x28.73px, constraints scale/scale, radius 100px, fill Background
+      - GROUP "Cross", 10.61x10.51px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+    - INSTANCE "Button", 22x21.8px, constraints left/center, fill #FFFFFF
+      - TEXT "􀆉", 24.2x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+  - FRAME "iPhone Environment", 375x812px, constraints left/top, opacity 0% [decorative, ~19 shapes]
+
+Screen: Page 1 / iPhone 11 Pro / X - 109
+- FRAME "iPhone 11 Pro / X - 109", 375x812px, constraints left/top, radius 40px, fill White
+  - FRAME "Cell/False", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - FRAME "iPhone Environment", 375x812px, constraints left/top, opacity 0%
+    - GROUP "Group 1", 375x812px, constraints scale/scale
+      - FRAME "Bars / Status Bar / iPhone / Light", 375x44px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 15.33x11px, constraints right/top, fill #000000
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+        - FRAME "Time Style", 54x21px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Time", 54x20px, constraints scale/center, fill Label / Light / Primary, text [SF Pro Text Semibold, 15px]
+      - FRAME "Bars / Home Indicator / iPhone / Light - Portrait", 375x34px, constraints scale/scale, fill #FFFFFF, opacity 30%
+        - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000, stroke #979797 0px, opacity 30%
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill #FFFFFF
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: c083fb607e2e0f071e1b2b3a69668f807a51f4e3), stroke #33333326 0.5px
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "􀐫 Pending", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 18px], opacity 20%
+      - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 20cc34ab4cd5142c94625915abbc08c0a618fc0b), stroke #33333326 0.5px
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 8cfaf3a34dbce492e45775905b76b13d92d78be6), stroke #33333326 0.5px
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - TEXT "Yesterday", 89x24px, constraints left/top, fill Text, text [SF Pro Rounded Medium, 20px], opacity 30%
+  - GROUP "Group 1259", 315x32px, constraints left/top, radius 100px
+    - RECTANGLE "Rectangle 63", 32x32px, constraints right/top, radius 100px, fill image(hash: a2558c8fe3cef242b8c26905fa88683eedf1bc69)
+    - TEXT "􀊫", 24x24px, constraints left/top, fill Text, text [Header 20], [heading]
+  - FRAME "Frame 1", 157x51px, constraints left/top, radius 100px, fill #F5F5F5
+    - TEXT "Send", 75.76x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - FRAME "Frame 1", 151x51px, constraints left/top, radius 100px, fill #F5F5F5
+    - TEXT "Add", 57.1x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - GROUP "Group 1257", 322x190px, constraints left/top, radius 24px
+    - FRAME "Card", 322x190px, constraints scale/scale, radius 24px, fill #FDFDFD, effect [drop_shadow 10px offset 0 3 #04228E1A]
+      - TEXT "*6749", 63.16x24px, constraints scale/scale, fill Secondary Text, text [SF Pro Rounded Medium, 20px], opacity 50%
+      - TEXT "$441.00", 194x57px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 48px], [heading]
+      - GROUP "Group 1259", 50x30px, constraints scale/scale, radius 100px
+        - RECTANGLE "Rectangle 1", 30x30px, constraints scale/scale, radius 100px, fill #FF0000, opacity 60%
+        - RECTANGLE "Rectangle 7", 30x30px, constraints scale/scale, radius 100px, fill #FFE600, opacity 60%
+  - TEXT "􀐬", 20x19px, constraints left/center, fill Pink, stroke White 4px, text [SF Pro Rounded Semibold, 16px]
+  - RECTANGLE "Rectangle 1680", 10x8px, constraints left/top, fill #FE00D4
+
+Screen: Page 1 / Notification after 24h passed
+- FRAME "Notification after 24h passed", 375x812px, constraints left/top, radius 40px, fill #FFFFFF
+  - FRAME "Light / Notification / Default", 375x812px, constraints left/top, fill #FFFFFF
+    - FRAME "Lockscreen Assets", 375x812px, constraints left_right/top_bottom, fill #FFFFFF
+      - RECTANGLE "Wallpaper", 375x812px, constraints center/center, radius 40px, fill Text
+      - GROUP "Bottom UI", 375x100px, constraints left/top
+        - FRAME "Home Indicator / Dark", 375x34px, constraints left_right/bottom, fill #FFFFFF
+          - FRAME "Home Indicator / Light", 375x34px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill Label Color / Dark / Primary
+        - TEXT "swipe up to open", 131x20px, constraints center/bottom, fill #FFFFFF, text [SF Pro Text Regular, 17px], opacity 64%
+        - GROUP "Camera button", 50x50px, constraints scale/scale, fill #FFFFFF [decorative, ~7 shapes]
+        - GROUP "Flashlight button", 50x50px, constraints scale/scale, fill #FFFFFF [decorative, ~6 shapes]
+      - GROUP "Status Bar, Time, Date", 375x216px, constraints left/top
+        - TEXT "Date", 157x26px, constraints scale/center, fill #FFFFFF, text [SF Pro Text Regular, 22px]
+        - GROUP "Editable Time", 145x99px, constraints left/top
+          - TEXT "41", 80x99px, constraints center/top, fill #FFFFFF, text [SF Pro Display Thin, 83px], [heading]
+          - VECTOR ":", 5.39x34.82px, constraints center/top, fill #FFFFFF
+          - TEXT "9", 49x99px, constraints center/top, fill #FFFFFF, text [SF Pro Display Thin, 83px], [heading]
+        - BOOLEAN_OPERATION "Lock", 23x33.33px, constraints scale/scale, fill #FFFFFF
+  - FRAME "Notifications / Default", 359x101px, constraints scale/scale, radius 13px, fill #F5F5F599, effect [background_blur 54.37px]
+    - TEXT "↳ Text", 335x36px, constraints left/center, fill #000000, text [SF Pro Text Regular, 15px]
+    - FRAME "Header", 359x40px, constraints left_right/top, fill #FFFFFF
+      - VECTOR "Header", 359x40px, constraints left_right/top, fill #FFFFFF00
+      - TEXT "↳ Time", 25x18px, constraints right/top, fill #0000000D, text [SF Pro Text Regular, 13px]
+      - TEXT "App Name", 63x18px, constraints left/top, fill #0000000D, text [SF Pro Text Regular, 13px]
+      - FRAME "Media / App Icon", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "▪︎ Bitmap", 20x20px, constraints left_right/top_bottom, fill image(hash: 1476c62915585ad2447b5223dbb0f6defb10c1e6)
+        - VECTOR "Scrim", 20x20px, constraints left_right/top_bottom, fill Pink, opacity 0%
+  - RECTANGLE "Rectangle 1676", 5x5px, constraints left/top, radius 100px, fill #FDFDFD, stroke #FFFFFF 3px
+
+Screen: Page 1 / iPhone 11 Pro / X - 116
+- FRAME "iPhone 11 Pro / X - 116", 375x812px, constraints left/top, radius 40px, fill White
+  - FRAME "Cell/False", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill #FFFFFF
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: c083fb607e2e0f071e1b2b3a69668f807a51f4e3), stroke #33333326 0.5px
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "􀐫 Pending", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 18px], opacity 20%
+      - INSTANCE "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 20cc34ab4cd5142c94625915abbc08c0a618fc0b), stroke #33333326 0.5px
+  - INSTANCE "Cell / Transactions", 375x92px, constraints left/top, fill White
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Avatar", 60x60px, constraints left/center
+        - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 8cfaf3a34dbce492e45775905b76b13d92d78be6), stroke #33333326 0.5px
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - INSTANCE "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White
+    - INSTANCE "Button", 29x28.73px, constraints right/center
+  - TEXT "Yesterday", 89x24px, constraints left/top, fill Text, text [SF Pro Rounded Medium, 20px], opacity 30%
+  - GROUP "Group 1259", 315x32px, constraints left/top, radius 100px
+    - RECTANGLE "Rectangle 63", 32x32px, constraints right/top, radius 100px, fill image(hash: a2558c8fe3cef242b8c26905fa88683eedf1bc69)
+    - TEXT "􀊫", 24x24px, constraints left/top, fill Text, text [Header 20], [heading]
+  - FRAME "Frame 1", 157x51px, constraints left/top, radius 100px, fill #F5F5F5
+    - TEXT "Receive", 75.76x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - FRAME "Frame 1", 151x51px, constraints left/top, radius 100px, fill #F5F5F5
+    - TEXT "Send", 57.1x21px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 18px]
+  - GROUP "Group 1257", 322x190px, constraints left/top, radius 24px
+    - FRAME "Card", 322x190px, constraints scale/scale, radius 24px, fill #FDFDFD, effect [drop_shadow 10px offset 0 3 #04228E1A]
+      - TEXT "*6749", 63.16x24px, constraints scale/scale, fill Secondary Text, text [SF Pro Rounded Medium, 20px], opacity 50%
+      - TEXT "$441.00", 194x57px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 48px], [heading]
+      - GROUP "Group 1259", 50x30px, constraints scale/scale, radius 100px
+        - RECTANGLE "Rectangle 1", 30x30px, constraints scale/scale, radius 100px, fill #FF0000, opacity 60%
+        - RECTANGLE "Rectangle 7", 30x30px, constraints scale/scale, radius 100px, fill #FFE600, opacity 60%
+  - INSTANCE "BehindCurtain Bg", 375x812px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 1616", 375x812px, constraints scale/scale, fill #333333B2, opacity 70%
+  - FRAME "iPhone Environment", 375x812px, constraints left/top, opacity 0% [decorative, ~19 shapes]
+  - GROUP "Group 1268", 375x616px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 1665", 375x551px, constraints scale/scale, fill White
+    - FRAME "Frame 1", 311x51px, constraints left/top, radius 100px, fill Background
+      - TEXT "Proceed to pay", 219x24px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 20px]
+    - INSTANCE "Curtain", 375x69px, constraints scale/scale, radius 25/25/0/0px, fill White, effect [drop_shadow 0px offset 0 1 #F1F1F1]
+      - TEXT "Add shops", 252x24px, constraints scale/scale, fill Text, text [SF Pro Rounded Medium, 20px]
+      - INSTANCE "Button", 29x28.73px, constraints right/center
+        - RECTANGLE "Circle", 29x28.73px, constraints scale/scale, radius 100px, fill Background
+        - GROUP "Cross", 10.61x10.51px, constraints left/top, radius 100px
+          - RECTANGLE "Rectangle 1662", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+          - RECTANGLE "Rectangle 1663", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+      - INSTANCE "Button", 22x21.8px, constraints left/center, fill #FFFFFF
+    - GROUP "Group 1263", 120x191px, constraints left/top
+      - TEXT "$105", 82x38px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 32px], [heading]
+      - TEXT "Amazon", 104x19px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 16px], opacity 50%
+      - GROUP "Group 1267", 120x122px, constraints left/top
+        - TEXT "􀐬", 118x118px, constraints left/center, fill Blue, text [SF Pro Rounded Regular, 100px], [heading]
+        - INSTANCE "Avatar/Barnes&Noble/Hero", 101x101px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle 1673", 101x101px, constraints scale/scale, radius 100px, fill image(hash: 20cc34ab4cd5142c94625915abbc08c0a618fc0b), stroke #FDFDFD 5px
+        - GROUP "Group 1275", 46x45px, constraints left/top, radius 0/0/0/0px
+          - TEXT "􀐬", 46x45px, constraints left/center, fill Pink, stroke White 5px, text [SF Pro Rounded Semibold, 38px], [heading]
+  - FRAME "Frame 2", 311x51px, constraints left/top, radius 100px, fill Text
+    - TEXT "Cancel the purchase", 219x24px, constraints scale/scale, fill White, text [SF Pro Rounded Semibold, 20px]
+
+Screen: Page 1 / BehindCurtain Bg
+- COMPONENT "BehindCurtain Bg", 375x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 1616", 375x812px, constraints scale/scale, fill #333333B2, opacity 70%
+
+Screen: Page 1 / Slider / Light
+- COMPONENT "Slider / Light", 344x44px, constraints left/top
+  - RECTANGLE "Track", 296x5px, constraints left_right/center, radius 2px, fill Label Color / Light / Quarternary
+  - FRAME "Slider", 248x28px, constraints left_right/center
+    - RECTANGLE "Rounded Rect", 91x5px, constraints left_right/center, radius 2px, fill Accent
+    - VECTOR "Knob", 20x20px, constraints right/center, fill Accent, effect [drop_shadow 13px offset 0 6 #0000001F, drop_shadow 4px offset 0 0.5 #0000001F]
+
+Screen: Page 1 / Bars / Search / Default
+- COMPONENT "Bars / Search / Default", 375x72px, constraints scale/scale, fill White, effect Bar Shadow
+  - FRAME "State", 343x36px, constraints scale/scale, radius 10px, fill Background
+    - FRAME "Search", 292x36px, constraints left_right/center, fill #FFFFFF
+      - FRAME "Muted", 280x22px, constraints left_right/center, fill #FFFFFF, opacity 40%
+        - TEXT "↳ Text", 280x19px, constraints scale/scale, fill Secondary Text, text [Caption 16]
+
+Screen: Page 1 / Slider card
+- COMPONENT "Slider card", 343x154px, constraints left/top
+  - RECTANGLE "Rectangle 1666", 343x154px, constraints scale/scale, radius 20px, fill Background
+  - TEXT "$100", 78x36px, constraints scale/scale, fill #000000, text [SF Pro Rounded Medium, 30px], [heading]
+  - GROUP "Slider", 344x44px, constraints scale/scale
+    - INSTANCE "Slider / Light", 344x44px, constraints scale/scale
+      - RECTANGLE "Track", 296x5px, constraints left_right/center, radius 2px, fill Label Color / Light / Quarternary
+      - FRAME "Slider", 248x28px, constraints left_right/center
+        - RECTANGLE "Rounded Rect", 91x5px, constraints left_right/center, radius 2px, fill Accent
+        - VECTOR "Knob", 20x20px, constraints right/center, fill Accent, effect [drop_shadow 13px offset 0 6 #0000001F, drop_shadow 4px offset 0 0.5 #0000001F]
+  - TEXT "For purchases bigger than", 234x24px, constraints scale/scale, fill #000000, text [Header 20], [heading]
+  - TEXT "0", 10x19px, constraints scale/scale, fill #000000, text [Caption 16], opacity 50%
+  - TEXT "10 000", 52x19px, constraints scale/scale, fill #000000, text [Caption 16], opacity 50%
+
+Screen: Page 1 / Curtain
+- COMPONENT "Curtain", 375x69.01px, constraints scale/scale, radius 25/25/0/0px, fill White, effect [drop_shadow 0px offset 0 1 #F1F1F1]
+  - TEXT "Add shops", 252x24px, constraints scale/scale, fill #000000, text [Header 20], [heading]
+  - INSTANCE "Button", 29x28.73px, constraints right/center
+    - RECTANGLE "Circle", 29x28.73px, constraints scale/scale, radius 100px, fill Background
+    - GROUP "Cross", 10.61x10.51px, constraints left/top, radius 100px
+      - RECTANGLE "Rectangle 1662", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+      - RECTANGLE "Rectangle 1663", 10.61x10.51px, constraints scale/scale, radius 100px, fill Text
+  - INSTANCE "Button", 22x21.8px, constraints left/center, fill #FFFFFF
+    - TEXT "􀆉", 24.2x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+
+Screen: Page 1 / Button / Add
+- COMPONENT "Button / Add", 60x60px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 1609", 60x60px, constraints scale/scale, radius 100px, fill White, effect Button Shadow
+  - GROUP "Group 1202", 26.47x26.47px, constraints scale/scale, radius 10px
+    - RECTANGLE "Rectangle 1610", 3.53x26.47px, constraints scale/scale, radius 10px, fill Accent
+    - RECTANGLE "Rectangle 1611", 26.47x3.53px, constraints scale/scale, radius 10px, fill Accent
+
+Screen: Page 1 / Switch
+- COMPONENT_SET "Switch", 67x94px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Checked=On", 51x31px, constraints left/top, fill #FFFFFF
+    - VECTOR "Background", 51x31px, constraints scale/scale, fill Accent
+    - VECTOR "Knob", 27x27px, constraints center/center, fill White, effect [drop_shadow 1px offset 0 3 #0000000F, drop_shadow 8px offset 0 3 #00000026]
+  - COMPONENT "Checked=Off", 51x31px, constraints left/top, fill #FFFFFF
+    - VECTOR "Background", 51x31px, constraints scale/scale, fill Fill Color / Light / Secondary
+    - VECTOR "Knob", 27x27px, constraints center/center, fill White, stroke #0000000A 0.5px, effect [drop_shadow 1px offset 0 3 #0000000F, drop_shadow 8px offset 0 3 #00000026]
+
+Screen: Page 1 / Button
+- COMPONENT_SET "Button", 45x96px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Added=False", 29x29px, constraints scale/scale, effect Micro Shadow
+    - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+    - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+      - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+      - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+  - COMPONENT "Added=True", 29x29px, constraints scale/scale
+    - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill Danger
+    - GROUP "Cross", 10.61x10.61px, constraints left/top, radius 100px
+      - RECTANGLE "Rectangle 1662", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+      - RECTANGLE "Rectangle 1663", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+
+Screen: Page 1 / Button
+- COMPONENT_SET "Button", 150x45px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Type=Close", 29x29px, constraints scale/scale
+    - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill Background
+    - GROUP "Cross", 10.61x10.61px, constraints left/top, radius 100px
+      - RECTANGLE "Rectangle 1662", 10.61x10.61px, constraints scale/scale, radius 100px, fill Text
+      - RECTANGLE "Rectangle 1663", 10.61x10.61px, constraints scale/scale, radius 100px, fill Text
+  - COMPONENT "Type=Back", 22x22px, constraints left/center, fill #FFFFFF
+    - TEXT "􀆉", 24.2x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+  - COMPONENT "Type=Forward", 22x22px, constraints left/top, fill #FFFFFF
+    - TEXT "􀆊", 22x22px, constraints scale/scale, fill #000000, text [SF Pro Text Medium, 18px]
+
+Screen: Page 1 / Avatar
+- COMPONENT_SET "Avatar", 213x490px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Shops=Ebay", 60x60px, constraints left/top, radius 100px, fill #FFFFFF
+    - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: e81acfd48fedd7c45ffef5ce84ad4fff45630b04), stroke #33333326 0.5px
+  - COMPONENT "Shops=Ikea", 60x60px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 5e992281df79bfc4e8cb2761a6cadeadfc53d9ef), stroke #33333326 0.5px
+  - COMPONENT "Shops=Amazon", 60x60px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 20cc34ab4cd5142c94625915abbc08c0a618fc0b), stroke #33333326 0.5px
+  - COMPONENT "Shops=Asos", 60x60px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 22bf8ef6bda8656e9e8490248db8ea041285799f), stroke #33333326 0.5px
+  - COMPONENT "Shops=Sephora", 60x60px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 929f107e8e8861a1794a9e8733ae9d34212edcdc), stroke #33333326 0.5px
+  - COMPONENT "Shops=Asos", 60x60px, constraints left/top
+  - COMPONENT "Shops=McDonalds", 60x60px, constraints left/top
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: d594b1d19906422379b9776d1f19b1e15d96f88a), stroke #33333326 0.5px
+  - COMPONENT "Shops=Lyft", 60x60px, constraints left/top
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: f46c7f58a9460848d2f26dcb696bf74209ce3e31), stroke #33333326 0.5px
+  - COMPONENT "Shops=Sandy", 60x60px, constraints left/top
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: c083fb607e2e0f071e1b2b3a69668f807a51f4e3), stroke #33333326 0.5px
+  - COMPONENT "Shops=Barnes&Noble", 60x60px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+  - COMPONENT "Shops=DoorDash", 60x60px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 9399bbb07ee146664235170751abd8c3abb89375)
+  - COMPONENT "Shops=Starbucks", 60x60px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 7dc625583c805cd749cc91c6eda101079caa6089), stroke #33333326 0.5px
+
+Screen: Page 1 / Avatar/Barnes&Noble/Hero
+- COMPONENT "Avatar/Barnes&Noble/Hero", 108x108px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 1673", 108x108px, constraints scale/scale, radius 100px, fill image(hash: 20cc34ab4cd5142c94625915abbc08c0a618fc0b)
+
+Screen: Page 1 / Button
+- COMPONENT_SET "Button", 336x138px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Type=Basic", 320x52px, constraints left/top
+    - RECTANGLE "Rectangle 1661", 320x52px, constraints scale/scale, radius 10px, fill White, effect [drop_shadow 10px offset 0 4 #04228E1A]
+    - TEXT "Button", 60x24px, constraints scale/scale, fill #000000, text [Header 20], [heading]
+  - COMPONENT "Type=Accent", 320x52px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Button", 320x52px, constraints scale/scale
+      - RECTANGLE "Rectangle 1661", 320x52px, constraints scale/scale, radius 10px, fill Text, effect [drop_shadow 10px offset 0 4 #04228E1A]
+      - TEXT "Button", 60x24px, constraints scale/scale, fill White, text [Header 20], [heading]
+
+Screen: Page 1 / Switch card
+- COMPONENT "Switch card", 343x108px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 1667", 343x108px, constraints scale/scale, radius 20px, fill Background
+  - INSTANCE "Switch", 51x31px, constraints right/center, fill #FFFFFF
+    - VECTOR "Background", 51x31px, constraints scale/scale, fill Accent
+    - VECTOR "Knob", 27x27px, constraints center/center, fill White, effect [drop_shadow 1px offset 0 3 #0000000F, drop_shadow 8px offset 0 3 #00000026]
+  - GROUP "Group 1244", 224x66px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "Group 1242", 219.25x24px, constraints scale/scale, radius 0/0/0/0px
+      - TEXT "Purchase Review", 219.25x24px, constraints left/center, fill #000000, text [Header 20], [heading]
+    - TEXT "Purchases can be cancelled within the next 24 hours", 224x38px, constraints left/center, fill Secondary Text, text [Caption 16]
+
+Screen: Page 1 / 􀊫
+- COMPONENT "􀊫", 20x22px, constraints left/top, fill #FFFFFF
+  - TEXT "􀊫", 20x22px, constraints scale/scale, fill #000000, text [SF Pro Rounded Regular, 17px]
+
+Screen: Page 1 / Cell/Settings
+- COMPONENT "Cell/Settings", 375x92px, constraints scale/scale, fill White
+  - TEXT "Transactions", 195x26px, constraints left/center, fill #000000, text [Header 20], [heading]
+  - FRAME "Avatar", 60x60px, constraints left/center, fill #FFFFFF
+    - INSTANCE "Button / Add", 60x60px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 1609", 60x60px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Group 1202", 26.47x26.47px, constraints scale/scale, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill #0000000D
+    - FRAME "Icon", 27x20px, constraints scale/scale, fill #FFFFFF
+      - TEXT "􀉆", 27x20px, constraints scale/scale, fill Text, text [SF Pro Display Regular, 25px], [heading]
+  - INSTANCE "Button", 22x22px, constraints left/top, fill #FFFFFF
+    - TEXT "􀆊", 22x22px, constraints scale/scale, fill Text, text [SF Pro Text Medium, 18px]
+
+Screen: Page 1 / Shops Card
+- COMPONENT_SET "Shops Card", 359x343px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Filled=False", 343x150px, constraints left/top
+    - RECTANGLE "Rectangle 1666", 343x150px, constraints scale/scale, radius 20px, fill Background
+    - GROUP "Group 1248", 295x108px, constraints left/top
+      - TEXT "From shops", 226x24px, constraints scale/scale, fill #000000, text [Header 20], [heading]
+      - INSTANCE "Button / Add", 60x60px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 1609", 60x60px, constraints scale/scale, radius 100px, fill White, effect Button Shadow
+        - GROUP "Group 1202", 26.47x26.47px, constraints scale/scale, radius 10px
+          - RECTANGLE "Rectangle 1610", 3.53x26.47px, constraints scale/scale, radius 10px, fill Accent
+          - RECTANGLE "Rectangle 1611", 26.47x3.53px, constraints scale/scale, radius 10px, fill Accent
+  - COMPONENT "Filled=True", 343x150px, constraints left/top
+    - RECTANGLE "Rectangle 1666", 343x150px, constraints scale/scale, radius 20px, fill Background
+    - TEXT "From shops", 226x23.37px, constraints scale/scale, fill #000000, text [Header 20], [heading]
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: b2c9ec879cf3f828b000a1efe4c71acd08d2f231)
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 5e992281df79bfc4e8cb2761a6cadeadfc53d9ef), stroke #33333326 0.5px
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 20cc34ab4cd5142c94625915abbc08c0a618fc0b), stroke #33333326 0.5px
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Avatar", 60x60px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 22bf8ef6bda8656e9e8490248db8ea041285799f), stroke #33333326 0.5px
+    - INSTANCE "Avatar", 60x60px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: 9399bbb07ee146664235170751abd8c3abb89375)
+
+Screen: Page 1 / Cell / Shops
+- COMPONENT_SET "Cell / Shops", 395x214px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Added=False", 375x92px, constraints left/top, fill Background
+    - INSTANCE "Button", 29x29px, constraints right/center, effect Micro Shadow
+      - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill White
+      - GROUP "Cross", 15x15px, constraints left/top, radius 100px
+        - RECTANGLE "Rectangle 1662", 13x2px, constraints scale/scale, radius 100px, fill Text
+        - RECTANGLE "Rectangle 1663", 2x13px, constraints scale/scale, radius 100px, fill Text
+    - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [Header 20], [heading]
+    - INSTANCE "Avatar", 60x60px, constraints left/center, radius 100px, fill #FFFFFF
+      - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: e81acfd48fedd7c45ffef5ce84ad4fff45630b04), stroke #33333326 0.5px
+  - COMPONENT "Added=True", 375x92px, constraints left/top, fill #FFFFFF
+    - FRAME "Cell/False", 375x92px, constraints scale/scale, fill White
+      - INSTANCE "Button", 29x29px, constraints right/center
+        - RECTANGLE "Circle", 29x29px, constraints scale/scale, radius 100px, fill Danger
+        - GROUP "Cross", 10.61x10.61px, constraints left/top, radius 100px
+          - RECTANGLE "Rectangle 1662", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+          - RECTANGLE "Rectangle 1663", 10.61x10.61px, constraints scale/scale, radius 100px, fill White
+      - TEXT "Ebay", 195x26px, constraints left/center, fill #000000, text [Header 20], [heading]
+      - INSTANCE "Avatar", 60x60px, constraints left/center, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: e81acfd48fedd7c45ffef5ce84ad4fff45630b04), stroke #33333326 0.5px
+
+Screen: Page 1 / Cell / Transactions
+- COMPONENT_SET "Cell / Transactions", 399x224px, constraints left/top, radius 5px, stroke #7B61FF 1px
+  - COMPONENT "Pending=False", 375x92px, constraints left/top, fill #FFFFFF
+    - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+      - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [Header 20], [heading]
+      - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [Header 20], [heading], opacity 20%
+      - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [Header 20], [heading]
+      - INSTANCE "Avatar", 60x60px, constraints left/center, radius 100px, fill #FFFFFF
+        - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: e81acfd48fedd7c45ffef5ce84ad4fff45630b04), stroke #33333326 0.5px
+  - COMPONENT "Pending=True", 375x92px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Cell / Transactions", 375x92px, constraints scale/scale, fill #FFFFFF
+      - FRAME "Cell", 375x92px, constraints scale/scale, fill White
+        - TEXT "Ebay", 144x26px, constraints left/center, fill #000000, text [Header 20], [heading]
+        - TEXT "12:20", 106x26px, constraints left/center, fill #000000, text [Header 20], [heading], opacity 20%
+        - TEXT "$60", 136x26px, constraints left/center, fill #000000, text [Header 20], [heading], opacity 20%
+        - TEXT "􀐫 Pending", 136x26px, constraints left/center, fill #000000, text [Header 20], [heading], opacity 20%
+        - INSTANCE "Avatar", 60x60px, constraints left/center, radius 100px, fill #FFFFFF
+          - RECTANGLE "Rectangle 7", 60x60px, constraints scale/scale, radius 100px, fill image(hash: e81acfd48fedd7c45ffef5ce84ad4fff45630b04), stroke #33333326 0.5px
+
+Screen: Page 1 / 􀍯
+- COMPONENT "􀍯", 23x19px, constraints left/top, fill #FFFFFF
+  - TEXT "􀍯", 23x19px, constraints scale/scale, fill #000000, text [Caption 16]
+
+Screen: Page 1 / 􀅼
+- COMPONENT "􀅼", 18x19px, constraints left/top, fill #FFFFFF
+  - TEXT "􀅼", 18x19px, constraints scale/scale, fill #000000, text [Caption 16]
+
+Screen: Page 1 / 􀑇
+- COMPONENT "􀑇", 17x19px, constraints left/top, fill #FFFFFF
+  - TEXT "􀑇", 17x19px, constraints scale/scale, fill #000000, text [Caption 16]
+
+Screen: Page 1 / 􀎓
+- COMPONENT "􀎓", 31x20px, constraints left/top, fill #FFFFFF
+  - TEXT "􀎓", 31x20px, constraints scale/scale, fill #000000, text [SF Pro Display Regular, 25px], [heading]
+
+Screen: Page 1 / Цель: Помочь уязвимым пользователям меньше тратить компульсивно
+- TEXT "Цель: Помочь уязвимым пользователям меньше тратить компульси", 900x240px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 50px], [heading]
+
+Screen: Page 1 / Как: Добавить positive friction (отложить подтверждение покупки)
+- TEXT "Как: Добавить positive friction (отложить подтверждение поку", 900x300px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 50px], [heading]
+
+Screen: Page 1 / Польза бизнесу  - Помощь уязвимым клиентам - Увеличение аудитории (переманивание от конкурентов засчет фичи)  - В перспективе – хранение денег в банке (предложение вкладывать деньги с отмененных покупок)
+- TEXT "Польза бизнесу  - Помощь уязвимым клиентам - Увеличение ауди", 900x600px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 50px], [heading]
+
+Screen: Page 1 / Качественное исследование Поговорила с тремя людьми с биполярным расстройством о том, как они справлялись с маниакальными тратами. Вывод:  Чем легче было совершить покупку, тем труднее им было остановиться и обдумать свои финансовые решения.
+- TEXT "Качественное исследование Поговорила с тремя людьми с биполя", 1655x600px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 50px], [heading]
+
+Screen: Page 1 / Опрос более 5000 человек с ментальными расстройствами показал, что 93% из них тратят больше в периоды обострения болезни.
+- TEXT "Опрос более 5000 человек с ментальными расстройствами показа", 1069x300px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 50px], [heading]
+
+Screen: Page 1 / Проблема   Как помочь уязвимым клиентам избежать трудной финансовой ситуации?
+- TEXT "Проблема   Как помочь уязвимым клиентам избежать трудной фин", 1069x360px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 50px], [heading]
+
+Screen: Page 1 / Включение функции "Safe spending"
+- TEXT "Включение функции "Safe spending"", 943x60px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 50px], [heading]
+
+Screen: Page 1 / Выбор онлайн магазинов
+- TEXT "Выбор онлайн магазинов", 653x60px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 50px], [heading]
+
+Screen: Page 1 / Ревью вчерашнего заказа
+- TEXT "Ревью вчерашнего заказа", 669x60px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 50px], [heading]
+
+Screen: Page 1 / 1. Принятие/Adoption - Кол-во новых юзеров из-за новой фичи, которой нет у конкурентов - Сколько людей активировали фичу
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

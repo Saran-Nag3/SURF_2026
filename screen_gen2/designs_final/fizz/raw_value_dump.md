@@ -1,0 +1,1384 @@
+---
+name: fizz-the-unofficial-olipop-design-system-community
+source_file: Fizz - The Unofficial Olipop Design System (Community)
+source_page: All pages (5): --, 🍾 Getting Started With Fizz!, 🏡 Foundations, 🎨 Components + Patterns, --
+generated_at: 2026-07-25T09:44:43.417053+00:00
+---
+
+# Fizz - The Unofficial Olipop Design System (Community) Design Guidelines
+
+## Source
+- Figma file: Fizz - The Unofficial Olipop Design System (Community)
+- Figma page: All pages (5): --, 🍾 Getting Started With Fizz!, 🏡 Foundations, 🎨 Components + Patterns, --
+- Extracted at: 2026-07-25T09:44:43.417053+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- blue-100: [#49C0DF]
+- blue-200: [#3498DA]
+- blue-300: [#4C86D9]
+- yellow-100: [#FFFAEF]
+- yellow-200: [#FFF7E5]
+- yellow-300: [#FFF4CB]
+- teal-100: [#EDF6F3]
+- teal-200: [#D3E8E3]
+- teal-300: [#A7D1C5]
+- teal-400: [#008B6F]
+- white: [#FFFFFF]
+- black: [#000000]
+- gray-500: [#222222]
+- gray-400: [#303030]
+- gray-300: [#3A3A3A]
+- gray-200: [#D3D3D3]
+- yellow-400: [#F7DA85]
+- yellow-500: [#F4C142]
+- green-400: [#14423D]
+- light green: [#AEE49B]
+- light blue: [#9ADED9]
+- light purple: [#EBC6FF]
+- light pink: [#FFC0DB]
+- light red: [#FF9595]
+- light orange: [#FFAF7E]
+- light brown: [#FBCFA5]
+- light yellow: [#FFDC84]
+- green-500: [#18312A]
+- gray-100: [#F8F9F9]
+
+## Raw Colors (unstyled)
+- #000000: 149 uses
+- #9747FF: 39 uses
+- #14433D1A: 24 uses
+- #D9D9D9: 18 uses
+- #FFFAEF: 16 uses
+- #FEE8FF66: 12 uses
+- #15433D: 4 uses
+- #FFFFFF: 4 uses
+
+## Typography Tokens
+- subheading-x-small: Ano Bold Regular (400), 16px / 24px, tracking 0px
+- paragraph-large: Ano Regular Regular (400), 24px / 32px, tracking 0px
+- subheading-medium: Ano Bold Regular (400), 32px / 40px, tracking 0px
+- button-default: Ano Bold Regular (400), 16px / auto, tracking 0px
+- heading-small: Windsor EF Bold (700), 24px / 32px, tracking 0px
+- heading-x-large: Windsor EF Bold (700), 60px / 60px, tracking 0px
+- button-large: Ano Bold Regular (400), 20px / auto, tracking 0px
+- paragraph-x-small: Ano Regular Regular (400), 12px / 16px, tracking 0px
+- paragraph-small: Ano Regular Regular (400), 16px / 24px, tracking 0px
+- heading-medium: Windsor EF Bold (700), 32px / 40px, tracking 0px
+- button-x-small: Ano Bold Regular (400), 14px / auto, tracking 0px
+- subheading-small: Ano Bold Regular (400), 24px / 32px, tracking 0px
+- paragraph-medium: Ano Regular Regular (400), 20px / 24px, tracking 0px
+- subheading-large: Ano Bold Regular (400), 48px / 60px, tracking 0px
+- heading-2x-large: Windsor EF Bold (700), 72px / 60px, tracking 0px
+- heading-3x-large: Windsor EF Bold (700), 80px / 60px, tracking 0px
+- heading-large: Windsor EF Bold (700), 48px / 48px, tracking 0px
+- paragraph-link-underlined: Ano Bold Regular (400), 16px / 24px, tracking 0px
+- paragraph-link-default: Ano Bold Regular (400), 16px / 24px, tracking 0px
+
+## Raw Typography (unstyled)
+- Ano Regular Regular, 24px: 32 uses
+- Ano Regular Regular, 16px: 22 uses
+- Ano Regular Regular, 33.67px: 15 uses
+- WindsorEF Bold, 128px: 5 uses
+
+## Typography Hierarchy
+- 128px - WindsorEF Bold, 128px (raw)
+- 80px - heading-3x-large (Windsor EF Bold)
+- 72px - heading-2x-large (Windsor EF Bold)
+- 60px - heading-x-large (Windsor EF Bold)
+- 48px - heading-large (Windsor EF Bold)
+- 48px - subheading-large (Ano Bold Regular)
+- 33.67px - Ano Regular Regular, 33.67px (raw)
+- 32px - heading-medium (Windsor EF Bold)
+- 32px - subheading-medium (Ano Bold Regular)
+- 24px - Ano Regular Regular, 24px (raw)
+- 24px - heading-small (Windsor EF Bold)
+- 24px - paragraph-large (Ano Regular Regular)
+- 24px - subheading-small (Ano Bold Regular)
+- 20px - button-large (Ano Bold Regular)
+- 20px - paragraph-medium (Ano Regular Regular)
+- 16px - Ano Regular Regular, 16px (raw)
+- 16px - button-default (Ano Bold Regular)
+- 16px - paragraph-link-default (Ano Bold Regular)
+- 16px - paragraph-link-underlined (Ano Bold Regular)
+- 16px - paragraph-small (Ano Regular Regular)
+- 16px - subheading-x-small (Ano Bold Regular)
+- 14px - button-x-small (Ano Bold Regular)
+- 12px - paragraph-x-small (Ano Regular Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- Layout Grid: columns count 12, section 103.25px, gutter 16px, align stretch
+
+## Component Families
+- Subcribe-save-04
+- Subcribe-save-03
+- Subcribe-save-02
+- Subcribe-save-01
+- Rating Stars
+- - Icon Scale
+- Reviewer-profile
+- prod-attr-03
+- prod-attr-09
+- prod-attr-08
+- prod-attr-06
+- prod-attr-04
+- prod-attr-07
+- prod-attr-01
+- prod-attr-02
+- prod-attr-05
+- Tiktok
+- Pinterest
+- LinkedIn
+- Twitter
+- Facebook
+- Instagram
+- Checkmark
+- Copyright
+- Waves?
+- Gift-open
+- Drink
+- fridge
+- World
+- Tick
+- Star-half
+- Star
+- Location
+- Gift
+- Chevron-left
+- Chevron-up
+- Chevron-right
+- Chevron-down
+- arrow-right
+- Search
+- Plus
+- Minus
+- Thumbs-down
+- Thumbs-up
+- Cart
+- User
+- Logo Olipop - Secondary
+- Logo -  Olipop
+- Other Buttons
+- Ticker
+- Radio button
+- Radio Button Block with Text + Descriptions
+- Radio Button Block with Text
+- Product Cards - Buy Now
+- Product Cards - Subscribe
+- Subcomponents
+- Soda Can
+- Dropdown
+- Accent
+- Default
+- Notification Banner
+- Arrows
+- Header Banner
+- Link Text
+- Breadcrumbs
+- Chips
+- Primary
+- Secondary
+- Tertiary
+- Image Button
+- Input Field
+- Nav
+- Primary Nav Menu & Header
+- Individual Review
+- Subscription Block
+- Text Only
+- Product Information
+- Selection Grid Individual
+- Selection Grid Subscribe
+- Image Gallery
+- Banner with Icons
+- Press Banner
+- Banner with List
+- Sidebar
+- Blog Article
+- Blog preview card
+- Author Feature
+- Product Carousel
+- Footer
+- Email Subscription
+- Home Page
+- Secondary Nav Menu
+- Subscriptions Review
+- Reviews Header
+
+## Component Specs
+- Subcribe-save-04: size 64x64px, fill #FFFFFF | variants: Size: Default/Small; Color: Default/Teal
+- Subcribe-save-03: size 64x64px, fill #FFFFFF | variants: Size: Default/Small; Color: Default/Teal
+- Subcribe-save-02: size 64x64px, fill #FFFFFF | variants: Size: Default/Small; Color: Default/Teal
+- Subcribe-save-01: size 64x64px, fill #FFFFFF | variants: Size: Default/Small; Color: Default/Teal
+- Rating Stars: size 120x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed | variants: No. of stars: 1/2/2.5/3/3.5/4/4.5/5; Size: Default
+- - Icon Scale: size 16x16px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed | variants: Size: Large - 32px/Medium - 24px/Small - 16px
+- Reviewer-profile: size 32x32px, text [Roboto Regular, 16px]
+- prod-attr-03: size 32x32px
+- prod-attr-09: size 46x46px
+- prod-attr-08: size 46x46px
+- prod-attr-06: size 32x32px, fill #FFFFFF
+- prod-attr-04: size 32x32px, fill #18312A
+- prod-attr-07: size 32x32px, fill #FFFFFF
+- prod-attr-01: size 32x32px, fill #FFFFFF
+- prod-attr-02: size 32x32px, fill #FFFFFF
+- prod-attr-05: size 32x32px
+- Tiktok: size 16x16px
+- Pinterest: size 16x16px
+- LinkedIn: size 16x16px
+- Twitter: size 16x16px
+- Facebook: size 16x16px
+- Instagram: size 16x16px
+- Checkmark: size 16x16px
+- Copyright: size 16x16px
+- Waves?: size 16x16px
+- Gift-open: size 16x16px
+- Drink: size 16x16px
+- fridge: size 16x16px
+- World: size 16x16px
+- Tick: size 16x16px
+- Star-half: size 16x16px, fill #FFFFFF
+- Star: size 16x16px, fill #FFFFFF
+- Location: size 16x16px
+- Gift: size 16x16px
+- Chevron-left: size 16x16px
+- Chevron-up: size 16x16px
+- Chevron-right: size 16x16px
+- Chevron-down: size 16x16px
+- arrow-right: size 16x16px
+- Search: size 16x16px
+- Plus/Default: size 16x16px
+- Minus: size 16x2px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed
+- Thumbs-down: size 16x16px, fill #FFFFFF
+- Thumbs-up: size 16x16px, fill #FFFFFF
+- Cart: size 16x16px
+- User: size 16x16px
+- Logo Olipop - Secondary: size 132x132px, fill #FFFFFF
+- Logo -  Olipop: size 385x132.67px, fill #FFFFFF
+- Other Buttons/Tabs: size 269x56px, radius 16/16/0/0px, horizontal layout, padding 16 24 16 24px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #14433D1A, text [subheading-x-small] | variants: State: Default/Hover/Selected
+- Ticker: size 138x48px, radius 32px, horizontal layout, padding 14 8 14 8px, gap 16px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #18312A 2px, text [button-large] | variants: Count: Ticker
+- Radio button: size 24x24px | variants: State: Filled/Open
+- Radio Button Block with Text + Descriptions: size 450x134px, vertical layout, padding 12 24 12 24px, gap 12px, sizing W:fixed H:fixed, text [paragraph-x-small, subheading-x-small] | variants: State: Default/Hover/Selected
+- Radio Button Block with Text: size 450x78px, vertical layout, padding 12 24 12 24px, gap 12px, align center/min, sizing W:fixed H:fixed, text [paragraph-x-small, subheading-x-small] | variants: State: Default/Hover/Selected
+- Product Cards - Buy Now: size 220x323.45px, radius 12.62px, horizontal layout, padding 16 12 16 12px, gap 7.89px, align space_between/min, sizing W:fixed H:fixed, fill #FFFFFF, text [heading-small] | variants: Flavor: Banana Cream/Cherry Cola/Cherry Vanilla/Classic Grape/Classic Root Beer/Cream Soda/Crisp Apple/Doctor Goodwin/Ginger Ale/Ginger Lemon/Lemon Lime/New/Orange Squeeze/Peaches & Cream/Ridge Rush/Strawberry Vanilla/Tropical Punch/Vintage Cola/Waterlemon lime; State: Default/Hover
+- Product Cards - Subscribe: size 304x300px, radius 16px, vertical layout, padding 12 16 12 16px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #AEE49B, text [button-default, Ano Regular Regular, 16px, subheading-x-small, heading-small] | variants: Flavor: Banana Cream/Cherry Cola/Cherry Vanilla/Classic Grape/Classic Root Beer/Cream Soda/Crisp Apple/Doctor Goodwin/Ginger Ale/Ginger Lemon/Lemon Lime/Orange Squeeze/Peaches & Cream/Ridge Rush/Strawberry Vanilla/Tropical Punch/Vintage Cola/Watermelon Lime
+- Subcomponents / Attributes: size 115x109px, vertical layout, padding 0 0 0 0px, gap 17px, align min/center, sizing W:fixed H:fixed, text [subheading-small] | variants: Type: Fiber/GMO Free/Gluten Free/Paleo/Plant Powered/Sugar/Vegan
+- Subcomponents / Selection Grid: size 538x658px, radius 0/0/16/16px, fill #FFFFFF, text [subheading-x-small, paragraph-x-small] | variants: Tab: Single Flavors/Variety Packs; Type: Default/Subscripton
+- Soda Can: size 190x354px, fill #FFFFFF | variants: Flavor: Banana Cream/Cherry Cola/Cherry Vanilla/Classic Grape/Classic Root Beer/Cream Soda/Crisp Apple/Doctor Goodwin/Ginger Ale/Ginger Lemon/Lemon Lime/Orange Squeeze/Peaches & Cream/Ridge Rush/Strawberry Vanilla/Tropical Punch/Vintage Cola/Watermelon LIme
+- Dropdown: size 515x48px, radius 32px, horizontal layout, padding 12 24 12 24px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #14433D1A 1px, text [paragraph-small] | variants: State: Closed/Open
+- Accent: size 737x80px, radius 8px, horizontal layout, padding 24 16 24 16px, gap 12px, sizing W:fixed H:fixed, fill #14433D1A, text [subheading-small] | variants: State: Closed/Open
+- Default: size 700x146px, vertical layout, padding 0 16 0 16px, gap 24px, sizing W:fixed H:fixed, fill #FFFFFF, text [paragraph-small, subheading-medium] | variants: State: Closed/Open
+- Notification Banner: size 1440x44px, vertical layout, padding 10 24 10 24px, gap 10px, align center/min, sizing W:fixed H:fixed, fill #18312A, text [paragraph-link-underlined, subheading-x-small] | variants: Style: Default/Light/Teal
+- Arrows: size 40x40px, radius 20px, horizontal layout, padding 13 16 13 16px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #EDF6F3 | variants: Direction: Left/Right; State: Default/Inverse/White
+- Header Banner: size 1280x480px, radius 8px, horizontal layout, padding 0 0 0 0px, gap 48px, align min/max, sizing W:fixed H:fixed, fill #EDF6F3, text [subheading-x-small, heading-x-large, paragraph-small] | variants: Type: Article Banner/Landing Banner
+- Link Text: size 65x24px, vertical layout, padding 0 0 0 0px, gap 10px, align max/center, sizing W:fixed H:fixed, text [paragraph-link-default] | variants: Theme: Dark/Light
+- Breadcrumbs: size 383x25px, horizontal layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, text [paragraph-link-default, subheading-x-small] | variants: Theme: Dark/Light
+- Chips: size 100x30px, radius 16px, horizontal layout, padding 8 16 8 16px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [button-x-small] | variants: State: Default/Hover; Color: Accent/Default
+- Primary: size 173x40px, radius 32px, horizontal layout, padding 12 40 12 40px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #14423D, text [button-default] | variants: State: Default/Hover/White; Size: Large/Medium/Small
+- Secondary: size 185x36px, radius 32px, horizontal layout, padding 8 48 8 48px, gap 12px, align center/center, sizing W:fixed H:fixed, fill #14423D, text [button-large] | variants: State: Default/Filled/Hover/Transparent/Inverse; Size: Large/Medium/Small
+- Tertiary: size 157x48px, radius 32px, horizontal layout, padding 16 32 16 32px, gap 16px, align center/center, sizing W:fixed H:fixed, fill #F4C142, text [button-large] | variants: State: Default/Hover; Size: Large/Medium/Small
+- Image Button: size 120x40px, vertical layout, padding 4 10 4 10px, gap 10px, sizing W:fixed H:fixed | variants: State: Default/Hover
+- Input Field: size 250x48px, radius 8px, vertical layout, padding 12 16 12 16px, gap 10px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, stroke #14433D1A 1px, text [paragraph-small] | variants: Style: Round/Sharp; Icons: With Icon/Without Icon; State: Focus/Selected/Unselected
+- Nav/Blog/Tab: size 145x48px, horizontal layout, padding 12 16 12 16px, gap 24px, align center/center, sizing W:fixed H:fixed, text [subheading-x-small] | variants: Theme: Dark/Light; Justified: Default/Left
+- Subcomponents / Nav Variety pack: size 220x130px, radius 8px, fill #FFC0DB, text [subheading-x-small] | variants: Category: Best Sellers/Classic Soda/Fruity Fun; State: Default/Hover; Type: Default/Large + Description
+- Subcomponents / Nav Flavor Cards: size 170x115px, radius 8px, fill #FF9595, text [paragraph-x-small, subheading-x-small] | variants: Flavor: Banana Cream/Cherry Cola/Cherry Vanilla/Classic Grape/Classic Root Beer/Cream Soda/Crisp Apple/Doctor Goodwin/Ginger Ale/Ginger Lime/Lemon Lime/Orange Squeeze/Peaches&Cream/Ridge Rush/Strawberry Vanilla/Tropical Punch/Vintage Cola/Watermelon Lime; State: Default/Hover; Alert: New/None; Size: Large/Small
+- Subcomponents / Nav menu buttons: size 100x56px, horizontal layout, padding 12 12 12 12px, gap 12px, align center/center, sizing W:fixed H:fixed, text [subheading-small] | variants: State: Default/Focus/Hover
+- Subcomponents / Footer Text buttons: size 46x24px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [paragraph-small] | variants: State: Default/Hover
+- Subcomponents / Dropdown tabs: size 250x48px, vertical layout, padding 12 16 12 48px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, text [subheading-x-small] | variants: State: Default/Focus/Hover; Icon: With icon/Without icon
+- Primary Nav Menu & Header: size 1440x100px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFF7E5, text [subheading-x-small] | variants: State: Closed/Flavors/Learn/Variety Packs
+- Subcomponents / Progress bar: size 200x8px, radius 4px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #D3D3D3 | variants: Progress bar: 0%/10%/100%/20%/30%/40%/50%/60%/70%/80%/90%
+- Individual Review: size 1440x296px, vertical layout, padding 24 80 24 80px, gap 48px, sizing W:fixed H:fixed, text [paragraph-small, paragraph-medium, subheading-medium, subheading-small] | variants: State: Default
+- Subscription Block: size 1440x560px, vertical layout, padding 48 0 48 0px, gap 48px, align min/center, sizing W:fixed H:fixed, text [button-default, Ano Regular Regular, 16px, subheading-x-small, heading-small, paragraph-large, heading-x-large]
+- Text Only: size 280x410px, radius 16px, horizontal layout, padding 48 24 48 24px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [paragraph-small, subheading-x-small, heading-medium]
+- Product Information: size 1093x554px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, text [subheading-small, paragraph-medium, subheading-large]
+- Subcomponents /  Title Block: size 540x152px, vertical layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [paragraph-small, heading-2x-large, paragraph-x-small]
+- Selection Grid Individual: size 543x1422px, vertical layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [paragraph-x-small, paragraph-small, subheading-x-small, button-large, heading-2x-large]
+- Selection Grid Subscribe: size 538x1096px, vertical layout, padding 0 0 0 0px, gap 53px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [subheading-x-small, paragraph-x-small, button-large, paragraph-small, subheading-medium, heading-2x-large]
+- Image Gallery: size 630x1236px, vertical layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [subheading-small]
+- Banner with Icons: size 1440x597px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [button-large, paragraph-x-small, paragraph-medium, heading-3x-large]
+- Press Banner: size 1440x550px, vertical layout, padding 0 80 0 80px, gap 0px, align center/center, sizing W:fixed H:fixed, fill image(hash: 7488685bbae855c65d2f3e317ae169c5b7ee8806), text [heading-large, subheading-small]
+- Banner with List: size 1440x560px, horizontal layout, padding 80 80 80 80px, gap 130px, align space_between/min, sizing W:fixed H:fixed, text [paragraph-link-underlined, paragraph-small, button-default, paragraph-medium, heading-large]
+- Sidebar: size 280x516px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [paragraph-small, heading-medium]
+- Blog Article: size 400x800px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [paragraph-small, subheading-x-small, subheading-small]
+- Blog preview card: size 416x308px, radius 16px, vertical layout, padding 24 24 24 24px, gap 10px, align max/min, sizing W:fixed H:fixed, fill image(hash: 44178d9ccf65bf71858d1d3fd49e605d956f8bf0), text [subheading-x-small, paragraph-small]
+- Author Feature: size 950x592px, vertical layout, padding 0 0 0 0px, gap 40px, sizing W:fixed H:fixed, text [paragraph-small, subheading-x-small, subheading-medium, heading-large]
+- Product Carousel: size 1440x679.45px, vertical layout, padding 48 0 48 0px, gap 64px, align min/center, sizing W:fixed H:fixed, fill #F8F9F9, text [button-large, heading-small, subheading-small, heading-large]
+- Footer: size 1440x500px, vertical layout, padding 48 40 48 40px, gap 10px, align center/min, sizing W:fixed H:fixed, fill #14423D, text [paragraph-small, subheading-x-small, button-large]
+- Email Subscription: size 1440x251px, vertical layout, padding 80 80 80 80px, gap 10px, sizing W:fixed H:fixed, text [button-large, paragraph-small, subheading-medium]
+- Home Page: size 1440x597px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [button-large, subheading-small, heading-3x-large]
+- Subcomponents / Blog nav dropdown: size 145x232px, radius 8px, vertical layout, padding 8 24 8 24px, gap 8px, sizing W:fixed H:fixed, fill #18312A, text [subheading-x-small]
+- Secondary Nav Menu: size 1440x48px, horizontal layout, padding 0 80 0 80px, gap 24px, align min/center, sizing W:fixed H:fixed, text [paragraph-small, subheading-x-small]
+- Subcomponents/ Learn section cards: size 170x210px, radius 16px, vertical layout, padding 8 0 8 0px, gap 10px, sizing W:fixed H:fixed, fill image(hash: c632b542e5cd521d5aa2537abb28577057dc05cb), text [subheading-x-small]
+- Subscriptions Review: size 480x800px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [button-x-small, paragraph-small, subheading-x-small, subheading-small]
+- Subcomponents /  Rating block: size 357x116px, horizontal layout, padding 0 0 0 0px, gap 24px, align min/max, sizing W:fixed H:fixed, text [paragraph-x-small, subheading-large]
+- Reviews Header: size 1440x224px, horizontal layout, padding 48 80 48 80px, gap 447px, align space_between/center, sizing W:fixed H:fixed, text [paragraph-x-small, subheading-large, button-default, heading-large]
+
+## Most-Used Styles
+- subheading-x-small: 441 uses
+- paragraph-large: 177 uses
+- paragraph-small: 150 uses
+- paragraph-x-small: 133 uses
+- heading-small: 70 uses
+- subheading-small: 55 uses
+- subheading-medium: 54 uses
+- button-x-small: 51 uses
+- button-default: 50 uses
+- button-large: 42 uses
+- heading-x-large: 20 uses
+- heading-medium: 10 uses
+- paragraph-link-default: 10 uses
+- paragraph-medium: 10 uses
+- heading-2x-large: 7 uses
+- heading-large: 6 uses
+- subheading-large: 6 uses
+- heading-3x-large: 5 uses
+- paragraph-link-underlined: 4 uses
+- teal-400: 2 uses
+- black: 1 use
+- blue-100: 1 use
+- blue-200: 1 use
+- blue-300: 1 use
+- gray-100: 1 use
+- gray-200: 1 use
+- gray-300: 1 use
+- gray-400: 1 use
+- gray-500: 1 use
+- green-400: 1 use
+- green-500: 1 use
+- light blue: 1 use
+- light brown: 1 use
+- light green: 1 use
+- light orange: 1 use
+- light pink: 1 use
+- light purple: 1 use
+- light red: 1 use
+- light yellow: 1 use
+- teal-100: 1 use
+- teal-200: 1 use
+- teal-300: 1 use
+- white: 1 use
+- yellow-100: 1 use
+- yellow-200: 1 use
+- yellow-300: 1 use
+- yellow-400: 1 use
+- yellow-500: 1 use
+
+## Layout & Structure
+Screen: 🍾 Getting Started With Fizz! / Cover
+- FRAME "Cover", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 16", 1920x1080px, constraints left/top, fill image(hash: 27ed10acb20847e129a5cead84b78a7ab4b9d949)
+  - INSTANCE "Logo -  Olipop", 249.57x86px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "image 222", 249.57x86px, constraints scale/scale, fill image(hash: 090ec053fddb05f8ce32be7d9ea6ccce93abf0a9)
+  - TEXT "Fizz UI Kit", 617x93px, constraints center/top, fill #18312A, text [WindsorEF Bold, 126px], [heading]
+  - TEXT "The Unofficial Olipop Design System", 814x60px, constraints center/top, fill #18312A, text [subheading-large], [heading]
+  - RECTANGLE "Rectangle 9", 412x17px, constraints left/top, fill #18312A
+  - RECTANGLE "Rectangle 10", 413x17px, constraints left/top, fill #008B6F
+  - RECTANGLE "Rectangle 11", 412x17px, constraints left/top, fill #EDF6F3
+
+Screen: 🍾 Getting Started With Fizz! / Design Principles
+- FRAME "Design Principles", 1920x1080px, constraints left/top, fill #FFFAEF
+  - RECTANGLE "image 9", 872x788.71px, constraints left/top, fill image(hash: a0a5795493defc272e2e4885de404829f7118b65)
+  - LINE "Line 1", 1760x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Design Principles", 477x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - FRAME "Frame 1", 724x236px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "01", 724x60px, constraints left/top, fill #18312A, text [heading-2x-large], [heading]
+    - FRAME "Frame 4", 724x152px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Fun", 724x40px, constraints left/top, fill #18312A, text [heading-medium], [heading]
+      - TEXT "Surprise and delight users with intentional use of vibrant c", 724x96px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - FRAME "Frame 2", 724x236px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "02", 724x60px, constraints left/top, fill #18312A, text [heading-2x-large], [heading]
+    - FRAME "Frame 4", 724x152px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Simplicity", 724x40px, constraints left/top, fill #18312A, text [heading-medium], [heading]
+      - TEXT "Focus on what matters most with a foundational color palette", 724x96px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - FRAME "Frame 3", 724x236px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "03", 724x60px, constraints left/top, fill #18312A, text [heading-2x-large], [heading]
+    - FRAME "Frame 4", 724x152px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Friendly", 724x40px, constraints left/top, fill #18312A, text [heading-medium], [heading]
+      - TEXT "Convey welcome and inclusivity toward all, encouraging users", 724x96px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+
+Screen: 🍾 Getting Started With Fizz! / Welcome
+- FRAME "Welcome", 1920x1080px, constraints left/top, fill #FFFAEF
+  - LINE "Line 1", 1760x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Welcome!", 265x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - FRAME "Frame 1", 1184x272px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4", 1184x272px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Welcome to Fizz, the unofficial UI kit inspired by Olipop, t", 1184x80px, constraints left/top, fill #18312A, text [heading-medium], [heading]
+      - TEXT "This kit brings together key UI elements for desktop designs", 1184x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+      - TEXT "Each element is crafted with Auto Layout and variants, makin", 1184x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - RECTANGLE "Rectangle 5", 1760x411px, constraints left/top, fill image(hash: 00cf4321372c8b40dc5e3578b5a6383269113d46)
+  - RECTANGLE "image 17", 177x177px, constraints left/top, fill image(hash: 38a93fbe0aeb75bdeb0f2b667a25e937ea33624d)
+
+Screen: 🍾 Getting Started With Fizz! / Accessibility Considerations
+- FRAME "Accessibility Considerations", 1920x1080px, constraints left/top, fill #FFFAEF
+  - VECTOR "Rectangle 1", 398x507px, constraints left/top, fill #FFF7E5
+  - VECTOR "Rectangle 4", 398x507px, constraints left/top, fill image(hash: 12afea08e5c23aba1d85dc48b9b9f274886057c0)
+  - LINE "Line 1", 1760x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Accessibility", 344x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - FRAME "Frame 1", 444x120px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4", 444x120px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Color Contrast", 444x40px, constraints left/top, fill #18312A, text [heading-medium], [heading]
+      - TEXT "A more intentional color palette ensures legibility for all ", 444x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - FRAME "Frame 2", 444x152px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4", 444x152px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Sizing (touch targets)", 444x40px, constraints left/top, fill #18312A, text [heading-medium], [heading]
+      - TEXT "Larger touch targets ensure that all users can successfully ", 444x96px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - FRAME "Frame 3", 444x216px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 4", 444x216px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Consistency & Predictability", 444x40px, constraints left/top, fill #18312A, text [heading-medium], [heading]
+      - TEXT "Standardized components and clear page hierarchy create a co", 444x160px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - RECTANGLE "Rectangle 2", 398x507px, constraints left/top, fill image(hash: b6a3dc6f1f0f5a4bf40423590452567c6e3e242e)
+  - RECTANGLE "Rectangle 3", 442x521px, constraints left/top, fill image(hash: a7f23d1c4365ed0c2a4ca6f81abbd6ef2b77f3da)
+
+Screen: 🏡 Foundations / Index
+- FRAME "Index", 1920x1337px, constraints left/top, fill #FFFFFF
+  - TEXT "HERO BANNER", 187x32px, constraints left/top, fill #000000, text [heading-small], [heading]
+  - RECTANGLE "image", 1920x616px, constraints left/top, fill image(hash: 95addd3588b9bd35e6c7383938f9f64d1796d3d6)
+  - RECTANGLE "Rectangle 471", 1920x224px, constraints left/top, fill #EDF6F3
+  - TEXT "Foundations", 454x60px, constraints left/top, fill #18312A, text [heading-3x-large], [heading]
+  - TEXT "The essential building blocks of the Fizz Design System, cov", 1344x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "INDEX", 147x48px, constraints left/top, fill #18312A, text [Ano Bold Regular, 48px], [heading]
+  - FRAME "Frame 629", 222x264px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Colors", 222x24px, constraints left/top, fill #000000, text [Ano Regular Regular, 24px], [heading]
+    - TEXT "Typography", 222x24px, constraints left/top, fill #000000, text [Ano Regular Regular, 24px], [heading]
+    - TEXT "Grids", 222x24px, constraints left/top, fill #000000, text [Ano Regular Regular, 24px], [heading]
+    - TEXT "Iconography", 222x24px, constraints left/top, fill #000000, text [Ano Regular Regular, 24px], [heading]
+    - TEXT "Layout and Spacing", 222x24px, constraints left/top, fill #000000, text [Ano Regular Regular, 24px], [heading]
+    - TEXT "Official Logo", 222x24px, constraints left/top, fill #000000, text [Ano Regular Regular, 24px], [heading]
+
+Screen: 🏡 Foundations / Colors
+- FRAME "Colors", 1920x1325px, constraints left/top, fill #FFFAEF
+  - LINE "Line 1", 1760x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Colors", 183x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - TEXT "THEME COLORS", 256x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - TEXT "ALL COLORS", 211x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - TEXT "PRODUCT COLORS", 315x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - TEXT "green-500", 85x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "green-400", 90x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "teal-400", 80x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "yellow-500", 88x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "yellow-400", 90x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "light-brown", 89x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "light-orange", 103x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "light-red", 103x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "light-pink", 103x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "light-purple", 103x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "light-blue", 103x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "light-green", 103x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - RECTANGLE "Rectangle 31", 194x53px, constraints left/top, fill gray-100
+  - RECTANGLE "Rectangle 39", 194x53px, constraints left/top, fill green-500
+  - RECTANGLE "Rectangle 44", 144x53px, constraints left/top, fill light yellow
+  - RECTANGLE "Rectangle 45", 145x53px, constraints left/top, fill light brown
+  - RECTANGLE "Rectangle 46", 144x53px, constraints left/top, fill light orange
+  - RECTANGLE "Rectangle 47", 144x53px, constraints left/top, fill light red
+  - RECTANGLE "Rectangle 48", 144x53px, constraints left/top, fill light pink
+  - RECTANGLE "Rectangle 49", 145x53px, constraints left/top, fill light purple
+  - ... +56 more children
+
+Screen: 🏡 Foundations / Logo
+- FRAME "Logo", 1920x608px, constraints left/top, fill #FFFAEF
+  - LINE "Line 1", 1760x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Logos", 169x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - COMPONENT "Logo -  Olipop", 385x132.67px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "image 222", 385x132.67px, constraints scale/scale, fill image(hash: 090ec053fddb05f8ce32be7d9ea6ccce93abf0a9)
+  - COMPONENT "Logo Olipop - Secondary", 132x132px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "image 17", 132x132px, constraints scale/scale, radius 66px, fill image(hash: 38a93fbe0aeb75bdeb0f2b667a25e937ea33624d)
+  - TEXT "Primary Logo", 236x24px, constraints left/top, fill #15433D, text [paragraph-small]
+  - TEXT "Secondary use - only in media/publications", 316x24px, constraints left/top, fill #15433D, text [paragraph-small]
+
+Screen: 🏡 Foundations / Typography
+- FRAME "Typography", 1920x2591px, constraints left/top, fill #FFFAEF
+  - LINE "Line 1", 1760x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Typography", 330x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - TEXT "HEADINGS", 169x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - FRAME "Frame 35", 576x140px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Font Family: Windsor EF", 342x120px, constraints left/top, fill #18312A, text [heading-x-large], [heading]
+  - FRAME "Frame 41", 576x84px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Font Family: Ano Regular", 137x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - FRAME "Frame 36", 576x140px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Font Family: Ano SemiBold", 310x120px, constraints left/top, fill #18312A, text [subheading-large], [heading]
+  - TEXT "PARAGRAPH", 200x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - TEXT "SUBHEADINGS", 235x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - FRAME "Frame 29", 576x132px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 2", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 23", 576x108px, horizontal pad 0 0 0 0px gap 107px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 17", 372x108px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Heading 1", 372x60px, constraints left/top, fill #18312A, text [heading-3x-large], [heading]
+        - TEXT "heading-3x-large", 372x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "80/60px", 97x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 42", 576x96px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 2", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 23", 576x72px, horizontal pad 0 0 0 0px gap 107px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 17", 372x72px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Paragraph 1", 372x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+        - TEXT "paragraph-large", 372x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+      - TEXT "24/32px", 95x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 43", 576x88px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 2", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 23", 576x64px, horizontal pad 0 0 0 0px gap 107px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 17", 372x64px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Paragraph 2", 372x24px, constraints left/top, fill #18312A, text [paragraph-medium]
+        - TEXT "paragraph-medium", 372x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+      - TEXT "20/24px", 95x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 44", 576x88px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 2", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 23", 576x64px, horizontal pad 0 0 0 0px gap 107px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 17", 372x64px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Paragraph 3 (Default)", 372x24px, constraints left/top, fill #18312A, text [paragraph-small]
+        - TEXT "paragraph-small", 372x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+      - TEXT "16/24px", 93x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 45", 576x80px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 2", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 23", 576x56px, horizontal pad 0 0 0 0px gap 107px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 17", 372x56px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Paragraph 4", 372x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+        - TEXT "paragraph-x-small", 372x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+      - TEXT "12/16px", 90x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 37", 576x132px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 2", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 23", 576x108px, horizontal pad 0 0 0 0px gap 107px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 17", 372x108px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheading 1", 372x60px, constraints left/top, fill #18312A, text [subheading-large], [heading]
+        - TEXT "subheading-large", 372x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "48/60px", 97x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 30", 576x132px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 4", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 24", 576x108px, horizontal pad 0 0 0 0px gap 148px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 18", 335x108px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Heading 2", 335x60px, constraints left/top, fill #18312A, text [heading-2x-large], [heading]
+        - TEXT "heading-2x-large", 335x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "72/60px", 93x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 38", 576x112px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 4", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 24", 576x88px, horizontal pad 0 0 0 0px gap 148px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 18", 335x88px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheading 2", 335x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+        - TEXT "subheading-medium", 335x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "32/40px", 96x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 31", 576x132px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 3", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 25", 576x108px, horizontal pad 0 0 0 0px gap 204px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 19", 279x108px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Heading 3", 279x60px, constraints left/top, fill #18312A, text [heading-x-large], [heading]
+        - TEXT "heading-x-large", 279x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "60/60px", 97x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 39", 576x104px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 3", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 25", 576x80px, horizontal pad 0 0 0 0px gap 204px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 19", 279x80px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheading 3", 279x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+        - TEXT "subheading-small", 279x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "24/32px", 95x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 32", 576x116px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 4", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 26", 576x92px, horizontal pad 0 0 0 0px gap 260px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 223x92px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Heading 4", 223x48px, constraints left/top, fill #18312A, text [heading-large], [heading]
+        - TEXT "heading-large", 223x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "48/48px", 97x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 40", 576x92px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 4", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 26", 576x68px, horizontal pad 0 0 0 0px gap 260px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 20", 223x68px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheading 4", 223x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+        - TEXT "subheading-x-small", 223x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "16/24px", 93x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 33", 576x108px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 5", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 27", 576x84px, horizontal pad 0 0 0 0px gap 295px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 21", 188x84px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Heading 5", 188x40px, constraints left/top, fill #18312A, text [heading-medium], [heading]
+        - TEXT "heading-medium", 188x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "32/40px", 96x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 34", 576x96px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - LINE "Line 6", 576x0px, constraints left/top, stroke #000000 1px
+    - FRAME "Frame 28", 576x72px, horizontal pad 0 0 0 0px gap 324px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 22", 159x72px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Heading 6", 159x32px, constraints left/top, fill #18312A, text [heading-small], [heading]
+        - TEXT "heading-small", 159x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - TEXT "24/32px", 95x32px, constraints left/top, fill #222222, text [subheading-small], [heading]
+  - FRAME "Frame 504", 1920.3x130.46px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - FRAME "Frame 628", 357.02x40.09px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "- Icon Scale", 32.01x32.01px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Checkmark", 32.01x32.01px, constraints left/top
+          - VECTOR "Vector", 28.01x28.01px, constraints scale/scale, fill #18312A
+          - VECTOR "Vector", 14.01x10.59px, constraints scale/scale
+      - TEXT "Using Olipop’s fonts", 301.02x40.07px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "Olipop uses primarily two font families - Windsor EF and Ano", 1824.26x32.44px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+
+Screen: 🏡 Foundations / Grids
+- FRAME "Grids", 1920x1751px, constraints left/top, fill #FFFAEF
+  - LINE "Line 1", 1760x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Grids", 154x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - TEXT "Default Size: 1440px x 1024px Columns: 12 Gutter: 16px Margi", 443x160px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - FRAME "Frame 630", 1440x1100px, constraints left/top
+    - FRAME "Desktop - 1", 1440x1024px, constraints left/top, fill #FFFFFF
+      - FRAME "Frame 159", 1280x1024px, constraints left/top
+        - RECTANGLE "Rectangle 53", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 54", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 55", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 56", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 57", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 58", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 59", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 60", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 61", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 62", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 63", 92x1024px, constraints left/top, fill #FEE8FF66
+        - RECTANGLE "Rectangle 64", 92x1024px, constraints left/top, fill #FEE8FF66
+        - TEXT "16PX", 57x45px, constraints left/top, fill #000000, text [Ano Regular Regular, 24px], [heading]
+        - VECTOR "Line 9", 16x0px, constraints left/top, stroke #000000 1px
+        - TEXT "01", 17x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "02", 19x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "03", 19x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "04", 19x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "05", 19x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "06", 19x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "07", 18x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "08", 19x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "09", 19x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "10", 17x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - TEXT "11", 14x24px, constraints left/top, fill #000000, text [paragraph-small]
+        - ... +1 more children
+      - FRAME "Frame 160", 1280.28x387.56px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 158", 1280.28x79px, horizontal pad 0 0 0 0px gap 32px align space_between/max sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 134", 632x79px, horizontal pad 11.22 274.96 11.22 274.96px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "6/12", 68x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 135", 632x79px, horizontal pad 16.83 277.77 16.83 277.77px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "6/12", 68x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+        - FRAME "Frame 155", 1280.28x79px, horizontal pad 0 0 0 0px gap 22px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 131", 416x79px, horizontal pad 16.83 171.15 16.83 171.15px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "4/12", 68x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 132", 416x78.56px, horizontal pad 16.83 171.15 16.83 171.15px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "4/12", 68x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 133", 416x78.56px, horizontal pad 16.83 171.15 16.83 171.15px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "4/12", 68x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+        - FRAME "Frame 156", 1280.28x78.56px, horizontal pad 0 0 0 0px gap 22px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 127", 308x78.56px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "3/12", 68x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 128", 308x78.56px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "3/12", 68x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 129", 308x78.56px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "3/12", 68x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 130", 308x78.56px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "3/12", 68x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+        - FRAME "Frame 157", 1280.28x79px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 136", 200x79px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "2/12", 67x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 137", 200x79px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "2/12", 67x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 138", 200x78.56px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "2/12", 67x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 139", 200x78.56px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "2/12", 67x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 140", 200x78.56px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "2/12", 67x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+          - FRAME "Frame 141", 200x78.56px, horizontal pad 15.43 117.84 15.43 117.84px gap 14.03px align center/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+            - TEXT "2/12", 67x45px, constraints left/top, fill #14423D, text [Ano Regular Regular, 33.67px], [heading]
+      - TEXT "Margin 80px", 32x138px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+      - TEXT "Margin 80px", 32x138px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+      - RECTANGLE "Rectangle 51", 80x1024px, constraints left/center, fill #BAE4FE66
+      - RECTANGLE "Rectangle 52", 80x1024px, constraints right/center, fill #BAE4FE66
+    - TEXT "Screen Size Default 1440px", 166x64px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+    - VECTOR "Line 7", 584x0px, constraints left/top, stroke #000000 1px
+    - VECTOR "Line 8", 584x0px, constraints left/top, stroke #000000 1px
+
+Screen: 🏡 Foundations / Layout and Spacing
+- FRAME "Layout and Spacing", 1920x1151px, constraints left/top, fill #FFFAEF
+  - LINE "Line 1", 1760x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Layout and Spacing", 544x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - FRAME "Frame 148", 937x96px, horizontal pad 0 0 0 0px gap 48px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 142", 118x64px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 2", 8x8px, constraints left/top, fill #008B6F
+      - TEXT "8px spacing-x-small", 118x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+    - FRAME "Frame 143", 104x68px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 3", 12x12px, constraints left/top, fill #008B6F
+      - TEXT "12px spacing-small", 104x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+    - FRAME "Frame 144", 123x72px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 4", 16x16px, constraints left/top, fill #008B6F
+      - TEXT "16px spacing-medium", 123x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+    - FRAME "Frame 145", 105x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 5", 24x24px, constraints left/top, fill #008B6F
+      - TEXT "24px spacing-large", 105x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+    - FRAME "Frame 146", 119x88px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 6", 32x32px, constraints left/top, fill #008B6F
+      - TEXT "32px spacing-x-large", 119x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+    - FRAME "Frame 147", 128x96px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 7", 40x40px, constraints left/top, fill #008B6F
+      - TEXT "40px spacing-2x-large", 128x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - FRAME "Frame 154", 834x152px, horizontal pad 0 0 0 0px gap 48px align center/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 149", 128x104px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 8", 48x48px, constraints left/top, fill #008B6F
+      - TEXT "48px spacing-3x-large", 128x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+    - FRAME "Frame 150", 129x124px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 9", 64x64px, constraints left/top, fill #008B6F
+      - TEXT "64px spacing-4x-large", 129x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+    - FRAME "Frame 151", 129x128px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 11", 72x72px, constraints left/top, fill #008B6F
+      - TEXT "72px spacing-5x-large", 129x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+    - FRAME "Frame 152", 129x136px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 12", 80x80px, constraints left/top, fill #008B6F
+      - TEXT "80px spacing-6x-large", 129x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+    - FRAME "Frame 153", 127x152px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 13", 96x96px, constraints left/top, fill #008B6F
+      - TEXT "96px spacing-7x-large", 127x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "radius-sharp Radius 0px", 128x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "radius-soft Radius 4px", 128x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "radius-medium Radius 8px", 128x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "radius-softer Radius 16px", 128x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "radius-softest Radius 32px", 128x48px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+  - TEXT "SPACING UNITS", 251x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - TEXT "RADIUS", 122x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - RECTANGLE "Rectangle 466", 150x64px, constraints left/top, fill #008B6F
+  - RECTANGLE "Rectangle 467", 150x64px, constraints left/top, radius 4px, fill #008B6F
+  - RECTANGLE "Rectangle 468", 150x64px, constraints left/top, radius 8px, fill #008B6F
+  - RECTANGLE "Rectangle 469", 150x64px, constraints left/top, radius 16px, fill #008B6F
+  - RECTANGLE "Rectangle 470", 150x64px, constraints left/top, radius 32px, fill #008B6F
+  - TEXT "0", 10x24px, constraints left/top, fill #000000, text [subheading-x-small], [heading]
+  - TEXT "4", 10x24px, constraints left/top, fill #000000, text [subheading-x-small], [heading]
+  - TEXT "8", 10x24px, constraints left/top, fill #000000, text [subheading-x-small], [heading]
+  - TEXT "16", 18x24px, constraints left/top, fill #000000, text [subheading-x-small], [heading]
+  - TEXT "32", 18x24px, constraints left/top, fill #000000, text [subheading-x-small], [heading]
+
+Screen: 🏡 Foundations / Iconography
+- FRAME "Iconography", 1482x2008px, constraints left/top, fill #FFFAEF
+  - LINE "Line 1", 1332x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Iconography", 341x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - TEXT "ICON SIZES", 182x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - TEXT "ICON SCALE COMPONENT", 422x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "User", 16x16px, constraints left/top
+      - VECTOR "User-icon", 16x16px, constraints scale/scale, fill #18312A
+  - INSTANCE "- Icon Scale", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "User", 24x24px, constraints left/top
+      - VECTOR "User-icon", 24x24px, constraints scale/scale, fill #18312A
+  - INSTANCE "- Icon Scale", 32x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "User", 32x32px, constraints left/top
+      - VECTOR "User-icon", 32x32px, constraints scale/scale, fill #18312A
+  - TEXT "16px Icon-small", 75x48px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "64px", 37x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "Small - 16px", 86x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "Medium - 24px", 106x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "Large - 32px", 91x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "20px - Default", 103x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "20px - Accent", 100x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "24px Icon-medium", 94x48px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "32px Icon-large", 76x48px, constraints left/top, fill #000000, text [paragraph-small]
+  - RECTANGLE "Rectangle 472", 16x2px, constraints left/top, fill #008B6F
+  - RECTANGLE "Rectangle 474", 24x2px, constraints left/top, fill #008B6F
+  - RECTANGLE "Rectangle 476", 32x2px, constraints left/top, fill #008B6F
+  - RECTANGLE "Rectangle 473", 2x16px, constraints left/top, fill #008B6F
+  - RECTANGLE "Rectangle 475", 2x24px, constraints left/top, fill #008B6F
+  - RECTANGLE "Rectangle 477", 2x32px, constraints left/top, fill #008B6F
+  - TEXT "16", 13x16px, constraints left/top, fill #000000, text [paragraph-x-small]
+  - TEXT "16", 13x16px, constraints left/top, fill #000000, text [paragraph-x-small]
+  - TEXT "24", 14x16px, constraints left/top, fill #000000, text [paragraph-x-small]
+  - ... +26 more children
+
+Screen: 🎨 Components + Patterns / Review Blocks
+- FRAME "Review Blocks", 3363x2118px, constraints left/top, fill #FFFAEF
+  - COMPONENT_SET "Individual Review", 1480x355px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Default", 1440x296px, vertical pad 24 80 24 80px gap 48px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 194", 1280x200px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 272", 1280x24px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 255", 1175x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 255", 120x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "6 days ago", 81x24px, constraints left/top, fill #18312A, text [paragraph-small]
+        - FRAME "Frame 193", 1280x152px, horizontal pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 191", 216x104px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 184", 216x64px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 185", 216x24px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 192", 1016x152px, vertical pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 166", 1016x80px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 189", 1016x24px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+      - LINE "Line 6", 1280x0px, constraints left/top, stroke #18312A 1px
+  - FRAME "Frame 499", 3201x60px, horizontal pad 10 24 10 24px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Customer Reviews - Subcomponents", 540x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - COMPONENT "Reviews Header", 1440x224px, horizontal pad 48 80 48 80px gap 447px align space_between/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 257", 421x128px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Customer Reviews", 421x48px, constraints left/top, fill #18312A, text [heading-large], [heading]
+      - INSTANCE "Secondary", 191x32px, horizontal pad 8 40 8 40px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #14423D
+        - TEXT "Button", 111x16px, constraints left/top, fill #FFFFFF, text [button-default]
+    - INSTANCE "Subcomponents /  Rating block", 357x116px, horizontal pad 0 0 0 0px gap 24px align min/max sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 256", 117x116px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "4.57", 95x60px, constraints left/top, fill #18312A, text [subheading-large], [heading]
+        - FRAME "Frame 255", 117x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Rating Stars", 117x24px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 589", 117x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "880 Reviews", 102x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+      - FRAME "Frame 254", 216x112px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 249", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "5", 8x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+          - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+            - RECTANGLE "Rectangle 445", 160x8px, constraints left/top, radius 4px, fill #18312A
+        - FRAME "Frame 250", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "4", 7x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+          - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+            - RECTANGLE "Rectangle 445", 80x8px, constraints left/top, radius 4px, fill #18312A
+        - FRAME "Frame 251", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "3", 7x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+          - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+            - RECTANGLE "Rectangle 445", 40x8px, constraints left/top, radius 4px, fill #18312A
+        - FRAME "Frame 252", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "2", 7x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+          - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+            - RECTANGLE "Rectangle 445", 40x8px, constraints left/top, radius 4px, fill #18312A
+        - FRAME "Frame 253", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "1", 6x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+          - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+            - RECTANGLE "Rectangle 445", 20x8px, constraints left/top, radius 4px, fill #18312A
+  - TEXT "Customer Reviews - Product - Header", 414x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Progress Bar", 140x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Customer Rating", 186x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Customer Reviews - Product - Individual Review", 515x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Customer Review - Subscriptions", 360x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - COMPONENT_SET "Subcomponents / Progress bar", 240x368px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Progress bar=10%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 20x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=0%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 0x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=20%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 40x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=30%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 60x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=40%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 80x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=50%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 100x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=60%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 120x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=70%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 140x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=80%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 160x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=90%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 180x8px, constraints left/top, radius 4px, fill #18312A
+    - COMPONENT "Progress bar=100%", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+      - RECTANGLE "Rectangle 445", 200x8px, constraints left/top, radius 4px, fill #18312A
+  - COMPONENT "Subcomponents /  Rating block", 357x116px, horizontal pad 0 0 0 0px gap 24px align min/max sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 256", 117x116px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "4.57", 95x60px, constraints left/top, fill #18312A, text [subheading-large], [heading]
+      - FRAME "Frame 255", 117x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Rating Stars", 117x24px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 589", 117x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "ic:round-star", 24x24px, constraints left/top, fill #FFFFFF
+            - FRAME "ic:round-star", 24x24px, constraints left/top, fill #FFFFFF
+            - FRAME "ic:round-star", 24x24px, constraints left/top, fill #FFFFFF
+            - FRAME "ic:round-star", 24x24px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Star-half", 22x22px, constraints left/top, fill #FFFFFF
+      - TEXT "880 Reviews", 102x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+    - FRAME "Frame 254", 216x112px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 249", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "5", 8x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+        - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+          - RECTANGLE "Rectangle 445", 160x8px, constraints left/top, radius 4px, fill #18312A
+      - FRAME "Frame 250", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "4", 7x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+        - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+          - RECTANGLE "Rectangle 445", 80x8px, constraints left/top, radius 4px, fill #18312A
+      - FRAME "Frame 251", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "3", 7x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+        - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+          - RECTANGLE "Rectangle 445", 40x8px, constraints left/top, radius 4px, fill #18312A
+      - FRAME "Frame 252", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "2", 7x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+        - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+          - RECTANGLE "Rectangle 445", 40x8px, constraints left/top, radius 4px, fill #18312A
+      - FRAME "Frame 253", 216x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "1", 6x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+        - INSTANCE "Subcomponents / Progress bar", 200x8px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #D3D3D3
+          - RECTANGLE "Rectangle 445", 20x8px, constraints left/top, radius 4px, fill #18312A
+  - COMPONENT "Subscriptions Review", 480x800px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 437", 480x250px, constraints left/top, radius 16/16/0/0px, fill image(hash: 37e56e438309beb17b50563f07dc69e4f2a2e9b0)
+    - FRAME "Frame 143", 480x550px, vertical pad 24 24 24 24px gap 32px align center/min sizing W:fill H:fixed, constraints left/top, radius 0/0/16/16px, fill #FFFFFF
+      - FRAME "Frame 142", 432x424px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 210", 432x328px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 141", 432x272px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 270", 120x24px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 140", 432x224px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Oliver Mahoney", 432x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+          - LINE "Line 16", 432x0px, constraints left/top, stroke #14433D1A 0.5px
+        - FRAME "Frame 209", 432x64px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fill H:fixed, constraints left/top
+          - ELLIPSE "Ellipse 114", 64x64px, constraints left/top, fill image(hash: 1c9a4a726dac127f88fb0aaf33a1a86aaf72f03c)
+          - TEXT "Ryan and his family enjoy Vintage Cola the best and receive ", 344x48px, constraints left/top, fill #18312A, text [paragraph-small]
+      - INSTANCE "Secondary", 161x24px, horizontal pad 4 32 4 32px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #14423D
+        - TEXT "Button", 97x14px, constraints left/top, fill #FFFFFF, text [button-x-small]
+  - FRAME "Frame 504", 3362.92x130.81px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Customer Reviews", 275.02x40.07px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "Customer review blocks display feedback from users, helping ", 3266.88x32.79px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+  - TEXT "0%", 23x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "10%", 30x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "20%", 32x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "30%", 32x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "40%", 32x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "50%", 32x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "60%", 33x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "70%", 31x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "80%", 32x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "90%", 32x24px, constraints left/top, fill #000000, text [paragraph-small]
+  - TEXT "100%", 39x24px, constraints left/top, fill #000000, text [paragraph-small]
+
+Screen: 🎨 Components + Patterns / Navigation & Header
+- FRAME "Navigation & Header", 2901x6923px, constraints left/top, fill #FFFAEF
+  - RECTANGLE "Rectangle 512", 345x242px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 509", 708x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 510", 201x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 511", 151x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - LINE "Line 1", 2741x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Navigation Menus - Primary and Secondary", 1190x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - FRAME "Frame 500", 2741x60px, horizontal pad 10 24 10 24px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Subcomponents - Navigation Menu’s and Footer", 709x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - COMPONENT_SET "Primary Nav Menu & Header", 1480x2316px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Closed", 1440x100px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFF7E5
+      - FRAME "Nav Menu", 1440x100px, vertical pad 10 80 10 80px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 217", 1280x48px, horizontal pad 0 0 0 0px gap 236px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 215", 348x48px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Subcomponents / Nav menu buttons", 100x48px, horizontal pad 12 12 12 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Subcomponents / Nav menu buttons", 100x48px, horizontal pad 12 12 12 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Subcomponents / Nav menu buttons", 100x48px, horizontal pad 12 12 12 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 442", 116x40px, constraints left/top, fill image(hash: a780bd908b82dbe633c0e6488725b3693e3d673a)
+          - FRAME "Frame 216", 348x48px, horizontal pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Subcomponents / Nav menu buttons", 117x48px, horizontal pad 12 12 12 12px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "- Icon Scale", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "- Icon Scale", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "State=Flavors", 1440x550px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Primary Nav Menu & Header", 1440x100px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFF7E5, stroke #18312A 1px
+        - FRAME "Nav Menu", 1440x100px, vertical pad 10 80 10 80px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 217", 1280x48px, horizontal pad 0 0 0 0px gap 236px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 215", 348x48px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 442", 116x40px, constraints left/top, fill image(hash: a780bd908b82dbe633c0e6488725b3693e3d673a)
+            - FRAME "Frame 216", 348x48px, horizontal pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Nav Menu", 1440x450px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 496", 1440x450px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 495", 250x450px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 226", 250x192px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 493", 250x259px, vertical pad 24 72 24 72px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 226", 1190x450px, vertical pad 24 24 24 24px gap 48px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFF7E5
+            - TEXT "Customer Favorites", 1142x32px, constraints left/top, fill #18312A, text [heading-small], [heading]
+            - FRAME "Frame 221", 914x246px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Button/Secondary/Default/Large", 245x36px, horizontal pad 8 48 8 48px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #14423D
+    - COMPONENT "State=Variety Packs", 1440x550px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Primary Nav Menu & Header", 1440x100px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFF7E5, stroke #18312A 1px
+        - FRAME "Nav Menu", 1440x100px, vertical pad 10 80 10 80px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 217", 1280x48px, horizontal pad 0 0 0 0px gap 236px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 215", 348x48px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 442", 116x40px, constraints left/top, fill image(hash: a780bd908b82dbe633c0e6488725b3693e3d673a)
+            - FRAME "Frame 216", 348x48px, horizontal pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Nav Menu", 1440x450px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 497", 1440x450px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 495", 250x450px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 226", 250x192px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 493", 250x259px, vertical pad 24 72 24 72px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 226", 1190x450px, vertical pad 24 24 24 24px gap 48px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFF7E5
+            - FRAME "Frame 227", 756x130px, horizontal pad 0 0 0 0px gap 48px align center/min sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Button/Secondary/Default/Large", 303x36px, horizontal pad 8 48 8 48px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #14423D
+    - COMPONENT "State=Learn", 1440x550px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Primary Nav Menu & Header", 1440x100px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFF7E5, stroke #18312A 1px
+        - FRAME "Nav Menu", 1440x100px, vertical pad 10 80 10 80px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 217", 1280x48px, horizontal pad 0 0 0 0px gap 236px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "Frame 215", 348x48px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - RECTANGLE "Rectangle 442", 116x40px, constraints left/top, fill image(hash: a780bd908b82dbe633c0e6488725b3693e3d673a)
+            - FRAME "Frame 216", 348x48px, horizontal pad 0 0 0 0px gap 32px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 497", 1440x450px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 226", 1440x450px, vertical pad 24 24 24 24px gap 48px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFF7E5
+          - FRAME "Frame 227", 914x210px, horizontal pad 0 0 0 0px gap 16px align center/min sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Subcomponents/ Learn section cards", 170x210px, vertical pad 8 0 8 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #E7DFD9
+            - INSTANCE "Subcomponents/ Learn section cards", 170x210px, vertical pad 8 0 8 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill image(hash: b3bf27e40fa05c832003648d12c257d57457ddd5)
+            - INSTANCE "Subcomponents/ Learn section cards", 170x210px, vertical pad 8 0 8 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill image(hash: c632b542e5cd521d5aa2537abb28577057dc05cb)
+            - INSTANCE "Subcomponents/ Learn section cards", 170x210px, vertical pad 8 0 8 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill #CDF1F3
+            - INSTANCE "Subcomponents/ Learn section cards", 170x210px, vertical pad 8 0 8 0px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill image(hash: 44decfc3a3ae1cfede1597a8cb8b3fbc0468901a)
+  - TEXT "Default State: Navigation Menu Closed", 189x96px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Shop Hover: Flavors", 135x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Shop Hover: Variety Packs", 149x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Learn Hover:", 141x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Navigation Dropdown Tabs - Default, Hover, Focus", 550x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Variety Packs Categories - Default, Hover, With and without ", 696x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Nav Menu -Individual flavor cards Default , Hover With Alert", 368x96px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Main Component", 192x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Subcomponents", 180x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+  - TEXT "Blog Nav Dropdowns", 231x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Blog Nav Tabs", 156x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Default", 83x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Hover", 66x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "List View", 97x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Navigation Tabs - Default, Hover, Focus", 429x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Footer Links - Default, Hover", 307x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Learn Tab Secondary Navigation - Hover", 446x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - ... +12 more children
+
+Screen: 🎨 Components + Patterns / Input Fields
+- FRAME "Input Fields", 2059x881px, constraints left/top, fill #FFFAEF
+  - COMPONENT_SET "Input Field", 600x525px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Style=Sharp, Icons=With Icon, State=Unselected", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #14433D1A 1px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 54x24px, constraints left/top, fill #18312A, text [paragraph-small]
+        - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Search", 16x16px, constraints left/top
+            - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #18312A 1.5px
+    - COMPONENT "Style=Sharp, Icons=Without Icon, State=Unselected", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #14433D1A 1px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Enter Email Address", 145x24px, constraints left/top, fill #18312A, text [paragraph-small]
+    - COMPONENT "Style=Round, Icons=With Icon, State=Unselected", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #14433D1A 1px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Search", 54x24px, constraints left/top, fill #18312A, text [paragraph-small]
+        - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Search", 16x16px, constraints left/top
+            - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #18312A 1.5px
+    - COMPONENT "Style=Round, Icons=Without Icon, State=Unselected", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #14433D1A 1px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Enter Email Address", 145x24px, constraints left/top, fill #18312A, text [paragraph-small]
+    - COMPONENT "Style=Sharp, Icons=With Icon, State=Selected", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #18312A 1px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "|", 4x24px, constraints left/top, fill #18312A, text [paragraph-small]
+        - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Search", 16x16px, constraints left/top
+            - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #18312A 1.5px
+    - COMPONENT "Style=Sharp, Icons=Without Icon, State=Selected", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #18312A 1px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "|", 4x24px, constraints left/top, fill #18312A, text [paragraph-small]
+    - COMPONENT "Style=Round, Icons=With Icon, State=Selected", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #18312A 1px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "|", 4x24px, constraints left/top, fill #18312A, text [paragraph-small]
+        - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Search", 16x16px, constraints left/top
+            - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #18312A 1.5px
+    - COMPONENT "Style=Round, Icons=Without Icon, State=Selected", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #18312A 1px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "|", 4x24px, constraints left/top, fill #18312A, text [paragraph-small]
+    - COMPONENT "Style=Sharp, Icons=With Icon, State=Focus", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #4C86D9 3px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "|", 4x24px, constraints left/top, fill #18312A, text [paragraph-small]
+        - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Search", 16x16px, constraints left/top
+            - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #18312A 1.5px
+    - COMPONENT "Style=Sharp, Icons=Without Icon, State=Focus", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #4C86D9 3px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "|", 4x24px, constraints left/top, fill #18312A, text [paragraph-small]
+    - COMPONENT "Style=Round, Icons=With Icon, State=Focus", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #4C86D9 3px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "|", 4x24px, constraints left/top, fill #18312A, text [paragraph-small]
+        - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Search", 16x16px, constraints left/top
+            - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #18312A 1.5px
+    - COMPONENT "Style=Round, Icons=Without Icon, State=Focus", 250x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #4C86D9 3px
+      - FRAME "Frame 151", 218x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "|", 4x24px, constraints left/top, fill #18312A, text [paragraph-small]
+  - TEXT "Default", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "With Icon", 32x103px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Without Icon", 32x139px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Sharp", 68x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Round", 72x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Default", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Selected", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Selected", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Focus", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Focus", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - RECTANGLE "Rectangle 473", 26x229px, constraints left/top, fill #14433D1A
+  - RECTANGLE "Rectangle 475", 250x26px, constraints left/top, fill #14433D1A
+  - RECTANGLE "Rectangle 476", 250x26px, constraints left/top, fill #14433D1A
+  - RECTANGLE "Rectangle 474", 26x229px, constraints left/top, fill #14433D1A
+  - FRAME "Frame 504", 2059.04x130.5px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Input and Search Fields", 347.02x40.08px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "Input and search fields allow users to enter text or keyword", 1963x32.47px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+
+Screen: 🎨 Components + Patterns / Image Buttons
+- FRAME "Image Buttons", 2060x505px, constraints left/top, fill #FFFAEF
+  - RECTANGLE "Rectangle 509", 224x216px, constraints left/top, radius 8px, fill #D9D9D9
+  - COMPONENT_SET "Image Button", 160x158px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "State=Hover", 120x40px, vertical pad 4 10 4 10px gap 10px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF 1px
+      - RECTANGLE "Rectangle 466", 100x32px, constraints left/top, fill image(hash: 519996a94155c336733bb9f363c4cc4be4c3a195)
+    - COMPONENT "State=Default", 120x40px, vertical pad 4 10 4 10px gap 10px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 466", 100x32px, constraints left/top, fill image(hash: 519996a94155c336733bb9f363c4cc4be4c3a195)
+  - TEXT "Selected", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Default", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - FRAME "Frame 503", 2059.72x130.5px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Image Button", 196.02x40.05px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "An image button combines visuals and functionality, allowing", 1963.68x32.47px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+
+Screen: 🎨 Components + Patterns / Hero Banner
+- FRAME "Hero Banner", 2339x998px, constraints left/top, fill #FFFAEF
+  - FRAME "Frame 504", 2338.78x130.56px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Hero Banner", 186.02x40.04px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "The Hero Banner is a large, eye-catching section at the top ", 2242.74x32.54px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+  - COMPONENT "Home Page", 1440x597px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "Rectangle 470", 720x597px, constraints left/top, fill #EDF6F3
+    - RECTANGLE "Rectangle 471", 720x597px, constraints left/top, fill image(hash: 836949486593a7d3d24eb1bf687d8c22ca6e16a1)
+    - FRAME "Frame 538", 492x289px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 537", 492x217px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "A New Kind of Soda", 492x120px, constraints left/top, fill #18312A, text [heading-3x-large], [heading]
+        - TEXT "High Fiber. 2-5g of Sugar. Delicious Flavors.", 492x65px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+      - INSTANCE "Button/Secondary/Default/Large", 190x48px, horizontal pad 8 48 8 48px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #14423D
+        - TEXT "Button", 94x20px, constraints left/top, fill #FFFFFF, text [button-large]
+  - TEXT "Homepage", 124x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+
+Screen: 🎨 Components + Patterns / Forms
+- FRAME "Forms", 2339x569px, constraints left/top, fill #FFFAEF
+  - COMPONENT "Email Subscription", 1440x251px, vertical pad 80 80 80 80px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 602", 1280x91px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 535", 748x88px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "We make refreshing emails, too.", 748x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+        - TEXT "Add some pop to your inbox when you sign up to receive OLIPO", 748x24px, constraints left/top, fill #18312A, text [paragraph-small]
+      - FRAME "Frame 11", 500x91px, horizontal pad 0 16 0 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input Field", 270x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #14433D1A 1px
+          - FRAME "Frame 151", 238x24px, horizontal pad 0 0 0 0px gap 122px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Enter Email Address", 103x24px, constraints left/top, fill #18312A, text [paragraph-small]
+        - INSTANCE "Button/Secondary/Default/Large", 190x48px, horizontal pad 8 48 8 48px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #14423D
+          - TEXT "Button", 94x20px, constraints left/top, fill #FFFFFF, text [button-large]
+  - FRAME "Frame 504", 2339.35x130.56px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Email Subscription Form", 352.02x40.08px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "A reusable pattern across pages, the email subscription form", 2243.31x32.54px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+
+Screen: 🎨 Components + Patterns / Footer
+- FRAME "Footer", 2059x845px, constraints left/top, fill #FFFAEF
+  - COMPONENT "Footer", 1440x500px, vertical pad 48 40 48 40px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14423D
+    - FRAME "Frame 248", 1360x361px, vertical pad 0 0 0 0px gap 73px align space_between/min sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 247", 1360x264px, horizontal pad 0 0 0 0px gap 166px align space_between/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 245", 699x264px, horizontal pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 239", 119x232px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Shop", 39x24px, constraints left/top, fill #FFFFFF, text [subheading-x-small], [heading]
+            - FRAME "Frame 235", 119x184px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 236", 122x200px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Learn", 44x24px, constraints left/top, fill #FFFFFF, text [subheading-x-small], [heading]
+            - FRAME "Frame 235", 122x152px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 237", 174x200px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Help", 35x24px, constraints left/top, fill #FFFFFF, text [subheading-x-small], [heading]
+            - FRAME "Frame 235", 174x152px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 238", 212x264px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "More", 39x24px, constraints left/top, fill #FFFFFF, text [subheading-x-small], [heading]
+            - FRAME "Frame 235", 212x216px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 242", 478x120px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Sign up to get 15% off your first order", 478x24px, constraints left/top, fill #FFFFFF, text [subheading-x-small], [heading]
+          - FRAME "Frame 241", 478x48px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Input Field", 304x48px, vertical pad 12 16 12 16px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, radius 32px, fill #FFFFFF, stroke #14433D1A 1px
+            - INSTANCE "Button/Tertiary", 158x48px, horizontal pad 16 32 16 32px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #F4C142
+          - FRAME "Frame 240", 216x16px, horizontal pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 246", 1360x24px, horizontal pad 0 0 0 0px gap 575px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 243", 297x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "- Icon Scale", 16x16px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Copyright", 16x16px, constraints left/top
+          - TEXT "2024 Olipop, Inc. All Rights Reserved", 273x24px, constraints left/top, fill #FFFFFF, text [subheading-x-small], [heading]
+        - FRAME "Frame 244", 478x24px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Subcomponents / Footer Text buttons", 119x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Drinks", 119x24px, constraints left/top, fill #FFFFFF, text [paragraph-small]
+          - TEXT "Privacy Policy", 101x24px, constraints left/top, fill #FFFFFF, text [paragraph-small]
+          - TEXT "Do Not Sell My Information", 194x24px, constraints left/top, fill #FFFFFF, text [paragraph-small]
+  - FRAME "Frame 504", 2058.81x130.5px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Footer", 97.02x40.02px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "A footer offers key links and info at the bottom of a page, ", 1962.78x32.47px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+
+Screen: 🎨 Components + Patterns / Carousels
+- FRAME "Carousels", 2339x982px, constraints left/top, fill #FFFAEF
+  - FRAME "Frame 504", 3362.92x130.81px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Product Carousel", 261.02x40.06px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "A product carousel allows users to scroll through a series o", 3266.88x32.79px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+  - COMPONENT "Product Carousel", 1440x679.45px, vertical pad 48 0 48 0px gap 64px align min/center sizing W:fixed H:fixed, constraints center/top, fill #F8F9F9
+    - FRAME "Frame 540", 557x96px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Pure Nostalgia", 557x48px, constraints left/top, fill #18312A, text [heading-large], [heading]
+      - TEXT "Enjoy the classic take on flavors you know and love", 557x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+    - FRAME "Frame 539", 1636x323.45px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Product Cards - Buy Now", 220x323.45px, horizontal pad 16 12 16 12px gap 7.89px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 12.62px, fill #FFC0DB
+        - FRAME "Frame 146", 196x243px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Cherry Vanilla", 196x32px, constraints left/top, fill #18312A, text [heading-small], [heading]
+          - RECTANGLE "Rectangle 438", 196x195px, constraints left/top, fill image(hash: d1467a021f21e88eebabb35ad6683c0417d5a5c1)
+      - INSTANCE "Product Cards - Buy Now", 220x323.45px, horizontal pad 16 12 16 12px gap 7.89px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 12.62px, fill #AEE49B
+        - FRAME "Frame 146", 196x243px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Watermelon Lime", 196x32px, constraints left/top, fill #18312A, text [heading-small], [heading]
+          - RECTANGLE "Rectangle 438", 196x195px, constraints left/top, fill image(hash: 9a64c4aad209edc5248774ed5e8757851a43b477)
+      - INSTANCE "Product Cards - Buy Now", 220x323.45px, horizontal pad 16 12 16 12px gap 7.89px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 12.62px, fill #FFDC84
+        - FRAME "Frame 146", 196x243px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Banana Cream", 196x32px, constraints left/top, fill #18312A, text [heading-small], [heading]
+          - RECTANGLE "Rectangle 438", 196x195px, constraints left/top, fill image(hash: 714d0ee9c52983e99394db28b63c1fa43f94b934)
+      - INSTANCE "Product Cards - Buy Now", 220x323.45px, horizontal pad 16 12 16 12px gap 7.89px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 12.62px, fill #FF9595
+        - FRAME "Frame 146", 196x243px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Vintage Cola", 196x32px, constraints left/top, fill #18312A, text [heading-small], [heading]
+          - RECTANGLE "Rectangle 438", 196x195px, constraints left/top, fill image(hash: 8e4b307e2ad84c1084ecf149d93508bc6e4e11a7)
+      - INSTANCE "Product Cards - Buy Now", 220x323.45px, horizontal pad 16 12 16 12px gap 7.89px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 12.62px, fill #FFC0DB
+        - FRAME "Frame 146", 196x243px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Crisp Apple", 196x32px, constraints left/top, fill #18312A, text [heading-small], [heading]
+          - RECTANGLE "Rectangle 438", 196x195px, constraints left/top, fill image(hash: 412b7de4bf09c035c7369a71ba5ae7b7f6320225)
+      - INSTANCE "Product Cards - Buy Now", 220x323.45px, horizontal pad 16 12 16 12px gap 7.89px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 12.62px, fill #AEE49B
+        - FRAME "Frame 146", 196x243px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Ridge Rush", 196x32px, constraints left/top, fill #18312A, text [heading-small], [heading]
+          - RECTANGLE "Rectangle 438", 196x195px, constraints left/top, fill image(hash: 70b5655b2caa2840935ae1e50912e991d05e87bf)
+      - INSTANCE "Product Cards - Buy Now", 220x323.45px, horizontal pad 16 12 16 12px gap 7.89px align space_between/min sizing W:fixed H:fixed, constraints left/top, radius 12.62px, fill #FBCFA5
+        - FRAME "Frame 146", 196x243px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Classic Root Beer", 197x32px, constraints left/top, fill #18312A, text [heading-small], [heading]
+          - RECTANGLE "Rectangle 438", 196x195px, constraints left/top, fill image(hash: 3b18361d13e5c33c971b359db8696daa4f862ddc)
+      - FRAME "Frame 542", 1360x40px, horizontal pad 0 0 0 0px gap 1280px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Arrows", 40x40px, horizontal pad 13 16 13 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #EDF6F3
+          - VECTOR "Vector 2", 7x14px, constraints left/top, stroke #18312A 2px
+        - INSTANCE "Arrows", 40x40px, horizontal pad 13 16 13 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #EDF6F3
+          - VECTOR "Vector 2", 7x14px, constraints left/top, stroke #18312A 2px
+    - INSTANCE "Button/Secondary/Default/Large", 245x36px, horizontal pad 8 48 8 48px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top, radius 32px, fill #14423D
+      - TEXT "Button", 149x20px, constraints left/top, fill #FFFFFF, text [button-large]
+
+Screen: 🎨 Components + Patterns / Buttons
+- FRAME "Buttons", 2444x3575px, constraints left/top, fill #FFFAEF
+  - RECTANGLE "Rectangle 500", 863x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 510", 253x289px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 511", 219x237px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 505", 863x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 507", 136x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 508", 136x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 509", 331x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 506", 863x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 504", 863x80px, constraints left/top, radius 8px, fill #D9D9D9
+  - LINE "Line 1", 2284x0px, constraints center/top, stroke #18312A 2px
+  - TEXT "Buttons", 215x60px, constraints left/top, fill #000000, text [heading-x-large], [heading]
+  - FRAME "Frame 498", 2284x60px, horizontal pad 10 24 10 24px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Primary Buttons", 233x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - FRAME "Frame 499", 2284x60.55px, horizontal pad 10 24 10 24px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Secondary Buttons", 282.02x40.07px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - FRAME "Frame 500", 2284x60.55px, horizontal pad 10 24 10 24px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Tertiary Buttons", 234.02x40.06px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - FRAME "Frame 501", 2278.82x60.55px, horizontal pad 10 24 10 24px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Chips", 89.02x40.02px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+  - TEXT "Default", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Default/Filled", 100x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "With Icon", 32x103px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "With Icon", 32x103px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Without Icon", 32x139px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Without Icon", 32x139px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Default", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Default/Filled", 100x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Hover", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Inverse", 100x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - ... +102 more children
+
+Screen: 🎨 Components + Patterns / Breadcrumbs
+- FRAME "Breadcrumbs", 4603x483px, constraints left/top, fill #FFFAEF
+  - RECTANGLE "Rectangle 512", 614x68px, constraints left/top, radius 8px, fill #D9D9D9
+  - RECTANGLE "Rectangle 513", 354x68px, constraints left/top, radius 8px, fill #D9D9D9
+  - TEXT "Light Theme", 134x32px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+  - TEXT "Dark Theme", 132x32px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+  - COMPONENT_SET "Breadcrumbs", 559x110px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Theme=Light", 383x25px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 278", 65x25px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF 1px
+        - INSTANCE "Link Text", 65x0px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Link Text", 65x24px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Link Text", 65x24px, constraints scale/scale, fill #FFFFFF, text [paragraph-link-default]
+      - TEXT "/", 9x24px, constraints left/top, fill #FFFFFF, text [subheading-x-small], [heading]
+      - FRAME "Frame 279", 65x25px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF 1px
+        - INSTANCE "Link Text", 65x0px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Link Text", 65x24px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Link Text", 65x24px, constraints scale/scale, fill #FFFFFF, text [paragraph-link-default]
+      - TEXT "/", 9x24px, constraints left/top, fill #FFFFFF, text [subheading-x-small], [heading]
+      - FRAME "Frame 281", 65x25px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF 1px
+        - INSTANCE "Link Text", 65x0px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Link Text", 65x24px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Link Text", 65x24px, constraints scale/scale, fill #FFFFFF, text [paragraph-link-default]
+      - TEXT "/", 9x24px, constraints left/top, fill #FFFFFF, text [subheading-x-small], [heading]
+      - FRAME "Frame 280", 65x25px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top, stroke #FFFFFF 1px
+        - INSTANCE "Link Text", 65x0px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Link Text", 65x24px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Link Text", 65x24px, constraints scale/scale, fill #FFFFFF, text [paragraph-link-default]
+    - COMPONENT "Theme=Dark", 383x25px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 278", 65x25px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top, stroke #18312A 1px
+        - INSTANCE "Link Text", 65x0px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Link Text", 65x24px, constraints left/top
+          - TEXT "Link Text", 65x24px, constraints scale/scale, fill #18312A, text [paragraph-link-default]
+      - TEXT "/", 9x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+      - FRAME "Frame 279", 65x25px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top, stroke #18312A 1px
+        - INSTANCE "Link Text", 65x0px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Link Text", 65x24px, constraints left/top
+          - TEXT "Link Text", 65x24px, constraints scale/scale, fill #18312A, text [paragraph-link-default]
+      - TEXT "/", 9x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+      - FRAME "Frame 281", 65x25px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top, stroke #18312A 1px
+        - INSTANCE "Link Text", 65x0px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Link Text", 65x24px, constraints left/top
+          - TEXT "Link Text", 65x24px, constraints scale/scale, fill #18312A, text [paragraph-link-default]
+      - TEXT "/", 9x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+      - FRAME "Frame 280", 65x25px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top, stroke #18312A 1px
+        - INSTANCE "Link Text", 65x0px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Link Text", 65x24px, constraints left/top
+          - TEXT "Link Text", 65x24px, constraints scale/scale, fill #18312A, text [paragraph-link-default]
+  - TEXT "Blog Link Text", 147x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Light Theme", 134x32px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+  - TEXT "Dark Theme", 132x32px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+  - COMPONENT_SET "Link Text", 264x108px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Theme=Light", 65x24px, vertical pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Link Text", 65x24px, constraints scale/scale, fill #FFFFFF, text [paragraph-link-default]
+    - COMPONENT "Theme=Dark", 65x24px, constraints left/top
+      - TEXT "Link Text", 65x24px, constraints scale/scale, fill #18312A, text [paragraph-link-default]
+  - FRAME "Frame 504", 4602.55x131.11px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Breadcrumbs", 198.02x40.05px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "The breadcrumb is a secondary navigation pattern that helps ", 4506.51x33.08px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+  - TEXT "Subcomponents", 180x32px, constraints left/top, fill #18312A, text [subheading-small], [heading]
+
+Screen: 🎨 Components + Patterns / Blog Sections
+- FRAME "Blog Sections", 2999x1261px, constraints left/top, fill #FFFAEF
+  - FRAME "Frame 505", 2998.64x130.72px, vertical pad 24 48 24 48px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill #14433D1A
+    - TEXT "Blog Sections", 203.02x40.05px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+    - TEXT "Reusable patterns like page banners and author feature secti", 2902.6x32.7px, constraints left/top, fill #000000, text [paragraph-large], [heading]
+  - TEXT "Author Feature", 165x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Blog Carousel View featured articles", 242x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Individual blog article Header", 238x64px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - COMPONENT "Author Feature", 950x592px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Meet our Expert", 950x48px, constraints left/top, fill #18312A, text [heading-large], [heading]
+    - FRAME "Frame 451", 950x504px, horizontal pad 0 0 0 0px gap 48px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 450", 300x466.27px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "image", 300x370.27px, constraints left/top, fill image(hash: 616c3a20a7a606440f70a30e1e8ae02266d732cf)
+        - FRAME "Frame 445", 300x72px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Elric Centers", 300x40px, constraints left/top, fill #18312A, text [subheading-medium], [heading]
+          - TEXT "This article is reviewed by Elric Centers.", 300x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+      - FRAME "Frame 448", 602x504px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Elric is our Sustainability Manager here at OLIPOP. He's bee", 602x192px, constraints left/top, fill #18312A, text [paragraph-small]
+        - TEXT "Venturing into the food and beverage sector, Elric's entrepr", 602x120px, constraints left/top, fill #18312A, text [paragraph-small]
+        - TEXT "Elric's vision of wellness transcends personal health, embra", 602x144px, constraints left/top, fill #18312A, text [paragraph-small]
+  - COMPONENT_SET "Header Banner", 1400x867px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Type=Landing Banner", 1280x480px, horizontal pad 0 0 0 0px gap 48px align min/max sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #EDF6F3
+      - RECTANGLE "Rectangle 446", 338x480px, constraints left/top, radius 8px, fill image(hash: 7b0baa701a2154d8303531e39dc3c526918aa8b6)
+      - FRAME "Frame 440", 894x384px, vertical pad 24 24 24 0px gap 96px align center/min sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 438", 870x200px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 436", 870x152px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "4 minutes", 870x24px, constraints left/top, fill #18312A, text [paragraph-small]
+            - TEXT "What Is Prebiotic Soda and Is It Good for You?", 870x120px, constraints left/top, fill #18312A, text [heading-x-large], [heading]
+          - FRAME "Frame 269", 870x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Read more", 80x24px, constraints left/top, fill #18312A, text [subheading-x-small], [heading]
+            - INSTANCE "- Icon Scale", 24x24px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 428", 870x40px, horizontal pad 0 24 0 0px gap 48px align max/max sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Arrows", 40x40px, horizontal pad 13 16 13 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF
+            - VECTOR "Vector 2", 7x14px, constraints left/top, stroke #18312A 2px
+          - INSTANCE "Arrows", 40x40px, horizontal pad 13 16 13 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF
+            - VECTOR "Vector 2", 7x14px, constraints left/top, stroke #18312A 2px
+    - COMPONENT "Type=Article Banner", 1280x250px, horizontal pad 0 0 0 0px gap 96px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #EDF6F3
+      - RECTANGLE "Rectangle 446", 250x250px, constraints left/top, radius 8px, fill image(hash: 7b0baa701a2154d8303531e39dc3c526918aa8b6)
+      - FRAME "Frame 440", 934x250px, vertical pad 24 24 24 0px gap 96px align center/min sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 438", 910x176px, vertical pad 0 0 0 0px gap 8px align center/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 436", 910x152px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - TEXT "4 minutes", 910x24px, constraints left/top, fill #18312A, text [paragraph-small]
+            - TEXT "What Is Prebiotic Soda and Is It Good for You?", 910x120px, constraints left/top, fill #18312A, text [heading-x-large], [heading]
+          - FRAME "Frame 269", 258x16px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Posted Sept 02, 2024 I Updated Sept 03, 2024", 258x16px, constraints left/top, fill #18312A, text [paragraph-x-small]
+
+Screen: 🎨 Components + Patterns / Blog Cards
+- FRAME "Blog Cards", 1495x1254px, constraints left/top, fill #FFFAEF
+  - TEXT "Blog Preview Card", 205x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Individual Blog Article", 239x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - TEXT "Blog Sidebar", 144x32px, constraints left/top, fill #18312A, text [paragraph-large], [heading]
+  - COMPONENT "Blog preview card", 416x308px, vertical pad 24 24 24 24px gap 10px align max/min sizing W:fixed H:fixed, constraints left/top, radius 16px, fill image(hash: 44178d9ccf65bf71858d1d3fd49e605d956f8bf0)
+    - FRAME "Frame 138", 368x88px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "3 min read", 368x24px, constraints left/top, fill #FFFFFF, text [paragraph-small]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

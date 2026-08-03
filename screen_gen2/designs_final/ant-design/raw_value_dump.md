@@ -1,0 +1,1930 @@
+---
+name: ant-design-x-community-design-system-for-ai-products-community
+source_file: Ant Design X  (Community) - Design System for AI Products (Community)
+source_page: All pages (4): ⦿  Cover, ✲  Components, ✲  Templetes [WIP], ~  doc
+generated_at: 2026-07-25T09:38:49.487985+00:00
+---
+
+# Ant Design X  (Community) - Design System for AI Products (Community) Design Guidelines
+
+## Source
+- Figma file: Ant Design X  (Community) - Design System for AI Products (Community)
+- Figma page: All pages (4): ⦿  Cover, ✲  Components, ✲  Templetes [WIP], ~  doc
+- Extracted at: 2026-07-25T09:38:49.487985+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 38 uses
+- #FFFFFF73: 21 uses
+- #9747FF: 14 uses
+
+## Typography Tokens
+- Base/Normal: PingFang SC Regular (400), 14px / 22px, tracking 0px
+- Heading/4: SF Pro Text Semibold (600), 20px / 28px, tracking 0px
+- Heading/3: SF Pro Text Semibold (600), 24px / 32px, tracking 0px
+- Heading/1: PingFang SC Semibold (600), 38px / 46px, tracking 0px
+- SM/Normal: PingFang SC Regular (400), 12px / 20px, tracking 0px
+- Heading/3: PingFang SC Semibold (600), 24px / 32px, tracking 0px
+- Base/Strong: PingFang SC Semibold (600), 14px / 22px, tracking 0px
+- Heading/5: PingFang SC Semibold (600), 16px / 24px, tracking 0px
+- Heading/4: PingFang SC Semibold (600), 20px / 28px, tracking 0px
+- Heading/2: PingFang SC Semibold (600), 30px / 38px, tracking 0px
+
+## Raw Typography (unstyled)
+- Space Grotesk Regular, 14px: 24 uses
+
+## Typography Hierarchy
+- 38px - Heading/1 (PingFang SC Semibold)
+- 30px - Heading/2 (PingFang SC Semibold)
+- 24px - Heading/3 (PingFang SC Semibold)
+- 24px - Heading/3 (SF Pro Text Semibold)
+- 20px - Heading/4 (PingFang SC Semibold)
+- 20px - Heading/4 (SF Pro Text Semibold)
+- 16px - Heading/5 (PingFang SC Semibold)
+- 14px - Base/Normal (PingFang SC Regular)
+- 14px - Base/Strong (PingFang SC Semibold)
+- 14px - Space Grotesk Regular, 14px (raw)
+- 12px - SM/Normal (PingFang SC Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Component/Button/defaultShadow: [drop_shadow 0px offset 0 2 #00000005]
+- Component/Button/primaryShadow: [drop_shadow 0px offset 0 2 #0591FF1A]
+- boxShadowTertiary: [drop_shadow 4px offset 0 2 #00000005, drop_shadow 6px offset 0 1 #00000005, drop_shadow 2px offset 0 1 #00000008]
+- boxShadow: [drop_shadow 28px offset 0 9 #0000000D, drop_shadow 6px offset 0 3 #0000001F, drop_shadow 16px offset 0 6 #00000014]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- *Attachments*
+- *Sender*
+- *Conversations*
+- *Bubble*
+- *Prompts*
+- *Welcom*
+- *Button*
+- *Avatar*
+- *NestedIcon*
+- Scrollbar
+- Icon
+- .brand
+- .header
+- .title
+- .tag
+- .description
+- .logo
+
+## Component Specs
+- *Attachments* / file: size 166x68px, radius 8px, horizontal layout, padding 12 16 12 16px, gap 8px, sizing W:fixed H:fixed, fill #0000000F, text [Base/Normal, Base/Strong] | variants: type: excel/image/md/mp3/pdf/ppt/word/zip
+- *Attachments* / button: size 68x68px, radius 6px, horizontal layout, padding 0 0 0 0px, gap 4px, align center/center, sizing W:fixed H:fixed, stroke #D9D9D9 1px, effect Component/Button/defaultShadow | variants: hover: false/hover4/true; uploaded: false/true
+- *Sender*: size 760x56px, radius 12px, vertical layout, padding 0 0 12 0px, gap 0px, align center/max, sizing W:fill H:fixed, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary, text [SM/Normal, Base/Normal, Heading/5] | variants: state: default/disabled/filled/focused/hover/loading/typing
+- *Conversations* / item: size 216x40px, radius 8px, horizontal layout, padding 0 8 0 8px, gap 8px, align center/center, sizing W:fixed H:fixed, text [Base/Normal] | variants: type: default/group title/sub group; state: default/disabled/disabled hover/hover/selected/selected hover
+- *Bubble* / footer: size 108x36px, horizontal layout, padding 12 0 0 0px, gap 4px, sizing W:fixed H:fixed | variants: placement: end/space-between/start
+- *Bubble* / content: size 112x46px, radius 8px, horizontal layout, padding 12 16 12 16px, gap 4px, sizing W:fixed H:fixed, fill #0000000F, text [Base/Normal] | variants: variant: borderless/filled/outlined/shadow/variant5/variant6/variant7/variant8; shape: corner-end/corner-start/default/round
+- *Bubble* / bubble: size 960x46px, horizontal layout, padding 0 0 0 0px, gap 12px, sizing W:fill H:fixed, text [Base/Normal] | variants: placement: end/start; width: 100%/auto/max-600; avatar: false/true
+- *Prompts* / custom-item: size 216x46px, radius 8px, horizontal layout, padding 12 16 12 16px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF73, stroke #FFFFFF 1px, text [Base/Normal] | variants: description: false/true
+- *Prompts* / list: size 1000x72px, horizontal layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, text [Base/Normal, Base/Strong] | variants: arrangement: horizontal/responsible/vertical/wrap
+- *Prompts* / item: size 277x72px, radius 8px, horizontal layout, padding 12 16 12 16px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #F0F0F0 1px, text [Base/Normal, Base/Strong] | variants: state: default/disabled/hover; description: false/true
+- *Welcom*: size 656x82px, radius 8px, horizontal layout, padding 12 16 12 16px, gap 16px, sizing W:fill H:fixed, fill #0000000F, text [Base/Normal, Heading/4] | variants: variant: borderless/custom-dark/custom-light/filled
+- *Attachments*: size 764x258px, horizontal layout, padding 12 16 12 16px, gap 15px, sizing W:fixed H:fixed
+- *Sender* / upload: size 342x238px, vertical layout, padding 16 16 16 16px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Base/Normal, Heading/5]
+- *Sender* / header: size 276x40px, horizontal layout, padding 8 8 8 16px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #00000005, text [Base/Normal]
+- *Conversations*: size 256x372px, vertical layout, padding 12 12 12 12px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [Base/Normal]
+- *Bubble* / header: size 85x26px, horizontal layout, padding 0 0 4 0px, gap 10px, align center/center, sizing W:fixed H:fixed, text [Base/Normal]
+- *Bubble*: size 1000x232px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, text [Base/Normal]
+- *Prompts* / title: size 411x30px, horizontal layout, padding 0 0 8 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [Base/Strong]
+- *Prompts* / custom-list: size 1040x246px, horizontal layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed, text [Base/Normal, Base/Strong]
+- *Prompts* / custom: size 297x246px, radius 8px, vertical layout, padding 12 16 12 16px, gap 4px, sizing W:fixed H:fixed, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%), text [Base/Normal, Base/Strong]
+- *Button*: size 24x24px, radius 4px, horizontal layout, padding 0 0 0 0px, gap 4px, align center/center, sizing W:fixed H:fixed | variants: type: outlined/text; state: default/disabled/focused/hover/loading/pressed; size: default/small; round: false/true; icon: false/true
+- *Avatar*: size 32x32px, radius 48px | variants: color: blue/cyan/magenta/purple
+- *NestedIcon*: size 12x12px, fill #FFFFFF | variants: size: 12/14/16/20/24/32/40/48/56
+- Scrollbar: size 12x100px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF
+- Icon / CiCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / BuildTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CiTwoTone: size 24x24px, fill #FFFFFF
+- Icon / BugTwoTone: size 24x24px, fill #FFFFFF
+- Icon / BookTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CarryOutTwoTone: size 24x24px, fill #FFFFFF
+- Icon / BellTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CarTwoTone: size 24x24px, fill #FFFFFF
+- Icon / BankTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CameraTwoTone: size 24x24px, fill #FFFFFF
+- Icon / AudioTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CalendarTwoTone: size 24x24px, fill #FFFFFF
+- Icon / AppstoreTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CalculatorTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ApiTwoTone: size 24x24px, fill #FFFFFF
+- Icon / BulbTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SmileTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ToolTwoTone: size 24x24px, fill #FFFFFF
+- Icon / AccountBookTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ThunderboltTwoTone: size 24x24px, fill #FFFFFF
+- Icon / TagsTwoTone: size 24x24px, fill #FFFFFF
+- Icon / WalletTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SkinTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ShoppingTwoTone: size 24x24px, fill #FFFFFF
+- Icon / TagTwoTone: size 24x24px, fill #FFFFFF
+- Icon / VideoCameraTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ShopTwoTone: size 24x24px, fill #FFFFFF
+- Icon / TabletTwoTone: size 24x24px, fill #FFFFFF
+- Icon / UsbTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SwitcherTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SettingTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SecurityScanTwoTone: size 24x24px, fill #FFFFFF
+- Icon / UnlockTwoTone: size 24x24px, fill #FFFFFF
+- Icon / StarTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ScheduleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SaveTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SoundTwoTone: size 24x24px, fill #FFFFFF
+- Icon / TrophyTwoTone: size 24x24px, fill #FFFFFF
+- Icon / TrademarkCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SafetyCertificateTwoTone: size 24x24px, fill #FFFFFF
+- Icon / AlertTwoTone: size 24x24px, fill #FFFFFF
+- Icon / RocketTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ProfileTwoTone: size 24x24px, fill #FFFFFF
+- Icon / LockTwoTone: size 24x24px, fill #FFFFFF
+- Icon / LikeTwoTone: size 24x24px, fill #FFFFFF
+- Icon / NotificationTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PrinterTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PoundCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / MoneyCollectTwoTone: size 24x24px, fill #FFFFFF
+- Icon / RestTwoTone: size 24x24px, fill #FFFFFF
+- Icon / MobileTwoTone: size 24x24px, fill #FFFFFF
+- Icon / RedEnvelopeTwoTone: size 24x24px, fill #FFFFFF
+- Icon / LayoutTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ReconciliationTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PlaySquareTwoTone: size 24x24px, fill #FFFFFF
+- Icon / InteractionTwoTone: size 24x24px, fill #FFFFFF
+- Icon / MessageTwoTone: size 24x24px, fill #FFFFFF
+- Icon / InsuranceTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PushpinTwoTone: size 24x24px, fill #FFFFFF
+- Icon / MehTwoTone: size 24x24px, fill #FFFFFF
+- Icon / MedicineBoxTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PropertySafetyTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PictureTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ProjectTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PhoneTwoTone: size 24x24px, fill #FFFFFF
+- Icon / MailTwoTone: size 24x24px, fill #FFFFFF
+- Icon / HourglassTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FolderOpenTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FolderAddTwoTone: size 24x24px, fill #FFFFFF
+- Icon / HomeTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FolderTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FlagTwoTone: size 24x24px, fill #FFFFFF
+- Icon / HeartTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FireTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileExclamationTwoTone: size 24x24px, fill #FFFFFF
+- Icon / HddTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FilterTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileExcelTwoTone: size 24x24px, fill #FFFFFF
+- Icon / GoldTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileAddTwoTone: size 24x24px, fill #FFFFFF
+- Icon / GiftTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileZipTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileWordTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FunnelPlotTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileTwoTone: size 24x24px, fill #FFFFFF
+- Icon / EyeInvisibleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / IdcardTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileUnknownTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileTextTwoTone: size 24x24px, fill #FFFFFF
+- Icon / EyeTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FrownTwoTone: size 24x24px, fill #FFFFFF
+- Icon / DislikeTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ExperimentTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FilePptTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ControlTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FilePdfTwoTone: size 24x24px, fill #FFFFFF
+- Icon / EuroCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ContainerTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileMarkdownTwoTone: size 24x24px, fill #FFFFFF
+- Icon / DatabaseTwoTone: size 24x24px, fill #FFFFFF
+- Icon / EuroTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ContactsTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FileImageTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CompassTwoTone: size 24x24px, fill #FFFFFF
+- Icon / DashboardTwoTone: size 24x24px, fill #FFFFFF
+- Icon / EnvironmentTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CustomerServiceTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CodeTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CrownTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CloudTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CreditCardTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CopyrightCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / DollarCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / DollarTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CopyrightTwoTone: size 24x24px, fill #FFFFFF
+- Icon / Html5TwoTone: size 24x24px, fill #FFFFFF
+- Icon / BoxPlotTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PieChartTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SlidersTwoTone: size 24x24px, fill #FFFFFF
+- Icon / FundTwoTone: size 24x24px, fill #FFFFFF
+- Icon / DiffTwoTone: size 24x24px, fill #FFFFFF
+- Icon / HighlightTwoTone: size 24x24px, fill #FFFFFF
+- Icon / DeleteTwoTone: size 24x24px, fill #FFFFFF
+- Icon / SnippetsTwoTone: size 24x24px, fill #FFFFFF
+- Icon / EditTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CopyTwoTone: size 24x24px, fill #FFFFFF
+- Icon / WarningTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PauseCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PlusSquareTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ExclamationCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PlusCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CheckSquareTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CheckCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / QuestionCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CloseSquareTwoTone: size 24x24px, fill #FFFFFF
+- Icon / MinusSquareTwoTone: size 24x24px, fill #FFFFFF
+- Icon / StopTwoTone: size 24x24px, fill #FFFFFF
+- Icon / CloseCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / MinusCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / ClockCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / InfoCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / LeftSquareTwoTone: size 24x24px, fill #FFFFFF
+- Icon / LeftCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / RightSquareTwoTone: size 24x24px, fill #FFFFFF
+- Icon / UpSquareTwoTone: size 24x24px, fill #FFFFFF
+- Icon / RightCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / UpCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / PlayCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / DownSquareTwoTone: size 24x24px, fill #FFFFFF
+- Icon / DownCircleTwoTone: size 24x24px, fill #FFFFFF
+- Icon / TagsFilled: size 24x24px, fill #FFFFFF
+- Icon / UnlockFilled: size 24x24px, fill #FFFFFF
+- Icon / TagFilled: size 24x24px, fill #FFFFFF
+- Icon / TabletFilled: size 24x24px, fill #FFFFFF
+- Icon / SignalFilled: size 24x24px, fill #FFFFFF
+- Icon / SwitcherFilled: size 24x24px, fill #FFFFFF
+- Icon / SmileFilled: size 24x24px, fill #FFFFFF
+- Icon / WechatFilled: size 24x24px, fill #FFFFFF
+- Icon / TrophyFilled: size 24x24px, fill #FFFFFF
+- Icon / AlertFilled: size 24x24px, fill #FFFFFF
+- Icon / TrademarkCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / SkypeFilled: size 24x24px, fill #FFFFFF
+- Icon / AccountBookFilled: size 24x24px, fill #FFFFFF
+- Icon / WalletFilled: size 24x24px, fill #FFFFFF
+- Icon / ToolFilled: size 24x24px, fill #FFFFFF
+- Icon / VideoCameraFilled: size 24x24px, fill #FFFFFF
+- Icon / ThunderboltFilled: size 24x24px, fill #FFFFFF
+- Icon / StarFilled: size 24x24px, fill #FFFFFF
+- Icon / UsbFilled: size 24x24px, fill #FFFFFF
+- Icon / SoundFilled: size 24x24px, fill #FFFFFF
+- Icon / PictureFilled: size 24x24px, fill #FFFFFF
+- Icon / RobotFilled: size 24x24px, fill #FFFFFF
+- Icon / PropertySafetyFilled: size 24x24px, fill #FFFFFF
+- Icon / RestFilled: size 24x24px, fill #FFFFFF
+- Icon / ShopFilled: size 24x24px, fill #FFFFFF
+- Icon / RedEnvelopeFilled: size 24x24px, fill #FFFFFF
+- Icon / ProjectFilled: size 24x24px, fill #FFFFFF
+- Icon / PhoneFilled: size 24x24px, fill #FFFFFF
+- Icon / PayCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / SettingFilled: size 24x24px, fill #FFFFFF
+- Icon / ProfileFilled: size 24x24px, fill #FFFFFF
+- Icon / SecurityScanFilled: size 24x24px, fill #FFFFFF
+- Icon / PrinterFilled: size 24x24px, fill #FFFFFF
+- Icon / ScheduleFilled: size 24x24px, fill #FFFFFF
+- Icon / PoundCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / ReconciliationFilled: size 24x24px, fill #FFFFFF
+- Icon / SaveFilled: size 24x24px, fill #FFFFFF
+- Icon / ReadFilled: size 24x24px, fill #FFFFFF
+- Icon / SafetyCertificateFilled: size 24x24px, fill #FFFFFF
+- Icon / SkinFilled: size 24x24px, fill #FFFFFF
+- Icon / PlaySquareFilled: size 24x24px, fill #FFFFFF
+- Icon / RocketFilled: size 24x24px, fill #FFFFFF
+- Icon / ShoppingFilled: size 24x24px, fill #FFFFFF
+- Icon / MessageFilled: size 24x24px, fill #FFFFFF
+- Icon / PushpinFilled: size 24x24px, fill #FFFFFF
+- Icon / FormatPainterFilled: size 24x24px, fill #FFFFFF
+- Icon / HourglassFilled: size 24x24px, fill #FFFFFF
+- Icon / MacCommandFilled: size 24x24px, fill #FFFFFF
+- Icon / GoldFilled: size 24x24px, fill #FFFFFF
+- Icon / MehFilled: size 24x24px, fill #FFFFFF
+- Icon / HomeFilled: size 24x24px, fill #FFFFFF
+- Icon / LayoutFilled: size 24x24px, fill #FFFFFF
+- Icon / InteractionFilled: size 24x24px, fill #FFFFFF
+- Icon / FireFilled: size 24x24px, fill #FFFFFF
+- Icon / InsuranceFilled: size 24x24px, fill #FFFFFF
+- Icon / HeartFilled: size 24x24px, fill #FFFFFF
+- Icon / HddFilled: size 24x24px, fill #FFFFFF
+- Icon / GiftFilled: size 24x24px, fill #FFFFFF
+- Icon / MedicineBoxFilled: size 24x24px, fill #FFFFFF
+- Icon / NotificationFilled: size 24x24px, fill #FFFFFF
+- Icon / FunnelPlotFilled: size 24x24px, fill #FFFFFF
+- Icon / MoneyCollectFilled: size 24x24px, fill #FFFFFF
+- Icon / MailFilled: size 24x24px, fill #FFFFFF
+- Icon / LockFilled: size 24x24px, fill #FFFFFF
+- Icon / MobileFilled: size 24x24px, fill #FFFFFF
+- Icon / FrownFilled: size 24x24px, fill #FFFFFF
+- Icon / IdcardFilled: size 24x24px, fill #FFFFFF
+- Icon / LikeFilled: size 24x24px, fill #FFFFFF
+- Icon / FolderOpenFilled: size 24x24px, fill #FFFFFF
+- Icon / GoldenFilled: size 24x24px, fill #FFFFFF
+- Icon / FolderAddFilled: size 24x24px, fill #FFFFFF
+- Icon / FilePdfFilled: size 24x24px, fill #FFFFFF
+- Icon / EyeInvisibleFilled: size 24x24px, fill #FFFFFF
+- Icon / FolderFilled: size 24x24px, fill #FFFFFF
+- Icon / FileMarkdownFilled: size 24x24px, fill #FFFFFF
+- Icon / EyeFilled: size 24x24px, fill #FFFFFF
+- Icon / FlagFilled: size 24x24px, fill #FFFFFF
+- Icon / FileImageFilled: size 24x24px, fill #FFFFFF
+- Icon / ExperimentFilled: size 24x24px, fill #FFFFFF
+- Icon / FileExclamationFilled: size 24x24px, fill #FFFFFF
+- Icon / DollarCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / CreditCardFilled: size 24x24px, fill #FFFFFF
+- Icon / FilterFilled: size 24x24px, fill #FFFFFF
+- Icon / FileExcelFilled: size 24x24px, fill #FFFFFF
+- Icon / EuroCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / DislikeFilled: size 24x24px, fill #FFFFFF
+- Icon / FileZipFilled: size 24x24px, fill #FFFFFF
+- Icon / FileAddFilled: size 24x24px, fill #FFFFFF
+- Icon / EnvironmentFilled: size 24x24px, fill #FFFFFF
+- Icon / FileWordFilled: size 24x24px, fill #FFFFFF
+- Icon / FileFilled: size 24x24px, fill #FFFFFF
+- Icon / FileUnknownFilled: size 24x24px, fill #FFFFFF
+- Icon / FileTextFilled: size 24x24px, fill #FFFFFF
+- Icon / FilePptFilled: size 24x24px, fill #FFFFFF
+- Icon / DatabaseFilled: size 24x24px, fill #FFFFFF
+- Icon / DashboardFilled: size 24x24px, fill #FFFFFF
+- Icon / CalendarFilled: size 24x24px, fill #FFFFFF
+- Icon / BankFilled: size 24x24px, fill #FFFFFF
+- Icon / CustomerServiceFilled: size 24x24px, fill #FFFFFF
+- Icon / CalculatorFilled: size 24x24px, fill #FFFFFF
+- Icon / CrownFilled: size 24x24px, fill #FFFFFF
+- Icon / BulbFilled: size 24x24px, fill #FFFFFF
+- Icon / AudioFilled: size 24x24px, fill #FFFFFF
+- Icon / CarryOutFilled: size 24x24px, fill #FFFFFF
+- Icon / BuildFilled: size 24x24px, fill #FFFFFF
+- Icon / AppstoreFilled: size 24x24px, fill #FFFFFF
+- Icon / CopyrightCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / CodeFilled: size 24x24px, fill #FFFFFF
+- Icon / BugFilled: size 24x24px, fill #FFFFFF
+- Icon / CloudFilled: size 24x24px, fill #FFFFFF
+- Icon / ApiFilled: size 24x24px, fill #FFFFFF
+- Icon / ControlFilled: size 24x24px, fill #FFFFFF
+- Icon / BookFilled: size 24x24px, fill #FFFFFF
+- Icon / ContainerFilled: size 24x24px, fill #FFFFFF
+- Icon / BellFilled: size 24x24px, fill #FFFFFF
+- Icon / ContactsFilled: size 24x24px, fill #FFFFFF
+- Icon / CarFilled: size 24x24px, fill #FFFFFF
+- Icon / CompassFilled: size 24x24px, fill #FFFFFF
+- Icon / CiCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / CameraFilled: size 24x24px, fill #FFFFFF
+- Icon / GoogleCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / Html5Filled: size 24x24px, fill #FFFFFF
+- Icon / ZhihuSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / ZhihuCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / GoogleSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / SlackSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / RedditSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / GooglePlusSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / IeSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / InstagramFilled: size 24x24px, fill #FFFFFF
+- Icon / RedditCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / SlackCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / GooglePlusCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / IeCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / LinkedinFilled: size 24x24px, fill #FFFFFF
+- Icon / SketchSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / AliwangwangFilled: size 24x24px, fill #FFFFFF
+- Icon / SketchCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / GithubFilled: size 24x24px, fill #FFFFFF
+- Icon / QqSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / TaobaoSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / ChromeFilled: size 24x24px, fill #FFFFFF
+- Icon / QqCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / TaobaoCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / WindowsFilled: size 24x24px, fill #FFFFFF
+- Icon / WeiboSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / AppleFilled: size 24x24px, fill #FFFFFF
+- Icon / AndroidFilled: size 24x24px, fill #FFFFFF
+- Icon / WeiboCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / CodeSandboxSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / MediumCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / YahooFilled: size 24x24px, fill #FFFFFF
+- Icon / CodeSandboxCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / MediumSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / FacebookFilled: size 24x24px, fill #FFFFFF
+- Icon / CodepenSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / DingtalkCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / TwitterSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / AlipaySquareFilled: size 24x24px, fill #FFFFFF
+- Icon / CodepenCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / DingtalkSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / TwitterCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / AlipayCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / AmazonSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / BehanceSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / DribbbleCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / DropboxSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / AmazonCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / BehanceCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / GitlabFilled: size 24x24px, fill #FFFFFF
+- Icon / DropboxCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / YuqueFilled: size 24x24px, fill #FFFFFF
+- Icon / DribbbleSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / YoutubeFilled: size 24x24px, fill #FFFFFF
+- Icon / SlidersFilled: size 24x24px, fill #FFFFFF
+- Icon / FundFilled: size 24x24px, fill #FFFFFF
+- Icon / BoxPlotFilled: size 24x24px, fill #FFFFFF
+- Icon / PieChartFilled: size 24x24px, fill #FFFFFF
+- Icon / HighlightFilled: size 24x24px, fill #FFFFFF
+- Icon / DeleteFilled: size 24x24px, fill #FFFFFF
+- Icon / CopyFilled: size 24x24px, fill #FFFFFF
+- Icon / DiffFilled: size 24x24px, fill #FFFFFF
+- Icon / EditFilled: size 24x24px, fill #FFFFFF
+- Icon / SnippetsFilled: size 24x24px, fill #FFFFFF
+- Icon / ExclamationCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / CheckSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / InfoCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / StopFilled: size 24x24px, fill #FFFFFF
+- Icon / CheckCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / PlusSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / MinusSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / WarningFilled: size 24x24px, fill #FFFFFF
+- Icon / PlusCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / MinusCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / CloseSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / CloseCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / QuestionCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / PauseCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / ClockCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / LeftCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / ForwardFilled: size 24x24px, fill #FFFFFF
+- Icon / DownSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / UpCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / BackwardFilled: size 24x24px, fill #FFFFFF
+- Icon / CaretUpFilled: size 24x24px, fill #FFFFFF
+- Icon / UpSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / RightCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / CaretRightFilled: size 24x24px, fill #FFFFFF
+- Icon / RightSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / DownCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / StepForwardFilled: size 24x24px, fill #FFFFFF
+- Icon / FastForwardFilled: size 24x24px, fill #FFFFFF
+- Icon / CaretLeftFilled: size 24x24px, fill #FFFFFF
+- Icon / LeftSquareFilled: size 24x24px, fill #FFFFFF
+- Icon / StepBackwardFilled: size 24x24px, fill #FFFFFF
+- Icon / PlayCircleFilled: size 24x24px, fill #FFFFFF
+- Icon / FastBackwardFilled: size 24x24px, fill #FFFFFF
+- Icon / CaretDownFilled: size 24x24px, fill #FFFFFF
+- Icon / VerifiedOutlined: size 24x24px, fill #FFFFFF
+- Icon / WhatsAppOutlined: size 24x24px, fill #FFFFFF
+- Icon / AimOutlined: size 24x24px, fill #FFFFFF
+- Icon / UserSwitchOutlined: size 24x24px, fill #FFFFFF
+- Icon / VideoCameraAddOutlined: size 24x24px, fill #FFFFFF
+- Icon / AccountBookOutlined: size 24x24px, fill #FFFFFF
+- Icon / WifiOutlined: size 24x24px, fill #FFFFFF
+- Icon / UploadOutlined: size 24x24px, fill #FFFFFF
+- Icon / UsergroupDeleteOutlined: size 24x24px, fill #FFFFFF
+- Icon / WalletOutlined: size 24x24px, fill #FFFFFF
+- Icon / WomanOutlined: size 24x24px, fill #FFFFFF
+- Icon / UsergroupAddOutlined: size 24x24px, fill #FFFFFF
+- Icon / UserDeleteOutlined: size 24x24px, fill #FFFFFF
+- Icon / VideoCameraOutlined: size 24x24px, fill #FFFFFF
+- Icon / UngroupOutlined: size 24x24px, fill #FFFFFF
+- Icon / TranslationOutlined: size 24x24px, fill #FFFFFF
+- Icon / ThunderboltOutlined: size 24x24px, fill #FFFFFF
+- Icon / SplitCellsOutlined: size 24x24px, fill #FFFFFF
+- Icon / SubnodeOutlined: size 24x24px, fill #FFFFFF
+- Icon / UserAddOutlined: size 24x24px, fill #FFFFFF
+- Icon / TeamOutlined: size 24x24px, fill #FFFFFF
+- Icon / SoundOutlined: size 24x24px, fill #FFFFFF
+- Icon / UserOutlined: size 24x24px, fill #FFFFFF
+- Icon / UsbOutlined: size 24x24px, fill #FFFFFF
+- Icon / TrophyOutlined: size 24x24px, fill #FFFFFF
+- Icon / TagsOutlined: size 24x24px, fill #FFFFFF
+- Icon / SolutionOutlined: size 24x24px, fill #FFFFFF
+- Icon / TagOutlined: size 24x24px, fill #FFFFFF
+- Icon / TransactionOutlined: size 24x24px, fill #FFFFFF
+- Icon / TrademarkCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / TabletOutlined: size 24x24px, fill #FFFFFF
+- Icon / TrademarkOutlined: size 24x24px, fill #FFFFFF
+- Icon / TableOutlined: size 24x24px, fill #FFFFFF
+- Icon / ToTopOutlined: size 24x24px, fill #FFFFFF
+- Icon / SyncOutlined: size 24x24px, fill #FFFFFF
+- Icon / UnlockOutlined: size 24x24px, fill #FFFFFF
+- Icon / StarOutlined: size 24x24px, fill #FFFFFF
+- Icon / ToolOutlined: size 24x24px, fill #FFFFFF
+- Icon / SwitcherOutlined: size 24x24px, fill #FFFFFF
+- Icon / RotateRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / SendOutlined: size 24x24px, fill #FFFFFF
+- Icon / RotateLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / SisternodeOutlined: size 24x24px, fill #FFFFFF
+- Icon / ShakeOutlined: size 24x24px, fill #FFFFFF
+- Icon / SafetyCertificateOutlined: size 24x24px, fill #FFFFFF
+- Icon / RestOutlined: size 24x24px, fill #FFFFFF
+- Icon / SettingOutlined: size 24x24px, fill #FFFFFF
+- Icon / ReloadOutlined: size 24x24px, fill #FFFFFF
+- Icon / SafetyOutlined: size 24x24px, fill #FFFFFF
+- Icon / SelectOutlined: size 24x24px, fill #FFFFFF
+- Icon / SkinOutlined: size 24x24px, fill #FFFFFF
+- Icon / SecurityScanOutlined: size 24x24px, fill #FFFFFF
+- Icon / RocketOutlined: size 24x24px, fill #FFFFFF
+- Icon / RedEnvelopeOutlined: size 24x24px, fill #FFFFFF
+- Icon / SearchOutlined: size 24x24px, fill #FFFFFF
+- Icon / RobotOutlined: size 24x24px, fill #FFFFFF
+- Icon / ShoppingCartOutlined: size 24x24px, fill #FFFFFF
+- Icon / ShoppingOutlined: size 24x24px, fill #FFFFFF
+- Icon / ScheduleOutlined: size 24x24px, fill #FFFFFF
+- Icon / SmileOutlined: size 24x24px, fill #FFFFFF
+- Icon / ShopOutlined: size 24x24px, fill #FFFFFF
+- Icon / ScanOutlined: size 24x24px, fill #FFFFFF
+- Icon / ShareAltOutlined: size 24x24px, fill #FFFFFF
+- Icon / SaveOutlined: size 24x24px, fill #FFFFFF
+- Icon / PullRequestOutlined: size 24x24px, fill #FFFFFF
+- Icon / NodeExpandOutlined: size 24x24px, fill #FFFFFF
+- Icon / PartitionOutlined: size 24x24px, fill #FFFFFF
+- Icon / NodeCollapseOutlined: size 24x24px, fill #FFFFFF
+- Icon / PropertySafetyOutlined: size 24x24px, fill #FFFFFF
+- Icon / PlaySquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / OneToOneOutlined: size 24x24px, fill #FFFFFF
+- Icon / NodeIndexOutlined: size 24x24px, fill #FFFFFF
+- Icon / ProjectOutlined: size 24x24px, fill #FFFFFF
+- Icon / ProfileOutlined: size 24x24px, fill #FFFFFF
+- Icon / PayCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / PrinterOutlined: size 24x24px, fill #FFFFFF
+- Icon / PictureOutlined: size 24x24px, fill #FFFFFF
+- Icon / PoweroffOutlined: size 24x24px, fill #FFFFFF
+- Icon / PoundCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / PaperClipOutlined: size 24x24px, fill #FFFFFF
+- Icon / QrcodeOutlined: size 24x24px, fill #FFFFFF
+- Icon / PoundOutlined: size 24x24px, fill #FFFFFF
+- Icon / ReconciliationOutlined: size 24x24px, fill #FFFFFF
+- Icon / ReadOutlined: size 24x24px, fill #FFFFFF
+- Icon / NumberOutlined: size 24x24px, fill #FFFFFF
+- Icon / PhoneOutlined: size 24x24px, fill #FFFFFF
+- Icon / NotificationOutlined: size 24x24px, fill #FFFFFF
+- Icon / PushpinOutlined: size 24x24px, fill #FFFFFF
+- Icon / PercentageOutlined: size 24x24px, fill #FFFFFF
+- Icon / MergeCellsOutlined: size 24x24px, fill #FFFFFF
+- Icon / InsertRowRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / MacCommandOutlined: size 24x24px, fill #FFFFFF
+- Icon / LineOutlined: size 24x24px, fill #FFFFFF
+- Icon / InsertRowLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / LikeOutlined: size 24x24px, fill #FFFFFF
+- Icon / InsertRowBelowOutlined: size 24x24px, fill #FFFFFF
+- Icon / MoreOutlined: size 24x24px, fill #FFFFFF
+- Icon / InsertRowAboveOutlined: size 24x24px, fill #FFFFFF
+- Icon / MenuOutlined: size 24x24px, fill #FFFFFF
+- Icon / LockOutlined: size 24x24px, fill #FFFFFF
+- Icon / MonitorOutlined: size 24x24px, fill #FFFFFF
+- Icon / MoneyCollectOutlined: size 24x24px, fill #FFFFFF
+- Icon / Loading3QuartersOutlined: size 24x24px, fill #FFFFFF
+- Icon / MehOutlined: size 24x24px, fill #FFFFFF
+- Icon / LayoutOutlined: size 24x24px, fill #FFFFFF
+- Icon / MobileOutlined: size 24x24px, fill #FFFFFF
+- Icon / LoadingOutlined: size 24x24px, fill #FFFFFF
+- Icon / LaptopOutlined: size 24x24px, fill #FFFFFF
+- Icon / KeyOutlined: size 24x24px, fill #FFFFFF
+- Icon / LinkOutlined: size 24x24px, fill #FFFFFF
+- Icon / MedicineBoxOutlined: size 24x24px, fill #FFFFFF
+- Icon / ManOutlined: size 24x24px, fill #FFFFFF
+- Icon / MessageOutlined: size 24x24px, fill #FFFFFF
+- Icon / MailOutlined: size 24x24px, fill #FFFFFF
+- Icon / GroupOutlined: size 24x24px, fill #FFFFFF
+- Icon / FundViewOutlined: size 24x24px, fill #FFFFFF
+- Icon / FormatPainterOutlined: size 24x24px, fill #FFFFFF
+- Icon / ImportOutlined: size 24x24px, fill #FFFFFF
+- Icon / GifOutlined: size 24x24px, fill #FFFFFF
+- Icon / FolderViewOutlined: size 24x24px, fill #FFFFFF
+- Icon / FundProjectionScreenOutlined: size 24x24px, fill #FFFFFF
+- Icon / FunctionOutlined: size 24x24px, fill #FFFFFF
+- Icon / IdcardOutlined: size 24x24px, fill #FFFFFF
+- Icon / HddOutlined: size 24x24px, fill #FFFFFF
+- Icon / ForkOutlined: size 24x24px, fill #FFFFFF
+- Icon / GatewayOutlined: size 24x24px, fill #FFFFFF
+- Icon / InteractionOutlined: size 24x24px, fill #FFFFFF
+- Icon / FunnelPlotOutlined: size 24x24px, fill #FFFFFF
+- Icon / HourglassOutlined: size 24x24px, fill #FFFFFF
+- Icon / GoldOutlined: size 24x24px, fill #FFFFFF
+- Icon / InsuranceOutlined: size 24x24px, fill #FFFFFF
+- Icon / HomeOutlined: size 24x24px, fill #FFFFFF
+- Icon / FolderOpenOutlined: size 24x24px, fill #FFFFFF
+- Icon / HistoryOutlined: size 24x24px, fill #FFFFFF
+- Icon / GlobalOutlined: size 24x24px, fill #FFFFFF
+- Icon / FrownOutlined: size 24x24px, fill #FFFFFF
+- Icon / InboxOutlined: size 24x24px, fill #FFFFFF
+- Icon / GiftOutlined: size 24x24px, fill #FFFFFF
+- Icon / HeartOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileGifOutlined: size 24x24px, fill #FFFFFF
+- Icon / FireOutlined: size 24x24px, fill #FFFFFF
+- Icon / FilePdfOutlined: size 24x24px, fill #FFFFFF
+- Icon / FilterOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileMarkdownOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileZipOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileJpgOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileWordOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileUnknownOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileImageOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileExclamationOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileTextOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileExcelOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileSyncOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileSearchOutlined: size 24x24px, fill #FFFFFF
+- Icon / FolderAddOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileDoneOutlined: size 24x24px, fill #FFFFFF
+- Icon / EyeInvisibleOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileProtectOutlined: size 24x24px, fill #FFFFFF
+- Icon / FolderOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileAddOutlined: size 24x24px, fill #FFFFFF
+- Icon / EyeOutlined: size 24x24px, fill #FFFFFF
+- Icon / FilePptOutlined: size 24x24px, fill #FFFFFF
+- Icon / FileOutlined: size 24x24px, fill #FFFFFF
+- Icon / FlagOutlined: size 24x24px, fill #FFFFFF
+- Icon / FieldTimeOutlined: size 24x24px, fill #FFFFFF
+- Icon / ExpandOutlined: size 24x24px, fill #FFFFFF
+- Icon / DeliveredProcedureOutlined: size 24x24px, fill #FFFFFF
+- Icon / FieldStringOutlined: size 24x24px, fill #FFFFFF
+- Icon / ExportOutlined: size 24x24px, fill #FFFFFF
+- Icon / EllipsisOutlined: size 24x24px, fill #FFFFFF
+- Icon / DeleteRowOutlined: size 24x24px, fill #FFFFFF
+- Icon / FieldNumberOutlined: size 24x24px, fill #FFFFFF
+- Icon / ExperimentOutlined: size 24x24px, fill #FFFFFF
+- Icon / DeleteColumnOutlined: size 24x24px, fill #FFFFFF
+- Icon / FieldBinaryOutlined: size 24x24px, fill #FFFFFF
+- Icon / ExpandAltOutlined: size 24x24px, fill #FFFFFF
+- Icon / DesktopOutlined: size 24x24px, fill #FFFFFF
+- Icon / DollarCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / DollarOutlined: size 24x24px, fill #FFFFFF
+- Icon / DeploymentUnitOutlined: size 24x24px, fill #FFFFFF
+- Icon / ExceptionOutlined: size 24x24px, fill #FFFFFF
+- Icon / DislikeOutlined: size 24x24px, fill #FFFFFF
+- Icon / EuroCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / DisconnectOutlined: size 24x24px, fill #FFFFFF
+- Icon / DatabaseOutlined: size 24x24px, fill #FFFFFF
+- Icon / EuroOutlined: size 24x24px, fill #FFFFFF
+- Icon / DownloadOutlined: size 24x24px, fill #FFFFFF
+- Icon / DingtalkOutlined: size 24x24px, fill #FFFFFF
+- Icon / EnvironmentOutlined: size 24x24px, fill #FFFFFF
+- Icon / CompressOutlined: size 24x24px, fill #FFFFFF
+- Icon / ConsoleSqlOutlined: size 24x24px, fill #FFFFFF
+- Icon / ClearOutlined: size 24x24px, fill #FFFFFF
+- Icon / ClusterOutlined: size 24x24px, fill #FFFFFF
+- Icon / CommentOutlined: size 24x24px, fill #FFFFFF
+- Icon / CloudUploadOutlined: size 24x24px, fill #FFFFFF
+- Icon / CiCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / CustomerServiceOutlined: size 24x24px, fill #FFFFFF
+- Icon / CiOutlined: size 24x24px, fill #FFFFFF
+- Icon / CloudSyncOutlined: size 24x24px, fill #FFFFFF
+- Icon / CompassOutlined: size 24x24px, fill #FFFFFF
+- Icon / CrownOutlined: size 24x24px, fill #FFFFFF
+- Icon / CreditCardOutlined: size 24x24px, fill #FFFFFF
+- Icon / CloudServerOutlined: size 24x24px, fill #FFFFFF
+- Icon / CloudDownloadOutlined: size 24x24px, fill #FFFFFF
+- Icon / CopyrightCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / CopyrightOutlined: size 24x24px, fill #FFFFFF
+- Icon / CoffeeOutlined: size 24x24px, fill #FFFFFF
+- Icon / CloudOutlined: size 24x24px, fill #FFFFFF
+- Icon / ControlOutlined: size 24x24px, fill #FFFFFF
+- Icon / ContainerOutlined: size 24x24px, fill #FFFFFF
+- Icon / DashboardOutlined: size 24x24px, fill #FFFFFF
+- Icon / ClockCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / CodeOutlined: size 24x24px, fill #FFFFFF
+- Icon / ContactsOutlined: size 24x24px, fill #FFFFFF
+- Icon / AudioMutedOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderlessTableOutlined: size 24x24px, fill #FFFFFF
+- Icon / AppstoreAddOutlined: size 24x24px, fill #FFFFFF
+- Icon / BookOutlined: size 24x24px, fill #FFFFFF
+- Icon / BankOutlined: size 24x24px, fill #FFFFFF
+- Icon / CarOutlined: size 24x24px, fill #FFFFFF
+- Icon / AppstoreOutlined: size 24x24px, fill #FFFFFF
+- Icon / BlockOutlined: size 24x24px, fill #FFFFFF
+- Icon / CameraOutlined: size 24x24px, fill #FFFFFF
+- Icon / AuditOutlined: size 24x24px, fill #FFFFFF
+- Icon / CalendarOutlined: size 24x24px, fill #FFFFFF
+- Icon / AudioOutlined: size 24x24px, fill #FFFFFF
+- Icon / CalculatorOutlined: size 24x24px, fill #FFFFFF
+- Icon / ApiOutlined: size 24x24px, fill #FFFFFF
+- Icon / BellOutlined: size 24x24px, fill #FFFFFF
+- Icon / ApartmentOutlined: size 24x24px, fill #FFFFFF
+- Icon / BulbOutlined: size 24x24px, fill #FFFFFF
+- Icon / BuildOutlined: size 24x24px, fill #FFFFFF
+- Icon / CarryOutOutlined: size 24x24px, fill #FFFFFF
+- Icon / BarsOutlined: size 24x24px, fill #FFFFFF
+- Icon / BugOutlined: size 24x24px, fill #FFFFFF
+- Icon / AlertOutlined: size 24x24px, fill #FFFFFF
+- Icon / BranchesOutlined: size 24x24px, fill #FFFFFF
+- Icon / BarcodeOutlined: size 24x24px, fill #FFFFFF
+- Icon / AmazonOutlined: size 24x24px, fill #FFFFFF
+- Icon / AlibabaOutlined: size 24x24px, fill #FFFFFF
+- Icon / AntCloudOutlined: size 24x24px, fill #FFFFFF
+- Icon / RedditOutlined: size 24x24px, fill #FFFFFF
+- Icon / CodeSandboxOutlined: size 24x24px, fill #FFFFFF
+- Icon / InstagramOutlined: size 24x24px, fill #FFFFFF
+- Icon / AntDesignOutlined: size 24x24px, fill #FFFFFF
+- Icon / SlackOutlined: size 24x24px, fill #FFFFFF
+- Icon / SketchOutlined: size 24x24px, fill #FFFFFF
+- Icon / CodepenOutlined: size 24x24px, fill #FFFFFF
+- Icon / AlipayOutlined: size 24x24px, fill #FFFFFF
+- Icon / YuqueOutlined: size 24x24px, fill #FFFFFF
+- Icon / SlackSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / BehanceSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / ZhihuOutlined: size 24x24px, fill #FFFFFF
+- Icon / FacebookOutlined: size 24x24px, fill #FFFFFF
+- Icon / CodepenCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / BehanceOutlined: size 24x24px, fill #FFFFFF
+- Icon / DribbbleSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / AliyunOutlined: size 24x24px, fill #FFFFFF
+- Icon / GoogleOutlined: size 24x24px, fill #FFFFFF
+- Icon / DropboxOutlined: size 24x24px, fill #FFFFFF
+- Icon / YahooOutlined: size 24x24px, fill #FFFFFF
+- Icon / DribbbleOutlined: size 24x24px, fill #FFFFFF
+- Icon / GooglePlusOutlined: size 24x24px, fill #FFFFFF
+- Icon / LinkedinOutlined: size 24x24px, fill #FFFFFF
+- Icon / MediumOutlined: size 24x24px, fill #FFFFFF
+- Icon / GitlabOutlined: size 24x24px, fill #FFFFFF
+- Icon / AlipayCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / TaobaoOutlined: size 24x24px, fill #FFFFFF
+- Icon / QqOutlined: size 24x24px, fill #FFFFFF
+- Icon / MediumWorkmarkOutlined: size 24x24px, fill #FFFFFF
+- Icon / SkypeOutlined: size 24x24px, fill #FFFFFF
+- Icon / WeiboCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / GithubOutlined: size 24x24px, fill #FFFFFF
+- Icon / DingdingOutlined: size 24x24px, fill #FFFFFF
+- Icon / IeOutlined: size 24x24px, fill #FFFFFF
+- Icon / Html5Outlined: size 24x24px, fill #FFFFFF
+- Icon / AppleOutlined: size 24x24px, fill #FFFFFF
+- Icon / YoutubeOutlined: size 24x24px, fill #FFFFFF
+- Icon / TwitterOutlined: size 24x24px, fill #FFFFFF
+- Icon / WechatOutlined: size 24x24px, fill #FFFFFF
+- Icon / WindowsOutlined: size 24x24px, fill #FFFFFF
+- Icon / AliwangwangOutlined: size 24x24px, fill #FFFFFF
+- Icon / ChromeOutlined: size 24x24px, fill #FFFFFF
+- Icon / AndroidOutlined: size 24x24px, fill #FFFFFF
+- Icon / WeiboSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / WeiboOutlined: size 24x24px, fill #FFFFFF
+- Icon / TaobaoCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / DotChartOutlined: size 24x24px, fill #FFFFFF
+- Icon / FundOutlined: size 24x24px, fill #FFFFFF
+- Icon / FallOutlined: size 24x24px, fill #FFFFFF
+- Icon / BarChartOutlined: size 24x24px, fill #FFFFFF
+- Icon / BoxPlotOutlined: size 24x24px, fill #FFFFFF
+- Icon / HeatMapOutlined: size 24x24px, fill #FFFFFF
+- Icon / PieChartOutlined: size 24x24px, fill #FFFFFF
+- Icon / StockOutlined: size 24x24px, fill #FFFFFF
+- Icon / RadarChartOutlined: size 24x24px, fill #FFFFFF
+- Icon / SlidersOutlined: size 24x24px, fill #FFFFFF
+- Icon / RiseOutlined: size 24x24px, fill #FFFFFF
+- Icon / LineChartOutlined: size 24x24px, fill #FFFFFF
+- Icon / AreaChartOutlined: size 24x24px, fill #FFFFFF
+- Icon / RadiusSettingOutlined: size 24x24px, fill #FFFFFF
+- Icon / DragOutlined: size 24x24px, fill #FFFFFF
+- Icon / ColumnWidthOutlined: size 24x24px, fill #FFFFFF
+- Icon / UnorderedListOutlined: size 24x24px, fill #FFFFFF
+- Icon / SortDescendingOutlined: size 24x24px, fill #FFFFFF
+- Icon / ColumnHeightOutlined: size 24x24px, fill #FFFFFF
+- Icon / SortAscendingOutlined: size 24x24px, fill #FFFFFF
+- Icon / OrderedListOutlined: size 24x24px, fill #FFFFFF
+- Icon / RedoOutlined: size 24x24px, fill #FFFFFF
+- Icon / SnippetsOutlined: size 24x24px, fill #FFFFFF
+- Icon / AlignRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / FontSizeOutlined: size 24x24px, fill #FFFFFF
+- Icon / StrikethroughOutlined: size 24x24px, fill #FFFFFF
+- Icon / DeleteOutlined: size 24x24px, fill #FFFFFF
+- Icon / AlignLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / FontColorsOutlined: size 24x24px, fill #FFFFFF
+- Icon / UnderlineOutlined: size 24x24px, fill #FFFFFF
+- Icon / ScissorOutlined: size 24x24px, fill #FFFFFF
+- Icon / SmallDashOutlined: size 24x24px, fill #FFFFFF
+- Icon / AlignCenterOutlined: size 24x24px, fill #FFFFFF
+- Icon / ZoomOutOutlined: size 24x24px, fill #FFFFFF
+- Icon / ItalicOutlined: size 24x24px, fill #FFFFFF
+- Icon / CopyOutlined: size 24x24px, fill #FFFFFF
+- Icon / DashOutlined: size 24x24px, fill #FFFFFF
+- Icon / ZoomInOutlined: size 24x24px, fill #FFFFFF
+- Icon / HighlightOutlined: size 24x24px, fill #FFFFFF
+- Icon / BoldOutlined: size 24x24px, fill #FFFFFF
+- Icon / FormOutlined: size 24x24px, fill #FFFFFF
+- Icon / UndoOutlined: size 24x24px, fill #FFFFFF
+- Icon / BgColorsOutlined: size 24x24px, fill #FFFFFF
+- Icon / EditOutlined: size 24x24px, fill #FFFFFF
+- Icon / LineHeightOutlined: size 24x24px, fill #FFFFFF
+- Icon / DiffOutlined: size 24x24px, fill #FFFFFF
+- Icon / StopOutlined: size 24x24px, fill #FFFFFF
+- Icon / IssuesCloseOutlined: size 24x24px, fill #FFFFFF
+- Icon / PauseCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / InfoCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / WarningOutlined: size 24x24px, fill #FFFFFF
+- Icon / PauseOutlined: size 24x24px, fill #FFFFFF
+- Icon / CloseSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / InfoOutlined: size 24x24px, fill #FFFFFF
+- Icon / PlusCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / CheckSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / CloseCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / MinusSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / PlusOutlined: size 24x24px, fill #FFFFFF
+- Icon / CheckCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / CloseOutlined: size 24x24px, fill #FFFFFF
+- Icon / PlusSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / CheckOutlined: size 24x24px, fill #FFFFFF
+- Icon / QuestionCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / MinusCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / ExclamationCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / QuestionOutlined: size 24x24px, fill #FFFFFF
+- Icon / MinusOutlined: size 24x24px, fill #FFFFFF
+- Icon / ExclamationOutlined: size 24x24px, fill #FFFFFF
+- Icon / FullscreenExitOutlined: size 24x24px, fill #FFFFFF
+- Icon / FullscreenOutlined: size 24x24px, fill #FFFFFF
+- Icon / RadiusUpleftOutlined: size 24x24px, fill #FFFFFF
+- Icon / RadiusBottomrightOutlined: size 24x24px, fill #FFFFFF
+- Icon / RadiusBottomleftOutlined: size 24x24px, fill #FFFFFF
+- Icon / RadiusUprightOutlined: size 24x24px, fill #FFFFFF
+- Icon / PicRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / PicLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / PicCenterOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderVerticleOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderTopOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderOuterOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderInnerOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderHorizontalOutlined: size 24x24px, fill #FFFFFF
+- Icon / BorderBottomOutlined: size 24x24px, fill #FFFFFF
+- Icon / MenuUnfoldOutlined: size 24x24px, fill #FFFFFF
+- Icon / MenuFoldOutlined: size 24x24px, fill #FFFFFF
+- Icon / LogoutOutlined: size 24x24px, fill #FFFFFF
+- Icon / LoginOutlined: size 24x24px, fill #FFFFFF
+- Icon / RightSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / LeftSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / DownSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / UpSquareOutlined: size 24x24px, fill #FFFFFF
+- Icon / PlayCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / ArrowUpOutlined: size 24x24px, fill #FFFFFF
+- Icon / ArrowRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / ArrowLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / ArrowDownOutlined: size 24x24px, fill #FFFFFF
+- Icon / SwapRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / SwapLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / SwapOutlined: size 24x24px, fill #FFFFFF
+- Icon / RetweetOutlined: size 24x24px, fill #FFFFFF
+- Icon / RollbackOutlined: size 24x24px, fill #FFFFFF
+- Icon / EnterOutlined: size 24x24px, fill #FFFFFF
+- Icon / BackwardOutlined: size 24x24px, fill #FFFFFF
+- Icon / ForwardOutlined: size 24x24px, fill #FFFFFF
+- Icon / VerticalAlignBottomOutlined: size 24x24px, fill #FFFFFF
+- Icon / VerticalAlignMiddleOutlined: size 24x24px, fill #FFFFFF
+- Icon / VerticalAlignTopOutlined: size 24x24px, fill #FFFFFF
+- Icon / VerticalLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / VerticalRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / DoubleRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / DoubleLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / UpCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / LeftCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / RightCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / DownCircleOutlined: size 24x24px, fill #FFFFFF
+- Icon / CaretLeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / CaretDownOutlined: size 24x24px, fill #FFFFFF
+- Icon / CaretUpOutlined: size 24x24px, fill #FFFFFF
+- Icon / CaretRightOutlined: size 24x24px, fill #FFFFFF
+- Icon / RightOutlined: size 24x24px, fill #FFFFFF
+- Icon / DownOutlined: size 24x24px, fill #FFFFFF
+- Icon / UpOutlined: size 24x24px, fill #FFFFFF
+- Icon / LeftOutlined: size 24x24px, fill #FFFFFF
+- Icon / ArrowsAltOutlined: size 24x24px, fill #FFFFFF
+- Icon / ShrinkOutlined: size 24x24px, fill #FFFFFF
+- Icon / FastBackwardOutlined: size 24x24px, fill #FFFFFF
+- Icon / FastForwardOutlined: size 24x24px, fill #FFFFFF
+- Icon / StepForwardOutlined: size 24x24px, fill #FFFFFF
+- Icon / StepBackwardOutlined: size 24x24px, fill #FFFFFF
+- .brand: size 1200x96px, vertical layout, padding 32 100 32 100px, gap 0px, sizing W:fixed H:fixed, text [Base/Normal]
+- .header: size 1200x336px, vertical layout, padding 60 100 60 100px, gap 48px, sizing W:fixed H:fixed, text [Space Grotesk Regular, 14px, Base/Normal, Heading/1, SM/Normal]
+- .title: size 176x58px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Base/Normal, Heading/3]
+- .tag: size 40x24px, radius 6px, horizontal layout, padding 4 8 4 8px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #D9D9D9 1px, text [SM/Normal]
+- .description: size 328x22px, horizontal layout, padding 0 0 0 0px, gap 12px, align min/center, sizing W:fixed H:fixed, text [Space Grotesk Regular, 14px, Base/Normal]
+- .logo: size 32x32px, fill #FFFFFF
+
+## Most-Used Styles
+- Base/Normal: 455 uses
+- Base/Strong: 76 uses
+- Component/Button/defaultShadow: 45 uses
+- Heading/3: 35 uses
+- SM/Normal: 27 uses
+- Heading/4: 26 uses
+- boxShadowTertiary: 25 uses
+- Heading/5: 19 uses
+- Heading/1: 8 uses
+- Component/Button/primaryShadow: 6 uses
+- Heading/2: 4 uses
+- boxShadow: 2 uses
+
+## Layout & Structure
+Screen: ⦿  Cover / Thumbnail
+- FRAME "Thumbnail", 1600x960px, constraints left/top, fill gradient_linear(#F9F0FF 0% | #E6F4FF80 51% | #FFFFFF 100%)
+  - FRAME "Left", 989x760px, vertical pad 0 0 0 0px gap 182px align space_between/min sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE ".logo", 80x80px, constraints left/top, fill #FFFFFF
+      - GROUP "页面-1", 80x80px, constraints scale/scale [decorative, ~5 shapes]
+    - FRAME "Title", 989x438px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 2", 989x360px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Ant Design X AI Design System For Figma", 989x360px, constraints left/top, fill #000000E0, text [Inter Medium, 120px], [heading]
+      - TEXT "Free version for Figma community", 597x38px, constraints left/top, fill #00000073, text [PingFang SC Semibold, 30px], [heading]
+    - FRAME "Frame 1", 957x108px, horizontal pad 40 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME ".tag", 258x68px, horizontal pad 8 16 8 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+        - TEXT "Open Source", 186x38px, constraints left/top, fill #000000E0, text [Heading/2], [heading]
+        - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / CheckCircleFilled", 32x32px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 28x28px, constraints scale/scale, fill #73D13D
+      - FRAME ".tag", 244x68px, horizontal pad 8 16 8 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+        - TEXT "Auto-layout", 172x38px, constraints left/top, fill #000000E0, text [Heading/2], [heading]
+        - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / CheckCircleFilled", 32x32px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 28x28px, constraints scale/scale, fill #73D13D
+      - FRAME ".tag", 205x68px, horizontal pad 8 16 8 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+        - TEXT "Variables", 133x38px, constraints left/top, fill #000000E0, text [Heading/2], [heading]
+        - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / CheckCircleFilled", 32x32px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 28x28px, constraints scale/scale, fill #73D13D
+      - FRAME ".tag", 190x68px, horizontal pad 8 16 8 16px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 20px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+        - TEXT "Variants", 118x38px, constraints left/top, fill #000000E0, text [Heading/2], [heading]
+        - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / CheckCircleFilled", 32x32px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 28x28px, constraints scale/scale, fill #73D13D
+
+Screen: ✲  Components / Bubble对话气泡
+- FRAME "Bubble对话气泡", 1200x3630px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+  - INSTANCE ".header", 1200x336px, vertical pad 60 100 60 100px gap 48px sizing W:fill H:fixed, constraints left/top
+    - FRAME "title", 1000x116px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".tag", 40x24px, horizontal pad 4 8 4 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #D9D9D9 1px
+        - TEXT "通用", 24x20px, constraints left/top, fill #000000A6, text [SM/Normal]
+      - TEXT "Bubble对话气泡", 278x46px, constraints left/top, fill #000000E0, text [Heading/1], [heading]
+      - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - FRAME "list", 1000x52px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".description", 312x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 272x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "import { Bubble } from "@ant-design/x";", 272x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+      - INSTANCE ".description", 195x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 155x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 12x12px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/github", 12x12px, constraints scale/scale
+          - TEXT "import { Bubble } from "@ant-design/x";", 139x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+  - FRAME "group", 1200x3102px, vertical pad 0 100 0 100px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 1000x312px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 48x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x110px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Bubble* / content", 112x46px, horizontal pad 12 16 12 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - TEXT "hello world !", 80x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - FRAME "container", 1000x498px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 168x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x296px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Bubble*", 936x232px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 1000x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 264x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 1000x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 216x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 1000x46px, horizontal pad 0 0 0 0px gap 12px align max/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 249x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 1000x46px, horizontal pad 0 0 0 0px gap 12px align max/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 148x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "container", 1000x374px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 72x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x172px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "code-box", 936x108px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x108px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 264x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "container", 1000x648px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 48x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x446px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "code-box", 936x382px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 264x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 264x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 264x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x72px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 264x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 216x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 216x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "container", 1000x754px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 48x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x552px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "code-box", 936x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 216x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x90px, horizontal pad 0 0 0 0px gap 12px align max/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 960x90px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 216x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x90px, horizontal pad 0 0 0 0px gap 12px align max/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 960x90px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 216x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x90px, horizontal pad 0 0 0 0px gap 12px align max/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 960x90px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 1000x516px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 144x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x314px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "code-box", 936x250px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x90px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 960x90px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px align max/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 249x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Bubble* / bubble", 936x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "wrapper", 264x46px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+
+Screen: ✲  Components / Conversations管理对话
+- FRAME "Conversations管理对话", 1200x3190px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+  - INSTANCE ".header", 1200x336px, vertical pad 60 100 60 100px gap 48px sizing W:fill H:fixed, constraints left/top
+    - FRAME "title", 1000x116px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".tag", 40x24px, horizontal pad 4 8 4 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #D9D9D9 1px
+        - TEXT "通用", 24x20px, constraints left/top, fill #000000A6, text [SM/Normal]
+      - TEXT "Bubble对话气泡", 411x46px, constraints left/top, fill #000000E0, text [Heading/1], [heading]
+      - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - FRAME "list", 1000x52px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".description", 312x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 272x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "import { Bubble } from "@ant-design/x";", 321x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+      - INSTANCE ".description", 195x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 155x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 12x12px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/github", 12x12px, constraints scale/scale
+          - TEXT "import { Bubble } from "@ant-design/x";", 187x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+  - FRAME "group", 1200x2662px, vertical pad 0 100 0 100px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 1000x462px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x260px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F5F5F5, stroke #F0F0F0 1px
+        - INSTANCE "*Conversations*", 256x372px, vertical pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 194x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0000000F
+            - TEXT "Conversation Item 1", 194x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 194x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 216x22px, constraints left/top, fill #00000040, text [Base/Normal]
+    - FRAME "container", 1000x462px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 120x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x260px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F5F5F5, stroke #F0F0F0 1px
+        - INSTANCE "*Conversations*", 256x372px, vertical pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 194x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0000000F
+            - TEXT "Conversation Item 1", 194x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 194x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 216x22px, constraints left/top, fill #00000040, text [Base/Normal]
+    - FRAME "container", 1000x550px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x348px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F5F5F5, stroke #F0F0F0 1px
+        - INSTANCE "*Conversations*", 256x372px, vertical pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Today", 216x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0000000F
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Today", 216x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #00000040, text [Base/Normal]
+    - FRAME "container", 1000x638px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x436px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F5F5F5, stroke #F0F0F0 1px
+        - INSTANCE "*Conversations*", 256x372px, vertical pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - TEXT "Today", 194x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0000000F
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - TEXT "Today", 194x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+          - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - TEXT "Conversation Item 1", 192x22px, constraints left/top, fill #00000040, text [Base/Normal]
+    - FRAME "container", 1000x550px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x348px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #F5F5F5, stroke #F0F0F0 1px
+        - FRAME "wrapper", 256x284px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*Conversations*", 256x284px, vertical pad 12 12 12 12px gap 4px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0000000F
+            - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 8px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+            - INSTANCE "*Conversations* / item", 232x40px, horizontal pad 0 8 0 32px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px
+          - INSTANCE "Scrollbar", 12x284px, horizontal pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints right/top, fill #FFFFFF
+            - RECTANGLE "controller", 8x60px, constraints left/top, radius 16px, fill #00000026, effect [background_blur 20px], opacity 50%
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+
+Screen: ✲  Components / Welcome 欢迎
+- FRAME "Welcome 欢迎", 1200x1654px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+  - INSTANCE ".header", 1200x336px, vertical pad 60 100 60 100px gap 48px sizing W:fill H:fixed, constraints left/top
+    - FRAME "title", 1000x116px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".tag", 40x24px, horizontal pad 4 8 4 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #D9D9D9 1px
+        - TEXT "通用", 24x20px, constraints left/top, fill #000000A6, text [SM/Normal]
+      - TEXT "Bubble对话气泡", 243x46px, constraints left/top, fill #000000E0, text [Heading/1], [heading]
+      - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - FRAME "list", 1000x52px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".description", 312x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 272x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "import { Bubble } from "@ant-design/x";", 286x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+      - INSTANCE ".description", 195x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 155x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 12x12px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/github", 12x12px, constraints scale/scale
+          - TEXT "import { Bubble } from "@ant-design/x";", 152x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+  - FRAME "group", 1200x1126px, vertical pad 0 100 0 100px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 1000x348px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 48x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x146px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Welcom*", 936x86px, horizontal pad 12 16 12 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - RECTANGLE "image 1", 53x58px, constraints left/top, fill image(hash: b592500ebe6e23a05ec61f851d41c705b3dfc21e)
+          - FRAME "Frame 4", 555x58px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "title", 555x28px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Base on Ant Design, AGI product interface solution, create a", 835x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - FRAME "container", 1000x328px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 48x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x126px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Welcom*", 936x62px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px
+          - RECTANGLE "image 1", 53x58px, constraints left/top, fill image(hash: b592500ebe6e23a05ec61f851d41c705b3dfc21e)
+          - FRAME "Frame 4", 867x62px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "title", 867x32px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Base on Ant Design, AGI product interface solution, create a", 867x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - FRAME "container", 1000x450px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x248px, vertical pad 32 32 32 32px gap 20px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Welcom*", 936x86px, horizontal pad 12 16 12 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%)
+          - RECTANGLE "image 1", 53x58px, constraints left/top, fill image(hash: b592500ebe6e23a05ec61f851d41c705b3dfc21e)
+          - FRAME "Frame 4", 555x58px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "title", 555x28px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Base on Ant Design, AGI product interface solution, create a", 835x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+        - INSTANCE "*Welcom*", 936x86px, horizontal pad 12 16 12 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #141414
+          - RECTANGLE "image 1", 53x58px, constraints left/top, fill image(hash: b592500ebe6e23a05ec61f851d41c705b3dfc21e)
+          - FRAME "Frame 4", 555x58px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+            - FRAME "title", 555x28px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Base on Ant Design, AGI product interface solution, create a", 835x22px, constraints left/top, fill #FFFFFF, text [Base/Normal]
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+
+Screen: ✲  Components / Prompts 提示集
+- FRAME "Prompts 提示集", 1200x3316px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+  - INSTANCE ".header", 1200x336px, vertical pad 60 100 60 100px gap 48px sizing W:fill H:fixed, constraints left/top
+    - FRAME "title", 1000x116px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".tag", 40x24px, horizontal pad 4 8 4 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #D9D9D9 1px
+        - TEXT "通用", 24x20px, constraints left/top, fill #000000A6, text [SM/Normal]
+      - TEXT "Bubble对话气泡", 267x46px, constraints left/top, fill #000000E0, text [Heading/1], [heading]
+      - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - FRAME "list", 1000x52px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".description", 312x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 272x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "import { Bubble } from "@ant-design/x";", 281x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+      - INSTANCE ".description", 195x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 155x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 12x12px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/github", 12x12px, constraints scale/scale
+          - TEXT "import { Bubble } from "@ant-design/x";", 149x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+  - FRAME "group", 1200x2788px, vertical pad 0 100 0 100px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 1000x368px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 48x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x166px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "Frame 6", 936x102px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Prompts* / title", 936x30px, horizontal pad 0 0 8 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Do you want?", 936x22px, constraints left/top, fill #00000073, text [Base/Strong]
+          - INSTANCE "*Prompts* / list", 936x72px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "*Prompts* / item", 277x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 379x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 277x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 461x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 367x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+    - FRAME "container", 1000x368px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 120x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x166px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "Frame 6", 936x102px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Prompts* / title", 936x30px, horizontal pad 0 0 8 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Do you want?", 936x22px, constraints left/top, fill #00000073, text [Base/Strong]
+          - INSTANCE "*Prompts* / list", 936x72px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "*Prompts* / item", 277x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000A, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 379x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+    - FRAME "container", 1000x458px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x256px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "Frame 6", 936x192px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Prompts* / title", 936x30px, horizontal pad 0 0 8 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Do you want?", 936x22px, constraints left/top, fill #00000073, text [Base/Strong]
+          - INSTANCE "*Prompts* / list", 936x162px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "*Prompts* / item", 192x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 220x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 203x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+    - FRAME "container", 1000x516px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 72x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x314px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "Frame 6", 936x250px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Prompts* / title", 936x30px, horizontal pad 0 0 8 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Do you want?", 936x22px, constraints left/top, fill #00000073, text [Base/Strong]
+          - INSTANCE "*Prompts* / list", 936x220px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "*Prompts* / item", 277x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 379x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 367x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 277x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 350x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 372x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 419x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+            - INSTANCE "*Prompts* / item", 340x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+    - FRAME "container", 1000x536px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 120x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x334px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "Frame 6", 936x270px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Prompts* / title", 936x30px, horizontal pad 0 0 8 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Do you want?", 936x22px, constraints left/top, fill #00000073, text [Base/Strong]
+          - INSTANCE "*Prompts* / list", 936x240px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "list", 936x72px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "list", 936x72px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+            - FRAME "list", 936x72px, horizontal pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 1000x542px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x340px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - FRAME "Frame 6", 936x276px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Prompts* / title", 936x30px, horizontal pad 0 0 8 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Do you want?", 936x22px, constraints left/top, fill #00000073, text [Base/Strong]
+          - INSTANCE "*Prompts* / custom-list", 1040x246px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*Prompts* / custom", 338.67x246px, vertical pad 12 16 12 16px gap 4px sizing W:fill H:fill, constraints left/top, radius 8px, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%)
+            - INSTANCE "*Prompts* / custom", 338.67x246px, vertical pad 12 16 12 16px gap 4px sizing W:fill H:fill, constraints left/top, radius 8px, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%)
+            - INSTANCE "*Prompts* / custom", 338.67x246px, vertical pad 12 16 12 16px gap 4px sizing W:fill H:fill, constraints left/top, radius 8px, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%)
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+
+Screen: ✲  Components / Attachments输入附件
+- FRAME "Attachments输入附件", 1200x2932px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+  - INSTANCE ".header", 1200x336px, vertical pad 60 100 60 100px gap 48px sizing W:fill H:fixed, constraints left/top
+    - FRAME "title", 1000x116px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".tag", 40x24px, horizontal pad 4 8 4 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #D9D9D9 1px
+        - TEXT "通用", 24x20px, constraints left/top, fill #000000A6, text [SM/Normal]
+      - TEXT "Bubble对话气泡", 382x46px, constraints left/top, fill #000000E0, text [Heading/1], [heading]
+      - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - FRAME "list", 1000x52px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".description", 312x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 272x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "import { Bubble } from "@ant-design/x";", 311x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+      - INSTANCE ".description", 195x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 155x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 12x12px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/github", 12x12px, constraints scale/scale
+          - TEXT "import { Bubble } from "@ant-design/x";", 178x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+  - FRAME "group", 1200x2404px, vertical pad 0 100 0 100px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 1000x322px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 48x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x120px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Sender*", 936x56px, vertical pad 0 0 12 0px gap 0px align center/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke #D9D9D9 1px, effect Component/Button/defaultShadow
+            - TEXT "输入 / 获取建议", 828x22px, constraints left/top, fill #00000040, text [Base/Normal]
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #BAE0FF
+    - FRAME "container", 1000x524px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x322px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Attachments*", 936x258px, horizontal pad 12 16 12 16px gap 15px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+          - ... +2 more children
+    - FRAME "container", 1000x600px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x398px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Sender*", 936x56px, vertical pad 0 0 12 0px gap 0px align center/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - INSTANCE "*Sender* / header", 760x40px, horizontal pad 8 8 8 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill #00000005
+            - FRAME "text", 712x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "*Button*", 24x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - INSTANCE "*Sender* / upload", 760x238px, vertical pad 16 16 16 16px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "wrapper", 310x206px, vertical pad 24 0 24 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke #D9D9D9 1px, effect Component/Button/defaultShadow
+            - TEXT "输入 / 获取建议", 828x22px, constraints left/top, fill #00000040, text [Base/Normal]
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #BAE0FF
+    - FRAME "container", 1000x958px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x756px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Attachments* / file", 240x68px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - FRAME "icon", 32x40px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - FRAME "wrapper", 168x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "excel-file.xlsx", 168x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "326 KB", 168x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - INSTANCE "*Attachments* / file", 240x68px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - FRAME "icon", 32x40px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - FRAME "wrapper", 168x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "word-file.docx", 168x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "326 KB", 168x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - INSTANCE "*Attachments* / file", 240x68px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - FRAME "icon", 32x40px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - FRAME "wrapper", 168x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "image-file.png", 168x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "326 KB", 168x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - INSTANCE "*Attachments* / file", 240x68px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - FRAME "icon", 32x40px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - FRAME "wrapper", 168x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "pdf-file.pdf", 168x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "326 KB", 168x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - INSTANCE "*Attachments* / file", 240x68px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - FRAME "icon", 32x40px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - FRAME "wrapper", 168x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "ppt-file.pptx", 168x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "326 KB", 168x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - INSTANCE "*Attachments* / file", 240x68px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - FRAME "icon", 32x40px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - FRAME "wrapper", 168x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "audio-file.mp3", 168x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "326 KB", 168x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - INSTANCE "*Attachments* / file", 240x68px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - FRAME "icon", 32x40px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - FRAME "wrapper", 168x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "zip-file.zip", 168x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "326 KB", 168x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - INSTANCE "*Attachments* / file", 240x68px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000F
+          - FRAME "icon", 32x40px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 32x32px, constraints left/top, fill #FFFFFF
+          - FRAME "wrapper", 168x44px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "markdown-file.md", 168x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "326 KB", 168x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - INSTANCE "*Attachments* / button", 68x68px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "image 2", 68x68px, constraints scale/scale, radius 6px, fill image(hash: f65d19ba5bea6020f881533eddc9a2187133d08c)
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+
+Screen: ✲  Components / Sender输入框
+- FRAME "Sender输入框", 1200x2942px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+  - INSTANCE ".header", 1200x336px, vertical pad 60 100 60 100px gap 48px sizing W:fill H:fixed, constraints left/top
+    - FRAME "title", 1000x116px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".tag", 40x24px, horizontal pad 4 8 4 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #D9D9D9 1px
+        - TEXT "通用", 24x20px, constraints left/top, fill #000000A6, text [SM/Normal]
+      - TEXT "Bubble对话气泡", 242x46px, constraints left/top, fill #000000E0, text [Heading/1], [heading]
+      - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - FRAME "list", 1000x52px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".description", 312x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 272x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "import { Bubble } from "@ant-design/x";", 273x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+      - INSTANCE ".description", 195x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 155x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 12x12px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/github", 12x12px, constraints scale/scale
+          - TEXT "import { Bubble } from "@ant-design/x";", 138x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+  - FRAME "group", 1200x2414px, vertical pad 0 100 0 100px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 1000x486px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x284px, vertical pad 32 32 32 32px gap 20px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Sender*", 936x56px, vertical pad 0 0 12 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/max sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - FRAME "text", 692x32px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #1677FF
+        - INSTANCE "*Sender*", 936x64px, vertical pad 0 0 12 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - FRAME "text", 692x32px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px
+        - INSTANCE "*Sender*", 936x64px, vertical pad 0 0 12 0px gap 0px align max/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #0000000A, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - TEXT "输入 / 获取建议", 868x22px, constraints left/top, fill #00000040, text [Base/Normal]
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #BAE0FF
+    - FRAME "container", 1000x322px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x120px, vertical pad 32 32 32 32px gap 20px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Sender*", 936x64px, vertical pad 0 0 12 0px gap 0px align center/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - TEXT "输入 / 获取建议", 868x22px, constraints left/top, fill #00000040, text [Base/Normal]
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #BAE0FF
+    - FRAME "container", 1000x322px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x120px, vertical pad 32 32 32 32px gap 20px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Sender*", 936x64px, vertical pad 0 0 12 0px gap 0px align center/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - TEXT "输入 / 获取建议", 828x22px, constraints left/top, fill #00000040, text [Base/Normal]
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #BAE0FF
+    - FRAME "container", 1000x322px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 120x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x120px, vertical pad 32 32 32 32px gap 20px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Sender*", 936x64px, vertical pad 0 0 12 0px gap 0px align center/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - TEXT "输入 / 获取建议", 644x22px, constraints left/top, fill #00000040, text [Base/Normal]
+            - FRAME "typography-secondary", 136x32px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #BAE0FF
+    - FRAME "container", 1000x600px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x398px, vertical pad 32 32 32 32px gap 20px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Sender*", 936x56px, vertical pad 0 0 12 0px gap 0px align center/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - INSTANCE "*Sender* / header", 760x40px, horizontal pad 8 8 8 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill #00000005
+            - FRAME "text", 712x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "*Button*", 24x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - INSTANCE "*Sender* / upload", 760x238px, vertical pad 16 16 16 16px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - FRAME "wrapper", 310x206px, vertical pad 24 0 24 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px
+            - TEXT "输入 / 获取建议", 828x22px, constraints left/top, fill #00000040, text [Base/Normal]
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #BAE0FF
+    - FRAME "container", 1000x362px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 48x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x160px, vertical pad 32 32 32 32px gap 20px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Sender*", 936x64px, vertical pad 0 0 12 0px gap 0px align center/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - INSTANCE "*Sender* / header", 760x40px, horizontal pad 8 8 8 16px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, fill #00000005
+            - FRAME "text", 712x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "*Button*", 24x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - FRAME "wrapper", 760x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - TEXT "输入 / 获取建议", 868x22px, constraints left/top, fill #00000040, text [Base/Normal]
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #BAE0FF
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+
+Screen: ✲  Components / Suggestion快捷指令
+- FRAME "Suggestion快捷指令", 1200x850px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 48px, fill #FFFFFF
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+  - INSTANCE ".header", 1200x336px, vertical pad 60 100 60 100px gap 48px sizing W:fill H:fixed, constraints left/top
+    - FRAME "title", 1000x116px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".tag", 40x24px, horizontal pad 4 8 4 8px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke #D9D9D9 1px
+        - TEXT "通用", 24x20px, constraints left/top, fill #000000A6, text [SM/Normal]
+      - TEXT "Bubble对话气泡", 356x46px, constraints left/top, fill #000000E0, text [Heading/1], [heading]
+      - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - FRAME "list", 1000x52px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE ".description", 312x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 272x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "import { Bubble } from "@ant-design/x";", 302x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+      - INSTANCE ".description", 195x22px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "使用", 28x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - FRAME "Frame 3", 155x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 12x12px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/github", 12x12px, constraints scale/scale
+          - TEXT "import { Bubble } from "@ant-design/x";", 168x22px, constraints left/top, fill #000000E0, text [Space Grotesk Regular, 14px]
+  - FRAME "group", 1200x322px, vertical pad 0 100 0 100px gap 0px sizing W:fill H:fixed, constraints left/top
+    - FRAME "container", 1000x322px, vertical pad 48 0 48 0px gap 48px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+      - INSTANCE ".title", 1000x58px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Bubble对话气泡", 96x32px, constraints left/top, fill #000000E0, text [Heading/3], [heading]
+        - TEXT "用于聊天的气泡组件。", 1000x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "DEMO", 1000x120px, vertical pad 32 32 32 32px gap 10px sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #F0F0F0 1px
+        - INSTANCE "*Sender*", 936x56px, vertical pad 0 0 12 0px gap 0px align center/max sizing W:fill H:fixed, constraints left/top, radius 12px, fill #FFFFFF, stroke #D9D9D9 1px, effect boxShadowTertiary
+          - FRAME "wrapper", 936x44px, horizontal pad 12 12 0 16px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, stroke #D9D9D9 1px
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px
+            - TEXT "输入 / 获取建议", 828x22px, constraints left/top, fill #00000040, text [Base/Normal]
+            - INSTANCE "*Button*", 32x32px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top, radius 999px, fill #BAE0FF
+  - INSTANCE ".brand", 1200x96px, vertical pad 32 100 32 100px gap 0px sizing W:fill H:fixed, constraints left/top, stroke #0000000F 1px
+    - FRAME "header", 1000x32px, horizontal pad 0 0 0 0px gap 112px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - TEXT "Ant Design X", 85x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE ".logo", 32x32px, constraints left/top, fill #FFFFFF
+        - GROUP "页面-1", 32x32px, constraints scale/scale [decorative, ~5 shapes]
+      - TEXT "https://x.ant.design", 129x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+
+Screen: ✲  Components / *Welcom*
+- SECTION "*Welcom*", 896x620px, fill #FFFFFF
+  - COMPONENT_SET "*Welcom*", 696x404px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "variant=filled", 656x82px, horizontal pad 12 16 12 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #0000000F
+      - RECTANGLE "image 1", 53x58px, constraints left/top, fill image(hash: b592500ebe6e23a05ec61f851d41c705b3dfc21e)
+      - FRAME "Frame 4", 555x58px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "title", 555x28px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Hello, I'm Ant Design X", 555x28px, constraints left/top, fill #000000E0, text [Heading/4], [heading]
+        - TEXT "Base on Ant Design, AGI product interface solution, create a", 555x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - COMPONENT "variant=borderless", 624x58px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 8px
+      - RECTANGLE "image 1", 53x58px, constraints left/top, fill image(hash: b592500ebe6e23a05ec61f851d41c705b3dfc21e)
+      - FRAME "Frame 4", 555x58px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "title", 555x28px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Hello, I'm Ant Design X", 555x28px, constraints left/top, fill #000000E0, text [Heading/4], [heading]
+        - TEXT "Base on Ant Design, AGI product interface solution, create a", 555x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - COMPONENT "variant=custom-light", 656x82px, horizontal pad 12 16 12 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%)
+      - RECTANGLE "image 1", 53x58px, constraints left/top, fill image(hash: b592500ebe6e23a05ec61f851d41c705b3dfc21e)
+      - FRAME "Frame 4", 555x58px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "title", 555x28px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Hello, I'm Ant Design X", 555x28px, constraints left/top, fill #000000E0, text [Heading/4], [heading]
+        - TEXT "Base on Ant Design, AGI product interface solution, create a", 555x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - COMPONENT "variant=custom-dark", 656x82px, horizontal pad 12 16 12 16px gap 16px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #141414
+      - RECTANGLE "image 1", 53x58px, constraints left/top, fill image(hash: b592500ebe6e23a05ec61f851d41c705b3dfc21e)
+      - FRAME "Frame 4", 555x58px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "title", 555x28px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Hello, I'm Ant Design X", 555x28px, constraints left/top, fill #FFFFFF, text [Heading/4], [heading]
+        - TEXT "Base on Ant Design, AGI product interface solution, create a", 555x22px, constraints left/top, fill #FFFFFF, text [Base/Normal]
+
+Screen: ✲  Components / *Prompts*
+- SECTION "*Prompts*", 1240x2022px, fill #FFFFFF
+  - COMPONENT_SET "*Prompts* / item", 549x296px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "state=default, description=true", 277x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+      - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 8.97x12.25px, constraints scale/scale, fill #FADB14
+      - FRAME "wrapper", 223x48px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Ignite Your Creativity", 223x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+        - TEXT "Got any sparks for a new project?", 223x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - COMPONENT "state=default, description=false", 192x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+      - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 8.97x12.25px, constraints scale/scale, fill #FADB14
+      - TEXT "Ignite Your Creativity", 138x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - COMPONENT "state=hover, description=true", 277x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000A, stroke #F0F0F0 1px
+      - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 8.97x12.25px, constraints scale/scale, fill #FADB14
+      - FRAME "wrapper", 223x48px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Ignite Your Creativity", 223x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+        - TEXT "Got any sparks for a new project?", 223x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - COMPONENT "state=hover, description=false", 192x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000A, stroke #F0F0F0 1px
+      - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 8.97x12.25px, constraints scale/scale, fill #FADB14
+      - TEXT "Ignite Your Creativity", 138x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - COMPONENT "state=disabled, description=true", 277x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000A, stroke #F0F0F0 1px
+      - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 8.97x12.25px, constraints scale/scale, fill #FADB14
+      - FRAME "wrapper", 223x48px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Ignite Your Creativity", 223x22px, constraints left/top, fill #00000073, text [Base/Strong]
+        - TEXT "Got any sparks for a new project?", 223x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - COMPONENT "state=disabled, description=false", 192x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #0000000A, stroke #F0F0F0 1px
+      - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 8.97x12.25px, constraints scale/scale, fill #FADB14
+      - TEXT "Ignite Your Creativity", 138x22px, constraints left/top, fill #00000073, text [Base/Normal]
+  - COMPONENT "*Prompts* / custom", 297x246px, vertical pad 12 16 12 16px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%)
+    - FRAME "Frame 7", 265x22px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 8.97x12.25px, constraints scale/scale, fill #FADB14
+      - TEXT "Ignite Your Creativity", 243x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+    - TEXT "Got any sparks for a new project?", 265x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - FRAME "list", 265x170px, vertical pad 8 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "*Prompts* / custom-item", 265x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/comment", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Know the well", 211x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / custom-item", 265x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/comment", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Know the well", 211x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / custom-item", 265x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "icon/comment", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Know the well", 211x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+  - COMPONENT "*Prompts* / custom-list", 1040x246px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "*Prompts* / custom", 338.67x246px, vertical pad 12 16 12 16px gap 4px sizing W:fill H:fill, constraints left/top, radius 8px, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%)
+      - FRAME "Frame 7", 306.67x22px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / FireOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 284.67x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+      - TEXT "Got any sparks for a new project?", 306.67x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "list", 306.67x170px, vertical pad 8 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "*Prompts* / custom-item", 306.67x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+          - TEXT "Know the well", 274.67x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+        - INSTANCE "*Prompts* / custom-item", 306.67x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+          - TEXT "Know the well", 274.67x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+        - INSTANCE "*Prompts* / custom-item", 306.67x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+          - TEXT "Know the well", 274.67x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - INSTANCE "*Prompts* / custom", 338.67x246px, vertical pad 12 16 12 16px gap 4px sizing W:fill H:fill, constraints left/top, radius 8px, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%)
+      - FRAME "Frame 7", 306.67x22px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / ReadOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 284.67x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+      - TEXT "Got any sparks for a new project?", 306.67x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "list", 306.67x170px, vertical pad 8 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "*Prompts* / custom-item", 306.67x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+          - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - TEXT "Know the well", 252.67x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+        - INSTANCE "*Prompts* / custom-item", 306.67x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+          - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - TEXT "Know the well", 252.67x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+        - INSTANCE "*Prompts* / custom-item", 306.67x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+          - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+          - TEXT "Know the well", 252.67x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - INSTANCE "*Prompts* / custom", 338.67x246px, vertical pad 12 16 12 16px gap 4px sizing W:fill H:fill, constraints left/top, radius 8px, fill gradient_linear(#E6F4FF 0% | #F9F0FF 100%)
+      - FRAME "Frame 7", 306.67x22px, horizontal pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / RocketOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 284.67x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+      - TEXT "Got any sparks for a new project?", 306.67x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - FRAME "list", 306.67x164px, vertical pad 8 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "*Prompts* / custom-item", 306.67x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+          - FRAME "wrapper", 274.67x48px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Fast Start", 274.67x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "Install Ant Design X", 274.67x22px, constraints left/top, fill #00000073, text [Base/Normal]
+        - INSTANCE "*Prompts* / custom-item", 306.67x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fill H:fixed, constraints left/top, radius 8px, fill #FFFFFF73, stroke #FFFFFF 1px
+          - FRAME "wrapper", 274.67x48px, vertical pad 0 0 0 0px gap 4px align center/center sizing W:fill H:fixed, constraints left/top
+            - TEXT "Fast Start", 274.67x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+            - TEXT "Install Ant Design X", 274.67x22px, constraints left/top, fill #00000073, text [Base/Normal]
+  - COMPONENT_SET "*Prompts* / list", 1040x794px, vertical pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "arrangement=horizontal", 1000x72px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "*Prompts* / item", 277x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - FRAME "wrapper", 223x48px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ignite Your Creativity", 223x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+          - TEXT "Got any sparks for a new project?", 223x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 379x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / InfoCircleOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - FRAME "wrapper", 325x48px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ignite Your Creativity", 325x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+          - TEXT "Got any sparks for a new project?", 325x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 277x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / RocketOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - FRAME "wrapper", 223x48px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ignite Your Creativity", 223x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+          - TEXT "Got any sparks for a new project?", 223x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 461x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / SmileOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - FRAME "wrapper", 407x48px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ignite Your Creativity", 407x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+          - TEXT "Got any sparks for a new project?", 407x22px, constraints left/top, fill #00000073, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 367x72px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / WarningOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - FRAME "wrapper", 313x48px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Ignite Your Creativity", 313x22px, constraints left/top, fill #000000E0, text [Base/Strong]
+          - TEXT "Got any sparks for a new project?", 313x22px, constraints left/top, fill #00000073, text [Base/Normal]
+    - COMPONENT "arrangement=wrap", 1000x104px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "*Prompts* / item", 192x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 138x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 220x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / InfoCircleOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 166x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 203x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / RocketOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 149x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 150x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / SmileOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 96x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 215x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / WarningOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 161x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+    - COMPONENT "arrangement=vertical", 1000x278px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "*Prompts* / item", 192x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / BulbOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 138x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 220x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / InfoCircleOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 166x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 203x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / RocketOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 149x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 150x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icon / SmileOutlined", 14x14px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Ignite Your Creativity", 96x22px, constraints left/top, fill #000000E0, text [Base/Normal]
+      - INSTANCE "*Prompts* / item", 215x46px, horizontal pad 12 16 12 16px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #FFFFFF, stroke #F0F0F0 1px
+        - FRAME "icon", 14x22px, horizontal pad 4 0 4 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "*NestedIcon*", 14x14px, constraints left/top, fill #FFFFFF
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

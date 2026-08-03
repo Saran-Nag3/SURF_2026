@@ -1,0 +1,1554 @@
+---
+name: ethereum-org-design-system-community
+source_file: ethereum.org Design System (Community)
+source_page: All pages (36): Cover, Read me , 📝 Release notes, Component index, ✃- - - - Foundations - - - , Foundations / Brand, Foundations / Typography, Foundations / Color, Foundations / Illustrations, Foundations / Spacing, Foundations / icons, ✃- - - -  Base Components - - - , Base Components / Social media links, Base Components / Forms, Base Components / Tooltips, Base Components / Buttons, Base Components / Avatar, Base Components / Tags, Base Components / Navigation, Base Components / Accordions, Base Components / Tables, Base Components / Alerts, ✃- - - -  Composed Components - - - , Composed Components / search, Composed Components / Header, Composed Components / Modal, Composed Components / Hero, Composed Components / Footer, Composed Components / FAQ, Composed Components / Slider, Composed Components / Tabs, Composed Components / Full grid section, ✃- - - - Layouts - - - , Layouts / Base layout, Layouts / Markdown pages layout,  
+generated_at: 2026-07-25T09:37:38.233162+00:00
+---
+
+# ethereum.org Design System (Community) Design Guidelines
+
+## Source
+- Figma file: ethereum.org Design System (Community)
+- Figma page: All pages (36): Cover, Read me , 📝 Release notes, Component index, ✃- - - - Foundations - - - , Foundations / Brand, Foundations / Typography, Foundations / Color, Foundations / Illustrations, Foundations / Spacing, Foundations / icons, ✃- - - -  Base Components - - - , Base Components / Social media links, Base Components / Forms, Base Components / Tooltips, Base Components / Buttons, Base Components / Avatar, Base Components / Tags, Base Components / Navigation, Base Components / Accordions, Base Components / Tables, Base Components / Alerts, ✃- - - -  Composed Components - - - , Composed Components / search, Composed Components / Header, Composed Components / Modal, Composed Components / Hero, Composed Components / Footer, Composed Components / FAQ, Composed Components / Slider, Composed Components / Tabs, Composed Components / Full grid section, ✃- - - - Layouts - - - , Layouts / Base layout, Layouts / Markdown pages layout,  
+- Extracted at: 2026-07-25T09:37:38.233162+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Light Theme/Body: none
+- final/light/primary: none
+- Dark Theme/Gradient A: [#1E1E1E, gradient_linear(#7F7FD533 0% | #8AA8E733 52% | #91EAE433 100%)]
+- white: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 2435 uses
+- #222222: 1825 uses
+- #1616B4: 1045 uses
+- #000000: 966 uses
+- #C9B3F5: 349 uses
+- #F0CDC2: 349 uses
+- #1C1CFF: 292 uses
+- #88AAF1: 175 uses
+- #B8FAF6: 175 uses
+- #B8FBF6: 148 uses
+- #4A2502: 116 uses
+- #87A9F0: 73 uses
+- #646464: 65 uses
+- #B0B0B0: 54 uses
+
+## Typography Tokens
+- Text/sm: Inter Regular (400), 14px / 132.21%, tracking 0px
+- Text/md: Inter Regular (400), 16px / 132.21%, tracking 0px
+- Heading Large/sm: Inter Bold (700), 16px / 132.21%, tracking 0px
+- Text/sm - i: Inter Regular (400), 14px / 132.21%, tracking 0px
+- Text/xs: Inter Regular (400), 12px / 132.21%, tracking 0px
+- Text/md -b: Inter Bold (700), 16px / 132.21%, tracking 0px
+- Heading Large/xl: Inter Bold (700), 36px / 99.15%, tracking 0px
+- Tags text: Inter Medium (500), 12px / 99.15%, tracking 0px
+- Text/5xl - b: Inter Bold (700), 48px / 99.15%, tracking 0px
+- Text/lg: Inter Regular (400), 18px / 132.21%, tracking 0px
+- Heading Large/2xl: Inter Bold (700), 48px / 95.02%, tracking 0px
+- Heading Small/md: Inter Bold (700), 20px / 115.68%, tracking 0px
+- Text/xl -b: Inter Bold (700), 20px / 123.94%, tracking 0px
+- Text/xs - i: Inter Regular (400), 12px / 132.21%, tracking 0px
+- Text/2xl - b: Inter Bold (700), 24px / 123.94%, tracking 0px
+- Text/lg -b: Inter Bold (700), 18px / 132.21%, tracking 0px
+- Heading Large/4xl: Inter Bold (700), 72px / 90.89%, tracking 0px
+- Heading Large/md: Inter Bold (700), 20px / 115.68%, tracking 0px
+- Text/xl - i: Inter Regular (400), 20px / 123.94%, tracking 0px
+- Text/4xl - b: Inter Bold (700), 36px / 123.94%, tracking 0px
+- Heading Small/2xl: Inter Bold (700), 32px / 99.15%, tracking 0px
+- Heading Large/lg: Inter Bold (700), 26px / 111.55%, tracking 0px
+- Text/xl: Inter Regular (400), 20px / 123.94%, tracking 0px
+- Text/md - i: Inter Regular (400), 16px / 132.21%, tracking 0px
+- Heading Small/xl: Inter Bold (700), 28px / 111.55%, tracking 0px
+- Text/lg: Inter Regular (400), 16px / 132.21%, tracking 0px
+- Text/3xl - i: Inter Regular (400), 30px / 123.94%, tracking 0px
+- final/footnote text: Inter Regular (400), 12px / 22px, tracking 0px
+- final/text: Inter Regular (400), 16px / 26px, tracking 0px
+- Text/sm - b: Inter Bold (700), 14px / 132.21%, tracking 0px
+- Text/md - link: Inter Regular (400), 16px / 132.21%, tracking 0px
+- Text/xs - link: Inter Regular (400), 12px / 132.21%, tracking 0px
+- Text/5xl: Inter Regular (400), 48px / 99.15%, tracking 0px
+- Heading Large/xs: Inter Bold (700), 14px / 132.21%, tracking 0px
+- Text/Monospace Block code: IBM Plex Mono Regular (400), 16px / 123.08%, tracking 0px
+- Text/Monospace Code snipts: IBM Plex Mono Regular (400), 14px / 123.08%, tracking 0px
+- Heading Small/xs: Inter Bold (700), 14px / 132.21%, tracking 0px
+- Heading Small/sm: Inter Bold (700), 16px / 132.21%, tracking 0px
+- Heading Small/lg: Inter Bold (700), 24px / 111.55%, tracking 0px
+- Text/sm - link: Inter Regular (400), 14px / 132.21%, tracking 0px
+- Text/lg - link: Inter Regular (400), 18px / 132.21%, tracking 0px
+- Text/xl - link: Inter Regular (400), 20px / 123.94%, tracking 0px
+- Text/2xl - link: Inter Regular (400), 24px / 123.94%, tracking 0px
+- Text/3xl - link: Inter Regular (400), 30px / 123.94%, tracking 0px
+- Text/4xl - link: Inter Regular (400), 36px / 123.94%, tracking 0px
+- Text/5xl - link: Inter Regular (400), 48px / 99.15%, tracking 0px
+- Text/6xl - link: Inter Regular (400), 60px / 99.15%, tracking 0px
+- Text/2xl: Inter Regular (400), 24px / 123.94%, tracking 0px
+- Text/3xl: Inter Regular (400), 30px / 123.94%, tracking 0px
+- Text/4xl: Inter Regular (400), 36px / 123.94%, tracking 0px
+- Text/6xl: Inter Regular (400), 60px / 99.15%, tracking 0px
+- Heading Large/3xl: Inter Bold (700), 60px / 95.02%, tracking 0px
+- Heading Small/4xl: Inter Bold (700), 60px / 90.89%, tracking 0px
+- Heading Small/3xl: Inter Bold (700), 48px / 90.89%, tracking 0px
+- Text/lg - i: Inter Regular (400), 18px / 132.21%, tracking 0px
+- Text/2xl - i: Inter Regular (400), 24px / 123.94%, tracking 0px
+- Text/4xl - i: Inter Regular (400), 36px / 123.94%, tracking 0px
+- Text/5xl - i: Inter Regular (400), 48px / 99.15%, tracking 0px
+- Text/6xl - i: Inter Regular (400), 60px / 99.15%, tracking 0px
+- Text/xs -b: Inter Bold (700), 12px / 132.21%, tracking 0px
+- Text/3xl - b: Inter Bold (700), 30px / 123.94%, tracking 0px
+- Text/6xl - b: Inter Bold (700), 60px / 99.15%, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Light, 12px: 1504 uses
+- Inter Regular, 16px: 571 uses
+- Inter Regular, 14px: 153 uses
+- SF Mono Regular, 16px: 102 uses
+- Inter Regular, 6px: 92 uses
+- Inter Regular, 8px: 86 uses
+- Inter Bold, 36px: 40 uses
+- Inter Bold, 8px: 23 uses
+- Inter Regular, 70px: 18 uses
+- Inter Bold, 24px: 15 uses
+
+## Typography Hierarchy
+- 72px - Heading Large/4xl (Inter Bold)
+- 70px - Inter Regular, 70px (raw)
+- 60px - Heading Large/3xl (Inter Bold)
+- 60px - Heading Small/4xl (Inter Bold)
+- 60px - Text/6xl (Inter Regular)
+- 60px - Text/6xl - b (Inter Bold)
+- 60px - Text/6xl - i (Inter Regular)
+- 60px - Text/6xl - link (Inter Regular)
+- 48px - Heading Large/2xl (Inter Bold)
+- 48px - Heading Small/3xl (Inter Bold)
+- 48px - Text/5xl (Inter Regular)
+- 48px - Text/5xl - b (Inter Bold)
+- 48px - Text/5xl - i (Inter Regular)
+- 48px - Text/5xl - link (Inter Regular)
+- 36px - Heading Large/xl (Inter Bold)
+- 36px - Inter Bold, 36px (raw)
+- 36px - Text/4xl (Inter Regular)
+- 36px - Text/4xl - b (Inter Bold)
+- 36px - Text/4xl - i (Inter Regular)
+- 36px - Text/4xl - link (Inter Regular)
+- 32px - Heading Small/2xl (Inter Bold)
+- 30px - Text/3xl (Inter Regular)
+- 30px - Text/3xl - b (Inter Bold)
+- 30px - Text/3xl - i (Inter Regular)
+- 30px - Text/3xl - link (Inter Regular)
+- 28px - Heading Small/xl (Inter Bold)
+- 26px - Heading Large/lg (Inter Bold)
+- 24px - Heading Small/lg (Inter Bold)
+- 24px - Inter Bold, 24px (raw)
+- 24px - Text/2xl (Inter Regular)
+- 24px - Text/2xl - b (Inter Bold)
+- 24px - Text/2xl - i (Inter Regular)
+- 24px - Text/2xl - link (Inter Regular)
+- 20px - Heading Large/md (Inter Bold)
+- 20px - Heading Small/md (Inter Bold)
+- 20px - Text/xl (Inter Regular)
+- 20px - Text/xl - i (Inter Regular)
+- 20px - Text/xl - link (Inter Regular)
+- 20px - Text/xl -b (Inter Bold)
+- 18px - Text/lg (Inter Regular)
+- 18px - Text/lg - i (Inter Regular)
+- 18px - Text/lg - link (Inter Regular)
+- 18px - Text/lg -b (Inter Bold)
+- 16px - Heading Large/sm (Inter Bold)
+- 16px - Heading Small/sm (Inter Bold)
+- 16px - Inter Regular, 16px (raw)
+- 16px - SF Mono Regular, 16px (raw)
+- 16px - Text/Monospace Block code (IBM Plex Mono Regular)
+- 16px - Text/lg (Inter Regular)
+- 16px - Text/md (Inter Regular)
+- 16px - Text/md - i (Inter Regular)
+- 16px - Text/md - link (Inter Regular)
+- 16px - Text/md -b (Inter Bold)
+- 16px - final/text (Inter Regular)
+- 14px - Heading Large/xs (Inter Bold)
+- 14px - Heading Small/xs (Inter Bold)
+- 14px - Inter Regular, 14px (raw)
+- 14px - Text/Monospace Code snipts (IBM Plex Mono Regular)
+- 14px - Text/sm (Inter Regular)
+- 14px - Text/sm - b (Inter Bold)
+- 14px - Text/sm - i (Inter Regular)
+- 14px - Text/sm - link (Inter Regular)
+- 12px - Inter Light, 12px (raw)
+- 12px - Tags text (Inter Medium)
+- 12px - Text/xs (Inter Regular)
+- 12px - Text/xs - i (Inter Regular)
+- 12px - Text/xs - link (Inter Regular)
+- 12px - Text/xs -b (Inter Bold)
+- 12px - final/footnote text (Inter Regular)
+- 8px - Inter Bold, 8px (raw)
+- 8px - Inter Regular, 8px (raw)
+- 6px - Inter Regular, 6px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Light/Tooltip drop shadow: [drop_shadow 16px offset 0 0 #00000040]
+- Dark/Button hover shadow: [drop_shadow 0px offset 4 4 #352313]
+- Light/Button hover shadow: [drop_shadow 0px offset 4 4 #EBEBFF]
+- menu shadow light: [drop_shadow 4px offset 0 3 #55555533]
+- accordeom  inner shadow: [inner_shadow 2px offset 0 2 #0000001F, inner_shadow 2px offset 0 -3 #00000024]
+- Light/Button hover shadow: [drop_shadow 0px offset 4 4 #DEDEFF]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- glyph
+- body text base
+- Heading base
+- List
+- big numers text
+- body text normal
+- blockquote
+- Find wallet illustration
+- Image placeholder
+- Raw image place holder
+- stake
+- stake-as-a-service
+- solo-staking
+- pooled-staking
+- find-wallet-hero
+- defi-patrick-atkins
+- core-beacon-chain
+- mainnet
+- eth-main-image
+- ethereum-bazaar
+- wallet
+- hackathon_transparent
+- future_transparent
+- dao-patrick-atkins
+- sharding-new-rings
+- merge
+- impact_transparent
+- finance_transparent
+- infrastructure_transparent
+- enterprise-eth
+- developers-eth-block
+- doge-computer
+- Ethereum.org Hero
+- key [
+- Users
+- external link
+- minus
+- close
+- plus
+- chevron down
+- chevron up
+- chevron right
+- chevron left
+- warning icon
+- tooltop icon
+- search
+- place holder
+- Discord
+- Youtube
+- Twitter
+- Github
+- hamburger menu
+- dark theme switcher
+- light theme switch
+- languages
+- social-media-menu
+- dropdown option
+- checkbox
+- base input elements
+- Dropdown
+- switch
+- input text
+- dropdown group
+- tooltop
+- button
+- two line button content
+- button content
+- Avar group
+- Avatar
+- Avatar + Profile link
+- Tag
+- Breadcrumb-nav
+- Table of Content mobile
+- table of content links
+- Page Indicator
+- content index link list
+- Table of Content Sidebar
+- Left sidebar navigation Mobile
+- Left sidebar navigation Desktop
+- Page Indicators
+- Simple accordion
+- Accordeon link
+- table
+- table row
+- table cell
+- Alert
+- Base Alert
+- search line
+- search input
+- search modal window
+- Languages single item
+- mobile item1
+- Main manu
+- fourth level pages link
+- third level pages link
+- menu 2 level item
+- service-link
+- nav-link
+- Left-header-container
+- Right-header-container
+- Header
+- Lamguages dropdown component
+- icon -
+- icon +
+- full mobile menu
+- fourth level
+- therd level
+- second level
+- nav-menu
+- Modal content - base
+- Base
+- hero big numbers
+- Hero
+- hero content
+- Footer
+- footer Link
+- footer links
+- footer footer
+- Footer links column
+- FAQ
+- final cponent
+- SliderV2
+- Tabs
+- Complete section
+- section content
+- text content
+- layout
+- Delete this for real content
+- Markdown content container
+- Md pages action container
+- doc navigate next and previous
+
+## Component Specs
+- glyph: size 355.34x565.71px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed
+- body text base: size 480x130px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Text/md] | variants: screen size: Desktop/Mobile
+- Heading base: size 464x55px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Heading Large/2xl] | variants: screen size: Desktop/Mobile; size: H1/H2/H3/H4/H5/H6
+- List: size 480x314px, horizontal layout, padding 8 8 8 8px, gap 0px, sizing W:fixed H:fixed, text [Inter Regular, 16px] | variants: type: Ordered Lists/Unordered Lists; Screen size: Desktop/Mobile
+- big numers text: size 192x129px, text [Text/sm, Text/md, Text/5xl - b] | variants: type: Default/Error
+- body text normal: size 414x156px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Text/md]
+- blockquote: size 672x142px, vertical layout, padding 0 32 0 32px, gap 16px, sizing W:fixed H:fixed, stroke #616161 1px, text [Text/sm, Text/md - i]
+- Find wallet illustration: size 1428x732px
+- Image placeholder: size 650x435px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Text/sm - i, Heading Large/sm]
+- Raw image place holder: size 235x66px, vertical layout, padding 10 10 10 10px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #E7E7E7, text [Heading Large/sm]
+- stake: size 784x654px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- stake-as-a-service: size 1293x849px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- solo-staking: size 902x954px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- pooled-staking: size 1175x841px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- find-wallet-hero: size 1062x518.5px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- defi-patrick-atkins: size 1000x838px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- core-beacon-chain: size 1000x644px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- mainnet: size 1000x744px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- eth-main-image: size 1000x731px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- ethereum-bazaar: size 1000x840px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- wallet: size 790x996px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF
+- hackathon_transparent: size 1000x666px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- future_transparent: size 840x784px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- dao-patrick-atkins: size 1000x1000px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- sharding-new-rings: size 1000x610px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- merge: size 1000x753px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- impact_transparent: size 1000x902px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- finance_transparent: size 1000x1021px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- infrastructure_transparent: size 1000x1093px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- enterprise-eth: size 1000x685px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- developers-eth-block: size 1000x715px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- doge-computer: size 1000x716px, vertical layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF
+- Ethereum.org Hero: size 1996x840px, fill #FFFFFF
+- key [/]: size 24x24px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, stroke #1B1B1B 1px | variants: size: large/small; key: //k/⌘
+- Users: size 24x24px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- external link: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- minus / close: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- close: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- plus / open: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- chevron down: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- chevron up: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- chevron right: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- chevron left: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed
+- warning icon: size 24x24px, horizontal layout, padding 6 6 6 6px, gap 0px, align center/center, sizing W:fixed H:fixed
+- tooltop icon: size 24x24px, horizontal layout, padding 6 6 6 6px, gap 0px, sizing W:fixed H:fixed
+- search: size 23.49x23.49px, horizontal layout, padding 3 3 3 3px, gap 0px, sizing W:fixed H:fixed
+- place holder: size 26x26px, horizontal layout, padding 4 4 4 4px, gap 0px, sizing W:fixed H:fixed
+- Discord: size 36x36px, horizontal layout, padding 7.5 4 7.5 4px, gap 0px, sizing W:fixed H:fixed
+- Youtube: size 36x36px, horizontal layout, padding 8 4 8 4px, gap 0px, sizing W:fixed H:fixed
+- Twitter: size 36x36px, horizontal layout, padding 6.5 4 6.5 4px, gap 0px, sizing W:fixed H:fixed
+- Github: size 36x36px, horizontal layout, padding 4 4 4 4px, gap 0px, sizing W:fixed H:fixed
+- hamburger menu: size 24x24px, horizontal layout, padding 6 3 6 3px, gap 0px, sizing W:fixed H:fixed
+- dark theme switcher: size 24x24px, horizontal layout, padding 3 5 3 5px, gap 0px, sizing W:fixed H:fixed
+- light theme switch: size 24x24px, horizontal layout, padding 3 3 3 3px, gap 0px, sizing W:fixed H:fixed
+- languages: size 27x28px, horizontal layout, padding 3 3 3 3px, gap 0px, sizing W:fixed H:fixed, text [SF Compact Text Semibold, 9px, SF Compact Text Semibold, 13.5px]
+- social-media-menu: size 140x36px, horizontal layout, padding 0 0 0 0px, gap 16px, align min/center, sizing W:fixed H:fixed | variants: state: Default/disable/focus/hover/visited
+- dropdown option: size 223x38px, horizontal layout, padding 8 8 8 8px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Text/sm] | variants: state: Default/active/focus/hover
+- checkbox: size 16x16.01px, radius 2px, vertical layout, padding 5 4 5 4px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #616161 1px | variants: state: Default/Disable checked/Error/active/disable uncked/focus/hover/state8
+- base input elements: size 138x26px, horizontal layout, padding 0 0 0 0px, gap 16px, align space_between/min, sizing W:fixed H:fixed, text [Text/md] | variants: size: Large/small
+- Dropdown: size 254.53x42px, radius 4/4/0/0px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #616161 1px, text [Text/md] | variants: state: active/default/focus/hover/is open/is open and group; type: full border/simple border
+- switch: size 26x16px | variants: State: Checked and hover/Disable/Disable checked/Focus/Hover/Normal/checked/error; Type: Switch/radio
+- input text: size 154x42px, radius 4px, horizontal layout, padding 8 8 8 8px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #1B1B1B 1px, text [Text/md] | variants: State: Default/active/disable/focus/hover; Size: Regular/Small
+- dropdown group: size 239x153px, vertical layout, padding 8 8 8 8px, gap 4px, sizing W:fixed H:fixed, stroke #EBEBFF 1px, text [Text/sm, Text/xs]
+- tooltop: size 24x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF | variants: state: active/close/focus/hover/open
+- button (Base Components / Buttons): size 320x77px, radius 4px, horizontal layout, padding 16 16 16 16px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #1C1CFF, stroke #FFFFFF 1px, text [Text/xs, Text/md] | variants: type: primary outline/primary solid/secondary outline; size: lg/sm
+- two line button content: size 215x45px, horizontal layout, padding 0 0 0 0px, gap 8px, align center/center, sizing W:fixed H:fixed, text [Text/xs, Text/md] | variants: variation: text variant 1/text variant 2; icon placement: left/right
+- button content: size 159x26px, horizontal layout, padding 0 0 0 0px, gap 8px, align center/center, sizing W:fixed H:fixed, text [Text/md] | variants: size: regular/small
+- button (Base Components / Buttons): size 123x42px, radius 4px, horizontal layout, padding 8 16 8 16px, gap 10px, align center/center, sizing W:fixed H:fixed, stroke #1B1B1B 1px, text [Text/md] | variants: Type: Primary Ghost/Primary Link/Primary Outline/Primary Solid/Secondary Ghost/Secondary Outline; State: Active/Default/Disable/Focus/Hover; Size: Regular/Small
+- Avar group: size 93x28px, fill #FFFFFF, text [Inter Regular, 9px] | variants: size: sm/xs
+- Avatar: size 48x48px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed | variants: size: lg (4rem/64px)/md (3rem/48px)/sm (2rem/32px)/xs (1.5rem/26px); state: Default/active/focus/hover
+- Avatar + Profile link: size 82x59px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Text/xs] | variants: position: horizontal/vertical; size: md/sm/xs
+- Avar group/size4: size 93x28px, fill #FFFFFF, text [Inter Regular, 9px]
+- Tag: size 161x32px, radius 84px, horizontal layout, padding 4 8 4 8px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #F7F7F7, text [Inter Light, 12px, Tags text] | variants: Type: Error/Normal/Success/Tag/Warning; Version: High Contrast/Outline/Solid/Subtle; State: Active/Default/Hover/focus
+- Breadcrumb-nav: size 229x26px, horizontal layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, text [Inter Regular, 16px] | variants: Level: 0 level/1 level/2 levels/3 levels
+- Table of Content mobile: size 461x666px, vertical layout, padding 0 0 0 0px, gap 1px, sizing W:fixed H:fixed, text [Text/sm, Text/md] | variants: State: Close/Open
+- table of content links: size 121x38px, horizontal layout, padding 8 8 8 16px, gap 0px, sizing W:fixed H:fixed, text [Text/sm] | variants: Level: Level 1/Level 2/Level 3/Level 4; State: Active/Default/Hover
+- Page Indicator: size 16x16px, fill #FFFFFF | variants: state: Default/active page/focus/hover
+- content index link list: size 145x452px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, stroke #616161 1px, text [Text/sm]
+- Table of Content Sidebar: size 192x490px, vertical layout, padding 0 0 0 0px, gap 32px, sizing W:fixed H:fixed, text [Text/sm]
+- Left sidebar navigation Mobile: size 320x767px, vertical layout, padding 0 0 0 0px, gap 31px, align center/min, sizing W:fixed H:fixed, text [Text/md, Heading Small/md, Text/xl -b]
+- Left sidebar navigation Desktop: size 256x742px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Text/md, Heading Small/md]
+- Page Indicators: size 128x32px, horizontal layout, padding 8 8 8 8px, gap 16px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF
+- Simple accordion : size 300x58px, vertical layout, padding 8 16 8 16px, gap 16px, align center/min, sizing W:fixed H:fixed, text [Text/sm, Text/md] | variants: open/close: close/open; Device: Dektop/Mobile; Style: Link highlight/content highlight/second level accordeon
+- Accordeon link: size 298x42px, horizontal layout, padding 8 16 8 16px, gap 8px, align space_between/center, sizing W:fixed H:fixed, text [Text/md] | variants: State: Active last level/Active top level/Default/Diasable/Focus/Hover; Device: Desktop/Mobile
+- table: size 760x306px, vertical layout, padding 16 16 16 16px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/sm, Text/md -b] | variants: type: Simple/minimal; row type: clean/strped; Is numeric: no/yes
+- table row: size 698x58px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #F7F7F7, stroke #1B1B1B 1px, text [Text/md -b] | variants: type: default table head/default table row/hover/minimal table head/stripped odd background
+- table cell: size 178x54px, horizontal layout, padding 16 16 16 16px, gap 0px, sizing W:fixed H:fixed, stroke #FFFFFF 1px, text [Text/sm] | variants: Type: Head cell/Normal cell/numbers
+- Alert: size 863x58px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, fill #F7C8C8, text [Text/md] | variants: status: error/info/success/update/warning; Variant: solid/subtle; state: Default/hover
+- Base Alert: size 676x58px, horizontal layout, padding 16 16 16 16px, gap 16px, align min/center, sizing W:fixed H:fixed, text [Text/md]
+- search line: size 500x64px, horizontal layout, padding 8 16 8 16px, gap 18px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #8C8C8C 2px, text [final/footnote text, final/text] | variants: state: Default/hover
+- search input: size 160x42px, radius 4px, horizontal layout, padding 10 10 10 10px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #8C8C8C 1px, text [Text/sm] | variants: state: Default/hover
+- search modal window: size 564x635px, radius 4px, vertical layout, padding 32 32 0 32px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/xs, final/footnote text, final/text, Text/sm - b, Text/md, Text/md - link, Text/sm]
+- Languages single item: size 226x93px, radius 4px, vertical layout, padding 12 12 12 12px, gap 0px, align center/min, sizing W:fixed H:fixed, text [Text/xs, Text/sm, Text/lg] | variants: state: Default/active/default browser/hover
+- mobile item1: size 345x61px, vertical layout, padding 16 8 16 8px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E7E7E7 1px, text [Text/lg -b] | variants: state: close/open; level: level 1/level 2/level 3/level 4; Variation: accordeon/link
+- Main manu: size 1400x432px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E7E7E7 1px, effect menu shadow light, text [Text/sm, Text/md -b] | variants: level: level 2/level 3/level 4
+- fourth level pages link: size 330x80px, radius 4px, vertical layout, padding 16 16 16 16px, gap 0px, sizing W:fixed H:fixed, text [Text/sm, Text/md -b] | variants: variant: sub-text above/sub-text bellow; state: Default/active/hover; Variant 2: Link to page
+- third level pages link: size 301x80px, radius 4px, vertical layout, padding 16 16 16 16px, gap 0px, sizing W:fixed H:fixed, text [Text/sm, Text/md -b] | variants: variant: sub-text above/sub-text bellow; state: Default/active/focus/hover; Variant 2: Link to page/with sub-options
+- menu 2 level item: size 298x80px, radius 4/0/0/4px, horizontal layout, padding 16 24 16 24px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Text/sm, Text/md -b] | variants: Variation: Link to page/With sub-options; state: Default/active/focus/hover
+- service-link: size 82x42px, radius 4px, horizontal layout, padding 8 12 8 12px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Text/md] | variants: state: active/default/disable/focus/hover; screen size: desktop/mobile
+- nav-link: size 58x42px, radius 2px, horizontal layout, padding 8 16 8 16px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Text/md] | variants: state: active/default/focus/hover/is open; screen size: desktop
+- Left-header-container: size 513x42px, horizontal layout, padding 0 0 0 0px, gap 32px, align min/center, sizing W:fixed H:fixed, text [Text/md] | variants: variant: desktop/mobile
+- Right-header-container: size 388x44px, horizontal layout, padding 0 0 0 0px, gap 12px, align max/center, sizing W:fixed H:fixed, text [Text/md, SF Compact Text Semibold, 9px, SF Compact Text Semibold, 13.5px, Text/sm] | variants: variant: lg/md/mobile/xl
+- Header: size 1798x72px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, stroke #8C8C8C 1px, text [Text/md, SF Compact Text Semibold, 9px, SF Compact Text Semibold, 13.5px, Text/sm] | variants: Layout size: Desktop 1280 > 992/Desktop 1536 >1280/Desktop >1536/mobile 320/mobile 480/mobile 768
+- Lamguages dropdown component: size 310x656px, radius 0/0/4/4px, vertical layout, padding 16 8 16 8px, gap 12px, sizing W:fixed H:fixed, fill #F7F7F7, stroke #FFFFFF 1px, effect menu shadow light, text [Text/xs, Text/sm, Text/lg]
+- icon -: size 24x24px, radius 1000px
+- icon +: size 24x24px, radius 1000px
+- full mobile menu: size 653x747px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #09090966, stroke #E7E7E7 1px, text [Text/xs, SF Compact Text Semibold, 9px, SF Compact Text Semibold, 13.5px, Text/lg -b, Text/md]
+- fourth level: size 333x592px, vertical layout, padding 16 16 16 16px, gap 0px, sizing W:fixed H:fixed, fill #E7E7E7, text [Text/sm, Text/md -b]
+- therd level: size 330x592px, vertical layout, padding 16 0 16 16px, gap 0px, sizing W:fixed H:fixed, fill #F2F2F2, text [Text/sm, Text/md -b]
+- second level: size 330x432px, vertical layout, padding 16 0 16 16px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/sm, Text/md -b]
+- nav-menu: size 456x42px, horizontal layout, padding 0 0 0 0px, gap 8px, align center/center, sizing W:fixed H:fixed, text [Text/md]
+- Modal content - base: size 416x130px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Text/md] | variants: type od content: Default/List of contributers/type od content3
+- Base: size 464x336px, radius 4px, vertical layout, padding 32 32 32 32px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/md, Text/2xl - b]
+- hero big numbers: size 896x145px, horizontal layout, padding 8 16 8 16px, gap 32px, sizing W:fixed H:fixed, text [Text/sm, Text/md, Text/5xl - b] | variants: screen size: Desktop/Tablet/mobile
+- Hero: size 1536x455px, horizontal layout, padding 2 0 2 0px, gap 16px, sizing W:fixed H:fixed, fill gradient_linear(#B9B9F133 0% | #5484EA33 52% | #3A8E8933 100%), text [Text/sm - i, Heading Large/sm, Text/sm, Text/md, Text/5xl - b, Text/lg, Heading Large/2xl, Inter Regular, 16px] | variants: Layout size: Desktop 1280/Desktop 1536/Desktop 992/Mobile 320/Mobile 480/Mobile 768; Hero Type: Content Pages/Homepage/Hub pages/MD pages; big numbers: hide/show
+- hero content: size 632x261px, vertical layout, padding 0 0 0 0px, gap 24px, sizing W:fixed H:fixed, text [Text/sm, Text/md, Text/5xl - b, Text/lg, Heading Large/2xl] | variants: screen size: lg/md/sm
+- Footer: size 1506x860px, vertical layout, padding 16 24 16 24px, gap 24px, sizing W:fixed H:fixed, text [Text/sm, Text/md, Heading Large/sm, Text/sm - i] | variants: Layout size: Footer 1280/Footer 1536/Footer 320/Footer 480/Footer 768/Footer 992
+- footer Link: size 31x26px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/md] | variants: Property 1: active/hover/link/visited
+- footer links: size 1452x640px, horizontal layout, padding 0 0 0 0px, gap 32px, sizing W:fixed H:fixed, text [Text/md, Heading Large/sm]
+- footer footer: size 1458x102px, horizontal layout, padding 40 0 40 0px, gap 19px, align center/min, sizing W:fixed H:fixed, fill #F7F7F7, text [Text/sm]
+- Footer links column: size 72x666px, vertical layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed, text [Text/md, Heading Large/sm]
+- FAQ: size 928x738px, vertical layout, padding 0 0 0 0px, gap 13px, sizing W:fixed H:fixed, text [Text/md, Text/xl -b, Text/xs, Heading Large/xl] | variants: screen size: desktop/mobile
+- final cponent: size 652x352px, radius 4px, vertical layout, padding 32 32 32 32px, gap 32px, align center/max, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E7E7E7 1px, text [Text/xs, Text/md, Text/xl -b] | variants: Open/close: Close/Open; state: Default/hover/hover on button; screen size: desktop/mobile
+- SliderV2: size 807x461px, radius 4px, vertical layout, padding 32 32 16 32px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E7E7E7 1px, text [Text/md, Heading Large/lg] | variants: screen size: desktop/mobile; state: Default/hover
+- Tabs: size 807x425px, radius 4px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Text/md, Heading Large/lg] | variants: screen size: desktop/mobile; type: Horizontal/Vertical
+- Complete section: size 1536x491px, horizontal layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, text [Text/sm - i, Heading Large/sm, Text/md, Text/xl, Heading Large/xl] | variants: back color: Gradient/Low contrast/back color10/back color7/back color8/back color9/background highlight/body medium/transparent
+- section content: size 1536x491px, horizontal layout, padding 64 96 64 96px, gap 64px, align min/center, sizing W:fixed H:fixed, text [Text/sm - i, Heading Large/sm, Text/md, Text/xl, Heading Large/xl] | variants: grid type: Full :: left image/Full :: right image; screen size: Dektop/Mobile; Type: H2 highlight/H3 highlight/H3 side by side/H4 side by side
+- text content: size 385x389px, vertical layout, padding 0 0 0 0px, gap 48px, sizing W:fixed H:fixed, text [Text/md, Text/xl, Heading Large/xl] | variants: Property 1: Type H4/type h2/type h3
+- layout: size 1536x1948px, vertical layout, padding 0 0 64 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/sm, Text/md, Heading Large/sm, Text/sm - i, Text/xl - i, Text/5xl - b, Text/lg, Heading Large/2xl, Inter Regular, 16px, SF Compact Text Semibold, 9px, SF Compact Text Semibold, 13.5px] | variants: type of page: Base/Hero page/Markdown pages; Screen size: 2xl : 1536px/LG : 992px/MD : 768px/SM : 480px/Smaller : 320px/XL : 1280px
+- Delete this for real content: size 1536x497px, horizontal layout, padding 92 24 92 24px, gap 10px, align center/min, sizing W:fixed H:fixed, stroke #5555FF 3px, text [Text/xl - i]
+- Markdown content container: size 1024x1900.5px, horizontal layout, padding 0 0 0 0px, gap 64px, sizing W:fixed H:fixed, text [Text/sm, Text/md, Text/xs, SF Mono Regular, 16px, Text/md -b, Heading Large/xl, Text/sm - i, Heading Large/sm] | variants: screen size: dektop/mobile
+- Md pages action container: size 930x112px, vertical layout, padding 0 0 0 0px, gap 32px, sizing W:fixed H:fixed, text [Text/sm, Text/xs, Inter Regular, 14px, Inter Light, 12px, Tags text] | variants: Size: 2Xl to LG 992px/< 480px/LG to SM 480px
+- doc navigate next and previous: size 488x31px, horizontal layout, padding 0 0 0 0px, gap 0px, align space_between/min, sizing W:fixed H:fixed, text [Text/xs]
+
+## Most-Used Styles
+- Text/sm: 14154 uses
+- Text/md: 13585 uses
+- Tags text: 1517 uses
+- Text/md -b: 1342 uses
+- Heading Large/sm: 921 uses
+- Text/sm - i: 920 uses
+- Text/xs: 546 uses
+- Text/lg: 412 uses
+- Light/Tooltip drop shadow: 394 uses
+- Text/5xl - b: 252 uses
+- Heading Large/xl: 241 uses
+- final/light/primary: 180 uses
+- Heading Large/xs: 162 uses
+- Text/4xl - b: 140 uses
+- Heading Large/lg: 132 uses
+- Text/xs - i: 120 uses
+- Heading Large/2xl: 118 uses
+- Text/5xl: 116 uses
+- Text/lg -b: 87 uses
+- Heading Small/md: 75 uses
+- Text/xl - i: 66 uses
+- Text/xl: 64 uses
+- Heading Small/2xl: 63 uses
+- final/footnote text: 60 uses
+- final/text: 60 uses
+- Heading Large/md: 53 uses
+- Text/xl -b: 51 uses
+- Heading Large/4xl: 37 uses
+- menu shadow light: 32 uses
+- Light/Button hover shadow: 22 uses
+- Text/md - link: 16 uses
+- Text/md - i: 15 uses
+- Text/sm - b: 15 uses
+- Text/2xl - b: 14 uses
+- Dark/Button hover shadow: 13 uses
+- Text/xs - link: 12 uses
+- accordeom  inner shadow: 12 uses
+- Text/4xl: 11 uses
+- Text/3xl - i: 9 uses
+- Light Theme/Body: 8 uses
+- Text/2xl: 8 uses
+- Text/3xl: 6 uses
+- Text/6xl: 6 uses
+- Heading Small/xl: 5 uses
+- Text/Monospace Block code: 4 uses
+- Heading Small/lg: 3 uses
+- Heading Small/sm: 3 uses
+- Heading Small/xs: 3 uses
+- Text/4xl - link: 3 uses
+- Heading Large/3xl: 2 uses
+- Heading Small/3xl: 2 uses
+- Heading Small/4xl: 2 uses
+- Text/2xl - link: 2 uses
+- Text/3xl - link: 2 uses
+- Text/4xl - i: 2 uses
+- Text/5xl - link: 2 uses
+- Text/6xl - link: 2 uses
+- Text/Monospace Code snipts: 2 uses
+- Text/lg - link: 2 uses
+- Text/sm - link: 2 uses
+- Text/xl - link: 2 uses
+- Dark Theme/Gradient A: 1 use
+- Text/2xl - i: 1 use
+- Text/3xl - b: 1 use
+- Text/5xl - i: 1 use
+- Text/6xl - b: 1 use
+- Text/6xl - i: 1 use
+- Text/lg - i: 1 use
+- Text/xs -b: 1 use
+
+## Layout & Structure
+Screen: Cover / cover
+- FRAME "cover", 1920x960px, constraints left/top, fill #1F1F1F
+  - TEXT "Design System", 799x87px, constraints scale/scale, fill #87A9F0, text [Inter Thin, 72px], [heading]
+  - GROUP "Group 27", 259.66x296.75px, constraints scale/scale [decorative, ~31 shapes]
+
+Screen: Read me  / intro
+- FRAME "intro", 800x1204px, constraints left/top, fill #222222
+  - INSTANCE "heading/H2", 620x43px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 620x43px, constraints scale/scale, fill #FF7324, text [Heading Large/xl], [heading]
+  - INSTANCE "body text normal", 600x546px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Text body normal. Ethereum is open access to digital money a", 600x546px, constraints scale/scale, fill #FFFFFF, text [Text/md]
+  - GROUP "Group 27", 259.66x296.75px, constraints left/top [decorative, ~31 shapes]
+
+Screen: Read me  / How to contribute
+- FRAME "How to contribute", 800x1204px, constraints left/top, fill #222222
+  - INSTANCE "heading/H2", 508x43px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 508x43px, constraints scale/scale, fill #FF7324, text [Heading Large/xl], [heading]
+  - INSTANCE "body text normal", 600x572px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Text body normal. Ethereum is open access to digital money a", 600x572px, constraints scale/scale, fill #FFFFFF, text [Text/md]
+  - GROUP "Group 27", 259.66x296.75px, constraints left/top [decorative, ~31 shapes]
+
+Screen: 📝 Release notes / intro
+- FRAME "intro", 4172x773px, constraints left/top, fill #222222
+  - INSTANCE "heading/H2", 359x43px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 359x43px, constraints scale/scale, fill #FF7324, text [Heading Large/xl], [heading]
+  - INSTANCE "body text normal", 600x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Text body normal. Ethereum is open access to digital money a", 600x26px, constraints scale/scale, fill #FFFFFF, text [Text/md]
+  - INSTANCE "body text normal", 600x338px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Text body normal. Ethereum is open access to digital money a", 600x338px, constraints scale/scale, fill #FFFFFF, text [Text/md]
+  - INSTANCE "body text normal", 600x416px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Text body normal. Ethereum is open access to digital money a", 600x416px, constraints scale/scale, fill #FFFFFF, text [Text/md]
+  - INSTANCE "body text normal", 600x208px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Text body normal. Ethereum is open access to digital money a", 600x208px, constraints scale/scale, fill #FFFFFF, text [Text/md]
+  - GROUP "Group 27", 111.34x101.74px, constraints left/top [decorative, ~30 shapes]
+  - INSTANCE "heading/H4", 600x28px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 600x28px, constraints scale/scale, fill #FF7324, text [Heading Large/md], [heading]
+  - INSTANCE "heading/H4", 600x28px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 600x28px, constraints scale/scale, fill #FF7324, text [Heading Large/md], [heading]
+  - INSTANCE "heading/H4", 600x28px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 600x28px, constraints scale/scale, fill #FF7324, text [Heading Large/md], [heading]
+  - INSTANCE "heading/H4", 600x28px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 600x28px, constraints scale/scale, fill #FF7324, text [Heading Large/md], [heading]
+
+Screen: Component index / Base component index
+- FRAME "Base component index", 8989x1575px, constraints left/top, fill #FFFFFF
+  - TEXT "Paragraph", 63x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 119x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 29x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 24x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 76x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 84x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 91x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 88x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 35x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 114x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 47x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 87x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 34x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 44x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 69x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - TEXT "Paragraph", 76x22px, constraints left/top, fill #616161, text [Text/sm - i]
+  - INSTANCE "Heading base", 464x55px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 464x55px, constraints scale/scale, fill #1B1B1B, text [Heading Large/2xl], [heading]
+  - TEXT "Title", 143x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 87x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 65x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 81x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 83x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 79x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 74x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 131x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - ... +59 more children
+
+Screen: Component index / intro
+- FRAME "intro", 800x1204px, constraints left/top, fill #222222
+  - INSTANCE "heading/H2", 620x43px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text", 620x43px, constraints scale/scale, fill #FF7324, text [Heading Large/xl], [heading]
+  - INSTANCE "body text normal", 600x575px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Text body normal. Ethereum is open access to digital money a", 600x575px, constraints scale/scale, fill #FFFFFF, text [Text/md]
+  - GROUP "Group 27", 259.66x296.75px, constraints left/top [decorative, ~31 shapes]
+
+Screen: Component index / Image placeholder
+- INSTANCE "Image placeholder", 650x435px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+  - FRAME "Frame 321", 650x381px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+    - INSTANCE "Raw image place holder", 650x381px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #E7E7E7
+      - FRAME "Frame 322", 215x46px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #E7E7E7
+        - TEXT "IMAGE PLACEHOLDER", 175x26px, constraints left/top, fill #616161, text [Heading Large/sm], [heading]
+  - FRAME "Frame 320", 650x54px, horizontal pad 16 16 16 16px gap 0px sizing W:fill H:fixed, constraints left/top
+    - TEXT "This is the image caption", 618x22px, constraints left/top, fill #1B1B1B, text [Text/sm - i]
+
+Screen: Component index / Composed component index
+- FRAME "Composed component index", 8989x1480px, constraints left/top, fill #FFFFFF
+  - TEXT "Title", 87x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 78x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 74x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - TEXT "Title", 57x30px, constraints left/top, fill #1B1B1B, text [Inter Bold, 24px], [heading]
+  - INSTANCE "Header", 1798x72px, horizontal pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, stroke #8C8C8C 1px
+    - FRAME "Header Desktop", 1536x72px, horizontal pad 16 32 16 32px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Left-header-container", 513x42px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "glyph", 25x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "all sides", 25x40px, constraints left/top [decorative, ~12 shapes]
+        - INSTANCE "nav-menu", 456x42px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "nav-link", 75x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 43x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 62x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 30x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 70x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 38x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 114x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 82x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 103x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 71x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+      - INSTANCE "Right-header-container", 388x44px, horizontal pad 0 0 0 0px gap 12px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "search input", 160x42px, horizontal pad 10 12 10 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #8C8C8C 1px
+          - FRAME "base input elements", 136x22px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "icon + search", 68.58x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "key hits", 44x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "service", 216x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "service-link", 48x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "dark theme switcher", 24x24px, horizontal pad 3 5 3 5px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "service-link", 168x44px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "languages", 27x28px, horizontal pad 3 3 3 3px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "link", 83x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+            - TEXT "link", 22x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+  - INSTANCE "Header", 1424x72px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke #8C8C8C 1px
+    - FRAME "Header Desktop", 1424x72px, horizontal pad 16 32 16 32px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Left-header-container", 513x42px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "glyph", 25x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "all sides", 25x40px, constraints left/top [decorative, ~12 shapes]
+        - INSTANCE "nav-menu", 456x42px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "nav-link", 75x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 43x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 62x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 30x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 70x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 38x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 114x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 82x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 103x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 71x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+      - INSTANCE "Right-header-container", 388x44px, horizontal pad 0 0 0 0px gap 12px align max/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "search input", 160x42px, horizontal pad 10 12 10 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #8C8C8C 1px
+          - FRAME "base input elements", 136x22px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "icon + search", 68.58x22px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "key hits", 44x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "service", 216x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "service-link", 48x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "dark theme switcher", 24x24px, horizontal pad 3 5 3 5px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "service-link", 168x44px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "languages", 27x28px, horizontal pad 3 3 3 3px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "link", 83x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+            - TEXT "link", 22x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+  - INSTANCE "Header", 833x72px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke #8C8C8C 1px
+    - FRAME "Header Desktop", 833x72px, horizontal pad 16 16 16 16px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Left-header-container", 513x42px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "glyph", 25x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "all sides", 25x40px, constraints left/top [decorative, ~12 shapes]
+        - INSTANCE "nav-menu", 456x42px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "nav-link", 75x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 43x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 62x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 30x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 70x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 38x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 114x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 82x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+          - INSTANCE "nav-link", 103x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - TEXT "link", 71x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+      - INSTANCE "Right-header-container", 174x42px, constraints left/top
+        - FRAME "service", 177x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "service-link", 50x42px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "search", 26x26px, horizontal pad 3 3 3 3px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "service-link", 48x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "dark theme switcher", 24x24px, horizontal pad 3 5 3 5px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "service-link", 79x44px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "languages", 27x28px, horizontal pad 3 3 3 3px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "link", 22x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+  - INSTANCE "Base", 464x336px, vertical pad 32 32 32 32px gap 16px sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF
+    - FRAME "header", 400x36px, horizontal pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Modal title", 352x36px, constraints left/top, fill #1B1B1B, text [Text/2xl - b], [heading]
+      - INSTANCE "close", 32x32px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 7", 22.63x22.63px, constraints left/top
+          - VECTOR "Vector 2", 11.31x11.31px, constraints left/top, stroke #1B1B1B 2.67px
+          - VECTOR "Vector 3", 11.31x11.31px, constraints left/top, stroke #1B1B1B 2.67px
+    - INSTANCE "Modal content - base", 400x130px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Paragraph", 400x130px, constraints left/top, fill #1B1B1B, text [Text/md]
+    - FRAME "Frame 1", 400x74px, horizontal pad 32 0 0 0px gap 8px align max/min sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #1B1B1B 1px
+        - INSTANCE "button content", 91x26px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Button label", 91x26px, constraints left/top, fill #1B1B1B, text [Text/md]
+      - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1C1CFF, stroke #1C1CFF 1px
+        - INSTANCE "button content", 91x26px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Button label", 91x26px, constraints left/top, fill #FFFFFF, text [Text/md]
+  - INSTANCE "Hero", 1536x455px, horizontal pad 2 0 2 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#B9B9F133 0% | #5484EA33 52% | #3A8E8933 100%)
+    - FRAME "content", 760x451px, vertical pad 64 64 64 64px gap 36px sizing W:fill H:fill, constraints left/top
+      - INSTANCE "breadcrumbs to pleace for the final component", 632x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "breadcrumb navigation", 48x26px, constraints scale/scale, fill #FFFFFF
+          - TEXT "breadcrumbs", 48x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+        - INSTANCE "breadcrumb navigation", 9x26px, constraints scale/scale, fill #FFFFFF
+          - TEXT "breadcrumbs", 6x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+        - INSTANCE "breadcrumb navigation", 152x26px, constraints scale/scale, fill #FFFFFF
+          - TEXT "breadcrumbs", 151x26px, constraints scale/scale, fill #1C1CFF, text [Inter Regular, 16px]
+      - INSTANCE "hero content", 632x261px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "heading/H1", 632x55px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "text", 632x55px, constraints scale/scale, fill #1B1B1B, text [Heading Large/2xl], [heading]
+        - INSTANCE "body text normal", 632x116px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text body normal. Ethereum is open access to digital money a", 632x116px, constraints scale/scale, fill #1B1B1B, text [Text/lg]
+        - FRAME "CTA container", 262x42px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1C1CFF, stroke #1C1CFF 1px
+            - INSTANCE "button content", 91x26px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #1B1B1B 1px
+            - INSTANCE "button content", 91x26px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Image placeholder", 760x451px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints center/center
+      - FRAME "Frame 321", 760x451px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Raw image place holder", 760x451px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #E7E7E7
+          - FRAME "Frame 322", 215x46px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #E7E7E7
+            - TEXT "IMAGE PLACEHOLDER", 175x26px, constraints left/top, fill #616161, text [Heading Large/sm], [heading]
+  - INSTANCE "Footer", 1280x938px, vertical pad 16 24 16 24px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 1", 1232x38px, horizontal pad 0 0 0 0px gap 1074px align space_between/center sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 1", 229x38px, horizontal pad 8 0 8 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Website last updated: July 8, 2022", 229x22px, constraints left/top, fill #1B1B1B, text [Text/sm - i]
+      - INSTANCE "social-media-menu", 140x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Github", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+            - VECTOR "Vector", 28x28px, constraints scale/scale, fill #1B1B1B
+        - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Twitter", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - VECTOR "Vector", 26.58x26px, constraints left/top, fill #1B1B1B
+        - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Discord", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+            - VECTOR "Vector", 28x21px, constraints scale/scale, fill #1B1B1B
+    - INSTANCE "footer links", 1232x718px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Footer links column", 220.8x556px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "heading/H5", 220.8x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - TEXT "text", 220.8x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+        - FRAME "Frame 1", 220.8x514px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+      - INSTANCE "Footer links column", 220.8x718px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "heading/H5", 220.8x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - TEXT "text", 220.8x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+        - FRAME "Frame 1", 220.8x676px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+      - INSTANCE "Footer links column", 220.8x540px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "heading/H5", 220.8x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - TEXT "text", 220.8x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+        - FRAME "Frame 1", 220.8x498px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+      - INSTANCE "Footer links column", 220.8x540px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "heading/H5", 220.8x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - TEXT "text", 220.8x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+        - FRAME "Frame 1", 220.8x498px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+      - INSTANCE "Footer links column", 220.8x498px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "heading/H5", 220.8x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+          - TEXT "text", 220.8x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+        - FRAME "Frame 1", 220.8x456px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x52px, constraints scale/scale, fill #616161, text [Text/md]
+          - INSTANCE "footer Link", 220.8x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - TEXT "Link", 220.8x26px, constraints scale/scale, fill #616161, text [Text/md]
+    - INSTANCE "footer footer", 1232x102px, horizontal pad 40 0 40 0px gap 19px align center/min sizing W:fill H:fixed, constraints left/top, fill #F7F7F7
+      - TEXT "About", 40x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+      - TEXT "Code of conduct", 111x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+      - TEXT "Jobs", 32x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+      - TEXT "Privacy policy", 92x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+      - TEXT "Terms of use", 86x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+      - TEXT "Cookie policy", 90x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+      - TEXT "Press Contact", 94x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+
+Screen: Component index / smaller screens
+- FRAME "smaller screens", 320x4523px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "layout", 320x4523px, vertical pad 0 0 64 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Header", 320x72px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke #8C8C8C 1px
+      - FRAME "Header Desktop", 320x72px, horizontal pad 16 16 16 16px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Left-header-container", 25x40px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "glyph", 25x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "all sides", 25x40px, constraints left/top [decorative, ~12 shapes]
+        - INSTANCE "Right-header-container", 98x42px, constraints left/top
+          - FRAME "service", 98x42px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "service-link", 50x42px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "service-link", 48x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+    - INSTANCE "Hero", 320x848px, vertical pad 2 0 2 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#B9B9F133 0% | #5484EA33 52% | #3A8E8933 100%)
+      - INSTANCE "Image placeholder", 320x300px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints center/center
+        - FRAME "Frame 321", 320x300px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "Raw image place holder", 320x300px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #E7E7E7
+            - FRAME "Frame 322", 215x46px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #E7E7E7
+      - FRAME "content", 320x544px, vertical pad 32 32 32 32px gap 36px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "breadcrumbs to pleace for the final component", 256x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "breadcrumb navigation", 48x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 48x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 9x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 6x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 152x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 151x26px, constraints scale/scale, fill #1C1CFF, text [Inter Regular, 16px]
+        - INSTANCE "hero content", 256x418px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H1", 256x38px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 256x38px, constraints scale/scale, fill #1B1B1B, text [Heading Small/2xl], [heading]
+          - INSTANCE "body text normal", 256x290px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text body normal. Ethereum is open access to digital money a", 256x290px, constraints scale/scale, fill #1B1B1B, text [Text/lg]
+          - FRAME "CTA container", 262x42px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1C1CFF, stroke #1C1CFF 1px
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #1B1B1B 1px
+    - FRAME "content-placeholder", 320x497px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Delete this for real content", 320x497px, horizontal pad 92 24 92 24px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, stroke #5555FF 3px
+        - FRAME "Frame 1", 272x313px, horizontal pad 0 0 0 0px gap 14px sizing W:fill H:fixed, constraints left/top
+          - TEXT "1 - Detach instance the Layout instance 2 - Delete this and ", 129x270px, constraints left/top, fill #000066, text [Text/xl - i]
+          - RECTANGLE "detach 1", 129x313px, constraints left/top, fill image(hash: 97130e41942ef730f2f50f74420fb193152f8f86)
+    - INSTANCE "Footer", 320x3042px, vertical pad 0 8 0 8px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 304x90px, vertical pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1", 245x38px, vertical pad 8 8 8 8px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Website last updated: July 8, 2022", 229x22px, constraints left/top, fill #1B1B1B, text [Text/sm - i]
+        - INSTANCE "social-media-menu", 140x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Github", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Twitter", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Discord", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "footer links", 304x2720px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Footer links column", 304x530px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 304x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 304x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 304x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 304x640px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 304x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 304x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 304x598px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 304x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 304x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 304x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 304x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 304x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 304x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 304x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 304x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 304x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 304x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 304x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 304x404px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 304x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "footer footer", 304x184px, horizontal pad 40 0 40 0px gap 19px align center/min sizing W:fill H:fixed, constraints left/top, fill #F7F7F7
+        - TEXT "About", 40x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Code of conduct", 111x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Jobs", 32x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Privacy policy", 92x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Terms of use", 86x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Cookie policy", 90x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Press Contact", 94x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+
+Screen: Component index / SM : 30em / 480px
+- FRAME "SM : 30em / 480px", 480x4288px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "layout", 480x4288px, vertical pad 0 0 64 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Header", 480x72px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke #8C8C8C 1px
+      - FRAME "Header Desktop", 480x72px, horizontal pad 16 16 16 16px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Left-header-container", 25x40px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "glyph", 25x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "all sides", 25x40px, constraints left/top [decorative, ~12 shapes]
+        - INSTANCE "Right-header-container", 98x42px, constraints left/top
+          - FRAME "service", 98x42px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "service-link", 50x42px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "service-link", 48x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+    - INSTANCE "Hero", 480x732px, vertical pad 2 0 2 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#B9B9F133 0% | #5484EA33 52% | #3A8E8933 100%)
+      - INSTANCE "Image placeholder", 480x300px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints center/center
+        - FRAME "Frame 321", 480x300px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "Raw image place holder", 480x300px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #E7E7E7
+            - FRAME "Frame 322", 215x46px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #E7E7E7
+      - FRAME "content", 480x428px, vertical pad 32 32 32 32px gap 36px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "breadcrumbs to pleace for the final component", 416x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "breadcrumb navigation", 48x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 48x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 9x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 6x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 152x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 151x26px, constraints scale/scale, fill #1C1CFF, text [Inter Regular, 16px]
+        - INSTANCE "hero content", 416x302px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H1", 416x38px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 416x38px, constraints scale/scale, fill #1B1B1B, text [Heading Small/2xl], [heading]
+          - INSTANCE "body text normal", 416x174px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text body normal. Ethereum is open access to digital money a", 416x174px, constraints scale/scale, fill #1B1B1B, text [Text/lg]
+          - FRAME "CTA container", 262x42px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1C1CFF, stroke #1C1CFF 1px
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #1B1B1B 1px
+    - FRAME "content-placeholder", 480x497px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Delete this for real content", 480x497px, horizontal pad 92 24 92 24px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, stroke #5555FF 3px
+        - FRAME "Frame 1", 447x313px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "1 - Detach instance the Layout instance 2 - Delete this and ", 238x150px, constraints left/top, fill #000066, text [Text/xl - i]
+          - RECTANGLE "detach 1", 195x313px, constraints left/top, fill image(hash: 97130e41942ef730f2f50f74420fb193152f8f86)
+    - INSTANCE "Footer", 480x2923px, vertical pad 0 16 0 16px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 448x38px, horizontal pad 0 0 0 0px gap 1074px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1", 229x38px, horizontal pad 8 0 8 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Website last updated: July 8, 2022", 229x22px, constraints left/top, fill #1B1B1B, text [Text/sm - i]
+        - INSTANCE "social-media-menu", 140x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Github", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Twitter", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Discord", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "footer links", 448x2694px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Footer links column", 448x530px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 448x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 448x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 448x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 448x614px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 448x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 448x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 448x572px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 448x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 448x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 448x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 448x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 448x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 448x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 448x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 448x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 448x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 448x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 448x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 448x404px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 448x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "footer footer", 448x143px, horizontal pad 40 0 40 0px gap 19px align center/min sizing W:fill H:fixed, constraints left/top, fill #F7F7F7
+        - TEXT "About", 40x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Code of conduct", 111x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Jobs", 32x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Privacy policy", 92x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Terms of use", 86x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Cookie policy", 90x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Press Contact", 94x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+
+Screen: Component index / MD : 48em / 768px
+- FRAME "MD : 48em / 768px", 768x3233px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "layout", 768x3233px, vertical pad 0 0 64 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Header", 833x72px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke #8C8C8C 1px
+      - FRAME "Header Desktop", 833x72px, horizontal pad 16 16 16 16px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Left-header-container", 513x42px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "glyph", 25x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "all sides", 25x40px, constraints left/top [decorative, ~12 shapes]
+          - INSTANCE "nav-menu", 456x42px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "nav-link", 75x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 62x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 70x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 114x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 103x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+        - INSTANCE "Right-header-container", 174x42px, constraints left/top
+          - FRAME "service", 177x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "service-link", 50x42px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "service-link", 48x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "service-link", 79x44px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+    - INSTANCE "Hero", 768x774px, vertical pad 2 0 2 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#B9B9F133 0% | #5484EA33 52% | #3A8E8933 100%)
+      - INSTANCE "Image placeholder", 768x400px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints center/center
+        - FRAME "Frame 321", 768x400px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "Raw image place holder", 768x400px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #E7E7E7
+            - FRAME "Frame 322", 215x46px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #E7E7E7
+      - FRAME "content", 768x370px, vertical pad 32 32 32 32px gap 36px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "breadcrumbs to pleace for the final component", 704x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "breadcrumb navigation", 48x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 48x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 9x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 6x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 152x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 151x26px, constraints scale/scale, fill #1C1CFF, text [Inter Regular, 16px]
+        - INSTANCE "hero content", 704x244px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H1", 704x38px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 704x38px, constraints scale/scale, fill #1B1B1B, text [Heading Small/2xl], [heading]
+          - INSTANCE "body text normal", 704x116px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text body normal. Ethereum is open access to digital money a", 704x116px, constraints scale/scale, fill #1B1B1B, text [Text/lg]
+          - FRAME "CTA container", 262x42px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1C1CFF, stroke #1C1CFF 1px
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #1B1B1B 1px
+    - FRAME "content-placeholder", 768x497px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Delete this for real content", 768x497px, horizontal pad 92 24 92 24px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, stroke #5555FF 3px
+        - FRAME "Frame 1", 447x313px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "1 - Detach instance the Layout instance 2 - Delete this and ", 238x150px, constraints left/top, fill #000066, text [Text/xl - i]
+          - RECTANGLE "detach 1", 195x313px, constraints left/top, fill image(hash: 97130e41942ef730f2f50f74420fb193152f8f86)
+    - INSTANCE "Footer", 768x1826px, vertical pad 0 24 0 24px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 720x38px, horizontal pad 0 0 0 0px gap 1074px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1", 229x38px, horizontal pad 8 0 8 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Website last updated: July 8, 2022", 229x22px, constraints left/top, fill #1B1B1B, text [Text/sm - i]
+        - INSTANCE "social-media-menu", 140x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Github", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Twitter", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Discord", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "footer links", 720x1638px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Footer links column", 344x530px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 344x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 344x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 344x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 344x640px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 344x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 344x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 344x598px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 344x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 344x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 344x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 344x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 344x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 344x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 344x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 344x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 344x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 720x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 720x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 720x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 720x404px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 720x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "footer footer", 720x102px, horizontal pad 40 0 40 0px gap 19px align center/min sizing W:fill H:fixed, constraints left/top, fill #F7F7F7
+        - TEXT "About", 40x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Code of conduct", 111x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Jobs", 32x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Privacy policy", 92x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Terms of use", 86x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Cookie policy", 90x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Press Contact", 94x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+
+Screen: Component index / LG : 62em / 992px
+- FRAME "LG : 62em / 992px", 992x2584px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "layout", 992x4092px, vertical pad 0 0 64 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Header", 992x72px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fixed H:fixed, constraints left/top, stroke #8C8C8C 1px
+      - FRAME "Header Desktop", 992x72px, horizontal pad 16 32 16 32px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Left-header-container", 513x42px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "glyph", 25x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "all sides", 25x40px, constraints left/top [decorative, ~12 shapes]
+          - INSTANCE "nav-menu", 456x42px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "nav-link", 75x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 62x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 70x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 114x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 103x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+        - INSTANCE "Right-header-container", 261x42px, constraints left/top
+          - FRAME "service", 266x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "service-link", 50x42px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "service-link", 48x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "service-link", 168x44px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+    - INSTANCE "Hero", 992x571px, horizontal pad 2 0 2 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#B9B9F133 0% | #5484EA33 52% | #3A8E8933 100%)
+      - FRAME "content", 488x567px, vertical pad 64 64 64 64px gap 36px sizing W:fill H:fill, constraints left/top
+        - INSTANCE "breadcrumbs to pleace for the final component", 360x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "breadcrumb navigation", 48x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 48x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 9x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 6x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 152x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 151x26px, constraints scale/scale, fill #1C1CFF, text [Inter Regular, 16px]
+        - INSTANCE "hero content", 360x377px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H1", 360x55px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 360x55px, constraints scale/scale, fill #1B1B1B, text [Heading Large/2xl], [heading]
+          - INSTANCE "body text normal", 360x232px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text body normal. Ethereum is open access to digital money a", 360x232px, constraints scale/scale, fill #1B1B1B, text [Text/lg]
+          - FRAME "CTA container", 262x42px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1C1CFF, stroke #1C1CFF 1px
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #1B1B1B 1px
+      - INSTANCE "Image placeholder", 488x567px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints center/center
+        - FRAME "Frame 321", 488x567px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "Raw image place holder", 488x567px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #E7E7E7
+            - FRAME "Frame 322", 215x46px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #E7E7E7
+    - FRAME "content-placeholder", 992x497px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Delete this for real content", 992x497px, horizontal pad 92 24 92 24px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, stroke #5555FF 3px
+        - FRAME "Frame 1", 447x313px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "1 - Detach instance the Layout instance 2 - Delete this and ", 238x150px, constraints left/top, fill #000066, text [Text/xl - i]
+          - RECTANGLE "detach 1", 195x313px, constraints left/top, fill image(hash: 97130e41942ef730f2f50f74420fb193152f8f86)
+    - INSTANCE "Footer", 992x1380px, vertical pad 16 24 16 24px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 944x38px, horizontal pad 0 0 0 0px gap 1074px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1", 229x38px, horizontal pad 8 0 8 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Website last updated: July 8, 2022", 229x22px, constraints left/top, fill #1B1B1B, text [Text/sm - i]
+        - INSTANCE "social-media-menu", 140x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Github", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Twitter", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Discord", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "footer links", 944x1160px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Footer links column", 293.33x556px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 293.33x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 293.33x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 293.33x514px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 293.33x640px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 293.33x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 293.33x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 293.33x598px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 293.33x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 293.33x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 293.33x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 293.33x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 293.33x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 456x488px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 456x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 456x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 456x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+        - INSTANCE "Footer links column", 456x446px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 456x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 456x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+          - FRAME "Frame 1", 456x404px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+            - INSTANCE "footer Link", 456x26px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "footer footer", 944x102px, horizontal pad 40 0 40 0px gap 19px align center/min sizing W:fill H:fixed, constraints left/top, fill #F7F7F7
+        - TEXT "About", 40x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Code of conduct", 111x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Jobs", 32x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Privacy policy", 92x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Terms of use", 86x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Cookie policy", 90x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+        - TEXT "Press Contact", 94x22px, constraints scale/scale, fill #1B1B1B, text [Text/sm]
+
+Screen: Component index / XL : 80em / 1280px
+- FRAME "XL : 80em / 1280px", 1280x2055px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - INSTANCE "layout", 1280x2757px, vertical pad 0 0 64 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Header", 1424x72px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, stroke #8C8C8C 1px
+      - FRAME "Header Desktop", 1424x72px, horizontal pad 16 32 16 32px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Left-header-container", 513x42px, horizontal pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "glyph", 25x40px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "all sides", 25x40px, constraints left/top [decorative, ~12 shapes]
+          - INSTANCE "nav-menu", 456x42px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "nav-link", 75x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 62x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 70x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 114x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+            - INSTANCE "nav-link", 103x42px, horizontal pad 8 16 8 16px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 2px
+        - INSTANCE "Right-header-container", 388x44px, horizontal pad 0 0 0 0px gap 12px align max/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "search input", 160x42px, horizontal pad 10 12 10 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #FFFFFF, stroke #8C8C8C 1px
+            - FRAME "base input elements", 136x22px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "service", 216x44px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "service-link", 48x40px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+            - INSTANCE "service-link", 168x44px, horizontal pad 8 12 8 12px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+    - INSTANCE "Hero", 1280x484px, horizontal pad 2 0 2 0px gap 16px sizing W:fixed H:fixed, constraints left/top, fill gradient_linear(#B9B9F133 0% | #5484EA33 52% | #3A8E8933 100%)
+      - FRAME "content", 632x480px, vertical pad 64 64 64 64px gap 36px sizing W:fill H:fill, constraints left/top
+        - INSTANCE "breadcrumbs to pleace for the final component", 504x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - INSTANCE "breadcrumb navigation", 48x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 48x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 9x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 6x26px, constraints scale/scale, fill #616161, text [Inter Regular, 16px]
+          - INSTANCE "breadcrumb navigation", 152x26px, constraints scale/scale, fill #FFFFFF
+            - TEXT "breadcrumbs", 151x26px, constraints scale/scale, fill #1C1CFF, text [Inter Regular, 16px]
+        - INSTANCE "hero content", 504x290px, vertical pad 0 0 0 0px gap 24px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H1", 504x55px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 504x55px, constraints scale/scale, fill #1B1B1B, text [Heading Large/2xl], [heading]
+          - INSTANCE "body text normal", 504x145px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Text body normal. Ethereum is open access to digital money a", 504x145px, constraints scale/scale, fill #1B1B1B, text [Text/lg]
+          - FRAME "CTA container", 262x42px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill #1C1CFF, stroke #1C1CFF 1px
+            - INSTANCE "button", 123x42px, horizontal pad 8 16 8 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, stroke #1B1B1B 1px
+      - INSTANCE "Image placeholder", 632x480px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints center/center
+        - FRAME "Frame 321", 632x480px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "Raw image place holder", 632x480px, vertical pad 10 10 10 10px gap 10px align center/center sizing W:fill H:fill, constraints left/top, fill #E7E7E7
+            - FRAME "Frame 322", 215x46px, horizontal pad 10 20 10 20px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 100px, fill #E7E7E7
+    - FRAME "content-placeholder", 1280x497px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fill H:fixed, constraints left/top
+      - INSTANCE "Delete this for real content", 1280x497px, horizontal pad 92 24 92 24px gap 10px align center/min sizing W:fill H:fixed, constraints left/top, stroke #5555FF 3px
+        - FRAME "Frame 1", 447x313px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "1 - Detach instance the Layout instance 2 - Delete this and ", 238x150px, constraints left/top, fill #000066, text [Text/xl - i]
+          - RECTANGLE "detach 1", 195x313px, constraints left/top, fill image(hash: 97130e41942ef730f2f50f74420fb193152f8f86)
+    - INSTANCE "Footer", 1280x938px, vertical pad 16 24 16 24px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 1", 1232x38px, horizontal pad 0 0 0 0px gap 1074px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 1", 229x38px, horizontal pad 8 0 8 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Website last updated: July 8, 2022", 229x22px, constraints left/top, fill #1B1B1B, text [Text/sm - i]
+        - INSTANCE "social-media-menu", 140x36px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Github", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Twitter", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "social-media-link", 36x36px, horizontal pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Discord", 36x36px, horizontal pad 5.16 5.16 5.16 5.16px gap 0px align center/center sizing W:fill H:fill, constraints left/top
+      - INSTANCE "footer links", 1232x718px, horizontal pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Footer links column", 220.8x556px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "heading/H5", 220.8x26px, horizontal pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "text", 220.8x26px, constraints scale/scale, fill #1B1B1B, text [Heading Large/sm], [heading]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,1236 @@
+---
+name: news-app-ui-kit-community
+source_file: News App UI Kit (Community)
+source_page: All pages (3): Mockup, Component, Branding
+generated_at: 2026-07-25T09:15:48.332158+00:00
+---
+
+# News App UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: News App UI Kit (Community)
+- Figma page: All pages (3): Mockup, Component, Branding
+- Extracted at: 2026-07-25T09:15:48.332158+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- iOS/Key Label: [#000000]
+- iOS/Keyboard Background: [#C5C9D0E5]
+- iOS/Key Background Highlight: [#FFFFFF]
+- iOS/Key Background Dim: [#AEB3BE]
+- Primary/Default: [#1877F2]
+- Darkmode/Body: [#B0B3B8]
+- Grayscale/Body Text: [#4E4B66]
+- Grayscale/Title-active: [#050505]
+- Darkmode/Title: [#E4E6EB]
+- Darkmode/Input Background: [#3A3B3C]
+- Darkmode/Background: [#1C1E21]
+- Grayscale/Disable Input: [#EEF1F4]
+- Grayscale/Secondary Button: [#EEF1F4]
+- Grayscale/Placeholder: [#A0A3BD]
+- Grayscale/Button Text: [#667080]
+- Warning/Darkmode: [#FFD789]
+- Warning/Dark: [#946200]
+- Warning/Default: [#F4B740]
+- Success/Darkmode: [#34EAB9]
+- Success / Dark: [#00966D]
+- Success/Default: [#00BA88]
+- Error/Darkmode: [#FF84B7]
+- Error/Dark: [#C30052]
+- Error/Default: [#ED2E7E]
+- Grayscale/White: [#FFFFFF]
+- Error/Light: [#FFF3F8]
+- White: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #000000: 925 uses
+- #FFFFFF: 531 uses
+- #C4C4C4: 240 uses
+- #646464: 132 uses
+- #CC0000: 51 uses
+- #FFFFFF80: 44 uses
+- #F5F5F5: 40 uses
+- #1F2933: 30 uses
+- #B0B3B8: 24 uses
+- #EEF1F4: 19 uses
+- #50545B: 16 uses
+- #7B61FF: 15 uses
+- #EEF1F452: 14 uses
+- #FAFAFA: 14 uses
+- #34A853: 13 uses
+- #4285F4: 13 uses
+- #EB4335: 13 uses
+- #FBBC05: 13 uses
+- #3F3F3F: 12 uses
+
+## Typography Tokens
+- Display/Medium Bold: Poppins Bold (700), 32px / 48px, tracking 0.12px
+- Text/Medium: Poppins Regular (400), 16px / 24px, tracking 0.12px
+- Text/Small: Poppins Regular (400), 14px / 21px, tracking 0.12px
+- Link/Medium: Poppins SemiBold (600), 16px / 24px, tracking 0.12px
+- Display/Small Bold: Poppins Bold (700), 24px / 36px, tracking 0.12px
+- Link/X-Small: Poppins SemiBold (600), 13px / 19.5px, tracking 0.12px
+- Text/X-Small: Poppins Regular (400), 13px / 19.5px, tracking 0.12px
+- Link/Small: Poppins SemiBold (600), 14px / 21px, tracking 0.12px
+- Display/Small: Poppins Regular (400), 24px / 36px, tracking 0.12px
+- Display/Large: Poppins Regular (400), 48px / 72px, tracking 0.12px
+- Display/Large Bold: Poppins Bold (700), 48px / 72px, tracking 0.12px
+- Display/Medium: Poppins Regular (400), 32px / 48px, tracking 0.12px
+- Link/Large: Poppins SemiBold (600), 20px / 30px, tracking 0.12px
+- Text/Large: Poppins Regular (400), 20px / 30px, tracking 0.12px
+
+## Raw Typography (unstyled)
+- SF Pro Text Regular, 23px: 208 uses
+- Poppins SemiBold, 15px: 94 uses
+- SF Pro Text Regular, 24px: 40 uses
+- SF Pro Text Heavy, 10px: 36 uses
+- SF Pro Text Regular, 16px: 28 uses
+- SF Pro Text Regular, 17px: 24 uses
+- Arial ArialMT, 16px: 17 uses
+- Arial BoldMT, 16px: 6 uses
+- SF Pro Text Regular, 12px: 4 uses
+- Arial ArialMT, 14px: 3 uses
+
+## Typography Hierarchy
+- 48px - Display/Large (Poppins Regular)
+- 48px - Display/Large Bold (Poppins Bold)
+- 32px - Display/Medium (Poppins Regular)
+- 32px - Display/Medium Bold (Poppins Bold)
+- 24px - Display/Small (Poppins Regular)
+- 24px - Display/Small Bold (Poppins Bold)
+- 24px - SF Pro Text Regular, 24px (raw)
+- 23px - SF Pro Text Regular, 23px (raw)
+- 20px - Link/Large (Poppins SemiBold)
+- 20px - Text/Large (Poppins Regular)
+- 17px - SF Pro Text Regular, 17px (raw)
+- 16px - Arial ArialMT, 16px (raw)
+- 16px - Arial BoldMT, 16px (raw)
+- 16px - Link/Medium (Poppins SemiBold)
+- 16px - SF Pro Text Regular, 16px (raw)
+- 16px - Text/Medium (Poppins Regular)
+- 15px - Poppins SemiBold, 15px (raw)
+- 14px - Arial ArialMT, 14px (raw)
+- 14px - Link/Small (Poppins SemiBold)
+- 14px - Text/Small (Poppins Regular)
+- 13px - Link/X-Small (Poppins SemiBold)
+- 13px - Text/X-Small (Poppins Regular)
+- 12px - SF Pro Text Regular, 12px (raw)
+- 10px - SF Pro Text Heavy, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- iOS/Background Blur: [background_blur 54px]
+- Card/Shadow: [drop_shadow 10px offset 0 0 #00000014]
+- Mobile: [drop_shadow 25px offset 0 0 #00000014]
+- Bar/Shadow: [drop_shadow 4px offset 0 -2 #0000000D]
+
+## Grid Styles
+- iOS/Alphabet 20 Column: columns count 20, section 15.3px, gutter 6px, align stretch
+- Large: columns count 4, section 551.75px, gutter 20px, align stretch + rows count 1000, section 8px, gutter 8px, align min
+- Detail: columns count 4, section 384px, gutter 24px, align stretch + rows count 1000, section 8px, gutter 8px, align min
+
+## Component Families
+- Notification
+- Bottom Navigation Bar
+- Comment
+- Author Card
+- Topics & Author Card
+- Cards
+- OTP
+- Input field
+- Toggle
+- Radio button
+- Checkbox
+- Button
+- Add
+- News Author
+- Profile
+- Icon
+- News Images
+- Topic Images
+- Image
+
+## Component Specs
+- Notification: size 380x99px, radius 6px, horizontal layout, padding 14 8 14 8px, gap 16px, align min/center, sizing W:fixed H:fixed, fill Grayscale/Secondary Button, text [Text/X-Small, Text/Medium] | variants: Type: Default/Follow; Darkmode: Off/On
+- Bottom Navigation Bar: size 428x78px, horizontal layout, padding 34 48 34 48px, gap 32px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Text/Small] | variants: State: Bookmark/Explore/Home/Profile; Darkmode: False/True
+- Comment: size 374x114px, horizontal layout, padding 8 8 8 8px, gap 8px, sizing W:fixed H:fixed, fill #F3F3F3, text [Text/X-Small, Text/Medium, Link/Medium] | variants: Type: Default/Subcomment; More: False/True; Darkmode: False/True
+- Author Card: size 113x158px, radius 6px, vertical layout, padding 5 8 5 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FAFAFA, text [Link/Medium, Text/Medium] | variants: Follow: False/True; Darkmode: False/True
+- Topics & Author Card: size 380x86px, radius 6px, horizontal layout, padding 8 8 8 8px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Link/Medium, Text/Small, Text/Medium] | variants: Type: Author/Topic; State: Off/On; Darkmode: False/True
+- Cards: size 380x303px, radius 6px, vertical layout, padding 8 8 8 8px, gap 8px, sizing W:fixed H:fixed, text [Text/X-Small, Link/X-Small, Text/Medium] | variants: Type: Card Horizontal/Card Vertical; Darkmode: False/True
+- OTP: size 304x64px, horizontal layout, padding 0 0 0 0px, gap 16px, sizing W:fixed H:fixed | variants: State: Error/Filled/Initial
+- Input field: size 379x73px, vertical layout, padding 0 0 0 0px, gap 4px, align max/min, sizing W:fixed H:fixed, text [Text/Small] | variants: State: Active/Disabled/Error/Filled/Initial/Typing; Icon: False/True; Darkmode: False/True
+- Toggle: size 40x24px | variants: State: Off/On
+- Radio button: size 24x24px, radius 3px | variants: State: Off/On
+- Checkbox: size 24x24px, fill #FFFFFF | variants: State: Off/On
+- Button: size 148x50px, radius 6px, horizontal layout, padding 13 24 13 24px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Primary/Default, text [Link/Medium] | variants: Type: Outline/Primary/Secondary; Left Icon: Off/On; Right Icon: Off/On
+- Add: size 54x54px, fill #FFFFFF
+- News Author: size 24x24px, fill #FFFFFF | variants: Author: BBC/Buzzfeed/CNBC/CNET/CNN/Daily Mail/Image/MSN/SCMP/Time/USA Today/Vice/Vox
+- Profile: size 140x140px | variants: Image: False/True
+- Icon: size 24x24px, fill #FFFFFF | variants: Icon: Add/Add Box/Align Center/Align Left/Back/Bold/Bookmark/Check/Close/Comment/Compass/Delete/Down/Edit/Eye/Eye Close/Facebook/Filter/Font Size/Google/Heart/Home/Image/Italic/Link/List Ordered/List Unordered/Lock/Logout/Mail/Message/Moon/More Hor/More Ver/Notification/Profile/Question/Reply/Right/Search/Send/Setting/Share/Time/User/figma; Type: Filled/Outline
+- News Images: size 364x183px
+- Topic Images: size 256x256px
+- Image: size 40x40px
+
+## Most-Used Styles
+- Grayscale/Body Text: 953 uses
+- Darkmode/Body: 532 uses
+- Grayscale/White: 492 uses
+- Primary/Default: 469 uses
+- Text/Small: 435 uses
+- Text/Medium: 426 uses
+- Grayscale/Title-active: 363 uses
+- Link/Medium: 312 uses
+- Text/X-Small: 277 uses
+- iOS/Key Label: 206 uses
+- Darkmode/Title: 183 uses
+- iOS/Key Background Highlight: 132 uses
+- Link/X-Small: 83 uses
+- Darkmode/Input Background: 80 uses
+- Darkmode/Background: 77 uses
+- Text/Large: 72 uses
+- White: 58 uses
+- Display/Medium Bold: 56 uses
+- Bar/Shadow: 45 uses
+- Grayscale/Secondary Button: 43 uses
+- Grayscale/Button Text: 38 uses
+- Error/Dark: 36 uses
+- Grayscale/Placeholder: 32 uses
+- Card/Shadow: 22 uses
+- Error/Light: 20 uses
+- Error/Darkmode: 18 uses
+- Display/Large Bold: 13 uses
+- iOS/Background Blur: 12 uses
+- iOS/Key Background Dim: 12 uses
+- Display/Small Bold: 10 uses
+- Error/Default: 10 uses
+- Mobile: 10 uses
+- Display/Small: 8 uses
+- Grayscale/Disable Input: 8 uses
+- Link/Large: 8 uses
+- iOS/Keyboard Background: 6 uses
+- Display/Medium: 2 uses
+- Display/Large: 1 use
+- Link/Small: 1 use
+- Success / Dark: 1 use
+- Success/Darkmode: 1 use
+- Success/Default: 1 use
+- Warning/Dark: 1 use
+- Warning/Darkmode: 1 use
+- Warning/Default: 1 use
+
+## Layout & Structure
+Screen: Mockup / login
+- FRAME "login", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x654px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x240px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello Again!", 167x144px, constraints left/top, fill Grayscale/Body Text, text [Display/Large Bold], [heading]
+        - TEXT "Welcome back you’ve been missed", 222x60px, constraints left/top, fill Grayscale/Body Text, text [Text/Large]
+      - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+      - FRAME "Frame 175", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 170", 379x24px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+          - TEXT "Forgot the password ?", 158x21px, constraints left/top, fill #5890FF, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "don’t have an account ? Sign Up", 231x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+
+Screen: Mockup / onboarding1
+- FRAME "onboarding1", 428x926px, constraints left/top, fill #FFFFFF
+  - INSTANCE "News Images", 428x584px, constraints left/top
+    - RECTANGLE "Rectangle 1442", 428x584px, constraints scale/scale, fill #C4C4C4
+    - RECTANGLE "unsplash:Nrtlz5D2AP8", 428x778.67px, constraints scale/scale, fill image(hash: 91081d4291c3fe79ef953baba0e854742592dfa8)
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 226", 52x14px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 24", 14x14px, constraints left/top, fill Primary/Default
+      - ELLIPSE "Ellipse 25", 14x14px, constraints left/top, fill Grayscale/Placeholder
+      - ELLIPSE "Ellipse 26", 14x14px, constraints left/top, fill Grayscale/Placeholder
+    - FRAME "Frame 227", 85x50px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Button", 85x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 37x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+  - FRAME "Frame 249", 428x212px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 248", 318x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem Ipsum is simply dummy", 279x72px, constraints left/top, fill #000000, text [Display/Small Bold], [heading]
+      - TEXT "Lorem Ipsum is simply dummy text of the printing and typeset", 318x48px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+
+Screen: Mockup / onboarding1
+- FRAME "onboarding1", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Frame 222", 315x173px, vertical pad 666 49 666 49px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #C4C4C4
+    - VECTOR "Vector", 217x66px, constraints left/top, fill Primary/Default
+
+Screen: Mockup / onboarding1
+- FRAME "onboarding1", 428x926px, constraints left/top, fill Darkmode/Background
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Frame 222", 315x173px, vertical pad 76 49 76 49px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill #C4C4C4
+    - VECTOR "Vector", 217x66px, constraints left/top, fill Primary/Default
+
+Screen: Mockup / onboarding1
+- FRAME "onboarding1", 428x926px, constraints left/top, fill Darkmode/Background
+  - INSTANCE "News Images", 428x584px, constraints left/top
+    - RECTANGLE "Rectangle 1442", 428x584px, constraints scale/scale, fill #C4C4C4
+    - RECTANGLE "unsplash:Nrtlz5D2AP8", 428x778.67px, constraints scale/scale, fill image(hash: 91081d4291c3fe79ef953baba0e854742592dfa8)
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill Darkmode/Background
+    - FRAME "Frame 226", 52x14px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 24", 14x14px, constraints left/top, fill Primary/Default
+      - ELLIPSE "Ellipse 25", 14x14px, constraints left/top, fill Grayscale/Placeholder
+      - ELLIPSE "Ellipse 26", 14x14px, constraints left/top, fill Grayscale/Placeholder
+    - FRAME "Frame 227", 136x50px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 41x24px, constraints left/top, fill Darkmode/Body, text [Link/Medium]
+      - INSTANCE "Button", 85x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 37x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+  - FRAME "Frame 247", 428x212px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 244", 318x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem Ipsum is simply dummy", 279x72px, constraints left/top, fill Darkmode/Title, text [Display/Small Bold], [heading]
+      - TEXT "Lorem Ipsum is simply dummy text of the printing and typeset", 318x48px, constraints left/top, fill Darkmode/Body, text [Text/Medium]
+
+Screen: Mockup / onboarding2
+- FRAME "onboarding2", 428x926px, constraints left/top, fill #FFFFFF
+  - INSTANCE "News Images", 428x584px, constraints left/top
+    - RECTANGLE "Rectangle 1442", 428x584px, constraints scale/scale, fill #C4C4C4
+    - RECTANGLE "unsplash:1kdIG_258bU", 443.29x1595.63px, constraints scale/scale, fill image(hash: 93e2ff23fbf4d6a893f45a9f0f8a6f42c6dc985b)
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 226", 52x14px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 24", 14x14px, constraints left/top, fill Grayscale/Placeholder
+      - ELLIPSE "Ellipse 25", 14x14px, constraints left/top, fill Primary/Default
+      - ELLIPSE "Ellipse 26", 14x14px, constraints left/top, fill Grayscale/Placeholder
+    - FRAME "Frame 227", 136x50px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 41x24px, constraints left/top, fill Darkmode/Body, text [Link/Medium]
+      - INSTANCE "Button", 85x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 37x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+  - FRAME "Frame 249", 428x212px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 248", 318x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem Ipsum is simply dummy", 279x72px, constraints left/top, fill #000000, text [Display/Small Bold], [heading]
+      - TEXT "Lorem Ipsum is simply dummy text of the printing and typeset", 318x48px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+
+Screen: Mockup / onboarding2
+- FRAME "onboarding2", 428x926px, constraints left/top, fill Darkmode/Background
+  - INSTANCE "News Images", 428x584px, constraints left/top
+    - RECTANGLE "Rectangle 1442", 428x584px, constraints scale/scale, fill #C4C4C4
+    - RECTANGLE "unsplash:1kdIG_258bU", 443.29x1595.63px, constraints scale/scale, fill image(hash: 93e2ff23fbf4d6a893f45a9f0f8a6f42c6dc985b)
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill Darkmode/Background
+    - FRAME "Frame 226", 52x14px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 24", 14x14px, constraints left/top, fill Grayscale/Placeholder
+      - ELLIPSE "Ellipse 25", 14x14px, constraints left/top, fill Primary/Default
+      - ELLIPSE "Ellipse 26", 14x14px, constraints left/top, fill Grayscale/Placeholder
+    - FRAME "Frame 227", 136x50px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 41x24px, constraints left/top, fill Darkmode/Body, text [Link/Medium]
+      - INSTANCE "Button", 85x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 37x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+  - FRAME "Frame 247", 428x212px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 244", 318x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem Ipsum is simply dummy", 279x72px, constraints left/top, fill Darkmode/Title, text [Display/Small Bold], [heading]
+      - TEXT "Lorem Ipsum is simply dummy text of the printing and typeset", 318x48px, constraints left/top, fill Darkmode/Body, text [Text/Medium]
+
+Screen: Mockup / onboarding3
+- FRAME "onboarding3", 428x926px, constraints left/top, fill #FFFFFF
+  - INSTANCE "News Images", 428x584px, constraints left/top
+    - RECTANGLE "Rectangle 1442", 428x584px, constraints scale/scale, fill #C4C4C4
+    - FRAME "Frame 207", 446.81x749.95px, vertical pad 65 130 65 130px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, fill image(hash: 1b7087b209a43de14c39a0b2288e509e94fe5809)
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 226", 52x14px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 24", 14x14px, constraints left/top, fill Grayscale/Placeholder
+      - ELLIPSE "Ellipse 25", 14x14px, constraints left/top, fill Grayscale/Placeholder
+      - ELLIPSE "Ellipse 26", 14x14px, constraints left/top, fill Primary/Default
+    - FRAME "Frame 227", 193x50px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 41x24px, constraints left/top, fill Darkmode/Body, text [Link/Medium]
+      - INSTANCE "Button", 142x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 94x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+  - FRAME "Frame 249", 428x212px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 248", 318x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem Ipsum is simply dummy", 279x72px, constraints left/top, fill #000000, text [Display/Small Bold], [heading]
+      - TEXT "Lorem Ipsum is simply dummy text of the printing and typeset", 318x48px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+
+Screen: Mockup / onboarding3
+- FRAME "onboarding3", 428x926px, constraints left/top, fill Darkmode/Background
+  - INSTANCE "News Images", 428x584px, constraints left/top
+    - RECTANGLE "Rectangle 1442", 428x584px, constraints scale/scale, fill #C4C4C4
+    - FRAME "Frame 207", 446.81x749.95px, vertical pad 65 130 65 130px gap 8px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, fill image(hash: 1b7087b209a43de14c39a0b2288e509e94fe5809)
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill Darkmode/Background
+    - FRAME "Frame 226", 52x14px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - ELLIPSE "Ellipse 24", 14x14px, constraints left/top, fill Grayscale/Placeholder
+      - ELLIPSE "Ellipse 25", 14x14px, constraints left/top, fill Grayscale/Placeholder
+      - ELLIPSE "Ellipse 26", 14x14px, constraints left/top, fill Primary/Default
+    - FRAME "Frame 227", 193x50px, horizontal pad 0 0 0 0px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Back", 41x24px, constraints left/top, fill Darkmode/Body, text [Link/Medium]
+      - INSTANCE "Button", 142x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 94x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+  - FRAME "Frame 247", 428x212px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 244", 318x120px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Lorem Ipsum is simply dummy", 279x72px, constraints left/top, fill Darkmode/Title, text [Display/Small Bold], [heading]
+      - TEXT "Lorem Ipsum is simply dummy text of the printing and typeset", 318x48px, constraints left/top, fill Darkmode/Body, text [Text/Medium]
+
+Screen: Mockup / login
+- FRAME "login", 428x926px, constraints left/top, fill #1C1E21
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x654px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x240px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello Again!", 167x144px, constraints left/top, fill Grayscale/Body Text, text [Display/Large Bold], [heading]
+        - TEXT "Welcome back you’ve been missed", 222x60px, constraints left/top, fill #B0B3B8, text [Text/Large]
+      - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+      - FRAME "Frame 175", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 170", 379x24px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+          - TEXT "Forgot the password ?", 158x21px, constraints left/top, fill #5890FF, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "don’t have an account ? Sign Up", 231x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+
+Screen: Mockup / login-error
+- FRAME "login-error", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x679px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x240px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello Again!", 167x144px, constraints left/top, fill Grayscale/Body Text, text [Display/Large Bold], [heading]
+        - TEXT "Welcome back you’ve been missed", 222x60px, constraints left/top, fill Grayscale/Body Text, text [Text/Large]
+      - INSTANCE "Input field", 379x98px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Error/Light, stroke Error/Dark 1px
+          - TEXT "Input text", 325x21px, constraints left/top, fill Grayscale/Title-active, text [Text/Small]
+          - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 12.73x12.73px, constraints scale/scale, fill Error/Dark
+        - FRAME "Frame 2", 144x21px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill Error/Dark
+          - TEXT "Label", 124x21px, constraints left/top, fill Error/Dark, text [Text/Small]
+      - FRAME "Frame 175", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+            - TEXT "Input te|", 325x21px, constraints left/top, fill #000000, text [Text/Small]
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 171", 379x24px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+          - TEXT "Forgot the password ?", 158x21px, constraints left/top, fill #5890FF, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "don’t have an account ? Sign Up", 231x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+
+Screen: Mockup / login-error
+- FRAME "login-error", 428x926px, constraints left/top, fill #1C1E21
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x679px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x240px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello Again!", 167x144px, constraints left/top, fill Grayscale/Body Text, text [Display/Large Bold], [heading]
+        - TEXT "Welcome back you’ve been missed", 222x60px, constraints left/top, fill #B0B3B8, text [Text/Large]
+      - INSTANCE "Input field", 379x98px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Error/Light, stroke Error/Darkmode 1px
+          - TEXT "Input text", 325x21px, constraints left/top, fill Darkmode/Background, text [Text/Small]
+          - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 12.73x12.73px, constraints scale/scale, fill Error/Darkmode
+        - FRAME "Frame 2", 144x21px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill Error/Darkmode
+          - TEXT "Label", 124x21px, constraints left/top, fill Error/Darkmode, text [Text/Small]
+      - FRAME "Frame 175", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+            - TEXT "Input te|", 325x21px, constraints left/top, fill Grayscale/White, text [Text/Small]
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 171", 379x24px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+          - TEXT "Forgot the password ?", 158x21px, constraints left/top, fill #5890FF, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "don’t have an account ? Sign Up", 231x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+
+Screen: Mockup / login-filled
+- FRAME "login-filled", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x654px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x240px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello Again!", 167x144px, constraints left/top, fill Grayscale/Body Text, text [Display/Large Bold], [heading]
+        - TEXT "Welcome back you’ve been missed", 222x60px, constraints left/top, fill Grayscale/Body Text, text [Text/Large]
+      - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+          - TEXT "Input text", 359x21px, constraints left/top, fill #000000, text [Text/Small]
+      - FRAME "Frame 176", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+            - TEXT "Input te|", 325x21px, constraints left/top, fill #000000, text [Text/Small]
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 171", 379x24px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+          - TEXT "Forgot the password ?", 158x21px, constraints left/top, fill #5890FF, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "don’t have an account ? Sign Up", 231x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+
+Screen: Mockup / login-filled
+- FRAME "login-filled", 428x926px, constraints left/top, fill #1C1E21
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x654px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x240px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello Again!", 167x144px, constraints left/top, fill Grayscale/Body Text, text [Display/Large Bold], [heading]
+        - TEXT "Welcome back you’ve been missed", 222x60px, constraints left/top, fill #B0B3B8, text [Text/Large]
+      - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+          - TEXT "Input text", 359x21px, constraints left/top, fill Grayscale/White, text [Text/Small]
+      - FRAME "Frame 176", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+            - TEXT "Input te|", 325x21px, constraints left/top, fill Grayscale/White, text [Text/Small]
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 171", 379x24px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+          - TEXT "Forgot the password ?", 158x21px, constraints left/top, fill #5890FF, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "don’t have an account ? Sign Up", 231x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+
+Screen: Mockup / signup
+- FRAME "signup", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x569px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x155px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello!", 143x72px, constraints left/top, fill Primary/Default, text [Display/Large Bold], [heading]
+        - TEXT "Signup to get Started", 215x30px, constraints left/top, fill Grayscale/Body Text, text [Text/Large]
+      - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+      - FRAME "Frame 203", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 170", 379x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "Already have an account ? Login", 233x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+
+Screen: Mockup / signup
+- FRAME "signup", 428x926px, constraints left/top, fill #1C1E21
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x554px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x140px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello!", 143x72px, constraints left/top, fill Primary/Default, text [Display/Large Bold], [heading]
+        - TEXT "Signup to get Started", 215x30px, constraints left/top, fill #B0B3B8, text [Text/Large]
+      - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+      - FRAME "Frame 203", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 170", 379x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "Already have an account ? Login", 233x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+
+Screen: Mockup / signup-error
+- FRAME "signup-error", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x594px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x155px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello!", 143x72px, constraints left/top, fill Primary/Default, text [Display/Large Bold], [heading]
+        - TEXT "Signup to get Started", 215x30px, constraints left/top, fill Grayscale/Body Text, text [Text/Large]
+      - INSTANCE "Input field", 379x98px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Error/Light, stroke Error/Dark 1px
+          - TEXT "Input text", 325x21px, constraints left/top, fill Grayscale/Title-active, text [Text/Small]
+          - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 12.73x12.73px, constraints scale/scale, fill Error/Dark
+        - FRAME "Frame 2", 144x21px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill Error/Dark
+          - TEXT "Label", 124x21px, constraints left/top, fill Error/Dark, text [Text/Small]
+      - FRAME "Frame 203", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+            - TEXT "Input te|", 325x21px, constraints left/top, fill #000000, text [Text/Small]
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 170", 379x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "Already have an account ? Login", 233x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+
+Screen: Mockup / signup-error
+- FRAME "signup-error", 428x926px, constraints left/top, fill #1C1E21
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x579px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x140px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello!", 143x72px, constraints left/top, fill Primary/Default, text [Display/Large Bold], [heading]
+        - TEXT "Signup to get Started", 215x30px, constraints left/top, fill #B0B3B8, text [Text/Large]
+      - INSTANCE "Input field", 379x98px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Error/Light, stroke Error/Darkmode 1px
+          - TEXT "Input text", 325x21px, constraints left/top, fill Darkmode/Background, text [Text/Small]
+          - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 12.73x12.73px, constraints scale/scale, fill Error/Darkmode
+        - FRAME "Frame 2", 144x21px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 16x16px, constraints scale/scale
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill Error/Darkmode
+          - TEXT "Label", 124x21px, constraints left/top, fill Error/Darkmode, text [Text/Small]
+      - FRAME "Frame 203", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+            - TEXT "Input te|", 325x21px, constraints left/top, fill Grayscale/White, text [Text/Small]
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 170", 379x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "Already have an account ? Login", 233x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+
+Screen: Mockup / signup-filled
+- FRAME "signup-filled", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x569px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x155px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello!", 143x72px, constraints left/top, fill Primary/Default, text [Display/Large Bold], [heading]
+        - TEXT "Signup to get Started", 215x30px, constraints left/top, fill Grayscale/Body Text, text [Text/Large]
+      - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+          - TEXT "Input text", 359x21px, constraints left/top, fill #000000, text [Text/Small]
+      - FRAME "Frame 203", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+            - TEXT "Input te|", 325x21px, constraints left/top, fill #000000, text [Text/Small]
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 170", 379x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "Already have an account ? Login", 233x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+
+Screen: Mockup / signup-filled
+- FRAME "signup-filled", 428x926px, constraints left/top, fill #1C1E21
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Frame 173", 427x882px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 172", 379x554px, vertical pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 171", 379x140px, vertical pad 0 0 0 0px gap 4px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Hello!", 143x72px, constraints left/top, fill Primary/Default, text [Display/Large Bold], [heading]
+        - TEXT "Signup to get Started", 215x30px, constraints left/top, fill #B0B3B8, text [Text/Large]
+      - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 80x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+          - TEXT "Input text", 359x21px, constraints left/top, fill Grayscale/White, text [Text/Small]
+      - FRAME "Frame 203", 379x105px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Input field", 379x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Label", 76x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+          - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+            - TEXT "Input te|", 325x21px, constraints left/top, fill Grayscale/White, text [Text/Small]
+            - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Frame 170", 379x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 200", 135x24px, horizontal pad 0 0 0 0px gap 4px align center/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Checkbox", 24x24px, constraints left/top, radius 3px
+            - TEXT "Remember me", 107x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+      - INSTANCE "Button", 379x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+        - TEXT "Button label", 44x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+      - TEXT "or continue with", 114x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+      - FRAME "Frame 202", 379x48px, horizontal pad 0 0 0 0px gap 16px align space_between/min sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale
+            - ELLIPSE "bg", 21x21px, constraints scale/scale, fill gradient_linear(#18ACFE 0% | #0163E0 100%)
+            - VECTOR "f", 9x16.5px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Button label", 81x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+        - INSTANCE "Button", 174x48px, horizontal pad 12 24 12 16px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "vector", 10.29x9.87px, constraints scale/scale, fill #4285F4
+            - VECTOR "vector", 16.67x8.42px, constraints scale/scale, fill #34A853
+            - VECTOR "vector", 4.62x9.48px, constraints scale/scale, fill #FBBC05
+            - VECTOR "vector", 16.74x8.42px, constraints scale/scale, fill #EB4335
+          - TEXT "Button label", 59x24px, constraints left/top, fill Grayscale/Button Text, text [Link/Medium]
+      - TEXT "Already have an account ? Login", 233x21px, constraints left/top, fill #B0B3B8, text [Text/Small]
+
+Screen: Mockup / forgotpassword
+- FRAME "forgotpassword", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Frame 212", 428x882px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 211", 380x278px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 16x15.56px, constraints scale/scale, fill Grayscale/Body Text
+      - FRAME "Frame 213", 325x149px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Forgot Password ?", 186x96px, constraints left/top, fill Grayscale/Body Text, text [Display/Medium Bold], [heading]
+        - TEXT "Don’t worry! it happens. Please enter the address associated", 325x48px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+      - INSTANCE "Input field", 380x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 178x21px, constraints left/top, fill Grayscale/Body Text, text [Text/Small]
+        - FRAME "Text Input", 380x48px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect Bar/Shadow
+    - INSTANCE "Button", 380x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+      - TEXT "Button label", 60x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+
+Screen: Mockup / forgotpassword
+- FRAME "forgotpassword", 428x926px, constraints left/top, fill Darkmode/Background
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Frame 212", 428x882px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 211", 380x278px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 16x15.56px, constraints scale/scale, fill Darkmode/Body
+      - FRAME "Frame 213", 325x149px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Forgot Password ?", 186x96px, constraints left/top, fill Darkmode/Title, text [Display/Medium Bold], [heading]
+        - TEXT "Don’t worry! it happens. Please enter the address associated", 325x48px, constraints left/top, fill Darkmode/Body, text [Text/Medium]
+      - INSTANCE "Input field", 380x73px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 178x21px, constraints left/top, fill Darkmode/Body, text [Text/Small]
+        - FRAME "Text Input", 380x48px, horizontal pad 10 10 10 10px gap 10px sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Darkmode/Background, effect Bar/Shadow
+    - INSTANCE "Button", 380x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+      - TEXT "Button label", 60x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+
+Screen: Mockup / forgotpassword
+- FRAME "forgotpassword", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Frame 212", 431x882px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 211", 383x445px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 16x15.56px, constraints scale/scale, fill Grayscale/Body Text
+      - FRAME "Frame 213", 380x173px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Forgot Password ?", 186x96px, constraints left/top, fill Grayscale/Body Text, text [Display/Medium Bold], [heading]
+        - TEXT "Don’t worry! it happens. Please select the email or number a", 380x72px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+      - FRAME "Frame 218", 383x100px, horizontal pad 18 16 18 16px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+        - FRAME "Frame 220", 289x64px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 216", 64x64px, horizontal pad 20 20 20 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+            - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 217", 209x50px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "via Email:", 67x21px, constraints left/top, fill Grayscale/Button Text, text [Text/Small]
+            - TEXT "example@youremail.com", 209x24px, constraints left/top, fill Grayscale/Title-active, text [Text/Medium]
+        - INSTANCE "Radio button", 24x24px, constraints left/top, radius 3px
+          - FRAME "Frame 1", 20x20px, constraints left/top, radius 3px
+            - VECTOR "Vector", 20x20px, constraints center/center, fill Primary/Default
+      - FRAME "Frame 219", 383x100px, horizontal pad 18 16 18 16px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+        - FRAME "Frame 221", 242x64px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 216", 64x64px, horizontal pad 20 20 20 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+            - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 217", 162x50px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "via SMS:", 57x21px, constraints left/top, fill Grayscale/Button Text, text [Text/Small]
+            - TEXT "+62-8421-4512-2531", 162x24px, constraints left/top, fill Grayscale/Title-active, text [Text/Medium]
+        - INSTANCE "Radio button", 24x24px, constraints left/top, radius 3px
+          - FRAME "Frame 1", 20x20px, constraints left/top, radius 3px
+            - VECTOR "Vector", 20x20px, constraints center/center, fill #6670804D
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect Bar/Shadow
+    - INSTANCE "Button", 380x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+      - TEXT "Button label", 60x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+
+Screen: Mockup / forgotpassword
+- FRAME "forgotpassword", 428x926px, constraints left/top, fill Darkmode/Background
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/White, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/White 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/White, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/White
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/White
+  - FRAME "Frame 212", 431x882px, vertical pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 211", 383x445px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 24x24px, constraints scale/scale
+        - VECTOR "Vector", 16x15.56px, constraints scale/scale, fill Darkmode/Body
+      - FRAME "Frame 213", 380x173px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Forgot Password ?", 186x96px, constraints left/top, fill Darkmode/Title, text [Display/Medium Bold], [heading]
+        - TEXT "Don’t worry! it happens. Please select the email or number a", 380x72px, constraints left/top, fill Darkmode/Body, text [Text/Medium]
+      - FRAME "Frame 218", 383x100px, horizontal pad 18 16 18 16px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+        - FRAME "Frame 220", 289x64px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 216", 64x64px, horizontal pad 20 20 20 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+            - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 217", 209x50px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "via Email:", 67x21px, constraints left/top, fill Grayscale/Button Text, text [Text/Small]
+            - TEXT "example@youremail.com", 209x24px, constraints left/top, fill Grayscale/Title-active, text [Text/Medium]
+        - INSTANCE "Radio button", 24x24px, constraints left/top, radius 3px
+          - FRAME "Frame 1", 20x20px, constraints left/top, radius 3px
+            - VECTOR "Vector", 20x20px, constraints center/center, fill Primary/Default
+      - FRAME "Frame 219", 383x100px, horizontal pad 18 16 18 16px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Grayscale/Secondary Button
+        - FRAME "Frame 221", 242x64px, horizontal pad 0 0 0 0px gap 16px align center/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 216", 64x64px, horizontal pad 20 20 20 20px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+            - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - FRAME "Frame 217", 162x50px, vertical pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "via SMS:", 57x21px, constraints left/top, fill Grayscale/Button Text, text [Text/Small]
+            - TEXT "+62-8421-4512-2531", 162x24px, constraints left/top, fill Grayscale/Title-active, text [Text/Medium]
+        - INSTANCE "Radio button", 24x24px, constraints left/top, radius 3px
+          - FRAME "Frame 1", 20x20px, constraints left/top, radius 3px
+            - VECTOR "Vector", 20x20px, constraints center/center, fill #6670804D
+  - FRAME "Auto Layout Horizontal", 428x130px, horizontal pad 40 24 40 24px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Darkmode/Background, effect Bar/Shadow
+    - INSTANCE "Button", 380x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+      - TEXT "Button label", 60x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+
+Screen: Mockup / SelectCountry
+- FRAME "SelectCountry", 428x926px, constraints left/top, fill #FFFFFF
+  - FRAME "Auto Layout Horizontal", 428x760px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Auto Layout Vertical", 380x728px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 147", 272x24px, horizontal pad 0 0 0 0px gap 95px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 16x15.56px, constraints scale/scale, fill Grayscale/Body Text
+        - TEXT "Select your Country", 163x24px, constraints left/top, fill #000000, text [Link/Medium]
+      - INSTANCE "Input field", 379x48px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill White, stroke Grayscale/Body Text 1px
+          - TEXT "Input te|", 325x21px, constraints left/top, fill Grayscale/Placeholder, text [Text/Small]
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 20.31x20.31px, constraints scale/scale, fill Grayscale/Body Text
+      - FRAME "Auto Layout Vertical", 380x624px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "AF", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~9 shapes]
+          - TEXT "Afghanistan", 99x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+        - FRAME "Frame 12", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "AL", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Albania", 63x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+        - FRAME "Frame 13", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "DZ", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+          - TEXT "Algeria", 57x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+        - FRAME "Frame 14", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "AD", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+          - TEXT "Andorra", 66x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+        - FRAME "Frame 15", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "AO", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~9 shapes]
+          - TEXT "Angola", 58x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+        - FRAME "Frame 16", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "AR", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - TEXT "Argentina", 80x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+        - FRAME "Frame 17", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "AM", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+          - TEXT "Armenia", 69x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+        - FRAME "Frame 18", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "AU", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~12 shapes]
+          - TEXT "Australia", 72x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+        - FRAME "Frame 19", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "AT", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+          - TEXT "Austria", 57x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+        - FRAME "Frame 20", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+          - INSTANCE "Country Flags/Asia/Japan", 32x32px, constraints scale/scale
+            - GROUP "AZ", 32x22.86px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~10 shapes]
+          - TEXT "Azerbaijan", 86x24px, constraints left/top, fill Grayscale/Body Text, text [Text/Medium]
+  - FRAME "system / light / status bar / default", 428x44px, constraints left/top
+    - TEXT "Time", 54x23px, constraints left/center, fill Grayscale/Title-active, text [Poppins SemiBold, 15px]
+    - GROUP "Group", 24.33x11.33px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 22x11.33px, constraints right/center, radius 2.67px, stroke Grayscale/Title-active 1px, opacity 35%
+      - VECTOR "Vector", 1.33x4px, constraints right/center, fill Grayscale/Title-active, opacity 40%
+      - RECTANGLE "Rectangle", 18x7.33px, constraints right/center, radius 1.33px, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 15.33x11px, constraints right/top, fill Grayscale/Title-active
+    - BOOLEAN_OPERATION "Exclude", 17x10.67px, constraints right/top, fill Grayscale/Title-active
+  - FRAME "Auto Layout Horizontal", 428x130px, vertical pad 40 24 40 24px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect Bar/Shadow
+    - INSTANCE "Button", 380x50px, horizontal pad 13 24 13 24px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill Primary/Default
+      - TEXT "Button label", 37x24px, constraints left/top, fill Grayscale/White, text [Link/Medium]
+
+Screen: Mockup / SelectCountry
+- FRAME "SelectCountry", 428x926px, constraints left/top, fill Darkmode/Background
+  - FRAME "Auto Layout Horizontal", 428x760px, horizontal pad 24 24 8 24px gap 10px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Auto Layout Vertical", 380x728px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 147", 272x24px, horizontal pad 0 0 0 0px gap 95px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icon", 24x24px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 24x24px, constraints scale/scale
+          - VECTOR "Vector", 16x15.56px, constraints scale/scale, fill Darkmode/Body
+        - TEXT "Select your Country", 163x24px, constraints left/top, fill Darkmode/Title, text [Link/Medium]
+      - INSTANCE "Input field", 379x48px, vertical pad 0 0 0 0px gap 4px align max/min sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Text Input", 379x48px, horizontal pad 10 10 10 10px gap 10px align max/center sizing W:fill H:fixed, constraints left/top, radius 6px, fill Darkmode/Input Background
+          - TEXT "Input te|", 325x21px, constraints left/top, fill Grayscale/White, text [Text/Small]
+          - INSTANCE "Icon", 24x24px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "Vector", 24x24px, constraints scale/scale
+            - VECTOR "Vector", 20.31x20.31px, constraints scale/scale, fill Darkmode/Body
+      - FRAME "Auto Layout Vertical", 380x624px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 380x48px, horizontal pad 8 12 8 12px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #EEF1F4
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

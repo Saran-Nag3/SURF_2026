@@ -1,0 +1,642 @@
+---
+name: strava-fitness-app-community
+source_file: Strava Fitness App (Community)
+source_page: All pages (2): cover, design
+generated_at: 2026-07-25T09:21:34.762012+00:00
+---
+
+# Strava Fitness App (Community) Design Guidelines
+
+## Source
+- Figma file: Strava Fitness App (Community)
+- Figma page: All pages (2): cover, design
+- Extracted at: 2026-07-25T09:21:34.762012+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Colors/Black/40%: [#04041566]
+- Colors/Black/100%: [#040415]
+
+## Raw Colors (unstyled)
+- #000000: 196 uses
+- #FFFFFF: 138 uses
+- #161616: 90 uses
+- #E8E8E8: 64 uses
+- #FE4C00: 45 uses
+- #797979: 38 uses
+- #231F20: 32 uses
+- #040415: 26 uses
+- #D9D9D9: 25 uses
+- #6D6C6C: 22 uses
+- #FFE5D9: 11 uses
+- #EDA600: 10 uses
+- #D1D3D4: 9 uses
+- #FC4C01: 7 uses
+- #F8E7E9: 6 uses
+- #444444: 5 uses
+- #12131A: 4 uses
+- #303030: 4 uses
+- #424242: 4 uses
+- #979797: 4 uses
+- #FDA580: 4 uses
+
+## Typography Tokens
+- Paragraph/03: Circular Std Book (400), 14px / 24px, tracking 0px
+- roboto: Roboto Regular (400), 14px / auto, tracking -0.7px
+- Paragraph/02: Circular Std Book (400), 16px / 26px, tracking 0px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 8px: 28 uses
+- Lato Regular, 18px: 22 uses
+- Roboto Regular, 16px: 21 uses
+- NATS NATS, 21.6px: 11 uses
+- Lato Regular, 16px: 6 uses
+- Roboto Bold, 16px: 6 uses
+- Roboto Light, 12px: 6 uses
+- Roboto Bold, 20px: 5 uses
+- Roboto Regular, 12px: 5 uses
+- Roboto Regular, 20px: 5 uses
+- Roboto Regular, 21.6px: 5 uses
+- Roboto ExtraLight, 16px: 4 uses
+- Roboto Regular, 14px: 4 uses
+
+## Typography Hierarchy
+- 21.6px - NATS NATS, 21.6px (raw)
+- 21.6px - Roboto Regular, 21.6px (raw)
+- 20px - Roboto Bold, 20px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 18px - Lato Regular, 18px (raw)
+- 16px - Lato Regular, 16px (raw)
+- 16px - Paragraph/02 (Circular Std Book)
+- 16px - Roboto Bold, 16px (raw)
+- 16px - Roboto ExtraLight, 16px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 14px - Paragraph/03 (Circular Std Book)
+- 14px - Roboto Regular, 14px (raw)
+- 14px - roboto (Roboto Regular)
+- 12px - Roboto Light, 12px (raw)
+- 12px - Roboto Regular, 12px (raw)
+- 8px - Roboto Regular, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- button
+
+## Component Specs
+- button: size 122x31px, text [Lato Regular, 18px]
+
+## Most-Used Styles
+- Colors/Black/100%: 9 uses
+- Colors/Black/40%: 6 uses
+- Paragraph/03: 6 uses
+- roboto: 2 uses
+- Paragraph/02: 1 use
+
+## Layout & Structure
+Screen: cover / Frame 1
+- FRAME "Frame 1", 574x373px, constraints left/top, radius 20px, fill #FC4C01
+  - TEXT "strava redesign", 532x85px, constraints left/top, fill #000000, text [Inter Bold, 70px], [heading]
+  - GROUP "🦆 icon "strava"", 161x161px, constraints center/center
+    - VECTOR "Vector", 161x161px, constraints scale/scale, fill #FC4C01
+    - VECTOR "Vector", 70.44x72.95px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 50.31x52.83px, constraints scale/scale, fill #FDA580
+  - TEXT "Amit Patel amit334patel@gmail.com", 319x75px, constraints left/center, fill #FFFFFF, text [Inter Bold, 40px], [heading]
+
+Screen: design / iPhone 14 & 15 Pro - 1
+- FRAME "iPhone 14 & 15 Pro - 1", 393x852px, constraints left/top, fill #FC4C01
+  - GROUP "🦆 icon "strava"", 161x161px, constraints center/center
+    - VECTOR "Vector", 161x161px, constraints scale/scale, fill #FC4C01
+    - VECTOR "Vector", 70.44x72.95px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 50.31x52.83px, constraints scale/scale, fill #FDA580
+
+Screen: design / homepage
+- FRAME "homepage", 393x852px, constraints left/top, fill #FFE5D9
+  - GROUP "from community", 175x20px, constraints left/top
+    - FRAME "iconoir:community", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.33x10px, constraints scale/scale, stroke #000000 1.5px
+    - TEXT "From the Community", 145x19px, constraints left/top, fill #000000, text [Roboto Bold, 16px]
+  - GROUP "suggested challenges", 174x19px, constraints left/top
+    - TEXT "Suggested Challenges", 146x19px, constraints left/top, fill #000000, text [Roboto Bold, 16px]
+    - VECTOR "Vector", 18x16px, constraints left/top, stroke #000000 2px
+  - RECTANGLE "Rectangle 154", 393x70px, constraints left/top, fill #FE4C00
+  - FRAME "Frame 39333", 353x24px, horizontal pad 0 0 0 0px gap 200px sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Home", 51x23px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 20px]
+    - FRAME "Frame 39332", 102x24px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "uil:message", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x19.99px, constraints scale/scale, fill #FFFFFF
+      - FRAME "material-symbols:info-outline", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #FFFFFF
+      - FRAME "carbon:notification", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.5x21.75px, constraints scale/scale, fill #FFFFFF
+  - GROUP "post", 349x282px, constraints center/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 156", 349x282px, constraints center/top, radius 25px, fill #FFFFFF
+    - TEXT "text", 279x52px, constraints left_right/top_bottom, fill Colors/Black/100%, text [Paragraph/02]
+    - ELLIPSE "Ellipse 26", 40x40px, constraints left/top, fill #430E0E
+    - TEXT "Amit Patel", 74x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - RECTANGLE "Rectangle 157", 283x127px, constraints center/top, fill #D9D9D9
+    - FRAME "iwwa:option", 20x20px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 3.11x13.8px, constraints scale/scale
+        - VECTOR "Vector", 3.11x3.11px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.11x3.11px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.11x3.11px, constraints scale/scale, fill #000000
+    - FRAME "zondicons:add-outline", 20x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 20x20px, constraints scale/scale, fill #000000
+  - FRAME "Frame 39315", 361x164px, constraints center/top
+    - TEXT "join", 30x22px, constraints left/top, fill #FFFFFF, text [Lato Regular, 18px]
+    - GROUP "challenge2", 171x164px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 166", 171x164px, constraints left/top, radius 10px, fill #FFFFFF
+      - TEXT "le col shape up challenge", 100x38px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - COMPONENT "button", 122x31px, constraints left/top
+        - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+        - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+      - GROUP "🦆 emoji "flexed biceps"", 44.63x44.99px, constraints left/top [decorative, ~6 shapes]
+      - TEXT "log 200 minutes of activity", 120x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+      - TEXT "mar to apr 2024", 65x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - GROUP "challenge1", 171x164px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 167", 171x164px, constraints left/top, radius 10px, fill #FFFFFF
+      - TEXT "mar to apr 2024", 65x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+      - TEXT "march 5k * brooks challenge", 96x57px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+      - GROUP "🦆 illustration "jogging cat exercise running"", 52.48x40px, constraints left/top [decorative, ~109 shapes]
+      - TEXT "complete a 5km run", 74x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+  - GROUP "navbar", 439x81px, constraints center/top [decorative, ~9 shapes]
+  - FRAME "Frame 39331", 350x24px, horizontal pad 0 0 0 0px gap 219px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Your Activity", 82x19px, constraints left/top, fill #000000, text [Roboto SemiBold, 16px]
+    - GROUP "Group 39", 49x24px, constraints left/top
+      - TEXT "320", 26x19px, constraints left/top, fill #000000, text [Roboto SemiBold, 16px]
+      - INSTANCE "Icon", 24x24px, constraints left/top
+        - GROUP "energy", 16x20px, constraints left/top, fill #FFFFFF
+          - BOOLEAN_OPERATION "Lightning", 16x20px, constraints scale/scale, fill #FE4C00
+  - GROUP "add post", 50x50px, constraints left/top
+    - ELLIPSE "Ellipse 32", 50x50px, constraints left/top, fill #FE4C00
+    - FRAME "material-symbols:add", 32x32px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.67x18.67px, constraints scale/scale, fill #000000
+  - GROUP "Group 40", 361x150px, constraints left/top, radius 0/0/0/0px
+    - FRAME "Frame 39295", 361x150px, constraints center/top, radius 10px, fill #FE4C00
+      - VECTOR "Vector 8", 2x148px, constraints left/top, stroke #000000 2px
+      - TEXT "learn more", 43x10px, constraints left/top, fill #000000, text [Inter Regular, 8px]
+      - GROUP "learn more icon", 17x17px, constraints left/top
+        - ELLIPSE "Ellipse 24", 17x17px, constraints left/top, fill #FFFFFF, stroke #000000 1px
+        - VECTOR "Vector 9", 10.9x9.66px, constraints left/top, stroke #000000 0.51px
+      - GROUP "Group 30", 56x96px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 5px offset 4 6 #00000040]
+        - GROUP "Group 28", 56x96px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+        - TEXT "month", 34x16px, constraints left/top, fill #000000, text [Roboto CondensedMedium, 6.69px]
+      - GROUP "Group 31", 56x96px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 5.3px offset 4 6 #00000040]
+        - GROUP "Group 29", 56x96px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+        - TEXT "all time", 23.95x16.52px, constraints left/top, fill #000000, text [Roboto CondensedMedium, 6.41px]
+      - GROUP "Group 27", 56x96px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 5px offset 5 8 #00000040]
+        - RECTANGLE "Rectangle 146", 56x96px, constraints left/top, radius 5.52px, fill #FFA500
+        - TEXT "week", 38x8px, constraints left/top, fill #000000, text [Roboto CondensedMedium, 6.62px]
+        - LINE "Line 4", 50.67x0px, constraints left/top, stroke #000000 0.55px
+        - LINE "Line 5", 0x45.24px, constraints left/top, stroke #000000 0.55px
+        - VECTOR "Vector 16", 34.13x0px, constraints left/top, stroke #000000 0.55px
+        - VECTOR "Vector 16", 20.8x29.08px, constraints left/top, stroke #000000 1.72px
+    - BOOLEAN_OPERATION "Subtract", 85.57x102px, constraints left/top, fill image(hash: b4739778d1f032a2348194bda6e53fbb240d119c)
+
+Screen: design / challenges
+- FRAME "challenges", 393x852px, constraints left/top, fill #FFE5D9
+  - RECTANGLE "Rectangle 155", 393x93px, constraints center/top, fill #FE4C00
+  - FRAME "Frame 39297", 273x19px, horizontal pad 0 0 0 0px gap 119px sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Challenges", 73x19px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 16px]
+    - TEXT "LeaderBoard", 81x19px, constraints left/top, fill #FFFFFF, text [Roboto ExtraLight, 16px]
+  - FRAME "Frame 39309", 408x30px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 39304", 72x30px, vertical pad 5 10 5 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF
+      - FRAME "Frame 39303", 52x20px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "fluent:run-24-filled", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.21x15.18px, constraints scale/scale, fill #000000
+        - TEXT "run", 23x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+    - FRAME "Frame 39305", 78x30px, vertical pad 5 10 5 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF
+      - FRAME "Frame 39303", 58x20px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "tabler:shoe", 20x20px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 15x10px, constraints scale/scale
+            - VECTOR "Vector", 15x10px, constraints scale/scale, stroke #000000 2px
+            - VECTOR "Vector", 7.08x7.5px, constraints scale/scale, stroke #000000 2px
+        - TEXT "Walk", 29x16px, constraints left/top, fill #000000, text [roboto]
+    - FRAME "Frame 39306", 82x30px, vertical pad 5 10 5 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF
+      - FRAME "Frame 39303", 62x20px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "mdi:swim", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.67x14.86px, constraints scale/scale, fill #000000
+        - TEXT "Swim", 33x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+    - FRAME "Frame 39307", 81x30px, vertical pad 5 10 5 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF
+      - FRAME "Frame 39303", 61x20px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "ion:bicycle-sharp", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 8.75x9.77px, constraints scale/scale, fill #000000
+          - VECTOR "Vector", 17.5x15px, constraints scale/scale, fill #000000
+        - TEXT "Cycle", 32x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+    - FRAME "Frame 39308", 75x30px, vertical pad 5 10 5 10px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF
+      - FRAME "Frame 39303", 55x20px, horizontal pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "fluent:run-24-filled", 20x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.21x15.18px, constraints scale/scale, fill #000000
+        - TEXT "Hike", 26x16px, constraints left/top, fill #000000, text [Roboto Regular, 14px]
+  - FRAME "Frame 39310", 361x164px, constraints center/top
+    - TEXT "join", 30x22px, constraints left/top, fill #FFFFFF, text [Lato Regular, 18px]
+    - TEXT "join", 30x22px, constraints left/top, fill #FFFFFF, text [Lato Regular, 18px]
+    - FRAME "Frame 39330", 349x164px, horizontal pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "challenge", 171x164px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 166", 171x164px, constraints left/top, radius 10px, fill #FFFFFF
+        - TEXT "le col shape up challenge", 100x38px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+        - GROUP "🦆 emoji "flexed biceps"", 44.63x44.99px, constraints left/top [decorative, ~6 shapes]
+        - TEXT "log 200 minutes of activity", 120x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - TEXT "mar to apr 2024", 65x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - INSTANCE "button", 122x31px, constraints left/top
+          - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+          - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+      - GROUP "Group 38", 171x164px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 167", 171x164px, constraints left/top, radius 10px, fill #FFFFFF
+        - TEXT "mar to apr 2024", 65x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - TEXT "march 5k * brooks challenge", 96x57px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+        - GROUP "🦆 illustration "jogging cat exercise running"", 52.48x40px, constraints left/top [decorative, ~109 shapes]
+        - TEXT "complete a 5km run", 74x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - INSTANCE "button", 122x31px, constraints left/top
+          - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+          - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+  - FRAME "Frame 39313", 349x164px, horizontal pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints center/top
+    - RECTANGLE "Rectangle 166", 171x164px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 167", 171x164px, constraints left/top, radius 10px, fill #FFFFFF
+    - VECTOR "Vector", 30x30px, constraints left/top, fill #FE4C00
+    - TEXT "10", 11x12px, constraints left/top, fill #FE4C00, text [Roboto Regular, 10px]
+    - VECTOR "Vector", 30x30px, constraints left/top, fill #FE4C00
+    - TEXT "Ten days active challenge", 100x57px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - TEXT "March streak challenge", 121x38px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - TEXT "join", 30x22px, constraints left/top, fill #FFFFFF, text [Lato Regular, 18px]
+    - TEXT "join", 30x22px, constraints left/top, fill #FFFFFF, text [Lato Regular, 18px]
+    - TEXT "Stay active for 10 days in a row", 120x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "Log in everyday to maintain a streak", 120x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "mar to apr 2024", 65x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "mar to apr 2024", 65x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+  - FRAME "Frame 39314", 349x164px, horizontal pad 0 0 0 0px gap 7px sizing W:fixed H:fixed, constraints center/top
+    - RECTANGLE "Rectangle 166", 171x164px, constraints left/top, radius 10px, fill #FFFFFF
+    - RECTANGLE "Rectangle 167", 171x164px, constraints left/top, radius 10px, fill #FFFFFF
+    - TEXT "march ride 200 challenge", 100x38px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - TEXT "smartwool challenge", 121x38px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+    - TEXT "join", 30x22px, constraints left/top, fill #FFFFFF, text [Lato Regular, 18px]
+    - TEXT "join", 30x22px, constraints left/top, fill #FFFFFF, text [Lato Regular, 18px]
+    - GROUP "🦆 emoji "swimmer"", 42x35px, constraints left/top [decorative, ~15 shapes]
+    - TEXT "complete 300 mins of swimming", 108x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "bike a total of 200km in a month", 108x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "mar to apr 2024", 55x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - TEXT "mar to apr 2024", 56x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+  - TEXT "popular Challenges", 109x16px, constraints left/top, fill #000000, text [roboto]
+  - TEXT "Recommended for you", 166x22px, constraints left/top, fill #000000, text [Lato Regular, 18px]
+  - TEXT "based on your activities", 117x14px, constraints left/top, fill #000000, text [Lato Regular, 12px]
+  - GROUP "navbar", 439x81px, constraints center/top [decorative, ~9 shapes]
+  - FRAME "Frame 39334", 353x24px, horizontal pad 0 0 0 0px gap 159px sizing W:fixed H:fixed, constraints center/top
+    - TEXT "challenges", 92x23px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 20px]
+    - FRAME "Frame 39332", 102x24px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "uil:message", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x19.99px, constraints scale/scale, fill #FFFFFF
+      - FRAME "material-symbols:info-outline", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #FFFFFF
+      - FRAME "carbon:notification", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.5x21.75px, constraints scale/scale, fill #FFFFFF
+
+Screen: design / leaderboard
+- FRAME "leaderboard", 393x852px, constraints left/top, fill #FFE5D9
+  - RECTANGLE "Rectangle 155", 393x93px, constraints center/top, fill #FE4C00
+  - FRAME "Frame 39297", 284x19px, horizontal pad 0 0 0 0px gap 130px sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Challenges", 70x19px, constraints left/top, fill #FFFFFF, text [Roboto ExtraLight, 16px]
+    - TEXT "LeaderBoard", 84x19px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 16px]
+  - RECTANGLE "Rectangle 158", 267x40px, constraints center/top, radius 20px, fill #FFFFFF
+  - TEXT "Global", 46x19px, constraints left/top, fill #FE4C00, text [Roboto Regular, 16px]
+  - TEXT "Mumbai", 59x19px, constraints left/top, fill #000000, text [Roboto Regular, 16px]
+  - GROUP "Group 34", 116x146.39px, constraints left/top
+    - VECTOR "Vector", 41.24x41.24px, constraints scale/scale, fill #000000
+    - ELLIPSE "Ellipse 29", 30.93x30.93px, constraints left/top, fill #FE4C00
+    - BOOLEAN_OPERATION "Subtract", 116x112.42px, constraints left/top, fill #FE4C00
+    - TEXT "1", 8x59px, constraints left/top, fill #000000, text [NATS NATS, 27.84px], [heading]
+  - GROUP "Group 35", 90x113.8px, constraints left/top
+    - VECTOR "Vector", 32x32px, constraints scale/scale, fill #000000
+    - ELLIPSE "Ellipse 29", 24x24px, constraints left/top, fill #FE4C00
+    - BOOLEAN_OPERATION "Subtract", 90x87.22px, constraints left/top, fill #FE4C00
+    - TEXT "2", 10x46px, constraints left/top, fill #000000, text [NATS NATS, 21.6px]
+  - GROUP "Group 36", 90x113.8px, constraints left/top
+    - VECTOR "Vector", 32x32px, constraints scale/scale, fill #000000
+    - ELLIPSE "Ellipse 29", 24x24px, constraints left/top, fill #FE4C00
+    - BOOLEAN_OPERATION "Subtract", 90x87.22px, constraints left/top, fill #FE4C00
+    - TEXT "3", 10x46px, constraints left/top, fill #000000, text [NATS NATS, 21.6px]
+  - RECTANGLE "Rectangle 161", 314x70px, constraints center/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 162", 314x70px, constraints center/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 163", 314x70px, constraints center/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 164", 314x70px, constraints center/top, radius 35px, fill #FFFFFF
+  - RECTANGLE "Rectangle 165", 314x70px, constraints center/top, radius 35px, fill #FFFFFF
+  - GROUP "person", 30x30px, constraints center/top
+    - ELLIPSE "Ellipse 25", 30x30px, constraints left/top, fill #FE4C00
+    - FRAME "material-symbols:person-outline", 24x24px, constraints left/top
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #000000
+  - GROUP "person", 30x30px, constraints center/top
+    - ELLIPSE "Ellipse 25", 30x30px, constraints left/top, fill #FE4C00
+    - FRAME "material-symbols:person-outline", 24x24px, constraints left/top
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #000000
+  - GROUP "person", 30x30px, constraints center/top
+    - ELLIPSE "Ellipse 25", 30x30px, constraints left/top, fill #FE4C00
+    - FRAME "material-symbols:person-outline", 24x24px, constraints left/top
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #000000
+  - GROUP "person", 30x30px, constraints center/top
+    - ELLIPSE "Ellipse 25", 30x30px, constraints left/top, fill #FE4C00
+    - FRAME "material-symbols:person-outline", 24x24px, constraints left/top
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #000000
+  - GROUP "person", 30x30px, constraints center/top
+    - ELLIPSE "Ellipse 25", 30x30px, constraints left/top, fill #FE4C00
+    - FRAME "material-symbols:person-outline", 24x24px, constraints left/top
+      - VECTOR "Vector", 16x16px, constraints scale/scale, fill #000000
+  - TEXT "Amit", 43x25px, constraints left/top, fill #000000, text [Roboto Regular, 21.6px]
+  - TEXT "Liam", 45x25px, constraints left/top, fill #000000, text [Roboto Regular, 21.6px]
+  - TEXT "William", 65x25px, constraints left/top, fill #000000, text [Roboto Regular, 21.6px]
+  - TEXT "Shiv", 38x25px, constraints left/top, fill #000000, text [Roboto Regular, 21.6px]
+  - TEXT "Adam", 54x25px, constraints left/top, fill #000000, text [Roboto Regular, 21.6px]
+  - TEXT "2022pts.", 66x23px, constraints left/top, fill #000000, text [NATS NATS, 21.6px]
+  - TEXT "2002pts.", 66x23px, constraints left/top, fill #000000, text [NATS NATS, 21.6px]
+  - ... +10 more children
+
+Screen: design / explore clubs
+- FRAME "explore clubs", 393x852px, constraints left/top, fill #EDE4E0
+  - RECTANGLE "Rectangle 155", 393x93px, constraints center/top, fill #FE4C00
+  - FRAME "Frame 39316", 253x19px, horizontal pad 0 0 0 0px gap 130px sizing W:fixed H:fixed, constraints center/top
+    - TEXT "clubs", 41x19px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 16px]
+    - TEXT "Community", 82x19px, constraints left/top, fill #FFFFFF, text [Roboto ExtraLight, 16px]
+  - RECTANGLE "Rectangle 171", 339x190px, constraints center/top, radius 20px, fill #FFE5D9
+  - GROUP "🦆 icon "strava"", 90x90px, constraints center/center
+    - VECTOR "Vector", 90x90px, constraints scale/scale, fill #FC4C01
+    - VECTOR "Vector", 39.38x40.78px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "Vector", 28.12x29.53px, constraints scale/scale, fill #FDA580
+  - TEXT "the strava club", 186x30px, constraints left/top, fill #000000, text [Roboto Bold, 26px], [heading]
+  - TEXT "sanfransico", 105x23px, constraints left/top, fill #000000, text [Roboto Light, 20px]
+  - FRAME "mdi:location", 20x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 11.67x16.67px, constraints scale/scale, fill #505050
+  - RECTANGLE "Rectangle 172", 243x44px, constraints left/top, radius 10px, fill #FC4C01
+  - TEXT "join", 47x28px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 24px], [heading]
+  - FRAME "Frame 39323", 152x152px, vertical pad 15 15 15 15px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFE5D9, effect [drop_shadow 4px offset 0 4 #00000040]
+    - FRAME "Frame 39317", 100x45px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 179", 45x45px, constraints left/top, fill #D9D9D9
+      - TEXT "Strava pune", 40x38px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Frame 39322", 88x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 39321", 60x20px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "maharashtra, india", 60x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - TEXT "10,411 Runners", 51x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+      - FRAME "fluent:run-20-regular", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16x15px, constraints scale/scale, fill #000000
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+  - FRAME "Frame 39325", 152x152px, vertical pad 15 15 15 15px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFE5D9, effect [drop_shadow 4px offset 0 4 #00000040]
+    - FRAME "Frame 39317", 100x45px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 179", 45x45px, constraints left/top, fill #D9D9D9
+      - TEXT "Strava pune", 40x38px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Frame 39322", 88x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 39321", 60x20px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "maharashtra, india", 60x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - TEXT "10,411 Runners", 51x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+      - FRAME "fluent:run-20-regular", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16x15px, constraints scale/scale, fill #000000
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+  - FRAME "Frame 39327", 152x152px, vertical pad 15 15 15 15px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFE5D9
+    - FRAME "Frame 39317", 100x45px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 184", 45x45px, constraints left/top, fill #D9D9D9
+      - TEXT "Strava pune", 40x38px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Frame 39322", 88x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 39321", 60x20px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "maharashtra, india", 60x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - TEXT "10,411 Runners", 51x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+      - FRAME "fluent:run-20-regular", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 16x15px, constraints scale/scale, fill #000000
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+  - FRAME "Frame 39324", 162x152px, vertical pad 15 15 15 15px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFE5D9, effect [drop_shadow 4px offset 0 4 #00000040]
+    - FRAME "Frame 39318", 132x45px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 180", 45x45px, constraints left/top, fill #D9D9D9
+      - TEXT "cyclist foundation", 74x38px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Frame 39320", 88x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 39319", 60x20px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "maharashtra, india", 60x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - TEXT "10,411 Runners", 51x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+      - FRAME "ion:bicycle-sharp", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8.75x9.77px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 17.5x15px, constraints scale/scale, fill #000000
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+  - FRAME "Frame 39326", 162x152px, vertical pad 15 15 15 15px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFE5D9, effect [drop_shadow 4px offset 0 4 #00000040]
+    - FRAME "Frame 39318", 132x45px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 180", 45x45px, constraints left/top, fill #D9D9D9
+      - TEXT "cyclist foundation", 74x38px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Frame 39320", 88x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 39319", 60x20px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "maharashtra, india", 60x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - TEXT "10,411 Runners", 51x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+      - FRAME "ion:bicycle-sharp", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8.75x9.77px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 17.5x15px, constraints scale/scale, fill #000000
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+  - FRAME "Frame 39328", 162x152px, vertical pad 15 15 15 15px gap 13px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFE5D9
+    - FRAME "Frame 39318", 132x45px, horizontal pad 0 0 0 0px gap 13px sizing W:fixed H:fixed, constraints left/top, effect [drop_shadow 4px offset 0 4 #00000040]
+      - RECTANGLE "Rectangle 182", 45x45px, constraints left/top, fill #D9D9D9
+      - TEXT "cyclist foundation", 74x38px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+    - FRAME "Frame 39320", 88x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 39319", 60x20px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "maharashtra, india", 60x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+        - TEXT "10,411 Runners", 51x9px, constraints left/top, fill #000000, text [Roboto Regular, 8px]
+      - FRAME "ion:bicycle-sharp", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 8.75x9.77px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 17.5x15px, constraints scale/scale, fill #000000
+    - INSTANCE "button", 122x31px, constraints left/top
+      - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+      - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+  - GROUP "navbar", 439x81px, constraints center/top [decorative, ~9 shapes]
+  - FRAME "Frame 39329", 227x23px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "clarity:bullseye-line", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+    - TEXT "popular clubs near you", 192x23px, constraints left/top, fill #000000, text [Roboto SemiBold, 20px]
+  - FRAME "Frame 39336", 353x24px, horizontal pad 0 0 0 0px gap 189px sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Explore", 62x23px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 20px]
+    - FRAME "Frame 39332", 102x24px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "uil:message", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x19.99px, constraints scale/scale, fill #FFFFFF
+      - FRAME "material-symbols:info-outline", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #FFFFFF
+      - FRAME "carbon:notification", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.5x21.75px, constraints scale/scale, fill #FFFFFF
+
+Screen: design / community
+- FRAME "community", 393x852px, constraints left/top, fill #EDE4E0
+  - RECTANGLE "Rectangle 155", 393x93px, constraints center/top, fill #FE4C00
+  - FRAME "Frame 39316", 253x19px, horizontal pad 0 0 0 0px gap 130px sizing W:fixed H:fixed, constraints center/top
+    - TEXT "clubs", 40x19px, constraints left/top, fill #FFFFFF, text [Roboto ExtraLight, 16px]
+    - TEXT "Community", 83x19px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 16px]
+  - GROUP "post", 349x317px, constraints center/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 156", 349x317px, constraints center/top, radius 25px, fill #FFFFFF
+    - TEXT "text", 279x52px, constraints left_right/top_bottom, fill Colors/Black/100%, text [Roboto Regular, 16px]
+    - ELLIPSE "Ellipse 26", 40x40px, constraints left/top, fill #430E0E
+    - TEXT "Amit Patel", 75x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+    - RECTANGLE "Rectangle 157", 283x127px, constraints center/top, fill #D9D9D9
+    - FRAME "iwwa:option", 20x20px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 3.11x13.8px, constraints scale/scale
+        - VECTOR "Vector", 3.11x3.11px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.11x3.11px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.11x3.11px, constraints scale/scale, fill #000000
+    - GROUP "Info", 279x24px, constraints left/top
+      - GROUP "Share", 69x24px, constraints right/center
+        - TEXT "Share", 37x24px, constraints right/bottom, fill Colors/Black/100%, text [Paragraph/03]
+        - INSTANCE "Icon", 24x24px, constraints right/bottom
+          - GROUP "Upload", 18x18px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Combined Shape", 18x18px, constraints scale/scale, fill Colors/Black/40%
+      - GROUP "Like & Comment", 160x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Comment", 72x24px, constraints left/center
+          - TEXT "34", 40x24px, constraints left/bottom, fill Colors/Black/100%, text [Paragraph/03]
+          - INSTANCE "Icon", 24x24px, constraints left/bottom
+            - GROUP "Group", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+        - GROUP "Like", 72x24px, constraints left/center
+          - TEXT "121", 40x24px, constraints left/bottom, fill Colors/Black/100%, text [Paragraph/03]
+          - INSTANCE "Icon", 24x24px, constraints left/bottom
+            - GROUP "Heart", 20x18px, constraints left/top, fill #FFFFFF
+  - GROUP "post", 349x317px, constraints center/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 156", 349x317px, constraints center/top, radius 25px, fill #FFFFFF
+    - ELLIPSE "Ellipse 28", 40x40px, constraints left/top, fill #430E0E
+    - TEXT "text", 279x52px, constraints left_right/top_bottom, fill Colors/Black/100%, text [Roboto Regular, 16px]
+    - TEXT "Suzi Alen", 67x19px, constraints left/top, fill #000000, text [Roboto Medium, 16px]
+    - RECTANGLE "Rectangle 157", 283x127px, constraints center/top, fill #D9D9D9
+    - FRAME "iwwa:option", 20x20px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 3.11x13.8px, constraints scale/scale
+        - VECTOR "Vector", 3.11x3.11px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.11x3.11px, constraints scale/scale, fill #000000
+        - VECTOR "Vector", 3.11x3.11px, constraints scale/scale, fill #000000
+    - GROUP "Info", 279x24px, constraints left/top
+      - GROUP "Share", 69x24px, constraints right/center
+        - TEXT "Share", 37x24px, constraints right/bottom, fill Colors/Black/100%, text [Paragraph/03]
+        - INSTANCE "Icon", 24x24px, constraints right/bottom
+          - GROUP "Upload", 18x18px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Combined Shape", 18x18px, constraints scale/scale, fill Colors/Black/40%
+      - GROUP "Like & Comment", 160x24px, constraints left/top, fill #FFFFFF
+        - GROUP "Comment", 72x24px, constraints left/center
+          - TEXT "34", 40x24px, constraints left/bottom, fill Colors/Black/100%, text [Paragraph/03]
+          - INSTANCE "Icon", 24x24px, constraints left/bottom
+            - GROUP "Group", 20x20px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+        - GROUP "Like", 72x24px, constraints left/center
+          - TEXT "121", 40x24px, constraints left/bottom, fill Colors/Black/100%, text [Paragraph/03]
+          - INSTANCE "Icon", 24x24px, constraints left/bottom
+            - GROUP "Heart", 20x18px, constraints left/top, fill #FFFFFF
+  - GROUP "navbar", 439x81px, constraints center/top [decorative, ~9 shapes]
+  - FRAME "Frame 39337", 353x24px, horizontal pad 0 0 0 0px gap 189px sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Explore", 62x23px, constraints left/top, fill #FFFFFF, text [Roboto Bold, 20px]
+    - FRAME "Frame 39332", 102x24px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "uil:message", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x19.99px, constraints scale/scale, fill #FFFFFF
+      - FRAME "material-symbols:info-outline", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 20x20px, constraints scale/scale, fill #FFFFFF
+      - FRAME "carbon:notification", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 19.5x21.75px, constraints scale/scale, fill #FFFFFF
+
+Screen: design / profile
+- FRAME "profile", 393x852px, constraints left/top, fill #FFE5D9
+  - RECTANGLE "Rectangle 151", 329x234px, constraints center/top, radius 10px, fill #FFFFFF
+  - RECTANGLE "Rectangle 147", 393x293px, constraints left/top, radius 0/0/20/20px, fill #FFFFFF
+  - GROUP "person", 100x100px, constraints center/top
+    - ELLIPSE "Ellipse 25", 100x100px, constraints left/top, fill #FE4C00
+    - FRAME "material-symbols:person-outline", 80x80px, constraints left/top
+      - VECTOR "Vector", 53.33x53.33px, constraints scale/scale, fill #000000
+  - FRAME "clarity:note-edit-line", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.33x17.33px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 13.98x14.01px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 24x24px, constraints scale/scale
+  - TEXT "Amit Patel", 88x28px, constraints center/top, fill #000000, text [Roboto CondensedRegular, 24px], [heading]
+  - TEXT "Mumbai", 68x23px, constraints center/top, fill #000000, text [Roboto Light, 20px]
+  - TEXT "My Activities", 105x21px, constraints left/top, fill #000000, text [Roboto SemiBold, 18px]
+  - TEXT "Settings", 68x21px, constraints left/top, fill #000000, text [Roboto SemiBold, 18px]
+  - TEXT "View All", 45x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - RECTANGLE "Rectangle 148", 118x117px, constraints left/top, radius 10px, fill #FFFFFF
+  - RECTANGLE "Rectangle 149", 118x117px, constraints left/top, radius 10px, fill #FFFFFF
+  - RECTANGLE "Rectangle 150", 118x117px, constraints left/top, radius 10px, fill #FFFFFF
+  - TEXT "Goals", 31x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "Social Connections", 103x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "General", 41x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "Privacy Settings", 86x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "About", 32x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - LINE "Line 6", 228x0px, constraints left/top, stroke #444444 0.5px
+  - LINE "Line 7", 228x0px, constraints left/top, stroke #444444 0.5px
+  - LINE "Line 8", 228x0px, constraints left/top, stroke #444444 0.5px
+  - LINE "Line 9", 228x0px, constraints left/top, stroke #444444 0.5px
+  - LINE "Line 10", 228x0px, constraints left/top, stroke #444444 0.5px
+  - FRAME "oui:arrow-up", 16x16px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 12x6px, constraints scale/scale, fill #000000
+  - FRAME "oui:arrow-up", 16x16px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 12x6px, constraints scale/scale, fill #000000
+  - FRAME "oui:arrow-up", 16x16px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 12x6px, constraints scale/scale, fill #000000
+  - ... +9 more children
+
+Screen: design / 🦆 icon "strava"
+- GROUP "🦆 icon "strava"", 161x161px, constraints center/center
+  - VECTOR "Vector", 161x161px, constraints scale/scale, fill #FC4C01
+  - VECTOR "Vector", 70.44x72.95px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 50.31x52.83px, constraints scale/scale, fill #FDA580
+
+Screen: design / 🦆 illustration "Biker"
+- GROUP "🦆 illustration "Biker"", 40.26x40px, constraints left/top
+  - VECTOR "Vector", 6.31x4.04px, constraints scale/scale, fill #D1D3D4
+  - VECTOR "Vector", 9.91x10.84px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 10.05x10.99px, constraints scale/scale, fill #231F20
+  - VECTOR "Vector", 13.27x7.14px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 13.42x7.29px, constraints scale/scale, fill #231F20
+  - VECTOR "Vector", 13.56x12.12px, constraints scale/scale, fill #BE0303
+  - VECTOR "Vector", 3.5x3.14px, constraints scale/scale, fill #D1D3D4
+  - VECTOR "Vector", 4.8x1.76px, constraints scale/scale, fill #231F20
+  - VECTOR "Vector", 4.93x1.9px, constraints scale/scale, fill #231F20
+  - VECTOR "Vector", 9.54x9.7px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 9.7x9.85px, constraints scale/scale, fill #231F20
+  - VECTOR "Vector", 16.22x16.22px, constraints scale/scale, fill #000000
+  - VECTOR "Vector", 14.82x14.82px, constraints scale/scale, fill #231F20
+  - VECTOR "Vector", 6.11x15.35px, constraints scale/scale, fill #D1D3D4
+  - VECTOR "Vector", 16.22x16.22px, constraints scale/scale, fill #000000
+  - VECTOR "Vector", 14.82x14.82px, constraints scale/scale, fill #231F20
+  - VECTOR "Vector", 19.97x11.76px, constraints scale/scale, fill #D1D3D4
+  - VECTOR "Vector", 7.16x16.87px, constraints scale/scale, fill #D1D3D4
+  - GROUP "Group", 14.57x10.59px, constraints scale/scale [decorative, ~6 shapes]
+  - VECTOR "Vector", 4.07x13.76px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 4.22x13.91px, constraints scale/scale, fill #231F20
+  - VECTOR "Vector", 10.85x9.03px, constraints scale/scale, fill #FE4C00
+  - VECTOR "Vector", 10.99x9.18px, constraints scale/scale, fill #231F20
+  - VECTOR "Vector", 1.85x1.53px, constraints scale/scale, fill #D1D3D4
+  - VECTOR "Vector", 3.12x0.65px, constraints scale/scale, fill #D1D3D4
+  - ... +30 more children
+
+Screen: design / Group 37
+- GROUP "Group 37", 122x31px, constraints left/top
+  - INSTANCE "button", 122x31px, constraints left/top
+    - RECTANGLE "Rectangle 168", 122x31px, constraints scale/scale, radius 5px, fill #FE4C00
+    - TEXT "join", 30x22px, constraints scale/scale, fill #FFFFFF, text [Lato Regular, 18px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

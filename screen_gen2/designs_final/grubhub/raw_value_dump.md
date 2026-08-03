@@ -1,0 +1,1170 @@
+---
+name: grubhub-food-delivery-app-community
+source_file: Grubhub - Food Delivery App (Community)
+source_page: All pages (3): Light Theme, Dark Theme, cover
+generated_at: 2026-07-25T09:45:15.520892+00:00
+---
+
+# Grubhub - Food Delivery App (Community) Design Guidelines
+
+## Source
+- Figma file: Grubhub - Food Delivery App (Community)
+- Figma page: All pages (3): Light Theme, Dark Theme, cover
+- Extracted at: 2026-07-25T09:45:15.520892+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- yellow: [#FFD15C]
+- red: [#FF7058]
+- Green: [#22A45D]
+- Body Text: [#868686]
+- Active Color - 1: [#EEA734]
+- Accent color: [#F8B64C]
+- Dark Deep: [#181725]
+- UI/Gray 80: [#3A3A3A]
+- Main Color: [#010F07]
+- Input Color: [#FBFBFB]
+- Background/White: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #000000: 508 uses
+- #FFFFFF: 474 uses
+- #030303: 146 uses
+- #010F07: 138 uses
+- #50555C: 130 uses
+- #F8B64C: 122 uses
+- #868686: 96 uses
+- #22A45D: 56 uses
+- #181725: 44 uses
+- #E76A56: 44 uses
+- #FF7058: 43 uses
+- #FFFFFF4D: 40 uses
+- #D8D8D8: 36 uses
+- #DADADA: 30 uses
+- #F2F2F2: 30 uses
+- #FFD15C: 30 uses
+- #7C7C7C: 24 uses
+- #FFD841: 24 uses
+- #E2E2E2: 22 uses
+- #FF7B65: 20 uses
+- #40596B: 16 uses
+- #8B91A0: 16 uses
+- #53B175: 14 uses
+- #F8AF0C: 13 uses
+- #F3F2F2: 12 uses
+
+## Typography Tokens
+- Headline/Dark: Font Awesome 5 Brands Regular (400), 30px / 38px, tracking 0.32px
+
+## Raw Typography (unstyled)
+- Yu Gothic UI Regular, 16px: 126 uses
+- Yu Gothic UI Light, 12px: 58 uses
+- SF Pro Text Semibold, 14px: 54 uses
+- Yu Gothic UI Regular, 23px: 52 uses
+- Yu Gothic UI Regular, 25px: 40 uses
+- Yu Gothic UI Semibold, 14px: 38 uses
+- Yu Gothic UI Regular, 14px: 36 uses
+- Yu Gothic UI Bold, 10px: 32 uses
+- Yu Gothic UI Semibold, 12px: 26 uses
+- Yu Gothic UI Light, 20px: 24 uses
+- Yu Gothic UI Semibold, 24px: 24 uses
+- Gilroy Semibold, 18px: 22 uses
+- Gilroy-Bold Bold, 16px: 22 uses
+- Gilroy-Medium Medium, 14px: 22 uses
+- Yu Gothic UI Bold, 14px: 22 uses
+- Yu Gothic UI Light, 14px: 20 uses
+- Yu Gothic UI Light, 16px: 20 uses
+- Yu Gothic UI Light, 10px: 16 uses
+- Yu Gothic UI Light, 18px: 12 uses
+- Yu Gothic UI Semibold, 16px: 12 uses
+- Poppins Bold, 37px: 8 uses
+- SF Pro Text Bold, 10px: 8 uses
+- Gilroy Semibold, 16px: 6 uses
+- Gilroy Semibold, 24px: 6 uses
+- Yu Gothic UI Light, 34px: 6 uses
+- Yu Gothic UI Regular, 18px: 6 uses
+- Gilroy Semibold, 20px: 4 uses
+- Poppins Bold, 40px: 4 uses
+- Poppins Bold, 96px: 4 uses
+- SF Pro Text Medium, 12px: 4 uses
+- SF Pro Text Regular, 16px: 4 uses
+- Yu Gothic UI Regular, 12px: 4 uses
+
+## Typography Hierarchy
+- 96px - Poppins Bold, 96px (raw)
+- 40px - Poppins Bold, 40px (raw)
+- 37px - Poppins Bold, 37px (raw)
+- 34px - Yu Gothic UI Light, 34px (raw)
+- 30px - Headline/Dark (Font Awesome 5 Brands Regular)
+- 25px - Yu Gothic UI Regular, 25px (raw)
+- 24px - Gilroy Semibold, 24px (raw)
+- 24px - Yu Gothic UI Semibold, 24px (raw)
+- 23px - Yu Gothic UI Regular, 23px (raw)
+- 20px - Gilroy Semibold, 20px (raw)
+- 20px - Yu Gothic UI Light, 20px (raw)
+- 18px - Gilroy Semibold, 18px (raw)
+- 18px - Yu Gothic UI Light, 18px (raw)
+- 18px - Yu Gothic UI Regular, 18px (raw)
+- 16px - Gilroy Semibold, 16px (raw)
+- 16px - Gilroy-Bold Bold, 16px (raw)
+- 16px - SF Pro Text Regular, 16px (raw)
+- 16px - Yu Gothic UI Light, 16px (raw)
+- 16px - Yu Gothic UI Regular, 16px (raw)
+- 16px - Yu Gothic UI Semibold, 16px (raw)
+- 14px - Gilroy-Medium Medium, 14px (raw)
+- 14px - SF Pro Text Semibold, 14px (raw)
+- 14px - Yu Gothic UI Bold, 14px (raw)
+- 14px - Yu Gothic UI Light, 14px (raw)
+- 14px - Yu Gothic UI Regular, 14px (raw)
+- 14px - Yu Gothic UI Semibold, 14px (raw)
+- 12px - SF Pro Text Medium, 12px (raw)
+- 12px - Yu Gothic UI Light, 12px (raw)
+- 12px - Yu Gothic UI Regular, 12px (raw)
+- 12px - Yu Gothic UI Semibold, 12px (raw)
+- 10px - SF Pro Text Bold, 10px (raw)
+- 10px - Yu Gothic UI Bold, 10px (raw)
+- 10px - Yu Gothic UI Light, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Main Color: 148 uses
+- UI/Gray 80: 126 uses
+- Body Text: 100 uses
+- Active Color - 1: 96 uses
+- Green: 10 uses
+- red: 10 uses
+- yellow: 10 uses
+- Headline/Dark: 6 uses
+- Accent color: 5 uses
+- Dark Deep: 4 uses
+- Input Color: 2 uses
+- Background/White: 1 use
+
+## Layout & Structure
+Screen: Light Theme / 01-Walkthrough
+- FRAME "01-Walkthrough", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+      - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+        - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+      - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+      - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+        - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+  - GROUP "Text", 277x78px, constraints left/top, radius 0/0/0/0px
+    - TEXT "All your favorites", 234x22px, constraints left/top, fill Main Color, text [Headline/Dark], [heading]
+    - TEXT "Order from the best local restaurants and grocery shop with ", 277x36px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+  - GROUP "Indicator", 40x5px, constraints scale/scale, radius 100px, fill #FFFFFF
+    - VECTOR "1", 8x5px, constraints left/top, radius 100px, fill #22A45D, stroke #979797 0px
+    - RECTANGLE "2", 8x5px, constraints left/top, radius 100px, fill #868686, stroke #979797 0px, opacity 20%
+    - VECTOR "3", 8x5px, constraints left/top, radius 100px, fill #868686, stroke #979797 0px, opacity 20%
+  - GROUP "Illustrations", 337.62x339.07px, constraints scale/scale, fill #FFFFFF [decorative, ~36 shapes]
+  - GROUP "g12", 65x65px, constraints scale/scale [decorative, ~4 shapes]
+  - TEXT "Grubhub FoodService", 258x49px, constraints scale/scale, fill #000000, text [Poppins Bold, 37px], [heading]
+  - INSTANCE "CTA/Primary", 335x48px, constraints left/top
+    - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill Active Color - 1
+    - TEXT "Get Started", 215x10px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Bold, 14px]
+
+Screen: Light Theme / 02-Walkthrough
+- FRAME "02-Walkthrough", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+      - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+        - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+      - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+      - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+        - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+  - GROUP "Text", 312x78px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Free delivery offers", 287x22px, constraints left/top, fill Main Color, text [Headline/Dark], [heading]
+    - TEXT "Free delivery for new customers via Apple Pay and others pay", 312x36px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+  - GROUP "Illustrations", 299x299px, constraints scale/scale, fill #FFFFFF [decorative, ~30 shapes]
+  - GROUP "Indicator", 40x5px, constraints scale/scale, radius 100px, fill #FFFFFF
+    - VECTOR "1", 8x5px, constraints left/top, radius 100px, fill #868686, stroke #979797 0px, opacity 20%
+    - RECTANGLE "2", 8x5px, constraints left/top, radius 100px, fill #22A45D, stroke #979797 0px
+    - VECTOR "3", 8x5px, constraints left/top, radius 100px, fill #868686, stroke #979797 0px, opacity 20%
+  - INSTANCE "CTA/Primary", 335x48px, constraints left/top
+    - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill Active Color - 1
+    - TEXT "Get Started", 215x10px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Bold, 14px]
+  - GROUP "g12", 65x65px, constraints scale/scale [decorative, ~4 shapes]
+  - TEXT "Grubhub FoodService", 258x49px, constraints scale/scale, fill #000000, text [Poppins Bold, 37px], [heading]
+
+Screen: Light Theme / 03-Walkthrough
+- FRAME "03-Walkthrough", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+      - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+        - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+      - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+      - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+      - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+        - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+  - GROUP "Text", 312x78px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Choose your food", 287x22px, constraints left/top, fill Main Color, text [Headline/Dark], [heading]
+    - TEXT "Easily find your type of food craving and you’ll get deliver", 312x36px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+  - GROUP "Illustrations", 307.54x362.44px, constraints scale/scale, fill #FFFFFF [decorative, ~117 shapes]
+  - GROUP "Indicator", 40x5px, constraints scale/scale, radius 100px, fill #FFFFFF
+    - VECTOR "1", 8x5px, constraints left/top, radius 100px, fill #868686, stroke #979797 0px, opacity 20%
+    - RECTANGLE "2", 8x5px, constraints left/top, radius 100px, fill #868686, stroke #979797 0px, opacity 20%
+    - VECTOR "3", 8x5px, constraints left/top, radius 100px, fill #22A45D, stroke #979797 0px
+  - INSTANCE "CTA/Primary", 335x48px, constraints left/top, fill #F8B64C
+    - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill Active Color - 1
+    - TEXT "Get Started", 215x10px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Bold, 14px]
+  - GROUP "g12", 65x65px, constraints scale/scale [decorative, ~4 shapes]
+  - TEXT "Grubhub FoodService", 258x49px, constraints scale/scale, fill #000000, text [Poppins Bold, 37px], [heading]
+
+Screen: Light Theme / 04-Sign In
+- FRAME "04-Sign In", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Bars/Top bars/1", 375x88px, constraints left/top
+    - RECTANGLE "bg", 375x88px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+        - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+          - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+      - GROUP "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - VECTOR "back", 8x14px, constraints scale/scale, fill Main Color, stroke #979797 0px
+    - TEXT "Sign In", 187x11px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Semibold, 16px]
+  - GROUP "Text", 338x102px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Welcome to Grubhub", 338x59px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 33px], [heading]
+    - TEXT "Enter your Phone number or Email address for sign in. Enjoy ", 274x35px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+  - GROUP "Sign in", 335x249px, constraints left/top
+    - INSTANCE "Form/2/Fill", 335x65px, constraints left/top, fill #FFFFFF
+      - GROUP "Form/2/Fill", 335x65px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 335x65px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "divider", 335x1px, constraints scale/scale, fill #F3F2F2, stroke #F3F2F2 0px
+        - TEXT "Email address", 148x22px, constraints scale/scale, fill Body Text, text [Yu Gothic UI Light, 12px]
+        - TEXT "Wahab2k19@icloud.com", 126x24px, constraints scale/center, fill Main Color, text [Yu Gothic UI Regular, 16px]
+        - INSTANCE "icon/24/done", 24x24px, constraints scale/scale, fill #FFFFFF
+          - GROUP "icon/24/done", 24x24px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+            - VECTOR "check", 11.25x9px, constraints scale/scale, fill Active Color - 1, stroke #979797 0px
+    - INSTANCE "Form/2/Fill", 335x65px, constraints left/top, fill #FFFFFF
+      - GROUP "Form/2/Fill", 335x65px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 335x65px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "divider", 335x1px, constraints scale/scale, fill #F3F2F2, stroke #F3F2F2 0px
+        - TEXT "Email address", 148x22px, constraints scale/scale, fill Body Text, text [Yu Gothic UI Light, 12px]
+        - TEXT "Wahab2k19@icloud.com", 39x24px, constraints scale/center, fill Main Color, text [Yu Gothic UI Regular, 16px]
+        - INSTANCE "icon/24/invisible", 24x24px, constraints scale/scale, fill #FFFFFF
+          - GROUP "icon/24/invisible", 24x24px, constraints scale/scale, fill #FFFFFF [decorative, ~5 shapes]
+    - TEXT "Forget Password?", 100x9px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 12px], opacity 64%
+    - INSTANCE "CTA/Primary", 335x48px, constraints left/top
+      - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill Active Color - 1
+      - TEXT "Sign in", 215x10px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Bold, 14px]
+  - GROUP "Create account", 234x9px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Don’t have account?", 116x9px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 12px], opacity 64%
+    - TEXT "Create new account.", 116x9px, constraints left/top, fill Active Color - 1, text [Yu Gothic UI Light, 12px]
+  - GROUP "Social accounts", 335x140px, constraints left/top
+    - TEXT "Or", 40x12px, constraints left/top, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 64%
+    - INSTANCE "CTA/Facebook", 335x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Facebook", 335x44px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 335x44px, constraints scale/scale, radius 8px, fill #395998, stroke #979797 0px, effect [drop_shadow 24px offset 0 12 #3959980F]
+        - GROUP "facebook", 28x28px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Rectangle", 28x28px, constraints scale/scale, radius 4px, fill #FFFFFF, stroke #979797 0px
+          - VECTOR "Path", 7x14px, constraints scale/scale, fill #395998
+        - TEXT "Connect with Faceboo", 187x20px, constraints scale/center, fill #FFFFFF, text [Yu Gothic UI Semibold, 12px]
+    - INSTANCE "CTA/Google", 335x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Google", 335x44px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 335x44px, constraints scale/scale, radius 8px, fill #4285F4, stroke #979797 0px
+        - TEXT "Connect with google", 187x20px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Semibold, 12px]
+        - GROUP "google", 28x28px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+
+Screen: Light Theme / 05-Forgot password
+- FRAME "05-Forgot password", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Bars/Top bars/1", 375x88px, constraints left/top
+    - RECTANGLE "bg", 375x88px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+        - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+          - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+      - GROUP "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - VECTOR "back", 8x14px, constraints scale/scale, fill Main Color, stroke #979797 0px
+    - TEXT "Forgot Password", 187x11px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Semibold, 16px]
+  - GROUP "Text", 274x80px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Forgot password", 258x25px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 34px], [heading]
+    - TEXT "Enter your email address and we will send you a reset instru", 274x35px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+  - INSTANCE "Form/2/Active", 335x65px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "bg", 335x65px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Form/2/Active", 335x64px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "divider", 335x1px, constraints scale/scale, fill #868686, stroke #979797 0px
+      - TEXT "Email address", 193x22px, constraints scale/scale, fill Body Text, text [Yu Gothic UI Light, 12px]
+      - RECTANGLE "Rectangle", 1x20px, constraints scale/scale, fill #22A45D, stroke #979797 0px
+  - INSTANCE "CTA/Primary", 335x48px, constraints left/top
+    - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill Active Color - 1
+    - TEXT "Reset password", 215x10px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Bold, 14px]
+  - INSTANCE "Keyboards/1", 375x333px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Background", 375x291px, constraints scale/scale, fill #D2D5DBE5, stroke #979797 0px, effect [background_blur 54.37px]
+    - FRAME "iPhone X/Home Indicator/Home Indicator - On Light", 375x34px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 24", 134x5px, constraints center/bottom, radius 100px, fill #000000
+    - BOOLEAN_OPERATION "Dictation", 15x25px, constraints scale/scale, fill #50555C
+    - BOOLEAN_OPERATION "Emoji", 26.5x26.5px, constraints scale/scale, fill #50555C
+    - GROUP "Keyboards/Light/Uppercase", 370x204px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - GROUP "Bottom Row", 370x44px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - FRAME "Enter Key", 89x44px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "Key", 87.5x42px, constraints scale/scale, radius 5px, fill #ABB3BD80, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "return", 42x21px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 16px]
+        - GROUP "Space", 184x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 184x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "space", 44x19px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 16px]
+        - GROUP "123", 87x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - VECTOR "Key", 87x42px, constraints scale/scale, radius 5px, fill #ABB3BD80, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "123", 26x21px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 16px]
+      - GROUP "Third Row", 369x42px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "Delete", 42x42px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF [decorative, ~7 shapes]
+        - GROUP "M", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "M", 21x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "N", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "N", 18x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "B", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "B", 14x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "V", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "V", 15x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "C", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "C", 15x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "X", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "X", 14x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "Z", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "Z", 14x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "Shift", 42x42px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+          - VECTOR "Key", 42x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - VECTOR "Shift", 19.07x16.09px, constraints center/center, radius 0/0/0/0px, fill #030303
+      - GROUP "Second Row", 332x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+        - GROUP "L", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "L", 11x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "K", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "K", 14x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "J", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "J", 9x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "H", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "H", 17x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "G", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "G", 16x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "F", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "F", 12x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "D", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "D", 17x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "S", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "S", 13x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "A", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "A", 15x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+      - GROUP "Top Row", 369x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+        - GROUP "P", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "P", 13x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "O", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "O", 18x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "I", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "I", 7x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "U", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "U", 16x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "Y", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "Y", 13x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "T", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "T", 13x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "R", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "R", 14x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "E", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "E", 12x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "W", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "W", 22x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+        - GROUP "Q", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF
+          - RECTANGLE "Key", 31.5x42px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+          - TEXT "Q", 18x31px, constraints center/center, fill #030303, text [Yu Gothic UI Regular, 23px]
+    - FRAME "Overrides/Keyboard/Light/Suggestion Bar", 375x42px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Bar", 375x42px, constraints scale/scale, fill #BBC2CA
+      - RECTANGLE "Separators", 1x42px, constraints center/center, fill #D1D6DA
+      - RECTANGLE "Right", 1x42px, constraints center/center, fill #D1D6DA
+      - TEXT "I’m", 105x24px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Regular, 18px]
+      - TEXT "the", 105x24px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Regular, 18px]
+      - TEXT "I", 105x24px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Regular, 18px]
+
+Screen: Light Theme / 06-Reset email
+- FRAME "06-Reset email", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Bars/Top bars/1", 375x88px, constraints left/top
+    - RECTANGLE "bg", 375x88px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+        - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+          - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+      - GROUP "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - VECTOR "back", 8x14px, constraints scale/scale, fill Main Color, stroke #979797 0px
+    - TEXT "Forgot Password", 187x11px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Semibold, 16px]
+  - GROUP "Text", 319x81px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Reset email sent", 258x25px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 34px], [heading]
+    - TEXT "We have sent a instructions email to shruti@gmail.com.", 273x35px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+    - TEXT "Having problem?", 122x11px, constraints left/top, fill Active Color - 1, text [Yu Gothic UI Regular, 16px]
+  - INSTANCE "CTA/Primary", 335x48px, constraints left/top
+    - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill Active Color - 1
+    - TEXT "Send again", 215x10px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Bold, 14px]
+
+Screen: Light Theme / 07-Sign up
+- FRAME "07-Sign up", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Bars/Top bars/1", 375x88px, constraints left/top
+    - RECTANGLE "bg", 375x88px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+        - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+          - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+      - GROUP "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - VECTOR "back", 8x14px, constraints scale/scale, fill Main Color, stroke #979797 0px
+    - TEXT "Forgot Password", 187x11px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Semibold, 16px]
+  - GROUP "Text", 273x80px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Create Account", 258x25px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 34px], [heading]
+    - TEXT "Enter your Name, Email and Password for sign up.", 273x35px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+    - TEXT "Already have account?", 164x11px, constraints left/top, fill Active Color - 1, text [Yu Gothic UI Regular, 16px]
+  - GROUP "Social accounts", 335x140px, constraints left/top
+    - TEXT "Or", 40x12px, constraints left/top, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 64%
+    - INSTANCE "CTA/Facebook", 335x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Facebook", 335x44px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 335x44px, constraints scale/scale, radius 8px, fill #395998, stroke #979797 0px, effect [drop_shadow 24px offset 0 12 #3959980F]
+        - GROUP "facebook", 28x28px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Rectangle", 28x28px, constraints scale/scale, radius 4px, fill #FFFFFF, stroke #979797 0px
+          - VECTOR "Path", 7x14px, constraints scale/scale, fill #395998
+        - TEXT "Connect with Faceboo", 187x20px, constraints scale/center, fill #FFFFFF, text [Yu Gothic UI Semibold, 12px]
+    - INSTANCE "CTA/Google", 335x44px, constraints left/top, fill #FFFFFF
+      - GROUP "Google", 335x44px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 335x44px, constraints scale/scale, radius 8px, fill #4285F4, stroke #979797 0px
+        - TEXT "Connect with google", 187x20px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Semibold, 12px]
+        - GROUP "google", 28x28px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF [decorative, ~5 shapes]
+  - GROUP "Sign up", 335x363px, constraints left/top
+    - INSTANCE "Form/2/Fill", 335x65px, constraints left/top, fill #FFFFFF
+      - GROUP "Form/2/Fill", 335x65px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 335x65px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "divider", 335x1px, constraints scale/scale, fill #F3F2F2, stroke #F3F2F2 0px
+        - TEXT "Email address", 148x22px, constraints scale/scale, fill Body Text, text [Yu Gothic UI Light, 12px]
+        - TEXT "Wahab2k19@icloud.com", 41x24px, constraints scale/center, fill Main Color, text [Yu Gothic UI Regular, 16px]
+        - INSTANCE "icon/24/done", 24x24px, constraints scale/scale, fill #FFFFFF
+          - GROUP "icon/24/done", 24x24px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+            - VECTOR "check", 11.25x9px, constraints scale/scale, fill Active Color - 1, stroke #979797 0px
+    - INSTANCE "Form/2/Fill", 335x65px, constraints left/top, fill #FFFFFF
+      - GROUP "Form/2/Fill", 335x65px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 335x65px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "divider", 335x1px, constraints scale/scale, fill #F3F2F2, stroke #F3F2F2 0px
+        - TEXT "Email address", 148x22px, constraints scale/scale, fill Body Text, text [Yu Gothic UI Light, 12px]
+        - TEXT "Wahab2k19@icloud.com", 124x24px, constraints scale/center, fill Main Color, text [Yu Gothic UI Regular, 16px]
+        - INSTANCE "icon/24/done", 24x24px, constraints scale/scale, fill #FFFFFF
+          - GROUP "icon/24/done", 24x24px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+            - VECTOR "check", 11.25x9px, constraints scale/scale, fill Active Color - 1, stroke #979797 0px
+    - INSTANCE "Form/2/Fill", 335x65px, constraints left/top, fill #FFFFFF
+      - GROUP "Form/2/Fill", 335x65px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "bg", 335x65px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "divider", 335x1px, constraints scale/scale, fill #F3F2F2, stroke #F3F2F2 0px
+        - TEXT "Email address", 148x22px, constraints scale/scale, fill Body Text, text [Yu Gothic UI Light, 12px]
+        - TEXT "Wahab2k19@icloud.com", 39x24px, constraints scale/center, fill Main Color, text [Yu Gothic UI Regular, 16px]
+        - INSTANCE "icon/24/done", 24x24px, constraints scale/scale, fill #FFFFFF
+          - GROUP "icon/24/done", 24x24px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+            - VECTOR "check", 11.25x9px, constraints scale/scale, fill Active Color - 1, stroke #979797 0px
+        - INSTANCE "icon/24/invisible", 24x24px, constraints scale/scale, fill #FFFFFF
+          - GROUP "icon/24/invisible", 24x24px, constraints scale/scale, fill #FFFFFF [decorative, ~5 shapes]
+    - INSTANCE "CTA/Primary", 335x48px, constraints left/top
+      - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill Active Color - 1
+      - TEXT "Sign up", 215x10px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Bold, 14px]
+    - TEXT "By Signing up you agree to our Terms Conditions & Privacy Po", 284x36px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+
+Screen: Light Theme / 08-Login by phone number
+- FRAME "08-Login by phone number", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Bars/Top bars/1", 375x88px, constraints left/top
+    - RECTANGLE "bg", 375x88px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+        - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+          - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+      - GROUP "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - VECTOR "back", 8x14px, constraints scale/scale, fill Main Color, stroke #979797 0px
+    - TEXT "Login to Foodly", 187x11px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Semibold, 16px]
+  - GROUP "Text", 299x80px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Get started with Foodly", 261x25px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading]
+    - TEXT "Enter your phone number to use foodly and enjoy your food :)", 299x35px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+  - INSTANCE "Form/3/phone", 335x64px, constraints left/top, fill #FFFFFF
+    - GROUP "Form/phone", 335x64px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "bg", 335x64px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "divider", 335x1px, constraints scale/scale, fill #F3F2F2, stroke #F3F2F2 0px
+      - TEXT "Phone Number", 148x22px, constraints scale/scale, fill #868686, text [Yu Gothic UI Light, 12px]
+      - TEXT "+1", 28x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 16px]
+      - TEXT "(501)333-2982", 83x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px], opacity 64%
+      - VECTOR "Path", 12x6px, constraints scale/scale, fill #868686, stroke #979797 0px
+  - INSTANCE "CTA/Primary", 335x48px, constraints left/top
+    - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill Active Color - 1
+    - TEXT "Sign up", 215x10px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Bold, 14px]
+  - INSTANCE "Keyboards/2", 375x291px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Background", 375x291px, constraints scale/scale, fill #D2D5DBE5, stroke #979797 0px, effect [background_blur 54.37px]
+    - FRAME "iPhone X/Home Indicator/Home Indicator - On Light", 375x34px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 24", 134x5px, constraints center/bottom, radius 100px, fill #000000
+    - BOOLEAN_OPERATION "Dictation", 15x25px, constraints scale/scale, fill #50555C
+    - BOOLEAN_OPERATION "Dictation", 15x25px, constraints scale/scale, fill #50555C
+    - BOOLEAN_OPERATION "Delete", 22.62x18px, constraints scale/scale, fill #50555C
+    - VECTOR "Shape_1_copy_2-2-path", 7.06x7.07px, constraints scale/scale, fill #50555C
+    - VECTOR "Shape_1_copy_2-2-path", 7.07x7.06px, constraints scale/scale, fill #50555C
+    - GROUP "0", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "9", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "8", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "7", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Rectangle", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "6", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "5", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "4", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "3", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "2", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x12px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "1", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+  - FRAME "Frame", 32x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+
+Screen: Light Theme / 09-Confirm phone number
+- FRAME "09-Confirm phone number", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Bars/Top bars/1", 375x88px, constraints left/top
+    - RECTANGLE "bg", 375x88px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+        - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+          - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+      - GROUP "icon/24/back", 24x24px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "base", 24x24px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - VECTOR "back", 8x14px, constraints scale/scale, fill Main Color, stroke #979797 0px
+    - TEXT "Login to Foodly", 187x11px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Semibold, 16px]
+  - GROUP "Text", 299x80px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Verify phone number", 261x25px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading]
+    - TEXT "Enter the 4-Digit code sent to you at +610489632578", 299x35px, constraints left/top, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 74%
+  - GROUP "Enter code", 260x50px, constraints left/top
+    - INSTANCE "Code/Fill", 50x50px, constraints left/top, fill #FFFFFF
+      - GROUP "Code/Fill", 50x50px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 50x50px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 24px offset 0 12 #00000009]
+        - TEXT "4", 14x24px, constraints scale/scale, fill #010F07, text [Yu Gothic UI Light, 16px]
+        - RECTANGLE "Rectangle Copy", 50x1px, constraints scale/scale, fill #868686, stroke #979797 0px
+    - INSTANCE "Code/Active", 50x50px, constraints left/top, fill #FFFFFF
+      - GROUP "Code/Active", 50x50px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 50x50px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 24px offset 0 12 #00000009]
+        - RECTANGLE "Rectangle", 1x24px, constraints scale/scale, fill #22A45D, stroke #979797 0px
+        - RECTANGLE "Rectangle Copy", 50x1px, constraints scale/scale, fill #868686, stroke #979797 0px
+    - INSTANCE "Code/Deactive", 50x50px, constraints left/top, fill #FFFFFF
+      - GROUP "Code/Deactive", 50x50px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 50x50px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 24px offset 0 12 #00000009]
+        - RECTANGLE "Rectangle Copy", 50x1px, constraints scale/scale, fill #010F07, stroke #979797 0px, opacity 50%
+    - INSTANCE "Code/Deactive", 50x50px, constraints left/top, fill #FFFFFF
+      - GROUP "Code/Deactive", 50x50px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 50x50px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 24px offset 0 12 #00000009]
+        - RECTANGLE "Rectangle Copy", 50x1px, constraints scale/scale, fill #010F07, stroke #979797 0px, opacity 50%
+  - INSTANCE "CTA/Primary", 335x48px, constraints left/top
+    - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill Active Color - 1
+    - TEXT "Continue", 215x10px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Bold, 14px]
+  - GROUP "Resend again", 198x9px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Didn’t receive code?", 116x9px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 12px], opacity 64%
+    - TEXT "Resend Again.", 80x9px, constraints left/top, fill Active Color - 1, text [Yu Gothic UI Light, 12px]
+  - TEXT "By Signing up you agree to our Terms Conditions & Privacy Po", 284x36px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+  - INSTANCE "Keyboards/2", 375x291px, constraints left/top, fill #FFFFFF
+    - RECTANGLE "Background", 375x291px, constraints scale/scale, fill #D2D5DBE5, stroke #979797 0px, effect [background_blur 54.37px]
+    - FRAME "iPhone X/Home Indicator/Home Indicator - On Light", 375x34px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 24", 134x5px, constraints center/bottom, radius 100px, fill #000000
+    - BOOLEAN_OPERATION "Dictation", 15x25px, constraints scale/scale, fill #50555C
+    - BOOLEAN_OPERATION "Dictation", 15x25px, constraints scale/scale, fill #50555C
+    - BOOLEAN_OPERATION "Delete", 22.62x18px, constraints scale/scale, fill #50555C
+    - VECTOR "Shape_1_copy_2-2-path", 7.06x7.07px, constraints scale/scale, fill #50555C
+    - VECTOR "Shape_1_copy_2-2-path", 7.07x7.06px, constraints scale/scale, fill #50555C
+    - GROUP "0", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "9", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "8", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "7", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Rectangle", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "6", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "5", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "4", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x47px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "3", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x13px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "2", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "ABC", 117x12px, constraints scale/scale, fill #030303, text [Yu Gothic UI Bold, 10px]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+    - GROUP "1", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF
+      - VECTOR "Key Background", 117x46px, constraints scale/scale, radius 5px, fill #FFFFFF, effect [drop_shadow 0px offset 0 1 #00000059]
+      - TEXT "#", 117x33px, constraints scale/scale, fill #030303, text [Yu Gothic UI Regular, 25px], [heading]
+
+Screen: Light Theme / 10-Enter Address
+- FRAME "10-Enter Address", 375x812px, constraints left/top, fill #FFFFFF
+  - GROUP "Text", 318x80px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Find restaurants near you", 287x25px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading]
+    - TEXT "Please enter your location or allow access to your location ", 318x35px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+  - GROUP "Top bar", 375x88px, constraints left/top
+    - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "bg", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+        - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+          - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "icon/34/close", 34x34px, constraints left/top, fill #FFFFFF
+      - GROUP "Icon/34/close", 34x34px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+  - GROUP "Current location", 335x48px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle", 335x48px, constraints left/top, radius 8px, stroke Active Color - 1 0.8px
+    - INSTANCE "icon/24/location", 24x24px, constraints left/top, fill #FFFFFF
+      - GROUP "icon/24/location", 24x24px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "base", 24x24px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+        - VECTOR "Path-99", 19.8x19.8px, constraints scale/scale, fill Active Color - 1, stroke #979797 0px
+    - TEXT "Use current location", 146x12px, constraints left/top, fill Active Color - 1, text [Yu Gothic UI Regular, 16px]
+  - INSTANCE "Form/4/search/deactive", 335x48px, constraints left/top, fill #FFFFFF
+    - GROUP "Search/form", 335x48px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "bg", 335x48px, constraints scale/scale, radius 8px, fill #FBFBFB, stroke #8686861A 1px
+      - TEXT "Enter a new address", 198x24px, constraints center/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+      - INSTANCE "icon/24/marker", 24x24px, constraints left/top, fill #FFFFFF
+        - GROUP "icon/24/location", 24x24px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+
+Screen: Light Theme / 11- Homepage
+- FRAME "11- Homepage", 375x2103px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Bars/Top bars/2", 375x114px, constraints left/top, fill #FFFFFF
+    - GROUP "Bars/Top bars/2", 375x114px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "bg", 375x114px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px, effect [inner_shadow 0px offset 0 -0.5 #68686833]
+      - FRAME "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints scale/scale, fill #FFFFFF
+        - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+          - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+            - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #000000 1px, opacity 35%
+            - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 40%
+            - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #000000
+          - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #000000
+          - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #000000
+          - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+            - TEXT "↳ Time", 54x17px, constraints scale/center, fill #000000, text [Yu Gothic UI Semibold, 14px]
+      - TEXT "Delivery to", 70x20px, constraints scale/center, fill Active Color - 1, text [Yu Gothic UI Light, 12px]
+      - GROUP "Delivery address", 166x27px, constraints scale/scale, fill #FFFFFF
+        - TEXT "San Francisco", 149x27px, constraints scale/center, fill Main Color, text [Yu Gothic UI Light, 20px]
+        - FRAME "icon/24/back", 18x18px, constraints scale/scale, fill #FFFFFF
+          - GROUP "icon/24/back", 18x18px, constraints scale/scale, fill #FFFFFF
+            - RECTANGLE "base", 18x18px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+            - VECTOR "back", 10.5x6px, constraints scale/scale, fill #010F07, stroke #979797 0px
+      - TEXT "Filter", 33x24px, constraints scale/center, fill Main Color, text [Yu Gothic UI Regular, 16px]
+  - GROUP "Header", 335x185px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF [decorative, ~8 shapes]
+  - GROUP "Featured Partners", 414x295px, constraints left/top
+    - GROUP "Text", 335x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Featured Partners", 191x17px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading]
+      - TEXT "See all", 48x17px, constraints left/top, fill #F8B64C, text [Yu Gothic UI Regular, 16px]
+    - INSTANCE "Card/medium", 200x254px, constraints left/top, fill #FFFFFF
+      - GROUP "Card/small", 200x254px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 200x254px, constraints left/top, radius 10px, fill #FFFFFF
+        - RECTANGLE "BG", 200x160px, constraints scale/scale, radius 10px, fill image(hash: 8ba295d9008bd95d90d56256d2c9bdca16a7c05c)
+        - TEXT "The Halal Guys", 116x27px, constraints scale/center, fill Main Color, text [Yu Gothic UI Light, 20px]
+        - GROUP "Rate", 36x20px, constraints scale/scale, radius 6px, fill #FFFFFF
+          - RECTANGLE "bg", 36x20px, constraints scale/scale, radius 6px, fill Active Color - 1, stroke #979797 0px
+          - TEXT "4.5", 20x12px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Semibold, 12px]
+        - TEXT "Colarodo, San Franci", 176x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+        - TEXT "25min", 36x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 14px], opacity 74%
+        - TEXT "Free delivery", 71x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 14px], opacity 74%
+        - VECTOR "Oval", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px
+    - INSTANCE "Card/medium", 200x254px, constraints left/top, fill #FFFFFF
+      - GROUP "Card/small", 200x254px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 200x254px, constraints left/top, radius 10px, fill #FFFFFF
+        - RECTANGLE "BG", 200x160px, constraints scale/scale, radius 10px, fill image(hash: 90bb5a84c722430b12164a269f3ad4d53b472cad)
+        - TEXT "The Halal Guys", 121x27px, constraints scale/center, fill Main Color, text [Yu Gothic UI Light, 20px]
+        - GROUP "Rate", 36x20px, constraints scale/scale, radius 6px, fill #FFFFFF
+          - RECTANGLE "bg", 36x20px, constraints scale/scale, radius 6px, fill Active Color - 1, stroke #979797 0px
+          - TEXT "4.5", 20x12px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Semibold, 12px]
+        - TEXT "Colarodo, San Franci", 144x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+        - TEXT "25min", 36x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 14px], opacity 74%
+        - TEXT "Free delivery", 71x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 14px], opacity 74%
+        - VECTOR "Oval", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px
+  - GROUP "Best Picks Restaurants by team", 414x327px, constraints left/top
+    - GROUP "Text", 335x49px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Best Picks Restaurants by team", 222x49px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading]
+      - TEXT "See all", 48x17px, constraints left/top, fill Active Color - 1, text [Yu Gothic UI Regular, 16px]
+    - INSTANCE "Card/medium", 200x254px, constraints left/top, fill #FFFFFF
+      - GROUP "Card/small", 200x254px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 200x254px, constraints left/top, radius 10px, fill #FFFFFF
+        - RECTANGLE "BG", 200x160px, constraints scale/scale, radius 10px, fill image(hash: c6ae249340a406bec599948bf2a9f65df6ed5c0a)
+        - TEXT "The Halal Guys", 103x27px, constraints scale/center, fill Main Color, text [Yu Gothic UI Light, 20px]
+        - GROUP "Rate", 36x20px, constraints scale/scale, radius 6px, fill #FFFFFF
+          - RECTANGLE "bg", 36x20px, constraints scale/scale, radius 6px, fill Active Color - 1, stroke #979797 0px
+          - TEXT "4.5", 20x12px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Semibold, 12px]
+        - TEXT "Colarodo, San Franci", 144x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+        - TEXT "25min", 36x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 14px], opacity 74%
+        - TEXT "Free delivery", 71x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 14px], opacity 74%
+        - VECTOR "Oval", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px
+    - INSTANCE "Card/medium", 200x254px, constraints left/top, fill #FFFFFF
+      - GROUP "Card/small", 200x254px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 200x254px, constraints left/top, radius 10px, fill #FFFFFF
+        - RECTANGLE "BG", 200x160px, constraints scale/scale, radius 10px, fill image(hash: 2ae51790372bc9cc0f0cd19144406d06c2e9d13e)
+        - TEXT "The Halal Guys", 131x27px, constraints scale/center, fill Main Color, text [Yu Gothic UI Light, 20px]
+        - GROUP "Rate", 36x20px, constraints scale/scale, radius 6px, fill #FFFFFF
+          - RECTANGLE "bg", 36x20px, constraints scale/scale, radius 6px, fill Active Color - 1, stroke #979797 0px
+          - TEXT "4.5", 20x12px, constraints scale/scale, fill #FFFFFF, text [Yu Gothic UI Semibold, 12px]
+        - TEXT "Colarodo, San Franci", 144x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+        - TEXT "25min", 36x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 14px], opacity 74%
+        - TEXT "Free delivery", 71x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 14px], opacity 74%
+        - VECTOR "Oval", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px
+  - GROUP "All Restaurants", 335x927px, constraints left/top
+    - GROUP "Text", 335x17px, constraints left/top, radius 0/0/0/0px
+      - TEXT "All Restaurants", 222x17px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading]
+      - TEXT "See all", 48x17px, constraints left/top, fill Active Color - 1, text [Yu Gothic UI Regular, 16px]
+    - INSTANCE "Card/big", 335x282px, constraints left/top, fill #FFFFFF
+      - GROUP "Card/big", 335x282px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 335x282px, constraints left/top, radius 10px, fill #FFFFFF
+        - GROUP "Rating", 110x20px, constraints scale/scale, fill #FFFFFF
+          - FRAME "icon/24/rating", 20x20px, constraints scale/scale, fill #FFFFFF
+            - GROUP "icon/24/rating", 20x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "200+ Ratings", 64x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+          - TEXT "4.3", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+        - GROUP "Time", 60x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "25 Min", 34x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+          - FRAME "icon/24/clock", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 64% [decorative, ~4 shapes]
+        - GROUP "Delivery", 47x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Free", 21x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+          - FRAME "icon/25/delivery", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 64% [decorative, ~7 shapes]
+        - VECTOR "Oval", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+        - RECTANGLE "BG", 335x185px, constraints scale/scale, radius 12px, fill image(hash: 20b4952449fd8f4a64bcf00265055a55cebc32ec)
+        - TEXT "The Halal Guys", 103x27px, constraints scale/center, fill Main Color, text [Yu Gothic UI Light, 20px]
+        - GROUP "Type", 283x24px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 17x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - TEXT "Chinese", 54x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - TEXT "American", 64x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - TEXT "Deshi food", 74x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - VECTOR "Oval Copy", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+          - VECTOR "Oval Copy 2", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+        - GROUP "Indicator", 72x5px, constraints scale/scale, radius 100px, fill #FFFFFF [decorative, ~5 shapes]
+    - INSTANCE "Card/big", 335x282px, constraints left/top, fill #FFFFFF
+      - GROUP "Card/big", 335x282px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 335x282px, constraints left/top, radius 10px, fill #FFFFFF
+        - GROUP "Rating", 110x20px, constraints scale/scale, fill #FFFFFF
+          - FRAME "icon/24/rating", 20x20px, constraints scale/scale, fill #FFFFFF
+            - GROUP "icon/24/rating", 20x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "200+ Ratings", 64x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+          - TEXT "4.3", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+        - GROUP "Time", 60x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "25 Min", 34x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+          - FRAME "icon/24/clock", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 64% [decorative, ~4 shapes]
+        - GROUP "Delivery", 47x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Free", 21x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+          - FRAME "icon/25/delivery", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 64% [decorative, ~7 shapes]
+        - VECTOR "Oval", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+        - RECTANGLE "BG", 335x185px, constraints scale/scale, radius 12px, fill image(hash: 1a07c606c363ff630e1fe4e79d7b64fc6e41777b)
+        - TEXT "The Halal Guys", 121x27px, constraints scale/center, fill Main Color, text [Yu Gothic UI Light, 20px]
+        - GROUP "Type", 283x24px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 17x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - TEXT "Chinese", 54x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - TEXT "American", 64x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - TEXT "Deshi food", 74x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - VECTOR "Oval Copy", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+          - VECTOR "Oval Copy 2", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+        - GROUP "Indicator", 72x5px, constraints scale/scale, radius 100px, fill #FFFFFF [decorative, ~5 shapes]
+    - INSTANCE "Card/big", 335x282px, constraints left/top, fill #FFFFFF
+      - GROUP "Card/big", 335x282px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "bg", 335x282px, constraints left/top, radius 10px, fill #FFFFFF
+        - GROUP "Rating", 110x20px, constraints scale/scale, fill #FFFFFF
+          - FRAME "icon/24/rating", 20x20px, constraints scale/scale, fill #FFFFFF
+            - GROUP "icon/24/rating", 20x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "200+ Ratings", 64x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+          - TEXT "4.3", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+        - GROUP "Time", 60x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "25 Min", 34x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+          - FRAME "icon/24/clock", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 64% [decorative, ~4 shapes]
+        - GROUP "Delivery", 47x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "Free", 21x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+          - FRAME "icon/25/delivery", 20x20px, constraints scale/scale, fill #FFFFFF, opacity 64% [decorative, ~7 shapes]
+        - VECTOR "Oval", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+        - RECTANGLE "BG", 335x185px, constraints scale/scale, radius 12px, fill image(hash: 1f9df642367d8e612ea1ea15dca1e7045c6a2aee)
+        - TEXT "The Halal Guys", 121x27px, constraints scale/center, fill Main Color, text [Yu Gothic UI Light, 20px]
+        - GROUP "Type", 283x24px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 17x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - TEXT "Chinese", 54x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - TEXT "American", 64x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - TEXT "Deshi food", 74x24px, constraints scale/center, fill Body Text, text [Yu Gothic UI Regular, 16px]
+          - VECTOR "Oval Copy", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+          - VECTOR "Oval Copy 2", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+        - GROUP "Indicator", 72x5px, constraints scale/scale, radius 100px, fill #FFFFFF [decorative, ~5 shapes]
+  - INSTANCE "Tab bar/2", 375x88px, constraints left/top, fill #FFFFFF
+    - GROUP "Tab bar/2", 375x88px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle", 375x88px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 4px offset 0 -2 #0000000A, inner_shadow 0px offset 0 1 #0000001A]
+      - GROUP "Home", 60x54px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle Copy", 60x54px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - TEXT "Home", 40x13px, constraints scale/center, fill Active Color - 1, text [Yu Gothic UI Light, 10px]
+        - VECTOR "Active", 14.34x20px, constraints scale/scale, fill Accent color, stroke #979797 0px, opacity 20%
+        - FRAME "icon/34/home", 34x34px, constraints scale/scale, fill #FFFFFF [decorative, ~6 shapes]
+      - GROUP "Search", 60x54px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle Copy", 60x54px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - TEXT "Search", 40x13px, constraints scale/center, fill Body Text, text [Yu Gothic UI Light, 10px]
+        - VECTOR "Deactive", 14.34x20px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - FRAME "icon/34/search", 34x34px, constraints scale/scale, fill #FFFFFF [decorative, ~6 shapes]
+      - GROUP "Orders", 60x54px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle Copy", 60x54px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - TEXT "Orders", 40x13px, constraints scale/center, fill #868686, text [Yu Gothic UI Light, 10px]
+        - VECTOR "Deactive", 14.34x20px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px, opacity 20%
+        - FRAME "icon/34/orders", 34x34px, constraints scale/scale, fill #FFFFFF [decorative, ~9 shapes]
+      - GROUP "Profile", 60x54px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle Copy", 60x54px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - TEXT "Profile", 40x13px, constraints scale/center, fill #868686, text [Yu Gothic UI Light, 10px]
+        - VECTOR "Deactive", 14.34x20px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px, opacity 20%
+        - FRAME "icon/34/profile", 34x34px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+      - FRAME "iPhone X/Home Indicator/Home Indicator - On Dark", 375x34px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle 24", 134x5px, constraints center/bottom, radius 100px, fill #000000
+  - INSTANCE "Banner", 335x170px, constraints scale/scale, fill #FFFFFF
+    - RECTANGLE "bg", 335x170px, constraints scale/scale, radius 12px, fill #FFD15C70, stroke #979797 0px
+    - RECTANGLE "bg", 335x170px, constraints scale/scale, radius 12px, fill #E6F9F2, stroke #979797 0px
+    - VECTOR "Path", 4.8x5.6px, constraints scale/scale, fill #FFD15C
+    - VECTOR "Path", 5.47x5.17px, constraints scale/scale, fill #FFD15C
+    - BOOLEAN_OPERATION "Shape", 4.41x4.4px, constraints scale/scale, fill #FF7058
+    - BOOLEAN_OPERATION "Shape", 4.41x4.4px, constraints scale/scale, fill #FF7058
+    - BOOLEAN_OPERATION "Shape", 4.4x4.4px, constraints scale/scale, fill #FF7058
+    - VECTOR "Path 3", 371.51x284px, constraints scale/scale, fill #D8D8D8, stroke #868686 1px
+    - TEXT "You’ve to order at l", 226x48px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 84%
+    - TEXT "Free Delivery for 1", 221x72px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Semibold, 28px], [heading]
+    - GROUP "15", 62.49x62.49px, constraints scale/scale, fill #FFFFFF [decorative, ~37 shapes]
+    - VECTOR "Path", 5.6x1.6px, constraints scale/scale, fill #CD807D
+    - VECTOR "Path", 3.34x5.08px, constraints scale/scale, fill #CD807D
+    - VECTOR "Path", 3.5x4.97px, constraints scale/scale, fill #84DBFF
+    - VECTOR "Oval", 2.6x2.6px, constraints scale/scale, fill #FFD15C
+    - VECTOR "Oval", 2.6x2.6px, constraints scale/scale, fill #84DBFF
+    - GROUP "101", 52.42x52.42px, constraints scale/scale, fill #FFFFFF [decorative, ~18 shapes]
+
+Screen: Light Theme / 12- Single restaurant
+- FRAME "12- Single restaurant", 375x1706px, constraints left/top, fill #FFFFFF
+  - GROUP "Header-area", 375x280px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Header-image", 375x280px, constraints left/top, fill image(hash: 1f9df642367d8e612ea1ea15dca1e7045c6a2aee)
+    - GROUP "Indicator", 72x5px, constraints scale/scale, radius 100px, fill #FFFFFF [decorative, ~5 shapes]
+    - INSTANCE "iPhone X/Status Bars/Status Bar", 375x44px, constraints left/top, fill #FFFFFF
+      - GROUP "iPhone X/Status Bars/Status Bar (Black)", 375x44px, constraints center/center, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 375x44px, constraints scale/scale
+        - GROUP "Battery", 24.33x11.33px, constraints right/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Border", 22x11.33px, constraints scale/scale, radius 2.67px, stroke #FFFFFF 1px, opacity 35%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 40%
+          - RECTANGLE "Capacity", 18x7.33px, constraints scale/scale, radius 1.33px, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 15.27x10.97px, constraints right/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 17x10.67px, constraints right/top, fill #FFFFFF
+        - FRAME "Time Style", 54x21px, constraints left/top, fill #FFFFFF
+          - TEXT "↳ Time", 54x17px, constraints scale/center, fill #FFFFFF, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "icon/34/back", 34x34px, constraints left/top, fill #FFFFFF
+      - GROUP "icon/34/back", 34x34px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "base", 34x34px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+        - VECTOR "back", 12x21px, constraints scale/scale, fill #FFFFFF, stroke #979797 0px
+    - INSTANCE "icon/34/search", 34x34px, constraints left/top, fill #FFFFFF
+      - GROUP "icon/34/search", 34x34px, constraints scale/scale, fill #FFFFFF [decorative, ~6 shapes]
+    - INSTANCE "icon/34/share", 34x34px, constraints left/top, fill #FFFFFF
+      - GROUP "icon/34/share", 34x34px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+  - GROUP "Top-text", 335x160px, constraints left/top
+    - TEXT "Mayfield Bakery & Cafe", 249x18px, constraints left/top, fill #000000, text [Yu Gothic UI Semibold, 24px], [heading]
+    - GROUP "Type", 283x24px, constraints scale/scale, fill #FFFFFF
+      - TEXT "$$", 17x24px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+      - TEXT "Chinese", 54x24px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+      - TEXT "American", 64x24px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+      - TEXT "Deshi food", 74x24px, constraints left/top, fill Body Text, text [Yu Gothic UI Regular, 16px]
+      - VECTOR "Oval Copy", 4x4px, constraints left/top, fill #868686, stroke #979797 0px, opacity 50%
+      - VECTOR "Oval Copy 2", 4x4px, constraints left/top, fill #868686, stroke #979797 0px, opacity 50%
+      - VECTOR "Oval Copy 3", 4x4px, constraints left/top, fill #868686, stroke #979797 0px, opacity 50%
+    - GROUP "Rating", 110x20px, constraints scale/scale, fill #FFFFFF
+      - FRAME "icon/24/rating", 20x20px, constraints left/top, fill #FFFFFF
+        - GROUP "icon/24/rating", 20x20px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "base", 20x20px, constraints scale/scale, fill #D8D8D8, stroke #979797 0px
+          - VECTOR "Star", 11.61x11.11px, constraints scale/scale, fill Active Color - 1, stroke #979797 0px
+      - TEXT "200+ Ratings", 64x20px, constraints left/top, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+      - TEXT "4.3", 15x20px, constraints left/top, fill #010F07, text [Yu Gothic UI Light, 12px], opacity 74%
+    - INSTANCE "CTA/Secondery", 113x38px, constraints left/top
+      - RECTANGLE "Rectangle", 113x38px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke Active Color - 1 0.8px
+      - TEXT "Take away", 78x9px, constraints scale/scale, fill Active Color - 1, text [Yu Gothic UI Semibold, 12px]
+    - GROUP "Delivery time", 70x44px, constraints left/top
+      - TEXT "Minutes", 42x20px, constraints left/top, fill Main Color, text [Yu Gothic UI Regular, 12px], opacity 64%
+      - TEXT "25", 17x24px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 16px]
+      - VECTOR "Active", 18x24px, constraints left/top, fill #F8B64C, stroke #979797 0px, opacity 20%
+      - INSTANCE "icon/24/clock", 20x20px, constraints left/top, fill #FFFFFF
+        - GROUP "icon/24/clock", 20x20px, constraints scale/scale, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Free delivery", 69x44px, constraints left/top
+      - TEXT "Delivery", 41x20px, constraints left/top, fill Main Color, text [Yu Gothic UI Regular, 12px], opacity 64%
+      - TEXT "Free", 27x24px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 16px]
+      - VECTOR "Active", 18x24px, constraints left/top, fill #F8B64C, stroke #979797 0px, opacity 20%
+      - INSTANCE "icon/24/delivery", 20x20px, constraints left/top, fill #FFFFFF
+        - GROUP "icon/25/delivery", 20x20px, constraints scale/scale, fill #FFFFFF [decorative, ~7 shapes]
+  - GROUP "Featured items", 448x230px, constraints left/top
+    - TEXT "Featured Items", 222x14px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 20px]
+    - INSTANCE "Card/small", 140x198px, constraints left/top, fill #FFFFFF
+      - GROUP "food/card/small", 140x198px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 140x198px, constraints left/top, radius 8px, fill #FFFFFF
+        - RECTANGLE "bg", 140x140px, constraints scale/scale, radius 8px, fill image(hash: 1c77516044df32225cfebe70e857386848ee5ee1), stroke #979797 0px
+        - GROUP "Type", 86x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 64%
+          - TEXT "Chinese", 48x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 64%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+        - TEXT "Cookie Sandwich", 111x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 16px]
+    - INSTANCE "Card/small", 140x198px, constraints left/top, fill #FFFFFF
+      - GROUP "food/card/small", 140x198px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 140x198px, constraints left/top, radius 8px, fill #FFFFFF
+        - RECTANGLE "bg", 140x140px, constraints scale/scale, radius 8px, fill image(hash: 3466a2ea9b8450d9afc47558ee6e9e1531c58fce), stroke #979797 0px
+        - GROUP "Type", 86x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 64%
+          - TEXT "Chinese", 48x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 64%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+        - TEXT "Cookie Sandwich", 65x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 16px]
+    - INSTANCE "Card/small", 140x198px, constraints left/top, fill #FFFFFF
+      - GROUP "food/card/small", 140x198px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 140x198px, constraints left/top, radius 8px, fill #FFFFFF
+        - RECTANGLE "bg", 140x140px, constraints scale/scale, radius 8px, fill image(hash: 6eb2588d5a2150107820f1cb26bf2a5af06cfe3a), stroke #979797 0px
+        - GROUP "Type", 86x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 64%
+          - TEXT "Chinese", 48x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 64%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 50%
+        - TEXT "Cookie Sandwich", 62x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 16px]
+  - GROUP "Menu", 517x32px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+    - TEXT "Beef & Lamb", 141x32px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading], opacity 54%
+    - TEXT "Seafood", 91x32px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading]
+    - TEXT "Appetizers", 118x32px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading], opacity 54%
+    - TEXT "Dim Sum", 101x32px, constraints left/top, fill Main Color, text [Yu Gothic UI Semibold, 24px], [heading], opacity 54%
+  - GROUP "Most Populars", 335x450px, constraints left/top
+    - TEXT "Most Populars", 222x14px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 20px]
+    - INSTANCE "List/Food", 332x110px, constraints left/top, fill #FFFFFF
+      - GROUP "Food/list", 332x110px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 332x110px, constraints left/top, radius 8px, fill #FFFFFF
+        - RECTANGLE "food", 110x110px, constraints scale/scale, radius 8px, fill image(hash: 211bc92a7d882d8413657b4cd3f53a6ae668e246), stroke #979797 0px
+        - TEXT "Cookie Sandwich", 124x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 18px]
+        - TEXT "Shortbread, chocolat", 204x48px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 64%
+        - GROUP "food type", 86x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - TEXT "Chinese", 48x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 60%
+        - TEXT "USD7.4", 54x20px, constraints scale/center, fill Active Color - 1, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "List/Food", 332x110px, constraints left/top, fill #FFFFFF
+      - GROUP "Food/list", 332x110px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 332x110px, constraints left/top, radius 8px, fill #FFFFFF
+        - RECTANGLE "food", 110x110px, constraints scale/scale, radius 8px, fill image(hash: b2a30d41b9f1627514efb82094dbf9dd64a7b5de), stroke #979797 0px
+        - TEXT "Cookie Sandwich", 109x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 18px]
+        - TEXT "Shortbread, chocolat", 204x48px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 64%
+        - GROUP "food type", 86x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - TEXT "Chinese", 48x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 60%
+        - TEXT "USD7.4", 54x20px, constraints scale/center, fill Active Color - 1, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "List/Food", 332x110px, constraints left/top, fill #FFFFFF
+      - GROUP "Food/list", 332x110px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 332x110px, constraints left/top, radius 8px, fill #FFFFFF
+        - RECTANGLE "food", 110x110px, constraints scale/scale, radius 8px, fill image(hash: e7390eadbb1deb44fd651869d65743488903503f), stroke #979797 0px
+        - TEXT "Cookie Sandwich", 129x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 18px]
+        - TEXT "Shortbread, chocolat", 204x48px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 64%
+        - GROUP "food type", 86x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - TEXT "Chinese", 48x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 60%
+        - TEXT "USD7.4", 54x20px, constraints scale/center, fill Active Color - 1, text [Yu Gothic UI Semibold, 14px]
+    - RECTANGLE "Rectangle", 335x1px, constraints left/top, fill #C4C4C4, opacity 30%
+    - RECTANGLE "Rectangle", 335x1px, constraints left/top, fill #C4C4C4, opacity 30%
+  - GROUP "Most Populars", 335x450px, constraints left/top
+    - TEXT "Sea Foods", 222x14px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 20px]
+    - INSTANCE "List/Food", 332x110px, constraints left/top, fill #FFFFFF
+      - GROUP "Food/list", 332x110px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 332x110px, constraints left/top, radius 8px, fill #FFFFFF
+        - RECTANGLE "food", 110x110px, constraints scale/scale, radius 8px, fill image(hash: 13d71ee71cc985b583f4f1dbba3afbae50ddec8d), stroke #979797 0px
+        - TEXT "Cookie Sandwich", 84x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 18px]
+        - TEXT "Shortbread, chocolat", 204x48px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 64%
+        - GROUP "food type", 86x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - TEXT "Chinese", 48x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 60%
+        - TEXT "USD7.4", 54x20px, constraints scale/center, fill Active Color - 1, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "List/Food", 332x110px, constraints left/top, fill #FFFFFF
+      - GROUP "Food/list", 332x110px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 332x110px, constraints left/top, radius 8px, fill #FFFFFF
+        - RECTANGLE "food", 110x110px, constraints scale/scale, radius 8px, fill image(hash: 7e81b628089d9f60048a2bf6cc657545463a04dd), stroke #979797 0px
+        - TEXT "Cookie Sandwich", 100x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 18px]
+        - TEXT "Shortbread, chocolat", 204x48px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 64%
+        - GROUP "food type", 86x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - TEXT "Chinese", 48x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 60%
+        - TEXT "USD7.4", 54x20px, constraints scale/center, fill Active Color - 1, text [Yu Gothic UI Semibold, 14px]
+    - INSTANCE "List/Food", 332x110px, constraints left/top, fill #FFFFFF
+      - GROUP "Food/list", 332x110px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 332x110px, constraints left/top, radius 8px, fill #FFFFFF
+        - RECTANGLE "food", 110x110px, constraints scale/scale, radius 8px, fill image(hash: addccca56949a21fa8a7e84d70eba083e8413c05), stroke #979797 0px
+        - TEXT "Cookie Sandwich", 122x24px, constraints scale/center, fill #010F07, text [Yu Gothic UI Light, 18px]
+        - TEXT "Shortbread, chocolat", 204x48px, constraints scale/scale, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 64%
+        - GROUP "food type", 86x20px, constraints scale/scale, fill #FFFFFF
+          - TEXT "$$", 15x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - TEXT "Chinese", 48x20px, constraints scale/center, fill #010F07, text [Yu Gothic UI Regular, 14px], opacity 74%
+          - VECTOR "Oval Copy 3", 4x4px, constraints scale/scale, fill #868686, stroke #979797 0px, opacity 60%
+        - TEXT "USD7.4", 54x20px, constraints scale/center, fill Active Color - 1, text [Yu Gothic UI Semibold, 14px]
+    - RECTANGLE "Rectangle", 335x1px, constraints left/top, fill #C4C4C4, opacity 30%
+    - RECTANGLE "Rectangle", 335x1px, constraints left/top, fill #C4C4C4, opacity 30%
+
+Screen: Light Theme / 13-Single restaurants
+- FRAME "13-Single restaurants", 375x812px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Single Content", 377x690px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "bg", 375x682.83px, constraints left/top, radius 16/16/0/0px, fill #FFFFFF, stroke #979797 0px, effect [drop_shadow 24px offset 0 -16 #00000005]
+    - GROUP "Rating & Review", 338x480.31px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+      - GROUP "Rating & Review", 336x152.34px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+        - GROUP "user", 189x21.51px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF
+          - VECTOR "Oval 4", 24x21.51px, constraints left/top, fill image(hash: cfac8250a639a326942b38963e456b7cfa1a6064), stroke #979797 0px
+          - TEXT "Susie Bridges", 85x21.51px, constraints left/top, fill Main Color, text [Yu Gothic UI Light, 16px]
+          - GROUP "Rate", 36x17.92px, constraints scale/scale, radius 6px, fill #FFFFFF
+            - RECTANGLE "bg", 36x17.92px, constraints left/top, radius 6px, fill #F8B64C, stroke #979797 0px
+            - TEXT "5.0", 20x10.75px, constraints left/top, fill #FFFFFF, text [Yu Gothic UI Semibold, 12px]
+        - TEXT "Great food I like th", 325x43.01px, constraints left/top, fill Main Color, text [Yu Gothic UI Regular, 16px], opacity 64%
+        - GROUP "photos", 336x57.35px, constraints scale/scale, radius 5px, fill #FFFFFF
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

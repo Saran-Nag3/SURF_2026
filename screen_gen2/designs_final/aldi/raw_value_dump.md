@@ -1,0 +1,1301 @@
+---
+name: montrack-fun-money-tracker-app-community
+source_file: Montrack (Fun Money Tracker App) (Community)
+source_page: All pages (13): Cover, ✅ Read Me, ----------------, FOUNDATIONS, ✅ Typographys, ✅ Colors, ✅ Spacings, ✅ Shadows, ✅ Illustrations, ----------------, ✅ Components, ✅ Design, ✅ Prototype
+generated_at: 2026-07-25T09:51:15.127479+00:00
+---
+
+# Montrack (Fun Money Tracker App) (Community) Design Guidelines
+
+## Source
+- Figma file: Montrack (Fun Money Tracker App) (Community)
+- Figma page: All pages (13): Cover, ✅ Read Me, ----------------, FOUNDATIONS, ✅ Typographys, ✅ Colors, ✅ Spacings, ✅ Shadows, ✅ Illustrations, ----------------, ✅ Components, ✅ Design, ✅ Prototype
+- Extracted at: 2026-07-25T09:51:15.127479+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Background/Background 3: [#E5F0FF]
+- Accent/Success: [#22CD22]
+- Monochrome/Black 60%: [#ABA4A4]
+- Monochrome/Black 100%: [#3C3C3C]
+- Accent/Error: [#F45454]
+- Monochrome/Black 40%: [#D6D6D6]
+- Monochrome/White: [#FFFFFF]
+- Label Color / Light / Primary: [#000000]
+- Background/Background 4: [#F2F7FF]
+- Background/Background 2: [#CCE1FF]
+- Gradient/Gradient 1: [gradient_linear(#3077E3 0% | #5A96E3 100%)]
+- Monochrome/Black 20%: [#FFFFFF]
+- Monochrome/Black 80%: [#585858]
+- Colors / Dark / Base 1: [#161719]
+- Primary Colors/Primary 1: [#5A96E3]
+- Label Color / Dark / Primary: [#FFFFFF]
+- Base/Dark/Dark 100: [#0D0E0F]
+- Label Color/Light/Primary: [#000000]
+- System Background/Light/Primary: [#FFFFFF]
+- Background/Background 1: [#A1C2F1]
+- Secondary Colors/Secondary 1: [#E7CEA6]
+- Primary Colors/Primary 2: [#4631E9]
+- Monochrome/Black 100%: [#313131]
+- Gradient/Gradient 1: [gradient_linear(#4631E9 0% | #A1C2F1 33% | #E7CEA6 66% | #EB5176 100%)]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 1184 uses
+- #3077E3: 461 uses
+- #FFFFFF5C: 418 uses
+- #000000: 317 uses
+- #DADADA: 113 uses
+- #0000001A: 56 uses
+- #343330: 48 uses
+- #1A1B365C: 34 uses
+- #9747FF: 24 uses
+
+## Typography Tokens
+- Inter/Body 1/Bold: Inter Bold (700), 16px / 24px, tracking -0.32px
+- Inter/Body 1/Regular: Inter Regular (400), 16px / 24px, tracking -0.32px
+- Inter/Body 1/SemiBold: Inter SemiBold (600), 16px / 24px, tracking -0.32px
+- Inter/Heading 5/SemiBold: Inter SemiBold (600), 20px / 32px, tracking -0.4px
+- Inter/Body 2/Regular: Inter Regular (400), 12px / 16px, tracking -0.24px
+- Inter/Heading 3/SemiBold: Inter SemiBold (600), 32px / 48px, tracking -0.64px
+- Inter/Heading 4/SemiBold: Inter SemiBold (600), 24px / 32px, tracking -0.48px
+- Inter/Heading 2/SemiBold: Inter SemiBold (600), 48px / 58px, tracking -0.96px
+- Inter/Body 2/SemiBold: Inter SemiBold (600), 12px / 16px, tracking -0.24px
+- Inter/Heading 3/Bold: Inter Bold (700), 32px / 48px, tracking -0.64px
+- Body/Body 2: Inter SemiBold (600), 16px / auto, tracking 0px
+- Typography / Bold / Text Title 3: DM Sans Bold (700), 24px / auto, tracking 0px
+- Default / Regular / File Metadata: Inter Regular (400), 12px / auto, tracking 0px
+- Inter/Heading 4/Bold: Inter Bold (700), 24px / 32px, tracking -0.48px
+- Inter/Heading 4/Regular: Inter Regular (400), 24px / 32px, tracking -0.48px
+- Inter/Body 2/Bold: Inter Bold (700), 12px / 16px, tracking -0.24px
+- Inter/Body 2/ExtraBold: Inter ExtraBold (800), 12px / 16px, tracking -0.24px
+- Inter/Body 1/ExtraBold: Inter ExtraBold (800), 16px / 24px, tracking -0.32px
+- Inter/Heading 5/Regular: Inter Regular (400), 20px / 32px, tracking -0.4px
+- Inter/Heading 5/Bold: Inter Bold (700), 20px / 32px, tracking -0.4px
+- Inter/Heading 5/ExtraBold: Inter ExtraBold (800), 20px / 32px, tracking -0.4px
+- Inter/Heading 4/ExtraBold: Inter ExtraBold (800), 24px / 32px, tracking -0.48px
+- Inter/Heading 3/Regular: Inter Regular (400), 32px / 48px, tracking -0.64px
+- Inter/Heading 3/ExtraBold: Inter ExtraBold (800), 32px / 48px, tracking -0.64px
+- Inter/Heading 2/Regular: Inter Regular (400), 48px / 58px, tracking -0.96px
+- Inter/Heading 2/Bold: Inter Bold (700), 48px / 58px, tracking -0.96px
+- Inter/Heading 2/ExtraBold: Inter ExtraBold (800), 48px / 58px, tracking -0.96px
+- Inter/Heading 1/Regular: Inter Regular (400), 56px / 67px, tracking -1.12px
+- Inter/Heading 1/SemiBold: Inter SemiBold (600), 56px / 67px, tracking -1.12px
+- Inter/Heading 1/Bold: Inter Bold (700), 56px / 67px, tracking -1.12px
+- Inter/Heading 1/ExtraBold: Inter ExtraBold (800), 56px / 67px, tracking -1.12px
+- Inter/Heading 4/SemiBold: Inter SemiBold (600), 24px / 37px, tracking -0.48px
+- Inter/Heading 4/Regular: Inter Regular (400), 24px / 37px, tracking -0.48px
+- Archivo/Heading 4/Bold: Archivo Bold (700), 24px / auto, tracking -0.48px
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 15px: 113 uses
+- SF Pro Display Regular, 22px: 51 uses
+- SF Pro Display Regular, 26px: 26 uses
+- Archivo Regular, 24px: 19 uses
+- Inter Medium, 32px: 16 uses
+- Inter Regular, 32px: 16 uses
+- SF Pro Display Regular, 25px: 10 uses
+- SF Pro Text Regular, 16px: 9 uses
+- SF Pro Text Bold, 10px: 8 uses
+- Archivo SemiBold, 48px: 6 uses
+
+## Typography Hierarchy
+- 56px - Inter/Heading 1/Bold (Inter Bold)
+- 56px - Inter/Heading 1/ExtraBold (Inter ExtraBold)
+- 56px - Inter/Heading 1/Regular (Inter Regular)
+- 56px - Inter/Heading 1/SemiBold (Inter SemiBold)
+- 48px - Archivo SemiBold, 48px (raw)
+- 48px - Inter/Heading 2/Bold (Inter Bold)
+- 48px - Inter/Heading 2/ExtraBold (Inter ExtraBold)
+- 48px - Inter/Heading 2/Regular (Inter Regular)
+- 48px - Inter/Heading 2/SemiBold (Inter SemiBold)
+- 32px - Inter Medium, 32px (raw)
+- 32px - Inter Regular, 32px (raw)
+- 32px - Inter/Heading 3/Bold (Inter Bold)
+- 32px - Inter/Heading 3/ExtraBold (Inter ExtraBold)
+- 32px - Inter/Heading 3/Regular (Inter Regular)
+- 32px - Inter/Heading 3/SemiBold (Inter SemiBold)
+- 26px - SF Pro Display Regular, 26px (raw)
+- 25px - SF Pro Display Regular, 25px (raw)
+- 24px - Archivo Regular, 24px (raw)
+- 24px - Archivo/Heading 4/Bold (Archivo Bold)
+- 24px - Inter/Heading 4/Bold (Inter Bold)
+- 24px - Inter/Heading 4/ExtraBold (Inter ExtraBold)
+- 24px - Inter/Heading 4/Regular (Inter Regular)
+- 24px - Inter/Heading 4/SemiBold (Inter SemiBold)
+- 24px - Typography / Bold / Text Title 3 (DM Sans Bold)
+- 22px - SF Pro Display Regular, 22px (raw)
+- 20px - Inter/Heading 5/Bold (Inter Bold)
+- 20px - Inter/Heading 5/ExtraBold (Inter ExtraBold)
+- 20px - Inter/Heading 5/Regular (Inter Regular)
+- 20px - Inter/Heading 5/SemiBold (Inter SemiBold)
+- 16px - Body/Body 2 (Inter SemiBold)
+- 16px - Inter/Body 1/Bold (Inter Bold)
+- 16px - Inter/Body 1/ExtraBold (Inter ExtraBold)
+- 16px - Inter/Body 1/Regular (Inter Regular)
+- 16px - Inter/Body 1/SemiBold (Inter SemiBold)
+- 16px - SF Pro Text Regular, 16px (raw)
+- 15px - Inter SemiBold, 15px (raw)
+- 12px - Default / Regular / File Metadata (Inter Regular)
+- 12px - Inter/Body 2/Bold (Inter Bold)
+- 12px - Inter/Body 2/ExtraBold (Inter ExtraBold)
+- 12px - Inter/Body 2/Regular (Inter Regular)
+- 12px - Inter/Body 2/SemiBold (Inter SemiBold)
+- 10px - SF Pro Text Bold, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadows/Small: [drop_shadow 16px offset 0 12 #0000000A]
+- Shadows/Extra Large: [drop_shadow 48px offset 0 12 #00000029]
+- Shadows/Medium: [drop_shadow 24px offset 0 4 #0000001F]
+- Input Typing: [drop_shadow 0px offset 0 0 #5A96E340]
+- Shadows/Large: [drop_shadow 48px offset 0 12 #0000001F]
+
+## Grid Styles
+- Mobile Grid: columns count 4, section 70.75px, gutter 20px, align stretch
+
+## Component Families
+- Table Head
+- Illustration
+- Toggle Button
+- Accordion Button
+- Boleean Label
+- Nav Bar Button
+- Add New Wallet Button
+- Step
+- Action
+- Add Attachment
+- Progress Bar
+- Activity Card
+- Wallet Card
+- Wrapper
+- Card
+- Logo
+- Emoji
+- Toast
+- Divier
+- Status Bar
+- Home Indicator
+- Numeric Keyboard
+- Alphabetic Keyboard
+- Input Field Text Area
+- Input Field
+- Button
+- Boolean Input
+- Overlay
+- Floating Action Button
+- Modal Confirmation Dialog
+- google
+- Nav Bar
+
+## Component Specs
+- Table Head: size 109x48px, horizontal layout, padding 12 12 12 12px, gap 10px, align min/center, sizing W:fixed H:fixed, fill Background/Background 3, text [Inter/Body 1/SemiBold] | variants: Property 1: Default/Variant2/Variant3
+- Illustration: size 236x420px, fill #FFFFFF | variants: Property 1: 1/2/3/4
+- Toggle Button: size 36x20px, radius 99px, fill Monochrome/Black 40% | variants: Property 1: Off/On
+- Accordion Button: size 60x24px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Inter/Body 1/Regular] | variants: Property 1: Default/Variant2
+- Boleean Label: size 72x24px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Inter/Body 1/Regular] | variants: Property 1: Default/Variant2
+- Nav Bar Button: size 44x52px, vertical layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [Inter/Body 1/Regular] | variants: Property 1: Active/Default
+- Add New Wallet Button: size 343x56px, radius 12px, horizontal layout, padding 16 16 16 16px, gap 16px, align center/center, sizing W:fixed H:fixed, fill Background/Background 3, text [Inter/Body 1/Regular] | variants: Property 1: Default
+- Step: size 24x8px, radius 12px, fill #3077E3 | variants: State: Active/Inactive
+- Action: size 88x111px, vertical layout, padding 0 0 0 0px, gap -1px, sizing W:fixed H:fixed, effect Shadows/Small, text [Inter/Body 1/Regular] | variants: Property 1: 2/2 With Button/3 With Button
+- Add Attachment: size 343x56px, radius 8px, horizontal layout, padding 12 12 12 12px, gap 0px, align center/center, sizing W:fixed H:fixed, fill Background/Background 4, stroke Monochrome/Black 40% 1px, text [Inter/Body 1/Regular] | variants: Property 1: Default/Filled
+- Progress Bar: size 295x8px, radius 100px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, fill Monochrome/Black 20% | variants: Property 1: 0%/100%/25%/50%/75%
+- Activity Card: size 343x84px, radius 12px, horizontal layout, padding 16 16 16 16px, gap 4px, align min/center, sizing W:fixed H:fixed, fill Monochrome/White, stroke Monochrome/Black 20% 1px, effect Shadows/Small, text [Inter/Body 1/Bold, Inter/Body 1/Regular, Inter/Body 1/SemiBold] | variants: Property 1: Expense/Income
+- Wallet Card: size 343x108px, radius 12px, vertical layout, padding 16 24 16 24px, gap 4px, align center/min, sizing W:fixed H:fixed, fill Monochrome/White, stroke Monochrome/Black 20% 1px, effect Shadows/Small, text [Inter/Heading 3/SemiBold, Inter/Body 1/Regular] | variants: Property 1: Default/Used
+- Wrapper: size 375x60px, vertical layout, padding 12 16 16 16px, gap 8px, sizing W:fixed H:fixed, fill Gradient/Gradient 1, text [Inter/Heading 5/SemiBold] | variants: Property 1: Default/WIth Icon Back/WIth Icon Back and More
+- Card (✅ Components): size 365x136px, radius 12px, vertical layout, padding 16 16 16 16px, gap 4px, align center/min, sizing W:fill H:fixed, fill Monochrome/White, stroke Monochrome/Black 20% 1px, effect Shadows/Medium, text [Inter/Body 1/Bold, Inter/Body 1/Regular, Inter/Heading 3/SemiBold] | variants: Property 1: Expense/Income/No Description/With Description/With Progress Bar 1/With Progress Bar 2
+- Logo: size 252x57.06px | variants: Property 1: Full Big/Full Medium/Full Medium - White/Logogram - Big/Logogram - Small
+- Emoji: size 72x72px | variants: Property 1: Alien/Alien Monster/Angry Face/Angry Face With Horns/Anguished Face/Anxious Face With Sweat/Astonished Face/Beaming Face With Smiling Eyes/Cat Face/Cat With Tears Of Joy/Cat With Wry Smile/Cold Face/Confounded Face/Confused Face/Cowboy Hat Face/Crying Cat/Crying Face/Disappointed Face/Disguised Face/Dizzy Face/Downcast Face With Sweat/Drooling Face/Expressionless Face/Face Blowing A Kiss/Face Exhaling/Face In Clouds/Face Savoring Food/Face Screaming In Fear/Face Vomiting/Face With Hand Over Mouth/Face With Head Bandage/Face With Medical Mask/Face With Monocle/Face With Open Mouth/Face With Raised Eyebrow/Face With Rolling Eyes/Face With Spiral Eyes/Face With Steam From Nose/Face With Symbols On Mouth/Face With Tears Of Joy/Face With Thermometer/Face With Tongue/Face Without Mouth/Fearful Face/Flushed Face/Frowning Face/Frowning Face With Open Mouth/Grimacing Face/Grinning Cat/Grinning Cat With Smiling Eyes/Grinning Face/Grinning Face With Big Eyes/Grinning Face With Smiling Eyes/Grinning Face With Sweat/Grinning Squinting Face/Hot Face/Hugging Face/Hushed Face/Kissing Cat/Kissing Face/Kissing Face With Closed Eyes/Kissing Face With Smiling Eyes/Loudly Crying Face/Lying Face/Money Mouth Face/Nauseated Face/Nerd Face/Neutral Face/Partying Face/Pensive Face/Persevering Face/Pleading Face/Pouting Cat/Pouting Face/Relieved Face/Rolling On The Floor Laughing/Sad But Relieved Face/Shushing Face/Skull/Skull And Crossbones/Sleeping Face/Sleepy Face/Slightly Frowning Face/Slightly Smiling Face/Smiling Cat With Heart Eyes/Smiling Face/Smiling Face With Halo/Smiling Face With Heart Eyes/Smiling Face With Hearts/Smiling Face With Horns/Smiling Face With Smiling Eyes/Smiling Face With Sunglasses/Smiling Face With Tear/Smirking Face/Sneezing Face/Squinting Face With Tongue/Star Struck/Thinking Face/Tired Face/Unamused Face/Upside Down Face/Weary Cat/Weary Face/Winking Face/Winking Face With Tongue/Woozy Face/Worried Face/Yawning Face/Zany Face/Zipper Mouth Face
+- Toast: size 472x60px, radius 4px, horizontal layout, padding 12 12 12 12px, gap 12px, align min/center, sizing W:fixed H:fixed, fill Primary Colors/Primary 1, effect Shadows/Small, text [Inter/Body 1/SemiBold] | variants: Property 1: Default/Variant2/Variant4
+- Divier: size 220x5px, vertical layout, padding 2 0 2 0px, gap 10px, sizing W:fixed H:fixed | variants: Type: Horizontal/Vertical
+- Status Bar: size 375x44px, fill #8F8E94, text [Inter SemiBold, 15px] | variants: Dark Mode: No/Yes
+- Home Indicator: size 375x34px, fill #FFFFFF | variants: Dark Mode: No/Yes
+- Numeric Keyboard: size 375x291px, fill #D1D5DBE5, effect [background_blur 108.73px], text [SF Pro Display Regular, 25px, SF Pro Text Bold, 10px] | variants: Dark Mode: False
+- Alphabetic Keyboard: size 375x291px, fill #D1D5DBE5, effect [background_blur 108.73px], text [SF Pro Text Regular, 16px, SF Pro Display Regular, 22px] | variants: Uppercase: False/True; Type: Letters/Symbols
+- Input Field Text Area: size 400x128px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, text [Inter/Body 1/Regular] | variants: Label: No/Yes; Icon: No/Yes; Helper Text: No/Yes; State: Default/Disable/Error/Filled/Hover/Typing
+- Input Field: size 400x48px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill Background/Background 4, text [Inter/Body 1/Regular] | variants: Type: Text Field; Label: No/Yes; Icon: Left/No/Right; Text Beside Icon: No/Yes; Text Inside Field: No/Yes; Icon Above: No/Yes; Helper Text: No/Yes; State: Default/Disable/Error/Filled/Hover/Typing
+- Button: size 123x40px, radius 8px, horizontal layout, padding 8 24 8 24px, gap 8px, align center/center, sizing W:fixed H:fixed, fill #3077E3, text [Inter/Body 1/SemiBold] | variants: Type: Icon Only/Primary/Secondary/Tertiary; Icon: -/Left/No/Right; State: Default/Disable/Hover
+- Boolean Input: size 160x60px, vertical layout, padding 0 0 0 0px, gap 12px, sizing W:fixed H:fixed, text [Inter/Body 1/Regular]
+- Overlay: size 375x812px, fill Monochrome/Black 100%
+- Floating Action Button: size 64x64px, radius 100px, horizontal layout, padding 0 0 0 0px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #3077E3, effect Shadows/Extra Large
+- Modal Confirmation Dialog: size 343x148px, radius 8px, vertical layout, padding 16 16 16 16px, gap 16px, align min/center, sizing W:fixed H:fixed, fill Monochrome/White, text [Inter/Body 1/SemiBold, Inter/Body 1/Regular]
+- google: size 32x32px, fill #FFFFFF
+- Card (✅ Prototype): size 343x84px, radius 12px, horizontal layout, padding 16 16 16 16px, gap 4px, align min/center, sizing W:fixed H:fixed, fill Background/Background 3, text [Inter/Body 1/Bold, Inter/Body 1/Regular, Inter/Body 1/SemiBold] | variants: Property 1: Default/Variant2
+- Nav Bar: size 375x84px, horizontal layout, padding 16 16 16 16px, gap 24px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke Monochrome/Black 20% 1px, text [Inter/Body 1/Regular]
+
+## Most-Used Styles
+- Monochrome/Black 100%: 2270 uses
+- Inter/Body 1/Regular: 1700 uses
+- Monochrome/White: 958 uses
+- Background/Background 4: 683 uses
+- Monochrome/Black 80%: 662 uses
+- Monochrome/Black 60%: 541 uses
+- Monochrome/Black 20%: 307 uses
+- Inter/Body 2/Regular: 238 uses
+- Background/Background 2: 225 uses
+- Inter/Body 1/SemiBold: 219 uses
+- Monochrome/Black 40%: 152 uses
+- Colors / Dark / Base 1: 141 uses
+- Label Color/Light/Primary: 114 uses
+- Label Color / Light / Primary: 112 uses
+- Background/Background 3: 107 uses
+- Inter/Body 1/Bold: 105 uses
+- System Background/Light/Primary: 90 uses
+- Gradient/Gradient 1: 83 uses
+- Inter/Heading 5/SemiBold: 79 uses
+- Accent/Error: 66 uses
+- Input Typing: 65 uses
+- Inter/Heading 3/SemiBold: 65 uses
+- Shadows/Medium: 51 uses
+- Inter/Heading 2/SemiBold: 41 uses
+- Inter/Heading 4/SemiBold: 39 uses
+- Accent/Success: 34 uses
+- Shadows/Small: 34 uses
+- Primary Colors/Primary 1: 24 uses
+- Shadows/Extra Large: 24 uses
+- Inter/Heading 4/Bold: 9 uses
+- Inter/Heading 3/Bold: 8 uses
+- Background/Background 1: 7 uses
+- Inter/Heading 4/Regular: 6 uses
+- Primary Colors/Primary 2: 6 uses
+- Inter/Body 2/SemiBold: 4 uses
+- Inter/Heading 3/Regular: 4 uses
+- Archivo/Heading 4/Bold: 2 uses
+- Inter/Heading 1/Bold: 2 uses
+- Inter/Heading 2/Regular: 2 uses
+- Inter/Heading 5/Regular: 2 uses
+- Base/Dark/Dark 100: 1 use
+- Body/Body 2: 1 use
+- Default / Regular / File Metadata: 1 use
+- Inter/Body 1/ExtraBold: 1 use
+- Inter/Body 2/Bold: 1 use
+- Inter/Body 2/ExtraBold: 1 use
+- Inter/Heading 1/ExtraBold: 1 use
+- Inter/Heading 1/Regular: 1 use
+- Inter/Heading 1/SemiBold: 1 use
+- Inter/Heading 2/Bold: 1 use
+- Inter/Heading 2/ExtraBold: 1 use
+- Inter/Heading 3/ExtraBold: 1 use
+- Inter/Heading 4/ExtraBold: 1 use
+- Inter/Heading 5/Bold: 1 use
+- Inter/Heading 5/ExtraBold: 1 use
+- Label Color / Dark / Primary: 1 use
+- Secondary Colors/Secondary 1: 1 use
+- Shadows/Large: 1 use
+- Typography / Bold / Text Title 3: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1920x1080px, constraints left/top, radius 32px, fill Background/Background 4
+  - ELLIPSE "Baground Blur", 765x765px, constraints center/center, fill Gradient/Gradient 1, effect [layer_blur 200px]
+  - RECTANGLE "Mockup (10) 1", 793x1409px, constraints left/top, fill image(hash: 751f598a3ff00d3c5601e14f04af29eab17fad6d)
+  - FRAME "Wrapper", 674.2x242.67px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Logo", 674.2x152.67px, constraints left/top [decorative, ~9 shapes]
+    - TEXT "Fun Money Tracker App", 519x58px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 2/Regular], [heading]
+  - FRAME "Wrapper", 353x124px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Nama", 353x63px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Foto Profil New", 56x56px, constraints left/top, radius 61.83px, fill image(hash: 9acf6b1ed2e6dcf8203a372a9fd910ee8dd71624), stroke Primary Colors/Primary 2 2px
+      - FRAME "Frame 66", 281x63px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Sahid Aldi Susilo", 184x26px, constraints left/top, fill Monochrome/Black 100%, text [Archivo/Heading 4/Bold], [heading]
+        - FRAME "Frame 302", 281x37px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 301", 16x2px, constraints left/top, fill Primary Colors/Primary 2
+          - TEXT "UI/UX Design Specialist", 257x37px, constraints left/top, fill Primary Colors/Primary 2, text [Inter/Heading 4/Regular], [heading], opacity 80%
+    - TEXT "sahidaldis.webflow.io", 231x37px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 24px], [heading], opacity 80%
+
+Screen: ✅ Read Me / Read Me
+- FRAME "Read Me", 1612x1447px, vertical pad 128 128 128 128px gap 56px sizing W:fixed H:fixed, constraints left/top, radius 16px, fill Background/Background 4
+  - FRAME "Wrapper", 1356x88px, vertical pad 0 0 0 0px gap 16px sizing W:fill H:fixed, constraints left/top
+    - TEXT "📝 Read Me", 1356x67px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Heading 1/Bold], [heading]
+    - INSTANCE "Divier", 1356x5px, vertical pad 2 0 2 0px gap 10px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Divider", 1356x1px, horizontal pad 12 10 12 10px gap 10px sizing W:fill H:fixed, constraints left/top, fill Monochrome/Black 80%
+  - FRAME "Wrapper", 1356x304px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "About Montrack", 246x48px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Heading 3/Bold], [heading]
+    - TEXT "Montrack is a comprehensive UI Kit designed to empower desig", 1356x240px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 3/Regular], [heading]
+  - FRAME "Wrapper", 1356x160px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "License:", 127x48px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Heading 3/Bold], [heading]
+    - TEXT "Montrack Finance Management UI Kit is released under a free ", 1356x96px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 3/Regular], [heading]
+  - FRAME "Wrapper", 1356x352px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "License Terms:", 229x48px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Heading 3/Bold], [heading]
+    - TEXT "You are permitted to use this UI Kit for both personal and c", 1356x288px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 3/Regular], [heading]
+  - INSTANCE "Footer", 1356x63px, horizontal pad 0 0 0 0px gap 1233px align space_between/max sizing W:fill H:fixed, constraints left/top
+    - FRAME "Nama", 500x63px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Foto Profil New", 56x56px, constraints left/top, radius 61.83px, fill image(hash: 9acf6b1ed2e6dcf8203a372a9fd910ee8dd71624), stroke Primary Colors/Primary 2 2px
+      - FRAME "Frame 66", 281x63px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Sahid Aldi Susilo", 184x26px, constraints left/top, fill Monochrome/Black 100%, text [Archivo/Heading 4/Bold], [heading]
+        - FRAME "Frame 302", 281x37px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 301", 16x2px, constraints left/top, fill Primary Colors/Primary 2
+          - TEXT "UI/UX Design Specialist", 257x37px, constraints left/top, fill Primary Colors/Primary 2, text [Inter/Heading 4/Regular], [heading], opacity 80%
+    - TEXT "sahidaldis.webflow.io", 356x37px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 24px], [heading], opacity 80%
+    - TEXT "UI/UX Design", 500x37px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 4/SemiBold], [heading]
+
+Screen: ✅ Typographys / Typography
+- SECTION "Typography", 1237x2122px, fill Monochrome/Black 40%, stroke #0000001A 1px
+  - FRAME "Typography - Archivo", 1037x1922px, vertical pad 16 16 16 16px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Monochrome/White
+    - FRAME "Wrapper", 1005x1890px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Wrapper", 205x1890px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Table Head", 205x48px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 3
+          - TEXT "Table Head", 115x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Table Head", 205x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 69x67px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 1/ExtraBold], [heading]
+        - INSTANCE "Table Head", 205x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 69x67px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 1/Bold], [heading]
+        - INSTANCE "Table Head", 205x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 68x67px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 1/SemiBold], [heading]
+        - INSTANCE "Table Head", 205x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 67x67px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 1/Regular], [heading]
+        - FRAME "Divider", 205x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 205x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 66x58px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 2/ExtraBold], [heading]
+        - INSTANCE "Table Head", 205x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 66x58px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 2/Bold], [heading]
+        - INSTANCE "Table Head", 205x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 65x58px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 2/SemiBold], [heading]
+        - INSTANCE "Table Head", 205x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 64x58px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 2/Regular], [heading]
+        - FRAME "Divider", 205x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 205x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 45x48px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 3/ExtraBold], [heading]
+        - INSTANCE "Table Head", 205x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 45x48px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 3/Bold], [heading]
+        - INSTANCE "Table Head", 205x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 45x48px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 3/SemiBold], [heading]
+        - INSTANCE "Table Head", 205x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 44x48px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 3/Regular], [heading]
+        - FRAME "Divider", 205x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 205x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 35x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 4/ExtraBold], [heading]
+        - INSTANCE "Table Head", 205x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 34x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 4/Bold], [heading]
+        - INSTANCE "Table Head", 205x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 34x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 4/SemiBold], [heading]
+        - INSTANCE "Table Head", 205x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 28x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 5/Regular], [heading]
+        - FRAME "Divider", 205x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 205x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 28x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 5/ExtraBold], [heading]
+        - INSTANCE "Table Head", 205x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 28x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 5/Bold], [heading]
+        - INSTANCE "Table Head", 205x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 28x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 5/SemiBold], [heading]
+        - INSTANCE "Table Head", 205x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 27x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 5/Regular], [heading]
+        - ... +10 more children
+      - FRAME "Wrapper", 160x1890px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fill, constraints left/top
+        - INSTANCE "Table Head", 160x48px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 3
+          - TEXT "Table Head", 62x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 71x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 33x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 69x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 56x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 71x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 33x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 69x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 56x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 71x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 33x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 69x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 56x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 71x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 33x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 69x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 56x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 71x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 33x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 69x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 56x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - ... +10 more children
+      - FRAME "Wrapper", 160x1890px, vertical pad 0 0 0 0px gap -1px align min/center sizing W:fixed H:fill, constraints left/top
+        - INSTANCE "Table Head", 160x48px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 3
+          - TEXT "Table Head", 32x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 42x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 42x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 42x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 42x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 42x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 42x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 42x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 42x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 41x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - ... +10 more children
+      - FRAME "Wrapper", 160x1890px, vertical pad 0 0 0 0px gap -1px align min/center sizing W:fixed H:fill, constraints left/top
+        - INSTANCE "Table Head", 160x48px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 3
+          - TEXT "Table Head", 39x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 70x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - ... +10 more children
+      - FRAME "Wrapper", 160x1890px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fill, constraints left/top
+        - INSTANCE "Table Head", 160x48px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 3
+          - TEXT "Table Head", 85x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 19x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 19x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 19x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 19x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 20x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - ... +10 more children
+      - FRAME "Wrapper", 160x1890px, vertical pad 0 0 0 0px gap -1px sizing W:fixed H:fill, constraints left/top
+        - INSTANCE "Table Head", 160x48px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 3
+          - TEXT "Table Head", 109x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x91px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x82px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x72px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Divider", 160x2px, constraints left/top, fill Monochrome/Black 100%
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - INSTANCE "Table Head", 160x56px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+          - TEXT "Table Head", 17x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - ... +10 more children
+
+Screen: ✅ Typographys / Table Head
+- COMPONENT_SET "Table Head", 157x240px, vertical pad 24 24 24 24px gap 24px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Default", 109x48px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Background/Background 3
+    - TEXT "Table Head", 85x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/SemiBold]
+  - COMPONENT "Property 1=Variant2", 109x48px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Monochrome/White, stroke Monochrome/Black 20% 1px
+    - TEXT "Table Head", 83x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+  - COMPONENT "Property 1=Variant3", 109x48px, horizontal pad 12 12 12 12px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Background/Background 4, stroke Monochrome/Black 20% 1px
+    - TEXT "Table Head", 83x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+
+Screen: ✅ Colors / Colors
+- SECTION "Colors", 3568x3274px, fill Monochrome/Black 40%, stroke #0000001A 1px
+  - FRAME "Colors", 3368x3074px, vertical pad 16 16 16 16px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Monochrome", 3336x503px, vertical pad 48 48 48 48px gap 32px align center/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Monochrome", 286x56px, constraints left/top, fill Monochrome/Black 100%, text [Archivo SemiBold, 48px], [heading]
+      - FRAME "Container", 3240x319px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Black 100%", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Monochrome/Black 100%
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Black 100%", 372x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "3C3C3C", 128x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "Black 80%", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Monochrome/Black 80%
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Black 80%", 385x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "585858", 115x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "Black 60%", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Monochrome/Black 60%
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Black 60%", 376x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "ABA4A4", 124x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "Black 40%", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Monochrome/Black 40%
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Black 40%", 374x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "D6D6D6", 126x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "Black 20%", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Monochrome/Black 20%
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Black 20%", 376x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "EDEDED", 124x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "White", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Monochrome/White, stroke Monochrome/Black 60% 1px
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "White", 376x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "EDEDED", 124x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+    - FRAME "Background", 3336x503px, vertical pad 48 48 48 48px gap 32px align center/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Background", 263x56px, constraints left/top, fill Monochrome/Black 100%, text [Archivo SemiBold, 48px], [heading]
+      - FRAME "Container", 2144x319px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Background 1", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Background/Background 1
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Background 1", 391x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "A1C2F1", 109x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "Background 2", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Background/Background 2
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Background 2", 385x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "CCE1FF", 115x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "Background 3", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Background/Background 3
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Background 3", 388x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "E5F0FF", 112x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "Background 4", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Background/Background 4
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Background 4", 390x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "F2F7FF", 110x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+    - FRAME "Primary Colors", 3336x503px, vertical pad 48 48 48 48px gap 32px align center/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Primary Colors", 318x56px, constraints left/top, fill Monochrome/Black 100%, text [Archivo SemiBold, 48px], [heading]
+      - FRAME "Container", 500x319px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Primary 2", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Primary Colors/Primary 1
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary 1", 382x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "5A96E3", 118x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+    - FRAME "Secondary Colors", 3336x527px, vertical pad 48 48 48 48px gap 32px align center/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Secondary Colors", 383x56px, constraints left/top, fill Monochrome/Black 100%, text [Archivo SemiBold, 48px], [heading]
+      - FRAME "Secondary 1", 500x343px, vertical pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Secondary Colors/Secondary 1
+        - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Secondary 1", 250x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+          - TEXT "E7CEA6", 250x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+    - FRAME "Accents", 3336x503px, vertical pad 48 48 48 48px gap 32px align center/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Accents", 177x56px, constraints left/top, fill Monochrome/Black 100%, text [Archivo SemiBold, 48px], [heading]
+      - FRAME "Container", 1048x319px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Green", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Accent/Success
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Green", 379x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "22CD22", 121x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "Red", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Accent/Error
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Red", 383x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "F45454", 117x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+    - FRAME "Primary Colors", 3336x503px, vertical pad 48 48 48 48px gap 32px align center/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Primary Colors", 318x56px, constraints left/top, fill Monochrome/Black 100%, text [Archivo SemiBold, 48px], [heading]
+      - FRAME "Container", 1048x319px, horizontal pad 0 0 0 0px gap 48px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Primary 1", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Gradient/Gradient 1
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary 1", 378x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "0A6EBD", 122x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+        - FRAME "Primary 2", 500x319px, vertical pad 0 0 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Color", 500x256px, constraints left/top, radius 32px, fill Primary Colors/Primary 1
+          - FRAME "Container", 500x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Primary 2", 382x39px, constraints left/top, fill Monochrome/Black 100%, text [Inter Medium, 32px], [heading]
+            - TEXT "5A96E3", 118x39px, constraints left/top, fill Monochrome/Black 60%, text [Inter Regular, 32px], [heading]
+
+Screen: ✅ Spacings / Spacings
+- SECTION "Spacings", 1188x1832px, fill Monochrome/Black 40%, stroke #0000001A 1px
+  - FRAME "Spacings", 988x1632px, vertical pad 16 16 16 16px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 5", 956x1600px, vertical pad 56 24 56 24px gap 32px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "0px", 141x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "0px", 39x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Frame 2", 1x48px, constraints left/top, radius 12px, fill #3077E3, opacity 0%
+      - FRAME "2px", 142x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "2px", 39x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 2x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "4px", 144x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "4px", 38x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 4x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "8px", 148x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "8px", 39x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 8x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "12px", 152x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "12px", 51x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 12x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "16px", 156x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "16px", 51x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 16x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "24px", 164x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "24px", 51x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 24x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "32px", 172x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "32px", 52x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 32x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "48px", 188x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "48px", 52x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 48x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "56px", 196x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "56px", 52x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 56x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "64px", 204x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "64px", 52x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 64x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "96px", 236x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "96px", 52x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 96x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "128px", 268x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "128px", 64x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 128x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "192px", 332x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "192px", 64x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 192x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "256px", 396x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "256px", 65x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 256x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "384px", 524x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "384px", 65x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 384x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "512px", 652x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "512px", 64x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 512x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "640px", 780x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "640px", 65x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 640x24px, constraints left/top, radius 12px, fill #3077E3
+      - FRAME "768px", 908x48px, horizontal pad 0 0 0 0px gap 12px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 4", 128x48px, horizontal pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "768px", 65x30px, constraints left/top, fill Monochrome/Black 100%, text [Archivo Regular, 24px], [heading]
+        - FRAME "Container", 768x24px, constraints left/top, radius 12px, fill #3077E3
+
+Screen: ✅ Shadows / Shadows
+- SECTION "Shadows", 1976x608px, fill Monochrome/Black 40%, stroke #0000001A 1px
+  - FRAME "Shadows", 1776x408px, vertical pad 16 16 16 16px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Container", 1744x376px, horizontal pad 56 0 56 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Wrapper", 400x264px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Block", 400x200px, constraints left/top, radius 12px, fill #FFFFFF, effect Shadows/Small
+        - FRAME "Container", 384x32px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Small", 384x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 4/Regular], [heading]
+      - FRAME "Wrapper", 400x264px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Block", 400x200px, constraints left/top, radius 12px, fill #FFFFFF, effect Shadows/Medium
+        - FRAME "Container", 384x32px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Medium", 384x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 4/Regular], [heading]
+      - FRAME "Wrapper", 400x264px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Block", 400x200px, constraints left/top, radius 12px, fill #FFFFFF, effect Shadows/Large
+        - FRAME "Container", 384x32px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Large", 384x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 4/Regular], [heading]
+      - FRAME "Wrapper", 400x264px, vertical pad 0 0 0 0px gap 32px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Block", 400x200px, constraints left/top, radius 12px, fill #FFFFFF, effect Shadows/Extra Large
+        - FRAME "Container", 384x32px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Extra Large", 384x32px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Heading 4/Regular], [heading]
+
+Screen: ✅ Illustrations / Illustration
+- SECTION "Illustration", 1594x823px, fill Monochrome/Black 40%, stroke #0000001A 1px
+  - FRAME "Illustration", 1394x623px, constraints left/top, fill #FFFFFF
+    - COMPONENT_SET "Illustration", 1304x515px, horizontal pad 24 24 24 24px gap 24px align center/min sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Property 1=1", 236x420px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Saly-14", 236x420px, constraints scale/scale, fill image(hash: feb14138168afcca4345533683f89bb42220b2ef)
+      - COMPONENT "Property 1=2", 263x467px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Saly-15", 263x467px, constraints scale/scale, fill image(hash: dfa3cb80d0b718cfacf03f92eb5736f3d5e79323)
+      - COMPONENT "Property 1=3", 374x374px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Saly-10", 374x374px, constraints scale/scale, fill image(hash: 8c08e116254eca5f17b913c874afb12ee4949f89)
+      - COMPONENT "Property 1=4", 311x311px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Object/Other 09", 311x311px, constraints scale/scale, fill image(hash: 8b0a6969477d03a1645f3ed398258e5a0cc859ca)
+
+Screen: ✅ Components / Buttons
+- SECTION "Buttons", 1048x1297px, fill Monochrome/Black 40%, stroke #0000001A 1px
+  - FRAME "Buttons", 848x1097px, constraints left/top, fill #FFFFFF
+    - COMPONENT_SET "Button", 489x899px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Type=Primary, Icon=No, State=Default", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #3077E3
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Secondary, Icon=No, State=Default", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke #3077E3 1px
+        - TEXT "Button", 51x24px, constraints left/top, fill #3077E3, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Tertiary, Icon=No, State=Default", 51x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke #3077E3 0px
+        - TEXT "Button", 51x24px, constraints left/top, fill #3077E3, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Primary, Icon=Right, State=Default", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #3077E3
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/White 2px
+      - COMPONENT "Type=Secondary, Icon=Right, State=Default", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke #3077E3 1px
+        - TEXT "Button", 51x24px, constraints left/top, fill #3077E3, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke #3077E3 2px
+      - COMPONENT "Type=Tertiary, Icon=Right, State=Default", 75x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke #3077E3 0px
+        - TEXT "Button", 51x24px, constraints left/top, fill #3077E3, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke #3077E3 2px
+      - COMPONENT "Type=Primary, Icon=Left, State=Default", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill #3077E3
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/White 2px
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Secondary, Icon=Left, State=Default", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke #3077E3 1px
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke #3077E3 2px
+        - TEXT "Button", 51x24px, constraints left/top, fill #3077E3, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Tertiary, Icon=Left, State=Default", 75x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke #3077E3 0px
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke #3077E3 2px
+        - TEXT "Button", 51x24px, constraints left/top, fill #3077E3, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Icon Only, Icon=-, State=Default", 16x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke #3077E3 0px
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke #3077E3 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke #3077E3 2px
+      - COMPONENT "Type=Primary, Icon=Right, State=Hover", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Primary Colors/Primary 1
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/White 2px
+      - COMPONENT "Type=Secondary, Icon=Right, State=Hover", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Primary Colors/Primary 1
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/White 2px
+      - COMPONENT "Type=Tertiary, Icon=Right, State=Hover", 75x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - TEXT "Button", 51x24px, constraints left/top, fill Primary Colors/Primary 1, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Primary Colors/Primary 1 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Primary Colors/Primary 1 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Primary Colors/Primary 1 2px
+      - COMPONENT "Type=Primary, Icon=Left, State=Hover", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Primary Colors/Primary 1
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/White 2px
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Secondary, Icon=Left, State=Hover", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Primary Colors/Primary 1
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/White 2px
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Tertiary, Icon=Left, State=Hover", 75x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Primary Colors/Primary 1 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Primary Colors/Primary 1 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Primary Colors/Primary 1 2px
+        - TEXT "Button", 51x24px, constraints left/top, fill Primary Colors/Primary 1, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Icon Only, Icon=-, State=Hover", 16x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Primary Colors/Primary 1 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Primary Colors/Primary 1 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Primary Colors/Primary 1 2px
+      - COMPONENT "Type=Primary, Icon=Right, State=Disable", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/Black 40%
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/White 2px
+      - COMPONENT "Type=Secondary, Icon=Right, State=Disable", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke Monochrome/Black 40% 1px
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/Black 40%, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+      - COMPONENT "Type=Tertiary, Icon=Right, State=Disable", 75x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke Monochrome/Black 40% 0px
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/Black 40%, text [Inter/Body 1/SemiBold]
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+      - COMPONENT "Type=Primary, Icon=Left, State=Disable", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/Black 40%
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/White 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/White 2px
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Secondary, Icon=Left, State=Disable", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke Monochrome/Black 40% 1px
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/Black 40%, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Tertiary, Icon=Left, State=Disable", 75x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke Monochrome/Black 40% 0px
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/Black 40%, text [Inter/Body 1/SemiBold]
+      - COMPONENT "Type=Icon Only, Icon=-, State=Disable", 16x16px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Monochrome/White, stroke Monochrome/Black 40% 0px
+        - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 12x12px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 0x5.33px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+          - VECTOR "Vector", 5.33x0px, constraints scale/scale, stroke Monochrome/Black 40% 2px
+      - COMPONENT "Type=Primary, Icon=No, State=Hover", 123x40px, horizontal pad 8 24 8 24px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Primary Colors/Primary 1
+        - TEXT "Button", 51x24px, constraints left/top, fill Monochrome/White, text [Inter/Body 1/SemiBold]
+      - ... +5 more children
+    - TEXT "Default", 53x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Hover", 44x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Disable", 54x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - FRAME "Variant", 46x209px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Background/Background 3
+      - TEXT "Primary", 24x59px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/SemiBold]
+    - FRAME "Variant", 46x209px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Background/Background 3
+      - TEXT "Secondary", 24x82px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/SemiBold]
+    - FRAME "Variant", 46x184px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Background/Background 3
+      - TEXT "Tertiary", 24x59px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/SemiBold]
+    - FRAME "Variant", 184x46px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8px, fill Background/Background 3
+      - TEXT "Icon Only", 71x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/SemiBold]
+    - INSTANCE "State", 449x63px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #3077E3
+      - TEXT "State", 61x32px, constraints left/top, fill Monochrome/White, text [Inter/Heading 4/Bold], [heading]
+    - INSTANCE "State", 63x871px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #3077E3
+      - TEXT "State", 32x57px, constraints left/top, fill Monochrome/White, text [Inter/Heading 4/Bold], [heading]
+
+Screen: ✅ Components / Inputs
+- SECTION "Inputs", 5861x7510px, fill Monochrome/Black 40%, stroke #0000001A 1px
+  - FRAME "Input Fields", 2867x7310px, constraints left/top, fill #FFFFFF
+    - COMPONENT_SET "Input Field", 2640x7121px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Type=Text Field, Label=No, Icon=No, Text Beside Icon=Yes, Te", 400x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill Background/Background 4
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 376x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=No, Text Beside Icon=Yes, T", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 376x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=No, Text Beside Icon=Yes, T", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 376x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=No, Icon=No, Text Beside Icon=No, Tex", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 1
+          - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+          - TEXT "Placeholder", 297x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=No, Text Beside Icon=No, Te", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px align center/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+            - TEXT "Placeholder", 297x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=No, Text Beside Icon=No, Te", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 3
+            - TEXT "Placeholder", 297x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=No, Icon=Right, Text Beside Icon=No, ", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 4
+          - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+          - TEXT "Placeholder", 265x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Right, Text Beside Icon=No,", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px align center/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+            - TEXT "Placeholder", 265x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+            - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Left, Text Beside Icon=No, ", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px align center/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+            - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Placeholder", 265x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Right, Text Beside Icon=No,", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 3
+            - TEXT "Placeholder", 265x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+            - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Left, Text Beside Icon=No, ", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 3
+            - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Placeholder", 265x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=No, Icon=Left, Text Beside Icon=No, T", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+          - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Placeholder", 265x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=No, Icon=Right, Text Beside Icon=Yes,", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 4
+          - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+          - TEXT "Placeholder", 232x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - TEXT "USD", 33x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Right, Text Beside Icon=Yes", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px align center/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+            - TEXT "Placeholder", 232x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+            - TEXT "USD", 33x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+            - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Left, Text Beside Icon=Yes,", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px align center/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+            - TEXT "USD", 33x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+            - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Placeholder", 232x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Right, Text Beside Icon=Yes", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 3
+            - TEXT "Placeholder", 232x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+            - TEXT "USD", 33x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+            - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Left, Text Beside Icon=Yes,", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fill H:fixed, constraints left/top, fill Background/Background 4
+          - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+            - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 3
+            - TEXT "USD", 33x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+            - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Placeholder", 232x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=No, Icon=Left, Text Beside Icon=Yes, ", 400x48px, horizontal pad 0 0 0 0px gap -1px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 80x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 8/0/0/8px, fill Background/Background 2
+          - TEXT "https://", 53x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 321x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0/8/8/0px, fill Background/Background 4
+          - TEXT "USD", 33x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Placeholder", 232x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=No, Icon=Right, Text Beside Icon=No, ", 400x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 344x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Right, Text Beside Icon=No,", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 344x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Left, Text Beside Icon=No, ", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Placeholder", 344x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Right, Text Beside Icon=No,", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 344x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+      - COMPONENT "Type=Text Field, Label=Yes, Icon=Left, Text Beside Icon=No, ", 400x80px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x24px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Placeholder", 344x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=No, Icon=Left, Text Beside Icon=No, T", 400x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+          - TEXT "Placeholder", 344x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+      - COMPONENT "Type=Text Field, Label=No, Icon=Right, Text Beside Icon=Yes,", 400x48px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x48px, horizontal pad 12 12 12 12px gap 0px align center/center sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 311x24px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - TEXT "USD", 33x24px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 32x16px, horizontal pad 0 8 0 8px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+      - ... +329 more children
+    - TEXT "Default", 53x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Hover", 44x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Disable", 54x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Typing", 50x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Filled", 39x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Error", 36x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - INSTANCE "State", 2640x63px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #3077E3
+      - TEXT "State", 61x32px, constraints left/top, fill Monochrome/White, text [Inter/Heading 4/Bold], [heading]
+    - INSTANCE "State", 63x2027px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #3077E3
+      - TEXT "State", 32x99px, constraints left/top, fill Monochrome/White, text [Inter/Heading 4/Bold], [heading]
+    - INSTANCE "State", 63x4967px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #3077E3
+      - TEXT "State", 32x121px, constraints left/top, fill Monochrome/White, text [Inter/Heading 4/Bold], [heading]
+    - INSTANCE "State", 46x355px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Background/Background 2
+      - TEXT "Sub State", 24x57px, constraints left/top, fill Monochrome/Black 100%, text [Inter/Body 1/SemiBold]
+    - INSTANCE "State", 46x753px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Background/Background 2
+      - TEXT "Sub State", 24x75px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/SemiBold]
+    - INSTANCE "State", 46x753px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Background/Background 2
+      - TEXT "Sub State", 24x66px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/SemiBold]
+    - INSTANCE "State", 46x836px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Background/Background 2
+      - TEXT "Sub State", 24x57px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/SemiBold]
+    - INSTANCE "State", 46x1986px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Background/Background 2
+      - TEXT "Sub State", 24x75px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/SemiBold]
+    - INSTANCE "State", 46x1989px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill Background/Background 2
+      - TEXT "Sub State", 24x66px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/SemiBold]
+  - FRAME "Text Area Input Fields", 2756x1262px, constraints left/top, fill #FFFFFF
+    - TEXT "Default", 53x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Hover", 44x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Disable", 54x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Typing", 50x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Filled", 39x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - TEXT "Error", 36x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+    - INSTANCE "State", 2600x63px, horizontal pad 12 664 12 664px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #3077E3
+      - TEXT "State", 61x32px, constraints left/top, fill Monochrome/White, text [Inter/Heading 4/Bold], [heading]
+    - COMPONENT_SET "Input Field Text Area", 2640x1057px, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "Label=Yes, Icon=No, Helper Text=No, State=Default", 400x128px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x96px, vertical pad 12 12 12 12px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 376x56px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 376x16px, horizontal pad 0 8 0 8px gap 10px align max/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top
+      - COMPONENT "Label=No, Icon=No, Helper Text=No, State=Default", 400x96px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Field", 400x96px, vertical pad 12 12 12 12px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 376x56px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 376x16px, horizontal pad 0 8 0 8px gap 10px align max/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top
+      - COMPONENT "Label=Yes, Icon=Yes, Helper Text=No, State=Default", 400x128px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Container", 400x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x96px, vertical pad 12 12 12 12px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 376x56px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 376x16px, horizontal pad 0 8 0 8px gap 10px align max/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top
+      - COMPONENT "Label=Yes, Icon=No, Helper Text=Yes, State=Default", 400x152px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 400x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+        - FRAME "Field", 400x96px, vertical pad 12 12 12 12px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 376x56px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 376x16px, horizontal pad 0 8 0 8px gap 10px align max/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top
+        - TEXT "Helper Text", 400x16px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 2/Regular]
+      - COMPONENT "Label=Yes, Icon=Yes, Helper Text=Yes, State=Default", 400x152px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Container", 400x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Label", 376x24px, constraints left/top, fill Monochrome/Black 80%, text [Inter/Body 1/Regular]
+          - INSTANCE "Icons", 16x16px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0x2.67px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+            - VECTOR "Vector", 0.01x0px, constraints scale/scale, stroke Monochrome/Black 100% 2px
+        - FRAME "Field", 400x96px, vertical pad 12 12 12 12px gap 0px align center/min sizing W:fill H:fixed, constraints left/top, radius 8px, fill Background/Background 4
+          - TEXT "Placeholder", 376x56px, constraints left/top, fill Monochrome/Black 60%, text [Inter/Body 1/Regular]
+          - FRAME "Icon", 376x16px, horizontal pad 0 8 0 8px gap 10px align max/center sizing W:fill H:fixed, constraints left/top
+            - INSTANCE "Icons", 16x16px, constraints left/top
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

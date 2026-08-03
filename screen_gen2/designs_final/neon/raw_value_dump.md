@@ -1,0 +1,226 @@
+---
+name: neon-app-ui-community
+source_file: Neon app UI (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:22:53.944238+00:00
+---
+
+# Neon app UI (Community) Design Guidelines
+
+## Source
+- Figma file: Neon app UI (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:22:53.944238+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #E02020: 240 uses
+- #6D7278: 43 uses
+- #FFFFFF: 39 uses
+- #D8D8D8: 36 uses
+- #6DD400: 14 uses
+- #F7B500: 14 uses
+- #0D0D0D: 8 uses
+- #979797: 8 uses
+- #232323: 7 uses
+- #0091FF: 6 uses
+- #0C0C0C: 6 uses
+- #F3DF92: 6 uses
+- #000000: 4 uses
+- #0091FF1A: 4 uses
+- #0000001A: 3 uses
+- #242424: 3 uses
+- #6D727833: 3 uses
+- #B620E0: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Medium, 12px: 20 uses
+- Inter Regular, 14px: 14 uses
+- Inter Regular, 12px: 12 uses
+- Inter Medium, 10px: 9 uses
+- Inter Bold, 14px: 7 uses
+- Inter Bold, 4px: 4 uses
+- Inter Medium, 11px: 4 uses
+- Inter Bold, 44px: 3 uses
+
+## Typography Hierarchy
+- 44px - Inter Bold, 44px (raw)
+- 14px - Inter Bold, 14px (raw)
+- 14px - Inter Regular, 14px (raw)
+- 12px - Inter Medium, 12px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 11px - Inter Medium, 11px (raw)
+- 10px - Inter Medium, 10px (raw)
+- 4px - Inter Bold, 4px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Device Bezels
+
+## Component Specs
+- Device Bezels/iPhone - Display Shape: size 393x852px, fill #5856D6
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / iPhone 11 Copy 2
+- FRAME "iPhone 11 Copy 2", 393x852px, constraints scale/scale, fill #303030
+  - GROUP "Group 7", 511x852px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - GROUP "Group 12", 393x852px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - GROUP "Group 5", 393x852px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle", 393x852px, constraints left/top, fill #D8D8D8, stroke #979797 1px
+        - RECTANGLE "Rectangle", 393x852px, constraints left/top, fill #D8D8D8, stroke #979797 1px
+        - GROUP "Group 4", 393x852px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "Rectangle", 393x852px, constraints left/top, fill #0D0D0D, stroke #979797 0px
+          - RECTANGLE "Rectangle", 393x852px, constraints left/top, fill #0D0D0D, stroke #979797 0px
+          - GROUP "Group 8", 393x687px, constraints left/top, fill #FFFFFF
+            - GROUP "Group 10", 318x40px, constraints left/top, fill #FFFFFF
+            - GROUP "Group 9", 393x647px, constraints left/top, fill #FFFFFF
+          - INSTANCE "Device Bezels/iPhone - Display Shape", 393x852px, constraints left/top
+            - RECTANGLE "iPhone 14 Pro Display Shape", 393x852px, constraints scale/scale, fill image(hash: 8138780d63d5e2db3c749b557e69284e55d06eec)
+      - GROUP "Group 6", 314x37px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~6 shapes]
+      - GROUP "Group 11", 393x84px, constraints left/top, fill #FFFFFF [decorative, ~10 shapes]
+    - FRAME "Nav", 475x14px, constraints left/top, fill #FFFFFF
+      - TEXT "Overview", 63x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+      - TEXT "Analytics", 69x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+      - TEXT "Reports", 56x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+      - TEXT "Performance", 91x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+      - TEXT "Insights", 57x15px, constraints center/center, fill #F7B500, text [Inter Medium, 12px]
+
+Screen: Page 1 / iPhone 11 Copy
+- FRAME "iPhone 11 Copy", 393x852px, constraints scale/scale, fill #0D0D0D
+  - GROUP "Group 4", 393x852px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Rectangle", 393x852px, constraints left/top, fill #0D0D0D, stroke #979797 0px
+    - RECTANGLE "Rectangle", 393x852px, constraints left/top, fill #0D0D0D, stroke #979797 0px
+    - GROUP "Group 3", 708x882px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "shadow", 393x852px, constraints left/top, fill gradient_linear(#00000000 0% | #001C0A 100%), stroke #979797 0px
+      - GROUP "graph", 393x852px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~250 shapes]
+      - RECTANGLE "Rectangle", 393x129px, constraints left/top, fill #0D0D0D, stroke #979797 0px
+      - GROUP "Group 6", 314x37px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~6 shapes]
+      - FRAME "Nav", 475x14px, constraints left/top, fill #FFFFFF
+        - TEXT "Overview", 63x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+        - TEXT "Analytics", 69x15px, constraints center/center, fill #F7B500, text [Inter Medium, 12px]
+        - TEXT "Reports", 56x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+        - TEXT "Performance", 91x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+        - TEXT "Insights", 57x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+      - GROUP "Group 5", 629x317px, constraints left/top, fill #FFFFFF
+        - FRAME "Group 60", 65x81px, constraints left/top, fill #FFFFFF
+          - TEXT "Cost Analysis", 72x13px, constraints center/center, fill #6D7278, text [Inter Medium, 11px]
+          - FRAME "Group 43 Copy 6", 54x54px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 54x54px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+            - TEXT "75", 18.35x18.35px, constraints center/center, fill #6DD400, text [Inter Bold, 14px]
+            - TEXT "USD", 19x5.54px, constraints center/center, fill #FFFFFF, text [Inter Bold, 4px]
+        - FRAME "Group 59", 62x81px, constraints left/top, fill #FFFFFF
+          - TEXT "Profit Margin", 68x13px, constraints center/center, fill #6D7278, text [Inter Medium, 11px]
+          - FRAME "Group 43 Copy 7", 54x54px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 54x54px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+            - TEXT "75", 18.35x18.35px, constraints center/center, fill #B620E0, text [Inter Bold, 14px]
+            - TEXT "PERCENT", 20x5.54px, constraints center/center, fill #FFFFFF, text [Inter Bold, 4px]
+        - FRAME "Group 65", 65x79px, constraints left/top, fill #FFFFFF
+          - TEXT "Started today", 73x13px, constraints center/center, fill #6D7278, text [Inter Medium, 11px]
+          - FRAME "Group 43", 54x54px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 54x54px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+            - TEXT "75", 18.35x18.35px, constraints center/center, fill #6DD400, text [Inter Bold, 14px]
+            - TEXT "UNITS", 13.15x5.54px, constraints center/center, fill #FFFFFF, text [Inter Bold, 4px]
+        - FRAME "Group 57", 67x79px, constraints left/top, fill #FFFFFF
+          - FRAME "Group 43 Copy", 54x54px, constraints scale/scale, fill #FFFFFF
+            - GROUP "Group", 54x54px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+            - TEXT "75", 18.35x18.35px, constraints center/center, fill #FF5858, text [Inter Bold, 14px]
+            - TEXT "UNITS", 13.15x5.54px, constraints center/center, fill #FFFFFF, text [Inter Bold, 4px]
+          - TEXT "Progress Rate", 74x13px, constraints center/center, fill #6D7278, text [Inter Medium, 11px]
+        - FRAME "Group 51", 156x198px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 156x156px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+          - TEXT "KPI Navigator", 73x13px, constraints center/center, fill #6D7278, text [Inter Bold, 11px]
+          - TEXT "75", 55x53px, constraints center/center, fill #32C5FF, text [Inter Bold, 44px], [heading]
+          - TEXT "DAYS", 39x17px, constraints center/center, fill #FFFFFF, text [Inter Bold, 14px]
+        - FRAME "Group 51", 156x156px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 156x156px, constraints left/top, fill #FFFFFF [decorative, ~6 shapes]
+          - TEXT "100", 83x53px, constraints center/center, fill #6DD400, text [Inter Bold, 44px], [heading]
+          - TEXT "DAYS", 39x17px, constraints center/center, fill #FFFFFF, text [Inter Bold, 14px]
+        - FRAME "Group 51", 156x156px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 156x156px, constraints left/top, fill #FFFFFF [decorative, ~7 shapes]
+          - TEXT "75", 55x53px, constraints center/center, fill #B620E0, text [Inter Bold, 44px], [heading]
+          - TEXT "DAYS", 39x17px, constraints center/center, fill #FFFFFF, text [Inter Bold, 14px]
+      - GROUP "left graph", 590x342px, constraints left/top, fill #FFFFFF [decorative, ~248 shapes]
+      - INSTANCE "Device Bezels/iPhone - Display Shape", 393x852px, constraints left/top
+        - RECTANGLE "iPhone 14 Pro Display Shape", 393x852px, constraints scale/scale, fill image(hash: 8138780d63d5e2db3c749b557e69284e55d06eec)
+  - TEXT "Unveiling a Mobile A", 314x60px, constraints left/top, fill #FFFFFF, text [Inter Regular, 25px], [heading]
+  - GROUP "Group 7", 393x84px, constraints left/top, fill #FFFFFF [decorative, ~10 shapes]
+
+Screen: Page 1 / iPhone 11
+- FRAME "iPhone 11", 393x852px, constraints scale/scale, fill #0D0D0D
+  - GROUP "Group 4", 393x852px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - GROUP "Group 3", 393x852px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+      - RECTANGLE "Rectangle", 393x852px, constraints left/top, fill #0D0D0D, stroke #979797 0px
+      - RECTANGLE "Rectangle", 393x852px, constraints left/top, fill #0D0D0D, stroke #979797 0px
+      - GROUP "Group", 512x1032px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+        - RECTANGLE "Rectangle", 393x84px, constraints left/top, fill #0D0D0DCC, stroke #979797 0px, effect [background_blur 21.75px]
+        - FRAME "Nav", 475x14px, constraints left/top, fill #FFFFFF
+          - TEXT "Overview", 63x15px, constraints center/center, fill #F7B500, text [Inter Medium, 12px]
+          - TEXT "Analytics", 69x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+          - TEXT "Reports", 56x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+          - TEXT "Performance", 91x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+          - TEXT "Insights", 57x15px, constraints center/center, fill #6D7278, text [Inter Medium, 12px]
+        - GROUP "Nav", 393x808px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 38", 393x94px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 32", 393x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 31", 109x28px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 37", 393x194px, constraints left/top, fill #FFFFFF
+            - GROUP "Group 36", 102x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 31", 103x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 31", 97x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 8", 44x22px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 8 Copy", 44x22px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 32 Copy", 393x44px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 35", 393x144px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 31", 109x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 8", 44x22px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 32", 393x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 31", 88x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 8", 44x22px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 33", 393x144px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 32 Copy 2", 393x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 31", 99x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 8 Copy 3", 44x22px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 8 Copy 5", 44x22px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 8 Copy 4", 44x22px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 31", 120x28px, constraints left/top, fill #FFFFFF
+          - GROUP "Group 33", 393x144px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 32 Copy 2", 393x44px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 31", 109x28px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 8 Copy 4", 44x22px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 8 Copy 6", 44x22px, constraints left/top, fill #FFFFFF
+            - FRAME "Group 31", 112x28px, constraints left/top, fill #FFFFFF
+        - GROUP "Group 6", 309x37px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~9 shapes]
+        - INSTANCE "Device Bezels/iPhone - Display Shape", 393x852px, constraints left/top
+          - RECTANGLE "iPhone 14 Pro Display Shape", 393x852px, constraints scale/scale, fill image(hash: 8138780d63d5e2db3c749b557e69284e55d06eec)
+    - GROUP "Group 7", 393x84px, constraints left/top, fill #FFFFFF [decorative, ~10 shapes]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

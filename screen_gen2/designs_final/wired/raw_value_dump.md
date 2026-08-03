@@ -1,0 +1,782 @@
+---
+name: wired-wireframe-kit-community
+source_file: Wired Wireframe kit (Community)
+source_page: All pages (2): cover, everything
+generated_at: 2026-07-25T09:28:23.818607+00:00
+---
+
+# Wired Wireframe kit (Community) Design Guidelines
+
+## Source
+- Figma file: Wired Wireframe kit (Community)
+- Figma page: All pages (2): cover, everything
+- Extracted at: 2026-07-25T09:28:23.818607+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- white/6: [#FFFFFF0F]
+- black/86: [#000000DB]
+- grey/1: none
+- white/86: [#FFFFFFDB]
+- black/36: none
+- white/36: none
+- white/100: [#FFFFFF]
+- black/6: [#0000000F]
+- black/6: [#FFFFFF]
+- white/16: [#FFFFFF29]
+- white/66: [#FFFFFFA8]
+- grey/4: [#F0F0F0]
+- grey/3: [#D6D6D6]
+- black/16: [#00000029]
+- base/warning: [#F2994A]
+- grey/2: [#A3A3A3]
+- base/negative: [#EB5757]
+- black/66: [#000000A8]
+- base/positive: [#27AE60]
+- grey/0: [#242424]
+- black/100: [#000000]
+- base/primary: [#2F80ED]
+
+## Raw Colors (unstyled)
+- #000000: 145 uses
+- #FFFFFF: 55 uses
+- #FFFFFFDB: 16 uses
+- #0000000F: 8 uses
+- #000000DB: 8 uses
+- #C4C4C4: 6 uses
+- #D0D0D0: 5 uses
+
+## Typography Tokens
+- bold/48px: Noto Sans SC Bold (700), 48px / auto, tracking 0px
+- bold/32px: Noto Sans SC Bold (700), 32px / auto, tracking 0px
+- bold/14px: Noto Sans SC Bold (700), 14px / 20px, tracking 0px
+- normal/14px: Noto Sans SC Regular (400), 14px / 20px, tracking 0px
+- bold/12px: Noto Sans SC Bold (700), 12px / auto, tracking 0px
+- normal/12px: Noto Sans SC Regular (400), 12px / auto, tracking 0px
+- normal/48px: Noto Sans SC Regular (400), 48px / auto, tracking 0px
+- normal/32px: Noto Sans SC Regular (400), 32px / auto, tracking 0px
+- bold/26px: Noto Sans SC Bold (700), 26px / 40px, tracking 0px
+- normal/26px: Noto Sans SC Regular (400), 26px / 40px, tracking 0px
+- bold/20px: Noto Sans SC Bold (700), 20px / auto, tracking 0px
+- normal/20px: Noto Sans SC Regular (400), 20px / auto, tracking 0px
+- bold/16px: Noto Sans SC Bold (700), 16px / auto, tracking 0px
+- normal/16px: Noto Sans SC Regular (400), 16px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Source Han Sans CN Regular, 14px: 42 uses
+- Source Han Sans CN Regular, 16px: 39 uses
+- Source Han Sans CN Bold, 16px: 23 uses
+- Source Han Sans CN Regular, 12px: 19 uses
+
+## Typography Hierarchy
+- 48px - bold/48px (Noto Sans SC Bold)
+- 48px - normal/48px (Noto Sans SC Regular)
+- 32px - bold/32px (Noto Sans SC Bold)
+- 32px - normal/32px (Noto Sans SC Regular)
+- 26px - bold/26px (Noto Sans SC Bold)
+- 26px - normal/26px (Noto Sans SC Regular)
+- 20px - bold/20px (Noto Sans SC Bold)
+- 20px - normal/20px (Noto Sans SC Regular)
+- 16px - Source Han Sans CN Bold, 16px (raw)
+- 16px - Source Han Sans CN Regular, 16px (raw)
+- 16px - bold/16px (Noto Sans SC Bold)
+- 16px - normal/16px (Noto Sans SC Regular)
+- 14px - Source Han Sans CN Regular, 14px (raw)
+- 14px - bold/14px (Noto Sans SC Bold)
+- 14px - normal/14px (Noto Sans SC Regular)
+- 12px - Source Han Sans CN Regular, 12px (raw)
+- 12px - bold/12px (Noto Sans SC Bold)
+- 12px - normal/12px (Noto Sans SC Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- shadow/sm: [drop_shadow 6px offset 0 0 #0000001F]
+- shadow/xlg: [drop_shadow 50px offset 0 25 #00000040]
+- shadow/lg: [drop_shadow 10px offset 0 10 #0000000A, drop_shadow 25px offset 0 20 #0000001A]
+- shadow/md: [drop_shadow 6px offset 0 4 #0000000D, drop_shadow 15px offset 0 10 #0000001A]
+- shadow/base: [drop_shadow 24px offset 0 4 #0000000F, drop_shadow 6px offset 0 0 #0000000F]
+
+## Grid Styles
+- padding/32: columns count 1, section 1006px, gutter 20px, align stretch + rows count 1, section 697px, gutter 20px, align stretch
+- padding/12: columns count 1, section 242px, gutter 20px, align stretch + rows count 1, section 115px, gutter 20px, align stretch
+- padding/36: columns count 1, section 194px, gutter 20px, align stretch + rows count 1, section 67px, gutter 20px, align stretch
+- padding/20: columns count 1, section 226px, gutter 20px, align stretch + rows count 1, section 99px, gutter 20px, align stretch
+- column-5/sm: columns count 5, section 236.6px, gutter 20px, align stretch
+- column-4/sm: columns count 4, section 300.75px, gutter 20px, align stretch
+- column-5/lg: columns count 5, section 206.4px, gutter 20px, align stretch
+- column-4/lg: columns count 4, section 263px, gutter 20px, align stretch
+- main-960: columns count 1, section 960px, gutter 10px, align center
+
+## Component Families
+- _tab
+- _input
+- _switch
+- _button
+- alert
+- popover
+- tooltip
+- message
+- cursor
+- input
+- textarea
+- switch
+- radio
+- checkbox
+- button
+- menu
+- menu-item
+- tab
+- badge
+- tag
+- avatar
+
+## Component Specs
+- _tab: size 85x39px, vertical layout, padding 9 16 9 16px, gap 6px, align min/center, sizing W:fixed H:fixed, fill white/6, text [Source Han Sans CN Regular, 14px]
+- _input: size 162x40px, radius 6px, fill #FFFFFF, stroke #D0D0D0 1px, text [Source Han Sans CN Regular, 16px]
+- _switch: size 36x20px
+- _button/small/outline: size 56x24px, radius 6px, horizontal layout, padding 4 8 4 8px, gap 4px, align min/center, sizing W:fixed H:fixed, stroke grey/1 1px, text [Source Han Sans CN Regular, 12px]
+- _button/small/solid: size 56x24px, radius 6px, horizontal layout, padding 4 8 4 8px, gap 4px, align min/center, sizing W:fixed H:fixed, fill grey/1, stroke grey/1 1px, text [Source Han Sans CN Regular, 12px]
+- _button/outline: size 94x40px, radius 6px, horizontal layout, padding 4 20 4 20px, gap 4px, align min/center, sizing W:fixed H:fixed, stroke grey/1 1px, text [Source Han Sans CN Regular, 16px]
+- _button/solid: size 94x40px, radius 6px, horizontal layout, padding 4 20 4 20px, gap 4px, align min/center, sizing W:fixed H:fixed, fill grey/1, stroke grey/1 1px, text [Source Han Sans CN Regular, 16px]
+- _button/block/outline/small: size 223x24px, radius 6px, stroke grey/1 1px, text [Source Han Sans CN Regular, 12px]
+- _button/block/solid/small: size 223x24px, radius 6px, fill grey/1, stroke grey/1 1px, text [Source Han Sans CN Regular, 12px]
+- _button/block/outline/normal: size 223x32px, radius 6px, stroke grey/1 1px, text [Source Han Sans CN Regular, 14px]
+- _button/block/outline: size 223x40px, radius 6px, stroke grey/1 1px, text [Source Han Sans CN Regular, 16px]
+- _button/block/solid/normal: size 223x32px, radius 6px, fill grey/1, stroke grey/1 1px, text [Source Han Sans CN Regular, 14px]
+- _button/block/solid: size 223x40px, radius 6px, fill grey/1, stroke grey/1 1px, text [Source Han Sans CN Regular, 16px]
+- alert: size 328x36px, radius 6px, fill black/6, text [Source Han Sans CN Regular, 14px]
+- popover/bottom: size 270x80px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 12px, Source Han Sans CN Regular, 14px, Source Han Sans CN Bold, 16px]
+- popover/top: size 270x80px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, effect shadow/sm, text [Source Han Sans CN Regular, 12px, Source Han Sans CN Regular, 14px, Source Han Sans CN Bold, 16px]
+- tooltip/left: size 84.25x32px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Source Han Sans CN Regular, 16px]
+- tooltip/right: size 84.25x32px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Source Han Sans CN Regular, 16px]
+- tooltip/bottom: size 80x36.25px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Source Han Sans CN Regular, 16px]
+- tooltip/top: size 80x36.25px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Source Han Sans CN Regular, 16px]
+- message: size 152x44px, radius 22px, horizontal layout, padding 10 20 10 20px, gap 10px, align min/center, sizing W:fixed H:fixed, fill black/86, text [Source Han Sans CN Regular, 16px]
+- cursor/disabled: size 24x24px
+- cursor/pointer: size 24x24px
+- input/small: size 162x24px, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- input/normal: size 162x32px, fill #FFFFFF, text [Source Han Sans CN Regular, 14px]
+- input/large: size 162x40px, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- textarea/normal: size 292x120px, radius 6px, fill #FFFFFF, stroke #D0D0D0 1px, text [Source Han Sans CN Regular, 14px]
+- switch/on: size 108x24px, horizontal layout, padding 0 0 0 0px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Source Han Sans CN Regular, 16px]
+- switch/off: size 106x24px, horizontal layout, padding 0 0 0 0px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Source Han Sans CN Regular, 16px]
+- radio/checked: size 66x16px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 14px]
+- radio/normal: size 66x16px, horizontal layout, padding 0 0 0 0px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Source Han Sans CN Regular, 14px]
+- checkbox/checked: size 66x16px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 14px]
+- checkbox/normal: size 66x16px, horizontal layout, padding 0 0 0 0px, gap 6px, align min/center, sizing W:fixed H:fixed, text [Source Han Sans CN Regular, 14px]
+- button/outline/block/small/disabled: size 223x24px, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- button/outline/block/normal/disabled: size 223x32px, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- button/outline/block/large/disabled: size 223x40px, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- button/outline/block/small: size 223x24px, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- button/outline/block/normal: size 223x32px, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- button/outline/block/large: size 223x40px, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- button/outline/small/disabled: size 56x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- button/outline/small: size 56x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- button/outline/normal/disabled: size 82x32px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 14px]
+- button/outline/normal: size 82x32px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 14px]
+- button/outline/large/disabled: size 94x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- button/outline/large: size 94x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- button/solid/block/small/disabled: size 223x24px, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- button/solid/block/normal/disabled: size 223x32px, fill #FFFFFF, text [Source Han Sans CN Regular, 14px]
+- button/solid/block/large/disabled: size 223x40px, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- button/solid/block/small: size 223x24px, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- button/solid/block/normal: size 223x32px, fill #FFFFFF, text [Source Han Sans CN Regular, 14px]
+- button/solid/block/large: size 223x40px, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- button/solid/small/disabled: size 56x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- button/solid/small: size 56x24px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- button/solid/normal/disabled: size 82x32px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 14px]
+- button/solid/normal: size 82x32px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 14px]
+- button/solid/large/disabled: size 94x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- button/solid/large: size 94x40px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+- menu/vertical: size 112x180px, radius 6px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke black/6 1px, effect shadow/sm, text [Source Han Sans CN Regular, 14px]
+- menu-item: size 88x36px, fill #E2E2E2, text [Source Han Sans CN Regular, 14px]
+- tab/vertical: size 119x237px, radius 6px, vertical layout, padding 0 0 0 0px, gap 9px, sizing W:fixed H:fixed, fill white/100, stroke #00000029 1px, text [Source Han Sans CN Regular, 14px]
+- tab/horizontal: size 714x40px, text [Source Han Sans CN Regular, 14px]
+- badge/small: size 22x22px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- badge/normal: size 28x28px, radius 14px, horizontal layout, padding 4 6 4 6px, gap 4px, align min/center, sizing W:fixed H:fixed, fill grey/1, text [Source Han Sans CN Regular, 14px]
+- tag/small: size 48x20px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [Source Han Sans CN Regular, 12px]
+- tag/normal: size 60x22px, radius 13px, horizontal layout, padding 1 16 1 16px, gap 4px, align min/center, sizing W:fixed H:fixed, fill #F3F3F3, stroke #B2B2B2 1px, text [Source Han Sans CN Regular, 14px]
+- avatar/small: size 24x24px, fill #FFFFFF
+- avatar/smaller: size 16x16px, fill #FFFFFF
+- avatar/normal: size 46x46px, radius 100px, fill #C4C4C4
+
+## Most-Used Styles
+- black/86: 259 uses
+- white/86: 207 uses
+- grey/1: 60 uses
+- white/100: 25 uses
+- bold/48px: 20 uses
+- black/36: 14 uses
+- bold/32px: 10 uses
+- white/36: 10 uses
+- white/6: 8 uses
+- black/6: 4 uses
+- shadow/sm: 4 uses
+- base/negative: 1 use
+- base/positive: 1 use
+- base/primary: 1 use
+- base/warning: 1 use
+- black/100: 1 use
+- black/16: 1 use
+- black/66: 1 use
+- bold/12px: 1 use
+- bold/14px: 1 use
+- bold/16px: 1 use
+- bold/20px: 1 use
+- bold/26px: 1 use
+- grey/0: 1 use
+- grey/2: 1 use
+- grey/3: 1 use
+- grey/4: 1 use
+- normal/12px: 1 use
+- normal/14px: 1 use
+- normal/16px: 1 use
+- normal/20px: 1 use
+- normal/26px: 1 use
+- normal/32px: 1 use
+- normal/48px: 1 use
+- shadow/base: 1 use
+- shadow/lg: 1 use
+- shadow/md: 1 use
+- shadow/xlg: 1 use
+- white/16: 1 use
+- white/66: 1 use
+
+## Layout & Structure
+Screen: cover / Thumbnail
+- FRAME "Thumbnail", 1920x960px, constraints left/top, fill #4B7BEC
+  - FRAME "Emoji", 1100x1100px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - TEXT "Wired", 780x267px, constraints left/top, fill #FFFFFF, text [Noto Sans SemiBold, 196px], [heading]
+  - TEXT "Date: 2020/7/29 上午8:44:55", 667x68px, constraints left/top, fill #FFFFFF, text [Noto Sans SemiBold, 50px], [heading]
+  - TEXT "Version: 1.0.0", 324x68px, constraints left/top, fill #FFFFFF, text [Noto Sans SemiBold, 50px], [heading]
+
+Screen: everything / colors
+- FRAME "colors", 1368x702px, constraints left/top, radius 16px, fill white/100
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill base/primary
+    - TEXT "Primary", 64x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill black/86
+    - TEXT "black-86", 67x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill black/100
+    - TEXT "black-100", 76x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill grey/0
+    - TEXT "grey-0", 51x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill base/positive
+    - TEXT "Positive", 63x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill black/66
+    - TEXT "black-66", 67x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill grey/1
+    - TEXT "grey-1", 51x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill base/negative
+    - TEXT "Negative", 70x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill black/36
+    - TEXT "black-36", 67x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill grey/2
+    - TEXT "grey-2", 51x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill base/warning
+    - TEXT "Warning", 66x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill black/16
+    - TEXT "black-16", 67x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill grey/3
+    - TEXT "grey-3", 51x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill black/6
+    - TEXT "black-6", 57x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - GROUP "color", 80x108px, constraints left/top, radius 6px
+    - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill grey/4
+    - TEXT "grey-4", 51x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+  - FRAME "dark", 1368x172px, constraints left/top, fill black/86
+    - GROUP "color", 80x108px, constraints left/top, radius 6px
+      - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill white/86
+      - TEXT "white-86", 70x24px, constraints left/top, fill white/86, text [Source Han Sans CN Bold, 16px]
+    - GROUP "color", 80x108px, constraints left/top, radius 6px
+      - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill white/100
+      - TEXT "white-100", 79x24px, constraints left/top, fill white/86, text [Source Han Sans CN Bold, 16px]
+    - GROUP "color", 80x108px, constraints left/top, radius 6px
+      - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill white/66
+      - TEXT "white-66", 70x24px, constraints left/top, fill white/86, text [Source Han Sans CN Bold, 16px]
+    - GROUP "color", 80x108px, constraints left/top, radius 6px
+      - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill white/36
+      - TEXT "white-36", 70x24px, constraints left/top, fill white/86, text [Source Han Sans CN Bold, 16px]
+    - GROUP "color", 80x108px, constraints left/top, radius 6px
+      - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill white/16
+      - TEXT "white-16", 70x24px, constraints left/top, fill white/86, text [Source Han Sans CN Bold, 16px]
+    - GROUP "color", 80x108px, constraints left/top, radius 6px
+      - RECTANGLE "primary", 80x80px, constraints left/top, radius 6px, fill white/6
+      - TEXT "white-6", 61x24px, constraints left/top, fill white/86, text [Source Han Sans CN Bold, 16px]
+  - TEXT "Colors", 152x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+
+Screen: everything / typography
+- FRAME "typography", 1368x523px, constraints left/top, radius 16px, fill white/100
+  - TEXT "normal/16px", 96x23px, constraints left/top, fill black/86, text [normal/16px]
+  - TEXT "bold/16px", 80x23px, constraints left/top, fill black/86, text [bold/16px]
+  - TEXT "normal/20px", 120x29px, constraints left/top, fill black/86, text [normal/20px]
+  - TEXT "bold/20px", 100x29px, constraints left/top, fill black/86, text [bold/20px]
+  - TEXT "normal/26px", 156x40px, constraints left/top, fill black/86, text [normal/26px], [heading]
+  - TEXT "bold/26px", 130x40px, constraints left/top, fill black/86, text [bold/26px], [heading]
+  - TEXT "normal/32px", 192x46px, constraints left/top, fill black/86, text [normal/32px], [heading]
+  - TEXT "normal/48px", 288x70px, constraints left/top, fill black/86, text [normal/48px], [heading]
+  - TEXT "bold/32px", 160x46px, constraints left/top, fill black/86, text [bold/32px], [heading]
+  - TEXT "bold/32px", 239x70px, constraints left/top, fill black/86, text [bold/48px], [heading]
+  - TEXT "normal/12px", 72x17px, constraints left/top, fill black/86, text [normal/12px]
+  - TEXT "bold/12px", 60x17px, constraints left/top, fill black/86, text [bold/12px]
+  - TEXT "normal/14px", 84x20px, constraints left/top, fill black/86, text [normal/14px]
+  - TEXT "bold/14px", 70x20px, constraints left/top, fill black/86, text [bold/14px]
+  - TEXT "Typography", 283x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+
+Screen: everything / layouts
+- FRAME "layouts", 1368x1356px, constraints left/top, radius 16px, fill #FFFFFF
+  - FRAME "Frame 1", 1304x139px, constraints left/top, fill black/6
+    - TEXT "Main 960px", 178x46px, constraints center/center, fill black/86, text [bold/32px], [heading]
+  - FRAME "Frame 2", 1304x139px, constraints left/top, fill #0000000F
+    - TEXT "column-4/lg", 191x46px, constraints center/center, fill black/86, text [bold/32px], [heading]
+  - FRAME "Frame 7", 1304x139px, constraints left/top, fill #0000000F
+    - TEXT "column-5/lg", 191x46px, constraints center/center, fill black/86, text [bold/32px], [heading]
+  - FRAME "Frame 4", 1303x139px, constraints left/top, fill #0000000F
+    - TEXT "column-4/sm", 208x46px, constraints center/center, fill black/86, text [bold/32px], [heading]
+  - FRAME "Frame 5", 1303x139px, constraints left/top, fill #0000000F
+    - TEXT "column-5/sm", 208x46px, constraints center/center, fill black/86, text [bold/32px], [heading]
+  - FRAME "Frame 3", 266x139px, constraints left/top, fill #0000000F
+    - TEXT "padding/20", 181x46px, constraints center/center, fill black/86, text [bold/32px], [heading]
+  - FRAME "Frame 8", 266x139px, constraints left/top, fill #0000000F
+    - TEXT "padding/36", 181x46px, constraints center/center, fill black/86, text [bold/32px], [heading]
+  - FRAME "Frame 9", 266x139px, constraints left/top, fill #0000000F
+    - TEXT "padding/36", 181x46px, constraints center/center, fill black/86, text [bold/32px], [heading]
+  - FRAME "Frame 6", 266x139px, constraints left/top, fill #0000000F
+    - TEXT "padding/12", 181x46px, constraints center/center, fill black/86, text [bold/32px], [heading]
+  - TEXT "Layouts", 188x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+
+Screen: everything / effects
+- FRAME "effects", 1368x339px, constraints left/top, radius 16px, fill #FFFFFF
+  - RECTANGLE "shadow/base", 166x166px, constraints left/top, radius 4px, fill #FFFFFF, effect shadow/base
+  - RECTANGLE "shadow/base", 166x166px, constraints left/top, radius 4px, fill #FFFFFF, effect shadow/sm
+  - RECTANGLE "shadow/md", 166x166px, constraints left/top, radius 4px, fill #FFFFFF, effect shadow/md
+  - RECTANGLE "shadow/lg", 166x166px, constraints left/top, radius 4px, fill #FFFFFF, effect shadow/lg
+  - RECTANGLE "shadow/xlg", 166x166px, constraints left/top, radius 4px, fill #FFFFFF, effect shadow/xlg
+  - TEXT "Effects", 160x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+
+Screen: everything / basic
+- FRAME "basic", 1070x556px, constraints left/top, radius 16px, fill #FFFFFF
+  - GROUP "Avatar", 153x140px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Avatar", 153x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+    - COMPONENT "avatar/normal", 46x46px, constraints left/top, radius 100px, fill #C4C4C4
+      - VECTOR "Intersect", 30.62x35.78px, constraints scale/scale, fill #FFFFFF
+    - COMPONENT "avatar/smaller", 16x16px, constraints left/top, fill #FFFFFF
+      - INSTANCE "avatar/normal", 16x16px, constraints scale/scale, radius 100px, fill #C4C4C4
+        - VECTOR "Intersect", 10.65x12.44px, constraints scale/scale, fill #FFFFFF
+    - COMPONENT "avatar/small", 24x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "avatar/normal", 24x24px, constraints scale/scale, radius 100px, fill #C4C4C4
+        - VECTOR "Intersect", 15.98x18.67px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Tag", 132x116px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Tag", 84x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+    - COMPONENT "tag/normal", 60x22px, horizontal pad 1 16 1 16px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #F3F3F3, stroke #B2B2B2 1px
+      - TEXT "主页", 28x20px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "tag/small", 48x20px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "tag/normal", 48x20px, horizontal pad 1 12 1 12px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 13px, fill #F3F3F3, stroke #B2B2B2 1px
+        - TEXT "主页", 24x18px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 12px]
+  - GROUP "Badge", 148x122px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Badge", 148x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+    - COMPONENT "badge/normal", 28x28px, horizontal pad 4 6 4 6px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill grey/1
+      - TEXT "12", 16x20px, constraints left/top, fill white/100, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "badge/small", 22x22px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "badge/normal", 22x22px, horizontal pad 2 4 2 4px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 11px, fill grey/1
+        - TEXT "12", 14x18px, constraints left/top, fill white/100, text [Source Han Sans CN Regular, 12px]
+
+Screen: everything / navigation
+- FRAME "navigation", 1070x801px, constraints left/top, radius 16px, fill #FFFFFF
+  - GROUP "Tab", 714x399px, constraints left/top, radius 0/0/0/0px
+    - COMPONENT "tab/horizontal", 714x40px, constraints left/top
+      - LINE "border", 714x0px, constraints left_right/bottom, stroke black/36 1px
+      - FRAME "tabs", 510x39px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "tab", 85x39px, vertical pad 9 16 9 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, fill white/6
+          - TEXT "菜单项 1", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+        - INSTANCE "tab", 85x39px, vertical pad 9 16 9 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, fill white/6, effect [inner_shadow 0px offset 0 -3 #0000005C]
+          - TEXT "菜单项 2", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+        - INSTANCE "tab", 85x39px, vertical pad 9 16 9 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, fill white/6
+          - TEXT "菜单项 3", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+        - INSTANCE "tab", 85x39px, vertical pad 9 16 9 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, fill white/6
+          - TEXT "菜单项 4", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+        - INSTANCE "tab", 85x39px, vertical pad 9 16 9 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, fill white/6
+          - TEXT "菜单项 5", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+        - INSTANCE "tab", 85x39px, vertical pad 9 16 9 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, fill white/6
+          - TEXT "菜单项 6", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "tab/vertical", 119x237px, vertical pad 0 0 0 0px gap 9px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill white/100, stroke #00000029 1px
+      - RECTANGLE "spacer", 119x6px, constraints left/top, fill #C4C4C400
+      - INSTANCE "tab", 119x27px, vertical pad 3 12 3 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, fill white/100, effect [inner_shadow 0px offset 3 0 #0000005C]
+        - TEXT "菜单项 1", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "tab", 119x27px, vertical pad 3 12 3 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, fill white/100
+        - TEXT "菜单项 2", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "tab", 119x27px, vertical pad 3 12 3 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, fill white/100
+        - TEXT "菜单项 3", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "tab", 119x27px, vertical pad 3 12 3 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, fill white/100
+        - TEXT "菜单项 4", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "tab", 119x27px, vertical pad 3 12 3 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, fill white/100
+        - TEXT "菜单项 5", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "tab", 119x27px, vertical pad 3 12 3 12px gap 6px align min/center sizing W:fill H:fixed, constraints left/top, fill white/100
+        - TEXT "菜单项 6", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - RECTANGLE "spacer", 119x6px, constraints left/top, fill #C4C4C400
+    - TEXT "Tab", 86x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+  - GROUP "Menu", 228x284px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Menu", 131x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+    - COMPONENT "menu-item", 88x36px, constraints left/top, fill #E2E2E2
+      - FRAME "background", 56x33px, horizontal pad 6 0 6 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top_bottom
+        - TEXT "全部记录", 56x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "menu/vertical", 112x180px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #FFFFFF, stroke black/6 1px, effect shadow/sm
+      - INSTANCE "menu-item", 112x36px, constraints left/top, fill #E2E2E2
+        - FRAME "background", 56x33px, horizontal pad 6 0 6 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top_bottom
+          - TEXT "全部记录", 56x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "menu-item", 112x36px, constraints left/top, fill #FFFFFF
+        - FRAME "background", 56x33px, horizontal pad 6 0 6 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top_bottom
+          - TEXT "全部记录", 56x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "menu-item", 112x36px, constraints left/top, fill #FFFFFF
+        - FRAME "background", 56x33px, horizontal pad 6 0 6 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top_bottom
+          - TEXT "全部记录", 56x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "menu-item", 112x36px, constraints left/top, fill #FFFFFF
+        - FRAME "background", 56x33px, horizontal pad 6 0 6 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top_bottom
+          - TEXT "全部记录", 56x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "menu-item", 112x36px, constraints left/top, fill #FFFFFF
+        - FRAME "background", 56x33px, horizontal pad 6 0 6 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top_bottom
+          - TEXT "全部记录", 56x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+
+Screen: everything / control
+- FRAME "control", 1070x1284px, constraints left/top, radius 16px, fill #FFFFFF
+  - GROUP "Button", 913x406px, constraints left/top
+    - TEXT "Button", 163x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+    - COMPONENT "button/solid/large", 94x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/solid", 94x40px, horizontal pad 4 20 4 20px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+        - INSTANCE "loader", 18x18px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 16.5x16.5px, constraints left/top [decorative, ~8 shapes]
+        - TEXT "按钮", 32x24px, constraints left/top, fill white/86, text [Source Han Sans CN Regular, 16px]
+    - COMPONENT "button/solid/large/disabled", 94x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/solid/large", 94x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/solid", 94x40px, horizontal pad 4 20 4 20px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+          - INSTANCE "loader", 18x18px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 16.5x16.5px, constraints left/top [decorative, ~8 shapes]
+          - TEXT "按钮", 32x24px, constraints left/top, fill white/86, text [Source Han Sans CN Regular, 16px]
+    - COMPONENT "button/solid/normal", 82x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/solid", 82x32px, horizontal pad 4 16 4 16px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+        - INSTANCE "loader", 18x18px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 16.5x16.5px, constraints left/top [decorative, ~8 shapes]
+        - TEXT "按钮", 28x20px, constraints left/top, fill white/86, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "button/solid/normal/disabled", 82x32px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/solid/normal", 82x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/solid", 82x32px, horizontal pad 4 16 4 16px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+          - INSTANCE "loader", 18x18px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 16.5x16.5px, constraints left/top [decorative, ~8 shapes]
+          - TEXT "按钮", 28x20px, constraints left/top, fill white/86, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "button/solid/small", 56x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/small/solid", 56x24px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+        - INSTANCE "loader", 12x12px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 11x11px, constraints left/top [decorative, ~8 shapes]
+        - TEXT "按钮", 24x18px, constraints left/top, fill white/86, text [Source Han Sans CN Regular, 12px]
+    - COMPONENT "button/solid/small/disabled", 56x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/solid/small", 56x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/small/solid", 56x24px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+          - INSTANCE "loader", 12x12px, constraints left/top, fill #FFFFFF
+            - GROUP "Group", 11x11px, constraints left/top [decorative, ~8 shapes]
+          - TEXT "按钮", 24x18px, constraints left/top, fill white/86, text [Source Han Sans CN Regular, 12px]
+    - COMPONENT "button/solid/block/large", 223x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/block/solid", 223x40px, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+        - FRAME "inner", 84x36px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "按钮块", 48x24px, constraints center/center, fill white/86, text [Source Han Sans CN Regular, 16px]
+          - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 12x12px, constraints left/top, fill white/86
+    - COMPONENT "button/solid/block/normal", 223x32px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/block/solid/normal", 223x32px, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+        - FRAME "inner", 76x32px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "按钮块", 42x20px, constraints center/center, fill white/86, text [Source Han Sans CN Regular, 14px]
+          - INSTANCE "arrow-right", 16x16px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 10.67x10.67px, constraints left/top, fill white/86
+    - COMPONENT "button/solid/block/small", 223x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/block/solid/small", 223x24px, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+        - FRAME "inner", 66x24px, horizontal pad 6 6 6 6px gap 4px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "按钮块", 36x18px, constraints center/center, fill white/86, text [Source Han Sans CN Regular, 12px]
+          - INSTANCE "arrow-right", 14x14px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 9.33x9.33px, constraints left/top, fill white/86
+    - COMPONENT "button/solid/block/large/disabled", 223x40px, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/solid/block/large", 223x40px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/block/solid", 223x40px, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+          - FRAME "inner", 84x36px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+            - TEXT "按钮块", 48x24px, constraints center/center, fill white/86, text [Source Han Sans CN Regular, 16px]
+            - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+    - COMPONENT "button/solid/block/normal/disabled", 223x32px, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/solid/block/normal", 223x32px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/block/solid/normal", 223x32px, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+          - FRAME "inner", 76x32px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+            - TEXT "按钮块", 42x20px, constraints center/center, fill white/86, text [Source Han Sans CN Regular, 14px]
+            - INSTANCE "arrow-right", 16x16px, constraints left/top, fill #FFFFFF
+    - COMPONENT "button/solid/block/small/disabled", 223x24px, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/solid/block/small", 223x24px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/block/solid/small", 223x24px, constraints scale/scale, radius 6px, fill grey/1, stroke grey/1 1px
+          - FRAME "inner", 66x24px, horizontal pad 6 6 6 6px gap 4px align min/center sizing W:fixed H:fixed, constraints center/center
+            - TEXT "按钮块", 36x18px, constraints center/center, fill white/86, text [Source Han Sans CN Regular, 12px]
+            - INSTANCE "arrow-right", 14x14px, constraints left/top, fill #FFFFFF
+    - COMPONENT "button/outline/large", 94x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/outline", 94x40px, horizontal pad 4 20 4 20px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, stroke grey/1 1px
+        - TEXT "按钮", 32x24px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 16px]
+        - INSTANCE "plus", 18x18px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 1.5x12px, constraints scale/scale, fill black/86
+          - VECTOR "Vector (Stroke)", 12x1.5px, constraints scale/scale, fill black/86
+    - COMPONENT "button/outline/large/disabled", 94x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/outline/large", 94x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/outline", 94x40px, horizontal pad 4 20 4 20px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, stroke grey/1 1px
+          - TEXT "按钮", 32x24px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 16px]
+          - INSTANCE "plus", 18x18px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector (Stroke)", 1.5x12px, constraints scale/scale, fill black/86
+            - VECTOR "Vector (Stroke)", 12x1.5px, constraints scale/scale, fill black/86
+    - COMPONENT "button/outline/normal", 82x32px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/outline", 82x32px, horizontal pad 4 16 4 16px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, stroke grey/1 1px
+        - TEXT "按钮", 28x20px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 14px]
+        - INSTANCE "plus", 18x18px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 1.5x12px, constraints scale/scale, fill black/86
+          - VECTOR "Vector (Stroke)", 12x1.5px, constraints scale/scale, fill black/86
+    - COMPONENT "button/outline/normal/disabled", 82x32px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/outline/normal", 82x32px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/outline", 82x32px, horizontal pad 4 16 4 16px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, stroke grey/1 1px
+          - TEXT "按钮", 28x20px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 14px]
+          - INSTANCE "plus", 18x18px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector (Stroke)", 1.5x12px, constraints scale/scale, fill black/86
+            - VECTOR "Vector (Stroke)", 12x1.5px, constraints scale/scale, fill black/86
+    - COMPONENT "button/outline/small", 56x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/small/outline", 56x24px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, stroke grey/1 1px
+        - TEXT "按钮", 24x18px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 12px]
+        - INSTANCE "plus", 12x12px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 1x8px, constraints scale/scale, fill black/86
+          - VECTOR "Vector (Stroke)", 8x1px, constraints scale/scale, fill black/86
+    - COMPONENT "button/outline/small/disabled", 56x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/outline/small", 56x24px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/small/outline", 56x24px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 6px, stroke grey/1 1px
+          - TEXT "按钮", 24x18px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 12px]
+          - INSTANCE "plus", 12x12px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector (Stroke)", 1x8px, constraints scale/scale, fill black/86
+            - VECTOR "Vector (Stroke)", 8x1px, constraints scale/scale, fill black/86
+    - COMPONENT "button/outline/block/large", 223x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/block/outline", 223x40px, constraints scale/scale, radius 6px, stroke grey/1 1px
+        - FRAME "inner", 84x36px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "按钮块", 48x24px, constraints center/center, fill black/86, text [Source Han Sans CN Regular, 16px]
+          - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 12x12px, constraints left/top, fill black/86
+    - COMPONENT "button/outline/block/normal", 223x32px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/block/outline", 223x32px, constraints scale/scale, radius 6px, stroke grey/1 1px
+        - FRAME "inner", 84x36px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "按钮块", 48x24px, constraints center/center, fill black/86, text [Source Han Sans CN Regular, 16px]
+          - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 12x12px, constraints left/top, fill black/86
+    - COMPONENT "button/outline/block/small", 223x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_button/block/outline/small", 223x24px, constraints scale/scale, radius 6px, stroke grey/1 1px
+        - FRAME "inner", 70x24px, horizontal pad 6 6 6 6px gap 4px align min/center sizing W:fixed H:fixed, constraints center/center
+          - TEXT "按钮块", 36x18px, constraints center/center, fill black/86, text [Source Han Sans CN Regular, 12px]
+          - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+            - BOOLEAN_OPERATION "Union", 12x12px, constraints left/top, fill black/86
+    - COMPONENT "button/outline/block/large/disabled", 223x40px, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/outline/block/large", 223x40px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/block/outline", 223x40px, constraints scale/scale, radius 6px, stroke grey/1 1px
+          - FRAME "inner", 84x36px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+            - TEXT "按钮块", 48x24px, constraints center/center, fill black/86, text [Source Han Sans CN Regular, 16px]
+            - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+    - COMPONENT "button/outline/block/normal/disabled", 223x32px, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/outline/block/normal", 223x32px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/block/outline", 223x32px, constraints scale/scale, radius 6px, stroke grey/1 1px
+          - FRAME "inner", 84x36px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+            - TEXT "按钮块", 48x24px, constraints center/center, fill black/86, text [Source Han Sans CN Regular, 16px]
+            - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+    - COMPONENT "button/outline/block/small/disabled", 223x24px, constraints left/top, fill #FFFFFF, opacity 36%
+      - INSTANCE "button/outline/block/small", 223x24px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "_button/block/outline/small", 223x24px, constraints scale/scale, radius 6px, stroke grey/1 1px
+          - FRAME "inner", 70x24px, horizontal pad 6 6 6 6px gap 4px align min/center sizing W:fixed H:fixed, constraints center/center
+            - TEXT "按钮块", 36x18px, constraints center/center, fill black/86, text [Source Han Sans CN Regular, 12px]
+            - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+  - GROUP "Checkbox", 232x110px, constraints left/top
+    - COMPONENT "checkbox/normal", 66x16px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "box", 14x14px, constraints left/top, radius 2px
+        - RECTANGLE "background", 14x14px, constraints left/top, radius 2px, stroke #0000005C 1px
+      - TEXT "选它 🌀", 46x16px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "checkbox/checked", 66x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "checkbox/normal", 66x16px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - GROUP "box", 14x14px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "background", 14x14px, constraints left/top, radius 2px, fill #0000005C
+          - VECTOR "checked", 9.9x9.9px, constraints left/top, fill #FFFFFF
+        - TEXT "选它 🌀", 46x16px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+    - TEXT "Checkbox", 232x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+  - GROUP "Radio", 164x110px, constraints left/top
+    - COMPONENT "radio/normal", 66x16px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "box", 14x14px, constraints left/top, radius 7px
+        - RECTANGLE "background", 14x14px, constraints left/top, radius 7px, stroke black/36 1px
+      - TEXT "选它 🌀", 46x16px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "radio/checked", 66x16px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "radio/normal", 66x16px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints scale/scale
+        - GROUP "box", 14x14px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "background", 14x14px, constraints left/top, radius 7px, stroke black/36 1px
+          - ELLIPSE "dot", 6x6px, constraints scale/scale, fill black/36
+        - TEXT "选它 🌀", 46x16px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+    - TEXT "Radio", 137x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+  - GROUP "Switch", 246x118px, constraints left/top
+    - COMPONENT "switch/off", 106x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "_switch", 36x20px, constraints left/top
+        - RECTANGLE "bar", 36x10px, constraints left_right/center, radius 5px, fill #C4C4C4
+        - ELLIPSE "knock", 20x20px, constraints left/center, fill #ABABAB
+      - TEXT "暗色模式", 64x24px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 16px]
+    - COMPONENT "switch/on", 108x24px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "_switch", 38x20px, constraints left/top
+        - RECTANGLE "bar", 38x10px, constraints left_right/center, radius 5px, fill #C4C4C4
+        - ELLIPSE "knock", 20x20px, constraints right/center, fill #333333
+      - TEXT "暗色模式", 64x24px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 16px]
+    - TEXT "Switch", 162x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+  - GROUP "Input", 546x276px, constraints left/top, radius 0/0/0/0px
+    - COMPONENT "textarea/normal", 292x120px, constraints left/top, radius 6px, fill #FFFFFF, stroke #D0D0D0 1px
+      - TEXT "多行文本输入框", 260x20px, constraints left_right/top, fill #333333, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "input/large", 162x40px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_input", 162x40px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #D0D0D0 1px
+        - FRAME "content", 48x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/center
+          - TEXT "输入框", 48x24px, constraints left/center, fill black/86, text [Source Han Sans CN Regular, 16px]
+    - COMPONENT "input/normal", 162x32px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_input", 162x32px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #D0D0D0 1px
+        - FRAME "content", 70x20px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/center
+          - TEXT "中型输入框", 70x20px, constraints left/center, fill black/86, text [Source Han Sans CN Regular, 14px]
+    - COMPONENT "input/small", 162x24px, constraints left/top, fill #FFFFFF
+      - INSTANCE "_input", 162x24px, constraints scale/scale, radius 6px, fill #FFFFFF, stroke #D0D0D0 1px
+        - FRAME "content", 60x18px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/center
+          - TEXT "小型输入框", 60x18px, constraints left/center, fill black/86, text [Source Han Sans CN Regular, 12px]
+    - TEXT "Input", 129x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+
+Screen: everything / helper
+- FRAME "helper", 1070x171px, constraints left/top, radius 16px, fill #FFFFFF
+  - COMPONENT "cursor/pointer", 24x24px, constraints left/top
+    - VECTOR "Vector", 20.25x21px, constraints scale/scale, fill #FFFFFF, stroke #000000 1px
+  - COMPONENT "cursor/disabled", 24x24px, constraints left/top
+    - VECTOR "cursor", 14.25x14.25px, constraints scale/scale, fill gradient_linear(#F0F0F0 0% | #D6D6D6 100%)
+    - VECTOR "cursor", 8.69x12.01px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "cursor", 6.12x8.39px, constraints scale/scale, fill #000000
+  - TEXT "Cursor", 157x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+
+Screen: everything / feedback
+- FRAME "feedback", 1070x761px, constraints left/top, radius 16px, fill #FFFFFF
+  - GROUP "Message", 201x138px, constraints left/top, radius 22px
+    - COMPONENT "message", 152x44px, horizontal pad 10 20 10 20px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 22px, fill black/86
+      - TEXT "好消息好消息！", 112x24px, constraints left/top, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+    - TEXT "Message", 201x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+  - GROUP "Tooltip", 376.5x138.25px, constraints left/top
+    - COMPONENT "tooltip/top", 80x36.25px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "button", 80x32px, horizontal pad 4 16 4 16px gap 6px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #000000DB
+        - TEXT "提示语", 48x24px, constraints left/top, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+      - VECTOR "Polygon 2", 7.79x4.25px, constraints left/top, fill #000000DB
+    - COMPONENT "tooltip/bottom", 80x36.25px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Polygon 2", 7.79x4.25px, constraints left/top, fill #000000DB
+      - FRAME "button", 80x32px, horizontal pad 4 16 4 16px gap 6px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #000000DB
+        - TEXT "提示语", 48x24px, constraints left/top, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+    - COMPONENT "tooltip/right", 84.25x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - VECTOR "Polygon 2", 4.25x7.79px, constraints left/top, fill #000000DB
+      - FRAME "button", 80x32px, horizontal pad 4 16 4 16px gap 6px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #000000DB
+        - TEXT "提示语", 48x24px, constraints left/top, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+    - COMPONENT "tooltip/left", 84.25x32px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "button", 80x32px, horizontal pad 4 16 4 16px gap 6px sizing W:fixed H:fixed, constraints left/top, radius 6px, fill #000000DB
+        - TEXT "提示语", 48x24px, constraints left/top, fill #FFFFFF, text [Source Han Sans CN Regular, 16px]
+      - VECTOR "Polygon 2", 4.25x7.79px, constraints left/top, fill #000000DB
+    - TEXT "Tooltip", 167x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+  - GROUP "Popover", 560x153px, constraints left/top
+    - COMPONENT "popover/top", 270x80px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, effect shadow/sm
+      - FRAME "button", 270x72px, vertical pad 12 12 12 12px gap 4px sizing W:fill H:fixed, constraints left/top, radius 6px, fill white/100
+        - TEXT "标题", 32x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+        - TEXT "这里是一句提示语", 246x20px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 14px]
+      - VECTOR "Polygon 2", 14x8px, constraints left/top, fill white/100
+    - COMPONENT "popover/bottom", 270x80px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "popover/top", 270x80px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints scale/scale, effect shadow/sm
+        - VECTOR "Polygon 3", 14x8px, constraints left/top, fill white/100
+        - FRAME "button", 270x72px, vertical pad 12 12 12 12px gap 4px sizing W:fill H:fixed, constraints left/top, radius 6px, fill white/100
+          - TEXT "标题", 32x24px, constraints left/top, fill black/86, text [Source Han Sans CN Bold, 16px]
+          - TEXT "这里是一句提示语", 246x20px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 14px]
+    - TEXT "Popover", 198x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+  - GROUP "Alert", 328x112px, constraints left/top, radius 6px
+    - COMPONENT "alert", 328x36px, constraints left/top, radius 6px, fill black/6
+      - TEXT "验证码不正确", 296x21px, constraints left_right/top, fill black/86, text [Source Han Sans CN Regular, 14px]
+    - TEXT "Alert", 115x70px, constraints left/top, fill #000000, text [bold/48px], [heading]
+
+Screen: everything / _base
+- FRAME "_base", 432x655px, constraints left/top, fill #FFFFFF
+  - COMPONENT "_button/block/solid", 223x40px, constraints left/top, radius 6px, fill grey/1, stroke grey/1 1px
+    - FRAME "inner", 84x36px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+      - TEXT "按钮块", 48x24px, constraints center/center, fill white/86, text [Source Han Sans CN Regular, 16px]
+      - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 12x12px, constraints left/top, fill white/86
+  - COMPONENT "_button/block/solid/normal", 223x32px, constraints left/top, radius 6px, fill grey/1, stroke grey/1 1px
+    - FRAME "inner", 76x32px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+      - TEXT "按钮块", 42x20px, constraints center/center, fill white/86, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "arrow-right", 16x16px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 10.67x10.67px, constraints left/top, fill white/86
+  - COMPONENT "_button/block/outline", 223x40px, constraints left/top, radius 6px, stroke grey/1 1px
+    - FRAME "inner", 84x36px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+      - TEXT "按钮块", 48x24px, constraints center/center, fill black/86, text [Source Han Sans CN Regular, 16px]
+      - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 12x12px, constraints left/top, fill black/86
+  - COMPONENT "_button/block/outline/normal", 223x32px, constraints left/top, radius 6px, stroke grey/1 1px
+    - FRAME "inner", 76x32px, horizontal pad 6 6 6 6px gap 6px align min/center sizing W:fixed H:fixed, constraints center/center
+      - TEXT "按钮块", 42x20px, constraints center/center, fill black/86, text [Source Han Sans CN Regular, 14px]
+      - INSTANCE "arrow-right", 16x16px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 10.67x10.67px, constraints left/top, fill black/86
+  - COMPONENT "_button/block/solid/small", 223x24px, constraints left/top, radius 6px, fill grey/1, stroke grey/1 1px
+    - FRAME "inner", 66x24px, horizontal pad 6 6 6 6px gap 4px align min/center sizing W:fixed H:fixed, constraints center/center
+      - TEXT "按钮块", 36x18px, constraints center/center, fill white/86, text [Source Han Sans CN Regular, 12px]
+      - INSTANCE "arrow-right", 14x14px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 9.33x9.33px, constraints left/top, fill white/86
+  - COMPONENT "_button/block/outline/small", 223x24px, constraints left/top, radius 6px, stroke grey/1 1px
+    - FRAME "inner", 70x24px, horizontal pad 6 6 6 6px gap 4px align min/center sizing W:fixed H:fixed, constraints center/center
+      - TEXT "按钮块", 36x18px, constraints center/center, fill black/86, text [Source Han Sans CN Regular, 12px]
+      - INSTANCE "arrow-right", 18x18px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Union", 12x12px, constraints left/top, fill black/86
+  - COMPONENT "_button/solid", 94x40px, horizontal pad 4 20 4 20px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill grey/1, stroke grey/1 1px
+    - INSTANCE "loader", 18x18px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 16.5x16.5px, constraints left/top [decorative, ~8 shapes]
+    - TEXT "按钮", 32x24px, constraints left/top, fill white/86, text [Source Han Sans CN Regular, 16px]
+  - COMPONENT "_button/outline", 94x40px, horizontal pad 4 20 4 20px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke grey/1 1px
+    - TEXT "按钮", 32x24px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 16px]
+    - INSTANCE "plus", 18x18px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector (Stroke)", 1.5x12px, constraints scale/scale, fill black/86
+      - VECTOR "Vector (Stroke)", 12x1.5px, constraints scale/scale, fill black/86
+  - COMPONENT "_button/small/solid", 56x24px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, fill grey/1, stroke grey/1 1px
+    - INSTANCE "loader", 12x12px, constraints left/top, fill #FFFFFF
+      - GROUP "Group", 11x11px, constraints left/top [decorative, ~8 shapes]
+    - TEXT "按钮", 24x18px, constraints left/top, fill white/86, text [Source Han Sans CN Regular, 12px]
+  - COMPONENT "_button/small/outline", 56x24px, horizontal pad 4 8 4 8px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top, radius 6px, stroke grey/1 1px
+    - TEXT "按钮", 24x18px, constraints left/top, fill black/86, text [Source Han Sans CN Regular, 12px]
+    - INSTANCE "plus", 12x12px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector (Stroke)", 1x8px, constraints scale/scale, fill black/86
+      - VECTOR "Vector (Stroke)", 8x1px, constraints scale/scale, fill black/86
+  - COMPONENT "_switch", 36x20px, constraints left/top
+    - RECTANGLE "bar", 36x10px, constraints left_right/center, radius 5px, fill #C4C4C4
+    - ELLIPSE "knock", 20x20px, constraints left/center, fill #888888
+  - COMPONENT "_input", 162x40px, constraints left/top, radius 6px, fill #FFFFFF, stroke #D0D0D0 1px
+    - FRAME "content", 48x24px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/center
+      - TEXT "输入框", 48x24px, constraints left/center, fill black/86, text [Source Han Sans CN Regular, 16px]
+
+Screen: everything / _base
+- FRAME "_base", 432x141px, constraints left/top, fill #FFFFFF
+  - COMPONENT "_tab", 85x39px, vertical pad 9 16 9 16px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top, fill white/6
+    - TEXT "菜单项 1", 53x21px, constraints left/top, fill #000000, text [Source Han Sans CN Regular, 14px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

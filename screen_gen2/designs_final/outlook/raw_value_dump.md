@@ -1,0 +1,948 @@
+---
+name: mobile-outlook-and-linkedin-community
+source_file: Mobile outlook and LinkedIn (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:53:41.771225+00:00
+---
+
+# Mobile outlook and LinkedIn (Community) Design Guidelines
+
+## Source
+- Figma file: Mobile outlook and LinkedIn (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:53:41.771225+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 481 uses
+- #FFFFFF: 190 uses
+- #FAEAEA: 75 uses
+- #493C3C: 67 uses
+- #FCD5D5: 25 uses
+- #F8F4F4: 24 uses
+- #D9D9D9: 22 uses
+- #FFFAFA: 10 uses
+- #0000005C: 9 uses
+- #445CDA: 9 uses
+- #4248DD: 8 uses
+- #CBCED5: 8 uses
+- #120101: 6 uses
+- #FFF8F8: 5 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Regular, 24px: 72 uses
+- Inter SemiBold, 10px: 66 uses
+- Inter SemiBold, 12px: 55 uses
+- Inter SemiBold, 20px: 42 uses
+- Inter Regular, 12px: 40 uses
+- Inter Light, 10px: 34 uses
+- Inter SemiBold, 16px: 28 uses
+- Inter Medium, 16px: 27 uses
+- Inter Regular, 11px: 23 uses
+- Inter Bold, 20px: 21 uses
+- Inter Regular, 16px: 18 uses
+- Inter Medium, 12px: 16 uses
+- Inter Medium, 10px: 15 uses
+- Inter Bold, 15px: 14 uses
+- Inter Medium, 14px: 11 uses
+- Inter ExtraLight, 11px: 8 uses
+- Inter Light, 8px: 8 uses
+- Inter SemiBold, 14px: 8 uses
+- Inter Medium, 11px: 7 uses
+- Inter ExtraLight, 15px: 5 uses
+- Inter Light, 12px: 5 uses
+- Inter Light, 13px: 5 uses
+- Inter Light, 14px: 5 uses
+- Inter Light, 15px: 5 uses
+- Inter Regular, 10px: 5 uses
+- Inter Bold, 14px: 4 uses
+- Inter Regular, 15px: 4 uses
+- Roboto Regular, 20px: 4 uses
+- Inter Medium, 15px: 3 uses
+- Inter Regular, 13px: 3 uses
+- Inter Regular, 32px: 3 uses
+
+## Typography Hierarchy
+- 32px - Inter Regular, 32px (raw)
+- 24px - Roboto Regular, 24px (raw)
+- 20px - Inter Bold, 20px (raw)
+- 20px - Inter SemiBold, 20px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 16px - Inter Medium, 16px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 16px - Inter SemiBold, 16px (raw)
+- 15px - Inter Bold, 15px (raw)
+- 15px - Inter ExtraLight, 15px (raw)
+- 15px - Inter Light, 15px (raw)
+- 15px - Inter Medium, 15px (raw)
+- 15px - Inter Regular, 15px (raw)
+- 14px - Inter Bold, 14px (raw)
+- 14px - Inter Light, 14px (raw)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Inter SemiBold, 14px (raw)
+- 13px - Inter Light, 13px (raw)
+- 13px - Inter Regular, 13px (raw)
+- 12px - Inter Light, 12px (raw)
+- 12px - Inter Medium, 12px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Inter SemiBold, 12px (raw)
+- 11px - Inter ExtraLight, 11px (raw)
+- 11px - Inter Medium, 11px (raw)
+- 11px - Inter Regular, 11px (raw)
+- 10px - Inter Light, 10px (raw)
+- 10px - Inter Medium, 10px (raw)
+- 10px - Inter Regular, 10px (raw)
+- 10px - Inter SemiBold, 10px (raw)
+- 8px - Inter Light, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Android keyboard
+
+## Component Specs
+- Android keyboard: size 360x244px, fill #FFFFFF, text [Roboto Regular, 14px, Roboto Regular, 20px, Roboto Regular, 16px, Roboto Regular, 24px]
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / home
+- FRAME "home", 360x800px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 1", 360x800px, constraints left/top, fill image(hash: 00a9a8bdf3a98943c2c956fa6d84a89e7a265456)
+  - TEXT "10:18 Tue 05", 105x60px, constraints left/top, fill #F2EAEA, text [Inter ExtraBold, 24px], [heading]
+  - TEXT "cloudy 33 C", 117x24px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 20px]
+  - TEXT "O", 8x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10px]
+  - RECTANGLE "image 3", 53.02x52px, constraints left/top, fill image(hash: fe25091d55a7e8f23b9f494806bd10598b72258e)
+  - TEXT "settings", 55x17px, constraints left/top, fill #FFFFFF, text [Inter Medium, 14px]
+  - RECTANGLE "image 4", 52x52px, constraints left/top, fill image(hash: b76bd0db5ad1dd7144999214ba4d1e3afad0d379)
+  - TEXT "security", 54x17px, constraints left/top, fill #FFFFFF, text [Inter Medium, 14px]
+  - TEXT "Tools", 36x17px, constraints left/top, fill #FFFFFF, text [Inter Medium, 14px]
+  - RECTANGLE "image 2", 60x57px, constraints left/top, fill image(hash: c393116d1e88706633b2cd2ba81063afa2d9126d)
+  - RECTANGLE "image 6", 52x52px, constraints left/top, fill image(hash: 655f11838e01d8b7586e87277e0029a2f493a2c5)
+  - TEXT "chrome", 51x17px, constraints left/top, fill #FFFFFF, text [Inter Medium, 14px]
+  - RECTANGLE "image 7", 20x20px, constraints left/top, fill image(hash: 9e1969e48e74bc782c2f274763d0ef7079512c0a)
+  - RECTANGLE "image 8", 52x52px, constraints left/top, fill image(hash: cc688b1f8bce0259bc266ff03acd71d4740ced6c)
+  - RECTANGLE "image 9", 52x52px, constraints left/top, fill image(hash: 832cfa34a88588eb7b9a23b57529c0d7fe02a150)
+  - RECTANGLE "image 10", 52x52px, constraints left/top, fill image(hash: 0ca3e76ad386734ee35d2f6131fc65d94d38b183)
+  - RECTANGLE "image 11", 52x52px, constraints left/top, fill image(hash: 2b272f0dee91267e53d21e7af9259d4ac0f4e479)
+  - RECTANGLE "Rectangle 2", 15x15px, constraints left/top, fill #D9D9D9
+  - ELLIPSE "Ellipse 4", 15x15px, constraints left/top, fill #D9D9D9
+  - REGULAR_POLYGON "Polygon 1", 16x16px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 22", 78x47px, constraints left/top, radius 10px, fill #EFD6D6
+  - RECTANGLE "image 43", 20x16.67px, constraints left/top, fill image(hash: 0bb9ae107fd55a9aae6ca1c9dbf8ff7c9e14296e)
+  - RECTANGLE "image 43", 20x20px, constraints left/top, fill image(hash: 502a25dc5239e4fe6ff6de70779dccbc97753304)
+  - RECTANGLE "image 43", 20x20px, constraints left/top, fill image(hash: 31d32a2a6e154d389fb1eee3e82d4133cc7bca1e)
+  - RECTANGLE "image 43", 20x20px, constraints left/top, fill image(hash: c8e6757e0c59122df8f5659ce39b4c6b3dd3c347)
+  - ... +2 more children
+
+Screen: Page 1 / Home 2
+- FRAME "Home 2", 360x800px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 1", 360x800px, constraints left/top, fill image(hash: 00a9a8bdf3a98943c2c956fa6d84a89e7a265456)
+  - RECTANGLE "image 7", 20x20px, constraints left/top, fill image(hash: 9e1969e48e74bc782c2f274763d0ef7079512c0a)
+  - RECTANGLE "image 8", 52x52px, constraints left/top, fill image(hash: cc688b1f8bce0259bc266ff03acd71d4740ced6c)
+  - RECTANGLE "image 9", 52x52px, constraints left/top, fill image(hash: 832cfa34a88588eb7b9a23b57529c0d7fe02a150)
+  - RECTANGLE "image 10", 52x52px, constraints left/top, fill image(hash: 0ca3e76ad386734ee35d2f6131fc65d94d38b183)
+  - RECTANGLE "image 11", 52x52px, constraints left/top, fill image(hash: 2b272f0dee91267e53d21e7af9259d4ac0f4e479)
+  - RECTANGLE "Rectangle 2", 15x15px, constraints left/top, fill #D9D9D9
+  - ELLIPSE "Ellipse 4", 15x15px, constraints left/top, fill #D9D9D9
+  - REGULAR_POLYGON "Polygon 1", 16x16px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "image 12", 52x52px, constraints left/top, fill image(hash: 1da4762fde9fc94434d444023923f439b7f9887e)
+  - TEXT "service & feedback", 60x24px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10px]
+  - TEXT "Notes", 29x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10px]
+  - TEXT "VLC Player", 53x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10px]
+  - TEXT "Whats app", 52x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10px]
+  - RECTANGLE "image 16", 52x52px, constraints left/top, fill image(hash: f8546511bd4c233f0c0d78246766b31a788aab83)
+  - RECTANGLE "image 17", 52x52px, constraints left/top, fill image(hash: a45899b20f52a12a29df6e496b6dbf6acd12588a)
+  - RECTANGLE "image 18", 52x52px, constraints left/top, fill image(hash: 7ce23faead589d42f9825488c15fa2deb7d1af07)
+  - RECTANGLE "image 19", 52x52px, constraints left/top, fill image(hash: a168ee30d116a8d53b0d7430e34e5c5e02f91243)
+  - TEXT "Map", 22x12px, constraints left/top, fill #FFFBFB, text [Inter SemiBold, 10px]
+  - TEXT "Facebook", 48x12px, constraints left/top, fill #FFFAFA, text [Inter SemiBold, 10px]
+  - TEXT "Instragram", 53x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10px]
+  - TEXT "Youtube", 41x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 10px]
+  - RECTANGLE "image 35", 52x52px, constraints left/top, fill image(hash: 9b797031c85ba300efed0155f2e50f01ab613196)
+  - RECTANGLE "image 35", 52x52px, constraints left/top, fill image(hash: 35bd46f9e1564cccb2747419178aaa440b27d490)
+  - RECTANGLE "image 36", 52x52px, constraints left/top, fill image(hash: e6129acd7ecabe168f8119cf4ef5fedc0e4bc3cf)
+
+Screen: Page 1 / Tools
+- FRAME "Tools", 360x800px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 37", 360x800px, constraints left/top, fill image(hash: 00a9a8bdf3a98943c2c956fa6d84a89e7a265456)
+  - TEXT "Tools", 103x48px, constraints left/top, fill #FFFFFF, text [Inter Medium, 40px], [heading]
+  - RECTANGLE "image 43", 75x77px, constraints left/top, fill image(hash: 8b3240aab855d9a8094ecc90a62f5a2b29cae21c)
+  - RECTANGLE "image 44", 74x77px, constraints left/top, fill image(hash: 0bb9ae107fd55a9aae6ca1c9dbf8ff7c9e14296e)
+  - RECTANGLE "image 45", 74x77px, constraints left/top, fill image(hash: 502a25dc5239e4fe6ff6de70779dccbc97753304)
+  - TEXT "Calculator", 72x18px, constraints left/top, fill #FCF2F2, text [Inter SemiBold, 12px]
+  - TEXT "Calendar", 63x10px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - TEXT "Drive", 37x18px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - RECTANGLE "image 46", 75x76px, constraints left/top, fill image(hash: c8e6757e0c59122df8f5659ce39b4c6b3dd3c347)
+  - RECTANGLE "image 47", 75x76px, constraints left/top, fill image(hash: 58844b412b9030f6fc9f4ded24f46a310a31b212)
+  - RECTANGLE "image 48", 75x76px, constraints left/top, fill image(hash: 7c2cac52ee702de0f7275132e56e8e6cadbb3ad4)
+  - TEXT "Compass", 66x17px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - TEXT "Spotify", 66x17px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - TEXT "Contacts", 65x17px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - TEXT "Telegram", 65x17px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - TEXT "Clock", 41x17px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - TEXT "Recorder", 58x17px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - RECTANGLE "image 49", 75x77px, constraints left/top, fill image(hash: 561e29d8ca164ef27d2efda93d2b863b7cc79c15)
+  - RECTANGLE "image 50", 75x77px, constraints left/top, fill image(hash: 68dc0665a408732bbb5f72b83adb83cc360430b5)
+  - RECTANGLE "image 51", 75x77px, constraints left/top, fill image(hash: 5d32947085bd769748f528c4c9f32798139f72ab)
+  - RECTANGLE "Rectangle 12", 15x15px, constraints left/top, fill #FFFFFF
+  - REGULAR_POLYGON "Polygon 3", 16x16px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 9", 17x17px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 10", 15x15px, constraints left/top, fill #FFFFFF
+
+Screen: Page 1 / Apps
+- FRAME "Apps", 360x800px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 12", 52x52px, constraints left/top, fill image(hash: 1da4762fde9fc94434d444023923f439b7f9887e)
+  - TEXT "service & feedback", 60x24px, constraints left/top, fill #160101, text [Inter SemiBold, 10px]
+  - TEXT "Notes", 29x12px, constraints left/top, fill #160202, text [Inter SemiBold, 10px]
+  - TEXT "VLC Player", 53x12px, constraints left/top, fill #120101, text [Inter SemiBold, 10px]
+  - TEXT "Whats app", 52x12px, constraints left/top, fill #120101, text [Inter SemiBold, 10px]
+  - RECTANGLE "image 16", 52x52px, constraints left/top, fill image(hash: f8546511bd4c233f0c0d78246766b31a788aab83)
+  - RECTANGLE "image 17", 52x52px, constraints left/top, fill image(hash: a45899b20f52a12a29df6e496b6dbf6acd12588a)
+  - RECTANGLE "image 18", 52x52px, constraints left/top, fill image(hash: 7ce23faead589d42f9825488c15fa2deb7d1af07)
+  - RECTANGLE "image 19", 52x52px, constraints left/top, fill image(hash: a168ee30d116a8d53b0d7430e34e5c5e02f91243)
+  - TEXT "Map", 22x12px, constraints left/top, fill #120101, text [Inter SemiBold, 10px]
+  - TEXT "Facebook", 48x12px, constraints left/top, fill #120202, text [Inter SemiBold, 10px]
+  - TEXT "Instragram", 53x12px, constraints left/top, fill #120101, text [Inter SemiBold, 10px]
+  - TEXT "Youtube", 41x12px, constraints left/top, fill #120101, text [Inter SemiBold, 10px]
+  - TEXT "All", 20x18px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+  - TEXT "job", 23x18px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+  - TEXT "Payment", 65x18px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+  - TEXT "Communication", 117x18px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+  - TEXT "Tools", 40x18px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+  - RECTANGLE "image 20", 52x52px, constraints left/top, fill image(hash: b94648539a0e382c7545a815d95dd13b514338ce)
+  - RECTANGLE "image 21", 52x52px, constraints left/top, fill image(hash: 5b6f6521874936d1b36c174bafd76b258786a52e)
+  - RECTANGLE "image 22", 52x52px, constraints left/top, fill image(hash: c6485b94fbc1d54b3f347bb750318731bf8e591d)
+  - RECTANGLE "image 23", 52x52px, constraints left/top, fill image(hash: 35aa691b670856072fb7f07cd38dc789bfceeaa8)
+  - TEXT "Messenger", 55x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Gmail", 28x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Twitter", 35x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - ... +37 more children
+
+Screen: Page 1 / Security settings
+- FRAME "Security settings", 360x800px, constraints left/top, fill #FFFFFF
+  - TEXT "Security Status", 231x39px, constraints left/top, fill #000000, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "image 123", 25.27x25.27px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "Find device", 113x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Security update", 157x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Google play Protect", 193x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Google play system update 1 june 2022", 266x48px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "off", 26x24px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - TEXT "2022-03-01", 114x24px, constraints left/top, fill #000000, text [Inter Light, 20px]
+  - RECTANGLE "image 123", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 123", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "Rectangle 18", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 5", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 13", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 14", 15x15px, constraints left/top, fill #493C3C
+  - LINE "Line 12", 321x0px, constraints left/top, stroke #FCD5D5 1px
+
+Screen: Page 1 / google play protect
+- FRAME "google play protect", 360x815px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 123", 25.27x25.27px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "Play Protect", 117x24px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+  - RECTANGLE "image 124", 25x25px, constraints left/top, fill image(hash: e6a4e316989b2d32bf43be9e1d969fa825119dfb)
+  - LINE "Line 12", 360x0px, constraints left/top, stroke #FCD5D5 1px
+  - RECTANGLE "image 125", 100x100px, constraints left/top, fill image(hash: 7d0a5b4f56f3b8955ddea5d9a92a134d12f3c9f5)
+  - TEXT "No harmful apps found", 267x29px, constraints left/top, fill #000000, text [Inter Bold, 24px], [heading]
+  - TEXT "Play protect scanned moments ago", 270x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - TEXT "Play protect regurarly check your apps and device for harmfu", 329x57px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - TEXT "Apps scanned moments ago", 218x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - TEXT "Recently scanned apps", 228x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - RECTANGLE "Rectangle 18", 132x44px, constraints left/top, radius 20px, fill #D9D9D9
+  - TEXT "Scan", 39x19px, constraints left/top, fill #225AC7, text [Inter Medium, 16px]
+  - RECTANGLE "Rectangle 20", 132x44px, constraints left/top, radius 20px, fill #D9D9D9
+  - TEXT "Scan", 39x19px, constraints left/top, fill #225AC7, text [Inter Medium, 16px]
+  - RECTANGLE "image 43", 30x30px, constraints left/top, fill image(hash: b94648539a0e382c7545a815d95dd13b514338ce)
+  - RECTANGLE "image 44", 30x30px, constraints left/top, fill image(hash: 5b6f6521874936d1b36c174bafd76b258786a52e)
+  - RECTANGLE "image 45", 30x30px, constraints left/top, fill image(hash: c6485b94fbc1d54b3f347bb750318731bf8e591d)
+  - RECTANGLE "image 46", 30x30px, constraints left/top, fill image(hash: 35aa691b670856072fb7f07cd38dc789bfceeaa8)
+  - RECTANGLE "image 43", 30x30px, constraints left/top, fill image(hash: 502a25dc5239e4fe6ff6de70779dccbc97753304)
+  - RECTANGLE "image 44", 30x30px, constraints left/top, fill image(hash: 31d32a2a6e154d389fb1eee3e82d4133cc7bca1e)
+  - LINE "Line 12", 321x0px, constraints left/top, stroke #FCD5D5 1px
+  - TEXT "Learn more", 87x19px, constraints left/top, fill #3B53D3, text [Inter Medium, 16px]
+  - RECTANGLE "Rectangle 19", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 6", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 15", 17x17px, constraints left/top, fill #F8F4F4
+  - ... +2 more children
+
+Screen: Page 1 / system app updater
+- FRAME "system app updater", 360x800px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 123", 25.27x25.27px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "System apps updater", 207x24px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+  - RECTANGLE "image 124", 28x28px, constraints left/top, fill image(hash: d2f0e2f3f1503ea65f491a149ce430663da2a8f2)
+  - LINE "Line 12", 360x0px, constraints left/top, stroke #FCD5D5 1px
+  - RECTANGLE "image 125", 100x100px, constraints left/top, fill image(hash: 8d37c63c8a520f26f557ebc852782f4adcdea4d2)
+  - TEXT "All system apps are up to date.you can try updating other ap", 394x41px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - TEXT "Installed apps", 137x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - RECTANGLE "image 43", 30x30px, constraints left/top, fill image(hash: b94648539a0e382c7545a815d95dd13b514338ce)
+  - TEXT "1 update pending Updates provided by GetApps", 231x38px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - RECTANGLE "image 124", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 126", 18x18px, constraints left/top, fill image(hash: d17b251e7c348f7b4f7d1f5e64f7421170395f6c)
+  - RECTANGLE "Rectangle 20", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 7", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 17", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 18", 15x15px, constraints left/top, fill #493C3C
+  - LINE "Line 14", 321x0px, constraints left/top, stroke #FCD5D5 1px
+
+Screen: Page 1 / Feedback
+- FRAME "Feedback", 360x800px, constraints left/top, fill #FFFFFF
+  - TEXT "Feedback", 114x29px, constraints left/top, fill #000000, text [Inter SemiBold, 24px], [heading]
+  - RECTANGLE "image 124", 28x28px, constraints left/top, fill image(hash: d2f0e2f3f1503ea65f491a149ce430663da2a8f2)
+  - LINE "Line 12", 360x0px, constraints left/top, stroke #FCD5D5 1px
+  - LINE "Line 15", 360x0px, constraints left/top, stroke #FCD5D5 1px
+  - RECTANGLE "Rectangle 20", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 7", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 17", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 18", 15x15px, constraints left/top, fill #493C3C
+  - LINE "Line 14", 321x0px, constraints left/top, stroke #FCD5D5 1px
+  - RECTANGLE "image 127", 30x30px, constraints left/top, fill image(hash: d7dd7e2a658939329c8b26a1982cceb0a6e82bce)
+  - RECTANGLE "image 128", 30x30px, constraints left/top, fill image(hash: 54e6f7382851a90e112245c04ec5cecf332301f7)
+  - TEXT "My feedback", 100x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - TEXT "Get logs", 64x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - RECTANGLE "image 117", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 129", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - TEXT "FAQ", 27x17px, constraints left/top, fill #000000, text [Inter Light, 14px]
+  - TEXT "Issues with signal reception", 213x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - TEXT "Device can’t connect to Wi-Fi", 225x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - TEXT "Battery draining issues", 176x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - TEXT "Apps force close", 129x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - TEXT "Devices freezes", 123x19px, constraints left/top, fill #000000, text [Inter Medium, 16px]
+  - RECTANGLE "Rectangle 21", 305x49px, constraints left/top, radius 30px, fill #6273D0
+  - TEXT "Submit feedback", 130x19px, constraints left/top, fill #F8F0F0, text [Inter Medium, 16px]
+
+Screen: Page 1 / digital wellbeing
+- FRAME "digital wellbeing", 360x1236px, constraints left/top, fill #FFFFFF
+  - TEXT "Digital Wellbeing", 192x29px, constraints left/top, fill #000000, text [Inter Medium, 24px], [heading]
+  - RECTANGLE "image 124", 28x28px, constraints left/top, fill image(hash: d2f0e2f3f1503ea65f491a149ce430663da2a8f2)
+  - LINE "Line 12", 360x0px, constraints left/top, stroke #FCD5D5 1px
+  - LINE "Line 15", 360x0px, constraints left/top, stroke #FCD5D5 1px
+  - RECTANGLE "Rectangle 20", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 7", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 17", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 18", 15x15px, constraints left/top, fill #493C3C
+  - LINE "Line 14", 321x0px, constraints left/top, stroke #FCD5D5 1px
+  - RECTANGLE "image 124", 25.27x25.27px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - RECTANGLE "image 130", 25x25px, constraints left/top, fill image(hash: 5f66a9766a27a4ac22e87d555ace5c491ea8c1a0)
+  - TEXT "Your Digitalwellbeing tools", 163x16px, constraints left/top, fill #000000, text [Inter Regular, 13px]
+  - ELLIPSE "Ellipse 19", 238x234px, constraints left/top, fill #4B6392
+  - ELLIPSE "Ellipse 20", 220x220px, constraints left/top, fill #F5EDED
+  - TEXT "Today", 59x24px, constraints left/top, fill #000000, text [Inter Medium, 20px]
+  - TEXT "This data is from your personal profile.it doesn’t include w", 293x32px, constraints left/top, fill #000000, text [Inter Regular, 13px]
+  - TEXT "3 hrs,30 mins", 108x19px, constraints left/top, fill #000000, text [Inter Bold, 16px]
+  - TEXT "11 Unlocks", 63x38px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - TEXT "WAYS TO DISCONNECT", 127x13px, constraints left/top, fill #000000, text [Inter SemiBold, 11px]
+  - TEXT "REDUCE INTERRUPTIONS", 137x13px, constraints left/top, fill #000000, text [Inter SemiBold, 11px]
+  - TEXT "Parental controls", 115x17px, constraints left/top, fill #000000, text [Inter SemiBold, 14px]
+  - TEXT "Set up parental controls", 151x16px, constraints left/top, fill #298F71, text [Inter SemiBold, 13px]
+  - TEXT "No timer set", 75x16px, constraints left/top, fill #000000, text [Inter Light, 13px]
+  - TEXT "Tap to set up", 80x16px, constraints left/top, fill #000000, text [Inter Light, 13px]
+  - TEXT "Tap to set up", 80x16px, constraints left/top, fill #000000, text [Inter Light, 13px]
+  - ... +16 more children
+
+Screen: Page 1 / About phone
+- FRAME "About phone", 360x1062px, constraints left/top, fill #FFFFFF
+  - TEXT "About phone", 195x39px, constraints left/top, fill #000000, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Rectangle 13", 177x226px, constraints left/top, radius 20px, fill #D9D9D9
+  - RECTANGLE "Rectangle 14", 127x81px, constraints left/top, radius 20px, fill #D9D9D9
+  - RECTANGLE "Rectangle 15", 127x129px, constraints left/top, radius 20px, fill #D9D9D9
+  - RECTANGLE "Rectangle 16", 32x78px, constraints left/top, fill gradient_linear(#36A489 0% | #ED131300 100%)
+  - RECTANGLE "Rectangle 17", 74.67x80.31px, constraints left/top, fill gradient_linear(#36A489 0% | #ED131300 100%)
+  - ELLIPSE "Ellipse 11", 54x52px, constraints left/top, fill gradient_linear(#C24D4D 0% | #41A91000 100%)
+  - LINE "Line 6", 0x78px, constraints left/top
+  - LINE "Line 7", 63x0px, constraints left/top
+  - LINE "Line 8", 63x78px, constraints left/top
+  - TEXT "MIUI Version MIUI GLObal 12.5.6 stable", 105x69px, constraints left/top, fill #000000, text [Inter Regular, 15px]
+  - TEXT "Device name Redmi", 93x46px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+  - TEXT "Storage occupied 47.8 GB/64 GB", 110x100px, constraints left/top, fill #000000, text [Inter Medium, 15px]
+  - TEXT "MIUI version", 122x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Backup & Restore", 172x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Important safety information", 282x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Factory reset", 131x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Certification", 124x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "All specs", 90x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Android version", 156x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Android security update", 164x48px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "MIUI Global 12.5.6 stable 12.6.5(RXTUMXR)", 126x62px, constraints left/top, fill #000000, text [Inter Light, 15px]
+  - TEXT "11.RCG1.125065.01", 129x18px, constraints left/top, fill #000000, text [Inter Light, 15px]
+  - TEXT "2022-05-01", 85x18px, constraints left/top, fill #000000, text [Inter Light, 15px]
+  - RECTANGLE "image 117", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - ... +12 more children
+
+Screen: Page 1 / Settings
+- FRAME "Settings", 360x2218px, constraints left/top, fill #FFFFFF
+  - TEXT "Settings", 210x39px, constraints left/top, fill #000000, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Rectangle 12", 315x49px, constraints left/top, radius 30px, fill #D9D9D9
+  - RECTANGLE "image 57", 25x25px, constraints left/top, fill image(hash: b0211ba146cd49d5b4691ad9b9aaa04ec7493380)
+  - RECTANGLE "image 58", 30x30px, constraints left/top, fill image(hash: 06e8a40e2bbbe801d840e3d7375cad46af083f1e)
+  - TEXT "About phone", 125x24px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+  - RECTANGLE "image 59", 30x30px, constraints left/top, fill image(hash: 30f0954eff99cbebfc7109ed6008b01c693d0bd8)
+  - TEXT "System apps updater", 207x24px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+  - RECTANGLE "image 60", 30x30px, constraints left/top, fill image(hash: ca69b0c87e3e972b088ef97b0ce2f1dbda3ffb6f)
+  - TEXT "Security status", 147x24px, constraints left/top, fill #000000, text [Inter SemiBold, 20px]
+  - RECTANGLE "image 61", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 63", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 77", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 85", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 84", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 90", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 104", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 103", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 89", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 88", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 87", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 111", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 113", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 114", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 115", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "image 116", 15x15px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - ... +81 more children
+
+Screen: Page 1 / Security
+- FRAME "Security", 360x1240px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 5", 262x255px, constraints left/top, fill #5776E7, effect [drop_shadow 4px offset 0 4 #405BB980]
+  - ELLIPSE "Ellipse 6", 245x236px, constraints left/top, fill #FFFBFB
+  - TEXT "92", 57x69px, constraints left/top, fill #000000, text [Istok Web Bold, 48px], [heading]
+  - TEXT "A few items can be optimised", 199x17px, constraints left/top, fill #000000, text [Inter SemiBold, 14px]
+  - RECTANGLE "Rectangle 4", 168x48px, constraints left/top, radius 30px, fill #DEDFF4
+  - TEXT "Optimise", 87x24px, constraints left/top, fill #175DC6, text [Inter SemiBold, 20px]
+  - RECTANGLE "Rectangle 5", 158x103px, constraints left/top, radius 30px, fill #FFFAFA
+  - TEXT "Cleaner", 77x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - RECTANGLE "Rectangle 6", 158x103px, constraints left/top, radius 30px, fill #FFFAFA
+  - RECTANGLE "Rectangle 10", 158x103px, constraints left/top, radius 30px, fill #FFFAFA
+  - RECTANGLE "Rectangle 9", 158x103px, constraints left/top, radius 30px, fill #FFFAFA
+  - RECTANGLE "Rectangle 8", 158x103px, constraints left/top, radius 30px, fill #FFFAFA
+  - RECTANGLE "Rectangle 7", 158x103px, constraints left/top, radius 30px, fill #FFFAFA
+  - RECTANGLE "image 43", 30x30px, constraints left/top, fill image(hash: 603a0cbcd0ff45775f52d81734e8019cf49d9ccf)
+  - ELLIPSE "Ellipse 7", 30x30px, constraints left/top, fill #6CDAB9
+  - RECTANGLE "image 44", 30x30px, constraints left/top, fill image(hash: 66546bf2c853bd93a871566c4364fcac51242336)
+  - RECTANGLE "image 45", 30x30px, constraints left/top, fill image(hash: 7ee09304b411c9882864cbcd4ff88ba7f5708aad)
+  - RECTANGLE "image 46", 30x30px, constraints left/top, fill image(hash: 7d2ce08677e3d19e3cde0eb5f58f539fe224e9de)
+  - RECTANGLE "image 47", 30x30px, constraints left/top, fill image(hash: 439c099c9b88f84c5e84d07f1788e2cffca2d8d5)
+  - TEXT "Security scan", 135x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Battery", 73x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Boost Speed", 124x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Manage apps", 132x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "Deep clean", 109x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - TEXT "72% of storage space", 102x12px, constraints left/top, fill #000000, text [Inter Light, 10px]
+  - ... +34 more children
+
+Screen: Page 1 / search
+- FRAME "search", 360x800px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 13", 315x49px, constraints left/top, radius 30px, fill #D9D9D9
+  - RECTANGLE "image 117", 25x25px, constraints left/top, fill image(hash: b0211ba146cd49d5b4691ad9b9aaa04ec7493380)
+  - RECTANGLE "image 123", 25.27x25.27px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+
+Screen: Page 1 / Weather
+- FRAME "Weather", 360x1228px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 134", 360x1228px, constraints left/top, fill image(hash: 950af775c2c28509fea9d3ca913c1f39e13a2f5c)
+  - TEXT "3", 14x24px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 20px]
+  - TEXT "28", 20x19px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+  - TEXT "27", 20x19px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+  - TEXT "26", 20x19px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+  - TEXT "25", 20x19px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+  - TEXT "More Details", 72x15px, constraints left/top, fill #FFFFFF, text [Inter Medium, 12px]
+  - RECTANGLE "image 135", 30x30px, constraints left/top, fill image(hash: c696b0480b4c20e17d15f8b1d837ef4f6a873ed1)
+  - RECTANGLE "image 134", 28x28px, constraints left/top, fill image(hash: d2f0e2f3f1503ea65f491a149ce430663da2a8f2)
+  - TEXT "Coimbatore", 114x24px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 20px]
+  - RECTANGLE "Rectangle 23", 218x38px, constraints left/top, radius 20px, fill #FAECEC
+  - RECTANGLE "Rectangle 25", 271x38px, constraints left/top, radius 20px, fill #EFE3E3
+  - TEXT "5-day forecast", 114x19px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 16px]
+  - TEXT "Turn on location services", 171x17px, constraints left/top, fill #000000, text [Inter SemiBold, 14px]
+  - TEXT "27", 155x155px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 128px], [heading]
+  - TEXT "o", 21x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 24px], [heading]
+  - TEXT "o", 21x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - TEXT "o", 21x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - TEXT "o", 21x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 12px]
+  - TEXT "28", 25x24px, constraints left/top, fill #FFFFFF, text [Inter Medium, 20px]
+  - TEXT "o", 21x12px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 13px]
+  - TEXT "c", 21x44px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 36px], [heading]
+  - TEXT "Cloudy", 69x24px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 20px]
+  - RECTANGLE "Rectangle 24", 73x23px, constraints left/top, radius 20px, fill #F4EDED
+  - TEXT "AQI 3", 53x24px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 20px]
+  - ... +52 more children
+
+Screen: Page 1 / Key board
+- FRAME "Key board", 360x244px, constraints left/top
+  - COMPONENT "Android keyboard", 360x244px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Android keyboard", 360x244px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Page 1", 360x244px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Keyboard", 360x244px, constraints scale/scale, radius 0/0/0/0px
+          - VECTOR "Rectangle 3", 360x244px, constraints scale/scale, fill #E9EAEE
+          - GROUP "Group 19", 352x40px, constraints scale/scale, radius 0/0/0/0px
+            - GROUP "Group 9", 50x40px, constraints scale/scale, radius 0/0/0/0px
+            - GROUP "Group 11", 50x40px, constraints scale/scale
+            - GROUP "Group 18", 240x40px, constraints scale/scale
+          - GROUP "Group 17", 316x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 10", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 11", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 12", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 13", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 14", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 15", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 16", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 17", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 18", 30x40px, constraints scale/scale
+          - GROUP "Group 16", 352x40px, constraints scale/scale
+            - GROUP "Group 8", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 2", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 3", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 4", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 5", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 6", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 7", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 8", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 9", 30x40px, constraints scale/scale
+          - GROUP "Group 26", 352x38px, constraints scale/scale
+            - GROUP "Group 7", 30x38px, constraints scale/scale
+            - GROUP "Group 7 Copy", 30x38px, constraints scale/scale
+            - GROUP "Group 22", 30x38px, constraints scale/scale
+            - GROUP "Group 7 Copy 3", 30x38px, constraints scale/scale
+            - GROUP "Group 23", 30x38px, constraints scale/scale
+            - GROUP "Group 25", 30x38px, constraints scale/scale
+            - GROUP "Group 21", 30x38px, constraints scale/scale
+            - GROUP "Group 7 Copy 7", 30x38px, constraints scale/scale
+            - GROUP "Group 24", 30x38px, constraints scale/scale
+            - GROUP "Group 7 Copy 9", 30x38px, constraints scale/scale
+          - GROUP "Group 20", 299x44px, constraints scale/scale
+            - GROUP "Group 10", 50x44px, constraints scale/scale
+            - GROUP "Group 8 Copy 26", 30x44px, constraints scale/scale
+            - GROUP "Group 8 Copy 27", 30x44px, constraints scale/scale
+            - GROUP "Group 15", 177x44px, constraints scale/scale
+      - INSTANCE "Action button", 49x44px, constraints scale/scale
+        - GROUP "Rectangle", 49x44px, constraints scale/scale [decorative, ~4 shapes]
+
+Screen: Page 1 / linkedin search
+- FRAME "linkedin search", 360x800px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 13", 315x49px, constraints left/top, radius 30px, fill #D9D9D9
+  - RECTANGLE "image 117", 25x25px, constraints left/top, fill image(hash: b0211ba146cd49d5b4691ad9b9aaa04ec7493380)
+  - RECTANGLE "image 123", 25.27x25.27px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+
+Screen: Page 1 / Key board
+- FRAME "Key board", 360x244px, constraints left/top
+  - INSTANCE "Android keyboard", 360x244px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Android keyboard", 360x244px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Page 1", 360x244px, constraints scale/scale, radius 0/0/0/0px
+        - GROUP "Keyboard", 360x244px, constraints scale/scale, radius 0/0/0/0px
+          - VECTOR "Rectangle 3", 360x244px, constraints scale/scale, fill #E9EAEE
+          - GROUP "Group 19", 352x40px, constraints scale/scale, radius 0/0/0/0px
+            - GROUP "Group 9", 50x40px, constraints scale/scale, radius 0/0/0/0px
+            - GROUP "Group 11", 50x40px, constraints scale/scale
+            - GROUP "Group 18", 240x40px, constraints scale/scale
+          - GROUP "Group 17", 316x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 10", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 11", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 12", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 13", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 14", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 15", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 16", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 17", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 18", 30x40px, constraints scale/scale
+          - GROUP "Group 16", 352x40px, constraints scale/scale
+            - GROUP "Group 8", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 2", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 3", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 4", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 5", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 6", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 7", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 8", 30x40px, constraints scale/scale
+            - GROUP "Group 8 Copy 9", 30x40px, constraints scale/scale
+          - GROUP "Group 26", 352x38px, constraints scale/scale
+            - GROUP "Group 7", 30x38px, constraints scale/scale
+            - GROUP "Group 7 Copy", 30x38px, constraints scale/scale
+            - GROUP "Group 22", 30x38px, constraints scale/scale
+            - GROUP "Group 7 Copy 3", 30x38px, constraints scale/scale
+            - GROUP "Group 23", 30x38px, constraints scale/scale
+            - GROUP "Group 25", 30x38px, constraints scale/scale
+            - GROUP "Group 21", 30x38px, constraints scale/scale
+            - GROUP "Group 7 Copy 7", 30x38px, constraints scale/scale
+            - GROUP "Group 24", 30x38px, constraints scale/scale
+            - GROUP "Group 7 Copy 9", 30x38px, constraints scale/scale
+          - GROUP "Group 20", 299x44px, constraints scale/scale
+            - GROUP "Group 10", 50x44px, constraints scale/scale
+            - GROUP "Group 8 Copy 26", 30x44px, constraints scale/scale
+            - GROUP "Group 8 Copy 27", 30x44px, constraints scale/scale
+            - GROUP "Group 15", 177x44px, constraints scale/scale
+      - INSTANCE "Action button", 49x44px, constraints scale/scale
+        - GROUP "Rectangle", 49x44px, constraints scale/scale [decorative, ~4 shapes]
+
+Screen: Page 1 / LinkedIn Home
+- FRAME "LinkedIn Home", 360x893px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 21", 32x32px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - RECTANGLE "Rectangle 28", 239x34px, constraints left/top, radius 5px, fill #FFF8F8
+  - TEXT "Search", 49x18px, constraints left/top, fill #000000, text [Inter ExtraLight, 15px]
+  - RECTANGLE "image 124", 25x25px, constraints left/top, fill image(hash: b0211ba146cd49d5b4691ad9b9aaa04ec7493380)
+  - RECTANGLE "image 150", 25x25px, constraints left/top, fill image(hash: f77cfcb33c07af04e3231a1a567657c35834a05f)
+  - RECTANGLE "Rectangle 29", 333x331px, constraints left/top, radius 10px, fill #FFFAFA
+  - RECTANGLE "image 147", 40x40px, constraints left/top, fill image(hash: 2dc251b51645b529ceb3a060bb19e3d7d4656cc6)
+  - TEXT "Sree Ram UI/UX Designer Fresher... 1 mon..", 225x40px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - RECTANGLE "image 148", 10x10px, constraints left/top, fill image(hash: e91144688d3b6862993b0eced46091ee3a8aacc6)
+  - RECTANGLE "image 145", 25x25px, constraints left/top, fill image(hash: d2f0e2f3f1503ea65f491a149ce430663da2a8f2)
+  - LINE "Line 19", 332x0px, constraints left/top, stroke #FAEAEA 1px
+  - TEXT "POST...", 143x48px, constraints left/top, fill #000000, text [Inter SemiBold, 40px], [heading]
+  - RECTANGLE "image 149", 20x20px, constraints left/top, fill image(hash: c514603f8bc37fc5cd53382f435b5435447e979d)
+  - RECTANGLE "image 151", 20x20px, constraints left/top, fill image(hash: f77cfcb33c07af04e3231a1a567657c35834a05f)
+  - RECTANGLE "image 152", 20x20px, constraints left/top, fill image(hash: 0748ee290b098fd44cbe4db0311bb2169f2667e6)
+  - RECTANGLE "image 153", 20x20px, constraints left/top, fill image(hash: 636c11cdd1562246a1817c100a5e9223d270fd88)
+  - RECTANGLE "image 154", 20x20px, constraints left/top, fill image(hash: 0748ee290b098fd44cbe4db0311bb2169f2667e6)
+  - TEXT "Like", 20x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Send", 25x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Share", 29x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Comment", 48x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - RECTANGLE "Rectangle 30", 333x331px, constraints left/top, radius 10px, fill #FFFAFA
+  - RECTANGLE "image 155", 40x40px, constraints left/top, fill image(hash: 52cd7a30163b3f45477f0c8acf312024f5b2c4dd)
+  - TEXT "Shalini Frontend Developer Fresher... 1 mon..", 225x40px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - RECTANGLE "image 156", 10x10px, constraints left/top, fill image(hash: e91144688d3b6862993b0eced46091ee3a8aacc6)
+  - ... +28 more children
+
+Screen: Page 1 / LinkedIn personal
+- FRAME "LinkedIn personal", 360x1482px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 28", 272x34px, constraints left/top, radius 5px, fill #FFF8F8
+  - TEXT "Search", 49x18px, constraints left/top, fill #000000, text [Inter ExtraLight, 15px]
+  - RECTANGLE "image 124", 25x25px, constraints left/top, fill image(hash: b0211ba146cd49d5b4691ad9b9aaa04ec7493380)
+  - LINE "Line 22", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "Rectangle 21", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 8", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 19", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 20", 15x15px, constraints left/top, fill #493C3C
+  - RECTANGLE "image 216", 20.22x20.22px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - RECTANGLE "image 221", 15.08x15.08px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - RECTANGLE "image 228", 15.08x15.08px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - ELLIPSE "Ellipse 29", 85x84.01px, constraints left/top, fill #BAEFCF
+  - RECTANGLE "image 168", 80x80px, constraints left/top, fill image(hash: 2dc251b51645b529ceb3a060bb19e3d7d4656cc6)
+  - RECTANGLE "image 217", 15x15px, constraints left/top, fill image(hash: 2dc251b51645b529ceb3a060bb19e3d7d4656cc6)
+  - RECTANGLE "image 218", 15x15px, constraints left/top, fill image(hash: 2dc251b51645b529ceb3a060bb19e3d7d4656cc6)
+  - TEXT "Sree ram UI/UX Designer,Fresher Open to work India 100 conne", 330x166px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+  - RECTANGLE "Rectangle 48", 291x24px, constraints left/top, radius 20px, fill #75CE6D
+  - TEXT "Message", 52x15px, constraints left/top, fill #FFFFFF, text [Inter Medium, 12px]
+  - ELLIPSE "Ellipse 30", 28x28px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "image 168", 25.02x25.02px, constraints left/top, fill image(hash: d2f0e2f3f1503ea65f491a149ce430663da2a8f2)
+  - LINE "Line 16", 358x0px, constraints left/top, stroke #0000005C 1px
+  - LINE "Line 23", 358x0px, constraints left/top, stroke #0000005C 1px
+  - LINE "Line 24", 358x0px, constraints left/top, stroke #0000005C 1px
+  - LINE "Line 27", 358x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 26", 358x0px, constraints left/top, stroke #0000005C 1px
+  - ... +31 more children
+
+Screen: Page 1 / LinkedIn my network
+- FRAME "LinkedIn my network", 360x893px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 21", 32x32px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - RECTANGLE "Rectangle 28", 239x34px, constraints left/top, radius 5px, fill #FFF8F8
+  - RECTANGLE "image 124", 25x25px, constraints left/top, fill image(hash: b0211ba146cd49d5b4691ad9b9aaa04ec7493380)
+  - RECTANGLE "image 150", 25x25px, constraints left/top, fill image(hash: f77cfcb33c07af04e3231a1a567657c35834a05f)
+  - LINE "Line 21", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 23", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 25", 360x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 24", 366x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 22", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - TEXT "Home", 29x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Jobs", 24x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Notifications", 62x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Post", 22x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "My Network", 59x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - RECTANGLE "image 163", 25x25px, constraints left/top, fill image(hash: 614c6ed287f533fc2a93775588705d303d8ec649)
+  - RECTANGLE "image 164", 25x25px, constraints left/top, fill image(hash: ee5535bf790a4351520e082fa6246a6042c4a807)
+  - RECTANGLE "image 167", 25x25px, constraints left/top, fill image(hash: e1c2aaba40bef30cbec9f7c66b4e985ff16ce835)
+  - RECTANGLE "image 166", 25x25px, constraints left/top, fill image(hash: e42ab2711f55b8ce3c7591225d2f30040f972ec8)
+  - RECTANGLE "image 165", 25x25px, constraints left/top, fill image(hash: 7397f282a774ff573fe27d27c9b4bac903f22853)
+  - RECTANGLE "Rectangle 21", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 8", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 19", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 20", 15x15px, constraints left/top, fill #493C3C
+  - TEXT "Manage my network", 118x15px, constraints left/top, fill #445CDA, text [Inter SemiBold, 12px]
+  - TEXT "Invitations", 61x15px, constraints left/top, fill #445CDA, text [Inter SemiBold, 12px]
+  - ... +42 more children
+
+Screen: Page 1 / LinkedIn notify
+- FRAME "LinkedIn notify", 360x893px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 21", 32x32px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - RECTANGLE "Rectangle 28", 239x34px, constraints left/top, radius 5px, fill #FFF8F8
+  - RECTANGLE "image 124", 25x25px, constraints left/top, fill image(hash: b0211ba146cd49d5b4691ad9b9aaa04ec7493380)
+  - RECTANGLE "image 150", 25x25px, constraints left/top, fill image(hash: f77cfcb33c07af04e3231a1a567657c35834a05f)
+  - LINE "Line 21", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 22", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - TEXT "Home", 29x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Jobs", 24x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Notifications", 62x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Post", 22x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "My Network", 59x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - RECTANGLE "image 163", 25x25px, constraints left/top, fill image(hash: 614c6ed287f533fc2a93775588705d303d8ec649)
+  - RECTANGLE "image 164", 25x25px, constraints left/top, fill image(hash: ee5535bf790a4351520e082fa6246a6042c4a807)
+  - RECTANGLE "image 167", 25x25px, constraints left/top, fill image(hash: e1c2aaba40bef30cbec9f7c66b4e985ff16ce835)
+  - RECTANGLE "image 166", 25x25px, constraints left/top, fill image(hash: e42ab2711f55b8ce3c7591225d2f30040f972ec8)
+  - RECTANGLE "image 165", 25x25px, constraints left/top, fill image(hash: 7397f282a774ff573fe27d27c9b4bac903f22853)
+  - RECTANGLE "Rectangle 21", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 8", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 19", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 20", 15x15px, constraints left/top, fill #493C3C
+  - TEXT "Search", 49x18px, constraints left/top, fill #000000, text [Inter ExtraLight, 15px]
+  - LINE "Line 26", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 27", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 28", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 29", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - ... +26 more children
+
+Screen: Page 1 / LinkedIn job
+- FRAME "LinkedIn job", 360x893px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 21", 32x32px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - ELLIPSE "Ellipse 22", 15x15px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - RECTANGLE "Rectangle 28", 219x34px, constraints left/top, radius 5px, fill #FFF8F8
+  - RECTANGLE "image 124", 25x25px, constraints left/top, fill image(hash: b0211ba146cd49d5b4691ad9b9aaa04ec7493380)
+  - RECTANGLE "image 150", 25x25px, constraints left/top, fill image(hash: f77cfcb33c07af04e3231a1a567657c35834a05f)
+  - LINE "Line 21", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 22", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - TEXT "Home", 29x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Jobs", 24x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Notifications", 62x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "Post", 22x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - TEXT "My Network", 59x12px, constraints left/top, fill #000000, text [Inter SemiBold, 10px]
+  - RECTANGLE "image 163", 25x25px, constraints left/top, fill image(hash: 614c6ed287f533fc2a93775588705d303d8ec649)
+  - RECTANGLE "image 164", 25x25px, constraints left/top, fill image(hash: ee5535bf790a4351520e082fa6246a6042c4a807)
+  - RECTANGLE "image 167", 25x25px, constraints left/top, fill image(hash: e1c2aaba40bef30cbec9f7c66b4e985ff16ce835)
+  - RECTANGLE "image 166", 25x25px, constraints left/top, fill image(hash: e42ab2711f55b8ce3c7591225d2f30040f972ec8)
+  - RECTANGLE "image 165", 25x25px, constraints left/top, fill image(hash: 7397f282a774ff573fe27d27c9b4bac903f22853)
+  - RECTANGLE "Rectangle 21", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 8", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 19", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 20", 15x15px, constraints left/top, fill #493C3C
+  - TEXT "Search", 49x18px, constraints left/top, fill #000000, text [Inter ExtraLight, 15px]
+  - RECTANGLE "image 200", 25x25px, constraints left/top, fill image(hash: d2f0e2f3f1503ea65f491a149ce430663da2a8f2)
+  - RECTANGLE "image 201", 20x20px, constraints left/top, fill image(hash: 17b4c5fc343d5c0bf7c675fedee4a3c4455b8e55)
+  - RECTANGLE "image 204", 20x20px, constraints left/top, fill image(hash: 17b4c5fc343d5c0bf7c675fedee4a3c4455b8e55)
+  - ... +46 more children
+
+Screen: Page 1 / LinkedIn post
+- FRAME "LinkedIn post", 360x848px, constraints left/top, fill #FFFFFF
+  - LINE "Line 26", 360x0px, constraints left/top, stroke #FAEAEA 1px, effect [drop_shadow 4px offset 0 4 #00000080]
+  - TEXT "Share post", 106x24px, constraints left/top, fill #000000, text [Inter Bold, 20px]
+  - RECTANGLE "image 178", 20x20px, constraints left/top, fill image(hash: 0e5913bb8ce4bb79d33630d25da7e8cde8caf58d)
+  - ELLIPSE "Ellipse 25", 40x40px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - TEXT "Sree ram R", 84x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - TEXT "Post", 35x19px, constraints left/top, fill #C7BCBC, text [Inter SemiBold, 16px]
+  - RECTANGLE "Rectangle 44", 115x22px, constraints left/top, radius 20px, fill #F8E9D6
+  - TEXT "Anyone", 62x12px, constraints left/top, fill #445CDA, text [Inter Medium, 10px]
+  - RECTANGLE "image 168", 12x12px, constraints left/top, fill image(hash: e91144688d3b6862993b0eced46091ee3a8aacc6)
+  - TEXT "What do you want to talk about?", 155x12px, constraints left/top, fill #000000, text [Inter Medium, 10px]
+  - RECTANGLE "image 178", 12.21x12.21px, constraints left/top, fill image(hash: df10ce4933f3f0559851485a4995c1448bd74f0c)
+  - RECTANGLE "Rectangle 45", 361x536px, constraints left/top, radius 10px, fill #D9D9D9
+  - TEXT "Create a poll", 98x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - TEXT "Create a event", 113x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - TEXT "Find an expert", 111x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - TEXT "Share that you’r hiring", 171x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - TEXT "Add a document", 128x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - TEXT "Celebrate an occasion", 173x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - RECTANGLE "Rectangle 46", 58x10px, constraints left/top, radius 20px, fill #120101
+  - RECTANGLE "image 179", 30x30px, constraints left/top, fill image(hash: 3ae63c21666225aff04cdcce966f6ddacdaa9f2b)
+  - RECTANGLE "image 180", 30x30px, constraints left/top, fill image(hash: cf974b4f3dbd808578a93fba8b31b6522b265360)
+  - RECTANGLE "image 181", 30x30px, constraints left/top, fill image(hash: f4671522dbabf66f54f1f4743a4aa1d6c56f999a)
+  - RECTANGLE "image 182", 30x30px, constraints left/top, fill image(hash: 4bdee0e6f636ce2adefbe515f30278e29a0594e2)
+  - RECTANGLE "image 167", 30x30px, constraints left/top, fill image(hash: e1c2aaba40bef30cbec9f7c66b4e985ff16ce835)
+  - RECTANGLE "image 184", 30x30px, constraints left/top, fill image(hash: 485a6bd5e3136d8e0482b2f12416794876602448)
+  - ... +8 more children
+
+Screen: Page 1 / linkedin manage
+- FRAME "linkedin manage", 360x800px, constraints left/top, fill #FFFFFF
+  - LINE "Line 40", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 41", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 42", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 43", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 44", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 124", 20.22x20.22px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "Manage my network", 157x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - ELLIPSE "Ellipse 26", 20x20px, constraints left/top, fill image(hash: 960add96e5f2c50f5c4a90ebdf43ddaa4b0cca41)
+  - ELLIPSE "Ellipse 28", 20x20px, constraints left/top, fill image(hash: 1f4a45b6090123c59086e39d0a2da636b442ecc3)
+  - ELLIPSE "Ellipse 27", 20x20px, constraints left/top, fill image(hash: 8899953f7c9e0cc281fa11aea276431420df2660)
+  - RECTANGLE "image 215", 20x20px, constraints left/top, fill image(hash: c12902543e51850696d0e6be87425c91ec37eed4)
+  - TEXT "Connections", 72x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "Events", 39x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "Companies", 64x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "People I follow", 83x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "1000", 29x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "30", 16x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "0", 8x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "200", 23x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - LINE "Line 40", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "Rectangle 29", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 9", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 26", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 27", 15x15px, constraints left/top, fill #493C3C
+
+Screen: Page 1 / linkedin manage connection
+- FRAME "linkedin manage connection", 360x800px, constraints left/top, fill #FFFFFF
+  - LINE "Line 40", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 41", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 124", 20.22x20.22px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "Connections", 99x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - LINE "Line 40", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "Rectangle 29", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 9", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 26", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 27", 15x15px, constraints left/top, fill #493C3C
+  - TEXT "1000 connections", 103x15px, constraints left/top, fill #ADA2A2, text [Inter Medium, 12px]
+  - RECTANGLE "image 200", 22x22px, constraints left/top, fill image(hash: b0211ba146cd49d5b4691ad9b9aaa04ec7493380)
+  - RECTANGLE "image 229", 22x22px, constraints left/top, fill image(hash: fb35e833dc1515f12f5746ae4b952406c5b64ec9)
+  - LINE "Line 49", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 50", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 51", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 52", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 53", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 54", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - ELLIPSE "Ellipse 32", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - ELLIPSE "Ellipse 33", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - ELLIPSE "Ellipse 34", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - ELLIPSE "Ellipse 35", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - ELLIPSE "Ellipse 36", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - RECTANGLE "image 180", 53x50px, constraints left/top, fill image(hash: 52cd7a30163b3f45477f0c8acf312024f5b2c4dd)
+  - RECTANGLE "image 181", 53x50px, constraints left/top, fill image(hash: 52cd7a30163b3f45477f0c8acf312024f5b2c4dd)
+  - ... +28 more children
+
+Screen: Page 1 / linkedin Follow
+- FRAME "linkedin Follow", 360x800px, constraints left/top, fill #FFFFFF
+  - LINE "Line 40", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 41", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 124", 20.22x20.22px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "People I Follow", 116x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - LINE "Line 40", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "Rectangle 29", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 9", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 26", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 27", 15x15px, constraints left/top, fill #493C3C
+  - TEXT "200 People", 66x15px, constraints left/top, fill #ADA2A2, text [Inter Medium, 12px]
+  - ELLIPSE "Ellipse 32", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - ELLIPSE "Ellipse 33", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - ELLIPSE "Ellipse 34", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - ELLIPSE "Ellipse 35", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - ELLIPSE "Ellipse 36", 53x50px, constraints left/top, fill image(hash: f1c61d75d98a32430e26a58886a3ed296bc4f5c9)
+  - RECTANGLE "image 180", 53x50px, constraints left/top, fill image(hash: 52cd7a30163b3f45477f0c8acf312024f5b2c4dd)
+  - RECTANGLE "image 181", 53x50px, constraints left/top, fill image(hash: 52cd7a30163b3f45477f0c8acf312024f5b2c4dd)
+  - TEXT "Subham Das software Engineer at google / Ex-SED Amazon", 196x40px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "Rudhra Devi Working at Amazon", 101x43px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "pooja Senior software engineer at Google", 147x56px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "Vignesh L SED at Amazon", 80x43px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "Giri Prasad Technical Recruiter at google", 152x41px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "Sunith Kumar Technical Recruiter at google", 152x43px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "Nikhil Sharma Technical Recruiter at Amazon", 158x41px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "1 post this week", 76x12px, constraints left/top, fill #000000, text [Inter Light, 10px]
+  - ... +7 more children
+
+Screen: Page 1 / linkedin Companies
+- FRAME "linkedin Companies", 360x800px, constraints left/top, fill #FFFFFF
+  - LINE "Line 40", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 41", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 124", 20.22x20.22px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "Pages", 48x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - LINE "Line 40", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "Rectangle 29", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 9", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 26", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 27", 15x15px, constraints left/top, fill #493C3C
+  - RECTANGLE "image 243", 30x30px, constraints left/top, fill image(hash: 93e8b2bd0ae91c204b4f6a0276af4b9b9f6d4f00)
+  - TEXT "IBM 14,5552,448 followers 200 posts this week", 112x44px, constraints left/top, fill #000000, text [Inter Regular, 16px]
+  - TEXT "Unfollow", 67x19px, constraints left/top, fill #4248DD, text [Inter Regular, 16px]
+  - LINE "Line 48", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 250", 30x30px, constraints left/top, fill image(hash: 29cdca644d9444960f9f47f2c4705e21a45938e6)
+  - TEXT "Instragram 30,552,448 followers 300 posts this week", 107x44px, constraints left/top, fill #000000, text [Inter Regular, 16px]
+  - TEXT "Unfollow", 67x19px, constraints left/top, fill #4248DD, text [Inter Regular, 16px]
+  - LINE "Line 47", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 249", 30x30px, constraints left/top, fill image(hash: f80e5fc8398af951c9c7a216fe00ebfb44c8a185)
+  - TEXT "Amazon 25,511,448 followers 95 posts this week", 103x44px, constraints left/top, fill #000000, text [Inter Regular, 16px]
+  - TEXT "Unfollow", 67x19px, constraints left/top, fill #4248DD, text [Inter Regular, 16px]
+  - LINE "Line 46", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 248", 30x30px, constraints left/top, fill image(hash: 35aa691b670856072fb7f07cd38dc789bfceeaa8)
+  - TEXT "Netflix 4,200,448 followers 25 posts this week", 101x44px, constraints left/top, fill #000000, text [Inter Regular, 16px]
+  - TEXT "Unfollow", 67x19px, constraints left/top, fill #4248DD, text [Inter Regular, 16px]
+  - LINE "Line 45", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - ... +15 more children
+
+Screen: Page 1 / linkedin Events
+- FRAME "linkedin Events", 360x800px, constraints left/top, fill #FFFFFF
+  - LINE "Line 40", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 41", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 124", 20.22x20.22px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "Events", 53x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - LINE "Line 40", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "Rectangle 29", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 9", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 26", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 27", 15x15px, constraints left/top, fill #493C3C
+  - TEXT "0 event", 57x19px, constraints left/top, fill #C2B5B5, text [Inter Regular, 16px]
+  - TEXT "Create", 51x19px, constraints left/top, fill #1B6AE0, text [Inter Regular, 16px]
+
+Screen: Page 1 / linkedin invitation
+- FRAME "linkedin invitation", 360x800px, constraints left/top, fill #FFFFFF
+  - LINE "Line 40", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 41", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 42", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 124", 20.22x20.22px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "Invitations", 81x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - LINE "Line 40", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "Rectangle 29", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 9", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 26", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 27", 15x15px, constraints left/top, fill #493C3C
+  - TEXT "Received", 53x15px, constraints left/top, fill #287EBC, text [Inter Regular, 12px]
+  - TEXT "Send", 30x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - RECTANGLE "Rectangle 50", 45x18px, constraints left/top, radius 20px, fill #3B94D3
+  - TEXT "All (0)", 34x15px, constraints left/top, fill #FCF0F0, text [Inter Regular, 12px]
+  - RECTANGLE "image 126", 25x25px, constraints left/top, fill image(hash: e6a4e316989b2d32bf43be9e1d969fa825119dfb)
+
+Screen: Page 1 / linkedin invitation send
+- FRAME "linkedin invitation send", 360x800px, constraints left/top, fill #FFFFFF
+  - LINE "Line 40", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 41", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 42", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 43", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 44", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 45", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 46", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 47", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - LINE "Line 48", 354x0px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "image 124", 20.22x20.22px, constraints left/top, fill image(hash: 1b03e3ece0e4bf0529f0e5f7c33902aa11ea48cd)
+  - TEXT "Invitations", 81x19px, constraints left/top, fill #000000, text [Inter SemiBold, 16px]
+  - LINE "Line 40", 360x1px, constraints left/top, stroke #FAEAEA 1px
+  - RECTANGLE "Rectangle 29", 15x15px, constraints left/top, fill #493C3C
+  - REGULAR_POLYGON "Polygon 9", 16x16px, constraints left/top, fill #493C3C
+  - ELLIPSE "Ellipse 26", 17x17px, constraints left/top, fill #F8F4F4
+  - ELLIPSE "Ellipse 27", 15x15px, constraints left/top, fill #493C3C
+  - TEXT "Received", 53x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - TEXT "Send", 30x15px, constraints left/top, fill #5156CC, text [Inter Regular, 12px]
+  - RECTANGLE "Rectangle 50", 86x18px, constraints left/top, radius 20px, fill #3B94D3
+  - TEXT "People(100", 64x15px, constraints left/top, fill #FCF0F0, text [Inter Regular, 12px]
+  - RECTANGLE "Rectangle 51", 86x18px, constraints left/top, radius 20px, fill #F8F4F4
+  - TEXT "Pages(10)", 57x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - RECTANGLE "Rectangle 52", 86x18px, constraints left/top, radius 20px, fill #F8F4F4
+  - TEXT "Events(2)", 55x15px, constraints left/top, fill #000000, text [Inter Regular, 12px]
+  - RECTANGLE "image 126", 25x25px, constraints left/top, fill image(hash: e6a4e316989b2d32bf43be9e1d969fa825119dfb)
+  - ... +28 more children
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

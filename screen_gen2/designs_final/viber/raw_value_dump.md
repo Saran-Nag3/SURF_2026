@@ -1,0 +1,386 @@
+---
+name: viber-chat-ui-community
+source_file: Viber chat UI (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:28:08.862896+00:00
+---
+
+# Viber chat UI (Community) Design Guidelines
+
+## Source
+- Figma file: Viber chat UI (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:28:08.862896+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Light Text  /  Primary: [#000000]
+- Black / Black: [#000000]
+- Light Field/Light Header/Background: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 89 uses
+- #000000: 19 uses
+- #EFEFEF: 16 uses
+- #B4B4B4: 14 uses
+- #A7A7A7: 11 uses
+- #8275EB: 9 uses
+- #BA6FEC: 5 uses
+- #323232: 4 uses
+- #B1B1B1: 4 uses
+- #7060EA: 3 uses
+- #7B3BCD: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- TT Commons Regular, 12.92px: 10 uses
+- TT Commons Regular, 20px: 10 uses
+- TT Commons DemiBold, 15px: 8 uses
+- TT Commons DemiBold, 126px: 3 uses
+
+## Typography Hierarchy
+- 126px - TT Commons DemiBold, 126px (raw)
+- 20px - TT Commons Regular, 20px (raw)
+- 15px - TT Commons DemiBold, 15px (raw)
+- 12.92px - TT Commons Regular, 12.92px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Message
+- Like view
+- Date separator
+- Voice icon
+- Video call icon
+- Voice call icon
+- Back icon
+- Chat header
+- Message input
+- Spacing between messages
+
+## Component Specs
+- Message: size 373.73x254.34px, horizontal layout, padding 11.59 0 0 0px, gap 6.03px, sizing W:fixed H:fixed, text [TT Commons Regular, 13.6px, TT Commons Regular, 13.22px, TT Commons Regular, 20.87px, TT Commons DemiBold, 16.23px] | variants: Property 1: Defolt/Lite/Photo/Reply
+- Like view: size 25x25px, horizontal layout, padding 0 0 0 0px, gap 6.35px, align min/center, sizing W:fixed H:fixed, text [TT Commons Regular, 13.6px] | variants: Likes: Full/Zero/share
+- Date separator: size 370x39px, horizontal layout, padding 13 10 8 10px, gap 10px, align center/min, sizing W:fixed H:fixed, text [TT Commons Regular, 15px]
+- Voice icon: size 43x43px, effect [drop_shadow 8px offset 0 3 #6454E05E]
+- Video call icon: size 30x30px
+- Voice call icon: size 30x30px
+- Back icon: size 16x24px
+- Chat header: size 390x43px, fill #FFFFFF, text [TT Commons Regular, 14px, TT Commons DemiBold, 19px]
+- Message input: size 390x118px, fill #FFFFFF, stroke #00000026 1px, text [Inter Regular, 16px]
+- Spacing between messages: size 370x8px
+
+## Most-Used Styles
+- Light Text  /  Primary: 11 uses
+
+## Layout & Structure
+Screen: Page 1 / Thumbnail
+- FRAME "Thumbnail", 1920x960px, constraints left/top, fill gradient_radial(#9563EA 44% | #7C6CF6 100%)
+  - VECTOR "Vector", 547.37x502.55px, constraints left/top, fill #A775FC, effect [layer_blur 80px], opacity 40%
+  - VECTOR "Vector", 550.86x561.33px, constraints left/top, fill #A775FC, effect [layer_blur 80px], opacity 95%
+  - VECTOR "Vector", 509.48x581.46px, constraints left/top, fill #C79CFF, effect [layer_blur 80px], opacity 25%
+  - VECTOR "Vector", 822.83x836.57px, constraints left/top, fill #A876FD, effect [layer_blur 80px], opacity 50%
+  - FRAME "iPhone 14 Pro Space Black Mockup", 600.16x1216.39px, constraints left/top
+    - RECTANGLE "shadow", 600.16x1216.39px, constraints left/top, fill image(hash: d8653eceef686fc251c25adef38a58b11a96f880), opacity 70%
+    - RECTANGLE "main", 600.16x1216.39px, constraints left/top, fill image(hash: 639f61fd0b4e7a7f3ba8340e9a1a5d93ee8b2786)
+    - RECTANGLE "iPhone 14 Pro Space Black Mockup label", 540.68x1166.72px, constraints left/top, fill image(hash: e68ebf4a7dcf34e069d68cbd2469e99b514b6bb9)
+  - FRAME "Frame 21351", 907x442.06px, vertical pad 0 0 0 0px gap -12.19px sizing W:fixed H:fixed, constraints left/center
+    - FRAME "Frame 21353", 530x122px, horizontal pad 0 0 0 0px gap 18.28px align min/center sizing W:fixed H:fixed, constraints left/top [decorative, ~19 shapes]
+    - FRAME "Frame 21352", 907x332.25px, vertical pad 0 0 0 0px gap -48.75px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Viber UI", 617x234px, constraints left/top, fill #FFFFFF, text [Poppins Bold, 155.76px], [heading]
+      - TEXT "Group chat screen", 907x147px, constraints left/top, fill #FFFFFF, text [Poppins SemiBold, 98.07px], [heading]
+  - FRAME "Frame 21354", 208x84px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top [decorative, ~10 shapes]
+
+Screen: Page 1 / 
+- FRAME "", 392x540.46px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top
+  - FRAME "", 339.94x442.46px, vertical pad 0 0 0 0px gap 16.86px align center/center sizing W:fixed H:fixed, constraints left/top [decorative, ~11 shapes]
+  - TEXT "Chat screen", 392x98px, constraints left/top, fill #CDCFDA, text [TT Commons Regular, 82px], [heading]
+
+Screen: Page 1 / 
+- FRAME "", 390x844px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 21342", 390x571.96px, vertical pad 0 10 10 10px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Frame 21338", 370x39px, horizontal pad 13 10 8 10px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Today", 36x18px, constraints left/top, fill #B1B1B1, text [TT Commons Regular, 15px]
+    - INSTANCE "Message", 356x49px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 17", 30x30px, constraints left/top
+        - GROUP "Avatar Show/Hide", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 1", 30x30px, constraints left/top, fill image(hash: 90442031d78595ef7baca102352ac315d5f29c63), stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+      - FRAME "Frame 10", 321x49px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 8", 22x2px, constraints left/top
+        - FRAME "Frame 9", 321x47px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 6", 291x47px, horizontal pad 3 12 6 12px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top, radius 0/12/12/12px, fill #EFEFEF
+            - FRAME "Frame 2", 231x38px, vertical pad 0 0 0 0px gap -4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 5", 28x17.96px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 25x25px, constraints left/top
+    - INSTANCE "Message", 323x34px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 17", 30x30px, constraints left/top
+      - FRAME "Frame 10", 288x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 8", 22x2px, constraints left/top
+        - FRAME "Frame 9", 288x32px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 6", 258x32px, horizontal pad 4 12 4 12px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #EFEFEF
+            - FRAME "Frame 2", 198x24px, vertical pad 0 0 0 0px gap -4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 5", 28x17.96px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 25x25px, constraints left/top
+    - COMPONENT "Spacing between messages", 370x8px, constraints left/top
+    - INSTANCE "Message", 370x147.96px, horizontal pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 17", 30x30px, constraints left/top
+        - GROUP "Avatar Show/Hide", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 1", 30x30px, constraints left/top, fill image(hash: 765c4ecd86dd3c4e9ee1a89490042c6a4a8895fb), stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+      - FRAME "Frame 10", 271x179.96px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 8", 22x2px, constraints left/top
+        - FRAME "Frame 9", 271x177.96px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 21339", 241x177.96px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/12/12/12px
+            - FRAME "Frame 21338", 241x30px, vertical pad 6 10 0 10px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EFEFEF
+            - FRAME "Frame 21340", 241x70px, horizontal pad 8 0 14 9px gap 10px sizing W:fill H:fixed, constraints left/top, fill #D8D9DB
+            - FRAME "Frame 6", 241x77.96px, horizontal pad 6 12 6 12px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top, fill #EFEFEF
+          - FRAME "Frame 21346", 25x66px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Spacing between messages", 370x8px, constraints left/top
+    - INSTANCE "Message", 351x73px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 17", 30x30px, constraints left/top
+        - GROUP "Avatar Show/Hide", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 1", 30x30px, constraints left/top, fill image(hash: 1cf15bdca015d74e1d382727e0a3dfe553f858b0), stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+      - FRAME "Frame 10", 316x73px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 8", 22x2px, constraints left/top
+        - FRAME "Frame 9", 316x71px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 6", 286x71px, horizontal pad 3 12 6 12px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top, radius 0/12/12/12px, fill #EFEFEF
+            - FRAME "Frame 2", 226x62px, vertical pad 0 0 0 0px gap -4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 5", 28x17.96px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 25x25px, constraints left/top
+    - INSTANCE "Spacing between messages", 370x8px, constraints left/top
+    - INSTANCE "Message", 289x49px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 17", 30x30px, constraints left/top
+        - GROUP "Avatar Show/Hide", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 1", 30x30px, constraints left/top, fill image(hash: 90442031d78595ef7baca102352ac315d5f29c63), stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+      - FRAME "Frame 10", 254x49px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 8", 22x2px, constraints left/top
+        - FRAME "Frame 9", 254x47px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 6", 224x47px, horizontal pad 3 12 6 12px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top, radius 0/12/12/12px, fill #EFEFEF
+            - FRAME "Frame 2", 164x38px, vertical pad 0 0 0 0px gap -4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 5", 28x17.96px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 25x25px, constraints left/top
+    - INSTANCE "Spacing between messages", 370x8px, constraints left/top
+    - INSTANCE "Message", 328x73px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 17", 30x30px, constraints left/top
+        - GROUP "Avatar Show/Hide", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 1", 30x30px, constraints left/top, fill image(hash: 6e69d77a05085df9d96576a4befeecdef14e79a4), stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+      - FRAME "Frame 10", 293x73px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 8", 22x2px, constraints left/top
+        - FRAME "Frame 9", 293x71px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 6", 263x71px, horizontal pad 3 12 6 12px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top, radius 0/12/12/12px, fill #EFEFEF
+            - FRAME "Frame 2", 203x62px, vertical pad 0 0 0 0px gap -4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 5", 28x17.96px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 25x25px, constraints left/top
+    - INSTANCE "Spacing between messages", 370x8px, constraints left/top
+    - INSTANCE "Message", 370x49px, horizontal pad 0 0 0 0px gap 5px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 17", 30x30px, constraints left/top
+        - GROUP "Avatar Show/Hide", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 1", 30x30px, constraints left/top, fill image(hash: 765c4ecd86dd3c4e9ee1a89490042c6a4a8895fb), stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+      - FRAME "Frame 10", 335x49px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 8", 22x2px, constraints left/top
+        - FRAME "Frame 9", 335x47px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Frame 6", 96x47px, horizontal pad 3 12 6 12px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top, radius 0/12/12/12px, fill #EFEFEF
+            - FRAME "Frame 2", 37x38px, vertical pad 0 0 0 0px gap -4px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 5", 27x17.96px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 25x25px, constraints left/top
+  - INSTANCE "Status Bar", 390x48px, constraints center/top
+    - TEXT "↳ Time", 43x20px, constraints left/center, fill Light Text  /  Primary, text [SF Pro Text Semibold, 17px]
+    - FRAME "Right", 136x48px, constraints right/top_bottom, fill #FFFFFF [decorative, ~12 shapes]
+  - INSTANCE "Home Indicator", 389x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints center/bottom
+    - FRAME "Indicator", 389x34px, constraints left/top
+      - INSTANCE "Screen Corners / Bottom Corners", 389x18px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 131x5px, constraints center/bottom, radius 100px, fill Light Text  /  Primary, opacity 90%
+  - INSTANCE "Message input", 390x118px, constraints left/top, fill #FFFFFF, stroke #00000026 1px
+    - TEXT "Напишите сообщение...", 186x19px, constraints left/top, fill #C9C9C9, text [Inter Regular, 16px]
+    - INSTANCE "Voice icon", 43x43px, constraints left/top, effect [drop_shadow 8px offset 0 3 #6454E05E]
+      - ELLIPSE "Ellipse 4", 43x43px, constraints scale/scale, fill gradient_radial(#7E6DFF 32% | #3728AB 100%), stroke #B4B4B4 1.13px
+      - VECTOR "Vector 7", 15x22px, constraints scale/scale, radius 0.1px, stroke #FFFFFF 1px
+    - GROUP "Group 2", 43x43px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 8px offset 0 3 #6454E05E], opacity 70%
+      - ELLIPSE "Ellipse 4", 43x43px, constraints left/top, fill gradient_radial(#7E6DFF 32% | #3728AB 100%), stroke #B4B4B4 1.13px
+      - VECTOR "Vector 7", 15x22px, constraints left/top, radius 0.1px, stroke #FFFFFF 1px
+    - RECTANGLE "IMG_3442 1", 299x37px, constraints left/bottom, fill image(hash: 91fc97e1039223e5f8f9773741c4c48b8fa3383e)
+  - INSTANCE "Chat header", 390x43px, constraints center/top, fill #FFFFFF
+    - FRAME "Frame 21341", 104.5x23px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "Group chat", 91x23px, constraints left/top, fill #000000, text [TT Commons DemiBold, 19px]
+      - VECTOR "Vector 4", 3.5x6.5px, constraints left/top, stroke #000000 1px
+    - TEXT "Daniil, Maria, Nik, Ksenia, Eugene, Mat...", 222x17px, constraints left/top, fill #818181, text [TT Commons Regular, 14px]
+    - INSTANCE "Back icon", 16x24px, constraints left/top
+      - VECTOR "Vector 6", 9x16.5px, constraints left/top, radius 0.1px, stroke #7060EA 2px
+    - FRAME "Frame 21349", 66x43px, horizontal pad 5 0 8 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Voice call icon", 30x30px, constraints left/top
+        - VECTOR "Vector 9", 18.23x18.18px, constraints left/top, fill gradient_radial(#7E6DFF 32% | #3728AB 100%)
+      - INSTANCE "Video call icon", 30x30px, constraints left/top
+        - VECTOR "Vector 8", 26.5x18.5px, constraints left/top, radius 1px, fill gradient_radial(#7E6DFF 32% | #3728AB 100%)
+
+Screen: Page 1 / Message input
+- COMPONENT "Message input", 390x118px, constraints left/top, fill #FFFFFF, stroke #00000026 1px
+  - TEXT "Напишите сообщение...", 186x19px, constraints left/top, fill #C9C9C9, text [Inter Regular, 16px]
+  - INSTANCE "Voice icon", 43x43px, constraints left/top, effect [drop_shadow 8px offset 0 3 #6454E05E]
+    - ELLIPSE "Ellipse 4", 43x43px, constraints scale/scale, fill gradient_radial(#7E6DFF 32% | #3728AB 100%), stroke #B4B4B4 1.13px
+    - VECTOR "Vector 7", 15x22px, constraints scale/scale, radius 0.1px, stroke #FFFFFF 1px
+  - GROUP "Group 2", 43x43px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 8px offset 0 3 #6454E05E], opacity 70%
+    - ELLIPSE "Ellipse 4", 43x43px, constraints left/top, fill gradient_radial(#7E6DFF 32% | #3728AB 100%), stroke #B4B4B4 1.13px
+    - VECTOR "Vector 7", 15x22px, constraints left/top, radius 0.1px, stroke #FFFFFF 1px
+  - RECTANGLE "IMG_3442 1", 299x37px, constraints left/bottom, fill image(hash: 91fc97e1039223e5f8f9773741c4c48b8fa3383e)
+
+Screen: Page 1 / Chat header
+- COMPONENT "Chat header", 390x43px, constraints left/top, fill #FFFFFF
+  - FRAME "Frame 21341", 104.5x23px, horizontal pad 0 0 0 0px gap 10px align max/center sizing W:fixed H:fixed, constraints center/top
+    - TEXT "Group chat", 91x23px, constraints left/top, fill #000000, text [TT Commons DemiBold, 19px]
+    - VECTOR "Vector 4", 3.5x6.5px, constraints left/top, stroke #000000 1px
+  - TEXT "Daniil, Maria, Nik, Ksenia, Eugene, Mat...", 222x17px, constraints left/top, fill #818181, text [TT Commons Regular, 14px]
+  - INSTANCE "Back icon", 16x24px, constraints left/top
+    - VECTOR "Vector 6", 9x16.5px, constraints left/top, radius 0.1px, stroke #7060EA 2px
+  - FRAME "Frame 21349", 66x43px, horizontal pad 5 0 8 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Voice call icon", 30x30px, constraints left/top
+      - VECTOR "Vector 9", 18.23x18.18px, constraints left/top, fill gradient_radial(#7E6DFF 32% | #3728AB 100%)
+    - INSTANCE "Video call icon", 30x30px, constraints left/top
+      - VECTOR "Vector 8", 26.5x18.5px, constraints left/top, radius 1px, fill gradient_radial(#7E6DFF 32% | #3728AB 100%)
+
+Screen: Page 1 / icons
+- FRAME "icons", 188x43px, horizontal pad 0 0 0 0px gap 23px align min/center sizing W:fixed H:fixed, constraints left/top
+  - COMPONENT "Back icon", 16x24px, constraints left/top
+    - VECTOR "Vector 6", 9x16.5px, constraints left/top, radius 0.1px, stroke #7060EA 2px
+  - COMPONENT "Voice call icon", 30x30px, constraints left/top
+    - VECTOR "Vector 9", 18.23x18.18px, constraints left/top, fill gradient_radial(#7E6DFF 32% | #3728AB 100%)
+  - COMPONENT "Video call icon", 30x30px, constraints left/top
+    - VECTOR "Vector 8", 26.5x18.5px, constraints left/top, radius 1px, fill gradient_radial(#7E6DFF 32% | #3728AB 100%)
+  - COMPONENT "Voice icon", 43x43px, constraints left/top, effect [drop_shadow 8px offset 0 3 #6454E05E]
+    - ELLIPSE "Ellipse 4", 43x43px, constraints scale/scale, fill gradient_radial(#7E6DFF 32% | #3728AB 100%), stroke #B4B4B4 1.13px
+    - VECTOR "Vector 7", 15x22px, constraints scale/scale, radius 0.1px, stroke #FFFFFF 1px
+
+Screen: Page 1 / Date separator
+- COMPONENT "Date separator", 370x39px, horizontal pad 13 10 8 10px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top
+  - TEXT "Today", 36x18px, constraints left/top, fill #B1B1B1, text [TT Commons Regular, 15px]
+
+Screen: Page 1 / Like view
+- COMPONENT_SET "Like view", 158.05x65px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Likes=Zero", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 14", 25x25px, constraints left/top
+      - ELLIPSE "Ellipse 2", 24.7x24.7px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+      - VECTOR "Vector 1", 13x11px, constraints center/center, stroke #B4B4B4 1.13px
+  - COMPONENT "Likes=share", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 14", 25x25px, constraints left/top
+      - ELLIPSE "Ellipse 2", 24.7x24.7px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+      - VECTOR "Vector 5", 12.5x8.5px, constraints center/center, radius 0.1px, stroke #B4B4B4 1px
+  - COMPONENT "Likes=Full", 38.05x24.7px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 14", 24.7x24.7px, constraints left/top
+      - VECTOR "Vector 1", 13x11px, constraints center/center, fill gradient_radial(#7E6DFF 32% | #3728AB 100%), stroke #B4B4B4 1.13px
+    - TEXT "3", 7x16px, constraints left/top, fill #B1B1B1, text [TT Commons Regular, 13px]
+
+Screen: Page 1 / 
+- FRAME "", 600.16x1216.39px, constraints left/top
+  - RECTANGLE "shadow", 600.16x1216.39px, constraints left/top, fill image(hash: d8653eceef686fc251c25adef38a58b11a96f880), opacity 70%
+  - RECTANGLE "main", 600.16x1216.39px, constraints left/top, fill image(hash: 639f61fd0b4e7a7f3ba8340e9a1a5d93ee8b2786)
+  - RECTANGLE "iPhone 14 Pro Space Black Mockup label", 540.68x1166.72px, constraints left/top, fill image(hash: e68ebf4a7dcf34e069d68cbd2469e99b514b6bb9)
+
+Screen: Page 1 / Components
+- TEXT "Components", 666x151px, constraints left/top, fill #7B3BCD, text [TT Commons DemiBold, 126px], [heading]
+
+Screen: Page 1 / Chat UI
+- TEXT "Chat UI", 388x151px, constraints left/top, fill #7B3BCD, text [TT Commons DemiBold, 126px], [heading]
+
+Screen: Page 1 / Mockup
+- TEXT "Mockup", 417x151px, constraints left/top, fill #7B3BCD, text [TT Commons DemiBold, 126px], [heading]
+
+Screen: Page 1 / Message
+- COMPONENT_SET "Message", 962x366px, constraints left/top, radius 5px, fill #FFFFFF, stroke #9747FF 1px
+  - COMPONENT "Property 1=Photo", 373.73x254.34px, horizontal pad 11.59 0 0 0px gap 6.03px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 17", 29.68x29.68px, constraints left/top
+      - ELLIPSE "Ellipse 1", 29.68x29.68px, constraints left/top, fill #BA6FEC, stroke #FFFFFF 0.93px, effect [drop_shadow 6.49px offset 0 2.32 #292F3924]
+      - VECTOR "Ellipse 3", 11.59x16.81px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 10", 338.02x242.75px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 8", 23.19x2.09px, constraints left/top
+      - FRAME "Frame 9", 338.02x240.66px, horizontal pad 0 0 0 0px gap 7.19px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 6", 305.83x240.66px, vertical pad 2.55 1.16 0 1.16px gap 2.32px align max/min sizing W:fixed H:fixed, constraints left/top, radius 0/13.91/13.91/13.91px, fill #EFEFEF, stroke #EFEFEF 1.16px
+          - FRAME "Frame 2", 61.81x19px, vertical pad 0 12.29 0 12.52px gap -4.17px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Daniil", 37x19px, constraints left/top, fill #8275EB, text [TT Commons DemiBold, 16.23px]
+          - RECTANGLE "image 2", 303.51x216.79px, constraints left/top, fill image(hash: 9e2749011608187fae883d8750e500e87e62b633)
+        - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 25x25px, constraints left/top
+            - ELLIPSE "Ellipse 2", 24.7x24.7px, constraints left/top, fill #EFEFEF, stroke #EFEFEF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+            - VECTOR "Vector 1", 13x11px, constraints center/center, stroke #B4B4B4 1.13px
+  - COMPONENT "Property 1=Defolt", 356x49px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 17", 30x30px, constraints left/top
+      - GROUP "Avatar Show/Hide", 30x30px, constraints left/top
+        - ELLIPSE "Ellipse 1", 30x30px, constraints left/top, fill #BA6FEC, stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+        - VECTOR "Ellipse 3", 12x17px, constraints center/center, fill #FFFFFF
+    - FRAME "Frame 10", 321x49px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 8", 22x2px, constraints left/top
+      - FRAME "Frame 9", 321x47px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 6", 291x47px, horizontal pad 3 12 6 12px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top, radius 0/12/12/12px, fill #EFEFEF
+          - FRAME "Frame 2", 231x38px, vertical pad 0 0 0 0px gap -4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Daniil", 35x18px, constraints left/top, fill #8275EB, text [TT Commons DemiBold, 15px]
+            - TEXT "What are the plans for today?", 231x24px, constraints left/top, fill #000000, text [TT Commons Regular, 20px]
+          - FRAME "Frame 5", 28x17.96px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "10:05", 28x15px, constraints left/top, fill #A7A7A7, text [TT Commons Regular, 12.92px]
+            - FRAME "Frame 4", 25.52x2.96px, constraints left/top
+        - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 25x25px, constraints left/top
+            - ELLIPSE "Ellipse 2", 24.7x24.7px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+            - VECTOR "Vector 1", 13x11px, constraints center/center, stroke #B4B4B4 1.13px
+  - COMPONENT "Property 1=Lite", 323x34px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 17", 30x30px, constraints left/top
+    - FRAME "Frame 10", 288x34px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 8", 22x2px, constraints left/top
+      - FRAME "Frame 9", 288x32px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 6", 258x32px, horizontal pad 4 12 4 12px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #EFEFEF
+          - FRAME "Frame 2", 198x24px, vertical pad 0 0 0 0px gap -4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Suggest we go to the sea", 198x24px, constraints left/top, fill #000000, text [TT Commons Regular, 20px]
+          - FRAME "Frame 5", 28x17.96px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+            - TEXT "10:05", 28x15px, constraints left/top, fill #A7A7A7, text [TT Commons Regular, 12.92px]
+            - FRAME "Frame 4", 25.52x2.96px, constraints left/top
+        - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 14", 25x25px, constraints left/top
+            - ELLIPSE "Ellipse 2", 24.7x24.7px, constraints left/top, fill #FFFFFF, stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+            - VECTOR "Vector 1", 13x11px, constraints center/center, stroke #B4B4B4 1.13px
+  - COMPONENT "Property 1=Reply", 306x179.96px, horizontal pad 0 0 0 0px gap 5px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 17", 30x30px, constraints left/top
+      - GROUP "Avatar Show/Hide", 30x30px, constraints left/top
+        - ELLIPSE "Ellipse 1", 30x30px, constraints left/top, fill #BA6FEC, stroke #FFFFFF 0.91px, effect [drop_shadow 6.35px offset 0 2.27 #292F3924]
+        - VECTOR "Ellipse 3", 12x17px, constraints center/center, fill #FFFFFF
+    - FRAME "Frame 10", 271x179.96px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 8", 22x2px, constraints left/top
+      - FRAME "Frame 9", 271x177.96px, horizontal pad 0 0 0 0px gap 5px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 21339", 241x177.96px, vertical pad 0 0 0 0px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, radius 0/12/12/12px
+          - FRAME "Frame 21338", 241x30px, vertical pad 6 10 0 10px gap 10px sizing W:fill H:fixed, constraints left/top, fill #EFEFEF
+            - FRAME "Frame 2", 44x24px, vertical pad 0 0 6 0px gap -4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 21340", 241x70px, horizontal pad 8 0 14 9px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #D8D9DB
+            - FRAME "Frame 21339", 8x10px, constraints left/top
+            - FRAME "Frame 21338", 214x48px, vertical pad 0 15 0 0px gap -2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 6", 241x77.96px, horizontal pad 6 12 6 12px gap 8px align min/max sizing W:fill H:fixed, constraints left/top, fill #EFEFEF
+            - FRAME "Frame 5", 217x65.96px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 21346", 25x66px, vertical pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 25x25px, constraints left/top
+          - INSTANCE "Like view", 25x25px, horizontal pad 0 0 0 0px gap 6.35px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 14", 25x25px, constraints left/top
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,117 @@
+---
+name: valorant-ui-design-community
+source_file: VALORANT UI DESIGN (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:30:16.002948+00:00
+---
+
+# VALORANT UI DESIGN (Community) Design Guidelines
+
+## Source
+- Figma file: VALORANT UI DESIGN (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:30:16.002948+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 8 uses
+- #000000: 4 uses
+- #8B1818: 3 uses
+- #D9D9D940: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter SemiBold, 119.9px: 5 uses
+- Barlow ThinItalic, 16.4px: 3 uses
+
+## Typography Hierarchy
+- 119.9px - Inter SemiBold, 119.9px (raw)
+- 16.4px - Barlow ThinItalic, 16.4px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / MacBook Air - 1
+- FRAME "MacBook Air - 1", 1280x832px, constraints left/top, radius 50px, fill #0A0C1C
+  - FRAME "ion:reorder-three-outline", 512x512px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 320x160px, constraints scale/scale, stroke #000000 32px
+  - SLICE "Slice 1", 100x100px, constraints left/top
+  - FRAME "mingcute:search-line", 24x24px, constraints left/top, fill #FFFFFF
+    - GROUP "Group", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 24x24px, constraints scale/scale
+      - VECTOR "Vector", 19.11x19.11px, constraints scale/scale, fill #000000
+  - FRAME "ic:baseline-search", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.49x17.49px, constraints scale/scale, fill #000000
+  - RECTANGLE "Rectangle 2", 612x713px, constraints left/top, radius 45px, fill #FF4141
+  - GROUP "Group 1", 539x3295px, constraints left/top, radius 0/0/0/0px
+    - TEXT "VALORANT", 129x3289px, constraints left/top, fill #FFFFFF1A, text [Inter SemiBold, 119.9px], [heading]
+    - TEXT "VALORANT", 128x3289px, constraints left/top, fill #FFFFFF4D, text [Inter SemiBold, 119.9px], [heading]
+    - TEXT "VALORANT", 129x3290px, constraints left/top, fill #FFFFFF82, text [Inter SemiBold, 119.9px], [heading]
+    - TEXT "VALORANT", 128x3290px, constraints left/top, fill #FFFFFFB2, text [Inter SemiBold, 119.9px], [heading]
+    - TEXT "VALORANT", 129x3289px, constraints left/top, fill #FFFFFFB2, text [Inter SemiBold, 119.9px], [heading]
+  - GROUP "Group 2", 1530x1053px, constraints left/top
+    - ELLIPSE "Ellipse 2", 417x417px, constraints left/top, fill #8B1818, effect [layer_blur 500px]
+    - ELLIPSE "Ellipse 1", 417x417px, constraints left/top, fill #8B1818, effect [layer_blur 600px]
+    - ELLIPSE "Ellipse 1", 417x417px, constraints left/top, fill #8B1818, effect [layer_blur 600px]
+    - FRAME "iconoir:search", 43x42px, constraints left/top, fill #FFFFFF
+  - VECTOR "Vector", 32.25x31.5px, constraints scale/scale, stroke #FFFFFF 1.5px
+  - RECTANGLE "[CITYPNG 2", 1985x1985px, constraints left/top, fill image(hash: 493d47f273cd8ff25a8fbbb1811345d46cf1fc1c), effect [drop_shadow 92.63px offset 0 14.56 #0A0C1C80]
+  - RECTANGLE "Rectangle 1", 821x590px, constraints left/top, radius 45px, fill #1A1D3A40, effect [background_blur 400px]
+  - TEXT "Plot a cource between the game it will take the character wi", 170x92px, constraints left/top, fill #FFFFFFAB, text [Barlow ExtraLight, 18.99px]
+  - RECTANGLE "[CITYPNG 1", 1500x1500px, constraints left/top, fill image(hash: 493d47f273cd8ff25a8fbbb1811345d46cf1fc1c), effect [drop_shadow 70px offset 0 11 #0A0C1C80]
+  - TEXT "Theme :", 72x24px, constraints left/top, fill #FFFFFFD6, text [Barlow Bold, 19.81px]
+  - TEXT "DOWNLOAD NOW", 479x76px, constraints left/top, fill #FFFFFF, text [Barlow Bold, 63.28px], [heading]
+  - TEXT "Play with your friends", 260x35px, constraints left/top, fill #FFFFFF, text [Barlow Thin, 28.81px], [heading]
+  - RECTANGLE "Rectangle 3", 170x51px, constraints left/top, radius 30px, fill #F13C3C, effect [drop_shadow 29.2px offset 0 8 #FB3F3F7D]
+  - TEXT "PLAY NOW", 128x18.77px, constraints left/top, fill #FFFFFF, text [Barlow Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 4", 85x19.19px, constraints left/top, radius 45.7px, fill #D9D9D940
+  - RECTANGLE "Rectangle 5", 93x21px, constraints left/top, radius 50px, fill #D9D9D940
+  - RECTANGLE "Rectangle 6", 103x21px, constraints left/top, radius 50px, fill #D9D9D940
+  - TEXT "Action", 48x21.52px, constraints left/top, fill #FFFFFF, text [Barlow ThinItalic, 16.4px]
+  - TEXT "Online", 48x21.52px, constraints left/top, fill #FFFFFF, text [Barlow ThinItalic, 16.4px]
+  - TEXT "Multiplayer", 126x22px, constraints left/top, fill #FFFFFF, text [Barlow ThinItalic, 16.4px]
+  - VECTOR "Vector", 29.52x15px, constraints scale/scale, stroke #FFFFFF 2px
+
+Screen: Page 1 / Valorant is an online multiplayer computer game, produced by Riot Games. It is a first-person shooter game, consisting of two teams of five, where one team attacks and the other defends. Players control characters known as 'agents', who all have different abilities to use during gameplay.Valorant is an online multiplayer computer game, produced by Riot Games. It is a first-person shooter game, consisting of two teams of five, where one team attacks and the other defends. Players control characters known as 'agents', who all have different abilities to use during gameplay.
+- TEXT "Valorant is an online multiplayer computer game, produced by", 311x135px, constraints left/top, fill #FFFFFF7A, text [Be Vietnam ThinItalic, 10px]
+
+Screen: Page 1 / mingcute:search-line
+- FRAME "mingcute:search-line", 24x24px, constraints left/top, fill #FFFFFF
+  - GROUP "Group", 24x24px, constraints scale/scale
+    - VECTOR "Vector", 24x24px, constraints scale/scale
+    - VECTOR "Vector", 19.11x19.11px, constraints scale/scale, fill #000000
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,1626 @@
+---
+name: tableau-ui-kit-community
+source_file: Tableau UI Kit (Community)
+source_page: All pages (58): Getting Started, Examples, ---, Color, Typography, Spacing, Radius, Icons, ---, 🕹  Filters, 🕹  Parameters, 🕹  Other, 🕹  Shared, ---, 📊  Area (Layered), 📊  Area (Stacked), 📊  Bar, 📊  Bar (Lollipop), 📊  Bar (Grouped), 📊  Bar (Stacked), 📊  Barbell, 📊  Boxplot, 📊  Bullet, 📊  Combination, 📊  Diverging, 📊  Dot Strip, 📊  Gantt, 📊  Heatmap, 📊  Histogram, 📊  KPI, 📊  Line, 📊  Line (Forecast), 📊  Line (Stepped), 📊  Map (Bubble), 📊  Map (Choropleth), 📊  Pie, 📊  Pie (Donut), 📊  Scatter plot, 📊  Slope, 📊  Table, 📊  Treemap, 📊  Waterfall, 📊  Shared, ---, 🛠  Avatar, 🛠  Badge, 🛠  Button Group, 🛠  Button, 🛠  Chips, 🛠  Dashboard, 🛠  Headings, 🛠  Layout, 🛠  Sidebar, 🛠  Slideover, 🛠  Tabs, 🛠  Topbars, ---, File, Cover
+generated_at: 2026-07-25T09:13:28.531780+00:00
+---
+
+# Tableau UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Tableau UI Kit (Community)
+- Figma page: All pages (58): Getting Started, Examples, ---, Color, Typography, Spacing, Radius, Icons, ---, 🕹  Filters, 🕹  Parameters, 🕹  Other, 🕹  Shared, ---, 📊  Area (Layered), 📊  Area (Stacked), 📊  Bar, 📊  Bar (Lollipop), 📊  Bar (Grouped), 📊  Bar (Stacked), 📊  Barbell, 📊  Boxplot, 📊  Bullet, 📊  Combination, 📊  Diverging, 📊  Dot Strip, 📊  Gantt, 📊  Heatmap, 📊  Histogram, 📊  KPI, 📊  Line, 📊  Line (Forecast), 📊  Line (Stepped), 📊  Map (Bubble), 📊  Map (Choropleth), 📊  Pie, 📊  Pie (Donut), 📊  Scatter plot, 📊  Slope, 📊  Table, 📊  Treemap, 📊  Waterfall, 📊  Shared, ---, 🛠  Avatar, 🛠  Badge, 🛠  Button Group, 🛠  Button, 🛠  Chips, 🛠  Dashboard, 🛠  Headings, 🛠  Layout, 🛠  Sidebar, 🛠  Slideover, 🛠  Tabs, 🛠  Topbars, ---, File, Cover
+- Extracted at: 2026-07-25T09:13:28.531780+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- White: [#FFFFFF]
+- Primary/50: [#EFF6FF]
+- Neutral/500: [#6B7280]
+- Neutral/900: [#111827]
+- Primary/500: [#3B82F6]
+
+## Raw Colors (unstyled)
+- #0ACF83: 19 uses
+- #1ABCFE: 19 uses
+- #A259FF: 19 uses
+- #F24E1E: 19 uses
+- #FF7262: 19 uses
+
+## Typography Tokens
+- 📁  File/Paragraph/Body: Inter Regular (400), 18px / 32px, tracking 0px
+- 📁  File/Heading/H3: Inter Regular (400), 16px / auto, tracking 0px
+- 10/Medium: Inter Medium (500), 13px / 19px, tracking 0px
+- 📁  File/Heading/H1: Inter Bold (700), 36px / auto, tracking 0px
+- 📁  File/Heading/H2: Inter SemiBold (600), 24px / auto, tracking 0px
+- 8/Medium: Inter Medium (500), 11px / 17px, tracking 0px
+- 📁  File/Paragraph/Link: Inter Regular (400), 18px / 32px, tracking 0px
+- Tableau UI Kit Only/Paragraph/Regular: Inter Regular (400), 18px / 32px, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Regular, 32px: 102 uses
+- Inter SemiBold, 24px: 60 uses
+- Inter ExtraBold, 64px: 51 uses
+
+## Typography Hierarchy
+- 64px - Inter ExtraBold, 64px (raw)
+- 36px - 📁  File/Heading/H1 (Inter Bold)
+- 32px - Inter Regular, 32px (raw)
+- 24px - Inter SemiBold, 24px (raw)
+- 24px - 📁  File/Heading/H2 (Inter SemiBold)
+- 18px - Tableau UI Kit Only/Paragraph/Regular (Inter Regular)
+- 18px - 📁  File/Paragraph/Body (Inter Regular)
+- 18px - 📁  File/Paragraph/Link (Inter Regular)
+- 16px - 📁  File/Heading/H3 (Inter Regular)
+- 13px - 10/Medium (Inter Medium)
+- 11px - 8/Medium (Inter Medium)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- Neutral/500: 51 uses
+- Neutral/900: 51 uses
+- Primary/50: 51 uses
+- Primary/500: 51 uses
+- 📁  File/Paragraph/Body: 48 uses
+- 10/Medium: 30 uses
+- 📁  File/Heading/H2: 19 uses
+- 📁  File/Paragraph/Link: 19 uses
+- 📁  File/Heading/H1: 10 uses
+- 8/Medium: 4 uses
+- Tableau UI Kit Only/Paragraph/Regular: 1 use
+- White: 1 use
+
+## Layout & Structure
+Screen: Getting Started / Libraries
+- FRAME "Libraries", 848x1391px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 155x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 155x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x1087px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x288px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x458px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints left/top, fill #020617, text [Inter SemiBold, 24px], [heading]
+      - RECTANGLE "Image", 720x405px, constraints left/top, radius 8px, fill image(hash: de005821e30d0eed1dbe9b2462296bf0fd0ec1d7)
+    - FRAME "Additional Resources", 720x149px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Links", 720x96px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Link", 427x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 387x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 359x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 483x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 443x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 415x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Getting Started / New Versions
+- FRAME "New Versions", 848x1740px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 243x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 243x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x1436px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x128px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x437px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Heading", 720x29px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Badge", 64x21px, horizontal pad 2 10 2 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #DBEAFE, stroke #BFDBFE 1px
+          - TEXT "Text", 44x17px, constraints left/top, fill #1E40AF, text [8/Medium]
+        - TEXT "Text", 640x29px, constraints left/top, fill #020617, text [📁  File/Heading/H2], [heading]
+      - TEXT "Text", 720x384px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x149px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Heading", 720x29px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Badge", 65x21px, horizontal pad 2 10 2 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #DBEAFE, stroke #BFDBFE 1px
+          - TEXT "Text", 45x17px, constraints left/top, fill #1E40AF, text [8/Medium]
+        - TEXT "Text", 639x29px, constraints left/top, fill #020617, text [📁  File/Heading/H2], [heading]
+      - TEXT "Text", 720x96px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x317px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Heading", 720x29px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Badge", 66x21px, horizontal pad 2 10 2 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #DBEAFE, stroke #BFDBFE 1px
+          - TEXT "Text", 46x17px, constraints left/top, fill #1E40AF, text [8/Medium]
+        - TEXT "Text", 638x29px, constraints left/top, fill #020617, text [📁  File/Heading/H2], [heading]
+      - TEXT "Text", 720x264px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Additional Resources", 720x85px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Links", 720x32px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Link", 510x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 470x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 442x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Getting Started / Components
+- FRAME "Components", 848x1591px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 228x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 228x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x1287px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x488px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x458px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 148x29px, constraints left/top, fill #020617, text [Inter SemiBold, 24px], [heading]
+      - RECTANGLE "Image", 720x405px, constraints left/top, radius 8px, fill image(hash: 2231923a14ba75ace65b728993d463e77f650539)
+    - FRAME "Additional Resources", 720x149px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Links", 720x96px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Link", 468x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 428x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 400x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 380x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 340x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 312x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Getting Started / General Info
+- FRAME "General Info", 848x2405.92px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 214x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 214x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x2101.92px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x64px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x932.88px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Paragraph and Image", 720x879.88px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 720x504px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+        - FRAME "Image and Caption", 720x343.88px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Image", 720x299.88px, constraints left/top, radius 8px, fill image(hash: 97079020c3507610d2701fc853d4908172c69dc2)
+          - TEXT "Text", 720x32px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x700.04px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Paragraph and Image", 720x647.04px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 720x256px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+        - FRAME "Image and Caption", 720x359.04px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Image", 720x315.04px, constraints left/top, radius 8px, fill image(hash: 9a4f5f4c460236aa16a5ad6d042658b660622290)
+          - TEXT "Text", 720x32px, constraints left/top, fill #475569, text [Tableau UI Kit Only/Paragraph/Regular]
+    - FRAME "Additional Resources", 720x149px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Links", 720x96px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Link", 268x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "outline/newspaper", 24x24px, constraints left/top
+            - VECTOR "Vector", 19.5x18px, constraints scale/scale, fill #020617
+          - FRAME "Link and Arrow", 228x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 200x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 308x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "outline/newspaper", 24x24px, constraints left/top
+            - VECTOR "Vector", 19.5x18px, constraints scale/scale, fill #020617
+          - FRAME "Link and Arrow", 268x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 240x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Getting Started / Styles
+- FRAME "Styles", 848x1671px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 111x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 111x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x1367px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x376px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x458px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints left/top, fill #020617, text [Inter SemiBold, 24px], [heading]
+      - RECTANGLE "Image", 720x405px, constraints left/top, radius 8px, fill image(hash: d4f93ce12fa8caa9d34e20ed9d2429117521eb47)
+    - FRAME "Additional Resources", 720x341px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Links", 720x288px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Link", 335x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 295x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 267x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 600x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 560x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 532x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 492x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 452x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 424x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 419x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 379x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 351x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 583x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 543x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 515x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Getting Started / Variables
+- FRAME "Variables", 848x1991px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 166x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 166x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x1687px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x568px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x458px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints left/top, fill #020617, text [Inter SemiBold, 24px], [heading]
+      - RECTANGLE "1ONxxlJnvdM-HD 1", 720x405px, constraints left/top, fill image(hash: d1705bed21f3cd954c7ecc47b55a36b55e893564)
+    - FRAME "Additional Resources", 720x469px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Links", 720x416px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Link", 436x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 396x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 368x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 596x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 556x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 528x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 454x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 414x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 386x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 428x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 388x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 360x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 374x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 334x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 306x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 583x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 543x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 515x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+        - FRAME "Link", 246x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 206x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 178x32px, constraints left/top, fill #1D4ED8, text [📁  File/Paragraph/Link]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Getting Started / Component Properties
+- FRAME "Component Properties", 848x1591px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 401x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 401x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x1287px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x496px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x458px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints left/top, fill #020617, text [Inter SemiBold, 24px], [heading]
+      - RECTANGLE "Image", 720x405px, constraints left/top, radius 8px, fill image(hash: f9293c1c35996377a12f782b36d241bb0b6d72c3)
+    - FRAME "Additional Resources", 720x141px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Links", 720x32px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Link", 463x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 423x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 395x32px, constraints left/top, fill #1D4ED8, text [Inter Regular, 18px]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+      - FRAME "Links", 720x32px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Link", 360x32px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Figma", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~5 shapes]
+          - FRAME "Link and Arrow", 320x32px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Text", 292x32px, constraints left/top, fill #1D4ED8, text [Inter Regular, 18px]
+            - INSTANCE "mini/chevron-right", 24x24px, constraints center/scale
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Getting Started / Welcome
+- FRAME "Welcome", 848x1552px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 165x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 165x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x1248px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x96px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x149px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Paragraph and Image", 720x96px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 720x96px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x85px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - FRAME "Paragraph and Image", 720x32px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 720x32px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x662px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Heading", 720x29px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 219x29px, constraints left/top, fill #020617, text [📁  File/Heading/H2], [heading]
+        - INSTANCE "Badge", 88x21px, horizontal pad 2 10 2 10px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #DBEAFE, stroke #BFDBFE 1px
+          - TEXT "Text", 68x17px, constraints left/top, fill #1E40AF, text [8/Medium]
+      - FRAME "Paragraph and Image", 720x609px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 720x128px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+        - FRAME "Image and Caption", 720x449px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Youtube_thumbnail 1", 720x405px, constraints left/top, fill image(hash: 28bb3f41cdbfecb671025a49c515b8df2b44bc06)
+          - TEXT "Text", 720x32px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Getting Started / Changelog
+- FRAME "Changelog", 848x3388px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 192x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 192x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x3084px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x96px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x1125px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - TEXT "Text", 720x1072px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x981px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - TEXT "Text", 720x928px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x477px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - TEXT "Text", 720x424px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x85px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [📁  File/Heading/H2], [heading]
+      - TEXT "Text", 720x32px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Getting Started / Useful Plugins
+- FRAME "Useful Plugins", 848x2980px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+  - INSTANCE ".Page header", 848x140px, vertical pad 64 64 32 64px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Title and subtitle", 720x44px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Title and badges", 254x44px, horizontal pad 0 0 0 0px gap 16px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Text", 254x44px, constraints left/top, fill #020617, text [📁  File/Heading/H1], [heading]
+  - FRAME "Content", 848x2676px, vertical pad 32 64 32 64px gap 64px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+    - TEXT "Text", 720x128px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+    - FRAME "Section", 720x605px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [Inter SemiBold, 24px], [heading]
+      - FRAME "Paragraph and Image", 720x552px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 720x160px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+        - RECTANGLE "Image", 720x360px, constraints left/top, radius 8px, fill image(hash: e06458c8589abdabd700720159b377745f30b475)
+    - FRAME "Section", 720x509px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [Inter SemiBold, 24px], [heading]
+      - FRAME "Paragraph and Image", 720x456px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 720x64px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+        - RECTANGLE "Image", 720x360px, constraints left/top, radius 8px, fill image(hash: 9a2d521faa7a9fddc0db5aace75758971bec8207)
+    - FRAME "Section", 720x541px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [Inter SemiBold, 24px], [heading]
+      - FRAME "Paragraph and Image", 720x488px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 720x96px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+        - RECTANGLE "Image", 720x360px, constraints left/top, radius 8px, fill image(hash: eeb4fb0ea89f633ab661baa04b325d0179e9f818)
+    - FRAME "Section", 720x573px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Text", 720x29px, constraints scale/scale, fill #020617, text [Inter SemiBold, 24px], [heading]
+      - FRAME "Paragraph and Image", 720x520px, vertical pad 0 0 0 0px gap 32px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 720x128px, constraints left/top, fill #475569, text [📁  File/Paragraph/Body]
+        - RECTANGLE "Image", 720x360px, constraints left/top, radius 8px, fill image(hash: a8dc8453fa6bd1840383e73b2e52f4aca79e89aa)
+  - INSTANCE ".Page footer", 848x164px, vertical pad 32 64 32 64px gap 36px sizing W:fill H:fixed, constraints left/top, fill #F8FAFC
+    - FRAME "Logo and URL", 720x32px, vertical pad 0 0 0 0px gap 12px sizing W:fill H:fixed, constraints left/bottom
+      - TEXT "Text", 356x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+    - TEXT "Text", 720x32px, constraints left/top, fill #64748B, text [📁  File/Paragraph/Body]
+
+Screen: Examples / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: Color / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: Typography / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: Spacing, Radius / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: Icons / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🕹  Filters / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🕹  Parameters / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🕹  Other / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🕹  Shared / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Area (Layered) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Area (Stacked) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Bar / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Bar (Lollipop) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Bar (Grouped) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Bar (Stacked) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Barbell / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Boxplot / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Bullet / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Combination / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Diverging / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Dot Strip / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Gantt / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Heatmap / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Histogram / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  KPI / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Line / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Line (Forecast) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Line (Stepped) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Map (Bubble) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Map (Choropleth) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Pie / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Pie (Donut) / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Scatter plot / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Slope / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Table / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Treemap / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Waterfall / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 📊  Shared / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Avatar / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Badge / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Button Group / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Button / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Chips / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Dashboard / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Headings / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Layout / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Sidebar / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Slideover / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Tabs / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: 🛠  Topbars / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: File / 🔒 This content is locked
+- FRAME "🔒 This content is locked", 1609x756px, constraints left/top, fill Primary/50
+  - FRAME "Frame 7", 753x319px, vertical pad 0 0 0 0px gap 64px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Header", 753x319px, vertical pad 0 0 0 0px gap 32px align min/center sizing W:fill H:fixed, constraints center/top
+      - FRAME "Eyebrow and heading", 753x191px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Eyebrow", 753x29px, constraints left/top, fill Primary/500, text [Inter SemiBold, 24px], [heading]
+        - TEXT "Heading", 753x154px, constraints left/top, fill Neutral/900, text [Inter ExtraBold, 64px], [heading]
+      - TEXT "Supporting text", 753x96px, constraints left/top, fill Neutral/500, text [Inter Regular, 32px], [heading]
+  - RECTANGLE "Community_examples 1", 1113.55x838px, constraints left/top, fill image(hash: d1e59cf69c161255a9218a2fb77577fdcbcb347b)
+
+Screen: Cover / Cover
+- FRAME "Cover", 1920x960px, constraints left/top, fill White
+  - RECTANGLE "Cover 1", 1600x900px, constraints center/center, fill image(hash: b5c6b7470b58f9c8d402e32062203c348631adfc)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
+
+
+---
+
+---
+name: tableau-ui-kit-presentation-community
+source_file: Tableau UI Kit (Presentation) (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:13:32.102131+00:00
+---
+
+# Tableau UI Kit (Presentation) (Community) Design Guidelines
+
+## Source
+- Figma file: Tableau UI Kit (Presentation) (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:13:32.102131+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Palettes/Tailwind/Blue/1: [#DBEAFE]
+- White: [#FFFFFF]
+- Palettes/Tailwind/Gray/9: [#111827]
+- Palettes/Tailwind/Gray/4: [#FFFFFF]
+- Palettes/Tailwind/Gray/6: [#4B5563]
+- Palettes/Tailwind/Gray/5: [#FFFFFF]
+- Palettes/Tailwind/Gray/2: [#E5E7EB]
+- 🕹 Tableau User Interfaces/Legends/Border: [#FFFFFF]
+- 🕹 Tableau User Interfaces/Legends/Body: [#4B5563]
+- 🕹 Tableau User Interfaces/Legends/Color 10: [#BAB0AC]
+- 🕹 Tableau User Interfaces/Legends/Color 9: [#9C755F]
+- 🕹 Tableau User Interfaces/Legends/Color 8: [#FF9DA7]
+- 🕹 Tableau User Interfaces/Legends/Color 7: [#B07AA1]
+- 🕹 Tableau User Interfaces/Legends/Color 6: [#EDC948]
+- 🕹 Tableau User Interfaces/Legends/Color 5: [#59A14F]
+- 🕹 Tableau User Interfaces/Legends/Color 4: [#76B7B2]
+- 🕹 Tableau User Interfaces/Legends/Color 3: [#E15759]
+- 🕹 Tableau User Interfaces/Legends/Color 2: [#F28E2B]
+- 🕹 Tableau User Interfaces/Legends/Color 1: [#4E79A7]
+- 🕹 Tableau User Interfaces/Legends/Title: [#4B5563]
+- 🕹 Tableau User Interfaces/Filters/Border: [#FFFFFF]
+- 🕹 Tableau User Interfaces/Filters/Body: [#4B5563]
+- Palettes/Tailwind/Gray/3: none
+- 🕹 Tableau User Interfaces/Filters/Body (50% Opacity): [#606B7680]
+- Palettes/Tailwind/Gray/7: [#374151]
+- 🕹 Tableau User Interfaces/Parameters/Title: [#4B5563]
+- 🕹 Tableau User Interfaces/Filters/Title: [#4B5563]
+- 🕹 Tableau User Interfaces/Parameters/Border: [#FFFFFF]
+- Palettes/Tailwind/Blue/2: [#BFDBFE]
+- Palettes/Tailwind/Gray/50: [#F9FAFB]
+- 🕹 Tableau User Interfaces/Parameters/Body: [#FFFFFF]
+- 📊   Charts/Atoms/Border: [#FFFFFF]
+- 📊   Charts/Atoms/Axis/Shading: [#FFFFFF00]
+- 📊   Charts/Atoms/Axis/Title: [#1F2937]
+- 📊   Charts/Atoms/Axis/Tick Text: [#6B7280]
+- 📊   Charts/Atoms/Axis/Tick: [#D1D5DB]
+- 📊   Charts/Atoms/Axis/Axis Ruler: [#D1D5DB]
+- Chart//Dark: [#3B82F6]
+- Palettes/Tailwind/Green/8: [#065F46]
+- 📊   Charts/KPI/Helper Text: [#6B7280]
+- 📊   Charts/KPI/Main Text: [#111827]
+- 📊   Charts/KPI/Title: [#111827]
+- 📊   Charts/Atoms/Cell/Border: none
+- 📊   Charts/Atoms/Cell/Main Text: [#6B7280]
+- 📊   Charts/Atoms/Cell/Header: [#1F2937]
+- Palettes/Tailwind/Blue/5: [#3B82F6]
+- 📊   Charts/Atoms/Cell/Divider: [#D1D5DB]
+- 📊   Charts/Atoms/Title/Shading: [#FFFFFF00]
+- 📊   Charts/Atoms/Title/Border: [#FFFFFF00]
+- 📊   Charts/Atoms/Title/Subtitle: [#6B7280]
+- 📊   Charts/Atoms/Title/Title: [#111827]
+- Palettes/Tailwind/Blue/7: none
+- Palettes/Tailwind/Gray/8: [#1F2937]
+
+## Raw Colors (unstyled)
+- #FFFFFF: 64 uses
+- #08081A: 57 uses
+- #080C1A: 46 uses
+- #666666: 36 uses
+- #000000: 7 uses
+- #FFFFFF80: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Regular, 8px: 97 uses
+- Inter Regular, 9.77px: 30 uses
+- Inter Italic, 9.77px: 12 uses
+- Inter Medium, 8px: 11 uses
+- Inter Bold, 48px: 9 uses
+- Roboto Mono Regular, 36px: 8 uses
+- Inter Medium, 12.44px: 7 uses
+- Roboto Mono Regular, 40px: 7 uses
+- Inter Regular, 72px: 5 uses
+- Inter Bold, 288px: 4 uses
+- Inter Bold, 96px: 3 uses
+- Inter SemiBold, 12.44px: 3 uses
+- Inter SemiBold, 21.33px: 3 uses
+- Inter SemiBold, 22.21px: 3 uses
+
+## Typography Hierarchy
+- 288px - Inter Bold, 288px (raw)
+- 96px - Inter Bold, 96px (raw)
+- 72px - Inter Regular, 72px (raw)
+- 48px - Inter Bold, 48px (raw)
+- 40px - Roboto Mono Regular, 40px (raw)
+- 36px - Roboto Mono Regular, 36px (raw)
+- 22.21px - Inter SemiBold, 22.21px (raw)
+- 21.33px - Inter SemiBold, 21.33px (raw)
+- 12.44px - Inter Medium, 12.44px (raw)
+- 12.44px - Inter SemiBold, 12.44px (raw)
+- 9.77px - Inter Italic, 9.77px (raw)
+- 9.77px - Inter Regular, 9.77px (raw)
+- 8px - Inter Medium, 8px (raw)
+- 8px - Inter Regular, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadows/xl: [drop_shadow 10px offset 0 10 #0000000A, drop_shadow 25px offset 0 20 #0000001A]
+- /shadow/xl: [drop_shadow 10px offset 0 10 #0000000A, drop_shadow 25px offset 0 20 #0000001A]
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- White: 92 uses
+- Palettes/Tailwind/Gray/7: 40 uses
+- Palettes/Tailwind/Gray/4: 37 uses
+- Palettes/Tailwind/Gray/5: 31 uses
+- 🕹 Tableau User Interfaces/Filters/Body: 29 uses
+- Chart//Dark: 26 uses
+- 📊   Charts/Atoms/Axis/Tick: 23 uses
+- 📊   Charts/Atoms/Axis/Tick Text: 23 uses
+- Palettes/Tailwind/Blue/5: 20 uses
+- 📊   Charts/Atoms/Cell/Divider: 20 uses
+- 📊   Charts/Atoms/Cell/Main Text: 20 uses
+- Palettes/Tailwind/Blue/1: 16 uses
+- Palettes/Tailwind/Gray/3: 13 uses
+- Palettes/Tailwind/Gray/6: 13 uses
+- 🕹 Tableau User Interfaces/Legends/Body: 12 uses
+- 📊   Charts/Atoms/Cell/Border: 8 uses
+- Palettes/Tailwind/Blue/7: 6 uses
+- Palettes/Tailwind/Gray/9: 6 uses
+- Palettes/Tailwind/Green/8: 6 uses
+- 📊   Charts/Atoms/Border: 5 uses
+- Palettes/Tailwind/Gray/2: 4 uses
+- 🕹 Tableau User Interfaces/Filters/Border: 4 uses
+- 📊   Charts/Atoms/Axis/Axis Ruler: 3 uses
+- 📊   Charts/Atoms/Axis/Shading: 3 uses
+- 📊   Charts/Atoms/Axis/Title: 3 uses
+- 📊   Charts/KPI/Helper Text: 3 uses
+- 📊   Charts/KPI/Main Text: 3 uses
+- 📊   Charts/KPI/Title: 3 uses
+- 🕹 Tableau User Interfaces/Filters/Body (50% Opacity): 3 uses
+- 🕹 Tableau User Interfaces/Filters/Title: 3 uses
+- 🕹 Tableau User Interfaces/Legends/Border: 2 uses
+- 🕹 Tableau User Interfaces/Legends/Title: 2 uses
+- 🕹 Tableau User Interfaces/Parameters/Title: 2 uses
+- /shadow/xl: 1 use
+- Palettes/Tailwind/Blue/2: 1 use
+- Palettes/Tailwind/Gray/50: 1 use
+- Palettes/Tailwind/Gray/8: 1 use
+- Shadows/xl: 1 use
+- 📊   Charts/Atoms/Cell/Header: 1 use
+- 📊   Charts/Atoms/Title/Border: 1 use
+- 📊   Charts/Atoms/Title/Shading: 1 use
+- 📊   Charts/Atoms/Title/Subtitle: 1 use
+- 📊   Charts/Atoms/Title/Title: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 1: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 10: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 2: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 3: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 4: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 5: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 6: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 7: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 8: 1 use
+- 🕹 Tableau User Interfaces/Legends/Color 9: 1 use
+- 🕹 Tableau User Interfaces/Parameters/Body: 1 use
+- 🕹 Tableau User Interfaces/Parameters/Border: 1 use
+
+## Layout & Structure
+Screen: Page 1 / Cover
+- FRAME "Cover", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Left Big Box", 1530x1080px, constraints left/top, stroke #08081A 8px
+  - GROUP "Right Box", 398x1080px, constraints left/top
+    - RECTANGLE "Right Background", 390x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1
+    - RECTANGLE "Right Box", 398x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Bottom Box", 398x287px, constraints left/top, stroke #08081A 8px
+  - GROUP "Bottom Text", 554.06x117.87px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Robert Janezic", 337x53px, constraints left/top, fill #080C1A, text [Roboto Mono Medium, 40px], [heading]
+    - TEXT "User Interface Designer", 553x53px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 40px], [heading]
+  - TEXT "Tableau UI Kit", 781x136px, constraints left/top, fill #080C1A, text [Inter Bold, 112px], [heading]
+
+Screen: Page 1 / Overview
+- FRAME "Overview", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Left Box", 850x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1
+  - RECTANGLE "Left Box", 850x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1078x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1078x240px, constraints left/top, stroke #08081A 8px
+  - TEXT "Topics", 145x53px, constraints left/top, fill #080C1A, text [Roboto Mono Bold, 40px], [heading]
+  - TEXT "Who am I? Prototyping Tableau UI Kit Demo", 496x300px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 50px], [heading]
+  - TEXT "Overview", 538x136px, constraints left/top, fill #080C1A, text [Inter Bold, 112px], [heading]
+
+Screen: Page 1 / Prototyping - Design Quote
+- FRAME "Prototyping - Design Quote", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Left Big Box", 1920x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1620x760px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1620x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 70x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - TEXT "“If you think good design is expensive, you should look at t", 1440x303px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 72px], [heading]
+  - TEXT "Dr. Ralf Speth, CEO of Jaguar Land Rover.", 962x58px, constraints left/top, fill #080C1A, text [Inter Bold, 48px], [heading]
+
+Screen: Page 1 / Stat
+- FRAME "Stat", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Left Big Box", 1920x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x760px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 70x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - FRAME "Frame 7", 924x450px, vertical pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "1,100+", 924x349px, constraints left/top, fill #080C1A, text [Inter Bold, 288px], [heading]
+    - TEXT "Components and Variants", 878x87px, constraints left/top, fill #080C1A, text [Inter Regular, 72px], [heading]
+
+Screen: Page 1 / Stat
+- FRAME "Stat", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Left Big Box", 1920x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x760px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 70x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - FRAME "Frame 7", 999x450px, vertical pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "1,000+", 999x349px, constraints left/top, fill #080C1A, text [Inter Bold, 288px], [heading]
+    - TEXT "Styles", 209x87px, constraints left/top, fill #080C1A, text [Inter Regular, 72px], [heading]
+
+Screen: Page 1 / Stat
+- FRAME "Stat", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Left Big Box", 1920x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x760px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 70x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - FRAME "Frame 7", 1043x450px, vertical pad 0 0 0 0px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "2,200+", 1043x349px, constraints left/top, fill #080C1A, text [Inter Bold, 288px], [heading]
+    - TEXT "Dashboard Layouts", 658x87px, constraints left/top, fill #080C1A, text [Inter Regular, 72px], [heading]
+
+Screen: Page 1 / Demo
+- FRAME "Demo", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Left Big Box", 1920x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x760px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 70x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - TEXT "Demo", 821x349px, constraints left/top, fill #080C1A, text [Inter Bold, 288px], [heading]
+
+Screen: Page 1 / Website+Email
+- FRAME "Website+Email", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Left Big Box", 1920x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x760px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1311x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - RECTANGLE "Right Box", 70x70px, constraints left/top, fill #FFFFFF, stroke #08081A 8px
+  - FRAME "Frame 9", 723x238px, vertical pad 0 0 0 0px gap 64px align min/center sizing W:fixed H:fixed, constraints left/top
+    - TEXT "tableauuikit.com", 560x87px, constraints left/top, fill #080C1A, text [Inter Regular, 72px], [heading]
+    - TEXT "rjanezic2@gmail.com", 723x87px, constraints left/top, fill #080C1A, text [Inter Regular, 72px], [heading]
+
+Screen: Page 1 / Tableaui UI Kit - Cover
+- FRAME "Tableaui UI Kit - Cover", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Left Big Box", 1920x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - FRAME "Cover", 1706x853px, constraints left/top, fill #F5F9FF
+    - FRAME "Frame 3", 760.72x325.13px, vertical pad 0 0 0 0px gap 24.88px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Heading", 749.34x244.18px, constraints left/top, fill Palettes/Tailwind/Gray/9, text [Inter SemiBold, 114.62px], [heading]
+      - FRAME "Badges", 737.35x158.83px, horizontal pad 0 0 0 0px gap 14.22px align center/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Badge", 117.9x71.77px, horizontal pad 14.22 24.88 14.22 21.33px gap 15.99px align center/center sizing W:fixed H:fixed, constraints scale/center, radius 8.89px, stroke Palettes/Tailwind/Blue/7 1.33px
+          - TEXT "Text", 68.19x37.18px, constraints left/top, fill Palettes/Tailwind/Blue/7, text [Inter SemiBold, 21.33px]
+        - INSTANCE "add", 24.09x24.09px, constraints left/top
+          - VECTOR "Vector", 24.09x24.09px, constraints scale/scale
+          - VECTOR "Vector", 14.05x14.05px, constraints scale/scale, fill Palettes/Tailwind/Gray/8
+        - FRAME "Badge", 185.65x81.29px, horizontal pad 14.22 24.88 14.22 21.33px gap 15.99px align center/center sizing W:fixed H:fixed, constraints scale/center, radius 8.89px, stroke Palettes/Tailwind/Blue/7 1.33px
+          - TEXT "Text", 135.94x46.71px, constraints left/top, fill Palettes/Tailwind/Blue/7, text [Inter SemiBold, 21.33px]
+        - TEXT "=", 22.3x35.91px, constraints left/top, fill #000000, text [Inter Regular, 26.66px], [heading]
+        - FRAME "Badge", 258.68x91.56px, horizontal pad 14.22 24.88 14.22 21.33px gap 15.99px align center/center sizing W:fixed H:fixed, constraints center/center, radius 8.89px, stroke Palettes/Tailwind/Blue/7 1.33px
+          - TEXT "Text", 208.97x56.97px, constraints left/top, fill Palettes/Tailwind/Blue/7, text [Inter SemiBold, 21.33px]
+    - INSTANCE "Bar Chart", 456.5x322.91px, vertical pad 10.66 10.66 10.66 10.66px gap 7.11px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 📊   Charts/Atoms/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+      - INSTANCE "Chart/Yes/No", 436.49x86.36px, vertical pad 0 0 0 0px gap 14.22px align min/center sizing W:fill H:fixed, constraints left/top, fill 📊   Charts/Atoms/Title/Shading, stroke 📊   Charts/Atoms/Title/Border 0.89px
+        - FRAME "Content", 436.49x86.36px, horizontal pad 0 0 0 0px gap 10.66px align max/min sizing W:fill H:fixed, constraints left/top
+          - FRAME "Info", 436.49x86.36px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Title", 400.37x70.83px, constraints left/top, fill 📊   Charts/Atoms/Title/Title, text [Inter Medium, 12.44px]
+            - TEXT "Subtitle", 399.81x66.87px, constraints left/top, fill 📊   Charts/Atoms/Title/Subtitle, text [Inter Regular, 8.89px]
+      - INSTANCE ".Atoms/Content", 464.44x285.21px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top
+        - INSTANCE "Axis - Vertical", 54.21x180.12px, vertical pad 0 17.77 0 0px gap 8.89px sizing W:fixed H:fill, constraints left/top, fill 📊   Charts/Atoms/Axis/Shading
+          - FRAME "Tick Marks", 32.38x159.8px, vertical pad 0 0 0 1.78px gap 1.78px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Ticks + Ruler", 25.97x157.18px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Text Group", 26.41x157.24px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "Header", 36.95x193.86px, constraints left/top, fill 📊   Charts/Atoms/Axis/Title, text [Inter Medium, 8px]
+        - FRAME "Bars + Dimension", 347.21x221.3px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top
+          - INSTANCE ".Atoms/Bars", 344.74x203.7px, horizontal pad 10.66 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top
+            - INSTANCE ".Atoms/Bar", 68.73x182.16px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - INSTANCE ".Atoms/Bar", 68.73x182.16px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - INSTANCE ".Atoms/Bar", 68.73x182.16px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - INSTANCE ".Atoms/Bar", 68.73x182.16px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - INSTANCE ".Atoms/Bar", 68.73x182.16px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - INSTANCE ".Atoms/Bar", 68.73x182.16px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - INSTANCE ".Atoms/Bar", 68.73x182.16px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+            - INSTANCE ".Atoms/Bar", 68.73x182.16px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top
+          - INSTANCE ".Atoms/Field Label", 324.95x62.92px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Row", 324.95x62.92px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+    - RECTANGLE "Styles - READ ME 1", 784.41x886.51px, constraints left/top, radius 7.11px, fill image(hash: e4b99bb394fab5b55992744cb78b945257cee1fb), effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+    - RECTANGLE "Cheat Sheet 1", 1592.52x1057.87px, constraints left/top, radius 7.11px, fill image(hash: 2d67c36dcb4129a7328d414a30316c83902b4fed), effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+    - FRAME "Frame 2", 196.92x329.54px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "KPI", 196.92x109.85px, vertical pad 10.66 10.66 10.66 10.66px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 📊   Charts/Atoms/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+        - INSTANCE ".Atoms/Icon", 172.84x85.76px, horizontal pad 0 0 0 0px gap 10.66px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "image", 40.14x40.14px, constraints scale/scale
+            - VECTOR "Vector", 40.14x40.14px, constraints scale/scale
+            - VECTOR "Vector", 30.11x30.11px, constraints scale/scale, fill Palettes/Tailwind/Gray/4
+          - INSTANCE ".Atoms/Text", 127.08x79.33px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 28.82x18.61px, constraints left/top, fill 📊   Charts/KPI/Title, text [Inter Medium, 12.44px]
+            - FRAME "BAN + Add Ons", 125x64.48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "KPI", 196.92x109.85px, vertical pad 10.66 10.66 10.66 10.66px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 📊   Charts/Atoms/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+        - INSTANCE ".Atoms/Icon", 172.84x85.76px, horizontal pad 0 0 0 0px gap 10.66px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "image", 40.14x40.14px, constraints scale/scale
+            - VECTOR "Vector", 40.14x40.14px, constraints scale/scale
+            - VECTOR "Vector", 30.11x30.11px, constraints scale/scale, fill Palettes/Tailwind/Gray/4
+          - INSTANCE ".Atoms/Text", 127.08x79.33px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 28.82x18.61px, constraints left/top, fill 📊   Charts/KPI/Title, text [Inter Medium, 12.44px]
+            - FRAME "BAN + Add Ons", 125x64.48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "KPI", 196.92x109.85px, vertical pad 10.66 10.66 10.66 10.66px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 📊   Charts/Atoms/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+        - INSTANCE ".Atoms/Icon", 172.84x85.76px, horizontal pad 0 0 0 0px gap 10.66px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "image", 40.14x40.14px, constraints scale/scale
+            - VECTOR "Vector", 40.14x40.14px, constraints scale/scale
+            - VECTOR "Vector", 30.11x30.11px, constraints scale/scale, fill Palettes/Tailwind/Gray/4
+          - INSTANCE ".Atoms/Text", 127.08x79.33px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 28.82x18.61px, constraints left/top, fill 📊   Charts/KPI/Title, text [Inter Medium, 12.44px]
+            - FRAME "BAN + Add Ons", 125x64.48px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Dates/Browse Periods", 201.88x70.22px, vertical pad 3.55 3.55 3.55 3.55px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 🕹 Tableau User Interfaces/Filters/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+      - FRAME "Title", 191.35x44.37px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 191.35x44.37px, constraints left/top, fill 🕹 Tableau User Interfaces/Filters/Title, text [Inter Medium, 8px]
+      - FRAME "Browse Periods", 191.35x44.37px, vertical pad 0 3.55 0 3.55px gap 8.89px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Periods", 184.31x43.38px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+          - FRAME "Period", 32.81x22.08px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fixed, constraints left/top, fill White
+            - TEXT "Text", 11.42x19.08px, constraints left/top, fill #000000, text [Inter Regular, 8px]
+          - FRAME "Period", 32.81x22.08px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fixed, constraints left/top, fill White
+            - TEXT "Text", 13.4x19.36px, constraints left/top, fill #000000, text [Inter Regular, 8px]
+          - FRAME "Period", 32.81x22.08px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fixed, constraints left/top, fill White, stroke Palettes/Tailwind/Gray/4 0.67px
+            - TEXT "Text", 13.4x19.36px, constraints left/top, fill #000000, text [Inter Regular, 8px]
+          - FRAME "Period", 32.81x22.08px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fixed, constraints left/top, fill White
+            - TEXT "Text", 15.38x19.63px, constraints left/top, fill #000000, text [Inter Regular, 8px]
+          - FRAME "Period", 32.81x22.08px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fixed, constraints left/top, fill White
+            - TEXT "Text", 11.42x19.08px, constraints left/top, fill #000000, text [Inter Regular, 8px]
+          - FRAME "Period", 32.81x22.08px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fixed, constraints left/top, fill White
+            - TEXT "Text", 12.41x19.22px, constraints left/top, fill #000000, text [Inter Regular, 8px]
+    - INSTANCE "Dates/Range of Dates", 184.2x76.5px, vertical pad 3.55 3.55 3.55 3.55px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 🕹 Tableau User Interfaces/Filters/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+      - FRAME "Title", 172.41x41.7px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 172.41x41.7px, constraints left/top, fill 🕹 Tableau User Interfaces/Filters/Title, text [Inter Medium, 8px]
+      - FRAME "Single Value (slider)", 173.66x50.64px, vertical pad 0 3.55 0 3.55px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Readout", 165.37x40.71px, horizontal pad 0 0 0 0px gap 3.55px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 35.18x22.42px, constraints left/top, fill 🕹 Tableau User Interfaces/Filters/Body, text [Inter Regular, 8px]
+          - TEXT "Text", 39.15x22.97px, constraints left/top, fill 🕹 Tableau User Interfaces/Filters/Body, text [Inter Regular, 8px]
+        - FRAME "Slider", 164.12x31.83px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - VECTOR "Vector 1", 8.3x9.93px, constraints left/top, fill White, stroke Palettes/Tailwind/Gray/5 0.67px
+          - RECTANGLE "Rectangle", 149.28x24.43px, constraints left/top, fill Palettes/Tailwind/Gray/4
+          - VECTOR "Vector 2", 8.3x9.93px, constraints left/top, fill White, stroke Palettes/Tailwind/Gray/5 0.67px
+    - INSTANCE "Scatter plot", 428.47x292.63px, vertical pad 10.66 10.66 10.66 10.66px gap 7.11px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 📊   Charts/Atoms/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+      - INSTANCE ".Atoms/Content", 404.39x268.54px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top
+        - FRAME "Slopes + Axis", 399.81x235.98px, horizontal pad 0 0 0 0px gap 0px sizing W:fill H:fill, constraints left/top
+          - INSTANCE "Axis - Vertical", 55.25x187.55px, vertical pad 0 0 0 0px gap 8.89px sizing W:fixed H:fill, constraints left/top, fill 📊   Charts/Atoms/Axis/Shading
+            - FRAME "Tick Marks", 36.45x184.91px, vertical pad 0 0 0 1.78px gap 1.78px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Header", 35.68x184.8px, constraints left/top, fill 📊   Charts/Atoms/Axis/Title, text [Inter Medium, 8px]
+          - INSTANCE ".Atoms/Dots", 370.33x231.83px, vertical pad 0 10.66 0 10.66px gap 0px sizing W:fill H:fill, constraints left/top
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - FRAME "zero-height", 323.44x45.46px, constraints left/top, fill #FFFFFF
+            - ... +35 more children
+        - INSTANCE "Axis - Horizontal", 378.61x85.13px, vertical pad 0 0 0 29.32px gap 8.89px sizing W:fill H:fixed, constraints left/top, fill 📊   Charts/Atoms/Axis/Shading
+          - FRAME "Tick Marks", 346.95x62.35px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Ticks + Ruler", 345.55x52.45px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - FRAME "Text Group", 346.39x58.39px, horizontal pad 0 0 0 0px gap 0px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "Header", 346.39x58.39px, constraints left/top, fill 📊   Charts/Atoms/Axis/Title, text [Inter Medium, 8px]
+    - INSTANCE "Legend (measure)", 213.67x84.81px, vertical pad 3.55 3.55 3.55 3.55px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 🕹 Tableau User Interfaces/Legends/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+      - FRAME "Title", 201.28x45.76px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 201.28x45.76px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Title, text [Inter Medium, 8px]
+      - FRAME "Single Value (slider)", 203.14x58.96px, vertical pad 0 3.55 0 3.55px gap 0px sizing W:fill H:fixed, constraints left/top
+        - RECTANGLE "Rectangle", 193.59x40.15px, constraints left/top, fill gradient_linear(#9E3D22 0% | #FFFFFF 52% | #2B5C8A 100%)
+        - FRAME "Readout", 194.24x44.77px, horizontal pad 0 0 0 0px gap 3.55px align space_between/min sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 16.37x19.77px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Body, text [Inter Regular, 8px]
+          - TEXT "Text", 24.29x20.89px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Body, text [Inter Regular, 8px]
+    - INSTANCE "Date & Datetime", 174.02x243.98px, vertical pad 3.55 3.55 0 3.55px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 🕹 Tableau User Interfaces/Parameters/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+      - FRAME "Title", 138.01x36.87px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 138.01x36.87px, constraints left/top, fill 🕹 Tableau User Interfaces/Parameters/Title, text [Inter Medium, 8px]
+      - FRAME "Spacer", 138.01x36.87px, vertical pad 0 3.55 0 3.55px gap 8.89px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Readout", 130.97x35.88px, horizontal pad 0 3.55 0 3.55px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, radius 0.89px, fill White, stroke 🕹 Tableau User Interfaces/Parameters/Body 0.67px
+          - TEXT "Text", 123.93x34.89px, constraints left/top, fill Palettes/Tailwind/Gray/7, text [Inter Regular, 8px]
+      - FRAME "Menu", 201.95x209.51px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, stroke Palettes/Tailwind/Gray/4 0.67px
+        - FRAME "Month", 178.7x44.09px, horizontal pad 0 0 0 0px gap 1.78px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Palettes/Tailwind/Gray/4 0.67px
+          - FRAME "Chevron left", 18.19x18.94px, constraints left/top
+            - VECTOR "Icon", 6.19x9.06px, constraints scale/scale, fill Palettes/Tailwind/Gray/6
+          - TEXT "July 2021", 109.85x32.91px, constraints left/top, fill Palettes/Tailwind/Gray/9, text [Inter Regular, 10.66px]
+          - FRAME "Chevron right", 18.19x18.94px, constraints left/top
+            - VECTOR "Icon", 6.19x9.06px, constraints scale/scale, fill Palettes/Tailwind/Gray/6
+        - FRAME "Days", 178.95x45.85px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill Palettes/Tailwind/Gray/50
+          - FRAME "Row", 178.95x45.85px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fill, constraints left/top
+            - FRAME "S", 28.11x24.65px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top
+            - FRAME "M", 28.11x24.65px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top
+            - FRAME "T", 28.11x24.65px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top
+            - FRAME "W", 28.11x24.65px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top
+            - FRAME "T", 28.11x24.65px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top
+            - FRAME "F", 28.11x24.65px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top
+            - FRAME "S", 28.11x24.65px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top
+        - FRAME "Dates", 193.54x149.68px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill White
+          - FRAME "Row", 178.91x45.56px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "M", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "W", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "F", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+          - FRAME "Row", 178.91x45.56px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "M", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "W", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "F", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+          - FRAME "Row", 178.91x45.56px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "M", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill Palettes/Tailwind/Blue/2
+            - FRAME "W", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "F", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+          - FRAME "Row", 178.91x45.56px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "M", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "W", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "F", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+          - FRAME "Row", 178.91x45.56px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "M", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "W", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "F", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+          - FRAME "Row", 178.91x45.56px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "M", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "W", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "T", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "F", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "S", 28.07x24.36px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+        - FRAME "Today", 178.7x44.09px, vertical pad 0 0 0 0px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, fill White, stroke Palettes/Tailwind/Gray/4 0.67px
+          - TEXT "Today: 7/30/2021", 109.85x32.91px, constraints left/top, fill Palettes/Tailwind/Gray/9, text [Inter Regular, 8px]
+    - INSTANCE "Dimension/Multiple Value (dropdown)", 178.64x66.51px, vertical pad 3.55 3.55 3.55 3.55px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 🕹 Tableau User Interfaces/Filters/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+      - FRAME "Title", 137.98x36.64px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 19.34x20.19px, constraints left/top, fill 🕹 Tableau User Interfaces/Filters/Title, text [Inter Medium, 8px]
+      - FRAME "Multiple Value (dropdown)", 150.86x128.33px, vertical pad 0 3.55 0 3.55px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Readout", 130.81x34.77px, horizontal pad 0 0 0 3.55px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 0.89/0.89/0/0px, fill #FFFFFF80, stroke Palettes/Tailwind/Gray/4 0.67px
+          - TEXT "Text", 125.53x34.03px, constraints left/top, fill 🕹 Tableau User Interfaces/Filters/Body, text [Inter Regular, 8px]
+          - FRAME "Trailing", 18.19x18.94px, horizontal pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+            - LINE "Divider", 2.35x16.72px, constraints left/top, stroke Palettes/Tailwind/Gray/3 0.67px
+            - FRAME "Chevron down", 18.19x18.94px, constraints left/top
+        - FRAME "Menu", 141.47x110.62px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top, radius 0/0/0.89/0.89px, fill White, stroke Palettes/Tailwind/Gray/4 0.67px
+          - FRAME "50% Opacity", 141.47x110.62px, vertical pad 0 0 3.55 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF80
+            - FRAME "Item", 131.04x36.36px, horizontal pad 0.71 7.11 0 3.55px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item", 131.04x36.36px, horizontal pad 0.71 7.11 0 3.55px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item", 131.04x36.36px, horizontal pad 0.71 7.11 0 3.55px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Item", 131.04x36.36px, horizontal pad 0.71 7.11 0 3.55px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Buttons", 130.69x33.89px, horizontal pad 1.78 7.11 0 7.11px gap 10.66px align min/max sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Dates/Relative Date", 171.88x228.8px, vertical pad 3.55 3.55 0 3.55px gap 0px align center/min sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 🕹 Tableau User Interfaces/Filters/Border 0.89px
+      - FRAME "Title", 138.01x36.87px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "Text", 138.01x36.87px, constraints left/top, fill 🕹 Tableau User Interfaces/Parameters/Title, text [Inter Medium, 8px]
+      - FRAME "Single Value (dropdown)", 137.85x35.76px, vertical pad 0 3.55 0 3.55px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Readout", 130.81x34.77px, horizontal pad 0 0 0 3.55px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 0.89/0.89/0/0px, fill #FFFFFF80, stroke Palettes/Tailwind/Gray/4 0.67px
+          - TEXT "Text", 127.29x34.28px, constraints left/top, fill 🕹 Tableau User Interfaces/Filters/Body, text [Inter Regular, 8px]
+          - FRAME "Trailing", 18.19x18.94px, horizontal pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+            - LINE "Divider", 2.35x16.72px, constraints left/top, stroke Palettes/Tailwind/Gray/3 0.67px
+            - FRAME "Chevron down", 18.19x18.94px, constraints left/top
+      - FRAME "Relative Date", 442.82x229.56px, vertical pad 0 0 0 3.55px gap 8.89px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Relative Date", 438.93x226.43px, vertical pad 8.89 8.89 8.89 8.89px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke Palettes/Tailwind/Gray/4 0.67px
+          - FRAME "Periods", 400.67x83.05px, horizontal pad 0.89 2.67 6.22 2.67px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Period", 81.11x31.24px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "Period", 81.11x31.24px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "Period", 81.11x31.24px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "Period", 81.11x31.24px, horizontal pad 0 0 0 0px gap 8.89px align center/center sizing W:fill H:fill, constraints left/top, fill White
+            - FRAME "White Space", 81.33x31.27px, vertical pad 0 0 0 0px gap 8.89px sizing W:fixed H:fill, constraints left/top, fill White
+          - LINE "Divider", 397.71x55.89px, constraints left/top, stroke Palettes/Tailwind/Gray/3 0.67px
+          - FRAME "Radio Groups", 409.95x143px, horizontal pad 7.11 23.1 0 0px gap 18.66px align center/min sizing W:fill H:fixed, constraints left/top
+            - FRAME "Leading", 98.47x86.96px, vertical pad 0 0 0 0px gap 10.66px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Leading", 126.81x65.26px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - LINE "Divider", 397.71x55.89px, constraints left/top, stroke Palettes/Tailwind/Gray/3 0.67px
+          - FRAME "Frame 1", 402.78x91.97px, horizontal pad 4.44 0 0 0px gap 8.89px align center/min sizing W:fill H:fill, constraints left/top, fill #FFFFFF
+            - TEXT "Text", 113.42x33.41px, constraints left/top, fill 🕹 Tableau User Interfaces/Filters/Body, text [Inter Regular, 9.77px]
+    - INSTANCE "Legend (dimension)", 187.57x119.51px, vertical pad 3.55 3.55 3.55 3.55px gap 3.55px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke 🕹 Tableau User Interfaces/Legends/Border 0.89px, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+      - FRAME "List", 147.87x107.03px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Title", 137.98x36.64px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Text", 169.68x41.32px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Title, text [Inter Medium, 8px]
+        - FRAME "Item", 137.98x36.64px, horizontal pad 0 0 0 0px gap 3.55px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Checkbox", 20.07x20.07px, constraints left/top
+            - FRAME "Checkmark", 12.04x12.04px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Color 1
+          - TEXT "Text", 148.56x38.35px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Body, text [Inter Regular, 8px]
+        - FRAME "Item", 137.98x36.64px, horizontal pad 0 0 0 0px gap 3.55px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Checkbox", 20.07x20.07px, constraints left/top
+            - FRAME "Checkmark", 12.04x12.04px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Color 2
+          - TEXT "Text", 148.56x38.35px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Body, text [Inter Regular, 8px]
+        - FRAME "Item", 137.98x36.64px, horizontal pad 0 0 0 0px gap 3.55px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Checkbox", 20.07x20.07px, constraints left/top
+            - FRAME "Checkmark", 12.04x12.04px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Color 3
+          - TEXT "Text", 148.56x38.35px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Body, text [Inter Regular, 8px]
+        - FRAME "Item", 137.98x36.64px, horizontal pad 0 0 0 0px gap 3.55px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE ".Checkbox", 20.07x20.07px, constraints left/top
+            - FRAME "Checkmark", 12.04x12.04px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Color 4
+          - TEXT "Text", 148.56x38.35px, constraints left/top, fill 🕹 Tableau User Interfaces/Legends/Body, text [Inter Regular, 8px]
+    - INSTANCE "Pages", 155.46x99.7px, vertical pad 3.55 3.55 3.55 3.55px gap 0px sizing W:fixed H:fixed, constraints left/top, fill White, effect [drop_shadow 5.33px offset 0 3.55 #0000000D, drop_shadow 13.33px offset 0 8.89 #0000001A]
+      - FRAME "Slider", 147.44x91.67px, vertical pad 0 3.55 0 3.55px gap 7.11px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Page Readout", 132.73x36.13px, horizontal pad 0 0 0 0px gap 1.78px align min/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Arrow Left", 16.58x19.8px, horizontal pad 2.67 3.55 2.67 3.55px gap 0px align center/center sizing W:fixed H:fill, constraints left/top, radius 0.89px, fill White, stroke Palettes/Tailwind/Gray/4 0.67px
+            - VECTOR "Icon", 6.19x9.06px, constraints scale/scale, fill Palettes/Tailwind/Gray/4
+          - FRAME "Readout", 101.05x31.67px, horizontal pad 0 0 0 3.55px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 0.89px, stroke Palettes/Tailwind/Gray/4 0.67px
+            - TEXT "Text", 78.18x28.46px, constraints left/top, fill Palettes/Tailwind/Gray/5, text [Inter Regular, 8px]
+            - FRAME "Trailing", 18.19x18.94px, horizontal pad 0 0 0 0px gap 0px align max/center sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Arrow Right", 16.58x19.8px, horizontal pad 2.67 4.44 2.67 4.44px gap 0px align center/center sizing W:fixed H:fill, constraints left/top, radius 0.89px, fill White, stroke Palettes/Tailwind/Gray/4 0.67px
+            - VECTOR "Icon", 6.19x9.06px, constraints scale/scale, fill Palettes/Tailwind/Gray/6
+        - FRAME "Slider", 131.58x27.98px, horizontal pad 0 0 0 0px gap 4.44px align min/center sizing W:fill H:fixed, constraints left/top
+          - GROUP "Slider", 131.58x27.98px, constraints left/top
+            - RECTANGLE "Rectangle", 126.38x21.21px, constraints left/top, fill Palettes/Tailwind/Gray/2
+            - ELLIPSE "Elipse", 9.03x9.03px, constraints left/top, fill White, stroke Palettes/Tailwind/Gray/5 0.67px
+            - VECTOR "Dashes", 121.21x19.62px, constraints left/top, stroke Palettes/Tailwind/Gray/4 0.89px
+        - FRAME "Playback + History", 134.55x49.1px, vertical pad 0 0 0 0px gap 3.55px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Playback Controls", 132.14x31.94px, horizontal pad 0 0 0 0px gap 8px align space_between/center sizing W:fixed H:fixed, constraints left/top [decorative, ~9 shapes]
+          - FRAME "History Controls", 132.14x31.94px, horizontal pad 0 0 0 0px gap 3.55px align min/center sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Leading Buttons", 16x15.62px, horizontal pad 0 0 0 0px gap 0.89px align min/center sizing W:fixed H:fill, constraints left/top
+            - TEXT "Show history", 53.01x24.92px, constraints left/top, fill Palettes/Tailwind/Gray/9, text [Inter Regular, 8px]
+
+Screen: Page 1 / Prototyping - Main benefits
+- FRAME "Prototyping - Main benefits", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Right Box", 1920x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x540px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - TEXT "Some main benefits", 564x212px, constraints left/top, fill #080C1A, text [Inter Medium, 96px], [heading]
+  - TEXT "Avoid tech", 268x53px, constraints left/top, fill #080C1A, text [Inter Bold, 48px], [heading]
+  - TEXT "Better quality", 344x53px, constraints left/top, fill #080C1A, text [Inter Bold, 48px], [heading]
+  - TEXT "Feasibility", 260x53px, constraints left/top, fill #080C1A, text [Inter Bold, 48px], [heading]
+  - TEXT "Lower Cost", 285x53px, constraints left/top, fill #080C1A, text [Inter Bold, 48px], [heading]
+  - LINE "Line 4", 1169x0px, constraints left/top, stroke #08081A 8px
+  - LINE "Line 5", 0x1080.01px, constraints left/top, stroke #08081A 8px
+  - TEXT "No data cleansing, calculations, niche hacks, anything serve", 411x323px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 36px], [heading]
+  - TEXT "Conduct usability testing, check that it follows correct des", 411x301px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 36px], [heading]
+  - TEXT "Understand which aspects of the idea prove difficult or impo", 411x257px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 36px], [heading]
+  - TEXT "Iteration at the design level is much less costly and time c", 411x309px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 36px], [heading]
+  - TEXT "PROTOTYPING", 564x44px, constraints left/top, fill #080C1A, text [Inter Bold, 36px], [heading]
+
+Screen: Page 1 / Tableau UI Kit - Main benefits
+- FRAME "Tableau UI Kit - Main benefits", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Right Box", 1920x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x540px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x1080px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - TEXT "Some main benefits", 564x212px, constraints left/top, fill #080C1A, text [Inter Medium, 96px], [heading]
+  - TEXT "Consistancy", 316x53px, constraints left/top, fill #080C1A, text [Inter Bold, 48px], [heading]
+  - TEXT "Customization", 368x53px, constraints left/top, fill #080C1A, text [Inter Bold, 48px], [heading]
+  - TEXT "Simplicity", 251x53px, constraints left/top, fill #080C1A, text [Inter Bold, 48px], [heading]
+  - TEXT "One to one", 273x53px, constraints left/top, fill #080C1A, text [Inter Bold, 48px], [heading]
+  - TEXT "TABLEAU UI KIT", 564x44px, constraints left/top, fill #080C1A, text [Inter Bold, 36px], [heading]
+  - LINE "Line 4", 1169x0px, constraints left/top, stroke #08081A 8px
+  - LINE "Line 5", 0x1080.01px, constraints left/top, stroke #08081A 8px
+  - TEXT "Feel at ease knowing developers will design consistently for", 411x150px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 36px], [heading]
+  - TEXT "Default not want you want? That’s alright, use the variants ", 411x250px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 36px], [heading]
+  - TEXT "Drag and drop functionality paired with responsiveness. So m", 411x360px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 36px], [heading]
+  - TEXT "Feel confident your prototypes will actually look like Table", 411x297px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 36px], [heading]
+
+Screen: Page 1 / Prototyping - What is it?
+- FRAME "Prototyping - What is it?", 1920x1080px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 1", 300x300px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1920x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x540px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x540px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x718px, constraints left/top, stroke #08081A 8px
+  - TEXT "Prototyping", 692x96px, constraints left/top, fill #080C1A, text [Inter Bold, 96px], [heading]
+  - FRAME "Frame 5", 770x440px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Prototypes are a close replica of what the end result of a p", 770x168px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 40px], [heading]
+    - TEXT "They incorporate most of the final UI design and interaction", 770x224px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 40px], [heading]
+  - RECTANGLE "image 1", 745x702px, constraints left/top, fill image(hash: 78993dd6dba9e558d010a9a603a81cd27f1534ac)
+
+Screen: Page 1 / Tableau UI Kit - What is it?
+- FRAME "Tableau UI Kit - What is it?", 1920x1080px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Right Box", 1920x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x540px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x540px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - TEXT "Tableau UI Kit", 692x96px, constraints left/top, fill #080C1A, text [Inter Bold, 96px], [heading]
+  - FRAME "Frame 4", 770x552px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "UI Kit ~ Collection of assets that contains a set of design ", 770x224px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 40px], [heading]
+    - TEXT "UI Kit built in figma that allows users to rapidly prototype", 770x280px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 40px], [heading]
+  - RECTANGLE "Bar Chart 1", 570x551px, constraints left/top, fill image(hash: 758b52ebac17baae89e8c488ae099e810c2b0309), effect /shadow/xl
+  - RECTANGLE "Screen Shot 2021-11-15 at 12.42 1", 299x512px, constraints left/top, fill image(hash: 0865d16740f7caf384d5cdc56094bb7f5eaffddb), effect Shadows/xl
+
+Screen: Page 1 / Who am I?
+- FRAME "Who am I?", 1920x1080px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 1", 300x300px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 1920x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x1080px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x540px, constraints left/top, stroke #08081A 8px
+  - RECTANGLE "Right Box", 760x540px, constraints left/top, fill Palettes/Tailwind/Blue/1, stroke #08081A 8px
+  - RECTANGLE "Right Box", 575x761px, constraints left/top, stroke #08081A 8px
+  - TEXT "Who am I?", 692x96px, constraints left/top, fill #080C1A, text [Inter Bold, 96px], [heading]
+  - FRAME "Frame 6", 770x608px, vertical pad 0 0 0 0px gap 48px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "My name is Robert Janezic and I’m a User Interface Designer ", 770x336px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 40px], [heading]
+    - TEXT "Previously an analyst for years, but have since gone design ", 770x224px, constraints left/top, fill #080C1A, text [Roboto Mono Regular, 40px], [heading]
+  - RECTANGLE "PNG Image 1", 559x745px, constraints left/top, fill image(hash: eef75a0bed96a8adc948a63dfea6c76a6044bc79)
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

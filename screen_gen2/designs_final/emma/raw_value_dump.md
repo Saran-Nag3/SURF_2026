@@ -1,0 +1,1951 @@
+---
+name: uvu-design-system-community
+source_file: UVU Design System (Community)
+source_page: All pages (9): 🏆 Start Here, ---, 🏫 Examples, ✨ Foundations, 🖥️ Layout, ---, 🎨 Styles, ✌ Icon, 📇Components
+generated_at: 2026-07-25T09:15:54.149007+00:00
+---
+
+# UVU Design System (Community) Design Guidelines
+
+## Source
+- Figma file: UVU Design System (Community)
+- Figma page: All pages (9): 🏆 Start Here, ---, 🏫 Examples, ✨ Foundations, 🖥️ Layout, ---, 🎨 Styles, ✌ Icon, 📇Components
+- Extracted at: 2026-07-25T09:15:54.149007+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Shades of Gray/Grey: none
+- Fern Green/Fern Green: [#78BE20]
+- Shades of Gray/ExtraLight Grey: [#F9F9F9]
+- Shades of Gray/Black: [#F30A0A]
+- Primary Green/Primary Green: [#275D38]
+- Forest Green/Forest Green: [#00843D]
+- Primary/-uvu-green: [#275D38]
+- Neutrals/-white: [#FFFFFF]
+- Neutrals/-black: [#000000]
+- Shades of Gray/White: [#FFFFFF]
+- Forest/-forest-l3: [#E6F3EC]
+- Forest/-forest: [#00843D]
+- Forest/-forest-l1: none
+- Clover/-clover-l3: [#EDF6EC]
+- Clover/-clover: [#4BA23F]
+- Clover/-clover-l1: none
+- Fern/-fern-l3: [#F2F9E9]
+- Fern/-fern-l1: none
+- Neutrals/-grey-xlight: [#F9F9F9]
+- Shades of Gray/Silver: none
+- Clover/l1: none
+- Primary/Black: [#000000]
+- Fern/l1: none
+- Gray/500: [#8C8C8C]
+- Black: [#000000]
+- UVU Footer Socials Bar Background: [#275037]
+- UVU Primary Green: [#275D38]
+
+## Raw Colors (unstyled)
+- #000000: 902 uses
+- #FFFFFF: 789 uses
+- #275D38: 400 uses
+- #231F20: 120 uses
+- #285E39: 90 uses
+- #EFEFEF: 75 uses
+- #D9D9D9: 70 uses
+- #9747FF: 53 uses
+- #1A1A1A: 45 uses
+- #4BA23F: 36 uses
+- #8E8C89: 25 uses
+- #E8E8E8: 25 uses
+- #292929: 19 uses
+- #DDDDDD: 19 uses
+- #00843D: 18 uses
+
+## Typography Tokens
+- Lato Varation/.p Variation 16: Lato Regular (400), 16px / auto, tracking 0px
+- Lato Variations/Lato 24 Regular: Lato Regular (400), 24px / 119.17%, tracking 0px
+- Display/Raj 55 Bold: Rajdhani Bold (700), 55px / auto, tracking 0px
+- Lato Variations/Lato 16 Semibold: Lato SemiBold (600), 16px / 119.17%, tracking 0px
+- Display/Raj 96 Bold: Rajdhani Bold (700), 96px / 115.2px, tracking 0px
+- Rajdhani Variations/Raj 30 Semibold Uppercase: Rajdhani SemiBold (600), 30px / auto, tracking 0px
+- Body: Lato Regular (400), 18px / auto, tracking 0px
+- Body: Lato Regular (400), 16px / auto, tracking 0px
+- Headline/super-large: Poppins Regular (400), 96px / 128px, tracking -1.44px
+- Rajdhani variations/h4.text.normal 20: Rajdhani Regular (400), 20px / auto, tracking 0px
+- Default Tag Stylings/p: Lato Regular (400), 16px / 119.17%, tracking 0px
+- Body: Lato Regular (400), 16px / 24px, tracking 0px
+- Rajdhani Variations/Raj 24 Regular: Rajdhani Regular (400), 24px / auto, tracking 0px
+- Rajdhani Variations/h2.uppercase: Rajdhani SemiBold (600), 30px / auto, tracking 0px
+- Rajdhani Variations/h3.text-28.uppercase.bold: Rajdhani Bold (700), 28px / auto, tracking 0px
+- Rajdhani Variations/Raj 24 Bold Uppercase: Rajdhani Bold (700), 24px / auto, tracking 0px
+- Lato Variations/p.bolder: Lato SemiBold (600), 16px / 119.17%, tracking 0px
+- Rajdhani Variations/Raj 24 Bold: Rajdhani Bold (700), 24px / auto, tracking 0px
+- Lato Variations/Lato 18 Light Italic: Lato LightItalic (300), 18px / 119.17%, tracking 0px
+- Plain Header/h4 18: Rajdhani SemiBold (600), 18px / auto, tracking 0px
+- Plain Header/h3 24: Rajdhani SemiBold (600), 24px / auto, tracking 0px
+- Default Tag Stylings/h3: Rajdhani SemiBold (600), 24px / auto, tracking 0px
+- Rajdhani Variations/Raj 20 Bold Uppercase: Rajdhani Bold (700), 20px / auto, tracking 0px
+- Default Tag Stylings/h4: Rajdhani SemiBold (600), 18px / auto, tracking 0px
+- Default Tag Stylings/h1: Rajdhani SemiBold (600), 36px / auto, tracking 0px
+- Lato Variations/p: Lato Regular (400), 16px / 119.17%, tracking 0px
+- Rajdhani Variations/h3.normal: Rajdhani Regular (400), 24px / auto, tracking 0px
+- Plain Header/h2 30: Rajdhani SemiBold (600), 30px / auto, tracking 0px
+- Rajdhani variations/h4.text.Bold.Uppercase 20: Rajdhani Bold (700), 20px / auto, tracking 0px
+- Lato Varation/.p Variation 22: Lato Regular (400), 22px / auto, tracking 0px
+- Rajdhani variations/h2.Bold.uppercase 30: Rajdhani Bold (700), 30px / auto, tracking 0px
+- Rajdhani Variations/Raj 30 Bold Uppercase: Rajdhani Bold (700), 30px / auto, tracking 0px
+- Raleway Variation/.p Variation 30: Raleway Bold (700), 30px / auto, tracking 0px
+- Lato Varation/.p Variation 18: Lato Regular (400), 18px / auto, tracking 0px
+- Rajdhani variations/h3.Bold 24: Rajdhani Bold (700), 24px / auto, tracking 0px
+- Rajdhani Variations/h3.bold.uppercase: Rajdhani Bold (700), 24px / auto, tracking 0px
+- UVU/Button/Boxed: Montserrat SemiBold (600), 12px / 19.8px, tracking 0.12px
+- Display/Raj 48 Bold Uppercase: Rajdhani Bold (700), 48px / auto, tracking 0px
+- Rajdhani Variations/Raj 18 Bold Uppercase: Rajdhani Bold (700), 18px / auto, tracking 0px
+- Display/Raj 48 Bold: Rajdhani Bold (700), 48px / auto, tracking 0px
+- Rajdhani Variations/Raj 20 Regular: Rajdhani Regular (400), 20px / auto, tracking 0px
+- Section Divider Text: Rajdhani SemiBold (600), 30px / auto, tracking 0px
+- Rajdhani variations/h2.Normal.uppercase 30: Rajdhani Regular (400), 30px / auto, tracking 0px
+- Rajdhani Variations/Raj 36 Semibold Uppercase: Rajdhani SemiBold (600), 36px / auto, tracking 0px
+- Lato Variations/Lato 18 Regular: Lato Regular (400), 18px / 119.17%, tracking 0px
+- UVU/Button/Header: Rajdhani SemiBold (600), 14px / 19.8px, tracking 0px
+- Raleway Variation/.a Variation 14: Raleway Regular (400), 14px / 14px, tracking 0px
+- Raleway Variation/.p Variation 18: Raleway Regular (400), 18px / 14px, tracking 0px
+- Rajdhani Variations/h4.bold.uppercase: Rajdhani Bold (700), 18px / auto, tracking 0px
+- UVU/Card/Body: Lato Regular (400), 16px / 23px, tracking 0px
+- A Place For You/.hero-apfy: Rajdhani Bold (700), 24px / auto, tracking 0px
+- Evergreen/.p: Georgia Georgia (400), 16px / auto, tracking 0px
+- Hero Text: Rajdhani Bold (700), 48px / auto, tracking 0px
+- A Place For You/.apfy-conten p: Kanit Regular (400), 14px / auto, tracking 2px
+- A Place For You/.apfy-conten h4: Kanit SemiBold (600), 32px / auto, tracking 2px
+- Lato Variations/p.bolder: Lato SemiBold (600), 16px / auto, tracking 0px
+- Rajdhani Variations/h3.bold: Rajdhani Bold (700), 24px / auto, tracking 0px
+- Rajdhani Variations/h3.text-28.uppercase: Rajdhani SemiBold (600), 28px / auto, tracking 0px
+- Rajdhani Variations/h2.normal.uppercase: Rajdhani Regular (400), 30px / auto, tracking 0px
+- Display/h1.text-55: Rajdhani Bold (700), 55px / auto, tracking 0px
+- Lato Varation/.p Variation 12: Lato Regular (400), 12px / auto, tracking 0px
+- Lato Varation/.p Variation 14: Lato Regular (400), 14px / 20px, tracking 0px
+- Lato Varation/.p Variation 18: Lato LightItalic (300), 18px / 21.6px, tracking 0px
+- Lato Varation/.p Variation 24: Lato Regular (400), 24px / auto, tracking 0px
+- Rajdhani variations/h4.text.Bolder.underline 18: Rajdhani Medium (500), 18px / auto, tracking 0px
+- Rajdhani variations/h4.text.Bold.Uppercase 18: Rajdhani Bold (700), 18px / auto, tracking 0px
+- Rajdhani variations/h2.uppercase 30: Rajdhani SemiBold (600), 30px / auto, tracking 0px
+- Rajdhani variations/h1 36: Rajdhani SemiBold (600), 36px / auto, tracking 0px
+- Plain Header/h6 12: Rajdhani SemiBold (600), 12px / auto, tracking 0px
+- Plain Header/h5 14: Rajdhani SemiBold (600), 14px / auto, tracking 0px
+- Plain Header/h1 36: Rajdhani SemiBold (600), 36px / auto, tracking 0px
+- Display/h1.text-32.bold: Lato Bold (700), 32px / auto, tracking 0px
+- Display/h1.text-48.bold: Lato Bold (700), 48px / auto, tracking 0px
+- Display/h1.text-48.bold.uppercase: Rajdhani Bold (700), 48px / auto, tracking 0px
+- Display/h1.text-48.bold: Rajdhani Bold (700), 48px / auto, tracking 0px
+- Display/h1.text-64: Rajdhani SemiBold (600), 64px / 115.2px, tracking 0px
+- Display/h1.text-96-bold: Rajdhani Bold (700), 96px / 115.2px, tracking 0px
+- Text-sm/Regular: Open Sauce One Regular (400), 14px / 20px, tracking 0px
+- Text-md/Semibold: Open Sauce One SemiBold (600), 16px / 24px, tracking 0px
+- UVU/Navigation/Depatment: Rajdhani Medium (500), 14px / 17.5px, tracking 0px
+- Navigation/UVU/Navigation/Social: Rajdhani Regular (400), 14px / 20px, tracking 0px
+- UVU/Navigation/Footer-Header: Rajdhani Bold (700), 30px / 22px, tracking 0px
+- Lato Variations/p.text-12: Lato Regular (400), 12px / 119.17%, tracking 0px
+- Lato Variations/p.text-22: Lato Regular (400), 22px / 119.17%, tracking 0px
+- Display/p.text-48.bold: Lato Bold (700), 48px / auto, tracking 0px
+
+## Raw Typography (unstyled)
+- Arial ArialMT, 14px: 280 uses
+- Helvetica Neue Bold, 20px: 223 uses
+- Lato Regular, 16px: 193 uses
+- Lato Regular, 14px: 186 uses
+- Lato Black, 20px: 124 uses
+- Lato Regular, 20px: 124 uses
+- Rajdhani Regular, 14px: 94 uses
+- Rajdhani Bold, 30px: 73 uses
+- Rajdhani SemiBold, 14px: 57 uses
+- Lato Bold, 16px: 55 uses
+- Rajdhani SemiBold, 12px: 48 uses
+- Rajdhani Bold, 16px: 45 uses
+- Rajdhani Bold, 96px: 38 uses
+- Rajdhani Medium, 14px: 38 uses
+- Rajdhani Bold, 20px: 35 uses
+- Rajdhani Bold, 18px: 31 uses
+- Rajdhani Regular, 20px: 29 uses
+- Lato Bold, 18px: 25 uses
+- Rajdhani Regular, 16px: 25 uses
+- Lato Black, 40px: 23 uses
+- Lato Bold, 24px: 21 uses
+- Rajdhani SemiBold, 16px: 21 uses
+- Rajdhani SemiBold, 20px: 17 uses
+- Lato SemiBold, 16px: 16 uses
+- Rajdhani Bold, 28px: 16 uses
+- Rajdhani SemiBold, 36px: 16 uses
+- Lato Italic, 18px: 14 uses
+- Lato Regular, 18px: 14 uses
+- Inter Regular, 18px: 13 uses
+- Lato Bold, 36px: 13 uses
+- Lato Regular, 12px: 13 uses
+- Lato Regular, 36px: 13 uses
+- Rajdhani Bold, 36px: 13 uses
+- Lato Bold, 14px: 12 uses
+- Rajdhani Bold, 52px: 12 uses
+
+## Typography Hierarchy
+- 96px - Display/Raj 96 Bold (Rajdhani Bold)
+- 96px - Display/h1.text-96-bold (Rajdhani Bold)
+- 96px - Headline/super-large (Poppins Regular)
+- 96px - Rajdhani Bold, 96px (raw)
+- 64px - Display/h1.text-64 (Rajdhani SemiBold)
+- 55px - Display/Raj 55 Bold (Rajdhani Bold)
+- 55px - Display/h1.text-55 (Rajdhani Bold)
+- 52px - Rajdhani Bold, 52px (raw)
+- 48px - Display/Raj 48 Bold (Rajdhani Bold)
+- 48px - Display/Raj 48 Bold Uppercase (Rajdhani Bold)
+- 48px - Display/h1.text-48.bold (Lato Bold)
+- 48px - Display/h1.text-48.bold (Rajdhani Bold)
+- 48px - Display/h1.text-48.bold.uppercase (Rajdhani Bold)
+- 48px - Display/p.text-48.bold (Lato Bold)
+- 48px - Hero Text (Rajdhani Bold)
+- 40px - Lato Black, 40px (raw)
+- 36px - Default Tag Stylings/h1 (Rajdhani SemiBold)
+- 36px - Lato Bold, 36px (raw)
+- 36px - Lato Regular, 36px (raw)
+- 36px - Plain Header/h1 36 (Rajdhani SemiBold)
+- 36px - Rajdhani Bold, 36px (raw)
+- 36px - Rajdhani SemiBold, 36px (raw)
+- 36px - Rajdhani Variations/Raj 36 Semibold Uppercase (Rajdhani SemiBold)
+- 36px - Rajdhani variations/h1 36 (Rajdhani SemiBold)
+- 32px - A Place For You/.apfy-conten h4 (Kanit SemiBold)
+- 32px - Display/h1.text-32.bold (Lato Bold)
+- 30px - Plain Header/h2 30 (Rajdhani SemiBold)
+- 30px - Rajdhani Bold, 30px (raw)
+- 30px - Rajdhani Variations/Raj 30 Bold Uppercase (Rajdhani Bold)
+- 30px - Rajdhani Variations/Raj 30 Semibold Uppercase (Rajdhani SemiBold)
+- 30px - Rajdhani Variations/h2.normal.uppercase (Rajdhani Regular)
+- 30px - Rajdhani Variations/h2.uppercase (Rajdhani SemiBold)
+- 30px - Rajdhani variations/h2.Bold.uppercase 30 (Rajdhani Bold)
+- 30px - Rajdhani variations/h2.Normal.uppercase 30 (Rajdhani Regular)
+- 30px - Rajdhani variations/h2.uppercase 30 (Rajdhani SemiBold)
+- 30px - Raleway Variation/.p Variation 30 (Raleway Bold)
+- 30px - Section Divider Text (Rajdhani SemiBold)
+- 30px - UVU/Navigation/Footer-Header (Rajdhani Bold)
+- 28px - Rajdhani Bold, 28px (raw)
+- 28px - Rajdhani Variations/h3.text-28.uppercase (Rajdhani SemiBold)
+- 28px - Rajdhani Variations/h3.text-28.uppercase.bold (Rajdhani Bold)
+- 24px - A Place For You/.hero-apfy (Rajdhani Bold)
+- 24px - Default Tag Stylings/h3 (Rajdhani SemiBold)
+- 24px - Lato Bold, 24px (raw)
+- 24px - Lato Varation/.p Variation 24 (Lato Regular)
+- 24px - Lato Variations/Lato 24 Regular (Lato Regular)
+- 24px - Plain Header/h3 24 (Rajdhani SemiBold)
+- 24px - Rajdhani Variations/Raj 24 Bold (Rajdhani Bold)
+- 24px - Rajdhani Variations/Raj 24 Bold Uppercase (Rajdhani Bold)
+- 24px - Rajdhani Variations/Raj 24 Regular (Rajdhani Regular)
+- 24px - Rajdhani Variations/h3.bold (Rajdhani Bold)
+- 24px - Rajdhani Variations/h3.bold.uppercase (Rajdhani Bold)
+- 24px - Rajdhani Variations/h3.normal (Rajdhani Regular)
+- 24px - Rajdhani variations/h3.Bold 24 (Rajdhani Bold)
+- 22px - Lato Varation/.p Variation 22 (Lato Regular)
+- 22px - Lato Variations/p.text-22 (Lato Regular)
+- 20px - Helvetica Neue Bold, 20px (raw)
+- 20px - Lato Black, 20px (raw)
+- 20px - Lato Regular, 20px (raw)
+- 20px - Rajdhani Bold, 20px (raw)
+- 20px - Rajdhani Regular, 20px (raw)
+- 20px - Rajdhani SemiBold, 20px (raw)
+- 20px - Rajdhani Variations/Raj 20 Bold Uppercase (Rajdhani Bold)
+- 20px - Rajdhani Variations/Raj 20 Regular (Rajdhani Regular)
+- 20px - Rajdhani variations/h4.text.Bold.Uppercase 20 (Rajdhani Bold)
+- 20px - Rajdhani variations/h4.text.normal 20 (Rajdhani Regular)
+- 18px - Body (Lato Regular)
+- 18px - Default Tag Stylings/h4 (Rajdhani SemiBold)
+- 18px - Inter Regular, 18px (raw)
+- 18px - Lato Bold, 18px (raw)
+- 18px - Lato Italic, 18px (raw)
+- 18px - Lato Regular, 18px (raw)
+- 18px - Lato Varation/.p Variation 18 (Lato LightItalic)
+- 18px - Lato Varation/.p Variation 18 (Lato Regular)
+- 18px - Lato Variations/Lato 18 Light Italic (Lato LightItalic)
+- 18px - Lato Variations/Lato 18 Regular (Lato Regular)
+- 18px - Plain Header/h4 18 (Rajdhani SemiBold)
+- 18px - Rajdhani Bold, 18px (raw)
+- 18px - Rajdhani Variations/Raj 18 Bold Uppercase (Rajdhani Bold)
+- 18px - Rajdhani Variations/h4.bold.uppercase (Rajdhani Bold)
+- 18px - Rajdhani variations/h4.text.Bold.Uppercase 18 (Rajdhani Bold)
+- 18px - Rajdhani variations/h4.text.Bolder.underline 18 (Rajdhani Medium)
+- 18px - Raleway Variation/.p Variation 18 (Raleway Regular)
+- 16px - Body (Lato Regular)
+- 16px - Default Tag Stylings/p (Lato Regular)
+- 16px - Evergreen/.p (Georgia Georgia)
+- 16px - Lato Bold, 16px (raw)
+- 16px - Lato Regular, 16px (raw)
+- 16px - Lato SemiBold, 16px (raw)
+- 16px - Lato Varation/.p Variation 16 (Lato Regular)
+- 16px - Lato Variations/Lato 16 Semibold (Lato SemiBold)
+- 16px - Lato Variations/p (Lato Regular)
+- 16px - Lato Variations/p.bolder (Lato SemiBold)
+- 16px - Rajdhani Bold, 16px (raw)
+- 16px - Rajdhani Regular, 16px (raw)
+- 16px - Rajdhani SemiBold, 16px (raw)
+- 16px - Text-md/Semibold (Open Sauce One SemiBold)
+- 16px - UVU/Card/Body (Lato Regular)
+- 14px - A Place For You/.apfy-conten p (Kanit Regular)
+- 14px - Arial ArialMT, 14px (raw)
+- 14px - Lato Bold, 14px (raw)
+- 14px - Lato Regular, 14px (raw)
+- 14px - Lato Varation/.p Variation 14 (Lato Regular)
+- 14px - Navigation/UVU/Navigation/Social (Rajdhani Regular)
+- 14px - Plain Header/h5 14 (Rajdhani SemiBold)
+- 14px - Rajdhani Medium, 14px (raw)
+- 14px - Rajdhani Regular, 14px (raw)
+- 14px - Rajdhani SemiBold, 14px (raw)
+- 14px - Raleway Variation/.a Variation 14 (Raleway Regular)
+- 14px - Text-sm/Regular (Open Sauce One Regular)
+- 14px - UVU/Button/Header (Rajdhani SemiBold)
+- 14px - UVU/Navigation/Depatment (Rajdhani Medium)
+- 12px - Lato Regular, 12px (raw)
+- 12px - Lato Varation/.p Variation 12 (Lato Regular)
+- 12px - Lato Variations/p.text-12 (Lato Regular)
+- 12px - Plain Header/h6 12 (Rajdhani SemiBold)
+- 12px - Rajdhani SemiBold, 12px (raw)
+- 12px - UVU/Button/Boxed (Montserrat SemiBold)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- UVU Card Drop Shadow: [drop_shadow 6px offset 0 1 #00000040]
+- Card Drop Shadow: [drop_shadow 5px offset 0 2 #00000033]
+- 0px 0px 6px rgba(0, 0, 0, 0.16): [drop_shadow 6px offset 0 0 #00000029]
+- 0px 3px 6px rgba(0, 0, 0, 0.16): [drop_shadow 6px offset 0 3 #00000029]
+- component dropshadow: [drop_shadow 5px offset 0 2 #00000033]
+- UVU Card Drop Shadow Variant: [inner_shadow 5px offset 0 2 #00000040, drop_shadow 4px offset 0 4 #00000040]
+- Box Shadow: [drop_shadow 5px offset 0 2 #00000033]
+- UVU Image Drop Shadow: [drop_shadow 5px offset 2 2 #00000066]
+
+## Grid Styles
+- UVU Department Layout: columns count 12, section 70px, gutter 30px, align center
+- UVU Grid Actual: columns count 12, section 70px, gutter 30px, align center
+- UVU Website Layout: columns count 12, section 70px, gutter 30px, align center
+- UVU Mobile Layout: columns count 6, section 32.83px, gutter 5px, align stretch
+
+## Component Families
+- News Template
+- Faculty Spotlight Template
+- About Section Template
+- Utah Pattern
+- Icon Background
+- Square
+- Utah Logo
+- HalfCircle
+- Circle_Striped
+- Box_Striped
+- Circle_Half_Striped
+- Circle
+- Box_OL
+- ZigZag_OL
+- ZigZag
+- X
+- Stairs
+- Box
+- Circle_OL
+- Grid_Pattern
+- PolkaDots_Pattern_Blue
+- PolkaDots_Pattern_LimeGreen
+- SlantCheckered_Pattern_Green
+- SlantCheckered_Pattern_White
+- striped_pattern_blue
+- Striped_White
+- TriangleCheckered_Pattern_White
+- Trianlge_Checkered_LimeGreen
+- Xs_Pattern_LimeGreen
+- InfoG_-PeopleMd
+- InfoG_-PeopleSm
+- InfoG_-PeopleLg
+- Student Success w-Exceptionals
+- Student Success Circle
+- InfoG_-Rect4
+- InfoG_-Rect3
+- InfoG_-Rect2
+- InfoG_-Rect1
+- InfoG_-100percent
+- InfoG_-87percent
+- InfoG_-75percent
+- InfoG_-62percent
+- InfoG_-50percent
+- InfoG_-38percent
+- InfoG_-25percent
+- InfoG_-BoxGn5
+- InfoG_-BoxGn12
+- InfoG_-BoxGn11
+- InfoG_-BoxGn10
+- InfoG_-BoxGn6
+- InfoG_-BoxGn4
+- InfoG_-box1
+- InfoG_-Box7
+- InfoG_-Box3
+- InfoG_-Box2
+- InfoG_-BoxShadow14
+- InfoG_-BoxShadow27
+- InfoG_-Box9
+- InfoG_-Box8
+- InfoG_-BoxShadow28
+- InfoG_-BoxShadow16
+- InfoG_-BoxShadow15
+- InfoG_-Boxshadow13
+- InfoG_-TagRight
+- InfoG_-TagLeft
+- InfoG_-TagArrow
+- Timp 2
+- Green tiny squares
+- Timp 1
+- Mechanical & Civil Engineering
+- TM&M
+- IS&T
+- ECE
+- DGM
+- CA
+- CS
+- CT
+- AETT
+- Avaiation
+- AED
+- SCET
+- Animation & Game Design
+- Web Design & Development
+- Digital Audio
+- Digital Cinema Production
+- dropdown arrow
+- fa-insert
+- Quote
+- Chevron
+- MyUVU
+- Arrow
+- Search
+- hmbgr-menu 1
+- uvu-logo.svg
+- accordian1
+- Salaries Section
+- accordian2
+- Minimal Dropdown Bottom
+- Extra Resource Section Button Wraps
+- Extra Resources
+- Student Resources Template
+- 01
+- Main Degree Section
+- homePageLink
+- 15
+- 12
+- 14
+- Department Resource Card
+- University Resource Card
+- card.picture-card 6
+- card:picture-card 4
+- card.picture-card 7
+- card.picture-card 5
+- card:picture-card 2
+- card:picture-card 3
+- card:picture-card 1
+- 04
+- 03
+- Program Template
+- Staff Testimonial Bit
+- Student Testimonial
+- Card:Staff Option 8
+- Staff Card 5
+- Staff Card 4
+- Staff Card 2
+- Staff Card 1
+- News Story
+- .hero-apfy a.button-border.button-hero.button-green
+- a.evergreen-button
+- Squircle Button
+- Rectangle Button
+- Header Button
+- Event Card
+- Faculty Testimonial
+- Career Outlook
+- Component 1
+- Interaction Design Tab
+- Mobile Footer
+- Card: Article Title
+- Card 16
+- Minimal Dropdown Top
+- Minimal Dropdown
+- Dropdown Bottom
+- Dropdown Top
+- drop down content
+- Accordian 1
+- accordion2content
+- accordion2content.middle
+- accordion2content.top
+- Program Link item 2
+- PDF Link Item [accordion]
+- PDF Link Item (accordion) Bottom
+- PDF Links
+- Portfolio Link Item
+- Bottom Portfolio Link Item
+- Portfolio Links
+- Program Link Item
+- Bottom Program Link Item
+- Program Links
+- Department Student Resource Section
+- University Resource Section
+- Ethics Card
+- Resources 2
+- Resource 1
+- Scrollable Layout
+- 02
+- event-list-item
+- List:Event Item Option 3
+- Card:Event 5
+- Card: Event
+- Card:Event 1
+- Card:Event 2
+- Card:Event 4
+- 05
+- 04: location
+- 5 & 7+ Programs Card
+- Degree
+- Call Out
+- Card: Multi-Content Card 1
+- Mobile Contact
+- Desktop Contact
+- GlobalHeaderNav
+- Department
+- Mobile Nav Bar
+- FooterDept
+- Footer Links
+- Footer Socials
+- Department Section Header
+- Divider Center
+- Divider Basic
+- Divider Emphasis
+- Divider Left Aligned
+- event.card
+- 06
+- 07
+- 08
+- 09
+- 10
+- 11
+- 13
+- card:picture-card 8
+- card-picture-card 9
+- Resource Bottom Banner
+- Callout Banner
+- Banner 6
+- Banner 4
+- Banner 5
+- Banner 3
+- Banner 2
+- Banner 1
+- bannerShapes1
+- bannerWShapes2
+- Section Title
+- Testimonial 2
+- Student Testimonials
+- Faculty Card
+- Staff Story
+- Staff Card 7
+- Staff Card 6
+- Advisor Card 2
+- Advisor Card 1
+- Advisor Card - option 2
+- Card:Staff Option 7
+- Card: Advisor - option 1
+- Staff cards Option 6
+- Card:Staff Option 4
+- Content Hub UVU Stories
+- News Banner
+- Learn More
+- Banner Button
+- Card Button
+
+## Component Specs
+- News Template (🖥️ Layout): size 1440x576px, vertical layout, padding 40 0 40 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Rajdhani Bold, 28px, UVU/Card/Body, Rajdhani Variations/h2.normal.uppercase, Rajdhani Variations/Raj 30 Bold Uppercase, Rajdhani Variations/h2.uppercase]
+- Faculty Spotlight Template (🖥️ Layout): size 1170x578px, vertical layout, padding 40 0 40 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [UVU/Button/Header, Lato BoldItalic, 24px, Lato Regular, 17.5px, Rajdhani SemiBold, 36px, Rajdhani Variations/h2.uppercase]
+- About Section Template (🖥️ Layout): size 1170x410px, horizontal layout, padding 40 0 40 0px, gap 30px, sizing W:fixed H:fixed, text [Lato Variations/Lato 16 Semibold, Default Tag Stylings/p, Rajdhani Regular, 48px]
+- News Template (🖥️ Layout): size 1440x556px, vertical layout, padding 0 0 60 0px, gap 60px, align min/center, sizing W:fixed H:fixed, text [Rajdhani Bold, 28px, UVU/Card/Body, Rajdhani Variations/h2.normal.uppercase, Rajdhani Variations/Raj 30 Bold Uppercase, Rajdhani Variations/h2.uppercase]
+- Faculty Spotlight Template (🖥️ Layout): size 1170x538px, vertical layout, padding 0 0 60 0px, gap 40px, align min/center, sizing W:fixed H:fixed, text [UVU/Button/Header, Lato BoldItalic, 24px, Lato Regular, 17.5px, Rajdhani SemiBold, 36px, Rajdhani Variations/h2.uppercase]
+- About Section Template (🖥️ Layout): size 1172x424px, horizontal layout, padding 60 0 60 0px, gap 30px, align min/center, sizing W:fixed H:fixed, text [Lato Variations/Lato 16 Semibold, Default Tag Stylings/p, Rajdhani Regular, 48px]
+- Utah Pattern: size 323x323px, fill #FFFFFF | variants: Property 1: pattern utah-brtgreen/pattern utah-dkgreen/pattern utah-gray
+- Icon Background: size 362x362px, fill #FFFFFF | variants: Property 1: Icon Background-blk 1/Icon Background-brtgreen 1/Icon Background-dkgreen 1/Icon Background-white 1
+- Square: size 483x482px, fill #FFFFFF | variants: Property 1: Pattern square-brtgreen 1/Pattern square-dkgreen 1/Pattern square-gray 1
+- Utah Logo: size 240x267px, fill #FFFFFF | variants: Property 1: Utah-03 1/Utah-03-03 1
+- HalfCircle: size 122x245px
+- Circle_Striped: size 122x122px
+- Box_Striped: size 123x123px
+- Circle_Half_Striped: size 122x61px
+- Circle: size 122x123px, fill #FFFFFF
+- Box_OL: size 122x123px, fill #FFFFFF
+- ZigZag_OL: size 122x122px, fill #FFFFFF
+- ZigZag: size 122x122px, fill #FFFFFF
+- X: size 122x126px, fill #FFFFFF
+- Stairs: size 122x123px, fill #FFFFFF
+- Box: size 123x122px, fill #FFFFFF
+- Circle_OL: size 123x123px, fill #FFFFFF
+- Grid_Pattern: size 324x323px, fill #FFFFFF
+- PolkaDots_Pattern_Blue: size 324x327px, fill #FFFFFF
+- PolkaDots_Pattern_LimeGreen: size 323x326px, fill #FFFFFF
+- SlantCheckered_Pattern_Green: size 324x323px, fill #FFFFFF
+- SlantCheckered_Pattern_White: size 323x323px, fill #FFFFFF
+- striped_pattern_blue: size 323x323px, fill #FFFFFF
+- Striped_White: size 323x324px, fill #FFFFFF
+- TriangleCheckered_Pattern_White: size 323x323px, fill #FFFFFF
+- Trianlge_Checkered_LimeGreen: size 324x324px, fill #FFFFFF
+- Xs_Pattern_LimeGreen: size 323x326px, fill #FFFFFF
+- InfoG_-PeopleMd: size 928x248px, fill #FFFFFF
+- InfoG_-PeopleSm: size 380x153px, fill #FFFFFF
+- InfoG_-PeopleLg: size 371x307px, fill #FFFFFF
+- Student Success w-Exceptionals: size 276x276px, fill #FFFFFF
+- Student Success Circle: size 276x276px, fill #FFFFFF
+- InfoG_-Rect4: size 293x181px, fill #FFFFFF
+- InfoG_-Rect3: size 293x181px, fill #FFFFFF
+- InfoG_-Rect2: size 293x182px, fill #FFFFFF
+- InfoG_-Rect1: size 293x182px, fill #FFFFFF
+- InfoG_-100percent: size 132x133px, fill #FFFFFF
+- InfoG_-87percent: size 132x133px, fill #FFFFFF
+- InfoG_-75percent: size 132x133px, fill #FFFFFF
+- InfoG_-62percent: size 133x133px, fill #FFFFFF
+- InfoG_-50percent: size 132x133px, fill #FFFFFF
+- InfoG_-38percent: size 132x133px, fill #FFFFFF
+- InfoG_-25percent: size 133x133px, fill #FFFFFF
+- InfoG_-BoxGn5: size 133x165px, fill #FFFFFF
+- InfoG_-BoxGn12: size 132x132px, fill #FFFFFF
+- InfoG_-BoxGn11: size 133x132px, fill #FFFFFF
+- InfoG_-BoxGn10: size 132x132px, fill #FFFFFF
+- InfoG_-BoxGn6: size 132x165px, fill #FFFFFF
+- InfoG_-BoxGn4: size 133x165px, fill #FFFFFF
+- InfoG_-box1: size 132x165px, fill #FFFFFF
+- InfoG_-Box7: size 133x132px, fill #FFFFFF
+- InfoG_-Box3: size 132x165px, fill #FFFFFF
+- InfoG_-Box2: size 132x165px, fill #FFFFFF
+- InfoG_-BoxShadow14: size 132x165px, fill #FFFFFF
+- InfoG_-BoxShadow27: size 133x133px, fill #FFFFFF
+- InfoG_-Box9: size 132x132px, fill #FFFFFF
+- InfoG_-Box8: size 132x132px, fill #FFFFFF
+- InfoG_-BoxShadow28: size 133x132px, fill #FFFFFF
+- InfoG_-BoxShadow16: size 132x132px, fill #FFFFFF
+- InfoG_-BoxShadow15: size 132x165px, fill #FFFFFF
+- InfoG_-Boxshadow13: size 132x165px, fill #FFFFFF
+- InfoG_-TagRight: size 262x556px, fill #FFFFFF
+- InfoG_-TagLeft: size 262x556px, fill #FFFFFF
+- InfoG_-TagArrow: size 591x595px, fill #FFFFFF
+- Timp 2: size 1447x334px, fill #FFFFFF
+- Green tiny squares: size 1447x226px, fill #FFFFFF
+- Timp 1: size 1447x333px, fill #FFFFFF
+- Mechanical & Civil Engineering: size 404.88x50.66px, fill #FFFFFF | variants: style: black/primary green/white
+- TM&M (✌ Icon): size 505.11x50.66px, fill #FFFFFF | variants: style: Default/black/white
+- IS&T: size 471x50.67px | variants: style: black/primary green/white
+- ECE: size 471.48x50.66px | variants: style: Default/black/white
+- DGM: size 269.3x50.67px | variants: style: black/primary green/white
+- CA: size 294.85x50.66px | variants: style: black/primary green/white
+- CS: size 303.68x50.67px | variants: style: black/primary green/white
+- CT: size 357.83x50.67px | variants: style: black/primary green/white
+- AETT (✌ Icon): size 578.45x50.66px, fill #FFFFFF | variants: style: black/primary green/white
+- Avaiation: size 462.76x50.67px | variants: style: black/primary green/white
+- AED: size 429.71x50.67px | variants: style: black/primary/white
+- SCET (✌ Icon): size 522.23x50.67px | variants: style: black/primary green/white
+- TM&M (✌ Icon): size 327.31x107.69px, fill #FFFFFF | variants: style: black/primary green/white
+- AETT (✌ Icon): size 270.49x132.33px, fill #FFFFFF | variants: style: black/primary green/white
+- SCET (✌ Icon): size 346x111.94px, text [Stratum1 Black, 25px] | variants: style: black/primary green/white
+- Animation & Game Design: size 209.32x161.58px
+- Web Design & Development: size 248x225.5px
+- Digital Audio: size 297x258px
+- Digital Cinema Production: size 171.61x188.98px
+- dropdown arrow: size 16x22px, fill #FFFFFF
+- fa-insert: size 37x37px, fill #FFFFFF
+- Quote: size 14.25x12.43px, fill #FFFFFF
+- Chevron: size 16x13px, fill #FFFFFF
+- MyUVU: size 21x15.19px, horizontal layout, padding 0 0 0.01 0px, gap 0px, sizing W:fixed H:fixed
+- Arrow: size 26x23px, fill #FFFFFF
+- Search: size 27x28px, fill #FFFFFF
+- hmbgr-menu 1: size 32x20px, fill #FFFFFF
+- uvu-logo.svg: size 102x31px, fill #FFFFFF
+- accordian1: size 846x52px, horizontal layout, padding 20 10 10 50px, gap 45px, align min/center, sizing W:fixed H:fixed, stroke #275D38 1px, text [Rajdhani Regular, 20px] | variants: component: accordion1content; type: middle/top; state: collapsed/expanded
+- Salaries Section: size 1170x771px, vertical layout, padding 40 0 40 0px, gap 12px, align min/center, sizing W:fixed H:fixed, text [Lato Variations/Lato 24 Regular, Display/Raj 55 Bold, Lato Variations/Lato 16 Semibold, Lato Italic, 18px, Lato Bold, 24px, Display/Raj 96 Bold, Rajdhani Variations/Raj 30 Semibold Uppercase] | variants: Side Stats: Four Stat/Three Stat
+- accordian2: size 846x56px, horizontal layout, padding 20 10 10 50px, gap 45px, align min/center, sizing W:fixed H:fixed, stroke #275D38 1px, text [Rajdhani variations/h4.text.normal 20] | variants: component: accordion2content; type: middle/top; state: collapsed/expanded
+- Minimal Dropdown Bottom: size 822x129px, vertical layout, padding 20 30 20 50px, gap 0px, sizing W:fixed H:fixed, text [Default Tag Stylings/p, Rajdhani Regular, 20px] | variants: Property 1: Default/Two Column
+- Extra Resource Section Button Wraps: size 570x179px, vertical layout, padding 0 0 0 0px, gap 10px, align min/center, sizing W:fixed H:fixed, text [Lato Variations/Lato 16 Semibold] | variants: Property 1: 1-3 Buttons/4+ Buttons
+- Extra Resources: size 1440x310px, horizontal layout, padding 40 0 40 0px, gap 30px, align center/min, sizing W:fixed H:fixed, stroke #275D38 1px, text [Lato Variations/p.bolder, Rajdhani Variations/Raj 24 Bold] | variants: Button/Socials: Both/Buttons Only
+- Student Resources Template: size 1170x494.56px, vertical layout, padding 0 0 60 0px, gap 40px, align min/center, sizing W:fixed H:fixed, text [Lato Regular, 16px, Raleway Regular, 18px, Rajdhani Bold, 32px, Rajdhani SemiBold, 14px, Default Tag Stylings/p, Rajdhani Variations/Raj 30 Semibold Uppercase, Rajdhani Variations/h2.uppercase] | variants: Resources: 3/Default
+- 01 (📇Components): size 1070x459px, horizontal layout, padding 0 0 0 0px, gap 126px, align min/center, sizing W:fixed H:fixed, text [Lato Bold, 24px, Lato Regular, 48px, Rajdhani Regular, 16px, Lato Italic, 18px, Rajdhani Bold, 96px] | variants: Property 1: Bottom CTA Button/Default
+- Main Degree Section: size 1170x1436px, vertical layout, padding 40 0 40 0px, gap 0px, sizing W:fixed H:fixed, text [Lato Variations/p, Rajdhani Variations/h3.normal, Lato Regular, 14px, Rajdhani Variations/Raj 24 Regular, Default Tag Stylings/p, Default Tag Stylings/h4, Rajdhani Variations/Raj 20 Bold Uppercase, Default Tag Stylings/h1] | variants: Property 1: No Third Region/w/ ABET/w/ Both/w/ Dropdown
+- homePageLink: size 180x40px, horizontal layout, padding 10 10 10 10px, gap 0px, align center/center, sizing W:fixed H:fixed, text [Rajdhani SemiBold, 16px] | variants: style: :a/:hover/Default
+- 15: size 368x350px, text [Lato Varation/.p Variation 22] | variants: style: :hover/Default
+- 12: size 370x173px, text [Lato Regular, 16px, Rajdhani Regular, 30px] | variants: Property 1: Default/Variant2
+- 14: size 370x229px, text [Rajdhani Regular, 39px] | variants: Style: Face/Hover
+- Department Resource Card: size 271x218.38px, vertical layout, padding 0 0 0 0px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect UVU Card Drop Shadow, text [Lato Regular, 16px, Rajdhani Bold, 30px] | variants: Size: 3 Column/3 Column + Description/4 Coulumn/4 Coulumn + Description
+- University Resource Card: size 372x300.37px, vertical layout, padding 20 0 0 0px, gap 20px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect UVU Card Drop Shadow, text [Lato Regular, 16px, Body, Rajdhani Variations/Raj 30 Bold Uppercase] | variants: Size: 3 Column/4 Column
+- card.picture-card 6: size 270x271px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect component dropshadow, text [Rajdhani SemiBold, 30px] | variants: size: 3 column/column 4
+- card:picture-card 4: size 370x290px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect component dropshadow, text [Lato SemiBold, 16px, Plain Header/h2 30] | variants: size: 3 column/4 column
+- card.picture-card 7: size 270x271px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect component dropshadow, text [Rajdhani variations/h4.text.Bold.Uppercase 20] | variants: size: column 3/column 4
+- card.picture-card 5: size 270x272px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect component dropshadow, text [Raleway Variation/.p Variation 30] | variants: size: 3 column/4 column
+- card:picture-card 2: size 370x409px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect component dropshadow, text [Lato SemiBold, 16px, Lato Regular, 16px, Plain Header/h2 30] | variants: size: column 3/column 4
+- card:picture-card 3: size 370x407px, radius 6px, vertical layout, padding 20 20 20 20px, gap 16px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #E8E8E8 1px, text [Lato Varation/.p Variation 18, Lato Regular, 16px, Plain Header/h2 30] | variants: size: column 3/column 4
+- card:picture-card 1: size 370x409px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect component dropshadow, text [Lato SemiBold, 16px, Lato Regular, 16px, Plain Header/h2 30] | variants: size: 4 column/column 3
+- 04 (📇Components): size 270x150.28px, vertical layout, padding 17 33 17 33px, gap 10px, sizing W:fixed H:fixed, fill #C5E86C, text [Rajdhani SemiBold, 14px, Rajdhani Bold, 18px] | variants: style: clover/forest/lime/primary
+- 03 (📇Components): size 270x552px, stroke #DDDDDD 1px, text [Lato Varation/.p Variation 16, Rajdhani variations/h3.Bold 24] | variants: Property 1: Default/icon outline
+- 01 (📇Components): size 271x426px, effect UVU Card Drop Shadow, text [Lato Regular, 16px, Rajdhani SemiBold, 18px, Body] | variants: Property 1: Default/No description/Variant2
+- Program Template: size 1170x560px, vertical layout, padding 40 0 40 0px, gap 0px, sizing W:fixed H:fixed, text [Rajdhani Variations/Raj 30 Semibold Uppercase, UVU/Button/Boxed, Rajdhani Variations/h2.uppercase] | variants: Program Amount: 2 Programs/3 Programs/4 Programs/5 & 7+ Programs/6 Programs
+- Staff Testimonial Bit: size 570x122.43px, horizontal layout, padding 19 31 19 31px, gap 9px, sizing W:fixed H:fixed, fill #FFFFFF, effect UVU Card Drop Shadow, text [Lato Bold, 18px, Default Tag Stylings/p] | variants: Property 1: Default/Left
+- Student Testimonial: size 1170x318.97px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Lato Regular, 18px, Lato Varation/.p Variation 16, Rajdhani Variations/Raj 36 Semibold Uppercase] | variants: Prop: Left Image/Right Image
+- Card:Staff Option 8: size 570x251px, text [Lato Regular, 16px, Raleway Regular, 18px, Rajdhani Bold, 32px] | variants: style: Default/short
+- Staff Card 5: size 370x406px, text [Lato Regular, 16px, Lato Varation/.p Variation 16, Rajdhani variations/h3.Bold 24, Rajdhani Bold, 30px] | variants: style: Default/no additional content
+- Staff Card 4: size 372x474px, radius 5px, vertical layout, padding 20 20 20 20px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, effect component dropshadow, text [Lato Regular, 16px, Lato Varation/.p Variation 16, Lato Medium, 16px, Rajdhani Bold, 20px] | variants: style: Default/side stack
+- Staff Card 2: size 370x358px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Lato Regular, 16px, Lato Varation/.p Variation 16, Raleway Variation/.p Variation 30] | variants: Property 1: Default/Variant2
+- Staff Card 1 (📇Components): size 370x298px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Lato Bold, 14px, Lato Regular, 16px, Lato Varation/.p Variation 16, Lato Bold, 18px] | variants: style: Default/addtional information
+- Staff Card 1 (📇Components): size 370x298px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Lato Bold, 14px, Lato Regular, 16px, Lato Varation/.p Variation 16, Lato Bold, 18px] | variants: style: Default/additional information
+- News Story: size 362x175px, vertical layout, padding 20 0 20 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Lato Regular, 12px, Lato Bold, 12px, Lato Regular, 16px] | variants: Style: + Image/Default/Image + Text/Social Media Card
+- .hero-apfy a.button-border.button-hero.button-green: size 145x51px, radius 12px, horizontal layout, padding 10 15 10 15px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #4BA23F, text [A Place For You/.hero-apfy] | variants: Style: :hover/Default
+- a.evergreen-button: size 244x64px, horizontal layout, padding 32 50 32 50px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #019949, stroke #99CC67 3px, text [Rajdhani Bold, 30px] | variants: style: :hover/Default
+- Squircle Button: size 101x50px, radius 8px, horizontal layout, padding 14 20 14 20px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #275D38, text [Rajdhani Regular, 16px] | variants: Style: Black + OL/Dark Green/Dark Green + OL/Dark Green + Thick OL
+- Rectangle Button: size 131x53px, horizontal layout, padding 15 15 15 15px, gap 15px, align min/center, sizing W:fixed H:fixed, stroke #275D38 2px, text [Lato Variations/Lato 16 Semibold] | variants: Style: Filled/Lato/Filled/Raj/Outlined/Lato/Outlined/Monst/Outlined/Raj
+- Header Button: size 85x34.28px, radius 25px, horizontal layout, padding 7.14 25 7.14 25px, gap 0px, sizing W:fixed H:fixed, fill #275D38, text [Rajdhani SemiBold, 14px] | variants: Style: :hover/Dark Green/Outline Black/Outline White/White w/ Green Text
+- Event Card: size 1170x308px, horizontal layout, padding 35 0 35 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Lato Bold, 16px, Lato Bold, 30px]
+- Faculty Testimonial (📇Components): size 1170x372px, text [Rajdhani SemiBold, 14px, Lato BoldItalic, 24px, Lato Regular, 16px, Rajdhani Bold, 36px]
+- Career Outlook: size 1170x752px, text [Lato Light, 16px, Body, Rajdhani SemiBold, 20px, Rajdhani Bold, 50px, Rajdhani Regular, 16px, Rajdhani Bold, 46px]
+- Component 1: size 1355x1144px, fill #FFFFFF, text [Rajdhani Bold, 59px, Lato Medium, 18px, Rajdhani Medium, 22px, Lato Variations/Lato 16 Semibold, Rajdhani Bold, 26px, Body]
+- Interaction Design Tab: size 1170x724px, text [Lato Regular, 16px, Lato Italic, 18px, Rajdhani SemiBold, 20px, Rajdhani Bold, 36px, Lato SemiBold, 16px, Rajdhani SemiBold, 18px, Rajdhani Bold, 26px, Rajdhani Bold, 44px]
+- Mobile Footer: size 390x1402px, fill #FFFFFF, text [Rajdhani Medium, 14px, Arial ArialMT, 14px, Rajdhani Bold, 30px, Rajdhani Regular, 14px]
+- Card: Article Title: size 270x817.51px, vertical layout, padding 0 0 0 0px, gap 0px, align space_between/min, sizing W:fixed H:fixed, fill #FFFFFF, effect [drop_shadow 5px offset 0 2 #00000033], text [Lato Bold, 18px, Lato Regular, 16px, Raleway SemiBold, 18px]
+- Card 16/Card 17: size 328x210.95px, text [Rajdhani Medium, 19px, Rajdhani Regular, 19px, Rajdhani SemiBold, 32px]
+- Minimal Dropdown Top: size 822x71px, vertical layout, padding 0 0 20 0px, gap 20px, sizing W:fixed H:fixed, text [Rajdhani Regular, 24px]
+- Minimal Dropdown: size 822x200px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Default Tag Stylings/p, Rajdhani Regular, 20px, Rajdhani Regular, 24px]
+- Dropdown Bottom: size 1170x68px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Body]
+- Dropdown Top: size 1170x51px, radius 5px, horizontal layout, padding 0 0 0 0px, gap 15px, sizing W:fixed H:fixed, fill #F9F9F9, text [Rajdhani Variations/Raj 24 Regular]
+- drop down content: size 1169x232px, horizontal layout, padding 24 30 24 30px, gap 10px, align center/center, sizing W:fixed H:fixed, fill #F9F9F9, text [Default Tag Stylings/p]
+- Accordian 1: size 1170x88px, text [Rajdhani Regular, 16px, Rajdhani Regular, 24px]
+- accordion2content: size 1170x268px, vertical layout, padding 0 0 0 0px, gap 20px, sizing W:fixed H:fixed, text [Rajdhani Regular, 20px]
+- accordion2content.middle: size 1170x52px, horizontal layout, padding 20 10 10 50px, gap 45px, align min/center, sizing W:fixed H:fixed, stroke #275D38 1px, text [Rajdhani Regular, 20px]
+- accordion2content.top: size 1170x52px, horizontal layout, padding 20 10 10 50px, gap 45px, align min/center, sizing W:fixed H:fixed, text [Rajdhani Regular, 20px]
+- Program Link item 2: size 370x54px, vertical layout, padding 14 25 14 25px, gap 10px, sizing W:fixed H:fixed, fill #D9D9D9, stroke #275D38 1px, text [Rajdhani Regular, 20px]
+- PDF Link Item [accordion]: size 340x36px, stroke #81BE79 1px, text [Lato Regular, 14px]
+- PDF Link Item (accordion) Bottom: size 340x36px, text [Lato Regular, 14px]
+- PDF Links: size 370x210px, radius 5px, vertical layout, padding 15 15 15 15px, gap 0px, sizing W:fixed H:fixed, fill #E6F3EC, text [Lato Regular, 14px]
+- Portfolio Link Item: size 340x37px, stroke #81BE79 0px, text [Lato Regular, 14px]
+- Bottom Portfolio Link Item: size 340x37px, text [Lato Regular, 14px]
+- Portfolio Links: size 370x104px, radius 5px, vertical layout, padding 15 15 15 15px, gap 0px, sizing W:fixed H:fixed, fill #EDF6EC, text [Lato Regular, 14px]
+- Program Link Item: size 340x37px, stroke #A1D263 0px, text [Lato Regular, 14px]
+- Bottom Program Link Item: size 340x37px, text [Lato Regular, 14px]
+- Program Links: size 370x289px, radius 5px, vertical layout, padding 15 15 15 15px, gap 0px, sizing W:fixed H:fixed, fill #F2F9E9, text [Lato Regular, 14px]
+- Department Student Resource Section: size 1171x446.38px, vertical layout, padding 40 0 40 0px, gap 40px, align min/center, sizing W:fixed H:fixed, text [Lato Regular, 16px, Rajdhani Bold, 30px, Rajdhani Variations/h2.uppercase]
+- University Resource Section: size 1176x852.74px, vertical layout, padding 40 0 40 0px, gap 40px, align min/center, sizing W:fixed H:fixed, text [Lato Regular, 16px, Body, Rajdhani Variations/h3.text-28.uppercase.bold, Rajdhani Variations/h2.uppercase]
+- Ethics Card: size 1170x307px, vertical layout, padding 0 0 40 0px, gap 40px, sizing W:fixed H:fixed, text [Lato Regular, 16px, Lato Bold, 16px, Rajdhani Variations/Raj 24 Bold Uppercase, Display/Raj 96 Bold]
+- Resources 2: size 1170x399px, text [Lato Regular, 16px, Lato Bold, 16px, Rajdhani Bold, 30px]
+- Resource 1: size 1195x458px, fill #FFFFFF, text [Font Awesome 5 Free Black, 15.88px, Rajdhani SemiBold, 16px, Lato Regular, 16px, Lato Regular, 24px, Rajdhani Bold, 18px, Rajdhani Bold, 28px]
+- Scrollable Layout: size 1349x287px, vertical layout, padding 0 0 0 0px, gap 0px, align min/max, sizing W:fixed H:fixed, text [Rajdhani Variations/Raj 24 Bold Uppercase, Lato SemiBold, 16px, Default Tag Stylings/p, Rajdhani Bold, 20px, Rajdhani Regular, 32px, Rajdhani Bold, 40px]
+- 04 (📇Components): size 1169.9x139px, horizontal layout, padding 0 0 0 0px, gap 16.3px, sizing W:fixed H:fixed, text [Rajdhani SemiBold, 19px, Rajdhani SemiBold, 63px]
+- 03 (📇Components): size 1440x630px, text [Rajdhani SemiBold, 100px, Rajdhani Regular, 18px, Rajdhani Bold, 36px, Rajdhani Bold, 18px]
+- 02 (📇Components): size 1070x390px, fill #FFFFFF, text [Lato Variations/Lato 18 Light Italic, Lato Variations/Lato 24 Regular, Display/Raj 96 Bold]
+- event-list-item: size 340x386px, vertical layout, padding 0 0 0 0px, gap 11px, sizing W:fixed H:fixed, text [Lato Variations/Lato 16 Semibold, Lato Regular, 16px]
+- List:Event Item Option 3: size 1201x363.88px, text [Lato Regular, 16px, Lato Bold, 16px, Rajdhani SemiBold, 30px]
+- Card:Event 5: size 1170x109px, text [Lato Regular, 14px, Lato Regular, 16px, Rajdhani Regular, 31px]
+- Card: Event: size 283x343.3px, text [Rajdhani Medium, 24px, Arial ArialMT, 12px, Arial BoldMT, 12px]
+- Card:Event 1: size 1170x265px, vertical layout, padding 52 26 52 48px, gap 10px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, text [Lato Bold, 16px, Lato Bold, 30px]
+- Card:Event 2: size 1191x265px, vertical layout, padding 52 56 52 144px, gap 10px, align center/min, sizing W:fixed H:fixed, fill #FFFFFF, text [Lato Bold, 16px, Rajdhani Regular, 30px]
+- Card:Event 4: size 1186x259px, text [Rajdhani Regular, 30px, Lato Bold, 16px]
+- 05 (📇Components): size 600x273px, text [Rajdhani SemiBold, 16px]
+- 04: location: size 600x273px, text [Lato Varation/.p Variation 16, Rajdhani Bold, 24px, Plain Header/h4 18]
+- 03 (📇Components): size 1170x476px, text [Rajdhani Bold, 16px, Rajdhani Bold, 30px]
+- 02 (📇Components): size 658x254px, radius 8px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect 0px 0px 6px rgba(0, 0, 0, 0.16), text [Rajdhani Bold, 16px, Lato Regular, 16px, Lato Varation/.p Variation 16, Plain Header/h3 24]
+- 5 & 7+ Programs Card: size 970x126px, horizontal layout, padding 0 0 0 0px, gap 30px, align min/center, sizing W:fixed H:fixed, fill #F9F9F9, effect UVU Card Drop Shadow, text [Default Tag Stylings/p, Default Tag Stylings/h3]
+- Degree/Short: size 570x234px, radius 5px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect UVU Card Drop Shadow, text [Default Tag Stylings/p, Rajdhani SemiBold, 18px, Rajdhani Variations/Raj 20 Bold Uppercase]
+- Degree/Long Short: size 770x160px, radius 5px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect UVU Card Drop Shadow, text [Default Tag Stylings/p, Default Tag Stylings/h4, Rajdhani Variations/Raj 20 Bold Uppercase]
+- Degree/Long: size 770x280px, radius 5px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect UVU Card Drop Shadow, text [Default Tag Stylings/p, Rajdhani SemiBold, 18px, Rajdhani Variations/Raj 20 Bold Uppercase]
+- Degree/Large: size 570x202px, radius 5px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect UVU Card Drop Shadow, text [Lato Regular, 16px, Rajdhani Bold, 20px]
+- Call Out: size 1059x132.39px, horizontal layout, padding 0 48 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Lato Regular, 16px, Raleway Regular, 24px, Font Awesome 5 Free Black, 46px]
+- 01 (📇Components): size 682x256px, radius 5px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect UVU Card Drop Shadow, text [Rajdhani Bold, 16px, Lato Regular, 16px, Lato Bold, 16px, Rajdhani Bold, 20px]
+- Card: Multi-Content Card 1: size 374x492px, text [Rajdhani Medium, 19px, Lato Regular, 31px]
+- Mobile Contact: size 390x817px, text [Rajdhani Medium, 16px, Rajdhani Regular, 16px, Rajdhani Regular, 19px, Rajdhani Bold, 19px, Rajdhani SemiBold, 22px, Rajdhani SemiBold, 30px]
+- Desktop Contact: size 1164x511px, text [Rajdhani Medium, 16px, Rajdhani Regular, 16px, Rajdhani Regular, 19px, Rajdhani Bold, 19px, Rajdhani SemiBold, 19px, Rajdhani SemiBold, 22px, Rajdhani SemiBold, 30px]
+- GlobalHeaderNav/Mainpage Web Navigation: size 1440x131px, vertical layout, padding 0 0 0 0px, gap 0px, align center/min, sizing W:fixed H:fixed, text [Rajdhani SemiBold, 16px, Rajdhani SemiBold, 14px, Rajdhani Medium, 20px]
+- Department/Program Nav: size 1440x114px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Rajdhani SemiBold, 12px, Font Awesome 5 Free Black, 17.86px, Rajdhani SemiBold, 14px, Rajdhani SemiBold, 20px]
+-  Mobile Nav Bar: size 462x177px, text [Rajdhani Medium, 12px, Rajdhani SemiBold, 12px, Rajdhani SemiBold, 20px]
+- FooterDept: size 1440x45px, text [Rajdhani Medium, 14px]
+- Footer Links: size 1440x439px, vertical layout, padding 100 40 80 40px, gap 10px, sizing W:fixed H:fixed, fill #275D38, text [Arial ArialMT, 14px, Rajdhani Bold, 30px]
+- Footer Socials: size 1440x144px, text [Rajdhani Regular, 14px]
+- Department Section Header: size 1060x78px, text [Rajdhani SemiBold, 30px]
+- Divider Center: size 1200x48px, text [Rajdhani Regular, 36px]
+- Divider Basic: size 1194x59px, text [Rajdhani Medium, 30px]
+- Divider Emphasis: size 1200x77px, text [Rajdhani Bold, 30px]
+- Divider Left Aligned: size 1200x38px, fill #FFFFFF, text [Rajdhani Regular, 36px]
+- 05 (📇Components): size 400x361px, radius 10px, vertical layout, padding 20 10 20 10px, gap 0px, sizing W:fixed H:fixed, text [Lato Regular, 16px, Lato Varation/.p Variation 16, Rajdhani Medium, 24px]
+- event.card: size 1170x450px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Lato Variations/Lato 16 Semibold, Plain Header/h2 30, Rajdhani Regular, 16px]
+- 02 (📇Components): size 570x432px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect component dropshadow, text [Default Tag Stylings/p, Lato Variations/Lato 16 Semibold, Rajdhani Variations/Raj 24 Bold]
+- 03 (📇Components): size 598x508.3px, vertical layout, padding 15 15 15 15px, gap 0px, sizing W:fixed H:fixed, text [Raleway Bold, 30px]
+- 04 (📇Components): size 470x348px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Rajdhani variations/h4.text.Bold.Uppercase 20]
+- 01 (📇Components): size 370x194px, text [Lato Regular, 16px, Rajdhani Regular, 30px]
+- 02 (📇Components): size 340x529px, effect UVU Card Drop Shadow Variant, text [Lato Regular, 16px, Rajdhani Regular, 30px]
+- 03 (📇Components): size 359x528px, effect UVU Card Drop Shadow Variant, text [Lato Regular, 16px, Rajdhani Regular, 30px]
+- 04 (📇Components): size 370x262px, text [Rajdhani Bold, 20px]
+- 05 (📇Components): size 370x291px, effect UVU Card Drop Shadow Variant, text [Lato Regular, 16px, Rajdhani Regular, 30px]
+- 06: size 380x415px, text [Lato Regular, 18px, Lato Regular, 16px, Rajdhani Bold, 30px]
+- 07: size 370x535px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, effect UVU Card Drop Shadow, text [Lato Regular, 16px, Lato Regular, 18px, Plain Header/h2 30]
+- 08: size 370x391px, vertical layout, padding 14 21 14 21px, gap 11px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Lato Regular, 16px, Rajdhani Bold, 24px]
+- 09: size 370x292px, effect UVU Card Drop Shadow, text [Lato Bold, 30px]
+- 10: size 370x475px, effect UVU Card Drop Shadow, text [Lato Regular, 18px, Lato Regular, 16px, Rajdhani Regular, 30px]
+- 11: size 370x272px, text [Rajdhani Medium, 30px]
+- 13: size 370x552px, stroke #DDDDDD 1px, text [Lato Varation/.p Variation 16, Rajdhani variations/h2.Bold.uppercase 30]
+- card:picture-card 8: size 1169x145px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, effect component dropshadow, text [Rajdhani SemiBold, 16px, Lato Regular, 16px, Rajdhani Bold, 20px]
+- card-picture-card 9: size 1170x281px, text [Rajdhani Bold, 16px, Lato Regular, 16px, Rajdhani variations/h2.Bold.uppercase 30]
+- 05 (📇Components): size 270x535px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [Rajdhani Bold, 16px, Rajdhani Medium, 16px, Rajdhani Bold, 35px]
+- 02 (📇Components): size 270x305px, text [Rajdhani Bold, 16px, Rajdhani Bold, 18px]
+- Resource Bottom Banner: size 1440x319px, vertical layout, padding 15 0 15 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Lato Variations/Lato 16 Semibold, Rajdhani Regular, 24px, Display/Raj 48 Bold Uppercase]
+- Callout Banner: size 1440x331px, horizontal layout, padding 15 0 15 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [Lato Variations/Lato 16 Semibold, Default Tag Stylings/p, Rajdhani SemiBold, 36px]
+- Banner 6: size 1441x338px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, text [Rajdhani Bold, 16px, Rajdhani variations/h2.Bold.uppercase 30]
+- Banner 4: size 1440x389px, text [Rajdhani Variations/Raj 18 Bold Uppercase, Display/Raj 48 Bold, Montserrat Bold, 12px, Default Tag Stylings/p, Rajdhani Variations/Raj 20 Regular, Rajdhani Variations/Raj 30 Bold Uppercase]
+- Banner 5: size 1440x512px, vertical layout, padding 40 220 40 220px, gap 43px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Lato Regular, 16px, Lato Bold, 16px, Section Divider Text]
+- Banner 3: size 1440x351px, text [Lato Varation/.p Variation 22, Rajdhani Medium, 45px, Lato Regular, 16px, Rajdhani variations/h2.Normal.uppercase 30]
+- Banner 2: size 1440x92px, vertical layout, padding 14 420 14 420px, gap 10px, sizing W:fixed H:fixed, fill #FFFFFF, text [Rajdhani Regular, 28px]
+- Banner 1: size 1440x199px, horizontal layout, padding 33 23 33 23px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #275D38, text [Rajdhani Bold, 28px, Rajdhani Bold, 60px, Rajdhani Bold, 36px]
+- bannerShapes1: size 1514x375px, fill #FFFFFF
+- bannerWShapes2: size 1440x460px, fill #FFFFFF
+- Section Title: size 1440x163px, horizontal layout, padding 40 25 40 25px, gap 481px, align space_between/min, sizing W:fixed H:fixed, fill #00843D, text [Lato Regular, 16px, Rajdhani Bold, 96px]
+- Testimonial 2/Variant2: size 1170x398.43px, text [Lato Bold, 18px, Default Tag Stylings/p, Rajdhani Variations/Raj 36 Semibold Uppercase, Lato Variations/Lato 18 Regular]
+- Testimonial 2/Default: size 1170x398.43px, text [Lato Bold, 18px, Default Tag Stylings/p, Rajdhani Variations/Raj 36 Semibold Uppercase, Lato Variations/Lato 18 Regular]
+- Student Testimonials: size 1199x400px, text [Lato Regular, 16px, Rajdhani Bold, 52px, Lato Regular, 12px, Rajdhani Bold, 20px]
+- Faculty Card: size 1170x360px, radius 10px, horizontal layout, padding 30 30 30 30px, gap 30px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, effect UVU Card Drop Shadow, text [Rajdhani SemiBold, 14px, Lato BoldItalic, 24px, Default Tag Stylings/p, Rajdhani Bold, 36px]
+- Staff Story: size 1199x318px, text [Lato Regular, 16px, Rajdhani SemiBold, 36px]
+- Staff Card 7: size 330x333px, vertical layout, padding 20 0 0 0px, gap 20px, align min/center, sizing W:fixed H:fixed, stroke #000000 1px, text [Rajdhani SemiBold, 16px, Lato SemiBold, 16px, Rajdhani SemiBold, 30px]
+- Staff Card 6: size 370x343px, radius 2px, vertical layout, padding 10 10 10 10px, gap 4px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #275D38 1px, effect component dropshadow, text [Lato Regular, 16px, Lato Regular, 12.8px, Lato Varation/.p Variation 16, Lato Medium, 16px, Lato Bold, 16px]
+- Advisor Card 2: size 1252x281px, text [Lato Variations/Lato 16 Semibold, Raleway Regular, 16px, Raleway Variation/.a Variation 14, Raleway Variation/.p Variation 18, Rajdhani Bold, 30px]
+- Advisor Card 1: size 570x417px, radius 18px, vertical layout, padding 0 0 0 0px, gap 10px, sizing W:fixed H:fixed, effect component dropshadow, text [Rajdhani Regular, 16px, Lato Varation/.p Variation 16, Rajdhani Bold, 30px]
+- Advisor Card - option 2: size 370x396px, radius 7px, vertical layout, padding 0 0 0 0px, gap 20px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #EFEFEF 1px, text [Rajdhani Regular, 16px, Lato Regular, 16px, Rajdhani SemiBold, 30px]
+- Card:Staff Option 7: size 370x398px, text [Lato Medium, 16px, Lato Regular, 16px, Rajdhani SemiBold, 25px, Rajdhani Bold, 30px]
+- Card: Advisor - option 1: size 372x480px, effect UVU Card Drop Shadow, text [Rajdhani Regular, 16px, Lato Regular, 16px, Rajdhani Bold, 30px]
+- Staff cards Option 6: size 771x308px, effect UVU Card Drop Shadow, text [Lato Regular, 16px, Rajdhani Medium, 16px, Rajdhani Medium, 24px, Rajdhani Bold, 32px]
+- Card:Staff Option 4: size 579x306px, text [Lato Regular, 22px, Rajdhani Bold, 28px]
+- Content Hub UVU Stories: size 1440x590px, vertical layout, padding 50 0 50 0px, gap 30px, align min/center, sizing W:fixed H:fixed, fill #00843D, text [Rajdhani Bold, 14px, Rajdhani Regular, 14px, Rajdhani Bold, 16px, Rajdhani Variations/h4.bold.uppercase, Rajdhani Regular, 30px]
+- Faculty Testimonial (📇Components): size 1170x438px, text [Lato Variations/Lato 16 Semibold, Body, Rajdhani Bold, 18px, Rajdhani Bold, 52px]
+- News Banner: size 1440x358px, text [UVU/Card/Body, Rajdhani Bold, 28px, Rajdhani Bold, 20px]
+- Learn More: size 1170x49.14px, fill #FFFFFF, stroke #275D38 1px, text [Font Awesome 5 Free Regular, 12px, Lato Regular, 12px]
+- Squircle Button/.card-picture-button: size 234x60px, radius 8px, horizontal layout, padding 14 20 14 20px, gap 10px, align min/center, sizing W:fixed H:fixed, stroke #275D38 2px, text [Rajdhani Bold, 16px]
+- Banner Button: size 312x72px, vertical layout, padding 25 73 25 73px, gap 10px, sizing W:fixed H:fixed, fill #4BA23F, text [Lato Bold, 18px]
+- Card Button: size 284x47px, radius 7px, horizontal layout, padding 14 123 14 123px, gap 10px, align center/center, sizing W:fixed H:fixed, stroke #E8E8E8 1px, text [Lato Regular, 16px]
+
+## Most-Used Styles
+- Neutrals/-black: 166 uses
+- UVU Card Drop Shadow: 153 uses
+- Primary/-uvu-green: 141 uses
+- UVU Image Drop Shadow: 124 uses
+- Default Tag Stylings/p: 116 uses
+- Clover/-clover: 110 uses
+- Lato Varation/.p Variation 16: 74 uses
+- Rajdhani Variations/Raj 20 Bold Uppercase: 47 uses
+- Neutrals/-white: 44 uses
+- Default Tag Stylings/h4: 41 uses
+- Forest/-forest: 40 uses
+- Fern/-fern-l1: 38 uses
+- Lato Variations/Lato 16 Semibold: 38 uses
+- Rajdhani Variations/h2.uppercase: 30 uses
+- Body: 24 uses
+- component dropshadow: 24 uses
+- Lato Variations/p: 21 uses
+- Box Shadow: 20 uses
+- Default Tag Stylings/h1: 19 uses
+- Rajdhani Variations/Raj 30 Semibold Uppercase: 19 uses
+- Card Drop Shadow: 18 uses
+- Rajdhani variations/h4.text.Bold.Uppercase 20: 18 uses
+- Lato Variations/Lato 24 Regular: 14 uses
+- Lato Variations/p.bolder: 14 uses
+- Plain Header/h2 30: 14 uses
+- Rajdhani Variations/Raj 24 Bold Uppercase: 11 uses
+- Display/Raj 48 Bold: 10 uses
+- Rajdhani Variations/Raj 18 Bold Uppercase: 10 uses
+- Shades of Gray/White: 10 uses
+- Primary/Black: 9 uses
+- Clover/-clover-l1: 8 uses
+- Display/h1.text-55: 8 uses
+- Rajdhani Variations/Raj 24 Regular: 8 uses
+- UVU/Button/Header: 8 uses
+- A Place For You/.apfy-conten p: 7 uses
+- Neutrals/-grey-xlight: 7 uses
+- Rajdhani Variations/Raj 30 Bold Uppercase: 7 uses
+- Rajdhani Variations/h3.bold.uppercase: 7 uses
+- Display/Raj 55 Bold: 6 uses
+- Fern Green/Fern Green: 6 uses
+- Fern/-fern-l3: 6 uses
+- Primary Green/Primary Green: 6 uses
+- Rajdhani Variations/h3.text-28.uppercase.bold: 6 uses
+- Rajdhani variations/h2.Bold.uppercase 30: 6 uses
+- Rajdhani variations/h4.text.normal 20: 6 uses
+- Display/Raj 96 Bold: 5 uses
+- Display/p.text-48.bold: 5 uses
+- Lato Variations/p.text-22: 5 uses
+- Rajdhani Variations/Raj 24 Bold: 5 uses
+- Rajdhani Variations/Raj 36 Semibold Uppercase: 5 uses
+- Rajdhani Variations/h3.normal: 5 uses
+- Rajdhani variations/h3.Bold 24: 5 uses
+- Clover/-clover-l3: 4 uses
+- Default Tag Stylings/h3: 4 uses
+- Fern/l1: 4 uses
+- Forest/-forest-l1: 4 uses
+- Forest/-forest-l3: 4 uses
+- Headline/super-large: 4 uses
+- Lato Varation/.p Variation 18: 4 uses
+- Lato Varation/.p Variation 22: 4 uses
+- Lato Variations/p.text-12: 4 uses
+- Rajdhani Variations/h2.normal.uppercase: 4 uses
+- Rajdhani Variations/h3.text-28.uppercase: 4 uses
+- Raleway Variation/.p Variation 30: 4 uses
+- Shades of Gray/Grey: 4 uses
+- UVU Primary Green: 4 uses
+- UVU/Card/Body: 4 uses
+- A Place For You/.apfy-conten h4: 3 uses
+- A Place For You/.hero-apfy: 3 uses
+- Hero Text: 3 uses
+- Rajdhani Variations/h3.bold: 3 uses
+- Rajdhani Variations/h4.bold.uppercase: 3 uses
+- Raleway Variation/.p Variation 18: 3 uses
+- Shades of Gray/Black: 3 uses
+- Shades of Gray/ExtraLight Grey: 3 uses
+- UVU Card Drop Shadow Variant: 3 uses
+- 0px 0px 6px rgba(0, 0, 0, 0.16): 2 uses
+- 0px 3px 6px rgba(0, 0, 0, 0.16): 2 uses
+- Black: 2 uses
+- Clover/l1: 2 uses
+- Display/h1.text-48.bold: 2 uses
+- Evergreen/.p: 2 uses
+- Gray/500: 2 uses
+- Lato Variations/Lato 18 Regular: 2 uses
+- Plain Header/h3 24: 2 uses
+- Plain Header/h4 18: 2 uses
+- Rajdhani Variations/Raj 20 Regular: 2 uses
+- Rajdhani variations/h2.Normal.uppercase 30: 2 uses
+- Raleway Variation/.a Variation 14: 2 uses
+- Text-md/Semibold: 2 uses
+- Text-sm/Regular: 2 uses
+- UVU/Button/Boxed: 2 uses
+- Display/Raj 48 Bold Uppercase: 1 use
+- Display/h1.text-32.bold: 1 use
+- Display/h1.text-48.bold.uppercase: 1 use
+- Display/h1.text-64: 1 use
+- Display/h1.text-96-bold: 1 use
+- Forest Green/Forest Green: 1 use
+- Lato Varation/.p Variation 12: 1 use
+- Lato Varation/.p Variation 14: 1 use
+- Lato Varation/.p Variation 24: 1 use
+- Lato Variations/Lato 18 Light Italic: 1 use
+- Navigation/UVU/Navigation/Social: 1 use
+- Plain Header/h1 36: 1 use
+- Plain Header/h5 14: 1 use
+- Plain Header/h6 12: 1 use
+- Rajdhani variations/h1 36: 1 use
+- Rajdhani variations/h2.uppercase 30: 1 use
+- Rajdhani variations/h4.text.Bold.Uppercase 18: 1 use
+- Rajdhani variations/h4.text.Bolder.underline 18: 1 use
+- Section Divider Text: 1 use
+- Shades of Gray/Silver: 1 use
+- UVU Footer Socials Bar Background: 1 use
+- UVU/Navigation/Depatment: 1 use
+- UVU/Navigation/Footer-Header: 1 use
+
+## Layout & Structure
+Screen: 🏆 Start Here / Introduction Page
+- FRAME "Introduction Page", 1440x901px, constraints left/top, radius 15px, fill #FFFFFF
+  - INSTANCE "Grid_Pattern", 1330x810px, constraints center/center, fill #FFFFFF
+    - RECTANGLE "Grid_Pattern", 1330x810px, constraints scale/scale, fill image(hash: 3179f066594d0039ef9aa8ffe88e37209ef0e25a)
+  - ELLIPSE "Ellipse 1", 61x61px, constraints left/top, stroke #FF0000 4px
+  - INSTANCE "ZigZag_OL", 171x171px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 171x171px, constraints scale/scale, fill #4BA23F
+  - INSTANCE "X", 104x110px, constraints left/top, fill #FFFFFF
+    - VECTOR "X", 104x110px, constraints scale/scale, fill #E15230
+  - ELLIPSE "Ellipse 2", 61x61px, constraints left/top, stroke #4BA23F 5px
+  - RECTANGLE "UVUmockup 2", 1562.66x1403.69px, constraints left/top, fill image(hash: 6c9f80694953baabf16a70f06ea34542b47d9d66)
+  - INSTANCE "X", 55x58px, constraints left/top, fill #FFFFFF
+    - VECTOR "X", 55x58px, constraints scale/scale, fill #E15230
+  - INSTANCE "HalfCircle", 74x144px, constraints left/top
+    - VECTOR "Vector", 74x144px, constraints scale/scale, fill #00843D
+  - INSTANCE "Circle_Half_Striped", 150x76px, constraints left/top
+    - GROUP "Clip path group", 150x76px, constraints scale/scale [decorative, ~19 shapes]
+  - FRAME "Frame 2", 778x540px, vertical pad 0 0 0 0px gap 26px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "UVUHorizontalBlack-0010 1 1", 390x69px, constraints left/top, fill image(hash: e952287c814a98f64d2bb0d7965612517c60e1e7)
+    - TEXT "Web Design System", 945x260px, constraints left/top, fill #000000, text [Stratum1 Black, 147px], [heading]
+    - TEXT "100+ COMPONENTS Design Tokens icons", 778x159px, constraints left/top, fill #000000, text [Lato Medium, 44px], [heading]
+  - INSTANCE "Stairs", 142.65x142.65px, constraints left/top, fill #FFFFFF
+    - VECTOR "Stairs", 142.65x142.65px, constraints scale/scale, fill #86C8BC
+  - INSTANCE "Circle_OL", 89.37x89.37px, constraints left/top, fill #FFFFFF
+    - VECTOR "Circle_OL", 89.37x89.37px, constraints scale/scale, fill #275D38
+
+Screen: 🏆 Start Here / About the Designer
+- FRAME "About the Designer", 1109x621px, constraints left/top, radius 15px, fill #FFFFFF, stroke #275D38 14px
+  - FRAME "Frame 3", 999x308px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 1", 265x235px, constraints left/top
+      - ELLIPSE "Ellipse 3", 221x221px, constraints left/top, fill image(hash: b97b0dfb3c4655192bdd1279d0702e711e87f440)
+      - INSTANCE "ZigZag_OL", 55x55px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 55x55px, constraints scale/scale, fill #86C8BC
+      - INSTANCE "BoxOutline/Red Box", 48x48px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Box4", 48x48px, constraints scale/scale, fill image(hash: 623f6132538552e06c584c4b5653d3b58ee7007c)
+      - RECTANGLE "Square5", 37x38px, constraints scale/scale, fill image(hash: f8441adf887c297a81ce37cef08c2b427d3b0d74)
+    - FRAME "Frame 1", 714x308px, horizontal pad 10 10 10 10px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, stroke #275D38 1px
+      - TEXT "Hi! I’m Emma Lam, an Interaction Design student at Utah Vall", 694x288px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+  - TEXT "ABOUT THIS DESIGN SYSTEM", 721x71px, constraints left/top, fill #000000, text [Stratum1 Black, 59px], [heading]
+  - FRAME "Rectangle Button", 471x89px, horizontal pad 15 16 15 16px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top, fill #275D38
+    - TEXT "Read Documentation", 403x61px, constraints left/top, fill #FFFFFF, text [Lato SemiBold, 43px], [heading]
+    - VECTOR "Vector", 21x19px, constraints left/top, fill #FFFFFF
+
+Screen: 🏫 Examples / uvu.edu/digitalmedia
+- FRAME "uvu.edu/digitalmedia", 1440x5655px, constraints left/top, fill #FFFFFF
+  - GROUP "Header", 1440x123px, constraints left/top
+    - FRAME "Logo", 66.85x20.22px, constraints left/top
+      - FRAME "uvu-mono.svg fill", 66.2x20.22px, constraints left/top
+        - FRAME "uvu-mono.svg", 66.17x20.22px, constraints center/center
+          - GROUP "uvu-logo.svg", 66.17x20.22px, constraints scale/scale
+            - VECTOR "Path 21", 21.11x20.22px, constraints scale/scale, fill #275D38
+            - VECTOR "Path 22", 19.67x20.22px, constraints scale/scale, fill #275D38
+            - VECTOR "Path 23", 19.66x20.22px, constraints scale/scale, fill #275D38
+    - TEXT "Link → Information Systems & Technology", 319.24x26px, constraints left/top, fill #275D38, text [Rajdhani SemiBold, 20px]
+    - FRAME "Button Bar", 464.37x60.38px, constraints right/scale
+      - FRAME "List", 349.86x21.98px, constraints center/center
+        - FRAME "Item", 119.13x21.98px, constraints left/top_bottom
+          - FRAME "Link", 119.13x32.25px, constraints left/top, radius 25px, fill #275D38
+            - TEXT "Apply to UVU", 79.45x18px, constraints left/top, fill #FFFFFF, text [Rajdhani SemiBold, 14px]
+        - FRAME "Item", 92.5x21.98px, constraints left/top_bottom
+          - FRAME "Link", 92.5x32.25px, constraints left/top, radius 25px, fill #EFEFEF
+            - TEXT "Why UVU", 52.86x18px, constraints left/top, fill #275D38, text [Rajdhani SemiBold, 14px]
+        - FRAME "Item", 104.23x21.98px, constraints left/top_bottom
+          - FRAME "Link", 104.23x32.25px, constraints left/top, radius 25px, fill #EFEFEF
+            - FRAME "SVG", 21x15.19px, constraints left/top
+            - TEXT "myUVU", 43.56x18px, constraints left/top, fill #275D38, text [Rajdhani SemiBold, 14px]
+      - FRAME "Link", 80x80px, constraints left/top_bottom
+        - TEXT "Symbol", 18.2x20px, constraints left/top, fill #275D38, text [Font Awesome 5 Free Black, 17.86px]
+    - FRAME "Navigation Menu", 1440x43px, constraints left_right/top, fill #F2F2F2, stroke #DDDDDD 1px
+      - FRAME "Pages", 533x12px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "CET", 20x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+        - TEXT "Programs/degrees", 118x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+        - TEXT "Advising", 53x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+        - TEXT "Financial Aid & Scholarships", 185x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+        - TEXT "Content Hub", 77x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+  - GROUP "Hero Image", 1440x375px, constraints left/top
+    - RECTANGLE "Hero", 1440x375px, constraints center/top, fill #78BE20
+    - RECTANGLE "Overlay", 1440x375px, constraints left/top, fill #00000033
+    - RECTANGLE "Hero Logo", 445.82x84px, constraints left/top, fill image(hash: 957c23ab0f77d9c32f7cb89f4b8f94311ac10aef)
+  - GROUP "Degrees Count Banner", 1440x210px, constraints left/top
+    - RECTANGLE "Green Banner", 1440x210px, constraints left/top, fill #275D38
+    - GROUP "Certificates", 103x121px, constraints left/top, radius 0/0/0/0px
+      - TEXT "7", 28.27x58px, constraints left/top, fill #FFFFFF, text [Lato Bold, 48px], [heading]
+      - TEXT "Certificate Programs", 103x52px, constraints left/top, fill #FFFFFF, text [Lato Regular, 22px]
+    - GROUP "Associates", 104.01x121px, constraints left/top, radius 0/0/0/0px
+      - TEXT "4", 28.27x58px, constraints left/top, fill #FFFFFF, text [Lato Bold, 48px], [heading]
+      - TEXT "Associate Degrees", 104.01x52px, constraints left/top, fill #FFFFFF, text [Lato Regular, 22px]
+    - GROUP "Minors", 79x133px, constraints center/top, radius 0/0/0/0px
+      - LINE "Line 52", 79x0px, constraints center/top, fill #FFFFFF
+      - TEXT "7", 28.27x58px, constraints left/top, fill #FFFFFF, text [Lato Bold, 48px], [heading]
+      - TEXT "Minors", 71.7x26px, constraints left/top, fill #FFFFFF, text [Lato Regular, 22px]
+    - GROUP "Bachelor's", 99.97x121px, constraints left/top, radius 0/0/0/0px
+      - TEXT "7", 28.27x58px, constraints left/top, fill #FFFFFF, text [Lato Bold, 48px], [heading]
+      - TEXT "Bachelor’s Degrees", 99.97x52px, constraints left/top, fill #FFFFFF, text [Lato Regular, 22px]
+    - GROUP "Master's", 82.81x121px, constraints left/top, radius 0/0/0/0px
+      - TEXT "6", 28.27x58px, constraints left/top, fill #FFFFFF, text [Lato Bold, 48px], [heading]
+      - TEXT "CE Courses", 82.81x52px, constraints left/top, fill #FFFFFF, text [Lato Regular, 22px]
+  - GROUP "About Section", 1170x286px, constraints left/top
+    - RECTANGLE "Video", 470x286px, constraints left/top, fill image(hash: 3f963fce8567d1d026126d0737727513c86c1b6a)
+    - FRAME "About Description", 670x268px, vertical pad 0 0 0 0px gap 22px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Hader", 480x33px, constraints left/top, fill #000000, text [Rajdhani SemiBold, 36px], [heading]
+      - TEXT "Description", 670x115px, constraints left/top, fill #000000, text [Default Tag Stylings/p]
+      - INSTANCE "button", 200x76px, horizontal pad 15 15 15 15px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #275D38 2px
+        - TEXT "Label Here", 146x46px, constraints left/top, fill #275D38, text [Lato Variations/Lato 16 Semibold]
+        - VECTOR "Vector", 9x8px, constraints left/top, fill #275D38
+  - GROUP "Faculty Section", 1173x478px, constraints left/top, radius 0/0/0/0px
+    - INSTANCE "Dividers", 1170x78px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Title", 984x38px, constraints left/top, fill Primary/-uvu-green, text [Rajdhani Variations/h2.uppercase], [heading]
+      - FRAME "<hr />", 1170x30px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+        - LINE "Line", 505x0px, constraints left/top, fill Primary/-uvu-green, stroke Primary/-uvu-green 1px
+        - INSTANCE "dg_people", 30x30px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "dg_people", 30x30px, constraints scale/scale, fill image(hash: 9bff1a5498bcdb2738d3d4a56235b7dd79fdc267)
+        - LINE "Line", 505x0px, constraints left/top, fill Primary/-uvu-green, stroke Primary/-uvu-green 1px
+    - INSTANCE "Faculty-Card", 1170x360px, horizontal pad 30 30 30 30px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Neutrals/-white, effect Card Drop Shadow
+      - GROUP "Image", 300x300px, constraints left/top
+        - ELLIPSE "Accent", 275x276px, constraints scale/scale, fill Clover/-clover
+        - ELLIPSE "Profile 300x300", 275x275px, constraints scale/scale, fill image(hash: 9bf683f1f03f9c07edefe16cd1a3968ad760bc95)
+      - FRAME "TEXT", 780x272px, vertical pad 0 0 0 0px gap 15px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Callout", 780x92px, constraints left/top, fill Neutrals/-black, text [Rajdhani SemiBold, 36px], [heading]
+        - FRAME "Added Quote", 780x114px, horizontal pad 0 0 0 15px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke Primary/-uvu-green 1px
+          - TEXT "Quote Body", 765x114px, constraints left/top, fill Neutrals/-black, text [Lato Regular, 17.5px]
+        - FRAME "Button and Name", 780x36px, horizontal pad 0 0 0 0px gap 326px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Name and Position", 306x29px, constraints left/top, fill Clover/-clover, text [Lato BoldItalic, 24px], [heading]
+          - INSTANCE "Button-myUVU", 181x36px, horizontal pad 8 25 8 25px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 100px, fill Primary/-uvu-green, stroke Primary/-uvu-green 2px
+            - TEXT "Call to Action", 131x20px, constraints left/top, fill Neutrals/-white, text [UVU/Button/Header], [heading]
+  - GROUP "Salaries Section", 1115x501px, constraints center/top
+    - GROUP "Salaries Title", 1060x69px, constraints center/top
+      - TEXT "Department facts", 242x38px, constraints center/top, fill #275D38, text [Rajdhani Variations/Raj 30 Semibold Uppercase], [heading]
+      - GROUP "</ hr>", 1060x21px, constraints left/top
+        - LINE "Line 16", 505x0px, constraints left/top, fill #275D38, stroke #275D38 1px
+        - RECTANGLE "icon_financial-growth 1", 30x21px, constraints left/top, fill image(hash: 15984e60f8bb15a12ce5ef56f5055fd6fb505e61)
+        - LINE "Line 17", 505x0px, constraints left/top, fill #275D38, stroke #275D38 1px
+    - GROUP "Statistics", 570x394px, constraints center/top
+      - RECTANGLE "105-Online Diploma 2", 100x100px, constraints left/top, fill image(hash: ea703109204a534f11d5ee60f4ddf81fa09468a3)
+      - TEXT "The DGM department currently has 560 students across our fou", 369x102px, constraints left/top, fill #000000, text [Lato Variations/Lato 24 Regular], [heading]
+      - RECTANGLE "71-Textbooks 1 1", 100x100px, constraints left/top, fill image(hash: bbe130ee4a91b26d4c4bf883691c3c15e1bf9e79)
+      - RECTANGLE "73-Graduation", 100x100px, constraints left/top, fill image(hash: 643d90b15768b6b4f7f0aa7baed6bd4e63d6d9d0)
+      - TEXT "Our department has over 150 courses to select from, all taug", 369x102px, constraints left/top, fill #000000, text [Lato Variations/Lato 24 Regular], [heading]
+      - TEXT "The department was established in 2004 and celebrated its 20", 442x102px, constraints left/top, fill #000000, text [Lato Variations/Lato 24 Regular], [heading]
+  - GROUP "Awards Section", 1170x354px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Awards Title", 1050x88.59px, constraints center/top
+      - TEXT "Awards & Showcase", 277x40.79px, constraints left/top, fill #275D38, text [Rajdhani SemiBold, 30px], [heading]
+      - GROUP "</ hr>", 1050x35.59px, constraints scale/scale
+        - LINE "Line 16", 505x0px, constraints left/top, fill UVU Primary Green, stroke #275D38 1px
+        - INSTANCE "dg-award", 30x35.59px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "icon/award", 30x35.59px, constraints scale/scale, fill image(hash: d80cf318450ee4ea9bc5c4d02c20c958b4a2c2b1)
+        - LINE "Line 17", 505x0px, constraints left/top, fill UVU Primary Green, stroke #275D38 1px
+    - GROUP "Animation", 270x149px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 247", 270x149px, constraints left/top, fill #275D38
+      - GROUP "Animation Icon", 43.07x33.24px, constraints center/top [decorative, ~14 shapes]
+      - TEXT "Animation & game development", 251x23px, constraints left/top, fill Shades of Gray/White, text [Rajdhani Bold, 18px]
+      - INSTANCE "Header Button", 138x34.28px, horizontal pad 7.14 25 7.14 25px gap 0px sizing W:fixed H:fixed, constraints center/top, radius 25px, fill Shades of Gray/White
+        - TEXT "Label", 88x20px, constraints left/top, fill #000000, text [Rajdhani SemiBold, 14px]
+    - GROUP "Cinema", 270x149px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 245", 270x149px, constraints left/top, fill #4BA23F
+      - TEXT "Digital cinema production", 213x23px, constraints center/top, fill Shades of Gray/White, text [Rajdhani Bold, 18px]
+      - INSTANCE "Header Button", 138x34.28px, horizontal pad 7.14 25 7.14 25px gap 0px sizing W:fixed H:fixed, constraints center/top, radius 25px, fill Shades of Gray/White
+        - TEXT "Label", 88x20px, constraints left/top, fill Shades of Gray/Black, text [Rajdhani SemiBold, 14px]
+      - GROUP "Cinema Icon", 30.87x34px, constraints center/top [decorative, ~17 shapes]
+    - GROUP "Web", 270x149px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 246", 270x149px, constraints left/top, fill #C5E86C
+      - TEXT "web design & development", 214x23px, constraints center/top, fill Primary Green/Primary Green, text [Rajdhani Bold, 18px]
+      - INSTANCE "Header Button", 138x34.28px, horizontal pad 7.14 25 7.14 25px gap 0px sizing W:fixed H:fixed, constraints center/top, radius 25px, fill Shades of Gray/White
+        - TEXT "Label", 88x20px, constraints left/top, fill #000000, text [Rajdhani SemiBold, 14px]
+      - GROUP "UX Icon", 37.39x34px, constraints center/top [decorative, ~16 shapes]
+    - TEXT "In each of our four programs, students work on capstone proj", 1170x46px, constraints left/top, fill #000000, text [Default Tag Stylings/p]
+    - GROUP "Audio", 269x150px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 244", 269x150px, constraints left/top, fill #00843D
+      - TEXT "Digital Audio Production", 201x23px, constraints center/top, fill Shades of Gray/White, text [Rajdhani Bold, 18px]
+      - INSTANCE "Header Button", 138x34.28px, horizontal pad 7.14 25 7.14 25px gap 0px sizing W:fixed H:fixed, constraints center/top, radius 25px, fill Shades of Gray/White
+        - TEXT "Label", 88x20px, constraints left/top, fill #000000, text [Rajdhani SemiBold, 14px]
+      - GROUP "Audio Icon", 48.35x42px, constraints center/top, radius 0/0/0/0px [decorative, ~12 shapes]
+  - GROUP "News Section", 1440x467px, constraints left/top
+    - GROUP "News Title", 1060x69px, constraints center/top
+      - TEXT "News", 984x38px, constraints center/top, fill #275D38, text [Rajdhani SemiBold, 30px], [heading]
+      - GROUP "</ hr>", 1060x21px, constraints left/top
+        - LINE "Line 16", 505x0px, constraints left/top, fill UVU Primary Green, stroke #275D38 1px
+        - RECTANGLE "icon_communications 1", 30x21px, constraints left/top, fill image(hash: 4c3e9b4cece513ffabfa9ff4e7b430b8c39317de)
+        - LINE "Line 17", 505x0px, constraints left/top, fill UVU Primary Green, stroke #275D38 1px
+    - GROUP "News Banner", 1440x358px, constraints center/top
+      - GROUP "Small Stories", 863.4x358px, constraints left/top
+        - RECTANGLE "Image 5", 302.79x179px, constraints left/top, fill image(hash: 37dc310bfcc7ff7212b2ad61e257760d4dbf9542)
+        - RECTANGLE "Image 3", 302.79x179px, constraints left/top, fill image(hash: 9eab03269dbea2050862ba44e545f2986b7a74d8)
+        - RECTANGLE "Image 4", 302.79x179px, constraints left/top, fill image(hash: 7d21ff2f428fcc3a48a9779cb34d6cc925ded226)
+        - RECTANGLE "Image 1", 302.79x179px, constraints left/top, fill image(hash: e78c6a529116433bfe65922d864019796ee1ea14)
+        - RECTANGLE "Green Box", 280x179px, constraints left/top, fill #275D38
+        - TEXT "Read More Recent Digital Media News", 172x46px, constraints left/top, fill #FFFFFF, text [Rajdhani Bold, 20px]
+        - INSTANCE "arrow-right-short", 27x30px, constraints left/top
+          - FRAME "arrow-sm", 13.5x13.12px, constraints scale/scale, fill #FFFFFF
+            - VECTOR "arrow", 13.5x13.13px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Image 2", 302.79x179px, constraints left/top, fill image(hash: ff0c34a0a3ecdb69869272cfc6bb6651c0198d51)
+      - GROUP "News Home Story", 577x358px, constraints left/top
+        - GROUP "Cover Image", 577x358px, constraints left/top
+          - RECTANGLE "Image", 577x358px, constraints left/top, fill image(hash: e2f7d31f2a13a58df25a321368fc057dbeb19e2b)
+          - RECTANGLE "Overlay", 577x358px, constraints left/top, fill gradient_linear(#000000 3% | #11111100 100%)
+        - GROUP "Text", 543.64x131px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Utah Valley University’s (UVU) Digital Media bachelors progr", 541.62x46px, constraints left/top, fill #FFFFFF, text [UVU/Card/Body]
+          - TEXT "UVU’s Digital Media Celebrates the Bachelor’s Program 20th A", 445.69x63px, constraints left/top, fill #FFFFFF, text [Rajdhani Bold, 28px], [heading]
+          - LINE "Divider Line", 452.69x0px, constraints left/top, stroke #FFFFFF 1px
+  - GROUP "Resources Section", 1170x636px, constraints left/top
+    - INSTANCE "Dividers", 1064x78px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints center/top
+      - TEXT "Title", 984x38px, constraints left/top, fill Primary/-uvu-green, text [Rajdhani Variations/h2.uppercase], [heading]
+      - FRAME "<hr />", 1064x30px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+        - LINE "Line", 514x0px, constraints left/top, fill #275D38, stroke #275D38 1px
+        - INSTANCE "dg_paper_clip", 30x30px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "dg_paper_clip", 30x30px, constraints scale/scale, fill image(hash: 47fbc487cbba8ba37f5eb1b89d98cf707853bdb2)
+        - LINE "Line", 518x0px, constraints left/top, fill #275D38, stroke #275D38 1px
+    - FRAME "Frame 3536", 570x143.28px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "dg-humanities", 70x70px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "icon/humanities", 70x70px, constraints scale/scale, fill image(hash: 9bff1a5498bcdb2738d3d4a56235b7dd79fdc267)
+      - FRAME "Frame 3535", 470x143.28px, vertical pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 3534", 470x94px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "CET INTERNSHIPS", 211x38px, constraints left/top, fill #000000, text [Rajdhani Variations/Raj 30 Semibold Uppercase], [heading]
+          - TEXT "Visit the CET internships page for digital media, or talk to", 470x46px, constraints left/top, fill #000000, text [Default Tag Stylings/p]
+        - INSTANCE "Header Button", 157x34.28px, horizontal pad 7.14 25 7.14 25px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 25px, fill #275D38
+          - TEXT "Label", 107x20px, constraints left/top, fill #FFFFFF, text [Rajdhani SemiBold, 14px]
+    - FRAME "Frame 3539", 570x143.28px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "dg-cell-experience", 70x78px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "icon/cell-experience", 70x78px, constraints scale/scale, fill image(hash: cbea373030a86196a836f3c0e6a916dd8a11a66b)
+      - FRAME "Frame 3538", 470x143.28px, vertical pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 3537", 470x94px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "DGM Student Resources", 321x38px, constraints left/top, fill #000000, text [Rajdhani Variations/Raj 30 Semibold Uppercase], [heading]
+          - TEXT "From tutoring to scholarships and everything in between, you", 470x46px, constraints left/top, fill #000000, text [Default Tag Stylings/p]
+        - INSTANCE "Header Button", 150x34.28px, horizontal pad 7.14 25 7.14 25px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 25px, fill #275D38
+          - TEXT "Label", 100x20px, constraints left/top, fill #FFFFFF, text [Rajdhani SemiBold, 14px]
+    - FRAME "Frame 3540", 570x143.28px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "dg-laptop", 70x65px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "icon/laptop", 70x65px, constraints scale/scale, fill image(hash: 124696e3104b34542d3873f5849996010fad6e85)
+      - FRAME "Frame 3538", 470x143.28px, vertical pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 3537", 470x94px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Concurrent enrollment", 326x38px, constraints left/top, fill #000000, text [Rajdhani Variations/Raj 30 Semibold Uppercase], [heading]
+          - TEXT "The Department of Digital Media has six concurrent enrollmen", 470x46px, constraints left/top, fill #000000, text [Default Tag Stylings/p]
+        - INSTANCE "Header Button", 153x34.28px, horizontal pad 7.14 25 7.14 25px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 25px, fill #275D38
+          - TEXT "Label", 103x20px, constraints left/top, fill #FFFFFF, text [Rajdhani SemiBold, 14px]
+    - INSTANCE "Card:Staff Option 9", 570x251px, constraints left/top
+      - GROUP "card", 478.36x240px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Stripes", 352.47x162px, constraints center/top, fill image(hash: 8200e3ea069b76b2ff0059dfd214173c023ccc25)
+        - FRAME "Content", 458.22x211px, vertical pad 30 15 30 130px gap 10px sizing W:fixed H:fixed, constraints center/center, radius 7px, fill #FFFFFF, effect UVU Card Drop Shadow
+          - FRAME "Name & Role", 313.22x93px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Name here", 313.22x41px, constraints left/top, fill #275D38, text [Rajdhani Bold, 32px], [heading]
+            - TEXT "Job Title - College of Engineering Technology Job Title - CE", 313.22x52px, constraints left/top, fill #000000, text [Raleway Regular, 18px]
+          - FRAME "Contact", 313.22x48px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Message (Staff Name here)", 232.83x19px, constraints left/top, fill #275D38, text [Lato Regular, 16px]
+            - TEXT "(801) 863-XXXX", 232.83x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - GROUP "Image", 193.83x189px, constraints scale/scale
+        - ELLIPSE "Accent", 174.69x175px, constraints scale/scale, fill #00843D
+        - ELLIPSE "Profile", 174.69x175px, constraints scale/scale, fill image(hash: 34193cb0a82713b02c4c80f6adf2a003d8ef3739)
+    - INSTANCE "Card:Staff Option 10", 570x251px, constraints left/top
+      - GROUP "card", 478.36x240px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Stripes", 352.47x162px, constraints center/top, fill image(hash: 8200e3ea069b76b2ff0059dfd214173c023ccc25)
+        - FRAME "Content", 458.22x211px, vertical pad 30 15 30 130px gap 10px sizing W:fixed H:fixed, constraints center/center, radius 7px, fill #FFFFFF, effect UVU Card Drop Shadow
+          - FRAME "Name & Role", 313.22x93px, vertical pad 0 0 0 0px gap 0px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Name here", 313.22x41px, constraints left/top, fill #275D38, text [Rajdhani Bold, 32px], [heading]
+            - TEXT "Job Title - College of Engineering Technology Job Title - CE", 313.22x52px, constraints left/top, fill #000000, text [Raleway Regular, 18px]
+          - FRAME "Contact", 313.22x48px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fixed, constraints left/top
+            - TEXT "Message (Staff Name here)", 232.83x19px, constraints left/top, fill #275D38, text [Lato Regular, 16px]
+            - TEXT "(801) 863-XXXX", 232.83x19px, constraints left/top, fill #000000, text [Lato Regular, 16px]
+      - GROUP "Image", 193.83x189px, constraints scale/scale
+        - ELLIPSE "Accent", 174.69x175px, constraints scale/scale, fill #00843D
+        - ELLIPSE "Profile", 174.69x175px, constraints scale/scale, fill image(hash: 36e64b9b7983d57f9590217178718e6b3bcec323)
+  - GROUP "Footer", 1440x628px, constraints center/top
+    - INSTANCE "Footer Links", 1440x439px, vertical pad 100 40 80 40px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #275D38
+      - FRAME "Content", 1228x259px, horizontal pad 0 15 0 15px gap 45px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 259", 214x198px, vertical pad 15 15 15 15px gap 15px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Student", 184x22px, constraints left/top, fill #FFFFFF, text [Rajdhani Bold, 30px], [heading]
+          - GROUP "Student Links", 184x131px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Admissions", 108.36x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "looking to attend uvu", 182.98x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "academics", 108.36x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "current student", 142.09x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "Campus life", 108.36x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "accreditation", 115.51x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+        - LINE "Line 31", 0x259px, constraints left/top, stroke #FFFFFF 1px
+        - FRAME "Employees", 208x198px, vertical pad 15 15 15 15px gap 15px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Employees", 178x22px, constraints left/top, fill #FFFFFF, text [Rajdhani Bold, 30px], [heading]
+          - GROUP "Employees Links", 178x85px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Career opportunities", 176.87x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "people & culture", 177.87x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "employee resources", 178x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "directory", 105.33x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+        - LINE "Line 30", 0x259px, constraints left/top, stroke #FFFFFF 1px
+        - FRAME "Community", 227x252px, vertical pad 15 15 15 15px gap 15px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Community", 197x22px, constraints left/top, fill #FFFFFF, text [Rajdhani Bold, 30px], [heading]
+          - GROUP "Community Links", 197x200px, constraints left/top, radius 0/0/0/0px
+            - TEXT "contact us", 196.85x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "alumni", 195.75x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "inclusion & diversity", 197x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "Español", 192.26x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "give to uvu", 196.85x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "athletics", 195.75x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "about uvu / history", 196.85x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "visitors & Community", 197x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "office of the president", 192.26x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+        - LINE "Line 29", 0x259px, constraints left/top, stroke #FFFFFF 1px
+        - FRAME "Utility", 234x252px, vertical pad 15 15 15 15px gap 15px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Utility", 204x22px, constraints left/top, fill #FFFFFF, text [Rajdhani Bold, 30px], [heading]
+          - GROUP "Utility Links", 219x200px, constraints left/top, radius 0/0/0/0px
+            - TEXT "title ix / equal opportunity", 219x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "police", 195.75x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "get help", 197x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "search", 192.26x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "accessibility", 105x22px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "covid-19 info", 195.75x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "emergency", 196.85x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "maps / parking", 197x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+            - TEXT "service desk", 192.26x16px, constraints left/top, fill #FFFFFF, text [Arial ArialMT, 14px]
+        - LINE "Line 28", 0x259px, constraints left/top, stroke #FFFFFF 1px
+    - INSTANCE "Footer Socials", 1440x144px, constraints left/top
+      - RECTANGLE "Rectangle 44", 1440x144px, constraints scale/scale, fill #275037
+      - LINE "Line 32", 1440x0px, constraints scale/scale, stroke #FFFFFF 1px
+      - GROUP "News", 57x20px, constraints scale/scale
+        - VECTOR "Vector", 24x15.89px, constraints scale/scale, fill #FFFFFF
+        - TEXT "News", 31x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+      - GROUP "Group 3477", 64x27.52px, constraints scale/scale
+        - GROUP "Calendar", 24x27.52px, constraints scale/scale
+          - VECTOR "Vector", 24x27.52px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 6.82x6.89px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Events", 38x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+      - GROUP "Group 3479", 568x20px, constraints scale/scale
+        - TEXT "800 West University Parkway, Orem, UT 84058", 282x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+        - TEXT "(801) 863-8888", 86x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+        - TEXT "@utah valley university", 152x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+        - RECTANGLE "Rectangle 45", 2x3px, constraints scale/scale, fill #D9D9D9
+        - RECTANGLE "Rectangle 46", 2x3px, constraints scale/scale, fill #D9D9D9
+      - GROUP "Group 3478", 473x20px, constraints scale/scale, radius 0/0/0/0px
+        - TEXT "Terms of Use", 74x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+        - TEXT "Privacy Statement", 105x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+        - TEXT "Copyright Complaints", 122x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+        - TEXT "Non-Discrimination", 106x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+        - LINE "Line 33", 0x12px, constraints scale/scale, stroke #FFFFFF 0.5px
+        - LINE "Line 34", 0x12px, constraints scale/scale, stroke #FFFFFF 0.5px
+        - LINE "Line 35", 0x12px, constraints scale/scale, stroke #FFFFFF 0.5px
+      - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+      - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "wolverine-logo 1", 36.18x25px, constraints scale/scale
+        - GROUP "Group 3475", 36.2x25.03px, constraints scale/scale [decorative, ~10 shapes]
+      - RECTANGLE "hpob 1", 59x52px, constraints scale/scale, fill image(hash: 84f2aa7076bdfa38c6108525036c9170f1ba6e36)
+    - INSTANCE "FooterDept", 1440x45px, constraints left/top
+      - RECTANGLE "Container", 1440x45px, constraints scale/scale, fill #FFFFFF, effect [inner_shadow 22px offset 0 9 #EEEEEE]
+      - FRAME "List Items", 518x18px, horizontal pad 0 20 0 20px gap 19px align max/center sizing W:fixed H:fixed, constraints center/scale
+        - TEXT "Department Title", 74x18px, constraints left/top, fill #000000, text [Rajdhani Medium, 14px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: 🏫 Examples / uvu.edu/tm/mechatronics/index.html
+- FRAME "uvu.edu/tm/mechatronics/index.html", 1440x3145px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Layout", 1440x3145px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Hero Image", 1440x498px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Header", 1440x123px, constraints left/top
+        - FRAME "Logo", 66.2x20.22px, constraints left/top
+          - FRAME "uvu-mono.svg fill", 66.2x20.22px, constraints left/top
+            - FRAME "uvu-mono.svg", 66.17x20.22px, constraints center/center
+        - TEXT "Link → Information Systems & Technology", 106x20px, constraints left/top, fill #275D38, text [Rajdhani SemiBold, 20px]
+        - FRAME "Button Bar", 460x91.23px, constraints right/scale
+          - FRAME "List", 349.86x21.98px, constraints center/center
+            - FRAME "Item", 119.13x21.98px, constraints left/top_bottom
+            - FRAME "Item", 92.5x21.98px, constraints left/top_bottom
+            - FRAME "Item", 104.23x21.98px, constraints left/top_bottom
+          - FRAME "Link", 80x111px, constraints left/top_bottom
+            - TEXT "Symbol", 18.2x20px, constraints left/top, fill #275D38, text [Font Awesome 5 Free Black, 17.86px]
+        - FRAME "Navigation Menu", 1440x43px, constraints left_right/top, fill #F2F2F2, stroke #DDDDDD 1px
+          - FRAME "Pages", 533x12px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "CET", 20x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+            - TEXT "Programs/degrees", 118x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+            - TEXT "Advising", 53x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+            - TEXT "Financial Aid & Scholarships", 185x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+            - TEXT "Content Hub", 77x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+      - GROUP "Hero Image", 1440x375px, constraints left/top
+        - RECTANGLE "Hero", 1440x375px, constraints center/top, fill image(hash: 2a28c6152b8912ea06b7b3d2fa188b6dcdf586aa)
+        - RECTANGLE "Hero", 1440x375px, constraints center/top, fill #00000033
+        - TEXT "Mechatronics", 305x61px, constraints left/top, fill #FFFFFF, text [Rajdhani Bold, 48px], [heading]
+    - FRAME "Frame 3566", 1440x2647px, vertical pad 60 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame", 1170x539px, vertical pad 0 0 60 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Degree Option and Links", 1170x479px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Primary Degree Wrap", 770x479px, vertical pad 0 0 0 0px gap 44px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Primary Degree Option Header", 770x204px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Degree/Long", 770x231px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, effect UVU Card Drop Shadow
+          - FRAME "Primary Degree and Links", 370x118px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Helpful Links", 126x31px, constraints left/top, fill #000000, text [Default Tag Stylings/h3], [heading]
+            - FRAME "Program Links", 370x67px, vertical pad 15 15 15 15px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #F2F9E9
+      - FRAME "Secondary Degrees", 1170x438px, vertical pad 0 0 60 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Secondary Degree Options Header", 1170x102px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Want To Jump Into the Workforce?", 514x46px, constraints left/top, fill #275D38, text [Default Tag Stylings/h1], [heading]
+          - TEXT "The mechatronics program has several short certificates avai", 1170x46px, constraints left/top, fill #000000, text [Default Tag Stylings/p]
+        - FRAME "Secondary Degree Options", 1170x236px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Degree/Short", 570x236px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, effect UVU Card Drop Shadow
+            - RECTANGLE "img (370x194)", 170x236px, constraints left/top, radius 5/0/0/5px, fill image(hash: ec72a8a680d3429c70e1e3a5237ab9b272d70144)
+            - FRAME "content", 400x236px, vertical pad 20 20 30 20px gap 1px sizing W:fill H:fill, constraints left/top
+          - INSTANCE "Degree/Short", 570x196px, horizontal pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 5px, fill #FFFFFF, effect UVU Card Drop Shadow
+            - RECTANGLE "img (370x194)", 170x196px, constraints left/top, radius 5/0/0/5px, fill image(hash: bc0580fbdbd55c57b8d12cea01572c1f1014dc56)
+            - FRAME "content", 400x196px, vertical pad 20 20 30 20px gap 10px align space_between/min sizing W:fill H:fill, constraints left/top
+      - INSTANCE "Testimonial-Section", 1170x982px, vertical pad 0 0 60 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Header", 1170x108px, vertical pad 15 0 15 0px gap 10px align min/center sizing W:fill H:fixed, constraints left/top
+          - INSTANCE "Dividers", 1064x78px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Title", 984x38px, constraints left/top, fill #275D38, text [Rajdhani Variations/h2.uppercase], [heading]
+            - FRAME "<hr />", 1064x30px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Region 1", 1170x394px, vertical pad 15 0 15 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Student Testimonial", 1170x364px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Testimonial Content", 1170x364px, horizontal pad 0 0 0 0px gap 118px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Region 2", 1170x420px, vertical pad 45 0 15 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Faculty-Card", 1170x360px, horizontal pad 30 30 30 30px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFFFFF, effect UVU Card Drop Shadow
+            - GROUP "Image", 300x300px, constraints left/top
+            - FRAME "TEXT", 780x243.28px, vertical pad 0 0 0 0px gap 15px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Footer", 1440x628px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "FooterDept", 1440x45px, constraints left/top
+          - RECTANGLE "Container", 1440x45px, constraints scale/scale, fill #FFFFFF, effect [inner_shadow 22px offset 0 9 #EEEEEE]
+          - FRAME "List Items", 770x18px, horizontal pad 0 20 0 20px gap 15px align center/center sizing W:fixed H:fixed, constraints center/scale
+            - TEXT "Department Title", 125x18px, constraints left/top, fill #000000, text [Rajdhani Medium, 14px]
+            - LINE "Line 25", 0x10px, constraints left/top, stroke #000000 1px
+            - TEXT "Email@uvu.edu", 122x18px, constraints left/top, fill #275D38, text [Rajdhani Medium, 14px]
+            - LINE "Line 26", 0x10px, constraints left/top, stroke #000000 1px
+            - TEXT "(xXX) XXX-XXXX", 83x18px, constraints left/top, fill #000000, text [Rajdhani Medium, 14px]
+            - LINE "Line 27", 0x10px, constraints left/top, stroke #000000 1px
+            - TEXT "ROOM XX-XXX", 310x18px, constraints left/top, fill #000000, text [Rajdhani Medium, 14px]
+        - INSTANCE "Footer Links", 1440x439px, vertical pad 100 40 80 40px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #275D38
+          - FRAME "Content", 1228x259px, horizontal pad 0 15 0 15px gap 45px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 259", 214x198px, vertical pad 15 15 15 15px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 31", 0x259px, constraints left/top, stroke #FFFFFF 1px
+            - FRAME "Employees", 208x198px, vertical pad 15 15 15 15px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 30", 0x259px, constraints left/top, stroke #FFFFFF 1px
+            - FRAME "Community", 227x252px, vertical pad 15 15 15 15px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 29", 0x259px, constraints left/top, stroke #FFFFFF 1px
+            - FRAME "Utility", 234x252px, vertical pad 15 15 15 15px gap 15px sizing W:fixed H:fixed, constraints left/top
+            - LINE "Line 28", 0x259px, constraints left/top, stroke #FFFFFF 1px
+        - INSTANCE "Footer Socials", 1440x144px, constraints left/top
+          - RECTANGLE "Rectangle 44", 1440x144px, constraints scale/scale, fill #275037
+          - LINE "Line 32", 1440x0px, constraints scale/scale, stroke #FFFFFF 1px
+          - GROUP "News", 57x20px, constraints scale/scale
+            - VECTOR "Vector", 24x15.89px, constraints scale/scale, fill #FFFFFF
+            - TEXT "News", 31x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+          - GROUP "Group 3477", 64x27.52px, constraints scale/scale
+            - GROUP "Calendar", 24x27.52px, constraints scale/scale
+            - TEXT "Events", 38x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+          - GROUP "Group 3479", 568x20px, constraints scale/scale
+            - TEXT "800 West University Parkway, Orem, UT 84058", 282x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+            - TEXT "(801) 863-8888", 86x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+            - TEXT "@utah valley university", 152x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+            - RECTANGLE "Rectangle 45", 2x3px, constraints scale/scale, fill #D9D9D9
+            - RECTANGLE "Rectangle 46", 2x3px, constraints scale/scale, fill #D9D9D9
+          - GROUP "Group 3478", 473x20px, constraints scale/scale, radius 0/0/0/0px
+            - TEXT "Terms of Use", 74x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+            - TEXT "Privacy Statement", 105x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+            - TEXT "Copyright Complaints", 122x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+            - TEXT "Non-Discrimination", 106x20px, constraints scale/scale, fill #FFFFFF, text [Rajdhani Regular, 14px]
+            - LINE "Line 33", 0x12px, constraints scale/scale, stroke #FFFFFF 0.5px
+            - LINE "Line 34", 0x12px, constraints scale/scale, stroke #FFFFFF 0.5px
+            - LINE "Line 35", 0x12px, constraints scale/scale, stroke #FFFFFF 0.5px
+          - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+          - VECTOR "Vector", 25x25px, constraints scale/scale, fill #FFFFFF
+          - INSTANCE "wolverine-logo 1", 36.18x25px, constraints scale/scale
+            - GROUP "Group 3475", 36.2x25.03px, constraints scale/scale [decorative, ~10 shapes]
+          - RECTANGLE "hpob 1", 59x52px, constraints scale/scale, fill image(hash: 84f2aa7076bdfa38c6108525036c9170f1ba6e36)
+
+Screen: 🏫 Examples / index.html
+- FRAME "index.html", 1920x5719.38px, vertical pad 0 0 0 0px gap 60px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+  - FRAME "Top", 1921x651px, vertical pad 0 0 0 0px gap 0px align min/max sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Department/Program Nav", 1920x114px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "top", 1920x74px, horizontal pad 0 48 0 48px gap 521px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "logo+icon", 454.17x20.22px, horizontal pad 0 0 0 0px gap 34px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "uvu-logo.svg", 66.17x20.22px, constraints left/top
+            - VECTOR "Path 21", 21.11x20.22px, constraints scale/scale, fill #275D38
+            - VECTOR "Path 22", 19.67x20.22px, constraints scale/scale, fill #275D38
+            - VECTOR "Path 23", 19.66x20.22px, constraints scale/scale, fill #275D38
+          - TEXT "Link → Information Systems & Technology", 354x20px, constraints left/top, fill #275D38, text [Rajdhani SemiBold, 20px]
+        - FRAME "Button Bar", 399x74px, vertical pad 20 0 20 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 629324", 399x34px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fill H:fixed, constraints left/top
+            - FRAME "List", 338.73x34px, horizontal pad 0 0 0 0px gap 11px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Symbol", 18.2x20px, constraints left/top, fill #275D38, text [Font Awesome 5 Free Black, 17.86px]
+      - FRAME "Navigation Menu", 1920x40px, vertical pad 14 40 14 40px gap 10px sizing W:fill H:fixed, constraints left/top, fill #F2F2F2, stroke #DDDDDD 1px
+        - FRAME "Pages", 1840x12px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "CET", 20x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+          - TEXT "Programs/degrees", 118x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+          - TEXT "Advising", 53x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+          - TEXT "Financial Aid & Scholarships", 185x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+          - TEXT "Content Hub", 77x12px, constraints left/top, fill #1A1A1A, text [Rajdhani SemiBold, 12px]
+    - GROUP "Hero Image", 1921x375px, constraints left/top
+      - RECTANGLE "Hero Video", 1921x375px, constraints center/top, fill image(hash: 3eaf6bb38501886e0a6082e2d61a529fae7d3e68)
+      - RECTANGLE "Overlay", 1920x375px, constraints left/top, fill #00000033
+      - RECTANGLE "Logo", 857.49x84px, constraints left/top, fill image(hash: 9778daf356928568f23e8d631aa42a50be3683c3)
+    - GROUP "Stats Banner", 1921x162px, constraints left/top
+      - RECTANGLE "Green Banner", 1921x162px, constraints left/top, fill #275D38
+      - GROUP "Departments", 167x97px, constraints left/top, radius 0/0/0/0px
+        - TEXT "11", 167x58px, constraints left/top, fill #FFFFFF, text [Display/p.text-48.bold], [heading]
+        - TEXT "Departments", 167x31px, constraints left/top, fill #FFFFFF, text [Lato Variations/p.text-22]
+      - GROUP "Programs", 167x125px, constraints left/top, radius 0/0/0/0px
+        - TEXT "90", 167x58px, constraints left/top, fill #FFFFFF, text [Display/p.text-48.bold], [heading]
+        - TEXT "Technology Programs", 167x62px, constraints left/top, fill #FFFFFF, text [Lato Variations/p.text-22]
+      - GROUP "Students", 167x97px, constraints center/top, radius 0/0/0/0px
+        - TEXT "6,100+", 167x58px, constraints left/top, fill #C5E86C, text [Display/p.text-48.bold], [heading]
+        - TEXT "Students", 167x31px, constraints left/top, fill #C5E86C, text [Lato Variations/p.text-22]
+      - GROUP "ENGR/CS", 167x125px, constraints left/top, radius 0/0/0/0px
+        - TEXT "8", 167x58px, constraints left/top, fill #FFFFFF, text [Display/p.text-48.bold], [heading]
+        - TEXT "ENGR/CS Programs", 167x62px, constraints left/top, fill #FFFFFF, text [Lato Variations/p.text-22]
+      - GROUP "Faculty", 167x97px, constraints left/top, radius 0/0/0/0px
+        - TEXT "310", 167x58px, constraints left/top, fill #FFFFFF, text [Display/p.text-48.bold], [heading]
+        - TEXT "Faculty & Staff", 167x31px, constraints left/top, fill #FFFFFF, text [Lato Variations/p.text-22]
+  - FRAME "About Section", 1170x351px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints center/top
+    - FRAME "Frame 3582", 670x351px, vertical pad 0 0 0 0px gap 25px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 3581", 670x250px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "About Us", 132x46px, constraints left/top, fill #275D38, text [Default Tag Stylings/h1], [heading]
+        - TEXT "The mission of the Smith College of Engineering and Technolo", 670x194px, constraints left/top, fill #000000, text [Default Tag Stylings/p]
+      - INSTANCE "Rectangle Button", 200x76px, horizontal pad 15 15 15 15px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #275D38 2px
+        - TEXT "Label Here", 146x46px, constraints left/top, fill #275D38, text [Lato Variations/Lato 16 Semibold]
+        - VECTOR "Vector", 9x8px, constraints left/top, fill #275D38
+    - GROUP "Group 3521", 470x323px, constraints left/top
+      - RECTANGLE "Green Square", 101x102px, constraints left/top, fill image(hash: 6a2dfea57eb94ddc289cc265ad6f285fcc27eed1)
+      - RECTANGLE "About Photo", 395x247px, constraints left/top, fill image(hash: 062d4efaf07b4638db98a47e16adc99fa6930845)
+      - INSTANCE "ZigZag/ZigZag1_1", 68x68px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "ZigZag1_1", 68x68px, constraints scale/scale, fill image(hash: 880ef2807b0aff9a43f6bfa71aa9d47df3489d95)
+      - INSTANCE "X/X4", 127x132px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "X4", 127x132px, constraints scale/scale, fill image(hash: c6b8332080e4c045479d51e595cb97c4e4f2cff2)
+  - FRAME "Student Testimonials", 1170x510px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Dividers", 1064x78px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Title", 984x38px, constraints left/top, fill Primary/-uvu-green, text [Rajdhani Variations/h2.uppercase], [heading]
+      - FRAME "<hr />", 1064x30px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+        - LINE "Line", 505x0px, constraints left/top, fill Primary/-uvu-green, stroke Primary/-uvu-green 1px
+        - INSTANCE "dg_laptop_chat", 30x30px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "dg_laptop_chat", 30x30px, constraints scale/scale, fill image(hash: d9ef3610a9235b11a48407cb474bc7260a4d9253)
+        - LINE "Line", 505x0px, constraints left/top, fill Primary/-uvu-green, stroke Primary/-uvu-green 1px
+    - FRAME "Testimonials Slider", 1170x392px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Testimonial Card", 270x392px, constraints left/top
+        - RECTANGLE "Light Grey", 270x392px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - RECTANGLE "Dark Grey", 270x116px, constraints left/top, fill #275D38
+        - ELLIPSE "Headshot", 99.65x100px, constraints center/top, fill image(hash: 55a35d0a70f0388565d255c7423d711e8c6544b7), stroke #FFFFFF 5px
+        - TEXT "David fernandez", 154.46x26px, constraints center/top, fill #FFFFFF, text [Rajdhani Variations/Raj 20 Bold Uppercase]
+        - TEXT "Mechanical & Civil Engineering Department", 171x34px, constraints center/top, fill #FFFFFF, text [Lato Variations/p.text-12]
+        - TEXT "“", 18.93x57px, constraints left/top, fill #275D38, text [Rajdhani Bold, 52px], [heading]
+        - TEXT "I came to UVU because it's accessible to everyone. I'm a mar", 240x138px, constraints center/top, fill #000000, text [Default Tag Stylings/p]
+      - GROUP "Testimonial Card", 270x392px, constraints left/top
+        - RECTANGLE "Light Grey", 270x392px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - RECTANGLE "Dark Grey", 270x116px, constraints left/top, fill #275D38
+        - ELLIPSE "Headshot", 100x100px, constraints center/top, fill image(hash: af83a69c87b8d20732eaaff5d3ca62a0fa45bbe0), stroke #FFFFFF 5px
+        - TEXT "GAVIN MCLAREN", 132x26px, constraints center/top, fill #FFFFFF, text [Rajdhani Variations/Raj 20 Bold Uppercase]
+        - TEXT "Technology Management & Mechatronics Department", 150x34px, constraints center/top, fill #FFFFFF, text [Lato Variations/p.text-12]
+        - TEXT "“", 19x57px, constraints left/top, fill #275D38, text [Rajdhani Bold, 52px], [heading]
+        - TEXT "I can go pretty much anywhere in the world with this degree ", 240x92px, constraints center/top, fill #000000, text [Default Tag Stylings/p]
+      - GROUP "Testimonial Card", 270x392px, constraints left/top
+        - RECTANGLE "Light Grey", 270x392px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - RECTANGLE "Dark Grey", 270x116px, constraints left/top, fill #275D38
+        - ELLIPSE "Headshot", 100x100px, constraints center/top, fill image(hash: 5807de3046ec58f8e2ce67d3ce9a4b10ec1e1d13), stroke #FFFFFF 5px
+        - BOOLEAN_OPERATION "Intersect", 96x94.35px, constraints center/top, fill image(hash: 0534e5190da9b73d8d13df01c703ad47e088e529)
+        - TEXT "Jayden Tanner", 133x26px, constraints center/top, fill #FFFFFF, text [Rajdhani Variations/Raj 20 Bold Uppercase]
+        - TEXT "Applied Engineering & Transportation Technologies Department", 215x34px, constraints center/top, fill #FFFFFF, text [Lato Variations/p.text-12]
+        - TEXT "“", 19x57px, constraints left/top, fill #275D38, text [Rajdhani Bold, 52px], [heading]
+        - TEXT "There are professors, there are advisors, there are tutors, ", 240x115px, constraints center/top, fill #000000, text [Default Tag Stylings/p]
+      - GROUP "Testimonial Card", 270x392px, constraints left/top
+        - RECTANGLE "Light Grey", 270x392px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - RECTANGLE "Dark Grey", 270x116px, constraints left/top, fill #275D38
+        - TEXT "Emma Lam", 89x26px, constraints center/top, fill #FFFFFF, text [Rajdhani Variations/Raj 20 Bold Uppercase]
+        - TEXT "Digital Media Department", 71x34px, constraints center/top, fill #FFFFFF, text [Lato Variations/p.text-12]
+        - TEXT "“", 19x57px, constraints left/top, fill #275D38, text [Rajdhani Bold, 52px], [heading]
+        - TEXT "CET helped me learn how I can do what I love and get real-wo", 240x138px, constraints left/top, fill #000000, text [Default Tag Stylings/p]
+        - ELLIPSE "Headshot", 100x100px, constraints center/top, fill image(hash: 2e7a8a861cf33ffb9908e209b064e0ec54b24f3a), stroke #FFFFFF 5px
+  - GROUP "Degree Banner", 1998.14x407px, constraints left/top
+    - RECTANGLE "Background", 1925x390px, constraints center/top, fill #EFEFEF
+    - GROUP "Shapes Right", 190x375px, constraints left/top
+      - RECTANGLE "Rectangle 83", 190x375px, constraints left/top, fill #D9D9D9
+      - GROUP "Group 3520", 375.3x375.3px, constraints left/top
+        - INSTANCE "PolkaDots_Pattern_LimeGreen", 375.3x375.3px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "PolkaDots_Pattern_LimeGreen", 375.3x375.3px, constraints scale/scale, fill image(hash: 92fa3a69940a447ce7df6de52924c56d0053f750)
+        - INSTANCE "ZigZagOutline/ZigZagOutline3", 171.52x171.52px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "ZigZagOutline3", 171.52x171.52px, constraints scale/scale, fill image(hash: c1fc62dcb4dcf95082b9ba53787e490461522d18)
+        - INSTANCE "HalfCircle/Primary", 76x154px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "HalfCircle1", 76x154px, constraints scale/scale, fill image(hash: 011a3de991029f3a43ca365e7c2320cf62a18357)
+        - INSTANCE "X/X4", 33x34px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "X4", 33x34px, constraints scale/scale, fill image(hash: c6b8332080e4c045479d51e595cb97c4e4f2cff2)
+    - GROUP "Shapes Left", 209.14x407px, constraints left/top
+      - INSTANCE "Circle/Lime", 125x124px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Circle5", 125x124px, constraints scale/scale, fill image(hash: 969ea2ff8302a5c88c2680e94058e98735422340)
+      - INSTANCE "HalfStripedCircle/Fern", 98x196px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "HalfStripedCircle2", 98x196px, constraints scale/scale, fill image(hash: 725b38b3c01d63b92d387f1e2f33e471862ba0cd)
+      - INSTANCE "Ring/Clover", 53x53px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Ring1", 53x53px, constraints scale/scale, fill image(hash: 8bb8f813f6a8b7135eb2f641ce386bd7e8c46434)
+      - INSTANCE "ZigZag/ZigZag1_1", 154.07x155.62px, constraints left/top, fill #FFFFFF
+        - RECTANGLE "ZigZag1_1", 154.07x155.62px, constraints scale/scale, fill image(hash: 880ef2807b0aff9a43f6bfa71aa9d47df3489d95)
+    - FRAME "Content", 1170x345px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints center/top
+      - FRAME "Main Text", 770x292.48px, vertical pad 0 0 0 0px gap 25px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Top Text", 770x191.48px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "dg-graduation", 70x56px, constraints left/top, fill #FFFFFF
+            - RECTANGLE "icon/graduation", 70x56px, constraints scale/scale, fill image(hash: 50f8114a4d5ce0be0d0ed20bc8d3dee1a0477403)
+          - GROUP "DEGREE MATCH", 183x38px, constraints left/top, radius 0/0/0/0px
+            - TEXT "DEGREE", 93x38px, constraints left/top, fill #275D38, text [Rajdhani Variations/Raj 30 Bold Uppercase], [heading]
+            - TEXT "MATCH", 83x38px, constraints left/top, fill #275D38, text [Rajdhani Variations/h2.normal.uppercase], [heading]
+          - GROUP "Text", 770x77.48px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Over 100 degree options to match your career goals", 480.99x25.83px, constraints left/top, fill #000000, text [Rajdhani Variations/Raj 20 Regular]
+            - TEXT "With over 100 degrees ranging from certificates to master's ", 770x41.72px, constraints left/top, fill #000000, text [Default Tag Stylings/p]
+        - INSTANCE "Rectangle Button", 200x76px, horizontal pad 15 15 15 15px gap 15px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #275D38 2px
+          - TEXT "Label Here", 146x46px, constraints left/top, fill #275D38, text [Lato Variations/Lato 16 Semibold]
+          - VECTOR "Vector", 9x8px, constraints left/top, fill #275D38
+      - FRAME "Degree List", 370x345px, vertical pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Masters", 370x61px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "03", 51x61px, constraints left/top, fill #275D38, text [Display/Raj 48 Bold], [heading]
+          - TEXT "MASTER’s DEGREES", 304x23.84px, constraints left/top, fill #275D38, text [Rajdhani Variations/Raj 18 Bold Uppercase]
+        - FRAME "Bachelor", 370x61px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "26", 51x61px, constraints left/top, fill #275D38, text [Display/Raj 48 Bold], [heading]
+          - TEXT "BACHELOR’s DEGREES", 304x24px, constraints left/top, fill #275D38, text [Rajdhani Variations/Raj 18 Bold Uppercase]
+        - FRAME "Associate", 370x61px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "32", 51x61px, constraints left/top, fill #275D38, text [Display/Raj 48 Bold], [heading]
+          - TEXT "ASSOCIATE DEGREES", 304x23.84px, constraints left/top, fill #275D38, text [Rajdhani Variations/Raj 18 Bold Uppercase]
+        - FRAME "Minors", 370x61px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "07", 51x61px, constraints left/top, fill #275D38, text [Display/Raj 48 Bold], [heading]
+          - TEXT "Minor", 304x24px, constraints left/top, fill #275D38, text [Rajdhani Variations/Raj 18 Bold Uppercase]
+        - FRAME "Certificates", 370x61px, horizontal pad 0 0 0 0px gap 15px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "34", 51x61px, constraints left/top, fill #275D38, text [Display/Raj 48 Bold], [heading]
+          - TEXT "CERTIFICATES", 304x24px, constraints left/top, fill #275D38, text [Rajdhani Variations/Raj 18 Bold Uppercase]
+  - FRAME "Faculty Highlight Section", 1170x299px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Testimonial Content", 670x299px, horizontal pad 0 0 0 0px gap 118px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Content", 670x299px, vertical pad 0 0 0 0px gap 10px sizing W:fill H:fill, constraints left/top
+        - FRAME "Frame 3583", 670x85px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Statistic", 670x22px, constraints left/top, fill #275D38, text [Lato Bold, 18px]
+          - TEXT "Callout", 670x43px, constraints left/top, fill #000000, text [Rajdhani Bold, 40px], [heading]
+        - FRAME "Added Quote", 670x204px, horizontal pad 0 0 0 0px gap 0px align min/max sizing W:fill H:fixed, constraints left/top
+          - TEXT "What's your passion? Give your passion a purpose. Write down", 670x204px, constraints left/top, fill #000000, text [Lato Regular, 18px]
+    - RECTANGLE "Aerospace Video", 470x299px, constraints left/top, fill image(hash: cb0afdb9d93451fc69473e0fc7f4c3dd863ec167)
+  - FRAME "Resources Section", 1170x422px, vertical pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Dividers", 1064x78px, vertical pad 0 0 0 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Title", 984x38px, constraints left/top, fill Primary/-uvu-green, text [Rajdhani Variations/h2.uppercase], [heading]
+      - FRAME "<hr />", 1064x30px, horizontal pad 0 0 0 0px gap 12px align center/center sizing W:fill H:fixed, constraints left/top
+        - LINE "Line", 514x0px, constraints left/top, fill Primary/-uvu-green, stroke Primary/-uvu-green 1px
+        - INSTANCE "dg_paper_clip", 30x30px, constraints left/top, fill #FFFFFF
+          - RECTANGLE "dg_paper_clip", 30x30px, constraints scale/scale, fill image(hash: 47fbc487cbba8ba37f5eb1b89d98cf707853bdb2)
+        - LINE "Line", 518x0px, constraints left/top, fill Primary/-uvu-green, stroke Primary/-uvu-green 1px
+    - FRAME "Resources Cards", 1170x304px, horizontal pad 0 0 0 0px gap 30px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Image-Button-Card", 270x304px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect UVU Card Drop Shadow
+        - RECTANGLE "Image 370x194", 270x161px, constraints left/top, fill image(hash: a41c3a7b93cf8aa58bd56375918a50bab671ff32)
+        - FRAME "Content", 270x143px, vertical pad 20 20 20 20px gap 18px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title", 230x25px, constraints left/top, fill #275D38, text [Rajdhani Bold, 18px]
+          - INSTANCE "Squircle Button", 230x60px, horizontal pad 14 20 14 20px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #275D38 2px
+            - TEXT "Label", 119x23px, constraints left/top, fill #275D38, text [Rajdhani Bold, 16px]
+            - INSTANCE "Arrow", 11x10px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Image-Button-Card", 270x304px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect UVU Card Drop Shadow
+        - RECTANGLE "Image 370x194", 270x161px, constraints left/top, fill image(hash: 75fc68ac527db929f108c1d7c3de291103aa43d7)
+        - FRAME "Content", 270x143px, vertical pad 20 20 20 20px gap 18px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title", 230x25px, constraints left/top, fill #275D38, text [Rajdhani Bold, 18px]
+          - INSTANCE "Squircle Button", 230x60px, horizontal pad 14 20 14 20px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #275D38 2px
+            - TEXT "Label", 159x23px, constraints left/top, fill #275D38, text [Rajdhani Bold, 16px]
+            - INSTANCE "Arrow", 11x10px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Image-Button-Card", 270x304px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect UVU Card Drop Shadow
+        - RECTANGLE "Image 370x194", 270x161px, constraints left/top, fill image(hash: 0438e032cd8548724e02e98c430ce1aaac194f9e)
+        - FRAME "Content", 270x143px, vertical pad 20 20 20 20px gap 18px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title", 230x25px, constraints left/top, fill #275D38, text [Rajdhani Bold, 18px]
+          - INSTANCE "Squircle Button", 230x60px, horizontal pad 14 20 14 20px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #275D38 2px
+            - TEXT "Label", 154x23px, constraints left/top, fill #275D38, text [Rajdhani Bold, 16px]
+            - INSTANCE "Arrow", 11x10px, constraints left/top, fill #FFFFFF
+      - INSTANCE "Image-Button-Card", 270x304px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, effect UVU Card Drop Shadow
+        - RECTANGLE "Image 370x194", 270x161px, constraints left/top, fill image(hash: d6ef54bb236bf5b0579e38a3ceb209198ed102b0)
+        - FRAME "Content", 270x143px, vertical pad 20 20 20 20px gap 18px align min/center sizing W:fill H:fixed, constraints left/top
+          - TEXT "Title", 230x25px, constraints left/top, fill #275D38, text [Rajdhani Bold, 18px]
+          - INSTANCE "Squircle Button", 230x60px, horizontal pad 14 20 14 20px gap 10px align space_between/center sizing W:fill H:fixed, constraints left/top, radius 8px, stroke #275D38 2px
+            - TEXT "Label", 103x23px, constraints left/top, fill #275D38, text [Rajdhani Bold, 16px]
+            - INSTANCE "Arrow", 11x10px, constraints left/top, fill #FFFFFF
+  - GROUP "Departments Section", 1170x578px, constraints left/top
+    - GROUP "Departments Title", 1060x78px, constraints center/top
+      - TEXT "Departments", 984x38px, constraints center/top, fill #275D38, text [Rajdhani Variations/Raj 30 Semibold Uppercase], [heading]
+      - GROUP "</ hr>", 1060x30px, constraints left/top [decorative, ~4 shapes]
+    - FRAME "Departments", 1170x460px, horizontal pad 0 0 0 0px gap 30px align min/center sizing W:fixed H:fixed, constraints center/top
+      - GROUP "Transportation Tech", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "Applied Engineering & Transportation Technologies", 271.21x52px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "46-Automotive 1", 71.89x75px, constraints left/top, fill image(hash: f47c0d21005377f7412ce967d0e20c0a263f9435)
+      - GROUP "Architecture", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "Architecture & Engineering Design", 253.54x52px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "4-Design", 71.71x75px, constraints left/top, fill image(hash: 70342733a6817f2425fdadbbf246bea644ab469b)
+      - GROUP "Aviation", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "Aviation Sciences", 253.06x26px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "47-Aviation 1", 71.89x75px, constraints left/top, fill image(hash: 8ec60204346b533df076b728aec2017a7469fc16)
+      - GROUP "Comp Sci", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "COMPUTER SCIENCE", 253.06x26px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "88-Computer 1", 71.89x75px, constraints left/top, fill image(hash: 6a9c1b2b932da4c5d4b2b112216eb564066280ec)
+      - GROUP "Construction", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "Construction Technologies", 252.4x26px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "49-Construction 1", 71.71x75px, constraints left/top, fill image(hash: ca0bb46af88a847142da854c383581cfd03c35ac)
+      - GROUP "Culinary", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "Culinary arts", 253.06x26px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "15-Culinary 1", 71.89x75px, constraints left/top, fill image(hash: 71c04a6dc4653bec26b15150d405031b9339f00a)
+      - GROUP "Digital Media", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "DIGITAL MEDIA", 253.06x26px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "98-Digital Books 3 1", 71.89x75px, constraints left/top, fill image(hash: d037af0e68fd85fa47596e5abb0398972a6ced94)
+      - GROUP "Engineering", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "Electrical & Computer Engineering", 224.68x52px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "48-Engineering 1", 71.71x75px, constraints left/top, fill image(hash: 3417695846bfcf45f2387a893fc275c8235926ab)
+      - GROUP "IS&T", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "Information Systems & Technology", 245.19x52px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "141-World Technical 1", 71.89x75px, constraints left/top, fill image(hash: 91a36e406188887ba3fb752c1c478bbc09a1c89a)
+      - GROUP "Engineering Tech", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "Mechanical & Civil Engineering", 253.06x52px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "72-Textbooks 2", 71.89x75px, constraints left/top, fill image(hash: ad713dd9c8a5189dce82afee6dd777795996d4a9)
+      - GROUP "Tech Management", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #FFFFFF, effect Box Shadow
+        - TEXT "Technology Management", 224.68x26px, constraints left/top, fill #275D38, text [Rajdhani Bold, 20px]
+        - RECTANGLE "44-UX-UI Design", 71.71x75px, constraints left/top, fill image(hash: 2c630592f09f3b09ca5cb443216ec459b24af7a9)
+      - GROUP "Take the quiz", 370x100px, constraints left/top
+        - RECTANGLE "Background", 370x100px, constraints left/top, fill #275D38, effect Box Shadow
+        - TEXT "can’t decide?  take the interest quiz!", 248.19x62px, constraints left/top, fill #F6F6F7, text [Rajdhani Variations/Raj 24 Bold Uppercase], [heading]
+        - RECTANGLE "icon-question", 71.89x75px, constraints left/top, fill image(hash: 49bdf1476e39d35859fb01fb71832c4bb5f0860e)
+  - GROUP "News Section", 1920x573px, constraints left/top, radius 0/0/0/0px
+    - GROUP "News Title", 1060x73px, constraints center/top, radius 0/0/0/0px
+      - TEXT "NEWS", 984x38px, constraints center/top, fill #275D38, text [Rajdhani Variations/Raj 30 Semibold Uppercase], [heading]
+      - GROUP "</ hr>", 1060x25px, constraints left/top, radius 0/0/0/0px [decorative, ~10 shapes]
+    - GROUP "News", 1920x460px, constraints center/top
+      - RECTANGLE "20230421_Culinary Arts Gala_AM_0220 1", 384.85x232.51px, constraints left/top, fill image(hash: ed652b6ac24673e617fb01299f86a705b26c0c21)
+      - RECTANGLE "20191002_Campus Art Tour_BS_0049_2 1", 379.27x227.49px, constraints left/top, fill image(hash: f854482ed74cef8efc6d6e92a8e3defc13ee63ec)
+      - RECTANGLE "20230412_Transportation Technologies Skills_AM_0017 1", 384.85x232.51px, constraints left/top, fill image(hash: 31a7b115d8a16c3c26e8b5e31f67349b71a2e0ad)
+      - RECTANGLE "20180411_AUTOMOTIVESTUDENTS_0628 1", 767.83x460px, constraints left/top, fill image(hash: 3f72c048129b55fa8a8ca5dae15156df76cc3550)
+      - RECTANGLE "20230505_CET_Convocation_JD_2920 1", 386.71x230.84px, constraints left/top, fill image(hash: c8be4941203bdb157d523ccd6392bd2949cf493a)
+      - RECTANGLE "20230425_CET_UVU ECE Capstone day_IH_508 1", 386.71x229.16px, constraints left/top, fill image(hash: 43d6bc7576e368f102eda907e20d28cc9cd23386)
+      - RECTANGLE "Rectangle 52", 379.27x232.51px, constraints left/top, fill #275D38
+      - TEXT "see more", 278.64x38px, constraints left/top, fill #FFFFFF, text [Rajdhani Variations/Raj 30 Bold Uppercase], [heading]
+      - TEXT "Recent News", 172x38px, constraints left/top, fill #FFFFFF, text [Rajdhani Variations/h2.normal.uppercase], [heading]
+      - RECTANGLE "Rectangle 63", 768.81x459.51px, constraints left/top, fill #0000004D
+      - TEXT "Utah Valley University Construction Management Students Exce", 729.76x62px, constraints left/top, fill #FFFFFF, text [Rajdhani Variations/Raj 24 Bold Uppercase], [heading]
+      - TEXT "Utah Valley University's Construction Management Program stu", 749.77x46.02px, constraints left/top, fill #FFFFFF, text [Lato Variations/Lato 16 Semibold]
+      - LINE "Line 18", 730.92x0px, constraints left/top, stroke #FFFFFF 1px
+      - VECTOR "Arrow 3", 43.07x0px, constraints left/top, stroke #FFFFFF 2px
+  - INSTANCE "Faculty-Card", 1170x360px, horizontal pad 30 30 30 30px gap 30px align min/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill Neutrals/-white, effect Card Drop Shadow
+    - GROUP "Image", 300x300px, constraints left/top
+      - ELLIPSE "Accent", 275x276px, constraints scale/scale, fill Clover/-clover
+      - ELLIPSE "Profile 300x300", 275x275px, constraints scale/scale, fill image(hash: 672f9051e4c816280b23796fa5e77c1cf72f2031)
+    - FRAME "TEXT", 780x181px, vertical pad 0 0 0 0px gap 15px sizing W:fill H:fixed, constraints left/top
+      - TEXT "Callout", 780x46px, constraints left/top, fill Neutrals/-black, text [Rajdhani SemiBold, 36px], [heading]
+      - FRAME "Added Quote", 780x76px, horizontal pad 0 0 0 15px gap 0px align min/center sizing W:fill H:fixed, constraints left/top, stroke Primary/-uvu-green 1px
+        - TEXT "Quote Body", 765x76px, constraints left/top, fill Neutrals/-black, text [Lato Regular, 17.5px]
+      - FRAME "Button and Name", 780x29px, horizontal pad 0 0 0 0px gap 326px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Name and Position", 650x29px, constraints left/top, fill Clover/-clover, text [Lato BoldItalic, 24px], [heading]
+  - GROUP "Deadlines Banner", 1920x181px, constraints left/top
+    - RECTANGLE "Green Banner", 1920x181px, constraints center/top, fill #275D38
+    - TEXT "UNDERGRADUATE APPLICATION DEADLINES", 216x93px, constraints left/top, fill #C5E86C, text [Rajdhani Variations/Raj 24 Bold Uppercase], [heading]
+    - TEXT "Aug. 1", 130x70px, constraints left/top, fill #FFFFFF, text [Display/Raj 55 Bold], [heading]
+    - TEXT "Dec. 1", 122x70px, constraints left/top, fill #FFFFFF, text [Display/Raj 55 Bold], [heading]
+    - TEXT "Fall Semester", 153x31px, constraints left/top, fill #FFFFFF, text [Rajdhani Variations/Raj 24 Bold Uppercase], [heading]
+    - TEXT "Spring Semester", 180x31px, constraints left/top, fill #FFFFFF, text [Rajdhani Variations/Raj 24 Bold Uppercase], [heading]
+    - RECTANGLE "Divider", 2x94px, constraints left/top, fill #C5E86C
+    - RECTANGLE "Divider", 2x94px, constraints left/top, fill #C5E86C
+    - RECTANGLE "Divider", 2x94px, constraints center/top, fill #C5E86C
+    - FRAME "Rectangle Button", 199x51px, constraints left/top, fill #C5E86C
+      - FRAME "Content", 199x51px, horizontal pad 15 15 15 15px gap 49px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Apply Now", 79x23px, constraints left/top, fill #275D38, text [Lato Variations/Lato 16 Semibold]
+        - VECTOR "Vector", 9x8px, constraints left/top, fill #275D38
+  - GROUP "Socials Section", 251x99.38px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Social Media", 251x99.38px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Find Us On Social Media", 251x31px, constraints left/top, fill #275D38, text [Rajdhani Variations/Raj 24 Bold Uppercase], [heading]
+      - GROUP "Social Icons", 117x46.38px, constraints left/top, radius 0/0/0/0px
+        - VECTOR "Instagram", 46x46.38px, constraints left/top, fill #275D38
+        - GROUP "Facebook", 46x46px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 79", 46x46px, constraints left/top, radius 5px, fill #D9D9D9, stroke #275D38 3px
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: 🏫 Examples / label
+- TEXT "label", 979x147px, constraints left/top, fill #000000, text [Helvetica Neue Bold, 120px], [heading]
+
+Screen: 🏫 Examples / label
+- TEXT "label", 1234x147px, constraints left/top, fill #000000, text [Helvetica Neue Bold, 120px], [heading]
+
+Screen: 🏫 Examples / label
+- TEXT "label", 1036x147px, constraints left/top, fill #000000, text [Helvetica Neue Bold, 120px], [heading]
+
+Screen: ✨ Foundations / Color Pallette
+- FRAME "Color Pallette", 2194x4487px, constraints left/top, radius 15px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 2194x258px, constraints left/top, fill #00843D
+  - TEXT "COLOR PALLETTE", 642x57px, constraints left/top, fill #FFFFFF, text [Rajdhani Bold, 96px], [heading]
+  - TEXT "There are 301 Approved UVU web colors, please visit the web ", 1048x69px, constraints left/top, fill #FFFFFF, text [Lato Regular, 16px]
+  - GROUP "@uvu-yellow", 1786x120px, constraints left/top, radius 8px
+    - TEXT "@yellow", 153x96px, constraints left/top, fill #000000, text [Lato Black, 40px], [heading]
+    - GROUP "@uvu-yellow", 197x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FBD865", 96x96px, constraints left/top, radius 8px, fill #FBD865, effect UVU Image Drop Shadow
+      - GROUP "color description", 86x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "yellow", 60x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FBD865", 86x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-yellow-l3", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FFFBF0", 96x96px, constraints left/top, radius 8px, fill #FFFBF0, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L3", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FFFBF0", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-yellow-l2", 197x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FDEFC1", 96x96px, constraints left/top, radius 8px, fill #FDEFC1, effect UVU Image Drop Shadow
+      - GROUP "color description", 86x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L2", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FDEFC1", 86x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-yellow-l1", 194x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FCE493", 96x96px, constraints left/top, radius 8px, fill #FCE493, effect UVU Image Drop Shadow
+      - GROUP "color description", 83x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L1", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FCE493", 83x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-yellow-d1", 195x96px, constraints left/top, radius 8px
+      - RECTANGLE "#B09747", 96x96px, constraints left/top, radius 8px, fill #B09747, effect UVU Image Drop Shadow
+      - GROUP "color description", 83x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D1", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#B09747", 83x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-yellow-d2", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#645628", 96x96px, constraints left/top, radius 8px, fill #645628, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D2", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#645628", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+  - GROUP "@uvu-brown", 1775x96px, constraints left/top, radius 8px
+    - TEXT "@brown", 151x48px, constraints left/top, fill #000000, text [Lato Black, 40px], [heading]
+    - GROUP "@uvu-brown", 194x96px, constraints left/top, radius 8px
+      - RECTANGLE "#696158", 96x96px, constraints left/top, radius 8px, fill #696158, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "brown", 59x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#696158", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-brown-l3", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#F0EFEE", 96x96px, constraints left/top, radius 8px, fill #F0EFEE, effect UVU Image Drop Shadow
+      - GROUP "color description", 81x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L3", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#F0EFEE", 81x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-brown-l2", 205x96px, constraints left/top, radius 8px
+      - RECTANGLE "#C3C0BC", 96x96px, constraints left/top, radius 8px, fill #C3C0BC, effect UVU Image Drop Shadow
+      - GROUP "color description", 88x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L2", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#C3C0BC", 88x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-brown-l1", 195x96px, constraints left/top, radius 8px
+      - RECTANGLE "#96908A", 96x96px, constraints left/top, radius 8px, fill #96908A, effect UVU Image Drop Shadow
+      - GROUP "color description", 84x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L1", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#96908A", 84x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-brown-d1", 196x96px, constraints left/top, radius 8px
+      - RECTANGLE "#4A443E", 96x96px, constraints left/top, radius 8px, fill #4A443E, effect UVU Image Drop Shadow
+      - GROUP "color description", 84x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D1", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#4A443E", 84x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-brown-d2", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#2A2723", 96x96px, constraints left/top, radius 8px, fill #2A2723, effect UVU Image Drop Shadow
+      - GROUP "color description", 84x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D2", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#2A2723", 84x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+  - GROUP "@uvu-gray", 1780x96px, constraints left/top, radius 8px
+    - TEXT "@gray", 113x48px, constraints left/top, fill #000000, text [Lato Black, 40px], [heading]
+    - GROUP "@uvu-gray", 201x96px, constraints left/top, radius 8px
+      - RECTANGLE "#A7A8AA", 96x96px, constraints left/top, radius 8px, fill #A7A8AA, effect UVU Image Drop Shadow
+      - GROUP "color description", 89x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "gray", 40x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#A7A8AA", 89x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gray-l3", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#F6F6F7", 96x96px, constraints left/top, radius 8px, fill #F6F6F7, effect UVU Image Drop Shadow
+      - GROUP "color description", 81x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L3", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#F6F6F7", 81x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gray-l2", 212x96px, constraints left/top, radius 8px
+      - RECTANGLE "#DCDCDD", 96x96px, constraints left/top, radius 8px, fill #DCDCDD, effect UVU Image Drop Shadow
+      - GROUP "color description", 100x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L2", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#DCDCDD", 100x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gray-l1", 199x96px, constraints left/top, radius 8px
+      - RECTANGLE "#C1C2C4", 96x96px, constraints left/top, radius 8px, fill #C1C2C4, effect UVU Image Drop Shadow
+      - GROUP "color description", 87x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L1", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#C1C2C4", 87x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gray-d1", 194x96px, constraints left/top, radius 8px
+      - RECTANGLE "#757677", 96x96px, constraints left/top, radius 8px, fill #757677, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D1", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#757677", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gray-d2", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#434344", 96x96px, constraints left/top, radius 8px, fill #434344, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D2", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#434344", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+  - GROUP "@uvu-red", 1788x96px, constraints left/top, radius 8px
+    - TEXT "@red", 94x48px, constraints left/top, fill #000000, text [Lato Black, 40px], [heading]
+    - GROUP "@uvu-red", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#E15230", 96x96px, constraints left/top, radius 8px, fill #E15230, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "red", 30x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#E15230", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-red-l3", 196x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FCEEEA", 96x96px, constraints left/top, radius 8px, fill #FCEEEA, effect UVU Image Drop Shadow
+      - GROUP "color description", 85x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L3", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FCEEEA", 85x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-red-l2", 199x96px, constraints left/top, radius 8px
+      - RECTANGLE "#F3BAAC", 96x96px, constraints left/top, radius 8px, fill #F3BAAC, effect UVU Image Drop Shadow
+      - GROUP "color description", 88x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L2", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#F3BAAC", 88x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-red-l1", 195x96px, constraints left/top, radius 8px
+      - RECTANGLE "#EA866E", 96x96px, constraints left/top, radius 8px, fill #EA866E, effect UVU Image Drop Shadow
+      - GROUP "color description", 84x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L1", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#EA866E", 84x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-red-d1", 194x96px, constraints left/top, radius 8px
+      - RECTANGLE "#9E3922", 96x96px, constraints left/top, radius 8px, fill #9E3922, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D1", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#9E3922", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-red-d2", 195x96px, constraints left/top, radius 8px
+      - RECTANGLE "#5A2113", 96x96px, constraints left/top, radius 8px, fill #5A2113, effect UVU Image Drop Shadow
+      - GROUP "color description", 84x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D2", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#5A2113", 84x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+  - GROUP "@uvu-orange", 1786x96px, constraints left/top, radius 8px
+    - TEXT "@orange", 159x48px, constraints left/top, fill #000000, text [Lato Black, 40px], [heading]
+    - GROUP "@uvu-orange", 200x96px, constraints left/top, radius 8px
+      - RECTANGLE "#D45D00", 96x96px, constraints left/top, radius 8px, fill #D45D00, effect UVU Image Drop Shadow
+      - GROUP "color description", 89x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "orange", 63x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#D45D00", 89x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-orange-l3", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FBEFE6", 96x96px, constraints left/top, radius 8px, fill #FBEFE6, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L3", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FBEFE6", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-orange-l2", 194x96px, constraints left/top, radius 8px
+      - RECTANGLE "#EEBE99", 96x96px, constraints left/top, radius 8px, fill #EEBE99, effect UVU Image Drop Shadow
+      - GROUP "color description", 83x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L2", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#EEBE99", 83x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-orange-l1", 196x96px, constraints left/top, radius 8px
+      - RECTANGLE "#E18E4D", 96x96px, constraints left/top, radius 8px, fill #E18E4D, effect UVU Image Drop Shadow
+      - GROUP "color description", 85x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L1", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#E18E4D", 85x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-orange-d1", 194x96px, constraints left/top, radius 8px
+      - RECTANGLE "#944100", 96x96px, constraints left/top, radius 8px, fill #944100, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D1", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#944100", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-orange-d2", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#552500", 96x96px, constraints left/top, radius 8px, fill #552500, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D2", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#552500", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+  - GROUP "@uvu-gold", 1786x96px, constraints left/top, radius 8px
+    - TEXT "@gold", 112x48px, constraints left/top, fill #000000, text [Lato Black, 40px], [heading]
+    - GROUP "@uvu-gold", 194x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FFB500", 96x96px, constraints left/top, radius 8px, fill #FFB500, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "gold", 39x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FFB500", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gold-l3", 192x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FFF8E6", 96x96px, constraints left/top, radius 8px, fill #FFF8E6, effect UVU Image Drop Shadow
+      - GROUP "color description", 81x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L3", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FFF8E6", 81x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gold-l2", 192x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FFE199", 96x96px, constraints left/top, radius 8px, fill #FFE199, effect UVU Image Drop Shadow
+      - GROUP "color description", 81x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L2", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FFE199", 81x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gold-l1", 199x96px, constraints left/top, radius 8px
+      - RECTANGLE "#FFCB4D", 96x96px, constraints left/top, radius 8px, fill #FFCB4D, effect UVU Image Drop Shadow
+      - GROUP "color description", 88x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L1", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#FFCB4D", 88x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gold-d1", 195x96px, constraints left/top, radius 8px
+      - RECTANGLE "#B37F00", 96x96px, constraints left/top, radius 8px, fill #B37F00, effect UVU Image Drop Shadow
+      - GROUP "color description", 83x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D1", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#B37F00", 83x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-gold-d2", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#664800", 96x96px, constraints left/top, radius 8px, fill #664800, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D2", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#664800", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+  - GROUP "@uvu-purple", 1786x96px, constraints left/top, radius 8px
+    - TEXT "@purple", 151x48px, constraints left/top, fill #000000, text [Lato Black, 40px], [heading]
+    - GROUP "@uvu-purple", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#595478", 96x96px, constraints left/top, radius 8px, fill #595478, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "purple", 59x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#595478", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-purple-l3", 192x96px, constraints left/top, radius 8px
+      - RECTANGLE "#EEEEF2", 96x96px, constraints left/top, radius 8px, fill #EEEEF2, effect UVU Image Drop Shadow
+      - GROUP "color description", 81x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L3", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#EEEEF2", 81x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-purple-l2", 202x96px, constraints left/top, radius 8px
+      - RECTANGLE "#BDBBC9", 96x96px, constraints left/top, radius 8px, fill #BDBBC9, effect UVU Image Drop Shadow
+      - GROUP "color description", 91x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L2", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#BDBBC9", 91x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-purple-l1", 196x96px, constraints left/top, radius 8px
+      - RECTANGLE "#8B87A1", 96x96px, constraints left/top, radius 8px, fill #8B87A1, effect UVU Image Drop Shadow
+      - GROUP "color description", 85x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "L1", 23x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#8B87A1", 85x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-purple-d1", 195x96px, constraints left/top, radius 8px
+      - RECTANGLE "#3E3B54", 96x96px, constraints left/top, radius 8px, fill #3E3B54, effect UVU Image Drop Shadow
+      - GROUP "color description", 83x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D1", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#3E3B54", 83x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+    - GROUP "@uvu-purple-d2", 193x96px, constraints left/top, radius 8px
+      - RECTANGLE "#242230", 96x96px, constraints left/top, radius 8px, fill #242230, effect UVU Image Drop Shadow
+      - GROUP "color description", 82x49px, constraints left/top, radius 0/0/0/0px
+        - TEXT "D2", 27x24px, constraints left/top, fill #000000, text [Lato Black, 20px]
+        - TEXT "#242230", 82x24px, constraints left/top, fill #000000, text [Lato Regular, 20px]
+  - GROUP "@uvu-beige", 1786x96px, constraints left/top, radius 8px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

@@ -1,0 +1,1136 @@
+---
+name: i-drip-e-commerce-app-community
+source_file: i drip e-commerce app (Community)
+source_page: All pages (3): cover, hi-fi UI, behance | dribble
+generated_at: 2026-07-25T09:39:07.530819+00:00
+---
+
+# i drip e-commerce app (Community) Design Guidelines
+
+## Source
+- Figma file: i drip e-commerce app (Community)
+- Figma page: All pages (3): cover, hi-fi UI, behance | dribble
+- Extracted at: 2026-07-25T09:39:07.530819+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- dark: [#212529]
+- dark white: [#F4FAFF]
+- orange: none
+- yellow: [#F6AE2D]
+- Primary: [#5956E9]
+- gray: [#CBCBD4]
+- /Dark Primary: [#000000]
+- Dark Secondary : [#C9A19C]
+- white: [#FAFBFC]
+- Text/Gray 60: [#A6A6AA]
+- Text/Gray 80: [#3A3A3A]
+- Text/Gray 40: [#CBCBD4]
+- black: [#02040F]
+- Secondary/Blue 20: [#ECF6FF]
+- Secondary/Blue: [#5FA1D5]
+
+## Raw Colors (unstyled)
+- #000000: 72 uses
+- #FFFFFF: 31 uses
+- #F4FAFF80: 8 uses
+- #02040F: 7 uses
+- #344A5E: 6 uses
+- #F6AE2D99: 6 uses
+- #212529CC: 4 uses
+- #C4C4C4: 4 uses
+- #D6D9E0: 4 uses
+- #F4F6FA: 4 uses
+- #F5FFEE: 4 uses
+- #212529: 3 uses
+- #A1C89B: 3 uses
+
+## Typography Tokens
+- Text / Body Sm Alt 12px | 16px: Lato Bold (700), 12px / 16px, tracking 0px
+- Interactions / Pill Sm 12px | 12px: Lato ExtraBold (800), 12px / 12px, tracking 0px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 15px: 39 uses
+- Roboto Medium, 14px: 38 uses
+- Lato Bold, 14px: 37 uses
+- Lato Bold, 20px: 14 uses
+- Roboto Black, 14px: 7 uses
+- Roboto Bold, 24px: 7 uses
+- Roboto BoldItalic, 26px: 7 uses
+- Lato ExtraBold, 14px: 6 uses
+- Lato ExtraBold, 9px: 6 uses
+- Roboto SemiBold, 17px: 6 uses
+- Roboto BoldItalic, 14px: 5 uses
+- Lato Medium, 48px: 4 uses
+- Roboto Bold, 20px: 4 uses
+- Roboto ExtraBold, 24px: 4 uses
+- Roboto Regular, 17px: 4 uses
+- Roboto BoldItalic, 18px: 3 uses
+
+## Typography Hierarchy
+- 48px - Lato Medium, 48px (raw)
+- 26px - Roboto BoldItalic, 26px (raw)
+- 24px - Roboto Bold, 24px (raw)
+- 24px - Roboto ExtraBold, 24px (raw)
+- 20px - Lato Bold, 20px (raw)
+- 20px - Roboto Bold, 20px (raw)
+- 18px - Roboto BoldItalic, 18px (raw)
+- 17px - Roboto Regular, 17px (raw)
+- 17px - Roboto SemiBold, 17px (raw)
+- 15px - Roboto Regular, 15px (raw)
+- 14px - Lato Bold, 14px (raw)
+- 14px - Lato ExtraBold, 14px (raw)
+- 14px - Roboto Black, 14px (raw)
+- 14px - Roboto BoldItalic, 14px (raw)
+- 14px - Roboto Medium, 14px (raw)
+- 12px - Interactions / Pill Sm 12px | 12px (Lato ExtraBold)
+- 12px - Text / Body Sm Alt 12px | 16px (Lato Bold)
+- 9px - Lato ExtraBold, 9px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- product drop shadow: [drop_shadow 40px offset 0 20 #0000001A]
+
+## Grid Styles
+- grid: columns count 8, section 31.75px, gutter 16px, align stretch
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- dark: 324 uses
+- orange: 129 uses
+- dark white: 80 uses
+- white: 61 uses
+- Text / Body Sm Alt 12px | 16px: 37 uses
+- yellow: 9 uses
+- Text/Gray 60: 7 uses
+- Text/Gray 80: 6 uses
+- product drop shadow: 4 uses
+- gray: 3 uses
+- Interactions / Pill Sm 12px | 12px: 1 use
+- Primary: 1 use
+- Secondary/Blue: 1 use
+- Secondary/Blue 20: 1 use
+- Text/Gray 40: 1 use
+- black: 1 use
+
+## Layout & Structure
+Screen: cover / Slide 16:9 - 1
+- FRAME "Slide 16:9 - 1", 1920x1080px, constraints left/top, fill #A1C89B
+  - TEXT "iDRIP app", 386x293px, constraints left/top, fill dark, text [Roboto Black, 128px], [heading]
+  - FRAME "category main screen", 414x1604px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 292", 414x195px, constraints left/top
+      - RECTANGLE "Rectangle 78", 414x195px, constraints left/top, fill white, effect [drop_shadow 16px offset 0 4 #00000029]
+      - GROUP "Group 291", 414x195px, constraints left/top
+        - RECTANGLE "apple-ecosystem-connections-removebg-preview", 352.55x150.63px, constraints left/top, fill image(hash: 18c47dddb12707c2304275cb50d2ab9680664b9b)
+        - RECTANGLE "Rectangle 77", 414x195px, constraints left/top, fill gradient_linear(#F6AE2D 0% | #F6AE2D00 100%), effect [drop_shadow 4px offset 0 4 #00000014]
+      - TEXT "find anything, buy anything", 309x35px, constraints left/top, fill dark, text [Roboto BoldItalic, 26px], [heading]
+    - GROUP "Group 311", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 301", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+            - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+          - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - TEXT "price", 57x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+      - RECTANGLE "apple-imac-removebg-preview", 152x151px, constraints left/top, fill image(hash: 4db6b15d1e9aff7ce3a7517b969029f085d008ce)
+    - GROUP "Group 315", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 314", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 302", 165x223px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+            - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+            - TEXT "price", 94x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+      - RECTANGLE "Best-MacBook-980x500 1", 159x110px, constraints left/top, fill image(hash: 0c3243b2e9bc3cc3194ba8ccf34a8123def698c6)
+    - GROUP "Group 299", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 298", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - TEXT "price", 49x17.55px, constraints left/top, fill dark, text [Lato Bold, 20px]
+      - RECTANGLE "ipad-card-40-pro-202108 3", 131x154px, constraints scale/scale, fill image(hash: 1147f304b8d6e4163569461d5b8d336ce3c6d15c)
+    - GROUP "Group 312", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 305", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+            - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+          - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - TEXT "price", 73x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+      - RECTANGLE "index-removebg-preview", 151x158px, constraints left/top, fill image(hash: 4b17df423b09b6b0079e036d2beb3db858bc3375)
+    - GROUP "Group 309", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 303", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+            - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+          - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - TEXT "price", 94x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+      - RECTANGLE "homepod-mini-og-202110-removebg-preview", 150x112px, constraints left/top, fill image(hash: 525530c5a4096aea9713d3cdce5adf88b6cb4021)
+    - GROUP "Group 313", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 302", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+            - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+          - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - TEXT "price", 67x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+      - GROUP "Group 297", 133x153.63px, constraints left/top
+        - RECTANGLE "airpods-black-friday-scaled 1", 100.08x82.52px, constraints left/top, fill image(hash: 2359aef605804e5bc24d9c9641d3e452cf918568)
+        - RECTANGLE "airpods-black-friday-scaled 2", 70.23x117.64px, constraints left/top, fill image(hash: 2359aef605804e5bc24d9c9641d3e452cf918568)
+    - GROUP "Group 308", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 306", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+            - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+          - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - TEXT "price", 75x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+      - RECTANGLE "watch-card-50-compare-202109 1", 163x119px, constraints left/top, fill image(hash: 332e0e9a1e8360967f78e76344a1f02a3007d071)
+    - FRAME "Tabbar11", 414x110px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [inner_shadow 10px offset 0 4 #0000000A, drop_shadow 10px offset 0 4 #0000000A]
+      - VECTOR "Vector", 20.19x20px, constraints scale/scale, fill orange
+      - GROUP "Home", 19x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Home", 19x20px, constraints scale/scale, fill dark
+      - GROUP "Group", 20.15x20px, constraints scale/scale
+        - INSTANCE "akar-icons:shopping-bag", 20.15x20px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 14.83x16.67px, constraints scale/scale
+            - VECTOR "Vector", 14.83x11.67px, constraints scale/scale, stroke dark 2px
+            - VECTOR "Vector", 6.72x7.5px, constraints scale/scale, stroke dark 2px
+      - TEXT "Category", 57x16px, constraints left/top, fill orange, text [Roboto Medium, 14px]
+      - TEXT "Home", 38x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+      - TEXT "Cart", 27x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+      - GROUP "Group", 17.6x20px, constraints scale/scale
+        - VECTOR "Vector", 10.07x10px, constraints scale/scale, stroke dark 2px
+        - VECTOR "Vector", 17.6x8px, constraints scale/scale, stroke dark 2px
+      - TEXT "Account", 53x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+      - GROUP "Bookmark", 16.12x20px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Bookmark", 16.12x20px, constraints scale/scale, fill dark
+      - TEXT "Wishlist", 50x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+      - RECTANGLE "Rectangle 2", 32x2px, constraints left/top, radius 28px, fill orange
+    - GROUP "Group 295", 414x120px, constraints left/top
+      - RECTANGLE "Rectangle 70", 414x120px, constraints left/top, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014]
+      - GROUP "Group 279", 69.5x28px, constraints left/top, radius 0/0/0/0px
+        - GROUP "top navigation", 69.5x28px, constraints left/top, radius 0/0/0/0px
+          - TEXT "iDrip", 69.5x28px, constraints left/top, fill #02040F, text [Roboto Bold, 24px], [heading]
+      - GROUP "Search", 20.76x20.76px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse_739", 19.89x19.42px, constraints scale/scale, stroke dark 2px
+        - VECTOR "Line_181", 3.9x3.8px, constraints scale/scale, stroke dark 2px
+      - FRAME "align-left", 32x32px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "wishlist screen", 414x1248px, constraints left/top, fill #FFFFFF
+    - GROUP "Group 288", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "MacBook Pro 13-inch 1", 157.3x91.3px, constraints scale/scale, fill image(hash: 0e39df4de8eeef9be168f155db61dbb36bb2d67e)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 45.1x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+    - GROUP "Group 273", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "ipadpro11-digitalmat-gallery-1-202111 1", 139.7x134.2px, constraints scale/scale, fill image(hash: 596d6994f3174b93fac7b20b2c710eb4aec65d53)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+    - GROUP "Group 269", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "color_front_green__eb8qbnemmre6_large 1", 140.8x125.4px, constraints scale/scale, fill image(hash: 81259e17bf5b69a5f276514bb715958a490e08f6)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 45.1x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill #F6AE2D, stroke dark 1.75px
+    - GROUP "Group 286", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "ipadair-digitalmat-gallery-3-202111 1", 119.9x137.5px, constraints scale/scale, fill image(hash: 0cddc5785bac93b0f9dffc3258a713e01204a11b)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+    - GROUP "Group 287", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "watch-s7-digitalmat-gallery-1-202111", 158.4x144.1px, constraints scale/scale, fill image(hash: 9d3b45b1d1e71f3cc8e903775e69c737da0d646d)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+    - GROUP "Group 289", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "AirPods Max1500_ 1", 118.8x132px, constraints scale/scale, fill image(hash: a310ef9e2b631ad1a02700e1814620eac1b847a6)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+    - TEXT "My wishlist", 188x30px, constraints left/top, fill dark, text [Roboto BoldItalic, 26px], [heading]
+    - GROUP "Group 295", 414x120px, constraints left/top
+      - RECTANGLE "Rectangle 70", 414x120px, constraints left/top, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014]
+      - GROUP "Group 279", 69.5x28px, constraints left/top, radius 0/0/0/0px
+        - GROUP "top navigation", 69.5x28px, constraints left/top, radius 0/0/0/0px
+          - TEXT "iDrip", 69.5x28px, constraints left/top, fill #02040F, text [Roboto Bold, 24px], [heading]
+      - GROUP "Search", 20.76x20.76px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse_739", 19.89x19.42px, constraints scale/scale, stroke dark 2px
+        - VECTOR "Line_181", 3.9x3.8px, constraints scale/scale, stroke dark 2px
+      - FRAME "align-left", 32x32px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+    - FRAME "Tabbar11", 414x110px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [inner_shadow 10px offset 0 4 #0000000A, drop_shadow 10px offset 0 4 #0000000A]
+      - GROUP "Group", 20.15x20px, constraints scale/scale
+        - INSTANCE "akar-icons:shopping-bag", 20.15x20px, constraints scale/scale, fill #FFFFFF
+          - GROUP "Group", 14.83x16.67px, constraints scale/scale
+            - VECTOR "Vector", 14.83x11.67px, constraints scale/scale, stroke dark 2px
+            - VECTOR "Vector", 6.72x7.5px, constraints scale/scale, stroke dark 2px
+      - GROUP "Group 328", 57x46px, constraints left/top
+        - VECTOR "Vector", 20.19x20px, constraints scale/scale, fill dark
+        - TEXT "Category", 57x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+      - GROUP "Group 325", 38x46px, constraints left/top
+        - GROUP "Home", 19x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Home", 19x20px, constraints scale/scale, fill dark
+        - TEXT "Home", 38x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+      - TEXT "Cart", 27x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+      - GROUP "Group", 17.6x20px, constraints scale/scale
+        - VECTOR "Vector", 10.07x10px, constraints scale/scale, stroke dark 2px
+        - VECTOR "Vector", 17.6x8px, constraints scale/scale, stroke dark 2px
+      - TEXT "Account", 53x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+      - GROUP "Bookmark", 16.12x20px, constraints left/top, fill #FFFFFF
+        - BOOLEAN_OPERATION "Bookmark", 16.12x20px, constraints scale/scale, fill orange
+      - TEXT "Wishlist", 50x16px, constraints left/top, fill orange, text [Roboto Medium, 14px]
+      - RECTANGLE "Rectangle 2", 32x2px, constraints left/top, radius 28px, fill orange
+  - GROUP "iPhone 13 Pro", 792.25x957.75px, constraints left/top, effect [drop_shadow 15px offset 0 4 #00000040] [decorative, ~11 shapes]
+
+Screen: hi-fi UI / home screen
+- FRAME "home screen", 414x2190px, constraints left/top, fill #FFFFFF
+  - GROUP "Search", 20x48.88px, constraints left/top, fill #FFFFFF
+    - ELLIPSE "Ellipse_739", 19.16x45.72px, constraints scale/scale, stroke dark 2px
+    - VECTOR "Line_181", 3.76x8.94px, constraints scale/scale, stroke dark 2px
+  - VECTOR "Vector", 16x29.33px, constraints scale/scale, stroke #000000 2px
+  - VECTOR "Vector", 20x0px, constraints scale/scale, stroke #000000 2px
+  - VECTOR "Vector", 20x0px, constraints scale/scale, stroke #000000 2px
+  - FRAME "Frame 295", 414x210px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - GROUP "Group 293", 414x210px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 282", 414x210px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 147", 414x210px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 60", 414x210px, constraints left/top, fill yellow
+          - GROUP "Group 146", 189.37x92px, constraints left/top, radius 0/0/0/0px
+            - TEXT "Exclusive Deals", 189.37x30px, constraints left/top, fill dark, text [Roboto BoldItalic, 26px], [heading]
+            - TEXT "for new ipads", 143.04x21px, constraints left/top, fill dark, text [Roboto BoldItalic, 18px]
+            - GROUP "Group 145", 98.72x27px, constraints left/top, radius 0/0/0/0px
+            - TEXT "35% OFF", 54.39x16px, constraints left/top, fill #000000, text [Roboto BoldItalic, 14px]
+          - ELLIPSE "Ellipse 56", 8.06x8px, constraints left/top, fill #F4FAFF80
+          - ELLIPSE "Ellipse 57", 8.06x8px, constraints left/top, fill #F4FAFF80
+          - ELLIPSE "Ellipse 58", 8.06x8px, constraints left/top, fill dark white
+          - RECTANGLE "ipad-card-40-pro-202108 1", 143.04x166px, constraints scale/scale, fill image(hash: 1147f304b8d6e4163569461d5b8d336ce3c6d15c)
+    - GROUP "Group 294", 411x210px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 151", 411x210px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 148", 411x210px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 280", 411x210px, constraints left/top, radius 0/0/0/0px
+            - GROUP "Group 147", 411x210px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "color_front_green__eb8qbnemmre6_large 1", 176x156px, constraints scale/scale, radius 0/0/15/15px, fill image(hash: 81259e17bf5b69a5f276514bb715958a490e08f6)
+      - ELLIPSE "Ellipse 58", 8x8px, constraints left/top, fill #F4FAFF80
+      - ELLIPSE "Ellipse 57", 8x8px, constraints left/top, fill #F4FAFF80
+      - ELLIPSE "Ellipse 56", 8x8px, constraints left/top, fill #F4FAFF
+    - GROUP "Group 281", 411x210px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 148", 411x210px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 147", 411x210px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 60", 411x210px, constraints left/top, fill yellow
+          - GROUP "Group 146", 120x97px, constraints left/top, radius 5px
+            - TEXT "be PRO with apple", 120x56px, constraints left/top, fill dark, text [Roboto BoldItalic, 24px], [heading]
+            - GROUP "Group 145", 98x27px, constraints left/top, radius 5px
+            - TEXT "10% OFF", 54x16px, constraints left/top, fill #000000, text [Roboto BoldItalic, 14px]
+          - ELLIPSE "Ellipse 56", 8x8px, constraints left/top, fill #F4FAFF80
+          - ELLIPSE "Ellipse 57", 8x8px, constraints left/top, fill #F4FAFF
+          - ELLIPSE "Ellipse 58", 8x8px, constraints left/top, fill #F4FAFF80
+      - RECTANGLE "mac-card-40-mac-pro-202108 1", 68x130px, constraints scale/scale, fill image(hash: b81147a9d331256fedc67ff832c3ca9265ac8e8c)
+      - RECTANGLE "proxdr-digitalmat-gallery-2-202111 1", 132x108px, constraints scale/scale, fill image(hash: eaa8d0da944360baa1b1d6ae65301ab199f1c46d)
+  - GROUP "Group 150", 366x16px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Hot Deals", 76x12px, constraints left/top, fill Text/Gray 80, text [Lato ExtraBold, 14px]
+    - TEXT "Link", 53x16px, constraints right/top, fill Text/Gray 60, text [Roboto Black, 14px]
+  - GROUP "Group 296", 366x16px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Most Poplular", 101x12px, constraints left/top, fill Text/Gray 80, text [Lato ExtraBold, 14px]
+    - TEXT "Link", 53x16px, constraints right/top, fill Text/Gray 60, text [Roboto Black, 14px]
+  - FRAME "Frame 283", 391x250px, horizontal pad 0 0 0 0px gap 10px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 279", 645x250px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 269", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "color_front_green__eb8qbnemmre6_large 1", 128x114px, constraints scale/scale, fill image(hash: 81259e17bf5b69a5f276514bb715958a490e08f6)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 41x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, fill orange, stroke dark 1.75px
+      - GROUP "Group 270", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "watch-se-digitalmat-gallery-4-202111", 132x121px, constraints scale/scale, fill image(hash: 583bd8bc93b23a5825e629fed7f7cc5ddcd217d7)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 271", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "MacBook Pro 16-inch 1", 147x93px, constraints scale/scale, fill image(hash: 73c7fcb0d6719704b9cc505a98ed6258d35c98a5)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 41x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 272", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "0 iphone 13 mini 1", 106x136px, constraints scale/scale, fill image(hash: 97a9bcd49820f3de788a5f95e62b1c7f4256d202)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+  - FRAME "Frame 275", 387x250px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 273", 645x250px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 269", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "ipad-mini-digitalmat-gallery-1-202111 1", 128x115px, constraints scale/scale, fill image(hash: 1387a6364431e183e4e657a85fbccca8f47579d7)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 270", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "watch-s3-digitalmat-gallery-3-202111 2", 144x131px, constraints scale/scale, fill image(hash: 70f74ad6da93979b2f1918024ade2a832a087740)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 271", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "mac-card-40-imac-27-202108 1", 141x119px, constraints scale/scale, fill image(hash: 6de8f61cacfdd84beba3b02ba4be0e43926a37b0)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 41x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 272", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "mac-mini-digitalmat-gallery-4-202111 2", 102x104px, constraints scale/scale, fill image(hash: 9e0c44f006f70417f1f9115a6a8531389860291e)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+  - GROUP "Group 173", 367x142px, constraints left/top
+    - FRAME "Frame 282", 364x110px, horizontal pad 0 0 0 0px gap 14px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 169", 80x110px, constraints left/top, radius 0/0/0/0px, effect [inner_shadow 4px offset 0 4 #00000014, drop_shadow 4px offset 0 4 #00000014]
+        - RECTANGLE "Rectangle 66", 80x110px, constraints left/top, radius 10px, fill white, effect [background_blur 4px]
+        - RECTANGLE "Rectangle 67", 80x82.5px, constraints left/top, radius 10/10/0/0px, fill white, effect [drop_shadow 4px offset 0 4 #0000000A]
+        - RECTANGLE "61VByDni+vL 1", 61.57x77px, constraints left/top, fill image(hash: 0d8798c98e6b221dca57a2c5b45ecff8974e6105)
+        - TEXT "iPhone", 39.87x11.51px, constraints left/top, fill dark, text [Lato ExtraBold, 9px]
+      - GROUP "Group 172", 80x110px, constraints left/top, radius 0/0/0/0px, effect [inner_shadow 4px offset 0 4 #00000014, drop_shadow 4px offset 0 4 #00000014]
+        - RECTANGLE "Rectangle 66", 80x110px, constraints left/top, radius 10px, fill white, effect [background_blur 4px]
+        - RECTANGLE "Rectangle 67", 80x82.5px, constraints left/top, radius 10/10/0/0px, fill white, effect [drop_shadow 4px offset 0 4 #0000000A]
+        - RECTANGLE "APPLE iPad Pro 12 1", 58.47x74.19px, constraints left/top, fill image(hash: f25874013f64931001aeca578399c6df81f09639)
+        - TEXT "iPad", 26.58x11.51px, constraints left/top, fill dark, text [Lato ExtraBold, 9px]
+      - GROUP "Group 171", 80x110px, constraints left/top, radius 0/0/0/0px, effect [inner_shadow 4px offset 0 4 #00000014, drop_shadow 4px offset 0 4 #00000014]
+        - RECTANGLE "Rectangle 66", 80x110px, constraints left/top, radius 10px, fill white, effect [background_blur 4px]
+        - RECTANGLE "Rectangle 67", 80x82.5px, constraints left/top, radius 10/10/0/0px, fill white, effect [drop_shadow 4px offset 0 4 #0000000A]
+        - RECTANGLE "color_front_green__eb8qbnemmre6_large 1", 77.08x65.23px, constraints left/top, fill image(hash: 81259e17bf5b69a5f276514bb715958a490e08f6)
+        - TEXT "mac", 27.91x11.51px, constraints left/top, fill dark, text [Lato ExtraBold, 9px]
+      - GROUP "Group 173", 80x110px, constraints left/top, radius 0/0/0/0px, effect [inner_shadow 4px offset 0 4 #00000014, drop_shadow 4px offset 0 4 #00000014]
+        - RECTANGLE "Rectangle 66", 80x110px, constraints left/top, radius 10px, fill white, effect [background_blur 4px]
+        - RECTANGLE "Rectangle 67", 80x82.5px, constraints left/top, radius 10/10/0/0px, fill white, effect [drop_shadow 4px offset 0 4 #0000000A]
+        - RECTANGLE "Apple_16_inch_MacBook_Pro_2021_Press_Image 1", 71.76x66.51px, constraints left/top, fill image(hash: ab9c75254e5791b74b1ff4834ad9fcb3e4182713)
+        - TEXT "macbooks", 42.97x11.82px, constraints left/top, fill dark, text [Lato ExtraBold, 9px]
+    - GROUP "Group 151", 364x16px, constraints left/top, radius 0/0/0/0px
+      - TEXT "CATEGORIES", 100.55x12.07px, constraints left/top, fill Text/Gray 80, text [Lato ExtraBold, 14px]
+      - TEXT "Link", 60x16px, constraints right/top, fill Text/Gray 60, text [Roboto Black, 14px]
+  - GROUP "Group 219", 362x16px, constraints left/top, radius 0/0/0/0px
+    - TEXT "iPhones", 103x12px, constraints left/top, fill Text/Gray 80, text [Lato ExtraBold, 14px]
+    - TEXT "Link", 53x16px, constraints right/top, fill Text/Gray 60, text [Roboto Black, 12px]
+  - FRAME "Frame 276", 391x250px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 273", 645x250px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 271", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "5 1", 70x130px, constraints scale/scale, fill image(hash: 18c1deef31a4026061036abdcb6fc9bb2220decb)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+        - TEXT "Previous Price", 28x12px, constraints scale/scale, fill Text/Gray 40, text [Roboto Bold, 12px], opacity 90%
+      - GROUP "Group 270", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "7 1", 68x130px, constraints scale/scale, fill image(hash: f75bd3929742c76427740bb8d821cf3bb8bccff8)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, fill orange, stroke dark 1.75px
+      - GROUP "Group 269", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "61VByDni+vL 1", 104.67x136px, constraints scale/scale, fill image(hash: 0d8798c98e6b221dca57a2c5b45ecff8974e6105)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 272", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "0 iphone 13 mini 1", 106x136px, constraints scale/scale, fill image(hash: 97a9bcd49820f3de788a5f95e62b1c7f4256d202)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+  - GROUP "Group 273", 364x327px, constraints left/top, radius 0/0/0/0px
+    - TEXT "iPads", 103x12px, constraints left/top, fill Text/Gray 80, text [Lato ExtraBold, 14px]
+    - TEXT "Link", 53x16px, constraints right/top, fill Text/Gray 60, text [Roboto Black, 14px]
+    - TEXT "Link", 53x16px, constraints right/top, fill Text/Gray 60, text [Roboto Black, 14px]
+  - FRAME "Frame 280", 386x250px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 279", 645x250px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 275", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "ipadair-digitalmat-gallery-3-202111 1", 109x125px, constraints scale/scale, fill image(hash: 0cddc5785bac93b0f9dffc3258a713e01204a11b)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 277", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "ipad-digitalmat-gallery-1-202111 1", 120x129px, constraints scale/scale, fill image(hash: 56884c1ece519d109a5c56223334f758dbf96da1)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 276", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "ipad-mini-digitalmat-gallery-1-202111 1", 128x115px, constraints scale/scale, fill image(hash: 1387a6364431e183e4e657a85fbccca8f47579d7)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 33x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 278", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "ipad-card-40-pro-202108 1", 108x126px, constraints scale/scale, fill image(hash: 1147f304b8d6e4163569461d5b8d336ce3c6d15c)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 41x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+  - GROUP "Group 274", 362x16px, constraints left/top, radius 0/0/0/0px
+    - TEXT "macs", 103x12px, constraints left/top, fill Text/Gray 80, text [Lato ExtraBold, 14px]
+    - TEXT "Link", 0x16px, constraints right/top, fill Text/Gray 60, text [Roboto Black, 14px]
+  - FRAME "Frame 281", 386x250px, constraints left/top, fill #FFFFFF
+    - FRAME "Frame 279", 645x250px, horizontal pad 0 0 0 0px gap 15px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 269", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "proxdr-digitalmat-gallery-2-202111 1", 132x108px, constraints scale/scale, fill image(hash: eaa8d0da944360baa1b1d6ae65301ab199f1c46d)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 41x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, fill orange, stroke dark 1.75px
+      - GROUP "Group 271", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "color_front_green__eb8qbnemmre6_large 1", 128x114px, constraints scale/scale, fill image(hash: 81259e17bf5b69a5f276514bb715958a490e08f6)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+        - TEXT "price", 41x16px, constraints left/top, fill dark, text [Lato Bold, 14px]
+        - VECTOR "star", 10x10px, constraints left/top, fill orange, stroke orange 1px
+        - TEXT "p name", 115x40px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+        - VECTOR "Path", 12x15px, constraints scale/scale, stroke dark 1.75px
+      - GROUP "Group 270", 150x250px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 150x250px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 150x250px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 150x145px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 150x145px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - RECTANGLE "mac-card-40-imac-27-202108 1", 141x119px, constraints scale/scale, fill image(hash: 6de8f61cacfdd84beba3b02ba4be0e43926a37b0)
+        - TEXT "ratings", 17x16px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: hi-fi UI / Tabbar11
+- FRAME "Tabbar11", 414x110px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [inner_shadow 10px offset 0 4 #0000000A, drop_shadow 10px offset 0 4 #0000000A]
+  - GROUP "Home", 19x20px, constraints left/top, fill #FFFFFF
+    - VECTOR "Home", 19x20px, constraints scale/scale, fill orange
+  - GROUP "Group", 20.15x20px, constraints scale/scale
+    - INSTANCE "akar-icons:shopping-bag", 20.15x20px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Group", 14.83x16.67px, constraints scale/scale
+        - VECTOR "Vector", 14.83x11.67px, constraints scale/scale, stroke dark 2px
+        - VECTOR "Vector", 6.72x7.5px, constraints scale/scale, stroke dark 2px
+  - GROUP "Group 326", 61x48px, constraints left/top
+    - VECTOR "Vector", 20.19x20px, constraints scale/scale, fill dark
+    - TEXT "Category", 61x18px, constraints left/top, fill dark, text [Roboto Medium, 15px]
+  - TEXT "Home", 38x16px, constraints left/top, fill orange, text [Roboto Medium, 14px]
+  - TEXT "Cart", 27x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+  - GROUP "Group", 17.6x20px, constraints scale/scale
+    - VECTOR "Vector", 10.07x10px, constraints scale/scale, stroke dark 2px
+    - VECTOR "Vector", 17.6x8px, constraints scale/scale, stroke dark 2px
+  - TEXT "Account", 53x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+  - GROUP "Group 323", 50x46px, constraints left/top
+    - GROUP "Bookmark", 16.12x20px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Bookmark", 16.12x20px, constraints scale/scale, fill dark
+    - TEXT "Wishlist", 50x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+  - RECTANGLE "Rectangle 2", 32x2px, constraints left/top, radius 28px, fill orange
+
+Screen: hi-fi UI / category screen
+- FRAME "category screen", 414x1323px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 284", 364x883px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 269", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "ipadair-digitalmat-gallery-3-202111 1", 119.9x137.5px, constraints scale/scale, fill image(hash: 0cddc5785bac93b0f9dffc3258a713e01204a11b)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, stroke dark 1.75px
+    - GROUP "Group 271", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "ipad-digitalmat-gallery-1-202111 1", 132x141.9px, constraints scale/scale, fill image(hash: 56884c1ece519d109a5c56223334f758dbf96da1)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, stroke dark 1.75px
+    - GROUP "Group 270", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "ipad-mini-digitalmat-gallery-1-202111 1", 140.8x126.5px, constraints scale/scale, fill image(hash: 1387a6364431e183e4e657a85fbccca8f47579d7)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, stroke dark 1.75px
+    - GROUP "Group 272", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "ipad-card-40-pro-202108 1", 118.8x138.6px, constraints scale/scale, fill image(hash: 1147f304b8d6e4163569461d5b8d336ce3c6d15c)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 45.1x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, stroke dark 1.75px
+    - GROUP "Group 273", 165x275px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - RECTANGLE "ipadpro11-digitalmat-gallery-1-202111 1", 139.7x134.2px, constraints scale/scale, fill image(hash: 596d6994f3174b93fac7b20b2c710eb4aec65d53)
+      - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+      - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+      - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+      - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+      - VECTOR "Path", 13.2x16.5px, constraints scale/scale, stroke dark 1.75px
+  - GROUP "Group 283", 414x182px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 147", 414x182px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 60", 414x182px, constraints left/top, fill yellow
+      - GROUP "Group 146", 189.37x92px, constraints left/top, radius 5px
+        - TEXT "Exclusive Deals", 189.37x30px, constraints left/top, fill dark, text [Roboto BoldItalic, 26px], [heading]
+        - TEXT "for new ipads", 143.04x21px, constraints left/top, fill dark, text [Roboto BoldItalic, 18px]
+        - GROUP "Group 145", 98.72x27px, constraints left/top, radius 5px
+          - RECTANGLE "Rectangle 61", 98.72x27px, constraints left/top, radius 5px, fill dark white
+        - TEXT "35% OFF", 54.39x16px, constraints left/top, fill #000000, text [Roboto BoldItalic, 14px]
+      - RECTANGLE "ipad-card-40-pro-202108 1", 125x164px, constraints scale/scale, fill image(hash: 1147f304b8d6e4163569461d5b8d336ce3c6d15c)
+  - GROUP "Group 295", 414x120px, constraints left/top
+    - RECTANGLE "Rectangle 70", 414x120px, constraints left/top, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014]
+    - GROUP "Group 279", 69.5x28px, constraints left/top, radius 0/0/0/0px
+      - GROUP "top navigation", 69.5x28px, constraints left/top, radius 0/0/0/0px
+        - TEXT "iDrip", 69.5x28px, constraints left/top, fill #02040F, text [Roboto Bold, 24px], [heading]
+    - GROUP "Search", 20.76x20.35px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse_739", 19.89x19.03px, constraints scale/scale, stroke dark 2px
+      - VECTOR "Line_181", 3.9x3.72px, constraints scale/scale, stroke dark 2px
+    - FRAME "align-left", 32x32px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Tabbar11", 414x110px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [inner_shadow 10px offset 0 4 #0000000A, drop_shadow 10px offset 0 4 #0000000A]
+    - GROUP "Home", 19x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Home", 19x20px, constraints scale/scale, fill dark
+    - GROUP "Group", 20.15x20px, constraints scale/scale
+      - INSTANCE "akar-icons:shopping-bag", 20.15x20px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 14.83x16.67px, constraints scale/scale
+          - VECTOR "Vector", 14.83x11.67px, constraints scale/scale, stroke dark 2px
+          - VECTOR "Vector", 6.72x7.5px, constraints scale/scale, stroke dark 2px
+    - GROUP "Group 327", 57x46px, constraints left/top
+      - VECTOR "Vector", 20.19x20px, constraints scale/scale, fill orange
+      - TEXT "Category", 57x16px, constraints left/top, fill orange, text [Roboto Medium, 14px]
+    - TEXT "Home", 38x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - TEXT "Cart", 27x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - GROUP "Group", 17.6x20px, constraints scale/scale
+      - VECTOR "Vector", 10.07x10px, constraints scale/scale, stroke dark 2px
+      - VECTOR "Vector", 17.6x8px, constraints scale/scale, stroke dark 2px
+    - TEXT "Account", 53x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - GROUP "Bookmark", 16.12x20px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Bookmark", 16.12x20px, constraints scale/scale, fill dark
+    - TEXT "Wishlist", 50x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - RECTANGLE "Rectangle 2", 32x2px, constraints left/top, radius 28px, fill orange
+
+Screen: hi-fi UI / wishlist screen
+- FRAME "wishlist screen", 414x1248px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 288", 165x275px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+      - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+    - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+      - RECTANGLE "MacBook Pro 13-inch 1", 157.3x91.3px, constraints scale/scale, fill image(hash: 0e39df4de8eeef9be168f155db61dbb36bb2d67e)
+    - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+    - TEXT "price", 45.1x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+    - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+    - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+    - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+  - GROUP "Group 273", 165x275px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+      - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+    - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+      - RECTANGLE "ipadpro11-digitalmat-gallery-1-202111 1", 139.7x134.2px, constraints scale/scale, fill image(hash: 596d6994f3174b93fac7b20b2c710eb4aec65d53)
+    - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+    - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+    - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+    - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+    - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+  - GROUP "Group 269", 165x275px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+      - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+    - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+      - RECTANGLE "color_front_green__eb8qbnemmre6_large 1", 140.8x125.4px, constraints scale/scale, fill image(hash: 81259e17bf5b69a5f276514bb715958a490e08f6)
+    - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+    - TEXT "price", 45.1x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+    - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+    - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+    - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill #F6AE2D, stroke dark 1.75px
+  - GROUP "Group 286", 165x275px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+      - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+    - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+      - RECTANGLE "ipadair-digitalmat-gallery-3-202111 1", 119.9x137.5px, constraints scale/scale, fill image(hash: 0cddc5785bac93b0f9dffc3258a713e01204a11b)
+    - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+    - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+    - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+    - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+    - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+  - GROUP "Group 287", 165x275px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+      - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+    - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+      - RECTANGLE "watch-s7-digitalmat-gallery-1-202111", 158.4x144.1px, constraints scale/scale, fill image(hash: 9d3b45b1d1e71f3cc8e903775e69c737da0d646d)
+    - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+    - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+    - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+    - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+    - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+  - GROUP "Group 289", 165x275px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 235", 165x275px, constraints left/top, radius 10px
+      - RECTANGLE "Rectangle 74", 165x275px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+    - GROUP "Group 234", 165x159.5px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 75", 165x159.5px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+      - RECTANGLE "AirPods Max1500_ 1", 118.8x132px, constraints scale/scale, fill image(hash: a310ef9e2b631ad1a02700e1814620eac1b847a6)
+    - TEXT "ratings", 18.7x17.6px, constraints left/top, fill dark, text [Text / Body Sm Alt 12px | 16px]
+    - TEXT "price", 36.3x17.6px, constraints left/top, fill dark, text [Lato Bold, 14px]
+    - VECTOR "star", 11x11px, constraints left/top, fill orange, stroke orange 1px
+    - TEXT "p name", 126.5x44px, constraints scale/scale, fill dark, text [Roboto Regular, 15px]
+    - VECTOR "Path", 13.2x16.5px, constraints scale/scale, fill orange, stroke dark 1.75px
+  - TEXT "My wishlist", 188x30px, constraints left/top, fill dark, text [Roboto BoldItalic, 26px], [heading]
+  - GROUP "Group 295", 414x120px, constraints left/top
+    - RECTANGLE "Rectangle 70", 414x120px, constraints left/top, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014]
+    - GROUP "Group 279", 69.5x28px, constraints left/top, radius 0/0/0/0px
+      - GROUP "top navigation", 69.5x28px, constraints left/top, radius 0/0/0/0px
+        - TEXT "iDrip", 69.5x28px, constraints left/top, fill #02040F, text [Roboto Bold, 24px], [heading]
+    - GROUP "Search", 20.76x20.76px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse_739", 19.89x19.42px, constraints scale/scale, stroke dark 2px
+      - VECTOR "Line_181", 3.9x3.8px, constraints scale/scale, stroke dark 2px
+    - FRAME "align-left", 32x32px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Tabbar11", 414x110px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [inner_shadow 10px offset 0 4 #0000000A, drop_shadow 10px offset 0 4 #0000000A]
+    - GROUP "Group", 20.15x20px, constraints scale/scale
+      - INSTANCE "akar-icons:shopping-bag", 20.15x20px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 14.83x16.67px, constraints scale/scale
+          - VECTOR "Vector", 14.83x11.67px, constraints scale/scale, stroke dark 2px
+          - VECTOR "Vector", 6.72x7.5px, constraints scale/scale, stroke dark 2px
+    - GROUP "Group 328", 57x46px, constraints left/top
+      - VECTOR "Vector", 20.19x20px, constraints scale/scale, fill dark
+      - TEXT "Category", 57x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - GROUP "Group 325", 38x46px, constraints left/top
+      - GROUP "Home", 19x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Home", 19x20px, constraints scale/scale, fill dark
+      - TEXT "Home", 38x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - TEXT "Cart", 27x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - GROUP "Group", 17.6x20px, constraints scale/scale
+      - VECTOR "Vector", 10.07x10px, constraints scale/scale, stroke dark 2px
+      - VECTOR "Vector", 17.6x8px, constraints scale/scale, stroke dark 2px
+    - TEXT "Account", 53x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - GROUP "Bookmark", 16.12x20px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Bookmark", 16.12x20px, constraints scale/scale, fill orange
+    - TEXT "Wishlist", 50x16px, constraints left/top, fill orange, text [Roboto Medium, 14px]
+    - RECTANGLE "Rectangle 2", 32x2px, constraints left/top, radius 28px, fill orange
+
+Screen: hi-fi UI / category main screen
+- FRAME "category main screen", 414x1604px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 292", 414x195px, constraints left/top
+    - RECTANGLE "Rectangle 78", 414x195px, constraints left/top, fill white, effect [drop_shadow 16px offset 0 4 #00000029]
+    - GROUP "Group 291", 414x195px, constraints left/top
+      - RECTANGLE "apple-ecosystem-connections-removebg-preview", 352.55x150.63px, constraints left/top, fill image(hash: 18c47dddb12707c2304275cb50d2ab9680664b9b)
+      - RECTANGLE "Rectangle 77", 414x195px, constraints left/top, fill gradient_linear(#F6AE2D 0% | #F6AE2D00 100%), effect [drop_shadow 4px offset 0 4 #00000014]
+    - TEXT "find anything, buy anything", 309x35px, constraints left/top, fill dark, text [Roboto BoldItalic, 26px], [heading]
+  - GROUP "Group 311", 165x223px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 301", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - TEXT "price", 57x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+    - RECTANGLE "apple-imac-removebg-preview", 152x151px, constraints left/top, fill image(hash: 4db6b15d1e9aff7ce3a7517b969029f085d008ce)
+  - GROUP "Group 315", 165x223px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 314", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 302", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+          - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+            - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+          - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+          - TEXT "price", 94x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+    - RECTANGLE "Best-MacBook-980x500 1", 159x110px, constraints left/top, fill image(hash: 0c3243b2e9bc3cc3194ba8ccf34a8123def698c6)
+  - GROUP "Group 299", 165x223px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 298", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+        - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+      - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+      - TEXT "price", 49x17.55px, constraints left/top, fill dark, text [Lato Bold, 20px]
+    - RECTANGLE "ipad-card-40-pro-202108 3", 131x154px, constraints scale/scale, fill image(hash: 1147f304b8d6e4163569461d5b8d336ce3c6d15c)
+  - GROUP "Group 312", 165x223px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 305", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - TEXT "price", 73x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+    - RECTANGLE "index-removebg-preview", 151x158px, constraints left/top, fill image(hash: 4b17df423b09b6b0079e036d2beb3db858bc3375)
+  - GROUP "Group 309", 165x223px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 303", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - TEXT "price", 94x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+    - RECTANGLE "homepod-mini-og-202110-removebg-preview", 150x112px, constraints left/top, fill image(hash: 525530c5a4096aea9713d3cdce5adf88b6cb4021)
+  - GROUP "Group 313", 165x223px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 302", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - TEXT "price", 67x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+    - GROUP "Group 297", 133x153.63px, constraints left/top
+      - RECTANGLE "airpods-black-friday-scaled 1", 100.08x82.52px, constraints left/top, fill image(hash: 2359aef605804e5bc24d9c9641d3e452cf918568)
+      - RECTANGLE "airpods-black-friday-scaled 2", 70.23x117.64px, constraints left/top, fill image(hash: 2359aef605804e5bc24d9c9641d3e452cf918568)
+  - GROUP "Group 308", 165x223px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 306", 165x223px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 269", 165x223px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 235", 165x223px, constraints left/top, radius 10px
+          - RECTANGLE "Rectangle 74", 165x223px, constraints left/top, radius 10px, fill white, effect [drop_shadow 8px offset 0 4 #00000029]
+        - GROUP "Group 234", 165x173px, constraints left/top, radius 0/0/0/0px
+          - RECTANGLE "Rectangle 75", 165x173px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014, inner_shadow 8px offset 0 4 #00000014]
+        - TEXT "price", 75x18px, constraints left/top, fill dark, text [Lato Bold, 20px]
+    - RECTANGLE "watch-card-50-compare-202109 1", 163x119px, constraints left/top, fill image(hash: 332e0e9a1e8360967f78e76344a1f02a3007d071)
+  - FRAME "Tabbar11", 414x110px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [inner_shadow 10px offset 0 4 #0000000A, drop_shadow 10px offset 0 4 #0000000A]
+    - VECTOR "Vector", 20.19x20px, constraints scale/scale, fill orange
+    - GROUP "Home", 19x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Home", 19x20px, constraints scale/scale, fill dark
+    - GROUP "Group", 20.15x20px, constraints scale/scale
+      - INSTANCE "akar-icons:shopping-bag", 20.15x20px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 14.83x16.67px, constraints scale/scale
+          - VECTOR "Vector", 14.83x11.67px, constraints scale/scale, stroke dark 2px
+          - VECTOR "Vector", 6.72x7.5px, constraints scale/scale, stroke dark 2px
+    - TEXT "Category", 57x16px, constraints left/top, fill orange, text [Roboto Medium, 14px]
+    - TEXT "Home", 38x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - TEXT "Cart", 27x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - GROUP "Group", 17.6x20px, constraints scale/scale
+      - VECTOR "Vector", 10.07x10px, constraints scale/scale, stroke dark 2px
+      - VECTOR "Vector", 17.6x8px, constraints scale/scale, stroke dark 2px
+    - TEXT "Account", 53x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - GROUP "Bookmark", 16.12x20px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Bookmark", 16.12x20px, constraints scale/scale, fill dark
+    - TEXT "Wishlist", 50x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - RECTANGLE "Rectangle 2", 32x2px, constraints left/top, radius 28px, fill orange
+  - GROUP "Group 295", 414x120px, constraints left/top
+    - RECTANGLE "Rectangle 70", 414x120px, constraints left/top, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014]
+    - GROUP "Group 279", 69.5x28px, constraints left/top, radius 0/0/0/0px
+      - GROUP "top navigation", 69.5x28px, constraints left/top, radius 0/0/0/0px
+        - TEXT "iDrip", 69.5x28px, constraints left/top, fill #02040F, text [Roboto Bold, 24px], [heading]
+    - GROUP "Search", 20.76x20.76px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse_739", 19.89x19.42px, constraints scale/scale, stroke dark 2px
+      - VECTOR "Line_181", 3.9x3.8px, constraints scale/scale, stroke dark 2px
+    - FRAME "align-left", 32x32px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+
+Screen: hi-fi UI / splash screen
+- FRAME "splash screen", 414x896px, constraints left/top, fill dark white
+  - GROUP "Group 316", 187.54x197.91px, constraints left/top
+    - GROUP "Logo Shapes 18", 187.54x172.75px, constraints left/top [decorative, ~10 shapes]
+    - GROUP "Group 279", 107x43px, constraints left/top, radius 0/0/0/0px
+      - GROUP "top navigation", 107x43px, constraints left/top, radius 0/0/0/0px
+        - TEXT "iDrip", 107x43px, constraints left/top, fill dark, text [Roboto Bold, 37px], [heading]
+
+Screen: hi-fi UI / product screen
+- FRAME "product screen", 414x1035px, constraints left/top, fill #FFFFFF
+  - GROUP "Colors", 367.9x70px, constraints left/top
+    - TEXT "Colors", 58.05x20px, constraints left/top, fill #000000, text [Roboto SemiBold, 17px]
+    - INSTANCE "Button / Small w/item", 123.76x40px, constraints left/top, fill #FFFFFF
+    - INSTANCE "Button / Small w/item", 113.9x40px, constraints left/top
+      - RECTANGLE "Rectangle 2", 113.9x40px, constraints scale/scale, radius 10px, fill #A1C89B, stroke #A1C89B 1px, effect [drop_shadow 14px offset 0 4 #0000000F]
+    - INSTANCE "Button / Small w/item", 113.9x40px, constraints left/top
+      - RECTANGLE "Rectangle 2", 113.9x40px, constraints scale/scale, radius 10px, fill #C9A19C, stroke #C9A19C 1px, effect [drop_shadow 14px offset 0 4 #0000000F]
+    - INSTANCE "Button / Small w/item", 113.9x40px, constraints left/top, fill #FFFFFF
+      - RECTANGLE "Rectangle 2", 113.9x40px, constraints scale/scale, radius 10px, fill #774488, stroke #774488 1px, effect [drop_shadow 14px offset 0 4 #0000000F]
+  - GROUP "Description", 367x154px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Get Apple TV+ free for a year", 221x20px, constraints left/top, fill #000000, text [Roboto SemiBold, 17px]
+    - TEXT "iPad Air. With a stunning 10.9-inch Liquid Retina display an", 366x122px, constraints left/top, fill dark, text [Raleway Medium, 12px], opacity 50%
+  - INSTANCE "Button / Large", 364x70px, constraints left/top
+    - RECTANGLE "Rectangle 2", 364x70px, constraints scale/scale, radius 10px, fill orange, effect product drop shadow
+    - TEXT "Button", 336.18x23px, constraints scale/scale, fill dark white, text [Roboto Bold, 20px]
+  - TEXT "Total", 39x20px, constraints left/top, fill dark, text [Roboto SemiBold, 17px]
+  - TEXT "$599", 58x28px, constraints left/top, fill dark, text [Roboto ExtraBold, 24px], [heading]
+  - RECTANGLE "Rectangle 80", 414x381px, constraints left/top, fill dark white, effect [drop_shadow 20px offset 0 4 #0000000D]
+  - INSTANCE "Iconly/Light/Arrow - Left", 32x36.96px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Iconly/Light/Arrow - Left", 32x36.96px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow - Left", 20x18.56px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 20x1.54px, constraints scale/scale, stroke dark 2.5px
+        - VECTOR "Stroke 3", 8.07x18.56px, constraints scale/scale, stroke dark 2.5px
+  - VECTOR "Path", 23x27px, constraints scale/scale, stroke dark 1.75px
+  - GROUP "Group 6", 68x8px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Mask Group", 230x264.3px, constraints left/top
+    - RECTANGLE "Rectangle 70", 230x264.3px, constraints left/top, fill #C4C4C4
+    - RECTANGLE "Rectangle 71", 270.35x286.49px, constraints left/top, fill #C4C4C4
+    - RECTANGLE "image 15", 236.05x314.74px, constraints left/top, fill image(hash: d42465b4014012c09d8890c67e69fad2c7a66f02)
+  - TEXT "2020 Apple iPad Air 10.9"", 326x26px, constraints left/top, fill #000000, text [Roboto SemiBold, 28px], [heading]
+
+Screen: hi-fi UI / checkout screen
+- FRAME "checkout screen", 414x1035px, constraints left/top, fill #FFFFFF
+  - INSTANCE "Button / Large", 364x70px, constraints left/top
+    - RECTANGLE "Rectangle 2", 364x70px, constraints scale/scale, radius 10px, fill orange, effect product drop shadow
+    - TEXT "Button", 336.18x23px, constraints scale/scale, fill dark white, text [Roboto Bold, 20px]
+  - TEXT "Total", 39x20px, constraints left/top, fill dark, text [Roboto SemiBold, 17px]
+  - TEXT "$1898", 73x28px, constraints left/top, fill dark, text [Roboto ExtraBold, 24px], [heading]
+  - INSTANCE "Iconly/Light/Arrow - Left", 32x36.96px, constraints scale/scale, fill #FFFFFF
+    - INSTANCE "Iconly/Light/Arrow - Left", 32x36.96px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Arrow - Left", 20x18.56px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 20x1.54px, constraints scale/scale, stroke dark 2.5px
+        - VECTOR "Stroke 3", 8.07x18.56px, constraints scale/scale, stroke dark 2.5px
+  - TEXT "checkout", 75x21px, constraints left/top, fill #000000, text [Roboto Medium, 18px]
+  - GROUP "Shipping", 364x206px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 15px offset 0 4 #0000001A]
+    - TEXT "Shipping information", 160x20px, constraints left/top, fill #000000, text [Roboto Medium, 17px]
+    - TEXT "change", 50x18px, constraints left/top, fill yellow, text [Roboto SemiBold, 15px]
+    - RECTANGLE "Rectangle 11", 364x166px, constraints left/top, radius 10px, fill #FFFFFF, effect [drop_shadow 40px offset 0 10 #00000008]
+    - INSTANCE "Iconly/Light/Profile", 24x24px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Profile", 15.15x19.22px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse_736", 9.56x9.56px, constraints scale/scale, stroke dark 1.5px
+        - VECTOR "Path_33945", 15.15x6.04px, constraints scale/scale, stroke dark 1.5px
+    - TEXT "jane alderson", 102x20px, constraints left/top, fill dark, text [Roboto Regular, 17px]
+    - TEXT "221B Baker Street London , UK", 243x36px, constraints left/top, fill dark, text [Roboto Regular, 15px]
+    - INSTANCE "Iconly/Light/Location", 24x24px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Location", 15.36x18.27px, constraints left/top, fill #FFFFFF
+        - VECTOR "Path_33958", 15.36x18.27px, constraints scale/scale, stroke dark 1.5px
+        - ELLIPSE "Ellipse_740", 4.92x4.92px, constraints scale/scale, stroke dark 1.5px
+    - TEXT "+123456789", 85x18px, constraints left/top, fill dark, text [Roboto Regular, 15px]
+    - INSTANCE "Iconly/Light/Call", 24x24px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Call", 19x19px, constraints left/top, fill #FFFFFF
+        - VECTOR "Call", 19x19px, constraints scale/scale, stroke dark 1.5px
+  - GROUP "Group 322", 364x265px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 5px offset 0 4 #0000001A]
+    - RECTANGLE "Rectangle 11", 364x265px, constraints left/top, radius 10px, fill #FFFFFF, effect [drop_shadow 40px offset 0 10 #00000008]
+    - GROUP "Shipping", 313.53x225px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Payment Method", 159.47x20px, constraints left/top, fill #000000, text [Roboto Medium, 17px]
+      - GROUP "Payment", 268x180px, constraints left/top, radius 0/0/0/0px
+        - GROUP "Group 9", 268x40px, constraints left/top, radius 0/0/0/0px
+          - TEXT "**** **** **** 1234", 146x20px, constraints left/top, fill #000000, text [Roboto Regular, 17px]
+          - RECTANGLE "Rectangle 12", 46.05x40px, constraints left/top, radius 10px, fill Primary
+          - ELLIPSE "Ellipse 7", 17.27x15px, constraints left/top, stroke orange 1px
+          - ELLIPSE "Ellipse 8", 8.06x7px, constraints left/top, fill orange
+        - GROUP "Group 10", 268x40px, constraints left/top, radius 0/0/0/0px
+          - TEXT "**** **** **** 1234", 146x20px, constraints left/top, fill #000000, text [Roboto Regular, 17px]
+          - RECTANGLE "Rectangle 12", 46.05x40px, constraints left/top, radius 10px, fill #C4C4C4
+          - ELLIPSE "Ellipse 7", 17.27x15px, constraints left/top, stroke #9F9F9F 1px
+        - GROUP "Group 11", 268x20px, constraints left/top
+          - TEXT "**** **** **** 1234", 146x20px, constraints left/top, fill #000000, text [Roboto Regular, 17px]
+          - ELLIPSE "Ellipse 7", 17.27x15px, constraints left/top, stroke #9F9F9F 1px
+        - FRAME "bi:credit-card-2-front-fill", 18.42x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 18.42x12px, constraints scale/scale
+            - VECTOR "Vector", 18.42x12px, constraints scale/scale, fill #FFFFFF
+        - FRAME "dashicons:bank", 23.02x20px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 16.12x16px, constraints scale/scale, fill #FFFFFF
+        - GROUP "visa", 71.38x40px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+          - RECTANGLE "Rectangle", 71.38x40px, constraints scale/scale, radius 10px, fill #F4F6FA, stroke #D6D9E0 1px
+          - RECTANGLE "Rectangle", 71.38x40px, constraints scale/scale, radius 10px, fill #F4F6FA, stroke #D6D9E0 1px
+          - RECTANGLE "Bitmap", 51.8x14px, constraints scale/scale, fill image(hash: 01bde4ea600987ed14014458e7006ee6080ffcc6)
+        - GROUP "master", 71.38x40px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~43 shapes]
+        - GROUP "bank", 71.38x40px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~36 shapes]
+
+Screen: hi-fi UI / cart screen
+- FRAME "cart screen", 414x896px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 295", 414x120px, constraints left/top
+    - RECTANGLE "Rectangle 70", 414x120px, constraints left/top, fill dark white, effect [drop_shadow 8px offset 0 4 #00000014]
+    - GROUP "Group 279", 69.5x28px, constraints left/top, radius 0/0/0/0px
+      - GROUP "top navigation", 69.5x28px, constraints left/top, radius 0/0/0/0px
+        - TEXT "iDrip", 69.5x28px, constraints left/top, fill #02040F, text [Roboto Bold, 24px], [heading]
+    - GROUP "Search", 20.76x20.76px, constraints left/top, fill #FFFFFF
+      - ELLIPSE "Ellipse_739", 19.89x19.42px, constraints scale/scale, stroke dark 2px
+      - VECTOR "Line_181", 3.9x3.8px, constraints scale/scale, stroke dark 2px
+    - FRAME "align-left", 32x32px, constraints left/top, fill #FFFFFF [decorative, ~4 shapes]
+  - FRAME "Tabbar11", 414x110px, constraints left/top, radius 10/10/0/0px, fill dark white, effect [inner_shadow 10px offset 0 4 #0000000A, drop_shadow 10px offset 0 4 #0000000A]
+    - VECTOR "Vector", 20.19x20px, constraints scale/scale, fill dark
+    - GROUP "Home", 19x20px, constraints left/top, fill #FFFFFF
+      - VECTOR "Home", 19x20px, constraints scale/scale, fill dark
+    - GROUP "Group", 20.15x20px, constraints scale/scale
+      - INSTANCE "akar-icons:shopping-bag", 20.15x20px, constraints scale/scale, fill #FFFFFF
+        - GROUP "Group", 14.83x16.67px, constraints scale/scale
+          - VECTOR "Vector", 14.83x11.67px, constraints scale/scale, stroke orange 2px
+          - VECTOR "Vector", 6.72x7.5px, constraints scale/scale, stroke orange 2px
+    - TEXT "Category", 57x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - TEXT "Home", 38x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - TEXT "Cart", 27x16px, constraints left/top, fill orange, text [Roboto Medium, 14px]
+    - GROUP "Group", 17.6x20px, constraints scale/scale
+      - VECTOR "Vector", 10.07x10px, constraints scale/scale, stroke dark 2px
+      - VECTOR "Vector", 17.6x8px, constraints scale/scale, stroke dark 2px
+    - TEXT "Account", 53x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - GROUP "Bookmark", 16.12x20px, constraints left/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Bookmark", 16.12x20px, constraints scale/scale, fill dark
+    - TEXT "Wishlist", 50x16px, constraints left/top, fill dark, text [Roboto Medium, 14px]
+    - RECTANGLE "Rectangle 2", 32x2px, constraints left/top, radius 28px, fill orange
+  - GROUP "Info", 275x39px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 72", 275x39px, constraints left/top, radius 10px, fill #F6AE2DB2
+    - TEXT "Delivery for FREE until the end of the month", 231x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+    - INSTANCE "Iconly/Light/Notification", 24x24px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Group 320", 366x130px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 319", 366x130px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Item", 366x130px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 11", 366x130px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 40px offset 0 10 #0000001A]
+        - FRAME "bi:credit-card-2-front-fill", 19.31x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 19.31x12px, constraints scale/scale
+            - VECTOR "Vector", 19.31x12px, constraints scale/scale, fill #FFFFFF
+        - TEXT "2020 Apple iPad Air 10.9"", 201x20px, constraints left/top, fill #000000, text [Roboto SemiBold, 17px]
+        - TEXT "Quantity", 63x15px, constraints left/top, fill #000000, text [Roboto Regular, 13px]
+        - TEXT "1", 7x16px, constraints left/top, fill #000000, text [Roboto SemiBold, 14px]
+        - RECTANGLE "image 15", 96.56x105px, constraints left/top, fill image(hash: ffe581311be32295cc45d509ed9255874b7489b6)
+      - TEXT "$599", 58x28px, constraints left/top, fill dark, text [Roboto ExtraBold, 24px], [heading]
+      - VECTOR "Vector", 10x0px, constraints scale/scale, stroke #000000 2px
+      - GROUP "Group 318", 20x20px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 81", 20x20px, constraints left/top, radius 5px, fill yellow
+        - VECTOR "Vector", 10x0px, constraints scale/scale, stroke dark 2px
+      - GROUP "Group 317", 20x20px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 82", 20x20px, constraints left/top, radius 5px, fill yellow
+        - VECTOR "Vector", 10x0px, constraints scale/scale, stroke dark 2px
+        - VECTOR "Vector", 0x10px, constraints scale/scale, stroke dark 2px
+    - GROUP "Group 317", 21.21x21.21px, constraints left/top
+      - VECTOR "Vector", 10.61x10.61px, constraints scale/scale, stroke dark 2px
+      - VECTOR "Vector", 10.61x10.61px, constraints scale/scale, stroke dark 2px
+  - GROUP "Group 321", 366x130px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 319", 366x130px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Item", 366x130px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 11", 366x130px, constraints left/top, radius 4px, fill #FFFFFF, effect [drop_shadow 40px offset 0 10 #0000001A]
+        - FRAME "bi:credit-card-2-front-fill", 19.31x16px, constraints left/top, fill #FFFFFF
+          - GROUP "Group", 19.31x12px, constraints scale/scale
+            - VECTOR "Vector", 19.31x12px, constraints scale/scale, fill #FFFFFF
+        - TEXT "Apple iMac 24” (2021)", 201x20px, constraints left/top, fill #000000, text [Roboto SemiBold, 17px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

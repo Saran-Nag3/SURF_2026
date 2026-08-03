@@ -1,0 +1,719 @@
+---
+name: 02-laundromate-laundry-express-mobile-application-ui-community
+source_file: 02. LaundroMate-Laundry Express mobile application UI (Community)
+source_page: All pages (2): User Interface Design, Cover
+generated_at: 2026-07-25T09:41:48.072798+00:00
+---
+
+# 02. LaundroMate-Laundry Express mobile application UI (Community) Design Guidelines
+
+## Source
+- Figma file: 02. LaundroMate-Laundry Express mobile application UI (Community)
+- Figma page: All pages (2): User Interface Design, Cover
+- Extracted at: 2026-07-25T09:41:48.072798+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 170 uses
+- #FFFFFF: 105 uses
+- #3B3B3B: 77 uses
+- #FFC107: 70 uses
+- #0000FF: 46 uses
+- #555555: 40 uses
+- #646464: 39 uses
+- #D9D9D9: 38 uses
+- #A3A3A3: 32 uses
+- #FFC10700: 19 uses
+- #FFFFFF4D: 15 uses
+- #0E4AE3: 12 uses
+- #4DC6E14D: 12 uses
+- #0E4AE300: 9 uses
+- #4DD0E14D: 9 uses
+- #0E4AE399: 7 uses
+- #0000FF73: 6 uses
+- #090909: 5 uses
+- #4DC6E1: 5 uses
+- #25B82B: 4 uses
+- #FFFAFA: 4 uses
+- #FFFFFF00: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Jost Medium, 15px: 48 uses
+- Inter Regular, 15px: 24 uses
+- Josefin Sans Light, 14px: 16 uses
+- Inter Italic, 15px: 15 uses
+- Josefin Sans Bold, 19px: 12 uses
+- Josefin Sans Bold, 14px: 11 uses
+- Josefin Sans SemiBold, 18px: 11 uses
+- Inter SemiBold, 17px: 8 uses
+- Josefin Sans Bold, 25px: 8 uses
+- Inter Regular, 17px: 6 uses
+- Inter ExtraBold, 13px: 4 uses
+- Inter Medium, 12px: 4 uses
+- Inter Regular, 9px: 4 uses
+- Josefin Sans Bold, 15px: 4 uses
+- Josefin Sans Bold, 35px: 4 uses
+- Jost Light, 14px: 4 uses
+- Jost Regular, 12px: 4 uses
+- Manjari Regular, 15px: 4 uses
+- Inter Medium, 16px: 3 uses
+- Josefin Sans Bold, 50px: 3 uses
+- Jost SemiBold, 15px: 3 uses
+
+## Typography Hierarchy
+- 50px - Josefin Sans Bold, 50px (raw)
+- 35px - Josefin Sans Bold, 35px (raw)
+- 25px - Josefin Sans Bold, 25px (raw)
+- 19px - Josefin Sans Bold, 19px (raw)
+- 18px - Josefin Sans SemiBold, 18px (raw)
+- 17px - Inter Regular, 17px (raw)
+- 17px - Inter SemiBold, 17px (raw)
+- 16px - Inter Medium, 16px (raw)
+- 15px - Inter Italic, 15px (raw)
+- 15px - Inter Regular, 15px (raw)
+- 15px - Josefin Sans Bold, 15px (raw)
+- 15px - Jost Medium, 15px (raw)
+- 15px - Jost SemiBold, 15px (raw)
+- 15px - Manjari Regular, 15px (raw)
+- 14px - Josefin Sans Bold, 14px (raw)
+- 14px - Josefin Sans Light, 14px (raw)
+- 14px - Jost Light, 14px (raw)
+- 13px - Inter ExtraBold, 13px (raw)
+- 12px - Inter Medium, 12px (raw)
+- 12px - Jost Regular, 12px (raw)
+- 9px - Inter Regular, 9px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Line 9
+
+## Component Specs
+- Line 9: size 17x18px, fill #FFFFFF
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: User Interface Design / Splash page
+- FRAME "Splash page", 430x932px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 3", 126x57.25px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+  - GROUP "Group 2", 345x63px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Laundro", 204x63px, constraints center/top, fill #0000FF, text [Josefin Sans Bold, 35px], [heading]
+    - TEXT "Mate", 204x35px, constraints center/top, fill #646464, text [Josefin Sans Bold, 35px], [heading]
+
+Screen: User Interface Design / Order completion 2
+- FRAME "Order completion 2", 430x932px, constraints left/top, fill #0000FF
+  - GROUP "Group 3", 126x57.25px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+  - GROUP "Group 2", 204x63px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Order complete!", 204x63px, constraints center/top, fill #FFFFFF, text [Josefin Sans Bold, 25px], [heading]
+
+Screen: User Interface Design / Log in
+- FRAME "Log in", 430x932px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 4", 430x55px, constraints left/top, fill gradient_linear(#646464 0% | #737373 100%)
+  - GROUP "Group 41", 383x21px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Battery Status", 27x12px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Battery status", 27x12px, constraints left/top
+        - GROUP "Group 38", 27x12px, constraints left/top
+          - GROUP "Group 36", 24.11x12px, constraints left/top
+            - VECTOR "Vector", 24.11x12px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 1px
+          - VECTOR "Vector", 0x4px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 2px
+      - RECTANGLE "Rectangle 10", 12.6x9.6px, constraints left/top, radius 1.8px, fill #FFFFFF
+    - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+    - TEXT "11:11", 38x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 17px]
+  - FRAME "Login with facebook", 362x45px, horizontal pad 0 24 0 24px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 50px, fill #0E4AE300, stroke #0E4AE3 1.5px
+    - GROUP "Group 43", 23x23px, constraints left/top
+      - VECTOR "Vector", 23x22.86px, constraints scale/scale, fill #1877F2
+      - VECTOR "Vector", 9.84x18.51px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Log in with facebook", 160x19px, constraints left/top, fill #0E4AE3, text [Inter Medium, 16px]
+  - FRAME "Login with google", 362x45px, horizontal pad 0 24 0 24px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 50px, fill #0E4AE300, stroke #0E4AE3 1.5px
+    - GROUP "Group 44", 23x23px, constraints left/top [decorative, ~4 shapes]
+    - TEXT "Log in with google", 141x19px, constraints left/top, fill #0E4AE3, text [Inter Medium, 16px]
+  - FRAME "Login with phone", 362x45px, horizontal pad 0 24 0 24px gap 10px align center/center sizing W:fixed H:fixed, constraints scale/scale, radius 50px, fill #0E4AE300, stroke #0E4AE3 1.5px
+    - FRAME "gridicons:phone", 24x24px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 12x20px, constraints scale/scale, fill #646464
+    - TEXT "Log in with phone number", 199x19px, constraints left/top, fill #0E4AE3, text [Inter Medium, 16px]
+  - FRAME "weui:back-filled", 12x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 9.48x16.97px, constraints scale/scale, fill #646464
+  - GROUP "Logo", 351x155px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Group 4", 126x57.25px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+    - GROUP "Group 5", 345x63px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Laundro", 204x63px, constraints center/top, fill #0000FF, text [Josefin Sans Bold, 35px], [heading]
+      - TEXT "Mate", 204x35px, constraints center/top, fill #646464, text [Josefin Sans Bold, 35px], [heading]
+    - GROUP "Group 42", 244x63px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Got laundry? We got you, Mate!", 244x63px, constraints center/top, fill #0000FF, text [Jost Light, 15px]
+  - GROUP "Group 47", 66x19px, constraints left/top, radius 0/0/0/0px
+    - TEXT "or", 66x19px, constraints left/top, fill #646464, text [Inter Medium, 12px]
+
+Screen: User Interface Design / Homepage 2
+- FRAME "Homepage 2", 430x934px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 4", 430x55px, constraints left/top, fill gradient_linear(#646464 0% | #737373 100%)
+  - GROUP "Group 41", 383x21px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Battery Status", 27x12px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Battery status", 27x12px, constraints left/top
+        - GROUP "Group 38", 27x12px, constraints left/top
+          - GROUP "Group 36", 24.11x12px, constraints left/top
+            - VECTOR "Vector", 24.11x12px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 1px
+          - VECTOR "Vector", 0x4px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 2px
+      - RECTANGLE "Rectangle 10", 12.6x9.6px, constraints left/top, radius 1.8px, fill #FFFFFF
+    - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+    - TEXT "11:11", 38x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 17px]
+  - TEXT "Top laundry shops", 217x25px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 25px], [heading]
+  - TEXT "Shops available 24/7", 248x25px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 25px], [heading]
+  - TEXT "Recent transaction", 156x18px, constraints left/top, fill #3B3B3B, text [Josefin Sans SemiBold, 18px]
+  - GROUP "Group 54", 217.37x250px, constraints left/top [decorative, ~17 shapes]
+  - FRAME "BUTTON", 398x33px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 50px, fill #0E4AE300, stroke #0E4AE3 1px
+    - TEXT "Enter your location", 151x21px, constraints left/top, fill #0E4AE399, effect [drop_shadow 4px offset 0 4 #00000040], text [Inter Regular, 17px]
+    - VECTOR "Vector", 14x21px, constraints left/top, fill #0000FF73, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 12", 400x17px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 13", 400x17px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 50", 389x273px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Name of laundry shop", 162x15px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 15px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#35 Elm Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - TEXT "#35 Elm Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 9px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC107
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - GROUP "Group 51", 389x151px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#123 Mahogany Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC10700, stroke #3B3B3B 1px
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - GROUP "Group 52", 389x151px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#123 Mahogany Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF00
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC107
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+  - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+  - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+  - RECTANGLE "Rectangle 16", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+  - RECTANGLE "Rectangle 17", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+  - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+  - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+  - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+  - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+  - ... +11 more children
+
+Screen: User Interface Design / Composing search 2
+- FRAME "Composing search 2", 430x934px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 4", 430x55px, constraints left/top, fill gradient_linear(#646464 0% | #737373 100%)
+  - GROUP "Group 41", 383x21px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Battery Status", 27x12px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Battery status", 27x12px, constraints left/top
+        - GROUP "Group 38", 27x12px, constraints left/top
+          - GROUP "Group 36", 24.11x12px, constraints left/top
+            - VECTOR "Vector", 24.11x12px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 1px
+          - VECTOR "Vector", 0x4px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 2px
+      - RECTANGLE "Rectangle 10", 12.6x9.6px, constraints left/top, radius 1.8px, fill #FFFFFF
+    - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+    - TEXT "11:11", 38x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 17px]
+  - TEXT "Top laundry shops", 217x25px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 25px], [heading]
+  - TEXT "Shops available 24/7", 248x25px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 25px], [heading]
+  - TEXT "Recent transaction", 156x18px, constraints left/top, fill #3B3B3B, text [Josefin Sans SemiBold, 18px]
+  - GROUP "Group 54", 217.37x250px, constraints left/top [decorative, ~17 shapes]
+  - RECTANGLE "Rectangle 12", 400x17px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 13", 400x17px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 50", 389x273px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Name of laundry shop", 162x15px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 15px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#35 Elm Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - TEXT "#35 Elm Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 9px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC107
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - GROUP "Group 51", 389x151px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#123 Mahogany Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC10700, stroke #3B3B3B 1px
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - GROUP "Group 52", 389x151px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#123 Mahogany Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF00
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC107
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+  - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+  - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+  - RECTANGLE "Rectangle 16", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+  - RECTANGLE "Rectangle 17", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+  - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+  - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+  - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+  - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+  - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - ... +12 more children
+
+Screen: User Interface Design / Composing Search
+- FRAME "Composing Search", 430x934px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 4", 430x55px, constraints left/top, fill gradient_linear(#646464 0% | #737373 100%)
+  - GROUP "Group 41", 383x21px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Battery Status", 27x12px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Battery status", 27x12px, constraints left/top
+        - GROUP "Group 38", 27x12px, constraints left/top
+          - GROUP "Group 36", 24.11x12px, constraints left/top
+            - VECTOR "Vector", 24.11x12px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 1px
+          - VECTOR "Vector", 0x4px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 2px
+      - RECTANGLE "Rectangle 10", 12.6x9.6px, constraints left/top, radius 1.8px, fill #FFFFFF
+    - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+    - TEXT "11:11", 38x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 17px]
+  - TEXT "Top laundry shops", 217x25px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 25px], [heading]
+  - TEXT "Shops available 24/7", 248x25px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 25px], [heading]
+  - TEXT "Recent transaction", 156x18px, constraints left/top, fill #3B3B3B, text [Josefin Sans SemiBold, 18px]
+  - GROUP "Group 54", 217.37x250px, constraints left/top [decorative, ~17 shapes]
+  - RECTANGLE "Rectangle 12", 400x17px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 13", 400x17px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 50", 389x273px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Name of laundry shop", 162x15px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 15px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#35 Elm Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - TEXT "#35 Elm Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 9px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC107
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - GROUP "Group 51", 389x151px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#123 Mahogany Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC10700, stroke #3B3B3B 1px
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - GROUP "Group 52", 389x151px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#123 Mahogany Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF00
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC107
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+  - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+  - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+  - RECTANGLE "Rectangle 16", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+  - RECTANGLE "Rectangle 17", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+  - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+  - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+  - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+  - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+  - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+  - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - ... +12 more children
+
+Screen: User Interface Design / Booking info (Map showing)
+- FRAME "Booking info (Map showing)", 430x934px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 4", 430x55px, constraints left/top, fill gradient_linear(#646464 0% | #737373 100%)
+  - GROUP "Group 41", 383x21px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Battery Status", 27x12px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Battery status", 27x12px, constraints left/top
+        - GROUP "Group 38", 27x12px, constraints left/top
+          - GROUP "Group 36", 24.11x12px, constraints left/top
+            - VECTOR "Vector", 24.11x12px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 1px
+          - VECTOR "Vector", 0x4px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 2px
+      - RECTANGLE "Rectangle 10", 12.6x9.6px, constraints left/top, radius 1.8px, fill #FFFFFF
+    - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+    - TEXT "11:11", 38x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 17px]
+  - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - RECTANGLE "Rectangle 18", 400x388px, constraints left/top, radius 25px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "BUTTON", 366x33px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/center, radius 50px, fill #0E4AE300, stroke #0E4AE3 1px
+    - TEXT "Location 1", 82x21px, constraints left/top, fill #0E4AE399, effect [drop_shadow 4px offset 0 4 #00000040], text [Inter Regular, 17px]
+    - VECTOR "Vector", 14x21px, constraints left/top, fill #0000FF73, effect [drop_shadow 4px offset 0 4 #00000040]
+  - VECTOR "Vector", 9.48x16.97px, constraints scale/scale, fill #646464
+  - RECTANGLE "Rectangle", 430x480px, constraints left/top, fill image(hash: c4898021df052ffa362a6aec8f97a2859d6d425b)
+  - RECTANGLE "Rectangle 20", 430x328px, constraints left/top, radius 50/50/0/0px, fill #FFFFFF, effect [inner_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 21", 397x50px, constraints left/top, fill #0000FF00, stroke #0000FF 0.5px
+  - TEXT "Location 1", 69x22px, constraints left/top, fill #000000, text [Jost SemiBold, 15px]
+  - TEXT "Meet the pick-up rider at the lobby- Delivery address same a", 343x20px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Jost Light, 14px]
+  - VECTOR "Vector", 14x21px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Laundromats near you", 189x18px, constraints left/top, fill #3B3B3B, text [Josefin Sans SemiBold, 18px]
+  - TEXT "Laundromat 1", 92x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 14px]
+  - TEXT "Laundromat 2", 96x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 14px]
+  - TEXT "Lorem ipsum dolor sit amet consectetur. Ultricies tellus mi ", 360x28px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - TEXT "Lorem ipsum dolor sit amet consectetur. Ultricies tellus mi ", 360x28px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - LINE "Line 5", 339x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 6", 339x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 7", 339x0px, constraints left/top, stroke #000000 1px
+  - RECTANGLE "Rectangle 22", 285x39px, constraints left/top, radius 10px, fill #0000FF
+  - RECTANGLE "Rectangle 23", 430x45px, constraints left/top, fill #0000FF26
+  - RECTANGLE "Rectangle 24", 63x4px, constraints left/top, radius 2px, fill #D9D9D9
+  - TEXT "Choose this laundromat", 197x18px, constraints left/top, fill #FFFFFF, text [Josefin Sans SemiBold, 18px]
+
+Screen: User Interface Design / Service selection
+- FRAME "Service selection", 430x934px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 4", 430x55px, constraints left/top, fill gradient_linear(#646464 0% | #737373 100%)
+  - GROUP "Group 41", 383x21px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Battery Status", 27x12px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Battery status", 27x12px, constraints left/top
+        - GROUP "Group 38", 27x12px, constraints left/top
+          - GROUP "Group 36", 24.11x12px, constraints left/top
+            - VECTOR "Vector", 24.11x12px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 1px
+          - VECTOR "Vector", 0x4px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 2px
+      - RECTANGLE "Rectangle 10", 12.6x9.6px, constraints left/top, radius 1.8px, fill #FFFFFF
+    - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+    - TEXT "11:11", 38x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 17px]
+  - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - RECTANGLE "Rectangle 18", 400x388px, constraints left/top, radius 25px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "BUTTON", 366x33px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/center, radius 50px, fill #0E4AE300, stroke #0E4AE3 1px
+    - TEXT "Location 1", 82x21px, constraints left/top, fill #0E4AE399, effect [drop_shadow 4px offset 0 4 #00000040], text [Inter Regular, 17px]
+    - VECTOR "Vector", 14x21px, constraints left/top, fill #0000FF73, effect [drop_shadow 4px offset 0 4 #00000040]
+  - VECTOR "Vector", 9.48x16.97px, constraints scale/scale, fill #646464
+  - RECTANGLE "Rectangle", 1115x961px, constraints left/top, fill image(hash: c4898021df052ffa362a6aec8f97a2859d6d425b)
+  - RECTANGLE "Rectangle 20", 430x328px, constraints left/top, radius 50/50/0/0px, fill #FFFFFF, effect [inner_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 21", 397x50px, constraints left/top, fill #0000FF00, stroke #0000FF 0.5px
+  - TEXT "Laundromat 1", 92x22px, constraints left/top, fill #000000, text [Jost SemiBold, 15px]
+  - TEXT "Lorem ipsum dolor sit amet consectetur.", 230x20px, constraints left/top, fill #000000, text [Jost Light, 14px]
+  - TEXT "Laundry basket size", 167x18px, constraints left/top, fill #3B3B3B, text [Josefin Sans SemiBold, 18px]
+  - TEXT "$ 1-2.99", 54x16px, constraints left/top, fill #0000FF, text [Inter ExtraBold, 13px]
+  - TEXT "$ 3-5.99", 56x16px, constraints left/top, fill #0000FF, text [Inter ExtraBold, 13px]
+  - TEXT "$ 6-10.99", 63x16px, constraints left/top, fill #0000FF, text [Inter ExtraBold, 13px]
+  - TEXT "Small", 37x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 14px]
+  - TEXT "Medium-Large", 98x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 14px]
+  - TEXT "Extra Large", 81x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 14px]
+  - TEXT "dimension x dimension (kgs)", 360x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - TEXT "dimension x dimension (kgs)", 360x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - TEXT "dimension x dimension (kgs)", 360x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - LINE "Line 6", 339x0px, constraints left/top, stroke #000000 1px
+  - LINE "Line 7", 339x0px, constraints left/top, stroke #000000 1px
+  - RECTANGLE "Rectangle 22", 285x39px, constraints left/top, radius 10px, fill #0000FF
+  - VECTOR "Rectangle 23", 430x40px, constraints left/top, fill #0000FF26
+  - ... +5 more children
+
+Screen: User Interface Design / Order complete
+- FRAME "Order complete", 430x934px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 29", 430x320px, constraints left/top, fill #FFFFFF, effect [inner_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 27", 379x36px, constraints left/top, radius 12px, fill #D9D9D9, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 28", 379x36px, constraints left/top, radius 12px, fill #D9D9D9, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 4", 430x55px, constraints left/top, fill gradient_linear(#646464 0% | #737373 100%)
+  - GROUP "Group 41", 383x21px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Battery Status", 27x12px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Battery status", 27x12px, constraints left/top
+        - GROUP "Group 38", 27x12px, constraints left/top
+          - GROUP "Group 36", 24.11x12px, constraints left/top
+            - VECTOR "Vector", 24.11x12px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 1px
+          - VECTOR "Vector", 0x4px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 2px
+      - RECTANGLE "Rectangle 10", 12.6x9.6px, constraints left/top, radius 1.8px, fill #FFFFFF
+    - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+    - TEXT "11:11", 38x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 17px]
+  - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - RECTANGLE "Rectangle 18", 400x388px, constraints left/top, radius 25px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 21", 397x73px, constraints left/top, fill #0000FF00, stroke #0000FF 0.5px
+  - TEXT "Laundromat 1", 153x36px, constraints left/top, fill #000000, text [Jost SemiBold, 25px], [heading]
+  - TEXT "Lorem ipsum dolor sit amet consectetur.", 230x20px, constraints left/top, fill #000000, text [Jost Light, 14px]
+  - TEXT "Lorem ipsum dolor sit amet consectetur.", 230x20px, constraints left/top, fill #000000, text [Jost Light, 14px]
+  - TEXT "Laundry basket size", 167x18px, constraints left/top, fill #3B3B3B, text [Josefin Sans SemiBold, 18px]
+  - TEXT "Order confirmation details", 270x22px, constraints left/top, fill #0000FF, text [Josefin Sans SemiBold, 22px]
+  - TEXT "Payment method", 173x22px, constraints left/top, fill #0000FF, text [Josefin Sans SemiBold, 22px]
+  - GROUP "Group 58", 393x349.5px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 25", 375x176px, constraints left/top, radius 15px, fill #4C4CD84F, effect [drop_shadow 4px offset 0 4 #00000040]
+    - VECTOR "Vector", 9.48x16.97px, constraints scale/scale, fill #A3A3A3, effect [drop_shadow 4px offset 0 4 #00000040]
+    - VECTOR "Vector", 17x10px, constraints scale/scale, fill #A3A3A3, effect [drop_shadow 4px offset 0 4 #00000040]
+    - TEXT "Penny Rodriguez (+9128-3484-2492)", 261x27px, constraints left/top, fill #000000, text [Jost SemiBold, 15px]
+    - TEXT "Pick-up location:", 97x30px, constraints left/top, fill #000000, text [Inter Medium, 12px]
+    - TEXT "__", 12x30px, constraints left/top, fill #555555, text [Inter Medium, 12px]
+    - TEXT "Delivery location:", 100x30px, constraints left/top, fill #000000, text [Inter Medium, 12px]
+    - TEXT "Location 1 (Meet me at the lobby)", 170x17px, constraints left/top, fill #555555, text [Jost Regular, 12px]
+    - TEXT "Location 1 (Meet me at the lobby)", 170x17px, constraints left/top, fill #555555, text [Jost Regular, 12px]
+    - TEXT "Delivery date & time: Sept 6, 2024", 179x34px, constraints left/top, fill #555555, text [Jost Regular, 12px]
+    - TEXT "14:00-14:15", 62x17px, constraints left/top, fill #555555, text [Jost Regular, 12px]
+    - TEXT "Edit details here", 72x16px, constraints left/top, fill #555555, text [Jost LightItalic, 11px]
+    - TEXT "Aye, mate! Are the details below correct?", 339x25px, constraints left/top, fill #3B3B3B, text [Josefin Sans SemiBold, 18px]
+  - TEXT "$ 4.50", 42x16px, constraints left/top, fill #0000FF, text [Inter ExtraBold, 13px]
+  - TEXT "Medium-Large", 98x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 14px]
+  - TEXT "Laundry Details", 108x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 14px]
+  - TEXT "dimension x dimension (kgs)", 360x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - TEXT "Pants", 360x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - TEXT "x6", 143x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - TEXT "x6", 143x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - TEXT "x6", 143x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - TEXT "Shirts", 360x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - TEXT "Under garments", 360x14px, constraints left/top, fill #3B3B3B, text [Josefin Sans Light, 14px]
+  - ... +8 more children
+
+Screen: User Interface Design / Homepage
+- FRAME "Homepage", 430x934px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 4", 430x55px, constraints left/top, fill gradient_linear(#646464 0% | #737373 100%)
+  - GROUP "Group 41", 383x21px, constraints left/top, radius 0/0/0/0px
+    - GROUP "Battery Status", 27x12px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Battery status", 27x12px, constraints left/top
+        - GROUP "Group 38", 27x12px, constraints left/top
+          - GROUP "Group 36", 24.11x12px, constraints left/top
+            - VECTOR "Vector", 24.11x12px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 1px
+          - VECTOR "Vector", 0x4px, constraints scale/scale, fill #FFFFFF, stroke #FFFFFF 2px
+      - RECTANGLE "Rectangle 10", 12.6x9.6px, constraints left/top, radius 1.8px, fill #FFFFFF
+    - VECTOR "Vector", 24x17px, constraints scale/scale, fill #FFFFFF
+    - TEXT "11:11", 38x21px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 17px]
+  - RECTANGLE "Rectangle 11", 400x175px, constraints left/top, radius 15px, fill #0000FF
+  - TEXT "Hello, mate!", 170x30px, constraints left/top, fill #4DC6E1, text [Josefin Sans Bold, 30px], [heading]
+  - TEXT "Top laundry shops", 217x25px, constraints left/top, fill #3B3B3B, text [Josefin Sans Bold, 25px], [heading]
+  - TEXT "Recent transaction", 156x18px, constraints left/top, fill #3B3B3B, text [Josefin Sans SemiBold, 18px]
+  - TEXT "Lorem ipsum dolor sit amet consectetur. Luctus ut enim lacus", 271x120px, constraints center/top, fill #FFFFFF, text [Jost Regular, 18px]
+  - VECTOR "Vector", 36.11x35.32px, constraints scale/scale, fill #4DD0E1, opacity 42%
+  - VECTOR "Vector", 12.41x16.31px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 39.32x38.46px, constraints scale/scale, fill #4DC6E1
+  - VECTOR "Vector", 46.34x45.33px, constraints scale/scale, fill #4DD0E1, opacity 42%
+  - VECTOR "Vector", 50.63x49.52px, constraints scale/scale, fill #4DC6E1
+  - VECTOR "Vector", 15.74x13.64px, constraints scale/scale, fill #FFFFFF, opacity 70%
+  - VECTOR "Vector", 7.34x6.44px, constraints scale/scale, fill #FFFFFF
+  - VECTOR "Vector", 82.14x80.34px, constraints scale/scale, fill #4DD0E1, opacity 42%
+  - VECTOR "Vector", 31.04x30.42px, constraints scale/scale, fill #FFFFFF, opacity 70%
+  - VECTOR "Vector", 85.37x83.49px, constraints scale/scale, fill #4DC6E1
+  - VECTOR "Vector", 80.56x70.33px, constraints scale/scale, fill #FFFFFF
+  - GROUP "Mask group", 48x55px, constraints scale/scale [decorative, ~6 shapes]
+  - FRAME "BUTTON", 398x33px, horizontal pad 0 10 0 10px gap 10px align min/center sizing W:fixed H:fixed, constraints scale/scale, radius 50px, fill #0E4AE300, stroke #0E4AE3 1px
+    - TEXT "Enter your location", 151x21px, constraints left/top, fill #0E4AE399, effect [drop_shadow 4px offset 0 4 #00000040], text [Inter Regular, 17px]
+    - VECTOR "Vector", 14x21px, constraints left/top, fill #0000FF73, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 12", 400x17px, constraints left/top, fill #D9D9D9
+  - RECTANGLE "Rectangle 13", 400x17px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 50", 389x273px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Name of laundry shop", 162x15px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 15px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#35 Elm Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - TEXT "#35 Elm Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 9px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC107
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - GROUP "Group 51", 389x151px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#123 Mahogany Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC10700, stroke #3B3B3B 1px
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - GROUP "Group 52", 389x151px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Name of laundry shop", 205x19px, constraints left/top, fill #0000FF, text [Josefin Sans Bold, 19px]
+    - TEXT "Location:", 62x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Availability:", 81x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Customer’s rating:", 140x20px, constraints center/top, fill #000000, text [Jost Medium, 15px]
+    - TEXT "Mon-Sat/8am-5pm", 246x16px, constraints center/top, fill #000000, text [Inter Italic, 15px]
+    - TEXT "#123 Mahogany Street", 246x16px, constraints center/top, fill #000000, text [Inter Regular, 15px]
+    - RECTANGLE "Rectangle 14", 123x139px, constraints left/top, radius 10px, fill #D9D9D9
+    - FRAME "material-symbols:image-outline", 30x30px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 22.5x22.5px, constraints scale/scale, fill #555555
+    - FRAME "teenyicons:bookmark-solid", 15x15px, constraints left/top, fill #FFFFFF00
+      - VECTOR "Vector", 11x15px, constraints scale/scale, fill #FFC107
+    - STAR "Star 1", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 2", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 3", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 4", 15x15px, constraints left/top, fill #FFC107, stroke #000000 0.5px
+    - STAR "Star 5", 15x15px, constraints left/top, fill #FFC10700, stroke #000000 0.5px
+    - LINE "Line 1", 389x0px, constraints left/top, stroke #3B3B3B 1px
+  - ... +6 more children
+
+Screen: User Interface Design / Vector
+- VECTOR "Vector", 9.48x16.97px, constraints scale/scale, fill #646464
+
+Screen: User Interface Design / Vector
+- VECTOR "Vector", 9.48x16.97px, constraints scale/scale, fill #646464
+
+Screen: User Interface Design / Vector
+- VECTOR "Vector", 9.48x16.97px, constraints scale/scale, fill #646464
+
+Screen: User Interface Design / Vector
+- VECTOR "Vector", 9.48x16.97px, constraints scale/scale, fill #646464
+
+Screen: User Interface Design / Vector
+- VECTOR "Vector", 9.48x16.97px, constraints scale/scale, fill #646464
+
+Screen: Cover / Order_details-removebg-preview 1
+- RECTANGLE "Order_details-removebg-preview 1", 348x716px, constraints left/top, fill image(hash: 10e879d55e686acf41114095e255bb7ed1663816)
+
+Screen: Cover / Order_completee-removebg-preview 1
+- RECTANGLE "Order_completee-removebg-preview 1", 354x705px, constraints left/top, fill image(hash: 3346ca1228ebd8d59ecceb866823dd5415e68a70)
+
+Screen: Cover / Homepage-removebg-preview (1) 1
+- RECTANGLE "Homepage-removebg-preview (1) 1", 371x673px, constraints left/top, fill image(hash: 56276496a74c6ac98a3e1682a1a3135875effb45)
+
+Screen: Cover / Frame 1
+- FRAME "Frame 1", 2340x1560px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 6", 2340x1560px, constraints left/top, fill #D9D9D9
+  - GROUP "Group 48", 405x156px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 4px offset 5 4 #00000040]
+    - GROUP "Group 48", 405x156px, constraints left/top, radius 0/0/0/0px
+      - GROUP "Group 3", 196x84px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+      - TEXT "Laundro", 204x63px, constraints center/top, fill #0000FF, text [Josefin Sans Bold, 50px], [heading]
+      - TEXT "Mate", 204x50px, constraints center/top, fill #090909, text [Josefin Sans Bold, 50px], [heading]
+  - RECTANGLE "Rectangle 8", 2340x1560px, constraints left/top, fill #4DD0E166, effect [drop_shadow 100px offset 0 4 #00000040]
+  - RECTANGLE "Splash_page-removebg-preview (1) 1", 367x708px, constraints left/top, fill image(hash: e5b612e746d06cdf7f005caf8104fd536b98c0e0), effect [drop_shadow 4px offset 15 15 #00000040]
+  - RECTANGLE "log_in-removebg-preview (1) 1", 353x706px, constraints left/top, fill image(hash: 67165a92a5757cd53e407d08ae536c9d0b14d993), effect [drop_shadow 4px offset 15 15 #00000040]
+  - RECTANGLE "Homepage-removebg-preview 1", 374x705px, constraints left/top, fill image(hash: 8332fc8f353faa5ef30ab8670ed1371711fb52ae), effect [drop_shadow 4px offset 15 15 #00000040]
+  - RECTANGLE "Order_category-removebg-preview", 344x703px, constraints left/top, fill image(hash: 6d573723581781bc9f316e04ac3462797505278f), effect [drop_shadow 4px offset 15 15 #00000040]
+  - TEXT "Laundry services mobile app User Interface kit", 1236x180px, constraints left/top, fill #1F28CF, effect [drop_shadow 4px offset 5 6 #00000040], text [Josefin Sans Bold, 90px], [heading]
+  - TEXT "Costumizable frames Organized Layering Pixel perfect designs", 579x200px, constraints left/top, fill #555555, text [Josefin Sans Bold, 50px], [heading]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

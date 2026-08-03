@@ -1,0 +1,2236 @@
+---
+name: ui-kit-base-community
+source_file: UI KIT BASE (Community)
+source_page: All pages (27): Cover, Navigation , Style, Components, --------------------, Color, Typography, Layout, Effects, Icons, --------------------, Tag, Accordion, Button, Checkbox, Radio_Button , Modal_Windows, Notification, Switch, Textarea, Dropdown, Rating, Select, Menu, Input, Tab, Table
+generated_at: 2026-07-25T09:33:21.419987+00:00
+---
+
+# UI KIT BASE (Community) Design Guidelines
+
+## Source
+- Figma file: UI KIT BASE (Community)
+- Figma page: All pages (27): Cover, Navigation , Style, Components, --------------------, Color, Typography, Layout, Effects, Icons, --------------------, Tag, Accordion, Button, Checkbox, Radio_Button , Modal_Windows, Notification, Switch, Textarea, Dropdown, Rating, Select, Menu, Input, Tab, Table
+- Extracted at: 2026-07-25T09:33:21.419987+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Gray_02/1O: [#FFFFFF]
+- Gray_02 / 9O: [#424242]
+- primary/Main: [#482BD9]
+- Danger/Bg_color: [#FBEFEF]
+- Danger / Border: [#FBEFEF]
+- Danger / Main: [#B20000]
+- Gray/300: [#FFFFFF]
+- Success/Bg_color: [#EBF8EC]
+- Success/Border: [#EBF8EC]
+- Success/Main: [#007505]
+- primary/Bg_color: [#F6F4FF]
+- Gray_02 / 2O: [#F5F5F5]
+- Gray_02/10O: [#1A1A1A]
+- Gray_02 / 3O: [#EDEDED]
+- Gray_02 / 5O: [#F5F5F5]
+- Gray_02 / 4O: [#F5F5F5]
+- Gray_02 / 6O: [#9E9E9E]
+- primary / Pressed: [#220F80]
+- primary/Focus: [#FFFFFF]
+- primary/Hover: [#3B25A8]
+- Gray_02 / 7O: [#757575]
+- Gray/400: [#FFFFFF]
+- Warning/Bg_color: [#FAF7E6]
+- Warning / Main: [#E5C100]
+- Gray/200: none
+- info/Bg_color: [#F0F8FF]
+- info / Border: [#F0F8FF]
+- info/Main: [#0065C1]
+- Warning/Border: [#FAF7E6]
+- primary / Border: [#F6F4FF]
+- info/Focus: [#D9E8F4]
+- info / Pressed: [#002B52]
+- info / Hover: [#004889]
+- Warning/Focus: [#FFF4B9]
+- Warning/Pressed: [#726000]
+- Warning/Hover: [#A38900]
+- Success/Focus: [#C5E1C6]
+- Success/Pressed: [#044407]
+- Success/Hover: [#005803]
+- Danger/Focus: [#F9D9D9]
+- Danger / Pressed: [#590000]
+- Danger / Hover: [#940000]
+- Gray_02 / 8O: [#616161]
+- Gray_02/100: [#0A0A0A]
+- Gray_02/90: [#424242]
+- Neutral0: [#FFFFFF]
+- Primary/main: [#5E47D2]
+- White: [#FFFFFF]
+- Shade / 700: [#2E3A59]
+
+## Raw Colors (unstyled)
+- #000000: 11596 uses
+- #FFFFFF: 77 uses
+
+## Typography Tokens
+- Bode Text/Inter/14/Regular: Inter Regular (400), 14px / 20px, tracking 0px
+- Bode Text/Inter/12/Medium: Inter Medium (500), 12px / 16px, tracking 0px
+- Bode Text/Inter/14/Medium: Inter Medium (500), 14px / 20px, tracking 0px
+- Bode Text/Inter/12/Regular: Inter Regular (400), 12px / 16px, tracking 0px
+- Bode Text/Inter/16/Regular: Inter Regular (400), 16px / 24px, tracking 0px
+- Heding/Inter/20/Medium: Inter Medium (500), 20px / 28px, tracking 0px
+- Bode Text/Inter/16/Medium: Inter Medium (500), 16px / 24px, tracking 0px
+- Heding/Inter/36/Medium: Inter Medium (500), 36px / 44px, tracking 0px
+- Heding/Inter/28/Medium: Inter Medium (500), 28px / 36px, tracking 0px
+- Body Text/Montserrat/14/Medium: Montserrat Medium (500), 14px / 20px, tracking 0px
+- Body Text/Inter/12/Regular: Inter Regular (400), 12px / 16px, tracking 0px
+
+## Raw Typography (unstyled)
+- Inter Medium, 14px: 22 uses
+- Inter Regular, 16px: 21 uses
+- Inter Medium, 40px: 4 uses
+- Montserrat SemiBold, 14px: 4 uses
+
+## Typography Hierarchy
+- 40px - Inter Medium, 40px (raw)
+- 36px - Heding/Inter/36/Medium (Inter Medium)
+- 28px - Heding/Inter/28/Medium (Inter Medium)
+- 20px - Heding/Inter/20/Medium (Inter Medium)
+- 16px - Bode Text/Inter/16/Medium (Inter Medium)
+- 16px - Bode Text/Inter/16/Regular (Inter Regular)
+- 16px - Inter Regular, 16px (raw)
+- 14px - Bode Text/Inter/14/Medium (Inter Medium)
+- 14px - Bode Text/Inter/14/Regular (Inter Regular)
+- 14px - Body Text/Montserrat/14/Medium (Montserrat Medium)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Montserrat SemiBold, 14px (raw)
+- 12px - Bode Text/Inter/12/Medium (Inter Medium)
+- 12px - Bode Text/Inter/12/Regular (Inter Regular)
+- 12px - Body Text/Inter/12/Regular (Inter Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- Shadow/6px: [drop_shadow 12px offset 0 6 #0000001A]
+- Shadow/2px: [drop_shadow 4px offset 0 2 #0000001F]
+- Shadow/8px: [drop_shadow 16px offset 0 8 #00000014]
+- Shadow/4px: [drop_shadow 8px offset 0 4 #0000001A]
+
+## Grid Styles
+- 1440/12 col: grid 8px + columns count 12, section 93.67px, gutter 20px, align stretch + ...
+
+## Component Families
+- Tag
+- Accordion
+- Button
+- Checkbox
+- Radio_btn
+- Radio
+- Modal
+- Notification
+- Switch_label
+- Switch
+- Textarea
+- Dropdown_icon
+- Dropdown_item
+- Dropdown_btn
+- Rating
+- Select_item
+- Select_Label
+- Select
+- Menu_vertical_inner
+- Menu_vertical
+- Menu_horizontal
+- Imput
+- Tab
+- Cell_tab
+- Header_tab
+- Component 1
+- Phosphor Icons Fill
+- Phosphor Icons Regular
+- Fether Icons
+- Radio_Button
+- Modal_Windows
+- Dropdown_line
+- Select_menu
+- Vertical
+
+## Component Specs
+- Tag: size 55x20px, radius 50px, horizontal layout, padding 2 8 2 8px, gap 3px, align center/center, sizing W:fixed H:fixed, fill Gray_02 / 2O, stroke Gray_02 / 5O 1px, text [Bode Text/Inter/12/Medium] | variants: Property 1: Danger/Disabled/Info/Primary/Success/Warning; Property 2: off/on
+- Accordion: size 440x40px, horizontal layout, padding 8 16 8 16px, gap 4px, align min/center, sizing W:fixed H:fixed, fill Gray_02 / 2O, text [Bode Text/Inter/14/Medium] | variants: Property 1: off/on
+- Button: size 77x36px, radius 4px, horizontal layout, padding 8 16 8 16px, gap 4px, align center/center, sizing W:fixed H:fixed, fill primary/Main, text [Bode Text/Inter/14/Medium] | variants: Content: icon/text/text_icon; Size: large/norma; Type: outline/primary/secondary/text_btn; State: default/disabled/focus/hover/pressed
+- Checkbox: size 64x20px, fill #FFFFFF, text [Bode Text/Inter/14/Regular] | variants: Status: active/inactive/indeterminate; State: default/disabled/focus/hover; Label: off/on
+- Radio_btn: size 64x20px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [Bode Text/Inter/14/Regular] | variants: State: default/disabled/focus/hover; Check: off/on
+- Radio: size 20x20px, fill #FFFFFF | variants: State: default/disabled/focus/hover; Check: off/on
+- Modal: size 588x264px, radius 4px, vertical layout, padding 24 24 24 24px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, effect Shadow/6px, text [Bode Text/Inter/14/Medium, Bode Text/Inter/16/Regular, Heding/Inter/20/Medium] | variants: State: danger/defauld/success/warning
+- Notification: size 588x204px, radius 4px, vertical layout, padding 24 24 24 24px, gap 8px, sizing W:fixed H:fixed, fill Danger/Bg_color, stroke Danger / Border 2px, effect Shadow/6px, text [Bode Text/Inter/16/Regular, Heding/Inter/20/Medium] | variants: State: danger/success/warning
+- Switch_label: size 72x20px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Bode Text/Inter/14/Regular] | variants: State: defalt/disabled/focus/hover; Active: off/on
+- Switch: size 28x16px, fill #FFFFFF | variants: State: defait/disabled/focus/hover; Active: off/on
+- Textarea: size 256x122px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Bode Text/Inter/12/Regular, Bode Text/Inter/14/Regular, Bode Text/Inter/16/Regular] | variants: State: default/disabled/filled/focus/hover; Label: off/on; Helper text: off/on
+- Dropdown_icon: size 190x176px, radius 4px, vertical layout, padding 4 0 4 0px, gap 0px, sizing W:fixed H:fixed, fill Gray_02/1O, effect Shadow/6px, text [Bode Text/Inter/14/Medium, Bode Text/Inter/14/Regular] | variants: Icon: off/on
+- Dropdown_item: size 125x32px, horizontal layout, padding 6 16 6 16px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Bode Text/Inter/14/Regular] | variants: State: default/disabled/focus/hover/pressed; Icon: off/on
+- Dropdown_btn: size 137x36px, radius 4px, horizontal layout, padding 8 8 8 8px, gap 10px, align space_between/center, sizing W:fixed H:fixed, fill Gray_02/1O, text [Bode Text/Inter/14/Regular] | variants: Property 1: default/disabled/focus/hover/pressed
+- Rating: size 144x32px, horizontal layout, padding 4 4 4 4px, gap 4px, sizing W:fixed H:fixed | variants: Property 1: off/on; Property 2: off/on; Property 3: off/on; Property 4: off/on; Property 5: off/on
+- Select_item: size 102x32px, horizontal layout, padding 6 16 6 16px, gap 8px, align min/center, sizing W:fixed H:fixed, text [Bode Text/Inter/14/Regular] | variants: State: default/disabled/focus/hover/pressed/selected; Icon: off/on
+- Select_Label: size 266x60px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Bode Text/Inter/14/Medium] | variants: State: default/desabled/filled/focus/hover
+- Select: size 256x32px, radius 4px, horizontal layout, padding 6 12 6 12px, gap 4px, align min/center, sizing W:fixed H:fixed, fill Gray_02/1O, stroke Gray_02 / 4O 1px, effect Shadow/2px, text [Bode Text/Inter/14/Medium] | variants: State: default/desabled/filled/focus/hover
+- Menu_vertical_inner: size 256x36px, radius 4px, horizontal layout, padding 8 16 8 40px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Gray_02/1O, text [Bode Text/Inter/14/Medium] | variants: State: Default/Hover/active/disable/focussed/pressed; Chevron: off/on
+- Menu_vertical: size 256x36px, radius 4px, horizontal layout, padding 8 16 8 16px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Gray_02/1O, text [Bode Text/Inter/14/Medium] | variants: State: active/default/disabled/focussed/hover/pressed; Icon: off/on; Chevron: off/on
+- Menu_horizontal: size 151x36px, horizontal layout, padding 8 16 8 16px, gap 8px, align min/center, sizing W:fixed H:fixed, fill Gray_02/1O, text [Bode Text/Inter/14/Medium] | variants: State: active/default/disabled/focussed/hover/pressed; Icon: off/on; Chevron: off/on
+- Imput: size 328x76px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [Bode Text/Inter/12/Regular, Bode Text/Inter/14/Regular] | variants: State: Default/disabled/focussed/hover/pressed; Status: Default/Error/Success; Icon: off/on; Helper Text: off/on; Label: off/on
+- Tab: size 49x36px, horizontal layout, padding 8 12 8 12px, gap 10px, align center/center, sizing W:fixed H:fixed, fill Gray_02/1O, effect [inner_shadow 0px offset 0 -3 #482BD9], text [Bode Text/Inter/14/Medium] | variants: State: default/disabled/focus/hover/pressed; Line: off/on
+- Cell_tab: size 140x48px, horizontal layout, padding 14 16 14 16px, gap 10px, align min/center, sizing W:fixed H:fixed, fill Gray_02/1O, text [Bode Text/Inter/14/Regular] | variants: Type: checkbox/link/tag/text; State: active/default/disabled
+- Header_tab: size 52x48px, horizontal layout, padding 14 16 14 16px, gap 10px, sizing W:fixed H:fixed, fill Gray_02 / 2O, text [Bode Text/Inter/14/Regular] | variants: Property 1: checkbox/text
+- Component 1: size 102x8px, fill #FFFFFF
+- Phosphor Icons Fill / Activity: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AddressBook: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Airplane: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AirplaneInFlight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AirplaneLanding: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AirplaneTakeoff: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AirplaneTilt: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Airplay: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Alarm: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Alien: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignBottom: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignBottomSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignCenterHorizontal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignCenterHorizontalSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignCenterVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignCenterVerticalSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignLeftSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignRightSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignTop: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AlignTopSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Anchor: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AnchorSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AndroidLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AngularLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Aperture: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AppleLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ApplePodcastsLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AppStoreLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AppWindow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Archive: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArchiveBox: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArchiveTray: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Armchair: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowArcLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowArcRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendDoubleUpLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendDoubleUpRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendDownLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendDownRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendLeftDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendLeftUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendRightDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendRightUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendUpLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowBendUpRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowCircleDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowCircleDownLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowCircleDownRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowCircleLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowCircleRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowCircleUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowCircleUpLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowCircleUpRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowClockwise: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowCounterClockwise: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowDownLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowDownRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowDownLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowDownRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowLeftDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowLeftUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowRightDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowRightUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowUpLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowElbowUpRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatLineDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatLineLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatLineRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatLinesDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatLinesLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatLinesRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatLinesUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatLineUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowFatUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowLineDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowLineDownLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowLineDownRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowLineLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowLineRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowLineUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowLineUpLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowLineUpRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsClockwise: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsCounterClockwise: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsDownUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsHorizontal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsIn: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsInCardinal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsInLineHorizontal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsInLineVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsInSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsLeftRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsOut: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsOutCardinal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsOutLineHorizontal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsOutLineVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsOutSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareDownLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareDownRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareIn: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareOut: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareUpLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowSquareUpRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowsVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowUDownLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowUDownRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowULeftDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowULeftUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowUpLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowUpRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowURightDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowURightUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowUUpLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArrowUUpRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Article: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArticleMedium: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ArticleNyTimes: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Asterisk: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / AsteriskSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / At: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Atom: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Baby: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Backpack: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Backspace: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bag: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BagSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Balloon: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bandaids: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bank: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Barbell: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Barcode: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Barricade: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Baseball: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Basketball: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bathtub: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryCharging: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryChargingVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryEmpty: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryFull: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryHigh: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryLow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryMedium: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryPlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryWarning: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BatteryWarningVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bed: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BeerBottle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BehanceLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bell: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BellRinging: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BellSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BellSimpleRinging: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BellSimpleSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BellSimpleZ: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BellSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BellZ: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BezierCurve: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bicycle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Binoculars: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bird: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bluetooth: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BluetoothConnected: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BluetoothSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BluetoothX: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Boat: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Book: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BookBookmark: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bookmark: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bookmarks: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BookmarkSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BookmarksSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BookOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Books: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BoundingBox: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BracketsAngle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BracketsCurly: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BracketsRound: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BracketsSquare: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Brain: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Brandy: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Briefcase: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BriefcaseMetal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Broadcast: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Browser: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Browsers: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bug: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BugBeetle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / BugDroid: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Buildings: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Bus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Butterfly: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cactus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cake: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Calculator: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Calendar: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CalendarBlank: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CalendarCheck: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CalendarPlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CalendarX: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Camera: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CameraRotate: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CameraSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Campfire: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Car: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cardholder: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cards: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretCircleDoubleDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretCircleDoubleLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretCircleDoubleRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretCircleDoubleUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretCircleDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretCircleLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretCircleRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretCircleUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretDoubleDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretDoubleLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretDoubleRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretDoubleUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CaretUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CarSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cat: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CellSignalFull: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CellSignalHigh: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CellSignalLow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CellSignalMedium: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CellSignalNone: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CellSignalSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CellSignalX: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Chalkboard: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChalkboardSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChalkboardTeacher: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChartBar: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChartBarHorizontal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChartLine: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChartLineUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChartPie: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChartPieSlice: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Chat: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatCentered: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatCenteredDots: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatCenteredText: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatCircleDots: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatCircleText: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatDots: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Chats: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatsCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatsTeardrop: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatTeardrop: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatTeardropDots: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatTeardropText: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ChatText: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Check: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CheckCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Checks: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CheckSquare: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CheckSquareOffset: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Circle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CircleDashed: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CircleHalf: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CircleHalfTilt: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CircleNotch: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CirclesFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CirclesThree: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CirclesThreePlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CircleWavy: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CircleWavyCheck: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CircleWavyQuestion: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CircleWavyWarning: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Clipboard: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ClipboardText: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Clock: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ClockAfternoon: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ClockClockwise: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ClockCounterClockwise: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ClosedCaptioning: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cloud: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudArrowDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudArrowUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudCheck: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudFog: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudLightning: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudMoon: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudRain: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudSnow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CloudSun: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Club: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CoatHanger: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Code: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CodepenLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CodesandboxLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CodeSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Coffee: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Coin: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Coins: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CoinVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Columns: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Command: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Compass: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ComputerTower: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Confetti: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cookie: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CookingPot: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Copy: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Copyleft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Copyright: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CopySimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CornersIn: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CornersOut: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cpu: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CreditCard: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Crop: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Crosshair: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CrosshairSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Crown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CrownSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cube: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyBtc: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyCircleDollar: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyCny: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyDollar: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyDollarSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyEth: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyEur: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyGbp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyInr: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyJpy: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyKrw: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyKzt: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyNgn: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CurrencyRub: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cursor: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / CursorText: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Cylinder: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Database: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Desktop: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DesktopTower: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Detective: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DeviceMobile: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DeviceMobileCamera: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DeviceMobileSpeaker: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DeviceTablet: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DeviceTabletCamera: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DeviceTabletSpeaker: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Diamond: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DiamondsFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DiceFive: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DiceFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DiceOne: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DiceSix: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DiceThree: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DiceTwo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Disc: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DiscordLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Divide: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Dog: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Door: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DotsNine: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DotsSix: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DotsSixVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DotsThree: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DotsThreeCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DotsThreeCircleVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DotsThreeOutline: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DotsThreeOutlineVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DotsThreeVertical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Download: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DownloadSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DribbbleLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Drop: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DropHalf: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / DropHalfBottom: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Ear: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / EarSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Egg: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / EggCrack: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Eject: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / EjectSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Envelope: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / EnvelopeOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / EnvelopeSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / EnvelopeSimpleOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Equalizer: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Equals: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Eraser: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Exam: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Export: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Eye: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / EyeClosed: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Eyedropper: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / EyedropperSample: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Eyeglasses: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / EyeSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FacebookLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FaceMask: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Factory: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Faders: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FadersHorizontal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FastForward: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FastForwardCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FigmaLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / File: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileArrowDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileArrowUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileAudio: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileCloud: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileCode: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileCss: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileCsv: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileDoc: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileDotted: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileHtml: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileImage: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileJpg: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileJs: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileJsx: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileLock: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileMinus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FilePdf: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FilePlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FilePng: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FilePpt: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileRs: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Files: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileSearch: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileText: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileTs: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileTsx: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileVideo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileVue: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileX: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileXls: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FileZip: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FilmScript: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FilmSlate: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FilmStrip: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Fingerprint: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FingerprintSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FinnTheHuman: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Fire: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FireSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FirstAid: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FirstAidKit: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Fish: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FishSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Flag: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FlagBanner: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FlagCheckered: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Flame: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Flashlight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Flask: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FloppyDisk: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FloppyDiskBack: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FlowArrow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Flower: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FlowerLotus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FlyingSaucer: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Folder: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderDotted: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderLock: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderMinus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderNotch: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderNotchMinus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderNotchOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderNotchPlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderPlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Folders: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderSimpleDotted: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderSimpleLock: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderSimpleMinus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderSimplePlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderSimpleStar: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderSimpleUser: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderStar: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FolderUser: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Football: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ForkKnife: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FrameCorners: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FramerLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Function: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Funnel: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / FunnelSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GameController: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GasPump: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Gauge: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Gear: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GearSix: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GenderFemale: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GenderIntersex: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GenderMale: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GenderNeuter: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GenderNonbinary: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GenderTransgender: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Ghost: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Gif: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Gift: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GitBranch: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GitCommit: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GitDiff: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GitFork: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GithubLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GitlabLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GitlabLogoSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GitMerge: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GitPullRequest: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Globe: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GlobeHemisphereEast: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GlobeHemisphereWest: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GlobeSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GlobeStand: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GoogleChromeLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GoogleLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GooglePhotosLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GooglePlayLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GooglePodcastsLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Gradient: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GraduationCap: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Graph: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / GridFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Hamburger: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Hand: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Handbag: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HandbagSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HandEye: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HandFist: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HandGrabbing: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HandPalm: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HandPointing: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HandsClapping: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Handshake: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HandSoap: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HandWaving: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HardDrive: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HardDrives: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Hash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HashStraight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Headlights: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Headphones: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Headset: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Heart: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Heartbeat: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HeartBreak: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HeartStraight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HeartStraightBreak: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Hexagon: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HighlighterCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Horse: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Hourglass: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HourglassHigh: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HourglassLow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HourglassMedium: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HourglassSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HourglassSimpleHigh: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HourglassSimpleLow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HourglassSimpleMedium: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / House: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HouseLine: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / HouseSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / IdentificationBadge: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / IdentificationCard: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Image: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ImageSquare: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Infinity: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Info: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / InstagramLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Intersect: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Jeep: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Kanban: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Key: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Keyboard: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Keyhole: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / KeyReturn: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Knife: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Ladder: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LadderSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Lamp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Laptop: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Layout: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Leaf: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Lifebuoy: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Lightbulb: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LightbulbFilament: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Lightning: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LightningSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LineSegment: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LineSegments: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Link: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LinkBreak: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LinkedinLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LinkSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LinkSimpleBreak: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LinkSimpleHorizontal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LinkSimpleHorizontalBreak: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LinuxLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / List: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ListBullets: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ListChecks: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ListDashes: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ListNumbers: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ListPlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Lock: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LockKey: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LockKeyOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LockLaminated: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LockLaminatedOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LockOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LockSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / LockSimpleOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MagicWand: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Magnet: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MagnetStraight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MagnifyingGlass: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MagnifyingGlassMinus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MagnifyingGlassPlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MapPin: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MapPinLine: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MapTrifold: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MarkerCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Martini: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MaskHappy: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MaskSad: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MathOperations: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Medal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MediumLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Megaphone: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MegaphoneSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MessengerLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Microphone: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MicrophoneSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MicrophoneStage: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MicrosoftExcelLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MicrosoftPowerpointLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MicrosoftTeamsLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MicrosoftWordLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Minus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MinusCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Money: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Monitor: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MonitorPlay: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Moon: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MoonStars: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Mountains: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Mouse: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MouseSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MusicNote: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MusicNotes: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MusicNoteSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MusicNotesPlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / MusicNotesSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NavigationArrow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Needle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Newspaper: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NewspaperClipping: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Note: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NoteBlank: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Notebook: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Notepad: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NotePencil: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Notification: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleEight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleFive: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleNine: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleOne: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleSeven: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleSix: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleThree: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleTwo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberCircleZero: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberEight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberFive: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberNine: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberOne: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSeven: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSix: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareEight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareFive: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareNine: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareOne: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareSeven: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareSix: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareThree: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareTwo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberSquareZero: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberThree: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberTwo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NumberZero: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Nut: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / NyTimesLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Octagon: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Option: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Package: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PaintBrush: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PaintBrushBroad: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PaintBrushHousehold: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PaintBucket: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PaintRoller: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Palette: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Paperclip: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PaperclipHorizontal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PaperPlane: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PaperPlaneRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PaperPlaneTilt: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Parachute: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Password: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Path: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Pause: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PauseCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PawPrint: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Peace: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Pen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Pencil: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PencilCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PencilLine: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PencilSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PencilSimpleLine: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PenNib: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PenNibStraight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Percent: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Person: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PersonSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PersonSimpleRun: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PersonSimpleWalk: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Perspective: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Phone: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PhoneCall: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PhoneDisconnect: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PhoneIncoming: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PhoneOutgoing: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PhoneSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PhoneX: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PhosphorLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PianoKeys: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PictureInPicture: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Pill: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PinterestLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Pinwheel: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Pizza: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Placeholder: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Planet: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Play: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PlayCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Playlist: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Plug: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Plugs: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PlugsConnected: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Plus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PlusCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PlusMinus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PokerChip: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PoliceCar: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Polygon: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Popcorn: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Power: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Prescription: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Presentation: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PresentationChart: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Printer: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Prohibit: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ProhibitInset: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ProjectorScreen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ProjectorScreenChart: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PushPin: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PushPinSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PushPinSimpleSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PushPinSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / PuzzlePiece: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / QrCode: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Question: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Queue: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Quotes: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Radical: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Radio: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / RadioButton: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Rainbow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / RainbowCloud: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Receipt: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Record: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Rectangle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Recycle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / RedditLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Repeat: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / RepeatOnce: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Rewind: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / RewindCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Robot: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Rocket: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / RocketLaunch: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Rows: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Rss: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / RssSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Rug: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Ruler: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Scales: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Scan: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Scissors: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Screencast: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ScribbleLoop: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Scroll: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Selection: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SelectionAll: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SelectionBackground: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SelectionForeground: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SelectionInverse: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SelectionPlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SelectionSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Share: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShareNetwork: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Shield: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShieldCheck: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShieldCheckered: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShieldChevron: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShieldPlus: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShieldSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShieldStar: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShieldWarning: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShoppingBag: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShoppingBagOpen: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShoppingCart: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShoppingCartSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Shower: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Shuffle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShuffleAngular: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ShuffleSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Sidebar: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SidebarSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SignIn: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SignOut: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Signpost: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SimCard: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SketchLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SkipBack: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SkipBackCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SkipForward: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SkipForwardCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Skull: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SlackLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Sliders: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SlidersHorizontal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Smiley: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SmileyBlank: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SmileyMeh: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SmileyNervous: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SmileySad: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SmileySticker: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SmileyWink: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SmileyXEyes: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SnapchatLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Snowflake: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SoccerBall: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SortAscending: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SortDescending: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Spade: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Sparkle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerHigh: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerLow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerNone: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerSimpleHigh: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerSimpleLow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerSimpleNone: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerSimpleSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerSimpleX: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerSlash: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpeakerX: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Spinner: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpinnerGap: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Spiral: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SpotifyLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Square: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SquareHalf: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SquareHalfBottom: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SquareLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SquaresFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Stack: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / StackOverflowLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / StackSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Stamp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Star: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / StarFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / StarHalf: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Sticker: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Stop: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / StopCircle: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Storefront: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Strategy: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / StripeLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Student: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Suitcase: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SuitcaseSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Sun: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SunDim: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Sunglasses: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / SunHorizon: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Swap: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Swatches: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Sword: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Syringe: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Table: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Tabs: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Tag: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TagChevron: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TagSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Target: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Taxi: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TelegramLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Television: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TelevisionSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TennisBall: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Terminal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TerminalWindow: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TestTube: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextAa: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextAlignCenter: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextAlignJustify: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextAlignLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextAlignRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextBolder: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Textbox: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextH: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextHFive: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextHFour: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextHOne: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextHSix: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextHThree: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextHTwo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextIndent: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextItalic: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextOutdent: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextStrikethrough: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextT: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TextUnderline: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Thermometer: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ThermometerCold: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ThermometerHot: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ThermometerSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ThumbsDown: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ThumbsUp: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Ticket: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TiktokLogo: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Timer: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ToggleLeft: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ToggleRight: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Toilet: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ToiletPaper: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Tote: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / ToteSimple: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TrademarkRegistered: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TrafficCone: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TrafficSign: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / TrafficSignal: size 24x24px, fill #FFFFFF
+- Phosphor Icons Fill / Train: size 24x24px, fill #FFFFFF
+
+## Most-Used Styles
+- Gray_02/1O: 900 uses
+- Bode Text/Inter/14/Regular: 704 uses
+- Gray_02 / 9O: 666 uses
+- primary/Main: 417 uses
+- Gray_02 / 7O: 391 uses
+- Gray_02 / 6O: 365 uses
+- Bode Text/Inter/14/Medium: 359 uses
+- Gray_02 / 5O: 355 uses
+- Danger / Main: 279 uses
+- primary/Hover: 270 uses
+- Success/Main: 245 uses
+- Bode Text/Inter/12/Regular: 235 uses
+- Gray_02 / 2O: 218 uses
+- primary / Pressed: 207 uses
+- primary/Focus: 187 uses
+- primary/Bg_color: 143 uses
+- Bode Text/Inter/16/Regular: 108 uses
+- Warning / Main: 76 uses
+- Gray_02 / 4O: 58 uses
+- Bode Text/Inter/12/Medium: 41 uses
+- Bode Text/Inter/16/Medium: 36 uses
+- Gray/300: 36 uses
+- Danger/Bg_color: 33 uses
+- Heding/Inter/36/Medium: 33 uses
+- Warning/Bg_color: 30 uses
+- info/Main: 30 uses
+- Heding/Inter/20/Medium: 26 uses
+- Shadow/6px: 26 uses
+- Shadow/2px: 22 uses
+- Gray/400: 20 uses
+- Gray_02 / 3O: 19 uses
+- Shadow/8px: 18 uses
+- primary / Border: 18 uses
+- Gray_02/10O: 14 uses
+- Success/Bg_color: 13 uses
+- Gray/200: 12 uses
+- Danger / Border: 11 uses
+- Success/Border: 11 uses
+- info/Bg_color: 10 uses
+- Warning/Border: 8 uses
+- info / Border: 8 uses
+- Heding/Inter/28/Medium: 7 uses
+- Gray_02/100: 6 uses
+- Gray_02/90: 6 uses
+- Body Text/Inter/12/Regular: 3 uses
+- Neutral0: 3 uses
+- Primary/main: 3 uses
+- Body Text/Montserrat/14/Medium: 2 uses
+- Danger / Hover: 2 uses
+- Danger / Pressed: 2 uses
+- Danger/Focus: 2 uses
+- Gray_02 / 8O: 2 uses
+- Shadow/4px: 2 uses
+- Success/Focus: 2 uses
+- Success/Hover: 2 uses
+- Success/Pressed: 2 uses
+- Warning/Focus: 2 uses
+- Warning/Hover: 2 uses
+- Warning/Pressed: 2 uses
+- White: 2 uses
+- info / Hover: 2 uses
+- info / Pressed: 2 uses
+- info/Focus: 2 uses
+- Shade / 700: 1 use
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1920x1080px, constraints left/top, fill primary/Main
+  - ELLIPSE "Ellipse 2", 790x873px, constraints left/top, fill #FF5C004D, effect [layer_blur 200px]
+  - VECTOR "Ellipse 3", 1072.41x918.5px, constraints left/top, fill gradient_radial(#50CAFF 0% | #50CAFF00 100%), effect [layer_blur 142px]
+  - ELLIPSE "Ellipse 4", 707x799px, constraints left/top, fill gradient_linear(#FFFFFF59 0% | #FAFF0052 100%), effect [layer_blur 200px]
+  - RECTANGLE "222222 2", 721.23x809.78px, constraints left/top, fill image(hash: dd1823279d1dfb146099ad509b3cd0e4909c3144)
+  - RECTANGLE "Frame 26 1", 1256x1249.49px, constraints left/top, fill image(hash: 4f598606b7a0654bd12422962879144038adee25), effect [drop_shadow 40px offset 0 0 #1A009A4D]
+  - GROUP "Group 2", 2459x2117.98px, constraints left/top
+    - VECTOR "Line 8", 2104.83x2117.98px, constraints left/top, stroke #FFFFFF33 1px
+    - VECTOR "Line 9", 2324.42x1077.23px, constraints left/top, stroke #FFFFFF33 1px
+    - VECTOR "Line 10", 2319.5x996.34px, constraints left/top, stroke #FFFFFF33 1px
+    - TEXT "FREE UI KIT BASE", 677x254px, constraints left/top, fill #FFFFFF, text [Inter ExtraBold, 110px], [heading]
+  - FRAME "Frame 756", 169x72px, horizontal pad 12 36 12 36px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF
+    - TEXT "Style", 97x48px, constraints left/top, fill #17008A, text [Inter Medium, 40px], [heading]
+  - FRAME "Frame 757", 296x72px, horizontal pad 12 36 12 36px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF
+    - TEXT "Component", 224x48px, constraints left/top, fill #17008A, text [Inter Medium, 40px], [heading]
+  - FRAME "Frame 758", 208x72px, horizontal pad 12 36 12 36px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF
+    - TEXT "Variant", 136x48px, constraints left/top, fill #17008A, text [Inter Medium, 40px], [heading]
+  - FRAME "Frame 759", 303x72px, horizontal pad 12 36 12 36px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill #FFFFFF
+    - TEXT "Auto Layout", 231x48px, constraints left/top, fill #17008A, text [Inter Medium, 40px], [heading]
+  - RECTANGLE "111 1", 2074.67x2317.3px, constraints left/top, fill image(hash: a4932564aa949e04ecac85e4c6051d3191ea1316), effect [drop_shadow 40px offset 0 0 #1A009A4D]
+  - GROUP "Figma-Tag", 216x216px, constraints left/top, radius 0/0/0/0px [decorative, ~6 shapes]
+
+Screen: Navigation  / Creator
+- FRAME "Creator", 617x678px, vertical pad 40 40 40 40px gap 24px sizing W:fixed H:fixed, constraints left/center, radius 8px, fill White
+  - TEXT "Introducing", 113x24px, constraints left/top, fill Gray_02/10O, text [Inter Regular, 16px]
+  - TEXT "UI KIT BASE - niversal UI Starter Kit with Variants and Auto", 537x132px, constraints left/top, fill primary/Main, text [Heding/Inter/36/Medium], [heading]
+  - TEXT "The Starter kit is free to use in your projects. It contains", 537x72px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/16/Regular]
+  - FRAME "Auto-added frame", 537x1px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - RECTANGLE "Divider", 537x1px, constraints left/top, fill #EDF1F7
+  - FRAME "by Kryston Schwarze", 294x56px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Logo / Kryston Schwarze Logo Dark", 56x56px, constraints left/top, radius 1000px, fill image(hash: a0ab7e29723986dc1570430132e0c0034d4405b4)
+      - RECTANGLE "IMAGE 2022-03-27 11:12:08 1", 58x58px, constraints left/top, fill image(hash: e5e3753ecabfc4603d829dc737a04b0fd5c2879f)
+    - FRAME "Kryston", 218x52px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Aleksandr Volodkovich", 218x28px, constraints left/center, fill #454545, text [Heding/Inter/20/Medium]
+      - FRAME "Links", 100x20px, horizontal pad 0 60 0 0px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+        - TEXT "UX/UI designer", 100x20px, constraints left/center, fill #A0A0A0, text [Bode Text/Inter/14/Regular]
+  - TEXT "My contacts: Email me at tw1r@mail.ru or Telegram @hellotw1r", 537x48px, constraints left/top, fill Shade / 700, text [Bode Text/Inter/16/Medium]
+  - FRAME "Auto-added frame", 537x1px, vertical pad 0 0 0 0px gap 10px align center/min sizing W:fill H:fixed, constraints left/top
+    - RECTANGLE "Divider", 537x1px, constraints left/top, fill #EDF1F7
+  - TEXT "Dear friend, if these materials are useful to you, support m", 537x48px, constraints left/top, fill #454545, text [Montserrat Regular, 16px]
+  - FRAME "Link", 355x24px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 14", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "social-icon", 24x24px, constraints left/top, fill #FFFFFF [decorative, ~8 shapes]
+      - TEXT "visit our Behance", 126x17px, constraints scale/scale, fill #454545, text [Helvetica Bold, 14px]
+    - FRAME "Frame 15", 157x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "social-icon", 24x24px, constraints left/top, fill #FFFFFF
+        - VECTOR "back", 24x24px, constraints scale/scale, fill #F26798
+        - FRAME "Frame 171", 10.91x10.91px, constraints scale/scale
+          - VECTOR "Path", 10.91x10.91px, constraints scale/scale, fill #FFFFFF
+      - TEXT "visit our Dribbble", 125x17px, constraints scale/scale, fill #454545, text [Helvetica Bold, 14px]
+
+Screen: Navigation  / Navigation
+- FRAME "Navigation", 664x880px, vertical pad 40 40 40 40px gap 24px sizing W:fixed H:fixed, constraints left/center, radius 8px, fill White
+  - TEXT "CONTENTS", 89x24px, constraints left/top, fill Gray_02/10O, text [Inter Regular, 16px]
+  - TEXT "Navigation", 537x44px, constraints left/top, fill primary/Main, text [Heding/Inter/36/Medium], [heading]
+  - TEXT "Navigation through the UI-Kit for comfortable search. All th", 584x48px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/16/Regular]
+  - FRAME "Frame 79", 584x612px, horizontal pad 0 0 0 0px gap 72px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Components", 256x612px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, effect Shadow/6px
+      - INSTANCE "Menu_vertical", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4/4/0/0px, fill primary/Main
+        - TEXT "Menu item", 200x20px, constraints left/top, fill Gray_02/1O, text [Bode Text/Inter/14/Medium]
+        - INSTANCE "Fether Icons /chevron-up", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02/1O
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 25x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 69x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 45x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 68x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 89x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 110x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 78x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 46x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 59x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 70x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 43x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 43x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 38x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 35x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 25x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/4/4px, fill Gray_02/1O
+        - TEXT "Menu item", 37x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+    - FRAME "Style", 256x252px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, effect Shadow/6px
+      - INSTANCE "Menu_vertical", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4/4/0/0px, fill primary/Main
+        - TEXT "Menu item", 200x20px, constraints left/top, fill Gray_02/1O, text [Bode Text/Inter/14/Medium]
+        - INSTANCE "Fether Icons /chevron-up", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02/1O
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 80x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 37x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 48x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 46x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+        - TEXT "Menu item", 83x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+      - INSTANCE "Menu_horizontal", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/4/4px, fill Gray_02/1O
+        - TEXT "Menu item", 104x20px, constraints left/top, fill Gray_02 / 9O, text [Inter Medium, 14px]
+
+Screen: Style / Style
+- FRAME "Style", 1440x1912px, constraints left/top, fill #FFFFFF
+  - FRAME "Cell_tab", 1440x104px, horizontal pad 30 48 30 48px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+    - TEXT "Style", 1205x44px, constraints left/top, fill Gray_02/1O, text [Heding/Inter/36/Medium], [heading]
+    - INSTANCE "Button", 129x40px, horizontal pad 8 0 8 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Button", 103x24px, constraints left/top, fill Gray_02/1O, text [Inter Regular, 16px]
+      - INSTANCE "Fether Icons /corner-right-up", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 10x5.83px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 10.83x15px, constraints scale/scale, fill Gray_02/1O
+  - GROUP "Typography", 1344x542px, constraints left/top, radius 0/0/0/0px
+    - FRAME "Frame 20", 617x460px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 10", 617x52px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Header_tab", 128x52px, horizontal pad 14 16 14 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Header text", 112x24px, constraints left/top, fill Gray_02/10O, text [Bode Text/Inter/16/Medium]
+        - INSTANCE "Header_tab", 150x52px, horizontal pad 14 16 14 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Header text", 134x24px, constraints left/top, fill Gray_02/10O, text [Bode Text/Inter/16/Medium]
+        - INSTANCE "Header_tab", 167x52px, horizontal pad 14 16 14 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Header text", 151x24px, constraints left/top, fill Gray_02/10O, text [Bode Text/Inter/16/Medium]
+        - INSTANCE "Header_tab", 172x52px, horizontal pad 14 16 14 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Header text", 156x24px, constraints left/top, fill Gray_02/10O, text [Bode Text/Inter/16/Medium]
+      - FRAME "Frame 11", 617x36px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Cell_tab", 128x36px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 112x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Regular]
+        - INSTANCE "Cell_tab", 150x36px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 134x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Regular]
+        - INSTANCE "Cell_tab", 167x36px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 151x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Regular]
+        - INSTANCE "Cell_tab", 172x36px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 156x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Regular]
+      - FRAME "Frame 12", 617x36px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Cell_tab", 128x36px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 112x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Medium]
+        - INSTANCE "Cell_tab", 150x36px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 134x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Medium]
+        - INSTANCE "Cell_tab", 167x36px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 151x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Medium]
+        - INSTANCE "Cell_tab", 172x36px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 156x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Medium]
+      - FRAME "Frame 13", 617x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Cell_tab", 128x40px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 112x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Cell_tab", 150x40px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 134x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Cell_tab", 167x40px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 151x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Cell_tab", 172x40px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 156x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 14", 617x40px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Cell_tab", 128x40px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 112x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+        - INSTANCE "Cell_tab", 150x40px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 134x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+        - INSTANCE "Cell_tab", 167x40px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 151x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+        - INSTANCE "Cell_tab", 172x40px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 156x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+      - FRAME "Frame 15", 617x44px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Cell_tab", 128x44px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 112x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Regular]
+        - INSTANCE "Cell_tab", 150x44px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 134x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Regular]
+        - INSTANCE "Cell_tab", 167x44px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 151x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Regular]
+        - INSTANCE "Cell_tab", 172x44px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 156x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Regular]
+      - FRAME "Frame 16", 617x44px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Cell_tab", 128x44px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 112x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Medium]
+        - INSTANCE "Cell_tab", 150x44px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 134x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Medium]
+        - INSTANCE "Cell_tab", 167x44px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 151x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Medium]
+        - INSTANCE "Cell_tab", 172x44px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 156x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Medium]
+      - FRAME "Frame 17", 617x48px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Cell_tab", 128x48px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 112x28px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/20/Medium]
+        - INSTANCE "Cell_tab", 150x48px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 134x28px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/20/Medium]
+        - INSTANCE "Cell_tab", 167x48px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 151x28px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/20/Medium]
+        - INSTANCE "Cell_tab", 172x48px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 156x28px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/20/Medium]
+      - FRAME "Frame 18", 617x56px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Cell_tab", 128x56px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 112x36px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/28/Medium], [heading]
+        - INSTANCE "Cell_tab", 150x56px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 134x36px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/28/Medium], [heading]
+        - INSTANCE "Cell_tab", 167x56px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 151x36px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/28/Medium], [heading]
+        - INSTANCE "Cell_tab", 172x56px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 156x36px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/28/Medium], [heading]
+      - FRAME "Frame 19", 617x64px, horizontal pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Cell_tab", 128x64px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 112x44px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/36/Medium], [heading]
+        - INSTANCE "Cell_tab", 150x64px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 134x44px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/36/Medium], [heading]
+        - INSTANCE "Cell_tab", 167x64px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 151x44px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/36/Medium], [heading]
+        - INSTANCE "Cell_tab", 172x64px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+          - TEXT "Text Table", 156x44px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/36/Medium], [heading]
+    - FRAME "Cell_tab", 632x64px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Typography", 616x44px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/36/Medium], [heading]
+    - TEXT "Aa", 253x116px, constraints left/top, fill Gray_02 / 4O, text [Inter SemiBold, 160px], [heading]
+    - FRAME "Cell_tab", 314x56px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Inter 12px – 36px", 616x36px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/28/Medium], [heading]
+    - TEXT "Inter is a variable font family & designed for computer scre", 547x192px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Regular]
+    - INSTANCE "Button", 168x40px, horizontal pad 8 16 8 16px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill primary/Main
+      - TEXT "Button", 77x24px, constraints left/top, fill Gray_02/1O, text [Inter Medium, 16px]
+      - INSTANCE "Fether Icons /download-cloud", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 8.33x5px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 1.67x9.17px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 20.01x14.25px, constraints scale/scale, fill Gray_02/1O
+  - GROUP "Effects", 1207x251px, constraints left/top
+    - FRAME "Cell_tab", 281x64px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints center/top, fill Gray_02/1O
+      - TEXT "Effects", 122x44px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/36/Medium], [heading]
+    - FRAME "Cell_tab", 314x56px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Shadow", 616x36px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/28/Medium], [heading]
+    - TEXT "Shadows add texture, perspective, and size to objects. In we", 600x178px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Regular]
+    - FRAME "2px", 164x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02/1O, effect Shadow/2px
+      - FRAME "Frame 9", 102x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 9", 102x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "2px", 25x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#000000 (12%)", 102x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+    - FRAME "4 px", 165x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 710", 50x50px, constraints left/top, radius 4px, fill Gray_02/1O, effect Shadow/4px
+      - FRAME "Frame 21", 103x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 9", 103x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 103x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "4px", 26x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+            - TEXT "#000000 (10%)", 103x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+    - FRAME "6px", 165x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 711", 50x50px, constraints left/top, radius 4px, fill Gray_02/1O, effect Shadow/6px
+      - FRAME "Frame 22", 103x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 21", 103x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 9", 103x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 9", 103x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "8px", 158x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - RECTANGLE "Rectangle 711", 50x50px, constraints left/top, radius 4px, fill Gray_02/1O, effect Shadow/8px
+      - FRAME "Frame 22", 96x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 22", 96x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 21", 96x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Frame 9", 96x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+  - GROUP "Colos system", 1261x864px, constraints left/top
+    - FRAME "Cell_tab", 281x64px, horizontal pad 10 16 10 0px gap 10px align min/center sizing W:fixed H:fixed, constraints center/top, fill Gray_02/1O
+      - TEXT "Colos system", 233x44px, constraints left/top, fill Gray_02 / 9O, text [Heding/Inter/36/Medium], [heading]
+    - TEXT "Use of a color system of 10 tones on the grey scale (from ne", 592x120px, constraints left/top, fill #424242, text [Bode Text/Inter/16/Regular]
+    - GROUP "Neutral", 129x648px, constraints left/top
+      - FRAME "Frame 10", 129x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02/10O
+        - FRAME "Frame 9", 56x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "100", 25x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#1A1A1A", 56x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 11", 123x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02 / 9O
+        - FRAME "Frame 9", 61x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "90", 18x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#424242", 61x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 12", 117x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02 / 8O
+        - FRAME "Frame 9", 55x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "80", 18x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#616161", 55x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 13", 120x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02 / 7O
+        - FRAME "Frame 9", 58x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "70", 17x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#757575", 58x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 14", 123x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02 / 6O
+        - FRAME "Frame 9", 61x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "60", 18x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#9E9E9E", 61x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 15", 127x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02 / 5O
+        - FRAME "Frame 9", 65x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "50", 18x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#C2C2C2", 65x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 16", 123x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02 / 4O
+        - FRAME "Frame 9", 61x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "40", 19x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#E0E0E0", 61x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 17", 127x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02 / 3O
+        - FRAME "Frame 9", 65x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "30", 19x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#EDEDED", 65x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 18", 122x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02 / 2O
+        - FRAME "Frame 9", 60x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "20", 18x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#F5F5F5", 60x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 19", 121x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Gray_02/1O, stroke Gray_02 / 3O 1px
+        - FRAME "Frame 9", 59x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "10", 16x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+          - TEXT "#FFFFFF", 59x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - TEXT "Neutral", 56x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Medium]
+    - GROUP "Primary", 126x400px, constraints left/top
+      - FRAME "Frame 74", 126x360px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 20", 123x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill primary / Pressed
+          - FRAME "Frame 9", 61x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Pressed", 54x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+            - TEXT "#220F80", 61x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - FRAME "Frame 21", 124x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill primary/Hover
+          - FRAME "Frame 9", 62x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Hover", 40x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+            - TEXT "#3B25A8", 62x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - FRAME "Frame 22", 125x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill primary/Main
+          - FRAME "Frame 9", 63x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Main", 32x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+            - TEXT "#482BD9", 63x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - FRAME "Frame 23", 126x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill primary / Border
+          - FRAME "Frame 9", 64x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Border", 45x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+            - TEXT "#B6ABED", 64x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - FRAME "Frame 24", 125x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill primary/Focus
+          - FRAME "Frame 9", 63x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Focus", 40x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+            - TEXT "#D8D0FF", 63x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - FRAME "Frame 25", 122x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill primary/Bg_color
+          - FRAME "Frame 9", 60x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Bg_color", 58x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+            - TEXT "#F6F4FF", 60x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - TEXT "Primary", 60x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Medium]
+    - GROUP "Primary", 123x400px, constraints left/top
+      - FRAME "Pressed", 123x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 710", 50x50px, constraints left/top, radius 4px, fill Warning/Pressed
+        - FRAME "Frame 66", 61x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Pressed", 54x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#726000", 61x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Hover", 120x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 711", 50x50px, constraints left/top, radius 4px, fill Warning/Hover
+        - FRAME "Frame 68", 58x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Hover", 40x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#BFA100", 58x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Main", 122x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 712", 50x50px, constraints left/top, radius 4px, fill Warning / Main
+        - FRAME "Frame 70", 60x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Main", 32x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#E5C100", 60x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Border", 123x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 713", 50x50px, constraints left/top, radius 4px, fill Warning/Border
+        - FRAME "Frame 72", 61x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Border", 45x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#F4E386", 61x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Focus", 123x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 714", 50x50px, constraints left/top, radius 4px, fill Warning/Focus
+        - FRAME "Frame 77", 61x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Focus", 40x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#FFF4B9", 61x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Bg_color", 121x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Warning/Bg_color
+        - FRAME "Frame 75", 59x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Bg_color", 58x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#FAF7E6", 59x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - TEXT "Warning", 64x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Medium]
+    - GROUP "Danger", 126x400px, constraints left/top
+      - FRAME "Pressed", 124x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 710", 50x50px, constraints left/top, radius 4px, fill Danger / Pressed
+        - FRAME "Frame 66", 62x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Pressed", 54x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#590000", 62x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Hover", 124x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 711", 50x50px, constraints left/top, radius 4px, fill Danger / Hover
+        - FRAME "Frame 68", 62x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Hover", 40x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#940000", 62x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Main", 124x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 712", 50x50px, constraints left/top, radius 4px, fill Danger / Main
+        - FRAME "Frame 70", 62x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Main", 32x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#B20000", 62x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Border", 126x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 713", 50x50px, constraints left/top, radius 4px, fill Danger / Border
+        - FRAME "Frame 72", 64x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Border", 45x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#E5AAAA", 64x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Focus", 126x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 714", 50x50px, constraints left/top, radius 4px, fill Danger/Focus
+        - FRAME "Frame 77", 64x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Focus", 40x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#F9D9D9", 64x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - FRAME "Bg_color", 122x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 709", 50x50px, constraints left/top, radius 4px, fill Danger/Bg_color
+        - FRAME "Frame 75", 60x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Bg_color", 58x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+          - TEXT "#FBEFEF", 60x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - TEXT "Danger", 56x24px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/16/Medium]
+    - GROUP "Danger", 124x400px, constraints left/top
+      - FRAME "Pressed", 123x50px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - RECTANGLE "Rectangle 710", 50x50px, constraints left/top, radius 4px, fill info / Pressed
+        - FRAME "Frame 66", 61x42px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Style / Layout
+- FRAME "Layout", 1440x1040px, constraints left/top, fill #FFFFFF
+  - GROUP "Group 333", 274x148px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Spacing system", 274x44px, constraints left/top, fill Gray_02/100, text [Heding/Inter/36/Medium], [heading]
+    - TEXT "Linear: y = x + 8", 254x20px, constraints left/top, fill Gray_02/90, text [Bode Text/Inter/14/Regular]
+    - TEXT "Best practices", 138x28px, constraints left/top, fill Gray_02/100, text [Heding/Inter/20/Medium]
+  - TEXT "Use multiples of 8px when defining measurements, spacing, an", 600x80px, constraints left/top, fill Gray_02/90, text [Bode Text/Inter/14/Regular]
+  - GROUP "Group 334", 548x132px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Responsive Grid", 156x28px, constraints left/top, fill Gray_02/100, text [Heding/Inter/20/Medium]
+    - TEXT "A 12 columns responsive grid is applied to the entire interf", 547x80px, constraints left/top, fill Gray_02/90, text [Bode Text/Inter/14/Regular]
+  - GROUP "Group 335", 401x20px, constraints left/top
+    - FRAME "Frame 81", 401x20px, horizontal pad 0 0 0 0px gap 34px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 78", 115x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Component 10", 18x18px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 29", 18x18px, constraints scale/scale, fill Primary/main
+          - TEXT "1", 6.75x18px, constraints scale/scale, fill Neutral0, text [Body Text/Inter/12/Regular]
+        - TEXT "Margin: 48px", 91x20px, constraints left/top, fill Gray_02/90, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 79", 105x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Component 11", 18x18px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 29", 18x18px, constraints scale/scale, fill Primary/main
+          - TEXT "2", 6.75x18px, constraints scale/scale, fill Neutral0, text [Body Text/Inter/12/Regular]
+        - TEXT "Columns: 12", 81x20px, constraints left/top, fill Gray_02/90, text [Bode Text/Inter/14/Regular]
+      - FRAME "Frame 80", 113x20px, horizontal pad 0 0 0 0px gap 6px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Component 13", 18x18px, constraints left/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 29", 18x18px, constraints scale/scale, fill Primary/main
+          - TEXT "3", 6.75x18px, constraints scale/scale, fill Neutral0, text [Body Text/Inter/12/Regular]
+        - TEXT "Gutters: 16px", 89x20px, constraints left/top, fill Gray_02/90, text [Bode Text/Inter/14/Regular]
+  - RECTANGLE "image 1", 1344x416px, constraints left/top, fill image(hash: 6464c783fac5dc43ff25a4e967ce12b98a9ecd0a)
+  - FRAME "Cell_tab", 1440x104px, horizontal pad 30 48 30 48px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+    - TEXT "Layout", 1205x44px, constraints left/top, fill Gray_02/1O, text [Heding/Inter/36/Medium], [heading]
+    - INSTANCE "Button", 129x40px, horizontal pad 8 0 8 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Button", 103x24px, constraints left/top, fill Gray_02/1O, text [Inter Regular, 16px]
+      - INSTANCE "Fether Icons /corner-right-up", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 10x5.83px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 10.83x15px, constraints scale/scale, fill Gray_02/1O
+
+Screen: Style / Icons
+- FRAME "Icons", 6472x2488px, constraints left/top, fill #FFFFFF
+  - TEXT "Fether Icons", 214x44px, constraints left/top, fill Gray_02/100, text [Heding/Inter/36/Medium], [heading]
+  - TEXT "Phosphor Icons Regular", 408x44px, constraints left/top, fill Gray_02/100, text [Heding/Inter/36/Medium], [heading]
+  - TEXT "Phosphor Icons Fill", 325x44px, constraints left/top, fill Gray_02/100, text [Heding/Inter/36/Medium], [heading]
+  - FRAME "Cell_tab", 6472x104px, horizontal pad 30 48 30 48px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+    - TEXT "Icons", 6237x44px, constraints left/top, fill Gray_02/1O, text [Heding/Inter/36/Medium], [heading]
+    - INSTANCE "Button", 129x40px, horizontal pad 8 0 8 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Button", 103x24px, constraints left/top, fill Gray_02/1O, text [Inter Regular, 16px]
+      - INSTANCE "Fether Icons /corner-right-up", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 10x5.83px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 10.83x15px, constraints scale/scale, fill Gray_02/1O
+  - INSTANCE "Fether Icons /activity", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22x20px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /airplay", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22x16px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 12x8px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /alert-circle", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22x22px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 2x6px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 2.01x2px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /alert-octagon", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22x22px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 2.01x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 2x6px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /alert-triangle", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22.9x20.1px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 2.01x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 2x6px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /align-center", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 14x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 14x2px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /align-justify", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /align-left", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 16x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 16x2px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /align-right", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 16x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 20x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 16x2px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /anchor", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 8x8px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 2x16px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 22x12px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /aperture", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22x22px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 7.74x11.94px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 13.48x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 7.74x11.94px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 7.74x11.94px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 13.48x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 7.74x11.94px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /archive", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 20x15px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 24x7px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 6x2px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /arrow-down-circle", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22x22px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 10x6px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 2x10px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /arrow-down-left", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 12x12px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 12x12px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /arrow-down-right", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 12x12px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 12x12px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /arrow-down", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 2x16px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 16x9px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /arrow-left-circle", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22x22px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 6x10px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 10x2px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /arrow-left", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 16x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 9x16px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /arrow-right-circle", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22x22px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 6x10px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 10x2px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /arrow-right", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 16x2px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 9x16px, constraints scale/scale, fill #000000
+  - INSTANCE "Fether Icons /arrow-up-circle", 24x24px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector (Stroke)", 22x22px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 10x6px, constraints scale/scale, fill #000000
+    - VECTOR "Vector (Stroke)", 2x10px, constraints scale/scale, fill #000000
+  - ... +2340 more children
+
+Screen: Components / Table
+- FRAME "Table", 714x660px, constraints left/top, radius 10px, fill #FFFFFF, effect Shadow/8px
+  - FRAME "Cell_tab", 714x104px, horizontal pad 30 48 30 48px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+    - TEXT "Table", 479x44px, constraints left/top, fill Gray_02/1O, text [Heding/Inter/36/Medium], [heading]
+    - INSTANCE "Button", 129x40px, horizontal pad 8 0 8 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Button", 103x24px, constraints left/top, fill Gray_02/1O, text [Inter Regular, 16px]
+      - INSTANCE "Fether Icons /corner-right-up", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 10x5.83px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 10.83x15px, constraints scale/scale, fill Gray_02/1O
+  - COMPONENT_SET "Header_tab", 273x80px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Property 1=checkbox", 52x48px, horizontal pad 14 16 14 16px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 2O
+      - INSTANCE "Checkbox", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 9", 20x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 20x20px, constraints left/top, radius 4px, fill Gray_02/1O, stroke Gray/300 1px
+    - COMPONENT "Property 1=text", 140x48px, horizontal pad 14 16 14 16px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 2O
+      - TEXT "Header text", 108x20px, constraints left/top, fill Gray_02/10O, text [Bode Text/Inter/14/Medium]
+  - COMPONENT_SET "Cell_tab", 492x284px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "Type=text, State=default", 140x48px, horizontal pad 14 16 14 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Text Table", 108x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "Type=text, State=active", 140x48px, horizontal pad 14 16 14 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Bg_color
+      - TEXT "Text Table", 108x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "Type=text, State=disabled", 140x48px, horizontal pad 14 16 14 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 3O
+      - TEXT "Text Table", 108x20px, constraints left/top, fill Gray_02 / 6O, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "Type=link, State=default", 140x48px, horizontal pad 14 16 14 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Link", 108x20px, constraints left/top, fill primary/Main, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "Type=link, State=active", 140x48px, horizontal pad 14 16 14 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Bg_color
+      - TEXT "Link", 108x20px, constraints left/top, fill primary/Main, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "Type=link, State=disabled", 140x48px, horizontal pad 14 16 14 16px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 3O
+      - TEXT "Link", 108x20px, constraints left/top, fill primary/Main, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "Type=checkbox, State=default", 52x48px, horizontal pad 14 16 14 16px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - INSTANCE "Checkbox", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 9", 20x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 20x20px, constraints left/top, radius 4px, fill Gray_02/1O, stroke Gray/300 1px
+    - COMPONENT "Type=checkbox, State=active", 52x48px, horizontal pad 14 16 14 16px gap 10px sizing W:fixed H:fixed, constraints left/top, fill primary/Bg_color
+      - INSTANCE "Checkbox", 20x20px, constraints left/top, fill #FFFFFF
+        - FRAME "Frame 9", 20x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 1", 20x20px, constraints left/top, radius 4px, fill primary/Main
+        - INSTANCE "Fether Icons /check", 18x18px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 13.5x9.75px, constraints scale/scale, fill Gray_02/1O
+    - COMPONENT "Type=checkbox, State=disabled", 52x48px, horizontal pad 14 16 14 16px gap 10px sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 3O
+      - INSTANCE "Checkbox", 20x20px, horizontal pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - RECTANGLE "Rectangle 1", 20x20px, constraints left/top, radius 4px, fill Gray_02 / 2O, stroke Gray_02 / 4O 1px
+    - COMPONENT "Type=tag, State=default", 140x48px, vertical pad 14 16 14 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - INSTANCE "Tag", 38x20px, horizontal pad 2 8 2 8px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill Gray_02 / 2O, stroke Gray_02 / 5O 1px
+        - TEXT "Tag", 22x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Medium]
+    - COMPONENT "Type=tag, State=active", 140x48px, vertical pad 14 16 14 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill primary/Bg_color
+      - INSTANCE "Tag", 38x20px, horizontal pad 2 8 2 8px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill Gray_02 / 2O, stroke Gray_02 / 5O 1px
+        - TEXT "Tag", 22x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Medium]
+    - COMPONENT "Type=tag, State=disabled", 140x48px, vertical pad 14 16 14 16px gap 10px align center/min sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 3O
+      - INSTANCE "Tag", 38x20px, horizontal pad 2 8 2 8px gap 3px align center/center sizing W:fixed H:fixed, constraints left/top, radius 50px, fill Gray_02 / 2O, stroke Gray_02 / 5O 1px, opacity 60%
+        - TEXT "Tag", 22x16px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/12/Medium]
+
+Screen: Components / Tab
+- FRAME "Tab", 536x386px, constraints left/top, radius 10px, fill #FFFFFF, effect Shadow/8px
+  - FRAME "Cell_tab", 536x104px, horizontal pad 30 48 30 48px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+    - TEXT "Tab", 301x44px, constraints left/top, fill Gray_02/1O, text [Heding/Inter/36/Medium], [heading]
+    - INSTANCE "Button", 129x40px, horizontal pad 8 0 8 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Button", 103x24px, constraints left/top, fill Gray_02/1O, text [Inter Regular, 16px]
+      - INSTANCE "Fether Icons /corner-right-up", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 10x5.83px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 10.83x15px, constraints scale/scale, fill Gray_02/1O
+  - COMPONENT_SET "Tab", 306x122px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "State=default, Line=on", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, effect [inner_shadow 0px offset 0 -3 #482BD9]
+      - TEXT "Tab", 25x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=hover, Line=on", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, effect [inner_shadow 0px offset 0 -3 #3B25A8]
+      - TEXT "Tab", 25x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=focus, Line=on", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, stroke primary/Focus 2px
+      - TEXT "Tab", 25x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=pressed, Line=on", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, effect [inner_shadow 0px offset 0 -3 #220F80]
+      - TEXT "Tab", 25x20px, constraints left/top, fill primary / Pressed, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=disabled, Line=on", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, effect [inner_shadow 0px offset 0 -3 #9E9E9E]
+      - TEXT "Tab", 25x20px, constraints left/top, fill Gray_02 / 6O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=default, Line=off", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Tab", 25x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=hover, Line=off", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Tab", 25x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=focus, Line=off", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, stroke primary/Focus 2px
+      - TEXT "Tab", 25x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=pressed, Line=off", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Tab", 25x20px, constraints left/top, fill primary / Pressed, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=disabled, Line=off", 49x36px, horizontal pad 8 12 8 12px gap 10px align center/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Tab", 25x20px, constraints left/top, fill Gray_02 / 6O, text [Bode Text/Inter/14/Medium]
+
+Screen: Components / Input
+- FRAME "Input", 2013x3873px, constraints left/top, radius 10px, fill #FFFFFF, effect Shadow/8px
+  - FRAME "Cell_tab", 2013x104px, horizontal pad 30 48 30 48px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+    - TEXT "Input", 1778x44px, constraints left/top, fill Gray_02/1O, text [Heding/Inter/36/Medium], [heading]
+    - INSTANCE "Button", 129x40px, horizontal pad 8 0 8 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Button", 103x24px, constraints left/top, fill Gray_02/1O, text [Inter Regular, 16px]
+      - INSTANCE "Fether Icons /corner-right-up", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 10x5.83px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 10.83x15px, constraints scale/scale, fill Gray_02/1O
+  - COMPONENT_SET "Imput", 1787x3583px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "State=Default, Status=Default, Icon=on, Helper Text=on, Labe", 328x76px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Gray/400 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /eye", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 16x12px, constraints scale/scale, fill Gray_02 / 7O
+          - VECTOR "Vector (Stroke)", 5.33x5.33px, constraints scale/scale, fill Gray_02 / 7O
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=Default, Status=Default, Icon=off, Helper Text=off, La", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Gray/400 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /eye", 16x16px, constraints left/top, fill #FFFFFF
+    - COMPONENT "State=Default, Status=Default, Icon=off, Helper Text=on, Lab", 328x52px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Gray/400 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=Default, Status=Default, Icon=off, Helper Text=off, La", 328x56px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Gray/400 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "State=Default, Status=Default, Icon=on, Helper Text=off, Lab", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Gray/400 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /eye", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 16x12px, constraints scale/scale, fill Gray_02 / 7O
+          - VECTOR "Vector (Stroke)", 5.33x5.33px, constraints scale/scale, fill Gray_02 / 7O
+    - COMPONENT "State=Default, Status=Error, Icon=on, Helper Text=on, Label=", 328x76px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /alert-triangle", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 15.26x13.4px, constraints scale/scale, fill Danger / Main
+          - VECTOR "Vector (Stroke)", 1.34x1.33px, constraints scale/scale, fill Danger / Main
+          - VECTOR "Vector (Stroke)", 1.33x4px, constraints scale/scale, fill Danger / Main
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Danger / Main, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=Default, Status=Error, Icon=off, Helper Text=off, Labe", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /alert-triangle", 16x16px, constraints left/top, fill #FFFFFF
+    - COMPONENT "State=Default, Status=Error, Icon=off, Helper Text=on, Label", 328x52px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Danger / Main, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=Default, Status=Error, Icon=off, Helper Text=off, Labe", 328x56px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "State=Default, Status=Error, Icon=on, Helper Text=off, Label", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /alert-triangle", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 15.26x13.4px, constraints scale/scale, fill Danger / Main
+          - VECTOR "Vector (Stroke)", 1.34x1.33px, constraints scale/scale, fill Danger / Main
+          - VECTOR "Vector (Stroke)", 1.33x4px, constraints scale/scale, fill Danger / Main
+    - COMPONENT "State=Default, Status=Success, Icon=on, Helper Text=on, Labe", 328x76px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Success/Main 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /alert-triangle", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 15.26x13.4px, constraints scale/scale, fill Success/Main
+          - VECTOR "Vector (Stroke)", 1.34x1.33px, constraints scale/scale, fill Success/Main
+          - VECTOR "Vector (Stroke)", 1.33x4px, constraints scale/scale, fill Success/Main
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Success/Main, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=Default, Status=Success, Icon=off, Helper Text=off, La", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Success/Main 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /alert-triangle", 16x16px, constraints left/top, fill #FFFFFF
+    - COMPONENT "State=Default, Status=Success, Icon=off, Helper Text=on, Lab", 328x52px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Success/Main 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Success/Main, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=Default, Status=Success, Icon=off, Helper Text=off, La", 328x56px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Success/Main 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "State=Default, Status=Success, Icon=on, Helper Text=off, Lab", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Success/Main 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /alert-triangle", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 15.26x13.4px, constraints scale/scale, fill Success/Main
+          - VECTOR "Vector (Stroke)", 1.34x1.33px, constraints scale/scale, fill Success/Main
+          - VECTOR "Vector (Stroke)", 1.33x4px, constraints scale/scale, fill Success/Main
+    - COMPONENT "State=hover, Status=Default, Icon=on, Helper Text=on, Label=", 328x76px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke primary/Hover 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /eye", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 16x12px, constraints scale/scale, fill Gray_02 / 7O
+          - VECTOR "Vector (Stroke)", 5.33x5.33px, constraints scale/scale, fill Gray_02 / 7O
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=hover, Status=Default, Icon=off, Helper Text=off, Labe", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke primary/Hover 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "State=hover, Status=Default, Icon=off, Helper Text=on, Label", 328x52px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke primary/Hover 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=hover, Status=Default, Icon=off, Helper Text=off, Labe", 328x56px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke primary/Hover 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /eye", 16x16px, constraints left/top, fill #FFFFFF
+    - COMPONENT "State=hover, Status=Default, Icon=on, Helper Text=off, Label", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke primary/Hover 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /eye", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 16x12px, constraints scale/scale, fill Gray_02 / 7O
+          - VECTOR "Vector (Stroke)", 5.33x5.33px, constraints scale/scale, fill Gray_02 / 7O
+    - COMPONENT "State=hover, Status=Error, Icon=on, Helper Text=on, Label=on", 328x76px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /alert-triangle", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 15.26x13.4px, constraints scale/scale, fill Danger / Main
+          - VECTOR "Vector (Stroke)", 1.34x1.33px, constraints scale/scale, fill Danger / Main
+          - VECTOR "Vector (Stroke)", 1.33x4px, constraints scale/scale, fill Danger / Main
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Danger / Main, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=hover, Status=Error, Icon=off, Helper Text=off, Label=", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+    - COMPONENT "State=hover, Status=Error, Icon=off, Helper Text=on, Label=o", 328x52px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 304x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+      - TEXT "helper_text_input", 328x16px, constraints left/top, fill Danger / Main, text [Bode Text/Inter/12/Regular]
+    - COMPONENT "State=hover, Status=Error, Icon=off, Helper Text=off, Label=", 328x56px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Imput label", 328x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Regular]
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /alert-triangle", 16x16px, constraints left/top, fill #FFFFFF
+    - COMPONENT "State=hover, Status=Error, Icon=on, Helper Text=off, Label=o", 328x32px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "input_inner", 328x32px, horizontal pad 6 12 6 12px gap 4px align min/center sizing W:fill H:fixed, constraints left/top, radius 3px, fill Gray_02/1O, stroke Danger / Main 1px
+        - TEXT "Placeholder_input", 284x20px, constraints left/top, fill Gray_02 / 7O, text [Bode Text/Inter/14/Regular]
+        - INSTANCE "Fether Icons /alert-triangle", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector (Stroke)", 15.26x13.4px, constraints scale/scale, fill Danger / Main
+          - VECTOR "Vector (Stroke)", 1.34x1.33px, constraints scale/scale, fill Danger / Main
+          - VECTOR "Vector (Stroke)", 1.33x4px, constraints scale/scale, fill Danger / Main
+    - ... +125 more children
+
+Screen: Components / Menu
+- FRAME "Menu", 2001x1007px, constraints left/top, radius 10px, fill #FFFFFF, effect Shadow/8px
+  - FRAME "Cell_tab", 2001x104px, horizontal pad 30 48 30 48px gap 10px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+    - TEXT "Menu", 1766x44px, constraints left/top, fill Gray_02/1O, text [Heding/Inter/36/Medium], [heading]
+    - INSTANCE "Button", 129x40px, horizontal pad 8 0 8 0px gap 6px align center/center sizing W:fixed H:fixed, constraints left/top, radius 4px
+      - TEXT "Button", 103x24px, constraints left/top, fill Gray_02/1O, text [Inter Regular, 16px]
+      - INSTANCE "Fether Icons /corner-right-up", 20x20px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 10x5.83px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 10.83x15px, constraints scale/scale, fill Gray_02/1O
+  - COMPONENT_SET "Menu_horizontal", 611x351px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "State=default, Icon=on, Chevron=on", 151x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 9O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=hover, Icon=on, Chevron=on", 151x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=focussed, Icon=on, Chevron=on", 151x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, stroke primary/Focus 2px
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=pressed, Icon=on, Chevron=on", 151x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary / Pressed
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary / Pressed, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=disabled, Icon=on, Chevron=on", 151x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 2O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02 / 6O
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill Gray_02 / 6O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 6O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 6O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02 / 6O, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 6O
+    - COMPONENT "State=active, Icon=on, Chevron=on", 151x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02/1O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02/1O, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02/1O
+    - COMPONENT "State=default, Icon=on, Chevron=off", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 9O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=hover, Icon=on, Chevron=off", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=focussed, Icon=on, Chevron=off", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, stroke primary/Focus 2px
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=pressed, Icon=on, Chevron=off", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary / Pressed
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary / Pressed, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=disabled, Icon=on, Chevron=off", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 2O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02 / 6O
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill Gray_02 / 6O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 6O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 6O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02 / 6O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=active, Icon=on, Chevron=off", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02/1O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02/1O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02/1O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=default, Icon=off, Chevron=on", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=hover, Icon=off, Chevron=on", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=focussed, Icon=off, Chevron=on", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, stroke primary/Focus 2px
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=pressed, Icon=off, Chevron=on", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary / Pressed, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=disabled, Icon=off, Chevron=on", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 2O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02 / 6O, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 6O
+    - COMPONENT "State=active, Icon=off, Chevron=on", 127x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02/1O, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02/1O
+    - COMPONENT "State=default, Icon=off, Chevron=off", 103x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=hover, Icon=off, Chevron=off", 103x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=focussed, Icon=off, Chevron=off", 103x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O, stroke primary/Focus 2px
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=pressed, Icon=off, Chevron=off", 103x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02/1O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill primary / Pressed, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=disabled, Icon=off, Chevron=off", 103x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill Gray_02 / 2O
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02 / 6O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=active, Icon=off, Chevron=off", 103x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, fill primary/Main
+      - TEXT "Menu item", 71x20px, constraints left/top, fill Gray_02/1O, text [Bode Text/Inter/14/Medium]
+  - COMPONENT_SET "Menu_vertical", 1147x349px, constraints left/top, radius 5px, stroke #7B61FF 1px
+    - COMPONENT "State=default, Icon=on, Chevron=on", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 9O
+      - TEXT "Menu item", 176x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=default, Icon=on, Chevron=off", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 9O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 9O
+      - TEXT "Menu item", 200x20px, constraints left/top, fill Gray_02 / 9O, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=hover, Icon=on, Chevron=on", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+      - TEXT "Menu item", 176x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=hover, Icon=on, Chevron=off", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+      - TEXT "Menu item", 200x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=focussed, Icon=on, Chevron=on", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02/1O, stroke primary/Focus 2px
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+      - TEXT "Menu item", 176x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=focussed, Icon=on, Chevron=off", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02/1O, stroke primary/Focus 2px
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary/Hover
+      - TEXT "Menu item", 200x20px, constraints left/top, fill primary/Hover, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=pressed, Icon=on, Chevron=on", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary / Pressed
+      - TEXT "Menu item", 176x20px, constraints left/top, fill primary / Pressed, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-up", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 9O
+    - COMPONENT "State=pressed, Icon=on, Chevron=off", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02/1O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary / Pressed
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill primary / Pressed
+      - TEXT "Menu item", 200x20px, constraints left/top, fill primary / Pressed, text [Bode Text/Inter/14/Medium]
+    - COMPONENT "State=disabled, Icon=on, Chevron=on", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02 / 2O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02 / 6O
+        - VECTOR "Vector (Stroke)", 6x6.67px, constraints scale/scale, fill Gray_02 / 6O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 6O
+        - VECTOR "Vector (Stroke)", 4.67x4.67px, constraints scale/scale, fill Gray_02 / 6O
+      - TEXT "Menu item", 176x20px, constraints left/top, fill Gray_02 / 6O, text [Bode Text/Inter/14/Medium]
+      - INSTANCE "Fether Icons /chevron-down", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 9.33x5.33px, constraints scale/scale, fill Gray_02 / 6O
+    - COMPONENT "State=disabled, Icon=on, Chevron=off", 256x36px, horizontal pad 8 16 8 16px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top, radius 4px, fill Gray_02 / 2O
+      - INSTANCE "Fether Icons /truck", 16x16px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector (Stroke)", 11.33x10px, constraints scale/scale, fill Gray_02 / 6O
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

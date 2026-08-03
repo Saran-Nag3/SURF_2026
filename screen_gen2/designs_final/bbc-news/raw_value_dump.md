@@ -1,0 +1,237 @@
+---
+name: bbc-news-prototype-community
+source_file: BBC NEWS PROTOTYPE (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:55:41.521411+00:00
+---
+
+# BBC NEWS PROTOTYPE (Community) Design Guidelines
+
+## Source
+- Figma file: BBC NEWS PROTOTYPE (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:55:41.521411+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 35 uses
+- #FFFFFF: 31 uses
+- #B90000: 28 uses
+- #333333CC: 11 uses
+- #333333: 9 uses
+- #BC1918: 4 uses
+- #BC191A: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- BBC Reith Sans Medium, 20px: 24 uses
+- BBC Reith Serif Bold, 25px: 18 uses
+- BBC Reith Sans Regular, 42px: 12 uses
+- BBC Reith Sans Bold, 25px: 11 uses
+- BBC Reith Serif Bold, 22px: 4 uses
+
+## Typography Hierarchy
+- 42px - BBC Reith Sans Regular, 42px (raw)
+- 25px - BBC Reith Sans Bold, 25px (raw)
+- 25px - BBC Reith Serif Bold, 25px (raw)
+- 22px - BBC Reith Serif Bold, 22px (raw)
+- 20px - BBC Reith Sans Medium, 20px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Component 2
+- Component 1
+- Component 10
+- Component 3
+- Component 9
+- Component 8
+- Component 7
+- Component 4
+- Component 5
+- Component 6
+- Get the news that’s local to you
+
+## Component Specs
+- Component 2: size 544x116px, fill #FFFFFF, text [BBC Reith Serif Bold, 22px, BBC Reith Sans Bold, 25px]
+- Component 1: size 529x91px, fill #FFFFFF, text [BBC Reith Serif Bold, 25px]
+- Component 10: size 537x110px, fill #FFFFFF, text [BBC Reith Serif Bold, 25px]
+- Component 3: size 527x104px, fill #FFFFFF, text [BBC Reith Serif Bold, 25px]
+- Component 9: size 529x109px, fill #FFFFFF, text [BBC Reith Serif Bold, 25px]
+- Component 8: size 531x115px, fill #FFFFFF, text [BBC Reith Sans Bold, 25px, BBC Reith Serif Bold, 25px]
+- Component 7: size 533x108px, fill #FFFFFF, text [BBC Reith Serif Bold, 25px]
+- Component 4: size 528x117px, fill #FFFFFF, text [BBC Reith Serif Bold, 25px]
+- Component 5: size 524x115px, fill #FFFFFF, text [BBC Reith Serif Bold, 25px]
+- Component 6: size 532x93px, fill #FFFFFF, text [BBC Reith Serif Bold, 25px]
+- Get the news that’s local to you: size 225x86px, fill #FFFFFF, text [BBC Reith Sans Medium, 20px]
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / Frame 1
+- FRAME "Frame 1", 1280x3263px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "nav bar also", 1282x701px, constraints left/top, fill image(hash: dcfffb8318e34077ea59c00ec4a6733e33b4cf15)
+  - RECTANGLE "nav bar", 1280x3085px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "rushi", 545x304px, constraints left/top, fill image(hash: 97cc046dc7464f61cb5efd510e49086221148deb)
+  - RECTANGLE "background text rushi", 544x91px, constraints left/top, fill #333333CC, effect [background_blur 4px]
+  - TEXT "Get the news that’s local to you", 225x86px, constraints left/top, fill #000000, text [BBC Reith Sans Medium, 20px]
+  - TEXT "Get the news that’s local to you", 225x86px, constraints left/top, fill #000000, text [BBC Reith Sans Medium, 20px]
+  - TEXT "Get the news that’s local to you", 225x86px, constraints left/top, fill #000000, text [BBC Reith Sans Medium, 20px]
+  - TEXT "Get the news that’s local to you", 225x86px, constraints left/top, fill #000000, text [BBC Reith Sans Medium, 20px]
+  - TEXT "Get the news that’s local to you", 225x86px, constraints left/top, fill #000000, text [BBC Reith Sans Medium, 20px]
+  - TEXT "Get the news that’s local to you", 225x86px, constraints left/top, fill #000000, text [BBC Reith Sans Medium, 20px]
+  - TEXT "1", 30x59px, constraints left/top, fill #B90000, text [BBC Reith Sans Regular, 42px], [heading]
+  - TEXT "4", 30x59px, constraints left/top, fill #B90000, text [BBC Reith Sans Regular, 42px], [heading]
+  - TEXT "2", 30x59px, constraints left/top, fill #B90000, text [BBC Reith Sans Regular, 42px], [heading]
+  - TEXT "5", 30x59px, constraints left/top, fill #B90000, text [BBC Reith Sans Regular, 42px], [heading]
+  - TEXT "3", 30x59px, constraints left/top, fill #B90000, text [BBC Reith Sans Regular, 42px], [heading]
+  - TEXT "6", 30x59px, constraints left/top, fill #B90000, text [BBC Reith Sans Regular, 42px], [heading]
+  - TEXT "Most watched", 377x64px, constraints left/top, fill #000000, text [BBC Reith Sans Bold, 25px], [heading]
+  - VECTOR "line break most watched", 359x0px, constraints left/top, stroke #000000 1px
+  - REGULAR_POLYGON "play button 06", 11x11px, constraints left/top, fill #000000
+  - REGULAR_POLYGON "play button 05", 11x11px, constraints left/top, fill #000000
+  - REGULAR_POLYGON "play button 04", 11x11px, constraints left/top, fill #000000
+  - REGULAR_POLYGON "play button 03", 11x11px, constraints left/top, fill #000000
+  - REGULAR_POLYGON "play button 02", 11x11px, constraints left/top, fill #000000
+  - REGULAR_POLYGON "play button 01", 11x11px, constraints left/top, fill #000000
+  - GROUP "live button group", 122x56px, constraints left/top
+    - TEXT "LIVE", 90x56px, constraints left/top, fill #B90000, text [BBC Reith Sans Bold, 25px], [heading]
+    - ELLIPSE "big", 25x25px, constraints left/top, fill #BC1918
+    - VECTOR "middle", 19x19px, constraints left/top, fill #FFFFFF
+    - VECTOR "centre", 13x13px, constraints left/top, fill #BC191A
+  - ... +68 more children
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Get the news that’s local to you
+- COMPONENT "Get the news that’s local to you", 225x86px, constraints left/top, fill #FFFFFF
+  - TEXT "Get the news that’s local to you", 225x86px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Medium, 20px]
+
+Screen: Page 1 / Component 6
+- COMPONENT "Component 6", 532x93px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "text backgrount trainers", 532x93px, constraints scale/scale, fill #333333, effect [background_blur 4px]
+  - TEXT "Trainer sales go down after covid pandemic spike", 513x70px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 25px], [heading]
+
+Screen: Page 1 / Component 5
+- COMPONENT "Component 5", 524x115px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "text background tommy", 524x94px, constraints scale/scale, fill #333333, effect [background_blur 4px]
+  - TEXT "Listen: Tommy Fury talks Molly-Mae and Jake Paul fight", 513x100px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 25px], [heading]
+
+Screen: Page 1 / Component 4
+- COMPONENT "Component 4", 528x117px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "text background zendaya", 527x92px, constraints scale/scale, fill #333333, effect [background_blur 4px]
+  - TEXT "In pictures: Red carpet at Screen Actors Guild Awards", 513x100px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 25px], [heading]
+
+Screen: Page 1 / Component 7
+- COMPONENT "Component 7", 533x108px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "text background adam", 532x92px, constraints scale/scale, fill #333333, effect [background_blur 4px]
+  - TEXT "Adam Lambert: ‘I didn’t think I’d have a shot", 513x100px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 25px], [heading]
+
+Screen: Page 1 / Component 8
+- COMPONENT "Component 8", 531x115px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "text background ski", 523x93px, constraints scale/scale, fill #333333, effect [background_blur 4px]
+  - TEXT "World Freestyle Snowboard Slopestyle Finals Brookes wins his", 516x100px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 25px], [heading]
+  - GROUP "live button 2", 122x56px, constraints scale/scale
+    - TEXT "LIVE", 90x56px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Bold, 25px], [heading]
+    - ELLIPSE "big", 25x25px, constraints scale/scale, fill #BC1918
+    - VECTOR "mid", 19x19px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "centre", 13x13px, constraints scale/scale, fill #BC191A
+
+Screen: Page 1 / Component 9
+- COMPONENT "Component 9", 529x109px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "text background 25p", 525x88px, constraints scale/scale, fill #333333, effect [background_blur 4px]
+  - TEXT "Money Diary: ’I have 25p left in my bank account ‘", 513x100px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 25px], [heading]
+
+Screen: Page 1 / Component 3
+- COMPONENT "Component 3", 527x104px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Text background energy bills", 526x84px, constraints scale/scale, fill #333333, effect [background_blur 4px]
+  - TEXT "What is the energy price cap and what will happen to my bill", 513x100px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 25px], [heading]
+
+Screen: Page 1 / Component 10
+- COMPONENT "Component 10", 537x110px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "text background jeprdy", 537x91px, constraints scale/scale, fill #333333, effect [background_blur 4px]
+  - TEXT "Chris Mason: Breakthrough is moment of political jeopardy", 513x100px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 25px], [heading]
+
+Screen: Page 1 / Component 1
+- COMPONENT "Component 1", 529x91px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "text background NI", 524x91px, constraints scale/scale, fill #333333, effect [background_blur 4px]
+  - TEXT "What is the Northern Ireland protocol?", 513x55px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 25px], [heading]
+
+Screen: Page 1 / Component 2
+- COMPONENT "Component 2", 544x116px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "background text rushi", 544x91px, constraints scale/scale, fill #333333CC, effect [background_blur 4px]
+  - GROUP "live button group", 122x56px, constraints scale/scale
+    - TEXT "LIVE", 90x56px, constraints scale/scale, fill #B90000, text [BBC Reith Sans Bold, 25px], [heading]
+    - ELLIPSE "big", 25x25px, constraints scale/scale, fill #BC1918
+    - VECTOR "middle", 19x19px, constraints scale/scale, fill #FFFFFF
+    - VECTOR "centre", 13x13px, constraints scale/scale, fill #BC191A
+  - TEXT "Sunak and EU chief poised to agree new NI Brexit deal", 406x100px, constraints scale/scale, fill #FFFFFF, text [BBC Reith Serif Bold, 22px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

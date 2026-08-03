@@ -1,0 +1,1222 @@
+---
+name: balance-wallet-ui-community
+source_file: Balance Wallet UI (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:29:57.933022+00:00
+---
+
+# Balance Wallet UI (Community) Design Guidelines
+
+## Source
+- Figma file: Balance Wallet UI (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:29:57.933022+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Gray 2: [#4F4F4F]
+- Label Color / Light / Primary: [#000000]
+- SystemOrange / Light: [#FF9500]
+- Carbon / Darkest: [#24262B]
+- Carbon Neutral/300: [#D6D9DD]
+- Color/Neutral/3 - Grey 75%: [#D0C9D6]
+- Color/Neutral/6 - White: [#FFFFFF]
+- Color/Accent/1 - Blue: [#6979F8]
+- 57B5ED: [#57B5ED]
+- Color/Orange/1 - Orange: [#FBBE4B]
+- Primary: [#03053D]
+- Gray 5: [#E0E0E0]
+- Dark Grey: [#7B8BB2]
+- Blue: [#376AED]
+- Background / Color 3: [#FFFFFF]
+
+## Raw Colors (unstyled)
+- #000000: 7663 uses
+- #FFFFFF: 7604 uses
+- #6B6969: 1007 uses
+- #DADADA: 971 uses
+- #B8B2B2: 842 uses
+- #292D32: 543 uses
+- #666666: 535 uses
+- #FCFCFE: 508 uses
+- #B6B6B6: 440 uses
+- #6A6969: 431 uses
+- #F5F5F5: 422 uses
+- #585858: 268 uses
+- #28A8D7: 265 uses
+- #50555C: 240 uses
+- #D7DDEC: 203 uses
+- #376AED: 146 uses
+- #010101: 135 uses
+- #D9D9D9: 134 uses
+
+## Typography Tokens
+- SF / Caption: SF Pro Text Regular (400), 12px / 16px, tracking 0px
+- SF / Body: SF Pro Text Regular (400), 17px / 22px, tracking -0.41px
+- SF / Headline: SF Pro Text Semibold (600), 17px / 22px, tracking -0.41px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 20px: 491 uses
+- SF Pro Text Regular, 22.5px: 432 uses
+- Roboto Regular, 50px: 429 uses
+- Roboto Regular, 15px: 426 uses
+- SF Pro Text Semibold, 18px: 424 uses
+- Roboto Regular, 17px: 421 uses
+- Inter ExtraBold, 16px: 227 uses
+- Inter ExtraBold, 14px: 204 uses
+- SF Pro Text Medium, 14px: 186 uses
+- Inter ExtraBold, 20px: 183 uses
+- SF Pro Text Light, 12px: 182 uses
+- SF Pro Text Semibold, 14px: 159 uses
+- SF Pro Text Regular, 16px: 154 uses
+- Inter Medium, 14px: 144 uses
+- Inter ExtraBold, 10px: 128 uses
+- SF Pro Text Regular, 14px: 105 uses
+- Inter Regular, 10px: 95 uses
+- SF Pro Text Medium, 12px: 89 uses
+- SF Pro Text Semibold, 16px: 88 uses
+- Inter Regular, 14px: 84 uses
+- SF Pro Text Bold, 16px: 81 uses
+- PT Sans Regular, 11px: 71 uses
+- Inter SemiBold, 12px: 69 uses
+- Inter ExtraBold, 11px: 66 uses
+- Poppins Regular, 12px: 66 uses
+- Roboto Regular, 10px: 64 uses
+- SF Pro Text Regular, 12px: 62 uses
+- SF Pro Display Regular, 25px: 60 uses
+- SF Pro Text Medium, 16px: 56 uses
+- Inter SemiBold, 14px: 54 uses
+- SF Pro Text Bold, 10px: 54 uses
+- Inter Regular, 12px: 52 uses
+- Inter Bold, 20px: 39 uses
+- Inter Regular, 8px: 38 uses
+- Inter Regular, 16px: 37 uses
+- Inter ExtraBold, 24px: 31 uses
+- SF Pro Text Semibold, 12px: 31 uses
+
+## Typography Hierarchy
+- 50px - Roboto Regular, 50px (raw)
+- 25px - SF Pro Display Regular, 25px (raw)
+- 24px - Inter ExtraBold, 24px (raw)
+- 22.5px - SF Pro Text Regular, 22.5px (raw)
+- 20px - Inter Bold, 20px (raw)
+- 20px - Inter ExtraBold, 20px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 18px - SF Pro Text Semibold, 18px (raw)
+- 17px - Roboto Regular, 17px (raw)
+- 17px - SF / Body (SF Pro Text Regular)
+- 17px - SF / Headline (SF Pro Text Semibold)
+- 16px - Inter ExtraBold, 16px (raw)
+- 16px - Inter Regular, 16px (raw)
+- 16px - SF Pro Text Bold, 16px (raw)
+- 16px - SF Pro Text Medium, 16px (raw)
+- 16px - SF Pro Text Regular, 16px (raw)
+- 16px - SF Pro Text Semibold, 16px (raw)
+- 15px - Roboto Regular, 15px (raw)
+- 14px - Inter ExtraBold, 14px (raw)
+- 14px - Inter Medium, 14px (raw)
+- 14px - Inter Regular, 14px (raw)
+- 14px - Inter SemiBold, 14px (raw)
+- 14px - SF Pro Text Medium, 14px (raw)
+- 14px - SF Pro Text Regular, 14px (raw)
+- 14px - SF Pro Text Semibold, 14px (raw)
+- 12px - Inter Regular, 12px (raw)
+- 12px - Inter SemiBold, 12px (raw)
+- 12px - Poppins Regular, 12px (raw)
+- 12px - SF / Caption (SF Pro Text Regular)
+- 12px - SF Pro Text Light, 12px (raw)
+- 12px - SF Pro Text Medium, 12px (raw)
+- 12px - SF Pro Text Regular, 12px (raw)
+- 12px - SF Pro Text Semibold, 12px (raw)
+- 11px - Inter ExtraBold, 11px (raw)
+- 11px - PT Sans Regular, 11px (raw)
+- 10px - Inter ExtraBold, 10px (raw)
+- 10px - Inter Regular, 10px (raw)
+- 10px - Roboto Regular, 10px (raw)
+- 10px - SF Pro Text Bold, 10px (raw)
+- 8px - Inter Regular, 8px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- Gird 2: columns count 1, section 364px, gutter 0px, align stretch + rows count 1, section 854px, gutter 0px, align stretch
+
+## Component Families
+- Component 1
+- vuesax
+
+## Component Specs
+- Component 1: size 24x24px, fill #FFFFFF | variants: Property 1: Frame 51/Iconly; Property 2: Light; Property 3: Tick Square
+- vuesax/linear/gallery-add: size 18x18px, fill #FFFFFF
+- vuesax/linear/camera: size 18x18px, fill #FFFFFF
+- vuesax/bold/edit-2: size 13x13px, fill #FFFFFF
+- vuesax/linear/receipt-2: size 20x20px, fill #FFFFFF
+- vuesax/linear/dollar-circle: size 24x24px, fill #FFFFFF
+- vuesax/linear/close-square: size 32x32px, fill #FF2828
+- vuesax/linear/login: size 24x24px, fill #FFFFFF
+- vuesax/linear/eye: size 24x24px, fill #FFFFFF
+- vuesax/linear/eye-slash: size 24x24px, fill #FFFFFF
+- vuesax/linear/user: size 30.52x30.52px, fill #FFFFFF
+- vuesax/bold/camera (Page 1): size 24x24px, fill #FFFFFF
+- vuesax/linear/arrow-left: size 24x24px, fill #FFFFFF
+- vuesax/linear/clipboard-text: size 30x30px, fill #FFFFFF
+- vuesax/linear/message-add: size 34x33px, fill #FFFFFF
+- vuesax/linear/clock: size 34x33px, fill #FFFFFF
+- vuesax/linear/document: size 34x33px
+- vuesax/linear/profile-circle: size 34x33px, fill #FFFFFF, text [Inter ExtraBold, 11px]
+- vuesax/linear/people (Page 1): size 34x33px, fill #FFFFFF
+- vuesax/linear/add: size 33.94x33.94px, fill #FFFFFF
+- vuesax/linear/forward-5-seconds: size 26x26px, fill #FFFFFF
+- vuesax/linear/flash-slash: size 26x26px, fill #FFFFFF
+- vuesax/linear/key: size 12x12px, fill #808080
+- vuesax/linear/add-circle: size 22x22px, fill #FFFFFF
+- vuesax/linear/link-circle: size 22x22px, fill #FFFFFF
+- vuesax/linear/receipt-item: size 24x24px, fill #FFFFFF
+- vuesax/bold/setting-2: size 24x24px, fill #FFFFFF
+- vuesax/bold/close-circle: size 18x18px, fill #FFFFFF
+- vuesax/bold/camera (Page 1): size 33x33px, fill #FFFFFF
+- vuesax/bold/people: size 20x20px, fill #FFFFFF
+- vuesax/bold/frame: size 16x16px, fill #FFFFFF
+- vuesax/bold/dollar-circle: size 16x16px, fill #FFFFFF
+- vuesax/linear/more-circle: size 21x21px, fill #FFFFFF
+- vuesax/linear/search-normal: size 22x22px, fill #FFFFFF
+- vuesax/linear/tag-user: size 25x25px, fill #FFFFFF
+- vuesax/linear/profile: size 25x25px, fill #FFFFFF
+- vuesax/linear/people (Page 1): size 25x25px, fill #FFFFFF
+- vuesax/linear/note-text: size 25x25px, fill #7B8BB2
+
+## Most-Used Styles
+- Gray 2: 421 uses
+- Label Color / Light / Primary: 312 uses
+- Dark Grey: 145 uses
+- Carbon Neutral/300: 132 uses
+- SystemOrange / Light: 132 uses
+- Color/Neutral/3 - Grey 75%: 71 uses
+- Color/Neutral/6 - White: 71 uses
+- Color/Accent/1 - Blue: 66 uses
+- Blue: 29 uses
+- Primary: 18 uses
+- Gray 5: 12 uses
+- SF / Caption: 12 uses
+- 57B5ED: 8 uses
+- Color/Orange/1 - Orange: 5 uses
+- Background / Color 3: 4 uses
+
+## Layout & Structure
+Screen: Page 1 / Chụp ảnh 3
+- FRAME "Chụp ảnh 3", 375x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 457", 375x812px, constraints left/top, fill image(hash: ffb4d60b67a779a269c47c2b463a030fcf4db0c3)
+  - RECTANGLE "Rectangle 470", 375x146px, constraints left/top, fill #00000080
+  - RECTANGLE "Rectangle 470", 375x103px, constraints left/top, fill #00000080
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 469", 39x40px, constraints left/top, radius 12px, fill image(hash: ffb4d60b67a779a269c47c2b463a030fcf4db0c3), stroke #000000 1px
+  - ELLIPSE "Ellipse 110", 50x50px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 109", 40x40px, constraints left/top, fill #D9D9D9, stroke #ACACAC 1px
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #FFFFFF
+  - INSTANCE "vuesax/linear/add", 40.03x40.03px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/add", 40.03x40.03px, constraints left/top
+      - GROUP "add", 40.03x40.03px, constraints left/top
+        - VECTOR "Vector", 10.01x10.01px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Vector", 10.01x10.01px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Vector", 40.03x40.03px, constraints scale/scale, opacity 0%
+  - INSTANCE "vuesax/linear/flash-slash", 26x26px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/flash-slash", 26x26px, constraints left/top [decorative, ~4 shapes]
+  - INSTANCE "vuesax/linear/forward-5-seconds", 26x26px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/forward-5-seconds", 26x26px, constraints left/top
+      - GROUP "forward-5-seconds", 26x26px, constraints scale/scale
+        - VECTOR "Vector", 2.14x2.68px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Vector", 19.26x19.26px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Vector", 26x26px, constraints scale/scale, opacity 0%
+
+Screen: Page 1 / Chụp ảnh 5
+- FRAME "Chụp ảnh 5", 375x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 457", 375x812px, constraints left/top, fill image(hash: ffb4d60b67a779a269c47c2b463a030fcf4db0c3)
+  - RECTANGLE "Rectangle 470", 375x146px, constraints left/top, fill #00000080
+  - RECTANGLE "Rectangle 470", 375x103px, constraints left/top, fill #00000080
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 469", 39x40px, constraints left/top, radius 12px, fill image(hash: ffb4d60b67a779a269c47c2b463a030fcf4db0c3), stroke #000000 1px
+  - ELLIPSE "Ellipse 110", 50x50px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 109", 40x40px, constraints left/top, fill #D9D9D9, stroke #ACACAC 1px
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #FFFFFF
+  - INSTANCE "vuesax/linear/add", 40.03x40.03px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/add", 40.03x40.03px, constraints left/top
+      - GROUP "add", 40.03x40.03px, constraints left/top
+        - VECTOR "Vector", 10.01x10.01px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Vector", 10.01x10.01px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Vector", 40.03x40.03px, constraints scale/scale, opacity 0%
+  - INSTANCE "vuesax/linear/flash-slash", 26x26px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/flash-slash", 26x26px, constraints left/top [decorative, ~4 shapes]
+  - INSTANCE "vuesax/linear/forward-5-seconds", 26x26px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/forward-5-seconds", 26x26px, constraints left/top
+      - GROUP "forward-5-seconds", 26x26px, constraints scale/scale
+        - VECTOR "Vector", 2.14x2.68px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Vector", 19.26x19.26px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Vector", 26x26px, constraints scale/scale, opacity 0%
+
+Screen: Page 1 / Chụp ảnh 4
+- FRAME "Chụp ảnh 4", 375x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 457", 375x812px, constraints left/top, fill image(hash: ffb4d60b67a779a269c47c2b463a030fcf4db0c3)
+  - RECTANGLE "Rectangle 470", 375x123px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 470", 375x103px, constraints left/top, fill #000000
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #FFFFFF
+  - TEXT "Chụp lại", 63x19px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+  - TEXT "Sử dụng", 65x19px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+
+Screen: Page 1 / Chụp ảnh 6
+- FRAME "Chụp ảnh 6", 375x812px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Rectangle 457", 375x812px, constraints left/top, fill image(hash: ffb4d60b67a779a269c47c2b463a030fcf4db0c3)
+  - RECTANGLE "Rectangle 470", 375x123px, constraints left/top, fill #000000
+  - RECTANGLE "Rectangle 470", 375x103px, constraints left/top, fill #000000
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #FFFFFF
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #FFFFFF
+  - TEXT "Chụp lại", 63x19px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+  - TEXT "Sử dụng", 65x19px, constraints left/top, fill #FFFFFF, text [Inter Medium, 16px]
+
+Screen: Page 1 / Tạo Nhóm
+- FRAME "Tạo Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #000000
+  - ELLIPSE "Ellipse 111", 193x193px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 112", 19x19px, constraints left/top, fill #5F9DF7B8
+  - ELLIPSE "Ellipse 113", 12x12px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 114", 19x19px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 115", 11x11px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 116", 14x14px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 122", 19x19px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 117", 19x19px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 118", 19x19px, constraints left/top, fill #5F9DF7B8
+  - ELLIPSE "Ellipse 119", 10x10px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 120", 19x19px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 121", 14x14px, constraints left/top, fill #5F9DF7
+  - VECTOR "Vector", 63x46px, constraints scale/scale, stroke #FFFFFF 20px
+  - RECTANGLE "Rectangle 460", 298x47px, constraints left/top, radius 8px, fill #376AED, stroke #000000 1.5px
+  - TEXT "Quay về trang chủ", 125x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Thanh toán thành công", 280x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+
+Screen: Page 1 / Tạo Nhóm
+- FRAME "Tạo Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #000000
+  - ELLIPSE "Ellipse 111", 193x193px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 112", 19x19px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 113", 12x12px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 114", 19x19px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 115", 11x11px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 116", 14x14px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 122", 19x19px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 117", 19x19px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 118", 19x19px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 119", 10x10px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 120", 19x19px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 121", 14x14px, constraints left/top, fill #585858
+  - VECTOR "Vector", 63x46px, constraints scale/scale, stroke #FFFFFF 20px
+  - RECTANGLE "Rectangle 460", 298x47px, constraints left/top, radius 8px, fill #585858, stroke #000000 1.5px
+  - TEXT "Quay về trang chủ", 125x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Thanh toán thành công", 280x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+
+Screen: Page 1 / Tạo Nhóm
+- FRAME "Tạo Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #000000
+  - ELLIPSE "Ellipse 111", 193x193px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 112", 19x19px, constraints left/top, fill #5F9DF7B8
+  - ELLIPSE "Ellipse 113", 12x12px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 114", 19x19px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 115", 11x11px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 116", 14x14px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 122", 19x19px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 117", 19x19px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 118", 19x19px, constraints left/top, fill #5F9DF7B8
+  - ELLIPSE "Ellipse 119", 10x10px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 120", 19x19px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 121", 14x14px, constraints left/top, fill #5F9DF7
+  - VECTOR "Vector", 63x46px, constraints scale/scale, stroke #FFFFFF 20px
+  - RECTANGLE "Rectangle 460", 298x47px, constraints left/top, radius 8px, fill #376AED, stroke #000000 1.5px
+  - TEXT "Quay về trang chủ", 125x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Gửi nhắc nhở thành công", 302x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+
+Screen: Page 1 / Tạo Nhóm
+- FRAME "Tạo Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #000000
+  - RECTANGLE "Rectangle 460", 298x47px, constraints left/top, radius 8px, fill #585858, stroke #000000 1.5px
+  - TEXT "Quay về trang chủ", 125x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Gửi nhắc nhở thành công", 302x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+  - ELLIPSE "Ellipse 111", 193x193px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 112", 19x19px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 113", 12x12px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 114", 19x19px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 115", 11x11px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 116", 14x14px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 122", 19x19px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 117", 19x19px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 118", 19x19px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 119", 10x10px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 120", 19x19px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 121", 14x14px, constraints left/top, fill #585858
+  - VECTOR "Vector", 63x46px, constraints scale/scale, stroke #FFFFFF 20px
+
+Screen: Page 1 / Tạo Nhóm
+- FRAME "Tạo Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #000000
+  - ELLIPSE "Ellipse 111", 193x193px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 112", 19x19px, constraints left/top, fill #5F9DF7B8
+  - ELLIPSE "Ellipse 113", 12x12px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 114", 19x19px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 115", 11x11px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 116", 14x14px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 122", 19x19px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 117", 19x19px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 118", 19x19px, constraints left/top, fill #5F9DF7B8
+  - ELLIPSE "Ellipse 119", 10x10px, constraints left/top, fill #376AED
+  - ELLIPSE "Ellipse 120", 19x19px, constraints left/top, fill #5F9DF7
+  - ELLIPSE "Ellipse 121", 14x14px, constraints left/top, fill #5F9DF7
+  - VECTOR "Vector", 63x46px, constraints scale/scale, stroke #FFFFFF 20px
+  - RECTANGLE "Rectangle 460", 220x47px, constraints left/top, radius 8px, fill #376AED, stroke #000000 1.5px
+  - RECTANGLE "Rectangle 461", 220x47px, constraints left/top, radius 8px, fill #376AED, stroke #000000 1.5px
+  - TEXT "Xem hóa đơn", 90x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Quay về trang chủ", 125x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Hóa đơn đã được tạo", 251x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+
+Screen: Page 1 / Tạo Nhóm
+- FRAME "Tạo Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill #000000
+  - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+    - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+      - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #000000
+  - RECTANGLE "Rectangle 460", 298x47px, constraints left/top, radius 8px, fill #585858, stroke #000000 1.5px
+  - TEXT "Quay về trang chủ", 125x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Gửi nhắc nhở thành công", 302x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+  - ELLIPSE "Ellipse 111", 193x193px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 112", 19x19px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 113", 12x12px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 114", 19x19px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 116", 14x14px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 122", 19x19px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 117", 19x19px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 118", 19x19px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 119", 10x10px, constraints left/top, fill #585858
+  - ELLIPSE "Ellipse 120", 19x19px, constraints left/top, fill #9C9C9C
+  - ELLIPSE "Ellipse 121", 14x14px, constraints left/top, fill #585858
+  - VECTOR "Vector", 63x46px, constraints scale/scale, stroke #FFFFFF 20px
+
+Screen: Page 1 / Rectangle 459
+- RECTANGLE "Rectangle 459", 757x574px, constraints left/top, fill #D9D9D9, stroke #000000 1px
+
+Screen: Page 1 / Nhóm
+- FRAME "Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - INSTANCE "Status bar", 375x111px, constraints left/top, fill #FFFFFF
+    - VECTOR "Surface", 374.1x81.29px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 50px offset 0 -2 #00000033]
+    - RECTANGLE "Home Indicator", 133.68x5.02px, constraints scale/scale, radius 25px, fill #FFFFFF, opacity 34%
+    - GROUP "Play button 25", 60.8x61.16px, constraints scale/scale
+      - VECTOR "Path 108", 60.8x61.16px, constraints scale/scale, fill #376AED
+    - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+        - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #181616
+    - GROUP "plus", 20x20.12px, constraints scale/scale
+      - VECTOR "Vector", 20x20.12px, constraints scale/scale, fill #FFFFFF
+  - COMPONENT "vuesax/linear/note-text", 25x25px, constraints left/top, fill #7B8BB2
+    - GROUP "vuesax/linear/note-text", 25x25px, constraints left/top [decorative, ~6 shapes]
+  - COMPONENT "vuesax/linear/people", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/people", 25x25px, constraints left/top [decorative, ~7 shapes]
+  - COMPONENT "vuesax/linear/profile", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/profile", 25x25px, constraints left/top
+      - GROUP "profile", 25x25px, constraints left/top
+        - VECTOR "Vector", 9.25x9.24px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 14.21x8.98px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 25x25px, constraints scale/scale, opacity 0%
+  - COMPONENT "vuesax/linear/tag-user", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/tag-user", 25x25px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 1384", 44x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Lịch Sử", 44x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - GROUP "Group 1385", 50x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Cá Nhân", 50x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - TEXT "Nhóm của bạn", 173x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+  - COMPONENT "vuesax/linear/search-normal", 22x22px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/search-normal", 22x22px, constraints left/top
+      - GROUP "search-normal", 22x22px, constraints left/top
+        - VECTOR "Vector", 17.42x17.42px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 1.83x1.83px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 22x22px, constraints scale/scale, opacity 0%
+  - GROUP "Group 1386", 30x30px, constraints left/top
+    - RECTANGLE "Rectangle 456", 18.12x19.38px, constraints left/top, fill #404040
+    - GROUP "add", 30x30px, constraints left/top
+      - VECTOR "Vector", 24.99x25px, constraints scale/scale, fill #5F9DF7
+      - VECTOR "Vector", 30x30px, constraints scale/scale, fill #5F9DF7, opacity 0%
+  - GROUP "timer card", 354x76px, constraints left/top, radius 10px
+    - RECTANGLE "card", 354x76px, constraints left/top, radius 10px, fill #376AED
+  - ELLIPSE "Ellipse 96", 50x50px, constraints left/top, fill image(hash: 524556bdb1dc194d46fad914330b112623bc4069)
+  - TEXT "Tổng số dư", 77x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Bạn đang nợ 1.400.000 đ", 173x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 14px]
+  - COMPONENT "vuesax/linear/more-circle", 21x21px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/more-circle", 21x21px, constraints left/top [decorative, ~5 shapes]
+  - GROUP "Group 1393", 318.7x83px, constraints left/top
+    - ELLIPSE "Ellipse 97", 37x37px, constraints left/top, fill image(hash: 524556bdb1dc194d46fad914330b112623bc4069)
+    - TEXT "Chung cư Phenika P1601", 193x19px, constraints left/top, fill #000000, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 1388", 269x17px, constraints left/top
+      - TEXT "8 Hóa đơn", 70x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - TEXT "250.000 đ", 72x17px, constraints left/top, fill #59C1BD, text [SF Pro Text Medium, 14px]
+      - COMPONENT "vuesax/bold/dollar-circle", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/dollar-circle", 16x16px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 1387", 81x17px, constraints left/top
+      - TEXT "6 Bạn bè", 60x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - COMPONENT "vuesax/bold/frame", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/frame", 16x16px, constraints left/top
+          - GROUP "frame", 16x16px, constraints left/top
+            - VECTOR "Vector", 6.33x6.33px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 9.39x6.16px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 16x16px, constraints scale/scale, opacity 0%
+    - VECTOR "Vector", 7.7x13.4px, constraints scale/scale, fill #000000
+  - GROUP "Group 1394", 318.7x83px, constraints left/top
+    - ELLIPSE "Ellipse 98", 37x37px, constraints left/top, fill image(hash: 524556bdb1dc194d46fad914330b112623bc4069)
+    - TEXT "Nhóm bạn thân 12A1", 160x19px, constraints left/top, fill #000000, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 1389", 269x17px, constraints left/top
+      - TEXT "5 Hóa đơn", 70x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - TEXT "600.000 đ", 72x17px, constraints left/top, fill #FF731D, text [SF Pro Text Medium, 14px]
+      - INSTANCE "vuesax/bold/dollar-circle", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/dollar-circle", 16x16px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 1390", 81x17px, constraints left/top
+      - TEXT "4 Bạn bè", 60x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - INSTANCE "vuesax/bold/frame", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/frame", 16x16px, constraints left/top
+          - GROUP "frame", 16x16px, constraints left/top
+            - VECTOR "Vector", 6.33x6.33px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 9.39x6.16px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 16x16px, constraints scale/scale, opacity 0%
+    - VECTOR "Vector", 7.7x13.4px, constraints scale/scale, fill #000000
+  - GROUP "Group 1395", 318.7x83px, constraints left/top
+    - ELLIPSE "Ellipse 99", 37x37px, constraints left/top, fill image(hash: 524556bdb1dc194d46fad914330b112623bc4069)
+    - TEXT "Du lịch sapa", 96x19px, constraints left/top, fill #000000, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 1391", 269x17px, constraints left/top
+      - TEXT "14 Hóa đơn", 77x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - TEXT "1.050.000 đ", 82x17px, constraints left/top, fill #FF731D, text [SF Pro Text Medium, 14px]
+      - INSTANCE "vuesax/bold/dollar-circle", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/dollar-circle", 16x16px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 1392", 87x17px, constraints left/top
+      - TEXT "10 Bạn bè", 66x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - INSTANCE "vuesax/bold/frame", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/frame", 16x16px, constraints left/top
+          - GROUP "frame", 16x16px, constraints left/top
+            - VECTOR "Vector", 6.33x6.33px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 9.39x6.16px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 16x16px, constraints scale/scale, opacity 0%
+    - VECTOR "Vector", 7.7x13.4px, constraints scale/scale, fill #000000
+  - LINE "Line 51", 375.01x0px, constraints left/top, stroke #EDEDED 1px
+  - LINE "Line 52", 375.01x0px, constraints left/top, stroke #EDEDED 1px
+  - TEXT "Bạn Bè", 41x15px, constraints left/top, fill #666666, stroke #666666 0.1px, text [Inter Regular, 12px]
+  - TEXT "Nhóm", 35x15px, constraints left/top, fill #0047CC, stroke #0047CC 0.1px, text [Inter Regular, 12px]
+
+Screen: Page 1 / Nhóm
+- FRAME "Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - INSTANCE "Status bar", 375x111px, constraints left/top, fill #FFFFFF
+    - VECTOR "Surface", 374.1x81.29px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 50px offset 0 -2 #00000033]
+    - RECTANGLE "Home Indicator", 133.68x5.02px, constraints scale/scale, radius 25px, fill #FFFFFF, opacity 34%
+    - GROUP "Play button 25", 60.8x61.16px, constraints scale/scale
+      - VECTOR "Path 108", 60.8x61.16px, constraints scale/scale, fill #585858
+    - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+        - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #181616
+    - GROUP "plus", 20x20.12px, constraints scale/scale
+      - VECTOR "Vector", 20x20.12px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "vuesax/linear/note-text", 25x25px, constraints left/top, fill #7B8BB2
+    - GROUP "vuesax/linear/note-text", 25x25px, constraints left/top [decorative, ~6 shapes]
+  - INSTANCE "vuesax/linear/people", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/people", 25x25px, constraints left/top [decorative, ~7 shapes]
+  - INSTANCE "vuesax/linear/profile", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/profile", 25x25px, constraints left/top
+      - GROUP "profile", 25x25px, constraints left/top
+        - VECTOR "Vector", 9.25x9.24px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 14.21x8.98px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 25x25px, constraints scale/scale, opacity 0%
+  - INSTANCE "vuesax/linear/tag-user", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/tag-user", 25x25px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 1384", 44x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Lịch Sử", 44x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - GROUP "Group 1385", 50x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Cá Nhân", 50x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - TEXT "Nhóm của bạn", 173x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+  - INSTANCE "vuesax/linear/search-normal", 22x22px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/search-normal", 22x22px, constraints left/top
+      - GROUP "search-normal", 22x22px, constraints left/top
+        - VECTOR "Vector", 17.42x17.42px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 1.83x1.83px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 22x22px, constraints scale/scale, opacity 0%
+  - GROUP "Group 1386", 24.99x25px, constraints left/top
+    - RECTANGLE "Rectangle 456", 18.12x19.38px, constraints left/top, fill #FFFFFF
+    - GROUP "add", 24.99x25px, constraints left/top
+      - VECTOR "Vector", 24.99x25px, constraints scale/scale, fill #585858
+  - GROUP "timer card", 354x76px, constraints left/top, radius 10px
+    - RECTANGLE "card", 354x76px, constraints left/top, radius 10px, fill #585858
+  - TEXT "Tổng số dư", 77x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Bạn đang nợ 1.400.000 đ", 173x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 14px]
+  - INSTANCE "vuesax/linear/more-circle", 21x21px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/more-circle", 21x21px, constraints left/top [decorative, ~5 shapes]
+  - GROUP "Group 1393", 277.7x74px, constraints left/top
+    - TEXT "Chung cư Phenika P1601", 193x19px, constraints left/top, fill #000000, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 1388", 269x17px, constraints left/top
+      - TEXT "8 Hóa đơn", 70x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - TEXT "250.000 đ", 72x17px, constraints left/top, fill #585858, text [SF Pro Text Medium, 14px]
+      - INSTANCE "vuesax/bold/dollar-circle", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/dollar-circle", 16x16px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 1387", 81x17px, constraints left/top
+      - TEXT "6 Bạn bè", 60x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - INSTANCE "vuesax/bold/frame", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/frame", 16x16px, constraints left/top
+          - GROUP "frame", 16x16px, constraints left/top
+            - VECTOR "Vector", 6.33x6.33px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 9.39x6.16px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 16x16px, constraints scale/scale, opacity 0%
+    - VECTOR "Vector", 7.7x13.4px, constraints scale/scale, fill #000000
+  - GROUP "Group 1394", 277.7x74px, constraints left/top
+    - TEXT "Nhóm bạn thân 12A1", 160x19px, constraints left/top, fill #000000, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 1389", 269x17px, constraints left/top
+      - TEXT "5 Hóa đơn", 70x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - TEXT "600.000 đ", 72x17px, constraints left/top, fill #585858, text [SF Pro Text Medium, 14px]
+      - INSTANCE "vuesax/bold/dollar-circle", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/dollar-circle", 16x16px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 1390", 81x17px, constraints left/top
+      - TEXT "4 Bạn bè", 60x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - INSTANCE "vuesax/bold/frame", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/frame", 16x16px, constraints left/top
+          - GROUP "frame", 16x16px, constraints left/top
+            - VECTOR "Vector", 6.33x6.33px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 9.39x6.16px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 16x16px, constraints scale/scale, opacity 0%
+    - VECTOR "Vector", 7.7x13.4px, constraints scale/scale, fill #000000
+  - GROUP "Group 1395", 277.7x74px, constraints left/top
+    - TEXT "Du lịch tam đảo", 123x19px, constraints left/top, fill #000000, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 1391", 269x17px, constraints left/top
+      - TEXT "14 Hóa đơn", 77x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - TEXT "1.050.000 đ", 82x17px, constraints left/top, fill #585858, text [SF Pro Text Medium, 14px]
+      - INSTANCE "vuesax/bold/dollar-circle", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/dollar-circle", 16x16px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 1392", 87x17px, constraints left/top
+      - TEXT "10 Bạn bè", 66x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - INSTANCE "vuesax/bold/frame", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/frame", 16x16px, constraints left/top
+          - GROUP "frame", 16x16px, constraints left/top
+            - VECTOR "Vector", 6.33x6.33px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 9.39x6.16px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 16x16px, constraints scale/scale, opacity 0%
+    - VECTOR "Vector", 7.7x13.4px, constraints scale/scale, fill #000000
+  - LINE "Line 51", 375.01x0px, constraints left/top, stroke #EDEDED 1px
+  - LINE "Line 52", 375.01x0px, constraints left/top, stroke #EDEDED 1px
+  - TEXT "Bạn Bè", 41x15px, constraints left/top, fill #666666, stroke #666666 0.1px, text [Inter Regular, 12px]
+  - TEXT "Nhóm", 35x15px, constraints left/top, fill #262626, stroke #262626 0.1px, text [Inter Regular, 12px]
+  - ELLIPSE "Ellipse 134", 50x50px, constraints left/top, fill #8F8F8F
+  - ELLIPSE "Ellipse 134", 39x39px, constraints left/top, fill #8F8F8F
+  - ELLIPSE "Ellipse 135", 39x39px, constraints left/top, fill #8F8F8F
+  - ... +5 more children
+
+Screen: Page 1 / Hiển thị chi tiết số dư nhóm
+- FRAME "Hiển thị chi tiết số dư nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - INSTANCE "Status bar", 375x111px, constraints left/top, fill #FFFFFF
+    - VECTOR "Surface", 374.1x81.29px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 50px offset 0 -2 #00000033]
+    - RECTANGLE "Home Indicator", 133.68x5.02px, constraints scale/scale, radius 25px, fill #FFFFFF, opacity 34%
+    - GROUP "Play button 25", 60.8x61.16px, constraints scale/scale
+      - VECTOR "Path 108", 60.8x61.16px, constraints scale/scale, fill #585858
+    - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+        - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #181616
+    - GROUP "plus", 20x20.12px, constraints scale/scale
+      - VECTOR "Vector", 20x20.12px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "vuesax/linear/note-text", 25x25px, constraints left/top, fill #7B8BB2
+    - GROUP "vuesax/linear/note-text", 25x25px, constraints left/top [decorative, ~6 shapes]
+  - INSTANCE "vuesax/linear/people", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/people", 25x25px, constraints left/top [decorative, ~7 shapes]
+  - INSTANCE "vuesax/linear/profile", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/profile", 25x25px, constraints left/top
+      - GROUP "profile", 25x25px, constraints left/top
+        - VECTOR "Vector", 9.25x9.24px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 14.21x8.98px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 25x25px, constraints scale/scale, opacity 0%
+  - INSTANCE "vuesax/linear/tag-user", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/tag-user", 25x25px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 1384", 44x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Lịch Sử", 44x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - GROUP "Group 1385", 50x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Cá Nhân", 50x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - TEXT "Nhóm của bạn", 173x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+  - INSTANCE "vuesax/linear/search-normal", 22x22px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/search-normal", 22x22px, constraints left/top
+      - GROUP "search-normal", 22x22px, constraints left/top
+        - VECTOR "Vector", 17.42x17.42px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 1.83x1.83px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 22x22px, constraints scale/scale, opacity 0%
+  - GROUP "Group 1386", 24.99x25px, constraints left/top
+    - RECTANGLE "Rectangle 456", 18.12x19.38px, constraints left/top, fill #FFFFFF
+    - GROUP "add", 24.99x25px, constraints left/top
+      - VECTOR "Vector", 24.99x25px, constraints scale/scale, fill #585858
+  - GROUP "timer card", 354x76px, constraints left/top, radius 10px
+    - RECTANGLE "card", 354x76px, constraints left/top, radius 10px, fill #585858
+  - TEXT "Tổng số dư", 77x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Semibold, 14px]
+  - TEXT "Bạn đang nợ 1.400.000 đ", 173x17px, constraints left/top, fill #FFFFFF, text [SF Pro Text Medium, 14px]
+  - INSTANCE "vuesax/linear/more-circle", 21x21px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/more-circle", 21x21px, constraints left/top [decorative, ~5 shapes]
+  - GROUP "Group 1393", 277.7x74px, constraints left/top
+    - TEXT "Chung cư Phenika P1601", 193x19px, constraints left/top, fill #000000, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 1388", 269x17px, constraints left/top
+      - TEXT "8 Hóa đơn", 70x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - TEXT "250.000 đ", 72x17px, constraints left/top, fill #585858, text [SF Pro Text Medium, 14px]
+      - INSTANCE "vuesax/bold/dollar-circle", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/dollar-circle", 16x16px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 1387", 81x17px, constraints left/top
+      - TEXT "6 Bạn bè", 60x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - INSTANCE "vuesax/bold/frame", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/frame", 16x16px, constraints left/top
+          - GROUP "frame", 16x16px, constraints left/top
+            - VECTOR "Vector", 6.33x6.33px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 9.39x6.16px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 16x16px, constraints scale/scale, opacity 0%
+    - VECTOR "Vector", 7.7x13.4px, constraints scale/scale, fill #000000
+  - GROUP "Group 1394", 277.7x74px, constraints left/top
+    - TEXT "Nhóm bạn thân 12A1", 160x19px, constraints left/top, fill #000000, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 1389", 269x17px, constraints left/top
+      - TEXT "5 Hóa đơn", 70x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - TEXT "600.000 đ", 72x17px, constraints left/top, fill #585858, text [SF Pro Text Medium, 14px]
+      - INSTANCE "vuesax/bold/dollar-circle", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/dollar-circle", 16x16px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 1390", 81x17px, constraints left/top
+      - TEXT "4 Bạn bè", 60x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - INSTANCE "vuesax/bold/frame", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/frame", 16x16px, constraints left/top
+          - GROUP "frame", 16x16px, constraints left/top
+            - VECTOR "Vector", 6.33x6.33px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 9.39x6.16px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 16x16px, constraints scale/scale, opacity 0%
+    - VECTOR "Vector", 7.7x13.4px, constraints scale/scale, fill #000000
+  - GROUP "Group 1395", 277.7x74px, constraints left/top
+    - TEXT "Du lịch tam đảo", 123x19px, constraints left/top, fill #000000, text [SF Pro Text Medium, 16px]
+    - GROUP "Group 1391", 269x17px, constraints left/top
+      - TEXT "14 Hóa đơn", 77x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - TEXT "1.050.000 đ", 82x17px, constraints left/top, fill #585858, text [SF Pro Text Medium, 14px]
+      - INSTANCE "vuesax/bold/dollar-circle", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/dollar-circle", 16x16px, constraints left/top [decorative, ~4 shapes]
+    - GROUP "Group 1392", 87x17px, constraints left/top
+      - TEXT "10 Bạn bè", 66x17px, constraints left/top, fill #666666, text [SF Pro Text Regular, 14px]
+      - INSTANCE "vuesax/bold/frame", 16x16px, constraints left/top, fill #FFFFFF
+        - GROUP "vuesax/bold/frame", 16x16px, constraints left/top
+          - GROUP "frame", 16x16px, constraints left/top
+            - VECTOR "Vector", 6.33x6.33px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 9.39x6.16px, constraints scale/scale, fill #666666
+            - VECTOR "Vector", 16x16px, constraints scale/scale, opacity 0%
+    - VECTOR "Vector", 7.7x13.4px, constraints scale/scale, fill #000000
+  - LINE "Line 51", 375.01x0px, constraints left/top, stroke #EDEDED 1px
+  - LINE "Line 52", 375.01x0px, constraints left/top, stroke #EDEDED 1px
+  - TEXT "Bạn Bè", 41x15px, constraints left/top, fill #666666, stroke #666666 0.1px, text [Inter Regular, 12px]
+  - TEXT "Nhóm", 35x15px, constraints left/top, fill #262626, stroke #262626 0.1px, text [Inter Regular, 12px]
+  - ELLIPSE "Ellipse 134", 50x50px, constraints left/top, fill #8F8F8F
+  - ELLIPSE "Ellipse 134", 39x39px, constraints left/top, fill #8F8F8F
+  - ELLIPSE "Ellipse 135", 39x39px, constraints left/top, fill #8F8F8F
+  - ... +7 more children
+
+Screen: Page 1 / Nhóm
+- FRAME "Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - INSTANCE "Status bar", 375x111px, constraints left/top, fill #FFFFFF
+    - VECTOR "Surface", 374.1x81.29px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 50px offset 0 -2 #00000033]
+    - RECTANGLE "Home Indicator", 133.68x5.02px, constraints scale/scale, radius 25px, fill #FFFFFF, opacity 34%
+    - GROUP "Play button 25", 60.8x61.16px, constraints scale/scale
+      - VECTOR "Path 108", 60.8x61.16px, constraints scale/scale, fill #376AED
+    - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+        - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #181616
+    - GROUP "plus", 20x20.12px, constraints scale/scale
+      - VECTOR "Vector", 20x20.12px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "vuesax/linear/note-text", 25x25px, constraints left/top, fill #7B8BB2
+    - GROUP "vuesax/linear/note-text", 25x25px, constraints left/top [decorative, ~6 shapes]
+  - INSTANCE "vuesax/linear/people", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/people", 25x25px, constraints left/top [decorative, ~7 shapes]
+  - INSTANCE "vuesax/linear/profile", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/profile", 25x25px, constraints left/top
+      - GROUP "profile", 25x25px, constraints left/top
+        - VECTOR "Vector", 9.25x9.24px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 14.21x8.98px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 25x25px, constraints scale/scale, opacity 0%
+  - INSTANCE "vuesax/linear/tag-user", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/tag-user", 25x25px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 1384", 44x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Lịch Sử", 44x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - GROUP "Group 1385", 50x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Cá Nhân", 50x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - TEXT "Nhóm của bạn", 173x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+  - INSTANCE "vuesax/linear/search-normal", 22x22px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/search-normal", 22x22px, constraints left/top
+      - GROUP "search-normal", 22x22px, constraints left/top
+        - VECTOR "Vector", 17.42x17.42px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 1.83x1.83px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 22x22px, constraints scale/scale, opacity 0%
+  - TEXT "Bạn hiện tại đang không có nhóm nào", 216x38px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 16px]
+  - TEXT "Tạo nhóm giúp dễ dàng chia hóa đơn trong căn hộ,ăn uống du l", 332x38px, constraints left/top, fill #000000, text [SF Pro Text Regular, 16px]
+  - GROUP "timer card", 323x49px, constraints left/top, radius 10px
+    - RECTANGLE "card", 323x49px, constraints left/top, radius 10px, fill #376AED
+  - TEXT "Bắt đầu tạo nhóm mới", 168x19px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 16px]
+  - COMPONENT "vuesax/bold/people", 20x20px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/bold/people", 20x20px, constraints left/top [decorative, ~7 shapes]
+  - TEXT "Bạn Bè", 41x15px, constraints left/top, fill #666666, stroke #666666 0.1px, text [Inter Regular, 12px]
+  - TEXT "Nhóm", 35x15px, constraints left/top, fill #0047CC, stroke #0047CC 0.1px, text [Inter Regular, 12px]
+
+Screen: Page 1 / Nhóm
+- FRAME "Nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - INSTANCE "Status bar", 375x111px, constraints left/top, fill #FFFFFF
+    - VECTOR "Surface", 374.1x81.29px, constraints scale/scale, radius 0/0/0/0px, fill #FFFFFF, effect [drop_shadow 50px offset 0 -2 #00000033]
+    - RECTANGLE "Home Indicator", 133.68x5.02px, constraints scale/scale, radius 25px, fill #FFFFFF, opacity 34%
+    - GROUP "Play button 25", 60.8x61.16px, constraints scale/scale
+      - VECTOR "Path 108", 60.8x61.16px, constraints scale/scale, fill #585858
+    - GROUP "INDICATOR", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+      - GROUP "btnHome", 375x35.21px, constraints scale/scale, radius 0/0/0/0px
+        - VECTOR "Background", 375x35.21px, constraints scale/scale, fill #FFFFFF00
+        - RECTANGLE "indicator", 134x5.03px, constraints scale/scale, radius 100px, fill #181616
+    - GROUP "plus", 20x20.12px, constraints scale/scale
+      - VECTOR "Vector", 20x20.12px, constraints scale/scale, fill #FFFFFF
+  - INSTANCE "vuesax/linear/note-text", 25x25px, constraints left/top, fill #7B8BB2
+    - GROUP "vuesax/linear/note-text", 25x25px, constraints left/top [decorative, ~6 shapes]
+  - INSTANCE "vuesax/linear/people", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/people", 25x25px, constraints left/top [decorative, ~7 shapes]
+  - INSTANCE "vuesax/linear/profile", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/profile", 25x25px, constraints left/top
+      - GROUP "profile", 25x25px, constraints left/top
+        - VECTOR "Vector", 9.25x9.24px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 14.21x8.98px, constraints scale/scale, stroke #666666 1.5px
+        - VECTOR "Vector", 25x25px, constraints scale/scale, opacity 0%
+  - INSTANCE "vuesax/linear/tag-user", 25x25px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/tag-user", 25x25px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 1384", 44x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Lịch Sử", 44x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - GROUP "Group 1385", 50x14px, constraints left/top, radius 0/0/0/0px
+    - TEXT "Cá Nhân", 50x14px, constraints left/top, fill #666666, text [SF Pro Text Medium, 12px]
+  - TEXT "Nhóm của bạn", 173x29px, constraints left/top, fill #000000, text [SF Pro Text Bold, 24px], [heading]
+  - INSTANCE "vuesax/linear/search-normal", 22x22px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/search-normal", 22x22px, constraints left/top
+      - GROUP "search-normal", 22x22px, constraints left/top
+        - VECTOR "Vector", 17.42x17.42px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 1.83x1.83px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 22x22px, constraints scale/scale, opacity 0%
+  - TEXT "Bạn hiện tại đang không có nhóm nào", 216x38px, constraints left/top, fill #000000, text [SF Pro Text Semibold, 16px]
+  - TEXT "Tạo nhóm giúp dễ dàng chia hóa đơn trong căn hộ,ăn uống du l", 332x38px, constraints left/top, fill #000000, text [SF Pro Text Regular, 16px]
+  - GROUP "timer card", 323x49px, constraints left/top, radius 10px
+    - RECTANGLE "card", 323x49px, constraints left/top, radius 10px, fill #585858
+  - TEXT "Bắt đầu tạo nhóm mới", 168x19px, constraints left/top, fill #FFFFFF, text [SF Pro Text Regular, 16px]
+  - INSTANCE "vuesax/bold/people", 20x20px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/bold/people", 20x20px, constraints left/top [decorative, ~7 shapes]
+  - TEXT "Bạn Bè", 41x15px, constraints left/top, fill #666666, stroke #666666 0.1px, text [Inter Regular, 12px]
+  - TEXT "Nhóm", 35x15px, constraints left/top, fill #262626, stroke #262626 0.1px, text [Inter Regular, 12px]
+
+Screen: Page 1 / Tìm kiếm nhóm
+- FRAME "Tìm kiếm nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - TEXT "Tìm kiếm", 52x14px, constraints left/top, fill #BFBFBF, text [SF Pro Text Regular, 12px]
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - INSTANCE "vuesax/linear/search-normal", 22x22px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/search-normal", 22x22px, constraints left/top
+      - GROUP "search-normal", 22x22px, constraints left/top
+        - VECTOR "Vector", 17.42x17.42px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 1.83x1.83px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 22x22px, constraints scale/scale, opacity 0%
+  - RECTANGLE "Rectangle 458", 251x39px, constraints left/top, radius 8px, fill #D9D9D9, stroke #000000 1.5px
+  - LINE "Line 55", 0x18px, constraints left/top, stroke #000000 1px
+  - TEXT "Bỏ Qua", 42x14px, constraints left/top, fill #000000, text [SF Pro Text Medium, 12px]
+  - INSTANCE "Keyboard", 375x291px, constraints left/top, fill #D1D5DB, effect [background_blur 108.73px]
+    - INSTANCE "Home Indicator", 375x34px, constraints left_right/bottom, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill Label Color / Light / Primary
+    - GROUP "Keys", 369x259px, constraints center/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Dictation", 15x25px, constraints scale/scale, fill #50555C
+      - BOOLEAN_OPERATION "Emoji", 27x27px, constraints scale/scale, fill #50555C
+      - FRAME "Return", 88x42px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 88x42px, constraints left_right/top_bottom, radius 4.6px, fill #ADB3BC, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 88x21px, constraints left_right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - FRAME "Space", 182x42px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 182x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 182x21px, constraints left_right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - FRAME "123", 87x42px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 87x42px, constraints left_right/top_bottom, radius 4.6px, fill #ADB3BC, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 87x21px, constraints left_right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - GROUP "Delete", 42x42px, constraints scale/scale, fill #FFFFFF [decorative, ~10 shapes]
+      - GROUP "Shift", 42x42px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Key Light", 42x42px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "Rectangle", 42x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "Symbol", 0x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+        - VECTOR "Shift", 18.88x16.46px, constraints scale/scale, fill #000000
+      - FRAME "M", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 20x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "N", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "B", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "V", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "C", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "X", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "Z", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "L", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "K", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "J", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "H", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "G", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "F", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "D", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "S", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "A", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "P", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "O", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 18x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - ... +8 more children
+
+Screen: Page 1 / Tìm kiếm nhóm
+- FRAME "Tìm kiếm nhóm", 375x812px, constraints left/top, fill #FFFFFF
+  - TEXT "Tìm kiếm", 52x14px, constraints left/top, fill #BFBFBF, text [SF Pro Text Regular, 12px]
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - INSTANCE "vuesax/linear/search-normal", 22x22px, constraints left/top, fill #FFFFFF
+    - GROUP "vuesax/linear/search-normal", 22x22px, constraints left/top
+      - GROUP "search-normal", 22x22px, constraints left/top
+        - VECTOR "Vector", 17.42x17.42px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 1.83x1.83px, constraints scale/scale, stroke #292D32 1.5px
+        - VECTOR "Vector", 22x22px, constraints scale/scale, opacity 0%
+  - RECTANGLE "Rectangle 458", 251x39px, constraints left/top, radius 8px, fill #D9D9D9, stroke #000000 1.5px
+  - LINE "Line 55", 0x18px, constraints left/top, stroke #000000 1px
+  - TEXT "Bỏ Qua", 42x14px, constraints left/top, fill #000000, text [SF Pro Text Medium, 12px]
+  - INSTANCE "Keyboard", 375x291px, constraints left/top, fill #D1D5DB, effect [background_blur 108.73px]
+    - INSTANCE "Home Indicator", 375x34px, constraints left_right/bottom, fill #FFFFFF
+      - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill Label Color / Light / Primary
+    - GROUP "Keys", 369x259px, constraints center/top, fill #FFFFFF
+      - BOOLEAN_OPERATION "Dictation", 15x25px, constraints scale/scale, fill #50555C
+      - BOOLEAN_OPERATION "Emoji", 27x27px, constraints scale/scale, fill #50555C
+      - FRAME "Return", 88x42px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 88x42px, constraints left_right/top_bottom, radius 4.6px, fill #ADB3BC, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 88x21px, constraints left_right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - FRAME "Space", 182x42px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 182x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 182x21px, constraints left_right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - FRAME "123", 87x42px, constraints scale/scale, fill #FFFFFF
+        - VECTOR "Rectangle", 87x42px, constraints left_right/top_bottom, radius 4.6px, fill #ADB3BC, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Label", 87x21px, constraints left_right/scale, fill #000000, text [SF Pro Text Regular, 16px]
+      - GROUP "Delete", 42x42px, constraints scale/scale, fill #FFFFFF [decorative, ~10 shapes]
+      - GROUP "Shift", 42x42px, constraints scale/scale, fill #FFFFFF
+        - FRAME "Key Light", 42x42px, constraints scale/scale, fill #FFFFFF
+          - RECTANGLE "Rectangle", 42x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+          - TEXT "Symbol", 0x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+        - VECTOR "Shift", 18.88x16.46px, constraints scale/scale, fill #000000
+      - FRAME "M", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 20x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "N", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "B", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "V", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "C", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "X", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "Z", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "L", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "K", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "J", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "H", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "G", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "F", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 13x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "D", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 17x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "S", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "A", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 16x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "P", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 15x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - FRAME "O", 32x42px, constraints scale/scale, fill #FFFFFF
+        - RECTANGLE "Rectangle", 32x42px, constraints left_right/top_bottom, radius 4.6px, fill #FCFCFE, stroke #979797 0px, effect [drop_shadow 0px offset 0 1 #898A8D]
+        - TEXT "Symbol", 18x27px, constraints scale/center, fill #000000, text [SF Pro Text Regular, 22.5px]
+      - ... +8 more children
+
+Screen: Page 1 / Open app
+- FRAME "Open app", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - RECTANGLE "Rectangle 185", 286x54px, constraints left/top, radius 6px, fill #117DBE
+  - TEXT "Bắt đầu", 72x24px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 16px]
+  - RECTANGLE "logo-01-01 1", 145x199px, constraints left/top, fill image(hash: 4425c68ab746b7ec83e1e556e258dd5595ce0741)
+
+Screen: Page 1 / Open app
+- FRAME "Open app", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - RECTANGLE "Rectangle 185", 286x54px, constraints left/top, radius 6px, fill #117DBE
+  - TEXT "Bắt đầu", 72x24px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 16px]
+  - RECTANGLE "logo-01-01 1", 145x199px, constraints left/top, fill image(hash: 4425c68ab746b7ec83e1e556e258dd5595ce0741)
+
+Screen: Page 1 / Open app
+- FRAME "Open app", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - RECTANGLE "Rectangle 185", 286x54px, constraints left/top, radius 6px, fill #585858
+  - TEXT "Bắt đầu", 72x24px, constraints left/top, fill #FFFFFF, text [Poppins Regular, 16px]
+  - ELLIPSE "Ellipse 123", 149x149px, constraints left/top, fill #D9D9D9
+  - TEXT "B-Wallet", 98x17px, constraints left/top, fill #4B4B4B, text [Inter Bold, 24px], [heading]
+
+Screen: Page 1 / Open app
+- FRAME "Open app", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - RECTANGLE "Rectangle 187", 161x45px, constraints left/top, radius 6px, fill #117DBE
+  - TEXT "TiẾP", 58x20px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 16px]
+
+Screen: Page 1 / Open app
+- FRAME "Open app", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - RECTANGLE "Rectangle 187", 161x45px, constraints left/top, radius 6px, fill #117DBE
+  - TEXT "TiẾP", 58x20px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 16px]
+
+Screen: Page 1 / Open app
+- FRAME "Open app", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - TEXT "Nhập số điện thoại di động của bạn, chúng tôi sẽ gửi bạn OTP", 369x50px, constraints left/top, fill #535554, text [Baloo Paaji 2 Regular, 14px]
+  - RECTANGLE "Rectangle 187", 161x45px, constraints left/top, radius 6px, fill #585858
+  - TEXT "TiẾP", 58x20px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 16px]
+  - ELLIPSE "Ellipse 123", 149x149px, constraints left/top, fill #D9D9D9
+  - TEXT "B-Wallet", 98x17px, constraints left/top, fill #4B4B4B, text [Inter Bold, 24px], [heading]
+
+Screen: Page 1 / Open app
+- FRAME "Open app", 375x812px, constraints left/top, fill #FFFFFF
+  - INSTANCE "iPhone X (or newer)", 375x44px, constraints left/top, fill #FFFFFF
+    - GROUP "Notch", 219x30px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~4 shapes]
+    - GROUP "Right Side", 66.66x11.34px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF [decorative, ~13 shapes]
+    - GROUP "Left Side", 54x21px, constraints left/top, radius 32px, fill #FFFFFF
+      - INSTANCE "Time", 54x21px, constraints left/top, radius 32px
+        - VECTOR "9:41", 28.43x11.09px, constraints left/top, fill Label Color / Light / Primary
+  - TEXT "Đăng ký", 76x33px, constraints left/top, fill #011A51, text [Titillium Web SemiBold, 22px]
+  - TEXT "Nhập số điện thoại di động của bạn, chúng tôi sẽ gửi bạn OTP", 290x28px, constraints left/top, fill #727E96, text [Be Vietnam Pro Light, 11px]
+  - GROUP "Registration", 275x67px, constraints left/top, radius 21px
+    - VECTOR "Rectangle 44", 275x58px, constraints left/top, radius 21px, stroke #000000 0.5px, opacity 20%
+    - TEXT "Số Điện Thoại", 82x15px, constraints left/top, fill #000000, text [Be Vietnam Pro Regular, 12px], opacity 50%
+    - TEXT "+84", 24x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+    - TEXT "0966781xxx", 66x18px, constraints left/top, fill #000000, text [Poppins Regular, 12px]
+  - VECTOR "Rectangle 83", 21x7px, constraints left/top, radius 0/0/0/0px, fill #FF0000
+  - VECTOR "Rectangle 84", 21x7px, constraints left/top, radius 0/0/0/0px, fill #FF0000
+  - GROUP "Group 93", 18x18px, constraints left/top, radius 0/0/0/0px
+    - ELLIPSE "Ellipse 20", 18x18px, constraints left/top, fill #117DBE
+    - VECTOR "Vector 4", 7.64x6px, constraints left/top, radius 0/0/0/0px, fill #117DBE, stroke #FFFFFF 2px
+  - RECTANGLE "Rectangle 185", 275x54px, constraints left/top, radius 6px, fill #117DBE
+  - TEXT "GỬI MÃ QUA SMS", 148x24px, constraints left/top, fill #FFFFFF, text [Poppins Medium, 16px]
+  - GROUP "Group 261", 118.02x126.02px, constraints left/top [decorative, ~28 shapes]
+  - ELLIPSE "Ellipse 28", 18x18px, constraints left/top, fill #FB847C
+  - VECTOR "Vector", 6x6px, constraints scale/scale, fill #FFD601, stroke #EBFF00 1.5px
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

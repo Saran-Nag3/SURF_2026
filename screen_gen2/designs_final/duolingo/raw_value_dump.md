@@ -1,0 +1,1246 @@
+---
+name: duolingo-design-system-community
+source_file: DuoLingo Design System (Community)
+source_page: All pages (4): Cover, Components, Existing Flows, Design Challenge
+generated_at: 2026-07-25T09:17:30.886494+00:00
+---
+
+# DuoLingo Design System (Community) Design Guidelines
+
+## Source
+- Figma file: DuoLingo Design System (Community)
+- Figma page: All pages (4): Cover, Components, Existing Flows, Design Challenge
+- Extracted at: 2026-07-25T09:17:30.886494+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- Label Color/Dark/Primary: [#FFFFFF]
+- Label Color/Light/Primary: [#000000]
+- Default/SystemGray/02/Dark: [#636366]
+
+## Raw Colors (unstyled)
+- #D9D9D9: 299 uses
+- #FFFFFF: 196 uses
+- #000000: 185 uses
+- #6F6F70: 81 uses
+- #15451F: 65 uses
+- #9DAD88: 65 uses
+- #FFC800: 51 uses
+- #00A47D: 42 uses
+- #9747FF: 23 uses
+- #1899D6: 20 uses
+- #C9C7C7: 20 uses
+- #D1EBF7: 20 uses
+- #6195D3: 16 uses
+- #456B64: 12 uses
+- #F8FCFF: 12 uses
+- #9069CD: 9 uses
+- #D84F9E: 9 uses
+- #F3AD6D: 9 uses
+- #FFEF8F: 9 uses
+- #AC016A: 8 uses
+- #4B4B4C: 7 uses
+
+## Typography Tokens
+- Default/Regular/Callout: SF Pro Text Regular (400), 16px / 21px, tracking -0.32px
+- Title2 / Regular: SF Pro Display Regular (400), 22px / 28px, tracking 0.35px
+- Body/Regular: SF Pro Text Regular (400), 17px / 22px, tracking -0.41px
+- Button Text: DIN 2014 Rounded VF Bold (700), 16px / auto, tracking -0.32px
+- Primary: DIN 2014 Rounded VF Regular (400), 20px / auto, tracking 0.6px
+- Primary Bold: DIN 2014 Rounded VF Bold (700), 20px / auto, tracking 0.6px
+- Primary Title: DIN 2014 Rounded VF Bold (700), 22px / auto, tracking -0.44px
+- Header: DIN 2014 Rounded VF Bold (700), 26px / auto, tracking -0.52px
+- Goal Title: DIN 2014 Rounded VF Bold (700), 21px / 23px, tracking -0.1px
+- Subtext: DIN 2014 Rounded VF Regular (400), 18px / auto, tracking -0.18px
+- Linked Text: DIN 2014 Rounded VF ExtraBold (900), 17px / auto, tracking 0px
+- Small Bold: DIN 2014 Rounded VF Bold (700), 16px / auto, tracking -0.32px
+- Header 1: DIN 2014 Rounded VF Bold (700), 31px / auto, tracking 1.24px
+- XS Bold: DIN 2014 Rounded VF ExtraBold (900), 13px / auto, tracking 0px
+- Subtext 2: DIN 2014 Rounded VF Regular (400), 16px / auto, tracking -0.16px
+
+## Raw Typography (unstyled)
+- SF Pro Regular, 11px: 84 uses
+- DIN 2014 Rounded VF Bold, 16px: 77 uses
+- DIN 2014 Rounded VF Regular, 110px: 46 uses
+- DIN 2014 Rounded VF Bold, 200px: 43 uses
+- DIN 2014 Rounded VF Bold, 110px: 11 uses
+- DIN 2014 Rounded VF Regular, 200px: 7 uses
+- DIN 2014 Rounded VF Bold, 22px: 6 uses
+- DIN 2014 Rounded VF Regular, 16px: 5 uses
+- DIN 2014 Rounded VF Regular, 90px: 5 uses
+- Feather Bold, 122px: 5 uses
+- DIN 2014 Regular, 39px: 4 uses
+- DIN 2014 Rounded VF Bold, 300px: 4 uses
+- DIN 2014 Rounded VF Regular, 22px: 4 uses
+- Feather Bold, 12px: 4 uses
+- Feather Bold, 18px: 4 uses
+- Feather Bold, 800px: 4 uses
+- DIN 2014 Rounded VF Bold, 404px: 3 uses
+- DIN 2014 Rounded VF ExtraBold, 17px: 3 uses
+- DIN 2014 Rounded VF Regular, 50px: 3 uses
+
+## Typography Hierarchy
+- 800px - Feather Bold, 800px (raw)
+- 404px - DIN 2014 Rounded VF Bold, 404px (raw)
+- 300px - DIN 2014 Rounded VF Bold, 300px (raw)
+- 200px - DIN 2014 Rounded VF Bold, 200px (raw)
+- 200px - DIN 2014 Rounded VF Regular, 200px (raw)
+- 122px - Feather Bold, 122px (raw)
+- 110px - DIN 2014 Rounded VF Bold, 110px (raw)
+- 110px - DIN 2014 Rounded VF Regular, 110px (raw)
+- 90px - DIN 2014 Rounded VF Regular, 90px (raw)
+- 50px - DIN 2014 Rounded VF Regular, 50px (raw)
+- 39px - DIN 2014 Regular, 39px (raw)
+- 31px - Header 1 (DIN 2014 Rounded VF Bold)
+- 26px - Header (DIN 2014 Rounded VF Bold)
+- 22px - DIN 2014 Rounded VF Bold, 22px (raw)
+- 22px - DIN 2014 Rounded VF Regular, 22px (raw)
+- 22px - Primary Title (DIN 2014 Rounded VF Bold)
+- 22px - Title2 / Regular (SF Pro Display Regular)
+- 21px - Goal Title (DIN 2014 Rounded VF Bold)
+- 20px - Primary (DIN 2014 Rounded VF Regular)
+- 20px - Primary Bold (DIN 2014 Rounded VF Bold)
+- 18px - Feather Bold, 18px (raw)
+- 18px - Subtext (DIN 2014 Rounded VF Regular)
+- 17px - Body/Regular (SF Pro Text Regular)
+- 17px - DIN 2014 Rounded VF ExtraBold, 17px (raw)
+- 17px - Linked Text (DIN 2014 Rounded VF ExtraBold)
+- 16px - Button Text (DIN 2014 Rounded VF Bold)
+- 16px - DIN 2014 Rounded VF Bold, 16px (raw)
+- 16px - DIN 2014 Rounded VF Regular, 16px (raw)
+- 16px - Default/Regular/Callout (SF Pro Text Regular)
+- 16px - Small Bold (DIN 2014 Rounded VF Bold)
+- 16px - Subtext 2 (DIN 2014 Rounded VF Regular)
+- 13px - XS Bold (DIN 2014 Rounded VF ExtraBold)
+- 12px - Feather Bold, 12px (raw)
+- 11px - SF Pro Regular, 11px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- Record Audio
+- Proficiency Bar
+- Component 1
+- Progress Ring
+- Question
+- Question Word
+- Header
+- Word
+- Day Tracker
+- Bottom Nav
+- Context Bar
+- Volume
+- Chests
+- Bottom Nav Button
+- Progress Bar
+- Button
+- Selected Language
+- Icons
+- Flag
+- Level
+- Level Icon
+- Check
+- Tasks
+- Start Tootltip
+- Word Selection
+- Answer
+- Divider
+- Friend Streaks
+- Tooltip
+- Special Task
+- Header Counter
+- Flag Selection
+- Section Header
+- Phone
+- Trip Icon
+- Frame 143
+- Frame 152
+- user journey steps
+- Recorded Conversations
+- Translate Icon
+
+## Component Specs
+- Record Audio: size 398x88px, radius 13px, fill #E5E5E5, text [Button Text] | variants: Selected: False/True
+- Proficiency Bar: size 30x22px, horizontal layout, padding 0 0 0 0px, gap 2px, align min/max, sizing W:fixed H:fixed | variants: Property 1: 0/1/2/3/4
+- Component 1: size 189x68px, radius 14px, horizontal layout, padding 14 15 11 15px, gap 8px, sizing W:fixed H:fixed, stroke #E5E5E5 2px, text [Subtext 2, Small Bold] | variants: Property 1: Frame 79/Frame 80/Frame 81/Frame 82
+- Progress Ring: size 89x84px, fill #FFFFFF | variants: Progress: 0/5/1/5/4/5
+- Question: size 430x190px, text [Primary] | variants: Type: Translate the Sentence; Answered: False/True
+- Question Word: size 45x27px, vertical layout, padding 0 0 0 0px, gap 3px, align min/center, sizing W:fixed H:fixed, text [Primary] | variants: New: False/True
+- Header: size 430x58px, horizontal layout, padding 0 16 0 16px, gap 8px, align min/max, sizing W:fixed H:fixed, text [Header] | variants: Padding: False/True
+- Word: size 74x46px, radius 13px, vertical layout, padding 0 0 2 0px, gap 8px, sizing W:fixed H:fixed, fill #E5E5E5, text [Primary] | variants: In Answer: False/True
+- Day Tracker (Components): size 30x58px, vertical layout, padding 0 0 0 0px, gap 9px, align min/center, sizing W:fixed H:fixed, text [Small Bold] | variants: State: Complete/Empty/Frozen
+- Bottom Nav: size 430x106px, horizontal layout, padding 8 16 50 16px, gap 31px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Button Text] | variants: Property 1: Action/Action Unavailable/Home/None/Success/Success With Translation
+- Context Bar (Components): size 430x54px, horizontal layout, padding 11 16 11 16px, gap 62px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [DIN 2014 Rounded VF Bold, 16px] | variants: State: Headline/Lesson/Map/Popup/Prize
+- Volume: size 12x19.5px | variants: Muted: False/True
+- Chests: size 36x33px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed | variants: Color: Bronze/Gold/Silver; Open: False/True
+- Bottom Nav Button: size 40x40px, radius 8px, fill #DDF4FF, stroke #63C9F9 2px | variants: Selected: False/True
+- Progress Bar: size 293x19px, radius 64px, fill #E5E5E5 | variants: Progress: 0%/100%/5%/50%/95%; With Text: False/True
+- Button: size 366x48px, radius 13px, fill #1899D6, text [Button Text] | variants: Type: Primary/Secondary; Active: False/True; Icon: False/True
+- Selected Language: size 86x96px, vertical layout, padding 0 0 0 0px, gap 3px, align min/center, sizing W:fixed H:fixed, text [Primary Title] | variants: Property 1: Selected/Unselected
+- Icons: size 22x22px | variants: Icon: Add Profile/Back/Bell/Check/Chest/Close/Duo Pro/Face/Flag/Gem/Heart/House/Invite/Lightning/Microphone/Monthly Challenge/More/Share/Shiny Gold Chest/Streak/Target/Timer/Trash/Trophy/Volume/Weights; Size: Large/Medium/Small/XS; Property 1: Default
+- Flag: size 71x54px, radius 11px, fill #FF4B4B | variants: Language: French/German/Math/Music/New/Spanish; Size: Big/Small/XS
+- Level: size 71x65px | variants: Property 1: Complete/Gold/Next/Selected/Unavailable
+- Level Icon: size 42x31.5px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed | variants: Property 1: Book/Headphones/Microphone/Star/Video/Weights; Available: False/True
+- Check: size 30x30px | variants: Property 1: Empty/Filled/Iced
+- Tasks: size 398x125px, horizontal layout, padding 18 18 18 18px, gap 21px, align space_between/center, sizing W:fixed H:fixed, text [Button Text, Goal Title] | variants: Completed: False/True; Placement: Bottom/Middle/Solo/Top
+- Start Tootltip: size 341x146px, vertical layout, padding 15 13 15 13px, gap 14px, align space_between/min, sizing W:fixed H:fixed, text [Button Text, Subtext, Goal Title]
+- Word Selection: size 430x97px, horizontal layout, padding 0 0 0 0px, gap 5px, align center/max, sizing W:fixed H:fixed, text [Primary]
+- Answer: size 399x167px, vertical layout, padding 0 0 0 0px, gap 1px, align min/max, sizing W:fixed H:fixed, text [Primary]
+- Divider: size 233x0px, fill #FFFFFF
+- Friend Streaks: size 395x133px, radius 14px, vertical layout, padding 16 15 28 15px, gap 12px, sizing W:fixed H:fixed, stroke #E5E5E5 2px, text [Goal Title]
+- Tooltip: size 430x2px
+- Day Tracker (Components): size 396x84px, horizontal layout, padding 15 51 11 51px, gap 14px, align min/center, sizing W:fixed H:fixed, text [Small Bold]
+- Special Task: size 414x102px, radius 10px, horizontal layout, padding 22 26 22 26px, gap 21px, align space_between/center, sizing W:fixed H:fixed, fill #FFE5F4, stroke #D84F9E 2px, text [Small Bold, Goal Title]
+- Header Counter: size 57x32px, horizontal layout, padding 0 0 0 0px, gap 8px, align min/center, sizing W:fixed H:fixed, text [DIN 2014 Rounded VF Bold, 16px]
+- Flag Selection: size 430x122px, horizontal layout, padding 13 16 13 16px, gap 19px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [Primary Title]
+- Section Header: size 398x79px, radius 13px, fill #A568CC, text [Button Text, Goal Title]
+- Phone: size 430x932px, radius 55px, fill #FFFFFF
+- Trip Icon: size 32x19.76px
+- Frame 143: size 4471x394px, vertical layout, padding 0 0 0 0px, gap 22px, sizing W:fixed H:fixed, text [DIN 2014 Rounded VF Regular, 110px, DIN 2014 Rounded VF Bold, 200px]
+- Frame 152: size 4675x932px, horizontal layout, padding 0 0 0 0px, gap 100px, align min/center, sizing W:fixed H:fixed, text [DIN 2014 Rounded VF Regular, 110px, DIN 2014 Rounded VF Bold, 200px]
+- user journey steps: size 1400x1391px, vertical layout, padding 0 0 0 0px, gap 22px, sizing W:fixed H:fixed, text [DIN 2014 Rounded VF Regular, 110px, DIN 2014 Rounded VF Bold, 200px]
+- Recorded Conversations: size 395x82px, radius 14px, horizontal layout, padding 16 15 16 15px, gap 12px, sizing W:fixed H:fixed, stroke #E5E5E5 2px, text [Subtext, Goal Title]
+- Translate Icon: size 34x28px, fill #FFFFFF, text [DIN 2014 Rounded VF Bold, 8px, DIN 2014 Rounded VF Bold, 7px, DIN 2014 Rounded VF Bold, 6px]
+- Context Bar (Design Challenge): size 430x54px, horizontal layout, padding 11 16 11 16px, gap 24px, align space_between/center, sizing W:fixed H:fixed, stroke #D9D9D9 1px, text [Primary Title]
+
+## Most-Used Styles
+- Primary: 357 uses
+- Label Color/Dark/Primary: 102 uses
+- Button Text: 87 uses
+- Title2 / Regular: 78 uses
+- Goal Title: 65 uses
+- Primary Bold: 60 uses
+- Small Bold: 54 uses
+- Primary Title: 52 uses
+- Header: 28 uses
+- Subtext: 28 uses
+- Subtext 2: 24 uses
+- Default/Regular/Callout: 12 uses
+- XS Bold: 10 uses
+- Body/Regular: 9 uses
+- Linked Text: 8 uses
+- Default/SystemGray/02/Dark: 6 uses
+- Header 1: 5 uses
+- Label Color/Light/Primary: 3 uses
+
+## Layout & Structure
+Screen: Cover / Cover
+- FRAME "Cover", 1920x1080px, constraints left/top, fill #58CC02
+  - TEXT "DuoLingo", 853x213px, constraints left/top, fill #FFFFFF, text [Feather Bold, 170px], [heading]
+  - FRAME "Bird Mask", 332x218px, constraints left/center [decorative, ~14 shapes]
+  - FRAME "Lesson Track", 430x932px, constraints left/top, radius 55px, fill #FFFFFF, effect [drop_shadow 80px offset 0 4 #00000040]
+    - RECTANGLE "IMG_0268 1", 195x223px, constraints left/top, fill image(hash: b159b2930eef08d98dbf7cca4c68f44db83b6fd3)
+    - INSTANCE "Context Bar", 430x54px, horizontal pad 11 16 11 16px gap 62px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "Header Counter", 57x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 32x32px, vertical pad 5 1 5 1px gap 8px align center/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #FF4B4B
+        - TEXT "14", 17x19px, constraints left/top, fill #4B4B4B, text [DIN 2014 Rounded VF Bold, 16px]
+      - INSTANCE "Header Counter", 57x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 32x33.05px, vertical pad 5 1 5 1px gap 8px align center/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 18.5x23.05px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 3", 18.5x23.05px, constraints left/top
+        - TEXT "14", 17x19px, constraints left/top, fill #FF9600, text [DIN 2014 Rounded VF Bold, 16px]
+      - INSTANCE "Header Counter", 66x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 32x32px, vertical pad 5 1 5 1px gap 8px align center/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 17x22px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 2", 17x22px, constraints left/top, radius 0/0/0/0px
+        - TEXT "14", 26x19px, constraints left/top, fill #1CB0F6, text [DIN 2014 Rounded VF Bold, 16px]
+      - INSTANCE "Header Counter", 49x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 32x29.75px, vertical pad 5 1 5 1px gap 8px align center/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 22.82x19.75px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 4", 22.82x19.75px, constraints left/top, radius 0/0/0/0px
+        - TEXT "14", 9x19px, constraints left/top, fill #FF4B4B, text [DIN 2014 Rounded VF Bold, 16px]
+    - INSTANCE "Section Header", 398x79px, constraints left/top, radius 13px, fill #A568CC
+      - FRAME "Frame 30", 398x75px, constraints scale/top_bottom, radius 13px, fill #CE82FF
+        - TEXT "Say where people are from", 236x23px, constraints center/center, fill #FFFFFF, text [Goal Title], [heading]
+        - TEXT "section 2, unit 10", 132x19px, constraints center/center, fill #EDD1FF, text [Button Text]
+        - INSTANCE "Icons", 22x22px, constraints right/center
+          - BOOLEAN_OPERATION "Subtract", 22x22px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 39", 0x76px, constraints left/top, stroke #A568CC 2px
+    - GROUP "Group 30", 212x637px, constraints left/top
+      - INSTANCE "Level", 71x65px, constraints left/top
+        - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #E6A000
+        - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #FFC800
+        - GROUP "Mask group", 58x48px, constraints left/top
+          - ELLIPSE "Ellipse 34", 58x48px, constraints left/top, fill #D9D9D9
+          - VECTOR "Vector 43", 77x61px, constraints left/top, fill #FFE700
+        - INSTANCE "Level Icon", 42x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 27", 42x40px, constraints left/top, radius 3px
+            - STAR "Star 1", 42x40px, constraints scale/scale, radius 3px, fill #AA572A
+      - INSTANCE "Level", 71x65px, constraints left/top
+        - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #A568CC
+        - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #CE82FF
+        - GROUP "Mask group", 58x48px, constraints left/top
+          - ELLIPSE "Ellipse 34", 58x48px, constraints left/top, fill #D9D9D9
+          - VECTOR "Vector 43", 77x61px, constraints left/top, fill #DAA0FF
+        - INSTANCE "Level Icon", 42x35.1px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 8", 42x35.1px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Level", 71x65px, constraints left/top
+        - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #A568CC
+        - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #CE82FF
+        - GROUP "Mask group", 58x48px, constraints left/top
+          - ELLIPSE "Ellipse 34", 58x48px, constraints left/top, fill #D9D9D9
+          - VECTOR "Vector 43", 77x61px, constraints left/top, fill #DAA0FF
+        - INSTANCE "Level Icon", 36x31px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 26", 36x31px, constraints left/top [decorative, ~7 shapes]
+      - INSTANCE "Level", 71x65px, constraints left/top
+        - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #A568CC
+        - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #CE82FF
+        - INSTANCE "Level Icon", 42x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 27", 42x40px, constraints left/top, radius 3px
+            - STAR "Star 1", 42x40px, constraints scale/scale, radius 3px, fill #FFFFFF
+      - INSTANCE "Level", 71x65px, constraints left/top
+        - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #B7B7B7
+        - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #E5E5E5
+        - INSTANCE "Level Icon", 32x26px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - FRAME "Frame 48", 32x26px, constraints left/top
+            - GROUP "Group 28", 39x26px, constraints left/top, radius 0/0/0/0px
+      - INSTANCE "Level", 71x65px, constraints left/top
+        - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #B7B7B7
+        - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #E5E5E5
+        - INSTANCE "Level Icon", 21x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 29", 21x32px, constraints left/top, radius 0/0/0/0px
+            - RECTANGLE "Rectangle 26", 15x22px, constraints left/top, radius 100px, fill #AFAFAF
+            - VECTOR "Ellipse 38", 21x18.5px, constraints left/top, stroke #AFAFAF 3px
+      - INSTANCE "Level", 71x65px, constraints left/top
+        - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #B7B7B7
+        - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #E5E5E5
+        - INSTANCE "Level Icon", 42x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 27", 42x40px, constraints left/top, radius 3px
+            - STAR "Star 1", 42x40px, constraints left/top, radius 3px, fill #B7B7B7
+      - INSTANCE "Level", 71x65px, constraints left/top
+        - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #B7B7B7
+        - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #E5E5E5
+        - INSTANCE "Level Icon", 42x31.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 25", 42x31.5px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - INSTANCE "Bottom Nav", 430x94px, horizontal pad 16 16 38 16px gap 31px align space_between/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF, stroke #E5E5E5 1px
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px, fill #DDF4FF, stroke #63C9F9 2px
+        - INSTANCE "Icons", 29x26px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 6", 29x26px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 28x26.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 7", 28x26.5px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 36.5x30.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 8", 36.5x30.5px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 25.05x27px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 5", 25.05x27px, constraints left/top [decorative, ~5 shapes]
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 32.72x29.05px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - BOOLEAN_OPERATION "Union", 32.72x29.05px, constraints left/top, fill gradient_linear(#5AD3AE 0% | #2F6CFF 48% | #A239FA 84%)
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 29x29px, vertical pad 13 6 13 6px gap 8px sizing W:fixed H:fixed, constraints center/center, radius 100px, fill #CE82FF
+          - GROUP "Group 9", 16.5x3px, constraints left/top
+            - ELLIPSE "Ellipse 12", 3x3px, constraints center/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 13", 3x3px, constraints center/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 14", 3x3px, constraints center/top, fill #FFFFFF
+    - FRAME "Start Tooltip", 80x42px, constraints left/top, radius 11px
+      - VECTOR "Rectangle 27", 80x51px, constraints left_right/top_bottom, radius 11/11/11/11px, fill #FFFFFF, stroke #E5E5E5 2px
+      - TEXT "Start", 48x20px, constraints center/center, fill #CE82FF, text [Linked Text]
+    - RECTANGLE "IMG_0281 1", 193x234px, constraints left/top, fill image(hash: 568a5deb62752ecdcca417a30757a6d6d31e14d8)
+    - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+    - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+  - TEXT "File created by John Welch", 604x60px, constraints left/top, fill #FFFFFF, text [DIN 2014 Rounded VF Regular, 50px], [heading]
+
+Screen: Cover / Instructions
+- FRAME "Instructions", 1920x1080px, constraints left/top, fill #58CC02
+  - TEXT "Instructions", 1091x213px, constraints left/top, fill #FFFFFF, text [Feather Bold, 170px], [heading]
+  - FRAME "Frame 1", 1185x571px, vertical pad 0 0 0 0px gap 31px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Fonts Required: Din Rounded VF Feather Bold", 428x180px, constraints left/top, fill #FFFFFF, text [DIN 2014 Rounded VF Bold, 50px], [heading]
+    - TEXT "What’s in the file For an interview with DuoLingo, they aske", 1185x360px, constraints left/top, fill #FFFFFF, text [DIN 2014 Rounded VF Bold, 50px], [heading]
+  - FRAME "Profile", 430x932px, constraints left/top, radius 55px, fill #FFFFFF, effect [drop_shadow 80px offset 0 4 #00000040]
+    - FRAME "Frame 78", 430x193px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 77", 430x58px, vertical pad 0 16 0 16px gap 5px sizing W:fill H:fixed, constraints left/top
+        - TEXT "John Welch", 398x31px, constraints left/top, fill #4B4B4B, text [Header], [heading]
+        - TEXT "@johntheside • Joined December 2020", 398x22px, constraints left/top, fill #777777, text [Subtext]
+      - FRAME "Frame 75", 430x47px, horizontal pad 0 16 0 16px gap 24px sizing W:fill H:fixed, constraints left/top
+        - FRAME "Frame 74", 64x47px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 76", 64x23px, horizontal pad 1 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Flag", 29x22px, constraints left/top, radius 7px, stroke #D9D9D9 1px
+          - TEXT "Courses", 61x22px, constraints left/top, fill #777777, text [Subtext]
+        - INSTANCE "Divider", 0x47px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 38", 0x47px, constraints scale/scale, stroke #D9D9D9 2px
+        - FRAME "Frame 72", 72x47px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "11", 72x23px, constraints left/top, fill #4B4B4B, text [Goal Title], [heading]
+          - TEXT "Following", 72x22px, constraints left/top, fill #777777, text [Subtext]
+        - INSTANCE "Divider", 0x47px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector 38", 0x47px, constraints scale/scale, stroke #D9D9D9 2px
+        - FRAME "Frame 73", 73x47px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+          - TEXT "9", 73x23px, constraints left/top, fill #4B4B4B, text [Goal Title], [heading]
+          - TEXT "Followers", 73x22px, constraints left/top, fill #777777, text [Subtext]
+      - FRAME "Frame 71", 399x48px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Button", 336x48px, constraints left/top, radius 13px, fill #E5E5E5
+          - FRAME "Frame 30", 335x43px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+            - INSTANCE "Icons", 23x19px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Button", 46x19px, constraints left/top, fill #1CB0F6, text [Button Text]
+        - INSTANCE "Button", 47x48px, constraints left/top, radius 11/11/13/13px, fill #E5E5E5
+          - FRAME "Frame 30", 46x46.5px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+            - INSTANCE "Icons", 18x22.5px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Header", 430x31px, horizontal pad 0 16 0 16px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Translate this sentence", 398x31px, constraints left/top, fill #4B4B4B, text [Header], [heading]
+    - FRAME "Frame 83", 394x301px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Component 1", 189x68px, horizontal pad 14 15 11 15px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+        - INSTANCE "Icons", 15x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 3", 15x19px, constraints left/top
+            - VECTOR "Vector 3", 15x19px, constraints scale/scale, fill #FF9600
+            - VECTOR "Vector 4", 7x8px, constraints scale/scale, fill #FFC800
+        - FRAME "Frame 72", 136x43px, vertical pad 1 0 1 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - TEXT "12", 136x19px, constraints left/top, fill #4B4B4B, text [Small Bold]
+          - TEXT "Day streak", 136x19px, constraints left/top, fill #AFAFAF, text [Subtext 2]
+      - INSTANCE "Component 1", 189x68px, horizontal pad 14 15 11 15px gap 7px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+        - INSTANCE "Icons", 15.5x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 10", 15.5x20px, constraints left/top, radius 0/0/0/0px
+            - VECTOR "Vector 25 (Stroke)", 15.5x20px, constraints left/top, fill #FFD900
+            - VECTOR "Vector 26", 4x3px, constraints left/top, radius 0/0/0/0px, fill #F7C100, stroke #000000 0px
+            - VECTOR "Vector 27", 4.37x2.83px, constraints left/top, radius 0/0/0/0px, fill #FFEF8F, stroke #000000 0px
+        - FRAME "Frame 72", 136.5x43px, vertical pad 1 0 1 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - TEXT "9770", 136.5x19px, constraints left/top, fill #4B4B4B, text [Small Bold]
+          - TEXT "Total XP", 136.5x19px, constraints left/top, fill #AFAFAF, text [Subtext 2]
+      - INSTANCE "Component 1", 189x68px, horizontal pad 14 15 11 15px gap 9px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+        - INSTANCE "Icons", 14x21px, horizontal pad 3 0 3 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 5", 14x15px, constraints left/top [decorative, ~5 shapes]
+        - FRAME "Frame 72", 136x43px, vertical pad 1 0 1 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - TEXT "Gold", 136x19px, constraints left/top, fill #4B4B4B, text [Small Bold]
+          - TEXT "League", 136x19px, constraints left/top, fill #AFAFAF, text [Subtext 2]
+      - INSTANCE "Component 1", 189x68px, horizontal pad 14 15 11 14px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+        - INSTANCE "Icons", 16x20px, vertical pad 4 0 4 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Flag", 16x12px, constraints left/top, radius 2px, fill #FF4B4B
+            - RECTANGLE "Rectangle 7", 5.86x12px, constraints scale/scale, fill #1CB0F6
+            - RECTANGLE "Rectangle 6", 5.86x12px, constraints scale/scale, fill #E5E5E5
+        - FRAME "Frame 72", 136x43px, vertical pad 1 0 1 0px gap 3px sizing W:fill H:fixed, constraints left/top
+          - TEXT "14", 136x19px, constraints left/top, fill #4B4B4B, text [Small Bold]
+          - TEXT "French Score", 136x19px, constraints left/top, fill #AFAFAF, text [Subtext 2]
+      - INSTANCE "Friend Streaks", 395x133px, vertical pad 16 15 28 15px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+        - TEXT "Friend Streaks", 365x23px, constraints left/top, fill #4B4B4B, text [Goal Title], [heading]
+        - FRAME "Frame 84", 365x54px, horizontal pad 0 0 0 0px gap 32px align space_between/center sizing W:fill H:fixed, constraints left/top
+          - FRAME "Icons", 50x54px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 34", 50x54px, constraints left/top
+          - INSTANCE "Icons", 40x40px, constraints left/top
+            - GROUP "Group 33", 40x40px, constraints left/top
+          - INSTANCE "Icons", 40x40px, constraints left/top
+            - GROUP "Group 33", 40x40px, constraints left/top
+          - INSTANCE "Icons", 40x40px, constraints left/top
+            - GROUP "Group 33", 40x40px, constraints left/top
+          - INSTANCE "Icons", 40x40px, constraints left/top
+            - GROUP "Group 33", 40x40px, constraints left/top
+    - INSTANCE "Bottom Nav", 430x94px, horizontal pad 16 16 38 16px gap 31px align space_between/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF, stroke #E5E5E5 1px
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 29x26px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 6", 29x26px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 28x26.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 7", 28x26.5px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 36.5x30.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 8", 36.5x30.5px, constraints left/top [decorative, ~4 shapes]
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 25.05x27px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+          - GROUP "Group 5", 25.05x27px, constraints left/top [decorative, ~5 shapes]
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 32.72x29.05px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+          - BOOLEAN_OPERATION "Union", 32.72x29.05px, constraints left/top, fill gradient_linear(#5AD3AE 0% | #2F6CFF 48% | #A239FA 84%)
+      - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+        - INSTANCE "Icons", 29x29px, vertical pad 13 6 13 6px gap 8px sizing W:fixed H:fixed, constraints center/center, radius 100px, fill #CE82FF
+          - GROUP "Group 9", 16.5x3px, constraints left/top
+            - ELLIPSE "Ellipse 12", 3x3px, constraints center/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 13", 3x3px, constraints center/top, fill #FFFFFF
+            - ELLIPSE "Ellipse 14", 3x3px, constraints center/top, fill #FFFFFF
+    - FRAME "Profile Photo", 430x241px, constraints left/top, fill #5AEAB1
+      - RECTANGLE "IMG_0270 1", 430x195px, constraints left/top, fill image(hash: 38db849ec9c770cfc445d7ba0c5e5bdd8e190b21)
+    - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+    - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+
+Screen: Components / Components
+- SECTION "Components", 3700x5816px, fill #444444, stroke #FFFFFF1A 1px
+  - COMPONENT "Phone", 430x932px, constraints left/top, radius 55px, fill #FFFFFF
+    - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+    - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+  - COMPONENT "Section Header", 398x79px, constraints left/top, radius 13px, fill #A568CC
+    - FRAME "Frame 30", 398x75px, constraints scale/top_bottom, radius 13px, fill #CE82FF
+      - TEXT "Say where people are from", 236x23px, constraints center/center, fill #FFFFFF, text [Goal Title], [heading]
+      - TEXT "section 2, unit 10", 132x19px, constraints center/center, fill #EDD1FF, text [Button Text]
+      - INSTANCE "Icons", 22x22px, constraints right/center
+        - BOOLEAN_OPERATION "Subtract", 22x22px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector 39", 0x76px, constraints left/top, stroke #A568CC 2px
+  - COMPONENT "Flag Selection", 430x122px, horizontal pad 13 16 13 16px gap 19px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+    - INSTANCE "Selected Language", 86x96px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 4", 83x67px, constraints left/top, radius 15px, stroke #1CB0F6 3px
+        - INSTANCE "Flag", 71x54px, constraints center/center, radius 11px, fill #FF4B4B
+          - RECTANGLE "Rectangle 7", 26x54px, constraints scale/scale, fill #1CB0F6
+          - RECTANGLE "Rectangle 6", 26x54px, constraints scale/scale, fill #E5E5E5
+      - TEXT "French", 86x26px, constraints left/top, fill #4B4B4B, text [Primary Title], [heading]
+    - INSTANCE "Selected Language", 86x96px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 4", 83x67px, constraints left/top, radius 15px
+        - INSTANCE "Flag", 71x54px, constraints center/center, radius 11px, fill #FF4B4B
+          - RECTANGLE "Rectangle 6", 71x24.55px, constraints scale/scale, fill #FFC800
+          - RECTANGLE "Rectangle 7", 4.9x9.82px, constraints scale/scale, radius 6px, fill #FFFFFF
+          - RECTANGLE "Rectangle 8", 4.9x9.82px, constraints scale/scale, radius 6px, fill #FFFFFF
+          - RECTANGLE "Rectangle 9", 9.79x14.73px, constraints scale/scale, radius 2/2/20/20px, fill #FF4B4B
+      - TEXT "Spanish", 86x26px, constraints left/top, fill #4B4B4B, text [Primary Title], [heading]
+    - INSTANCE "Selected Language", 86x96px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 4", 83x67px, constraints left/top, radius 15px
+        - INSTANCE "Flag", 71x54px, constraints center/center, radius 11px, fill #4B4B4B
+          - RECTANGLE "Rectangle 6", 71x18px, constraints scale/center, fill #FF4B4B
+          - RECTANGLE "Rectangle 7", 71x18px, constraints scale/center, fill #FFC800
+      - TEXT "Spanish", 86x26px, constraints left/top, fill #4B4B4B, text [Primary Title], [heading]
+    - INSTANCE "Selected Language", 86x96px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 4", 83x67px, constraints left/top, radius 15px
+        - INSTANCE "Flag", 71x54px, constraints center/center, radius 11px, stroke #777777 3px
+          - VECTOR "Vector 54", 18x17.5px, constraints center/center, stroke #777777 3px
+      - TEXT "Spanish", 86x26px, constraints left/top, fill #AFAFAF, text [Primary Title], [heading]
+  - COMPONENT "Header Counter", 57x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 11", 32x32px, vertical pad 5 1 5 1px gap 8px align center/max sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #FF4B4B
+          - RECTANGLE "Rectangle 7", 10.62x22px, constraints scale/scale, fill #1CB0F6
+          - RECTANGLE "Rectangle 6", 10.62x22px, constraints scale/scale, fill #E5E5E5
+    - TEXT "14", 17x19px, constraints left/top, fill #4B4B4B, text [DIN 2014 Rounded VF Bold, 16px]
+  - BOOLEAN_OPERATION "Subtract", 296.66x255.06px, constraints left/top, fill #D9D9D9
+  - COMPONENT_SET "Tasks", 957x544px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Completed=False, Placement=Solo", 398x125px, horizontal pad 18 18 18 18px gap 21px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 37", 40x37px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icons", 40x37px, constraints left/top
+          - GROUP "Group 13", 40x37px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+      - FRAME "Frame 36", 299x89px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Score 90% or higher in 5 lessons", 263x46px, constraints left/top, fill #4B4B4B, text [Goal Title], [heading]
+        - FRAME "Frame 35", 299x43px, constraints left/top
+          - INSTANCE "Progress Bar", 269x19px, constraints left_right/top, radius 64px, fill #E5E5E5
+            - FRAME "Frame 24", 141.39x28px, constraints scale/top, fill #FFC800
+            - TEXT "10 / 20", 49x19px, constraints center/top, fill #AFAFAF, stroke #E5E5E5 2px, text [Button Text]
+          - INSTANCE "Icons", 36x43px, vertical pad 5 0 5 0px gap 8px align max/min sizing W:fixed H:fixed, constraints right/bottom
+            - INSTANCE "Chests", 36x33px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT "Completed=True, Placement=Solo", 414x110px, horizontal pad 22 26 22 26px gap 21px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #E8F7FE, stroke #1CB0F6 2px
+      - GROUP "Group 23", 242.5x108.5px, constraints center/top
+        - VECTOR "Vector 36", 108.5x108.5px, constraints left/top_bottom, fill #F8FCFF
+        - VECTOR "Vector 37", 178.5x108.5px, constraints left/top_bottom, fill #F8FCFF
+      - FRAME "Frame 37", 40x43.6px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icons", 35x43.6px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 16", 35x43.6px, constraints left/top
+            - VECTOR "Vector 3", 35x43.6px, constraints scale/scale, fill #FF9600
+            - VECTOR "Vector 4", 14.48x18.81px, constraints scale/scale, fill #FFC800
+      - FRAME "Frame 36", 299x66px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Extend your streak", 263x23px, constraints left/top, fill #1CB0F6, text [Goal Title], [heading]
+        - FRAME "Frame 35", 299x43px, constraints left/top
+          - INSTANCE "Progress Bar", 269x19px, constraints left_right/top, radius 64px, fill #E5E5E5
+            - FRAME "Frame 24", 273.59x28px, constraints scale/top, fill #FFC800
+            - TEXT "20 / 20", 32x19px, constraints center/top, fill #AA572A, stroke #FFC800 2px, text [Button Text]
+          - INSTANCE "Icons", 47x62.23px, vertical pad 5 0 5 0px gap 8px align max/min sizing W:fixed H:fixed, constraints right/bottom
+            - INSTANCE "Chests", 47x52.23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 28x35.24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/bottom
+            - GROUP "Group 2", 28x35.24px, constraints left/top, radius 0/0/0/0px
+    - COMPONENT "Completed=True, Placement=Top", 414x110px, horizontal pad 22 26 22 26px gap 21px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 10/10/0/0px, fill #E8F7FE, stroke #1CB0F6 2px
+      - GROUP "Group 23", 242.5x108.5px, constraints center/top
+        - VECTOR "Vector 36", 108.5x108.5px, constraints left/top_bottom, fill #F8FCFF
+        - VECTOR "Vector 37", 178.5x108.5px, constraints left/top_bottom, fill #F8FCFF
+      - FRAME "Frame 37", 40x43.6px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icons", 35x43.6px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 16", 35x43.6px, constraints left/top
+            - VECTOR "Vector 3", 35x43.6px, constraints scale/scale, fill #FF9600
+            - VECTOR "Vector 4", 14.48x18.81px, constraints scale/scale, fill #FFC800
+      - FRAME "Frame 36", 299x66px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Extend your streak", 263x23px, constraints left/top, fill #1CB0F6, text [Goal Title], [heading]
+        - FRAME "Frame 35", 299x43px, constraints left/top
+          - INSTANCE "Progress Bar", 269x19px, constraints left_right/top, radius 64px, fill #E5E5E5
+            - FRAME "Frame 24", 273.59x28px, constraints scale/top, fill #FFC800
+            - TEXT "20 / 20", 32x19px, constraints center/top, fill #AA572A, stroke #FFC800 2px, text [Button Text]
+          - INSTANCE "Icons", 47x62.23px, vertical pad 5 0 5 0px gap 8px align max/min sizing W:fixed H:fixed, constraints right/bottom
+            - INSTANCE "Chests", 47x52.23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 28x35.24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/bottom
+            - GROUP "Group 2", 28x35.24px, constraints left/top, radius 0/0/0/0px
+    - COMPONENT "Completed=True, Placement=Middle", 414x110px, horizontal pad 22 26 22 26px gap 21px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #E8F7FE, stroke #1CB0F6 2px
+      - GROUP "Group 23", 242.5x108.5px, constraints center/top
+        - VECTOR "Vector 36", 108.5x108.5px, constraints left/top_bottom, fill #F8FCFF
+        - VECTOR "Vector 37", 178.5x108.5px, constraints left/top_bottom, fill #F8FCFF
+      - FRAME "Frame 37", 40x43.6px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icons", 35x43.6px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 16", 35x43.6px, constraints left/top
+            - VECTOR "Vector 3", 35x43.6px, constraints scale/scale, fill #FF9600
+            - VECTOR "Vector 4", 14.48x18.81px, constraints scale/scale, fill #FFC800
+      - FRAME "Frame 36", 299x66px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Extend your streak", 263x23px, constraints left/top, fill #1CB0F6, text [Goal Title], [heading]
+        - FRAME "Frame 35", 299x43px, constraints left/top
+          - INSTANCE "Progress Bar", 269x19px, constraints left_right/top, radius 64px, fill #E5E5E5
+            - FRAME "Frame 24", 273.59x28px, constraints scale/top, fill #FFC800
+            - TEXT "20 / 20", 32x19px, constraints center/top, fill #AA572A, stroke #FFC800 2px, text [Button Text]
+          - INSTANCE "Icons", 47x62.23px, vertical pad 5 0 5 0px gap 8px align max/min sizing W:fixed H:fixed, constraints right/bottom
+            - INSTANCE "Chests", 47x52.23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 28x35.24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/bottom
+            - GROUP "Group 2", 28x35.24px, constraints left/top, radius 0/0/0/0px
+    - COMPONENT "Completed=True, Placement=Bottom", 414x110px, horizontal pad 22 26 22 26px gap 21px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 0/0/10/10px, fill #E8F7FE, stroke #1CB0F6 2px
+      - GROUP "Group 23", 242.5x108.5px, constraints center/top
+        - VECTOR "Vector 36", 108.5x108.5px, constraints left/top_bottom, fill #F8FCFF
+        - VECTOR "Vector 37", 178.5x108.5px, constraints left/top_bottom, fill #F8FCFF
+      - FRAME "Frame 37", 40x43.6px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Icons", 35x43.6px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 16", 35x43.6px, constraints left/top
+            - VECTOR "Vector 3", 35x43.6px, constraints scale/scale, fill #FF9600
+            - VECTOR "Vector 4", 14.48x18.81px, constraints scale/scale, fill #FFC800
+      - FRAME "Frame 36", 299x66px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Extend your streak", 263x23px, constraints left/top, fill #1CB0F6, text [Goal Title], [heading]
+        - FRAME "Frame 35", 299x43px, constraints left/top
+          - INSTANCE "Progress Bar", 269x19px, constraints left_right/top, radius 64px, fill #E5E5E5
+            - FRAME "Frame 24", 273.59x28px, constraints scale/top, fill #FFC800
+            - TEXT "20 / 20", 32x19px, constraints center/top, fill #AA572A, stroke #FFC800 2px, text [Button Text]
+          - INSTANCE "Icons", 47x62.23px, vertical pad 5 0 5 0px gap 8px align max/min sizing W:fixed H:fixed, constraints right/bottom
+            - INSTANCE "Chests", 47x52.23px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 28x35.24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints right/bottom
+            - GROUP "Group 2", 28x35.24px, constraints left/top, radius 0/0/0/0px
+  - COMPONENT "Special Task", 414x102px, horizontal pad 22 26 22 26px gap 21px align space_between/center sizing W:fixed H:fixed, constraints left/top, radius 10px, fill #FFE5F4, stroke #D84F9E 2px
+    - GROUP "Group 23", 218.5x108.5px, constraints center/top
+      - VECTOR "Vector 37", 218.5x108.5px, constraints left/top_bottom, fill #FFF2F9
+    - FRAME "Frame 37", 40x47px, vertical pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Icons", 48x47px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Monthly Challenge", 48x47px, constraints left/top [decorative, ~5 shapes]
+    - FRAME "Frame 36", 299x58px, vertical pad 2 0 2 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 39", 299x23px, horizontal pad 0 0 0 0px gap 0px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - TEXT "December Challenge", 181x23px, constraints left/top, fill #D84F9E, text [Goal Title], [heading]
+        - TEXT "5 / 25", 41x19px, constraints left/top, fill #D84F9E, text [Small Bold]
+      - FRAME "Frame 35", 299x27px, horizontal pad 4 0 4 0px gap 3px align min/center sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Icons", 14x14px, constraints left/top
+          - ELLIPSE "Ellipse 15", 14x14px, constraints scale/scale, stroke #AFAFAF 2px
+          - GROUP "Group 11", 4.5x4.7px, constraints scale/scale
+            - ELLIPSE "Ellipse 17", 4x4px, constraints scale/scale, fill #AFAFAF, stroke #AFAFAF 1px
+            - VECTOR "Vector 28", 2.5x2.5px, constraints scale/scale, stroke #AFAFAF 2px
+        - TEXT "10 days", 51x19px, constraints left/top, fill #AFAFAF, text [Small Bold]
+  - COMPONENT "Day Tracker", 396x84px, horizontal pad 15 51 11 51px gap 14px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Day Tracker", 30x58px, vertical pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Fr", 30x19px, constraints left/top, fill #FF9600, text [Small Bold]
+      - INSTANCE "Icons", 30x30px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Check", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 23", 30x30px, constraints left/top, fill #FF9600
+          - VECTOR "Vector 34", 10.5x7.5px, constraints left/top, stroke #FFFFFF 3px
+    - INSTANCE "Day Tracker", 30x58px, vertical pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Fr", 30x19px, constraints left/top, fill #FF9600, text [Small Bold]
+      - INSTANCE "Icons", 30x30px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Check", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 23", 30x30px, constraints left/top, fill #FF9600
+          - VECTOR "Vector 34", 10.5x7.5px, constraints left/top, stroke #FFFFFF 3px
+    - INSTANCE "Day Tracker", 30x58px, vertical pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Fr", 30x19px, constraints left/top, fill #FF9600, text [Small Bold]
+      - INSTANCE "Icons", 30x30px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Check", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 23", 30x30px, constraints left/top, fill #FF9600
+          - VECTOR "Vector 34", 10.5x7.5px, constraints left/top, stroke #FFFFFF 3px
+    - INSTANCE "Day Tracker", 30x58px, vertical pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Fr", 30x19px, constraints left/top, fill #AFAFAF, text [Small Bold]
+      - INSTANCE "Icons", 30x30px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Check", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 23", 28x28px, constraints left/top, fill #63C9F9
+          - VECTOR "Vector 35", 25x16px, constraints left/top, radius 0/0/0/0px, fill #63C9F9
+          - ELLIPSE "Ellipse 24", 22x22px, constraints left/top, fill #1CB0F6
+          - VECTOR "Vector 34", 10x7px, constraints left/top, stroke #FFFFFF 3px
+          - ELLIPSE "Ellipse 25", 31.88x31.88px, constraints left/top, fill #FFFFFF40
+    - INSTANCE "Day Tracker", 30x58px, vertical pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Fr", 30x19px, constraints left/top, fill #FF9600, text [Small Bold]
+      - INSTANCE "Icons", 30x30px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Check", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 23", 30x30px, constraints left/top, fill #FF9600
+          - VECTOR "Vector 34", 10.5x7.5px, constraints left/top, stroke #FFFFFF 3px
+    - INSTANCE "Day Tracker", 30x58px, vertical pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Fr", 30x19px, constraints left/top, fill #AFAFAF, text [Small Bold]
+      - INSTANCE "Icons", 30x30px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Check", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 23", 28x28px, constraints left/top, fill #E5E5E5
+    - INSTANCE "Day Tracker", 30x58px, vertical pad 0 0 0 0px gap 9px align min/center sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Fr", 30x19px, constraints left/top, fill #AFAFAF, text [Small Bold]
+      - INSTANCE "Icons", 30x30px, vertical pad 0 0 0 0px gap 8px sizing W:fill H:fixed, constraints left/top
+        - INSTANCE "Check", 30x30px, constraints left/top
+          - ELLIPSE "Ellipse 23", 28x28px, constraints left/top, fill #E5E5E5
+  - COMPONENT_SET "Check", 150x62px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Filled", 30x30px, constraints left/top
+      - ELLIPSE "Ellipse 23", 30x30px, constraints left/top, fill #FF9600
+      - VECTOR "Vector 34", 10.5x7.5px, constraints left/top, stroke #FFFFFF 3px
+    - COMPONENT "Property 1=Empty", 30x30px, constraints left/top
+      - ELLIPSE "Ellipse 23", 28x28px, constraints left/top, fill #E5E5E5
+    - COMPONENT "Property 1=Iced", 30x30px, constraints left/top
+      - ELLIPSE "Ellipse 23", 28x28px, constraints left/top, fill #63C9F9
+      - VECTOR "Vector 35", 25x16px, constraints left/top, radius 0/0/0/0px, fill #63C9F9
+      - ELLIPSE "Ellipse 24", 22x22px, constraints left/top, fill #1CB0F6
+      - VECTOR "Vector 34", 10x7px, constraints left/top, stroke #FFFFFF 3px
+      - ELLIPSE "Ellipse 25", 31.88x31.88px, constraints left/top, fill #FFFFFF40
+  - COMPONENT_SET "Level Icon", 129x248px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Book, Available=True", 42x31.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 25", 42x31.5px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - COMPONENT "Property 1=Headphones, Available=True", 36x31px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 26", 36x31px, constraints left/top [decorative, ~7 shapes]
+    - COMPONENT "Property 1=Star, Available=True", 42x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 27", 42x40px, constraints left/top, radius 3px
+        - STAR "Star 1", 42x40px, constraints scale/scale, radius 3px, fill #FFFFFF
+    - COMPONENT "Property 1=Video, Available=True", 33x26px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 47", 33x26px, constraints left/top
+        - GROUP "Group 28", 39x26px, constraints left/top, radius 0/0/0/0px
+          - REGULAR_POLYGON "Polygon 4", 24x22px, constraints scale/scale, radius 2px, fill #A568CC
+          - RECTANGLE "Rectangle 25", 24x23px, constraints scale/scale, radius 5px, fill #A568CC
+          - REGULAR_POLYGON "Polygon 3", 24x22px, constraints scale/scale, radius 2px, fill #FFFFFF
+          - GROUP "Mask group", 24x22px, constraints scale/scale, radius 0/0/0/0px
+            - REGULAR_POLYGON "Polygon 4", 24x22px, constraints scale/scale, radius 2px, fill #FFFFFF
+            - RECTANGLE "Rectangle 25", 6x16px, constraints scale/scale, fill #DBC3EB
+          - RECTANGLE "Rectangle 24", 24x23px, constraints scale/scale, radius 5px, fill #FFFFFF
+    - COMPONENT "Property 1=Microphone, Available=True", 21x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 29", 21x32px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 26", 15x22px, constraints scale/scale, radius 100px, fill #FFFFFF
+        - VECTOR "Ellipse 38", 21x18.5px, constraints scale/scale, stroke #FFFFFF 3px
+    - COMPONENT "Property 1=Weights, Available=True", 42x35.1px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 8", 42x35.1px, constraints left/top [decorative, ~4 shapes]
+    - COMPONENT "Property 1=Book, Available=False", 42x31.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 25", 42x31.5px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - COMPONENT "Property 1=Headphones, Available=False", 36x31px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 26", 36x31px, constraints left/top [decorative, ~7 shapes]
+    - COMPONENT "Property 1=Star, Available=False", 42x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 27", 42x40px, constraints left/top, radius 3px
+        - STAR "Star 1", 42x40px, constraints left/top, radius 3px, fill #B7B7B7
+    - COMPONENT "Property 1=Video, Available=False", 32x26px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 48", 32x26px, constraints left/top
+        - GROUP "Group 28", 39x26px, constraints left/top, radius 0/0/0/0px
+          - REGULAR_POLYGON "Polygon 4", 24x22px, constraints left/top, radius 2px, fill #AFAFAF
+          - RECTANGLE "Rectangle 25", 24x23px, constraints left/top, radius 5px, fill #AFAFAF
+          - REGULAR_POLYGON "Polygon 3", 24x22px, constraints left/top, radius 2px, fill #D9D9D9
+          - GROUP "Mask group", 24x22px, constraints left/top, radius 0/0/0/0px
+            - REGULAR_POLYGON "Polygon 4", 24x22px, constraints left/top, radius 2px, fill #FFFFFF
+            - RECTANGLE "Rectangle 25", 6x16px, constraints left/top, fill #B7B7B7
+          - RECTANGLE "Rectangle 24", 24x23px, constraints left/top, radius 5px, fill #D9D9D9
+    - COMPONENT "Property 1=Microphone, Available=False", 21x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 29", 21x32px, constraints left/top, radius 0/0/0/0px
+        - RECTANGLE "Rectangle 26", 15x22px, constraints left/top, radius 100px, fill #AFAFAF
+        - VECTOR "Ellipse 38", 21x18.5px, constraints left/top, stroke #AFAFAF 3px
+    - COMPONENT "Property 1=Weights, Available=False", 42x35.1px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+      - GROUP "Group 8", 42x35.1px, constraints left/top [decorative, ~4 shapes]
+  - COMPONENT_SET "Level", 103x422px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Property 1=Complete", 71x65px, constraints left/top
+      - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #A568CC
+      - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #CE82FF
+      - GROUP "Mask group", 58x48px, constraints left/top
+        - ELLIPSE "Ellipse 34", 58x48px, constraints left/top, fill #D9D9D9
+        - VECTOR "Vector 43", 77x61px, constraints left/top, fill #DAA0FF
+      - INSTANCE "Level Icon", 42x31.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+        - GROUP "Group 25", 42x31.5px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - COMPONENT "Property 1=Gold", 71x65px, constraints left/top
+      - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #E6A000
+      - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #FFC800
+      - GROUP "Mask group", 58x48px, constraints left/top
+        - ELLIPSE "Ellipse 34", 58x48px, constraints left/top, fill #D9D9D9
+        - VECTOR "Vector 43", 77x61px, constraints left/top, fill #FFE700
+      - INSTANCE "Level Icon", 42x40px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 27", 42x40px, constraints left/top, radius 3px
+          - STAR "Star 1", 42x40px, constraints scale/scale, radius 3px, fill #AA572A
+    - COMPONENT "Property 1=Next", 71x65px, constraints left/top
+      - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #A568CC
+      - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #CE82FF
+      - INSTANCE "Level Icon", 42x31.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+        - GROUP "Group 25", 42x31.5px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - COMPONENT "Property 1=Unavailable", 71x65px, constraints left/top
+      - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #B7B7B7
+      - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #E5E5E5
+      - INSTANCE "Level Icon", 42x31.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+        - GROUP "Group 25", 42x31.5px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - COMPONENT "Property 1=Selected", 71x65px, constraints left/top
+      - INSTANCE "Progress Ring", 89x84px, constraints left/top, fill #FFFFFF
+        - ELLIPSE "Ellipse 39", 89x84px, constraints scale/scale, stroke #E5E5E5 6px
+        - VECTOR "Ellipse 40", 42.15x27.31px, constraints scale/scale, stroke #CE82FF 6px
+      - ELLIPSE "Ellipse 33", 71x58px, constraints left/top, fill #A568CC
+      - ELLIPSE "Ellipse 32", 71x58px, constraints left/top, fill #CE82FF
+      - INSTANCE "Level Icon", 42x31.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+        - GROUP "Group 25", 42x31.5px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+  - COMPONENT_SET "Flag", 686x196px, constraints left/top, radius 5px, stroke #9747FF 1px
+    - COMPONENT "Language=Spanish, Size=Big", 71x54px, constraints left/top, radius 11px, fill #FF4B4B
+      - RECTANGLE "Rectangle 6", 71x24.55px, constraints scale/scale, fill #FFC800
+      - RECTANGLE "Rectangle 7", 4.9x9.82px, constraints scale/scale, radius 6px, fill #FFFFFF
+      - RECTANGLE "Rectangle 8", 4.9x9.82px, constraints scale/scale, radius 6px, fill #FFFFFF
+      - RECTANGLE "Rectangle 9", 9.79x14.73px, constraints scale/scale, radius 2/2/20/20px, fill #FF4B4B
+    - COMPONENT "Language=Spanish, Size=Small", 29x22px, constraints left/top, radius 3px, fill #FF4B4B
+      - RECTANGLE "Rectangle 6", 29x10px, constraints left/top, fill #FFC800
+      - RECTANGLE "Rectangle 7", 2x4px, constraints left/top, radius 6px, fill #FFFFFF
+      - RECTANGLE "Rectangle 8", 2x4px, constraints left/top, radius 6px, fill #FFFFFF
+  - ... +11 more children
+  ... this screen truncated at the 300-node per-screen limit.
+
+Screen: Components / Reference Images (for character cut outs)
+- SECTION "Reference Images (for character cut outs)", 10020x4905px, fill #444444, stroke #FFFFFF1A 1px
+  - RECTANGLE "13-copy-10-2 1", 2455x651px, constraints left/top, fill image(hash: eb6918003e03dbe51e96580a581376332cf340ac)
+  - RECTANGLE "003329183238775.653bca706e8ce 1", 1400x1021px, constraints left/top, fill image(hash: e6b20c6bbdfe978fad8bdea119b4e940b5441d3e)
+  - RECTANGLE "1_91iqQr0KwpAQhDES-esv8g 1", 1400x987px, constraints left/top, fill image(hash: d0c1dc6af987eaeca175e6b0112680c6fac164ee)
+  - RECTANGLE "169duolingo_hero 1", 1600x900px, constraints left/top, fill image(hash: 7764661255e4031ec57290c821ea3189a0a683bf)
+  - RECTANGLE "Duo_perspective_study 1", 1840x616px, constraints left/top, fill image(hash: 1ba80a4d206a4b30a5a2ce3ebe7d0d478ce13cee)
+  - RECTANGLE "IMG_0273 1", 430x932px, constraints left/top, fill image(hash: 3cb9735e733f6b774d75562abac2963bc3ded4ec)
+  - RECTANGLE "IMG_0272 1", 430x932px, constraints left/top, fill image(hash: 685a4b2da237c7b548f2b5650d2a3bf6fd92ae16)
+  - RECTANGLE "IMG_0271 1", 430x932px, constraints left/top, fill image(hash: b658713b61d9a7c2efe657ac500bb863da015a16)
+  - RECTANGLE "IMG_0299 2", 430x934px, constraints left/top, fill image(hash: 2dec33202b5f7275afe5bb8824d39b14184d3343)
+  - RECTANGLE "IMG_0281 1", 430x932px, constraints left/top, fill image(hash: 568a5deb62752ecdcca417a30757a6d6d31e14d8)
+  - RECTANGLE "IMG_0285 1", 430x932px, constraints left/top, fill image(hash: c1614a6a1297651ad4674c314d43fbef19c1f078)
+  - RECTANGLE "IMG_0320 1", 430x932px, constraints left/top, fill image(hash: ee563a28bc398e75a3003cbadcf0fd181b69992f)
+  - RECTANGLE "IMG_0319 1", 430x932px, constraints left/top, fill image(hash: fcb6f73b20a07e538d109955f58bbb7ed4bac03c)
+
+Screen: Existing Flows / Get Started
+- FRAME "Get Started", 430x932px, constraints left/top, radius 55px, fill #FFFFFF
+  - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+  - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+  - INSTANCE "Bottom Nav", 430x106px, horizontal pad 8 16 50 16px gap 31px align space_between/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF
+    - INSTANCE "Button", 398x48px, constraints left/top, radius 13px, fill #58A700
+      - FRAME "Frame 30", 397x43px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #58CC02
+        - TEXT "Button", 71x19px, constraints left/top, fill #FFFFFF, text [Button Text]
+  - RECTANGLE "IMG_0314 1", 430x294px, constraints left/top, fill image(hash: c044b94ffd9f2ab0d57259dd8ccd01c557a8ec12)
+  - INSTANCE "Context Bar", 430x54px, horizontal pad 11 16 11 16px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons", 19.5x19.5px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector 55", 19.5x0px, constraints scale/scale, stroke #AFAFAF 2.5px
+
+Screen: Existing Flows / Where to start
+- FRAME "Where to start", 430x932px, constraints left/top, radius 55px, fill #FFFFFF
+  - FRAME "Frame 91", 430x111px, constraints left/top
+    - RECTANGLE "IMG_0312 1", 119x111px, constraints left/top, fill image(hash: abd2c7cc38567dcc4e31595c9c61f209944696b6)
+    - FRAME "Frame 57", 213x81px, constraints left/top
+      - VECTOR "Rectangle 30", 228.5x80.5px, constraints left/top, radius 10/10/10/10px, stroke #E5E5E5 2px
+      - FRAME "Frame 59", 181x50px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Question Word", 58x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 58x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 54x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 54x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 31x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 31x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 31x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 31x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 17x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 17x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 53x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 53x24px, constraints left/top, fill #4B4B4B, text [Primary]
+  - INSTANCE "Context Bar", 430x54px, horizontal pad 11 16 11 16px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons", 19.5x19.5px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector 55", 19.5x0px, constraints scale/scale, stroke #AFAFAF 2.5px
+  - INSTANCE "Bottom Nav", 430x106px, horizontal pad 8 16 50 16px gap 31px align space_between/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF
+    - INSTANCE "Button", 398x48px, constraints left/top, radius 13px
+      - FRAME "Frame 30", 397x43px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #D9D9D9
+        - TEXT "Button", 71x19px, constraints left/top, fill #777777, text [Button Text]
+  - FRAME "Frame 97", 401x244px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Button", 401x116px, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 400x111px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+        - FRAME "Frame 95", 361x72px, horizontal pad 0 0 0 0px gap 22px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 96", 69x69px, constraints left/top
+            - GROUP "Group 36", 57x67px, constraints center/center, radius 0/0/0/0px
+          - FRAME "Frame 93", 270x72px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Start from scratch", 270x23px, constraints left/top, fill #4B4B4B, text [Goal Title], [heading]
+            - TEXT "Take the easiest lesson of the French course", 270x48px, constraints left/top, fill #4B4B4B, text [DIN 2014 Rounded VF Regular, 16px]
+    - FRAME "Button", 401x116px, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 400x111px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+        - FRAME "Frame 95", 361x72px, horizontal pad 0 0 0 0px gap 22px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Frame 94", 69x69px, constraints left/top
+            - ELLIPSE "Ellipse 45", 69x69px, constraints left/top, stroke #0083C9 7px
+            - GROUP "Group 35", 48.66x48.75px, constraints left/top, radius 0/0/0/0px
+          - FRAME "Frame 93", 270x72px, vertical pad 0 0 0 0px gap 1px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Find my level", 270x23px, constraints left/top, fill #4B4B4B, text [Goal Title], [heading]
+            - TEXT "Let Duo recommend where you should start learning", 270x48px, constraints left/top, fill #4B4B4B, text [DIN 2014 Rounded VF Regular, 16px]
+  - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+  - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+
+Screen: Existing Flows / Language Proficiency
+- FRAME "Language Proficiency", 430x932px, constraints left/top, radius 55px, fill #FFFFFF
+  - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+  - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+  - FRAME "Frame 91", 430x111px, constraints left/top
+    - RECTANGLE "IMG_0312 1", 119x111px, constraints left/top, fill image(hash: abd2c7cc38567dcc4e31595c9c61f209944696b6)
+    - FRAME "Frame 57", 213x81px, constraints left/top
+      - VECTOR "Rectangle 30", 228.5x80.5px, constraints left/top, radius 10/10/10/10px, stroke #E5E5E5 2px
+      - FRAME "Frame 59", 181x50px, horizontal pad 0 0 0 0px gap 4px align min/center sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Question Word", 39x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 39x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 49x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 49x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 56x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 56x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 21x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 21x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 31x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 31x24px, constraints left/top, fill #4B4B4B, text [Primary]
+        - INSTANCE "Question Word", 57x24px, vertical pad 0 0 0 0px gap 3px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "word", 57x24px, constraints left/top, fill #4B4B4B, text [Primary]
+  - INSTANCE "Context Bar", 430x54px, horizontal pad 11 16 11 16px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Icons", 19.5x19.5px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector 55", 19.5x0px, constraints scale/scale, stroke #AFAFAF 2.5px
+  - FRAME "Frame 90", 398x348px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Button", 398x60px, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 397x58px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+        - INSTANCE "Proficiency Bar", 30x22px, horizontal pad 0 0 0 0px gap 2px align min/max sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 33", 6x10px, constraints left/top, radius 2px, fill #D1EBF7
+          - RECTANGLE "Rectangle 34", 6x13px, constraints left/top, radius 2px, fill #D1EBF7
+          - RECTANGLE "Rectangle 35", 6x18px, constraints left/top, radius 2px, fill #D1EBF7
+          - RECTANGLE "Rectangle 36", 6x22px, constraints left/top, radius 2px, fill #D1EBF7
+        - TEXT "I’m new to French", 161x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+    - FRAME "Button", 398x60px, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 397x58px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+        - INSTANCE "Proficiency Bar", 30x22px, horizontal pad 0 0 0 0px gap 2px align min/max sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 33", 6x10px, constraints left/top, radius 2px, fill #1899D6
+          - RECTANGLE "Rectangle 34", 6x13px, constraints left/top, radius 2px, fill #D1EBF7
+          - RECTANGLE "Rectangle 35", 6x18px, constraints left/top, radius 2px, fill #D1EBF7
+          - RECTANGLE "Rectangle 36", 6x22px, constraints left/top, radius 2px, fill #D1EBF7
+        - TEXT "I know some common words", 253x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+    - FRAME "Button", 398x60px, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 397x58px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+        - INSTANCE "Proficiency Bar", 30x22px, horizontal pad 0 0 0 0px gap 2px align min/max sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 33", 6x10px, constraints left/top, radius 2px, fill #1899D6
+          - RECTANGLE "Rectangle 34", 6x13px, constraints left/top, radius 2px, fill #1899D6
+          - RECTANGLE "Rectangle 35", 6x18px, constraints left/top, radius 2px, fill #D1EBF7
+          - RECTANGLE "Rectangle 36", 6x22px, constraints left/top, radius 2px, fill #D1EBF7
+        - TEXT "I can have basic conversations", 273x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+    - FRAME "Button", 398x60px, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 397x58px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+        - INSTANCE "Proficiency Bar", 30x22px, horizontal pad 0 0 0 0px gap 2px align min/max sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 33", 6x10px, constraints left/top, radius 2px, fill #1899D6
+          - RECTANGLE "Rectangle 34", 6x13px, constraints left/top, radius 2px, fill #1899D6
+          - RECTANGLE "Rectangle 35", 6x18px, constraints left/top, radius 2px, fill #1899D6
+          - RECTANGLE "Rectangle 36", 6x22px, constraints left/top, radius 2px, fill #D1EBF7
+        - TEXT "I can talk about various topics", 271x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+    - FRAME "Button", 398x60px, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 397x58px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+        - INSTANCE "Proficiency Bar", 30x22px, horizontal pad 0 0 0 0px gap 2px align min/max sizing W:fixed H:fixed, constraints left/top
+          - RECTANGLE "Rectangle 33", 6x10px, constraints left/top, radius 2px, fill #1899D6
+          - RECTANGLE "Rectangle 34", 6x13px, constraints left/top, radius 2px, fill #1899D6
+          - RECTANGLE "Rectangle 35", 6x18px, constraints left/top, radius 2px, fill #1899D6
+          - RECTANGLE "Rectangle 36", 6x22px, constraints left/top, radius 2px, fill #1899D6
+        - TEXT "I can discuss most topics in detail", 304x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+  - INSTANCE "Bottom Nav", 430x106px, horizontal pad 8 16 50 16px gap 31px align space_between/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF
+    - INSTANCE "Button", 398x48px, constraints left/top, radius 13px
+      - FRAME "Frame 30", 397x43px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #D9D9D9
+        - TEXT "Button", 71x19px, constraints left/top, fill #777777, text [Button Text]
+
+Screen: Existing Flows / New Language Selection 1
+- FRAME "New Language Selection 1", 430x932px, constraints left/top, radius 55px, fill #FFFFFF
+  - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+  - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+  - FRAME "Frame 88", 430x759px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Context Bar", 430x54px, horizontal pad 11 16 11 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+      - INSTANCE "Icons", 19.5x19.5px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 33", 19.5x19.5px, constraints scale/scale, stroke #AFAFAF 3px
+      - TEXT "Headline", 311x26px, constraints left/top, fill #4B4B4B, text [Primary Title], [heading]
+      - INSTANCE "Icons", 19.5x19.5px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 33", 19.5x19.5px, constraints scale/scale, stroke #FFFFFF 3px
+    - INSTANCE "Header", 430x58px, horizontal pad 0 16 0 16px gap 8px align min/max sizing W:fill H:fixed, constraints left/top
+      - TEXT "Header Text", 398x31px, constraints left/top, fill #4B4B4B, text [Header], [heading]
+    - FRAME "Frame 86", 430x145px, vertical pad 18 16 4 16px gap 13px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #1CB0F6
+          - TEXT "Math", 45x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #1CB0F6
+          - TEXT "Math", 45x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+    - INSTANCE "Header", 430x58px, horizontal pad 0 16 0 16px gap 8px align min/max sizing W:fill H:fixed, constraints left/top
+      - TEXT "Header Text", 398x31px, constraints left/top, fill #4B4B4B, text [Header], [heading]
+    - FRAME "Frame 87", 430x444px, vertical pad 14 16 4 16px gap 13px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #FF4B4B
+          - TEXT "Spanish", 71x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #FF4B4B
+          - TEXT "French", 62x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #4B4B4B
+          - TEXT "German", 70x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #FF4B4B
+          - TEXT "Italian", 57x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - FRAME "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Flag", 29x22px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "Japanese", 84x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "Russian", 71x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "Russian", 71x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+  - INSTANCE "Bottom Nav", 430x115px, horizontal pad 17 16 50 16px gap 31px align space_between/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF, stroke #E5E5E5 1px
+    - INSTANCE "Button", 398x48px, constraints left/top, radius 13px
+      - FRAME "Frame 30", 397x43px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #D9D9D9
+        - TEXT "Button", 47x19px, constraints left/top, fill #777777, text [Button Text]
+
+Screen: Existing Flows / New Language Selection 2
+- FRAME "New Language Selection 2", 430x932px, constraints left/top, radius 55px, fill #FFFFFF
+  - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+  - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+  - FRAME "Frame 88", 430x759px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Context Bar", 430x54px, horizontal pad 11 16 11 16px gap 24px align min/center sizing W:fill H:fixed, constraints left/top, stroke #E5E5E5 1px
+      - INSTANCE "Icons", 19.5x19.5px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 33", 19.5x19.5px, constraints scale/scale, stroke #AFAFAF 3px
+      - TEXT "Headline", 311x26px, constraints left/top, fill #4B4B4B, text [Primary Title], [heading]
+      - INSTANCE "Icons", 19.5x19.5px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 33", 19.5x19.5px, constraints scale/scale, stroke #FFFFFF 3px
+    - INSTANCE "Header", 430x58px, horizontal pad 0 16 0 16px gap 8px align min/max sizing W:fill H:fixed, constraints left/top
+      - TEXT "Header Text", 398x31px, constraints left/top, fill #4B4B4B, text [Header], [heading]
+    - FRAME "Frame 86", 430x145px, vertical pad 18 16 4 16px gap 13px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #1CB0F6
+          - TEXT "Math", 45x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #1CB0F6
+          - TEXT "Math", 45x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+    - INSTANCE "Header", 430x58px, horizontal pad 0 16 0 16px gap 8px align min/max sizing W:fill H:fixed, constraints left/top
+      - TEXT "Header Text", 398x31px, constraints left/top, fill #4B4B4B, text [Header], [heading]
+    - FRAME "Frame 87", 430x444px, vertical pad 14 16 4 16px gap 13px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #FF4B4B
+          - TEXT "Spanish", 71x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #1CB0F6
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #DDF4FF, stroke #1CB0F6 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #FF4B4B
+          - TEXT "French", 62x24px, constraints left/top, fill #1CB0F6, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #4B4B4B
+          - TEXT "German", 70x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #FF4B4B
+          - TEXT "Italian", 57x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - FRAME "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - FRAME "Flag", 29x22px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "Japanese", 84x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "Russian", 71x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+      - FRAME "Button", 398x55px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 397x53px, horizontal pad 12 18 12 18px gap 16px align min/center sizing W:fixed H:fixed, constraints left_right/top_bottom, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 3px, fill #E5E5E5
+          - TEXT "Russian", 71x24px, constraints left/top, fill #4B4B4B, text [Primary Bold]
+  - INSTANCE "Bottom Nav", 430x115px, horizontal pad 17 16 50 16px gap 31px align space_between/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF, stroke #E5E5E5 1px
+    - INSTANCE "Button", 398x48px, constraints left/top, radius 13px, fill #58A700
+      - FRAME "Frame 30", 397x43px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #58CC02
+        - TEXT "Button", 47x19px, constraints left/top, fill #FFFFFF, text [Button Text]
+
+Screen: Existing Flows / Profile
+- FRAME "Profile", 430x932px, constraints left/top, radius 55px, fill #FFFFFF
+  - FRAME "Frame 78", 430x193px, vertical pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frame 77", 430x58px, vertical pad 0 16 0 16px gap 5px sizing W:fill H:fixed, constraints left/top
+      - TEXT "John Welch", 398x31px, constraints left/top, fill #4B4B4B, text [Header], [heading]
+      - TEXT "@johntheside • Joined December 2020", 398x22px, constraints left/top, fill #777777, text [Subtext]
+    - FRAME "Frame 75", 430x47px, horizontal pad 0 16 0 16px gap 24px sizing W:fill H:fixed, constraints left/top
+      - FRAME "Frame 74", 64x47px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 76", 64x23px, horizontal pad 1 0 0 0px gap 6px sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 29x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - INSTANCE "Flag", 29x22px, constraints left/top, radius 4px, fill #FF4B4B
+          - FRAME "Flag", 29x22px, constraints left/top, radius 7px, stroke #D9D9D9 1px
+            - TEXT "+3", 15x16px, constraints center/center, fill #D9D9D9, text [XS Bold]
+        - TEXT "Courses", 61x22px, constraints left/top, fill #777777, text [Subtext]
+      - INSTANCE "Divider", 0x47px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 38", 0x47px, constraints scale/scale, stroke #D9D9D9 2px
+      - FRAME "Frame 72", 72x47px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "11", 72x23px, constraints left/top, fill #4B4B4B, text [Goal Title], [heading]
+        - TEXT "Following", 72x22px, constraints left/top, fill #777777, text [Subtext]
+      - INSTANCE "Divider", 0x47px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 38", 0x47px, constraints scale/scale, stroke #D9D9D9 2px
+      - FRAME "Frame 73", 73x47px, vertical pad 0 0 0 0px gap 2px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "9", 73x23px, constraints left/top, fill #4B4B4B, text [Goal Title], [heading]
+        - TEXT "Followers", 73x22px, constraints left/top, fill #777777, text [Subtext]
+    - FRAME "Frame 71", 399x48px, horizontal pad 0 0 0 0px gap 16px align space_between/center sizing W:fixed H:fixed, constraints left/top
+      - INSTANCE "Button", 336x48px, constraints left/top, radius 13px, fill #E5E5E5
+        - FRAME "Frame 30", 335x43px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 23x19px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 31", 23x19px, constraints left/top, radius 0/0/0/0px
+          - TEXT "Button", 46x19px, constraints left/top, fill #1CB0F6, text [Button Text]
+      - INSTANCE "Button", 47x48px, constraints left/top, radius 11/11/13/13px, fill #E5E5E5
+        - FRAME "Frame 30", 46x46.5px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #FFFFFF, stroke #E5E5E5 2px
+          - INSTANCE "Icons", 18x22.5px, horizontal pad 0 0 0 0px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 32", 18x22.5px, constraints left/top, radius 0/0/0/0px
+  - INSTANCE "Header", 430x31px, horizontal pad 0 16 0 16px gap 8px align min/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Translate this sentence", 398x31px, constraints left/top, fill #4B4B4B, text [Header], [heading]
+  - FRAME "Frame 83", 394x301px, horizontal pad 0 0 0 0px gap 16px sizing W:fixed H:fixed, constraints left/top
+    - INSTANCE "Component 1", 189x68px, horizontal pad 14 15 11 15px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+      - INSTANCE "Icons", 15x19px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 3", 15x19px, constraints left/top
+          - VECTOR "Vector 3", 15x19px, constraints scale/scale, fill #FF9600
+          - VECTOR "Vector 4", 7x8px, constraints scale/scale, fill #FFC800
+      - FRAME "Frame 72", 136x43px, vertical pad 1 0 1 0px gap 3px sizing W:fill H:fixed, constraints left/top
+        - TEXT "12", 136x19px, constraints left/top, fill #4B4B4B, text [Small Bold]
+        - TEXT "Day streak", 136x19px, constraints left/top, fill #AFAFAF, text [Subtext 2]
+    - INSTANCE "Component 1", 189x68px, horizontal pad 14 15 11 15px gap 7px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+      - INSTANCE "Icons", 15.5x20px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 10", 15.5x20px, constraints left/top, radius 0/0/0/0px
+          - VECTOR "Vector 25 (Stroke)", 15.5x20px, constraints left/top, fill #FFD900
+          - VECTOR "Vector 26", 4x3px, constraints left/top, radius 0/0/0/0px, fill #F7C100, stroke #000000 0px
+          - VECTOR "Vector 27", 4.37x2.83px, constraints left/top, radius 0/0/0/0px, fill #FFEF8F, stroke #000000 0px
+      - FRAME "Frame 72", 136.5x43px, vertical pad 1 0 1 0px gap 3px sizing W:fill H:fixed, constraints left/top
+        - TEXT "9770", 136.5x19px, constraints left/top, fill #4B4B4B, text [Small Bold]
+        - TEXT "Total XP", 136.5x19px, constraints left/top, fill #AFAFAF, text [Subtext 2]
+    - INSTANCE "Component 1", 189x68px, horizontal pad 14 15 11 15px gap 9px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+      - INSTANCE "Icons", 14x21px, horizontal pad 3 0 3 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - GROUP "Group 5", 14x15px, constraints left/top [decorative, ~5 shapes]
+      - FRAME "Frame 72", 136x43px, vertical pad 1 0 1 0px gap 3px sizing W:fill H:fixed, constraints left/top
+        - TEXT "Gold", 136x19px, constraints left/top, fill #4B4B4B, text [Small Bold]
+        - TEXT "League", 136x19px, constraints left/top, fill #AFAFAF, text [Subtext 2]
+    - INSTANCE "Component 1", 189x68px, horizontal pad 14 15 11 14px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+      - INSTANCE "Icons", 16x20px, vertical pad 4 0 4 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+        - INSTANCE "Flag", 16x12px, constraints left/top, radius 2px, fill #FF4B4B
+          - RECTANGLE "Rectangle 7", 5.86x12px, constraints scale/scale, fill #1CB0F6
+          - RECTANGLE "Rectangle 6", 5.86x12px, constraints scale/scale, fill #E5E5E5
+      - FRAME "Frame 72", 136x43px, vertical pad 1 0 1 0px gap 3px sizing W:fill H:fixed, constraints left/top
+        - TEXT "14", 136x19px, constraints left/top, fill #4B4B4B, text [Small Bold]
+        - TEXT "French Score", 136x19px, constraints left/top, fill #AFAFAF, text [Subtext 2]
+    - INSTANCE "Friend Streaks", 395x133px, vertical pad 16 15 28 15px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 14px, stroke #E5E5E5 2px
+      - TEXT "Friend Streaks", 365x23px, constraints left/top, fill #4B4B4B, text [Goal Title], [heading]
+      - FRAME "Frame 84", 365x54px, horizontal pad 0 0 0 0px gap 32px align space_between/center sizing W:fill H:fixed, constraints left/top
+        - FRAME "Icons", 50x54px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+          - GROUP "Group 34", 50x54px, constraints left/top
+            - ELLIPSE "Ellipse 43", 48x48px, constraints left/top, fill image(hash: 13b84e50a8b5e3e845623d597ae5cd7559df3f89)
+            - ELLIPSE "Ellipse 44", 20x20px, constraints left/top, fill #FFFFFF
+            - INSTANCE "Icons", 14x14px, constraints left/top
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - GROUP "Group 33", 40x40px, constraints left/top
+            - ELLIPSE "Ellipse 43", 40x40px, constraints left/top, stroke #AFAFAF 2px
+            - VECTOR "Vector 53", 12.5x12.5px, constraints left/top, stroke #AFAFAF 2px
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - GROUP "Group 33", 40x40px, constraints left/top
+            - ELLIPSE "Ellipse 43", 40x40px, constraints left/top, stroke #AFAFAF 2px
+            - VECTOR "Vector 53", 12.5x12.5px, constraints left/top, stroke #AFAFAF 2px
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - GROUP "Group 33", 40x40px, constraints left/top
+            - ELLIPSE "Ellipse 43", 40x40px, constraints left/top, stroke #AFAFAF 2px
+            - VECTOR "Vector 53", 12.5x12.5px, constraints left/top, stroke #AFAFAF 2px
+        - INSTANCE "Icons", 40x40px, constraints left/top
+          - GROUP "Group 33", 40x40px, constraints left/top
+            - ELLIPSE "Ellipse 43", 40x40px, constraints left/top, stroke #AFAFAF 2px
+            - VECTOR "Vector 53", 12.5x12.5px, constraints left/top, stroke #AFAFAF 2px
+  - INSTANCE "Bottom Nav", 430x94px, horizontal pad 16 16 38 16px gap 31px align space_between/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF, stroke #E5E5E5 1px
+    - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+      - INSTANCE "Icons", 29x26px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+        - GROUP "Group 6", 29x26px, constraints left/top [decorative, ~4 shapes]
+    - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+      - INSTANCE "Icons", 28x26.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+        - GROUP "Group 7", 28x26.5px, constraints left/top, radius 0/0/0/0px [decorative, ~8 shapes]
+    - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+      - INSTANCE "Icons", 36.5x30.5px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+        - GROUP "Group 8", 36.5x30.5px, constraints left/top [decorative, ~4 shapes]
+    - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+      - INSTANCE "Icons", 25.05x27px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints center/center
+        - GROUP "Group 5", 25.05x27px, constraints left/top [decorative, ~5 shapes]
+    - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+      - INSTANCE "Icons", 32.72x29.05px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints center/center
+        - BOOLEAN_OPERATION "Union", 32.72x29.05px, constraints left/top, fill gradient_linear(#5AD3AE 0% | #2F6CFF 48% | #A239FA 84%)
+    - INSTANCE "Bottom Nav Button", 40x40px, constraints left/top, radius 8px
+      - INSTANCE "Icons", 29x29px, vertical pad 13 6 13 6px gap 8px sizing W:fixed H:fixed, constraints center/center, radius 100px, fill #CE82FF
+        - GROUP "Group 9", 16.5x3px, constraints left/top
+          - ELLIPSE "Ellipse 12", 3x3px, constraints center/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 13", 3x3px, constraints center/top, fill #FFFFFF
+          - ELLIPSE "Ellipse 14", 3x3px, constraints center/top, fill #FFFFFF
+  - FRAME "Profile Photo", 430x241px, constraints left/top, fill #5AEAB1
+    - RECTANGLE "IMG_0270 1", 430x195px, constraints left/top, fill image(hash: 38db849ec9c770cfc445d7ba0c5e5bdd8e190b21)
+  - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+  - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+
+Screen: Existing Flows / Lesson Complete
+- FRAME "Lesson Complete", 430x932px, constraints left/top, radius 55px, fill #FFFFFF
+  - INSTANCE "Bottom Nav", 430x106px, horizontal pad 8 16 50 16px gap 31px align space_between/center sizing W:fixed H:fixed, constraints center/bottom, fill #FFFFFF
+    - INSTANCE "Button", 398x48px, constraints left/top, radius 13px, fill #1899D6
+      - FRAME "Frame 30", 397x43px, horizontal pad 12 154 12 154px gap 8px align center/center sizing W:fixed H:fixed, constraints left_right/center, radius 13px, fill #1CB0F6
+        - TEXT "Button", 66x19px, constraints left/top, fill #FFFFFF, text [Button Text]
+  - FRAME "Frame 67", 430x450px, vertical pad 0 0 0 0px gap 43px align min/center sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "IMG_0286 1", 430x241px, constraints left/top, fill image(hash: e7202a3ea099c9142a38cefad9ac99ea91b5ace1)
+    - TEXT "Lesson complete!", 430x37px, constraints left/top, fill #FFC800, text [Header 1], [heading]
+    - FRAME "Frame 66", 346x86px, horizontal pad 0 0 0 0px gap 20px align min/center sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Frame 63", 102x86px, constraints left/top, radius 17px, fill #FFC800
+        - FRAME "Frame 64", 102x66px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 18px, fill #FFFFFF, stroke #FFC800 2px
+          - INSTANCE "Icons", 18.5x23.87px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 10", 18.5x23.87px, constraints left/top, radius 0/0/0/0px
+          - TEXT "25", 23x23px, constraints left/top, fill #FFC800, text [Goal Title], [heading]
+        - TEXT "total xp", 55x16px, constraints left/top, fill #FFFFFF, text [XS Bold]
+      - FRAME "Frame 64", 102x86px, constraints left/top, radius 17px, fill #58CC02
+        - FRAME "Frame 64", 102x66px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 18px, fill #FFFFFF, stroke #58CC02 2px
+          - INSTANCE "Icons", 23.78x22px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 13", 23.78x22px, constraints left/top, radius 0/0/0/0px [decorative, ~5 shapes]
+          - TEXT "75%", 39x23px, constraints left/top, fill #58CC02, text [Goal Title], [heading]
+        - TEXT "Good", 33x16px, constraints left/top, fill #FFFFFF, text [XS Bold]
+      - FRAME "Frame 65", 102x86px, constraints left/top, radius 17px, fill #1CB0F6
+        - FRAME "Frame 64", 102x66px, horizontal pad 8 8 8 8px gap 8px align center/center sizing W:fixed H:fixed, constraints left/top, radius 18px, fill #FFFFFF, stroke #1CB0F6 2px
+          - INSTANCE "Icons", 19x19px, constraints left/top
+            - ELLIPSE "Ellipse 15", 19x19px, constraints scale/scale, fill #DDF4FF, stroke #1CB0F6 2.5px
+            - GROUP "Group 11", 7.21x6.49px, constraints scale/scale
+          - TEXT "1:39", 40x23px, constraints left/top, fill #1CB0F6, text [Goal Title], [heading]
+        - TEXT "Speedy", 44x16px, constraints left/top, fill #FFFFFF, text [XS Bold]
+  - RECTANGLE "Control Bar", 156x5px, constraints left/top, radius 16px, fill #000000
+  - FRAME "Floating Island", 126x37px, constraints left/top, radius 23px, fill #000000
+
+Screen: Existing Flows / Lesson Asking
+- FRAME "Lesson Asking", 430x932px, constraints left/top, radius 55px, fill #FFFFFF
+  - INSTANCE "Word Selection", 430x97px, horizontal pad 0 0 0 0px gap 5px align center/max sizing W:fixed H:fixed, constraints center/top
+    - INSTANCE "Word", 54x46px, vertical pad 0 0 2 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 54x44px, horizontal pad 10 13 10 13px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #FFFFFF, stroke #E5E5E5 2px
+        - TEXT "Word", 28x24px, constraints left/top, fill #4B4B4B, text [Primary]
+    - INSTANCE "Word", 54x46px, vertical pad 0 0 2 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 54x44px, horizontal pad 10 13 10 13px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #FFFFFF, stroke #E5E5E5 2px
+        - TEXT "Word", 28x24px, constraints left/top, fill #4B4B4B, text [Primary]
+    - INSTANCE "Word", 74x46px, vertical pad 0 0 2 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 74x44px, horizontal pad 10 13 10 13px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #FFFFFF, stroke #E5E5E5 2px
+        - TEXT "Word", 48x24px, constraints left/top, fill #4B4B4B, text [Primary]
+    - INSTANCE "Word", 62x46px, vertical pad 0 0 2 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 62x44px, horizontal pad 10 13 10 13px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #FFFFFF, stroke #E5E5E5 2px
+        - TEXT "Word", 36x24px, constraints left/top, fill #4B4B4B, text [Primary]
+    - INSTANCE "Word", 64x46px, vertical pad 0 0 2 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 64x44px, horizontal pad 10 13 10 13px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #FFFFFF, stroke #E5E5E5 2px
+        - TEXT "Word", 38x24px, constraints left/top, fill #4B4B4B, text [Primary]
+    - INSTANCE "Word", 55x46px, vertical pad 0 0 2 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 55x44px, horizontal pad 10 13 10 13px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #FFFFFF, stroke #E5E5E5 2px
+        - TEXT "Word", 29x24px, constraints left/top, fill #4B4B4B, text [Primary]
+    - INSTANCE "Word", 87x46px, vertical pad 0 0 2 0px gap 8px sizing W:fixed H:fixed, constraints left/top, radius 13px, fill #E5E5E5
+      - FRAME "Frame 30", 87x44px, horizontal pad 10 13 10 13px gap 0px align center/center sizing W:fixed H:fixed, constraints left/top, radius 14px, fill #FFFFFF, stroke #E5E5E5 2px
+        - TEXT "Word", 61x24px, constraints left/top, fill #4B4B4B, text [Primary]
+  - FRAME "Frame 60", 430x442px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints center/top
+    - INSTANCE "Context Bar", 430x54px, horizontal pad 11 16 11 16px gap 24px align min/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+      - INSTANCE "Icons", 19.5x19.5px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector 33", 19.5x19.5px, constraints scale/scale, stroke #AFAFAF 3px
+      - INSTANCE "Progress Bar", 281.5x19px, constraints left/top, radius 64px, fill #E5E5E5
+        - FRAME "Frame 24", 147.96x28px, constraints scale/top, fill #FFC800
+          - FRAME "Frame 25", 123x5px, constraints left_right/top, radius 6px, fill #FBE56D
+      - INSTANCE "Header Counter", 49x32px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Frame 11", 32x29.75px, vertical pad 5 1 5 1px gap 8px align center/max sizing W:fixed H:fixed, constraints left/top
+          - INSTANCE "Icons", 22.82x19.75px, vertical pad 0 0 0 0px gap 8px sizing W:fixed H:fixed, constraints left/top
+            - GROUP "Group 4", 22.82x19.75px, constraints left/top, radius 0/0/0/0px
+        - TEXT "14", 9x19px, constraints left/top, fill #FF4B4B, text [DIN 2014 Rounded VF Bold, 16px]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

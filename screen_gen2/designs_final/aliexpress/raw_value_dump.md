@@ -1,0 +1,213 @@
+---
+name: aliexpress-prototype-cs449-community
+source_file: AliExpress Prototype - CS449 (Community)
+source_page: All pages (2): Main Page, Subpage
+generated_at: 2026-07-25T09:30:38.454878+00:00
+---
+
+# AliExpress Prototype - CS449 (Community) Design Guidelines
+
+## Source
+- Figma file: AliExpress Prototype - CS449 (Community)
+- Figma page: All pages (2): Main Page, Subpage
+- Extracted at: 2026-07-25T09:30:38.454878+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 40 uses
+- #323232: 32 uses
+- #000000: 7 uses
+- #1A1919: 5 uses
+- #D71919: 3 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Inter Light, 16px: 14 uses
+- Inter Regular, 18px: 10 uses
+- Inter SemiBold, 20px: 8 uses
+- Inter SemiBold, 21px: 7 uses
+- Inter Bold, 15px: 6 uses
+- Inter Regular, 15px: 6 uses
+
+## Typography Hierarchy
+- 21px - Inter SemiBold, 21px (raw)
+- 20px - Inter SemiBold, 20px (raw)
+- 18px - Inter Regular, 18px (raw)
+- 16px - Inter Light, 16px (raw)
+- 15px - Inter Bold, 15px (raw)
+- 15px - Inter Regular, 15px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- No components were found in any page of this file. Add component sets to improve guideline coverage.
+
+## Component Specs
+- No component geometry was extracted. Add components or component sets to populate this section.
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Main Page / MacBook Pro 14" - 1
+- FRAME "MacBook Pro 14" - 1", 1512x982px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "Sample Pic", 1391x385px, constraints left/top, fill image(hash: 94177c46a13a74970e17b89f41bc2e42eb8ac913)
+  - RECTANGLE "Sample Pic 1", 700x361.35px, constraints left/top, fill image(hash: 29ca16ce304bd60e13fd4bfa3792ec1399a54ba5)
+  - RECTANGLE "Sample Pic 2", 700x361.65px, constraints left/top, fill image(hash: b06a4a31cabead6381dd5ae707a6bbb7da4def32)
+  - GROUP "Navbar", 1512x200px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Navbar", 1512x109px, constraints left/top, fill #1A1919
+    - GROUP "Search Bar", 401x51px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - GROUP "Download app", 243x42px, constraints left/top
+      - FRAME "mdi:qrcode", 43x42px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 32.25x31.5px, constraints scale/scale, fill #FFFFFF
+      - TEXT "AliExpress uygulamasini indirin!", 190x35px, constraints left/top, fill #FFFFFF, text [Inter Regular, 15px]
+    - GROUP "Currency", 114x28px, constraints left/top
+      - TEXT "TR/TRY", 59x18px, constraints left/top, fill #FFFFFF, text [Inter Regular, 15px]
+      - FRAME "weui:arrow-filled", 30x17px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.91x10.43px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Currency", 21x28px, constraints left/top
+        - GROUP "Group 1", 21x28px, constraints left/top
+          - FRAME "fa:try", 21x28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 21x28px, constraints scale/scale, fill #FFFFFF
+    - FRAME "User Info", 195x40px, constraints left/top
+      - GROUP "User Info", 195x40px, constraints left/top
+        - TEXT "Hosgeldiniz! Giris yap/Kayit ol", 155x38px, constraints left/top, fill #FFFFFF, text [Inter Regular, 15px]
+        - FRAME "weui:arrow-filled", 30x17px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.91x10.43px, constraints scale/scale, fill #FFFFFF
+        - FRAME "mdi:user-outline", 41x40px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 27.33x26.67px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Cart", 94x40px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Sepet", 53x20px, constraints left/top, fill #FFFFFF, text [Inter Bold, 15px]
+      - FRAME "mdi:cart-outline", 41x34px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 34.17x28.33px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 1", 30x20px, constraints left/top, radius 30px, fill #FFFFFF
+      - TEXT "0", 13x20px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+    - RECTANGLE "Logo", 300x200px, constraints left/top, fill image(hash: 9ed41c508ff8d8e577e821b946f4c6e96c6e5737)
+  - GROUP "Filter Bar", 1512x73px, constraints left/top
+    - RECTANGLE "Filter Bar", 1512x73px, constraints left/top, fill #1A1919
+    - TEXT "Super Firsatlar", 174x38px, constraints left/top, fill #D71919, text [Inter SemiBold, 21px]
+    - TEXT "Plus", 131x38px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 21px]
+    - TEXT "Sac Ekleme ve Peruk", 235x38px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 21px]
+    - TEXT "Ev ve Bahce", 174x38px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 21px]
+    - TEXT "AliExpress Business", 217x38px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 21px]
+    - TEXT "Yeni", 103x38px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 21px]
+    - FRAME "Daha Fazla Button", 174x38px, constraints left/top
+      - GROUP "Daha Fazla Button", 174x38px, constraints left/top
+        - TEXT "Daha Fazla", 174x38px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 21px]
+        - FRAME "weui:arrow-filled", 30x17px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.91x10.43px, constraints scale/scale, fill #FFFFFF
+
+Screen: Main Page / Dropdown 2
+- FRAME "Dropdown 2", 236x593px, constraints left/top
+  - GROUP "Dropdown Menu 2", 222x593px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Dropdown Menu", 222x593px, constraints left/top, radius 30px, fill #FFFFFF, effect [drop_shadow 10.5px offset 2 6 #00000040]
+    - RECTANGLE "Rectangle 2", 190x58px, constraints left/top, radius 40px, fill #1A1919
+    - TEXT "Alici Korumasi", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Bir Sikayet Girin", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Yardim Merkezi", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Satici Girisi", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "DS Merkezi", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "AliExpress Business", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Ayarlarim", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Siparislerim", 158x29px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Odeme", 187x41px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Istek Listesi", 187x41px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Mesaj Merkezi", 187x41px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Jetonlarim", 187x41px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Kaydol", 57x48px, constraints left/top, fill #323232, text [Inter Regular, 16px]
+    - TEXT "Giris yap", 97x41px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 20px]
+  - LINE "Line 1", 190x0px, constraints left/top, stroke #000000 0.5px
+  - LINE "Line 2", 190x0px, constraints left/top, stroke #000000 0.5px
+
+Screen: Main Page / Dropdown
+- FRAME "Dropdown", 236x295px, constraints left/top
+  - GROUP "Dropdown Menu", 236x295px, constraints left/top, radius 30px
+    - RECTANGLE "Dropdown Menu", 222x295px, constraints left/top, radius 30px, fill #FFFFFF, effect [drop_shadow 10.5px offset 2 6 #00000040]
+    - TEXT "Aksesuarlar", 217x41px, constraints left/top, fill #323232, text [Inter SemiBold, 20px]
+    - TEXT "Erkek Giyim", 217x41px, constraints left/top, fill #323232, text [Inter SemiBold, 20px]
+    - TEXT "Tuketici Elektronigi", 217x41px, constraints left/top, fill #323232, text [Inter SemiBold, 20px]
+    - TEXT "Ev Aletleri", 217x41px, constraints left/top, fill #323232, text [Inter SemiBold, 20px]
+    - TEXT "Otomotiv", 217x41px, constraints left/top, fill #323232, text [Inter SemiBold, 20px]
+    - TEXT "Aydinlatma", 217x41px, constraints left/top, fill #323232, text [Inter SemiBold, 20px]
+
+Screen: Subpage / MacBook Pro 14" - 1
+- FRAME "MacBook Pro 14" - 1", 1512x982px, constraints left/top, fill #FFFFFF
+  - TEXT "Breadcrumb", 710x74px, constraints left/top, fill #000000, text [Inter SemiBold, 32px], [heading]
+  - RECTANGLE "Sample Pic 1", 1500x872.34px, constraints left/top, fill image(hash: fb2dd155441cf6ebeafa915796cdc4e91c0568d8)
+  - GROUP "Navbar", 1512x200px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Navbar", 1512x109px, constraints left/top, fill #1A1919
+    - GROUP "Search Bar", 401x51px, constraints left/top, radius 0/0/0/0px [decorative, ~4 shapes]
+    - GROUP "Download app", 243x42px, constraints left/top
+      - FRAME "mdi:qrcode", 43x42px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 32.25x31.5px, constraints scale/scale, fill #FFFFFF
+      - TEXT "AliExpress uygulamasini indirin!", 190x35px, constraints left/top, fill #FFFFFF, text [Inter Regular, 15px]
+    - GROUP "Currency", 114x28px, constraints left/top
+      - TEXT "TR/TRY", 59x18px, constraints left/top, fill #FFFFFF, text [Inter Regular, 15px]
+      - FRAME "weui:arrow-filled", 30x17px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 15.91x10.43px, constraints scale/scale, fill #FFFFFF
+      - GROUP "Currency", 21x28px, constraints left/top
+        - GROUP "Group 1", 21x28px, constraints left/top
+          - FRAME "fa:try", 21x28px, constraints left/top, fill #FFFFFF
+            - VECTOR "Vector", 21x28px, constraints scale/scale, fill #FFFFFF
+    - FRAME "User Info", 195x40px, constraints left/top
+      - GROUP "User Info", 195x40px, constraints left/top
+        - TEXT "Hosgeldiniz! Giris yap/Kayit ol", 155x38px, constraints left/top, fill #FFFFFF, text [Inter Regular, 15px]
+        - FRAME "weui:arrow-filled", 30x17px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 15.91x10.43px, constraints scale/scale, fill #FFFFFF
+        - FRAME "mdi:user-outline", 41x40px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 27.33x26.67px, constraints scale/scale, fill #FFFFFF
+    - GROUP "Cart", 94x40px, constraints left/top, radius 0/0/0/0px
+      - TEXT "Sepet", 53x20px, constraints left/top, fill #FFFFFF, text [Inter Bold, 15px]
+      - FRAME "mdi:cart-outline", 41x34px, constraints left/top, fill #FFFFFF
+        - VECTOR "Vector", 34.17x28.33px, constraints scale/scale, fill #FFFFFF
+      - RECTANGLE "Rectangle 1", 30x20px, constraints left/top, radius 30px, fill #FFFFFF
+      - TEXT "0", 13x20px, constraints left/top, fill #000000, text [Inter Bold, 15px]
+    - RECTANGLE "Logo", 300x200px, constraints left/top, fill image(hash: 9ed41c508ff8d8e577e821b946f4c6e96c6e5737)
+
+Screen: Subpage / Dropdown 2
+- FRAME "Dropdown 2", 236x593px, constraints left/top
+  - GROUP "Dropdown Menu 2", 222x593px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Dropdown Menu", 222x593px, constraints left/top, radius 30px, fill #FFFFFF, effect [drop_shadow 10.5px offset 2 6 #00000040]
+    - RECTANGLE "Rectangle 2", 190x58px, constraints left/top, radius 40px, fill #1A1919
+    - TEXT "Alici Korumasi", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Bir Sikayet Girin", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Yardim Merkezi", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Satici Girisi", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "DS Merkezi", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "AliExpress Business", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Ayarlarim", 187x27px, constraints left/top, fill #323232, text [Inter Light, 16px]
+    - TEXT "Siparislerim", 158x29px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Odeme", 187x41px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Istek Listesi", 187x41px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Mesaj Merkezi", 187x41px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Jetonlarim", 187x41px, constraints left/top, fill #323232, text [Inter Regular, 18px]
+    - TEXT "Kaydol", 57x48px, constraints left/top, fill #323232, text [Inter Regular, 16px]
+    - TEXT "Giris yap", 97x41px, constraints left/top, fill #FFFFFF, text [Inter SemiBold, 20px]
+  - LINE "Line 1", 190x0px, constraints left/top, stroke #000000 0.5px
+  - LINE "Line 2", 190x0px, constraints left/top, stroke #000000 0.5px
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

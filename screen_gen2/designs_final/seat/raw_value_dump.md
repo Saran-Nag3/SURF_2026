@@ -1,0 +1,997 @@
+---
+name: seat-reservation-app-community
+source_file: Seat Reservation App (Community)
+source_page: All pages (3): Hi-Fi Prototype, Mock up 1, Sticker sheet
+generated_at: 2026-07-25T09:25:07.263078+00:00
+---
+
+# Seat Reservation App (Community) Design Guidelines
+
+## Source
+- Figma file: Seat Reservation App (Community)
+- Figma page: All pages (3): Hi-Fi Prototype, Mock up 1, Sticker sheet
+- Extracted at: 2026-07-25T09:25:07.263078+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #000000: 755 uses
+- #FFFFFF: 427 uses
+- #143CC9: 373 uses
+- #E0E0E0: 47 uses
+- #747474: 26 uses
+- #D9D9D9: 17 uses
+- #000000BF: 10 uses
+- #FF0000: 10 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Roboto Medium, 11px: 153 uses
+- Roboto Regular, 12px: 36 uses
+- Roboto SemiBold, 13px: 27 uses
+- Roboto Light, 15px: 25 uses
+- Roboto Bold, 20px: 15 uses
+- Roboto Light, 8px: 15 uses
+- Roboto Medium, 20px: 14 uses
+- Roboto Bold, 30px: 13 uses
+- Roboto Bold, 23px: 12 uses
+- Roboto Bold, 24px: 12 uses
+- Roboto Medium, 10px: 12 uses
+- IBM Plex Mono Medium, 30px: 10 uses
+- Roboto Bold, 16px: 10 uses
+- Roboto Bold, 29px: 10 uses
+- Roboto Medium, 15px: 10 uses
+- Roboto Bold, 15px: 9 uses
+- Roboto Regular, 16px: 9 uses
+- Roboto Bold, 10px: 6 uses
+- Roboto Medium, 12px: 6 uses
+- Roboto Medium, 30px: 6 uses
+- Roboto Bold, 12px: 4 uses
+- Roboto ExtraLight, 20px: 4 uses
+- Roboto ExtraLight, 6px: 4 uses
+- Roboto Regular, 10px: 4 uses
+- Roboto Regular, 20px: 4 uses
+- Roboto SemiBold, 15px: 4 uses
+
+## Typography Hierarchy
+- 30px - IBM Plex Mono Medium, 30px (raw)
+- 30px - Roboto Bold, 30px (raw)
+- 30px - Roboto Medium, 30px (raw)
+- 29px - Roboto Bold, 29px (raw)
+- 24px - Roboto Bold, 24px (raw)
+- 23px - Roboto Bold, 23px (raw)
+- 20px - Roboto Bold, 20px (raw)
+- 20px - Roboto ExtraLight, 20px (raw)
+- 20px - Roboto Medium, 20px (raw)
+- 20px - Roboto Regular, 20px (raw)
+- 16px - Roboto Bold, 16px (raw)
+- 16px - Roboto Regular, 16px (raw)
+- 15px - Roboto Bold, 15px (raw)
+- 15px - Roboto Light, 15px (raw)
+- 15px - Roboto Medium, 15px (raw)
+- 15px - Roboto SemiBold, 15px (raw)
+- 13px - Roboto SemiBold, 13px (raw)
+- 12px - Roboto Bold, 12px (raw)
+- 12px - Roboto Medium, 12px (raw)
+- 12px - Roboto Regular, 12px (raw)
+- 11px - Roboto Medium, 11px (raw)
+- 10px - Roboto Bold, 10px (raw)
+- 10px - Roboto Medium, 10px (raw)
+- 10px - Roboto Regular, 10px (raw)
+- 8px - Roboto Light, 8px (raw)
+- 6px - Roboto ExtraLight, 6px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- arrow
+
+## Component Specs
+- arrow/chevron-down: size 24x24px, fill #FFFFFF
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Hi-Fi Prototype / Home Page
+- FRAME "Home Page", 428x928px, constraints left/top, fill gradient_linear(#7C97BF00 0% | #90AEDA02 0% | #2458A5 82%)
+  - RECTANGLE "Rectangle 1", 426x65px, constraints left/top, fill #4A76B7
+  - RECTANGLE "Rectangle 18", 396x65px, constraints left/top, fill #D9D9D9
+  - LINE "Line 2", 40x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 3", 40x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 4", 40x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 2", 167x26px, constraints left/top
+  - ELLIPSE "Ellipse 9", 17x13px, constraints left/top, fill #D9D9D9
+  - LINE "Line 38", 0x16px, constraints left/top, stroke #D9D9D9 1px
+  - LINE "Line 39", 9x13px, constraints left/top, stroke #D9D9D9 1px
+  - LINE "Line 40", 10x12px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Register", 87x27px, constraints left/top, fill #FFFFFF, stroke #000000 1px, text [Roboto Bold, 23px]
+  - TEXT "Sign In", 72x27px, constraints left/top, fill #000000, stroke #FFFFFF 1px, text [Roboto Bold, 23px]
+  - ELLIPSE "Ellipse 3", 6x6px, constraints left/top, fill #000000
+  - ELLIPSE "Ellipse 4", 6x6px, constraints left/top, fill #000000
+  - ELLIPSE "Ellipse 5", 6x6px, constraints left/top, fill #000000
+  - ELLIPSE "Ellipse 6", 6x6px, constraints left/top, fill #000000
+  - TEXT "Now Showing", 307x25px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 24px], [heading]
+  - TEXT "View All", 79x12px, constraints left/top, fill #000000, text [Roboto Bold, 10px]
+  - LINE "Line 16", 379x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Contact Us", 75x18px, constraints left/top, fill #000000, text [Roboto Bold, 15px]
+  - TEXT "1234 Applewood Dr Houston, TX (469) 321-4312 Hours of Operat", 193x83px, constraints left/top, fill #000000, text [Roboto ExtraLight, 6px]
+  - TEXT "Promotions and Offers", 205x23px, constraints left/top, fill #000000, text [Roboto Bold, 20px]
+  - ELLIPSE "Ellipse 7", 63x63px, constraints left/top, fill image(hash: 890fd1adbaae08ecb2e1c49fe73d80da1e799e3a)
+  - RECTANGLE "image 8", 63x44px, constraints left/top, fill image(hash: 4e630d53074fcc6fb9618772961ea195930f53b3)
+  - LINE "Line 63", 0x31px, constraints left/top, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - ... +25 more children
+
+Screen: Hi-Fi Prototype / Movies and Times Screen
+- FRAME "Movies and Times Screen", 428x1346px, constraints left/top, fill gradient_linear(#7DA4DDFE 10% | #2659A5BF 29% | #90B8F466 100% | #B6CDEF26 100%)
+  - TEXT "Movies", 79x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Times", 68x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Dates", 62x28px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 26", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "5:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 27", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "7:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 28", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "9:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 29", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "6:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 30", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "8:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 31", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "5:30PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 32", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "7:45PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 33", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "9:30PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - TEXT "XD", 17x15px, constraints left/top, fill #000000, text [Roboto SemiBold, 13px]
+  - TEXT "IMAX", 33x15px, constraints left/top, fill #000000, text [Roboto SemiBold, 13px]
+  - TEXT "STANDARD", 67x15px, constraints left/top, fill #000000, text [Roboto SemiBold, 13px]
+  - RECTANGLE "Rectangle 54", 47x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "11:00AM", 45x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 53", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - ... +155 more children
+
+Screen: Hi-Fi Prototype / Seat Screen
+- FRAME "Seat Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - GROUP "Screen", 330x36.28px, constraints left/top, effect [background_blur 4px]
+    - VECTOR "hightlight", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px, effect [layer_blur 15px]
+    - VECTOR "Line 4", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px
+  - TEXT "SCREEN", 57x18px, constraints left/top, fill #000000, text [Roboto SemiBold, 15px]
+  - GROUP "Group 27", 401.99x353px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 63", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 69", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 70", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 77", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 78", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 79", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 80", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 81", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 82", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 71", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 72", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 68", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 64", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 65", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 66", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 67", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 73", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 74", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 75", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 76", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 83", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 84", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 85", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 86", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - GROUP "Group 22", 401.99x85.42px, constraints left/top, radius 0/0/0/0px [decorative, ~30 shapes]
+    - ... +4 more children
+  - RECTANGLE "Rectangle 60", 18x18px, constraints left/top, radius 4/4/0/0px, fill #000000
+  - GROUP "Group 26", 75.49x18.3px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 62", 18.3x18.3px, constraints left/top, radius 4/4/0/0px, fill #FF0000
+    - TEXT "Selected", 43.46x13.73px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - GROUP "Group 25", 76.63x18.3px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 61", 18.3x18.3px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - TEXT "Available", 44.61x13.73px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "Unavailable", 59x13px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "THOR: LOVE AND THUNDER", 291x27px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 23px]
+  - RECTANGLE "image 8", 63x44px, constraints left/top, fill image(hash: 4e630d53074fcc6fb9618772961ea195930f53b3), effect [background_blur 4px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - GROUP "Arrow Left Button", 30x29px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - ELLIPSE "Ellipse 4", 30x29px, constraints left/top, fill #000000, effect [background_blur 40px]
+    - FRAME "Iconly/Light/Arrow - Left", 16.36x15.82px, constraints scale/scale, fill #000000
+      - GROUP "Arrow - Left", 10.23x7.94px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 10.23x0.66px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Stroke 3", 4.12x7.94px, constraints scale/scale, stroke #FFFFFF 1.5px
+
+Screen: Hi-Fi Prototype / Seat Slected Screen
+- FRAME "Seat Slected Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - GROUP "Screen", 330x36.28px, constraints left/top, effect [background_blur 4px]
+    - VECTOR "hightlight", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px, effect [layer_blur 15px]
+    - VECTOR "Line 4", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px
+  - TEXT "SCREEN", 57x18px, constraints left/top, fill #000000, text [Roboto SemiBold, 15px]
+  - GROUP "Group 27", 401.99x353px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 63", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 69", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 70", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 77", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 78", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 79", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 80", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 81", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 82", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 71", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 72", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 68", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 64", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 65", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 66", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 67", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 73", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 74", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 75", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 76", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 83", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 84", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 85", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 86", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - GROUP "Group 22", 401.99x85.42px, constraints left/top, radius 0/0/0/0px [decorative, ~30 shapes]
+    - ... +4 more children
+  - RECTANGLE "Rectangle 60", 18x18px, constraints left/top, radius 4/4/0/0px, fill #000000
+  - GROUP "Group 26", 75.49x18.3px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 62", 18.3x18.3px, constraints left/top, radius 4/4/0/0px, fill #FF0000
+    - TEXT "Selected", 43.46x13.73px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - GROUP "Group 25", 76.63x18.3px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 61", 18.3x18.3px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - TEXT "Available", 44.61x13.73px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "Unavailable", 59x13px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "THOR: LOVE AND THUNDER", 291x27px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 23px]
+  - RECTANGLE "image 8", 63x44px, constraints left/top, fill image(hash: 4e630d53074fcc6fb9618772961ea195930f53b3), effect [background_blur 4px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - RECTANGLE "Rectangle 123", 176x54px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "CONFIRM?", 118x28px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 152", 96x27px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Cancel", 62x23px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 20px]
+  - GROUP "Arrow Left Button", 30x29px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - ELLIPSE "Ellipse 4", 30x29px, constraints left/top, fill #000000, effect [background_blur 40px]
+    - FRAME "Iconly/Light/Arrow - Left", 16.36x15.82px, constraints scale/scale, fill #000000
+      - GROUP "Arrow - Left", 10.23x7.94px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 10.23x0.66px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Stroke 3", 4.12x7.94px, constraints scale/scale, stroke #FFFFFF 1.5px
+
+Screen: Hi-Fi Prototype / Preview Screen
+- FRAME "Preview Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - RECTANGLE "Rectangle 121", 214x204px, constraints left/top, radius 4px, fill #D9D9D9, effect [drop_shadow 2px offset 0 0 #81818140], opacity 80%
+  - RECTANGLE "Rectangle 120", 244x204px, constraints left/top, radius 4px, fill #E4E4E4, effect [drop_shadow 2px offset 0 0 #81818140], opacity 80%
+  - RECTANGLE "Rectangle 119", 264x204px, constraints left/top, radius 4px, fill #F0F0F0, effect [drop_shadow 2px offset 0 0 #81818140], opacity 80%
+  - GROUP "Group", 320x320px, constraints scale/scale, effect [background_blur 6px] [decorative, ~4 shapes]
+  - TEXT "[Fri Aug 17th]", 119x23px, constraints left/top, fill #747474, text [Roboto Regular, 20px]
+  - TEXT "F1, F2, F3 Screen 8", 90x49px, constraints left/top, fill #747474, text [Roboto Medium, 20px]
+  - TEXT "Total Amount: $33.00", 140x16px, constraints left/top, fill #747474, text [Roboto Medium, 14px]
+  - TEXT "Thor: Love and Thunder", 212x23px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 20px]
+  - TEXT "[8:00PM]", 80x23px, constraints left/top, fill #747474, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 123", 176x54px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "BUY NOW?", 119x28px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 24px], [heading]
+  - RECTANGLE "image 16", 30x30px, constraints left/top, fill image(hash: c64b666506b8e7c0e3adcae172562b1a6dc88a51), effect [drop_shadow 4px offset 0 4 #00000040]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - RECTANGLE "Rectangle 152", 96x27px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Cancel", 62x23px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 20px]
+  - GROUP "Arrow Left Button", 30x29px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - ELLIPSE "Ellipse 4", 30x29px, constraints left/top, fill #000000, effect [background_blur 40px]
+    - FRAME "Iconly/Light/Arrow - Left", 16.36x15.82px, constraints scale/scale, fill #000000
+      - GROUP "Arrow - Left", 10.23x7.94px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 10.23x0.66px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Stroke 3", 4.12x7.94px, constraints scale/scale, stroke #FFFFFF 1.5px
+
+Screen: Hi-Fi Prototype / Payment Information Screen
+- FRAME "Payment Information Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - TEXT "Card Holder Name: Credit Card Type: Credit Card Number: Expi", 152x306px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 12px]
+  - TEXT "PAYMENT INFORMATION", 344x35px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - RECTANGLE "Rectangle 125", 376x83px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "SUBMIT ORDER", 228x38px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+  - RECTANGLE "image 16", 30x30px, constraints left/top, fill image(hash: c64b666506b8e7c0e3adcae172562b1a6dc88a51), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 214x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 214x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 214x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 142x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 60x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 214x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Visa", 24x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "January", 44x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "2022", 28x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+  - RECTANGLE "Rectangle 152", 96x27px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Cancel", 62x23px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 20px]
+  - COMPONENT "arrow/chevron-down", 24x24px, constraints center/center, fill #FFFFFF
+    - VECTOR "Vector", 12x8px, constraints scale/scale, fill #000000
+  - COMPONENT "arrow/chevron-down", 24x24px, constraints center/center, fill #FFFFFF
+    - VECTOR "Vector", 12x8px, constraints scale/scale, fill #000000
+  - COMPONENT "arrow/chevron-down", 24x24px, constraints center/center, fill #FFFFFF
+    - VECTOR "Vector", 12x8px, constraints scale/scale, fill #000000
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - GROUP "Arrow Left Button", 30x29px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - ELLIPSE "Ellipse 4", 30x29px, constraints left/top, fill #000000, effect [background_blur 40px]
+    - FRAME "Iconly/Light/Arrow - Left", 16.36x15.82px, constraints scale/scale, fill #000000
+      - GROUP "Arrow - Left", 10.23x7.94px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 10.23x0.66px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Stroke 3", 4.12x7.94px, constraints scale/scale, stroke #FFFFFF 1.5px
+
+Screen: Hi-Fi Prototype / Mobile Ticket Screen
+- FRAME "Mobile Ticket Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - GROUP "Group", 382x689px, constraints scale/scale, effect [background_blur 6px] [decorative, ~4 shapes]
+  - TEXT "MOBILE TICKET", 217x35px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - RECTANGLE "image 16", 30x30px, constraints left/top, fill image(hash: c64b666506b8e7c0e3adcae172562b1a6dc88a51), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 24", 244x143px, constraints left/top, fill image(hash: d8721c10c0aaec91c56cd23337f688f0404eef9b), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 153", 54x22px, constraints left/top, fill #FFFFFF
+  - TEXT "PG-13", 44x18px, constraints left/top, fill #000000, text [Roboto Bold, 15px]
+  - TEXT "Adventure, Fantasy, Action", 141x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - LINE "Line 64", 0x18px, constraints left/top, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "English", 39x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - LINE "Line 64", 0x18px, constraints left/top, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "1 hour (s) 59 minute(s)", 123x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "SELECTED SEAT(S)", 104x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "F1,F2,F3", 45x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "BOOKING ID: JL6D4M5", 124x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "Friday, 17 Aug 2022 8:00PM XD/Screen 8", 105x42px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "Adult ($11.00 x 3)", 91x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "THOR: LOVE AND THUNDER", 316x29px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto SemiBold, 25px], [heading]
+  - LINE "Line 65", 297x0px, constraints left/top, stroke #000000 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 65", 297x0px, constraints left/top, stroke #000000 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "$33.00", 37x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "BOOKING FEES", 82x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "TAX 8.25%", 58x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "$6.00", 31x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - TEXT "$3.21", 31x14px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 12px]
+  - ... +7 more children
+
+Screen: Hi-Fi Prototype / Quick Access Menu
+- FRAME "Quick Access Menu", 315x926px, constraints left/top, fill gradient_linear(#FFFFFF 2% | #6692D5 100%)
+  - RECTANGLE "Rectangle 133", 428x926px, constraints left/top, radius 45px, fill gradient_linear(#BFC9D8 9% | #2458A5 66% | #0F62DF 87% | #0459DAEB 100%), effect [drop_shadow 4px offset 0 4 #00000040]
+  - ELLIPSE "Ellipse 13", 325x325px, constraints left/top, fill gradient_linear(#1A58B4 61% | #1F55A761 80%), effect [layer_blur 4px]
+  - ELLIPSE "Ellipse 13", 325x325px, constraints left/top, fill gradient_linear(#1A58B4 0% | #12428A00 66%), effect [layer_blur 4px]
+  - LINE "Line 45", 0x926px, constraints left/top, stroke #000000 1px
+  - LINE "Line 46", 315x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 6", 471x797px, constraints left/top, fill image(hash: 63aae1a9d94002fcb9b00525be64732e60566eba)
+  - TEXT "HOME", 83x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+  - TEXT "BROWSE MOVIES", 231x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+  - ELLIPSE "Ellipse 11", 46x46px, constraints left/top, fill image(hash: 49bf752f474ece2f80b1ffb6b7e614cbda466fa9), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "PROFILE", 114x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+  - ELLIPSE "Ellipse 11", 46x46px, constraints left/top, fill image(hash: 2c1eba882de37fb13b08b538d9dcd1313e5fbb9e), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "HELP", 72x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+  - RECTANGLE "image 8", 63x44px, constraints left/top, fill image(hash: 4e630d53074fcc6fb9618772961ea195930f53b3)
+  - RECTANGLE "image 9", 46x46px, constraints left/top, fill image(hash: 2a1a6c5e91d6074fcd069c1056216c3901419d34), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 16", 46x46px, constraints left/top, fill image(hash: c64b666506b8e7c0e3adcae172562b1a6dc88a51), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "X", 19x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+
+Screen: Hi-Fi Prototype / Profile Screen
+- FRAME "Profile Screen", 428x926px, constraints left/top, fill gradient_linear(#5E85BDCB 0% | #5E85BD 9% | #5E85BD 24% | #5E85BD 43% | #5E85BD 69% | #5E85BD81 100% | #5E85BD00 100%)
+  - TEXT "MY PROFILE", 170x35px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - RECTANGLE "Rectangle 136", 130x45px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [inner_shadow 4px offset 0 4 #00000040]
+  - TEXT "EDIT PROFILE", 108x20px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 15px]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #F5F5F5, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Fermin D. Moreno", 288x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "50/100 Points", 191x35px, constraints left/top, fill #000000, text [Roboto Medium, 30px], [heading]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Houston, TX", 165x35px, constraints left/top, fill #000000, text [Roboto Medium, 30px], [heading]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "VISA **** **** **** 1234", 324x35px, constraints left/top, fill #000000, text [Roboto Medium, 30px], [heading]
+  - ELLIPSE "Ellipse 11", 242x245px, constraints left/top, fill image(hash: 49bf752f474ece2f80b1ffb6b7e614cbda466fa9), stroke #000000 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - GROUP "Arrow Left Button", 30x29px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - ELLIPSE "Ellipse 4", 30x29px, constraints left/top, fill #000000, effect [background_blur 40px]
+    - FRAME "Iconly/Light/Arrow - Left", 16.36x15.82px, constraints scale/scale, fill #000000
+      - GROUP "Arrow - Left", 10.23x7.94px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 10.23x0.66px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Stroke 3", 4.12x7.94px, constraints scale/scale, stroke #FFFFFF 1.5px
+
+Screen: Hi-Fi Prototype / CONTACT SREEN
+- FRAME "CONTACT SREEN", 428x926px, constraints left/top, fill gradient_linear(#9BB5DD 0% | #9BB5DD 59% | #9BB5DD 65% | #9BB5DD 69% | #9BB5DD00 97%)
+  - TEXT "CONTACT US", 217x42px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 36px], [heading]
+  - TEXT "1234 Applewood Dr Houston, TX (469) 321-4312 Hours of Operat", 387x247px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto ExtraLight, 20px]
+  - RECTANGLE "image 3", 34x34px, constraints left/top, fill image(hash: 6114fbc8709d8d46a803e1119ecb2779d097c6b3), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 4", 34x34px, constraints left/top, fill image(hash: 72c1516cbedcba10c6aa33d760014b0b16ef9e5f), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 5", 34x34px, constraints left/top, fill image(hash: eaa137f349dc79c2b05dbdc93b9cddf221aa6a6d), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Instagram", 73x19px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 16px]
+  - TEXT "Twitter", 50x19px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 16px]
+  - TEXT "Facebook", 70x19px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 16px]
+  - ELLIPSE "Ellipse 13", 325x325px, constraints left/top, fill gradient_linear(#12428A00 0% | #12428A08 64% | #669AE8C7 99%), effect [layer_blur 4px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - LINE "Line 66", 406x0px, constraints left/top, stroke #000000BF 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - GROUP "Arrow Left Button", 30x29px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - ELLIPSE "Ellipse 4", 30x29px, constraints left/top, fill #000000, effect [background_blur 40px]
+    - FRAME "Iconly/Light/Arrow - Left", 16.36x15.82px, constraints scale/scale, fill #000000
+      - GROUP "Arrow - Left", 10.23x7.94px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 10.23x0.66px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Stroke 3", 4.12x7.94px, constraints scale/scale, stroke #FFFFFF 1.5px
+
+Screen: Hi-Fi Prototype / PROMOTIONS AND SIGN UP SCREEN
+- FRAME "PROMOTIONS AND SIGN UP SCREEN", 428x926px, constraints left/top, fill gradient_linear(#6388BE00 5% | #6388BE 49%)
+  - TEXT "PROMOTIONS", 193x35px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - RECTANGLE "image 22", 436x176px, constraints left/top, fill image(hash: 978c18abf514262388f0058d6d601724568801d4), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 23", 465.37x176px, constraints left/top, fill image(hash: 63696d149dd63f80edfa830dbbd8ec109e3f21df), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "OFFER DETAILS Reserve a Private Watch Party for you, family ", 375x241px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - GROUP "Arrow Left Button", 30x29px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - ELLIPSE "Ellipse 4", 30x29px, constraints left/top, fill #000000, effect [background_blur 40px]
+    - FRAME "Iconly/Light/Arrow - Left", 16.36x15.82px, constraints scale/scale, fill #000000
+      - GROUP "Arrow - Left", 10.23x7.94px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 10.23x0.66px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Stroke 3", 4.12x7.94px, constraints scale/scale, stroke #FFFFFF 1.5px
+
+Screen: Hi-Fi Prototype / SIGN UP INFORMATION SCREEN
+- FRAME "SIGN UP INFORMATION SCREEN", 428x926px, constraints left/top, fill gradient_linear(#4B71A7FB 0% | #5386CF 0% | #4B71A7FB 0% | #4B71A7FB 53% | #5B85C24B 93% | #BFD3EF00 100%)
+  - TEXT "PROFILE INFORMATION", 326x35px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "NAME", 72x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - TEXT "Membership Type", 270x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - TEXT "LOCATION", 144x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - TEXT "PAYMENT DETAILS", 270x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - ELLIPSE "Ellipse 12", 241x241px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 11", 241x241px, constraints left/top, fill image(hash: 49bf752f474ece2f80b1ffb6b7e614cbda466fa9), stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - TEXT "Required*", 67x18px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 15px]
+  - TEXT "Required*", 67x18px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 15px]
+  - TEXT "Required*", 67x18px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 15px]
+  - TEXT "Required*", 67x18px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 15px]
+  - GROUP "Arrow Left Button", 30x29px, constraints left/top, radius 0/0/0/0px, effect [drop_shadow 4px offset 0 4 #00000040]
+    - ELLIPSE "Ellipse 4", 30x29px, constraints left/top, fill #000000, effect [background_blur 40px]
+    - FRAME "Iconly/Light/Arrow - Left", 16.36x15.82px, constraints scale/scale, fill #000000
+      - GROUP "Arrow - Left", 10.23x7.94px, constraints left/top, fill #FFFFFF
+        - VECTOR "Stroke 1", 10.23x0.66px, constraints scale/scale, stroke #FFFFFF 1.5px
+        - VECTOR "Stroke 3", 4.12x7.94px, constraints scale/scale, stroke #FFFFFF 1.5px
+
+Screen: Hi-Fi Prototype / Save Payment Information Page
+- FRAME "Save Payment Information Page", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - RECTANGLE "Rectangle 144", 381x288px, constraints left/top, radius 13px, fill #FFFFFF, stroke #678BC1 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "First time buying? Would you like to save your payment infor", 381x212px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 20px]
+  - RECTANGLE "Rectangle 145", 264x74px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "YES", 115x75px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 64px], [heading]
+  - RECTANGLE "Rectangle 146", 104x31px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "NO", 28x23px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 20px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+
+Screen: Hi-Fi Prototype / IMAX, STANDARD, XD HELP PAGE
+- FRAME "IMAX, STANDARD, XD HELP PAGE", 428x928px, constraints left/top, fill gradient_linear(#7C97BF00 0% | #90AEDA02 0% | #2458A5 82%)
+  - RECTANGLE "Rectangle 18", 396x65px, constraints left/top, fill #D9D9D9
+  - ELLIPSE "Ellipse 9", 17x13px, constraints left/top, fill #D9D9D9
+  - LINE "Line 38", 0x16px, constraints left/top, stroke #D9D9D9 1px
+  - LINE "Line 39", 9x13px, constraints left/top, stroke #D9D9D9 1px
+  - LINE "Line 40", 10x12px, constraints left/top, stroke #D9D9D9 1px
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - TEXT "NEED HELP TO PICK WHICH KIND OF MOVIE EXPERIENCE YOU WANT?", 336x156px, constraints left/top, fill #16181A, stroke #FFFFFF 1px, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - TEXT "XD: XD theaters provide the best quality seat simulator in t", 383x508px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - LINE "Line 67", 391x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 67", 391x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 67", 391x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+
+Screen: Mock up 1 / Home Page
+- FRAME "Home Page", 428x928px, constraints left/top, fill gradient_linear(#7C97BF00 0% | #90AEDA02 0% | #2458A5 82%)
+  - RECTANGLE "Rectangle 1", 426x65px, constraints left/top, fill #4A76B7
+  - RECTANGLE "Rectangle 18", 396x65px, constraints left/top, fill #D9D9D9
+  - LINE "Line 2", 40x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 3", 40x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 4", 40x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 2", 167x26px, constraints left/top
+  - ELLIPSE "Ellipse 9", 17x13px, constraints left/top, fill #D9D9D9
+  - LINE "Line 38", 0x16px, constraints left/top, stroke #D9D9D9 1px
+  - LINE "Line 39", 9x13px, constraints left/top, stroke #D9D9D9 1px
+  - LINE "Line 40", 10x12px, constraints left/top, stroke #D9D9D9 1px
+  - TEXT "Register", 87x27px, constraints left/top, fill #FFFFFF, stroke #000000 1px, text [Roboto Bold, 23px]
+  - TEXT "Sign In", 72x27px, constraints left/top, fill #000000, stroke #FFFFFF 1px, text [Roboto Bold, 23px]
+  - ELLIPSE "Ellipse 3", 6x6px, constraints left/top, fill #000000
+  - ELLIPSE "Ellipse 4", 6x6px, constraints left/top, fill #000000
+  - ELLIPSE "Ellipse 5", 6x6px, constraints left/top, fill #000000
+  - ELLIPSE "Ellipse 6", 6x6px, constraints left/top, fill #000000
+  - TEXT "Now Showing", 307x25px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 24px], [heading]
+  - TEXT "View All", 79x12px, constraints left/top, fill #000000, text [Roboto Bold, 10px]
+  - LINE "Line 16", 379x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Contact Us", 75x18px, constraints left/top, fill #000000, text [Roboto Bold, 15px]
+  - TEXT "1234 Applewood Dr Houston, TX (469) 321-4312 Hours of Operat", 193x83px, constraints left/top, fill #000000, text [Roboto ExtraLight, 6px]
+  - TEXT "Promotions and Offers", 205x23px, constraints left/top, fill #000000, text [Roboto Bold, 20px]
+  - ELLIPSE "Ellipse 7", 63x63px, constraints left/top, fill image(hash: 890fd1adbaae08ecb2e1c49fe73d80da1e799e3a)
+  - RECTANGLE "image 8", 63x44px, constraints left/top, fill image(hash: 4e630d53074fcc6fb9618772961ea195930f53b3)
+  - LINE "Line 63", 0x31px, constraints left/top, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - ... +25 more children
+
+Screen: Mock up 1 / Movies and Times Screen
+- FRAME "Movies and Times Screen", 428x1346px, constraints left/top, fill gradient_linear(#7DA4DDFE 10% | #2659A5BF 29% | #90B8F466 100% | #B6CDEF26 100%)
+  - TEXT "Movies", 79x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Times", 68x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - TEXT "Dates", 62x28px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 26", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "5:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 27", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "7:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 28", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "9:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 29", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "6:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 30", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "8:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 31", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "5:30PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 32", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "7:45PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 33", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "9:30PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - TEXT "XD", 17x15px, constraints left/top, fill #000000, text [Roboto SemiBold, 13px]
+  - TEXT "IMAX", 33x15px, constraints left/top, fill #000000, text [Roboto SemiBold, 13px]
+  - TEXT "STANDARD", 67x15px, constraints left/top, fill #000000, text [Roboto SemiBold, 13px]
+  - VECTOR "Arrow 1", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 54", 47x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "11:00AM", 45x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - ... +155 more children
+
+Screen: Mock up 1 / Seat Screen
+- FRAME "Seat Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - GROUP "Screen", 330x36.28px, constraints left/top, effect [background_blur 4px]
+    - VECTOR "hightlight", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px, effect [layer_blur 15px]
+    - VECTOR "Line 4", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px
+  - TEXT "SCREEN", 57x18px, constraints left/top, fill #000000, text [Roboto SemiBold, 15px]
+  - GROUP "Group 27", 401.99x353px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 63", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 69", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 70", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 77", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 78", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 79", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 80", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 81", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 82", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 71", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 72", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 68", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 64", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 65", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 66", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 67", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 73", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 74", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 75", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 76", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 83", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 84", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 85", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 86", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - GROUP "Group 22", 401.99x85.42px, constraints left/top, radius 0/0/0/0px [decorative, ~30 shapes]
+    - ... +4 more children
+  - RECTANGLE "Rectangle 60", 18x18px, constraints left/top, radius 4/4/0/0px, fill #000000
+  - GROUP "Group 26", 75.49x18.3px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 62", 18.3x18.3px, constraints left/top, radius 4/4/0/0px, fill #FF0000
+    - TEXT "Selected", 43.46x13.73px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - GROUP "Group 25", 76.63x18.3px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 61", 18.3x18.3px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - TEXT "Available", 44.61x13.73px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "Unavailable", 59x13px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "THOR: LOVE AND THUNDER", 291x27px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 23px]
+  - VECTOR "Arrow 1", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 8", 63x44px, constraints left/top, fill image(hash: 4e630d53074fcc6fb9618772961ea195930f53b3), effect [background_blur 4px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+
+Screen: Mock up 1 / Seat Slected Screen
+- FRAME "Seat Slected Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - GROUP "Screen", 330x36.28px, constraints left/top, effect [background_blur 4px]
+    - VECTOR "hightlight", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px, effect [layer_blur 15px]
+    - VECTOR "Line 4", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px
+  - TEXT "SCREEN", 57x18px, constraints left/top, fill #000000, text [Roboto SemiBold, 15px]
+  - GROUP "Group 27", 401.99x353px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 63", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 69", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 70", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 77", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 78", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 79", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 80", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 81", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 82", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 71", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 72", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 68", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 64", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 65", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 66", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 67", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 73", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 74", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 75", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 76", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 83", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 84", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 85", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 86", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - GROUP "Group 22", 401.99x85.42px, constraints left/top, radius 0/0/0/0px [decorative, ~30 shapes]
+    - ... +4 more children
+  - RECTANGLE "Rectangle 60", 18x18px, constraints left/top, radius 4/4/0/0px, fill #000000
+  - GROUP "Group 26", 75.49x18.3px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 62", 18.3x18.3px, constraints left/top, radius 4/4/0/0px, fill #FF0000
+    - TEXT "Selected", 43.46x13.73px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - GROUP "Group 25", 76.63x18.3px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 61", 18.3x18.3px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - TEXT "Available", 44.61x13.73px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "Unavailable", 59x13px, constraints left/top, fill #000000, text [Roboto Medium, 10px]
+  - TEXT "THOR: LOVE AND THUNDER", 291x27px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 23px]
+  - VECTOR "Arrow 1", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 8", 63x44px, constraints left/top, fill image(hash: 4e630d53074fcc6fb9618772961ea195930f53b3), effect [background_blur 4px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+
+Screen: Mock up 1 / Preview Screen
+- FRAME "Preview Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - RECTANGLE "Rectangle 121", 214x204px, constraints left/top, radius 4px, fill #D9D9D9, effect [drop_shadow 2px offset 0 0 #81818140], opacity 80%
+  - RECTANGLE "Rectangle 120", 244x204px, constraints left/top, radius 4px, fill #E4E4E4, effect [drop_shadow 2px offset 0 0 #81818140], opacity 80%
+  - RECTANGLE "Rectangle 119", 264x204px, constraints left/top, radius 4px, fill #F0F0F0, effect [drop_shadow 2px offset 0 0 #81818140], opacity 80%
+  - GROUP "Group", 320x320px, constraints scale/scale, effect [background_blur 6px] [decorative, ~4 shapes]
+  - TEXT "[Fri Aug 17th]", 119x23px, constraints left/top, fill #747474, text [Roboto Regular, 20px]
+  - TEXT "F1, F2, F3 Screen 8", 90x49px, constraints left/top, fill #747474, text [Roboto Medium, 20px]
+  - TEXT "Total Amount: $33.00", 140x16px, constraints left/top, fill #747474, text [Roboto Medium, 14px]
+  - TEXT "Thor: Love and Thunder", 212x23px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - TEXT "[8:00PM]", 80x23px, constraints left/top, fill #747474, text [Roboto Regular, 20px]
+  - RECTANGLE "Rectangle 123", 176x54px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "BUY NOW?", 119x28px, constraints left/top, fill #000000, text [Roboto Bold, 24px], [heading]
+  - RECTANGLE "Rectangle 134", 139x53px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "CANCEL?", 88x26px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 20px]
+  - VECTOR "Arrow 1", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 16", 46x46px, constraints left/top, fill image(hash: c64b666506b8e7c0e3adcae172562b1a6dc88a51), effect [drop_shadow 4px offset 0 4 #00000040]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+
+Screen: Mock up 1 / Payment Information Screen
+- FRAME "Payment Information Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - TEXT "Card Holder Name: Credit Card Type: Credit Card Number: Expi", 152x306px, constraints left/top, fill #000000, text [Roboto Bold, 12px]
+  - TEXT "PAYMENT INFORMATION", 344x35px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - RECTANGLE "Rectangle 125", 376x83px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "SUBMIT ORDER", 228x38px, constraints left/top, fill #000000, text [Roboto Bold, 32px], [heading]
+  - VECTOR "Arrow 1", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 16", 46x46px, constraints left/top, fill image(hash: c64b666506b8e7c0e3adcae172562b1a6dc88a51), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 214x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 214x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 214x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 142x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 60x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 151", 214x25px, constraints left/top, fill #FFFFFF, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Visa", 24x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "January", 44x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+  - TEXT "2022", 28x14px, constraints left/top, fill #000000, text [Roboto Medium, 12px]
+  - RECTANGLE "Rectangle 152", 96x27px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Cancel", 62x23px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - INSTANCE "arrow/chevron-down", 24x24px, constraints center/center, fill #FFFFFF
+    - VECTOR "Vector", 12x8px, constraints scale/scale, fill #000000
+  - INSTANCE "arrow/chevron-down", 24x24px, constraints center/center, fill #FFFFFF
+    - VECTOR "Vector", 12x8px, constraints scale/scale, fill #000000
+  - INSTANCE "arrow/chevron-down", 24x24px, constraints center/center, fill #FFFFFF
+    - VECTOR "Vector", 12x8px, constraints scale/scale, fill #000000
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+
+Screen: Mock up 1 / Mobile Ticket Screen
+- FRAME "Mobile Ticket Screen", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - GROUP "Group", 382x689px, constraints scale/scale, effect [background_blur 6px] [decorative, ~4 shapes]
+  - TEXT "MOBILE TICKET", 217x35px, constraints left/top, fill #000000, text [Roboto Bold, 30px], [heading]
+  - VECTOR "Arrow 1", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 16", 46x46px, constraints left/top, fill image(hash: c64b666506b8e7c0e3adcae172562b1a6dc88a51), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 24", 244x143px, constraints left/top, fill image(hash: d8721c10c0aaec91c56cd23337f688f0404eef9b), effect [background_blur 4px]
+  - RECTANGLE "Rectangle 153", 54x22px, constraints left/top, fill #FFFFFF
+  - TEXT "PG-13", 44x18px, constraints left/top, fill #000000, text [Roboto Bold, 15px]
+  - TEXT "Adventure, Fantasy, Action", 141x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - LINE "Line 64", 0x18px, constraints left/top, stroke #000000 1px
+  - TEXT "English", 39x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - LINE "Line 64", 0x18px, constraints left/top, stroke #000000 1px
+  - TEXT "1 hour (s) 59 minute(s)", 123x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "SELECTED SEAT(S)", 104x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "F1,F2,F3", 45x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "BOOKING ID: JL6D4M5", 124x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "Friday, 17 Aug 2022 8:00PM XD/Screen 8", 105x42px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "Adult ($11.00 x 3)", 91x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "THOR: LOVE AND THUNDER", 316x29px, constraints left/top, fill #000000, text [Roboto SemiBold, 25px], [heading]
+  - LINE "Line 65", 297x0px, constraints left/top, stroke #000000 2px
+  - LINE "Line 65", 297x0px, constraints left/top, stroke #000000 2px
+  - TEXT "$33.00", 37x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "BOOKING FEES", 82x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "TAX 8.25%", 58x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - TEXT "$6.00", 31x14px, constraints left/top, fill #000000, text [Roboto Regular, 12px]
+  - ... +7 more children
+
+Screen: Mock up 1 / Quick Access Menu
+- FRAME "Quick Access Menu", 315x926px, constraints left/top, fill gradient_linear(#FFFFFF 2% | #6692D5 100%)
+  - RECTANGLE "Rectangle 133", 428x926px, constraints left/top, radius 45px, fill gradient_linear(#BFC9D8 9% | #2458A5 66% | #0F62DF 87% | #0459DAEB 100%), effect [drop_shadow 4px offset 0 4 #00000040]
+  - ELLIPSE "Ellipse 13", 325x325px, constraints left/top, fill gradient_linear(#1A58B4 61% | #1F55A761 80%), effect [layer_blur 4px]
+  - ELLIPSE "Ellipse 13", 325x325px, constraints left/top, fill gradient_linear(#1A58B4 0% | #12428A00 66%), effect [layer_blur 4px]
+  - LINE "Line 45", 0x926px, constraints left/top, stroke #000000 1px
+  - LINE "Line 46", 315x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 6", 471x797px, constraints left/top, fill image(hash: 63aae1a9d94002fcb9b00525be64732e60566eba)
+  - TEXT "HOME", 83x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+  - TEXT "BROWSE MOVIES", 231x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+  - ELLIPSE "Ellipse 11", 46x46px, constraints left/top, fill image(hash: 49bf752f474ece2f80b1ffb6b7e614cbda466fa9), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "PROFILE", 114x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+  - ELLIPSE "Ellipse 11", 46x46px, constraints left/top, fill image(hash: 2c1eba882de37fb13b08b538d9dcd1313e5fbb9e), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "HELP", 72x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+  - RECTANGLE "image 8", 63x44px, constraints left/top, fill image(hash: 4e630d53074fcc6fb9618772961ea195930f53b3)
+  - RECTANGLE "image 9", 46x46px, constraints left/top, fill image(hash: 2a1a6c5e91d6074fcd069c1056216c3901419d34), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 16", 46x46px, constraints left/top, fill image(hash: c64b666506b8e7c0e3adcae172562b1a6dc88a51), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "X", 19x34px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 29px], [heading]
+
+Screen: Mock up 1 / Profile Screen
+- FRAME "Profile Screen", 428x926px, constraints left/top, fill gradient_linear(#5E85BDCB 0% | #5E85BD 9% | #5E85BD 24% | #5E85BD 43% | #5E85BD 69% | #5E85BD81 100% | #5E85BD00 100%)
+  - TEXT "MY PROFILE", 170x35px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - RECTANGLE "Rectangle 136", 130x45px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [inner_shadow 4px offset 0 4 #00000040]
+  - TEXT "EDIT PROFILE", 108x20px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 15px]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #F5F5F5, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Fermin D. Moreno", 288x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "50/100 Points", 191x35px, constraints left/top, fill #000000, text [Roboto Medium, 30px], [heading]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Houston, TX", 165x35px, constraints left/top, fill #000000, text [Roboto Medium, 30px], [heading]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "VISA **** **** **** 1234", 324x35px, constraints left/top, fill #000000, text [Roboto Medium, 30px], [heading]
+  - VECTOR "Arrow 3", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - ELLIPSE "Ellipse 11", 242x245px, constraints left/top, fill image(hash: 49bf752f474ece2f80b1ffb6b7e614cbda466fa9), stroke #000000 2px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+
+Screen: Mock up 1 / CONTACT SREEN
+- FRAME "CONTACT SREEN", 428x926px, constraints left/top, fill gradient_linear(#9BB5DD 0% | #9BB5DD 59% | #9BB5DD 65% | #9BB5DD 69% | #9BB5DD00 97%)
+  - TEXT "CONTACT US", 217x42px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 36px], [heading]
+  - VECTOR "Arrow 1", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "1234 Applewood Dr Houston, TX (469) 321-4312 Hours of Operat", 387x247px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto ExtraLight, 20px]
+  - RECTANGLE "image 3", 34x34px, constraints left/top, fill image(hash: 6114fbc8709d8d46a803e1119ecb2779d097c6b3), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 4", 34x34px, constraints left/top, fill image(hash: 72c1516cbedcba10c6aa33d760014b0b16ef9e5f), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 5", 34x34px, constraints left/top, fill image(hash: eaa137f349dc79c2b05dbdc93b9cddf221aa6a6d), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "Instagram", 73x19px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 16px]
+  - TEXT "Twitter", 50x19px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 16px]
+  - TEXT "Facebook", 70x19px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Regular, 16px]
+  - ELLIPSE "Ellipse 13", 325x325px, constraints left/top, fill gradient_linear(#12428A00 0% | #12428A08 64% | #669AE8C7 99%), effect [layer_blur 4px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - LINE "Line 66", 406x0px, constraints left/top, stroke #000000BF 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+
+Screen: Mock up 1 / PROMOTIONS AND SIGN UP SCREEN
+- FRAME "PROMOTIONS AND SIGN UP SCREEN", 428x926px, constraints left/top, fill gradient_linear(#6388BE00 5% | #6388BE 49%)
+  - TEXT "PROMOTIONS", 193x35px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - VECTOR "Arrow 1", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 22", 436x176px, constraints left/top, fill image(hash: 978c18abf514262388f0058d6d601724568801d4), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 23", 465.37x176px, constraints left/top, fill image(hash: 63696d149dd63f80edfa830dbbd8ec109e3f21df), effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "OFFER DETAILS Reserve a Private Watch Party for you, family ", 375x241px, constraints left/top, fill #000000, text [Roboto Regular, 15px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+
+Screen: Mock up 1 / SIGN UP INFORMATION SCREEN
+- FRAME "SIGN UP INFORMATION SCREEN", 428x926px, constraints left/top, fill gradient_linear(#4B71A7FB 0% | #5386CF 0% | #4B71A7FB 0% | #4B71A7FB 53% | #5B85C24B 93% | #BFD3EF00 100%)
+  - TEXT "PROFILE INFORMATION", 326x35px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Bold, 30px], [heading]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "Rectangle 137", 380x71px, constraints left/top, radius 13px, fill #FFFFFF, stroke #000000 1.5px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "NAME", 72x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - TEXT "Membership Type", 270x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - TEXT "LOCATION", 144x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - TEXT "PAYMENT DETAILS", 270x39px, constraints left/top, fill #000000, text [IBM Plex Mono Medium, 30px], [heading]
+  - ELLIPSE "Ellipse 12", 241x241px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 11", 241x241px, constraints left/top, fill image(hash: 49bf752f474ece2f80b1ffb6b7e614cbda466fa9), stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - VECTOR "Arrow 2", 26x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+  - TEXT "Required*", 67x18px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 15px]
+  - TEXT "Required*", 67x18px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 15px]
+  - TEXT "Required*", 67x18px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 15px]
+  - TEXT "Required*", 67x18px, constraints left/top, fill #FFFFFF, text [Roboto Medium, 15px]
+
+Screen: Mock up 1 / Save Payment Information Page
+- FRAME "Save Payment Information Page", 428x926px, constraints left/top, fill #FFFFFF
+  - RECTANGLE "image 21", 428x1023px, constraints left/top, fill image(hash: 3dff490e93deb8896b1728c0ae0565bd072af106)
+  - RECTANGLE "Rectangle 144", 381x288px, constraints left/top, radius 13px, fill #FFFFFF, stroke #678BC1 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "First time buying? Would you like to save your payment infor", 381x212px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - RECTANGLE "Rectangle 145", 264x74px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "YES", 115x75px, constraints left/top, fill #000000, text [Roboto Medium, 64px], [heading]
+  - RECTANGLE "Rectangle 146", 104x31px, constraints left/top, radius 13px, fill #E0E0E0, stroke #000000 1px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "CANCEL", 76x23px, constraints left/top, fill #000000, text [Roboto Medium, 20px]
+  - GROUP "Battery", 24.56x11.44px, constraints left/top, radius 0/0/0/0px, fill #FFFFFF
+    - RECTANGLE "Border", 22.21x11.44px, constraints right/top, radius 2.69px, stroke #FFFFFF 1.01px, opacity 35%
+    - VECTOR "Cap", 1.34x4.04px, constraints right/top, fill #FFFFFF, opacity 40%
+    - RECTANGLE "Capacity", 18.17x7.4px, constraints right/top, radius 1.35px, fill #FFFFFF
+  - BOOLEAN_OPERATION "Wifi", 15.48x11.1px, constraints right/top, fill #FFFFFF
+  - BOOLEAN_OPERATION "Cellular Connection", 17.16x10.77px, constraints right/top, fill #FFFFFF
+  - TEXT "Time", 54.51x18px, constraints left/center, fill #FFFFFF, text [Roboto Light, 15px]
+
+Screen: Sticker sheet / MacBook Pro 16" - 1
+- FRAME "MacBook Pro 16" - 1", 1728x1117px, constraints left/top, fill #FFFFFF
+  - ELLIPSE "Ellipse 12", 46x46px, constraints left/top, fill image(hash: 49bf752f474ece2f80b1ffb6b7e614cbda466fa9), effect [drop_shadow 4px offset 0 4 #00000040]
+  - ELLIPSE "Ellipse 11", 46x46px, constraints left/top, fill image(hash: 2c1eba882de37fb13b08b538d9dcd1313e5fbb9e), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 9", 46x46px, constraints left/top, fill image(hash: 2a1a6c5e91d6074fcd069c1056216c3901419d34), effect [drop_shadow 4px offset 0 4 #00000040]
+  - RECTANGLE "image 16", 46x46px, constraints left/top, fill image(hash: c64b666506b8e7c0e3adcae172562b1a6dc88a51), effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 2", 40x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 3", 40x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - LINE "Line 4", 40x0px, constraints left/top, stroke #000000 3px, effect [drop_shadow 4px offset 0 4 #00000040]
+  - GROUP "Group", 57.21x92.88px, constraints scale/scale, effect [drop_shadow 6px offset 0 0 #00000033]
+    - VECTOR "Vector", 57.21x92.88px, constraints scale/scale, fill #FFFFFF, stroke #000000 1px
+    - GROUP "Group", 44.85x0.66px, constraints scale/scale
+      - GROUP "Group", 1.99x0.54px, constraints scale/scale
+        - VECTOR "Vector", 1.99x0.54px, constraints scale/scale, fill #E0E0E0, stroke #000000 1px
+      - GROUP "Group", 33.43x0.63px, constraints scale/scale
+        - VECTOR "Vector", 33.43x0.63px, constraints scale/scale, fill #E0E0E0, stroke #000000 1px
+      - GROUP "Group", 1.99x0.54px, constraints scale/scale
+        - VECTOR "Vector", 1.99x0.54px, constraints scale/scale, fill #E0E0E0, stroke #000000 1px
+    - TEXT "18", 23x25.69px, constraints left/top, fill #000000, stroke #000000 1px, text [Roboto Bold, 20px]
+  - GROUP "Screen", 330x36.28px, constraints left/top, effect [background_blur 4px]
+    - VECTOR "hightlight", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px, effect [layer_blur 15px]
+    - VECTOR "Line 4", 330x36.28px, constraints left/top, fill #000000, stroke #000000 10px
+  - GROUP "Group 27", 401.99x353px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 63", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 69", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 70", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 77", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 78", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 79", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 80", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 81", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 82", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 71", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 72", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 68", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 64", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 65", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 66", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 67", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 73", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 74", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 75", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 76", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 83", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 84", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 85", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - RECTANGLE "Rectangle 86", 20.1x20.1px, constraints left/top, radius 4/4/0/0px, fill #143CC9
+    - GROUP "Group 22", 401.99x85.42px, constraints left/top, radius 0/0/0/0px [decorative, ~30 shapes]
+    - ... +4 more children
+  - RECTANGLE "Rectangle 26", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "5:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 27", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "7:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 28", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "9:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 29", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "6:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 30", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "8:00PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 31", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "5:30PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 32", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - TEXT "7:45PM", 39x13px, constraints left/top, fill #000000, effect [drop_shadow 4px offset 0 4 #00000040], text [Roboto Medium, 11px]
+  - RECTANGLE "Rectangle 33", 41x23px, constraints left/top, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - ... +40 more children
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

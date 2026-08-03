@@ -1,0 +1,1284 @@
+---
+name: crowdstrike-the-falcon-foundry-ui-kit-community
+source_file: Crowdstrike | The Falcon Foundry UI Kit (Community)
+source_page: All pages (10): Cover, Getting Started, ---------------, Styles, Tokens, Components, Page Templates, ---------------, Change log, .Admin
+generated_at: 2026-07-25T09:45:09.543048+00:00
+---
+
+# Crowdstrike | The Falcon Foundry UI Kit (Community) Design Guidelines
+
+## Source
+- Figma file: Crowdstrike | The Falcon Foundry UI Kit (Community)
+- Figma page: All pages (10): Cover, Getting Started, ---------------, Styles, Tokens, Components, Page Templates, ---------------, Change log, .Admin
+- Extracted at: 2026-07-25T09:45:09.543048+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- darkmode/nav/nav-text-and-icons: [#FAFAFA]
+- darkmode/surfaces/surface-2xl: [#222126, #FFFFFF1F]
+- darkmode/surfaces/surface-inner: [#222126, #FFFFFF1F]
+- darkmode/interactive/normal/normal-idle: [#4E4F5A]
+- darkmode/interactive/text-and-icons/text-and-icons: [#FAFAFA]
+- darkmode/text/body-and-labels: [#A6ACB0]
+- darkmode/text/titles-and-attributes: [#E2E2E4]
+- ag-grid_com_example__1342.4241943359375x1481.060546875 (1)/Woodsmoke: [#181D1F]
+- Light/ag-input-focus-border-color: [#181D1F]
+- lightmode/interactive/text-and-icons/text-and-icons: [#202020]
+- lightmode/text/body-and-labels: [#767676]
+- lightmode/backgrounds/ground-floor: [#FFFFFF]
+- lightmode/surfaces/surface-lg: [#FFFFFF, #FFFFFF14]
+
+## Raw Colors (unstyled)
+- #FFE897: 247 uses
+- #9747FF: 188 uses
+- #FFFFFF: 180 uses
+- #000000: 34 uses
+- #FAFAFA: 20 uses
+- #D9D9D9: 19 uses
+- #7B61FF: 10 uses
+- #09090C: 4 uses
+- #212121: 4 uses
+- #A6ACB0: 4 uses
+- #BABFC7: 4 uses
+
+## Typography Tokens
+- type/sans-serif/m: SF Pro Regular (400), 14px / 24px, tracking 0px
+- type/sans-serif/m-semibold: SF Pro Semibold (590), 14px / 24px, tracking 0px
+- type/sans-serif/m-underline: SF Pro Regular (400), 14px / 24px, tracking 0px
+- type/sans-serif/2xl: SF Pro Semibold (590), 28px / 40px, tracking 0px
+- type/sans-serif/xl: SF Pro Semibold (590), 20px / 32px, tracking 0px
+- $type-md: Calibre Regular (400), 16px / 24px, tracking 0px
+- type/sans-serif/m-tight-semibold: SF Pro Semibold (600), 14px / 20px, tracking 0px
+- type/sans-serif/m-tight: SF Pro Regular (400), 14px / 20px, tracking 0px
+- type/sans-serif/m-tight-underline: SF Pro Regular (400), 14px / 24px, tracking 0px
+- type/sans-serif/xs-tight: SF Pro Regular (400), 11px / 16px, tracking 0px
+- type/sans-serif/l-semibold: SF Pro Semibold (590), 18px / 32px, tracking -0.18px
+- $type-md-medium: Calibre Medium (500), 16px / 24px, tracking 0px
+- type/sans-serif/xs: SF Pro Regular (400), 11px / 20px, tracking 0px
+- $type-xs-tight: Calibre Regular (400), 12px / 16px, tracking 0px
+- type/mono/s-tight: Consolas Consolas (400), 13px / 20px, tracking 0px
+- type/mono/s: Consolas Consolas (400), 13px / 22px, tracking 0px
+- type/mono/m-tight: Consolas Consolas (400), 14px / 20px, tracking 0px
+- type/mono/m: Consolas Consolas (400), 14px / 24px, tracking 0px
+- type/sans-serif/xs-tight-underline: SF Pro Regular (400), 11px / 16px, tracking 0px
+- type/sans-serif/l: SF Pro Regular (400), 18px / 32px, tracking -0.18px
+- type/sans-serif/l-tight-semibold: SF Pro Semibold (590), 18px / 24px, tracking -0.18px
+- type/sans-serif/3xl: SF Pro Semibold (590), 36px / 48px, tracking -0.72px
+- type/sans-serif/4xl: SF Pro Semibold (590), 44px / 52px, tracking -2.2px
+
+## Raw Typography (unstyled)
+- Roboto Regular, 13px: 205 uses
+- Segoe UI SegoeUI, 14px: 93 uses
+- SF Pro Regular, 14px: 33 uses
+- Calibre Regular, 16px: 16 uses
+- Calibre Medium, 16px: 8 uses
+- Calibre Medium, 36px: 4 uses
+- Consolas Bold, 28px: 3 uses
+- SF Pro Semibold, 28px: 3 uses
+- SF Pro Semibold, 44px: 3 uses
+- Segoe UI Semibold, 28px: 3 uses
+
+## Typography Hierarchy
+- 44px - SF Pro Semibold, 44px (raw)
+- 44px - type/sans-serif/4xl (SF Pro Semibold)
+- 36px - Calibre Medium, 36px (raw)
+- 36px - type/sans-serif/3xl (SF Pro Semibold)
+- 28px - Consolas Bold, 28px (raw)
+- 28px - SF Pro Semibold, 28px (raw)
+- 28px - Segoe UI Semibold, 28px (raw)
+- 28px - type/sans-serif/2xl (SF Pro Semibold)
+- 20px - type/sans-serif/xl (SF Pro Semibold)
+- 18px - type/sans-serif/l (SF Pro Regular)
+- 18px - type/sans-serif/l-semibold (SF Pro Semibold)
+- 18px - type/sans-serif/l-tight-semibold (SF Pro Semibold)
+- 16px - $type-md (Calibre Regular)
+- 16px - $type-md-medium (Calibre Medium)
+- 16px - Calibre Medium, 16px (raw)
+- 16px - Calibre Regular, 16px (raw)
+- 14px - SF Pro Regular, 14px (raw)
+- 14px - Segoe UI SegoeUI, 14px (raw)
+- 14px - type/mono/m (Consolas Consolas)
+- 14px - type/mono/m-tight (Consolas Consolas)
+- 14px - type/sans-serif/m (SF Pro Regular)
+- 14px - type/sans-serif/m-semibold (SF Pro Semibold)
+- 14px - type/sans-serif/m-tight (SF Pro Regular)
+- 14px - type/sans-serif/m-tight-semibold (SF Pro Semibold)
+- 14px - type/sans-serif/m-tight-underline (SF Pro Regular)
+- 14px - type/sans-serif/m-underline (SF Pro Regular)
+- 13px - Roboto Regular, 13px (raw)
+- 13px - type/mono/s (Consolas Consolas)
+- 13px - type/mono/s-tight (Consolas Consolas)
+- 12px - $type-xs-tight (Calibre Regular)
+- 11px - type/sans-serif/xs (SF Pro Regular)
+- 11px - type/sans-serif/xs-tight (SF Pro Regular)
+- 11px - type/sans-serif/xs-tight-underline (SF Pro Regular)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- darkmode/effects/$elevation-2: [drop_shadow 8px offset 0 2 #00000026]
+- Light/ag-input-focus-box-shadow: [drop_shadow 6px offset 0 0 #2196F366]
+- alert/shadow: [drop_shadow 6px offset 0 4 #0000000F]
+- lightmode/elevation/base: [drop_shadow 1px offset 0 0 #00000012, drop_shadow 2px offset 0 1 #00000026]
+- input/shadow: [inner_shadow 4px offset 0 2 #00000014]
+- lightmode/elevation/inner-md: [inner_shadow 4px offset 0 2 #00000014]
+
+## Grid Styles
+- 1 column $spacing-s: columns count 1, section 120px, gutter 20px, align stretch
+
+## Component Families
+- Alert
+- Breadcrumb
+- Button
+- Button Group
+- Card
+- Checkbox
+- .Checkbox - Radio
+- Details
+- Dialog
+- Divider
+- Drawer
+- Dropdown
+- Input
+- Menu-Item
+- Menu
+- Radio
+- Radio Group
+- Select
+- Spinner
+- Switch
+- .Switch
+- Tab
+- Tab Group
+- Textarea
+- Tooltip
+- Tree
+- Leaf node (multi select tree)
+- Leaf node (single select tree)
+- Parent node (multi select tree)
+- Parent node (single select tree)
+- .Input Help Text
+- .Input Text
+- .Input Label
+- .Divider
+- Menu Label
+- .beak
+- .tooltip
+- .navigation
+- .SimpleTable
+
+## Component Specs
+- Alert: size 560x64px, radius 2px, horizontal layout, padding 0 0 0 0px, gap 0px, align max/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/m-tight, type/sans-serif/m-semibold, $type-xs-tight] | variants: Variant: Alert/Danger/Info/Success; Descriptor: Off/On; Buttons: 0/1/2; Shadow: Off/On
+- Breadcrumb: size 235x32px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, text [type/sans-serif/m, type/sans-serif/m-underline] | variants: # of links: 2/3/4
+- Button // Loading: size 72x32px, radius 2px, vertical layout, padding 16 20 16 20px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #DDDDDF | variants: Style: Danger/Default/Neutral/Primary; State: Active/Focus/Hover/Inactive
+- Button // Dismiss: size 24x24px, fill #FFFFFF | variants: State: Active/Focus/Hover/Inactive
+- Button // Icon: size 32x32px, radius 2px, fill #DDDDDF | variants: Style: Neutral/Primary; State: Active/Disabled/Focus/Hover/Inactive
+- Button // Text: size 76x32px, horizontal layout, padding 4 8 4 8px, gap 0px, align center/center, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m-underline] | variants: Style: Back/NewTab/Primary; state: Active/Disabled/Focus/Hover/Inactive; Padding: On
+- Button // IconText: size 112x32px, radius 2px, horizontal layout, padding 6 12 6 12px, gap 8px, align min/center, sizing W:fixed H:fixed, fill #DDDDDF, text [type/sans-serif/m-tight] | variants: Style: Default/Neutral/Primary; State: Active/Disabled/Focus/Hover/Inactive; Leading icon: off/on; Trailing icon: off/on
+- Button: size 102x32px, radius 2px, vertical layout, padding 6 20 6 20px, gap 4px, align center/center, sizing W:fixed H:fixed, fill #DDDDDF, text [type/sans-serif/m-tight] | variants: Style: Danger/Default/Neutral/Primary; State: Active/Disabled/Focus/Hover/Inactive
+- Button Group: size 205x32px, horizontal layout, padding 0 0 0 0px, gap 1px, sizing W:fixed H:fixed, text [type/sans-serif/m-tight] | variants: Group Size: 2/3
+- Card/Content types: size 480x76px, horizontal layout, padding 20 20 20 20px, gap 8px, sizing W:fill H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/m] | variants: Content type: Stacked/Tab Group/Text/Wrapped
+- Card: size 520x512px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [type/sans-serif/m-underline, type/sans-serif/m-tight, type/sans-serif/m, type/sans-serif/m-semibold, type/sans-serif/xl] | variants: Header: False/True; Tab Group: False/True; Text: False/True; Details View: None/Stacked/Wrap; Footer: False/True
+- Checkbox: size 128x24px, horizontal layout, padding 0 0 0 0px, gap 6px, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m] | variants: type: checked/unchecked; state: disabled/focus/idle
+- .Checkbox - Radio: size 16x16px, radius 2px, fill #0F687B | variants: state: indeterminate/selected/selected-disabled/unselected/unselected-disabled; type: checkbox/radio; focus: off/on
+- Details/Body: size 600x144px, horizontal layout, padding 20 20 20 20px, gap 8px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/m, type/sans-serif/m-semibold] | variants: Rounded: False/True
+- Details/Header: size 600x72px, horizontal layout, padding 20 20 20 20px, gap 8px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/l-semibold] | variants: State: Closed/Open; Rounded: False/True
+- Details: size 600x72px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fill H:fixed, fill #FFFFFF, text [type/sans-serif/l-semibold] | variants: State: Closed/Open
+- Dialog: size 1024x768px, vertical layout, padding 0 0 0 0px, gap 0px, align center/center, sizing W:fixed H:fixed, text [type/sans-serif/m-tight, type/sans-serif/m, type/sans-serif/xl] | variants: Size: Large/Medium/Small
+- Divider: size 80x1px, fill #DDDDDF | variants: Type: Strong/Subtle/Subtlest
+- Drawer/Body: size 524x168px, horizontal layout, padding 20 20 20 20px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/m, type/sans-serif/m-semibold] | variants: Content: Card/Table/Text
+- Dropdown: size 112x32px, radius 2px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m-tight] | variants: Style: Default/Neutral/Primary; State: Active/Disabled/Focus/Hover/Inactive; Trigger: Closed/Open
+- Input: size 275x56px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/xs-tight, type/sans-serif/m-tight, type/sans-serif/m-tight-semibold] | variants: State: Disabled/Error/Focus/Idle
+- Menu-Item: size 363x36px, horizontal layout, padding 0 12 0 12px, gap 177px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m] | variants: State: Disabled/Focus/Hover/Inactive
+- Menu: size 275x237px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/m, type/sans-serif/m-tight-semibold] | variants: Type: Default/No Results
+- Radio: size 136x24px, horizontal layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m] | variants: checked: no/yes; state: disabled/focus/idle
+- Radio Group: size 136x108px, vertical layout, padding 0 0 0 0px, gap 8px, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/xs-tight, type/sans-serif/m, type/sans-serif/m-tight] | variants: # of options: 2/3/4/5/6
+- Select: size 275x76px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/xs-tight, type/sans-serif/m-tight, type/sans-serif/m-tight-semibold] | variants: State: Disabled/Error/Focus/Multiple/No selection/Selected
+- Spinner/lg: size 48x48px | variants: Animation State: 1/2/3/4; Indicator: Color/Inverse/Primary
+- Spinner/md: size 32x32px | variants: Animation State: 1/2/3/4; Indicator: Color/Inverse/Primary
+- Spinner/sm: size 16x16px | variants: Animation State: 1/2/3/4; Indicator: Color/Inverse/Primary
+- Switch: size 128x24px, horizontal layout, padding 2 0 2 0px, gap 16px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m-tight] | variants: On / Off: Off/On; State: Disabled/Focus/Idle
+- .Switch: size 31x20px, fill #FFFFFF | variants: On / Off: off/on; State: disabled/focus/idle
+- Tab: size 64x36px, horizontal layout, padding 6 20 6 20px, gap 0px, align min/center, sizing W:fixed H:fixed, stroke #B8B7BD 1px, text [type/sans-serif/m] | variants: State: Active/Disabled/Focus/Hover/Inactive; Type: Horizontal/Vertical
+- Tab Group: size 652x36px, horizontal layout, padding 0 0 0 0px, gap 4px, align min/center, sizing W:fixed H:fixed, text [type/sans-serif/m] | variants: Type: Horizontal/Vertical
+- Textarea: size 275x124px, vertical layout, padding 0 0 0 0px, gap 4px, sizing W:fixed H:fixed, text [type/sans-serif/xs-tight, type/sans-serif/m-tight, type/sans-serif/m-tight-semibold] | variants: State: Disabled/Error/Focused/Idle
+- Tooltip: size 125x32px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m] | variants: Position: Bottom/Left/Right/Top
+- Tree: size 234x324px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [type/sans-serif/m] | variants: Tree type: Multi select tree/Single select tree
+- Leaf node (multi select tree): size 234x36px, horizontal layout, padding 6 12 6 12px, gap 177px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m] | variants: State: Active/Disabled/Focus/Hover/Inactive; Indent: 1/2/3/4
+- Leaf node (single select tree): size 234x36px, horizontal layout, padding 6 12 6 12px, gap 177px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m] | variants: State: Active/Disabled/Focus/Hover/Inactive; Indent: 1/2/3/4
+- Parent node (multi select tree): size 234x36px, horizontal layout, padding 6 12 6 12px, gap 177px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m] | variants: State: Active/Disabled/Focus/Hover/Inactive; Indent: 1/2/3; Open: No/Yes
+- Parent node (single select tree): size 234x36px, horizontal layout, padding 6 12 6 12px, gap 177px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m] | variants: State: Disabled/Focus/Hover/Inactive; Indent: 1/2/3; Open: No/Yes
+- .Input Help Text: size 226x16px, fill #FFFFFF, text [type/sans-serif/xs-tight]
+- .Input Text: size 81x20px, fill #FFFFFF, text [type/sans-serif/m-tight]
+- .Input Label: size 38x20px, fill #FFFFFF, text [type/sans-serif/m-tight-semibold]
+- Card/Footer: size 520x72px, radius 0/0/4/4px, horizontal layout, padding 20 20 20 20px, gap 2px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/m-underline, type/sans-serif/m-tight]
+- Card/Body (Base): size 520x64px, horizontal layout, padding 20 20 20 20px, gap 8px, sizing W:fill H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/m]
+- Card/Header: size 520x72px, radius 4/4/0/0px, horizontal layout, padding 20 20 20 20px, gap 8px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/xl]
+- Drawer/Footer: size 564x72px, horizontal layout, padding 20 20 20 20px, gap 2px, align min/center, sizing W:fill H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/m-tight]
+- Drawer/Header: size 564x72px, horizontal layout, padding 20 20 20 20px, gap 8px, align min/center, sizing W:fill H:fixed, fill #F7F7F8, stroke #B8B7BD 1px, text [type/sans-serif/xl]
+- Drawer: size 520x800px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, stroke #86858E 1px, text [type/sans-serif/m-tight, type/sans-serif/m, type/sans-serif/m-semibold, type/sans-serif/l-semibold, type/sans-serif/xl]
+- .Divider: size 363x18px, horizontal layout, padding 0 12 0 12px, gap 177px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF
+- Menu/Empty state: size 363x36px, horizontal layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m-tight]
+- Menu Label: size 363x36px, horizontal layout, padding 0 12 0 12px, gap 177px, align space_between/center, sizing W:fixed H:fixed, fill #FFFFFF, text [type/sans-serif/m-tight-semibold]
+- .beak: size 310x0px, vertical layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #86858E 1px
+- .tooltip: size 125x32px, radius 4px, horizontal layout, padding 0 0 0 0px, gap 0px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #86858E 1px, text [type/sans-serif/m]
+- .navigation: size 1440x44px, fill #212121, text [$type-md, Calibre Medium, 16px, Calibre Medium, 36px, Calibre Regular, 16px]
+- .SimpleTable/Column: size 216x336px, vertical layout, padding 0 0 0 0px, gap 0px, sizing W:fixed H:fixed, text [type/sans-serif/m, type/sans-serif/m-semibold]
+- .SimpleTable/Cell: size 140x48px, horizontal layout, padding 12 20 12 20px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #FFFFFF, stroke #B8B7BD 1px, text [type/sans-serif/m]
+- .SimpleTable/Header: size 140x48px, horizontal layout, padding 12 20 12 20px, gap 10px, align min/center, sizing W:fixed H:fixed, fill #F7F7F8, stroke #86858E 1px, text [type/sans-serif/m-semibold]
+
+## Most-Used Styles
+- type/sans-serif/m: 994 uses
+- type/sans-serif/m-tight: 414 uses
+- type/sans-serif/m-semibold: 366 uses
+- Light/ag-input-focus-border-color: 133 uses
+- type/sans-serif/m-underline: 67 uses
+- Light/ag-input-focus-box-shadow: 64 uses
+- darkmode/effects/$elevation-2: 60 uses
+- type/sans-serif/xl: 53 uses
+- type/sans-serif/xs-tight: 53 uses
+- lightmode/backgrounds/ground-floor: 49 uses
+- type/sans-serif/2xl: 42 uses
+- darkmode/interactive/text-and-icons/text-and-icons: 40 uses
+- type/sans-serif/m-tight-semibold: 38 uses
+- type/sans-serif/l-semibold: 25 uses
+- type/sans-serif/m-tight-underline: 20 uses
+- darkmode/surfaces/surface-2xl: 12 uses
+- input/shadow: 10 uses
+- darkmode/interactive/normal/normal-idle: 8 uses
+- darkmode/nav/nav-text-and-icons: 8 uses
+- darkmode/surfaces/surface-inner: 8 uses
+- darkmode/text/titles-and-attributes: 8 uses
+- lightmode/interactive/text-and-icons/text-and-icons: 7 uses
+- type/sans-serif/xs: 7 uses
+- $type-md: 4 uses
+- darkmode/text/body-and-labels: 4 uses
+- lightmode/elevation/inner-md: 4 uses
+- $type-md-medium: 2 uses
+- lightmode/elevation/base: 2 uses
+- type/sans-serif/4xl: 2 uses
+- alert/shadow: 1 use
+- type/mono/m: 1 use
+- type/mono/m-tight: 1 use
+- type/mono/s: 1 use
+- type/mono/s-tight: 1 use
+- type/sans-serif/3xl: 1 use
+- type/sans-serif/l: 1 use
+- type/sans-serif/l-tight-semibold: 1 use
+- type/sans-serif/xs-tight-underline: 1 use
+
+## Layout & Structure
+Screen: Cover / .Cover
+- FRAME ".Cover", 1600x960px, constraints left/top, fill #DDDDDF
+  - FRAME "Content", 1504x344px, vertical pad 0 80 0 80px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - RECTANGLE "CS_Logo_2022_In-Line_Red-Black_RGB 1", 531x93px, constraints left/top, fill image(hash: 537abef0d6e5b889dc2cbbe084cd3920a6e48862)
+    - FRAME "Text", 1344x211px, vertical pad 0 0 0 0px gap 16px align center/min sizing W:fill H:fixed, constraints left/top
+      - TEXT "Title", 1344x143px, constraints left/top, fill #161618, text [SF Pro Heavy, 120px], [heading]
+      - TEXT "Description", 1344x52px, constraints left/top, fill #3B3A40, text [type/sans-serif/4xl], [heading]
+
+Screen: Getting Started / Resources
+- FRAME "Resources", 828x566px, vertical pad 60 64 60 64px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect [drop_shadow 15px offset 0 5 #0000001F]
+  - FRAME "Crowdstrike Logo", 240x60px, constraints left/top
+    - RECTANGLE "CS_Logo_2022_In-Line_Red-Black_RGB 1", 240x42.88px, constraints left/top, fill image(hash: 537abef0d6e5b889dc2cbbe084cd3920a6e48862)
+  - FRAME "Guidance", 700x376px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Resources", 640x40px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Name", 131x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+    - FRAME "Figma documentation", 700x92px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Figma documentation", 209x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+      - TEXT "Description", 700x48px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+    - FRAME "Accessibility guidelines", 700x164px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Accessibility guidelines", 226x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+      - TEXT "Description", 700x120px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+
+Screen: Getting Started / FAQs
+- FRAME "FAQs", 828x722px, vertical pad 60 64 60 64px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect [drop_shadow 15px offset 0 5 #0000001F]
+  - FRAME "Crowdstrike Logo", 240x60px, constraints left/top
+    - RECTANGLE "CS_Logo_2022_In-Line_Red-Black_RGB 1", 240x42.88px, constraints left/top, fill image(hash: 537abef0d6e5b889dc2cbbe084cd3920a6e48862)
+  - FRAME "Guidance", 700x532px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Frequently asked questions", 640x40px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Name", 340x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+    - FRAME "Question", 700x92px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Who should use this UI Kit?", 262x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+      - TEXT "Description", 700x48px, constraints left/top, fill #161618, text [type/sans-serif/m]
+    - FRAME "Question", 700x140px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "How do I use the UI Kit?", 227x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+      - TEXT "Description", 700x96px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+    - FRAME "Question", 700x140px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Can I modify the components?", 292x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+      - TEXT "Description", 700x96px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+
+Screen: Getting Started / Get started
+- FRAME "Get started", 828x1214px, vertical pad 60 64 60 64px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect [drop_shadow 15px offset 0 5 #0000001F]
+  - FRAME "Crowdstrike Logo", 240x60px, constraints left/top
+    - RECTANGLE "CS_Logo_2022_In-Line_Red-Black_RGB 1", 240x42.88px, constraints left/top, fill image(hash: 537abef0d6e5b889dc2cbbe084cd3920a6e48862)
+  - FRAME "Guidance", 700x1024px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Overview", 640x184px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Name", 424x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+      - TEXT "Description", 640x72px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - TEXT "Description", 640x48px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+    - FRAME "Key features", 700x344px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Key features of the Foundry UI Kit", 322x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+      - TEXT "Description", 700x300px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+    - FRAME "How to use this file", 700x416px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "How to use this file", 183x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+      - TEXT "Access library file", 123x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+      - TEXT "List", 700x120px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - TEXT "Install fonts", 82x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+      - TEXT "List", 700x48px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - TEXT "Access iconography", 139x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+      - TEXT "List", 700x72px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+
+Screen: Styles / Icons
+- FRAME "Icons", 768x1108.06px, vertical pad 60 64 60 64px gap 40px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect [drop_shadow 4px offset 0 4 #00000040]
+  - FRAME "Component overview", 640x144px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Name", 67x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+    - TEXT "Description", 640x92px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+  - RECTANGLE "cover", 640x384.06px, constraints left/top, fill image(hash: 4d6b537813f3787bd954349e4060b6ee6e719c56)
+  - FRAME "Component overview", 640x380px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Name", 101x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+    - TEXT "Name", 348x32px, constraints left/top, fill #161618, text [type/sans-serif/l-semibold]
+    - TEXT "Description", 640x188px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+    - TEXT "Name", 247x32px, constraints left/top, fill #161618, text [type/sans-serif/l-semibold]
+    - TEXT "Description", 640x48px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+
+Screen: Styles / Typography
+- FRAME "Typography", 1163x1341px, vertical pad 60 64 60 64px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect [drop_shadow 15px offset 0 5 #0000001F]
+  - FRAME "Guidance", 1035x1221px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Component overview", 700x125px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Name", 148x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+      - TEXT "Description", 700x73px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+    - FRAME "preview", 368x148px, vertical pad 24 24 24 24px gap 4px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F7F7F8, stroke #B8B7BD 1px
+      - FRAME "Font preview", 320x52px, horizontal pad 0 0 0 0px gap 40px align center/max sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Aa", 80x52px, constraints left/top, fill #161618, text [Segoe UI Semibold, 44px], [heading]
+        - TEXT "Aa", 80x48px, constraints left/top, fill #161618, text [SF Pro Semibold, 44px], [heading]
+        - TEXT "Aa", 80x38px, constraints left/top, fill #161618, text [Consolas Bold, 44px], [heading]
+      - FRAME "Fonts", 320x44px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Windows", 80x44px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Segoe UI", 60x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - TEXT "Windows", 47x20px, constraints left/top, fill #B8B7BD, text [type/sans-serif/xs]
+        - FRAME "MacOS & iOS", 80x42px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "SF Pro", 44x26px, constraints left/top, fill #161618, text [SF Pro Regular, 14px]
+          - TEXT "MacOS & iOS", 67x16px, constraints left/top, fill #B8B7BD, text [Segoe UI SegoeUI, 11px]
+        - FRAME "Monospace", 80x40px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top
+          - TEXT "Consolas", 62x29px, constraints left/top, fill #161618, text [Consolas Consolas, 14px]
+          - TEXT "Monospace", 57x11px, constraints left/top, fill #B8B7BD, text [Segoe UI SegoeUI, 11px]
+    - FRAME "San serif", 1035x516px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Description", 1035x68px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheader", 1035x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+        - TEXT "Description", 700x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - FRAME "preview", 522x424px, vertical pad 24 24 24 24px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F7F7F8, stroke #B8B7BD 1px
+        - FRAME "Segoe UI", 461x176px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "preview", 461x128px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "ABCDEFGHIJKLMNOPQRSTUVWXYZ", 461x40px, constraints left/top, fill #161618, text [Segoe UI Semibold, 28px], [heading]
+            - TEXT "abcdefghijklmnopqrstuvwxyz", 374x40px, constraints left/top, fill #161618, text [Segoe UI Semibold, 28px], [heading]
+            - TEXT "0123456789", 152x40px, constraints left/top, fill #161618, text [Segoe UI Semibold, 28px], [heading]
+          - FRAME "font", 80x44px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Segoe UI", 60x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "Windows", 47x20px, constraints left/top, fill #B8B7BD, text [type/sans-serif/xs]
+        - LINE "divider", 474x0px, constraints left/top, stroke #B8B7BD 1px
+        - FRAME "SF Pro", 474x176px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "preview", 474x128px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "ABCDEFGHIJKLMNOPQRSTUVWXYZ", 474x40px, constraints left/top, fill #161618, text [SF Pro Semibold, 28px], [heading]
+            - TEXT "abcdefghijklmnopqrstuvwxyz", 366x40px, constraints left/top, fill #161618, text [SF Pro Semibold, 28px], [heading]
+            - TEXT "0123456789", 169x40px, constraints left/top, fill #161618, text [SF Pro Semibold, 28px], [heading]
+          - FRAME "font", 80x44px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "SF Pro", 44x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "MacOS & iOS", 70x20px, constraints left/top, fill #B8B7BD, text [type/sans-serif/xs]
+    - FRAME "Monospace", 1035x312px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Description", 1035x68px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheader", 1035x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+        - TEXT "Description", 700x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - FRAME "preview", 449x224px, vertical pad 24 24 24 24px gap 12px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F7F7F8, stroke #B8B7BD 1px
+        - FRAME "Segoe UI", 401x176px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "preview", 401x128px, vertical pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "ABCDEFGHIJKLMNOPQRSTUVWXYZ", 401x40px, constraints left/top, fill #161618, text [Consolas Bold, 28px], [heading]
+            - TEXT "abcdefghijklmnopqrstuvwxyz", 401x40px, constraints left/top, fill #161618, text [Consolas Bold, 28px], [heading]
+            - TEXT "0123456789", 154x40px, constraints left/top, fill #161618, text [Consolas Bold, 28px], [heading]
+          - FRAME "font", 80x44px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Consolas", 61x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "Monospace", 61x20px, constraints left/top, fill #B8B7BD, text [type/sans-serif/xs]
+
+Screen: Styles / Color
+- FRAME "Color", 976x1944px, vertical pad 60 64 60 64px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect [drop_shadow 15px offset 0 5 #0000001F]
+  - FRAME "Guidance", 848x1824px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Component overview", 640x76px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Name", 67x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+      - TEXT "Description", 640x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+    - FRAME "Neutral palette", 700x624px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Neutral", 71x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+      - TEXT "Description", 700x48px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - FRAME "Palettes", 160x520px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - FRAME "Palette: Neutral (Light Mode)", 160x520px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #FFFFFF
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #F7F7F8
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #EFEEF2
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #DDDDDF
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #B8B7BD
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #86858E
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #75737D
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #5D5B65
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #3B3A40
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #2C2C30
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #1D1C20
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #161618
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Neutral-1000", 160x40px, constraints left/top, fill #000000
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+    - FRAME "Saturated palettes", 700x92px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Saturated colors", 159x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+      - TEXT "List", 700x48px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+    - FRAME "Palettes", 848x436px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Red", 160x436px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 27x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+        - FRAME "Scale", 160x400px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - FRAME "Red-100", 160x40px, constraints left/top, fill #FFBFBF
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Red-200", 160x40px, constraints left/top, fill #FEA1A2
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Red-300", 160x40px, constraints left/top, fill #F98487
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Red-400", 160x40px, constraints left/top, fill #F36568
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Red-500", 160x40px, constraints left/top, fill #EF3E40
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Red-600", 160x40px, constraints left/top, fill #E9181F
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Red-650", 160x40px, constraints left/top, fill #D31912
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Red-700", 160x40px, constraints left/top, fill #B11D13
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Red-800", 160x40px, constraints left/top, fill #861D13
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Red-900", 160x40px, constraints left/top, fill #5C1A11
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+      - FRAME "Orange", 160x436px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 51x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+        - FRAME "Scale", 160x400px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - FRAME "Orange-50", 160x40px, constraints left/top, fill #FEEFE6
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Orange-100", 160x40px, constraints left/top, fill #FED2B8
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Orange-200", 160x40px, constraints left/top, fill #FCB58F
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Orange-300", 160x40px, constraints left/top, fill #F7976A
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Orange-400", 160x40px, constraints left/top, fill #F6753D
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Orange-500", 160x40px, constraints left/top, fill #DE5D29
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Orange-600", 160x40px, constraints left/top, fill #C2481E
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Orange-700", 160x40px, constraints left/top, fill #983C2A
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Orange-800", 160x40px, constraints left/top, fill #623937
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Orange-900", 160x40px, constraints left/top, fill #3E2929
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+      - FRAME "Yellow", 160x436px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 45x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+        - FRAME "Scale", 160x400px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - FRAME "Yellow-50", 160x40px, constraints left/top, fill #FDF5E5
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Yellow-100", 160x40px, constraints left/top, fill #FDDD6F
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Yellow-200", 160x40px, constraints left/top, fill #F3C238
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Yellow-300", 160x40px, constraints left/top, fill #E7A714
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Yellow-400", 160x40px, constraints left/top, fill #CF8F0F
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Yellow-500", 160x40px, constraints left/top, fill #B37B13
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Yellow-600", 160x40px, constraints left/top, fill #986514
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Yellow-700", 160x40px, constraints left/top, fill #7A4F14
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Yellow-800", 160x40px, constraints left/top, fill #5B3A12
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Yellow-900", 160x40px, constraints left/top, fill #3C250D
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+      - FRAME "Green", 160x436px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 42x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+        - FRAME "Scale", 160x400px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - FRAME "Green-50", 160x40px, constraints left/top, fill #EBFDF6
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Green-100", 160x40px, constraints left/top, fill #B7F2CA
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Green-200", 160x40px, constraints left/top, fill #77E8AB
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Green-300", 160x40px, constraints left/top, fill #34D79E
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Green-400", 160x40px, constraints left/top, fill #48BA7D
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Green-500", 160x40px, constraints left/top, fill #549C60
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Green-600", 160x40px, constraints left/top, fill #2D865A
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Green-700", 160x40px, constraints left/top, fill #1A6E39
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Green-800", 160x40px, constraints left/top, fill #225116
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Green-900", 160x40px, constraints left/top, fill #0C360D
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+      - FRAME "Teal", 160x436px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 29x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+        - FRAME "Scale", 160x400px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - FRAME "Teal-50", 160x40px, constraints left/top, fill #E2F8FD
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Teal-100", 160x40px, constraints left/top, fill #7FD4E7
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Teal-200", 160x40px, constraints left/top, fill #63C0D7
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Teal-300", 160x40px, constraints left/top, fill #44ACC6
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Teal-400", 160x40px, constraints left/top, fill #2098B3
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Teal-500", 160x40px, constraints left/top, fill #128098
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Teal-600", 160x40px, constraints left/top, fill #0F687B
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Teal-700", 160x40px, constraints left/top, fill #064F5F
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Teal-800", 160x40px, constraints left/top, fill #09353F
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Teal-900", 160x40px, constraints left/top, fill #001E24
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+    - FRAME "Palettes", 504x436px, horizontal pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Blue", 160x436px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 31x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+        - FRAME "Scale", 160x400px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - FRAME "Blue-50", 160x40px, constraints left/top, fill #E1ECFE
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Blue-100", 160x40px, constraints left/top, fill #C3D9FD
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Blue-200", 160x40px, constraints left/top, fill #A6C6FC
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Blue-300", 160x40px, constraints left/top, fill #8CB0FD
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Blue-400", 160x40px, constraints left/top, fill #7697FD
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Blue-500", 160x40px, constraints left/top, fill #567FF9
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Blue-600", 160x40px, constraints left/top, fill #2A67ED
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Blue-700", 160x40px, constraints left/top, fill #0249DA
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Blue-800", 160x40px, constraints left/top, fill #011EC2
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Blue-900", 160x40px, constraints left/top, fill #0F1256
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+      - FRAME "Scale", 160x436px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 45x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+        - FRAME "Scale", 160x400px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 4px
+          - FRAME "Purple-50", 160x40px, constraints left/top, fill #EFD6FF
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Purple-100", 160x40px, constraints left/top, fill #E0BBFC
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Purple-200", 160x40px, constraints left/top, fill #D2A1F8
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Purple-300", 160x40px, constraints left/top, fill #C486F6
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Purple-400", 160x40px, constraints left/top, fill #B56AF2
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Purple-500", 160x40px, constraints left/top, fill #A24EE8
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Purple-600", 160x40px, constraints left/top, fill #8A39CE
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Purple-700", 160x40px, constraints left/top, fill #6B29AB
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Purple-800", 160x40px, constraints left/top, fill #49207E
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Purple-900", 160x40px, constraints left/top, fill #2D0F52
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+      - FRAME "Scale", 160x436px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Label", 60x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+        - FRAME "Scale", 160x400px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top
+          - FRAME "Magenta-50", 160x40px, constraints left/top, fill #FAB9CF
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Magenta-100", 160x40px, constraints left/top, fill #F5A0BD
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Magenta-200", 160x40px, constraints left/top, fill #EE87AB
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Magenta-300", 160x40px, constraints left/top, fill #E76D99
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Magenta-400", 160x40px, constraints left/top, fill #D95489
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Magenta-500", 160x40px, constraints left/top, fill #C53E7E
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Magenta-600", 160x40px, constraints left/top, fill #AC2C75
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Magenta-700", 160x40px, constraints left/top, fill #901B6A
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Magenta-800", 160x40px, constraints left/top, fill #701254
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+          - FRAME "Magenta-900", 160x40px, constraints left/top, fill #4F0C3B
+            - FRAME "# and WCAG", 59x24px, constraints left/center
+
+Screen: Tokens / Tokens: Spacing
+- FRAME "Tokens: Spacing", 1163x2032px, vertical pad 60 64 60 64px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect [drop_shadow 15px offset 0 5 #0000001F]
+  - FRAME "Guidance", 1035x1912px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Component overview", 640x100px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Name", 191x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+      - TEXT "Description", 640x48px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+    - FRAME "San serif", 1035x1772px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Font styles", 1035x1772px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheader", 1035x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+        - FRAME "table", 904x1728px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "labels", 904x48px, horizontal pad 12 0 12 0px gap 40px sizing W:fixed H:fixed, constraints left/top, stroke #86858E 1px
+            - TEXT "Name", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+            - TEXT "Size", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+            - TEXT "Size", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "0", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "px", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 1x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "0.5", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 2x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "1", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 4x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "1.5", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 6x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "2", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 8x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "2.5", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 10x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "3", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 12x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "3.5", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 14x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "4", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 16x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "5", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 20x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "6", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 24x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "7", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 28x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "8", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 32x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "9", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 36x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "10", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 40x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "11", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 44x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "12", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 48x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "14", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 56x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "16", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 64x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "20", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 80x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "24", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 96x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "28", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 112x24px, constraints left/top, fill #128098
+          - FRAME "row", 904x48px, horizontal pad 12 0 12 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top, stroke #B8B7BD 1px
+            - TEXT "32", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - FRAME "Example_Spacing", 128x24px, constraints left/top, fill #128098
+          - ... +11 more children
+
+Screen: Tokens / Tokens: Typography
+- FRAME "Tokens: Typography", 1163x2044px, vertical pad 60 64 60 64px gap 10px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect [drop_shadow 15px offset 0 5 #0000001F]
+  - FRAME "Guidance", 1035x1924px, vertical pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+    - FRAME "Component overview", 640x40px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Name", 237x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+    - FRAME "San serif", 1035x1532px, vertical pad 0 0 0 0px gap 24px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Font styles", 1035x940px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheader", 1035x32px, constraints left/top, fill #161618, text [type/sans-serif/l-semibold]
+        - FRAME "table", 680x896px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "labels", 680x24px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Token", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+            - TEXT "px value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+            - TEXT "Example", 280x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+          - LINE "divider", 680x0px, constraints left/top, stroke #86858E 1px
+          - FRAME "row", 680x52px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.4xl", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x52px, constraints left/top, fill #161618, text [type/sans-serif/4xl], [heading]
+          - LINE "divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x48px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.3xl", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x48px, constraints left/top, fill #161618, text [type/sans-serif/3xl], [heading]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x40px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.2xl", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x32px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.xl", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x32px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.l-semibold", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x32px, constraints left/top, fill #161618, text [type/sans-serif/l-semibold]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.l-tight-semibold", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x24px, constraints left/top, fill #161618, text [type/sans-serif/l-tight-semibold]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x32px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.l", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x32px, constraints left/top, fill #161618, text [type/sans-serif/l]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.m-semibold", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.m-tight-semibold", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x20px, constraints left/top, fill #161618, text [type/sans-serif/m-tight-semibold]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.m", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.m-tight", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x20px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.m-underline", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x24px, constraints left/top, fill #161618, text [type/sans-serif/m-underline]
+          - ... +9 more children
+      - FRAME "Font sizes", 1035x368px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheader", 1035x32px, constraints left/top, fill #161618, text [type/sans-serif/l-semibold]
+        - FRAME "table", 360x324px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "labels", 360x24px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Token", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+            - TEXT "rem value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+          - LINE "divider", 360x0px, constraints left/top, stroke #86858E 1px
+          - FRAME "row", 360x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.xl", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "rem value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - LINE "Divider", 360x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 360x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.l", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "rem value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - LINE "Divider", 360x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 360x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.m", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "rem value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - LINE "Divider", 360x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 360x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.s", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "rem value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - LINE "Divider", 360x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 360x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.xs", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "rem value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - LINE "Divider", 360x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 360x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.sans-serif.xxs", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "rem value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - LINE "Divider", 360x0px, constraints left/top, stroke #B8B7BD 1px
+      - FRAME "Font weights", 1035x176px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheader", 1035x32px, constraints left/top, fill #161618, text [type/sans-serif/l-semibold]
+        - FRAME "table", 360x132px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "labels", 360x24px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Token", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+            - TEXT "Value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+          - LINE "divider", 360x0px, constraints left/top, stroke #86858E 1px
+          - FRAME "row", 360x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "font-weight.regular", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "Value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - LINE "Divider", 360x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 360x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "font-weight.semibold", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "Value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+          - LINE "Divider", 360x0px, constraints left/top, stroke #B8B7BD 1px
+    - FRAME "Monospace", 1035x272px, vertical pad 0 0 0 0px gap 20px sizing W:fixed H:fixed, constraints left/top
+      - FRAME "Font styles", 1035x272px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+        - TEXT "Subheader", 1035x32px, constraints left/top, fill #161618, text [type/sans-serif/l-semibold]
+        - FRAME "table", 680x228px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "labels", 680x24px, horizontal pad 0 0 0 0px gap 40px sizing W:fixed H:fixed, constraints left/top
+            - TEXT "Token", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+            - TEXT "px value", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+            - TEXT "Example", 280x24px, constraints left/top, fill #161618, text [type/sans-serif/m-semibold]
+          - LINE "divider", 680x0px, constraints left/top, stroke #86858E 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.mono.m", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x24px, constraints left/top, fill #161618, text [type/mono/m]
+          - LINE "divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.mono.m-tight", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x20px, constraints left/top, fill #161618, text [type/mono/m-tight]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.mono.s", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x22px, constraints left/top, fill #161618, text [type/mono/s]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+          - FRAME "row", 680x24px, horizontal pad 0 0 0 0px gap 40px align min/center sizing W:fixed H:fixed, constraints left/top
+            - TEXT "type.mono.s-tight", 240x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "example", 80x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+            - TEXT "value", 280x20px, constraints left/top, fill #161618, text [type/mono/s-tight]
+          - LINE "Divider", 680x0px, constraints left/top, stroke #B8B7BD 1px
+
+Screen: Tokens / Tokens: Color
+- FRAME "Tokens: Color", 972x2940px, vertical pad 60 64 60 64px gap 40px sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #FFFFFF, effect [drop_shadow 15px offset 0 5 #0000001F]
+  - FRAME "Component overview", 700x396px, vertical pad 0 0 0 0px gap 12px sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Name", 156x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+    - TEXT "Description", 700x344px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+  - TEXT "Name", 154x32px, constraints left/top, fill #161618, text [type/sans-serif/xl]
+  - FRAME "text", 844x304px, horizontal pad 0 0 0 0px gap 81px align max/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "background Token name lightest lighter light default inverse", 200x304px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - TEXT "Light mode Neutral 0 Neutral 50 Neutral 100 Neutral 200 Neut", 100x260px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x262px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x220px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #FFFFFF, stroke #DDDDDF 1px
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #F7F7F8
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #EFEEF2
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #DDDDDF
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #1D1C20
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #F7F7F8
+    - TEXT "Dark mode Neutral 800 Neutral 850 Neutral 900 Neutral 1000 N", 100x260px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x262px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x220px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #2C2C30
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #1D1C20
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #161618
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #000000
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #FFFFFF, stroke #DDDDDF 1px
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #3B3A40
+  - FRAME "text", 844x224px, horizontal pad 0 0 0 0px gap 81px align max/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "border-color Token name light medium bold disabled", 200x224px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - TEXT "Light mode Neutral 200 Neutral 300 Neutral 400 Neutral 300", 100x180px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x182px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x140px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #DDDDDF
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #B8B7BD
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #86858E
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #B8B7BD
+    - TEXT "Dark mode Neutral 800 Neutral 700 Neutral 600 Neutral 500", 100x180px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x182px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x140px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #2C2C30
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #3B3A40
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #5D5B65
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #75737D
+  - FRAME "text", 844x264px, horizontal pad 0 0 0 0px gap 81px align max/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "color-severity Token name critical high medium low info", 200x264px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - TEXT "Light mode Red 600 Orange 500 Yellow 400 Green 600 Blue 600", 100x220px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x222px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x180px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #E9181F
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #DE5D29
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #CF8F0F
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #2D865A
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #2A67ED
+    - TEXT "Dark mode Red 500 Orange 400 Yellow 200 Green 100 Blue 300", 100x220px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x222px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x180px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #EF3E40
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #F6753D
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #F3C238
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #B7F2CA
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #8CB0FD
+  - FRAME "text", 844x264px, horizontal pad 0 0 0 0px gap 81px align max/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "color-alert Token name danger neutral warning success primar", 200x264px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - TEXT "Light mode Red 600 Neutral 600 Yellow 400 Green 600 Blue 600", 100x220px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x222px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x180px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #E9181F
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #5D5B65
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #CF8F0F
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #2D865A
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #2A67ED
+    - TEXT "Dark mode Red 500 Neutral 300 Yellow 200 Green 100 Blue 300", 100x220px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x222px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x180px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #EF3E40
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #B8B7BD
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #F3C238
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #B7F2CA
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #8CB0FD
+  - FRAME "text", 844x104px, horizontal pad 0 0 0 0px gap 81px align max/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "focus-ring Token name color", 200x104px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - TEXT "Light mode Blue 600", 100x60px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x62px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #2A67ED
+    - TEXT "Dark mode Blue 500", 100x60px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x62px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #567FF9
+  - FRAME "text", 844x264px, horizontal pad 0 0 0 0px gap 81px align max/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "text Token name primary secondary disabled error inverse", 200x264px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - TEXT "Light mode Neutral 900 Neutral 600 Neutral 300 Red 700 Neutr", 100x220px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x214px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #161618
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #5D5B65
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #B8B7BD
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #B11D13
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #FFFFFF, stroke #DDDDDF 1px
+    - TEXT "Dark mode Neutral 50 Neutral 300 Neutral 600 Red 500 Neutral", 100x220px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x214px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #F7F7F8
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #B8B7BD
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #5D5B65
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #EF3E40
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #000000
+  - FRAME "text", 844x144px, horizontal pad 0 0 0 0px gap 81px align max/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "icon Token name color inverse", 200x144px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - TEXT "Light mode Neutral 900 Neutral 0", 100x100px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x100px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #161618
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #FFFFFF, stroke #DDDDDF 1px
+    - TEXT "Dark mode Neutral 0 Neutral 900", 100x100px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x100px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #FFFFFF, stroke #DDDDDF 1px
+      - FRAME "preview", 60x20px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #161618
+  - FRAME "text", 844x464px, horizontal pad 0 0 0 0px gap 81px align max/max sizing W:fixed H:fixed, constraints left/top
+    - TEXT "Data visualization Token name dataviz-categorical-1 dataviz-", 200x464px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - TEXT "Light mode Teal 400 Blue 800 Purple 700 Magenta 700 Magenta ", 100x420px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x422px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x380px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #2098B3
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #011EC2
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #6B29AB
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #901B6A
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #D95489
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #C2481E
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #7A4F14
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #225116
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #623937
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #3B3A40
+    - TEXT "Dark mode Teal 100 Blue 500 Purple 300 Red 100 Magenta 200 O", 100x420px, constraints left/top, fill #161618, text [type/sans-serif/m-tight]
+    - FRAME "swatches", 60x422px, vertical pad 0 0 0 0px gap 18px sizing W:fixed H:fixed, constraints left/top
+      - TEXT "Color", 38x24px, constraints left/top, fill #000000, text [type/sans-serif/m-semibold]
+      - FRAME "preview", 60x380px, vertical pad 0 0 0 0px gap 20px sizing W:fill H:fixed, constraints left/top
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #7FD4E7
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #E1ECFE
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #C486F6
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #FFBFBF
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #EE87AB
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #F7976A
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #FDDD6F
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #77E8AB
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #D95489
+        - FRAME "swatch", 60x20px, constraints left/top, radius 4px, fill #B8B7BD
+
+Screen: Components / Tree Item
+- FRAME "Tree Item", 720x4329px, vertical pad 0 0 0 0px gap 0px align min/center sizing W:fixed H:fixed, constraints left/top, radius 12px, fill #F7F7F8, effect [drop_shadow 15px offset 0 5 #0000001F]
+  - FRAME "Overview", 720x208px, vertical pad 40 40 40 40px gap 20px sizing W:fill H:fixed, constraints left/top, fill #FFFFFF, stroke #B8B7BD 1px
+    - TEXT "Name", 640x40px, constraints left/top, fill #161618, text [type/sans-serif/2xl], [heading]
+    - TEXT "Description", 640x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+    - TEXT "Link", 640x24px, constraints left/top, fill #064F5F, text [SF Pro Regular, 14px]
+  - FRAME "Components", 698x4121px, vertical pad 40 40 40 40px gap 20px sizing W:fixed H:fixed, constraints left/top
+    - COMPONENT_SET "Parent node (single select tree)", 618x692px, horizontal pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "State=Inactive, Indent=1, Open=No", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 186x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=1, Open=Yes", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 186x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=2, Open=No", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 162x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=2, Open=Yes", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 162x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=3, Open=No", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 134x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=3, Open=Yes", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 134x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Hover, Indent=1, Open=No", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F7F7F8
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 186x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Hover, Indent=1, Open=Yes", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F7F7F8
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 186x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Hover, Indent=2, Open=No", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F7F7F8
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 162x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Hover, Indent=2, Open=Yes", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F7F7F8
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 162x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Hover, Indent=3, Open=No", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F7F7F8
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 134x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Hover, Indent=3, Open=Yes", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F7F7F8
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 134x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Disabled, Indent=1, Open=No", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 186x24px, constraints left/top, fill #B8B7BD, text [type/sans-serif/m]
+      - COMPONENT "State=Disabled, Indent=1, Open=Yes", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 186x24px, constraints left/top, fill #B8B7BD, text [type/sans-serif/m]
+      - COMPONENT "State=Disabled, Indent=2, Open=No", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 162x24px, constraints left/top, fill #B8B7BD, text [type/sans-serif/m]
+      - COMPONENT "State=Disabled, Indent=2, Open=Yes", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 162x24px, constraints left/top, fill #B8B7BD, text [type/sans-serif/m]
+      - COMPONENT "State=Disabled, Indent=3, Open=No", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 134x24px, constraints left/top, fill #B8B7BD, text [type/sans-serif/m]
+      - COMPONENT "State=Disabled, Indent=3, Open=Yes", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 134x24px, constraints left/top, fill #B8B7BD, text [type/sans-serif/m]
+      - COMPONENT "State=Focus, Indent=1, Open=No", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #2A67ED 2px
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 186x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Focus, Indent=1, Open=Yes", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #2A67ED 2px
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 186x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Focus, Indent=2, Open=No", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #2A67ED 2px
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 162x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Focus, Indent=2, Open=Yes", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #2A67ED 2px
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 162x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Focus, Indent=3, Open=No", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #2A67ED 2px
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 134x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+      - COMPONENT "State=Focus, Indent=3, Open=Yes", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF, stroke #2A67ED 2px
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - TEXT "value", 134x24px, constraints left/top, fill #161618, text [type/sans-serif/m]
+    - COMPONENT_SET "Parent node (multi select tree)", 618x860px, horizontal pad 20 20 20 20px gap 20px sizing W:fixed H:fixed, constraints left/top, radius 5px, stroke #9747FF 1px
+      - COMPONENT "State=Inactive, Indent=1, Open=No", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - FRAME "Checkbox", 16x17px, constraints left/top
+            - INSTANCE ".Checkbox - Radio", 16x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 2px, stroke #B8B7BD 1px
+          - TEXT "value", 162x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=1, Open=Yes", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - FRAME "Checkbox", 16x17px, constraints left/top
+            - INSTANCE ".Checkbox - Radio", 16x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 2px, stroke #B8B7BD 1px
+          - TEXT "value", 162x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=2, Open=No", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - FRAME "Checkbox", 16x17px, constraints left/top
+            - INSTANCE ".Checkbox - Radio", 16x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 2px, stroke #B8B7BD 1px
+          - TEXT "value", 138x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=2, Open=Yes", 234x36px, horizontal pad 6 12 6 36px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 186x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - FRAME "Checkbox", 16x17px, constraints left/top
+            - INSTANCE ".Checkbox - Radio", 16x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 2px, stroke #B8B7BD 1px
+          - TEXT "value", 138x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=3, Open=No", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - FRAME "Checkbox", 16x17px, constraints left/top
+            - INSTANCE ".Checkbox - Radio", 16x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 2px, stroke #B8B7BD 1px
+          - TEXT "value", 110x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - COMPONENT "State=Inactive, Indent=3, Open=Yes", 234x36px, horizontal pad 6 12 6 64px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #FFFFFF
+        - FRAME "Content", 158x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - FRAME "Checkbox", 16x17px, constraints left/top
+            - INSTANCE ".Checkbox - Radio", 16x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 2px, stroke #B8B7BD 1px
+          - TEXT "value", 110x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - COMPONENT "State=Hover, Indent=1, Open=No", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F7F7F8
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "chevron_right", 16x16px, constraints center/center, fill #FFFFFF
+          - FRAME "Checkbox", 16x17px, constraints left/top
+            - INSTANCE ".Checkbox - Radio", 16x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 2px, stroke #B8B7BD 1px
+          - TEXT "value", 162x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+      - COMPONENT "State=Hover, Indent=1, Open=Yes", 234x36px, horizontal pad 6 12 6 12px gap 177px align space_between/center sizing W:fixed H:fixed, constraints left/top, fill #F7F7F8
+        - FRAME "Content", 210x24px, horizontal pad 0 0 0 0px gap 8px align min/center sizing W:fill H:fixed, constraints left/top, fill #FFFFFF
+          - FRAME "Chevron wrapper", 16x17px, constraints left/top
+            - INSTANCE "expand_more", 16x16px, constraints center/center, fill #FFFFFF
+          - FRAME "Checkbox", 16x17px, constraints left/top
+            - INSTANCE ".Checkbox - Radio", 16x16px, vertical pad 0 0 0 0px gap 0px sizing W:fixed H:fixed, constraints left/top, radius 2px, stroke #B8B7BD 1px
+          - TEXT "value", 162x24px, constraints left/top, fill #3B3A40, text [type/sans-serif/m]
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.

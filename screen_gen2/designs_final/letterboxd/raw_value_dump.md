@@ -1,0 +1,832 @@
+---
+name: letterboxd-ui-community
+source_file: Letterboxd UI (Community)
+source_page: Page 1
+generated_at: 2026-07-25T09:28:21.847768+00:00
+---
+
+# Letterboxd UI (Community) Design Guidelines
+
+## Source
+- Figma file: Letterboxd UI (Community)
+- Figma page: Page 1
+- Extracted at: 2026-07-25T09:28:21.847768+00:00
+
+## Variable Collections
+- No local variable collections found.
+
+## Color Tokens
+- No local paint styles or color variables found.
+
+## Raw Colors (unstyled)
+- #FFFFFF: 181 uses
+- #000000: 148 uses
+- #00E054: 101 uses
+- #969696: 78 uses
+- #99AABB: 69 uses
+- #8899AA: 42 uses
+- #445565: 30 uses
+- #14171C: 12 uses
+- #8899AACC: 11 uses
+- #C8D4E0: 11 uses
+- #667788: 10 uses
+- #445566: 8 uses
+- #223344: 6 uses
+- #F27405: 5 uses
+- #556677: 4 uses
+
+## Typography Tokens
+- No local text styles found.
+
+## Raw Typography (unstyled)
+- Outfit Medium, 14px: 36 uses
+- SF Pro Display Bold, 14px: 30 uses
+- Satoshi Medium, 12px: 23 uses
+- SF Pro Display Medium, 12px: 15 uses
+- SF Pro Display Medium, 14px: 15 uses
+- SF Pro Display Medium, 17px: 14 uses
+- SF Pro Display Regular, 20px: 11 uses
+- SF Pro Display Bold, 10px: 10 uses
+- Satoshi Bold, 18px: 10 uses
+- SF Pro Display Bold, 16px: 8 uses
+- Satoshi Medium, 10px: 7 uses
+- SF Pro Display Medium, 10px: 6 uses
+- Satoshi Bold, 20px: 6 uses
+- Satoshi Bold, 16px: 5 uses
+- Satoshi Medium, 16px: 5 uses
+- SF Pro Display Bold, 18px: 3 uses
+- SF Pro Display Bold, 24px: 3 uses
+- SF Pro Display Medium, 20px: 3 uses
+- SF Pro Display Regular, 12px: 3 uses
+- Satoshi Light, 25px: 3 uses
+
+## Typography Hierarchy
+- 25px - Satoshi Light, 25px (raw)
+- 24px - SF Pro Display Bold, 24px (raw)
+- 20px - SF Pro Display Medium, 20px (raw)
+- 20px - SF Pro Display Regular, 20px (raw)
+- 20px - Satoshi Bold, 20px (raw)
+- 18px - SF Pro Display Bold, 18px (raw)
+- 18px - Satoshi Bold, 18px (raw)
+- 17px - SF Pro Display Medium, 17px (raw)
+- 16px - SF Pro Display Bold, 16px (raw)
+- 16px - Satoshi Bold, 16px (raw)
+- 16px - Satoshi Medium, 16px (raw)
+- 14px - Outfit Medium, 14px (raw)
+- 14px - SF Pro Display Bold, 14px (raw)
+- 14px - SF Pro Display Medium, 14px (raw)
+- 12px - SF Pro Display Medium, 12px (raw)
+- 12px - SF Pro Display Regular, 12px (raw)
+- 12px - Satoshi Medium, 12px (raw)
+- 10px - SF Pro Display Bold, 10px (raw)
+- 10px - SF Pro Display Medium, 10px (raw)
+- 10px - Satoshi Medium, 10px (raw)
+
+## Spacing Tokens
+- No spacing variables found.
+
+## Radius Tokens
+- No radius variables found.
+
+## Motion Tokens
+- No motion variables found.
+
+## Effect Styles
+- No local effect styles found.
+
+## Grid Styles
+- No local grid styles found.
+
+## Component Families
+- tabs
+
+## Component Specs
+- tabs: size 313x41px, text [Outfit Medium, 14px] | variants: Property 1: Default
+
+## Most-Used Styles
+- No style references were counted. Apply local styles to layers to populate usage counts.
+
+## Layout & Structure
+Screen: Page 1 / 5
+- FRAME "5", 300x844px, constraints left/top, fill #14171C
+  - FRAME "uil:calender", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 21.67x21.67px, constraints scale/scale, fill #C8D4E0
+  - ELLIPSE "Ellipse 11", 70x70px, constraints center/top, fill image(hash: 255ca75656be1cc775904e098710ba44419990b8)
+  - TEXT "Meenakshi", 150x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 20px]
+  - TEXT "Lists", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - TEXT "Profile", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - TEXT "Reviews", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - TEXT "Settings", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - TEXT "Search", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - TEXT "Popular", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - TEXT "Diary", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - TEXT "Watchlist", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - TEXT "Activity", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - TEXT "Sign out", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 18px]
+  - FRAME "ph:rectangles-two-fill", 30x25px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18.75x18.75px, constraints scale/scale, fill #FFFFFF
+  - FRAME "ic:baseline-search", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18.95x18.95px, constraints scale/scale, fill #C8D4E0
+  - FRAME "mdi:user", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.33x17.33px, constraints scale/scale, fill #C8D4E0
+  - FRAME "ph:squares-four-light", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.47x17.47px, constraints scale/scale, fill #C8D4E0
+  - FRAME "subway:paragraph-5", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 26x19.5px, constraints scale/scale, fill #C8D4E0
+  - FRAME "mdi:graph-box-outline", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #C8D4E0
+  - FRAME "mdi:pencil", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #C8D4E0
+  - FRAME "uil:signout", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.33x21.67px, constraints scale/scale, fill #C8D4E0
+  - FRAME "ri:time-fill", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 21.67x21.67px, constraints scale/scale, fill #C4D8E0
+  - RECTANGLE "Rectangle 7", 180x40px, constraints center/bottom, fill image(hash: 7d58ebd6f106d0a1e5f7e2fcab06fe447abaa05c)
+
+Screen: Page 1 / 4
+- FRAME "4", 390x844px, constraints left/top, radius 10px, fill #14171C
+  - FRAME "Frame 1", 380x150px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top [decorative, ~9 shapes]
+  - INSTANCE "& HomeIndicator", 375x34px, constraints left/top
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 390x157px, constraints left/top, radius 10/10/0/0px, fill #445566
+  - FRAME "ic:baseline-search", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18.95x18.95px, constraints scale/scale, fill #FFFFFF
+  - FRAME "uil:bars", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 21.67x13px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Popular", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 20px]
+  - TEXT "Popular this week", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 16px]
+  - INSTANCE "tabs", 313x41px, constraints left/top
+    - TEXT "FILMS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "REVIEWS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "LISTS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "JOURNAL", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - LINE "Line 1", 70x0px, constraints left/top, stroke #00E054 2.5px
+  - TEXT "New from friends", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 16px]
+  - TEXT "Popular with friends", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 16px]
+  - FRAME "Frame 2", 380x150px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top [decorative, ~9 shapes]
+  - FRAME "Frame 3", 380x150px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top [decorative, ~9 shapes]
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #FFFFFF
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #FFFFFF 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #FFFFFF
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #FFFFFF, text [SF Pro Display Medium, 17px]
+
+Screen: Page 1 / 6
+- FRAME "6", 390x844px, constraints left/top, radius 10px, fill #14171C
+  - TEXT "Popular this week", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 16px]
+  - FRAME "Frame 4", 370x1540px, constraints left/top
+    - TEXT "Mission: Impossible - Dead Reckoning Part One", 300x20px, constraints left/top, fill #99AABB, text [SF Pro Display Bold, 14px]
+    - TEXT "2023", 50x20px, constraints left/top, fill #8899AA, text [Satoshi Medium, 10px]
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "mdi:heart", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.23px, constraints scale/scale, fill #F27405
+    - FRAME "mdi:heart", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.23px, constraints scale/scale, fill #F27405
+    - FRAME "mdi:heart", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.23px, constraints scale/scale, fill #F27405
+    - TEXT "Sydney", 50x20px, constraints left/top, fill #667788, text [SF Pro Display Bold, 10px]
+    - ELLIPSE "Ellipse 5", 30x30px, constraints left/top, fill image(hash: 28fd43275b6c17627bad7325f3979dbfced32a1b)
+    - RECTANGLE "Rectangle 2", 80x120px, constraints left/top, radius 5px, fill image(hash: 1cb086b31849768c674cf3df0b2b54a5459b9475), stroke #969696 0.5px
+    - TEXT "Folks, he’s done it againnn", 200x20px, constraints left/top, fill #99AABB, text [SF Pro Display Medium, 14px]
+    - LINE "Line 2", 370x0px, constraints left/top, stroke #99AABB 0.5px
+    - TEXT "Mission: Impossible - Dead Reckoning Part One", 300x20px, constraints left/top, fill #99AABB, text [SF Pro Display Bold, 14px]
+    - ... +56 more children
+  - RECTANGLE "Rectangle 1", 390x157px, constraints left/top, radius 10/10/0/0px, fill #445566
+  - FRAME "ic:baseline-search", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18.95x18.95px, constraints scale/scale, fill #FFFFFF
+  - FRAME "uil:bars", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 21.67x13px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Popular", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 20px]
+  - INSTANCE "tabs", 313x41px, constraints left/top
+    - TEXT "FILMS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "REVIEWS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "LISTS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "JOURNAL", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - LINE "Line 1", 70x0px, constraints left/top, stroke #00E054 2.5px
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #FFFFFF
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #FFFFFF 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #FFFFFF
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #FFFFFF, text [SF Pro Display Medium, 17px]
+
+Screen: Page 1 / 7
+- FRAME "7", 390x844px, constraints left/top, radius 10px, fill #14171C
+  - RECTANGLE "Rectangle 1", 390x157px, constraints left/top, radius 10/10/0/0px, fill #445566
+  - TEXT "New from friends", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 16px]
+  - TEXT "Films Directed by Women", 201x20px, constraints left/top, fill #C8D4E0, text [SF Pro Display Bold, 14px]
+  - TEXT "Yellow", 201x20px, constraints left/top, fill #C8D4E0, text [SF Pro Display Bold, 14px]
+  - TEXT "Thusss", 201x20px, constraints left/top, fill #C8D4E0, text [SF Pro Display Bold, 14px]
+  - FRAME "Frame 5", 379x80px, constraints left/top [decorative, ~12 shapes]
+  - FRAME "Frame 6", 379x80px, constraints left/top [decorative, ~12 shapes]
+  - FRAME "Frame 7", 379x80px, constraints left/top [decorative, ~12 shapes]
+  - TEXT "vanessa", 50x20px, constraints left/top, fill #667788, text [SF Pro Display Bold, 10px]
+  - TEXT "Abby", 50x20px, constraints left/top, fill #667788, text [SF Pro Display Bold, 10px]
+  - TEXT "starboy12", 50x20px, constraints left/top, fill #667788, text [SF Pro Display Bold, 10px]
+  - ELLIPSE "Ellipse 5", 30x30px, constraints left/top, fill image(hash: a384908607ce99b063794da630c8a761c99e97b6)
+  - ELLIPSE "Ellipse 6", 30x30px, constraints left/top, fill image(hash: 858c5f8ec2ffb75bbfb55057f271c26a6dffab5d)
+  - ELLIPSE "Ellipse 7", 30x30px, constraints left/top, fill image(hash: b32625a405df734a605502d9ade4a9d74537217d)
+  - TEXT "Check out the official top narrative feature films by women ", 300x35px, constraints left/top, fill #F5F5F5, text [SF Pro Display Medium, 14px]
+  - TEXT "Female directors are still underrepresented in the film indu", 320x40px, constraints left/top, fill #99AABB, text [SF Pro Display Medium, 12px]
+  - TEXT "my favorite color in Film", 157x15px, constraints left/top, fill #99AABB, text [SF Pro Display Medium, 12px]
+  - LINE "Line 8", 350x0px, constraints left/top, stroke #99AABB 0.5px, opacity 44%
+  - LINE "Line 9", 350x0px, constraints left/top, stroke #99AABB 0.5px, opacity 44%
+  - INSTANCE "& HomeIndicator", 375x34px, constraints left/top
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - FRAME "ic:baseline-search", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18.95x18.95px, constraints scale/scale, fill #FFFFFF
+  - FRAME "uil:bars", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 21.67x13px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Popular", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 20px]
+  - INSTANCE "tabs", 313x41px, constraints left/top
+    - TEXT "FILMS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "REVIEWS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "LISTS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "JOURNAL", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - LINE "Line 1", 70x0px, constraints left/top, stroke #00E054 2.5px
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #FFFFFF
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #FFFFFF 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #FFFFFF
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #FFFFFF, text [SF Pro Display Medium, 17px]
+
+Screen: Page 1 / tabs
+- COMPONENT_SET "tabs", 343x251px, constraints left/top, radius 5px, stroke #9747FF 1px
+  - COMPONENT "Property 1=Default", 313x41px, constraints left/top
+    - TEXT "FILMS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "REVIEWS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "LISTS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "JOURNAL", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - LINE "Line 1", 70x0px, constraints left/top, stroke #00E054 2.5px
+  - COMPONENT "Property 1=Default", 313x41px, constraints left/top
+    - TEXT "FILMS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "REVIEWS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "LISTS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "JOURNAL", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - LINE "Line 1", 70x0px, constraints left/top, stroke #00E054 2.5px
+  - COMPONENT "Property 1=Default", 313x41px, constraints left/top
+    - TEXT "FILMS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "REVIEWS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "LISTS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "JOURNAL", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - LINE "Line 1", 70x0px, constraints left/top, stroke #00E054 2.5px
+  - COMPONENT "Property 1=Default", 313x41px, constraints left/top
+    - TEXT "FILMS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "REVIEWS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "LISTS", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - TEXT "JOURNAL", 68x34px, constraints left/top, fill #000000, text [Outfit Medium, 14px]
+    - LINE "Line 1", 70x0px, constraints left/top, stroke #00E054 2.5px
+
+Screen: Page 1 / 2
+- FRAME "2", 390x844px, constraints left/top, radius 10px, fill #FFFFFF
+  - FRAME "octicon:eye-24", 24x24px, constraints center/top, fill #FFFFFF
+    - VECTOR "Vector", 7x7px, constraints scale/scale, fill #000000
+    - VECTOR "Vector", 23.77x17px, constraints scale/scale, fill #000000
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #000000
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #000000
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #000000 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #000000
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #000000, text [SF Pro Display Medium, 17px]
+  - RECTANGLE "Staying in-pana (1) 1", 390x390px, constraints left/top, fill image(hash: d612669fd5ccaf0134a156cfb256e35d21d1f47a)
+  - FRAME "ic:outline-arrow-back", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.33x17.33px, constraints scale/scale, fill #000000
+  - TEXT "Sign In", 220x25px, constraints left/bottom, fill #000000, text [SF Pro Display Bold, 26px], [heading]
+  - RECTANGLE "Rectangle 10", 343x50px, constraints center/top, radius 12px, stroke #FF725E 1px
+  - RECTANGLE "Rectangle 11", 343x50px, constraints center/top, radius 12px, stroke #FF725E 1px
+  - TEXT "Email or Phone Number", 232x20px, constraints left/top, fill #000000, text [Satoshi Medium, 16px]
+  - TEXT "Meenakshi", 113x20px, constraints left/top, fill #000000, text [Satoshi Bold, 16px]
+  - TEXT "Meenu@1723", 92x20px, constraints left/top, fill #000000, text [Satoshi Bold, 14px]
+  - TEXT "Password", 232x20px, constraints left/top, fill #000000, text [Satoshi Medium, 16px]
+  - TEXT "Don't have an account ? Sign Up", 263x20px, constraints left/top, fill #000000, text [Satoshi Bold, 16px]
+  - TEXT "Forgot Password ?", 144x20px, constraints left/top, fill #000000, text [Satoshi Medium, 16px]
+  - GROUP "Group 1", 300x50px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 9", 300x50px, constraints left/top, radius 50px, fill #FF543C
+    - TEXT "Sign in", 194.12x20.83px, constraints left/bottom, fill #FFFFFF, text [SF Pro Display Bold, 24px], [heading]
+  - INSTANCE "& HomeIndicator", 375x34px, constraints left/top
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000
+
+Screen: Page 1 / 3
+- FRAME "3", 390x844px, constraints left/top, radius 10px, fill #FFFFFF
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #000000
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #000000
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #000000 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #000000, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #000000
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #000000, text [SF Pro Display Medium, 17px]
+  - FRAME "ic:outline-arrow-back", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.33x17.33px, constraints scale/scale, fill #000000
+  - RECTANGLE "Horror movie-rafiki 1", 390x390px, constraints left/top, fill image(hash: 2cce205f687d67974eb4e9166af9f2f1edee1197)
+  - INSTANCE "& HomeIndicator", 375x34px, constraints left/top
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #000000
+  - GROUP "Group 4", 343x297px, constraints left/top, radius 0/0/0/0px
+    - FRAME "octicon:eye-closed-24", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 25.75x18.42px, constraints scale/scale, fill #000000
+    - TEXT "Sign Up", 220x25px, constraints left/bottom, fill #000000, text [SF Pro Display Bold, 26px], [heading]
+    - RECTANGLE "Rectangle 10", 343x50px, constraints center/top, radius 12px, stroke #407BFF 1px
+    - RECTANGLE "Rectangle 11", 343x50px, constraints center/top, radius 12px, stroke #407BFF 1px
+    - TEXT "Email or Phone Number", 232x20px, constraints left/top, fill #000000, text [Satoshi Medium, 16px]
+    - TEXT "Meenakshi", 113x20px, constraints left/top, fill #000000, text [Satoshi Bold, 16px]
+    - TEXT "***********", 92x20px, constraints left/top, fill #000000, text [Satoshi Bold, 14px]
+    - TEXT "Password", 232x20px, constraints left/top, fill #000000, text [Satoshi Medium, 16px]
+    - GROUP "Group 1", 300x50px, constraints left/top, radius 50px
+      - RECTANGLE "Rectangle 9", 300x50px, constraints left/top, radius 50px, fill #407BFF
+      - TEXT "Sign up", 194.12x20.83px, constraints left/bottom, fill #FFFFFF, text [SF Pro Display Bold, 24px], [heading]
+  - GROUP "Group 3", 180x40px, constraints left/top [decorative, ~8 shapes]
+  - VECTOR "Vector", 28x28px, constraints scale/scale, fill #1976D2
+
+Screen: Page 1 / 1
+- FRAME "1", 390x844px, constraints left/top, radius 10px, fill #FFFFFF
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #FFFFFF
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #FFFFFF 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #FFFFFF
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #FFFFFF, text [SF Pro Display Medium, 17px]
+  - RECTANGLE "letter1 1", 390x85.8px, constraints left/top, fill image(hash: 7d58ebd6f106d0a1e5f7e2fcab06fe447abaa05c)
+  - GROUP "Group 1", 340x60px, constraints left/top, radius 50px
+    - RECTANGLE "Rectangle 9", 340x60px, constraints left/top, radius 50px, fill #882DFF
+    - TEXT "Sign in", 220x25px, constraints left/bottom, fill #FFFFFF, text [SF Pro Display Bold, 24px], [heading]
+  - GROUP "Group 2", 340x60px, constraints left/top, radius 0/0/0/0px
+    - RECTANGLE "Rectangle 8", 340x60px, constraints left/top, radius 50px, fill #F5F5F5
+    - TEXT "Join Letterboxd", 220x25px, constraints left/bottom, fill #000000, text [SF Pro Display Bold, 22px]
+    - FRAME "material-symbols:login", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 19.5x19.5px, constraints scale/scale, fill #000000
+
+Screen: Page 1 / 8
+- FRAME "8", 390x844px, constraints left/top, radius 10px, fill #14171C
+  - FRAME "Frame 8", 343x1604px, constraints center/top
+    - RECTANGLE "Rectangle 21", 343x180px, constraints left/top, radius 10/10/0/0px, fill image(hash: bd56cc0d8ea72026b31189d75beec8ad97554ad1)
+    - RECTANGLE "Rectangle 22", 343x80px, constraints left/top, radius 0/0/10/10px, fill #223344
+    - RECTANGLE "Rectangle 24", 343x180px, constraints left/top, radius 10/10/0/0px, fill image(hash: f5d327c87e08c0f5f1f6a3f950c962e8eb200a93)
+    - RECTANGLE "Rectangle 23", 343x80px, constraints left/top, radius 0/0/10/10px, fill #223344
+    - RECTANGLE "Rectangle 26", 343x180px, constraints left/top, radius 10/10/0/0px, fill image(hash: 9b618e040483377ece935217b4489cbd03306b7a)
+    - RECTANGLE "Rectangle 25", 343x80px, constraints left/top, radius 0/0/10/10px, fill #223344
+    - RECTANGLE "Rectangle 30", 343x180px, constraints left/top, radius 10/10/0/0px, fill image(hash: d07f6a8868cd8c02ef9e9028e5c7a6cb76189606)
+    - RECTANGLE "Rectangle 27", 343x80px, constraints left/top, radius 0/0/10/10px, fill #223344
+    - RECTANGLE "Rectangle 31", 343x180px, constraints left/top, radius 10/10/0/0px, fill image(hash: 3cde783d8224cef798192b6dea3a8e5745f762ca)
+    - RECTANGLE "Rectangle 28", 343x80px, constraints left/top, radius 0/0/10/10px, fill #223344
+    - RECTANGLE "Rectangle 32", 343x180px, constraints left/top, radius 10/10/0/0px, fill image(hash: 9b0be09fea5fb8b1fa3e3b281693f7af964a02e0)
+    - RECTANGLE "Rectangle 29", 343x80px, constraints left/top, radius 0/0/10/10px, fill #223344
+    - TEXT "Seoul Searching", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+    - TEXT "Boxd Office: Long live the birds!", 250x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+    - TEXT "Man on a Mission", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+    - TEXT "Main-Character Syndrome", 200x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+    - TEXT "Pretty in Pink", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+    - TEXT "Firestarters", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+    - TEXT "Filmmaker Davy Chou on the anger and alienation of Return to", 320x31px, constraints left/top, fill #99AABB, text [SF Pro Display Medium, 10px]
+    - TEXT "Hayao Miyazaki’s new feature film takes flight in Japan", 320x22px, constraints left/top, fill #99AABB, text [SF Pro Display Medium, 10px]
+    - TEXT "high-flying director Christopher McQuarrie supplies us with ", 320x34px, constraints left/top, fill #99AABB, text [SF Pro Display Medium, 10px]
+    - TEXT "Molly Gordon and Ben Platt on the self-seriousness of Theate", 320x23px, constraints left/top, fill #99AABB, text [SF Pro Display Medium, 10px]
+    - TEXT "Barbie fans detail the important tropes, villains and romanc", 320x39px, constraints left/top, fill #99AABB, text [SF Pro Display Medium, 10px]
+    - TEXT "a look inside sci-fi series Kizazi Moto: Generation Fire", 320x24px, constraints left/top, fill #99AABB, text [SF Pro Display Medium, 10px]
+  - INSTANCE "& HomeIndicator", 375x34px, constraints left/top
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 390x157px, constraints left/top, radius 10/10/0/0px, fill #445566
+  - INSTANCE "tabs", 313x41px, constraints left/top
+    - TEXT "FILMS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "REVIEWS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "LISTS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - TEXT "JOURNAL", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+    - LINE "Line 1", 70x0px, constraints left/top, stroke #00E054 2.5px
+  - FRAME "ic:baseline-search", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 18.95x18.95px, constraints scale/scale, fill #FFFFFF
+  - FRAME "uil:bars", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 21.67x13px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Popular", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 20px]
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #FFFFFF
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #FFFFFF 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #FFFFFF
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #FFFFFF, text [SF Pro Display Medium, 17px]
+
+Screen: Page 1 / 10
+- FRAME "10", 390x844px, constraints left/top, radius 10px, fill #14171C
+  - GROUP "Mask group", 390x240px, constraints left/top
+    - RECTANGLE "Rectangle 38", 390x240px, constraints left/top, fill gradient_linear(#FFFFFF 81% | #D9D9D900 100%)
+    - RECTANGLE "Rectangle 38", 390x240px, constraints left/top, fill image(hash: a18ae2f944fe0bb904c828d18ef5dff0e72d411e)
+  - TEXT "Mission: Impossible - Dead Reckoning Part One", 233x50px, constraints left/top, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+  - RECTANGLE "Rectangle 2", 100x150px, constraints left/top, radius 5px, fill image(hash: 1cb086b31849768c674cf3df0b2b54a5459b9475), stroke #969696 0.5px
+  - TEXT "Christopher McQuarrie", 180x20px, constraints left/top, fill #99AABB, text [SF Pro Display Bold, 14px]
+  - TEXT "DIRECTED BY", 80x30px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+  - TEXT "WE ALL SHARE THE SAME FATE.", 199x30px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+  - TEXT "RATINGS", 65x25px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+  - TEXT "Ethan Hunt and his IMF team embark on their most dangerous m", 350x70px, constraints left/top, fill #8899AA, text [SF Pro Display Medium, 12px]
+  - TEXT "2023", 48x30px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+  - TEXT "4.0", 48x30px, constraints left/top, fill #8899AA, text [Satoshi Light, 25px], [heading]
+  - TEXT "163 mins", 60x30px, constraints left/top, fill #8899AA, text [SF Pro Display Medium, 12px]
+  - TEXT "TRAILER", 69x20px, constraints right/top, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+  - VECTOR "Line 9", 250x0px, constraints left/top, stroke #969696 0.5px, opacity 44%
+  - GROUP "Group 7", 357x16px, constraints left/top [decorative, ~6 shapes]
+  - RECTANGLE "Rectangle 45", 23x22px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 50", 23x10px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 46", 23x45px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 51", 23x5px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 47", 23x66px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 52", 23x2px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 48", 23x45px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 53", 23x2px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 49", 23x27px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 54", 23x1px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 33", 355x50px, constraints center/top, radius 10px, fill #556677
+  - ... +8 more children
+
+Screen: Page 1 / 11
+- FRAME "11", 390x844px, constraints left/top, radius 10px, fill #14171C
+  - TEXT "Past Lives", 121x30px, constraints left/top, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+  - TEXT "Celine Song", 180x20px, constraints left/top, fill #99AABB, text [SF Pro Display Bold, 14px]
+  - TEXT "DIRECTED BY", 80x30px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+  - TEXT "I JUST WANTED TO SEE YOU ONE MORE TIME.", 300x30px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+  - TEXT "RATINGS", 65x25px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+  - TEXT "Two childhood friends are separated after one’s family emigr", 350x70px, constraints left/top, fill #8899AA, text [SF Pro Display Medium, 12px]
+  - TEXT "2023", 48x30px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+  - TEXT "4.4", 48x30px, constraints left/top, fill #8899AA, text [Satoshi Light, 25px], [heading]
+  - TEXT "106 mins", 60x30px, constraints left/top, fill #8899AA, text [SF Pro Display Medium, 12px]
+  - TEXT "TRAILER", 69x20px, constraints right/top, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+  - VECTOR "Line 9", 250x0px, constraints left/top, stroke #969696 0.5px, opacity 44%
+  - GROUP "Group 7", 357x16px, constraints left/top [decorative, ~6 shapes]
+  - RECTANGLE "Rectangle 45", 23x51px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 50", 23x7px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 46", 23x45px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 51", 23x3px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 47", 23x50px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 52", 23x2px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 48", 23x20px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 53", 23x1px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 49", 23x17px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 54", 23x1px, constraints left/top, fill #445565
+  - RECTANGLE "Rectangle 33", 355x50px, constraints center/top, radius 10px, fill #556677
+  - ELLIPSE "Ellipse 11", 35x35px, constraints center/top, fill image(hash: 255ca75656be1cc775904e098710ba44419990b8)
+  - TEXT "You’ve reviewed this film", 200x20px, constraints right/top, fill #DDEEFF, text [SF Pro Display Medium, 12px]
+  - ... +8 more children
+
+Screen: Page 1 / Group 17
+- GROUP "Group 17", 1675x1000px, constraints left/top, radius 0/0/0/0px
+  - RECTANGLE "Rectangle 78", 1675x1000px, constraints left/top, fill gradient_linear(#000000E8 0% | #FFFFFF80 100%)
+  - FRAME "15", 390x844px, constraints left/top, radius 10px, fill #14171C
+    - FRAME "Frame 1", 380x150px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top [decorative, ~9 shapes]
+    - INSTANCE "& HomeIndicator", 375x34px, constraints left/top
+      - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+    - RECTANGLE "Rectangle 1", 390x157px, constraints left/top, radius 10/10/0/0px, fill #445566
+    - FRAME "ic:baseline-search", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 18.95x18.95px, constraints scale/scale, fill #FFFFFF
+    - FRAME "uil:bars", 26x26px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 21.67x13px, constraints scale/scale, fill #FFFFFF
+    - TEXT "Popular", 100x20px, constraints left/top, fill #FFFFFF, text [Satoshi Bold, 20px]
+    - TEXT "Popular this week", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 16px]
+    - INSTANCE "tabs", 313x41px, constraints left/top
+      - TEXT "FILMS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+      - TEXT "REVIEWS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+      - TEXT "LISTS", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+      - TEXT "JOURNAL", 68x34px, constraints left/top, fill #FFFFFF, text [Outfit Medium, 14px]
+      - LINE "Line 1", 70x0px, constraints left/top, stroke #00E054 2.5px
+    - TEXT "New from friends", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 16px]
+    - TEXT "Popular with friends", 173x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 16px]
+    - FRAME "Frame 2", 380x150px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top [decorative, ~9 shapes]
+    - FRAME "Frame 3", 380x150px, horizontal pad 0 0 0 0px gap 4px sizing W:fixed H:fixed, constraints left/top [decorative, ~9 shapes]
+    - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+      - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+        - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+          - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #FFFFFF
+        - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+          - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #FFFFFF
+        - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+          - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #FFFFFF 1px, opacity 40%
+          - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 50%
+          - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #FFFFFF
+      - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+        - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+      - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+        - TEXT "Time", 32x17px, constraints center/center, fill #FFFFFF, text [SF Pro Display Medium, 17px]
+  - FRAME "14", 390x844px, constraints left/top, radius 10px, fill #14171C
+    - TEXT "Past Lives", 121x30px, constraints left/top, fill #FFFFFF, text [SF Pro Display Medium, 20px]
+    - TEXT "Celine Song", 180x20px, constraints left/top, fill #99AABB, text [SF Pro Display Bold, 14px]
+    - TEXT "DIRECTED BY", 80x30px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+    - TEXT "I JUST WANTED TO SEE YOU ONE MORE TIME.", 300x30px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+    - TEXT "RATINGS", 65x25px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+    - TEXT "Two childhood friends are separated after one’s family emigr", 350x70px, constraints left/top, fill #8899AA, text [SF Pro Display Medium, 12px]
+    - TEXT "2023", 48x30px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+    - TEXT "4.4", 48x30px, constraints left/top, fill #8899AA, text [Satoshi Light, 25px], [heading]
+    - TEXT "106 mins", 60x30px, constraints left/top, fill #8899AA, text [SF Pro Display Medium, 12px]
+    - TEXT "TRAILER", 69x20px, constraints right/top, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+    - VECTOR "Line 9", 250x0px, constraints left/top, stroke #969696 0.5px, opacity 44%
+    - GROUP "Group 7", 357x16px, constraints left/top [decorative, ~6 shapes]
+    - RECTANGLE "Rectangle 45", 23x51px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 50", 23x7px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 46", 23x45px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 51", 23x3px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 47", 23x50px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 52", 23x2px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 48", 23x20px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 53", 23x1px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 49", 23x17px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 54", 23x1px, constraints left/top, fill #445565
+    - RECTANGLE "Rectangle 33", 355x50px, constraints center/top, radius 10px, fill #556677
+    - ELLIPSE "Ellipse 11", 35x35px, constraints center/top, fill image(hash: 255ca75656be1cc775904e098710ba44419990b8)
+    - TEXT "You’ve reviewed this film", 200x20px, constraints right/top, fill #DDEEFF, text [SF Pro Display Medium, 12px]
+    - ... +8 more children
+
+Screen: Page 1 / 9
+- FRAME "9", 390x844px, constraints left/top, radius 10px, fill #14171C
+  - TEXT "FAVORITES", 70x15px, constraints center/top, fill #99AABB, text [SF Pro Display Medium, 12px]
+  - TEXT "RECENT ACTIVITY", 120x15px, constraints center/top, fill #99AABB, text [SF Pro Display Medium, 12px]
+  - TEXT "MORE ACTIVITY", 120x15px, constraints center/top, fill #99AABB, text [SF Pro Display Medium, 12px]
+  - LINE "Line 8", 390x0px, constraints left/top, stroke #99AABB 0.5px, opacity 44%
+  - LINE "Line 9", 390x0px, constraints left/top, stroke #99AABB 0.5px, opacity 44%
+  - LINE "Line 10", 390x0px, constraints left/top, stroke #99AABB 0.5px, opacity 44%
+  - GROUP "Group 5", 352x120px, constraints left/top [decorative, ~4 shapes]
+  - GROUP "Group 6", 352x120px, constraints left/top [decorative, ~4 shapes]
+  - INSTANCE "& HomeIndicator", 375x34px, constraints left/top
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 390x118px, constraints left/top, radius 10/10/0/0px, fill #445566
+  - FRAME "ic:outline-arrow-back", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.33x17.33px, constraints scale/scale, fill #FFFFFF
+  - FRAME "tabler:dots", 26x26px, constraints right/top, fill #FFFFFF
+    - VECTOR "Vector", 2.17x17.33px, constraints scale/scale, stroke #FFFFFF 2.17px
+  - TEXT "Meenakshi", 120x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 18px]
+  - ELLIPSE "Ellipse 11", 90x90px, constraints center/top, fill image(hash: 255ca75656be1cc775904e098710ba44419990b8)
+  - RECTANGLE "Rectangle 33", 70x25px, constraints left/top, radius 5px, fill #556677
+  - TEXT "CREW", 69x20px, constraints right/top, fill #FFFFFF, text [SF Pro Display Medium, 14px]
+  - TEXT "Editor at Letterboxd, Head of Editorial at Girls on Tops, fr", 300x34px, constraints center/top, fill #99AABB, text [SF Pro Display Medium, 12px]
+  - FRAME "Frame 9", 271x20px, constraints center/top
+    - TEXT "Chennai", 50x20px, constraints left/top, fill #8899AA, text [SF Pro Display Regular, 12px]
+    - FRAME "mdi:web", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x13.33px, constraints scale/scale, fill #66778899
+    - TEXT "Meenakshi.co.in", 94x20px, constraints left/top, fill #8899AA, text [SF Pro Display Regular, 12px]
+    - FRAME "mdi:twitter", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.95x11.33px, constraints scale/scale, fill #66778899
+    - TEXT "@meenu", 53x20px, constraints left/top, fill #8899AA, text [SF Pro Display Regular, 12px]
+    - FRAME "mdi:location", 17x17px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 9.92x14px, constraints scale/scale, fill #66778899
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #FFFFFF
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #FFFFFF 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #FFFFFF
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #FFFFFF, text [SF Pro Display Medium, 17px]
+
+Screen: Page 1 / 12
+- FRAME "12", 390x844px, constraints left/top, radius 10px, fill #14171C
+  - FRAME "Frame 10", 390x1032px, constraints left/top
+    - RECTANGLE "Rectangle 55", 390x50px, constraints left/top, fill #303940
+    - GROUP "Group 9", 368x74px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "18", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 0d6cc78b6c29277ddd21875c9ef3eb69c309433b)
+      - TEXT "Barbie", 50x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 76x16px, constraints left/top [decorative, ~5 shapes]
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+      - LINE "Line 10", 270x0px, constraints center/top, stroke #99AABB 1px, opacity 44%
+    - GROUP "Group 10", 368x74px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "18", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: a6732e41839b39b77bf1195a6bebff275e41cd8b)
+      - TEXT "Oppenheimer", 100x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 76x16px, constraints left/top [decorative, ~5 shapes]
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+      - LINE "Line 10", 270x0px, constraints center/top, stroke #99AABB 1px, opacity 44%
+    - GROUP "Group 11", 368x74px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "15", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 6850a1f87bae8574f4860ff60318b3015c4a4e55)
+      - TEXT "Past Lives", 80x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 76x16px, constraints left/top [decorative, ~5 shapes]
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+      - LINE "Line 10", 270x0px, constraints center/top, stroke #99AABB 1px, opacity 44%
+    - GROUP "Group 12", 368x74px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "14", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 1cb086b31849768c674cf3df0b2b54a5459b9475)
+      - TEXT "Mission: Impossible - Dead Reckoning Part One", 200x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 76x16px, constraints left/top [decorative, ~5 shapes]
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+      - LINE "Line 10", 270x0px, constraints center/top, stroke #99AABB 1px, opacity 44%
+    - GROUP "Group 13", 368x74px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "12", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 134546dff6a3db75c2c5db8a72fac6bec5fbf4b8)
+      - TEXT "Samajavaragamana", 137x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 31x16px, constraints left/top
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+      - LINE "Line 10", 270x0px, constraints center/top, stroke #99AABB 1px, opacity 44%
+    - GROUP "Group 14", 368x74px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "10", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 7699c135805526366d35cfdd14c2e4580685ccb5)
+      - TEXT "Nimona", 80x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 61x16px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+      - LINE "Line 10", 270x0px, constraints center/top, stroke #99AABB 1px, opacity 44%
+    - GROUP "Group 15", 368x74px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "7", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 9081e1b2fc48b25c16ac2056248e515c8bed06a2)
+      - TEXT "Interstellar", 80x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 76x16px, constraints left/top [decorative, ~5 shapes]
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+      - LINE "Line 10", 270x0px, constraints center/top, stroke #99AABB 1px, opacity 44%
+    - GROUP "Group 16", 292x60px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "5", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 3b827de78ccfcc861040865c752aba4ce5925b28)
+      - TEXT "Indiana Jones and the Dial of Destiny", 181x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 31x16px, constraints left/top
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+    - RECTANGLE "Rectangle 55", 390x50px, constraints left/top, fill #303940
+    - GROUP "Group 9", 368x74px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "24", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 4c0de1ed8655e4eb5369184595756b56b1de4dff)
+      - TEXT "Satyaprem Ki Katha", 150x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 46x16px, constraints left/top
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+      - LINE "Line 10", 270x0px, constraints center/top, stroke #99AABB 1px, opacity 44%
+    - GROUP "Group 10", 368x74px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "21", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 1d6481cd06267e43605997a898252445227ae0ef)
+      - TEXT "Long Shot", 77x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 61x16px, constraints left/top [decorative, ~4 shapes]
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+      - LINE "Line 10", 270x0px, constraints center/top, stroke #99AABB 1px, opacity 44%
+    - GROUP "Group 11", 253x60px, constraints left/top, radius 0/0/0/0px
+      - RECTANGLE "Rectangle 56", 45x60px, constraints left/top, radius 5px, stroke #969696 0.5px
+      - TEXT "18", 30x18px, constraints left/top, fill #8899AACC, text [SF Pro Display Regular, 20px]
+      - RECTANGLE "Rectangle 57", 40x60px, constraints left/top, fill image(hash: 873834a399d9b299e712447251334d3271c3c5eb)
+      - TEXT "Ala Modalaindi", 114x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 14px]
+      - GROUP "Group 8", 46x16px, constraints left/top
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+        - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+          - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+      - TEXT "2023", 37x15px, constraints left/top, fill #8899AA, text [Satoshi Medium, 12px]
+    - TEXT "JULY 2023", 110x30px, constraints center/center, fill #DFE6EA, text [SF Pro Display Medium, 16px]
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - FRAME "material-symbols:star", 16x16px, constraints left/top, fill #FFFFFF
+      - VECTOR "Vector", 13.33x12.67px, constraints scale/scale, fill #00E054
+    - TEXT "JUNE 2023", 110x30px, constraints center/center, fill #DFE6EA, text [SF Pro Display Medium, 16px]
+  - INSTANCE "& HomeIndicator", 375x34px, constraints center/top
+    - RECTANGLE "Home Indicator", 134x5px, constraints center/bottom, radius 100px, fill #FFFFFF
+  - RECTANGLE "Rectangle 1", 390x118px, constraints left/top, radius 10/10/0/0px, fill #445566
+  - FRAME "bi:filter", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 19.5x11.38px, constraints scale/scale, fill #FFFFFF
+  - FRAME "ic:outline-arrow-back", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.33x17.33px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Diary", 70x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 18px]
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #FFFFFF
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #FFFFFF 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #FFFFFF
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #FFFFFF, text [SF Pro Display Medium, 17px]
+
+Screen: Page 1 / 13
+- FRAME "13", 390x844px, constraints left/top, radius 10px, fill #14171C
+  - FRAME "Frame 11", 379x785px, constraints center/bottom [decorative, ~24 shapes]
+  - RECTANGLE "Rectangle 1", 390x118px, constraints left/top, radius 10/10/0/0px, fill #445566
+  - FRAME "bi:filter", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 19.5x11.38px, constraints scale/scale, fill #FFFFFF
+  - FRAME "ic:outline-arrow-back", 26x26px, constraints left/top, fill #FFFFFF
+    - VECTOR "Vector", 17.33x17.33px, constraints scale/scale, fill #FFFFFF
+  - TEXT "Watchlist", 90x20px, constraints left/top, fill #FFFFFF, text [SF Pro Display Bold, 18px]
+  - INSTANCE "Status Bar / iPhone 13 & 13 Pro", 390x47px, constraints left/top, fill #FFFFFF
+    - FRAME "Indicators", 78.3x13px, horizontal pad 0 0 0 0px gap 7px align min/center sizing W:fixed H:fixed, constraints right/top
+      - INSTANCE "Elements / Signal", 19.97x12px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Cellular Connection", 19.97x12px, constraints scale/scale, fill #FFFFFF
+      - INSTANCE "Elements / Connection", 17x12.5px, constraints right/center, fill #FFFFFF
+        - BOOLEAN_OPERATION "Wifi", 17x12.5px, constraints right/top, fill #FFFFFF
+      - INSTANCE "Elements / Battery", 27.33x13px, constraints right/top, fill #FFFFFF
+        - RECTANGLE "Border", 25x13px, constraints scale/scale, radius 4px, stroke #FFFFFF 1px, opacity 40%
+        - VECTOR "Cap", 1.33x4px, constraints scale/scale, fill #FFFFFF, opacity 50%
+        - RECTANGLE "Capacity", 17x9px, constraints scale/scale, radius 2px, fill #FFFFFF
+    - INSTANCE "Mic & Cam", 6x6px, constraints left/top
+      - ELLIPSE "Mic/Cam Indicator", 6x6px, constraints scale/scale
+    - INSTANCE "Elements / Time", 32x17px, horizontal pad 0 0 0 0px gap 2px align center/center sizing W:fixed H:fixed, constraints center/center, fill #FFFFFF
+      - TEXT "Time", 32x17px, constraints center/center, fill #FFFFFF, text [SF Pro Display Medium, 17px]
+
+
+## Editing Notes
+- Refine this file after extraction to add brand context and rationale.
+- Keep token names synchronized with Figma styles and variables.
+- Add usage examples and anti-patterns for critical components.
